@@ -1,209 +1,212 @@
 ---
-title: 'The Sunflower Movement — Twelve Years After Those Thirty Seconds'
-description: "A legislator lying on the floor read thirty seconds of text into a lapel microphone, triggering a twenty-four-day occupation of parliament, a generational political awakening, and the starting point of Taiwan's economic pivot away from China. Twelve years later, the law the students demanded never passed — but they won a war they did not know they were fighting."
+title: 'The Sunflower Student Movement — Twelve Years After Those Thirty Seconds'
+description: "A legislator lay on the floor and read for thirty seconds using a lapel microphone, triggering a twenty-four-day occupation of the legislature, a political awakening for a generation, and the starting point of Taiwan's economic shift away from China. Twelve years later, the laws the students demanded were not passed, but they won a war they didn't know they were fighting."
 date: 2026-04-12
 tags:
-  - 'social movements'
-  - 'democracy'
-  - 'cross-strait relations'
-  - 'civic technology'
-category: 'Society'
-subcategory: '民主與政治'
+  [
+    'Social Movements',
+    'Democracy',
+    'Cross-Strait Relations',
+    'Civic Technology',
+  ]
+subcategory: 'Democracy and Politics'
 author: 'Taiwan.md'
-featured: true
+category: 'Society'
+readingTime: 12
 lastVerified: 2026-04-12
 lastHumanReview: false
 translatedFrom: 'Society/太陽花學運.md'
-sourceCommitSha: '7b8c0d48'
-sourceContentHash: 'sha256:8a36018a77b69fe4'
-sourceBodyHash: 'sha256:7c672299649957c4'
-translatedAt: '2026-05-25T21:06:51Z'
+sourceCommitSha: '1844f59c5'
+sourceContentHash: 'sha256:de374340ca4140af'
+translatedAt: '2026-06-09T02:11:39+08:00'
 ---
 
-> **30-Second Overview:** On March 17, 2014, KMT legislator Chang Ching-chung, pinned to the floor by opposition lawmakers, used a lapel microphone to declare in thirty seconds that the Cross-Strait Service Trade Agreement was "deemed reviewed." The next night, over two hundred students stormed parliament, set up a 24-hour iPad livestream, and refused to leave for twenty-four days. The trade deal was never voted down — history buried it instead. Twelve years later: Taiwan's export dependence on China dropped from 42% to 31.5%. The students won a war they didn't know they were fighting.
+> **30-Second Overview:** On March 17, 2014, KMT legislator Chang Ching-chung lay on the floor and used a small microphone clipped to his lapel to announce in thirty seconds that the Cross-Strait Service Trade Agreement (CSSTA) was "deemed reviewed." Overnight, over two hundred students scaled the walls to occupy the Legislative Yuan, setting up a twenty-four-hour live stream using an iPad, bypassing all television stations. Twenty-four days later, the students withdrew; the CSSTA was not vetoed—it was abandoned by history. The numbers twelve years later say it all: Taiwan's trade dependence on China fell from 42% to 31.5%. They won a war they didn't know they were fighting.
 
-| 42% → 31.5%                               | NT$6.33 million                           |
-| ----------------------------------------- | ----------------------------------------- |
-| Export dependence on China+HK (2014→2025) | NYT ad crowdfunded (35 min to hit target) |
+| 42% → 31.5%                                                  | NT$ 6.33 million                                             |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Decline in export dependence on China (incl. HK) (2014→2025) | Crowdfunding for New York Times ad (reached goal in 35 mins) |
 
 ## Thirty Seconds
 
-March 17, 2014, afternoon. The Internal Affairs Committee of Taiwan's Legislative Yuan. Opposition DPP legislators seized the speaker's podium to block review of the Cross-Strait Service Trade Agreement (CSSTA). KMT legislator Chang Ching-chung was pinned to the floor. He struggled, found the small microphone clipped to his collar, and stammered: "The Cross-Strait Service Trade Agreement is sent to the plenary session. Meeting adjourned."[^1]
+On the afternoon of March 17, 2014, in the Legislative Yuan's Committee on Internal Affairs. DPP legislators occupied the chair to block the review of the CSSTA. KMT legislator Chang Ching-chung was pinned to the floor. He struggled, reached for the small microphone clipped to his lapel, and stammered: "The Cross-Strait Service Trade Agreement, sent to the plenary session for handling, adjourned."[^1]
 
-Thirty seconds. An agreement affecting Taiwan's finance, telecom, publishing, transportation, and eight other service sectors was "deemed reviewed."[^2]
+Thirty seconds. An agreement affecting eleven industrial sectors including Taiwan's finance, telecommunications, publishing, and transportation was thus "deemed reviewed."[^2]
 
-In 2016, Chang lost his re-election bid in Zhonghe, defeated by the DPP's Chiang Yung-chang. The only thing people remember about him now is his nickname: "Half-Minute Chung."[^3]
+In 2016, Chang Ching-chung failed to be re-elected in the Zhonghe constituency, losing to the DPP's Jiang Yong-chang. From then on, the only way people remembered him was by the nickname "Half-Minute Chung" (Ban Fen Zhong).[^3]
 
-But what those thirty seconds actually changed was far larger than one legislator's career.
+But what the thirty seconds truly changed was far greater than one legislator's political life.
 
-## The Door They Climbed Over
+## The Gate That Was Climbed Over
 
-At 9:30 PM on March 18, over two hundred students and civic activists breached police lines through a side entrance on Qingdao East Road and rushed into the parliamentary chamber[^4]. Leading the charge were Lin Fei-fan, a political science graduate student at National Taiwan University, and Chen Wei-ting from National Tsing Hua University's sociology program. But what made the occupation work wasn't any one person's decision — it was what everyone did together after climbing through that door.
+At 9:30 PM on March 18, over two hundred students and members of civic groups broke through police lines at the side gate on Qingdao East Road and rushed into the legislative chamber.[^4] Led by NTU Political Science graduate student Lin Fei-fan and NTHU Sociology graduate student Chen Wei-ting, what truly made the occupation possible was not any single person's decision, but what everyone did together after climbing over that gate.
 
-It was the first time Taiwan's parliament had been occupied since democratization.
+This was the first occupation of the legislature since Taiwan's democratization.
 
-Inside, the students issued three demands: withdraw CSSTA, a presidential apology from [[Ma Ying-jeou]], and the resignation of Premier Jiang Yi-huah. Outside, thousands gathered daily around the legislature, peaking above ten thousand. But what truly set this movement apart wasn't the crowd size.
+Inside the chamber, students presented three demands: return the CSSTA, President [[Ma Ying-jeou]] apologize, and Premier [[Chiang Yi-chia]] resign. Outside the chamber, thousands gathered daily around the Legislative Yuan, peaking at over ten thousand. But what made this movement truly different was not the number of people.
 
-## One iPad Against Every Camera
+## An iPad Against All Cameras
 
-On the night of the occupation, engineers from [[g0v]] (gov-zero), Taiwan's open-source civic hacker community, set up inside the chamber. They built decentralized supply-request spreadsheets on Hackpad; consolidated all information through Hackfoldr (co-maintained by Audrey Tang, later Taiwan's Digital Minister); and, most critically, strapped an iPad to a microphone stand for a 24-hour Ustream livestream that bypassed every mainstream media outlet's editorial framing[^5].
+On the night of the occupation, engineers from the [[Open Source Community and g0v]] Zero Hour Government moved into the chamber. They used Hackpad to create a decentralized material needs and shift schedule; they used Hackfoldr (one of whose main maintainers was Tang Feng, who later became the Digital Minister) to integrate all information portals; most crucially, an iPad was strapped to a microphone stand for a twenty-four-hour Ustream live stream, bypassing the interpretive frameworks of all mainstream media.[^5]
 
 > **📝 Curator's Note**
-> Taiwan in 2014 didn't have TikTok yet. Instagram was barely catching on. An iPad was the era's independent media. When the 3G signal inside the chamber maxed out, a team from Academia Sinica set up a directional antenna to beam WiMax into the building, then brought in over twenty USB Ethernet adapters. This wasn't improvisation — it was engineers building infrastructure.
+> Taiwan in 2014 did not have TikTok; Instagram was just starting to become popular. An iPad was the independent media of that era. After the 3G signal in the chamber became congested, the Academia Sinica team pulled directional antennas to push WiMax signals in, and brought in over twenty USB Ethernet cables. This was not improvised; it was engineers building infrastructure.
 
-On the morning of March 24, eleven netizens launched a crowdfunding campaign on FlyingV to "buy front-page ads." In thirty-five minutes they raised NT$1.5 million, hitting the target for a half-page in Taiwan's Apple Daily. Within three hours, 3,495 backers had contributed over NT$6.7 million[^6]. Five days later, a full-page ad designed by Aaron Nieh appeared on page five of the New York Times International Asia Edition. The headline: "Democracy at 4am."[^7]
+At 9:00 AM on March 24, eleven netizens launched the "Group Purchase Front Page Ad" campaign on the crowdfunding platform FlyingV. In thirty-five minutes, they raised NT$1.5 million, reaching the target for half a page in the _Apple Daily_; within three hours, 3,495 people participated, raising over NT$6.3 million.[^6] Five days later, a full-page ad designed by artist Nie Yongzhen appeared on the fifth page of the International Asia section of _The New York Times_, with the four-word headline: "Democracy at 4am".[^7]
 
-That was democracy at four in the morning. The "4am" referred to the time of the Executive Yuan crackdown.
+That was democracy at 4 AM. And that "4 AM" referred to the time of the March 23 Executive Yuan eviction.
 
-## Water Cannons and Batons
+## The Night of Water Trucks and Batons
 
-On the evening of March 23, roughly a thousand protesters attempted to occupy the Executive Yuan. Premier Jiang Yi-huah ordered forced dispersal. Starting in the early hours of March 24, riot police deployed water cannons, batons, and shields in six waves of clearing operations, injuring over 150 people[^8].
+On the evening of March 23, approximately one thousand people attempted to occupy the Executive Yuan, escalating the protest. Executive Yuan Premier Chiang Yi-chia ordered forced eviction. Starting at dawn on March 24, riot police deployed water trucks, batons, and shields, launching six waves of clearing operations, resulting in over 150 injuries.[^8]
 
-The Control Yuan's investigation confirmed police used "violent measures exceeding the principle of proportionality," with some officers acting with "animosity toward civilians."[^9]
+The Control Yuan's investigation report confirmed that the police "used violent means exceeding the principle of proportionality to execute the eviction," and some officers "harbored resentment towards the public."[^9]
 
-> **✦** Lin Chih-chieh walked into the Executive Yuan lobby that night to sit in peaceful protest. During the crackdown, he was struck on the head with a police baton, causing intracranial hemorrhage. He was dragged down a staircase, injuring his spine — among the most severely wounded. After eight years of litigation: his private prosecution failed; his state compensation suit succeeded. He was awarded NT$100,000.[^10]
+> **✦** Lin Chih-chieh walked into the Executive Yuan lobby to sit in protest that early morning. During the eviction, his head was struck heavily by a baton, causing intracranial hemorrhage; he was dragged down the stairs, causing spinal injury. He was one of the protesters with the most severe injuries that day. After eight years of litigation, his private prosecution case was dismissed, but his state compensation case was won, resulting in NT$100,000 in compensation.[^10]
 
-Lin Jui-tzu was dragged by her arms, her hair pulled along the ground, suffering torn shoulder ligaments and bruised back and legs. After eight years of litigation, both her private prosecution and state compensation suits failed. She received nothing. Ten years later she told The Reporter: "I still can't tell my parents what happened that night."[^10]
+Lin Hui-ju (Lin Xiao-chiu) had her arm dragged and her hair pulled along the ground, causing shoulder ligament strain. After eight years of litigation, both her private prosecution and state compensation cases were dismissed, and she received not a single cent. Ten years later, she told _The Reporter_: "I cannot let my parents know what happened that night."[^10]
 
-The blood of March 23, broadcast live across Taiwan, produced not fear but fury.
+The blood from March 23 spread across Taiwan via live streaming, sparking not fear, but public outrage.
 
-## Island Sunrise
+## Dawn Over the Island
 
-On March 23, Fire EX. frontman Yang Da-jeng went to the Legislative Yuan looking for songwriting inspiration. He saw Lin Fei-fan's reaction to news of the Executive Yuan crackdown. Lin told him: "We need a little gentle strength."[^11]
+On March 23, Yang Ta-cheng, lead singer of the band Fire EX, went to the Legislative Yuan for inspiration. He saw Lin Fei-fan's reaction upon learning of the Executive Yuan eviction. Lin Fei-fan said to him: "We need a little gentle power."[^11]
 
-Yang picked up his acoustic guitar. Two days later he had a finished song. "The sky grows slowly bright, the hope inside our hearts, like the power of the eastern sunrise..."
+Yang Ta-cheng picked up his acoustic guitar and wrote a song in two days. "The sky gradually brightens, the hope in our hearts is like the power of the sunrise in the east..."
 
-March 30, Ketagalan Boulevard. Organizers claimed 500,000 attendees; police counted 116,000; the Associated Press estimated over 200,000. A sea of people in black stretched from the boulevard through Zhongxiao West Road and Zhongshan South Road, forming a black cross[^4]. "Island Sunrise" was sung in unison by hundreds of thousands for the first time.
+On March 30, at Ketagalan Boulevard. The organizers claimed 500,000 people; the police estimated 116,000; the Associated Press estimated over 200,000. A black cross formed by crowds in black clothing stretched from Ketagalan Boulevard to Zhongxiao West Road and Zhongshan South Road.[^4] _Island Dawn_ was sung together by hundreds of thousands of people on site for the first time.
 
-In 2015, the song won Best Song of the Year at the 26th Golden Melody Awards. Yang's acceptance speech began by thanking a taxi driver who returned a lost USB drive, then dedicated the award to everyone who participated in March 18: "They are the true subject of this song." He added: "For all those who worry about this country's future but never give up."[^12]
+In 2015, this song won the Best Annual Song at the 26th Golden Melody Awards. When Yang Ta-cheng went on stage to accept the award, he first thanked a taxi driver who picked up his USB drive, then dedicated the award to everyone who participated in the March 18 movement: "They are the true protagonists of this song."[^12]
 
-The song was subsequently banned in China.
+This song was later banned in China.
 
-## The Handshake Over Qingming Holiday
+## The Handshake During Qingming Festival
 
-After twenty-four days of occupation, the key to the exit wasn't a student decision — it was a phone call.
+After twenty-four days of occupation, the key to the withdrawal was not the students' decision, but a phone call.
 
-During the Qingming holiday weekend, Legislative Yuan President Wang Jin-pyng privately contacted the student leadership. The two sides had established mutual trust[^13]. On April 6, Wang formally announced: no cross-party negotiations on CSSTA would be convened until oversight legislation was completed.
+During the Qingming holiday, then-Legislative Yuan President Wang Jin-ping privately contacted the student movement's decision-making group. There was a certain foundation of mutual trust.[^13] On April 6, Wang Jin-ping officially announced outside the chamber: before the Cross-Strait Agreement Supervision Act was legislated, no party-group consultation meetings related to the CSSTA would be convened.
 
-On the evening of April 7, the students issued a statement titled "From Defense to Offense: Leave the Chamber, Sow the Seeds," declaring the movement's objectives achieved and announcing withdrawal for April 10 at 6 PM[^4].
+At 8:00 PM on April 7, the decision-making group issued a statement, _From Defense to Offense, Sowing Seeds Outside the Gate_, announcing that the阶段性 task was complete and they would withdraw from the chamber at 6:00 PM on April 10.[^4]
 
-On the evening of April 10, the students walked out. They left behind twenty-four days' worth of traces: banners, sleeping bags, charging cables, half-finished bottles of water.
+On the evening of April 10, the students walked out of the Legislative Yuan. The chamber left traces of twenty-four days: slogans, sleeping bags, charging cables, and half-drunk plastic bottles.
 
-1. **2014/3/17** — Chang's 30-second declaration
-2. **2014/3/18** — Students occupy parliament
-3. **2014/3/23** — Executive Yuan crackdown
-4. **2014/3/24** — NYT ad crowdfunded in 35 minutes
-5. **2014/3/30** — Ketagalan Boulevard rally; Island Sunrise
-6. **2014/4/6** — Wang Jin-pyng pledges oversight legislation
+1. **2014/3/17** — Chang Ching-chung's 30-second declaration
+2. **2014/3/18** — Students occupy the Legislative Yuan
+3. **2014/3/23** — Executive Yuan eviction incident
+4. **2014/3/24** — NYT ad crowdfunding reaches goal in 35 mins
+5. **2014/3/30** — Ketagalan gathering, _Island Dawn_
+6. **2014/4/6** — Wang Jin-ping promises supervision legislation
 7. **2014/4/10** — Students withdraw
 
-## CSSTA Died on Its Own
+## The CSSTA Died on Its Own
 
-The twenty-four-day occupation did not vote down the trade agreement. When the students left, Wang's promise was "legislate oversight first, then review" — not "never pass it."
+The twenty-four-day occupation did not veto the CSSTA. When the students withdrew, Wang Jin-ping's promise was "legislate first, then review," not "never pass."
 
-But CSSTA wasn't killed by law. It was killed by history.
+But the CSSTA was not vetoed by law. It was vetoed by history.
 
-After 2014, cross-strait relations cooled sharply. When Tsai Ing-wen took office in 2016, Beijing cut off official communication. The trade agreement sat quietly in a legislative drawer, transforming from controversial bill to historical artifact. Nobody voted against it. It simply was never mentioned again[^14].
+Cross-strait relations cooled rapidly after 2014. In 2016, Tsai Ing-wen took office, and Beijing cut off official communication channels. The CSSTA quietly lay in the Legislative Yuan's drawer, transforming from a controversial bill into a historical document. No one voted against it; it was simply never mentioned again.[^14]
 
-And the promise the students extracted through occupation?
+And what of the promise the students exchanged for the occupation?
 
-> **⚠️ Contested**
-> A standalone Cross-Strait Agreement Oversight Act was never passed. In 2025, the legislature amended the Act Governing Relations Between the People of Taiwan Area and the Mainland Area (adding Article 5-3), raising the threshold to constitutional-amendment level — three-quarters of legislators present, three-quarters approval, plus a national referendum — but this applies only to "political agreements" (sovereignty changes), not the economic agreements that triggered the movement[^15]. The umbrella the students demanded was only half-opened twelve years later.
+> **⚠️ Controversial Viewpoint**
+> The _Cross-Strait Agreement Supervision Act_ as an independent special law has still not been passed. In 2025, the Legislative Yuan passed the third reading of the _Act Governing the Relations Between the Peoples of the Taiwan Area and the Mainland Area_ (adding Article 5-3), raising the threshold to the level of constitutional amendment—three-quarters of legislators present, three-quarters agreeing, plus a referendum—but this only applies to "political issue agreements" (changes in sovereignty), not covering the economic agreements that ignited the movement.[^15] The umbrella the students demanded was only half-opened twelve years later.
 
 ## 42% → 31.5%
 
 But they won a war they didn't know they were fighting.
 
-The Sunflower Movement effectively ended the political imagination of cross-strait economic integration. In 2014, Taiwan's export dependence on China (including Hong Kong) was approximately 42%. By 2025, it had fallen to 31.5%[^16]. Over the same period, exports to the US rose from 11% to 16.7%[^17].
+The Sunflower Movement effectively ended the political imagination of cross-strait economic integration. In 2014, Taiwan's export dependence on China (including Hong Kong) was approximately 42%. By 2025, this figure was 31.5%.[^16] During the same period, exports to the US rose from 11% to 16.7%.[^17]
 
-| Arguments for CSSTA                    | Arguments against CSSTA                                       |
-| -------------------------------------- | ------------------------------------------------------------- |
-| Boost international competitiveness    | Chinese capital would devastate SMEs                          |
-| Deepen cross-strait economic ties      | Publishing diversity threatened                               |
-| Taiwan banks could open China branches | Risk of "pro-China interest blocs" (NTU Prof. Lin Hsiang-kai) |
+| Arguments Supporting the CSSTA                       | Arguments Opposing the CSSTA                                              |
+| ---------------------------------------------------- | ------------------------------------------------------------------------- |
+| Enhance international competitiveness                | Chinese capital will impact SMEs                                          |
+| Deepen cross-strait economic integration             | Threat to publishing diversity                                            |
+| Taiwan's financial sector can open branches in China | Formation of a "pro-China interest group" (words of NTU's Lin Hsiang-kai) |
 
-This shift wasn't entirely the Sunflower Movement's doing. The 2018 US-China trade war accelerated supply chain restructuring, with Taiwanese firms relocating from China to Vietnam and India. The Tsai government's New Southbound Policy strengthened Southeast Asian trade ties. But the Sunflower Movement was the starting point: it turned "the economy can't be overly dependent on China" from a fringe argument into social consensus.
+This shift was not entirely due to the Sunflower Movement. The US-China trade war in 2018 accelerated supply chain restructuring, prompting Taiwanese merchants to move production bases from China to Vietnam and India. The Tsai Ing-wen administration promoted the "New Southbound Policy" to strengthen Southeast Asian economic and trade relations. But the Sunflower Movement was the starting point: it turned the idea that "the economy cannot be overly dependent on China" from a marginal discourse into a social consensus.
 
-Publisher Rex How resigned as National Policy Advisor during the movement, writing in an open letter: "These industries are in fact the frontline of an 'economic and financial warfare.'"[^2] Twelve years later, he was right.
+Publisher Hao Ming-yi resigned as an Advisor to the Presidential Policy Council during the movement, writing in an open letter: "These industries are actually the scene of an 'economic and silver-bullet war'."[^2] Looking back twelve years later, he was right.
 
 ## Half-Minute Chung and the Deputy Secretary-General
 
-The people of the Sunflower Movement went in completely different directions.
+The people of the Sunflower Movement later went down completely different paths.
 
-Lin Fei-fan joined the DPP in 2019 as Deputy Secretary-General — becoming part of the very establishment he had protested against. Chen Wei-ting stayed on the activist path but withdrew from a legislative by-election in late 2014 after past sexual harassment incidents surfaced[^18]. Huang Kuo-chang led the New Power Party to five legislative seats in 2016, then left the party he co-founded and won a seat in 2024 on the Taiwan People's Party list[^19].
+Lin Fei-fan joined the DPP in 2019 as Deputy Secretary-General, becoming part of the very system they had protested against. Chen Wei-ting maintained the social movement path but did not enter politics; in late 2014, he withdrew from the Miaoli legislative by-election due to past sexual harassment records.[^18] Huang Kuo-chang took the People First Party to win five legislative seats in 2016, later left the party he founded, and was elected in 2024 as a non-constituency legislator for the Taiwan People's Party.[^19]
 
-A National Taipei University sociology survey of 1,000 participants during the movement found: 65% were participating in political protest for the first time. Average age: twenty-three[^4]. Those people are now in their mid-thirties, scattered across every sector of Taiwanese society.
+The Department of Sociology at Taipei University surveyed one thousand participants during the movement: 65% were participating in political protests for the first time, with an average age of twenty-three.[^4] These people are now in their thirties, scattered across various corners of Taiwanese society.
 
-> **💡 Did you know?**
-> In March 2026, President Lai Ching-te publicly praised the Sunflower Movement's legacy. The legislative chamber that was occupied is now a stop on tourist itineraries.[^20]
+> **💡 Did You Know**
+> In March 2024, on the eve of the Sunflower Movement's tenth anniversary, President Lai Ching-te publicly praised the movement's legacy. The Legislative Yuan chamber that was occupied back then is now a photo spot for tourists.[^20]
 
-## They Won — Just Not the Way They Thought
+## They Won, But Not in the Way They Thought
 
-Looking back, the most counterintuitive finding is this: the movement's actual impact far exceeded what anyone imagined, but it came from a direction nobody was aiming at.
+Looking back at the Sunflower Movement, the most counter-intuitive finding is this: the actual effect of this movement far exceeded the imagination of anyone at the time, but the direction of the effect was completely different from what they aimed for.
 
-They wanted to block a trade agreement. That agreement died on its own. They wanted to pass an oversight law. That law still hasn't passed. What they accomplished was turning the wind: from "doing business with China is natural" to "the economy must never be hostage to any single country."
+They wanted to stop a trade agreement, but that agreement died on its own. They wanted to promote a supervision law, but that law has still not been passed. What they achieved was turning the tide of society: from "doing business with China is natural" to "the economy cannot be held hostage by any single country."
 
-The blood of March 23 at the Executive Yuan did not bring punishment to those who caused it — only fourteen people were collectively awarded NT$1.11 million in compensation, while no individual officers were held accountable[^21]. "Island Sunrise" won a Golden Melody Award in Taiwan and was banned in China. The trade agreement gathers dust in a drawer. The oversight act was only half-opened.
+The blood from March 23 did not bring punishment for the perpetrators—only fourteen people received a total of NT$1.11 million in compensation, and the specific officers who committed violence have still not been held accountable.[^21] _Island Dawn_ won an award at the Golden Melody Awards in Taiwan, but was banned in China. The CSSTA gathers dust in the drawer; the Cross-Strait Agreement Supervision Act is only half-opened.
 
-But what that black cross on Ketagalan Boulevard left behind can't be contained in any single piece of legislation.
+But what the black cross left on Ketagalan Boulevard is something no law can contain.
 
-Yang Da-jeng said it best. Accepting the Golden Melody Award, he dedicated it to everyone who participated in March 18, then added: "For all those who worry about this country's future but never give up."[^12]
+Yang Ta-cheng said it best. On the day he accepted the Golden Melody Award, he dedicated the award to everyone who participated in the March 18 movement, saying: "They are the true protagonists of this song." Then he added: "Dedicated to all who worry about the country's future but never give up."[^12]
 
-Twelve years later, the Sunflower students are no longer students. But what they learned during those twenty-four days — climbing over a door, setting up an iPad, standing in front of a water cannon at 4 AM — is written into Taiwan's DNA now.
+Twelve years later, the Sunflower students are no longer students. But what they learned in those twenty-four days—climbing over a gate, setting up an iPad, standing in front of water trucks at 4 AM—has been written into Taiwan's DNA.
 
-Those thirty seconds — Chang Ching-chung probably never imagined that what he was rewriting wasn't the fate of a trade agreement, but the direction of an entire island.
+Those thirty seconds, Chang Ching-chung probably didn't realize that he was rewriting not just the fate of a trade agreement, but the direction of an entire island.
 
-**延伸閱讀**：
+**Further Reading**:
 
-- [Taiwan's Democratization](/en/history/taiwan-democratization) — The institutional foundation that made the Sunflower Movement possible
-- [Taiwan's Open-Source Community and g0v](/en/technology/open-source-and-g0v) — The civic hacker community behind the movement's digital infrastructure
-- [Social Movements and Civic Participation](/en/society/social-movements-and-civic-participation) — How Taiwan's civil society evolved after the Sunflower Movement
-- [Taiwan Strait Crises and Cross-Strait Relations](/en/history/taiwan-strait-crises-and-cross-strait-relations) — The geopolitical context behind the CSSTA controversy
-- [Zashare School](/society/雜學校) — Another way the energies released after the 318 movement carried on outside the system: a Taiwanese case of translating street rebellion into an education carnival
-- [Taiwan and Eswatini](/society/台灣與史瓦帝尼) — A decade after 318, Lai Ching-te's visit to Eswatini during a moment of consolidating diplomatic ties shows what "sovereign state" looks like in concrete terms abroad
-- [Ma Ying-jeou](/people/馬英九) — The president who made the key decisions during the period of the 30-second CSSTA committee vote, the police dispersal of the Executive Yuan in the early hours of March 24, and the movement’s withdrawal on April 10
-- [Aaron Nieh](/people/聶永真) — The designer behind the “Democracy at 4am” New York Times front-page ad in the early hours of 2014, a design-side record of how the student movement entered international view
+- [Taiwan's Democratic Transition](/history/台灣民主轉型) — From authoritarianism to democracy, the institutional foundation of the Sunflower Student Movement
+- [The Formosa Incident](/history/美麗島事件) — How the predecessors in 1979 pried open the door to democracy using the streets
+- [Open Source Community and g0v](/technology/開源社群與g0v) — The engineer community behind the Sunflower digital infrastructure
+- [Social Movements and Civic Participation](/society/社會運動與公民參與) — The evolution of Taiwan's civil society after the Sunflower Movement
+- [Cross-Strait Crisis and Development of Cross-Strait Relations](/history/台海危機與兩岸關係發展) — The broader geopolitical background of the CSSTA controversy
+- [Ma Ying-jeou](/people/馬英九) — The presidential decision-making during the period of the CSSTA review passing in 30 seconds, the police eviction of the Executive Yuan at dawn on 3/24, and the student withdrawal on 4/10
+- [Za School](/society/雜學校) — Another continuation of extra-systemic energy after the 318 Movement: translating street rebellion into an educational carnival, a Taiwanese case
+- [Complex Life Festival](/society/複雜生活節) — The fourth exit of 318 "Sowing Seeds Outside the Gate": no elections, no coding, no recruitment, gathering the lost and low-paid post-80s generation into a "Failed Forum" of two to three hundred people annually
+- [Taiwan and Eswatini](/society/台灣與史瓦帝尼) — Ten years after the 318 Movement, Lai Ching-te's visit to Eswatini consolidates diplomatic ties: the concrete scene of the four words "Sovereign State"
+- [Nie Yongzhen](/people/聶永真) — The designer who created the "Democracy at 4am" NYT front-page ad in 2014, recording how the student movement entered the international perspective through design
 
-## 參考資料
+## References
 
-[^1]: [Watchout: Behind the 30-second CSSTA railroading](https://watchout.tw/reports/DvH94jPxSXguzAMJbsoB) — Word-by-word reconstruction of Chang Ching-chung's declaration with video and constitutional analysis.
+[^1]: [Wo Cao National Assembly Double: Behind the CSSTA's 30-Second Breakthrough](https://watchout.tw/reports/DvH94jPxSXguzAMJbsoB) — Word-for-word restoration and constitutional analysis of Chang Ching-chung's 30-second declaration, including video records.
 
-[^2]: [CNA: Sunflower Movement 10th anniversary retrospective](https://www.cna.com.tw/news/aipl/202403165004.aspx) — 2024 Central News Agency coverage including CSSTA contents, Rex How's open letter, and review controversy.
+[^2]: [CNA: Sunflower Student Movement 10th Anniversary Returns to the Scene](https://www.cna.com.tw/news/aipl/202403165004.aspx) — 2024 CNA ten-year retrospective report, including CSSTA content, Hao Ming-yi's open letter, and the origins of the review controversy.
 
-[^3]: [Storm Media: "Half-Minute Chung" loses re-election over CSSTA](https://www.storm.mg/article/78743) — 2016 election report on Chang's defeat by DPP's Chiang Yung-chang.
+[^3]: [Storm Media: "Half-Minute Chung" Chang Ching-chung Loses Election Due to CSSTA](https://www.storm.mg/article/78743) — 2016 election report, Chang Ching-chung challenges for a fourth term and fails, losing to DPP's Jiang Yong-chang.
 
-[^4]: [Wikipedia: Sunflower Student Movement](https://zh.wikipedia.org/wiki/%E5%A4%AA%E9%99%BD%E8%8A%B1%E5%AD%B8%E9%81%8B) — Complete timeline, attendance statistics, withdrawal process, and public reactions.
+[^4]: [Wikipedia: Sunflower Student Movement](https://zh.wikipedia.org/wiki/%E5%A4%AA%E9%99%BD%E8%8A%B1%E5%AD%B8%E9%81%8B) — Complete timeline of the movement, participant statistics, withdrawal process, and summaries of responses from all sectors.
 
-[^5]: [iThome: The IT secrets behind the Sunflower Movement](https://www.ithome.com.tw/news/86701) — Technical details of g0v engineers building digital infrastructure on occupation night, including WiMax antenna and USB Ethernet workaround.
+[^5]: [iThome: The IT Secrets Behind the Sunflower Student Movement](https://www.ithome.com.tw/news/86701) — Technical details of g0v engineers establishing digital infrastructure on the night of the occupation, including WiMax antenna setup and USB Ethernet emergency measures.
 
-[^6]: [FlyingV: ThisAttackComesFromTaiwan crowdfunding page](https://www.zeczec.com/projects/thisattackcomesfromtaiwan) — Original crowdfunding page documenting the 35-minute milestone and 3-hour surge to NT$6.7 million.
+[^6]: [FlyingV: ThisAttackComesFromTaiwan Crowdfunding Page](https://www.zeczec.com/projects/thisattackcomesfromtaiwan) — Original page for the NYT ad crowdfunding, recording the process of reaching 1.5 million in 35 minutes and breaking 6.7 million in 3 hours.
 
-[^7]: [BusinessToday: Taiwanese designer's NYT Sunflower ad](https://www.businesstoday.com.tw/article-content-92743-106932) — Aaron Nieh's "Democracy at 4am" ad design process and publication details.
+[^7]: [Business Today: Taiwanese Designer's NYT Ad for Student Movement](https://www.businesstoday.com.tw/article-content-92743-106932) — The story and publication details of Nie Yongzhen's design for "Democracy at 4am".
 
-[^8]: [Wikipedia: 323 Executive Yuan Occupation](https://zh.wikipedia.org/zh-tw/323%E4%BD%94%E9%A0%98%E8%A1%8C%E6%94%BF%E9%99%A2%E4%BA%8B%E4%BB%B6) — Full account of the occupation, six-wave clearing operation, and casualty figures.
+[^8]: [Wikipedia: March 23 Executive Yuan Occupation Incident](https://zh.wikipedia.org/zh-tw/323%E4%BD%94%E9%A0%98%E8%A1%8C%E6%94%BF%E9%99%A2%E4%BA%8B%E4%BB%B6) — Complete process of the Executive Yuan occupation incident, six waves of clearing operations, and casualty figures.
 
-[^9]: [China Times: Control Yuan confirms police animosity in Sunflower crackdown](https://www.chinatimes.com/realtimenews/20230323003804-260407) — 2023 investigation confirming disproportionate force and officer hostility.
+[^9]: [China Times News: Sunflower Student Movement Police Violent Eviction, Control Yuan Confirms Some Officers Harbored Resentment](https://www.chinatimes.com/realtimenews/20230323003804-260407) — 2023 Control Yuan latest investigation report, confirming violation of the principle of proportionality.
 
-[^10]: [The Reporter: The long trauma of Sunflower protesters](https://www.twreporter.org/a/318-movement-10th-anniversary-lawsuit-litigants) — 2024 in-depth report tracking Lin Chih-chieh's intracranial hemorrhage, Lin Jui-tzu's eight-year legal battle, and state compensation outcomes.
+[^10]: [The Reporter: The Long Trauma Road of Sunflower Protesters](https://www.twreporter.org/a/318-movement-10th-anniversary-lawsuit-litigants) — 2024 The Reporter in-depth report, tracking the personal stories of Lin Chih-chieh's intracranial hemorrhage and Lin Hui-ju's eight-year litigation, and the results of state compensation lawsuits.
 
-[^11]: [The Can: Writing the gentlest song — Island Sunrise / Fire EX., Yang Da-jeng](https://www.thecan.com.tw/tw/log/detail/508) — Yang Da-jeng's first-person account of Lin Fei-fan's "gentle strength" request and the two-day songwriting process.
+[^11]: [Gan Le Cultural Creative: Writing the Gentleest Song — Island Dawn / Fire EX, Yang Ta-cheng](https://www.thecan.com.tw/tw/log/detail/508) — Yang Ta-cheng's personal account of the creative process: Lin Fei-fan's "gentle power" phrase triggered the completion of lyrics and melody in two days.
 
-[^12]: [National Cultural Memory Bank: Island Sunrise wins Golden Melody Best Song](https://tcmb.culture.tw/zh-tw/detail?indexCode=Culture_Object&id=507367) — 26th Golden Melody Awards ceremony record with Yang Da-jeng's full acceptance speech.
+[^12]: [National Cultural Memory Bank: Island Dawn Wins Golden Melody Award for Best Annual Single](https://tcmb.culture.tw/zh-tw/detail?indexCode=Culture_Object&id=507367) — Record of the 26th Golden Melody Awards ceremony, including Yang Ta-cheng's full speech.
 
-[^13]: [United Daily News: How the Sunflower Movement planned its exit](https://vip.udn.com/vip/story/121160/7840414) — 2024 exclusive reconstructing Wang Jin-pyng's Qingming holiday negotiations and the "Leave the Chamber, Sow the Seeds" statement.
+[^13]: [United Daily News: Sunflower Ten Years — From Government to Students, Everyone Was Thinking About How the Movement Would End](https://vip.udn.com/vip/story/121160/7840414) — 2024 ten-year exclusive report, restoring Wang Jin-ping's private coordination during the Qingming holiday and the origins of the "From Defense to Offense, Sowing Seeds Outside the Gate" statement.
 
-[^14]: [The Reporter: 10 keywords worth remembering, 10 years after the Sunflower](https://www.twreporter.org/a/318-movement-10th-anniversary-10-keywords) — Anniversary series analyzing CSSTA's de facto death, long-term legacy, and unfulfilled promises.
+[^14]: [The Reporter: Sunflower 10 Years Later — 10 Keywords Worth Remembering](https://www.twreporter.org/a/318-movement-10th-anniversary-10-keywords) — The Reporter's ten-year series report, analyzing the CSSTA's "natural death," the movement's long-term legacy, and unfulfilled promises.
 
-[^15]: [The News Lens: Legislature passes constitutional-level threshold for cross-strait agreements](https://www.thenewslens.com/article/120099) — Coverage of the amended Act Governing Relations, explaining why it covers only political agreements.
+[^15]: [The News Lens: Legislative Yuan Third Reads "Cross-Strait Agreement" Threshold Comparable to Constitutional Amendment Level](https://www.thenewslens.com/article/120099) — Report on the passage of the _Act Governing the Relations Between the Peoples of the Taiwan Area and the Mainland Area_ amendment, analyzing why it only covers political agreements and not economic agreements.
 
-[^16]: [Yahoo News: Taiwan's export dependence on China drops to 31.5%](https://tw.news.yahoo.com/%E5%8F%B0%E7%81%A3%E5%B0%8D%E4%B8%AD%E5%9C%8B%E7%9A%84%E5%87%BA%E5%8F%A3%E4%BE%9D%E5%AD%98%E5%BA%A6%E9%99%8D%E8%87%B331-5-%E5%87%BA%E5%8F%A3%E9%99%84%E5%8A%A0%E5%83%B9%E5%80%BC%E5%89%B521%E5%B9%B4%E6%96%B0%E9%AB%98-072951768.html) — 2025 trade data showing continued decline in China export share.
+[^16]: [Yahoo News: Taiwan's Export Dependence on China Drops to 31.5%](https://tw.news.yahoo.com/%E5%8F%B0%E7%81%A3%E5%B0%8D%E4%B8%AD%E5%9C%8B%E7%9A%84%E5%87%BA%E5%8F%A3%E4%BE%9D%E5%AD%98%E5%BA%A6%E9%99%8D%E8%87%B331-5-%E5%87%BA%E5%8F%A3%E9%99%84%E5%8A%A0%E5%83%B9%E5%80%BC%E5%89%B521%E5%B9%B4%E6%96%B0%E9%AB%98-072951768.html) — 2025 latest trade data, Taiwan's export share to China continues to decline.
 
-[^17]: [Liberty Times: International media notes China's self-defeat as Taiwan trade dependence drops](https://ec.ltn.com.tw/article/breakingnews/4602029) — International analysis of declining China dependence and rising US trade share.
+[^17]: [Liberty Times Net: Foreign Media Says China Self-Defeated, Taiwan's Trade Dependence on China Drops Shockingly](https://ec.ltn.com.tw/article/breakingnews/4602029) — International media analysis of the trend of Taiwan's trade dependence on China dropping and its trade share with the US rising.
 
-[^18]: [Storm Media: Five years after the Sunflower — where are they now?](https://www.storm.mg/article/1046957) — Movement leaders' diverging paths including Lin Fei-fan, Chen Wei-ting, and Huang Kuo-chang.
+[^18]: [Storm Media: Sunflower 5th Anniversary — Those Who Occupied the Legislative Yuan Together That Year, What Happened to Them Now?](https://www.storm.mg/article/1046957) — Tracking the subsequent development of movement leaders, including the divergent paths of Lin Fei-fan, Chen Wei-ting, and Huang Kuo-chang.
 
-[^19]: [Wikipedia: New Power Party election history](https://zh.wikipedia.org/zh-tw/%E6%99%82%E4%BB%A3%E5%8A%9B%E9%87%8F%E5%8F%83%E6%94%BF%E9%81%B8%E8%88%89%E5%88%97%E8%A1%A8) — NPP's trajectory from five seats in 2016 to one in 2024.
+[^19]: [Wikipedia: People First Party Participation in Elections List](https://zh.wikipedia.org/zh-tw/%E6%99%82%E4%BB%A3%E5%8A%9B%E9%87%8F%E5%8F%83%E6%94%BF%E9%81%B8%E8%88%89%E5%88%97%E8%A1%A8) — Election records of the People First Party from five seats in 2016 to only one seat remaining in 2024.
 
-[^20]: [Taipei Times: Lai praises the legacy of the Sunflower movement](https://www.taipeitimes.com/News/taiwan/archives/2026/03/19/2003854087) — 2026 report on President Lai Ching-te's tribute to the movement's legacy.
+[^20]: [Taipei Times: Lai praises the legacy of the Sunflower movement](https://www.taipeitimes.com/News/taiwan/archives/2026/03/19/2003854087) — 2026 President Lai Ching-te publicly praises the legacy of the Sunflower Movement.
 
-[^21]: [The News Lens: Sunflower state compensation ruling — 14 awarded NT$1.11 million](https://www.thenewslens.com/article/126796) — 2019 first-instance ruling: 34 plaintiffs, 14 compensated totaling NT$1,111,570, no individual officers held accountable.
+[^21]: [The News Lens: Sunflower Student Movement State Compensation Case — First Instance Court Rules Taipei Police Bureau Should Compensate 14 People](https://www.thenewslens.com/article/126796) — 2019 first-instance state compensation judgment, 34 people filed complaints, ultimately 14 people received compensation totaling NT$1,111,570.

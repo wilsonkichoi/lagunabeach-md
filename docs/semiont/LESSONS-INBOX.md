@@ -262,6 +262,17 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-06-09 twmd-babel-nightly — OpenRouter free-tier 沉默 transition 殺光 136/136 翻譯（model deprecation 是 routine 第四 tier fragility）
+
+- **原則**：cloud LLM provider 的 free-tier 模型隨時可能被 transition 成 paid 而 routine 沒任何信號。`tencent/hy3-preview:free` 從 free → paid 後 HTTP 404，**openrouter-translate.py 沒有 model fallback**（單 model 失敗不自動換下一個），openrouter-batch.sh 預設 model 寫死在 shell variable — 一旦 default model 死了，整個 routine 走零產出 silent fail（每篇文章報 ❌，但 routine 自己看不出來這是「model dead」vs「正常 cascade fail」）。對應 LESSONS-INBOX 2026-06-07「Routine fragility surface 三 tier 分類」的補強 — 應該是 **四 tier**：Tier 1 always-on / Tier 2 device-dependent / Tier 3 external-API-dependent / **Tier 4 external-API-with-pricing-volatility**（free model 隨時可能消失）。
+- **觸發**：2026-06-09 00:34 babel-nightly cron。 5 lang × 1 worker 各 16-30 articles = 136 dispatches，全部 HTTP 404「Hy3 preview is no longer available as a free model. It has transitioned to a paid model」。0/136 success rate。修補：(a) inline 改 openrouter-batch.sh default 為 `openai/gpt-oss-120b:free`（已 ship 本 session）(b) 重新 dispatch 走 gpt-oss-120b cascade。對應 6/06 6/07 兩次 babel-nightly 都 work 是因為當時 Hy3 還 free，6/08 babel-nightly SKIP（cron 沒 fire）所以這個 transition 在本 session 才被發現。
+- **可能層級**：
+  - **操作規則**（REFLEXES catalog 候選） → 「Cloud LLM free-tier 是 ephemeral，routine 預設 model 必須有 daily health-check + auto-fallback ladder」一般化（同樣適用其他 routine 用 free model 的場景：translate / spore-publish / news-lens / image-gen）
+  - **儀器化候選**：(A) **architectural**：openrouter-translate.py 接 `--model-fallback` ladder（gpt-oss-120b → deepseek-chat → tencent/hy3:free → owl-alpha → ollama qwen3:35b），單 model 404/429/timeout → 自動 next（避免「default model dead = 全 routine dead」）(B) **operational**：lang-sync 加 `daily-model-health-check.sh` cron precondition routine，babel-nightly fire 前 dry-run 1 篇驗證 default model alive，dead 就 alert + 自動 fallback (C) **inline**：cron skill prompt 加 「default model 404 = 不要繼續跑 16-30 篇，先 1-article dry-run 確認 model alive」 anti-pattern
+- **verification_count**: 1（6/09 babel-nightly Hy3 deprecation 0/136 success）
+- **severity**: structural（影響所有 free-tier model 依賴的 routine — babel / spore-publish / image-gen / news-lens 等）
+- **跨檔關聯**：LESSONS-INBOX 2026-06-07 「Routine fragility surface 三 tier 分類」（本條補 Tier 4）+ REFLEXES #24「工具在說謊」第 N 種「default config 引用已死資源 silent fail」+ DNA #45「cloud Tier 1+ dispatch 每 lang 1 worker」（model 死 + worker 死 dispatch 模式假設）+ feedback_distill_full_removal（本 entry distill 時併入 6/07 三 tier 升 4 tier）
+
 ### 2026-06-07 routine-audit-weekly cycle 5 — 🌟 每層自評都需要外部尺（meta-umbrella，單週 5 instance cross-validation distill-ready immediate）
 
 - **原則**：Semiont 站在系統內部，對自己產出的讀數天生偏樂觀；真實永遠要靠外面的尺。每一層「自我評估」— 事實 claim / 品質 claim / 視覺自檢 / 自己對自己動作的回報 / 即時狀態查詢 — 都需要外部 instrument 接住，沒有一層能自己抓到自己。REFLEXES #31 v2（sub-agent 自評不可信擴張到品質 claim）+ #66（gate threshold 要用真實產出 dogfood 校準）是兩條 specific 接住點，但兩條都不是 meta-umbrella 本身；meta-pattern 跨「writer 自評 / snapshot stale read / 視覺自檢 / SHIP 自我狀態查詢 / 過去 N 天 baseline 的「正常」感覺」全方位適用，比兩條 specific reflexes 高一層。

@@ -1,115 +1,114 @@
 ---
 title: 'Wu Pao-chun: A Promise to a Paiwan Child'
-description: "A rural kid from Pingtung, junior high education, no French. He took a lychee-rose bread to Paris and won the world's first Bread Masters gold medal — inside it was a promise made to an indigenous child ten years before."
+description: "A rural youth from Pingtung with only a middle school education and no knowledge of French. He won the world's first gold medal for Bread Master with a Lychee Rose Bread—a bread that contained a promise made ten years prior to indigenous children."
 date: 2026-04-05
 tags:
   [
-    'food and beverage',
-    'baking',
-    'artisan spirit',
-    'world champion',
+    'Culinary',
+    'Baking',
+    'Artisan Spirit',
+    'World Champion',
     'Pingtung',
-    'bread',
-    'indigenous peoples',
+    'Bread',
+    'Indigenous Peoples',
   ]
-subcategory: '餐飲與職人'
+subcategory: 'Culinary and Artisan'
 author: 'Taiwan.md'
-readingTime: 7
 category: 'People'
-featured: true
+readingTime: 7
 lastVerified: 2026-04-05
 lastHumanReview: false
 translatedFrom: 'People/吳寶春.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:8ca95111311b9e7a'
-sourceBodyHash: 'sha256:99516f459f833e82'
-translatedAt: '2026-05-01T13:44:02+08:00'
+sourceCommitSha: 'fb0101886'
+sourceContentHash: 'sha256:82ee8d84093955be'
+translatedAt: '2026-06-09T02:28:56+08:00'
 ---
 
 # Wu Pao-chun: A Promise to a Paiwan Child
 
-He went to a Paiwan elementary school in Sandimen Township, Pingtung County, to give a demonstration. After the event, a child tugged at his sleeve: Could you bring our millet wine to the world?
+He went to a Paiwan elementary school in Sandimen Township, Pingtung County, to give a demonstration. After the event, a child tugged at his sleeve: Is there any way you can take our millet wine to the world?
 
 Wu Pao-chun said: Yes.
 
-That promise was later fulfilled — in the form of a loaf of bread, in Paris in the spring of 2010.[^1]
+That promise was later fulfilled—in the form of a loaf of bread, in Paris in the spring of 2010. [^1]
 
-> **30-Second Overview:** Wu Pao-chun, born 1970, rural Pingtung County. His father died when he was twelve; after junior high he headed north to become a bakery apprentice. In 2008, he led Taiwan's team to a silver medal at the Coupe du Monde de la Boulangerie (World Bread Cup); in 2010, he won gold at the Les Masters de la Boulangerie (World Bread Masters) with his lychee-rose bread, becoming the world's first Bread Masters gold medalist. French judges said that bread was "the best French bread they had ever tasted."
+> **30-Second Overview:** Wu Pao-chun, born in 1970, is from a rural area in Pingtung County. His father passed away when he was twelve, and after graduating from middle school, he went north to Taipei to become a bakery apprentice. In 2008, he led the Taiwan team to win a silver medal at the World Bread Cup (Coupe du Monde de la Boulangerie); in 2010, he won the gold medal at the World Bread Masters (Les Masters de la Boulangerie) with his Lychee Rose Bread, becoming the world's first Bread Master gold medalist. French judges described that loaf of bread as "the best-tasting French bread."
 
 ## From Longquan Village, Pingtung to a Taipei Bakery
 
-Wu Pao-chun was the youngest of eight children. His father died when he was twelve; his mother held the family together alone. He grew up in Longquan Village, Neipu Township, Pingtung County. He dropped out of high school not long after starting, headed north to Taipei at fifteen, and began as an apprentice in a bakery.[^2]
+Wu Pao-chun was the youngest of eight children. His father passed away when he was twelve, and the family relied on his mother to hold things together. He grew up in Longquan Village, Neipu Township, Pingtung County. He dropped out of high school after a short time, went north to Taipei at fifteen, and started as an apprentice in a bakery. [^2]
 
-This path was one many people walked in 1980s Taiwan: rural kid, head north, do manual work, earn a meal. But most treated bread-making as a means of livelihood; Wu Pao-chun treated it as a discipline. He self-taught French to read French baking books, saved to travel to Japan to study with world-class masters, apprenticed under Chen Fu-guang in Taiwan, and took something others considered a dead end and worked it to the very top.
+This path was one many walked in Taiwan in the 1980s: children from remote areas went north, did labor-intensive work, and earned a living. But while most people treated baking bread as a means of livelihood, Wu Pao-chun treated it as a practice of self-cultivation. He self-studied French to read French baking books, saved money to go to Japan to learn from world-class masters, and studied under Chen Fuguang in Taiwan, bringing an endeavor considered unlikely to succeed to its peak.
 
-> "What makes people poor is often not their wallet, but their inner world."
+> "Often, it is not one's pockets that are poor, but one's heart."
 
-Placed against his background, this statement reads not like an inspirational slogan but more like a firsthand report.
+In the context of his background, this sentence reads less like an inspirational slogan and more like a personal report.
 
-## 2008: The Silver Medal and the "Taste of Mother"
+## 2008: Silver Medal and the "Taste of Mom"
 
-In 2006, Wu Pao-chun won Taiwan's regional selection; in 2007, Taiwan's team won the Asian qualifier in Guangzhou and earned the right to represent Asia in Paris. In 2008, Taiwan's team stood on the stage of the Coupe du Monde de la Boulangerie and took home a silver medal, second only to the French home team. Wu Pao-chun was responsible for the European bread category and also took the gold medal in the individual European bread category.[^3]
+In 2006, Wu Pao-chun qualified in the Taiwan regional selection; in 2007, the Taiwan team won the Asian qualification round in Guangzhou, representing Asia in Paris. In 2008, the Taiwan team took the stage at the World Bread Cup (Coupe du Monde de la Boulangerie), winning a silver medal, second only to the French national team. Wu Pao-chun was responsible for the European-style bread category in the competition and simultaneously won the gold medal in the European-style bread individual category. [^3]
 
-His individual competition entry was "Longan Wine Bread" (酒釀桂圓麵包) — dried longan fruits soaked in sweet rice wine, drawn from kitchen memories of his late mother. After the competition, when asked where his inspiration came from, Wu Pao-chun said through an interpreter:
+His personal competition bread was the "Fermented Wine Longan Bread"—dried longan soaked in sweet rice wine, drawn from his mother's kitchen memories before she passed. After the competition, when asked where his inspiration came from, Wu Pao-chun said through an interpreter:
 
-"I suppose it was the taste of mother that moved the judges."[^3]
+"It was probably the 'taste of mom' that moved the judges." [^3]
 
-A Taiwanese man who couldn't speak French, using the flavors common in his home after his father died, won gold in France.
+A Taiwanese who didn't speak a word of French won a gold medal in France using the flavors common in his home after his father's death.
 
-## 2010: The Loaf That Held a Promise
+## 2010: The Bread Containing a Promise
 
-After 2008, Wu Pao-chun did not stop. He remembered the Paiwan child's question and began spending time researching how to bring the flavors of Taiwan's eastern mountain regions into French bread: Paiwan millet wine from Sandimen, black-leaf lychees from Fenyuan Township, and organic rose petals from Puli. The dried lychees were soaked in millet wine overnight; the dough fermented for at least fifteen hours; the entire R&D process took twelve months.[^4]
+After 2008, Wu Pao-chun did not stop. He kept the question from the Paiwan child in mind and began spending time researching how to bring the flavors of Taiwan's eastern mountains into French bread: Sandimen Paiwan millet wine, Feiyuan Township's Black Leaf lychees, and Puli's organic rose petals. The dried lychees were soaked in millet wine overnight, the dough fermented for at least fifteen hours, and the entire R&D process took twelve months. [^4]
 
-In 2010, the Les Masters de la Boulangerie was held in Paris — the inaugural individual competition. Wu Pao-chun brought his triangular lychee-rose bread to the stage. The triangular shape was drawn from the imagery of Taiwan's indigenous mountain ranges.
+In 2010, the World Bread Masters (Les Masters de la Boulangerie) were held in Paris—the first individual competition. Wu Pao-chun brought out that triangular Lychee Rose Bread. The triangular shape was inspired by the mountain imagery of Taiwan's indigenous peoples.
 
-He won gold, becoming the world's first Bread Masters gold medalist. The French judges' words have been quoted ever since:
+He won the gold medal, becoming the world's first Bread Master gold medalist. The words of the French judges have been passed down to this day:
 
-> "Wu Pao-chun made the best French bread."[^5]
+> "Wu Pao-chun made the best-tasting French bread." [^5]
 
-Not "French bread with an Eastern touch" — not "Asian interpretation of French baking" — but the French judges' determination that it was the best French bread, period.
+Not "French bread with Eastern flavors," not "French-style baking interpreted by an Asian"—but French judges recognized it as the best-tasting French bread.
 
-## Back to Taiwan, Back to Local Things
+## Back to Taiwan, Back to Local Matters
 
-Five months after winning the championship, on November 4, 2010, Wu Pao-chun opened his first "Wu Pao-chun Bakery" (吳寶春麥方店) in Lingya District, Kaohsiung. The lines never stopped from day one.[^5]
+Five months after winning the championship, on November 4, 2010, Wu Pao-chun opened his first "Wu Pao-chun Bakery" in Lingya District, Kaohsiung. The lines started from day one and never stopped. [^5]
 
-On why he uses Taiwanese agricultural products, he put it directly: "Although the Chinese market has 1.3 billion people, the whole world has more than 7 billion. I'm not going to limit my vision to China. I represent not just Wu Pao-chun, but Taiwan — I want to bring Taiwan's agricultural products out into the world along with me."
+Regarding why he used Taiwanese agricultural products, he was direct: "Although the Chinese market has 1.3 billion people, the whole world has over 7 billion. I won't keep my eyes only on China. I don't represent Wu Pao-chun; I represent Taiwan. I want to take Taiwanese agricultural products out together."
 
-In 2013, Taipei Eslite Songyan opened; in 2017, the Taichung flagship; in 2018, the Taipei Xinyi flagship; in 2019, Singapore. Each step was deliberately slow — he said he was not opening a chain store, but choosing the right location to plant a tree.
+In 2013, the Taipei Eslite Bookstore Songshan store opened; in 2017, the Taichung flagship store; in 2018, the Taipei Xinyi flagship store; in 2019, Singapore. Every step was deliberately slowed down—he said he wasn't opening chain stores, but planting trees in the right places.
 
-## The "Wu Pao-chun Clause": How a Baker Changed Taiwan's Education Regulations
+## The "Wu Pao-chun Clause": A Baker Who Changed Taiwan's Education Laws
 
-In 2016, the National University of Singapore (NUS) invited him to enroll in its EMBA program. The problem was that he only had a junior high school education, and Taiwan's regulations required an undergraduate degree to apply for graduate programs. NUS made an exception for him, and Taiwan's Ministry of Education subsequently amended the rules to allow outstanding talent without formal academic qualifications to apply for graduate programs. The public called this amendment the "Wu Pao-chun Clause."[^6]
+In 2016, the National University of Singapore (NUS) invited him to study for an EMBA. The problem was that he only had a middle school education, and Taiwan regulations required a university degree to apply for graduate school. NUS made an exception for him, and the Taiwan Ministry of Education consequently revised the regulations, allowing outstanding talents to apply for graduate school even without formal degrees. The public referred to this revision as the "Wu Pao-chun Clause." [^6]
 
-On June 18, 2022, the "Wu Pao-chun Baking Academy" opened at Kun Shan University of Technology in Tainan, with Wu Pao-chun serving as dean and honorary professor — Taiwan's first baking academy of this form, in which students participate directly in the store's actual production and operations during their enrollment.[^7]
+On June 18, 2022, the "Wu Pao-chun Baking Academy" opened at Kun Shan University of Technology in Tainan, with Wu Pao-chun serving as Dean and Honorary Professor—the first bakery academy of this format in Taiwan. Students participate directly in the actual production and operation of the store during their studies. [^7]
 
 ## The Meaning of That Promise
 
-Disney+ made a documentary about him: "World Number One Baker" (世界第一麥方). His book "Softness Achieves the Extraordinary" (柔軟成就不凡) continues to sell. In 2016, he led Taiwan's team to another silver medal at the Coupe du Monde de la Boulangerie; his student in 2018 continued the teacher's line by taking "Guan Jiang Shou" (官將首, a traditional Taiwanese deity attendant procession) as inspiration and winning an international award.
+Disney+ produced a documentary about him titled _The World's No. 1 Wheat Square_ (Shi Jie Di Yi Mai Fang). His book _Softness Achieves Extraordinary Things_ (Rou Rou Cheng Jiu Bu Fan) has continued to sell. In 2016, he led the Taiwan team to win another silver medal at the World Bread Cup; his students drew inspiration from the "Guan Jiang Shou" (Officer General Heads) in 2018 to continue the lineage, winning international awards.
 
-But it all comes back to that triangular loaf of bread. No French, minimal schooling, grew up rural, father died young, resources nearly zero. He told a Paiwan child yes, then spent ten years bringing that child's hometown millet wine before French judges who said it was the best French bread.
+But ultimately, we must return to that triangular bread. No knowledge of French, few degrees, grew up in a rural area, father died early, resources were virtually zero. He said "yes" to a Paiwan child, and then used ten years, bringing the millet wine from that child's hometown, to make French judges say it was the best-tasting French bread.
 
-That outcome doesn't quite make sense on its face — and then you look closely and realize that's precisely the point.
+This result itself seems somewhat illogical—and then you look closely, and you realize that is the point.
 
 ---
 
-**Further Reading:**
+**Further Reading**:
 
-- [Andre Chiang](/people/江振誠) — From Danshui Commercial and Industrial to world number 14: another story of a chef who conquered the world with Taiwan's flavors
-- [Taiwan's 16 Indigenous Peoples Cultural Map](/culture/台灣原住民族16族文化地圖) — The cultural context from which the Paiwan millet wine in the lychee-rose bread emerged
-- [Night Market Culture](/food/夜市文化) — The foundation of Taiwan's everyday food culture: understanding where Wu Pao-chun's ingredient aesthetics grew from
+- [Jiang Cheng-cheng](/people/江振誠) — From Danshui Commercial High School to World Rank 14, another chef's story of conquering the international stage with Taiwanese flavors
+- [Taiwan Indigenous Peoples 16 Tribes Cultural Map](/culture/台灣原住民族16族文化地圖) — The cultural context of the Paiwan millet wine in the Lychee Rose Bread
+- [Night Market Culture](/food/夜市文化) — The foundation of Taiwanese folk cuisine, understanding where Wu Pao-chun's ingredient aesthetics grew from
+- [Huang Shan-liao](/people/黃山料) — Another Taiwanese who won championships on the world stage (London Fashion Week), but took the opposite path: leaving craftsmanship to make "being seen" a bestseller
 
 ## References
 
-[^1]: [Wu Pao-chun — Wikipedia (Chinese)](https://zh.wikipedia.org/zh-tw/%E5%90%B3%E5%AF%B6%E6%98%A5) — Records his life story, competition history, and the story of the promise made to the Paiwan child in Sandimen to bring millet wine to the world.
+[^1]: [Wu Pao-chun — Wikipedia Chinese](https://zh.wikipedia.org/zh-tw/%E5%90%B3%E5%AF%B6%E6%98%A5) — Records his life story, competition experience, and the story of his promise to the Sandimen Paiwan child to take millet wine to the world.
 
-[^2]: [Wu Pao-chun — Wikipedia (English)](https://en.wikipedia.org/wiki/Wu_Pao-chun) — English entry detailing his 1970 birth in Longquan Village, Neipu Township, Pingtung County; family background (father died young, youngest of eight siblings); apprenticeship career; and his 2016 enrollment in NUS EMBA.
+[^2]: [Wu Pao-chun — Wikipedia](https://en.wikipedia.org/wiki/Wu_Pao-chun) — The English article details his birth in Longquan Village, Neipu Township, Pingtung County in 1970, family background (father died early, youngest of eight siblings), apprenticeship life, and the process of studying at NUS EMBA in 2016.
 
-[^3]: [Baker returns home with silver cup — Taipei Times (April 7, 2008)](https://www.taipeitimes.com/News/taiwan/archives/2008/04/07/2003408624) — Reports Taiwan's team's silver medal result at the 2008 Coupe du Monde de la Boulangerie and Wu Pao-chun's firsthand description of the longan bread's inspiration as "the taste of mother."
+[^3]: [Baker returns home with silver cup — Taipei Times (April 7, 2008)](https://www.taipeitimes.com/News/taiwan/archives/2008/04/07/2003408624) — Reports on the Taiwan team's silver medal result at the 2008 World Bread Cup, and Wu Pao-chun's first-hand report describing the inspiration for his longan bread as the "taste of mom."
 
-[^4]: [Taiwan Litchi Rose Champion Bread — Wu Pao-chun official website](https://www.wupaochun.com/products/litchi-rose) — Official product page for the lychee-rose bread, detailing ingredient sources (Sandimen millet wine, Fenyuan black-leaf lychee, Puli organic roses), dough fermentation process, and the twelve-month development period.
+[^4]: [Taiwan Litchi Rose Champion Bread — Wu Pao-chun Official Website](https://www.wupaochun.com/products/litchi-rose) — Official product page for the Lychee Rose Bread, detailing ingredient sources (Sandimen millet wine, Feiyuan Black Leaf lychee, Puli organic rose), dough fermentation process, and the twelve-month R&D process.
 
-[^5]: [Taiwan: The winner of the Masters de la Boulangerie 2010 is… — Global Voices (April 9, 2010)](https://globalvoices.org/2010/04/09/taiwan-the-winner-of-the-masters-de-la-boulangerie-2010-is/) — Reports Wu Pao-chun's 2010 World Bread Masters gold medal win, including the judges' comments and his statement of "representing Taiwan, not just myself."
+[^5]: [Taiwan: The winner of the Masters de la Boulangerie 2010 is… — Global Voices (April 9, 2010)](https://globalvoices.org/2010/04/09/taiwan-the-winner-of-the-masters-de-la-boulangerie-2010-is/) — Reports on Wu Pao-chun's gold medal win at the 2010 World Bread Masters, including judge comments and his statement "representing Taiwan, not myself."
 
-[^6]: [Wu Pao Chun Bakery — Wikipedia](https://en.wikipedia.org/wiki/Wu_Pao_Chun_Bakery) — Details the store opening timeline: Kaohsiung first store (November 4, 2010), Taipei Eslite Songyan (2013), Singapore (2019), and the "Wu Pao-chun Clause" legislative amendment.
+[^6]: [Wu Pao Chun Bakery — Wikipedia](https://en.wikipedia.org/wiki/Wu_Pao_Chun_Bakery) — Details the timeline of store openings (Kaohsiung first store on Nov 4, 2010; Taipei Eslite Songshan in 2013; Singapore in 2019), and the "Wu Pao-chun Clause" legislative event.
 
-[^7]: [Kun Shan "Wu Pao-chun Baking Academy" Opens — CNA](https://www.cna.com.tw/postwrite/Chi/314329) — Reports the June 18, 2022 opening of the Wu Pao-chun Baking Academy at Kun Shan University of Technology; Wu Pao-chun serving as dean and honorary professor; Taiwan's first industry-academia collaborative baking academy.
+[^7]: [Kun Shan University "Wu Pao-chun Baking Academy" Opens — CNA](https://www.cna.com.tw/postwrite/Chi/314329) — Reports on the opening of the Wu Pao-chun Baking Academy at Kun Shan University of Technology on June 18, 2022, with Wu Pao-chun serving as Dean and Honorary Professor, Taiwan's first industry-academia collaboration bakery academy.

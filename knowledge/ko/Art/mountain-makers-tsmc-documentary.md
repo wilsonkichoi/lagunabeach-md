@@ -1,78 +1,160 @@
 ---
-title: '산을 만든 자들: 세기의 도박 — 장중모 없는 TSMC 서사, 퉁시에서 퍼듀까지'
-description: '2025년 6월 어느 저녁, 84세의 장중모 부부는 자비로 두 장의 티켓을 사서 신의웨슈(信義威秀) 극장에 들어갔다. 영화 속에는 그의 정면 인터뷰 장면이 없다 — 그는 자서전 하권을 쓰고 있었기 때문이다. 샤오쥐전(蕭菊貞)은 5년에 걸쳐 80여 명의 선배들을 인터뷰했고, 1974년 샤오신싱 두유전(小欣欣豆漿店)에서의 조찬 회보에서 2025년 웨이저자(魏哲家)가 백악관에 들어가는 장면까지 담았다. 《산을 만든 자들: 세기의 도박》(A Chip Odyssey)은 대만 다큐멘터리 역사상 다섯 안에 들었고, 2026년에는 퍼듀, 위스콘신, 미시간 — CHIPS Act 투자 핵심 대학의 강당을 찾았다.'
+title: "The Mountain Maker: A Century's Bet — A TSMC Epic Without Morris Chang, Filmed from Hsinchu to Purdue"
+description: "On the evening of June 2025, 84-year-old Morris Chang and his wife bought two tickets with their own money to enter Shin Yi Wovie Cinema. There were no shots of him giving a formal interview in the film—he was writing the second volume of his autobiography. Hsiao Ju-chen spent five years interviewing over 80 senior figures, from the breakfast briefing at the 1974 Little Hsin Hsin Soy Milk Shop to Tsao Ming-chien entering the White House in 2025. 'The Mountain Maker: A Century's Bet' (A Chip Odyssey) became one of the top five in the history of Taiwanese documentary cinema. In 2026, it entered the lecture halls of three universities in CHIPS Act investment hubs: Purdue, Wisconsin, and Michigan."
 date: 2026-04-24
 tags:
   [
-    '다큐멘터리',
+    'Documentary',
     'TSMC',
-    '반도체',
-    '샤오쥐전',
+    'Semiconductor',
+    'Hsiao Ju-chen',
     'CNEX',
-    '실리콘 실드',
-    '장셴빈',
-    '천톈순',
+    'Silicon Shield',
+    'Chiang Hsien-pin',
+    'Chen Tien-shun',
   ]
-category: 'Art'
-subcategory: '紀錄片'
+subcategory: 'Documentary'
 author: 'Taiwan.md'
-featured: true
+category: 'Art'
+readingTime: 12
 lastVerified: 2026-04-24
 lastHumanReview: false
-translatedFrom: Art/造山者世紀的賭注.md
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:48d568156f2d8bb9'
-sourceBodyHash: 'sha256:dae45d5a23a409e0'
-translatedAt: 2026-05-01T22:19:01+08:00
+translatedFrom: 'Art/造山者世紀的賭注.md'
+sourceCommitSha: '4b6d28c54'
+sourceContentHash: 'sha256:a95fbde18ca52301'
+translatedAt: '2026-06-09T04:12:53+08:00'
 ---
 
-> **30초 개요:** 다큐멘터리 감독 샤오쥐전(蕭菊貞)은 5년(2019-2024)에 걸쳐 80여 명의 반도체 선배들을 인터뷰하며 대만 반도체 산업에 관한 서사를 완성했다 — 하지만 영화 속에서 장중모는 정식 인터뷰에 응하지 않았다. 중문 제목 《산을 만든 자들: 세기의 도박》, 영문 제목 《A Chip Odyssey》(야문에 떠도는 「The Mountain Maker」가 아니다). 2025년 6월 대만 극장에서 개봉 후 흥행 수입 NT$3,200만을 돌파하며 대만 다큐멘터리 역사상 다섯 안에 들었다. 2025년 가을부터 2026년 봄까지 이 영화는 스탠포드, UCLA, 컬럼비아, 퍼듀, 위스콘신, 미시간 — CHIPS Act 시대 미국 반도체 제조업 중심지 — 을 찾아가며 대만 테크 소프트파워의 또 다른 외교 궤적이 되었다.
+> **30-Second Overview:** Documentary director Hsiao Ju-chen spent five years (2019–2024) interviewing over 80 semiconductor pioneers to create an epic about Taiwan's semiconductor industry. However, Morris Chang did not give a formal interview in the film. The Chinese title is _The Mountain Maker: A Century's Bet_, and the English title is _A Chip Odyssey_ (not the commonly circulated "The Mountain Maker"). After its theatrical release in Taiwan in June 2025, it broke box office records with NT$32 million, ranking among the top five in the history of Taiwanese documentary cinema. From autumn 2025 to spring 2026, the film visited Stanford, UCLA, Columbia, Purdue, Wisconsin, and Michigan—the key hubs of the US semiconductor manufacturing industry in the CHIPS Act era—becoming another diplomatic track for Taiwan's technological soft power.
 
-## 퍼듀의 오후
+## Afternoon at Purdue
 
-2026년 4월 16일, 인디애나주 웨스트라피엣, 퍼듀 대학. 연구 부총장 댄 델로렌티스(Dan Delaurentis), 퍼듀 연구재단 이사장 채드 피트먼(Chad Pittman), 퍼듀 반도체 리더십 협회 회장 천중홍(Zhihong Chen), 그리고 인디애나주 경제개발청 신임 대표 조시 리처드슨(Josh Richardson)이 상영관에 앉았다[^1].
+On April 16, 2026, in West Lafayette, Indiana, at Purdue University, Dan Delaurentis, Executive Vice President for Research; Chad Pittman, President of the Purdue Research Foundation; Zhihong Chen, Chair of the Purdue Semiconductor Leadership Association; and Josh Richardson, newly appointed President of the Indiana Economic Development Corporation, sat in the screening room[^1].
 
-6일 전에는 위스콘신 대학 매디슨 캠퍼스의 모리지 홀(Morgridge Hall)에서도 같은 상영이 열렸다. 위스콘신 기술위원회 회장 매기 브리커먼(Maggie Brickerman), 와소 시장 더그 딘(Doug Din)이 참석했다[^1]. 더 거슬러 올라가 2월 8일, 미시간 대학 상영에는 미시간주 상원의원 수 싱크(Sue Shink), 미시간 대학 교수 베키 피터슨(Becky Peterson), IMEC 제임스 포레시(James Foresi)가 참석했다[^1].
+Six days prior, the same event was held at Morgridge Hall, University of Wisconsin-Madison. Attendees included Maggie Brickerman, President of the Wisconsin Technology Council; and Doug Din, Mayor of Waukesha[^1]. Going back further to February 8, the screening at the University of Michigan featured Michigan State Senator Sue Shink; University of Michigan Professor Becky Peterson; and James Foresi, Director of IMEC[^1].
 
-세 대학은 무작위 목록에 올라 있지 않았다. 퍼듀가 있는 인디애나주는 SK하이닉스의 패키징 공장 투자를 유치했고, 위스콘신 기술 회랑은 마이크로소프트의 AI 데이터센터를 맞이하고 있으며, 미시간주는 미국 반도체 제조업 벨트의 핵심이다. 세 차례 상영의 공통점은 2022년 CHIPS Act 이후 미국 중서부가 반도체 제조업을 재건하려는 주(州)라는 것이다.
+These three universities were not on a random list. Indiana, where Purdue is located, received investment from SK hynix for its packaging plant; Wisconsin's technology corridor is welcoming Microsoft's AI data centers; and Michigan is the core of the US semiconductor manufacturing belt. The common thread among the three screenings is that these states in the US Midwest aim to rebuild their semiconductor manufacturing industries following the CHIPS Act of 2022.
 
-그리고 그들 앞에 놓인 이 영화는 대만 감독이 만든, 대만이 어떻게 세계에서 가장 복잡한 공정을 만들어냈는지를 다룬 이야기다.
+And the film sitting before them was directed by a Taiwanese director, telling the story of how Taiwan created the world's most complex manufacturing processes.
 
-## 장중모 없는 TSMC 서사
+## A TSMC Epic Without Morris Chang
 
-《산을 만든 자들: 세기의 도박》(영문 제목 A Chip Odyssey)은 칭화대학교(清華大學) 교양교육센터 및 인문사회학원 교수 샤오쥐전(蕭菊貞)이 연출했다[^2]. 그녀는 연속 두 차례 금마장(金馬獎) 다큐멘터리 부문을 수상한 대만 감독이다 — 1999년 《홍엽전기(紅葉傳奇)》, 2000년 《은잠자(銀簪子)》[^3].
+_The Mountain Maker: A Century's Bet_ (English title: _A Chip Odyssey_) is directed by Hsiao Ju-chen, a professor at the General Education Center and College of Humanities and Social Sciences, National Tsing Hua University[^2]. She is a Taiwanese director who won the Golden Horse Award for Best Documentary in consecutive years—_The Legend of Red Leaves_ in 1999 and _Silver Hairpin_ in 2000[^3].
 
-그러나 이 영화에는 구조적인 부재가 있다: 장중모.
+But this film has a structural absence: Morris Chang.
 
-"장중모는 우리의 정식 인터뷰에 응하지 않았습니다," 샤오쥐전은 말했다. "그는 자서전 하권을 집필 중이었고, 더해가 TSMC의 촬영 제한은 당연히 여러 겹의 보호막이었습니다." 그녀는 마침내 공개 시상식 자리에서 다중 카메라로 장중모의 실루엣과 치사를 보충 촬영할 수밖에 없었다[^4].
+"Morris Chang did not give us a formal interview," Hsiao Ju-chen said. "He was writing the second volume of his autobiography, and TSMC's restrictions on filming were, of course, layered with protection." She could only capture Chang's figure and speech from a public award ceremony using multi-camera supplementary footage[^4].
 
-> **📝 큐레이터 노트**
-> TSMC에 관한 서사시인데 창업자 본인의 정면 인터뷰가 없다 — 이 구조적 부재 자체가 한 가지 이야기를 말해준다. TSMC의 특수성은 공정뿐 아니라 외부로의 확산 방식에도 있다: 비밀 유지 문화가 자기 자신의 역사를 돌아보는 데까지 여러 겹으로 보호되고 있다는 것이다.
+> **📝 Curator's Note**
+> An epic about TSMC without the founder himself giving a formal interview—this structural absence itself says something. TSMC's uniqueness lies not only in its processes but also in its external radiation method: its confidentiality culture is so deep that even reviewing its own history is heavily protected.
 
-최종적으로 등장하는 것은 옆모습, 보충 촬영, 뉴스 화면에서 잘려 들어온 장면뿐이다. 샤오쥐전은 오히려 카메라를 **TSMC에 있지 않아도 산을 만든 자들**로 돌렸다: 산업기술연구원(工研院) 전 원장 스친타이(史欽泰)가 영석 총자문을 맡았고, 미디어텍(聯發科) 차이밍제(蔡明介), RCA 프로젝트 단장 양딩위안(楊丁元), 왕홍(旺宏) 사장 루즈위안(盧志遠), TSMC 전 부회장 증번성(曾繁城), 린벤젠(林本堅, 침습식 리소그래피 돌파), 장상의(蔣尚義), 시민(施敏, 휘발성 메모리 발명자), 연전전자(聯電) 초대 총두 두쥔위안(杜俊元), 그리고 1세대 여성 작업자 집단(무기명)이 포함된다[^5].
+What appears last are silhouettes, supplementary footage, and clips cut from news footage. Hsiao Ju-chen instead turned the lens toward those who are **mountain makers even if not in TSMC**: Former ITRI President Hsien Tai Hsiao served as the chief consultant for the entire film; MediaTek's Tsao Ming-chien; RCA Project Team Leader Yang Ding-yuan; Macronix General Manager Lu Chih-yuan; Former TSMC Vice Chairman Tseng Fan-cheng; Ben N. G. Ren (breakthrough in immersion lithography); Shang-Yi Chiang; Min-Shiang Shih (inventor of non-volatile memory); UMC's first General Manager John Shyu; and the first generation of female operators (unnamed)[^5].
 
-## 5년, 80여 명
+## Five Years, Eighty People
 
-CNEX 시나화런(CNEX Studio Corporation, 視納華仁)은 다큐멘터리 계에서 낯선 이름이 아니다. 2007년 장셴빈(蔣顯斌), 천링전(陳玲珍), 장자오웨이(張釗維) 세 사람이 타이베이, 베이징, 홍콩에서 동시에 설립한 화어권 다큐멘터리 NGO이다[^6]. 장셴빈은 시나닷컴(新浪網)의 공동 창업자로, CNEX 설립 이후 화어권 다큐멘터리 지원과 국제 배급에 오랫동안 헌신해왔다.
+The name CNEX (CNEX Studio Corporation) is familiar to the documentary circle. It is a Chinese-language documentary NGO established simultaneously in Taipei, Beijing, and Hong Kong in 2007 by Chiang Hsien-pin, Chen Ling-chen, and Chang Chao-wei[^6]. Chiang Hsien-pin is a co-founder of Sina.com and has long been involved in supporting and distributing Chinese-language documentaries after founding CNEX.
 
-제작진은 이 영화에서 반도체 산업의 베테랑들을 제작 현장으로 끌어들였다. 천톈순(陳添順)은 반도체 산업의 베테랑 경영자로, 장셴빈과 함께 이 영화의 프로듀서를 맡았다[^7]. 장셴빈에 따르면, 이 영화의 기원은 2019년 자신이 반도체 선배 후딩화(胡定華)의 추모식에 참석한 후 친구가 CNEX에 이 주제를 찍어달라고 부탁한 것이며, 장셴빈과 샤오쥐전이 이를 맡았다.
+The producing team did something in this film: they brought semiconductor industry veterans directly into the production side. Chen Tien-shun is a senior executive in the semiconductor industry and serves as the producer alongside Chiang Hsien-pin[^7]. According to Chiang Hsien-pin, the origin of this film was in 2019, when he attended the memorial service for semiconductor pioneer Hu Ding-hua. A friend asked CNEX to film this topic, and Chiang and Hsiao Ju-chen took it on.
 
-2019년부터 2024년 완성까지, 5년. 인터뷰 대상자 수는 공식적으로 "80여 명"으로 기록된다 — 샤오쥐전과 제작팀이 함께 만난 인원이다[^8]. 편집 지도는 천보원(陳博文)이 맡았으며, 이번이 샤오쥐전과의 네 번째 협업이다. 음악은 린셩샹(林生祥)이 담당했다.
+From 2019 to the completion of the film in 2024, it took five years. The official number of interviewees is "over 80"—Hsiao Ju-chen and the producing team interviewed that many people[^8]. Editing supervisor Chen Po-wen is collaborating with Hsiao Ju-chen for the fourth time; the music is by Lin Sheng-hsiang.
 
-> **✦** "이 연로한 선구자들을 기록하는 것은 시간과의 경주(a race against time)입니다." — 장셴빈, 뉴욕 시사회에서의 발언[^9]
+> **✦** "Recording this group of aging pioneers is a race against time." — Chiang Hsien-pin at the New York premiere[^9]
 
-제작 기간 동안 IDFA Bertha Fund(암스테르담 다큐멘터리 영화제), Sundance Institute Documentary Film Program, CCDF(CNEX 화인 다큐멘터리 제안 대회), 문화부 등이 지원을 제공했다[^8]. TSMC의 공식 자금도, 정부 직접 출연의 증거도 없다 — 영화 전체는 "다큐멘터리 독립 제작 × 업계 민간 후원 × 국제 공적 기금"의 혼합 자금 구조로 이루어졌다.
+During the production period, the IDFA Bertha Fund (Amsterdam International Documentary Film Festival), Sundance Institute Documentary Film Program, CCDF (CNEX Chinese Documentary Project Conference), and the Ministry of Culture provided support[^8]. There was no official funding from TSMC, nor evidence of direct government funding—the entire film had a mixed funding structure of "independent documentary production × private industry sponsorship × international public funds."
 
-## 난양거에서 애리조나까지
+## From Nanyang Street to Arizona
 
-이 영화의 시간 축은 1974년에서 출발한다.
+The timeline anchor of this film starts in 1974.
 
-그해, 순윈쉐안(孫運璿), 리궈딩(李國鼎), 판원위안(潘文淵) 등 7명이 샤오신싱 두유전(小欣欣豆漿店)의 조찬 회보에서 "집적회로 기술 발전 계획"을 확정했다[^10]. 같은 해 판원위안은 위산호텔(圓山飯店) 508호실에서 IC 기획서를 작성했다. 1976년, 공업기술연구원(工研院) 전자소가 미국 RCA와 10년 기술 이전 계약을 체결하고, 첫 번째 "씨드 포스" 19명이 프린스턴으로 건너가 3인치 웨이퍼 공정을 3개월간 교육받았으며, 6개월 만에 수율을 50%에서 70%로 끌어올렸다[^11].
+That year, Sun Yun-hsuan, Li Kuo-tung, Pan Wen-yuan, and five others held a breakfast briefing at the Little Hsin Hsin Soy Milk Shop, finalizing the "Integrated Circuit Technology Development Plan"[^10]. That same year, Pan Wen-yuan wrote the IC plan in Room 508 of the Yuan Shan Hotel. In 1976, ITRI's Electronics Research and Service Organization signed a 10-year technology transfer contract with the US RCA. The first batch of 19 "seed troops" went to Princeton to train in 3-inch wafer processes, raising the yield from 50% to 70% within half a year[^11].
 
-1980년 연화전자(UMC) 설립. 1985년 장중모가 대만에 와서 공업기술연구원 원장 취임, 초대형 집적회로(VLSI) 계획 제안. 1987년 TSMC 창립, 순수 웨이퍼 파운드리 모델 최초 도입[^11]. 1990년대 린벤젠(林本堅)의 침습식 리소그래피 돌파. 2020년대 미중 칩 전쟁, CHIPS Act, TSMC 애리조나 공장, 중국 규제, AI 붐.
+In 1980, United Microelectronics Corporation (UMC) was founded. In 1985, Morris Chang came to Taiwan to serve as the President of ITRI, proposing the Very Large Scale Integration (VLSI) plan. In 1987, TSMC was founded, pioneering the pure foundry model[^11]. In the 1990s, Ben N. G. Ren achieved breakthroughs in immersion lithography. In the 2020s, the US-China chip war, CHIPS Act, TSMC's Arizona plant, China's ban, and the AI wave.
 
-시간 축의 끝은 2025년 3월에서 멈춘다 — 웨이저자(魏哲家)가 백악관에 들어가 트럼프와 회견하며 TSMC의 미국 추가 투자 1,000억 달러를 발표한 장면[^22].
+The timeline ends in March 2025—Tsao Ming-chien entered the White House, met with Trump, and announced TSMC's additional investment of $100 billion in the US[^22].
 
-> **✦** "만약 그때 나라가 안일했다면, 대만에는 반도체 산업의 기적이 없었을 것입니다. 산을 만든 자들의 정신은 '환난에서 태어난다(生於憂患)'에 있습니다." — 샤오쥐전[^13]
+> **✦** "If the country had been comfortable at that time, Taiwan would not have had the miracle of the semiconductor industry. The spirit of the mountain makers lies in 'born in adversity.'" — Hsiao Ju-chen[^13]
 
-샤오쥐전은 인터뷰에서 반복적으로 이것이 "사람"의 이야기임을 강조했다: "기술 또한 문화의 일부이며, 대만인 삶의 일부이고, 동시에 기술, 실리콘 실드와 우리는 더욱 긴밀하게 연운명공동체로 이어져 있습니다."[^14]
+In interviews, Hsiao Ju-chen repeatedly emphasized that this is a story about "people": "Technology is also part of culture, part of Taiwanese life, and technology, the silicon shield, and we are tightly connected as a community of shared destiny."[^14]
+
+## "Taiwan Never Stole"
+
+In March 2025, Trump accused Taiwan of stealing the US semiconductor industry. Three months later, an English edition report in _CommonWealth Magazine_ titled the film: **"Taiwan Never Stole from the US!"**[^15]
+
+The chronological overlap is no coincidence. Cinema Escapist's review positioned this film as a "timely and fitting visual companion" to Chris Miller's _Chip War_—but with a more Taiwan-centric angle, more insider access, and more everyday Taiwanese voices[^16].
+
+The reviews also carried reservations: "unapologetically lionizes," "self-sacrificing framing," and a narrative setup where the "national crisis is not yet over." In public interviews, Hsiao Ju-chen also mentioned an observation: if the semiconductor development plan had been submitted to public opinion at the time, it might not have passed. This statement itself reveals the tension between early decision-making in Taiwan's tech industry and democratic deliberation.
+
+> **📝 Curator's Note**
+> From the perspective of authoritarian development history, "public opinion would not have passed it" can be read in two ways: one is "visionary elites driving national progress," and the other is "long-term investment without democratic deliberation." The director does not explicitly choose either side in the film; this ambiguity itself is proof of the film's political maturity.
+
+The US tour itself also carried diplomatic color—Stanford (Hoover Institution + APARC), UCLA (Samueli + LA TECO), Columbia (Weatherhead East Asian Institute), New York (Deputy Director of the Taipei Economic and Cultural Office in New York, Chang Li-hsien attended), Purdue, Wisconsin, and Michigan (Director of the Taipei Economic and Cultural Office in Chicago, Lei Yen-feng attended)—most co-hosted by local TECO offices and the local semiconductor industry-government-academia circle[^17].
+
+## The Mountain Maker Was Actually Absent
+
+On the evening of June 2025, 84-year-old Morris Chang and his wife walked into Shin Yi Wovie Cinema—"not a private screening, but buying tickets like any other audience member to enter the theater"[^19]. A month earlier, the premiere on May 10 was held at the Shin Yi Wovie A13 IMAX Hall. Culture Minister Li Yuan, Lin Huai-min, National Tsing Hua University President Gao Wei-yuan, and Hsien Tai Hsiao all attended[^18]. Morris Chang and his wife chose a regular ticketed screening to watch it themselves, becoming two ordinary audience members in a screening.
+
+Hsiao Ju-chen said afterward that she was "nervous and excited, but also a little disappointed"—disappointed that she never managed to get Morris Chang himself to sit in front of the camera for an interview[^19].
+
+Two months later, in August 2025, former President Tsai Ing-wen and former Vice President Chen Chien-jen attended the screening. Tsai Ing-wen spoke: "I sincerely thank the production of this film. The director and producers have presented the events that have happened over the years and the challenges we have faced in a structurally clear way."[^20]
+
+By October 2025, the box office across Taiwan broke NT$32 million, ranking among the top five in the history of Taiwanese documentary cinema box office (according to the production team's announcement)[^21].
+
+The mountain maker did not give an interview. He chose the most ordinary screening to watch it himself, and let the film speak for him.
+
+This epic without him makes the story of the mountain maker no longer belong to just one person.
+
+---
+
+## Further Reading
+
+- [Semiconductor Industry](/technology/半導體產業) — The complete context of Taiwan's semiconductor industry from RCA technology transfer to the Arizona plant, the industrial background of this film
+- [Technology Park Development](/technology/科技園區發展) — Hsinchu Park as the concrete geographical carrier of the mountain makers, the stage for this film's scenes
+- [Cognitive Warfare](/society/認知作戰) — "Taiwan Never Stole" responds to the 2025 US-China information battlefield, coinciding with the film's political framing
+- [Taiwan Strait Crisis and Cross-Strait Relations Development](/history/台海危機與兩岸關係發展) — The geopolitical background of the term "Silicon Shield," the implicit premise of this film's argument
+- [Lin Chi-erh](/people/林琪兒) — Taiwanese-American NASA astronaut who spoke at Central University on the same day (4/22), another track of Taiwan's soft power
+
+## References
+
+[^1]: [Sing Tao Daily — Documentary 'The Mountain Maker' Conveys Taiwan's Semiconductor Experience](https://www.singtaousa.com/2026/04/22/news/world/taiwan-semiconductor-documentary/) — 2026-04-22 report, summarizing the 2026 spring US Midwest three-university tour screenings, attendees, and affiliated institutions
+
+[^2]: [National Tsing Hua University General Education Center — Introduction to Professor Hsiao Ju-chen](https://cge.site.nthu.edu.tw/p/406-1573-251025,r10280.php) — Hsiao Ju-chen is currently a professor at the General Education Center and College of Humanities and Social Sciences, National Tsing Hua University, teaching since 2016
+
+[^3]: [Wikipedia — Hsiao Ju-chen](https://zh.wikipedia.org/zh-tw/%E8%95%AD%E8%8F%8A%E8%B2%9E) — Records Hsiao Ju-chen's birth in 1972, graduation from National Tsing Hua University's Department of Economics in 1994, and the complete record of _The Legend of Red Leaves_ and _Silver Hairpin_ winning consecutive Golden Horse Awards for Best Documentary
+
+[^4]: [GVM Magazine — Interview with 'The Mountain Maker' Director Hsiao Ju-chen](https://www.gvm.com.tw/article/121217) — Hsiao Ju-chen explains the reason for Morris Chang not being interviewed: busy writing the second volume of his autobiography + TSMC filming restrictions
+
+[^5]: [CNEX Official Website — A Chip Odyssey Production Info](https://www.cnex.tw/achipodyssey) — Records the complete list of interviewees, production years, runtime, and distribution info
+
+[^6]: [Wikipedia — CNEX](https://zh.wikipedia.org/zh-tw/CNEX) — CNEX was established simultaneously in Taipei, Beijing, and Hong Kong in 2007 by Chiang Hsien-pin, Chen Ling-chen, and Chang Chao-wei as a Chinese-language documentary NGO
+
+[^7]: [Focus Taiwan — Documentary on Taiwan's chip industry seen as fitting tribute](https://focustaiwan.tw/culture/202511100023) — 2025 New York premiere report, introducing the backgrounds of producers Chen Tien-shun and Chiang Hsien-pin
+
+[^8]: [Kuomintang Magazine — The Mountain Maker: A Love Letter to Semiconductor Pioneers](https://www.taiwan-panorama.com/Articles/Details?Guid=359711d4-54c0-4fc1-9c83-9969918e56ff) — Hsiao Ju-chen interview, revealing the 5-year production period, over 80 interviewees, and international funding backing from IDFA Bertha Fund and Sundance IDFP
+
+[^9]: [Focus Taiwan — Documentary celebrates Taiwan chip pioneers in NY premiere](https://focustaiwan.tw/culture/202511100023) — 2025-11-09 New York East Coast premiere report, Chiang Hsien-pin's original quote "a race against time"
+
+[^10]: [GVM Magazine — Review of 'The Mountain Maker': Breakfast Briefing at 40 Nanyang Street](https://www.gvm.com.tw/article/121312) — Review notes that the location of Little Hsin Hsin Soy Milk Shop is 40 Nanyang Street (legendary location, single source)
+
+[^11]: [Business Weekly — 'The Mountain Maker' Reveals Taiwan's Semiconductor History](https://www.businessweekly.com.tw/focus/blog/3018500) — Complete introduction of the timeline anchors: 1974 breakfast briefing, 1976 RCA technology transfer, 1980 UMC, 1985 VLSI plan, 1987 TSMC founding
+
+[^12]: [CNA — 'The Mountain Maker' Hsinchu Premiere](https://www.cna.com.tw/news/afe/202505110213.aspx) — 2025-05-11 Hsinchu premiere report, Tseng Fan-cheng attended and spoke, March 2025 Tsao Ming-chien White House announcement of $100 billion investment as the film's ending anchor
+
+[^13]: [Kuomintang Magazine — Same as Note 8](https://www.taiwan-panorama.com/Articles/Details?Guid=359711d4-54c0-4fc1-9c83-9969918e56ff) — Hsiao Ju-chen's original quote paragraph on "born in adversity"
+
+[^14]: [GVM Magazine — Same as Note 4](https://www.gvm.com.tw/article/121217) — Hsiao Ju-chen's original quote paragraph on "technology is also part of culture"
+
+[^15]: [CommonWealth English — Taiwan Never Stole from the US!](https://english.cw.com.tw/article/article.action?id=4117) — CommonWealth Magazine English edition June 2025 report, title directly responding to Trump's March 2025 accusation
+
+[^16]: [Cinema Escapist — Review: A Chip Odyssey](https://www.cinemaescapist.com/2025/11/review-chip-odyssey-documentary/) — November 2025 international film review, positioning this film as a visual companion to Chris Miller's _Chip War_ and pointing out reservations such as "unapologetically lionizes"
+
+[^17]: [Hoover Institution — A Chip Odyssey Screening](https://www.hoover.org/events/chip-odyssey) — Stanford Hoover/APARC November 5, 2025 screening official page, including complete info on co-hosts and attending scholars
+
+[^18]: [GVM Magazine — Same as Note 4](https://www.gvm.com.tw/article/121217) — May 10, 2025 Shin Yi Wovie premiere attendee list: Culture Minister Li Yuan, Lin Huai-min, National Tsing Hua University President Gao Wei-yuan, Hsien Tai Hsiao
+
+[^19]: [United Daily News — Morris Chang and Wife Buy Tickets to Watch Film](https://udn.com/news/story/7240/8834549) — June 2025 Morris Chang and his wife bought tickets to watch at Shin Yi Wovie and bowed three times to the audience to express gratitude
+
+[^20]: [Mirror Media — Tsai Ing-wen Speaks at Film Screening](https://www.mirrormedia.mg/story/20250808insight003) — August 8, 2025 Tsai Ing-wen and Chen Chien-jen screening report, Tsai Ing-wen's original quote
+
+[^21]: ['The Mountain Maker A Chip Odyssey' Official Facebook](https://www.facebook.com/A.Chip.Odyssey/) — October 2025 official announcement that Taiwan box office broke NT$32 million, ranking among the top five in the history of Taiwanese documentary cinema box office (according to production team announcement)
+
+[^22]: [CNA — Tsao Ming-chien Goes to White House to Announce TSMC's $100 Billion US Investment](https://www.cna.com.tw/news/aipl/202503040013.aspx) — March 4, 2025 report, TSMC Chairman Tsao Ming-chien met with Trump at the White House to announce an additional $100 billion investment in the US to expand the Arizona plant scale

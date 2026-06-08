@@ -1,243 +1,242 @@
 ---
-title: 'Environmental Justice and NIMBY Conflicts in Taiwan'
-description: 'An examination of the unequal distribution of environmental burdens in Taiwan, from incinerator and nuclear waste siting to petrochemical industry NIMBY conflicts, analyzing environmental inequality and social justice issues'
+title: 'Environmental Justice and NIMBY Disputes in Taiwan'
+description: 'Explores the phenomenon of uneven distribution of environmental burdens in Taiwan, analyzing issues of environmental inequality and social justice through the lens of NIMBY conflicts involving incinerators, nuclear waste, and the petrochemical industry.'
 date: 2026-03-20
-author: 'Taiwan.md Contributors'
-category: 'Society'
-subcategory: '社會運動'
 tags:
   [
-    '環境正義',
-    '鄰避效應',
-    '環境不平等',
-    '社會公義',
-    '焚化爐',
-    '核廢料',
-    '石化業',
+    'Environmental Justice',
+    'NIMBY Effect',
+    'Environmental Inequality',
+    'Social Justice',
+    'Incinerators',
+    'Nuclear Waste',
+    'Petrochemical Industry',
   ]
+subcategory: 'Social Movements'
+author: 'Taiwan.md Contributors'
+category: 'Society'
 readingTime: 13
 lastVerified: 2026-03-20
 lastHumanReview: false
-featured: false
 translatedFrom: 'Society/台灣環境正義與鄰避爭議.md'
-sourceCommitSha: '1d54cbe5'
-sourceContentHash: 'sha256:14488432802fabfe'
-sourceBodyHash: 'sha256:eeb9b885e5063119'
-translatedAt: '2026-05-29T00:35:00+08:00'
+sourceCommitSha: '44238bb4f'
+sourceContentHash: 'sha256:ca7f70cdde7f6b9f'
+translatedAt: '2026-06-09T02:15:23+08:00'
 ---
 
-# Environmental Justice and NIMBY Conflicts in Taiwan
+# Environmental Justice and NIMBY Disputes in Taiwan
 
-Environmental justice concerns the equitable distribution of environmental burdens and environmental benefits. In Taiwan, environmental problems generated during the course of industrial development tend to concentrate in specific regions and among specific populations, creating a phenomenon of "environmental inequality." From waste incinerators and nuclear waste disposal to petrochemical industrial parks, these necessary but risky facilities invariably trigger NIMBY (Not In My Back Yard) controversies, reflecting deep contradictions in Taiwanese society regarding the distribution of environmental risk.
+Environmental Justice focuses on the fairness of distributing environmental burdens and environmental benefits. In Taiwan, environmental problems arising during industrial development are often concentrated in specific areas and specific groups, forming a phenomenon of "environmental inequality." From garbage incinerators and nuclear waste disposal to petrochemical industrial parks, these necessary but risky facilities consistently trigger NIMBY (Not In My Back Yard) controversies, reflecting deep-seated contradictions in the distribution of environmental risks within Taiwanese society.
 
 ## Theoretical Foundations of Environmental Justice
 
-### Unequal Distribution of Environmental Burdens
+### Uneven Distribution of Environmental Burdens
 
-The core concept of environmental justice is "distributive fairness." Ideally, environmental benefits (such as clean air and scenic landscapes) and environmental burdens (such as polluting facilities and health risks) should be distributed evenly. In reality, environmental burdens tend to concentrate in specific areas—typically communities that are economically disadvantaged and politically less influential.
+The core concept of environmental justice is "distributive fairness." Ideally, environmental benefits (such as clean air and beautiful landscapes) and environmental burdens (such as pollution facilities and health risks) should be distributed evenly. In reality, however, environmental burdens are often concentrated in specific areas, typically communities with economic disadvantages and limited political influence.
 
-The distribution of environmental burdens in Taiwan is clearly unequal. The Sixth Naphtha Cracker Complex is located in Mailiao Township, Yunlin County, an area whose economy is primarily based on agriculture and fishing, with low household incomes. The Linhai Industrial Park in Kaohsiung is situated in Siaogang District, a densely populated area with limited political influence. This distribution pattern reflects the "path of least resistance"—polluting facilities tend to be sited where opposition is weakest.
+The distribution of environmental burdens in Taiwan is clearly uneven. The Liucheng (Six-Heavy) petrochemical industrial park is located in Maiqiao Township, Yunlin County, where the local economy is primarily based on agriculture and fisheries, and residents have low incomes. The Kaohsiung Coastal Industrial Zone is located in Xiaogang District, an area with high population density but limited political influence. This distribution model reflects the "principle of least resistance to capacity"—pollution facilities tend to be located where opposition is weakest.
 
 ### Procedural Justice and the Right to Participate
 
-Beyond distributive fairness, environmental justice also emphasizes "procedural justice," meaning all affected groups should have equal opportunities to participate in environmental decision-making. However, Taiwan's Environmental Impact Assessment (EIA) system has long prioritized technical assessment while neglecting public participation.
+In addition to distributive fairness, environmental justice emphasizes "procedural justice," meaning that all affected groups should have equal opportunities to participate in environmental decision-making. However, Taiwan's Environmental Impact Assessment (EIA) system has long focused on technical assessments while neglecting public participation.
 
-Residents often learn of a facility only after the site has already been determined, lacking the opportunity to participate in decision-making beforehand. Even when public hearings are held, they are frequently reduced to formalities, making it difficult for public opinion to genuinely influence outcomes. This "decide first, communicate later" model is a major cause of NIMBY conflicts.
+Residents often learn about facility locations only after decisions have already been made, lacking opportunities for prior participation in decision-making. Even when public hearings are held, they often become mere formalities, with public opinion failing to truly influence decision outcomes. This "decide first, communicate later" model is a major cause of NIMBY controversies.
 
-### Intergenerational Justice and Risk-Bearing
+### Intergenerational Justice and Risk Bearing
 
-Environmental justice also involves fairness across generations. Nuclear waste has a half-life spanning tens of thousands of years—the current generation enjoys the benefits of nuclear power, but the risks are borne by future generations. Similarly, industrial development brings economic growth, but environmental costs may persist for decades.
+Environmental justice also involves fairness between generations. The half-life of nuclear waste lasts for tens of thousands of years; the current generation enjoys the benefits of nuclear power, but the risks are borne by future generations. Similarly, industrial development brings economic growth, but the environmental costs may persist for decades.
 
-Indigenous peoples' traditional territories frequently become sites for waste disposal, such as the nuclear waste storage facility on Orchid Island (Lanyu) and landfills in mountain townships. These decisions were often made during periods when Indigenous peoples lacked political voice, yet their impacts continue to this day, constituting what has been termed "colonial environmentalism."
+The traditional territories of Indigenous peoples often become sites for waste disposal, such as the nuclear waste storage on Lanyu (Orchid Island) and garbage landfills in mountain townships. These decisions were often made during eras when Indigenous peoples lacked political voice, yet their impacts persist to this day, forming a "colonial environmentalism."
 
 ## The NIMBY Dilemma of Waste Management
 
 ### Incinerator Siting Controversies
 
-The construction of waste incinerators in Taiwan has been fraught with NIMBY resistance. When the "one incinerator per county/city" policy was promoted in the 1990s, nearly every incinerator faced strong opposition. The most intense resistance was against the Ankeng Incinerator in Xindian, where local residents formed a self-help association and waged a decade-long opposition campaign.
+The construction of garbage incinerators in Taiwan has been filled with NIMBY protests. During the 1990s, when the "one incinerator per county/city" policy was promoted, almost every incinerator faced strong opposition. The resistance against the Xindian Anhang Incinerator was the most intense; local residents formed a self-help association and conducted a ten-year opposition movement.
 
-Reasons for opposition included health risks, declining property values, and reduced quality of life. Dioxin emissions were the greatest concern; although modern incinerators have reduced dioxin emissions to extremely low levels, public fear of "toxins" is difficult to dispel. The "not in my back yard" mentality is understandable, but waste must go somewhere.
+Reasons for opposition include health risks, falling property values, and reduced quality of life. Dioxin emissions are the greatest concern. Although the dioxin emissions of modern incinerators have dropped to extremely low levels, the public's fear of "toxins" is difficult to eliminate. The mindset of "not in my backyard" is understandable, but garbage must be disposed of somewhere.
 
-The government has attempted to resolve disputes through compensation payments. Townships hosting incinerators receive compensation of tens of New Taiwan dollars per ton of waste processed, earmarked for local development. However, monetary compensation cannot fully dispel concerns about environmental risk, and the fairness of the compensation mechanism has also been questioned.
+The government attempted to resolve disputes using compensation funds. Townships where incinerators are located can receive compensation funds of tens of New Taiwan Dollars per ton of garbage, used for local construction. However, monetary compensation cannot fully alleviate concerns about environmental risks, and the fairness of the compensation mechanism is also questioned.
 
-### Cross-Jurisdictional Waste Disposal
+### Cross-County Waste Processing
 
-Taipei City's waste is sent to New Taipei City for processing, and New Taipei City's waste is sent to Taoyuan, creating a phenomenon of "waste travel." While this cross-regional processing solves each jurisdiction's immediate waste crisis, it also raises new equity issues.
+Taipei City sends garbage to New Taipei City for processing, and New Taipei City sends garbage to Taoyuan, creating a phenomenon of "garbage travel." While this cross-regional processing solves the immediate urgent needs of each county/city, it also triggers new unfairness issues.
 
-Remote mountain landfills become the final resting place for urban waste. Mountain townships such as Wulai, Sanxia, and Shiding—with small populations and limited political influence—frequently become designated sites for landfills. Local residents protest: "Why should we bear the waste generated by city dwellers?"
+Landfills in remote mountainous areas become the final destination for urban garbage. Mountain townships such as Wulai, Sanxia, and Shihden, with sparse populations and limited political influence, often become proposed sites for garbage landfills. Local residents protest, asking, "Why must we bear the garbage created by urban people?"
 
-The distribution of waste processing costs is also inequitable. The jurisdictions generating the waste pay processing fees, but the compensation received by the jurisdictions bearing the environmental risk is often disproportionate. The "polluter pays" principle is difficult to implement in cross-jurisdictional waste management.
+The distribution of garbage processing costs is also unfair. Counties/cities that generate garbage pay processing fees, but the counties/cities bearing the environmental risks often receive disproportionate compensation. The "polluter pays" principle is difficult to implement in cross-county garbage processing.
 
-### Class Disparities in Resource Recycling
+### Class Differences in Recycling
 
-Waste reduction policies affect different socioeconomic classes differently. Middle- and high-income households can purchase better products with less packaging, generating relatively less waste. Low-income households often buy cheaper goods with more packaging material, generating more waste.
+The impact of waste reduction policies differs across socioeconomic classes. Middle-to-high-income families can purchase products with less packaging, resulting in relatively less garbage. Low-income families often buy cheaper goods with more packaging materials, generating larger amounts of garbage.
 
-The burden of resource recycling is also uneven. Waste pickers on the streets are mostly economically disadvantaged elderly individuals who perform dangerous and dirty recycling work for meager income. Middle- and high-income households enjoy the benefits of a clean environment while the labor costs of recycling are borne by those at the bottom of society.
+The burden of recycling is also uneven. Street scavengers are mostly economically disadvantaged elderly people who engage in dangerous and dirty recycling work but earn meager incomes. Middle-to-high-income families enjoy the benefits of a clean environment, while the labor costs of recycling are borne by the bottom layer of society.
 
 ## Ethnic Controversies in Nuclear Waste Disposal
 
-### The Orchid Island Nuclear Waste Incident
+### The Lanyu Nuclear Waste Incident
 
-The Orchid Island (Lanyu) low-level radioactive waste storage facility is a classic case of environmental justice controversy in Taiwan. In 1982, Taipower established the facility on Orchid Island without fully informing the Tao (Dawu) Indigenous residents of the radiation risks. At the time, it was presented as a "fish cannery," and the Tao people accepted the nuclear waste without knowing the truth.
+The Lanyu Nuclear Waste Storage Site is a classic case of environmental justice controversy in Taiwan. In 1982, Taipower set up a low-level radioactive waste storage site on Lanyu, but did not fully inform the Tao people residents of the radiation risks. It was claimed at the time to be a "fish canning factory," and the Tao people accepted the nuclear waste without knowing.
 
-This incident highlights multiple forms of injustice: ethnic injustice (exploiting the vulnerable position of Indigenous peoples), intergenerational injustice (nuclear waste impacts lasting hundreds of years), informational injustice (concealing true risks), and procedural injustice (lack of genuine informed consent).
+This event highlights multiple injustices: ethnic injustice (exploiting the vulnerable status of Indigenous peoples), intergenerational injustice (nuclear waste impacts persist for hundreds of years), informational injustice (concealing true risks), and procedural injustice (lack of true informed consent).
 
-The Tao people's resistance has persisted for forty years. They demand the removal of nuclear waste and the restoration of their ancestral lands. "Nuclear Waste Out of Orchid Island" is not merely an environmental demand but a claim to Indigenous self-determination. Although the government has promised removal, selecting a final disposal site has proven difficult, and nuclear waste remains on Orchard Island.
+The Tao people's resistance has continued for forty years. They demand the removal of nuclear waste and the restoration of their ancestral land. "Nuclear Waste Out of Lanyu" is not just an environmental demand, but also a claim for Indigenous self-determination. Although the government promised to remove the waste, difficulties in selecting a final disposal site mean the nuclear waste remains on Lanyu.
 
 ### The Dilemma of Final Disposal Site Selection
 
-High-level radioactive waste requires deep geological disposal in geologically stable formations. Taipower commissioned Sinotech Engineering to conduct geological surveys; areas such as Jinshan, Wanli, and Penghu were all listed as candidate sites, but all faced strong opposition.
+High-level radioactive nuclear waste requires deep geological disposal in geologically stable areas. Taipower commissioned Chung Hsing Engineering to conduct geological surveys; candidates such as Jinshan, Wanli, and Penghu were all listed, but all faced strong opposition.
 
-Public fear of nuclear waste is understandable, but the reality that "someone must bear it" cannot be avoided. Countries such as Sweden and Finland have resolved siting issues through volunteer communities, generous compensation, and transparent decision-making, but Taiwan's weak social trust makes it difficult to replicate these models.
+The public's fear of nuclear waste is understandable, but the realistic problem that "someone must bear it" cannot be avoided. Countries like Sweden and Finland have resolved siting issues through volunteer communities, substantial compensation, and transparent decision-making processes, but Taiwan's weak social trust foundation makes it difficult to replicate this model.
 
-The screening criteria for candidate sites have also sparked controversy. Technical safety is important, but social acceptability is equally critical. Selecting sites based solely on geological conditions while ignoring local public opinion will inevitably provoke resistance. Finding a balance between technical rationality and social rationality is a challenge for policy-making.
+The screening criteria for candidate sites also trigger controversy. While technical safety is important, social acceptance is equally indispensable. Selecting sites solely based on geological conditions while ignoring local public opinion inevitably triggers resistance. Finding a balance between technical rationality and social rationality is a challenge in policy-making.
 
-### Equitable Burden of Nuclear Decommissioning
+### The Fair Burden of Nuclear Power Decommissioning
 
-Taiwan's three nuclear power plants are being decommissioned in succession, generating large quantities of low-level radioactive waste. The disposal of this waste also faces environmental justice issues. Nuclear power plants are mostly located in northern Taiwan, with electricity primarily supplied to the Taipei metropolitan area, but waste disposal sites may be located in other counties.
+Taiwan's three nuclear power plants are being decommissioned sequentially, generating large amounts of low-level radioactive waste. The disposal of these wastes also faces environmental justice issues. Nuclear power plants are mostly located in the northern region, with electricity mainly supplied to the Taipei metropolitan area, but waste disposal sites may be set up in other counties/cities.
 
-Decommissioning costs are borne by all citizens, but environmental risks are concentrated in specific areas. This model of socialized costs and localized risks exemplifies the environmental injustice of nuclear policy. Innovative institutional design is needed to ensure that beneficiaries bear corresponding responsibilities.
+Decommissioning costs are borne by the entire population, but environmental risks are concentrated in specific areas. This model of socializing costs while localizing risks is a manifestation of environmental injustice in nuclear energy policy. How to make beneficiaries bear corresponding responsibilities requires innovative institutional design.
 
 ## Environmental Burdens of the Petrochemical Industry
 
-### Health Risks of the Sixth Naphtha Cracker Complex
+### Health Risks of the Liucheng Industrial Park
 
-The Sixth Naphtha Cracker Complex in Mailiao, Yunlin County, is Taiwan's largest petrochemical base, with annual output exceeding NT$2 trillion. But the complex also brings severe environmental burdens: air pollution, water pollution, soil contamination, and health risks.
+The Liucheng (Six-Heavy) petrochemical industrial park in Maiqiao, Yunlin, is Taiwan's largest petrochemical base, with an annual output value exceeding NT$2 trillion. However, the park also brings severe environmental burdens: air pollution, water pollution, soil pollution, and health risks.
 
-Research by National Taiwan University's College of Public Health found that cancer incidence among residents near the complex was significantly higher. Lung cancer and liver cancer incidence rates were 20–30% above the national average. Childhood asthma and allergy rates were also notably elevated. These health risks are borne primarily by local residents, while the economic benefits accrue mainly to corporations and shareholders.
+Research from the College of Public Health at National Taiwan University found that cancer incidence rates among residents near Liucheng are significantly higher. Incidence rates for lung and liver cancer are 20-30% higher than the national average. Incidence rates of asthma and allergies among children are also significantly higher. These health risks are mainly borne by local residents, while economic benefits are mainly obtained by enterprises and shareholders.
 
-The air pollution from the Sixth Naphtha Cracker Complex affects a wide area. Pollutants such as PM2.5, sulfur dioxide, and nitrogen oxides are carried by wind to neighboring counties including Changhua and Nantou. EPA air quality monitoring shows that pollution concentrations in the Yunlin area have long exceeded standards.
+Air pollution from Liucheng has a wide impact range. Pollutants such as PM2.5, sulfur dioxide, and nitrogen oxides spread with the wind, affecting neighboring counties/cities such as Changhua and Nantou. Air quality monitoring by the Environmental Protection Administration shows that air pollution concentrations in Yunlin have long exceeded standards.
 
 ### The Dalinpu Relocation Controversy
 
-The Dalinpu area in Kaohsiung is surrounded by petrochemical industrial parks, and residents have long been exposed to air pollution. The government has promoted a Dalinpu relocation plan, but progress has been slow, sparking resident dissatisfaction.
+The Dalinpu area in Kaohsiung is surrounded by petrochemical industrial parks, and residents have been exposed to air pollution for a long time. The government's promotion of the Dalinpu relocation plan has been slow, triggering resident dissatisfaction.
 
-Relocation compensation standards are a focal point of controversy. The government purchases homes at market value, but residents believe the compensation is insufficient to buy equivalent housing elsewhere. Elderly residents are reluctant to leave their hometowns, while younger residents worry about employment. Relocation involves the reconstruction of an entire community, not merely a real estate transaction.
+Relocation compensation standards are the focus of controversy. The government purchases houses at market prices, but residents believe the compensation is insufficient to purchase equivalent housing elsewhere. Elderly residents are reluctant to leave their hometowns, while young people worry about employment issues. Relocation involves the reconstruction of the entire community, not just house buying and selling.
 
-Arrangements during the temporary relocation period are also problematic. School enrollment for children, medical care for the elderly, and commuting for workers all need to be reorganized. The government's resettlement plan lacks detail, leaving residents without certainty about their future lives.
+Living arrangements during temporary relocation are also a difficult issue. Schooling for children, medical care for the elderly, and commuting for work all need to be rearranged. The government's resettlement plan lacks detail, and residents lack a sense of certainty about their future lives.
 
 ### Transparency of Environmental Monitoring
 
-Environmental monitoring in the petrochemical industry is often conducted by the companies themselves, raising questions about the credibility of monitoring results. The public has called for the government to establish independent monitoring stations, but the professional threshold for interpreting monitoring data is high, making it difficult for ordinary citizens to make judgments.
+Environmental monitoring in the petrochemical industry is often conducted by the enterprises themselves, and the credibility of monitoring results is questioned. The public demands the government to set up independent monitoring stations, but the professional threshold for interpreting monitoring data is high, making it difficult for the general public to judge.
 
-The follow-up and oversight mechanisms for environmental impact assessments are weak. Many EIA commitments in industrial parks are difficult to verify after the fact, and penalties for violations are insufficient. Public confidence in the government's regulatory capacity is lacking, deepening distrust of industrial facilities.
+The tracking and supervision mechanism for Environmental Impact Assessments is weak. Many EIA commitments in industrial parks are difficult to verify afterwards, and penalties for violations are insufficient. The public lacks confidence in government regulatory capabilities, deepening distrust of industrial facilities.
 
-Citizen monitoring movements have emerged. Organizations such as the Changhua County Environmental Protection Alliance and the Yunlin County Environmental Protection Alliance have purchased their own monitoring equipment to conduct air quality monitoring. This citizen science compensates for gaps in official monitoring but also reflects deficiencies in government oversight.
+Citizen monitoring movements are emerging. Organizations such as the Changhua Environmental Protection Alliance and Yunlin Environmental Protection Alliance purchase their own monitoring equipment to conduct air quality monitoring. This citizen science compensates for the shortcomings of official monitoring but also reflects the lack of government regulation.
 
-## The Social Distribution of Environmental Risk
+## Social Distribution of Environmental Risks
 
 ### Class and Environmental Exposure
 
-Environmental risk in Taiwan is clearly correlated with social class. Housing near industrial zones is predominantly occupied by low- and middle-income families, because property prices and rents are lower. High-income families live in areas with better environmental quality, such as hillside residential districts and oceanfront villa communities.
+Environmental risks in Taiwan are clearly related to social class. Housing near industrial zones is mostly inhabited by low-to-middle-income families because housing prices are lower and rents are cheaper. High-income families live in areas with better environments, such as hillside residential areas and seaside villa districts.
 
-Occupational environmental exposure also varies by class. Blue-collar workers—factory operators, construction workers, sanitation workers—are exposed to higher environmental risks. White-collar workers work in air-conditioned offices with relatively lower environmental exposure.
+Occupational environmental exposure also has class differences. Blue-collar workers such as factory operators, construction workers, and sanitation workers are exposed to higher environmental risks. White-collar workers work in air-conditioned offices, with relatively lower environmental exposure.
 
-Educational attainment affects environmental risk perception. More highly educated citizens are better able to understand environmental risks and more capable of taking protective measures. Less educated citizens may underestimate risks or be unable to afford to move away from high-risk areas due to economic constraints.
+Educational level affects environmental risk perception. Highly educated individuals are better able to understand environmental risks and have more ability to take protective measures. Low-educated individuals may underestimate risks or be unable to move away from high-risk areas due to economic considerations.
 
-### Urban-Rural Environmental Disparities
+### Urban-Rural Environmental Gap
 
-Urban areas enjoy better environmental quality and public services. Public transportation is well-developed, there is more green space, and medical resources are abundant. Rural areas, by contrast, often bear the environmental burdens generated by cities: landfills, wastewater treatment plants, and coal-fired power plants are frequently sited in rural areas.
+Urban areas enjoy better environmental quality and public services. Public transportation is developed, green spaces are abundant, and medical resources are sufficient. Rural areas often bear environmental burdens generated by cities: garbage landfills, sewage treatment plants, and thermal power plants are mostly set up in rural areas.
 
-Rural environmental monitoring networks are sparser, making pollution events harder to detect in a timely manner. Insufficient medical resources make it difficult to address environmental health risks promptly. Farmers, for economic reasons, may continue to farm on contaminated land.
+The rural environmental monitoring network is sparser, making it difficult to discover pollution incidents in a timely manner. Medical resources are insufficient, making it difficult to handle environmental health risks immediately. Farmers may continue to farm on polluted land due to economic considerations.
 
-Environmental justice issues in the urbanization process also deserve attention. Urban renewal often relocates low-income residents to areas with poorer environmental quality. Soil contamination remediation at former industrial sites is often funded by the public sector, but the benefits of land value appreciation accrue to private parties.
+Environmental justice issues in the process of urbanization are also worth attention. Urban renewal often moves low-income residents to areas with poorer environments. Soil pollution remediation of industrial sites is often funded by the public sector, but land value appreciation benefits are obtained by private parties.
 
 ### Ethnicity and Environmental Justice
 
-Indigenous areas frequently become designated sites for environmental risk facilities. Landfills in mountain townships, nuclear waste storage facilities, and large reservoirs all impact Indigenous peoples' traditional territories.
+Indigenous areas are often proposed sites for environmental risk facilities. Garbage landfills, nuclear waste storage sites, and large reservoirs in mountain townships all impact the traditional territories of Indigenous peoples.
 
-Water resource allocation also shows ethnic disparities. Indigenous communities in mountain townships often lack safe drinking water, while downstream urban areas face no water shortages. The benefits and costs of water resources are disproportionately distributed.
+Water resource distribution also has ethnic differences. Indigenous communities in mountain townships often lack safe drinking water, while downstream urban areas have sufficient water. The benefits and cost-bearing of water resources are disproportionate.
 
-Indigenous environmental knowledge and management systems have long been overlooked. Traditional natural resource management practices may be more sustainable than modern scientific management, but they receive little policy attention.
+Indigenous environmental knowledge and management systems have long been ignored. Traditional natural resource management methods may be more sustainable than modern scientific management, but they lack policy attention.
 
 ## Response Strategies and Institutional Reform
 
-### Environmental Impact Assessment System Reform
+### Reform of the Environmental Impact Assessment System
 
-The current EIA system prioritizes the technical over the social; the weight of social impact assessment needs to be increased. Assessment scope should include health risks, social impacts, and cultural effects. The assessment process should provide more opportunities for public participation.
+The current EIA system focuses on technology over society and needs to increase the weight of social impact assessments. The scope of assessment should include health risks, social impacts, and cultural impacts. The assessment process should offer more opportunities for public participation.
 
-The composition of EIA committees needs to be diversified. In addition to technical experts, social science experts, local representatives, and NGO representatives should be included. The decision-making process should be more transparent, and public opinions should have clear processing procedures.
+The composition of the EIA Committee needs to be diversified. In addition to technical experts, social science experts, local representatives, and NGO representatives should be included. The decision-making process should be more transparent, and public opinions should have clear handling procedures.
 
-EIA follow-up and oversight mechanisms need to be strengthened. Independent third-party monitoring bodies should be established to regularly review the implementation of EIA commitments. Penalties for violations should have deterrent effect and not be merely symbolic fines.
+The EIA tracking and supervision mechanism needs to be strengthened. Independent third-party monitoring institutions should be established to regularly review the execution of EIA commitments. Penalties for violations should have a deterrent effect and cannot be merely symbolic fines.
 
 ### Risk Communication Mechanisms
 
-Establish effective risk communication mechanisms that enable the public to understand and participate in risk-related decision-making. Risk information should be presented in ways the public can understand, avoiding technical black boxes.
+Establish effective risk communication mechanisms that allow the public to understand and participate in risk decision-making. Risk information should be presented in a way that the public can understand, avoiding technical black boxes.
 
-Establish permanent communication platforms, not just communication when facilities are being built. Hold regular community meetings to gather public opinions and respond to public concerns. Building trust requires long-term effort.
+Establish permanent communication platforms, not just communicating when facilities are being built. Regularly hold community meetings, collect public opinions, and respond to public concerns. Building trust requires long-term effort.
 
-The media plays an important role in risk communication. Science journalists need better professional training to accurately report environmental risk information. Sensationalist reporting should be avoided, but neither should reasonable public concerns be ignored.
+The media plays an important role in risk communication. Science journalists need better professional training to accurately report environmental risk information. Avoid sensational reporting, but do not ignore reasonable public concerns.
 
-### Compensation and Benefit-Sharing Mechanisms
+### Compensation and Feedback Mechanisms
 
-Design fair compensation mechanisms that go beyond monetary compensation to consider community development needs. The use of compensation funds should be transparent and genuinely directed toward improving local quality of life.
+Design fair compensation mechanisms that consider not only monetary compensation but also community development needs. The use of compensation funds should be transparent and open, truly used to improve local quality of life.
 
-Establish a health fund system to provide health monitoring and medical coverage for residents near environmental risk facilities. Regular health examinations, medical expense subsidies, and health risk research can all be included within the fund's scope.
+Establish a health fund system to provide health monitoring and medical security for residents near environmental risk facilities. Regular health check-ups, medical expense subsidies, and health risk research can all be included in the fund scope.
 
-Consider establishing an "Environmental Justice Fund" to assist environmentally disadvantaged communities in improving environmental quality. Funding sources could include pollution fees, environmental taxes, carbon taxes, and other environment-related revenues.
+Consider establishing an "Environmental Justice Fund" to assist environmentally disadvantaged communities in improving environmental quality. Funding sources can include pollution fees, environmental taxes, carbon taxes, and other environmentally related revenues.
 
-### Civic Participation Institutions
+### Citizen Participation Systems
 
-Strengthen the legal foundation for civic participation in environmental decision-making. Establish the public's right to environmental information, the right to participate, and the right to oversight. Government information should be proactively disclosed, and public opinions should have clear processing procedures.
+Strengthen the legal foundation for citizen participation in environmental decision-making. Establish the public's right to environmental information, participation, and supervision. Government information should be proactively disclosed, and public opinions should have clear handling procedures.
 
-Build the participation capacity of environmentally disadvantaged communities. Provide resources such as legal assistance, technical support, and organizational training to enable disadvantaged communities to effectively participate in environmental decision-making.
+Empower environmentally disadvantaged communities to participate effectively. Provide resources such as legal assistance, technical support, and organizational training, allowing disadvantaged communities to effectively participate in environmental decision-making.
 
-Promote the application of participatory budgeting in environmental policy. Allow the public to directly participate in environmental budget allocation decisions, increasing the democratic legitimacy of policy.
+Promote the application of participatory budgeting in environmental policies. Allow the public to directly participate in the distribution decision-making of environmental budgets, increasing the democratic legitimacy of policies.
 
-## International Experience and Lessons
+## International Experience and Insights
 
-### The American Environmental Justice Movement
+### The US Environmental Justice Movement
 
-The American environmental justice movement originated in the 1980s, focusing on the concentration of toxic waste facilities in African American communities. After thirty years of development, environmental justice has been incorporated into mainstream federal policy.
+The US Environmental Justice Movement originated in the 1980s, focusing on the phenomenon of toxic waste facilities concentrated in African American communities. After thirty years of development, environmental justice has been incorporated into the mainstream of federal policy.
 
-The U.S. Environmental Protection Agency established an Office of Environmental Justice to ensure that all policies consider environmental justice dimensions. Federal agencies must assess the impact on disadvantaged communities when formulating policies.
+The US Environmental Protection Agency established an Office of Environmental Justice to ensure that all policies consider environmental justice aspects. Federal government agencies must assess the impact on disadvantaged communities when formulating policies.
 
-California's Environmental Justice Act (SB 535) mandates that 25% of greenhouse gas reduction investments must benefit disadvantaged communities. This "beneficiary priority" principle is worth Taiwan's consideration.
+California's Environmental Justice Act (SB 535) stipulates that 25% of greenhouse gas reduction investments must be used for disadvantaged communities. This "beneficiary priority" principle is worth reference for Taiwan.
 
 ### Procedural Justice in Europe
 
-The Aarhus Convention in Europe established procedural rights including access to environmental information, public participation, and access to justice. Member states must establish corresponding legal systems.
+The European Convention on Access to Information, Public Participation in Decision-making and Access to Justice in Environmental Matters (the Aarhus Convention) establishes procedural rights such as the right to environmental information, public participation, and judicial relief. Member states must establish corresponding legal systems.
 
-Sweden's environmental court system enables the public to effectively seek remedies for environmental rights. Professional judges, technical experts, and civilian representatives jointly adjudicate environmental cases. Rulings are binding, and both government and businesses must comply.
+Sweden's environmental court system allows the public to effectively remedy environmental rights. Professional judges, technical experts, and civil representatives jointly hear environmental cases. Judgments have mandatory force, and both the government and enterprises must comply.
 
-The Netherlands' environmental impact assessment system emphasizes public participation. The public can not only express opinions but also influence the scope and methods of assessment. Assessment results must address issues of public concern.
+The Netherlands' environmental impact assessment system emphasizes public participation. The public can not only express opinions but also influence the scope and methods of assessment. Assessment results must respond to issues of concern to the public.
 
 ### Risk Communication in Japan
 
-Japan vigorously promoted risk communication systems after the nuclear disaster. The government established dedicated agencies, trained risk communication specialists, and developed standardized communication procedures.
+Japan has vigorously promoted risk communication systems after the nuclear disaster. The government established a specialized agency, trained risk communication experts, and established standardized communication procedures.
 
-The Fukushima nuclear disaster response experience shows that risk communication is not merely a technical issue but a trust issue. The government must acknowledge uncertainty and bear decision-making responsibility in order to build public trust.
+The handling experience of the Fukushima nuclear disaster shows that risk communication is not just a technical issue, but also a trust issue. The government must acknowledge uncertainty and assume decision-making responsibility to build public trust.
 
-Local governments in Japan play an important role in risk communication. The attitudes and policies of local executives often determine the success or failure of risk communication.
+Local governments in Japan play an important role in risk communication. The attitude and policies of local chiefs often determine the success or failure of risk communication.
 
 ## Outlook and Conclusion
 
-Taiwan's environmental justice issues reflect deeper structures of social inequality. Addressing environmental justice requires simultaneously tackling multiple dimensions of inequality—class, ethnicity, urban-rural, and intergenerational.
+Taiwan's environmental justice issues reflect deeper structures of social inequality. Solving environmental justice issues requires addressing multiple inequalities simultaneously: class, ethnicity, urban-rural divides, and generations.
 
-Future challenges include: climate change exacerbating unequal distribution of environmental risk, just transition during the energy transition process, social impacts of circular economy development, and environmental justice issues in international trade.
+Future challenges include: climate change exacerbating the uneven distribution of environmental risks; just transition in the process of energy transition; social impacts of circular economy development; and environmental justice issues in international trade.
 
-Environmental justice is not merely an ideal but a practical necessity. Establishing a fair, transparent, and participatory environmental governance system that enables all citizens to enjoy environmental quality and bear environmental responsibilities is a necessary condition for Taiwan's transition to a sustainable society.
+Environmental justice is not just an ideal, but also a practice. Establishing fair, transparent, and participatory environmental governance systems, allowing all citizens to enjoy environmental quality and bear environmental responsibilities, is a necessary condition for Taiwan to move towards a sustainable society.
 
-Environmental decision-making in a democratic society should be based on adequate information, open debate, and procedural justice. There is no perfect solution, but a fairer process can be pursued. Realizing environmental justice requires the joint efforts of government, business, and civil society, and even more, the active participation of every citizen.
+Environmental decision-making in a democratic society should be based on sufficient information, open debate, and procedural justice. There are no perfect solutions, but we can pursue fairer processes. The realization of environmental justice requires the joint efforts of the government, enterprises, and civil society, and more importantly, the active participation of every citizen.
 
 **Further Reading**:
 
-- [Iron Sheet Houses](/society/鐵皮屋) — The Wenzizun demolition is a textbook case of environmental justice: pollution, demolition, and relocation dilemmas of a 400-hectare iron-sheet factory cluster
-- [Social Housing and Housing Justice](/society/社會住宅與居住正義) — The policy dimension of housing: social housing supply and rental market reform
-- [Lu Shiow-yen](/people/盧秀燕) — The politician who won Taichung in 2018 on an air quality platform, with specific policy battlefields around the Taichung Power Plant, PM2.5, and energy transition
-- [Taiwan Climate Crisis and Net-Zero Transition](/nature/台灣氣候危機與淨零轉型) — 97,672 drums on Orchid Island, the Maanshan Nuclear Plant 2025 referendum, the algae reef Third LNG Terminal, the 27-fold geothermal gap: the environmental justice fault lines corresponding to each energy transition pathway
+- [Discussion on Nuclear Energy in Taiwan](/society/台灣與核能的討論) — The Lanyu Tao people bear nuclear waste but are not at the center of the debate: The deepest NIMBY and environmental justice fault lines in nuclear energy controversies
+- [Tin Shacks](/society/鐵皮屋) — The demolition of Wuzaijian is a typical case of environmental justice: Pollution, demolition, and relocation dilemmas of a 400-hectare tin factory settlement
+- [Social Housing and Housing Justice](/society/社會住宅與居住正義) — Policy aspects of housing issues: Social housing supply and rental market reform
+- [Lu Hsiu-yen](/people/盧秀燕) — The politician who won Taichung in 2018 on the air quality issue: The specific policy battlefield of Taichung Power Plant, PM2.5, and energy transition
+- [Taiwan's Climate Crisis and Net Zero Transition](/nature/台灣氣候危機與淨零轉型) — Lanyu 97,672 barrels, Nuclear Plant 3 2025 referendum, Algae Reef Sanjie, 27 times geothermal gap: Environmental justice fault lines corresponding to every path of energy transition
 
 ## References
 
-- [Environmental Rights Foundation](https://www.erf.org.tw/) — Environmental law and public interest litigation
-- [Citizen of the Earth, Taiwan](https://www.cet-taiwan.org/) — Environmental justice advocacy and civic action
+- [Foundation for Environmental Law and Public Interest Litigation](https://www.erf.org.tw/) — Environmental law and public interest litigation
+- [Earth Citizen Foundation](https://www.cet-taiwan.org/) — Environmental justice advocacy and citizen action
 - [Taiwan Environmental Information Association](https://e-info.org.tw/) — Environmental news and issue analysis
-- [Green Citizens' Action Alliance](https://www.gcaa.org.tw/) — Anti-nuclear and energy policy advocacy
-- [Wild at Heart Legal Defense Association](https://www.wildatheart.org.tw/) — Environmental law and policy oversight
-- [Kaohsiung Chaishan Association](https://www.takao.org.tw/) — Local environmental protection and community participation
+- [Green Citizen Action Alliance](https://www.gcaa.org.tw/) — Anti-nuclear and energy policy advocacy
+- [Wild at Heart Ecological Association](https://www.wildatheart.org.tw/) — Environmental law and policy supervision
+- [Kaohsiung Taishan Society](https://www.takao.org.tw/) — Local environmental protection and community participation
 - [Changhua County Environmental Protection Alliance](http://www.cepf.org.tw/) — Anti-air pollution and environmental monitoring
-- [Tao Foundation of Orchid Island](http://www.teyaw.org/) — Nuclear waste removal and Indigenous rights
+- [Lanyu Tao People Cultural and Educational Foundation](http://www.teyaw.org/) — Nuclear waste removal and Indigenous rights
 - [Environmental Protection Administration, Executive Yuan](https://www.epa.gov.tw/) — Environmental policy and regulatory information
-- [National Taiwan University College of Public Health](https://www.sph.ntu.edu.tw/) — Environmental health risk research
-- _Environmental Justice: Environmental Risks in Disadvantaged Communities_, by Wen-ling Tu, OpenBook, 2012
-- _An Introduction to Taiwan's Environmental Movements_, by Ming-hsiu Ho, Socio Publishing, 2006
+- [College of Public Health, National Taiwan University](https://www.sph.ntu.edu.tw/) — Environmental health risk research
+- _Environmental Justice: Environmental Risks of Disadvantaged Communities_, by Du Wenling, Kaixue Culture, 2012
+- _Introduction to Taiwan's Environmental Movement_, by Ho Ming-hsiu, Qunxue Publishing, 2006

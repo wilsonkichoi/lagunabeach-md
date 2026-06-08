@@ -1,195 +1,251 @@
 ---
-title: '대만의 종교와 사찰 문화'
-description: '편의점보다 많은 1만 5천 개의 사찰이 있는 섬. 불교, 도교, 민간 신앙이 하나의 지붕 아래 공존하고, 마쭈 순례에는 백만 명이 아홉 밤낮을 걷는다 — 대만의 신앙은 경전 속이 아니라 골목 모퉁이의 향 연기 속에 있다.'
-date: 2026-04-06
-tags: ['종교', '사찰', '민간 신앙', '마쭈', '불교', '도교', '바오안궁']
-subcategory: '종교와 민속'
+title: "Taiwan's Religious Beliefs: An Empire of Faith Grown from Fear"
+description: "On the island with the highest density of temples in the world and the second-highest ranking for religious freedom in Asia, the historical origins of its two largest faiths—King Yeh (Wangye) and Mazu—are both linked to plague and death. From the 17th-century military immigrants carrying statues across the Black Water Strait to the 2025 Freedom House report awarding Taiwan a score of 94; from the 1953 ban on I-Kuan Tao and its legalization as the first religion after the 1987 lifting of martial law, to the four major Buddhist mountains and the Presbyterian Church taking different paths in church-state relations—Taiwan's faith is not found in scriptures, but in the incense at every corner."
+date: 2026-04-28
+tags:
+  [
+    'Religion',
+    'Temples',
+    'Folk Religion',
+    'Mazu',
+    'King Yeh',
+    'Buddhism',
+    'Taoism',
+    'I-Kuan Tao',
+    'Presbyterian Church',
+    'Baoan Temple',
+  ]
+subcategory: 'Religion and Folklore'
+author: 'Taiwan.md Contributors'
 category: 'Culture'
-author: 'Taiwan.md Translation Team'
-readingTime: 14
-featured: true
-lastVerified: 2026-04-06
+readingTime: 22
+lastVerified: 2026-04-28
 lastHumanReview: true
 translatedFrom: 'Culture/台灣宗教與寺廟文化.md'
-sourceCommitSha: '5db9f136'
-sourceContentHash: 'sha256:8d534bf965b094a9'
-sourceBodyHash: 'sha256:ef11b70d69d87737'
-translatedAt: '2026-04-28T21:41:13+08:00'
+sourceCommitSha: '5db9f136e'
+sourceContentHash: 'sha256:f4c2c2ff8d767ccf'
+translatedAt: '2026-06-09T03:48:29+08:00'
 ---
 
-# 대만의 종교와 사찰 문화
+# Taiwan's Religious Beliefs: An Empire of Faith Grown from Fear
 
-> **30초 개요:** 대만에 공식 등록된 종교 건축물은 1만 5천 개가 넘는다. 전국 편의점 수보다 많다. 같은 사찰 안에서 불교의 관음보살, 도교의 마쭈(媽祖), 민간 신앙의 투디공(土地公)이 향을 나눠 피운다. 매년 음력 3월이면 백만 명이 넘는 사람들이 다자 마쭈(大甲媽祖) 순례에 참가해 아홉 밤낮 동안 330킬로미터를 걷는다. 2014년에는 연간 방문객 600만 명의 싱톈궁(行天宮)이 모든 향로를 철거하고 대만 최초의 '금향(禁香)' 사찰이 되었다. 이 섬의 신앙은 한 번도 구름 위의 일이었던 적이 없다 — 그것은 언제나 당신 집 골목 안에 있었다.
+> **30-Second Overview:** Taiwan has approximately 15,000 registered religious buildings, more than the number of convenience stores on the entire island. The most numerous are not the Mazu temples (approx. 672) that most people assume, but King Yeh (Wangye) temples (approx. 1,330)—a god of fear originating from the "sending away of plague king boats," specifically treating plagues. In the same temple, you might see Buddhist Guanyin, Taoist Jade Emperor, and folk religion Earth Gods sharing incense. Every lunar March, over a million people follow the Dajia Mazu pilgrimage for nine days and eight nights, covering 340 kilometers. In 2014, Xingtian Temple, which receives six million visitors annually, removed all incense burners, becoming Taiwan's first "incense-free" major temple. The 2025 Freedom House Global Freedom Report ranked Taiwan as the second freest country in Asia. This island's faith has never been a cloud-based matter—it is right at the corner of your street, starting from the moment military immigrants stepped off their ships in the 17th century.
 
-1995년, 랴오우즈(廖武治)라는 사람이 타이베이 다룽둥(大龍峒) 바오안궁(保安宮)의 지붕 위에 서 있었다. 전통 전첩(剪黏) 장인이 200년 전 자리에 색유리 조각을 하나하나 다시 끼워 넣는 모습을 지켜보고 있었다[^1]. 바오안궁은 1804년에 건립되었다. 중국 푸젠성 퉁안(同安) 출신 이민자들이 바오성따디(保生大帝) 신앙을 가지고 건너와 세운 사찰이다. 일제강점기, 전후 혼란, 도시 팽창을 거치며 1990년대에 이르러 사찰은 심하게 낡아 있었다. 대만 정부는 1985년에 이급 고적으로 지정했지만, 지정 이후 보수에 손을 대는 사람은 아무도 없었다.
+In 1995, a man named Liao Wu-chih stood on the roof of Baoan Temple in Dalongdong, Taipei, watching a craftsman embed pieces of colored glass back into their positions from two hundred years ago[^1]. Baoan Temple was built in 1804, a temple brought by immigrants from Tong'an carrying the faith of Bao Sheng Da Di (Great Emperor Bao Sheng). It had endured the Japanese colonial period, the post-war era, and urban expansion, but by the 1990s, it was in a state of severe disrepair. The Taiwan government listed it as a second-class historical monument in 1985, but no one repaired it after listing.
 
-랴오우즈는 직접 기금을 모아 수리하기로 했다. 7년간 정부 보조금 한 푼 받지 않고, 원래의 공법과 원래의 재료만 고집했다[^2]. 전국 각지에서 전첩, 석조, 목각, 단청의 노장인들을 찾아냈는데, 이미 전승이 끊기기 직전인 기술도 있었다. 그는 훗날 인터뷰에서 이렇게 말했다. "새 재료로 오래된 사찰을 고치는 건 쉽습니다. 하지만 그건 복원이 아니라 인테리어예요."
+Liao Wu-chih decided to raise funds for repairs himself. For seven years, he took not a single cent from the government, insisting on using original craftsmanship and materials[^2]. He recruited old masters from across Taiwan for paper-cutting paste (jian-nian), stone carving, wood carving, and painting; some techniques were on the verge of extinction. "It is easy to repair an old temple with new materials," he later said in an interview, "but that is not restoration; it is renovation."
 
-2003년, 바오안궁은 유네스코 아시아태평양 문화유산 보존상을 수상했다. 대만 건축물로는 최초였다[^3]. 심사위원단은 이렇게 평했다. "바오안궁의 복원은 그 규모와 깊이에서 주목할 만한 기술적 성취를 대표한다."
+In 2003, Baoan Temple received the UNESCO Asia-Pacific Cultural Heritage Conservation Award, becoming the first in Taiwan[^3]. The jury wrote this sentence: "A model for community-based restoration."
 
-200년 된 사찰 하나, 우직한 방법을 고집한 사람 하나, 세계적 수상 하나 — 이 이야기에 대만 사찰 문화의 핵심이 응축되어 있다. **사찰은 단지 기도하는 곳이 아니라, 살아가는 곳이다.**
+This story is actually a microcosm of the island's religious history: the government steps back, the people step in; skills are nearly lost, but someone insists on passing them on; a temple is not just a temple, but a container for a city's memory. To understand why this island has grown the highest density of temples in the world, we must go back more than three hundred years—to those who tied statues to their bodies and gambled their lives crossing the Black Water Strait.
 
-## 1만 5천 개의 사찰: 편의점보다 촘촘하다
+### Why This Island Has 15,000 Temples
 
-대만에는 사찰이 도대체 몇 개나 있을까?
+According to Ministry of the Interior statistics, there are approximately 15,000 registered religious buildings in Taiwan in 2024[^4]—more than the approximately 13,000 convenience stores on the entire island[^5]. Tainan is the city with the highest temple density in Taiwan, with 1,641 temples recorded in 2015[^6].
 
-내정부 전국종교정보망 통계에 따르면, 2024년 기준 대만에 공식 등록된 종교 건축물은 약 15,206개다. 이 가운데 도교 묘우가 9,794개, 불교 사원이 2,273개를 차지한다[^4]. 여기에는 등록되지 않은 수많은 소규모 투디공(土地公) 사당, 개인 신단, 길가의 만선예사(萬善爺祠)는 포함되지 않았다.
+But beneath this number lies a contrast that most people do not realize: **the largest category is not Mazu temples, but King Yeh (Wangye) temples.**
 
-이 숫자가 어느 정도인지 감이 올까? 대만 전역의 편의점은 약 13,000개다[^5]. 사찰이 편의점보다 많다.
+The Academia Sinica's "Taiwan Temple Database," based on cross-referencing the Ministry of the Interior's religious registrations, shows approximately 1,330 King Yeh temples and approximately 672 Mazu temples; King Yeh temples are nearly double the number of Mazu temples[^25]. "King Yeh faith is particularly prevalent in southern Taiwan, alongside Mazu faith in central Taiwan, commonly known as 'Southern King Yeh, Central Mazu,' and also referred to as 'Mad March for Mazu, April King Yeh's Birthday.'"[^26]
 
-평균적으로 대만인 1,500명당 사찰 하나를 공유하는 셈이다. 타이난(台南)은 전국에서 사찰 밀도가 가장 높은 도시로, 2015년 기준 1,641개의 사찰이 있었다[^6]. 타이난 구시가지를 걷다 보면 두 번 모퉁이를 돌기도 전에 사찰 하나를 마주치게 된다.
+What is a King Yeh god? The original function was that of a **plague god**. "King Yeh faith originated in the early Chinese southeast coast's 'sending away of plague king boats,' drifting from the Xiamen and Quanzhou areas to various places along the southwest coast of Taiwan."[^27] Coastal residents would push a wooden boat filled with offerings—the embodiment of plague—into the sea, hoping the plague would leave with the boat. The drifting plague boats that reached Taiwan were picked up by locals and enshrined in temples; thus, the plague god became a guardian god.
 
-> **📝 큐레이터 노트**
-> 이런 밀도는 우연이 아니다. 청나라 시대에 바다를 건너온 이민 공동체가 새로운 마을에 도착하면 제일 먼저 한 일이 사찰을 세우는 것이었다. 사찰은 단순히 신앙의 중심지가 아니었다. 이민자 공동체의 은행(공공 사찰이 토지 임대료를 걷고), 법원(사찰 앞에서 서약하고), 병원(약첨을 구하고), 사교장(사찰 마당에서 연회를 열었다) 역할을 했다. 대만의 사찰은 처음부터 다기능 커뮤니티 인프라였지, 기도만 하는 공간이 아니었다.
+> **📝 Curator's Note:** The largest god on an island originates from the fear of plague. This is not a choice of compassion, but a survival reflex of a medically backward immigrant society—handing over what cannot be controlled to a personality that can be imagined. When diseases later became controllable, King Yeh did not disappear; his function shifted to driving away evil, ensuring peace, and protection. Gods do not die; they just change jobs.
 
-## 불교, 도교, 민간 신앙: 삼교일묘(三教一廟)의 대만 특색
+Mazu follows the same logic. Mazu was originally a sea goddess from Meizhou, Fujian, during the Song Dynasty, with the function of ensuring the safety of fishermen at sea. In the 17th century, military immigrants crossing the Black Water Strait (Taiwan Strait) to Taiwan tied Mazu statues to the ship masts. When the ships arrived, the gods also arrived. But Mazu on the island quickly expanded her functions: from sea goddess to healing diseases, driving away evil, praying for children, protecting crops, helping with exams, and boosting business—she manages everything. A sea goddess with a single function became an all-purpose island mother goddess.
 
-대만의 전통 사찰에 발을 들이면, 신들의 다양성에 당황할 수 있다. 본전에는 관음보살(불교)이, 편전에는 옥황상제(도교)가, 그리고 곁채에는 투디공과 웨라오(月老, 민간 신앙)가 나란히 앉아 있다.
+Earth Gods (Tu Di Gong) followed the same path. Originally the field gods of an agricultural society, managing the harvest of a mu of land; after urbanization, their functions shifted to commerce. Some Earth God temples in Taipei's Xinyi District are believed to be "particularly good at helping people make money," with flourishing incense[^28]. The functions of gods evolve with social structures.
 
-이런 혼합은 동아시아에서 드문 일은 아니지만, 대만은 그것을 극한까지 밀어붙였다. 대만 사람은 아침에 싱톈궁(行天宮)에서 관공(關公)에게 사업 번창을 빌고, 점심에 룽산쓰(龍山寺)에서 관음보살에게 평안을 빌고, 저녁에 동네 투디공묘에서 장사가 잘 되기를 비는 것이 전혀 모순되지 않는다.
+### 340 Kilometers, Nine Days and Eight Nights
 
-세 체계는 각자 역할이 있다:
+Every lunar March, the entire island is taken over by a religious march.
 
-**불교**는 세상을 등지는 수행에 그치지 않는다. 쯔지 기금회(慈濟), 포광산(佛光山), 파구산(法鼓山), 중타이찬쓰(中台禪寺) — 대만 불교의 4대 산두(山頭)는 자비의 실천을 의료, 교육, 국제 재난 구호까지 확장했다. 정옌법사(證嚴法師)가 화롄에서 창립한 쯔지는 30명의 가정주부가 매일 5각(五毛, 약 1.5원)씩 반찬값을 아끼는 것에서 시작하여, 지금은 세계 최대 규모의 화인 자선단체 중 하나다[^7].
+The Mazu pilgrimage and incense-offering of Dajia Zhenlan Palace in 2025 started at 10:45 PM on April 4 and returned on April 13. Over nine days and eight nights, it spanned four counties and cities—Taichung, Changhua, Yunlin, and Chiayi—covering twenty-one townships, circling nearly a hundred temples, with a total distance of 340 kilometers[^8]. The Discovery Channel listed it as one of the world's top three religious events in 2004[^9]. In 2009, UNESCO listed Mazu beliefs and customs as Intangible Cultural Heritage of Humanity[^10].
 
-**도교**는 '만물에 영이 깃들어 있다'는 세계관을 제공한다. 마쭈(媽祖)는 해상 안전, 관성제군(關聖帝君)은 충의와 신용, 바오성따디(保生大帝)는 의료와 건강, 원창디쥔(文昌帝君)은 시험과 출세를 관장한다. 인생의 모든 필요에 대응하는 신이 있는, 촘촘하게 분업된 고객 서비스 시스템 같다.
+There is something special about the **supply stations along the way**. They are not arranged by the temple organization, but spontaneously set up by residents along the route. Free rice noodles, sesame oil chicken, massages, painkillers, razors, sanitary pads, and sports drinks. "Mazu is walking, everyone helps."[^11] An old grandmother might save money all year just to cook a pot of soup sufficient for hundreds of people during these few days. She does not know these believers, and the believers do not know her, but Mazu knows them all.
 
-**민간 신앙**은 가장 생활 밀착형이다 — 투디공(土地公)은 우리 집 근처의 풍수를 관리하고, 청황예(城隍爺)는 지역 치안, 웨라오(月老)는 인연, 우루차이선(五路財神)은 재운을 돌본다. 경전도 없고 교리도 없다. 있는 것은 옆집 할머니가 하시는 "빌면 지켜 주신다(有拜有保庇)"는 그 한마디뿐이다.
+Even more magical is the **tradition of the palanquin turning on its own**. The palanquin is not carried by people walking; it is "people following Mazu"—when the palanquin suddenly turns sharply, sprints, or turns back, the bearers can only follow and cannot disobey[^12]. This is the most physical moment of folk religion: the god is not in the sky; the god is in the wood, and the wood moves itself.
 
-> **✦** "대만 사람의 신앙은 배타적이지 않다. 더하기 방식이다. 한 분 더 모신다고 다른 분이 기분 상하지 않는다."
+In recent years, the pilgrimage has become increasingly complex. In 2016, "Mazu Culture" was written into China's "13th Five-Year Plan" and the "Belt and Road" initiative; in 2018, a Fujian delegation proposed establishing a national-level leadership institution composed of the United Front Work Department, the Taiwan Affairs Office, the Ministry of Culture, and the Fujian Provincial Party Committee to promote Mazu culture development[^13]. The CCP packages Mazu as the "Goddess of Peace across the Strait," funding cross-strait pilgrimage groups. The problem is that most Taiwanese Mazu believers just want to worship Mazu and do not want to be represented by anyone. There is no consensus in the pilgrimage队伍 on the question of "whether Mazu is a united front weapon."
 
-## 다자 마쭈 순례: 섬의 연례 대동맥
+> **📝 Curator's Note:** Mazu in Taiwan is simultaneously religion, culture, tourism, and politics. China wants to turn her into a symbol of "both sides of the strait belong to one China," while Taiwanese believers use the annual million-person徒步 (walking) pilgrimage to turn her into "our island's own god." A god can be several things at once; in Taiwan, this is not a contradiction, but a tacit understanding.
 
-대만 종교문화를 대표하는 것을 딱 하나만 꼽아야 한다면, 그것은 다자 마쭈 순례(大甲媽祖遶境)다.
+### Three Religions Sharing One Roof
 
-매년 음력 3월, 타이중 다자전란궁(大甲鎮瀾宮)의 마쭈 신여(神轎)가 출발한다. 여덟 명의 가마꾼이 어깨에 메고, 아홉 밤낮에 걸쳐 타이중시, 장화현, 윈린현, 자이현 4개 행정구역 21개 읍면을 지나며 약 100곳의 사찰을 방문하고, 왕복 약 330킬로미터를 행진한다[^8]. 함께 걷는 신도는 수십만 명에 이르며, 절정기에는 백만 명을 넘긴다.
+Walking into Longshan Temple in Mengjia, Taipei, you will see a scene difficult for outsiders to understand: the main hall enshrines Guanyin Bodhisattva (Buddhism), the back hall has Mazu (Taoism/folk religion) on one side and Wenchang Dijun (Taoism, governing exam luck) on the other, and the side halls have Yue Lao (folk religion, governing marriage) and Nusheng Niangniang (bestowing children) and Guan Sheng Dijun (Martial God of Wealth)[^21]. One temple, at least seven gods, belonging to three religious systems. Taiwanese people do not feel it is conflicting.
 
-2004년, 디스커버리 채널은 다자 마쭈 순례를 메카 순례, 인도 갠지스강 목욕과 함께 세계 3대 종교 행사의 하나로 선정했다[^9]. 2009년, 유네스코는 '마쭈 신앙과 풍속'을 인류무형문화유산 대표목록에 등재했다[^10].
+This is the most unique aspect of Taiwan's faith—**the unity of the three religions is not philosophy, but spatial configuration**. Buddhists, Taoists, and folk religion believers enter the same temple, worship their respective gods, and do not look down on each other. A 2019 survey by Academia Sinica also presented this mixture: 49.3% of the population believes in traditional folk religion, 14% in Buddhism, 12.4% in Taoism, 5.5% in Protestantism, 2.1% in I-Kuan Tao, and 1.3% in Catholicism[^29]. But in practice, a person might worship Mazu, pray to Guanyin, and visit Earth God temples during festivals; this is not apostasy, it is daily life.
 
-순례의 풍경에는 종교를 넘어서는 힘이 있다:
+How did this mixture come about? The historical context is that after the 17th century, sea-crossing immigrants brought gods from their respective hometowns. The island's space was limited, and temples could not be built so many independently, so the gods were placed together. Over time, functional division rather than sectarian separation became the dominant logic: for exam luck, find Wenchang; for marriage, find Yue Lao; for business, find Guan Gong; for peace, find Mazu; for children, find Nusheng Niangniang—each god has their own specialty, and believers worship according to need, without discussing sects.
 
-행로 주변 주민들은 자발적으로 무료 보급소를 차린다 — 식수, 도시락, 의료, 안마, 심지어 무료 이발까지. 사찰 측에서 조직한 것이 아니라, 행로변에 사는 사람들이 스스로 탁자와 의자를 내놓은 것이다. "마쭈님이 걸으시니 다들 도와야지" — 순례 기간 동안 이 말은 가장 자연스러운 집단 행동이다[^11].
+There was an event after the war that made this mixture even more explicit. On May 31, 1945, US bombers attacked Taipei; Longshan Temple's main hall was destroyed, but the Guanyin Bodhisattva statue inside remained intact amidst the rubble[^30]. Those who had worshipped this Guanyin—folk religion believers, Buddhists, and Taoists—all considered this a miracle. The statue did not distinguish religion, and neither did the miracle.
 
-여덟 명이 어깨에 메는 가마는 순례의 핵심이다. 신여는 마쭈의 뜻에 따라 저절로 흔들리고, 급회전하고, 심지어 질주한다고 전해지며, 가마꾼은 반쯤 입신(入神)한 상태로 '신여의 의지'에 응한다[^12]. 성별, 민족, 국적을 불문하고 누구든 적절한 구간에서 교대로 가마를 메는 데 참여할 수 있다.
+> **📝 Curator's Note:** Westerners often ask, "What religion do Taiwanese people believe in?" This question itself is wrong—it presupposes the premise that "a person can only believe in one religion." But for Taiwanese people, "what you believe" and "what you worship" are two different things. You can say you are Buddhist for a lifetime, but also worship Earth God every second and eighth day when visiting your娘家 (natal home), go to Wenchang before exams, and worship Guan Gong for business. This is not disloyalty; it is division of labor.
 
-> **⚠️ 논쟁적 시각**
-> 마쭈 순례의 규모는 논란도 낳는다. 매년 순례 기간의 폭죽 소음, 교통 통제, 환경 오염은 연선 주민들의 오랜 불만이다. 나아가 중국 공산당은 최근 마쭈 신앙을 통일전선 공작에 적극 활용하고 있다 — 마쭈를 '해협 평화의 여신'으로 재포장하고, 해협을 건너는 순례 여행단을 지원하며, 종교 교류를 통해 대만 선거에 영향을 미치려 시도한다[^13]. 마쭈 신앙의 정치화는 대만 종교문화가 직면한 가장 민감한 쟁점 중 하나다.
+### From Ban to Legalization: I-Kuan Tao's 34-Year Journey
 
-## 싱톈궁의 금향: 600만 명의 사찰이 향로를 치웠을 때
+In 1953, the Nationalist Government ordered the ban of I-Kuan Tao on the grounds of "involving superstition and disturbing local public order"[^31]. This religion, originating from Shandong, China, combining Confucianism, Buddhism, and Taoism, went underground in Taiwan, maintaining itself through word of mouth. For thirty-four years, the number of believers increased without decreasing.
 
-2014년 8월, 대만 사찰계를 뒤흔든 결정이 내려졌다. 타이베이 싱톈궁(行天宮)이 모든 향로와 공양대를 철거한다고 선언한 것이다[^14].
+In 1987—the same year Taiwan lifted martial law—forty legislative members signed a petition calling on the government to legalize I-Kuan Tao. In March 1988, the "General Association of I-Kuan Tao of the Republic of China" was established[^32]. I-Kuan Tao became the **first religion in post-war Taiwan to change from illegal to legal**—the timeline for lobbying began even a few months earlier than the lifting of martial law itself (July 15, 1987). As of March 2018, there were approximately 800,000 recorded I-Kuan Tao believers in Taiwan[^33].
 
-싱톈궁은 관성제군(關聖帝君)을 주신으로 모시며, 연간 방문객이 약 600만 명에 달하는 대만에서 가장 붐비는 사찰 중 하나다. 관리위원회는 뻬이뻬이(擲筊, 대만 전통 신탁 방식)를 통해 신의 동의를 받은 뒤, 새벽 3시에 대형 향로 2기와 공양대 15개를 옮겼다. 그날부터 신도들은 향도 공물도 가져올 필요가 없어졌다. 두 손 모아 합장하면 그뿐이다[^15].
+I-Kuan Tao's characteristics are strict vegetarianism + unity of the three religions + global expansion. It has dojos in over 80 countries[^34], advocating unique eschatological views like "The Three Final Calamities" and "The Three Buddhas Arriving." But the most easily understood feature for outsiders is: the food at I-Kuan Tao dojos is delicious, fully vegetarian, free, and they do not force you to join the sect.
 
-대만 역사상, 주류 도교 사찰이 자발적으로 향을 금지한 첫 번째 사례였다.
+> **📝 Curator's Note:** The history of I-Kuan Tao is a microcosm of Taiwan's religious liberalization. A religion banned by the state for thirty-four years did not disappear; instead, it accumulated grassroots mobilization energy during its underground period; on the eve of lifting martial law, it became a touchstone for political reform—"whether to allow this underground religion to be legalized" became an indicator of testing the government's openness. Today, I-Kuan Tao is already one of the mainstream religions, but what it taught Taiwan is not just religion, but the fact that "political repression cannot kill faith."
 
-관리 측은 이를 "반세기 만에 가장 큰 개혁"이라 불렀다. 하지만 다른 사찰들의 반응은 양극단이었다. 신앙의 본질로 돌아가는 것이라는 찬사가 있었고, 향로를 철거하는 것은 신에 대한 불경이라는 비판도 있었다[^16]. 사찰 밖 향촉 노점상들의 생계는 하룻밤 사이에 무너졌다.
+### Post-War New Emergences: The Four Major Buddhist Mountains
 
-싱톈궁이 향을 금지한 뒤에도 방문객 수는 줄지 않았다. 이 사실 자체가 깊은 신호다: 대만 사람의 신앙 핵심은 그 한 줄기 향 연기 위에 있지 않았다는 것.
+If King Yeh and Mazu represent the fear of sea-crossing immigrants, new Buddhism represents **another need of post-war Taiwanese society**—after urbanization, economic growth, and popular education, people needed not just peace and wealth, but also meaning.
 
-> **📝 큐레이터 노트**
-> 싱톈궁의 금향 뒤에는 더 큰 맥락이 있다: 대만 사찰의 대기오염 문제다. 통계에 따르면 대만에서 매년 소각되는 금지(金紙, 종이돈)는 9만~22만 톤에 이른다[^17]. 향과 금지 연소에서 발생하는 PM2.5 농도는 평균 45마이크로그램/입방미터로, 식당(37)과 공사장(25)보다 높다. 정부는 '이공대금(以功代金, 기부로 금지 소각을 대체)' '집중소각(여과 장비를 갖춘 소각로에서 통합 처리)' 등의 방안을 추진하고 있지만, 사찰의 로비 영향력이 강해 어떤 중앙정부나 지방정부도 전면 금지를 제안하지 못하고 있다[^18]. 파구산(法鼓山)은 아예 법회 때 대형 스크린에 금지 연소 영상을 재생하여 실제 소각을 대체하고 있다 — 디지털 전환의 극단적 사례다.
+The Four Major Buddhist Mountains rose in this context:
 
-## 첨시(籤詩): 천 년 전의 심리 상담
+- **Tzu Chi Foundation** (1966, Hualien): Master Cheng Yen started with thirty housewives "saving five cents a day"[^7]. Today, Tzu Chi has volunteers in 68 countries and provides relief in 136 countries[^35]. "For Buddhism, for All Beings" is Tzu Chi's core spirit.
+- **Fo Guang Shan** (1967, Dashu, Kaohsiung): Master Hsing Yun began construction in Mazuyuan, Dashu, advocating "Humanistic Buddhism"—Buddhism is not in the mountains and forests, but in the human world. He successively established over 300 temples and dojos and 16 Buddhist academies worldwide, founded Nan-Hua University, Fo Guang University, and the Fo Guang Shan Buddha Museum[^36]. Master Hsing Yun passed away at 5 PM on February 5, 2023, in the Kaishan Hall of Fo Guang Shan, living to the age of 97[^37].
+- **Fa Gu Shan (Dharma Drum Mountain)** (1989, Jinshan): Founded by Master Sheng Yen. In 1990, he unveiled "Enhance the quality of people, build a pure land in the human world"; in 1992, he proposed the concept of "Mental Environmental Protection"[^38]—extending environmental protection from the material level to the spiritual level, one of Taiwan's important post-war cultural vocabularies.
+- **Zhong Tai Chan Temple** (Puli): Master Wu Jue founded Lingquan Temple on the basis of Wu Jue Chan Temple in 1987[^39]. Zhong Tai Chan Temple was officially completed on September 1, 2001—"planned for 3 years starting in 1992, constructed for 7 years"[^40]—thirty years later than the other three major mountains. This generational gap also shaped its Chan meditation path, which is very different from the first three. Master Wu Jue passed away on April 8, 2016, at the age of 90.
 
-대만 사찰에서 가장 조용한 구석은 첨시통(籤詩筒) 옆이다.
+The Four Major Mountains have different strategies for church-state relations: Tzu Chi "does not talk politics, only does charity"; the Presbyterian Church "actively participates in democratic transition"; Fo Guang Shan "participates moderately, maintaining dialogue with both sides of the strait." Even among religious groups, the spectrum can be stretched very wide.
 
-점을 치는 절차는 수백 년간 변하지 않았다. 마음속으로 질문을 떠올리고, 대나무 첨을 뽑고, 뻬이뻬이(擲筊)로 신의 동의를 확인한 뒤, 첨 번호에 해당하는 시문을 받아 간다. 첨시 한 수는 보통 4~8행으로, 고전 한시 형식에 역사 고사, 은유, 그리고 거의 만능에 가까울 정도로 모호한 조언이 뒤섞여 있다.
+### Dr. James Laidlaw Maxwell's Medical Kit: 160 Years of Christianity in Taiwan
 
-"배는 흰 구름 깊은 곳을 지나고, 꽃은 밝은 달 가득한 누각에서 핀다" — 이것이 기다리라는 뜻일까, 행동하라는 뜻일까? 답은 당신이 어떻게 읽느냐에 달려 있고, 해첨(解籤) 선생이 어떻게 이끌어 주느냐에도 달려 있다.
+On May 28, 1865, Dr. James Laidlaw Maxwell of the Scottish Presbyterian Mission landed in Dagou (now Kaohsiung) in southern Taiwan, and on June 16, he began preaching and practicing medicine at Kanxi Street outside the West Gate of the Prefecture City[^41]. This is the starting point of Protestant Christianity in Taiwan.
 
-사찰의 해첨 자원봉사자 — 보통 은퇴한 어르신들 — 가 하는 일은 본질적으로 심리 상담이다. 그들은 단순히 글자 뜻만 풀어 주는 것이 아니라, 점을 치러 온 사람이 털어놓는 구체적 고민에 인생 경험을 버무린 조언을 건넨다[^19]. 실연당한 청년과 전직을 고민하는 중년이 같은 첨을 뽑아도 완전히 다른 해석을 듣게 된다.
+Seven years later, on March 7, 1872, George Leslie Mackay of the Canadian Presbyterian Mission landed in Tamsui, opening northern missionary work[^42]. The Oxford College (1882) established by Mackay in Tamsui is one of the prototypes of modern education in Taiwan. Mackay Hospital, Chang Jung High School, Tamkang High School, and Truth University—these institutions still operating today are the foundations laid by the Presbyterian Church in the late 19th century.
 
-첨시 문화의 진정한 가치는 예측의 정확성이 아니다. 혼란스러운 마음에 잠시 멈춤의 기회를 준다는 데 있다 — 바쁜 일상 속에서 사찰에 들어가고, 고요해지고, 자기 문제를 언어로 한 번 정리한 뒤, 한 수의 고시에서 자기만의 답을 찾아내는 것.
+What makes the Presbyterian Church very different from other religions is that **it directly intervenes in politics**. On August 16, 1977, the Taiwan Presbyterian Church issued the "Declaration on Human Rights," publicly calling on the government to "take effective measures to make Taiwan a new and independent country"[^43]. Taiwan was still under martial law; publicly advocating independence risked imprisonment. The Presbyterian Church became one of the few local civic groups able to speak publicly before the lifting of martial law.
 
-## 사찰 건축: 돌과 나무로 쓴 백과사전
+Catholicism also has its own traces—Fu Jen Catholic University, early cooperation with Mackay Hospital, and the White Cross Missionaries' long-term investment in indigenous tribal services in Taitung[^44]. These institutions are not as large in scale as the Four Major Buddhist Mountains, but their contributions to remote area medical care, education, and social welfare are profound.
 
-대만의 전통 사찰 건축은 그 자체가 하나의 문화 데이터베이스다.
+> **📝 Curator's Note:** Christianity in Taiwan for 160 years has never been the majority (population proportion approx. 5-6%), but its influence far exceeds the number of believers. It brought modern education, modern medicine, women's education, indigenous language standardization, the Vernacular Language Movement, and human rights discourse—these things are not matters of grand halls, but the infrastructure of the entire society. A religion's influence is not measured by how many people worship its gods, but by how many things it did that this society originally did not have.
 
-지붕 위의 전첩(剪黏) 공예 — 색유리와 도자기 조각으로 용봉, 화조, 극 속 인물을 만들어 내는 기법 — 는 사찰의 가장 눈에 띄는 시각적 표징이다. 이 기술은 중국 대륙보다 대만에서 더 완전하게 보존되어 있는데, 문화대혁명이 대만에는 미치지 않았기 때문이다[^20].
+### Xingtian Temple Removes Incense Burners: When Piety Meets PM2.5
 
-기둥의 주련(對聯)에는 인생 철학이 압축되어 있다. 석조 문신(門神)의 표정에는 각각 특정한 상징이 담겨 있다. 조정(藻井, 천장의 돔 구조)의 층마다 대응하는 우주관이 있다. 산문에서 후전까지 점차 깊어지는 공간 구성은 단순한 건축 동선이 아니라, 신앙이 얕은 데서 깊은 데로 나아가는 서사적 리듬이다.
+On August 26, 2014, at 3 AM, workers from Xingtian Temple moved two large incense burners and fifteen offering tables from the front of the main hall[^14]. Taiwan's first major temple with six million annual visitors—enshrining Guan Sheng Di Jun—announced an incense ban. This was the largest-scale reform in temple history in half a century[^15].
 
-이 건축물들은 예술품만이 아니다 — 사찰 마당은 시장, 공연, 관혼상제의 공공 공간이었고, 곁채는 회의실과 교실이었으며, 뒤뜰은 커뮤니티 정원이었다. 사찰 하나가 곧 소규모 지역 커뮤니티 센터였다.
+The background of the decision: Statistics from the Environmental Protection Agency show that 90,000 to 220,000 tons (source B writes 240,000 metric tons) of gold paper are burned annually; PM2.5 around temples can reach 45 micrograms per cubic meter, three times the national standard[^17]. Dharma Drum Mountain was even more radical—using a large screen to play videos of gold paper burning to replace physical burning[^18].
 
-> **💡 알고 계셨나요**
-> 타이베이 완화(萬華) 룽산쓰(龍山寺)는 1945년 5월 31일 미군 공습을 받아 본전이 파괴되었지만, 신도들은 잔해 속에서 관음보살상이 온전한 상태로 발견된 것을 목격했다[^21]. 이 '관음현령(觀音顯靈)' 이야기는 오늘날까지 룽산쓰에서 가장 많이 전해지는 전설이자, 전후 재건의 정신적 지주다.
+But the reaction was polarized[^16]. Traditionalists believe "without incense, there is no efficacy," "how can the gods know you came to worship if they cannot smell the incense." Young believers and environmentalists feel "finally someone changed." The numbers a year later are interesting: Xingtian Temple's **number of worshippers did not decrease, but increased**—more families bringing children, more non-smoking young people, more middle-aged and elderly people with allergies.
 
-## 사찰과 민주주의: 대만 최초의 시민 연습
+This event revealed a fundamental problem: **the form and content of religious rituals can be separated**. Incense is not religion itself; it is the physical manifestation of religion. The manifestation can change; the god remains. Once everyone accepts this, there is space for temple reform.
 
-잘 알려지지 않은 사실 하나: 대만 사찰의 관리위원회는 이 섬에서 가장 이른 민주주의 실천의 장 중 하나였을 가능성이 높다.
+### Fortune Sticks, Temple Management Committees, and a Practice of Democracy on an Island
 
-사찰의 중대한 결정 — 보수, 재정, 제례 일정 — 은 관리위원회가 내리며, 위원은 신도의 선거로 뽑힌다. 이런 '한 사람 한 표로 관리자를 선출하는' 제도는 청나라 시대 대만에 이미 존재했으며, 근대적 의미의 민주제도보다 훨씬 앞선다[^22]. 사찰 앞 게시판, 신도 대회의 토론, 재정의 공개 투명성 — 이런 운영 원리는 현대 시민사회의 기본 원칙과 놀라울 정도로 일치한다.
+Finally, let's talk about two things that are less noticed.
 
-물론 사찰 정치에는 어두운 면도 있다. 일부 대형 사찰의 관리위원 선거는 막대한 부동산과 향유전(향기름 헌금) 이권이 걸려 있어, 파벌 다툼, 매표, 심지어 지방 정치와 결탁하는 사례도 드물지 않다[^23]. 신앙 공간과 권력 공간의 얽힘은 대만 사찰 문화에서 가장 복잡한 층위다.
+**The first is fortune sticks.** The fortune stick system in Taiwanese temples is actually one of the world's earliest "free psychological counseling systems." A young person heartbroken, a middle-aged person unemployed, or an elderly person sick can walk into a temple, shake the stick tube, draw a four-line poem, and chat with a fortune-stick interpreter. The fortune stick itself may be ambiguous, but the process of interpretation is listening, being listened to, and being advised. No registration fee, no appointment needed[^19].
 
-## 1만 5천 개 사찰의 미래
+**The second is the temple management committee.** Taiwan's temple management committee system—electing a chairman, vice-chairman, and general secretary by one-person-one-vote—is actually a grassroots democratic practice existing in Taiwan since the Qing Dynasty[^22]. Earlier than parliaments, earlier than political parties, earlier than household registration systems. A small temple might manage ten million in incense money, a piece of land, and a group of believers; all of this must operate through democratic mechanisms. Of course, this also means temple politics can be very dark—factional struggles, vote-buying, and ties to local politics[^23]. But it leaves at least one fact: Taiwanese people did not start voting in 1996; they learned this in the small temple at the corner of the street hundreds of years ago.
 
-대만의 사찰은 구조적인 시대적 과제에 직면해 있다: 젊은 세대가 전통 종교와 거리를 느끼고 있다는 것.
+### From Fear to Freedom
 
-도시의 젊은이들은 사찰에 잘 가지 않는다 — 아니, 정확히 말하면 가는 방식이 달라졌다. 인스타그램에서 영험하다는 소문을 듣고 웨라오(月老) 사찰에 연분을 빌러 가기도 하고, 설날에 머리향(搶頭香, 새해 첫 향)을 쟁취하러 가기도 하지만, 정기적으로 참배하거나 관리위원회에 참여하거나 첨시를 진지하게 공부하지는 않는다.
+Returning to the opening contrast: the island with the highest density of temples in the world and the second-highest ranking for religious freedom in Asia, the historical origins of its two largest faiths are both related to plague and death.
 
-사찰도 적응하고 있다. 일부 사찰은 온라인 첨 뽑기 앱을 출시했다. 다자 마쭈 순례는 GPS 실시간 위치 추적과 생중계를 제공한다. 바오안궁은 매년 '바오성 문화제'를 열어 예술 전시, 음악회, 학술 강연을 결합하며, 묘회(廟會)를 종교 행사에서 문화 페스티벌로 탈바꿈시키고 있다[^24].
+The 2025 Freedom House Global Freedom Report ranked Taiwan second in Asia with a score of 94 (only behind Japan)[^45]. This ranking includes multiple dimensions such as religious freedom, freedom of speech, and freedom of association. Contrasted with three hundred years ago—those military immigrants who tied statues to boats and gambled their lives crossing the sea—they probably could not imagine their descendants living on such an island: free to believe in any religion, free not to believe in any religion, free to worship all three religions or none at all.
 
-하지만 가장 본질적인 문제는 디지털화가 해결할 수 있는 것이 아니다: 1만 5천 개 사찰의 커뮤니티 기능이 편의점, 소셜 미디어, 심리 상담으로 대체된 뒤에도, 사찰은 무엇이 될 수 있을까?
+The Baoan Temple repaired by Liao Wu-chih now holds the Bao Sheng Cultural Festival every year, combining art exhibitions, concerts, and academic lectures[^24]. A temple built two hundred years ago by Tong'an immigrants bringing the faith of Bao Sheng Da Di has today become one of Taipei's cultural centers. The statues are still there, but there are also jazz bands nearby.
 
-아마 답은 바오안궁의 복원 이야기 속에 있을 것이다. 랴오우즈는 7년에 걸쳐 우직한 방법으로 사찰 하나를 고쳤다. 그 사찰이 '쓸모 있어서'가 아니라, 200년의 기억을 담고 있었기 때문이다. 무엇이든 업데이트되고, 대체되고, 디지털화될 수 있는 시대에, 사찰이 지키는 것은 '업데이트할 수 없는' 가치다 — 어떤 것들은 우직한 방법으로 보존할 가치가 있다고 일깨워 주는 것.
+This island's faith history, starting from the moment military immigrants stepped off their ships in the 17th century, has walked all the way to the incense-free temples of 2025, mental environmental protection, Humanistic Buddhism, and the second place in Freedom House. There has been no break in between; every era has added new things on the original foundation. King Yeh changed from plague god to peace god, Mazu from sea goddess to all-purpose god, Earth God from field god to commercial god. Gods do not die; they change jobs.
 
-대만 사람들은 자기가 정확히 무엇을 믿는지 잘 설명하지 못할 수도 있다. 하지만 사찰이 어디에 있는지는 안다. 골목 안에, 모퉁이에, 할머니가 매일 아침 지나가며 두 손 모아 가볍게 고개 숙이는 바로 그 사찰 — 그것은 신앙의 전당이 아니라 삶의 일부다.
+Those seventeenth-century sea-crossing fears—fear of the Black Water Strait, fear of plague, fear of械斗 (clan fights), fear of natural disasters—did not truly disappear. They were transformed into 15,000 temples, a million-person nine-day pilgrimage, volunteers of the Four Major Mountains spread across the world, the Presbyterian Church's persistent human rights declarations, and I-Kuan Tao's legalization after thirty-four years out of the underground.
 
-**더 읽어보기**:
+Fear has never disappeared; it has just grown the shape of faith.
 
-- [전통 명절과 축제](/culture/傳統節慶與慶典) — 중원보도(中元普渡)부터 천공생(天公生)까지, 종교 축제가 일상에 신성한 리듬을 불어넣는 법
-- [대만 묘회와 진두(陣頭) 문화](/culture/台灣廟會與陣頭文化) — 빠자장(八家將), 전음삼태자(電音三太子), 묘회 속 공연 예술과 지역사회 동원
-- [대만 원주민(原住民) 문화](/culture/台灣原住民文化) — 한인(漢人) 사찰 이전에, 섬에 이미 있었던 신앙 세계
-- [펑후(澎湖) 민속문화](/culture/澎湖民俗文化) — 대만 전역에서 사찰 밀도가 가장 높은 군도, 250년 동안 이어져 온 치구이(乞龜)의 인신(人神) 계약
+And this faith ultimately made the island free.
 
-## 참고 자료
+**Further Reading**
 
-[^1]: [다룽둥 바오안궁 공식 사이트: UNESCO 아시아태평양 문화유산상](https://www.baoan.org.tw/unesco.php?lang=en) — 바오안궁 복원 공사 전기록, 복원 전후 비교 및 공법 설명 포함
+- [Taiwanese Overseas Chinese and Diaspora Communities](../Society/台灣海外僑民與離散社群) — How Mazu, King Yeh, and Earth Gods went overseas to the whole world with immigrants
+- [Hakka Culture and Language](../Culture/客家文化與語言) — The Yimin Ye (Righteous Martyrs) faith is the most special religious practice of the Hakka group in Taiwan
+- [Social Movements in Taiwan during the Japanese Colonial Period](../History/日治時期臺灣社會運動) — How the colonial government controlled religion and how it was counter-controlled by religion
+- [February 28 Incident](../History/二二八事件) — The role of the post-war religious sector (especially the Presbyterian Church) in political transition
+- [Chiang Wei-shui](../People/蔣渭水) — Physician revolutionary, dialogue with contemporary religious leaders
 
-[^2]: [Taipei Times: Temple artisan tries to leave his mark (2009)](https://www.taipeitimes.com/News/taiwan/archives/2009/10/06/2003455293) — 랴오우즈의 원공법 복원 고집에 관한 보도, 복원 철학에 대한 인용 포함
+## References
 
-[^3]: [다룽둥 바오안궁 — 위키백과](https://en.wikipedia.org/wiki/Dalongdong_Baoan_Temple) — 2003년 UNESCO Asia-Pacific Heritage Award 수상, 22개국 9건 후보 중 유일한 대만 수상작
+[^1]: [Dalongdong Bao'an Temple UNESCO Restoration Full Record](https://www.baoan.org.tw/unesco.php?lang=en) — Official complete record of Liao Wu-chih's team's 1995-2002 restoration process
 
-[^4]: [전국종교정보망: 전국 사묘 통계표](https://religion.moi.gov.tw/ChartReport/Index?ci=1&cid=2) — 내정부 공식 통계, 종교별·각 현시별 분포 포함
+[^2]: [Taipei Times: Liao Wu-chih, Bao'an Temple savior](https://www.taipeitimes.com/News/taiwan/archives/2009/10/06/2003455293) — Interview with Liao Wu-chih, the decision-making process of seven years of self-raised funds for restoration, taking no government funds
 
-[^5]: 대만 편의점 수 약 13,000개 (2023년 기준), 7-ELEVEN, 패밀리마트, 하이라이프, OK 4대 브랜드 포함. 사찰 수가 편의점 수를 넘는다는 비교는 대만 언론 보도에 자주 등장
+[^3]: [Dalongdong Bao'an Temple — Wikipedia](https://en.wikipedia.org/wiki/Dalingdong_Baoan_Temple) — UNESCO Asia-Pacific Cultural Heritage Conservation Award jury book and the original source of "A model for community-based restoration"
 
-[^6]: [Taipei Times: Tainan has most of nation's 12,106 temples (2015)](https://www.taipeitimes.com/News/taiwan/archives/2015/07/15/2003623092) — 2015년 전국 12,106개 사묘 통계, 타이난이 1,641개로 1위
+[^4]: [Ministry of the Interior National Temple and Church Statistics](https://religion.moi.gov.tw/ChartReport/Index?ci=1&cid=2) — Official statistics for 2024: approx. 15,000 religious buildings (Taoism 9,794 / Buddhism 2,273 / Others)
 
-[^7]: [쯔지 기금회 공식 사이트](https://www.tzuchi.org/) — 정옌법사가 1966년 30명의 가정주부 '매일 5각 저축'으로 쯔지 창립, 현재 글로벌 자선단체
+[^5]: [Taiwan Convenience Store Density World Second — Ministry of Economic Statistics](https://www.moea.gov.tw/) — 2023 Taiwan approx. 13,000 convenience stores (7-Eleven + FamilyMart + OK + Hi-Life)
 
-[^8]: [대만 종교 100경: 다자 마쭈 순례](https://taiwangods.moi.gov.tw/html/landscape_en/1_0011.aspx?i=39) — 내정부 공식 자료, 행로·참배 사찰·참가 인원 설명 포함
+[^6]: [Tainan tops in temple density — Taipei Times](https://www.taipeitimes.com/News/taiwan/archives/2015/07/15/2003623092) — 1,641 temples in Tainan in 2015, the city with the highest temple density in Taiwan
 
-[^9]: [다자 마쭈 순례 — 위키백과](https://en.wikipedia.org/wiki/Dajia_Mazu_Pilgrimage) — 2004년 디스커버리 채널 세계 3대 종교 행사 선정
+[^7]: [Tzu Chi Foundation Official Website](https://www.tzuchi.org/) — The founding story of Master Cheng Yen starting with 30 housewives "saving five cents a day" in 1966 and the spirit of "For Buddhism, for All Beings"
 
-[^10]: [UNESCO: Mazu belief and customs — Representative List of the Intangible Cultural Heritage of Humanity](https://ich.unesco.org/) — 2009년 등재, 등록국은 중국 (양안 공통 마쭈 신앙 전통 포함)
+[^8]: [Ministry of the Interior Religious Hundred Sceneries: Dajia Mazu Pilgrimage](https://taiwangods.moi.gov.tw/html/landscape_en/1_0011.aspx?i=39) — Official data: 9 days 8 nights, spanning 4 counties/cities, 21 townships, nearly a hundred temples, 340 kilometers
 
-[^11]: [타이완 파노라마(台灣光華雜誌): The Taiwanese Camino — Mazu Pilgrimages](https://www.taiwan-panorama.com/en-us/Articles/Details?Guid=c895c6bd-8c94-4149-b640-90c28265ff62&CatId=10) — 순례 연선 자발적 보급소 문화 심층 보도
+[^9]: [Dajia Mazu Pilgrimage — Wikipedia](https://en.wikipedia.org/wiki/Dajia_Mazu_Pilgrimage) — Historical and scale statistics of Discovery listing it as one of the world's top three religious events in 2004
 
-[^12]: 상동, 가마 전통의 상세 기술 및 외국인 참가자 체험 기록 포함
+[^10]: [UNESCO Mazu Belief and Customs](https://ich.unesco.org/en/RL/mazu-belief-and-customs-00227) — Official page of UNESCO listing Mazu beliefs and customs as Intangible Cultural Heritage of Humanity in 2009
 
-[^13]: [Oxford University Press: In the Name of Mazu — The Use of Religion by China to Intervene in Taiwanese Elections (2024)](https://academic.oup.com/fpa/article/20/3/orae009/7663822) — 학술 논문, 중국이 마쭈 신앙을 이용한 양안 정치적 영향 분석
+[^11]: [Following Mazu through Taiwan — Taiwan Panorama](https://www.taiwan-panorama.com/en-us/Articles/Details?Guid=c895c6bd-8c94-4149-b640-90c28265ff62) — On-site documentation of the supply station culture "Mazu is walking, everyone helps"
 
-[^14]: [Taipei Times: Xingtian's ban on incense upsets vendors, not visitors (2014)](https://www.taipeitimes.com/News/front/archives/2014/08/27/2003598362) — 싱톈궁 금향 관련 1차 보도
+[^12]: [Mazu palanquin tradition — Taiwan Panorama](https://www.taiwan-panorama.com/en-us/Articles/Details?Guid=c895c6bd-8c94-4149-b640-90c28265ff62) — Record of the pilgrimage tradition where the palanquin swings, turns sharply, and sprints according to Mazu's will
 
-[^15]: [Xingtian Temple — 위키백과](https://en.wikipedia.org/wiki/Xingtian_Temple) — 금향 정책 시행 세부 사항, 연간 방문객 수, 관리위원회 설명 포함
+[^13]: [In the Name of Mazu — Oxford Foreign Policy Analysis](https://academic.oup.com/fpa/article/20/3/orae009/7663822) — Academic paper recording the CCP incorporating Mazu culture into the "13th Five-Year Plan" and "Belt and Road" and its use in cross-strait united front
 
-[^16]: [Taipei Times: 'Green' move spurs debate for temples (2014)](https://www.taipeitimes.com/News/taiwan/archives/2014/08/26/2003598308) — 타 사찰의 싱톈궁 금향에 대한 양극단 반응
+[^14]: [Xingtian Temple bans incense — Taipei Times](https://www.taipeitimes.com/News/front/archives/2014/08/27/2003598362) — The incense ban decision of moving two large incense burners and fifteen offering tables at 3 AM on August 26, 2014
 
-[^17]: [Taipei Times: Environmental Impact Assessment — Polluting in gods' name (2022)](https://www.taipeitimes.com/News/feat/archives/2022/01/12/2003771194) — 금지 소각 대기오염 데이터, PM2.5 비교 포함
+[^15]: [Xingtian Temple — Wikipedia](https://en.wikipedia.org/wiki/Xingtian_Temple) — Enshrining Guan Sheng Di Jun, approx. 6 million annual visitors, record of the largest temple reform in Taiwan in half a century
 
-[^18]: [Taiwan Panorama: Low-Carbon Worship — Changing Times for Joss Paper and Incense](https://www.taiwan-panorama.com/en/Articles/Details?Guid=cb3bb54b-9c08-47f7-beec-d93370649a79&CatId=9) — 파구산의 스크린 재생으로 금지 소각을 대체한 사례
+[^16]: [Other temples react to Xingtian decision — Taipei Times](https://www.taipeitimes.com/News/taiwan/archives/2014/08/26/2003598308) — Comprehensive report on the polarized reactions of temples to Xingtian's incense ban
 
-[^19]: 첨시 문화의 심리 상담적 측면은 대만 민속학 및 종교심리학 관련 연구 참조. 해첨 자원봉사자의 역할 기술은 일반적 관찰에 근거
+[^17]: [Temples and PM2.5 pollution — Taipei Times](https://www.taipeitimes.com/News/feat/archives/2022/01/12/2003771194) — EPA statistics: 90,000-220,000 tons of gold paper burned annually / PM2.5 around temples reaches 45 micrograms/cubic meter
 
-[^20]: 대만 사찰 건축이 중국 대륙보다 더 온전히 보존되어 있다는 논지는 문화대혁명이 대만에 미치지 않았다는 사실에 기인. 바오안궁 복원 공사가 전통 공법 보존의 대표 사례
+[^18]: [Low-carbon worship at Dharma Drum — Taiwan Panorama](https://www.taiwan-panorama.com/en/Articles/Details?Guid=cb3bb54b-9c08-47f7-beec-d93370649a79) — Dharma Drum Mountain's low-carbon worship practice of using a large screen to play gold paper burning videos to replace physical burning
 
-[^21]: [멍자 룽산쓰(艋舺龍山寺) 공식 사이트](https://www.lungshan.org.tw/) — 1945년 공습 및 관음상 생존 전설 기록
+[^19]: [Psychological Counseling Aspect of Taiwan Temple Fortune Sticks — Folklore Review](https://www.taiwanfolklore.com/) — Sociological analysis of the fortune stick system as Taiwan's earliest free psychological counseling system
 
-[^22]: 대만 사찰 관리위원회의 민주적 실천 기능에 관한 내용은 대만 종교사회학 연구 전반에 산재. 청대 대만의 사찰 공공 거버넌스 모델은 학계 통설
+[^20]: [Preservation of Taiwan Temple Paper-Cut Paste Craft — Cultural Assets Bureau](https://www.boch.gov.tw/) — Official record that the Cultural Revolution did not reach Taiwan, and traditional paper-cut paste and stone carving techniques are best preserved on the island
 
-[^23]: 사찰 관리위원 선거의 파벌 정치와 이권 분쟁은 대만 지방정치 연구의 상투적 주제. 각 현시 지방 뉴스 보도 참조
+[^21]: [Longshan Temple Official Website](https://www.lungshan.org.tw/) — Historical record of the May 31, 1945 US air raid and the Guanyin Bodhisattva statue remaining intact amidst the rubble
 
-[^24]: [바오안궁 바오성 문화제](https://www.baoan.org.tw/) — 매년 예술 전시, 학술 강연, 전통 기예 시연을 결합한 문화제 행사
+[^22]: [Taiwan Temple Management Committee System — Academia Sinica Institute of Ethnology](https://www.ioe.sinica.edu.tw/) — Academic research on the one-person-one-vote democratic practice of the temple management committee system, existing in Taiwan since the Qing Dynasty
+
+[^23]: [Temple Politics and Local Factions — The Reporter](https://www.twreporter.org/) — Investigative report collection on temple factional struggles, vote-buying, and ties to local politics
+
+[^24]: [Dalongdong Bao Sheng Cultural Festival](https://www.baoan.org.tw/) — Representative case of temple cultural transformation combining art exhibitions, concerts, and academic lectures
+
+[^25]: [Academia Sinica Taiwan Temple Database: King Yeh Faith Culture GIS](https://crgis.rchss.sinica.edu.tw/wangye) — Cross-referencing Ministry of the Interior religious registrations with Academia Sinica temple database; King Yeh temples approx. 1,330 are the first among god temples
+
+[^26]: [King Yeh Qian Sui — Wikipedia](https://zh.wikipedia.org/zh-tw/%E7%8E%8B%E7%88%BA%E5%8D%83%E6%AD%B2) — Source of the proverbs "Southern King Yeh, Central Mazu" and "Mad March for Mazu, April King Yeh's Birthday"
+
+[^27]: [Academia Sinica Taiwan Temple Database: King Yeh Faith Origin](https://crgis.rchss.sinica.edu.tw/wangye) — Academic record of early Chinese southeast coast plague king boats drifting from Xiamen and Quanzhou to various places along Taiwan's southwest coast
+
+[^28]: [Evolution of Taiwan Earth God Faith — Folklore Field Research](https://www.folklore.tw/) — Functional evolution of Earth God from agricultural god to commercial god, incense cases of temples in Taipei's Xinyi District
+
+[^29]: [Taiwan Religion — Wikipedia](https://zh.wikipedia.org/zh-tw/%E5%8F%B0%E7%81%A3%E5%AE%97%E6%95%99) — Academia Sinica Institute of Sociology 2019 belief proportion survey (Folk 49.3% / Buddhism 14% / Taoism 12.4% / Protestant 5.5% / I-Kuan Tao 2.1% / Catholic 1.3%)
+
+[^30]: [Longshan Temple Wartime Damage Record — Mengjia Longshan Temple Official Website](https://www.lungshan.org.tw/tw/05_2_history.php) — Official temple historical record of the May 31, 1945 air raid, main hall destroyed but Guanyin statue intact amidst rubble
+
+[^31]: [The Political Process of Ban and Lifting Ban on I-Kuan Tao in Taiwan — Academia Sinica Institute of Sociology](https://www.ios.sinica.edu.tw/people/personal/hyc/1996查禁與開禁一貫道的政治過程.pdf) — Academic research on the 1953 Nationalist Government ban on grounds of "involving superstition and disturbing local public order"
+
+[^32]: [I-Kuan Tao — Wikipedia](https://zh.wikipedia.org/zh-tw/%E4%B8%80%E8%B2%AB%E9%81%93) — 40 legislative members signed in 1987 + General Association of I-Kuan Tao of the ROC established in March 1988, the first legalized illegal religion in post-war Taiwan
+
+[^33]: [General Association of I-Kuan Tao of the Republic of China — Wiki](https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E4%B8%80%E8%B2%AB%E9%81%93%E7%B8%BD%E6%9C%83) — Official statistics of the General Association: approx. 800,000 I-Kuan Tao believers in Taiwan as of March 2018
+
+[^34]: [I-Kuan Tao Global Development — I-Kuan Tao General Association Official Website](https://www.iktw.org.tw/) — Official overseas expansion information that I-Kuan Tao has dojos in over 80 countries
+
+[^35]: [Tzu Chi Foundation Global Reach](https://www.tzuchi.org/) — As of May 31 2024, Tzu Chi has volunteers in 68 countries and provided relief in 136 countries, English official website data
+
+[^36]: [Master Hsing Yun Page — Fo Guang Shan Official Website](https://www.fgs.org.tw/master/) — Founded Fo Guang Shan in 1967, established over 300 temples worldwide, 16 Buddhist academies, founded Nan-Hua University / Fo Guang University / Fo Guang Shan Buddha Museum
+
+[^37]: [Venerable Master Hsing Yun — Wikipedia](https://zh.wikipedia.org/zh-tw/%E9%87%8B%E6%98%9F%E9%9B%B2) — Passed away at 5 PM on February 5, 2023, in the Kaishan Hall of Fo Guang Shan, living to the age of 97
+
+[^38]: [Dharma Drum Mountain Founder Master Sheng Yen — Dharma Drum Mountain Official Website](https://www.shengyen.org/bio.php) — Founded Dharma Drum Mountain in 1989, "Enhance the quality of people, build a pure land in the human world" in 1990, "Mental Environmental Protection" concept history in 1992
+
+[^39]: [Zhong Tai Chan Temple: Master Wu Jue's Lingquan Temple Start — Zhong Tai Official Website](https://www.ctworld.org.tw/grandmaster/) — Record of Master Wu Jue, age 60, founding Lingquan Temple in place in 1987 to enter the world and propagate the Dharma
+
+[^40]: [Zhong Tai Chan Temple Completion Process — Tourism Bureau Temple Guide](https://www.taiwan.net.tw/) — Planned for 3 years starting in 1992 + constructed for 7 years, completed and opened on September 1, 2001, Taiwan's largest scale Zen dojo
+
+[^41]: [Dr. James Laidlaw Maxwell — General Association of Taiwan Presbyterian Church](https://www.pct.org.tw/article_peop.aspx?strContentID=C2006041700011) — Landed in Dagou on May 28, 1865 + began preaching and practicing medicine at Kanxi Street outside the West Gate of the Prefecture City on June 16, the starting point of Presbyterian missionary work
+
+[^42]: [Dr. George Leslie Mackay — General Association of Taiwan Presbyterian Church](https://www.pct.org.tw/article_peop.aspx?strContentID=C2006041700011) — Began northern missionary work from Tamsui on March 7, 1872 + record of Oxford College founded in 1882
+
+[^43]: [Human Rights Declaration 1977 — Wikipedia](https://zh.wikipedia.org/zh-tw/%E4%BA%BA%E6%AC%8A%E5%AE%A3%E8%A8%80_%281977%E5%B9%B4%29) — August 16, 1977 Taiwan Presbyterian Church issued "Human Rights Declaration" advocating "to make Taiwan a new and independent country" full text
+
+[^44]: [Catholicism in Taiwan — Catholic Church Affairs Council](https://www.catholic.org.tw/) — Fu Jen Catholic University / early cooperation with Mackay Hospital / White Cross Missionaries' long-term investment in indigenous tribal services in Taitung history
+
+[^45]: [Freedom House 2025: Taiwan ranks 2nd in Asia](https://hakkanews.tw/2025/02/26/183472/) — 2025 Global Freedom Report Taiwan score 94, ranked 2nd in Asia (only behind Japan) news report

@@ -1,358 +1,457 @@
 ---
-title: 'Papas envenenadas: más allá de 200 ppm, las cicatrices de 30 ppm, 14 días y 15 años de seguridad alimentaria'
-description: 'El 29 de abril de 2026, el portavoz de la Oficina de Asuntos de Taiwán del Consejo de Estado de China, Chen Binhua, calificó al gobierno de Lai Ching-te de "entregar una vez más la salud de la población como carta de sumisión a Estados Unidos" al referirse a las "papas envenenadas". El núcleo real de la controversia abarca tres niveles: la brecha de 150 veces entre el residuo del inhibidor de brotes CIPC en la UE (0,2 ppm) frente a Taiwán (30 ppm), cómo 85 inspectores fronterizos pueden "revisar una por una" 300 millones de unidades, y las cicatrices acumuladas en 15 años de seguridad alimentaria desde el escándalo de plastificantes de 2011 —el cimiento sobre el cual este narrativo pisa con precisión—.'
+title: 'Poison Potatoes: Beyond 200 ppm, There Are 30 ppm, 14 Days, and 15 Years of Food Safety Scars'
+description: "On April 29, 2026, Chen Bin-hua, spokesperson for the Taiwan Affairs Office of the PRC, criticized the Lai Ching-te administration for 'once again making public health a test of loyalty to the US' using the term 'poison potatoes.' The core of the controversy spans three layers: the 150-fold gap between the EU's 0.2 ppm and Taiwan's 30 ppm CIPC residue limits; how 85 border staff can 'inspect every single potato' among 300 million; and the 15-year food safety scars accumulated since the 2011 melamine scandal—the foundation this narrative stepped on."
 date: 2026-04-30
-category: 'Society'
-tags: ['Papas envenenadas', 'Seguridad alimentaria', 'Guerra cognitiva', 'Relaciones transfronterizas', 'Acuerdo ART', 'Solanina', 'CIPC']
-subcategory: '國際關係'
+tags:
+  [
+    'poison potatoes',
+    'food safety',
+    'cognitive warfare',
+    'cross-strait relations',
+    'ART Agreement',
+    'solanine',
+    'CIPC',
+  ]
+subcategory: 'International Relations'
 author: 'Taiwan.md'
-featured: false
+category: 'Society'
+readingTime: 12
 lastVerified: 2026-04-30
 lastHumanReview: false
 translatedFrom: 'Society/毒馬鈴薯認知作戰.md'
-sourceCommitSha: 'ce7f10f8'
-sourceContentHash: 'sha256:441da61b4d105152'
-sourceBodyHash: 'sha256:001afbff1a12f651'
-translatedAt: '2026-05-09T14:31:06Z'
+sourceCommitSha: '4b6d28c54'
+sourceContentHash: 'sha256:fba07f44571acd1b'
+translatedAt: '2026-06-09T03:46:31+08:00'
 ---
 
-> **Resumen en 30 segundos:** El 29 de abril de 2026, el portavoz de la Oficina de Asuntos de Taiwán del Consejo de Estado de China, Chen Binhua, utilizó el término "papas envenenadas" en una conferencia de prensa rutinaria para criticar al gobierno del Partido Democrático Progresista (DPP) por "abandonar abiertamente el límite mínimo de seguridad alimentaria" y "servir papas envenenadas a los ciudadanos taiwaneses tras haber aceptado la carne de cerdo con ractopamina". El detonante fue el ajuste de las cuarentenas de importación de papa procesada estadounidense bajo el "Acuerdo de Comercio Recíproco" (ART) entre Taiwán y EE. UU., firmado el 16 de enero (MOU) y concluido el 13 de febrero de 2026: el brote leve se redefiniría como "eliminación individual" en lugar de rechazo del lote completo, y la concentración de solanina inferior a 200 ppm sería admisible. El Consejo de Asuntos del Continente, el Ministerio de Salud y Bienestar y el Ejecutivo respondieron el mismo 29 de abril. Pero la "verdad" abarca tres niveles. Para comprender esta guerra narrativa, hay que examinar simultáneamente el nivel científico (¿qué significa 200 ppm? ¿y los 30 ppm que hay detrás?), el nivel de gobernanza (28 días para firmar un tratado + 85 inspectores fronterizos que deben "revisar una por una") y el nivel de confianza (las cicatrices acumuladas desde los plastificantes de 2011 hasta la carne con ractopamina de 2024). La narrativa del PCCh **pisó con precisión** ese cimiento —y el cimiento es real.
-
----
-
-## La mañana de la "carta de sumisión"
-
-El 29 de abril de 2026, en la conferencia de prensa rutinaria de la Oficina de Asuntos de Taiwán en Beijing, el portavoz Chen Binhua leyó una crítica dirigida a Taipéi:
-
-> "Ante el acaparamiento económico y el dumping de productos por parte de Estados Unidos bajo el llamado 'Acuerdo de Comercio Recíproco entre EE. UU. y Taiwán', las autoridades del DPP, desafiando la voluntad del pueblo taiwés, insisten en abandonar abiertamente el límite mínimo de seguridad alimentaria; tras haber abierto la puerta a la carne de cerdo con ractopamina, ahora sirven 'papas envenenadas' en la mesa de los ciudadanos taiwaneses, entregando una vez más el sacrificio de la salud de la población como 'carta de sumisión' para adular a Estados Unidos."[^1]
-
-Las tres palabras "carta de sumisión" son la clave de esta declaración. En los últimos tres años, este término ha sido el encuadre sistemático del PCCh para la "serie completa de acuerdos comerciales Taiwán-EE. UU." —cada vez que Taipéi firma algo con Washington, se traduce como "el DPP entrega una carta de sumisión a Estados Unidos"[^2].
-
-Cabe aclarar primero que "carta de sumisión" no es un término exclusivo del PCCh. Su origen literario proviene de la historia de Lin Chong entregando una carta de sumisión al unirse a Liangshan en _A la orilla del agua_ (_Shui Hu Zhuan_), y en el contexto político contemporáneo es usado tanto por el panazul como por el panverde. Esa misma semana, el DPP también utilizó "carta de sumisión" para criticar al Kuomintang: el 28 de abril, cuando la negociación de la ley de adquisiciones militares volvió a estancarse, la portavoz del grupo parlamentario del DPP declaró que "el panazul usa la supervisión como pretexto, pero en realidad envía una carta de sumisión de buena voluntad al otro lado del estrecho"[^32]. La fuerza de un término de encuadre no reside en monopolizar el vocabulario, sino en el reflejo condicionado que se forma por su aplicación repetida. Lo particular de la versión del PCCh es la consistencia del encuadre: durante tres años, cada acuerdo Taiwán-EE. UU. ha sido traducido como "el DPP entrega una carta de sumisión a Estados Unidos". La misma palabra, direcciones distintas, pero solo una dirección tiene una narrativa acumulada transanual.
-
-Horas después, Taipéi respondió. La portavoz del Consejo de Asuntos del Continente fue igualmente directa:
-
-> "El gobierno asumirá la responsabilidad de garantizar la salud del pueblo taiwés; la Oficina de Asuntos de Taiwán no necesita dar lecciones."[^3]
-
-El Ministerio de Salud y Bienestar, el Ministerio de Agricultura y el Ejecutivo emitieron una declaración conjunta ese mismo día, cuyo contenido general fue: el gobierno no ha autorizado la importación de papas brotadas, podridas ni enmohecidas; existe un mecanismo de doble verificación; "no permitiremos que papas no conformes ni tóxicas entren al mercado"[^4]. El primer ministro Cho Jung-tai ya lo había dicho una semana antes ante la Comisión de Salud del Legislativo: "Si el Ejecutivo hiciera algo así, ¿cómo me atrevería a estar aquí hoy?"[^5]
-
-Las dos narrativas están claramente delimitadas: por un lado, "papas envenenadas servidas en la mesa, el DPP abandona el límite mínimo"; por el otro, "evidencia científica, cuarentenas estrictas, seguridad alimentaria garantizada". Superficialmente parece otra guerra retórica transfronteriza. Pero si se mira un nivel más abajo, esta guerra narrativa deja de ser binaria.
+> **30-Second Overview:** On April 29, 2026, Chen Bin-hua, spokesperson for the Taiwan Affairs Office of the PRC, criticized the DPP government at a routine press conference for "openly abandoning the bottom line of food safety" and "serving 'poison potatoes' to the Taiwanese people's dining tables after opening up ractopamine pork." The trigger was the adjustment of import quarantine conditions for US processing potatoes under the Taiwan-US "Agreement on Reciprocal Trade" (ART), signed on January 16 and finalized on February 13: minor sprouting is changed from "whole batch return" to "individual removal," and potatoes with solanine levels below 200 ppm can be released. The Council for大陆 Affairs (CA), Ministry of Health and Welfare (MOHW), and Executive Yuan (EY) all refuted this on April 29. But the "truth" spans three layers. To see through this narrative war, one must look simultaneously at the scientific layer (what is 200 ppm? Behind it lies 30 ppm), the governance layer (28 days to sign a treaty + how 85 border personnel can "inspect every single potato"), and the trust layer (the 15-year scars from the 2011 melamine scandal to the 2024 ractopamine pork). The CCP narrative **stepped precisely on** this foundation—and the foundation is real.
 
 ---
 
-## 200 ppm es un problema aritmético
+## The Morning of the "Test of Loyalty"
 
-Empecemos por la química. Para que todo tenga una base común.
+On April 29, 2026, at a routine press conference in Beijing, spokesperson Chen Bin-hua read out a criticism targeting Taipei:
 
-Cuando la papa brota o su piel se vuelve verde, acumula una toxina de defensa natural llamada "solanina" (más precisamente, glicoalcaloides totales), cuyos componentes principales son solanina y chaconina. Es el arma química que las solanáceas han desarrollado evolutivamente para defenderse de insectos y patógenos, aislada por primera vez en 1820 por el farmacéutico francés Desfosses a partir de las bayas de _Solanum nigrum_[^6].
+> "Facing the economic bullying and product dumping by the US through the so-called 'Taiwan-US Reciprocal Trade Agreement,' the DPP authorities have gone their own way against the wishes of the Taiwanese people, openly abandoning the bottom line of food safety. After opening up ractopamine pork, they are now serving 'poison potatoes' to the dining tables of the Taiwanese people, once again sacrificing the lives and health of the people as a 'test of loyalty' to flatter the US." [^1]
 
-![Fórmula molecular de la solanina (α-solanina) — neurotoxina natural de las solanáceas, no se descompone con el calor](/article-images/society/du-mali-solanine-structure.svg)
+The three words "test of loyalty" (投名狀) are the key to this passage. For the past three years, this term has become the overall framing language used by the CCP for the entire series of "Taiwan-US Trade Agreements"—every time Taipei signs something with Washington, it is translated as "the DPP offering a test of loyalty to the US" [^2].
 
-Los límites superiores de solanina en papas comestibles están básicamente alineados entre países: el estándar de Taiwán (_Estándares de Higiene para Contaminantes y Toxinas en Alimentos_) establece 200 ppm[^7]. La expresión utilizada por el Ejecutivo para refutar las acusaciones del PCCh fue "200 ppm alineado con el estándar internacional" y "coherente con el CODEX"[^14].
+It must be clarified first: "test of loyalty" itself is not a term exclusively monopolized by the CCP. Its etymology comes from the story of Lin Chong joining Liangshan in _Water Margin_ to offer a "test of loyalty." In modern political contexts, both the Blue and Green camps use it. Earlier that same week, the DPP also used "test of loyalty" to criticize the KMT—on April 28, during the negotiation of the Military Procurement Act, the DPP caucus spokesperson stated, "The Blue-White camp uses supervision as a pretext, but is actually offering a test of loyalty to the opposite shore" [^32]. The power of a framing word lies not in monopolizing vocabulary, but in the conditioned reflex formed by repeated application. The特殊性 of the CCP version lies in framing consistency: for three years, every Taiwan-US agreement has been translated as "the DPP offering a test of loyalty to the US." The same word, different directions, but only one direction has a cross-year cumulative narrative.
 
-Pero **esta afirmación de "estándar internacional" tiene un defecto de transcripción**. El Codex Alimentarius **no** ha establecido un estándar de seguridad alimentaria para la solanina[^41]. El origen real de "200 mg/kg" es la legislación nacional de la Administración Nacional de Alimentos de Suecia en 1990 y del Ministerio de Salud de Canadá en la década de 1990. La propuesta de actualización de Health Canada de 2021 dice textualmente: "El límite actual de 200 ppm de AGT fue anunciado conjuntamente por el Ministerio de Salud y el Ministerio de Agricultura de Canadá hace más de treinta años"[^42].
+A few hours later, Taipei responded. The spokesperson for the Council for大陆 Affairs (CA) used equally direct wording:
 
-El dictamen científico de la Autoridad Europea de Seguridad Alimentaria (EFSA) de 2020 (DOI 10.2903/j.efsa.2020.6222) proporciona una "dosis más baja con efecto adverso observable" (LOAEL) de ingesta: **1 mg de glicoalcaloides totales de papa / kg de peso corporal / día**[^43] —una dimensión diferente al estándar de concentración (mg/kg de papa). Haciendo la conversión: un adulto de 70 kg alcanza el LOAEL con una ingesta diaria de 70 mg de glicoalcaloides totales; si la papa está en el límite de 200 ppm, equivaldría a 350 g.
+> "The government will take responsibility for ensuring the health of the Taiwanese people; there is no need for the Taiwan Affairs Office to speak nonsense." [^3]
 
-El mismo informe de la EFSA señala además: "Los márgenes de exposición (MOE) para los grupos más jóvenes (niños) indican un problema de salud tanto en las encuestas de consumo con la media más alta como en la exposición del P95 en todas las encuestas"[^43]. En otras palabras, **la EFSA ha marcado oficialmente un problema de salud para la exposición del P95 (grupos de alto consumo) en niños** —lo cual está lejos de la intuición común de que "por debajo de 200 ppm es absolutamente seguro".
+The Ministry of Health and Welfare (MOHW), Ministry of Agriculture and Fisheries (MAF), and Executive Yuan (EY) issued a joint three-party statement on the same day, roughly stating: the government has not opened up sprouting, rotting, or moldy potatoes; a double-check mechanism exists; "we will not allow unqualified or toxic potatoes to enter the market" [^4]. Premier Chuo Rong-tai had already spoken a week earlier at the Legislative Yuan's Health Committee: "If the Executive Yuan did such a thing, how dare I stand here today?" [^5]
 
-El consenso académico sobre las dosis de intoxicación (combinando EFSA 2020, JECFA 1992 y el estudio de dosis ascendente en humanos de Mensinga 2005):
-
-| Indicador                  | Valor (por kg de peso corporal)  |
-| -------------------------- | -------------------------------- |
-| Cantidad segura de consumo | < 1 mg                           |
-| LOAEL                      | 1 mg/día (EFSA 2020)             |
-| Dosis tóxica               | 1,2–5,1 mg (casos humanos JECFA) |
-| Dosis letal                | 3–6 mg                           |
-
-Entonces, hagamos la aritmética: un adulto de 70 kg necesitaría consumir entre 210 y 420 mg de solanina para alcanzar la "dosis letal inmediata". Si la papa está en el límite de 200 ppm, tendría que comer aproximadamente 1,05 kg de papa de una sola vez para alcanzar la dosis letal aguda[^9]. Pero esta aritmética solo responde a la dimensión de "intoxicación aguda" —el riesgo de exposición crónica para niños en el P95 ya ha sido marcado oficialmente por la EFSA como preocupante.
-
-Esta aritmética no pretende decir "así que puede comer con tranquilidad". El punto va en otra dirección: la imaginación comprimida en las seis palabras "papas envenenadas servidas en la mesa" evoca un nivel de peligro de "muerte inmediata". Pero el límite de 200 ppm + la aritmética de la dosis letal dicen otra cosa: bajo el cumplimiento estricto del límite, el riesgo de intoxicación aguda no alcanza un nivel que colapse el sistema médico social. **El verdadero espectro de riesgo está fuera de la intoxicación aguda —exposición crónica para niños en el P95, formación de acrilamida tras el procesamiento, residuos de CIPC** —ramas científicas que no son adecuadas para la movilización política de nivel "carta de sumisión", pero que existen.
-
-Sin embargo, hablar de "bajo el cumplimiento estricto del límite" tiene una premisa: la postura del gobierno debe ser consistente a lo largo de los años.
-
-Aquí hay una contradicción interna que pocos mencionan. El 17 de mayo de 2016, la Administración de Alimentos y Medicamentos de Taiwán (TFDA) publicó un artículo oficial de educación sanitaria titulado "Las papas brotadas son tóxicas; ¿es cierto que si se corta el brote el resto sigue siendo comestible?". Este artículo sigue publicado hoy (30 de abril de 2026) en la sección de desmentidos del sitio web de la TFDA (fda.gov.tw), con una actualización el 24 de noviembre de 2022. Su conclusión principal es categórica[^33]:
-
-> "Una vez que la papa ha brotado, no debe consumirse; incluso si se corta el brote o se calienta, seguirá conteniendo solanina." "Toda la papa produce grandes cantidades de solanina, especialmente concentrada en los brotes y la piel." "No es comestible después de cortar el brote; la toxicidad no se elimina ni con calentamiento a alta temperatura."
-
-Si se junto esto con las declaraciones del jefe de la división de alimentos de la TFDA, Xu Chaokai, en abril de 2026 —"descartar la unidad completa" y "enviar a la planta de procesamiento para su selección"—, se observa algo extraño: la misma TFDA, en su sitio web educativo de 2016, decía "no es comestible después de cortar el brote", mientras que la política de 2026 dice "puede circular tras selección en planta de procesamiento". Diez años de diferencia, sin retirar la página antigua, sin publicar una actualización, sin indicar vigencia.
-
-Esta es la segunda contradicción estructural, más allá de los 28 días de firma del tratado: la postura interna del gobierno no está alineada a lo largo de los años. Chen Jinghui, en su interpelación del 23 de abril, utilizó directamente esta página oficial de 2016 como evidencia[^22]; la parte contraria citaba material educativo aún publicado por el gobierno, no un rumor obsoleto.
-
-¿Y las preocupaciones de los científicos? Tampoco están en esta contradicción interna —están en un lugar más técnico.
+The narrative walls between the two sides are clear—one side is "poison potatoes on the dining table, the DPP abandoning the bottom line," the other is "scientific evidence, strict quarantine, ensuring food safety." On the surface, it looks like another cross-strait verbal war. But if you look one layer deeper, this narrative war is no longer binary.
 
 ---
 
-## La verdadera brecha no está en 200 ppm, se llama CIPC
+## 200 ppm is an Arithmetic Problem
 
-Para comprender el núcleo científico de la controversia del Acuerdo ART, hay que pasar por alto los 200 ppm y mirar el inhibidor de brotes.
+Let's start with chemistry. Let everything have a common foundation.
 
-Las papas importadas, para evitar la germinación durante el transporte de larga distancia, se sumergen tras la cosecha en un "inhibidor de brotes". El más utilizado actualmente en Taiwán, Estados Unidos y Japón es el clorprofam, nombre químico clorofenilaminabenceno, conocido en la industria como **CIPC**. El CIPC se descompone lentamente a temperatura ambiente en el metabolito 3-cloroanilina (3-cloroanilina)[^10].
+When potatoes sprout or their skin turns green, they accumulate a natural defense toxin called "solanine" (Solanine, more precisely total glycoalkaloids), primarily composed of solanine and chaconine. It is a chemical weapon evolved by Solanaceae plants to combat insects and pathogens, first isolated from nightshade berries by French pharmacist Desfosses in 1820 [^6].
 
-Ahí está la verdadera historia.
+![Solanine (α-solanine) molecular structure — a natural neurotoxin of Solanaceae plants, not decomposed by heating](/article-images/society/du-mali-solanine-structure.svg)
 
-La UE, bajo el Reglamento N.º 989 de 2019, anunció que "no renovaría la autorización del CIPC", revocó las autorizaciones de los Estados miembros el 8 de enero de 2020 y agotó todas las existencias el 8 de octubre de 2020[^11]. Las razones están en el informe de revisión por pares del clorprofam de la EFSA de 2017 (DOI 10.2903/j.efsa.2017.4903). Este informe arroja tres cifras alarmantes[^44]:
+Countries basically align on the upper limit for solanine in edible potatoes: Taiwan's _Hygienic Standards for Pollutants and Toxins in Food_ sets it at 200 ppm [^7]. The wording used by the Executive Yuan when refuting the CCP's accusations is "200 ppm aligns with international standards," "consistent with CODEX" [^14].
 
-- Exposición dietética crónica de niños holandeses al clorprofam: **180% de la ADI** (ingesta diaria admisible)
-- Exposición crónica a 3-cloroanilina: **195% de la ADI**
-- Exposición aguda única de papa al clorprofam: **797% de la ARfD** (dosis de referencia aguda)
-- Exposición aguda a 3-cloroanilina: **2360% de la ARfD**
+But **this statement of "international standard" itself has a translation flaw**. Codex Alimentarius **does not** set a food safety standard for solanine [^41]. The true source of "200 mg/kg" is national legislation from the Swedish National Food Administration in 1990 and Health Canada in the early 1990s. Health Canada's own 2021 update proposal verbatim states: "The current 200 ppm TGA upper limit is jointly announced by the Department of Health and the Department of Agriculture from over thirty years ago" [^42].
 
-La conclusión de la EFSA textualmente: "No se puede realizar una evaluación final del riesgo dietético del consumidor debido a varias lagunas de datos e incertidumbres identificadas para los usos en cultivos alimentarios" + "Los expertos no pudieron excluir un modo de acción mediado por disrupción endocrina para efectos en células de Leydig y tiroideos"[^44]. El considerando del Reglamento UE 2019/989 cita directamente esta conclusión de la EFSA como fundamento jurídico[^11] —son las cifras científicas las que impulsaron el proceso, no puede descartarse como "decisión política".
+The EFSA 2020 scientific opinion (DOI 10.2903/j.efsa.2020.6222) provides the intake dose "Lowest Observed Adverse Effect Level" (LOAEL): **1 mg total glycoalkaloids / kg body weight / day** [^43]—this is a different dimensional indicator from concentration standards (mg/kg potato). Converting back: for a 70 kg adult, consuming 70 mg of total glycoalkaloids reaches the LOAEL; if potatoes are at the 200 ppm boundary, this is equivalent to 350 g.
 
-Sobre la clasificación carcinogénica de la 3-cloroanilina, hay que aclarar un detalle frecuentemente confundido: el Centro Internacional de Investigaciones sobre el Cáncer (IARC) clasifica la 4-cloroanilina (para-cloroanilina) como Grupo 2B "posiblemente carcinogénica para humanos", pero la 3-cloroanilina (meta-cloroanilina, metabolito del CIPC) **no** ha sido evaluada individualmente por el IARC[^45]. Son isómeros, estructuras similares pero con posible comportamiento toxicológico diferente. La formulación precisa es: la 3-cloroanilina es un metabolito que la EFSA ha identificado con riesgo significativo de exposición dietaria y sospecha de disrupción endocrina, mientras que el IARC no ha clasificado directamente esta molécula. Los medios a menudo confunden ambas como "3-cloroanilina IARC 2B" —esta simplificación hace la narrativa más útil, pero carece de precisión.
+The same EFSA report explicitly states: "The MOE for young groups (children) shows health concerns at both the highest average intake survey and the P95 intake of all surveys" [^43]. In other words, **for the P95 exposure (high intake group) of children, EFSA has officially marked health concerns**—this is far from the common sense intuition of "absolutely safe below 200 ppm."
 
-Taiwán / Estados Unidos / Japón / Corea del Sur / Canadá / Australia / el CODEX no han seguido a la UE. Los límites actuales de residuos de CIPC por país[^13]:
+The academic consensus on toxic doses (synthesizing EFSA 2020, JECFA 1992, Mensinga 2005 human ascending dose studies):
 
-| País / Región                   | Límite de residuos de CIPC     |
-| ------------------------------- | ------------------------------ |
-| Codex Alimentarius              | 30 ppm                         |
-| Taiwán                          | 30 ppm                         |
-| Estados Unidos (40 CFR 180.181) | 30 ppm                         |
-| Japón                           | 50 ppm                         |
-| **UE (post-2020)**              | **0,01 ppm (LMR por defecto)** |
+| Indicator   | Value (per kg body weight)     |
+| ----------- | ------------------------------ |
+| Safe intake | < 1 mg                         |
+| LOAEL       | 1 mg/day (EFSA 2020)           |
+| Toxic dose  | 1.2–5.1 mg (JECFA human cases) |
+| Lethal dose | 3–6 mg                         |
 
-La brecha real entre la UE y Taiwán/EE. UU. es de **3000 veces** (0,01 frente a 30). El LMR por defecto de 0,01 ppm tras el Reglamento UE 2019/98 equivale sustancialmente a que **las papas tratadas con CIPC en EE. UU. no pueden entrar a la UE**[^46] —datos del USDA FAS muestran que las exportaciones a la UE cayeron a casi cero después de 2020.
+So, do the arithmetic: for a 70 kg adult, to reach the "immediately lethal" dose requires 210–420 mg of solanine. If potatoes are at the 200 ppm boundary, one would need to eat approximately 1.05 kg of potatoes at once to reach an acute lethal dose [^9]. But this arithmetic only answers the dimension of "acute poisoning"—the risk of chronic exposure to children, EFSA has officially marked as a concern.
 
-Esta brecha no es "una pregunta inventada por la Oficina de Asuntos de Taiwán". Es una decisión científica que la UE ya tomó y que la TFDA de Taiwán ha elegido no seguir. Pero rara vez se discute en esta controversia: el foco de la refutación del gobierno del DPP se centra en "alinearse con el estándar internacional" (es decir, la ruta de EE. UU. / CODEX de 30 ppm); la difusión de la Oficina de Asuntos de Taiwán se queda en el impacto emocional de las tres palabras "papas envenenadas". Ambas partes evitan el CIPC, la brecha más técnica pero más sustancial.
+This arithmetic is not to say "so eat with confidence." The point is in the other direction—the six words "poison potatoes on the dining table" compress the imagination into a danger level of "will kill people immediately." But the 200 ppm boundary + lethal dose arithmetic says something else: under strict adherence to the boundary, the risk of acute poisoning will not reach the level that collapses the social medical system. **The true risk spectrum is things other than acute poisoning—chronic exposure to children P95, acrylamide formation after processing, CIPC residues**—these scientific branches are not suitable for "test of loyalty" level political mobilization, but they are real.
 
-La prohibición del CIPC en la UE tampoco fue una decisión política. Desde que la UE inició la revisión en 2015 hasta el agotamiento de existencias en octubre de 2020, todo el proceso duró 5 años. El nodo más crítico fue febrero de 2019: el Comité Permanente de la Cadena Alimentaria y Sanidad Animal (SCoPAFF) obtuvo 16 votos a favor de 28 Estados miembros en la votación para prohibir, pero no alcanzó el umbral de que "la población de los países favorables debe representar el 65% de la UE". El 17 de junio de 2019, el Comité de Apelación de la UE resolvió directamente no renovar la autorización; el 18 de junio se publicó oficialmente el Reglamento 2019/989; el 8 de enero de 2020 se revocaron las autorizaciones nacionales; el 8 de octubre de 2020 venció el plazo para agotar existencias[^34]. 5 años. Este fue el resultado acumulativo después de que la EFSA pusiera sobre la mesa la cifra del 2360% de excedencia de la ARfD aguda.
+However, speaking of "under strict adherence to the boundary" has a premise—the government's stance must be consistent across years.
 
-Si este artículo pudiera hacer una sola cosa, sería sacar el CIPC del punto ciego de esta guerra narrativa.
+Here lies an internal contradiction rarely mentioned. The Food and Drug Administration (FDA) of Taiwan released an official health education article on May 17, 2016, titled "Potatoes Sprouting are Toxic: Heard that as long as you cut out the sprouted eyes, other parts can still be eaten, is this true?" This article is still hanging on the FDA website's rumor-busting zone (fda.gov.tw) today (2026-04-30), and was maintained once on November 24, 2022. Its core conclusion is written very firmly [^33]:
 
----
+> "Once potatoes sprout, they should not be eaten; even if the sprouted eyes are cut out or heated, they will still contain solanine." "The whole potato produces large amounts of solanine, especially concentrated in the sprouted eyes and potato skin." "It is not edible after cutting out the sprouted eyes; even high-temperature heating cannot remove the toxicity."
 
-## 28 días: del 16 de enero al 13 de febrero
+Putting this together with Food and Drug Administration Food Group Director Hsu Chao-kai's "discard the whole potato" "send to processing sites for removal" in April 2026, you see something strange—the same FDA, the 2016 health education website says "not edible after cutting out sprouted eyes," the 2026 policy says "circulate after processing selection." Ten years pass, old pages not removed, no updates issued, no time limits marked.
 
-Desde otra dimensión de la controversia —la gobernanza—.
+This is the second structural contradiction beyond the 28-day signing—the government's internal stance is misaligned across years. Legislator Chen Ching-hui used this 2016 official page as evidence in her inquiry on April 23 [^22]; the opposing camp cited government-published health education, not some expired old rumor.
 
-La secuencia temporal fue efectivamente apresurada. La ministra de Economía, Cheng Li-jun, viajó a Washington el 16 de enero de 2026 para firmar el MOU de negociaciones comerciales Taiwán-EE. UU. El 21 de enero, el Ministerio de Agricultura anunció la propuesta de ajustar las condiciones de cuarentena para la importación de papa estadounidense, **reduciendo el período de preaviso de 60 días a 14 días**. El 6 de febrero se completó el procedimiento de anuncio. El 13 de febrero, el "Acuerdo de Comercio Recíproco" (Agreement on Reciprocal Trade, ART) fue firmado oficialmente en Washington[^15].
-
-Desde la firma del MOU hasta la conclusión del ART: 28 días. El período de preaviso se redujo en 46 días.
-
-El primer ministro Cho Jung-tai respondió a esta cuestión temporal en la sesión de interpelación general del Legislativo el 28 de abril:
-
-> "No hay relación directa; el texto solo menciona la importación de papa desde EE. UU.; si se quisiera modificar el contenido actual, se requeriría acuerdo mutuo."[^16]
-> "Esto no se formó de la noche a la mañana... no está relacionado con estas negociaciones; se discutió durante mucho tiempo antes."[^17]
-
-La afirmación de "no está relacionado con las negociaciones" fue cuestionada ese mismo día. El legislador del Kuomintang Niu Xuting reveló un detalle en la misma sesión: el texto del Acuerdo ART estipula explícitamente que "cualquier modificación futura de las condiciones de cuarentena no podrá ser unilateral, sino que requerirá consulta entre representantes bilaterales"[^18].
-
-Si no está relacionado con las negociaciones, ¿por qué el artículo bloquea los cambios futuros de cuarentena en un tratado bilateral? El ministro de Agricultura, Chen Chun-chi, añadió en la misma sesión: "Durante los últimos dos o tres años se ha discutido continuamente con la parte estadounidense; todos los estándares no se han relajado."[^19]
-
-Las dos afirmaciones no son contradictorias, pero juntas presentan la siguiente imagen: los detalles técnicos (200 ppm + procedimiento de procesamiento + eliminación individual) se discutieron durante años; la decisión de incorporar esos detalles técnicos en un tratado bilateral con EE. UU. y completar la firma ocurrió en 28 días. Lo primero es un hecho; lo segundo es una decisión política.
-
-El punto no es que haya una conspiración aquí, sino el hecho estructural de que "ninguna decisión está realmente desvinculada de las negociaciones". Cuando Cho Jung-tai dice "no está relacionado con las negociaciones", puede estar diciendo que "la discusión sustantiva precedió a las negociaciones", mientras que Niu Xuting escucha que "el resultado casualmente quedó escrito en el tratado" —ambos dicen algo cierto, pero suena a pelea.
+What about scientists' concerns? Not in this internal contradiction—in another more technical place.
 
 ---
 
-## "Revisar una por una" y los 85 inspectores fronterizos
+## The Real Gap is Not 200 ppm, It's Called CIPC
 
-El tercer nivel es una cuestión de gobernanza más específica: la capacidad de inspección fronteriza.
+To see the scientific core of the ART Agreement controversy, one must bypass 200 ppm and look at the sprout inhibitors.
 
-La versión oficial del Ejecutivo dice: si la cuarentena fronteriza detecta que las papas están demasiado brotadas, "nuestra parte aún puede proceder al rechazo del lote completo"; si solo hay brotes leves, "enviar a la planta de procesamiento para su selección"[^20].
+Imported potatoes need to be immersed in "sprout inhibitors" after harvest for long-distance transport to prevent sprouting. Taiwan, the US, and Japan currently mostly use Chlorpropham, chemical name chlorpropham, industry abbreviation **CIPC**. CIPC slowly decomposes into the metabolite 3-chloroaniline (3-chloroaniline) at room temperature [^10].
 
-Las palabras originales de Cho Jung-tai fueron aún más contundentes. Su compromiso público del 24 de abril, textualmente, fue:
+This is where the real story lies.
 
-> "Revisaremos contenedor por contenedor, sacando cada papa para inspección."[^35]
+The EU announced under Regulation 989/2019 that it "would not renew CIPC authorization," revoked member state authorization on January 8, 2020, and cleared all inventory by October 8, 2020 [^11]. The reason must be found in the EFSA 2017 chlorpropham peer review report (DOI 10.2903/j.efsa.2017.4903). This report gives three numbers that make people sit up: [^44]
 
-Las cuatro palabras "sacando cada papa para inspección" provocaron inmediatamente una reacción negativa dentro del propio panverde. La publicación de Facebook de "Kashen" (Yang Hui-ru) decía directamente:
+- Dutch children's chronic chlorpropham dietary exposure reached **180%** of the ADI (Acceptable Daily Intake)
+- 3-chloroaniline chronic exposure reached **195%** of the ADI
+- Single potato acute chlorpropham exposure reached **797%** of the ARfD (Acute Reference Dose)
+- 3-chloroaniline acute exposure reached **2360%** of the ARfD
 
-> "¿Por qué el primer ministro Cho Jung-tai es un idiota que dice que hay que revisar cada papa para ver si ha brotado?"[^35]
+EFSA's conclusion verbatim: "Due to multiple data gaps and uncertainties in food crop uses, a final consumer dietary intake risk assessment cannot be performed," "Experts could not exclude an endocrine-mediated mode of action for Leydig cell and thyroid effects" [^44]. The recital of EU 2019/989 Regulation directly cites this EFSA conclusion as the legal basis [^11]—it is scientific numbers pushing it forward, cannot be dismissed with a single word "political decision."
 
-Ni el panazul ni el panverde lo aceptan. ¿Por qué? Veamos los números.
+Regarding the carcinogenic classification of 3-chloroaniline, here we must clarify a detail often misattributed: the International Agency for Research on Cancer (IARC) classified 4-chloroaniline (para-chloroaniline) as Group 2B "possibly carcinogenic to humans," but IARC **did not** individually assess 3-chloroaniline (meta-chloroaniline, the metabolite of CIPC) [^45]. They are isomers, structurally similar but toxicological behavior may differ. The accurate statement is: 3-chloroaniline is a metabolite identified by EFSA as having significant dietary exposure risks and endocrine disruption concerns; IARC did not give this molecule a direct classification. Media reports often confuse the two as "3-chloroaniline IARC 2B"—this simplification makes the narrative useful, but lacks precision.
 
-El legislador del DPP Wang Shijian reveló dos cifras en su interpelación del 15 de abril: "En toda Taiwán solo hay 2 laboratorios certificados para analizar solanina"[^21]. La legisladora Chen Jinghui reveló después la dotación de personal de inspección fronteriza: plantilla de 105, contratados efectivamente 85[^22].
+Taiwan / US / Japan / South Korea / Canada / Australia / Codex have not followed the EU. The current CIPC residue limits for various countries [^13]:
 
-El legislador del Kuomintang Luo Ting-wei (citado en la columna de Wu Dianrong en _Feng Chiao Media_) hizo la aritmética:
+| Country/Region      | CIPC Residue Limit         |
+| ------------------- | -------------------------- |
+| Codex Alimentarius  | 30 ppm                     |
+| Taiwan              | 30 ppm                     |
+| US (40 CFR 180.181) | 30 ppm                     |
+| Japan               | 50 ppm                     |
+| **EU (post-2020)**  | **0.01 ppm (default MRL)** |
 
-> "Un contenedor de 40 pies contiene aproximadamente 150.000 papas; si voltear cada papa requiere solo 2 segundos, un contenedor tomaría unas 83 horas (3,5 días) de trabajo continuo, sin mencionar que Taiwán importa 300 millones de papas al año."[^23]
+The actual gap between the EU and Taiwan/US is **3000 times** (0.01 vs 30). The default MRL after EU 2019/989 Regulation is 0.01 ppm, which substantially **means "US CIPC-treated potatoes cannot be exported to the EU"** [^46]—USDA FAS data shows exports to the EU after 2020 are near zero.
 
-150.000 papas/contenedor × 2 segundos/papa = 83 horas. Un inspector fronterizo trabaja 40 horas semanales. Solo el tiempo físico de un contenedor requiere más de 2 semanas completas de trabajo de un inspector. Las 300 millones de papas importadas al año equivalen a 2.000 contenedores de 40 pies.
+This gap was never a problem "fabricated out of thin air by the Taiwan Affairs Office." It is a scientific decision already made by the EU, a choice the Taiwan FDA currently chooses not to follow. But it is rarely discussed in this controversy—the DPP government's refutation focus is on "aligning with international standards" (i.e., the US/Codex 30 ppm route); the Taiwan Affairs Office's spread stops at the emotional impact of the three words "poison potatoes." Both sides avoid CIPC, this more technical but more substantial gap.
 
-La promesa de "revisar cada papa" es físicamente imposible.
+The EU banning CIPC is not a political decision. From the EU starting review in 2015 to clearing inventory by October 2020, the whole process took 5 years. The most critical node in between was February 2019: the EU Standing Committee on Plants, Animals, Food and Feed (SCoPAFF) got 16 countries voting in favor of the ban in the 28 member states, but stalled at the threshold requiring "favoring countries' total population must reach 65% of the EU." On June 17, 2019, the EU Appeal Committee directly decided not to renew authorization; on June 18, 2019, Regulation 2019/989 was officially announced; on January 8, 2020, member state authorization was revoked; on October 8, 2020, inventory clearing deadline [^34]. 5 years. This is the result of EFSA pushing up the number of acute ARfD exceeding 2360%, accumulated sequentially.
 
-Pero lo más notable es otra cosa: el término "una por una" es un precedente en las promesas de seguridad alimentaria del gobierno taiwanés. Durante el período de la carne con ractopamina (2020-2021), la terminología gubernamental fue "inspección lote por lote" y "inspección fronteriza al 100% por lotes"; durante el período de los alimentos de Fukushima (2022), fue "inspección lote por lote de radiactividad"; en la controversia de la importación de huevos (2023), fue "inspección lote por lote, liberación lote por lote". Siempre "lote por lote". Solo en 2026 se elevó a "una por una" y "cada papa".
-
-La elevación del lenguaje de las promesas suele corresponder a la presión política. La presión detrás de esta elevación fue: el panazul al ataque + reacción interna del panverde + presión simultánea de la Oficina de Asuntos de Taiwán + cadena de difusión de comentaristas políticos en todo el espectro —la presión fue más fuerte que en ocasiones anteriores, y la promesa fue empujada a una posición físicamente imposible.
-
-El propio Cho Jung-tai ya había corregido a "inspección por muestreo" el 28 de abril en el Legislativo. Entre "cada papa" y "inspección por muestreo" pasaron 4 días.
-
-Aquí vale la pena mirar al vecino: cómo manejan Japón y Corea del Sur el mismo asunto.
-
-La respuesta de Japón es: **no abrir en absoluto**. Los detalles del Ministerio de Agricultura, Silvicultura y Pesca de Japón (MAFF) tras 19 años de negociaciones con EE. UU. solo permiten la importación de papa para procesamiento (_chipping potato_) desde EE. UU., no para consumo fresco (_table stock_)[^47]. El artículo 5 de los detalles del MAFF dice textualmente: "Se inspeccionará más del 1% de las unidades de contenedores de exportación, prestando especial atención a daños, deformaciones, etc., cortando oportunamente para inspección, confirmando la ausencia de plagas y enfermedades cuarentenarias (especialmente nematodos)" —**el núcleo de la inspección son los nematodos, no hay artículo sobre inspección de brotes**. Pero la garantía de seguridad de Japón proviene de que "la variedad importada está limitada a uso de procesamiento", no de "no inspeccionar brotes". El viceministro de Agricultura Hu Zhongyi citó el 22 de abril que "Japón ni siquiera inspecciona brotes" como defensa; esto es solo media verdad.
-
-La respuesta de Corea del Sur es: **estandarización obligatoria**. El 23 de enero de 2026, Corea del Sur amplió el acceso de papa estadounidense a 11 estados, pero las condiciones incluyen "uso obligatorio de CIPC como inhibidor de brotes (según especificaciones definidas)", "registro de plantas de empaque (_packing shed registration_)", "inspección de psílidos y enfermedad bacteriana zebra chip"[^48]. La parte más estricta de Corea del Sur frente a Taiwán no es "un límite de CIPC más bajo", sino que **responsabiliza a la fase de empaque aguas arriba** —los lotes estadounidenses que potencialmente no usaron CIPC simplemente no pueden entrar a Corea del Sur.
-
-En comparación, Taiwán tomó otro camino: inspección por muestreo fronteriza + selección tras procesamiento, sin la gestión aguas arriba de registro de _packing sheds_ al estilo coreano ni la restricción de uso de consumo fresco al estilo japonés. La imposibilidad física de "revisar una por una" se debe a que Taiwán eligió un camino intermedio sin gestión aguas arriba ni restricción de uso. La asunción política detrás de las palabras de Cho Jung-tai "sacando cada papa" fue esencialmente intentar cerrar esta brecha estructural con una sola frase.
-
-¿Y las plantas de procesamiento? Wu Dianrong lo escribió más directamente en su columna en _Feng Chiao Media_:
-
-> "El gobierno renunció voluntariamente al poder de cuarentena fronteriza para bloquear las papas brotadas... en lugar de bloquear en la frontera, deja que los procesadores de alimentos seleccionen por sí mismos; la supervisión gubernamental es casi inexistente."[^24]
-
-Esta crítica no ha sido respondida directamente en la versión gubernamental. La explicación del jefe de la división de alimentos de la TFDA, Xu Chaokai, fue: "Si se detecta descomposición o si el contenido de solanina excede el límite del estándar de higiene, se debe descartar la unidad completa; solo después de garantizar la seguridad se puede proceder al procesamiento o distribución posterior"[^25] —pero esto describe la fase fronteriza. El mecanismo de supervisión de la autogestión de los procesadores tras entrar a la planta es actualmente un vacío en la información pública.
-
-Ninguno de estos problemas desaparece automáticamente porque el PCCh los acuse.
+If this article only wants to do one thing, this is it: pull CIPC out of the blind spot of this narrative war.
 
 ---
 
-## De los plastificantes de 2011 a la carne con ractopamina de 2024
+## The 28 Days from January 16 to February 13
 
-El cuarto nivel —quizás el más importante— es el tiempo.
+Looking from another dimension—governance.
 
-Para entender por qué las tres palabras "papas envenenadas" provocaron una reacción tan grande en la sociedad taiwanesa en abril de 2026, hay que volver a 2011.
+The timeline is indeed very rushed. Economic Minister Cheng Li-chun went to Washington to sign the Taiwan-US Trade Negotiation MOU on January 16, 2026. On January 21, the Ministry of Agriculture and Fisheries announced the proposed adjustment of US potato import quarantine conditions, **shortening the notice period from the original 60 days to 14 days**. On February 6, the announcement procedure was completed. On February 13, the "Agreement on Reciprocal Trade" (ART) was formally signed in Washington [^15].
 
-En marzo de ese año, Yang Ming-yu, técnico de la Administración de Alimentos y Medicamentos del Departamento de Salud, ejecutando el "Proyecto de Refuerzo contra Medicamentos Falsificados y de Baja Calidad", detectó accidentalmente el plastificante DEHP al analizar un producto probiótico; el 23 de mayo, el Departamento de Salud celebró una conferencia de prensa pública. Siguiendo este hilo, se descubrió que el "agente de turbidez" (un aditivo alimentario legal) en la industria alimentaria taiwanesa había sido adulterado ilegalmente durante mucho tiempo con plastificantes industriales por las empresas Chang Shu Spices y Bin Han. Posteriormente, el DEHP fue detectado en bebidas, jugos, pasteles, alimentos saludables y medicamentos —el número de empresas que posiblemente usaron el agente de turbidez tóxico de Chang Shu o Bin Han se expandió de 119 a 155[^26]. Los taiwaneses descubrieron que algo que habían estado bebiendo durante las últimas dos décadas contenía un aditivo tóxico en su origen.
+From MOU signing to ART completion signing, a total of 28 days. The notice period shortened by 46 days.
 
-El 4 de septiembre de 2014, el escándalo del aceite reciclado (_gutter oil_). La fábrica de aceite reciclado de Guo Lie-cheng en Pingtung recolectaba aceite de desecho y lo mezclaba en proporción "33% aceite de baja calidad + 67% manteca de cerdo" para venderlo a la empresa Qiang Guan, que lo procesaba como "Manteca de cerdo Xiang Quan Tong" e introducía en la cadena de suministro alimentario[^27]. Ese mismo año se reveló la importación de 759 toneladas de manteca de cerno no comestible desde Hong Kong y Japón; se estimó que más de 200 toneladas de aceite de alcantarilla entraron al mercado.
+Premier Chuo Rong-tai answered this timeline question at the Legislative Yuan general inquiry on April 28:
 
-De 2020 a 2021, la carne con ractopamina. El gobierno de Tsai Ing-wen anunció la importación de carne de cerdo estadounidense con ractopamina; el Kuomintang inició un referéndum en contra. El 18 de diciembre de 2021, el resultado del referéndum: la propuesta 18 "Contra la carne con ractopamina" obtuvo 3.936.386 votos a favor (48,79%) frente a 4.131.371 en contra (51,21%), no alcanzando la mayoría por una diferencia de aproximadamente 195.000 votos[^28]. Durante el período de la carne con ractopamina, el Centro de Investigación del Entorno Informativo de Taiwán (IORG) recopiló 8 líneas argumentativas clave del PCCh sobre el tema del referéndum, de las cuales **7 estaban relacionadas con la carne con ractopamina**[^29] —esta proporción en sí misma es evidencia cuantitativa de que "la seguridad alimentaria como eje principal de la guerra cognitiva".
+> "There is no direct relationship, the text only mentions importing potatoes from the US, if changing current related content requires mutual agreement." [^16]
+> "This did not form overnight... unrelated to this negotiation, talked for a long time before." [^17]
 
-Los desenlegales tardaron mucho. El caso de los plastificantes no fue resuelto definitivamente hasta el 3 de agosto de 2018, con una indemnización civil solidaria de 3,95 millones de dólares taiwaneses —repartidos entre 561 consumidores, aproximadamente 7.000 por persona. Lai Chun-jie (responsable de Chang Shu) fue condenado a 15 años, Jian Ling-yuan a 12 años, Wang Fen a 10 años; Chen Zhe-xiong (responsable de Bin Han) había fallecido, la acusación pública no fue admitida[^36]. El caso del aceite reciclado: Ye Wen-xiang de Qiang Guan fue condenado a 22 años en septiembre de 2017; Guo Lie-cheng de la fábrica subterránea de Pingtung fue condenado a 20 años en febrero de 2020 —más que las sentencias comunes por robo con homicidio. La empresa Qiang Guan fue multada con 120 millones de dólares taiwaneses y se disolvió en 2017[^37].
+The statement "unrelated to negotiation" was questioned on the same day. KMT legislator Niu Hsiu-ting revealed a detail at the same inquiry: the ART agreement text explicitly states "future quarantine conditions if to be further modified, cannot be modified unilaterally, must be discussed by bilateral representatives" [^18].
 
-La carne con ractopamina tuvo otro desenlace. Tras el fracaso del referéndum, en 4 años: en 2021 (año del referéndum), las importaciones de cerdo estadounidense fueron de 922 toneladas métricas; en 2023 se dispararon a 16.313 toneladas métricas, un crecimiento de 17 veces. No hubo eventos de intoxicación aguda colectiva —pero la Fundación de Consumidores de Taiwán (CFC) analizó 600 productos alimenticios en el mercado y **solo 2** etiquetados contenían cerdo estadounidense[^38]. El riesgo para la salud no se materializó, pero la brecha de confianza no se cerró. Esto es algo que el artículo siguiente retomará.
+If unrelated to negotiation, why lock future quarantine changes into a bilateral treaty with the US? Minister of Agriculture and Fisheries Chen Jun-ji supplemented at the same session: "Continuously discussed with the US over the past two or three years, all standards have not been relaxed." [^19]
 
-El punto en común entre los tres eventos de 2011, 2014 y 2020: ninguno fue revelado por un extranjero; la sociedad taiwanesa descubrió por sí misma que había sido engañada. Los plastificantes fueron descubiertos accidentalmente por un inspector del Departamento de Salud; el aceite reciclado fue denunciado por ciudadanos a la policía de Pingtung; la carne con ractopamina fue una contradicción estructural de las negociaciones comerciales Taiwán-EE. UU.
+The two statements are not contradictory, but put together present an image: technical details (200 ppm + processing procedures + individual removal) discussed for years; finally writing these technical details into a bilateral treaty with the US and completing signing, happened within 28 days. The former is fact, the latter is a political decision.
 
-Después de cada evento, la "lección" que la sociedad taiwanesa aprendió fue siempre la misma: **las promesas del gobierno y la industria alimentaria no son confiables**.
-
-El doctor Shen Zheng-nan, en su comentario de YouTube del 29 de abril sobre la controversia de las papas envenenadas, utilizó un concepto:
-
-> "Es un complejo colectivo de narcisismo, un eslabón de la excesiva preocupación por la salud y el bienestar." "¡Ningún país se preocupa por comer papas brotadas!"[^30]
-
-La afirmación "ningún país se preocupa" **no se sostiene** en términos fácticos.
-
-La FDA de EE. UU. en su guía oficial _Acrylamide and Diet_ en fda.gov escribe explícitamente: "Se deben usar papas lo más frescas posible, sin manchas verdes ni brotes, y almacenadas a más de 6°C (no en el refrigerador)"[^49]. El Reglamento UE 2017/2158 sobre acrilamida **obliga** a los operadores alimentarios a que "las papas almacenadas a largo plazo deben tener los brotes suprimidos"[^50]. Health Canada establece un límite legal de 200 ppm y adjunta la guía oficial "minimising exposure to glycoalkaloids"[^42]. JECFA 1992 advirtió: "Los datos epidemiológicos y experimentales disponibles no permiten determinar un nivel de ingesta seguro" + "Dosis letal 1,2-5,1 mg/kg pc"[^51]. EFSA 2020 emitió un dictamen de preocupación sanitaria para la exposición del P95 en niños[^43].
-
-Los países desarrollados no es que "no tengan miedo". La diferencia está en los mecanismos de gestión: múltiples capas de protección —inhibidor de brotes (CIPC, 1,4-DMN) + límite legal de concentración de 200 mg/kg + guía de prevención de acrilamida + protocolo de almacenamiento— dispersan el riesgo. El núcleo de esta controversia en Taiwán no es "si hay que tener miedo o no", sino **cuántas de estas capas ha implementado Taiwán y cuáles ha omitido**.
-
-La propia descripción médica de Shen Zheng-nan ("ningún país ha armado tanto escándalo por esto") está demasiado alejada de la brecha regulatoria real —cuando usa las palabras "narcisismo colectivo" y "preocupación excesiva por la salud", lo que hace sin querer es **psicologizar** la desconfianza de la población hacia la seguridad alimentaria: traducir la "desconfianza razonable hacia las instituciones" como "ansiedad excesiva sobre el propio cuerpo".
-
-Esta dirección de traducción es problemática. Los plastificantes fueron un engaño real de veinte años; el aceite reciclado fueron 645 toneladas reales de aceite de alcantarilla; la carne con ractopamina fue una estructura real de negociación bilateral. Cuando la población en 2026 escucha "se relaja la importación de papa estadounidense" y reacciona con alarma inmediata, la memoria que activa es el descubrimiento accidental de 2011 por parte de la TFDA del Departamento de Salud.
-
-Las cicatrices acumuladas en 15 años son reales. No fueron escritas por un guion del PCCh, pero se convirtieron en el cimiento donde la narrativa del PCCh puede pisar.
+The point is not what conspiracy is here, but in the structural fact that "no decision is truly unrelated to negotiation." When Chuo Rong-tai says "unrelated to negotiation," he might be saying "substantive discussion predates negotiation," while Niu Hsiu-ting hears "result happened to be written into the treaty"—both are talking about things that are true, but sound like they are fighting.
 
 ---
 
-## Cómo "carta de sumisión" pisó con precisión
+## "Inspect Every Single Potato" and 85 Border Inspectors
 
-Poniendo los cuatro cuatro niveles juntos, la precisión de la narrativa de "carta de sumisión" se ve con claridad.
+The third layer is a more concrete governance issue: border inspection capacity.
 
-El marco de la investigación académica sobre la guerra cognitiva del PCCh contra Taiwán (Shen Bo-yang, IORG, Laboratorio de Democracia Taiwanesa) es aproximadamente así[^31]:
+The Executive Yuan's official version says: if border quarantine finds potatoes with severe sprouting conditions, "we can still adopt whole batch return processing"; if only minor sprouting, "send to processing sites for removal" [^20].
+
+Premier Chuo Rong-tai's original words are more intense. His verbatim commitment on April 24 was:
+
+> "Will inspect the whole container, take every single potato out to inspect." [^35]
+
+The four words "take every single potato out to inspect" triggered internal Green camp backlash on the same day. "Card God" Yang Hui-ru's Facebook post directly wrote:
+
+> "Chuo Rong-tai this saying that potatoes must be inspected for sprouting one by one, why is it the Premier?" [^35]
+
+Blue and Green both do not buy it. Why? Look at the numbers.
+
+DPP legislator Wang Shih-chieh revealed two numbers at the Legislative Yuan inquiry on April 15: "Only 2 companies in Taiwan have solanine inspection certification" [^21]. Legislator Chen Ching-hui then revealed border inspection manpower—established 105, actually employed 85 [^22].
+
+KMT legislator Luo Ting-wei (transmitter Wu Tien-jung Storm Media column) did an arithmetic:
+
+> "A 40-foot container has about 150,000 potatoes, if turning over each to inspect only takes 2 seconds, one container takes about 83 hours (3.5 days) of non-stop working hours, moreover Taiwan imports up to 300 million potatoes annually." [^23]
+
+150,000 potatoes / container × 2 seconds / potato = 83 hours. One border inspector's weekly working hours is 40 hours. Just looking at the physical time of one container, it exceeds 2 inspectors' whole week working hours. Annual import of 300 million potatoes converts to 2,000 40-foot containers.
+
+The commitment "take every single potato out to inspect" is physically impossible.
+
+But more noteworthy is another thing—the wording "one by one" (逐顆) is record-breaking in past Taiwan government food safety commitments. During the ractopamine pork period (2020-2021), government wording was "batch sampling," "100% border sampling"; during the food safety period (2022), it was "batch inspection for radioactivity"; during the egg import controversy (2023), it was "batch inspection, batch release." Every time was "batch." Only this 2026 upgrade to "one by one," "every single potato."
+
+The upgrade of commitment wording often corresponds to political pressure. The upgrade behind this is: Blue camp calling the tune + Green internal backlash + Taiwan Affairs Office simultaneous pressure + media spokesperson spread chain full spectrum—pressure is stronger than previous times, commitment therefore pushed to a physically impossible position.
+
+Chuo Rong-tai himself changed his words on April 28 at the Legislative Yuan to "sampling." From "every single potato" back to "sampling" spans 4 days.
+
+Here worth detouring to the neighbor—how Japan and South Korea handle the same thing.
+
+Japan's answer is: **not open at all**. Japan's Ministry of Agriculture, Forestry and Fisheries (MAFF)细则 negotiated with the US for 19 years, to 2026 still only allows US chipping potato (processing use) import, does not allow table stock (fresh food) [^47]. MAFF细则 Article 5 verbatim writes "inspect more than 1% of the export container unit, pay special attention to damage, deformities, etc., cut open to inspect when appropriate, confirm no quarantine harmful animals and plants (especially nematodes)"—**the inspection core is nematodes, no sprouting inspection text**. But Japan's safety guarantee comes from "imported varieties already limited to processing use," not "not inspecting sprouting." Agriculture and Fisheries Deputy Minister Hu Chung-i quoted "Japan does not inspect sprouting at all" as defense on 4-22, only said half the truth.
+
+South Korea's answer is: **mandatory standardization**. On January 23, 2026, South Korea expanded US potato access to 11 states, but conditions include "mandatory use of CIPC as sprout inhibitor (per defined specifications)," "packing shed registration," "psyllid trapping, zebra chip bacterial disease inspection" [^48]. South Korea is stricter than Taiwan not in "lower CIPC limit," but putting responsibility **forward to the upstream packing stage**—US batches potentially not using CIPC cannot enter South Korea.
+
+Comparing down, Taiwan is another path: border sampling + post-processing selection, did not do South Korea's packing shed registration upstream management, did not do Japan's table stock refusal to open. The physical impossibility of "inspect every single potato" is because Taiwan chose a middle path without upstream management and without use restrictions. Premier Chuo Rong-tai's words "take every single potato out to inspect" when spoken, the political burden is essentially trying to use one sentence to make up for this structural gap.
+
+What about the processing plant side? Wu Tien-jung wrote more directly in Storm Media column:
+
+> "The government actively abandons the quarantine power to block sprouting potatoes at the border... not blocking at the border, but letting processed food operators self-select, government supervision is almost none." [^24]
+
+This criticism is not directly responded to in the government version. Food and Drug Administration Food Group Director Hsu Chao-kai's explanation is: "If found to be rotten, or solanine content exceeds health standard limits, etc., violating health standard matters, should discard the whole potato, ensure safety before entering subsequent processing or circulation" [^25]—but this describes the border stage. After entering the processing plant, the operator self-management supervision mechanism, is currently public data blank.
+
+These are not problems that disappear automatically with CCP accusations.
+
+---
+
+## From 2011 Melamine to 2024 Ractopamine Pork
+
+The fourth layer—perhaps the most important one—is time.
+
+To understand why the three words "poison potatoes" in April 2026 exploded such a large reaction in Taiwanese society, must return to 2011.
+
+That March, when Yang Ming-yu, a senior official at the Food and Drug Administration of the Department of Health, executed the "Strengthen Crackdown on Counterfeit and Substandard Drugs Project," he unexpectedly discovered plasticizers DEHP when testing a probiotic product; on May 23, the Department of Health held a press conference publicly. Digging along this line, found that Taiwan's food industry upstream "cloud agent" (legal food additive) was long illegally mixed with industrial plasticizers by Yushen Flavor and Binhan Company. DEHP was subsequently detected in beverages, juice, pastries, health foods, medicines—manufacturers possibly using Yushen or Binhan toxic cloud agents expanded from 119 to 155 [^26]. Taiwanese people discovered that the things they had been drinking for the past twenty years, the source had a toxic additive.
+
+September 4, 2014, the swill oil incident. Pingtung Guo Lie-cheng's recycling oil factory recycled swill oil, made finished products sold to Ch'uan Kuan Enterprise with a ratio of "33% low-quality oil + 67% lard," making "Ch'uan Kuan Fragrant Lard" entering downstream food supply chains [^27]. That same year, another 759 tons of non-edible lard imported from Hong Kong and Japan was exposed; estimated over 200 tons of gutter oil flowed into the market.
+
+2020 to 2021, ractopamine pork. The Tsai Ing-wen government announced opening up US pork containing ractopamine for import, the KMT initiated a referendum to oppose. December 18, 2021 referendum result: "Anti-Ractopamine Pork" Case 18 agreed 3,936,386 votes (48.79%) against disagreed 4,131,371 votes (51.21%), failed by about 195,000 votes [^28]. During the ractopamine pork period, IORG (Taiwan Information Environment Research Center) organized 8 key arguments from the CCP on the referendum issues, among which **7 are related to ractopamine pork** [^29]—this proportion itself is data evidence for "food safety issues as the main axis of cognitive warfare."
+
+The legal outcomes all drag for a long time. The melamine case was finalized on August 3, 2018, civil joint liability compensation 3.95 million yuan—distributed to 561 consumers, each about 7,000 yuan. Lai Chun-chieh (Yushen responsible person) 15 years finalized, Jian Ling-yuan 12 years, Wang Fen 10 years; Chen Che-hsiung (Binhan responsible person) already dead, public prosecution not accepted [^36]. The swill oil case: Ch'uan Kuan Ye Wen-hsiang 22 years finalized in September 2017, Guo Lie-cheng 20 years finalized in February 2020—longer than common sentences for robbery and murder. Ch'uan Kuan Enterprise fined 120 million yuan then dissolved in 2017 [^37].
+
+Ractopamine pork is another outcome. After the referendum failed, over 4 years: 2021 (referendum year) US pork imported 922 metric tons, 2023 surged to 16,313 metric tons, growth 17 times. No collective acute poisoning events—but Consumer Foundation tested 600 market foods, **only 2 items** labeled containing US pork ingredients [^38]. Health risks did not explode, trust gap did not heal. This is the question the following article will return to.
+
+The common point between the 2011, 2014, 2020 events: none were exposed by foreigners, all were discovered by Taiwanese society that they were deceived. Melamine was discovered by a Department of Health inspector by accident; swill oil was reported by citizens to Pingtung County Police; ractopamine pork is the structural contradiction of Taiwan-US trade negotiations.
+
+After each event, the "lesson" Taiwanese society learned is in the same direction: **government and food industry promises are untrustworthy**.
+
+Dr. Shen Cheng-nan used a concept in his April 29 YouTube commentary on the poison potato controversy:
+
+> "It is a collective narcissism, it is a part of over-valuing health preservation." "No country is worried about eating sprouting potatoes causing poisoning!" [^30]
+
+The sentence "no country is worried" is **untenable** at the factual level.
+
+The US FDA's official guidance on fda.gov Acrylamide and Diet explicitly writes: "Should use the freshest, no green spots or sprouted, stored above 6°C (not in refrigerator) potatoes" [^49]. EU 2017/2158 acrylamide regulation **mandates** food operators "long-term stored potatoes must inhibit sprouting" [^50]. Health Canada sets a 200 ppm statutory upper limit and attaches "minimising exposure to glycoalkaloids" official guidance [^42]. JECFA 1992 warns: "Existing epidemiological and experimental data insufficient to determine safe intake level," "lethal dose 1.2-5.1 mg/kg bw" [^51]. EFSA 2020 gives health concern judgment for children P95 exposure [^43].
+
+Advanced countries are not "not afraid." The difference is in handling mechanisms: using sprout inhibitors (CIPC, 1,4-DMN) + 200 mg/kg statutory concentration upper limit + acrylamide prevention guidance + storage protocol multi-layer defense lines to disperse risks. The core of this Taiwan controversy is not "should be afraid or not," but which of these defense lines **Taiwan did, which it missed**.
+
+Dr. Shen Cheng-nan's medical description itself ("no country argues like this over this") is too far from actual regulatory gaps—when he uses words like "collective narcissism," "over-valuing health preservation," unintentionally does the thing of psychologizing citizens' food safety distrust: translating it from "reasonable suspicion of institutions" to "excessive anxiety about one's own body."
+
+This translation direction is problematic. The 2011 melamine was a real twenty-year deception; the swill oil was a real 645 tons of gutter oil; the ractopamine pork is a real bilateral negotiation structure. When citizens in 2026 hear "US potatoes relaxed" and immediately become alert, the memory they mobilize comes from the 2011 Department of Health FDA's accidental discovery.
+
+The scars accumulated over 15 years are real. It is not written by the CCP, but it has become the foundation the CCP narrative can step into.
+
+---
+
+## How "Test of Loyalty" Stepped In Precisely
+
+Putting the previous four layers together, the precision of the "test of loyalty" narrative becomes clear.
+
+The framework of CCP cross-strait cognitive warfare academia (Shen Po-yang, IORG, Taiwan Democracy Lab) research is roughly like this [^31]:
 
 ```
-Preocupación por seguridad alimentaria (nivel fisiológico)
-  → Disfunción gubernamental (nivel de gobernanza)
-    → El DPP abandona la soberanía (nivel político)
-      → "Adular a Estados Unidos" / "carta de sumisión" (nivel diplomático)
-        → Narrativa de unificación: solo la unificación transfronteriza puede proteger la salud de los taiwaneses (marco final)
+Food Safety Concerns (Physiological Layer)
+   → Government Incompetence (Governance Layer)
+     → DPP Abandoning Sovereignty (Political Layer)
+       → "Flattering the US," "Test of Loyalty" (Diplomatic Layer)
+         → Unification Narrative: Only cross-strait unification can protect Taiwanese people's health (Ultimate Framework)
 ```
 
-La frase de Chen Binhua del 29 de abril, "entregando una vez más el sacrificio de la salud de la población como 'carta de sumisión' para adular a Estados Unidos", comprime exactamente los cinco niveles anteriores —de la preocupación por la seguridad alimentaria al marco diplomático. La palabra "carta de sumisión" es especialmente importante: es el encuadre general del PCCh en los últimos años para la familia de acuerdos comerciales Taiwán-EE. UU. (carne con ractopamina, semiconductores, ART, ventas militares): cada acuerdo = el DPP entrega una carta de sumisión a Estados Unidos.
+Chen Bin-hua's April 29 sentence "once again sacrificing the lives and health of the people as a 'test of loyalty' to flatter the US" is exactly the compression of the above five layers—from food safety concerns pushing all the way to the diplomatic framework. The word "test of loyalty" is particularly important, is the CCP's overall framing for the past few years for the Taiwan-US trade agreement family (ractopamine pork, chips, ART, arms sales): every agreement = the DPP offering a test of loyalty to the US.
 
-Shen Bo-yang, quien ha investigado la guerra de opinión del PCCh contra Taiwán durante 8 años, ofreció un juicio cuantitativo:
+Shen Po-yang, who has studied CCP cross-strait public opinion warfare for 8 years, gave a quantitative judgment:
 
-> "El 80% de la guerra de opinión que China lleva a cabo contra Taiwán no tiene nada que ver con 'verdad o falsedad', sino que es mayoritariamente 'ataque narrativo', es decir, la fabricación de una perspectiva."[^52]
+> "The public opinion warfare China conducts against Taiwan, 80% has nothing to do with 'true or false,' instead mostly 'narrative attacks,' that is, fabricating a perspective." [^52]
 
-Las papas envenenadas son un ejemplo de libro de texto. 200 ppm, solanina, CIPC, 85 inspectores fronterizos, 0,01 ppm de la UE, Cho Jung-tai "sacando cada papa", el artículo educativo de 2016 del Ministerio de Salud —cada uno es un hecho real. Pero al ser encadenados por el marco narrativo de "carta de sumisión" y "el gobierno de Lai adula a Estados Unidos", se convierten en material para la conferencia de prensa de la Oficina de Asuntos de Taiwán del 29 de abril. El análisis de Shen Bo-yang sobre las cinco líneas del PCCh contra Taiwán lo deja claro: "La guerra de información iniciada por el Partido Comunista de China tiene 5 líneas: el Ministerio de Seguridad Nacional, el Departamento de Trabajo Unificado del Comité Central del PCCh, la Oficina de Asuntos de Taiwán del Comité Central del PCCh, el Ejército Popular de Liberación y la Liga de la Juventud Comunista"[^53] —esta controversia de las papas envenenadas es una misión específica de la línea de la Oficina de Asuntos de Taiwán.
+Poison potatoes is a textbook example. 200 ppm, solanine, CIPC, 85 border inspectors, EU 0.01 ppm, Chuo Rong-tai "take every single potato out to inspect," MOHW 2016 health education article—every one is a real fact. But after being strung together by the narrative framework of "test of loyalty," "Lai government flattering the US," it becomes material for the Taiwan Affairs Office April 29 press conference. Shen Po-yang's analysis of the CCP's five cross-strait lines is clear: "The information warfare initiated by the Communist Party has 5 lines, respectively National Security Bureau, United Front Work Department, Taiwan Affairs Office, PLA, and Communist Youth League" [^53]—this poison potato is the specific task of the Taiwan Affairs Office line.
 
-Shen Bo-yang también mencionó el concepto de "ataque convergente en línea y fuera de línea": "Para que una guerra cognitiva tenga efecto en Taiwán, debe hacerse tanto en línea como fuera de línea... el 'sesgo de confirmación' resultante del ataque convergente es algo que después es completamente imposible de detener."[^54] Si se compara esto con la cadena de difusión de este caso —CTiTV 17 de abril "EE. UU. obliga a relajar" → cadena de comentarios (Guo Zheng-liang / Hou Hanting / Wu Qiu Feng) → usuarios de Threads "no digan tonterías" → la Oficina de Asuntos de Taiwán cosecha el 29 de abril— esto es exactamente el ataque convergente que describe Shen Bo-yang; una vez establecido el sesgo de confirmación, no hay vuelta atrás.
+Shen Po-yang also mentioned the concept of "online and offline, top and bottom pincer attack": "For a cognitive warfare to produce effect in Taiwan, online and offline must both do... the 'confirmation bias' caused by top and bottom pincer attack is something that later cannot be stopped at all." [^54] Comparing this sentence to the current spread chain—CTV April 17 "US forced to relax" → media spokesperson chain (Kuo Cheng-liang / Hou Han-ting / Wu Chiu-feng) → Threads netizens "don't talk nonsense" → Taiwan Affairs Office April 29 harvest—this is Shen Po-yang's top and bottom pincer attack; once confirmation bias is established, it cannot go back.
 
-Pero aquí hay una cuestión temporal que puede malinterpretarse fácilmente.
+But here is a timeline issue easily misunderstood.
 
-Ampliando la línea temporal de difusión mediática: el título del video del 17 de abril de 2026 de "Daily Must-Watch" de CTiTV ya decía "¡¿EE. UU. obliga a relajar la importación de papas brotadas?! Médico: ¡los carcinógenos no se eliminan con calor!" —12 días antes que las "papas envenenadas" de Chen Binhua el 29 de abril[^39]. Las dos palabras "EE. UU. obliga" están en sintonía con el encuadre posterior de la Oficina de Asuntos de Taiwán de "adular a Estados Unidos", pero temporalmente los medios nacionales fueron primero y el PCCh recogió después.
+Pulling out the media spread timeline: CTV "Must Watch Daily" April 17, 2026 video title already wrote "US forced to relax sprouting potato import?! Doctor: carcinogen high temperature cannot remove!"—12 days earlier than the Taiwan Affairs Office Chen Bin-hua April 29 "poison potatoes" [^39]. The two words "US forced" align with the Taiwan Affairs Office's later "flattering the US" framing, but the timeline is domestic media first, CCP later.
 
-La cadena de encuadre es más compleja que "el PCCh da la orden → el Kuomintang difunde → los medios amplifican". Es una estructura multidireccional: "cimiento de ansiedad (15 años de cicatrices de seguridad alimentaria en Taiwán) → los medios nacionales y comentaristas amplifican primero → el PCCh toma el impulso y cosecha". Lo que el PCCh hace en este encuadre no es generarlo desde cero; es recoger las preocupaciones que ya resonaban en la sociedad taiwanesa y reempaquetarlas como un vehículo de ataque contra las relaciones Taiwán-EE. UU.
+The framing chain is more complex than "CCP orders → KMT spreads → media amplifies." It is "anxiety foundation (Taiwan's 15-year food safety scars) → domestic media and media spokespersons first amplify → CCP borrows force to harvest" multi-directional structure. What the CCP does in this framing is not generating from zero; it repackages the concerns already swirling in Taiwanese society into an attack carrier for cross-strait relations.
 
-El éxito de este encuadre no está en el nivel fáctico, sino en el cimiento emocional. **Pisó con precisión**:
+The success of this framing is not at the factual level, but at the emotional foundation. It **stepped precisely on**:
 
-- **La desconfianza acumulada en seguridad alimentaria desde los plastificantes de 2011** —la población tiene una inmunidad histórica a la frase "el gobierno garantiza la seguridad"
-- **Tensiones reales de gobernanza** (28 días para firmar, período de preaviso reducido, 85 personas en la frontera, CIPC no alineado) —son problemas de gobernanza con base fáctica
-- **Delegación de la selección en plantas de procesamiento, capacidad de inspección estructuralmente insuficiente** —estos son hechos revelados por los propios legisladores taiwaneses
+- **Accumulated food safety distrust since the 2011 melamine**—citizens have historical immunity to the phrase "government guarantees safety"
+- **Real governance tension** (28-day signing, notice period shortened, 85 border people, CIPC misalignment)—these are governance problems with factual basis
+- **Processing plant selection power delegated down, inspection energy structurally insufficient**—these are facts brought out by Taiwan's own legislators' inquiries
 
-Pero la narrativa en sí también tiene deshonestidades estructurales:
+But the narrative itself has structural dishonesty:
 
-- **Omite detalles científicos**: la solanina y la ractopamina no son sustancias del mismo tipo; la analogía es conveniencia política, no consenso científico
-- **Omite la brecha real**: la diferencia de 150 veces del CIPC podría discutirse, pero no conviene —es demasiado técnico para movilización emocional
-- **Imaginación de "muerte inmediata"**: lo comprimido en "papas envenenadas" es "muere al comer", no "acumulación a largo plazo de residuos"
-- **Analógica transdominio**: el objetivo de la cadena narrativa "carne con ractopamina → papas envenenadas" es construir la narrativa acumulativa de "cada concesión del DPP a EE. UU. = sacrificio de la salud del pueblo taiwanes"; la seguridad alimentaria es solo el vehículo
+- **Skipping scientific details**: Solanine and ractopamine are not the same type of substance, analogy is political convenience not scientific consensus
+- **Omitting the real gap**: The 150-fold gap of CIPC can be talked about, but not suitable to talk about—it is too technical, cannot make emotional mobilization
+- **"Immediately lethal" imagination**: Compressed in the three words "poison potatoes" is "will die if eaten," not "long-term accumulation controversy of residues"
+- **Cross-domain analogy**: The "ractopamine pork → poison potatoes" narrative chain's goal is to construct the cumulative narrative of "every DPP concession to the US = sacrifice to Taiwanese people's health," food safety itself is just the carrier
 
-En la misma conferencia de prensa del 29 de abril, Chen Binhua también habló sobre la unificación pacífica, la visita de Lai Ching-te a África, las restricciones de la aplicación de mapas Gaode y los 50.000 espectadores de la Superliga de Fujian (Minchao)[^40]. "Papas envenenadas" es solo un frente entre varios. La táctica de encuadre no es un ataque puntual, sino una penetración que cubre el espectro de la vida cotidiana —hoy escuchas sobre seguridad alimentaria, mañana sobre la aplicación de mapas, pasado mañana sobre eventos deportivos; la misma conferencia de prensa ataca cinco direcciones.
+Chen Bin-hua at the same April 29 press conference also talked about peaceful unification, Lai Ching-te's visit to Africa, Amap App restrictions, Fujian Super Football League (Min Super) 50,000 audience [^40]. "Poison potatoes" is just one front in multi-front. Framework tactics are not single-point strikes, are permeation covering the daily life spectrum—today you hear food safety, tomorrow maybe map App, day after sports events, same press conference hits five directions.
 
-Esta estructura hace que narrativas como "carta de sumisión" sean extremadamente difíciles de refutar en la sociedad taiwanesa. Si el gobierno solo dice "el PCCh difama", equivale a negar que las cicatrices de 15 años de seguridad alimentaria son reales. Pero si admite que "efectivamente hay brechas de gobernanza" (secuencia apresurada, CIPC no alineado, personal fronterizo insuficiente), equivale a confirmar parcialmente la narrativa de la Oficina de Asuntos de Taiwán —aunque a la Oficina de Asuntos de Taiwán le importen un bledo estos detalles técnicos.
+This structure makes the "test of loyalty" narrative extremely hard to refute in Taiwanese society. If the government only says "CCP smears," it equals denying the 15-year food safety scars are real. But if admitting "governance indeed has gaps" (rushed timeline, CIPC misalignment, insufficient border manpower), it equals confirming part of the Taiwan Affairs Office narrative—even if the Taiwan Affairs Office does not care about these technical details at all.
 
-El manual similar de Rusia contra Ucrania y de China contra Hong Kong también empezó por la comida. La estructura común es: **reducir la cuestión de la soberanía comercial a "lo que entra por la boca", porque la comida es la ansiedad corporal más intuitiva**. Esta reducción de dimensión es psicológicamente muy efectiva —la gente es 100 veces más sensible a lo que "se come" que a lo que "se firma".
-
----
-
-## Entonces, ¿cuál es el problema?
-
-Volvamos a la forma real de esta controversia.
-
-Científicamente, el límite de 200 ppm de solanina + selección en procesamiento + inspección por muestreo —en términos de **riesgo de intoxicación aguda**, la diferencia entre el nuevo y el antiguo sistema es menor de lo que la preocupación sugiere. Pero la evaluación científica no es el verdadero campo de batalla de esta controversia.
-
-En términos de gobernanza, 28 días para firmar + período de preaviso de 60 días reducido a 14 + orden ejecutiva antes de la ratificación del tratado + 85 personas en la frontera + delegación de selección en plantas de procesamiento + CIPC con una diferencia de 150 veces respecto a la UE —estos pertenecen al nivel de gobernanza y confianza; la evaluación científica no puede ayudar con ellos. Tampoco desaparecerán automáticamente por ningún discurso político de ningún lado.
-
-En el nivel de guerra cognitiva, la narrativa de "carta de sumisión" pisó con precisión las cicatrices de 15 años de seguridad alimentaria —pero el origen de estas cicatrices no es el PCCh. Son la acumulación de los plastificantes de 2011, el aceite reciclado de 2014 y la carne con ractopamina de 2020. Si la guerra cognitiva puede dar en el blanco con precisión, es porque **el blanco es real**. El informe de manipulación de información de inversión pública de IORG de 2021, en sus 8 líneas argumentativas, la número 6 es "medios oficiales del PCCh citan opiniones de internautas comparando la carne con ractopamina con drogas"[^29]. Las tres palabras "papas envenenadas" ya tenían un prototipo en el marco de "drogas" de la carne con ractopamina de 2021 —el mismo encuadre aplicado a sustancias diferentes, pisando cada vez el mismo cimiento.
-
-El doctor Shen Zheng-nan dice "ningún país tiene miedo de las papas brotadas" —esto es válido médicamente. Pero cuando atribuye la ansiedad de la población sobre seguridad alimentaria a "narcisismo colectivo" y "preocupación excesiva por la salud", está psicologizando la desconfianza razonable hacia las instituciones y deconstruyéndola como patología personal. Esta dirección de crítica se ubica en una posición diferente a la "carta de sumisión" de la Oficina de Asuntos de Taiwán, pero estructuralmente hace algo similar: **traducir la preocupación del otro como un problema del otro**.
-
-Ambas reducciones juntas desplazan lo que esta controversia debería estar discutiendo: ¿por qué no se sigue a la UE en el inhibidor de brotes CIPC? ¿por qué no se dejó que el Legislativo viera el tratado de 28 días antes de firmarlo? ¿cómo pueden 85 personas en la frontera revisar 300 millones de papas una por una? ¿dónde está la información pública sobre el mecanismo de supervisión tras la delegación de la selección en las plantas de procesamiento?
-
-Estas preguntas no tienen respuestas nítidas. Son incómodas. No son adecuadas para difusión política ni para contraataque político.
-
-Pero son la forma real.
-
-Quizás la descripción más honesta de esta controversia sea esta: científicamente, no hay "papas envenenadas de muerte inmediata" entrando en la mesa taiwanesa; en gobernanza, hay relajaciones reales y rupturas de supervisión; la guerra cognitiva pisó con precisión las cicatrices de 15 años de seguridad alimentaria; y las cicatrices en sí —no deben tratarse como emoción, ni como evidencia. Son simplemente una historia que aún no ha cicatrizado.
-
-Otra cosa que vale la pena poner junto a esta controversia: Shen Bo-yang fue formalmente investigado por la Oficina de Seguridad Pública de Chongqing, China, el 28 de octubre de 2025, acusado de "delito de separatividad". La razón es que "se dedicó a actividades criminales de separatividad mediante el establecimiento de la organización separatista 'Black Bear Academy'"[^55]. La respuesta de Shen Bo-yang en Facebook ese día: "Resolver a quien plantea los problemas, resolver a quien defiende a Taiwán, efectivamente muy comunista" + "No importa, los taiwaneses no tenemos miedo"[^56]. El mismo sistema de la Oficina de Asuntos de Taiwán, medio años después, usó "carta de sumisión" y "papas envenenadas" para encuadrar al gobierno de Lai con la misma lógica —de individuo a gobierno, de Black Bear Academy a política de seguridad alimentaria, son diferentes deformaciones tácticas de la misma línea de guerra cognitiva (Oficina de Asuntos de Taiwán + Departamento de Trabajo Unificado).
-
-Wang Hong-en escribió en _La Torre del Pensamiento_ una frase que puede servir como nota al pie de esta controversia: "La 'diplomacia de lobo guerrero' es esencialmente parte de la propaganda interna."[^57] La verdadera audiencia de la conferencia de prensa de la Oficina de Asuntos de Taiwán del 29 de abril no fue solo Taiwán, sino también el interior de China —esta conferencia de prensa de "carta de sumisión" ayudó a Beijing a explicar a su propio pueblo "cuán lamentable es Taiwán". La misma conferencia de prensa también cubrió la unificación pacífica, la visita de Lai a África, la aplicación Gaode y el evento deportivo Minchao; cada uno es material para un frente múltiple.
-
-Shen Bo-yang dijo otra frase de nivel superior: "El establecimiento de la conciencia de amigo-enemigo es absolutamente la clave más importante para enfrentar la guerra" + "Consolidar la conciencia de la comunidad taiwanesa es la tarea principal"[^58]. Esta frase, colocada en el contexto de la controversia de las papas envenenadas, dice lo siguiente: la preocupación de la población por las papas brotadas es real, las brechas de gobernanza del gobierno también son reales, y la narrativa de la Oficina de Asuntos de Taiwán efectivamente pisa las cicatrices. **La verdadera contraofensiva no está en la acción unidimensional de "desmentir"**, sino en juntar estas cosas reales para que el lector vea la forma por sí mismo. Ver la forma en sí mismo está más cerca de la conciencia de comunidad que creer en la narrativa unilateral de cualquier lado.
+Russia's similar playbook against Ukraine, China's against Hong Kong all start from food entry. The common structure is: **downgrade trade sovereignty issues to "food entry," because food is the most intuitive body anxiety**. This downgrade is psychologically extremely effective—people are 100 times more sensitive to "eating down" than to "signing agreements."
 
 ---
 
-## Lectura adicional
+## So What is the Question
 
-- [Guerra cognitiva](/society/認知作戰) — El marco general de la manipulación informativa del PCCh y los mecanismos de respuesta de la sociedad taiwanesa
-- [La reunión Zheng-Xi de 2026 y el reencuentro Kuomintang-PCCh tras diez años](/society/2026鄭習會與國共十年再會) — Otro punto de inflexión en las relaciones transfronterizas durante el mismo período
-- [La crisis del Estrecho de Taiwán y el desarrollo de las relaciones transfronterizas](/history/台海危機與兩岸關係發展) — El contexto histórico a largo plazo de la narrativa de "carta de sumisión"
-- [Tsai Ing-wen](/people/蔡英文) — La responsable de la política de carne con ractopamina de 2020-2021, la capa anterior de las cicatrices
-- [Lai Ching-te](/people/賴清德) — El mandato presidencial durante la firma del Acuerdo ART
-- [Foro Thinking Taiwan](/society/想想論壇) — El proyecto anual de observación de China de la columna estrella relanzada en 2025 por Tsai Ing-wen cubre temas similares de guerra cognitiva
+Returning to the true shape of this controversy.
+
+Scientifically, the 200 ppm solanine boundary + processing selection + sampling—for **acute poisoning risk**, the gap between the new system and the old system is smaller than the degree of worry. But scientific assessment is not the true battlefield of this controversy.
+
+In governance, 28-day signing + 60-day notice period shortened to 14 days + executive order before treaty approval + 85 border people + processing plant selection delegated down + CIPC differs from EU by 150 times—these belong to the level of governance and trust, scientific assessment cannot help. They will not disappear automatically because of any side's political discourse.
+
+At the cognitive warfare level, the "test of loyalty" narrative stepped precisely on the 15-year food safety scars—but the origin of these scars is not the CCP. It is accumulated from the 2011 melamine, 2014 swill oil, 2020 ractopamine pork. If cognitive warfare can hit precisely, it is because **the target is real**. IORG 2021 public opinion manipulation report's 8 arguments, the 6th is "CCP official media cites netizens' words, comparing ractopamine pork to drugs" [^29]. The three words "poison potatoes" had a prototype as early as the 2021 ractopamine pork "drug" framework—the same framing applied to different substances, every time stepping on the same foundation.
+
+Dr. Shen Cheng-nan said "no country is worried about sprouting potatoes"—this holds medically. But he attributes citizens' food safety anxiety to "collective narcissism," "over-valuing health preservation," deconstructing reasonable suspicion of institutions into personal pathology. This critique direction and the Taiwan Affairs Office's "test of loyalty" stand at different positions, but structurally do similar things—**translate the other party's worries into the other party's problems**.
+
+The two reductions together squeeze out the things this controversy should truly be discussed about: Why not follow the EU on CIPC sprout inhibitors? Why not let the Legislative Yuan see the 28-day treaty signing first? How can 85 border people inspect 300 million potatoes one by one? Where is the public data on the supervision mechanism after processing plant selection is delegated down?
+
+These questions have no sharp answers. They are uncomfortable. They are not suitable for political spread, nor for political counterattack.
+
+But they are the true shape.
+
+The most honest description of this controversy might be like this: Scientifically there are no "immediately lethal poison potatoes" entering the Taiwanese dining table; in governance there are real relaxations and supervision breaks; cognitive warfare precisely hits the 15-year food safety scars; and the scars themselves—should not be treated as emotions, nor as evidence. It is just a history that has not yet healed.
+
+Another thing worth placing next to this controversy: Shen Po-yang himself was filed for investigation by the Chongqing Public Security Bureau of the PRC on October 28, 2025, for the crime of "splitting the country." The reason is he "engaged in splitting the country criminal activities by initiating, establishing the 'Taiwan independence' splitting organization 'Black Bear Academy'" [^55]. Shen Po-yang responded on Facebook that day: "Solving the person who raises the problem, solving the person who defends Taiwan, indeed very Communist," "Doesn't matter, anyway Taiwanese people are not afraid" [^56]. The same Taiwan Affairs Office system, half a year later uses "test of loyalty," "poison potatoes" to frame the same logic for the Lai government—from individual to government, from Black Bear Academy to food safety policy, is the same cognitive warfare line (Taiwan Affairs Office + United Front Work Department) different tactical deformations.
+
+Wang Hong-en wrote a sentence in Thought Tank that can serve as a footnote for this controversy: "'Wolf warrior diplomacy' is essentially part of internal propaganda." [^57] The true audience of the Taiwan Affairs Office April 29 press conference is not only Taiwan, but also China domestically—this "test of loyalty" press conference helps Beijing explain to its own people "how pathetic Taiwan is." The same press conference also covers peaceful unification, Lai Ching-te's visit to Africa, Amap App, Min Super sports events, every one is multi-front material.
+
+Shen Po-yang said another higher-level sentence: "Establishing the consciousness of enemy and self is absolutely the most important key to responding to war," "Condensing the Taiwanese community consciousness is the primary task" [^58]. Placing this sentence in the context of the poison potato controversy is like this—citizens worrying about sprouting potatoes is real, government governance has gaps is also real, the Taiwan Affairs Office narrative is indeed stepping on the scars. **The true countermeasure is not in the single-layer action of "rumor-busting," but in piecing these real things together letting readers see the shape themselves**. Seeing the shape itself is closer to community consciousness than believing any side's one-sided narrative.
 
 ---
 
-## Referencias
+## Further Reading
 
-[^1]: [Liberty Times: La Oficina de Asuntos de Taiwán de China dice que las "papas envenenadas" se sirven en la mesa taiwanesa; el Consejo de Asuntos del Continente responde: no hace falta dar lecciones](https://news.ltn.com.tw/news/politics/breakingnews/5420147) — Transcripción completa de las palabras originales del portavoz de la Oficina de Asuntos de Taiwán, Chen Binhua, el 29 de abril de 2026 (verificación cruzada con múltiples fuentes: Da Gong Wen Hui, Newtalk, ETtoday, todas coinciden textualmente).
+- [Cognitive Warfare](/society/認知作戰) — The overall framework of CCP information manipulation and Taiwan society's countermeasures
+- [2026 Cheng-Hsi Meeting and the Ten-Year Reunion of KMT-CCP](/society/2026鄭習會與國共十年再會) — Another inflection point in cross-strait relations during the same period
+- [Taiwan Strait Crisis and the Development of Cross-Strait Relations](/history/台海危機與兩岸關係發展) — The long-term historical context of the "test of loyalty" narrative
+- [Tsai Ing-wen](/people/蔡英文) — The decision-maker of the 2020-2021 ractopamine pork policy, the layer before the scars
+- [Lai Ching-te](/people/賴清德) — The presidential term when the ART Agreement was signed
+- [Think Tank](/society/想想論壇) — After Tsai Ing-wen's 2025 revamp, the flagship column "Annual China Observation Report" covers similar cognitive warfare issues
 
-[^2]: [Newtalk: ¿El "avance diplomático" de Lai Ching-te es rechazado? La Oficina de Asuntos de Taiwán vuelve a sacar el tema de las papas envenenadas](https://newtalk.tw/news/view/2026-04-29/1032379) — Análisis del uso histórico del marco de "carta de sumisión" en la misma conferencia de prensa.
+---
 
-[^3]: [SET News: El Consejo de Asuntos del Continente responde a la "papa envenenada" de la Oficina de Asuntos de Taiwán](https://www.setn.com/News.aspx?NewsID=1830056) — Declaración del Consejo de Asuntos del Continente del 29 de abril de 2026: "no hace falta dar lecciones".
+## References
 
-[^4]: [Newtalk: Consejo de Asuntos del Continente: El gobierno garantizará la salud de la población; la Oficina de Asuntos de Taiwán no necesita dar lecciones](https://newtalk.tw/news/view/2026-04-29/1032494) — Declaración completa del Consejo de Asuntos del Continente del 29 de abril de 2026 + descripción del mecanismo de doble verificación.
+[^1]: [Liberty Times Net: China's Taiwan Affairs Office Says 'Poison Potatoes' Served on Taiwanese Tables, CA Hammers: No Need to Speak Nonsense](https://news.ltn.com.tw/news/politics/breakingnews/5420147) — April 29, 2026 Taiwan Affairs Office spokesperson Chen Bin-hua original words complete transcription (multi-source comparison: Ta Kung Wen Wei, Newtalk, ETtoday verbatim consistent).
 
-[^5]: [PChome News: Cho Jung-tai: Si el Ejecutivo hiciera algo así, ¿cómo me atrevería a estar aquí?](https://news.pchome.com.tw/politics/nownews/20260424/index-77701498198329207001.html) — Discurso de Cho Jung-tai ante la Comisión de Salud del Legislativo el 23 de abril de 2026.
+[^2]: [Newtalk: Lai Ching-te 'Diplomatic Breakthrough' Rejected? Taiwan Affairs Office Again Talks Poison Potatoes](https://newtalk.tw/news/view/2026-04-29/1032379) — Same press conference "test of loyalty" framework historical usage analysis.
 
-[^6]: [Artículo educativo del Hospital Universitario de Medicina China de Taiwán: Papas brotadas y solanina](https://www.cmuh.cmu.edu.tw/HealthEdus/Detail?no=6244) — Estructura química de la solanina, aislamiento histórico, mecanismo toxicológico.
+[^3]: [SETN News: CA Responds to Taiwan Affairs Office 'Poison Potatoes'](https://www.setn.com/News.aspx?NewsID=1830056) — CA April 29, 2026 "no need to speak nonsense" wording.
 
-[^7]: [Informe de verificación de MyGoPen: ¿Se importan papas con solanina tóxica?](https://www.mygopen.com/2026/04/potato.html) — Verificación de la alineación del límite de 200 ppm con el CODEX + resumen de la posición del Ministerio de Salud y Bienestar.
+[^4]: [Newtalk: CA: Government Will Ensure People's Health, No Need for Taiwan Affairs Office to Speak Nonsense](https://newtalk.tw/news/view/2026-04-29/1032494) — CA April 29, 2026 complete statement + double-check mechanism description.
 
-[^8]: [EFSA: Evaluación de riesgos de glicoalcaloides en piensos y alimentos](https://www.efsa.europa.eu/en/news/glycoalkaloids-feed-food-particularly-potatoes) — Fuente original de la fijación del LOAEL en 1 mg/kg/día por la EFSA en agosto de 2020.
+[^5]: [PChome News: Chuo Rong-tai: If the Executive Yuan Does Such a Thing, How Dare I Stand Here](https://news.pchome.com.tw/politics/nownews/20260424/index-77701498198329207001.html) — Chuo Rong-tai April 23, 2026 Legislative Yuan Health Committee speech.
 
-[^9]: [CommonHealth Magazine: ¿Las papas brotadas son absolutamente incomestibles? Un médico analiza la dosis de intoxicación](https://www.commonhealth.com.tw/article/89765) — Cita del cálculo de la dosis letal de 3-6 mg/kg.
+[^6]: [China Medical University Hospital Health Education: Sprouting Potatoes and Solanine](https://www.cmuh.cmu.edu.tw/HealthEdus/Detail?no=6244) — Solanine chemical structure, historical isolation, toxicological mechanism.
 
-[^10]: [PotatoPerfil químico del CIPC y metabolito 3-cloroanilina](https://www.potatopro.com/news/2019/eu-bans-cipc-potato-sprout-suppressant-2020) — Estructura química del CIPC y descripción del metabolito.
+[^7]: [MyGoPen Fact Check Report: Opening Up Import of Solanine Poison Potatoes?](https://www.mygopen.com/2026/04/potato.html) — Verification of 200 ppm upper limit aligning with CODEX + MOHW stance summary.
 
-[^11]: [Spudman magazine: La UE prohíbe formalmente el CIPC a partir de enero de 2020](https://spudman.com/article/eu-formally-bans-cipc-potato-sprout-suppressant) — Secuencia temporal: Reglamento 989 de 2019, revocación de autorizaciones el 8 de enero de 2020, agotamiento de existencias el 8 de octubre de 2020.
+[^8]: [EFSA: Risk assessment of glycoalkaloids in feed and food](https://www.efsa.europa.eu/en/news/glycoalkaloids-feed-food-particularly-potatoes) — EU Food Safety Authority August 2020 LOAEL 1 mg/kg/day setting original text.
 
-[^12]: [FreshPlaza: Clasificación de la 3-cloroanilina y fundamento de la prohibición del CIPC](https://www.freshplaza.com/europe/article/9148736/cipc-eu-ban-2020/) — Clasificación carcinogénica de la 3-cloroanilina y razones de la prohibición en la UE.
+[^9]: [Common Health Magazine: Sprouting Potatoes Absolutely Cannot Be Eaten? Doctor Analyzes Toxic Dose](https://www.commonhealth.com.tw/article/89765) — Citing lethal dose 3-6 mg/kg calculation.
 
-[^13]: [Wayne Food Life: Tabla comparativa de límites de residuos de CIPC por país](https://wayne-food.com/article/cipc-residue-limit-comparison) — Compilación de límites de residuos de CIPC en Taiwán, EE. UU., Japón, la UE e internacionalmente.
+[^10]: [PotatoPro: CIPC chemical profile and metabolite 3-chloroaniline](https://www.potatopro.com/news/2019/eu-bans-cipc-potato-sprout-suppressant-2020) — CIPC chemical structure and metabolite description.
 
-[^14]: [foodNEXT: TFDA: El límite de solanina de 200 ppm está alineado con el estándar internacional CODEX](https://www.foodnext.net/news/article/paper/2026/0419/12345) — Resumen de la posición oficial de la TFDA.
+[^11]: [Spudman magazine: EU formally bans CIPC effective January 2020](https://spudman.com/article/eu-formally-bans-cipc-potato-sprout-suppressant) — 2019 Regulation 989, January 8, 2020 revocation of authorization, October 8, 2020 inventory clearing timeline.
 
-[^15]: [Agencia Central de Noticias: Proceso de firma del Acuerdo de Comercio Recíproco Taiwán-EE. UU. (ART)](https://www.cna.com.tw/news/aipl/202602130123.aspx) — Secuencia temporal completa: MOU el 1/16, anuncio el 1/21, período de preaviso reducido de 60 a 14 días, completado el 2/6, firmado el 2/13.
+[^12]: [FreshPlaza: 3-chloroaniline classification and CIPC ban rationale](https://www.freshplaza.com/europe/article/9148736/cipc-eu-ban-2020/) — 3-chloroaniline carcinogenicity classification and EU ban reasons.
 
-[^16]: [ETtoday: Cho Jung-tai responde en sesión de interpelación general del Legislativo sobre la relación entre ART y las papas](https://www.ettoday.net/news/20260428/3156769.htm) — Respuesta completa en la sesión de interpelación del 2
+[^13]: [Wayne Food Life: CIPC各国 Residue Limits Comparison Table](https://wayne-food.com/article/cipc-residue-limit-comparison) — International / Taiwan / US / Japan / EU CIPC residue limits summary.
+
+[^14]: [foodNEXT: FDA: Solanine Upper Limit 200 ppm Aligns with CODEX International Standards](https://www.foodnext.net/news/article/paper/2026/0419/12345) — FDA official stance summary.
+
+[^15]: [CNA: Taiwan-US Reciprocal Trade Agreement ART Signing Process](https://www.cna.com.tw/news/aipl/202602130123.aspx) — January 16 MOU, January 21 announcement, notice period shortened from 60 days to 14 days, February 6 completion, February 13 signing complete timeline.
+
+[^16]: [ETtoday News Cloud: Chuo Rong-tai Legislative Yuan General Inquiry Answers ART and Potato Relationship](https://www.ettoday.net/news/20260428/3156769.htm) — April 28, 2026 Legislative Yuan General Inquiry answers "unrelated to negotiation," "talked for a long time before" full text.
+
+[^17]: [ETtoday Same](https://www.ettoday.net/news/20260428/3156769.htm) — Chuo Rong-tai "not overnight" response to Niu Hsiu-ting inquiry.
+
+[^18]: [ETtoday Same](https://www.ettoday.net/news/20260428/3156769.htm) — Legislator Niu Hsiu-ting reveals ART text "future quarantine condition changes must be discussed by bilateral representatives" clause.
+
+[^19]: [ETToday Same](https://www.ettoday.net/news/20260428/3156769.htm) — Agriculture Minister Chen Jun-ji answers "continuously discussed with the US over the past two or three years, all standards have not been relaxed."
+
+[^20]: [MyGoPen Fact Check: MOHW Minister Shih Chung-liang April 15, 2026 Legislative Yuan Inquiry Pre-Interview](https://www.mygopen.com/2026/04/potato.html) — "Whole batch return," "send to processing sites for removal" original verbatim.
+
+[^21]: [Storm Media: Wang Shih-chieh Inquiry Reveals Only 2 Companies Have Solanine Inspection Certification](https://www.storm.mg/article/11124677) — April 15, 2026 Legislative Yuan inquiry full text.
+
+[^22]: [ETToday: Chen Ching-hui Reveals Border Inspection Manpower Established 105 Actually Employed 85](https://www.ettoday.net/news/20260423/3155678.htm) — April 23, 2026 Legislative Yuan inquiry expose.
+
+[^23]: [Storm Media: Wu Tien-jung Column: Arithmetic Behind Government Unlocking Double Locks](https://www.storm.mg/article/11123997) — Citing KMT legislator Luo Ting-wei on "inspect every single potato" physical time arithmetic expose.
+
+[^24]: [Storm Media: Wu Tien-jung Column Same](https://www.storm.mg/article/11123997) — "Government actively abandons border quarantine power to block sprouting potatoes" criticism.
+
+[^25]: [PTS News Network: FDA Food Group Director Hsu Chao-kai Explains Border Quarantine Procedures](https://news.pts.org.tw/article/804245) — "Discard whole potato" original verbatim.
+
+[^26]: [Wikipedia: 2011 Melamine Incident](https://zh.wikipedia.org/zh-tw/2011年中華民國塑化劑事件) — DEHP cloud agent substitution + 217 manufacturers involved + Department of Health FDA discovery process.
+
+[^27]: [Wikipedia: Swill Oil](https://zh.wikipedia.org/wiki/餿水油) — Ch'uan Kuan Enterprise + Ch'uan Kuan Fragrant Lard + Hong Kong Japan imported 759 tons non-edible lard + 200+ tons gutter oil downstream impact.
+
+[^28]: [Wikipedia: 2021 Taiwan Nationwide Referendum § Case 18 Anti-Ractopamine Pork](https://zh.wikipedia.org/zh-tw/2021年中華民國全國性公民投票) — Agreed 3,936,386 votes (48.79%) against Disagreed 4,131,371 votes (51.21%) official results.
+
+[^29]: [Liberty Times Net: IORG 2021 Public Opinion Manipulation Report](https://news.ltn.com.tw/news/politics/breakingnews/3758984) — 8 CCP cross-strait arguments 7 related to ractopamine pork.
+
+[^30]: [Storm Media: Shen Cheng-nan April YouTube Commentary on Poison Potato Controversy](https://www.storm.mg/article/11124839) — "Collective narcissism," "over-valuing health preservation," "no country is worried" original words.
+
+[^31]: [Epoch Times: Shen Po-yang Analyzes CCP Cross-Strait Cognitive Warfare Five Channels and Nine Fields](https://www.epochtimes.com/b5/23/6/20/n14019284.htm) — Shen Po-yang analysis framework of CCP information manipulation (National Security Bureau, United Front Work Department, Taiwan Affairs Office, PLA, Communist Youth League / Political, Military, Technology, Media, Academic, Social, Legal, Economic, Diplomatic).
+
+[^32]: [United Daily News: Military Procurement Act Negotiation Stalled Again, Green: Blue-White Use Supervision as Pretext, Actually Offering Test of Loyalty to Opposite Shore](https://udn.com/news/story/10930/9469244) — DPP caucus April 28, 2026, evidence of "test of loyalty" cross-party universal word.
+
+[^33]: [FDA Rumor-Busting Zone: Potatoes Sprouting are Toxic, Heard that as long as you cut out the sprouted eyes, other parts can still be eaten, is this true?](https://www.fda.gov.tw/TC/newsContent.aspx?cid=5049&id=19895) — Published May 17, 2016 / Maintained November 24, 2022, verbatim original "Once potatoes sprout, they should not be eaten; even if the sprouted eyes are cut out or heated, they will still contain solanine," "Not edible after cutting out the sprouted eyes; even high-temperature heating cannot remove the toxicity." Still hanging on the website today (April 30, 2026).
+
+[^34]: [PotatoPro: Not enough support for European ban on potato sprout inhibitor chlorpropham (CIPC)](https://www.potatopro.com/news/2019/not-enough-support-european-ban-potato-sprout-inhibitor-chlorpropham-cipc) — EU CIPC ban detailed timeline: 2015 start review, February 2019 SCoPAFF 16/28 countries favor stall at 65% population threshold, June 17, 2019 Appeal Committee decide not to renew, June 18, 2019/989 Regulation announced, January 8, 2020 revoke authorization, October 8, 2020 inventory clear.
+
+[^35]: [TVBS News: Chuo Rong-tai Commits 'Will Inspect Whole Container, Every Single One' Yang Hui-ru Hammers 'Why is it the Premier?'](https://news.tvbs.com.tw/politics/3186530) — April 24, 2026 Chuo Rong-tai original verbatim "Will inspect whole container, take every single potato out to inspect" + Yang Hui-ru Facebook backlash "Chuo Rong-tai this saying that potatoes must be inspected for sprouting one by one, why is it the Premier?" + Green camp internal dissatisfaction with "one by one" wording.
+
+[^36]: [Apple Daily News: Melamine Case Civil Second Instance Changed Judgment 18 Manufacturers Compensate 3.95 Million Finalized](https://www.appledaily.com.tw/property/20180803/) — Melamine case August 3, 2018 Supreme Court dismisses appeal finalized; Yushen responsible person Lai Chun-chieh 15 years, Jian Ling-yuan 12 years, Wang Fen 10 years; Chen Che-hsiung already dead, public prosecution not accepted; Consumer Foundation represents 561 consumers suing 37 manufacturers for 2.4 billion, finally 18 manufacturers joint liability compensation 3.95 million.
+
+[^37]: [Wikipedia: 2014 Swill Oil Incident § Judicial Judgment](https://zh.wikipedia.org/zh-tw/2014年餿水油事件) — Ch'uan Kuan Ye Wen-hsiang 22 years finalized (September 2017 Supreme Court) + Dai Chi-chuan 18 years; Ch'uan Kuan Enterprise fined 120 million then dissolved in 2017; Pingtung underground oil factory Guo Lie-cheng 20 years finalized (February 12, 2020 Supreme Court).
+
+[^38]: [Upstream and Downstream News Market: Ractopamine Pork Open 4 Years Import from 922 Metric Tons to 16,313 Metric Tons Consumer Foundation Tested 600 Items Only 2 Labeled US Pork](https://www.newsmarket.com.tw/blog/210736/) — MOHW FDA 2024 tested 23,327 market pork items, 489 items used US pork (2.1%); Consumer Foundation 600 food items only 2 labeled US pork ingredients; Ractopamine pork actual import volume annual growth trajectory.
+
+[^39]: [CTV "Must Watch Daily" YouTube Video: US Forced to Relax Sprouting Potato Import?! Doctor: Carcinogen High Temperature Cannot Remove!](https://www.youtube.com/watch?v=y2B7Q8F_yow) — Published April 17, 2026, 12 days earlier than Taiwan Affairs Office Chen Bin-hua April 29 "poison potatoes" wording, "US forced" two words framing aligns with Taiwan Affairs Office "flattering the US."
+
+[^40]: [ETToday: Taiwan Affairs Office April 29 Press Conference: Peaceful Unification, Lai Ching-te Visit to Africa, Poison Potatoes, Amap, Min Super Multi-Front](https://www.ettoday.net/news/20260429/3157275.htm) — Evidence of same press conference covering multiple issues (Chen Bin-hua same press conference talks peaceful unification, Lai Ching-te diplomatic failure, poison potatoes, Amap App restrictions, Min Super 51,000 audience), verifying framing is multi-front not single-point.
+
+[^41]: [Codex Alimentarius Pesticides Database](https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/en/) — Query glycoalkaloids / solanine result is null. Codex Alimentarius does not set food safety standards for solanine; the "200 ppm aligns with international standards" mentioned in the Executive Yuan's refutation is actually Canada + Nordic 1990s national legislation, later informally referenced by many countries.
+
+[^42]: [Health Canada: Proposal to Update the Maximum Levels for Glycoalkaloids in Potato Tubers (2021)](https://www.canada.ca/en/health-canada/services/food-nutrition/public-involvement-partnerships/proposal-update-maximum-levels-glycoalkaloids-potato-tubers.html) — Verbatim "Current 200 ppm TGA upper limit is jointly announced by the Department of Health and the Department of Agriculture from over thirty years ago." Health Canada admits 200 ppm is 1990s national legislation, attaches "minimising exposure" official guidance (Canadian Food Inspection Agency food storage suggestions).
+
+[^43]: [EFSA CONTAM Panel: Risk assessment of glycoalkaloids in feed and food, in particular in potatoes and potato‐derived products (2020)](https://doi.org/10.2903/j.efsa.2020.6222) — DOI 10.2903/j.efsa.2020.6222; EFSA Journal 18(8):e06222; Published August 11, 2020. LOAEL 1 mg TGA/kg bw/day; MOE ≥ 10 considered no health concern; **Children P95 exposure explicitly marked health concern** verbatim "The MOEs for the younger age groups indicate a health concern for the food consumption surveys with the highest mean exposure, as well as for the P95 exposure in all surveys".
+
+[^44]: [EFSA: Conclusion on the peer review of the pesticide risk assessment of the active substance chlorpropham (2017)](https://doi.org/10.2903/j.efsa.2017.4903) — DOI 10.2903/j.efsa.2017.4903; EFSA Journal 15(7):e04903; Published July 26, 2017. Dutch children chronic chlorpropham exposure reached ADI 180% / 3-chloroaniline reached ADI 195% / acute chlorpropham reached ARfD 797% / acute 3-chloroaniline reached ARfD 2360%. Verbatim "A final consumer risk assessment through dietary intake cannot be performed due to several data gaps and uncertainties identified for the food crop uses" + "Experts could not exclude an endocrine-mediated mode of action for Leydig cell and thyroid effects". EU 2019/989 Regulation legal basis.
+
+[^45]: [IARC Monograph Volume 57 (1993): para-Chloroaniline](https://inchem.org/documents/iarc/vol57/16-chan.html) — IARC evaluated 4-chloroaniline as Group 2B "possibly carcinogenic to humans," animal experiments have sufficient evidence (male and female mouse hemangiosarcoma, male mouse liver adenoma/carcinoma, male rat spleen sarcoma). **3-chloroaniline isomer IARC did not individually assess or classify**. Media often confuses the two as "3-chloroaniline IARC 2B" is an inaccurate transcription; accurate statement: 3-chloroaniline is a metabolite identified by EFSA as having significant dietary exposure risks and endocrine disruption concerns, IARC did not directly classify.
+
+[^46]: [USDA FAS: EU MRL for chlorpropham reduced to default 0.01 ppm post-2020 ban](https://www.fas.usda.gov/data/european-union-pesticide-mrl-changes) — EU 2019/989 Regulation after default MRL 0.01 ppm; 2020-2024 tMRL (temporary MRL) gradually lowered; US CIPC treated potatoes (highest residue 24 ppm) far exceed 0.01 ppm limit; USDA FAS data shows US fresh ware potato exports to EU near zero after 2020.
+
+[^47]: [Japan Ministry of Agriculture, Forestry and Fisheries MAFF: Plant Quarantine Implementation细则 No. 194 United States Produced Potato Fresh Tubers](https://www.maff.go.jp/pps/j/law/houki/saisoku/saisoku_194_html_194.html) — Japan's US potato import quarantine细则 verbatim: "Inspect more than 1% of the export container unit, pay special attention to damage, deformities, etc., cut open to inspect when appropriate, confirm no quarantine harmful animals and plants (especially nematodes)". Designated 16 US states chipping potato access; does not allow table stock. Hu Chung-i April 22 "Japan does not inspect sprouting at all" claim partially true but only said half—Japan handles it with "variety and use limitation," not "not inspecting so can."
+
+[^48]: [Capital Press: States outside the Pacific Northwest get access to South Korean potato market (2026-02-02)](https://capitalpress.com/2026/02/02/states-outside-the-pacific-northwest-get-access-to-south-korean-potato-market/) — Verbatim "Requirements include the use of certified seed from approved seed states ... use of sprout suppressant Chloropropham (CIPC) per defined specifications, and registration of packing sheds". South Korea January 23, 2026 expands US potato access to 11 states, but **mandatory use of CIPC** + packing shed registration + zebra chip bacterial disease inspection + psyllid monitoring. Subverts the linear imagination that "South Korea is stricter than Taiwan so bans CIPC"—South Korea's strictness is standardization requirements, not banning.
+
+[^49]: [FDA: Acrylamide and Diet, Food Storage, and Food Preparation](https://www.fda.gov/food/process-contaminants-food/acrylamide-and-diet-food-storage-and-food-preparation) — US FDA official guidance verbatim "potatoes should be used that are as fresh as possible, have no green spots or sprouts, and are stored above 6 °C (not in the refrigerator)" (Chinese translation: Should use the freshest, no green spots or sprouted, stored above 6°C not in refrigerator potatoes). Directly refutes Shen Cheng-nan "no country is worried" claim official iron evidence.
+
+[^50]: [Commission Regulation (EU) 2017/2158: establishing mitigation measures and benchmark levels for the reduction of the presence of acrylamide in food](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32017R2158) — EU 2017 acrylamide regulation Annex II mandates food operators "long-term stored potatoes must inhibit sprouting" (sprouting shall be suppressed in long term stored potatoes). Legal mandatory, not suggestion.
+
+[^51]: [JECFA 1992 (38th meeting) Monograph 764: Solanine and chaconine](https://www.inchem.org/documents/jecfa/jecmono/v30je19.htm) — WHO Food Additives Series 30 verbatim "the available epidemiological and experimental data from human and laboratory animal studies did not permit the determination of a safe level of intake" + "Human poisonings were documented at estimated doses of 1.2-5.1 mg/kg body weight". JECFA **did not establish ADI** is the official stance of the international scientific committee on solanine.
+
+[^52]: [The News Lens: Shen Po-yang Interview — New Form of China's Public Opinion Warfare Against Taiwan](https://www.thenewslens.com/article/197469) — Shen Po-yang 2023 interview verbatim "China's public opinion warfare against Taiwan, 80% has nothing to do with 'true or false,' instead mostly the aforementioned 'narrative attacks,' that is, fabricating a perspective." This article's "target is real" core point academic anchor.
+
+[^53]: [Wikipedia: Shen Po-yang](https://zh.wikipedia.org/zh-tw/%E6%B2%88%E4%BC%AF%E6%B4%8B) — Shen Po-yang research framework summary: CCP information warfare five lines (National Security Bureau, Central United Front Work Department, Central Taiwan Affairs Office, PLA, Communist Youth League). Originates from Taiwan Democracy Lab research project.
+
+[^54]: [United Daily News Langlang Reading: Shen Po-yang — Influencers, Neighborhood Chiefs Also Penetrated?](https://reading.udn.com/read/story/123401/7314004) — Shen Po-yang December 2023 verbatim "For a cognitive warfare to produce effect in Taiwan, online and offline must both do... the 'confirmation bias' caused by top and bottom pincer attack is something that later cannot be stopped at all." Corresponds to media spokesperson spread chain section.
+
+[^55]: [Xinhua Net: Chongqing Public Security Bureau Files Investigation Against Shen Po-yang](http://www.news.cn/20251028/c50bf44d994d4ac99af0b6be8f264223/c.html) — Chongqing Public Security Bureau October 28, 2025 police situation bulletin verbatim "To resolutely strike Shen Po-yang for engaging in splitting the country criminal activities by initiating, establishing the 'Taiwan independence' splitting organization 'Black Bear Academy', the bureau decides to file investigation against Shen Po-yang for suspected splitting the country crime, investigate criminal responsibility according to law." CCP judicial means cognitive warfare specific case (Central News Agency October 28, 2025 cna.com.tw/news/aipl/202510280086.aspx simultaneous report).
+
+[^56]: [CNA: Shen Po-yang Facebook Response to Chongqing Police Filing — Solving the Person Who Raises the Problem](https://www.cna.com.tw/news/aipl/202510280086.aspx) — Shen Po-yang October 28, 2025 Facebook verbatim "Solving the person who raises the problem, solving the person who defends Taiwan, indeed very Communist," "Doesn't matter, anyway Taiwanese people are not afraid," "This is the 6th action against me within a year, this time directly filed by police for investigation, next step probably arrest, trial in absentia".
+
+[^57]: [Wang Hong-en: Grand External Propaganda or Stability Maintenance Means? The Public Opinion Logic of China's 'Wolf Warrior Diplomacy' (Thought Tank / Mingren Hall)](https://opinion.udn.com/opinion/story/12705/5260537) — UNLV Political Science Assistant Professor Wang Hong-en verbatim "'Wolf warrior diplomacy' is essentially part of internal propaganda." Taiwan Affairs Office press conference internal propaganda logic analogy academic anchor.
+
+[^58]: [The News Lens: Shen Po-yang Interview Same](https://www.thenewslens.com/article/197469) — Shen Po-yang verbatim "Establishing the consciousness of enemy and self is absolutely the most important key to responding to war," "Condensing the Taiwanese community consciousness is the primary task." Corresponds to ending section "true countermeasure" narrative.
+
+---
+
+## Image Sources
+
+- **Hero**: [Children gathering potatoes on a large farm, vicinity of Caribou, Aroostook County, Me. Schools do not open until the potatoes are harvested](https://commons.wikimedia.org/wiki/File:Children_gathering_potatoes_on_a_large_farm,_vicinity_of_Caribou,_Aroostook_County,_Me._Schools_do_not_open_until_the_potatoes_are_harvested_LCCN2017877412.jpg) — US Farm Security Administration/Office of War Information / 1940 / Public Domain (PD-USGov, NARA / Library of Congress FSA-OWI Collection)
+- **Inline §200 ppm Section**: [Solanine.svg](https://commons.wikimedia.org/wiki/File:Solanine.svg) — Public Domain (simple structural formula, ineligible for copyright; via Wikimedia Commons)

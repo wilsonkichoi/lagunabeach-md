@@ -16,7 +16,7 @@
 set -euo pipefail
 
 LANG_CODE="${1:-ja}"
-MODEL="${2:-tencent/hy3-preview:free}"
+MODEL="${2:-openai/gpt-oss-120b:free}"
 
 REPO="$(cd "$(dirname "$0")/../../.." && pwd)"
 TASK_DIR="$REPO/.lang-sync-tasks/$LANG_CODE"

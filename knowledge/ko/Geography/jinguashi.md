@@ -1,185 +1,196 @@
 ---
-title: '금과석: 갱도 속으로 끌려 들어간 천 명의 영국군 포로, 그리고 아직 깨끗이 씻기지 못한 금의 산'
-description: '1942년부터 1945년까지 천 명 이상의 영연방 연합군 포로가 금과석「철비재료(凸鼻仔寮)」에 갇혀 구리를 채굴했다. 1997년 11월 23일, 생존자들이 현지로 돌아와 직접 기념비를 세웠다. 금으로 유명한 이 산마을에서 가장 기억해야 할 것은 금이 아니라, 오늘날까지 토양 중금속 농도가 기준치를 초과하는 폐연도(廢煙道)다.'
+title: "Keelungshi: The 1,000 British Soldiers Hauled into the Tunnels to Mine Copper, and a Golden Mountain That Hasn't Been Washed Clean Yet"
+description: "Between 1942 and 1945, over 1,000 British Commonwealth prisoners of war were imprisoned in Keelungshi's 'Tunabi Liao' to mine copper; on November 23, 1997, survivors returned to the original site to personally erect a memorial monument. This mountain town, famous for its gold mines, should be remembered not for gold, but for that waste smokestack whose soil remains超标 (exceeds standards) to this day."
 date: 2026-05-04
-author: 'Taiwan.md'
-category: 'Geography'
-subcategory: '東北角・礦業聚落'
 tags:
   [
-    '금과석',
-    '서방(瑞芳)',
-    '황금박물관',
-    '십삼층유적',
-    '금과석전쟁포로수용소',
-    '연합군포로',
-    '다나카조베에(田中長兵衛)',
-    '일제강점기',
-    '음양해(陰陽海)',
-    '무언산구(無言的山丘)',
+    'Keelungshi',
+    'Ruifang',
+    'Gold Museum',
+    'Thirteen-Storey Ruins',
+    'Keelungshi POW Camp',
+    'Allied POWs',
+    'Nakata Chobei',
+    'Japanese Colonial Period',
+    'Yin-Yang Sea',
+    'Silent Hills',
   ]
+subcategory: 'Northeast Coast · Mining Settlements'
+author: 'Taiwan.md'
+category: 'Geography'
+readingTime: 12
 lastVerified: 2026-05-04
 lastHumanReview: true
-featured: false
-translatedFrom: 'Geography/金瓜石.md'
+translatedFrom: 'Geography/Keelungshi.md'
 sourceCommitSha: 'f187773fe'
-sourceContentHash: 'sha256:d506ddde43d15d15'
-sourceBodyHash: 'sha256:bbf94bacf1d03bd7'
-translatedAt: '2026-05-18T05:08:08+08:00'
+sourceContentHash: 'sha256:e320d5faba1545ca'
+translatedAt: '2026-06-09T03:54:26+08:00'
 ---
 
-> **30초 개요:** 대부분의 사람들이 금과석을 찾는 이유는 황금박물관에 전시된 220킬로그램의 거대한 금괴이거나, 2019년에 처음 밝혀진 십삼층유적의 주황색 조명 때문이다[^1] [^2]. 그러나 이 산의 진짜 이야기는 금이 아니다. 1942년부터 1945년까지 일본군은 천 명 이상의 영연방 중심 연합군 포로를 이곳의 구리 갱도에 밀어 넣었다. 그들은 이곳을「킨카세키(Kinkaseki)」라 불렀고, 대만인들은「철비재료(凸鼻仔寮)」라 불렀다[^3] [^4]. 1997년 11월 23일, 캐나다인 마이클 허스트(Michael Hurst, 何麥克)와 150여 명의 생존자 및 유족이 현지에 기념비를 세웠다[^3]. 오늘날 관광객들이 인증샷을 찍으며 밟고 서 있는 폐연도 아래 토양은 아연과 중금속 수치가 여전히 기준치를 수 배 초과한다[^5] [^6].
+> **30-Second Overview:** Most people visit Keelungshi for the 220-kilogram gold brick at the Gold Museum, or for the orange-yellow light that was only lit in 2019 at the Thirteen-Storey Ruins at night[^1] [^2]. But the true story of this mountain is not in the gold—between 1942 and 1945, the Japanese military forced over 1,000 Allied POWs, primarily from the British Commonwealth, into the copper mines here. They called this place "Kinkaseki," while Taiwanese called it "Tunabi Liao" (Convex Nose Village)[^3] [^4]. On November 23, 1997, Canadian Michael Hurst and 150 survivors and family members erected a memorial monument at the original site[^3]. Today, when tourists step on the abandoned smokestack for photos, the soil beneath their feet still contains arsenic and heavy metals several times over the standard[^5] [^6].
 
-## 1890년의 사금과 1893년의「금과(金瓜)」
+## The Sand Gold of 1890 and the "Gold Melon" of 1893
 
-1890년, 류밍추안(劉銘傳)의 종관철도 공사 인부들이 기룽(基隆) 치두(七堵)의 지롱강(基隆河)에서 다리 건설 중 사금을 발견했다[^7]. 사금 채취꾼들이 물을 거슬러 올라가 1893년, 차오저우(潮州) 출신의 이(李)씨 농민이 구분(九份) 산지에서「소금과(小金瓜)」금맥 노두를 발견했고, 인근에서「대금과(大金瓜)」도 찾았다. 산봉우리가 대만어(臺語)로「금과(南瓜, 호박)」와 닮았다 하여 이 지명이 탄생했다[^7].
+In 1890, workers building a bridge over the Keelung River in Qidu, Keelung, on the纵贯 (vertical) railway of Liu Mingchuan's project, scooped up sand gold[^7]. Gold prospectors followed the river upstream. In 1893, a Chaozhou-surnamed farmer discovered a gold vein outcrop of "Little Gold Melon" in the Jiufen mountain area, and nearby found "Big Gold Melon"—because the mountain peak resembled a "gold melon" (pumpkin) in Hokkien, this place name was born[^7].
 
-1895년 대만이 일본에 할양되었다. 1896년 대만 총독부는「대만 광업규칙」을 공포하여 일본 본토인만이 채굴할 수 있도록 규정함으로써 본섬 주민의 채굴권을 완전히 박탈했다[^7]. 같은 해 10월, 총독부는 기룽산(基隆山)의 남북 능선을 경계로 광구를 이등분했다. 동쪽 금과석은 다나카조베에(田中長兵衛)의「다나카구미(田中組)」에, 서쪽 서방(구분)은 후지타덴사부로(藤田傳三郎)의「후지타구미(藤田組)」에 할당했다[^7] [^8]. 하나의 능선이 두 마을의 향후 백 년 운명을 결정했다.
+In 1895, Taiwan was ceded to Japan. In 1896, the Governor-General's Office issued the "Taiwan Mining Regulations," stipulating that only people from mainland Japan could mine, stripping the mining rights of the local population entirely[^7]. In October of the same year, the Governor-General's Office cut the mining area in half along the north-south ridge lines of Mount Keelung: the eastern Keelungshi was given to Nakata Chobei's "Nakata Group," and the western Ruifang (Jiufen) was given to Fujita Denzaburo's "Fujita Group"[^7] [^8]. A single ridge line determined the fate of the two settlements for the next century.
 
-다나카구미는 일본에서 가마이시(釜石) 동산의 광업 기술 전반을 들여왔고, 1904년 본산(本山) 3호 갱도에서 티오아르센동광(硫砷銅礦)을 발견하면서 금과석은 금은 광산에서「금·은·구리」광산으로 전환했다[^7]. 1925년 다나카구미가 경영 부진으로 고궁신타로(後宮信太郎)에게 매각했고, 고궁은「금과석광산주식회사」를 설립했다. 1931년 새로운 금맥이 발견되자 일본 언론은 그를「금산왕(金山王)」이라 불렀다[^9] [^10]. 1933년 다시 일본광업주식회사에 매각되었고, 산아래 수난동(水湳洞)에 당시 최신식 부유선광장이 건설되었다. 이것이 오늘날의 십삼층유적이다[^7].
+The Nakata Group brought the entire mining technology system from the Kamaishi Copper Mine in Japan. In 1904, they mined [Copper Arsenopyrite](https://zh.wikipedia.org/wiki/%E7%A1%AB%E7%A0%B7%E9%8A%85%E7%A4%A6) at Honzan Pit No. 3, transforming Keelungshi from a gold and silver mine into a "gold, silver, and copper" mine[^7]. In 1925, the Nakata Group, facing poor management, sold to Miyauchi Shintaro, who established the "Keelungshi Mining Co., Ltd." In 1931, a new gold vein was discovered, and he was hailed by the Japanese media as the "King of Gold Mountains"[^9] [^10]. In 1933, it was sold again to the Nihon Mining Co., Ltd., and a state-of-the-art flotation plant was built at Shuihandong below the mountain—today's [Thirteen-Storey Ruins](https://newtaipei.travel/zh-tw/attractions/detail/110923)[^7].
 
-📝 큐레이터 노트: 금과석은「현지인이 금을 캐서 부자가 되었다」는 이야기가 아니라「외국 자본이 외국 기술을 들여와 현지인의 채굴권을 불법으로 만들었다」는 이야기다. 1938년 금과석의 금 생산량은 7만 냥(兩)에 근접하여「아시아 최고의 귀금속 광산」이라 불렸다[^7] [^10]—그러나 금이 흘러간 방향은 도쿄였다.
+📝 Curator's Note: Keelungshi is not a story of "locals getting rich by mining gold," but of "foreign capital bringing foreign technology, turning locals' mining rights into illegal acts." In 1938, Keelungshi's gold production approached 70,000 taels,号称 (claimed) as the "Number One Precious Metal Mine in Asia"[^7] [^10]—but the direction of the gold flow was Tokyo.
 
-## 1942년의「킨카세키」: 영국군이 일본의 구리를 캐다
+## "Kinkaseki" in 1942: British Soldiers Mining Japan's Copper
 
-태평양 전쟁 발발 후, 금은 비국방 물자로 분류되면서 금과석은 구리 채굴 위주로 전환할 수밖에 없었다[^7]. 1942년부터 1945년까지 일본군은 이곳에「금과석 미영 포로 노역소」를 설치했다. 대만어로는「철비재료(凸鼻仔寮)」라 불렀다[^7] [^4].「미영(米英)」은 일본어로「미국과 영국」을 가리키는 말이다.
+After the outbreak of the Pacific War, gold was deemed a non-defense material, and Keelungshi was forced to shift primarily to copper mining[^7]. Between 1942 and 1945, the Japanese military established the "Keelungshi American-British Captive Labor Camp" here—known in Hokkien as "Tunabi Liao" (Convex Nose Village)[^7] [^4]. "Mi-Ying" (American-British) is the Japanese term for "American-British."
 
-수용된 것은 영연방(영국, 캐나다, 호주, 뉴질랜드, 남아프리카 공화국) 회원국을 중심으로 한 천여 명의 연합군 포로였다[^7] [^4]. 그들 대부분은 1942년 싱가포르 함락 때 포로로 잡혀 싱가포르 창이(樟宜)를 거해 해상으로 기룽(基隆)까지 이송된 뒤, 산길을 따라 금과석까지 끌려 왔다[^3] [^4].
+Over a thousand Allied POWs, primarily members of the British Commonwealth (United Kingdom, Canada, Australia, New Zealand, South Africa), were imprisoned here[^7] [^4]. Most were captured when Singapore fell in 1942, transported by sea from Changi Prison in Singapore to Keelung, and then marched up the mountain roads to Keelungshi[^3] [^4].
 
-포로들의 노역은 본산의 구리 갱도에 들어가 광석을 채굴하는 것이었다. 갱도 내부는 온도가 높고 공기가 희박하며 광진(鑛塵)이 아연과 황으로 가득했다. 그들은 낡은 셔츠와 나막신을 착용하고 매일 정해진 구리 광석 할당량을 채우지 못하면 구타당했다[^4] [^11]. 한 생존자는 이곳을「헬 캠프(Hell Camp, 지옥 수용소)」라 표현했다[^11]. BBC 중문은 2015년 캐나다 연구자 마이클 허스트와의 인터뷰에서 금과석의 사망률이 태평양 전선 일본군 포로 수용소 중 최고 수준이었다고 전했다[^4].
+The POWs' labor work was mining in the copper mines of Honzan. The temperature inside the pit was high, the air thin, and the dust filled with arsenic and sulfur. They worked in tattered shirts and wooden clogs; if they failed to meet the daily copper quota, they were beaten[^4] [^11]. One survivor described it as a "Hell Camp"[^11]. In a 2015 interview with Canadian researcher [Michael Hurst](https://www.bbc.com/zhongwen/trad/china/2015/07/150707_wwii_taiwan_alliance_pow_history), BBC Chinese reported that he calculated the mortality rate in Keelungshi to be among the highest in the Pacific Theater Japanese POW camps[^4].
 
-1944년 하반기 미군이 제공권을 장악하면서 채굴 활동이 점차 중단되었고, 1945년 포로들은 일괄적으로 신뎬(新店)으로 이송되었다[^7]. 일본의 항복 후 살아남은 사람들은 기룽항에서 배를 타고 귀국했다. 그들은 이후 이 산의 이름을「금과석」이 아닌「킨카세키」로 기억했다[^3].
+In the second half of 1944, after the US military gained air superiority, mining activities gradually ceased. In 1945, the POWs were collectively moved to Xindian for detention[^7]. After Japan's surrender, the survivors took a boat home from Keelung Port—they forever remembered the name of this mountain as "Kinkaseki," not "Keelungshi"[^3].
 
-📝 큐레이터 노트: 금과석의 구리는 마지막으로 영국인들에 의해 채굴되었다. 이 사실은 대만의 관광 담론에서 거의 존재하지 않는다.
+📝 Curator's Note: The last batch of copper in Keelungshi was mined by the British. This story is almost non-existent in Taiwan's tourism narratives.
 
-## 1997년 11월 23일: 생존자가 직접 세운 그 비석
+## November 23, 1997: The Monument Erected by Survivors
 
-전후 50년간, 이 역사는 대만 쪽에서는 거의 공백 상태였다—현지인조차 거의 들어본 적이 없었다. 전환점은 1996년 말에 찾아왔다. 대만에 거주하던 캐나다인 마이클 허스트가 우연히 철비재료의 존재를 알게 된 후, 생존자 추적과 추모 사업을 시작했다[^3] [^11].
+Fifty years after the war, this history was nearly blank in Taiwan—even locals rarely heard of it. The turning point came at the end of 1996: Canadian Michael Hurst, living in Taiwan, accidentally learned of the existence of Tunabi Liao and began visiting survivors and launching a memorial project[^3] [^11].
 
-1997년 11월 23일, 150여 명의 생존 전쟁 포로, 유족, 캐나다·영국·뉴질랜드·호주 대표들이 원래의 포로 수용소 자리—오늘날 금과석「국제종전평화기념공원」—에 기념비를 제막했다[^3]. 비석에는 금과석 및 대만 전역의 기타 포로 수용소에 수용되었던 천여 명의 포로 이름이 새겨져 있다[^3] [^4].
+On November 23, 1997, over 150 surviving POWs, family members, and representatives from Canada, the UK, and New Zealand/Australia unveiled a memorial monument at the location of the former POW camp—today's Keelungshi "International War Commemoration Peace Memorial Park"[^3]. The monument bears the names of over a thousand POWs from Keelungshi and other POW camps across Taiwan[^3] [^4].
 
-허스트는 이후「대만 전쟁포로수용소기념협회(Taiwan POW Camps Memorial Society)」를 설립하여 매년 11월 생존자 및 유족을 이끌고 금과석을 재방문하여 추모 행사를 개최하고 있다[^11] [^12]. 타이베이 타임스가 2005년에 그를 인터뷰했을 때, 그는 이미 8년간 이 일을 해왔으며, 2025년 현재 이 작업은 약 30년간 이어지고 있다[^11] [^12].
+Michael Hurst later established the "Taiwan POW Camps Memorial Society," bringing survivors and family members back to Keelungshi every November for remembrance[^11] [^12]. In a 2005 interview with _Taipei Times_, he had already been doing this for eight years; by 2025, this work had continued for nearly 30 years[^11] [^12].
 
-> 「우리가 이 일을 하는 것은 일본인에 대한 원한 때문이 아니라, 고통받은 사람들이 잊히지 않았다는 것을 알리기 위해서입니다.」—마이클 허스트, 2005년[^11]
+> "We do this not out of hatred for the Japanese, but to let these suffering people know that they have not been forgotten." — Michael Hurst, 2005[^11]
 
-공원 안의 그 비석은 지금도 그대로 있다. 황금박물관에서 올라가 본산오갱(本山五坑) 방향 근처에 있다. 대부분의 관광객은 지나칠 때 멈추지 않는다.
+The monument in the park is still there. It is located just up from the Gold Museum, near the direction of Honzan Pit No. 5. Most tourists pass by without stopping.
 
-## 1992년의 그 영화: 왕동(王童)이 찍은 것은 금이 아니라 금에 삼켜진 사람들
+## The 1992 Film: Wang Tong Filmed Not Gold, But People Drowned by Gold
 
-「금과석은 금만이 아니다」라는 사실을 대만인들에게 처음으로 영화로 보여 준 것은 감독 왕동(王童)이다.
+The first time "Keelungshi is more than just gold" was shown to Taiwanese people was through the director [Wang Tong](https://zh.wikipedia.org/wiki/%E7%84%A1%E8%A8%80%E7%9A%84%E5%B1%B1%E4%B8%98).
 
-1992년 개봉한 영화「무언산구(無言的山丘)」는 일제강점기 금과석을 배경으로, 오진진(吳念真) 각본, 팽차차(澎恰恰)·양귀미(楊貴媚) 주연으로, 두 소작농 형제 아주(阿助)와 아만(阿屘)이 장기 고용 계약을 탈출하여 금과석에 가서 금을 캐다가 결국 갱도, 일본 자본, 그리고 자신의 꿈에 삼켜지는 이야기를 그렸다[^13] [^14]. 같은 해 금마장(金馬獎) 최우수 작품상, 감독상, 각본상, 미술상을 수상했다[^14].
+The 1992 film _[Silent Hills](https://app2.atmovies.com.tw/film/fjcmb5052503/)_ is set in Japanese-colonial Keelungshi. Screenwritten by Wu Nianzhen and starring Peng Qiaqia and Yang Kuimei, it tells the story of two tenant farmer brothers, A-Zhu and A-Lai, who escape their indentured labor contracts, go to Keelungshi to mine gold, and are ultimately swallowed by the mine pits, Japanese capital, and their own dreams[^13] [^14]. It won the Golden Horse Awards for Best Narrative Feature, Best Director, Best Original Screenplay, and Best Art Direction that year[^14].
 
-영화에는 영웅이 없다. 광부, 과부, 유곽 여성, 일본인 현장 감독, 전염병에 쓰러진 아이—모두가 이 산의 금에 대한 욕망에 짓밟힌다[^14]. 이것은 12년 후인 2004년 황금박물관의 개관 담론보다 훨씬 앞선 것이었다—박물관이 제시한 것은「황금 시대」와「광업 마을 보존」이었지만[^15] [^16], 왕동이 1992년에 보여 준 것은 이미「무언(無言)」이었다.
+The film has no heroes. Miners, widows, hostesses, Japanese foremen, children felled by plague—all are run over by the mountain's desire for gold[^14]. This is much earlier than the 2004 opening narrative of the [Gold Museum](https://www.gep.ntpc.gov.tw/), which offered "Golden Years" and "Mining Settlement Preservation"[^15] [^16]; Wang Tong's 1992 offering was already "Silent."
 
-📝 큐레이터 노트: 금과석에는 두 가지 서사가 충돌하고 있다. 하나는 박물관과 관광국의「금 캐기 성공 스토리」이고, 다른 하나는 왕동과 허스트가 보여 준「이 산이 얼마나 많은 사람을 삼켰는가」다. 전자는 입장권을 팔고, 후자는 사실에 더 가깝다.
+📝 Curator's Note: Two narratives are fighting in Keelungshi. One is the "Gold Rush Dream" of the museum and tourism bureau; the other is Wang Tong and Michael Hurst's "How many people did this mountain swallow?" The former sells tickets; the latter is closer to the truth.
 
-## 2019년의 그 불빛: 십삼층유적을 밝혀도 토양 속 아연은 밝히지 못한다
+## The 2019 Light: Illuminating the Thirteen-Storey Ruins, Not the Arsenic in the Soil
 
-1987년, 대만금속광업주식회사(台金公司)가 국제 구리 가격 폭락과 은행 대출 상환 불능으로 영업을 중단하면서 금과석의 백 년 금 생산 시대가 공식적으로 끝났다. 토지는 대당(台糖)이 인수했고, 산아래 수난동 제련소는 대전(台電)에 넘겨졌다[^7]. 이후 금과석 인구는 전성기 수만 명에서 2천 명 미만으로 급감했으며, 대부분이 노인이다[^7].
+In 1987, [Formosa Metals Mining Corporation](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E9%87%91%E5%B1%AC%E9%91%9B%E6%A5%AD) (Formosa Metals) declared bankruptcy due to the collapse of international copper prices and an inability to repay bank loans, ending Keelungshi's century-long gold production era. The land was taken over by Formosa Sugar Corporation, and the Shuihandong copper smelter below the mountain was handed over to Taipower[^7]. From then on, Keelungshi's population plummeted from tens of thousands at its peak to less than 2,000, mostly elderly[^7].
 
-2019년 추석, 대전은 자유의 여신상과 뉴욕 엠파이어 스테이트 빌딩의 조명 마스터 저우롄(周鍊)을 초빙하여, 가동 중지 32년 된 수난동 십삼층유적을 250개의 LED 조명으로 밝혔다[^17] [^2]. 그날 이후 관광객들은 음양해(陰陽海) 가에 삼각대를 세워 13층 폐허를 찍었고, 인스타그램의「수금구(水金九)」 성지에 대규모 인파가 몰렸다[^2].
+In 2019, during the Mid-Autumn Festival, Taipower hired lighting master Chow Lien, who lit up the Statue of Liberty and the New York Empire State Building, to illuminate the [Shuihandong Thirteen-Storey Ruins](https://newtaipei.travel/zh-tw/attractions/detail/110923) with 250 LED lights after 32 years of shutdown[^17] [^2]. From that day on, tourists set up tripods by the Yin-Yang Sea to photograph the 13-story ruins, and the "Shui-Jin-Jiu" secret spots flooded with large crowds on Instagram[^2].
 
-그러나 같은 해 2019년 8월 19일, 서방(瑞芳) 현지 주민들이 대전에 항의하러 갔다. 십삼층유적 부지가 환경부가 고시한「토양오염통제장소」로 지정되어 있었기 때문이다. 초기 구리 제련 과정에서 다량의 아연·구리·납·아연이 잔류했고, 산등성이를 따라 뻗어 있는 폐연도의 중금속 오염은 오랫동안 해소되지 않았다[^5] [^18]. 대전은「차단 조치를 설치하고 지속적으로 모니터링 중」이라고 답변했으나, 해당 부지가 환경보호청의 오염 관리 대상으로 고시된 사실은 인정했다[^18]. 연합보(聯合報)의 2020년 심층 조사 보도에 따르면, 그 폐연도는 현재 인기 명소이지만 1930년대에 금속 증기를 배출하기 위해 설계된 시설 자체이며, 토양의 아연 함량은 수십 년간 자연 분해만으로는 기준치 이하로 떨어지지 않는다[^5] [^6].
+But in August 19, 2019, local residents of Ruifang went to protest against Taipower: the land of the Thirteen-Storey Ruins is a declared "Soil Pollution Control Site." Due to early copper smelting, it left behind large amounts of arsenic, copper, lead, and zinc. The abandoned smokestack extending along the ridge next to the ruins has had heavy metal pollution uncleaned for years[^5] [^18]. Taipower responded that "isolation measures are in place and continuous monitoring is ongoing," but admitted the site was indeed declared a pollution control site by the Environmental Protection Bureau[^18]. A 2020 investigative report by _United Daily News_ pointed out: that abandoned smokestack is now a popular check-in spot, but it itself is a facility designed in the 1930s to emit metal vapors, and the soil arsenic content has been unable to degrade naturally for decades[^5] [^6].
 
-기룽산을 황금빛으로, 산아래 만을 황갈색으로 물들이는「음양해(陰陽海)」는 일부가 기룽 화산군 암석 자체에 풍부한 황철석 산화의 자연 작용에 기인하며, 일부는 상류 광산 폐수에 기인한다[^7] [^17]. 그것은 지형이자 동시에 산업의 상처다.
+The "Yin-Yang Sea" (which turned the Keelung Mountain golden and the bay below yellow-brown) is partly due to the natural oxidation of pyrite-rich rocks in the Keelung Volcanic Group, and partly due to upstream mine wastewater[^7] [^17]. It is a landscape, and also an industrial wound.
 
-📝 큐레이터 노트: 조명을 밝힌 대전과 토양 오염을 관리하는 대전은 같은 대전이다. 금과석의「아름다움」과「독」은 같은 사건의 양면이며, 분리할 수 없다.
+📝 Curator's Note: The Taipower that lit the lights and the Taipower that manages soil pollution are the same Taipower. Keelungshi's "beauty" and "toxicity" are two sides of the same coin, inseparable.
 
-## 해수면 아래 160미터: 광부의 도시락과 규폐증
+## 160 Meters Below Sea Level: Miners' Bento Boxes and Silicosis
 
-관광 담론에 가장 철저히 삼켜진 것은 광부 자신이다.
+What has been most thoroughly eaten up by tourism narratives is the miners themselves.
 
-금과석 본산 9호 갱도는 해수면 아래 160미터까지 파고 내려갔다[^21]. 갱도 내부는 온도가 높고 습도가 크며 산소가 부족했다. 광부들의 도시락은「밥 세 절기, 절인 오이, 젖은 계란」으로 고정되어 있었는데, 다른 반찬은 갱도 안에 넣으면 상했기 때문이다[^21]. 갱도 안에는 금기가 있었다: 호루라기를 불지 말 것, 뱀 이야기를 꺼내지 것—이러한 금기는 미신이 아니라 높은 사망률의 작업 현장에서 언어를 통해 설정한 안전 장치였다[^21].
+Going down from Honzan Pit No. 9 in Keelungshi, the deepest mine pit extends 160 meters below sea level[^21]. The temperature inside the pit was high, humidity large, and oxygen low. The miners' bento boxes were fixed as "three bowls of white rice, pickled melon, salted egg," because other dishes would spoil in the pit[^21]. There were taboos in the tunnels: no whistling, no mentioning snakes—these taboos were not superstition, but safety valves set by language in a high-mortality labor site[^21].
 
-가장 높은 임금을 받는 직종은「풍착공(風鑽工)」이었는데, 진동 드릴을 조작하여 암반에 구멍을 뚫는 작업이었기 때문이다—동시에 가장 많은 광진을 흡입하게 되며, 대부분의 사람들이 결국 규폐증(矽肺病, silicosis)으로 사망했다[^21]. 광부들은 폐를 바꾸어 금을 얻었다. 일제강점기 다나카구미와 전후 대만금속광업주식회사는 모두 금과석에 직원 병원을 운영했다(현재의 금과석병원 舊址). 이는 복지이자 동시에 사업의 필수 요건이었다—이 마을은 외상, 산소 부족, 만성 진폐를 동시에 감당해야 했다[^22].
+The highest-paid job was "pneumatic drill operator," because they operated vibrating drills to drill holes in rock faces—thus inhaling the most mine dust. Most died from [silicosis](https://www.fmtaiwan.com.tw/blog/gold-museum-the-stories-that-you-should-know) (silicosis)[^21]. Miners traded their lungs for gold. During the Japanese colonial period, the Nakata Group and post-war Formosa Metals both established employee hospitals in Keelungshi (today's [Former Site of Keelungshi Hospital](https://www.gep.ntpc.gov.tw/xmdoc/cont?xsmsid=0G246378033877603476)), which were both a welfare benefit and a business necessity—this settlement had to deal with trauma, hypoxia, and chronic pneumoconiosis simultaneously[^22].
 
-VERSE 잡지가 2024년 서방을 방문했을 때, 현지 어르들은 본산 금과 노두의 원래 해발고도가 660미터였으나, 청나라 시대부터 대만금속광업주식회사까지 백여 년간의 노발식 채굴과 노천 굴착으로 산 전체가 200미터 이상 깎여 나갔으며, 현재 서 있는「황금박물관」은 사실 원래의 산허리 위에 있다고 증언했다[^23]. 광산은 관광에 의해 평탄해진 것이 아니라, 스스로 파서 평탄해진 것이다.
+A 2024 _VERSE_ magazine visit to Ruifang quoted local elders describing: the original elevation of the Honzan Keelungshi outcrop was 660 meters. Due to nearly a century of open-pit blasting from the Qing dynasty to Formosa Metals, the entire mountain was shaved down by over 200 meters. The "Gold Museum" we stand on today is actually standing on what was originally the mountainside[^23]. The mine was not flattened by tourism, but by its own digging.
 
-📝 큐레이터 노트: 광부 문사관(文史館)은 호두(猴硐)에 있으며, 노광부 조조남(周朝南)은 매월 3,500위안의 노령 연금으로 루이산본광(瑞三本광) 탈의실을 빌려 역사를 보존하고 있다[^24]—이것이 대만 광부가 스스로의 역사를 기록하는 방식이다. 금과석 쪽의「황금박물관」에서 광부의 위치는 여전히 부족하다.
+📝 Curator's Note: The Miner History Museum is in Houlong. Old miner Zhou Nanchan rents the changing room of the Ruisan Main Mine with his monthly 3,500 NTD pension to preserve history[^24]—this is how Taiwanese miners write their own history. In Keelungshi's "Gold Museum," the position of miners is still scarce.
 
-## 1922년의 태자빈관: 일어나지 않은 시찰을 위해 지어진 집
+## The 1922 Crown Prince Guest House: A Building for an Inspection That Never Happened
 
-1922년, 다나카광업주식회사는 당시 일본 황태자 히로히토(裕仁, 이훇 쇼와 천황)가 금과석 광업을 시찰할 때 숙소로 사용할 목대로 호화로운 일식 서원조(書院造) 건물을 대규모 비용을 들여 지었다—그러나 히로히토는 끝내 오지 않았다[^25] [^26]. 이것이 현재 신베시(新北市) 시정 문화재로 지정된「태자빈관(太子賓館)」이다[^25] [^26].
+In 1922, Nakata Mining Co., Ltd. spent a large sum to build a luxurious Japanese-style study architecture. It was intended for the then-Crown Prince Hirohito (later the Showa Emperor) to stay when he came to inspect Keelungshi's mining operations—but Hirohito never came[^25] [^26]. This is now the "Crown Prince Guest House" designated as a New Taipei City Historic Site[^25] [^26].
 
-전후「제1접소(第一招待所)」로 개칭되어 대만금속광업주식회사가 인수했고, 1989년 대전에 이관된 뒤 1994년 보존 조치가 취해졌다[^26]. 이 건물은 현재 대만에서 가장 완전하게 보존되고 규모가 큰 일식 목조 가숙(行館) 중 하나다—그러나 이것이 대표하는 것은 1920년대 금과석의 금·구리 생산량이 이미 식민지 기업으로 하여금「황태자가 직접 와서 볼 가치가 있다」고 믿게 만든 전성기였다[^25] [^26].
+After the war, it was renamed "First Guest House" and taken over by Formosa Metals. In 1989, it was transferred to Taipower, and preserved in 1994[^26]. It is one of the most complete and largest Japanese-style wooden mansions in Taiwan today—but it represents the peak of the 1920s when Keelungshi's gold and copper production was sufficient for colonial enterprises to believe "the Crown Prince was worth a personal look"[^25] [^26].
 
-옆의「사연동(四連棟)」은 또 다른 이야기다. 1930년대 일본광업주식회사가 일본인 직원과 가족을 위해 지은 네 세대가 연결된 일식 가옥으로, 각 세대에 독립적인 현관, 거주실, 주방, 욕실, 화장실이 갖추어져 있다—같은 시기 현지 광부들이 살던 판자촌과 비교하면, 이것이 바로 식민 광업 마을 내부의 명확한 계층 경계였다[^27]. 전후 대만금속광업주식회사 직원 숙소로 개조되어 계속 사용되었다[^27].
+The nearby "Four-Connected Buildings" is another story: built in the 1930s by Nihon Mining Co., Ltd. as four connected Japanese-style dormitories for Japanese staff and their families, each with an independent entrance, living room, kitchen, bathroom, and toilet—compared to the wooden houses lived in by local miners at the same time, this was a clear class line within the colonial mining settlement[^27]. After the war, it was changed to Formosa Metals employee dormitories and continued to be used[^27].
 
-## 권제당(勸濟堂): 광부가 목숨을 관우에게 맡긴 그 사당
+## Quanjitang: The Temple Where Miners Entrusted Their Lives to Guan Yu
 
-청 광서(光緒) 연간(1896년 전후) 창립된 금과석권제당(金瓜石勸濟堂)은 관(關), 여(呂), 장(張), 왕(王) 사대은주(四大恩主)를 주신으로 모시며, 금과석 마을에서 가장 중요한 현지 신앙 중심지다[^28] [^29]. 1991년(민국 80년), 권제당 옥상에 25톤 중량, 35척(台尺) 높이의 순수 구리 관성제군(關聖帝君) 상이 주조되었으며, 산을 등지고 바다를 향한 이 상은 현재까지 북해안 최대의 야외 관우 상이다[^28] [^29].
+Founded around the Guangxu Era of the Qing Dynasty (around 1896), [Keelungshi Quanjitang](https://zh.wikipedia.org/wiki/%E9%87%91%E7%93%9C%E7%9F%B3%E5%8B%B8%E6%BF%9F%E5%A0%82) enshrines the Four Great Benefactors: Guan, Lu, Zhang, and Wang. It is the most important local faith center in the Keelungshi settlement[^28] [^29]. In 1991 (Republic of China Year 80), Quanjitang cast a pure copper [Guan Sheng Di Jun](https://zh.wikipedia.org/wiki/%E9%97%9C%E7%BE%BD) statue weighing 25 tons and standing 35 _tai chi_ high on the top floor, facing the mountain and the sea. It remains the largest outdoor Guan Yu statue on the North Coast to this day[^28] [^29].
 
-과학월간(科學月刊) 2021년 1월호의 조사에 따르면, 금과석 광업 마을은 독특한 민간 신앙 스펙트럼을 형성했다. 일본인들이 가져온 황금신사(黃金神社, 1897년)와 현지 한인(閩南漢人)들이 가져온 권제당 및 매년 음력 4월 행하는 마조(媽祖) 순례가 공존했다[^30]. 일본인이 떠난 뒤 신사는 잔해만 남았고, 권제당은 오늘날까지 제사를 이어가고 있다—이것은 신앙 자체의 우열 때문이 아니라, 사당은 현지인과 함께 살아남았고 신사는 그러지 못했기 때문이다[^30].
+An investigation in the January 2021 issue of _Scientific American_ pointed out: Keelungshi's mining settlement formed a unique folk faith spectrum—the [Golden Shrine](https://tcmb.culture.tw/zh-tw/detail?id=557903&indexCode=Culture_Event) brought by the Japanese (1897) coexisted with Quanjitang brought by local Minnan Han Chinese and the Mazu procession every April of the lunar calendar[^30]. After Japan left, only the shrine's remaining pillars remained, while Quanjitang continued to worship to this day—not because of the superiority or inferiority of the faith itself, but because the temple survived with the locals, while the shrine did not[^30].
 
-📝 큐레이터 노트: 광부가 갱도에 들어가기 전 관우에게 절하는 것은 문화적 의식이 아니라 리스크 관리다. 그처럼 높은 사망률의 작업 현장에서 목숨을 신에게 맡기는 것은 매우 실질적인 심리적 보험이다.
+📝 Curator's Note: Miners praying to Guan Yu before entering the pit was not a cultural ritual, but risk management. In a work site with such high mortality, entrusting one's life to the gods was a very practical psychological insurance.
 
-## 본산오갱(本山五坑) 입구에서 내려다보며
+## Standing at the Entrance of Honzan Pit No. 5 Looking Down
 
-오늘날 금과석에 가면 황금박물관에서 입장권을 구매하여 본산오갱 앞 70미터 체험 구간에 들어가 1972년 채굴 중단 후 남은 광차 궤도를 볼 수 있다[^19]. 1898년 다나카구미가「민심 안정」을 위해 지은 황금신사(黃金神社)의 잔해 기둥을 올라가 볼 수도 있다[^20]. 수난동으로 내려가 십살층의 야간 조명을 찍을 수도 있다[^17].
+Today, when you go to Keelungshi, you can buy a ticket from the Gold Museum to enter the first 70 meters of [Honzan Pit No. 5](https://www.gep.ntpc.gov.tw/xmdoc/cont?xsmsid=0G246370798582080200) for an experience, seeing the mine car tracks left after mining stopped in 1972[^19]. You can walk up to see the ruins of the [Golden Shrine](https://tcmb.culture.tw/zh-tw/detail?id=557903&indexCode=Culture_Event) built by the Nakata Group in 1898 to "stabilize hearts"[^20]. You can go down to Shuihandong to photograph the night lights of the Thirteen-Storey Ruins[^17].
 
-1997년 생존 포로가 직접 세운 기념 공원에 들러볼 수도 있다—황금박물관 바로 옷, 몇 분 거리에 있다. 공원은 작고 조용하며, 비석 표면에는 이름이 새겨져 있다.
+You can also step into that memorial park erected by surviving POWs in 1997—it is right next to the Gold Museum, just a few minutes' walk. The park is small and quiet, with names engraved on the monument.
 
-금과석은 금만이 아니다. 이곳은 1890년 강에서 발견된 사금, 1942년 갱도 속 천 명의 영국군, 1992년 왕동의 카메라에 담긴 말없이 쓰러진 광부, 2019년 십살층을 밝휘던 주황색 조명, 그리고 오늘날 관광객이 밟고 있는 아연 초과 토양이 겹쳐진 같은 산이다.
+Keelungshi is not just gold. It is the sand gold in the river in 1890, the 1,000 British soldiers in the tunnels in 1942, the silent miners falling down in Wang Tong's lens in 1992, the orange light illuminating the Thirteen-Storey Ruins in 2019, and the arsenic-exceeding soil that tourists step on today—all stacked into the same mountain.
 
-> 「그들은 잊히지 않았다.」—금과석 국제종전평화기념공원 기념비 취지[^3]
+> "They have not been forgotten." — Inscription at the Keelungshi International War Commemoration Peace Memorial Park[^3]
 
-**더 읽을거리**:
+**Further Reading**:
 
-- [일제강점기](/history/日治時期) —「대만 광업규칙」이 어떻게 본섬 주민의 채굴권을 완전히 박탈했는가
-- [대만금속광업주식회사](/economy/台灣經濟奇蹟) — 대만금속광업주식회사 1955년 설립부터 1987년 영업 중단까지, 전후 국가 자본이 금과석을 운영한 전체 맥락
-- [대만 산림 개발사](/history/台灣森林開發史) — 아리산(阿里山), 태평산(太平山)과 마찬가지로 금과석도 일본 제국의 자원 식민 체계의 일부였다
-- [지위탄(日月潭)](/geography/日月潭), [아리산: 제국의 임장과 고일생의 산](/history/阿里山：帝國的林場與高一生的山) — 세 곳의「관광 명소」 뒤에 숨은 제국 경제학
-- [대만 해양 무역사](/history/台灣海洋貿易史) — 금과석의 금과 구리가 일본 큐슈로 운송된 해상 운송 네트워크
-- [민간 신앙: 관성제군](/culture/民間信仰) — 광부가 왜 관우에게 절하는가; 권제당 25톤 구리 관우 상 뒤에 숨은 노동 리스크의 논리
-- [기룽시](/geography/基隆市) — 금과석의 금이 가공 삭도를 통해 수난동(水南洞)으로, 다시 치두(八堵)로, 누추항(牛稠港)을 거쳐 기루정빈항(基隆正濱漁港)에서 배에 실려 일본으로 운송된 경로
+- [Japanese Colonial Period](/history/Japanese_Colonial_Period) — How the "Taiwan Mining Regulations" stripped the local population's mining rights entirely
+- [Formosa Metals Mining Corporation](/economy/Taiwan_Economic_Miracle) — The complete context of Formosa Metals' operation of Keelungshi from its establishment in 1955 to its bankruptcy in 1987
+- [History of Taiwan's Forest Development](/history/Taiwan_Forest_Development_History) — Like Alishan and Taiping Mountain, Keelungshi was part of the Japanese Empire's resource colonial system
+- [Sun Moon Lake](/geography/Sun_Moon_Lake), [Alishan: The Empire's Forest Farm and Gao Yisheng's Mountain](/history/Alishan_The_Empires_Forest_Farm_and_Gao_Yishengs_Mountain) — The imperial economics behind three "tourist attractions"
+- [History of Taiwan's Marine Trade](/history/Taiwan_Marine_Trade_History) — The maritime network transporting Keelungshi's gold and copper to Kyushu, Japan
+- [Folk Faith: Guan Sheng Di Jun](/culture/Folk_Faith) — Why miners worshipped Guan Yu; the labor risk logic behind Quanjitang's 25-ton copper Guan Yu statue
+- [Keelung City](/geography/Keelung_City) — Keelungshi's gold was transported via aerial cableway to Shuinan Cave, then to Badu, then to Niuchou Port, loaded onto ships at Keelung Zhengbin Fishing Port to go to Japan
 
-## 참고 자료
+## References
 
-[^1]: [역사 연혁｜신베시립 황금박물관](https://www.gep.ntpc.gov.tw/xmdoc/cont?xsmsid=0Q018377887368898201) — 황금박물관 공식 역사 연혁. 남송 1225년《제번지(諸蕃志)》에 대만 원주민의 사금 거래가 언급된 것부터 1684년《대만잡기(臺灣雜記)》를 거쳐 현대 단지 발전까지의 전체 연대기를 기술하며, 220킬로그램 금괴 전시를 포함한다.
+[^1]: [Historical Evolution | New Taipei City Gold Museum](https://www.gep.ntpc.gov.tw/xmdoc/cont?xsmsid=0Q018377887368898201) — Official historical evolution of the Gold Museum, recording the complete timeline from the mention of Taiwanese indigenous people trading sand gold in the Southern Song Dynasty's _Zhu Fan Zhi_ (1225), the _Taiwan Za Ji_ (1684) to contemporary park development, including the display of the 220-kilogram gold brick.
 
-[^2]: [영상·직격／32년 만에 밝혀진 그 불빛! 십삼층유적이 수금구「7대 성지」를 밝히다｜ETtoday](https://www.ettoday.net/news/20190911/1532394.htm) — 2019년 추석 대전의 십삼층유적 점등 사업 개시, 가동 중지 32년 만에 다시 북동각의 밤하늘을 밝힌 직격 보도 및 성지 루트 소개.
+[^2]: [Photo. Direct Hit / This Light Took 32 Years to Light! Thirteen-Storey Ruins Illuminate Northeast Coast's "7 Secret Spots" | ETtoday](https://www.ettoday.net/news/20190911/1532394.htm) — In 2019, Taipower launched the Thirteen-Storey Ruins lighting project, illuminating the Northeast Coast night sky again after 32 years of shutdown. Direct hit report and secret spot routes.
 
-[^3]: [The Kinkaseki Memorial Dedication｜Taiwan POW Camps Memorial Society](http://www.taiwanpow.org/archives_detail.php?THE-KINKASEKI-MEMORIAL-DEDICATION-15=) — 1997년 11월 23일, 150여 명의 생존 포로, 유족 및 영국·캐나다·뉴질랜드·호주 대표가 원래의 금과석 포로 수용소 현지에서 기념비를 제막한 최초의 영문 기록.
+[^3]: [The Kinkaseki Memorial Dedication | Taiwan POW Camps Memorial Society](http://www.taiwanpow.org/archives_detail.php?THE-KINKASEKI-MEMORIAL-DEDICATION-15=) — First-hand English record of the unveiling of the monument on November 23, 1997, by over 150 surviving POWs, family members, and UK, Canada, New Zealand/Australia representatives at the original site of the Keelungshi POW camp.
 
-[^4]: [대만의 항전: 잊힐 뻔한 제2차 세계대전 연합군 포로｜BBC News 中文](https://www.bbc.com/zhongwen/trad/china/2015/07/150707_wwii_taiwan_alliance_pow_history) — BBC 2015년 심층 보도. 금과석 포로 수용소(킨카세키)에 수용된 천여 명의 영연방 중심 연합군 포로, 종전평화기념공원 기념벽의 현장 사진 및 마이클 허스트 인터뷰를 포함한다.
+[^4]: [Taiwan's War of Resistance: The WWII Allied POWs Almost Forgotten | BBC News Chinese](https://www.bbc.com/zhongwen/trad/china/2015/07/150707_wwii_taiwan_alliance_pow_history) — BBC 2015 in-depth report, containing over a thousand Allied POWs primarily from the British Commonwealth in the Keelungshi POW camp (Kinkaseki), site photos of the War Commemoration Peace Memorial Park wall, and Michael Hurst interviews.
 
-[^5]: [【함정의 덫／하】십삼층유적·폐연도 인기 명소, 중금속 오염 우려 여전｜聯合報](https://vip.udn.com/vip/story/121163/4834306) — 연합보 2020년 심층 조사: 수난동 십삼층유적 주변 수 킬로미터에 걸친 폐연도는 1930년대 시설로, 아연·구리·납·아연이 장기간 초과 검출되며 현재 인기 명소임에도 정화 작업이 완료되지 않았다.
+[^5]: [【Deadly Trap / Part 2】Thirteen-Storey Ruins, Abandoned Smokestack Check-in Hotspot, Heavy Metal Pollution Hidden Dangers Remain | United Daily News](https://vip.udn.com/vip/story/121163/4834306) — United Daily News 2020 in-depth investigation: The abandoned smokestacks for kilometers around the Shuihandong Thirteen-Storey Ruins are 1930s facilities, with arsenic, copper, lead, and zinc exceeding standards for years. It has become a popular check-in spot but remediation is not yet complete.
 
-[^6]: [중금속 오염이 십삼층유적 지역 발전을 제한｜공시뉴스 PNN](https://news.pts.org.tw/article/446222) — 공시(公視)가 정리한 십삼층유적 토양 오염 통제 장소 고시, 문화재 지위와 오염 정화 책임 사이의 갈등.
+[^6]: [Heavy Metal Pollution Limits Development at Thirteen-Storey Ruins | PTS News Network PNN](https://news.pts.org.tw/article/446222) — PTS compiled the tug-of-war between the Thirteen-Storey Ruins soil pollution control site declaration, cultural asset status, and pollution remediation responsibility.
 
-[^7]: [금과석｜위키백과](https://zh.wikipedia.org/wiki/%E9%87%91%E7%93%9C%E7%9F%B3) — 1890년 지롱강 사금 발견, 1893년 대소 금과 노두, 다나카구미/후지타구미 분할, 1933년 일본광업주식회사, 1938년 금 생산량 7만 냥 근접, 1942-1945년 미영 포로 노역소, 1987년 대만금속광업주식회사 영업 중단부터 2019년 이후 관광화까지의 전체 항목.
+[^7]: [Keelungshi | Wikipedia](https://zh.wikipedia.org/wiki/%E9%87%91%E7%93%9C%E7%9F%B3) — From the discovery of sand gold in the Keelung River in 1890, the 1893 Big and Little Gold Melon outcrops, the division of Nakata Group/Fujita Group, the 1933 Nihon Mining Co., Ltd., 1938 gold production near 70,000 taels, 1942-1945 American-British Captive Labor Camp, 1987 Formosa Metals bankruptcy to 2019 post-tourism era complete entry.
 
-[^8]: [2세 다나카조베에｜위키백과](https://zh.wikipedia.org/wiki/%E4%BA%8C%E4%BB%A3%E7%94%B0%E4%B8%AD%E9%95%B7%E5%85%B5%E8%A1%9B) — 1858-1924, 1896년 초대 다나카조베에가 금과석 채굴권 취득, 1901년 차세 다나카조베에가「다나카구미」광산 경영을 승계한 역사.
+[^8]: [Second Generation Nakata Chobei | Wikipedia](https://zh.wikipedia.org/wiki/%E4%BA%8C%E4%BB%A3%E7%94%B0%E4%B8%AD%E9%95%B7%E5%85%B5%E8%A1%9B) — 1858-1924, in 1896 the first generation Nakata Chobei obtained Keelungshi mining rights, inherited and operated the "Nakata Group" mine by the second generation Nakata Chobei in 1901.
 
-[^9]: [고궁신타로｜일본어 위키백과](https://ja.wikipedia.org/wiki/%E5%BE%8C%E5%AE%AE%E4%BF%A1%E5%A4%AA%E9%83%8E) — 1925년 다나카가로부터 금과석 광산 매입, 금과석광산주식회사 사장 취임, 1931년 새로운 금맥「금이 솟는 흙」발견,「금산왕」이라 불린 일본 1차 사료.
+[^9]: [Miyauchi Shintaro | Japanese Wikipedia](https://ja.wikipedia.org/wiki/%E5%BE%8C%E5%AE%AE%E4%BF%A1%E5%A4%AA%E9%83%8E) — Purchased Keelungshi Mining from the Nakata family in 1925, served as president of Keelungshi Mining Co., Ltd., discovered the new gold vein "Golden涌ing Earth" in 1931, called the "King of Gold Mountains" in Japanese primary historical materials.
 
-[^10]: [대만광업주식회사｜위키백과](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E9%91%9B%E6%A5%AD%E6%A0%AA%E5%BC%8F%E6%9C%83%E7%A4%BE) — 1897년 다나카조베에 채굴권 취득, 1920년 다나카광업주식회사 승계, 1925년 고궁신타로 승계, 전후 개편 맥락.
+[^10]: [Formosa Mining Co., Ltd. | Wikipedia](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E9%91%9B%E6%A5%AD%E6%A0%AA%E5%BC%8F%E6%9C%83%E7%A4%BE) — 1897 Nakata Chobei obtained mining rights, 1920 Nakata Mining Co., Ltd. took over, 1925 Miyauchi Shintaro took over, post-war reorganization context.
 
-[^11]: ['Hell Camp' Remembered｜Taipei Times](https://www.taipeitimes.com/News/feat/archives/2005/05/01/2003252765) — 2005년 타이베이 타임스가 캐나다 연구자 마이클 허스트를 8년간 추적 인터뷰한 기사. 금과석 포로 수용소 조사 과정과 생존 포로의「헬 캠프」구술 1차 기록을 포함한다.
+[^11]: ['Hell Camp' Remembered | Taipei Times](https://www.taipeitimes.com/News/feat/archives/2005/05/01/2003252765) — 2005 Taipei Times interview with Canadian researcher Michael Hurst, first-hand records of eight years of investigating the Keelungshi POW camp and POW survivors' oral accounts of "Hell Camp."
 
-[^12]: [The Society｜Taiwan POW Camps Memorial Society](http://www.taiwanpow.org/The%20Society/index.php) — 대만 전쟁포로수용소기념협회 공식 페이지. 1996년 말「킨카세키 포로 기념 사업」개시부터 현재까지 매년 11월 추모 행사의 경과를 기록한다.
+[^12]: [The Society | Taiwan POW Camps Memorial Society](http://www.taiwanpow.org/The%20Society/index.php) — Taiwan POW Camps Memorial Society official page, recording the process from the launch of the "Kinkaseki POW Memorial Project" at the end of 1996 to the annual November remembrance activities to date.
 
-[^13]: [무언산구｜대만 영화망](https://taiwancinema.bamid.gov.tw/Film/PrintFrameContent?ContentUrl=22671) — 문화부 영상국《무언산구》공식 소개. 줄거리, 감독 왕동, 각본 오진진, 상영 시간 175분의 공식 자료.
+[^13]: [Silent Hills | Taiwan Cinema Network](https://taiwancinema.bamid.gov.tw/Film/PrintFrameContent?ContentUrl=22671) — Ministry of Culture Film and Audiovisual Bureau _Silent Hills_ official introduction, plot, director Wang Tong, screenwriter Wu Nianzhen, 175-minute runtime official data.
 
-[^14]: [무언산구｜위키백과](https://zh.wikipedia.org/wiki/%E7%84%A1%E8%A8%80%E7%9A%84%E5%B1%B1%E4%B8%98) — 1992년 왕동 감독 영화 항목. 1992년 금마장 최우수 작품상, 감독상, 각본상, 미술상 수상 기록을 포함한다.
+[^14]: [Silent Hills | Wikipedia](https://zh.wikipedia.org/wiki/%E7%84%A1%E8%A8%80%E7%9A%84%E5%B1%B1%E4%B8%98) — 1992 Wang Tong directed film entry, including 1992 Golden Horse Awards Best Narrative Feature, Best Director, Best Original Screenplay, Best Art Direction award records.
 
-[^15]: [신베시립 황금박물관 황금박물원 소개(PDF)](https://www.gep.ntpc.gov.tw/files/file_pool/1/0G252584947817531498/4.pdf) — 공식 자료:「타이베이현 정부가 2004년 재정비하여 개관, 단지가 지역사회 역량과 결합하여 최초로 생태박물관 개념으로 운영」—2004년 개관이 대만 최초의 생태박물관임을 확인.
+[^15]: [New Taipei City Gold Museum Gold Museum Park Introduction (PDF)](https://www.gep.ntpc.gov.tw/files/file_pool/1/0G252584947817531498/4.pdf) — Official data: "Taipei County Government re-renovated and opened in 2004, the park combines community power, adopting the concept of an ecological museum for the first time"—confirming the 2004 opening as Taiwan's first ecological museum.
 
-[^16]: [황금박물관｜국가문화기억고](https://tcmb.culture.tw/zh-tw/detail?id=313245&indexCode=Culture_Place) — 문화부 국가문화기억고 황금박물관 2010년 사진 항목.「황금박물관이 민국 93년(2004)에 개관」했음을 기록한다.
+[^16]: [Gold Museum | National Cultural Memory Bank](https://tcmb.culture.tw/zh-tw/detail?id=313245&indexCode=Culture_Place) — Ministry of Culture National Cultural Memory Bank Gold Museum 2010 photo entry, recording "Gold Museum opened in Republic of China Year 93 (2004)."
 
-[^17]: [수난동 십삼층유적｜신베시 관광관광망](https://newtaipei.travel/zh-tw/attractions/detail/110923) — 공식 소개「산세에 따라 세워진 건축물」. 십삼층, 음양해, 금과석선 경편철도(현재 대철 심오선의 전신)의 공식 역사 서술을 포함한다.
+[^17]: [Shuihandong Thirteen-Storey Ruins | New Taipei City Tourism Network](https://newtaipei.travel/zh-tw/attractions/detail/110923) — Official introduction "Buildings standing along the mountain slope," including official historical narratives of Thirteen-Storey, Yin-Yang Sea, and Keelungshi Line Light Railway (predecessor of today's Taishan Railway Deep Ocean Line).
 
-[^18]: [서방 현지 주민의 십삼층유적 오염 안전 영향 항의에 대한 회신｜대만전력공사](https://www.taipower.com.tw/2289/2323/2332/34057/normalPost) — 2019년 8월 19일 대전 공식 설명: 해당 부지가 토양오염통제장소로 고시된 사실을 인정하며「차단 조치를 설치하고 지속적으로 모니터링 중」이라고 답변.
+[^18]: [Responding to Ruifang Local Residents' Protest Today on Thirteen-Storey Ruins Pollution Affecting Safety | Taiwan Power Company](https://www.taipower.com.tw/2289/2323/2332/34057/normalPost) — August 19, 2019 Taipower official statement responding to Ruifang residents' protest: admitting the site was declared a soil pollution control site, claiming "isolation measures are in place and continuous monitoring is ongoing."
 
-[^19]: [본산오갱｜신베시립 황금박물관](https://www.gep.ntpc.gov.tw/xmdoc/cont?xsmsid=0G246370798582080200) — 황금박물관 공식 페이지.「본산오갱」은 일제강점기 본산 9개 갱도 중 하나로, 해발 295미터, 1972년 금 채굴 중단, 1978년 철수. 현재 앞 70미터를 관광객 체험에 개방.
+[^19]: [Honzan Pit No. 5 | New Taipei City Gold Museum](https://www.gep.ntpc.gov.tw/xmdoc/cont?xsmsid=0G246370798582080200) — Gold Museum official page, "Honzan Pit No. 5" is one of the nine tunnels of the Japanese colonial Honzan, elevation 295 meters, gold mining stopped in 1972, withdrawn in 1978, now opening the first 70 meters for tourist experience.
 
-[^20]: [「금과석 신사와 산신제」특전｜국가문화기억고](https://tcmb.culture.tw/zh-tw/detail?id=557903&indexCode=Culture_Event) — 1897년 다나카조베에가「도적 출현, 민심 불안」으로 인해 금과석 신사(황금신사)를 건립한 공식 사료 고증.
+[^20]: ["Keelungshi Shrine and Mountain God Sacrifice" Special Exhibition | National Cultural Memory Bank](https://tcmb.culture.tw/zh-tw/detail?id=557903&indexCode=Culture_Event) — 1897 Nakata Chobei built the Keelungshi Shrine (Golden Shrine) due to "bandit activity and unstable hearts," official historical material evidence.
 
-[^21]: [【무슨 광산?】소리로 파헤치는 금과석의 기억｜FM Taiwan](https://www.fmtaiwan.com.tw/blog/gold-museum-the-stories-that-you-should-know) — 황금박물관 소리 아카이브 사업 정리: 갱도가 해수면 아래 160미터까지 내려감, 도시락이 밥 세 절기·절인 오이·젖은 계란으로 고정, 갱도 내 금기(호루라기 금지, 뱀 언급 금지), 풍착공이 분진으로 규폐증에 걸린 1차 구술 기록.
+[^21]: [【What Kind of Ore?】Digging Keelungshi's Memories with Sound | FM Taiwan](https://www.fmtaiwan.com.tw/blog/gold-museum-the-stories-that-you-should-know) — Gold Museum sound archive project compilation: mine pits extending 160 meters below sea level, bento boxes fixed as three bowls of white rice, pickled melon, salted egg, pit taboos (no whistling, no mentioning snakes), pneumatic drill operators suffering from silicosis due to dust, first-hand oral accounts.
 
-[^22]: [금과석병원 舊址｜신베시립 황금박물관](https://www.gep.ntpc.gov.tw/xmdoc/cont?xsmsid=0G246378033877603476) — 황금박물관 공식 문화유산 페이지. 일제강점기 다나카구미와 전후 대만금속광업주식회사가 금과석에서 직원 병원을 운영하며 외상과 직업병을 치료한 역사 기록.
+[^22]: [Former Site of Keelungshi Hospital | New Taipei City Gold Museum](https://www.gep.ntpc.gov.tw/xmdoc/cont?xsmsid=0G246378033877603476) — Gold Museum official humanistic attraction page, recording the history of the Japanese colonial Nakata Group and post-war Formosa Metals operating employee hospitals in Keelungshi, dealing with trauma and occupational diseases.
 
-[^23]: [알려지지 않은「서방」탐구: 백 년 광업에서 지역 재생으로｜VERSE](https://www.verse.com.tw/article/ruifang-mining-heritage-and-transformation) — VERSE 잡지 방문 보도. 금과산의 원래 표고가 660미터였으나 백여 년간의 발파 채굴과 노천 굴착으로 현재 400미터 분지가 된 어르신의 구술 기록을 포함한다.
+[^23]: [Explore the Unknown "Ruifang": From Century-Old Mining to Local Rebirth | VERSE](https://www.verse.com.tw/article/ruifang-mining-heritage-and-transformation) — VERSE magazine visit report, containing Keelung Mountain's original elevation of 660 meters, elders' oral accounts of becoming the current 400-meter valley due to nearly a century of blasting and open-pit mining.
 
-[^24]: [대만 채굴의 세월, 광부 문사관이 노동 역사를 기록하다｜세신대학교 소세계](https://shuj.shu.edu.tw/blog/2023/12/21/%e5%8f%b0%e7%81%a3%e6%8e%a7%e7%a4%a6%e6%ad%b2%e6%9c%88-%e7%a4%a6%e5%b7%a5%e6%96%87%e5%8f%b2%e9%a4%a8%e8%a8%98%e9%8c%84%e5%8b%9e%e5%8b%95%e6%ad%b7%e5%8f%b2/) — 호두(猴硐) 광부 조조남이 노광부들을 모아 매월 3,500위안의 노령 연금으로 루이산본광 탈의실을 빌려「호두 광부 문사관」을 설립한 광부 자서 노동사의 맥락을 보도.
+[^24]: [Taiwan Mining Years Miner History Museum Records Labor History | Shih Hsin University Small World](https://shuj.shu.edu.tw/blog/2023/12/21/%e5%8f%b0%e7%81%a3%e6%8e%a1%e7%a4%a6%e6%ad%b2%e6%9c%88-%e7%a4%a6%e5%b7%a5%e6%96%87%e5%8f%b2%e9%a4%a8%e8%a8%98%e9%8c%84%e5%8b%95%e5%8b%95%e6%ad%b7%e5%8f%b2/) — Report on Houlong miner Zhou Nanchan gathering old miners, renting the Ruisan Main Mine changing room with his monthly 3,500 NTD pension to establish the "Houlong Miner History Museum," the context of miners writing their own labor history.
+
+[^25]: [Keelungshi Crown Prince Guest House | National Cultural Memory Bank](https://tcmb.culture.tw/zh-tw/detail?id=313192&indexCode=Culture_Place) — Ministry of Culture National Cultural Memory Bank Crown Prince Guest House entry, recording the fact that in 1922, Nakata Mining Co., Ltd. built it for Japanese Crown Prince Hirohito to come to Taiwan to inspect Keelungshi mining, but Hirohito never arrived.
+
+[^26]: [Crown Prince Guest House | Wikipedia](https://zh.wikipedia.org/wiki/%E5%A4%AA%E5%AD%90%E8%B3%93%E9%A4%A8) — Built in 1922 (Taisho 11), renamed "First Guest House" after the war and taken over by Formosa Metals, transferred to Taipower in 1989, preserved in 1994, currently a New Taipei City Historic Site (Residence Category) complete evolution.
+
+[^27]: [Four-Connected Buildings | New Taipei City Gold Museum](https://www.gep.ntpc.gov.tw/xmdoc/cont?xsmsid=0G246370374868788211) — Official introduction: Four connected Japanese-style dormitories built by Nihon Mining Co., Ltd. in the 1930s, changed to Formosa Metals Mining Company employee dormitories after the war—evidence of the hierarchical space within the colonial mining settlement.
+
+[^28]: [Keelungshi Quanjitang | Wikipedia](https://zh.wikipedia.org/wiki/%E9%87%91%E7%93%9C%E7%9F%B3%E5%8B%B8%E6%BF%9F%E5%A0%82) — Enshrines the Four Great Benefactors: Guan, Lu, Zhang, and Wang. In Republic of China Year 80, completed the top floor 25-ton, 35 _tai chi_ high pure copper Guan Sheng Di Jun statue, still the largest outdoor Guan Yu statue on the North Coast today.
+
+[^29]: [Keelungshi Quanjitang Guide | welcometw](https://www.welcometw.com/%e9%87%91%e7%93%9c%e7%9f%b3%e5%8b%b8%e6%bf%9f%e5%a0%82/) — Contains Quanjitang location, 20-minute drive distance from Jiufen, 25-ton copper-cast Guan Yu statue current status and other local field investigation information.
+
+[^30]: [Century-Old History Gold Mine Mountain, Temples and Mazu Procession Festival | Scientific American Issue 613](https://www.scimonth.com.tw/archives/4895) — January 2021 issue special topic, analyzing Keelungshi mining settlement's unique folk faith spectrum: Golden Shrine (1897 Japanese), Quanjitang (Qing Guangxu Han Chinese) and annual April lunar calendar Mazu procession coexistence history.

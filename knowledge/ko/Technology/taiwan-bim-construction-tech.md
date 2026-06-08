@@ -1,347 +1,384 @@
 ---
-title: '대만 BIM과 건설 기술: 정부가 12년간 추진한 맞춤형 전략, 18개월짜리 프로토콜 하나로 재작성되다'
-description: '2014년 5월 23일, 행정원 공사위원회가 「공공공사 BIM 활용 추진 플랫폼」을 공식 출범시키며 「사안별 맞춤, 점진적 추진」이라는 8자 방천을 내걸었다. 11년 7개월 후, 도쿄에서 근무하는 대만 개발자가 REVIT_MCP_study라는 이름의 저장소를 GitHub에 올렸고, 70여 개의 스타와 80여 개의 포크를 기록했다. 그 사이 12년간 대만 건축업계는 수작업 청사진에서 3D 모델로, 개별 시도에서 국가 표준으로, 도구 업그레이드에서 직업 재정의로 이어지는 긴 여정을 걸었다.'
+title: "Taiwan's BIM and Construction Tech: Twelve Years of Case-by-Case Government Push Rewritten by an 18-Month Protocol"
+description: "On May 23, 2014, the Public Construction Commission launched the 'Public Engineering BIM Promotion Platform' with the eight-character policy of 'case-by-case adaptation and gradual progress.' Eleven years and seven months later, a Taiwanese developer working in Tokyo pushed the repository named REVIT_MCP_study to GitHub, garnering over 70 stars and 80 forks. In between, Taiwan's construction industry traversed a long path from hand-drawn blueprints to 3D models, from individual attempts to national standards, and from tool upgrades to the redefinition of professions."
 date: 2026-05-22
-author: 'Taiwan.md'
-category: 'Technology'
-subcategory: '建築科技'
 tags:
   [
     'Technology',
     'BIM',
-    '건축정보모델링',
-    '건설기술',
-    '건축',
-    '디지털전환',
+    'Building Information Modeling',
+    'Construction Technology',
+    'Architecture',
+    'Digital Transformation',
     'Revit',
     'MCP',
     'AI',
-    '중정공정',
-    '대만세희',
-    '슈오타오',
+    'CTCI',
+    'AECOM',
+    'Shuotao',
   ]
+subcategory: 'Construction Technology'
+author: 'Taiwan.md'
+category: 'Technology'
 readingTime: 22
 lastVerified: 2026-05-22
 lastHumanReview: false
-featured: true
 translatedFrom: 'Technology/台灣BIM與營建科技.md'
 sourceCommitSha: '43bf36374'
-sourceContentHash: 'sha256:eb74ed8e8bb7aa41'
-sourceBodyHash: 'sha256:76d8e776ea9fdea0'
-translatedAt: '2026-05-23T05:06:37+08:00'
+sourceContentHash: 'sha256:db3430322016dbca'
+translatedAt: '2026-06-09T02:55:46+08:00'
 ---
 
-# 대만 BIM과 건설 기술: 정부가 12년간 추진한 맞춤형 전략, 18개월짜리 프로토콜 하나로 재작성되다
+# Taiwan's BIM and Construction Tech: Twelve Years of Case-by-Case Government Push Rewritten by an 18-Month Protocol
 
-![FreeCAD 1.0 오픈소스 BIM 워크벤크 다크 테마 스크린샷, 화면 중앙에 시범 건물의 3D 모델이 표시되고, 왼쪽 패널에 각 전문 레이어(구조, 기전, 외피)가 나열되어 있으며, 하단 도구 모음에 BIM 워크벤크 전용 명령어 세트가 배치되어 있어 BIM이 건물 정보를 체계화하는 엔지니어링 디지털 전환의 본질을 반영함](/article-images/technology/freecad-bim-example-2024.png)
-_FreeCAD 1.0 다크 테마 BIM 워크벤크 시범 파일. Photo: Maxwxyz, 2024-10-07. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:FreeCAD_1.0_Dark_BIM_Example.png)._
+![FreeCAD 1.0 Open Source BIM Workbench Dark Theme Screenshot, showing a 3D model of a demonstration building in the center, the left panel listing various professional layers (structure, MEP, shell), and the bottom toolbar displaying BIM workbench-specific commands, reflecting the essence of engineering digital transformation where BIM systematizes building information](/article-images/technology/freecad-bim-example-2024.png)
+_FreeCAD 1.0 Dark Theme BIM Workbench Demo File. Photo: Maxwxyz, 2024-10-07. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:FreeCAD_1.0_Dark_BIM_Example.png)._
 
-> **30초 개요:** 2014년 5월 23일, 행정원 공사위원회가 「공공공사 건축정보모델링(BIM) 활용 추진 플랫폼」을 공식 출범시켰다[^1]. 「사안별 맞춤, 점진적 추진」 원칙에 따라 3단계로 추진했으나, 2026년 현재까지 전면 의무화에는 이르지 못했다[^2]. 같은 시기, 대만대학교 BIM 연구센터가 첫 강좌를 개설했고[^3], 대만건축정보모델협회가 정식 설립되었으며[^3], 신베이시가 최초의 BIM 건축 허가를 발급했고[^4], 타이베이시 도시발전국이 준공 모델 작업 규범을 공고했다[^4], BSI가 Taiwan BIM Task Group MOU에 서명했다[^5]. 11년 7개월 후인 2025년 12월 10일, CHIANG SHUOTAO라는 개발자가 `REVIT_MCP_study`라는 이름의 저장소를 GitHub에 올렸고, 73개의 스타와 85개의 포크를 기록했다[^6]. 다시 4개월 후인 2026년 4월, Autodesk가 Revit 2027에 Model Context Protocol 서버를 내장한다고 발표했다[^7]. 정부가 추진하지 못한 12년과 Anthropic의 18개월짜리 프로토콜 사이에는, 대만 건설업계가 도면 작성에서 시스템 통합으로 나아가는 느린 직업 재정의의 과정이 있었다.
-
----
-
-## 공사위원회의 「사안별 맞춤」
-
-2014년 5월 23일, 행정원 공사위원회는 「공공공사 건축정보모델링(BIM) 활용 추진 플랫폼」이라는 것을 구축했다[^1]. 출범 당일의 8자 방침은 「**사안별 맞춤, 점진적 추진**」이었다.
-
-이 여덟 글자는 이후 수년간 반복 인용되었다.
-
-공사위원회는 추진 전략을 3단계로 나누었다: 제1단계(2014년) 「장려 및 시범 사업 선정」으로 비건축 분야 공공사업 주관 기관을 선별하여 시범 사업을 실시하고, 일광·최적 낙찰 사업을 우선 선정했다. 제2단계(2015~2016년) 「시범 실행 및 평가」. 제3단계 「**2017년부터 일정 금액 이상 공공공사에 BIM 기술 적용**」[^1].
-
-그러나 「일정 금액 이상」이라는 기준은 2026년 현재까지 전면 의무화로 전환되지 못했다. 공사위원회가 반복해서 강조하는 표현은 「**공사 주관 기관이 비교적 복잡하거나 규모가 큰 공사에 대해 개별 사안의 요구사항과 기관의 계약 이행 관리 능력에 따라 자체적으로 BIM 기술 적용 여부를 평가하는 것이지, 전면적·의무적 규정이 아니다**」[^2]라는 것이었다.
-
-대조군은 홍콩이다. 홍콩 발전국은 이미 공사비 3,000만 홍콩달러 이상의 공사 프로젝트에 BIM 사용을 의무화했다[^8]. 대만의 경우는 「장려」, 「시범」, 「자체 평가」 세 동사가 매 백서마다 반복 등장했다.
-
-검색일 현재 공개 자료에 따르면, 공사위원회 BIM 플랫폼은 「60개 이상의 공사 입찰 기관이 BIM 기술을 사용하고, 적용 사업 수가 120건을 넘는다」고 집계되었다[^2]. 이 수치를 대만 연간 1만여 건의 공공공사에 비추면 미미한 수준이다.
-
-> **📝 큐레이터 노트**
-> 통설은 「정부가 BIM을 추진하지 못하는 것은 산업이 따라오지 못하기 때문」이다. 이 설명은 서사적으로 그럴듯하지만, 인과 관계를 반전시킨다. **실제 순서는 이에 더 가깝다: 정부는 2014년부터 BIM을 의무화하지 않기로 결정했는데, 의무화하면 건축사 사무소 절반의 밥그릇을 깨는 것이기 때문이다.** 사안별 맞춤은 정치적 계산이었다: 선택권을 「계약 이행 관리 능력」을 갖춘 소수 기관에 남기고, 나머지는 계속 AutoCAD를 쓰게 하여 누구도 누구를 건드리지 않는 것이다.
+> **30-Second Overview:** On May 23, 2014, the Public Construction Commission (PCC) launched the "Public Engineering BIM Promotion Platform" [^1], adopting a three-phase promotion based on the principles of "case-by-case adaptation and gradual progress," which remains non-mandatory to this day [^2]. During this same period, the National Taiwan University BIM Research Center offered its first course, the Taiwan BIM Industry Association was officially established [^3], the New Taipei City Government issued the first BIM building permit, and the Taipei City Department of Urban Development announced竣工 model operation specifications [^4], while BSI signed the MOU for the Taiwan BIM Task Group [^5]. Eleven years and seven months later, on December 10, 2025, a developer named CHIANG SHUOTAO pushed the repository `REVIT_MCP_study` to GitHub, accumulating 73 stars and 85 forks [^6]. Four months later, in April 2026, Autodesk announced that Revit 2027 would include a built-in Model Context Protocol server [^7]. The twelve years the government struggled to push forward, juxtaposed with an 18-month protocol from Anthropic, reveal the slow professional redefinition of Taiwan's construction industry from drafting to system integration.
 
 ---
 
-## 내무부, 타이베이, 신베이: 서로 다른 세 개의 추진 축
+## The Public Construction Commission's "Case-by-Case Adaptation"
 
-공사위원회가 자체적으로 추진하는 동안, 내무부 건축연구소(ABRI)도 별도의 추진 체계를 운영했다.
+On May 23, 2014, the Public Construction Commission of the Executive Yuan established something called the "Public Engineering Building Information Modeling (BIM) Promotion Platform" [^1]. The eight-character policy on the day of its launch was "**Case-by-Case Adaptation, Gradual Progress**."
 
-ABRI는 2015년부터 「**건축정보 통합 공유 및 응용 연구개발 추진 계획**」이라는 4년 중기 개별 계획을 시작했고, 2019년에는 제2기 4년 계획으로 연계했다[^9]. 제2기의 두 가지 대목표는 야심차게 설정되었다: 「**건축 기술 디지털 업그레이드**」+ 「**건축 디지털 거주 환경**」으로, 후자는 BIM과 GIS, IoT를 통합하여 디지털 시티를 구축하는 것이었다[^10].
+These eight characters have been cited for many years.
 
-그러나 ABRI는 건축 관리의 집행 기관이 아니다. 건축 허가 권한은 현(縣)·시(市) 정부에 있다.
+The PCC divided its promotion strategy into three phases: Phase 1 (Republic of China Year 103 / 2014) "Encouragement and Pilot Selection," inviting non-building engineering host agencies to participate in pilot projects, prioritizing general contracting (EPC) bids based on best value; Phase 2 (Years 104-105 / 2015-2016) "Pilot Execution and Evaluation"; and Phase 3 "**Promoting the Use of BIM Technology in Public Engineering Projects Above a Certain Amount Starting from Year 106**" [^1].
 
-2014년, **신베이시가 최초로 BIM 모델 심사를 통과한 건축 허가를 발급**했다[^11]. 같은 해 신베이시는 「**신베이시 공공건물 BIM 준공 모델 정보 제출 기준**」을 공포했다. 2026년 현재, 신베이시의 「건축허가 컴퓨터 보조 심사 시스템」(bim.ntpc.gov.tw)에는 20개 이상의 완성된 BIM 모델이 축적되어 있다[^11].
+However, the threshold of "above a certain amount" never became a universal mandate by 2026. The phrasing repeatedly emphasized by the PCC was "**Host agencies of engineering projects shall assess whether to adopt BIM technology based on individual case needs and the agency's contract management capabilities, rather than as a comprehensive, mandatory regulation**" [^2].
 
-4년 후인 2018년 11월 6일, **타이베이시 도시발전국이 「타이베이시 도시발전국 주관 건축공사 건축정보모델링(BIM) 준공 모델 속성 자료 작업 규범」을 공고**했다[^4]. 타이베이시의 규범은 국제 COBie(Construction Operations Building Information Exchange) 형식을 참고하고, 2015년 내무부 건축연구소 및 영국의 관련 규범을 포함했다[^4]. 규범은 서로 다른 BIM 모델링 소프트웨어를 사용할 경우 **IFC**(Industry Foundation Classes, 산업기초분류, buildingSMART International이 제정한 개방형 국제 표준, ISO 16739-1:2024)와 COBie 표준 데이터로 변환하여 제출하도록 요구했다[^4][^12].
+The control group is Hong Kong. The Hong Kong Development Bureau had long mandated the use of BIM for engineering projects with a cost estimate exceeding 30 million HKD [^8]. In Taiwan, the verbs "encourage," "pilot," and "self-assess" appear in turn in every white paper.
 
-> **💡 알고 계셨나요**
-> IFC는 buildingSMART International이라는 비영리 기구가 제정한 개방형 국제 표준에 속한다[^12]. Autodesk나 특정 단일 업체와는 무관하다. 그 존재 논리는 PDF와 유사하다: 서로 다른 소프트웨어(Revit, ArchiCAD, Tekla, Navisworks)로 만든 모델을 원활하게 교환할 수 있게 하는 것이다. **덴마크 정부는 2010년부터 공공 건설 프로젝트에 IFC 형식 사용을 의무화했고, 노르웨이, 핀란드, 싱가포르도 뒤따랐다**[^12]. 대만은 2018년에야 타이베이시라는 지방 자치 단체 수준에서 IFC를 규범에 포함시켰다. 국제 표준보다 10년 늦게 따라잡은 것이다.
+Public data available up to the search date shows that the PCC BIM platform has cumulatively seen "**over 60 engineering bidding agencies using BIM technology, with more than 120 application projects**" [^2]. Placed against Taiwan's annual public engineering projects numbering over 10,000, this figure is insignificant.
 
-중앙 정부, 타이베이시, 신베이시 세 축의 추진 시점은 모두 동기화되어 있지 않았다. 같은 지하철 역사(驛舍)라도, 설계 단계에서는 타이베이 지하철공사의 BIM 규정(일광 계약에 포함)이 적용되고, 건축 허가 단계에서는 타이베이시 도시발전국의 준공 모델 작업 규범(COBie 형식)이 적용되며, 유지보수 단계에서는 또 다른 시설 관리 도구 체계에 들어갈 수 있다.
-
-「**현재 공공 부문의 대부분 BIM 활용은 설계 및 시공 단계에 속하며, 전통 방식과 일광 방식 공사의 적용 상황에도 차이가 있고, 후속 운영 관리 방식은 여전히 전통적 방식을 채택하고 있다**」[^13]—이것은 ABRI 자체의 성과 보고서에 기록된 내용이다.
+> **📝 Curator's Note**
+> The common narrative is "The government couldn't push BIM because the industry couldn't keep up." This explanation is narratively convenient, but it reverses the causality. **The true sequence is closer to this: The government decided not to mandate BIM starting from 2014, because mandating it would mean wiping out the livelihoods of half the architectural firms.** Case-by-case adaptation is a political calculation: leaving the choice to the minority of agencies "capable of contract management," while the rest continue using AutoCAD, with no one disturbing the other.
 
 ---
 
-## 완다 라인, 먀오리 역, 타오위안 공항 T3: BIM의 공공공사 등장
+## The Ministry of the Interior, Taipei, and New Taipei: Three Asynchronous Promotion Axes
 
-2011년, **타이베이 지하철 완다 라인이 최초로 BIM을 공사 설계 계약에 포함**시켰다[^14].
+The Public Construction Commission pushed its own agenda, while the Ministry of the Interior's Architectural Research and Information Institute (ABRI) pushed its own.
 
-이것은 대만 BIM 추진에서 자주 인용되는 「첫 번째」 사건이다. 완다 라인 각 구간은 계약에 따라 BIM 방식으로 지하철 역사 설계를 수행하면서 건축, 구조, 기전(기계·전기) 전문 분야를 도입하여 전문 분야 간 통합을 실현하고, **설계 인터페이스 충돌을 줄였다**[^14].
+ABRI launched the "**Building Information Integration Sharing and Application R&D Promotion Plan**," a 4-year medium-term case plan, starting in Republic of China Year 104 (2015) [^9]. In Year 108 (2019), it connected to the second phase 4-year plan [^9]. The two major goals of the second phase were written broadly: "**Digital Upgrade of Building Technology**" + "**Digital Living Environment for Buildings**," with the latter aiming to integrate BIM with GIS and IoT to create a digital city [^10].
 
-완다 라인의 뒤를 이어 공공공사가 하나씩 따라왔다. 타이베이 지하철 환상선 Y19 고가 역사, 신베이의 다수 운동센터, 대만 고속철도 먀오리 신역, 타오위안 국제공항 제3여객터미널, 가슴환상경전철—각 사업에는 ABRI, 대만대 NTUBIM, 또는 지하철공사의 내부 학술지에 게재된 사례 연구가 있다.
+However, ABRI is not the executive agency for building management. Building management lies with county and city governments.
 
-가장 많이 인용되는 「**수치적 승리**」는 대만 고속철도 먀오리 역이다: 착공 3개월 전 BIM을 도입한 결과, 감리팀이 3D 모델에서 다수의 충돌 지점을 발견하여 **후속 설계 변경 비용을 20% 절감하고, 현장 측량을 예정보다 2개월 앞당겨 착공**했다[^15].
+In 2014, **the New Taipei City Government issued the first building permit approved based on a BIM model** [^11]. That same year, New Taipei City announced the "**New Taipei City Public Building BIM As-Built Model Information Delivery Criteria**." By 2026, the New Taipei City Government's "Building Permit Computer-Aided Review System" (bim.ntpc.gov.tw) had accumulated over 20 completed BIM models [^11].
 
-타오위안 국제공항 제3여객터미널은 또 다른 규모의 사례이다. 2021년 3월, **삼성물산과 영공공정이 구성한 팀이 신대만달러 445억 원으로 T3 본체 토목공사 낙찰**을 받았다[^16]. T3 전체는 대만세희공정컨설턴트가 설계를 주관했으며(Rogers Stirk Harbour + Partners 및 Ove Arup and Partners Hong Kong과 협력), 국제 협업은 BIM 모델이 서로 다른 사무소 간에 유동적으로 교환되는 것에 의존할 수밖에 없었다—이것이 대만세희가 내부 교재에서 반복적으로 사용하는 대표 사례이다[^17].
+Four years later, on November 6, 2018, **the Taipei City Government Department of Urban Development announced the "Taipei City Government Department of Urban Development Hosted Building Engineering Building Information Modeling (BIM) As-Built Model Attribute Data Operation Specifications"** [^4]. Taipei's specifications reference the international COBie (Construction Operations Building Information Exchange) format and incorporate relevant standards from the Ministry of the Interior's ABRI in Year 104 and the UK [^4]. The specifications require that when using different BIM modeling software, **IFC** (Industry Foundation Classes, an open international standard formulated by buildingSMART International, ISO 16739-1:2024) and COBie standard data must be exported and submitted [^4][^12].
 
-> **✦** 완다 라인이 2011년 최초로 BIM을 계약에 포함시킨 그 순간은, 대만 공공공사 역사에서 조용한 분수령이었다. 그날 이후 대만의 지하철, 공항, 고속철도, 경전철에서 중요한 공공공사 하나 없이 「BIM을 어떻게 할 것인가」를 묻지 않은 곳이 없다.
+> **💡 Did You Know?**
+> IFC is an open international standard formulated by a non-profit organization called buildingSMART International [^12], unrelated to Autodesk or any single vendor. Its existence logic is similar to PDF: allowing models created by different software (Revit, ArchiCAD, Tekla, Navisworks) to be exchanged seamlessly. **The Danish government mandated the use of IFC format for public construction projects starting in 2010, and Norway, Finland, and Singapore followed suit** [^12]. Taiwan only incorporated IFC into specifications at the local level via the Taipei City Government in 2018. International standards had moved forward a decade earlier; Taiwan slowly caught up.
 
-그러나 이것들은 모두 「지표 사례」에 불과하다. 대만의 모든 지표 사례에는 한 가지 공통된 결함이 있다: **그것들이 소수에 불과하다**는 것이다.
+The timelines for the three axes of the Central Government, Taipei, and New Taipei were all asynchronous. For the same metro station, the design phase might use the Taipei Metro Bureau's BIM regulations (bound into the EPC contract), the building permit phase might use the Taipei City Department of Urban Development's as-built model operation specifications (COBie format), and the operation phase might fall into another set of facility management tools.
 
----
-
-## 대형 공정 컨설턴트 5사 + 두 조직: 이면의 사람들
-
-BIM을 공공공사에 도입한 사람들에게는 이름과 얼굴이 있다.
-
-**대만세희공정컨설턴트 주식회사**: 2007년 중화재단공사사(CECI, 1969년 설립)로부터 분리 투자하여 설립되었다[^18]. **2010년에 가장 먼저 BIM 통합센터를 설립**했으며[^19], 대만 업계에서 가장 이른 통합센터 중 하나이다. 약 2,000명의 직원 중 90%가 도로, 철도, 항만, 공항, 교량, 터널, 지하철, 건축, 기계, 전기 및 시스템 제어, BIM, ITS, PPP 등 관련 배경을 갖추고 있다[^19].
-
-**중흥공정컨설턴트**: 1970년 설립, 1994년 NPO로 전환한 후 중흥공정컨설턴트 주식회사로 분리 투자했다[^20]. 중흥은 이후 BIM을 「**프로젝트 관리 정보 시스템(PMIS)**」이라는 것으로 발전시켰다: ISO 19650 범용 데이터 환경(CDE) 정신에 기반하여 7개 주요 모듈을 내장하고, 전문 분야 간·프로젝트 간 정보 통합을 지원한다[^21].
-
-**영준공정컨설턴트 주식회사(EGC)**: 1974년 설립. 타이베이 101과 가오슝 85층 T&C Tower의 구조 설계를 모두 수행했다[^22]. **CTBUH(세계초고층건물도시거주학회)는 EGC를 세계 10대 초고층 구조 컨설턴트 중 하나로 선정**했다[^22].
-
-학계에는 두 가지 핵심 시점이 있다:
-
-**대만대학교 토목공학과 정보시뮬레이션 및 관리연구센터(NTUBIM)**: 2011년 설립, 센터장은 토목공학과 **셰셰안셴(謝尚賢)** 교수이다. 공동 창립 학자인 **궈룬친(郭榮欽)** 부교수는 2011년 12월에 〈**BIM 발전이 현행 건축 체제에 미치는 충격**〉이라는 논문을 발표했는데[^23], 이는 현재까지 대만 BIM 학술 논의의 대표적인 초기 문헌 중 하나이다. NTUBIM은 이후 ABRI, 공사위원회의 다년위탁 사업을 수탁받아 대만의 BIM 협업 가이드라인, ISO 19650 중국어판 번역을 주도했다.
-
-**대만건축정보모델협회(TBIMA)**: 전신은 2009년의 대만 BIM 기술 애호가 모임으로, 2011년부터 설립을 준비하여 **2012년 3월 10일** 내무부 등록 사단법인으로 정식 설립되었다[^3]. 협회 주요 회원은 2008년 Autodesk Taiwan 공인 강사 출신이다: 대만 BIM 민간 조직의 혈통은 Autodesk 인증 강사 커뮤니티에서 직접 태동한 것이다.
-
-> **📝 큐레이터 노트**
-> Taiwan BIM Task Group이 2018년 10월 3일 MOU 서명식에서[^5], 테이블에는 다섯 명이 앉아 있었다: BSI(영국표준협회) 대만, 대만대 NTUBIM, 대만건설연구원, 대만건축센터, TBIMA. **내무부 건축연구소는 「지도 단위」이지 「서명 단위」가 아니었다**이며, 이러한 위치 배치는 시사하는 바가 크다. 이는 정부가 BIM 국제 표준이라는 문제에 있어 학계와 민간 조직이 주도하는 것이 가장 바람직하다고 인정하고, 자신은 이선(二線)으로 물러난다는 의미이다. 이듬해 BSI가 발표한 《**ISO 19650 중국어판**》[^24]은 작은 소프트 소버린 선언이었다: 대만은 마침내 국제 BIM 표준에 대한 자체 중국어 공식 번역을 갖게 된 것이다.
+"**Currently, most public sector applications of BIM belong to the design and construction phases, and there are differences in application between traditional and EPC projects; subsequent operation and management models still adopt traditional practices**" [^13] — this is written in ABRI's own achievement report.
 
 ---
 
-## Revit, ArchiCAD, Tekla: 소프트웨어 패권의 암류
+## Wanda Line, Miaoli Station, Taoyuan Airport T3: BIM Enters Public Engineering
 
-대만의 BIM을 도입한 어떤 사무소에 들어가도, 실행 화면의 90%는 Revit이다.
+In 2011, **the Taipei Metro Wanda Line included BIM in the engineering design contract for the first time** [^14].
 
-「**대만에서 BIM 설계 능력을 갖춘 건축사의 90%가 Revit Architecture를 사용한다**」—이것은 ArchiCAD 대리점이 자사 웹사이트에 기재한 수치이다[^25]. 단일 출처의 인용이지만 업계 인식과 일치한다: Revit은 대만 건축 설계 분야에서 거의 독점적 지위를 차지한다.
+This is a frequently cited "first" event in Taiwan's BIM promotion. Each section of the Wanda Line was required by contract to use the BIM mode for metro station body design, simultaneously introducing architecture, structure, and MEP disciplines for cross-disciplinary integration, **reducing design interface conflicts** [^14].
 
-ArchiCAD는 헝가리 회사 Graphisoft가 개발했으며, Mac과 Windows 모두에서 구동된다. 설계 직관성과 학습 곡선이 Revit보다 우수하지만, 대만에서는 사용자가 현저히 적다[^26]. 대리점 룽팅(龍庭)정보가 타이베이 동구에서 많은 시연회를 개최했을 때마다 디자이너들은 「나는 Revit을 쓸 줄 알고, 사무소에는 Revit 라이선스밖에 없다」고 말했다. 이것이 바로 규모의 경제에 의한 잠금 효과이다.
+Following the Wanda Line, public engineering projects followed one after another. Taipei Metro Circular Line Y19 Elevated Station, multiple sports centers in New Taipei, Taiwan High Speed Rail's new Miaoli Station, Taoyuan Airport Terminal 3, Kaohsiung Circular Light Rail: every project has a case study written in the internal journals of ABRI, NTU NTUBIM, or the Metro Bureau.
 
-강구조 분야는 또 다른 축이다. **Tekla Structures(Trimble 제품, 전신 XSteel)는 현재 대만 강구조 설계의 주류 소프트웨어**이다[^27]. Tekla의 강구조 처리 능력은 대만의 초고층 건물, 교량, 체육관, 공장 분야에서 업계 공인이다.
+The most cited "**Digital Victory**" is Taiwan HSR's Miaoli Station: BIM was introduced three months before groundbreaking, and the supervision team discovered multiple conflict points from the 3D model, **saving 20% in subsequent design change costs and allowing site layout to start two months ahead of schedule** [^15].
 
-인프라(철도, 도로, 터널)는 Bentley Systems의 MicroStation 시스템 쪽으로 기울어 있다[^28]. 중정, 중흥, 대만세희는 대형 EPC 일광 사업, 국제 궤도 공사에서 MicroStation과 Bentley의 OpenRoads / OpenBridge를 사용한다.
+Taoyuan Airport Terminal 3 is another case of a different scale. In March 2021, **a team composed of Samsung C&T and Ronggong Engineering won the bid for the T3 main terminal building civil engineering with a new NT$44.5 billion** [^16]. The entire T3 is led in design by AECOM Engineering Consulting (along with Rogers Stirk Harbour + Partners and Ove Arup and Partners Hong Kong), relying on cross-border collaboration through BIM model flows between firms — this is AECOM's signature case repeatedly used in internal training materials [^17].
 
-이러한 주류 소프트웨어 위에서 구동되는 것은 Autodesk 자체의 Dynamo(비주얼 프로그래밍)와 오픈소스 pyRevit(Python 확장 프레임워크)이다. **2016년 초, Autodesk Taiwan은 특별히 싱가포르에서 Dynamo 개발팀 강사를 초빙하여 대만에서 강좌를 개설**했고[^29], 그 이후 Dynamo는 대만 BIM 엔지니어 커뮤니티에서 주목받기 시작했다. 전형적인 장면: 기전 엔지니어가 Dynamo 스크립트를 작성하여 모든 덕트의 좌표를 자동 정렬하고, 순고(淨高)를 점검하며, 단면도를 생성하는 것—과거 CAD로 하루 종일 걸리던 일이 이제 몇 분 만에 해결된다[^30].
+> **✦** The moment the Wanda Line first wrote BIM into the contract in 2011 was a quiet watershed in Taiwan's public engineering history. From that day on, none of Taiwan's major public engineering projects — metro, airport, HSR, light rail — would ask "how to do BIM" without it.
 
-충돌 탐지(clash detection)의 무대는 Autodesk Navisworks에 속한다. Navisworks Manage는 3D 내비게이션, 충돌 탐지, 보고서 출력, 4D 공정 시뮬레이션, 5D 견적 기능을 통합했다[^31]. 대만의 지하철 기전 공사에는 **CSD / SEM**이라는 전문 용어가 있다—CSD(Combined Service Drawing)는 기전 종합 도면이고, SEM(Structure / Electric / Mechanic)은 구조·전기·기계 통합 도면이다. 전통적 방식은 CAD로 도면을 중첩하고 종이로 대조하는 것이었지만, BIM 시대에는 Navisworks로 충돌 검사를 수행하여 3D 관점에서 충돌 지점을 찾는다[^32].
-
-「**CSD/SEM 도면 통합**」이라는 여섯 글자는 현재 대만 BIM 컨설팅 회사 웹사이트에 필수 서비스로 등재되어 있다.
+But these are all "indicator cases." All indicator cases in Taiwan share only one common flaw: **they are few**.
 
 ---
 
-## 중정, 호조, 다신, 다린조: 대만을 짓는 자들
+## Five Major Engineering Consultants + Two Organizations: The People Behind
 
-![2020년 6월 21일 오전 타이베이 대구장 공사 현장 가로경, 원경에 대구장 강구조 철판 외피가 아직 설계 중이며, 근경에 Hino 300 트럭이 충효동로 국부기념관 지하철역 5번 출구 근처 횡단보도를 지나고 있어 타이베이 최대 규모 경기장의 10여 년에 걸친 시공 현실과 다린조가 이 6.5만 톤 원형 강관 대구장의 시공 관리에서 수행한 역할을 반영함](/article-images/technology/taipei-dome-construction-cheng-2020.jpg)
-_타이베이 대구장 공사 현장, 2020-08-16, 충효동로 국부기념관역 5번 출구. Photo: Cheng-en Cheng, 2020-08-16. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Taipei_Dome_and_Hino_300_BEM-5593_%2850281669428%29.jpg).\_
+The people pushing BIM into public engineering have names and faces.
 
-대만 대형 건설 시장을 떠받치는 것은 일광 건설 회사 그룹이다—건축사 사무소보다 더 일찍 BIM을 접하고, 더 일찍 이를 생산 도구로 활용한 자들이다.
+**AECOM Engineering Consulting Co., Ltd.**: Established in 2007 through investment from the China Engineering Consultants Inc. (CECI, founded in 1969) [^18]. **In 2010, it was the first to establish a BIM Integration Center** [^19], one of the earliest in Taiwan's industry. Nearly 2,000 colleagues have 90% backgrounds in highways, railways, ports, airports, bridges, structures, tunnels, metro, architecture, mechanical, electrical, system control, BIM, ITS, PPP, etc. [^19].
 
-첫 번째는 **중정공정 주식회사(CTCI, 주식코드 9933)**이다. 중정은 1979년 중기사(財團法人中國技術服務社)와 중화개발공업은행, 중앙투자공사가 공동 투자하여 설립되었다[^33]—이 설립 배경은 매우 특수하다: 중기사(財團法人中國技術服務社)는 1959년 설립되어 대만 산업 발전을 위한 기술 이전 기관으로 활동했으며, 1970년대 석화 산업 번성기에 중유(中油) 등 국영 사업체로부터 다수의 기술 컨설팅 업무를 수탁받았다. 1979년 중기사가 공정 컨설팅 사업을 분리하여 중정이 탄생했다.
+**Sinotech Engineering Consultants**: Founded in 1970, transformed into an NPO in 1994, and then invested in Sinotech Engineering Consultants Co., Ltd. [^20]. Sinotech later turned BIM into something called "**Project Management Information System (PMIS)**": Based on the spirit of the ISO 19650 Common Data Environment (CDE), it contains seven main modules to assist in cross-disciplinary, cross-project information integration [^21].
 
-중정의 사업은 **EPC**(Engineering, Procurement, Construction, 공정 설계·조달·시공 일광 일광)이다: 정유, 석화, 화학, 전력, 철강, 저장·운송, 소각로, 공공 건설 및 환경 공학[^33]. 2021년 기준 직원 7,500명, 15개국에 지사·사무소를 설립했다[^33][^34]. 사우디아라비아 Amine 프로젝트, Saudi Kayan 에틸렌 분해로 일광 사업, SAMAC MMA and PMMA 일광 사업—이 이름들을 나열하면 대만 EPC 업체의 지난 20년간의 중동 행보가 된다[^33].
+**Evergreen Consulting Engineering Co., Ltd. (EGC)**: Founded in 1974. The structural design of Taipei 101 and the T&C Tower in Kaohsiung (85 floors) were both done by it [^22]. **CTBUH (Council on Tall Buildings and Urban Habitat) lists EGC as one of the top ten tall building structural consultants globally** [^22].
 
-2011년에 중정의 지분 구조를 바꾼 일이 발생했다: **일본 기업 치오다화학공업이 중정공정 지분을 취득하여 최대 주주가 되었다**[^33]. 대만 최대 국산 일광 건설 회사의 최대 주주가 일본 화학 건설 그룹이라는 것이다. 이 사실을 아는 사람은 많지 않다.
+On the academic side, there are two key nodes:
 
-> **⚠️ 논쟁적 관점**
-> 중정 같은 대형 EPC 회사의 해외 공사에 논란이 없는 것은 아니다. 2017년 중정은 인도의 천연가스 처리 플랜트 EPC 사업에서 중대한 지연과 대손이 발생했으며, 그룹은 「**국제 리스크 관치의 치명적 단절**」을 시인했다[^35]. 같은 해 국광석화 사업 철회, 마리료(麥寮) 육경(六輕) 주민 건강 논란이 지속되는 가운데, 중정이 참여한 다수의 석화 사업이 환경 서사에서 거론되었다. BIM이 이러한 대형 사업의 공정 정확성에 도움을 주었지만, 정확성이 토지, 노동, 환경의 정치 문제를 해결하지는 못한다.
+**National Taiwan University Civil Engineering Information Simulation and Management Research Center (NTUBIM)**: Established in 2011, with Director Professor **Hsieh Shang-Hsien** from the Department of Civil Engineering. Co-founder Associate Professor **Kuo Jung-Chin** wrote an article titled "**BIM Development Impacting the Current Building System**" in December 2011 [^23], which remains one of the landmark early documents in Taiwan's BIM academic discourse. NTUBIM later took on multiple commissioned projects from ABRI and the Public Construction Commission, leading Taiwan's BIM collaborative operation guidelines and the Chinese translation of ISO 19650.
 
-민간 건설 시장에는 또 다른 이름들이 있다: **호조營造**는 「첨단 기술 공장의 누적 완성 바닥 면적에서 국내 건축 경험 1위」라는 실적을 보유하고 있으며[^36], **다신공정(2535)**은 외부에서 「**TSMC의 전용 건설업체**」로 불리며, TSMC 난커(南科) 18P3 FAB 공장 상부 구조 공사 수주를 따냈다[^37]. 다신의 BIM 부서가 내부 브리핑에서 기록한 내용은 「**BIM을 기반 도구 플랫폼으로 활용하여 건축 프로젝트의 개발, 기획, 설계, 시공 관련 통합 및 조정을 수행**」한다는 것이다[^ 37]—하지만 이것은 다신의 수주 사업 중 일부에 불과하다.
+**Taiwan BIM Industry Association (TBIMA)**: Preceded by the Taiwan BIM Technology Enthusiasts Gathering in 2009, preparation started in 2011, and it was **officially established as a registered association under the Ministry of the Interior on March 10, 2012** [^3]. The association's main members come from Autodesk Taiwan's original training instructors in 2008: the lineage of Taiwan's BIM civil organizations grew directly from the Autodesk certified instructor circle.
 
-외국계 기업은 대만에 두 곳 구조적으로 존재한다. **대만다린조營造**는 일본 오바야시(Obayashi) 주식회사(도쿄 스카이트리를 지은 곳)가 1989년 대만에 설립한 지사로, 타이베이 101 전 공정, 타이베이 지하철 신의선, 타오위안 공항 T3, **타이베이 대구장** 등을 시공했다[^38]. **다린조 대만 지사 공식 사이트의 「회사 개요」 페이지에는 「시공 도면 관리 및 BIM 활용」이 주요 시공 관리 항목으로 명시**되어 있다[^38].
-
-> **💡 알고 계셨나요**
-> 타이베이 대구장의 강구조 총중량은 65,000톤으로, 전 세계에서 유일하게 돔 전체를 원형 강관으로 구축한 것이다[^39]. 강구조 설계는 대부분 Tekla Structures에서 수행한 후, 모델을 Navisworks로 가져와 다른 전문 분야(기전, 소방)와 충돌 검사를 수행한다. **BIM이 없었다면 대구장 규모의 강구조 프로젝트를 큰 실수 없이 완공하는 것은 거의 불가능했을 것이다**—이것이 다린조가 BIM을 회사 개요의 「주요 시공 관리 항목」 목록에 포함시킨 이유이기도 하다.
+> **📝 Curator's Note**
+> At the MOU signing ceremony for the Taiwan BIM Task Group on October 3, 2018 [^5], five faces sat at the table: BSI (British Standards Institution) Taiwan, NTU NTUBIM, Taiwan Construction Research Institute, Taiwan Building and Technology Center, and TBIMA. **The Ministry of the Interior's ABRI was a "guiding unit" rather than a "signing unit,"** a hierarchical arrangement worth pondering. It implies that the government acknowledges that for international BIM standards, it is best to let academia and civil organizations take the lead, stepping back to the second line. The following year, BSI released the "**Chinese Version of ISO 19650**" [^24], a small soft declaration of sovereignty: Taiwan finally had its own official Chinese translation of international BIM standards.
 
 ---
 
-## 인력 부족, 고령화, 외국인 노동자: 디지털 전환이 필수적인 이유
+## Revit, ArchiCAD, Tekla: The Undercurrents of Software Hegemony
 
-장면을 일반적인 건설 현장의 아침으로 옮기면: 오전 6시 30분, 인부들이 속속 도착한다. 절반 이상이 40대 이상의 「할아버지급」 기능공이다.
+![Autodesk Revit 2024 Operation Screen Screenshot, showing an object-oriented presentation of a simple partition wall along with doors and windows in 3D space, the left side is the component attribute panel, and the bottom right is the real-time synchronized preview of plan, elevation, and section views, reflecting the object-oriented modeling essence of BIM software](/article-images/technology/autodesk-revit-2024-bim-objects.png)
+_Autodesk Revit 2024 BIM Component Demo. Photo: DanielDefault, 2024. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Revit_2024.png)._
 
-**신베이시 직업재해 사망 통계에 따르면, 100여 건의 사망 사례 중 77% 이상이 40세 이상**이다[^40]. 이 수치는 토목기사 커뮤니티에서는 이미 상식이다. 대만 건설업의 노동력 고령화는 이미 진행 중인 추세가 아니라 현실이다.
+Walk into any firm in Taiwan that has adopted BIM, and 90% of the startup screens will show Revit.
 
-저출산으로 젊은이들이 건설업에 들어오지 않는다. 현장 조건이 열악하고, 임금 경쟁력이 없으며, 사상률이 높다는 세 가지가 겹쳐, 건설업의 채용 압력이 점점 커지고 있다[^40]. 노동부는 2024년에 건설업 외국인 노동자 1만 5천 명 할당량을 승인했고, 2026년 초에 이미 「**배정 완료 직전**」에 이르렀다[^41].
+"**In Taiwan, 90% of architects (with BIM design capabilities) use Revit Architecture**" — this is the number written on the website of an ArchiCAD distributor [^25]. Although it is a single-source citation, it aligns with industry perception: Revit is near-monopolistic in Taiwan's architectural design field.
 
-이것이 바로 디지털 전환이 건설업에서 필수가 된 이유이다.
+ArchiCAD is developed by the Hungarian company Graphisoft, running on Mac and Windows. It has a more intuitive design and a gentler learning curve than Revit, but users in Taiwan are significantly fewer [^26]. The agent Longting Information has held many demo sessions in Taipei's East District, and every time designers say: "I know how to use Revit, the firm only has Revit licenses." This is the lock-in of scale effects.
 
-**BIM 엔지니어 직위 수요가 크고, 신규 입문자 초봉은 35,000~45,000대만달러이며, 월 50,000+ 직위는 1111 인력은행에 104개 공고**가 있다[^42]. 그러나 「수요가 크다」와 「실제로 쓸 수 있다」는 별개의 문제이다—「**BIM을 배운다고 해서 반드시 유의미한 임금 성장이 따르는 것은 아니며, 대다수의 사람들이 비교적 경제적인 학습 경로를 선택한다**」[^43]. BIM 엔지니어의 경력 천장이 어디인지에 대해 업계에는 아직 합의가 없다.
+The steel structure field is another axis. **Tekla Structures (a Trimble company product, formerly XSteel) is currently the mainstream software for steel structure design in Taiwan** [^27]. Tekla's ability to handle steel structures is recognized by the industry in the fields of high-rise buildings, bridges, stadiums, and factories.
 
-더 깊은 구조적 문제는 BIM이 건축사를 「**도면 작성**」이라는 직업 범주에서 「**시스템 통합자**」라는 새로운 범주로 끌어올린다는 점이다. 도구 업그레이드는 표면적인 현상에 불과하다.
+Infrastructure (railways, highways, tunnels) leans towards Bentley Systems' MicroStation system [^28]. CTCI, Sinotech, and AECOM use MicroStation along with Bentley's OpenRoads / OpenBridge for large EPC general contracting projects and cross-border rail engineering.
 
-AutoCAD로 도면을 그리는 건축사는 2차원 선들의 집합을 그린다. 평면도, 입면도, 단면도—각 도면은 독립적이며, 평면도를 수정하고 입면도를 수정하는 것을 잊는 것이 일상이다. Revit / BIM을 사용하는 엔지니어는 하나의 정보 모델을 구축한다: 모든 선 뒤에 자재, 규격, 제조사, 가격, 시공 순서, 유지보수 주기가 연결된다[^44]. 평면도를 수정하면 입면도와 단면도가 자동으로 동기화된다.
+Running on these mainstream software are Autodesk's own Dynamo (visual programming) and the open-source pyRevit (Python extension framework). **In early 2016, Autodesk Taiwan specifically invited instructors from the Dynamo R&D team from Singapore to teach in Taiwan** [^29], after which Dynamo gained attention in Taiwan's BIM engineer circles. A typical scenario: an MEP engineer writes a Dynamo script to automatically sort the coordinates of all ducts, check clear heights, and generate section drawings — what used to take a whole day with CAD is now done in minutes [^30].
 
-베테랑 건축사가 젊은 BIM 엔지니어를 보며 「이것은 새로운 세대의 일」이라고 말하는 이면의 진짜 이유는 간단하다—**그 직업이 그들이 업계에 들어왔을 때의 「건축사」와는 이미 다른 업종에 속해 있기 때문**이다.
+The stage for clash detection belongs to Autodesk Navisworks. Navisworks Manage integrates 3D navigation, clash detection, report export, 4D schedule simulation, and 5D cost estimation [^31]. In Taiwan's metro MEP engineering, there is a specialized term called **CSD / SEM** — CSD (Combined Service Drawing) is the MEP comprehensive drawing, and SEM (Structure / Electric / Mechanic) is the structure-MEP integrated drawing. Traditional methods used CAD overlay and paper verification; in the BIM era, Navisworks runs clash checks, finding conflict points from a 3D perspective [^32].
 
-> **✦** 「BIM 모델이 종종 외주 작업으로 전환되어 실제 공사에서 유리되고, 많은 BIM 센터나 팀이 해산되었다」[^45]—이것이 대만대 BIM 연구센터가 대만 BIM 추진 현황에 대해 스스로 관찰한 내용이다.
-
----
-
-## USB-C 같은 프로토콜: Anthropic이 AI를 Revit에 연결한 열쇠
-
-2024년 11월 25일, Anthropic은 **Model Context Protocol(MCP)**라는 것을 오픈소스로 공개했다[^46].
-
-공지 원문은 이렇게 기술했다: 「**MCP is an open standard, open-source framework introduced by Anthropic to standardize the way artificial intelligence (AI) systems like large language models (LLMs) integrate and share data with external tools, systems, and data sources**」[^47]. Anthropic의 설명은 더 직관적이다: 「**MCP를 AI 애플리케이션용 USB-C 포트라고 생각하라**」[^6]—USB-C가 기기 연결을 통일한 것처럼, MCP는 AI와 데이터 소스, 도구의 연결 프로토콜을 통일하려 한다.
-
-MCP 공지와 함께 Python, TypeScript, C#, Java SDK가 공개되었고, Google Drive, Slack, GitHub, Git, Postgres, Puppeteer에 연결되는 사전 구축 MCP 서버가 함께 배포되었다[^46].
-
-그 이후의 일은 아무도 예상하지 못한 속도로 진행되었다.
-
-2025년 12월 10일, **CHIANG SHUOTAO**라는 개발자가 `REVIT_MCP_study`라는 이름의 저장소를 GitHub에 올렸다[^48]. 저장소 설명은 영어 여덟 단어뿐이었다: 「LEARN HOW TO BUILD UP YOUR REVIT MCP」. 언어 분포: **C# 54.2%, JavaScript 18.7%, PowerShell 14.3%, TypeScript 7.0%, HTML 3.3%, Shell 1.2%**[^48]. 2026년 5월 현재, 이 개인 저장소는 **73개의 스타와 85개의 포크**를 축적했다[^6].
-
-슈오타오의 GitHub 개인 페이지에는 위치가 「Tokyo」로 표시되어 있지만, README와 모든 튜토리얼 문서는 중국어 정체자로 작성되어 있으며, 내용은 대만 건축업계의 워크플로를 대량으로 반영하고 있다. 그의 주변 저장소들—`CAD_MCP_study`, `NAVISWORK_MCP`, `IFCSH`—은 BIM × MCP × AI의 개인 오픈소스 실험 시리즈를 구성한다[^49].
-
-이 사례를 어떻게 읽어야 할까?
-
-「대만에 자체 BIM_MCP가 있다」가 아니다—슈오타오의 저장소는 국제적 `mcp-servers-for-revit/revit-mcp`, Autodesk 자체의 Revit 2027 내장 MCP 서버[^7][^50]와 같은 생태계의 일부이다. 그 의미는 이것이다: **한 대만 개발자가 Anthropic이 MCP를 공개한 후 13개월도 되지 않아 70여 개의 스타를 받는 오픈소스 튜토리얼 프로젝트를 만들어, 국제 Revit MCP의 엔지니어링 실천을 중국어 커뮤니티로 연결한 것**이다.
-
-4개월 후인 **2026년 4월, Autodesk가 Revit 2027에 MCP 서버와 Autodesk Assistant를 내장한다고 발표**했다[^7]. 새로운 Autodesk Assistant는 이런 일을 할 수 있다: 「**기전 라벨이 없는 모든 방을 찾아라**」, 「**Phase 2의 모든 문의 내화 등급을 90분으로 설정하라**」, 「**이 층의 모든 급배수 뷰를 생성하라**」[^7]—자연어로 Revit을 조작하는 것이다.
-
-과거 Revit을 1~2년 배워야 할 수 있던 일을, 이제 중국어(또는 영어)로 한 마디 말하면 해결할 수 있다.
-
-> **📝 큐레이터 노트**
-> 타임라인을 정렬해 보면: 2014년 5월 23일 공사위원회 BIM 플랫폼 출범에서 2024년 11월 25일 Anthropic MCP 오픈소스까지 **10년 6개월**이 걸렸다. 대만 정부가 BIM을 추진한 이 10년은 「장려 시범」에서 「사안별 맞춤」으로 나아갔을 뿐, 의무화에는 이르지 못했다. Anthropic이 MCP를 오픈소스로 공개한 후 Autodesk Revit 2027 MCP 서버 내장 발표까지는 **17개월**에 불과했다. 기술 플랫폼이 산업 온보딩을 재편하는 속도가 정책 추진 속도를 훨씬 앞선다. **진짜 차이는 두 추진 모델의 구조**에 있다—의무 추진은 수백 명의 이해관계자를 조정하고, 수십 개의 산업 로비의 균형을 맞추며, 여러 법률을 조정해야 한다. 플랫폼 추진은 SDK를 오픈소스로 공개하고, 문서를 잘 작성하기만 하면 된다. 이 구조를 정확히 파악하는 것이 정부를 탓하거나 AI를 숭배하는 것보다 중요하다.
+"**CSD/SEM Drawing Integration**" — these six words are now a required service listed on the websites of Taiwan's BIM consulting firms.
 
 ---
 
-## 도면 작성에서 시스템 통합으로: 미완의 직업 재정의
+## CTCI, Hutsu, Dacin, Obayashi: Who Builds Taiwan
 
-렌즈를 1990년대 건축사 사무소로 되돌려 보자.
+![Taipei Dome Construction Site Street View, June 21, 2020, morning, the steel structure iron shell of the Taipei Dome in the distance is still under construction, a Hino 300 truck in the foreground passes the crosswalk near Exit 5 of the Guomindang Memorial Station on Zhongxiao East Road, reflecting the reality of Taipei's largest sports venue's decade-long construction and Obayashi's role in the construction management of this 65,000-ton circular steel pipe dome](/article-images/technology/taipei-dome-construction-cheng-2020.jpg)
+_Taipei Dome Construction Site, 2020-08-16, near Exit 5 of Guomindang Memorial Station on Zhongxiao East Road. Photo: Cheng-en Cheng, 2020-08-16. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Taipei_Dome_and_Hino_300_BEM-5593_%2850281669428%29.jpg).\_
 
-그때의 사무소 벽에는 제도대, T자 눈금자, 둘필(針筆), 청사진기가 걸려 있었다. 건축사가 평면도를 그리려면 A1 대형 도면 위에 둘필로 선을 그었고, 한 장을 완성하면 청사진기로 복사본을 찍어야 했다—기계가 윙윙거리며, 바탕이 파란 청사진이 기계 반대쪽에서 천천히 나왔다. 한 곳을 수정하면 도면 전체를 다시 그려야 했다.
+The main force supporting Taiwan's large-scale construction market is a group of general contracting engineering companies — they encountered BIM earlier than architectural firms and treated it as a production tool earlier.
 
-AutoCAD는 1992년에 Classic Mac OS 버전을, 1993년에 Microsoft Windows 버전을 출시했으며[^51], 대만 건축사 사무소는 1990년대 중반부터 대규모로 CAD로 전환했다. 전환의 고통은 약 10년간 지속되었다—베테랑 건축사들은 저항했고, 젊은 디자이너들은 수용했으며, 사무소 내부는 「CAD로 그리는 파」와 「탁상에서 그리는 파」로 나뉘었다.
+Number one is **CTCI Group (Stock Code 9933)**. CTCI was jointly invested by the China Technical Services Society (CTSS), China Development Industrial Bank, and Central Investment Corporation in 1979 [^33] — this background is special: CTSS, founded in 1959, is a technical transfer institution serving Taiwan's industrial development. In the 1970s, during the boom of the petrochemical industry, it undertook a large amount of technical consulting work from state-owned enterprises like CPC. In 1979, CTSS spun off its engineering consulting business, becoming CTCI.
 
-AutoCAD에서 Revit으로의 전환은 두 번째 전환이었다. **Autodesk는 2002년에야 Revit과 「Building Information Modeling」이라는 용어를 함께 내놓았다**[^52]—즉, 수작업에서 CAD로의 전환과 CAD에서 BIM으로의 전환 사이에는 약 20년의 간격이 있었다. 그러나 BIM 전환의 고통은 CAD 전환보다 더 깊었다. 이번에 요구되는 수준이 도구 교체에서 **사고방식 재구성**으로 올라갔기 때문이다.
+CTCI's business is **EPC** (Engineering, Procurement, Construction, a one-stop general contracting for engineering design/procurement/construction): refining, petrochemical, chemical, power, steel, storage and transportation, transportation, incinerators, public construction, and environmental engineering [^33]. As of 2021, it had 7,500 employees and established branches/offices in 15 countries [^33][^34]. The Saudi Arabia Amine Project, Saudi Kayan Ethylene Cracker General Contracting Project, SAMAC MMA and PMMA General Contracting Project — these names strung together are the Middle East footprint of Taiwan's EPC firms over the past 20 years [^33].
 
-CAD는 당신의 선을 디지털화한다. BIM은 건물 전체의 정보를 체계화할 것을 요구한다. 하나의 벽이 「2층 A구역 오피스 공간의 칸막이벽, 재질: 12mm 양면 석고보드에 75mm 경량 강골조, 내화 성능 1시간, 제조사 XX, 원가 YY, 시공 순서는 기전 배관 이후」라는 데이터 객체로 변하며, 더 이상 두 개의 평행선이 아니다.
+In 2011, an event that rewrote CTCI's shareholder structure occurred: **Japanese company Chiyoda Chemical Engineering acquired CTCI's shares, becoming the largest shareholder** [^33]. This is Taiwan's largest local general contracting company, now with its largest shareholder being a Japanese chemical engineering group. Most people don't know this trivia.
 
-전문 분야 간 통합도 함께 변했다. 전통적 프로세스는 건축사가 도면을 그리고, 구조기사가 도면을 그리고, 기전기사가 도면을 그린 후, 세 세트의 도면이 현장에서 최종적으로 중첩될 때 충돌이 발견되는 것이었다—한 개의 덕트가 한 개의 보를 관통하고, 배수관 하나의 위치가 구조 기둥 하나와 부딪히는 것. BIM 프로세스는 설계 단계에서 동일한 3D 모델 안에서 도면을 중첩하고, 충돌 검사와 충돌 검토를 컴퓨터에서 완료하는 것이다[^32].
+> **⚠️ Controversial Viewpoint**
+> Overseas engineering for large EPC firms like CTCI is not without controversy. In 2017, a major delay and bad debt occurred in CTCI's natural gas treatment plant EPC project in India, with the group admitting "**fatal gaps in international risk control**" [^35]. That same year, the Kuoguang Petrochemical project was cancelled, and health disputes among Miaoli Liu-Liu residents continued to fester; multiple petrochemical projects involving CTCI were named in environmental narratives. BIM helped with engineering precision in these major cases, but precision does not solve land, labor, and environmental political problems.
 
-「**설계 인터페이스 충돌 감소**」라는 여섯 글자는 대만의 모든 BIM 사례 연구 성과 보고서에 기재되어 있다[^14][^15]. 그러나 이 여섯 글자 뒤의 직업적 변화는 이것이다: 건축사, 구조기사, 기전기사, 시공업체 네 당사자의 권력 구조가 재편되고 있다. **과거 건축사가 설계 단계의 단일 저자였다면, BIM 시대의 설계는 다자 협업의 시스템 통합**이다.
+In the private developer market, there is another group of names: **Hutsu Construction** has "accumulated the largest total floor area of high-tech factory buildings in the country" [^36]; **Dacin Engineering (2535)** is viewed by outsiders as "**TSMC's exclusive construction firm**," winning the order for the upper structure engineering of TSMC's Nankang 18P3 FAB plant [^37]. Dacin's BIM department wrote in internal briefings: "**Using BIM as a foundational tool platform for the development, planning, design, and construction-related integration and coordination of architectural projects**" [^37] — but this only accounts for a small portion of Dacin's contracted projects.
 
-이 직업 재정의는 아직 완성되지 않았다.
+Foreign firms have two structural presences in Taiwan. **Taiwan Obayashi Construction** is the branch established by Japanese Obayashi Corporation (the builder of Tokyo Skytree) in 1989, constructing the entire Taipei 101, Taipei Metro Xinyi Line, Taoyuan Airport T3, and **Taipei Dome** [^38]. **Obayashi's Taiwan Branch website's "Company Profile" page explicitly lists "Construction Drawing Management and BIM Application" as main construction management items** [^38].
 
-> **✦** 「**발주처가 BIM 활용에 대한 충분한 인식이 부족하여, 종종 전통적인 공정 절차로 작업함으로써 BIM 기술의 효능이 제한된다**」[^53]—이것이 BSI가 대만 발주처 측에 대해 가장 직접적으로 관찰한 내용이다. BIM이 추진되지 않는 병목은 발주처 측에 있으며, 엔지니어가 할 줄 아느냐 모르느냐는 부차적인 문제이다.
-
----
-
-## 앞으로의 일
-
-2026년 5월, 대만에서 BIM의 상황은 이렇다:
-
-- 중앙 정부가 12년간 추진했으나, 여전히 「사안별 맞춤」이며 전면 의무화하지 않았다[^2]
-- 타이베이시와 신베이시가 각각 2014년과 2018년부터 건축 허가 단계에서 BIM 모델을 요구했으나, 현·시별 규범이 각각 다르다[^4][^11]
-- 대형 공정 컨설턴트(대만세희, 중흥, 영준)와 대형 시공업체(중정, 호조, 다신, 다린조) 모두 BIM을 사용하고 있으며, BIM 엔지니어 직위 수요가 크다[^17][^19][^33][^42]
-- 중소형 건축사 사무소 대부분은 여전히 AutoCAD를 주로 사용하며, BIM 보급률은 한 자릿수 백분율로 추정된다[^43][^45]
-- Anthropic MCP가 2024년 11월 오픈소스로 공개된 후 17개월 만에 Autodesk Revit 2027 MCP 서버 내장 발표가 이루어졌다[^7][^46]
-- 한 대만 개발자가 73개의 스타를 받은 Revit MCP 튜토리얼 저장소를 작성하여 국제 생태계를 중국어 커뮤니티로 연결했다[^6][^48]
-
-이 여섯 가지를 연결해 보면, **대만 BIM은 기술 플랫폼이 외부에서 직업을 재정의하고 있는 이야기**이며, 성숙한 산업의 모습에는 아직 거리가 있다. 정부 추진 속도가 기술 반복 속도를 따라잡지 못하고, 민간 채택 속도가 인구 고령화를 따라잡지 못하며, 대만 건설업계는 동시에 세 가지 힘에 의해 당기고 있다: 고령화된 전통 종사자, 인력 부족의 현장, AI × BIM의 새로운 세대 도구.
-
-다음 10년간, 대만의 「건축사」라는 직업은 지금과 다른 모습이 될 수 있다. 도면 작성 부분은 AI에게 맡겨질 것이다—한 마디 「**Phase 2의 모든 문의 내화 등급을 90분으로 설정하라**」[^7]라고 말하면 프로젝트 전체의 문이 수정된다. 건축사의 업무는 「**시스템 통합자**」, 「**발주처와 기술 사이의 통역자**」, 「**다자 협업의 큐레이터**」에 더 가까워질 것이다.
-
-2014년 5월 23일 공사위원회 BIM 플랫폼이 첫 회의를 열었을 때, 대만 고속철도 먀오리 역은 아직 지어지지 않았다. 2026년 4월 Autodesk가 Revit 2027 MCP 내장을 발표한 날, TSMC의 가오슝 다음 fab은 이미 완전한 BIM 도면으로 준비 중이었다. 12년의 「사안별 맞춤」은 정부 자신도 예상하지 못한 곳에 도달했다—미국 캘리포니아 Anthropic 사무실에서 오픈소스로 공개된 하나의 프로토콜이 플랫폼 측에서 산업 전체의 온보딩 곡선을 재작성하며, 정부 의무화라는 원래의 주로(主路)를 우회한 것이다.
-
-슈오타오가 2025년 12월 `REVIT_MCP_study`를 GitHub에 올린 날[^48], 공사위원회 BIM 플랫폼 출범으로부터 정확히 11년 7개월이었다. 그 사이 12년간 대만 건축업계는 수작업 청사진에서 3D 모델로, 개별 시도에서 국가 표준으로, 도구 업그레이드에서 직업 재정의로 이어지는 긴 여정을 걸었다. **이 길은 아직 끝나지 않았다—하지만 다음 구간이 어떻게 펼쳐질지는 더 이상 대만 정부의 손에만 있지 않다**.
+> **💡 Did You Know?**
+> The entire steel structure of the Taipei Dome weighs 65,000 tons, making it the only dome in the world entirely constructed using circular steel pipes [^39]. Steel structure design is mostly done in Tekla Structures, and the model is imported into Navisworks for clash detection with other disciplines (MEP, fire protection). **Without BIM, completing a steel structure project of the Taipei Dome's scale without major errors would be almost impossible** — which is why Obayashi lists BIM in the "main construction management items" list of its company profile.
 
 ---
 
-**더 읽기**:
+## Labor Shortage, Aging, Migrant Workers: Why Digital Transformation is Inevitable
 
-- [대만 건축](/art/台灣建築) — 판석옥(石板屋)에서 초고층 빌딩까지의 건축 문화 서사, 본문은 그 공학 디지털화 층의 자매편
-- [사회주택과 거주 정의](/society/社會住宅與居住正義) — BIM의 사회주택 유지보수 관리 적용은 내무부 건축연구소의 최근 중점 계획
-- [대만 기업: TSMC](/economy/台灣企業：台積電) — BIM의 TSMC 팹 공장 적용은 다신, 호조 등 시공업체의 주요 실전 영역
-- [대만 AI 발전](/technology/AI發展) — Anthropic MCP와 Revit 2027 MCP 내장은 AI × 산업의 구체적 사례
-- [반도체 산업](/technology/半導體產業) — 팹 공장 공사 통합 솔루션 + BIM 스마트 건축은 반도체 클러스터 확장의 공학적 기반
+Pull the scene to a typical morning on a construction site: 6:30 AM, workers arrive one by one. More than half are "grandpa-level" workers over 40 years old.
 
-## 이미지 출처
+**New Taipei City Government's occupational disaster death statistics show that among 100+ death cases, over 77% are over 40 years old** [^40]. This number is already common knowledge in the civil engineer circle. Taiwan's construction industry labor force aging is a reality, not a trend in the making.
 
-본문은 Wikimedia Commons CC 라이선스 이미지 3장을 사용하며, 모두 `public/article-images/technology/`에 캐시되어 소스 서버의 핫링크를 방지한다:
+Low birth rates mean young people are not entering the construction industry. Difficult site conditions, uncompetitive salaries, and high casualty rates — the combination of these three things makes recruitment pressure in the construction industry increasingly severe [^40]. The Ministry of Labor agreed to open 15,000 migrant worker quotas for the construction industry in 2024, and by early 2026, they were "**about to be fully allocated**" [^41].
 
-- [FreeCAD 1.0 Dark BIM Example](https://commons.wikimedia.org/wiki/File:FreeCAD_1.0_Dark_BIM_Example.png) — Photo: Maxwxyz, 2024-10-07, CC BY 4.0 (히어로 이미지: 오픈소스 BIM 도구의 3D 모델 표현)
-- [Autodesk Revit 2024 객체 시범](https://commons.wikimedia.org/wiki/File:Revit_2024.png) — Photo: DanielDefault, 2024, CC BY-SA 4.0 (인라인 이미지: Revit 객체 지향 모델링 화면)
-- [Taipei Dome and Hino 300 BEM-5593](https://commons.wikimedia.org/wiki/File:Taipei_Dome_and_Hino_300_BEM-5593_%2850281669428%29.jpg) — Photo: Cheng-en Cheng, 2020-08-16, CC BY-SA 2.0 (인라인 이미지: 대구장 공사 현장 6.5만 톤 강구조 설치 중)
+This is why digital transformation has become a must-do for the construction industry.
 
-전체 미디어 라이선스 매트릭스 기록은 [`reports/research/2026-05/台灣BIM與營建科技.md`](../../reports/research/2026-05/台灣BIM與營建科技.md) §미디어 라이선스 매트릭스 삼표에 수록되어 있다.
+**BIM engineer job demand is high, with new hires earning 35,000-45,000 TWD/month, and 104 job positions with monthly salaries of 50,000+ TWD on 1111 Job Bank** [^42]. But "high demand" and "usable" are two different things — "**Learning BIM does not necessarily lead to significant salary growth, and most people choose more economical learning paths**" [^43]. Where is the career ceiling for BIM engineers? The industry has no consensus.
 
-## 참고 자료
+A deeper structural problem is: BIM pulls architects from the professional category of "**drafting**" to the new category of "**system integrator**." Tool upgrade is just the surface.
 
-[^1]: [중화민국 행정원 공사위원회: 공공공사 건축정보모델링(BIM) 전문 페이지](https://www.pcc.gov.tw/content/index?eid=1345&type=C) — 행정원 공사위원회 공식 BIM 추진 플랫폼 페이지, 2014년 5월 23일 출범, 3단계 추진 전략 「장려 시범／시범 실행／2017년부터 일정 금액 이상 공공공사」의 공식 정책 문서 기록.
+Architects drawing with AutoCAD draw collections of 2D lines. Drawing plans, elevations, sections — each drawing is independent, changing the plan and forgetting the elevation is daily routine. Engineers using Revit/BIM build an information model: behind every line is bound material, specification, vendor, price, construction sequence, maintenance cycle [^44]. Change the plan, and the elevation and section automatically sync.
 
-[^2]: [감사부 공공정책 온라인 참여 플랫폼: 공사회 BIM 추진 전략 의견 수렴](https://cy.join.gov.tw/policies/detail/8e95c8d6-ce87-4e05-afce-c46a33eb6f89) — 감사부 개방 토론 페이지, 공사회 추진 원칙이 「사안별 맞춤, 점진적 추진」이며 전면 의무가 아님을 기록. 60개 이상의 공사 입찰 기관이 BIM 사용, 적용 사업 수 120건 이상의 공식 통계.
+Old architects look at young BIM engineers and say "this is a new generation's thing," but the real reason is simple — **that profession belongs to a different trade than the "architect" they entered the industry with**.
 
-[^3]: [대만건축정보모델협회(TBIMA) 공식 웹사이트](https://sites.google.com/view/tbima) — 내무부 등록 사단법인 공식 사이트, 2009년 모임 기원, 2011년 설립 준비, 2012년 3월 10일 정식 설립, 주요 회원이 2008년 Autodesk Taiwan 공인 강사 출신이라는 역사적 맥락 기록.
+> **✦** "**BIM models often become outsourced work, disconnected from actual engineering, and many BIM centers or teams dissolve**" [^45] — this is NTU BIM Research Center's own observation of Taiwan's BIM promotion status.
 
-[^4]: [타이베이시 도시발전국: 건축공사 BIM 준공 모델 속성 자료 작업 규범 v2.0](https://udd.gov.taipei/assets/50-10660/Documents/竣工模型屬性資料作業規範v2.0_20181109_new.pdf) — 타이베이시 도시발전국 2018년 11월 9일 공고한 공식 규범, COBie 국제 형식 참고, IFC 표준 데이터 변환 요구의 구체적 규정.
+---
 
-[^5]: [BSI, 관학연 협력하여 「Taiwan BIM Task Group」 MOU 서명](https://www.bsigroup.com/zh-TW/about-bsi/media-centre/press-release/2018-/october/bsitaiwan-bim-task-group/) — BSI 대만 2018년 10월 3일 MOU 서명 보도자료, 5개 서명 단위(BSI, 대만대 NTUBIM, 대만건설연구원, 대만건축센터, TBIMA)와 내무부 건축연구소 지도 역할 기록.
+## The USB-C-like Protocol: How Anthropic Connected AI to Revit
 
-[^6]: [shuotao/REVIT_MCP_study GitHub 저장소](https://github.com/shuotao/REVIT_MCP_study) — CHIANG SHUOTAO(슈오타오)의 개인 오픈소스 Revit MCP 튜토리얼 프로젝트, 2025년 12월 생성, 2026년 5월 기준 73개 스타, 85개 포크, C# 54.2% + JavaScript 18.7% + PowerShell 14.3% 등 언어 분포.
+On November 25, 2024, Anthropic open-sourced something called **Model Context Protocol (MCP)** [^46].
 
-[^7]: [Autodesk Developer Blog: Revit API Agents, MCP, Copilot and Codex](https://blog.autodesk.io/revit-api-agents-mcp-copilot-and-codex/) — Autodesk 공식 개발자 블로그 2026년 4월 발표, Revit 2027 MCP 서버 + Autodesk Assistant가 자연어로 Revit 모델 조작 지원.
+The official announcement was written scientifically: "**MCP is an open standard, open-source framework introduced by Anthropic to standardize the way artificial intelligence (AI) systems like large language models (LLMs) integrate and share data with external tools, systems, and data sources**" [^47]. Anthropic's explanation is more colloquial: "**Think of MCP like a USB-C port for AI applications**" [^46] — just as USB-C unified device connections, MCP aims to unify the connection protocol between AI and data sources/tools.
 
-[^8]: [ONC Lawyers: BIM 건축정보시뮬레이션의 건설업계 채택 및 법적 영향](https://www.onc.hk/zh_HK/publication/adoption-of-bim-and-its-legal-complications-for-the-construction-industry) — 홍콩 법률사무소 기사, 홍콩 발전국이 공사비 3,000만 홍콩달러 이상 공사에 BIM 사용 의무화 정책 대조 기록.
+Accompanying the MCP announcement were Python, TypeScript, C#, Java SDKs, plus pre-built MCP servers connecting Google Drive, Slack, GitHub, Git, Postgres, Puppeteer [^46].
 
-[^9]: [중화민국 내무부 건축연구소: 건축정보모델링 BIM 응용 추진 계획](https://www.abri.gov.tw/News_Content_Table.aspx?n=807&s=315634) — ABRI 공식 계획 페이지, 2015년 4년 중기 계획과 2019년 제2기 계획의 목표 및 범위 기록.
+The following events happened at a speed no one predicted.
 
-[^10]: [내무부 건축연구소: 건축정보모델(BIM) 발전 성과 응용 조사 및 추진 방안 연구](https://www.abri.gov.tw/News_Content_Table.aspx?n=807&s=39612) — ABRI 위탁 연구 성과 보고서, 제2기 계획 「건축 기술 디지털 업그레이드」+ 「건축 디지털 거주 환경」 두 대목표 및 BIM × GIS × IoT 디지털 시티 통합 방향 기록.
+On December 10, 2025, a developer named **CHIANG SHUOTAO** pushed the repository `REVIT_MCP_study` to GitHub [^48]. The repository description had only eight English words: "LEARN HOW TO BUILD UP YOUR REVIT MCP." Language distribution: **C# 54.2%, JavaScript 18.7%, PowerShell 14.3%, TypeScript 7.0%, HTML 3.3%, Shell 1.2%** [^48]. By May 2026, this personal repo had accumulated **73 stars and 85 forks** [^6].
 
-[^11]: [신베이시 공무국: 건축허가 컴퓨터 보조 심사 시스템](https://www.bim.ntpc.gov.tw/) — 신베이시 BIM 건축 허가 심사 시스템 공식 사이트, 2014년 최초 BIM 모델 건축 허가, 20개 이상 완성 BIM 모델 축적 성과 및 「신베이시 공공건물 BIM 준공 모델 정보 제출 기준」 기록.
+Shuotao's GitHub personal page location is written as "Tokyo," but the README and all teaching documents are in Traditional Chinese, with content heavily echoing Taiwan's construction industry workflows. His peripheral repositories — `CAD_MCP_study`, `NAVISWORK_MCP`, `IFCSH` — form a personal open-source experiment series of BIM × MCP × AI [^49].
 
-[^12]: [buildingSMART International: Industry Foundation Classes (IFC)](https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/) — buildingSMART International 공식 사이트 IFC 표준 페이지, ISO 16739-1:2024 국제 표준, 덴마크 2010년부터 공공 건설에 IFC 의무화 등 국제 채택 상황 기록.
+How to read this case?
 
-[^13]: [내무부 건축연구소: 건축정보모델링 BIM 응용 추진 계획 성과 보고서(2023년)](https://ws.moi.gov.tw/001/Upload/404/relfile/9489/315634/0cccc6e2-2dc6-496f-a45f-69b60e2811b1.pdf) — ABRI 2023년 성과 보고서, 「공공 부문 대부분 BIM 활용이 설계 및 시공 단계에 속하며, 운영 관리는 여전히 전통적 방식을 채택」한다는 공식 진단.
+It is not "Taiwan has its own BIM_MCP" — Shuotao's repo is part of the same ecosystem as the international `mcp-servers-for-revit/revit-mcp` and Autodesk's own Revit 2027 built-in MCP server [^7][^50]. Its significance lies in: **a Taiwanese developer, less than 13 months after Anthropic announced MCP, created a 70-star open-source teaching project, connecting international Revit MCP engineering practice back to the Chinese-speaking community**.
 
-[^14]: [신베이시 지하철공사국: 지하철 완다 라인 BIM 응용](https://www.dorts.ntpc.gov.tw/documentary/articleInfo/P9z2zp0nZrDp?page=216) — 신베이시 지하철공사 공사 문집 기록, 타이베이 지하철 완다 라인이 「최초로 BIM을 계약에 포함시킨 공공공사」, 설계 인터페이스 충돌 감소의 공식 기록.
+Four months later, **in April 2026, Autodesk announced that Revit 2027 would include a built-in MCP server and Autodesk Assistant** [^7]. The new Autodesk Assistant can do things like: "**Find all rooms missing MEP labels**," "**Set the fire rating of all doors in Phase 2 to 90 minutes**," "**Generate all plumbing views for this floor**" [^7] — operating Revit with natural language.
 
-[^15]: [Flow BIM Service: 스마트 상업용 건물 사례 공유](https://bim.flow.tw/smartoffice-globalshowcase/) — 루오수이(若水) 국제 BIM 컨설팅 회사 사례 공유, 대만 고속철도 먀오리 역 BIM 적용 「설계 변경 비용 20% 절감, 2개월 앞당겨 착공」의 구체적 데이터 인용.
+Things that used to take one to two years to learn in Revit can now be done by saying a sentence in Chinese (or English).
 
-[^16]: [자유시보: 타오위안 공항 제3여객터미널 낙찰, 삼성물산과 영공공정 팀이 신대만달러 445억 원으로 낙찰](https://ec.ltn.com.tw/article/breakingnews/3414669) — 자유시보 2021년 3월 보도자료, 타오위안 공항 T3 본체 토목공사 낙찰, 삼성물산과 영공공정 팀 구성의 구체적 내용 기록.
+> **📝 Curator's Note**
+> Aligning the timeline: From the PCC BIM platform launch on May 23, 2014, to Anthropic open-sourcing MCP on November 25, 2024, **10 years and 6 months passed**. During these 10 years of government BIM promotion, it went from "encouraging pilot" to "case-by-case adaptation," never reaching mandatory status. From Anthropic open-sourcing MCP to Autodesk Revit 2027 built-in MCP announcement, **only 17 months passed**. The speed at which a technology platform rewrites industry onboarding far exceeds the speed of policy promotion. **The real gap lies in the structure of two different promotion modes** — mandatory promotion requires coordinating hundreds of stakeholders, balancing dozens of industry lobbies, and adjusting multiple laws; platform promotion only requires open-sourcing the SDK and writing good documentation. Seeing this structure clearly is more important than complaining about the government or worshipping AI.
 
-[^17]: [iThome: 건설업계, BIM으로 건축 디지털 트윈 실현—대만세희 사례](https://www.ithome.com.tw/people/137308) — iThome 2021년 심층 보도, 대만세희 총괄엔지니어 린야오창(林曜滄) 인터뷰, 세희의 봉산역, 팔광산 터널 등 BIM 전 생애주기 사례, 타오위안 공항 T3 국제 협업 BIM 프로세스 기록.
+---
 
-[^18]: [재단법인 중화공사사(CECI): 클래식 50 대사건](https://www.ceci.org.tw/modules/article-content.aspx?s=13&i=226) — CECI 공식 사이트 50주년 대사건, 1969년 설립, 2007년 대만세희공정컨설턴트 주식회사 분리 투자 설립의 공식 역사 기록.
+## From Drafting to System Integration: An Unfinished Professional Redefinition
 
-[^19]: [대만세희공정컨설턴트 주식회사: 회사 소개](https://www.104.com.tw/company/d1w3jw0) — 대만세희 104 구직 페이지, 약 2,000명 직원 중 90%가 도로, 철도, 공항, 교량, BIM, ITS, PPP 등 전문 배경 보유, 2010년 최초 BIM 통합센터 설립의 공식 정보 기록.
+Push the lens back to the 1990s architectural firm.
 
-[^20]: [재단법인 중흥공정컨설턴트사: 중흥공정 50주년을 향해](https://50th-anniversary.sinotech.org.tw/about_ltd.html) — 중흥공정컨설턴트사 50주년 공식 사이트, 1970년 설립, 1994년 NPO 전환 후 중흥공정컨설턴트 주식회사 분리 투자 역사 기록.
+Back then, the firm's walls hung drafting tables, T-squares, needle pens, and blue-line printers. Architects drew plan views with needle pens on A1 large paper, and after finishing one, they sent it out to the blue-line printer for copies — the machine hummed, and blue-background white-line blueprints slowly rolled out from the other end. Change one thing, redraw the whole sheet.
 
-[^21]: [Autodesk University: 중흥공정 BIM 협업 플랫폼의 설계 및 응용](https://www.autodesk.com/autodesk-university/class/zhongxinggongchengBIMxietongzuoyepingtaizhishejiyuyingyong-2020) — Autodesk University 2020년 기술 브리핑, 중흥공정이 ISO 19650 CDE 환경 기반으로 BIM 이슈 추적 모듈과 PMIS 7대 모듈을 구축한 기술 아키텍처 기록.
+AutoCAD released its Classic Mac OS version in 1992 and its Microsoft Windows version in 1993 [^51]. Taiwan architectural firms began large-scale adoption of CAD from the mid-1990s. The transition pain lasted about ten years — old architects resisted, young designers embraced, and firms split into two factions: "drawing on CAD" and "drawing on the desk."
 
-[^22]: [영준공정컨설턴트 주식회사(Evergreen Consulting Engineering) 공식 사이트](https://www.egc.com.tw/) — 영준 공식 사이트, 1974년 설립, 80명 이상 전문 인력, 타이베이 101과 가오슝 85층 T&C Tower 구조 설계, CTBUH 세계 10대 초고층 구조 컨설턴트 중 하나라는 공식 정보 기록.
+From AutoCAD to Revit was the second transition. **Autodesk only introduced the term "Building Information Modeling" alongside Revit in 2002** [^52] — meaning, from hand-drawing to CAD and from CAD to BIM, the interval was about twenty years. But the pain of BIM transition is deeper than CAD transition, because this time the required level rose from tool replacement to **mindset restructuring**.
 
-[^23]: [대만대 BIM 연구센터: BIM 발전이 현행 건축 체제에 미치는 충격(궈룬친, 2011.12)](https://www.ntubim.net/bim2356027396/bim-201112) — 대만대 NTUBIM 학술 논의 대표적 초기 문헌, 부교수 궈룬친이 2011년에 발표한 대만 BIM 학술 논의 대표작 중 하나.
+CAD digitizes your lines. BIM requires you to systematize the information of the entire building. A wall becomes a data object: "Partition wall for 2nd Floor Zone A office space, material: 12mm double-sided gypsum board plus 75mm light steel keel, fire resistance 1 hour, vendor XX, cost YY, construction sequence after MEP piping," no longer just two parallel lines.
 
-[^24]: [BSI: 건설업 디지털화에 기여, Taiwan BIM Task Group, BIM 국제 표준 《ISO 19650 중국어판》 발표](https://www.bsigroup.com/zh-TW/about-bsi/media-centre/press-release/2019/20197/iso-19650-tw-standard-launch/) — BSI 2019년 보도자료, ISO 19650 중국어판 발표, 내무부 건축연구소 왕룽진(王榮進) 소장 감독, 대만대 NTUBIM 번역 지원의 구체적 역할 분담 기록.
+Cross-disciplinary integration also changed. The traditional process was architects drawing plans, structural engineers drawing plans, MEP engineers drawing plans, and three sets of drawings finding conflicts when overlaid on site — a duct passing through a beam, a drain pipe hitting a structural column. The BIM process overlays drawings in the same 3D model during the design phase, completing clash checks and conflict reviews on the computer [^32].
 
-[^25]: [BIM-API: PyRevit + Dynamo Scripts](https://www.bim-api.com/en/blog/pyrevit-dynamo-scripts/) — BIM-API 블로그 기사, 「대만에서 BIM 설계 능력을 갖춘 건축사의 90%가 Revit Architecture를 사용한다」는 업계 관찰 수치 기록.
+"**Reducing design interface conflicts**" — these six words are written in the effectiveness reports of all Taiwan BIM case studies [^14][^15]. But the professional change behind these six words is: the power structure of architects, structural engineers, MEP engineers, and construction firms is being reshuffled. **In the past, the architect was the single author of the design phase; in the BIM era, design is a system integration of multi-party collaboration.**
 
-[^26]: [룽팅정보 Graphisoft ArchiCAD 대리점 공식 사이트](https://www.academicd.com/) — Graphisoft 대만 대리점 룽팅정보 공식 사이트, ArchiCAD의 대만 내 판매 지원 및 교육 자원, 「Revit보다 우수한 BIM 소프트웨어」라는 시장 포지셔닝 기록.
+This professional redefinition is not yet complete.
 
-[^27]: [BIM Explorer: Tekla Structures 사용 경험 공유](https://tpuaup.blogspot.com/2013/05/tekla-structures.html) — BIM 블로그 기사, Tekla Structures가 대만 강구조 설계의 주류 소프트웨어, 강구조 복잡 구조(체육관, 교량, 공장) 처리의 업계 현황 기록.
+> **✦** "**Owners lack sufficient understanding of BIM applications, often operating with traditional engineering processes, limiting BIM technology effectiveness**" [^53] — this is BSI's most direct observation of Taiwan's owner-side issues. The bottleneck in pushing BIM is on the owner side; whether engineers can use it or not is secondary.
 
-[^28]: [오오츠카(大塚)정보기술: MicroStation 인프라 설계](https://www.oitc.com.tw/products-detail/MicroStation/79) — 대만 Bentley MicroStation 대리점 공식 사이트, MicroStation의 대만 철도, 도로, 터널, 교량 등 인프라 공사 적용 범위 기록.
+---
 
-[^29]: [디지털건축학원 BIM+ Studio: Dynamo 건축 기초 과정](https://bimstudio.tabc.org.tw/blogs/bim%E7%9F%A5%E8%AD%98%E5%BA%AB/49627) — 대만건축센터 BIM+ Studio 과정 소개, 2016년 초 Autodesk Taiwan이 싱가포르에서 Dynamo 개발팀 강사를 초빙하여 대만에서 강좌를 개설한 핵심 시점 기록.
+## What Comes Next
 
-[^30]: [WeBIM Services: Dynamo가 Revit의 세계를 뒤집는 방법](https://webim.com.tw/en/tech-en/dynamo-application-webim-3/) — WeBIM 기술 기사, Dynamo의 대만 BIM 엔지니어 커뮤니티에서의 구체적 적용 사례(덕트 좌표 정렬, 순고 판단, 단면도 자동 생성) 기록.
+In May 2026, the situation of BIM in Taiwan is as follows:
 
-[^31]: [Autodesk Navisworks 제품 개요](https://www.quickly.com.tw/autodesk/navisworks.php) — Autodesk 대만 대리점 콰이클리(快克利) 공식 사이트, Navisworks Manage의 3D 내비게이션, 충돌 탐지, 보고서 출력, 4D 공정 시뮬레이션, 5D 견적 통합 기능 기록.
+- The central government has pushed for 12 years and still remains "case-by-case," without universal mandate [^2]
+- Taipei and New Taipei have required BIM models at the building permit level since 2014/2018, but county/city specifications differ [^4][^11]
+- Large engineering consultants (AECOM, Sinotech, Evergreen) and large construction firms (CTCI, Hutsu, Dacin, Obayashi) are all using it, with high demand for BIM engineer positions [^17][^19][^33][^42]
+- Most small and medium architectural firms still rely on AutoCAD, with BIM penetration rate estimated in single-digit percentages [^43][^45]
+- 17 months after Anthropic MCP open-sourcing in 2024-11, Autodesk Revit 2027 built-in MCP server was announced [^7][^46]
+- A Taiwanese developer wrote a 73-star Revit MCP teaching repo, connecting the international ecosystem back to the Chinese-speaking community [^6][^48]
 
-[^32]: [airitiLibrary: BIM 보조 지하철 CSD／SEM 설계 자동화 발전 및 응용](https://www.airitilibrary.com/Article/Detail/0257554X-202107-202107290004-202107290004-77-85) — 화이(華藝) 온라인 도서관 학술 논문, 대만 지하철 기전 공사 CSD(Combined Service Drawing)와 SEM(Structure / Electric / Mechanic)의 BIM 통합 방법론 기록.
+Connecting these six points, **Taiwan's BIM is a story of a profession being redefined from the outside by a technology platform**, still far from the appearance of a mature industry. The government's promotion speed cannot keep up with technology iteration, and the private sector's adoption speed cannot keep up with population aging. Taiwan's construction industry is pulled by three forces simultaneously: aging traditional practitioners, labor-short construction sites, and the new generation of AI × BIM tools.
 
-[^33]: [중정그룹 - 위키백과](https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E9%BC%8E%E9%9B%86%E5%9C%98) — 위키백과 중정그룹 항목, 1979년 중기사와 중화개발공업은행, 중앙투자공사 공동 투자 설립, 2011년 일본 치오다화학공업 최대 주주 취득, 직원 7,500명(2021), 사우디아라비아 Amine / Saudi Kayan / SAMAC MMA 등 해외 대형 EPC 사례 기록.
+In the next decade, the profession of "architect" in Taiwan may no longer look like it does now. The drafting part will be handed over to AI — changing the door fire rating for the entire project with a single sentence "**Set the fire rating of all doors in Phase 2 to 90 minutes**" [^7]. Architects' work will be closer to "**system integrator**," "**translator between owners and technology**," "**curator of multi-party collaboration**."
 
-[^34]: [CTCI Group 중정그룹 공식 웹사이트](https://www.ctci.com/www/ctci2022/page.aspx?L=CH) — 중정공정 공식 웹사이트, 일광 공사 업무, EPC 모델, 15개국 지사·사무소 영업 범위 기록.
+When the Public Construction Commission BIM platform first met on May 23, 2014, Taiwan HSR's Miaoli Station had not yet been built. On April 2026, when Autodesk announced Revit 2027's built-in MCP, TSMC's next fab in Kaohsiung was already preparing with full BIM drawings. Twelve years of "case-by-case adaptation" reached a place it didn't expect — a protocol open-sourced from Anthropic's office in California, California, rewriting the entire industry's onboarding curve from the platform side, bypassing the government's mandatory path which was originally the main route.
 
-[^35]: [환일선(換日線): 중정 해외 거액 대손 위기에서 본 대만 일광업체 「국제 리스크 관리」의 치명적 단층](https://crossing.cw.com.tw/article/19832) —
+On December 10, 2025, when Shuotao pushed `REVIT_MCP_study` to GitHub [^48], it was exactly 11 years and 7 months since the PCC BIM platform was launched. In between those twelve years, Taiwan's construction industry traversed a long path from hand-drawn blueprints to 3D models, from individual attempts to national standards, from tool upgrades to professional redefinition. **This road is not finished — but how its next segment proceeds is no longer entirely in the hands of the Taiwan government.**
+
+---
+
+**Further Reading**:
+
+- [Taiwan Architecture](/art/台灣建築) — An architectural culture narrative from stone houses to skyscrapers, this article is the sister piece to its engineering digitalization layer
+- [Social Housing and Housing Justice](/society/社會住宅與居住正義) — BIM's application in social housing operation and maintenance management is a key plan for the Ministry of the Interior's ABRI in recent years
+- [Taiwan Enterprises: TSMC](/economy/台灣企業：台積電) — BIM's application in TSMC factory buildings is the main practical field for construction firms like Dacin and Hutsu
+- [Taiwan AI Development](/technology/AI發展) — Anthropic MCP and Revit 2027 built-in MCP are specific cases of AI × Industry
+- [Semiconductor Industry](/technology/半導體產業) — Fab plant engineering overall solutions + BIM smart factory construction is the engineering foundation for semiconductor cluster expansion
+
+## Image Sources
+
+This article uses 3 Wikimedia Commons CC-licensed images, all cached in `public/article-images/technology/` to avoid hotlinking to the source server:
+
+- [FreeCAD 1.0 Dark BIM Example](https://commons.wikimedia.org/wiki/File:FreeCAD_1.0_Dark_BIM_Example.png) — Photo: Maxwxyz, 2024-10-07, CC BY 4.0 (hero image: 3D model presentation of open-source BIM tools)
+- [Autodesk Revit 2024 Object Demo](https://commons.wikimedia.org/wiki/File:Revit_2024.png) — Photo: DanielDefault, 2024, CC BY-SA 4.0 (inline image: Revit object-oriented modeling screen)
+- [Taipei Dome and Hino 300 BEM-5593](https://commons.wikimedia.org/wiki/File:Taipei_Dome_and_Hino_300_BEM-5593_%2850281669428%29.jpg) — Photo: Cheng-en Cheng, 2020-08-16, CC BY-SA 2.0 (inline image: Taipei Dome construction site, 65,000-ton steel structure under construction)
+
+The complete media authorization matrix record is in [`reports/research/2026-05/台灣BIM與營建科技.md`](../../reports/research/2026-05/台灣BIM與營建科技.md) §Media Authorization Matrix Table Three.
+
+## References
+
+[^1]: [Republic of China Executive Yuan Public Construction Commission: Public Engineering Building Information Modeling (BIM) Zone](https://www.pcc.gov.tw/content/index?eid=1345&type=C) — The official BIM promotion platform page of the Public Construction Commission, recording the official policy document of the establishment on May 23, 2014, and the three-phase promotion strategy "Encourage Pilot / Pilot Execution / Promote BIM in Public Engineering Above a Certain Amount Starting from Year 106."
+
+[^2]: [Audit Office Public Policy Online Participation Platform: PCC BIM Promotion Strategy Opinion Collection](https://cy.join.gov.tw/policies/detail/8e95c8d6-ce87-4e05-afce-c46a33eb6f89) — The Audit Office's open discussion page, recording the PCC's promotion principle as "case-by-case adaptation, gradual progress," non-universal mandate; and official statistics of over 60 engineering bidding agencies using BIM and over 120 application projects.
+
+[^3]: [Taiwan BIM Industry Association (TBIMA) Official Website](https://sites.google.com/view/tbima) — The official website of the Ministry of the Interior registered association, recording the historical context of the 2009 gathering origin, 2011 preparation, official establishment on March 10, 2012, and main members coming from the 2008 Autodesk Taiwan original training instructor circle.
+
+[^4]: [Taipei City Government Department of Urban Development: Building Engineering BIM As-Built Model Attribute Data Operation Specifications v2.0](https://udd.gov.taipei/assets/50-10660/Documents/竣工模型屬性資料作業規範v2.0_20181109_new.pdf) — The official specification announced by Taipei City Department of Urban Development on November 9, 2018, referencing the COBie international format and specific requirements for exporting IFC standard data.
+
+[^5]: [BSI Partners with Industry, Government, Academia, and Research to Sign "Taiwan BIM Task Group" Memorandum of Understanding](https://www.bsigroup.com/zh-TW/about-bsi/media-centre/press-release/2018-/october/bsitaiwan-bim-task-group/) — BSI Taiwan's October 3, 2018 MOU signing press release, recording the five signing units (BSI, NTU NTUBIM, Taiwan Construction Research Institute, Taiwan Building and Technology Center, TBIMA) and the guiding role of the Ministry of the Interior's ABRI.
+
+[^6]: [shuotao/REVIT_MCP_study GitHub repository](https://github.com/shuotao/REVIT_MCP_study) — CHIANG SHUOTAO's personal open-source Revit MCP teaching project, created in December 2025, accumulating 73 stars and 85 forks by May 2026, with language distribution of C# 54.2% + JavaScript 18.7% + PowerShell 14.3% etc.
+
+[^7]: [Autodesk Developer Blog: Revit API Agents, MCP, Copilot and Codex](https://blog.autodesk.io/revit-api-agents-mcp-copilot-and-codex/) — Autodesk's official developer blog announcement in April 2026, Revit 2027 built-in MCP server + Autodesk Assistant supporting natural language operation of Revit models.
+
+[^8]: [ONC Lawyers: Adoption of BIM in the Construction Industry and Its Legal Implications](https://www.onc.hk/zh_HK/publication/adoption-of-bim-and-its-legal-complications-for-the-construction-industry) — Article from a Hong Kong law firm, recording the policy contrast of Hong Kong's Development Bureau mandating BIM for engineering projects with a cost estimate exceeding 30 million HKD.
+
+[^9]: [Republic of China Ministry of the Interior Architectural Research and Information Institute: Building Information Modeling BIM Application Promotion Plan](https://www.abri.gov.tw/News_Content_Table.aspx?n=807&s=315634) — ABRI's official plan page, recording the goals and scope of the 4-year medium-term plan in 2015 (Republic of China Year 104) and the second phase plan in 2019 (Year 108).
+
+[^10]: [Ministry of the Interior ABRI: Survey and Promotion Plan Research on the Development Achievements and Applications of Taiwan's Building Information Model (BIM)](https://www.abri.gov.tw/News_Content_Table.aspx?n=807&s=39612) — ABRI commissioned research achievement report, recording the two major goals of the second phase plan "Digital Upgrade of Building Technology" + "Digital Living Environment for Buildings" and the BIM × GIS × IoT digital city integration direction.
+
+[^11]: [New Taipei City Government Public Works Bureau: Building Permit Computer-Aided Review System](https://www.bim.ntpc.gov.tw/) — The official website of the New Taipei City Government's BIM building permit review system, recording the first BIM model building permit in 2014, the cumulative achievement of 20+ completed BIM models, and the "New Taipei City Public Building BIM As-Built Model Information Delivery Criteria."
+
+[^12]: [buildingSMART International: Industry Foundation Classes (IFC)](https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/) — buildingSMART International's official IFC standard page, recording the ISO 16739-1:2024 international standard, Denmark's mandatory public construction use of IFC starting in 2010, and other international adoption situations.
+
+[^13]: [Ministry of the Interior ABRI: Building Information Modeling BIM Application Promotion Plan Achievement Report (Year 112)](https://ws.moi.gov.tw/001/Upload/404/relfile/9489/315634/0cccc6e2-2dc6-496f-a45f-69b60e2811b1.pdf) — ABRI's 2023 (Republic of China Year 112) achievement report, acknowledging the official diagnosis that "most public sector BIM applications belong to the design and construction phases, and operation management still adopts traditional practices."
+
+[^14]: [New Taipei City Government Metro Bureau: Metro Wanda Line BIM Application](https://www.dorts.ntpc.gov.tw/documentary/articleInfo/P9z2zp0nZrDp?page=216) — New Taipei City Metro Bureau's engineering collection records that the Taipei Metro Wanda Line is the "first public engineering to include BIM in the contract," an official record of reducing design interface conflicts.
+
+[^15]: [Flow BIM Service: Smart Office Case Sharing](https://bim.flow.tw/smartoffice-globalshowcase/) — Ruoshui International BIM Consulting Company's case sharing, citing specific data from Taiwan HSR's Miaoli Station BIM application: "saved 20% in design change costs, started two months earlier."
+
+[^16]: [Liberty Times Net: Taoyuan Airport Third Terminal Bid Awarded, Samsung C&T and Ronggong Engineering Team Won with NT$44.5 Billion](https://ec.ltn.com.tw/article/breakingnews/3414669) — Liberty Times news release from March 2021, recording the bid award for Taoyuan Airport T3 main terminal building civil engineering, and the specific details of the team composed of Samsung C&T and Ronggong Engineering.
+
+[^17]: [iThome: Construction Industry Achieves Building Digital Twin with BIM, AECOM Case](https://www.ithome.com.tw/people/137308) — iThome's 2021 in-depth report, interviewing AECOM's Chief Engineer Lin Yao-Cang, recording AECOM's Fengshan Station, Bagua Mountain Tunnel and other BIM full-life-cycle cases, and Taoyuan Airport T3 cross-border collaboration BIM process.
+
+[^18]: [China Engineering Consultants Inc. (CECI): Classic 50 Major Events](https://www.ceci.org.tw/modules/article-content.aspx?s=13&i=226) — CECI's official website 50th anniversary major events, recording the establishment in 1969 and the investment establishment of AECOM Engineering Consulting Co., Ltd. in 2007.
+
+[^19]: [AECOM Engineering Consulting Co., Ltd.: Company Introduction](https://www.104.com.tw/company/d1w3jw0) — AECOM's 104 Job Bank page, recording the official information that nearly 2,000 colleagues have 90% backgrounds in highways, railways, airports, bridges, BIM, ITS, PPP, etc., and the establishment of the BIM Integration Center in 2010.
+
+[^20]: [Sinotech Engineering Consultants Society: Towards Sinotech Engineering's 50th Anniversary](https://50th-anniversary.sinotech.org.tw/about_ltd.html) — Sinotech Engineering Consultants Society's 50th anniversary official website, recording the establishment in 1970, transformation into an NPO in 1994, and the subsequent investment in Sinotech Engineering Consultants Co., Ltd.
+
+[^21]: [Autodesk University: Design and Application of Sinotech Engineering BIM Collaborative Operation Platform](https://www.autodesk.com/autodesk-university/class/zhongxinggongchengBIMxietongzuoyepingtaizhishejiyuyingyong-2020) — Autodesk University's 2020 technical briefing, recording Sinotech Engineering's technical architecture based on the ISO 19650 CDE environment, building BIM issue tracking modules and PMIS seven main modules.
+
+[^22]: [Evergreen Consulting Engineering Co., Ltd. (EGC) Official Website](https://www.egc.com.tw/) — Evergreen's official website, recording the establishment in 1974, over 80 professional personnel, structural design of Taipei 101 and Kaohsiung 85-story T&C Tower, and being listed by CTBUH as one of the top ten tall building structural consultants globally.
+
+[^23]: [NTU BIM Research Center: BIM Development Impacting the Current Building System (Kuo Jung-Chin 2011.12)](https://www.ntubim.net/bim2356027396/bim-201112) — NTU NTUBIM's landmark early academic document, Associate Professor Kuo Jung-Chin's 2011 publication, one of the representative works of Taiwan's BIM academic discourse.
+
+[^24]: [BSI: Adding Momentum to Construction Industry Digitalization, Taiwan BIM Task Group Releases BIM International Standard "ISO 19650 Chinese Version"](https://www.bsigroup.com/zh-TW/about-bsi/media-centre/press-release/2019/20197/iso-19650-tw-standard-launch/) — BSI's 2019 press release, recording the release of the ISO 19650 Chinese version, the supervision of ABRI Director Wang Rong-Jin, and the specific division of labor with NTU NTUBIM's translation assistance.
+
+[^25]: [BIM-API: PyRevit + Dynamo Scripts](https://www.bim-api.com/en/blog/pyrevit-dynamo-scripts/) — BIM-API blog article, recording the industry observation number "In Taiwan, 90% of architects (with BIM design capabilities) use Revit Architecture."
+
+[^26]: [Longting Information Graphisoft Archicad Agent Official Website](https://www.academicd.com/) — Graphisoft Taiwan agent Longting Information's official website, recording ArchiCAD's sales support and training resources in Taiwan, with market positioning as "a BIM software friendlier than Revit."
+
+[^27]: [BIM Explorer: Tekla Structures Usage Experience Sharing](https://tpuaup.blogspot.com/2013/05/tekla-structures.html) — BIM blog article, recording Tekla Structures as the mainstream software for steel structure design in Taiwan, and the industry status of handling complex steel structures (stadiums, bridges, factories).
+
+[^28]: [OITC Information Technology: MicroStation Infrastructure Design](https://www.oitc.com.tw/products-detail/MicroStation/79) — Taiwan's Bentley MicroStation agent's official website, recording MicroStation's application scope in Taiwan's railway, highway, tunnel, bridge, and other infrastructure engineering.
+
+[^29]: [Digital Architecture Academy BIM+ Studio: Dynamo Architecture Basics Course](https://bimstudio.tabc.org.tw/blogs/bim%E7%9F%A5%E8%AD%98%E5%BA%AB/49627) — Taiwan Building and Technology Center BIM+ Studio course introduction, recording the key time point in early 2016 when Autodesk Taiwan invited instructors from the Dynamo R&D team from Singapore to teach in Taiwan.
+
+[^30]: [WeBIM Services: How Dynamo Transforms Revit's World](https://webim.com.tw/en/tech-en/dynamo-application-webim-3/) — WeBIM technical article, recording specific application cases of Dynamo in Taiwan's BIM engineer circles (duct coordinate sorting, clear height judgment, automatic section drawing generation).
+
+[^31]: [Autodesk Navisworks Product Overview](https://www.quickly.com.tw/autodesk/navisworks.php) — Autodesk Taiwan distributor Quickly's official website, recording Navisworks Manage's integrated functions of 3D navigation, clash detection, report export, 4D schedule simulation, and 5D cost estimation.
+
+[^32]: [Airiti Library: BIM-Assisted Metro CSD/SEM Design Automation Development and Application](https://www.airitilibrary.com/Article/Detail/0257554X-202107-202107290004-202107290004-77-85) — Airiti Library academic journal paper, recording Taiwan's metro MEP engineering CSD (Combined Service Drawing) and SEM (Structure / Electric / Mechanic) BIM integration methodology.
+
+[^33]: [CTCI Group - Wikipedia](https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E9%BC%8E%E9%9B%86%E5%9C%98) — Wikipedia's CTCI Group entry, recording the 1979 establishment by CTSS, China Development Industrial Bank, and Central Investment Corporation; 2011 Japanese company Chiyoda Chemical Engineering acquiring the largest shareholder; 7,500 employees (2021); and major overseas EPC cases like Saudi Arabia Amine / Saudi Kayan / SAMAC MMA.
+
+[^34]: [CTCI Group Official Website](https://www.ctci.com/www/ctci2022/page.aspx?L=CH) — CTCI Engineering's official website, recording general contracting engineering business, EPC model, and business scope of branches/offices in 15 countries.
+
+[^35]: [Crossing: From CTCI's Overseas Huge Bad Debt Crisis, Looking at Taiwan's General Contractors' "International Risk Control" Fatal Gap](https://crossing.cw.com.tw/article/19832) — The Crossing's in-depth report, recording the controversial event of major delays and bad debts in CTCI's natural gas treatment plant EPC project in India in 2017.
+
+[^36]: [Hutsu Construction Co., Ltd.: High-Tech Factory Performance](https://www.futsu.com.tw/p_hitech.html) — Hutsu Construction's official website high-tech factory page, recording the official statement "accumulated the largest total floor area of high-tech factory buildings in the country."
+
+[^37]: [Dacin Engineering: BIM Experience](https://www.dacin.com.tw/bim/) — Dacin Engineering's official website BIM experience page, recording the official statement "using BIM as a foundational tool platform for the development, planning, design, and construction-related integration and coordination of architectural projects."
+
+[^38]: [Taiwan Obayashi: Company Profile](https://www.obayashi.com.tw/topic/about/preview/3250113421819124234) — Taiwan Obayashi Construction Co., Ltd.'s official website, recording the 1989 establishment, Obayashi Corporation (builder of Tokyo Skytree) as the headquarters, and "Construction Drawing Management and BIM Application" as main construction management items.
+
+[^39]: [Taipei Dome - Wikipedia](https://zh.wikipedia.org/zh-tw/%E8%87%BA%E5%8C%97%E5%A4%A7%E5%B7%A8%E8%9B%8B) — Wikipedia's Taipei Dome entry, recording engineering specifications of 120,000 square meters total floor area, 65,000 tons total steel structure weight, and being the only dome in the world entirely constructed using circular steel pipes.
+
+[^40]: [United Daily News: Grandpa-Level Workers Hold the Field, Construction Industry Technology Faces Gap](https://udn.com/news/story/124689/9220106) — United Daily News investigative report, recording the reality of construction industry aging where over 40 years old accounts for 77% among 100+ occupational disaster deaths in New Taipei.
+
+[^41]: [Liberty Electronic News: Country-Wide Labor Shortage! Construction Industry 15,000 Migrant Worker Quotas About to Run Out](https://estate.ltn.com.tw/article/21452) — Liberty Electronic News financial report, recording the labor force structural crisis where the Ministry of Labor agreed to open 15,000 migrant worker quotas for the construction industry in 2024-2026, and allocation is about to be completed.
+
+[^42]: [1111 Job Bank: BIM Engineer Job Monthly Salary 50,000+ Search Results](https://www.1111.com.tw/search/job?page=1&col=ab&sort=desc&ks=bim,%E7%B9%AA%E5%9C%96&st=1&sa0=50000*) — 1111 Job Bank BIM engineer job search page, recording 104 positions with monthly salary 50,000+ and new hire salaries of 35,000-45,000 TWD, Taiwan's BIM engineer salary status.
+
+[^43]: [Why is Taiwan's BIM Difficult to Land? Four Stages Reveal Truth and Turning Points](https://engineeringlifetw.com/whynotbim/) — Construction Life Blog's in-depth analysis article, recording Taiwan's BIM promotion cultural resistance: "past government building management based on CAD, industry processes following CAD, BIM models becoming outsourced work, many BIM centers or teams dissolving" specific reality.
+
+[^44]: [Verakey Tuopu Engineering: What is BIM? Complete Analysis of 5 Major BIM Advantages](https://veracityconsultant.com.tw/what-is-bim/) — Verakey BIM Consulting Company's official website, explaining BIM's engineering digital transformation essence of systematizing building information (materials, specifications, vendors, prices, construction sequences, maintenance cycles).
+
+[^45]: [Republic of China Ministry of the Interior Architectural Research and Information Institute: BIM Application Promotion Plan](https://www.abri.gov.tw/News_Content_Table.aspx?n=807&s=39506) — ABRI plan page, recording the self-diagnosis of Taiwan's BIM promotion status: "BIM models become outsourced work, disconnected from actual engineering, many BIM centers or teams dissolve."
+
+[^46]: [Anthropic: Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) — Anthropic's official announcement open-sourcing Model Context Protocol (MCP) on November 25, 2024, describing "Think of MCP like a USB-C port for AI applications" and the accompanying release of Python / TypeScript / C# / Java SDKs.
+
+[^47]: [Wikipedia: Model Context Protocol](https://en.wikipedia.org/wiki/Model_Context_Protocol) — Wikipedia English version MCP entry, recording Anthropic's open-sourcing on November 25, 2024, and Anthropic's donation of MCP to the Agentic AI Foundation (under Linux Foundation) in December 2025, complete timeline.
+
+[^48]: [shuotao GitHub Personal Page](https://github.com/shuotao) — CHIANG SHUOTAO's GitHub personal page, recording location Tokyo, peripheral BIM × MCP × AI open-source experiment series repositories (CAD_MCP_study, NAVISWORK_MCP, IFCSH etc.).
+
+[^49]: [shuotao/CAD_MCP_study GitHub repository](https://github.com/shuotao/CAD_MCP_study) — Shuotao's CAD × MCP open-source teaching project, forming part of the BIM × MCP × AI personal open-source experiment series along with REVIT_MCP_study and NAVISWORK_MCP.
+
+[^50]: [Architosh: Autodesk Revit 2027—Big New AI and Graphics Changes](https://architosh.com/2026/04/autodesk-revit-2027-big-new-ai-and-graphics-changes/) — Architosh architectural software professional media April 2026 report, detailing Autodesk Revit 2027's built-in MCP server + Autodesk Assistant's specific functions and architecture.
+
+[^51]: [AutoCAD - Wikipedia](https://en.wikipedia.org/wiki/AutoCAD) — Wikipedia English version AutoCAD entry, recording the historical timeline of initial release on CP/M and IBM PC platforms in December 1982, Classic Mac OS version in 1992, and Microsoft Windows version in 1993.
+
+[^52]: [Building Information Model - Wikipedia](https://zh.wikipedia.org/zh-tw/%E5%BB%BA%E7%AF%89%E4%BF%A1%E6%81%AF%E6%A8%A1%E5%9E%8B) — Wikipedia Traditional Chinese BIM entry, recording the academic development history of BIM first proposed in 1975, research by Finnish and American scholars in the 1980s, and Autodesk introducing the term "Building Information Modeling" in 2002.
+
+[^53]: [BSI Taiwan: The Commercial Value of Building Information Modelling (BIM)](https://www.bsigroup.com/zh-TW/insights-and-media/insights/blogs/business-value-of-building-information-modelling-bim/) — BSI Taiwan's official blog, recording the observation of structural problems on the owner side: "Owners lack sufficient understanding of BIM applications, often operating with traditional engineering processes, limiting BIM technology effectiveness."

@@ -1,191 +1,191 @@
 ---
-title: '雜學校：貯金をすべてつぎ込んで開催した無料展示会、11年後に副総統が開幕に来た'
-description: '2015年、華山1914の2日間、蘇仰志はデザイン会社のNT$150万の利益を投じて「不太乖教育節（わがまま教育祭）」を開催し、最終的にNT$700万の赤字を出した。11年後、雜學校は円山花博に進出してIDECと共同開催し、ブランドを「EDit」としてリブランディングし、桃園国際展示センターに進出した。無料の反逆展示会からアジア最大の教育博覧会へと成長した台湾のケースにおいて、最も面白いのは大きくなったことではなく、大きくなった後もなお生き残っている「わがまま」が変質したかどうかである。'
+title: 'Za School: A Free Exhibition Funded by Bankrupt Savings, Opened by the Vice President 11 Years Later'
+description: "On May 9-10, 2015, Su Yang-chih used 1.5 million NTD in profits from his design company to host the 'Not Very Obedient Education Festival,' ultimately losing 7 million NTD. Eleven years later, Za School moved into the Taipei International Convention Center (TICC) to co-host IDEC and rebranded as 'EDit.' This Taiwanese case study, which grew from a free 'rebellious' exhibition to Asia's largest education expo, is most interesting not for its scale, but for whether its 'not very obedient' spirit has been compromised after becoming large."
 date: 2026-05-05
-author: Taiwan.md
-category: Society
-subcategory: 教育
 tags:
   [
-    '教育',
-    'オルタナティブ教育',
-    '蘇仰志',
-    '雜學校',
-    '不太乖教育節',
-    '実験教育',
-    '華山1914',
-    '318学生運動',
+    'Education',
+    'Alternative Education',
+    'Su Yang-chih',
+    'Za School',
+    'Not Very Obedient Education Festival',
+    'Experimental Education',
+    'Huashan 1914',
+    '318 Student Movement',
   ]
+subcategory: 'Education'
+author: 'Taiwan.md'
+category: 'Society'
+readingTime: 12
 lastVerified: 2026-05-05
 lastHumanReview: false
-featured: false
-translatedFrom: Society/雜學校.md
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:ab5d7d4fa3beef0f'
-sourceBodyHash: 'sha256:bf906239d976cf4a'
-translatedAt: 2026-05-05T14:13:07+08:00
+translatedFrom: 'Society/雜學校.md'
+sourceCommitSha: '1844f59c5'
+sourceContentHash: 'sha256:b414878c293e15ed'
+translatedAt: '2026-06-09T02:28:23+08:00'
 ---
 
-> **30秒概要：**雜學校（ZA SHARE）は、台湾で2015年から始まったオルタナティブ教育の祭典である。前身の「不太乖教育節」は、広告キュレーションの背景を持つ蘇仰志が318学生運動の翌年に発起したもので、初年度は無料入場で2日間で約3万人を集め、最終的にNT$700万の赤字となった。2016年に雜學校と改称してチケット販売を開始し、2017年には華山1914文化創造産業パーク全体を貸し切り、500以上の教育革新団体が出展した。2019年には副総統の陳建仁、行政院政務委員の唐鳳、教育部政務次長の范巽巽緑が揃って開幕に出席した。2024年の10周年にはIDEC（国際民主主義教育会議）と初めて共同で「教育万国博覧会」を開催し、50カ国以上から500人以上の教育リーダーが台湾を訪れた。2025年にはブランドをEDitとしてリブランディングし、桃園国際展示センターに進出した。蘇仰志は自らを「商業的には完全な失敗だが、精神的には大きな成功だった」と評している[^1]。しかし11年が経った今、前半の言葉はもはや当てはまりません。
+> **30-Second Overview:** Za School (ZA SHARE) is Taiwan's alternative education carnival, originating from the "Not Very Obedient Education Festival" launched in 2015. Initiated by Su Yang-chih, an ad curator, one year after the 318 Student Movement, the first free two-day event attracted approximately 30,000 visitors but ended with a 7 million NTD loss. In 2016, it was renamed Za School and began selling tickets. By 2017, it occupied the entire Huashan 1914 Cultural and Creative Park, hosting 500 educational innovation units. In 2019, Vice President Chen Chien-jen, State Councilor Tang Feng, and Deputy Minister of Education Fan Hsiu-lv appeared on stage together for the opening. In October 2024, for its 10th anniversary, it co-hosted the "Education World Expo" with IDEC (International Democratic Education Conference), welcoming over 500 educational leaders from 50+ countries. In 2025, the brand was reshaped into EDit, moving to the Taoyuan International Convention Center. Su Yang-chih self-evaluates: "Commercially, it was a total failure; spiritually, it was a huge success" [^1]. But after 11 years, the first half of that statement is no longer true.
 
-## わがままな孔子
+## Confucius, Not Very Obedient
 
-ご存知でしょうか。2015年5月9日、華山1914文化創造産業パーク東2BCD館の壁に、ジョリン・孔子[^2]のポスターが貼られていました。
+Hey, did you know that on May 9, 2015, on the walls of the East 2BCD Hall at Huashan 1914 Cultural and Creative Park, there was a poster of "Jolin Confucius" [^2].
 
-メインビジュアルでは、孔子がさまざまなネットセレブのイメージに変身し、ポップカルチャーのシンボルと融合していました。「不太乖教育節」初年度の象徴的な記憶です。広告マンが「最も束縛されてきた教育の象徴」を反逆のスローガンにしようとしたのです。「孔子は2000年以上前に『有教無類（教えに差別なし）』という概念を提唱した。これはまったく我々のわがままな精神に合致する。」蘇仰志は後にINSIDEに対してこのように語りました[^1]。
+The main visual transformed Confucius into various influencer-style images, mixing pop symbols. This was the hallmark of the first "Not Very Obedient Education Festival." An advertiser wanted to use "the most hijacked educational totem" as a slogan of rebellion: "Confucius proposed the concept of 'education without discrimination' over two thousand years ago, which perfectly aligns with our 'not very obedient' spirit," Su Yang-chih later told INSIDE [^1].
 
-2日間の会期、無料入場、約3万人来場。チケット販売の仕組みも、ビジネスモデルも、スポンサーの手配もありませんでした。「台湾中の教育について変わった考えを持つすべての人を無料で出展に招いた。」[^1]華山1914の展示記録によると、第1回の規模は実際には東2BCD館の一部に過ぎませんでした[^3]。しかし2日間で押し寄せた人々の中には、実験教育者、ホームスクール家庭、教育改革のベテラン、体制と戦いたい保護者たちがいました。蘇仰志は新米パパで、子供はまだ1歳半。「父親という立場になったことで、教育が自分に関係のあることだと感じた。子供のために、何かに立ち向かうべきだと思った。」[^1]
+The two-day exhibition was free to enter, attracting about 30,000 people. There was no ticketing mechanism, no business model, and no sponsorship arrangements. "I invited everyone in Taiwan with 'crazy' ideas about education to set up free booths" [^1]. According to Huashan 1914's exhibition records, the first edition's scale only occupied a portion of the East 2BCD Hall [^3]. But the people who squeezed in over those two days included experimental educators, homeschooling families, education reform veterans, and parents wanting to fight the system. Su Yang-chih was a new father; his child was just over a year old. He said, "Being a father made me feel that education seemed to have something to do with me. I should stand up and fight for some things" [^1].
 
-不太乖教育節は、318学生運動の翌年のオルタナティブな継続でした。街頭の人々は散り、立法院の議事は日常の手続きに戻りましたが、消えなかったものがありました。体制への不信感、ボトムアップで社会契約を組み直す衝動。蘇仰志のそれを展示会という形に包んだバージョンでした。
+The Not Very Obedient Education Festival was an alternative continuation of the 318 Student Movement one year later. The people on the streets dispersed, and the legislative proceedings returned to routine procedures, but some things did not disperse: the distrust of the system and the impulse to reorganize the social contract from the bottom up. Su Yang-chih's version was to package this into an exhibition.
 
-## NT$700万の赤字、でもそれで十分だった
+## Lost 7 Million, But I Was Satisfied
 
-蘇仰志の本業は広告キュレーションであり、教育ではありません。国立台湾芸術大学造形芸術研究所を卒業し、2006年に米国ピッツバーグ州立大学で画像映像技術の修士号を取得しました。2004年に初めて起業したのは上海で広告デザイン会社を開くことでしたが、大失敗し、自殺を考えたこともあったそうです[^1]。本人の計算では、不太乖教育節までに6回失敗しており、雜學校は「7回目の起業」でした[^4]。
+Su Yang-chih's profession is ad curation, not education. He graduated from the Master's Program in Fine Arts at National Taiwan University of Arts, obtained a Master's degree in Image and Video Technology from Pittsburgh State University in the US in 2006, and started his first business in 2004 by opening an ad design company in Shanghai, which failed miserably; he even had suicidal thoughts [^1]. He calculated that before the Not Very Obedient Education Festival, he had failed six times. Za School was his "seventh startup" [^4].
 
-7回目の始まりは、デザイン会社のNT$150万の利益を投じることでした。「当時経営していたデザイン会社の利益NT$150万を展示会に投じたが、結果的にNT$700万の赤字を出した。」[^5]倡議家（イニシアチブ・ジャーナル）の2018年のインタビューのタイトルは「貯金をつぎ込んででも開催する展示会」でした。10年後に振り返って彼はこう言いました。「ここまでできたのだから、赤字を出しても十分だった。」[^5]
+The beginning of the seventh attempt involved investing 1.5 million NTD in profits from his design company: "I took 1.5 million NTD in profits from the design company I was then operating to host the exhibition, and ended up losing 7 million NTD" [^5]. The headline of an advocate's 2018 interview was "Bankrupting Savings to Host an Exhibition." Ten years later, he looked back at those two days: "Being able to do this, even losing money is enough" [^5].
 
-しかし「十分だった」という言葉は、台湾の教育の文脈では少し変です。台湾の教育文化における標準的な問いは「合格した？」「どの学校？」「点数は？」——すべての答えが「負けられない」を前提としています。蘇仰志の「赤字を出しても十分だった」は敗北主義ではなく、逆説的な問いかけです。華山で雨の中3万人が反逆展示会を巡ることができたなら、その意味は収支表では測れない、と。
+But the phrase "enough" feels strange in the context of Taiwan's education. The standard questions in Taiwan's educational culture are "Did you pass?" "Which school did you go to?" "What were your scores?"—all answers assuming "you cannot lose." Su Yang-chih's "losing money is enough" is not defeatism; it is a counter-question: If 30,000 people can walk through a rebellious exhibition in the rain at Huashan, the significance of that event is not recorded in a balance sheet.
 
-この点こそが、不太乖教育節を「教育起業」というラベルから距離づけています。同時期に設立された「為台灣而教（TFT）」は組織的な採用ルートを歩みました[^6]。雜學校は祭典ルートを歩みました。前者は教育サービスへの人材パイプラインであり、後者は教育の想像力を開かれた場にしたものです。両者は318学生運動後の台湾で互いを見出す人々を得ましたが、アプローチはまったく異なっていました。
+It is precisely this aspect that distances the Not Very Obedient Education Festival from the label of "educational entrepreneurship." The contemporarily established "Teach For Taiwan (TFT)" followed an organizational recruitment route [^6]; Za School followed a carnival route. The former is a talent pipeline for educational services; the latter is an open field for educational imagination. Both received recognition from people who saw each other in post-318 Taiwan, but their methods were completely different.
 
-翌年——2016年11月26日から27日——蘇仰志は「雜學校」と改称し、チケット販売を開始しました。2日間で6万3000枚以上のチケットを販売し、華山1914の単日チケット販売数1万枚超の記録を樹立しました[^7]。「わがまま」な雰囲気は残りましたが、ビジネスモデルが支えるようになりました。
+The following year—November 26-27, 2016—Su Yang-chih renamed it "Za School" and started selling tickets. Over 63,000 tickets were sold in two days, setting a record for single-day ticket sales exceeding 10,000 at Huashan 1914 [^7]. The "not very obedient" scent remained, but the business model caught up.
 
-## 華山パーク全体で、それは教育なのか
+## Is the Entire Huashan Campus Education?
 
-2017年10月20日から22日、雜學校は華山1914全体を貸し切りました。
+From October 20-22, 2017, Za School occupied the entire Huashan 1914.
 
-500以上の教育革新団体が出展し、3日間で約5万人が来場。テーマは「アジア最大の教育イノベーション博覧会」でした[^8]。早割チケット300台湾ドル、オンラインチケット320台湾ドル、当日チケット350台湾ドル。チケット価格の設計も明確で、国際規模の博覧会にふさわしいものでした。
+Over 500 educational innovation units exhibited, attracting about 50,000 people over three days. The theme was "Asia's Largest Innovative Education Expo" [^8]. Early bird tickets were 300 NTD, online tickets 320 NTD, and on-site tickets 350 NTD. The ticket pricing design was clear: to live up to an expo of cross-border scale.
 
-華山全体を貸し切るという物理的な出来事には、政治的なサブテキストがありました。華山1914は文化部が管轄する文化創造産業パークであり、メインストリームのポジショニングは「文化創造産業」——展示、マーケット、セレクション、ライフスタイルです。雜學校がパーク全体を教育の祭典に使ったことは、「文化創造」というナラティブの枠組みを「教育」へと押し広げることでした。本来は完成した工芸品やブランド商品を展示するために設計された空間が、3日間「なぜ台湾の教育はこのような形になったのか」を議論する広場になりました。
+The physical event of occupying the entire Huashan actually has a political subtext. Huashan 1914 is a cultural and creative park supervised by the Ministry of Culture, with a mainstream positioning of "cultural and creative industries": exhibitions, markets, product selection, and lifestyle. Za School used the entire park to host an education carnival, effectively pushing the narrative framework of "cultural and creative" towards "education." A venue originally designed to display mature crafts and brand commodities became a square for discussing "why Taiwan's education is like this" for those three days.
 
-これはキュレーションによる領域の侵略です。彼は「教育部は会場を貸してくれるか」とは問いませんでした。問ったのは「文化パークはこのテーマを収容できるか」ということです。
+This is a territorial invasion of curation. It does not ask "Will the Ministry of Education provide the venue?" It asks "Can a cultural park hold this topic?"
 
-2018年の雜學校のテーマは「DARE TO BE 勇不設限（勇気を持って限界を設けない）」で、「雑学展」と「雑学展：児童・青少年館」の2つのターゲット別キュレーションに分かれました[^9]。同年4月、蘇仰志は華山パークの董事長・王栄文と公開対談を行い、「教育がどのような形をとるかによって、文化もその形に育っていく」と語りました[^10]。このナラティブは教育を文化に、文化を産業に組み込み、教育のテーマを体制内の言説から引き出し、単なるマーケティングの言葉を超えていきました。
+In 2018, Za School's theme was "DARE TO BE Brave Without Limits," divided into two sub-curated sections: "Za School Exhibition" and "Za School Exhibition: Children's Pavilion" [^9]. In April of the same year, Su Yang-chih held a public dialogue with Huashan Chairman Wang Rong-wen, discussing "How education grows determines how culture grows" [^10]. This narrative line embeds education into culture, and culture into industry, pulling the education issue out of institutional discourse and beyond mere marketing rhetoric.
 
-2019年のテーマは「人生変装ショー Life Drag Show」でした[^11]。修辞的には「受験の模範解答」への反撃です。人生には1つの型しかなくてはならないという考えへの抵抗です。この年の累計数字も示されました。5年間で1400以上の教育系スタートアップブランド、20万人の有料来場者数。
+The 2019 theme was "Life Drag Show" [^11]. Rhetorically, it was a counterattack against the "standard answers of academic advancement": life should not have only one template. The cumulative numbers for that year were also displayed: over 1,400 educational startup brands and 200,000 paid visitors over five years.
 
-しかし、この年、みんなの記憶に残ったのはこれらの数字ではありませんでした。
+But what everyone remembered that year was not these numbers.
 
-## 副総統が来た、反逆はまだ反逆なのか
+## The Vice President Came, Is Rebellion Still Rebellion?
 
-2019年11月28日午後、華山1914文化創造産業パークの東2A/B/C/D、中4A/B、西1がすべて貸し切られました。「人生変装ショー」の文字がバックボードに印刷されていました。1400の教育系スタートアップの出展者たちが座っていました。その中には、自学者、実験教育者、教育改革のベテラン、7回失敗してようやく方向性を見つけた人々がいました。
+On the afternoon of November 28, 2019, the East 2A/B/C/D + Central 4A/B + West 1 halls of Huashan 1914 Cultural and Creative Park were fully occupied. The words "Life Drag Show" were printed on the backdrop. Seated below were the 1,400 educational startup booth owners, among them were self-learners, experimental educators, education reform veterans, and someone who failed seven times before finding direction.
 
-副総統の陳建仁が開幕ステージに立ち、教育イノベーションへの支持を表明しました[^12]。同席には行政院政務委員の唐鳳、教育部政務次長の范巽緑、立法委員の蘇巧慧もいました。雜學校の公式ウェブサイトはこの場面をマイルストーンとして掲載しています。反逆の現場に国家レベルの証人が現れたのです。
+Vice President Chen Chien-jen stood at the opening podium, delivering a speech expressing affirmation for educational innovation [^12]. On stage were also State Councilor Tang Feng, Deputy Minister of Education Fan Hsiu-lv, and Legislator Su Hsiao-hui. The Za School official website placed this image as a milestone: the rebellious site now had witnesses at the national level.
 
-4年前のあの2日間、蘇仰志はデザイン会社のNT$150万の利益を借りて無料展示会を開き、NT$700万の赤字を出しました。副総統が開幕に来るとは誰も想像しなかったでしょう。
+Four years prior, Su Yang-chih had borrowed 1.5 million NTD in profits from his design company to host a free exhibition and lost 7 million NTD. No one could have predicted the Vice President would come to open the event.
 
-しかし、これこそが雜學校の最もわがままなことでした。彼らは「反逆」を舞台に登らせ、体制に認めさせ、公式の修辞に取り入れることさえしました。これは矛盾そのものです。社会運動が最も恐れるのは取り込まれることです。体制が舞台を拍手を与え、副総統が開幕に来るとき、もともとの「わガママ」な姿勢はどれだけ残るのでしょうか。
+But this is also Za School's most "not very obedient" aspect. It allows "rebellion" to take the stage, receive awards, be recognized by the system, and enter official rhetoric. This itself is a contradiction. Social movements fear co-optation above all else: when the system gives you a stage, applause, and a Vice President's attendance at the opening, how much of the original "not very obedient" posture remains?
 
-蘇仰志はこの矛盾を回避しませんでした。複数のインタビューで繰り返し「商業的には完全な失敗だが、精神的には大きな成功だった」と強調しています[^1]。この言葉は2019年に聞くと、もはや状況の描写ではなく、自己疑念の修辞に変わっていました。雜學校はもはや「商業的な失敗」ではありません。6万枚のチケットを売り、華山パーク全体に進出し、副総統が開幕に来るのです。精神的な「成功」を検証するための新しい基準が必要になり始めました。
+Su Yang-chih did not avoid this contradiction. In multiple interviews, he repeatedly emphasized "Commercially, it was a total failure; spiritually, it was a huge success" [^1]—by 2019, this phrase had become a rhetoric of self-doubt rather than a description. Za School was no longer a "commercial failure"; it sold 60,000 tickets, occupied the entire Huashan campus, and had the Vice President attend the opening. Its "success" in spirit began to require new standards for testing.
 
-2020年と2021年のCOVID-19の間、雜學校は大規模な対面展示会を開催せず、オンラインでのコンテンツ継続にとどまりました[^13]。この強制的な休止は、実は自己を見つめ直す窓を提供することになりました。
+In 2020 and 2021, during the COVID period, Za School did not hold physical large-scale exhibitions, continuing only with online content [^13]. This forced pause actually gave it a window for reflection.
 
-## 濁水溪を越えて
+## Crossing the Zhuoshui River
 
-2022年11月12日から13日、雜學校は7回目の展示会を嘉義で開催しました。
+From November 12-13, 2022, Za School held its seventh exhibition in Chiayi.
 
-「嘉義市造反教育節 Rebels Education Festival（嘉義反逆教育祭）」。この名前は「雜學校」よりも率直で、「わガママ」を「造反」に翻訳したものです[^14]。会場は国際会議センターや文化創造パークではなく、嘉義城隍廟（城隍廟：道教の土地の神を祀る廟）、旧刑務所など6つの会場[^15]。16の小規模フォーラムがこれらの歴史ある空間に分散して開催され、台湾地方創生基金会董事長の陳美伶、台湾青年民主協会秘書長の李欣、情熱的な公民・社会科教師の黄益中などの講演者が南下して参加しました[^16]。
+"Chiayi City Rebels Education Festival." This name is more direct than "Za School," translating "not very obedient" into "rebel" [^14]. The venue was not a convention center or a cultural park, but six major sites including Chiayi City God Temple and the Old Prison [^15]. 16 small-scale forums were scattered across these historical spaces, with speakers such as Chen Mei-ling, Chairman of the Taiwan Local Vitalization Foundation, Li Hsin, Secretary-General of the Taiwan Youth Democracy Association, and Huang Yi-zhong, a热血 (hot-blooded) citizen and social studies teacher, traveling south to participate [^16].
 
-濁水溪を越えることは、台湾の文化政治において具体的な意味を持っています。台湾のオルタナティブ教育、実験教育、革新教育は長らく台北中心の物語でした。リソース、メディア、コミュニティ、互いを見出す機会はすべて大台北に集中していました。展示会を嘉義で開催することは、「オルタナティブ教育」というテーマが台北の少数派による自己キュレーションから地方の生活の文脈に入ることを意味します。
+Crossing the Zhuoshui River has specific significance in Taiwan's cultural politics. Taiwan's alternative education, experimental education, and innovative education have long been stories centered on Taipei: resources, media, communities, and occasions to see each other were concentrated in the Greater Taipei area. Holding the exhibition in Chiayi meant that the issue of "alternative education" crossed from Taipei's minority self-curation into local life textures.
 
-城隍廟と旧刑務所は、台湾の具体的な記憶の2つの側面です。民間信仰と戒厳令時代の歴史です。雜學校が教育のテーマをこれらの空間に組み込んだことは、教育は学校の壁の中だけではなく、社会全体の記憶がどのように安置されるかに関わることだという主張でした。
+The City God Temple and the Old Prison are two specific types of Taiwan memory: folk religion and martial law history. Za School embedded the education issue into these venues, effectively saying: Education is about how the entire social memory is placed, not limited to within the walls of schools.
 
-2022年の嘉義以降、雜學校の形式は新たな段階に入りました。もはや台北華山の年次大規模展示会だけではなく、地域と共同でキュレーションする方法論になったのです。
+After Chiayi in 2022, Za School's format entered a new stage. It was no longer just the annual large-scale exhibition at Huashan in Taipei; it became a methodology for co-curating with localities.
 
-## 教育の固有種
+## A Unique Species of Education
 
-2024年7月19日から21日、10周年。雜學校は円山花博爭艷館に進出し、テーマは「教育特有種（教育の固有種）」でした[^17]。
+From July 19-21, 2024, the 10th Anniversary. Za School moved into the Huan-shan Expo Park (Zhengyan Hall), with the theme "Education Unique Species" [^17].
 
-過去9年との最大の違いは共同開催の相手です。この年はIDEC（International Democratic Education Conference、国際民主主義教育会議）が初めて華語圏で開催されました[^18]。IDECは1993年に設立され、毎年世界の異なる国で持ち回りで開催されています。台湾2024年は初の華語圏開催地でした。50カ国以上、500人以上の教育リーダー、150以上の応募、73の選出、55の現場展示[^17]。
+The biggest difference from the previous nine years was the co-hosting partner. This year, IDEC (International Democratic Education Conference) was held in a Chinese-speaking country for the first time [^18]. IDEC was established in 1993, rotating annually in different countries worldwide. Taiwan in 2024 was the first Chinese-speaking host. Over 50 countries, over 500 educational leaders, nearly 150 submissions, 73 selected, and 55 exhibited on-site [^17].
 
-この国際展開のルートは、一般的な想像とは異なっていました。雜學校は東京に支店を出したり、ソウルでサテライト展示会を開催したり、アウトバウンドの拡大をしたりしませんでした。彼らは世界中の教育者を台湾に連れてくる、インバウンドの戦略をとったのです。倡議家の2024年のインタビューでは「日本、韓国、タイ、マレーシア、シンガポールなどの周辺国が次々と台湾に視察に來雜學校の現地展開を要請している」と述べられています[^19]。しかしここ数年、雜學校が選んだのは「世界に台湾のオルタナティブ教育のエコシステムを見てもらう」ことでした。
+This route of international expansion is actually different from general imagination. Za School did not open branch meetings in Tokyo, did not hold satellite exhibitions in Seoul, and did not pursue outbound expansion. It brought global educators to Taiwan; it was an inbound strategy. In an advocate's 2024 interview, it was mentioned: "Surrounding countries such as Japan, South Korea, Thailand, Malaysia, and Singapore came to Taiwan to learn from us and invited Za School to land and develop" [^19], but in recent years, Za School chose "to let the world see Taiwan's alternative education ecology" rather than exporting the brand.
 
-この戦略選択には2つの読み方があります。1つは商業的な保守主義：リソースが足りず、本当の多国間支店は実現できない。もう1つはキュレーションにおける自信：台湾のオルナティブ教育のエコシステムそのものが、50カ国が見に来るに値する標本である。「特有種」というテーマは、この2つの読み方を同時に収めています。固有種とは、その生態系にしか生存できない移植不可能な種であり、雜學校が言っているのは台湾の教育の種の独自性です。
+This strategic choice has two readings. One is commercially conservative: not enough resources to achieve true multi-national branch meetings. The other is curatorial confidence: Taiwan's alternative education ecology itself is a specimen worth 50 countries coming to see. The theme word "Unique Species" perfectly gathers these two readings: a unique species is one that can only survive in this ecosystem and cannot be transplanted. Za School is talking about the uniqueness of Taiwan's educational species.
 
-「教育特有種」はまた、10周年における自己位置づけの飛躍でもあります。2015年の「わガママ」（個人の姿勢）から2024年の「固有種」（種そのもの）へ。このナラティブの転換は、雜學校を「一つの展示会」から「エコシステムの一部」へと再定位づけました。
+"Education Unique Species" is also a leap in self-positioning for the 10th anniversary. From "Not Very Obedient" (individual posture) in 2015 to "Unique Species" (species ontology) in 2024, this narrative shift repositions Za School from "an exhibition" to "part of an ecosystem."
 
-## EDit：教育を生産ではなく編集として捉える
+## EDit: Treating Education as Editing, Not Production
 
-2025年10月23日から26日、雜學校は「EDit 臺灣國際教育創新博覽會（Education Innovation Taiwan）」としてブランドをリブランディングし、会場を桃園国際展示センターに移し、無料入場に戻りました[^20]。テーマは「教育で未来を編集する」。
+From October 23-26, 2025, Za School was rebranded as "EDit Taiwan International Education Innovation Expo" (Education Innovation Taiwan), moving the venue to the Taoyuan International Convention Center, with free entry [^20]. Theme: "Edit the Future with Education."
 
-「EDit」というブランド名は非常に興味深いものです。「教育（Education）」と「編集（Edit）」を1つの言葉に重ね合わせ、教育を編集として捉えています。意識的な選択、削除、再構成、強調という意思決定プロセスであり、一方的な生産や注入ではありません。この意味は、蘇仰志の長年のキュレーションの論理に合致しています。彼は教育の出身ではなく、教育をキュレーションの対象として扱ってきたのです。
+The brand name "EDit" is quite interesting. It stacks "Education" and "Edit" into one word, meaning treating education as editing: a conscious process of selection, deletion, reorganization, and emphasis, rather than one-way production and indoctrination. This semantics actually fits Su Yang-chih's years of curatorial logic: he was never from the education background; he treated education as a curatorial object to handle.
 
-「校長」から「編集者」への役割の再定義も記録しておく価値があります。蘇仰志は「地瓜校長（サツマイモ校長）」と呼ばれています。「校長」という立場は2015年から2024年までの雜學校の中核的なフレーミングでした。しかし2025年のEDitへの改名後、「校長」というナラティブは「編集者」に取って代わられました。校長は体制内の役職であり、編集者は創作プロセスにおける意思決定の役割です。この違いは言葉遊びではなく、雜學校が自分自身を「オルタナティブな学校」から「文化的インフラストラクチャー」へと位置づけ直したことを意味します。
+The redefinition of roles from "Principal" to "Editor" is also worth noting. Su Yang-chih is known in the circles as "Dirt Potato Principal." The identity of "Principal" was the core framing of Za School from 2015 to 2024. But after renaming to EDit in 2025, the narrative of "Principal" was replaced by "Editor." A principal is a rank within the system; an editor is a decision-making role in the creative process. This difference is not semantic play; it means Za School is pushing its positioning from "alternative school" towards "cultural infrastructure."
 
-チケットも初年度の無料に戻りました。これはもう1つの象徴です。10年間で雜學校はチケットが売れることを証明しましたが、2025年のEDitは自らハードルを撤廃しました。1つの読み方としては商業戦略：無料入場は参加者数を増やし、社会的影響力のデータを拡大できる。もう1つの読み方としては2015年の原点回帰：最低限のハードルで、見たいと思った誰でも入れるようにする。
+Ticket prices returned to the first edition's free model, which is another marker. Over ten years, Za School proved it could sell tickets, but EDit in 2025 actively abandoned the threshold. One reading is a commercial strategy: free entry can increase participation and expand social influence data. Another reading is returning to the 2015 intention: using the lowest threshold to allow anyone who wants to see to enter.
 
-どちらの読み方にも道理があります。雜學校の11年間は、常に「商業」と「反逆」という2つの力の間の引き合いであり、どちらかが他方を圧倒するものではありませんでした。
+Both readings make sense. Za School's 11 years have always been a tug-of-war between "commercial" and "rebellion," not one side压倒 (overwhelming) the other.
 
-## まだ成し遂げられていないこと
+## Things Still Growing
 
-雜學校の11年間を台湾の教育史のタイムラインに置いたとき、それは何を解決したのでしょうか。
+Placing Za School's 11 years on the timeline of Taiwan's educational history, what has it solved?
 
-受験主義は変わりませんでした。台湾の教育の主流ナラティブは依然として学測（学力テスト）、配分、トップ大学、就職であり、雜學校の11年間の展示会はこの構造を揺るがすことができませんでした。実験教育を主流の選択にすることもできませんでした。教育部の統計によると、台湾の実験教育に参加する学生数は一貫しており、雜學校の展示会の人気は実験教育の入学者数の増加にはつながっていません[^21]。また、体制内に本当に入り込むこともできませんでした。雜學校はカリキュラム諮問会議の定常的な席次にはなっておらず、教員養成の必修内容にもなっていません。
+It did not change the culture of academic advancement. Taiwan's mainstream educational narrative remains the Joint College Entrance Examination, distribution, top universities, and employment. Za School's 11 years of exhibitions did not shake this structure. It did not make experimental education a mainstream choice. According to Ministry of Education statistics, the number of students participating in experimental education in Taiwan has always been a minority; Za School's exhibition popularity does not equal an experimental education enrollment boom [^21]. It did not truly enter the system: Za School did not become a regular seat on the curriculum framework consultation meeting, nor did it become a required content in teacher training.
 
-しかし、あまり注目されていないことを1つやりました。「オルタナティブ教育」を周縁的なテーマから可視化された文化的イベントへと引き上げたのです。
+But it did one thing that fewer people noticed: it pulled "alternative education" from a marginal issue into a visible cultural event.
 
-かつて台湾のオルタナティブ教育——実験学校、ホームスクール家庭、体制外の学習コミュニティ——は、互いの情報流通が限られていました。高雄のホームスクール家庭が、宜蘭人文国中小8年生の楊逸帆が14歳で『学習的理由』というドキュメンタリー映画の撮影を始めたことを知るのは容易ではありませんでした[^22]。台北のオルタナティブ教育の起業家が、嘉義の城隍廟の近くで地方創生型の学習空間を運営している人がいることを知らないかもしれません。雜學校は年次の集合点として、これらの各地に散らばった人々に「あなたもここにいたのか」という認識の瞬間をもたらしました。
+In the past, Taiwan's alternative education—experimental schools, homeschooling families, out-of-system learning communities—had limited information flow between each other. A homeschooling family in Kaohsiung might not know that Yang Yi-fan, an 8th-grade student at Yilan Humanities Elementary School, started filming the documentary _The Reason for Learning_ at age 14 [^22]. A Taipei-based alternative education entrepreneur might not know that next to Chiayi City God Temple, someone is creating a local vitalization-style learning space. Za School, as an annual gathering point, gave these scattered people a moment of recognition: "You are here too."
 
-この認識の瞬間には、社会運動において「集合的プレゼンス（集団的在場感）」という名前がついています。自分が孤独な少数派ではなく、より大きな集団の一員であると知ること。台湾のオルタナティブ教育のエコシステムにとって、この集合的在場感の蓄積は、どの展示会の売上よりも重要でした。
+This moment of recognition has a name in social movements: "Collective Presence." You know you are not a lonely minority; you are part of a larger group. For Taiwan's alternative education ecology, the accumulation of this collective presence is more important than the sales volume of any single exhibition.
 
-もちろん、11年間で解決できなかった葛藤もあります。雜學校が商業化するほど、「わガママ」という原初的な姿勢を維持するのは難しくなります。無料展示会が有料展示会になり、副総統が開幕に来て、ブランドが運営可能なIPとしてリブランディングされるたびに、「反逆」というナラティブは語るのが難しくなります。蘇仰志自身もこの葛藤を認識しており、2024年のインタビューで「雑とは世界の本来の姿であり、一人ひとりがユニークである」と語っています[^19]。この言葉は、このブランドがなぜ存在し始めたのかを忘れないようにするための、自分自身への戒めのように聞こえます。
+Of course, after 11 years, there are also unresolved tensions. The more commercial Za School becomes, the harder it is to maintain the original posture of "not very obedient." The free exhibition became a ticketed exhibition; the Vice President came to open it; the brand was reshaped into an operable IP. Each step makes the narrative of "rebellion" harder to tell. Su Yang-chih himself is aware of this tension; in a 2024 interview, he said "Za is the original appearance of the world; everyone is unique" [^19]. This sentence is more like a reminder to himself, reminding the brand not to forget why it existed in the first place.
 
-2025年のEDitへの改名は、新たな出発であり、同時に別れでもあるかもしれません。「雜學校」という3文字は2015年から2024年までの10年間の反逆の記憶を担っています。EDitは別のブランドサイクルの始まりです。さらに10年後に振り返ったとき、2025年は雜學校というIPの一区切りとして記憶されるかもしれません。あるいはそうではないかもしれません。EDitが雜學校の内核を次の10年に持ち込み、「わガママ」を「編集」に翻訳し続け、台湾教育の周縁的な位置から出口を探し続けるかもしれません。
+Renaming to EDit in 2025 is a fresh start, and possibly a farewell. The three characters "Za School" carry the rebellious memory of the ten years from 2015 to 2024; EDit is the beginning of another brand cycle. If we look back ten years from now, 2025 might be seen as a阶段性 (phased) conclusion of the Za School IP. Or maybe not. Maybe EDit takes Za School's core to the next decade, translating "not very obedient" into "editing," continuing to find exits on the margins of Taiwan's education.
 
-蘇仰志は[INSIDE 塞掐 Side Chat E376](https://www.inside.com.tw/feature/side-chat/39738-side-chat-e376)で「商業的には完全な失敗だが、精神的には大きな成功だった」と語りました。11年が経ち、前半はもはや当てはまりません——雜學校は今や6万枚のチケットを売り、円山花博に進出し、IDECと共同開催し、EDitとしてブランドをリブランディングしました。しかし後半も検証が難しくなっています。教育のトロイの木馬が本当に城に入り、副総統が開幕に来て、文化部が10周年の会場を提供したとき、「精神的な成功」はどう測ればよいのでしょうか。この問いに答えはありませんが、雜學校の11年間で最も興味深いのは、この問いを常に舞台上に置き続けてきたことです。
+Su Yang-chih told [INSIDE Side Chat E376](https://www.inside.com.tw/feature/side-chat/39738-side-chat-e376): "Commercially, it was a total failure; spiritually, it was a huge success." Eleven years later, the first half is no longer true—Za School now sells 60,000 tickets, occupies Huan-shan Expo Park, co-hosts IDEC, and is rebranded as EDit. But the second half has also become difficult to test. When the Trojan horse of education truly entered the city, when the Vice President came to open it, when the Ministry of Culture gave the 10th-anniversary venue, how is "spiritual success" measured? This question has no answer, but the most interesting thing about Za School's 11 years is that it has always been willing to leave this question on the stage.
 
-> 「わガママ」はもともと体制への不満と抗議でしたが、アジア最大のチケット販売数を誇る教育博覧会ブランドに成長した後、その気概はまだあるのでしょうか。これは雜學校が次の10年に残した最も重要な問いかもしれません——そしてかつて反逆しようとして、その後体制に受け入れられた台湾のすべての出来事が答えなければならない問いでもあります。
+> "Not very obedient" was originally resentment and protest against the system, but after growing into Asia's largest, most ticket-selling education expo brand, is that spirit still there? This may be the most important question Za School leaves for the next decade—the same question that all things in Taiwan that once wanted to rebel and were later caught by the system need to answer.
 
-**関連記事**：
+**Further Reading**:
 
-- [教育制度と受験文化](/society/教育制度與升學文化) — 雜學校が反逆の対象としたもの：台湾の受験主義がどのように構造的に再生産されるか
-- [為台灣而教 TFT](/society/為台灣而教TFT) — 同時期の318学生運動後のオルタナティブ教育スタートアップ。組織的な採用ルートは雜學校の祭典ルートとは異なる2つのキュレーション手法
-- [一人の教師の誕生：台湾の教員養成制度](/society/一個教師的誕生：台灣師資培育制度) — 体制内で教員がどのように養成されるか。雜學校の「校長」という立場をこの対照軸にどう置くか
-- [太陽花学生運動](/society/太陽花學運) — 雜學校の歴史的背景：318学生運動が街頭から散った後、いかに体制外の社会実践として継続したか
-- [台湾の過疎地教育](/society/台湾偏鄉教育) — 教育不平等のもう一つの主軸。雜學校的「オルタナティブ」な位置づけと合わせて台湾教育の両端を形成する
+- [Education System and Academic Culture](/society/教育制度與升學文化) — The object of Za School's rebellion: How Taiwan's academic advancement culture is structurally replicated
+- [Teach For Taiwan TFT](/society/為台灣而教TFT) — Alternative education startups post-318 Student Movement; the organizational recruitment route of TFT and the carnival route of Za School are two different curatorial methods
+- [The Birth of a Teacher: Taiwan's Teacher Training System](/society/一個教師的誕生：台灣師資培育制度) — How in-system teachers are cultivated, and how to place Za School's "Principal" identity in this control group
+- [Sunflower Student Movement](/society/太陽花學運) — The historical background of Za School: How the 318 Student Movement continued as out-of-system social practice after dispersing from the streets
+- [Complex Life Festival](/society/複雜生活節) — The version of "deliberately staying small" from the same wave of 318 energy: the 8th-grade "Unsuccessful Forum" of 200-300 people, versus Za School growing into Asia's largest education carnival, are two curatorial choices of intimacy and scale
+- [Rural Education in Taiwan](/society/台灣偏鄉教育) — Another main line of educational inequality, forming the two ends of Taiwan's education in contrast to Za School's "alternative" position
 
-## 参考資料
+## References
 
-[^1]: [INSIDE 塞掐 Side Chat E376：蘇仰志 — 最悪の時代に教育をやる](https://www.inside.com.tw/feature/side-chat/39738-side-chat-e376) — INSIDEと蘇仰志の長時間ポッドキャストインタビュー。雜學校の設立背景、起業の経緯、教育観、数々の名言の原話を記録。
+[^1]: [INSIDE Side Chat E376: Su Yang-chih — Doing Education in the Worst Times](https://www.inside.com.tw/feature/side-chat/39738-side-chat-e376) — A long podcast interview between INSIDE and Su Yang-chih, recording Za School's founding background, entrepreneurial journey, educational views, and many key quotes.
 
-[^2]: [HereNow Taipei：雜學校で何を学ぶか](https://www.herenow.city/taipei/article/zashare_zh-tw/) — HereNow都市ガイドによる第1回「不太乖教育節」のメインビジュアルと会場の雰囲気の描写。ジョリン・孔子などのビジュアルシンボルの記憶点を含む。
+[^2]: [HereNow Taipei: What Does Za School Teach](https://www.herenow.city/taipei/article/zashare_zh-tw/) — HereNow City Guide's description of the first "Not Very Obedient Education Festival" main visual and exhibition atmosphere, including memory points like Jolin Confucius.
 
-[^3]: [華山1914文化創造産業パーク：2015不太乖教育節イベントページ](https://zashare.kktix.cc/events/2017zashare) — 雜學校のKKTIXチケットプラットフォームに保存されている歴年の沿革記録。第1回「不太乖教育節」の会場、日付、規模を含む。
+[^3]: [Huashan 1914 Cultural and Creative Park: 2015 Not Very Obedient Education Festival Event Page](https://zashare.kktix.cc/events/2017zashare) — Historical evolution records retained on Za School's KKTIX ticketing platform, including the venue, date, and scale of the first "Not Very Obedient Education Festival."
 
-[^4]: [La Vie：クロスジェネレーションのスラッシュライフ — 蘇仰志インタビュー](https://www.wowlavie.com/article/ae1901592) — La Vie誌2019年の蘇仰志長時間インタビュー。「雑学は動詞、スラッシュは名詞」などの核心的論述、7回の起業の経緯を含む。
+[^4]: [La Vie: Cross-Generational Slash Life — Su Yang-chih Interview](https://www.wowlavie.com/article/ae1901592) — La Vie Magazine's 2019 long interview with Su Yang-chih, including core arguments like "Za is a verb, slash is a noun," and the context of seven startups.
 
-[^5]: [倡議家：貯金をつぎ込んででも開催する展示会 — 雜學校蘇仰志インタビュー](https://ubrand.udn.com/ubrand/story/123662/3341905) — 聯合報倡議家プラットフォーム2018年の深度インタビュー。不太乖教育節第1回のNT$150万投入・NT$700万赤字の具体的数字と蘇仰志の事後の振り返りを記録。
+[^5]: [Advocate: An Exhibition Bankrupting Savings — Za School Su Yang-chih Interview](https://ubrand.udn.com/ubrand/story/123662/3341905) — A 2018 in-depth interview on the United Daily News Advocate platform, recording the specific numbers of 1.5 million investment / 7 million loss for the first Not Very Obedient Education Festival and Su Yang-chih's post-event reflection.
 
-[^6]: [ウィキペディア：為台灣而教（Teach For Taiwan）](https://zh.wikipedia.org/wiki/%E7%82%BA%E5%8F%B0%E7%81%A3%E8%80%8C%E6%95%99) — TFTの設立背景、組織モデル、台湾の他のオルタナティブ教育イニシアチブとの時間的対照。
+[^6]: [Wikipedia: Teach For Taiwan](https://zh.wikipedia.org/wiki/%E7%82%BA%E5%8F%B0%E7%81%A3%E8%80%8C%E6%95%99) — TFT's founding background, organizational model, and timeline comparison with other alternative education advocacy in Taiwan.
 
-[^7]: [雜學校公式ウェブサイト：雜學校について](https://zashare.org/about-zashare/) — 雜學校による歴年の沿革の自己紹介。2016年改名初年度のチケット販売記録、2017年の華山パーク全体貸切、累計1400以上の教育系スタートアップとの協力ブランドなどのマイルストーン数字を含む。
+[^7]: [Za School Official Website: About Za School](https://zashare.org/about-zashare/) — Za School's self-described historical evolution, including milestones such as the first ticketed sales record in 2016, occupying the entire Huashan campus in 2017, and cumulative 1,400+ educational startup brand collaborations.
 
-[^8]: [雜學校KKTIX 2017チケットページ](https://zashare.kktix.cc/events/2017zashare) — 2017年「アジア最大の教育イノベーション博覧会」公式チケットページ。テーマ、日付、会場、チケット価格、出展団体数などの一次情報を含む。
+[^8]: [Za School KKTIX 2017 Ticket Page](https://zashare.kktix.cc/events/2017zashare) — Official ticket page for the 2017 "Asia's Largest Innovative Education Expo," containing first-hand information such as theme, date, venue, ticket prices, and number of exhibiting units.
 
-[^9]: [オズ・クリエイティブ ZAEXPO 2018展示ページ](http://www.ozzie-art.com/zaexpo2018/) — 蘇仰志のオズ・クリエイティブ公式ウェブサイトによる2018年雑学展「DARE TO BE 勇不設限」のターゲット別キュレーション構成（雑学展＋児童・青少年館）の記録。
+[^9]: [Ozzie Creative ZAEXPO 2018 Exhibition Page](http://www.ozzie-art.com/zaexpo2018/) — Su Yang-chih's Ozzie Creative official website record of the 2018 Za School Exhibition "DARE TO BE Brave Without Limits" sub-curated structure (Za School Exhibition + Children's Pavilion).
 
-[^10]: [華山1914文化創造産業パーク：王栄文×蘇仰志公開対談](https://www.huashan1914.com/w/huashan1914/creative_18041211280505703) — 2018年4月の華山パーク董事長・王栄文と蘇仰志の公開対談記録。「教育がどのような形をとるかによって、文化もその形に育っていく」などの対談の名言を含む。
+[^10]: [Huashan 1914 Cultural and Creative Park: Wang Rong-wen × Su Yang-chih Public Dialogue](https://www.huashan1914.com/w/huashan1914/creative_18041211280505703) — Record of the public dialogue between Huashan Park Chairman Wang Rong-wen and Su Yang-chih in April 2018, including dialogue quotes like "How education grows determines how culture grows."
 
-[^11]: [華山1914文化創造産業パーク：2019雜學校「人生変装ショー Life Drag Show」展示ページ](https://www.huashan1914.com/w/huashan1914/exhibition_19112210362410175) — 2019年雜學校公式展示ページ。テーマ、日付、会場、100以上の出展団体、5年間累計1400以上の教育系スタートアップブランドと20万人の有料来場者数データを含む。
+[^11]: [Huashan 1914 Cultural and Creative Park: 2019 Za School "Life Drag Show Life Drag Show" Exhibition Page](https://www.huashan1914.com/w/huashan1914/exhibition_19112210362410175) — 2019 Za School official exhibition page, containing theme, date, venue, 100+ exhibiting units, and data on cumulative 1,400+ educational startup brands and 200,000 paid visitors over five years.
 
-[^12]: [中華民国総統府ニュース25071：副総統「2019雜學校開幕」に出席](https://www.president.gov.tw/News/25071) — 民国108年11月28日総統府公式ニュースリリース。副総統陳建仁が雜學校開幕記者会見に亲自出席したことを記録。同席には行政院政務委員唐鳳、教育部政務次長范巽緑、立法委員蘇巧慧。
+[^12]: [Presidential Office News 25071: Vice President Attends "2019 Za School Opening"](https://www.president.gov.tw/News/25071) — Official press release from the Presidential Office on November 28, 2019, recording Vice President Chen Chien-jen personally attending Za School's opening press conference, alongside State Councilor Tang Feng, Deputy Minister of Education Fan Hsiu-lv, and Legislator Su Hsiao-hui.
 
-[^13]: [VERSE誌：情熱は飯になるか — 雜學校インタビュー](https://www.verse.com.tw/article/interview-with-za-share) — VERSE誌による雜學校の総合インタビュー。COVID期間のオンライン戦略と11年間の全体的な位置づけの振り返りを含む。
+[^13]: [VERSE Magazine: Can Passion Be Eaten as a Meal? — Za School Interview](https://www.verse.com.tw/article/interview-with-za-share) — VERSE Magazine's comprehensive interview with Za School, including the online strategy during the COVID period and a review of the overall 11-year positioning.
 
-[^14]: [La Vie：嘉義市造反教育節 — 雜學校南進の第一駅](https://www.wowlavie.com/article/ae2201761) — La Vie誌による2022年嘉義「造反教育節」の事前報道。テーマ名、会場構成、講演者陣容を含む。
+[^14]: [La Vie: Chiayi City Rebels Education Festival — Za School's First Southward Step](https://www.wowlavie.com/article/ae2201761) — La Vie Magazine's pre-exhibition report on Chiayi's "Rebels Education Festival" in 2022, including theme naming, venue layout, and speaker lineup.
 
-[^15]: [1% Style：嘉義市造反教育節 — 城隍廟と旧刑務所が教育の場に変わる](https://onepercent.storm.mg/article/4605874) — 風傳媒1% Styleサブサイトによる2022年嘉義造反教育節の深度報道。城隍廟、旧刑務所など6つの会場のキュレーションの論理を記録。
+[^15]: [1% Style: Chiayi City Rebels Education Festival — City God Temple and Old Prison Transform into Education Venues](https://onepercent.storm.mg/article/4605874) — Storm Media's 1% Style sub-site in-depth report on Chiayi's 2022 Rebels Education Festival, recording the curatorial logic of six major venues including the City God Temple and Old Prison.
 
-[^16]: [FLiPER：嘉義造反教育節イベントレビュー](https://flipermag.com/?p=333131) — FLiPERによる嘉義造反教育節のイベント報道。16のフォーラムの講演者陣容（陳美伶、李欣、黄益中など）を含む。
+[^16]: [FLiPER: Chiayi Rebels Education Festival Event Review](https://flipermag.com/?p=333131) — FLiPER's event report on Chiayi's Rebels Education Festival, including the 16-forum speaker lineup (Chen Mei-ling, Li Hsin, Huang Yi-zhong, etc.).
 
-[^17]: [雜學校公式ウェブサイト：2024国際教育イノベーション博覧会「教育特有種」](https://zashare.org/2024expo/) — 雜學校10周年大展公式ページ。日付、会場、150組応募・73組選出・55組現場展示などの具体的データとIDEC共同開催情報を含む。
+[^17]: [Za School Official Website: 2024 International Education Innovation Expo "Education Unique Species"](https://zashare.org/2024expo/) — Za School's 10th-anniversary large-scale exhibition official page, containing specific data such as date, venue, 150 submissions / 73 selected / 55 exhibited on-site, and IDEC co-hosting information.
 
-[^18]: [International Democratic Education Network: IDEC Taiwan 2024](https://www.idenetwork.org/index.php/taiwan-idec) — IDEC国際民主主義教育会議公式ウェブサイトによる2024年台湾初の華語圏開催の紹介。1993年の設立沿革を含む。
+[^18]: [International Democratic Education Network: IDEC Taiwan 2024](https://www.idenetwork.org/index.php/taiwan-idec) — IDEC International Democratic Education Conference official website introduction to Taiwan hosting as the first Chinese-speaking country in 2024, including the 1993 establishment history.
 
-[^19]: [倡議家：10年の新創 — 雜學校蘇仰志インタビュー](https://ubrand.udn.com/ubrand/story/123662/8146714) — 聯合報倡議家プラットフォーム2024年10周年深度インタビュー。「雑とは世界の本来の姿」「古い道では新しい場所には到達できない」などの名言、国際展開戦略の振り返りを含む。
+[^19]: [Advocate: 10-Year New Startup — Za School Su Yang-chih Interview](https://ubrand.udn.com/ubrand/story/123662/8146714) — United Daily News Advocate platform's 2024 10th-anniversary in-depth interview, including key quotes like "Za is the original appearance of the world" and "Walking the old road cannot reach new places," and reflection on international expansion strategy.
 
-[^20]: [INSIDE 塞掐 Side Chat E376（後半）](https://www.inside.com.tw/feature/side-chat/39738-side-chat-e376) — INSIDE同インタビューの後半における、2025年の「EDit 臺灣國際教育創新博覽會」へのブランドリブランディングと桃園国際展示センターの会場選択に関する議論。
+[^20]: [INSIDE Side Chat E376 (Second Half)](https://www.inside.com.tw/feature/side-chat/39738-side-chat-e376) — The second half of INSIDE's same interview discussing the 2025 brand reshaping into "EDit Taiwan International Education Innovation Expo" and the venue choice of Taoyuan International Convention Center.
 
-[^21]: [ウィキペディア：実験教育三法](https://zh.wikipedia.org/wiki/%E5%AF%A6%E9%A9%97%E6%95%99%E8%82%B2%E4%B8%89%E6%B3%95) — 2014年可決の実験教育三法の立法背景とその後の実験教育学生数統計。雜學校の観客層の理解のための参照枠組み。
+[^21]: [Wikipedia: Three Laws of Experimental Education](https://zh.wikipedia.org/wiki/%E5%AF%A6%E9%A9%97%E6%95%99%E8%82%B2%E4%B8%89%E6%B3%95) — Legislative background of the Three Laws of Experimental Education passed in 2014 and subsequent statistics on the number of students in experimental education, serving as a reference framework for understanding Za School's audience demographics.
 
-[^22]: [翻転教育（親子天下）：楊逸帆と『学習的理由』](https://flipedu.parenting.com.tw/article/2527) — 親子天下翻転教育プラットフォームによる楊逸帆のインタビュー。14歳で『学習的理由』ドキュメンタリー撮影を始めた経緯、宜蘭人文国中小8年生の経歴、その後雜學校の教務主任となった過程を記録。
+[^22]: [Flip Education (Parenting World): Yang Yi-fan and "The Reason for Learning"](https://flipedu.parenting.com.tw/article/2527) — Flip Education platform's interview with Yang Yi-fan, recording his background as an 8th-grade student at Yilan Humanities Elementary School who started filming _The Reason for Learning_ at age 14, and his later journey becoming Za School's Academic Affairs Director.

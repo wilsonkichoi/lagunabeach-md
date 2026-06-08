@@ -1,97 +1,97 @@
 ---
-title: "Wheel Cakes: From Japanese Colonial 'Imagawa-yaki' to Wandan Red Bean — Taiwan's Identity Arc"
-description: "A 2026 'red bean cake war' ignited a debate over language and identity. This snack — originating in the Edo period and arriving in Taiwan during Japanese colonial rule as an expensive delicacy — transformed after red bean cultivation succeeded in Pingtung's Wandan Township in the 1960s. How did 'Imagawa-yaki' become the most accessible coin-bought street memory in Taiwan?"
-category: Food
-subcategory: 台灣小吃
+title: "Wheel Cake: The Arc of Taiwanese Identity from Japanese 'Imagawa-yaki' to Wudan Red Bean"
+description: "A 2026 'Red Bean Cake Controversy' ignited language identity disputes. This expensive snack, originating from the Edo period and introduced during the Japanese colonial era, evolved into Taiwan's most accessible penny-snack memory after the successful trial planting of Wudan red beans in the 1960s."
+date: 2026-04-28
 tags:
   [
     'Wheel Cake',
     'Red Bean Cake',
-    'Wandan',
-    'Taiwanese Street Food',
+    'Wudan',
+    'Taiwanese Snacks',
     'Imagawa-yaki',
     'Food Culture',
   ]
-author: 'Taiwan.md Contributors'
-date: 2026-04-28
+subcategory: 'Taiwanese Snacks'
+author: 'Taiwan.md'
+category: 'Food'
 readingTime: 12
 lastVerified: 2026-04-28
 lastHumanReview: false
-featured: false
-translatedFrom: Food/車輪餅.md
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:75886d0c9c5c9b1f'
-sourceBodyHash: 'sha256:b1f515f692de800c'
-translatedAt: '2026-05-01T01:46:13+08:00'
+translatedFrom: 'Food/車輪餅.md'
+sourceCommitSha: '4b6d28c54'
+sourceContentHash: 'sha256:e2a229bf0a672e0c'
+translatedAt: '2026-06-09T02:31:19+08:00'
 ---
 
-> **30-second overview:**
-> In April 2026, an office argument over whether "red bean cake" (_hóng dòu bǐng_) is a Chinese-influenced term unexpectedly turned this beloved national snack into a cultural battleground. In fact, wheel cakes originated from Japan's Edo-period "Imagawa-yaki" and were an expensive treat enjoyed only by a select few when they arrived in Taiwan during the Japanese colonial era. Not until the 1960s, when red bean cultivation succeeded in Pingtung's Wandan Township, did this snack truly "take root" in Taiwan — growing its own name and story on the island's streets.
+> **30-Second Overview:**
+> In April 2026, a workplace argument over whether "Red Bean Cake" was a Chinese term turned this national snack into an unexpected cultural battlefield. In fact, the wheel cake originated from "Imagawa-yaki" in Japan's Edo period. It was an expensive treat only accessible to a few when introduced to Taiwan during the Japanese colonial era. It was not until the successful trial planting of Wudan red beans in Pingtung in the 1960s that this snack truly "took root," growing its own name and story on the streets of Taiwan.
 
-"Red bean cake is a Chinese-influenced term — Taiwanese should call it wheel cake!"
+"Red bean cake is a Chinese term; Taiwanese should call it wheel cake!"
 
-In April 2026, this claim set off a fierce "red bean cake war" on Threads. An office worker was corrected by a colleague for calling the snack a "red bean cake," and the argument escalated until a female colleague burst into tears on the spot.[^1] On the surface it was anxiety about political language; underneath lay a hundred-year, three-generation evolutionary history of this snack in Taiwan.
+In April 2026, this sentence sparked an intense "Red Bean Cake Controversy" on Threads. An office employee was corrected by a colleague for calling the snack "Red Bean Cake," leading to an argument that even made a female colleague cry on the spot[^1]. The controversy, superficially a political anxiety over terminology, is actually the evolutionary history of this snack in Taiwan spanning a century and three generations.
 
-In fact, on this snack's official Taiwanese identity card, the name written is one full of Japanese spirit: Imagawa-yaki (今川燒).
+In fact, on the official "ID card" of this snack in Taiwan, there is a name full of Japanese flavor: Imagawa-yaki (Imagawa-yaki).
 
 ### From Edo's Kanda to Taipei's Streets
 
-At the end of the 19th century, with Japanese colonial rule, this snack — originating near Imagawa Bridge in Edo's Kanda district — arrived in Taiwan. At the time, it was unambiguously a "luxury confection."
+At the end of the 19th century, with the rule of the Japanese, this snack, which originated near the Imagawa Bridge in Kanda, Edo, was introduced to Taiwan. At that time, it was unequivocally a "high-end dessert."
 
-"Early Taiwan didn't produce red beans; they all had to be imported from abroad, at very high prices," points out a curator researching Taiwanese food culture. During the Japanese colonial period, this soft-skinned, red-bean-filled treat was a luxury the working class with steady incomes could only occasionally afford.[^2] Taiwanese people of the time, looking at the round, pattern-stamped pastry, called it "Imagawa-yaki" or "taiko-yaki."
+"In early Taiwan, red beans were not produced locally and had to be imported from abroad, making the price very expensive," pointed out a curator researching Taiwanese food culture. During the Japanese colonial period, this snack with red bean filling and a soft outer skin was a luxury that only the class with a fixed income could occasionally indulge in[^2]. At that time, Taiwanese people looked at the round, patterned pastry skin and called it "Imagawa-yaki" or "Taiko-yaki."
 
-> **📝 Curator's note**
-> The name of a snack often marks the status it had when it first arrived on this land.
+> **📝 Curator's Note**
+> The name of a snack often marks its status when it entered this land.
 
-### 1960: Wandan Red Bean's "Democratization" Revolution
+### 1960: The "Democratization" Revolution of Wudan Red Beans
 
-The pivotal shift that turned wheel cakes from "luxury Japanese confectionery" to "national street food" happened in the 1960s in Wandan Township, Pingtung.
+The key turning point that transformed the wheel cake from a "high-end Japanese wagashi" into a "national snack" occurred in Wudan, Pingtung, in the 1960s.
 
-According to records from the Agriculture and Food Agency and the Wandan Township Farmers' Association, Pingtung County began growing red beans in the 1960s (Republic of China era: the 50s), when a variety of _japonica_ red beans was introduced from Alishan in Chiayi.[^3] After Wandan Township farmers successfully completed field trials, in less than three years red beans became the economically important second-season crop after rice in the Wandan area.
+According to records from the Council of Agriculture, Executive Yuan, and the Wudan Township Agricultural Association, the planting of red beans in Pingtung County began in the 50th year of the Republic of China (1960s), introducing "Laizai Zhong" red beans from Alishan, Chiayi[^3]. After the successful formal field trial planting by the people of Wudan Township, within less than three years, red beans became an economic crop for the second rice crop in the Wudan area.
 
-In 1970 (Republic of China year 59), a small street stall appeared beside Wandan Elementary School. Founder Huang Yuan-lai began making snacks with the freshest locally grown red beans.[^4]
+In 1970 (the 59th year of the Republic of China), a small stall appeared next to Wudan Elementary School, where the founder, Huang Yuanlai, began making snacks using the freshest local red beans[^4].
 
-"A customer bought a red bean cake and ate it right there, then praised it enthusiastically: '_Chiú-ho̍k-chiáh!_' (Really delicious!)." This simple word of praise opened the legend of Wandan red bean cakes.[^5] Huang Yuan-lai's small stall later became today's immensely popular "Huang Family Wandan Red Bean Cakes," cementing the association between "Wandan" and red bean cakes.
+"Customers bought the red bean cake, finished it nearby, and praised, 'Jiuhe jia!' (Really delicious)." This simple praise opened the legend of Wudan red bean cake[^5]. Huang Yuanlai's small stall later evolved into today's popular "Huang Family Wudan Red Bean Cake," linking the name "Wudan" with red bean cake.
 
 ### 1980: Automated Molds and the Birth of the "Wheel"
 
-While Wandan made red bean cakes popular, what truly caused them to "bloom everywhere" across Taiwan's streets was the intervention of Taiwan's machinery industry in the 1980s.
+Although Wudan popularized red bean cake, what truly made it "bloom everywhere" on the streets of Taiwan was the intervention of Taiwan's mechanical industry in the 1980s.
 
-Early red bean cake molds were mostly hand-cast iron pans, capable of baking only 10 to 12 pieces at a time, with uneven heat distribution. In the 1980s, Taiwanese manufacturers developed a rotating circular automated baking pan — whose exterior resembled an enormous wheel — and this is the technical backdrop for why the term "wheel cake" (車輪餅) rapidly spread in northern urban areas.[^6] This baking pan not only increased production capacity but gave the pastry's edges a crispy, cookie-like texture, formally diverging from the soft Japanese-style "Imagawa-yaki."
+Early red bean cake molds were mostly hand-cast iron pans, capable of baking only 10 to 12 pieces at a time, with uneven heating. In the 1980s, Taiwanese manufacturers developed rotating circular automated baking pans, the shape of which resembled a giant wheel. This is the technical background behind the term "wheel cake" spreading rapidly in northern metropolitan areas[^6]. This baking pan not only increased production but also created a crispy texture on the edges of the pastry, similar to cookies, formally diverging from the traditional Japanese soft "Imagawa-yaki."
 
-> **📝 Curator's note**
-> Technological innovation often reshapes language. When the baking pan began to rotate, it was no longer merely a vessel for red beans in urban eyes — it was a turning "wheel."
+> **📝 Curator's Note**
+> Technological innovation often reshapes language. When the baking pan started spinning, it was no longer just a carrier for red beans in the eyes of urbanites, but a spinning "wheel."
 
-### The Language Trap and Cultural Depth
+### Linguistic Misconceptions and Cultural Depth
 
-Back to the 2026 controversy. The corrector argued that "red bean cake" is a Chinese-influenced term, on the grounds that it "flatly" refers to all flavors. But viewed through historical context, Wandan residents had been calling it "red bean cake" 50 years earlier — which makes it not a foreign term at all, but a source of pride in local industry.
+Returning to the controversy in 2026. The correctors believed that "Red Bean Cake" was a Chinese term because it "flattened" and unified all flavors. However, from a historical perspective, people in Wudan had been calling it red bean cake 50 years ago. This is not an外来语 (foreign loanword) but rather a pride in local industry.
 
-"We called it red bean cake since we were children — this has nothing to do with politics, it has to do with the red beans from our hometown." A 73rd-year-of-the-Republic-era (1984-born) Wandan native responded helplessly on social media.[^7]
+"We have called it red bean cake since we were children. This has nothing to do with politics; it is about the red beans of our hometown," responded a Wudan native born in the 73rd year of the Republic of China (1984) helplessly on social media[^7].
 
-Today's wheel cakes are no longer limited to red bean filling. From classic cream and taro, to distinctly Taiwanese radish with scallion and bubble tea flavors, to French truffle — this snack has shown remarkable adaptability in Taiwan. From a cultural identity perspective, academia has already produced research treating the naming difference between "red bean cake" and "wheel cake" as a concrete specimen of cross-regional power and identity flow.[^8]
+Today's wheel cake is no longer limited to red bean flavors. From classic butter and taro to Taiwan-specific radish shreds and bubble tea, and even French truffle, this snack has shown extreme inclusiveness in Taiwan. From the perspective of cultural identity, academic research has already viewed the naming difference between "Red Bean Cake / Wheel Cake" as a concrete specimen of cross-regional power and identity flow[^8].
 
-From the expensive Japanese "Imagawa-yaki," to the "red bean cake" of Pingtung's fields, to the "wheel cake" on city street corners — this snack has spent a hundred years rolling out a distinctive cultural arc on the palates of Taiwanese people. The next time you bite into that steaming hot filling, perhaps you can set aside the argument over names for a moment and simply enjoy the sweetness that transcends time and space.
+From the expensive Japanese "Imagawa-yaki," to the "Red Bean Cake" in the Pingtung fields, to the "Wheel Cake" on the city street corner, this snack has rolled a unique cultural arc on the taste buds of Taiwanese people over a hundred years. The next time you bite into that hot filling, perhaps we can temporarily put aside the disputes over names and simply enjoy that sweetness spanning time and space.
 
 **Further Reading**
 
-- [Taiwanese Street Food](https://github.com/frank890417/taiwan-md/blob/main/knowledge/Food/台灣小吃.md) — Exploring the diverse origins and evolution of Taiwanese street food.
-- [Taiwanese Pastry Culture](https://github.com/frank890417/taiwan-md/blob/main/knowledge/Food/台灣糕餅文化.md) — A hundred years of Taiwanese pastry transformation from traditional offerings to modern treats.
+- [Taiwanese Snacks](https://github.com/frank890417/taiwan-md/blob/main/knowledge/Food/台灣小吃.md) — Explore the diverse origins and evolution of Taiwanese street food.
+- [Taiwanese Pastry Culture](https://github.com/frank890417/taiwan-md/blob/main/knowledge/Food/台灣糕餅文化.md) — From traditional sacrifices to modern snacks, see the century-long transformation of Taiwanese pastries.
 - [Night Market Culture](https://github.com/frank890417/taiwan-md/blob/main/knowledge/Food/夜市文化.md) — The status and competition of wheel cakes and red bean cakes in Taiwan's night markets.
 
 ## References
 
-[^1]: [CommonWealth Magazine City: The origin of the wheel cake / red bean cake names ignites an online debate](https://city.gvm.com.tw/article/129254) — Reports the April 2026 social media controversy over the red bean cake name and traces its historical origins.
+[^1]: [GQ Magazine: The debate over the names Wheel Cake and Red Bean Cake on the internet has flipped](https://city.gvm.com.tw/article/129254) — Reports on the controversy over the name of red bean cake on social media platforms in April 2026 and traces its historical origins.
 
-[^2]: [TLife Taiwan High Speed Rail: Eat a red bean cake — but first get to know the wheel cake!](https://tlife.thsrc.com.tw/tw/article/1438) — Introduces the background of wheel cakes arriving in Taiwan during the Japanese colonial period and their early social status as a luxury treat.
+[^2]: [TLife Taiwan High Speed Rail: Eat Red Bean Cake, First Get to Know Wheel Cake!](https://tlife.thsrc.com.tw/tw/article/1438) — Introduces the background of wheel cake's introduction to Taiwan during the Japanese colonial period and its social status as a high-end snack in the early days.
 
-[^3]: [Wandan Township Farmers' Association: Introduction to the Red Bean Industry and History](https://www.pwfa.org.tw/m/404-1023-1190.php?Lang=zh-tw) — Official record of Wandan red bean cultivation origins, from successful trials in the 1960s to becoming a local specialty.
+[^3]: [Wudan Township Agricultural Association: Introduction and History of Red Bean Industry](https://www.pwfa.org.tw/m/404-1023-1190.php?Lang=zh-tw) — Official records of the planting origins of Wudan red beans, from successful trial planting in the 1960s to becoming a local specialty.
 
-[^4]: [Sho Fan Player: Wandan Red Bean Cake Ancestor! 49-year-old shop](https://today.line.me/tw/v3/article/NpnjKG) — Interview with the founding Huang Family store, recording the story from its establishment in Republic of China year 59 to today.
+[^4]: [Shang Shan Wan Jia: Wudan Red Bean Cake Ancestor! 49-Year-Old Shop](https://today.line.me/tw/v3/article/NpnjKG) — Interviews with the founding shop Huang Family of Wudan Red Bean Cake, recording its business story and flavor characteristics from the 59th year of the Republic of China to the present.
 
-[^5]: [Small Town News: My Sense of Place — Pingtung Wandan](https://www.dfun.tw/?p=12739) — In-depth interviews with Wandan locals, describing how red bean cakes became the community's collective memory and industrial pillar.
+[^5]: [Xiao Di Fang News Network: My Sense of Place - Pingtung Wudan](https://www.dfun.tw/?p=12739) — In-depth interviews with locals in Wudan, describing how red bean cake became a collective memory and industrial pillar for locals.
 
-[^6]: [Academic paper: Wheel Cake and Pancake — A Cross-Cultural Taste Study](https://www.airitilibrary.com/Article/Detail/P20160811001-201310-201608110015-201608110015-365-372) — Published by Professor Chiu Li-chuan in 2013; explores the naming differences, technological evolution, and cultural metaphors of wheel cakes in Taiwan.
+[^6]: [Academic Paper: The Taste of Different Cultures between Wheel Cake and Pancake](https://www.airitilibrary.com/Article/Detail/P20160811001-201310-201608110015-201608110015-365-372) — Professor Qiu Lijuan published in 2013, exploring the naming differences, technological evolution, and cultural metaphors of wheel cake in Taiwan.
 
-[^7]: [Threads: Are red bean cakes Taiwanese or Japanese?](https://www.threads.com/@jojoh.food/post/DRj4eeWjPrd/) — Cultural discussion on social media, featuring responses and memories from local netizens about the "red bean cake" name.
+[^7]: [Threads: Is Red Bean Cake Taiwanese or Japanese?](https://www.threads.com/@jojoh.food/post/DRj4eeWjPrd/) — Cultural discussions on social media platforms, collecting the identity and memories of many local netizens regarding the name "Red Bean Cake."
 
-[^8]: [Academic paper: The Forming Red Bean Cake Culture — Cross-boundary Power and Identity Transfer](https://ndltd.ncl.edu.tw/handle/62383881563079120266) — Master's thesis from NTNU's Taiwanese Literature Department; systematically studies the identity transfer of red bean cakes in Taiwan and globalization phenomena.
+[^8]: [Academic Paper: Shaping Red Bean Cake Culture - Power Crossing and Identity Transfer](https://ndltd.ncl.edu.tw/handle/62383881563079120266) — A master's thesis from the Department of Taiwanese Literature, National Taiwan Normal University, systematically studying the identity transfer and globalization phenomena of red bean cake in Taiwan.
+
+[^9]: [Ministry of Agriculture: Economic Analysis of Red Bean Industry Production and Sales](https://www.moa.gov.tw/ws.php?id=4431) — Provides official statistical data on Taiwan's red bean industry, analyzing changes in production volume and market competitiveness.

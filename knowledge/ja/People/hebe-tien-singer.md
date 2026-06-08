@@ -1,193 +1,273 @@
 ---
-title: '田馥甄：S.H.E の千万枚セールスを経て、アイドル体制を一つずつ手放した歌手'
-description: '2010年9月、田馥甄が初のソロアルバム『To Hebe』を発表した際、ポスターのキャプションには「デビュー10年目のスーパールーキー」と書かれていた——その年、S.H.E はすでに1,000万枚以上のレコードを売り上げていた。11年後、第32回金曲賞のステージで彼女は母親に向かって叫んだ「お母さん、水道代を無駄にしていません。金曲賞を取ったんですよ」。新竹の客家の小さな町から台北アリーナのステージまで、華研国際音楽が育てたこのアイドルは25年をかけて、バラエティ番組出演、中国市場、「文青歌后」というレッテルを、自ら一つずつ手放していった。'
+title: "Hebe Tien: The Singer Who Dropped the Idol System Piece by Piece After S.H.E's Multi-Million Sales"
+description: "When Hebe Tien released her first solo album 'To Hebe' in September 2010, the poster copy read 'Super Newcomer After Ten Years Debut'—by then, S.H.E had already sold over ten million records. Eleven years later, on stage at the 32nd Golden Melody Awards, she told her mother, 'Mom, I didn't waste the water bill, I got the Golden Melody Award.' From a Hakka small town in Hsinchu to the stage of the Taipei Small Giant Stadium, this idol cultivated by HIM International Music spent twenty-five years actively shedding endorsements, variety shows, the Chinese market, and the 'literary queen' label."
 date: 2026-04-26
-author: 'Taiwan.md'
-category: People
-subcategory: 音楽と表演
 tags:
   [
-    人物,
-    田馥甄,
-    Hebe,
-    S.H.E,
-    華研國際,
-    陳建騏,
-    何楽音楽,
-    ポピュラーミュージック,
-    金曲賞,
-    無人知曉,
-    田調ツアー,
-    客家,
+    'People',
+    'Hebe Tien',
+    'Hebe',
+    'S.H.E',
+    'HIM International Music',
+    'Chien-Pai Chen',
+    'Why Not Music',
+    'Pop Music',
+    'Golden Melody Awards',
+    'Unknown',
+    'Tian Diao Tour',
+    'Hakka',
   ]
+subcategory: 'Music and Performance'
+author: 'Taiwan.md'
+category: 'People'
 readingTime: 18
 lastVerified: 2026-04-26
 lastHumanReview: false
-featured: false
-translatedFrom: People/田馥甄.md
-sourceCommitSha: '5db9f136'
-sourceContentHash: 'sha256:a39194b2f4737484'
-sourceBodyHash: 'sha256:d7c6d39e19e2fb58'
-translatedAt: 2026-05-01T18:02:56+08:00
+translatedFrom: 'People/田馥甄.md'
+sourceCommitSha: '5db9f136e'
+sourceContentHash: 'sha256:51ac0afb006ff0dd'
+translatedAt: '2026-06-09T02:17:47+08:00'
 ---
 
-> **30秒概要：** 田馥甄（1983年生まれ、新竹の客家人）は、華語ポピュラー音楽において稀有な「自ら退場する者」である。2001年、彼女は任家萱（Selina）、陳嘉樺（Ella）と S.H.E を結成し、10年で1,000万枚以上のレコードを売り上げた[^4]。2010年に初のソロアルバム『To Hebe』を発表し、ポスターには「デビュー10年目のスーパールーキー」と記された[^6]。〈魔鬼中的天使〉、〈小幸運〉を経て、2020年に陳建騏と共に制作した『無人知曉』で第32回金曲賞最優秀華語女性歌手賞を受賞した[^13]——彼女のヒット記録は一枚ごとに確かなものとなっている。しかし2020年、彼女は推定1億台湾ドル近い中国のバラエティ番組のオファーを辞退した[^25]。2022年にはインスタグラムにパスタの写真を投稿した[^16]。2025年には屋根のない塩田や飛行場でツアーを開催した[^19]。2026年には記者に対して「関門ではなく、私が『踏みたくない』だけです」と語った[^21]。アイドル産業が生み出した歌手が、その産業が与えてくれたものを一つずつ返していく物語である。
-
----
-
-## バスルームの客家の少女、20年後の金曲ステージ
-
-2021年8月21日夜、台北アリーナ。第32回金曲賞授賞式。
-
-田馥甄はステージに上がり、最優秀華語女性歌手賞を受賞した。彼女は自分自身に語りかけた「百岳を登った私ですが、この階段を上がるだけで足が震えました」。そしてカメラに向かってこう言った：
-
-> **✦** 「マイクは私の樹洞（心のよりどころ）です。誰にも知らせられない、言葉にできない心の内を歌に乗せて吐き出すことができました。この困難な時代に、皆さん一人ひとりに祝福を送りたいと思います。皆さんそれぞれに苦しみがあると思いますが、自分だけの樹洞を見つけ、心身ともに安らかで、すべてが良いことを願っています。」[^14]
-
-そしておまけの一言を加えた「**お母さん、水道代を無駄にしていません。金曲賞を取ったんですよ。**」[^15]
-
-この言葉を理解できるのは、彼女の幼少期を知る人だけである。1983年、田馥甄は台湾新竹の客家の家庭に生まれた[^1]。子どもの頃からバスルームにこもって大声で歌うのが好きで、母親が外から「まだ終わらないの？」と声をかけていた。38年後、彼女は台北アリーナのステージから母親に向かって「水道代を無駄にしていない」と叫んだ。この一言が彼女の人生を凝縮している：客家の小さな町のバスルームで歌っていた少女が、やがて華語ポピュラー音楽の女性歌手になった。
-
-> **📝 キュレーターメモ**
-> バスルメントから金曲賞までのストーリー自体はすでに十分ドラチックです。しかし本記事で書きたいのは、**金曲賞のステージに立った後の彼女の選択**です：推定1億台湾ドルの中国バラエティ番組のオファーを断ったこと[^25]、『乘風破浪』シリーズの継続的なオファーを断ったこと[^21]、エアコンのない塩田でコンサートを開いたこと[^19]。体制に成功裏に育てられた人が、逆から体制が与えてくれたものを一つずつ返していく。
+> **30-Second Overview:** Hebe Tien (born 1983, Hakka from Hsinchu) is a rare "active withdrawer" in the history of Mandarin pop music. In 2001, she formed S.H.E with Selina Ren and Ella Chen, selling over ten million records within a decade[^4]. In 2010, she released her first solo album _To Hebe_, with the poster reading "Super Newcomer After Ten Years Debut"[^6]. From "Angel in the Devil" and "A Little Happiness" to the 2020 album _Unknown_ (collaborated with [Chien-Pai Chen](/people/Chien-Pai Chen)), which won the Best Mandarin Female Singer at the 32nd Golden Melody Awards[^13]—her sales records have been steady from album to album. But in 2020, she declined a Chinese variety show offer rumored to be worth nearly 100 million NTD[^25]; in 2022, she posted a photo of spaghetti on IG[^16]; in 2025, she held her tour in salt fields and airfields without roofs[^19]; in 2026, she told reporters, "It's not a hurdle, but I 'don't want to step' on it"[^21]. An idol cultivated by the idol industry returned the things the industry gave her, piece by piece.
 
 ---
 
-## デビュー10年目にして、初のソロアルバム
+## The Hakka Girl in the Bathroom, Twenty Years Later on the Golden Melody Stage
 
-2000年、田馥甄は新竹で華研国際音楽の前身である宇宙唱片が主催した「宇宙2000実力美少女争覇戦」に参加した。決勝戦では陳潔儀の〈喜歡你〉を歌ったが、途中で歌詞を忘れ、一位を逃した[^2]。
+On the evening of August 21, 2021, at the Taipei Small Giant Stadium, the 32nd Golden Melody Awards ceremony was taking place.
 
-しかし彼女は負けなかった。大会後、レコード会社は彼女と任家萱（Selina）、陳嘉樺（Ella）を3人組ユニット S.H.E として結成し、2001年9月11日にファーストアルバム『女生宿舍』を発表した[^3]。3人それぞれにポジションがあった：Selina は優しさ、Ella は勇気、Hebe は自信、イメージカラーは緂色。その後10年間で S.H.E は13枚のアルバムを発表し、累計売上は1,000万枚を超えた[^4]。彼女たちは2001年から2010年にかけての華語ポピュラー音楽におけるガールズグループの代名詞であった。当時の S.H.E の存在感を理解するには、[台湾新偶像世代](/culture/台湾新偶像世代)の断絶したアイドルグループの生産ラインを参照されたい。
+Hebe Tien walked onto the stage to accept the Best Mandarin Female Singer award. She told herself, "I am someone who has climbed Hundred-Meter Peaks, but climbing these stairs made my legs go soft." Then she spoke to the camera:
 
-> **📝 キュレーターメモ**
-> 田馥甄の世代の女性歌手にとって、「ソロアルバム」というものは珍しい存在でした。彼女は S.H.E の一声部、一面、一色に過ぎませんでした。10年間で13枚のアルバム、1,000万枚以上の売上——会社が彼女をソロデビューさせる理由はありませんでした。ソロアルバムのリスクとは、この収益を生む3声部を解体することだったのです。
+> **✦** "The microphone is my tree hollow, allowing me to sing into the songs the unknown, unspeakable thoughts, so I can pour them out. In these difficult times, I wish everyone well. Everyone has their own difficulties; I hope everyone can find their own tree hollow, with peace of mind and body, and everything is well."[^14]
 
-2010年、状況が変わった。10月22日、Selina が上海でドラマ『我和春天有個約會』の撮影中に爆破シーンで重傷を負い、全身の54%、約80%が三度の火傷を負った[^5]。S.H.E の芸能活動は全面的に停止した。
+Then she added a meme: "**Mom, I didn't waste the water bill, I got the Golden Melody Award.**"[^15]
 
-同じ秋、9月3日、田馥甄は初のソロスタジオアルバム『To Hebe』を発表した。ポスターのキャプションは「**デビュー10年目のスーパールーキー**」[^6]。8月中旬にレコード会社は YouTube でリードトラック〈[寂寞寂寞就好](https://www.youtube.com/watch?v=DyFIzKYQQYE)〉を公開したが、歌声のみで顔は映さなかった[^6]。
+Only those who saw her childhood can understand this joke. Born in 1983 into a Hakka family in Hsinchu, Taiwan[^1], young Hebe loved hiding in the bathroom to open her throat and sing loudly, with her mom calling from outside the door, "Are you done washing?" Thirty-eight years later, standing on the Small Giant Stadium stage, she shouted to her mom, "I didn't waste the water bill." This meme condenses her entire life into one sentence: a girl from a Hakka small town's bathroom ultimately became a female singer in Mandarin pop music.
 
-「先に声、後に顔」という戦略そのものが、S.H.E 出身のアイドルが自ら「顔」を解体するという行為であった。彼女はデビュー10年目だったが、「アイドル」ではなく「歌手」としての身分で再デビューしたのだ。
-
-その秋の反対側では、Selina は火傷から89日間の入院生活を送っていた。後の伝えによると、Hebe は頻繁に見舞いに来ており、Selina の家族は「もう彼女の来訪を記録しなくなった」ほどだった[^26]。Selina のリハビリ期間中、一時的に心が歪み「周囲の全員を恨み」、父親にすら面会を拒否する時期があった。Hebe の一言が彼女を引き戻した：
-
-> **✦** 「100点の親はいない。」[^26]
-
-S.H.E 3人の関係は、この年の炎の中で鍛えられ、それ以降10年以上にわたる3人での公の場での姿を支える、控えめだが最も深く理解できる部分となった。
+> **📝 Curator's Note**
+> The line from the bathroom to the Golden Melody Awards is dramatic enough. But this article wants to write about the choices she made **after reaching the Golden Melody stage**: declining a Chinese variety show offer of nearly 100 million NTD[^25], declining invitations from _Sisters Who Make Waves_ for consecutive years[^21], moving concerts to salt fields without air conditioning[^19]. A person successfully cultivated by the system turned around and returned the things the system gave her, piece by piece.
 
 ---
 
-## 〈魔鬼中的天使〉から『無人知曉』へ：ソロ後の10年
+## Ten Years After Debut, Only Then Released the First Solo Album
 
-2011年は、S.H.E の炎がまだ消えなかった年だった。9月、田馥甄は2枚目のソロアルバム『My Love』を発表し、リードトラック〈[魔鬼中的天使](https://www.youtube.com/watch?v=na_xv5iFt2Y)〉は陳小霞が作曲、姚若龍が作詞した[^7]。この曲は彼女のソロ後の最初の現象級ヒットとなり、甘さと冷感の間にある女性歌手のサウンドポジションがこの曲から確立され始めた。同年10月31日、Selina が退院から半年後に弁護士の恋人張承中と結婚し、田馥甄と Ella は介添人として合唱した[^22]。3人の女性が89日間の入院生活を共に経験したことは、その後の10年以上にわたる3人での合体の場面ではあまり語られないが、そのたびに皆が読み取っていた。
+In 2000, Hebe Tien participated in the "Universe 2000 Real Beauty Girl Battle" hosted by Universe Records, the predecessor of HIM International Music, in Hsinchu. During the finals, she sang Fiona Fok's "Like You," forgot the lyrics halfway through, and lost first place[^2].
 
-その後、彼女は2〜3年ごとにアルバムを発表し、そのたびにサウンドポジションをさらに内側へ押し進めていった。2013年11月の『[渺小](https://www.youtube.com/watch?v=BClZoVLwZCE)』は、ヴィスワヴァ・シンボルスカの詩集『小さな星の下で』に触発されて名付けられ、このアルバムから陳建騏が彼女の固定プロデューサーとなった[^8]。2015年、映画『我的少女時代』のために〈[小幸運](https://www.youtube.com/watch?v=_sQSXwdtxlY)〉を歌い、このMVは翌年8月に YouTube で1億回再生を突破した初の華語シングルとなった[^9]。2016年7月、『[日常](https://www.youtube.com/watch?v=3dBFK2fHjWg)』を発表。純手工のパッケージ、特殊な蛍光インクのデザインであった。同年、台北アリーナで3日間開催された『如果 PLUS』ツアーの興行収入は8,250万台湾ドルを記録した[^10]。彼女のヒット記録は一枚ごとに確かなものとなっていった。
+But she didn't lose. After the competition, the record company put her together with Selina Ren and Ella Chen to form the trio S.H.E. On September 11, 2001, they released their first album _Girls' Dorm_[^3]. The three had distinct positions: Selina was gentle, Ella was courageous, and Hebe was confident, with green as their representative color. Over the next ten years, S.H.E released 13 albums, with total sales exceeding 10 million copies[^4]. They were the representative female group of Mandarin pop music from 2001 to 2010. You can refer to the broken idol group production line in [Taiwan's New Idol Generation](/culture/Taiwan's New Idol Generation) to understand the weight of S.H.E in that era.
 
-2018年10月に起きたことはビジネスニュースに見えたが、本質的には彼女が主導権を取り戻す一歩だった。彼女は華研との契約が満了し、個人事務所「楽来楽好有限公司」を設立して個人業務を管理するようになった[^27]。同年、陳建騏が「何楽音楽」（Pourquoi Pas Music）を設立し、音楽ディレクターとして制作側の業務を担った[^11]。この時から、田馥甄の個人会社と何楽音楽による制作の二軸体制が確立され、次のアルバムまで継続された。
+> **📝 Curator's Note**
+> Female singers of Hebe Tien's generation rarely had something called a "solo album." She was one voice, one face, one color of S.H.E. Releasing 13 albums in ten years and selling over ten million copies, the company had no reason to make her go solo. The risk of a solo album was breaking up this profitable three-part harmony.
 
-そのアルバムが2020年9月に発表された『[無人知曉](https://www.youtube.com/watch?v=RtHUBAbUalk)』であり、第32回金曲賞に7部門でノミネートされた[^12]。2021年8月21日、結果が発表された：田馥甄が最優秀華語女性歌手賞、葛大為が最優秀作詞人賞、陳建騏がプロデューサーとして7度目のノミネートでついに受賞した[^13]。3つの賞が1枚のアルバムに集中したことは、「田氏スタイル」という言葉が市場に正式に認められた一夜だった。
+In 2010, things changed. On October 22, Selina was severely burned in a blast scene while filming _Meet Myself Lucky_ in Shanghai, with 54% of her body, nearly 80% being third-degree burns[^5]. S.H.E's entertainment activities were suspended entirely.
 
-陳建騏は後のインタビューで、彼と田馥甄の仕事哲学をこう語っている：
+In that same autumn, on September 3, Hebe Tien released her first solo studio album _To Hebe_, with the poster copy reading "**Super Newcomer After Ten Years Debut**"[^6]. In mid-August, the record company released the lead single "[Lonely, Lonely Just Fine](https://www.youtube.com/watch?v=DyFIzKYQQYE)" on YouTube, showing only the voice, not the face[^6].
 
-> 「瑕疵（欠点）は感情表現になり得るのか？不完全もまた感情表現になり得るのか？彼女は明らかに同意している。」[^18]
+The strategy of "voice first, face later" was itself an active dismantling of the "face" by an idol from S.H.E. She had been debuting for ten years, but she re-debuted as a "singer" rather than an "idol."
 
-これが「田氏スタイル」の最も内側にある一行である：丸めず磨かず、呼吸を残し、粗さを残し、その場の温度を残す。2013年の『渺小』から、陳建騏が一音一音磨き上げてきたのは、声の不完全さを許容する歌手の声だった。
+On the other side that autumn, 89 days after Selina's burn, she was hospitalized. According to later accounts, Hebe visited too frequently, and Selina's family "simply stopped recording her visits"[^26]. During a certain rehabilitation period after Selina's burn, her mindset became twisted, "hating everyone around her," even refusing to see her father. It was a sentence from Hebe that pulled her back:
 
-田馥甄自身の「瑕疵」に対する回答はより直接的だった。『一一』ツアー中に BIOS monthly のインタビューで、声の瑕疵の使い方を聞かれ、こう答えた：
+> **✦** "There are no 100-point parents in the world."[^26]
 
-> **✦** 「瑕疵の使い方？そもそも使う必要なんてないんです。私はもともと瑕疵だらけの人間ですから。」[^28]
-
-> **📝 キュレーターメモ**
-> プロデューサーは「彼女は瑕疵が感情表現になり得ることに同意している」と言い、本人は「私はもともと瑕疵だらけの人間です」と言う。この二つの言葉は本質的には同じことを述べているが、語る立場が全く異なる：陳建騏は制作面からこの哲学を明確にし、田馥甄は存在面で受け止めている。「田氏スタイル」という言葉は外部の人間から見ればプロデューサー視点の産物だが、本人から見れば「使う必要がない、もともとそういう人間」なのである。
-
-陳建騏は同じインタビューで、初めて田馥甄に会った時のギャップをこう語っている：彼女は冷たく、距離があると思っていたが、実際は「笑い声が豪快で、話し方がすごくストレート」だった[^18]。彼女のバンドリーダーである阿滾はさらに率直に言っている：「Hebe は無表情だが、内面は激しい人だ。面白いことがあると、心の中では爆笑しているが、すぐには表に出さない。あるプロセスがある。」[^18]
-
-これらのディテールと「文青歌后」というレッテルの関係は興味深い：レッテルは市場が貼ったものであり、本人の笑い声は実はとても大きい。
+The relationship between the three S.H.E members emerged from the firelight of that year, becoming the most low-key but most understood part of their public appearances in the following decade-plus.
 
 ---
 
-## 1億台湾ドルの選択問題
+## From "Angel in the Devil" to _Unknown_: The Ten Years After Solo
 
-2020年、中国のバラエティ番組『中国夢之聲・我們的歌』が彼女に二度オファーを出した。当時のメディア報道によると、条件は1回あたり850万台湾ドル、12回分の契約総額は約1.02億台湾ドルに迫り、さらにプライベートジェットの手配が付いていた[^25]。
+2011 was a year where the firelight of S.H.E had not yet dissipated. In September, Hebe Tien released her second solo album _My Love_, with the lead single "[Angel in the Devil](https://www.youtube.com/watch?v=na_xv5iFt2Y)" composed by Hsiao-Hsia Chen and lyricized by Jo-Yung Yao[^7]. This song became her first phenomenal work after going solo, and a female singer's voice positioning between sweetness and coldness began to take shape from this song. On October 31 of the same year, six months after being discharged, Selina married her lawyer boyfriend, Chang Cheng-Chung. Hebe Tien and Ella served as bridesmaids and sang together[^22]. The experiences of the three girls during the 89-day hospitalization were rarely discussed in detail in their subsequent joint appearances over the next ten-plus years, but every time they reunited, everyone could read it.
 
-彼女は行かなかった。
+In the following years, she released an album every two to three years, pushing that voice positioning one layer deeper inward each time. In November 2013, _[Small]_ (https://www.youtube.com/watch?v=BClZoVLwZCE) borrowed the title from Wisława Szymborska's poem _Under One Little Star_. From this album, [Chien-Pai Chen](/people/Chien-Pai Chen) became her fixed producer[^8]. In 2015, she lent her voice to the movie _My Girl_ for the song "[A Little Happiness](https://www.youtube.com/watch?v=_sQSXwdtxlY)," and this MV became the first Mandarin single to break 100 million views on YouTube in August of the following year[^9]. In July 2016, _[Daily Life]_ (https://www.youtube.com/watch?v=3dBFK2fHjWg) was released, with pure handmade packaging and special fluorescent ink; that year, the _If Tour Concert PLUS_ held three consecutive shows at the Small Giant Stadium, with a three-day box office of 82.5 million NTD[^10]. Her sales records have been steady from album to album.
 
-その年、同世代の多くは逆の方向を選んだ。2021年、楊丞琳が『乘風破浪的姐姐』シーズン2に参加し、7人組ユニットでデビューし、中国市場に再び注目された[^29]。蔡依林は2025年半ばに中国のバラエティ番組『打歌 2025』に続けて出演し、複数の衛星テレビの跨年ライブに出席した[^30]。彼女たちのキャリア後半は中国市場で第二の曲線を見出していた。これはこの世代の華語女性歌手にとって最も一般的なストーリーだった。
+What happened in October 2018 looked like business news, but essentially it was the step where she took back the initiative. Her contract with HIM expired, and she established her own "Le Lai Le Hao Co., Ltd." to handle personal affairs[^27]; in the same year, Chien-Pai Chen established "Why Not Music" (Pourquoi Pas Music) as Music Director, responsible for the production side[^11]. From then on, the dual-track structure of Hebe Tien's personal company plus Why Not Music production was formed, continuing until the next album.
 
-田馥甄はこのストーリーの外にいた。
+That album was _Unknown_ (https://www.youtube.com/watch?v=RtH0BAbUalk), released in September 2020, nominated for 7 items at the 32nd Golden Melody Awards[^12]. On August 21, 2021, the results came out: Hebe Tien won the Best Mandarin Female Singer Award, Ge Da-Wei won the Best Lyricist Award, and Chien-Pai Chen finally won the award after his seventh nomination as a producer[^13]. Three awards falling on the same album was the night the term "Tian Style" was officially recognized by the market.
 
-> **📝 キュレーターメモ**
-> 「彼女が中国に行かない」ということは、2020年当時は広く議論されなかった消極的な選択に過ぎなかった。この選択を公共の出来事にしたのは、2年後のパスタの写真だった。
+Chien-Pai Chen later described his working philosophy with Hebe Tien in an interview:
 
----
+> "Is imperfection a form of emotional expression? Can imperfection also be a form of emotional expression? Obviously, she agreed."[^18]
 
-## 一皿のパスタ、200万フォロワーを失う
+This is the innermost line of the "Tian Style": not smoothing out, not polishing, leaving breath, leaving roughness, leaving the temperature of the moment. Since the 2013 album _Small_, Chien-Pai Chen polished out, note by note, a singer's voice that allows for imperfection.
 
-2022年8月2日、アメリカ下院議長ナンシー・ペロシ（Nancy Pelosi）が台湾を訪問した。田馥甄はその日、インスタグラムのストーリーズにパスタの写真を投稿し、こう添えた：
+Hebe Tien's response to the matter of "imperfection" is more direct. During the _Yi Yi_ tour, she accepted an interview with BIOS monthly. When asked how she uses vocal imperfections, she said:
 
-> **✦** 「無理に顔を張る必要はありません。昼寝から起きたら顔が腫れています。太った女紙でも、女優が推奨するパスタのおいしさを取り戻すために一枚。」[^16]
+> **✦** "How to use imperfection? There's no need to use it at all; I am inherently a person full of imperfections."[^28]
 
-中国のネットユーザーは、ペロシのイタリア系のルーツから、このパスタの写真をペロシを支持し、台湾独立を支持するものと解釈した。彼女の楽曲は中国の音楽プラットフォームから下架され、微博（ウェイボ）のフォロワーが200万以上減少した[^16]。彼女の2010年の旧作〈離島〉は、歌詞の「海を隔てて互いに干渉しない」「この距離はちょうどいい」が台湾独立の意図を示すものと指摘され、下架リストの中で最も名前が挙げられた一曲となった[^31]。
+> **📝 Curator's Note**
+> The producer said, "She agrees that imperfection is a form of emotional expression," and the person herself said, "I am inherently a person full of imperfections." These two sentences are actually the same thing, just expressed from completely different positions: Chien-Pai Chen clarified this philosophy from the production side, while Hebe Tien caught it from the existential side. The term "Tian Style" looks like a product of the producer's perspective to outsiders, but to the person herself, it is "no need to use, I am inherently so."
 
-2024年4月、彼女は5月2日に天津泡泡島音楽祭に出演予定で、トリとしてステージに立つ予定だった。中国のネットユーザーが再び批判を展開した。4月27日、主催世は世論の圧力のもと田馥甄の出演を発表し、彼女は二文字で応じた「**残念です**」[^17]。
+In the same interview, Chien-Pai Chen described the contrast he felt when he first met Hebe Tien: he thought she was cold and distant, but "she actually has a very bold laugh and speaks very directly"[^18]. Her band's Band Leader, A-Gun, put it more bluntly: "Hebe is just a person with a poker face but a surging heart inside. When she finds something interesting, she laughs inside until she explodes, but she won't show it immediately. She has a step."[^18]
 
-2022年のパスタの件以降、彼女はこのことについて謝罪も、説明も、後悔もしなかった。事件から2年後のインタビューで、記者が「最近の具合はいかがですか？お酒をたくさん飲みたくなりませんか？」と聞くと、彼女は答えた「**地震のことですか？事が多くても少なくても、お酒は好きですよ。**」[^32] パスタの話題には触れず、問題を別の方向に逸らした。
-
-> **⚠️ グレーゾーン**
-> 「中国からの抵制」と「彼女自身がバラエティ番組を拒否したこと」は性質の異なる二つのことである：前者は受動的な被害、後者は能動的な選択。しかしこの二つの出来事が田馥甄において時間的に重なって起きたため、「彼女が大舞台から追い出された」という悲劇的な物語として語られがちである。彼女の実際の状態はそれとは逆に近い。彼女は2022年のパスタ事件の前から、華語楽団において珍しい、CM出演もせず、バラエティ番組にも出演しない、テレビ番組にも出ない歌手だった。2020年の1億台湾ドル近い辞退はその前にある[^25]。中国市場の門が閉じたことは、すでに選ばれた道を加速的に閉ざしただけで、彼女に道を断ったわけではない。
-
-Newtalkのコラムニスト管仁健はこの過程を「跪かず、舔めず（膝まずかず、へつらわず）」と表現した。同世代の多くが中国でドラマに出演したり、バラエティ番組に出演したり、中国の芸能事務所と契約したりする中、田馥甄はそうしなかった[^17]。
-
-そして2022年は彼女にとって災難の年だった：パスタの件に加え、高雄で予定されていた『一一』コンサートも地震で中止となり、2025年の衛武營屋外会場でようやく実現した[^33]。
+The relationship between these details and the "Literary Queen" label is interesting: the label is given by the market, but the person herself actually laughs loudly.
 
 ---
 
-## 塩田、煉瓦窯、飛行場：2025年の『田調』
+## A Choice Question Worth 100 Million
 
-2025年5月から6月にかけて、田馥甄はキャリアの中で最も「大物歌手らしくない」ツアーを行った：『田調 Live in Life 野地小ツアー』[^19]。
+In 2020, the Chinese variety show _The Voice of China Dream: Our Song_ invited her twice. According to media reports from that year, the conditions were 8.5 million NTD per episode, with a 12-episode contract amount approaching 102 million, plus private jet transportation[^25].
 
-ツアーの初公演は台南・北門の井仔脚瓦盤塩田で、5月17日〜18日の2日間開催された。ディレクター劉柏君のデザインコンセプトは「塩田と塩山の倒影の延長感、天地の包囲感を保つ」ことだった[^34]。日の入りの瞬間に合わせて〈懸日〉を歌うため、開演時間を意図的に10分遅らせた。初日の日の入りは最初雲に隠れていたが、サビに入った頃、太陽がゆっくり雲の中から顔を覗かせた。劉柏君はインタビューでその瞬間を一言で表現した「**超扯（すごい）**」[^34]。
+She didn't go.
 
-続いて新北・万里の翡翠湾熱気流飛行場、屏東・恒春の聯福煉瓦窯へ——煉瓦窯の洞窟では「空山祭」チーム「艸非火 Fake Fire Atelier」とコラボレーションし、洞口から炎のチューブ装置が設置された[^34]。高雄・衛武營屋外劇場の公演では、2022年に地震で中止となった『一一』の埋め合わせが実現した[^33]。
+In that year, many female singers of the same generation chose the opposite direction. In 2021, Rainie Yang participated in the second season of _Sisters Who Make Waves_, forming a 7-member group to debut and being seen again by the Chinese market[^29]. In mid-2025, Jolin Tsai consecutively participated in the Chinese variety show _Da Ge 2025_ and attended the New Year's Eve galas of multiple satellite TV stations[^30]. In the latter half of their careers, they found a second curve in the Chinese market. This is the most common script for female singers of this generation in Mandarin.
 
-しかし最もドラマチックな場面は南投・埔里、標高600メートルの虎嘯山嵐飛行場で起きた。ディレクターは3曲目の〈烏托邦〉でパラグライダーを空に飛ばす予定だったが、当日急に風が吹き、コーチは早めに上昇しなければならなかった。パラグライダーがちょうど〈[什麼，哪裡](https://www.youtube.com/watch?v=ACdHKO2oGJo)〉の歌の途中に空中に浮かび上がり、コントロールルームのスタッフは「全員が感動して、歓声を上げていた」[^34]。
+Hebe Tien is not on this script.
 
-5カ所10公演で2万人以上の観客を集めた[^19]。劉柏君はインタビューで田馥甄をこう形容した：
-
-> 「馥甄はとてもリアルで、とても自律的です。パフォーマンスの際は自然で誠実でありながら、同時に十分にプロフェッショナルです。この両立ができるアーティストは稀です。あれほど見事に余裕があるように見えるのは、必ず非常に努力した結果です。」[^34]
-
-> **📝 キュレーターメモ**
-> 台北アリーナを5公演連続で満員にできる歌手が、エアコンも屋根も快適な観客席もない場所でツアーを選んだ——これは2025年の華語ポピュラー音楽において最も珍しい選択である。塩田、煉瓦窯、飛行場の共通点は「コントロールできない」ことである：天気、日の入り、風向き、大地。彼女はコンサートを「完全にコントロールされた工業製品」から「環境と交渉するその場のイベント」へと変えた。これは陳建騏が語る「瑕疵もまた感情表現である」や、彼女自身が言う「私はもともと瑕疵だらけの人間です」と同じ美学の異なる表層である。
+> **📝 Curator's Note**
+> The fact that "she doesn't go to China" was only a passive choice not widely discussed in 2020. What made this choice a public event was a photo of spaghetti two years later.
 
 ---
 
-## 「関門ではなく、私が『踏みたくない』だけです」
+## A Plate of Spaghetti, Losing Two Million Followers
 
-2026年3月30日、田馥甄の43歳の誕生日だった。S.H.E 3人が生配信に合体出演した。彼女は誕生日当日に6枚目のソロアルバムが「無事に着床した」こと、年内にリリースされることを発表した（この情報はメディア報道による）[^20]。
+On August 2, 2022, US House Speaker Nancy Pelosi visited Taiwan. On that day, Hebe Tien posted a photo of eating spaghetti on her IG Stories with the caption:
 
-2週間後の2026年4月14日、彼女はCMイベントで初めて、なぜ中国のバラエティ番組『乘風 2026』（『乘風破浪的姐姐』シリーズ）をいつも辞退するのか正面から回答した：
+> **✦** "No need to force a smile; wake up from a nap and your face is already swollen. For the 'fake strong' women, here is a photo of a female star endorsing how delicious spaghetti is to win back a city."[^16]
 
-> **✦** 「関門ではなく、私が『踏みたくない』だけです。私は軽やかで自由なのが好きです。もっと楽で心地よい方がいい。」[^21]
+Chinese netizens, due to Pelosi's Italian heritage, interpreted this spaghetti photo as supporting Pelosi and supporting Taiwan independence. Her songs were taken down from Chinese music platforms, and she lost over 2 million followers on Weibo[^16]. Her old song _Island_ from 2010 was pointed out as having the meaning of Taiwan independence due to the lyrics "separated by a sea, not disturbing each other" and "I think this distance is very good," becoming the most pointed-out song in the takedown list[^31].
 
-彼女がこの言葉を語った時、43歳だった。同世代の多くが『乘風破浪』シリーズのステージで中国市場に再び注目され、このシリーズで復活し、キャリア後半の高収入を得ていた[^29]。彼女がこの一歩を辞退した理由も明確だった：歩けるが、「踏みたくない」。
+In April 2024, she was originally scheduled to appear at the Tianjin Paopao Island Music Festival on May 2 as the closing act. Chinese netizens attacked again. On April 27, under public opinion pressure, the organizer announced the cancellation of Hebe Tien's performance. She responded with two words: "**Very regrettable**"[^17].
 
-> **📝 キュレーターメモ**
-> 彼女は2024年4月のコンサートで冗談を交えてこう言った「**ここで客家の人たちにケチというレッテルを剥がしたいと思います。なぜなら羅文裕先生はとても寛大ですし、S.H.E にもう一人客家の人がいるので、ここで客家の人たちの固定観念を洗い清められます。私たちは本当に少し倹約家なだけです。**」[^23] 客家のアイデンティティは彼女が公には強調しないが、時々自虐的に触れるものである。「客家の女性歌手」をマーケティングレッテルとして使うことはないが、このアイデンティティは時々彼女自身の自己描写に浮かび上がってくる。
+After that spaghetti incident in 2022, she did not apologize, did not explain, did not regret. Two years after the incident, in an interview, when a reporter asked her, "Are you feeling okay lately? Do you want to drink a couple more cups?" she answered: "**Are you talking about the earthquake? Whether there are many things or few, I quite like drinking a couple of cups.**"[^32] She didn't take the spaghetti topic, pushing the question to the other side.
+
+> **⚠️ Gray Area**
+> "Chinese boycott" and "her own refusal of variety shows" are two things of different natures: the former is passive endurance, the latter is an active choice. But the time overlap of these two things on Hebe Tien is easily combined into a tragic narrative: "She was forced out of the big stage." Her true state is closer to the opposite. Before the 2022 spaghetti incident, she was already a singer rare in the Mandarin music scene who didn't take endorsements, didn't go on variety shows, and didn't appear on programs; the refusal of that nearly 100 million NTD deal in 2020 was already in front[^25]. The closing of the Chinese market accelerated the sealing of this already chosen path, it didn't leave her with no way out.
+
+New Talk columnist Guan Renjian called this process "not kneeling, not licking." Many female singers of the same generation chose to go to China to shoot dramas, appear on variety shows, and sign with Chinese management companies; Hebe Tien did not[^17].
+
+And 2022 was actually her year of disasters: besides the spaghetti, her originally scheduled _Yi Yi_ concert in Kaohsiung was also canceled due to an earthquake, and was only made up in the 2025 outdoor venue at Weiwuying[^33].
 
 ---
 
-## アイドル体制を手放した人
+## Salt Fields, Brick Kilns, Airfields: The _Tian Diao_ of 2025
 
-2001年9月11日 S.H.E『女生宿舍』から2026年4月14日「踏みたくない」まで、25年が経った。
+From May to June 2025, Hebe Tien did the most "not like a big singer" tour of her career: _Tian Diao Live in Life Wild Tour_[^19].
 
-かつて新竹のバスルームで歌い、母親に「まだ終わらないの？」と声をかけられていた客家の少女が、この25年間で手放してきたものは長いリストになる。2017年、彼女は年間11本のCM出演をこなし、身価は1億台湾ドルを超えた。これは同世代の女性歌手のキャリア後半で最も起こりうることだった。数年後、中国市場の門が閉じ、それらのCMはほぼゼロになった[^35]。2020年、中国のバラエティ番組が1回あたり850万台湾ドル、12回で1億台湾ドル近い契約とプライベートジェットを提示したが、彼女は行かなかった[^25]。『乘風破浪』シリーズの継続的なオファーも断った[^21]。ソロになってから16年間、映画やドラマのオファーは受けず、映画『我的少女時代』のために歌った〈[小幸運](https://www.youtube.com/watch?v=_sQSXwdtxlY)〉を除いて出演実績はない[^1]。最後には、台北アリーナを5公演連続で満員にするという選択さえも手放し、エアコンのない塩田、屋根のない煉瓦窯、天候に左右される飛行場に替えた[^19]。
+The tour's first stop was at the Well Foot Tile Salt Fields in Beimen, Tainan, for two shows on May 17–18. Director Liu Po-Chun's design concept was "to preserve the sense of extension of the salt field and salt mountain reflections, and the enveloping sense of heaven and earth"[^34]. For the sunset moment of _Sun Suspension_, he deliberately delayed the start time by 10 minutes. The sunset on the first day was originally covered by clouds; halfway through the chorus, the sun slowly emerged from the clouds. Liu Po-Chun used one word to describe that moment in an interview: "**Super crazy**"[^34].
 
-しかし彼女は歌うことそのものは手放していなかった。
+She then sang into the thermal airfield at Emerald Bay, Wanli, New Taipei, and the Lianfu Brick Kiln in Hengchun, Pingtung—inside the brick kiln cave, she collaborated with the "Cao Fei Fire Fake Fire Atelier" team, with flame light tube installations bursting out of the cave entrance[^34]. The Kaohsiung Weiwuying Outdoor Theater show made up for the _Yi Yi_ concert canceled due to the earthquake in 2022[^33].
 
-彼女が残してきたのは、陳建騏と10年以上かけて磨き上げた呼吸を含んだ声、コンサートを塩田や煉瓦窯に移すという「その場」へのこだわり、金曲賞のステージで母親に向かって「水道代を無駄にしていない」と叫ぶ、自分自身を小さな町の少女のサイズに縮める力である。
+But the most dramatic scene happened at the Huxiao Shanlan Airfield in Puli, Nantou, at an altitude of 600 meters. The director originally set the paraglider to fly into the sky for the third song _Utopia_, but that day the wind suddenly picked up, and the instructor had to take off early. The paraglider just happened to suspend into the air during the song "[What, Where](https://www.youtube.com/watch?v=ACdHKO2oGJo)," and the control room staff "were all moved, shouting and cheering"[^34].
 
-彼女は Womany にこう語っている：
+Five locations, ten shows attracted over 20,000 audiences[^19]. Liu Po-Chun described Hebe Tien in an interview:
 
-> 「平常心とは淡々としていることではありません。人は怒り、失望、落胆、楽観、喜び、あるいは喜びの後の悲しみや苦しみの中の喜びを感じます。平常心とは、すべての感情と感覚が起こることを許すことであり、すべてに無感覚になることではないと私は思います。」[^24]
+> "Fuzhen is very real and very disciplined, very free and sincere during performances, but at the same time, the singing is professional enough. Few artists can do both at the same time. To look so calm must be the result of very hard work."[^34]
 
-田馥甄の25年間の選択は、「平常心」という三文字から逆算して「スター」とは何かを定義しているのかもしれない。スターの仕事とは、すべての感情を平らにし、すべてのギャップをPRの言葉に収め、すべての機会を掴むことだ。彼女がしたことはその正反対だった：感情を許し、掴まないことを許し、退くことを許し、「踏みたくない」ことを許した。
+> **📝 Curator's Note**
+> A singer who can continuously book five shows at the Small Giant Stadium chose to hold her tour in places without air conditioning, without roofs, and without comfortable audience seats: this is the rarest choice in 2025 Mandarin pop music. The commonality of salt fields, brick kilns, and airfields is "uncontrollable": weather, sunset, wind direction, land. She turned the concert from a "fully controlled industrial product" into a "negotiated present event with the environment." This is the same aesthetic on different surfaces as Chien-Pai Chen talking about her "imperfection is also emotional expression" and her own saying "I am inherently a person full of imperfections."
 
-6枚目のアルバムは今年出るのだろうか？ 2025年、彼女は塩田で歌い、煉瓦窯で歌い、標高600メートルの飛行場で歌った。次に彼女が立ちたい場所はどこだろうか？
+---
+
+## "Not a hurdle, but I 'don't want to step'"
+
+March 30, 2026, was Hebe Tien's 43rd birthday. The three S.H.E members appeared together in a live broadcast. On her birthday, she announced that her sixth solo album "Six Treasures Successfully Implanted" would be released within the year (this news came from media reports)[^20].
+
+Two weeks later, on April 14, 2026, at a brand endorsement event, she responded for the first time face-to-face for why she always declined the Chinese variety show _Wind 2026_ (part of the _Sisters Who Make Waves_ series):
+
+> **✦** "It's not a hurdle, but I 'don't want to step' on it. I like lightness and freedom, a bit more relaxed and comfortable."[^21]
+
+She said this when she was 43 years old. Many female singers of the same generation were seen again by the Chinese market on the _Sisters Who Make Waves_ stage series, revived by this series, and earned high income in the latter half of their careers[^29]. Her reason for declining this step is also clear: she can walk, but she "doesn't want to step."
+
+> **📝 Curator's Note**
+> At a concert in April 2024, she joked: "**Here I want to help Hakka people tear off the stingy label, because Teacher Luo Wen-Yu is so generous, and S.H.E has another Hakka person, Ella, so here we can clear the Hakka stereotype, we are indeed a bit more frugal.**"[^23] The Hakka identity is something she doesn't emphasize publicly but occasionally makes fun of herself about. She didn't use the "Hakka female singer" as a marketing label, but this identity occasionally surfaces in her descriptions of herself.
+
+---
+
+## The Person Who Dropped the Idol System
+
+From September 11, 2001, S.H.E's _Girls' Dorm_ to April 14, 2026, "don't want to step," twenty-five years have passed.
+
+The Hakka girl who sang in the Hsinchu bathroom and was called by her mom "Are you done washing?" has a long list of things she shed in these twenty-five years. In 2017, she took on 11 endorsements in a whole year, with a net worth breaking 100 million; that is what happens most in the latter half of the career of female singers of the same generation; within a few years, the Chinese market closed, and those endorsements almost cleared to zero[^35]. In 2020, the Chinese variety show offered 8.5 million per episode, a 12-episode contract of nearly 100 million plus private jet, she didn't go[^25]. The _Sisters Who Make Waves_ series invited her for consecutive years, she also didn't go[^21]. For 16 years after going solo, she didn't take any drama or movie offers, except for lending her voice to the movie _My Girl_ for the song "[A Little Happiness](https://www.youtube.com/watch?v=_sQSXwdtxlY)"[^1]. Finally, even the choice of continuously booking five shows at the Small Giant Stadium, she dropped it, replacing it with salt fields without air conditioning, brick kilns without roofs, and airfields relying on heaven's weather[^19].
+
+But she didn't quit singing.
+
+What she kept is the breath-filled voice polished out with [Chien-Pai Chen](/people/Chien-Pai Chen) for over ten years, the obsession with the "present" by moving concerts to salt fields and brick kilns, and the ability to shrink herself back to the size of a small-town girl by shouting to her mom on the Golden Melody Awards stage, "I didn't waste the water bill."
+
+She said a sentence to Women's Daily:
+
+> "Normal mind is not about being calm; people have anger, disappointment, frustration, optimism, happiness, extreme joy turning into sorrow, or finding joy in bitterness. I think normal mind is allowing all emotions and feelings to happen, rather than being indifferent to everything."[^24]
+
+Hebe Tien's choices over these twenty-five years may use the three words "normal mind" to define in reverse what a "star" is. A star's job is to smooth out all emotions, pack all contrasts into PR talk, and catch every opportunity. What she did is exactly the opposite: she allows emotions, allows not catching, allows withdrawing, allows "not wanting to step."
+
+Will the sixth album come out this year? In 2025, she already sang at salt fields, brick kilns, and an airfield at 600 meters altitude. Where does she want to stand next? She didn't answer this question, but her entire twenty-five-year choice is the answer: she wants to stand in a place no one decided for her.
+
+---
+
+## Further Reading
+
+- [Chien-Pai Chen](/people/Chien-Pai Chen) — Hebe Tien's fixed producer since 2013, Best Album Producer at the 32nd Golden Melody Awards
+- [Taiwan's New Idol Generation](/culture/Taiwan's New Idol Generation) — The twenty-year gap in Taiwan's idol groups after S.H.E
+- [Hsiao-Yung Huang](/people/Hsiao-Yung Huang) — Listed alongside Chien-Pai Chen as the two voice boundary lines of Mandarin pop music in the last decade
+
+---
+
+## References
+
+[^1]: [Hebe Tien - Wikipedia](https://zh.wikipedia.org/zh-tw/%E7%94%B0%E9%A6%A5%E7%94%84) — Born March 30, 1983, in a Hakka family in Hsinchu, real name Hebe Tien, stage name Hebe, father is a civil servant, mother is a housewife, has an older brother two years senior; no drama/movie acting record after going solo.
+
+[^2]: [Hebe Tien - Wikipedia](https://zh.wikipedia.org/zh-tw/%E7%94%B0%E9%A6%A5%E7%94%84) — Participated in the "Universe 2000 Real Beauty Girl Battle" hosted by Universe Records, the predecessor of HIM International Music, in 2000; lost first place in the finals due to forgetting lyrics while singing Fiona Fok's "Like You."
+
+[^3]: [Hebe Tien - Wikipedia](https://zh.wikipedia.org/zh-tw/%E7%94%B0%E9%A6%A5%E7%94%84) — After the competition, formed S.H.E with Selina Ren and Ella Chen; released first album _Girls' Dorm_ on September 11, 2001.
+
+[^4]: [Hebe Tien - Wikipedia](https://zh.wikipedia.org/zh-tw/%E7%94%B0%E9%A6%A5%E7%94%84) — S.H.E record positioning: Selina gentle, Ella courageous, Hebe confident, green representative color; S.H.E released 13 albums in total, sales exceeding 10 million copies.
+
+[^5]: [10·22 Shanghai Selina Burn Accident - Baidu Baike](https://baike.baidu.com/item/10%C2%B722%E4%B8%8A%E6%B5%B7Selina%E7%83%A7%E4%BC%A4%E4%BA%8B%E6%95%85/6199852) — On October 22, 2010, Selina was severely burned in a blast scene while filming _Meet Myself Lucky_ in Shanghai, with 54% of her body, nearly 80% being third-degree burns, mainly on the back and limbs.
+
+[^6]: [Hebe Tien _To Hebe_ Album Info - Books.com.tw](https://www.books.com.tw/products/0020142592) — On September 3, 2010, Hebe Tien released her first solo studio album _To Hebe_ as a "Super Newcomer After Ten Years Debut"; lead single _Lonely, Lonely Just Fine_ ranked 8th on KKBOX 2010 charts; YouTube Official MV: https://www.youtube.com/watch?v=DyFIzKYQQYE
+
+[^7]: [_Angel in the Devil_ - KKBOX Song Info](https://www.kkbox.com/tw/en/song/OkdsrOWHwySdKmmdqH) — In September 2011, Hebe Tien released her second solo album _My Love_; lead single _Angel in the Devil_ composed by Hsiao-Hsia Chen, lyricized by Jo-Yung Yao, arranged by Wang Zhi-Ping; YouTube Official MV: https://www.youtube.com/watch?v=na_xv5iFt2Y
+
+[^8]: [_Small_ Album - Baidu Baike](https://baike.baidu.com/item/%E6%B8%BA%E5%B0%8F/12425907) — Third solo album _Small_ released on November 29, 2013, inspired by Polish poet Wisława Szymborska's poetry collection _Under One Little Star_; from this album, fixed cooperation with Chien-Pai Chen was formed; YouTube Official MV: https://www.youtube.com/watch?v=BClZoVLwZCE
+
+[^9]: [Hebe Tien - Wikipedia](https://zh.wikipedia.org/zh-tw/%E7%94%B0%E9%A6%A5%E7%94%84) — In 2015, sang theme song _A Little Happiness_ for the movie _My Girl_; as of August 2016, became the first Mandarin single MV to break 100 million views on YouTube; YouTube Official MV: https://www.youtube.com/watch?v=_sQSXwdtxlY
+
+[^10]: [*Daily Life* Album - Wikipedia](https://zh.wikipedia.org/zh-tw/%E6%97%A5%E5%B8%B8_(%E7%94%B0%E9%A6%A5%E7%94%84%E5%B0%88%E8%BC%AF) — ) — Fourth solo album _Daily Life_ released on July 13, 2016, with pure handmade packaging, special fluorescent ink design; Taiwan sales about 70,000 copies, 3rd place among female singers in 2016; YouTube Official MV for title track: https://www.youtube.com/watch?v=3dBFK2fHjWg
+
+[^11]: [Why Not Music - Wikipedia](https://zh.wikipedia.org/zh-tw/%E4%BD%95%E6%A8%82%E9%9F%B3%E6%A8%82) — In 2018, Chien-Pai Chen established "Why Not Music" (Pourquoi Pas Music) as Music Director; _Unknown_ album produced by Le Lai Le Hao (Hebe Tien's personal company), distributed by Why Not Music.
+
+[^12]: [*Unknown* Album - Wikipedia](https://zh.wikipedia.org/zh-tw/%E7%84%A1%E4%BA%BA%E7%9F%A5%E6%9B%89_(%E5%B0%88%E8%BC%AF) — ) — Fifth solo album _Unknown_ released on September 25, 2020; nominated for 7 items at the 32nd Golden Melody Awards, including Best Mandarin Female Singer, Best Mandarin Album, Best MV, Best Lyricist, Best Album Producer, Album of the Year, Song of the Year; YouTube Official MV for title track (Director Bill Jia): https://www.youtube.com/watch?v=RtH0BAbUalk
+
+[^13]: [Hebe Tien _Unknown_ Wins Mandarin Queen - CNA 2021-08-21](https://www.cna.com.tw/news/firstnews/202108215024.aspx) — On August 21, 2021, Hebe Tien won the Best Mandarin Female Singer Award at the 32nd Golden Melody Awards with _Unknown_; Chien-Pai Chen finally won the award after his seventh nomination as producer for the album; Ge Da-Wei won Best Lyricist for the same album.
+
+[^14]: [Hebe Tien _Unknown_ Wins Mandarin Queen - CNA 2021-08-21](https://www.cna.com.tw/news/firstnews/202108215024.aspx) — Original verbatim text of Hebe Tien's 32nd Golden Melody Awards Best Mandarin Female Singer acceptance speech "Tree Hollow" paragraph.
+
+[^15]: [Hebe Tien _Unknown_ Wins Mandarin Queen - CNA 2021-08-21](https://www.cna.com.tw/news/firstnews/202108215024.aspx) — Original words of Hebe Tien's acceptance speech "Mom, I didn't waste the water bill, I got the Golden Melody Award," echoing her childhood of singing loudly in the bathroom at home and being urged by her mom.
+
+[^16]: [Hebe Tien Boycotted by China for One Spaghetti Photo - Mirror Media 2022-08-03](https://www.mirrormedia.mg/story/20220803edi005) — During Nancy Pelosi's visit to Taiwan on August 2, 2022, Hebe Tien posted a photo of eating spaghetti on IG Stories with original caption verbatim; Chinese netizens interpreted it as supporting Pelosi due to her Italian heritage, songs taken down from Chinese music platforms, Weibo followers lost over 2 million.
+
+[^17]: [Hebe Tien Not Kneeling Not Licking - New Talk Guan Renjian Opinion 2025-07-11](https://newtalk.tw/news/view/2025-07-11/981297) — In April 2024, Hebe Tien was originally scheduled to appear as the closing act at the Tianjin Paopao Island Music Festival on May 2, attacked by Chinese netizens, organizer announced cancellation on April 27, Hebe Tien responded "Very regrettable"; summarizes the framework of Hebe Tien's three events regarding China.
+
+[^18]: [Tian Style - Chien-Pai Chen × A-Gun In-depth Interview - BIOS monthly](https://www.biosmonthly.com/article/10523) — Chien-Pai Chen talks about the core philosophy of producing Hebe Tien "Is imperfection a form of emotional expression" original text, and his contrast description of her "laugh is very bold"; Band Leader A-Gun describes her as "poker face but surging heart inside."
+
+[^19]: [Tian Diao Live in Life Wild Tour - The News Lens 2025](https://www.thenewslens.com/article/255410) — 2025 May-June _Tian Diao_ tour five locations ten shows: Tainan Well Foot Tile Salt Fields, Nantou Puli Huxiao Shanlan Airfield, New Taipei Wanli Emerald Bay Thermal Airfield, Kaohsiung Weiwuying Outdoor Theater, Pingtung Hengchun Lianfu Brick Kiln, attracting over 20,000 audiences.
+
+[^20]: [Hebe Tien Announces Sixth Album on 43rd Birthday - Bella.tw 2026](https://www.bella.tw/articles/celebrities/57063/hebe-tien-announce-6th-album) — On March 30, 2026, Hebe Tien's 43rd birthday, S.H.E three members appeared together in live broadcast, announcing sixth solo album "Six Treasures Successfully Implanted" to be released within the year (according to media reports).
+
+[^21]: [Hebe Tien Responds to Declining Wind 2026 - Epoch Times 2026-04-15](https://www.epochtimes.com/b5/26/4/15/n14742388.htm) — On April 14, 2026, Hebe Tien appeared at an endorsement event to respond for the first time face-to-face for declining _Wind 2026_: "It's not a hurdle, but I 'don't want to step' on it. I like lightness and freedom, a bit more relaxed and comfortable" original words; repeatedly declined _Sisters Who Make Waves_ series invitations.
+
+[^22]: [Selina Ren - Wikipedia](https://zh.wikipedia.org/zh-hans/%E4%BB%BB%E5%AE%B6%E8%90%B1) — On October 31, 2011, Selina married lawyer boyfriend Chang Cheng-Chung, Hebe Tien and Ella served as bridesmaids and sang together; S.H.E Wedding Version _Love You_ YouTube Official MV: https://www.youtube.com/watch?v=kPUc7w3G-WM
+
+[^23]: [Hebe Tien H³ RIZZ UP Concert Tears Off Hakka Stingy Label - CNA 2024-04-14](https://www.cna.com.tw/news/amov/202404140126.aspx) — Hebe Tien's original words at H³ RIZZ UP Concert on April 13, 2024, helping Hakka people "tear off the stingy label," mentioning Ella is also Hakka.
+
+[^24]: [Hebe Tien Interview - Women's Daily Womany](https://womany.net/read/article/24068) — Hebe Tien talks about "Normal mind is allowing all emotions and feelings to happen, rather than being indifferent to everything" original verbatim.
+
+[^25]: [Hebe Tien Once Rumored to Open Price 100 Million But Didn't Go - SETN Sanli News](https://star.setn.com/news/1822759) — In 2020, Chinese _The Voice of China Dream: Our Song_ variety show invited Hebe Tien twice: 8.5 million NTD per episode, 12-episode contract exceeding 100 million, plus private jet transportation (according to media reports, HIM did not confirm at the time); Hebe Tien confirmed on 2026-04-14 that she received multiple Mainland variety show invitations but "it's not my choice."
+
+[^26]: [Selina Tears Open Burn's Most Unbearable Dark Side - ETtoday 2014](https://star.ettoday.net/news/390392) — After Selina's burn, her mindset once became twisted "hating everyone around her," refusing to see family; friend Hebe's sentence "There are no 100-point parents in the world" helped her walk out of her inner demons; subsequent reports said Hebe visited frequently during Selina's 89-day hospitalization (recalled by Selina's ex-husband Chang Cheng-Chung).
+
+[^27]: [Hebe Tien Terminates Contract with HIM, Establishes Own House - ETtoday 2018-10](https://star.ettoday.net/news/1270955) — In October 2018, Hebe Tien's contract with HIM expired and was not renewed, establishing her own "Le Lai Le Hao Co., Ltd." to handle personal affairs; in 2017, she took on 11 endorsements in a whole year, net worth breaking 100 million.
+
+[^28]: [Hebe Tien Yi Yi Fengdao Museum Interview - BIOS monthly](https://www.biosmonthly.com/article/10556) — Hebe Tien's original words "How to use imperfection? There's no need to use it at all; I am inherently a person full of imperfections"; talks about Fengdao Museum as the starting point for inspiration for _Yi Yi_ tour.
+
+[^29]: [Sisters Who Make Waves Season 2 - Wikipedia](https://zh.wikipedia.org/zh-tw/%E4%B9%98%E9%A3%8E%E7%A0%B4%E6%B5%AA%E7%9A%84%E5%A7%90%E5%A7%90_(%E7%AC%AC%E4%BA%8C%E5%AD%A3) — ) — In 2021, Rainie Yang participated in the second season of _Sisters Who Make Waves_, forming a 7-member group to debut; Na Ying, Zhou Bichang, Joey Yung and other female singers of the same generation were also seen again by the Chinese market in this series.
+
+[^30]: [Jolin Tsai 2025 China Satellite TV New Year's Eve Gala Lineup - NowNews](https://www.nownews.com/news/6621053) — In 2025, Jolin Tsai participated in Chinese variety show _Da Ge 2025_ (2025-07-25) and attended New Year's Eve galas of multiple satellite TV stations.
+
+[^31]: [_Island_ Pointed Out as Taiwan Independence - Mirror Media 2022-08-05](https://www.mirrormedia.mg/story/20220805edi033) — Hebe Tien's 2010 old song _Island_ was pointed out by Chinese netizens as supporting Taiwan independence meaning due to lyrics "separated by a sea, not disturbing each other" and "I think this distance is very good," becoming the most pointed-out song in the takedown list.
+
+[^32]: [Hebe Tien Asked About Mood Answers Earthquake - Udn Stars 2024](https://stars.udn.com/star/story/10092/7925663) — Two years after the spaghetti incident, Hebe Tien was interviewed, reporter asked "Are you feeling okay lately? Do you want to drink a couple more cups," she answered "Are you talking about the earthquake? Whether there are many things or few, I quite like drinking a couple of cups"; after the incident, she did not apologize, explain, or regret for the spaghetti.
+
+[^33]: [Hebe Tien 2022 Kaohsiung _Yi Yi_ Cancelled Due to Earthquake - Threads @ting.car\_ 2025](https://www.threads.com/@ting.car_/post/DLPUuOSTsgB/) — 2025 Tian Diao Kaohsiung Weiwuying Outdoor Theater share the significance of making up the _Yi Yi_ concert canceled due to the earthquake in 2022.
+
+[^34]: [Salt Field Sunset Starry Sky All Possible Liu Po-Chun Deep Talks Tian Diao Tour - Blow Blow Music](https://blow.streetvoice.com/82402/) — Tian Diao tour director Liu Po-Chun (Good Show Lab) verbatim interview: Salt field design concept, Puli paraglider suddenly picked up wind changed cue to _What, Where_, _Sun Suspension_ sunset delayed 10 minutes start time, Brick kiln Cao Fei Fire team flame light tube installation, describing Hebe Tien "very real very disciplined."
+
+[^35]: [Hebe Tien Terminates Contract with HIM - ETtoday 2018-10](https://star.ettoday.net/news/1270955) — Background of Hebe Tien taking on 11 endorsements in 2017, net worth breaking 100 million.

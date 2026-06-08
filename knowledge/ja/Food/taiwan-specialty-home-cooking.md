@@ -1,109 +1,122 @@
 ---
-title: '台湾の手路菜：意味、由来と「拿手好菜」としての宴席文化'
-description: '手路菜（台湾語 tshiú-lōo-tshài）とは「拿手好菜（得意料理）」のことです。高雄県内門郷の白堊土では作物が育たないにもかかわらず、台湾で最も密度の高い総鋪師（総料理長）を輩出しました——最盛期には年間25,000卓を仕切り、繁忙期の月収は1,200万円に達しました。一鍋の菜尾湯（宴席の最後の吸い物）には4時間から8時間かかり、仕上がりが良し悪しは翌日には村中に知れ渡ります。'
+title: "Taiwanese Hand-Cooked Dishes: Meaning, Origins, and the 'Signature Dishes' of Banquet Culture"
+description: "Hand-cooked dishes (Teochew: tshiú-lōo-tshài) means 'signature dishes'. The white chalk soil of Neimen, Kaohsiung, cannot grow crops, yet it nurtured the township with the highest density of banquet chefs (zongpushi) in Taiwan. In its golden age, a single banquet company hosted 25,000 tables a year, with monthly revenues reaching 12 million. A pot of 'vegetable tail soup' requires four to eight hours to prepare; if the flavor is not balanced well, the entire village will know the next day."
 date: 2026-03-31
-tags: ['台湾美食', '伝統料理', '辦桌（宴席）', '手路菜', '総鋪師', '飲食文化']
-subcategory: '飲食文化'
-category: 'Food'
+tags:
+  [
+    'Taiwanese Cuisine',
+    'Traditional Cooking',
+    'Banquet',
+    'Hand-Cooked Dishes',
+    'Banquet Chef',
+    'Food Culture',
+  ]
+subcategory: 'Food Culture'
 author: 'Taiwan.md'
-featured: true
+category: 'Food'
+readingTime: 12
 lastVerified: 2026-03-31
 lastHumanReview: true
 translatedFrom: 'Food/台灣手路菜.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:df198d59161b9af6'
-sourceBodyHash: 'sha256:36f30f4b81431a3f'
-translatedAt: '2026-05-01T19:52:32+08:00'
+sourceCommitSha: 'b0e441faa'
+sourceContentHash: 'sha256:ff399c43604618f1'
+translatedAt: '2026-06-09T03:28:13+08:00'
 ---
 
-> **30秒概要：** 「手路菜」とは台湾語で「拿手好菜（得意料理）」[^1]を指し、本当の技量が必要で標準的なレシピがなく、師匠から弟子へ口伝で受け継がれる料理のことです。最も集中的に発揮される場は「辦屋（パントー）」——路辺にテントを張り、その場でかまどを立てる台湾の宴席伝統です。高雄県内門郷は土地が貧しいがゆえに、台湾で最も総鋪師の密度が高い鄉鎮となりました。最盛期には一つの宴席業者が年間25,000卓を仕切りました。しかしホテルでの結婚式やCOVID-19の影響により、20年で辦桌の注文は9割減少し、失われたのは料理の味だけでなく、「還菜尾（宴席の残りを近隣に分け合う）」のような近所同士の助け合いの人情でもありました。
+> **30-Second Overview:** "Hand-cooked dishes" (手路菜) is a Teochew term for "signature dishes" [^1], referring to those requiring true skill, lacking standard recipes, and passed down orally from master to apprentice. Its most concentrated exhibition field is the "banquet" (辦桌)—a Taiwanese banquet tradition where tents are erected by the roadside and cooking fires are lit on-site. Neimen in Kaohsiung, due to its barren land, accidentally became the township with the highest density of banquet chefs (zongpushi) in Taiwan. In its golden age, one banquet company hosted 25,000 tables a year. However, from hotel weddings to the COVID-19 pandemic, banquet orders shrank by 90% over twenty years, taking away not just the taste of the food, but also the neighborly mutual aid of "returning the vegetable tail soup."
 
-2020年の春、高雄県内門郷紫竹寺の廟埕（廟前の広場）にはいくつかの新しい旗が掲げられていました。旗には封肉（豚の角煮）、魚翅羹（ふかひれの吸い物）、八宝丸（肉団子）の絵が印刷されていました——これは辦屋の広告ではなく、総鋪師が開いた屋台でした。48歳の薛孟輝は「螞蟻上樹（まめもやしの炒め物）」を炒めながら、『報導者』の記者にこう説明しました：「もう辦屋はできないけど、みんな生きていかなきゃならないでしょう！」[^2]
+In the spring of 2020, new flags were erected in the temple courtyard of Zizhu Temple in Neimen, Kaohsiung. Printed on them were braised pork (fengrou), shark fin soup, and eight-treasure meatballs—not banquet advertisements, but roadside stalls set up by banquet chefs. 48-year-old Xue Menghui stirred "Ants Climbing a Tree" while explaining to a reporter from _The Reporter_: "Even if there are no banquets now, people still need to survive!" [^2]
 
-薛家は内門の「総鋪師の家系」です。薛孟輝は高校時代から父親の薛清己について辦屋を手伝い、両世代で50年以上の経験を積みました。父親の当時の仕事日記を開くと、農民暦（旧暦の暦）いっぱいに書き込まれ、年間25,000卓、繁忙期には一日に十数場を掛け持ちし、料理師は夜明けに出て昼に終わり、夜の場に駆けつけ、4時間も眠れたかどうかわからないほどでした[^2]。
+The Xue family is a "banquet master lineage" in Neimen. Xue Menghui started following his father, Xue Qingji, to host banquets in high school. Over two generations, they accumulated more than fifty years of experience. Flipping through his father's work logs from those years, the entire almanac was filled with entries: 25,000 tables a year, rushing through ten events a day on major days. Chefs left home at dawn, finished by noon, and rushed to evening events; whether they slept for four hours was unknown [^2].
 
-しかし2020年のパンデミックが这一切を凍結させました。外燴（ケータリング）・団膳請負業の売上高は前年比32.3%減[^3]、辦屋の注文は9割縮小しました。薛旧暦の2月・3月に500卓以上がキャンセルされ、友人の弁当店でアルバイトをしなければなりませんでした。
+But the 2020 pandemic froze all of this. The annual revenue of the catering and group meal contracting industry decreased by 32.3% [^3], and banquet orders shrank by 90%. Xue Menghui had over 500 tables canceled in the second and third lunar months, forcing him to work part-time at a friend's bento shop.
 
-これは辦屋産業が初めて直面した危機ではありませんが、おそらく最後の危機かもしれません。
+This is not the first time the banquet industry has faced a crisis, but it may be the last.
 
-## 辦桌：路辺が宴会場になる
+## Banquets: The Roadside is the Banquet Hall
 
-辦桌（パントー）とは、閩南文化の宴席伝統で、移民とともに台湾に伝わり、清代の統治時代から記録があります[^4]。婚喪喜慶、廟会の建醮（祭事）、出産や長寿の祝い——主人が総鋪師を廟前の広場、学校の校庭、道路脇に招き、テントを張り、その場でかまどを立て、切菜から配膳まで一気に行います。レストランとの違いは、辦屋には厳格な礼俗があることです——料理の選択、上菜の順序、座席の配置にすべて作法があります。
+A banquet (pān-toh) is a banquet tradition of Minnan culture, brought to Taiwan with immigrants, with records dating back to the Qing Dynasty [^4]. For weddings, funerals, celebrations, temple fairs, and jiao rituals, the host invites the banquet chef to the temple courtyard, school playground, or roadside to erect tents and light stoves on-site. From chopping vegetables to serving dishes, it is done in one go. Unlike restaurants, banquets have strict customs: the choice of dishes, the order of serving, and seating arrangements all have specific讲究 (requirements).
 
-一般的な辦屋は12品で構成され、「起承転合」を重んじます[^5]：冷菜（前菜）で客を着席させ、羹湯（吸い物）で胃を温め、中盤にメインディッシュ——紅蟳米糕（ワタリガニの米蒸し）、清蒸石斑（ハタの蒸し焼き）、佛跳牆（フォーティャオチャン）——を出し、最後に鶏肉のスープ、デザート、果物で締めくくり、円満を象徴します。すべての料理が「手路菜」です：紅蟳米糕は蒸し時間を調整してカニの味噌を米粒に染み込ませる必要があり、佛跳牆は20種類以上の食材をそれぞれ別に処理して甕で蒸し煮にし、封肉は脂身と赤身のバランスを取り、口の中でとろけるが崩れないように仕上げます。
+A typical banquet consists of about twelve dishes, emphasizing "introduction, elaboration, transition, and conclusion" [^5]: Cold plates open the meal, allowing guests to take their seats; soups warm the stomach; the middle section features heavyweight main dishes—such as red crab with rice, steamed grouper, and Buddha Jumps Over the Wall—ending with chicken soup, desserts, and fruit to symbolize completeness. Every dish is a "hand-cooked dish": Red crab with rice requires controlling the steaming time so that the crab roe permeates the rice; Buddha Jumps Over the Wall requires processing more than twenty ingredients separately before sealing the jar and simmering; braised pork requires even fat and lean meat, melting in the mouth but not falling apart.
 
-> **📝 キュレーションの視点：** レストランを「文場」、辦屋を「武場」と表現することがあります。総鋪師の試練は料理の技量だけに限りません——強風暴雨、橋の崩壊、道路の寸断にかかわらず、主催者が取り消さない限り、必ずやり遂げなければなりません。
+> **📝 Curatorial Perspective:** People often describe restaurants as the "civil scene" (wenchang) and banquets as the "martial scene" (wuchang). The test for a banquet chef is not just culinary skill—regardless of strong winds, heavy rain, broken bridges, or collapsed roads, as long as the host does not cancel, they must fulfill their mission.
 
-台南のベテラン総鋪師・汪義勇はかつて高雄の学校の講堂で120卓の辦屋を担当した際、夕方5時に豪雨が襲い、水が脛までかまり、かまどの火が消え、鍋や盆が水面に浮き、下準備した鱒魚が十数匹逃げ出しました。汪義勇はすぐに帆布のテントを切り裂いて排水し、調理器具を屋根の下に移し、袖をまくり上げてまず魚を捕まえました。結局鱒魚は1匹足りませんが、予備の食材で補い、すべての客に行き渡りました[^2]。
+Wang Yi Yong, a senior banquet chef in Tainan, once hosted 120 tables in a school auditorium in Kaohsiung. At 5 PM in the evening, a rainstorm struck. Water flooded up to their calves, the fire stove was extinguished, pots and pans floated on the water, and even the trout prepared for the pot swam away, with over ten disappearing. Wang Yi Yong immediately cut the canvas tent to drain the water, moved the kitchenware under the eaves, rolled up his sleeves, and caught the fish first. In the end, one trout was missing, but it was supplemented by ingredients from the reserve table, and all guests ate [^2].
 
-## 内門：貧しい土地が生んだ総鋪師の里
+## Neimen: The Hometown of Banquet Chefs on Barren Land
 
-高雄県内門郷は四方を山に囲まれ、土質は高アルカリ性の白堊土で、農耕に適しません。乾耐性の刺竹だけが生き残れます。1960年代以前、住民は竹籠を編んで旗山のバナナ農家に包装用として供給することで生計を立てていましたが、低コストの紙箱に市場を奪われ、竹編産業は衰退しました[^2]。
+Neimen in Kaohsiung is surrounded by mountains on all sides. The soil is alkaline white chalk, unsuitable for agriculture, with only drought-resistant bamboo surviving. Before the 1960s, residents survived by weaving bamboo baskets to package bananas for Qishan banana farmers; after low-cost cardboard boxes took the market, the bamboo weaving industry declined [^2].
 
-しかしちょうどその時代、台湾の経済が高度成長を迎え、辦屋の需要が急増しました。土地から収穫を得られない内門の人々は、新たな道を見つけました——他人の宴席を料理することです。
+But it was precisely in that era that Taiwan's economy took off, and the demand for banquets surged. The people of Neimen, who could not grow anything on the land, found a new way out—cooking banquets for others.
 
-内門は廟が密集し、陣頭（祭りの行列）が盛大で、祝祭のたびに宴席の需要があり、総鋪師の仕事は絶えませんでした。薛孟輝の父親・薛清己は弟子、養鶏業者、養豚業者とそれぞれ2万元を出資して「四合一」会社を設立し、食材供給、調理、椅子・テーブルのレンタルをワンストップで提供しました[^2]。二番手・三番手の料理師が経験を積んで独立すると、内門の辦屋の力は雪だるま式に膨れ上がり、台湾で最も総鋪師の密度が高い鄉鎮となり、「総鋪師の里」と呼ばれるようになりました[^6]。
+Neimen has dense temples and powerful阵头 (traditional performance troupes). Every celebration creates a demand for banquets, keeping the business of banquet chefs booming. Xue Menghui's father, Xue Qingji, and his apprentice, a chicken vendor, and a pig vendor each contributed 20,000 yuan to establish a "Four-in-One" company, providing a one-stop service of ingredient supply, cooking, and table and chair rental [^2]. After second and third chefs accumulated experience, they set up their own businesses. The banquet energy in Neimen grew like a snowball, becoming the township with the highest density of banquet chefs in Taiwan, known as the "Hometown of Banquet Chefs" [^6].
 
-> **📝 キュレーションの視点：** 内門の物語は台湾によくある「劣勢の逆転」のナラティブです——土地が貧しく、他に選択肢がなかったからこそ、一つの産業集団が生まれました。辦屋は無数の家庭を支え、車で30分離れた杉林区の住民まで水脚（雑務係）として働きに来ました。
+> **📝 Curatorial Perspective:** The story of Neimen is a common narrative of "turning disadvantages into advantages" in Taiwan: precisely because the land was barren and there were no other choices, it forced the emergence of an industrial cluster. Banquets supported countless families, and residents from Shanlin District, half an hour away by car, also came to work as laborers.
 
-最盛期はおおよそ1988年から2000年頃でした。薛孟輝が振り返るには、李登輝が総統だった時期は、伝統的な「八慶一喪（八つの慶事と一つの葬儀）」だけでなく、子供が博士号を取得したり、競鳩で勝ったりしても宴席を開く理由になりました。農民暦の赤い吉日には、廟の前や道路脇は「黒松大飯店」だらけになりました——かつて辦屋の帆布テントは飲料メーカーが提供し、黒松サイダーの広告が印刷されていたことから、辦屋の代名詞になったのです[^2]。
+The golden age was approximately between 1988 and 2000. Xue Menghui recalled that during Lee Teng-hui's presidency, not only traditional "eight celebrations and one funeral" required banquets, but children getting PhDs or winning money from pigeon racing also had reasons to host banquets. On auspicious days marked in red in the almanac, the temple entrance and roadside were full of "Heineken Grand Hotels"—early banquet canvas tents were provided by beverage companies, printed with Heineken soda advertisements, becoming a synonym for banquets [^2].
 
-## 菜尾湯：総鋪師の期末試験
+## Vegetable Tail Soup: The Final Exam for Banquet Chefs
 
-すべての辦屋の手路菜の中で、最も格が高いのは佛跳牆でも紅蟳米糕でもありません——最後の「菜尾湯」です。
+Among all banquet hand-cooked dishes, the highest status does not belong to Buddha Jumps Over the Wall or red crab with rice—it belongs to the final dish, "vegetable tail soup" (caiwei tang).
 
-多くの人が菜尾を残り物だと思いがちですが、台湾料理の教母・黄婉玲は30年かけてこの誤解を解いてきました。「その名の通り、料理師が最後に作る、それを終えて初めて帰れる料理が菜尾です。60年前、誰も菜尾湯が残り物だとは疑いませんでした。むしろ料理師の腕を試す大料理でした。」[^7]
+Many people think vegetable tail is leftover food. Huang Wanling, the "Godmother of Taiwanese Cuisine," spent thirty years clarifying this misunderstanding. "As the name suggests, the chef's last dish, the one they can only leave after finishing, is called vegetable tail. Sixty years ago, no one questioned that vegetable tail soup was leftover food; it was even a major dish testing the chef's skill." [^7]
 
-本格的な菜尾湯には、7つの代表的な宴席料理の一部の食材をあらかじめ取っておく必要があります：紅焼羹（あんかけ）、五柳枝（ゴリョウシ）、封肉（豚の角煮）、筍糸酸菜排骨湯（筍と漬物の豚スペアリブのスープ）、扁魚白菜滷（干しイワシと白菜の煮物）、白蘿蔔豬肚湯（大根と豚胃のスープ）、魚丸湯（魚の団子のスープ）[^8]。客が最初の料理を食べ始めてから、総鋪師は黙々と計算しています——どれだけ取っておくか、いつ鍋に入れるか、比率をどう調整するか。
+A authentic vegetable tail soup requires reserving part of the ingredients from seven classic banquet dishes in advance: braised soup, five-silk branches, braised pork, bamboo shoot and sour cabbage rib soup, flatfish and Chinese cabbage stew, white radish and pork stomach soup, and fish ball soup [^8]. From the moment guests eat the first dish, the banquet chef is silently calculating—how much to save, when to put it in the pot, and how to balance the proportions.
 
-台湾語の「結（カット）」とは、調和・融合を意味します。菜尾を結ぶには4時間から8時間かかり、その間絶えず攪拌し、味見し、調整し、温度、湿度、火加減、食材の状態をすべてその場で判断します。黄婉玲自身が一人で挑戦したところ、6日かかりました[^7]。
+In Teochew, "jie" (結) means harmonizing and blending. Making vegetable tail soup takes four to eight hours. During the process, constant stirring, tasting, and adjusting are required. Temperature, humidity, heat, and ingredient status are all judged in real-time. Huang Wanling herself took the lead in testing it once, spending six days [^7].
 
-> **💡 豆知識：** 「還菜尾」は辦屋で最も人情味のある慣習です。宴席が終わると、主人が若い者を派遣して菜尾湯を担ぎ、手伝った近隣の家々を回って配ります。「還」は第三声で読み、腰を曲げてお辞儀をする感謝の気持ちが込められています。近隣の人が受け取った後、もう一度煮て白菜を加えると2鍋分になります。菜尾の仕上がりが悪いと翌日には村中に知れ渡り、総鋪師の来年の仕事に直接影響します[^9]。
+> **💡 Did You Know?** "Returning the vegetable tail" is the most human-touching part of the banquet. After the banquet, the host sends strong men to carry the vegetable tail soup door-to-door to neighbors who helped. "Return" is pronounced with the third tone, carrying the gratitude of bowing and bending over. After neighbors receive it, they cook it again and add Chinese cabbage to make two pots. If the vegetable tail is not balanced well, the entire village will know the next day, directly affecting the banquet chef's business for the next year [^9].
 
-黄婉玲はこう言います：「台湾のほとんどすべての料理には移民の色彩がありますが、菜尾湯だけはなく、この土地が300年以上かけてその土地その土地に合わせて生み出した料理であり、台湾の根です。」[^7]
+Huang Wanling said: "Almost all Taiwanese dishes have immigrant colors, except for vegetable tail soup. It is a dish adapted to local conditions on this land for over three hundred years, the root of Taiwan." [^7]
 
-## 20年間の衰退
+## Twenty Years of Decline
 
-辦屋産業の危機はパンデミックから始まったわけではありません。嘉義市餐飲業職業工会の書記・鍾月春は三つの災害でその推移を測ります：「921大地震で少し傷つき、SARSで半分以上を失い、今年のパンデミックで、辦屋は衰退産業になるかもしれません。」[^2]
+The crisis of the banquet industry did not start with the pandemic. Zhong Yuechun, Secretary of the Chiayi City Catering Industry Professional Union, used three disasters to mark the timeline: "The 921 earthquake hurt a little, SARS hurt more than half, and this year's pandemic may make the banquet an industry in decline." [^2]
 
-より根本的な原因は生活様式の変化です。ホテルでの結婚式が路辺の辦屋に取って代わり、若者は体力が必要な辦屋の技術を学びたがらず、加工輸出区の中小企業は産業の西進とともに倒産しました——薛孟輝によると、常連の老舗が2年連続で忘年会・新年会の辦屋を頼まなくなっていたが、聞いてみるとすでに廃業していたそうです[^2]。
+The more fundamental reason is the change in lifestyle. Hotel weddings replaced roadside banquets; young people are unwilling to learn the physical labor of banquet cooking; small and medium-sized enterprises in the export processing zones closed as industries moved westward—Xue Menghui said that some old clients did not ask him to host the year-end party for two consecutive years, and upon inquiry, they had already closed down [^2].
 
-> 「今年だけが心配なのではなく、みんなが（辦屋を）頼まなくなることが習慣になることがもっと心配です。」——台南の辦屋業者・蔡裕峰[^2]
+> "We are not only worried about this year, but more worried that people will make not hosting banquets a habit." — Cai Yufeng, a banquet operator in Tainan [^2]
 
-この言葉は辦屋業の最も深い恐怖を表しています。辦屋が失われるのは一つのビジネスだけではなく、一整套の社会的な仕組みです——廟の祭事が宴席の需要を生み、総鋪師が水脚や供給業者を養い、「還菜尾」が近隣関係を繋ぎます。この循環が断たれるのは、サプライチェーンだけが断たれるということではありません。
+This sentence reveals the deepest fear of the banquet industry. The disappearance of banquets is not just a business; it is an entire social operating system: temple celebrations drive banquet demand, banquet chefs support laborers and suppliers, and "returning the vegetable tail" maintains neighborhood relations. When this cycle breaks, it is not just the industrial chain that breaks.
 
-## 守る人々
+## Those Who Rescue
 
-これらの味を必死に守ろうとする人々がいます。
+Some are desperately trying to keep these flavors.
 
-黄婉玲はもともとインタビュー作家になりたくて、ベテランの総鋪師について取材し、物語を書こうとしていました。しかし老師傅（ベテラン料理師）が、彼女の無力な様子を見て突然涙を流しました——他に学びたがる人がいなかったからです。その一滴の涙が彼女の人生の方向を変えました：水脚から始め、複数の総鋪師について数百場の宴席を手伝い、体力をつけるために筋トレをしました[^7]。2011年から、『総鋪師辦屋』、『阿嬤の廚房』、『老台菜』、『百年台湾古早味』、『台菜本味』を相次いで出版し、老台菜の作法と風土の物語を文字に残しました[^10]。
+Huang Wanling initially only wanted to be a feature writer, following old banquet chefs to interview and write stories. But the old master looked at her weak appearance and suddenly shed tears—because no one else was willing to learn. That tear changed her life direction: starting from being a laborer, she followed multiple banquet chefs for over a hundred banquets, practicing weightlifting to sustain her physical strength [^7]. Since 2011, she has successively published _Banquet Chef Banquet_, _Grandma's Kitchen_, _Old Taiwanese Cuisine_, _Century-old Taiwanese Early Flavors_, and _Original Taste of Taiwanese Cuisine_, preserving the methods and stories of the local land of old Taiwanese dishes in text [^10].
 
-別の守り方として商業的転換があります。内門の阿隆師は封肉や佛跳牆を冷凍真空パックにしてECサイトで販売しています[^11]。また、大規模なイベントがなくてもお祝い事は絶えないため、祭祀用の供物に転換する総鋪師もいます[^2]。しかし路辺にテントを張り、その場でかまどを立て、12品の起承転合を奏でる辦屋の体験は、冷凍パックでは再現できません。
+Another form of rescue is commercial transformation. A Long Shi in Neimen makes braised pork and Buddha Jumps Over Wall into frozen vacuum packs for e-commerce [^11]; some banquet chefs have transformed into making sacrificial offerings, because even without large events, worship will not decrease [^2]. But the experience of roadside tents, on-site stoves, and the twelve-dish introduction-conclusion structure of banquets cannot be replicated by frozen packaging.
 
-手路菜の最も残酷な点はここにあります：それは生きた技藝であり、人から人へ伝えられるものです。塩を一つまみとは何グラム、強火から弱火に替えるタイミング、「色が合った」とはどのような色——これらの口訣は師匠の手と目の中にしか存在しません。人がいなくなれば、料理もなくなります。
+The cruelest thing about hand-cooked dishes is here: it is a living skill, passed from person to person. How many grams is a handful of salt? When to turn high heat to low heat? What color is "the right color"? These mantras only exist in the hands and eyes of the master. When the person is gone, the dish is gone.
 
-薛孟輝は父親がびっしり書き込んだ農民暦をめくり、その文字は一つの産業の最盛期の記録です。彼が知らないのは、その日誌が料理と卓数だけを記録しているのではなく、一つの時代の台湾人がどのように祝い、どのように感謝し、どのように一鍋の湯で村中を繋いできたかを記録しているということです。
+Xue Menghui flips through the almanac filled with his father's handwriting, the characters on it being the scale of a golden age of an industry. What he does not know is that this diary records not just menus and table counts—it records how a whole era of Taiwanese people celebrated, how they expressed gratitude, and how they connected the whole village with one pot of soup.
 
-## 参考資料
+**Further Reading**:
 
-[^1]: [手路菜——教育部台湾語常用語辞典](https://sutian.moe.edu.tw/zh-hant/su/1118/)
+- [Taiwanese Banquet Culture](/food/台灣辦桌文化) — The most concentrated exhibition field of hand-cooked dishes: from the banquet chef kingdom raised in the badland of Neimen to a complete set of banquet ritual knowledge spanning the realms of gods, humans, and ghosts
+- [Chen Yu-Hsun](/people/陳玉勳) — Director of _The Grandmaster_, bringing skills like chicken, pork stomach, and softshell turtle to the big screen
+- [Taiwanese Seafood Culture](/food/台灣海鮮文化) — The red crab, lobster, and steamed fish on the main table of banquets, the context of Taiwanese seafood behind them
 
-[^2]: [総鋪師と水脚の最も長い冬——報導者](https://www.twreporter.org/a/after-covid-19-fading-taiwan-flavor-roadside-banquet-culture)（2020）
+## References
 
-[^3]: [経済部統計——外燴・団膳請負業の売上高](https://www.moea.gov.tw/Mns/dos/bulletin/Bulletin.aspx?kind=8&html=1&menu_id=6727&bull_id=7325)（2020）
+[^1]: [Hand-cooked Dishes — Ministry of Education Taiwan Teochew Common Word Dictionary](https://sutian.moe.edu.tw/zh-hant/su/1118/) — See the original link for detailed content supplements
 
-[^4]: [辦屋——ウィキペディア](https://zh.wikipedia.org/zh-tw/%E8%BE%A6%E6%A1%8C)
+[^2]: [The Longest Winter for Banquet Chefs and Laborers — The Reporter](https://www.twreporter.org/a/after-covid-19-fading-taiwan-flavor-roadside-banquet-culture) — (2020)
 
-[^5]: [辦屋文化の秘密：宴席メニュー、出菜順序、そして総鋪師の妙手——Heho](https://lifestyle.heho.com.tw/archives/60486)（2023）
+[^3]: [Ministry of Economic Statistics — Revenue of the Catering and Group Meal Contracting Industry](https://www.moea.gov.tw/Mns/dos/bulletin/Bulletin.aspx?kind=8&html=1&menu_id=6727&bull_id=7325) — (2020)
 
-[^6]: [一家の辦屋、万家の香り——内門の辦屋伝奇](http://mail.jwsh.tp.edu.tw/~lawfate/a-3.html)
+[^4]: [Banquet — Wikipedia](https://zh.wikipedia.org/zh-tw/%E8%BE%A6%E6%A1%8C) — Wikipedia entry
 
-[^7]: [黄婉玲『台菜本味』が絶滅寸前の「菜尾湯」を再び香らせる——500輯](https://500times.udn.com/wtimes/story/12671/5245108)（2021）
+[^5]: [Decoding Banquet Culture: Banquet Menus, Serving Order, and the Good Hand-Cooked Dishes of Banquet Chefs — Heho](https://lifestyle.heho.com.tw/archives/60486) — (2023)
 
-[^8]: [菜尾≠残り物——台湾料理の教母が伝える「菜尾湯」——聯合報オレンジ世代](https://orange.udn.com/orange/story/121311/5327380)（2021）
+[^6]: [One Banquet Company, Fragrance for Ten Thousand Families — The Legend of Neimen Banquets](http://mail.jwsh.tp.edu.tw/~lawfate/a-3.html) — See the original link for detailed content supplements
 
-[^9]: [「菜尾湯」は残り物ではない！7品の独立した料理の食材を4時間煮込む——ETtoday](https://travel.ettoday.net/article/1913876.htm)（2021）
+[^7]: [Huang Wanling's _Original Taste of Taiwanese Cuisine_ Keeps the Classic "Vegetable Tail Soup" Fragrant — 500 Times](https://500times.udn.com/wtimes/story/12671/5245108) — (2021)
 
-[^10]: [台湾の英雄——台湾料理の教母・黄婉玲——自由時報](https://www.youtube.com/watch?v=P4cjkkQeuxY)（2022）
+[^8]: [Vegetable Tail ≠ Leftovers — The Godmother of Taiwanese Cuisine Teaches How to Cook the Classic Good Flavor "Vegetable Tail Soup" — United Daily News Orange Generation](https://orange.udn.com/orange/story/121311/5327380) — (2021)
 
-[^11]: [内門阿隆師の辦屋——Rakuten](https://www.rakuten.com.tw/shop/aweisister/)
+[^9]: [Classic "Vegetable Tail Soup" is Not Leftovers! 7 Independent Dish Ingredients Simmered for 4 Hours — ETtoday](https://travel.ettoday.net/article/1913876.htm) — (2021)
+
+[^10]: [Taiwanese Hero — The Godmother of Taiwanese Cuisine Huang Wanling — Liberty Times Net](https://www.youtube.com/watch?v=P4cjkkQeuxY) — (2022)
+
+[^11]: [Neimen A Long Shi Banquet — Rakuten](https://www.rakuten.com.tw/shop/aweisister/) — See the original link for detailed content supplements
