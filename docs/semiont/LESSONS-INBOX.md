@@ -262,6 +262,40 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-06-09 嘻哈饒舌 — orchestrator 蒸餾 fact-pack 給 writer = 越權預篩內容（哲宇「讓 writer 完整讀 report，不要自作主張」）
+
+- **原則**：多 agent 編排時主 session 當 orchestrator，但「把 SSOT research report 蒸餾成 fact-pack 塞進 writer prompt」這個動作——出於 blind-to-errata 好意（怕 §5 errata 污染 writer）——實際上是 orchestrator 替 writer 預先決定哪些事實重要、哪些不寫。report 才是 SSOT，純品質 EVOLVE 的 writer 該自己完整讀、自己判斷。防火牆要隔離的是 errata 的「校正焦慮污染」（§5「舊文錯了」的 meta），不是替 writer 篩 fact 內容。REWRITE-PIPELINE v6.3「writer 只吃 §6 clean fact-pack」是 callout-triggered context 隔離設計，被我過度泛化成「所有 EVOLVE 都蒸餾」。
+- **觸發**：2026-06-09 台灣嘻哈饒舌 EVOLVE，我把 384 行 SSOT 蒸餾成 ~120 行 fact-pack 塞 writer prompt（連兩次 spawn 都這樣），哲宇 reject「讓他完整讀 report，不要自作主張」→ 改成 writer 直接 Read 完整 report + EDITORIAL，只用一句「§5 是 false-claim 黑名單、寫真版別提校正」隔離 errata。
+- **可能層級**：操作規則（REWRITE-PIPELINE §多 agent 編排 細化「writer 讀全 report」是 depth 純品質 EVOLVE 預設，蒸餾 fact-pack 只在 callout-triggered context 隔離時用）+ 哲學（orchestrator 自主權 ≠ 越權；工具化好意可能變 silent 內容審查）
+- **verification_count**: 1
+- **severity**: structural（影響所有 depth EVOLVE 的 writer context 餵法）
+- **跨檔關聯**：REWRITE-PIPELINE v6.3 §多 agent 編排 + v6.2 §0.2-bis（區分「errata 隔離」vs「內容預篩」）+ MANIFESTO §自主權邊界
+
+### 2026-06-09 嘻哈饒舌 — blind-to-errata firewall 實證生效（修 12 處幻覺但正文 correction-meta 全 clean）
+
+- **原則**：REWRITE-PIPELINE v6.2 拆除防火牆（觀點 blind to errata / writer 不給 callout）在這次拿到 worked example：3/19 早批 audit 抓出 12 處張冠李戴（MACHI 假成員 / 國蛋《幹大事》/ 春艷《豔遇》/ 派克特陸籍 等），但成品正文 `correction-meta` plugin hard=0、零「其實不是 X」「常被誤記成 Y」式校正句。證明「writer 寫真版、不知道有舊文」的 context 隔離能修大量幻覺而不漏校正焦慮——firewall 不只防影視配樂那種第二輪 callout，也適用一般 audit-heavy 純品質 EVOLVE。
+- **觸發**：2026-06-09 台灣嘻哈饒舌（attribution-density 極高的 3/19 早批 audit）。
+- **verification_count**: 1（影視配樂 2026-06-01 是 design 觸發，本次是 audit-heavy EVOLVE 的 confirm instance）
+- **severity**: minor（validation instance，強化既有 canonical）
+- **跨檔關聯**：REWRITE-PIPELINE v6.2 §0.2-bis + v6.3 + correction-meta plugin
+
+### 2026-06-09 嘻哈饒舌 — 跨界藝人寫進類型文前先查既有專文定位（壞特 R&B 非 rapper）
+
+- **原則**：寫類型史文章（嘻哈 / 搖滾 / 爵士）放進相關藝人時，「他出現在這個圈的事件裡」不等於「他是這個類型的創作者」。壞特聲援嘻哈厭女論戰 + 籌辦 She Vibes，但她是 lo-fi R&B / bedroom-pop 歌手、不 rap；研究 agent 標成「含饒舌」，我也順手寫進女 rapper roster，哲宇 callout 去查既有 `knowledge/People/壞特.md` 才確認。同 pattern：9m88（爵士/Neo Soul 非 rapper）、阿爆（族語電音非純 rap）兩條本 session 已主動護欄，壞特是漏網。護欄：放藝人進類型文前先 grep 既有專文 / 一手定位，跨界者標「盟友/參與者」不標「類型創作者」。
+- **觸發**：2026-06-09，女歌手 agent 把壞特列 rapper roster，哲宇「壞特應該沒有唱饒舌…去看 taiwan.md 壞特專文跟 report」。
+- **verification_count**: 1
+- **severity**: minor（editorial 定位）
+- **跨檔關聯**：EDITORIAL §特定類型的眼神 + RESEARCH §張冠李戴（歸屬不只查作品，也查「他算不算這個類型」）
+
+### 2026-06-09 嘻哈饒舌 — prettier × 含底線 Commons URL × 斜體 caption 三方衝突咬壞連結
+
+- **原則**：pre-commit prettier 把 `_italic caption_` 正規化成 `*...*` 時，若 caption 內含 markdown link 且 URL 含底線（Wikimedia Commons 檔名常見 `File:臺北最High新年城-2017跨年晚會_玖壹壹.jpg`），URL 裡的 `_` 會被當 emphasis 標記咬壞成 `*`（依底線數量奇偶不定，broken 連結指向錯檔）。修法：inline caption 用純文字 credit（`Photo: X，CC BY via Wikimedia Commons。`），可點連結集中放 `## 圖片來源` list item（list item 不被 italic 包，prettier 不咬）。
+- **觸發**：2026-06-09 ship 後 system note 顯示 commit 的 pre-commit prettier 把 3 個 caption URL 咬壞（玖壹壹跨年 / 頑童 / 大支），amend 修。
+- **可能層級**：儀器化候選（image-health 加 check：caption 內 `[](url)` 且 url 含 `_` → warn 建議移 §圖片來源）
+- **verification_count**: 1
+- **severity**: minor（tooling friction）
+- **跨檔關聯**：REWRITE-PIPELINE Step 4.3.4 caption 格式 + image-health plugin
+
 ### 2026-06-09 twmd-babel-nightly — OpenRouter free-tier 沉默 transition 殺光 136/136 翻譯（model deprecation 是 routine 第四 tier fragility）
 
 - **原則**：cloud LLM provider 的 free-tier 模型隨時可能被 transition 成 paid 而 routine 沒任何信號。`tencent/hy3-preview:free` 從 free → paid 後 HTTP 404，**openrouter-translate.py 沒有 model fallback**（單 model 失敗不自動換下一個），openrouter-batch.sh 預設 model 寫死在 shell variable — 一旦 default model 死了，整個 routine 走零產出 silent fail（每篇文章報 ❌，但 routine 自己看不出來這是「model dead」vs「正常 cascade fail」）。對應 LESSONS-INBOX 2026-06-07「Routine fragility surface 三 tier 分類」的補強 — 應該是 **四 tier**：Tier 1 always-on / Tier 2 device-dependent / Tier 3 external-API-dependent / **Tier 4 external-API-with-pricing-volatility**（free model 隨時可能消失）。
