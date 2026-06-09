@@ -3,90 +3,90 @@
   "total_en": 816,
   "coverage_en": 20.4,
   "categories": {
-    "ja": {
-      "zh": 804,
-      "en": 0
-    },
-    "People": {
-      "zh": 227,
-      "en": 231
-    },
-    "ko": {
-      "zh": 799,
-      "en": 0
+    "Technology": {
+      "zh": 52,
+      "en": 50
     },
     "es": {
       "zh": 796,
       "en": 0
     },
-    "Economy": {
-      "zh": 54,
-      "en": 57
+    "ja": {
+      "zh": 804,
+      "en": 0
     },
-    "Technology": {
-      "zh": 52,
-      "en": 50
+    "ko": {
+      "zh": 799,
+      "en": 0
     },
     "fr": {
       "zh": 811,
       "en": 0
     },
-    "Culture": {
-      "zh": 61,
-      "en": 64
-    },
-    "Lifestyle": {
-      "zh": 28,
-      "en": 30
-    },
-    "History": {
-      "zh": 44,
-      "en": 45
-    },
-    "Nature": {
-      "zh": 37,
-      "en": 38
-    },
-    "Food": {
-      "zh": 55,
-      "en": 58
-    },
     "Geography": {
       "zh": 63,
       "en": 61
     },
-    "Society": {
-      "zh": 85,
-      "en": 85
-    },
-    "resources": {
-      "zh": 2,
-      "en": 2
-    },
-    "About": {
-      "zh": 6,
-      "en": 6
-    },
-    "Music": {
-      "zh": 33,
-      "en": 34
+    "People": {
+      "zh": 227,
+      "en": 231
     },
     "Art": {
       "zh": 37,
       "en": 43
     },
+    "Economy": {
+      "zh": 54,
+      "en": 57
+    },
+    "Culture": {
+      "zh": 61,
+      "en": 64
+    },
+    "Nature": {
+      "zh": 37,
+      "en": 38
+    },
+    "Society": {
+      "zh": 85,
+      "en": 85
+    },
     "Politics": {
       "zh": 10,
       "en": 10
     },
+    "Music": {
+      "zh": 33,
+      "en": 34
+    },
+    "History": {
+      "zh": 44,
+      "en": 45
+    },
+    "Lifestyle": {
+      "zh": 28,
+      "en": 30
+    },
+    "Food": {
+      "zh": 55,
+      "en": 58
+    },
     "zh-TW": {
       "zh": 2,
       "en": 0
+    },
+    "About": {
+      "zh": 6,
+      "en": 6
+    },
+    "resources": {
+      "zh": 2,
+      "en": 2
     },
     "root": {
       "zh": 0,
       "en": 2
     }
   },
-  "updated": "2026-06-09"
+  "updated": "2026-06-10"
 }
