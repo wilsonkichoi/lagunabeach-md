@@ -28,7 +28,7 @@ category: 'Geography'
 readingTime: 24
 lastVerified: 2026-05-21
 lastHumanReview: false
-translatedFrom: 'Geography/Chongshan North Road Tōdōri.md'
+translatedFrom: 'Geography/中山北路條通.md'
 sourceCommitSha: '20a4ac337'
 sourceContentHash: 'sha256:03b39214d0690b3e'
 translatedAt: '2026-06-09T03:00:45+08:00'

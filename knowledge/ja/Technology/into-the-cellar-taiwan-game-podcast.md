@@ -19,7 +19,7 @@ category: 'Technology'
 readingTime: 10
 lastVerified: 2026-04-23
 lastHumanReview: false
-translatedFrom: 'Technology/No Sleep Without Entering the Cellar.md'
+translatedFrom: 'Technology/不入地窖焉能睡覺.md'
 sourceCommitSha: '4b6d28c54'
 sourceContentHash: 'sha256:c211c97e077ebc86'
 translatedAt: '2026-06-09T03:16:10+08:00'

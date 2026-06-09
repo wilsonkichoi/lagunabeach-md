@@ -19,7 +19,7 @@ category: 'Society'
 readingTime: 12
 lastVerified: 2026-06-07
 lastHumanReview: false
-translatedFrom: 'Society/Complex Life Festival.md'
+translatedFrom: 'Society/複雜生活節.md'
 sourceCommitSha: 'f48cb2f63'
 sourceContentHash: 'sha256:dd07e19819f70f92'
 translatedAt: '2026-06-09T02:38:52+08:00'

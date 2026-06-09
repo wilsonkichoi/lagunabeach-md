@@ -19,7 +19,7 @@ category: 'Technology'
 readingTime: 12
 lastVerified: 2026-04-29
 lastHumanReview: false
-translatedFrom: 'Technology/Undersea Cables.md'
+translatedFrom: 'Technology/海底電纜.md'
 sourceCommitSha: 'a637afed9'
 sourceContentHash: 'sha256:2c95c482aefa54d9'
 translatedAt: '2026-06-09T03:36:16+08:00'

@@ -24,7 +24,7 @@ category: 'Geography'
 readingTime: 15
 lastVerified: 2026-05-18
 lastHumanReview: false
-translatedFrom: 'Geography/Penghu County.md'
+translatedFrom: 'Geography/澎湖縣.md'
 sourceCommitSha: 'dd6cd0156'
 sourceContentHash: 'sha256:45c3c3aac3c42d62'
 translatedAt: '2026-06-09T03:15:09+08:00'

@@ -21,7 +21,7 @@ category: 'Geography'
 readingTime: 12
 lastVerified: 2026-05-04
 lastHumanReview: true
-translatedFrom: 'Geography/Keelungshi.md'
+translatedFrom: 'Geography/金瓜石.md'
 sourceCommitSha: 'f187773fe'
 sourceContentHash: 'sha256:e320d5faba1545ca'
 translatedAt: '2026-06-09T03:54:26+08:00'

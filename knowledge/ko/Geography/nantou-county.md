@@ -26,7 +26,7 @@ category: 'Geography'
 readingTime: 16
 lastVerified: 2026-05-18
 lastHumanReview: false
-translatedFrom: 'Geography/Nantou County.md'
+translatedFrom: 'Geography/南投縣.md'
 sourceCommitSha: 'bcffb45b4'
 sourceContentHash: 'sha256:7a6074e368afe122'
 translatedAt: '2026-06-09T03:10:22+08:00'

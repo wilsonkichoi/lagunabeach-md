@@ -17,7 +17,7 @@ category: 'Society'
 readingTime: 12
 lastVerified: 2026-06-04
 lastHumanReview: false
-translatedFrom: 'Society/Republic of China (Taiwan).md'
+translatedFrom: 'Society/中華台北.md'
 sourceCommitSha: '25b0f0de4'
 sourceContentHash: 'sha256:aa441aa2d585fbd1'
 translatedAt: '2026-06-09T04:08:00+08:00'

@@ -17,7 +17,7 @@ category: 'Technology'
 readingTime: 12
 lastVerified: 2026-04-29
 lastHumanReview: false
-translatedFrom: 'Technology/National Cultural Memory Bank.md'
+translatedFrom: 'Technology/國家文化記憶庫.md'
 sourceCommitSha: '4b6d28c54'
 sourceContentHash: 'sha256:7736814528aad0fb'
 translatedAt: '2026-06-09T03:36:51+08:00'

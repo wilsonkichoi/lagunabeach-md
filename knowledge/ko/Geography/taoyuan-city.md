@@ -23,7 +23,7 @@ category: 'Geography'
 readingTime: 10
 lastVerified: 2026-05-18
 lastHumanReview: false
-translatedFrom: 'Geography/Taoyuan City.md'
+translatedFrom: 'Geography/桃園市.md'
 sourceCommitSha: '32ce121bf'
 sourceContentHash: 'sha256:5c5ae989a5cb1634'
 translatedAt: '2026-06-09T03:23:07+08:00'

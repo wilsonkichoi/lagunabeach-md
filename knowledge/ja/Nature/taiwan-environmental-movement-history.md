@@ -17,7 +17,7 @@ category: 'Nature'
 readingTime: 12
 lastVerified: 2026-03-20
 lastHumanReview: false
-translatedFrom: 'Nature/History of Environmental Movements in Taiwan.md'
+translatedFrom: 'Nature/台灣環境運動史.md'
 sourceCommitSha: '44238bb4f'
 sourceContentHash: 'sha256:305b65af8a515840'
 translatedAt: '2026-06-09T03:31:39+08:00'

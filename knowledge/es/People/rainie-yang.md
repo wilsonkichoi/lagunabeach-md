@@ -26,7 +26,7 @@ category: 'People'
 readingTime: 22
 lastVerified: 2026-04-18
 lastHumanReview: true
-translatedFrom: 'People/Rainie Yang.md'
+translatedFrom: 'People/楊丞琳.md'
 sourceCommitSha: '4b6d28c54'
 sourceContentHash: 'sha256:fe001b011f023dad'
 translatedAt: '2026-06-09T04:21:32+08:00'

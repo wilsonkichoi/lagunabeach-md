@@ -16,7 +16,7 @@ category: 'People'
 readingTime: 12
 lastVerified: 2026-04-11
 lastHumanReview: false
-translatedFrom: 'People/Cheng Li-wen.md'
+translatedFrom: 'People/鄭麗文.md'
 sourceCommitSha: '5db9f136e'
 sourceContentHash: 'sha256:cbe6421d51738771'
 translatedAt: '2026-06-09T02:35:07+08:00'
