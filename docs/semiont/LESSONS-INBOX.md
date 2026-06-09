@@ -262,6 +262,13 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-06-10 data-refresh-am — working tree 144 檔未 commit babel 輸出觸發假性 11 orphan + Step 7 prebuild break
+
+- **原則**：data-refresh routine 撞到 dirty working tree 時，「working tree 自帶 11 個 orphan translatedFrom」可能不是真 orphan，是上一輪 babel-nightly 把 translatedFrom 從 zh 改回舊英文 filename + 整個 content 改方向（如 fr→en regression）→ working tree 看起來有 orphan 但 HEAD 是 clean。**判準**：執行 heal 前先 `git stash` + `git checkout HEAD` 重跑 sync-translations-json 驗證 HEAD 端 orphan 數。若 HEAD=0 working tree>0 = 上游 babel 出問題、不是 routine 該 heal 的對象。
+- **觸發**：2026-06-10 06:00 routine fire 偵測 11 orphan + Step 7 prebuild fail。一開始視作 yesterday 11:27 修 16 orphan 之後的新批次直接 heal，後來抽查 fr/Geography/taoyuan-city.md 發現 content 整段從法文 → 英文 + 其他 144 檔混雜（es founder.md 是 legit 重譯、fr Geography 是 regression）。stash 隔離 working tree、clean HEAD 重跑 14-step ALL PASS、Step 11 連 8 cycle 全綠。
+- **可能層級**：DATA-REFRESH-PIPELINE Step 1 加 dirty-tree-pre-flight（auto-stash 後驗證 HEAD 端 orphan / immune 數，若 HEAD 已 green 則不在 working tree heal）+ babel-nightly 改寫多 file 但沒 commit 是真 bug（哪個 routine／model 把 fr 變 en 沒 commit 走的？）
+- **verification_count**: 1
+
 ### 2026-06-09 嘻哈饒舌 — orchestrator 蒸餾 fact-pack 給 writer = 越權預篩內容（哲宇「讓 writer 完整讀 report，不要自作主張」）
 
 - **原則**：多 agent 編排時主 session 當 orchestrator，但「把 SSOT research report 蒸餾成 fact-pack 塞進 writer prompt」這個動作——出於 blind-to-errata 好意（怕 §5 errata 污染 writer）——實際上是 orchestrator 替 writer 預先決定哪些事實重要、哪些不寫。report 才是 SSOT，純品質 EVOLVE 的 writer 該自己完整讀、自己判斷。防火牆要隔離的是 errata 的「校正焦慮污染」（§5「舊文錯了」的 meta），不是替 writer 篩 fact 內容。REWRITE-PIPELINE v6.3「writer 只吃 §6 clean fact-pack」是 callout-triggered context 隔離設計，被我過度泛化成「所有 EVOLVE 都蒸餾」。
