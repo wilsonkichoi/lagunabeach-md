@@ -3061,6 +3061,33 @@ Tiebreaker 實戰（MANIFESTO > DNA > MEMORY）：多數條目落 MEMORY（綁 T
 - **verification_count**: 1（2026-06-07 hero 翻轉）
 - **severity**: operational（媒體 cache SOP；候選儀器化 image-health orientation check）
 
+### 2026-06-10 babel-nightly — owl-alpha:free silent transition to paid (5th cloud model deprecation in 2 weeks)
+
+- **原則**：babel-nightly cron 跑 wave 2 cascade dispatch `openrouter/owl-alpha:free` → 5 lang × 71 articles 全 HTTP 404「This model is unavailable for free. The paid version is available now - use this slug instead: openrouter/owl-alpha」。同 pattern 連 5 個 model 在 2 週內被 OpenRouter 從 free tier 摘掉：tencent/hy3-preview (5/12) → deepseek/deepseek-chat (6/09) → 今天 owl-alpha (6/10)。Default-model 寫死 = sub-agent 不會自動 cascade，整個 wave 浪費 dispatch wall-clock 才意識到 model 死了。
+- **觸發**：2026-06-10 babel-nightly wave 2 — wave 1 gpt-oss-120b 清掉 ~100/168 後（truncation 卡大 articles），wave 2 想 cascade 到 owl-alpha 1M ctx 處理剩下的，0/71 全 fail。被迫 fall through 到 Tier 4 Ollama，49/71 ✓（5 大 Music article timeout）。
+- **可能層級**：(a) 操作規則：cron 跑前 `model-health-check.sh` precondition — dispatch 1 dummy article 驗證 default model 還在 free tier，dead 直接 rotate 下一 tier；(b) 儀器化候選：`openrouter-translate.py --model-fallback` ladder（單 model 404 → 自動切下一 model 而非 fail 整個 worker）— 與 2026-06-09 已寫過的同 candidate 重複出現＝REFLEXES #15「反覆浮現要儀器化」第 N 次驗證；(c) 反射候選：「OpenRouter free tier alive」是天天可能 silent transition 的假設、不是常數。Tier 4 Local Ollama 是 routine 唯一可預測穩定的單路徑（5/16 cascade 100% pass 是運氣，今天 0% 是常態）。
+- **相關**：[REFLEXES #15](REFLEXES.md) 反覆浮現要儀器化 (第 N 次)＋ [REFLEXES #45](REFLEXES.md) Concurrency cap 4-tier cascade ladder＋[SQUEEZE-MODELS-MAX-PIPELINE v4.2](../pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md) Tier 2 model 假設＋ 2026-06-09 babel memory「Tier 4：external-API-with-pricing-volatility」first surface。
+- **verification_count**: 2（5/12 Hy3 → 6/09 deepseek → 6/10 owl-alpha 連 3 model 同 pattern）
+- **severity**: structural（cascade default 假設根本失效；藍圖：model-fallback ladder + health-check precondition 雙儀器化都還沒落地）
+
+### 2026-06-10 babel-nightly — sibling routine race wiped staged commit prep via reset --hard
+
+- **原則**：babel-nightly cron 跑 5+hr cascade（cloud all dead，Tier 4 Ollama 慢但收）超過 06:00 data-refresh-am 啟動窗口。data-refresh-am 先 stash 隔離 working tree 的 144 babel 輸出，跑完 14-step pipeline 後 **commit 自己 memory file 前做了 reset --hard** → 主 session 已經 stage 好的 158 file babel commit prep（從 stash pop 出來剛 resolve conflict）被瞬間清掉。Working tree 變 clean，staged index 變空。只有 7 個**未追蹤的全新 fr/es translation 檔**（5 fr P0 missing + 1 es za-school + 1 es tsai-ing-wen rename）逃過 reset 因為它們對 HEAD 沒有可 revert 的舊版本。
+- **觸發**：2026-06-10 babel cron 00:30 fire，wave 1 (gpt-oss-120b) 04:00 結束，wave 2 (owl-alpha dead) 04:00-04:05 instant fail，wave 3 (Ollama) 04:05-06:20 跑完。data-refresh-am 06:00 fire，06:22 commit dashboards、06:23 commit LESSONS-INBOX、06:26 commit memory file 過程中某步 reset --hard 清主 session staged 工作。剩下能 ship 的只有 7 untracked file = 6 P0 missing（5 fr + 1 es）+ tsai-ing-wen 失而復返。約 150 cascade 翻譯（en 4 / ja 43 / ko 29 / es 47 / fr 37 stale）全部回去原狀。
+- **可能層級**：(a) 操作規則：babel routine 必須在 prepared file 之間 commit 增量（每 ~50 article ship 一次 + push），跨 routine boundary 前停下；(b) 儀器化候選：sibling-routine-collision-handler 升級 — 不只 stash + clean head 隔離，還要 detect 主 session staged index 是否有未 commit work，有就先讓 main session 落地或寫 marker file 告訴 sibling 別 reset；(c) 反射候選：「routine 4hr 49min budget 是 hard ceiling」— 跨 06:00 = data-refresh-am 必 fire = babel 必死。設計 budget 不是 advisory 是 deadline。
+- **相關**：2026-06-09 babel memory carryforward「fr 全 defer」+ 2026-06-10 babel cron schedule note (worst case 4hr 49min) + LESSONS-INBOX 2026-06-10 data-refresh-am「dirty-tree 假 orphan + babel 漏 commit」（sibling 角度）+ [ROUTINE.md §sibling collision](ROUTINE.md)。本條從 babel side 補充 sibling side memo（兩 routine 角度寫同一事件）。
+- **verification_count**: 1（2026-06-10 babel staged commit prep wiped first surface）
+- **severity**: structural（cron-context multi-routine state machine 假設 broken — 每個 routine 假設自己獨佔 working tree，跑超時的 sibling-collision-handler 不足以保護 staged index）
+
+### 2026-06-10 babel — diff-patch-prepare.py `expected_new_content_hash` semantic mismatch with status.py
+
+- **原則**：`diff-patch-prepare.py:170` 寫 `expected_new_content_hash = hash_content(current_zh)`（**FULL-FILE 含 frontmatter SHA256**）與 `expected_new_body_hash = hash_content(body)`（body-only SHA256）。但 `status.py:178` 的 `body_hash(content)` semantic 是「先 strip frontmatter 再 hash body」，跟 translation frontmatter 的 `sourceContentHash` 是 body-only。**diff-patch 工具寫的 `expected_new_content_hash` semantic ≠ status.py 的 contentHash semantic**。如果用 diff-patch JSON 的 `expected_new_content_hash` 去 patch 翻譯 frontmatter，status.py 會把 fresh 算成 stale（反向汙染）。
+- **觸發**：2026-06-10 babel 寫 `bulk-sha-bump.py` 試圖批量處理 diff_lines=0 的 450 entries（diff-patch JSON 算的「body 沒改」cases），用 `expected_new_content_hash` 覆蓋 translation 的 `sourceContentHash` → status.py 立刻把全部 5 lang stale count 從 162→460 暴增。Stash + drop + re-bump 8 P2.5 才回正。
+- **可能層級**：(a) 操作規則：bulk-bump 前必須用 status.py 同 semantic 算 expected hash，不能直接信 diff-patch JSON 的 field 名（name suggests content, semantic is full-file）；(b) 儀器化候選：rename `expected_new_content_hash` → `expected_new_full_file_hash`（誠實命名），或讓 diff-patch-prepare.py 直接 import status.body_hash 算 body-only 的 `expected_new_content_hash`（match status.py 命名 convention）；(c) 反射候選：跨 tool boundary 的 hash 欄位 name 看起來相同但 semantic 可能不同 — 兩個工具獨立演化會出現 name collision with semantic drift。
+- **相關**：[REFLEXES #38](REFLEXES.md) 混維度 silent killer（同 name 不同 semantic = 維度 silent collision）+ [REFLEXES #50](REFLEXES.md) first-class instantiation（hash 應該是 first-class type 不是 string field）。
+- **verification_count**: 1（2026-06-10 bulk-sha-bump explode 450 entries）
+- **severity**: operational（單一工具陷阱，影響範圍 = bulk-bump 路徑；rename 修法簡單）
+
 ---
 
 ## ❌ 已歸檔（過時 / 撤回）
