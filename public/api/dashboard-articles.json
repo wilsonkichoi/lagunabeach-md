@@ -4,12 +4,12 @@
     "slug": "台灣嘻哈與饒舌發展",
     "category": "music",
     "subcategory": "獨立與搖滾",
-    "date": "2026-03-19",
+    "date": "2026-06-09",
     "lastModified": "2026-06-09",
     "lastVerified": "2026-06-09",
     "lastHumanReview": "true",
     "featured": true,
-    "wordCount": 12117,
+    "wordCount": 12145,
     "tagCount": 0,
     "tags": [],
     "translations": {
@@ -19,9 +19,9 @@
       "es": true,
       "fr": true
     },
-    "revision": 16,
-    "commitHash": "5de488e7",
-    "commitSubject": "🧬 [semiont] rewrite: 台灣嘻哈與饒舌發展 EVOLVE — 三劣勢翻成主權聲紋 + 張冠李戴 audit",
+    "revision": 18,
+    "commitHash": "03195a9f",
+    "commitSubject": "🧬 [semiont] spore #132/#133 SHIPPED: 台灣嘻哈與饒舌發展 — 嘻哈是貧民窟武器，台灣有一票台大生在玩，吵的是同一個字 real",
     "description": "2004 年，宋岳庭已經走了兩年，母親和弟弟替他上台領金曲最佳作詞。那首《Life''s a Struggle》的雙韻，把「中文不適合 rap」這個成見往前推了一步。從魔岩地下室自學美國原版，到 Leo 王、熱狗先後拿下饒舌歌王，台灣花二十年走完一段路。但這座島最動人的不是它多像美國，是它把中文聲調、台語腔、非貧民窟弱者三個先天劣勢，翻成只有這裡唱得出來的多元主權聲紋。",
     "healthScore": 90,
     "qualityScore": 4,
@@ -29,6 +29,106 @@
     "hasOverview": true,
     "hasReading": true,
     "fnCount": 54
+  },
+  {
+    "title": "台灣獨立音樂：一間發不出薪水的唱片行，如何替一座島嶼打開耳朵",
+    "slug": "台灣獨立音樂",
+    "category": "music",
+    "subcategory": "獨立與搖滾",
+    "date": "2026-03-29",
+    "lastModified": "2026-06-09",
+    "lastVerified": "2026-03-29",
+    "lastHumanReview": false,
+    "featured": true,
+    "wordCount": 8966,
+    "tagCount": 6,
+    "tags": [
+      "獨立音樂",
+      "地下樂團",
+      "搖滾樂",
+      "live house",
+      "獨立廠牌",
+      "音樂產業"
+    ],
+    "translations": {
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
+    },
+    "revision": 11,
+    "commitHash": "73443b2a",
+    "commitSubject": "🧬 [routine] rewrite: 蘇打綠 EVOLVE — 政大金旋獎四個人，二十年後才回頭奪回自己的名字",
+    "description": "從水晶唱片負債三十萬頂下來的冒險，到草東沒有派對在咖啡店賣光首刷。台灣獨立音樂 35 年不是逆襲故事，是一群人堅持讓「沒被看見的聲音被聽見」的漫長賭局",
+    "healthScore": 70,
+    "qualityScore": 4,
+    "formatIssues": 1,
+    "hasOverview": false,
+    "hasReading": true,
+    "fnCount": 0
+  },
+  {
+    "title": "蘇打綠：他們花了二十年才知道，自己的名字也要打官司",
+    "slug": "蘇打綠",
+    "category": "music",
+    "subcategory": "獨立與搖滾",
+    "date": "2026-06-09",
+    "lastModified": "2026-06-09",
+    "lastVerified": "2026-06-09",
+    "lastHumanReview": "true",
+    "featured": false,
+    "wordCount": 13423,
+    "tagCount": 0,
+    "tags": [],
+    "translations": {
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
+    },
+    "revision": 3,
+    "commitHash": "73443b2a",
+    "commitSubject": "🧬 [routine] rewrite: 蘇打綠 EVOLVE — 政大金旋獎四個人，二十年後才回頭奪回自己的名字",
+    "description": "2001 年政大金旋獎舞台上四個學生組起來、2003 年貢寮海祭被林暐哲發掘、唱完韋瓦第四部曲走遍北京柏林、2019 年被告上法庭、2023 年才在小巨蛋拿回自己的名字——蘇打綠走完二十年才學會：台灣 indie 樂團出道第一件事，是先把團名註冊起來。",
+    "healthScore": 74,
+    "qualityScore": 0,
+    "formatIssues": 0,
+    "hasOverview": true,
+    "hasReading": true,
+    "fnCount": 51
+  },
+  {
+    "title": "能預測風雨，預測不了命運：台灣與颱風的四百年",
+    "slug": "颱風",
+    "category": "nature",
+    "subcategory": "氣候與災害",
+    "date": "2026-06-03",
+    "lastModified": "2026-06-09",
+    "lastVerified": "2026-05-09",
+    "lastHumanReview": false,
+    "featured": false,
+    "wordCount": 5747,
+    "tagCount": 0,
+    "tags": [],
+    "translations": {
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
+    },
+    "revision": 10,
+    "commitHash": "108cbe80",
+    "commitSubject": "🧬 [routine] twmd-spore-harvest: 12 Threads recovery + #115 颱風 in-cycle fact-fix — 2026-06-09",
+    "description": "2009 年莫拉克的那個清晨，71 歲的羅潘春美站在二樓陽台，看著獻肚山崩下來，吞掉小林村 462 位親人。十五年後，台灣用六組 AI 模型把 24 小時颱風路徑誤差從 172 公里壓到 57 公里。但那 57 公里裡誰會在風雨中出門上班、誰會收不到通知，預測不了。",
+    "healthScore": 50,
+    "qualityScore": 0,
+    "formatIssues": 1,
+    "hasOverview": true,
+    "hasReading": false,
+    "fnCount": 17
   },
   {
     "title": "壞特?te：醫學系讀九年的優等生，按下暫停鍵的那場休學",
@@ -213,8 +313,8 @@
       "海洋保護"
     ],
     "translations": {
-      "en": false,
-      "ja": false,
+      "en": true,
+      "ja": true,
       "ko": true,
       "es": true,
       "fr": true
@@ -461,7 +561,7 @@
     "translations": {
       "en": true,
       "ja": true,
-      "ko": false,
+      "ko": true,
       "es": true,
       "fr": false
     },
@@ -977,9 +1077,9 @@
     ],
     "translations": {
       "en": true,
-      "ja": false,
+      "ja": true,
       "ko": true,
-      "es": false,
+      "es": true,
       "fr": true
     },
     "revision": 4,
@@ -1408,37 +1508,6 @@
     "hasOverview": true,
     "hasReading": true,
     "fnCount": 36
-  },
-  {
-    "title": "能預測風雨，預測不了命運：台灣與颱風的四百年",
-    "slug": "颱風",
-    "category": "nature",
-    "subcategory": "氣候與災害",
-    "date": "2026-06-03",
-    "lastModified": "2026-06-03",
-    "lastVerified": "2026-05-09",
-    "lastHumanReview": false,
-    "featured": false,
-    "wordCount": 5660,
-    "tagCount": 0,
-    "tags": [],
-    "translations": {
-      "en": true,
-      "ja": true,
-      "ko": true,
-      "es": true,
-      "fr": true
-    },
-    "revision": 9,
-    "commitHash": "4407f0af",
-    "commitSubject": "🧬 [semiont] spore #115 (Threads) / #116 (X) SHIP: 颱風 — 能預測風雨預測不了命運 / Chrome MCP full-auto（computer-use disconnected 仍 work）",
-    "description": "2009 年莫拉克的那個清晨，71 歲的羅潘春美站在二樓陽台，看著獻肚山崩下來，吞掉小林村 462 位親人。十五年後，台灣用六組 AI 模型把 24 小時颱風路徑誤差從 172 公里壓到 57 公里。但那 57 公里裡誰會在風雨中出門上班、誰會收不到通知，預測不了。",
-    "healthScore": 55,
-    "qualityScore": 0,
-    "formatIssues": 1,
-    "hasOverview": true,
-    "hasReading": false,
-    "fnCount": 17
   },
   {
     "title": "莫那能：兩種盲，一本詩集",
@@ -3250,7 +3319,7 @@
     "translations": {
       "en": true,
       "ja": true,
-      "ko": false,
+      "ko": true,
       "es": true,
       "fr": true
     },
@@ -3451,7 +3520,7 @@
     "commitHash": "b900f18d",
     "commitSubject": "🧬 [semiont] evolve: P0-2 半導體產業 × 物理層 (PanSci P0×5 #2/5)",
     "description": "54 歲離開德州儀器、56 歲創立台積電的張忠謀，前十八年逃過三次難、住過六個城市。三十八年後 2025 年 3 月 3 日，美國總統川普在白宮指著張忠謀的接班人魏哲家說：「他是這個房間裡最重要的男人。」2026 年第一季台積電單季營收 359 億美元。一座颱風頻繁、缺水缺電的島，蓋出全人類數位文明的心臟——但這顆心臟越大，這座島能否承擔它的代價，反而越說不清楚。",
-    "healthScore": 65,
+    "healthScore": 60,
     "qualityScore": 0,
     "formatIssues": 1,
     "hasOverview": true,
@@ -4027,7 +4096,7 @@
     "translations": {
       "en": true,
       "ja": true,
-      "ko": false,
+      "ko": true,
       "es": true,
       "fr": true
     },
@@ -4533,7 +4602,7 @@
     "translations": {
       "en": true,
       "ja": true,
-      "ko": false,
+      "ko": true,
       "es": true,
       "fr": true
     },
@@ -4564,7 +4633,7 @@
     "translations": {
       "en": true,
       "ja": true,
-      "ko": false,
+      "ko": true,
       "es": true,
       "fr": true
     },
@@ -4713,7 +4782,7 @@
     "translations": {
       "en": true,
       "ja": true,
-      "ko": false,
+      "ko": true,
       "es": true,
       "fr": true
     },
@@ -5314,43 +5383,6 @@
     "hasOverview": true,
     "hasReading": true,
     "fnCount": 29
-  },
-  {
-    "title": "蘇打綠：從貢寮小舞台到「魚丁糸」抗爭，一場長達二十年的音樂主權奪還戰",
-    "slug": "蘇打綠",
-    "category": "music",
-    "subcategory": "獨立與搖滾",
-    "date": "2026-05-14",
-    "lastModified": "2026-05-14",
-    "lastVerified": "2026-05-14",
-    "lastHumanReview": "true",
-    "featured": false,
-    "wordCount": 1587,
-    "tagCount": 5,
-    "tags": [
-      "蘇打綠",
-      "魚丁糸",
-      "吳青峰",
-      "台灣音樂",
-      "著作權"
-    ],
-    "translations": {
-      "en": true,
-      "ja": true,
-      "ko": true,
-      "es": true,
-      "fr": true
-    },
-    "revision": 2,
-    "commitHash": "3593aaf2",
-    "commitSubject": "🧬 [semiont] heal: 蘇打綠 §11 對位句型 4→0 + footnote format + subcategory + lastHumanReview true",
-    "description": "2003年貢寮海洋音樂祭的一場相遇，開啟了蘇打綠與林暐哲長達十六年的師徒緣分，卻也埋下日後法庭對峙的伏筆。這是一段關於名字、創作主權，以及六個人如何透過「魚丁糸」分身守護音樂的故事。",
-    "healthScore": 69,
-    "qualityScore": 4,
-    "formatIssues": 2,
-    "hasOverview": true,
-    "hasReading": false,
-    "fnCount": 10
   },
   {
     "title": "曾博恩：算得出笑點，算不準社會",
@@ -6516,7 +6548,7 @@
     "commitHash": "7a42c4da",
     "commitSubject": "🧬 [semiont] evolve: 王福瑞 媒體插入 + 「故事還在寫」family 列入塑膠句檢查 (#941)",
     "description": "1993 年，24 歲的王福瑞用程式設計師薪水，在自家影印機印 200 份《NOISE》實驗音樂雜誌，售價 15 到 30 元一本。三十年後（2020）他在就在藝術空間掛起多面體 12 聲道全指向喇叭，作品是大病過後身體裡人工血管的細碎頻率。從一個人的 DIY 廠牌到美術館的展廳，他用三十年讓「噪音」這個詞從邊緣 fanzine 圈的暗號，走進台灣聲音藝術的合法語彙。",
-    "healthScore": 49,
+    "healthScore": 44,
     "qualityScore": 0,
     "formatIssues": 1,
     "hasOverview": true,
@@ -6667,8 +6699,8 @@
       "2026"
     ],
     "translations": {
-      "en": false,
-      "ja": false,
+      "en": true,
+      "ja": true,
       "ko": true,
       "es": true,
       "fr": true
@@ -6863,7 +6895,7 @@
     "commitHash": "ef195fa9",
     "commitSubject": "🧬 [semiont] evolve: 颱風 (Nature) 走完 REWRITE-PIPELINE Evolution + 新 sister 颱風假 (Society) (#964)",
     "description": "2001 年彰化一位老師殉職催生了台灣的颱風假制度。二十多年後，81% 勞工仍在風雨中照常上班，37.7% 完全拿不到薪資。每年夏天，一紙停班公告沿著台灣社會的階級線精準切開——白領在家刷手機，批發零售、農漁牧的工人在同一場颱風裡繼續出門。",
-    "healthScore": 53,
+    "healthScore": 48,
     "qualityScore": 0,
     "formatIssues": 1,
     "hasOverview": true,
@@ -9462,7 +9494,7 @@
     "translations": {
       "en": true,
       "ja": true,
-      "ko": false,
+      "ko": true,
       "es": true,
       "fr": true
     },
@@ -9896,7 +9928,7 @@
     "tags": [],
     "translations": {
       "en": true,
-      "ja": false,
+      "ja": true,
       "ko": true,
       "es": true,
       "fr": true
@@ -10381,7 +10413,7 @@
       "en": true,
       "ja": true,
       "ko": true,
-      "es": false,
+      "es": true,
       "fr": true
     },
     "revision": 8,
@@ -10952,44 +10984,6 @@
     "hasOverview": true,
     "hasReading": false,
     "fnCount": 8
-  },
-  {
-    "title": "台灣獨立音樂：一間發不出薪水的唱片行，如何替一座島嶼打開耳朵",
-    "slug": "台灣獨立音樂",
-    "category": "music",
-    "subcategory": "獨立與搖滾",
-    "date": "2026-03-29",
-    "lastModified": "2026-04-27",
-    "lastVerified": "2026-03-29",
-    "lastHumanReview": false,
-    "featured": true,
-    "wordCount": 8926,
-    "tagCount": 6,
-    "tags": [
-      "獨立音樂",
-      "地下樂團",
-      "搖滾樂",
-      "live house",
-      "獨立廠牌",
-      "音樂產業"
-    ],
-    "translations": {
-      "en": true,
-      "ja": true,
-      "ko": true,
-      "es": true,
-      "fr": true
-    },
-    "revision": 10,
-    "commitHash": "83b8a92b",
-    "commitSubject": "🧬 [semiont] polish: 清除台語龐克三件 MANIFESTO §11 對位句型違反 [sid:cc66e0d0]",
-    "description": "從水晶唱片負債三十萬頂下來的冒險，到草東沒有派對在咖啡店賣光首刷。台灣獨立音樂 35 年不是逆襲故事，是一群人堅持讓「沒被看見的聲音被聽見」的漫長賭局",
-    "healthScore": 70,
-    "qualityScore": 0,
-    "formatIssues": 1,
-    "hasOverview": false,
-    "hasReading": true,
-    "fnCount": 0
   },
   {
     "title": "滅火器——游泳池旁撿到的名字，唱了二十五年",
@@ -12382,7 +12376,7 @@
     "tags": [],
     "translations": {
       "en": true,
-      "ja": false,
+      "ja": true,
       "ko": true,
       "es": true,
       "fr": true

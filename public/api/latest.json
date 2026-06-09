@@ -1,8 +1,24 @@
 {
-  "_generated": "2026-06-08T17:25:33.617Z",
+  "_generated": "2026-06-09T15:09:29.494Z",
   "perLang": 30,
   "byLang": {
     "zh-TW": [
+      {
+        "title": "台灣嘻哈與饒舌發展：中文不該能 rap、台語上不了檯面、又不是貧民窟，他們把三個劣勢唱成一張主權聲紋",
+        "desc": "2004 年，宋岳庭已經走了兩年，母親和弟弟替他上台領金曲最佳作詞。那首《Life's a Struggle》的雙韻，把「中文不適合 rap」這個成見往前推了一步。從魔岩地下室自學美國原版，到 Leo 王、熱狗先後拿下饒舌歌王，台灣花二十年走完一段路。但這座島最動人的不是它多像美國，是它把中文聲調、台語腔、非貧民窟弱者三個先天劣勢，翻成只有這裡唱得出來的多元主權聲紋。",
+        "category": "music",
+        "href": "/music/%E5%8F%B0%E7%81%A3%E5%98%BB%E5%93%88%E8%88%87%E9%A5%92%E8%88%8C%E7%99%BC%E5%B1%95",
+        "date": "2026-06-09T22:15:33+08:00",
+        "readingTime": 24
+      },
+      {
+        "title": "壞特?te：醫學系讀九年的優等生，按下暫停鍵的那場休學",
+        "desc": "2021 年 8 月 21 日，戴著黑帽墨鏡的壞特?te 上台領第 32 屆金曲獎最佳新人獎。她對著鏡頭說：「請你們不要害怕。」她本名林芝儀、新竹香山人、新竹女中、國防醫學院醫學系讀了九年，含大三那年的休學一年、含延畢一年（兩年實習因沒跟診花三年完成）。她完成實習醫師訓練、取得醫學士學位，得獎時白天還在開刀房戴口罩當實習醫師。台灣最會讀書的賽道上，她按下暫停鍵的那一年。",
+        "category": "people",
+        "href": "/people/%E5%A3%9E%E7%89%B9",
+        "date": "2026-06-09T02:35:34+08:00",
+        "readingTime": 16
+      },
       {
         "title": "台灣的五到九年級生：草莓罵了三十年換三批人，斜掉的是腳下那座扶梯",
         "desc": "1993 年「草莓族」第一次印出來時，罵的是現在最愛懷舊養樂多的五年級生。三十年來被罵的人換了好幾批，標籤一字沒改。真正在五到九年級之間移動的，是那座「努力就有回報」的扶梯：它在 2002 年前後變慢，入口被房價拉高，然後裂成兩條，純靠薪水的那條近乎停了，靠父母資本的那條還在動。",
@@ -226,25 +242,25 @@
         "href": "/technology/%E9%96%8B%E6%94%BE%E6%96%87%E5%8C%96%E5%9F%BA%E9%87%91%E6%9C%83",
         "date": "2026-06-04T18:20:14+08:00",
         "readingTime": 13
-      },
-      {
-        "title": "天下雜誌：替台灣的「成功」排了四十年名次，站在離資本最近的地方",
-        "desc": "1981 年 6 月，一本叫《天下》的財經雜誌在戒嚴的孤島創刊，首刷一萬本兩天售罄。發起人是經濟學者高希均，靈魂是當過合眾國際社、紐約時報記者的殷允芃。四十年後它成了台灣最受信任的媒體之一，也成了兩千大、50 大、幸福城市的「成功定義者」。它公信力的來源，和它排名權力的來源，是同一段距離。",
-        "category": "society",
-        "href": "/society/%E5%A4%A9%E4%B8%8B%E9%9B%9C%E8%AA%8C",
-        "date": "2026-06-04T16:42:31+08:00",
-        "readingTime": null
-      },
-      {
-        "title": "公共電視：從九億緊箍咒到議場驅逐，二十八年的獨立性還沒寫完",
-        "desc": "1998 年公視開播時，《公視法》把政府捐贈預算逐年遞減、最終凍結在每年 9 億，這條條文綁了 23 年。期間養出《我們與惡的距離》《茶金》《通靈少女》《麻醉風暴》《一把青》五部撼動社會的旗艦台劇。2023 年五月修法解開緊箍咒，預算翻倍為 23 億，但 19 個月後預算遭刪 1%、凍結 25%；又一年後 2026 年五月，董事長胡元輝被請出立法院議場。28 年下來公視證明的事：緊箍咒解開不代表獨立性建立。",
-        "category": "society",
-        "href": "/society/%E5%85%AC%E8%A6%96",
-        "date": "2026-06-04T16:26:41+08:00",
-        "readingTime": 16
       }
     ],
     "en": [
+      {
+        "title": "History of Taiwan's Environmental Movement",
+        "desc": "The trajectory of Taiwan's environmental movement, from anti-pollution struggles in the 1980s to recent plastic reduction campaigns, witnessing the intersection of environmental awareness and democratization in Taiwanese society.",
+        "category": "nature",
+        "href": "/en/nature/taiwan-environmental-movement-history",
+        "date": "2026-06-09T11:27:50+08:00",
+        "readingTime": 12
+      },
+      {
+        "title": "Cheng Li-wen",
+        "desc": "From the student activist who went on a hunger strike for 'Taiwan independence' at the NTU gate in 1988 to the KMT chairperson who told Xi Jinping in Beijing in 2026 that 'compatriots across the strait are all Chinese.' What happened along this trajectory?",
+        "category": "people",
+        "href": "/en/people/cheng-li-wun",
+        "date": "2026-06-09T11:27:50+08:00",
+        "readingTime": 12
+      },
       {
         "title": "CommonWealth Magazine: Four Decades of Defining Taiwan's \"Success,\" Standing Closest to Capital",
         "desc": "In June 1981, a business magazine called CommonWealth launched on a martial-law island, selling out its first print run of 10,000 copies in two days. Founded by economist Kao Hsi-chun, its editorial soul was Diane Ying — a former UPI, New York Times, and Asian Wall Street Journal reporter. Forty years later it became one of Taiwan's most trusted media outlets, and the maker of rankings — the Top 2000, Top 50, Happiest Cities — that quietly define what \"success\" means. Its credibility and its power to rank others draw from the same distance.",
@@ -468,25 +484,49 @@
         "href": "/en/culture/taiwan-indigo-dyeing",
         "date": "2026-05-20T12:37:22+08:00",
         "readingTime": null
-      },
-      {
-        "title": "Tchoukball: Taiwan's Invisible 43-Year World Champion",
-        "desc": "In 1977, a professor returning to Taiwan from the UK brought back a net frame he had purchased for £30, inadvertently planting the roots of a Swiss-invented 'gentleman's ball' in Taiwan's schoolyards. Over 40 years later, Taiwan's team sits firmly at No. 1 in the world, the international federation is headquartered in Kaohsiung, and yet the sport remains largely unknown to most Taiwanese.",
-        "category": "culture",
-        "href": "/en/culture/tchoukball-in-taiwan",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "12"
-      },
-      {
-        "title": "Mingjian Puchung Tea: The Unsung Hero Supplying 80% of Taiwan's Bubble Tea Base",
-        "desc": "The 2025 Mingjian incinerator controversy accidentally exposed that 80% of Taiwan's bubble tea base comes from Nantou's Mingjian. From the Qing-dynasty 'Three Puchung' reputation to the 1975 renaming as 'Songbai Evergreen Tea,' this low-altitude hillside — producing at only 400 meters elevation — is now locked in a fierce battle to protect the tea-growing region's right to survive after an incinerator was planned for the site.",
-        "category": "food",
-        "href": "/en/food/mingjian-puchung-tea",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 10
       }
     ],
     "ja": [
+      {
+        "title": "No Sleep Without Entering the Cellar: Thirty Years of Taiwan's Gaming Community",
+        "desc": "In the late 1990s, a black-background, white-text website was filled with walkthroughs and cheat codes for 90% of Taiwan's single-player games; players called it the 'Cellar'. Then came Gamebase, then came Bahamut. Three names, three eras, a path from dial-up modems to a community of 6 million members.",
+        "category": "technology",
+        "href": "/ja/technology/into-the-cellar-taiwan-game-podcast",
+        "date": "2026-06-09T11:27:50+08:00",
+        "readingTime": 10
+      },
+      {
+        "title": "National Cultural Memory Bank: Memory Curation and Cultural Co-creation in the Digital Age",
+        "desc": "The National Cultural Memory Bank is not merely a digital preservation platform, but a social project in a tug-of-war with time. Through open licensing and co-creation, it revitalizes and regenerates Taiwan's folk memories in the digital age.",
+        "category": "technology",
+        "href": "/ja/technology/national-cultural-memory-bank",
+        "date": "2026-06-09T11:27:50+08:00",
+        "readingTime": 12
+      },
+      {
+        "title": "History of Environmental Movements in Taiwan",
+        "desc": "The developmental trajectory of Taiwan's environmental movement, from anti-pollution struggles in the 1980s to recent plastic reduction campaigns, witnessing the intersection of environmental awareness and democratization in Taiwanese society.",
+        "category": "nature",
+        "href": "/ja/nature/taiwan-environmental-movement-history",
+        "date": "2026-06-09T11:27:50+08:00",
+        "readingTime": 12
+      },
+      {
+        "title": "Cheng Li-wen",
+        "desc": "From the student activist who went on a hunger strike for Taiwan independence at the NTU gate in 1988 to the KMT Chairperson who told Xi Jinping in Beijing in 2026 that 'compatriots across the strait are all Chinese.' What happened along this trajectory?",
+        "category": "people",
+        "href": "/ja/people/cheng-li-wun",
+        "date": "2026-06-09T11:27:50+08:00",
+        "readingTime": 12
+      },
+      {
+        "title": "Chinese Taipei: The Ticket That Lets Taiwan Play, But Won't Print Its Own Name",
+        "desc": "At the 1960 Rome Olympics, the Taiwanese delegation marched into the opening ceremony holding a white banner reading 'UNDER PROTEST,' the only opening ceremony protest in Olympic history. From Chiang Ching-kuo rejecting the IOC's offer of 'Taiwan,' to Hsü Heng winning the lawsuit against the IOC, to the Lausanne Agreement bringing the Plum Blossom Flag and anthem, to the 2018 referendum where athletes themselves voted to reject renaming—this name has remained unchanged for forty years, but the athletes who are stuck in a dilemma on the podium are always the ones who need this name to compete, not the politicians arguing over names.",
+        "category": "society",
+        "href": "/ja/society/chinese-taipei",
+        "date": "2026-06-09T11:27:50+08:00",
+        "readingTime": 12
+      },
       {
         "title": "新竹市：1733年に竹を植えて築かれた竹塹、1980年に台積電を生んだ揺籃",
         "desc": "1733年（雍正11年）、淡水同知の徐治民が四周に茨竹を植え、周囲1408メートルの円形土城を築きました。1829年に石造城壁が完成し、東門の迎曦門は今も護城川のそばに立っています。247年後の1980年12月15日、蔣経国は迎曦門から5キロメートル離れた場所で台湾初の科学工業園区のテープカットを行いました。1953年から1974年にかけて、黒蝙蝠中隊の148人がこの風の街から中国大陸への偵察任務に飛び立ち、二度と帰ってきませんでした。45万人が住む省轄市が、冷戦最前線、北部で最も早く築かれた漢人都市、二つの頂尖大学、そして世界の半導体高品位チップ90%の起点を支えています。風城というあだ名は文学的ですが、この街のすべての産業は風と関係しています。",
@@ -686,49 +726,65 @@
         "href": "/ja/food/taiwan-indigenous-foodways",
         "date": "2026-05-20T12:37:22+08:00",
         "readingTime": "12"
-      },
-      {
-        "title": "台湾の調味料と味付け",
-        "desc": "醤油膏、沙茶醤、スイートチリソース、豆瓣醤などの台湾特有の調味料は、島の独自の風味の基盤を成し、多様な文化が融合した味付けの哲学を反映しています。",
-        "category": "food",
-        "href": "/ja/food/taiwan-sauces-and-seasonings",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 7
-      },
-      {
-        "title": "原住民文学",
-        "desc": "「無文字の歌声」から書かれた創作へ——千年にわたる文学の進化史",
-        "category": "art",
-        "href": "/ja/art/indigenous-literature",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "7"
-      },
-      {
-        "title": "台湾散文",
-        "desc": "外省人の望郷から本土へのアイデンティティへ、男性文人から女性主導の文学風景へ。半世紀にわたり最も生活に身近でありながら最も定義しにくい文学形式は、どのようにして台湾人の感情と記憶の担い手となったのか？",
-        "category": "art",
-        "href": "/ja/art/taiwanese-prose",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "8"
-      },
-      {
-        "title": "台湾KTV文化：好楽迪・銭櫃から個室社交への時代変遷",
-        "desc": "台湾KTV文化の発展の歩みを探る。日本から導入されたカラオケから本土化された個室文化、好楽迪と銭櫃の競争時代、カラオケランキングがポップカルチャーの指標となった経緯、そしてコロナ禍後の産業変革の課題までを解説します。",
-        "category": "music",
-        "href": "/ja/music/ktv-culture",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "12"
-      },
-      {
-        "title": "交工樂隊（こうこうがくたい）：客家八音がグローバル化に対抗したロックバンド",
-        "desc": "1998年秋、林生祥（りんせいしょう）は淡水の口座残高57元で故郷の美濃に戻り、詩人の鍾永豊（しょうえいほう）とともにダム反対運動のための歌を書いた。1999年から2003年、交工樂隊は客家八音と現代ロックを融合させ、二枚のアルバムで農村がグローバル化の中で生き抜こうとする姿を刻んだ——スオナ（嗩吶）が初めて台湾ロックの舞台の中心に立った瞬間だった。",
-        "category": "music",
-        "href": "/ja/music/labor-exchange-band",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 8
       }
     ],
     "ko": [
+      {
+        "title": "Keelungshi: The 1,000 British Soldiers Hauled into the Tunnels to Mine Copper, and a Golden Mountain That Hasn't Been Washed Clean Yet",
+        "desc": "Between 1942 and 1945, over 1,000 British Commonwealth prisoners of war were imprisoned in Keelungshi's 'Tunabi Liao' to mine copper; on November 23, 1997, survivors returned to the original site to personally erect a memorial monument. This mountain town, famous for its gold mines, should be remembered not for gold, but for that waste smokestack whose soil remains超标 (exceeds standards) to this day.",
+        "category": "geography",
+        "href": "/ko/geography/jinguashi",
+        "date": "2026-06-09T11:27:50+08:00",
+        "readingTime": 12
+      },
+      {
+        "title": "Nantou County: The Only County Not Bordering the Sea, Where the Epicenter of the 921 Earthquake Lies at Its Center",
+        "desc": "At 1:47 AM on September 21, 1999, the Chelungpu Fault moved for 102 seconds beneath the earth of Jiji Township, killing 2,415 people across Taiwan; Nantou itself accounted for 886 deaths, with 90% of buildings in Zhongliao Township damaged. On the day of the flag-raising ceremony at Wushe Public School in 1930, Mona Rudao led 6 communities of the Seediq people to kill 134 Japanese civilians. In 1934, the Wugui Dam rose 18.18 meters, submerging the邵族's (Shao) Lalu Island. In 1957, Zhongxing New Village was built as the temporary office of the Provincial Government; by 1998, the 'Provincialization' emptied its functions, leaving only the Coconut Avenue. 470,000 people live in this inland county that rises from 100 meters to 3,952 meters, where Seediq, Bunan, Shao, and Tsou tribes coexist with Han Chinese. Taiwan's deepest wounds are here.",
+        "category": "geography",
+        "href": "/ko/geography/nantou-county",
+        "date": "2026-06-09T11:27:50+08:00",
+        "readingTime": 16
+      },
+      {
+        "title": "Penghu County: Two Rejections of Casinos, the Chrysanthemum Island Chose Not Poverty",
+        "desc": "On September 26, 2009, Ma announced the results: 17,359 votes against, the casino lost by 3,962 votes. Seven years later in 2016, they voted again, with 81.07% against. An island county with only 1,000 mm of annual rainfall, a registered population of 108,000 but only 80,000 residents, held the nation's first local gambling referendum, and then held it again. The same waters saw Shen Yourong repel the Dutch in 1604, the Dutch move from Fengchuiwei to Tainan in 1622, and French Admiral Courbet die of illness in Magong Harbor in 1885. The 17.4-million-year-old basalt columns remain; 89 islands are black volcanic rock, 1 is older andesite. In the winter vegetable garden stone walls, crops grow in the lee.",
+        "category": "geography",
+        "href": "/ko/geography/penghu-county",
+        "date": "2026-06-09T11:27:50+08:00",
+        "readingTime": 15
+      },
+      {
+        "title": "Taoyuan City: Taiwan's Import and Export Hub, Home to the Most Hakka People and Migrant Workers, All on This Plateau",
+        "desc": "On the evening of November 19, 1977, thousands of people surrounded the Zhongli Police Station; police opened fire from a high point, killing Central University student Jiang Wenguo and 19-year-old Zhang Zhiping. Hsu Hsin-liang was elected Taoyuan County Magistrate with 230,000 votes to 140,000. One year and three months later, on February 26, 1979, the Zhongzheng International Airport opened, moving Taiwan's gateway to the outside world from Keelung Port to this plateau. On December 25, 2014, Taoyuan was upgraded to the sixth special municipality, the last of the six. Today, 2.35 million people live on this 1,221 square kilometer plateau. With over 800,000 Hakka people, it has the most in the country, and with 132,158 migrant workers, it also has the most. Taoyuan is Taiwan's most diverse border.",
+        "category": "geography",
+        "href": "/ko/geography/taoyuan-city",
+        "date": "2026-06-09T11:27:50+08:00",
+        "readingTime": 10
+      },
+      {
+        "title": "Chongshan North Road Tōdōri: The Road to the Shrine Paved by the Japanese Was Ultimately Reclaimed by Japanese Businesses",
+        "desc": "On April 17, 1923, 19-year-old Japanese Crown Prince Hirohito took a carriage from Taipei Station, traveling along a 15-meter-wide road to the Taiwan Shrine in Yuanshan. This road was named the Chishiki Street (Imperial Envoy Street). In 1941, it was expanded into a 40-meter-wide, five-lane avenue. In 1945, it was renamed 'Chongshan North Road' to commemorate Sun Yat-sen. In 1951, during the Korean War, the US military stationed troops, and Section 3 of Chongshan North Road became an 'American Concession.' In 1972, after the ROC severed diplomatic ties with Japan, Japanese businesses did not leave; in 1979, the US military left, and in the 1980s, Japanese businesses took over the Tōdōri alleys. The road to the shrine paved by the Japanese was ultimately taken back by Japanese trading companies.",
+        "category": "geography",
+        "href": "/ko/geography/zhongshan-north-road-tiaotong",
+        "date": "2026-06-09T11:27:50+08:00",
+        "readingTime": 24
+      },
+      {
+        "title": "Undersea Cables: The Silicon Shield Visible Above, The Lifeline Invisible Below",
+        "desc": "In February 2023, two undersea cables connecting Matsu to Taiwan proper broke consecutively within six days, plunging Lienchiang County into a digital blackout for approximately 50 days. Li Wen, Chairman of the DPP Lienchiang County Party Department, described the experience: 'Sending a single text message on Line took 15 to 20 minutes.' Taiwan relies on 14 deep-sea cables for 99% of its international internet traffic, all concentrated in four landing stations on the main island. TSMC's cleanrooms represent the heroic narrative of the Silicon Shield above, while these undersea cables are the unseen lifeline below—they have the power to disconnect 23 million people from the world without firing a single shot.",
+        "category": "technology",
+        "href": "/ko/technology/submarine-cables-taiwan-lifeline",
+        "date": "2026-06-09T11:27:50+08:00",
+        "readingTime": 12
+      },
+      {
+        "title": "Complex Life Festival: Two Medical Students' 'Unsuccessful People's Forum' and a Generation's Five-Year Refusal to Admit They Are Good Enough",
+        "desc": "In May 2016, Hsu Hao-ning tagged a list of 'post-80s' (born 1981–1990) who 'made life very tiring' on Facebook, and with his classmate Huang Tou-ni (Huang Yen-lin), organized the first 'Unsuccessful People's Forum.' A TCM practitioner and a Western medicine doctor who later went to Harvard rewrote the previous generation's commercially co-opted 'simplicity' into 'complexity,' allowing only talk of 'growth' but forbidding talk of 'success.' Five years later, the soul remained in Taichung to open a bookstore and ran for city councilor but lost; the assistant looked back and called it 'Hao-ning's representative work, sealed here.' Is 'unsuccessful' a humble term, or a self-demand of a generation that is always just a little bit short? ",
+        "category": "society",
+        "href": "/ko/society/complex-life-festival",
+        "date": "2026-06-09T11:27:50+08:00",
+        "readingTime": 12
+      },
       {
         "title": "손윤쉐안: 어둠 속에서 대만을 밝힌 엔지니어 총리",
         "desc": "전후 폐허 속 다섯 달 만의 복전 기적에서 반도체 산업에 대한 선제적 투자까지, 손윤쉐안은 엔지니어다운 실용성과 청렴함으로 대만 현대화의 초석을 놓았다.",
@@ -912,62 +968,6 @@
         "href": "/ko/food/taiwanese-street-food",
         "date": "2026-05-24T22:50:13+08:00",
         "readingTime": 12
-      },
-      {
-        "title": "대만 산문",
-        "desc": "외성인의 고향 그리움에서 토착 정체성으로, 남성 문인에서 여성 주도의 문학 풍경으로. 반세기 동안 일상에 가장 가까우면서도 정의하기 어려운 문학 형식이 어떻게 대만인의 감정과 기억을 담아내는 매개가 되었는가?",
-        "category": "art",
-        "href": "/ko/art/taiwanese-prose",
-        "date": "2026-05-24T22:50:13+08:00",
-        "readingTime": 8
-      },
-      {
-        "title": "장현에서 안푸까지—두 개의 이름, 하나의 질문",
-        "desc": "13세에 〈보배〉를 쓰고, 32세에 한 면의 깃발로 중국에서 금지당하고, 34세에 자신의 예명을 직접 죽였다. 교안푸는 두 번의 인생으로 대만 사람들이 모두 묻고 있는 질문에 답했다: 당신은 대체 어디에 서 있는가?",
-        "category": "music",
-        "href": "/ko/music/deserts-chang-and-anpu",
-        "date": "2026-05-24T22:50:13+08:00",
-        "readingTime": "15min"
-      },
-      {
-        "title": "대만 영상음악: 화면에 감정을 깔아 주는 일에서, 한 섬의 고유한 소리를 발굴하는 일로",
-        "desc": "2001년 칸에서 《밀레니엄 맘보》 상영이 끝난 뒤, 외국 관객들은 “Lim Giong이 누구냐”고 물었다. 대만의 영상음악은 흔히 점점 국제적 규모를 갖추어 간 이야기로 설명된다. 시드니 심포니 오케스트라, 오스카, 칸 같은 이름들이 그렇다. 그러나 그 진정한 성숙은 기술적 업그레이드에 있지 않았다. 작곡가들이 어디에서 재료를 가져왔는가에 있었다. 1980년대 할리우드식 관현악을 모방하던 데서 돌아서, 월금, 가자희, 수오나 장례 음악, 그리고 평포족에게서 채집된 오래된 선율 속으로 파고든 것이다. 지역의 소리야말로 오히려 이 섬을 세계가 알아보게 했다.",
-        "category": "music",
-        "href": "/ko/music/taiwan-screen-scoring-from-cinema-to-games",
-        "date": "2026-05-24T22:50:13+08:00",
-        "readingTime": 17
-      },
-      {
-        "title": "전설 인터넷: 7년간 4억을 날리고, 게임을 14개국에 판 기업",
-        "desc": "2002년에 설립된 전설 인터넷은 7년 연속 적자에 누적 손실이 4억을 넘었고, 개발팀을 거의 전부 교체하는 구조조정을 감행했다. 2009년 《정령악장》이 서비스를 시작하며 14개국에 라이선스를 수출했고, 일본에서 상을 받았으며, 해외 수입이 대만 현지 수입과 맞먹었다. 망하기 직전이던 대만의 작은 기업이 일본 시장에 역수출한 드문 사례를 만들어냈다.",
-        "category": "technology",
-        "href": "/ko/technology/chuanqi-net-and-taiwan-online-gaming",
-        "date": "2026-05-24T22:50:13+08:00",
-        "readingTime": 10
-      },
-      {
-        "title": "대만 온라인 커뮤니티 30년——BBS에서 Threads로의 이주사",
-        "desc": "대만인들은 5년마다 한 번씩 집단적으로 이사하며, 그때마다 이전 세대의 기억을 잃어버린다",
-        "category": "technology",
-        "href": "/ko/technology/taiwan-online-community-migration",
-        "date": "2026-05-24T22:50:13+08:00",
-        "readingTime": 9
-      },
-      {
-        "title": "대만 소프트웨어 산업 발전",
-        "desc": "주도 사고에서 소프트웨어 혁신으로, 대만은 반도체 이후 시대에 어떻게 새로운 위치를 찾는가",
-        "category": "technology",
-        "href": "/ko/technology/taiwan-software-industry-development",
-        "date": "2026-05-24T22:50:13+08:00",
-        "readingTime": 12
-      },
-      {
-        "title": "대만 VR 10년: 왕슈에홍의 원년 선언에서 구글에 팀을 넘기기까지",
-        "desc": "2016년 HTC가 바르셀로나에서 Vive를 공개하며 왕슈에홍이 VR 원년을 선포했다. 9년 후인 2025년 HTC는 2억 5천만 달러에 XR 연구개발 팀을 구글에 매각했다. 그 사이에 일어난 일은, 하나의 섬이 \"다음 큰 것\"에 대해 집중적으로 베팅했다가 집중적으로 식어가는 과정이었다.",
-        "category": "technology",
-        "href": "/ko/technology/taiwan-vr-metaverse-rise-and-fall",
-        "date": "2026-05-24T22:50:13+08:00",
-        "readingTime": 10
       }
     ],
     "fr": [
@@ -1214,6 +1214,22 @@
     ],
     "es": [
       {
+        "title": "Rainie Yang: From the Weather Girl Group Rainie to the Producer Column of 'Ambiguous 2025'",
+        "desc": "On September 9, 2025, Rainie Yang released 'Ambiguous 2025,' a self-produced track, on the same month and day as the 20th anniversary of the original 'Ambiguous.' This singer, who debuted in the BMG virtual girl group 4 in Love in 2000, saw 'Ambiguous' become a hit across the Chinese-speaking world in 2005, and suffered a burst facial capillary after singing 'Take Me Away' while suspended upside down three meters in the air at Hong Kong's Red Arena in 2012, has spent twenty-five years negotiating 'who defines me' on every stage—until the producer column finally bore her own name.",
+        "category": "people",
+        "href": "/es/people/rainie-yang",
+        "date": "2026-06-09T11:27:50+08:00",
+        "readingTime": 22
+      },
+      {
+        "title": "Chinese Taipei: The Ticket That Lets Taiwan Enter, But Won't Print Its Own Name",
+        "desc": "In the 1960 Rome Olympics, the Taiwanese delegation marched into the opening ceremony holding a white banner reading 'UNDER PROTEST,' the only opening ceremony protest in Olympic history. From Chiang Ching-kuo rejecting the IOC's offer of 'Taiwan,' Hsü Hsiang winning the lawsuit against the IOC, and the Lausanne Agreement bringing the Plum Blossom flag and anthem, to the 2018 referendum where athletes themselves voted to reject renaming—this name has remained unchanged for forty years, but those who are stuck between advancing and retreating on the podium are always the athletes who need it to compete, not the politicians arguing over the name.",
+        "category": "society",
+        "href": "/es/society/chinese-taipei",
+        "date": "2026-06-09T11:27:50+08:00",
+        "readingTime": 12
+      },
+      {
         "title": "Era prehistórica y pueblos indígenas: de la cultura Changbin (20.000-30.000 años) al punto de partida de la expansión austronesia",
         "desc": "La actividad humana más antigua confirmada en Taiwán es la cultura Changbin, de hace aproximadamente 20.000-30.000 años (Paleolítico, sitio de las Ocho Cuevas de Baxian). Los pueblos indígenas oficialmente reconocidos son 16 grupos. Taiwán es considerado uno de los posibles lugares de origen de los pueblos austronesios (9 de las 10 ramas principales de lenguas austronesias están en Taiwán). Investigación más reciente de 2024: la emigración desde Taiwán representa aproximadamente el 20%, con una ruta adicional de expansión desde Indonesia (P0⚠️). En el siglo XVII existía el Reino de Middag como alianza intertribal, y la cultura Shihsanhang en la Edad del Hierro.",
         "category": "history",
@@ -1326,8 +1342,8 @@
         "readingTime": 15
       },
       {
-        "title": "Crisis climática y transición a cero neto en Taiwán: el día que el referéndum de la Central Nuclear N.º 3 no pasó, las decisiones sobre los límites físicos apenas comenzaban",
-        "desc": "Referéndum de extensión de vida de la Central Nuclear N.º 3 del 23 de agosto de 2025: 4.34 millones de votos a favor, 74% de apoyo, participación del 29.53%, sin alcanzar el umbral. El referéndum no pasó; al día siguiente, Lai Ching-te anunció tres principios. Siete meses después, el 27 de marzo de 2026, Taipower envió la solicitud de extensión a la Comisión de Seguridad Nuclear. 98% de la energía depende de importaciones, 9 billones de dólares taiwaneses para cero neto, meta geotérmica de 200 MW pero solo se instalaron 7.4 MW, capacidad eólica offshore séptima del mundo, repositorio definitivo de Onkalo, reactores de cuarta generación de TerraPower — la cuestión energética de esta isla nunca ha sido política, ha sido una cuestión de límites físicos.",
+        "title": "Taiwan's Climate Crisis and Net-Zero Transition: The Day the Nuclear Three Referendum Failed Was Just the Beginning of Physical Limits",
+        "desc": "August 23, 2025 Nuclear Three Extension Referendum: 4.34 million 'yes' votes, 74% approval, 29.53% turnout missed the threshold. The referendum failed; the next day, Lai Ching-te announced three principles. Seven months later, on March 27, 2026, Taipower submitted the extension application to the Nuclear Safety Commission. 98% energy import dependency, 9 trillion NTD net-zero target, geothermal target of 200 MW with only 7.4 MW built, offshore wind capacity ranked 7th globally, Onkalo ultimate repository, TerraPower Gen IV nuclear—this island's energy problem has never been a political one, but a question of physical limits.",
         "category": "nature",
         "href": "/es/nature/taiwan-climate-change-net-zero-transition",
         "date": "2026-05-25T05:49:38+08:00",
@@ -1436,22 +1452,6 @@
         "href": "/es/history/indigenous-peoples-history-and-naming-movement",
         "date": "2026-05-20T12:37:22+08:00",
         "readingTime": null
-      },
-      {
-        "title": "Historia de la emigración de Taiwán: de la \"aprobación del Comando de Policía Militar\" a la \"circulación mundial\" — narrativas transfronterizas de una isla",
-        "desc": "El 1 de enero de 1979, Taiwán emitió su primer pasaporte turístico. No se trató simplemente de la entrega de un documento, sino de un punto de inflexión del aislamiento bajo la ley marcial hacia la diplomacia ciudadana, que registra cómo los taiwaneses pasaron de ser considerados \"despilfarradores de divisas\" a convertirse en viajeros del mundo.",
-        "category": "history",
-        "href": "/es/history/taiwan-emigration-history",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "25"
-      },
-      {
-        "title": "Paisajes agrícolas y distribución industrial de Taiwán",
-        "desc": "Los cambios en los paisajes agrícolas de norte a sur reflejan la transición de Taiwán desde el \"Granero de Taiwán\" hacia la \"agricultura de precisión\"",
-        "category": "geography",
-        "href": "/es/geography/taiwan-agricultural-landscapes-and-industry-belts",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 12
       }
     ]
   }

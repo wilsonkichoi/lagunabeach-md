@@ -1,6 +1,6 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-06-08T22:15:24Z",
+  "timestamp": "2026-06-09T15:09:20Z",
   "total": 794,
   "flagged": 322,
   "files": [
@@ -10,14 +10,14 @@
       "reasons": "未人工審核; 破折號7個; 套路結尾; 稀薄段落×1"
     },
     {
-      "file": "music/蘇打綠.md",
-      "score": 4,
-      "reasons": "教科書開場; 稀薄段落×4"
-    },
-    {
       "file": "music/台灣民謠與歌謠.md",
       "score": 6,
       "reasons": "年份4個; 僅1個URL; 未人工審核; 塑膠句1個; 破折號10個"
+    },
+    {
+      "file": "music/台灣獨立音樂.md",
+      "score": 4,
+      "reasons": "未人工審核; 塑膠句1個; 引用荒漠(零腳註)"
     },
     {
       "file": "music/台灣嘻哈與饒舌發展.md",

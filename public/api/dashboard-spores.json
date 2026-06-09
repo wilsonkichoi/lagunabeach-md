@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-06-08T22:15:23.025364Z",
+  "lastUpdated": "2026-06-09T15:09:18.734145Z",
   "schemaVersion": "1.1",
   "totals": {
-    "count": 123,
+    "count": 125,
     "platforms": {
-      "x": 55,
-      "threads": 64,
+      "x": 56,
+      "threads": 65,
       "other": 4
     },
     "languages": {
-      "zh": 116,
+      "zh": 118,
       "en": 7
     },
     "templates": {
-      "A2": 44,
+      "A2": 46,
       "B": 39,
       "A": 32,
       "other": 4,
@@ -21,6 +21,38 @@
     }
   },
   "recent": [
+    {
+      "n": 133,
+      "date": "2026-06-09",
+      "platform": "x",
+      "article": "台灣嘻哈與饒舌發展",
+      "articleSlug": "台灣嘻哈與饒舌發展",
+      "category": "music",
+      "template": "A2+混合策略（台大生反直覺 × 2025 厭女之戰，「real／同一個字」首尾呼應串接）",
+      "url": "https://x.com/taiwandotmd/status/2064344279485710550",
+      "highlight": "同 #132 內容 X 單則 inline UTM（utm_campaign=s133）。**/twmd-spore manual session 2026-06-09，哲宇選 angle #2+#3 混合 + directive「修完再發」**。今晨 02:35 剛 EVOLVE ship 的台灣嘻哈與饒舌發展 → spore。帳號 gate @taiwandotmd ✅（非 @cheyuwu345）。image PNGf square + 全文 7 段 inline URL JXA NSPasteboard UTF-8 + Cmd+V（DraftJS 15 blocks 保留）。Pre-ship 8/8 PASS（hook「你知道嗎？🎤」standalone 7 chars / blocks 15 ≥4 / utm x·spore·s133 / image / Post enabled / 722 chars）。Post-ship 6/6 PASS（hook ✅ / quote「Real 不是你厭女的遮羞布」✅ / close「什麼，才算真的」✅ / tweetPhoto media ✅ / t.co UTM / 12 line breaks）。守 3 護欄：台大不偏頗（「有一票…高學歷青年」非全部）/ 壞特不 rap（lo-fi R&B）/ She Vibes 2026-06-14 即將（非 2025）。spore-writing hard=0 / prose-health hard=0 / 三板斧 0·0·0。Blueprint: [SPORE-BLUEPRINTS/132-台灣嘻哈與饒舌發展.md](SPORE-BLUEPRINTS/132-台灣嘻哈與饒舌發展.md)。",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
+    {
+      "n": 132,
+      "date": "2026-06-09",
+      "platform": "threads",
+      "article": "台灣嘻哈與饒舌發展",
+      "articleSlug": "台灣嘻哈與饒舌發展",
+      "category": "music",
+      "template": "A2+混合策略（同 #133，real 串接）",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZXjMdDE_xC",
+      "highlight": "**/twmd-spore manual session 2026-06-09，哲宇選 #2+#3 混合 + 「串文模式保留全文」**。397 字超 Threads 500 上限 → 哲宇選串文：主貼 1/3（hook + 台大生/real setup 212 字 + square 配圖）→ 2/3（厭女/She Vibes payoff 358 字）→ 3/3（完整故事 👉 UTM s132）。主題「台灣」。JXA NSPasteboard UTF-8 + Cmd+V 多段保留。Pre-ship PASS（3 posts ≤500 / hook「你知道嗎？🎤」/ image / utm threads·spore·s132 / 發佈 enabled）。Post-ship 6/6 PASS（og 3 段 / hook ✅ / 林浩立 quote ✅ / 楊舒雅 Real quote ✅ / 收尾「什麼，才算真的」✅ / She Vibes 六月十四號 ✅ / image ✅）。守 3 護欄同 #133。⚠️ 連帶 heal 文章 date error（She Vibes 2025→2026 即將，commit c35918c20）。Blueprint: [SPORE-BLUEPRINTS/132-台灣嘻哈與饒舌發展.md](SPORE-BLUEPRINTS/132-台灣嘻哈與饒舌發展.md)。",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
     {
       "n": 129,
       "date": "2026-06-07",
@@ -63,38 +95,6 @@
       "template": "A2+C 混合 × 紀實文學 voice（門牌弧線 anchor × 央地對撞 payoff）",
       "url": "https://x.com/taiwandotmd/status/2063165712261390793",
       "highlight": "同 #126 內容 X 單則 inline UTM（utm_campaign=s127, t.co/eGCpqcWqZM wrap）。**/twmd-spore manual session 2026-06-06，哲宇 directive「A額外加C」+「更接近紀實文學與大家的生活」五輪微調 + authorize「繼續完成發布」**。剛 ship 國宅與居住正義深度文（4-agent fanout 117 搜／一手立院・營建署・實價登錄／27 footnote／16 min）→ spore。帳號 gate @taiwandotmd ✅（非 @cheyuwu345）。image PNGf 2160² + 全文 inline URL JXA NSPasteboard UTF-8 + Cmd+V（7 段保留）。Pre-ship 8/8 PASS（hook「你知道嗎？🏠」standalone 6 chars／7 段 ≥4／utm x·spore·s127／image／Post enabled／634 chars）。Post-ship PASS（hook ✅／close 下一個成交價 ✅／7 line breaks／t.co UTM／image profile-confirmed）。政治敏感（央地對撞）央地兩邊並陳不喊政黨。spore-writing hard=0／prose-health hard=0／三板斧 0·0·0。本孢子 = SPORE-WRITING v3.5 §紀實文學 voice 首個 worked example。Blueprint: [SPORE-BLUEPRINTS/126-國宅與居住正義.md](SPORE-BLUEPRINTS/126-國宅與居住正義.md)。",
-      "views_7d": null,
-      "views_latest": null,
-      "engagements_7d": null,
-      "rate_7d": null,
-      "backfilled": false
-    },
-    {
-      "n": 126,
-      "date": "2026-06-06",
-      "platform": "threads",
-      "article": "國宅與居住正義",
-      "articleSlug": "國宅與居住正義",
-      "category": "society",
-      "template": "A2+C 混合 × 紀實文學 voice（門牌弧線 anchor × 央地對撞 payoff）",
-      "url": "https://www.threads.com/@taiwandotmd/post/DZPIcLHEzpk",
-      "highlight": "**/twmd-spore manual session 2026-06-06，哲宇 directive「A額外加C」+「更接近紀實文學與大家的生活」+ authorize「繼續完成發布」**。Threads 串文 2/2（主貼 hook「你知道嗎？🏠」standalone + 5 段呼吸 + 2160² square 配圖 + self-reply「完整故事 👉」utm_campaign=s126）。主題「台灣」。A+C 混合×紀實弧線：1985 成功國宅沒人要 + 石忠勝湊 40 萬掃光積蓄 → 同門牌 87 萬十幾倍 → 沒裝閘門·2002 拆牆·後面的人看著房價越跑越遠 → 2026 桃園裝回卻跟中央槓上（買得起 vs 租得起）→ 首尾呼應門牌 + 下一個成交價會記下答案。JXA NSPasteboard UTF-8 + Cmd+V 多段保留（Lexical innerText 6 段）+ image PNGf。Post-ship 6/6 PASS（og:description 6 paragraph ≥4／hook 你知道嗎／close 下一個成交價／og:image + 2 visible／self-reply DZPIcu7k5Jv 含 UTM s126／國宅 live）。⚠️ duplicate-ship 防護：發佈後 composeStillOpen=true 是 Pitfall 6 cached editor 假象，screenshot 確認 modal 已關 → 不重試（profile 驗證只一篇）。事實鐵三角：算術 87÷6.7≈13 倍用「十幾倍」／無逐字直引／跨 research A+B 直驗。Blueprint: [SPORE-BLUEPRINTS/126-國宅與居住正義.md](SPORE-BLUEPRINTS/126-國宅與居住正義.md)。",
-      "views_7d": null,
-      "views_latest": null,
-      "engagements_7d": null,
-      "rate_7d": null,
-      "backfilled": false
-    },
-    {
-      "n": 125,
-      "date": "2026-06-05",
-      "platform": "x",
-      "article": "我是OO人",
-      "articleSlug": "我是OO人",
-      "category": "society",
-      "template": "B 冷知識型 + 問題入口（紀實文學 voice，從讀者按讚那一下的溫度進）",
-      "url": "https://x.com/taiwandotmd/status/2062839725648703638",
-      "highlight": "同 #124 內容 X 單則 inline UTM（utm_campaign=s125, t.co/28WQwfwu5B wrap）。**/twmd-spore manual session 2026-06-05，哲宇 directive「mcp」+「你幫我按」（政治敏感 §自主權邊界＝哲宇 authorize 後 AI 代按）**。剛 ship 我是OO人 認知作戰深度文（6 agent ~199 搜 / report SSOT / 7 Tier-A 證據圖 / 6003 字 / 23 footnote）→ spore。Hook tier 1b（「我是高雄人」轉牛肉麵店收攤・按讚那一下溫度 anchor + 鄉親其實是內湖一間公司 AI 反差）紀實文學 voice。帳號 gate @taiwandotmd ✅（非 @cheyuwu345）。image PNGf square + 全文 6 段 inline URL JXA NSPasteboard UTF-8 + Cmd+V（DraftJS 7 blocks 保留）。Pre-ship 8/8 PASS（hook「你知道嗎？🕵️」standalone 7 chars / 7 blocks ≥4 / utm x·spore·s125 / image×1 / Post enabled / 489 chars）。Post-ship 6/6 PASS（hook ✅ / quote 移除敏感字眼，強化台灣在地口語 ✅ / close 同一座城市 ✅ / image photo-link / t.co UTM / 11 line breaks / 我是OO人 live）。孢子刻意不喊「中共」守拒絕二元（金流不明＋本土公司＋合法手法）。spore-writing hard=0 / 三板斧 不是0·——0·不僅0。Blueprint: [SPORE-BLUEPRINTS/124-我是OO人.md](SPORE-BLUEPRINTS/124-我是OO人.md)。",
       "views_7d": null,
       "views_latest": null,
       "engagements_7d": null,
@@ -363,11 +363,6 @@
   ],
   "weeklyPulse": [
     {
-      "week": "2026-W16",
-      "published": 13,
-      "avgViews": 67044
-    },
-    {
       "week": "2026-W17",
       "published": 10,
       "avgViews": 18791
@@ -401,9 +396,34 @@
       "week": "2026-W23",
       "published": 18,
       "avgViews": 0
+    },
+    {
+      "week": "2026-W24",
+      "published": 2,
+      "avgViews": 0
     }
   ],
   "harvestStatus": [
+    {
+      "n": 133,
+      "article": "台灣嘻哈與饒舌發展",
+      "platform": "x",
+      "publishDate": "2026-06-09",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
+    },
+    {
+      "n": 132,
+      "article": "台灣嘻哈與饒舌發展",
+      "platform": "threads",
+      "publishDate": "2026-06-09",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
+    },
     {
       "n": 129,
       "article": "黃山料",
@@ -421,8 +441,8 @@
       "publishDate": "2026-06-07",
       "daysSincePublish": 2,
       "withinHarvestWindow": true,
-      "harvestCount": 0,
-      "lastHarvest": null
+      "harvestCount": 1,
+      "lastHarvest": "2026-06-09 06:30"
     },
     {
       "n": 127,
@@ -441,8 +461,8 @@
       "publishDate": "2026-06-06",
       "daysSincePublish": 3,
       "withinHarvestWindow": true,
-      "harvestCount": 0,
-      "lastHarvest": null
+      "harvestCount": 1,
+      "lastHarvest": "2026-06-09 06:30"
     },
     {
       "n": 125,
@@ -461,8 +481,8 @@
       "publishDate": "2026-06-05",
       "daysSincePublish": 4,
       "withinHarvestWindow": true,
-      "harvestCount": 0,
-      "lastHarvest": null
+      "harvestCount": 1,
+      "lastHarvest": "2026-06-09 06:30"
     },
     {
       "n": 123,
@@ -481,8 +501,8 @@
       "publishDate": "2026-06-04",
       "daysSincePublish": 5,
       "withinHarvestWindow": true,
-      "harvestCount": 0,
-      "lastHarvest": null
+      "harvestCount": 1,
+      "lastHarvest": "2026-06-09 06:30"
     },
     {
       "n": 121,
@@ -501,8 +521,8 @@
       "publishDate": "2026-06-04",
       "daysSincePublish": 5,
       "withinHarvestWindow": true,
-      "harvestCount": 0,
-      "lastHarvest": null
+      "harvestCount": 1,
+      "lastHarvest": "2026-06-09 06:30"
     },
     {
       "n": 118,
@@ -521,8 +541,8 @@
       "publishDate": "2026-06-03",
       "daysSincePublish": 6,
       "withinHarvestWindow": true,
-      "harvestCount": 0,
-      "lastHarvest": null
+      "harvestCount": 1,
+      "lastHarvest": "2026-06-09 06:30"
     },
     {
       "n": 116,
@@ -541,8 +561,8 @@
       "publishDate": "2026-06-03",
       "daysSincePublish": 6,
       "withinHarvestWindow": true,
-      "harvestCount": 0,
-      "lastHarvest": null
+      "harvestCount": 1,
+      "lastHarvest": "2026-06-09 06:30"
     },
     {
       "n": 114,
@@ -561,8 +581,8 @@
       "publishDate": "2026-06-03",
       "daysSincePublish": 6,
       "withinHarvestWindow": true,
-      "harvestCount": 0,
-      "lastHarvest": null
+      "harvestCount": 1,
+      "lastHarvest": "2026-06-09 06:30"
     },
     {
       "n": 112,
@@ -621,8 +641,8 @@
       "publishDate": "2026-05-28",
       "daysSincePublish": 12,
       "withinHarvestWindow": false,
-      "harvestCount": 1,
-      "lastHarvest": "2026-06-04 06:30"
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-09 06:30"
     },
     {
       "n": 102,
@@ -641,8 +661,8 @@
       "publishDate": "2026-05-27",
       "daysSincePublish": 13,
       "withinHarvestWindow": false,
-      "harvestCount": 2,
-      "lastHarvest": "2026-06-04 06:30"
+      "harvestCount": 3,
+      "lastHarvest": "2026-06-09 06:30"
     },
     {
       "n": 100,
@@ -661,8 +681,8 @@
       "publishDate": "2026-05-27",
       "daysSincePublish": 13,
       "withinHarvestWindow": false,
-      "harvestCount": 2,
-      "lastHarvest": "2026-06-04 06:30"
+      "harvestCount": 3,
+      "lastHarvest": "2026-06-09 06:30"
     },
     {
       "n": 98,
@@ -681,8 +701,8 @@
       "publishDate": "2026-05-27",
       "daysSincePublish": 13,
       "withinHarvestWindow": false,
-      "harvestCount": 2,
-      "lastHarvest": "2026-06-04 06:30"
+      "harvestCount": 3,
+      "lastHarvest": "2026-06-09 06:30"
     },
     {
       "n": 96,

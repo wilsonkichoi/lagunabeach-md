@@ -1,7 +1,163 @@
 {
-  "generatedAt": "2026-06-08T22:15:23.104Z",
+  "generatedAt": "2026-06-09T15:09:18.759Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "03195a9f02d8916c86ae42eeb9b4ec564268253d",
+      "date": "2026-06-09T22:15:33+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore #132/#133 SHIPPED: 台灣嘻哈與饒舌發展 — 嘻哈是貧民窟武器，台灣有一票台大生在玩，吵的是同一個字 real"
+    },
+    {
+      "hash": "f9845974ce5d7f0f898d1d24f2614f088403a65b",
+      "date": "2026-06-09T22:08:13+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-09-220525-twmd-maintainer-pm — vc=1 first empty 後 am reset + broken-link 4.41%→0% intra-day heal"
+    },
+    {
+      "hash": "c35918c2001b6258af4dafab2ea5ca9a757b9f2f",
+      "date": "2026-06-09T21:16:15+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: She Vibes 嬉哈音樂日 2025→2026 即將登場 — 孢子 #132 查證抓出文章 date error"
+    },
+    {
+      "hash": "3829d76db541483bc314898620f6473df4f3a9dd",
+      "date": "2026-06-09T20:08:22+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-09-190901-twmd-rewrite-daily — 蘇打綠 EVOLVE 一條龍收官 + 4 LESSONS 候選"
+    },
+    {
+      "hash": "73443b2a40fe667633ad2f1bf4c0db1922afc406",
+      "date": "2026-06-09T20:01:44+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] rewrite: 蘇打綠 EVOLVE — 政大金旋獎四個人，二十年後才回頭奪回自己的名字"
+    },
+    {
+      "hash": "60446d32c965fb4c6b1c3fab919b957f87e7cea4",
+      "date": "2026-06-09T11:27:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 修 16 個 orphan translatedFrom 指標 — 解全站 CI/部署阻塞"
+    },
+    {
+      "hash": "a467cd550baafd9c1878482d98533eca64097133",
+      "date": "2026-06-09T11:11:42+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: diary 2026-06-09-101056-manual — 兩次走捷徑繞關卡都被哲宇 callout"
+    },
+    {
+      "hash": "f038774f29a892f503532146ceb25db6657ae6ba",
+      "date": "2026-06-09T10:17:01+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-09-101056-manual — 渤浚回饋時序主軸全掃 ship"
+    },
+    {
+      "hash": "741d95a01143a2f7a9be57441397d0f4b03d4fff",
+      "date": "2026-06-09T10:18:55+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: ARTICLE-INBOX 3/19 audit batch 記嘻哈饒舌 worked example（12 幻覺）+ 下批候選樂團成員↔樂團 高風險"
+    },
+    {
+      "hash": "d39f04f1bfe8a2e74e45d65bce86bff72a7c2f41",
+      "date": "2026-06-09T10:16:34+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 我替 writer 先讀完那 384 行，這份好意其實是越權 — 嘻哈饒舌 finale 反芻"
+    },
+    {
+      "hash": "b5173cff110147f88af992a7ac23a646b2c338a5",
+      "date": "2026-06-09T10:13:26+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-09-010031-嘻哈饒舌 — 台灣嘻哈饒舌 EVOLVE 一條龍收官 + 4 LESSONS 候選"
+    },
+    {
+      "hash": "594588abb0572b643cb0c20da4df522744c144ab",
+      "date": "2026-06-09T02:03:00+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: latest-articles design report v1.1 — 全掃實作 log + i18n 重構紀錄"
+    },
+    {
+      "hash": "a651bb736442695582dea8d3a75b84c743e8bd7c",
+      "date": "2026-06-09T02:00:51+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 時序主軸 i18n 走正規結構,不再 inline ternary"
+    },
+    {
+      "hash": "229c7100e2d3bb75aa16a4c836d4961f51979cd1",
+      "date": "2026-06-09T01:39:15+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] feat: changelog「文章更新」預設視角 + 首頁最新文章入口"
+    },
+    {
+      "hash": "e6e54ebf3cab94e3f3cc308604c918c6bceef0ef",
+      "date": "2026-06-09T01:36:01+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] feat: /explore 最新文章區塊"
+    },
+    {
+      "hash": "56e9a933e2017fef7427075bc47938bb7f25aff9",
+      "date": "2026-06-09T01:33:44+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 主選單探索 + footer 接「最新文章」+ RSS 訂閱鈕"
+    },
+    {
+      "hash": "eed6ffcd8adf74741273161a41dd5f32698cd6d3",
+      "date": "2026-06-09T01:31:19+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] feat: 文章頁底「站上最新」橫列（client-side）"
+    },
+    {
+      "hash": "bf228e03997b3ee80aa991e1124f72ebfef7fb82",
+      "date": "2026-06-09T01:28:24+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] feat: /latest 文章級頁 + 6 語言路由"
+    },
+    {
+      "hash": "d5ec99628d4fae3893fb9124697b4ddd01460726",
+      "date": "2026-06-09T01:25:52+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 時序主軸資料層 — getLatestArticles + /api/latest.json"
+    },
+    {
+      "hash": "f5890cda34e5e3991b199ec2d556c02e14e46cc0",
+      "date": "2026-06-09T01:20:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 知識圖譜效能 + 可讀性 5 改"
+    },
+    {
+      "hash": "8c169d80d68b300a39f981eb4d5c083b15a3b40a",
+      "date": "2026-06-09T08:48:04+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-am: 3 from-feedback issue triage + broken-link 4.41% surface — 2026-06-09 08:30"
+    },
+    {
+      "hash": "a46cee5aad4f995dcde53b77250d7aa03bd9f5dc",
+      "date": "2026-06-09T07:17:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-feedback-triage: 14 feedback → 3 issue + OAuth token leak remediation — 2026-06-09"
+    },
+    {
+      "hash": "e614ab0189da079c9573e22d610d42326a758ec2",
+      "date": "2026-06-09T07:00:05+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-09-063000-twmd-spore-harvest-am — 12 Threads recovery + #115 Bucket A in-cycle fix + Pitfall 7 candidate surface"
+    },
+    {
+      "hash": "108cbe8085aeee22dca17565b491965de1debd46",
+      "date": "2026-06-09T06:57:45+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest: 12 Threads recovery + #115 颱風 in-cycle fact-fix — 2026-06-09"
+    },
+    {
+      "hash": "6ac1158a676451d956cc40aa43d358432a31f5f5",
+      "date": "2026-06-09T06:18:59+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-09-061650-twmd-data-refresh-am — Step 7 prebuild silent break + Step 11 catch 5 stale + manual run-p recovery + 16 orphan §自主權邊界 spawn chip"
+    },
+    {
+      "hash": "37188456d7edf98254711d56ed122820255510ac",
+      "date": "2026-06-09T06:16:08+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] data-refresh-am: 14-step + Step 11 manual recovery — 2026-06-09 06:00"
+    },
     {
       "hash": "2a0584281e5e2a5dfb1575d5189e2f264d20dbbb",
       "date": "2026-06-09T04:29:26+08:00",

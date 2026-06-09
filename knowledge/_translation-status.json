@@ -1,46 +1,46 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-09T11:27:08+08:00",
-    "zhCommitHead": "a467cd550",
+    "lastUpdated": "2026-06-09T23:09:17+08:00",
+    "zhCommitHead": "03195a9f0",
     "totalZh": 794,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
         "total_zh": 794,
-        "fresh": 789,
-        "stale": 2,
+        "fresh": 787,
+        "stale": 4,
         "metadata_stale": 2,
         "missing": 1,
         "orphan": 0
       },
       "ja": {
         "total_zh": 794,
-        "fresh": 751,
-        "stale": 41,
+        "fresh": 749,
+        "stale": 43,
         "metadata_stale": 2,
         "missing": 0,
         "orphan": 0
       },
       "ko": {
         "total_zh": 794,
-        "fresh": 766,
-        "stale": 27,
+        "fresh": 764,
+        "stale": 29,
         "metadata_stale": 1,
         "missing": 0,
         "orphan": 0
       },
       "es": {
         "total_zh": 794,
-        "fresh": 746,
-        "stale": 46,
+        "fresh": 744,
+        "stale": 48,
         "metadata_stale": 2,
         "missing": 0,
         "orphan": 0
       },
       "fr": {
         "total_zh": 794,
-        "fresh": 752,
-        "stale": 36,
+        "fresh": 750,
+        "stale": 38,
         "metadata_stale": 1,
         "missing": 5,
         "orphan": 0
@@ -537,10 +537,10 @@
     },
     "Music/蘇打綠.md": {
       "zh": {
-        "lastCommit": "3593aaf2",
-        "lastModified": "2026-05-14T11:07:35+08:00",
-        "contentHash": "sha256:5249392a95c3953d",
-        "bodyHash": "sha256:0bf6f1e45a2e310f"
+        "lastCommit": "73443b2a",
+        "lastModified": "2026-06-09T20:01:44+08:00",
+        "contentHash": "sha256:5156eab09e028ec3",
+        "bodyHash": "sha256:fbb2b0f8546f4d0c"
       },
       "translations": {
         "en": {
@@ -554,8 +554,8 @@
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
           "footnoteDefs": 10,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (51→10)"
         },
         "ja": {
           "path": "ja/Music/sodagreen.md",
@@ -568,8 +568,8 @@
           "translationLastModified": "2026-05-16T06:43:51+08:00",
           "inferred": false,
           "footnoteDefs": 10,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (51→10)"
         },
         "ko": {
           "path": "ko/Music/sodagreen.md",
@@ -582,8 +582,8 @@
           "translationLastModified": "2026-05-16T06:43:51+08:00",
           "inferred": false,
           "footnoteDefs": 10,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (51→10)"
         },
         "es": {
           "path": "es/Music/sodagreen.md",
@@ -596,8 +596,8 @@
           "translationLastModified": "2026-05-16T06:43:51+08:00",
           "inferred": false,
           "footnoteDefs": 10,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (51→10)"
         },
         "fr": {
           "path": "fr/Music/sodagreen.md",
@@ -610,8 +610,8 @@
           "translationLastModified": "2026-05-16T06:43:51+08:00",
           "inferred": false,
           "footnoteDefs": 10,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (51→10)"
         }
       }
     },
@@ -937,10 +937,10 @@
     },
     "Music/台灣獨立音樂.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:bfe914abc0149304",
-        "bodyHash": "sha256:a16a5ddb8083143e"
+        "lastCommit": "73443b2a",
+        "lastModified": "2026-06-09T20:01:44+08:00",
+        "contentHash": "sha256:cd1df8dc4931d5ab",
+        "bodyHash": "sha256:c54c3768ed377e41"
       },
       "translations": {
         "en": {
@@ -954,8 +954,10 @@
           "translationLastModified": "2026-05-24T08:42:27+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ja": {
           "path": "ja/Music/taiwan-independent-music-scene-evolution.md",
@@ -968,8 +970,10 @@
           "translationLastModified": "2026-05-24T08:42:27+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ko": {
           "path": "ko/Music/taiwan-independent-music-scene-evolution.md",
@@ -982,8 +986,10 @@
           "translationLastModified": "2026-05-24T08:42:27+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "es": {
           "path": "es/Music/taiwan-independent-music-scene-evolution.md",
@@ -996,8 +1002,10 @@
           "translationLastModified": "2026-05-24T08:42:27+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "fr": {
           "path": "fr/Music/taiwan-independent-music-scene-evolution.md",
@@ -1010,8 +1018,10 @@
           "translationLastModified": "2026-05-24T08:42:27+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         }
       }
     },
@@ -1177,10 +1187,10 @@
     },
     "Music/台灣嘻哈與饒舌發展.md": {
       "zh": {
-        "lastCommit": "5de488e7",
-        "lastModified": "2026-06-09T02:35:34+08:00",
-        "contentHash": "sha256:aa33153850285002",
-        "bodyHash": "sha256:9179c36dd7ecb1f4"
+        "lastCommit": "03195a9f",
+        "lastModified": "2026-06-09T22:15:33+08:00",
+        "contentHash": "sha256:d452da4635bed54e",
+        "bodyHash": "sha256:17177e401ecf2630"
       },
       "translations": {
         "en": {
@@ -10484,8 +10494,8 @@
           "sourceContentHash": "sha256:7736814528aad0fb",
           "sourceBodyHash": "",
           "translatedAt": "2026-06-09T03:36:51+08:00",
-          "translationLastCommit": "0e52a914",
-          "translationLastModified": "2026-06-09T04:26:56+08:00",
+          "translationLastCommit": "60446d32",
+          "translationLastModified": "2026-06-09T11:27:50+08:00",
           "inferred": false,
           "footnoteDefs": 15,
           "status": "fresh",
@@ -10818,8 +10828,8 @@
           "sourceContentHash": "sha256:2c95c482aefa54d9",
           "sourceBodyHash": "",
           "translatedAt": "2026-06-09T03:36:16+08:00",
-          "translationLastCommit": "0e52a914",
-          "translationLastModified": "2026-06-09T04:26:56+08:00",
+          "translationLastCommit": "60446d32",
+          "translationLastModified": "2026-06-09T11:27:50+08:00",
           "inferred": false,
           "footnoteDefs": 49,
           "status": "fresh",
@@ -11044,8 +11054,8 @@
           "sourceContentHash": "sha256:c211c97e077ebc86",
           "sourceBodyHash": "",
           "translatedAt": "2026-06-09T03:16:10+08:00",
-          "translationLastCommit": "0e52a914",
-          "translationLastModified": "2026-06-09T04:26:56+08:00",
+          "translationLastCommit": "60446d32",
+          "translationLastModified": "2026-06-09T11:27:50+08:00",
           "inferred": false,
           "footnoteDefs": 23,
           "status": "fresh",
@@ -21412,8 +21422,8 @@
           "sourceContentHash": "sha256:aa441aa2d585fbd1",
           "sourceBodyHash": "",
           "translatedAt": "2026-06-09T01:54:06+08:00",
-          "translationLastCommit": "0e52a914",
-          "translationLastModified": "2026-06-09T04:26:56+08:00",
+          "translationLastCommit": "60446d32",
+          "translationLastModified": "2026-06-09T11:27:50+08:00",
           "inferred": false,
           "footnoteDefs": 38,
           "status": "fresh",
@@ -21440,8 +21450,8 @@
           "sourceContentHash": "sha256:aa441aa2d585fbd1",
           "sourceBodyHash": "",
           "translatedAt": "2026-06-09T04:08:00+08:00",
-          "translationLastCommit": "0e52a914",
-          "translationLastModified": "2026-06-09T04:26:56+08:00",
+          "translationLastCommit": "60446d32",
+          "translationLastModified": "2026-06-09T11:27:50+08:00",
           "inferred": false,
           "footnoteDefs": 38,
           "status": "fresh",
@@ -21986,8 +21996,8 @@
           "sourceContentHash": "sha256:dd07e19819f70f92",
           "sourceBodyHash": "",
           "translatedAt": "2026-06-09T02:38:52+08:00",
-          "translationLastCommit": "0e52a914",
-          "translationLastModified": "2026-06-09T04:26:56+08:00",
+          "translationLastCommit": "60446d32",
+          "translationLastModified": "2026-06-09T11:27:50+08:00",
           "inferred": false,
           "footnoteDefs": 36,
           "status": "fresh",
@@ -24667,8 +24677,8 @@
           "sourceContentHash": "sha256:305b65af8a515840",
           "sourceBodyHash": "",
           "translatedAt": "2026-06-09T02:26:23+08:00",
-          "translationLastCommit": "0e52a914",
-          "translationLastModified": "2026-06-09T04:26:56+08:00",
+          "translationLastCommit": "60446d32",
+          "translationLastModified": "2026-06-09T11:27:50+08:00",
           "inferred": false,
           "footnoteDefs": 0,
           "status": "fresh",
@@ -24681,8 +24691,8 @@
           "sourceContentHash": "sha256:305b65af8a515840",
           "sourceBodyHash": "",
           "translatedAt": "2026-06-09T03:31:39+08:00",
-          "translationLastCommit": "0e52a914",
-          "translationLastModified": "2026-06-09T04:26:56+08:00",
+          "translationLastCommit": "60446d32",
+          "translationLastModified": "2026-06-09T11:27:50+08:00",
           "inferred": false,
           "footnoteDefs": 0,
           "status": "fresh",
@@ -41146,8 +41156,8 @@
           "sourceContentHash": "sha256:fe001b011f023dad",
           "sourceBodyHash": "",
           "translatedAt": "2026-06-09T04:21:32+08:00",
-          "translationLastCommit": "0e52a914",
-          "translationLastModified": "2026-06-09T04:26:56+08:00",
+          "translationLastCommit": "60446d32",
+          "translationLastModified": "2026-06-09T11:27:50+08:00",
           "inferred": false,
           "footnoteDefs": 19,
           "status": "fresh",
@@ -42064,8 +42074,8 @@
           "sourceContentHash": "sha256:cbe6421d51738771",
           "sourceBodyHash": "",
           "translatedAt": "2026-06-09T02:07:19+08:00",
-          "translationLastCommit": "0e52a914",
-          "translationLastModified": "2026-06-09T04:26:56+08:00",
+          "translationLastCommit": "60446d32",
+          "translationLastModified": "2026-06-09T11:27:50+08:00",
           "inferred": false,
           "footnoteDefs": 21,
           "status": "fresh",
@@ -42078,8 +42088,8 @@
           "sourceContentHash": "sha256:cbe6421d51738771",
           "sourceBodyHash": "",
           "translatedAt": "2026-06-09T02:35:07+08:00",
-          "translationLastCommit": "0e52a914",
-          "translationLastModified": "2026-06-09T04:26:56+08:00",
+          "translationLastCommit": "60446d32",
+          "translationLastModified": "2026-06-09T11:27:50+08:00",
           "inferred": false,
           "footnoteDefs": 21,
           "status": "fresh",
@@ -54016,8 +54026,8 @@
           "sourceContentHash": "sha256:e320d5faba1545ca",
           "sourceBodyHash": "",
           "translatedAt": "2026-06-09T03:54:26+08:00",
-          "translationLastCommit": "0e52a914",
-          "translationLastModified": "2026-06-09T04:26:56+08:00",
+          "translationLastCommit": "60446d32",
+          "translationLastModified": "2026-06-09T11:27:50+08:00",
           "inferred": false,
           "footnoteDefs": 30,
           "status": "fresh",
@@ -55216,8 +55226,8 @@
           "sourceContentHash": "sha256:5c5ae989a5cb1634",
           "sourceBodyHash": "",
           "translatedAt": "2026-06-09T03:23:07+08:00",
-          "translationLastCommit": "0e52a914",
-          "translationLastModified": "2026-06-09T04:26:56+08:00",
+          "translationLastCommit": "60446d32",
+          "translationLastModified": "2026-06-09T11:27:50+08:00",
           "inferred": false,
           "footnoteDefs": 25,
           "status": "fresh",
@@ -56896,8 +56906,8 @@
           "sourceContentHash": "sha256:03b39214d0690b3e",
           "sourceBodyHash": "",
           "translatedAt": "2026-06-09T03:00:45+08:00",
-          "translationLastCommit": "0e52a914",
-          "translationLastModified": "2026-06-09T04:26:56+08:00",
+          "translationLastCommit": "60446d32",
+          "translationLastModified": "2026-06-09T11:27:50+08:00",
           "inferred": false,
           "footnoteDefs": 28,
           "status": "fresh",
@@ -57056,8 +57066,8 @@
           "sourceContentHash": "sha256:45c3c3aac3c42d62",
           "sourceBodyHash": "",
           "translatedAt": "2026-06-09T03:15:09+08:00",
-          "translationLastCommit": "0e52a914",
-          "translationLastModified": "2026-06-09T04:26:56+08:00",
+          "translationLastCommit": "60446d32",
+          "translationLastModified": "2026-06-09T11:27:50+08:00",
           "inferred": false,
           "footnoteDefs": 40,
           "status": "fresh",
@@ -57216,8 +57226,8 @@
           "sourceContentHash": "sha256:7a6074e368afe122",
           "sourceBodyHash": "",
           "translatedAt": "2026-06-09T03:10:22+08:00",
-          "translationLastCommit": "0e52a914",
-          "translationLastModified": "2026-06-09T04:26:56+08:00",
+          "translationLastCommit": "60446d32",
+          "translationLastModified": "2026-06-09T11:27:50+08:00",
           "inferred": false,
           "footnoteDefs": 24,
           "status": "fresh",
