@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-10T06:21:54+08:00",
-    "zhCommitHead": "bf85a0830",
+    "lastUpdated": "2026-06-10T06:27:42+08:00",
+    "zhCommitHead": "f18fd629f",
     "totalZh": 794,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
@@ -31,18 +31,18 @@
       },
       "es": {
         "total_zh": 794,
-        "fresh": 744,
-        "stale": 48,
+        "fresh": 745,
+        "stale": 47,
         "metadata_stale": 2,
         "missing": 0,
         "orphan": 0
       },
       "fr": {
         "total_zh": 794,
-        "fresh": 750,
-        "stale": 38,
+        "fresh": 756,
+        "stale": 37,
         "metadata_stale": 1,
-        "missing": 5,
+        "missing": 0,
         "orphan": 0
       }
     },
@@ -17079,7 +17079,18 @@
           "reason": "same-commit"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/Society/taiwan-nuclear-debate.md",
+          "translatedFrom": "Society/台灣與核能的討論.md",
+          "sourceCommitSha": "44238bb4f",
+          "sourceContentHash": "sha256:0cf5d58073c426c0",
+          "sourceBodyHash": "",
+          "translatedAt": "2026-06-10T04:54:23+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 52,
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -18912,7 +18923,18 @@
           "reason": "same-commit"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/Society/taiwan-generations.md",
+          "translatedFrom": "Society/台灣的年級生世代.md",
+          "sourceCommitSha": "6447ae4de",
+          "sourceContentHash": "sha256:a7163f389a3db10f",
+          "sourceBodyHash": "",
+          "translatedAt": "2026-06-10T05:55:06+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 25,
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -20105,7 +20127,18 @@
           "reason": "same-commit"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/Society/i-am-from.md",
+          "translatedFrom": "Society/我是OO人.md",
+          "sourceCommitSha": "a66ee7481",
+          "sourceContentHash": "sha256:cdc34bf666aa8587",
+          "sourceBodyHash": "sha256:d2136eb2eef002a6",
+          "translatedAt": "2026-06-10T00:42:15+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 23,
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -21360,36 +21393,32 @@
           "reason": "same-commit"
         },
         "es": {
-          "path": "es/Society/za-share.md",
+          "path": "es/Society/za-school.md",
           "translatedFrom": "Society/雜學校.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:ab5d7d4fa3beef0f",
-          "sourceBodyHash": "sha256:bf906239d976cf4a",
-          "translatedAt": "2026-05-05T14:13:07+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "sourceCommitSha": "1844f59c5",
+          "sourceContentHash": "sha256:b414878c293e15ed",
+          "sourceBodyHash": "",
+          "translatedAt": "2026-06-10T05:06:03+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
           "inferred": false,
           "footnoteDefs": 22,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
-          "path": "fr/Society/za-share.md",
+          "path": "fr/Society/za-school.md",
           "translatedFrom": "Society/雜學校.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:ab5d7d4fa3beef0f",
-          "sourceBodyHash": "sha256:bf906239d976cf4a",
-          "translatedAt": "2026-05-05T14:13:07+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "sourceCommitSha": "1844f59c5",
+          "sourceContentHash": "sha256:b414878c293e15ed",
+          "sourceBodyHash": "",
+          "translatedAt": "2026-06-10T06:12:57+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
           "inferred": false,
           "footnoteDefs": 22,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -22018,7 +22047,18 @@
           "reason": "same-commit"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/Society/complex-life-festival.md",
+          "translatedFrom": "Society/複雜生活節.md",
+          "sourceCommitSha": "f48cb2f63",
+          "sourceContentHash": "sha256:dd07e19819f70f92",
+          "sourceBodyHash": "",
+          "translatedAt": "2026-06-10T04:00:49+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 36,
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -32845,7 +32885,18 @@
           "reason": "same-commit"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/People/huang-shan-liao.md",
+          "translatedFrom": "People/黃山料.md",
+          "sourceCommitSha": "fcc2a6a68",
+          "sourceContentHash": "sha256:1931764847aac8b9",
+          "sourceBodyHash": "",
+          "translatedAt": "2026-06-10T05:22:55+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 42,
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
