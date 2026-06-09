@@ -2341,6 +2341,15 @@ DNA #32「集中預處理 + 分散執行」也補第 6 次驗證 marker（5 cycl
 - **severity**: operational（影響所有 dashboard score / quality gate 改動的安全性）
 - **跨檔關聯**：[scripts/core/generate-dashboard-data.js IMMUNE_V2 block](../../scripts/core/generate-dashboard-data.js) + [reports/immune-score-redesign-2026-05-16.md §4.2](../../reports/immune-score-redesign-2026-05-16.md)
 
+### 2026-06-09 渤浚回饋全掃 — gate 前找的 shortcut 多半是欠債，正解常不比捷徑貴
+
+- **原則**：實作碰到一道 gate（i18n key 註冊 / SEO freshness）時，第一反應常是找捷徑繞過（nav label 寫 inline ternary 閃 key gate / 文章 rail 走 server-render 閃 client-side 複雜度）。這 session 兩個捷徑都被哲宇一眼 callout，而且兩次正解都不比捷徑貴：client-side rail 還比 server-render 更安全（不重蹈 `c1403e259` freshness 反模式）、namespace i18n 也就多一個檔。捷徑省的是當下幾分鐘，欠的是 SEO 回退 + 一個髒結構讓下個人踩。
+- **觸發**：2026-06-09 manual「時序主軸」全掃。SEO rail catch（設計階段，哲宇「會不會污染搜尋結果」）+ i18n callout（實作後，哲宇「navConfig 好好用 i18n 結構不要加得那麼髒」）。memory [2026-06-09-101056-manual.md](memory/2026-06-09-101056-manual.md) §兩個哲宇 callout。
+- **可能層級**：(a) 操作規則：碰到 gate 想繞過前先花 30 秒估「正解 vs 捷徑」成本差，常發現正解只貴一點點；(b) 反射候選：gate 存在通常有理由（i18n 一致性 / SEO 誠實度），繞過 gate 的捷徑預設當「欠債」處理不是「省事」。
+- **相關**：REFLEXES #11（UI 截圖＝capability 證據；同 session 圖譜「drop-shadow 才是瓶頸不是 label 數量」實測翻假設）+ MANIFESTO §造橋鋪路（捷徑是反造橋）
+- **verification_count**: 1（2026-06-09 兩個 callout 同 session 雙 instance）
+- **severity**: operational（實作習慣；候選反射）
+
 ---
 
 ## ✅ 已消化（保留 pointer）
