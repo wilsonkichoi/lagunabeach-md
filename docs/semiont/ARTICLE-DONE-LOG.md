@@ -59,6 +59,30 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 蘇打綠 EVOLVE — 2026-06-09 routine twmd-rewrite-daily（3/19 早批 audit batch 第 3 篇「樂團成員↔樂團」高風險維度 worked example / multi-agent orchestration v6.3 全跑 / 9 條 INBOX hypothesis 幻覺 falsified）
+
+- **Article**: [knowledge/Music/蘇打綠.md](../../knowledge/Music/蘇打綠.md) — EVOLVE 2,400 → 12,797 CJK / 51 footnote / 9 場景式 H2 / 4 inline 圖 (Wikimedia CC BY-SA Solomon203: 六人 cropped hero + 2008 The Wall + 2014 巡迴 ×2) + 4 official YouTube iframe（〈小情歌〉/〈無與倫比的美麗〉/〈狂熱〉Live in The Pool 2009 倫敦錄音紀實 / 2017-01-01 自由廣場最後安可）
+- **Research SSOT**: [reports/research/2026-06/蘇打綠.md](../../reports/research/2026-06/蘇打綠.md) — 4 parallel research agents（§A 政大草創 / §B 韋瓦第四部曲 / §C 訴訟魚丁糸 / §D 國際巡演+媒體）aggregate 86 query / 12 primary sources / 18 Ctrl-F ✓ verbatim / research-report-health depth tier hard=0 PASS
+- **Pipeline gates**: rewrite-stage-3-5 hard=0 PASS / rewrite-stage-4 hard=0 PASS / 對位句型 = 3（≤ 3 threshold）/ 破折號 = 71 / 12.8k 字 = 8.3/1500 字（≤ 15）
+- **核心 falsification（9 條 INBOX hypothesis 全錯）**:
+  1. 1999 成軍 → 正確 **2001-04**
+  2. 「政大社團 / 廣電」 → **報名第 18 屆政大金旋獎組起來**（吳青峰中文 / 馨儀企管 / 小威社會 / 新哥吉他），2003-03 三人加入確立 6 人
+  3. 原始 6 人 line-up → **創團 4 人**，中間吉他手換 3 次（彥廷/小為/宏儒）
+  4. 「綠」是高中歌詞 → **青峰最愛的顏色 + 史俊威提「蘇打」**
+  5. 「四季三部曲」 → **四部曲 / 4 張專輯**（春 2009 / 夏 2009 / 秋 2013 / 冬 2015）
+  6. 《冬未了》2014 → **2015-11-04**
+  7. 《太空人》2018 → **2019-09-06**
+  8. 2007 馬來西亞首場海外 → **新加坡共和理工學院 2007-08-11**
+  9. 2009 北京工人體育場 → **工人體育館**（13K 室內，差 5 倍量級）
+  10. 2017 倫敦 Royal Albert Hall「亞洲樂團首組」→ **完全 fabricated**，蘇打綠從未在 RAH 演出（2017 已休團）
+  11. 2017《十年一刻》巡演 → 「十年一刻」是 2014 出道 10 週年演唱會；2017 最後場是「**樂計畫**」與 NSO 合作
+- **既有 article verbatim 修正**: 「我一直把他當父親」→「**我曾經視為父親的人**」（自由時報 3484046）/「我沒有一絲愧歉」→ 4000 字聲明開頭 verbatim「**我於理、於情都毫無虧欠**」（CTWANT 116751）
+- **Cross-link**: 台灣獨立音樂.md 補 reverse cross-link / 其他 4 篇 siblings（台灣音樂祭文化 / 五月天 / 流行音樂與金曲獎 / 張懸與安溥）DEFER 等獨立 EVOLVE（Step 5.3 sibling 格式預檢 warn level）
+- **核心矛盾**: 政大金旋獎組起來的四個人，唱完韋瓦第四部曲、走完三千萬製作，二十年後才回頭奪回自己的名字
+- **Title**: 「蘇打綠：他們花了二十年才知道，自己的名字也要打官司」（既有 stub「主權奪還戰」抽象套話 → 具體場景 + 留白 + 報導者腔）
+- **Commit**: `73443b2a4`
+- **時間 cost**: routine twmd-rewrite-daily ~120 min wall-clock（BECOME ~5 + Stage 0-1 research orchestration ~25 + 4 agents parallel ~10 / Stage 2 fresh Opus writer ~17 + Stage 3-5 gates + media fetch ~25 + commit + push ~10 + cleanup）— SPORE chain DEFER 至次日 10:00 twmd-spore-publish-daily routine（per boundary rule）
+
 ### 用數據看台灣 22 縣市 NEW — 2026-06-06 manual（哲宇 directive「寫一篇真實的文章驗證視覺化系統 / twmd-rewrite 從 inbox 挑」— Geography 純數據 panorama / Fresh / viz 系統 v1.0 真實驗證文）
 
 - **Article**: [knowledge/Geography/用數據看台灣22縣市.md](../../knowledge/Geography/用數據看台灣22縣市.md) — NEW Fresh，純數據新聞 panorama → **4,638 CJK / 5 footnote / 6 場景式 H2 / 3 圖（NASA 衛星 hero + 台北天際線 + 池上伯朗大道）+ 8 個 tw-\* 視覺模組**
