@@ -220,7 +220,7 @@ BECOME_TAIWANMD.md Step 5 新增：
 - **Status**: in-progress（batch 進行中）
 - **Type**: audit / EVOLVE batch
 - **範圍**：3/19 早期批次 + 歸屬密集主題（音樂的「作曲家↔作品」、運動的「球員↔球隊／賽事」、文學的「作者↔著作」、樂團的「成員↔樂團」）優先重查；每篇對每個歸屬「查 attribution 不只查 fact」(RESEARCH.md §張冠李戴 self-apply)。
-- **進度**：✅ 李宗盛（2026-06-05 loop /twmd-rewrite，1185→4588 CJK）— batch 首篇。falsification 抓大量 attribution 誤植：滾滾紅塵=羅大佑 / 愛上一個不回家的人=飛碟陳志遠 / 味道(歌)=姚謙黃國倫 / 分手快樂=姚若龍 / 花心=喜納昌吉 / 我很醜=夏宇黃韻玲 / 讓我歡喜讓我憂=CHAGE&ASKA(李只填詞) / Music Factory=羅大佑廠牌；另修滾石 1984/出生北投/有歌之年 2019。新增「那些其實不是他寫的歌」段把 audit 變讀者價值。SSOT: reports/research/2026-06/李宗盛.md。下批候選（3/19 Music/People 歸屬密集）：羅大佑 / 伍佰 / 張惠妹 / 林俊傑 / 蕭青陽 等。
+- **進度**：✅ 李宗盛（2026-06-05 loop /twmd-rewrite，1185→4588 CJK）— batch 首篇。falsification 抓大量 attribution 誤植：滾滾紅塵=羅大佑 / 愛上一個不回家的人=飛碟陳志遠 / 味道(歌)=姚謙黃國倫 / 分手快樂=姚若龍 / 花心=喜納昌吉 / 我很醜=夏宇黃韻玲 / 讓我歡喜讓我憂=CHAGE&ASKA(李只填詞) / Music Factory=羅大佑廠牌；另修滾石 1984/出生北投/有歌之年 2019。新增「那些其實不是他寫的歌」段把 audit 變讀者價值。SSOT: reports/research/2026-06/李宗盛.md。✅ 台灣嘻哈與饒舌發展（2026-06-09 /twmd-rewrite，~5k→8577 CJK / 137 搜尋 SSOT `5de488e73`）— batch 第二篇，重災區同樣成立：修 12 處 attribution 幻覺（MACHI 假成員小龜/Benz/Kid 全杜撰、國蛋《幹大事》實為頑童、春艷《豔遇》獎不存在、《大嘻哈時代2》2023 非 2022、派克特陸籍非台灣、Leo王《小丑》查無、金曲無嘻哈獎）。worked example 確認 **「樂團成員↔樂團 / 歌手↔獎項屆次」是 3/19 批最高風險維度**，下批同類優先。SSOT: reports/research/2026-06/台灣嘻哈與饒舌發展.md。下批候選（3/19 Music/People 歸屬密集）：羅大佑 / 伍佰 / 張惠妹 / 林俊傑 / 蕭青陽 / 五月天 / 蘇打綠（樂團成員↔樂團 高風險）等。
 - **下一步**：先 `grep -l "date: 2026-03-19" knowledge/**/*.md` 列早期批次 → 挑歸屬密集者（Music / Sports / People）排重查順序 → 走 REWRITE-PIPELINE Evolution。
 
 ### 📷 SPORE-INBOX 候選圖片補強 batch — 5 articles missing hero + scene-mid (2026-05-27 spore-publish-daily gate fail)
