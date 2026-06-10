@@ -79,9 +79,13 @@ Python 主體從 .sh heredoc 抽成 [verify_internal_links.py](../scripts/tools/
 
 repo 內 `getCollection(` 出現次數 = 0（文章走 fs 直讀），cache 實測 4.5KB — restore/save 兩步是死重，移除。
 
+### 4.7 隨機探索按鈕改 lazy fetch（dist 預期 -250MB / 讀者每頁 -50KB）
+
+article.template 原本把整語言文章清單（~50KB）`define:vars` 內嵌進每一頁。改為 build-latest.mjs 產 per-lang `public/api/random-index-{lang}.json`（30-45KB，gitignored）+ 按鈕 hover 預熱 / click lazy fetch，inline script 從 ~50KB → 1,020 bytes。Preview 實測：blob 歸零、zh 頁跳轉 cross-category 正常、en 頁跳轉**順手修掉 latent bug**（原本 `'/' + category + '/' + slug` 沒帶 lang prefix，譯文頁隨機跳轉一直是壞的；pool href 在生成端就含前綴）。
+
 ## 5. 建議（未 ship，按 ROI 排序）
 
-1. **拔掉每篇文章頁內嵌的 50KB `allArticles` JSON**（article.template.astro:1425 `define:vars`）—「隨機探索」按鈕把整語言文章清單序列化進每一頁：dist ~250MB 純重複、artifact upload 52s 與 link-scan 連動變慢、讀者每頁多載 50KB。改 fetch 共用 JSON endpoint（latest.json pattern 現成）。已開 spawn chip 待接。
+1. ~~拔掉每篇文章頁內嵌的 50KB `allArticles` JSON~~ → **同日 ship（§4.7）**：哲宇 directive「直接做」。
 2. **per-page render profile**（`node --cpu-prof` 跑一次 build）— 文章頁 554ms vs raw 端點 46ms，~508ms 在 component tree 本身；不 profile 就動手是瞎槍。長期天花板在這。
 3. **OG cache 條件 save**：目前每 run 必存 186MB cache（~15 run/天 ≈ 2.8GB/天 churn，會把別的 cache 從 10GB quota 擠掉）。改「OG step 真的有產圖才 save」。
 4. **node_modules 整包 cache**（key=lock hash）：npm ci 18s → ~8s。

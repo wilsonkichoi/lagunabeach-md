@@ -169,16 +169,17 @@ try {
   );
 } catch {}
 
-// ── Random explore list ──────────────────────────────────────────────────────
-let allArticles: Array<{ title: string; slug: string; category: string }> = [];
+// ── Random explore ───────────────────────────────────────────────────────────
+// 2026-06-10 build audit §5.1: 原本把整語言文章清單 define:vars 內嵌進每一頁
+// （~50KB × 4,895 頁 ≈ dist +250MB）。改為按鈕 click 時 lazy fetch per-lang
+// 共用 pool（build-latest.mjs 產 /api/random-index-{lang}.json），frontmatter
+// 只留「有沒有得跳」的布林。pool href 自帶 lang prefix（順手修譯文頁隨機
+// 跳轉漏 /en 前綴的 latent bug）。
+let hasRandomPool = false;
 try {
-  const all = await getAllArticles(lang, category as string);
-  allArticles = all.map((a) => ({
-    title: a.title,
-    slug: a.slug,
-    category: a.category,
-  }));
+  hasRandomPool = (await getAllArticles(lang, category as string)).length > 0;
 } catch {}
+const randomIndexUrl = `/api/random-index-${lang}.json`;
 
 // ── Other categories (for "Explore more") ────────────────────────────────────
 const otherCategories = categories
@@ -1281,7 +1282,7 @@ const encodedTitle = encodeURIComponent(title);
 
     <!-- ── Random explore ────────────────────────────────────────── -->
     {
-      allArticles.length > 0 && (
+      hasRandomPool && (
         <div class="flex justify-center bg-[#f8f1e9] px-8 py-10">
           <button
             class="inline-flex cursor-pointer items-center gap-[0.6rem] rounded-full border-[1.5px] border-[rgba(26,60,52,0.2)] bg-white px-7 py-3 font-['Inter',system-ui,sans-serif] text-[0.88rem] font-medium text-[#1a3c34] transition-all duration-200 hover:border-[#1a3c34] hover:bg-[#1a3c34] hover:text-[#f8f1e9]"
@@ -1422,12 +1423,31 @@ const encodedTitle = encodeURIComponent(title);
   }
 </script>
 
-<script define:vars={{ allArticles }}>
+<script define:vars={{ randomIndexUrl, category }}>
   const btn = document.getElementById('randomBtn');
-  if (btn && allArticles?.length) {
-    btn.addEventListener('click', () => {
-      const pick = allArticles[Math.floor(Math.random() * allArticles.length)];
-      window.location.href = '/' + pick.category + '/' + pick.slug;
+  if (btn) {
+    let poolPromise = null;
+    const loadPool = () => {
+      poolPromise ??= fetch(randomIndexUrl)
+        .then((r) => (r.ok ? r.json() : null))
+        .then((data) => {
+          if (!data?.byCat) return [];
+          // 維持原行為：隨機池排除當前分類
+          return Object.entries(data.byCat)
+            .filter(([cat]) => cat !== category)
+            .flatMap(([, hrefs]) => hrefs);
+        })
+        .catch(() => []);
+      return poolPromise;
+    };
+    // hover/touch 預熱，click 時通常已就緒
+    btn.addEventListener('mouseenter', loadPool, { once: true });
+    btn.addEventListener('touchstart', loadPool, { once: true, passive: true });
+    btn.addEventListener('click', async () => {
+      const pool = await loadPool();
+      if (pool.length) {
+        window.location.href = pool[Math.floor(Math.random() * pool.length)];
+      }
     });
   }
 </script>

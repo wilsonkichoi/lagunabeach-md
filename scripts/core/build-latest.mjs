@@ -1,11 +1,18 @@
 /**
  * build-latest.mjs — generate public/api/latest.json (時序主軸 client data)
+ * + public/api/random-index-{lang}.json (隨機探索 per-lang href pool)
  *
  * Why: the article-page "站上最新" rail is rendered CLIENT-SIDE (so the static
  * HTML of every article page never changes when a new article ships — avoids
  * crawl churn + the lastmod=now freshness anti-pattern killed in c1403e259).
  * The client can't read src/data/content-dates.json (not under public/), so we
  * emit a small per-language latest list here.
+ *
+ * random-index (2026-06-10 build audit §5.1): article.template 原本把整語言
+ * 文章清單（~50KB）define:vars 內嵌進每一頁只為了「隨機探索」按鈕 — 4,895 頁
+ * × 50KB ≈ dist 多 250MB。改為 per-lang 共用 JSON（{category: [href...]}），
+ * 按鈕 click 時才 lazy fetch。順手修 latent bug：譯文頁隨機跳轉原本沒帶
+ * lang prefix（href 在這裡就含前綴）。
  *
  * Source of truth: knowledge/ frontmatter (title/description/readingTime) joined
  * with src/data/content-dates.json (git last-content-change time → accurate
@@ -64,9 +71,12 @@ async function main() {
     // content-dates not built yet — emit empty buckets, never break the build
   }
 
+  await mkdir(resolve(ROOT, 'public/api'), { recursive: true });
+
   const byLang = {};
   for (const lang of LANGS) {
     const items = [];
+    const randomPool = {}; // category → [href...] (all articles, no date filter)
     for (const [catSlug, folder] of Object.entries(CATEGORIES)) {
       const dir =
         lang === 'zh-TW'
@@ -81,6 +91,7 @@ async function main() {
       for (const f of files) {
         if (!f.endsWith('.md') || f.startsWith('_')) continue;
         const slug = basename(f, '.md');
+        (randomPool[catSlug] ??= []).push(href(lang, catSlug, slug));
         const date = dates[urlKey(lang, catSlug, slug)];
         if (!date) continue; // no git date → skip (matches getLatestArticles)
         let fm = {};
@@ -101,6 +112,12 @@ async function main() {
     }
     items.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
     byLang[lang] = items.slice(0, PER_LANG);
+
+    // 隨機探索 per-lang pool（gitignored，prebuild 重生）
+    await writeFile(
+      resolve(ROOT, `public/api/random-index-${lang}.json`),
+      JSON.stringify({ byCat: randomPool }),
+    );
   }
 
   const out = {
@@ -108,7 +125,6 @@ async function main() {
     perLang: PER_LANG,
     byLang,
   };
-  await mkdir(resolve(ROOT, 'public/api'), { recursive: true });
   await writeFile(resolve(ROOT, 'public/api/latest.json'), JSON.stringify(out));
   const total = Object.values(byLang).reduce((s, a) => s + a.length, 0);
   console.log(
