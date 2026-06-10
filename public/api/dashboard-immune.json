@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-06-10T06:21:36.267720",
+  "lastUpdated": "2026-06-10T12:02:41.975956",
   "schemaVersion": "v2-2026-05-16",
   "featureFlag": "IMMUNE_V2",
-  "immuneScore": 60,
+  "immuneScore": 61,
   "status": "需關注 — T1 review < 80% OR plugin pass < 90%",
   "components": {
     "review_coverage": 27.7,
     "plugin_pass_rate": 70.0,
-    "plugin_health": 56.5,
+    "plugin_health": 58.3,
     "citation_density": 90.4,
     "tool_freshness": 80,
     "drift_velocity": 90.0
@@ -60,8 +60,8 @@
   },
   "freshnessDetail": {
     "editorial_days_old": 3,
-    "avg_plugin_days_old": 23.3,
-    "plugin_count": 23,
+    "avg_plugin_days_old": 22.4,
+    "plugin_count": 24,
     "source": "git log %ai (not fs mtime — worktree-safe)"
   },
   "driftDetail": {
@@ -70,8 +70,8 @@
     "note": "v1 heuristic — longitudinal tracking pending (B-line meta-health)"
   },
   "pluginHealthDetail": {
-    "plugin_count": 23,
-    "fresh_count": 13,
+    "plugin_count": 24,
+    "fresh_count": 14,
     "drifted_count": 10,
     "editorial_age_days": 3,
     "drift_thresholds": {
@@ -157,6 +157,11 @@
       {
         "plugin": "prose_health",
         "plugin_age_days": 3,
+        "drifted": false
+      },
+      {
+        "plugin": "quote_fidelity",
+        "plugin_age_days": 0,
         "drifted": false
       },
       {

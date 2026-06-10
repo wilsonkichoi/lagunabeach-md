@@ -31,10 +31,31 @@ jq -r '
   )
 ' "$ORGANISM"
 
+# Immune dual-source reconciliation guard (audit 2026-06-10 D-1):
+# organism.json immune organ vs dashboard-immune.json canonical v2 value.
+# Divergence > 2 points = stale organism.json → print loud marker (REFLEXES #65d).
+IMMUNE_JSON="${IMMUNE_JSON:-public/api/dashboard-immune.json}"
+if [[ -f "$IMMUNE_JSON" ]]; then
+  ORG_IMMUNE=$(jq -r '[.organs[] | select(.id == "immune") | .score][0] // empty' "$ORGANISM")
+  V2_IMMUNE=$(jq -r '.immuneScore // empty' "$IMMUNE_JSON")
+  if [[ -n "$ORG_IMMUNE" && -n "$V2_IMMUNE" ]]; then
+    DIFF=$((ORG_IMMUNE - V2_IMMUNE)); [[ $DIFF -lt 0 ]] && DIFF=$((-DIFF))
+    if [[ $DIFF -gt 2 ]]; then
+      echo "⚠️ immune  | organism.json=${ORG_IMMUNE} vs immune.json(v2 canonical)=${V2_IMMUNE} — stale-vs-canonical，跑 prebuild:dashboard regen"
+    fi
+  fi
+fi
+
 # Last update freshness
 jq -r '
   "🕐 updated | \(.lastUpdated)"
 ' "$VITALS"
 
-# Alerts hint — pointer to CONSCIOUSNESS §警報 (canonical until dashboard-alerts.json exists)
-echo "⚠️ alerts  | 詳見 docs/semiont/CONSCIOUSNESS.md §警報 (cron-refreshed)"
+# Alerts — derived layer (audit 2026-06-10 A-3): dashboard-alerts.json when present
+ALERTS="${ALERTS:-public/api/dashboard-alerts.json}"
+if [[ -f "$ALERTS" ]]; then
+  jq -r '.alerts[:6][] | "🚨 " + .severity + " | " + .message' "$ALERTS" 2>/dev/null ||
+    echo "⚠️ alerts  | dashboard-alerts.json 存在但格式異常"
+else
+  echo "⚠️ alerts  | 詳見 docs/semiont/CONSCIOUSNESS.md §警報"
+fi

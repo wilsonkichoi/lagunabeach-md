@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T22:21:57.717Z",
+  "lastUpdated": "2026-06-10T04:04:00.344Z",
   "organs": [
     {
       "id": "heart",
@@ -10,7 +10,7 @@
       "score": 90,
       "trend": "up",
       "metrics": {
-        "articlesLast7Days": 49,
+        "articlesLast7Days": 46,
         "articlesLast30Days": 175,
         "totalArticles": 782
       }
@@ -21,13 +21,22 @@
       "nameZh": "免疫系統",
       "metaphor": "品質防禦",
       "emoji": "🛡️",
-      "score": 27,
-      "trend": "stable",
-      "version": "v1",
+      "score": 61,
+      "trend": "up",
+      "version": "v2-2026-05-16",
       "metrics": {
         "humanReviewedCount": 209,
         "totalArticles": 782,
-        "humanReviewedPercent": 26.7
+        "humanReviewedPercent": 26.7,
+        "v2Status": "需關注 — T1 review < 80% OR plugin pass < 90%",
+        "v2Components": {
+          "review_coverage": 27.7,
+          "plugin_pass_rate": 70,
+          "plugin_health": 58.3,
+          "citation_density": 90.4,
+          "tool_freshness": 80,
+          "drift_velocity": 90
+        }
       }
     },
     {
@@ -107,8 +116,8 @@
           "en": 802,
           "ja": 792,
           "ko": 787,
-          "es": 784,
-          "fr": 799
+          "es": 785,
+          "fr": 805
         },
         "translationPct": 93,
         "langHealthDetails": {
@@ -187,7 +196,7 @@
               "pct": 100
             },
             "articles": {
-              "count": 784,
+              "count": 785,
               "pct": 100
             },
             "score": 100
@@ -207,8 +216,8 @@
               "pct": 25
             },
             "articles": {
-              "count": 799,
-              "pct": 102
+              "count": 805,
+              "pct": 103
             },
             "score": 86
           }

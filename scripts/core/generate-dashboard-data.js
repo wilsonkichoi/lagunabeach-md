@@ -860,10 +860,12 @@ async function main() {
   const heartTrend =
     articlesLast7Days > 5 ? 'up' : articlesLast7Days > 2 ? 'stable' : 'down';
 
-  // Immune: lastHumanReview percentage (V1 formula).
-  // Feature flag IMMUNE_V2 (env): if set + dashboard-immune.json exists,
-  // override with V2 score (6-dim weighted, per
-  // reports/immune-score-redesign-2026-05-16.md §2.A).
+  // Immune: V2 score (6-dim weighted, per
+  // reports/immune-score-redesign-2026-05-16.md §2.A) is the default since
+  // 2026-06-10 (audit D-1 reconciliation): organism.json had been stuck at the
+  // V1 human-review% formula for 8+ cycles while dashboard-immune.json carried
+  // the canonical V2 value. Set IMMUNE_V1=1 to force the legacy formula.
+  // V1 formula stays as fallback when dashboard-immune.json is absent/invalid.
   let immuneScore =
     articles.length > 0
       ? Math.round((humanReviewedCount / articles.length) * 100)
@@ -872,7 +874,7 @@ async function main() {
   let immuneStatus = null;
   let immuneComponents = null;
 
-  if (process.env.IMMUNE_V2) {
+  if (!process.env.IMMUNE_V1) {
     const immunePath = path.join(OUTPUT_DIR, 'dashboard-immune.json');
     if (fs.existsSync(immunePath)) {
       try {
@@ -885,12 +887,12 @@ async function main() {
         }
       } catch (e) {
         console.error(
-          `⚠️  IMMUNE_V2 enabled but dashboard-immune.json invalid: ${e.message}`,
+          `⚠️  dashboard-immune.json invalid, falling back to V1 formula: ${e.message}`,
         );
       }
     } else {
       console.error(
-        '⚠️  IMMUNE_V2 enabled but dashboard-immune.json missing. Run scripts/core/generate-dashboard-immune.py first.',
+        '⚠️  dashboard-immune.json missing, falling back to V1 formula. Run scripts/core/generate-dashboard-immune.py first.',
       );
     }
   }
