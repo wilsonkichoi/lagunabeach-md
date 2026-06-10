@@ -23,6 +23,9 @@ export interface ArticleSummary {
   description: string;
   image: string;
   category: string; // category slug (lowercase)
+  readingTime?: number; // frontmatter readingTime (分鐘)
+  tags?: string[]; // frontmatter tags
+  footnotes?: number; // count of [^n]: footnote definitions (引用深度訊號)
 }
 
 const CATEGORY_MAPPING: Record<string, string> = {
@@ -76,12 +79,19 @@ async function buildIndex(
         try {
           const fileContent = await readFile(filePath, 'utf-8');
           const { data: fm } = safeMatter(fileContent);
+          // Footnote definitions ([^n]:) — citation-depth signal, same count
+          // explore.template uses for its featured deep-dive cards.
+          const footnotes = (fileContent.match(/^\[\^\d+\]:/gm) || []).length;
           articles.push({
             title: fm.title || articleSlug,
             slug: articleSlug,
             description: fm.description || '',
             image: fm.image || '',
             category: catSlug,
+            readingTime:
+              typeof fm.readingTime === 'number' ? fm.readingTime : undefined,
+            tags: Array.isArray(fm.tags) ? fm.tags : undefined,
+            footnotes,
           });
         } catch {
           // unreadable file — skip silently
@@ -202,7 +212,9 @@ export async function getLatestArticles(
     if (!date) continue;
     out.push({ ...a, date });
   }
-  // ISO timestamps sort lexicographically; newest first.
-  out.sort((x, y) => (x.date < y.date ? 1 : x.date > y.date ? -1 : 0));
+  // Newest first by epoch — robust even if content-dates mixes timezone
+  // formats (lexicographic compare breaks on Z vs +08:00). Stable sort keeps
+  // same-second batch entries in index order.
+  out.sort((x, y) => Date.parse(y.date) - Date.parse(x.date));
   return out.slice(0, limit);
 }

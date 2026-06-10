@@ -5,7 +5,8 @@
  * 跨站共用的「文章卡」元件，三種 density mode：
  * - `premium` (~RelatedArticleCard 替代品) — cover image + category badge + title + desc + CTA arrow
  * - `compact` (default) — 緊湊 sidebar list 用：dot + title + 1-2 line desc + meta
- * - `row`              — ultra-compact 一行：只 dot + title + small meta
+ * - `row`              — 極簡單列：分類 pill + serif 標題 + 1 行描述 + 右側日期（borderless）
+ * - `detailed`         — 時序列（/latest）卡片：框 + pill + 更新日 + serif 標題 + 完整描述 + tags + 引用/閱讀時間 footer
  *
  * 設計目標：
  * 1. Astro 靜態 render 用（其他頁面文章列表）
@@ -18,7 +19,9 @@
  * - `.article-card-title`        — h4 title
  * - `.article-card-desc`         — p description
  * - `.article-card-meta`         — small meta line
- * - `.article-card-dot`          — category color dot
+ * - `.article-card-dot`          — category color dot (compact)
+ * - `.article-card-pill`         — row variant category pill (icon + label)
+ * - `.article-card-date`         — row variant right-aligned date
  * - `.article-card-cta`          — "閱讀全文 →" link text
  * - `.article-card.is-premium`   — premium variant
  * - `.article-card.is-compact`   — compact variant (default)
@@ -38,18 +41,30 @@ export interface Props {
   description?: string;
   /** 分類標籤（顯示在 meta 區）*/
   categoryLabel?: string;
-  /** 分類顏色（用在左側 dot 或 premium badge 背景）*/
+  /** 分類顏色（用在左側 dot / premium badge 背景 / row pill 文字）*/
   categoryColor?: string;
-  /** 閱讀時間（meta 的 · 後面）*/
+  /** 分類 emoji icon（row variant 的 pill 前綴）*/
+  categoryIcon?: string;
+  /** 顯示用日期字串（row / detailed variant 的更新日；呼叫端先格式化好）*/
+  date?: string;
+  /** 閱讀時間顯示字串（compact meta / detailed footer；含單位，e.g. "12 分鐘"）*/
   readingTime?: string;
-  /** 封面圖 URL（premium mode 才用）*/
+  /** 引用（腳註）數 — detailed footer 的深度訊號；0 不顯示 */
+  footnotes?: number;
+  /** 標籤 — detailed footer 顯示前幾個 #tag */
+  tags?: string[];
+  /** 封面圖 URL（premium hero / detailed 右側縮圖）*/
   coverImage?: string;
+  /** 縮圖載入策略（detailed）— 首屏 eager、其餘 lazy 防流量爆炸 */
+  imageLoading?: 'eager' | 'lazy';
   /** 卡片密度 */
-  density?: 'premium' | 'compact' | 'row';
+  density?: 'premium' | 'compact' | 'row' | 'detailed';
   /** Click 行為：'new-tab' 預設另開分頁 / 'same-tab' 同分頁 */
   openIn?: 'new-tab' | 'same-tab';
-  /** 額外 class（給特定 mode 客製化用，e.g. route-stop-card）*/
+  /** 額外 class（給特定 mode 客製化用，e.g. route-stop-card / latest-row）*/
   extraClass?: string;
+  /** 透傳到根元素的 data-* 屬性（filter / GA 等 consumer 機制留在呼叫端）*/
+  dataAttrs?: Record<string, string | undefined>;
 }
 
 const {
@@ -58,11 +73,17 @@ const {
   description,
   categoryLabel,
   categoryColor = '#16a34a',
+  categoryIcon,
+  date,
   readingTime,
+  footnotes,
+  tags,
   coverImage,
+  imageLoading = 'lazy',
   density = 'compact',
   openIn = 'new-tab',
   extraClass = '',
+  dataAttrs = {},
 } = Astro.props;
 
 const target = openIn === 'new-tab' ? '_blank' : '_self';
@@ -79,6 +100,7 @@ const classes = ['article-card', densityClass, extraClass]
   href={href}
   target={href ? target : undefined}
   rel={rel}
+  {...dataAttrs}
 >
   {
     density === 'premium' && coverImage && (
@@ -90,7 +112,7 @@ const classes = ['article-card', densityClass, extraClass]
     )
   }
   {
-    density !== 'premium' && categoryColor && (
+    density === 'compact' && categoryColor && (
       <span
         class="article-card-dot"
         style={`background: ${categoryColor};`}
@@ -98,8 +120,35 @@ const classes = ['article-card', densityClass, extraClass]
       />
     )
   }
+  {
+    density === 'row' && categoryLabel && (
+      <span
+        class="article-card-pill"
+        style={`color: ${categoryColor}; background: ${categoryColor}1f;`}
+      >
+        {categoryIcon ? `${categoryIcon} ${categoryLabel}` : categoryLabel}
+      </span>
+    )
+  }
 
   <div class="article-card-body">
+    {
+      density === 'detailed' && (categoryLabel || date) && (
+        <div class="article-card-toprow">
+          {categoryLabel && (
+            <span
+              class="article-card-pill"
+              style={`color: ${categoryColor}; background: ${categoryColor}1f;`}
+            >
+              {categoryIcon
+                ? `${categoryIcon} ${categoryLabel}`
+                : categoryLabel}
+            </span>
+          )}
+          {date && <span class="article-card-updated">{date}</span>}
+        </div>
+      )
+    }
     {
       density === 'premium' && categoryLabel && (
         <span
@@ -116,7 +165,7 @@ const classes = ['article-card', densityClass, extraClass]
     {description && <p class="article-card-desc">{description}</p>}
 
     {
-      (categoryLabel || readingTime) && density !== 'premium' && (
+      (categoryLabel || readingTime) && density === 'compact' && (
         <span class="article-card-meta">
           {categoryLabel}
           {categoryLabel && readingTime && ' · '}
@@ -132,7 +181,87 @@ const classes = ['article-card', densityClass, extraClass]
         </span>
       )
     }
+
+    {
+      density === 'detailed' &&
+        ((tags && tags.length > 0) || !!footnotes || !!readingTime) && (
+          <div class="article-card-foot">
+            {tags && tags.length > 0 && (
+              <span class="article-card-tags">
+                {tags.slice(0, 3).map((tg) => (
+                  <span class="article-card-tag">#{tg}</span>
+                ))}
+              </span>
+            )}
+            {(!!footnotes || !!readingTime) && (
+              <span class="article-card-stats">
+                {!!footnotes && (
+                  <span class="article-card-stat" title="引用">
+                    <svg
+                      width="13"
+                      height="13"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                      <polyline points="14 2 14 8 20 8" />
+                    </svg>
+                    {footnotes}
+                  </span>
+                )}
+                {!!readingTime && (
+                  <span class="article-card-stat">
+                    <svg
+                      width="13"
+                      height="13"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <circle cx="12" cy="12" r="10" />
+                      <polyline points="12 6 12 12 16 14" />
+                    </svg>
+                    {readingTime}
+                  </span>
+                )}
+              </span>
+            )}
+          </div>
+        )
+    }
   </div>
+
+  {density === 'row' && date && <span class="article-card-date">{date}</span>}
+
+  {
+    density === 'detailed' &&
+      (coverImage ? (
+        <span class="article-card-thumbwrap">
+          <img
+            class="article-card-thumb"
+            src={coverImage}
+            alt=""
+            loading={imageLoading}
+            decoding="async"
+          />
+        </span>
+      ) : (
+        <span
+          class="article-card-thumbwrap article-card-thumb-ph"
+          style={`background: ${categoryColor}14;`}
+          aria-hidden="true"
+        >
+          {categoryIcon}
+        </span>
+      ))
+  }
 </Tag>
 
 <style is:global>
@@ -250,21 +379,196 @@ const classes = ['article-card', densityClass, extraClass]
     margin-bottom: 6px;
   }
 
-  /* === Row variant — ultra-compact === */
+  /* === Row variant — 時序列 (/latest)：pill + serif title + 1-line desc + date === */
   .article-card.is-row {
-    padding: 8px 12px;
-    gap: 8px;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px;
+    margin: 0;
+    border-color: transparent;
+    background: transparent;
+    border-radius: 8px;
+  }
+  .article-card.is-row:hover {
+    border-color: #e2e8f0;
+    background: #f8fafc;
+    transform: none;
+    box-shadow: none;
+  }
+  .article-card.is-row .article-card-pill {
+    flex-shrink: 0;
+    margin-top: 0.15rem;
+    display: inline-flex;
     align-items: center;
+    border-radius: 9999px;
+    padding: 0.18rem 0.55rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    line-height: 1.3;
+    white-space: nowrap;
+  }
+  .article-card.is-row .article-card-body {
+    gap: 2px;
   }
   .article-card.is-row .article-card-title {
-    font-size: 0.85rem;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.02rem;
+    font-weight: 600;
+    color: #1a3c34;
+    line-height: 1.45;
     -webkit-line-clamp: 1;
+    transition: color 0.16s;
+  }
+  .article-card.is-row:hover .article-card-title {
+    color: #065f46;
   }
   .article-card.is-row .article-card-desc {
-    display: none;
+    font-size: 0.82rem;
+    color: #94a3b8;
+    line-height: 1.5;
+    -webkit-line-clamp: 1;
+    margin-top: 0.1rem;
   }
-  .article-card.is-row .article-card-meta {
-    font-size: 0.68rem;
+  .article-card.is-row .article-card-date {
+    flex-shrink: 0;
+    margin-top: 0.2rem;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.78rem;
+    color: #94a3b8;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* === Detailed variant — 時序列 (/latest) 卡片：框 + pill + serif 標題 + 完整描述 + tags + 引用/閱讀 footer + 右側 16:10 縮圖 ===
+   * 縮圖固定比例（200×125 / 手機 96×96）貼齊頂部，不隨卡片高度直伸 —
+   * 無圖時 render 分類色 placeholder（icon + 淡分類底色），版面節奏一致；
+   * 補圖後自動換成真圖。 */
+  .article-card.is-detailed {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px 18px;
+    margin: 0;
+    border-radius: 14px;
+  }
+  .article-card.is-detailed .article-card-thumbwrap {
+    width: 200px;
+    height: 125px;
+    flex-shrink: 0;
+    align-self: center;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid rgba(15, 23, 42, 0.06);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8fafc;
+  }
+  .article-card.is-detailed .article-card-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  .article-card.is-detailed:hover .article-card-thumb {
+    transform: scale(1.04);
+  }
+  .article-card.is-detailed .article-card-thumb-ph {
+    font-size: 30px;
+    opacity: 0.55;
+  }
+  @media (max-width: 768px) {
+    .article-card.is-detailed .article-card-thumbwrap {
+      width: 96px;
+      height: 96px;
+    }
+    .article-card.is-detailed .article-card-thumb-ph {
+      font-size: 24px;
+    }
+  }
+  .article-card.is-detailed .article-card-body {
+    gap: 8px;
+  }
+  .article-card.is-detailed .article-card-toprow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .article-card.is-detailed .article-card-pill {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 9999px;
+    padding: 0.2rem 0.6rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    line-height: 1.3;
+    white-space: nowrap;
+  }
+  .article-card.is-detailed .article-card-updated {
+    flex-shrink: 0;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.76rem;
+    color: #94a3b8;
+    font-variant-numeric: tabular-nums;
+  }
+  .article-card.is-detailed .article-card-title {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.12rem;
+    font-weight: 700;
+    color: #1a3c34;
+    line-height: 1.4;
+    -webkit-line-clamp: 2;
+    transition: color 0.16s;
+  }
+  .article-card.is-detailed:hover .article-card-title {
+    color: #065f46;
+  }
+  .article-card.is-detailed .article-card-desc {
+    font-size: 0.9rem;
+    color: #64748b;
+    line-height: 1.6;
+    display: block; /* 完整描述 — 不截斷 */
+    -webkit-line-clamp: unset;
+    overflow: visible;
+  }
+  .article-card.is-detailed .article-card-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 4px;
+    padding-top: 12px;
+    border-top: 1px solid #f1f5f9;
+  }
+  .article-card.is-detailed .article-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    min-width: 0;
+  }
+  .article-card.is-detailed .article-card-tag {
+    font-size: 0.74rem;
+    font-weight: 500;
+    color: #64748b;
+    white-space: nowrap;
+  }
+  .article-card.is-detailed .article-card-stats {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+  }
+  .article-card.is-detailed .article-card-stat {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.76rem;
+    color: #94a3b8;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .article-card.is-detailed .article-card-stat svg {
+    opacity: 0.8;
   }
 
   /* === Map-page 客製化延伸：route-stop-card === */

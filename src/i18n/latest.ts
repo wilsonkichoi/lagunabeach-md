@@ -23,6 +23,9 @@ export const latestUI = {
     'latest.railViewAll': 'See all latest',
     'latest.exploreSub': 'Recently published',
     'latest.exploreSeeAll': 'See all →',
+    'latest.minRead': 'min',
+    'latest.dayCount': 'articles',
+    'latest.today': 'Today',
   },
   ja: {
     'nav.latest': '最新の記事',
@@ -38,6 +41,9 @@ export const latestUI = {
     'latest.railViewAll': 'すべての最新記事',
     'latest.exploreSub': 'AIと貢献者の最新作',
     'latest.exploreSeeAll': 'すべて見る →',
+    'latest.minRead': '分',
+    'latest.dayCount': '本',
+    'latest.today': '今日',
   },
   ko: {
     'nav.latest': '최신 글',
@@ -53,6 +59,9 @@ export const latestUI = {
     'latest.railViewAll': '모든 최신 글',
     'latest.exploreSub': 'AI와 기여자의 최신작',
     'latest.exploreSeeAll': '전체 보기 →',
+    'latest.minRead': '분',
+    'latest.dayCount': '편',
+    'latest.today': '오늘',
   },
   es: {
     'nav.latest': 'Recientes',
@@ -71,6 +80,9 @@ export const latestUI = {
     'latest.railViewAll': 'Ver todo lo reciente',
     'latest.exploreSub': 'Publicados recientemente',
     'latest.exploreSeeAll': 'Ver todo →',
+    'latest.minRead': 'min',
+    'latest.dayCount': 'artículos',
+    'latest.today': 'Hoy',
   },
   fr: {
     'nav.latest': 'Récents',
@@ -89,6 +101,9 @@ export const latestUI = {
     'latest.railViewAll': 'Voir tous les récents',
     'latest.exploreSub': 'Publiés récemment',
     'latest.exploreSeeAll': 'Voir tout →',
+    'latest.minRead': 'min',
+    'latest.dayCount': 'articles',
+    'latest.today': 'Aujourd’hui',
   },
   'zh-TW': {
     'nav.latest': '最新文章',
@@ -105,5 +120,8 @@ export const latestUI = {
     'latest.railViewAll': '看全部最新文章',
     'latest.exploreSub': 'AI 與貢獻者最近寫好的',
     'latest.exploreSeeAll': '看全部 →',
+    'latest.minRead': '分鐘',
+    'latest.dayCount': '篇',
+    'latest.today': '今天',
   },
 };
