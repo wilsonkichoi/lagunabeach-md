@@ -266,7 +266,7 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 - **原則**：Stage 3 verifier「驗事實對不對」會放過三種 drift：(1) **帶引號的 quote 被 writer 縮寫或改句型**（壞特陳述句被改成反問句、楊舒雅 quote 漏「在音樂中」「才能憤怒」）——引號 = 逐字承諾，驗 quote 要驗到字不只驗到意；(2) **詮釋 gloss 搭著已驗證事實滑過**（寶哥=宋岳庭 是 orchestrator 在 §4 引語庫注入的 gloss，引語本身 Ctrl-F 過了，gloss 沒被當 atom）——致詞代稱（寶哥/阿姐/老師）、「X 就是 Y」同位語都是獨立 atom；(3) **footnote-claim 綁定錯位**（Manchuker 比喻掛中央社、NBA 掛 en.wiki、Leo王 keep real 掛參劈文——事實對但腳註不含該事實）——要驗「這個腳註真的支撐這句」。另 +1：writer 會在 SSOT 正確時自行漂移原子（第15屆「五月」寫成「六月」、「末期發行」寫成「最後一張」、「曾獲報導」寫成「唯一」）。
 - **觸發**：2026-06-09/10 老莫（參劈/報導者作者）指正「寶哥指的是 MV 導演黃信佳非宋岳庭」→ 查證屬實（聯合報訃聞：大寶導黃信佳 1974–2011，導過蛋堡/大支/參劈/〈我愛台妹〉MV）→ 哲宇 directive 全文原子重驗 → 4 verifier fan-out 再抓 3 ❌ + 11 ⚠️（含 She Vibes 2026-06-14 我自己 SSOT 誤記 2025）。哲宇並提供金曲 GMA 官方臉書逐字（「**以及**在天上的寶哥」vs 媒體轉述「獻給」）——連已 Ctrl-F 驗證的媒體引語都有轉述漂移，**找得到官方一手就以官方為錨**。完整 14 條修正：reports/research/2026-06/台灣嘻哈與饒舌發展.md §9 Round 2。
-- **可能層級**：操作規則（FACTCHECK-PIPELINE atom 類型補三條：quote-verbatim 含句型 / 詮釋 gloss / footnote-claim binding）+ 儀器化候選（verifier prompt 模板加「引號內逐字 diff」+「每個 [^n] 反查該來源是否含該 claim」兩個顯式步驟）
+- **可能層級**：操作規則（FACTCHECK-PIPELINE atom 類型補三條：quote-verbatim 含句型 / 詮釋 gloss / footnote-claim binding）。**儀器化已 ship（2026-06-10 同日）**：`quote-fidelity` plugin（QF1 引語逐字比對 researchReport / QF2 superlative 清單）進 rewrite-stage-3-5 soft-launch WARN + REWRITE v7.0 Step 3.6 成品總驗三關 canonical；殘餘人工項：詮釋 gloss 與 footnote 綁定（語意層）留 verifier fan-out
 - **verification_count**: 1（單 session 14 處修正 = 高密度 instance）
 - **severity**: structural（影響所有 depth 文的 Stage 3 驗證設計）
 - **跨檔關聯**：REFLEXES #31（sub-agent claim 是線索）+ 本日「orchestrator 蒸餾 = 越權」entry（gloss 注入是同根第二例）+ MANIFESTO §10 幻覺鐵律 + feedback_absolute_facts_extra_caution

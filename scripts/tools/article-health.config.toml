@@ -66,10 +66,13 @@ checks = ["prose-health"]
 fail_on = "score-budget"
 
 [profiles."rewrite-stage-3-5"]
-# Stage 3.5 FactCheck — citation health + 校正焦慮掃描 (v6.2).
+# Stage 3.5 FactCheck — citation health + 校正焦慮掃描 (v6.2) + 引語逐字保真 (v7.0).
 # correction-meta WARN default (advisory in gate)；callout-triggered EVOLVE 由
 # REWRITE Step 3.2-bis 視為 must-fix（surface here，人/agent 判斷）。
-checks = ["footnote-format", "footnote-density", "correction-meta"]
+# quote-fidelity added 2026-06-10 嘻哈饒舌 (REWRITE v7.0 Step 3.6.1 儀器化) —
+# QF1 引語逐字比對 researchReport SSOT（writer 縮寫/改句型 drift），QF2 superlative
+# 清單 INFO。Soft-launch WARN（legacy report 缺引語庫會誤報）；vc≥3 後評估升 HARD。
+checks = ["footnote-format", "footnote-density", "correction-meta", "quote-fidelity"]
 fail_on = "hard"
 
 [profiles."rewrite-stage-4"]
