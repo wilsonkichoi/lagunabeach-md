@@ -121,7 +121,9 @@ function estimatePageCountFromSitemap() {
   try {
     const sitemapMain = join(REPO, 'dist/sitemap-0.xml');
     if (!existsSync(sitemapMain)) return null;
-    const out = execSync(`grep -c '<url>' "${sitemapMain}"`, {
+    // grep -c 數的是「行數」— sitemap 是單行 XML，永遠回 1 → ms_per_page
+    // 曾長期顯示 1099000 假數據（2026-06-10 audit 熱點 #6）。改數 match 次數。
+    const out = execSync(`grep -o '<url>' "${sitemapMain}" | wc -l`, {
       encoding: 'utf-8',
     });
     return parseInt(out.trim(), 10);
@@ -132,6 +134,15 @@ function estimatePageCountFromSitemap() {
 
 // ── Main ────────────────────────────────────────────────────────────────────
 function main() {
+  // 2026-06-10 audit #6: CI 上 skip — 31 次 serial gh api ≈ 8s 純網路在 build
+  // 關鍵路徑，且 CI 不需要重抓（JSON git tracked，本機 refresh routine 每日刷新）。
+  // 需要在 CI 強制跑時設 FORCE_BUILD_PERF=1。
+  if (process.env.GITHUB_ACTIONS === 'true' && !process.env.FORCE_BUILD_PERF) {
+    console.log(
+      '⏭️  CI 環境 skip build-perf scrape（用 repo 內已 tracked 的數據）',
+    );
+    return 0;
+  }
   console.log(`📊 build-perf scrape (last ${N_RUNS} deploy runs)...`);
 
   const runs = fetchRuns();
@@ -170,8 +181,24 @@ function main() {
   const buildSecs = metrics
     .map((m) => m.build_step_seconds ?? m.total_job_seconds)
     .filter((s) => s != null);
-  const last7 = buildSecs.slice(0, 7);
-  const last30 = buildSecs.slice(0, 30);
+  // 2026-06-10 audit #6: 原本 slice(0,7/30) 是「最近 7/30 個 run」（每天 ~15 run
+  // → 所謂 30d avg 其實 < 1 天）。改成真的用 started_at 時間窗過濾；
+  // coverage_days 揭露抓到的 runs 實際涵蓋幾天（N_RUNS 上限內 best-effort）。
+  const now = Date.now();
+  const secsWithin = (days) =>
+    metrics
+      .filter(
+        (m) =>
+          m.started_at && now - Date.parse(m.started_at) <= days * 86400_000,
+      )
+      .map((m) => m.build_step_seconds ?? m.total_job_seconds)
+      .filter((s) => s != null);
+  const last7 = secsWithin(7);
+  const last30 = secsWithin(30);
+  const oldest = metrics[metrics.length - 1]?.started_at;
+  const coverageDays = oldest
+    ? Math.round(((now - Date.parse(oldest)) / 86400_000) * 10) / 10
+    : null;
 
   const avg = (arr) =>
     arr.length === 0
@@ -198,6 +225,8 @@ function main() {
       avg_build_seconds_7d: avg(last7),
       avg_build_seconds_30d: avg(last30),
       current_page_count: currentPageCount,
+      // 抓到的 runs 實際涵蓋天數（< 7 表示 7d/30d avg 其實只蓋到這麼多天）
+      coverage_days: coverageDays,
       ms_per_page_latest: msPerPage,
       // Threshold: per-page > 200ms = ⚠️ flag for dashboard alert
       flag_slow: msPerPage != null && msPerPage > 200,
@@ -215,7 +244,9 @@ function main() {
 
   console.log(`   ✓ ${OUT_PATH}`);
   console.log(`   → latest build: ${output.summary.latest_build_seconds}s`);
-  console.log(`   → 7d avg:       ${output.summary.avg_build_seconds_7d}s`);
+  console.log(
+    `   → 7d avg:       ${output.summary.avg_build_seconds_7d}s (coverage ${coverageDays ?? '?'}d)`,
+  );
   console.log(`   → 30d avg:      ${output.summary.avg_build_seconds_30d}s`);
   console.log(
     `   → ms/page:      ${output.summary.ms_per_page_latest ?? 'n/a'} ${output.summary.flag_slow ? '⚠️  > 200ms threshold' : ''}`,

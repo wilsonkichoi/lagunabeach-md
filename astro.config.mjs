@@ -322,8 +322,11 @@ export default defineConfig({
   // 2026-05-04: build perf tuning. Page render is 93% of build time
   // (363s render / 391s wall, baseline 4,331 pages). concurrency 1 → 4
   // is the highest-ROI lever; details in reports/research/astro-build-speed-2026-05-04.md.
+  // 2026-06-10 audit A/B: 8,436 頁 / 943s render，有效平行度 3.08/4 → 試 8。
+  // heap 已 12GB；下個 CI build 看 wall + RSS，OOM/變慢即回退 4。
+  // reports/build-pipeline-audit-2026-06-10.md 熱點 #2a。
   build: {
-    concurrency: 4,
+    concurrency: 8,
     inlineStylesheets: 'auto',
   },
   markdown: {

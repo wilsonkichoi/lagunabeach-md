@@ -1,5 +1,5 @@
 ---
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 import {
   LANGUAGES,
@@ -8,16 +8,12 @@ import {
   getLanguage,
   type Lang,
 } from '../config/languages';
+import { getLiveArticleCount } from '../utils/liveStats';
 
-// Read live article count from prebuilt vitals so SEO meta tracks reality.
-// Falls back to 752 if file missing. 2026-05-27 Wave 3 Phase 12 — stale
-// "660+" copy was caught during AI reader SEO polish audit.
-let _liveArticleCount = 752;
-try {
-  const vitalsPath = resolve(process.cwd(), 'public/api/dashboard-vitals.json');
-  const v = JSON.parse(readFileSync(vitalsPath, 'utf-8'));
-  if (typeof v.totalArticles === 'number') _liveArticleCount = v.totalArticles;
-} catch {}
+// Live article count from prebuilt vitals so SEO meta tracks reality.
+// 2026-06-10 audit #5: hoisted to module-level cache (was a per-render
+// readFileSync = 8,400+ syscalls/build). Fallback 752 preserved.
+const _liveArticleCount = getLiveArticleCount(752);
 
 interface Props {
   title: string;
