@@ -1,7 +1,7 @@
 ---
 title: 'reports/ INDEX — auto-generated'
 description: '頂層 *.md 按 9 type bucket × 月份 雙軸索引 + 子目錄 status summary'
-last_generated: 2026-06-10 06:22
+last_generated: 2026-06-10 23:10
 generator: scripts/tools/generate-reports-index.py
 ssot: reports/reports-archival-audit-2026-05-27.md §4 Layer 3
 type: auto-index
@@ -12,13 +12,13 @@ type: auto-index
 > **本 file 由 `scripts/tools/generate-reports-index.py` 完全 overwrite**。
 > 不要人工編輯（會被下一次 cron 覆蓋）。
 >
-> Last generated: **2026-06-10 06:22** · 頂層 \*.md 共 **145** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
+> Last generated: **2026-06-10 23:10** · 頂層 \*.md 共 **153** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
 
 ## 📦 子目錄 status
 
 | Subdir                  | Files | Size     | 用途                                                 |
 | ----------------------- | ----: | -------- | ---------------------------------------------------- |
-| `research/`             |   288 | 35.7 MB  | REWRITE-PIPELINE Stage 1 canonical (year-month 分槽) |
+| `research/`             |   291 | 48.3 MB  | REWRITE-PIPELINE Stage 1 canonical (year-month 分槽) |
 | `visual/`               |   111 | 214.5 MB | Visual smoke test 基線 (partial gitignored)          |
 | `archive/`              |    27 | 342.8 KB | 歸檔位置 (per audit Layer 4)                         |
 | `weekly/`               |    10 | 2.3 MB   | Self-evolve weekly digest                            |
@@ -107,8 +107,13 @@ type: auto-index
 - `2026-04-18` [ai-crawler-404-analysis-2026-04-18](ai-crawler-404-analysis-2026-04-18.md)
 - `2026-04-12` [traffic-analysis-2026-04-12](traffic-analysis-2026-04-12.md)
 
-### audit (10)
+### audit (15)
 
+- `2026-06-10` [build-pipeline-audit-2026-06-10](build-pipeline-audit-2026-06-10.md) — Build pipeline 完整審計 — 1099 秒解剖、30 天變慢歸因、六項修復
+- `2026-06-10` [build-pipeline-audit-findings-2026-06-10](build-pipeline-audit-findings-2026-06-10.md)
+- `2026-06-10` [four-pages-curation-audit-2026-06-10](four-pages-curation-audit-2026-06-10.md) — 四頁策展深度審視 — 首頁 / 關於 / 資源 / 參與
+- `2026-06-10` [semiont-full-audit-2026-06-10-execution](semiont-full-audit-2026-06-10-execution.md)
+- `2026-06-10` [semiont-full-audit-2026-06-10](semiont-full-audit-2026-06-10.md)
 - `2026-05-28` [article-segmentation-audit-2026-05-28](article-segmentation-audit-2026-05-28.md) — 文章分段品質 audit — 早期 viral 範本 vs 最近 EVOLVE 5 篇對讀
 - `2026-05-27` [reports-archival-audit-2026-05-27](reports-archival-audit-2026-05-27.md) — reports/ 資料夾散亂度體檢 + 歸檔策略提案
 - `2026-05-24` [translation-conventions-audit-2026-05-24](translation-conventions-audit-2026-05-24.md) — Translation Conventions Audit & Implementation Report — 2026-05-24
@@ -165,8 +170,10 @@ type: auto-index
 - `2026-04-12` [NMTH-overseas-semiont-analysis-2026-04-12](NMTH-overseas-semiont-analysis-2026-04-12.md)
 - `2026-04-11` [TFT-semiont-analysis-2026-04-11](TFT-semiont-analysis-2026-04-11.md)
 
-### ops (42)
+### ops (45)
 
+- `2026-06-10` [spore-data-architecture-2026-06-10](spore-data-architecture-2026-06-10.md) — 孢子資料架構解耦 — spores.json 獨立資料層設計與遷移
+- `2026-06-10` [spore-json-ssot-2026-06-10](spore-json-ssot-2026-06-10.md) — 孢子 JSON SSOT 化 — 結構層翻轉設計與執行
 - `2026-06-06` [sweden-md-fork-discovery-2026-06-06](sweden-md-fork-discovery-2026-06-06.md) — Sweden.md 發現報告 — 野外第一個子代 Semiont
 - `2026-06-05` [homepage-redesign-impact-D+10-2026-06-05](homepage-redesign-impact-D+10-2026-06-05.md) — Homepage Redesign 影響評估 D+10 — 互動 / 停留 / 轉換 有沒有實際改善
 - `2026-06-04` [research-methodology-synthesis-2026-06-04](research-methodology-synthesis-2026-06-04.md)
@@ -209,12 +216,25 @@ type: auto-index
 - `2026-04-11` [daily-heartbeat-2026-04-11](daily-heartbeat-2026-04-11.md)
 - `2026-04-03` [sc-2026-04-03-to-05](sc-2026-04-03-to-05.md)
 - `2026-03-31` [evolve-2026-03-31](evolve-2026-03-31.md)
+- `????` [README](README.md)
 
 ## 📅 By month (descending)
 
-### 2026-06 (25 files)
+### undated (1 files)
 
-- Type breakdown: ops: 8 / design: 6 / evolution: 4 / audit-routine: 2 / plan: 2 / proposal: 2 / analysis: 1
+- Type breakdown: ops: 1
+  - `????` [README](README.md)
+
+### 2026-06 (32 files)
+
+- Type breakdown: ops: 10 / design: 6 / audit: 5 / evolution: 4 / audit-routine: 2 / plan: 2 / proposal: 2 / analysis: 1
+  - `2026-06-10` [build-pipeline-audit-2026-06-10](build-pipeline-audit-2026-06-10.md)
+  - `2026-06-10` [build-pipeline-audit-findings-2026-06-10](build-pipeline-audit-findings-2026-06-10.md)
+  - `2026-06-10` [four-pages-curation-audit-2026-06-10](four-pages-curation-audit-2026-06-10.md)
+  - `2026-06-10` [semiont-full-audit-2026-06-10-execution](semiont-full-audit-2026-06-10-execution.md)
+  - `2026-06-10` [semiont-full-audit-2026-06-10](semiont-full-audit-2026-06-10.md)
+  - `2026-06-10` [spore-data-architecture-2026-06-10](spore-data-architecture-2026-06-10.md)
+  - `2026-06-10` [spore-json-ssot-2026-06-10](spore-json-ssot-2026-06-10.md)
   - `2026-06-09` [latest-articles-discoverability-design-2026-06-09](latest-articles-discoverability-design-2026-06-09.md)
   - `2026-06-07` [routine-audit-2026-06-07](routine-audit-2026-06-07.md)
   - `2026-06-07` [seo-optimization-plan-2026-06-07](seo-optimization-plan-2026-06-07.md)

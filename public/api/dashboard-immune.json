@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T13:13:19.355138",
+  "lastUpdated": "2026-06-10T23:10:09.831885",
   "schemaVersion": "v2-2026-05-16",
   "featureFlag": "IMMUNE_V2",
   "immuneScore": 56,
@@ -52,9 +52,9 @@
   },
   "citationDetail": {
     "grades": {
-      "A": 611,
+      "A": 612,
       "B": 11,
-      "C": 157,
+      "C": 156,
       "D": 4,
       "F": 9
     },
@@ -67,7 +67,7 @@
     "source": "git log %ai (not fs mtime — worktree-safe)"
   },
   "driftDetail": {
-    "new_articles_7d": 13,
+    "new_articles_7d": 12,
     "rate_per_article": 1.0,
     "note": "v1 heuristic — longitudinal tracking pending (B-line meta-health)"
   },

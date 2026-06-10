@@ -1,47 +1,47 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-10T13:13:10+08:00",
-    "zhCommitHead": "cd67bae20",
+    "lastUpdated": "2026-06-10T23:10:01+08:00",
+    "zhCommitHead": "3e2244a55",
     "totalZh": 794,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
         "total_zh": 794,
-        "fresh": 780,
-        "stale": 9,
-        "metadata_stale": 4,
+        "fresh": 731,
+        "stale": 13,
+        "metadata_stale": 49,
         "missing": 1,
         "orphan": 0
       },
       "ja": {
         "total_zh": 794,
-        "fresh": 742,
-        "stale": 48,
-        "metadata_stale": 4,
+        "fresh": 692,
+        "stale": 59,
+        "metadata_stale": 43,
         "missing": 0,
         "orphan": 0
       },
       "ko": {
         "total_zh": 794,
-        "fresh": 756,
-        "stale": 35,
-        "metadata_stale": 3,
+        "fresh": 710,
+        "stale": 41,
+        "metadata_stale": 43,
         "missing": 0,
         "orphan": 0
       },
       "es": {
         "total_zh": 794,
-        "fresh": 737,
-        "stale": 53,
-        "metadata_stale": 4,
+        "fresh": 691,
+        "stale": 57,
+        "metadata_stale": 46,
         "missing": 0,
         "orphan": 0
       },
       "fr": {
         "total_zh": 794,
-        "fresh": 748,
-        "stale": 43,
-        "metadata_stale": 3,
+        "fresh": 703,
+        "stale": 45,
+        "metadata_stale": 46,
         "missing": 0,
         "orphan": 0
       }
@@ -137,8 +137,8 @@
     },
     "Music/台灣國樂.md": {
       "zh": {
-        "lastCommit": "5db9f136",
-        "lastModified": "2026-05-09T01:11:48+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:e1bc3aa8197e4184",
         "bodyHash": "sha256:c0bd2cc77ca9d51c"
       },
@@ -154,8 +154,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 39,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -5"
         },
         "ja": {
           "path": "ja/Music/taiwanese-traditional-chinese-orchestra-music.md",
@@ -168,8 +170,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 38,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -5"
         },
         "ko": {
           "path": "ko/Music/taiwanese-traditional-chinese-orchestra-music.md",
@@ -182,8 +186,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 38,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -5"
         },
         "es": {
           "path": "es/Music/taiwanese-traditional-chinese-orchestra-music.md",
@@ -196,8 +202,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 38,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -5"
         },
         "fr": {
           "path": "fr/Music/guoyue-chinese-instruments.md",
@@ -210,8 +218,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 38,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -5"
         }
       }
     },
@@ -1187,8 +1197,8 @@
     },
     "Music/台灣嘻哈與饒舌發展.md": {
       "zh": {
-        "lastCommit": "baa04994",
-        "lastModified": "2026-06-10T10:29:41+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:84532500594af233",
         "bodyHash": "sha256:0af60e85ca08457d"
       },
@@ -1987,8 +1997,8 @@
     },
     "Music/張懸與安溥.md": {
       "zh": {
-        "lastCommit": "5db9f136",
-        "lastModified": "2026-05-09T01:11:48+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:27ef434e8d6b0605",
         "bodyHash": "sha256:5705b435f269e6ca"
       },
@@ -2000,12 +2010,14 @@
           "sourceContentHash": "sha256:27ef434e8d6b0605",
           "sourceBodyHash": "sha256:5705b435f269e6ca",
           "translatedAt": "2026-05-01T08:56:11+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "dd39065b",
+          "translationLastModified": "2026-06-10T17:45:23+08:00",
           "inferred": false,
           "footnoteDefs": 32,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -10"
         },
         "ja": {
           "path": "ja/Music/deserts-chang-and-anpu.md",
@@ -2018,8 +2030,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 32,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -10"
         },
         "ko": {
           "path": "ko/Music/deserts-chang-and-anpu.md",
@@ -2032,8 +2046,10 @@
           "translationLastModified": "2026-05-24T22:50:13+08:00",
           "inferred": false,
           "footnoteDefs": 32,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -10"
         },
         "es": {
           "path": "es/Music/deserts-chang-and-anpu.md",
@@ -2046,8 +2062,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 32,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -10"
         },
         "fr": {
           "path": "fr/Music/deserts-chang-and-anpu.md",
@@ -2060,8 +2078,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 32,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -10"
         }
       }
     },
@@ -2227,8 +2247,8 @@
     },
     "Music/落日飛車.md": {
       "zh": {
-        "lastCommit": "91eb4403",
-        "lastModified": "2026-06-02T23:09:45+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:a199eb8f6aa7f0fc",
         "bodyHash": "sha256:2680b892b33ad9fa"
       },
@@ -2244,8 +2264,10 @@
           "translationLastModified": "2026-06-03T00:41:35+08:00",
           "inferred": false,
           "footnoteDefs": 41,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/Music/sunset-rollercoaster.md",
@@ -2258,8 +2280,10 @@
           "translationLastModified": "2026-06-03T00:41:35+08:00",
           "inferred": false,
           "footnoteDefs": 41,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/Music/sunset-rollercoaster.md",
@@ -2272,8 +2296,10 @@
           "translationLastModified": "2026-06-03T00:41:35+08:00",
           "inferred": false,
           "footnoteDefs": 41,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/Music/sunset-rollercoaster.md",
@@ -2286,8 +2312,10 @@
           "translationLastModified": "2026-06-03T00:41:35+08:00",
           "inferred": false,
           "footnoteDefs": 41,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/Music/sunset-rollercoaster.md",
@@ -2300,8 +2328,10 @@
           "translationLastModified": "2026-06-03T00:41:35+08:00",
           "inferred": false,
           "footnoteDefs": 41,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         }
       }
     },
@@ -2627,8 +2657,8 @@
     },
     "Music/周蕙.md": {
       "zh": {
-        "lastCommit": "528b19d7",
-        "lastModified": "2026-05-28T23:02:01+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:50a2dc8af252fba1",
         "bodyHash": "sha256:74e33914371a886e"
       },
@@ -2644,8 +2674,10 @@
           "translationLastModified": "2026-05-29T01:12:23+08:00",
           "inferred": false,
           "footnoteDefs": 39,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/Music/chou-hui.md",
@@ -2658,8 +2690,10 @@
           "translationLastModified": "2026-05-29T01:12:23+08:00",
           "inferred": false,
           "footnoteDefs": 39,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/Music/chou-hui.md",
@@ -2672,8 +2706,10 @@
           "translationLastModified": "2026-05-29T01:12:23+08:00",
           "inferred": false,
           "footnoteDefs": 39,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/Music/chou-hui.md",
@@ -2686,8 +2722,10 @@
           "translationLastModified": "2026-05-29T01:12:23+08:00",
           "inferred": false,
           "footnoteDefs": 39,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/Music/chou-hui.md",
@@ -2700,8 +2738,10 @@
           "translationLastModified": "2026-05-29T01:12:23+08:00",
           "inferred": false,
           "footnoteDefs": 39,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         }
       }
     },
@@ -6717,8 +6757,8 @@
     },
     "Economy/台灣企業：台積電.md": {
       "zh": {
-        "lastCommit": "b900f18d",
-        "lastModified": "2026-05-19T14:04:55+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:abfac62a4f11b024",
         "bodyHash": "sha256:c307a1be6d5f1271"
       },
@@ -6734,8 +6774,10 @@
           "translationLastModified": "2026-05-20T06:14:13+08:00",
           "inferred": false,
           "footnoteDefs": 33,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -8"
         },
         "ja": {
           "path": "ja/Economy/tsmc-taiwan-semiconductor.md",
@@ -6744,12 +6786,14 @@
           "sourceContentHash": "sha256:abfac62a4f11b024",
           "sourceBodyHash": "sha256:c307a1be6d5f1271",
           "translatedAt": "2026-05-13T09:30:28+08:00",
-          "translationLastCommit": "e860007e",
-          "translationLastModified": "2026-05-20T06:14:13+08:00",
+          "translationLastCommit": "dd39065b",
+          "translationLastModified": "2026-06-10T17:45:23+08:00",
           "inferred": false,
           "footnoteDefs": 33,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -8"
         },
         "ko": {
           "path": "ko/Economy/tsmc-taiwan-semiconductor.md",
@@ -6762,8 +6806,10 @@
           "translationLastModified": "2026-05-20T06:14:13+08:00",
           "inferred": false,
           "footnoteDefs": 33,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -8"
         },
         "es": {
           "path": "es/Economy/tsmc-taiwan-semiconductor.md",
@@ -6776,8 +6822,10 @@
           "translationLastModified": "2026-05-20T06:14:13+08:00",
           "inferred": false,
           "footnoteDefs": 33,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -8"
         },
         "fr": {
           "path": "fr/Economy/tsmc-taiwan-semiconductor.md",
@@ -6790,8 +6838,10 @@
           "translationLastModified": "2026-05-20T06:14:13+08:00",
           "inferred": false,
           "footnoteDefs": 33,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -8"
         }
       }
     },
@@ -7197,8 +7247,8 @@
     },
     "Technology/台灣無人機產業.md": {
       "zh": {
-        "lastCommit": "5e97688c",
-        "lastModified": "2026-05-19T22:05:31+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:9165b111d87b4581",
         "bodyHash": "sha256:88f1bf8039ff02f6"
       },
@@ -7214,8 +7264,10 @@
           "translationLastModified": "2026-05-20T06:14:13+08:00",
           "inferred": false,
           "footnoteDefs": 28,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         },
         "ja": {
           "path": "ja/Technology/taiwan-drone-industry.md",
@@ -7228,8 +7280,10 @@
           "translationLastModified": "2026-05-20T12:37:22+08:00",
           "inferred": false,
           "footnoteDefs": 28,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         },
         "ko": {
           "path": "ko/Technology/taiwan-drone-industry.md",
@@ -7242,8 +7296,10 @@
           "translationLastModified": "2026-05-20T12:37:22+08:00",
           "inferred": false,
           "footnoteDefs": 28,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         },
         "es": {
           "path": "es/Technology/taiwan-drone-industry.md",
@@ -7256,8 +7312,10 @@
           "translationLastModified": "2026-05-20T12:37:22+08:00",
           "inferred": false,
           "footnoteDefs": 28,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         },
         "fr": {
           "path": "fr/Technology/taiwan-drone-industry.md",
@@ -7270,8 +7328,10 @@
           "translationLastModified": "2026-05-20T12:37:22+08:00",
           "inferred": false,
           "footnoteDefs": 28,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         }
       }
     },
@@ -7437,8 +7497,8 @@
     },
     "Technology/國家太空中心.md": {
       "zh": {
-        "lastCommit": "4c23b53c",
-        "lastModified": "2026-06-10T12:21:10+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:632fbb2c7532c256",
         "bodyHash": "sha256:532bab3de6be101e"
       },
@@ -7456,8 +7516,8 @@
           "footnoteDefs": 65,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+4 -2"
         },
         "ja": {
           "path": "ja/Technology/tasa-taiwan-space-agency.md",
@@ -7472,8 +7532,8 @@
           "footnoteDefs": 65,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+4 -2"
         },
         "ko": {
           "path": "ko/Technology/tasa-taiwan-space-agency.md",
@@ -7488,8 +7548,8 @@
           "footnoteDefs": 65,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+4 -2"
         },
         "es": {
           "path": "es/Technology/tasa-taiwan-space-agency.md",
@@ -7504,8 +7564,8 @@
           "footnoteDefs": 65,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+4 -2"
         },
         "fr": {
           "path": "fr/Technology/tasa-taiwan-space-agency.md",
@@ -7520,8 +7580,8 @@
           "footnoteDefs": 65,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+4 -2"
         }
       }
     },
@@ -7607,8 +7667,8 @@
     },
     "Technology/科技園區發展.md": {
       "zh": {
-        "lastCommit": "8bd79599",
-        "lastModified": "2026-05-29T14:43:26+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:1d77734f34a7a5f8",
         "bodyHash": "sha256:e01e7169a98c4aba"
       },
@@ -7624,8 +7684,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 24,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/Technology/science-park-development.md",
@@ -7638,8 +7700,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 24,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/Technology/science-park-development.md",
@@ -7652,8 +7716,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 24,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/Technology/science-park-development.md",
@@ -7666,8 +7732,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 24,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/Technology/science-park-development.md",
@@ -7680,8 +7748,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 24,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         }
       }
     },
@@ -9127,8 +9197,8 @@
     },
     "Technology/Computex.md": {
       "zh": {
-        "lastCommit": "c6ff13fe",
-        "lastModified": "2026-06-04T18:28:59+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:d37367135548def0",
         "bodyHash": "sha256:bb5555703c8ada78"
       },
@@ -9144,8 +9214,10 @@
           "translationLastModified": "2026-06-06T01:53:35+08:00",
           "inferred": false,
           "footnoteDefs": 23,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -2"
         },
         "ja": {
           "path": "ja/Technology/computex-taipei.md",
@@ -9158,8 +9230,10 @@
           "translationLastModified": "2026-06-09T04:26:56+08:00",
           "inferred": false,
           "footnoteDefs": 23,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -2"
         },
         "ko": {
           "path": "ko/Technology/computex-taipei.md",
@@ -9172,8 +9246,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 23,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -2"
         },
         "es": {
           "path": "es/Technology/computex-taipei.md",
@@ -9186,8 +9262,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 23,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -2"
         },
         "fr": {
           "path": "fr/Technology/computex-taipei.md",
@@ -9200,8 +9278,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 23,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -2"
         }
       }
     },
@@ -10327,8 +10407,8 @@
     },
     "Technology/半導體產業.md": {
       "zh": {
-        "lastCommit": "3951afb0",
-        "lastModified": "2026-06-01T23:11:22+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:1f5e02f4a237b0ed",
         "bodyHash": "sha256:c57a5c2dd34021cd"
       },
@@ -10344,8 +10424,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 28,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/Technology/semiconductor-industry.md",
@@ -10358,8 +10440,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 28,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/Technology/semiconductor-industry.md",
@@ -10372,8 +10456,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 28,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/Technology/taiwan-semiconductor-industry.md",
@@ -10386,8 +10472,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 28,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/Technology/semiconductor-industry.md",
@@ -10400,15 +10488,17 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 28,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         }
       }
     },
     "Technology/開放文化基金會.md": {
       "zh": {
-        "lastCommit": "4c23b53c",
-        "lastModified": "2026-06-10T12:21:10+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:37f0be012505ad0e",
         "bodyHash": "sha256:b03ef22e9c42b62e"
       },
@@ -10426,8 +10516,8 @@
           "footnoteDefs": 36,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -3"
+          "commitsBehind": 2,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/Technology/open-culture-foundation.md",
@@ -10442,8 +10532,8 @@
           "footnoteDefs": 36,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -3"
+          "commitsBehind": 2,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/Technology/open-culture-foundation.md",
@@ -10458,8 +10548,8 @@
           "footnoteDefs": 36,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -3"
+          "commitsBehind": 2,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/Technology/open-culture-foundation.md",
@@ -10474,8 +10564,8 @@
           "footnoteDefs": 36,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -3"
+          "commitsBehind": 2,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/Technology/open-culture-foundation.md",
@@ -10490,8 +10580,8 @@
           "footnoteDefs": 36,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -3"
+          "commitsBehind": 2,
+          "diffSummary": "+4 -12"
         }
       }
     },
@@ -10737,8 +10827,8 @@
     },
     "Technology/大宇雙劍.md": {
       "zh": {
-        "lastCommit": "91eb4403",
-        "lastModified": "2026-06-02T23:09:45+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:8e80804c9910ac1a",
         "bodyHash": "sha256:c6e2238f1a2c15d5"
       },
@@ -10750,12 +10840,14 @@
           "sourceContentHash": "sha256:8e80804c9910ac1a",
           "sourceBodyHash": "sha256:c6e2238f1a2c15d5",
           "translatedAt": "2026-05-29T00:35:00+08:00",
-          "translationLastCommit": "8d91c2f6",
-          "translationLastModified": "2026-06-03T00:41:35+08:00",
+          "translationLastCommit": "dd39065b",
+          "translationLastModified": "2026-06-10T17:45:23+08:00",
           "inferred": false,
           "footnoteDefs": 28,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/Technology/softstar-twin-classics.md",
@@ -10768,8 +10860,10 @@
           "translationLastModified": "2026-06-03T00:41:35+08:00",
           "inferred": false,
           "footnoteDefs": 28,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/Technology/softstar-twin-classics.md",
@@ -10782,8 +10876,10 @@
           "translationLastModified": "2026-06-03T00:41:35+08:00",
           "inferred": false,
           "footnoteDefs": 28,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/Technology/softstar-twin-classics.md",
@@ -10796,8 +10892,10 @@
           "translationLastModified": "2026-06-03T00:41:35+08:00",
           "inferred": false,
           "footnoteDefs": 28,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/Technology/softstar-twin-classics.md",
@@ -10810,15 +10908,17 @@
           "translationLastModified": "2026-06-03T00:41:35+08:00",
           "inferred": false,
           "footnoteDefs": 28,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         }
       }
     },
     "Technology/海底電纜.md": {
       "zh": {
-        "lastCommit": "a637afed",
-        "lastModified": "2026-05-08T19:39:19+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:f38fca094c4c3275",
         "bodyHash": "sha256:ec9a17aedbd5877e"
       },
@@ -10834,8 +10934,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 49,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/Technology/submarine-cables-taiwan-lifeline.md",
@@ -10844,12 +10946,14 @@
           "sourceContentHash": "sha256:f38fca094c4c3275",
           "sourceBodyHash": "sha256:ec9a17aedbd5877e",
           "translatedAt": "2026-05-01T14:48:26+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "dd39065b",
+          "translationLastModified": "2026-06-10T17:45:23+08:00",
           "inferred": false,
           "footnoteDefs": 49,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/Technology/submarine-cables-taiwan-lifeline.md",
@@ -10862,8 +10966,10 @@
           "translationLastModified": "2026-06-09T11:27:50+08:00",
           "inferred": false,
           "footnoteDefs": 49,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/Technology/submarine-cables-taiwan-lifeline.md",
@@ -10876,8 +10982,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 49,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/Technology/submarine-cables-taiwan-lifeline.md",
@@ -10890,8 +10998,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 49,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         }
       }
     },
@@ -10977,8 +11087,8 @@
     },
     "Technology/雷亞遊戲.md": {
       "zh": {
-        "lastCommit": "3951afb0",
-        "lastModified": "2026-06-01T23:11:22+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:d307bb82f3b9e301",
         "bodyHash": "sha256:c5aec6ca99b3567c"
       },
@@ -10994,8 +11104,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 53,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/Technology/rayark-games.md",
@@ -11008,8 +11120,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 53,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/Technology/rayark-games.md",
@@ -11022,8 +11136,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 53,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/Technology/rayark-games.md",
@@ -11036,8 +11152,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 53,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/Technology/rayark-games.md",
@@ -11050,8 +11168,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 53,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         }
       }
     },
@@ -11857,8 +11977,8 @@
     },
     "Art/臺灣漫遊錄.md": {
       "zh": {
-        "lastCommit": "3951afb0",
-        "lastModified": "2026-06-01T23:11:22+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:04cc7caa03e151f7",
         "bodyHash": "sha256:1999959e3ea909b4"
       },
@@ -11874,8 +11994,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 34,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/Art/taiwan-travelogue.md",
@@ -11888,8 +12010,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 34,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/Art/taiwan-travelogue.md",
@@ -11902,8 +12026,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 34,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/Art/taiwan-travelogue.md",
@@ -11916,8 +12042,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 34,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/Art/taiwan-travelogue.md",
@@ -11930,8 +12058,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 34,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         }
       }
     },
@@ -12177,8 +12307,8 @@
     },
     "Art/江賢二.md": {
       "zh": {
-        "lastCommit": "3951afb0",
-        "lastModified": "2026-06-01T23:11:22+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:3870280529c79170",
         "bodyHash": "sha256:67baf16d4a608267"
       },
@@ -12190,12 +12320,14 @@
           "sourceContentHash": "sha256:3870280529c79170",
           "sourceBodyHash": "sha256:67baf16d4a608267",
           "translatedAt": "2026-05-25T21:06:51Z",
-          "translationLastCommit": "40894e77",
-          "translationLastModified": "2026-06-02T01:19:52+08:00",
+          "translationLastCommit": "dd39065b",
+          "translationLastModified": "2026-06-10T17:45:23+08:00",
           "inferred": false,
           "footnoteDefs": 42,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         },
         "ja": {
           "path": "ja/Art/chiang-hsien-yi.md",
@@ -12204,12 +12336,14 @@
           "sourceContentHash": "sha256:3870280529c79170",
           "sourceBodyHash": "sha256:67baf16d4a608267",
           "translatedAt": "2026-05-25T21:07:04Z",
-          "translationLastCommit": "40894e77",
-          "translationLastModified": "2026-06-02T01:19:52+08:00",
+          "translationLastCommit": "dd39065b",
+          "translationLastModified": "2026-06-10T17:45:23+08:00",
           "inferred": false,
           "footnoteDefs": 42,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         },
         "ko": {
           "path": "ko/Art/chiang-hsien-yi.md",
@@ -12218,12 +12352,14 @@
           "sourceContentHash": "sha256:3870280529c79170",
           "sourceBodyHash": "sha256:67baf16d4a608267",
           "translatedAt": "2026-05-25T21:07:07Z",
-          "translationLastCommit": "40894e77",
-          "translationLastModified": "2026-06-02T01:19:52+08:00",
+          "translationLastCommit": "dd39065b",
+          "translationLastModified": "2026-06-10T17:45:23+08:00",
           "inferred": false,
           "footnoteDefs": 42,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         },
         "es": {
           "path": "es/Art/chiang-hsien-yi.md",
@@ -12232,12 +12368,14 @@
           "sourceContentHash": "sha256:3870280529c79170",
           "sourceBodyHash": "sha256:67baf16d4a608267",
           "translatedAt": "2026-05-26T21:07:27Z",
-          "translationLastCommit": "40894e77",
-          "translationLastModified": "2026-06-02T01:19:52+08:00",
+          "translationLastCommit": "dd39065b",
+          "translationLastModified": "2026-06-10T17:45:23+08:00",
           "inferred": false,
           "footnoteDefs": 42,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         },
         "fr": {
           "path": "fr/Art/chiang-hsien-yi.md",
@@ -12246,12 +12384,14 @@
           "sourceContentHash": "sha256:3870280529c79170",
           "sourceBodyHash": "sha256:67baf16d4a608267",
           "translatedAt": "2026-05-25T21:07:36Z",
-          "translationLastCommit": "40894e77",
-          "translationLastModified": "2026-06-02T01:19:52+08:00",
+          "translationLastCommit": "dd39065b",
+          "translationLastModified": "2026-06-10T17:45:23+08:00",
           "inferred": false,
           "footnoteDefs": 42,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         }
       }
     },
@@ -13297,8 +13437,8 @@
     },
     "Art/謝德慶.md": {
       "zh": {
-        "lastCommit": "5db9f136",
-        "lastModified": "2026-05-09T01:11:48+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:6c03cf0ef8e01a7d",
         "bodyHash": "sha256:63227fedc7d1144a"
       },
@@ -13314,8 +13454,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 26,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -7"
         },
         "ja": {
           "path": "ja/Art/tehching-hsieh-performance-artist.md",
@@ -13328,8 +13470,10 @@
           "translationLastModified": "2026-06-09T04:26:56+08:00",
           "inferred": false,
           "footnoteDefs": 26,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -7"
         },
         "ko": {
           "path": "ko/Art/tehching-hsieh-performance-artist.md",
@@ -13342,8 +13486,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 26,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -7"
         },
         "es": {
           "path": "es/Art/tehching-hsieh-performance-artist.md",
@@ -13356,8 +13502,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 26,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -7"
         },
         "fr": {
           "path": "fr/Art/tehching-hsieh-performance-artist.md",
@@ -13370,8 +13518,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 26,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -7"
         }
       }
     },
@@ -14977,8 +15127,8 @@
     },
     "Lifestyle/台灣高鐵.md": {
       "zh": {
-        "lastCommit": "5db9f136",
-        "lastModified": "2026-05-09T01:11:48+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:d4cd6040714e7d5e",
         "bodyHash": "sha256:437f56550a534c16"
       },
@@ -14994,8 +15144,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 23,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         },
         "ja": {
           "path": "ja/Lifestyle/taiwan-high-speed-rail.md",
@@ -15008,8 +15160,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 23,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         },
         "ko": {
           "path": "ko/Lifestyle/taiwan-high-speed-rail.md",
@@ -15022,8 +15176,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 23,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         },
         "es": {
           "path": "es/Lifestyle/taiwan-high-speed-rail.md",
@@ -15036,8 +15192,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 23,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         },
         "fr": {
           "path": "fr/Lifestyle/taiwan-high-speed-rail.md",
@@ -15050,8 +15208,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 23,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         }
       }
     },
@@ -17796,8 +17956,8 @@
     },
     "Society/泛科學.md": {
       "zh": {
-        "lastCommit": "aaa69aba",
-        "lastModified": "2026-06-04T16:26:41+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:b3bb240ec7dc60f9",
         "bodyHash": "sha256:eb3a67c8a9337ec9"
       },
@@ -17813,8 +17973,10 @@
           "translationLastModified": "2026-06-06T01:53:35+08:00",
           "inferred": false,
           "footnoteDefs": 21,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         },
         "ja": {
           "path": "ja/Society/pansci.md",
@@ -17827,8 +17989,10 @@
           "translationLastModified": "2026-06-06T01:53:35+08:00",
           "inferred": false,
           "footnoteDefs": 21,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         },
         "ko": {
           "path": "ko/Society/pansci.md",
@@ -17841,8 +18005,10 @@
           "translationLastModified": "2026-06-06T01:53:35+08:00",
           "inferred": false,
           "footnoteDefs": 21,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         },
         "es": {
           "path": "es/Society/pansci.md",
@@ -17855,8 +18021,10 @@
           "translationLastModified": "2026-06-06T01:53:35+08:00",
           "inferred": false,
           "footnoteDefs": 21,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         },
         "fr": {
           "path": "fr/Society/pansci.md",
@@ -17869,8 +18037,10 @@
           "translationLastModified": "2026-06-06T01:53:35+08:00",
           "inferred": false,
           "footnoteDefs": 21,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         }
       }
     },
@@ -19316,8 +19486,8 @@
     },
     "Society/2026鄭習會與國共十年再會.md": {
       "zh": {
-        "lastCommit": "5db9f136",
-        "lastModified": "2026-05-09T01:11:48+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:3eecc6e30b4626f7",
         "bodyHash": "sha256:3d0acbeaa8a56355"
       },
@@ -19329,8 +19499,8 @@
           "sourceContentHash": "sha256:3eecc6e30b4626f7",
           "sourceBodyHash": "sha256:3d0acbeaa8a56355",
           "translatedAt": "2026-05-17T06:10:00Z",
-          "translationLastCommit": "4331614b",
-          "translationLastModified": "2026-05-24T22:40:37+08:00",
+          "translationLastCommit": "dd39065b",
+          "translationLastModified": "2026-06-10T17:45:23+08:00",
           "inferred": false,
           "footnoteDefs": 22,
           "status": "fresh",
@@ -19347,8 +19517,10 @@
           "translationLastModified": "2026-06-09T04:26:56+08:00",
           "inferred": false,
           "footnoteDefs": 22,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -2"
         },
         "ko": {
           "path": "ko/Society/2026-cheng-xi-meeting-kmt-ccp-decade-reunion.md",
@@ -19357,8 +19529,8 @@
           "sourceContentHash": "sha256:3eecc6e30b4626f7",
           "sourceBodyHash": "sha256:3d0acbeaa8a56355",
           "translatedAt": "2026-05-16T22:20:00Z",
-          "translationLastCommit": "3521fd77",
-          "translationLastModified": "2026-05-17T06:34:49+08:00",
+          "translationLastCommit": "dd39065b",
+          "translationLastModified": "2026-06-10T17:45:23+08:00",
           "inferred": false,
           "footnoteDefs": 22,
           "status": "fresh",
@@ -19556,8 +19728,8 @@
     },
     "Society/國宅與居住正義.md": {
       "zh": {
-        "lastCommit": "7678a430",
-        "lastModified": "2026-06-10T12:01:13+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:1b571a2f0b3e267b",
         "bodyHash": "sha256:81a883992eb755dc"
       },
@@ -19575,8 +19747,8 @@
           "footnoteDefs": 27,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+30 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+34 -2"
         },
         "ja": {
           "path": "ja/Society/public-housing-justice.md",
@@ -19591,8 +19763,8 @@
           "footnoteDefs": 27,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+30 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+34 -2"
         },
         "ko": {
           "path": "ko/Society/public-housing-justice.md",
@@ -19607,8 +19779,8 @@
           "footnoteDefs": 27,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+30 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+34 -2"
         },
         "es": {
           "path": "es/Society/public-housing-justice.md",
@@ -19623,8 +19795,8 @@
           "footnoteDefs": 27,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+30 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+34 -2"
         },
         "fr": {
           "path": "fr/Society/public-housing-justice.md",
@@ -19639,8 +19811,8 @@
           "footnoteDefs": 27,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+30 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+34 -2"
         }
       }
     },
@@ -20130,8 +20302,8 @@
     },
     "Society/我是OO人.md": {
       "zh": {
-        "lastCommit": "a66ee748",
-        "lastModified": "2026-06-05T18:17:01+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:cdc34bf666aa8587",
         "bodyHash": "sha256:d2136eb2eef002a6"
       },
@@ -20147,8 +20319,10 @@
           "translationLastModified": "2026-06-09T04:26:56+08:00",
           "inferred": false,
           "footnoteDefs": 23,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 2,
+          "diffSummary": "+4 -2"
         },
         "ja": {
           "path": "ja/Society/i-am-from.md",
@@ -20161,8 +20335,10 @@
           "translationLastModified": "2026-06-09T04:26:56+08:00",
           "inferred": false,
           "footnoteDefs": 23,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 2,
+          "diffSummary": "+4 -2"
         },
         "ko": {
           "path": "ko/Society/i-am-from.md",
@@ -20175,8 +20351,10 @@
           "translationLastModified": "2026-06-09T04:26:56+08:00",
           "inferred": false,
           "footnoteDefs": 23,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 2,
+          "diffSummary": "+4 -2"
         },
         "es": {
           "path": "es/Society/i-am-from.md",
@@ -20189,8 +20367,10 @@
           "translationLastModified": "2026-06-09T04:26:56+08:00",
           "inferred": false,
           "footnoteDefs": 23,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 2,
+          "diffSummary": "+4 -2"
         },
         "fr": {
           "path": "fr/Society/i-am-from.md",
@@ -20203,8 +20383,10 @@
           "translationLastModified": "2026-06-10T06:28:36+08:00",
           "inferred": false,
           "footnoteDefs": 23,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+4 -2"
         }
       }
     },
@@ -20370,8 +20552,8 @@
     },
     "Society/台灣與史瓦帝尼.md": {
       "zh": {
-        "lastCommit": "23dba596",
-        "lastModified": "2026-05-12T19:20:00+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:fbdebb7691280ba8",
         "bodyHash": "sha256:e3b2d4439bec2dec"
       },
@@ -20387,8 +20569,10 @@
           "translationLastModified": "2026-05-26T08:08:43+08:00",
           "inferred": false,
           "footnoteDefs": 26,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/Society/taiwan-eswatini-relations.md",
@@ -20401,8 +20585,10 @@
           "translationLastModified": "2026-05-26T08:08:43+08:00",
           "inferred": false,
           "footnoteDefs": 26,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/Society/taiwan-eswatini-relations.md",
@@ -20415,8 +20601,10 @@
           "translationLastModified": "2026-05-26T08:08:43+08:00",
           "inferred": false,
           "footnoteDefs": 26,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/Society/taiwan-eswatini-relations.md",
@@ -20429,8 +20617,10 @@
           "translationLastModified": "2026-05-26T08:08:43+08:00",
           "inferred": false,
           "footnoteDefs": 26,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/Society/taiwan-eswatini-relations.md",
@@ -20443,8 +20633,10 @@
           "translationLastModified": "2026-05-26T08:08:43+08:00",
           "inferred": false,
           "footnoteDefs": 26,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         }
       }
     },
@@ -21490,8 +21682,8 @@
     },
     "Society/中華台北.md": {
       "zh": {
-        "lastCommit": "25b0f0de",
-        "lastModified": "2026-06-04T21:46:28+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:2b2c4d3c765d642b",
         "bodyHash": "sha256:554fc5a28e8c0743"
       },
@@ -21507,8 +21699,10 @@
           "translationLastModified": "2026-06-06T01:53:35+08:00",
           "inferred": false,
           "footnoteDefs": 38,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/Society/chinese-taipei.md",
@@ -21521,8 +21715,10 @@
           "translationLastModified": "2026-06-09T11:27:50+08:00",
           "inferred": false,
           "footnoteDefs": 38,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 2,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/Society/chinese-taipei.md",
@@ -21535,8 +21731,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 38,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/Society/chinese-taipei.md",
@@ -21549,8 +21747,10 @@
           "translationLastModified": "2026-06-09T11:27:50+08:00",
           "inferred": false,
           "footnoteDefs": 38,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 2,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/Society/chinese-taipei.md",
@@ -22210,8 +22410,8 @@
     },
     "Society/認知作戰.md": {
       "zh": {
-        "lastCommit": "09e1370d",
-        "lastModified": "2026-06-04T14:47:39+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:380deba2111b675e",
         "bodyHash": "sha256:53132f584b9b6657"
       },
@@ -22223,12 +22423,14 @@
           "sourceContentHash": "sha256:380deba2111b675e",
           "sourceBodyHash": "sha256:53132f584b9b6657",
           "translatedAt": "2026-04-30T22:33:56+08:00",
-          "translationLastCommit": "95cc4215",
-          "translationLastModified": "2026-06-06T01:53:35+08:00",
+          "translationLastCommit": "dd39065b",
+          "translationLastModified": "2026-06-10T17:45:23+08:00",
           "inferred": false,
           "footnoteDefs": 61,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/Society/cognitive-warfare-against-taiwan.md",
@@ -22237,12 +22439,14 @@
           "sourceContentHash": "sha256:380deba2111b675e",
           "sourceBodyHash": "sha256:53132f584b9b6657",
           "translatedAt": "2026-05-01T14:48:26+08:00",
-          "translationLastCommit": "95cc4215",
-          "translationLastModified": "2026-06-06T01:53:35+08:00",
+          "translationLastCommit": "dd39065b",
+          "translationLastModified": "2026-06-10T17:45:23+08:00",
           "inferred": false,
           "footnoteDefs": 61,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/Society/cognitive-warfare-against-taiwan.md",
@@ -22255,8 +22459,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 61,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/Society/cognitive-warfare-against-taiwan.md",
@@ -22269,8 +22475,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 61,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/Society/cognitive-warfare-against-taiwan.md",
@@ -22283,8 +22491,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 61,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         }
       }
     },
@@ -22450,8 +22660,8 @@
     },
     "Society/台灣邦交國與國際外交.md": {
       "zh": {
-        "lastCommit": "5db9f136",
-        "lastModified": "2026-05-09T01:11:48+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:106427f4b2a59983",
         "bodyHash": "sha256:52dab0b7f31fb6c8"
       },
@@ -22467,8 +22677,10 @@
           "translationLastModified": "2026-05-26T08:08:43+08:00",
           "inferred": false,
           "footnoteDefs": 42,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/Society/taiwan-diplomatic-allies-and-international-relations.md",
@@ -22481,8 +22693,10 @@
           "translationLastModified": "2026-05-26T08:08:43+08:00",
           "inferred": false,
           "footnoteDefs": 42,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/Society/taiwan-diplomatic-allies-and-international-relations.md",
@@ -22495,8 +22709,10 @@
           "translationLastModified": "2026-05-26T08:08:43+08:00",
           "inferred": false,
           "footnoteDefs": 42,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/Society/taiwan-diplomatic-allies-and-international-relations.md",
@@ -22509,8 +22725,10 @@
           "translationLastModified": "2026-05-26T08:08:43+08:00",
           "inferred": false,
           "footnoteDefs": 42,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/Society/taiwan-diplomatic-allies-and-international-relations.md",
@@ -22523,8 +22741,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 42,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         }
       }
     },
@@ -24210,8 +24430,8 @@
     },
     "Nature/黃魚鴞.md": {
       "zh": {
-        "lastCommit": "23dba596",
-        "lastModified": "2026-05-12T19:20:00+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:e7ee784435375331",
         "bodyHash": "sha256:88027a3e0b96dfe3"
       },
@@ -24227,8 +24447,10 @@
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
           "footnoteDefs": 19,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/Nature/tawny-fish-owl.md",
@@ -24241,8 +24463,10 @@
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
           "footnoteDefs": 19,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/Nature/tawny-fish-owl.md",
@@ -24255,8 +24479,10 @@
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
           "footnoteDefs": 19,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/Nature/tawny-fish-owl.md",
@@ -24269,8 +24495,10 @@
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
           "footnoteDefs": 19,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/Nature/tawny-fish-owl.md",
@@ -24283,8 +24511,10 @@
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
           "footnoteDefs": 19,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         }
       }
     },
@@ -25176,8 +25406,8 @@
     },
     "Nature/黑冠麻鷺.md": {
       "zh": {
-        "lastCommit": "a637afed",
-        "lastModified": "2026-05-08T19:39:19+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:105878c02485b2e2",
         "bodyHash": "sha256:4ff81a4c7e98c835"
       },
@@ -25189,12 +25419,14 @@
           "sourceContentHash": "sha256:105878c02485b2e2",
           "sourceBodyHash": "sha256:4ff81a4c7e98c835",
           "translatedAt": "2026-05-01T01:46:13+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "dd39065b",
+          "translationLastModified": "2026-06-10T17:45:23+08:00",
           "inferred": false,
           "footnoteDefs": 17,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/Nature/malayan-night-heron.md",
@@ -25207,8 +25439,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 17,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/Nature/malayan-night-heron.md",
@@ -25221,8 +25455,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 17,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/Nature/malayan-night-heron.md",
@@ -25235,8 +25471,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 17,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/Nature/malayan-night-heron.md",
@@ -25249,8 +25487,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 17,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         }
       }
     },
@@ -25416,8 +25656,8 @@
     },
     "Nature/颱風.md": {
       "zh": {
-        "lastCommit": "108cbe80",
-        "lastModified": "2026-06-09T06:57:45+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:fb28c7a415f87d9c",
         "bodyHash": "sha256:c57123f891fb2cee"
       },
@@ -25435,8 +25675,8 @@
           "footnoteDefs": 17,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "commitsBehind": 3,
+          "diffSummary": "+8 -16"
         },
         "ja": {
           "path": "ja/Nature/typhoons-in-taiwan.md",
@@ -25451,8 +25691,8 @@
           "footnoteDefs": 17,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "commitsBehind": 3,
+          "diffSummary": "+8 -16"
         },
         "ko": {
           "path": "ko/Nature/typhoons-in-taiwan.md",
@@ -25467,8 +25707,8 @@
           "footnoteDefs": 17,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "commitsBehind": 3,
+          "diffSummary": "+8 -16"
         },
         "es": {
           "path": "es/Nature/typhoons-in-taiwan.md",
@@ -25483,8 +25723,8 @@
           "footnoteDefs": 17,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "commitsBehind": 3,
+          "diffSummary": "+8 -16"
         },
         "fr": {
           "path": "fr/Nature/typhoons-in-taiwan.md",
@@ -25499,8 +25739,8 @@
           "footnoteDefs": 17,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "commitsBehind": 3,
+          "diffSummary": "+8 -16"
         }
       }
     },
@@ -29046,8 +29286,8 @@
     },
     "People/壞特.md": {
       "zh": {
-        "lastCommit": "5de488e7",
-        "lastModified": "2026-06-09T02:35:34+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:2f12f91cbf28ef93",
         "bodyHash": "sha256:f96db07a5b8f044c"
       },
@@ -29059,14 +29299,14 @@
           "sourceContentHash": "sha256:bc3dc1570bc97a61",
           "sourceBodyHash": "sha256:f96db07a5b8f044c",
           "translatedAt": "2026-04-30T22:50:13+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "dd39065b",
+          "translationLastModified": "2026-06-10T17:45:23+08:00",
           "inferred": false,
           "footnoteDefs": 37,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+5 -12"
         },
         "ja": {
           "path": "ja/People/huai-te-indie-singer.md",
@@ -29081,8 +29321,8 @@
           "footnoteDefs": 37,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+5 -12"
         },
         "ko": {
           "path": "ko/People/huai-te-indie-singer.md",
@@ -29097,8 +29337,8 @@
           "footnoteDefs": 37,
           "status": "stale",
           "reason": "zh-moved-forward",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+5 -12"
         },
         "es": {
           "path": "es/People/huai-te-indie-singer.md",
@@ -29113,8 +29353,8 @@
           "footnoteDefs": 37,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+5 -12"
         },
         "fr": {
           "path": "fr/People/huai-te-indie-singer.md",
@@ -29854,8 +30094,8 @@
     },
     "People/Cicada.md": {
       "zh": {
-        "lastCommit": "5db9f136",
-        "lastModified": "2026-05-09T01:11:48+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:fe41f66467969b5d",
         "bodyHash": "sha256:94ae560f9807778b"
       },
@@ -29871,8 +30111,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 18,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         },
         "ja": {
           "path": "ja/People/cicada-band.md",
@@ -29885,8 +30127,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 18,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         },
         "ko": {
           "path": "ko/People/cicada-band.md",
@@ -29899,8 +30143,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 18,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         },
         "es": {
           "path": "es/People/cicada-band.md",
@@ -29913,8 +30159,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 18,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         },
         "fr": {
           "path": "fr/People/cicada-band.md",
@@ -29927,8 +30175,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 18,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         }
       }
     },
@@ -30894,8 +31144,8 @@
     },
     "People/田馥甄.md": {
       "zh": {
-        "lastCommit": "5db9f136",
-        "lastModified": "2026-05-09T01:11:48+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:a39194b2f4737484",
         "bodyHash": "sha256:d7c6d39e19e2fb58"
       },
@@ -30907,12 +31157,14 @@
           "sourceContentHash": "sha256:a39194b2f4737484",
           "sourceBodyHash": "sha256:d7c6d39e19e2fb58",
           "translatedAt": "2026-05-01T08:56:11+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "dd39065b",
+          "translationLastModified": "2026-06-10T17:45:23+08:00",
           "inferred": false,
           "footnoteDefs": 35,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/People/hebe-tien-singer.md",
@@ -30925,8 +31177,10 @@
           "translationLastModified": "2026-06-09T04:26:56+08:00",
           "inferred": false,
           "footnoteDefs": 35,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/People/hebe-tien-singer.md",
@@ -30939,8 +31193,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 35,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/People/hebe-tien-singer.md",
@@ -30953,8 +31209,10 @@
           "translationLastModified": "2026-05-20T12:37:22+08:00",
           "inferred": false,
           "footnoteDefs": 35,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/People/hebe-tien-singer.md",
@@ -30967,8 +31225,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 35,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         }
       }
     },
@@ -31774,8 +32034,8 @@
     },
     "People/草東沒有派對.md": {
       "zh": {
-        "lastCommit": "5db9f136",
-        "lastModified": "2026-05-09T01:11:48+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:c93963fdd3e6600a",
         "bodyHash": "sha256:5d39f10852397392"
       },
@@ -31791,8 +32051,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 19,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         },
         "ja": {
           "path": "ja/People/no-party-for-cao-dong.md",
@@ -31805,8 +32067,10 @@
           "translationLastModified": "2026-06-09T04:26:56+08:00",
           "inferred": false,
           "footnoteDefs": 19,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         },
         "ko": {
           "path": "ko/People/no-party-for-cao-dong.md",
@@ -31819,8 +32083,10 @@
           "translationLastModified": "2026-06-09T04:26:56+08:00",
           "inferred": false,
           "footnoteDefs": 19,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         },
         "es": {
           "path": "es/People/no-party-for-cao-dong.md",
@@ -31833,8 +32099,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 19,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         },
         "fr": {
           "path": "fr/People/no-party-for-cao-dong.md",
@@ -31847,8 +32115,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 19,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         }
       }
     },
@@ -31934,8 +32204,8 @@
     },
     "People/沈伯洋.md": {
       "zh": {
-        "lastCommit": "5db9f136",
-        "lastModified": "2026-05-09T01:11:48+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:264471f17f1dd86d",
         "bodyHash": "sha256:ff76539057c18498"
       },
@@ -31951,8 +32221,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 64,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/People/puma-shen.md",
@@ -31965,8 +32237,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 64,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/People/puma-shen.md",
@@ -31981,8 +32255,8 @@
           "footnoteDefs": 64,
           "status": "stale",
           "reason": "zh-moved-forward",
-          "commitsBehind": 5,
-          "diffSummary": "+305 -12"
+          "commitsBehind": 6,
+          "diffSummary": "+299 -14"
         },
         "es": {
           "path": "es/People/puma-shen.md",
@@ -31997,8 +32271,8 @@
           "footnoteDefs": 64,
           "status": "stale",
           "reason": "zh-moved-forward",
-          "commitsBehind": 5,
-          "diffSummary": "+305 -12"
+          "commitsBehind": 6,
+          "diffSummary": "+299 -14"
         },
         "fr": {
           "path": "fr/People/puma-shen.md",
@@ -32011,8 +32285,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 64,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         }
       }
     },
@@ -32898,8 +33174,8 @@
     },
     "People/黃山料.md": {
       "zh": {
-        "lastCommit": "fcc2a6a6",
-        "lastModified": "2026-06-07T21:00:42+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:dba98b3ec5b142b0",
         "bodyHash": "sha256:a1dcff0ad13c1e91"
       },
@@ -32915,8 +33191,10 @@
           "translationLastModified": "2026-06-09T04:26:56+08:00",
           "inferred": false,
           "footnoteDefs": 42,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 2,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/People/huang-shan-liao.md",
@@ -32929,8 +33207,10 @@
           "translationLastModified": "2026-06-09T04:26:56+08:00",
           "inferred": false,
           "footnoteDefs": 42,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 2,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/People/huang-shan-liao.md",
@@ -32943,8 +33223,10 @@
           "translationLastModified": "2026-06-09T04:26:56+08:00",
           "inferred": false,
           "footnoteDefs": 42,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 2,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/People/huang-shan-liao.md",
@@ -32957,8 +33239,10 @@
           "translationLastModified": "2026-06-09T04:26:56+08:00",
           "inferred": false,
           "footnoteDefs": 42,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 2,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/People/huang-shan-liao.md",
@@ -32971,8 +33255,10 @@
           "translationLastModified": "2026-06-10T06:28:36+08:00",
           "inferred": false,
           "footnoteDefs": 42,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 2,
+          "diffSummary": "+4 -12"
         }
       }
     },
@@ -33218,8 +33504,8 @@
     },
     "People/許倬雲.md": {
       "zh": {
-        "lastCommit": "3951afb0",
-        "lastModified": "2026-06-01T23:11:22+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:b128007e07e1536d",
         "bodyHash": "sha256:6a51eda75b8ff9c7"
       },
@@ -33235,8 +33521,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 68,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/People/cho-yun-hsu-bridging-historian.md",
@@ -33249,8 +33537,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 68,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/People/cho-yun-hsu-bridging-historian.md",
@@ -33263,8 +33553,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 68,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/People/cho-yun-hsu-bridging-historian.md",
@@ -33277,8 +33569,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 68,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/People/cho-yun-hsu-bridging-historian.md",
@@ -33291,15 +33585,17 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 68,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         }
       }
     },
     "People/陳建年.md": {
       "zh": {
-        "lastCommit": "63bc1ff9",
-        "lastModified": "2026-05-24T23:10:05+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:cac2669b66f68dc6",
         "bodyHash": "sha256:7b2313f41ac13889"
       },
@@ -33315,8 +33611,10 @@
           "translationLastModified": "2026-05-25T06:23:20+08:00",
           "inferred": false,
           "footnoteDefs": 27,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/People/chen-chien-nien.md",
@@ -33329,8 +33627,10 @@
           "translationLastModified": "2026-05-25T06:23:20+08:00",
           "inferred": false,
           "footnoteDefs": 27,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/People/chen-chien-nien.md",
@@ -33343,8 +33643,10 @@
           "translationLastModified": "2026-05-25T06:23:20+08:00",
           "inferred": false,
           "footnoteDefs": 27,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/People/chen-chien-nien.md",
@@ -33357,8 +33659,10 @@
           "translationLastModified": "2026-05-25T05:49:38+08:00",
           "inferred": false,
           "footnoteDefs": 27,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/People/chen-chien-nien.md",
@@ -33371,8 +33675,10 @@
           "translationLastModified": "2026-05-25T06:23:20+08:00",
           "inferred": false,
           "footnoteDefs": 27,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         }
       }
     },
@@ -33778,8 +34084,8 @@
     },
     "People/鄭愁予.md": {
       "zh": {
-        "lastCommit": "3951afb0",
-        "lastModified": "2026-06-01T23:11:22+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:086f24d0c1633e3e",
         "bodyHash": "sha256:f40f6f8b3d6781ad"
       },
@@ -33795,8 +34101,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 12,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         },
         "ja": {
           "path": "ja/People/cheng-chou-yu-poet.md",
@@ -33809,8 +34117,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 12,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         },
         "ko": {
           "path": "ko/People/cheng-chou-yu-poet.md",
@@ -33823,8 +34133,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 12,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         },
         "es": {
           "path": "es/People/cheng-chou-yu-poet.md",
@@ -33837,8 +34149,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 12,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         },
         "fr": {
           "path": "fr/People/cheng-chou-yu-poet.md",
@@ -33851,8 +34165,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 12,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         }
       }
     },
@@ -34258,8 +34574,8 @@
     },
     "People/尹衍樑.md": {
       "zh": {
-        "lastCommit": "3951afb0",
-        "lastModified": "2026-06-01T23:11:22+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:232e75e6f0a55e9d",
         "bodyHash": "sha256:72b70b205da94b86"
       },
@@ -34275,8 +34591,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 40,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/People/samuel-yin-yan-liang.md",
@@ -34289,8 +34607,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 40,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/People/samuel-yin-yan-liang.md",
@@ -34303,8 +34623,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 40,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/People/samuel-yin-yan-liang.md",
@@ -34317,8 +34639,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 40,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/People/samuel-yin-yan-liang.md",
@@ -34331,8 +34655,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 40,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         }
       }
     },
@@ -35780,8 +36106,8 @@
       "zh": {
         "lastCommit": "4b6d28c5",
         "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:87f54ad98e5a6fd1",
-        "bodyHash": "sha256:b0bcf45b1cb74d70"
+        "contentHash": "sha256:857be7a4bbbfd39e",
+        "bodyHash": "sha256:4cd8b15c2ccbd283"
       },
       "translations": {
         "en": {
@@ -35795,8 +36121,8 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (74→0)"
         },
         "ja": {
           "path": "ja/People/mona-rudao.md",
@@ -35809,8 +36135,8 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (74→0)"
         },
         "ko": {
           "path": "ko/People/mona-rudao.md",
@@ -35823,8 +36149,8 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (74→0)"
         },
         "es": {
           "path": "es/People/mona-rudao.md",
@@ -35837,8 +36163,8 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (74→0)"
         },
         "fr": {
           "path": "fr/People/mona-rudao.md",
@@ -35851,8 +36177,8 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (74→0)"
         }
       }
     },
@@ -37538,8 +37864,8 @@
     },
     "People/韓國瑜.md": {
       "zh": {
-        "lastCommit": "86db85f3",
-        "lastModified": "2026-05-13T21:36:07+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:43806fa3b9658513",
         "bodyHash": "sha256:fe00573219684528"
       },
@@ -37555,8 +37881,10 @@
           "translationLastModified": "2026-05-26T08:08:43+08:00",
           "inferred": false,
           "footnoteDefs": 9,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         },
         "ja": {
           "path": "ja/People/han-kuo-yu.md",
@@ -37569,8 +37897,10 @@
           "translationLastModified": "2026-05-26T08:08:43+08:00",
           "inferred": false,
           "footnoteDefs": 9,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         },
         "ko": {
           "path": "ko/People/han-kuo-yu.md",
@@ -37583,8 +37913,10 @@
           "translationLastModified": "2026-05-26T08:08:43+08:00",
           "inferred": false,
           "footnoteDefs": 9,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         },
         "es": {
           "path": "es/People/han-kuo-yu.md",
@@ -37593,12 +37925,14 @@
           "sourceContentHash": "sha256:43806fa3b9658513",
           "sourceBodyHash": "sha256:fe00573219684528",
           "translatedAt": "2026-05-26T21:07:27Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "dd39065b",
+          "translationLastModified": "2026-06-10T17:45:23+08:00",
           "inferred": false,
           "footnoteDefs": 9,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         },
         "fr": {
           "path": "fr/People/han-kuo-yu.md",
@@ -38748,8 +39082,8 @@
     },
     "People/嚴長壽.md": {
       "zh": {
-        "lastCommit": "5db9f136",
-        "lastModified": "2026-05-09T01:11:48+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:bf2c8c297d2e1acd",
         "bodyHash": "sha256:c4adf4d38cbc289a"
       },
@@ -38765,8 +39099,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 24,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -5"
         },
         "ja": {
           "path": "ja/People/stanley-yen.md",
@@ -38779,8 +39115,10 @@
           "translationLastModified": "2026-05-20T12:37:22+08:00",
           "inferred": false,
           "footnoteDefs": 24,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -5"
         },
         "ko": {
           "path": "ko/People/stanley-yen.md",
@@ -38793,8 +39131,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 24,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -5"
         },
         "es": {
           "path": "es/People/stanley-yen.md",
@@ -38807,8 +39147,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 24,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -5"
         },
         "fr": {
           "path": "fr/People/stanley-yen.md",
@@ -38821,8 +39163,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 24,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -5"
         }
       }
     },
@@ -39308,8 +39652,8 @@
     },
     "People/林琪兒.md": {
       "zh": {
-        "lastCommit": "ef5cba7c",
-        "lastModified": "2026-05-08T20:37:41+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:ed644880c93bcac8",
         "bodyHash": "sha256:4fd6e96bb27bc80b"
       },
@@ -40348,8 +40692,8 @@
     },
     "People/賈永婕.md": {
       "zh": {
-        "lastCommit": "0b2c2a33",
-        "lastModified": "2026-05-09T10:56:01+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:a92f6a6b22257ffa",
         "bodyHash": "sha256:3a5ef98d636f1bfa"
       },
@@ -40421,8 +40765,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 34,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         }
       }
     },
@@ -42188,8 +42534,8 @@
     },
     "People/鄭麗文.md": {
       "zh": {
-        "lastCommit": "5db9f136",
-        "lastModified": "2026-05-09T01:11:48+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:d7d8adfe5a1c7158",
         "bodyHash": "sha256:119c3d104b24e9dd"
       },
@@ -42205,8 +42551,10 @@
           "translationLastModified": "2026-06-09T11:27:50+08:00",
           "inferred": false,
           "footnoteDefs": 21,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -2"
         },
         "ja": {
           "path": "ja/People/cheng-li-wun.md",
@@ -42219,8 +42567,10 @@
           "translationLastModified": "2026-06-09T11:27:50+08:00",
           "inferred": false,
           "footnoteDefs": 21,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -2"
         },
         "ko": {
           "path": "ko/People/cheng-li-wun.md",
@@ -43068,8 +43418,8 @@
     },
     "People/馬英九.md": {
       "zh": {
-        "lastCommit": "3951afb0",
-        "lastModified": "2026-06-01T23:11:22+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:638d3a0f5fb85b4f",
         "bodyHash": "sha256:054579b8b6abb208"
       },
@@ -43085,8 +43435,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 43,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/People/ma-ying-jeou-cross-strait-reconciliation-leader.md",
@@ -43099,8 +43451,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 43,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/People/ma-ying-jeou-cross-strait-reconciliation-leader.md",
@@ -43113,8 +43467,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 43,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/People/ma-ying-jeou-cross-strait-reconciliation-leader.md",
@@ -43127,8 +43483,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 43,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/People/ma-ying-jeou-cross-strait-reconciliation-leader.md",
@@ -43141,8 +43499,10 @@
           "translationLastModified": "2026-06-02T01:19:52+08:00",
           "inferred": false,
           "footnoteDefs": 43,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         }
       }
     },
@@ -43388,8 +43748,8 @@
     },
     "People/聶永真.md": {
       "zh": {
-        "lastCommit": "1993f212",
-        "lastModified": "2026-06-04T11:14:58+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:669edb7f4c118cc5",
         "bodyHash": "sha256:389438b7aa71a102"
       },
@@ -43405,8 +43765,10 @@
           "translationLastModified": "2026-06-06T01:53:35+08:00",
           "inferred": false,
           "footnoteDefs": 31,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/People/nieh-yung-jen.md",
@@ -43419,8 +43781,10 @@
           "translationLastModified": "2026-06-06T01:53:35+08:00",
           "inferred": false,
           "footnoteDefs": 31,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/People/nieh-yung-jen.md",
@@ -43433,8 +43797,10 @@
           "translationLastModified": "2026-06-06T01:53:35+08:00",
           "inferred": false,
           "footnoteDefs": 31,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/People/nieh-yung-jen.md",
@@ -43447,8 +43813,10 @@
           "translationLastModified": "2026-06-06T01:53:35+08:00",
           "inferred": false,
           "footnoteDefs": 31,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/People/nieh-yung-jen.md",
@@ -43461,8 +43829,10 @@
           "translationLastModified": "2026-06-06T01:53:35+08:00",
           "inferred": false,
           "footnoteDefs": 31,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         }
       }
     },
@@ -43948,8 +44318,8 @@
     },
     "People/李洋.md": {
       "zh": {
-        "lastCommit": "5db9f136",
-        "lastModified": "2026-05-09T01:11:48+08:00",
+        "lastCommit": "fef3e119",
+        "lastModified": "2026-06-10T18:30:15+08:00",
         "contentHash": "sha256:96f1d5630278a964",
         "bodyHash": "sha256:57937e9b25b2f462"
       },
@@ -43961,12 +44331,14 @@
           "sourceContentHash": "sha256:96f1d5630278a964",
           "sourceBodyHash": "sha256:57937e9b25b2f462",
           "translatedAt": "2026-05-01T13:19:11+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "dd39065b",
+          "translationLastModified": "2026-06-10T17:45:23+08:00",
           "inferred": false,
           "footnoteDefs": 30,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+8 -15"
         },
         "ja": {
           "path": "ja/People/lee-yang-badminton.md",
@@ -43979,8 +44351,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 30,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+8 -15"
         },
         "ko": {
           "path": "ko/People/lee-yang-badminton.md",
@@ -43993,8 +44367,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 30,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+8 -15"
         },
         "es": {
           "path": "es/People/lee-yang-badminton.md",
@@ -44007,8 +44383,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 30,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+8 -15"
         },
         "fr": {
           "path": "fr/People/lee-yang-badminton.md",
@@ -44021,8 +44399,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 30,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+8 -15"
         }
       }
     },
@@ -47708,8 +48088,8 @@
     },
     "Food/台灣美食總覽.md": {
       "zh": {
-        "lastCommit": "66e6cae1",
-        "lastModified": "2026-05-27T13:31:19+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:a85e988c90e94e31",
         "bodyHash": "sha256:08f30e675ba550e9"
       },
@@ -47725,8 +48105,10 @@
           "translationLastModified": "2026-05-28T06:12:46+08:00",
           "inferred": false,
           "footnoteDefs": 70,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/Food/taiwan-food-overview.md",
@@ -47739,8 +48121,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 70,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/Food/taiwan-food-overview.md",
@@ -47753,8 +48137,10 @@
           "translationLastModified": "2026-05-28T06:12:46+08:00",
           "inferred": false,
           "footnoteDefs": 70,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/Food/taiwan-food-overview.md",
@@ -47767,8 +48153,10 @@
           "translationLastModified": "2026-05-28T06:12:46+08:00",
           "inferred": false,
           "footnoteDefs": 70,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/Food/taiwan-food-overview.md",
@@ -47781,8 +48169,10 @@
           "translationLastModified": "2026-05-28T06:12:46+08:00",
           "inferred": false,
           "footnoteDefs": 70,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         }
       }
     },
@@ -48748,8 +49138,8 @@
     },
     "Food/蘋果西打.md": {
       "zh": {
-        "lastCommit": "c916f28d",
-        "lastModified": "2026-05-19T07:13:04+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:d5c03b3e99b6070e",
         "bodyHash": "sha256:9492c1f3797c0e5c"
       },
@@ -48765,8 +49155,10 @@
           "translationLastModified": "2026-05-20T06:14:13+08:00",
           "inferred": false,
           "footnoteDefs": 26,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/Food/apple-cider.md",
@@ -48779,8 +49171,10 @@
           "translationLastModified": "2026-05-20T06:14:13+08:00",
           "inferred": false,
           "footnoteDefs": 26,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/Food/apple-cider.md",
@@ -48793,8 +49187,10 @@
           "translationLastModified": "2026-05-20T06:14:13+08:00",
           "inferred": false,
           "footnoteDefs": 26,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/Food/apple-cider.md",
@@ -48807,8 +49203,10 @@
           "translationLastModified": "2026-05-20T06:14:13+08:00",
           "inferred": false,
           "footnoteDefs": 26,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/Food/apple-cider.md",
@@ -48821,8 +49219,10 @@
           "translationLastModified": "2026-05-20T06:14:13+08:00",
           "inferred": false,
           "footnoteDefs": 26,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         }
       }
     },
@@ -51472,8 +51872,8 @@
     },
     "History/臺灣前途決議文.md": {
       "zh": {
-        "lastCommit": "63bc1ff9",
-        "lastModified": "2026-05-24T23:10:05+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:d8a522bc82b5f1d6",
         "bodyHash": "sha256:c8ff273540a02078"
       },
@@ -51489,8 +51889,10 @@
           "translationLastModified": "2026-05-25T06:23:20+08:00",
           "inferred": false,
           "footnoteDefs": 29,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/History/resolution-on-taiwans-future.md",
@@ -51503,8 +51905,10 @@
           "translationLastModified": "2026-05-25T06:23:20+08:00",
           "inferred": false,
           "footnoteDefs": 29,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/History/resolution-on-taiwans-future.md",
@@ -51517,8 +51921,10 @@
           "translationLastModified": "2026-05-25T06:23:20+08:00",
           "inferred": false,
           "footnoteDefs": 29,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "es": {
           "path": "es/History/resolution-on-taiwans-future.md",
@@ -51531,8 +51937,10 @@
           "translationLastModified": "2026-05-25T05:49:38+08:00",
           "inferred": false,
           "footnoteDefs": 29,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/History/resolution-on-taiwans-future.md",
@@ -51545,8 +51953,10 @@
           "translationLastModified": "2026-05-25T06:23:20+08:00",
           "inferred": false,
           "footnoteDefs": 29,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -12"
         }
       }
     },
@@ -51792,8 +52202,8 @@
     },
     "History/台灣民主轉型.md": {
       "zh": {
-        "lastCommit": "3ec013e6",
-        "lastModified": "2026-05-17T22:14:32+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:85252455c0ed43e6",
         "bodyHash": "sha256:5c7fc1f11ad28097"
       },
@@ -51805,12 +52215,14 @@
           "sourceContentHash": "sha256:85252455c0ed43e6",
           "sourceBodyHash": "sha256:5c7fc1f11ad28097",
           "translatedAt": "2026-05-18T05:08:07+08:00",
-          "translationLastCommit": "d106a126",
-          "translationLastModified": "2026-05-18T09:47:16+08:00",
+          "translationLastCommit": "dd39065b",
+          "translationLastModified": "2026-06-10T17:45:23+08:00",
           "inferred": false,
           "footnoteDefs": 21,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -3"
         },
         "ja": {
           "path": "ja/History/taiwan-democratization.md",
@@ -51823,8 +52235,10 @@
           "translationLastModified": "2026-06-09T04:26:56+08:00",
           "inferred": false,
           "footnoteDefs": 21,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -3"
         },
         "ko": {
           "path": "ko/History/taiwan-democratization.md",
@@ -51837,8 +52251,10 @@
           "translationLastModified": "2026-05-18T09:47:16+08:00",
           "inferred": false,
           "footnoteDefs": 21,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -3"
         },
         "es": {
           "path": "es/History/taiwan-democratization.md",
@@ -51847,12 +52263,14 @@
           "sourceContentHash": "sha256:85252455c0ed43e6",
           "sourceBodyHash": "sha256:5c7fc1f11ad28097",
           "translatedAt": "2026-05-18T05:08:09+08:00",
-          "translationLastCommit": "d106a126",
-          "translationLastModified": "2026-05-18T09:47:16+08:00",
+          "translationLastCommit": "dd39065b",
+          "translationLastModified": "2026-06-10T17:45:23+08:00",
           "inferred": false,
           "footnoteDefs": 21,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -3"
         },
         "fr": {
           "path": "fr/History/taiwan-democratization.md",
@@ -51861,12 +52279,14 @@
           "sourceContentHash": "sha256:85252455c0ed43e6",
           "sourceBodyHash": "sha256:5c7fc1f11ad28097",
           "translatedAt": "2026-05-18T05:08:09+08:00",
-          "translationLastCommit": "d106a126",
-          "translationLastModified": "2026-05-18T09:47:16+08:00",
+          "translationLastCommit": "dd39065b",
+          "translationLastModified": "2026-06-10T17:45:23+08:00",
           "inferred": false,
           "footnoteDefs": 21,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -3"
         }
       }
     },
@@ -52352,8 +52772,8 @@
     },
     "History/國家人權博物館.md": {
       "zh": {
-        "lastCommit": "91eb4403",
-        "lastModified": "2026-06-02T23:09:45+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:2f06c4f836b83834",
         "bodyHash": "sha256:a49e0a9584cc26cc"
       },
@@ -52369,8 +52789,10 @@
           "translationLastModified": "2026-06-03T00:41:35+08:00",
           "inferred": false,
           "footnoteDefs": 40,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         },
         "ja": {
           "path": "ja/History/national-human-rights-museum.md",
@@ -52383,8 +52805,10 @@
           "translationLastModified": "2026-06-03T00:41:35+08:00",
           "inferred": false,
           "footnoteDefs": 40,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         },
         "ko": {
           "path": "ko/History/national-human-rights-museum.md",
@@ -52397,8 +52821,10 @@
           "translationLastModified": "2026-06-03T00:41:35+08:00",
           "inferred": false,
           "footnoteDefs": 40,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         },
         "es": {
           "path": "es/History/national-human-rights-museum.md",
@@ -52411,8 +52837,10 @@
           "translationLastModified": "2026-06-03T00:41:35+08:00",
           "inferred": false,
           "footnoteDefs": 40,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         },
         "fr": {
           "path": "fr/History/national-human-rights-museum.md",
@@ -52425,8 +52853,10 @@
           "translationLastModified": "2026-06-03T00:41:35+08:00",
           "inferred": false,
           "footnoteDefs": 40,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -6"
         }
       }
     },
@@ -53632,8 +54062,8 @@
     },
     "History/台海危機與兩岸關係發展.md": {
       "zh": {
-        "lastCommit": "7b8c0d48",
-        "lastModified": "2026-05-23T00:06:51+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:fcdf343dc3efa72e",
         "bodyHash": "sha256:8952fca56720f010"
       },
@@ -53649,8 +54079,10 @@
           "translationLastModified": "2026-05-26T08:08:43+08:00",
           "inferred": false,
           "footnoteDefs": 9,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -3"
         },
         "ja": {
           "path": "ja/History/taiwan-strait-crises-and-cross-strait-relations.md",
@@ -53663,8 +54095,10 @@
           "translationLastModified": "2026-05-26T08:08:43+08:00",
           "inferred": false,
           "footnoteDefs": 9,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -3"
         },
         "ko": {
           "path": "ko/History/taiwan-strait-crises-and-cross-strait-relations.md",
@@ -53677,8 +54111,10 @@
           "translationLastModified": "2026-05-26T08:11:11+08:00",
           "inferred": false,
           "footnoteDefs": 9,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -3"
         },
         "es": {
           "path": "es/History/taiwan-strait-crises-and-cross-strait-relations.md",
@@ -53691,8 +54127,10 @@
           "translationLastModified": "2026-05-26T08:08:43+08:00",
           "inferred": false,
           "footnoteDefs": 9,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -3"
         },
         "fr": {
           "path": "fr/History/taiwan-strait-crises-and-cross-strait-relations.md",
@@ -53705,8 +54143,10 @@
           "translationLastModified": "2026-05-26T08:08:43+08:00",
           "inferred": false,
           "footnoteDefs": 9,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -3"
         }
       }
     },
@@ -58832,8 +59272,8 @@
     },
     "Culture/台灣宗教與寺廟文化.md": {
       "zh": {
-        "lastCommit": "5db9f136",
-        "lastModified": "2026-05-09T01:11:48+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:8d534bf965b094a9",
         "bodyHash": "sha256:ef11b70d69d87737"
       },
@@ -58849,8 +59289,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 45,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -5"
         },
         "ja": {
           "path": "ja/Culture/taiwan-religion-and-temple-culture.md",
@@ -58863,8 +59305,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 45,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -5"
         },
         "ko": {
           "path": "ko/Culture/taiwan-religion-and-temple-culture.md",
@@ -58877,8 +59321,10 @@
           "translationLastModified": "2026-06-09T04:26:56+08:00",
           "inferred": false,
           "footnoteDefs": 45,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -5"
         },
         "es": {
           "path": "es/Culture/taiwan-religion-and-temple-culture.md",
@@ -58891,8 +59337,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 45,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -5"
         },
         "fr": {
           "path": "fr/Culture/taiwan-religion-and-temple-culture.md",
@@ -58905,8 +59353,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 45,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -5"
         }
       }
     },
@@ -59392,8 +59842,8 @@
     },
     "Culture/天燈.md": {
       "zh": {
-        "lastCommit": "f41a0fb8",
-        "lastModified": "2026-06-03T10:17:34+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:3aee5165c69ac020",
         "bodyHash": "sha256:d0f05c3694c2e800"
       },
@@ -59409,8 +59859,10 @@
           "translationLastModified": "2026-06-03T22:34:33+08:00",
           "inferred": false,
           "footnoteDefs": 36,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+4 -12"
         },
         "ja": {
           "path": "ja/Culture/sky-lanterns-pingxi.md",
@@ -59423,8 +59875,10 @@
           "translationLastModified": "2026-06-03T22:34:33+08:00",
           "inferred": false,
           "footnoteDefs": 36,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+4 -12"
         },
         "ko": {
           "path": "ko/Culture/sky-lanterns-pingxi.md",
@@ -59451,8 +59905,10 @@
           "translationLastModified": "2026-06-03T22:34:33+08:00",
           "inferred": false,
           "footnoteDefs": 36,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+4 -12"
         },
         "fr": {
           "path": "fr/Culture/sky-lanterns-pingxi.md",
@@ -63312,8 +63768,8 @@
     },
     "Culture/台灣感性.md": {
       "zh": {
-        "lastCommit": "85926aa3",
-        "lastModified": "2026-05-17T00:31:47+08:00",
+        "lastCommit": "dd39065b",
+        "lastModified": "2026-06-10T17:45:23+08:00",
         "contentHash": "sha256:413833a72961c88e",
         "bodyHash": "sha256:9858a809538deaaf"
       },
@@ -63329,8 +63785,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 16,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+13 -4"
         },
         "ja": {
           "path": "ja/Culture/taiwanese-sensibility.md",
@@ -63343,8 +63801,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 16,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+13 -4"
         },
         "ko": {
           "path": "ko/Culture/taiwanese-sensibility.md",
@@ -63357,8 +63817,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 16,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+13 -4"
         },
         "es": {
           "path": "es/Culture/taiwanese-sensibility.md",

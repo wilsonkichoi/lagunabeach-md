@@ -2,7 +2,7 @@
   "totalArticles": 4769,
   "totalCategories": 20,
   "estimatedContributors": 57,
-  "totalTags": 6256,
+  "totalTags": 6252,
   "categories": [
     {
       "name": "es",
@@ -171,7 +171,7 @@
     "zh-TW": 4769,
     "en": 0
   },
-  "lastUpdated": "2026-06-10T05:13:12.604Z",
+  "lastUpdated": "2026-06-10T15:10:03.313Z",
   "stars": 1028,
   "forks": 150,
   "zhPages": 3972,

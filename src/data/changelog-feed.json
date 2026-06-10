@@ -1,7 +1,127 @@
 {
-  "generatedAt": "2026-06-10T05:13:11.597Z",
+  "generatedAt": "2026-06-10T15:10:02.311Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "3e2244a55888e6ce1dcbdb9547b8e8ee4140f9d8",
+      "date": "2026-06-10T22:10:59+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-10-220308-twmd-maintainer-pm — vc=3 第三輪 chain 命中 + concurrent 莫那·魯道 dirty tree"
+    },
+    {
+      "hash": "1b9257df1a377efd513b0ac7f306857a8168863a",
+      "date": "2026-06-10T18:46:45+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-10-184059 孢子資料三段跳 + build 審計七修 收官 + diary 三把壞尺 + LESSONS 3 候選"
+    },
+    {
+      "hash": "d033c451dc19a1c15e22b2bafc236bcb45efa0f2",
+      "date": "2026-06-10T18:39:36+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 隨機探索改 lazy fetch — 拔掉每頁 50KB allArticles 內嵌（dist -250MB 預期）"
+    },
+    {
+      "hash": "ecbbcb53ef63778f422b919662068076e758b819",
+      "date": "2026-06-10T18:30:39+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: build pipeline 審計 + 六項修復 — 30 天 +56% 變慢歸因與 root cause"
+    },
+    {
+      "hash": "fef3e119903c24498907fc6876f4f1fa6a76ada6",
+      "date": "2026-06-10T18:30:15+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore-data: pointer 排序 tie-break 補 id + 李洋 一次性正規化 + 報告互指"
+    },
+    {
+      "hash": "861a81c278ea0f1aa7b470ddfe6c7a1bc50e0ec3",
+      "date": "2026-06-10T18:08:39+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 孢子 JSON SSOT 翻轉 — spore-log.json + spore-metrics.json 結構層 + spore-db CLI"
+    },
+    {
+      "hash": "7180838f673a647203438053ccb043b29b281f40",
+      "date": "2026-06-10T17:46:29+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: spore-records 輸出對齊 prettier indent=2 — 杜絕 regen 格式 phantom diff"
+    },
+    {
+      "hash": "dd39065b22cb7beffec1813fdd5fe51758a9847f",
+      "date": "2026-06-10T17:45:23+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore-data: sporeLinks 瘦身遷移 — 79 檔 metrics 移居 spores.json + 32 篇假新鮮日期回滾"
+    },
+    {
+      "hash": "ef5ab9210d056db408f9d0ee692bedd92ede6852",
+      "date": "2026-06-10T17:44:55+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 孢子資料解耦 — spores.json 完整記錄層 + 靜態 API + 文章 identity pointer"
+    },
+    {
+      "hash": "3080aba1b0d7fe629318655850702d4c660db034",
+      "date": "2026-06-10T17:38:05+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: opendata session v1.1 補記 — 寬度 token + 雙視覺 + 五語上線，handoff 兩項 retired"
+    },
+    {
+      "hash": "6a4ced67f7e349209ceb2e6094530885d5620c63",
+      "date": "2026-06-10T17:36:35+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] babel: /opendata 五語上線 — en/ja/ko/es/fr 完整翻譯 + 文章連結跨語言解析"
+    },
+    {
+      "hash": "7951b07402d1ec24ef9c592d30ccdafaef24b367",
+      "date": "2026-06-10T17:33:44+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diagnose: 四頁策展深度審視（首頁/關於/資源/參與）— 視覺全巡禮 + GA 漏斗 + 六條跨頁發現 + 分頁提案"
+    },
+    {
+      "hash": "eaa268888824468817594c5d916447b1c5b92cec",
+      "date": "2026-06-10T17:03:03+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: /opendata 寬度 token 遷移 + 兩個新資料視覺 — 哲宇 callout 三維評估太擠"
+    },
+    {
+      "hash": "2ddc3564f54c3c88156693671255b6d741c3c8df",
+      "date": "2026-06-10T16:56:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 哲宇要的東西三次都早已長在身體裡 — latest-ui 六輪迭代反芻"
+    },
+    {
+      "hash": "ec17abb4d002b7d3b60cca096dc08497e59df46f",
+      "date": "2026-06-10T13:22:46+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 收官清場時，另一個我的 diff 在我眼前變空 — 三實例同樹互治反芻"
+    },
+    {
+      "hash": "fdac7b045793d1acaed3d4b6255d2e4d5309a9e7",
+      "date": "2026-06-10T13:20:28+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-10-131606-opendata — Twinkle Hub 研究→pilot→策展頁→部署解封 四波連鎖收官 + LESSONS 3 候選"
+    },
+    {
+      "hash": "0d9060b9e4e17c4b922dd57af46d3b730cb009dc",
+      "date": "2026-06-10T13:17:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-10-131325-latest-ui — /latest 六輪 UI 迭代收官 + 2 LESSONS 候選"
+    },
+    {
+      "hash": "9a259db3545bf83b19dc0e46725cf0f196dd4c50",
+      "date": "2026-06-10T13:15:43+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 我下午收緊的閘門咬了一次部署，收官盤點時才發現已被另一個我治好 — 審計日反芻"
+    },
+    {
+      "hash": "411257cdbe067b786e739376cc2623015e4319ba",
+      "date": "2026-06-10T13:15:26+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 收 audit session（113753）遺留 — Politics 分類補進 5 個 config + about 頁數校正 4769+ + audit diary 落檔"
+    },
+    {
+      "hash": "a88bdd1193b37904a585b3393977951eae89a917",
+      "date": "2026-06-10T13:15:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: prebuild 衍生資料同步 — 孢子 engagement 回填 6 篇（嘻哈 #132 369L/39RP 等）+ dashboard API JSON 全套 regen"
+    },
     {
       "hash": "cd67bae20f89e1bf51a861c34b0136b6f0717c0b",
       "date": "2026-06-10T13:12:27+08:00",
