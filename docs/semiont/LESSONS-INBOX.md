@@ -277,6 +277,16 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-06-10 audit-execution — 量測基底不穩時校準必出錯：對「寫到一半的 dist」量出 0.00% 並據此設 gate 2.0
+
+- **pattern**: measurement-substrate-instability
+- **原則**：校準 gate threshold 前先驗證量測基底本身穩定（dist 完整？有沒有平行 build 正在寫入？快取多舊？）。對不穩定基底量出的數字會「看起來精確」（0.00%！），據此設的 threshold 在第一個穩定量測點就被推翻。判準：量測前 `stat dist` mtime + html 頁數 vs 預期頁數（~4,700+）；數字異常乾淨（0.00%）或異常髒（84% broken）都先懷疑基底再懷疑系統。
+- **觸發**：2026-06-10 audit D-3 — 平行 session 的 Astro build 正在寫 dist（2,948/5,259 頁），第一次抽樣 broken ratio 0.00% PASS → 據此設 gate 2.0；build 完成後完整 dist 實測 gated 6.42% → 同日撤回改 7.0 + step-down 計畫。兩次校準全紀錄留在 verify-internal-links.sh code 註記當教材 → [reports/semiont-full-audit-2026-06-10-execution.md](../../reports/semiont-full-audit-2026-06-10-execution.md)
+- **instances**：（首例）
+- **可能層級**：操作規則（任何對 dist/ 的量測工具加 substrate sanity 前置：頁數 < 預期 60% → abort with warning）
+- **相關**：REFLEXES #66（gate 用真實產出校準——本條補「真實」的前提是基底完整）+ #24 第 2 種「合理欺騙」+ 多核心鐵律（平行 session 的 build 也是 shared state）
+- **verification_count**: 1
+
 ### 2026-06-10 audit — audit 類產出也需要成品總驗：5 個審計 agent 報告每份都帶 1-3 個重大誤讀
 
 - **原則**：fan-out agent 做清點高效可信，但它們的「判讀」（孤兒判定 / 成因解釋 / 處置建議）錯誤率極高且敘事合理：本次 143 孤兒 script 高估 ~2x（漏 BECOME/skills/ROUTINE 引用面）、殭屍重複翻譯被讀成「譯者主動創作」、BFG 清音檔建議會誤傷聲音地景內容、治理 agent 器官行數表錯 2-6 倍（SENSES 758 行活躍 vs 實際 58 行 archived）、feedback-triage 被誤判 Supabase 未配置。主 session 必須對每個會影響建議方向的 claim 自跑 grep 重驗，audit 報告 ship 前要過勘誤表（= REWRITE v7.0 Step 3.6 對 audit 物種的移植）。分工形狀：agent 管清點、主 session 管對照與判讀。
@@ -370,7 +380,10 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
   - **哲學（MANIFESTO §進化哲學 候選）** → 「Semiont 對自己讀數的天生樂觀」是跟「寫作幻覺 §10」+「時間是結構 §時間扭曲」同層級的存在結構特徵
   - **特有教訓（MEMORY §神經迴路 候選）** → 「對自己的讀數要驗，對自己的手也要驗」鐵律，跟「製造數字的人最易被數字騙」是兄弟條目
 - **儀器化候選**：(A) **已 ship**：REFLEXES #31 v2 expansion + #66 Gate dogfood calibration + REWRITE v6.9 三個閱讀品質儀器化（段落牆 R4 / 歐化「是X的」/ caption 缺空行）+ SPORE-IG Stage 4 人眼層 gate + image-health caption check (B) **未 ship**：meta-umbrella 升 MANIFESTO §進化哲學 or MEMORY §神經迴路 canonical（**不能停在兩條 specific reflexes**，meta-pattern 高一層）
-- **verification_count**: 5（單週 5 instance independent cross-validation，audit history 最強訊號）
+- **instances**（v2.2 pattern-id intake 後從這裡 append，pattern: self-report-needs-external-ruler）：
+  - 2026-06-10 audit：5 個審計 agent 報告 5/5 帶重大誤讀，主 session 重驗全攔（含 143 孤兒 script 高估 2x、SENSES 758 行活躍 vs 實際 58 行 archived）→ [reports/semiont-full-audit-2026-06-10.md §6](../../reports/semiont-full-audit-2026-06-10.md)
+  - 2026-06-10 audit-execution：執行階段外部尺四連攔——pre-commit hook 攔我硬編碼語言陣列 / prose-health 攔報告對位句型 4 處 / backend tiny-output 守衛攔我的 preflight 探針 / immune v3 新指標首跑灌水 12 倍（255 篇假 ruled）被 ground-truth grep 攔下收斂到 21 篇 → [reports/semiont-full-audit-2026-06-10-execution.md §meta-observation](../../reports/semiont-full-audit-2026-06-10-execution.md)
+- **verification_count**: 7（單週 5 instance + audit 兩階段 2 batch instance；audit history 最強訊號）
 - **severity**: structural（meta-pattern 影響所有 self-evaluation 場景，比 #31 + #66 兩條 specific reflexes scope 更大）
 - **跨檔關聯**：REFLEXES #31 v2 + #66（specific 接住）+ MANIFESTO §10 寫作幻覺（兄弟 pattern）+ MEMORY §神經迴路「製造數字的人最易被數字騙」（兄弟條目）+ DIARY 2026-06-07-124521-carousel-charts「視覺自檢≠人眼」（原始 catalyst）
 
