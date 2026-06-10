@@ -1,6 +1,22 @@
+---
+title: 'RATIONALE-SPEC'
+description: 'article-level rationale metadata 規格 — frontmatter 5 keys 紀錄寫作設計理由（awareness trigger）'
+type: 'editorial-canonical'
+status: 'canonical'
+current_version: 'v1.1'
+last_updated: 2026-06-10
+last_session: '2026-06-10-113753-audit'
+sister_docs:
+  - 'EDITORIAL.md'
+upstream_canonical:
+  - 'EDITORIAL.md'
+  - '../pipelines/REWRITE-PIPELINE.md'
+---
+
 # RATIONALE-SPEC: article-level rationale metadata 規格
 
 > _v1 2026-05-23 — 對應 issue #851 No2+No3 兩個方向 ship。Sister doc: REWRITE-PIPELINE Step 1.4.5 / EDITORIAL §六 / article-health rationale-presence plugin。_
+> _v1.1 2026-06-10 — 補 frontmatter（audit A-10：本檔是 docs/editorial/ 唯一沒 frontmatter 的檔，違反第六進化哲學 gating 範圍；漏網原因是 5/23 之後從未被 re-stage 過，pre-commit 檢查只掃 staged files）。_
 
 ---
 
@@ -25,23 +41,23 @@ title: '...'
 lastVerified: 2026-05-23
 lastHumanReview: true
 rationale:
-  why_this_hook: '...'      # required
-  whats_excluded: '...'     # required
-  where_it_hedges: '...'    # required
-  whos_pushing_back: '...'  # required
-  which_framing: '...'      # optional
+  why_this_hook: '...' # required
+  whats_excluded: '...' # required
+  where_it_hedges: '...' # required
+  whos_pushing_back: '...' # required
+  which_framing: '...' # optional
 ---
 ```
 
 ### Keys 說明
 
-| Key | 用途 | 必選 |
-|-----|------|------|
-| **why_this_hook** | 為什麼從這個 angle / moment / framing 切入 (vs 其他可能的 hook alternatives) | required |
-| **whats_excluded** | 排除了哪些對立論述 + 三選一理由 (薄弱 / 篇幅 / 不在範疇) | required |
-| **where_it_hedges** | prose 內哪些位置是 hedge 表述 (時點限定 / 區間估算 / 因果歸因觀察性 / 政治立場中性化) | required |
-| **whos_pushing_back** | 主要反對者陣營描述 OR multi-perspective article 可能被誤讀的位置 + 回應段 | required |
-| **which_framing** | framing 的來源 (議題類學界 framework anchor / 人物類策展 narrative devices / 或留空) | **optional** |
+| Key                   | 用途                                                                                  | 必選         |
+| --------------------- | ------------------------------------------------------------------------------------- | ------------ |
+| **why_this_hook**     | 為什麼從這個 angle / moment / framing 切入 (vs 其他可能的 hook alternatives)          | required     |
+| **whats_excluded**    | 排除了哪些對立論述 + 三選一理由 (薄弱 / 篇幅 / 不在範疇)                              | required     |
+| **where_it_hedges**   | prose 內哪些位置是 hedge 表述 (時點限定 / 區間估算 / 因果歸因觀察性 / 政治立場中性化) | required     |
+| **whos_pushing_back** | 主要反對者陣營描述 OR multi-perspective article 可能被誤讀的位置 + 回應段             | required     |
+| **which_framing**     | framing 的來源 (議題類學界 framework anchor / 人物類策展 narrative devices / 或留空)  | **optional** |
 
 ### Value 規則
 
@@ -71,12 +87,12 @@ rationale:
 
 ## 四、Stage 銜接
 
-| Stage / Doc | 跟 rationale 的關係 |
-|-------------|-------------------|
-| REWRITE-PIPELINE Stage 0.6 觀點成型 | 觀點成型的思考結果，結構化落地到 `why_this_hook` |
-| REWRITE-PIPELINE Step 1.4.5 perspective scan | perspective scan 結果落地到 `whats_excluded` |
-| EDITORIAL §二 找矛盾 / 物件 / 引語 / 場景 / 細節 | 自然落到 `why_this_hook` |
-| EDITORIAL §六 對位句型禁忌 | `whats_excluded` 提供合法的「我考慮過 Y 才選 Z」表達空間 (對立思考從 prose 移到 metadata) |
+| Stage / Doc                                      | 跟 rationale 的關係                                                                       |
+| ------------------------------------------------ | ----------------------------------------------------------------------------------------- |
+| REWRITE-PIPELINE Stage 0.6 觀點成型              | 觀點成型的思考結果，結構化落地到 `why_this_hook`                                          |
+| REWRITE-PIPELINE Step 1.4.5 perspective scan     | perspective scan 結果落地到 `whats_excluded`                                              |
+| EDITORIAL §二 找矛盾 / 物件 / 引語 / 場景 / 細節 | 自然落到 `why_this_hook`                                                                  |
+| EDITORIAL §六 對位句型禁忌                       | `whats_excluded` 提供合法的「我考慮過 Y 才選 Z」表達空間 (對立思考從 prose 移到 metadata) |
 
 ---
 
@@ -84,22 +100,23 @@ rationale:
 
 ### Check 邏輯
 
-| 條件 | Severity |
-|------|----------|
-| frontmatter 缺 `rationale:` block | WARN (強制類別) / INFO (建議類別) |
-| 4 required keys 任一缺失 / 空 / `[TODO]` | WARN (強制類別) / INFO (建議類別) |
-| Key 名字寫錯 (例 `why_hook` 不是 `why_this_hook`) | HARD (任何 category) |
-| `which_framing` 缺失 OR 空 | 0 violation (optional key) |
-| 內容詳盡度 | **不檢查** — 簡填 OK |
+| 條件                                              | Severity                          |
+| ------------------------------------------------- | --------------------------------- |
+| frontmatter 缺 `rationale:` block                 | WARN (強制類別) / INFO (建議類別) |
+| 4 required keys 任一缺失 / 空 / `[TODO]`          | WARN (強制類別) / INFO (建議類別) |
+| Key 名字寫錯 (例 `why_hook` 不是 `why_this_hook`) | HARD (任何 category)              |
+| `which_framing` 缺失 OR 空                        | 0 violation (optional key)        |
+| 內容詳盡度                                        | **不檢查** — 簡填 OK              |
 
 ### 強制 vs 建議分流
 
-| 判定 | 強制度 |
-|------|-------|
-| `category` ∈ {People, History, Society, Politics} | **強制** — release-pr profile WARN 升 fail，新文章 ship 前 4 keys 必填 |
-| `category` ∈ 其他 (Music / Food / Nature / Art / Culture / Technology / Geography 等) | **建議** — INFO 不擋 ship，dashboard 顯示覆蓋率 |
+| 判定                                                                                  | 強制度                                                                 |
+| ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| `category` ∈ {People, History, Society, Politics}                                     | **強制** — release-pr profile WARN 升 fail，新文章 ship 前 4 keys 必填 |
+| `category` ∈ 其他 (Music / Food / Nature / Art / Culture / Technology / Geography 等) | **建議** — INFO 不擋 ship，dashboard 顯示覆蓋率                        |
 
 **分流理由** (per issue #851 哲宇 Comment 8 Build 3 verbatim):
+
 > retrofit 200 篇填 rationale 太重 (短期內做不到)，但新文章可以 strict。建議類別維持寬鬆，避免 warn 變成噪音被作者忽略。
 
 ### Legacy article retrofit policy

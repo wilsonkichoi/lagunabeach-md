@@ -3,9 +3,9 @@ title: 'RESEARCH-TEMPLATE'
 description: '前期研究筆記模板 — REWRITE-PIPELINE Stage 1 輸出格式 SSOT'
 type: 'editorial-canonical'
 status: 'canonical'
-current_version: 'v1.0'
-last_updated: 2026-03-31
-last_session: 'historical'
+current_version: 'v1.1'
+last_updated: 2026-06-10
+last_session: '2026-06-10-113753-audit'
 sister_docs:
   - 'RESEARCH.md'
   - 'EDITORIAL.md'
@@ -20,6 +20,10 @@ upstream_canonical:
 > 這是 REWRITE-PIPELINE Stage 1 的輸出格式。
 > 每篇文章在動筆前，必須先完成這份研究筆記。
 > 品質標準見 EDITORIAL.md。
+>
+> **v1.1 對齊 RESEARCH.md v1.2-1.3 兩條鐵律**（2026-06-10 audit A-10 — 模板停在 v1.0 沒跟上方法論演進）：
+> (1) **證偽優先**：每個預備假設（含 INBOX 預載 hypothesis）的研究目標是 break 它，不是 confirm 它——蘇打綠 9/12 假設被推翻（含完全虛構的 Royal Albert Hall「亞洲首組」）即實證。
+> (2) **中文 verbatim**：任何可驗證的具體事實（時間/地點/動作/交通/數字/引語）不可從英文摘要推導；中文站用中文 prompt 要逐字（per RESEARCH.md §六 + REFLEXES #23 毒樹果實鏈）。
 
 ---
 

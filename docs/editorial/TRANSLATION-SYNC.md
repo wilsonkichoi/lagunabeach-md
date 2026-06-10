@@ -2,10 +2,15 @@
 title: 'TRANSLATION-SYNC'
 description: '翻譯同步報告 — 跨語言保持一致的規範與報告格式'
 type: 'editorial-canonical'
-status: 'canonical'
+status: 'archived'
+apoptosis: 'archived'
+superseded_by:
+  - '../pipelines/TRANSLATION-PIPELINE.md'
+  - '../pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md'
+  - 'scripts/tools/lang-sync/status.py（即時同步狀態 SSOT）'
 current_version: 'v1.0'
-last_updated: 2026-03-28
-last_session: 'historical'
+last_updated: 2026-06-10
+last_session: '2026-06-10-113753-audit'
 sister_docs:
   - 'EDITORIAL.md'
   - 'TERMINOLOGY.md'
@@ -16,6 +21,8 @@ upstream_canonical:
 ---
 
 # Taiwan.md Translation Sync Report
+
+> ⚠️ **ARCHIVED 2026-06-10（audit D-5 / A-10）**：本檔是 2026-03-25 的一次性凍結報告（401 篇 zh 時代），從未長成「跨語言一致規範」。該功能現由三處承擔：同步規範 → [TRANSLATION-PIPELINE](../pipelines/TRANSLATION-PIPELINE.md) + [SQUEEZE-MODELS-MAX](../pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md)；即時狀態 → `python3 scripts/tools/lang-sync/status.py` + `/api/dashboard-i18n.json`。保留作歷史證據鏈。
 
 Generated: 2026-03-25 09:47
 
