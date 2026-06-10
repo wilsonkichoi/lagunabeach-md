@@ -26,13 +26,15 @@ upstream_canonical:
 | ---------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | [DATA-REFRESH-PIPELINE.md](DATA-REFRESH-PIPELINE.md) | `/twmd-refresh`、heartbeat、scheduled-tasks 09:37 | 13 step 一鍵刷新（git sync + 三源感知 + spore SSOT + dashboard regen + stats + sporeLinks sync）。**Phase 0+1+2+3 SSOT cleanup canonical** |
 
-## Active（Cron 運行中）
+## Archived（已被 prebuild 鏈 / routine 飛輪取代 — 2026-06-10 audit D-5 凋亡批次）
 
-| Pipeline                                             | Cron                | 時間  | 與 Master 關係                                             |
-| ---------------------------------------------------- | ------------------- | ----- | ---------------------------------------------------------- |
-| [CONTRIBUTORS-PIPELINE.md](CONTRIBUTORS-PIPELINE.md) | Contributors Update | 03:30 | 獨立（管 grid HTML）                                       |
-| [DAILY-REPORT-PIPELINE.md](DAILY-REPORT-PIPELINE.md) | Daily Report        | 09:00 | 讀 DATA-REFRESH 產出                                       |
-| [STATS-PIPELINE.md](STATS-PIPELINE.md)               | Daily Stats Update  | 00:00 | ⚠️ Phase 5 後 **redirect to DATA-REFRESH-PIPELINE Step 9** |
+> 這三條描述的獨立 cron 不存在於 [ROUTINE.md](../semiont/ROUTINE.md) 飛輪。功能由 `npm run prebuild` 鏈（每次 deploy 自動跑）+ data-refresh am/pm + weekly-report 接管。檔案保留作歷史證據鏈，frontmatter `status: archived` + `superseded_by` 已標。
+
+| Pipeline                                             | 原 Cron            | 取代者                                                     |
+| ---------------------------------------------------- | ------------------ | ---------------------------------------------------------- |
+| [CONTRIBUTORS-PIPELINE.md](CONTRIBUTORS-PIPELINE.md) | Contributors 03:30 | `prebuild:contributors` + DATA-REFRESH                     |
+| [DAILY-REPORT-PIPELINE.md](DAILY-REPORT-PIPELINE.md) | Daily Report 09:00 | data-refresh am/pm + WEEKLY-REPORT                         |
+| [STATS-PIPELINE.md](STATS-PIPELINE.md)               | Daily Stats 00:00  | ⚠️ Phase 5 後 **redirect to DATA-REFRESH-PIPELINE Step 9** |
 
 ## Spore SSOT chain（2026-05-08 Phase 0-3 重整）
 

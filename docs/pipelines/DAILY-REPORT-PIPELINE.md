@@ -2,10 +2,14 @@
 title: 'DAILY-REPORT-PIPELINE'
 description: '每日 09:00 cron — GA4 流量 + 品質分數 + 社群動態 → 健康報告產出'
 type: 'pipeline-canonical'
-status: 'canonical'
+status: 'archived'
+apoptosis: 'archived'
+superseded_by:
+  - 'WEEKLY-REPORT-PIPELINE.md'
+  - 'DATA-REFRESH-PIPELINE.md'
 current_version: 'v1.0'
-last_updated: 2026-03-29
-last_session: 'historical'
+last_updated: 2026-06-10
+last_session: '2026-06-10-113753-audit'
 sister_docs:
   - 'DATA-REFRESH-PIPELINE.md'
   - 'STATS-PIPELINE.md'
@@ -16,6 +20,8 @@ upstream_canonical:
 ---
 
 # Daily Report Pipeline — 每日報告流程
+
+> ⚠️ **ARCHIVED 2026-06-10（audit D-5 apoptosis batch）**：「每日 09:00 cron 健康報告」從未進 ROUTINE.md 飛輪；其功能由 data-refresh am/pm（14-step 含三源感知）+ weekly-report（週日反芻）取代。upstream 的 SENSES.md 亦已 2026-05-13 apoptosis。本檔保留作歷史證據鏈（per MANIFESTO §時間是結構），不再跟隨執行。
 
 > 每天 09:00 (Asia/Taipei) 由 Cron 自動執行
 

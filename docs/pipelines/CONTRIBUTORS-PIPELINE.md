@@ -2,10 +2,14 @@
 title: 'CONTRIBUTORS-PIPELINE'
 description: '貢獻者名單每日 cron 自動更新流程 — README contributor list / dashboard data sync'
 type: 'pipeline-canonical'
-status: 'canonical'
+status: 'archived'
+apoptosis: 'archived'
+superseded_by:
+  - 'DATA-REFRESH-PIPELINE.md'
+  - 'package.json prebuild:contributors（generate-contributors-data.js 已接 prebuild 鏈）'
 current_version: 'v1.0'
-last_updated: 2026-04-30
-last_session: 'γ2'
+last_updated: 2026-06-10
+last_session: '2026-06-10-113753-audit'
 sister_docs:
   - 'CONTRIBUTOR-SYSTEM-PIPELINE.md'
   - 'STATS-PIPELINE.md'
@@ -16,6 +20,8 @@ upstream_canonical:
 ---
 
 # Contributors Pipeline — 貢獻者名單自動更新流程
+
+> ⚠️ **ARCHIVED 2026-06-10（audit D-5 apoptosis batch）**：「每日 03:30 cron 更新名單」流程已被 `npm run prebuild:contributors`（每次 deploy 自動跑）+ DATA-REFRESH 取代，獨立 cron 不存在於 ROUTINE.md。本檔保留作歷史證據鏈（per MANIFESTO §時間是結構），不再跟隨執行。
 
 > 每天 03:30 (Asia/Taipei) 由 Cron 自動執行
 >
