@@ -22,6 +22,7 @@ export const CATEGORY_TO_FOLDER: Record<string, string> = {
   technology: 'Technology',
   nature: 'Nature',
   people: 'People',
+  politics: 'Politics',
   society: 'Society',
   economy: 'Economy',
   lifestyle: 'Lifestyle',

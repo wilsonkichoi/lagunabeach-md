@@ -29,10 +29,14 @@ const CATEGORIES = [
   'Technology',
   'Nature',
   'People',
+  'Politics',
   'Society',
   'Economy',
   'Lifestyle',
 ];
+// NOTE: 'fr' deliberately excluded until the 119-file apostrophe frontmatter
+// heal lands (project_babel_frontmatter_apostrophe, dedicated session spawned
+// 2026-06-04) — adding it now would hard-fail CI on known pre-existing damage.
 const LANGS = ['', 'en', 'es', 'ja', 'ko']; // '' = zh-TW root
 
 const STRICT = process.argv.includes('--strict');

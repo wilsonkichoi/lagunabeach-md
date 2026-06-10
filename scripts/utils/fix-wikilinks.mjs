@@ -25,10 +25,11 @@ const CATEGORIES = [
   'Music',
   'Nature',
   'People',
+  'Politics',
   'Society',
   'Technology',
 ];
-const LANGS = ['', 'en', 'es', 'ja', 'ko'];
+const LANGS = ['', 'en', 'es', 'ja', 'ko', 'fr'];
 
 // ── Build article index ──
 const titleToFile = new Map(); // lowercase title → actual filename (without .md)

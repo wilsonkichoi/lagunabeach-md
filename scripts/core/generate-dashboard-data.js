@@ -51,6 +51,7 @@ const CATEGORIES = [
   'Music',
   'Nature',
   'People',
+  'Politics',
   'Society',
   'Technology',
 ];

@@ -22,6 +22,7 @@ const CATEGORY_MAP = {
   technology: 'Technology',
   nature: 'Nature',
   people: 'People',
+  politics: 'Politics',
   society: 'Society',
   economy: 'Economy',
   lifestyle: 'Lifestyle',
