@@ -536,7 +536,7 @@ memory/
 | 2026-06-10 | audit (113753) | 全身審計 ship `reports/semiont-full-audit-2026-06-10.md`：26 發現六層 + 7 洞察 + 五桶建議。新抓儀器層失真集群（CONSCIOUSNESS 警報停 4/30 / UNKNOWNS 冬眠 7 週 / vitals 計數漂移）+ en ~21 對殭屍重複翻譯 | 5 audit agent 報告 5/5 帶錯靠主 session 重驗攔下；跨層對照只有主 session 做得到 | [→](memory/2026-06-10-113753-audit.md) |
 | 2026-06-10 | audit-execution (113753) | 哲宇 blanket approval 後 16 項建議全執行 17 commits：immune 雙 SSOT 閉案 + v3 外部尺維度、警報 derived 化、殭屍翻譯 58 檔、babel preflight、巴別塔 per-lang 儀表首測（AI 讀翻譯版 5,782 > 中文 4,640）、Politics 七清單補登 | 外部尺四連攔審計者自己（hook/prose-health/probe 守衛/指標灌水），meta-umbrella vc 5→7 | [→](memory/2026-06-10-113753-audit-execution.md) |
 | 2026-06-10 | latest-ui (131325) | /latest 六輪 UI 迭代：ArticleCard row/detailed 統一 + TimelineDay 共用元件（/changelog 同骨架）+ 寬度 token 三檔 13 頁殼 + 16:10 縮圖/分類色 placeholder/今天徽章 | 排序 callout 驗證為同秒 batch tie 非 bug；平行 session 掃走未 commit 檔 | [→](memory/2026-06-10-131325-latest-ui.md) |
-| 2026-06-10 | opendata (131606) | Twinkle Hub 研究→6 篇公開數據 pilot（15 指標）→/opendata 策展頁（D3 資料星系 49 節點 + 三維評估 + 5 故事待寫）→部署解封 broken-link 6.67%→0.56%（staticRoutes 架構解） | alpha API 只做靜態指標不 runtime 依賴；路由存在性 filesystem-derived 不手維 | [→](memory/2026-06-10-131606-opendata.md) |
+| 2026-06-10 | opendata (131606) | Twinkle Hub 研究→6 篇公開數據 pilot（15 指標）→/opendata 策展頁（D3 資料星系 + 三維評估 + 5 故事待寫）→部署解封 6.67%→0.56%（staticRoutes 架構解）→五語上線 | alpha API 只做靜態指標不 runtime 依賴；路由存在性 filesystem-derived 不手維 | [→](memory/2026-06-10-131606-opendata.md) |
 
 ## 神經迴路（永不過期的教訓）
 
