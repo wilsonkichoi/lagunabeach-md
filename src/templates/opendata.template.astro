@@ -18,9 +18,27 @@ import PageHero from '../components/PageHero.astro';
 import { getLangFromUrl } from '../i18n/utils';
 import { OPENDATA_CONTENT, type OpendataLang } from '../data/opendata-content';
 import curation from '../data/opendata-curation.json';
+import langSwitchMap from '../../public/api/lang-switch-map.json';
 
 const lang = getLangFromUrl(Astro.url) as OpendataLang;
 const c = OPENDATA_CONTENT[lang] ?? OPENDATA_CONTENT['zh-TW'];
+
+// 文章連結跨語言解析：content 層的 href 一律寫 zh 路徑（SSOT），
+// 非中文頁面渲染時查 prebuilt lang-switch-map 換成該語言的譯版路徑；
+// 沒有譯版 → fallback zh（連得到內容，不 404）。
+const fromZh: Record<string, string> =
+  lang === 'zh-TW'
+    ? {}
+    : ((langSwitchMap as any).registry?.[lang]?.fromZh ?? {});
+function articleHref(zhHref: string): string {
+  if (lang === 'zh-TW') return zhHref;
+  const mapped = fromZh[zhHref] ?? fromZh[decodeURIComponent(zhHref)];
+  if (mapped) return mapped;
+  // 單段路徑 = 分類 hub（全語言都由 [category].astro 生成）→ 帶語言前綴
+  if (zhHref.split('/').filter(Boolean).length === 1)
+    return `/${lang}${zhHref}`;
+  return zhHref;
+}
 
 // ── 機器資料層 ──────────────────────────────────────────────────────────────
 const crawledAt = (curation.crawled_at || '').slice(0, 10);
@@ -134,7 +152,7 @@ const graphData = {
       id: a.id,
       type: 'article',
       label: a.label,
-      href: a.href,
+      href: articleHref(a.href),
     })),
   ],
   links: [
@@ -407,7 +425,7 @@ const graphData = {
                     <Fragment>
                       {i > 0 && <span class="mx-1 text-[#475569]">·</span>}
                       <a
-                        href={a.href}
+                        href={articleHref(a.href)}
                         class="font-medium text-sky-300 underline-offset-4 hover:underline"
                       >
                         {a.title}
@@ -463,7 +481,7 @@ const graphData = {
                         <Fragment>
                           {i > 0 && <span class="mx-1 text-[#475569]">·</span>}
                           <a
-                            href={a.href}
+                            href={articleHref(a.href)}
                             class="font-medium text-sky-300 underline-offset-4 hover:underline"
                           >
                             {a.title}
@@ -629,7 +647,7 @@ const graphData = {
             {
               c.footer.pilotArticles.map((a) => (
                 <a
-                  href={a.href}
+                  href={articleHref(a.href)}
                   class="rounded-full border border-emerald-400/30 bg-emerald-500/10 px-4 py-1.5 text-sm font-medium text-emerald-200 transition hover:bg-emerald-500/25"
                 >
                   {a.title}
