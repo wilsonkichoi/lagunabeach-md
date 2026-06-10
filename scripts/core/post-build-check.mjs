@@ -11,6 +11,7 @@
 
 import { readdir, readFile, stat } from 'node:fs/promises';
 import { resolve, join, relative } from 'node:path';
+import { LANGUAGES } from '../../src/config/languages.mjs';
 
 const DIST = resolve(process.cwd(), 'dist');
 const MIN_TOTAL_PAGES = 300;
@@ -25,10 +26,19 @@ const CATEGORIES = [
   'technology',
   'nature',
   'people',
+  'politics',
   'society',
   'economy',
   'lifestyle',
 ];
+
+// i18n route smoke (audit 2026-06-10 D-8): REFLEXES #19 要求大型 refactor 後
+// 人工 smoke test 多語頁面 — 這段把它自動化進每次 CI。每語言驗：目錄存在、
+// 頁數高於塌方線、抽 1 頁驗 <html lang> 正確。
+// LANG_ROUTES 從 registry derive（pre-commit hook 抓到第一版硬編碼 — 它是對的）。
+const LANG_ROUTES = LANGUAGES.filter((l) => l.enabled && !l.isDefault).map(
+  (l) => l.code,
+);
 
 let errors = [];
 let warnings = [];
@@ -122,6 +132,47 @@ for (const cat of SAMPLE_CATEGORIES) {
       }
     }
   } catch {}
+}
+
+// ── 5. i18n route smoke (audit 2026-06-10 D-8) ──
+
+const zhArticlePages = await countHtml(join(DIST, 'people')); // proxy for zh depth
+for (const lang of LANG_ROUTES) {
+  const langDir = join(DIST, lang);
+  try {
+    const langPages = await countHtml(langDir);
+    const zhTotalProxy = totalPages; // includes all langs; use floor heuristic instead
+    if (langPages < 100) {
+      errors.push(
+        `/${lang}/ has only ${langPages} HTML pages (< 100 collapse floor) — getStaticPaths or sync likely broke for this language`,
+      );
+      continue;
+    }
+    // lang attribute spot-check: first category index found
+    let checked = false;
+    for (const cat of CATEGORIES) {
+      const p = join(langDir, cat, 'index.html');
+      try {
+        const html = await readFile(p, 'utf8');
+        const m = html.match(/<html[^>]*\blang="([^"]+)"/i);
+        if (m && !m[1].toLowerCase().startsWith(lang)) {
+          errors.push(
+            `/${lang}/${cat}/ has <html lang="${m[1]}"> — language attribute mismatch (REFLEXES #19 class bug)`,
+          );
+        }
+        checked = true;
+        break;
+      } catch {}
+    }
+    if (!checked) {
+      warnings.push(
+        `/${lang}/: no category index found for lang-attribute spot-check`,
+      );
+    }
+    console.log(`  ✅ /${lang}/: ${langPages} pages, lang attribute ok`);
+  } catch {
+    errors.push(`/${lang}/ directory missing in dist/`);
+  }
 }
 
 // ── Report ──

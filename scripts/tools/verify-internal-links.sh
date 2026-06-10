@@ -78,13 +78,16 @@ LANG_PREFIXES = ["/en/", "/ja/", "/ko/", "/es/", "/fr/"]
 # postbuild wiring first surfaced ~5.7% accumulated broken slugs; the temporary
 # number then drifted into de-facto spec while ROUTINE.md still said 1%
 # (audit 2026-06-10 finding R-5 / decision D-3).
-# 7.0 → 2.0 on 2026-06-10: calibrated against real output (REFLEXES #66) —
-# measured ratio that day was 0.00% post zombie-dedup + orphan heals, so 2.0
-# keeps slack for babel transients without masking regressions. Also added
-# /es/ /fr/ to LANG_PREFIXES (they were never sampled — silent blind spot).
-# Babel 大 wave 期可顯式覆寫（必須在 routine memory 記一筆，不准靜默常態化）：
-#   BROKEN_LINK_THRESHOLD=7 bash scripts/tools/verify-internal-links.sh ...
-THRESHOLD_PERCENT = float(os.environ.get("BROKEN_LINK_THRESHOLD", "2.0"))
+# 2026-06-10 calibration（REFLEXES #66，同日兩次修正的全紀錄留作教材）:
+#   第一次（不完整 dist 抽樣 0.00%）→ 設 2.0 — 錯，量測基底是平行 build 寫到
+#   一半的 dist。完整 dist 重測：gated 6.42%（zh-TW rendered 層 11.37% 佔大宗，
+#   含當日殭屍翻譯清理的過渡噪音 + ko diary 路由缺頁長尾）。
+#   定案 7.0 + step-down 計畫：下個 build 吸收 dedup link-fixes 後預期下降；
+#   穩態目標 7 → 4 → 2 逐步收，每次收緊必須附當日完整 dist 實測值在本註記。
+#   es/fr 為 REPORT-ONLY（首次納入量測的盲區，heal 後 promote 進 gate）。
+# 顯式覆寫（必須在 routine memory 記一筆，不准靜默常態化）：
+#   BROKEN_LINK_THRESHOLD=4 bash scripts/tools/verify-internal-links.sh ...
+THRESHOLD_PERCENT = float(os.environ.get("BROKEN_LINK_THRESHOLD", "7.0"))
 
 
 # ── HTML parser ──────────────────────────────────────────────────

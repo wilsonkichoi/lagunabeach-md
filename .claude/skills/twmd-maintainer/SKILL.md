@@ -66,21 +66,21 @@ bash scripts/tools/routine-status.sh
 **真實有 backlog 時 act 範圍**：
 
 - B 路徑 contributor PR 5 層免疫 → merge or close + comment per [feedback_reply_to_contributors](/Users/cheyuwu/.claude/projects/-Users-cheyuwu-Projects-taiwan-md/memory/feedback_reply_to_contributors.md)
-- broken-link audit gated ratio ≥ 2%（gated = en/ja/ko/zh-TW；es/fr REPORT-ONLY）→ deterministic 修直接跑；需 intent inference 的 case 升級派工（per 2026-06-09 教訓）。閾值 canonical：verify-internal-links.sh THRESHOLD_PERCENT
+- broken-link audit gated ratio ≥ gate（閾值 canonical：verify-internal-links.sh THRESHOLD_PERCENT，現 7%，step-down 7→4→2）→ deterministic 修直接跑；需 intent inference 的 case 升級派工（per 2026-06-09 教訓）。es/fr REPORT-ONLY
 - build red → diagnose + heal commit
 
 ---
 
 ## Stage 4: WRAP — Quality gate + Handoff
 
-| Gate                                                             | 檢驗  |
-| ---------------------------------------------------------------- | ----- |
-| open issues 都有 status label / assignee                         | ✅/❌ |
-| open PRs ≤ 5d age 都有 review comment                            | ✅/❌ |
-| broken-link gated ratio < 2%（DNA #52 + #66；es/fr REPORT-ONLY） | ✅/❌ |
-| build green                                                      | ✅/❌ |
-| BECOME ACK 一行記憶體頂                                          | ✅/❌ |
-| 連續空場 ≥ 3 cycle 有 LESSONS entry                              | ✅/❌ |
+| Gate                                                                  | 檢驗  |
+| --------------------------------------------------------------------- | ----- |
+| open issues 都有 status label / assignee                              | ✅/❌ |
+| open PRs ≤ 5d age 都有 review comment                                 | ✅/❌ |
+| broken-link gated ratio < gate（script canonical 現 7%；DNA #52+#66） | ✅/❌ |
+| build green                                                           | ✅/❌ |
+| BECOME ACK 一行記憶體頂                                               | ✅/❌ |
+| 連續空場 ≥ 3 cycle 有 LESSONS entry                                   | ✅/❌ |
 
 **Handoff 三態**（必寫 memory file）：
 
@@ -98,7 +98,7 @@ bash scripts/tools/routine-status.sh
 🧬 Maintainer cycle report — YYYY-MM-DD HH:MM
 ✅/❌ open issues: N (stale > 5d list)
 ✅/❌ open PRs: N (stale > 5d list + review status)
-✅/❌ broken-link gated ratio: X% (< 2% pass; es/fr report-only 另列)
+✅/❌ broken-link gated ratio: X% (< script gate pass; es/fr report-only 另列)
 ✅/❌ build status: green/red
 ✅/❌ 連續空場 cycle vc=N (≥ 3 = warning)
 ⚠️ 異常 / 需觀察者決策事項
