@@ -7,12 +7,17 @@ import {
   useTranslatedPath,
 } from '../i18n/utils';
 import { getLangSwitchPath } from '../utils/getLangSwitchPath';
+import { resolveStaticHref } from '../utils/staticRoutes';
 
 const currentPath = Astro.url.pathname;
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const translatePath = useTranslatedPath(lang);
+// 2026-06-10 deploy-heal：nav / dropdown 一律用 existence-aware href。
+// translatePath 盲目加語言前綴，對該語言不存在的靜態頁（/semiont ja/ko/es/fr、
+// /bench es/fr…）每頁生死鏈；navHref 查 src/pages 樹，不存在就退回 zh 路徑。
+const navHref = (p: string) => resolveStaticHref(lang, p);
 
 const {
   zhLink,
@@ -117,7 +122,7 @@ const navConfig = [
   { path: '/semiont', label: t('nav.semiont') },
   { path: '/contribute', label: t('nav.contribute') },
 ].map((item) => {
-  const fullPath = translatePath(item.path);
+  const fullPath = navHref(item.path);
   const pathWithoutHash = fullPath.replace(/#.*$/, '');
   let active =
     pathWithoutHash !== fullPath
@@ -125,8 +130,8 @@ const navConfig = [
       : currentPath.startsWith(pathWithoutHash);
   // Semiont covers both the cognitive layer and dashboard.
   if (item.path === '/semiont') {
-    const semiontPath = translatePath('/semiont');
-    const dashboardPath = translatePath('/dashboard');
+    const semiontPath = navHref('/semiont');
+    const dashboardPath = navHref('/dashboard');
     active =
       currentPath.startsWith('/semiont') ||
       currentPath.startsWith(semiontPath) ||
@@ -139,7 +144,7 @@ const navConfig = [
     active = active || currentPath.startsWith('/elections');
   }
   if (item.path === '/resources') {
-    const mcpPath = translatePath('/mcp');
+    const mcpPath = navHref('/mcp');
     active =
       active ||
       currentPath.startsWith('/mcp') ||
@@ -147,7 +152,7 @@ const navConfig = [
   }
   // 2026-06-10: /opendata（OpenData 策展）lives under 數據 subnav.
   if (item.path === '/data') {
-    const opendataPath = translatePath('/opendata');
+    const opendataPath = navHref('/opendata');
     active =
       active ||
       currentPath.startsWith('/opendata') ||
@@ -164,67 +169,67 @@ const navConfig = [
 
 const categoryList = [
   {
-    path: translatePath('/history'),
+    path: navHref('/history'),
     label: t('categoryConfig.history'),
     emoji: '📜',
   },
   {
-    path: translatePath('/geography'),
+    path: navHref('/geography'),
     label: t('categoryConfig.geography'),
     emoji: '🗺️',
   },
   {
-    path: translatePath('/culture'),
+    path: navHref('/culture'),
     label: t('categoryConfig.culture'),
     emoji: '🎭',
   },
   {
-    path: translatePath('/food'),
+    path: navHref('/food'),
     label: t('categoryConfig.food'),
     emoji: '🍜',
   },
   {
-    path: translatePath('/art'),
+    path: navHref('/art'),
     label: t('categoryConfig.art'),
     emoji: '🎨',
   },
   {
-    path: translatePath('/music'),
+    path: navHref('/music'),
     label: t('categoryConfig.music'),
     emoji: '🎵',
   },
   {
-    path: translatePath('/technology'),
+    path: navHref('/technology'),
     label: t('categoryConfig.technology'),
     emoji: '💻',
   },
   {
-    path: translatePath('/nature'),
+    path: navHref('/nature'),
     label: t('categoryConfig.nature'),
     emoji: '🌿',
   },
   {
-    path: translatePath('/people'),
+    path: navHref('/people'),
     label: t('categoryConfig.people'),
     emoji: '👥',
   },
   {
-    path: translatePath('/society'),
+    path: navHref('/society'),
     label: t('categoryConfig.society'),
     emoji: '🏛️',
   },
   {
-    path: translatePath('/economy'),
+    path: navHref('/economy'),
     label: t('categoryConfig.economy'),
     emoji: '📊',
   },
   {
-    path: translatePath('/lifestyle'),
+    path: navHref('/lifestyle'),
     label: t('categoryConfig.lifestyle'),
     emoji: '🏠',
   },
   {
-    path: translatePath('/politics'),
+    path: navHref('/politics'),
     label: t('categoryConfig.politics'),
     emoji: '🗳️',
   },
@@ -242,7 +247,7 @@ const categoryList = [
     >
       <div class="header-inner">
         <BrandMark
-          href={translatePath('/')}
+          href={navHref('/')}
           variant="auto"
           ariaLabel={t('nav.aria-home')}
         />
@@ -265,40 +270,37 @@ const categoryList = [
                       </a>
                       <div class="dropdown-menu">
                         <a
-                          href={translatePath('/about')}
+                          href={navHref('/about')}
                           class="dropdown-item dropdown-section-header"
                         >
                           {t('nav.about')}
                         </a>
                         <div class="dropdown-divider" />
                         <a
-                          href={`${translatePath('/about')}#story`}
+                          href={`${navHref('/about')}#story`}
                           class="dropdown-item"
                         >
                           📖 {t('nav.about.story')}
                         </a>
                         <a
-                          href={`${translatePath('/about')}#organism`}
+                          href={`${navHref('/about')}#organism`}
                           class="dropdown-item"
                         >
                           🧬 {t('nav.about.organism')}
                         </a>
                         <a
-                          href={`${translatePath('/about')}#team`}
+                          href={`${navHref('/about')}#team`}
                           class="dropdown-item"
                         >
                           👥 {t('nav.about.team')}
                         </a>
                         <a
-                          href={`${translatePath('/about')}#faq`}
+                          href={`${navHref('/about')}#faq`}
                           class="dropdown-item"
                         >
                           ❓ {t('nav.about.faq')}
                         </a>
-                        <a
-                          href={translatePath('/changelog')}
-                          class="dropdown-item"
-                        >
+                        <a href={navHref('/changelog')} class="dropdown-item">
                           📝 {t('nav.about.changelog')}
                         </a>
                       </div>
@@ -325,26 +327,26 @@ const categoryList = [
                           {t('nav.explore')}
                         </a>
                         <a
-                          href={translatePath('/latest')}
+                          href={navHref('/latest')}
                           class="dropdown-item dropdown-section-header"
                         >
                           🆕 {t('nav.latest')}
                         </a>
                         <div class="dropdown-divider" />
                         <a
-                          href={translatePath('/graph')}
+                          href={navHref('/graph')}
                           class="dropdown-item dropdown-section-header"
                         >
                           {t('nav.graph-view')} 🕸️
                         </a>
                         <a
-                          href={translatePath('/terminology')}
+                          href={navHref('/terminology')}
                           class="dropdown-item dropdown-section-header"
                         >
                           {t('nav.terminology')} 📖
                         </a>
                         <a
-                          href={translatePath('/bench')}
+                          href={navHref('/bench')}
                           class="dropdown-item dropdown-section-header"
                         >
                           {t('nav.bench')} 🧬
@@ -379,14 +381,14 @@ const categoryList = [
                       </a>
                       <div class="dropdown-menu">
                         <a
-                          href={translatePath('/map')}
+                          href={navHref('/map')}
                           class="dropdown-item dropdown-section-header"
                         >
                           📍 {t('nav.map.explore')}
                         </a>
                         <div class="dropdown-divider" />
                         <a
-                          href={translatePath('/taiwan-shape')}
+                          href={navHref('/taiwan-shape')}
                           class="dropdown-item"
                         >
                           {t('nav.data.shape')} 🗺️
@@ -409,38 +411,38 @@ const categoryList = [
                       </a>
                       <div class="dropdown-menu">
                         <a
-                          href={translatePath('/data')}
+                          href={navHref('/data')}
                           class="dropdown-item dropdown-section-header"
                         >
                           {t('nav.data')}
                         </a>
                         <a
-                          href={translatePath('/opendata')}
+                          href={navHref('/opendata')}
                           class="dropdown-item dropdown-section-header"
                         >
                           🗂️ {t('nav.data.curation')}
                         </a>
                         <div class="dropdown-divider" />
                         <a
-                          href={`${translatePath('/data')}#global`}
+                          href={`${navHref('/data')}#global`}
                           class="dropdown-item"
                         >
                           🌏 {t('nav.data.global')}
                         </a>
                         <a
-                          href={`${translatePath('/data')}#democracy`}
+                          href={`${navHref('/data')}#democracy`}
                           class="dropdown-item"
                         >
                           📡 {t('nav.data.democracy')}
                         </a>
                         <a
-                          href={`${translatePath('/data')}#opendata`}
+                          href={`${navHref('/data')}#opendata`}
                           class="dropdown-item"
                         >
                           📊 {t('nav.data.opendata')}
                         </a>
                         <a
-                          href={`${translatePath('/data')}#enterprise`}
+                          href={`${navHref('/data')}#enterprise`}
                           class="dropdown-item"
                         >
                           🏢 {t('nav.data.enterprise')}
@@ -463,13 +465,13 @@ const categoryList = [
                       </a>
                       <div class="dropdown-menu">
                         <a
-                          href={translatePath('/resources')}
+                          href={navHref('/resources')}
                           class="dropdown-item dropdown-section-header"
                         >
                           {t('nav.resources')}
                         </a>
                         <div class="dropdown-divider" />
-                        <a href={translatePath('/mcp')} class="dropdown-item">
+                        <a href={navHref('/mcp')} class="dropdown-item">
                           🔌 {t('nav.mcp')}
                         </a>
                       </div>
@@ -490,13 +492,13 @@ const categoryList = [
                       </a>
                       <div class="dropdown-menu">
                         <a
-                          href={translatePath('/semiont')}
+                          href={navHref('/semiont')}
                           class="dropdown-item dropdown-section-header"
                         >
                           {t('nav.semiont.cognitive')}
                         </a>
                         <a
-                          href={translatePath('/dashboard')}
+                          href={navHref('/dashboard')}
                           class="dropdown-item dropdown-section-header"
                         >
                           {t('nav.dashboard')}
@@ -519,32 +521,32 @@ const categoryList = [
                       </a>
                       <div class="dropdown-menu">
                         <a
-                          href={translatePath('/contribute')}
+                          href={navHref('/contribute')}
                           class="dropdown-item dropdown-section-header"
                         >
                           {t('nav.contribute')}
                         </a>
                         <div class="dropdown-divider" />
                         <a
-                          href={`${translatePath('/contribute')}#form`}
+                          href={`${navHref('/contribute')}#form`}
                           class="dropdown-item"
                         >
                           📝 {t('nav.contribute.submit')}
                         </a>
                         <a
-                          href={`${translatePath('/contribute')}#token-donation`}
+                          href={`${navHref('/contribute')}#token-donation`}
                           class="dropdown-item"
                         >
                           🪙 {t('nav.contribute.tokens')}
                         </a>
                         <a
-                          href={`${translatePath('/contribute')}#organism`}
+                          href={`${navHref('/contribute')}#organism`}
                           class="dropdown-item"
                         >
                           🧬 {t('nav.contribute.why')}
                         </a>
                         <a
-                          href={`${translatePath('/contribute')}#cli`}
+                          href={`${navHref('/contribute')}#cli`}
                           class="dropdown-item"
                         >
                           🖥️ {t('nav.contribute.cli')}
@@ -697,7 +699,7 @@ const categoryList = [
                 {item.path === '/data' && (
                   <div class="mobile-sub-links open">
                     <a
-                      href={translatePath('/opendata')}
+                      href={navHref('/opendata')}
                       class="nav-link nav-sub-link"
                       onclick="document.querySelector('.nav-mobile').classList.remove('open')"
                     >
@@ -708,21 +710,21 @@ const categoryList = [
                 {item.path === '/explore' && (
                   <div class="mobile-sub-links open">
                     <a
-                      href={translatePath('/latest')}
+                      href={navHref('/latest')}
                       class="nav-link nav-sub-link"
                       onclick="document.querySelector('.nav-mobile').classList.remove('open')"
                     >
                       🆕 {t('nav.latest')}
                     </a>
                     <a
-                      href={translatePath('/graph')}
+                      href={navHref('/graph')}
                       class="nav-link nav-sub-link"
                       onclick="document.querySelector('.nav-mobile').classList.remove('open')"
                     >
                       {t('nav.graph-view')} 🕸️
                     </a>
                     <a
-                      href={translatePath('/terminology')}
+                      href={navHref('/terminology')}
                       class="nav-link nav-sub-link"
                       onclick="document.querySelector('.nav-mobile').classList.remove('open')"
                     >
@@ -740,7 +742,7 @@ const categoryList = [
                 {item.path === '/map' && (
                   <div class="mobile-sub-links open">
                     <a
-                      href={translatePath('/taiwan-shape')}
+                      href={navHref('/taiwan-shape')}
                       class="nav-link nav-sub-link"
                       onclick="document.querySelector('.nav-mobile').classList.remove('open')"
                     >
@@ -751,14 +753,14 @@ const categoryList = [
                 {item.path === '/semiont' && (
                   <div class="mobile-sub-links open">
                     <a
-                      href={translatePath('/semiont')}
+                      href={navHref('/semiont')}
                       class="nav-link nav-sub-link"
                       onclick="document.querySelector('.nav-mobile').classList.remove('open')"
                     >
                       {t('nav.semiont.cognitive')}
                     </a>
                     <a
-                      href={translatePath('/dashboard')}
+                      href={navHref('/dashboard')}
                       class="nav-link nav-sub-link"
                       onclick="document.querySelector('.nav-mobile').classList.remove('open')"
                     >
@@ -769,7 +771,7 @@ const categoryList = [
                 {item.path === '/resources' && (
                   <div class="mobile-sub-links open">
                     <a
-                      href={translatePath('/mcp')}
+                      href={navHref('/mcp')}
                       class="nav-link nav-sub-link"
                       onclick="document.querySelector('.nav-mobile').classList.remove('open')"
                     >

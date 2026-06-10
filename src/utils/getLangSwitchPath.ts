@@ -2,6 +2,7 @@ import { readFile, readdir } from 'fs/promises';
 import { resolve } from 'path';
 import type { Lang } from '../config/languages';
 import { LANGUAGES } from '../config/languages';
+import { staticPageExists } from './staticRoutes';
 
 // 2026-04-25 β7 Phase 1：路由疊加 fix（i18n-evolution-roadmap audit B1）
 // 從 LANGUAGES_REGISTRY 動態 derive 非預設啟用語言清單，
@@ -324,7 +325,8 @@ export async function getLangSwitchPath(currentPath: string) {
     has.zh = true;
   } else {
     links.zh = basePath === '/' ? '/' : basePath;
-    has.zh = !isArticle;
+    // 2026-06-10 deploy-heal：非文章頁不再假設 zh 一定有，改查 src/pages 樹
+    has.zh = !isArticle && staticPageExists('zh-TW', basePath);
   }
 
   // Non-default langs (en/ja/ko/es/fr...)
@@ -349,10 +351,13 @@ export async function getLangSwitchPath(currentPath: string) {
       }
     }
 
-    // No explicit mapping: fallback for non-article pages (hub pages always work),
-    // mark unavailable for article pages (slug mismatch would 404).
+    // No explicit mapping: for non-article pages, only offer the lang if the
+    // static page actually exists for it（src/pages 樹是 SSOT — 2026-06-10
+    // deploy-heal：原本「hub 頁永遠存在」的假設對 zh-only 頁（/semiont/diary/*
+    // ×650、/companies、/lifetree…）每頁生 4-5 條死鏈）。
+    // Article pages without explicit translation stay unavailable (slug 404).
     links[lang] = fallback;
-    has[lang] = !isArticle;
+    has[lang] = !isArticle && staticPageExists(lang, basePath);
   }
 
   // Map abstract result back to legacy named exports for backwards compat with

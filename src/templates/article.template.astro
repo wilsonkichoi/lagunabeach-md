@@ -710,7 +710,7 @@ const encodedTitle = encodeURIComponent(title);
          inside the tall wrapper.
     -->
     <div
-      class="mx-auto grid max-w-[1280px] grid-cols-[220px_1fr_200px] [grid-template-areas:'toc_body_sidebar'] gap-14 px-8 pb-20 pt-16 max-lg:grid-cols-1 max-lg:[grid-template-areas:'body'_'sidebar'] max-lg:gap-8 max-lg:px-6 max-lg:pb-16 max-lg:pt-10 max-[640px]:px-4 max-[640px]:pb-12 max-[640px]:pt-6"
+      class="mx-auto grid max-w-[var(--container-article)] grid-cols-[220px_1fr_200px] [grid-template-areas:'toc_body_sidebar'] gap-14 px-8 pb-20 pt-16 max-lg:grid-cols-1 max-lg:[grid-template-areas:'body'_'sidebar'] max-lg:gap-8 max-lg:px-6 max-lg:pb-16 max-lg:pt-10 max-[640px]:px-4 max-[640px]:pb-12 max-[640px]:pt-6"
     >
       <!-- Left: Table of Contents (h-full lets the wrapper inherit grid row height,
            giving the inner sticky nav room to scroll within) -->
@@ -1099,7 +1099,7 @@ const encodedTitle = encodeURIComponent(title);
     {
       relatedArticles.length > 0 && (
         <section class="mt-8 bg-white px-8 py-20 max-[640px]:px-4 max-[640px]:py-14">
-          <div class="mx-auto max-w-[1280px]">
+          <div class="mx-auto max-w-[var(--container-article)]">
             <div class="mb-12 text-center">
               <p class="mb-[0.6rem] font-['Inter',system-ui,sans-serif] text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#9aa89e]">
                 {t('article.furtherReading')}
@@ -1113,6 +1113,7 @@ const encodedTitle = encodeURIComponent(title);
                 <RelatedArticleCard
                   title={article.title}
                   slug={article.slug}
+                  lang={lang}
                   category={category}
                   categoryName={categoryInfo.name}
                   categoryColor={categoryInfo.color}
@@ -1124,7 +1125,7 @@ const encodedTitle = encodeURIComponent(title);
             </div>
             <div class="mt-10 text-center">
               <a
-                href={`/${category}`}
+                href={`${langUrlPrefix}/${category}`}
                 class="inline-flex items-center gap-2 rounded-full border-[1.5px] px-6 py-[0.65rem] font-['Inter',system-ui,sans-serif] text-[0.88rem] font-medium no-underline transition-all duration-200 hover:bg-black/[0.04]"
                 style={`color:${categoryInfo.color}; border-color:${categoryInfo.color}30;`}
               >
@@ -1161,7 +1162,7 @@ const encodedTitle = encodeURIComponent(title);
       hidden
       class="border-t border-[rgba(26,60,52,0.08)] bg-white px-8 py-16 max-[640px]:px-4 max-[640px]:py-12"
     >
-      <div class="mx-auto max-w-[1280px]">
+      <div class="mx-auto max-w-[var(--container-article)]">
         <div class="mb-8 text-center">
           <p
             class="mb-[0.6rem] font-['Inter',system-ui,sans-serif] text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#9aa89e]"
@@ -1311,7 +1312,7 @@ const encodedTitle = encodeURIComponent(title);
 
     <!-- ── Explore other categories ──────────────────────────────── -->
     <section class="bg-[#f8f1e9] px-8 py-20 max-[640px]:px-4 max-[640px]:py-14">
-      <div class="mx-auto max-w-[1280px]">
+      <div class="mx-auto max-w-[var(--container-article)]">
         <div class="mb-12 text-center">
           <p
             class="mb-[0.6rem] font-['Inter',system-ui,sans-serif] text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#9aa89e]"
