@@ -54,6 +54,32 @@ const ungrouped = tools.filter((t) => !groupedNames.has(t.name));
 const dimIcons = ['🗃️', '🫀', '⚡'];
 const layerIcons = ['🏛️', '🔌', '🧬'];
 
+// 垂直語料庫量級條（對數尺度；順序對齊 c.verticals.items：專利/國考/判決書/藥品/營養）
+const corpusCounts: (number | null)[] = [null, 320663, 1240000, 71836, 226825];
+const maxLogCount = Math.log10(1240000);
+function corpusBarPct(count: number | null): number | null {
+  if (!count) return null;
+  return Math.round(((Math.log10(count) - 4) / (maxLogCount - 4)) * 100);
+}
+
+// 更新頻率光譜：本頁引用的 showcase 資料集按頻率分桶（高解析 → 低解析 → 不定期）
+const FREQ_ORDER = [
+  '每半月',
+  '每1月',
+  '每3月',
+  '每1年',
+  '每4年',
+  '每5年',
+  '不定期更新',
+];
+const showcaseOk = (curation.showcase_datasets as any[]).filter(
+  (d) => !d.error && d.name,
+);
+const freqBuckets = FREQ_ORDER.map((f) => ({
+  freq: f,
+  items: showcaseOk.filter((d) => d.update_freq === f),
+})).filter((b) => b.items.length > 0);
+
 // ── Hero 資料星系（D3 force graph）的真實資料 ──────────────────────────────
 // 節點全部來自本頁既有的爬取與策展，沒有裝飾用假節點。
 const verticalCorpora = [
@@ -154,7 +180,7 @@ const graphData = {
     </PageHero>
 
     <!-- 資料的力量：真實數字帶 + 資料星系 -->
-    <div class="mx-auto mt-4 max-w-[1100px] px-5">
+    <div class="mx-auto mt-4 max-w-[var(--container-wide)] px-5">
       <div class="grid grid-cols-2 gap-3 sm:grid-cols-5">
         {
           c.hero.viz.stats.map((s) => (
@@ -215,7 +241,7 @@ const graphData = {
       set:html={JSON.stringify(graphData)}
     />
 
-    <div class="mx-auto max-w-[1080px] px-5">
+    <div class="mx-auto max-w-[var(--container-wide)] px-5">
       <!-- 生態地圖 -->
       <section id="ecosystem" class="mt-14">
         <h2 class="mb-2 text-2xl font-bold text-[#f1f5f9]">
@@ -301,17 +327,35 @@ const graphData = {
         </p>
         <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
           {
-            c.verticals.items.map((v) => (
-              <div class="rounded-2xl border border-white/10 bg-white/[0.04] p-5">
-                <h3 class="text-base font-bold text-[#f1f5f9]">{v.name}</h3>
-                <div class="mb-2 mt-1 text-xs font-semibold text-sky-300">
-                  {v.stat}
+            c.verticals.items.map((v, i) => {
+              const pct = corpusBarPct(corpusCounts[i]);
+              return (
+                <div class="rounded-2xl border border-white/10 bg-white/[0.04] p-5">
+                  <h3 class="text-base font-bold text-[#f1f5f9]">{v.name}</h3>
+                  <div class="mb-2 mt-1 text-xs font-semibold text-sky-300">
+                    {v.stat}
+                  </div>
+                  {pct !== null ? (
+                    <div class="mb-3 h-1.5 w-full overflow-hidden rounded-full bg-white/10">
+                      <div
+                        class="h-full rounded-full bg-[linear-gradient(90deg,#818cf8,#c084fc)]"
+                        style={`width:${pct}%`}
+                      />
+                    </div>
+                  ) : (
+                    <div class="mb-3 text-[11px] text-[#a78bda]">
+                      全文語意檢索
+                    </div>
+                  )}
+                  <p class="text-[13px] leading-[1.7] text-[#a8b6c8]">
+                    {v.desc}
+                  </p>
                 </div>
-                <p class="text-[13px] leading-[1.7] text-[#a8b6c8]">{v.desc}</p>
-              </div>
-            ))
+              );
+            })
           }
         </div>
+        <p class="mt-3 text-xs text-[#64748b]">{c.verticals.logNote}</p>
       </section>
 
       <!-- 分析組合 recipes -->
@@ -468,6 +512,44 @@ const graphData = {
         <p class="mb-7 max-w-[720px] leading-[1.8] text-[#94a3b8]">
           {c.method.lead}
         </p>
+
+        <!-- 更新頻率光譜（本頁引用的 showcase 資料集分桶） -->
+        <div
+          class="mb-8 rounded-2xl border border-white/10 bg-white/[0.03] p-6"
+        >
+          <h3 class="mb-1 text-base font-bold text-[#f1f5f9]">
+            {c.method.spectrum.title}
+          </h3>
+          <p class="mb-6 text-[13px] leading-[1.7] text-[#8fa0b3]">
+            {c.method.spectrum.note}
+          </p>
+          <div class="flex items-end gap-2 overflow-x-auto pb-1">
+            {
+              freqBuckets.map((b) => (
+                <div class="flex min-w-[88px] flex-1 flex-col items-center gap-2.5">
+                  <div class="flex max-w-[120px] flex-wrap items-end justify-center gap-1.5">
+                    {b.items.map((d) => (
+                      <span
+                        class="block h-4 w-4 cursor-help rounded-full bg-[linear-gradient(135deg,#38bdf8,#818cf8)] opacity-85 transition hover:scale-125 hover:opacity-100"
+                        title={`${d.name}（${d.agency}）`}
+                      />
+                    ))}
+                  </div>
+                  <div class="h-px w-full bg-white/15" />
+                  <div class="text-center text-[12px] font-medium text-[#a8b6c8]">
+                    {b.freq.replace('更新', '')}
+                    <span class="ml-1 text-[#64748b]">×{b.items.length}</span>
+                  </div>
+                </div>
+              ))
+            }
+          </div>
+          <div class="mt-4 flex flex-wrap justify-between gap-2 text-[12px]">
+            <span class="text-[#7dd3fc]">{c.method.spectrum.left}</span>
+            <span class="text-[#c8b89a]">{c.method.spectrum.right}</span>
+          </div>
+        </div>
+
         <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {
             c.method.items.map((m) => (

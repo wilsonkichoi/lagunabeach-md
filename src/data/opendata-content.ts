@@ -78,6 +78,7 @@ export interface OpendataContent {
   verticals: {
     title: string;
     lead: string;
+    logNote: string;
     items: { name: string; stat: string; desc: string }[];
   };
   domains: {
@@ -101,6 +102,12 @@ export interface OpendataContent {
   method: {
     title: string;
     lead: string;
+    spectrum: {
+      title: string;
+      left: string;
+      right: string;
+      note: string;
+    };
     items: { name: string; desc: string }[];
   };
   tools: {
@@ -231,6 +238,8 @@ export const OPENDATA_CONTENT: Partial<
     verticals: {
       title: '五個垂直語料庫：超出鏡像的部分',
       lead: '把資料集包成搜尋介面不稀奇；下面這五個垂直領域做了語意檢索與結構化抽取，是 Twinkle Hub 超出「data.gov.tw 鏡像」的部分。',
+      logNote:
+        '量級條為對數尺度：判決書語料是藥證的 17 倍，線性畫會把其他四條壓成看不見。',
       items: [
         {
           name: '專利',
@@ -651,6 +660,12 @@ export const OPENDATA_CONTENT: Partial<
     method: {
       title: '串連方法論：讓兩張表對在一起的鍵',
       lead: '單一資料集是一個點，能組合才是一張網。這些是我們實測下來最有用的串連線索。',
+      spectrum: {
+        title: '更新頻率＝分析解析度：十五個示範資料集的光譜',
+        left: '← 每月更新：能做事件研究',
+        right: '五年一度：只能跨期比較 →',
+        note: '每個點是本頁引用的一個資料集，懸停看名字。設計分析之前先看你的資料落在光譜哪一端。',
+      },
       items: [
         {
           name: '行政區代碼',
