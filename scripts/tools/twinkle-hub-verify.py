@@ -39,6 +39,10 @@ MCP_ENDPOINT = "https://api.twinkleai.tw/mcp/"
 KEYCHAIN_ACCOUNT = "user-7078de67"
 KEYCHAIN_SERVICE = "twinkleai-hub-api-key"
 
+# 2026-06-10: server 升級為 MCP streamable-http session 模式（裸 POST 回 400
+# "Missing session ID"），所以先 initialize 握手拿 Mcp-Session-Id 再呼叫。
+_SESSION = {"id": None}
+
 
 def get_api_key():
     """Read Bearer token from macOS Keychain. Fail-loud if missing."""
@@ -67,26 +71,21 @@ def get_api_key():
         sys.exit(1)
 
 
-def mcp_call(method, params=None, request_id=1):
-    """POST JSON-RPC 2.0 to MCP endpoint, parse SSE response, return result."""
+def _post(payload, extra_headers=None):
+    """Raw POST to MCP endpoint. Returns (body_text, response_headers)."""
     api_key = get_api_key()
-    payload = {"jsonrpc": "2.0", "id": request_id, "method": method}
-    if params is not None:
-        payload["params"] = params
     body = json.dumps(payload).encode("utf-8")
-    req = urllib.request.Request(
-        MCP_ENDPOINT,
-        data=body,
-        headers={
-            "Content-Type": "application/json",
-            "Accept": "application/json, text/event-stream",
-            "Authorization": f"Bearer {api_key}",
-        },
-        method="POST",
-    )
+    headers = {
+        "Content-Type": "application/json",
+        "Accept": "application/json, text/event-stream",
+        "Authorization": f"Bearer {api_key}",
+    }
+    if extra_headers:
+        headers.update(extra_headers)
+    req = urllib.request.Request(MCP_ENDPOINT, data=body, headers=headers, method="POST")
     try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            text = resp.read().decode("utf-8")
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            return resp.read().decode("utf-8"), dict(resp.headers)
     except urllib.error.HTTPError as e:
         print(f"❌ HTTP {e.code}: {e.read().decode('utf-8')[:200]}", file=sys.stderr)
         sys.exit(1)
@@ -94,11 +93,50 @@ def mcp_call(method, params=None, request_id=1):
         print(f"❌ Network error: {e}", file=sys.stderr)
         sys.exit(1)
 
+
+def _ensure_session():
+    """MCP streamable-http handshake: initialize → 取 Mcp-Session-Id → initialized 通知。"""
+    if _SESSION["id"]:
+        return
+    init_payload = {
+        "jsonrpc": "2.0",
+        "id": 0,
+        "method": "initialize",
+        "params": {
+            "protocolVersion": "2025-03-26",
+            "capabilities": {},
+            "clientInfo": {"name": "taiwanmd-twinkle-verify", "version": "1.1"},
+        },
+    }
+    _, headers = _post(init_payload)
+    session_id = headers.get("Mcp-Session-Id") or headers.get("mcp-session-id")
+    if not session_id:
+        print(f"❌ initialize 沒回 Mcp-Session-Id header（headers: {list(headers)[:10]}）", file=sys.stderr)
+        sys.exit(1)
+    _SESSION["id"] = session_id
+    _post(
+        {"jsonrpc": "2.0", "method": "notifications/initialized"},
+        extra_headers={"Mcp-Session-Id": session_id},
+    )
+
+
+def mcp_call(method, params=None, request_id=1):
+    """POST JSON-RPC 2.0 to MCP endpoint (session-aware), parse SSE response, return result."""
+    _ensure_session()
+    payload = {"jsonrpc": "2.0", "id": request_id, "method": method}
+    if params is not None:
+        payload["params"] = params
+    text, _ = _post(payload, extra_headers={"Mcp-Session-Id": _SESSION["id"]})
+
     # Parse SSE: lines like "event: message" / "data: {...}"
     m = re.search(r"^data: (.+)$", text, re.MULTILINE)
     if not m:
-        print(f"❌ No SSE data line in response:\n{text[:400]}", file=sys.stderr)
-        sys.exit(1)
+        # 部分 server 對非 SSE 回直接 JSON body
+        try:
+            return json.loads(text)
+        except json.JSONDecodeError:
+            print(f"❌ No SSE data line in response:\n{text[:400]}", file=sys.stderr)
+            sys.exit(1)
     try:
         return json.loads(m.group(1))
     except json.JSONDecodeError as e:
@@ -233,7 +271,8 @@ def main():
         return
 
     if args.schema:
-        tool_name = args.schema if args.schema.startswith(("twtools-", "opendata-")) else f"twtools-{args.schema}"
+        # 2026-06-10 server 改版後 tool 名不再帶 twtools-/opendata- prefix，直接用原名
+        tool_name = args.schema
         schema = get_tool_schema(tool_name)
         if schema is None:
             print(f"❌ Tool not found: {tool_name}", file=sys.stderr)
@@ -244,7 +283,7 @@ def main():
     if not args.tool:
         parser.error("either --tool, --list-tools, or --schema is required")
 
-    tool_name = args.tool if args.tool.startswith(("twtools-", "opendata-")) else f"twtools-{args.tool}"
+    tool_name = args.tool
     arguments = parse_arg_kv(args.arg, args.json_arg)
     result = call_tool(tool_name, arguments)
 
