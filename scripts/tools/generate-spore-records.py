@@ -460,7 +460,9 @@ def write_if_changed(path, payload, compact):
     if compact:
         path.write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
     else:
-        path.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n",
+        # indent=2 matches the repo prettier config — keeps regen byte-stable
+        # against the pre-commit format hook (no phantom format-only diffs).
+        path.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n",
                         encoding="utf-8")
     return True
 
