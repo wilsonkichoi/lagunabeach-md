@@ -83,15 +83,27 @@ def _post(payload, extra_headers=None):
     if extra_headers:
         headers.update(extra_headers)
     req = urllib.request.Request(MCP_ENDPOINT, data=body, headers=headers, method="POST")
-    try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
-            return resp.read().decode("utf-8"), dict(resp.headers)
-    except urllib.error.HTTPError as e:
-        print(f"❌ HTTP {e.code}: {e.read().decode('utf-8')[:200]}", file=sys.stderr)
-        sys.exit(1)
-    except urllib.error.URLError as e:
-        print(f"❌ Network error: {e}", file=sys.stderr)
-        sys.exit(1)
+    # 429 退避重試：2026-06-10 實測 alpha 有 rate limit（窗口未公布），
+    # 對 batch 爬取場景 fail-fast 會半途而廢，改 backoff 最多 4 次再放棄。
+    backoffs = [30, 60, 120, 240]
+    for attempt in range(len(backoffs) + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                return resp.read().decode("utf-8"), dict(resp.headers)
+        except urllib.error.HTTPError as e:
+            body_text = e.read().decode("utf-8")[:200]
+            if e.code == 429 and attempt < len(backoffs):
+                wait = backoffs[attempt]
+                print(f"⏳ HTTP 429 rate limited — backoff {wait}s（{attempt + 1}/{len(backoffs)}）", file=sys.stderr)
+                import time as _time
+
+                _time.sleep(wait)
+                continue
+            print(f"❌ HTTP {e.code}: {body_text}", file=sys.stderr)
+            sys.exit(1)
+        except urllib.error.URLError as e:
+            print(f"❌ Network error: {e}", file=sys.stderr)
+            sys.exit(1)
 
 
 def _ensure_session():

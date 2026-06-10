@@ -1823,6 +1823,71 @@ _（暫無主動顯示的條目。實際 in-progress 狀態在 §Pending 的 ent
 
 _（此區域存放判斷後不開發的主題，必須註明原因）_
 
+### 🗂️ 誰標到了台灣：13.5 萬筆決標紀錄裡的政府外包地圖
+
+- **Type**: `NEW`
+- **Category**: Society
+- **Priority**: P2
+- **Status**: `pending`
+- **Requested**: 2026-06-10 by 哲宇 /opendata 策展頁 directive（session 2026-06-10-opendata）
+- **Notes**:
+  - 旗艦資料：政府電子採購網招標/決標公告（Twinkle Hub `pcc-tender`，每半月）+ 巨額採購履約廠商名單（data.gov.tw/7264，每日）
+  - 分析法：統編串商業登記 → 廠商歷年得標金額 × 機關 × 年份熱力圖
+  - 陷阱：決標金額 ≠ 實際支付；共同投標的歸屬要先定義
+- **Reference**: /opendata §故事待寫 + reports/research/2026-06/twinkle-hub-dataset-pointers-2026-06-10.md
+
+### 🗂️ 國家的負債表：中央政府欠了多少錢、用什麼速度還
+
+- **Type**: `NEW`
+- **Category**: Economy
+- **Priority**: P2
+- **Status**: `pending`
+- **Requested**: 2026-06-10 by 哲宇 /opendata 策展頁 directive（session 2026-06-10-opendata）
+- **Notes**:
+  - 旗艦資料：中央政府近期公共債務概況表（data.gov.tw/12146，每月，白金）+ 紓困特別預算歲出執行明細（127428）
+  - 分析法：債務餘額月序列 × GDP × 公共債務法上限；歷年特別預算（防疫/前瞻/強韌）逐筆疊加看「例外動支常態化」
+  - 必驗：債限口徑（1年以上非自償債務 vs 含短債）常被混用
+- **Reference**: /opendata §故事待寫
+
+### 🗂️ 你的縣市靠什麼稅活著：地方財政的體質檢查
+
+- **Type**: `NEW`
+- **Category**: Economy
+- **Priority**: P2
+- **Status**: `pending`
+- **Requested**: 2026-06-10 by 哲宇 /opendata 策展頁 directive（session 2026-06-10-opendata）
+- **Notes**:
+  - 旗艦資料：各縣市地方稅實徵淨額統計（如 data.gov.tw/147936 桃園每年、177569 花蓮每月）
+  - 分析法：實徵淨額按稅目拆 + 行政區代碼對齊人口/房價 → 財政自主性排行
+  - 陷阱：統籌分配款與補助款不在地方稅表內，要補中央對地方移轉的資料才完整
+- **Reference**: /opendata §故事待寫
+
+### 🗂️ 投保薪資的天花板：三張勞動部的表，看見台灣人的真實薪水
+
+- **Type**: `NEW`
+- **Category**: Economy
+- **Priority**: P2
+- **Status**: `pending`
+- **Requested**: 2026-06-10 by 哲宇 /opendata 策展頁 directive（session 2026-06-10-opendata）
+- **Notes**:
+  - 旗艦資料：勞保/就保/職災三套投保單位人數及平均投保薪資（data.gov.tw/100999、101000、161743，每年，白金）
+  - 分析法：按行業 × 單位規模交叉；45,800 投保上限右側截斷必須先處理，否則高薪行業平均被系統性低估
+  - 跟主計總處「平均薪資」的口徑差異本身就是故事核心
+- **Reference**: /opendata §故事待寫
+
+### 🗂️ 公報裡的台灣：政府每個月自己公告了什麼
+
+- **Type**: `NEW`
+- **Category**: Society
+- **Priority**: P2
+- **Status**: `pending`
+- **Requested**: 2026-06-10 by 哲宇 /opendata 策展頁 directive（session 2026-06-10-opendata）
+- **Notes**:
+  - 旗艦資料：行政院公報資訊網（gazette.nat.gov.tw，每日）+ 縣市公報（如 data.gov.tw/132348 北市每月）
+  - 分析法：公報全文關鍵詞時間序列（法規異動頻率）× legislature 域立法院紀錄 → 行政公告 vs 立法軌跡的時間差 = 政策生效速度
+  - 跟 Twinkle Hub `legislature` 新域（2026-06 新增）天然成對
+- **Reference**: /opendata §故事待寫
+
 ---
 
 _v1.0 | 2026-04-18 δ session — ARTICLE-INBOX 誕生_
