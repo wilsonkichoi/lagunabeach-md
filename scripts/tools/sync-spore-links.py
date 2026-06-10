@@ -190,7 +190,7 @@ def build_canonical_sporelinks(pub_rows):
                 continue
             seen_urls.add(e["url"])
             deduped.append(e)
-        by_slug[slug] = sorted(deduped, key=lambda e: (e["date"], e["platform"]))
+        by_slug[slug] = sorted(deduped, key=lambda e: (e["date"], e["platform"], e["id"]))
     return by_slug
 
 

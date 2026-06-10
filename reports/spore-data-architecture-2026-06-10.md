@@ -103,7 +103,7 @@ SSOT 層（完全不動 — 工廠 routine 零改動）:
 **D1 — frontmatter 留 identity pointer，不留數字、也不全刪。**
 全刪（純 slug join）會讓 knowledge/ 不再自我描述（fork 拿走 markdown 就斷）、且 SPORE-LOG slug 對檔名的 normalize 已知脆弱（emoji 前綴 / 版本括號）。留 pointer 哲宇點名要、append-only、發布當天才動一次。`id` 讓「指向哪一筆記錄」顯式化，`url` 兼作 join fallback。
 
-**D2 — spores.json 是 derived，markdown 工廠仍是 SSOT。**
+**D2 — spores.json 是 derived，markdown 工廠仍是 SSOT。**（⚠️ 同日下午被 [spore-json-ssot-2026-06-10.md](spore-json-ssot-2026-06-10.md) 取代：結構層 SSOT 翻成 spore-log.json + spore-metrics.json，敘事留 markdown）
 harvest cron / publish routine / 五份 SPORE-\* pipeline 全部圍著 SPORE-LOG + SPORE-HARVESTS 運作，改 SSOT 位置 = 重訓整個繁殖系統，blast radius 不成比例。derived JSON 已滿足「獨立資料源、可索引、可組合」。未來若要 JSON-as-SSOT（harvest 直接寫 JSON、markdown 變 view）是獨立的 Phase，本輪不做。
 
 **D3 — history 進記錄層。**
@@ -143,7 +143,7 @@ SPORE-HARVESTS 有每次 D+N 快照，現行 sporeLinks 只留最新一筆。spo
 
 - 不動 SPORE-LOG / SPORE-HARVESTS 的格式與寫入流程（harvest cron 零改動）
 - 不動 dashboard-spores.json（分析聚合層繼續服務 dashboard）
-- 不做 JSON-as-SSOT 反轉（記錄在此作為未來選項）
+- ~~不做 JSON-as-SSOT 反轉（記錄在此作為未來選項）~~ → 同日下午哲宇拍板執行，見 [reports/spore-json-ssot-2026-06-10.md](spore-json-ssot-2026-06-10.md)（結構層翻 JSON、敘事留 markdown）
 - 譯文的 sporeLinks 本輪只 strip metrics 成 identity-only，不建跨語言 join（SporeFootprint 在譯文頁照常用該檔自己的 identity entries）
 
 ---
