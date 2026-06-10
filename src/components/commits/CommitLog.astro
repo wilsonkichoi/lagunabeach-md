@@ -1,4 +1,5 @@
 ---
+import TimelineDay from '../timeline/TimelineDay.astro';
 import { commitIcon, commitType, timeAgo } from '../../lib/commits';
 import type { Commit } from '../../lib/commits';
 import type { Lang } from '../../types';
@@ -99,66 +100,53 @@ function formatDate(dateStr: string) {
       sortedDays.length ? (
         <div class="flex flex-col">
           {sortedDays.map((day, dayIdx) => (
-            <div
+            <TimelineDay
               id={`day-${day}`}
-              class="changelog-day-group grid grid-cols-[32px_1fr] gap-x-4 max-[768px]:grid-cols-[20px_1fr] max-[768px]:gap-x-3"
+              title={formatDate(day)}
+              badge={`${grouped[day].length} ${dayUpdatesLabel}`}
+              isLast={dayIdx === sortedDays.length - 1}
+              accent="blue"
+              titleStyle="sans"
+              extraClass="changelog-day-group"
             >
-              <div class="flex flex-col items-center">
-                <div class="mt-2 h-3 w-3 flex-shrink-0 rounded-full bg-[linear-gradient(135deg,#3b82f6,#8b5cf6)]" />
-                {dayIdx < sortedDays.length - 1 && (
-                  <div class="mt-2 w-[2px] flex-1 bg-[linear-gradient(to_bottom,#cbd5e1,transparent)]" />
-                )}
-              </div>
-              <div class="pb-10 max-[768px]:pb-8">
-                <div class="mb-4 flex flex-wrap items-center justify-between gap-2">
-                  <h2 class="m-0 text-[1.3rem] font-extrabold text-[#1e293b] max-[768px]:text-[1.1rem]">
-                    {formatDate(day)}
-                  </h2>
-                  <span class="rounded-full bg-[#f1f5f9] px-3 py-[0.35rem] text-[0.85rem] font-semibold text-[#64748b]">
-                    {grouped[day].length} {dayUpdatesLabel}
+              {grouped[day].map((commit) => (
+                <article
+                  data-type={commitType(commit.message)}
+                  class="commit-log-item grid grid-cols-[32px_1fr] gap-4 rounded-[10px] border border-[#e2e8f0] bg-white px-5 py-4 shadow-[0_1px_3px_rgba(15,23,42,0.04)] transition-all duration-200 max-[768px]:grid-cols-[24px_1fr] max-[768px]:gap-3 max-[768px]:px-4 max-[768px]:py-[0.9rem]"
+                >
+                  <span class="text-center text-base leading-normal">
+                    {commitIcon(commit.message)}
                   </span>
-                </div>
-                <div class="flex flex-col gap-3">
-                  {grouped[day].map((commit) => (
-                    <article
-                      data-type={commitType(commit.message)}
-                      class="commit-log-item grid grid-cols-[32px_1fr] gap-4 rounded-[10px] border border-[#e2e8f0] bg-white px-5 py-4 shadow-[0_1px_3px_rgba(15,23,42,0.04)] transition-all duration-200 max-[768px]:grid-cols-[24px_1fr] max-[768px]:gap-3 max-[768px]:px-4 max-[768px]:py-[0.9rem]"
-                    >
-                      <span class="text-center text-base leading-normal">
-                        {commitIcon(commit.message)}
+                  <div class="min-w-0">
+                    <p class="m-0 break-words text-[0.95rem] font-semibold leading-normal text-[#1f2937]">
+                      {commit.message}
+                    </p>
+                    <div class="mt-2 flex flex-wrap items-center gap-3 text-[0.82rem] text-[#64748b]">
+                      {commit.author && (
+                        <span class="font-semibold">{commit.author}</span>
+                      )}
+                      <span
+                        class="commit-log-time whitespace-nowrap font-medium text-[#94a3b8]"
+                        data-date={commit.date}
+                      >
+                        {new Date(commit.date).toLocaleTimeString(locale, {
+                          hour: '2-digit',
+                          minute: '2-digit',
+                        })}
                       </span>
-                      <div class="min-w-0">
-                        <p class="m-0 break-words text-[0.95rem] font-semibold leading-normal text-[#1f2937]">
-                          {commit.message}
-                        </p>
-                        <div class="mt-2 flex flex-wrap items-center gap-3 text-[0.82rem] text-[#64748b]">
-                          {commit.author && (
-                            <span class="font-semibold">{commit.author}</span>
-                          )}
-                          <span
-                            class="commit-log-time whitespace-nowrap font-medium text-[#94a3b8]"
-                            data-date={commit.date}
-                          >
-                            {new Date(commit.date).toLocaleTimeString(locale, {
-                              hour: '2-digit',
-                              minute: '2-digit',
-                            })}
-                          </span>
-                          <a
-                            href={`https://github.com/frank890417/taiwan-md/commit/${commit.hash}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="font-['SFMono-Regular',Consolas,'Liberation_Mono',Menlo,monospace] font-semibold text-[#2563eb] no-underline hover:underline"
-                          >
-                            {commit.hash.slice(0, 7)}
-                          </a>
-                        </div>
-                      </div>
-                    </article>
-                  ))}
-                </div>
-              </div>
-            </div>
+                      <a
+                        href={`https://github.com/frank890417/taiwan-md/commit/${commit.hash}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="font-['SFMono-Regular',Consolas,'Liberation_Mono',Menlo,monospace] font-semibold text-[#2563eb] no-underline hover:underline"
+                      >
+                        {commit.hash.slice(0, 7)}
+                      </a>
+                    </div>
+                  </div>
+                </article>
+              ))}
+            </TimelineDay>
           ))}
         </div>
       ) : (

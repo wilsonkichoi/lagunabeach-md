@@ -1,5 +1,6 @@
 ---
 import CommitLog from '../components/commits/CommitLog.astro';
+import TimelineDayNav from '../components/timeline/TimelineDayNav.astro';
 import Layout from '../layouts/Layout.astro';
 import PageHero from '../components/PageHero.astro';
 import { fetchCommitFeed, commitType } from '../lib/commits';
@@ -210,6 +211,17 @@ const filterTypes = [
   },
 ];
 
+// 左欄跳轉資料（共用 TimelineDayNav 的 shape，與 /latest 同一具骨架）
+const navMonthsData = sortedMonths.map((m) => ({
+  key: m,
+  label: formatMonth(m),
+  days: months[m].map((d) => ({
+    key: d,
+    label: d.slice(5),
+    count: grouped[d],
+  })),
+}));
+
 const searchPlaceholder =
   lang === 'zh-TW'
     ? '搜尋更新紀錄...'
@@ -226,7 +238,7 @@ const searchPlaceholder =
   lang={lang}
 >
   <div
-    class="mx-auto max-w-[1100px] px-8 pb-24 pt-16 max-[768px]:max-w-full max-[768px]:px-4 max-[768px]:pb-16 max-[768px]:pt-12"
+    class="mx-auto max-w-[var(--container-wide)] px-8 pb-24 pt-16 max-[768px]:max-w-full max-[768px]:px-4 max-[768px]:pb-16 max-[768px]:pt-12"
   >
     {/* Hero */}
     <div class="mb-10">
@@ -303,36 +315,14 @@ const searchPlaceholder =
 
     {/* Two-column layout */}
     <div class="grid grid-cols-[200px_1fr] gap-8 max-lg:grid-cols-1">
-      {/* Left: Date Navigation */}
-      <nav
-        id="date-nav"
-        class="sticky top-[180px] max-h-[calc(100vh-12rem)] overflow-y-auto pr-2 max-lg:hidden"
-        style="scrollbar-color: rgba(26,60,52,0.12) transparent; scrollbar-width: thin;"
-      >
-        {
-          sortedMonths.map((month) => (
-            <div class="mb-5">
-              <h3 class="mb-2 text-[0.7rem] font-bold uppercase tracking-wider text-[#94a3b8]">
-                {formatMonth(month)}
-              </h3>
-              <div class="flex flex-col gap-0.5">
-                {months[month].map((day) => (
-                  <a
-                    href={`#day-${day}`}
-                    class="date-nav-link flex items-center justify-between rounded-md px-2.5 py-1.5 text-[0.8rem] text-[#64748b] no-underline transition-colors hover:bg-[#f1f5f9] hover:text-[#1e293b]"
-                    data-day={day}
-                  >
-                    <span>{day.slice(5)}</span>
-                    <span class="text-[0.7rem] text-[#94a3b8]">
-                      {grouped[day]}
-                    </span>
-                  </a>
-                ))}
-              </div>
-            </div>
-          ))
-        }
-      </nav>
+      {/* Left: Date Navigation（共用 timeline 元件，與 /latest 同骨架）*/}
+      <TimelineDayNav
+        navId="date-nav"
+        months={navMonthsData}
+        anchorPrefix="day-"
+        accent="blue"
+        top="180px"
+      />
 
       {/* Right: Commit Timeline */}
       <div id="commit-list">
@@ -368,7 +358,7 @@ const searchPlaceholder =
   const pills = document.querySelectorAll('.filter-pill');
   const items = document.querySelectorAll('.commit-log-item');
   const dayGroups = document.querySelectorAll('.changelog-day-group');
-  const dateNavLinks = document.querySelectorAll('.date-nav-link');
+  const dateNavLinks = document.querySelectorAll('.timeline-nav-link');
   const filterStatus = document.getElementById('filter-status');
 
   let activeType = 'articles';
@@ -412,7 +402,7 @@ const searchPlaceholder =
       dayContainer.style.display = visibleItems.length ? '' : 'none';
 
       // Update count badge
-      const badge = group.querySelector('.rounded-full.bg-\\[\\#f1f5f9\\]');
+      const badge = group.querySelector('.timeline-day-badge');
       if (badge && visibleItems.length) {
         const dayLabel = badge.textContent.replace(/\d+/, '');
         badge.textContent = visibleItems.length + dayLabel;
@@ -437,12 +427,14 @@ const searchPlaceholder =
     });
 
     // Hide empty month headers
-    document.querySelectorAll('#date-nav > div').forEach((monthSection) => {
-      const visibleLinks = monthSection.querySelectorAll(
-        '.date-nav-link:not([style*="display: none"])',
-      );
-      monthSection.style.display = visibleLinks.length ? '' : 'none';
-    });
+    document
+      .querySelectorAll('#date-nav .timeline-nav-month')
+      .forEach((monthSection) => {
+        const visibleLinks = monthSection.querySelectorAll(
+          '.timeline-nav-link:not([style*="display: none"])',
+        );
+        monthSection.style.display = visibleLinks.length ? '' : 'none';
+      });
 
     // Status text
     if (filterStatus) {
