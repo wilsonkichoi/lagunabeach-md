@@ -55,21 +55,36 @@ distill_targets:
 
 ## 新教訓寫入格式（session 用）
 
+> **v2.2 pattern-id intake（2026-06-10 audit A-8）**：本 inbox 233 條未消化的真實組成是「少數 pattern × 多次 instance」（snapshot-stale ×N / babel-fragility ×N / 自評需外部尺 ×N），每次 instance 都開新 entry 重寫敘事，把聚類成本堆給最貴的 distill 環節。從此**寫入時就聚類**：append 前先 grep 同 pattern，存在就 +instance 不開新 entry。這是 #64「vc≥4 凍結 prose」對全部 LESSONS 的推廣。
+
+**寫新教訓前的第一動作**（hard step）：
+
+```bash
+grep -n "pattern: {kebab-case-猜測}" docs/semiont/LESSONS-INBOX.md
+# 命中 → 到該 entry 的「instances」清單 append 一行 + verification_count +1，不開新 entry
+# 沒命中 → 開新 entry（含 pattern: 欄位）
+```
+
 每個 session 如果有新教訓要記，在 §未消化清單 append：
 
 ```markdown
 ### YYYY-MM-DD {session} — {一句話標題}
 
+- **pattern**: {kebab-case 穩定 id，如 snapshot-stale-display / sub-agent-claim-drift。同類第 N 次必沿用既有 id}
 - **原則**：{一句話}
 - **觸發**：{具體事件 + wall-clock + 證據 pointer memory/... or diary/...}
+- **instances**：{第 2+ 次驗證從這裡 append 一行：`- YYYY-MM-DD {session} {一句話} → pointer`}
 - **可能層級**：哲學 / 通用反射 / 特有教訓 / 操作規則（self-judge，可留空讓 distill SOP 判）
 - **相關**：{如果是某條已有教訓的延伸驗證，指向原教訓 #N}
+- **verification_count**: N
 ```
 
 **鐵律**：
 
 - **一律 append 這裡，不直接寫 MANIFESTO / DNA / MEMORY**。那些是 distill 後的 canonical。
+- **同 pattern 不開第二條 entry**：grep 命中既有 `pattern:` id → 在原 entry 的 instances 清單 +1 行。distill 從此變成「看哪些 pattern vc 達標」的機械判斷。
 - **例外**：重大哲學級誕生（e.g. 2026-04-14 θ 熱帶雨林理論）觀察者在場直接一起寫 MANIFESTO，可豁免。但仍在這裡留 log。
+- **歷史 entries 不回頭補 pattern 欄**（per MANIFESTO §時間是結構修補協議）；新 entries 起 apply。
 
 ---
 
