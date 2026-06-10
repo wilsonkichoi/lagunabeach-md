@@ -67,13 +67,21 @@ TIER_WEIGHT = {"T1": 3.0, "T2": 1.5, "T3": 0.5}
 DEFAULT_TIER = "T2"  # unknown category → middle weight
 
 # ── Weights ───────────────────────────────────────────────────────────────────
+# v3 (2026-06-10 audit D-4): 新增 external_rulers 維度 — 免疫系統實際演化成
+# 儀器免疫（FACTCHECK / quote-fidelity / falsification agent / 讀者勘誤飛輪），
+# 但分數只量「人類讀過幾篇」。external_rulers 量「文章被幾把獨立外部尺量過」
+# （per 本週 meta-umbrella「每層自評都需要外部尺」vc=5 + MANIFESTO §12 受眾端飛輪）。
+# 權重從 review_coverage 0.30→0.25 + plugin_pass_rate 0.25→0.20 各讓 0.05。
+# 校準（REFLEXES #66）：2026-06-10 實測 external 覆蓋 ~3%（9 factcheck + 16 勘誤
+# commits/30d），分數 61→~56 的下降是「量出新缺口」的誠實成本，不是退步。
 DIMENSION_WEIGHTS = {
-    "review_coverage": 0.30,
-    "plugin_pass_rate": 0.25,
+    "review_coverage": 0.25,
+    "plugin_pass_rate": 0.20,
     "plugin_health": 0.15,
     "citation_density": 0.15,
     "tool_freshness": 0.10,
     "drift_velocity": 0.05,
+    "external_rulers": 0.10,
 }
 
 
@@ -376,6 +384,77 @@ def compute_drift_velocity(articles: list[dict]) -> tuple[float, dict]:
     }
 
 
+def compute_external_rulers(articles: list[dict]) -> tuple[float, dict]:
+    """v3 external_rulers（audit 2026-06-10 D-4）— 文章被獨立外部尺量過的比例.
+
+    外部尺定義（可機械歸因的兩種，90 天窗）：
+      (a) FACTCHECK Full-mode 報告存在 — reports/factcheck/**/{文章名}.md
+      (b) 讀者勘誤 commit — git log 訊息含 勘誤/讀者/callout/errata/fact-fix
+          且 touch 該 zh 文章
+
+    刻意不算的：lastVerified frontmatter（2026-06-10 實測 99.6% 飽和 backfill，
+    無鑑別力）、quote-fidelity/prose-health plugin pass（屬 plugin_pass_rate
+    維度，且是自家儀器不是「獨立」尺）。
+    Tier 加權同 review_coverage（T1 文章被外部尺量過價值 ×3）。
+    """
+    import subprocess
+
+    ruled = set()
+
+    # (a) factcheck reports — filename stem match
+    factcheck_dir = Path("reports/factcheck")
+    if factcheck_dir.exists():
+        for p in factcheck_dir.rglob("*.md"):
+            if not p.name.startswith("_"):
+                ruled.add(p.stem)
+
+    # (b) reader-errata commits in 90d touching zh knowledge files.
+    # Pattern 校準（第一版 dogfood 抓到自己灌水，REFLEXES #59/#65 現場）：
+    # 寬 pattern「callout/讀者」90d 命中 350 commits（「被哲宇 callout」「讀者
+    # 參與器官」全是誤傷）→ 收緊為 勘誤/errata/fact-fix 三個窄訊號；
+    # 並加「單 commit touch ≤5 篇 zh 文章」護欄 — 讀者勘誤天然是 1-3 篇的
+    # 點修，批次 heal/feature 掃過幾十篇不構成「這篇被外部尺量過」。
+    try:
+        out = subprocess.run(
+            ["git", "log", "--since=90 days ago", "--name-only",
+             "--grep=勘誤", "--grep=errata", "--grep=fact-fix",
+             "--pretty=format:@@COMMIT@@"],
+            capture_output=True, text=True, timeout=60,
+        ).stdout
+        for block in out.split("@@COMMIT@@"):
+            zh_files = [
+                ln.strip() for ln in block.splitlines()
+                if ln.strip().startswith("knowledge/") and ln.strip().endswith(".md")
+                and not any(f"/{l}/" in ln for l in ("en", "ja", "ko", "es", "fr"))
+            ]
+            if 0 < len(zh_files) <= 5:
+                for f in zh_files:
+                    ruled.add(Path(f).stem)
+    except Exception:
+        pass
+
+    weighted_ruled = 0.0
+    weighted_total = 0.0
+    ruled_count = 0
+    for a in articles:
+        tier = a.get("tier", DEFAULT_TIER)
+        w = TIER_WEIGHT.get(tier, TIER_WEIGHT[DEFAULT_TIER])
+        weighted_total += w
+        if Path(a.get("path", "")).stem in ruled:
+            weighted_ruled += w
+            ruled_count += 1
+
+    score = round((weighted_ruled / weighted_total * 100) if weighted_total else 0.0, 1)
+    detail = {
+        "ruledArticles": ruled_count,
+        "totalArticles": len(articles),
+        "rulerSources": {"factcheckReports": True, "readerErrataCommits90d": True,
+                          "lastVerifiedExcluded": "99.6% saturated backfill (2026-06-10)"},
+        "windowDays": 90,
+    }
+    return score, detail
+
+
 def compute_plugin_health() -> tuple[float, dict]:
     """Meta-health: plugin self-health monitoring (Phase 7 — B-line).
 
@@ -483,6 +562,10 @@ def main():
     plugin_health_score, plugin_health_detail = compute_plugin_health()
     print(f"   plugin_health (meta-health): {plugin_health_score}", file=sys.stderr)
 
+    # 6. external_rulers (v3 2026-06-10 audit D-4)
+    external_score, external_detail = compute_external_rulers(articles)
+    print(f"   external_rulers: {external_score}", file=sys.stderr)
+
     # ── Weighted total ───────────────────────────────────────────────────────
     components = {
         "review_coverage": review_score,
@@ -491,6 +574,7 @@ def main():
         "citation_density": citation_score,
         "tool_freshness": freshness_score,
         "drift_velocity": drift_score,
+        "external_rulers": external_score,
     }
     immune_score = round(sum(
         components[d] * DIMENSION_WEIGHTS[d] for d in components
@@ -521,7 +605,9 @@ def main():
         "freshnessDetail": freshness_detail,
         "driftDetail": drift_detail,
         "pluginHealthDetail": plugin_health_detail,
+        "externalRulersDetail": external_detail,
         "designReport": "reports/immune-score-redesign-2026-05-16.md",
+        "v3Note": "external_rulers added 2026-06-10 (audit D-4): % articles touched by an independent external ruler in 90d (factcheck full-mode report OR reader-errata commit). Baseline ~3% is honest — the dimension exists to make external verification growth visible.",
     }
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

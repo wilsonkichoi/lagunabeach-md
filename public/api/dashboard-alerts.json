@@ -1,15 +1,9 @@
 {
-  "lastUpdated": "2026-06-10T04:15:28.447Z",
+  "lastUpdated": "2026-06-10T04:47:26.847Z",
   "generator": "scripts/core/generate-dashboard-alerts.mjs",
   "note": "derived 警報層 — CONSCIOUSNESS §警報 的機械接管 (audit 2026-06-10 A-3)",
-  "count": 3,
+  "count": 2,
   "alerts": [
-    {
-      "id": "immune-status",
-      "severity": "yellow",
-      "message": "免疫 v2=61：需關注 — T1 review < 80% OR plugin pass < 90%",
-      "source": "dashboard-immune.json"
-    },
     {
       "id": "lessons-backlog",
       "severity": "yellow",

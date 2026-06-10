@@ -1,24 +1,26 @@
 {
-  "lastUpdated": "2026-06-10T12:02:41.975956",
+  "lastUpdated": "2026-06-10T12:46:57.884624",
   "schemaVersion": "v2-2026-05-16",
   "featureFlag": "IMMUNE_V2",
-  "immuneScore": 61,
-  "status": "需關注 — T1 review < 80% OR plugin pass < 90%",
+  "immuneScore": 56,
+  "status": "漂移 — 多維度退化中",
   "components": {
     "review_coverage": 27.7,
     "plugin_pass_rate": 70.0,
     "plugin_health": 58.3,
     "citation_density": 90.4,
     "tool_freshness": 80,
-    "drift_velocity": 90.0
+    "drift_velocity": 90.0,
+    "external_rulers": 2.7
   },
   "componentWeights": {
-    "review_coverage": 0.3,
-    "plugin_pass_rate": 0.25,
+    "review_coverage": 0.25,
+    "plugin_pass_rate": 0.2,
     "plugin_health": 0.15,
     "citation_density": 0.15,
     "tool_freshness": 0.1,
-    "drift_velocity": 0.05
+    "drift_velocity": 0.05,
+    "external_rulers": 0.1
   },
   "tierBreakdown": {
     "T1": {
@@ -202,5 +204,16 @@
     ],
     "note": "Phase 7 v1 — per-plugin drift only. Future: per-section EDITORIAL, false-positive-rate, longitudinal violation trend."
   },
-  "designReport": "reports/immune-score-redesign-2026-05-16.md"
+  "externalRulersDetail": {
+    "ruledArticles": 21,
+    "totalArticles": 792,
+    "rulerSources": {
+      "factcheckReports": true,
+      "readerErrataCommits90d": true,
+      "lastVerifiedExcluded": "99.6% saturated backfill (2026-06-10)"
+    },
+    "windowDays": 90
+  },
+  "designReport": "reports/immune-score-redesign-2026-05-16.md",
+  "v3Note": "external_rulers added 2026-06-10 (audit D-4): % articles touched by an independent external ruler in 90d (factcheck full-mode report OR reader-errata commit). Baseline ~3% is honest — the dimension exists to make external verification growth visible."
 }
