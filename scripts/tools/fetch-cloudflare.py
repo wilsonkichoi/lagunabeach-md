@@ -353,6 +353,113 @@ def fetch_ai_crawlers(token, zone_tag, days=7):
     }
 
 
+def fetch_ai_crawlers_by_lang(token, zone_tag, days=3):
+    """Per-language AI crawler read counts (audit 2026-06-10 A-9).
+
+    主權的巴別塔的 KPI 缺口：翻譯是給 AI cognitive substrate 的 bypass
+    infrastructure（MANIFESTO §主權的巴別塔），但從來沒量過「AI 在各語言
+    讀了多少」。本函式 group by (userAgent, clientRequestPath)，客端過濾
+    AI UA 後按路徑前綴 (/en/ /ja/ /ko/ /es/ /fr/，其餘歸 zh-TW) 聚合。
+
+    cardinality 註記：path 維度讓 row 數爆增，limit 10000 + count_DESC 之外
+    的長尾（count=1 的零星路徑）會被截斷 — 對「AI 有沒有在讀 /ja/，量級
+    跟 zh 差多少」這個問題夠用；輸出帶 rowsTruncated 標記誠實標示。
+    成本控制：預設 3 天窗（不跟 7 天主查詢同步）。
+    """
+    now = datetime.now(timezone.utc)
+    query = """
+    query AICrawlersLangDay($zoneTag: String!, $start: Time!, $end: Time!) {
+      viewer {
+        zones(filter: { zoneTag: $zoneTag }) {
+          httpRequestsAdaptiveGroups(
+            filter: { datetime_geq: $start, datetime_leq: $end }
+            limit: 10000
+            orderBy: [count_DESC]
+          ) {
+            count
+            dimensions {
+              userAgent
+              clientRequestPath
+            }
+          }
+        }
+      }
+    }
+    """
+    lang_prefixes = ["en", "ja", "ko", "es", "fr"]
+    per_lang = {
+        lang: {"requests": 0, "crawlerHits": {}}
+        for lang in lang_prefixes + ["zh-TW", "non-article"]
+    }
+    truncated = False
+    days_fetched = 0
+
+    for offset in range(days):
+        day_end = now - timedelta(days=offset)
+        day_start = day_end - timedelta(days=1)
+        variables = {
+            "zoneTag": zone_tag,
+            "start": day_start.strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "end": day_end.strftime("%Y-%m-%dT%H:%M:%SZ"),
+        }
+        data, err = _cf_graphql_soft(token, query, variables)
+        if err:
+            print(
+                f"⚠️  per-lang AI crawler day {day_start.date()} failed: {err[:160]}",
+                file=sys.stderr,
+            )
+            continue
+        zones = data.get("viewer", {}).get("zones", [])
+        if not zones:
+            continue
+        day_rows = zones[0].get("httpRequestsAdaptiveGroups", []) or []
+        if len(day_rows) >= 10000:
+            truncated = True
+        days_fetched += 1
+
+        for row in day_rows:
+            dims = row.get("dimensions", {}) or {}
+            ua = dims.get("userAgent", "") or ""
+            path = dims.get("clientRequestPath", "") or ""
+            count = row.get("count", 0) or 0
+
+            crawler_name = None
+            for name, pattern, _cat in AI_CRAWLER_PATTERNS:
+                if re.search(pattern, ua, re.IGNORECASE):
+                    crawler_name = name
+                    break
+            if not crawler_name:
+                continue
+
+            seg = path.split("/")[1] if path.startswith("/") and len(path) > 1 else ""
+            if seg in lang_prefixes:
+                lang = seg
+            elif path.startswith("/api/") or path.startswith("/_astro/") or "." in path.split("/")[-1]:
+                lang = "non-article"
+            else:
+                lang = "zh-TW"
+            per_lang[lang]["requests"] += count
+            hits = per_lang[lang]["crawlerHits"]
+            hits[crawler_name] = hits.get(crawler_name, 0) + count
+
+    if days_fetched == 0:
+        return None
+
+    out = {}
+    for lang, info in per_lang.items():
+        top = sorted(info["crawlerHits"].items(), key=lambda x: x[1], reverse=True)[:3]
+        out[lang] = {
+            "requests": info["requests"],
+            "topCrawlers": [{"name": n, "requests": c} for n, c in top],
+        }
+    return {
+        "days": days,
+        "daysFetched": days_fetched,
+        "rowsTruncated": truncated,
+        "byLanguage": out,
+    }
+
+
 def _build_daily_row(d):
     """Extract per-day metrics including status breakdown (2026-04-17 δ).
 
@@ -529,6 +636,21 @@ def main():
     except Exception as e:
         print(f"⚠️  AI crawler query error: {type(e).__name__}: {e}", file=sys.stderr)
         ai_crawlers = None
+
+    # Per-language AI crawler gauge (audit 2026-06-10 A-9) — soft-fail isolated.
+    if ai_crawlers:
+        try:
+            per_lang = fetch_ai_crawlers_by_lang(token, zone_tag, days=min(args.days, 3))
+            if per_lang:
+                ai_crawlers["perLanguage"] = per_lang
+                langs_summary = " ".join(
+                    f"{l}={v['requests']}"
+                    for l, v in sorted(per_lang["byLanguage"].items())
+                    if l != "non-article"
+                )
+                print(f"✅ AI crawlers per-language: {langs_summary}", file=sys.stderr)
+        except Exception as e:
+            print(f"⚠️  per-lang AI crawler error: {type(e).__name__}: {e}", file=sys.stderr)
 
     output = {
         "fetched_at": datetime.now(timezone.utc).isoformat(),

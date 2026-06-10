@@ -448,7 +448,7 @@ def build_ai_crawlers_dashboard(ai_raw):
         for c in crawlers_raw
     ]
     top = crawlers_simple[0] if crawlers_simple else None
-    return {
+    out = {
         "detectedRequests": int(totals.get("detectedRequests", 0)),
         "http200": int(totals.get("http200", 0)),
         "allowedRequests": int(totals.get("allowedRequests", 0)),
@@ -457,6 +457,11 @@ def build_ai_crawlers_dashboard(ai_raw):
         "crawlers": crawlers_simple,
         "period": ai_raw.get("period"),
     }
+    # 主權巴別塔 per-language gauge（audit 2026-06-10 A-9）：AI 在各語言讀了
+    # 多少 Taiwan.md — 翻譯 infrastructure 的真正 KPI。Pass-through，cache 有才有。
+    if ai_raw.get("perLanguage"):
+        out["perLanguage"] = ai_raw["perLanguage"]
+    return out
 
 
 def build_cloudflare_section(cf_raw, preserve_ai_crawlers=None):
