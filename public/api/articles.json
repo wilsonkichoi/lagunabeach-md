@@ -115,6 +115,23 @@
     "path": "fr/History/formosa-historical-name.md"
   },
   {
+    "title": "'국민주택과 주거 정의: 정부가 지은 저렴한 집은 결국 누구의 자산 엘리베이터가 되었는가'",
+    "description": "1985년 성공국민주택은 평당 6.7만 타이완달러에도 찾는 사람이 없었고, 한 원로 리장은 40만 타이완달러의 계약금을 마련해 한 채를 샀다. 40년 뒤 같은 주소는 평당 100만 타이완달러에 육박한다. 국민주택은 본래 '사람들이 집을 살 수 있게 돕는' 도구였지만, 시세차익을 회수하는 문은 끝내 달지 않았다. 공공 보조는 결국 먼저 산 사람의 사적 자산이 되었다. 2026년 타오위안은 그 문을 다시 달았다. 이는 국민주택의 오류를 인정한 것이나 다름없다.",
+    "category": "ko",
+    "tags": [
+      "국민주택",
+      "주거 정의",
+      "주택 정책",
+      "세대 정의",
+      "부담 가능한 주택"
+    ],
+    "url": "https://taiwan.md/ko/Society/public-housing-justice",
+    "readingTime": 100,
+    "featured": false,
+    "date": "2026-06-06",
+    "path": "ko/Society/public-housing-justice.md"
+  },
+  {
     "title": "'린슈하오: 15일 만에 두 차례 방출에서 TPBL 더블 MVP로 은퇴하기까지의 농구 인생'",
     "description": "'고등학교 주 챔피언십 우승에도 장학금 한 장 받지 못하고, 드래프트에서 아무도 선택하지 않고, 15일 만에 두 차례 방출당한 후—그는 전 세계에 '린사니티'를 알렸다'",
     "category": "ko",
@@ -561,7 +578,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Politics/2026-local-elections-taiwan",
-    "readingTime": 141,
+    "readingTime": 145,
     "featured": true,
     "date": "2026-05-27",
     "path": "en/Politics/2026-local-elections-taiwan.md"
@@ -602,7 +619,7 @@
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/Politics/2026-local-elections-taiwan",
-    "readingTime": 63,
+    "readingTime": 65,
     "featured": true,
     "date": "2026-05-27",
     "path": "ko/Politics/2026-local-elections-taiwan.md"
@@ -613,7 +630,7 @@
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/Politics/2026-local-elections-taiwan",
-    "readingTime": 56,
+    "readingTime": 57,
     "featured": true,
     "date": "2026-05-27",
     "path": "ja/Politics/2026-local-elections-taiwan.md"
@@ -2705,7 +2722,7 @@
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/Lifestyle/transportation-system",
-    "readingTime": 5,
+    "readingTime": 7,
     "featured": true,
     "date": "2026-04-26",
     "path": "ja/Lifestyle/transportation-system.md"
@@ -3018,12 +3035,12 @@
     "path": "ja/Geography/how-to-read-the-taiwan-map.md"
   },
   {
-    "title": "台湾医療と全民健康保険：99.6%が12.61%の上に支えられる世界一",
-    "description": "1995年3月1日の健保カードは、尻に火がついた状態で間に合わせたものでした。6日前にはカードすら印刷できていませんでした。30年後、2,300万人の受診する権利は、5.17%の保険料率、10年で最高となった看護職離職率12.61%、そして30年間誰も手を付けられなかった政治的タブーの上に支えられています。",
+    "title": "台湾医療と全民健康保険：99.6% が 12.61% の上で支える世界一",
+    "description": "1995 年 3 月 1 日の健康保険カードは、尻に火がついた状態で急いで用意されたものでした。6 日前にはカードさえ印刷されていませんでした。30 年後、2,300 万人の受診権は、5.17% の保険料率、10 年来最高の 12.61% に達した看護職離職率、そして 30 年間誰も手をつけられなかった政治的タブーの上に成り立っています。",
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/Lifestyle/taiwan-healthcare-and-national-health-insurance",
-    "readingTime": 93,
+    "readingTime": 99,
     "featured": true,
     "date": "2026-06-04",
     "path": "ja/Lifestyle/taiwan-healthcare-and-national-health-insurance.md"
@@ -4063,6 +4080,17 @@
     "featured": true,
     "date": "2026-03-31",
     "path": "ja/Technology/taiwan-television-industry-history.md"
+  },
+  {
+    "title": "台湾と原子力をめぐる議論：反原発はかつて民主運動の共通言語でしたが、気候危機が各陣営の前提を組み替えました",
+    "description": "2025 年 8 月、434 万人が「第三原発再稼働」に賛成票を投じ、74% を得たにもかかわらず、投票率が基準に届かず敗北扱いになりました。40 年で 3 度の住民投票を経て、台湾は反原発の合意から非核の故郷へ進み、さらに 3 か月のうちに、自ら停止した原子炉を再稼働へ押し出しました。この議論はすでに「原子力はよいか悪いか」という二択を超えています。核廃棄物は 10 万年安定させなければならず、脱炭素は 10 年以内に達成しなければならず、電力不足は今この瞬間の問題です。時間圧力が互いに逆向きの課題を、社会がどう決めるのかという問いなのです。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Society/taiwan-nuclear-debate",
+    "readingTime": 90,
+    "featured": false,
+    "date": "2026-06-07",
+    "path": "ja/Society/taiwan-nuclear-debate.md"
   },
   {
     "title": "台湾とエスワティニ：アフリカ最後の外交的生命線は、一人の人物にかかっています",
@@ -11977,12 +12005,12 @@
     "path": "People/沈伯洋.md"
   },
   {
-    "title": "沈伯洋（シェン・ボーヤン）：中国の認知戦を研究していたら、中国が衛星写真で彼の自宅を特定した",
-    "description": "2021年、沈伯洋（シェン・ボーヤン）は戦略研究者の何澄輝と共に黒熊学院（Kuma Academy）を設立した。曹興誠が6億台湾元を寄付し、3年間で300万人の市民防衛訓練を目標とした。2024年2月、民主進歩党の比例代表立法委員として国会入り。2025年10月28日、中国が「国家分裂罪」で立件した台湾の民選政治家の第一号となり、CCTV は「次はお前だ」と警告する特集を放映した。2026年元旦、中国のWeiboアカウントが商業衛星を使い台北の自宅と職場の座標を公開した。バレンタインデーには、フランスへ向かう飛行機の中で過ごした。",
+    "title": "沈伯洋：彼は中国の認知戦を研究し、のちに中国は彼を衛星画像上に描き込んだ",
+    "description": "2021年、沈伯洋は戦略研究者の何澄輝と黒熊学院を共同創設し、曹興誠が6億元を寄付して支援しました。目標は3年間で300万人の民間防衛志士を訓練することでした。2024年2月、民進党の比例代表立法委員として国会に入りました。2025年10月28日、彼は中国から「国家分裂罪」で立件捜査された初の台湾の民選政治家となり、中央テレビは「暴く」特集を添えて「次はあなたです」と警告しました。2026年元日、中国の微博アカウントは商用衛星を使い、台北にある彼の自宅と勤務先の座標を公開しました。バレンタインデーを、彼はフランスへ向かう機内で過ごしました。",
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/People/puma-shen",
-    "readingTime": 65,
+    "readingTime": 83,
     "featured": false,
     "date": "2026-04-27",
     "path": "ja/People/puma-shen.md"
@@ -12429,7 +12457,7 @@
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/Economy/night-market-economics",
-    "readingTime": 11,
+    "readingTime": 12,
     "featured": false,
     "date": "2026-03-21",
     "path": "ja/Economy/night-market-economics.md"
@@ -14517,7 +14545,7 @@
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/Nature/typhoons-in-taiwan",
-    "readingTime": 56,
+    "readingTime": 57,
     "featured": false,
     "date": "2026-05-09",
     "path": "ja/Nature/typhoons-in-taiwan.md"
@@ -21991,7 +22019,7 @@
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/People/huai-te-indie-singer",
-    "readingTime": 71,
+    "readingTime": 72,
     "featured": false,
     "date": "2026-04-26",
     "path": "ja/People/huai-te-indie-singer.md"
@@ -24152,9 +24180,9 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Nature/typhoons-in-taiwan",
-    "readingTime": 117,
+    "readingTime": 119,
     "featured": false,
-    "date": "2026-05-09",
+    "date": "2026-06-03",
     "path": "en/Nature/typhoons-in-taiwan.md"
   },
   {
@@ -25117,13 +25145,7 @@
     "title": "Cheng Li-wen",
     "description": "From the student activist who went on a hunger strike for Taiwan independence at the NTU gate in 1988 to the KMT chairperson who told Xi Jinping in Beijing in 2026 that 'compatriots across the strait are all Chinese.' What happened along this trajectory?",
     "category": "fr",
-    "tags": [
-      "political_figure",
-      "Kuomintang",
-      "cross-strait_relations",
-      "student_movement_generation",
-      "2026"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/fr/People/cheng-li-wun",
     "readingTime": 104,
     "featured": true,
@@ -29239,7 +29261,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Lifestyle/transportation-system",
-    "readingTime": 92,
+    "readingTime": 96,
     "featured": true,
     "date": "2026-04-26",
     "path": "es/Lifestyle/transportation-system.md"
@@ -29339,7 +29361,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Politics/2026-local-elections-taiwan",
-    "readingTime": 146,
+    "readingTime": 150,
     "featured": true,
     "date": "2026-05-27",
     "path": "es/Politics/2026-local-elections-taiwan.md"
@@ -29389,7 +29411,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Politics/2026-local-elections-taiwan",
-    "readingTime": 157,
+    "readingTime": 161,
     "featured": true,
     "date": "2026-05-27",
     "path": "fr/Politics/2026-local-elections-taiwan.md"
@@ -31021,7 +31043,7 @@
     "url": "https://taiwan.md/en/People/han-kuo-yu",
     "readingTime": 82,
     "featured": true,
-    "date": "2026-04-11",
+    "date": "2026-04-13",
     "path": "en/People/han-kuo-yu.md"
   },
   {
@@ -31351,16 +31373,9 @@
     "title": "Histoire du mouvement environnemental à Taïwan",
     "description": "Du combat contre la pollution industrielle des années 1980 aux campagnes contre le plastique d'aujourd'hui, retour sur un demi-siècle de mobilisation écologique à Taïwan et sur la façon dont la conscience environnementale s'est entremêlée au processus de démocratisation.",
     "category": "fr",
-    "tags": [
-      "mouvement environnemental",
-      "protection de lenvironnement",
-      "mouvements sociaux",
-      "mouvement antinucléaire",
-      "pollution atmosphérique",
-      "protection des océans"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/fr/Nature/taiwan-environmental-movement-history",
-    "readingTime": 50,
+    "readingTime": 51,
     "featured": false,
     "date": "2026-03-20",
     "path": "fr/Nature/taiwan-environmental-movement-history.md"
@@ -33835,7 +33850,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Society/environmental-justice",
-    "readingTime": 111,
+    "readingTime": 112,
     "featured": false,
     "date": "2026-03-20",
     "path": "fr/Society/environmental-justice.md"
@@ -33864,7 +33879,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Society/taiwan-environmental-justice-nimby-conflicts",
-    "readingTime": 110,
+    "readingTime": 111,
     "featured": false,
     "date": "2026-03-20",
     "path": "es/Society/taiwan-environmental-justice-nimby-conflicts.md"
@@ -34441,7 +34456,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Economy/night-market-economics",
-    "readingTime": 54,
+    "readingTime": 58,
     "featured": false,
     "date": "2026-03-21",
     "path": "fr/Economy/night-market-economics.md"
@@ -34997,7 +35012,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Food/taiwan-specialty-home-cooking",
-    "readingTime": 60,
+    "readingTime": 62,
     "featured": true,
     "date": "2026-03-31",
     "path": "es/Food/taiwan-specialty-home-cooking.md"
@@ -35071,7 +35086,7 @@
       "culture gastronomique"
     ],
     "url": "https://taiwan.md/fr/Food/taiwan-specialty-home-cooking",
-    "readingTime": 61,
+    "readingTime": 64,
     "featured": true,
     "date": "2026-03-31",
     "path": "fr/Food/taiwan-specialty-home-cooking.md"
@@ -35999,7 +36014,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Economy/night-market-economics",
-    "readingTime": 55,
+    "readingTime": 59,
     "featured": false,
     "date": "2026-03-21",
     "path": "es/Economy/night-market-economics.md"
@@ -36532,7 +36547,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Music/taiwan-independent-music-scene-evolution",
-    "readingTime": 174,
+    "readingTime": 175,
     "featured": true,
     "date": "2026-03-29",
     "path": "fr/Music/taiwan-independent-music-scene-evolution.md"
@@ -37794,7 +37809,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Society/sunflower-movement",
-    "readingTime": 90,
+    "readingTime": 91,
     "featured": true,
     "date": "2026-04-12",
     "path": "fr/Society/sunflower-movement.md"
@@ -38156,7 +38171,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Lifestyle/transportation-system",
-    "readingTime": 90,
+    "readingTime": 94,
     "featured": true,
     "date": "2026-04-26",
     "path": "fr/Lifestyle/transportation-system.md"
@@ -39296,15 +39311,7 @@
     "title": "Les zongzi de Taïwan",
     "description": "Les zongzi de Taïwan ne sont pas un seul aliment, mais quatre mémoires d'îles superposées : Minnan, Hakka, waisheng et peuples autochtones — chaque bouchée est un fragment du chemin parcouru.",
     "category": "fr",
-    "tags": [
-      "Fête des Bateaux-Dragons",
-      "culture culinaire",
-      "Minnan",
-      "Hakka",
-      "waisheng",
-      "peuples autochtones",
-      "gastronomie festive"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/fr/Food/zongzi-rice-dumpling",
     "readingTime": 56,
     "featured": true,
@@ -40183,12 +40190,12 @@
     "path": "en/Culture/loanwords-and-language-contact-in-taiwan.md"
   },
   {
-    "title": "Logement public et justice résidentielle : les logements bon marché construits par l'État, l'ascenseur patrimonial de qui ont-ils fini par alimenter ?",
-    "description": "En 1985, les logements publics de Chenggong coûtaient 67 000 dollars taïwanais le ping et ne trouvaient pas preneur ; un vieux chef de quartier réunit 400 000 dollars taïwanais d'apport pour en acheter un. Quarante ans plus tard, la même adresse approche le million par ping. Le logement public devait être un outil pour « aider la population à acheter un logement », mais il n'a jamais été doté d'une barrière de récupération de la plus-value : la subvention publique est finalement devenue le patrimoine privé des premiers acheteurs. En 2026, Taoyuan remet cette barrière en place, comme une reconnaissance de l'erreur originelle du logement public.",
+    "title": "Logement public et justice résidentielle : les logements abordables construits par l’État, un ascenseur patrimonial pour qui ?",
+    "description": "En 1985, au complexe public Chenggong, un ping valait 67 000 NT$ et ne trouvait pas preneur; un vieux chef de quartier réunit 400 000 NT$ d’apport pour acheter. Quarante ans plus tard, à la même adresse, le prix approche le million de NT$ par ping. Le logement national devait être un outil pour « aider la population à pouvoir acheter un logement », mais il n’a jamais été doté d’un sas de récupération des plus-values; la subvention publique est finalement devenue le patrimoine privé des premiers acheteurs. En 2026, Taoyuan remet ce sas en place, ce qui revient à reconnaître l’erreur du logement national.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Society/public-housing-justice",
-    "readingTime": 229,
+    "readingTime": 232,
     "featured": false,
     "date": "2026-06-06",
     "path": "fr/Society/public-housing-justice.md"
@@ -40926,17 +40933,6 @@
     "featured": false,
     "date": "2026-03-21",
     "path": "fr/Culture/mazu-dadaogong-legend.md"
-  },
-  {
-    "title": "Médecine et Assurance maladie nationale à Taïwan : un numéro un mondial à 99,6 % qui repose sur 12,61 %",
-    "description": "La carte d'assurance maladie du 1er mars 1995 a été produite dans l'urgence absolue : six jours plus tôt, les cartes n'étaient même pas imprimées. Trente ans plus tard, le droit aux soins de 23 millions de personnes repose sur un taux de cotisation de 5,17 %, un taux de départs infirmiers au plus haut depuis dix ans à 12,61 %, et un tabou politique que personne n'a osé toucher depuis trente ans.",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Lifestyle/taiwan-healthcare-and-national-health-insurance",
-    "readingTime": 248,
-    "featured": true,
-    "date": "2026-06-04",
-    "path": "fr/Lifestyle/taiwan-healthcare-and-national-health-insurance.md"
   },
   {
     "title": "Media and Press Freedom in Taiwan",
@@ -41702,7 +41698,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Society/sunflower-movement",
-    "readingTime": 96,
+    "readingTime": 98,
     "featured": true,
     "date": "2026-04-12",
     "path": "es/Society/sunflower-movement.md"
@@ -41969,7 +41965,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Music/taiwan-independent-music-scene-evolution",
-    "readingTime": 170,
+    "readingTime": 171,
     "featured": true,
     "date": "2026-03-29",
     "path": "es/Music/taiwan-independent-music-scene-evolution.md"
@@ -42145,6 +42141,17 @@
     "featured": false,
     "date": "2026-05-03",
     "path": "en/Lifestyle/national-highway-system.md"
+  },
+  {
+    "title": "National Housing and Housing Justice: The Cheap Homes Built by the Government, and Whose Asset Escalator They Ultimately Created",
+    "description": "In 1985, Chenggong National Housing cost NT$67,000 per ping and still had no buyers; an old borough chief scraped together a NT$400,000 down payment and bought a unit. Forty years later, the same address is nearing NT$1 million per ping. National Housing was supposed to be a tool to help people afford homes, but it was never fitted with a gate to recapture appreciation. Public subsidy ultimately became private assets for early buyers. In 2026, Taoyuan put that gate back in, effectively admitting National Housing’s mistake.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Society/public-housing-justice",
+    "readingTime": 214,
+    "featured": false,
+    "date": "2026-06-06",
+    "path": "en/Society/public-housing-justice.md"
   },
   {
     "title": "National Human Rights Museum: The Names Not Written on the Tearful Monument",
@@ -42332,7 +42339,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Economy/night-market-economics",
-    "readingTime": 46,
+    "readingTime": 49,
     "featured": false,
     "date": "2026-03-21",
     "path": "en/Economy/night-market-economics.md"
@@ -43735,7 +43742,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Nature/typhoons-in-taiwan",
-    "readingTime": 126,
+    "readingTime": 128,
     "featured": false,
     "date": "2026-05-09",
     "path": "fr/Nature/typhoons-in-taiwan.md"
@@ -44007,17 +44014,6 @@
     "path": "ko/Technology/ptt-bulletin-board-system.md"
   },
   {
-    "title": "Public Housing and Housing Justice: Government-Built Cheap Homes, and Whose Asset Escalator They Ultimately Created",
-    "description": "In 1985, no one wanted Chenggong public housing at NT$67,000 per ping; an old borough chief scraped together a NT$400,000 down payment to buy one. Forty years later, the same address is nearing NT$1 million per ping. Public housing was originally a tool to “help people afford a home,” but it was never fitted with a gate to recapture appreciation. Public subsidies ultimately became private assets for early buyers. In 2026, Taoyuan put that gate back in place, effectively admitting the mistake of public housing.",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Society/public-housing-justice",
-    "readingTime": 206,
-    "featured": false,
-    "date": "2026-06-06",
-    "path": "en/Society/public-housing-justice.md"
-  },
-  {
     "title": "Public Television: From the NT$900 Million Golden Headband to Expulsion from the Legislative Chamber, Twenty-Eight Years of Independence Still Unfinished",
     "description": "When PTS went on air in 1998, the Public Television Act required government-donated funding to decrease year by year and eventually froze it at NT$900 million annually. That provision bound PTS for 23 years. In the meantime, it nurtured five flagship Taiwanese dramas that shook society: The World Between Us, Gold Leaf, The Teenage Psychic, Wake Up, and A Touch of Green. In May 2023, legal amendments lifted the golden headband, and the budget more than doubled to NT$2.3 billion. But 19 months later, 1% of the budget was cut and 25% frozen; another year later, in May 2026, Chairperson Hu Yuan-hui was asked to leave the Legislative Yuan chamber. What PTS has proved over 28 years is this: removing the golden headband does not mean independence has been built.",
     "category": "en",
@@ -44034,7 +44030,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Nature/typhoons-in-taiwan",
-    "readingTime": 126,
+    "readingTime": 128,
     "featured": false,
     "date": "2026-05-09",
     "path": "es/Nature/typhoons-in-taiwan.md"
@@ -44064,23 +44060,34 @@
     "path": "en/Food/puli-shaoxing-wine.md"
   },
   {
-    "title": "Puma Shen : il étudiait la guerre cognitive de la Chine, puis la Chine l'a placé sur ses cartes satellites",
-    "description": "En 2021, Puma Shen et le stratège Ho Cheng-hui co-fondent la Kuma Academy ; Robert Tsao apporte 600 millions de NT$ pour former en trois ans 3 millions de volontaires de la défense civile. En février 2024, il devient député DPP à la proportionnelle. Le 28 octobre 2025, il est le premier responsable politique élu taïwanais à faire l'objet d'une enquête ouverte par la Chine pour « scission de l'État », accompagnée d'un dossier CCTV avertissant : « le prochain, c'est toi ». Le 1er janvier 2026, un compte Weibo chinois publie via satellite commercial les coordonnées de son domicile et de son lieu de travail à Taipei ; la Saint-Valentin, il la passe dans l'avion qui l'emmène en France.",
+    "title": "Puma Shen : il étudiait la guerre cognitive chinoise, puis la Chine l'a placé sur une image satellite",
+    "description": "En 2021, Puma Shen et le spécialiste de stratégie Ho Cheng-hui ont cofondé l'Académie Kuma ; Robert Tsao a donné 600 millions de dollars taïwanais pour la soutenir, avec pour objectif de former trois millions de volontaires de défense civile en trois ans. En février 2024, il est entré au Yuan législatif comme député sans circonscription du Parti démocrate progressiste. Le 28 octobre 2025, il est devenu la première personnalité politique élue de Taïwan visée par une enquête chinoise pour « crime de sécession » ; CCTV y a ajouté une émission spéciale de « dévoilement » avertissant que « le prochain, ce sera vous ». Le jour de l'An 2026, un compte Weibo chinois a publié, au moyen d'images satellites commerciales, les coordonnées de son domicile et de son lieu de travail à Taipei ; il a passé la Saint-Valentin dans un avion à destination de la France.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/People/puma-shen",
-    "readingTime": 111,
+    "readingTime": 208,
     "featured": false,
     "date": "2026-04-27",
     "path": "fr/People/puma-shen.md"
   },
   {
-    "title": "Puma Shen: He Researched China's Cognitive Warfare — Then China Plotted His Coordinates on a Satellite Map",
-    "description": "In 2021, Puma Shen co-founded Kuma Academy with strategist Ho Cheng-hui; tech billionaire Tsao Hsing-cheng donated NT$600 million in support, with a goal of training three million civil defense volunteers in three years. In February 2024, Shen took a seat in the Legislative Yuan as a DPP at-large legislator. On October 28, 2025, he became the first elected Taiwanese official to be indicted by China under charges of \"splitting the nation.\" CCTV followed with a seven-and-a-half-minute exposé warning: \"You''re next.\" On New Year''s Day 2026, a Chinese Weibo account published satellite images of his home and workplace in Taipei; on Valentine''s Day he was on a plane to France.",
+    "title": "Puma Shen: estudió la guerra cognitiva de China y luego China lo dibujó en un mapa satelital",
+    "description": "En 2021, Puma Shen y el estratega Ho Cheng-hui cofundaron la Academia Kuma; Robert Tsao donó 600 millones para apoyarla, con el objetivo de formar a tres millones de voluntarios de defensa civil en tres años. En febrero de 2024 ingresó al Yuan Legislativo como legislador de lista nacional del DPP. El 28 de octubre de 2025 se convirtió en el primer político taiwanés electo investigado formalmente por China por el delito de 'secesión'; CCTV acompañó el caso con un especial de 'exposición' que advertía: 'el próximo eres tú'. El día de Año Nuevo de 2026, una cuenta china de Weibo usó imágenes satelitales comerciales para publicar las coordenadas de su domicilio y lugar de trabajo en Taipéi; pasó el Día de San Valentín en un avión rumbo a Francia.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/People/puma-shen",
+    "readingTime": 209,
+    "featured": false,
+    "date": "2026-04-27",
+    "path": "es/People/puma-shen.md"
+  },
+  {
+    "title": "Puma Shen: He Studied China's Cognitive Warfare; Then China Put Him on a Satellite Map",
+    "description": "In 2021, Puma Shen and strategic studies scholar Ho Cheng-hui co-founded Kuma Academy. Robert Tsao donated NT$600 million to support it, with the goal of training three million civil defense volunteers in three years. In February 2024, Shen entered the Legislative Yuan as a Democratic Progressive Party legislator-at-large. On October 28, 2025, he became the first elected Taiwanese politician placed under investigation by China for \"splittism.\" CCTV paired the case with an \"exposure\" special warning, \"You could be next.\" On New Year''s Day 2026, a Chinese Weibo account used commercial satellite imagery to publish the coordinates of his home and workplace in Taipei; he spent Valentine''s Day on a flight to France.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/People/puma-shen",
-    "readingTime": 148,
+    "readingTime": 189,
     "featured": false,
     "date": "2026-04-27",
     "path": "en/People/puma-shen.md"
@@ -44955,17 +44962,6 @@
     "path": "es/Food/taiwan-sauces-and-seasonings.md"
   },
   {
-    "title": "Salud y Seguro Nacional de Salud en Taiwán: el número uno del mundo, con 99.6% sostenido sobre 12.61%",
-    "description": "La tarjeta del Seguro Nacional de Salud del 1 de marzo de 1995 se sacó a toda prisa: seis días antes ni siquiera estaba impresa. Treinta años después, el derecho de 23 millones de personas a recibir atención médica se sostiene sobre una tasa de cotización de 5.17%, una tasa de rotación de enfermería en máximo de 10 años de 12.61% y un tabú político que nadie se ha atrevido a tocar en tres décadas.",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/Lifestyle/taiwan-healthcare-and-national-health-insurance",
-    "readingTime": 234,
-    "featured": true,
-    "date": "2026-06-04",
-    "path": "es/Lifestyle/taiwan-healthcare-and-national-health-insurance.md"
-  },
-  {
     "title": "Samuel Yin : le prix scientifique qu'il a créé vaut plus que le Nobel",
     "description": "Le 26 mai 2026 à quatre heures vingt et une du matin, Samuel Yin, président du groupe Ruentex et fondateur du Tang Prize, s'est éteint à l'hôpital des Vétérans de Taipei (VGH Taipei), à l'âge de 76 ans. Du bagarreur adolescent dont Wang Jin-ping pansait les blessures au collège Jingde, à sa visite en 1989 à l'université de Pékin où la poussière lui montait aux chevilles, en passant par la création de la Guanghua School of Management, jusqu'au don de 3 milliards de dollars taïwanais en 2012 pour fonder le Tang Prize — dont le prix de 50 millions de dollars taïwanais par catégorie dépasse celui du Nobel. Un homme d'affaires taïwanais vient de quitter ce monde, léguant à la planète un prix plus cher que le Nobel.",
     "category": "fr",
@@ -45139,28 +45135,6 @@
     "featured": true,
     "date": "2026-03-17",
     "path": "en/taiwan-semiconductor-industry.md"
-  },
-  {
-    "title": "Shen Pei-yang: He Studied China's Cognitive Warfare, Then China Put Him on Satellite Imagery",
-    "description": "In 2021, Shen Pei-yang co-founded the Black Bear Academy with strategic scholar Ho Cheng-hui; Tsai Hsing-cheng donated 600 million NTD to support it, with the goal of training 3 million civilian defense volunteers in three years. In February 2024, he entered parliament as a Democratic Progressive Party (DPP) proportional representation legislator. On October 28, 2025, he became the first elected Taiwanese political figure investigated by China under the 'crime of splitting the country,' with CCTV airing a 'dossier' special warning 'the next one is you.' On New Year's Day 2026, a Chinese Weibo account used commercial satellite imagery to reveal the coordinates of his residence and workplace in Taipei; he spent Valentine's Day on a flight to France.",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/People/puma-shen",
-    "readingTime": 182,
-    "featured": false,
-    "date": "2026-04-27",
-    "path": "es/People/puma-shen.md"
-  },
-  {
-    "title": "Shen Pei-yang: He Studied China's Cognitive Warfare, Then China Put Him on Satellite Imagery",
-    "description": "In 2021, Shen Pei-yang co-founded the Black Bear Academy with strategic scholar Ho Cheng-hui; Tsai Hsing-cheng donated NT$600 million in support, with the goal of training 3 million civilian defense volunteers within three years. In February 2024, he entered the legislature as a Democratic Progressive Party (DPP) proportional representation legislator. On October 28, 2025, he became the first elected Taiwanese political figure to be investigated by China under the 'crime of splitting the country,' with CCTV airing a 'deep dive' special warning 'the next one is you.' On New Year's Day 2026, a Chinese Weibo account used commercial satellite imagery to publish the coordinates of his home and workplace in Taipei; he spent Valentine's Day on a flight to France.",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/People/puma-shen",
-    "readingTime": 183,
-    "featured": false,
-    "date": "2026-04-27",
-    "path": "ko/People/puma-shen.md"
   },
   {
     "title": "Shen Sheng-Bo",
@@ -45365,6 +45339,17 @@
     "featured": false,
     "date": "2026-05-27",
     "path": "es/Politics/central-election-commission.md"
+  },
+  {
+    "title": "Sistema de salud y Seguro Nacional de Salud de Taiwán: el número uno del mundo con un 99.6% sostenido sobre un 12.61%",
+    "description": "La tarjeta del Seguro Nacional de Salud del 1 de marzo de 1995 se sacó adelante con el agua al cuello: seis días antes ni siquiera estaba impresa. Treinta años después, el derecho a la atención médica de 23 millones de personas se sostiene sobre una tasa de prima de 5.17%, una tasa de rotación de enfermería de 12.61%, la más alta en 10 años, y un tabú político que nadie se ha atrevido a tocar en 30 años.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Lifestyle/taiwan-healthcare-and-national-health-insurance",
+    "readingTime": 236,
+    "featured": true,
+    "date": "2026-06-04",
+    "path": "es/Lifestyle/taiwan-healthcare-and-national-health-insurance.md"
   },
   {
     "title": "Sistema democrático: de la derogación de la ley marcial en 1987 a Lai Ching-te en 2024, coordenadas de treinta y siete años de democracia en Taiwán",
@@ -46037,7 +46022,7 @@
     "url": "https://taiwan.md/en/Technology/submarine-cables-taiwan-lifeline",
     "readingTime": 129,
     "featured": true,
-    "date": "2026-04-29",
+    "date": "2026-04-30",
     "path": "en/Technology/submarine-cables-taiwan-lifeline.md"
   },
   {
@@ -46189,6 +46174,17 @@
     "featured": false,
     "date": "2026-03-17",
     "path": "fr/Society/democratic-system.md"
+  },
+  {
+    "title": "Système médical et Assurance maladie nationale à Taïwan : un numéro un mondial à 99,6 %, soutenu par 12,61 %",
+    "description": "La carte d'assurance maladie du 1er mars 1995 a été produite dans l'urgence : six jours plus tôt, elle n'était même pas imprimée. Trente ans plus tard, le droit aux soins de 23 millions de personnes repose sur un taux de cotisation de 5,17 %, un taux de départs infirmiers au plus haut depuis dix ans à 12,61 %, et un tabou politique auquel personne n'a osé toucher depuis trente ans.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Lifestyle/taiwan-healthcare-and-national-health-insurance",
+    "readingTime": 254,
+    "featured": true,
+    "date": "2026-06-04",
+    "path": "fr/Lifestyle/taiwan-healthcare-and-national-health-insurance.md"
   },
   {
     "title": "Systèmes fluviaux et caractéristiques hydrologiques de Taïwan : hydrogéographie des cours d’eau courts et rapides et des variations saisonnières",
@@ -46500,6 +46496,17 @@
     "featured": false,
     "date": "2026-05-05",
     "path": "en/Society/taiwan-lithuania.md"
+  },
+  {
+    "title": "Taiwan and the Nuclear Debate: Anti-Nuclear Politics Was Once the Shared Language of the Democracy Movement, but the Climate Crisis Has Reshuffled Every Side",
+    "description": "In August 2025, 4.34 million people voted yes on “restarting Maanshan Nuclear Power Plant,” winning 74 percent of the vote, yet the proposal failed because turnout did not pass the threshold. Across four decades and three referendums, Taiwan moved from an anti-nuclear consensus to a nuclear-free homeland, then within three months personally pushed a reactor it had shut down toward restart. This debate has long since exceeded the yes-or-no question of “whether nuclear power is good.” It is about how a society decides an issue whose time pressures run in opposite directions: nuclear waste must remain stable for 100,000 years, carbon reduction must be achieved within a decade, and power shortages are immediate.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Society/taiwan-nuclear-debate",
+    "readingTime": 216,
+    "featured": false,
+    "date": "2026-06-07",
+    "path": "en/Society/taiwan-nuclear-debate.md"
   },
   {
     "title": "Taiwan Anime & Manga Culture",
@@ -46913,6 +46920,17 @@
     "path": "fr/Society/taiwan-eswatini-relations.md"
   },
   {
+    "title": "Taïwan et le débat nucléaire : l'antinucléaire fut un langage commun du mouvement démocratique, mais la crise climatique a redistribué toutes les cartes",
+    "description": "En août 2025, 4,34 millions de personnes ont voté « oui » au redémarrage de la troisième centrale nucléaire ; le oui a recueilli 74 %, mais a perdu faute d'avoir franchi le seuil de participation. Trois référendums en quarante ans : Taïwan est passé du consensus antinucléaire à l'objectif de patrie sans nucléaire, avant de pousser de ses propres mains, en trois mois, un réacteur arrêté vers un redémarrage. Ce débat dépasse depuis longtemps la question binaire de savoir si « le nucléaire est bon ou non » : il porte sur la manière dont une société décide d'une affaire soumise à des temporalités contradictoires, entre des déchets nucléaires à stabiliser pendant cent mille ans, une décarbonation à accomplir en dix ans, et un risque de pénurie d'électricité immédiat.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Society/taiwan-nuclear-debate",
+    "readingTime": 245,
+    "featured": false,
+    "date": "2026-06-07",
+    "path": "fr/Society/taiwan-nuclear-debate.md"
+  },
+  {
     "title": "Taïwan et le Guide Michelin : le prix des étoiles et la redéfinition de la gastronomie",
     "description": "Depuis son arrivée à Taïwan en 2018, le Guide Michelin a redessiné les règles du jeu dans la restauration locale. Les grands gagnants ? Les restaurants étoilés. Les grands perdants ? Ceux qui étaient « presque au niveau », condamnés à supporter des coûts faramineux sans jamais décrocher la précieuse reconnaissance.",
     "category": "fr",
@@ -47072,12 +47090,12 @@
     "path": "en/Food/hand-shaken-drink-culture.md"
   },
   {
-    "title": "Taiwan Healthcare and National Health Insurance: A World No. 1 with 99.6% Sustained by 12.61%",
-    "description": "The National Health Insurance card for March 1, 1995 was rushed out under emergency pressure: six days earlier, even the cards had not been printed. Thirty years later, the medical-care rights of 23 million people rest on a 5.17% premium rate, a ten-year-high nursing turnover rate of 12.61%, and a political taboo no one has dared touch for 30 years.",
+    "title": "Taiwan Healthcare and National Health Insurance: A World Number One Where 99.6% Rests on 12.61%",
+    "description": "The National Health Insurance card used on March 1, 1995, was rushed out under extreme pressure: six days earlier, the cards had not even been printed. Thirty years later, the right to medical care for 23 million people rests on a 5.17% premium rate, a nursing turnover rate at a 10-year high of 12.61%, and a political taboo no one has dared touch for 30 years.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Lifestyle/taiwan-healthcare-and-national-health-insurance",
-    "readingTime": 215,
+    "readingTime": 223,
     "featured": true,
     "date": "2026-06-04",
     "path": "en/Lifestyle/taiwan-healthcare-and-national-health-insurance.md"
@@ -47745,6 +47763,17 @@
     "featured": false,
     "date": "2026-04-05",
     "path": "fr/History/taiwan-white-terror.md"
+  },
+  {
+    "title": "Taiwán y el debate sobre la energía nuclear: el antinuclearismo fue un lenguaje común del movimiento democrático, pero la crisis climática barajó de nuevo a todos los actores",
+    "description": "En agosto de 2025, 4,34 millones de personas votaron a favor de “reiniciar la central nuclear Nº 3” y ganaron con el 74%, pero la propuesta se dio por perdida porque la participación no superó el umbral. En tres referendos durante cuarenta años, Taiwán pasó del consenso antinuclear a la patria sin energía nuclear, y luego, en tres meses, empujó con sus propias manos hacia el reinicio un reactor que acababa de cerrar. Este debate ya dejó atrás la pregunta binaria de si “la energía nuclear es buena o mala”: trata de cómo una sociedad decide algo sometido a presiones temporales opuestas: los residuos nucleares deben permanecer seguros durante cien mil años, la reducción de carbono debe lograrse en una década y la escasez eléctrica ocurre ahora.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Society/taiwan-nuclear-debate",
+    "readingTime": 236,
+    "featured": false,
+    "date": "2026-06-07",
+    "path": "es/Society/taiwan-nuclear-debate.md"
   },
   {
     "title": "Taiwán y Eswatini: el último vínculo diplomático en África, pendiente de una sola persona",
@@ -48668,50 +48697,6 @@
     "path": "en/Culture/taiwan-new-idol-generation.md"
   },
   {
-    "title": "Taiwan's Nuclear Debate: Anti-Nuclear Was Once the Common Language of Democratic Movements, but the Climate Crisis Has Dealt Every Side a New Hand",
-    "description": "In August 2025, 4.34 million people voted 'yes' to restarting Nuclear Plant No. 3, winning by 74%, but lost because the voter turnout did not meet the threshold. Over forty years and three referendums, Taiwan moved from an anti-nuclear consensus to a 'Nuclear-Free Homeland,' only to push the closed reactor back toward restart within three months. This debate has long transcended the binary question of 'whether nuclear energy is good or bad,' becoming instead a question of how a society decides on an issue with opposing time pressures: nuclear waste must be secured for 100,000 years, carbon reduction must be achieved within ten years, and power shortages are happening right now.",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/Society/taiwan-nuclear-debate",
-    "readingTime": 202,
-    "featured": false,
-    "date": "2026-06-07",
-    "path": "ja/Society/taiwan-nuclear-debate.md"
-  },
-  {
-    "title": "Taiwan's Nuclear Debate: Anti-Nuclear Was the Common Language of Democracy, Climate Crisis Has Shuffled Every Hand",
-    "description": "In August 2025, 4.34 million people voted 'yes' to 'restarting Nuclear Plant No. 3,' winning by 74%, but lost because the voter turnout did not meet the threshold. Over forty years and three referendums, Taiwan moved from an anti-nuclear consensus to a 'Nuclear-Free Homeland,' only to push the shut-down reactor back toward restart within three months. This debate has long transcended the binary of 'is nuclear energy good or bad'; it is about how a society decides on an issue with opposing time pressures: nuclear waste must be stable for 100,000 years, carbon reduction must be achieved within ten years, and power shortages are happening now.",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/Society/taiwan-nuclear-debate",
-    "readingTime": 199,
-    "featured": false,
-    "date": "2026-06-07",
-    "path": "es/Society/taiwan-nuclear-debate.md"
-  },
-  {
-    "title": "Taiwan's Nuclear Debate: Anti-nuclearism was once the common language of the democratic movement, but the climate crisis has reshuffled the deck for everyone",
-    "description": "In August 2025, 4.34 million people voted 'yes' to 'restarting Nuclear Power Plant No. 3,' winning by 74%, but lost because the voter turnout did not meet the threshold. Over forty years and three referendums, Taiwan moved from an anti-nuclear consensus to a 'nuclear-free homeland,' only to push the shut-down reactor back toward restart within three months. This debate has long transcended the binary of 'is nuclear energy good or bad'; it is about how a society decides on an issue with conflicting time pressures: nuclear waste must be stable for 100,000 years, carbon reduction must be achieved within ten years, and power shortages are happening right now.",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Society/taiwan-nuclear-debate",
-    "readingTime": 199,
-    "featured": false,
-    "date": "2026-06-07",
-    "path": "fr/Society/taiwan-nuclear-debate.md"
-  },
-  {
-    "title": "Taiwan's Nuclear Debate: Anti-nuclearism was once the shared language of the democratic movement, but the climate crisis has reshuffled every hand",
-    "description": "In August 2025, 4.34 million people voted 'yes' to 'restarting Nuclear Power Plant No. 3,' winning 74%, but lost because the turnout did not meet the threshold. Over forty years and three referendums, Taiwan moved from an anti-nuclear consensus to a 'nuclear-free homeland,' only to push the shut-down reactor toward restart within three months. This debate has long transcended the binary question of 'whether nuclear energy is good or bad,' becoming a question of how a society decides on an issue with opposing time pressures: nuclear waste must be stable for 100,000 years, carbon reduction must be achieved within a decade, and power shortages are happening now.",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/Society/taiwan-nuclear-debate",
-    "readingTime": 201,
-    "featured": false,
-    "date": "2026-06-07",
-    "path": "ko/Society/taiwan-nuclear-debate.md"
-  },
-  {
     "title": "Taiwan's Official Website Resources: A 30-Year Miracle from 25 Sites to a Digital Government Powerhouse",
     "description": "In 1996, 25 government agencies built the first official websites so Taiwan could participate in the Internet World Exposition. Thirty years later, this island has become a global model for digital government—from online tax filing to a single-entry portal, from open data to an AI training corpus. Explore how Taiwan used official websites to write the legend of its digital transformation.",
     "category": "en",
@@ -48843,7 +48828,7 @@
     "url": "https://taiwan.md/en/Culture/taiwan-religion-and-temple-culture",
     "readingTime": 135,
     "featured": true,
-    "date": "2026-04-28",
+    "date": "2026-04-06",
     "path": "en/Culture/taiwan-religion-and-temple-culture.md"
   },
   {
@@ -49064,7 +49049,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Lifestyle/transportation-system",
-    "readingTime": 79,
+    "readingTime": 82,
     "featured": true,
     "date": "2026-04-26",
     "path": "en/Lifestyle/transportation-system.md"
@@ -49514,7 +49499,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Music/indie-music-scene",
-    "readingTime": 156,
+    "readingTime": 157,
     "featured": true,
     "date": "2026-03-29",
     "path": "en/Music/indie-music-scene.md"
@@ -52182,12 +52167,12 @@
     "path": "en/Society/visualization-module-catalog.md"
   },
   {
-    "title": "Vivienda pública y justicia habitacional: la vivienda barata que el gobierno construyó y a quién terminó beneficiando",
-    "description": "En 1985, un piso en el Conjunto Residencial Chenggong costaba 67 000 por ping y nadie lo quería; un anciano jefe de barrio reunió 400 000 de enganche para comprarlo. Cuarenta años después, la misma dirección se acerca al millón por ping. La vivienda pública nació como herramienta para que la gente pudiera comprar casa, pero nunca se le instaló una compuerta de recuperación de plusvalías, y el subsidio público acabó convirtiéndose en patrimonio privado de los primeros compradores. En 2026, Taoyuan reinstaló esa compuerta, como admitiendo el error de cincuenta años de vivienda pública.",
+    "title": "Vivienda nacional y justicia habitacional: las casas baratas construidas por el gobierno, ¿la escalera patrimonial de quién terminaron alimentando?",
+    "description": "En 1985, en la vivienda nacional Chenggong, a 67.000 dólares taiwaneses por ping nadie quería comprar; un viejo jefe de barrio juntó 400.000 dólares taiwaneses para el pago inicial y compró una unidad. Cuarenta años después, la misma dirección se acerca al millón por ping. La vivienda nacional nació como una herramienta para “ayudar a la gente a poder comprar casa”, pero nunca incorporó una compuerta para recuperar la valorización; el subsidio público terminó convertido en patrimonio privado de quienes compraron temprano. En 2026, Taoyuan volvió a instalar esa compuerta: en la práctica, es una admisión de error de la vivienda nacional.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Society/public-housing-justice",
-    "readingTime": 210,
+    "readingTime": 229,
     "featured": false,
     "date": "2026-06-06",
     "path": "es/Society/public-housing-justice.md"
@@ -52718,7 +52703,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/People/huai-te-indie-singer",
-    "readingTime": 197,
+    "readingTime": 198,
     "featured": false,
     "date": "2026-04-26",
     "path": "es/People/huai-te-indie-singer.md"
@@ -52964,7 +52949,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/People/wu-bao-chun",
-    "readingTime": 39,
+    "readingTime": 40,
     "featured": true,
     "date": "2026-04-05",
     "path": "es/People/wu-bao-chun.md"
@@ -53030,7 +53015,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/People/wu-bao-chun",
-    "readingTime": 39,
+    "readingTime": 40,
     "featured": true,
     "date": "2026-04-05",
     "path": "fr/People/wu-bao-chun.md"
@@ -54902,23 +54887,6 @@
     "path": "ko/History/kmt-government-relocation-and-postwar-reconstruction.md"
   },
   {
-    "title": "국민주택과 주거 정의: 정부가 지은 싼 집은 결국 누구의 자산 엘리베이터를 길렀는가",
-    "description": "1985년 청궁 국민주택은 한 핑당 6만 7천 타이완달러에도 사려는 사람이 없었고, 노년의 이장은 40만 타이완달러의 계약금을 마련해 한 채를 샀다. 40년 뒤 같은 주소의 가격은 한 핑 100만 타이완달러에 가까워졌다. 국민주택은 본래 ‘시민이 집을 살 수 있게 돕는’ 도구였지만, 가치 상승을 회수하는 문을 한 번도 달지 않았다. 공공 보조금은 결국 일찍 산 사람의 사적 자산이 되었다. 2026년 타오위안은 그 문을 다시 달았고, 이는 국민주택의 과오를 인정한 것과 같다.",
-    "category": "ko",
-    "tags": [
-      "국민주택",
-      "주거 정의",
-      "주택 정책",
-      "세대 정의",
-      "부담가능주택"
-    ],
-    "url": "https://taiwan.md/ko/Society/public-housing-justice",
-    "readingTime": 98,
-    "featured": false,
-    "date": "2026-06-06",
-    "path": "ko/Society/public-housing-justice.md"
-  },
-  {
     "title": "국제 이주노동자: 87만 명의 \"거대한 거실\"과 바다를 넘는 생존의 줄다리기",
     "description": "2026년 3월 기준, 대만에 체류하는 이주노동자는 87만 3천 명에 달하며, 실종·이탈자를 포함하면 총수가 100만 명에 근접하여 대만 상주인구의 5% 이상을 차지한다. 본 기사는 인도네시아, 베트남, 필리핀, 태국 4개국의 노동력 특성을 심층 분석하고, 이주노동자 대행진이 제기한 \"근무 연한 폐지\" 요구를 검토하며, 2026년 인도 이주노동자 도입 계획을 둘러싼 여론의 불야, 야당의 감시, 그리고 정부의 \"조건부\" 도입 입장을 균형 있게 조명한다.",
     "category": "ko",
@@ -55569,7 +55537,7 @@
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/Lifestyle/transportation-system",
-    "readingTime": 39,
+    "readingTime": 41,
     "featured": true,
     "date": "2026-04-26",
     "path": "ko/Lifestyle/transportation-system.md"
@@ -57396,7 +57364,7 @@
       "해양보호"
     ],
     "url": "https://taiwan.md/ko/Nature/taiwan-environmental-movement-history",
-    "readingTime": 18,
+    "readingTime": 19,
     "featured": false,
     "date": "2026-03-20",
     "path": "ko/Nature/taiwan-environmental-movement-history.md"
@@ -59666,6 +59634,17 @@
     "path": "ko/Politics/election-bulletin-system.md"
   },
   {
+    "title": "선보양: 그는 중국의 인지전을 연구했고, 훗날 중국은 그를 위성지도 위에 표시했다",
+    "description": "2021년 선보양은 전략학자 허청후이와 함께 헤이슝학원을 공동 설립했고, 차오싱청이 6억 대만달러를 기부해 지원했으며, 목표는 3년 안에 민방위 지원자 300만 명을 훈련하는 것이었다. 2024년 2월에는 민주진보당 비례대표 입법위원 신분으로 국회에 입성했다. 2025년 10월 28일 그는 중국이 “국가분열죄”로 입건 수사한 첫 타이완 민선 정치인이 되었고, CCTV는 “신상 폭로” 특집을 붙여 “다음은 바로 당신”이라고 경고했다. 2026년 새해 첫날 중국 웨이보 계정은 상업용 위성으로 그가 타이베이에 둔 주거지와 근무지의 좌표를 공개했고, 그는 밸런타인데이를 프랑스로 향하는 비행기 안에서 보냈다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/People/puma-shen",
+    "readingTime": 91,
+    "featured": false,
+    "date": "2026-04-27",
+    "path": "ko/People/puma-shen.md"
+  },
+  {
     "title": "선사시대와 원주민: 창빈 2~3만 년부터 남도어족 확산의 기점",
     "description": "대만 최초의 인간 활동: 창빈 문화 약 2~3만 년 전(구석기시대, 팔선동 유적). 공식 인정 원주민족 16개 부족. 남도어족 가능한 발상지 중 하나(남도어 10대 분류 중 대만이 9개 분류 차지). 2024년 최신 연구: 대만 이주 비율 약 20%, 인도네시아 확산 경로도 존재(P0⚠️). 17세기 다두왕국 부족 연합, 싼하싱 문화 철기시대.",
     "category": "ko",
@@ -60373,7 +60352,7 @@
       "길거리 음식"
     ],
     "url": "https://taiwan.md/ko/Economy/night-market-economics",
-    "readingTime": 22,
+    "readingTime": 24,
     "featured": false,
     "date": "2026-03-21",
     "path": "ko/Economy/night-market-economics.md"
@@ -63706,11 +63685,11 @@
   },
   {
     "title": "타이완 의료와 국민건강보험: 99.6%가 12.61% 위에 버티는 세계 1위",
-    "description": "1995년 3월 1일의 건강보험카드는 발등에 불이 떨어져 밀어붙인 결과였다. 엿새 전까지도 카드조차 인쇄되지 않았다. 30년 뒤, 2,300만 명의 진료받을 권리는 5.17% 보험료율, 10년 만의 최고치인 간호사 이직률 12.61%, 그리고 30년 동안 누구도 건드리지 못한 정치적 금기 위에 놓여 있다.",
+    "description": "1995년 3월 1일의 건강보험 카드는 발등에 불이 떨어진 채 급히 만들어졌다. 시행 엿새 전까지 카드조차 인쇄되지 않았다. 30년 뒤, 2,300만 명의 진료권은 5.17% 보험료율, 10년 만의 최고치인 간호사 이직률 12.61%, 그리고 30년 동안 누구도 건드리지 못한 정치적 금기 위에 버티고 있다.",
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/Lifestyle/taiwan-healthcare-and-national-health-insurance",
-    "readingTime": 105,
+    "readingTime": 107,
     "featured": true,
     "date": "2026-06-04",
     "path": "ko/Lifestyle/taiwan-healthcare-and-national-health-insurance.md"
@@ -63868,6 +63847,17 @@
     "featured": true,
     "date": "2026-03-19",
     "path": "ko/Music/taiwan-hip-hop-and-rap.md"
+  },
+  {
+    "title": "타이완과 원자력 논의: 탈핵은 한때 민주화 운동의 공통 언어였으나, 기후 위기가 모든 진영의 판을 다시 짰다",
+    "description": "2025년 8월, 434만 명이 「핵3 재가동」 찬성표를 던져 74%를 얻었지만, 투표율이 문턱을 넘지 못해 패배로 계산되었다. 40년 동안 세 차례 국민투표를 거치며, 타이완은 탈핵 합의에서 비핵 가원으로 나아갔다가 다시 석 달 만에 스스로 꺼 둔 원자로를 재가동의 길로 밀어 넣었다. 이 논쟁은 이미 「원자력이 좋은가 나쁜가」라는 양자택일을 넘어섰다. 핵폐기물은 10만 년 동안 안정되어야 하고, 탄소 감축은 10년 안에 달성해야 하며, 전력 부족은 바로 지금의 문제인 상황에서 한 사회가 시간 압력이 서로 반대인 일을 어떻게 결정할 것인가의 문제다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Society/taiwan-nuclear-debate",
+    "readingTime": 96,
+    "featured": false,
+    "date": "2026-06-07",
+    "path": "ko/Society/taiwan-nuclear-debate.md"
   },
   {
     "title": "타이완원숭이: 중산대학교에서의 생존 게임, 모계 권력, 그리고 만 년 거주자의 진실",
