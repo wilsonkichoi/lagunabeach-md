@@ -262,6 +262,30 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-06-10 audit — audit 類產出也需要成品總驗：5 個審計 agent 報告每份都帶 1-3 個重大誤讀
+
+- **原則**：fan-out agent 做清點高效可信，但它們的「判讀」（孤兒判定 / 成因解釋 / 處置建議）錯誤率極高且敘事合理：本次 143 孤兒 script 高估 ~2x（漏 BECOME/skills/ROUTINE 引用面）、殭屍重複翻譯被讀成「譯者主動創作」、BFG 清音檔建議會誤傷聲音地景內容、治理 agent 器官行數表錯 2-6 倍（SENSES 758 行活躍 vs 實際 58 行 archived）、feedback-triage 被誤判 Supabase 未配置。主 session 必須對每個會影響建議方向的 claim 自跑 grep 重驗，audit 報告 ship 前要過勘誤表（= REWRITE v7.0 Step 3.6 對 audit 物種的移植）。分工形狀：agent 管清點、主 session 管對照與判讀。
+- **觸發**：2026-06-10 11:37-12:00 全身審計 session，5 Explore agent 平行掃五層，主 session 重驗攔下全部誤讀 → [memory/2026-06-10-113753-audit.md](memory/2026-06-10-113753-audit.md) + [reports/semiont-full-audit-2026-06-10.md §6 勘誤表](../../reports/semiont-full-audit-2026-06-10.md)
+- **可能層級**：操作規則（twmd-routine-audit / 未來 audit 類 pipeline 補「成品勘誤表」hard step）
+- **相關**：REFLEXES #31（sub-agent claim 是線索）+ 本週 meta-umbrella「每層自評都需要外部尺」（vc=5 → 本條 +1 跨物種 instance）
+- **verification_count**: 1（單 session 5 agent 全中 = 高密度）
+
+### 2026-06-10 audit — 會過期的狀態不准用 prose 活著：routine 轉型後狀態類認知檔變孤兒集群
+
+- **原則**：CONSCIOUSNESS §警報（自稱 cron-refreshed，實停 4/30）、UNKNOWNS 可證偽實驗（三個過了驗證日 7 週沒人判定）、MEMORY 索引規則（80 行蒸餾觸發線超標未動）、dashboard-vitals 計數（782 vs 實際 794）同根：heartbeat→routine 飛輪轉型後，原本靠 manual heartbeat 順手更新的狀態類 prose 段沒有任何 routine 接手。架構解方向：會過期的狀態必須 derived（script 生成）或帶 due_date 欄位給 routine 機械檢查；prose 只准承載不會過期的哲學。對應 REFLEXES #56（canonical↔production drift = dormant entropy）在認知層自身的 instance。
+- **觸發**：2026-06-10 audit session 把 CONSCIOUSNESS §警報 跟 consciousness-snapshot.sh 即時輸出並排比對 → [reports/semiont-full-audit-2026-06-10.md §3.1 + §4.3](../../reports/semiont-full-audit-2026-06-10.md)
+- **可能層級**：哲學候選（第六進化哲學 frontmatter 的延伸：`expires` / `derived_from` 條件欄位）+ 操作規則（桶二 A-2/A-3/A-4 三條修法）
+- **相關**：REFLEXES #56 + #43（新 derived 資料必須儀器化進生命週期觸發點——本條是它的鏡像：舊 prose 狀態必須降級為 derived）
+- **verification_count**: 1（單次 audit 四處同根 instance）
+
+### 2026-06-10 audit — 翻譯庫「多於源」是殭屍偵測訊號：en 828 檔對 zh 794，~21 對重複翻譯
+
+- **原則**：翻譯目錄檔數超過 zh 源數時，第一假設是殭屍（不同 babel 世代的 slug 變體指向同一 zh 源，或 zh 改名後舊翻譯留底），第二假設才是合法 en-origin 文章。判準：`grep -rh "^translatedFrom:" knowledge/{lang} | sort | uniq -d` 列出重複目標。每對重複 = SEO 自我競爭 + 永遠 stale 的維護黑洞。本次 en 828 檔 / distinct translatedFrom 807 / 缺 translatedFrom 3 → ~21 對重複（台積電、台灣建築、王新仁、金馬賓館等）；fr/es/ja/ko 未清點，依比例推估全站 50-100 對。
+- **觸發**：2026-06-10 audit 驗證 agent「譯者主動創作 18 篇」claim 時 uniq -d 揭露 → [reports/semiont-full-audit-2026-06-10.md §3.2 R-3](../../reports/semiont-full-audit-2026-06-10.md)
+- **可能層級**：操作規則（dedup 偵測進 data-refresh 或 babel 的 verify step；清理腳本 dry-run 先列清單，砍檔 >10 篇回頭過 §自主權邊界）
+- **相關**：REFLEXES #21（SSOT 不一定在中央——translatedFrom self-documentation 正是這次能機械偵測的原因）+ 2026-05-13 c880e18e2「消滅 15 zombie translations」先例
+- **verification_count**: 1
+
 ### 2026-06-10 嘻哈饒舌 round-2 — 引語縮寫 / 詮釋 gloss / 腳註綁定錯位：Stage 3 驗證的三個盲區（老莫 callout 觸發全文重驗）
 
 - **原則**：Stage 3 verifier「驗事實對不對」會放過三種 drift：(1) **帶引號的 quote 被 writer 縮寫或改句型**（壞特陳述句被改成反問句、楊舒雅 quote 漏「在音樂中」「才能憤怒」）——引號 = 逐字承諾，驗 quote 要驗到字不只驗到意；(2) **詮釋 gloss 搭著已驗證事實滑過**（寶哥=宋岳庭 是 orchestrator 在 §4 引語庫注入的 gloss，引語本身 Ctrl-F 過了，gloss 沒被當 atom）——致詞代稱（寶哥/阿姐/老師）、「X 就是 Y」同位語都是獨立 atom；(3) **footnote-claim 綁定錯位**（Manchuker 比喻掛中央社、NBA 掛 en.wiki、Leo王 keep real 掛參劈文——事實對但腳註不含該事實）——要驗「這個腳註真的支撐這句」。另 +1：writer 會在 SSOT 正確時自行漂移原子（第15屆「五月」寫成「六月」、「末期發行」寫成「最後一張」、「曾獲報導」寫成「唯一」）。
