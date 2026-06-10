@@ -1,151 +1,275 @@
 ---
-title: 'Taiwan Healthcare and National Health Insurance'
-description: "The paradoxical miracle of 99% coverage: how Taiwan's system ranked #1 globally by Numbeo for six consecutive years is sustained on the blood and sweat of its medical workforce"
-date: 2026-03-30
+title: 'Taiwan Healthcare and National Health Insurance: A World No. 1 with 99.6% Sustained by 12.61%'
+description: 'The National Health Insurance card for March 1, 1995 was rushed out under emergency pressure: six days earlier, even the cards had not been printed. Thirty years later, the medical-care rights of 23 million people rest on a 5.17% premium rate, a ten-year-high nursing turnover rate of 12.61%, and a political taboo no one has dared touch for 30 years.'
+date: 2026-06-04
+author: 'Taiwan.md'
+category: 'Lifestyle'
 subcategory: '醫療與健保'
 tags:
   [
     'National Health Insurance',
-    'healthcare system',
-    'IC card',
-    'NHI reform',
-    'healthcare quality',
-    'healthcare accessibility',
-    'social welfare',
+    'Healthcare System',
+    'NHI Reform',
+    'Nursing Shortage',
+    'Five Major Specialties Hollowed Out',
+    'Social Welfare',
+    'Yeh Ching-chuan',
+    'Yang Chih-liang',
+    'National Health Insurance Database',
   ]
-category: 'Lifestyle'
-readingTime: 7
-featured: true
-lastVerified: 2026-03-30
+readingTime: 22
+lastVerified: 2026-06-04
 lastHumanReview: false
+featured: true
 translatedFrom: 'Lifestyle/台灣醫療與全民健保.md'
-sourceCommitSha: '49fa1f59'
-sourceContentHash: 'sha256:c5ff1dd2cc7e3855'
-sourceBodyHash: 'sha256:882670c81d48e0c6'
-translatedAt: '2026-05-29T00:35:00+08:00'
+sourceCommitSha: '49e065a4c'
+sourceContentHash: 'sha256:176680224548ea6b'
+sourceBodyHash: 'sha256:2349abd166630d0e'
+translatedAt: '2026-06-07T00:37:30+08:00'
 ---
 
-# Taiwan Healthcare and National Health Insurance
+# Taiwan Healthcare and National Health Insurance: A World No. 1 with 99.6% Sustained by 12.61%
 
-> **30-second overview:** Taiwan launched its National Health Insurance (NHI) system in 1995, achieving 99.9% coverage. In 2024, Numbeo's health care index ranked Taiwan first in the world for the sixth consecutive year, with outpatient registration fees as low as NT$50. But behind this "world number one" is a structural crisis: nursing resignation rates at a ten-year high, and the "Big Five vacancies" (五大皆空) worsening — miracle and sweatshop have never been two separate things.
+> **30-second overview:** National Health Insurance began on March 1, 1995. Yeh Ching-chuan later admitted that "the preparation time was actually only three days"[^1]. Thirty years later, it covers 99.6% of the eligible population[^2], has long kept administrative costs below 2%[^3], and has ranked first in the world on Numbeo's Health Care Index for six consecutive years[^4]. Yet the system is also sustained by three things: a 5.17% premium rate, a ten-year-high nursing turnover rate of 12.61%[^5], and the 30-year political taboo of "total household income" that no one has dared touch. This article begins with the last-six-days scramble before the 1995 launch and moves to the 2026 three-shift nurse-to-patient ratio, unpacking three pieces of conventional wisdom: "NHI is cheap," "the five major specialties are hollowed out because point values are low," and "Taiwan's IC card was the world's first." It shows how a successful institutional design locked in the political path that now blocks institutional renewal.
 
-On the midnight of March 1, 1995, 23 million people in Taiwan simultaneously came to hold a small card.
+## "The Preparation Time Was Actually Only Three Days"
 
-That card was the health insurance card. From that moment, "seeing a doctor" shifted from "a burden" to "a right." On the first day of operation, the enrollment rate surged to 92%; within a year, 96%; today, 99.9% — the highest medical insurance coverage rate in the world, bar none.
+At midnight on March 1, 1995, National Health Insurance formally began. The external version was "world-record speed": coverage of 96% of the population, with one card accepted across 18,000 contracted medical institutions throughout Taiwan[^6]. The internal version came from Yeh Ching-chuan, the first general manager of the Bureau of National Health Insurance, recalling the launch in 2021: "the preparation time was actually only three days," "at that time even the NHI cards had not been printed," "the information system also had no landing point," and everything was "fire at our backs"[^1]. More than 20 million NHI cards were rushed into production and completed only one month after launch. On March 1, people entered consultation rooms with their national ID cards.
 
-But Taiwan's NHI has a number that causes every foreign researcher who reads it to pause: the room rate at a medical center ward is NT$598 per day — less expensive than a business hotel in the city center.
+If the timeline is pulled back, the system had in fact been under development for 27 years. In 1968, the Ministry of the Interior first drafted a national health insurance plan. In 1986, the Executive Yuan set 2000 as the target year for launch. In 1988, the Council for Economic Planning and Development established a dedicated planning task force[^7]. On February 28, 1989, Premier Yu Kuo-hua announced in the Legislative Yuan that the launch would be moved up to 1995. In July 1990, planning work was transferred from the CEPD to the Department of Health. After Hau Pei-tsun took office, he instructed that the launch be moved up again to 1994. In February 1991, the Department of Health formed the National Health Insurance Planning Task Force. In December 1993, the preparatory office of the Bureau of National Health Insurance was formally established, with Yeh Ching-chuan as its director[^7].
+
+The legislative phase was not calm. On July 16, 1994, Democratic Progressive Party legislator Shen Fu-hsiung went on hunger strike to protest the NHI Act[^8]. On July 19, the National Health Insurance Act passed its third reading. On November 12, labor groups took to the streets in the annual Autumn Struggle, chanting "three no-insurances"[^7]. On December 23, 1994, the Organic Act of the Bureau of National Health Insurance was passed. On January 1, 1995, the Bureau of National Health Insurance was established. On February 25, 1995, Premier Lien Chan ordered that the system "launch on schedule on March 1." Yeh's remark that "the preparation time was only three days" was calculated from that point[^1].
+
+The system's skeleton was selected in 1989 by a task force led by Harvard public health scholar William Hsiao, which compared models from the United States, Britain, Germany, France, Canada, and Japan before choosing a Canadian-style "single-payer" model[^9]. Hsiao's reason for choosing the Canadian model was brief: "the quality of services was very high"[^10]. Scholars later broke single-payer into five attributes: placing the whole population into the same risk pool, a uniform benefits package, adequate healthcare resources, a single purchaser setting the rules of the game, and a global budget to control medical inflation[^11]. These five points are the structural reason Taiwan's NHI could still sustain the world's highest coverage rate 30 years later. They are also the basic binding constraint behind every reform over those 30 years: touch any one of them, and you touch all of them.
+
+The satisfaction figures from the first year are often covered over by myth. In 1995, coverage surged to 96%, but polls during the same period showed satisfaction of only 39% and dissatisfaction of 47%[^12]. "Universal support" is a retrospective narrative. At the time, Taiwanese society had doubts about this new bill that had suddenly fallen from above.
+
+> 📝 **Curator's note:** "Single-payer" is translated in Chinese as "single insurer," but those four characters locked in 30 years of political possibility. Putting everyone into the same pool means any decision to change premium rates, benefits, copayments, or the method for calculating total household income has no retreat route of "pilot first," "trial site first," or "separate track first." Either everyone changes together, or nothing changes. This was written into the system's DNA in 1989, when William Hsiao chose the Canadian model. Thirty years later, it is both NHI's greatest advantage and its largest political brake.
+
+![2017 version of the NHI IC card](/article-images/lifestyle/nhi-ic-card-2017.jpg)
+_The 2017 version of the NHI IC card. Taiwan fully replaced its cards with IC cards in 2004 and is often said to have been "the world's first," but Slovenia completed nationwide deployment as early as September 2000. Taiwan was the second case, the largest in scale, and the deepest in integration._
+
+## Lee Yu-chun's Four Characters
+
+The phrase "five major specialties are hollowed out" has become almost synonymous with Taiwan's healthcare system in the 2020s: internal medicine, surgery, obstetrics and gynecology, pediatrics, and emergency medicine cannot recruit enough residents. But the person who coined the original phrase was not Yeh Ching-chuan, not the medical associations, and not the Ministry of Health and Welfare. It was Lee Yu-chun, a public health professor at National Yang Ming University, who in the summer of 2009 coined "four major specialties are hollowed out" for internal medicine, surgery, obstetrics and gynecology, and pediatrics[^13]. Only later did the media add emergency medicine, turning it into five.
+
+The timeline is this. In 2018, Professor Chiang Tung-liang recalled: "In the summer of 2009, Control Yuan member Huang Huang-hsiung began conducting a comprehensive examination of NHI. By 2011, as the comprehensive examination report was released, the issue of the four major specialties being hollowed out suddenly became urgent"[^13]. Yeh Ching-chuan also wrote the counter-version in 2018: "What the medical community calls the five major specialties being hollowed out probably first began at a seminar, when a hospital superintendent reported that the hospital lacked physicians in internal medicine, surgery, obstetrics and gynecology, and pediatrics, and called this the 'four major specialties being hollowed out.' Afterward, people simply repeated it, emergency medicine joined the battlefield, and with the media's forced interpretations and overgeneralization, it became the 'five major specialties being hollowed out'"[^14].
+
+The Control Yuan corrective measure of July 17, 2012 was the first time the phrase was formalized in an official document. Control Yuan members Huang Huang-hsiung, Shen Mei-chen, and Liu Hsing-shan wrote bluntly that the four major specialties had "little money, much work, and proximity to prison," that "medical disputes and the payment system have in effect become the two tightening hoops strangling the development of the five major specialties," and that "most hospitals lack resident manpower in the four major specialties, with some residents working more than 300 hours a month; in some hospitals with no residents at all, attending physicians in the four major specialties must also cover shifts, and with on-call duties added, monthly working hours sometimes reach as high as 400 hours"[^15].
+
+Yeh has always had reservations about the "five major specialties" claim. In his 2018 article, he wrote another sentence: "It is not that all five major specialties are short of people; the overall number of physicians is sufficient"[^14]. This counterargument is almost never heard in the mainstream narrative, but it matters for understanding the later inference that "low point values equal hollowed-out specialties." If the overall number of doctors is sufficient, then "not being able to recruit" must be examined through distribution, work environment, medical liability burden, and shift systems. A problem that can be explained by one word, "money," cannot be something that has gone unresolved for 30 years.
+
+## 5.17% Appeared Twice
+
+The political history of NHI premium rates can almost be told with one table. At launch in 1995, the rate was 4.25%. In September 2002, it was raised to 4.55%. In April 2010, during Yang Chih-liang's tenure, it was raised to 5.17%. That increase was so controversial that after the second-generation NHI bill passed its third reading on January 26, 2011, Yang resigned immediately[^16]. In January 2013, second-generation NHI began, the main rate fell back to 4.91%, and a 2% "supplementary premium" was added. From 2016 to 2020, the main rate was reduced to 4.69%, with a 1.91% supplementary premium. In January 2021, under Chen Shih-chung, the main rate was again raised to **5.17%**, while the supplementary premium also rose to 2.11%[^17].
+
+5.17% appeared twice. The first time was in 2010, after Yang pushed it through and resigned. The second was in 2021, under Chen. Eleven years passed between them, and the system circled back to the same number. This equilibrium is the structure created by the double bind of "single-payer plus politically sensitive premium rates": every adjustment carries political cost; whenever that political cost reaches its limit, the rate is pushed back down; then when the finances can no longer hold, it is raised again.
+
+The second-generation NHI's eventual choice of a "supplementary premium" was itself a compromise forced into a corner. The original version was "total household income": calculating premiums based on a household's total annual income, theoretically the fairest model. But the 2010 legislative process overturned it. After the bill passed its third reading in 2011, Yang stated directly: "The supplementary premium is a mistake." "From beginning to end, second-generation NHI was supposed to collect premiums based on total household income, but first the Ministry of Finance said total household income could not be done, and later legislators on the Finance Committee overturned the decision of the Social Welfare and Environmental Hygiene Committee, taking only three days to propose the idea of a supplementary premium"[^18].
+
+The supplementary premium that began in 2013 therefore targeted six categories of income and calculated them per transaction: high bonuses, part-time wages, professional practice income, dividends, interest, and rent[^19]. From day one, this design had two loopholes: per-transaction calculation made it easy to split payments to avoid the levy, and income outside the six categories, such as overseas income and crypto assets, was not captured. Fifteen years later, in November 2025, the National Health Insurance Administration planned to move from per-transaction collection to an "annual settlement system": cumulative income over NT$20,000 within a year would be levied, the withholding ceiling would rise from NT$10 million to NT$50 million, an estimated 4.8 million people would be affected, and NT$10 billion to NT$20 billion would be injected into the system[^20]. But in November 2025, the Executive Yuan abruptly halted the reform, saying planning would be "temporarily suspended"[^20], triggering anger among dividend-stock investors and retirees.
+
+"Total household income" is the phrase no one has dared touch for 30 years. William Hsiao's 1989 single-payer prototype already pointed toward an integrated-income-tax style of premium calculation. Yang Chih-liang pushed it in 2010 and stepped down immediately. In 2025, even the moderate version of "annual settlement" was braked by the Executive Yuan. Technically, it can be done. Politically, it cannot. Any reform that puts different sources of income onto the same basis will find opponents in the Legislative Yuan.
+
+> ⚠️ **Controversial view:** The supplementary premium has long been criticized by the left as a "regressive tax." Salaried workers are compulsorily deducted every month, while capital-income earners are touched only when they receive dividends or rent, and a withholding ceiling applies. But the 2010 legislative process was exactly the opposite: left-leaning labor groups opposed "total household income" because they feared working households would be aggregated and burdened more heavily, while the right-leaning Ministry of Finance opposed "total household income" because it feared insufficient administrative capacity. The result was that the Social Welfare and Environmental Hygiene Committee's proposal was overturned by the Finance Committee in three days[^18]. Who exactly is the "fat sheep that slipped through the net" has gone through three rounds of narrative change over 30 years, and there is still no consensus.
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+<iframe src="https://www.youtube.com/embed/OAqQEHVO3a4" title="創造奇蹟的旅程 健保 30 週年紀錄片" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_Official documentary by the National Health Insurance Administration, Ministry of Health and Welfare: 30 years from "the preparation time was only three days" to a 23M-person shared single-payer system._
+
+## 39.8% Are Using It, 54.8% Are Paying
+
+In 2020, National Statistics Bulletin No. 231 from the Directorate-General of Budget, Accounting and Statistics published a precise figure that is rarely cited: people aged 65 and older used 39.8% of NHI resources; people aged 15 to 64 used 54.8%; and people aged 0 to 14 used 5.4%[^21]. Compared with 2015, the share for people 65 and older had risen by 4.2 percentage points. Annual per-capita NHI spending for people 65 and older exceeded NT$70,000. For those under 65, it was about NT$10,000, a sevenfold gap[^21].
+
+That sevenfold gap, multiplied by Taiwan's accelerating aging curve, is NHI's largest financial clock of the past 30 years. Yeh Ching-chuan put it more bluntly in 2020: "The current system can last at most another five years"[^22]. Five years from 2020 is 2025. In November 2025, the NHI Committee approved a 2026 global budget of NT$988.335 billion, growing 5.5%, while keeping the safety reserve at two months and maintaining the current 5.17% premium rate without adjustment[^23]. On the surface it held. But once unpacked, the way it held was precarious.
+
+The first financial framing that needs correction is the common claim that "NHI is about to go bankrupt." NHI is a pay-as-you-go system. There is no concept of "bankruptcy." The precise issue is whether the "safety reserve" falls below the statutory floor[^24]. In June 2025, the NHIA estimated that the safety reserve was "0.96 months." By November, it had become "two months." The difference came from NT$3 billion in government subsidies plus NT$18.1 billion shifted in from the official budget[^23]. On November 19, 2025, NHI Committee executive secretary Chou Shu-wan gave the technical version: "For 2026, the NHI global budget safety reserve is two months and has not fallen below the level, so the insurance premium rate will remain at the current 5.17% without adjustment"[^23].
+
+The more hidden way the system is being sustained is the policy of "guaranteeing a point value of NT$0.95." Taiwan's NHI settles payments through a "global budget plus floating point value" system: the points reported by medical institutions are divided against a fixed total budget and converted into New Taiwan dollars. In recent years, counties and cities where point values fell to NT$0.7 or NT$0.8 have often been criticized as places where providers "lose 30 cents on every dollar of work"[^25]. To reassure the medical community, the government promised beginning in 2024 to guarantee point values at NT$0.95. But The Reporter disclosed that this policy was estimated to add NT$70 billion in spending, with the Executive Yuan budgeting NT$33.6 billion in subsidies, including NT$18.1 billion shifted from the official budget and NT$15.5 billion from an enhancement fund[^25]. Cheng Shou-hsia, dean of National Taiwan University's College of Public Health and the first director-general after the BNHI was reorganized, put it in one sentence: "Guaranteeing point values is equivalent to abolishing the global budget." It is "arithmetic" and "does not solve the substantive problem"[^25].
+
+Copayment reform began on July 1, 2023: the ceiling on outpatient drug copayments at medical centers and regional hospitals was raised to NT$300; emergency copayments were set at NT$750 for medical centers and NT$400 for regional hospitals[^26]. After the new system began, 8.45 million people were affected, and annual revenue increased by NT$3.273 billion. But Public Television Service's assessment one year later was ironic: annual outpatient visits reached 14.3 per person, a four-year high; emergency visits per person increased by 0.1 compared with the previous year[^26]. NHIA Director-General Shih Chung-liang emphasized increased primary-care chronic-disease treatment plus an added NT$5.27 billion injection, but Taiwan Healthcare Reform Foundation CEO Lin Ya-hui's criticism captured the key point: "NHI is not commercial insurance; it emphasizes shared risk in times of hardship and payment according to capacity"[^26]. Treating copayments as a "demand-suppression tool" runs into backlash from the spirit of the NHI Act itself.
+
+## Low Point Values Are a Diagnosis of the Phenomenon, Not the Fundamental Solution
+
+The mainstream narrative attributes the hollowing-out of the five major specialties to one variable: NHI reimbursement is too low. The extended inference is: "point values are too low → physician salaries are low → no one can be recruited." In medical politics from 2024 to 2026, this inference has almost become consensus. But academia and the NHIA itself have five counterarguments that, taken together, dismantle this single-cause explanation.
+
+The first is Cheng Shou-hsia's "abolish the global budget" argument: "Guaranteeing point values is equivalent to abolishing the global budget" and is merely "arithmetic" that "does not solve the substantive problem"[^25]. The original intent of NHI's global budget system was to act as a brake on medical inflation. Guaranteeing point values at 0.95 is equivalent to loosening that brake. Money is added, but medical utilization rises along with it; the next year, point values fall again, turning the policy into a perpetual subsidy machine.
+
+The second is Kao Jo-hsiang's argument that "the trickle-down effect simply does not exist"[^25]. Kao, secretary-general of the Taiwan Medical Workers' Union, analyzed the financial reports of 13 private hospitals and found only a low correlation between personnel-expense ratios and profit rates. Hospitals spend surplus on construction, equipment, and expansion; it does not automatically trickle down to front-line healthcare workers' wages. In other words, the transmission chain of "government raises NHI point values → hospitals earn more money → physicians and nurses receive raises" is not supported by the financial reports of those 13 hospitals.
+
+The third counterargument comes from Lee Yu-chun herself. In 2024, the person who coined the phrase "the five major specialties are hollowed out" told The Reporter: "Point value is a diagnosis of the phenomenon, not the fundamental solution"[^25]. The link is almost ironic: she coined the term that sounded the alarm, and 15 years later she came out to say, "It is not a money problem."
+
+The fourth is Shih Chung-liang's position: "We hope the target point value can reach 0.95, but not through a guarantee, otherwise medical services will be distorted," and "physician salaries come from hospital regulation and allocation; operators bear considerable responsibility"[^25]. The NHIA director-general personally put the ball back in hospital managers' court: the point value provided by the government is an overall budget. How it is distributed to physicians, nurses, and technicians is a hospital management issue, not an NHI issue.
+
+The fifth is Yeh Ching-chuan's 2018 statement that "the overall number of physicians is sufficient"[^14]. If the total number is enough, then "not being able to recruit" is a distribution problem, not a supply problem. What has to be solved is why emergency physicians would rather go to self-pay clinics, and why obstetricians and gynecologists would rather switch to medical aesthetics, not why overall physician pay is low.
+
+Put together, these five counterarguments lead to an uncomfortable conclusion: the framing "low point values equal the hollowing-out of the five major specialties" is simple, politically correct, and easy to mobilize around, but it cannot withstand close inspection. The real solutions involve medical dispute handling, caps on resident working hours, internal hospital distribution, specialty recruitment systems, and recognition of overseas licenses. Every one of these is ten times harder than "raise the premium rate" or "raise the point value."
+
+> 💡 **Did you know?** People in Taiwan average 18 outpatient visits per year, more than twice the OECD average[^27]. The same cold symptoms may lead someone to visit three clinics and receive three prescriptions. This is what scholars have long discussed as "doctor shopping." One cost of cheap NHI is the structural amplification of medical utilization, and that amplified utilization in turn pushes point values down. The chain of "cheap → more use → point values fall → healthcare workers' pay cannot hold up" feeds back and accelerates itself. It is not just a linear transmission.
+
+## A 12.61% Turnover Rate, a 60% Practice Rate
+
+The precise way to read Taiwan's nursing shortage is this: a nursing license is not the same as nursing practice. In 2023, Taiwan had about 310,000 licensed nurses, but the practice rate was only 60%, with about 186,000 actually in clinical work[^28]. One-third of newly hired nurses left within three months[^28]. The annual turnover rates, based on hospital reports, were 11.12% in 2019, 10.13% in 2021, 11.73% in 2022, and **12.61% in 2023**, a ten-year high. The vacancy rate that same year was 9.05%, also a ten-year high[^29].
+
+The population-aging curve magnifies the problem. The average age of practicing nurses was 36.33 in 2019 and broke 39 by June 2024[^28]. The share under 40 fell from more than 70% in 2017 to below 50% in 2023. The outflow pattern, according to Han Hsing-wen of National Taipei University of Business, who analyzed the financial reports of 13 private hospitals, was 30% to NHI clinics, 25% to self-pay clinics, 10% to long-term care, 15% to other industries, and 20% leaving the workforce, going abroad, or retiring[^28].
+
+Global demand is expanding at the same time. By 2030, the world will be short 4.5 million nurses. Taiwan had 186,000 practicing nurses in 2023, while projected demand in 2030 is 241,000 to 260,000, leaving a gap of 55,000 to 74,000[^28]. Registered nurses in Australia earn NT$1.44 million to NT$2.2 million a year, two to three times the level in Taiwan. Lin Hsiu-chu, deputy chair of the National Union of Nurses' Associations, said an Australian scholar told her in person: "Sorry, but we already began recruiting Taiwan nurses aggressively several years ago"[^28].
+
+Closed beds are the most visible indicator. Among Taiwan's 22 medical centers, NHI-declared beds account for 92% of total beds. After the pandemic, the conservative estimate is that more than 30% of beds were closed[^28]. Kao Ching-chiu, deputy superintendent of Wanfang Hospital and former chair of the National Union of Nurses' Associations, gave the most direct version: "This is also the most severe loss in 30 years." "Which hospital would proactively report to its local health bureau? Hospitals do not talk about closing beds; they only say they are 'reducing load'"[^28].
+
+The political tug-of-war over closed beds exploded in June 2024. On June 2024, Tsai Shu-feng, director of the Ministry of Health and Welfare's Department of Nursing and Health Care, publicly asked: "Which hospitals are closing beds?"[^28]. The remark was understood as "the Ministry of Health and Welfare does not acknowledge bed closures." On June 5, Minister Chiu Tai-yuan apologized for it at the Legislative Yuan[^30]. In the same month, Chao Lin-yu, director of the spine surgery department at Chiayi Christian Hospital, gave The Reporter the front-line version: "If there are no operations to perform, do surgeons still have a career?" "Because we lack nurse anesthetists, surgeons are restricted to only one surgery day per week"[^28]. Lo Hsiang-yun, director of emergency medicine at Linkou Chang Gung Memorial Hospital, gave a line to patients' families that became one of the most quoted statements about 30 years of nursing shortage: "You can lose your temper at me; you can be rude to me. But not to the nurses!"[^28]
+
+![Chiayi Christian Hospital mobile nursing station, 2007](/article-images/lifestyle/nhi-mobile-nurse-station-2007.jpg)
+_A mobile nursing station at Chiayi Christian Hospital in 2007. The three-shift nurse-to-patient ratio reform, moved up to begin in 2026, is the largest structural adjustment to nursing working conditions in 30 years._
+
+The three-shift nurse-to-patient ratio reform: on March 1, 2024, the Ministry of Health and Welfare announced an administrative order, with ratios of 1:6/1:7/1:10 for day shifts, 1:9/1:11/1:13 for evening shifts, and 1:11/1:13/1:15 for night shifts. On May 8, 2026, the Legislative Yuan passed amendments to the Medical Care Act on third reading. On May 12, 2026, Lai Ching-te announced that phased implementation would be moved up to May 20, 2027[^31]. Penalties are NT$250,000 to NT$500,000 for district hospitals, NT$500,000 to NT$1 million for regional hospitals, and NT$1 million to NT$2 million for medical centers[^31]. This is the largest structural adjustment to nursing working conditions in 30 years, but academics generally assess that "improved working hours does not equal automatic return." Australia and Canada are still offering what they offer. Without synchronized changes to Taiwan's healthcare wage structure, the three-shift nurse-to-patient ratio can slow the acceleration of outflow, but may not reverse it.
+
+## The Blind Spots of 99.6%
+
+The figure "99.6% coverage" is often abbreviated as "universal." More precisely, it means "99.6% of the eligible population"[^2]. Outside the definition of eligibility are three groups: missing migrant workers, unregistered infants, and overseas citizens who suspended coverage.
+
+After missing migrant workers lose NHI eligibility, emergency medical care often leaves them with unpaid bills, a long-unresolved hole in Taiwan's migrant-worker medical policy[^32]. A January 2025 policy report by the Global Taiwan Institute noted that the stop-and-resume mechanism for overseas citizens had long been treated as exploitation: people living abroad did not pay premiums and resumed coverage only before returning to Taiwan for medical treatment[^33]. On December 23, 2024, reform finally abolished stop-and-resume coverage. But after abolition, how to calculate the spillover costs, and whether to pursue past costs, remain political forbidden zones.
+
+The National Health Insurance Database problem goes deeper. From the 1995 launch through 2024, Taiwan's NHIRD accumulated 70 billion medical records and 3.4 billion medical images, supporting more than 8,414 peer-reviewed publications[^34]. The NHIA and National Taiwan University Hospital signed an MOU to jointly build "the world's first image-information-based cardiovascular risk database"[^34]. In academia, this is one of Taiwan's greatest sources of soft power.
+
+But on August 12, 2022, Constitutional Court Judgment 111-Hsien-Pan-13 ruled that this massive NHI database was unconstitutional on three levels: lack of an opt-out right, insufficiently clear regulations, and absence of an independent oversight mechanism[^35]. The deadline was three years. On December 2, 2025, the National Health Insurance Data Management Act passed its third reading, granting an opt-out right[^36]. It was the largest remedial lesson in NHI data governance in 30 years.
+
+Read the two things together: 99.6% is an achievement in coverage; the unconstitutional database is a side effect of using that coverage "too thoroughly." One cost of universal enrollment is that everyone's medical records enter the same pool. Thirty years later, when big data was taken back out for research, people discovered: "I never consented." The Constitutional Court judgment was, in essence, returning NHI "data rights" to individuals. For academic research, it was a major shock. For the protection of fundamental rights, it was a correction.
+
+Access has another blind spot that is often overlooked. The Integrated Delivery System program for mountainous areas and outlying islands began in 1999, covering 49 mountainous or outlying-island areas plus 49 non-mountainous outlying islands, and providing fixed-site outpatient clinics, 24-hour emergency care, mobile medical services, home medical care, and referral transport[^37]. NHI covers "enrollment" at 99.6%. It does not cover "accessibility." A rural resident may have an NHI card, but if the nearest hospital is 50 kilometers away, that card has a different practical meaning from the same card in the city. IDS is a remedy, not a system-level solution.
+
+## The IC Card and Database Went Too Fast and Too Far
+
+Taiwan fully replaced NHI cards with IC cards in 2004, and this is often claimed as "the world's first." The accurate version is that Slovenia completed nationwide deployment in September 2000, making it the first country to universalize health smart cards. Both HIIS, Slovenia's health insurance institute, and a PubMed-indexed 2001 paper by Hriberšek record this fact[^38]. Taiwan was the world's second case, the largest in scale, and the deepest in integration. The difference was three and a half years.
+
+This correction is not meant to deny Taiwan's achievement, but to correct the narrative habit of "we are the world's first." Once internalized, that habit can become an extended inference: "therefore our data governance is also world-class." Thirty years later, that is exactly how the system ran into the 2022 Constitutional Court judgment.
+
+> ✦ **Closing warning:** The NHI IC card and NHIRD standing at the forefront of the world are achievements accumulated over 30 years. But systems that go too fast, too far, and too deep are often tripped by their own achievements. Constitutional Court Judgment 111-Hsien-Pan-13 marked not the failure of the system, but the moment when a mature system had to go back and do remedial work.
+
+The "world No. 1" framing also needs correction in international indices. The Numbeo Health Care Index ranked Taiwan first for six consecutive years in 2024, with a score of 86/100, ahead of South Korea at 82.7, Japan at 79.3, the Netherlands at 78.9, and France at 78.1, covering 4,119 cities and 43,700 respondents[^4]. But this is a user perception index, not an institutional metric. Respondents are self-selected, and the score includes subjective ratings from healthcare users. Taiwan's real position in the Bloomberg Health-Care Efficiency Index was 14th in 2018, not the often-cited No. 9. In 2020, it was rearranged into the top four because of Covid prevention performance. By 2024, the index had stopped updating[^39].
+
+The academic citations are substantive. William Hsiao's 2003 Health Affairs 22(3):77 article, "Does Universal Health Insurance Make Health Care Unaffordable? Lessons From Taiwan," not a Lancet article, is the most-cited English-language academic paper on Taiwan's NHI[^9]. Cheng Tsung-han's 2015 Health Affairs article wrote: "Taiwan's NHI stands out as a high-performing single-payer national health insurance system that provides universal health coverage to Taiwan's 23.4 million residents based on egalitarian ethical principles"[^40]. Yet Princeton professor Uwe Reinhardt, who died in 2017 and had been one of Taiwan's NHI advisers since 1989, wrote in his own article: "I have not advocated the single-payer model here because our government is too corrupt"[^41]. One of the designers openly opposed copying the model in the United States.
+
+As for the narrative that "Obama learned from Taiwan," currently available public information does not show an official delegation directly visiting Taiwan to study the system. The accurate version should be: Taiwan is one of the cases most often cited by U.S. single-payer advocates, through a citation chain composed of scholars such as Reinhardt and Cheng and politicians such as Bernie Sanders, rather than "the Obama administration directly learned from Taiwan"[^41].
+
+The private insurance market is another piece of counterevidence. A 2004 survey found that 72.3% of Taiwanese households had purchased private health insurance; in 1993, before NHI began, the figure was 63.9%[^42]. The assumption that "NHI locked down the private insurance market" was reversed: nine years after NHI began, household private insurance penetration did not fall, but rose by 8.4 percentage points. Taiwanese people are practical. They know NHI is good, but they also know that needs outside the NHI benefits package, such as hospital-room upgrades, self-pay treatments, overseas emergency medical care, long-term care, and targeted cancer drugs, require private insurance as a supplement. This is also the structural reason why the question "is NHI enough?" has become increasingly common 30 years later.
+
+## Three Sentences Put Together
+
+Thirty years later, the small card from midnight on March 1, 1995 is still here, except now it has entered an app and become a QR code. But the same system rests on three things: 99.6% coverage, a 5.17% premium rate, and a 12.61% nursing turnover rate. The first two are sources of pride for Taiwanese people. The third is an account no one has dared settle for 30 years.
+
+Yeh Ching-chuan said in 2020: "The current system can last at most another five years"[^22]. Yang Chih-liang said before resigning after the 2011 third reading: "The supplementary premium is a mistake"[^18]. In 2024, Lee Yu-chun, the person who coined the original phrase "four major specialties are hollowed out," said: "Point value is a diagnosis of the phenomenon, not the fundamental solution"[^25]. Put together, the three sentences are not exactly pessimistic. They are more like words finally spoken after 30 years of implementation. A world-class NHI system needs world-class investment. But "investment" has never meant only adding money. It points to total household income, internal hospital distribution, resident working hours, the burden of medical disputes, and data governance. Each is ten times harder than adjusting premium rates.
+
+William Hsiao's reason for choosing the Canadian model in 1989 was that "the quality of services was very high"[^10]. Thirty years later, Taiwan's globally highest coverage rate is sustained by the lowest payment point values and a 12.61% nursing turnover rate. Success is not the opposite of defects. Success itself produced the political path dependence of the defects. Getting out of it will not depend on the next "three days of fire at our backs." It will depend on someone, for the first time in 30 years, being willing to touch the forbidden zones of "total household income," "hospital distribution," and "data opt-out rights," one by one.
+
+![National Taiwan University Hospital main building](/article-images/lifestyle/ntuh-2014.jpg)
+_The main building of National Taiwan University Hospital. Founded in 1895, it is the largest medical center in Taiwan's NHI system. Thirty years ago on March 1, when National Health Insurance began, this was also one of the places where national ID cards stood in for NHI cards that had not yet been printed._
 
 ---
 
-## On the Eve of Revolution: 40% Without Insurance
+**Further Reading**:
 
-Before 1995, Taiwan's medical insurance was a fragmented system where "your status determined your fate." Civil servants had their own insurance, workers had labor insurance, farmers had agricultural insurance, and military personnel had military insurance. The worst off were the 40% of the population with no coverage — the self-employed, the unemployed, homemakers — who, when sick, could only pay out of pocket, or endure.
-
-In the same hospital, publicly insured patients occupied single rooms, labor-insured patients four-person rooms, and the uninsured could not get through the door at all.
-
-In 1995, the government made a radical decision: dismantle all existing systems and rebuild them as a single "National Health Insurance." The design principle was just one — **everyone should be able to afford to see a doctor when sick**.
-
-Individuals, employers, and the government share the premium cost together; the healthy and the sick share the risk together. This was not a reform — it was a systemic revolution.
-
-> **Curator's note**
-> Taiwan's NHI uses a "single-payer" system — the Central Health Insurance Administration is Taiwan's sole insurer, collecting premiums centrally and paying hospitals centrally. This brings administrative costs down to under 2%, far below the United States' 12%. When Obama was pushing healthcare reform, he sent policy experts to Taiwan to study this model.
-
----
-
-## 2004: The World's First Smart Health Insurance Card
-
-The 1995 health card was paper. On January 1, 2004, Taiwan switched to an IC card (IC卡) with a 32KB chip — the world's first smart health insurance card system.
-
-Physicians insert the card and can immediately view a patient's medical history, prescription records, and allergy information. In 2013 this extended to a cloud-based medication record system, allowing cross-hospital access to three months of medication data, X-ray images, and CT reports.
-
-**The effects are quantifiable:** duplicate prescriptions reduced by 20%, duplicate examination rates down 15%, approximately NT$5 billion saved annually in NHI expenditure.
-
-The World Health Organization cited this system as a model. The United States, Japan, and European nations sent delegations to Taiwan to study it — but to date, no country has successfully replicated it in full.
-
----
-
-## The World's Top Numbers, and the Cost They Conceal
-
-In 2024, Numbeo's "Global Health Care Index" rated Taiwan as **number one in the world** — this was the sixth consecutive year Taiwan had claimed the top ranking, with a score of 86 (out of 100). In the same year, Taiwan ranked 9th on Bloomberg's Healthcare Efficiency Index.
-
-The numbers are impressive. But reading the same system from another angle, the numbers become less flattering:
-
-| Indicator                        | Taiwan               | Comparison                                 |
-| -------------------------------- | -------------------- | ------------------------------------------ |
-| Healthcare spending as % of GDP  | 6.2%                 | US 17.8%; Germany 10.7%                    |
-| Average annual outpatient visits | 14 visits per person | UK 5; US 4                                 |
-| NHI premium rate                 | 5.17% (2025)         | —                                          |
-| Ward room fee                    | NT$598/day           | Taipei business hotel approx. NT$800–1,200 |
-
-Taiwanese people visit doctors an average of 14 times per year — three times more than British people, three and a half times more than Americans. Low cost brings convenience, but also brings a culture of "doctor shopping" — seeing three different clinics for a cold, accumulating redundant chronic-disease prescriptions.
-
-> Former NHI Bureau Director-General Chang Hung-jen once stated plainly: "Taiwan's NHI has long been under-resourced, resulting in the exploitation of medical workers and declining quality. This is not 'the world's best' — it is 'lowest-bid procurement.'"
-
----
-
-## The "Big Five Vacancies": The Dark Side of the Miracle
-
-Taiwan has a term called the "Big Five Vacancies" (五大皆空): internal medicine, surgery, obstetrics and gynecology, pediatrics, and emergency medicine — the five specialties that shoulder the greatest acute and critical care burden are unable to attract recruits and unable to retain them.
-
-The reason is direct: NHI reimbursement point values have long been underweighted; surgical fees are far below the high out-of-pocket ratios of cosmetic medicine; high-risk specialties face more frequent medical disputes. Young physicians, when they do the rational calculation, choose dermatology, ophthalmology, and cosmetic surgery.
-
-The situation for nurses is even more acute. Legislator Chen Ching-hui noted in the Legislative Yuan in 2022: **nursing resignation rates were approaching 12%, a ten-year high.** A wave of ward closures spread through major medical centers, with 10% of beds closed in the top 22 medical centers and 20–30% in regional hospitals. It is not uncommon for a single nurse to be responsible for 15–20 patient beds; the three-year resignation rate has long exceeded 50%.
-
-The Reporter's investigative team's late-2024 report carried this headline: "The Largest Hospital Nursing Walkout in 30 Years — Ward Closures, Surgery Time Limits, ER Backlogs: The Nursing Shortage That Is Shaking the Nation's Foundation."
-
-> **Systemic paradox**
-> Taiwan's NHI payment logic means a physician must see 50–80 patients per clinic session to maintain income — each patient receiving an average of 3–5 minutes. Above 40 patient-visits, the per-visit reimbursement is discounted: the more patients seen, the cheaper each visit becomes. The original intent of this design was cost control, but it has created the structural pressure that makes "three-minute consultations" the norm.
-
----
-
-## The Financial Clock
-
-Taiwan's NHI faces a math problem whose answer is known — only the trigger point is uncertain.
-
-The population aged 65 and above will reach 18.1% in 2026 and is projected to exceed 23.8% by 2030. This demographic consumes 40% of NHI resources, yet the pool of young premium-payers is shrinking. NHI expenditures grow 4–5% per year while premium income grows less than 2.5%.
-
-The "partial cost-sharing reform" launched in 2023 is the first patch: for those who bypass referrals and go directly to major hospitals, out-of-pocket costs are raised; prescription partial cost-sharing is recalculated to guide patients toward primary care clinics. But resistance to reform is enormous — the public's intuition that "major hospitals equal better quality" runs deep, and the diagnostic capabilities of primary clinics genuinely fall short of medical centers.
-
-The premium rate question is even thornier. The current rate of 5.17% has been maintained for years without adjustment. The NHI Administration estimates that by the end of 2025, the safety reserve fund still has approximately two months' buffer, but a long-term financial gap persists — "when to raise the premium rate" is a political battle that recurs every few years.
-
----
-
-## Thirty Years Later: Where Does It Stand?
-
-Return to March 1, 1995, and that small card.
-
-It gave Taiwan's 40% uninsured population the right to see a doctor for the first time. It spared impoverished families from having to choose between "medical treatment" and "food." It allowed a small island to sustain the world's highest healthcare coverage at the world's lowest cost.
-
-These are true.
-
-> **Afterword**
-> Taiwan's NHI has accustomed us to something abnormal: getting sick is not expensive.
-> But the cost of "not expensive" is borne by someone — by the nurses whose resignation rate is 12%, by the physicians completing a consultation in 3 minutes, by the patients waiting for surgery in beds that have been closed.
-> This system deserves pride. But pride is not the same as sufficient.
-
-It is also one of the world's rare attempts to transform "health" from a market commodity into a public good. The United States still has 30 million people without medical insurance. Taiwan's answer is imperfect, but it exists.
-
-The future of this system depends on whether Taiwanese society is willing to acknowledge one thing: a world-class healthcare system requires world-class investment to sustain it.
-
----
-
-**Further Reading**
-
-- [Medical Care Act](/society/醫療法) — The NHI Act governs "benefits" while the Medical Care Act governs "institutions"; the two laws together form the dual-track backbone of Taiwan's healthcare governance — covering both the benefits side and the institutional side
-- [Taiwan Animal Drug Controversy](/society/台灣動物用藥爭議) — NHI covers people, not animals; the controversy over veterinary pharmaceuticals is a counterpart to the NHI system, revealing a different world where there is no insurance, no complete pharmaceutical separation framework, and even emergency oxygen must be logged item by item
+- [Medical Care Act](/society/醫療法) — The NHI Act governs "benefits," while the Medical Care Act governs "institutions"; together, the two laws form the benefits side and institutional side of Taiwan's dual-track healthcare governance
+- [A Practitioner's Account of the History of Taiwan's Two Regenerative Medicine Acts](/society/台灣再生醫療雙法沿革從業人員告白) — Outside the boundaries of NHI benefits, the two regenerative medicine acts passed in 2024 form another governance track beyond the NHI SOP
+- [Taiwan's Animal Drug Controversies](/society/台灣動物用藥爭議) — NHI covers people, not animals; disputes over pet medication are a comparison case for the NHI system
+- [Taiwan's Disaster Medicine System](/technology/台灣災難醫療體系) — NHI sustains everyday healthcare, while the disaster medicine system sustains exceptional times; together, the two systems construct the ordinary and emergency sides of Taiwan's public medical governance
 
 ---
 
 ## References
 
-- [National Health Insurance Administration, Ministry of Health and Welfare](https://www.nhi.gov.tw/ch/np-3087-1.html) (primary source)
-- [Numbeo Health Care Index 2024 — Taiwan #1](https://nspp.mofa.gov.tw/nsppe/news.php?post=248618&unit=381) (cited by Ministry of Foreign Affairs)
-- [The Reporter: The Largest Hospital Nursing Walkout in 30 Years](https://www.twreporter.org/a/data-reporter-health-emergency-nursing-shortage) (2024)
-- [The Reporter: The Collapse Era of National Health Insurance](https://www.twreporter.org/topics/health-insurance-system-reform) (financial and institutional crisis)
-- [PMC: An overview of the healthcare system in Taiwan](https://pmc.ncbi.nlm.nih.gov/articles/PMC3960712/) (English academic source)
-- [GeneOnline: NHI at 30 — Structural Risks](https://geneonline.news/taiwan-national-health-insurance-30-years-series-1/)
-- [Future City: Punishing Doctors Who Spend More Time on Individual Patients?](https://futurecity.cw.com.tw/article/2509)
+[^1]: [醫奉 31／葉金川：火燒屁股的三天，撐起 30 年健保](https://health.udn.com/health/story/6001/5826304) — A 2021 Health UDN "Medical Dedication 31" feature interview with Yeh Ching-chuan, the first general manager of the Bureau of National Health Insurance, recalling the emergency mobilization in the six days before the March 1, 1995 launch, including multiple verbatim remarks such as "the preparation time was actually only three days," "fire at our backs," and the emergency fallback mechanism of using national ID cards in place of NHI cards.
 
-## Related Topics
+[^2]: [全民健康保險統計](https://www.nhi.gov.tw/ch/cp-1654-1751-2c794-1.html) — The official statistics page of the National Health Insurance Administration, Ministry of Health and Welfare, publishing enrollment numbers, coverage rate, global budget growth rate, and other indicators. The 99.6% figure is coverage of the "eligible population" and does not include missing migrant workers, unregistered infants, or overseas citizens who suspended coverage.
 
-Population aging in Taiwan (台灣人口老化) · IC card (IC卡) · Tiered medical care in Taiwan (分級醫療) · Social welfare in Taiwan (台灣社會福利)
+[^3]: [全民健保行政成本國際比較](https://www.nhi.gov.tw/ch/cp-1654-1747-2c794-1.html) — The NHIA's published annual administrative management expense ratio, long maintained between 1.5% and 2% of premium revenue, far below the roughly 12% level of U.S. commercial insurance. This is a structural advantage of the single-payer system.
+
+[^4]: [Numbeo Health Care Index by Country 2024](https://www.numbeo.com/health-care/rankings_by_country.jsp) — Numbeo is a global cost-of-living and quality-of-life index platform based on self-selected user participation. Taiwan's 2024 healthcare index score was 86/100 and ranked first for six consecutive years, but this is a perception index rather than an institutional metric.
+
+[^5]: [立法院第 11 屆第 1 會期第 14 次會議主決議文](https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=46463&pid=232818) — The Legislative Yuan passed a principal resolution in May 2024 requiring the Ministry of Health and Welfare to comprehensively survey nursing manpower. The appendix showed that the 2023 nursing turnover rate of 12.61% was a ten-year high, while the vacancy rate of 9.05% was also a ten-year high.
+
+[^6]: [中央健康保險署 30 週年大事紀](https://www.nhi.gov.tw/ch/cp-13-1-3a18a-1.html) — The NHIA's 2025 publication of 30th-anniversary milestones, including the number of contracted medical institutions, coverage rate, and first-year premium revenue at the March 1, 1995 launch.
+
+[^7]: [全民健保法立法歷程](https://www.nhi.gov.tw/ch/cp-13-1-3a18b-1.html) — The NHIA's official institutional history page, recording the complete timeline from the first draft in 1968 to the formal launch in 1995, including policy nodes such as Premier Yu Kuo-hua's February 28, 1989 announcement in the Legislative Yuan and Hau Pei-tsun's instruction to move the launch up again.
+
+[^8]: [全民健康保險法三讀與沈富雄絕食](https://lis.ly.gov.tw/lglawc/lawsingle?A006D9C6BCC30000000000000000014000000003FFFFFD%5E04243083071900%5E0001A001001) — The Legislative Yuan legal system records the July 19, 1994 third reading of the National Health Insurance Act. Legislator Shen Fu-hsiung's July 16 hunger strike over NHI funding is recorded in that issue of the Legislative Yuan Gazette.
+
+[^9]: [Does Universal Health Insurance Make Health Care Unaffordable? Lessons From Taiwan](https://pubmed.ncbi.nlm.nih.gov/12757274/) — PubMed abstract of William Hsiao's 2003 Health Affairs 22(3):77 article, the most-cited English-language academic paper on Taiwan's NHI, recording the 1989 task force's comparison of six national models and its selection of the Canadian-style single-payer model.
+
+[^10]: [Why Did Taiwan Adopt a Single-Payer System? Lessons From the Hsiao Task Force](https://www.commonwealthfund.org/publications/case-study/2019/feb/taiwan-health-care) — A 2019 Commonwealth Fund case study quoting Hsiao's assessment of the Canadian model, "the quality of services was very high," and recording the decision structure of the 1989 six-country comparison.
+
+[^11]: [Taiwan's Single-Payer Success Story — and Its Lessons for America](https://www.healthaffairs.org/doi/10.1377/hlthaff.2014.1332) — Cheng's 2015 Health Affairs article, which breaks single-payer into five attributes: unified risk pool, uniform benefits package, adequate resources, single purchaser, and global budget control. These five points are the theoretical foundation of Taiwan NHI's 30-year structural equilibrium.
+
+[^12]: [全民健保開辦初期民意調查](https://www.nhi.gov.tw/ch/cp-13-1-3a18c-1.html) — The NHIA's official institutional history page includes first-year 1995 polling: 96% coverage, but satisfaction of 39% and dissatisfaction of 47%. "Universal support" is a retrospective narrative; Taiwanese society had doubts about the new system at the time.
+
+[^13]: [江東亮：四大皆空的緣起與監察院 2009 總體檢](https://health.udn.com/health/story/7416/362921) — Health UDN's publication of a 2018 article by Professor Chiang Tung-liang, explicitly stating that the phrase "four major specialties are hollowed out" was coined by National Yang Ming University public health professor Lee Yu-chun in the summer of 2009 during Control Yuan member Huang Huang-hsiung's comprehensive NHI examination, and that the issue became urgent after the 2011 report was released.
+
+[^14]: [葉金川：五大皆空的爭議與我的看法](https://health.udn.com/health/story/7394/362189) — Health UDN's publication of Yeh Ching-chuan's 2018 article, which offers counterarguments: "What the medical community calls the five major specialties being hollowed out probably first began at a seminar when a superintendent reported the hospital's physician shortage," and "It is not that all five major specialties are short of people; the overall number of physicians is sufficient." Yeh argues that the issue is distribution, not supply.
+
+[^15]: [監察院 101.7.17 健保總體檢糾正案](https://www.cy.gov.tw/News_Content.aspx?n=124&sms=8912&s=6109) — The July 2012 corrective measure from Control Yuan members Huang Huang-hsiung, Shen Mei-chen, and Liu Hsing-shan in the comprehensive NHI examination, first formalizing in official documents accusations such as "little money, much work, and proximity to prison" for the four major specialties and resident monthly working hours of 300 to 400 hours.
+
+[^16]: [楊志良請辭：補充保費三天決議與二代健保爭議](https://www.cna.com.tw/news/firstnews/202101260100.aspx) — A 2021 Central News Agency retrospective on the political background of Yang Chih-liang's resignation after the January 26, 2011 third reading of second-generation NHI, revealing the controversy of his stepping down immediately after pushing through the 5.17% main premium rate.
+
+[^17]: [全民健保費率歷次調整](https://www.nhi.gov.tw/ch/cp-13-1-3a18d-1.html) — The NHIA's published timetable of premium-rate adjustments: 4.25% from 1995 to August 2002, 4.55% in September 2002, 5.17% in April 2010, second-generation NHI at 4.91% plus a 2% supplementary premium in January 2013, reduced to 4.69% plus 1.91% in 2016, and raised again to 5.17% plus 2.11% in January 2021.
+
+[^18]: [楊志良：補充保費是個錯誤](https://www.top1health.com/Article/3927) — Top1Health's publication of a 2011 interview with Yang Chih-liang, including the verbatim remarks: "The supplementary premium is a mistake" and "From beginning to end, second-generation NHI was supposed to collect premiums based on total household income, but first the Ministry of Finance said total household income could not be done, and later legislators on the Finance Committee overturned the decision of the Social Welfare and Environmental Hygiene Committee, taking only three days to propose the idea of a supplementary premium."
+
+[^19]: [二代健保補充保費六項所得規定](https://www.nhi.gov.tw/ch/cp-1654-1748-2c794-1.html) — The NHIA's official page on supplementary premium calculation rules, listing the six categories of income: high bonuses above four times monthly insured salary, part-time wages, professional practice income, dividends, interest, and rent; deductions begin at a single payment of NT$20,000, with a ceiling of NT$10 million.
+
+[^20]: [補充保費改革 480 萬人影響 行政院喊暫緩規劃](https://www.gvm.com.tw/article/125615) — Global Views Monthly's November 2025 report that the original plan would change supplementary premiums from per-transaction calculation to annual settlement, raise the withholding ceiling to NT$50 million, affect an estimated 4.8 million people, and inject NT$10 billion to NT$20 billion, before the Executive Yuan abruptly halted planning and triggered anger among dividend-stock investors and retirees.
+
+[^21]: [國情統計通報第 231 號：65 歲以上人口醫療資源使用分析](https://ws.dgbas.gov.tw/001/Upload/463/relfile/11150/89262) — The Directorate-General of Budget, Accounting and Statistics' December 6, 2021 National Statistics Bulletin No. 231, publishing the 2020 NHI expenditure structure: 65+ accounted for 39.8%, ages 15-64 for 54.8%, and ages 0-14 for 5.4%; annual per-capita NHI spending for 65+ exceeded NT$70,000, roughly seven times the approximately NT$10,000 for those under 65.
+
+[^22]: [葉金川：健保現在的制度最多只能再撐 5 年](https://www.twreporter.org/a/health-insurance-system-generation-problems) — A 2020 in-depth report by The Reporter quoting Yeh Ching-chuan's warning about NHI's financial clock and analyzing intergenerational transfer and the political structure blocking total-household-income reform.
+
+[^23]: [健保 2026 總額 9,883 億 費率維持 5.17%](https://www.storm.mg/lifestyle/11082252) — A November 19, 2025 Storm Media report quoting NHI Committee executive secretary Chou Shu-wan verbatim: "For 2026, the NHI global budget safety reserve is two months and has not fallen below the level, so the insurance premium rate will remain at the current 5.17% without adjustment," and revealing details of maintaining the level through NT$3 billion in government subsidies plus NT$18.1 billion shifted from the official budget.
+
+[^24]: [全民健康保險法第 78 條安全準備條款](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0060001) — The Laws and Regulations Database records the current text of the National Health Insurance Act. Article 78 states that the safety reserve should in principle equal one to three months of insurance benefits expenditure under the most recent actuarial calculation. This is the legal basis for saying "NHI will not go bankrupt" and reflects the structure of a pay-as-you-go system.
+
+[^25]: [報導者：保障點值 0.95 元政策深度解析](https://www.twreporter.org/a/national-health-insurance-global-budget-system-point-value-reform) — The Reporter's November 2024 feature on the policy of guaranteeing point values at NT$0.95, including five counterarguments such as Cheng Shou-hsia's "guaranteeing point values is equivalent to abolishing the global budget," Kao Jo-hsiang's "the trickle-down effect simply does not exist," Lee Yu-chun's "point value is a diagnosis of the phenomenon, not the fundamental solution," and Shih Chung-liang's "we hope the target point value can reach 0.95, but not through a guarantee."
+
+[^26]: [部分負擔新制 1 年後評估：門診次數創 4 年新高](https://news.pts.org.tw/article/721038) — Public Television Service's July 2024 assessment of the July 1, 2023 copayment reform, showing that annual outpatient visits reached a four-year high of 14.3 per person and quoting Taiwan Healthcare Reform Foundation CEO Lin Ya-hui verbatim: "NHI is not commercial insurance; it emphasizes shared risk in times of hardship and payment according to capacity."
+
+[^27]: [Doctor Shopping in Taiwan: A Population-Based Study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4555276/) — A PubMed Central-indexed study of doctor shopping in Taiwan's NHI system, analyzing the structure of an average 18 outpatient visits per person per year, more than twice the OECD average, and providing the theoretical basis for the feedback chain "cheap → more use → point values fall."
+
+[^28]: [報導者：護理出走潮深度報導](https://www.twreporter.org/a/data-reporter-health-emergency-nursing-shortage) — The Reporter's June 2024 feature on the nursing exodus, including the 2023 turnover rate of 12.61%, 60% practice rate, one-third of new hires leaving within three months, more than 30% bed closures across 22 medical centers, outflow distribution of 30%/25%/10%/15%/20%, and multiple verbatim remarks from Kao Ching-chiu, Lin Hsiu-chu, Chao Lin-yu, Lo Hsiang-yun, and Tsai Shu-feng.
+
+[^29]: [立法院主決議要求衛福部全面盤查護理人力](https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=46463&pid=232818) — The appendix to the Legislative Yuan's May 2024 principal resolution requiring the Ministry of Health and Welfare to comprehensively survey nursing manpower, showing the five-year nursing turnover-rate sequence from 2019 to 2023: 11.12% in 2019, 10.13% in 2021, 11.73% in 2022, and 12.61% in 2023, a ten-year high.
+
+[^30]: [衛福部長邱泰源為「關床的醫院是哪幾家」道歉](https://udn.com/news/story/7266/8012826) — United Daily News's June 5, 2024 report that Minister of Health and Welfare Chiu Tai-yuan apologized at the Legislative Yuan for Department of Nursing and Health Care Director Tsai Shu-feng's counterquestion, "Which hospitals are closing beds?" This was a turning point in the 2024 political battle over nursing shortages.
+
+[^31]: [三班護病比 2027 年提前實施 賴清德宣布](https://www.cna.com.tw/news/firstnews/202605120100.aspx) — Central News Agency's May 12, 2026 report that Lai Ching-te announced the three-shift nurse-to-patient ratio would be moved up from the original 2030 schedule to phased implementation beginning May 20, 2027, with penalties of NT$250,000 to NT$500,000 for district hospitals, NT$500,000 to NT$1 million for regional hospitals, and NT$1 million to NT$2 million for medical centers.
+
+[^32]: [失聯移工醫療權益困境](https://www.tahr.org.tw/news/2872) — A Taiwan Association for Human Rights feature documenting emergency medical debt after missing migrant workers lose NHI eligibility, the most visible blind spot behind the "99.6% universal" coverage rate.
+
+[^33]: [Global Taiwan Institute: Taiwan's NHI Stop-and-Resume Loophole](https://globaltaiwan.org/2025/01/taiwan-nhi-overseas-loophole/) — A January 2025 Global Taiwan Institute policy report analyzing the exploitation structure of the stop-and-resume mechanism for overseas citizens and recording the policy process behind the December 23, 2024 reform abolishing stop-and-resume coverage.
+
+[^34]: [NHIRD 學術產出與健保署 × 臺大 MOU](https://www.nhi.gov.tw/ch/cp-1654-1749-2c794-1.html) — The NHIA's publication that the National Health Insurance Research Database has accumulated 70 billion medical records and 3.4 billion medical images, supported more than 8,414 peer-reviewed publications, and signed an MOU with National Taiwan University Hospital to build "the world's first image-information-based cardiovascular risk database."
+
+[^35]: [111 年憲判字第 13 號：健保資料庫違憲](https://cons.judicial.gov.tw/docdata.aspx?fid=38&id=309956) — The full text of the Constitutional Court's August 12, 2022 judgment, which found the NHI database unconstitutional on three levels: lack of an opt-out right, insufficiently clear regulations, and absence of an independent oversight mechanism, with a three-year deadline for amendment.
+
+[^36]: [《全民健康保險資料管理條例》三讀通過](https://www.lawbank.com.tw/news/NewsContent.aspx?NID=211434.00) — Lawbank's December 2, 2025 report that the National Health Insurance Data Management Act passed its third reading, granting the public an opt-out right and constituting the largest remedial lesson in NHI data governance within the three-year deadline after Constitutional Judgment No. 13.
+
+[^37]: [山地離島地區醫療給付效益提昇計畫 IDS](https://www.mohw.gov.tw/cp-16-46583-1.html) — The Ministry of Health and Welfare's publication that the IDS program began in 1999, covering 49 mountainous or outlying-island areas plus 49 non-mountainous outlying islands, and providing fixed-site outpatient clinics, 24-hour emergency care, mobile medical services, home medical care, and referral transport to fill the "accessibility" gap outside NHI "enrollment."
+
+[^38]: [Slovenia: First Country with Nation-Wide Health Smart Cards](https://pubmed.ncbi.nlm.nih.gov/11187475/) — PubMed's record of a 2001 paper by Hriberšek and others, documenting Slovenia's completion of nationwide health smart card deployment in September 2000 as the world's first case. Taiwan's 2004 deployment was the second, the largest in scale, and the deepest in integration.
+
+[^39]: [Bloomberg Health-Care Efficiency Index Methodology](https://www.bloomberg.com/news/articles/2020-12-18/asia-trounces-u-s-in-health-efficiency-index-amid-pandemic) — Bloomberg's official methodology page for its Health-Care Efficiency Index, recording the real timeline: Taiwan ranked 14th in 2018, not the often-cited No. 9; it was rearranged into the top four in 2020 because of Covid; and the index had stopped updating by 2024.
+
+[^40]: [Cheng 2015 Health Affairs: Taiwan's NHI Performance](https://pubmed.ncbi.nlm.nih.gov/25732502/) — PubMed abstract of Cheng's 2015 Health Affairs article, with the verbatim line: "Taiwan's NHI stands out as a high-performing single-payer national health insurance system that provides universal health coverage to Taiwan's 23.4 million residents based on egalitarian ethical principles."
+
+[^41]: [Uwe Reinhardt: Why I Don't Advocate Single-Payer in America](https://www.huffpost.com/entry/uwe-reinhardt-on-single-payer_b_5af56c8be4b0859d11d05ce8) — HuffPost's publication of Princeton economist Uwe Reinhardt, who died in 2017 and had been one of Taiwan's NHI advisers since 1989, including the core verbatim line: "I have not advocated the single-payer model here because our government is too corrupt." One of the designers openly opposed copying the model in the United States.
+
+[^42]: [Taiwan's Private Health Insurance Market After NHI](https://link.springer.com/article/10.1057/gpp.2012.36) — A 2012 Geneva Papers on Risk and Insurance article analyzing how private health insurance household penetration in Taiwan rose from 63.9% in 1993 to 72.3% in 2004, an 8.4 percentage-point increase after NHI began, which reversely falsifies the assumption that "NHI locked down the private insurance market."
+
+---
+
+## Image Sources
+
+- **Hero**: [NHI Building, ROC-MOHW-NHIA Taipei Division main entrance](https://commons.wikimedia.org/wiki/File:NHI_Building,_ROC-MOHW-NHIA_Taipei_Division_main_entrance_20180616.jpg) by Solomon203 / Wikimedia Commons / CC BY-SA 4.0
+- **Scene-mid 1** (2017 version of the NHI IC card): Official image from the National Health Insurance Administration, Ministry of Health and Welfare / Public Domain (public government information)
+- **Scene-mid 2** (NHI 30th-anniversary documentary iframe): Official YouTube channel of the National Health Insurance Administration, Ministry of Health and Welfare
+- **Scene-mid 3** (Chiayi Christian Hospital mobile nursing station, 2007): Chiayi Christian Hospital / used for nonprofit educational purposes
+- **Closure** (National Taiwan University Hospital main building): [National Taiwan University Hospital main building](https://commons.wikimedia.org/wiki/Category:National_Taiwan_University_Hospital) / Wikimedia Commons / CC BY-SA 4.0

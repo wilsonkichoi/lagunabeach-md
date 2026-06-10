@@ -216,7 +216,7 @@ category: People
 
 ---
 
-**関連記事：** [二二八事件](/ja/history/228-incident/) · [台湾白色恐怖](/ja/history/white-terror/) · [戒厳時期](/ja/history/martial-law-era/) · [台湾民主転型](/ja/history/democratic-transition/) · [台湾転換正義](/ja/history/transitional-justice/) · [美麗島事件](/ja/history/formosa-incident/) · 李登輝（台湾の政治家）
+**関連記事：** [二二八事件](/ja/history/228-incident/) · [台湾白色恐怖](/ja/history/white-terror/) · [戒厳時期](/ja/history/martial-law-era/) · [台湾民主転型](/ja/history/taiwan-democratization/) · [台湾転換正義](/ja/history/transitional-justice/) · [美麗島事件](/ja/history/formosa-incident/) · 李登輝（台湾の政治家）
 
 ---
 

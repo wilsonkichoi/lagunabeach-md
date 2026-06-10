@@ -100,7 +100,7 @@ translatedAt: 2026-05-01T18:02:56+08:00
 
 ## 関連記事
 
-[陳水扁](/ja/people/chen-shui-bian-controversial-president/)と[台湾白色テロ](/ja/history/white-terror/)は、台湾の刑事司法の背景を理解するための二つの異なる視点を提供しています。1949年の渡台の歴史的文脈を知りたい場合は、[国民政府遷台と戦後重建](/ja/history/kmt-government-relocation-and-postwar-reconstruction/)が起点となります。[台湾民主化](/ja/history/democratic-transition/)は、台湾の司法が威権主義から法治へと変遷する過程を記録しており、リー・チャンユーはその中で鑑識科学の近代化を目撃し、その一端を担いました。
+[陳水扁](/ja/people/chen-shui-bian-controversial-president/)と[台湾白色テロ](/ja/history/white-terror/)は、台湾の刑事司法の背景を理解するための二つの異なる視点を提供しています。1949年の渡台の歴史的文脈を知りたい場合は、[国民政府遷台と戦後重建](/ja/history/kmt-government-relocation-and-postwar-reconstruction/)が起点となります。[台湾民主化](/ja/history/taiwan-democratization/)は、台湾の司法が威権主義から法治へと変遷する過程を記録しており、リー・チャンユーはその中で鑑識科学の近代化を目撃し、その一端を担いました。
 
 ---
 

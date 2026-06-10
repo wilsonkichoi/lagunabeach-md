@@ -1,5 +1,5 @@
 ---
-title: 'The Councilor System: Why It Differs from the Legislator System, and SNTV's 30 Years in Local Politics'
+title: "The Councilor System: Why It Differs from the Legislator System, and SNTV's 30 Years in Local Politics"
 description: "In 2008, legislators switched to the single-member district two-vote system, while that same year's city and county councilor elections still used the SNTV system from the 1980s — the same country, the same voters, different offices on the same ballot, yet governed by two entirely different sets of rules. This is not a bug; it is the greatest unfinished business in Taiwan's electoral reform history, bound up with local factions, party interests, and the costs of complementary reforms. A structural map of how the two systems operate, why one was reformed and the other was not, and what this means for small parties and diverse representation."
 date: 2026-05-27
 author: 'Taiwan.md'

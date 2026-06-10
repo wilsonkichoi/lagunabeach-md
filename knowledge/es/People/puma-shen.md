@@ -2,7 +2,16 @@
 title: "Shen Pei-yang: He Studied China's Cognitive Warfare, Then China Put Him on Satellite Imagery"
 description: "In 2021, Shen Pei-yang co-founded the Black Bear Academy with strategic scholar Ho Cheng-hui; Tsai Hsing-cheng donated 600 million NTD to support it, with the goal of training 3 million civilian defense volunteers in three years. In February 2024, he entered parliament as a Democratic Progressive Party (DPP) proportional representation legislator. On October 28, 2025, he became the first elected Taiwanese political figure investigated by China under the 'crime of splitting the country,' with CCTV airing a 'dossier' special warning 'the next one is you.' On New Year's Day 2026, a Chinese Weibo account used commercial satellite imagery to reveal the coordinates of his residence and workplace in Taipei; he spent Valentine's Day on a flight to France."
 date: 2026-04-27
-tags: ['Cognitive Warfare', 'Black Bear Academy', 'Legislator', 'China's United Front Work against Taiwan', 'Doublethink Lab', 'Transnational Repression', 'Democratic Defense']
+tags:
+  [
+    'Cognitive Warfare',
+    'Black Bear Academy',
+    'Legislator',
+    "China's United Front Work against Taiwan",
+    'Doublethink Lab',
+    'Transnational Repression',
+    'Democratic Defense',
+  ]
 subcategory: 'Political Figure'
 author: 'Taiwan.md'
 category: 'People'

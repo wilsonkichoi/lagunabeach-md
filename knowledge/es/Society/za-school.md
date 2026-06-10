@@ -170,7 +170,7 @@ Su Yang-chih told [INSIDE Side Chat E376](https://www.inside.com.tw/feature/side
 
 [^12]: [Presidential Office News 25071: Vice President Attends "2019 Za School Opening"](https://www.president.gov.tw/News/25071) — The Presidential Office official press release of November 28, 2019, recording Vice President Chen Chien-jen personally attending the Za School opening press conference, sharing the stage with State Councilor Tang Feng, Deputy Minister of Education Fan Hsü-lü, and Legislator Su Hsiao-hui.
 
-[^13]: [VERSE Magazine: Can Passion Be Eaten as a Meal? — Za School Interview](https://www.verse.com.tw/article/interview-with-za-share) — VERSE Magazine's comprehensive interview with Za School, including the COVID period online strategy and the overall 11-year positioning review.
+[^13]: [VERSE Magazine: Can Passion Be Eaten as a Meal? — Za School Interview](https://www.verse.com.tw/article/interview-with-za-school) — VERSE Magazine's comprehensive interview with Za School, including the COVID period online strategy and the overall 11-year positioning review.
 
 [^14]: [La Vie: Chiayi City Rebel Education Festival — Za School's First Step South](https://www.wowlavie.com/article/ae2201761) — La Vie Magazine's pre-exhibition report on the 2022 Chiayi "Rebel Education Festival," including theme naming, venue layout, and speaker lineup.
 

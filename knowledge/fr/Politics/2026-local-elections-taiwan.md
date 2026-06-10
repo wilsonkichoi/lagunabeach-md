@@ -95,7 +95,7 @@ Pour comprendre pourquoi 2026 est important, il faut d'abord situer cette élect
 
 Chacun de ces cinq repères historiques n'est pas clos. 2026 n'est pas la fin de ces histoires, mais leur prochain nœud.
 
-Pour le contexte historique détaillé : [Histoire de la démocratisation de Taïwan](/fr/History/taiwan-democratization-history/) · [Transition démocratique de Taïwan](/fr/History/democratic-transition/) · [Grand Rappel de 2024](/fr/History/great-recall-movement-2024/) · [Élections et politique partisane à Taïwan](/fr/History/taiwan-elections-and-party-politics/)
+Pour le contexte historique détaillé : [Histoire de la démocratisation de Taïwan](/fr/History/taiwan-democratization-history/) · [Transition démocratique de Taïwan](/fr/History/taiwan-democratization/) · [Grand Rappel de 2024](/fr/History/great-recall-movement-2024/) · [Élections et politique partisane à Taïwan](/fr/History/taiwan-elections-and-party-politics/)
 
 ---
 
@@ -278,7 +278,7 @@ Selon ce que vous cherchez à comprendre, cette catégorie propose différentes 
 [/elections/2026/](/elections/2026/) — tableau de bord / candidats / contributions politiques / perspectives multi-angles
 
 **Pour comprendre le contexte historique :**
-[Histoire de la démocratisation de Taïwan](/fr/History/taiwan-democratization-history/) · [Transition démocratique de Taïwan](/fr/History/democratic-transition/) · [Grand Rappel de 2024](/fr/History/great-recall-movement-2024/) · [Élections et politique partisane à Taïwan](/fr/History/taiwan-elections-and-party-politics/)
+[Histoire de la démocratisation de Taïwan](/fr/History/taiwan-democratization-history/) · [Transition démocratique de Taïwan](/fr/History/taiwan-democratization/) · [Grand Rappel de 2024](/fr/History/great-recall-movement-2024/) · [Élections et politique partisane à Taïwan](/fr/History/taiwan-elections-and-party-politics/)
 
 **Pour accéder aux outils de surveillance citoyenne :**
 [Communauté open source et g0v](/fr/Technology/open-source-and-g0v/) · 政治獻金透明度 (zh only — 政治獻金透明度) · [Ressources externes (via /elections/2026/)](/elections/2026/)

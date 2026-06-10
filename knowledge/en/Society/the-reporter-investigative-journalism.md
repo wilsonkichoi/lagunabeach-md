@@ -137,7 +137,7 @@ But the tenth anniversary exhibition was titled _OPEN_, not _The End_.
 - [Social Movements and Civic Participation](/society/social-movements-and-civic-participation) — The Reporter's birth and operation are tightly coupled to Taiwan's civil society; this piece traces the broader social movement and civic participation spectrum in which The Reporter is rooted
 - [Taiwan New Media Art](/art/taiwan-new-media-art) — Another Taiwan-DNA case driven by civic communities and growing across disciplinary lines
 - [PanSci](/society/泛科學) — Another 2010s case of Taiwanese new media building public discourse, but PanSci chose the route of sustaining that public space through science communication, courses, video, sponsored projects, and a knowledge-services company
-- [Taiwan Independent Music Scene](/music/taiwan-independent-music-scene-evolution) — Another public-good ecosystem sustained by strangers paying voluntarily
+- [Taiwan Independent Music Scene](/music/indie-music-scene) — Another public-good ecosystem sustained by strangers paying voluntarily
 - [justfont and Taiwan Typography](/technology/justfont與台灣字體發展) — Another 2015 crowdfunding case study that reshaped Taiwanese public perception; a parallel in cultural infrastructure
 - [Submarine Cables](/technology/海底電纜) — The Reporter's 2024 deep-dive on submarine cables is a key source for this topic
 

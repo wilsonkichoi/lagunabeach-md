@@ -127,6 +127,6 @@ The wisteria at Wistaria Tea House blooms every spring. Zhou Yu, now in his eigh
 
 ## Further Reading
 
-- [tea-culture](/food/tea-culture) - Deep dive into tea varieties and regions
+- [tea-culture](/food/golden-age-echoes-taiwan-tea-culture) - Deep dive into tea varieties and regions
 - [hakka-culture-and-language](/culture/hakka-culture-and-language) - Oriental Beauty and Hakka tea country
 - [traditional-festivals-and-celebrations](/culture/traditional-festivals-and-celebrations) - Tea's role in festivals

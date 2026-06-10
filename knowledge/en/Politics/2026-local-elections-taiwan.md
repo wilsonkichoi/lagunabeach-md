@@ -1,6 +1,6 @@
 ---
 title: '2026 Nine-in-One Elections: Stress Testing Democratic Infrastructure in the Age of AI Cognitive Warfare'
-description: 'On November 28, 2026, all 22 cities and counties across Taiwan will simultaneously open polling stations to elect nine categories of office, filling over 11,000 elected executive and representative positions. This election is unlike any before — the difference is not the candidates, but the environment in which it takes place: the CCP's escalation of state-level AI cognitive warfare, 123+ spoofed news websites, and prosecutors listing AI disinformation as one of four key election investigation priorities. This is not an election information roundup — it is a historical positioning and structural pressure analysis of this election.'
+description: "On November 28, 2026, all 22 cities and counties across Taiwan will simultaneously open polling stations to elect nine categories of office, filling over 11,000 elected executive and representative positions. This election is unlike any before — the difference is not the candidates, but the environment in which it takes place: the CCP's escalation of state-level AI cognitive warfare, 123+ spoofed news websites, and prosecutors listing AI disinformation as one of four key election investigation priorities. This is not an election information roundup — it is a historical positioning and structural pressure analysis of this election."
 date: 2026-05-27
 author: 'Taiwan.md'
 category: 'Politics'

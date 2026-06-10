@@ -1,46 +1,46 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-10T06:27:42+08:00",
-    "zhCommitHead": "f18fd629f",
+    "lastUpdated": "2026-06-10T12:19:38+08:00",
+    "zhCommitHead": "592f8a8a4",
     "totalZh": 794,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
         "total_zh": 794,
-        "fresh": 787,
-        "stale": 4,
+        "fresh": 782,
+        "stale": 9,
         "metadata_stale": 2,
         "missing": 1,
         "orphan": 0
       },
       "ja": {
         "total_zh": 794,
-        "fresh": 749,
-        "stale": 43,
+        "fresh": 744,
+        "stale": 48,
         "metadata_stale": 2,
         "missing": 0,
         "orphan": 0
       },
       "ko": {
         "total_zh": 794,
-        "fresh": 764,
-        "stale": 29,
+        "fresh": 758,
+        "stale": 35,
         "metadata_stale": 1,
         "missing": 0,
         "orphan": 0
       },
       "es": {
         "total_zh": 794,
-        "fresh": 745,
-        "stale": 47,
+        "fresh": 739,
+        "stale": 53,
         "metadata_stale": 2,
         "missing": 0,
         "orphan": 0
       },
       "fr": {
         "total_zh": 794,
-        "fresh": 756,
-        "stale": 37,
+        "fresh": 750,
+        "stale": 43,
         "metadata_stale": 1,
         "missing": 0,
         "orphan": 0
@@ -1187,10 +1187,10 @@
     },
     "Music/台灣嘻哈與饒舌發展.md": {
       "zh": {
-        "lastCommit": "03195a9f",
-        "lastModified": "2026-06-09T22:15:33+08:00",
-        "contentHash": "sha256:d452da4635bed54e",
-        "bodyHash": "sha256:17177e401ecf2630"
+        "lastCommit": "baa04994",
+        "lastModified": "2026-06-10T10:29:41+08:00",
+        "contentHash": "sha256:84532500594af233",
+        "bodyHash": "sha256:0af60e85ca08457d"
       },
       "translations": {
         "en": {
@@ -1205,7 +1205,7 @@
           "inferred": false,
           "footnoteDefs": 7,
           "status": "stale",
-          "reason": "footnote-loss (54→7)"
+          "reason": "footnote-loss (55→7)"
         },
         "ja": {
           "path": "ja/Music/taiwan-hip-hop-and-rap.md",
@@ -1219,7 +1219,7 @@
           "inferred": false,
           "footnoteDefs": 7,
           "status": "stale",
-          "reason": "footnote-loss (54→7)"
+          "reason": "footnote-loss (55→7)"
         },
         "ko": {
           "path": "ko/Music/taiwan-hip-hop-and-rap.md",
@@ -1233,7 +1233,7 @@
           "inferred": false,
           "footnoteDefs": 7,
           "status": "stale",
-          "reason": "footnote-loss (54→7)"
+          "reason": "footnote-loss (55→7)"
         },
         "es": {
           "path": "es/Music/taiwan-hip-hop-and-rap.md",
@@ -1247,7 +1247,7 @@
           "inferred": false,
           "footnoteDefs": 7,
           "status": "stale",
-          "reason": "footnote-loss (54→7)"
+          "reason": "footnote-loss (55→7)"
         },
         "fr": {
           "path": "fr/Music/hip-hop-rap.md",
@@ -1261,7 +1261,7 @@
           "inferred": false,
           "footnoteDefs": 7,
           "status": "stale",
-          "reason": "footnote-loss (54→7)"
+          "reason": "footnote-loss (55→7)"
         }
       }
     },
@@ -5987,10 +5987,10 @@
     },
     "Economy/夜市經濟學.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:0fad49e81799ba5a",
-        "bodyHash": "sha256:3e5dc2a574d892a7"
+        "lastCommit": "7678a430",
+        "lastModified": "2026-06-10T12:01:13+08:00",
+        "contentHash": "sha256:d707615db91a024a",
+        "bodyHash": "sha256:7e08a20853bbe066"
       },
       "translations": {
         "en": {
@@ -6004,8 +6004,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+22 -0"
         },
         "ja": {
           "path": "ja/Economy/night-market-economics.md",
@@ -6018,8 +6020,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+22 -0"
         },
         "ko": {
           "path": "ko/Economy/night-market-economics.md",
@@ -6032,8 +6036,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+22 -0"
         },
         "es": {
           "path": "es/Economy/night-market-economics.md",
@@ -6046,8 +6052,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+22 -0"
         },
         "fr": {
           "path": "fr/Economy/night-market-economics.md",
@@ -6060,8 +6068,10 @@
           "translationLastModified": "2026-05-25T07:47:04+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+22 -0"
         }
       }
     },
@@ -15267,25 +15277,27 @@
     },
     "Lifestyle/台灣醫療與全民健保.md": {
       "zh": {
-        "lastCommit": "49e065a4",
-        "lastModified": "2026-06-04T19:59:30+08:00",
-        "contentHash": "sha256:176680224548ea6b",
-        "bodyHash": "sha256:2349abd166630d0e"
+        "lastCommit": "7678a430",
+        "lastModified": "2026-06-10T12:01:13+08:00",
+        "contentHash": "sha256:424d9acf698d8930",
+        "bodyHash": "sha256:fe6262a360432251"
       },
       "translations": {
         "en": {
-          "path": "en/Lifestyle/Taiwan Healthcare and National Health Insurance.md",
+          "path": "en/Lifestyle/taiwan-healthcare-and-national-health-insurance.md",
           "translatedFrom": "Lifestyle/台灣醫療與全民健保.md",
           "sourceCommitSha": "49e065a4c",
           "sourceContentHash": "sha256:176680224548ea6b",
           "sourceBodyHash": "sha256:2349abd166630d0e",
           "translatedAt": "2026-06-07T00:37:30+08:00",
-          "translationLastCommit": "5136ed19",
-          "translationLastModified": "2026-06-07T05:26:41+08:00",
+          "translationLastCommit": "3690aff1",
+          "translationLastModified": "2026-06-01T11:17:35+08:00",
           "inferred": false,
           "footnoteDefs": 42,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+30 -0"
         },
         "ja": {
           "path": "ja/Lifestyle/taiwan-healthcare-and-national-health-insurance.md",
@@ -15298,8 +15310,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 42,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+30 -0"
         },
         "ko": {
           "path": "ko/Lifestyle/taiwan-healthcare-and-national-health-insurance.md",
@@ -15312,8 +15326,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 42,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+30 -0"
         },
         "es": {
           "path": "es/Lifestyle/taiwan-healthcare-and-national-health-insurance.md",
@@ -15326,8 +15342,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 42,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+30 -0"
         },
         "fr": {
           "path": "fr/Lifestyle/taiwan-healthcare-and-national-health-insurance.md",
@@ -15340,8 +15358,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 42,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+30 -0"
         }
       }
     },
@@ -15427,10 +15447,10 @@
     },
     "Lifestyle/台灣交通系統.md": {
       "zh": {
-        "lastCommit": "f99a9959",
-        "lastModified": "2026-05-07T12:53:11+08:00",
-        "contentHash": "sha256:9836460c1aa1a78f",
-        "bodyHash": "sha256:c2b8a86142503325"
+        "lastCommit": "7678a430",
+        "lastModified": "2026-06-10T12:01:13+08:00",
+        "contentHash": "sha256:f05e6146f7a532ed",
+        "bodyHash": "sha256:9a046555ce3577ad"
       },
       "translations": {
         "en": {
@@ -15444,8 +15464,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 28,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+22 -0"
         },
         "ja": {
           "path": "ja/Lifestyle/transportation-system.md",
@@ -15472,8 +15494,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 28,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+22 -0"
         },
         "es": {
           "path": "es/Lifestyle/transportation-system.md",
@@ -15486,8 +15510,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 28,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+22 -0"
         },
         "fr": {
           "path": "fr/Lifestyle/transportation-system.md",
@@ -15500,8 +15526,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 28,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+22 -0"
         }
       }
     },
@@ -17027,10 +17055,10 @@
     },
     "Society/台灣與核能的討論.md": {
       "zh": {
-        "lastCommit": "44238bb4",
-        "lastModified": "2026-06-07T17:57:41+08:00",
-        "contentHash": "sha256:61089b2cafb8043c",
-        "bodyHash": "sha256:7313823e73d3fb78"
+        "lastCommit": "7678a430",
+        "lastModified": "2026-06-10T12:01:13+08:00",
+        "contentHash": "sha256:3c2b41ea5e35d05a",
+        "bodyHash": "sha256:b926b1c1f3149aa8"
       },
       "translations": {
         "en": {
@@ -17047,8 +17075,10 @@
           "translationLastModified": "2026-06-09T04:26:56+08:00",
           "inferred": false,
           "footnoteDefs": 52,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+30 -0"
         },
         "ko": {
           "path": "ko/Society/taiwan-nuclear-debate.md",
@@ -17061,8 +17091,10 @@
           "translationLastModified": "2026-06-09T04:26:56+08:00",
           "inferred": false,
           "footnoteDefs": 52,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+30 -0"
         },
         "es": {
           "path": "es/Society/taiwan-nuclear-debate.md",
@@ -17075,8 +17107,10 @@
           "translationLastModified": "2026-06-09T04:26:56+08:00",
           "inferred": false,
           "footnoteDefs": 52,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+30 -0"
         },
         "fr": {
           "path": "fr/Society/taiwan-nuclear-debate.md",
@@ -17085,12 +17119,14 @@
           "sourceContentHash": "sha256:0cf5d58073c426c0",
           "sourceBodyHash": "",
           "translatedAt": "2026-06-10T04:54:23+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "3ff48e95",
+          "translationLastModified": "2026-06-10T06:28:36+08:00",
           "inferred": false,
           "footnoteDefs": 52,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+30 -0"
         }
       }
     },
@@ -18929,8 +18965,8 @@
           "sourceContentHash": "sha256:a7163f389a3db10f",
           "sourceBodyHash": "",
           "translatedAt": "2026-06-10T05:55:06+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "3ff48e95",
+          "translationLastModified": "2026-06-10T06:28:36+08:00",
           "inferred": false,
           "footnoteDefs": 25,
           "status": "fresh",
@@ -19500,10 +19536,10 @@
     },
     "Society/國宅與居住正義.md": {
       "zh": {
-        "lastCommit": "e1dc9d48",
-        "lastModified": "2026-06-06T15:52:30+08:00",
-        "contentHash": "sha256:d77f1b1d6c027fc4",
-        "bodyHash": "sha256:363d88d4e015f7ab"
+        "lastCommit": "7678a430",
+        "lastModified": "2026-06-10T12:01:13+08:00",
+        "contentHash": "sha256:1b571a2f0b3e267b",
+        "bodyHash": "sha256:81a883992eb755dc"
       },
       "translations": {
         "en": {
@@ -19517,8 +19553,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 27,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+30 -0"
         },
         "ja": {
           "path": "ja/Society/public-housing-justice.md",
@@ -19531,8 +19569,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 27,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+30 -0"
         },
         "ko": {
           "path": "ko/Society/public-housing-justice.md",
@@ -19545,8 +19585,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 27,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+30 -0"
         },
         "es": {
           "path": "es/Society/public-housing-justice.md",
@@ -19559,8 +19601,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 27,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+30 -0"
         },
         "fr": {
           "path": "fr/Society/public-housing-justice.md",
@@ -19573,8 +19617,10 @@
           "translationLastModified": "2026-06-07T05:26:41+08:00",
           "inferred": false,
           "footnoteDefs": 27,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+30 -0"
         }
       }
     },
@@ -20133,8 +20179,8 @@
           "sourceContentHash": "sha256:cdc34bf666aa8587",
           "sourceBodyHash": "sha256:d2136eb2eef002a6",
           "translatedAt": "2026-06-10T00:42:15+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "3ff48e95",
+          "translationLastModified": "2026-06-10T06:28:36+08:00",
           "inferred": false,
           "footnoteDefs": 23,
           "status": "fresh",
@@ -21399,8 +21445,8 @@
           "sourceContentHash": "sha256:b414878c293e15ed",
           "sourceBodyHash": "",
           "translatedAt": "2026-06-10T05:06:03+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "3ff48e95",
+          "translationLastModified": "2026-06-10T06:28:36+08:00",
           "inferred": false,
           "footnoteDefs": 22,
           "status": "fresh",
@@ -21413,8 +21459,8 @@
           "sourceContentHash": "sha256:b414878c293e15ed",
           "sourceBodyHash": "",
           "translatedAt": "2026-06-10T06:12:57+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "3ff48e95",
+          "translationLastModified": "2026-06-10T06:28:36+08:00",
           "inferred": false,
           "footnoteDefs": 22,
           "status": "fresh",
@@ -22053,8 +22099,8 @@
           "sourceContentHash": "sha256:dd07e19819f70f92",
           "sourceBodyHash": "",
           "translatedAt": "2026-06-10T04:00:49+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "3ff48e95",
+          "translationLastModified": "2026-06-10T06:28:36+08:00",
           "inferred": false,
           "footnoteDefs": 36,
           "status": "fresh",
@@ -27124,10 +27170,10 @@
     },
     "Politics/2026 九合一選舉.md": {
       "zh": {
-        "lastCommit": "e957cf7f",
-        "lastModified": "2026-05-27T21:34:49+08:00",
-        "contentHash": "sha256:bbf5a4ef25418f82",
-        "bodyHash": "sha256:411e53aa2fba684f"
+        "lastCommit": "7678a430",
+        "lastModified": "2026-06-10T12:01:13+08:00",
+        "contentHash": "sha256:f2f73e655df4bef5",
+        "bodyHash": "sha256:b17fcd6aed7e9299"
       },
       "translations": {
         "en": {
@@ -27141,8 +27187,10 @@
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "footnoteDefs": 24,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+22 -0"
         },
         "ja": {
           "path": "ja/Politics/2026-local-elections-taiwan.md",
@@ -27155,8 +27203,10 @@
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "footnoteDefs": 24,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+22 -0"
         },
         "ko": {
           "path": "ko/Politics/2026-local-elections-taiwan.md",
@@ -27169,8 +27219,10 @@
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "footnoteDefs": 24,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+22 -0"
         },
         "es": {
           "path": "es/Politics/2026-local-elections-taiwan.md",
@@ -27183,8 +27235,10 @@
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "footnoteDefs": 24,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+22 -0"
         },
         "fr": {
           "path": "fr/Politics/2026-local-elections-taiwan.md",
@@ -27197,8 +27251,10 @@
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "footnoteDefs": 24,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+22 -0"
         }
       }
     },
@@ -32891,8 +32947,8 @@
           "sourceContentHash": "sha256:1931764847aac8b9",
           "sourceBodyHash": "",
           "translatedAt": "2026-06-10T05:22:55+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "3ff48e95",
+          "translationLastModified": "2026-06-10T06:28:36+08:00",
           "inferred": false,
           "footnoteDefs": 42,
           "status": "fresh",
@@ -42039,70 +42095,70 @@
       },
       "translations": {
         "en": {
-          "path": "en/People/shen-wen-cheng.md",
+          "path": "en/People/shen-wencheng.md",
           "translatedFrom": "People/沈文程.md",
           "sourceCommitSha": "b48dde0cd",
           "sourceContentHash": "sha256:bdd54d293989cf15",
           "sourceBodyHash": "sha256:9a3851545dcaaf3c",
-          "translatedAt": "2026-05-12T11:51:04+08:00",
-          "translationLastCommit": "710e95ff",
-          "translationLastModified": "2026-05-12T12:42:44+08:00",
+          "translatedAt": "2026-05-12T21:49:54+08:00",
+          "translationLastCommit": "09eee019",
+          "translationLastModified": "2026-05-12T22:47:09+08:00",
           "inferred": false,
           "footnoteDefs": 9,
           "status": "fresh",
           "reason": "same-commit"
         },
         "ja": {
-          "path": "ja/People/shen-wen-cheng.md",
+          "path": "ja/People/shen-wencheng.md",
           "translatedFrom": "People/沈文程.md",
           "sourceCommitSha": "b48dde0cd",
           "sourceContentHash": "sha256:bdd54d293989cf15",
           "sourceBodyHash": "sha256:9a3851545dcaaf3c",
-          "translatedAt": "2026-05-12T11:51:04+08:00",
-          "translationLastCommit": "710e95ff",
-          "translationLastModified": "2026-05-12T12:42:44+08:00",
+          "translatedAt": "2026-05-12T21:49:54+08:00",
+          "translationLastCommit": "09eee019",
+          "translationLastModified": "2026-05-12T22:47:09+08:00",
           "inferred": false,
           "footnoteDefs": 9,
           "status": "fresh",
           "reason": "same-commit"
         },
         "ko": {
-          "path": "ko/People/shen-wen-cheng.md",
+          "path": "ko/People/shen-wencheng.md",
           "translatedFrom": "People/沈文程.md",
           "sourceCommitSha": "b48dde0cd",
           "sourceContentHash": "sha256:bdd54d293989cf15",
           "sourceBodyHash": "sha256:9a3851545dcaaf3c",
-          "translatedAt": "2026-05-12T11:51:04+08:00",
-          "translationLastCommit": "710e95ff",
-          "translationLastModified": "2026-05-12T12:42:44+08:00",
+          "translatedAt": "2026-05-12T21:49:54+08:00",
+          "translationLastCommit": "09eee019",
+          "translationLastModified": "2026-05-12T22:47:09+08:00",
           "inferred": false,
           "footnoteDefs": 9,
           "status": "fresh",
           "reason": "same-commit"
         },
         "es": {
-          "path": "es/People/shen-wen-cheng.md",
+          "path": "es/People/shen-wencheng.md",
           "translatedFrom": "People/沈文程.md",
           "sourceCommitSha": "b48dde0cd",
           "sourceContentHash": "sha256:bdd54d293989cf15",
           "sourceBodyHash": "sha256:9a3851545dcaaf3c",
-          "translatedAt": "2026-05-12T11:51:05+08:00",
-          "translationLastCommit": "710e95ff",
-          "translationLastModified": "2026-05-12T12:42:44+08:00",
+          "translatedAt": "2026-05-12T21:49:55+08:00",
+          "translationLastCommit": "09eee019",
+          "translationLastModified": "2026-05-12T22:47:09+08:00",
           "inferred": false,
           "footnoteDefs": 9,
           "status": "fresh",
           "reason": "same-commit"
         },
         "fr": {
-          "path": "fr/People/shen-wen-cheng.md",
+          "path": "fr/People/shen-wencheng.md",
           "translatedFrom": "People/沈文程.md",
           "sourceCommitSha": "b48dde0cd",
           "sourceContentHash": "sha256:bdd54d293989cf15",
           "sourceBodyHash": "sha256:9a3851545dcaaf3c",
-          "translatedAt": "2026-05-12T11:51:05+08:00",
-          "translationLastCommit": "710e95ff",
-          "translationLastModified": "2026-05-12T12:42:44+08:00",
+          "translatedAt": "2026-05-12T21:49:55+08:00",
+          "translationLastCommit": "09eee019",
+          "translationLastModified": "2026-05-12T22:47:09+08:00",
           "inferred": false,
           "footnoteDefs": 9,
           "status": "fresh",

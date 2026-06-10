@@ -70,7 +70,7 @@ The second was ETFs. In June 2003, Yuanta Securities Investment Trust issued 005
 
 The third was larger than the first two combined: TSMC.
 
-One cannot discuss Taiwan’s stock market in 2026 without discussing [Taiwanese Company: TSMC](/en/Economy/tsmc-taiwan-semiconductor/). Taiwan’s stock market is like the solar system, and TSMC is the sun. **As of March 10, 2026, TSMC’s weight in the capitalization-weighted index had reached 45.0041%**[^TWSE權重]. When its share price was around NT$2,265, every one-dollar movement in this single stock moved the broader index by about 8 points[^TWSE權重].
+One cannot discuss Taiwan’s stock market in 2026 without discussing [Taiwanese Company: TSMC](/en/Economy/tsmc/). Taiwan’s stock market is like the solar system, and TSMC is the sun. **As of March 10, 2026, TSMC’s weight in the capitalization-weighted index had reached 45.0041%**[^TWSE權重]. When its share price was around NT$2,265, every one-dollar movement in this single stock moved the broader index by about 8 points[^TWSE權重].
 
 Calling this “an important constituent stock” would seriously understate the proportion. It had already become the market itself.
 

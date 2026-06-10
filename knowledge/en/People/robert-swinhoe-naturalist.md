@@ -88,7 +88,7 @@ Swinhoe's Softshell Turtle (Rafetus swinhoei) took a different path. Named in 18
 
 ## The Byproducts of Diplomacy
 
-Swinhoe left more to Taiwan than just specimens. In 1862 he wrote the "Report on the Island of Formosa" for 1862, assessing the export potential of Taiwanese tea.[^16] This report indirectly attracted Scottish merchant John Dodd to Taiwan. Dodd imported tea seedlings from Anxi, and in 1869 shipped 2,131 piculs of Taiwanese oolong tea directly to New York for the first time, under the label "Choicest Formosa Oolong Tea" — the starting point of [Taiwan's tea export industry (茶文化)](/en/food/tea-culture/) traces back to a naturalist's trade report.
+Swinhoe left more to Taiwan than just specimens. In 1862 he wrote the "Report on the Island of Formosa" for 1862, assessing the export potential of Taiwanese tea.[^16] This report indirectly attracted Scottish merchant John Dodd to Taiwan. Dodd imported tea seedlings from Anxi, and in 1869 shipped 2,131 piculs of Taiwanese oolong tea directly to New York for the first time, under the label "Choicest Formosa Oolong Tea" — the starting point of [Taiwan's tea export industry (茶文化)](/en/food/golden-age-echoes-taiwan-tea-culture/) traces back to a naturalist's trade report.
 
 In 1864, he published two short pieces in Scientific American: one on Taiwan camphor, one on the rice-paper plant (Tetrapanax papyrifer), the raw material for Xuan paper.[^17] Camphor later ignited the 1868 international trade dispute, when the trading house Elles & Co. had smuggled camphor impounded by Qing authorities; Swinhoe briefly returned to Taiwan to handle the matter, and both sides signed the Camphor Regulations, ending the monopoly.
 

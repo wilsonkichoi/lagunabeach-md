@@ -182,7 +182,7 @@ La fréquence de révision constitutionnelle dans les démocraties n'est génér
 
 ## Pourquoi ce chiffre est important
 
-En élargissant encore la perspective, dans les récits de la [démocratisation](/fr/History/taiwan-democratization-history/) et de la [transition démocratique taïwanaise](/fr/History/democratic-transition/), le seuil du droit de vote est souvent traité comme une « question formelle » — moins visible que l'équité électorale, l'alternance politique ou la liberté de la presse. Mais ce seuil d'âge touche à la ** définition fondamentale de « qui est citoyen »** :
+En élargissant encore la perspective, dans les récits de la [démocratisation](/fr/History/taiwan-democratization-history/) et de la [transition démocratique taïwanaise](/fr/History/taiwan-democratization/), le seuil du droit de vote est souvent traité comme une « question formelle » — moins visible que l'équité électorale, l'alternance politique ou la liberté de la presse. Mais ce seuil d'âge touche à la ** définition fondamentale de « qui est citoyen »** :
 
 - Le seuil de 20 ans signifie que la société taïwanaise considère par défaut que les jeunes de 18-19 ans « **ne sont pas encore des citoyens politiques à part entière** »
 - Or ces mêmes personnes sont **déjà des sujets de responsabilité civile à part entière, des sujets de responsabilité pénale, des contribuables, des assujettis au service militaire**
@@ -200,7 +200,7 @@ L'échelle de temps des institutions démocratiques est plus longue qu'une gén�
 - Élections unifiées 2026 (2026 九合一選舉) : calendrier, nominations et suivi des enjeux de ces élections
 - [Mouvement des tournesols](/fr/Society/sunflower-movement/) : l'événement emblématique de l'éveil de la conscience politique des jeunes générations en 2014
 - [Démocratisation](/fr/History/taiwan-democratization-history/) : la structure à long terme de la démocratisation de Taïwan d'après-guerre
-- [Transition démocratique taïwanaise](/fr/History/democratic-transition/) : la transition institutionnelle de l'autoritarisme à la démocratie
+- [Transition démocratique taïwanaise](/fr/History/taiwan-democratization/) : la transition institutionnelle de l'autoritarisme à la démocratie
 - Portail politique : panorama des connaissances sur le système politique taïwanais
 
 ---

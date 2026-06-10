@@ -4,7 +4,15 @@ description: 'In June 1981, a business magazine called CommonWealth launched on 
 date: 2026-06-04
 category: 'Society'
 tags:
-  ['media', 'business media', 'CommonWealth Magazine', 'Diane Ying', 'press freedom', 'publishing', 'media and journalism']
+  [
+    'media',
+    'business media',
+    'CommonWealth Magazine',
+    'Diane Ying',
+    'press freedom',
+    'publishing',
+    'media and journalism',
+  ]
 subcategory: '媒體與新聞'
 author: 'Taiwan.md'
 featured: true
@@ -45,7 +53,7 @@ On June 1, 1981, CommonWealth launched. Its first edition of 10,000 copies sold 
 ## "Serving the nation as scholars" — and a trap hiding in a name
 
 ![CommonWealth Magazine's logo, white characters on black — the characters 天下 drawn from Sun Yat-sen's calligraphy](/article-images/society/commonwealth-logo.svg)
-_CommonWealth Magazine's logo. The characters 天下 (_tiānxià_) are drawn from Sun Yat-sen's calligraphy "天下為公" (_tiānxià wèi gōng_ — "All under heaven belongs to the public"). Logo: CommonWealth Magazine. [Public domain (PD-textlogo) via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:CommonWealth_Magazine_logo.svg)._
+_CommonWealth Magazine's logo. The characters 天下 (\_tiānxià_) are drawn from Sun Yat-sen's calligraphy "天下為公" (_tiānxià wèi gōng_ — "All under heaven belongs to the public"). Logo: CommonWealth Magazine. [Public domain (PD-textlogo) via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:CommonWealth_Magazine_logo.svg).\_
 
 The title _tiānxià_ (天下 — "all under heaven") is drawn from Sun Yat-sen's calligraphy "天下為公"; the English name "Common Wealth" carries a double meaning: it evokes both "commonwealth" (a union of states, shared governance) and "wealth that belongs to everyone"[^10]. A magazine primarily covering private capital and corporate wealth, carrying a name that speaks of the public good and the common horizon. That tension has always been there.
 
@@ -177,7 +185,7 @@ Diane Ying once borrowed a pair of jeans to visit Eileen Chang in Cambridge, and
 - [PTS — Public Television Service](/en/society/pts-public-television-service/) — Taiwan's other path for public media: using public funding rather than market mechanisms to answer the same question of "who should media be accountable to?"
 - [Taiwan Media and Press Freedom](/en/society/media-and-press-freedom-in-taiwan/) — The removed-article incident, the trust rankings, and the PRC information-warfare backdrop are all embedded in the broader context of Taiwan's press freedom.
 - [Taiwan's Top 50 Companies](/en/economy/top-50-companies-taiwan/) — The companies that CommonWealth's "Top 2000" and "Top 50 Conglomerates" rankings define and measure are the protagonists behind those lists.
-- [TSMC — Taiwan Semiconductor Manufacturing Company](/en/economy/tsmc-taiwan-semiconductor/) — The company that consistently tops CommonWealth's Benchmark Enterprises and Top 50 rankings — and one of the most important sponsors of its education foundation.
+- [TSMC — Taiwan Semiconductor Manufacturing Company](/en/economy/tsmc/) — The company that consistently tops CommonWealth's Benchmark Enterprises and Top 50 rankings — and one of the most important sponsors of its education foundation.
 
 ## Image Credits
 
