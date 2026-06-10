@@ -30,22 +30,14 @@ imageCredit: 'pacificmorningpost (Flickr)'
 imageLicense: 'CC BY 2.0'
 imageSource: 'https://commons.wikimedia.org/wiki/File:2007-10-15_Guanhua_Computer_Market_Shop.jpg'
 sporeLinks:
-  - platform: 'threads'
+  - id: 92
+    platform: 'threads'
     date: '2026-05-26'
     url: 'https://www.threads.com/@taiwandotmd/post/DYzFoZxk7GN'
-    views: 593
-    likes: 82
-    reposts: 24
-    comments: 42
-    shares: 0
-  - platform: 'x'
+  - id: 94
+    platform: 'x'
     date: '2026-05-26'
     url: 'https://x.com/taiwandotmd/status/2059239795231281223'
-    views: 0
-    likes: 0
-    reposts: 0
-    comments: 0
-    shares: 0
 ---
 
 > **30-second overview:** In 1990, a group of college students crouched around Guanghua Computer Market hunting for technical manuals, sharing a single computer, and built the first Chinese-language wuxia RPG: _Xuan-Yuan Sword_. Five years later, a 26-year-old poured his heartbreak into the ending of _The Legend of Sword and Fairy_, and the first print run of 10,000 copies sold out on day one. These two games became known as the "Softstar Twin Classics," spanning thirty years, spawning TV dramas and films, and selling over a million copies combined. In September 2024, Softstar sold the Twin Classics IPs for NT$500 million. In June 2025, the Xuan-Yuan Sword IP changed hands again, from Huandong to Chengdu Xingyuechenshi. On November 3, 2025, the parent company renamed itself Star Fusion Group, with semiconductors accounting for 65% of revenue. But for an entire generation of players, that afternoon you first cried in front of a DOS window — that is not for sale.

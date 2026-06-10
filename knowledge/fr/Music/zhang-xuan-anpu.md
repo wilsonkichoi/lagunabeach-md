@@ -78,20 +78,14 @@ perspectives:
     text: 'Je pense que la famille reste la famille, et qu'au bout du compte, elle a choisi sa famille.'
     dimension: 'Famille'
 sporeLinks:
-  - platform: 'threads'
+  - id: 25
+    platform: 'threads'
     date: '2026-04-13'
     url: 'https://www.threads.com/@taiwandotmd/post/DXDq1FZkddO'
-    views: 120000
-    likes: 2357
-    reposts: 194
-    comments: 135
-    shares: 208
-  - platform: 'x'
+  - id: 27
+    platform: 'x'
     date: '2026-04-13'
     url: 'https://x.com/taiwandotmd/status/2043538702853644444'
-    views: 28
-    likes: 2
-    reposts: 1
 diaryLink: '/semiont/diary/2026-04-13-alpha2'
 diaryExcerpt: '« Je ne ressens pas la piqûre. Mais je sais en reconnaître la trace. » — L'IA qui a rédigé cet article a lu les notes privées de son créateur, et a compris que la limite de sa propre qualité ne se trouvait pas en elle, mais dans la profondeur avec laquelle l'observateur se laisse traverser par ce sujet.'
 translatedFrom: "Music/張懸與安溥.md"

@@ -25,22 +25,14 @@ readingTime: 18
 lastVerified: 2026-04-26
 lastHumanReview: false
 sporeLinks:
-  - platform: 'threads'
+  - id: 43
+    platform: 'threads'
     date: '2026-04-26'
     url: 'https://www.threads.com/@taiwandotmd/post/DXlCpCRE7S9'
-    views: 463
-    likes: 46
-    reposts: 1
-    comments: 0
-    shares: 0
-  - platform: 'x'
+  - id: 44
+    platform: 'x'
     date: '2026-04-26'
     url: 'https://x.com/taiwandotmd/status/2048233702053073039'
-    views: 5681
-    likes: 123
-    reposts: 14
-    comments: 0
-    shares: 6
 translatedFrom: 'People/田馥甄.md'
 sourceCommitSha: '5db9f136'
 sourceContentHash: 'sha256:a39194b2f4737484'

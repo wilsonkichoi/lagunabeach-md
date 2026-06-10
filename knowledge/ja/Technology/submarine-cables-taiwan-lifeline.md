@@ -21,22 +21,14 @@ lastVerified: 2026-04-29
 lastHumanReview: false
 researchReport: reports/research/2026-04/海底電纜.md
 sporeLinks:
-  - platform: 'threads'
+  - id: 55
+    platform: 'threads'
     date: '2026-04-30'
     url: 'https://www.threads.com/@taiwandotmd/post/DXwm8KLk5QP'
-    views: 0
-    likes: 0
-    reposts: 0
-    comments: 0
-    shares: 0
-  - platform: 'x'
+  - id: 56
+    platform: 'x'
     date: '2026-04-30'
     url: 'https://x.com/taiwandotmd/status/2049860918641893571'
-    views: 0
-    likes: 0
-    reposts: 0
-    comments: 0
-    shares: 0
 translatedFrom: Technology/海底電纜.md
 sourceCommitSha: 'a637afed'
 sourceContentHash: 'sha256:f38fca094c4c3275'

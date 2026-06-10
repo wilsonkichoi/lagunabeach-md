@@ -26,22 +26,14 @@ sourceContentHash: 'sha256:380deba2111b675e'
 sourceBodyHash: 'sha256:53132f584b9b6657'
 translatedAt: '2026-05-01T14:48:26+08:00'
 sporeLinks:
-  - platform: 'threads'
+  - id: 41
+    platform: 'threads'
     date: '2026-04-23'
     url: 'https://www.threads.com/@taiwandotmd/post/DXdyoqkEdma'
-    views: 2138
-    likes: 257
-    reposts: 29
-    comments: 5
-    shares: 4
-  - platform: 'x'
+  - id: 42
+    platform: 'x'
     date: '2026-04-23'
     url: 'https://x.com/taiwandotmd/status/2047213679826149450'
-    views: 24435
-    likes: 1417
-    reposts: 345
-    comments: 20
-    shares: 50
 ---
 
 > **30秒概覧：**

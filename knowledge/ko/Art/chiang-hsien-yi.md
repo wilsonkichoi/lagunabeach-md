@@ -29,7 +29,8 @@ lastVerified: 2026-05-22
 lastHumanReview: false
 featured: true
 sporeLinks:
-  - platform: 'threads'
+  - id: 91
+    platform: 'threads'
     date: '2026-05-25'
     url: 'https://www.threads.com/@taiwandotmd/post/DYwhhzFgfe0'
 translatedFrom: 'Art/江賢二.md'

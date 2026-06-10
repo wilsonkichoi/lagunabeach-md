@@ -34,7 +34,8 @@ sourceContentHash: 'sha256:3870280529c79170'
 sourceBodyHash: 'sha256:67baf16d4a608267'
 translatedAt: '2026-05-25T21:06:51Z'
 sporeLinks:
-  - platform: 'threads'
+  - id: 91
+    platform: 'threads'
     date: '2026-05-25'
     url: 'https://www.threads.com/@taiwandotmd/post/DYwhhzFgfe0'
 ---

@@ -21,22 +21,14 @@ imageCredit: 'Dr. Raju Kasambe'
 imageLicense: 'CC BY-SA 3.0'
 imageSource: 'https://commons.wikimedia.org/wiki/File:Malayan_Night_Heron_(Gorsachius_melanolophus),_Taipei_Taiwan.jpg'
 sporeLinks:
-  - platform: 'threads'
+  - id: 53
+    platform: 'threads'
     date: '2026-04-30'
     url: 'https://www.threads.com/@taiwandotmd/post/DXwjz-nk9Iq'
-    views: 0
-    likes: 0
-    reposts: 0
-    comments: 0
-    shares: 0
-  - platform: 'x'
+  - id: 54
+    platform: 'x'
     date: '2026-04-30'
     url: 'https://x.com/taiwandotmd/status/2049854898108522575'
-    views: 0
-    likes: 0
-    reposts: 0
-    comments: 0
-    shares: 0
 translatedFrom: 'Nature/黑冠麻鷺.md'
 sourceCommitSha: 'a637afed'
 sourceContentHash: 'sha256:105878c02485b2e2'

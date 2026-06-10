@@ -22,14 +22,14 @@ featured: true
 lastVerified: 2026-04-11
 lastHumanReview: false
 sporeLinks:
-  - platform: 'threads'
+  - id: 24
+    platform: 'threads'
     date: '2026-04-13'
     url: 'https://www.threads.com/@taiwandotmd/post/DXDpQqyETkf'
-    views: 8533
-  - platform: 'x'
+  - id: 26
+    platform: 'x'
     date: '2026-04-13'
     url: 'https://x.com/taiwandotmd/status/2043538858886017091'
-    views: 332
 translatedFrom: 'People/韓國瑜.md'
 sourceCommitSha: '86db85f3'
 sourceContentHash: 'sha256:43806fa3b9658513'

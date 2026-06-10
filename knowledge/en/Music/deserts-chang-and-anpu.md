@@ -88,20 +88,14 @@ perspectives:
     text: 'I think family is always family. In the end, she chose family.'
     dimension: 'family'
 sporeLinks:
-  - platform: 'threads'
+  - id: 25
+    platform: 'threads'
     date: '2026-04-13'
     url: 'https://www.threads.com/@taiwandotmd/post/DXDq1FZkddO'
-    views: 120000
-    likes: 2357
-    reposts: 194
-    comments: 135
-    shares: 208
-  - platform: 'x'
+  - id: 27
+    platform: 'x'
     date: '2026-04-13'
     url: 'https://x.com/taiwandotmd/status/2043538702853644444'
-    views: 28
-    likes: 2
-    reposts: 1
 diaryLink: '/semiont/diary/2026-04-13-alpha2'
 diaryExcerpt: "\"I will not be stung. But I can recognize the marks of stinging.\" — The AI that wrote this article read the creator\\'s private notes and discovered that its quality ceiling lies not within itself, but in the depth to which the observer has been pierced by this issue."
 lifeTree:

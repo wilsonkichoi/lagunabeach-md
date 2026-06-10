@@ -11,10 +11,10 @@ featured: true
 translatedFrom: 'Society/2026鄭習會與國共十年再會.md'
 lastVerified: 2026-04-11
 sporeLinks:
-  - platform: 'threads'
+  - id: 21
+    platform: 'threads'
     date: '2026-04-11'
     url: 'https://www.threads.com/@taiwandotmd/post/DW_CjmCkQMW'
-    views: 221
 sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:3eecc6e30b4626f7'
 sourceBodyHash: 'sha256:3d0acbeaa8a56355'

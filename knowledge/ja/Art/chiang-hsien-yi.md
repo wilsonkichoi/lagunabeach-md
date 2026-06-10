@@ -30,7 +30,8 @@ lastHumanReview: false
 featured: true
 translatedFrom: 'Art/江賢二.md'
 sporeLinks:
-  - platform: 'threads'
+  - id: 91
+    platform: 'threads'
     date: '2026-05-25'
     url: 'https://www.threads.com/@taiwandotmd/post/DYwhhzFgfe0'
 sourceCommitSha: '3951afb0'

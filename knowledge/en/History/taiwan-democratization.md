@@ -1,40 +1,40 @@
 ---
 title: "Taiwan's Democratic Transformation — The Authoritarian Regime's Self‑Digged Grave"
-description: "Every crackdown creates more resisters. From the 228 Incident to the Sunflower Movement, how does an island enable a dictatorial system to cultivate the very forces that will bury it?"
+description: 'Every crackdown creates more resisters. From the 228 Incident to the Sunflower Movement, how does an island enable a dictatorial system to cultivate the very forces that will bury it?'
 date: 2026-03-24
-category: "History"
+category: 'History'
 tags:
-  - "Democracy"
-  - "Transitional Justice"
-  - "Political History"
-  - "Human Rights"
-  - "Social Movements"
-subcategory: "民主與治理"
-author: "Taiwan.md"
+  - 'Democracy'
+  - 'Transitional Justice'
+  - 'Political History'
+  - 'Human Rights'
+  - 'Social Movements'
+subcategory: '民主與治理'
+author: 'Taiwan.md'
 featured: true
 lastVerified: 2026-04-07
 lastHumanReview: true
 sporeLinks:
-  - platform: "threads"
-    date: "2026-04-07"
-    url: "https://www.threads.com/@taiwandotmd/post/DW1ba_tEz5D"
-    views: 274
-    comments: 0
+  - id: 10
+    platform: 'threads'
+    date: '2026-04-07'
+    url: 'https://www.threads.com/@taiwandotmd/post/DW1ba_tEz5D'
 translatedFrom: History/台灣民主轉型.md
 sourceCommitSha: 3ec013e64
 sourceContentHash: sha256:85252455c0ed43e6
 sourceBodyHash: sha256:5c7fc1f11ad28097
 translatedAt: 2026-05-18T05:08:07+08:00
 ---
+
 # Taiwan's Democratic Transformation — The Authoritarian Regime's Self‑Digged Grave
 
-On the morning of April 7, 1989, two hundred police officers surrounded the *Freedom Times Weekly* magazine office on Minquan East Road in Taipei. Forty‑one‑year‑old Cheng Nan‑Jung had been self‑imprisoned in the chief editor’s office for seventy‑one days, refusing to appear in court on a “suspected rebellion” charge.[^1] When the SWAT team burst in, he ignited pre‑prepared gasoline, self‑immolating in response to a subpoena.
+On the morning of April 7, 1989, two hundred police officers surrounded the _Freedom Times Weekly_ magazine office on Minquan East Road in Taipei. Forty‑one‑year‑old Cheng Nan‑Jung had been self‑imprisoned in the chief editor’s office for seventy‑one days, refusing to appear in court on a “suspected rebellion” charge.[^1] When the SWAT team burst in, he ignited pre‑prepared gasoline, self‑immolating in response to a subpoena.
 
 Seven months later, the Berlin Wall fell. Eight years later, Taiwan elected its first directly elected president. Eleven years later, the party behind that subpoena lost power.
 
 Cheng’s wife, Yeh Ju‑Lan, came from an advertising background and had never entered politics. Eight months after her husband’s death, she ran for a legislative seat in his stead. Her campaign slogan was: “Children, fight a holy war with me as a mother!”[^1] She won by a large margin. Fifteen years later, she became Vice Premier of the Executive Yuan.
 
-> **30‑second overview:** Taiwan spent forty years moving from the world’s longest martial law to the most free democratic system in Asia, with almost no bloodshed. Not because rulers were benevolent, but because every crackdown backfired: the 228 Incident created silent resisters, the *Formosa* trial put defense lawyers on the political stage, and Cheng’s fire made freedom of speech an irreversible bottom line. The most ironic legacy of authoritarianism is that it trained the very people who would bury it.
+> **30‑second overview:** Taiwan spent forty years moving from the world’s longest martial law to the most free democratic system in Asia, with almost no bloodshed. Not because rulers were benevolent, but because every crackdown backfired: the 228 Incident created silent resisters, the _Formosa_ trial put defense lawyers on the political stage, and Cheng’s fire made freedom of speech an irreversible bottom line. The most ironic legacy of authoritarianism is that it trained the very people who would bury it.
 
 ## The Seed of Trauma: The Round‑about Shooting (1947)
 
@@ -44,7 +44,7 @@ A single pack of contraband cigarettes ignited the whole island.
 
 The following day, crowds surrounded the Office of the Governor‑General to petition; guards opened fire from a balcony. Protests spread across Taiwan. On March 8, the 21st Army landed in Keelung and began a “clear‑the‑village” operation. Casualty figures remain disputed; a 2006 Executive Yuan report estimated deaths between 18,000 and 28,000.[^3] Intellectuals, doctors, lawyers, and local gentry were systematically purged.
 
-> “They did not kill thugs; they killed an entire generation that could have led Taiwan.” — Wu Zhuoliu, *The Fig Tree*
+> “They did not kill thugs; they killed an entire generation that could have led Taiwan.” — Wu Zhuoliu, _The Fig Tree_
 
 The direct effect of the 228 Incident was fear. The indirect effect implanted an indelible question in an entire generation’s memory: **Why can’t we decide our own fate?**
 
@@ -54,7 +54,7 @@ The authoritarian regime made a fatal mistake: it assumed silence equaled obedie
 
 ## The Most Expensive Talent‑Training Class of the Regime (1979‑1980)
 
-On December 10, 1979, International Human Rights Day, the *Formosa* magazine organized a rally in Kaohsiung. Authorities denied permission, yet about twenty‑thousand people gathered anyway. After dark, riot police surrounded the venue, deploying tear gas and batons.[^5]
+On December 10, 1979, International Human Rights Day, the _Formosa_ magazine organized a rally in Kaohsiung. Authorities denied permission, yet about twenty‑thousand people gathered anyway. After dark, riot police surrounded the venue, deploying tear gas and batons.[^5]
 
 A massive arrest followed. Eight activists—including Huang Hsin‑Chieh, Shih Ming‑Te, Lu Hsiu‑Lien, Chen Ju, Lin Yi‑Hsiung, Yao Chia‑Wen, Chang Chun‑Hung, and Lin Hong‑Hsuan—were tried for “rebellion” in military courts.
 
@@ -63,7 +63,7 @@ Then the regime made a second mistake: it decided to hold public trials.
 On March 18, 1980, a nine‑day military trial unfolded under the glare of domestic and foreign media. Fifteen defense lawyers (including Chen Shui‑Bian, Hsieh Chang‑ting, Su Tseng‑chang, and Chang Chun‑hsiong) became overnight stars for their courtroom performance.[^6] The government hoped a public trial would intimidate, but instead it created a generation of future leaders. Twenty years later, among those lawyers were a president and three premiers.
 
 > **📝 Curator’s Note**  
-> One of the *Formosa* defendants, Chen Ju, wrote a farewell letter at age twenty‑nine while in prison. It was addressed not to family but to the people of Taiwan, quoting the Epistle to the Philippians: “I have fought the good fight.”[^19] She expected execution. Forty‑one years later, the former political prisoner became President of the Control Yuan, overseeing investigations of governmental wrongdoing.
+> One of the _Formosa_ defendants, Chen Ju, wrote a farewell letter at age twenty‑nine while in prison. It was addressed not to family but to the people of Taiwan, quoting the Epistle to the Philippians: “I have fought the good fight.”[^19] She expected execution. Forty‑one years later, the former political prisoner became President of the Control Yuan, overseeing investigations of governmental wrongdoing.
 
 On February 28, 1980, the 33rd anniversary of the 228 Incident, Lin Yi‑Hsiung’s mother and seven‑year‑old twin daughters were murdered at home; the eldest daughter was seriously injured.[^7] The case remains unsolved. This bloodshed made more Taiwanese realize that authoritarian rule was not an abstract political issue—it could break into your home and kill your children.
 
@@ -75,13 +75,13 @@ The Taiwanese government assassinated a U.S. citizen on American soil.
 
 Washington was outraged, briefly threatening to cut off arms sales. Chiang Ching‑kuo was forced to hand over Wang and two others for trial. The Jiangnan case forced Chiang to confront a cold calculation: the cost of continuing authoritarian rule now exceeded the cost of opening up.
 
-> “Changes in the international environment stripped Taiwan’s authoritarian rule of legitimacy. Democratic transition was not a gift but an inevitable choice under internal and external pressure.” — Larry Diamond, *Taiwan: A Democratic Success Story*[^9]
+> “Changes in the international environment stripped Taiwan’s authoritarian rule of legitimacy. Democratic transition was not a gift but an inevitable choice under internal and external pressure.” — Larry Diamond, _Taiwan: A Democratic Success Story_[^9]
 
 ## “Arresting People Won’t Solve the Problem” (1986‑1987)
 
 On September 28, 1986, the Democratic Progressive Party was illegally founded at the Yuanshan Hotel in Taipei. Police headquarters delivered an arrest list. Chiang Ching‑kuo’s response was six words: **“Arresting people won’t solve the problem.”**[^20] He set the list aside.
 
-In January 1987, Chiang gave an exclusive interview to *The Washington Post* publisher Michael Morrison, announcing the lifting of martial law and the opening of party formation. Thirty‑six‑year‑old Ma Ying‑jeou, serving as translator, later recalled: “My scalp tingled, it felt like electricity ran through my whole body.”[^20]
+In January 1987, Chiang gave an exclusive interview to _The Washington Post_ publisher Michael Morrison, announcing the lifting of martial law and the opening of party formation. Thirty‑six‑year‑old Ma Ying‑jeou, serving as translator, later recalled: “My scalp tingled, it felt like electricity ran through my whole body.”[^20]
 
 Why lift martial law? Not conscience. The Jiangnan case had ruined Taiwan’s international image; pressure from the opposition movement persisted; the Cold War’s end removed the authoritarian regime’s external backing; and Chiang’s own diabetes had left him nearly blind, with rapidly deteriorating health. Lifting martial law was a calculated result, not an act of mercy.
 
@@ -93,7 +93,7 @@ At midnight on July 15, 1987, the martial‑law order was lifted. Taiwanese 
 
 Post‑martial‑law Taiwan was far from peaceful. After Chiang Ching‑kuo’s death in 1988, Lee Teng‑hui succeeded as president, while conservative factions within the KMT kept a watchful eye. The boundaries of freedom of speech remained vague.
 
-Cheng Nan‑Jung decided to test those boundaries. In December 1988, *Freedom Times Weekly* published the full text of the “Draft Constitution of the Republic of Taiwan” drafted by Hsu Shih‑kai. Authorities issued a subpoena for “suspected rebellion.” Cheng publicly declared: “The KMT can’t catch me; they can only catch my corpse.”[^1]
+Cheng Nan‑Jung decided to test those boundaries. In December 1988, _Freedom Times Weekly_ published the full text of the “Draft Constitution of the Republic of Taiwan” drafted by Hsu Shih‑kai. Authorities issued a subpoena for “suspected rebellion.” Cheng publicly declared: “The KMT can’t catch me; they can only catch my corpse.”[^1]
 
 From January 27, 1989, he locked himself in the chief editor’s office, refusing to appear in court. After seventy‑one days, on the morning of April 7, he fulfilled his promise with fire.
 
@@ -128,7 +128,7 @@ Four candidate slates, an international media fleet, missile threats, and then p
 
 ## Party Turnover: Democracy’s Stress Test (2000‑2024)
 
-On the evening of March 18, 2000, television stations gradually announced Chen Shui‑bian and Lu Hsiu‑Lien’s victory. The KMT lost power after fifty‑five years of rule in Taiwan. Twenty years earlier, political prisoner Lu Hsiu‑Lien became vice president. The *Formosa* trial’s defense lawyers now occupied the presidential office. On May 20, Lee Teng‑hui handed the presidential seal to Chen Shui‑bian. The transition was peaceful, complete, and bloodless.[^13]
+On the evening of March 18, 2000, television stations gradually announced Chen Shui‑bian and Lu Hsiu‑Lien’s victory. The KMT lost power after fifty‑five years of rule in Taiwan. Twenty years earlier, political prisoner Lu Hsiu‑Lien became vice president. The _Formosa_ trial’s defense lawyers now occupied the presidential office. On May 20, Lee Teng‑hui handed the presidential seal to Chen Shui‑bian. The transition was peaceful, complete, and bloodless.[^13]
 
 In 2008, Ma Ying‑jeou was elected, marking the second turnover and proving the first was no accident. In 2016, Tsai Ing‑wen won, bringing Taiwan’s first female head of state. In 2024, Lai Ching‑te was elected, ushering in a minority‑government era.
 
@@ -138,7 +138,7 @@ In 2008, Ma Ying‑jeou was elected, marking the second turnover and proving t
 
 On the afternoon of March 17, 2014, KMT legislator Zhang Qing‑zhong used thirty seconds to announce that the Cross‑Strait Service Trade Agreement would be “considered reviewed.” The next night at 9:30 p.m., over two hundred students and civil society groups stormed the Legislative Yuan chamber.[^14]
 
-The occupation lasted twenty‑four days. Unlike the *Formosa* generation, the Sunflower Movement was a decentralized digital protest. The civic‑hacker community g0v built the `g0v.today` aggregation platform, streaming seventeen live video feeds so every corner of the chamber was visible to a global audience.[^21] Engineers from the Industrial Technology Research Institute helped install six cameras to eliminate hallway blind spots. Tang Feng (then a g0v member) later said: “Most of the technology we deployed was neutral; its purpose was simply to encourage dialogue.”[^21]
+The occupation lasted twenty‑four days. Unlike the _Formosa_ generation, the Sunflower Movement was a decentralized digital protest. The civic‑hacker community g0v built the `g0v.today` aggregation platform, streaming seventeen live video feeds so every corner of the chamber was visible to a global audience.[^21] Engineers from the Industrial Technology Research Institute helped install six cameras to eliminate hallway blind spots. Tang Feng (then a g0v member) later said: “Most of the technology we deployed was neutral; its purpose was simply to encourage dialogue.”[^21]
 
 On March 30, the Keelung‑Dadaocheng Avenue gathered hundreds of thousands. The service trade agreement was indeed blocked. More profoundly, it redefined Taiwanese youth political participation: you don’t need to join a party; you just need a laptop and a venue.
 
@@ -147,7 +147,7 @@ On March 30, the Keelung‑Dadaocheng Avenue gathered hundreds of thousands. T
 
 ## Asia’s First Rainbow Certificate (2019)
 
-At 3:27 p.m. on May 17, 2019, Legislative Yuan President Su Jia‑chuan struck the gavel, passing the third reading of the *Interpretation No. 748 Implementation Act*. Taiwan became the first Asian country to legalize same‑sex marriage.[^15]
+At 3:27 p.m. on May 17, 2019, Legislative Yuan President Su Jia‑chuan struck the gavel, passing the third reading of the _Interpretation No. 748 Implementation Act_. Taiwan became the first Asian country to legalize same‑sex marriage.[^15]
 
 On the first day of effect, May 24, 526 same‑sex couples completed registration.
 
@@ -185,7 +185,7 @@ From a farewell letter to Control Yuan president—forty‑one years. That is wh
 
 ## References
 
-[^1]: [Wikipedia: Cheng Nan‑Jung](https://zh.wikipedia.org/zh-tw/%E9%84%AD%E5%8D%97%E6%A6%95) — Comprehensive record of Cheng’s life from founding *Freedom Times Weekly* to self‑immolation; Yeh Ju‑Lan quotation from a Central News Agency 2022 report and Focus Taiwan 2025 36‑year anniversary article.
+[^1]: [Wikipedia: Cheng Nan‑Jung](https://zh.wikipedia.org/zh-tw/%E9%84%AD%E5%8D%97%E6%A6%95) — Comprehensive record of Cheng’s life from founding _Freedom Times Weekly_ to self‑immolation; Yeh Ju‑Lan quotation from a Central News Agency 2022 report and Focus Taiwan 2025 36‑year anniversary article.
 
 [^2]: [Wikipedia: Round‑about Tobacco‑Smuggling Incident](https://zh.wikipedia.org/zh-tw/%E5%9C%93%E7%92%B0%E7%B7%9D%E8%8F%B8%E4%BA%8B%E4%BB%B6) — Detailed account of the February 27, 1947 contraband‑cigarette incident, including Lin Jiang‑Mai’s beating and Chen Wen‑xi’s fatal bullet.
 
@@ -193,7 +193,7 @@ From a farewell letter to Control Yuan president—forty‑one years. That is wh
 
 [^4]: [National Human Rights Museum: Martial‑Law Period](https://www.nhrm.gov.tw/) — Official archives on the legal basis, scope, and social control mechanisms of Taiwan’s 1949‑1987 martial‑law system.
 
-[^5]: [National Human Rights Memory Bank: Kaohsiung Incident](https://memory.nhrm.gov.tw/TopicExploration/Event/Detail/5) — Photos, trial records, and oral histories of the December 10, 1979 Kaohsiung event, the most digitized *Formosa* archive.
+[^5]: [National Human Rights Memory Bank: Kaohsiung Incident](https://memory.nhrm.gov.tw/TopicExploration/Event/Detail/5) — Photos, trial records, and oral histories of the December 10, 1979 Kaohsiung event, the most digitized _Formosa_ archive.
 
 [^6]: [StoryStudio: From Mass Arrest to Military Trial](https://storystudio.tw/article/gushi/%E5%BE%9E%E5%A4%A7%E9%80%AE%E6%8D%95%E5%88%B0%E8%BB%8D%E6%B3%95%E5%A4%A7%E5%AF%9F%EF%BC%9A%E7%BE%8E%E9%BA%97%E5%B3%B6%E6%B0%91%E4%B8%BB%E9%81%8B%E5%8B%95%E5%BD%B1%E5%83%8F%E5%8F%B2%EF%BC%88%E4%BA%8C) — Photos of the military trial and list of fifteen defense lawyers, documenting how the trial unintentionally produced the next generation of opposition leaders.
 
@@ -201,7 +201,7 @@ From a farewell letter to Control Yuan president—forty‑one years. That is wh
 
 [^8]: [National Human Rights Memory Bank: Jiangnan Case](https://memory.nhrm.gov.tw/TopicExploration/Event/Detail/39) — Full account of Liu Yi‑Liang’s murder, investigation of the Military Intelligence Bureau director’s involvement, and international political impact.
 
-[^9]: Larry Diamond, “Taiwan: A Democratic Success Story,” *Journal of Democracy*, 2015 — Scholarly analysis of Taiwan’s democratic transition, arguing how internal and external pressures jointly forced authoritarian reform.
+[^9]: Larry Diamond, “Taiwan: A Democratic Success Story,” _Journal of Democracy_, 2015 — Scholarly analysis of Taiwan’s democratic transition, arguing how internal and external pressures jointly forced authoritarian reform.
 
 [^10]: [Wikipedia: Wild Lily Movement](https://zh.wikipedia.org/zh-hant/%E9%87%8E%E7%99%BE%E5%90%88%E5%AD%B8%E9%81%8B) — Complete record of the March 1990 student movement, including Lee’s meeting with fifty‑three student representatives and the 22:1 withdrawal vote.
 
@@ -223,6 +223,6 @@ From a farewell letter to Control Yuan president—forty‑one years. That is wh
 
 [^19]: [Liberty Times: Chen Ju’s Prison Letter Details](https://news.ltn.com.tw/news/politics/breakingnews/1553866) — Content and circulation of Chen Ju’s 1980 prison farewell letter, quoted from Paul’s epistles, addressed to the Taiwanese people rather than family.
 
-[^20]: [China Change: Chiang Ching‑kuo and Taiwan Democratization](https://chinachange.org/2013/06/03/chiang-chang-kuo-and-the-democratization-of-taiwan-2/) — Analysis of Chiang’s final two years, including the “Arresting people won’t solve the problem” anecdote and Ma Ying‑jeou’s “scalp tingling” recollection; synthesis of *天下雜誌* and *Retrospect Journal* scholarship.
+[^20]: [China Change: Chiang Ching‑kuo and Taiwan Democratization](https://chinachange.org/2013/06/03/chiang-chang-kuo-and-the-democratization-of-taiwan-2/) — Analysis of Chiang’s final two years, including the “Arresting people won’t solve the problem” anecdote and Ma Ying‑jeou’s “scalp tingling” recollection; synthesis of _天下雜誌_ and _Retrospect Journal_ scholarship.
 
 [^21]: [Global Voices: How Technology Shaped the Sunflower Movement](https://globalvoices.org/2014/04/20/how-technology-and-citizen-media-shaped-taiwans-sunflower-movement/) — Detailed record of g0v’s deployment of `g0v.today`, 17‑stream live feed, ITRI’s camera installations, and Tang Feng’s neutral‑technology statement.

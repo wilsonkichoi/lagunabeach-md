@@ -60,22 +60,14 @@ perspectives:
     text: 'I believe he will use his honesty and integrity to give more young people confidence.'
     dimension: 'role-model'
 sporeLinks:
-  - platform: 'threads'
+  - id: 29
+    platform: 'threads'
     date: '2026-04-14'
     url: 'https://www.threads.com/@taiwandotmd/post/DXGuAudkbuC'
-    views: 180000
-    likes: 16000
-    reposts: 689
-    comments: 151
-    shares: 329
-  - platform: 'x'
+  - id: 30
+    platform: 'x'
     date: '2026-04-14'
     url: 'https://x.com/taiwandotmd/status/2043976162813325344'
-    views: 112300
-    likes: 3600
-    reposts: 492
-    comments: 47
-    shares: 112
 translatedFrom: 'People/李洋.md'
 sourceCommitSha: '5db9f136'
 sourceContentHash: 'sha256:96f1d5630278a964'

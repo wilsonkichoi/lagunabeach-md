@@ -18,13 +18,12 @@ rationale:
   where_it_hedges: '林憲明非中資（只查到「查不到」金流）；徵婚數據是單一公民 AI 分析、未經第三方查核；「每過一陣子」有 2025-12 前例但系統性起底是 2026-02 首次；治理真空已被 2024 打詐專法部分填補。'
   whos_pushing_back: '業者可主張轉貼新聞、AI 改寫、原生廣告置入皆合法；王希、沈伯洋警告過度貼「認知作戰／網軍」標籤之害；旺中可主張「親中」是政治指控。'
 sporeLinks:
-  - platform: 'threads'
+  - id: 124
+    platform: 'threads'
     date: '2026-06-05'
     url: 'https://www.threads.com/@taiwandotmd/post/DZM0aZ2kzIN'
-    likes: 1447
-    reposts: 383
-    shares: 91
-  - platform: 'x'
+  - id: 125
+    platform: 'x'
     date: '2026-06-05'
     url: 'https://x.com/taiwandotmd/status/2062839725648703638'
 ---

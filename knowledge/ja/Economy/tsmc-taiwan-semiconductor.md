@@ -30,18 +30,14 @@ imageCredit: '曾成訓 (Tseng Cheng-Hsun) via Wikimedia Commons'
 imageLicense: 'CC BY 2.0'
 imageSource: 'https://commons.wikimedia.org/wiki/File:TSMC_fabs_in_Hsinchu_01.jpg'
 sporeLinks:
-  - platform: 'threads'
+  - id: 68
+    platform: 'threads'
     date: '2026-05-09'
     url: 'https://www.threads.com/@taiwandotmd/post/DYHoQtCE-5Z'
-    views: 2854
-    likes: 0
-    reposts: 0
-  - platform: 'x'
+  - id: 69
+    platform: 'x'
     date: '2026-05-09'
     url: 'https://x.com/taiwandotmd/status/2053100425730269544'
-    views: 6
-    likes: 0
-    reposts: 0
 ---
 
 # 台湾企業：TSMC（台湾積体電路製造）

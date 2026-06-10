@@ -26,22 +26,14 @@ readingTime: 16
 lastVerified: 2026-04-26
 lastHumanReview: false
 sporeLinks:
-  - platform: 'threads'
+  - id: 45
+    platform: 'threads'
     date: '2026-04-26'
     url: 'https://www.threads.com/@taiwandotmd/post/DXlcWdykVgv'
-    views: 297
-    likes: 12
-    reposts: 1
-    comments: 0
-    shares: 0
-  - platform: 'x'
+  - id: 46
+    platform: 'x'
     date: '2026-04-26'
     url: 'https://x.com/taiwandotmd/status/2048290884022850047'
-    views: 40
-    likes: 3
-    reposts: 1
-    comments: 0
-    shares: 0
 translatedFrom: People/壞特.md
 sourceCommitSha: '5db9f136'
 sourceContentHash: 'sha256:bc3dc1570bc97a61'
