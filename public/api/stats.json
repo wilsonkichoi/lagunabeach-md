@@ -1,28 +1,24 @@
 {
-  "totalArticles": 4822,
-  "totalCategories": 21,
+  "totalArticles": 4769,
+  "totalCategories": 20,
   "estimatedContributors": 57,
-  "totalTags": 6311,
+  "totalTags": 6256,
   "categories": [
     {
       "name": "es",
-      "count": 796
+      "count": 794
     },
     {
       "name": "ko",
-      "count": 799
+      "count": 795
     },
     {
       "name": "fr",
-      "count": 811
-    },
-    {
-      "name": "en",
-      "count": 816
+      "count": 795
     },
     {
       "name": "ja",
-      "count": 804
+      "count": 794
     },
     {
       "name": "History",
@@ -35,6 +31,10 @@
     {
       "name": "Society",
       "count": 85
+    },
+    {
+      "name": "en",
+      "count": 797
     },
     {
       "name": "Culture",
@@ -81,10 +81,6 @@
       "count": 6
     },
     {
-      "name": "zh-TW",
-      "count": 2
-    },
-    {
       "name": "resources",
       "count": 2
     }
@@ -92,7 +88,7 @@
   "topTags": [
     {
       "name": "Economy",
-      "count": 76
+      "count": 75
     },
     {
       "name": "人物",
@@ -123,23 +119,11 @@
       "count": 25
     },
     {
-      "name": "高雄",
-      "count": 25
-    },
-    {
       "name": "기업",
       "count": 25
     },
     {
-      "name": "政治",
-      "count": 24
-    },
-    {
-      "name": "半導體",
-      "count": 24
-    },
-    {
-      "name": "音樂",
+      "name": "高雄",
       "count": 24
     },
     {
@@ -147,11 +131,19 @@
       "count": 23
     },
     {
-      "name": "民主化",
+      "name": "政治",
+      "count": 23
+    },
+    {
+      "name": "半導體",
       "count": 23
     },
     {
       "name": "文化",
+      "count": 23
+    },
+    {
+      "name": "音樂",
       "count": 23
     },
     {
@@ -169,16 +161,20 @@
     {
       "name": "AI",
       "count": 22
+    },
+    {
+      "name": "歷史",
+      "count": 21
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4822,
+    "zh-TW": 4769,
     "en": 0
   },
-  "lastUpdated": "2026-06-09T22:21:57.072Z",
-  "stars": 1027,
+  "lastUpdated": "2026-06-10T05:13:12.604Z",
+  "stars": 1028,
   "forks": 150,
-  "zhPages": 4006,
-  "enPages": 816,
-  "totalPages": 4822
+  "zhPages": 3972,
+  "enPages": 797,
+  "totalPages": 4769
 }

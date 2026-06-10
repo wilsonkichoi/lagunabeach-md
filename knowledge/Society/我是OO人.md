@@ -21,6 +21,9 @@ sporeLinks:
   - platform: 'threads'
     date: '2026-06-05'
     url: 'https://www.threads.com/@taiwandotmd/post/DZM0aZ2kzIN'
+    likes: 1447
+    reposts: 383
+    shares: 91
   - platform: 'x'
     date: '2026-06-05'
     url: 'https://x.com/taiwandotmd/status/2062839725648703638'

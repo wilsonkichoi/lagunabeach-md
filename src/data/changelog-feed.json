@@ -1,7 +1,241 @@
 {
-  "generatedAt": "2026-06-09T22:21:55.956Z",
+  "generatedAt": "2026-06-10T05:13:11.597Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "cd67bae20f89e1bf51a861c34b0136b6f0717c0b",
+      "date": "2026-06-10T13:12:27+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: container 寬度 token 統一 — tokens.css 三檔，13 頁殼遷移"
+    },
+    {
+      "hash": "f5039d8b881dccdc1f31deacc6b813bd0c26b506",
+      "date": "2026-06-10T13:12:09+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] feat: /latest 時序軸 v2 — timeline 共用元件 + /changelog 同骨架"
+    },
+    {
+      "hash": "cdc831d61edcb92e8fb34379f581c4ed7294bc21",
+      "date": "2026-06-10T13:11:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] feat: ArticleCard row/detailed 變體 — 16:10 固定縮圖 + 分類色 placeholder"
+    },
+    {
+      "hash": "f8b2893bc60f20f293cc538c65d25eb3deb21f2e",
+      "date": "2026-06-10T13:08:43+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 部署解封 — broken-link 6.67%→0.56%，三個結構源架構解"
+    },
+    {
+      "hash": "a8816ab91d9ffb65d06403890fc0d627ddd9b3ef",
+      "date": "2026-06-10T12:59:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-10-113753-audit-execution — 16 項審計建議全執行收官 + 執行日誌 + LESSONS pattern-id 首次 apply"
+    },
+    {
+      "hash": "483460cf73145c250340dc7924f62eefb7c18fae",
+      "date": "2026-06-10T12:55:06+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: reports/ 索引 + TTL 政策 + harvest app 搬遷評估 deferred-with-reason（audit D-9）"
+    },
+    {
+      "hash": "4e8518077e3eab0fb299a199156038506f297749",
+      "date": "2026-06-10T12:53:20+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: post-build smoke 補 i18n 路由抽驗 + politics + broken-link gate 完整 dist 再校準 7.0（audit D-8 + D-3 修正）"
+    },
+    {
+      "hash": "d1e3afb7f012d9361a2664a27b64dfcc251c9fbf",
+      "date": "2026-06-10T12:49:28+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: fork 雙產品拆分 — country-md-starter / semiont-kernel 兩條路（audit D-6 / 報告 §4.5 洞察落地）"
+    },
+    {
+      "hash": "ff209c20bfa4af03821f9de456596ab39aa5730c",
+      "date": "2026-06-10T12:47:48+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: alerts 免疫 status regex 補 漂移/危險 兩級 — status 惡化不該更安靜（immune v3 上線自抓）"
+    },
+    {
+      "hash": "92ddefd4c1e7b1a70578dffe2da424656f497de1",
+      "date": "2026-06-10T12:47:26+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: immune v3 external_rulers 維度 — 量「被幾把獨立外部尺量過」（audit D-4 / 報告 §4.1 洞察落地）"
+    },
+    {
+      "hash": "950f20a9deebdd71dd6b1a21da4288cf6b933d12",
+      "date": "2026-06-10T12:43:39+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: babel cascade v4.3 — preflight health-check + 死模型 6h 冷凍 + owl-alpha 退出 default（audit D-2）"
+    },
+    {
+      "hash": "1d682688f698bdcf3953357bc2bb139f3b102063",
+      "date": "2026-06-10T12:42:15+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] feat: /opendata OpenData 策展頁 — cross-domain: 數據 subnav 新頁 + 爬取工具 + INBOX 種子"
+    },
+    {
+      "hash": "78eb415fdf12d84d85c2f0ce1929a248bde5e292",
+      "date": "2026-06-10T12:34:46+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 主權巴別塔 per-language AI crawler 儀表上線（audit A-9 / 報告 §4.2 洞察落地）"
+    },
+    {
+      "hash": "dff406ef927ef65b66b5529ac6017005e0de203c",
+      "date": "2026-06-10T12:31:34+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: editorial 子檔 refresh — TRANSLATION-SYNC 凍結報告 archive + RESEARCH-TEMPLATE 對齊 v1.3 證偽鐵律 + RATIONALE-SPEC 補 frontmatter（audit A-10）"
+    },
+    {
+      "hash": "0b834c72ffd02852a0c9c18b39b7118914697e79",
+      "date": "2026-06-10T12:29:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: pipeline 凋亡批次 — CONTRIBUTORS + DAILY-REPORT archive，「10 孤兒」驗證後溶解為 2（audit D-5）"
+    },
+    {
+      "hash": "05229c49ba302cc554e7f4216d8e3b948ff060a6",
+      "date": "2026-06-10T12:26:30+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: broken-link gate 動態化 — 7% 臨時值退役 → gated 2% + es/fr REPORT-ONLY 分級（audit D-3）"
+    },
+    {
+      "hash": "4c23b53cc44e2c2c8bede4a805fecd6e19136575",
+      "date": "2026-06-10T12:21:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 殭屍重複翻譯大掃除 — 5 語 57 組 58 檔刪除 + 18 處入站連結改寫到 keeper（audit A-7）"
+    },
+    {
+      "hash": "592f8a8a4dbeaeceaef1bd181c7d5fdd840b1613",
+      "date": "2026-06-10T12:17:23+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: LESSONS-INBOX pattern-id intake v2.2 — 寫入時聚類，同 pattern 不開新 entry（audit A-8）"
+    },
+    {
+      "hash": "3573e6e66f761da1536ceac93456adefcc1cd387",
+      "date": "2026-06-10T12:16:33+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: repo 衛生 — 研究音檔 gitignore + 既有 13MB m4a 退出 index + article-health docstring 對齊現況（audit A-5+A-6）"
+    },
+    {
+      "hash": "c385816af8ab28f6b63a7a631a073aaeeb435414",
+      "date": "2026-06-10T12:15:28+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: UNKNOWNS 大掃除 — 3 過期 EXP 補判（E 命中/F 反駁/D 重上膛）+ due_date 機械檢查上線（audit A-2）"
+    },
+    {
+      "hash": "2975d793d6cf408f2deb5e9e23594a62848509b0",
+      "date": "2026-06-10T12:12:52+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 警報層 derived 化 — dashboard-alerts.json 生成器 + CONSCIOUSNESS §警報 殭屍快照退役（audit A-3）"
+    },
+    {
+      "hash": "79d5b6b320c75dff1f3cc6146a6202c4885ad114",
+      "date": "2026-06-10T12:10:42+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: Politics 分類補登 6 個硬編碼清單 + 修 4 撇號 YAML + 刪 2 個 zh-TW 流浪殭屍（audit A-4 擴大版）"
+    },
+    {
+      "hash": "cfea89c6f522934eedc65c006811cce6c77c4bd9",
+      "date": "2026-06-10T12:04:39+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 免疫分數 reconciliation — v2 default-on + snapshot 雙源 guard（audit D-1+A-1）"
+    },
+    {
+      "hash": "7678a430b3371ea210487eccf45ce7af6300e93e",
+      "date": "2026-06-10T12:01:13+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 公開數據指標 pilot — 6 篇文章接上政府開放資料層（frontmatter datasets + 文末公開數據段，data.gov.tw 持久連結 + Twinkle Hub AI 查詢閘道）"
+    },
+    {
+      "hash": "11d3f2014c659e0cb5bf8059bed94d499ae35742",
+      "date": "2026-06-10T11:57:05+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diagnose: 全身審計報告 — 26 發現六層 + 7 超越邊界洞察 + 五桶建議（儀器層失真集群 / en 殭屍翻譯 21 對 / 5 audit agent 勘誤表）"
+    },
+    {
+      "hash": "08567837d432d3017105088ac0866c045f6b99c4",
+      "date": "2026-06-10T11:47:37+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 文章 SSODT × 數據集指標深度研究 — Twinkle Hub API 改版實測（session 握手修復 + 21 工具新 inventory）+ 六主題 search 驗證 + 雙層指標設計提案"
+    },
+    {
+      "hash": "baa049946319fde3890d918096629d374f5c8dd6",
+      "date": "2026-06-10T10:29:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: quote-fidelity plugin（引號=逐字承諾儀器化）+ REWRITE v7.0 micro 補強 + finale round-2 三件套"
+    },
+    {
+      "hash": "bca311b3880407bbb43e4a0da08b621c09106177",
+      "date": "2026-06-10T10:17:03+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: REWRITE-PIPELINE v7.0 — Stage 3 嚴謹化 新增 Step 3.6 成品總驗三關"
+    },
+    {
+      "hash": "f4cda55f196ded807c407db501d0b35360ff4088",
+      "date": "2026-06-10T10:17:01+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 台灣嘻哈饒舌 — 老莫勘誤寶哥=黃信佳（大寶導）+ 成品總驗 14 修 + 順稿 28 處 + 媒體對位"
+    },
+    {
+      "hash": "3e1ba5009d299854bbcf5c36c2acb626d5bde332",
+      "date": "2026-06-10T08:44:34+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-am: empty PR queue + 3 from-feedback already triaged + broken-link 6.49% structural — 2026-06-10 08:30"
+    },
+    {
+      "hash": "efdd9caf085e2c897d01bfb23814040cf0645fe1",
+      "date": "2026-06-10T07:09:34+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-feedback-triage: 0 new feedback / 14 archive-comments synced — 2026-06-10"
+    },
+    {
+      "hash": "257973a5673fb71000534a0b9d04ce3cc56f6867",
+      "date": "2026-06-10T06:46:56+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-10-064441-twmd-spore-harvest-am — 9 Threads / 32 replies / 0 new A / 1 B / Pitfall 7 carry"
+    },
+    {
+      "hash": "5219bf3a31e86038f9293251251b206bf9d91064",
+      "date": "2026-06-10T06:44:32+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest: 9 Threads spores / 32 replies — 2026-06-10"
+    },
+    {
+      "hash": "9a4645b382ab3da4b4caccc1b4da980330a68ebf",
+      "date": "2026-06-10T06:32:55+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-10-063032-twmd-babel-nightly — 7 ship / 158 wipe / 5 P0 missing recovered"
+    },
+    {
+      "hash": "141dbbdb306dc5a2d3fd77dfc0864f26c0cec33d",
+      "date": "2026-06-10T06:30:18+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] LESSONS-INBOX 2026-06-10 babel-nightly — 3 candidates"
+    },
+    {
+      "hash": "3ff48e9552a2798a3a1eaa93d98096232cf074bb",
+      "date": "2026-06-10T06:28:36+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel-nightly: 6 P0 missing recovered (sovereignty backbone) — 2026-06-10"
+    },
+    {
+      "hash": "f18fd629ff36e7dcab25bece30537d91516550b6",
+      "date": "2026-06-10T06:26:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-10-062349-twmd-data-refresh-am — 14-step ALL PASS + Step 11 連 8 cycle 全綠 + 假 orphan 教訓"
+    },
+    {
+      "hash": "479ac06629fed7b2e24261ace7e2f398e798dd3e",
+      "date": "2026-06-10T06:23:45+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: LESSONS-INBOX 2026-06-10 data-refresh-am — dirty-tree 假 orphan + babel 漏 commit"
+    },
+    {
+      "hash": "48fbeb0514b12911094282f546ee71adb3f16cf1",
+      "date": "2026-06-10T06:22:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] data-refresh-am: 14-step ALL PASS + Step 11 連 8 cycle 全綠 — 2026-06-10 06:00"
+    },
     {
       "hash": "bf85a08309ec70fe8348fa4753bef2d4d7ca7354",
       "date": "2026-06-09T23:12:06+08:00",

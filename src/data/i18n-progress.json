@@ -1,83 +1,79 @@
 {
-  "total_zh": 4006,
-  "total_en": 816,
-  "coverage_en": 20.4,
+  "total_zh": 3972,
+  "total_en": 797,
+  "coverage_en": 20.1,
   "categories": {
-    "Technology": {
-      "zh": 52,
-      "en": 50
+    "fr": {
+      "zh": 795,
+      "en": 0
+    },
+    "Economy": {
+      "zh": 54,
+      "en": 55
     },
     "es": {
-      "zh": 796,
+      "zh": 794,
+      "en": 0
+    },
+    "Culture": {
+      "zh": 61,
+      "en": 63
+    },
+    "ko": {
+      "zh": 795,
       "en": 0
     },
     "ja": {
-      "zh": 804,
+      "zh": 794,
       "en": 0
     },
-    "ko": {
-      "zh": 799,
-      "en": 0
+    "History": {
+      "zh": 44,
+      "en": 44
     },
-    "fr": {
-      "zh": 811,
-      "en": 0
+    "People": {
+      "zh": 227,
+      "en": 228
     },
     "Geography": {
       "zh": 63,
       "en": 61
     },
-    "People": {
-      "zh": 227,
-      "en": 231
+    "Food": {
+      "zh": 55,
+      "en": 56
     },
-    "Art": {
-      "zh": 37,
-      "en": 43
+    "Lifestyle": {
+      "zh": 28,
+      "en": 28
     },
-    "Economy": {
-      "zh": 54,
-      "en": 57
-    },
-    "Culture": {
-      "zh": 61,
-      "en": 64
-    },
-    "Nature": {
-      "zh": 37,
-      "en": 38
+    "Music": {
+      "zh": 33,
+      "en": 33
     },
     "Society": {
       "zh": 85,
       "en": 85
     },
-    "Politics": {
-      "zh": 10,
-      "en": 10
+    "Nature": {
+      "zh": 37,
+      "en": 37
     },
-    "Music": {
-      "zh": 33,
-      "en": 34
+    "Technology": {
+      "zh": 52,
+      "en": 50
     },
-    "History": {
-      "zh": 44,
-      "en": 45
-    },
-    "Lifestyle": {
-      "zh": 28,
-      "en": 30
-    },
-    "Food": {
-      "zh": 55,
-      "en": 58
-    },
-    "zh-TW": {
-      "zh": 2,
-      "en": 0
+    "Art": {
+      "zh": 37,
+      "en": 38
     },
     "About": {
       "zh": 6,
       "en": 6
+    },
+    "Politics": {
+      "zh": 10,
+      "en": 10
     },
     "resources": {
       "zh": 2,
@@ -85,7 +81,7 @@
     },
     "root": {
       "zh": 0,
-      "en": 2
+      "en": 1
     }
   },
   "updated": "2026-06-10"

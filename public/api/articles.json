@@ -260,17 +260,6 @@
     "path": "ko/History/formosa-historical-name.md"
   },
   {
-    "title": "“Park Sung-eun”",
-    "description": "“From exchange guest to full-time member of Fubon Angels — fast adaptation and stage stability make her a new-generation face of the Korean five-pillar lineup.”",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/People/park-sung-eun",
-    "readingTime": 14,
-    "featured": false,
-    "date": "2026-04-14",
-    "path": "en/People/park-sung-eun.md"
-  },
-  {
     "title": "\"Thinking Taiwan: 14 años desde la piedra de toque de una presidenta derrotada hasta el recipiente del diálogo democrático bipartidista\"",
     "description": "\"El 2 de mayo de 2026, el expresidente del Partido Popular Song Chu-yu, la presidenta del Partido de la Nueva Fuerza Wang Wan-yu, la miembro del Partido Socialdemócrata Miao Bo-ya y el veterinario y fundador de Fresh Milk Farm Gong Jian-jia aparecieron simultáneamente en la lista de autores del proyecto «30 años, 30 personas, 30 perspectivas». Este foro en línea, fundado por Tsai Ing-wen tras su derrota electoral en 2012, ha acumulado cerca de 5.800 artículos en 14 años, ha superado el corte cuando Chien Chih-chung asumió la presidencia de la junta, ha cruzado la distancia de 9 años sin grandes rediseños durante el mandato presidencial, y en 2026 sigue respondiendo a una pregunta que ha estado en suspensión desde el primer día: ¿puede una plataforma llamada «Fundación Educativa Hsiao Ying» sostener un diálogo democrático bipartidista?\"",
     "category": "es",
@@ -542,7 +531,7 @@
     "category": "Politics",
     "tags": [],
     "url": "https://taiwan.md/Politics/2026%20%E4%B9%9D%E5%90%88%E4%B8%80%E9%81%B8%E8%88%89",
-    "readingTime": 44,
+    "readingTime": 45,
     "featured": true,
     "date": "2026-05-27",
     "path": "Politics/2026 九合一選舉.md"
@@ -3382,23 +3371,6 @@
     "path": "ja/Music/indigenous-music-traditions.md"
   },
   {
-    "title": "台湾島史観——繰り返し統治された島は、いかに自らの主体性を発明したか",
-    "description": "台湾は大陸帝国の最後のピースではなく、太平洋の海洋ネットワークの最初の礎石です。曹永和の「以地範史」から出発して、この島の生命力を改めて理解します。",
-    "category": "ja",
-    "tags": [
-      "歴史",
-      "島嶼",
-      "史観",
-      "曹永和",
-      "海洋"
-    ],
-    "url": "https://taiwan.md/ja/History/taiwan-island-historiography",
-    "readingTime": 21,
-    "featured": false,
-    "date": "2026-05-02",
-    "path": "ja/History/taiwan-island-historiography.md"
-  },
-  {
     "title": "台湾島史観：繰り返し統治されてきた島は、いかにして自らの主体性を発明したのか",
     "description": "台湾は大陸帝国の最後のピースではなく、太平洋の海洋ネットワークにおける最初の礎石です。曹永和の「以地範史」から出発し、この島の生命力を改めて理解します。",
     "category": "ja",
@@ -4367,23 +4339,6 @@
     "path": "ja/Lifestyle/taiwan-traditional-markets-and-market-culture.md"
   },
   {
-    "title": "台湾の民主的転換——威権体制が自ら掘った墓",
-    "description": "弾圧するたびに、より多くの抵抗者が生まれた。二・二八からひまわり運動まで、一つの島がいかにして独裁体制に自らを葬る力を育てさせたか。",
-    "category": "ja",
-    "tags": [
-      "民主主義",
-      "移行期正義",
-      "政治史",
-      "人権",
-      "社会運動"
-    ],
-    "url": "https://taiwan.md/ja/History/democratic-transition",
-    "readingTime": 29,
-    "featured": true,
-    "date": "2026-03-24",
-    "path": "ja/History/democratic-transition.md"
-  },
-  {
     "title": "台湾の氷品文化",
     "description": "玉井マンゴーかき氷から雪花氷革命まで、台湾人が冬でも氷を食べる独特の文化を探る",
     "category": "ja",
@@ -4918,17 +4873,6 @@
     "path": "ja/Culture/taiwanese-life-ceremony-traditions.md"
   },
   {
-    "title": "台湾の教育制度：受験地獄から多元的迷宮への島の実験",
-    "description": "台湾は30年かけて受験制度を打破しようとしたが、最新の分科テストにより予備校の受験生募集が倍増した。一つの島は、進学の圧力と教育の公平性の間で、どのように社会実験を繰り返してきたのか？",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/Lifestyle/taiwan-education-system-overview",
-    "readingTime": 29,
-    "featured": true,
-    "date": "2026-03-23",
-    "path": "ja/Lifestyle/taiwan-education-system-overview.md"
-  },
-  {
     "title": "台湾の教育制度：聯考地獄から多元迷宮へ、島の実験",
     "description": "台湾は30年にわたり聯考制度の撤廃を目指してきましたが、最新の分科テストの導入により、再受験クラスの募集人数が倍増しました。この島は、進学圧力と教育の公平性の間で、どのように繰り返し社会実験を行っているのでしょうか？",
     "category": "ja",
@@ -5242,17 +5186,6 @@
     "path": "ja/Technology/taiwan-electric-vehicle-industry-chain.md"
   },
   {
-    "title": "台湾の漫画・アニメ文化",
-    "description": "ドラえもん（小叮噹）、『スラムダンク』（灌籃高手）、『美少女戦士セーラームーン』（美少女戰士）は、1980～90年代の台湾の青少年にとって共通の文化言語です。開拓動漫祭（Fancy Frontier、略称FF）は1999年の開始から現在まで40回以上開催されており、毎回10万人以上を動員しています。同人誌やコスプレの文化からは、『返校（Detention）』『還願（Devotion）』のクリエイターが育ちました。台湾の漫画・アニメ文化は外来娯楽の模倣ではなく、二世代にわたる共通の記憶と創作の土壌です。",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/Culture/taiwan-comics-and-animation-culture",
-    "readingTime": 5,
-    "featured": false,
-    "date": "2026-03-20",
-    "path": "ja/Culture/taiwan-comics-and-animation-culture.md"
-  },
-  {
     "title": "台湾の製香文化と香脚の原郷",
     "description": "嘉義の雲霄コミュニティに伝わる百年の香脚技術から、台湾全島に広がる製香産業まで——信仰、技、そして忍耐にまつわる古き業種について",
     "category": "ja",
@@ -5393,17 +5326,6 @@
     "featured": false,
     "date": "2026-03-20",
     "path": "ja/History/taiwan-elections-and-party-politics.md"
-  },
-  {
-    "title": "台湾の環境正義とニンビー論争",
-    "description": "台湾の環境負担分配の不均衡現象を、焼却炉、核廃棄物、石油化学産業のニンビー紛争を通じて検討し、環境不平等の問題と社会正義の議題を分析します",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/Society/taiwan-environmental-justice-nimby-conflicts",
-    "readingTime": 33,
-    "featured": false,
-    "date": "2026-03-20",
-    "path": "ja/Society/taiwan-environmental-justice-nimby-conflicts.md"
   },
   {
     "title": "台湾の騎楼文化と街並み",
@@ -6696,7 +6618,7 @@
     "category": "Lifestyle",
     "tags": [],
     "url": "https://taiwan.md/Lifestyle/%E5%8F%B0%E7%81%A3%E4%BA%A4%E9%80%9A%E7%B3%BB%E7%B5%B1",
-    "readingTime": 28,
+    "readingTime": 29,
     "featured": true,
     "date": "2026-04-26",
     "path": "Lifestyle/台灣交通系統.md"
@@ -9296,7 +9218,7 @@
     "category": "Society",
     "tags": [],
     "url": "https://taiwan.md/Society/%E5%8F%B0%E7%81%A3%E8%88%87%E6%A0%B8%E8%83%BD%E7%9A%84%E8%A8%8E%E8%AB%96",
-    "readingTime": 61,
+    "readingTime": 63,
     "featured": false,
     "date": "2026-06-07",
     "path": "Society/台灣與核能的討論.md"
@@ -9338,11 +9260,11 @@
   },
   {
     "title": "台灣嘻哈與饒舌發展：中文不該能 rap、台語上不了檯面、又不是貧民窟，他們把三個劣勢唱成一張主權聲紋",
-    "description": "2004 年，宋岳庭已經走了兩年，母親和弟弟替他上台領金曲最佳作詞。那首《Life''s a Struggle》的雙韻，把「中文不適合 rap」這個成見往前推了一步。從魔岩地下室自學美國原版，到 Leo 王、熱狗先後拿下饒舌歌王，台灣花二十年走完一段路。但這座島最動人的不是它多像美國，是它把中文聲調、台語腔、非貧民窟弱者三個先天劣勢，翻成只有這裡唱得出來的多元主權聲紋。",
+    "description": "2004 年，宋岳庭已經走了兩年，母親和弟弟替他上台領金曲最佳作詞。那首《Life''s a Struggle》的雙韻，把「中文不適合 rap」這個成見往前推了一步。從地下年代靠進口專輯一張一張自學，到 Leo 王、熱狗先後拿下饒舌歌王，台灣花二十年走完一段路。但這座島最動人的不是它多像美國，是它把中文聲調、台語腔、非貧民窟弱者三個先天劣勢，翻成只有這裡唱得出來的多元主權聲紋。",
     "category": "Music",
     "tags": [],
     "url": "https://taiwan.md/Music/%E5%8F%B0%E7%81%A3%E5%98%BB%E5%93%88%E8%88%87%E9%A5%92%E8%88%8C%E7%99%BC%E5%B1%95",
-    "readingTime": 81,
+    "readingTime": 84,
     "featured": true,
     "date": "2026-06-09",
     "path": "Music/台灣嘻哈與饒舌發展.md"
@@ -9670,7 +9592,7 @@
     "category": "Lifestyle",
     "tags": [],
     "url": "https://taiwan.md/Lifestyle/%E5%8F%B0%E7%81%A3%E9%86%AB%E7%99%82%E8%88%87%E5%85%A8%E6%B0%91%E5%81%A5%E4%BF%9D",
-    "readingTime": 73,
+    "readingTime": 75,
     "featured": true,
     "date": "2026-06-04",
     "path": "Lifestyle/台灣醫療與全民健保.md"
@@ -10045,23 +9967,6 @@
     "featured": true,
     "date": "2026-03-27",
     "path": "History/民主化.md"
-  },
-  {
-    "title": "民主化",
-    "description": "1980年3月18日、高雄の軍事法廷で、施明德は六万字の答弁書を放棄し、裁判官に死刑を宣告するよう要求しました。同じ裁判で被告の弁護人を務めた若い弁護士・陳水扁、謝長廷、蘇貞昌は、20年後に全員が総統または行政院長になりました。本来は見せしめのはずの裁判が、思いがけず台湾の次世代の政治指導者を生み出したのです。",
-    "category": "ja",
-    "tags": [
-      "歴史",
-      "民主化",
-      "政治",
-      "美麗島事件",
-      "野百合学運"
-    ],
-    "url": "https://taiwan.md/ja/History/taiwan-democratization-history",
-    "readingTime": 25,
-    "featured": false,
-    "date": "2026-05-02",
-    "path": "ja/History/taiwan-democratization-history.md"
   },
   {
     "title": "民主制度：1987年の戒厳令解除から2024年の頼清徳まで、台湾民主化37年の座標",
@@ -12059,17 +11964,6 @@
     "path": "People/沈文程.md"
   },
   {
-    "title": "沈文程：清泉崗の航空機整備員から二冠の歌王へ",
-    "description": "沈文程は、台湾で音楽と司会の両分野にまたがって活躍する二冠の芸能人です。ベトナム戦争末期の航空機整備員から、台湾全土で大ヒットした《心事誰人知》へと至り、誠実さとユーモアによって金曲賞と金鐘賞にその名を刻みました。",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/People/shen-wen-cheng",
-    "readingTime": 13,
-    "featured": false,
-    "date": "2026-05-12",
-    "path": "ja/People/shen-wen-cheng.md"
-  },
-  {
     "title": "沈文程：清泉崗の整備員から「双金」の歌王へ",
     "description": "沈文程は、台湾で音楽と司会の双方にまたがって活躍する「双金」の芸能人です。ベトナム戦争末期の航空機整備員から、台湾全土で大ヒットした《心事誰人知》まで、彼は誠実さとユーモアによって金曲奨と金鐘奨にその名を刻みました。",
     "category": "ja",
@@ -12562,7 +12456,7 @@
       "小吃"
     ],
     "url": "https://taiwan.md/Economy/%E5%A4%9C%E5%B8%82%E7%B6%93%E6%BF%9F%E5%AD%B8",
-    "readingTime": 13,
+    "readingTime": 14,
     "featured": false,
     "date": "2026-03-21",
     "path": "Economy/夜市經濟學.md"
@@ -12973,17 +12867,6 @@
     "featured": true,
     "date": "2026-03-19",
     "path": "People/林書豪.md"
-  },
-  {
-    "title": "林強",
-    "description": "40万枚のレコードを売り上げた台湾語ロックのアイドルが、自らすべてを捨てて誰も聴かないエレクトロニック・ミュージックに転身し、やがて侯孝賢（こう・こうけん）、ジャ・ジャーショ御用達のアジア随一のサウンドアーティストとなった。",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/People/lin-qiang",
-    "readingTime": 24,
-    "featured": false,
-    "date": "2026-03-31",
-    "path": "ja/People/lin-qiang.md"
   },
   {
     "title": "林強：『向前走』のホームから『黒衣の刺客』カンヌまで、台湾語ロックの叛逃者の30年",
@@ -13617,22 +13500,6 @@
     "featured": false,
     "date": "2026-03-22",
     "path": "Art/金馬賓館當代美術館.md"
-  },
-  {
-    "title": "金馬賓館當代美術館",
-    "description": "冷戦時代の軍事駅として別離と再会を見守った建物が、20年の眠りを経て父女によって覚醒させられ、『ロンリープラネット』が推薦する高雄の最優秀美術館となりました。",
-    "category": "ja",
-    "tags": [
-      "現代アート",
-      "美術館",
-      "高雄",
-      "文化空間"
-    ],
-    "url": "https://taiwan.md/ja/Art/kinmen-matsu-guest-house-contemporary-art-museum",
-    "readingTime": 19,
-    "featured": false,
-    "date": "2026-03-22",
-    "path": "ja/Art/kinmen-matsu-guest-house-contemporary-art-museum.md"
   },
   {
     "title": "長老向け画像：蓮の花と仏陀の背後にあるデジタルの温もりと情報戦場",
@@ -15686,7 +15553,7 @@
       "可負擔住宅"
     ],
     "url": "https://taiwan.md/Society/%E5%9C%8B%E5%AE%85%E8%88%87%E5%B1%85%E4%BD%8F%E6%AD%A3%E7%BE%A9",
-    "readingTime": 63,
+    "readingTime": 64,
     "featured": false,
     "date": "2026-06-06",
     "path": "Society/國宅與居住正義.md"
@@ -17207,24 +17074,6 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "ja/People/chen-yu-hsun-taiwan-comedy-film-magician.md"
-  },
-  {
-    "title": "陳昇",
-    "description": "從彰化電梯工人到跨年傳奇，31年連辦演唱會的「昇哥」，是台灣獨立音樂最頑固也最溫柔的那根刺",
-    "category": "zh-TW",
-    "tags": [
-      "音樂",
-      "獨立音樂",
-      "創作歌手",
-      "跨年演唱會",
-      "台語歌曲",
-      "搖滾"
-    ],
-    "url": "https://taiwan.md/zh-TW/people/%E9%99%B3%E6%98%87",
-    "readingTime": 16,
-    "featured": false,
-    "date": "2026-03-31",
-    "path": "zh-TW/people/陳昇.md"
   },
   {
     "title": "陳昇：彰化出發，首專1988，三十年跨年是他的江湖名片",
@@ -20259,23 +20108,6 @@
     "path": "ja/People/liu-an-ting-teach-for-taiwan.md"
   },
   {
-    "title": "劉德音",
-    "description": "在地緣政治最危險的年代掌舵台積電六年，他的最後一句話不是護國神山，是「謝謝大家」",
-    "category": "zh-TW",
-    "tags": [
-      "台積電",
-      "半導體",
-      "地緣政治",
-      "企業領導",
-      "張忠謀"
-    ],
-    "url": "https://taiwan.md/zh-TW/people/%E5%8A%89%E5%BE%B7%E9%9F%B3",
-    "readingTime": 18,
-    "featured": false,
-    "date": "2026-03-31",
-    "path": "zh-TW/people/劉德音.md"
-  },
-  {
     "title": "劉德音：柏克萊博士接班張忠謀，台美晶片夾縫中的六年決策",
     "description": "2018年6月，張忠謀退休，劉德音與魏哲家共同接棒台積電。這位柏克萊電機博士，以工程師的精確掌舵世界上最重要的晶片廠，在美中科技競爭六年間宣布亞利桑那設廠、多次折衝地緣政治，2024年6月卸任交棒魏哲家，最後留下一句「請買台積電」。",
     "category": "People",
@@ -23128,17 +22960,6 @@
     "featured": true,
     "date": "2026-04-28",
     "path": "fr/Society/taiwan-diplomatic-allies-and-international-relations.md"
-  },
-  {
-    "title": "Aluan Wang: Fifteen Years in Code, One Hour on Art Blocks, and a Smart Contract That Gives Back",
-    "description": "Born in Taichung in 1982, MFA in New Media Art from Taipei National University of the Arts. At midnight on August 22, 2021, his Good Vibrations became the first work by a Taiwanese artist ever released on Art Blocks — 1,024 NFTs sold out in an hour. The next year he joined FAB DAO's six-artist Project % lineup and helped build Asia's first philanthropic NFT structure with donations encoded directly into the smart contract. His practice spans Art Blocks, Verse.works, fxhash, and Tezos; Chaos Culture showed at Art Basel Hong Kong, Good Vibes (好抖) closed the C-LAB sound art festival, and his Polypaths extension series entered the National Taiwan Museum's collection. His 2026 work inkField — co-developed with Claude Code — preserves hesitation and pause inside the generative system. The final variable, he writes, is the human hand.",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Art/aluan-wang",
-    "readingTime": 117,
-    "featured": false,
-    "date": "2026-04-20",
-    "path": "en/Art/aluan-wang.md"
   },
   {
     "title": "Análisis completo de la Ley de Desarrollo Educativo en Escuelas de Zonas Remotas: el Estado invirtió 17.5 mil millones, pero no pudo frenar la gravedad demográfica",
@@ -27248,17 +27069,6 @@
     "path": "en/Music/contemporary-indigenous-singer-songwriters.md"
   },
   {
-    "title": "Contemporary Sculpture in Taiwan: From Tradition to the Global Stage",
-    "description": "From Ju Ming's Taichi to Yang Yu-yu's environmental sculptures, explore the evolution of Taiwanese sculpture and its unique fusion of Eastern aesthetics and modern materials.",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Art/contemporary-sculpture-in-taiwan",
-    "readingTime": 25,
-    "featured": false,
-    "date": "2026-03-20",
-    "path": "en/Art/contemporary-sculpture-in-taiwan.md"
-  },
-  {
     "title": "Contemporary Taiwanese Literature: Wu Ming-yi, Lin Yi-han, and a Quiet Reading Crisis",
     "description": "In 2018, Wu Ming-yi was longlisted for the Man Booker International Prize with _The Stolen Bicycle_ — the nationality field clearly read 'Taiwan.' Yet in that same era, first-print runs for serious Taiwanese literary fiction had already dropped below 3,000 copies. From Shih Shu-ching's epic trilogy spanning the Qing dynasty to the Japanese colonial period, to Lin Yi-han using a single book to drive legislative change — contemporary Taiwanese literature is touching the most universal questions in the most local voices. The audience, however, keeps shrinking.",
     "category": "en",
@@ -27852,25 +27662,6 @@
     "featured": false,
     "date": "2026-04-13",
     "path": "fr/Music/zhang-xuan-anpu.md"
-  },
-  {
-    "title": "Défense nationale de Taïwan et modernisation militaire",
-    "description": "En octobre 2025, Lai Ching-te préside à Hukou la cérémonie de mise en service du bataillon de chars M1A2T. Ce même mois, l'ancien chef d'état-major Lee Hsi-ming sourit amèrement : « Si un char peut être une arme asymétrique, qu'est-ce qui ne l'est pas ? » C'est l'histoire d'une île tiraillée entre deux logiques de défense.",
-    "category": "fr",
-    "tags": [
-      "défense nationale",
-      "armée",
-      "guerre asymétrique",
-      "stratégie du porc-épic",
-      "drones",
-      "service militaire",
-      "défense civile"
-    ],
-    "url": "https://taiwan.md/fr/Society/taiwan-national-defense-modernization",
-    "readingTime": 122,
-    "featured": false,
-    "date": "2026-04-10",
-    "path": "fr/Society/taiwan-national-defense-modernization.md"
   },
   {
     "title": "Défis de la gouvernance de la pollution marine et de la conservation à Taïwan",
@@ -30096,24 +29887,6 @@
     "path": "fr/Society/environmental-awakening-and-net-zero-transition.md"
   },
   {
-    "title": "Environnement politique et système électoral à Taïwan",
-    "description": "De l'architecture constitutionnelle aux mécanismes électoraux centraux et locaux, en passant par la culture partisane en profondeur : une analyse complète de la manière dont Taïwan maintient une société démocratique dynamique et rigoureusement institutionnalisée au sein d'une géopolitique complexe",
-    "category": "fr",
-    "tags": [
-      "système politique",
-      "système électoral",
-      "semi-présidentialisme",
-      "autonomie locale",
-      "société civile",
-      "démocratie numérique"
-    ],
-    "url": "https://taiwan.md/fr/Society/political-environment-new",
-    "readingTime": 30,
-    "featured": false,
-    "date": "2026-03-18",
-    "path": "fr/Society/political-environment-new.md"
-  },
-  {
     "title": "Environnement politique et système électoral de Taïwan",
     "description": "De l'architecture constitutionnelle aux mécanismes électoraux centraux et locaux, en passant par la culture politique partisane profonde, une analyse complète de la manière dont Taïwan maintient une société démocratique dynamique et institutionnellement rigoureuse dans un contexte géopolitique complexe",
     "category": "fr",
@@ -30597,17 +30370,6 @@
     "featured": false,
     "date": "2026-05-27",
     "path": "es/Culture/sky-lanterns-pingxi.md"
-  },
-  {
-    "title": "February 28 Incident and White Terror: Trauma and Memory under Taiwan's Authoritarian Rule",
-    "description": "From the February 28 Incident of 1947 to 38 years of martial law, Taiwan experienced state violence under authoritarian rule, only beginning to confront historical trauma and pursue transitional justice after the lifting of martial law.",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/History/february-28-incident-and-white-terror-taiwan-authoritarian-rule-trauma-and-memory",
-    "readingTime": 63,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "en/History/february-28-incident-and-white-terror-taiwan-authoritarian-rule-trauma-and-memory.md"
   },
   {
     "title": "Fire EX — The Name They Found by the Pool, Twenty-Five Years of Singing",
@@ -32710,6 +32472,17 @@
     "path": "en/People/huang-shan-liao.md"
   },
   {
+    "title": "Huang Shanliao: No One Looked at the Champion's Clothes, So He Started Selling 'One-Sentence Comfort'",
+    "description": "In 2014, a son of a Kinmen snack shop walked the runway at the London Graduate Fashion Week in a garment design called 'Kinmen 1969' and won the international first prize. When he returned to Taiwan to seek employment, HR treated his resume as fake because 'no reports could be found online.' He angrily created his own media, then pivoted to writing healing short sentences of no more than 28 characters, selling over 300,000 copies. No one looked at the cabinet of clothes telling the story of the war zone; he changed to selling 'one sentence of comfort': Taiwan's attention market buys sentences that can be read in a glance, not things that are made.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/People/huang-shan-liao",
+    "readingTime": 176,
+    "featured": false,
+    "date": "2026-06-07",
+    "path": "fr/People/huang-shan-liao.md"
+  },
+  {
     "title": "Huang Shao-yong : abandonner le doctorat en biochimie pour porter les langues maternelles à l'album de l'année des Golden Melody Awards",
     "description": "Dans les coulisses des 33ᵉ Golden Melody Awards en 2022, Huang Shao-yong reçoit le prix du meilleur arrangeur et sort une flûte à bec de sa poche pour en jouer un passage. Fils du président du Yuan des Examens Huang Jung-tsun, ce producteur qui a interrompu son doctorat en biochimie à l'NTU vers la trentaine a fondé Dark Paradise Records il y a dix ans et coproduit l'album de l'année 2020 des Golden Melody avec Abao, « kinakaian — La langue de la mère ». Son travail tient toujours en une seule phrase : ouvrir une voie vers le mainstream aux voix les plus marginales.",
     "category": "fr",
@@ -33501,6 +33274,17 @@
     "path": "fr/People/jay-chou.md"
   },
   {
+    "title": "Je suis de OO : la page qui vous salue « compatriote » est gérée par une société de Neihu et une instruction IA oubliée",
+    "description": "En février 2026, une page locale se présentant comme « Je suis de Taipei » a laissé, dans l’une de ses publications, une instruction IA non supprimée : « Supprimer les termes sensibles, renforcer le langage local taïwanais ». En suivant cette piste, on aboutit à une société liée à la famille Lin, installée dans un immeuble de Neihu, qui transforme les nouvelles de CTWANT et de Zhongtian en style « compatriote » et les diffuse via des pages se faisant passer pour des habitants de diverses villes. Elle ne fabrique pas de fausses nouvelles, elle retransmet de vraies nouvelles, mais l’origine et les flux financiers restent introuvables, et les meilleurs spécialistes taïwanais de la guerre cognitive s’exclament : ne vous précipitez pas pour poser des étiquettes.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Society/i-am-from",
+    "readingTime": 87,
+    "featured": false,
+    "date": "2026-06-05",
+    "path": "fr/Society/i-am-from.md"
+  },
+  {
     "title": "Jefe de distrito indígena de montaña en municipios especiales: el cargo autonómico electivo preservado por la reforma de 2014",
     "description": "El 25 de diciembre de 2014, el día en que Taoyuan fue elevada a municipio especial, el jefe del municipio rural de Fuxing estaba por perder su condición electiva: el efecto colateral de la elevación administrativa era privar a los pueblos indígenas de su autonomía. El Yuan Legislativo reformó con urgencia la Ley de Gobierno Local y creó el cargo de “distrito indígena de montaña en municipio especial”, para que todos los antiguos municipios rurales de montaña dentro de las seis grandes municipalidades siguieran eligiendo por voto popular a sus jefes de distrito y representantes distritales. Hay 6 en todo Taiwán, que abarcan comunidades de montaña con población mixta atayal, bunun, tsou, rukai, hakka y minnan. Es la materialización concreta, en el plano del sistema local, del mandato de las Disposiciones Adicionales de la Constitución de “proteger y desarrollar activamente las culturas de los pueblos indígenas”.",
     "category": "es",
@@ -34062,17 +33846,6 @@
   },
   {
     "title": "Justice environnementale et conflits NIMBY à Taïwan",
-    "description": "Une analyse de la répartition inégale des charges environnementales à Taïwan : des incinérateurs aux déchets nucléaires en passant par l'industrie pétrochimique, et les enjeux de justice sociale qui en découlent",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Society/environmental-justice-new",
-    "readingTime": 107,
-    "featured": false,
-    "date": "2026-03-20",
-    "path": "fr/Society/environmental-justice-new.md"
-  },
-  {
-    "title": "Justice environnementale et conflits NIMBY à Taïwan",
     "description": "Examen du phénomène de répartition inégale des charges environnementales à Taïwan, des conflits de type NIMBY liés aux incinérateurs, aux déchets nucléaires et à l'industrie pétrochimique, analyse des inégalités environnementales et des enjeux de justice sociale",
     "category": "fr",
     "tags": [],
@@ -34081,17 +33854,6 @@
     "featured": false,
     "date": "2026-03-20",
     "path": "fr/Society/environmental-justice.md"
-  },
-  {
-    "title": "Justice environnementale et conflits NIMBY à Taïwan",
-    "description": "Examen de la répartition inégale des charges environnementales à Taïwan : des incinérateurs aux déchets nucléaires en passant par la pétrochimie, analyse des conflits NIMBY, des inégalités environnementales et des enjeux de justice sociale.",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Society/taiwan-environmental-justice-nimby-conflicts",
-    "readingTime": 107,
-    "featured": false,
-    "date": "2026-03-20",
-    "path": "fr/Society/taiwan-environmental-justice-nimby-conflicts.md"
   },
   {
     "title": "Justice foncière et territoires traditionnels des peuples autochtones de Taïwan",
@@ -34309,17 +34071,6 @@
     "featured": false,
     "date": "2026-05-18",
     "path": "en/Geography/kinmen-county.md"
-  },
-  {
-    "title": "Kinmen-Matsu Guest House Contemporary Art Museum",
-    "description": "A Cold War military waystation that witnessed countless farewells and reunions, slept for twenty years, then was awakened by a father-daughter team to become Lonely Planet's top-rated art museum in Kaohsiung.",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Art/kinmen-matsu-guest-house-contemporary-art-museum",
-    "readingTime": 46,
-    "featured": false,
-    "date": "2026-03-22",
-    "path": "en/Art/kinmen-matsu-guest-house-contemporary-art-museum.md"
   },
   {
     "title": "Kjell Lindgren : de la naissance à Taipei à l'orbite basse, le médecin taïwanais d'origine qui jouait de la cornemuse dans l'espace",
@@ -34811,17 +34562,6 @@
     "featured": true,
     "date": "2026-03-19",
     "path": "fr/Technology/ai-development-in-taiwan.md"
-  },
-  {
-    "title": "L'évolution de la chanson taïwanaise en minnan : du répertoire des anciens à la scène indie",
-    "description": "De l'ère du nakashi et des grandes voix comme Hong Yi-feng et Chiang Hui, jusqu'aux groupes de la nouvelle génération comme Egg Plant Egg et Sorry Youth, retracez la trajectoire d'une musique qui a réinventé son image pour conquérir les jeunes et les milieux culturels.",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Music/taiwanese-language-song-evolution",
-    "readingTime": 45,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "fr/Music/taiwanese-language-song-evolution.md"
   },
   {
     "title": "L'évolution de la musique taïwanaise en langue taïwanaise : du « chant des anciens » à la coqueluche des jeunes intellectuels",
@@ -35981,24 +35721,6 @@
     "path": "fr/Culture/taiwan-baseball-culture.md"
   },
   {
-    "title": "La culture du bénévolat à Taïwan et l'engagement pour l'intérêt général : la bienveillance ordinaire d'une île",
-    "description": "30 femmes au foyer mettant cinq centimes de côté chaque jour, et 60 ans plus tard un empire philanthropique présent dans 128 pays — la culture bénévole de Taïwan n'est pas un slogan, c'est un ADN collectif inscrit dans le quotidien",
-    "category": "fr",
-    "tags": [
-      "bénévolat",
-      "organisations à but non lucratif",
-      "Tzu Chi",
-      "ONG",
-      "développement communautaire",
-      "mamans conteuses"
-    ],
-    "url": "https://taiwan.md/fr/Society/volunteer-culture-new",
-    "readingTime": 51,
-    "featured": false,
-    "date": "2026-03-28",
-    "path": "fr/Society/volunteer-culture-new.md"
-  },
-  {
     "title": "La culture du bénévolat et l'engagement d'intérêt public à Taïwan : la bonté quotidienne d'une île",
     "description": "30 femmes au foyer qui économisent cinquante centimes par jour, et 60 ans plus tard, un empire caritatif couvrant 128 pays — la culture du bénévolat taïwanais n'est pas un slogan, c'est un ADN collectif inscrit dans le quotidien",
     "category": "fr",
@@ -36125,17 +35847,6 @@
     "featured": false,
     "date": "2026-03-21",
     "path": "fr/Culture/taiwan-kuaikuai-culture.md"
-  },
-  {
-    "title": "La culture KTV à Taïwan : des grandes chaînes Holiday et Cashbox à l''ère du karaoké en salon privé",
-    "description": "Découvrez l''histoire de la culture KTV à Taïwan, depuis l''introduction du karaoké venu du Japon jusqu''à la culture locale des salons privatifs, la rivalité entre Holiday et Cashbox, le rôle des classements de chansons comme baromètre de la pop, et les défis de transformation de l''industrie après la pandémie.",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Music/ktv-karaoke-culture",
-    "readingTime": 77,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "fr/Music/ktv-karaoke-culture.md"
   },
   {
     "title": "La culture populaire des Penghu",
@@ -36450,23 +36161,6 @@
     "featured": false,
     "date": "2026-03-29",
     "path": "fr/Society/slash-generation-new.md"
-  },
-  {
-    "title": "La génération slash à Taïwan — survivre avec plusieurs métiers",
-    "description": "Quand un master ne suffit plus à payer un studio à Taipei, le cumul d'emplois n'est pas un choix de vie : c'est une équation de survie",
-    "category": "fr",
-    "tags": [
-      "génération slash",
-      "économie des petits boulots",
-      "salaires",
-      "immobilier",
-      "emploi des jeunes"
-    ],
-    "url": "https://taiwan.md/fr/Society/slash-generation",
-    "readingTime": 59,
-    "featured": false,
-    "date": "2026-03-29",
-    "path": "fr/Society/slash-generation.md"
   },
   {
     "title": "La Guerra de Yiwei: los 148 días de la República Democrática de Taiwán",
@@ -36797,17 +36491,6 @@
     "path": "fr/Art/taiwanese-experimental-and-new-media-art.md"
   },
   {
-    "title": "La máquina perpetua de donaciones: el experimento social de FAB DAO y el Proyecto Cien Cumbres",
-    "description": "Un médico que dejó su profesión cómo una bandera de línea de presión abrió una nueva imaginación para el bienestar público en Web3 en Taiwán. FAB DAO y el Proyecto Cien Cumbres redefinieron la esencia de la donación: coleccionar es donar, el arte es acción social.",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/Art/taiwanese-experimental-and-new-media-art",
-    "readingTime": 49,
-    "featured": false,
-    "date": "2026-03-24",
-    "path": "es/Art/taiwanese-experimental-and-new-media-art.md"
-  },
-  {
     "title": "La máquina perpetua de donaciones: FAB DAO y el experimento social del Proyecto Cien Cimas",
     "description": "Cómo un médico que dejó el hospital, con una bandera bordada con pelotas de béisbol, abrió una nueva imaginación para la filantropía Web3 en Taiwán. FAB DAO y el Proyecto Cien Cimas redefinen la esencia de la donación: coleccionar es donar, el arte es acción social.",
     "category": "es",
@@ -36859,17 +36542,6 @@
     "path": "fr/Music/taiwan-electronic-music-and-party-culture.md"
   },
   {
-    "title": "La musique hakka de Taïwan : entre transmission culturelle et renouveau, de la chanson de montagne au rock",
-    "description": "Un voyage au cœur de la musique hakka taïwanaise, des chansons de montagne traditionnelles et des ensembles de « huit sons » aux créations contemporaines de Lin Shengxiang et du groupe Jiaogang, en passant par les jalons marquants aux Golden Melody Awards.",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Music/hakka-music-heritage",
-    "readingTime": 51,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "fr/Music/hakka-music-heritage.md"
-  },
-  {
     "title": "La musique indépendante taïwanaise : comment un disquaire incapable de payer ses employés a ouvert les oreilles d'une île",
     "description": "De la reprise à perte de Crystal Records, endettée de trois cent mille dollars taïwanais, à la rupture de stock du premier tirage de No Party for Cao Dong dans un café. Trente-cinq ans de musique indépendante à Taïwan ne sont pas une revanche, mais un pari de longue horde : un groupe de personnes déterminées à faire entendre « les voix que personne ne voit ».",
     "category": "fr",
@@ -36879,23 +36551,6 @@
     "featured": true,
     "date": "2026-03-29",
     "path": "fr/Music/taiwan-independent-music-scene-evolution.md"
-  },
-  {
-    "title": "La musique nationale taïwanaise : des sonorités insulaires nées d''instruments chinois",
-    "description": "Le erhu et le pipa traversèrent le détroit en 1949 ; soixante-dix ans plus tard, ils résonnent à Taïwan sur les harmonies à huit voix des Bunun. Retour sur la métamorphose d''une musique, passée du symbole d''une légitimité politique à une espèce musicale distincte de son homologue continental.",
-    "category": "fr",
-    "tags": [
-      "musique nationale",
-      "musique traditionnelle",
-      "Orchestre national de Taipei",
-      "musique ethnique",
-      "fusion culturelle"
-    ],
-    "url": "https://taiwan.md/fr/Music/traditional-chinese-music",
-    "readingTime": 109,
-    "featured": false,
-    "date": "2026-04-03",
-    "path": "fr/Music/traditional-chinese-music.md"
   },
   {
     "title": "La musique nationale taïwanaise : des sons insulaires nés d'instruments chinois",
@@ -37353,23 +37008,6 @@
     "featured": true,
     "date": "2026-03-19",
     "path": "fr/Economy/industrial-transformation-from-manufacturing-to-innovation.md"
-  },
-  {
-    "title": "La transition démocratique à Taïwan — quand l'autoritarisme creuse sa propre tombe",
-    "description": "Chaque répression engendre davantage de résistants. De l'incident du 228 au mouvement des Tournesols, comment une île a conduit un régime dictatorial à former lui-même les forces qui allaient l'enterrer.",
-    "category": "fr",
-    "tags": [
-      "démocratie",
-      "justice transitionnelle",
-      "histoire politique",
-      "droits humains",
-      "mouvements sociaux"
-    ],
-    "url": "https://taiwan.md/fr/History/democratic-transition",
-    "readingTime": 105,
-    "featured": true,
-    "date": "2026-03-24",
-    "path": "fr/History/democratic-transition.md"
   },
   {
     "title": "La trucha de Formosa: el regreso de un relicto glacial, de la extinción inminente a un modelo de conservación de cuenca en Taiwán",
@@ -37882,23 +37520,6 @@
     "path": "fr/Food/golden-croissant.md"
   },
   {
-    "title": "Le dernier chant de l''île : la crise de la dénatalité à Taïwan",
-    "description": "Là où l''on aime le plus les enfants tout en étant le moins enclins à en avoir — derrière le taux de fécondité de 0,87, c''est tout l''édifice social de Taïwan qui se fissure",
-    "category": "fr",
-    "tags": [
-      "dénatalité",
-      "crise démographique",
-      "taux de fécondité",
-      "mutations sociales",
-      "générations"
-    ],
-    "url": "https://taiwan.md/fr/Society/low-birth-rate-crisis",
-    "readingTime": 78,
-    "featured": false,
-    "date": "2026-03-24",
-    "path": "fr/Society/low-birth-rate-crisis.md"
-  },
-  {
     "title": "Le dernier chant de l'île : la crise de la dénatalité à Taïwan",
     "description": "Là où l'on désire le moins avoir des enfants se trouve aussi le pays qui les aime le plus — derrière le taux de fécondité de 0,87, c'est tout l'édifice social de Taïwan qui s'effrite",
     "category": "fr",
@@ -38018,23 +37639,6 @@
     "featured": true,
     "date": "2026-04-13",
     "path": "fr/History/great-recall-movement-2024.md"
-  },
-  {
-    "title": "Le hip-hop et le rap à Taïwan : une scène en plein essor",
-    "description": "De Dazhi et MC HotDog à MJ116, Soft Lipa et Leo王, comment la culture hip-hop s'est enracinée à Taïwan et a conquis les Golden Melody Awards",
-    "category": "fr",
-    "tags": [
-      "musique",
-      "hip-hop",
-      "rap",
-      "Golden Melody Awards",
-      "musique pop"
-    ],
-    "url": "https://taiwan.md/fr/Music/hip-hop-and-rap-development",
-    "readingTime": 68,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "fr/Music/hip-hop-and-rap-development.md"
   },
   {
     "title": "Le lac du Soleil et de la Lune : sous 18,18 mètres d'eau, le cœur de Taïwan submergé et révélé",
@@ -38330,24 +37934,6 @@
     "featured": true,
     "date": "2026-05-07",
     "path": "fr/Society/paraguay-taiwan.md"
-  },
-  {
-    "title": "Le Pasibutbut : un fossile vivant qui remet en question l'histoire musicale occidentale",
-    "description": "En 1943, le musicologue japonais Ryūtarō Hattori enregistre dans les montagnes de Taïtung le Pasibutbut des peuples autochtones Bunun. Neuf ans plus tard, cet enregistrement parvient à l'UNESCO et stupéfie le monde de la musicologie : un peuple sans écriture avait développé un chant polyphonique que l'Occident croyait réservé aux civilisations les plus avancées.",
-    "category": "fr",
-    "tags": [
-      "peuple Bunun",
-      "musique autochtone",
-      "peuples autochtones",
-      "harmoniques",
-      "patrimoine culturel immatériel",
-      "culture taïwanaise"
-    ],
-    "url": "https://taiwan.md/fr/Music/bunun-pasibutbut",
-    "readingTime": 31,
-    "featured": true,
-    "date": "2026-04-01",
-    "path": "fr/Music/bunun-pasibutbut.md"
   },
   {
     "title": "Le paysage sonore de Taïwan",
@@ -38877,17 +38463,6 @@
   },
   {
     "title": "Lee Ju-eun",
-    "description": "From the 'AI goddess' viral moment to building a full-time career in Taiwan — her path is rewriting the imagination of how long Korean cheer squad members can stay in the CPBL",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/People/lee-ju-eun-singer",
-    "readingTime": 18,
-    "featured": false,
-    "date": "2026-04-14",
-    "path": "en/People/lee-ju-eun-singer.md"
-  },
-  {
-    "title": "Lee Ju-eun",
     "description": "From the \"AI goddess\" craze to her full-force move into Taiwan, her path has rewritten the imagination of Korean cheerleaders staying in Taiwan’s CPBL.",
     "category": "en",
     "tags": [],
@@ -39133,17 +38708,6 @@
     "featured": false,
     "date": "2026-03-18",
     "path": "fr/Food/taiwan-fermented-and-pickled-foods.md"
-  },
-  {
-    "title": "Les alliés diplomatiques de Taïwan et sa diplomatie internationale (état 2026)",
-    "description": "En 2026, Taïwan ne compte plus que 12 alliés officiels — de 70 à 12 pays : comment Taïwan maintient-il une présence internationale sans siège aux Nations Unies ?",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Society/diplomatic-allies",
-    "readingTime": 56,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "fr/Society/diplomatic-allies.md"
   },
   {
     "title": "Les animaux de compagnie des présidents taïwanais : des chiens-loups autoritaires de la résidence officielle à la résonance sociale du « premier chat »",
@@ -39646,25 +39210,6 @@
     "featured": false,
     "date": "2026-03-20",
     "path": "fr/Nature/taiwanese-indigenous-ecological-wisdom-conservation.md"
-  },
-  {
-    "title": "Les Super-Bêcheurs et la synchronicité insulaire : comment la culture du bénévolat en temps de catastrophe forge l'identité nationale taïwanaise",
-    "description": "À travers le prisme des inondations de Guangfu à Hualien en 2025, cet article examine le modèle unique de mobilisation bénévole taïwanais lors des catastrophes et la façon dont les réseaux sociaux redéfinissent le sentiment d'appartenance à la communauté insulaire, retraçant l'évolution de la résilience sociale du séisme de 1999 aux inondations de Hualien.",
-    "category": "fr",
-    "tags": [
-      "bénévolat en catastrophe",
-      "résilience sociale",
-      "inondations de Hualien",
-      "communauté insulaire",
-      "mobilisation citoyenne",
-      "réseaux sociaux",
-      "identité nationale"
-    ],
-    "url": "https://taiwan.md/fr/Society/disaster-volunteers-new",
-    "readingTime": 100,
-    "featured": false,
-    "date": "2026-03-24",
-    "path": "fr/Society/disaster-volunteers-new.md"
   },
   {
     "title": "Les Supermen à pelle et la synchronisation insulaire : comment la culture taïwanaise du bénévolat en cas de catastrophe façonne l'identité nationale",
@@ -40675,17 +40220,6 @@
     "path": "fr/Society/social-housing-and-housing-justice.md"
   },
   {
-    "title": "Logement social et justice résidentielle",
-    "description": "Comment Taïwan met en œuvre la justice résidentielle par le biais de sa politique de logement social, afin que chacun puisse disposer d'un lieu de vie digne",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Society/social-housing",
-    "readingTime": 27,
-    "featured": false,
-    "date": "2026-03-18",
-    "path": "fr/Society/social-housing.md"
-  },
-  {
     "title": "Loh Tsui Kang Commune : taïwanais, punk, paysans, et un trophée trente ans en retard",
     "description": "En 1989, un groupe de lycéens du lycée annexe de l’Université normale de Taïwan forme un groupe pour leur spectacle de fin d’études. Après l’arrivée de Ke Renjian (Xiao Ke), étudiant en droit à l’Université nationale de Taïwan, le groupe prend le nom de Loh Tsui Kang Commune. Pendant trente ans, ils chantent en taïwanais les politiciens, les paysans, le désir, les mouvements sociaux — exclus de l’université, jouant dans des salles underground, sans jamais entrer dans le courant dominant. L’année de leur dissolution, en 2020, leur album *Zhuanghuang* remporte le meilleur album en taïwanais aux 31e Golden Melody Awards, dès leur première nomination. Le soir de la cérémonie, le chanteur n’est pas là : il est désormais fonctionnaire des impôts.",
     "category": "fr",
@@ -41437,23 +40971,6 @@
     "path": "en/Society/media-and-press-freedom-in-taiwan.md"
   },
   {
-    "title": "Médias et liberté de la presse à Taïwan",
-    "description": "Du contrôle du parti-État à l'ère de la guerre des médias : le parcours démocratique de la liberté de la presse à Taïwan et les défis de la transformation numérique",
-    "category": "fr",
-    "tags": [
-      "médias",
-      "liberté de la presse",
-      "démocratisation",
-      "transformation numérique",
-      "éducation aux médias"
-    ],
-    "url": "https://taiwan.md/fr/Society/media-and-press-freedom",
-    "readingTime": 59,
-    "featured": false,
-    "date": "2026-03-18",
-    "path": "fr/Society/media-and-press-freedom.md"
-  },
-  {
     "title": "Médias taïwanais et liberté de la presse",
     "description": "Du contrôle partisan-étatique à l'ère de la guerre des médias : le processus de démocratisation de la liberté de la presse à Taïwan et les défis de la transformation numérique",
     "category": "fr",
@@ -42176,17 +41693,6 @@
     "featured": true,
     "date": "2026-03-18",
     "path": "fr/Society/social-movements-and-civic-participation.md"
-  },
-  {
-    "title": "Mouvements sociaux et participation citoyenne à Taïwan",
-    "description": "Du Mouvement des Lys sauvages au Mouvement des Tournesols : comment Taïwan pratique la démocratie et fait avancer le progrès social par la mobilisation citoyenne",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Society/social-movements",
-    "readingTime": 68,
-    "featured": true,
-    "date": "2026-03-18",
-    "path": "fr/Society/social-movements.md"
   },
   {
     "title": "Movimiento de placas tectónicas y actividad sísmica en Taiwán",
@@ -45653,15 +45159,7 @@
     "title": "Shen Pei-yang: He Studied China's Cognitive Warfare, Then China Put Him on Satellite Imagery",
     "description": "In 2021, Shen Pei-yang co-founded the Black Bear Academy with strategic scholar Ho Cheng-hui; Tsai Hsing-cheng donated 600 million NTD to support it, with the goal of training 3 million civilian defense volunteers in three years. In February 2024, he entered parliament as a Democratic Progressive Party (DPP) proportional representation legislator. On October 28, 2025, he became the first elected Taiwanese political figure investigated by China under the 'crime of splitting the country,' with CCTV airing a 'dossier' special warning 'the next one is you.' On New Year's Day 2026, a Chinese Weibo account used commercial satellite imagery to reveal the coordinates of his residence and workplace in Taipei; he spent Valentine's Day on a flight to France.",
     "category": "es",
-    "tags": [
-      "Cognitive Warfare",
-      "Black Bear Academy",
-      "Legislator",
-      "Chinas United Front Work against Taiwan",
-      "Doublethink Lab",
-      "Transnational Repression",
-      "Democratic Defense"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/es/People/puma-shen",
     "readingTime": 182,
     "featured": false,
@@ -45672,15 +45170,7 @@
     "title": "Shen Pei-yang: He Studied China's Cognitive Warfare, Then China Put Him on Satellite Imagery",
     "description": "In 2021, Shen Pei-yang co-founded the Black Bear Academy with strategic scholar Ho Cheng-hui; Tsai Hsing-cheng donated NT$600 million in support, with the goal of training 3 million civilian defense volunteers within three years. In February 2024, he entered the legislature as a Democratic Progressive Party (DPP) proportional representation legislator. On October 28, 2025, he became the first elected Taiwanese political figure to be investigated by China under the 'crime of splitting the country,' with CCTV airing a 'deep dive' special warning 'the next one is you.' On New Year's Day 2026, a Chinese Weibo account used commercial satellite imagery to publish the coordinates of his home and workplace in Taipei; he spent Valentine's Day on a flight to France.",
     "category": "ko",
-    "tags": [
-      "Cognitive Warfare",
-      "Black Bear Academy",
-      "Legislator",
-      "Chinas United Front Work against Taiwan",
-      "Doublethink Lab",
-      "Transnational Repression",
-      "Democratic Defense"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ko/People/puma-shen",
     "readingTime": 183,
     "featured": false,
@@ -45719,39 +45209,6 @@
     "featured": false,
     "date": "2026-03-24",
     "path": "en/People/shen-sheng-po.md"
-  },
-  {
-    "title": "Shen Wen-cheng : du mécanicien aéronautique de Ching Chuan Kang au chanteur aux deux prix d’or",
-    "description": "Shen Wen-cheng, artiste taïwanais doublement consacré, à la fois dans la musique et l’animation télévisée. Du mécanicien aéronautique de la fin de la guerre du Viêt Nam à l’interprète de 《心事誰人知》 devenu célèbre dans tout Taïwan, il a inscrit son nom aux Golden Melody Awards et aux Golden Bell Awards par sa sincérité et son humour.",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/People/shen-wen-cheng",
-    "readingTime": 37,
-    "featured": false,
-    "date": "2026-05-12",
-    "path": "fr/People/shen-wen-cheng.md"
-  },
-  {
-    "title": "Shen Wen-cheng: de mecánico aeronáutico en Ching Chuan Kang a rey de la canción con dos Oros",
-    "description": "Shen Wen-cheng, artista taiwanés galardonado tanto en la música como en la conducción televisiva. De mecánico de aviones al final de la guerra de Vietnam a figura popular en todo Taiwán con «¿Quién conoce mis penas?», inscribió su nombre en los Premios Golden Melody y Golden Bell con sinceridad y humor.",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/People/shen-wen-cheng",
-    "readingTime": 36,
-    "featured": false,
-    "date": "2026-05-12",
-    "path": "es/People/shen-wen-cheng.md"
-  },
-  {
-    "title": "Shen Wen-cheng: From Ching Chuan Kang Aircraft Mechanic to Double-Golden Singer",
-    "description": "Shen Wen-cheng is a Taiwanese artist whose career spans music and hosting, and who has won both Golden Melody and Golden Bell awards. From aircraft mechanic in the late Vietnam War era to the island-wide hit The Burdens on My Mind, he has inscribed his name in the Golden Melody and Golden Bell records through sincerity and humor.",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/People/shen-wen-cheng",
-    "readingTime": 33,
-    "featured": false,
-    "date": "2026-05-12",
-    "path": "en/People/shen-wen-cheng.md"
   },
   {
     "title": "Shen Wencheng : de mécanicien d’avions à Ching Chuan Kang à chanteur doublement primé",
@@ -47262,28 +46719,6 @@
     "path": "en/Food/taiwan-coffee-industry.md"
   },
   {
-    "title": "Taiwan Comics",
-    "description": "From the 1970s comic kingdom of Liu Hsing-Chin and Ao Yu-Hsiang, to Cheng Wen's 1991 conquest of Japan as 'Asia's treasure,' to Tsai Chih-Chung using Zhuangzi Speaks to bring classical philosophy to the masses via manga, to the Golden Comic Award in 2010 and CCC Creator's Collection in 2017 — Taiwan comics survived the squeeze from Japanese manga and are finding their own original voice.",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Art/taiwan-comics",
-    "readingTime": 68,
-    "featured": false,
-    "date": "2026-03-20",
-    "path": "en/Art/taiwan-comics.md"
-  },
-  {
-    "title": "Taiwan Comics and Animation Culture",
-    "description": "From the golden age of Comic King to the cultural renaissance of CCC Creative Collection, how Taiwan comics found their voice amid Japanese manga dominance",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Culture/taiwan-comics-and-animation-culture",
-    "readingTime": 51,
-    "featured": false,
-    "date": "2026-03-20",
-    "path": "en/Culture/taiwan-comics-and-animation-culture.md"
-  },
-  {
     "title": "Taiwan Companies: Chunghwa Telecom",
     "description": "Taiwan’s largest telecommunications operator, from state-owned monopoly to leader in digital transformation",
     "category": "en",
@@ -47293,17 +46728,6 @@
     "featured": false,
     "date": "2026-03-20",
     "path": "en/Economy/taiwan-companies-chunghwa-telecom.md"
-  },
-  {
-    "title": "Taiwan Companies: Giant Manufacturing",
-    "description": "From abandoned OEM slave to the hidden empire that sets global bicycle technology standards",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Economy/taiwan-companies-giant-manufacturing",
-    "readingTime": 81,
-    "featured": false,
-    "date": "2026-03-22",
-    "path": "en/Economy/taiwan-companies-giant-manufacturing.md"
   },
   {
     "title": "Taiwan Contemporary Art",
@@ -47663,26 +47087,15 @@
     "path": "en/Food/hand-shaken-drink-culture.md"
   },
   {
-    "title": "Taiwan Healthcare and National Health Insurance",
-    "description": "The paradoxical miracle of 99% coverage: how Taiwan's system ranked #1 globally by Numbeo for six consecutive years is sustained on the blood and sweat of its medical workforce",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Lifestyle/taiwan-healthcare-and-national-health-insurance",
-    "readingTime": 43,
-    "featured": true,
-    "date": "2026-03-30",
-    "path": "en/Lifestyle/taiwan-healthcare-and-national-health-insurance.md"
-  },
-  {
     "title": "Taiwan Healthcare and National Health Insurance: A World No. 1 with 99.6% Sustained by 12.61%",
     "description": "The National Health Insurance card for March 1, 1995 was rushed out under emergency pressure: six days earlier, even the cards had not been printed. Thirty years later, the medical-care rights of 23 million people rest on a 5.17% premium rate, a ten-year-high nursing turnover rate of 12.61%, and a political taboo no one has dared touch for 30 years.",
     "category": "en",
     "tags": [],
-    "url": "https://taiwan.md/en/Lifestyle/Taiwan%20Healthcare%20and%20National%20Health%20Insurance",
+    "url": "https://taiwan.md/en/Lifestyle/taiwan-healthcare-and-national-health-insurance",
     "readingTime": 215,
     "featured": true,
     "date": "2026-06-04",
-    "path": "en/Lifestyle/Taiwan Healthcare and National Health Insurance.md"
+    "path": "en/Lifestyle/taiwan-healthcare-and-national-health-insurance.md"
   },
   {
     "title": "Taiwan High Speed Rail: From 'Zero Government Funding' to State-Owned Private Operation — 20 Years of Compressing 90 Minutes",
@@ -48208,17 +47621,6 @@
     "featured": true,
     "date": "2026-03-25",
     "path": "en/Culture/taiwan-tea-ceremony-and-aesthetic-living.md"
-  },
-  {
-    "title": "Taiwan Tea Culture",
-    "description": "A small island excluded from the international tea production agreement unexpectedly created a golden age for its tea industry, then ultimately conquered the world with a drink containing 'little snacks.'",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Food/tea-culture",
-    "readingTime": 41,
-    "featured": true,
-    "date": "2026-03-23",
-    "path": "en/Food/tea-culture.md"
   },
   {
     "title": "Taiwan Television Industry History: From the \"Big Three\" to the Gentle Revolution of Qseries",
@@ -48814,17 +48216,6 @@
   },
   {
     "title": "Taiwan's Education System: From Exam Hell to the Maze of Diversity",
-    "description": "Taiwan spent 30 years dismantling the joint university entrance exam, only to watch cram-school enrollment double again after the new curriculum launched. How does a small island keep running its social experiment between academic pressure and educational equity?",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Lifestyle/taiwan-education-system-overview",
-    "readingTime": 70,
-    "featured": true,
-    "date": "2026-03-23",
-    "path": "en/Lifestyle/taiwan-education-system-overview.md"
-  },
-  {
-    "title": "Taiwan's Education System: From Exam Hell to the Maze of Diversity",
     "description": "Taiwan spent 30 years trying to abolish its brutal university entrance exam system, only to see cram school enrollments double in 2022. How an island repeatedly experiments with balancing exam pressure and educational equity.",
     "category": "en",
     "tags": [],
@@ -48884,6 +48275,17 @@
     "featured": false,
     "date": "2026-06-08",
     "path": "es/Society/taiwan-generations.md"
+  },
+  {
+    "title": "Taiwan's Fifth to Ninth Grade Generations: The 'Strawberry' Insult Has Swapped Three Generations, While the Escalator Beneath Their Feet Has Slanted",
+    "description": "When the term 'Strawberry Generation' was first printed in 1993, it targeted the fifth-grade generation who loved nostalgia and Yakult the most today. Over thirty years, the people being insulted have changed several times, but the label remained unchanged. What truly moved between the fifth and ninth grades was the escalator of 'hard work pays off': it slowed down around 2002, its entrance was raised by housing prices, and then it split into two. The one relying solely on salaries has nearly stopped, while the one relying on parental capital is still moving.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Society/taiwan-generations",
+    "readingTime": 126,
+    "featured": false,
+    "date": "2026-06-08",
+    "path": "fr/Society/taiwan-generations.md"
   },
   {
     "title": "Taiwan's Fifth to Ninth Grade Generations: The 'Strawberry' Insult Swapped Three Batches of People Over Thirty Years, While the Escalator Beneath Their Feet Slanted Away",
@@ -49053,23 +48455,6 @@
     "featured": false,
     "date": "2026-05-02",
     "path": "fr/History/taiwan-emigration-history.md"
-  },
-  {
-    "title": "Taiwan’s Ice Culture",
-    "description": "From Yujing mango snow to the shaved-ice revolution, why Taiwan eats ice year‑round",
-    "category": "en",
-    "tags": [
-      "ice desserts",
-      "mango ice",
-      "snow ice",
-      "shaved ice",
-      "ICE MONSTER"
-    ],
-    "url": "https://taiwan.md/en/Food/taiwan-ice-culture",
-    "readingTime": 22,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "en/Food/taiwan-ice-culture.md"
   },
   {
     "title": "Taiwan's Indigenous Language Revitalization Movement",
@@ -49318,6 +48703,17 @@
     "featured": false,
     "date": "2026-06-07",
     "path": "es/Society/taiwan-nuclear-debate.md"
+  },
+  {
+    "title": "Taiwan's Nuclear Debate: Anti-nuclearism was once the common language of the democratic movement, but the climate crisis has reshuffled the deck for everyone",
+    "description": "In August 2025, 4.34 million people voted 'yes' to 'restarting Nuclear Power Plant No. 3,' winning by 74%, but lost because the voter turnout did not meet the threshold. Over forty years and three referendums, Taiwan moved from an anti-nuclear consensus to a 'nuclear-free homeland,' only to push the shut-down reactor back toward restart within three months. This debate has long transcended the binary of 'is nuclear energy good or bad'; it is about how a society decides on an issue with conflicting time pressures: nuclear waste must be stable for 100,000 years, carbon reduction must be achieved within ten years, and power shortages are happening right now.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Society/taiwan-nuclear-debate",
+    "readingTime": 199,
+    "featured": false,
+    "date": "2026-06-07",
+    "path": "fr/Society/taiwan-nuclear-debate.md"
   },
   {
     "title": "Taiwan's Nuclear Debate: Anti-nuclearism was once the shared language of the democratic movement, but the climate crisis has reshuffled every hand",
@@ -49860,21 +49256,6 @@
     "featured": true,
     "date": "2026-03-28",
     "path": "en/Art/taiwanese-architecture.md"
-  },
-  {
-    "title": "Taiwanese Architecture: Multicultural Layers",
-    "description": "From stone slab houses to skyscrapers: a time-travel through 400 years of architecture on a multicultural island. Paiwan slate dwellings, Moriyama Matsunosuke's (森山松之助) colonial red-brick landmarks, Wang Ta-hung's (王大閎) Harvard-trained modernism, the 660-ton damper inside Taipei 101, and Huang Sheng-yuan's (黃聲遠) wall-less public buildings in Yilan rice fields — each era carved its own grammar into this island.",
-    "category": "en",
-    "tags": [
-      "architecture",
-      "culture",
-      "history"
-    ],
-    "url": "https://taiwan.md/en/Art/taiwanese-architecture-multicultural-layers",
-    "readingTime": 101,
-    "featured": true,
-    "date": "2026-03-18",
-    "path": "en/Art/taiwanese-architecture-multicultural-layers.md"
   },
   {
     "title": "Taiwanese Bando: The Martial Field That Opens Tables Amidst Rainstorms, and a Human-Ghost-Spirit Trinity Fading Away",
@@ -51041,6 +50422,17 @@
     "path": "en/Technology/east-asian-input-methods.md"
   },
   {
+    "title": "The Complex Life Festival: Two Medical Students' 'Unsuccessful People's Forum' and a Generation's Five-Year Refusal to Admit They Are Good Enough",
+    "description": "In May 2016, Hsiao Hao-ning posted a string of 'eighth-generation' (born 1988–1997) millennials on Facebook who 'made life exhausting,' and together with his classmate Huang Tou-ni (Huang Yen-lin) launched the first 'Unsuccessful People's Forum.' A traditional Chinese medicine practitioner and a Western medicine doctor who later went to Harvard rewrote the previous generation's commercially co-opted 'simplicity' into 'complexity,' allowing only discussions of 'growth' and forbidding discussions of 'success.' Five years later, the soul remained in Taichung to open a bookstore and ran for city councilor but lost; the assistant looked back and called it 'Hao-ning's masterpiece, sealed here': Was 'unsuccessful' merely a humble term, or a self-expectation of a generation that always fell short by just a little bit?",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Society/complex-life-festival",
+    "readingTime": 241,
+    "featured": false,
+    "date": "2026-06-07",
+    "path": "fr/Society/complex-life-festival.md"
+  },
+  {
     "title": "The Complex Life Festival: Two Medical Students' 'Unsuccessful People's Forum' and a Generation's Five-Year Refusal to Say They Are Good Enough",
     "description": "In May 2016, Hsu Hao-ning tagged a string of 'eighties' (born 1981-1990) who 'made life very tiring' on Facebook, and together with his classmate Huang Tou-ni (Huang Yen-lin), organized the first 'Unsuccessful People's Forum'. A TCM doctor and a Western medicine doctor who later went to Harvard rewrote the previous generation's commercially co-opted 'simplicity' into 'complexity', allowing only talk of 'growth' but not 'success'. Five years later, the soul remained in Taichung to open a bookstore and ran for city councilor, losing; the assistant looked back and called it 'Hao-ning's masterpiece, sealed here': Was 'unsuccessful' a modest term, or a self-expectation of a generation that is always just a little bit short? ",
     "category": "es",
@@ -51194,17 +50586,6 @@
     "path": "en/Culture/taiwan-mandarin-evolution.md"
   },
   {
-    "title": "The Evolution of Taiwan's Independent Music Scene",
-    "description": "From underground bands to a full indie ecosystem, how Taiwan's non-mainstream music grew over four decades-and what it says about society",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Music/taiwan-independent-music-scene-evolution",
-    "readingTime": 37,
-    "featured": true,
-    "date": "2026-03-18",
-    "path": "en/Music/taiwan-independent-music-scene-evolution.md"
-  },
-  {
     "title": "The Evolution of Taiwanese Hokkien Songs: From \"Old Man''s Music\" to Indie Darling",
     "description": "Tracing the evolution of Taiwanese Hokkien songs from the nakashi era, the golden age of Hung I-feng and Jody Chiang, to the new-generation bands such as Eggplant Egg, Sorry Youth, and Collage — exploring how Hokkien music has regained the identity of younger generations.",
     "category": "en",
@@ -51236,17 +50617,6 @@
     "featured": false,
     "date": "2026-03-31",
     "path": "en/History/kaohsiung-incident-formosa-incident.md"
-  },
-  {
-    "title": "The Formosan Black Bear: Last King of the Forests",
-    "description": "The white 'V' on its chest is its signature—discover the story of Taiwan's largest carnivore and the ongoing battle for its survival.",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Nature/taiwan-black-bear-guardian-of-forests",
-    "readingTime": 21,
-    "featured": true,
-    "date": "2026-03-20",
-    "path": "en/Nature/taiwan-black-bear-guardian-of-forests.md"
   },
   {
     "title": "The Formosan Landlocked Salmon: A Glacial Relict's Journey Home — From the Brink of Extinction to Taiwan's Watershed Conservation Miracle",
@@ -51968,23 +51338,6 @@
     "path": "es/Music/indigenous-music-traditions.md"
   },
   {
-    "title": "Traditions musicales des peuples autochtones de Taïwan",
-    "description": "Plongée dans la richesse musicale des 16 peuples autochtones de Taïwan : des chants ancestraux aux instruments traditionnels, un héritage culturel millénaire",
-    "category": "fr",
-    "tags": [
-      "peuples autochtones",
-      "musique traditionnelle",
-      "transmission culturelle",
-      "instruments de musique",
-      "cérémonies"
-    ],
-    "url": "https://taiwan.md/fr/Music/indigenous-musical-traditions",
-    "readingTime": 57,
-    "featured": true,
-    "date": "2026-03-18",
-    "path": "fr/Music/indigenous-musical-traditions.md"
-  },
-  {
     "title": "Trail Culture and Civic Stewardship in Taiwan",
     "description": "From the Thousand Miles Trail Association to the iTrail platform, Taiwan’s hiking paths reveal a unique culture of civic science, volunteer care, and ecological ethics.",
     "category": "en",
@@ -52322,24 +51675,6 @@
     "featured": false,
     "date": "2026-03-31",
     "path": "fr/People/yani-tseng.md"
-  },
-  {
-    "title": "TSMC: The Factory the World Can't Live Without",
-    "description": "A 56-year-old man founded a company built on an idea nobody believed in. It now manufactures the chips inside every iPhone, every AI server, and every geopolitical argument about Taiwan.",
-    "category": "en",
-    "tags": [
-      "Economy",
-      "Business",
-      "Semiconductors",
-      "Technology",
-      "Manufacturing",
-      "TSMC"
-    ],
-    "url": "https://taiwan.md/en/Economy/tsmc-taiwan-semiconductor",
-    "readingTime": 46,
-    "featured": true,
-    "date": "2026-03-25",
-    "path": "en/Economy/tsmc-taiwan-semiconductor.md"
   },
   {
     "title": "Túnel Hsuehshan: de una «misión imposible» al milagro de sangre y lágrimas de la ingeniería taiwanesa",
@@ -52975,26 +52310,6 @@
     "featured": false,
     "date": "2026-04-29",
     "path": "es/Society/mainlanders-in-taiwan.md"
-  },
-  {
-    "title": "Wang Chi-Lin and Lee Yang (The Golden Duo)",
-    "description": "From middle school classmates to Olympic gold: The \"Golden Duo\" defeated China in straight sets within 34 minutes, writing Taiwan badminton\\'s first Olympic gold medal",
-    "category": "en",
-    "tags": [
-      "athletes",
-      "Wang Chi-Lin",
-      "Lee Yang",
-      "Golden Duo",
-      "badminton",
-      "Tokyo Olympics",
-      "Paris Olympics",
-      "gold medal"
-    ],
-    "url": "https://taiwan.md/en/golden-duo-chi-lin-yang",
-    "readingTime": 47,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "en/golden-duo-chi-lin-yang.md"
   },
   {
     "title": "Wang Chi-lin and Lee Yang (The Lin-Yang Duo)",
@@ -54728,6 +54043,17 @@
   },
   {
     "title": "Za School: A Free Exhibition Founded with Blown Savings, Opened by the Vice President 11 Years Later",
+    "description": "On May 9-10, 2015, Su Yang-chih used 1.5 million in profits from his design company to host the 'Not-So-Obedient Education Festival,' ultimately losing 7 million. Eleven years later, Za School moved into the Taipei International Convention Center (TICC) at the Huashan 1914 Cultural and Creative Park to co-host IDEC, and rebranded as 'EDit' to move into the Taoyuan Convention Center. This Taiwan case study, which grew from a free, rebellious exhibition into Asia's largest education fair, is most interesting not for its growth, but for whether its 'not-so-obedient' spirit has been compromised after becoming large.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Society/za-school",
+    "readingTime": 108,
+    "featured": false,
+    "date": "2026-05-05",
+    "path": "es/Society/za-school.md"
+  },
+  {
+    "title": "Za School: A Free Exhibition Founded with Blown Savings, Opened by the Vice President 11 Years Later",
     "description": "In 2015, at Huashan 1914, Su Yang-chih used 1.5 million in profits from his design company to host the 'Not Very Obedient Education Festival,' ultimately losing 7 million. Eleven years later, Za School moved into the Taipei Flower Expo Park to co-host IDEC, and rebranded as 'EDit' to move into the Taoyuan Convention and Exhibition Center. This Taiwan case, which grew from a free 'rebel' exhibition into Asia's largest education fair, is most interesting not because it grew big, but because of whether the 'not very obedient' spirit survived after growing up.",
     "category": "ko",
     "tags": [],
@@ -54736,6 +54062,17 @@
     "featured": false,
     "date": "2026-05-05",
     "path": "ko/Society/za-share.md"
+  },
+  {
+    "title": "Za School: A Free Exhibition Funded by Bankrupt Savings, Opened by the Vice President 11 Years Later",
+    "description": "In 2015, during the Huashan 1914 event, Su Yang-chih used 1.5 million in profit from his design company to host the 'Not Quite Obedient Education Festival,' ultimately losing 7 million. Eleven years later, Za School moved into the Taipei International Convention Center at Yuanshan Flower Expo to co-host IDEC, and rebranded as 'EDit' to settle in the Taoyuan Convention Center. This Taiwan case, which grew from a free, rebellious exhibition into Asia's largest education expo, is most interesting not for its scale, but for whether its 'not quite obedient' spirit has been compromised after growing so large.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Society/za-school",
+    "readingTime": 109,
+    "featured": false,
+    "date": "2026-05-05",
+    "path": "fr/Society/za-school.md"
   },
   {
     "title": "Za School: A Free Exhibition Funded by Bankrupt Savings, Opened by the Vice President 11 Years Later",
@@ -54758,28 +54095,6 @@
     "featured": false,
     "date": "2026-05-05",
     "path": "en/Society/za-share.md"
-  },
-  {
-    "title": "ZA SHARE : l'exposition gratuite qui a ruiné les économies de son fondateur, inaugurée 11 ans plus tard par le vice-président",
-    "description": "En deux jours à Huashan 1914 en 2015, Su Yangzhi a utilisé 1,5 million de TWD de bénéfices de son agence de design pour organiser le « Festival de l'éducation pas trop sage », et a finalement perdu 7 millions de TWD. Onze ans plus tard, ZA SHARE a investi le parc floral de Yuanshan pour co-organiser l'IDEC, puis s'est rebaptisé « EDit » pour s'installer au centre de conventions de Taoyuan. Le cas taïwanais d'une exposition dissidente gratuite devenue le plus grand salon de l'éducation d'Asie : le plus intéressant n'est pas qu'elle ait grandi, mais de savoir si l'esprit « pas trop sage » qui a survécu à cette croissance s'est dilué.",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Society/za-share",
-    "readingTime": 120,
-    "featured": false,
-    "date": "2026-05-05",
-    "path": "fr/Society/za-share.md"
-  },
-  {
-    "title": "ZA SHARE: la exposición gratuita que fundió sus ahorros y 11 años después tuvo al vicepresidente en la inauguración",
-    "description": "En aquellos dos días de mayo de 2015 en Huashan 1914, Su Yangzhi destinó 1.500.000 de los excedentes de su empresa de diseño para organizar el \"Festival de la Educación Poco Obediente\" y terminó perdiendo 7.000.000. Once años después, ZA SHARE se instaló en el Parque de Exposiciones Florales de Yuanshan para coorganizar el IDEC, y tras una rebranding como \"EDit\" se mudó al Centro de Convenciones y Exposiciones de Taoyuan. Este caso taiwanés —de una exposición gratuita de rebelión convertida en la feria educativa más grande de Asia— no resulta interesante porque creció, sino porque la pregunta de si lo \"poco obediente\" que sobrevivió al crecimiento se sigue manteniendo intacta.",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/Society/za-share",
-    "readingTime": 117,
-    "featured": false,
-    "date": "2026-05-05",
-    "path": "es/Society/za-share.md"
   },
   {
     "title": "Zheng Nanrong : l'équation d'un fils de continent qui échangea sa vie contre la liberté d'expression",
@@ -56290,25 +55605,6 @@
     "featured": true,
     "date": "2026-03-23",
     "path": "ko/Geography/national-scenic-area-system.md"
-  },
-  {
-    "title": "대만 국방과 군사 현대화",
-    "description": "2025년 10월, 라이칭더가 후커우에서 M1A2T 전차 대대 창설을 주재했다. 같은 달 전 참모총장 리시밍은 쓴웃음을 지으며 말했다. '전차도 비대칭 무기일 수 있다면, 비대칭 무기가 아닌 게 어디 있겠는가.' 이는 한 섬이 두 가지 국방 논리 사이에서 끌려가는 이야기다.",
-    "category": "ko",
-    "tags": [
-      "국방",
-      "군사",
-      "비대칭전",
-      "호저전략",
-      "드론",
-      "병역",
-      "전민방위"
-    ],
-    "url": "https://taiwan.md/ko/Society/taiwan-defense-military-modernization",
-    "readingTime": 53,
-    "featured": false,
-    "date": "2026-04-10",
-    "path": "ko/Society/taiwan-defense-military-modernization.md"
   },
   {
     "title": "대만 국제무역 정책: 세계화의 흐름 속에서 위치를 모색하다",
@@ -59806,23 +59102,6 @@
     "path": "ko/History/formosa-incident.md"
   },
   {
-    "title": "메이리다오 사건",
-    "description": "반대 운동을 완전히 무너뜨려야 했던 군사 재판이, 공개 중계로 인해 의외로 대만 민주의 가장 강력한 홍보 영상이 되었습니다.",
-    "category": "ko",
-    "tags": [
-      "역사",
-      "민주화",
-      "인권",
-      "당외 운동",
-      "계엄"
-    ],
-    "url": "https://taiwan.md/ko/History/kaohsiung-incident-formosa-incident",
-    "readingTime": 32,
-    "featured": false,
-    "date": "2026-03-31",
-    "path": "ko/History/kaohsiung-incident-formosa-incident.md"
-  },
-  {
     "title": "명간 부중차: 타이완 수요음료 80%를 떠받치는 \"무명 영웅\"",
     "description": "2025년 명간 소각장 논란이 타이완 수요음료 기저차의 80%가 난투 현 명간에서 유래한다는 사실을 우연히 드러냈다. 청대 \"삼부중\"의 명성에서 1975년 \"송백장청차(松柏長青茶)\"로 개명하기까지, 해발 고도 400m에 불과한 이 얕은 산지는 소각장 부지 선정을 둘러싸고 차향(茶鄉)의 생존권을 지키는 치열한 싸움에 직면해 있다.",
     "category": "ko",
@@ -60224,17 +59503,6 @@
     "path": "ko/Society/social-movements-and-civic-participation.md"
   },
   {
-    "title": "사회운동과 시민 참여",
-    "description": "야생 백합에서 해바라기까지, 대만이 사회운동을 통해 민주주의를 실천하고 사회 진보를 이끌어온 역사",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/Society/social-movements",
-    "readingTime": 23,
-    "featured": true,
-    "date": "2026-03-18",
-    "path": "ko/Society/social-movements.md"
-  },
-  {
     "title": "사회적 상처가 집단 치유로 변하다: 대만 밈 문화의 사회 안전밸브 메커니즘",
     "description": "「제이 형, 제발 그만!」에서 「통신이 전골 나르기」까지, 대만 밈은 단순한 오락이 아니라 부끄러움, 트라우마, 불안을 집단적 치유 의식으로 전환하는 정교한 사회 스트레스 해소 시스템이다.",
     "category": "ko",
@@ -60455,17 +59723,6 @@
     "featured": false,
     "date": "2026-05-12",
     "path": "ko/People/shen-wencheng.md"
-  },
-  {
-    "title": "선원청: 칭취안강 항공기 정비사에서 금곡·금종 가왕으로",
-    "description": "선원청은 타이완에서 음악과 진행을 넘나든 금곡·금종 수상 예인이다. 베트남전 말기의 항공기 정비사에서 전 타이완을 휩쓴 《마음속 일을 누가 알까》의 가수로, 그는 진정성과 유머로 금곡상과 금종상에 이름을 새겼다.",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/People/shen-wen-cheng",
-    "readingTime": 15,
-    "featured": false,
-    "date": "2026-05-12",
-    "path": "ko/People/shen-wen-cheng.md"
   },
   {
     "title": "섬의 마지막 노래: 대만 저출생 위기 심층 분석",
@@ -66221,22 +65478,5 @@
     "featured": false,
     "date": "2026-04-27",
     "path": "ja/History/rover-incident-and-tauketok.md"
-  },
-  {
-    "title": "ワイルドリリー学運（1990年）",
-    "description": "大学生が中正紀念堂に座り込んで7日間——40年間そのままだった憲政の構造に、学生が直接揺さぶりをかけた1990年春の物語",
-    "category": "ja",
-    "tags": [
-      "社会",
-      "歴史",
-      "学生運動",
-      "民主化",
-      "市民運動"
-    ],
-    "url": "https://taiwan.md/ja/Society/wild-lily-movement",
-    "readingTime": 16,
-    "featured": false,
-    "date": "2026-03-23",
-    "path": "ja/Society/wild-lily-movement.md"
   }
 ]
