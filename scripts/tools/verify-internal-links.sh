@@ -71,19 +71,20 @@ LANG_SWITCHER_LABELS = {"中文", "English", "日本語", "한국어",
                         "Switch to English", "Switch to 中文",
                         "Switch to 日本語", "Switch to 한국어"}
 
-LANG_PREFIXES = ["/en/", "/ja/", "/ko/"]
+LANG_PREFIXES = ["/en/", "/ja/", "/ko/", "/es/", "/fr/"]
 
 # Broken ratio must be below this to pass.
-# Temporarily raised 1.0 → 7.0 on 2026-05-04 jovial-feistel session because
-# PR #868 wired postbuild:internal-links into npm postbuild lifecycle for the
-# first time, surfacing ~5.7% of long-accumulated translator-invented broken
-# slugs (913 violations / 427 unique targets, mostly JA/FR articles linking
-# to slugs that don't exist in their language). The article-health
-# `link-target` plugin (Phase 2 existence check) catches them at source-layer.
-# TODO: drive ratio back below 1.0 by either translating missing articles,
-# rewriting links to zh-TW originals, or stripping broken cross-refs. Tighten
-# this threshold step-by-step as the backlog clears.
-THRESHOLD_PERCENT = 7.0
+# History: 1.0 → 7.0 on 2026-05-04 (jovial-feistel) as a "temporary" raise when
+# postbuild wiring first surfaced ~5.7% accumulated broken slugs; the temporary
+# number then drifted into de-facto spec while ROUTINE.md still said 1%
+# (audit 2026-06-10 finding R-5 / decision D-3).
+# 7.0 → 2.0 on 2026-06-10: calibrated against real output (REFLEXES #66) —
+# measured ratio that day was 0.00% post zombie-dedup + orphan heals, so 2.0
+# keeps slack for babel transients without masking regressions. Also added
+# /es/ /fr/ to LANG_PREFIXES (they were never sampled — silent blind spot).
+# Babel 大 wave 期可顯式覆寫（必須在 routine memory 記一筆，不准靜默常態化）：
+#   BROKEN_LINK_THRESHOLD=7 bash scripts/tools/verify-internal-links.sh ...
+THRESHOLD_PERCENT = float(os.environ.get("BROKEN_LINK_THRESHOLD", "2.0"))
 
 
 # ── HTML parser ──────────────────────────────────────────────────
@@ -331,6 +332,18 @@ def main():
     total_broken = len(broken_links)
     broken_ratio = (total_broken / total_internal * 100) if total_internal else 0.0
 
+    # Staged-promotion gating (audit 2026-06-10 D-3, REFLEXES #66b):
+    # es/fr were never sampled before today (LANG_PREFIXES blind spot) and have
+    # an unhealed backlog (fr frontmatter session pending) — they run in
+    # REPORT-ONLY mode: measured + printed loudly, but excluded from the CI
+    # gate ratio until healed, then promoted into GATED (remove from set).
+    REPORT_ONLY_LANGS = {"es", "fr"}
+    gated_total = sum(1 for _, h, _, _ in all_links
+                      if lang_prefix(h) not in REPORT_ONLY_LANGS)
+    gated_broken = sum(1 for _, h, _, _ in broken_links
+                       if lang_prefix(h) not in REPORT_ONLY_LANGS)
+    gated_ratio = (gated_broken / gated_total * 100) if gated_total else 0.0
+
     # Per-language breakdown
     lang_stats = defaultdict(lambda: {"total": 0, "broken": 0})
     for _, href, _, _ in all_links:
@@ -360,10 +373,11 @@ def main():
     # Summary
     print(f"  Total internal links checked : {total_internal}")
     print(f"  Total broken links           : {total_broken}")
-    print(f"  Broken ratio                 : {broken_ratio:.2f}%")
+    print(f"  Broken ratio (all langs)     : {broken_ratio:.2f}%")
+    print(f"  Gated ratio (excl es/fr)     : {gated_ratio:.2f}%  [{gated_broken}/{gated_total}]")
     print(f"  Unique broken targets        : {len(unique_broken)}")
     print(f"  Threshold (CI gate)          : < {THRESHOLD_PERCENT}%")
-    result = "PASS" if broken_ratio < THRESHOLD_PERCENT else "FAIL"
+    result = "PASS" if gated_ratio < THRESHOLD_PERCENT else "FAIL"
     print(f"  Result                       : {result}")
     print()
 
@@ -374,7 +388,8 @@ def main():
     for lp in sorted(lang_stats.keys()):
         s = lang_stats[lp]
         r = (s["broken"] / s["total"] * 100) if s["total"] else 0.0
-        print(f"  {lp:>8s}  total: {s['total']:>6d}  broken: {s['broken']:>5d}  ratio: {r:.2f}%")
+        tag = "  [REPORT-ONLY 未進 gate — 待 heal 後 promote]" if lp in REPORT_ONLY_LANGS else ""
+        print(f"  {lp:>8s}  total: {s['total']:>6d}  broken: {s['broken']:>5d}  ratio: {r:.2f}%{tag}")
     print()
 
     # Category breakdown
@@ -425,9 +440,9 @@ def main():
     # ── Final verdict ────────────────────────────────────────────
     print(sep)
     if result == "PASS":
-        print(f"  PASSED — broken ratio {broken_ratio:.2f}% < {THRESHOLD_PERCENT}%")
+        print(f"  PASSED — gated broken ratio {gated_ratio:.2f}% < {THRESHOLD_PERCENT}% (all-langs {broken_ratio:.2f}%)")
     else:
-        print(f"  FAILED — broken ratio {broken_ratio:.2f}% >= {THRESHOLD_PERCENT}%")
+        print(f"  FAILED — gated broken ratio {gated_ratio:.2f}% >= {THRESHOLD_PERCENT}% (all-langs {broken_ratio:.2f}%)")
     print(sep)
 
     sys.exit(0 if result == "PASS" else 1)

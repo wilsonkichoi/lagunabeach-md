@@ -333,7 +333,7 @@ prompt: |
 quality_gate:
   - open issues 都有 status label / assignee
   - contributor PR 都走完 §Close 前 hard gate decision matrix
-  - broken-link ratio < 1% (REFLEXES #52 immune fail-loud)
+  - broken-link gated ratio < 2%（gated = en/ja/ko/zh-TW；es/fr REPORT-ONLY 待 heal 後 promote。閾值 canonical 在 verify-internal-links.sh THRESHOLD_PERCENT，2026-06-10 audit D-3 用實測 0.00% 校準，babel 大 wave 可 BROKEN_LINK_THRESHOLD=7 顯式覆寫並記 memory — REFLEXES #52 + #66）
   - build green (alternate cycles 跑)
 escalation:
   - 1 cycle quality gate fail → daily report，觀察者下次 session 看；不暫停 routine
