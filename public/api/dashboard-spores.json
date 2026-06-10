@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T22:13:03.230965Z",
+  "lastUpdated": "2026-06-10T22:46:51.241308Z",
   "schemaVersion": "1.1",
   "totals": {
     "count": 125,
@@ -1481,8 +1481,8 @@
       "publishDate": "2026-06-03",
       "daysSincePublish": 8,
       "withinHarvestWindow": false,
-      "harvestCount": 2,
-      "lastHarvest": "2026-06-10 06:30"
+      "harvestCount": 3,
+      "lastHarvest": "2026-06-11 06:30"
     },
     {
       "n": 114,
@@ -1501,8 +1501,8 @@
       "publishDate": "2026-06-03",
       "daysSincePublish": 8,
       "withinHarvestWindow": false,
-      "harvestCount": 2,
-      "lastHarvest": "2026-06-10 06:30"
+      "harvestCount": 3,
+      "lastHarvest": "2026-06-11 06:30"
     },
     {
       "n": 116,
@@ -1521,8 +1521,8 @@
       "publishDate": "2026-06-03",
       "daysSincePublish": 8,
       "withinHarvestWindow": false,
-      "harvestCount": 2,
-      "lastHarvest": "2026-06-10 06:30"
+      "harvestCount": 3,
+      "lastHarvest": "2026-06-11 06:30"
     },
     {
       "n": 118,
@@ -1541,8 +1541,8 @@
       "publishDate": "2026-06-04",
       "daysSincePublish": 7,
       "withinHarvestWindow": true,
-      "harvestCount": 2,
-      "lastHarvest": "2026-06-10 06:30"
+      "harvestCount": 3,
+      "lastHarvest": "2026-06-11 06:30"
     },
     {
       "n": 121,
@@ -1561,8 +1561,8 @@
       "publishDate": "2026-06-04",
       "daysSincePublish": 7,
       "withinHarvestWindow": true,
-      "harvestCount": 1,
-      "lastHarvest": "2026-06-10 06:30"
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-11 06:30"
     },
     {
       "n": 123,
@@ -1581,8 +1581,8 @@
       "publishDate": "2026-06-05",
       "daysSincePublish": 6,
       "withinHarvestWindow": true,
-      "harvestCount": 1,
-      "lastHarvest": "2026-06-10 06:30"
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-11 06:30"
     },
     {
       "n": 125,
@@ -1601,8 +1601,8 @@
       "publishDate": "2026-06-06",
       "daysSincePublish": 5,
       "withinHarvestWindow": true,
-      "harvestCount": 0,
-      "lastHarvest": null
+      "harvestCount": 1,
+      "lastHarvest": "2026-06-11 06:30"
     },
     {
       "n": 127,
@@ -1621,8 +1621,8 @@
       "publishDate": "2026-06-07",
       "daysSincePublish": 4,
       "withinHarvestWindow": true,
-      "harvestCount": 2,
-      "lastHarvest": "2026-06-10 06:30"
+      "harvestCount": 3,
+      "lastHarvest": "2026-06-11 06:30"
     },
     {
       "n": 129,
@@ -1641,8 +1641,8 @@
       "publishDate": "2026-06-09",
       "daysSincePublish": 2,
       "withinHarvestWindow": true,
-      "harvestCount": 2,
-      "lastHarvest": "2026-06-10 06:30"
+      "harvestCount": 3,
+      "lastHarvest": "2026-06-11 06:30"
     },
     {
       "n": 133,
