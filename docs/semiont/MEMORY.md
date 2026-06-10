@@ -540,6 +540,7 @@ memory/
 | 2026-06-10 | opendata (131606) | Twinkle Hub 研究→6 篇公開數據 pilot（15 指標）→/opendata 策展頁（D3 資料星系 + 三維評估 + 5 故事待寫）→部署解封 6.67%→0.56%（staticRoutes 架構解）→五語上線 | alpha API 只做靜態指標不 runtime 依賴；路由存在性 filesystem-derived 不手維 | [→](memory/2026-06-10-131606-opendata.md) |
 | 2026-06-10 | data-refresh-pm (231143) | 14-step ALL PASS + Step 11 連 9 cycle 全綠；GA/SC/CF 三源正常；immune 56 carry；ms/page 206 perf yellow 觀察中 | dirty-tree concurrent 莫那·魯道 rewrite work 信任 pipeline auto-stash/restore 完美處理，手動干涉 = 誤砍 carry | [→](memory/2026-06-10-231143-twmd-data-refresh-pm.md) |
 | 2026-06-11 | babel-nightly (011032) | 449 translations: Tier 0b 224 bumps + Tier 0a 206 patches (wave 1+2 × 5 lang sub-agents) + Tier 1 cascade 19/20 (codex 100%, ja/國宅 cascade exhausted ollama dead); fr YAML apostrophe auto-heal 19 檔 bonus | diff-patch-prepare 用 body_hash 但 status.py 用 body_hash_pure → metadata mismatch 補 patch 還是 stale，post-fix script workaround，root-cause fix 待做；sovereignty backbone 不可缺 | [→](memory/2026-06-11-011032-twmd-babel-nightly.md) |
+| 2026-06-11 | data-refresh-am (061358) | 14-step ALL PASS + Step 11 連 10 cycle 全綠；GA 20+20 / SC 20+150 / CF 469,752 reqs + AI crawlers 82,991；immune 55 漂移 carry；ms/page 209 yellow（30d 1093s 平觀察）；並行莫那·魯道 dirty tree auto-stash carry 第三次 | inline auto-stash carry 是真儀器化非 over-engineering；連 9→10 全綠是 dashboard-immune wire fix 持續發揮的無聲健康訊號 | [→](memory/2026-06-11-061358-twmd-data-refresh-am.md) |
 
 ## 神經迴路（永不過期的教訓）
 
