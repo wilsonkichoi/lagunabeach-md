@@ -61,21 +61,26 @@ KNOWLEDGE = REPO / "knowledge"
 
 # ────────────────── Cascade defaults ──────────────────
 
-DEFAULT_CASCADE_ID = "codex,gemini,openrouter:openrouter/owl-alpha,openrouter:openai/gpt-oss-120b:free,ollama"
-"""Default cascade priority (v4.2 2026-05-16 哲宇 callout「codex + gemini 為優先」):
+DEFAULT_CASCADE_ID = "codex,gemini,openrouter:openai/gpt-oss-120b:free,ollama"
+"""Default cascade priority (v4.3 2026-06-10 audit D-2; v4.2 2026-05-16 哲宇 callout「codex + gemini 為優先」):
 
 1. **codex (gpt-5.5)** — subscription, top quality, ~100% Taiwan pass (production verified)
 2. **gemini (gemini-2.5-pro)** — Google subscription priority partner (對 sensitive 主題待 calibrate)
-3. **openrouter owl-alpha** — verified free, 1M ctx, rate-limit-prone (REFLEXES #45)
-4. **openrouter gpt-oss-120b:free** — verified free fallback (Hy3 退役後 Tier 2)
-5. **ollama (qwen3.6)** — sovereignty backbone, never refuses（需 `ollama serve` 啟動）
+3. **openrouter gpt-oss-120b:free** — verified free（大文章會 truncate，ratio gate 接手）
+4. **ollama (qwen3.6)** — sovereignty backbone, never refuses（需 `ollama serve` 啟動）
 
-Rationale: subscription priority pair (codex + gemini) → free-tier verified middle layer
-(owl-alpha + gpt-oss-120b) → local fallback. 驗證佇列 model (Llama-3.3-70b / Hermes-3-405b /
-Gemma-4-31b 等) 不在 default cascade — 要驗證走 `--cascade openrouter:{MODEL}` override +
-SQUEEZE-MODELS-MAX-PIPELINE §驗證 SOP test set。
+v4.3 變更：owl-alpha 移出 default — 2026-06-10 babel-nightly 證實 silent 轉 paid
+（HTTP 404，兩週內第 5 個 cloud free tier 死亡：Hy3 → deepseek → qwen3 → owl-alpha）。
+「free tier alive 是 daily-deprecating 假設不是常數」(memory 2026-06-09-003433)。
+要重試 owl-alpha 走 `--cascade openrouter:openrouter/owl-alpha,...` 顯式 override。
 
-Pipeline canonical: docs/pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md v4.2
+驗證佇列 model (Llama-3.3-70b / Hermes-3-405b / Gemma-4-31b 等) 不在 default cascade —
+要驗證走 `--cascade openrouter:{MODEL}` override + SQUEEZE-MODELS-MAX-PIPELINE §驗證 SOP。
+
+搭配 preflight health-check（v4.3 新增，audit D-2）：batch 模式 default 先 probe 每個
+backend，死模型整 run 冷凍一次，不再讓 168 篇各自撞 timeout 燒掉幾小時。
+
+Pipeline canonical: docs/pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md
 """
 
 
@@ -172,6 +177,48 @@ class TranslationCascade:
             )
         return "\n".join(lines)
 
+    def preflight(self, probe_timeout: int = 180, cool_down_seconds: int = 6 * 3600) -> dict:
+        """Probe each backend once with a tiny translation before a batch run
+        (audit 2026-06-10 D-2).
+
+        為什麼：2026-06-09/10 babel-nightly 兩晚，owl-alpha silent 轉 paid（404）
+        + 其他 cloud 連環死，cascade 沒有 preflight，每篇文章都對死模型重撞一次
+        timeout，5hr cascade 大半燒在已死的層。preflight 把「模型死了」的發現
+        成本從 per-article 降到 per-run。
+
+        Dead/異常 backend → mark_cool_down(6h)，整個 batch run 自動跳過。
+        Returns {backend_name: "alive" | "dead: <reason>"}.
+        """
+        results = {}
+        probe_system = "You are a translator. Translate the user text to English. Reply with the translation only."
+        # Probe 必須長到能過各 backend 的 anti-truncation 最小輸出守衛
+        # （首版用「你好，台灣。」→ 14 char 輸出被全部 backend 的 tiny-output
+        # guard 誤殺 — REFLEXES #66 probe 也要用真實 validator 校準）。
+        # 內容刻意中性（夜市），不撞 PRC content policy — probe 量的是
+        # 「模型活著嗎」不是「sovereignty refusal」（那是 cascade 本體的事）。
+        probe_user = (
+            "台灣的夜市文化是日常生活的一部分。傍晚過後，攤位陸續點燈，"
+            "從蚵仔煎、鹽酥雞到珍珠奶茶，每個攤子都有自己的常客。"
+            "對許多人來說，夜市不只是吃東西的地方，也是朋友見面、"
+            "家人散步、觀光客認識在地生活的入口。"
+        )
+        for backend in self.backends:
+            if not backend.is_available():
+                results[backend.name] = "dead: not available (config/binary missing)"
+                continue
+            try:
+                out = backend.translate(probe_system, probe_user,
+                                        max_tokens=64, timeout=probe_timeout)
+                if out and out.strip():
+                    results[backend.name] = "alive"
+                else:
+                    backend.mark_cool_down(cool_down_seconds)
+                    results[backend.name] = "dead: empty probe output"
+            except Exception as e:  # any backend error → freeze for this run
+                backend.mark_cool_down(cool_down_seconds)
+                results[backend.name] = f"dead: {type(e).__name__}: {str(e)[:120]}"
+        return results
+
 
 # ────────────────── Per-article driver ──────────────────
 
@@ -245,12 +292,37 @@ def main():
                     help=f"comma-separated backend spec (default: {DEFAULT_CASCADE_ID})")
     ap.add_argument("--max-articles", type=int, help="cap on articles processed")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--health-check", action="store_true",
+                    help="probe each backend with a tiny translation, print table, exit "
+                         "(audit 2026-06-10 D-2)")
+    ap.add_argument("--no-preflight", action="store_true",
+                    help="skip the automatic batch-mode preflight probe")
     args = ap.parse_args()
 
     cascade = build_cascade(args.cascade)
 
     print(f"📋 Cascade: {' → '.join(b.name for b in cascade.backends)}")
     print(f"   Available: {[b.name for b in cascade.backends if b.is_available()]}")
+
+    if args.health_check:
+        print("🩺 Preflight health-check (tiny probe per backend)...")
+        results = cascade.preflight()
+        dead = 0
+        for name, verdict in results.items():
+            icon = "✅" if verdict == "alive" else "💀"
+            if verdict != "alive":
+                dead += 1
+            print(f"   {icon} {name:35s} {verdict}")
+        print(f"🩺 {len(results) - dead}/{len(results)} alive")
+        sys.exit(0 if dead < len(results) else 1)
+
+    # Batch (--group) 模式 default 跑 preflight：死模型整 run 冷凍一次，
+    # 不讓每篇文章各撞一次 timeout（2026-06-09/10 babel 5hr 教訓）。
+    if args.group and not args.no_preflight and not args.dry_run:
+        print("🩺 Batch preflight...")
+        for name, verdict in cascade.preflight().items():
+            icon = "✅" if verdict == "alive" else "💀 frozen 6h:"
+            print(f"   {icon} {name:35s} {verdict if verdict != 'alive' else ''}")
 
     if args.group:
         group_path = Path(args.group).resolve()
