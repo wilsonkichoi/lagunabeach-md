@@ -56,11 +56,21 @@ if (organism?.organs) {
 
 // ── 2. 免疫 v2 status 直通（status 字串本身就是診斷）──────────────────
 const immune = readJson('public/api/dashboard-immune.json');
-if (immune?.status && /需關注|critical|attention/i.test(immune.status)) {
+// 漂移/危險 比 需關注 更糟，severity 對應升級（首版 regex 漏掉更糟的兩級，
+// status 惡化反而逃出警報 — 2026-06-10 immune v3 上線時自抓）
+if (
+  immune?.status &&
+  /需關注|漂移|危險|critical|attention|drift|danger/i.test(immune.status)
+) {
+  const sev = /危險|danger/i.test(immune.status)
+    ? 'red'
+    : /漂移|drift/i.test(immune.status)
+      ? 'yellow'
+      : 'yellow';
   addAlert(
     'immune-status',
-    'yellow',
-    `免疫 v2=${immune.immuneScore}：${immune.status}`,
+    sev,
+    `免疫 v3=${immune.immuneScore}：${immune.status}`,
     'dashboard-immune.json',
   );
 }
