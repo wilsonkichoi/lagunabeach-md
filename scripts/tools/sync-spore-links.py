@@ -14,8 +14,8 @@ Mutable metrics in article frontmatter polluted git timestamps → content-dates
 After v2 an article file changes only when a NEW spore ships for it.
 
 Layer map:
-  - SPORE-LOG.md 發文紀錄 table         = identity SSOT (spore #/URL/date)
-  - SPORE-HARVESTS/{batch}.md body      = harvest event SSOT (metrics)
+  - docs/factory/spore-log.json         = identity SSOT (spore-db.py add-spore)
+  - docs/factory/spore-metrics.json     = harvest event SSOT (spore-db.py add-metrics)
   - src/data/spores.json                = full records + history (generate-spore-records.py)
   - knowledge/*.md sporeLinks           = identity pointer (THIS script, append-only in practice)
   - src/content/*.md sporeLinks         = mirror of knowledge (gitignored projection)
@@ -45,13 +45,14 @@ Entry shape (v2 — immutable identity, no metrics):
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import sys
 from collections import defaultdict
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
-SPORE_LOG = REPO / "docs/factory/SPORE-LOG.md"
+SPORE_LOG_JSON = REPO / "docs/factory/spore-log.json"
 KNOWLEDGE_ROOT = REPO / "knowledge"
 SRC_CONTENT_ROOT = REPO / "src/content/zh-TW"  # mirror target
 
@@ -74,47 +75,24 @@ _CAT_MAP = {
 
 
 def parse_publication_table():
-    """Parse SPORE-LOG 發文紀錄 → list of {n, date, lang, platform, slug, url}."""
-    if not SPORE_LOG.exists():
-        return []
-    text = SPORE_LOG.read_text(encoding="utf-8")
-    sections = {}
-    cur, buf = None, []
-    for line in text.splitlines():
-        if line.startswith("## "):
-            if cur:
-                sections[cur] = "\n".join(buf)
-            cur, buf = line[3:].strip(), []
-        elif cur is not None:
-            buf.append(line)
-    if cur:
-        sections[cur] = "\n".join(buf)
+    """Identity rows from spore-log.json (v2.1, 2026-06-10 JSON SSOT flip).
 
-    pub_section = sections.get("發文紀錄", "")
+    Keeps the v1 row shape {n, date, lang, platform, slug, url} so the rest of
+    this script is untouched. SPORE-LOG.md 發文紀錄 is frozen history —
+    new spores enter via `spore-db.py add-spore`.
+    """
+    if not SPORE_LOG_JSON.exists():
+        return []
+    data = json.loads(SPORE_LOG_JSON.read_text(encoding="utf-8"))
     rows = []
-    table_lines = [l for l in pub_section.splitlines() if l.strip().startswith("|")]
-    if len(table_lines) < 3:
-        return rows
-    headers = [c.strip() for c in table_lines[0].strip("|").split("|")]
-    for line in table_lines[2:]:
-        cells = [c.strip() for c in line.strip("|").split("|")]
-        if len(cells) != len(headers):
-            continue
-        row = dict(zip(headers, cells))
-        n_str = row.get("#", "").strip()
-        if not n_str.isdigit():
-            continue
-        # Extract URL from markdown link
-        url_cell = row.get("URL", "")
-        m = re.search(r"\((https?://[^\)]+)\)", url_cell)
-        url = m.group(1) if m else None
+    for s in data.get("spores", []):
         rows.append({
-            "n": int(n_str),
-            "date": row.get("日期", "").strip(),
-            "lang": row.get("語言", "").strip().lower(),
-            "platform": row.get("平台", "").strip().lower(),
-            "slug": row.get("文章 slug", "").strip(),
-            "url": url,
+            "n": s["id"],
+            "date": s.get("date") or "",
+            "lang": (s.get("lang") or "").lower(),
+            "platform": (s.get("platform") or "").lower(),
+            "slug": s.get("slug") or "",
+            "url": s.get("url"),
         })
     return rows
 

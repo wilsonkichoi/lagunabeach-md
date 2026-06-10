@@ -83,7 +83,7 @@ audience: 'routine-twmd-spore-pick-daily / manual-session-spore-pick'
 | HG2  | 6 source 全讀完                                                        | 1     | candidate pool 不完整                                                             |
 | HG3  | 每 candidate 7 dimension 都算分                                        | 2     | scoring 偏 → 觀察者無法判斷 sane                                                  |
 | HG4  | 每 candidate ≥ 2 hook anchor + 至少 2 種起手式                         | 3     | hook 變廉價懸念（per SPORE-WRITING）                                              |
-| HG5  | 0 candidate 在 SPORE-LOG 14 天內                                       | 4     | 違反 SPORE-PIPELINE §排除規則 ≥ 2 週                                              |
+| HG5  | 0 candidate 在 14 天內發過孢子（`spore-db.py last-spore`）             | 4     | 違反 SPORE-PIPELINE §排除規則 ≥ 2 週                                              |
 | HG6  | 0 candidate 跟 SPORE-INBOX 現有 pending 重複                           | 4     | dedupe 失敗 → INBOX 污染                                                          |
 | HG7  | 至少 2 個不同 Source-Mode                                              | 4     | 全 EXISTING-ARTICLE → 無 EVERGREEN 探索                                           |
 | HG8  | 至少 1 個來自 ARTICLE-DONE-LOG 最近 7 天                               | 4     | 沒 cover 趁熱窗口 = 沒做到 north star                                             |
@@ -400,7 +400,7 @@ for c in candidates:
     assert len(c.hook_anchors) >= 2
     assert len(set(c.hook_types)) >= 2
 
-# HG5: 0 candidate 在 SPORE-LOG 14 天內
+# HG5: 0 candidate 在 14 天內發過孢子（python3 scripts/tools/spore-db.py last-spore --article SLUG）
 for c in candidates:
     assert c.article_slug not in covered_last_14d  # §1.3
 

@@ -75,17 +75,17 @@ upstream_canonical:
 
 ## 🚦 Hard Gate Inventory（一張表 audit 全 pipeline）
 
-| Gate                          | 觸發 step    | 條件            | 工具                                    | 不過 = ?                                       |
-| ----------------------------- | ------------ | --------------- | --------------------------------------- | ---------------------------------------------- |
-| Atomic batch log              | Step 5       | 整次 harvest    | manual（不拆 multi-commit）             | split → 從 SPORE-HARVESTS 重新整合             |
-| Frontmatter spores plural     | Step 5       | per batch       | manual（spores 不是 spore）             | schema 不符                                    |
-| harvest_window_day            | Step 5       | per batch       | manual（D+N or `mixed`）                | 失去 cadence 紀錄                              |
-| 不寫 knowledge sporeLinks     | 全程         | 收割期間        | manual（Step 12 sync-spore-links 自動） | 寫了會被 refresh.sh 覆蓋                       |
-| 6h decision gate              | Step 1       | views < 500     | Chrome MCP harvest                      | 觸發 re-hook                                   |
-| Reach × Accuracy trigger      | Step 4       | views ≥ 50K     | manual + FACTCHECK                      | spawn Quick Mode 驗 atom                       |
-| D+7 7d 指標必填               | Step 3       | per spore       | SPORE-LOG.md                            | 空白 = 不准發新孢子（per SPORE-PIPELINE 鐵律） |
-| 下游 generator 跑             | Step 5 後    | refresh-data.sh | `generate-dashboard-spores.py`          | dashboard 不更新                               |
-| sync-spore-links 從 SSOT 重生 | refresh-data | Step 13         | `sync-spore-links.py`                   | knowledge sporeLinks drift                     |
+| Gate                          | 觸發 step    | 條件            | 工具                                       | 不過 = ?                                       |
+| ----------------------------- | ------------ | --------------- | ------------------------------------------ | ---------------------------------------------- |
+| Atomic batch log              | Step 5       | 整次 harvest    | manual（不拆 multi-commit）                | split → 從 SPORE-HARVESTS 重新整合             |
+| Frontmatter spores plural     | Step 5       | per batch       | manual（spores 不是 spore）                | schema 不符                                    |
+| harvest_window_day            | Step 5       | per batch       | manual（D+N or `mixed`）                   | 失去 cadence 紀錄                              |
+| 數字只進 spore-db add-metrics | Step 1.5     | 每次 harvest    | `spore-db.py`（validate check 3+5 ERROR）  | 寫 frontmatter/凍結表 = 擋 commit              |
+| 6h decision gate              | Step 1       | views < 500     | Chrome MCP harvest                         | 觸發 re-hook                                   |
+| Reach × Accuracy trigger      | Step 4       | views ≥ 50K     | manual + FACTCHECK                         | spawn Quick Mode 驗 atom                       |
+| D+7 7d 指標必填               | Step 3       | per spore       | SPORE-LOG.md                               | 空白 = 不准發新孢子（per SPORE-PIPELINE 鐵律） |
+| 下游 generator 跑             | Step 5 後    | refresh-data.sh | `generate-dashboard-spores.py`             | dashboard 不更新                               |
+| sync-spore-links 從 SSOT 重生 | refresh-data | Step 13         | `sync-spore-links.py`（讀 spore-log.json） | knowledge identity pointer drift               |
 
 ---
 
@@ -94,8 +94,8 @@ upstream_canonical:
 > 從 SPORE-LOG harvest history + 4/18 δ-late 觀察者觸發誕生事件 + 5/8 Phase 6 atomic batch log refactor 抽 friction 最高的 5 條。
 
 1. **Atomic batch log，不拆 multi-commit** — 一次 harvest 一個 commit，per `batch-{date}-{N}-spores.md` SSOT（5/8 Phase 6 SSOT cleanup）
-2. **不手寫 knowledge/\*.md sporeLinks** — Step 12 sync-spore-links 從 SSOT 重生會覆蓋手寫
-3. **D+7 7d 指標必填到 SPORE-LOG** — 空白 = 鐵律違反（per SPORE-PIPELINE PICK §回填上次成效）
+2. **不手寫 knowledge/\*.md sporeLinks、不寫凍結 SPORE-LOG.md** — pointer 由 sync-spore-links 重生；數字走 `spore-db.py add-metrics`
+3. **D+7 指標必須 add-metrics 進 spore-metrics.json** — 空白 = 鐵律違反（per SPORE-PIPELINE PICK §回填上次成效；2026-06-10 後唯一寫入點是 `spore-db.py add-metrics`）
 4. **Reach × Accuracy 50K 觸發 retroactive FACTCHECK** — 不是「等讀者抓錯」，是主動 spawn Quick Mode 驗 3-5 atom
 5. **Frontmatter `spores` 是 plural list** — Phase 1 audit 後強制 schema，不再用 `spore` singular
 
@@ -103,16 +103,16 @@ upstream_canonical:
 
 ## 跨檔案職責分工
 
-| 檔案                                                              | 範圍                                                                                       |
-| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| **本檔**                                                          | post-publish layer — D+1-D+7 cadence + decision gate + accuracy trigger + atomic batch log |
-| [SPORE-PIPELINE.md](SPORE-PIPELINE.md)                            | 5 stage 主流程（觸發點：孢子發布後 24h 起跑本檔）                                          |
-| [SPORE-WRITING.md](SPORE-WRITING.md)                              | craft layer（怎麼寫好）                                                                    |
-| [SPORE-VERIFY.md](SPORE-VERIFY.md)                                | gate layer（17 hard gate + 1 retroactive 觸發點：reach ≥ 50K → 本檔）                      |
-| [SPORE-LOG.md](SPORE-LOG.md)                                      | 發文 + 成效追蹤紀錄表                                                                      |
-| [FACTCHECK-PIPELINE.md](../pipelines/FACTCHECK-PIPELINE.md)       | Quick Mode 被本檔 Step 4 觸發（reach ≥ 50K）                                               |
-| [DATA-REFRESH-PIPELINE.md](../pipelines/DATA-REFRESH-PIPELINE.md) | Step 13 sync-spore-links 從本檔 SSOT 重生                                                  |
-| [SENSES.md](../semiont/SENSES.md)                                 | Chrome MCP 抓取 SOP                                                                        |
+| 檔案                                                                        | 範圍                                                                                       |
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| **本檔**                                                                    | post-publish layer — D+1-D+7 cadence + decision gate + accuracy trigger + atomic batch log |
+| [SPORE-PIPELINE.md](SPORE-PIPELINE.md)                                      | 5 stage 主流程（觸發點：孢子發布後 24h 起跑本檔）                                          |
+| [SPORE-WRITING.md](SPORE-WRITING.md)                                        | craft layer（怎麼寫好）                                                                    |
+| [SPORE-VERIFY.md](SPORE-VERIFY.md)                                          | gate layer（17 hard gate + 1 retroactive 觸發點：reach ≥ 50K → 本檔）                      |
+| [spore-log.json](spore-log.json) + [spore-metrics.json](spore-metrics.json) | 結構 SSOT（identity + metric 事件，spore-db.py 寫）；SPORE-LOG.md 為凍結歷史               |
+| [FACTCHECK-PIPELINE.md](../pipelines/FACTCHECK-PIPELINE.md)                 | Quick Mode 被本檔 Step 4 觸發（reach ≥ 50K）                                               |
+| [DATA-REFRESH-PIPELINE.md](../pipelines/DATA-REFRESH-PIPELINE.md)           | Step 13 sync-spore-links 從本檔 SSOT 重生                                                  |
+| [SENSES.md](../semiont/SENSES.md)                                           | Chrome MCP 抓取 SOP                                                                        |
 
 ---
 
@@ -159,7 +159,7 @@ reply_count: '47 visible (Threads + X 合計)'
 
 - ❌ harvest 後手寫 knowledge/\*.md sporeLinks（會被 Step 13 覆蓋；數字進 frontmatter = validate ERROR + 污染文章 git 時間軸）
 - ❌ harvest 拆 multi-commit 跨多檔案寫（atomic batch log = single commit）
-- ⚠️ harvest 後手寫 SPORE-LOG.md 成效追蹤 narrative：仍 OK 但 optional（不再是 primary 寫入點，generator 已能從 batch body 算）
+- ❌ harvest 後寫 SPORE-LOG.md（已凍結 2026-06-10，validate check 3 ERROR）— 數字走 `spore-db.py add-metrics`，質性觀察寫 batch 敘事檔
 
 完整重構脈絡：[reports/spore-ssot-pipeline-cleanup-2026-05-08.md](../../reports/spore-ssot-pipeline-cleanup-2026-05-08.md)
 
@@ -274,7 +274,7 @@ Taiwan.md 的進化動力過去主要在 author 層（REWRITE-PIPELINE 內部審
 
 **Bucket B: Entity / context missing**
 
-1. 累積到 HARVEST-EVOLVES-PENDING/{date}.md（或直接寫進 SPORE-LOG entry evolution column）
+1. 累積到 HARVEST-EVOLVES-PENDING/{date}.md（質性 evolution 線索屬敘事層）
 2. 同題材 ≥3 條留言補同類 entity → 升級為 Round 2 EVOLVE 觸發 (D+7 內必跑)
 3. 單條補充 → 累積到 Round 2 EVOLVE backlog (D+30 內機會 batch)
 4. Reply draft: 「對，這條是文章該補的——{具體 entity acknowledgment}。我會在 EVOLVE 補進「{section}」段。謝謝 🧬」
@@ -660,7 +660,7 @@ cron 0 7 * * * Asia/Taipei
 [Stage 2] /twmd-spore-harvest skill — invoke 本 pipeline Step 0-8:
     ├─ Step 0: 讀 dashboard-spores.json §backfillWarnings 取 OVERDUE 列表
     │   ↳ 0 條 → no-op commit「today 0 OVERDUE, skip」+ jump Stage 4
-    ├─ Step 1-7: 對每條 OVERDUE 跑既有 7-step pipeline（COLLECT → DUAL WRITE
+    ├─ Step 1-7: 對每條 OVERDUE 跑既有 7-step pipeline（COLLECT → add-metrics
     │           → CATEGORIZE → 事實驗證 → 整合 → PERSPECTIVES → 回覆 draft）
     │           Chrome MCP harvest 走 §Chrome MCP exact harvest workflow (v2.9)
     │           數字格式 走 §Harvest 數字格式鐵律 (v2.8)
@@ -676,7 +676,7 @@ cron 0 7 * * * Asia/Taipei
             commit 同時含：
             - docs/factory/SPORE-HARVESTS/batch-{date}-{N}-spores.md (atomic)
             - public/api/dashboard-spores.json (regen derived)
-            - knowledge/{cat}/{slug}.md sporeLinks frontmatter (per Step 1.5 DUAL WRITE)
+            - spore-metrics.json events (per Step 1.5 add-metrics — 文章 frontmatter 不碰)
     ↓
 [Stage 4] /twmd-finale 收官（memory 必寫 / diary 條件寫）
 ```
@@ -801,7 +801,7 @@ cron 0 7 * * * Asia/Taipei
 | d+0 3h | 第二次 harvest → 更新「最後 harvest」時間戳                         |
 | d+0 6h | **Decision gate**：views < 500 → 觸發 re-hook opportunity（見下方） |
 | d+1    | d+1 harvest → 更新 trajectory                                       |
-| d+7    | d+7 harvest（主要 KPI）→ 成效追蹤表填 7d 觸及 / 7d 互動             |
+| d+7    | d+7 harvest（主要 KPI）→ `spore-db.py add-metrics --d-plus 7 ...`   |
 | d+30   | d+30 harvest（長尾確認）                                            |
 
 **AI 自主邊界**（[REFLEXES #26 v2](../semiont/DNA.md)）：所有 harvest 皆 AI 自主用 Chrome MCP 跑；re-hook reply **必須 human post**（AI 準備 draft，human 確認並發）。
@@ -822,7 +822,7 @@ cron 0 7 * * * Asia/Taipei
 
 > 2026-05-03 objective-khorana day 2 — generator parser regression 揭露格式鐵律。
 
-寫進 SPORE-LOG「最後 harvest」column 的 views 數字**必須是 generator parser 認得的格式**：
+🧊 歷史備註（凍結前）：寫進 SPORE-LOG「最後 harvest」column 的 views 數字必須是 parser 認得的格式（2026-06-10 後數字走 `spore-db.py add-metrics`，本段僅供讀舊紀錄）：
 
 | 格式           | 範例                                            | parser 支援   |
 | -------------- | ----------------------------------------------- | ------------- |
@@ -1080,14 +1080,16 @@ for (tab of availableTabs) {
 
 ```
 Chrome MCP harvest
-  → SPORE-LOG.md 成效追蹤表（7d 觸及 / 互動 / 最後 harvest timestamp）
-  → 源文章 frontmatter sporeLinks（每次 harvest 同步最新 views/likes/reposts/comments/shares）
-  → dashboard-spores.json （refresh-data 觸發 generate-dashboard-spores.py）
-  → Dashboard 成效排行 / GA 放大倍數 section
+  → spore-db.py add-metrics（每孢子一筆事件 → docs/factory/spore-metrics.json，數字唯一寫入點）
+  → SPORE-HARVESTS/{batch}.md（敘事：留言逐字 / bucket / pitfall — 不載 canonical 數字）
+  → generate-spore-records.py → src/data/spores.json（文章頁 SporeFootprint join 數字）
+  → generate-dashboard-spores.py → dashboard-spores.json（成效排行 / GA 放大倍數）
   → 新洞察 → LESSONS-INBOX
 ```
 
-雙寫機制詳見下方 [Step 1.5](#step-15-雙寫dual-write--v13-新增2026-04-23-δ-觀察者指正)。
+**文章檔案全程不動**（identity pointer 由 sync-spore-links 維護，數字住記錄層）—
+這是 2026-06-10 資料解耦 + JSON SSOT 翻轉的核心：harvest 不再污染文章 git 時間軸
+（content-dates → /latest → sitemap lastmod）。單寫機制詳見下方 [Step 1.5](#step-15-記錄數字single-write--v20-json-ssot2026-06-10)。
 
 ### Batch Harvest 模式（v1.2 新增 — 2026-04-18 δ-late 首例驗證後正式文件化）
 
@@ -1107,7 +1109,7 @@ Chrome MCP harvest
 3. 記錄每筆的 views / comments，一次性整理成表格
 4. 分類 + 事實驗證（Step 2-3）— 有留言的才進，低留言批次通常跳過
 5. 寫單一 batch log：`docs/factory/SPORE-HARVESTS/batch-YYYY-MM-DD-N-spores.md`
-6. 同時更新 SPORE-LOG 成效追蹤表（N 列一次 commit）
+6. 每隻孢子 `spore-db.py add-metrics`（N 筆事件 + 敘事檔一次 commit）
 7. Pattern 歸納（Step 9）— batch 的特殊價值：可做跨筆比較
 ```
 
@@ -1200,7 +1202,7 @@ raw_images: # 若留言含圖
 
 ### Step 1 同時收的指標（metrics snapshot）
 
-a11y tree 同一次讀取裡會帶出貼文自身的 `views / likes / reposts / comments / shares`（X 的 bookmarks 寫入 `shares` 欄）。**留言跟指標必須同一次 snapshot 抓完**，不要分兩次（時間不一致會導致雙寫失真）。
+a11y tree 同一次讀取裡會帶出貼文自身的 `views / likes / reposts / comments / shares`（X 的 bookmarks 寫入 `shares` 欄）。**留言跟指標必須同一次 snapshot 抓完**，不要分兩次（時間不一致會讓事件失真）。
 
 Step 1 輸出除了留言 schema，還要留一份：
 
@@ -1216,56 +1218,50 @@ post_metrics:
   shares: 0
 ```
 
-這份 snapshot **直接餵 Step 1.5 雙寫**。
+這份 snapshot **直接餵 Step 1.5 的 `spore-db.py add-metrics`**。
 
 ---
 
-## Step 1.5: 雙寫（DUAL WRITE — v1.3 新增，2026-04-23 δ 觀察者指正）
+## Step 1.5: 記錄數字（SINGLE WRITE — v2.0 JSON SSOT，2026-06-10）
 
-> 每次 harvest（無論 D+0 / D+1 / D+7 / D+30）**都要雙寫兩處**，不是只寫 SPORE-LOG。
+> 每次 harvest（無論 D+0 / D+1 / D+7 / D+30）數字**只寫一處**：`spore-db.py add-metrics`。
+> v1.3「雙寫 SPORE-LOG + frontmatter」已退役 — frontmatter 與 dashboard 都是衍生層，
+> 寫它們 = 污染文章 git 時間軸 + 製造 drift 面（reports/spore-data-architecture-2026-06-10.md
+>
+> - spore-json-ssot-2026-06-10.md）。
 
-### 為什麼
+### 怎麼寫
 
-SPORE-LOG.md 是**工廠層**（累積曲線、session 備註、診斷文字），讀者不會讀。讀者看到的是文章頁底「這篇文章去過的地方」section，**那個 section 讀的是文章 frontmatter `sporeLinks`**（由 `src/components/SporeFootprint.astro` 渲染）。
+Step 1 的 metrics snapshot 直接餵 CLI，每隻孢子一行：
 
-只寫 SPORE-LOG = 工廠內部數據 up-to-date，但讀者看到的是過期（或不存在）的快照。必須雙寫，數字才跨層一致。
-
-### 寫什麼
-
-| 目標                                                                 | 結構                                                                                           | 內容                                                                          |
-| -------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| **SPORE-LOG.md 成效追蹤表**                                          | 自由文字 row（包含 D+0 / D+1 / D+7 切片、engagement rate、session 時間戳、跨筆比較、留言質性） | 累積（每次 harvest 追加到「最後 harvest」欄，不覆寫歷史切片）                 |
-| **src/content/{lang}/{category}/{slug}.md frontmatter `sporeLinks`** | 純 YAML 物件（platform / date / url / views / likes / reposts / comments / shares）            | **覆寫最新快照**（只保留當下數字，不累積 D+0/D+1/D+7 歷史，讀者不需要看切片） |
-
-### 源文章定位規則
-
-1. 從 SPORE-LOG row 看 slug（例 `認知作戰`）
-2. `src/content/zh-TW/{category}/{slug}.md`（category 從文章 frontmatter `category` 小寫得，例 Society → society）
-3. 若該文章沒 `sporeLinks` key → 新建 array
-4. 若有同 `platform` + 同 `date` row → **覆寫**（不新增）；若是不同日期（罕見，例如重發）→ 新增 row
-
-### Schema（canonical）
-
-```yaml
-sporeLinks:
-  - platform: 'threads' # 'threads' | 'x'
-    date: '2026-04-DD' # 發佈日（非 harvest 日）
-    url: '<乾淨化 canonical URL，已剝 query>'
-    views: 0
-    likes: 0
-    reposts: 0
-    comments: 0
-    shares: 0 # X 為 bookmarks 數、Threads 為 shares 數
+```bash
+python3 scripts/tools/spore-db.py add-metrics \
+  --spore 132 --d-plus 0 --batch batch-2026-06-11-9-spores \
+  --likes 369 --reposts 39 --comments 21 --shares 45   # views 沒抓到就不給
 ```
 
-canonical 由 `src/components/SporeFootprint.astro` interface `SporeLink` 定義。範例 article：`src/content/zh-TW/music/張懸與安溥.md`、`src/content/zh-TW/people/李洋.md`。
+- 數字接受 K/M 後綴（`--views 1.4K`）；沒抓到的指標**不給參數**（不要填 0 充數）
+- `--batch` = 本次 SPORE-HARVESTS 敘事檔名（不含 .md），讓事件可追溯回敘事
+- 同 (spore, batch, dPlus) 重跑會覆蓋（idempotent，重抓安全）
+- X 的 bookmarks 寫 `--shares`（沿用既有慣例）
+
+### 寫完之後（衍生層自動跟上）
+
+```bash
+python3 scripts/tools/generate-spore-records.py      # spores.json（文章頁數字）
+python3 scripts/tools/generate-dashboard-spores.py   # dashboard
+```
+
+refresh-data.sh Step 4 / `npm run prebuild` 也會自動跑這兩個 — cron context 下不必手跑，
+commit 前跑一次讓同 commit 自帶新鮮衍生層即可。
 
 ### 鐵律
 
-- **每次 harvest 都要雙寫**。不是可選、不是 milestone 才寫
-- **數字要一致**：SPORE-LOG 的 D+N 切片裡最新那個 = 文章 frontmatter 當下快照
-- 英文 / 日文 / 韓文翻譯若存在，**每個翻譯檔案都要雙寫**（每個語言版本 frontmatter 各自獨立）
-- 初次發佈（Step 0 尚未 harvest）→ 數字全部 0，但 row 必須存在，等 D+0 首 harvest 回填（對應 SPORE-PIPELINE Step 4 §發文步驟 step 6）
+- **數字唯一入口是 `spore-db.py add-metrics`** — 不寫 SPORE-LOG.md（已凍結，validate check 3 ERROR）、
+  不寫文章 frontmatter（validate check 5 ERROR）、不在 batch 敘事檔放 canonical 數字表
+  （放了也沒人讀 — generator 只讀 spore-metrics.json；敘事檔專心留言/bucket/pitfall）
+- 留言跟指標必須同一次 snapshot 抓完（時間不一致會讓事件失真）
+- 翻譯版文章一律不碰（identity pointer 由 sync-spore-links 管 zh canonical，譯文隨 babel）
 
 ---
 

@@ -16,37 +16,53 @@ upstream_canonical:
 read_strategy: 'on-demand'
 ---
 
-# SPORE-LOG.md — 孢子發文紀錄
+# SPORE-LOG.md — 孢子發文紀錄（🧊 結構資料已凍結，2026-06-10）
 
-> 追蹤已發佈的孢子，避免重複，累積成效數據，驅動進化。
+> ⚠️ **本檔的 §發文紀錄（≤ #133）與 §成效追蹤 是凍結歷史封存，不再寫入。**
+> 新孢子與新數字一律走 `scripts/tools/spore-db.py`：
+>
+> ```bash
+> # 發孢子後（每平台一筆，回傳新 id）
+> python3 scripts/tools/spore-db.py add-spore --date 2026-06-11 --platform threads \
+>   --slug 文章slug --url 'https://...' --template 'A2 ...' --highlight 'ship 一句話'
+> # harvest 後（每孢子一筆事件；數字可帶 K/M）
+> python3 scripts/tools/spore-db.py add-metrics --spore 134 --d-plus 0 \
+>   --batch batch-2026-06-11-x --likes 369 --reposts 39
+> # 發文前 ≥2 週查重
+> python3 scripts/tools/spore-db.py last-spore --article 文章slug
+> ```
+>
+> 往凍結表加 row 會被 validate-spore-data.py check 3 擋下（ERROR）。
+> 設計：[reports/spore-json-ssot-2026-06-10.md](../../reports/spore-json-ssot-2026-06-10.md)
 
-## 📍 SSOT 階層（2026-05-08 Phase 0-3 cleanup + 2026-06-10 資料解耦後）
+## 📍 SSOT 階層（2026-06-10 JSON SSOT 翻轉後）
 
-| 層                                       | 角色                                                                               | 寫入者                                                             |
-| ---------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| **本檔 §發文紀錄 table**                 | **Identity SSOT** — 「孢子 #N 存在於此 URL 在此日期」                              | 人類                                                               |
-| **本檔 §成效追蹤 table**                 | Narrative + struct cols（向後相容、parser fallback）                               | 人類 + extract-spore-metrics.py auto-derive                        |
-| `docs/factory/SPORE-HARVESTS/{batch}.md` | **Harvest event SSOT** — 「孢子 #N 在 D+N 有 X views」                             | 人類/agent（每次 harvest 一個 batch log）                          |
-| `src/data/spores.json`                   | **孢子完整記錄層** — metrics(latest) + history[] + byArticle index（git tracked）  | generate-spore-records.py（refresh Step 4 / prebuild:spores）      |
-| `public/api/spores.json`                 | 靜態 API（隨站 deploy，站外可索引；gitignored，prebuild 重生）                     | 同上                                                               |
-| `knowledge/{Cat}/{slug}.md` `sporeLinks` | **Identity pointer** — 只有 id/platform/date/url，**無數字**；只在新孢子發布時變動 | 不再手寫，refresh-data.sh Step 13 重生                             |
-| `src/content/zh-TW/{cat}/{slug}.md`      | Mirror of knowledge/（gitignored 投影）                                            | 不再手寫，sync-spore-links.py 同步                                 |
-| `public/api/dashboard-spores.json`       | Derived 分析聚合（dashboard 面板）                                                 | generate-dashboard-spores.py 從 SPORE-LOG + SPORE-HARVESTS body 算 |
+| 層                                       | 角色                                                                               | 寫入者                                                        |
+| ---------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| `docs/factory/spore-log.json`            | **Identity SSOT** — 「孢子 #N 存在於此 URL 在此日期」+ template/highlight          | `spore-db.py add-spore`（publish 時）                         |
+| `docs/factory/spore-metrics.json`        | **Metric 事件 SSOT** — 「孢子 #N 在 D+N 抓到什麼數字」append-only                  | `spore-db.py add-metrics`（harvest 時）                       |
+| `docs/factory/SPORE-HARVESTS/{batch}.md` | **敘事 SSOT** — 留言逐字 / bucket 分類 / pitfall 觀察（不載 canonical 數字）       | 人類/agent（每次 harvest 一個 batch log）                     |
+| 本檔 §發文紀錄 + §成效追蹤               | 🧊 凍結歷史（≤ 2026-06-10 bootstrap）                                              | 不再寫入                                                      |
+| `src/data/spores.json`                   | 衍生記錄層 — metrics(fold) + history[] + byArticle index（git tracked）            | generate-spore-records.py（refresh Step 4 / prebuild:spores） |
+| `public/api/spores.json`                 | 靜態 API（隨站 deploy，站外可索引；gitignored，prebuild 重生）                     | 同上                                                          |
+| `knowledge/{Cat}/{slug}.md` `sporeLinks` | **Identity pointer** — 只有 id/platform/date/url，**無數字**；只在新孢子發布時變動 | 不再手寫，refresh-data.sh Step 13 重生                        |
+| `src/content/zh-TW/{cat}/{slug}.md`      | Mirror of knowledge/（gitignored 投影）                                            | 不再手寫，sync-spore-links.py 同步                            |
+| `public/api/dashboard-spores.json`       | 衍生分析聚合（dashboard 面板）                                                     | generate-dashboard-spores.py 從兩個 JSON SSOT 算              |
 
-**鐵律**（2026-06-10 解耦後）：
+**鐵律**（2026-06-10 翻轉後）：
 
-- 人類只在 §發文紀錄、§成效追蹤、`SPORE-HARVESTS/{batch}.md` 寫資料
+- 結構資料（identity / 數字）只透過 `spore-db.py` 寫；敘事只寫 `SPORE-HARVESTS/{batch}.md`
 - knowledge/\*.md sporeLinks **不要手寫**，會被 sync-spore-links.py 覆蓋
-- **engagement 數字永遠不進文章 frontmatter**（validate-spore-data.py check 5 ERROR gate）— harvest 回填只動 `spores.json`，文章 git 時間軸不受孢子數據影響（content-dates → /latest → sitemap lastmod 因此乾淨）
-- 多語 mirror（knowledge/en/, ja/, ko/, ...）的 sporeLinks 由 babel pipeline 處理，跟本檔 zh canonical 隔離
+- **engagement 數字永遠不進文章 frontmatter**（validate check 5 ERROR）— harvest 只動 spore-metrics.json，文章 git 時間軸不受孢子數據影響（content-dates → /latest → sitemap lastmod 因此乾淨）
+- 多語 mirror（knowledge/en/, ja/, ko/, ...）的 sporeLinks 由 babel pipeline 處理，跟 zh canonical 隔離
 
-完整重構脈絡：[reports/spore-ssot-pipeline-cleanup-2026-05-08.md](../../reports/spore-ssot-pipeline-cleanup-2026-05-08.md) + [reports/spore-data-architecture-2026-06-10.md](../../reports/spore-data-architecture-2026-06-10.md)
+完整重構脈絡：[reports/spore-ssot-pipeline-cleanup-2026-05-08.md](../../reports/spore-ssot-pipeline-cleanup-2026-05-08.md) + [reports/spore-data-architecture-2026-06-10.md](../../reports/spore-data-architecture-2026-06-10.md) + [reports/spore-json-ssot-2026-06-10.md](../../reports/spore-json-ssot-2026-06-10.md)
 
 ---
 
 ## 發文紀錄
 
-> **規則**：同一篇文章間隔 **≥ 2 週** 才能再發孢子。發文後立即填入此表。
+> 🧊 **凍結**（2026-06-10）：本表 ≤ #133 為歷史封存。新孢子走 `spore-db.py add-spore`，查重走 `spore-db.py last-spore --article SLUG`（同一篇文章間隔 **≥ 2 週** 規則不變）。
 
 | #   | 日期       | 語言 | 平台    | 文章 slug                | 分類          | 模板                                                                                                                | URL                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | --- | ---------- | ---- | ------- | ------------------------ | ------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

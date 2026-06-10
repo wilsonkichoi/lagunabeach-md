@@ -253,7 +253,7 @@ echo ""
 # 為什麼: knowledge/*.md sporeLinks 過去人類手寫，drift from SPORE-LOG (identity SSOT)。
 # Phase 3 之後是 derived view；v2 (2026-06-10) 之後只剩 identity pointer（id/platform/
 # date/url），metrics 住 spores.json — 本步驟平日應為 no-op，只在新孢子發布日有 diff。
-echo -e "${GRN}[13/14]${RST} sync sporeLinks identity pointers (regen from SPORE-LOG)..."
+echo -e "${GRN}[13/14]${RST} sync sporeLinks identity pointers (regen from spore-log.json)..."
 if python3 scripts/tools/sync-spore-links.py --apply 2>&1 | tail -3; then
   echo -e "${DIM}   ✓ sporeLinks synced${RST}"
 else

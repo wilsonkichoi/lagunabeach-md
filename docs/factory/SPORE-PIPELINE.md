@@ -177,7 +177,7 @@ PICK → VERIFY → WRITE → SHIP → HARVEST
 
 - entry status 從 `pending` 改為 `scheduled` （per [SPORE-INBOX §Auto-heartbeat 整合](SPORE-INBOX.md#auto-heartbeat-整合)）
 - 走 Stage 2 VERIFY 全 17 hard gate（沒 short-cut，無論 entry 哪一 source）
-- Stage 4 SHIP 完 → SPORE-LOG row append + SPORE-INBOX entry 整段刪除
+- Stage 4 SHIP 完 → `spore-db.py add-spore`（identity 進 spore-log.json）+ SPORE-INBOX entry 整段刪除
 
 **dashboard-articles fallback（無 SPORE-INBOX entry 時用）** — 從知識庫選出 5-10 篇候選文章：
 
@@ -608,10 +608,18 @@ fi
 5. **發文後自行擷取 post URL + post-ship verify**：navigate 到 @taiwandotmd profile → JS query 最新 post href → navigate post URL → JS read 5 條 verify（textHasHook / textHasQuote / textHasCloseLine / imageCount ≥ 1 / UTM 留痕，per [SOCIAL-POSTING-PIPELINE §AI post-ship verify](../pipelines/SOCIAL-POSTING-PIPELINE.md)）。任一 FAIL 立即 report observer，不沉默 silent ship
    - X URL 格式：`https://x.com/taiwandotmd/status/{status_id}`
    - Threads URL 格式：`https://www.threads.com/@taiwandotmd/post/{post_code}`
-6. 記錄到 `SPORE-LOG.md` §發文紀錄（**URL 必填**；Threads 記主貼 URL，reply URL 可選填）
+6. 登錄 identity 到 `spore-log.json`（**URL 必填**；Threads 記主貼 URL）— 2026-06-10 起走 CLI，不寫凍結的 SPORE-LOG.md：
+
+   ```bash
+   python3 scripts/tools/spore-db.py add-spore --date 2026-06-DD --platform threads \
+     --slug 文章slug --url '<乾淨化 URL>' --template 'A2 ...' --highlight 'ship 一句話'
+   # 回傳新 id（每平台各跑一次）；ship 完整敘事寫 blueprint 檔 §Ship log
+   ```
+
    - **URL 乾淨化**：記錄前**必須把 query string 整段剝掉**。從 app share 複製的 URL 常帶 `?xmt=...&slof=1` 這類追蹤參數，統一剝掉
    - ✅ 正確：`https://www.threads.com/@taiwandotmd/post/DXVpBlLk4oE`
    - ❌ 錯誤：`https://www.threads.com/@taiwandotmd/post/DXVpBlLk4oE?xmt=...&slof=1`
+
 7. **寫回源文章 frontmatter `sporeLinks`** — identity pointer（v2 2026-06-10 資料解耦）：
 
    ```yaml
@@ -627,7 +635,7 @@ fi
      數字寫進文章 = 污染 git 時間軸 → /latest 排序 + sitemap lastmod 假更新
      （[reports/spore-data-architecture-2026-06-10.md](../../reports/spore-data-architecture-2026-06-10.md)），
      validate-spore-data.py check 5 會 ERROR
-   - 其實 step 6 寫完 SPORE-LOG 後跑 `python3 scripts/tools/sync-spore-links.py --apply` 會自動生成這塊，不必手寫
+   - step 6 的 add-spore 跑完後執行 `python3 scripts/tools/sync-spore-links.py --apply`，這塊會自動生成，不必手寫
    - **ship commit 紀律**：spore ship commit 只准動 frontmatter sporeLinks + factory 檔；
      內文修正一律另開 `heal:` commit（content-dates 用 commit type 區分真假內容更新）
    - schema canonical：`src/components/SporeFootprint.astro` interface `SporeLink`
@@ -754,15 +762,15 @@ grep "{中文slug}" knowledge/_translations.json
 
 ## 常見陷阱（process 級）
 
-| 陷阱                 | 症狀                                                   | 解法                                                   |
-| -------------------- | ------------------------------------------------------ | ------------------------------------------------------ |
-| 原文品質差           | 孢子寫出來也空洞                                       | 先過 VERIFY 品質三層，不合格回爐                       |
-| URL 被截斷           | `taiwan.md/peopl…`                                     | 中文 slug 必須 URL encode（用 python3 指令，不要手打） |
-| URL 含中文           | `taiwan.md/food/珍珠奶茶/`                             | Threads/X 會斷開，必須 encode 成 `%E7%8F%8D...`        |
-| Briefing 病          | 政治/外交/制度題目只排數字，沒讀者可抓住的物件         | 回 VERIFY §Hook Blueprint 找日常物件 + 矛盾問題        |
-| 英文 SSOT 過時       | 中文孢子拿最新數字，英文 knowledge 還停在舊標題/舊日期 | SHIP §多語 SSOT freshness 先同步英文 knowledge         |
-| 跳過 fact-check gate | 直接 output prose 給觀察者                             | VERIFY §事實查核閘 是 hard gate，不過不放行            |
-| 沒寫 sporeLinks      | 讀者看不到這篇孢子的存在                               | SHIP §發佈 step 6 強制寫回 frontmatter                 |
+| 陷阱                  | 症狀                                                   | 解法                                                   |
+| --------------------- | ------------------------------------------------------ | ------------------------------------------------------ |
+| 原文品質差            | 孢子寫出來也空洞                                       | 先過 VERIFY 品質三層，不合格回爐                       |
+| URL 被截斷            | `taiwan.md/peopl…`                                     | 中文 slug 必須 URL encode（用 python3 指令，不要手打） |
+| URL 含中文            | `taiwan.md/food/珍珠奶茶/`                             | Threads/X 會斷開，必須 encode 成 `%E7%8F%8D...`        |
+| Briefing 病           | 政治/外交/制度題目只排數字，沒讀者可抓住的物件         | 回 VERIFY §Hook Blueprint 找日常物件 + 矛盾問題        |
+| 英文 SSOT 過時        | 中文孢子拿最新數字，英文 knowledge 還停在舊標題/舊日期 | SHIP §多語 SSOT freshness 先同步英文 knowledge         |
+| 跳過 fact-check gate  | 直接 output prose 給觀察者                             | VERIFY §事實查核閘 是 hard gate，不過不放行            |
+| 沒跑 add-spore + sync | 讀者看不到這篇孢子的存在                               | SHIP §發佈 step 6 spore-db add-spore + step 7 sync     |
 
 寫作層面陷阱（重複專名 / 引語倒裝 / 編年體 lead / 排比過硬等）→ 見 [SPORE-WRITING.md](SPORE-WRITING.md)。
 

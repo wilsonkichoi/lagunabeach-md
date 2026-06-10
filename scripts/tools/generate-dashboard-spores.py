@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """
-generate-dashboard-spores.py — Parse SPORE-LOG.md + SPORE-HARVESTS/ → public/api/dashboard-spores.json
+generate-dashboard-spores.py — spore-log.json + spore-metrics.json → public/api/dashboard-spores.json
 
-解析 docs/factory/SPORE-LOG.md 的兩張 markdown table（發文紀錄 + 成效追蹤）
-+ docs/factory/SPORE-HARVESTS/ 目錄下的 harvest log frontmatter，
-產出 Dashboard 繁殖系統 section 所需的結構化資料。
+v2 (2026-06-10 JSON SSOT 翻轉, reports/spore-json-ssot-2026-06-10.md)：輸入改讀
+docs/factory/spore-log.json（identity）+ spore-metrics.json（metric 事件），
+產出 Dashboard 繁殖系統 section 所需的結構化資料。compute 層不變。
+（檔內 markdown parser 函式保留：bootstrap-spore-ssot.py 災難重建時 import 用。）
 
 對應計畫：reports/dashboard-spore-section-plan-2026-04-18.md（Phase 1 data layer）
 整合入口：scripts/tools/refresh-data.sh Phase 2.8
@@ -25,8 +26,8 @@ from pathlib import Path
 from collections import defaultdict
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-SPORE_LOG = REPO_ROOT / "docs" / "factory" / "SPORE-LOG.md"
-HARVESTS_DIR = REPO_ROOT / "docs" / "factory" / "SPORE-HARVESTS"
+SPORE_LOG_JSON = REPO_ROOT / "docs" / "factory" / "spore-log.json"
+SPORE_METRICS_JSON = REPO_ROOT / "docs" / "factory" / "spore-metrics.json"
 GA_CACHE = Path.home() / ".config" / "taiwan-md" / "cache" / "ga4-latest.json"
 TARGET = REPO_ROOT / "public" / "api" / "dashboard-spores.json"
 
@@ -443,10 +444,13 @@ def collect_harvests():
 
 
 def _body_views(body_row):
-    """Extract integer views from body table row. None if absent/unparseable."""
+    """Extract integer views from body row. None if absent/unparseable.
+    v2 JSON SSOT: values are already ints (or None)."""
     if not body_row:
         return None
     raw = body_row.get("views", "")
+    if isinstance(raw, int):
+        return raw
     if not raw:
         return None
     s = raw.strip().replace(",", "").replace("*", "").replace(" ", "")
@@ -472,6 +476,8 @@ def _body_engagements(body_row):
     if not body_row:
         return None
     eng_raw = body_row.get("engagements", "")
+    if isinstance(eng_raw, int):
+        return eng_raw
     if eng_raw:
         m = re.match(r"^[\d,]+", eng_raw.strip())
         if m:
@@ -480,6 +486,10 @@ def _body_engagements(body_row):
     found = False
     for k in ("likes", "reposts", "comments", "shares"):
         raw = body_row.get(k, "")
+        if isinstance(raw, int):
+            total += raw
+            found = True
+            continue
         m = re.match(r"^[\d,]+", raw.strip()) if raw else None
         if m:
             try:
@@ -769,26 +779,62 @@ def compute_harvest_status(entries, harvest_map):
 
 # ───────────────────────────────── main ─────────────────────────────────
 
+def load_publishes_json():
+    """v2 (2026-06-10 JSON SSOT flip): identity from spore-log.json.
+    Shape mirrors parse_publish_rows output — downstream compute untouched."""
+    data = json.loads(SPORE_LOG_JSON.read_text(encoding="utf-8"))
+    entries = []
+    for s in data["spores"]:
+        entries.append({
+            "n": s["id"],
+            "date": s.get("date"),
+            "lang": s.get("lang"),
+            "platform": (s.get("platform") or "").lower() or None,
+            "article": s.get("slug"),
+            "category": s.get("category"),
+            "template": s.get("template"),
+            "url": s.get("url"),
+            "highlight": s.get("highlight"),
+        })
+    return entries
+
+
+def load_harvest_map_json():
+    """v2: metric events from spore-metrics.json → same map shape as
+    collect_harvests(): {n: [{harvest_date, d_n_int, body}]}. Seed events
+    (batch=None) included with d_n_int=0 — views_latest fallback can use them,
+    while the d_n>=7 views_7d gate conservatively ignores them."""
+    data = json.loads(SPORE_METRICS_JSON.read_text(encoding="utf-8"))
+    harvest_map = defaultdict(list)
+    for e in data["events"]:
+        d_n = e.get("dPlus") if e.get("dPlus") is not None else 0
+        body = {
+            "n": e["spore"],
+            "d_n_int": d_n,
+            "views": e.get("views"),
+            "likes": e.get("likes"),
+            "reposts": e.get("reposts"),
+            "comments": e.get("comments"),
+            "shares": e.get("shares"),
+        }
+        harvest_map[e["spore"]].append({
+            "harvest_date": e.get("at") or "",
+            "d_n_int": d_n,
+            "body": body,
+        })
+    return dict(harvest_map)
+
+
 def main():
-    if not SPORE_LOG.exists():
-        sys.stderr.write(f"❌ SPORE-LOG not found at {SPORE_LOG}\n")
+    if not SPORE_LOG_JSON.exists() or not SPORE_METRICS_JSON.exists():
+        sys.stderr.write(
+            "❌ spore-log.json / spore-metrics.json 缺檔 — "
+            "見 reports/spore-json-ssot-2026-06-10.md\n")
         sys.exit(1)
 
-    md_text = SPORE_LOG.read_text(encoding="utf-8")
-    sections = split_tables(md_text)
-
-    pub_section = sections.get("發文紀錄", "")
-    # Phase 6 (2026-05-08): SPORE-LOG 成效追蹤 section deprecated/deleted.
-    # Primary metrics source is now SPORE-HARVESTS body tables (collect_harvests).
-    # Read 成效追蹤 if it exists for transitional compat — but absence is OK.
-    metric_section = sections.get("成效追蹤（週回填）", "")
-
-    pub_rows = parse_pipe_table(pub_section)
-    metric_rows = parse_pipe_table(metric_section) if metric_section else []
-
-    publishes = parse_publish_rows(pub_rows)
-    metrics = parse_metrics_rows(metric_rows)
-    harvest_map = collect_harvests()
+    publishes = load_publishes_json()
+    metrics = {}  # 成效追蹤 retired (Phase 6 deprecated → 2026-06-10 frozen)
+    harvest_map = load_harvest_map_json()
     entries = merge_publish_and_metrics(publishes, metrics, harvest_map)
 
     bf = compute_backfill_warnings(entries)

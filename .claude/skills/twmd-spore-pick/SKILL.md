@@ -88,7 +88,7 @@ non_zero_dims = sum(1 for d in [d1, d2, d3, d4, d5] if d > 0)
 | HG2           | 6 source 全讀完（line count cite）                                    | 1     |
 | HG3           | 每 candidate 7 dim 都算分（Notes transparency）                       | 2     |
 | HG4           | 每 candidate ≥ 2 hook anchor + ≥ 2 hook types                         | 3     |
-| HG5           | 0 candidate 在 SPORE-LOG 14d 內                                       | 4     |
+| HG5           | 0 candidate 在 14d 內發過孢子（`spore-db.py last-spore --article`）   | 4     |
 | HG6           | 0 candidate 跟 SPORE-INBOX 現有 pending 重複                          | 4     |
 | HG7           | 至少 2 個不同 Source-Mode                                             | 4     |
 | HG8           | 至少 1 個來自 ARTICLE-DONE-LOG 最近 7d                                | 4     |

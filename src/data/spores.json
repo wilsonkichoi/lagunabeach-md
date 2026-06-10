@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-06-10T17:39:31+08:00",
+  "_generated": "2026-06-10T18:07:14+08:00",
   "schemaVersion": 1,
   "counts": {
     "spores": 125,
@@ -16,6 +16,7 @@
       "platform": "threads",
       "date": "2026-03-24",
       "url": null,
+      "template": "B 冷知識型",
       "metrics": {
         "views": null,
         "likes": null,
@@ -35,6 +36,7 @@
       "platform": "threads",
       "date": "2026-03-24",
       "url": null,
+      "template": "A 人物型",
       "metrics": {
         "views": null,
         "likes": null,
@@ -54,6 +56,7 @@
       "platform": "threads",
       "date": "2026-04-04",
       "url": null,
+      "template": "A 人物型",
       "metrics": {
         "views": null,
         "likes": null,
@@ -73,6 +76,7 @@
       "platform": "threads",
       "date": "2026-04-04",
       "url": "https://www.threads.com/@taiwandotmd/post/DWtoAI1k8Xf",
+      "template": "B 冷知識型",
       "metrics": {
         "views": 351,
         "likes": null,
@@ -118,6 +122,7 @@
       "platform": "x",
       "date": "2026-04-04",
       "url": "https://x.com/taiwandotmd/status/2040438911697379383",
+      "template": "B 冷知識型",
       "metrics": {
         "views": 55,
         "likes": null,
@@ -153,6 +158,7 @@
       "platform": "threads",
       "date": "2026-04-06",
       "url": "https://www.threads.com/@taiwandotmd/post/DWx7dvkEcNA",
+      "template": "B 冷知識型",
       "metrics": {
         "views": 140,
         "likes": null,
@@ -198,6 +204,7 @@
       "platform": "x",
       "date": "2026-04-06",
       "url": "https://x.com/taiwandotmd/status/2041042663613608298",
+      "template": "B 冷知識型",
       "metrics": {
         "views": 428,
         "likes": null,
@@ -233,6 +240,7 @@
       "platform": "threads",
       "date": "2026-04-06",
       "url": "https://www.threads.com/@taiwandotmd/post/DWyqKShE4a8",
+      "template": "A 人物型",
       "metrics": {
         "views": 212,
         "likes": null,
@@ -278,6 +286,7 @@
       "platform": "x",
       "date": "2026-04-06",
       "url": "https://x.com/taiwandotmd/status/2041143084583469498",
+      "template": "A 人物型",
       "metrics": {
         "views": 40,
         "likes": null,
@@ -313,6 +322,7 @@
       "platform": "threads",
       "date": "2026-04-07",
       "url": "https://www.threads.com/@taiwandotmd/post/DW1ba_tEz5D",
+      "template": "D 時間軸型",
       "metrics": {
         "views": 274,
         "likes": null,
@@ -358,6 +368,7 @@
       "platform": "x",
       "date": "2026-04-07",
       "url": "https://x.com/taiwandotmd/status/2041532925469224960",
+      "template": "D 時間軸型",
       "metrics": {
         "views": 36,
         "likes": null,
@@ -393,6 +404,7 @@
       "platform": "threads",
       "date": "2026-04-07",
       "url": null,
+      "template": "D 時間軸型",
       "metrics": {
         "views": null,
         "likes": null,
@@ -412,6 +424,7 @@
       "platform": "threads",
       "date": "2026-04-08",
       "url": "https://www.threads.com/@taiwandotmd/post/DW2rgufk40S",
+      "template": "B 冷知識型",
       "metrics": {
         "views": 281,
         "likes": null,
@@ -457,6 +470,7 @@
       "platform": "x",
       "date": "2026-04-08",
       "url": "https://x.com/taiwandotmd/status/2041710306196677031",
+      "template": "B 冷知識型",
       "metrics": {
         "views": 34,
         "likes": null,
@@ -492,6 +506,7 @@
       "platform": "threads",
       "date": "2026-04-08",
       "url": "https://www.threads.com/@taiwandotmd/post/DW2whskkZot",
+      "template": "B 冷知識型",
       "metrics": {
         "views": 568,
         "likes": null,
@@ -537,6 +552,7 @@
       "platform": "x",
       "date": "2026-04-08",
       "url": "https://x.com/taiwandotmd/status/2041719940965920921",
+      "template": "B 冷知識型",
       "metrics": {
         "views": 47,
         "likes": null,
@@ -569,9 +585,10 @@
       "articlePath": "knowledge/Society/台灣國防與軍事現代化.md",
       "articleUrl": "/society/台灣國防與軍事現代化/",
       "lang": "zh",
-      "platform": "—",
+      "platform": null,
       "date": "2026-04-10",
       "url": null,
+      "template": "B 冷知識型",
       "metrics": {
         "views": null,
         "likes": null,
@@ -588,9 +605,10 @@
       "articlePath": null,
       "articleUrl": null,
       "lang": "en",
-      "platform": "—",
+      "platform": null,
       "date": "2026-04-10",
       "url": null,
+      "template": "B 冷知識型",
       "metrics": {
         "views": null,
         "likes": null,
@@ -607,9 +625,10 @@
       "articlePath": "knowledge/Society/台灣動物用藥爭議.md",
       "articleUrl": "/society/台灣動物用藥爭議/",
       "lang": "zh",
-      "platform": "—",
+      "platform": null,
       "date": "2026-04-10",
       "url": null,
+      "template": "B 冷知識型",
       "metrics": {
         "views": null,
         "likes": null,
@@ -626,9 +645,10 @@
       "articlePath": null,
       "articleUrl": null,
       "lang": "en",
-      "platform": "—",
+      "platform": null,
       "date": "2026-04-10",
       "url": null,
+      "template": "B 冷知識型",
       "metrics": {
         "views": null,
         "likes": null,
@@ -648,6 +668,7 @@
       "platform": "threads",
       "date": "2026-04-11",
       "url": "https://www.threads.com/@taiwandotmd/post/DW_CjmCkQMW",
+      "template": "D 時間軸型",
       "metrics": {
         "views": 221,
         "likes": null,
@@ -683,6 +704,7 @@
       "platform": "threads",
       "date": "2026-04-11",
       "url": "https://www.threads.com/@taiwandotmd/post/DW_l-6Yk_kg",
+      "template": "A 人物型",
       "metrics": {
         "views": 49000,
         "likes": null,
@@ -718,6 +740,7 @@
       "platform": "x",
       "date": "2026-04-11",
       "url": "https://x.com/taiwandotmd/status/2042527836003868785",
+      "template": "A 人物型",
       "metrics": {
         "views": 28,
         "likes": null,
@@ -753,6 +776,7 @@
       "platform": "threads",
       "date": "2026-04-13",
       "url": "https://www.threads.com/@taiwandotmd/post/DXDpQqyETkf",
+      "template": "A 人物型",
       "metrics": {
         "views": 8533,
         "likes": null,
@@ -788,6 +812,7 @@
       "platform": "threads",
       "date": "2026-04-13",
       "url": "https://www.threads.com/@taiwandotmd/post/DXDq1FZkddO",
+      "template": "A 人物型",
       "metrics": {
         "views": 190000,
         "likes": 2357,
@@ -823,6 +848,7 @@
       "platform": "x",
       "date": "2026-04-13",
       "url": "https://x.com/taiwandotmd/status/2043538858886017091",
+      "template": "A 人物型",
       "metrics": {
         "views": 332,
         "likes": null,
@@ -858,6 +884,7 @@
       "platform": "x",
       "date": "2026-04-13",
       "url": "https://x.com/taiwandotmd/status/2043538702853644444",
+      "template": "A 人物型",
       "metrics": {
         "views": 489,
         "likes": 2,
@@ -893,6 +920,7 @@
       "platform": "threads",
       "date": "2026-04-14",
       "url": "https://www.threads.com/@taiwandotmd/post/DXGo_9REaGS",
+      "template": "A 人物型",
       "metrics": {
         "views": null,
         "likes": null,
@@ -912,6 +940,7 @@
       "platform": "threads",
       "date": "2026-04-14",
       "url": "https://www.threads.com/@taiwandotmd/post/DXGuAudkbuC",
+      "template": "A2 首尾呼應",
       "metrics": {
         "views": 300000,
         "likes": 16000,
@@ -957,6 +986,7 @@
       "platform": "x",
       "date": "2026-04-14",
       "url": "https://x.com/taiwandotmd/status/2043976162813325344",
+      "template": "A2 首尾呼應",
       "metrics": {
         "views": 136474,
         "likes": 3600,
@@ -1002,18 +1032,19 @@
       "platform": "threads",
       "date": "2026-04-18",
       "url": "https://www.threads.com/@taiwandotmd/post/DXQph5okwOu",
+      "template": "A 人物型",
       "metrics": {
         "views": 304,
-        "likes": null,
+        "likes": 8,
         "reposts": null,
-        "comments": null,
-        "shares": null
+        "comments": 1,
+        "shares": 4
       },
       "metricsAsOf": {
         "dPlus": 7,
         "harvestDate": "2026-05-08",
         "batch": "batch-historical-2026-05-08-migration",
-        "source": "harvest"
+        "source": "harvest+backfill"
       },
       "history": [
         {
@@ -1067,18 +1098,19 @@
       "platform": "x",
       "date": "2026-04-18",
       "url": "https://x.com/taiwandotmd/status/2045363785347612934",
+      "template": "A 人物型",
       "metrics": {
         "views": 5312,
-        "likes": null,
-        "reposts": null,
+        "likes": 125,
+        "reposts": 34,
         "comments": null,
-        "shares": null
+        "shares": 27
       },
       "metricsAsOf": {
         "dPlus": 7,
         "harvestDate": "2026-05-08",
         "batch": "batch-historical-2026-05-08-migration",
-        "source": "harvest"
+        "source": "harvest+backfill"
       },
       "history": [
         {
@@ -1132,18 +1164,19 @@
       "platform": "threads",
       "date": "2026-04-18",
       "url": "https://www.threads.com/@taiwandotmd/post/DXQ_in_Ew0*",
+      "template": "A2 首尾呼應",
       "metrics": {
         "views": 28000,
-        "likes": null,
-        "reposts": null,
-        "comments": null,
-        "shares": null
+        "likes": 655,
+        "reposts": 31,
+        "comments": 14,
+        "shares": 34
       },
       "metricsAsOf": {
         "dPlus": 7,
         "harvestDate": "2026-05-08",
         "batch": "batch-historical-2026-05-08-migration",
-        "source": "harvest"
+        "source": "harvest+backfill"
       },
       "history": [
         {
@@ -1187,18 +1220,19 @@
       "platform": "x",
       "date": "2026-04-18",
       "url": "https://x.com/taiwandotmd/status/2045412116665172331",
+      "template": "A2 首尾呼應",
       "metrics": {
         "views": 218,
-        "likes": null,
-        "reposts": null,
-        "comments": null,
+        "likes": 6,
+        "reposts": 1,
+        "comments": 1,
         "shares": null
       },
       "metricsAsOf": {
         "dPlus": 7,
         "harvestDate": "2026-05-08",
         "batch": "batch-historical-2026-05-08-migration",
-        "source": "harvest"
+        "source": "harvest+backfill"
       },
       "history": [
         {
@@ -1242,6 +1276,7 @@
       "platform": "threads",
       "date": "2026-04-19",
       "url": "https://www.threads.com/@taiwandotmd/post/DXTr5QLkfgp",
+      "template": "B 冷知識型",
       "metrics": {
         "views": 71000,
         "likes": null,
@@ -1287,18 +1322,19 @@
       "platform": "x",
       "date": "2026-04-19",
       "url": "https://x.com/taiwandotmd/status/2045793882970227009",
+      "template": "B 冷知識型",
       "metrics": {
         "views": 63868,
-        "likes": null,
-        "reposts": null,
-        "comments": null,
+        "likes": 313,
+        "reposts": 54,
+        "comments": 10,
         "shares": null
       },
       "metricsAsOf": {
         "dPlus": 7,
         "harvestDate": "2026-05-08",
         "batch": "batch-historical-2026-05-08-migration",
-        "source": "harvest"
+        "source": "harvest+backfill"
       },
       "history": [
         {
@@ -1342,9 +1378,10 @@
       "platform": "threads",
       "date": "2026-04-20",
       "url": "https://www.threads.com/@taiwandotmd/post/DXVjW6pEzeg",
+      "template": "感謝/站方",
       "metrics": {
         "views": 1415,
-        "likes": null,
+        "likes": 1,
         "reposts": null,
         "comments": null,
         "shares": null
@@ -1353,7 +1390,7 @@
         "dPlus": 7,
         "harvestDate": "2026-05-08",
         "batch": "batch-historical-2026-05-08-migration",
-        "source": "harvest"
+        "source": "harvest+backfill"
       },
       "history": [
         {
@@ -1397,6 +1434,7 @@
       "platform": "x",
       "date": "2026-04-20",
       "url": "https://x.com/taiwandotmd/status/2046054177093382449",
+      "template": "感謝/站方",
       "metrics": {
         "views": 150,
         "likes": 5,
@@ -1452,6 +1490,7 @@
       "platform": "threads",
       "date": "2026-04-20",
       "url": "https://www.threads.com/@taiwandotmd/post/DXVpBlLk4oE",
+      "template": "A 人物型",
       "metrics": {
         "views": 3521,
         "likes": null,
@@ -1507,6 +1546,7 @@
       "platform": "x",
       "date": "2026-04-20",
       "url": "https://x.com/taiwandotmd/status/2046066338138104130",
+      "template": "A 人物型",
       "metrics": {
         "views": 299,
         "likes": 2,
@@ -1562,12 +1602,13 @@
       "platform": "threads",
       "date": "2026-04-23",
       "url": "https://www.threads.com/@taiwandotmd/post/DXdyoqkEdma",
+      "template": "A 人物型",
       "metrics": {
         "views": 2100,
         "likes": 258,
-        "reposts": 31,
+        "reposts": 29,
         "comments": 5,
-        "shares": 8
+        "shares": 4
       },
       "metricsAsOf": {
         "dPlus": 7,
@@ -1627,11 +1668,12 @@
       "platform": "x",
       "date": "2026-04-23",
       "url": "https://x.com/taiwandotmd/status/2047213679826149450",
+      "template": "A 人物型",
       "metrics": {
         "views": 25100,
-        "likes": 1400,
+        "likes": 1437,
         "reposts": 352,
-        "comments": 21,
+        "comments": 20,
         "shares": 51
       },
       "metricsAsOf": {
@@ -1702,9 +1744,10 @@
       "platform": "threads",
       "date": "2026-04-26",
       "url": "https://www.threads.com/@taiwandotmd/post/DXlCpCRE7S9",
+      "template": "B+C 混合",
       "metrics": {
         "views": 827,
-        "likes": 60,
+        "likes": 46,
         "reposts": 1,
         "comments": 1,
         "shares": 0
@@ -1757,12 +1800,13 @@
       "platform": "x",
       "date": "2026-04-26",
       "url": "https://x.com/taiwandotmd/status/2048233702053073039",
+      "template": "B+C 混合",
       "metrics": {
         "views": 49200,
-        "likes": 860,
+        "likes": 847,
         "reposts": 76,
         "comments": 5,
-        "shares": 63
+        "shares": 60
       },
       "metricsAsOf": {
         "dPlus": 7,
@@ -1812,10 +1856,11 @@
       "platform": "threads",
       "date": "2026-04-26",
       "url": "https://www.threads.com/@taiwandotmd/post/DXlcWdykVgv",
+      "template": "B (scene-anchor)",
       "metrics": {
         "views": 65400,
         "likes": 1027,
-        "reposts": 23,
+        "reposts": 1,
         "comments": 12,
         "shares": 115
       },
@@ -1867,12 +1912,13 @@
       "platform": "x",
       "date": "2026-04-26",
       "url": "https://x.com/taiwandotmd/status/2048290884022850047",
+      "template": "B (scene-anchor)",
       "metrics": {
         "views": 39900,
-        "likes": 491,
-        "reposts": 53,
+        "likes": 484,
+        "reposts": 52,
         "comments": 2,
-        "shares": 74
+        "shares": 68
       },
       "metricsAsOf": {
         "dPlus": 7,
@@ -1922,6 +1968,7 @@
       "platform": "threads",
       "date": "2026-04-28",
       "url": "https://www.threads.com/@taiwandotmd/post/DXqRxf5EQpg",
+      "template": "B (scene-anchor)",
       "metrics": {
         "views": 12000,
         "likes": 1130,
@@ -1977,6 +2024,7 @@
       "platform": "x",
       "date": "2026-04-28",
       "url": "https://x.com/taiwandotmd/status/2048970734253551638",
+      "template": "B (scene-anchor)",
       "metrics": {
         "views": 26940,
         "likes": 704,
@@ -2032,6 +2080,7 @@
       "platform": "threads",
       "date": "2026-04-28",
       "url": "https://www.threads.com/@taiwandotmd/post/DXrDdODk37l",
+      "template": "A2 (首尾呼應)",
       "metrics": {
         "views": 10000,
         "likes": 743,
@@ -2077,6 +2126,7 @@
       "platform": "x",
       "date": "2026-04-28",
       "url": "https://x.com/taiwandotmd/status/2049079839244828881",
+      "template": "A2 (首尾呼應)",
       "metrics": {
         "views": 8130,
         "likes": 290,
@@ -2122,6 +2172,7 @@
       "platform": "threads",
       "date": "2026-04-29",
       "url": "https://www.threads.com/@taiwandotmd/post/DXtCIBCEeTh?xmt=AQF00UmSgX_psrM3oEzyol1G5-uzmnwiLTKilOhh_lJbhQ",
+      "template": "B (護照悖論)",
       "metrics": {
         "views": 17000,
         "likes": 500,
@@ -2167,6 +2218,7 @@
       "platform": "x",
       "date": "2026-04-29",
       "url": "https://x.com/taiwandotmd/status/2049358488246349945",
+      "template": "B (護照悖論)",
       "metrics": {
         "views": 59190,
         "likes": 1192,
@@ -2212,6 +2264,7 @@
       "platform": "threads",
       "date": "2026-04-30",
       "url": "https://www.threads.com/@taiwandotmd/post/DXwjz-nk9Iq",
+      "template": "B 冷知識型",
       "metrics": {
         "views": 65000,
         "likes": 2995,
@@ -2257,6 +2310,7 @@
       "platform": "x",
       "date": "2026-04-30",
       "url": "https://x.com/taiwandotmd/status/2049854898108522575",
+      "template": "B 冷知識型",
       "metrics": {
         "views": 69664,
         "likes": 1642,
@@ -2302,6 +2356,7 @@
       "platform": "threads",
       "date": "2026-04-30",
       "url": "https://www.threads.com/@taiwandotmd/post/DXwm8KLk5QP",
+      "template": "B 冷知識型",
       "metrics": {
         "views": 1500,
         "likes": 165,
@@ -2347,6 +2402,7 @@
       "platform": "x",
       "date": "2026-04-30",
       "url": "https://x.com/taiwandotmd/status/2049860918641893571",
+      "template": "B 冷知識型",
       "metrics": {
         "views": 20940,
         "likes": 821,
@@ -2392,6 +2448,7 @@
       "platform": "threads",
       "date": "2026-05-02",
       "url": "https://www.threads.com/@taiwandotmd/post/DX13hccE6U6",
+      "template": "A2+D 旗桿+HFNC 混合",
       "metrics": {
         "views": 35000,
         "likes": 3396,
@@ -2467,6 +2524,7 @@
       "platform": "x",
       "date": "2026-05-02",
       "url": "https://x.com/taiwandotmd/status/2050601653792047479",
+      "template": "A2+D 旗桿+HFNC 混合",
       "metrics": {
         "views": 26536,
         "likes": 1179,
@@ -2532,6 +2590,7 @@
       "platform": "threads",
       "date": "2026-05-04",
       "url": "https://www.threads.com/@taiwandotmd/post/DX6Xxd6kQan",
+      "template": "A+B+C 混合",
       "metrics": {
         "views": 19000,
         "likes": 1800,
@@ -2587,6 +2646,7 @@
       "platform": "x",
       "date": "2026-05-04",
       "url": "https://x.com/taiwandotmd/status/2051235570995839479",
+      "template": "A+B+C 混合",
       "metrics": {
         "views": 12776,
         "likes": 423,
@@ -2642,6 +2702,7 @@
       "platform": "threads",
       "date": "2026-05-05",
       "url": "https://www.threads.com/@taiwandotmd/post/DX8zEYFAe9c",
+      "template": "A+C 混合（飛機+芭樂）",
       "metrics": {
         "views": 7489,
         "likes": 504,
@@ -2687,6 +2748,7 @@
       "platform": "x",
       "date": "2026-05-05",
       "url": "https://x.com/taiwandotmd/status/2051577099341967464",
+      "template": "A+C 混合（飛機+芭樂）",
       "metrics": {
         "views": 17332,
         "likes": 541,
@@ -2732,18 +2794,19 @@
       "platform": "threads",
       "date": "2026-05-05",
       "url": "https://www.threads.com/@taiwandotmd/post/DX9i3zClPj4",
+      "template": "A+B+C 混合（紐約→西瓜→消滅自己）",
       "metrics": {
         "views": 270,
         "likes": 0,
         "reposts": 0,
         "comments": 0,
-        "shares": null
+        "shares": 0
       },
       "metricsAsOf": {
         "dPlus": 7,
         "harvestDate": "2026-05-12",
         "batch": "batch-2026-05-12-13-spores",
-        "source": "harvest"
+        "source": "harvest+backfill"
       },
       "history": [
         {
@@ -2777,18 +2840,19 @@
       "platform": "x",
       "date": "2026-05-05",
       "url": "https://x.com/taiwandotmd/status/2051682413823336822",
+      "template": "A+B+C 混合（紐約→西瓜→消滅自己）",
       "metrics": {
         "views": 19,
         "likes": 0,
         "reposts": 0,
         "comments": 0,
-        "shares": null
+        "shares": 0
       },
       "metricsAsOf": {
         "dPlus": 7,
         "harvestDate": "2026-05-12",
         "batch": "batch-2026-05-12-13-spores",
-        "source": "harvest"
+        "source": "harvest+backfill"
       },
       "history": [
         {
@@ -2822,18 +2886,19 @@
       "platform": "x",
       "date": "2026-05-05",
       "url": "https://x.com/taiwandotmd/status/2051684242749575450",
+      "template": "A+B+C 混合 第一人稱 reframe",
       "metrics": {
         "views": 9,
         "likes": 0,
         "reposts": 0,
         "comments": 0,
-        "shares": null
+        "shares": 0
       },
       "metricsAsOf": {
         "dPlus": 7,
         "harvestDate": "2026-05-12",
         "batch": "batch-2026-05-12-13-spores",
-        "source": "harvest"
+        "source": "harvest+backfill"
       },
       "history": [
         {
@@ -2877,6 +2942,7 @@
       "platform": "threads",
       "date": "2026-05-08",
       "url": "https://www.threads.com/@taiwandotmd/post/DYE7ZAik0qr",
+      "template": "A2 首尾呼應 + Scene-List-Scene",
       "metrics": {
         "views": 1780,
         "likes": 108,
@@ -2952,6 +3018,7 @@
       "platform": "x",
       "date": "2026-05-08",
       "url": "https://x.com/taiwandotmd/status/2052721374570106952",
+      "template": "A2 首尾呼應 + Scene-List-Scene",
       "metrics": {
         "views": 9050,
         "likes": 376,
@@ -3027,6 +3094,7 @@
       "platform": "threads",
       "date": "2026-05-09",
       "url": "https://www.threads.com/@taiwandotmd/post/DYHoQtCE-5Z",
+      "template": "A+B 混合紀實版 / Mode D 反轉",
       "metrics": {
         "views": 2875,
         "likes": 60,
@@ -3082,6 +3150,7 @@
       "platform": "x",
       "date": "2026-05-09",
       "url": "https://x.com/taiwandotmd/status/2053100425730269544",
+      "template": "A+B 混合紀實版 / Mode D 反轉",
       "metrics": {
         "views": 6,
         "likes": 0,
@@ -3137,6 +3206,7 @@
       "platform": "threads",
       "date": "2026-05-10",
       "url": "https://www.threads.com/@taiwandotmd/post/DYKW0PmkzbM",
+      "template": "A2 首尾呼應 + 規模反差雙 reveal",
       "metrics": {
         "views": 5334,
         "likes": 461,
@@ -3212,6 +3282,7 @@
       "platform": "x",
       "date": "2026-05-10",
       "url": null,
+      "template": "A2 首尾呼應 + 規模反差雙 reveal",
       "metrics": {
         "views": null,
         "likes": null,
@@ -3231,6 +3302,7 @@
       "platform": "threads",
       "date": "2026-05-12",
       "url": "https://www.threads.com/@taiwandotmd/post/DYPI9W0kyPP",
+      "template": "A2 首尾呼應 + 60 年商標借殼反轉",
       "metrics": {
         "views": 4805,
         "likes": 47,
@@ -3306,6 +3378,7 @@
       "platform": "x",
       "date": "2026-05-12",
       "url": "https://x.com/taiwandotmd/status/2054158652588863776",
+      "template": "A2 首尾呼應 + 60 年商標借殼反轉",
       "metrics": {
         "views": 19029,
         "likes": 236,
@@ -3381,6 +3454,7 @@
       "platform": "threads",
       "date": "2026-05-17",
       "url": "https://www.threads.com/@taiwandotmd/post/DYbYsqOldKC",
+      "template": "A2 首尾呼應 + 警察 surprise reveal",
       "metrics": {
         "views": 30000,
         "likes": 2727,
@@ -3466,6 +3540,7 @@
       "platform": "x",
       "date": "2026-05-17",
       "url": "https://x.com/taiwandotmd/status/2055881969976873375",
+      "template": "A2 首尾呼應 + 警察 surprise reveal",
       "metrics": {
         "views": 10219,
         "likes": 282,
@@ -3551,6 +3626,7 @@
       "platform": "threads",
       "date": "2026-05-17",
       "url": "https://www.threads.com/@taiwandotmd/post/DYca5etE80R",
+      "template": "A2 首尾呼應 + 紀實感重寫 v2",
       "metrics": {
         "views": 27000,
         "likes": 353,
@@ -3636,6 +3712,7 @@
       "platform": "x",
       "date": "2026-05-17",
       "url": "https://x.com/taiwandotmd/status/2056026352298688935",
+      "template": "A2 首尾呼應 + 紀實感重寫 v2",
       "metrics": {
         "views": 242,
         "likes": 17,
@@ -3721,6 +3798,7 @@
       "platform": "threads",
       "date": "2026-05-20",
       "url": "https://www.threads.com/@taiwandotmd/post/DYi422_k4Vs",
+      "template": "A1 + 3 串文 partnership/spore/link funnel",
       "metrics": {
         "views": 1690,
         "likes": 104,
@@ -3806,6 +3884,7 @@
       "platform": "threads",
       "date": "2026-05-23",
       "url": "https://www.threads.com/@taiwandotmd/post/DYpdfODkxQU",
+      "template": "A2 首尾呼應（breaking news hook + 45 年跨度）",
       "metrics": {
         "views": 3550,
         "likes": 35,
@@ -3911,6 +3990,7 @@
       "platform": "x",
       "date": "2026-05-23",
       "url": "https://x.com/taiwandotmd/status/2057861183848550878",
+      "template": "A2 首尾呼應（breaking news hook + 45 年跨度）",
       "metrics": {
         "views": 3522,
         "likes": 44,
@@ -3976,6 +4056,7 @@
       "platform": "threads",
       "date": "2026-05-23",
       "url": "https://www.threads.com/@taiwandotmd/post/DYru52Bk31S",
+      "template": "A2 首尾呼應（家族 connection hook + 95 年弧線 A+B 混合）",
       "metrics": {
         "views": 2179,
         "likes": 19,
@@ -4081,6 +4162,7 @@
       "platform": "x",
       "date": "2026-05-23",
       "url": "https://x.com/taiwandotmd/status/2058183941593719181",
+      "template": "A2 首尾呼應（家族 connection hook + 95 年弧線 A+B 混合）",
       "metrics": {
         "views": 2275,
         "likes": 20,
@@ -4146,6 +4228,7 @@
       "platform": "threads",
       "date": "2026-05-23",
       "url": "https://www.threads.com/@taiwandotmd/post/DYr71D9k-qA",
+      "template": "A2 首尾呼應（dead twin + 假翻譯 + 布克 breaking news）",
       "metrics": {
         "views": 1876,
         "likes": 1883,
@@ -4241,6 +4324,7 @@
       "platform": "x",
       "date": "2026-05-23",
       "url": "https://x.com/taiwandotmd/status/2058211699229134864",
+      "template": "A2 首尾呼應（dead twin + 假翻譯 + 布克 breaking news）",
       "metrics": {
         "views": 34200,
         "likes": 681,
@@ -4296,6 +4380,7 @@
       "platform": "threads",
       "date": "2026-05-24",
       "url": "https://www.threads.com/@taiwandotmd/post/DYt_TMpE2WV",
+      "template": "A2 首尾呼應（反戰詩真相 + 過客→停下 首尾呼應）",
       "metrics": {
         "views": 4165,
         "likes": 91,
@@ -4391,6 +4476,7 @@
       "platform": "threads",
       "date": "2026-05-25",
       "url": "https://www.threads.com/@taiwandotmd/post/DYvqEURgXm-",
+      "template": "A2 首尾呼應（學費→甲方 + 量子代工站位「還沒拿下」收口）",
       "metrics": {
         "views": 4692,
         "likes": 133,
@@ -4476,6 +4562,7 @@
       "platform": "x",
       "date": "2026-05-25",
       "url": "https://x.com/taiwandotmd/status/2058735515021783190",
+      "template": "A2 首尾呼應（學費→甲方 + 量子代工站位「還沒拿下」收口）",
       "metrics": {
         "views": 4240,
         "likes": 131,
@@ -4521,6 +4608,7 @@
       "platform": "threads",
       "date": "2026-05-25",
       "url": "https://www.threads.com/@taiwandotmd/post/DYwMkzBgW8k",
+      "template": "A2 首尾呼應（2008 街機失敗 → 2026 多場域裂縫 + 美學被看見/跌倒收尾）",
       "metrics": {
         "views": 28000,
         "likes": 536,
@@ -4606,6 +4694,7 @@
       "platform": "x",
       "date": "2026-05-25",
       "url": "https://x.com/taiwandotmd/status/2058811390337622339",
+      "template": "A2 首尾呼應（2008 街機失敗 → 2026 多場域裂縫 + 美學被看見/跌倒收尾）",
       "metrics": {
         "views": 10659,
         "likes": 97,
@@ -4651,6 +4740,7 @@
       "platform": "threads",
       "date": "2026-05-25",
       "url": "https://www.threads.com/@taiwandotmd/post/DYwhhzFgfe0",
+      "template": "A2 首尾呼應（1967 巴黎抵達偶像已過世 → 45 年封窗 → 65 歲金樽把窗打開 → 83 歲園區開幕）",
       "metrics": {
         "views": 2719,
         "likes": 68,
@@ -4736,6 +4826,7 @@
       "platform": "threads",
       "date": "2026-05-26",
       "url": "https://www.threads.com/@taiwandotmd/post/DYzFoZxk7GN",
+      "template": "A2 首尾呼應（1995 320×200 DOS 視窗掉眼淚 → 2024 五億賣斷 → 那台電腦不在了但那個下午還在）",
       "metrics": {
         "views": 593,
         "likes": 597,
@@ -4781,6 +4872,7 @@
       "platform": "threads",
       "date": "2026-05-26",
       "url": "https://www.threads.com/@taiwandotmd/post/DYzG-R1k5Ze",
+      "template": "A1 雙意象 micro-arc（林池受難者設計獬豸正義神獸 + 柏楊垂淚碑 28 字沒寫加害者）",
       "metrics": {
         "views": 0,
         "likes": 95,
@@ -4816,6 +4908,7 @@
       "platform": "x",
       "date": "2026-05-26",
       "url": "https://x.com/taiwandotmd/status/2059239795231281223",
+      "template": "A2 首尾呼應（1995 320×200 DOS 視窗掉眼淚 → 2024 五億賣斷 → 那台電腦不在了但那個下午還在）",
       "metrics": {
         "views": 0,
         "likes": 0,
@@ -4827,7 +4920,7 @@
         "dPlus": null,
         "harvestDate": null,
         "batch": null,
-        "source": "preserved"
+        "source": "frontmatter-seed"
       },
       "history": []
     },
@@ -4840,6 +4933,7 @@
       "platform": "threads",
       "date": "2026-05-26",
       "url": "https://www.threads.com/@taiwandotmd/post/DYzmiFqE0mC",
+      "template": "A2 首尾呼應 + 4 年驗證 hook（2014 唐獎 Allison+Honjo → 2018 諾貝爾 → 連續三屆預測 → 04:21 北榮辭世 → 醫院還在運轉）",
       "metrics": {
         "views": 11000,
         "likes": 836,
@@ -4915,6 +5009,7 @@
       "platform": "x",
       "date": "2026-05-26",
       "url": "https://x.com/taiwandotmd/status/2059290686671982831",
+      "template": "A2 首尾呼應 + 4 年驗證 hook（2014 唐獎 Allison+Honjo → 2018 諾貝爾 → 連續三屆預測 → 04:21 北榮辭世 → 醫院還在運轉）",
       "metrics": {
         "views": 4000,
         "likes": 109,
@@ -4950,6 +5045,7 @@
       "platform": "threads",
       "date": "2026-05-27",
       "url": "https://www.threads.com/@taiwandotmd/post/DY0zmnNE5RT",
+      "template": "B 冷知識型（1949 嘉義噴水池火雞肉飯 reveal 三層歷史：美軍養剩火雞 + 1925 蓬萊米 + 清代閩南醬油 = 三百年同台）",
       "metrics": {
         "views": 0,
         "likes": 0,
@@ -4961,7 +5057,7 @@
         "dPlus": null,
         "harvestDate": null,
         "batch": null,
-        "source": "preserved"
+        "source": "frontmatter-seed"
       },
       "history": []
     },
@@ -4974,6 +5070,7 @@
       "platform": "x",
       "date": "2026-05-27",
       "url": "https://x.com/taiwandotmd/status/2059458468898287770",
+      "template": "B 冷知識型（1949 嘉義噴水池火雞肉飯 reveal 三層歷史：美軍養剩火雞 + 1925 蓬萊米 + 清代閩南醬油 = 三百年同台）",
       "metrics": {
         "views": 0,
         "likes": 0,
@@ -4985,7 +5082,7 @@
         "dPlus": null,
         "harvestDate": null,
         "batch": null,
-        "source": "preserved"
+        "source": "frontmatter-seed"
       },
       "history": []
     },
@@ -4998,6 +5095,7 @@
       "platform": "threads",
       "date": "2026-05-27",
       "url": "https://www.threads.com/@taiwandotmd/post/DY1RPKCkcpo",
+      "template": "F 站方公開信（公開感謝 + 一個月進化 + 跨單位合作 + 透明用途 + 邀請）",
       "metrics": {
         "views": null,
         "likes": 96,
@@ -5033,6 +5131,7 @@
       "platform": "x",
       "date": "2026-05-27",
       "url": "https://x.com/taiwandotmd/status/2059525841735016585",
+      "template": "F 站方公開信（公開感謝 + 一個月進化 + 跨單位合作 + 透明用途 + 邀請）",
       "metrics": {
         "views": null,
         "likes": null,
@@ -5052,6 +5151,7 @@
       "platform": "threads",
       "date": "2026-05-27",
       "url": "https://www.threads.com/@taiwandotmd/post/DY1oPxokz0L",
+      "template": "A2 首尾呼應變體（2010 Photo Booth pre-set 起點 → 2023 Coachella 沙漠舞台終點，14 年同一張圖回扣）",
       "metrics": {
         "views": 0,
         "likes": 26,
@@ -5087,6 +5187,7 @@
       "platform": "x",
       "date": "2026-05-27",
       "url": "https://x.com/taiwandotmd/status/2059577645722210476",
+      "template": "A2 首尾呼應變體（2010 Photo Booth pre-set 起點 → 2023 Coachella 沙漠舞台終點，14 年同一張圖回扣）",
       "metrics": {
         "views": 0,
         "likes": 0,
@@ -5098,7 +5199,7 @@
         "dPlus": null,
         "harvestDate": null,
         "batch": null,
-        "source": "preserved"
+        "source": "frontmatter-seed"
       },
       "history": []
     },
@@ -5111,6 +5212,7 @@
       "platform": "threads",
       "date": "2026-05-28",
       "url": "https://www.threads.com/@taiwandotmd/post/DY4u5UzAVcT",
+      "template": "B 身份反差 hook（KTV 點唱率 25 年 vs 歌手本人 25 年才被認出 → 2026 小巨蛋「練習 26 年」+ 聲帶萎縮 endpoint）",
       "metrics": {
         "views": 0,
         "likes": 0,
@@ -5122,7 +5224,7 @@
         "dPlus": null,
         "harvestDate": null,
         "batch": null,
-        "source": "preserved"
+        "source": "frontmatter-seed"
       },
       "history": []
     },
@@ -5135,6 +5237,7 @@
       "platform": "x",
       "date": "2026-05-28",
       "url": "https://x.com/taiwandotmd/status/2060010924015321462",
+      "template": "B 身份反差 hook（KTV 點唱率 25 年 vs 歌手本人 25 年才被認出 → 2026 小巨蛋「練習 26 年」+ 聲帶萎縮 endpoint）",
       "metrics": {
         "views": 0,
         "likes": 0,
@@ -5146,7 +5249,7 @@
         "dPlus": null,
         "harvestDate": null,
         "batch": null,
-        "source": "preserved"
+        "source": "frontmatter-seed"
       },
       "history": []
     },
@@ -5159,6 +5262,7 @@
       "platform": "threads",
       "date": "2026-05-29",
       "url": "https://www.threads.com/@taiwandotmd/post/DY6a0JvEdd7",
+      "template": "A2 首尾呼應（稻田賭注 → 命脈也是命門 / 矽盾既是護身符也是靶心）",
       "metrics": {
         "views": 0,
         "likes": 0,
@@ -5170,7 +5274,7 @@
         "dPlus": null,
         "harvestDate": null,
         "batch": null,
-        "source": "preserved"
+        "source": "frontmatter-seed"
       },
       "history": []
     },
@@ -5183,6 +5287,7 @@
       "platform": "x",
       "date": "2026-05-29",
       "url": "https://x.com/taiwandotmd/status/2060247955467325544",
+      "template": "A2 首尾呼應（稻田賭注 → 命脈也是命門 / 矽盾既是護身符也是靶心）",
       "metrics": {
         "views": 0,
         "likes": 0,
@@ -5194,7 +5299,7 @@
         "dPlus": null,
         "harvestDate": null,
         "batch": null,
-        "source": "preserved"
+        "source": "frontmatter-seed"
       },
       "history": []
     },
@@ -5207,6 +5312,7 @@
       "platform": "threads",
       "date": "2026-06-01",
       "url": "https://www.threads.com/@taiwandotmd/post/DZCb3_QEyJX",
+      "template": "B 冷知識（三大電腦展死兩個剩台北）+ 黃仁勳「回到家」首尾呼應",
       "metrics": {
         "views": null,
         "likes": null,
@@ -5226,6 +5332,7 @@
       "platform": "x",
       "date": "2026-06-01",
       "url": "https://x.com/taiwandotmd/status/2061379958304584103",
+      "template": "B 冷知識（三大電腦展死兩個剩台北）+ 黃仁勳「回到家」首尾呼應",
       "metrics": {
         "views": null,
         "likes": null,
@@ -5245,6 +5352,7 @@
       "platform": "threads",
       "date": "2026-06-03",
       "url": "https://www.threads.com/@taiwandotmd/post/DZGziGaEwgz",
+      "template": "A1 人物型 + B 反差冷知識 hybrid（兩個姓胡的反差 anchor + 200 年弧線收尾）",
       "metrics": {
         "views": 0,
         "likes": 43,
@@ -5280,6 +5388,7 @@
       "platform": "x",
       "date": "2026-06-03",
       "url": "https://x.com/taiwandotmd/status/2061992719715795224",
+      "template": "A1 人物型 + B 反差冷知識 hybrid（兩個姓胡的反差 anchor + 200 年弧線收尾）",
       "metrics": {
         "views": 0,
         "likes": 0,
@@ -5291,7 +5400,7 @@
         "dPlus": null,
         "harvestDate": null,
         "batch": null,
-        "source": "preserved"
+        "source": "frontmatter-seed"
       },
       "history": []
     },
@@ -5304,6 +5413,7 @@
       "platform": "threads",
       "date": "2026-06-03",
       "url": "https://www.threads.com/@taiwandotmd/post/DZHUHpQk02w",
+      "template": "B 冷知識 × A2 首尾呼應（精度悖論 172→57 + 部落溪救人 reversal）",
       "metrics": {
         "views": 0,
         "likes": 30,
@@ -5339,6 +5449,7 @@
       "platform": "x",
       "date": "2026-06-03",
       "url": "https://x.com/taiwandotmd/status/2062065024613679469",
+      "template": "B 冷知識 × A2 首尾呼應（精度悖論 172→57 + 部落溪救人 reversal）",
       "metrics": {
         "views": 0,
         "likes": 0,
@@ -5350,7 +5461,7 @@
         "dPlus": null,
         "harvestDate": null,
         "batch": null,
-        "source": "preserved"
+        "source": "frontmatter-seed"
       },
       "history": []
     },
@@ -5363,6 +5474,7 @@
       "platform": "threads",
       "date": "2026-06-03",
       "url": "https://www.threads.com/@taiwandotmd/post/DZIRG2tk6mZ",
+      "template": "B 冷知識型 + 問題入口（看不見的後台 + 體制化悖論）",
       "metrics": {
         "views": 0,
         "likes": 86,
@@ -5398,6 +5510,7 @@
       "platform": "x",
       "date": "2026-06-03",
       "url": "https://x.com/taiwandotmd/status/2062197280984399945",
+      "template": "B 冷知識型 + 問題入口（看不見的後台 + 體制化悖論）",
       "metrics": {
         "views": 0,
         "likes": 0,
@@ -5409,7 +5522,7 @@
         "dPlus": null,
         "harvestDate": null,
         "batch": null,
-        "source": "preserved"
+        "source": "frontmatter-seed"
       },
       "history": []
     },
@@ -5422,6 +5535,7 @@
       "platform": "threads",
       "date": "2026-06-04",
       "url": "https://www.threads.com/@taiwandotmd/post/DZKoOQpmPhJ",
+      "template": "A2 首尾呼應 + 1976 反轉混合（紀政 Taiwan 隊服括號 × 蔣經國推開台灣中段）",
       "metrics": {
         "views": 0,
         "likes": 19,
@@ -5457,6 +5571,7 @@
       "platform": "x",
       "date": "2026-06-04",
       "url": "https://x.com/taiwandotmd/status/2062529681283522655",
+      "template": "A2 首尾呼應 + 1976 反轉混合（紀政 Taiwan 隊服括號 × 蔣經國推開台灣中段）",
       "metrics": {
         "views": 0,
         "likes": 0,
@@ -5468,7 +5583,7 @@
         "dPlus": null,
         "harvestDate": null,
         "batch": null,
-        "source": "preserved"
+        "source": "frontmatter-seed"
       },
       "history": []
     },
@@ -5481,6 +5596,7 @@
       "platform": "threads",
       "date": "2026-06-04",
       "url": "https://www.threads.com/@taiwandotmd/post/DZKv7oAmIQY",
+      "template": "A1/B hybrid（火箭阿伯人物 anchor + 機構主權 payoff）",
       "metrics": {
         "views": null,
         "likes": 126,
@@ -5516,6 +5632,7 @@
       "platform": "x",
       "date": "2026-06-04",
       "url": "https://x.com/taiwandotmd/status/2062546721742483679",
+      "template": "A1/B hybrid（火箭阿伯人物 anchor + 機構主權 payoff）",
       "metrics": {
         "views": null,
         "likes": null,
@@ -5535,6 +5652,7 @@
       "platform": "threads",
       "date": "2026-06-05",
       "url": "https://www.threads.com/@taiwandotmd/post/DZM0aZ2kzIN",
+      "template": "B 冷知識型 + 問題入口（紀實文學 voice，從讀者按讚那一下的溫度進）",
       "metrics": {
         "views": null,
         "likes": 1447,
@@ -5570,6 +5688,7 @@
       "platform": "x",
       "date": "2026-06-05",
       "url": "https://x.com/taiwandotmd/status/2062839725648703638",
+      "template": "B 冷知識型 + 問題入口（紀實文學 voice，從讀者按讚那一下的溫度進）",
       "metrics": {
         "views": null,
         "likes": null,
@@ -5589,6 +5708,7 @@
       "platform": "threads",
       "date": "2026-06-06",
       "url": "https://www.threads.com/@taiwandotmd/post/DZPIcLHEzpk",
+      "template": "A2+C 混合 × 紀實文學 voice（門牌弧線 anchor × 央地對撞 payoff）",
       "metrics": {
         "views": null,
         "likes": null,
@@ -5608,6 +5728,7 @@
       "platform": "x",
       "date": "2026-06-06",
       "url": "https://x.com/taiwandotmd/status/2063165712261390793",
+      "template": "A2+C 混合 × 紀實文學 voice（門牌弧線 anchor × 央地對撞 payoff）",
       "metrics": {
         "views": null,
         "likes": null,
@@ -5627,6 +5748,7 @@
       "platform": "threads",
       "date": "2026-06-07",
       "url": "https://www.threads.com/@taiwandotmd/post/DZSRQKnk3Vm",
+      "template": "A2 首尾呼應變體（衣服↔句子反差）",
       "metrics": {
         "views": 0,
         "likes": 28,
@@ -5662,6 +5784,7 @@
       "platform": "x",
       "date": "2026-06-07",
       "url": "https://x.com/taiwandotmd/status/2063604185912987689",
+      "template": "A2 首尾呼應變體（衣服↔句子反差：2014 走秀青年 ↔ 被笑沒料的暢銷作家同一人）",
       "metrics": {
         "views": 0,
         "likes": 0,
@@ -5673,7 +5796,7 @@
         "dPlus": null,
         "harvestDate": null,
         "batch": null,
-        "source": "preserved"
+        "source": "frontmatter-seed"
       },
       "history": []
     },
@@ -5686,6 +5809,7 @@
       "platform": "threads",
       "date": "2026-06-09",
       "url": "https://www.threads.com/@taiwandotmd/post/DZXjMdDE_xC",
+      "template": "A2+混合策略（同 #133，real 串接）",
       "metrics": {
         "views": 0,
         "likes": 369,
@@ -5721,6 +5845,7 @@
       "platform": "x",
       "date": "2026-06-09",
       "url": "https://x.com/taiwandotmd/status/2064344279485710550",
+      "template": "A2+混合策略（台大生反直覺 × 2025 厭女之戰，「real／同一個字」首尾呼應串接）",
       "metrics": {
         "views": 0,
         "likes": 0,
@@ -5732,7 +5857,7 @@
         "dPlus": null,
         "harvestDate": null,
         "batch": null,
-        "source": "preserved"
+        "source": "frontmatter-seed"
       },
       "history": []
     }

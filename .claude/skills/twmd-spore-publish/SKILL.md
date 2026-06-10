@@ -173,6 +173,10 @@ const after = document.querySelectorAll('[data-pressable-container]').length;
 
 ---
 
+## Stage 4.5: 記錄 identity（2026-06-10 JSON SSOT hard rule）
+
+Ship 成功後**每平台跑一次** `python3 scripts/tools/spore-db.py add-spore --date YYYY-MM-DD --platform threads|x --slug 文章slug --url '<乾淨化URL>' --template '...' --highlight 'ship 一句話'`（回傳新 id）→ 跑 `python3 scripts/tools/sync-spore-links.py --apply` 長 identity pointer。**不寫 SPORE-LOG.md（已凍結，validate ERROR）、frontmatter 不放數字**。完整敘事寫 blueprint 檔。
+
 ## Stage 5: 復盤
 
 [SPORE-PUBLISH-PIPELINE §5.2](../../../docs/factory/SPORE-PUBLISH-PIPELINE.md) 4 種結構性問題 audit：

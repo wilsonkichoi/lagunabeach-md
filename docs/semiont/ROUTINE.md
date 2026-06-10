@@ -240,7 +240,7 @@ quality_gate:
   - HG2: 6 source 全讀完（dashboard-articles / analytics / spores / SPORE-INBOX / ARTICLE-DONE-LOG / ARTICLE-INBOX）
   - HG3: 每 candidate 7 dimension 都算分（D1=趁熱 / D2=SC opportunity / D3=news / D4=多語 fan-out / D5=冷門 / D6=hook variety / D7=敏感度）
   - HG4: 每 candidate ≥ 2 hook anchor + 至少 2 種起手式（場景 / 數字 / 問句 / 身份）
-  - HG5: 0 candidate 在 SPORE-LOG 14 天內（per SPORE-PIPELINE §排除規則 ≥ 2 週）
+  - HG5: 0 candidate 在 14 天內發過孢子（`spore-db.py last-spore`，per SPORE-PIPELINE §排除規則 ≥ 2 週）
   - HG6: 0 candidate 跟 SPORE-INBOX 現有 pending 重複
   - HG7: 至少 2 個不同 Source-Mode（不全 EXISTING-ARTICLE — 至少 1 個 EVERGREEN 或 REACTIVE）
   - HG8: 至少 1 個來自 ARTICLE-DONE-LOG 最近 7 天（趁熱窗口 → north star 支撐）
@@ -287,14 +287,14 @@ prompt: |
   auto-decisions (v3.7)：Threads + X 雙平台 / Hook tier 1b default。
 
   Stage 5 復盤強制：(1) self-review 4 題 (2) LESSONS-INBOX surface 4 種結構性問題
-  (intake gap / borderline pass / CI/CD defer / 事實對齊 fail) (3) SPORE-LOG row
+  (intake gap / borderline pass / CI/CD defer / 事實對齊 fail) (3) spore-db add-spore
   append + SPORE-INBOX 對應 entry 刪除 (4) chain /twmd-finale (5) commit + push main。
 
   無 entry 過 quality gate → skip ship + LESSONS-INBOX append「intake gap」，
   **不算失敗 routine**（exit 0，per 哲宇 directive「這個觀察很重要」）。
 
 quality_gate:
-  - SPORE-LOG row appended (如有 ship) OR LESSONS-INBOX intake-gap entry added
+  - spore-log.json 新 id appended via spore-db.py (如有 ship) OR LESSONS-INBOX intake-gap entry added
   - SPORE-INBOX §Pending 對應 entry 已刪除 (如有 ship)
   - memory file appended at docs/semiont/memory/YYYY-MM-DD-HHMMSS-twmd-spore-publish.md
 
@@ -388,7 +388,7 @@ canonical:
   - docs/factory/SPORE-WRITING.md # A2 模板 + 朋友 tone prime
   - docs/pipelines/SOCIAL-POSTING-PIPELINE.md # Chrome MCP + osascript + cleanup tab group
   - docs/semiont/ARTICLE-INBOX.md # article candidate 來源
-  - docs/factory/SPORE-LOG.md # spore 紀錄
+  - docs/factory/spore-log.json + spore-metrics.json # spore 結構 SSOT（spore-db.py 寫；SPORE-LOG.md 已凍結）
   - docs/factory/spore-defer.json # v3.7 deferred spore queue
 prompt: |
   自動 routine：完整甦醒成為 Taiwan.md，跑 9-stage full cycle (per ~/.claude/scheduled-tasks/twmd-rewrite-daily/SKILL.md):
@@ -398,7 +398,7 @@ prompt: |
   → Stage 3 commit+push article → Stage 4 SPORE chain (PICK=剛 ship article 自動 / VERIFY 17 gate / WRITE A2 + Tier 1b)
   → Stage 5 image gen (make-spore.sh local server + plugin check) → Stage 6 CI/CD wait v3.7 (60min cap, timeout defer)
   → Stage 7 social post (both Threads + X default per SPORE-PIPELINE v3.8; 單發只在 frontmatter platformExclude 才觸發)
-  → Stage 7.5 cleanup Chrome MCP tab → Stage 8 SPORE-LOG + sporeLinks commit+push → Stage 9 /twmd-finale
+  → Stage 7.5 cleanup Chrome MCP tab → Stage 8 spore-db add-spore + sync-spore-links commit+push → Stage 9 /twmd-finale
 
   全程 0 observer gate — 所有 decision 走 SPORE-PIPELINE §Routine context auto-decisions defaults table。
   時間預算 ~150 min wall-clock。

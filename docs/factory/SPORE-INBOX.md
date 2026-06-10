@@ -55,7 +55,7 @@ read_strategy: 'on-demand (Stage 1 PICK 啟動才載)'
 | 內容       | 待開發 / 進化的**文章**主題                 | 待發**孢子**的點子                               |
 | 對應器官   | 心臟（內容產出）                            | 繁殖（社群傳播）                                 |
 | Pipeline   | REWRITE-PIPELINE Stage 0-6                  | SPORE-PIPELINE Stage 1-5                         |
-| Distill 去 | knowledge/ (新 article or EVOLVE)           | SPORE-LOG row + SPORE-HARVESTS batch             |
+| Distill 去 | knowledge/ (新 article or EVOLVE)           | spore-log.json (spore-db) + SPORE-HARVESTS batch |
 | 體量       | 4500-7000 CJK / 15-40 footnote / 全 H2 結構 | 150-300 CJK 單則 / 1 hook + 1-2 fact 收尾        |
 | 預估工時   | 2-4 hr / entry (Stage 1 research + 寫作)    | 15-30 min / entry (Stage 3 WRITE + Stage 4 SHIP) |
 | 雙向關係   | EVERGREEN-TOPIC spore → spawn ARTICLE entry | EXISTING-ARTICLE spore → link 到對應 article     |
