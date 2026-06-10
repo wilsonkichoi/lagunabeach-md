@@ -3149,6 +3149,24 @@ Tiebreaker 實戰（MANIFESTO > DNA > MEMORY）：多數條目落 MEMORY（綁 T
 - **verification_count**: 1（2026-06-10 bulk-sha-bump explode 450 entries）
 - **severity**: operational（單一工具陷阱，影響範圍 = bulk-bump 路徑；rename 修法簡單）
 
+### 2026-06-10 latest-ui — 平行 session 把我未 commit 的檔掃進它的 commit（shared working tree 污染）
+
+- **原則**：manual UI session 改了 `src/templates/article.template.astro`（1280→container token）還沒 commit，平行 audit-execution session 13:08 的 broken-link commit `f8b2893bc` 把這個檔連同我的修改一起帶走。這次無害（修改正確、它的 build 綠），但結構性風險真實：平行 actor 的 `git add <file>` 看到的是 working tree 現狀，會把別的 session 的半成品當自己的成品 ship。跟 babel sibling reset --hard wipe（同日另一條）是同一個根因的兩面：**每個 session/routine 都假設自己獨佔 working tree**。
+- **觸發**：2026-06-10 latest-ui session 收官盤點 git status 時發現 article.template 不在 modified 清單，`git log -- <file>` 追到被 f8b2893bc 帶走。
+- **可能層級**：(a) 操作規則：manual session 改檔後盡快 commit（增量 commit > 攢大批）；長 session 中途 callout 換方向前先把已驗證的部分落地；(b) 操作規則（對掃人方）：commit 前 `git diff --staged` 過目每個檔的 diff 是不是自己做的；(c) 儀器化候選：routine/session 啟動時 detect working tree 有未 commit 的他人變更（REFLEXES #57 parallel-actor detect 已 cover routine 端，manual session 端沒有）。
+- **相關**：[REFLEXES #57](REFLEXES.md) routine 入口 parallel-actor detect + 2026-06-10 babel-nightly「sibling reset --hard wipe staged」（同日同根因 sibling 條目）+ 行動鐵律 5 多核心碰撞防護（cover 檔案 anchor 撞，沒 cover 「掃走別人未 commit 檔」）。
+- **verification_count**: 1（2026-06-10 article.template swept by f8b2893bc first surface）
+- **severity**: operational（這次無害；但跟 babel wipe 並列看是 structural 的 shared-working-tree 假設問題）
+
+### 2026-06-10 latest-ui — 用戶感知的排序錯誤可能是同秒 batch tie，先驗證再修
+
+- **原則**：哲宇 callout「同一天裡面也要最新的在最前面」，直覺是排序壞了。抽渲染順序對照 content-dates 發現排序一直正確（6/07 21:00→16:52 嚴格降序），感知差異來自中午 batch heal 讓六篇文章共享同秒 timestamp `12:01:13`，tie 順序由 category 迭代序決定、看起來任意。如果直接「修排序」會 ship 一個不存在的 bug 的修復。
+- **觸發**：2026-06-10 latest-ui session /latest 時間軸輪，哲宇排序 callout。
+- **可能層級**：(a) 操作規則：收到「X 壞了」的 callout，第一步抽 ground truth 驗證 X 是否真的壞（REFLEXES #3 診斷先於修復的 UI 場景 instance）；(b) 既有 comparator 仍值得加固（字串比較 → epoch），因為 Z/+08:00 混格式是真實的未來風險——驗證「沒壞」與加固「防未來」可以同時成立。
+- **相關**：[REFLEXES #3](REFLEXES.md) 診斷先於修復 + content-dates batch heal 同秒 tie 現象（data 層的 timestamp 粒度議題）。
+- **verification_count**: 1（2026-06-10 排序 callout 驗證為非 bug first surface）
+- **severity**: operational（流程紀律提醒，無系統壞損）
+
 ---
 
 ## ❌ 已歸檔（過時 / 撤回）
