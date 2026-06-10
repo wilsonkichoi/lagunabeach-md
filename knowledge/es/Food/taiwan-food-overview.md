@@ -23,7 +23,7 @@ lastVerified: 2026-05-18
 lastHumanReview: false
 featured: true
 translatedFrom: 'Food/台灣美食總覽.md'
-sourceCommitSha: '66e6cae18'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:a85e988c90e94e31'
 sourceBodyHash: 'sha256:08f30e675ba550e9'
 translatedAt: '2026-05-28T05:08:34+08:00'

@@ -2,6 +2,21 @@
 title: "Taiwan's Transportation System: How an Island Compressed Itself into 90 Minutes"
 description: "In 1946, Taiwan switched overnight from left-hand to right-hand traffic. The Central Mountain Range runs 273 km north to south, splitting 36,000 sq km of island into two halves. Sixty years later the HSR compressed 394 km into 90 minutes, and the Snow Mountain Tunnel shrank the Yilan trip from 2 hours to 40 minutes. Then came 14 million scooters jamming every intersection. This island's transportation story is its identity story."
 date: 2026-04-26
+datasets:
+  - id: '14208'
+    name: 'Motor Vehicle Registration Statistics'
+    url: 'https://data.gov.tw/dataset/14208'
+    agency: 'Highway Bureau, MOTC'
+    update_freq: 'Monthly'
+    why: 'Monthly registration data lets you compute the growth curve behind the 14 million scooters and 678-per-1,000-people density cited in this article'
+    verified: 2026-06-10
+  - id: '25932'
+    name: 'Taoyuan City A1 and A2 Road Traffic Accidents — Annual Casualties (2002-2025)'
+    url: 'https://data.gov.tw/dataset/25932'
+    agency: 'Taoyuan City Police Bureau'
+    update_freq: 'Annually'
+    why: 'The article cites "over 3,000 deaths in 2023" as a national figure; this is the 24-year casualty series for a single special municipality on the same curve'
+    verified: 2026-06-10
 tags:
   [
     'Transportation',
@@ -22,10 +37,10 @@ featured: true
 lastVerified: 2026-04-26
 lastHumanReview: true
 translatedFrom: 'Lifestyle/台灣交通系統.md'
-sourceCommitSha: 'f99a9959'
-sourceContentHash: 'sha256:9836460c1aa1a78f'
-sourceBodyHash: 'sha256:c2b8a86142503325'
-translatedAt: '2026-05-01T08:56:11+08:00'
+sourceCommitSha: '7678a430'
+sourceContentHash: 'sha256:f05e6146f7a532ed'
+sourceBodyHash: 'sha256:9a046555ce3577ad'
+translatedAt: '2026-06-10T16:43:34Z'
 category: Lifestyle
 ---
 
@@ -154,6 +169,13 @@ The maritime story is more dramatic. From the 1980s through the 2000s, Kaohsiung
 - [Taiwan's Scooter Culture](/lifestyle/台灣機車文化) — The urban design, class politics, and road rights battles behind 14 million scooters
 - [Taiwan's Electric Vehicle Industry Chain](/technology/台灣電動車產業鏈發展) — Beyond Gogoro: Taiwan's role in the global EV supply chain
 - [Taiwan's Island Geography and Formation](/geography/台灣島嶼地理特色與形成) — The tectonic geology behind the Central Mountain Range and the east-west divide
+
+## Open Data
+
+The government open data below lets you verify or rebut the claims in this article. Links point to persistent pages on [data.gov.tw](https://data.gov.tw/); readers working with AI can also query the same datasets through Taiwan's open data MCP gateway, [Twinkle Hub](https://hub.twinkleai.tw/).
+
+- [Motor Vehicle Registration Statistics](https://data.gov.tw/dataset/14208) (Highway Bureau, MOTC, updated monthly) — The 14 million scooters and 678-per-1,000-people density cited in this article come from these monthly registration counts; you can compute that still-climbing curve yourself
+- [Taoyuan City A1 and A2 Road Traffic Accidents — Annual Casualties](https://data.gov.tw/dataset/25932) (Taoyuan City Police Bureau, updated annually) — The article's "over 3,000 traffic deaths in 2023" is the national figure; this is the 24-year casualty series for a single special municipality, the local resolution of the same curve
 
 ## References
 

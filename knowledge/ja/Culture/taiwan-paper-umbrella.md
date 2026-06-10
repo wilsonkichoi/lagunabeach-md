@@ -10,10 +10,10 @@ readingTime: '10'
 lastVerified: '2026-04-21'
 lastHumanReview: false
 translatedFrom: 'Culture/紙傘.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:2b63bb823fbdea45'
-sourceBodyHash: 'sha256:6966802b8bb41d32'
-translatedAt: '2026-05-01T18:02:56+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:13063c6484238690'
+sourceBodyHash: 'sha256:0b682441a9d293c6'
+translatedAt: '2026-06-10T16:57:09Z'
 ---
 
 ## 紙傘：雨具から芸術へ、台湾客家文化の百年の風彩を支える

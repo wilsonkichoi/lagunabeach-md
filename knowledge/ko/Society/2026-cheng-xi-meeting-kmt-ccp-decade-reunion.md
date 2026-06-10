@@ -15,10 +15,10 @@ sporeLinks:
     platform: 'threads'
     date: '2026-04-11'
     url: 'https://www.threads.com/@taiwandotmd/post/DW_CjmCkQMW'
-sourceCommitSha: 'd6e87d07'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:3eecc6e30b4626f7'
 sourceBodyHash: 'sha256:3d0acbeaa8a56355'
-translatedAt: '2026-05-16T22:20:00Z'
+translatedAt: '2026-06-10T16:42:09Z'
 ---
 
 # 2026 정시회담: 국공 지도자 10년 만의 재회, 단 10분

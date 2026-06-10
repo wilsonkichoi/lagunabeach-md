@@ -25,7 +25,7 @@ lastVerified: 2026-05-05
 lastHumanReview: false
 featured: true
 translatedFrom: 'Society/台灣與史瓦帝尼.md'
-sourceCommitSha: '23dba5966'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:fbdebb7691280ba8'
 sourceBodyHash: 'sha256:e3b2d4439bec2dec'
 translatedAt: '2026-05-26T05:10:58+08:00'

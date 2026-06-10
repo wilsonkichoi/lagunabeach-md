@@ -19,9 +19,10 @@ readingTime: 14
 lastVerified: 2026-04-11
 lastHumanReview: false
 translatedFrom: 'Society/2026鄭習會與國共十年再會.md'
-sourceCommitSha: '5db9f136e'
-sourceContentHash: 'sha256:d9031fe551b98ac7'
-translatedAt: '2026-06-09T02:32:56+08:00'
+sourceCommitSha: 'dd39065b'
+sourceContentHash: 'sha256:3eecc6e30b4626f7'
+translatedAt: '2026-06-10T16:41:16Z'
+sourceBodyHash: 'sha256:3d0acbeaa8a56355'
 ---
 
 # 2026 Zheng-Xi Meeting: The Ten Minutes of a Decade-Long Reunion Between KMT and CCP Leaders

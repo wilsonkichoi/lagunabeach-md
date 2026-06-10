@@ -20,10 +20,10 @@ readingTime: 8
 lastVerified: 2026-04-21
 lastHumanReview: false
 translatedFrom: Culture/神豬.md
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:4e7bd6002d83c43b'
-sourceBodyHash: 'sha256:0f6781254171f7ba'
-translatedAt: 2026-05-01T22:19:01+08:00
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:6f4523fa8d717e72'
+sourceBodyHash: 'sha256:6665fe12d60ecee3'
+translatedAt: '2026-06-10T16:58:21Z'
 ---
 
 ## 신돼지: 타이완 신앙과 동물권의 백년 갈등과 전환의 길

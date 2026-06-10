@@ -19,10 +19,10 @@ lastVerified: 2026-03-29
 lastHumanReview: false
 featured: true
 translatedFrom: 'Music/台灣獨立音樂.md'
-sourceCommitSha: '4b6d28c54'
-sourceContentHash: 'sha256:bfe914abc0149304'
-sourceBodyHash: 'sha256:a16a5ddb8083143e'
-translatedAt: '2026-05-24T05:06:33+08:00'
+sourceCommitSha: '73443b2a'
+sourceContentHash: 'sha256:cd1df8dc4931d5ab'
+sourceBodyHash: 'sha256:c54c3768ed377e41'
+translatedAt: '2026-06-10T16:45:50Z'
 ---
 
 **Vue d'ensemble en 30 secondes : En 1986, Jen Chiang-ta, un jeune homme d'origine coréano-japonaise, emprunte 300 000 dollars taïwanais pour reprendre un disquaire au bord de la faillite, et commence à importer à Taïwan « une musique que personne ne voulait écouter ». Quarante ans plus tard, l'écosystème né de ce disquaire (live houses, labels indépendants, StreetVoice, Golden Indie Music Awards) a propulsé un groupe vendant ses disques dans un café jusqu'à l'album de l'année aux Golden Melody Awards, et un groupe anglophone de Taipei jusqu'à la scène de Coachella. Quarante ans de musique indépendante taïwanaise, c'est une course de relais sans fin : chaque relayeur court le souffle court, chaque relayeur sent qu'il va s'effondrer, mais le tuyau ne tombe jamais.**
@@ -203,6 +203,7 @@ Ce que Jen Chiang-ta a dit à ces enfants est peut-être la même chose que la m
 - [Histoire du rock taïwanais](/music/台灣搖滾樂發展史) — Le parcours complet du rock à Taïwan, des chansons interdites au mainstream
 - [La culture des festivals de musique taïwanais](/music/台灣音樂祭文化) — Comment le Ho-Hai-Yan Music Festival est devenu un incubateur de musique indépendante
 - [LTK Commune](/music/濁水溪公社) — Trente ans de punk taïwanais underground, nomination aux Golden Melody Awards dès leur dissolution et remporte du meilleur album en taïwanais
+- [Sodagreen](/music/蘇打綠) — De la finale Jinxuan de l'Université Nationale Chengchi en 2001 à la _Nuit des ombres dans l'étang_ de 2023, l'arc complet de vingt ans d'un groupe indie taïwanais, contentieux de marque et résistance sous l'avatar « Wu Yu-ting » compris
 
 ## Références
 

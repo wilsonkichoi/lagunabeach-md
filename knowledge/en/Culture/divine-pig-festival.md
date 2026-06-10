@@ -1,9 +1,9 @@
 ---
 translatedFrom: 'Culture/神豬.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:4e7bd6002d83c43b'
-sourceBodyHash: 'sha256:0f6781254171f7ba'
-translatedAt: '2026-05-01T12:21:52+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:6f4523fa8d717e72'
+sourceBodyHash: 'sha256:6665fe12d60ecee3'
+translatedAt: '2026-06-10T16:58:04Z'
 title: 'The Divine Pig Festival: A Century of Tension Between Taiwanese Faith and Animal Welfare'
 description: "The divine pig (shen-zhu) tradition is a sacrificial ritual unique to Taiwan's Hokkien and Hakka communities, centered on offering an enormous pig to the gods. Rooted in the Yimin (Righteous People) faith of the Qing dynasty, it shifted toward competitive weight contests during Japan's colonial promotion of animal husbandry. In the modern era, the practice of confining pigs and force-feeding them has drawn intense animal welfare criticism. Festivals across Taiwan are now attempting transitions to 'eco-friendly divine pigs' or naturally raised animals, seeking a balance between faith and respect for life."
 category: Culture
@@ -23,6 +23,7 @@ readingTime: 8
 lastVerified: 2026-04-21
 lastHumanReview: false
 ---
+
 ## The Divine Pig Festival: A Century of Tension Between Taiwanese Faith and Animal Welfare
 
 > **30-second overview:** The divine pig (shen-zhu) tradition is a sacrificial ritual among Taiwan's Hokkien and Hakka communities, in which an enormous pig is offered to the gods as an expression of devotion. Its origins trace to the Yimin faith of Qing-dynasty Taiwan. In 1847, Lin Qiu-Hua's offering of a whole pig and sheep after passing the military imperial examination is considered one founding moment. During the Japanese colonial period, after the Sanxia farmers' association was established in 1900, official promotion of "raising big pigs" transformed the custom of pig offerings into competitive "divine pig contests." In traditional folk belief, after the divine pig undergoes the "consecration" (xiàn rèn fā zhū) ritual, its soul "transforms to immortality" and becomes a divine beast at the god's side — this spiritual dimension explains why devotees invest such tremendous resources in raising these animals. But modern divine pig contests, driven by extreme weight targets, involve pigs confined for extended periods in cramped pens (xiàkū), forced feeding, and skeletal deformity — conditions animal welfare organizations have condemned as "collective animal cruelty dressed up as face-saving." Festivals across Taiwan are attempting transitions using "eco-friendly divine pigs" or rice-based replicas, seeking a balance between faith and animal ethics.

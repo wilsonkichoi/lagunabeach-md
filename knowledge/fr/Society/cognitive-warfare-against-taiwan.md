@@ -22,7 +22,7 @@ lastVerified: 2026-04-23
 lastHumanReview: false
 featured: false
 translatedFrom: 'Society/認知作戰.md'
-sourceCommitSha: '09e1370db'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:380deba2111b675e'
 sourceBodyHash: 'sha256:53132f584b9b6657'
 translatedAt: '2026-06-07T00:37:31+08:00'

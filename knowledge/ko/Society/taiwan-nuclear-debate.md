@@ -1,364 +1,373 @@
 ---
-title: "Taiwan's Nuclear Debate: Anti-nuclearism was once the shared language of the democratic movement, but the climate crisis has reshuffled every hand"
-description: "In August 2025, 4.34 million people voted 'yes' to 'restarting Nuclear Power Plant No. 3,' winning 74%, but lost because the turnout did not meet the threshold. Over forty years and three referendums, Taiwan moved from an anti-nuclear consensus to a 'nuclear-free homeland,' only to push the shut-down reactor toward restart within three months. This debate has long transcended the binary question of 'whether nuclear energy is good or bad,' becoming a question of how a society decides on an issue with opposing time pressures: nuclear waste must be stable for 100,000 years, carbon reduction must be achieved within a decade, and power shortages are happening now."
-date: 2026-06-07
-tags:
-  [
-    'nuclear energy',
-    'Nuclear Power Plant No. 4',
-    'Nuclear Power Plant No. 3',
-    'anti-nuclear movement',
-    'nuclear-free homeland',
-    'referendum',
-    'energy policy',
-    'environmental justice',
-    'Lanyu',
-    'energy security',
-  ]
-subcategory: 'Energy and Environmental Policy'
+title: '타이완과 원자력 논의: 탈핵은 한때 민주화 운동의 공통 언어였으나, 기후 위기가 모든 진영의 판을 다시 짰다'
+description: '2025년 8월, 434만 명이 「핵3 재가동」 찬성표를 던져 74%를 얻었지만, 투표율이 문턱을 넘지 못해 패배로 계산되었다. 40년 동안 세 차례 국민투표를 거치며, 타이완은 탈핵 합의에서 비핵 가원으로 나아갔다가 다시 석 달 만에 스스로 꺼 둔 원자로를 재가동의 길로 밀어 넣었다. 이 논쟁은 이미 「원자력이 좋은가 나쁜가」라는 양자택일을 넘어섰다. 핵폐기물은 10만 년 동안 안정되어야 하고, 탄소 감축은 10년 안에 달성해야 하며, 전력 부족은 바로 지금의 문제인 상황에서 한 사회가 시간 압력이 서로 반대인 일을 어떻게 결정할 것인가의 문제다.'
+date: '2026-06-07'
 author: 'Taiwan.md'
 category: 'Society'
-readingTime: 12
-lastVerified: 2026-06-07
-lastHumanReview: false
+subcategory: '能源與環境政策'
+tags:
+  [
+    '원자력',
+    '핵4',
+    '핵3',
+    '탈핵 운동',
+    '비핵 가원',
+    '국민투표',
+    '에너지 정책',
+    '환경 정의',
+    '란위',
+    '에너지 안보',
+  ]
+lastVerified: '2026-06-07'
+lastHumanReview: 'false'
+featured: 'false'
 translatedFrom: 'Society/台灣與核能的討論.md'
-sourceCommitSha: '44238bb4f'
-sourceContentHash: 'sha256:0cf5d58073c426c0'
-translatedAt: '2026-06-09T03:05:51+08:00'
+sourceCommitSha: '7678a430b'
+sourceContentHash: 'sha256:3c2b41ea5e35d05a'
+sourceBodyHash: 'sha256:b926b1c1f3149aa8'
+translatedAt: '2026-06-11T00:44:03+08:00'
 ---
 
-# Taiwan's Nuclear Debate: Anti-nuclearism was once the shared language of the democratic movement, but the climate crisis has reshuffled every hand
+# 타이완과 원자력 논의: 탈핵은 한때 민주화 운동의 공통 언어였으나, 기후 위기가 모든 진영의 판을 다시 짰다
 
-> **30-Second Overview:** On August 23, 2025, Taiwan held a referendum asking "whether to restart Nuclear Power Plant No. 3." 4.34 million people voted in favor, with 74% approval, but lost because the turnout was only 29.53%, failing to meet the 5-million-vote threshold. This is Taiwan's third nuclear referendum in forty years—the 2018 "Nuclear for Green" passed, the 2021 Nuclear Power Plant No. 4 commercial operation was rejected, and the 2025 Nuclear Power Plant No. 3 extension hit the threshold wall—yet the ground beneath has hardly moved with the votes. More paradoxically, the very government that wrote "nuclear-free homeland" into its party platform, with the President publicly casting a dissenting vote, is the one pushing the reactor, shut down just three months prior, toward restart. Anti-nuclearism was once the shared language of Taiwan's democratic movement; after the climate crisis arrived, every side in this debate has been reshuffled, and Taiwan remains without consensus.
+> **30초 개요:** 2025년 8월 23일, 타이완 국민투표는 “핵3을 재가동할 것인가”를 물었다. 434만 명이 찬성표를 던졌고 74%가 찬성했지만, 투표율이 29.53%에 그쳐 500만 표 문턱을 넘지 못했기 때문에 패배로 처리되었다. 이는 타이완 40년 원자력 논쟁에서 세 번째 국민투표였다. 2018년 「원전으로 녹색을 기른다」는 통과, 2021년 핵4 상업운전은 부결, 2025년 핵3은 문턱에 걸렸다. 매번 결과는 달랐지만 현실은 거의 표를 따라 움직이지 않았다. 더 역설적인 것은 불과 석 달 전 폐쇄된 그 원자로를 재가동 쪽으로 밀어붙인 주체가 바로 「비핵 가원」을 당 강령에 적어 넣었고, 총통은 공개적으로 반대표를 던지겠다고 밝힌 정부였다는 점이다. 탈핵은 한때 타이완 민주화 운동의 공통 언어였다. 기후 위기가 닥친 뒤 이 논쟁의 모든 진영은 다시 섞였고, 타이완은 여전히 합의에 이르지 못했다.
 
-On the evening of August 23, 2025, the Central Election Commission's vote count froze: the Nuclear Power Plant No. 3 extension referendum had 4,341,432 votes in favor and 1,511,693 votes against[^1]. The "yes" votes were nearly three times the "no" votes, with 74.17% saying "yes"[^2].
+2025년 8월 23일 저녁, 중앙선거위원회의 개표 숫자가 멈추었다. 핵3 수명연장 국민투표는 찬성 4,341,432표, 반대 1,511,693표였다[^1]. 찬성표는 반대표의 거의 세 배였고, 74.17%가 “좋다”고 답했다[^2].
 
-By the common democratic intuition, the outcome of this debate should have been clear. But it lost.
+민주주의에 대한 일반적 직관으로 보면 이 논쟁의 승패는 분명해 보인다. 그러나 이 투표는 졌다.
 
-Because the Referendum Act stipulates that the number of "yes" votes must exceed one-quarter of the total number of voters nationwide; the threshold this time was 5,000,523 votes. With a turnout of only 29.53%, the "yes" votes did not even reach the threshold[^1]. Huang Kuo-chang, chairman of the People First Party and the referendum proposer, said after the vote count that the "yes" votes for this referendum "far exceeded the 'no' votes by nearly three times"[^3]. Cui Suxin, spokesperson for the National Abolition of Nuclear Energy Action Platform, pointed out: "Even though the 'yes' votes are higher than the 'no' votes, the final referendum result did not pass and has no legal effect."[^4] These two sentences refer to the same set of numbers but draw opposite conclusions.
-
-```tw-figure
-4,341,432 votes (74%) → Did not pass
-The number of 'yes' votes is nearly three times that of 'no' votes, but it did not pass because the 29.53% turnout was below the 5-million-vote threshold
-Central Election Commission 2025 Nuclear Power Plant No. 3 Extension Referendum Results
-```
-
-Won the debate, lost the system. This paradox of the summer of 2025 is the entry point to understanding the entire Taiwan nuclear energy debate: on the surface, it asks "whether nuclear energy is good," but underneath, it argues about something else.
-
-![In April 2013, anti-nuclear civil groups surrounded the Legislative Yuan. This is the most common street scene in Taiwan's forty-year nuclear debate.](/article-images/society/anti-nuclear-protest-legislative-yuan-voa-2013.jpg)
-
-## The Yellow Flag that Said "I Am a Human, I Am Anti-Nuclear"
-
-To understand why this debate is so difficult, we must return to when it was not originally an "energy debate." In January 2013, a group of artists and cultural figures initiated a petition, designing a yellow flag with red text that read "I Am a Human, I Am Anti-Nuclear"[^5]. On March 9 of that year, approximately 220,000 people took to the streets across Taiwan—120,000 in Taipei, 30,000 in Taichung, 70,000 in Tainan, and 2,000–3,000 in Taitung—marking the largest-scale march in the history of Taiwan's anti-nuclear movement[^6]. This yellow flag was planted at the doors of bookstores, hung in coffee shop windows, and stuck on young people's backpacks, becoming a visual birthmark for a generation.
-
-But the roots of this flag go much deeper than 2013, and initially had little to do with nuclear energy. In 1986, residents of Lugang heard that the US company DuPont was coming to set up a titanium dioxide plant. Local teacher Li Dongliang initiated a petition and street march, chanting "I Love Lugang, Not DuPont"[^7]. The following March, DuPont announced it would cancel the plant; in August of the same year, the Environmental Protection Bureau was established[^8]. The Lugang anti-DuPont movement was an **anti-pollution** movement, not inherently anti-nuclear—but it was the seed of Taiwan's post-war street environmental movement. That same energy quickly flowed toward another target: Nuclear Power Plant No. 4.
-
-In 1988, residents of Gongliao established the Yanliao Anti-Nuclear Self-Help Association[^9]. This plant, later named "Longmen" (Nuclear Power Plant No. 4), had been proposing the site selection in Yanliao since 1980. After thirty-plus years of construction, it has generated zero commercial electricity[^10]. The most tragic page in between was the "Gongliao 1003 Incident" in 1991: during the protest, a resident drove a car and killed security police officer Yang Chaojing, causing the movement to fall into a low point[^9]. In 1994, Gongliao held a local referendum, with 96.13% of voters opposing Nuclear Power Plant No. 4—although the Referendum Act had not yet passed, this vote had no legal effect[^11].
-
-> **📝 Curator's Note**
->
-> The common narrative is "anti-nuclear is a progressive value, so the progressive camp is anti-nuclear." But this causality is actually reversed. Taiwan's anti-nuclear movement is unique because it **grew in the crack where the martial law regime was loosening**. Sociologist Ho Ming-hsiu writes directly in his research at Cambridge University: "The rise of anti-nuclear voices is closely related to democratic opening."[^12] In other words, Taiwanese people took to the streets in the 1980s and 90s to oppose nuclear energy, truly clashing with an authoritarian government that did not allow people to speak; Nuclear Power Plant No. 4 was merely one of the few concrete targets that could unite people in that era. Anti-nuclearism thus inherited all the legitimacy of the democratic movement. This also planted the foreshadowing for thirty years later: when nuclear energy became a "climate issue," this moral framework bound to democracy could no longer handle the new questions.
-
-Pushing this origin to its highest point was one person's body.
-
-On the morning of April 22, 2014, former DPP Chairman Lin Yi-hsiung entered the Yiguang Church in Taipei and began an indefinite fast, demanding the halt of Nuclear Power Plant No. 4 construction[^13]. The location of Yiguang Church itself is a wound—on February 28, 1980, Lin Yi-hsiung's mother and a pair of twin daughters were stabbed to death in the old residence here, an event known as the "Lin Family Tragedy," which remains unsolved to this day[^14]. Lin Yi-hsiung is a victim of the Formosa Incident outside the DPP, and one of the first elected DPP chairmen; his fast connected the anti-nuclear movement with the bloodline of Taiwan's democratic movement into one.
-
-Nine days later, this fast ended. On April 27, the ruling Ma Ying-jeou government and the Kuomintang reached a consensus: Nuclear Power Plant No. 4 Unit 1 would be sealed after safety inspection, and Unit 2 would be stopped; on April 28, the Executive Yuan officially announced the sealing; on April 30, Lin Yi-hsiung stopped fasting[^13].
-
-It is worth remembering: The government that pressed the pause button on Nuclear Power Plant No. 4 was not the anti-nuclear DPP, but the ruling Kuomintang government. This detail foreshadows the most chaotic part of the subsequent debate—the stance of every side is not as stable as you think.
-
-## Three Votes Over Seven Years, Yet the Ground Barely Moved
-
-The year after Lin Yi-hsiung's fast, the Fukushima nuclear disaster in 2011 had already flipped global nuclear politics[^10]. Taiwanese society also learned, in these years, to use a new tool to handle this issue: referendums.
-
-But the answers this tool gave were different each time.
-
-On November 24, 2018, the "Nuclear for Green" referendum (Case No. 16) passed. It sought to abolish the statutory deadline in the Electric Power Act stating "nuclear power generation equipment shall cease operation before 2025"—5,895,560 votes in favor, with a turnout of 54.83%[^15]. On the surface, this was a major victory for pro-nuclear forces.
-
-On December 18, 2021, the "Nuclear Power Plant No. 4 Commercial Operation" referendum (Case No. 17) was rejected. 3,804,689 votes in favor, 4,262,517 against, with a turnout of 41.09%, failing to meet the threshold[^16]. Nuclear Power Plant No. 4, which had been built for thirty years without generating electricity, was formally sentenced to death by the people.
-
-On August 23, 2025, it was the opening one: the Nuclear Power Plant No. 3 extension referendum (Case No. 21), 74% in favor but stuck at the threshold[^1].
-
-```tw-bars
-2018 Nuclear for Green (Abolish Nuclear-Free Deadline) | 59 | Yes 5.89M · Passed
-2021 Restart Nuclear Power Plant No. 4 Commercial Operation | 47 | Yes 3.80M · Rejected
-2025 Restart Nuclear Power Plant No. 3 Extension | 74 | Yes 4.34M · Hit Threshold
-Data Source: Central Election Commission official certification results for three referendums (percentage of 'yes' votes)
-```
-
-Three votes over seven years, with approval rates dropping from 59% to 47% and then bouncing back to 74%, yet the results were Pass, Reject, Hit Threshold—like three dice, each time showing different numbers. Direct democracy can handle an arithmetic problem like "how much should electricity prices rise," but cannot handle a difficult problem where scientific judgment and value sorting are intertwined.
-
-Even more difficult is the paradox left by "Nuclear for Green." The vote in 2018 clearly abolished the 2025 non-nuclear deadline legal provision, but the subsequent DPP government chose to voluntarily not extend the service, and Taiwan continued to move step-by-step toward a nuclear-free status by 2025[^17]. Therefore, the saying "the nuclear-free homeland has already become invalid" circulated on the internet, which Fact-Checking Center Taiwan determined was **misinformation**: what was abolished was only the timeline in the Electric Power Act, but the "nuclear-free homeland" goal revealed in Article 23 of the Basic Environmental Act remains effective[^17]. The law was dismantled halfway, but the policy did not loosen its grip—this is the most typical shape of Taiwan's nuclear energy discussion: every "win" comes with an unresolved tail.
-
-## A Government That Shut Down a Reactor and Then Pushed to Restart It
-
-In May 2025, Taiwan's power grid experienced a historic moment.
-
-On the evening of May 17, Nuclear Power Plant No. 3 Unit 2 began load reduction, disconnected at night, and officially shut down on the early morning of May 18[^18]. This was the first time Taiwan's power grid had completely no nuclear power. Some media described Taiwan as becoming the "Asia's First, World's Second" nuclear-free homeland—but this claim needs caution, as Italy had already stopped domestic nuclear power as early as 1990[^19].
-
-According to the "nuclear-free homeland" script, the story should have ended here. But the events that happened in the following months tore up the script.
-
-Just four days before the shutdown, on May 13, 2025, the Legislative Yuan passed the third reading of the Amendment to Article 6 of the Nuclear Reactor Facility Control Act, with 61 votes in favor and 50 against, adding a clause that "licenses can be applied for extension after expiration," with the operating life extended to a maximum of 40 plus 20, totaling 60 years[^20]. Nuclear Power Plant No. 3 Unit 2's license exactly expired on May 17—the amendment was passed four days before expiration.
-
-By November 27, the Ministry of Economic Affairs determined the evaluation results: Nuclear Power Plant No. 1 is infeasible due to equipment demolition and being the same type as Fukushima; Nuclear Power Plants No. 2 and No. 3 have restart feasibility, requiring 1.5 to 2 years of self-inspection[^21]. In March 2026, the Lai Ching-te government announced that Nuclear Power Plants No. 2 and No. 3 meet the restart conditions, and Taipower submitted the application to the Nuclear and Radiation Safety Administration; Nuclear Power Plant No. 3 may restart as early as 2028[^22].
-
-Thus appeared this scene: a government that wrote "nuclear-free homeland" into its party platform, personally shut down the last reactor on the island, and three months later personally pushed it toward restart.
-
-In the middle was Lai Ching-te, who offered a stance called "pragmatic." He proposed three principles: "nuclear safety assured, nuclear waste solved, social consensus," and emphasized "these three principles are indispensable," plus two musts—the Nuclear and Radiation Safety Administration must formulate measures, and Taipower must complete self-inspection[^23]. But on August 13, 2025, ten days before the referendum, he publicly stated: "On 8/23 referendum I will go vote, let us together cast a dissenting vote."[^24]
-
-> **⚠️ Controversial Viewpoint**
->
-> How to read a government publicly opposing a referendum on "restarting its own power plant" depends on which side you stand on.
->
-> Pro-nuclear forces see contradiction and buck-passing: If you are sending the application for restart, why call on people to vote against it? Kuomintang Chairman Chu I-lun advocates that the government should "rebuild energy security and resilience" and "pragmatically adjust erroneous energy policies"[^25].
->
-> The Lai Ching-te government's explanation is about procedure and authorization: The referendum case was proposed by the opposition parties and tied to "immediate continuation," which is a different path from the government's主张 of "Nuclear and Radiation Safety Administration把关, Taipower self-inspection before discussion"; voting against it is opposing "skipping safety procedures to restart immediately," not opposing nuclear energy itself. Premier Chuo Rong-tai explained this pragmatism more plainly: "Electricity is computing power, computing power is national power," "anti-nuclear is not a sacred tablet"[^26].
->
-> Both readings hold up, depending on whether you focus on the "outcome (whether to have nuclear power)" or the "procedure (how to decide)." This is precisely the epitome of why Taiwan's nuclear energy discussion is unsolvable—even the same action of the same government can be honestly read as two opposite things.
-
-## The Loudest Pro-Nuclear Flagbearer is a Laptop Boss
-
-If the anti-nuclearism of the martial law generation was a moral movement, then the most surprising aspect of the resurgence of pro-nuclear voices in recent years is its highest-decibel spokesperson: standing on the front line, with the heaviest weight, is a laptop entrepreneur.
-
-Hsueh Shih-hsiung, Chairman of Pegatron, has become the highest-decibel voice in Taiwan's pro-nuclear discourse in recent years. His words are direct and leave no room for ambiguity: "Not just Taiwan, including globally, if you do not rely on nuclear energy, you rely on solar plus wind power to save the earth, there is no hope."[^27] He advocates that nuclear electricity costs about 1.42 NTD per kWh, and criticizes many international large companies pursuing RE100 (100% renewable energy) as "ideal but somewhat castles in the air," believing that CFE (24-hour carbon-free electricity) including nuclear energy "can better achieve carbon neutrality goals"[^28].
-
-This is the most critical change after the Taiwan nuclear energy discussion was reshuffled by the climate crisis: **the pro-nuclear discourse has been de-ideologized**. Its starting point has shifted from "nuclear energy is safe" to "carbon reduction is non-negotiable," "data centers consume electricity," "energy cannot be interrupted"—these are industrial realities.
-
-The pro-nuclear camp can roughly be divided into three sub-groups, each with different discursive focuses. The science-popularization camp, represented by Huang Shih-hsiu, founder of "Nuclear Energy Rumors Terminator," focuses on cost: "Nuclear electricity costs 1.5 NTD per kWh, renewable energy 5.5 NTD per kWh."[^29] The academic camp, represented by Ye Zong-guang of National Tsing Hua University, focuses on technical clarification, for example, emphasizing that "the Hengchun Fault near Nuclear Power Plant No. 3 and the 'fault fracture zone' under the plant site are different, and the outside world often confuses the two"[^30]. The industrial camp is this group of entrepreneurs, like Hsueh Shih-hsiung.
-
-Even NVIDIA CEO Jensen Huang joined in on August 22, 2025, the day before the referendum, saying nuclear energy "is an excellent option"[^31].
-
-> **💡 Did You Know**
->
-> Huang Shih-hsiu also has a more intense rhetoric that has circulated widely: "Anti-nuclear is anti-American; anti-nuclear is selling out the country; anti-nuclear is licking the Communists."[^29] This sentence directly connects energy choices with national identity, making it one of the most aggressive discourses in the pro-nuclear camp. Taiwan.md places it here verbatim, not to endorse it, but to truthfully present the temperature of this debate—when nuclear energy is tied into geopolitics and unification-independence coordinates, originally rational discussions of engineering and cost easily turn into a loyalty test of "whether you love Taiwan." This heating up is shared by both anti-nuclear and pro-nuclear sides; the higher it rises, the further consensus gets.
-
-But be careful of a common misreading: you cannot say "the DPP has already flipped to pro-nuclear" just because the industrial sector and young people are pro-nuclear.
-
-The DPP's party platform has not changed, "nuclear-free homeland" remains; the government has only opened a narrow door for "advanced nuclear energy, restart after safety inspection." More importantly, even the DPP's own supporters have split. According to a poll by _GVM_ and the Taiwan Foundation for Sustainable Energy in October 2024, among DPP supporters, 45.2% are anti-nuclear and 44.3% are pro-nuclear, almost a fifty-fifty split[^32].
-
-## The Younger, the More Pro-Nuclear—a Generation Without Fukushima Memory
-
-The clearest place for this crack is age.
-
-The same _GVM_ poll shows that 63.1% of the overall population supports nuclear power; and for the youngest generation, aged 18 to 29, the pro-nuclear proportion is as high as 70.8%, fully 20 percentage points higher than the 50.2% for those over 70 years old. The younger, the more pro-nuclear.
-
-```tw-bars
-18–29 years old | 70.8 | Youngest generation
-30–39 years old | 65 | (Approximate value)
-Over 70 years old | 50.2 | Oldest generation
-Data Source: GVM × Taiwan Foundation for Sustainable Energy poll, October 2024 (pro-nuclear percentage)
-```
-
-This is almost the reverse of the anti-nuclear tendency of the martial law generation. The reason is not hard to understand: people who took to the streets back then had memories of Chernobyl, Fukushima, and the fear of Gongliao and Lanyu; while today's climate generation grew up with nuclear disasters as historical terms in textbooks, and their current anxiety is whether warming, air pollution, and power shortages will cause Taiwan's industries to flee. The same progressive value of "for the good of the next generation," the two generations read opposite answers—the former felt that anti-nuclear was protecting the next generation from disasters, the latter felt that carbon reduction was leaving the earth for the next generation.
-
-Most of the climate generation no longer hangs that 2013 yellow flag. However, young people being pro-nuclear is more like **polling trends and individual choices**; Taiwan does not have an organized "Youth Pro-Nuclear Grand Alliance" with leaders mobilizing, equivalent to the Anti-Nuclear Platform back then. Writing it as an organized movement would mislead readers.
-
-## Ten Thousand Years on the Fault Line
-
-Reshuffle as it may, the place where this debate truly gets stuck, where neither side can convince the other, is two physical facts that neither can avoid: earthquakes, and nuclear waste.
-
-First, earthquakes. One of the core scientific arguments of the anti-nuclear camp is the location of Nuclear Power Plant No. 3. Geologist Chen Wen-shan points out: "The Hengchun Fault passes through the gate of Nuclear Power Plant No. 3, at a distance of only about 900 meters from the reactor," and emphasizes "the fact that the fault is inside the plant site is certain"[^33]. Gan Chong-wei of the Green Party is more specific: "The turbine generator building of Nuclear Power Plant No. 3 Unit 1 is built directly on the fracture zone of the Hengchun Fault."[^34] Geologist Li Xi-di cites evaluation data, questioning Nuclear Power Plant No. 3's safety mechanism under the maximum earthquake: "the ground motion acceleration is as high as 1.384G, which is more than three times the design value adopted at the time"[^35].
-
-The pro-nuclear camp does not deny the existence of the fault, but their framing is different. Ye Zong-guang mentioned earlier argues that the outside world often confuses the "Hengchun Fault near the plant site" with the "fracture zone under the plant site," and they are not the same thing[^30].
-
-> **📝 Curator's Note**
->
-> There is a very noteworthy detail here: in the seismic resistance controversy, both the anti-nuclear and pro-nuclear sides **actually use the same set of numbers made by Taipower itself**—the original design value of 0.4G, the reinforced 0.72G, and the 1.384G evaluated when the fault actually moves, all from Taipower's own reports. The difference is not in the data, but in the framework. The anti-nuclear side says "the evaluated value is several times the design value, too dangerous"; the pro-nuclear side says "the plant building has been reinforced, the fracture zone is not the same fault, no problem." The same set of numbers, two stories. This is precisely why the nuclear energy discussion cannot end by "laying out scientific evidence"—when the evidence itself can be interpreted in two legitimate ways, the divergence is not at the fact level, but at the value level: how much earthquake risk are you willing to bear for carbon reduction? This question has no objective answer.
-
-If earthquakes are a probability question of "whether it will happen," then nuclear waste is a certain problem to face, with a time scale longer than imaginable.
-
-Taiwan has already accumulated over 19,000 bundles of high-level nuclear waste and 210,000 barrels of low-level nuclear waste, yet has not even one statutory final disposal site—this is the number repeatedly emphasized by anti-nuclear groups like the Earth公民 Foundation[^36]. As of May 2026, the spent nuclear fuel (high-level waste) from the three nuclear power plants totals 21,527 bundles[^37]. Former State Councilor Lin Tzu-lun explains the ethical core of this matter clearly: "Using nuclear power is transferring the cost, risk, and responsibility of nuclear waste disposal to the next generation."[^38]
-
-The scale of the problem is most startlingly seen in the Control Yuan's investigation. The Control Yuan's report states: "Basically, there is no final disposal site for high-level radioactive waste on the Taiwan island," and warns that even "storage caves buried 500 meters deep will emerge on the surface after 50,000 years"—because Taiwan is located in an active orogenic belt, with crustal displacement exceeding one centimeter per year, while high-level nuclear waste requires isolation for a million-year level[^39]. Control Yuanist Tian Qiujin's two questions of doubt are almost the footnote for this whole matter: "After spending 60 billion NTD, will we really find a final disposal site?" "The backend fund is the coffin capital of nuclear power plants; once spent, it's gone."[^40]
+국민투표법상 찬성표가 전국 투표권자 4분의 1을 넘어야 했고, 이번 문턱은 5,000,523표였기 때문이다. 당일 투표율은 29.53%에 그쳤고, 찬성표는 문턱에도 닿지 못했다[^1]. 발의자인 민중당 주석 황궈창은 개표 뒤 이번 국민투표의 찬성표가 “반대표보다 거의 세 배나 많았다”고 말했다[^3]. 탈핵 진영의 전국폐핵행동플랫폼 대변인 추이쑤신은 “찬성표가 반대표보다 많았더라도 최종 국민투표 결과는 통과되지 않았고, 법적 효력이 없다”고 지적했다[^4]. 두 문장은 같은 숫자를 말하지만 정반대의 결론에 도달한다.
 
 ```tw-figure
-Things that need to be stable for at least 100,000 years
-21,527 bundles of high-level nuclear waste have nowhere to go; the final disposal site is expected to be completed by 2055 at the earliest, and no site has been selected yet
-Nuclear and Radiation Safety Administration, Control Yuan
+4,341,432표(74%) → 통과 못 함
+찬성표는 반대표의 거의 세 배였지만, 투표율 29.53%가 500만 표 문턱보다 낮아 통과되지 않음
+중앙선거위원회 2025년 핵3 수명연장 국민투표 결과
 ```
 
-The entire high-level nuclear waste final disposal plan is divided into five stages, expected to be completed from 2005 to 2055, with a total cost of about 60 billion NTD (about 36.2 billion NTD already spent)[^41]. That is to say, by 2055—if everything goes smoothly—Taiwan will have just "built" the disposal site, but the thing it needs to stably guard must withstand tens of thousands of years of crustal movement.
+논쟁에서는 이겼지만, 제도에서는 졌다. 2025년 여름의 이 역설은 타이완 원자력 논의를 이해하는 입구다. 겉으로는 “원자력이 좋은가”를 묻지만, 그 아래에서 다투는 것은 다른 문제다.
 
-Nuclear waste needs a land stable for 100,000 years; Taiwan stands on a constantly moving fault line. This is the deepest scar of this debate—it forces an island with not-so-ideal geological conditions to answer whether it wants to, and can, take responsibility for an energy source that will leave a ten-thousand-year legacy. This question cannot produce a winner; what remains is whether one is willing to bear it.
+![2013년 4월, 탈핵 시민단체가 입법원을 에워쌌다. 이는 타이완 원자력 논쟁 40년에서 가장 자주 보인 거리의 장면이다.](/article-images/society/anti-nuclear-protest-legislative-yuan-voa-2013.jpg)
 
-![Nuclear Power Plant No. 4 (Longmen), which was built but never commercially operated to generate a single kilowatt-hour, sealed since 2014.](/article-images/society/longmen-nuclear-plant-2023.jpg)
+## 그 “나는 사람이다, 나는 탈핵한다” 노란 깃발
 
-## The "Canned Factory" on Lanyu
+이 논쟁이 왜 이렇게 어려운지 이해하려면, 그것이 애초에는 “에너지 논쟁”이 아니었던 때로 돌아가야 한다. 2013년 1월, 문화예술계 인사들이 연서명을 시작하고 노란 바탕에 붉은 글씨가 적힌 깃발을 디자인했다. 그 위에는 “나는 사람이다, 나는 탈핵한다”라고 쓰여 있었다[^5]. 그해 3월 9일, 타이완 전역에서 약 22만 명이 거리로 나왔다. 타이베이 12만 명, 타이중 3만 명, 타이난 7만 명, 타이둥 2천∼3천 명이었다. 이는 타이완 탈핵 운동사상 최대 규모의 행진이었다[^6]. 그 노란 깃발은 서점 문 앞에 꽂히고, 카페 창문에 걸리고, 젊은이들의 배낭에 붙어 한 세대의 시각적 흔적이 되었다.
 
-When we argue about nuclear energy in Taipei, in the Legislative Yuan, before the referendum ballot boxes, there is a group of people who have never been in the center of this debate, yet have already borne its cost for over forty years.
+그러나 이 깃발의 뿌리는 2013년보다 훨씬 깊다. 그리고 처음에는 원자력과 큰 관련이 없었다. 1986년, 루강진 주민들은 미국 듀폰이 이산화타이타늄 공장을 세우려 한다는 소식을 들었다. 지역 교사 리둥량은 연서명과 거리 행진을 시작했고, “나는 루강을 사랑한다, 듀폰은 원하지 않는다”는 구호를 외쳤다[^7]. 이듬해 3월 듀폰은 공장 설립 취소를 발표했다. 같은 해 8월 환경보호서가 설립되었다[^8]. 루강의 반듀폰 운동은 **반오염** 운동이었지, 탈핵 그 자체는 아니었다. 그러나 그것은 전후 타이완 거리 환경운동의 씨앗이었다. 같은 에너지는 곧 다른 목표로 흘러갔다. 핵4였다.
 
-Lanyu.
+1988년, 궁랴오 주민들은 옌랴오 탈핵 자구회를 만들었다[^9]. 훗날 “룽먼”이라 불린 이 핵4 발전소는 1980년 옌랴오 부지 선정 제안에서 시작해 30여 년 동안 지어졌지만, 상업운전으로 생산한 전기는 0이었다[^10]. 그 사이 가장 비극적인 장면은 1991년의 “궁랴오 1003 사건”이었다. 항쟁 과정에서 한 주민이 차를 몰아 보안경찰 양차오징을 치어 숨지게 했고, 운동은 저점에 빠졌다[^9]. 1994년 궁랴오는 자체 지방 국민투표를 열었고, 투표자의 96.13%가 핵4에 반대했다. 당시 국민투표법은 아직 통과되지 않았기 때문에 이 투표에는 법적 효력이 없었다[^11].
 
-In 1974, the government decided to set up a low-level nuclear waste storage site on this small island inhabited by the Tao (Yami) people, without informing the island's residents; construction started in 1978, and it was put into use in 1982, with the outside world claiming it was building a "canned factory"[^42]. To this day, this storage site holds 97,672 barrels of low-radioactive nuclear waste—respectively from Nuclear Power Plants No. 1, No. 2, and No. 3—and stopped receiving waste after reaching saturation in 1996[^42].
+> **📝 큐레이터 노트**
+>
+> 흔한 설명은 “탈핵은 진보 가치이므로 진보 진영이 탈핵한다”는 것이다. 그러나 이 인과는 사실 반대에 가깝다. 타이완 탈핵 운동이 특수한 이유는 그것이 **계엄 체제가 느슨해지던 균열 위에서 자랐기 때문**이다. 사회학자 허밍슈는 케임브리지대 연구에서 직접적으로 썼다. “탈핵 목소리의 부상은 민주적 개방과 긴밀히 관련되어 있다”[^12]. 다시 말해 1980∼90년대 타이완 사람들이 거리로 나와 탈핵을 외쳤을 때, 실제로 충돌한 대상은 국민이 말하지 못하게 한 권위주의 정부였다. 핵4는 그 시대에 사람들을 결집시킬 수 있었던 몇 안 되는 구체적 표적이었다. 따라서 탈핵은 민주화 운동의 모든 정당성을 이어받았다. 그리고 이것이 30년 뒤의 복선을 깔았다. 원자력이 “기후 문제”가 되었을 때, 민주주의와 묶여 있던 이 도덕적 틀은 새로운 질문을 받아내지 못했다.
 
-The Tao people's resistance continued for decades: the "Exorcise Evil Spirits" action in 1988, the "One Person One Stone to Fill the Port" in 1995, trying to block the port for transporting waste[^42]. On August 1, 2016, Tsai Ing-wen, as President, apologized to indigenous peoples, with Lanyu nuclear waste being one item[^43].
+이 기원을 최고점까지 밀어 올린 것은 한 사람의 몸이었다.
 
-But what best illustrates the mood of this island is the rejection in 2019.
+2014년 4월 22일 오전, 전 민진당 주석 린이슝은 타이베이의 이광교회로 들어가 무기한 단식을 시작하며 핵4 건설 중단을 요구했다[^13]. 이광교회라는 장소 자체가 하나의 상처였다. 1980년 2월 28일, 린이슝의 어머니와 쌍둥이 딸들이 이곳의 옛집에서 흉기에 찔려 숨졌다. 이는 “린가 혈안”으로 불리며 지금까지 미제 사건으로 남아 있다[^14]. 린이슝은 메이리다오 사건의 당외운동 피해자이자 첫 민선 민진당 주석 중 한 명이었다. 그의 단식은 탈핵과 타이완 민주화 운동의 혈맥을 하나로 이었다.
 
-In November of that year, the government announced a retroactive compensation plan: a one-time compensation of 2.55 billion NTD, followed by 220 million NTD every three years[^44]. The Tao people rejected it. Lanyu elder Lin Hsin-yu said firmly: "As long as nuclear waste is not moved out of Lanyu, such death, such extinction of the tribe will continue. 'I solemnly declare, we will not take a single penny!'"[^44] What they wanted was not money, but to move the waste away—the deadline for removal promised in the 1990s (originally 2002) has been delayed to this day[^42].
+아홉 날 뒤 이 단식은 끝났다. 4월 27일, 당시 집권하던 마잉주 정부와 국민당은 합의에 도달했다. 핵4 1호기는 안전검사 후 봉인하고, 2호기는 공사를 중단한다는 것이었다. 4월 28일 행정원은 봉인을 공식 발표했고, 4월 30일 린이슝은 단식을 중단했다[^13].
 
-> **✦** Lanyu's "we will not take a single penny" is the voice that should be heard most in the entire nuclear energy discussion, yet is most often overlooked. It reminds us: the cost of nuclear power is never just written on the electricity bill. When both sides of the debate are calculating "how many NTD per kWh," "how many tons of carbon reduction," there is a cost silently paid by a group of people who have no seat at the decision-making table, using forty years of land and dignity.
+기억할 만한 점은 이것이다. 핵4에 일시정지 버튼을 누른 것은 탈핵을 주장한 민진당이 아니라 집권 국민당 정부였다. 이 세부사항은 이후 전체 논쟁에서 가장 혼란스러운 부분을 예고한다. 각 진영의 입장은 우리가 생각하는 것만큼 안정적이지 않았다.
 
-![Traditional Tao settlement on Lanyu. The low-level nuclear waste storage site was established on this island starting in 1982, with the removal promise delayed to this day. The image shows Tao underground houses, not the storage site itself.](/article-images/society/lanyu-tao-underground-house.jpg)
+## 7년 동안 세 번 투표했지만 현실은 거의 움직이지 않았다
 
-## Power That Lasts Ten Days, Uranium That Lasts Eighteen Months
+린이슝의 단식 이듬해, 2011년에 일어난 후쿠시마 원전 사고는 이미 전 세계 원자력 정치를 한 차례 뒤집어 놓은 뒤였다[^10]. 타이완 사회도 이 몇 년 동안 이 문제를 처리할 새 도구 하나를 익혔다. 국민투표였다.
 
-What made the pro-nuclear discourse turn red again in recent years, besides climate, is another sharper word: war.
+그러나 이 도구가 내놓은 답은 세 번 모두 달랐다.
 
-Taiwan's energy import dependency in 2024 was as high as 95.8%—almost all energy relies on imports[^45]. Among them, the statutory safety stock for natural gas is about 11 days, coal about 41 days, while a batch of nuclear fuel can be used for about 18 months at a time[^46]. The pro-nuclear camp thus proposes an "energy security" argument: if the Taiwan Strait is blocked, ships carrying natural gas cannot enter, and it won't last long; but the fuel rods in the nuclear power plant are already enough to burn for a year and a half.
+2018년 11월 24일, 「원전으로 녹색을 기른다」 국민투표(제16안)가 통과되었다. 이 투표가 폐지하려 한 것은 전기사업법의 “원자력 발전 설비는 2025년 이전에 모두 운전을 중단해야 한다”는 법정 시한이었다. 찬성 5,895,560표, 투표율 54.83%였다[^15]. 겉으로 보면 이는 원전 지지 진영의 큰 승리였다.
+
+2021년 12월 18일, 「핵4 상업운전」 국민투표(제17안)는 부결되었다. 찬성 3,804,689표, 반대 4,262,517표, 투표율 41.09%로 문턱을 넘지 못했다[^16]. 30년 동안 지어졌지만 전기를 한 번도 생산하지 못한 핵4는 국민에게 공식적으로 사형 선고를 받은 셈이었다.
+
+2025년 8월 23일이 바로 서두의 그 투표다. 핵3 수명연장 국민투표(제21안)는 74% 찬성에도 문턱에 걸렸다[^1].
 
 ```tw-bars
-Nuclear Fuel (approx. 18 months) | 540 | One-time loading usable
-Coal | 42 | Statutory safety stock (days)
-Natural Gas LNG | 11 | Statutory safety stock (days)
-Data Source: Ministry of Economic Affairs, CNA (this is the pro-nuclear camp's energy security argument)
+2018 원전으로 녹색을 기른다(비핵 시한 폐지)| 59 | 찬성 589만・통과
+2021 핵4 상업운전 재개 | 47 | 찬성 380만・부결
+2025 핵3 수명연장 재가동 | 74 | 찬성 434만・문턱 미달
+자료 출처: 중앙선거위원회 세 차례 국민투표 공식 확정 결과(찬성표 비율%)
 ```
 
-This point is not shouted out of thin air. A wargame by the US think tank Center for Strategic and International Studies (CSIS) in August 2025 pointed out that "energy is the most vulnerable link in Taiwan's resilience," and estimated that under a blockade scenario, natural gas would last about ten days, and electricity would collapse to only 20%, thus recommending extending nuclear power service[^47]. Minister of Economic Affairs Guo Zhi-hui also said in the Legislative Yuan that energy security is a "national security issue, cannot be discussed too detailedly"[^48].
+7년 동안 세 번 투표했고, 찬성 비율은 59%에서 47%로 떨어졌다가 다시 74%로 튀어 올랐다. 결과는 통과, 부결, 문턱 미달이었다. 마치 주사위 세 개처럼 매번 눈이 달랐다. 직접민주주의는 “전기요금을 몇 위안 올릴 것인가” 같은 산술 문제는 처리할 수 있을지 몰라도, 과학 판단과 가치의 우선순위가 얽힌 난제는 처리하지 못했다.
 
-But the anti-nuclear camp has two rebuttals to the "nuclear power is safer" inference.
+더 어려운 것은 「원전으로 녹색을 기른다」가 남긴 역설이다. 2018년 그 투표는 분명히 2025년 비핵 시한의 법 조문을 없앴다. 그러나 이후 민진당 정부는 자율적으로 수명연장을 하지 않는 길을 택했고, 타이완은 2025년에도 단계적으로 비핵으로 나아갔다[^17]. 그래서 한때 인터넷에서 “비핵 가원은 이미 효력을 잃었다”는 말이 퍼졌지만, 사실확인센터는 이를 **허위 정보**로 판정했다. 폐지된 것은 전기사업법의 그 일정 조항일 뿐, 환경기본법 제23조가 제시한 “비핵 가원” 목표는 여전히 유효했다[^17]. 법은 절반만 뜯어냈지만, 정책은 손을 놓지 않았다. 이것이 타이완 원자력 논의의 가장 전형적인 형태다. 모든 “승리”에는 해결되지 않은 꼬리가 따라붙는다.
 
-The first is Ukraine's Zaporizhzhia Nuclear Power Plant—it was shelled multiple times during the war, becoming a living textbook for the anti-nuclear side: nuclear power plants during war may turn from a fortress into a bomb that can be detonated at any time[^49]. The second point is that distributed energy is more resilient: concentrating power generation in a few large reactors is actually more easily瘫痪 (paralyzed) at once than solar and wind power distributed everywhere. Former Deputy Minister of Energy Zeng Wen-sheng responds to this anxiety from another angle, meaning the cards Taiwan holds in hand are actually more than imagined, and there is no need to bet all on nuclear power[^48].
+## 원자로를 끈 뒤 다시 켜려는 정부
 
-The same "energy security," pro-nuclear forces read as "so we need nuclear power more," anti-nuclear forces read as "so nuclear power is more dangerous." Once again, the same premise, two opposite conclusions.
+2025년 5월, 타이완 전력망은 역사적 순간을 겪었다.
 
-## Both Sides Say They Stand on the Side of the Future
+5월 17일 저녁, 핑둥 헝춘의 핵3 발전소 2호기가 출력 감발을 시작했고, 밤 10시에 전력망에서 분리되었으며, 5월 18일 새벽 공식 정지했다[^18]. 이는 타이완 전력망에 원전 전력이 완전히 사라진 첫 순간이었다. 어떤 매체는 타이완이 “아시아 최초, 세계 두 번째” 비핵 가원이 되었다고 표현했다. 다만 이 말은 조심해야 한다. 이탈리아는 이미 1990년에 국내 원전을 멈췄기 때문이다[^19].
 
-Pulling the lens back, you will find that the whole world is reshuffling this deck, and every side in Taiwan can find examples internationally to back themselves up.
+“비핵 가원”의 각본대로라면 이야기는 여기서 끝났어야 했다. 그러나 그다음 몇 달 동안 벌어진 일은 각본을 찢어 놓았다.
 
-Germany completed nuclear phase-out in April 2023: the anti-nuclear side uses it to prove "advanced countries can also do without nuclear power," while the pro-nuclear side cites criticism from opposition leader Friedrich Merz, calling the phase-out a "huge mistake"—while the Green Party politician Robert Habeck, who pushed the phase-out, retorts that electricity prices still fell and carbon emissions decreased after phasing out nuclear power[^50]. After Japan's Fukushima accident, it was once completely shut down, and now has restarted 15 units, with nuclear power accounting for about 8.3% in 2024, targeting 20% by 2040; South Korea reversed the nuclear phase-out route under Yoon Suk-yeol, calling for nuclear power to account for 34.6% by 2036[^51].
+정지 나흘 전인 2025년 5월 13일, 입법원은 「원자로 시설 규제법」 제6조 개정안을 3독 통과시켰다. 찬성 61표, 반대 50표였다. 개정안은 “허가 만료 뒤 수명연장을 신청할 수 있다”는 조항을 신설했고, 운전 연한은 최장 40년 더하기 20년, 총 60년까지 가능해졌다[^20]. 핵3 2호기의 허가는 정확히 5월 17일 만료될 예정이었다. 법 개정은 만료 나흘 전에 통과되었다.
 
-The most frequently cited by both sides is Finland's Onkalo—a high-level nuclear waste final disposal repository dug into 1.9-billion-year-old granite, 430 meters deep. The pro-nuclear side says "look, nuclear waste has a solution"; the anti-nuclear side says "that is Finland's stable ancient landmass, Taiwan is an active orogenic belt moving every day, cannot learn from it." To supplement, Onkalo is still in the license review stage, and the outside world often mistakenly thinks it is already officially operating[^52].
+11월 27일 경제부는 평가 결과를 승인했다. 핵1은 설비가 이미 철거되었고 후쿠시마와 같은 형식이라 불가능하지만, 핵2와 핵3은 재가동 가능성이 있으며 1.5∼2년의 자율 안전검사가 필요하다는 내용이었다[^21]. 2026년 3월, 라이칭더 정부는 핵2와 핵3이 재가동 조건을 충족한다고 발표했고, 타이완전력은 핵안전위원회에 서류를 제출했다. 핵3은 이르면 2028년에 재가동될 수 있다[^22].
 
-> **📝 Curator's Note**
+그리하여 이런 장면이 나타났다. “비핵 가원”을 당 강령에 적은 정부가 섬의 마지막 원자로를 직접 끈 뒤, 석 달 뒤 다시 자기 손으로 그 원자로를 재가동으로 밀어 넣었다.
+
+그 사이에 낀 라이칭더는 “실용파”로 불리는 입장을 내놓았다. 그는 세 원칙을 제시했다. “원전 안전에 문제가 없고, 핵폐기물에 해법이 있으며, 사회적 합의가 있어야 한다.” 그는 “이 세 원칙 중 하나라도 빠져서는 안 된다”고 강조했고, 여기에 두 가지 필수 조건을 덧붙였다. 핵안전위원회가 방법을 정해야 하고, 타이완전력이 자율 안전검사를 마쳐야 한다는 것이다[^23]. 그러나 국민투표 열흘 전인 2025년 8월 13일, 그는 공개적으로 밝혔다. “823 국민투표에 나는 투표하러 갈 것이며, 우리 함께 반대표를 던지자”[^24].
+
+> **⚠️ 논쟁적 관점**
 >
-> Putting these international cases together, you see something interesting: every case is simultaneously evidence for both sides. The same Germany, the same Finland, the same set of numbers, both anti-nuclear and pro-nuclear can use them to prove themselves right. No one is lying—both sides of this debate are actually answering **two different questions**. The pro-nuclear side asks: "In the present of warming and gas cutoff, what options do we have to stabilize power supply and reduce carbon?" The anti-nuclear side asks: "Do we have the right to create a waste that needs guarding for 100,000 years, when we haven't even found a site for fifty years from now?" One is "current energy security," the other is "eternal intergenerational responsibility." Both questions are true, and neither should be suppressed by the other. Taiwan has had no consensus for forty years, not because one side is stupider or worse, but because both sides fear a different kind of overwhelming risk—one side fears nuclear disasters and ten-thousand-year nuclear waste, the other side fears power shortages, gas cutoffs, and warming. When what you fear is different, you will never agree on the other's priority.
+> 한 정부가 “자신이 관리하는 발전소의 재가동” 국민투표에 공개적으로 반대하는 일을 어떻게 읽을지는 어느 편에 서 있느냐에 달려 있다.
+>
+> 원전 지지 진영이 보는 것은 모순과 책임 회피다. 재가동 서류를 제출하려 한다면 왜 국민에게 반대표를 던지라고 하느냐는 것이다. 국민당 주석 주리룬은 정부가 “에너지의 안전 탄력성을 재건”하고 “잘못된 에너지 정책을 실용적으로 조정”해야 한다고 주장했다[^25].
+>
+> 라이칭더 정부의 설명은 절차와 권한의 차이다. 국민투표안은 야당이 낸 것이고, “즉시 계속 운전”을 묶은 안이다. 정부가 주장하는 “핵안전위원회 심사와 타이완전력의 자율 안전검사 뒤 논의”와는 서로 다른 길이라는 것이다. 반대표를 던지는 것은 “안전 절차를 건너뛰고 즉시 재가동하는 것”에 반대하는 것이지, 원자력 자체에 반대하는 것이 아니라는 설명이다. 행정원장 줘룽타이는 이 실용주의를 더 노골적으로 말했다. “전력은 곧 산력이고, 산력은 곧 국력이다.” “탈핵은 신주패가 아니다”[^26].
+>
+> 두 해석은 모두 성립한다. 초점을 “결과(원전이 필요한가)”에 두느냐 “절차(어떻게 결정하는가)”에 두느냐의 차이다. 이것이 바로 타이완 원자력 논의가 풀리지 않는 이유의 축소판이다. 같은 정부의 같은 행동조차 정직하게 서로 반대되는 두 가지 일로 읽힐 수 있다.
 
-So this debate probably will not "end."
+## 가장 큰 목소리의 원전 지지 기수는 노트북을 만드는 기업가다
 
-It will continue to return, round by round, in the forms of referendums, legislative amendments, submissions, and streets. The 4.34 million "yes" votes in 2025 that failed to cross the threshold, and Lanyu's "we will not take a single penny," will remain in this island's memory together, neither side can convince the other.
+계엄 세대의 탈핵이 도덕 운동이었다면, 최근 몇 년 원전 지지 목소리가 다시 커진 데서 가장 뜻밖인 점은 그 최고 데시벨의 대변인이다. 최전선에 서고 가장 무게감 있는 인물은 노트북을 만드는 기업가다.
 
-Next time someone asks you "whether Taiwan supports nuclear power," perhaps the most honest answer is: whether Taiwan supports nuclear power depends on which Taiwan you ask—is it the tech industry boss who is so afraid of power shortages that he can't sleep, the anti-nuclear generation that remembers Fukushima and Gongliao, the young people with no nuclear disaster memory who only fear the earth getting hotter, or the small island that has guarded nuclear waste for the whole island for forty years, yet was never asked if it was willing? Forty years and three referendums cast, the ground has hardly moved. Because this question never had a standard answer. It asks: how does a society together decide on something—nuclear waste needs to be stable for 100,000 years, carbon reduction must be rushed within ten years, power shortages are happening now—three clocks moving at completely different speeds.
+페가트론 회장 퉁쯔셴은 최근 몇 년 타이완 원전 지지 담론에서 가장 큰 목소리가 되었다. 그의 말은 직접적이고 여지를 남기지 않는다. “타이완만이 아니라 전 세계를 포함해, 원자력에 기대지 않고 태양광과 풍력 발전에 의지해 지구를 구하겠다는 것은 가망이 없다”[^27]. 그는 원전 전기 한 kWh가 약 1.42위안이라고 주장했고, 많은 글로벌 대기업이 추구하는 RE100(100% 재생에너지)에 대해 “이상은 좋지만 다소 공중누각”이라고 비판했다. 그는 원자력을 포함하는 CFE(24시간 무탄소 전력)가 “탄소중립 목표 달성에 더 적합하다”고 보았다[^28].
 
-And both sides say they stand on the side of the future.
+이는 기후 위기가 타이완 원자력 논의를 다시 짠 뒤 가장 중요한 변화다. **원전 지지 담론이 탈이데올로기화되었다.** 출발점은 “원자력은 매우 안전하다”에서 “탄소 감축에는 선택지가 없다”, “데이터센터가 전기를 먹는다”, “에너지는 끊기면 안 된다” 같은 산업 현실로 바뀌었다.
 
-## Further Reading
+원전 지지 진영은 대체로 세 하위 집단으로 나뉘며, 논점도 각기 다르다. 과학 대중화파는 “원자력 유언비어 종결자” 창립자 황스슈가 대표적이며, 비용을 앞세운다. “원전은 kWh당 비용이 1.5위안이고, 재생에너지는 5.5위안”이라는 주장이다[^29]. 학술파는 칭화대 예쭝광이 대표적이며, 기술적 해명을 앞세운다. 예컨대 그는 “핵3 발전소 부근 1km 지점의 헝춘 단층은 발전소 부지 아래의 ‘단층 전단대’와 다르며, 외부에서는 두 가지를 자주 혼동한다”고 강조했다[^30]. 산업파가 바로 퉁쯔셴 같은 기업가들이다.
 
-- [Taiwan's Climate Crisis and Net Zero Transition](/nature/台灣氣候危機與淨零轉型) — The other side of the same energy issue: starting from physical limits, power supply and demand, and carbon reduction timelines, it is a sister piece to this article.
-- [History of Taiwan's Environmental Movement](/nature/台灣環境運動史) — Anti-nuclear as a part of Taiwan's post-war environmental movement, from the Lugang anti-DuPont to Gongliao's complete context.
-- [Environmental Justice and NIMBY Controversies in Taiwan](/society/台灣環境正義與鄰避爭議) — The NIMBY structure behind nuclear waste and Lanyu: why risk always falls on those with the least voice.
-- [Social Movements and Civic Participation](/society/社會運動與公民參與) — How anti-nuclear shares the same language and energy with Taiwan's democratic movement.
-- [Sunflower Student Movement](/society/太陽花學運) — Civic mobilization of the same generation, understanding the era atmosphere of Lin Yi-hsiung's fast years.
+AI 칩 거대기업 엔비디아의 CEO 황런쉰까지 2025년 8월 22일, 국민투표 전날 타이베이에서 힘을 보탰다. 그는 원자력이 “is an excellent option”, 즉 매우 좋은 선택지라고 말했다[^31].
 
-## Image Sources
+> **💡 알고 있었나**
+>
+> 황스슈에게는 더 격렬한 수사가 널리 퍼져 있다. “탈핵은 반미다. 탈핵은 타이완을 파는 것이다. 탈핵은 중국 공산당에 아부하는 것이다”[^29]. 이 문장은 에너지 선택을 곧바로 국가 정체성에 연결한다. 원전 지지 진영에서 가장 공격적인 담론 중 하나다. Taiwan.md가 이를 원문 그대로 여기에 싣는 이유는 이 논쟁의 온도를 사실적으로 보여 주기 위해서이지, 그것을 지지하기 위해서가 아니다. 원자력이 지정학과 통일·독립 좌표에 묶이면 원래 합리적으로 논의할 수 있었던 공학과 비용 문제는 쉽게 “당신은 타이완을 사랑하는가”라는 충성심 시험이 된다. 이런 가열에는 탈핵과 원전 지지 양쪽 모두의 몫이 있다. 그리고 더 뜨거워질수록 합의는 더 멀어진다.
 
-- **Hero / 2013 Anti-Nuclear Surrounding Legislative Yuan**: [Anti-nuclear protest, Legislative Yuan (VOA)](<https://commons.wikimedia.org/wiki/File:Longmen_Nuclear_Power_Plant_from_VOA_(1).jpg>), provided by Voice of America, Public Domain. (Wikimedia filename follows the uploader's naming, actual content is the April 2013 anti-nuclear march scene.)
-- **Nuclear Power Plant No. 4 (Longmen)**: [2023 Longmen Nuclear Power Plant](https://commons.wikimedia.org/wiki/File:2023_Longmen_Nuclear_Power_Plant_J.jpg), photography by Taiwankengo, CC BY-SA 4.0.
-- **Nuclear Power Plant No. 3 (Maanshan) Nanwan**: [Maanshan Nuclear Power Plant, Nanwan](https://commons.wikimedia.org/wiki/File:Maanshan_Nuclear_Power_Plant.JPG), photography by M. Weitzel, CC BY-SA 3.0.
-- **Traditional Tao Underground Houses on Lanyu**: [Entrance of a traditional underground house of Tao people on Orchid Island](https://commons.wikimedia.org/wiki/File:Entrance_of_a_traditional_underground_house_of_Tao_people_on_Orchid_Island_20100914.jpg), photography by othree, CC BY 2.0. The image shows Tao underground house settlements, used to present Lanyu's environmental justice context, not the low-level nuclear waste storage site itself.
+그러나 흔한 오독 하나는 조심해야 한다. 산업계가 원전을 지지하고 젊은 층이 원전을 지지한다고 해서 “민진당은 이미 원전 지지로 돌아섰다”고 말할 수는 없다.
 
-## References
+민진당의 당 강령은 바뀌지 않았고, “비핵 가원”은 여전히 남아 있다. 정부가 열어 둔 것도 “첨단 원자력, 안전검사 후 재가동”이라는 좁은 문일 뿐이다. 더 중요한 것은 민진당 자신의 지지자들마저 갈라졌다는 점이다. 《원견》과 타이완 지속가능에너지연구기금회의 2024년 10월 여론조사에 따르면, 민진당 지지자 가운데 45.2%는 탈핵, 44.3%는 원전 지지로 거의 반반이었다[^32].
 
-[^1]: [CNA: Nuclear Power Plant No. 3 Extension Referendum Results](https://www.cna.com.tw/news/aipl/202508235003.aspx) — CNA August 23, 2025 vote count report, recording 4,341,432 votes in favor, 1,511,693 against, turnout 29.53%, failing to meet the one-quarter threshold of 5,000,523 votes and thus not passing.
+## 젊을수록 원전을 지지한다: 후쿠시마 기억이 없는 세대
 
-[^2]: [Wikipedia: Nuclear Power Plant No. 3 Extension Referendum](https://zh.wikipedia.org/zh-hant/核三延役公投) — Records the complete vote count for the 2025 Case No. 21 referendum, 74.17% approval rate, and threshold calculation, consistent with the Central Election Commission's certification results.
+그 균열이 가장 분명히 드러나는 지점은 나이다.
 
-[^3]: [CNA: Huang Kuo-chang on Nuclear Power Plant No. 3 Referendum Results](https://www.cna.com.tw/news/aipl/202508230188.aspx) — CNA August 23, 2025 report, recording People First Party Chairman and referendum proposer Huang Kuo-chang stating after the vote count that "the 'yes' votes for this referendum are three times the 'no' votes."
+같은 《원견》 여론조사는 전체 응답자의 63.1%가 원전을 지지한다고 밝혔다. 그리고 18∼29세의 가장 젊은 세대에서 원전 지지 비율은 70.8%에 달했다. 70세 이상 50.2%보다 무려 20%포인트 높았다[^32]. 젊을수록 원전을 지지한다.
 
-[^4]: [The Reporter: Nuclear Power Plant No. 3 Extension Referendum Results and Aftermath](https://www.twreporter.org/a/referendum-to-restart-maanshan-nuclear-power-plant-result) — The Reporter August 2025 in-depth report, recording National Abolition of Nuclear Energy Action Platform Secretary General Cui Suxin's verbatim comment on the referendum result "yes higher than no but did not pass, no legal effect," and the anti-nuclear camp's stance on procedure and aftermath.
+```tw-bars
+18–29세 | 70.8 | 가장 젊은 세대
+30–39세 | 65 | (약값)
+70세 이상 | 50.2 | 가장 나이 든 세대
+자료 출처: 원견×타이완 지속가능에너지연구기금회 여론조사, 2024년 10월(원전 지지 비율%)
+```
 
-[^5]: [Environmental Info Center: "I Am a Human, I Am Anti-Nuclear" Artists' Petition](https://e-info.org.tw/node/83462) — Environmental Info Center January 2013 report, recording the artists' initiation of the "I Am a Human, I Am Anti-Nuclear" petition and the origin of the yellow-red flag logo.
+이는 계엄 세대의 탈핵 성향과 거의 정반대다. 이유는 이해하기 어렵지 않다. 당시 거리로 나섰던 사람들의 기억에는 체르노빌, 후쿠시마, 궁랴오와 란위의 공포가 있다. 그러나 오늘의 기후 세대에게 원전 사고는 성장 과정에서 교과서에 나온 역사 용어에 가깝다. 그들이 지금 불안해하는 것은 온난화, 대기오염, 전력 부족이 타이완 산업을 떠나게 만들지 않을까 하는 문제다. 같은 “다음 세대를 위한다”는 진보 가치에서 두 세대는 반대의 답을 읽어냈다. 앞선 세대는 탈핵이야말로 후대의 재난을 막는 일이라고 보았고, 뒤 세대는 탄소 감축이야말로 후대에게 지구를 남기는 일이라고 본다.
 
-[^6]: [PTS Our Island: 309 Anti-Nuclear Grand March](https://ourisland.pts.org.tw/content/465) — PTS records the March 9, 2013 nationwide anti-nuclear grand march, recording the organizer's estimated number of participants at about 220,000 in four locations: North, Central, South, and East.
+2013년의 그 노란 깃발은 기후 세대가 대체로 더 이상 걸지 않는다. 다만 젊은 층의 원전 지지는 **여론조사가 보여 주는 경향과 개인 선택**에 가깝다. 타이완에는 당시 폐핵플랫폼에 맞먹는, 조직과 지도자를 갖춘 “청년 원전 지지 대연맹”이 동원되고 있지는 않다. 이를 조직적 운동으로 쓰면 독자를 오도하게 된다.
 
-[^7]: [Changhua Cultural Assets: Lugang Anti-DuPont Incident](https://www.ccat.tw/topic-article/840) — Records the 1986 Lugang residents' anti-pollution movement initiated by Li Dongliang and others, chanting "I Love Lugang, Not DuPont," an important starting point for Taiwan's post-war environmental movement.
+## 단층 위의 10만 년
 
-[^8]: [Ministry of Environment Chemical Knowledge Map: Establishment of the Environmental Protection Bureau](https://topic.moenv.gov.tw/chemiknowledgemap/cp-452-10329-751c1-5.html) — Ministry of Environment official data, recording the historical background of the establishment of the Executive Yuan Environmental Protection Bureau on August 22, 1987.
+판이 다시 짜였다고 해도, 이 논쟁에서 사람들을 막히게 만들고 누구도 누구를 설득하지 못하게 하는 지점은 누구도 피할 수 없는 두 물리적 사실이다. 지진과 핵폐기물이다.
 
-[^9]: [Wikipedia: Gongliao 1003 Incident](https://zh.wikipedia.org/zh-tw/貢寮1003事件) — Records the establishment of the Yanliao Anti-Nuclear Self-Help Association in 1988, and the October 3, 1991 incident where security police officer Yang Chaojing was killed by a car during the anti-Nuclear Power Plant No. 4 protest.
+먼저 지진이다. 탈핵 진영의 핵심 과학 논거 중 하나는 핵3 발전소의 위치다. 지질학자 천원산은 “헝춘 단층이 핵3의 정문을 지나며, 원자로에서 약 900m밖에 떨어져 있지 않다”고 지적하고, “단층이 발전소 부지 안에 있다는 것은 확정된 사실”이라고 강조했다[^33]. 녹색당의 간충웨이는 더 구체적으로 말했다. “핵3 발전소 1호기의 터빈 발전기 건물이 헝춘 단층의 전단대 위에 직접 세워져 있다”[^34]. 지질학자 리시티는 평가 수치를 인용해 핵3의 안전 메커니즘이 최대 지진에서 “지반가속도가 무려 1.384G에 이르며, 이는 당시 채택한 설계값의 세 배가 넘는다”고 의문을 제기했다[^35].
 
-[^10]: [Nuclear and Radiation Safety Administration: Longmen Nuclear Power Plant Historical Timeline](https://www.nusc.gov.tw/share/file/regulation/b2q1KeyadBVcyexNK0cBHg__.pdf) — Nuclear and Radiation Safety Administration official timeline PDF, recording key nodes of Nuclear Power Plant No. 4 (Longmen) from the 1980 proposal, 1999 construction start, 2014 sealing, to 2020 construction license expiration, as primary historical material.
+원전 지지 진영은 단층의 존재를 부정하지 않는다. 그러나 그들의 프레임은 다르다. 앞서 언급한 예쭝광은 외부에서 “발전소 부근의 헝춘 단층”과 “발전소 부지 아래의 전단대”를 자주 혼동하며, 둘은 같은 것이 아니라고 주장했다[^30].
 
-[^11]: [Liberty Times: 27 Years Ago Gongliao Local Referendum](https://news.ltn.com.tw/news/politics/breakingnews/3768669) — Liberty Times report, recording the May 1994 Gongliao local referendum where 96.13% of voters opposed Nuclear Power Plant No. 4 (the Referendum Act had not yet passed at the time, no legal effect).
+> **📝 큐레이터 노트**
+>
+> 여기에는 매우 주목할 만한 세부사항이 있다. 내진 논쟁에서 탈핵과 원전 지지 양쪽이 **실제로 사용하는 것은 타이완전력이 직접 만든 같은 숫자들**이다. 원래 설계값 0.4G, 보강 후 0.72G, 단층이 실제로 움직일 때 평가된 1.384G가 모두 타이완전력 보고서에서 나왔다. 차이는 데이터가 아니라 프레임이다. 탈핵 측은 “평가값이 설계값의 몇 배이므로 너무 위험하다”고 말한다. 원전 지지 측은 “건물은 이미 보강되었고, 전단대는 같은 단층이 아니므로 문제가 없다”고 말한다. 같은 숫자, 두 개의 이야기다. 그래서 원자력 논의는 “과학 증거를 펼쳐 보이는 것”만으로 끝날 수 없다. 증거 자체가 두 가지 정당한 방식으로 해석될 수 있을 때, 차이는 사실의 층위가 아니라 가치의 층위에 있다. 탄소 감축을 위해 어느 정도의 지진 위험을 감수할 것인가. 이 질문에는 객관적 정답이 없다.
 
-[^12]: [Cambridge — The Politics of Anti-Nuclear Protest in Taiwan](https://www.cambridge.org/core/journals/modern-asian-studies/article/abs/politics-of-antinuclear-protest-in-taiwan-a-case-of-partydependent-movement-19802000/1AAEBCAECD16058D0AE5E020AC36E262) — Academic paper by sociologist Ho Ming-hsiu published in _Modern Asian Studies_, arguing that the rise of Taiwan's anti-nuclear voices is closely related to democratic opening.
+지진이 “일어날 것인가”의 확률 문제라면, 핵폐기물은 반드시 마주해야 하며 시간 규모가 상상을 넘어서는 문제다.
 
-[^13]: [Wikipedia: Lin Yi-hsiung Anti-Nuclear Power Plant No. 4 Fast](https://zh.wikipedia.org/zh-tw/林義雄反核四禁食行動) — Records Lin Yi-hsiung's fast at Yiguang Church starting April 22, 2014, the April 27 cross-party consensus, April 28 Executive Yuan announcement of Nuclear Power Plant No. 4 sealing, and April 30 stop fasting, in complete chronological order.
+타이완은 이미 고준위 핵폐기물 1만9천 다발 이상, 저준위 핵폐기물 21만 드럼을 누적했지만, 법정 최종 처분장 하나도 없다. 이는 지구공민기금회 등 탈핵 단체들이 거듭 강조하는 숫자다[^36]. 2026년 5월 현재, 세 원전의 사용후핵연료(고준위 폐기물)는 모두 21,527다발이다[^37]. 전 정무위원 린쯔룬은 이 문제의 윤리적 핵심을 분명히 말했다. “원전을 사용한다는 것은 핵폐기물 처리 비용, 위험, 책임을 다음 세대로 전가하는 것이다”[^38].
 
-[^14]: [Wikipedia: Lin Family Tragedy](https://zh.wikipedia.org/zh-tw/林宅血案) — Records the February 28, 1980 incident where Lin Yi-hsiung's mother and twin daughters were stabbed to death in their Taipei residence (later rebuilt into Yiguang Church), an unsolved historical event to this day.
+문제의 규모는 감찰원의 조사에서 가장 섬뜩하게 드러난다. 감찰원 보고서는 “타이완 본섬에서는 기본적으로 고준위 방사성 폐기물 최종 처분장을 찾을 수 없다”고 지적했고, “깊이 500m의 저장 동굴도 5만 년 뒤에는 지표로 드러날 것”이라고 경고했다. 타이완이 활동 조산대에 있어 지각이 매년 1cm 이상 이동하고, 고준위 핵폐기물이 격리되어야 하는 시간은 백만 년 단위이기 때문이다[^39]. 감찰위원 톈추진의 두 질문은 이 모든 문제의 주석과도 같다. “600억 위안을 다 쓰면 정말 최종 처분장 부지를 찾을 수 있는가?” “후단기금은 원전의 장례 비용이다”[^40].
 
-[^15]: [Central Election Commission: 2018 Case No. 16 Referendum Results (PDF)](https://web.cec.gov.tw/api/file/0132581c-18b5-4951-bc24-3cc083924666.pdf) — Central Election Commission official certification document, recording "Nuclear for Green" referendum 5,895,560 votes in favor, 4,014,215 against, turnout 54.83%, passed.
+```tw-figure
+최소 10만 년 안정되어야 하는 것
+고준위 핵폐기물 21,527다발은 갈 곳이 없다. 최종 처분장은 빨라도 2055년 완공이며, 지금까지 부지도 선정되지 않았다
+핵안전위원회, 감찰원
+```
 
-[^16]: [Central Election Commission: 2021 Case No. 17 Referendum Results (PDF)](https://web.cec.gov.tw/api/file/8af8f22f-2e85-4aed-a5b3-795eb111e214.pdf) — Central Election Commission official certification document, recording Nuclear Power Plant No. 4 commercial operation referendum 3,804,689 votes in favor, 4,262,517 against, turnout 41.09%, threshold 4,956,367 votes, not passed.
+고준위 핵폐기물 최종 처분 계획은 5단계로 나뉘며, 2005년부터 2055년까지 완공할 예정이고, 총경비는 약 600억 위안이다(이미 약 362억 위안 지출)[^41]. 다시 말해 2055년, 모든 일이 순조롭다 해도 타이완은 그때서야 처분장을 “다 지은” 상태가 된다. 그리고 그곳이 안정적으로 지켜야 할 것은 이후 수십만 년의 지각 변동을 견뎌야 한다.
 
-[^17]: [Taiwan Fact-Checking Center: Has the Nuclear-Free Homeland Become Invalid?](https://tfc-taiwan.org.tw/articles/292/) — Fact-checking report, clarifying that the 2018 Case No. 16 only abolished the 2025 non-nuclear timeline in the Electric Power Act, the "nuclear-free homeland" goal in Article 23 of the Basic Environmental Act remains effective, "nuclear-free homeland has become invalid" is misinformation.
+핵폐기물에는 10만 년 동안 안정적인 땅이 필요하다. 타이완은 끊임없이 움직이는 단층 위에 서 있다. 이것이 이 논쟁의 가장 깊은 자국이다. 지질 조건이 그다지 이상적이지 않은 섬이 만년의 유산을 남기는 에너지에 책임질 것인가, 책임질 수 있는가를 묻도록 강요받는 것이다. 이 문제에서는 승자를 가려내기 어렵다. 남는 것은 감당할 의지가 있는가뿐이다.
 
-[^18]: [CNA: Nuclear Power Plant No. 3 Unit 2 Shutdown](https://www.cna.com.tw/news/afe/202505160355.aspx) — CNA May 2025 report, recording Nuclear Power Plant No. 3 Unit 2 load reduction on May 17, disconnection at night, shutdown on the early morning of May 18, Taiwan's power grid having no nuclear power for the first time.
+![완공되었지만 상업운전으로 전기 한 kWh도 생산하지 못한 핵4 발전소(룽먼). 2014년 봉인된 뒤 지금까지 이어지고 있다.](/article-images/society/longmen-nuclear-plant-2023.jpg)
 
-[^19]: [GVM Magazine: Taiwan Moves Toward Nuclear-Free Homeland](https://www.gvm.com.tw/article/121619) — GVM report framework calls Taiwan "Asia's First, World's Second" nuclear-free homeland; this article notes this is a media claim, Italy had already stopped domestic nuclear power as early as 1990.
+## 란위의 그 “통조림 공장”
 
-[^20]: [CNA: Nuclear Reactor Facility Control Act Third Reading](https://www.cna.com.tw/news/aipl/202505130272.aspx) — CNA May 13, 2025 report, recording the Legislative Yuan passing the Amendment to Article 6 of the Nuclear Reactor Facility Control Act with 61 votes in favor and 50 against, adding a clause that licenses can be applied for extension after expiration, longest 40+20 years.
+우리가 타이베이에서, 입법원에서, 국민투표함 앞에서 원자력을 다툴 때, 이 논쟁의 중심에 선 적은 없지만 이미 40여 년 동안 그 대가를 짊어진 사람들이 있다.
 
-[^21]: [Environmental Info Center: Ministry of Economic Affairs Nuclear Power Restart Evaluation](https://e-info.org.tw/node/242602) — Environmental Info Center report, recording the Ministry of Economic Affairs November 27, 2025 determination that Nuclear Power Plant No. 1 is infeasible, Nuclear Power Plants No. 2 and No. 3 have restart feasibility (requiring 1.5–2 years self-inspection) evaluation results.
+란위다.
 
-[^22]: [CNA: Nuclear Power Plants No. 2 and No. 3 Meet Restart Conditions](https://www.cna.com.tw/news/aipl/202603220042.aspx) — CNA March 2026 report, recording the Lai Ching-te government announcing Nuclear Power Plants No. 2 and No. 3 meet restart conditions, Taipower submitting to the Nuclear and Radiation Safety Administration, Nuclear Power Plant No. 3 may restart as early as 2028.
+1974년 정부는 저준위 핵폐기물 저장장을 타오족(야미족)이 대대로 살아온 이 작은 섬에 설치하기로 결정했다. 그 과정에서 섬 주민에게 알리지 않았다. 1978년 공사가 시작되었고, 1982년 가동되었다. 당시 대외적으로는 “통조림 공장”을 짓는다고 주장했다[^42]. 오늘날까지 이 저장장에는 핵1, 핵2, 핵3에서 온 저준위 방사성 핵폐기물 97,672드럼이 보관되어 있다. 1996년 포화 상태에 이른 뒤 추가 반입은 중단되었다[^42].
 
-[^23]: [Lai Ching-te Threads: Nuclear Energy Three Principles](https://www.threads.com/@william_chingte/post/DWLKkJ9kSuD) — President Lai Ching-te's personal Threads post (primary source), proposing three prerequisites "nuclear safety assured, nuclear waste solved, social consensus" and emphasizing "indispensable."
+타오족의 저항은 수십 년 동안 이어졌다. 1988년 “악령 축출” 행동, 1995년 “한 사람 돌 하나로 항구 메우기” 행동은 폐기물을 실어 나르는 부두를 막으려는 시도였다[^42]. 2016년 8월 1일, 차이잉원(蔡英文)은 총통으로서 원주민에게 사과했고, 란위 핵폐기물은 그 사과의 항목 중 하나였다[^43].
 
-[^24]: [CNA: Lai Ching-te States on 8/13 to Vote Against](https://www.cna.com.tw/news/aipl/202508130229.aspx) — CNA August 13, 2025 report, recording Lai Ching-te publicly stating "On 8/23 referendum I will go vote, let us together cast a dissenting vote" and two must conditions.
+그러나 이 섬의 마음을 가장 잘 보여 준 것은 2019년의 거절이었다.
 
-[^25]: [CNA: Chu I-lun on Energy Policy](https://www.cna.com.tw/news/aipl/202508140130.aspx) — CNA August 2025 report, recording Kuomintang Chairman Chu I-lun advocating "rebuild energy security and resilience" and "pragmatically adjust erroneous energy policies."
+그해 11월, 정부는 소급 보상안을 발표했다. 일시 보상 25억5천만 위안과 이후 3년마다 2억2천만 위안을 지급한다는 내용이었다[^44]. 타오족은 거절했다. 란위 원로 린신위는 단호하게 말했다. “핵폐기물이 하루라도 란위에서 옮겨지지 않는다면, 이런 죽음과 이런 멸족은 계속될 것이다.” “나는 엄숙히 선언한다. 우리는 한 푼도 받지 않겠다!”[^44] 그들이 원하는 것은 돈이 아니라 폐기물을 옮기는 것이다. 그러나 1990년대에 약속한 반출 기한(원래 2002년)은 지금까지 지켜지지 않았다[^42].
 
-[^26]: [Business Today: Chuo Rong-tai on Electricity and Computing Power](https://www.businesstoday.com.tw/article/category/183027/post/202602100020/) — Business Today February 2026 report, recording Premier Chuo Rong-tai's discourse "electricity is computing power, computing power is national power"; his "anti-nuclear is not a sacred tablet" phrase is seen in [Newtalk March 24, 2026 Report](https://newtalk.tw/news/view/2026-03-24/1025911).
+> **✦** 란위의 “우리는 한 푼도 받지 않겠다”는 말은 전체 원자력 논의에서 가장 들어야 하지만 가장 자주 생략되는 목소리다. 그것은 우리에게 상기시킨다. 원전의 비용은 결코 전기요금 고지서에만 적혀 있지 않다. 논쟁의 양쪽이 “한 kWh에 몇 위안인가”, “탄소 몇 톤을 줄이는가”를 계산할 때, 어떤 비용은 의사결정 테이블에 자리가 없었던 사람들이 40년 동안의 토지와 존엄으로 조용히 치렀다.
 
-[^27]: [Business Today: Hsueh Shih-hsiung on Nuclear Energy and Saving the Earth](https://www.businesstoday.com.tw/article/category/183025/post/202503100020/) — Business Today March 2025 report, recording Pegatron Chairman Hsueh Shih-hsiung's verbatim speech "not just Taiwan, including globally, if you do not rely on nuclear energy, you rely on solar plus wind power to save the earth, there is no hope."
+![란위 타오족 전통 마을. 저준위 핵폐기물 저장장은 1982년부터 이 섬에 설치되었고, 반출 약속은 지금까지 지켜지지 않았다. 사진은 타오족 지하가옥이며 저장장 자체가 아니다.](/article-images/society/lanyu-tao-underground-house.jpg)
 
-[^28]: [UDN News Network: Hsueh Shih-hsiung Says RE100 is Like a Castle in the Air, May Be Replaced by CFE](https://udn.com/news/story/7238/8191536) — UDN News Network August 2024 report, recording Hsueh Shih-hsiung criticizing RE100 as "overreaching, like a castle in the air," advocating CFE carbon-free energy including nuclear (including SMR) can better achieve carbon neutrality goals; his nuclear electricity cost of about 1.42 NTD per kWh statement is also seen in [CNA Legislative Yuan Public Hearing Report](https://www.cna.com.tw/news/aipl/202503190127.aspx).
+## 열흘 버티는 가스, 열여덟 달 버티는 우라늄
 
-[^29]: [ETtoday: Huang Shih-hsiu on Nuclear Electricity Cost](https://www.ettoday.net/news/20250811/3013062.htm) — ETtoday August 2025 report, recording Nuclear Energy Rumors Terminator founder Huang Shih-hsiu "nuclear electricity costs 1.5 NTD per kWh, renewable energy 5.5 NTD per kWh" and the intense rhetoric "anti-nuclear is anti-American, selling out the country, licking the Communists."
+최근 몇 년 원전 지지 담론이 빠르게 다시 떠오르게 한 것은 기후만이 아니다. 더 날카로운 단어 하나가 있다. 전쟁이다.
 
-[^30]: [Newtalk: Ye Zong-guang on Hengchun Fault and Fracture Zone](https://newtalk.tw/news/view/2025-08-20/988961) — Newtalk report (reprint), recording National Tsing Hua University's Ye Zong-guang arguing that the Hengchun Fault near the plant site and the "fault fracture zone" under the plant site are different, and the outside world often confuses the two pro-nuclear technical points.
+타이완의 2024년 에너지 수입 의존도는 95.8%에 달했다. 거의 모든 에너지를 수입에 기대는 셈이다[^45]. 이 가운데 천연가스의 법정 안전 재고는 약 11일, 석탄은 약 41일이다. 반면 핵연료 한 묶음은 한 번 장전하면 약 18개월 쓸 수 있다[^46]. 원전 지지 진영은 그래서 “에너지 안보” 논거를 제시한다. 만약 타이완해협이 봉쇄되어 천연가스 운반선이 들어오지 못하면 오래 버티지 못하지만, 원전 안의 연료봉은 이미 1년 반을 태울 만큼 충분하다는 것이다.
 
-[^31]: [IEEE Spectrum: Taiwan Maanshan Nuclear Plant and Industrial Sector Statements](https://spectrum.ieee.org/nuclear-energy-taiwan-maanshan-plant) — IEEE Spectrum report, recording NVIDIA CEO Jensen Huang publicly stating Taiwan should invest in nuclear energy, nuclear energy "is an excellent option"; his pre-referendum (2025-08-22) related statement in Taipei is also seen in [Bloomberg Report](https://www.bloomberg.com/news/articles/2025-08-22/nvidia-urges-taiwan-to-embrace-nuclear-power-ahead-of-referendum).
+```tw-bars
+핵연료(약 18개월) | 540 | 한 번 장전으로 사용 가능
+석탄 | 42 | 법정 안전 재고(일)
+천연가스 LNG | 11 | 법정 안전 재고(일)
+자료 출처: 에너지서, 중앙통신사(이는 원전 지지 진영의 에너지 안보 논거임)
+```
 
-[^32]: [GVM Magazine: Energy Poll 18-29 Years Old Pro-Nuclear Proportion](https://www.gvm.com.tw/article/116455) — GVM and Taiwan Foundation for Sustainable Energy October 2024 poll, recording overall 63.1% pro-nuclear, 18–29 years old 70.8%, over 70 years old 50.2%, and DPP supporters 45.2% anti-nuclear, 44.3% pro-nuclear.
+이 주장은 허공에서 나온 말이 아니다. 미국 싱크탱크 전략국제문제연구소(CSIS)가 2025년 8월 실시한 워게임은 “에너지가 타이완 회복력에서 가장 취약한 고리”라고 지적했다. 봉쇄 상황에서 천연가스는 약 열흘만 버틸 수 있고, 전력은 20% 수준으로 붕괴할 것이라고 추정하며 원전 수명연장을 권고했다[^47]. 경제부장 궈즈후이도 입법원에서 에너지 안보는 “국가안보 문제라 너무 자세히 말할 수 없다”고 말한 바 있다[^48].
 
-[^33]: [Taiwan Fact-Checking Center: Nuclear Power Plant No. 3 Referendum and Hengchun Fault Dispute](https://tfc-taiwan.org.tw/third-nuclear-plant-referendum-aug-23-key-points/) — Fact-Checking Center organizes key dispute points for Nuclear Power Plant No. 3 extension referendum, recording geologist Chen Wen-shan "Hengchun Fault passes through Nuclear Power Plant No. 3's gate, about 900 meters from reactor," "fault is definitely inside the plant site" verbatim statements.
+그러나 탈핵 진영은 “원전이 더 안전하다”는 추론에 두 가지로 반박한다.
 
-[^34]: [The Reporter: Seven Key Disputes for Restarting Nuclear Power Plant No. 3 Referendum](https://www.twreporter.org/a/ahead-referendum-to-restart-maanshan-nuclear-power-plant) — The Reporter pre-referendum in-depth report, recording Green Party's Gan Chong-wei "Nuclear Power Plant No. 3 Unit 1's turbine generator building is built directly on the Hengchun Fault's fracture zone" anti-nuclear point.
+첫째는 우크라이나의 자포리자 원전이다. 전쟁 중 여러 차례 포격을 받은 이 발전소는 탈핵 측의 생생한 교재가 되었다. 전시의 원전은 요새에서 언제든 터질 수 있는 폭탄으로 바뀔 수 있다는 것이다[^49]. 둘째 논점은 분산형 에너지가 더 공격에 강하다는 것이다. 발전을 몇 개 대형 원자로에 집중시키면, 각지의 태양광과 풍력에 분산하는 것보다 오히려 한 번에 마비되기 쉽다는 주장이다. 전 에너지서 차장 쩡원성은 다른 각도에서 이 불안에 답했다. 타이완이 동원할 수 있는 패는 생각보다 많으며, 모든 것을 원전에 걸 필요는 없다는 뜻이었다[^48].
 
-[^35]: [Environmental Info Center: Nuclear Power Plant No. 3 Seismic Resistance and Fault Evaluation](https://e-info.org.tw/node/241621) — Environmental Info Center report, recording geologist Li Xi-di questioning Nuclear Power Plant No. 3's safety shutdown earthquake ground motion acceleration "as high as 1.384G, more than three times the design value."
+같은 “에너지 안보”를 원전 지지 측은 “그러므로 원전이 더 필요하다”고 읽고, 탈핵 측은 “그러므로 원전이 더 위험하다”고 읽는다. 다시 한번 같은 전제에서 두 개의 반대 결론이 나온다.
 
-[^36]: [Earth公民 Foundation: Taiwan Nuclear Waste Status](https://gcaa.org.tw/initiative/nonukes/nuclear-waste-policy/status-of-nuclear-waste/) — Anti-nuclear group official page, recording Taiwan has produced over 19,000 bundles of high-level nuclear waste and 210,000 barrels of low-level nuclear waste, yet has no statutory disposal site status data.
+## 양쪽 모두 자신이 미래의 편에 섰다고 말한다
 
-[^37]: [Nuclear and Radiation Safety Administration: Nuclear Power Plant Spent Nuclear Fuel Storage Table](https://www.nusc.gov.tw/物料管制/乾式貯存管制/核電廠用過核子燃料池貯存表--6_5206_5221.html) — Nuclear and Radiation Safety Administration official statistics (primary source), recording as of May 18, 2026, the three nuclear power plants' spent nuclear fuel totals 21,527 bundles.
+시야를 넓히면 전 세계가 이 패를 다시 섞고 있으며, 타이완의 각 진영은 국제적으로 자신을 뒷받침할 사례를 찾을 수 있다.
 
-[^38]: [The Reporter: Seven Key Disputes for Restarting Nuclear Power Plant No. 3 Referendum](https://www.twreporter.org/a/ahead-referendum-to-restart-maanshan-nuclear-power-plant) — The Reporter pre-referendum in-depth report, recording former State Councilor Lin Tzu-lun "using nuclear power is transferring the cost, risk, and responsibility of nuclear waste disposal to the next generation" verbatim comment.
+독일은 2023년 4월 탈핵을 완료했다. 탈핵 측은 이를 “선진국도 원전에 기대지 않을 수 있다”는 증거로 든다. 원전 지지 측은 야당 지도자 프리드리히 메르츠(Friedrich Merz)의 비판을 인용해 탈핵이 “거대한 실수”였다고 말한다. 반면 탈핵을 추진한 녹색당 정치인 로베르트 하베크(Robert Habeck)는 탈원전 뒤에도 전기요금은 내려갔고 탄소배출도 감소했다고 반박했다[^50]. 일본은 후쿠시마 사고 뒤 한때 전면 정지했지만, 지금은 15기 원자로를 재가동했다. 2024년 원전 비중은 약 8.3%였고, 2040년에는 20%까지 끌어올리는 것이 목표다. 한국은 윤석열 정부 들어 탈원전 노선을 뒤집고 2036년 원전 비중 34.6%를 외쳤다[^51].
 
-[^39]: [Control Yuan: High-Level Radioactive Waste Final Disposal Investigation](https://www.cy.gov.tw/News_Content.aspx?n=709&s=25816) — Control Yuan investigation report (primary source), stating basically no high-level final disposal site exists on the Taiwan island, and warning "storage caves buried 500 meters deep will emerge on the surface after 50,000 years" (active orogenic belt, crustal annual displacement exceeds 1 centimeter).
+양쪽이 동시에 가장 자주 인용하는 것은 핀란드의 온칼로(Onkalo)다. 19억 년 된 화강암에 깊이 430m로 파낸 고준위 핵폐기물 최종 처분장이다. 원전 지지 측은 “보라, 핵폐기물에 해법이 생겼다”고 말한다. 탈핵 측은 “그곳은 안정적인 핀란드의 오래된 지반이고, 타이완은 매일 움직이는 조산대라 따라 할 수 없다”고 말한다. 덧붙이자면 온칼로는 지금도 허가 심사 단계에 있으며, 외부에서는 이미 공식 운전 중이라고 자주 오해한다[^52].
 
-[^40]: [Control Yuan: High-Level Radioactive Waste Backend Fund and Disposal Site Doubts](https://www.cy.gov.tw/News_Content.aspx?n=709&s=25816) — Control Yuan Fiscal and Economic Committee press release (primary source), recording Control Yuanist Tian Qiujin "after spending 60 billion NTD, will we really find a final disposal site?" "backend fund is the coffin capital of nuclear power plants, once spent, it's gone" doubts.
+> **📝 큐레이터 노트**
+>
+> 이런 국제 사례를 함께 놓으면 매우 흥미로운 일이 보인다. 모든 사례가 동시에 양쪽의 증거가 된다. 같은 독일, 같은 핀란드, 같은 숫자를 탈핵과 원전 지지 모두 자기 주장의 증거로 쓴다. 아무도 거짓말을 하고 있지 않다. 사실 이 논쟁의 양쪽은 **서로 다른 두 질문**에 답하고 있다. 원전 지지 측은 묻는다. “온난화와 에너지 차단의 지금, 안정적으로 전력을 공급하면서 탄소도 줄일 선택지는 무엇인가?” 탈핵 측은 묻는다. “우리는 10만 년 동안 지켜야 하고, 50년 뒤의 부지도 아직 찾지 못한 폐기물을 만들 자격이 있는가?” 하나는 “지금의 에너지 안보”이고, 다른 하나는 “영원한 세대 책임”이다. 두 질문은 모두 진짜이며, 어느 하나가 다른 하나를 눌러서는 안 된다. 타이완이 40년 동안 합의하지 못한 이유는 어느 쪽이 더 어리석거나 더 나빠서가 아니다. 양쪽이 서로 다른 파국적 위험을 두려워하기 때문이다. 한쪽은 원전 사고와 만년 핵폐기물을 두려워하고, 다른 한쪽은 전력 부족, 에너지 차단, 온난화를 두려워한다. 두려워하는 것이 다르면 상대의 우선순위에 영원히 동의할 수 없다.
 
-[^41]: [Nuclear and Radiation Safety Administration: High-Level Radioactive Waste Final Disposal](https://www.nusc.gov.tw/便民服務/民眾關切問答資訊/放射性物料管理/高放射性廢棄物最終處置--220_237_2275_3620.html) — Nuclear and Radiation Safety Administration official Q&A (primary source), recording high-level nuclear waste final disposal plan divided into five stages, expected to be completed from 2005–2055, total cost about 60 billion NTD.
+그래서 이 논쟁은 아마 “끝나지” 않을 것이다.
 
-[^42]: [Wikipedia: Lanyu Storage Site](https://zh.wikipedia.org/zh-tw/蘭嶼貯存場) — Records Lanyu low-level nuclear waste storage site 1974 decision not informing Tao people, 1982 put into use, storing 97,672 barrels of low-level waste, 1996 saturation, and Tao people's annual resistance and removal promise delayed to this day complete process.
+그것은 국민투표, 법 개정, 서류 제출, 거리의 형식으로 한 바퀴씩 계속 돌아올 것이다. 2025년 문턱을 넘지 못한 434만 장의 찬성표와 란위의 “우리는 한 푼도 받지 않겠다”는 말은 동시에 이 섬의 기억에 남을 것이다. 누구도 누구를 설득하지 못한다.
 
-[^43]: [Presidential Office: President Apologizes to Indigenous Peoples](https://www.president.gov.tw/) — August 1, 2016 President Tsai Ing-wen apologizes to indigenous peoples in the capacity of head of state, Lanyu nuclear waste disposal is one item of historical injustice.
+다음에 누군가 “타이완은 대체 원전을 지지하느냐”고 묻는다면, 어쩌면 가장 정직한 답은 이럴 것이다. 타이완이 원전을 지지하는지는 어느 타이완에게 묻느냐에 달려 있다. 전력 부족이 두려워 잠들지 못하는 기술업계 사장인지, 후쿠시마와 궁랴오를 기억하는 탈핵 세대인지, 원전 사고 기억은 없고 지구가 더워지는 것만 두려워하는 젊은이인지, 아니면 섬 전체를 위해 40년 동안 핵폐기물을 지켜 왔지만 한 번도 원하느냐고 질문받지 못한 그 작은 섬인지에 달려 있다. 40년 동안 세 차례 국민투표를 치렀지만 현실은 거의 움직이지 않았다. 이 질문에는 애초에 표준 답안이 없었기 때문이다. 그것이 묻는 것은 한 사회가 어떻게 함께 결정할 것인가다. 핵폐기물은 10만 년 안정되어야 하고, 탄소 감축은 10년 안에 서둘러야 하며, 전력 부족은 바로 지금 닥쳐 있는 일, 곧 세 개의 시계가 완전히 다른 속도로 움직이는 일을 어떻게 결정할 것인가다.
 
-[^44]: [Environmental Info Center: Tao People Reject 2.55 Billion Compensation](https://e-info.org.tw/node/221698) — Environmental Info Center 2019 report, recording government announcing 2.55 billion retroactive compensation plus 220 million every three years plan, Tao people reject, elder Lin Hsin-yu declares "we will not take a single penny," wanting removal not compensation.
+그리고 양쪽 모두 자신이 미래의 편에 섰다고 말한다.
 
-[^45]: [Ministry of Economic Affairs Energy Supply Overview](https://www.moeaea.gov.tw) — Energy Administration official statistics, recording Taiwan 2024 energy import dependency about 95.8% (early primary energy口径 about 97–98%).
+## 더 읽을거리
 
-[^46]: [CNA: Natural Gas Safety Stock and Blockade Risk](https://www.cna.com.tw/news/aipl/202410230146.aspx) — CNA October 2024 report, recording natural gas statutory safety stock about 11 days, coal about 41 days, nuclear fuel one-time loading about 18 months, and Ministry of Economic Affairs explanation on energy security.
+- [타이완 기후 위기와 넷제로 전환](/nature/台灣氣候危機與淨零轉型) — 같은 에너지 문제의 다른 면: 물리적 한계, 전력 수급, 탄소 감축 일정에서 출발하며 이 글과 짝을 이루는 글
+- [타이완 환경운동사](/nature/台灣環境運動史) — 전후 타이완 환경운동의 일부로서 탈핵을 루강 반듀폰에서 궁랴오까지 전체 맥락으로 다룸
+- [타이완 환경 정의와 님비 논쟁](/society/台灣環境正義與鄰避爭議) — 핵폐기물과 란위 뒤의 님비 구조: 왜 위험은 늘 발언권이 가장 적은 곳에 떨어지는가
+- [사회운동과 시민 참여](/society/社會運動與公民參與) — 탈핵이 어떻게 타이완 민주화 운동과 같은 언어와 에너지를 공유했는가
+- [해바라기 학생운동](/society/太陽花學運) — 같은 세대의 시민 동원으로, 린이슝 단식 무렵의 시대 분위기를 이해하는 데 도움을 줌
 
-[^47]: [CSIS — Lights Out: Wargaming a Blockade of Taiwan](https://www.csis.org/analysis/lights-out-wargaming-blockade-taiwan) — US think tank Center for Strategic and International Studies wargame report, stating energy is Taiwan's most vulnerable link in resilience, natural gas would last about ten days under blockade scenario, electricity collapses to 20%, and recommends extending nuclear power service.
+## 공개 데이터
 
-[^48]: [CNA: Guo Zhi-hui on Energy Security](https://www.cna.com.tw/news/aipl/202410230146.aspx) — CNA report, recording Minister of Economic Affairs Guo Zhi-hui "national security issue cannot be discussed too detailedly" statement, and energy dispatch related discussion.
+아래 정부 개방 자료는 이 글의 논점을 직접 검증하거나 반박할 수 있게 해 준다. 링크는 [data.gov.tw](https://data.gov.tw/) 또는 주무기관 조회 시스템으로 이어진다. AI로 작업하는 독자도 타이완의 개방자료 MCP 게이트웨이 [Twinkle Hub](https://hub.twinkleai.tw/)를 통해 같은 데이터셋을 조회할 수 있다.
 
-[^49]: [Greenpeace: Distributed Energy and Wartime Nuclear Safety Risk](https://www.greenpeace.org/taiwan/update/37835/) — Greenpeace Taiwan branch data, presenting anti-nuclear camp using Ukraine's Zaporizhzhia Nuclear Power Plant wartime shelling as example, arguing wartime nuclear power risk is high, distributed renewable energy is more resilient.
+- [타이완전력공사 최근 10년 원자력 발전 성과 및 탄소 감축 효과](https://data.gov.tw/dataset/10859)(타이완전력공사, 매년 갱신) — 본문에서 원전 비중이 정점에서 0으로 가고 다시 재가동으로 밀려나는 곡선은 이 표의 연도별 발전량과 이용률로 직접 다시 그려 볼 수 있다
+- [타이완전력공사 원자력발전소 위치 및 호기 설비](https://data.gov.tw/dataset/10858)(타이완전력공사, 비정기 갱신) — 핵1부터 핵3까지 각 호기의 규격과 위치 원자료로, 본문의 폐로 시간표와 단층 논쟁을 대조할 수 있다
+- [원자력발전 후단운영기금 방사성폐기물 저장 및 원전 폐로 완료 전 환급 요점](https://data.gov.tw/dataset/133848)(타이완전력공사, 비정기 갱신) — 감찰원이 “다 쓰면 없어질” 것이라고 의문을 제기한 600억 위안 후단기금의 환급 규칙 원문
 
-[^50]: [Clean Energy Wire — Germany's nuclear exit one year after](https://www.cleanenergywire.org/factsheets/qa-germanys-nuclear-exit-one-year-after) — German Energy Information Network Q&A, recording Germany completed nuclear phase-out in April 2023, electricity prices fell, carbon emissions decreased, and opposition leader Merz called phase-out a "huge mistake" controversy both sides.
+## 이미지 출처
 
-[^51]: [NEI Magazine — South Korea to increase nuclear share to over 34% by 2036](https://www.neimagazine.com/news/newssouth-korea-to-increase-nuclear-share-to-more-than-34-by-2036-10523129) — Nuclear Engineering International Magazine report, recording South Korea Yoon Suk-yeol government reversing nuclear phase-out, targeting 34.6% nuclear power share by 2036, and can compare Japan restarting 15 units, 2040 target 20% policy trends.
+- **Hero／2013년 탈핵 입법원 포위**: [Anti-nuclear protest, Legislative Yuan（VOA）](<https://commons.wikimedia.org/wiki/File:Longmen_Nuclear_Power_Plant_from_VOA_(1).jpg>), 미국의 소리(Voice of America) 촬영 제공, Public Domain. (위키미디어 파일명은 업로더 명명을 따랐으며, 실제 내용은 2013년 4월 탈핵 행진 장면이다.)
+- **핵4 발전소(룽먼)**: [2023 Longmen Nuclear Power Plant](https://commons.wikimedia.org/wiki/File:2023_Longmen_Nuclear_Power_Plant_J.jpg), 사진 Taiwankengo, CC BY-SA 4.0.
+- **핵3 발전소(마안산) 난완**: [Maanshan Nuclear Power Plant, Nanwan](https://commons.wikimedia.org/wiki/File:Maanshan_Nuclear_Power_Plant.JPG), 사진 M. Weitzel, CC BY-SA 3.0.
+- **란위 타오족 전통 지하가옥**: [Entrance of a traditional underground house of Tao people on Orchid Island](https://commons.wikimedia.org/wiki/File:Entrance_of_a_traditional_underground_house_of_Tao_people_on_Orchid_Island_20100914.jpg), 사진 othree, CC BY 2.0. 사진은 타오족 지하가옥 마을로, 란위의 환경 정의 맥락을 보여 주기 위한 것이며 저준위 핵폐기물 저장장 자체가 아니다.
 
-[^52]: [American Nuclear Society — Finland's Onkalo licensing](https://www.ans.org/news/2025-01-28/article-6721/) — American Nuclear Society report, recording Finland Onkalo high-level nuclear waste final disposal repository (deep 430 meters, 1.9-billion-year granite) still in license review stage, outside world often mistakenly thinks it is already officially operating.
+## 참고 자료
+
+[^1]: [중앙통신사: 핵3 수명연장 국민투표 결과](https://www.cna.com.tw/news/aipl/202508235003.aspx) — 중앙통신사 2025년 8월 23일 개표 보도로, 찬성 4,341,432표, 반대 1,511,693표, 투표율 29.53%, 4분의 1 찬성 문턱 5,000,523표에 미달해 통과되지 않았다고 기록한다.
+
+[^2]: [위키백과: 핵3 수명연장 국민투표](https://zh.wikipedia.org/zh-hant/核三延役公投) — 2025년 제21안 국민투표의 전체 표수, 찬성 비율 74.17%, 문턱 계산을 수록하며 중앙선거위원회 확정 결과와 일치한다.
+
+[^3]: [중앙통신사: 황궈창의 핵3 국민투표 결과 발언](https://www.cna.com.tw/news/aipl/202508230188.aspx) — 중앙통신사 2025년 8월 23일 보도로, 민중당 주석이자 국민투표 발의자인 황궈창이 개표 뒤 “이번 국민투표의 찬성표는 반대표의 세 배”라고 말했다고 기록한다.
+
+[^4]: [보도자: 핵3 수명연장 국민투표 결과와 후속](https://www.twreporter.org/a/referendum-to-restart-maanshan-nuclear-power-plant-result) — 보도자의 2025년 심층 보도로, 전국폐핵행동플랫폼 사무총장 추이쑤신이 국민투표 결과에 대해 “찬성이 반대보다 높지만 통과되지 않았고 법적 효력이 없다”고 한 축어 논평과 탈핵 진영의 절차 및 후속 입장을 수록한다.
+
+[^5]: [환경정보센터: 「나는 사람이다, 나는 탈핵한다」 문화예술계 연서명](https://e-info.org.tw/node/83462) — 환경정보센터 2013년 1월 보도로, 문화예술계가 「나는 사람이다, 나는 탈핵한다」 연서명과 노란 바탕 붉은 글자 표지를 시작한 배경을 기록한다.
+
+[^6]: [공시 《우리의 섬》: 309 폐핵 대행진](https://ourisland.pts.org.tw/content/465) — 공시가 기록한 2013년 3월 9일 전 타이완 폐핵 대행진으로, 북부·중부·남부·동부 네 지역에서 약 22만 명이 참여했다는 주최 측 추산을 적고 있다.
+
+[^7]: [장화 문화자산: 루강 반듀폰 사건](https://www.ccat.tw/topic-article/840) — 1986년 루강 주민들이 리둥량 등을 중심으로 시작하고 “나는 루강을 사랑한다, 듀폰은 원하지 않는다”를 외친 반오염 운동의 전말을 기록한다. 전후 타이완 환경운동의 중요한 출발점이다.
+
+[^8]: [환경부 화학지식지도: 환경보호서 설립](https://topic.moenv.gov.tw/chemiknowledgemap/cp-452-10329-751c1-5.html) — 환경부 공식 자료로, 1987년 8월 22일 행정원 환경보호서가 설립된 역사적 배경을 기록한다.
+
+[^9]: [위키백과: 궁랴오 1003 사건](https://zh.wikipedia.org/zh-tw/貢寮1003事件) — 1988년 옌랴오 탈핵 자구회 설립과 1991년 10월 3일 핵4 반대 항쟁 중 보안경찰 양차오징이 차량에 치여 숨진 사건 경과를 수록한다.
+
+[^10]: [핵안전위원회: 룽먼 원자력발전소 역사 연표](https://www.nusc.gov.tw/share/file/regulation/b2q1KeyadBVcyexNK0cBHg__.pdf) — 핵안전위원회 공식 연표 PDF로, 핵4(룽먼)가 1980년 제안, 1999년 착공, 2014년 봉인, 2020년 건축허가 실효에 이르기까지의 핵심 절점을 일차 사료로 기록한다.
+
+[^11]: [자유시보: 27년 전 궁랴오 지방 국민투표](https://news.ltn.com.tw/news/politics/breakingnews/3768669) — 자유시보 보도로, 1994년 5월 궁랴오 지방 국민투표에서 투표자의 96.13%가 핵4에 반대했음을 기록한다. 당시 국민투표법은 아직 통과되지 않아 법적 효력은 없었다.
+
+[^12]: [Cambridge — The Politics of Anti-Nuclear Protest in Taiwan](https://www.cambridge.org/core/journals/modern-asian-studies/article/abs/politics-of-antinuclear-protest-in-taiwan-a-case-of-partydependent-movement-19802000/1AAEBCAECD16058D0AE5E020AC36E262) — 사회학자 허밍슈가 《Modern Asian Studies》에 발표한 학술논문으로, 타이완 탈핵 목소리의 부상과 민주적 개방이 긴밀히 관련되어 있음을 논증한다.
+
+[^13]: [위키백과: 린이슝 핵4 반대 단식 행동](https://zh.wikipedia.org/zh-tw/林義雄反核四禁食行動) — 2014년 4월 22일부터 린이슝이 이광교회에서 단식한 일, 4월 27일 여야 합의, 4월 28일 행정원의 핵4 봉인 발표, 4월 30일 단식 중단까지의 전체 시계를 수록한다.
+
+[^14]: [위키백과: 린가 혈안](https://zh.wikipedia.org/zh-tw/林宅血案) — 1980년 2월 28일 린이슝의 어머니와 쌍둥이 딸들이 타이베이 주택(뒤에 이광교회로 개축)에서 흉기에 찔려 숨지고 지금까지 미제 사건으로 남은 역사적 사건을 기록한다.
+
+[^15]: [중앙선거위원회: 2018년 제16안 국민투표 결과(PDF)](https://web.cec.gov.tw/api/file/0132581c-18b5-4951-bc24-3cc083924666.pdf) — 중앙선거위원회 공식 확정 문서로, 「원전으로 녹색을 기른다」 국민투표의 찬성 5,895,560표, 반대 4,014,215표, 투표율 54.83%, 통과를 기록한다.
+
+[^16]: [중앙선거위원회: 2021년 제17안 국민투표 결과(PDF)](https://web.cec.gov.tw/api/file/8af8f22f-2e85-4aed-a5b3-795eb111e214.pdf) — 중앙선거위원회 공식 확정 문서로, 핵4 상업운전 국민투표의 찬성 3,804,689표, 반대 4,262,517표, 투표율 41.09%, 문턱 4,956,367표, 부결을 기록한다.
+
+[^17]: [타이완 사실확인센터: 비핵 가원은 이미 효력을 잃었는가](https://tfc-taiwan.org.tw/articles/292/) — 사실확인 보고서로, 2018년 제16안은 전기사업법의 2025년 비핵 일정만 폐지했으며 환경기본법 제23조의 비핵 가원 목표는 여전히 유효하다고 정리한다. “비핵 가원은 이미 효력을 잃었다”는 말은 허위 정보로 판정되었다.
+
+[^18]: [중앙통신사: 핵3 2호기 정지](https://www.cna.com.tw/news/afe/202505160355.aspx) — 중앙통신사 2025년 5월 보도로, 핵3 발전소 2호기가 5월 17일 출력 감발, 밤 전력망 분리, 5월 18일 새벽 정지를 거쳐 타이완 전력망이 처음으로 원전 없는 상태가 되었다고 기록한다.
+
+[^19]: [원견잡지: 타이완의 비핵 가원 진입](https://www.gvm.com.tw/article/121619) — 원견 보도는 타이완을 “아시아 최초, 세계 두 번째” 비핵 가원으로 프레이밍했다. 이 글은 이것이 매체 표현이며 이탈리아가 이미 1990년에 국내 원전을 멈췄음을 명시한다.
+
+[^20]: [중앙통신사: 핵관법 3독 통과](https://www.cna.com.tw/news/aipl/202505130272.aspx) — 중앙통신사 2025년 5월 13일 보도로, 입법원이 찬성 61표, 반대 50표로 「원자로 시설 규제법」 제6조 개정을 3독 통과시켜 허가 만료 뒤 수명연장을 신청할 수 있고 최장 40+20년까지 운전할 수 있게 했다고 기록한다.
+
+[^21]: [환경정보센터: 경제부 원전 재가동 평가](https://e-info.org.tw/node/242602) — 환경정보센터 보도로, 경제부가 2025년 11월 27일 핵1은 불가능하고 핵2와 핵3은 재가동 가능성이 있으며 1.5∼2년 자율 안전검사가 필요하다는 평가 결과를 승인했다고 기록한다.
+
+[^22]: [중앙통신사: 핵2와 핵3 재가동 조건 충족](https://www.cna.com.tw/news/aipl/202603220042.aspx) — 중앙통신사 2026년 3월 보도로, 라이칭더 정부가 핵2와 핵3이 재가동 조건을 충족한다고 발표하고 타이완전력이 핵안전위원회에 서류를 제출했으며, 핵3은 이르면 2028년 재가동될 수 있다고 기록한다.
+
+[^23]: [라이칭더 Threads: 원자력 세 원칙](https://www.threads.com/@william_chingte/post/DWLKkJ9kSuD) — 라이칭더 총통 개인 Threads 게시물(일차 자료)로, “원전 안전에 문제가 없고, 핵폐기물에 해법이 있으며, 사회적 합의가 있어야 한다”는 세 전제를 제시하고 “하나라도 빠져서는 안 된다”고 강조한다.
+
+[^24]: [중앙통신사: 라이칭더 8/13 반대표 입장 표명](https://www.cna.com.tw/news/aipl/202508130229.aspx) — 중앙통신사 2025년 8월 13일 보도로, 라이칭더가 공개적으로 “823 국민투표에 나는 투표하러 갈 것이며, 우리 함께 반대표를 던지자”고 말하고 두 가지 필수 조건을 제시했다고 기록한다.
+
+[^25]: [중앙통신사: 주리룬의 에너지 정책 발언](https://www.cna.com.tw/news/aipl/202508140130.aspx) — 중앙통신사 2025년 8월 보도로, 국민당 주석 주리룬이 “에너지의 안전 탄력성을 재건”하고 “잘못된 에너지 정책을 실용적으로 조정”해야 한다고 주장한 내용을 기록한다.
+
+[^26]: [금주간: 줘룽타이의 전력과 산력 발언](https://www.businesstoday.com.tw/article/category/183027/post/202602100020/) — 금주간 2026년 2월 보도로, 행정원장 줘룽타이의 “전력은 곧 산력이고, 산력은 곧 국력이다”라는 논리를 기록한다. 그의 “탈핵은 신주패가 아니다”라는 말은 [Newtalk 2026-03-24 보도](https://newtalk.tw/news/view/2026-03-24/1025911)에 보인다.
+
+[^27]: [금주간: 퉁쯔셴의 원자력과 지구 구하기 발언](https://www.businesstoday.com.tw/article/category/183025/post/202503100020/) — 금주간 2025년 3월 보도로, 페가트론 회장 퉁쯔셴의 “타이완만이 아니라 전 세계를 포함해, 원자력에 기대지 않고 태양광과 풍력 발전에 의지해 지구를 구하겠다는 것은 가망이 없다”는 축어 발언을 수록한다.
+
+[^28]: [연합신문망: 퉁쯔셴, RE100은 공중누각 같고 CFE로 대체될 수 있다고 지적](https://udn.com/news/story/7238/8191536) — 연합신문망 2024년 8월 보도로, 퉁쯔셴이 RE100을 “이상은 높지만 공중누각 같다”고 비판하고 원자력(SMR 포함)을 포함한 CFE 무탄소 에너지가 탄소중립 달성에 더 적합하다고 주장한 논리를 수록한다. 원전 한 kWh 약 1.42위안이라는 비용 주장은 [중앙통신사 입법원 공청회 보도](https://www.cna.com.tw/news/aipl/202503190127.aspx)에 별도로 보인다.
+
+[^29]: [ETtoday: 황스슈의 원전 비용 발언](https://www.ettoday.net/news/20250811/3013062.htm) — ETtoday 2025년 8월 보도로, 원자력 유언비어 종결자 창립자 황스슈의 “원전은 kWh당 비용이 1.5위안, 재생에너지는 5.5위안”이라는 말과 “탈핵은 반미, 타이완을 파는 것, 중국 공산당에 아부하는 것”이라는 격렬한 수사를 기록한다.
+
+[^30]: [Newtalk: 예쭝광의 헝춘 단층과 전단대 발언](https://newtalk.tw/news/view/2025-08-20/988961) — Newtalk 보도(전재)로, 칭화대 예쭝광이 발전소 부근의 헝춘 단층과 발전소 부지 아래의 “단층 전단대”는 다르며 외부에서 이를 자주 혼동한다고 주장한 원전 지지 측 기술 논점을 기록한다.
+
+[^31]: [IEEE Spectrum: 타이완 마안산 원전과 산업계 입장 표명](https://spectrum.ieee.org/nuclear-energy-taiwan-maanshan-plant) — IEEE Spectrum 보도로, 엔비디아 CEO 황런쉰이 타이완은 원자력에 투자해야 하며 원자력이 “is an excellent option”이라고 공개 발언한 내용을 수록한다. 국민투표 전날(2025-08-22) 타이베이에서의 관련 발언은 [블룸버그 보도](https://www.bloomberg.com/news/articles/2025-08-22/nvidia-urges-taiwan-to-embrace-nuclear-power-ahead-of-referendum)에도 보인다.
+
+[^32]: [원견잡지: 에너지 여론조사 18∼29세 원전 지지 비율](https://www.gvm.com.tw/article/116455) — 원견과 타이완 지속가능에너지연구기금회의 2024년 10월 여론조사로, 전체 63.1% 원전 지지, 18∼29세 70.8%, 70세 이상 50.2%, 민진당 지지자 중 45.2% 탈핵·44.3% 원전 지지를 기록한다.
+
+[^33]: [타이완 사실확인센터: 핵3 국민투표와 헝춘 단층 쟁점](https://tfc-taiwan.org.tw/third-nuclear-plant-referendum-aug-23-key-points/) — 사실확인센터가 핵3 수명연장 국민투표 핵심 쟁점을 정리한 글로, 지질학자 천원산의 “헝춘 단층이 핵3 정문을 지나며 원자로에서 약 900m 떨어져 있다”, “단층이 발전소 부지 안에 있다는 것은 확정된 사실”이라는 축어 발언을 수록한다.
+
+[^34]: [보도자: 핵3 재가동 국민투표 7대 쟁점](https://www.twreporter.org/a/ahead-referendum-to-restart-maanshan-nuclear-power-plant) — 보도자의 국민투표 전 심층 보도로, 녹색당 간충웨이의 “핵3 발전소 1호기의 터빈 발전기 건물이 헝춘 단층의 전단대 위에 직접 세워져 있다”는 탈핵 측 논점을 수록한다.
+
+[^35]: [환경정보센터: 핵3 내진과 단층 평가](https://e-info.org.tw/node/241621) — 환경정보센터 보도로, 지질학자 리시티가 핵3 안전정지지진 지반가속도가 “1.384G에 이르며 설계값의 세 배가 넘는다”고 의문을 제기한 내용을 수록한다.
+
+[^36]: [지구공민기금회: 타이완 핵폐기물 현황](https://gcaa.org.tw/initiative/nonukes/nuclear-waste-policy/status-of-nuclear-waste/) — 탈핵 단체 공식 페이지로, 타이완이 이미 고준위 핵폐기물 1만9천 다발 이상과 저준위 핵폐기물 21만 드럼을 생산했지만 법정 처분장은 하나도 없다는 현황 데이터를 기록한다.
+
+[^37]: [핵안전위원회: 원전 사용후핵연료 저장표](https://www.nusc.gov.tw/物料管制/乾式貯存管制/核電廠用過核子燃料池貯存表--6_5206_5221.html) — 핵안전위원회 공식 통계(일차 자료)로, 2026년 5월 18일 현재 세 원전의 사용후핵연료가 합계 21,527다발이라고 기록한다.
+
+[^38]: [보도자: 핵3 재가동 국민투표 7대 쟁점](https://www.twreporter.org/a/ahead-referendum-to-restart-maanshan-nuclear-power-plant) — 보도자의 국민투표 전 심층 보도로, 전 정무위원 린쯔룬의 “원전을 사용한다는 것은 핵폐기물 처리 비용, 위험, 책임을 다음 세대로 전가하는 것”이라는 축어 논평을 수록한다.
+
+[^39]: [감찰원: 고준위 핵폐기물 최종 처분 조사](https://www.cy.gov.tw/News_Content.aspx?n=709&s=25816) — 감찰원 조사보고서(일차 자료)로, 타이완 본섬에서는 기본적으로 고준위 최종 처분장을 찾을 수 없다고 지적하고, 활동 조산대와 연간 1cm 이상 지각 이동 때문에 “깊이 500m의 저장 동굴도 5만 년 뒤에는 지표로 드러날 것”이라고 경고한다.
+
+[^40]: [감찰원: 고준위 핵폐기물 후단기금과 처분장 의문](https://www.cy.gov.tw/News_Content.aspx?n=709&s=25816) — 감찰원 재정 및 경제위원회 보도자료(일차 자료)로, 감찰위원 톈추진의 “600억 위안을 다 쓰면 정말 최종 처분장 부지를 찾을 수 있는가”, “후단기금은 원전의 장례 비용이고, 다 쓰면 없어진다”는 의문을 수록한다.
+
+[^41]: [핵안전위원회: 고준위 방사성 폐기물 최종 처분](https://www.nusc.gov.tw/便民服務/民眾關切問答資訊/放射性物料管理/高放射性廢棄物最終處置--220_237_2275_3620.html) — 핵안전위원회 공식 문답(일차 자료)으로, 고준위 핵폐기물 최종 처분 계획이 5단계로 나뉘며 2005∼2055년 완공 예정이고 총경비가 약 600억 위안임을 기록한다.
+
+[^42]: [위키백과: 란위 저장장](https://zh.wikipedia.org/zh-tw/蘭嶼貯存場) — 란위 저준위 핵폐기물 저장장이 1974년 결정 과정에서 타오족에게 고지하지 않았고, 1982년 가동했으며, 저준위 폐기물 97,672드럼을 보관하고, 1996년 포화 상태가 되었고, 타오족의 역대 항쟁과 반출 약속 불이행으로 이어진 전체 과정을 수록한다.
+
+[^43]: [총통부: 총통의 원주민 사과](https://www.president.gov.tw/) — 2016년 8월 1일 차이잉원 총통이 국가원수로서 원주민에게 사과했으며, 란위 핵폐기물 처리는 그중 하나의 역사적 부정의로 다루어졌다.
+
+[^44]: [환경정보센터: 타오족, 25억5천만 위안 보상 거절](https://e-info.org.tw/node/221698) — 환경정보센터 2019년 보도로, 정부가 25억5천만 위안 소급 보상과 3년마다 2억2천만 위안을 지급하는 방안을 발표했으나 타오족이 거절했고, 원로 린신위가 “우리는 한 푼도 받지 않겠다”고 선언하며 보상이 아니라 반출을 요구했다고 기록한다.
+
+[^45]: [경제부 에너지서: 에너지 공급 개황](https://www.moeaea.gov.tw) — 에너지서 공식 통계로, 타이완의 2024년 에너지 수입 의존도가 약 95.8%였음을 기록한다(초기 1차 에너지 기준은 약 97∼98%).
+
+[^46]: [중앙통신사: 천연가스 안전 재고와 봉쇄 위험](https://www.cna.com.tw/news/aipl/202410230146.aspx) — 중앙통신사 2024년 10월 보도로, 천연가스 법정 안전 재고 약 11일, 석탄 약 41일, 핵연료 한 번 장전 약 18개월 및 경제부의 에너지 안보 설명을 기록한다.
+
+[^47]: [CSIS — Lights Out: Wargaming a Blockade of Taiwan](https://www.csis.org/analysis/lights-out-wargaming-blockade-taiwan) — 미국 싱크탱크 전략국제문제연구소의 워게임 보고서로, 에너지가 타이완 회복력에서 가장 취약한 고리이며 봉쇄 상황에서 천연가스는 약 열흘, 전력은 20%로 붕괴한다고 지적하고 원전 수명연장을 권고한다.
+
+[^48]: [중앙통신사: 궈즈후이의 에너지 안보 발언](https://www.cna.com.tw/news/aipl/202410230146.aspx) — 중앙통신사 보도로, 경제부장 궈즈후이의 “국가안보 문제라 너무 자세히 말할 수 없다”는 말과 에너지 조달 관련 논의를 수록한다.
+
+[^49]: [그린피스: 분산형 에너지와 전시 원전 안전 위험](https://www.greenpeace.org/taiwan/update/37835/) — 그린피스 타이완 지부 자료로, 탈핵 진영이 우크라이나 자포리자 원전의 전시 포격 사례를 들어 전시 원전 위험이 높고 분산형 재생에너지가 더 회복력이 있다고 주장하는 논점을 제시한다.
+
+[^50]: [Clean Energy Wire — Germany's nuclear exit one year after](https://www.cleanenergywire.org/factsheets/qa-germanys-nuclear-exit-one-year-after) — 독일 에너지 정보망 문답으로, 2023년 4월 독일 탈핵 완료 뒤 전기요금과 탄소배출이 하락했다는 내용, 그리고 야당 지도자 메르츠가 탈핵을 “거대한 실수”라고 한 논쟁 양측의 주장을 기록한다.
+
+[^51]: [NEI Magazine — South Korea to increase nuclear share to over 34% by 2036](https://www.neimagazine.com/news/newssouth-korea-to-increase-nuclear-share-to-more-than-34-by-2036-10523129) — 핵공학 국제잡지 보도로, 한국 윤석열 정부가 탈원전을 뒤집고 2036년 원전 비중 34.6%를 목표로 한 내용을 기록한다. 일본의 15기 재가동과 2040년 20% 목표 정책 흐름과도 대조할 수 있다.
+
+[^52]: [American Nuclear Society — Finland's Onkalo licensing](https://www.ans.org/news/2025-01-28/article-6721/) — 미국원자력학회 보도로, 핀란드 온칼로 고준위 핵폐기물 최종 처분장(깊이 430m, 19억 년 화강암)이 여전히 허가 심사 단계에 있으며, 외부에서 이미 공식 운전 중이라고 자주 오해한다는 점을 기록한다.

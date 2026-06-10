@@ -25,10 +25,10 @@ lastVerified: '2026-04-26'
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/田馥甄.md'
-sourceCommitSha: '5db9f136'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:a39194b2f4737484'
 sourceBodyHash: 'sha256:d7c6d39e19e2fb58'
-translatedAt: '2026-05-01T22:19:10+08:00'
+translatedAt: '2026-06-10T16:45:00+00:00'
 ---
 
 > **Resumen en 30 segundos:** Hebe Tien (nacida en 1983, de origen hakka en Hsinchu) es una de las pocas "retiradas voluntarias" en la historia de la música pop en chino. En 2001 formó S.H.E junto con Ren Jiaxuan (Selina) y Chen Jiahua (Ella), y en una década vendieron más de diez millones de discos[^4]. En 2010 lanzó su primer álbum en solitario, To Hebe, con el eslogan "superdespués de diez años desde su debut"[^6]. Desde "Ángel entre los demonios" y "Pequeña suerte" hasta _Lo que nadie sabe_ (2020), producido junto con Chen Chien-chi, con el que ganó el premio a Mejor Cantante Femenina en Chino en la 32.ª edición de los Premios Golden Melody[^13]: sus récords de ventas se consolidaron álbum tras álbum. Pero en 2020 rechazó una oferta de un programa de variedades chino que, según se reportó, rondaba los 100 millones de dólares taiwaneses[^25]; en 2022 publicó una foto de pasta en Instagram[^16]; en 2025 llevó su gira a salinas y campos de vuelo sin techo[^19]; y en 2026 dijo ante los periodistas: "No es un obstáculo, es que 'no quiero pisarlo'"[^21]. Una cantante formada por la industria idol fue devolviendo pieza por pieza todo lo que esa industria le había dado.

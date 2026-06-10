@@ -21,10 +21,10 @@ readingTime: 13
 lastVerified: 2026-04-29
 lastHumanReview: false
 translatedFrom: Culture/基督教在台灣.md
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:875b7e202aed03cb'
-sourceBodyHash: 'sha256:4b3f831fea6a96bf'
-translatedAt: 2026-05-01T22:19:06+08:00
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:91764d361c63b5b7'
+sourceBodyHash: 'sha256:a99853057e82dc58'
+translatedAt: '2026-06-10T17:00:20Z'
 ---
 
 > **En 30 secondes :** Le développement du christianisme à Taïwan est un long marathon allant de l'« incompréhension » à la « coexistence ». Au XIXᵉ siècle, les missionnaires ont frappé à la porte de la société avec « une Bible dans une main, une pince dans l'autre » : Mackay a arraché à lui seul plus de vingt mille dents. Après avoir subi les pressions de la visite obligatoire aux sanctuaires shintō durant la période japonaise et traversé l'ère de l'aide humanitaire américaine du « culte de la farine » d'après-guerre, cette force s'est tournée vers la politique sous la loi martiale : l'Église presbytérienne a publié au péril de sa vie la _Déclaration des droits de l'homme_, devenant une voix incontournable dans le processus de démocratisation de Taïwan. Aujourd'hui, les missionnaires mormons en chemise blanche, pédalant à vélo, constituent un autre paysage singulier des rues taïwanaises.

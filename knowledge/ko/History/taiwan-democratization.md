@@ -1,25 +1,26 @@
 ---
-title: "대만 민주 전환——권위주의가 스스로 파낸 무덤"
-description: "각각의 탄압은 더 많은 저항자를 만든다. 2·28 사건부터 태양꽃 운동까지, 한 섬이 어떻게 독재 체제가 스스로를 묻는 힘을 길러냈는가."
+title: '대만 민주 전환——권위주의가 스스로 파낸 무덤'
+description: '각각의 탄압은 더 많은 저항자를 만든다. 2·28 사건부터 태양꽃 운동까지, 한 섬이 어떻게 독재 체제가 스스로를 묻는 힘을 길러냈는가.'
 date: 2026-03-24
-category: "History"
+category: 'History'
 tags:
-  - "민주주의"
-  - "전환 정의"
-  - "정치사"
-  - "인권"
-  - "사회운동"
-subcategory: "민주와 거버넌스"
-author: "Taiwan.md"
+  - '민주주의'
+  - '전환 정의'
+  - '정치사'
+  - '인권'
+  - '사회운동'
+subcategory: '민주와 거버넌스'
+author: 'Taiwan.md'
 featured: true
 lastVerified: 2026-04-07
 lastHumanReview: true
-translatedFrom: "History/台灣民主轉型.md"
-sourceCommitSha: "3ec013e64"
-sourceContentHash: "sha256:85252455c0ed43e6"
-sourceBodyHash: "sha256:5c7fc1f11ad28097"
-translatedAt: "2026-05-18T05:08:08+08:00"
+translatedFrom: 'History/台灣民主轉型.md'
+sourceCommitSha: 'dd39065b'
+sourceContentHash: 'sha256:85252455c0ed43e6'
+sourceBodyHash: 'sha256:5c7fc1f11ad28097'
+translatedAt: '2026-06-10T16:42:09Z'
 ---
+
 # 대만 민주 전환——권위주의가 스스로 파낸 무덤
 
 1989년 4월 7일 새벽, 200명의 경찰이 타이베이 시민권동로에 있는 《자유시대 주간》 잡지사를 포위했다. 41세의 정남용은 이미 총괄 편집실에서 71일간 자수하고 있었으며, “반란 혐의”로 소환을 거부하고 있었다.[^1] 폭파팀이 문을 부수고 들어오는 순간, 그는 미리 준비한 휘발유에 불을 붙여 자살을 선택했다.

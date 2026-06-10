@@ -20,10 +20,10 @@ featured: true
 lastVerified: 2026-04-29
 lastHumanReview: false
 translatedFrom: Technology/海底電纜.md
-sourceCommitSha: 'a637afed'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:f38fca094c4c3275'
 sourceBodyHash: 'sha256:ec9a17aedbd5877e'
-translatedAt: 2026-05-01T22:19:06+08:00
+translatedAt: 2026-06-10T16:45:50Z
 ---
 
 > **Aperçu en 30 secondes :** Les 2 et 8 février 2023, les deux câbles sous-marins reliant le comté de Lianjiang (Matsu) à l'île principale de Taïwan se sont coupés à six jours d'intervalle[^1]. Chunghwa Telecom a mis **environ 50 jours** pour réparer l'un d'entre eux, et le second câble (Taima n°2) a nécessité au total **4 mois et 23 jours** de réparation — Que Hémings, vice-ministre du Développement numérique, a déclaré que cela « **dépassait le temps moyen de réparation des câbles sous-marins internationaux** », en raison de « **l'interférence des garde-côtes chinois** »[^2]. Quatre-vingt-dix-neuf pour cent du trafic réseau international de Taïwan transite par des câbles sous-marins, et les **14 câbles internationaux** actuellement en service[^3] convergent tous vers **quatre stations d'atterrissage** sur l'île principale : Tamsui, Bali, Toucheng et Fangshan[^4]. En 2024, Chunghwa Telecom a discrètement inauguré une cinquième station d'atterrissage à Dawu, dans le comté de Taitung, que les habitants locaux ne pouvaient désigner que par son numéro d'adresse : « **le bâtiment 506** » — des sources bien informées ont révélé qu'il s'agissait d'« un réseau de communication externe de sécurité en cas de conflit entre les deux rives »[^5]. Les salles blanches de TSMC sont les images héroïques au sommet du bouclier de silicium ; ces 14 câbles, enfouis à 1 300 mètres de profondeur, sont la ligne de vie invisible en dessous : ils peuvent déconnecter 23 millions de personnes du monde sans qu'un seul coup de feu ne soit tiré.

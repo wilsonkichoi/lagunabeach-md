@@ -20,7 +20,7 @@ lastVerified: 2026-05-27
 lastHumanReview: false
 featured: false
 translatedFrom: 'Culture/天燈.md'
-sourceCommitSha: 'f41a0fb8'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:3aee5165c69ac020'
 sourceBodyHash: 'sha256:d0f05c3694c2e800'
 translatedAt: '2026-05-28T05:08:33+08:00'

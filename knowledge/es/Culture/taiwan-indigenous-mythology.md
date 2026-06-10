@@ -10,10 +10,10 @@ lastVerified: 2026-04-17
 lastHumanReview: true
 featured: false
 translatedFrom: 'Culture/原住民神話.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:3ad9f28eb81ce704'
-sourceBodyHash: 'sha256:93356a93ce6ebf61'
-translatedAt: '2026-05-01T22:19:10+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:f16fb8d1c36fdd75'
+sourceBodyHash: 'sha256:e09a61ab23c86acd'
+translatedAt: '2026-06-10T16:58:37+00:00'
 ---
 
 > **Resumen en 30 segundos:** La isla de Taiwán no solo es geográficamente diversa, sino también un tesoro de mitología cultural. Desde el nacimiento de la etnia Atayal por la fisura de una roca, hasta la leyenda de la caza del sol de los Bunun, pasando por el gran diluvio y el matrimonio entre hermanos de los Amis, estas epopeyas orales no solo moldean la cosmovisión de cada grupo étnico, sino que también reflejan su profunda interacción con el entorno natural y su sabiduría de adaptación. Estas mitologías son la llave indispensable para comprender la cultura de los pueblos indígenas de Taiwán.

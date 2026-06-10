@@ -22,10 +22,10 @@ lastVerified: 2026-04-20
 lastHumanReview: 2026-04-20
 featured: false
 translatedFrom: 'Art/謝德慶.md'
-sourceCommitSha: '5db9f136'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:6c03cf0ef8e01a7d'
 sourceBodyHash: 'sha256:63227fedc7d1144a'
-translatedAt: '2026-05-01T20:54:23+08:00'
+translatedAt: '2026-06-10T16:45:00+00:00'
 ---
 
 ## Tehching Hsieh: el artista taiwanés que convirtió 14 años de identidad ilegal en una obra de arte de la performance

@@ -24,7 +24,7 @@ lastHumanReview: 2026-04-14
 featured: true
 category: 'People'
 translatedFrom: 'People/李洋.md'
-sourceCommitSha: '5db9f136'
+sourceCommitSha: 'fef3e119'
 sourceContentHash: 'sha256:96f1d5630278a964'
 sourceBodyHash: 'sha256:57937e9b25b2f462'
 translatedAt: '2026-05-01T18:02:56+08:00'

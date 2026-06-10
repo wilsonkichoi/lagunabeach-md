@@ -19,10 +19,10 @@ lastVerified: 2026-04-24
 featured: false
 lastHumanReview: false
 translatedFrom: 'Food/嘉義火雞肉飯.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:961c8a81a8f8c3f1'
-sourceBodyHash: 'sha256:2b1f54ba6f041643'
-translatedAt: '2026-05-01T22:19:01+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:f79faf5588d7d10f'
+sourceBodyHash: 'sha256:2d4b333fe985b7a6'
+translatedAt: '2026-06-10T16:58:21Z'
 ---
 
 > 치야이 칠면조밥의 유래는 냉전의 유산이다. 제2차 세계대전 후 미군이 치야이에 주둔하면서 대량의 칠면조를 가져왔다. 물자가 귀했던 시절, 칠면조는 토종닭보다 크고 토종닭보다 싸서, 린톈수라는 명의 요리사가 제1상가에서 칠면조고기를 잘게 썰어 육수를 끓이고 밥 위에 올렸다. 70년 후, 이 한 그릇의 밥은 농식품부 주관 대만 10대 대표 밥 투표에서 1위를 차지했고, 국빈 만찬에도 올랐지만, 치야이 길거리에서 여전히 30원에 판다. 대만 어느 도시도 특정 음식과 이토록 강하게 결부된 곳은 없다.

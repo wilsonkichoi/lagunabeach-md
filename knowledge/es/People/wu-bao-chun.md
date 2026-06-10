@@ -20,10 +20,10 @@ lastVerified: '2026-04-05'
 lastHumanReview: false
 featured: true
 translatedFrom: 'People/吳寶春.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:8ca95111311b9e7a'
-sourceBodyHash: 'sha256:99516f459f833e82'
-translatedAt: '2026-05-01T22:19:10+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:82ee8d84093955be'
+sourceBodyHash: 'sha256:1487714e3148ab1a'
+translatedAt: '2026-06-10T16:58:37+00:00'
 ---
 
 # Wu Baochun: una promesa a un niño del pueblo Paiwan
@@ -97,6 +97,7 @@ El resultado en sí mismo resulta casi inverosímil —y entonces miras con más
 - [André Chiang](/people/江振誠) — De la Escuela Técnica de Tamsui al puesto 14 del mundo: la historia de otro chef que conquistó el ámbito internacional con sabores taiwaneses
 - [Mapa cultural de los 16 pueblos indígenas de Taiwán](/culture/台灣原住民族16族文化地圖) — El contexto cultural del vino de mijo Paiwan que inspiró el pan de lichi y rosa
 - [Cultura de los mercados nocturnos](/food/夜市文化) — La base de la gastronomía popular taiwanesa: comprender de dónde nace la estética de los ingredientes de Wu Baochun
+- [Huang Shan-Liao](/people/黃山料) — Otro taiwanés que conquistó un escenario mundial (la Semana de la Moda de Londres), pero tomó el camino opuesto: dejó el oficio y convirtió el «ser visto» en un éxito de ventas
 
 ## Referencias
 

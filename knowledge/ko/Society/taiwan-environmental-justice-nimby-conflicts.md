@@ -19,9 +19,10 @@ lastVerified: 2026-03-20
 lastHumanReview: false
 readingTime: 13
 translatedFrom: 'Society/台灣環境正義與鄰避爭議.md'
-sourceCommitSha: '44238bb4f'
+sourceCommitSha: 'a33cc554'
 sourceContentHash: 'sha256:ca7f70cdde7f6b9f'
-translatedAt: '2026-06-09T04:09:15+08:00'
+sourceBodyHash: 'sha256:81936e65730d0960'
+translatedAt: '2026-06-10T16:58:21Z'
 ---
 
 # Environmental Justice and NIMBY Disputes in Taiwan

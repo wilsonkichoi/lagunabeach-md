@@ -27,11 +27,20 @@ readingTime: 17
 lastVerified: 2026-04-18
 lastHumanReview: true
 researchReport: reports/research/2026-04/草東沒有派對.md
+sporeLinks:
+  - id: 33
+    platform: 'threads'
+    date: '2026-04-18'
+    url: 'https://www.threads.com/@taiwandotmd/post/DXQ_in_Ew0*'
+  - id: 34
+    platform: 'x'
+    date: '2026-04-18'
+    url: 'https://x.com/taiwandotmd/status/2045412116665172331'
 translatedFrom: People/草東沒有派對.md
-sourceCommitSha: '5db9f136'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:c93963fdd3e6600a'
 sourceBodyHash: 'sha256:5d39f10852397392'
-translatedAt: '2026-05-01T12:53:58+08:00'
+translatedAt: '2026-06-10T16:43:34Z'
 perspectives:
   - author: 'songstoryworks (Tsai-Yu)'
     text: "'Whe·Re' (瓦合) appears in the Shiji (Records of the Grand Historian), Confucian Scholars section. The extended meaning — 'like broken tiles fitted together, though gathered they are not uniform' — comes from Tang dynasty scholar Yan Shigu's annotation to the Book of Han, Biographies of Li, Lu, Zhu, Liu, and Shusun. The extended meaning derives from the Book of Han, and the annotation was not written until the Tang dynasty."

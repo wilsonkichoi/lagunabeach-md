@@ -19,9 +19,10 @@ readingTime: 7
 lastVerified: 2026-04-05
 lastHumanReview: false
 translatedFrom: 'People/吳寶春.md'
-sourceCommitSha: 'fb0101886'
+sourceCommitSha: 'a33cc554'
 sourceContentHash: 'sha256:82ee8d84093955be'
-translatedAt: '2026-06-09T02:28:56+08:00'
+sourceBodyHash: 'sha256:1487714e3148ab1a'
+translatedAt: '2026-06-10T16:58:25Z'
 ---
 
 # Wu Pao-chun: A Promise to a Paiwan Child

@@ -19,10 +19,10 @@ lastVerified: 2026-03-29
 lastHumanReview: false
 featured: true
 translatedFrom: 'Music/台灣獨立音樂.md'
-sourceCommitSha: '4b6d28c54'
-sourceContentHash: 'sha256:bfe914abc0149304'
-sourceBodyHash: 'sha256:a16a5ddb8083143e'
-translatedAt: '2026-05-24T05:06:33+08:00'
+sourceCommitSha: '73443b2a'
+sourceContentHash: 'sha256:cd1df8dc4931d5ab'
+sourceBodyHash: 'sha256:c54c3768ed377e41'
+translatedAt: '2026-06-10T16:45:00+00:00'
 ---
 
 **Resumen en 30 segundos: en 1986, Jen Chiang-ta, de ascendencia coreana y japonesa, pidió prestados 300.000 dólares taiwaneses para hacerse cargo de una disquería a punto de cerrar y empezó a importar a Taiwán “música que nadie quería escuchar”. Cuarenta años después, el ecosistema surgido de aquella tienda —live houses, sellos independientes, StreetVoice, Golden Indie Music Awards— llevó a una banda que vendía discos en cafeterías hasta el premio Álbum del Año en los Golden Melody Awards, y a una banda taipeiana que canta íntegramente en inglés hasta Coachella. Cuarenta años de música independiente taiwanesa son una carrera de relevos sin meta final: cada tramo se corre sin aliento, cada tramo parece a punto de derrumbarse, pero el testigo nunca cae.**
@@ -203,6 +203,7 @@ Lo que Jen Chiang-ta dijo a esos niños quizá sea la misma frase que la música
 - [Historia del desarrollo del rock taiwanés](/music/台灣搖滾樂發展史) — El recorrido completo del rock en Taiwán, de canciones prohibidas a corriente principal
 - [Cultura de festivales musicales en Taiwán](/music/台灣音樂祭文化) — Cómo el Hohaiyan Rock Festival se convirtió en incubadora de música independiente
 - [LTK Commune](/music/濁水溪公社) — Treinta años de punk en taiwanés bajo tierra; tras su disolución, su primera nominación a los Golden Melody Awards terminó con el premio a Mejor Álbum en Taiwanés
+- [Sodagreen](/music/蘇打綠) — Del Premio Golden Melody de NCCU en 2001 a “Chi Tang Yin Ye” en 2023: veinte años completos del arco de una banda indie taiwanesa, incluyendo el litigio por la marca y la resistencia bajo el alias “Yu Ding Xi”
 
 ## Referencias
 

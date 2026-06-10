@@ -1,19 +1,28 @@
 ---
 title: 'Les zongzi de Taïwan'
-description: 'Les zongzi de Taïwan ne sont pas un seul aliment, mais quatre mémoires d'îles superposées : Minnan, Hakka, waisheng et peuples autochtones — chaque bouchée est un fragment du chemin parcouru.'
+description: "Les zongzi de Taïwan ne sont pas un seul aliment, mais quatre mémoires d'îles superposées : Minnan, Hakka, waisheng et peuples autochtones — chaque bouchée est un fragment du chemin parcouru."
 date: 2026-04-05
-tags: [Fête des Bateaux-Dragons, culture culinaire, Minnan, Hakka, waisheng, peuples autochtones, gastronomie festive]
+tags:
+  [
+    Fête des Bateaux-Dragons,
+    culture culinaire,
+    Minnan,
+    Hakka,
+    waisheng,
+    peuples autochtones,
+    gastronomie festive,
+  ]
 subcategory: 'Gastronomie festive'
 author: 'Taiwan.md Translation Team'
 readingTime: 7
 featured: true
 category: 'Food'
 lastVerified: 2026-04-05
-translatedFrom: "Food/粽子.md"
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:417f55638e009ac3'
-sourceBodyHash: 'sha256:0a9c845f48a278d1'
-translatedAt: "2026-04-15T17:35:53+08:00"
+translatedFrom: 'Food/粽子.md'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:667cb5542c6db8dd'
+sourceBodyHash: 'sha256:3ac0da0bb2db9026'
+translatedAt: '2026-06-10T17:00:20Z'
 ---
 
 # Les zongzi de Taïwan

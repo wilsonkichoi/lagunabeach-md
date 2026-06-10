@@ -20,9 +20,10 @@ readingTime: 12
 lastVerified: 2026-04-29
 lastHumanReview: false
 translatedFrom: 'Technology/海底電纜.md'
-sourceCommitSha: 'a637afed9'
-sourceContentHash: 'sha256:2c95c482aefa54d9'
-translatedAt: '2026-06-09T03:36:16+08:00'
+sourceCommitSha: 'dd39065b'
+sourceContentHash: 'sha256:f38fca094c4c3275'
+sourceBodyHash: 'sha256:ec9a17aedbd5877e'
+translatedAt: '2026-06-10T16:42:09Z'
 ---
 
 > **30-Second Overview:** On February 2 and 8, 2023, the two undersea cables connecting Lienchiang County (Matsu) to Taiwan proper broke consecutively within six days[^1]. Chunghwa Telecom took **approximately 50 days** to repair one of them, while the second cable, Taimei No. 2, took a total of **4 months and 23 days** to fully restore—Digital Development Department Deputy Minister Chueh Ho-ming stated that this was "**exceeding the average international undersea cable repair time**" because "**interference from Chinese Coast Guard vessels**" was involved[^2]. Taiwan relies on undersea cables for **99%** of its international internet traffic. The current **14 international undersea cables**[^3] are all concentrated in **four landing stations** on the main island: Danshui, Bali, Toucheung, and Fangshan[^4]. In 2024, Chunghwa Telecom quietly activated a fifth landing station in Dawu, Taitung; local residents refer to it only by its street address, "**Building 506**"—insiders revealed this is a "**secure network for external communication in the event of war between the two sides of the strait**"[^5]. TSMC's cleanrooms are the heroic shots atop the Silicon Shield, but these 14 lines buried 1,300 meters deep under the sea are the unseen lifeline below: they can disconnect 23 million people from the world without firing a single shot.

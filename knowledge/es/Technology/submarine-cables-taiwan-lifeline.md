@@ -20,10 +20,10 @@ lastVerified: 2026-04-29
 lastHumanReview: false
 featured: true
 translatedFrom: Technology/海底電纜.md
-sourceCommitSha: 'a637afed'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:f38fca094c4c3275'
 sourceBodyHash: 'sha256:ec9a17aedbd5877e'
-translatedAt: 2026-05-02T01:17:17+08:00
+translatedAt: '2026-06-10T16:45:00+00:00'
 ---
 
 > **Panorama en 30 segundos:** El 2 y el 8 de febrero de 2023, los dos cables submarinos que conectaban el condado de Lianjiang (Matsu) con la isla principal de Taiwán se rompieron en un lapso de seis días[^1]. Chunghwa Telecom tardó **aproximadamente 50 días** en reparar uno de ellos, y el segundo cable (Taima No. 2) requirió un total de **4 meses y 23 días** para su restauración completa. Que He-ming, viceministro del Ministerio de Asuntos Digitales, declaró que esto "**superó el tiempo promedio de reparación de cables submarinos internacionales**", debido a "**la interferencia de patrulleras de la guardia costera china**"[^2]. El **99%** del tráfico exterior de red de Taiwán depende de cables submarinos, y los **14 cables internacionales** actualmente en servicio[^3] se concentran en **cuatro estaciones de aterrizaje** en la isla principal: Tamsui, Bali, Toucheng y Fangshan[^4]. En 2024, Chunghwa Telecom inauguró discretamente una quinta estación de aterrizaje en Dawu, Taitung; los residentes locales solo pueden identificarla por su número de puerta: "**edificio 506**" — personas familiarizadas con el asunto revelaron que se trata de "una red de comunicación exterior segura para el caso de un conflicto entre ambas costas"[^5]. La sala limpia de TSMC es la imagen heroica en la cúspide del escudo de silicio; estos 14 cables, enterrados a 1.300 metros de profundidad bajo el mar, son el sustento invisible: pueden desconectar a 23 millones de personas del mundo sin disparar un solo tiro.

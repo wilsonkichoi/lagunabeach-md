@@ -20,7 +20,7 @@ lastVerified: 2026-05-17
 lastHumanReview: false
 readingTime: 10
 translatedFrom: History/臺灣前途決議文.md
-sourceCommitSha: '63bc1ff9'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:d8a522bc82b5f1d6'
 sourceBodyHash: 'sha256:c8ff273540a02078'
 translatedAt: 2026-05-18T05:08:09+08:00

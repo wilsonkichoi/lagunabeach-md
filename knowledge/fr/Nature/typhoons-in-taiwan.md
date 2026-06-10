@@ -25,10 +25,10 @@ lastVerified: 2026-05-09
 lastHumanReview: false
 featured: false
 translatedFrom: 'Nature/颱風.md'
-sourceCommitSha: '4407f0af6'
-sourceContentHash: 'sha256:b25ee135b9bea711'
-sourceBodyHash: 'sha256:c5aa7038d81fc4d3'
-translatedAt: '2026-06-03T21:58:47+08:00'
+sourceCommitSha: 'dd39065b'
+sourceContentHash: 'sha256:fb28c7a415f87d9c'
+sourceBodyHash: 'sha256:c57123f891fb2cee'
+translatedAt: '2026-06-10T16:45:50Z'
 ---
 
 # Pouvoir prévoir le vent et la pluie, mais pas le destin : quatre siècles de Taïwan face aux typhons
@@ -61,7 +61,7 @@ Sous le règne Tongzhi des Qing, vers 1865, les Britanniques hissèrent des pavi
 
 Cent soixante ans plus tôt, en 1705, à Penghu, le fonctionnaire Sun Yuanheng fut témoin d’un ouragan. Il écrivit les quatre-vingt-cinq vers du « Chant de l’ouragan » : « Le vent d’automne s’est levé en tornade dans la nuit ; la mère des ouragans est venue de l’ouest, superbe dans sa colère. »[^35] Trois siècles plus tard, à chaque approche de typhon, ses vers sont encore relus quelque part dans une publication Facebook.
 
-Avançons jusqu’au 31 juillet 1996. Le typhon Herb frappe Taïwan, et Alishan reçoit 1 094,5 millimètres de pluie en une seule journée, l’équivalent des précipitations « annuelles » de Taipei déversées en vingt-quatre heures.[^5] C’était une première depuis l’installation de la station météorologique en 1933. Des années plus tard, un internaute de PTT se souvenait : « Le typhon Herb a littéralement inondé notre maison au rez-de-chaussée. » Un autre écrivait : « L’étang à poissons et les terres agricoles auxquels mon père avait consacré toute sa vie ont été en grande partie emportés. »[^5] Herb fut surnommé le « 921 du monde des typhons », avec des pertes totales estimées entre 25 et 30 milliards de nouveaux dollars taïwanais.
+Avançons jusqu’au 31 juillet 1996. Le typhon Herb frappe Taïwan, et Alishan reçoit 1 094,5 millimètres de pluie en une seule journée, l’équivalent de près de la moitié des précipitations annuelles de Taipei déversées en vingt-quatre heures.[^5] C’était une première depuis l’installation de la station météorologique en 1933. Des années plus tard, un internaute de PTT se souvenait : « Le typhon Herb a littéralement inondé notre maison au rez-de-chaussée. » Un autre écrivait : « L’étang à poissons et les terres agricoles auxquels mon père avait consacré toute sa vie ont été en grande partie emportés. »[^5] Herb fut surnommé le « 921 du monde des typhons », avec des pertes totales estimées entre 25 et 30 milliards de nouveaux dollars taïwanais.
 
 Cinq ans plus tard, en septembre 2001, le typhon Nari stationna au-dessus de Taïwan pendant 49 heures, suivant une trajectoire étrange. La station météorologique de Taipei mesura 425 millimètres de pluie en une journée, un record historique en 105 ans d’existence.[^2] Toute la ligne Bannan du métro de Taipei fut suspendue ; 16 stations et le dépôt furent entièrement inondés. Hu Tsung-li, ancien chef de section de la ligne Bannan, s’enfuit avec ses clés et plusieurs centaines de milliers de dollars taïwanais de fonds de roulement ; en une nuit, les 12 stations dont il avait la charge furent toutes submergées. À Bishan, dans Neihu, les habitants avaient poussé pendant un an la collecte des ressources recyclables ; lorsque le typhon arriva, 150 000 tonnes de déchets paralysèrent tout le système de recyclage.[^2]
 
@@ -105,13 +105,13 @@ _Le 9 août 2009, à Minxiong, Chiayi. Morakot avançait lentement, et plusieurs
 
 « Moins nombreux mais plus forts » renverse la logique ancienne de prévention des catastrophes. Auparavant, les ressources étaient organisées sur l’hypothèse que « plusieurs typhons viendront chaque année ». Désormais, l’hypothèse devient : « l’été peut rester entièrement calme, mais le seul typhon qui arrivera devra être supporté comme une année entière de destructions ». Un typhon devient un événement extrême annuel.
 
-## Les chasseurs de vent : Taïwan revenue de l’œil du typhon
+## Les chasseurs de vent : Taïwan qui largue ses dropsondes à quarante mille pieds au-dessus de la tête du typhon
 
 Face aux typhons, les outils humains sont passés des pavillons de 1865 à l’IA de 2025. Dans cette trajectoire figure un professeur de l’Université nationale de Taïwan : Wu Chun-chieh.
 
-Depuis 2002, il dirige le programme « Dropwindsonde Observations for Typhoon Surveillance near the Taiwan Region » (DOTSTAR), communément appelé « programme de chasse aux typhons », le premier grand programme asiatique de recherche sur les typhons. Le 1er septembre 2003, lors du typhon Dujuan, l’équipe réalisa sa première mission officielle. Fin 2012, elle avait mené des observations sur 49 typhons, lors de 64 vols, largué 1 051 sondes et accumulé 334 heures de vol. Ces données de première main ont réduit en moyenne de 20 % l’erreur des prévisions de trajectoire des typhons à 24-72 heures.[^9]
+Depuis 2002, il dirige le programme « Dropwindsonde Observations for Typhoon Surveillance near the Taiwan Region » (DOTSTAR), communément appelé « programme de chasse aux typhons », le premier grand programme asiatique de recherche sur les typhons. L'équipe utilise un biréacteur Astra SPX qui monte à 43 000 pieds et, depuis la tête du typhon, largue des dropsondes autour de la périphérie pour collecter les données atmosphériques clés au pourtour du mur de l'œil (une approche différente de celle des Hurricane Hunters américains, qui traversent le mur de l'œil avec des avions à hélices). Le 1er septembre 2003, lors du typhon Dujuan, l’équipe réalisa sa première mission officielle. Fin 2012, elle avait mené des observations sur 49 typhons, lors de 64 vols, largué 1 051 sondes et accumulé 334 heures de vol. Ces données de première main ont réduit en moyenne de 20 % l’erreur des prévisions de trajectoire des typhons à 24-72 heures.[^9]
 
-Wu Chun-chieh décrit à la première personne ce qu’il ressent dans l’œil d’un typhon :
+Wu Chun-chieh décrit à la première personne ce qu'il a ressenti, enfant, au sol à Taitung, en voyant passer l'œil du typhon (et non depuis un avion) :
 
 > « J’ai grandi à Taitung, je l’ai vécu. On sent d’abord le vent du nord, car un typhon tourne dans le sens inverse des aiguilles d’une montre ; puis soudain il n’y a plus de vent, cela signifie que vous êtes dans l’œil du typhon ; quelques dizaines de minutes plus tard, le vent du sud se lève, cela veut dire que l’œil du typhon vous a déjà dépassé. »
 

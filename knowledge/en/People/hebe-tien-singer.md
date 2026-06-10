@@ -34,10 +34,10 @@ sporeLinks:
     date: '2026-04-26'
     url: 'https://x.com/taiwandotmd/status/2048233702053073039'
 translatedFrom: 'People/田馥甄.md'
-sourceCommitSha: '5db9f136'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:a39194b2f4737484'
 sourceBodyHash: 'sha256:d7c6d39e19e2fb58'
-translatedAt: '2026-05-01T08:56:11+08:00'
+translatedAt: '2026-06-10T16:43:34Z'
 ---
 
 > **30-second overview:** Hebe Tien (born 1983, Hakka from Hsinchu) is one of the rare "voluntary step-back" figures in Mandopop history. In 2001, she and Jen Chia-hsuan (Selina) and Chen Chia-hua (Ella) formed S.H.E, selling over ten million records in a decade[^4]. In 2010 she released her debut solo album _To Hebe_, with a poster reading "super newcomer after ten years"[^6]. From "Devil's Angel" and "A Little Happiness" to the 2020 album _Unknown_, made with producer Chen Chien-chi, which won Best Mandarin Female Vocalist at the 32nd Golden Melody Awards[^13] — her sales records grew steadily stronger with each release. But in 2020 she turned down a Chinese variety show offer reportedly worth nearly NT$100 million[^25]; in 2022 she posted a photo of pasta on Instagram[^16]; in 2025 she held a concert tour at a salt flat and a paragliding field with no roof overhead[^19]; in 2026 she told reporters: "It's not a barrier — it's that I simply don't _want_ to step there."[^21] An idol cultivated by the industry, returning what the industry gave her — one piece at a time.

@@ -18,9 +18,10 @@ readingTime: 12
 lastVerified: 2026-03-20
 lastHumanReview: false
 translatedFrom: 'Nature/台灣環境運動史.md'
-sourceCommitSha: '44238bb4f'
+sourceCommitSha: 'a33cc554'
 sourceContentHash: 'sha256:305b65af8a515840'
-translatedAt: '2026-06-09T03:31:39+08:00'
+sourceBodyHash: 'sha256:a23479ca0734c2ef'
+translatedAt: '2026-06-10T16:57:27Z'
 ---
 
 # History of Environmental Movements in Taiwan

@@ -25,10 +25,10 @@ readingTime: 18
 lastVerified: 2026-04-26
 lastHumanReview: false
 translatedFrom: People/田馥甄.md
-sourceCommitSha: '5db9f136'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:a39194b2f4737484'
 sourceBodyHash: 'sha256:d7c6d39e19e2fb58'
-translatedAt: 2026-05-01T20:54:17+08:00
+translatedAt: 2026-06-10T16:45:50Z
 ---
 
 > **En 30 secondes :** Tian Fuzhen (née en 1983, originaire de la communauté hakka du comté de Hsinchu) est l'une des rares « retraitées volontaires » de l'histoire de la pop mandarine. En 2001, elle forme S.H.E avec Ren Jiayuan (Selina) et Chen Jiahua (Ella), et le groupe vend plus de dix millions de disques en dix ans[^4]. En 2010, elle sort son premier album solo _To Hebe_, avec pour slogan « super nouvelle artiste après dix ans de carrière »[^6]. De _L'ange parmi les démons_ à _Xiao Xingyun_ (_A Little Luck_), puis à _Nobody Knows_ (2020), réalisé avec Chen Jianqi, qui lui vaut le prix de la meilleure chanteuse mandarine aux 32e Golden Melody Awards[^13] — ses succès commerciaux ne cessent de se confirmer. Mais en 2020, elle décline une offre de près de 100 millions de dollars taïwanais pour une émission de variétés en Chine continentale[^25] ; en 2022, elle publie une photo de pâtes sur Instagram[^16] ; en 2025, elle organise une tournée dans des salines à ciel ouvert et un terrain de vol libre[^19] ; en 2026, elle déclare face aux journalistes : « Ce n'est pas un obstacle, c'est que je n'ai pas envie d'y mettre les pieds »[^21]. Une chanteuse façonnée par l'industrie de l'idole a rendu, pièce par pièce, ce que cette industrie lui avait donné.

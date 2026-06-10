@@ -19,9 +19,10 @@ readingTime: 12
 lastVerified: 2026-06-07
 lastHumanReview: false
 translatedFrom: 'People/黃山料.md'
-sourceCommitSha: 'fcc2a6a68'
-sourceContentHash: 'sha256:1931764847aac8b9'
-translatedAt: '2026-06-09T03:19:24+08:00'
+sourceCommitSha: 'dd39065b'
+sourceContentHash: 'sha256:dba98b3ec5b142b0'
+sourceBodyHash: 'sha256:a1dcff0ad13c1e91'
+translatedAt: '2026-06-10T16:42:09Z'
 ---
 
 # Huang Shan-liao: No one looked at the champion's clothes, so he started selling 'one-line comfort'

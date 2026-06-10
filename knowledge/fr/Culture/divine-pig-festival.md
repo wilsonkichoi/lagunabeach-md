@@ -20,10 +20,10 @@ readingTime: 8
 lastVerified: 2026-04-21
 lastHumanReview: false
 translatedFrom: Culture/神豬.md
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:4e7bd6002d83c43b'
-sourceBodyHash: 'sha256:0f6781254171f7ba'
-translatedAt: 2026-05-02T01:17:16+08:00
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:6f4523fa8d717e72'
+sourceBodyHash: 'sha256:6665fe12d60ecee3'
+translatedAt: '2026-06-10T17:00:20Z'
 ---
 
 ## Le cochon divin : un siècle de tensions et de transformation entre foi et droits des animaux à Taïwan

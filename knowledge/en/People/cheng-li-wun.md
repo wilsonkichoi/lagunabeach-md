@@ -16,10 +16,16 @@ category: 'People'
 readingTime: 12
 lastVerified: 2026-04-11
 lastHumanReview: false
+sporeLinks:
+  - id: 22
+    platform: 'threads'
+    date: '2026-04-11'
+    url: 'https://www.threads.com/@taiwandotmd/post/DW_l-6Yk_kg'
 translatedFrom: 'People/鄭麗文.md'
-sourceCommitSha: '5db9f136e'
-sourceContentHash: 'sha256:cbe6421d51738771'
-translatedAt: '2026-06-09T02:07:19+08:00'
+sourceCommitSha: 'dd39065b'
+sourceContentHash: 'sha256:d7d8adfe5a1c7158'
+sourceBodyHash: 'sha256:119c3d104b24e9dd'
+translatedAt: '2026-06-10T16:43:34Z'
 ---
 
 # Cheng Li-wen

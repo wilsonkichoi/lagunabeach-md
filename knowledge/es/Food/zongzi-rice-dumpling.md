@@ -20,10 +20,10 @@ lastVerified: '2026-04-05'
 lastHumanReview: false
 featured: true
 translatedFrom: 'Food/粽子.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:417f55638e009ac3'
-sourceBodyHash: 'sha256:0a9c845f48a278d1'
-translatedAt: '2026-05-01T22:19:10+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:667cb5542c6db8dd'
+sourceBodyHash: 'sha256:3ac0da0bb2db9026'
+translatedAt: '2026-06-10T16:58:37+00:00'
 ---
 
 # Zongzi

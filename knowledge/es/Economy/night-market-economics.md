@@ -13,10 +13,10 @@ tags:
     'Comida callejera',
   ]
 translatedFrom: 'Economy/夜市經濟學.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:0fad49e81799ba5a'
-sourceBodyHash: 'sha256:3e5dc2a574d892a7'
-translatedAt: '2026-05-01T22:19:10+08:00'
+sourceCommitSha: '7678a430'
+sourceContentHash: 'sha256:d707615db91a024a'
+sourceBodyHash: 'sha256:7e08a20853bbe066'
+translatedAt: '2026-06-10T16:45:00+00:00'
 category: Economy
 ---
 
@@ -153,6 +153,13 @@ Detrás de los 400 mil millones de producción hay 470 000 familias que se ganan
 La economía de los mercados nocturnos nos enseña que, a veces, el enfoque más "poco profesional" es precisamente el modelo de negocio más exitoso.
 
 ---
+
+## Datos abiertos
+
+Los siguientes conjuntos de datos abiertos del gobierno permiten verificar —o refutar— los argumentos de este artículo. Los enlaces apuntan a páginas permanentes en [data.gov.tw](https://data.gov.tw/); los lectores que trabajen con IA pueden además consultar el mismo material a través de [Twinkle Hub](https://hub.twinkleai.tw/), la pasarela MCP taiwanesa de datos abiertos.
+
+- [Encuesta sobre la situación operativa de los vendedores ambulantes](https://data.gov.tw/dataset/10918) (Directorio General de Presupuesto, Contabilidad y Estadística del Yuan Ejecutivo, censo quinquenal) — Los 233 000 puestos, 357 000 trabajadores y 395 400 millones de NTD de ingresos citados en este artículo provienen de este censo quinquenal; el próximo levantamiento reescribirá directamente estas cifras
+- [Mercados nocturnos registrados en Taichung](https://data.gov.tw/dataset/85028) (Departamento de Desarrollo Económico del Gobierno Municipal de Taichung, actualización irregular) — Cómo se ve un "modelo de negocio que en teoría no debería existir" cuando el gobierno lo registra en una lista oficial: la radiografía de una sola ciudad
 
 ## Referencias
 

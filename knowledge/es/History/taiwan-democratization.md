@@ -20,10 +20,10 @@ sporeLinks:
     date: '2026-04-07'
     url: 'https://www.threads.com/@taiwandotmd/post/DW1ba_tEz5D'
 translatedFrom: 'History/台灣民主轉型.md'
-sourceCommitSha: '3ec013e64'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:85252455c0ed43e6'
 sourceBodyHash: 'sha256:5c7fc1f11ad28097'
-translatedAt: '2026-05-18T05:08:09+08:00'
+translatedAt: '2026-06-10T16:45:00+00:00'
 ---
 
 # Transformación democrática de Taiwán — La tumba que la autoridad excavó para sí misma

@@ -26,10 +26,10 @@ readingTime: 16
 lastVerified: 2026-04-26
 lastHumanReview: false
 translatedFrom: People/壞特.md
-sourceCommitSha: '5db9f136'
-sourceContentHash: 'sha256:bc3dc1570bc97a61'
+sourceCommitSha: 'dd39065b'
+sourceContentHash: 'sha256:2f12f91cbf28ef93'
 sourceBodyHash: 'sha256:f96db07a5b8f044c'
-translatedAt: 2026-05-01T20:54:17+08:00
+translatedAt: 2026-06-10T16:45:50Z
 ---
 
 > **En 30 secondes :** Whyte ?te (vrai nom Lin Chih-yi, née en 1994 à Xiangshan, Hsinchu) a remporté le prix de la meilleure nouvelle artiste aux 32e Golden Melody Awards le 21 août 2021[^10]. La même soirée, Hebe Tien a été sacrée meilleure chanteuse, Soft Lipa meilleur chanteur et Sangpuy album de l'année. Ce qui a fait circuler sa déclaration en boucle, c'est cette phrase adressée à tout le pays : **« S'il vous plaît, n'ayez pas peur. »**[^11] Sur scène, elle s'est présentée : diplômée du lycée filles de Hsinchu, entrée à la faculté de médecine de l'Académie militaire pour neuf ans (dont une année de césure en troisième année et une année de prolongation ; les deux ans de stage clinique ont pris trois ans faute de suivi de consultations), elle a terminé sa formation d'interne et obtenu sa licence de médecine[^29]. Sur la voie scolaire d'élite de Taïwan, elle a appuyé sur pause en cours de route : d'abord l'année de césure à cumuler trois emplois par jour[^5], puis la sortie de sa première chanson _Cazzo_ en 2019[^7], puis l'album _A Bedroom of One's Own_ en 2020[^9], et au moment de recevoir le prix, elle portait encore un masque en salle d'opération comme interne le jour[^25]. Puis elle n'est pas retournée à la médecine.

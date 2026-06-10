@@ -21,7 +21,7 @@ lastVerified: 2026-05-29
 lastHumanReview: false
 featured: true
 translatedFrom: 'Technology/科技園區發展.md'
-sourceCommitSha: '8bd79599d'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:1d77734f34a7a5f8'
 sourceBodyHash: 'sha256:e01e7169a98c4aba'
 translatedAt: '2026-06-02T00:40:00+08:00'

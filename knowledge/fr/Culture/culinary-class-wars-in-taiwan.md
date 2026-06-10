@@ -19,10 +19,10 @@ readingTime: 14
 lastVerified: 2026-04-25
 lastHumanReview: false
 translatedFrom: Culture/黑白大廚在台灣.md
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:31883f60285a57e2'
-sourceBodyHash: 'sha256:bf7679056e96cbe1'
-translatedAt: 2026-05-01T20:54:17+08:00
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:0041359461493257'
+sourceBodyHash: 'sha256:82ab788b4ca08de3'
+translatedAt: '2026-06-10T17:00:20Z'
 ---
 
 > **En 30 secondes :** _Culinary Class Wars: Le combat des classes culinaires_ (흑백요리사 / Culinary Class Wars) est une émission de téléréalité culinaire produite par Netflix en collaboration avec tvN Studios (Corée du Sud). La saison 1 a été mise en ligne le 17 septembre 2024 et s'est achevée le 8 octobre, pour un total de 12 épisodes[^1]. L'émission se distingue par son ampleur et la dramaturgie de ses personnages : 80 chefs « cuillère noire » (cuisiniers de restaurants populaires, food trucks, cantines scolaires, livraison) affrontent 20 chefs « cuillère blanche » (chefs étoilés Michelin et de restaurants gastronomiques), sous l'œil de Baek Jong-won, figure emblématique de la culture culinaire coréenne, et du chef trois étoiles Michelin Ahn Sung-jae, en tant que jurés[^2]. Dès sa première semaine, l'émission s'est classée en tête des audiences non anglophones de Netflix à Taïwan[^3]. Au cours des 16 mois suivants, 9 participants de l'émission ont établi des collaborations avec des secteurs industriels taïwanais variés : plats préparés de supérettes, boissons au thé à emporter, restauration rapide, buffets d'hôtels cinq étoiles, plateformes de livraison, chaînes de restauration coréenne, et même un smartphone Galaxy Z pliant[^4]. Cet article retrace la trajectoire de ces collaborations dans le secteur de la consommation et documente les controverses alimentaires qui en ont découlé.

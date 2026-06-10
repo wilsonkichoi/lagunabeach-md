@@ -19,9 +19,10 @@ readingTime: 12
 lastVerified: 2026-06-05
 lastHumanReview: false
 translatedFrom: 'Society/我是OO人.md'
-sourceCommitSha: 'a66ee7481'
-sourceContentHash: 'sha256:9435bd25b91c523c'
-translatedAt: '2026-06-09T03:30:49+08:00'
+sourceCommitSha: 'dd39065b'
+sourceContentHash: 'sha256:cdc34bf666aa8587'
+sourceBodyHash: 'sha256:d2136eb2eef002a6'
+translatedAt: '2026-06-10T16:42:09Z'
 ---
 
 > **30-Second Overview:** You have likely followed at least one local fan page like "I Am From Kaohsiung" or "I Am From Taichung," sharing night market news and weather, feeling like "us locals." In February 2026, someone caught an uncleaned AI instruction in a post on "I Am From Taipei." Following this thread back leads to a building on Jihu Road in Neihu, Taipei, and a group of people surnamed Lin running a related enterprise. They use AI to rewrite news from pro-China media into a "fellow townsman" tone, then batch-distribute it via fan pages disguised as locals from various counties and cities. The most ironic part is: it hardly fakes news, so you can't measure it with the ruler of "fact-checking."

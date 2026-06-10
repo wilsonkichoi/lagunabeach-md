@@ -25,7 +25,7 @@ lastVerified: '2026-05-26'
 lastHumanReview: false
 featured: true
 translatedFrom: 'History/國家人權博物館.md'
-sourceCommitSha: '91eb4403'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:2f06c4f836b83834'
 sourceBodyHash: 'sha256:a49e0a9584cc26cc'
 translatedAt: '2026-05-28T05:08:34+08:00'

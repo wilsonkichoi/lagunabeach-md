@@ -20,10 +20,10 @@ featured: true
 lastVerified: 2026-04-24
 lastHumanReview: false
 translatedFrom: Art/造山者世紀的賭注.md
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:48d568156f2d8bb9'
-sourceBodyHash: 'sha256:dae45d5a23a409e0'
-translatedAt: 2026-05-01T20:54:17+08:00
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:a95fbde18ca52301'
+sourceBodyHash: 'sha256:305bf3438490071a'
+translatedAt: '2026-06-10T17:00:20Z'
 ---
 
 > **En 30 secondes :** La réalisatrice Chu Hsiao-chen a passé cinq ans (2019-2024) à interviewer plus de 80 pionniers du semi-conducteur pour réaliser une épopée sur l'industrie taïwanaise du semi-conducteur — mais Morris Chang n'a pas accepté d'interview formelle. Le titre chinois est 《造山者：世紀的賭注》, le titre anglais est 《A Chip Odyssey》 (et non « The Mountain Maker », comme le veut la rumeur). Sorti en salle à Taïwan en juin 2025, le film a dépassé 32 millions de NT$ de recettes, se classant parmi les cinq plus grands documentaires de l'histoire du cinéma taïwanais. De l'automne 2025 au printemps 2026, le film a été projeté à Stanford, UCLA, Columbia, Purdue, Wisconsin et Michigan — les pôles de l'industrie américaine du semi-conducteur à l'ère du CHIPS Act — devenant une autre voie diplomatique du soft power technologique taïwanais.

@@ -16,10 +16,10 @@ featured: true
 lastVerified: 2026-04-12
 lastHumanReview: false
 translatedFrom: 'Society/太陽花學運.md'
-sourceCommitSha: '7b8c0d48'
-sourceContentHash: 'sha256:8a36018a77b69fe4'
-sourceBodyHash: 'sha256:7c672299649957c4'
-translatedAt: '2026-05-25T21:07:36Z'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:de374340ca4140af'
+sourceBodyHash: 'sha256:1bf83c4f24dc53dd'
+translatedAt: '2026-06-10T17:00:20Z'
 ---
 
 > **Résumé en 30 secondes :** Le 17 mars 2014, le député du Kuomintang Chang Ching-chung, couché à même le sol, ânonne trente secondes dans son micro de revers pour déclarer l'accord de commerce de services « examiné ». Le lendemain soir, deux cents étudiants escaladent les grilles du Parlement et installent une diffusion en direct vingt-quatre heures sur vingt-quatre via une tablette, court-circuitant toutes les chaînes de télévision. Vingt-quatre jours plus tard, les étudiants se retirent. L'accord n'est pas rejeté — il est abandonné par l'Histoire. Les chiffres parlent d'eux-mêmes : la dépendance commerciale de Taïwan envers la Chine est passée de 42 % à 31,5 %. Ils ont gagné une guerre qu'ils ne savaient pas mener.
@@ -164,6 +164,7 @@ Ces trente secondes, Chang Ching-chung ne s'imaginait sans doute pas qu'il étai
 - Les crises du détroit de Taïwan et l'évolution des relations entre les deux rives — Le contexte géopolitique plus large de la controverse sur l'accord de commerce de services
 - [Ma Ying-jeou](/people/馬英九) — Le président qui a présidé au passage en force de l'accord de commerce de services en trente secondes, ordonné la dispersion de l'Assemblée exécutive au petit matin du 24 mars, et dont le retrait du 10 avril correspond à cette période de décisions présidentielles
 - [Zashare](/society/雜學校) — Autre prolongement, hors système, de l'énergie post-318 : un cas taïwanais qui traduit la révolte de la rue en festival éducatif
+- Le Festival de la vie complexe — la quatrième sortie de l'« essaimage hors des passes » du 318 : pas d'élections, pas de code, pas de recrutement, juste réunir chaque année deux à trois cents jeunes de la génération bas salaires en quête de sens dans un « forum des non-arrivés »
 - [Taïwan et l'Eswatini](/society/台灣與史瓦帝尼) — Dix ans après le 318, la rhétorique extérieure pendant la phase de consolidation diplomatique du président Lai Ching-te à l'Eswatini : la scène concrète de ces quatre mots « État souverain »
 - [Aaron Nieh](/people/聶永真) — Le designer aux commandes de la pleine page du _New York Times_ « Democracy at 4am » du printemps 2014 : comment un mouvement étudiant entre dans le champ de vision international, vu par la face design
 

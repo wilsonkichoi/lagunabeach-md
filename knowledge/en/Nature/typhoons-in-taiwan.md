@@ -24,11 +24,20 @@ readingTime: '13'
 lastVerified: '2026-05-09'
 lastHumanReview: 'false'
 featured: 'false'
+sporeLinks:
+  - id: 115
+    platform: 'threads'
+    date: '2026-06-03'
+    url: 'https://www.threads.com/@taiwandotmd/post/DZHUHpQk02w'
+  - id: 116
+    platform: 'x'
+    date: '2026-06-03'
+    url: 'https://x.com/taiwandotmd/status/2062065024613679469'
 translatedFrom: 'Nature/颱風.md'
-sourceCommitSha: '4407f0af6'
-sourceContentHash: 'sha256:b25ee135b9bea711'
-sourceBodyHash: 'sha256:c5aa7038d81fc4d3'
-translatedAt: '2026-06-03T21:58:47+08:00'
+sourceCommitSha: 'dd39065b'
+sourceContentHash: 'sha256:fb28c7a415f87d9c'
+sourceBodyHash: 'sha256:c57123f891fb2cee'
+translatedAt: '2026-06-10T16:43:34Z'
 ---
 
 # Can Forecast Wind and Rain, but Not Fate: Four Hundred Years of Taiwan and Typhoons
@@ -61,7 +70,7 @@ During the Qing dynasty's Tongzhi era, around 1865, the British hung colored win
 
 One hundred and sixty years earlier, in Penghu in 1705, official Sun Yuan-heng personally witnessed a hurricane. He wrote the 85-line "Song of the Hurricane": "Autumn wind rose overnight in a mad gale; the hurricane mother came west, haughty in rage."[^35] Three centuries later, before each typhoon arrives, his lines still get reread somewhere in a Facebook post.
 
-Jump forward to July 31, 1996. Typhoon Herb struck Taiwan, and Alishan received 1,094.5 millimeters of rain in a single day. That is equivalent to Taipei City's "annual" rainfall pouring down in one day.[^5] It was the first such event since the weather station was established in 1933. Years later, one PTT user recalled: "Typhoon Herb directly flooded my first-floor home." Another said: "Most of the fish ponds and farmland my father had worked for all his life were carried away."[^5] Herb was called "the 921 earthquake of typhoons," with total losses of about NT$25 billion to NT$30 billion.
+Jump forward to July 31, 1996. Typhoon Herb struck Taiwan, and Alishan received 1,094.5 millimeters of rain in a single day — equivalent to nearly half a year of Taipei City's rainfall pouring down in one day.[^5] It was the first such event since the weather station was established in 1933. Years later, one PTT user recalled: "Typhoon Herb directly flooded my first-floor home." Another said: "Most of the fish ponds and farmland my father had worked for all his life were carried away."[^5] Herb was called "the 921 earthquake of typhoons," with total losses of about NT$25 billion to NT$30 billion.
 
 Five years later, in September 2001, Typhoon Nari stalled over Taiwan for 49 hours along an eerie track. Taipei weather station recorded 425 millimeters of rainfall in one day, the station's highest figure in 105 years.[^2] The entire Bannan Line of Taipei Metro stopped running, and 16 stations and depots were completely flooded. Hu Tsung-li, a former Bannan Line section chief, escaped with keys and several hundred thousand dollars in working cash; overnight, all 12 stations under his management were submerged. Residents of Bishan Village in Neihu had spent a year promoting resource recycling; when the storm disaster arrived, 150,000 tons of garbage completely paralyzed the entire recycling system.[^2]
 
@@ -105,13 +114,13 @@ _On August 9, 2009, in Minxiong, Chiayi, Morakot moved slowly, and days of torre
 
 "Fewer but stronger" overturns the old logic of disaster prevention. In the past, resources were allocated on the assumption that "several will come every year." The new premise is: "The whole summer may be quiet, but when that one comes, we have to withstand an entire year's worth of destruction." One typhoon becomes an annual extreme event.
 
-## The People Who Chase Wind: Taiwan Returning from the Eye of the Typhoon
+## The People Who Chase Wind: Taiwan Dropping Sondes at 40,000 Feet Above the Typhoon
 
 Human tools for facing typhoons have evolved from colored flags in 1865 to AI in 2025. Along this trajectory stands a National Taiwan University professor named Chun-Chieh Wu.
 
-Beginning in 2002, he led "Dropwindsonde Observations for Typhoon Surveillance near the Taiwan Region" (DOTSTAR), commonly called the typhoon-chasing project, Asia's first large-scale typhoon research program. On September 1, 2003, with Typhoon Dujuan, the team formally chased a typhoon for the first time. By the end of 2012, they had completed observation missions for 49 typhoons across 64 flights, released 1,051 dropwindsondes, and logged 334 flight hours. These first-hand data reduced the average error in 24- to 72-hour typhoon-track forecasts by 20%.[^9]
+Beginning in 2002, he led "Dropwindsonde Observations for Typhoon Surveillance near the Taiwan Region" (DOTSTAR), commonly called the typhoon-chasing project, Asia's first large-scale typhoon research program. The team flies an Astra SPX twin-engine jet up to 43,000 feet and releases dropwindsondes from above the typhoon, circling its outer edge to collect critical atmospheric data around the eyewall (a different playbook from the U.S. Hurricane Hunters, who use propeller aircraft to fly straight through the eyewall). On September 1, 2003, with Typhoon Dujuan, the team formally chased a typhoon for the first time. By the end of 2012, they had completed observation missions for 49 typhoons across 64 flights, released 1,051 dropwindsondes, and logged 334 flight hours. These first-hand data reduced the average error in 24- to 72-hour typhoon-track forecasts by 20%.[^9]
 
-Chun-Chieh Wu described, in the first person, how it felt to be inside a typhoon's eye:
+Chun-Chieh Wu described, in the first person, how it felt as a child in Taitung to greet a typhoon eye passing overhead from the ground (not from a plane):
 
 > "I grew up in Taitung, and I have chased them. You first feel the northerly wind, because a typhoon rotates counterclockwise, and then suddenly there is no wind. That means you are inside the typhoon eye. Several dozen minutes later, a southerly wind begins to blow. That means the eye has already passed over you."
 

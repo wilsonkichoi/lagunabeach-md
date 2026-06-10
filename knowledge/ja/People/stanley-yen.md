@@ -19,7 +19,7 @@ lastVerified: '2026-04-06'
 lastHumanReview: true
 featured: false
 translatedFrom: 'People/嚴長壽.md'
-sourceCommitSha: '5db9f136'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:bf2c8c297d2e1acd'
 sourceBodyHash: 'sha256:c4adf4d38cbc289a'
 translatedAt: '2026-05-01T22:19:01+08:00'

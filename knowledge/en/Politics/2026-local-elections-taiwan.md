@@ -5,6 +5,21 @@ date: 2026-05-27
 author: 'Taiwan.md'
 category: 'Politics'
 subcategory: '2026 選舉專題'
+datasets:
+  - id: '27491'
+    name: 'Number of Eligible Voters'
+    url: 'https://data.gov.tw/dataset/27491'
+    agency: 'Central Election Commission'
+    update_freq: 'Every 4 years'
+    why: 'Population data for the 11,000 seats cited in the article, with historical totals across past elections'
+    verified: 2026-06-10
+  - id: '15035'
+    name: 'District Prosecutors Office Final Judgments on Public Officials Election and Recall Act Violations'
+    url: 'https://data.gov.tw/dataset/15035'
+    agency: 'Department of Statistics, MOJ'
+    update_freq: 'Monthly'
+    why: "Historical judgment results for vote-buying and foreign interference, the two traditional fronts among the four key investigation priorities — quantitative view of prosecutors' enforcement intensity"
+    verified: 2026-06-10
 tags:
   [
     '2026選舉',
@@ -19,11 +34,11 @@ readingTime: 16
 lastVerified: 2026-05-27
 lastHumanReview: false
 featured: true
-translatedFrom: Politics/2026 九合一選舉.md
-sourceCommitSha: e957cf7f1
-sourceContentHash: sha256:bbf5a4ef25418f82
-sourceBodyHash: sha256:411e53aa2fba684f
-translatedAt: 2026-05-28T05:08:33+08:00
+translatedFrom: 'Politics/2026 九合一選舉.md'
+sourceCommitSha: '7678a430'
+sourceContentHash: 'sha256:f2f73e655df4bef5'
+sourceBodyHash: 'sha256:b17fcd6aed7e9299'
+translatedAt: '2026-06-10T16:43:34Z'
 ---
 
 On November 28, 2026, at 8:00 AM sharp on a Saturday.
@@ -328,6 +343,13 @@ Taiwan.md's position in this stress test: curation at the institutional layer, h
 ---
 
 _v1.0 | 2026-05-27 | Born from the ARTICLE-INBOX 🗳️ 2026 Election Series anchor article mission. Provides the curatorial general chapter narrative for the [Politics Hub](/politics) beyond the /elections/2026/ dynamic page._
+
+## Open Data
+
+The government open data below lets you verify or rebut the claims in this article. Links point to persistent pages on [data.gov.tw](https://data.gov.tw/); readers working with AI can also query the same datasets through Taiwan's open data MCP gateway, [Twinkle Hub](https://hub.twinkleai.tw/).
+
+- [Number of Eligible Voters](https://data.gov.tw/dataset/27491) (Central Election Commission, updated every four years) — The 11,000 seats the article mentions are filled by how many eligible voters; the population statistics across past elections are here
+- [District Prosecutors Office Final Judgments on Election and Recall Act Violations](https://data.gov.tw/dataset/15035) (Department of Statistics, MOJ, updated monthly) — Historical judgment results for vote-buying and foreign interference, the two traditional battlefields among the four key investigation priorities cited in the article — the quantitative view of prosecutors' enforcement intensity
 
 ## References
 

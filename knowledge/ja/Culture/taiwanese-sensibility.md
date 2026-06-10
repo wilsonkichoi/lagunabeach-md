@@ -21,7 +21,7 @@ lastVerified: 2026-05-16
 lastHumanReview: true
 featured: true
 translatedFrom: 'Culture/台灣感性.md'
-sourceCommitSha: '85926aa3b'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:413833a72961c88e'
 sourceBodyHash: 'sha256:9858a809538deaaf'
 translatedAt: '2026-06-07T02:26:07+08:00'

@@ -20,10 +20,10 @@ lastVerified: 2026-05-27
 lastHumanReview: false
 featured: true
 translatedFrom: Politics/2026 九合一選舉.md
-sourceCommitSha: e957cf7f1
-sourceContentHash: sha256:bbf5a4ef25418f82
-sourceBodyHash: sha256:411e53aa2fba684f
-translatedAt: 2026-05-28T05:08:34+08:00
+sourceCommitSha: '7678a430'
+sourceContentHash: 'sha256:f2f73e655df4bef5'
+sourceBodyHash: 'sha256:b17fcd6aed7e9299'
+translatedAt: '2026-06-10T16:45:00+00:00'
 ---
 
 El 28 de noviembre de 2026, sábado, a las ocho de la mañana en punto.
@@ -328,6 +328,13 @@ La posición de Taiwan.md en esta prueba de estrés: curación en la capa instit
 ---
 
 _v1.0 | 2026-05-27 | Nacido en ARTICLE-INBOX 🗳️ serie de artículos electorales de 2026, artículo ancla. Proporciona la narrativa curatorial general para el [Hub de Política](/politics), complementando la página dinámica /elections/2026/._
+
+## Datos abiertos
+
+Los siguientes conjuntos de datos abiertos del gobierno permiten verificar —o refutar— los argumentos de este artículo. Los enlaces apuntan a páginas permanentes en [data.gov.tw](https://data.gov.tw/); los lectores que trabajen con IA pueden además consultar el mismo material a través de [Twinkle Hub](https://hub.twinkleai.tw/), la pasarela MCP taiwanesa de datos abiertos.
+
+- [Número de electores](https://data.gov.tw/dataset/27491) (Comisión Electoral Central, actualización cuatrienal) — Esos 11 000 cargos del artículo: por cuántas personas con derecho a voto son elegidos, las estadísticas históricas del padrón electoral están aquí
+- [Número de personas con sentencia firme en causas por infracción de la Ley de Elecciones y Revocación de Cargos Públicos ejecutadas por las fiscalías locales](https://data.gov.tw/dataset/15035) (Departamento de Estadística del Ministerio de Justicia, actualización mensual) — De los cuatro ejes prioritarios de fiscalización del artículo, los resultados judiciales históricos de los dos campos tradicionales —soborno electoral e injerencia desde el exterior—, la cara cuantitativa de la intensidad de la persecución fiscal
 
 ## Referencias
 

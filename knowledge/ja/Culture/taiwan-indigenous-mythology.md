@@ -10,10 +10,10 @@ lastVerified: 2026-04-17
 lastHumanReview: true
 featured: false
 translatedFrom: 'Culture/原住民神話.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:3ad9f28eb81ce704'
-sourceBodyHash: 'sha256:93356a93ce6ebf61'
-translatedAt: '2026-05-01T18:09:43+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:f16fb8d1c36fdd75'
+sourceBodyHash: 'sha256:e09a61ab23c86acd'
+translatedAt: '2026-06-10T16:57:09Z'
 ---
 
 > **30秒でわかる概要：** 台湾という島は、地理的な多様性を誇るだけでなく、文化神話の宝庫でもあります。タイヤル族の裂石創生から、ブヌン族の射日伝説、さらにアミ族の大洪水と兄妹婚に至るまで、これらの口承叙事詩は各々の民族の宇宙観を形作るだけでなく、自然環境との深い関わりと適応の知恵を反映しています。これらの神話は、台湾先住民文化を理解する上で欠かせない鍵となっています。

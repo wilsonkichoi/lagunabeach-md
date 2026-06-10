@@ -19,10 +19,10 @@ lastVerified: '2026-04-29'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Culture/台灣教會公報.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:3439ffa9774025fa'
-sourceBodyHash: 'sha256:2e121ca67feccc95'
-translatedAt: '2026-05-01T22:19:10+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:bbf4eb86e5c8f3f3'
+sourceBodyHash: 'sha256:50280d5b2f21e9e2'
+translatedAt: '2026-06-10T16:58:37+00:00'
 ---
 
 > **Resumen en 30 segundos:** El 12 de junio de 1885 (11.º año del reinado de Guangxu de la dinastía Qing), el misionero de la Iglesia Presbiteriana Británica Thomas Barclay (conocido en chino como 巴克禮) fundó en Tainan el _Taiwan Fucheng Church News_ (Gaceta de la Iglesia de la Prefectura de Taiwán), impreso con caracteres romanos eclesiásticos (Pe̍h-ōe-jī, letras vernáculas), siendo el primer periódico de la historia de Taiwán. Este periódico ha atravesado el periodo de dominio Qing, el periodo de ocupación japonesa y el autoritarismo de posguerra, siendo suspendido dos veces, prohibido por el uso de lenguas maternas y teniendo todo su tiraje confiscado por el Cuartel General de Seguridad de Taiwán, y sigue publicándose hasta hoy. En 2025 cumplió 140 años, siendo la publicación periódica más longeva de Taiwán. Su suplemento abarca desde debates teológicos hasta temas sociales, e incluso desde 2022 publica columnas de opinión sobre la IA generativa.

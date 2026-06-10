@@ -69,7 +69,7 @@ sporeLinks:
     date: '2026-04-14'
     url: 'https://x.com/taiwandotmd/status/2043976162813325344'
 translatedFrom: 'People/李洋.md'
-sourceCommitSha: '5db9f136'
+sourceCommitSha: 'fef3e119'
 sourceContentHash: 'sha256:96f1d5630278a964'
 sourceBodyHash: 'sha256:57937e9b25b2f462'
 translatedAt: '2026-05-01T13:19:11+08:00'

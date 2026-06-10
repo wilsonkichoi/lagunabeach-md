@@ -20,9 +20,10 @@ readingTime: 16
 lastVerified: 2026-04-20
 lastHumanReview: true
 translatedFrom: 'Art/謝德慶.md'
-sourceCommitSha: '5db9f136e'
-sourceContentHash: 'sha256:c2a0b8cd8c56af63'
-translatedAt: '2026-06-09T02:25:29+08:00'
+sourceCommitSha: 'dd39065b'
+sourceContentHash: 'sha256:6c03cf0ef8e01a7d'
+translatedAt: '2026-06-10T16:41:16Z'
+sourceBodyHash: 'sha256:63227fedc7d1144a'
 ---
 
 ## Tehching Hsieh: The Taiwanese Artist Who Lived 14 Years of Illegal Status as a Performance Art Piece

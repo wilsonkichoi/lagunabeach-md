@@ -17,10 +17,10 @@ readingTime: 8
 lastVerified: 2026-04-28
 lastHumanReview: false
 translatedFrom: Culture/伊斯蘭教在台灣.md
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:95c297a5e630bb43'
-sourceBodyHash: 'sha256:dbceb7d9f3f49bcd'
-translatedAt: 2026-05-01T22:19:10+08:00
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:4018ce6791ff917b'
+sourceBodyHash: 'sha256:bd3400d2929f24fe'
+translatedAt: '2026-06-10T16:58:37+00:00'
 ---
 
 > **Panorama en 30 segundos:** El islam en Taiwán no es una cultura foránea, sino una memoria antigua grabada en la sangre de la isla. Desde los descendientes de los «Hui Ding» de Quanzhou que llegaron con Koxinga a finales de la dinastía Ming y principios de la Qing, hasta los 260 000 trabajadores migrantes musulmanes indonesios que hoy sostienen los cuidados a largo plazo y la industria pesquera de Taiwán, esta fe ha recorrido en la isla un viaje fantástico: de la asimilación y desaparición a la floración pluralista.

@@ -31,10 +31,10 @@ sporeLinks:
     date: '2026-04-13'
     url: 'https://x.com/taiwandotmd/status/2043538858886017091'
 translatedFrom: 'People/韓國瑜.md'
-sourceCommitSha: '86db85f3'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:43806fa3b9658513'
 sourceBodyHash: 'sha256:fe00573219684528'
-translatedAt: '2026-05-26T21:07:27Z'
+translatedAt: '2026-06-10T16:45:00+00:00'
 ---
 
 # Han Kuo-yu

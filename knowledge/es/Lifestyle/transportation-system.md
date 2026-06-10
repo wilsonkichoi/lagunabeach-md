@@ -22,10 +22,10 @@ featured: true
 lastVerified: 2026-04-26
 lastHumanReview: true
 translatedFrom: Lifestyle/台灣交通系統.md
-sourceCommitSha: 'f99a9959'
-sourceContentHash: 'sha256:9836460c1aa1a78f'
-sourceBodyHash: 'sha256:c2b8a86142503325'
-translatedAt: 2026-05-01T20:54:23+08:00
+sourceCommitSha: '7678a430'
+sourceContentHash: 'sha256:f05e6146f7a532ed'
+sourceBodyHash: 'sha256:9a046555ce3577ad'
+translatedAt: '2026-06-10T16:45:00+00:00'
 category: Lifestyle
 ---
 
@@ -154,6 +154,13 @@ La historia del transporte marítimo es más dramática. Entre las décadas de 1
 - [La cultura de la motocicleta en Taiwán](/lifestyle/台灣機車文化) — Detrás de los 14 millones de motocicletas: diseño urbano, política de clases y guerra por el derecho de vía
 - [El desarrollo de la cadena de suministro de vehículos eléctricos en Taiwán](/technology/台灣電動車產業鏈發展) — Más allá de Gogoro: el papel de Taiwán en la cadena global de suministro de vehículos eléctricos
 - [Características geográficas y formación de la isla de Taiwán](/geography/台灣島嶼地理特色與形成) — El origen geológico de placas de la Cordillera Central y la división este-oeste
+
+## Datos abiertos
+
+Los siguientes conjuntos de datos abiertos del gobierno permiten verificar —o refutar— los argumentos de este artículo. Los enlaces apuntan a páginas permanentes en [data.gov.tw](https://data.gov.tw/); los lectores que trabajen con IA pueden además consultar el mismo material a través de [Twinkle Hub](https://hub.twinkleai.tw/), la pasarela MCP taiwanesa de datos abiertos.
+
+- [Estadísticas de registro de vehículos a motor](https://data.gov.tw/dataset/14208) (Dirección de Carreteras del Ministerio de Transporte, actualización mensual) — Los 14 millones de motocicletas y 678 motos por cada 1000 habitantes citados en este artículo: las cifras mensuales de registro están aquí, y permiten dibujar por uno mismo la curva que sigue subiendo
+- [Estadísticas anuales de víctimas en accidentes de tráfico de tipo A1 y A2 en Taoyuan (años 91-114)](https://data.gov.tw/dataset/25932) (Policía Municipal de Taoyuan, actualización anual) — Los "más de 3000 fallecidos en accidentes de tráfico en 2023" del artículo son la cifra nacional; esta es la serie de 24 años de víctimas en una sola ciudad bajo administración municipal directa, la misma curva con resolución local
 
 ## Referencias
 

@@ -18,9 +18,9 @@ lastVerified: 2026-04-30
 lastHumanReview: false
 featured: false
 translatedFrom: Nature/黑冠麻鷺.md
-sourceCommitSha: a637afed9
-sourceContentHash: sha256:105878c02485b2e2
-sourceBodyHash: sha256:4ff81a4c7e98c835
+sourceCommitSha: 'dd39065b'
+sourceContentHash: 'sha256:105878c02485b2e2'
+sourceBodyHash: 'sha256:4ff81a4c7e98c835'
 translatedAt: 2026-06-07T02:26:08+08:00
 ---
 

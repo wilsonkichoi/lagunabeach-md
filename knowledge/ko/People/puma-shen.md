@@ -1,336 +1,338 @@
 ---
-title: "Shen Pei-yang: He Studied China's Cognitive Warfare, Then China Put Him on Satellite Imagery"
-description: "In 2021, Shen Pei-yang co-founded the Black Bear Academy with strategic scholar Ho Cheng-hui; Tsai Hsing-cheng donated NT$600 million in support, with the goal of training 3 million civilian defense volunteers within three years. In February 2024, he entered the legislature as a Democratic Progressive Party (DPP) proportional representation legislator. On October 28, 2025, he became the first elected Taiwanese political figure to be investigated by China under the 'crime of splitting the country,' with CCTV airing a 'deep dive' special warning 'the next one is you.' On New Year's Day 2026, a Chinese Weibo account used commercial satellite imagery to publish the coordinates of his home and workplace in Taipei; he spent Valentine's Day on a flight to France."
-date: 2026-04-27
+title: '선보양: 그는 중국의 인지전을 연구했고, 훗날 중국은 그를 위성지도 위에 표시했다'
+description: '2021년 선보양은 전략학자 허청후이와 함께 헤이슝학원을 공동 설립했고, 차오싱청이 6억 대만달러를 기부해 지원했으며, 목표는 3년 안에 민방위 지원자 300만 명을 훈련하는 것이었다. 2024년 2월에는 민주진보당 비례대표 입법위원 신분으로 국회에 입성했다. 2025년 10월 28일 그는 중국이 “국가분열죄”로 입건 수사한 첫 타이완 민선 정치인이 되었고, CCTV는 “신상 폭로” 특집을 붙여 “다음은 바로 당신”이라고 경고했다. 2026년 새해 첫날 중국 웨이보 계정은 상업용 위성으로 그가 타이베이에 둔 주거지와 근무지의 좌표를 공개했고, 그는 밸런타인데이를 프랑스로 향하는 비행기 안에서 보냈다.'
+date: '2026-04-27'
+author: 'Taiwan.md Contributors'
+category: 'People'
+subcategory: '政治人物'
 tags:
   [
-    'Cognitive Warfare',
-    'Black Bear Academy',
-    'Legislator',
-    "China's United Front Work against Taiwan",
+    '인지작전',
+    '헤이슝학원',
+    '입법위원',
+    '중국의 대타이완 통일전선 공작',
     'Doublethink Lab',
-    'Transnational Repression',
-    'Democratic Defense',
+    '초국경 탄압',
+    '민주주의 방위',
   ]
-subcategory: 'Political Figures'
-author: 'Taiwan.md'
-category: 'People'
 readingTime: 17
-lastVerified: 2026-04-28
+lastVerified: '2026-04-28'
 lastHumanReview: true
+featured: false
 translatedFrom: 'People/沈伯洋.md'
-sourceCommitSha: '45a9a00c'
-sourceContentHash: 'sha256:9e4431c99a19e6d7'
-translatedAt: '2026-06-09T02:33:45+08:00'
+sourceCommitSha: 'dd39065b2'
+sourceContentHash: 'sha256:264471f17f1dd86d'
+sourceBodyHash: 'sha256:ff76539057c18498'
+translatedAt: '2026-06-11T00:44:03+08:00'
 ---
 
-# Shen Pei-yang: He Studied China's Cognitive Warfare, Then China Put Him on Satellite Imagery
+# 선보양: 그는 중국의 인지전을 연구했고, 훗날 중국은 그를 위성지도 위에 표시했다
 
-In the afternoon of a day in the 2010s, a law doctoral student in his thirties followed a prison warden into the Taipei Youth Observation and Protection Center. The floor had just been mopped, and the water marks were not yet dry. The warden stepped over them, and the delegation followed. He stopped and stepped around them. Two youths who were mopping the floor looked up and bowed to him, saying softly, "Thank you."[^1]
+2010년대 어느 오후, 서른 초반의 법학 박사과정생 한 사람이 교도소장을 따라 타이베이 소년관호소로 들어갔다. 바닥은 막 닦은 뒤라 물자국이 아직 마르지 않았다. 교도소장이 그 위를 밟고 지나갔고, 참관단도 뒤따라 밟고 지나갔다. 그는 멈춰 서서 물자국을 돌아갔다. 바닥을 닦고 있던 소년 두 명이 고개를 들어 그에게 허리를 숙이고 작은 목소리로 “고맙습니다”라고 말했다.[^1]
 
-That evening when he returned home, he wrote a question in his notebook: "Why do our attitudes toward people vary so greatly in different places?"[^1] This question later led him from criminal law to criminology, from academia to civilian defense, from researching China's cognitive warfare to being investigated by Chinese public security organs, warned by CCTV that "the next one is you," and having his home coordinates in Taipei published by a Chinese Weibo account using commercial satellites.
+그날 집에 돌아온 그는 노트에 하나의 질문을 적었다. “왜 우리는 사람을 대하는 태도가 장소에 따라 이렇게 크게 달라질까?”[^1] 이 질문은 훗날 그를 형법에서 범죄학으로, 학문에서 민방위로, 중국의 인지전 연구에서 중국 공안의 입건 수사, CCTV의 “다음은 바로 당신”이라는 경고, 중국 웨이보 계정이 상업용 위성으로 타이베이에 있는 그의 주거지 좌표를 공개하는 사태로 데려갔다.
 
-His name is Shen Pei-yang. Stage name Puma. Born in 1982 in Taipei, he is an Associate Professor and Director of the Institute of Criminology at National Taipei University. He studies the CCP's information warfare against Taiwan, cognitive warfare, and transnational repression. He studied these things for seven years; starting from the eighth year, these things came back to find him.
+그의 이름은 선보양이다. 예명은 푸마, Puma Shen. 1982년 타이베이에서 태어났으며, 국립타이베이대학 범죄학연구소 부교수 겸 소장이다.[^2] 그가 연구하는 것은 중국공산당의 대타이완 정보전, 인지작전, 초국경 탄압이다. 그는 이런 것들을 7년 동안 연구했다. 8년째부터는 그 연구 대상들이 거꾸로 그를 찾아왔다.
 
-> **30-Second Overview:** Shen Pei-yang (born 1982) is an Associate Professor and Director of the Institute of Criminology at National Taipei University. In 2021, he co-founded the [Black Bear Academy](https://kuma-academy.org/) with strategic scholar Ho Cheng-hui; Tsai Hsing-cheng donated NT$600 million in support, with the goal of training 3 million "Black Bear Warriors" within three years.[^3] He was elected as a DPP proportional representation legislator in February 2024.[^4] From October 2024, he was sanctioned six times by China within a year; on October 28, 2025, he became the first elected Taiwanese political figure to be investigated by China under the "crime of splitting the country,"[^5] and on November 9, 2025, CCTV aired a 7.5-minute "deep dive" special warning "the next one is you."[^6] On New Year's Day 2026, a Chinese Weibo account used commercial satellites to publish the coordinates of his home and workplace in Taipei.[^7] He continued to fly to The Hague, Germany, and France; on Valentine's Day 2026, he spent it on a plane heading to France.[^8]
+> **30초 개요:** 선보양(1982년생)은 국립타이베이대학 범죄학연구소 부교수 겸 소장이다. 2021년 전략학자 허청후이와 함께 [헤이슝학원](https://kuma-academy.org/)을 공동 설립했고, 차오싱청이 6억 대만달러를 기부해 지원했으며, 목표는 3년 안에 “헤이슝 용사” 300만 명을 훈련하는 것이었다.[^3] 2024년 2월 민주진보당 비례대표 입법위원으로 당선되었다.[^4] 2024년 10월부터 1년 사이 중국으로부터 여섯 차례 제재를 받았고, 2025년 10월 28일 중국이 “국가분열죄”로 입건 수사한 첫 타이완 민선 정치인이 되었다.[^5] 11월 9일 CCTV는 7분 30초짜리 “신상 폭로” 특집을 내보내며 “다음은 바로 당신”이라고 경고했다.[^6] 2026년 새해 첫날 중국 웨이보 계정은 상업용 위성으로 그가 타이베이에 둔 주거지와 근무지의 좌표를 공개했다.[^7] 그는 계속 헤이그로, 독일로, 프랑스로 날아갔고, 2026년 밸런타인데이를 프랑스로 향하는 비행기 안에서 보냈다.[^8]
 
-## "Do Not Interrupt or Refute When the Teacher Is Speaking"
+## “선생님이 말할 때 끼어들거나 반박하지 말 것”
 
-On Shen Pei-yang's elementary school contact book, a teacher wrote: "**Do not interrupt or refute when the teacher is speaking. Benyang is not bad by nature, but occasionally loses control and is arrogant.**" His mother replied behind it: "**His attitude is indeed terrible and arrogant.** In middle school, he gave the middle finger to a teacher.[^1] At age 37, when interviewed by Mirror Media, he still had an afro, wore a T-shirt and shorts. His favorite character was Yang Guo—'**Complete rebellion, I like this style the most.**'[^1]
+선보양의 초등학교 연락장에 교사는 이런 문장을 적은 적이 있다. “**선생님이 말할 때 끼어들거나 반박하지 말 것. 보양은 본성이 나쁘지는 않지만 가끔 통제력을 잃고, 안하무인이다**.” 어머니는 그 뒤에 “**그는 확실히 태도가 나쁘고 안하무인이다**”라고 답했다. 중학교 때 그는 교사에게 가운데손가락을 보인 적도 있다.[^1] 서른일곱 살에 《미러 미디어》 인터뷰를 받던 해에도 그는 여전히 파마머리에 티셔츠, 반바지 차림이었다. 그가 좋아하는 인물은 양궈였다. “**완전한 반항, 나는 그런 모습이 가장 좋다**.”[^1]
 
-He attended Fuxing Kindergarten, Fuxing Elementary School, and Fuxing Middle School, graduating from Fuxing High School before entering the Department of Law at National Taiwan University.[^9] In middle school, he already perceived the existence of class: "**Fuxing students discussed newly opened Japanese restaurants, while Fuxing High School students ate pork rib bento boxes; they ate brown sugar ice, which is white ice with only sugar water added.**"[^1] In college, he began his tutoring life under the stage name "Puma" because it was easier to remember.[^10] This stage name followed him for twenty years—from the tutoring industry, academia, think tanks, to the Legislative Yuan. All his official social media accounts now use [@pumashen](https://www.threads.com/@pumashen).[^11]
+그는 푸싱유치원, 푸싱초등학교, 푸싱중학교를 거쳐 젠궈고등학교를 졸업한 뒤 타이완대학 법학과에 입학했다.[^9] 중학생 때 이미 계급의 존재를 감지했다. “푸싱 친구들은 새로 문을 연 일본요리집을 이야기했고, 젠궈 친구들은 돼지갈비 도시락을 먹었다. 그들은 흑당 얼음을 먹었는데, 설탕물만 넣은 흰 얼음을 주문했다.”[^1] 대학 때부터 입시학원 강의를 시작했고, 더 기억하기 쉽다는 이유로 “푸마”(Puma)라는 예명을 썼다.[^10] 이 예명은 이후 20년 동안 그를 따라다녔다. 입시학원 업계, 학계, 싱크탱크를 거쳐 입법원까지 이어졌다. 지금 그의 모든 공식 소셜미디어 계정은 [@pumashen](https://www.threads.com/@pumashen)을 쓴다.[^11]
 
-What turned him from a "lawyer who teaches criminal law" to a criminologist were two scenes.
+그를 “형법을 가르치던 법률가”에서 범죄학자로 돌려세운 것은 두 장면이었다.
 
-The first scene was his senior's supermarket case. His senior's client was a large supermarket operator suing a fruit farmer. "**The farmer was scared, agreed to settle, but the amount was high; basically, a family was ruined.**" His senior said to Shen Pei-yang, "**The law is just written this way; who told him to break the law.**"[^1] Shen Pei-yang wrote: "**After studying law for a long time, you really might become someone you originally didn't want to be.**"[^1]
+첫 번째 장면은 선배가 맡은 대형 할인점 사건이었다. 선배의 의뢰인은 대형 할인업자였고, 한 과일 농민을 고소했다. “과일 농민은 겁을 먹고 합의에 응했지만, 금액이 매우 컸다. 사실상 한 가정이 무너지는 수준이었다.” 선배는 선보양에게 말했다. “법이 그렇게 규정하고 있는데, 누가 그 사람더러 위법하라고 했나.”[^1] 선보양은 이렇게 적었다. “**법을 오래 공부하다 보면, 정말 자신이 원래 되고 싶지 않았던 사람이 될 수 있다**.”[^1]
 
-The second scene was the youth observation center mopping incident. The youths bowed to him, and he couldn't help but think: the same youths are those being chased outside, and those being sympathized with here; what scale you use to look at a person determines what you do to them.
+두 번째 장면은 바로 소년관호소에서 바닥을 닦던 그날이었다. 소년들이 그에게 허리를 숙였고, 그는 생각하지 않을 수 없었다. 같은 청소년도 밖에서는 쫓기는 사람이 되고, 이곳에서는 동정받는 사람이 된다. 한 사람을 어떤 척도로 보느냐가 우리가 그에게 무엇을 할지를 결정한다.
 
-> **📝 Curator's Note**
-> A scholar who later studied state violence, his academic intuition about "how people are treated" started with the bow of two mopping youths. More than ten years later, he was investigated by the CCP, featured in a fake documentary by CCTV, yet he never wrote himself as a victim. This sense of proportion likely started from that day at the youth observation center.
+> **📝 큐레이터 노트**
+> 훗날 국가폭력을 연구하게 된 한 학자의 “사람이 어떻게 대우받는가”에 관한 학문적 직관은 바닥을 닦던 두 소년의 인사에서 시작되었다. 10여 년 뒤 중국공산당에 의해 입건 수사를 당하고 CCTV의 가짜 다큐멘터리에 등장했을 때도 그는 끝내 자신을 victim으로 쓰지 않았다. 이 거리감은 아마 소년관호소의 그날부터 시작되었을 가능성이 크다.
 
-## Puma and Two Choices to Leave the US
+## 푸마와 두 차례 미국을 떠나는 선택
 
-Shen Pei-yang's academic timeline is as simple as a boarding pass stub. NTU Law LL.B. (2004), University of Pennsylvania Law LL.M. (2007), NTU Criminal Law LL.M. (2008), University of California, Irvine (UCI) PhD in Criminology, Law, and Society (2017). His doctoral thesis advisors were two heavyweight scholars in white-collar crime research, Henry Pontell and Elliott Currie.[^12]
+선보양의 학력 순서는 항공권 반쪽처럼 단순하다. 타이완대학 법학 LL.B.(2004), 펜실베이니아대학 법학 LL.M.(2007), 타이완대학 형법 LL.M.(2008), 캘리포니아대학 어바인 캠퍼스(UC Irvine) 범죄·법·사회학 PhD(2017). 박사논문 지도교수는 화이트칼라 범죄 연구의 중량급 학자 두 명, Henry Pontell과 Elliott Currie였다.[^12]
 
-During those five years in Irvine, he lived in a city with the "best public security in the US"—"**Streets all look the same, confusing thieves, doors don't need locks.**"[^1] When he graduated in 2017, he received offers for tenured positions from US universities such as North Carolina State University.[^13] His five thesis advisors advised him to return to Taiwan: "**You care so much about Taiwan, why not go back.**"[^1]
+그는 어바인에서 보낸 5년 동안 “전미 치안 1위” 도시에서 살았다. “거리가 모두 똑같이 생겨 도둑을 혼란스럽게 하고, 문도 잠글 필요가 없다.”[^1] 2017년 졸업할 때 그는 노스캐롤라이나주립대학 등 미국 학교들로부터 종신교수직 제안을 받았다.[^13] 그의 구술시험 교수 다섯 명은 타이완으로 돌아가라고 권했다. “그렇게 타이완을 걱정한다면 왜 돌아가지 않나.”[^1]
 
-His explanation for choosing to return to Taiwan was short: "**The air is bad anyway; I've been polluted since childhood, and I've eaten plasticizers. It's just my own home.**"[^1]
+그 자신이 타이완 복귀 선택을 설명한 말은 짧았다. “**공기가 나빠도 어차피 어릴 때부터 오염 속에서 컸고, 플라스틱 가소제도 이미 다 먹었다. 내 집이니까**.”[^1]
 
-He returned to Taipei in 2017, joining the Institute of Criminology at National Taipei University as an assistant professor. In August 2023, he succeeded to the position of director.[^2] The university page lists his research areas as criminal law, sociology of law, criminal policy, and white-collar crime.[^2] His doctoral training was actually not purely in a law school—UCI placed his training in the "**School of Social Ecology**," spanning criminology, urban planning, public policy, and environmental psychology.[^14] This training later determined the angle of his research on China's cognitive warfare—not cutting from legal provisions, but from "how people are influenced in the environment."
+그는 2017년 타이베이로 돌아와 국립타이베이대학 범죄학연구소 조교수로 부임했다. 2023년 8월 소장을 맡았다.[^2] 학교 페이지에 기록된 그의 연구 분야는 형법, 법사회학, 형사정책, 화이트칼라 범죄다.[^2] 그의 박사 훈련은 사실 순수 법학대학원이 아니었다. 캘리포니아대학 어바인 캠퍼스는 그를 “**사회생태학부**”(School of Social Ecology)에서 훈련시켰다. 범죄학, 도시계획, 공공정책, 환경심리학을 가로지르는 곳이었다.[^14] 이 훈련은 훗날 그가 중국공산당 인지전을 연구하는 관점을 결정했다. 법조문에서 자르는 것이 아니라, “사람이 환경 속에서 어떻게 영향을 받는가”에서 자르는 방식이었다.
 
-Two years later, he began to point this perspective in another direction.
+2년 뒤, 그는 이 시각을 다른 방향으로 겨누기 시작했다.
 
-## "Beating Taiwan is Worse Than Deceiving Taiwan"
+## “타이완을 치는 것보다 속이는 것이 낫다”
 
-In 2018, Shen Pei-yang began systematically collecting evidence of the CCP's information warfare against Taiwan. He split the CCP's united front work against Taiwan into five lines: Ministry of State Security, United Front Work Department, Taiwan Affairs Office, People's Liberation Army, and Communist Youth League.[^15] Each line has its own budget, tools, and rhythm. This analytical framework later became the standard language for understanding cognitive warfare in Taiwan.
+2018년 선보양은 중국공산당의 대타이완 정보전에 관한 증거를 체계적으로 수집하기 시작했다. 그는 중국공산당의 대타이완 통일전선 공작을 다섯 노선으로 나누었다. 국가안전부, 중앙통일전선공작부, 중앙타이완판공실, 인민해방군, 공산주의청년단이다.[^15] 각 노선에는 저마다의 예산, 도구, 리듬이 있다. 이 분석틀은 훗날 타이완 민간사회가 인지전을 이해하는 표준 언어가 되었다.
 
-In 2019, he co-founded the [Taiwan Democracy Lab](https://doublethinklab.org/) (Doublethink Lab) with civilian researchers and served as its chairman.[^16] On April 25, 2022, they released the [China Index](https://china-index.io/)—a "China Influence Index" covering over 80 countries, nine dimensions (media, arts, economy, society and culture, military, law enforcement, technology, politics, diplomatic affairs) totaling 99 indicators.[^17] This index remains one of the most frequently cited databases of the CCP's external influence in international political and media circles. Shen Pei-yang himself later used this data as a basis to testify before the [US-China Economic and Security Review Commission (USCC)](https://www.uscc.gov/sites/default/files/2023-03/Puma_Shen_Testimony.pdf) in 2023.[^18]
+2019년 그는 민간 연구자들과 함께 [타이완 민주실험실](https://doublethinklab.org/)(Doublethink Lab)을 창립하고 이사장을 맡았다.[^16] 2022년 4월 25일, 이들은 [China Index](https://china-index.io/)를 발표했다. 80여 개국을 포괄하고, 9대 차원(미디어, 예술, 경제, 사회와 문화, 군사, 법집행, 기술, 정치, 외교사무)에 걸친 99개 지표로 구성한 “중국 영향력 지수”였다.[^17] 이 지수는 지금도 국제 정치권과 언론계가 가장 자주 인용하는 중국공산당 대외 영향력 데이터베이스 가운데 하나다. 선보양 본인도 훗날 이 자료를 바탕으로 2023년 미국 의회가 위임한 [미중경제안보검토위원회](https://www.uscc.gov/sites/default/files/2023-03/Puma_Shen_Testimony.pdf)(USCC)에서 증언했다.[^18]
 
-In July 2024, Shen Pei-yang and Doublethink Lab researcher Wu Ming-hsuan co-published _Beating Taiwan is Worse Than Deceiving Taiwan: Q&A on China's Cognitive Warfare Against Taiwan_ (Locus Publishing). The title itself is the argument. To the CCP, using force is too expensive; deceiving Taiwanese people into not voting or voting wrong is too cheap.[^19] This book was repeatedly cited in the political sections of CNA, United Daily News, and Liberty Times. "Beating Taiwan is worse than deceiving Taiwan" became the abbreviation for describing the CCP's strategy against Taiwan.
+2024년 7월 선보양은 타이완 민주실험실 연구원 우밍쉬안과 함께 [《타이완을 치는 것보다 타이완을 속이는 것이 낫다: 중국의 대타이완 인지작전 Q&A》](https://www.locuspublishing.com/book/detail/10514)(다콰이문화)를 출간했다. 책 제목 자체가 논점이다. 중국공산당 입장에서 무력행사는 너무 비싸고, 타이완인들이 투표하지 않거나 잘못 투표하게 속이는 것은 너무 싸다.[^19] 이 책은 이후 중앙통신사, 연합보, 자유시보 정치면에서 반복적으로 인용되었다. “타이완을 치는 것보다 타이완을 속이는 것이 낫다”는 여덟 글자는 중국공산당의 대타이완 전략을 설명하는 축약어가 되었다.
 
-But writing a book does not lead to a CCP public security investigation. What made him an "enemy" was another matter.
+그러나 책을 쓴다고 중국 공안이 입건하는 것은 아니다. 그를 “적”으로 만든 것은 다른 일이었다.
 
-## 3 Million Black Bear Warriors
+## 300만 헤이슝 용사
 
-At the end of 2021, Shen Pei-yang co-founded the [Black Bear Academy](https://kuma-academy.org/) (Kuma Academy) with Ho Cheng-hui, a researcher at the Taiwan Strategic Simulation Society.[^20] The academy's goal is "national defense education for all"—teaching civilian defense, cybersecurity, anti-fraud, AED/CPR,止血 bandaging, and emergency evacuation to every Taiwanese willing to learn.[^21]
+2021년 말, 선보양은 타이완전략시뮬레이션학회 연구원 허청후이와 함께 [헤이슝학원](https://kuma-academy.org/)(Kuma Academy)을 공동 설립했다.[^20] 학원의 목표는 “전민 국방교육”이었다. 민방위, 정보보안, 사기 방지, AED/CPR, 지혈과 붕대법, 대피 대응처럼 원래 군인이나 전문 구조요원만 알던 것들을 배우려는 모든 타이완인에게 가르치는 것이었다.[^21]
 
-On September 1, 2022, Tsai Hsing-cheng, former chairman of United Microelectronics Corporation (UMC), who had left the Chinese market due to his advocacy for Taiwan's sovereignty, held a press conference announcing a donation of NT$600 million to the Black Bear Academy, part of his larger anti-CCP pro-Taiwan donation plan.[^22] Shen Pei-yang said at the press conference: "**We hope every household has a 'Black Bear Warrior' with relevant knowledge to protect family safety in critical moments.**"[^23] The Black Bear Academy's goal was set: **Train 3 million "Black Bear Warriors" within three years**.[^24]
+2022년 9월 1일, 타이완 주권 수호 주장을 내세우며 중국 시장을 떠난 직후의 유나이티드마이크로일렉트로닉스 전 회장 차오싱청은 기자회견을 열고, 더 큰 규모의 반공·보타이완 기부 계획의 일부로 헤이슝학원에 6억 대만달러를 기부하겠다고 발표했다.[^22] 선보양은 기자회견에서 말했다. “위기의 순간 가족의 안전을 지킬 수 있는 관련 지식을 갖춘 ‘헤이슝 용사’가 집집마다 한 명씩 있기를 기대한다.”[^23] 헤이슝학원의 목표는 이렇게 정해졌다. **3년 안에 “헤이슝 용사” 300만 명을 훈련한다**.[^24]
 
-What does 3 million mean? Taiwan's population is about 23 million; excluding children, elderly, and those with mobility issues, 3 million is approximately one-fifth of the adult population. Tsai Hsing-cheng's NT$600 million was executed in phased disbursements—this money was designed to be audited, not just a pretty press conference number.[^25]
+300만은 어떤 규모인가? 타이완 인구는 약 2,300만 명이다. 어린이, 노인, 거동이 불편한 사람을 제외하면 300만 명은 성인 인구의 약 5분의 1이다. 차오싱청의 6억 대만달러는 단계별 집행 방식으로 지급된다. 이 돈의 설계는 검증받아야 하는 공학이지, 보기 좋은 기자회견 숫자가 아니었다.[^25]
 
-In September 2022, the Black Bear Academy's first basic camp opened for registration and quickly filled up.[^26] Courses included: fire fighting, search and rescue, first aid, evacuation, ICT security, information identification, and public order maintenance, plus AED/CPR, injury assessment, and止血 bandaging.[^27] The outdoor training "Blue Magpie Operation" was held regularly, simulating the evacuation and first aid of non-combatants during wartime.[^28]
+2022년 9월 헤이슝학원의 첫 기초캠프가 신청을 받자 빠르게 정원이 찼다.[^26] 과정은 소방, 수색구조, 구호, 대피, 정보통신 보안, 정보 식별, 치안 유지에 더해 AED/CPR, 부상 평가, 지혈과 붕대법을 포함했다.[^27] 야외 훈련 “란췌 행동”은 정기적으로 열렸고, 전시 비전투원의 대피와 구호를 모의했다.[^28]
 
-It is worth noting that Shen Pei-yang himself is not the legal representative of the Black Bear Academy. He wrote in a 2024 X post: "**I wish I could be (Black Bear Academy) responsible person, but the problem is regulations and DPP internal rules mean I and my family cannot be responsible persons.**"[^29] His role as Deputy Executive Director of the DPP think tank and later as a legislator forced him to maintain a legal distance from the NGO he co-founded.
+주목할 점은 선보양 본인이 헤이슝학원의 법인 대표가 아니라는 사실이다. 그는 2024년 X 게시물에 이렇게 썼다. “나는 (헤이슝학원) 책임자를 맡고 싶어 죽겠지만, 문제는 법규와 민주진보당 내부 규범상 나와 가족은 책임자를 맡을 수 없다는 것이다.”[^29] 민주진보당 싱크탱크 부집행장, 그리고 훗날 입법위원이라는 신분 때문에 그는 자신이 설립한 비정부기구와 법적 거리를 유지해야 했다.
 
-> **📝 Curator's Note**
-> A national defense system designed with a criminological framework: one out of every seven adults knows how to save themselves, spot fake news, and止血 when water and electricity are cut. Shen Pei-yang's research describes how the enemy comes; the Black Bear Academy's courses train how to hold on after being attacked. Two things driven by the same person, this symmetry is somewhat coldly abnormal.
+> **📝 큐레이터 노트**
+> 범죄학 틀로 설계한 전민 방위 시스템이다. 성인 일곱 명 중 한 명이 자구 방법을 알고, 허위정보를 간파하며, 단수와 정전 상황에서 지혈할 줄 알게 만드는 일이다. 선보양의 연구는 적이 어떻게 오는지를 설명하고, 헤이슝학원의 과정은 공격을 받은 뒤 어떻게 버티는지를 훈련한다. 같은 사람이 이 두 일을 추진한다. 이 대칭은 비정상적으로 냉정하다.
 
-## The Sixth Time Within a Year
+## 1년 안의 여섯 번째
 
-On November 15, 2023, the DPP announced the 2024 proportional representation legislator list, with Shen Pei-yang ranked second, only after children's rights advocate Lin Yueh-chin.[^30] He was elected on January 13, 2024, and took office on February 1 as the 11th legislator.[^4] He led the DPP caucus in promoting ten national security laws (Cross-Strait Act, Hong Kong/Macau Act, Nationality Law, National Security Law, Communication Security Act, Anti-Infiltration Act, Cybersecurity Act, Criminal Law, Military Criminal Law, National Intelligence Work Law).[^31] Starting in 2025, he served as the Convenor of the Legislative Yuan's Committee on Foreign Affairs and National Defense.[^32]
+2023년 11월 15일, 민주진보당은 2024년 비례대표 입법위원 명단을 발표했고 선보양은 아동권익 옹호자 린웨친 다음인 2순위에 올랐다.[^30] 2024년 1월 13일 당선되었고, 2월 1일 제11대 입법위원으로 취임했다.[^4] 그는 민주진보당 원내교섭단체를 대표해 10개 국가안보 법 개정을 추진했다. 양안조례, 홍콩·마카오조례, 국적법, 국가안전법, 통신보장 및 감찰법, 반침투법, 정보보안법, 형법, 육해공군형법, 국가정보공작법이다.[^31] 2025년부터 그는 입법원 외교 및 국방위원회 소집위원을 맡았다.[^32]
 
-But on October 14 that year, Taiwan Affairs Office spokesperson Chen Bin-hua announced: Shen Pei-yang, Tsai Hsing-cheng, and the Black Bear Academy itself were listed on the "Stubborn Independent Forces" list, prohibiting the individuals and their families from entering mainland China, Hong Kong, and Macau.[^33] Shen Pei-yang was named for the first time.
+그러나 그해 10월 14일, 중국 국무원 타이완사무판공실 대변인 천빈화는 선보양, 차오싱청, 그리고 헤이슝학원 자체를 “완고한 타이완 독립분자” 명단에 올리고 본인과 가족의 중국 대륙, 홍콩, 마카오 입국을 금지한다고 발표했다.[^33] 선보양이 처음으로 지목된 순간이었다.
 
-From that day on, the escalation ladder went up step by step. Shen Pei-yang himself summarized the entire process in one sentence in a Facebook post on October 28, 2025: "**This is the 6th time within a year.**"[^34]
+그날부터 escalation의 계단은 한 칸씩 올라갔다. 선보양은 2025년 10월 28일 페이스북 게시물에서 이 전체 과정을 한 문장으로 묶었다. “**이것은 1년 안의 6번째다**.”[^34]
 
-| Date       | Event                                                                                                                                         |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2024-10-14 | Taiwan Affairs Office lists Shen Pei-yang, Tsai Hsing-cheng, Black Bear Academy on "Stubborn Independent Forces" list[^33]                    |
-| 2025-06-05 | Father Shen Tu-cheng's Zhao Yi Co., Ltd. is sanctioned by the CCP, prohibited from trading with mainland enterprises/individuals[^35]         |
-| 2025-07-16 | Chinese Customs cancels registration of Shen family enterprise Sicuens International Co. Ltd[^36]                                             |
-| 2025-10-28 | Chongqing Public Security Bureau investigates Shen Pei-yang for "suspected crime of splitting the country," providing a reporting hotline[^5] |
-| 2025-11-09 | CCTV News releases 7.5-minute "Deep Dive" Shen Pei-yang special video, warning "Stop it, or the next one is you"[^6][^37]                     |
+| 날짜       | 사건                                                                                                                            |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| 2024-10-14 | 중국 국무원 타이완사무판공실이 선보양, 차오싱청, 헤이슝학원을 “완고한 타이완 독립분자” 명단에 올림[^33]                         |
+| 2025-06-05 | 부친 선투청 산하 자오이유한공사가 중국공산당의 제재를 받아 중국 대륙 기업·개인과의 거래가 금지됨[^35]                           |
+| 2025-07-16 | 중국 해관이 선씨 가문 기업 Sicuens International Co. Ltd 등록을 말소함[^36]                                                     |
+| 2025-10-28 | 충칭시 공안국이 “국가분열죄 혐의”로 선보양을 입건 수사하고 신고 전화를 제공함[^5]                                               |
+| 2025-11-09 | CCTV 뉴스가 7분 30초짜리 “선보양 신상 폭로” 특집 영상을 내보내며 “멈춰라, 그렇지 않으면 다음은 바로 당신”이라고 경고함[^6][^37] |
 
-These six steps were completed in only thirteen months. The legal basis for the Chongqing Public Security Bureau's notice is the Criminal Law plus the CCP's June 2024 _Opinions on Punishing Stubborn Independent Forces for Splitting the Country and Inciting Splitting of the Country According to Law_ (commonly known as the "22 Articles on Punishing Independence").[^38] The police notice also listed a reporting email `CQGACTD@163.com` and phone `023-65697660`, inviting anyone to provide "clues".[^39]
+이 여섯 단계가 끝나는 데 걸린 시간은 13개월뿐이었다. 충칭 공안 통보의 법적 근거는 《형법》과 중국공산당이 2024년 6월 발표한 《완고한 타이완 독립분자의 국가분열 및 국가분열 선동 범죄를 법에 따라 처벌하는 데 관한 의견》(속칭 “징두 22조”)이었다.[^38] 경찰 통보는 신고 이메일 `CQGACTD@163.com`과 전화 `023-65697660`도 적어 누구든 “단서”를 제공하라고 했다.[^39]
 
-On the day of the investigation, Shen Pei-yang responded on Facebook:
+입건 당일 선보양은 페이스북에서 이렇게 답했다.
 
-> "**This is the 6th time within a year, this time directly investigated by public security; the next step is probably wanted, trial in absentia; it doesn't matter, anyway 'Taiwanese people are not afraid.'**"[^34]
+> “이것은 1년 안의 6번째다. 이번에는 공안이 직접 입건 수사까지 했으니, 다음 단계는 아마 지명수배와 궐석재판일 것이다. 상관없다. 어차피 ‘**타이완인들은 겁내지 않는다**’.”[^34]
 >
-> "**Solving the person who raises the problem, solving the person who defends Taiwan, indeed very Communist.**"[^34]
+> “**문제를 제기한 사람을 해결하고, 타이완을 방위하는 사람을 해결한다. 과연 매우 공산당답다**.”[^34]
 
-When his father's company was sanctioned in June 2025, he wrote with the same tone: "**Very honored, sanctioned three times in a year.**"[^40]
+2025년 6월 부친 회사가 제재를 받았을 때도 그는 같은 어조로 썼다. “매우 영광스럽다. 1년에 세 번 제재를 받았다.”[^40]
 
-## CCTV's "Global Capture" Threat
+## CCTV의 “전 세계 체포” 위협
 
-Twelve days after the investigation, on the evening of November 9, 2025, CCTV News Channel aired a special about "Deep Diving Shen Pei-yang" lasting about 7.5 minutes (many Taiwan media wrote 8 minutes). CCTV claimed Shen Pei-yang spread remarks that "China will militarily unify Taiwan" through the Black Bear Academy and trained "violent independent forces," ending with a warning tone: "**Stop it, or the next one is you.**"[^41][^37]
+입건 12일 뒤인 2025년 11월 9일 저녁, 중국중앙텔레비전 뉴스채널은 약 7분 30초 길이(여러 타이완 언론은 8분으로 표기)의 “선보양 신상 폭로” 특집을 방송했다. CCTV는 선보양이 헤이슝학원을 통해 “중국이 곧 무력으로 타이완을 통일할 것”이라는 발언을 퍼뜨리고 “폭력적인 타이완 독립분자”를 훈련했다고 주장했으며, 내레이션은 경고조로 마무리했다. “**멈춰라, 그렇지 않으면 다음은 바로 당신**.”[^41][^37]
 
-The Mainland Affairs Council defined this content as "transnational repression" at its press conference that day—the purpose is not to catch people, but to force Taiwanese society to self-censor before speaking.[^42] Shen Pei-yang also posted on Facebook that night:
+대륙위원회는 당일 기자회견에서 이 내용을 “초국경 탄압”으로 규정했다. 목적은 사람을 체포하는 데 있지 않고, 타이완 사회가 발언하기 전에 자기검열을 하도록 강제하는 데 있다는 것이다.[^42] 선보양도 그날 밤 페이스북에 글을 올렸다.
 
-> "**Don't always do what I predict you will do, okay? **Have some creativity.\*\*"[^43]
+> “내가 매번 당신들이 무엇을 할지 예측할 때마다, 당신들이 그대로 하지 않았으면 좋겠다. **창의성을 좀 가져라**.”[^43]
 >
-> "**China acts faster, wanting to prevent me from leaving the country through a wanted notice. **CCTV did a large piece, a 7.5-minute fake documentary about me, threatening global wanted status.\*\*"[^37]
+> “중국은 더 빨리 움직여 지명수배 방식으로 내가 출국하지 못하게 하려 한다. **CCTV가 큰 비중으로 나에 관한 7분 30초짜리 가짜 다큐멘터리를 만들고, 전 세계 수배를 위협했다**.”[^37]
 >
-> "**Whether I am wanted or not, **Nobody cares, Taiwanese people really don't care about the CCP.\*\*"[^37]
+> “내가 수배되었든 아니든, **Nobody cares, 타이완인들은 정말 중국공산당을 신경 쓰지 않는다**.”[^37]
 
-He also posted a short video, the lens facing a screenshot of CCTV: "**Taiwan and China are **one country on each side**. Don't妄想 using fabricated charges to extend your hands to Taiwan.**"[^44]
+그는 또 짧은 영상을 올렸다. 카메라는 CCTV 화면 캡처를 향하고 있었다. “타이완과 중국은 **일변일국, 한쪽씩 한 나라**다. 날조한 죄명으로 당신들의 손을 타이완까지 뻗으려는 망상은 하지 말라.”[^44]
 
-International reactions gathered within two days. Maya Wang, Deputy Director of Human Rights Watch's Asia Division, issued a statement on October 31, calling the Chongqing Public Security case a Chinese law of transnational abuse of power.[^45] Multiple international human rights organizations supported him simultaneously. The US State Department publicly expressed concern.[^47] Luke de Pulford, co-founder of the [Inter-Parliamentary Alliance on China (IPAC)](https://ipac.global/), posted public support.[^48]
+국제적 반응은 이틀 안에 모였다. Human Rights Watch 아시아 부국장 Maya Wang은 10월 31일 성명에서 충칭 공안의 이 사건을 초국경적으로 남용되는 중국 법률이라고 비판했다.[^45] 여러 국제 인권단체가 동시에 연대 입장을 냈다. 미국 국무부도 공개적으로 우려를 표명했다.[^47] [대중정책 초국가의회연맹](https://ipac.global/)(IPAC) 공동창립자 Luke de Pulford는 공개 글로 지지를 표했다.[^48]
 
-The Legislative Yuan itself moved. On November 19, 2025, the Legislative Yuan's Committee on Foreign Affairs and National Defense (the very committee where Shen Pei-yang served as convenor) passed a condemnation motion proposed by Wang Ting-yu and others. Wang Ting-yu said in his speech: "**Even if opinions differ, everyone has the right to be protected by the state and the constitution. The People's Republic of China has no right to conduct such political actions against anyone on such groundless grounds.**"[^49]
+입법원 자체도 움직였다. 2025년 11월 19일, 입법원 외교 및 국방위원회, 즉 선보양 자신이 소집위원을 맡은 그 위원회는 왕딩위 등이 제안한 규탄안을 통과시켰다. 왕딩위는 발언에서 말했다. “**의견이 다르더라도 똑같이 국가와 헌법의 보호를 받을 권리가 있다**. 중화인민공화국은 이런 터무니없는 이유로 누구에게도 이런 정치적 행동을 할 권리가 없다.”[^49]
 
-China had not yet placed Shen Pei-yang on the official Hong Kong-style _National Security Law_ bounty list; at the same time, the highest bounty of 250,000 RMB was for [YouTuber "Ba Jiong"](/people/八炯) and "Minnan Wolf".[^50] But the combination of "crime of splitting the country" investigation + CCTV "global wanted" threat had already pushed Shen Pei-yang to a close position.
+중국은 사실 아직 선보양을 정식 홍콩판 《국가보안법》 현상수배 명단에 올리지는 않았다. 같은 시기 최고 인민폐 25만 위안의 현상금이 걸린 이는 [YouTuber “바중”](/people/八炯)과 “민난랑”이었다.[^50] 그러나 “국가분열죄” 입건과 CCTV의 “전 세계 수배” 위협이 결합되면서 선보양은 이미 그에 가까운 위치로 밀려났다.
 
-## The Screw at the Doorstep
+## 집 문 앞의 나사
 
-As the CCP escalated, Shen Pei-yang's private life was also being escalated.
+중국공산당의 고조와 동시에 선보양의 사생활도 고조되고 있었다.
 
-In late August 2025, he publicly revealed for the first time on host Cheng Hung-yi's _Talk Era Figures_ program that he was being followed "all the time." The most direct incident occurred at his doorstep: a motorcycle's "screw" was actually a pinhole camera, with the battery hidden under the seat, disguised as a screw. Shen Pei-yang took a photo of the license plate and called the police, but unexpectedly, the motorcycle disappeared within less than an hour; the license plate trace is still a dead end.[^51]
+2025년 8월 말, 그는 진행자 정훙이의 《화시대인물》 프로그램에서 자신이 “하루 종일” 누군가에게 미행당한다고 처음 공개했다. 가장 직접적인 사건은 집 문 앞에서 벌어졌다. 오토바이 한 대의 “나사”가 사실은 핀홀 카메라였고, 배터리는 좌석 아래 숨겨져 있었으며, 겉모습은 나사처럼 위장되어 있었다. 선보양은 번호판을 찍고 경찰에 신고했지만, 한 시간도 지나지 않아 그 오토바이는 사라졌다. 번호판 추적은 지금까지도 막다른 길이다.[^51]
 
-Even harder to digest was the threatening letter. The letter included a photo of Shen Pei-yang and his wife Zeng Hsin-hui, **with a "Death" character written on Zeng Hsin-hui's clothes**, threatening to slit their daughter's throat.[^51] Shen Pei-yang said on the program: "**This is vile, but this is what the Communists would do; we were mentally prepared.**" His wife Zeng Hsin-hui's reaction was anxiety, insomnia, deteriorating health, and social phobia.[^51]
+더 소화하기 어려운 것은 협박편지였다. 편지에는 선보양과 아내 쩡신후이의 사진이 동봉되어 있었고, **쩡신후이의 옷 위에는 “死” 자가 적혀 있었다**. 또한 그들의 딸의 목을 베겠다고 협박했다.[^51] 선보양은 방송에서 말했다. “이것은 매우 악질적이지만, 바로 공산당이 하는 일이다. 우리는 마음속으로 이미 준비하고 있었다.” 아내 쩡신후이의 반응은 불안, 불면, 건강 악화, 사회공포였다.[^51]
 
-> **📝 Curator's Note**
-> Shen Pei-yang's daughter is not biologically his. He and his wife Zeng Hsin-hui adopted through the Li-Hsin Foundation, a process lasting two years; Shen Pei-yang welcomed a 13-month-old baby girl in 2021; the couple explained the biological mother's role to the child using the concept of "belly mom".[^52]
-> The child he chose to accept later became the crossed-out coordinate on the threatening letter sent to his home by the CCP.
+> **📝 큐레이터 노트**
+> 선보양의 딸은 그가 낳은 아이가 아니다. 그와 아내 쩡신후이는 리신기금회를 통해 입양했고, 2년에 걸친 절차 끝에 선보양은 2021년 생후 13개월 된 여자아이를 맞았다. 부부는 아이에게 생모의 역할을 설명할 때 “배 엄마”라는 개념을 썼다.[^52]
+> 그가 받아들이기로 선택한 이 아이는 훗날 중국공산당이 집으로 보낸 협박편지에서 선으로 표시된 좌표가 되었다.
 
-## The Hague, Satellite, Valentine's Day
+## 헤이그, 위성, 밸런타인데이
 
-But he did not hide. After November, he instead began to travel abroad intensively.
+그러나 그는 숨지 않았다. 11월 이후 오히려 그는 빽빽하게 해외로 나가기 시작했다.
 
-On November 12, 2025, he attended the [German Bundestag](https://www.bundestag.de/) hearing "The Threat of Disinformation from Dictatorial States to Democracy and Human Rights," testifying as an expert witness and legislator. After the hearing, he was interviewed: "**Taiwan should not fear the Chinese threat; **everyone must be fearless and stand with the camp of world democracy and freedom.\*\*"[^53]
+2025년 11월 12일, 그는 [독일 연방의회](https://www.bundestag.de/) 청문회 “권위주의 국가의 허위정보가 민주주의와 인권에 가하는 위협”에 참석해 전문가 증인이자 입법위원 신분으로 증언했다. 청문회 뒤 그는 인터뷰에서 말했다. “타이완은 중국의 위협에 맞서 두려워해서는 안 되며, **모두가 두려움 없이 세계의 민주주의와 자유 진영과 함께 서야 한다**.”[^53]
 
-Nine days later, on November 21, he arrived in The Hague, Netherlands, joining DPP legislator [Fan Yun](https://en.wikipedia.org/wiki/Fan_Yun) to attend the 209th Executive Committee of the [Liberal International (LI)](https://liberal-international.org/) and the [Inter-Parliamentary Alliance on China (IPAC)](https://ipac.global/) The Hague session. He took a photo at the door of the International Criminal Court (ICC).[^54] He captioned it with four words: "Not afraid." The next day he spoke on LI's "Defending Democracy in an Era of Political Manipulation" panel, attaching an academic label to China's threat:
+9일 뒤인 11월 21일, 그는 네덜란드 헤이그에 도착했다. 민주진보당 입법위원 [판윈](https://en.wikipedia.org/wiki/Fan_Yun)과 함께 [자유주의 인터내셔널](https://liberal-international.org/)(Liberal International, LI) 제209차 집행위원회와 [대중정책 초국가의회연맹](https://ipac.global/)(IPAC)의 헤이그 회기에 참석했고, 국제형사재판소(International Criminal Court, ICC) 앞에서 함께 사진을 찍었다.[^54] 그가 붙인 문구는 네 글자였다. “겁내지 않는다.” 다음 날 그는 LI의 “Defending Democracy in an Era of Political Manipulation” 패널에서 발언하며 중국의 위협에 하나의 학술적 표지를 붙였다.
 
-> "**China really wants to stop me from continuing these international participations, so it keeps trying to prevent me from leaving the country through sanctions. **These actions prove exactly that China is a paper tiger**—mostly symbolic propaganda for domestic audiences, Taiwan shouldn't be afraid.**"[^55]
+> “중국은 내가 이런 국제 참여를 계속하는 것을 정말 막고 싶어 한다. 그래서 계속 제재를 통해 내가 출국하지 못하게 하려 한다. **이런 행동이 증명하는 것은 바로 중국이 종이호랑이라는 사실이다**. 대부분은 국내용 상징적 선전이고, 타이완은 두려워해서는 안 된다.”[^55]
 >
-> (Pointing to the ICC building behind him) "**This is where dictators are tried for war crimes or genocide.**"[^55]
+> (뒤쪽의 ICC 건물을 가리키며) “**이곳은 독재자들이 전쟁범죄나 집단학살로 재판받는 장소다**.”[^55]
 
-On New Year's Day 2026, the CCP escalated.
+2026년 새해 첫날, 중국공산당은 수위를 높였다.
 
-A Chinese Weibo account with many followers, "Gu Yan Mu Chan," posted a threat to track Shen Pei-yang,[^59] claiming to have commissioned high-resolution imagery from the commercial satellite "Jilin-1" to publish Shen Pei-yang's home (near Da'an Forest Park) and workplace (Section 1, Ji Nan Road, near the Legislative Yuan) satellite images.[^7] The Chinese state media "Today's Strait" followed with a repost.[^7] Two days later, the Ministry of Foreign Affairs issued a condemnation statement with wording different from before:
+팔로어가 많은 중국 웨이보 계정 “구옌무찬”은 선보양을 추적하겠다고 선언하는 글을 올렸고,[^59] 자비로 상업용 위성 “지린 1호” 고해상도 영상을 주문했다며, 선보양의 타이베이 주거지(다안삼림공원 인근)와 근무지(지난로 1단, 입법기관 인근)의 위성사진을 공개했다.[^7] 중국 관영매체 “진르하이샤”도 이를 따라 전재했다.[^7] 이틀 뒤 외교부는 규탄 성명을 냈고, 어조는 이전과 달랐다.
 
-> "**After the Chinese state media threatened to globally capture our legislator Shen Pei-yang, recently it further used **the vile method of digital authoritarianism known as 'doxxing'** to threaten the safety of our nationals... Not only violating the guarantees of 'no arbitrary interference in anyone's privacy, family, or home' in the *Universal Declaration of Human Rights* and the *International Covenant on Civil and Political Rights*, but also comprehensively persecuting personal privacy, **losing the bottom line of civilization, deeply disgusting.\*\*"[^56]
+> “중국 관영매체는 우리나라 입법위원 선보양을 전 세계에서 체포하겠다고 위협한 데 이어, 최근에는 한 걸음 더 나아가 **신상털이라는 디지털 권위주의의 비열한 수법**으로 우리 국민의 안전을 위협했다…… 이는 《세계인권선언》, 《시민적 및 정치적 권리에 관한 국제규약》의 ‘누구의 사생활, 가족, 주거도 자의적 간섭을 받지 않는다’는 보장을 위반했을 뿐 아니라, 개인의 사생활을 전면적으로 박해하는 것으로, **문명의 최저선을 상실한 행위이며 깊이 경멸받아 마땅하다**.”[^56]
 
-The National Police Agency announced on the same day that it would fully protect Shen Pei-yang's safety.[^57] The Digital Ministry requested Meta and Google to handle it; related posts, videos, and images were taken down within a few days.[^58]
+경정서는 같은 날 선보양의 안전을 전력으로 지키겠다고 발표했다.[^57] 디지털발전부는 Meta와 Google에 처리를 요구했고, 며칠 안에 관련 게시물, 영상, 이미지가 내려갔다.[^58]
 
-Shen Pei-yang himself responded on Facebook on January 3:
+선보양은 1월 3일 페이스북에서 이렇게 답했다.
 
-> "\***\*China marked my coordinates, but what it showed is their collective inferiority complex towards democratic Taiwan.**"[^59]
+> “**중국이 표시한 것은 나의 좌표지만, 드러낸 것은 민주 타이완에 대한 그들의 집단적 열등감이다**.”[^59]
 >
-> "**For those who were mocking dashcams the other day, Shen Pei-yang won't call you accomplices because your level is still far off. But academically, there is a specific term for this: '**Useful Idiots**'.**"[^59]
+> “며칠 전까지도 운전기록장치 운운하던 사람들에 대해, 선보양은 당신들이 협력자라고 말하지 않을 것이다. 당신들의 수준이 아직 훨씬 낮기 때문이다. 그러나 학술적으로는 이에 대한 전문용어가 있다. ‘**유용한 바보들**’(Useful Idiots)이다.”[^59]
 
-Two weeks later, on January 24, he posted a long article on Facebook, breaking down China's 2026 "Taiwan Lock" into three axes: physically disarming (Lan-White parties cutting diplomatic and defense budgets), mentally changing cognition (anti-US sentiment affecting about 5% of key voters), and monopolizing electoral resources (party assets and media-related laws). At the end of the article, he wrote: "**My biggest function should still be 'target'**."[^60]
+2주 뒤인 1월 24일, 그는 페이스북에 긴 글을 올려 중국공산당의 2026년 “타이완 봉쇄”를 세 축으로 나누었다. 물리적으로 무장해제하기(국민당과 민중당이 외교·국방 예산을 삭감), 정신적으로 인지 변화시키기(의미론, 즉 미국 회의론이 약 5%의 핵심 유권자에게 영향), 선거에서 자원 독점하기(당산과 미디어 관련 법안). 글의 끝에서 그는 썼다. “**나의 가장 큰 기능은 아마 여전히 ‘과녁’일 것이다**.”[^60]
 
-The word "target" appeared repeatedly in his narrative afterwards, a label he gave himself.
+“과녁”이라는 말은 이후 그의 서사 속에서 반복해서 등장했다. 그가 스스로에게 붙인 표지였다.
 
-On February 7, he flew to France to execute an 8-day diplomatic mission. The key point of the French background: [Interpol](https://www.interpol.int/) headquarters is located there, and France has an extradition agreement with China—he theoretically faces the highest risk in such countries, yet he still proceeded as planned. The mission content was to exchange Taiwan's Ministry of National Defense's new _National Defense Handbook_, cognitive warfare response, social media and cyber warfare, and national resilience. France itself issued a similar national risk response handbook in 2025; Shen Pei-yang described France's anti-fake news units as having borrowed designs from Taiwan.[^8]
+2월 7일 그는 8일간의 외교 임무를 수행하기 위해 프랑스로 날아갔다. 프랑스와 관련한 핵심 배경은 이렇다. [국제형사경찰기구(INTERPOL)](https://www.interpol.int/) 본부가 있는 곳이며, 프랑스는 중국과 범죄인 인도협정을 맺고 있다. 이론상 그는 바로 이런 국가에서 위험이 가장 컸지만, 그래도 계획대로 갔다. 임무 내용은 타이완 국방부의 새 《전민 국방 핸드북》, 인지전 대응, 소셜미디어와 사이버전, 국가 회복력에 관한 교류였다. 프랑스도 2025년에 비슷한 성격의 전민 위험 대응 핸드북을 발간했으며, 선보양은 프랑스의 허위정보 대응 기관이 타이완의 설계를 참고한 부분이 있다고 설명했다.[^8]
 
-Valentine's Day (February 14) he spent on the plane. After returning, he wrote on Facebook: "**Despite the pressure of being globally wanted by Beijing, I still completed the 8-day diplomatic mission as planned. However, I ultimately spent Valentine's Day on the plane.** There is another one coming next! I will stand at the forefront with my country."[^61]
+밸런타인데이(2월 14일)를 그는 비행기 안에서 보냈다. 귀국 뒤 그는 페이스북에 썼다. “**베이징의 전 세계 수배 압력을 견디면서도, 나는 계획대로 8일간의 외교 임무를 완수했다. 그러나 결국 밸런타인데이는 비행기 안에서 보냈다**. 이어서 다음 일정이 있다! 나는 나의 국가와 함께 계속 최전선에 설 것이다.”[^61]
 
-## From Target to Candidate
+## 과녁에서 후보자로
 
-In early April 2026, the DPP Election Strategy Committee held a meeting. [United Daily News](https://udn.com/) political section reported that insiders revealed the party planned to push Shen Pei-yang to run for Taipei Mayor.[^62] By mid-to-late April, it was almost certain. Former Minister of the Interior Xu Guo-yong publicly endorsed him.[^63] TVBS December 2025 polls showed incumbent Taipei Mayor Ko Wen-je's support at about 64%, Shen Pei-yang at about 22%.[^64] Significantly behind, but the election outcome is not within the scope of this article.
+2026년 4월 초, 민주진보당 선거대책위원회가 회의를 열었다. [연합보](https://udn.com/) 정치면은 사정을 아는 인사를 인용해 당내에서 선보양을 타이베이시장 후보로 내세우려 한다고 보도했다.[^62] 4월 중하순에는 거의 기정사실이 되었다. 전 내정부장 쉬궈융이 공개적으로 지지를 표했다.[^63] TVBS의 2025년 12월 여론조사는 타이베이시장 현직 장완안의 지지도가 약 64%, 선보양이 약 22%라고 나타냈다.[^64] 큰 격차였지만, 선거 판세의 승패는 이 글의 범위가 아니다.
 
-On April 25, he cut off the afro he had kept for over ten years, appearing on stage with Ko Wen-je for the first time at the Songshan Ci Huai Temple Mother Goddess Culture Festival.[^65] Yang Guo cut his hair short.
+4월 25일, 그는 10여 년간 유지해온 파마머리를 잘랐고, 쑹산츠후이탕 모냥문화제에서 처음으로 장완안과 같은 무대에 섰다.[^65] 양궈가 머리를 짧게 자른 셈이었다.
 
-From the bow of the mopping youths to CCTV's fake documentary, from a desk's thesis research to coordinates on satellite imagery, from "cannot be Black Bear Academy responsible person" to "maybe run for Taipei Mayor," Shen Pei-yang's position changed many times. He used the same sentence to footnote each change: "**I am a target.**" This sentence is both self-mockery and a calm academic observation. In the CCP's narrative against Taiwan, he is indeed the one to be aimed at. A scholar taking the label of the object he studies and sticking it on himself, continuing to work; few people can do this.
+바닥을 닦던 소년의 인사에서 중국중앙텔레비전의 가짜 다큐멘터리까지, 책상 위 논문 연구에서 위성지도 위 좌표까지, “헤이슝학원 책임자가 될 수 없다”에서 “타이베이시장에 출마할지도 모른다”까지, 선보양의 위치는 여러 차례 바뀌었다. 그는 매번 같은 문장으로 변화에 주석을 달았다. “나는 과녁이다.” 이 말은 자조이자 냉정한 학술적 관찰이다. 중국공산당의 대타이완 서사 속에서 그는 실제로 조준되어야 하는 그 사람이다. 한 학자가 자신이 연구하던 대상의 표지를 받아 자기 몸에 붙이고 계속 일한다. 그런 일을 해내는 사람은 많지 않다.
 
-## Where Are the Bowing Youths Now
+## 허리 숙였던 소년은 지금 어디에 있는가
 
-Back to that mopping afternoon. The moment Shen Pei-yang stopped, he stepped around the water marks. The youths bowed to him. More than ten years later, he sat on the other end of the Chongqing Public Security Bureau police notice, his wife's clothes crossed with a "Death" character, his home's coordinates publicly named by a Chinese Weibo account.
+다시 바닥을 닦던 그 오후로 돌아가자. 선보양이 멈춰 선 순간, 그는 물자국을 돌아갔다. 소년은 그에게 허리를 숙였다. 10여 년 뒤 그는 충칭시 공안국 경찰 통보의 반대편에 앉아 있었고, 그의 아내 옷 위에는 “死” 자가 그어졌으며, 그의 집 근처 위성 좌표는 중국 웨이보 계정에 의해 공개적으로 지목되었다.
 
-He himself wrote a short sentence in June 2025. On the day his father's company was sanctioned by the CCP, he responded on Facebook with four words: "**Very honored.**"[^40]
+그 자신은 2025년 6월 아주 짧은 말을 쓴 적이 있다. 부친 회사가 중국공산당의 제재를 받은 날, 그는 페이스북에 네 글자로 답했다. “**매우 영광스럽다**.”[^40]
 
-The question from that day at the youth observation center is still on him: "Why do our attitudes toward people vary so greatly in different places?" He has studied this question for twenty years. In the end, the things he studied found him, marking him as prey. But he studied long enough to know **prey do not need to become victims first**, they can become questioners first—so from The Hague to the German Parliament, to France, every stop used the same grammar to say the same thing: You can do this to me, and I will continue to do my work.
+소년관호소의 그날 나온 질문은 여전히 그에게 남아 있다. “왜 우리는 사람을 대하는 태도가 장소에 따라 이렇게 크게 달라질까?” 그는 이 질문을 20년 동안 연구했다. 결국 그가 연구하던 것이 그를 찾아와 그를 사냥감으로 표시했다. 그러나 그는 충분히 오래 연구했기에 **사냥감이 먼저 victim이 될 필요는 없고**, 먼저 질문하는 사람이 될 수 있음을 안다. 그래서 그는 네덜란드 헤이그에서 독일 의회로, 다시 프랑스로 가는 매 정거장에서 같은 문법으로 같은 말을 했다. 당신들은 나를 이렇게 대할 수 있다. 그리고 나는 계속 내 일을 한다.
 
-In late April 2026, he cut his hair, preparing to fight another election. But on China's satellite imagery, the target coordinates remain in place.
+2026년 4월 말 그는 머리를 자르고 또 다른 선거전에 나설 준비를 했다. 그러나 중국공산당의 위성지도 위에서 과녁의 좌표는 여전히 제자리에 있다.
 
 ---
 
-**Further Reading**:
+**더 읽을거리**:
 
-- [Cognitive Warfare](/society/認知作戰) — The complete framework of the CCP's information warfare against Taiwan; Shen Pei-yang is one of the main researchers.
-- [Ba Jiong](/people/八炯) — Another Taiwanese YouTuber targeted by the CCP; received the highest bounty of 250,000 RMB from the CCP in November 2025.
-- [Lai Ching-te](/people/賴清德) — Also listed on the "Stubborn Independent Forces" list; publicly supported Shen Pei-yang in November 2025.
-- [Taiwan's National Defense and Military Modernization](/society/台灣國防與軍事現代化) — The supplementary relationship between Black Bear Academy's civilian defense education and national defense for all.
+- [인지작전](/society/認知作戰) — 중국공산당의 대타이완 정보전 전체 틀. 선보양은 주요 연구자 가운데 한 명이다
+- [바중](/people/八炯) — 마찬가지로 중국공산당의 표적이 된 타이완 YouTuber. 2025년 11월 중국공산당으로부터 최고 인민폐 25만 위안의 현상금이 걸렸다
+- [라이칭더](/people/賴清德) — 같은 “완고한 타이완 독립분자” 명단에 오른 인물로, 2025년 11월 선보양을 공개 지지했다
+- [타이완 국방과 군사 현대화](/society/台灣國防與軍事現代化) — 헤이슝학원의 민방위 교육과 전민 국방의 보완 관계
 
-## References
+## 참고자료
 
-[^1]: [Mirror Media _One-Shot_ Series: Dissecting the Professor of Evil](https://www.mirrormedia.mg/story/20190427pol002) — Mirror Media 2019-04-27 series character interview second part, recording Shen Pei-yang's childhood contact book, Fuxing/Fuxing High School class contrast, senior's supermarket case, youth observation center visit, Irvine city best public security impression, five thesis advisors advising him to return to Taiwan, Yang Guo idol theory, etc., is the key origin scene source for Shen Pei-yang's academic shift to criminology.
+[^1]: [鏡週刊《一鏡到底》系列：解剖惡的教授](https://www.mirrormedia.mg/story/20190427pol002) — 《미러 미디어》 2019-04-27 연속 인물 인터뷰 2편. 선보양의 어린 시절 연락장, 푸싱/젠궈의 계급 대비, 선배의 대형 할인점 사건, 소년관호소 참관, 어바인이 전미 치안 1위 도시였다는 인상, 다섯 구술시험 교수의 타이완 복귀 권유, 양궈 우상론 등의 장면을 기록한 자료로, 선보양의 학문적 관심이 범죄학으로 전환되는 핵심 origin scene의 출처다.
 
-[^2]: [National Taipei University Institute of Criminology: Shen Pei-yang Teacher Page](https://crm.ntpu.edu.tw/index.php?option=module&lang=cht&task=pageinfo&id=119) — University official teacher page, confirming Shen Pei-yang is currently Associate Professor and Director, research areas are criminal law, sociology of law, criminal policy, white-collar crime.
+[^2]: [國立臺北大學犯罪學研究所：沈伯洋教師頁](https://crm.ntpu.edu.tw/index.php?option=module&lang=cht&task=pageinfo&id=119) — 국립타이베이대학 공식 교원 페이지. 선보양이 현직 부교수 겸 소장이며, 연구 분야가 형법, 법사회학, 형사정책, 화이트칼라 범죄임을 확인한다.
 
-[^3]: [Black Bear Academy Official Website: About Us](https://kuma-academy.org/about) — Black Bear Academy official page, introducing co-founders Shen Pei-yang and Ho Cheng-hui, founding background, course design, and "national defense" concept.
+[^3]: [黑熊學院官網：關於我們](https://kuma-academy.org/about) — 헤이슝학원 공식 페이지. 창립자 선보양과 허청후이, 창립 배경, 과정 설계, “전민 방위” 이념을 소개한다.
 
-[^4]: [Legislative Yuan Global Information Network: Shen Pei-yang Legislator Data](https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=54301&pid=237147) — Legislative Yuan official website Shen Pei-yang member data page, confirming he took office as 11th legislator on 2024-02-01.
+[^4]: [立法院全球資訊網：沈伯洋立委資料](https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=54301&pid=237147) — 입법원 공식 웹사이트의 선보양 위원 자료 페이지. 그가 2024-02-01 제11대 입법위원으로 취임했음을 확인한다.
 
-[^5]: [CNA: Chongqing Public Security Bureau Investigates Shen Pei-yang](https://www.cna.com.tw/news/aipl/202510280086.aspx) — CNA 2025-10-28 report, fully recording the process of Chongqing Public Security Bureau's police notice investigating Shen Pei-yang for "suspected crime of splitting the country," and quoting Shen Pei-yang's Facebook original response.
+[^5]: [中央社：重慶公安局立案偵查沈伯洋](https://www.cna.com.tw/news/aipl/202510280086.aspx) — 중앙통신사 2025-10-28 보도. 충칭시 공안국 경찰 통보가 “국가분열죄 혐의”로 선보양을 입건 수사한 경위를 완전하게 기록하고, 선보양의 페이스북 원문 답변을 인용한다.
 
-[^6]: [Liberty Times: CCTV 7.5 min Deep Dive Shen Pei-yang](https://news.ltn.com.tw/news/politics/breakingnews/5239735) — Liberty Times 2025-11-09 report, recording CCTV News releasing Shen Pei-yang "Deep Dive" special video that night, content warning "Stop it, or the next one is you."
+[^6]: [自由時報：央視 7 分半起底沈伯洋](https://news.ltn.com.tw/news/politics/breakingnews/5239735) — 자유시보 2025-11-09 보도. CCTV 뉴스가 그날 밤 선보양 “신상 폭로” 특집 영상을 내보내고 “멈춰라, 그렇지 않으면 다음은 바로 당신”이라고 경고한 내용을 기록한다.
 
-[^7]: [Liberty Times: Chinese Weibo Account Uses Commercial Satellite to Publish Shen Pei-yang Home/Workplace Coordinates](https://news.ltn.com.tw/news/politics/breakingnews/5297941) — Liberty Times 2026-01 exclusive report on Chinese Weibo account commissioning Jilin-1 satellite imagery to publish Shen Pei-yang's home (near Da'an Forest Park) and workplace (Section 1, Ji Nan Road, near Legislative Yuan) coordinates, event process followed by Chinese state media "Today's Strait" repost.
+[^7]: [自由時報：中國微博帳號用商用衛星公布沈伯洋住家工作地座標](https://news.ltn.com.tw/news/politics/breakingnews/5297941) — 자유시보 2026-01 단독 보도. 중국 웨이보 계정이 자비로 지린 1호 위성 영상을 주문해 선보양의 주거지(다안삼림공원 인근)와 근무지(지난로 1단, 입법기관 인근) 좌표를 공개하고, 중국 관영매체 “진르하이샤”가 이를 따라 전재한 사건 경위를 보도한다.
 
-[^8]: [Liberty Times: Fearless of CCP Wanted Threat, Shen Pei-yang Completes 8-Day Diplomatic Mission in France](https://news.ltn.com.tw/news/politics/breakingnews/5344003) — Liberty Times 2026 report on Shen Pei-yang departing on 2026-02-07, 8-day diplomatic mission, spending Valentine's Day on plane, details of France's "Little Orange Book" and Taiwan's Defense Handbook borrowing from each other.
+[^8]: [自由時報：無懼中共通緝威脅 沈伯洋赴法完成 8 天外交任務](https://news.ltn.com.tw/news/politics/breakingnews/5344003) — 자유시보 2026-02 보도. 선보양이 2026-02-07 출발해 8일간 외교 임무를 수행하고, 밸런타인데이를 비행기 안에서 보냈으며, 프랑스 “작은 주황색 책”과 타이완 국방 핸드북이 서로 참고한 세부 사항을 기록한다.
 
-[^9]: [Wikipedia: Shen Pei-yang Entry](https://zh.wikipedia.org/zh-tw/%E6%B2%88%E4%BC%AF%E6%B4%8B) — Chinese Wikipedia Shen Pei-yang entry, organizing his family background, academic credentials, and early experiences, including complete educational history from Fuxing Kindergarten, Fuxing Elementary, Fuxing Middle, to Fuxing High School.
+[^9]: [維基百科：沈伯洋條目](https://zh.wikipedia.org/zh-tw/%E6%B2%88%E4%BC%AF%E6%B4%8B) — 중국어 위키백과 선보양 항목. 그의 가족 배경, 학력, 초기 경력을 정리하며, 푸싱유치원, 푸싱초등학교, 푸싱중학교, 젠궈중학의 전체 학업 과정을 포함한다.
 
-[^10]: [Mirror Media _One-Shot_: Shen Pei-yang Character Feature](https://www.mirrormedia.mg/story/20190427pol001) — Mirror Media 2019-04-27 series first part, recording Shen Pei-yang's involvement in tutoring industry during college, origin of stage name "Puma," and subsequent academic turn.
+[^10]: [鏡週刊《一鏡到底》：沈伯洋人物特寫](https://www.mirrormedia.mg/story/20190427pol001) — 《미러 미디어》 2019-04-27 연속 1편. 선보양이 대학 시절 입시학원 업계에 들어간 일, 예명 “푸마”(Puma)의 유래, 이후 학문적 전환을 기록한다.
 
-[^11]: [Shen Pei-yang Threads Official Account @pumashen](https://www.threads.com/@pumashen) — Shen Pei-yang's own official account on Meta Threads platform.
+[^11]: [沈伯洋 Threads 官方帳號 @pumashen](https://www.threads.com/@pumashen) — 선보양 본인의 Meta Threads 공식 계정.
 
-[^12]: [Wikipedia: Puma Shen](https://en.wikipedia.org/wiki/Puma_Shen) — English Wikipedia Puma Shen entry, organizing his academic timeline: University of Pennsylvania Law Master (2007), NTU Criminal Law Master (2008), UC Irvine PhD (2017), doctoral thesis advisors Henry Pontell and Elliott Currie.
+[^12]: [Wikipedia: Puma Shen](https://en.wikipedia.org/wiki/Puma_Shen) — 영어 위키백과 Puma Shen 항목. 그의 학력 연표, 즉 펜실베이니아대학 법학석사(2007), 타이완대학 형법석사(2008), 캘리포니아대학 어바인 캠퍼스 박사(2017), 박사논문 지도교수 Henry Pontell과 Elliott Currie를 정리한다.
 
-[^13]: [Wikipedia: Shen Pei-yang (Return to Taiwan Decision Section)](https://zh.wikipedia.org/zh-tw/%E6%B2%88%E4%BC%AF%E6%B4%8B) — Chinese Wikipedia organizes Shen Pei-yang's decision to reject tenured position offers from US universities such as North Carolina State University after obtaining PhD in 2017 and choosing to return to Taiwan.
+[^13]: [維基百科：沈伯洋（返臺決定段）](https://zh.wikipedia.org/zh-tw/%E6%B2%88%E4%BC%AF%E6%B4%8B) — 중국어 위키백과는 선보양이 2017년 박사학위를 취득한 뒤 노스캐롤라이나주립대학 등 미국 대학의 종신교수직 제안을 거절하고 타이완으로 돌아가기로 한 결정의 맥락을 정리한다.
 
-[^14]: [Shen Pei-yang Threads Self-Description of PhD Credentials](https://www.threads.com/@pumashen/post/DXcG-fKlP1S) — Shen Pei-yang self-describes on Threads platform that his PhD belongs to UC Irvine School of Social Ecology, spanning criminology, urban planning, public policy, environmental psychology, etc.
+[^14]: [沈伯洋 Threads 自述博士學歷](https://www.threads.com/@pumashen/post/DXcG-fKlP1S) — 선보양이 Threads에서 자신의 PhD가 캘리포니아대학 어바인 캠퍼스 School of Social Ecology(사회생태학부)에 속하며, 범죄학, 도시계획, 공공정책, 환경심리학 등을 가로지르는 분야였다고 직접 설명한 글.
 
-[^15]: [USCC: Puma Shen Testimony on CCP Influence Operations PDF](https://www.uscc.gov/sites/default/files/2023-03/Puma_Shen_Testimony.pdf) — Shen Pei-yang's 2023-03 testimony PDF before the US-China Economic and Security Review Commission (USCC), analyzing in detail the multiple bureaucratic lines of the CCP's information warfare against Taiwan (Ministry of State Security, United Front Work Department, Taiwan Affairs Office, PLA system, Communist Youth League network) and their respective tools and rhythms, is the academic original output of his "Five Lines" analytical framework.
+[^15]: [USCC: Puma Shen Testimony on CCP Influence Operations PDF](https://www.uscc.gov/sites/default/files/2023-03/Puma_Shen_Testimony.pdf) — 선보양이 2023-03 미중경제안보검토위원회(USCC)에서 증언한 증언문 PDF. 중국공산당 대타이완 정보전의 여러 관료기관 노선(국안부, 중앙통전부, 중앙타이완판공실, 인민해방군 체계, 공청단 네트워크)과 각자의 도구와 리듬을 절별로 분석한 자료로, 그의 “다섯 노선” 분석틀의 학술적 원출력이다.
 
-[^16]: [Doublethink Lab Official Website](https://doublethinklab.org/) — Taiwan Democracy Lab official website, introducing organization founding background (2019), research purpose, and Shen Pei-yang's role as chairman.
+[^16]: [Doublethink Lab 官網](https://doublethinklab.org/) — 타이완 민주실험실 공식 웹사이트. 조직 창립 배경(2019), 연구 취지, 선보양의 이사장 역할을 소개한다.
 
-[^17]: [Taipei Times: China Index Launch by Doublethink Lab](https://www.taipeitimes.com/News/taiwan/archives/2022/04/28/2003777359) — Taipei Times 2022-04-28 report, recording Doublethink Lab's release of China Index time (2022-04-25) and design architecture of nine dimensions totaling 99 indicators.
+[^17]: [Taipei Times: China Index Launch by Doublethink Lab](https://www.taipeitimes.com/News/taiwan/archives/2022/04/28/2003777359) — Taipei Times 2022-04-28 보도. Doublethink Lab이 China Index를 발표한 시점(2022-04-25)과 9대 차원 99개 지표의 설계 구조를 기록한다.
 
-[^18]: [USCC: Puma Shen Testimony PDF](https://www.uscc.gov/sites/default/files/2023-03/Puma_Shen_Testimony.pdf) — USCC official page download Shen Pei-yang's 2023 testimony PDF full text, content covering CCP's information warfare strategy against Taiwan and China Index data foundation.
+[^18]: [USCC: Puma Shen Testimony PDF](https://www.uscc.gov/sites/default/files/2023-03/Puma_Shen_Testimony.pdf) — 미중경제안보검토위원회 공식 페이지에서 내려받을 수 있는 선보양의 2023년 증언문 PDF 전문. 중국공산당의 대타이완 정보전 전략과 China Index 데이터 기반을 다룬다.
 
-[^19]: [Locus Publishing: _Beating Taiwan is Worse Than Deceiving Taiwan_ Book Page](https://www.locuspublishing.com/book/detail/10514) — Locus Publishing official book introduction page, recording the background and table of contents structure of Shen Pei-yang and Wu Ming-hsuan co-authored _Beating Taiwan is Worse Than Deceiving Taiwan: Q&A on China's Cognitive Warfare Against Taiwan_ published in July 2024.
+[^19]: [大塊文化：《打台灣不如騙台灣》書籍頁](https://www.locuspublishing.com/book/detail/10514) — 다콰이문화출판사의 공식 도서 소개 페이지. 선보양과 우밍쉬안의 공저 《타이완을 치는 것보다 타이완을 속이는 것이 낫다: 중국의 대타이완 인지작전 Q&A》가 2024년 7월 출간된 배경과 목차 구조를 기록한다.
 
-[^20]: [Wikipedia: Black Bear Academy Entry](https://zh.wikipedia.org/zh-hans/%E9%BB%91%E7%86%8A%E5%AD%B8%E9%99%A2) — Chinese Wikipedia organizes Black Bear Academy co-founded by Shen Pei-yang and Ho Cheng-hui, officially established in December 2021.
+[^20]: [維基百科：黑熊學院條目](https://zh.wikipedia.org/zh-hans/%E9%BB%91%E7%86%8A%E5%AD%B8%E9%99%A2) — 중국어 위키백과는 헤이슝학원이 선보양과 허청후이에 의해 공동 설립되어 2021년 12월 정식 창립된 역사를 정리한다.
 
-[^21]: [Black Bear Academy Public Course List](https://kuma-academy.oen.tw/events/2a1FgPxa82dXvk4kCA50wRJIlto) — Black Bear Academy oen platform public course list, recording basic civilian defense courses including fire fighting, search and rescue, evacuation, information identification, AED/CPR, etc.
+[^21]: [黑熊學院公開課程列表](https://kuma-academy.oen.tw/events/2a1FgPxa82dXvk4kCA50wRJIlto) — 헤이슝학원 oen 플랫폼 공개 수업표. 소방, 수색구조, 대피, 정보 식별, AED/CPR 등 기초 민방위 과정 내용을 기록한다.
 
-[^22]: [Liberty Times: Tsai Hsing-cheng 3 Billion Anti-CCP Pro-Taiwan 600 Million into Black Bear](https://news.ltn.com.tw/news/politics/breakingnews/4044669) — Liberty Times 2022-09-01 report, fully recording UMC former chairman Tsai Hsing-cheng announcing donation of 3 billion for anti-CCP pro-Taiwan, with 600 million invested in Black Bear Academy press conference.
+[^22]: [自由時報：曹興誠 30 億抗共保台 6 億入黑熊](https://news.ltn.com.tw/news/politics/breakingnews/4044669) — 자유시보 2022-09-01 보도. 유나이티드마이크로일렉트로닉스 전 회장 차오싱청이 30억 대만달러를 반공·보타이완에 기부하고, 그중 6억 대만달러를 헤이슝학원에 투입한다고 발표한 기자회견을 완전하게 기록한다.
 
-[^23]: [Liberty Times: Shen Pei-yang Black Bear Warriors Press Conference Speech](https://news.ltn.com.tw/news/politics/breakingnews/4044669) — Liberty Times report directly quoting Shen Pei-yang's on-site speech original text at Black Bear Academy 600 million fundraising press conference on 2022-09-01.
+[^23]: [自由時報：沈伯洋黑熊勇士記者會發言](https://news.ltn.com.tw/news/politics/breakingnews/4044669) — 자유시보 보도는 선보양이 2022-09-01 헤이슝학원 6억 대만달러 모금 기자회견에서 한 현장 발언 원문을 직접 인용한다.
 
-[^24]: [Liberty Times: Black Bear Academy 3-Year Training 3 Million People Plan](https://news.ltn.com.tw/news/politics/paper/1565297) — Liberty Times report on Black Bear Academy's goal planning and schedule to train 3 million "Black Bear Warriors" within three years.
+[^24]: [自由時報：黑熊學院 3 年訓練 300 萬人計畫](https://news.ltn.com.tw/news/politics/paper/1565297) — 자유시보는 헤이슝학원이 3년 안에 “헤이슝 용사” 300만 명을 훈련한다는 목표 계획과 일정을 보도한다.
 
-[^25]: [Liberty Times: 600 Million Quarterly Disbursement Verification Mechanism](https://news.ltn.com.tw/news/politics/breakingnews/4045927) — Liberty Times report on Tsai Hsing-cheng's donation to Black Bear Academy adopting quarterly disbursement, plan-verified execution mechanism design.
+[^25]: [自由時報：6 億元逐季撥款驗證機制](https://news.ltn.com.tw/news/politics/breakingnews/4045927) — 자유시보는 차오싱청이 헤이슝학원에 기부한 6억 대만달러가 분기별 지급과 계획별 검증 방식으로 집행되도록 설계되었다고 보도한다.
 
-[^26]: [Liberty Times: Black Bear Academy First Basic Camp Waitlist Exceeds 3,000](https://news.ltn.com.tw/news/politics/paper/1538534) — Liberty Times report on Black Bear Academy opening first basic camp in September 2022, waitlist exceeding 3,000 people, reflecting Taiwan society's high demand for civilian defense education.
+[^26]: [自由時報：黑熊學院首期基礎營候補逾三千](https://news.ltn.com.tw/news/politics/paper/1538534) — 자유시보는 헤이슝학원이 2022년 9월 첫 기초캠프를 열자 대기 명단이 3,000명을 넘었다고 보도하며, 타이완 사회의 민방위 교육 수요가 높음을 보여준다.
 
-[^27]: [Black Bear Academy Public Course Info](https://kuma-academy.oen.tw/events/2a1FgPxa82dXvk4kCA50wRJIlto) — Black Bear Academy oen platform course announcement, listing complete course modules including fire fighting, search and rescue, first aid, evacuation, cybersecurity, anti-fraud, AED/CPR,止血 bandaging, etc.
+[^27]: [黑熊學院公開課程資訊](https://kuma-academy.oen.tw/events/2a1FgPxa82dXvk4kCA50wRJIlto) — 헤이슝학원 oen 플랫폼 과정 공지. 소방, 수색구조, 구호, 대피, 정보보안, 사기 방지, AED/CPR, 지혈과 붕대법 등 전체 과정 모듈을 열거한다.
 
-[^28]: [PTS News Network: Black Bear Academy Blue Magpie Operation Outdoor Training](https://news.pts.org.tw/article/743411) — PTS News Network report on Black Bear Academy's semi-annual "Blue Magpie Operation" outdoor realistic training, simulating evacuation and first aid processes for non-combatants during wartime.
+[^28]: [公視新聞網：黑熊學院藍鵲行動戶外演訓](https://news.pts.org.tw/article/743411) — 공시신문망은 헤이슝학원이 반년에 한 번 여는 “란췌 행동” 야외 실경 훈련을 보도하며, 전시 비전투원의 대피와 구호 절차를 모의한다고 설명한다.
 
-[^29]: [Shen Pei-yang X Post: Black Bear Academy Identity Issue](https://x.com/pumashen/status/1847806524867170555) — Shen Pei-yang himself on X platform post self-describing his inability to be Black Bear Academy legal representative due to regulations as Deputy Executive Director of DPP think tank and legislator identity.
+[^29]: [沈伯洋 X 貼文：黑熊學院身分問題](https://x.com/pumashen/status/1847806524867170555) — 선보양 본인이 X 게시물에서 민주진보당 싱크탱크 부집행장 및 입법위원 신분 때문에 헤이슝학원 법인 대표를 맡을 수 없다는 법적 규범을 설명한 글.
 
-[^30]: [CNA: DPP 2024 Proportional Representation Legislator List Shen Pei-yang 2nd](https://www.cna.com.tw/news/aipl/202311155003.aspx) — CNA 2023-11-15 report on DPP announcing 2024 proportional representation legislator list, Shen Pei-yang ranked second (first is Lin Yueh-chin).
+[^30]: [中央社：民進黨 2024 不分區立委名單沈伯洋第 2](https://www.cna.com.tw/news/aipl/202311155003.aspx) — 중앙통신사 2023-11-15 보도. 민주진보당이 2024년 비례대표 입법위원 명단을 발표했고, 선보양이 2순위(1순위는 린웨친)에 올랐음을 보도한다.
 
-[^31]: [People's News Network: DPP Caucus National Security Law Revision Ten Major Bills](https://www.fountmedia.io/article/276323) — People's News Network report on ten major national security law revisions promoted by DPP caucus under Shen Pei-yang's leadership, including Cross-Strait Act, Hong Kong/Macau Act, Nationality Law, National Security Law, Communication Security Act, Anti-Infiltration Act, Cybersecurity Act, Criminal Law, Military Criminal Law, National Intelligence Work Law.
+[^31]: [民眾新聞網：民進黨團國安修法十大法案](https://www.fountmedia.io/article/276323) — 민중신문망은 선보양이 앞장서 민주진보당 원내교섭단체가 추진한 10대 국가안보 법 개정 목록을 보도한다. 양안조례, 홍콩·마카오조례, 국적법, 국가안전법, 통신보장 및 감찰법, 반침투법, 정보보안법, 형법, 육해공군형법, 국가정보공작법을 포함한다.
 
-[^32]: [Legislative Yuan Foreign Affairs and National Defense Committee Official Info](https://www.ly.gov.tw/Pages/List.aspx?nodeid=46775) — Legislative Yuan Global Information Network Foreign Affairs and National Defense Committee page, recording 11th session convenor rotation (Shen Pei-yang served as one of the convenors in 2025).
+[^32]: [立法院外交及國防委員會官方資訊](https://www.ly.gov.tw/Pages/List.aspx?nodeid=46775) — 입법원 글로벌정보망 외교 및 국방위원회 페이지. 제11대 회기 소집위원 윤번 현황을 기록하며, 선보양이 2025년 소집위원 중 한 명을 맡았음을 보여준다.
 
-[^33]: [Storm Media: Taiwan Affairs Office Names Shen Pei-yang, Tsai Hsing-cheng, Black Bear Academy](https://www.storm.mg/article/5254288) — Storm Media 2024-10-14 report on Taiwan Affairs Office spokesperson Chen Bin-hua announcing at press conference to list Shen Pei-yang, Tsai Hsing-cheng, and Black Bear Academy on "Stubborn Independent Forces" list full text record.
+[^33]: [風傳媒：國台辦點名沈伯洋曹興誠黑熊學院](https://www.storm.mg/article/5254288) — 풍전매 2024-10-14 보도. 국무원 타이완사무판공실 대변인 천빈화가 기자회견에서 선보양, 차오싱청, 헤이슝학원을 “완고한 타이완 독립분자” 명단에 올린다고 발표한 전문 기록.
 
-[^34]: [CNA: Shen Pei-yang Facebook Responds to Investigation](https://www.cna.com.tw/news/aipl/202510280086.aspx) — CNA 2025-10-28 report fully directly quoting Shen Pei-yang's Facebook original text that day, including "This is the 6th time within a year," "Solving the person who raises the problem... indeed very Communist," "Taiwanese people are not afraid," etc.
+[^34]: [中央社：沈伯洋臉書回應立案調查](https://www.cna.com.tw/news/aipl/202510280086.aspx) — 중앙통신사 2025-10-28 보도. 선보양이 당일 페이스북에 올린 원문을 완전하게 직접 인용하며, “이것은 1년 안의 6번째”, “문제를 제기한 사람을 해결하고... 과연 매우 공산당답다”, “타이완인들은 겁내지 않는다” 등의 대목을 포함한다.
 
-[^35]: [Taipei Times: Sanctions on Shen's Father's Company](https://www.taipeitimes.com/News/taiwan/archives/2025/06/05/2003838105) — Taipei Times 2025-06-05 report on CCP sanctioning Zhao Yi Co., Ltd. under Shen Pei-yang's father Shen Tu-cheng, prohibiting trading with mainland enterprises/individuals.
+[^35]: [Taipei Times: Sanctions on Shen's Father's Company](https://www.taipeitimes.com/News/taiwan/archives/2025/06/05/2003838105) — Taipei Times 2025-06-05 보도. 중국공산당이 선보양의 부친 선투청 산하 자오이유한공사에 제재를 발표하고, 중국 대륙 기업·개인과의 거래를 금지한 처분을 보도한다.
 
-[^36]: [CNA: Customs Cancels Sicuens Registration](https://www.cna.com.tw/news/acn/202507160341.aspx) — CNA 2025-07-16 report on Chinese Customs canceling Shen family enterprise Sicuens International Co. Ltd importer registration qualification.
+[^36]: [中央社：海關註銷 Sicuens 註冊](https://www.cna.com.tw/news/acn/202507160341.aspx) — 중앙통신사 2025-07-16 보도. 중국 해관이 선보양 가족 기업 Sicuens International Co. Ltd의 수입업자 등록 자격을 말소했다고 보도한다.
 
-[^37]: [Business Today: CCTV 7.5 min Deep Dive Shen Pei-yang](https://www.businesstoday.com.tw/article/category/183027/post/202511090007/) — Business Today 2025-11-09 report on CCTV News Channel releasing 7.5-minute deep dive Shen Pei-yang special video, and quoting Shen himself on Facebook response "fake documentary," "Nobody cares" original text.
+[^37]: [今周刊：央視 7 分半起底沈伯洋](https://www.businesstoday.com.tw/article/category/183027/post/202511090007/) — 《금주간》 2025-11-09 보도. 중국중앙텔레비전 뉴스채널이 7분 30초짜리 선보양 신상 폭로 특집 영상을 내보낸 사실을 보도하고, 선보양 본인의 페이스북 답변 중 “가짜 다큐멘터리”, “Nobody cares” 원문을 전한다.
 
-[^38]: [CNA: Legal Basis for Crime of Splitting the Country 22 Articles on Punishing Independence](https://www.cna.com.tw/news/aipl/202510280086.aspx) — CNA report on Chongqing Public Security investigation legal basis being Criminal Law and _Opinions on Punishing Stubborn Independent Forces for Splitting the Country and Inciting Splitting of the Country According to Law_ (commonly known as "22 Articles on Punishing Independence").
+[^38]: [中央社：分裂國家罪法源懲獨二十二條](https://www.cna.com.tw/news/aipl/202510280086.aspx) — 중앙통신사 보도. 충칭 공안 입건의 법적 근거가 《형법》과 《완고한 타이완 독립분자의 국가분열 및 국가분열 선동 범죄를 법에 따라 처벌하는 데 관한 의견》(속칭 “징두 22조”)이라고 설명한다.
 
-[^39]: [Xinhua News: Chongqing Police Notice Original Text](http://www.news.cn/20251028/c50bf44d994d4ac99af0b6be8f264223/c.html) — Xinhua News 2025-10-28 released Chongqing Public Security Bureau police notice original text, including reporting email CQGACTD@163.com and phone 023-65697660 full info.
+[^39]: [新華社：重慶警情通報原文](http://www.news.cn/20251028/c50bf44d994d4ac99af0b6be8f264223/c.html) — 신화사 2025-10-28이 발표한 충칭시 공안국 경찰 통보 원문. 신고 이메일 CQGACTD@163.com과 전화 023-65697660의 전체 정보를 포함한다.
 
-[^40]: [Feng Media cnews.com.tw: Shen Pei-yang Responds to Father's Company Sanction](https://cnews.com.tw/235250605a02/) — Feng Media 2025-06-05 report on Shen Pei-yang's verbatim response to father's Zhao Yi company being sanctioned by CCP "Very honored, already sanctioned 3rd time by Taiwan Affairs Office within a short year," "Such stupid things, I think only China can do it," and his interpretation of sanctions brought by promoting national security laws.
+[^40]: [鋒傳媒 cnews.com.tw：沈伯洋對父親公司被制裁回應](https://cnews.com.tw/235250605a02/) — 봉전매 2025-06-05 보도. 선보양이 부친 자오이공사에 대한 중국공산당 제재에 대해 한 축자 답변, 즉 “짧은 1년 사이 이미 국무원 타이완사무판공실로부터 세 번째 제재를 받게 되어 매우 영광스럽다”, “그렇게 어리석은 일은 중국만이 할 수 있다고 생각한다”와 자신이 추진한 국가안보 법안이 제재를 불러왔다는 해석을 보도한다.
 
-[^41]: [Liberty Times: CCTV Warns Next One is You](https://news.ltn.com.tw/news/politics/breakingnews/5239735) — Liberty Times 2025-11-09 report on CCTV "Deep Dive Shen Pei-yang" special voice warning "Stop it, or the next one is you" and its deterrence meaning analysis.
+[^41]: [自由時報：央視警告下一個就是你](https://news.ltn.com.tw/news/politics/breakingnews/5239735) — 자유시보 2025-11-09 보도. CCTV “선보양 신상 폭로” 특집의 내레이션 경고문 “멈춰라, 그렇지 않으면 다음은 바로 당신”과 그 위협적 함의를 분석한다.
 
-[^42]: [Taipei Times: MAC Statement on Transnational Repression](https://www.taipeitimes.com/News/taiwan/archives/2025/10/29/2003846284) — Taipei Times 2025-10-29 report on Mainland Affairs Council defining CCP's investigation of Shen Pei-yang as "transnational repression" official statement.
+[^42]: [Taipei Times: MAC Statement on Transnational Repression](https://www.taipeitimes.com/News/taiwan/archives/2025/10/29/2003846284) — Taipei Times 2025-10-29 보도. 대륙위원회가 중국공산당의 선보양 입건 수사를 “초국경 탄압”(transnational repression)으로 규정한 공식 성명을 보도한다.
 
-[^43]: [Business Today: CCTV 7.5 min Deep Dive Shen Pei-yang (Shen's Facebook Response Excerpt)](https://www.businesstoday.com.tw/article/category/183027/post/202511090007/) — Business Today original text verbatim transcribing Shen Pei-yang's 11/9 Facebook post, including "Don't always do what I predict you will do, okay? Have some creativity" sentence.
+[^43]: [今周刊：央視 7 分半起底沈伯洋（沈本人臉書回應節錄）](https://www.businesstoday.com.tw/article/category/183027/post/202511090007/) — 《금주간》 원문은 선보양의 11/9 페이스북 게시물을 축자 전재하며, “내가 매번 당신들이 무엇을 할지 예측할 때마다, 당신들이 그대로 하지 않았으면 좋겠다. 창의성을 좀 가져라”라는 문장을 포함한다.
 
-[^44]: [CNA: Shen Pei-yang Video Responds to CCTV "One Country Each Side"](https://www.cna.com.tw/news/aipl/202511090131.aspx) — CNA 2025-11-09 report on Shen Pei-yang posting short video responding to CCTV, including "Taiwan and China are one country on each side," "Don't妄想 using fabricated charges to extend your hands to Taiwan," "Inform CCTV, seriously do your internal propaganda only" three direct quotes.
+[^44]: [中央社：沈伯洋影片回應央視「一邊一國」](https://www.cna.com.tw/news/aipl/202511090131.aspx) — 중앙통신사 2025-11-09 보도. 선보양이 CCTV에 답한 짧은 영상을 보도하며, “타이완과 중국은 일변일국이다”, “날조한 죄명으로 당신들의 손을 타이완까지 뻗으려는 망상은 하지 말라”, “CCTV에 고한다. 당신들의 내부 선전에나 성실하라”는 세 문장을 직접 인용한다.
 
-[^45]: [Human Rights Watch: Maya Wang Statement](https://www.hrw.org/news/2025/10/31/china-dubious-criminal-investigation-of-taiwanese-legislator) — Human Rights Watch Asia Division Deputy Director Maya Wang 2025-10-31 statement full text, condemning CCP case as "Chinese law of transnational abuse of power."
+[^45]: [Human Rights Watch: Maya Wang Statement](https://www.hrw.org/news/2025/10/31/china-dubious-criminal-investigation-of-taiwanese-legislator) — Human Rights Watch 아시아 부국장 Maya Wang의 2025-10-31 성명 전문. 중국공산당의 이 사건이 “초국경적으로 남용되는 중국 법률”이라고 규탄한다.
 
-[^47]: [CNA: US State Department Concerns China Investigating Shen Pei-yang](https://www.cna.com.tw/news/aipl/202511150018.aspx) — CNA 2025-11-15 report on US State Department publicly expressing concern over China investigating Shen Pei-yang, criticizing this act for destroying cross-strait status quo norms.
+[^47]: [中央社：美國國務院關切中國偵查沈伯洋](https://www.cna.com.tw/news/aipl/202511150018.aspx) — 중앙통신사 2025-11-15 보도. 미국 국무부가 중국의 선보양 수사 사건에 대해 공개 우려를 표명하고, 이 조치가 양안 현상 유지 규범을 훼손한다고 비판한 내용을 보도한다.
 
-[^48]: [Liberty Times: IPAC's Luke de Pulford Supports Shen Pei-yang](https://news.ltn.com.tw/news/politics/breakingnews/5247849) — Liberty Times report on Inter-Parliamentary Alliance on China (IPAC) co-founder Luke de Pulford publicly posting support for Shen Pei-yang content.
+[^48]: [自由時報：IPAC 裴倫德力挺沈伯洋](https://news.ltn.com.tw/news/politics/breakingnews/5247849) — 자유시보는 대중정책 초국가의회연맹(IPAC) 공동창립자 Luke de Pulford가 선보양을 공개적으로 지지한 글의 내용을 보도한다.
 
-[^49]: [Liberty Times: Legislative Yuan Foreign Affairs and National Defense Committee Passes Condemnation Motion](https://news.ltn.com.tw/news/politics/breakingnews/5250860) — Liberty Times 2025-11-19 report on Legislative Yuan Foreign Affairs and National Defense Committee passing temporary proposal condemning CCP investigation of Shen Pei-yang, including Wang Ting-yu and other proposers' speech original text.
+[^49]: [自由時報：立法院外交及國防委員會通過譴責案](https://news.ltn.com.tw/news/politics/breakingnews/5250860) — 자유시보 2025-11-19 보도. 입법원 외교 및 국방위원회가 중국공산당의 선보양 입건 조사를 규탄하는 임시 제안을 통과시켰으며, 왕딩위 등 제안자의 발언 원문을 포함한다.
 
-[^50]: [Liberty Times: China Bounties Ba Jiong, Minnan Wolf](https://news.ltn.com.tw/news/politics/breakingnews/5244379) — Liberty Times 2025-11 report on Chinese Public Security issuing bounties for YouTubers "Ba Jiong" and "Minnan Wolf," highest 250,000 RMB details.
+[^50]: [自由時報：中國懸賞八炯閩南狼](https://news.ltn.com.tw/news/politics/breakingnews/5244379) — 자유시보 2025-11 보도. 중국 공안이 YouTuber “바중”과 “민난랑”에 대해 최고 인민폐 25만 위안의 현상금을 건 세부 내용을 보도한다.
 
-[^51]: [Liberty Times: Shen Pei-yang Exposes Pinhole at Doorstep and Threatening Letter](https://news.ltn.com.tw/news/politics/breakingnews/5163138) — Liberty Times 2025-08-31 report on Shen Pei-yang on Cheng Hung-yi's _Talk Era Figures_ program first publicly exposing doorstep disguised motorcycle screw pinhole camera incident, threatening letter with wife's photo with "Death" character written, threatening to slit daughter's throat, and wife Zeng Hsin-hui's anxiety insomnia reaction.
+[^51]: [自由時報：沈伯洋自爆家門口針孔與恐嚇信](https://news.ltn.com.tw/news/politics/breakingnews/5163138) — 자유시보 2025-08-31 보도. 선보양이 정훙이의 《화시대인물》 프로그램에서 집 문 앞 오토바이 나사로 위장한 핀홀 카메라 사건, 아내 사진에 “死” 자를 쓴 협박편지, 딸의 목을 베겠다는 위협, 아내 쩡신후이의 불안과 불면 반응을 처음 공개한 일을 보도한다.
 
-[^52]: [ETtoday _Fireline Figures_: Shen Pei-yang Zeng Hsin-hui Adopt Daughter Interview](https://www.ettoday.net/news/20240706/2771565.htm) — ETtoday 2024-07-06 Fireline Figures column report on Shen Pei-yang and wife Zeng Hsin-hui adopting daughter "Mochi" through Li-Hsin Foundation full process, including 2.5-year process, "belly mom" concept, "I was really needed for the first time" scene, and Shen Pei-yang's view on bloodlines.
+[^52]: [ETtoday《火線人物》：沈伯洋曾心慧收養女兒專訪](https://www.ettoday.net/news/20240706/2771565.htm) — ETtoday 2024-07-06 화선인물 칼럼. 선보양과 아내 쩡신후이가 리신기금회를 통해 딸 “마치”를 입양한 전 과정을 보도하며, 2년 반의 절차, “배 엄마” 개념, “내가 처음으로 정말 필요해졌다”는 장면, 선보양의 혈연관을 포함한다.
 
-[^53]: [United Daily News: Shen Pei-yang German Parliament Hearing Speech](https://udn.com/news/story/124655/9136657) — United Daily News 2025-11-12 report on Shen Pei-yang attending German Bundestag hearing "The Threat of Disinformation from Dictatorial States to Democracy and Human Rights" process and post-hearing interview quotes.
+[^53]: [聯合新聞網：沈伯洋德國國會聽證會發言](https://udn.com/news/story/124655/9136657) — 연합신문망 2025-11-12 보도. 선보양이 독일 연방의회 청문회 “권위주의 국가의 허위정보가 민주주의와 인권에 가하는 위협”에 참석한 과정과 청문회 뒤 인터뷰 발언을 보도한다.
 
-[^54]: [CNA: IPAC The Hague Meeting Shen Pei-yang Fan Yun Photo](https://www.cna.com.tw/news/aipl/202511210369.aspx) — CNA 2025-11-21 report, recording Shen Pei-yang and Fan Yun attending Inter-Parliamentary Alliance on China (IPAC) meeting at door of International Criminal Court in The Hague, Netherlands.
+[^54]: [中央社：IPAC 海牙會議 沈伯洋范雲合影](https://www.cna.com.tw/news/aipl/202511210369.aspx) — 중앙통신사 2025-11-21 보도. 선보양과 판윈이 네덜란드 헤이그 국제형사재판소 앞에서 대중정책 초국가의회연맹(IPAC) 회의에 참석한 사실을 기록한다.
 
-[^55]: [Taipei Times: Shen at Liberal International Hague Panel](https://www.taipeitimes.com/News/front/archives/2025/11/23/2003847673) — Taipei Times 2025-11-23 report on Shen Pei-yang's speech at Liberal International 209th Executive Committee panel, including "China is a paper tiger," "symbolic propaganda for domestic audiences," "This is where dictators are tried for war crimes or genocide" three quotes.
+[^55]: [Taipei Times: Shen at Liberal International Hague Panel](https://www.taipeitimes.com/News/front/archives/2025/11/23/2003847673) — Taipei Times 2025-11-23 보도. 선보양이 Liberal International 제209차 집행위원회 패널에서 한 발언을 보도하며, “China is a paper tiger”, “symbolic propaganda for domestic audiences”, “This is where dictators are tried for war crimes or genocide” 세 인용문을 포함한다.
 
-[^56]: [Ministry of Foreign Affairs: Solemn Condemnation of CCP Doxxing Shen Pei-yang Residence](https://www.mofa.gov.tw/News_Content.aspx?n=95&s=121443) — Republic of China Ministry of Foreign Affairs official website 2026-01-03 condemnation statement full text, including "vile method of digital authoritarianism known as 'doxxing'," "losing the bottom line of civilization, deeply disgusting," "those cooperating with China in transnational repression domestic accomplices should be subject to legal sanctions" three official usages.
+[^56]: [外交部：對中共肉搜沈伯洋住所提出嚴正譴責](https://www.mofa.gov.tw/News_Content.aspx?n=95&s=121443) — 중화민국 외교부 공식 웹사이트 2026-01-03 규탄 성명 전문. “신상털이라는 디지털 권위주의의 비열한 수법”, “문명의 최저선을 상실한 행위이며 깊이 경멸받아 마땅하다”, “중국에 협력해 초국경 탄압을 수행한 국내 협력자는 모두 법적 제재를 받아야 한다”는 공식 표현을 포함한다.
 
-[^57]: [Liberty Times: National Police Agency Fully Protects Shen Pei-yang Safety](https://news.ltn.com.tw/news/politics/breakingnews/5298005) — Liberty Times 2026-01-03 report on National Police Agency responding to satellite positioning event, announcing fully protecting Shen Pei-yang safety and severely punishing local accomplices.
+[^57]: [自由時報：警政署全力維護沈伯洋安全](https://news.ltn.com.tw/news/politics/breakingnews/5298005) — 자유시보 2026-01-03 보도. 경정서가 위성 좌표 사건에 대응해 선보양의 안전을 전력으로 보호하고 현지 협력자를 엄벌하겠다고 발표한 내용을 보도한다.
 
-[^58]: [Taiwan News: Meta Google Remove Satellite Imagery Posts](https://www.taiwannews.com.tw/news/6276185) — Taiwan News 2026-01-05 report on Meta, Google removing "Gu Yan Mu Chan" and "Today's Strait" posts, videos, and images publishing Shen Pei-yang satellite images under Digital Ministry request.
+[^58]: [Taiwan News: Meta Google Remove Satellite Imagery Posts](https://www.taiwannews.com.tw/news/6276185) — Taiwan News 2026-01-05 보도. 디지털발전부의 요구에 따라 Meta와 Google이 “구옌무찬” 및 “진르하이샤”가 공개한 선보양 위성사진 관련 게시물, 영상, 이미지를 삭제한 일을 보도한다.
 
-[^59]: [Liberty Times: Shen Pei-yang 1/3 Facebook Response "Collective Inferiority" and "Useful Idiots"](https://news.ltn.com.tw/news/politics/breakingnews/5298010) — Liberty Times 2026-01-03 report on Shen Pei-yang Facebook response to satellite positioning event, including "China marked Shen Pei-yang's coordinates, but what it showed is their collective inferiority complex towards democratic Taiwan," Useful Idiots academic citation, "Kansai Airport incident clumsy copycat" analysis, etc.
+[^59]: [自由時報：沈伯洋 1/3 facebook 回應「集體自卑」與「Useful Idiots」](https://news.ltn.com.tw/news/politics/breakingnews/5298010) — 자유시보 2026-01-03 보도. 선보양이 위성 좌표 사건에 대해 페이스북에서 답한 내용, 즉 “중국이 표시한 것은 선보양의 좌표지만, 드러낸 것은 민주 타이완에 대한 그들의 집단적 열등감”, Useful Idiots 학술 인용, “간사이공항 사건의 조악한 복제판” 분석 등을 포함한다.
 
-[^60]: [Liberty Times: Shen Pei-yang Reveals China 2026 Taiwan Lock Three Axes](https://news.ltn.com.tw/news/politics/breakingnews/5321342) — Liberty Times 2026-01-24 report on Shen Pei-yang Facebook long article revealing CCP "physical disarmament, mental cognitive change, electoral resource monopoly" three axes, including "My biggest function should still be 'target'" self-mockery original text.
+[^60]: [自由時報：沈伯洋揭中國 2026 鎖台三軸線](https://news.ltn.com.tw/news/politics/breakingnews/5321342) — 자유시보 2026-01-24 보도. 선보양이 페이스북 장문에서 중국공산당의 “물리적 무장해제, 정신적 인지 변화, 선거 자원 독점” 세 축을 제시한 내용을 보도하며, “나의 가장 큰 기능은 아마 여전히 ‘과녁’일 것이다”라는 자조적 원문을 포함한다.
 
-[^61]: [Taipei Times: Shen Returns from 8-Day France Mission](https://www.taipeitimes.com/News/taiwan/archives/2026/02/16/2003852414) — Taipei Times 2026-02-16 report on Shen Pei-yang completing France 8-day diplomatic mission, spending Valentine's Day on plane, returning to Facebook post promising "I will stand at the forefront with my country" full translation.
+[^61]: [Taipei Times: Shen Returns from 8-Day France Mission](https://www.taipeitimes.com/News/taiwan/archives/2026/02/16/2003852414) — Taipei Times 2026-02-16 보도. 선보양이 8일간의 프랑스 외교 임무를 마치고, 밸런타인데이를 비행기 안에서 보냈으며, 귀국 뒤 페이스북 글에서 “나의 국가와 함께 계속 최전선에 설 것”이라고 약속한 전문 번역을 보도한다.
 
-[^62]: [United Daily News: Plan to Push Shen Pei-yang to Fight Taipei City](https://udn.com/news/story/124652/9422462) — United Daily News 2026-04 report, recording DPP Election Strategy Committee 4/7 meeting discussion, insiders revealing plan to push Shen Pei-yang to run for Taipei Mayor political layout.
+[^62]: [聯合新聞網：擬推沈伯洋戰台北市](https://udn.com/news/story/124652/9422462) — 연합신문망 2026-04 보도. 민주진보당 선거대책위원회가 4/7 회의를 열어 논의했고, 사정을 아는 인사가 선보양을 타이베이시장 후보로 내세우려 한다고 밝힌 정치적 배치를 기록한다.
 
-[^63]: [United Daily News: Xu Guo-yong Endorses Shen Pei-yang to Fight Taipei City](https://udn.com/news/story/124652/9442093) — United Daily News report on former Minister of the Interior Xu Guo-yong publicly endorsing Shen Pei-yang running for Taipei Mayor content.
+[^63]: [聯合新聞網：徐國勇背書沈伯洋戰北市](https://udn.com/news/story/124652/9442093) — 연합신문망은 전 내정부장 쉬궈융이 선보양의 타이베이시장 도전을 공개적으로 지지한 내용을 보도한다.
 
-[^64]: [TVBS Polling Center: 2025-12 Taipei Mayor Poll](https://cc.tvbs.com.tw/portal/file/poll_center/2025/20251208/f76262efaa46dd37ae3df58e65b2d1eb.pdf) — TVBS Polling Center 2025-12 published Taipei Mayor poll PDF full text, Ko Wen-je support 64%, Shen Pei-yang 22%.
+[^64]: [TVBS 民調中心：2025-12 台北市長民調](https://cc.tvbs.com.tw/portal/file/poll_center/2025/20251208/f76262efaa46dd37ae3df58e65b2d1eb.pdf) — TVBS 여론조사센터가 2025-12 공개한 타이베이시장 여론조사 PDF 전문. 장완안 지지도 64%, 선보양 22%를 기록했다.
 
-[^65]: [United Daily News: Shen Pei-yang Transforms First Time on Stage with Ko Wen-je](https://udn.com/news/story/124652/9463754) — United Daily News 2026-04-25 report on Shen Pei-yang saying goodbye to afro, first time on stage with Ko Wen-je at Songshan Ci Huai Temple Mother Goddess Culture Festival,外界 comparing to Takuya Kimura/Hsiao Hsiao/Pae Yong-jun etc. topics.
+[^65]: [聯合新聞網：沈伯洋變身首度與蔣萬安同台](https://udn.com/news/story/124652/9463754) — 연합신문망 2026-04-25 보도. 선보양이 파마머리를 떠나보내고, 쑹산츠후이탕 모냥문화제에서 처음으로 장완안과 같은 무대에 섰으며, 외부에서 기무라 타쿠야/장샤오취안/배용준 등에 비유한 화제를 보도한다.

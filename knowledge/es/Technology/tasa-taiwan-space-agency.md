@@ -19,7 +19,7 @@ lastVerified: 2026-06-04
 lastHumanReview: false
 featured: true
 translatedFrom: 'Technology/國家太空中心.md'
-sourceCommitSha: '548bbecb1'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:632fbb2c7532c256'
 sourceBodyHash: 'sha256:532bab3de6be101e'
 translatedAt: '2026-06-07T00:37:31+08:00'

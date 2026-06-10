@@ -22,11 +22,26 @@ featured: true
 lastVerified: 2026-04-26
 lastHumanReview: true
 translatedFrom: 'Lifestyle/台灣交通系統.md'
-sourceCommitSha: 'f99a9959'
-sourceContentHash: 'sha256:9836460c1aa1a78f'
-sourceBodyHash: 'sha256:c2b8a86142503325'
-translatedAt: '2026-05-01T20:54:17+08:00'
+sourceCommitSha: '7678a430'
+sourceContentHash: 'sha256:f05e6146f7a532ed'
+sourceBodyHash: 'sha256:9a046555ce3577ad'
+translatedAt: '2026-06-10T16:45:50Z'
 category: Lifestyle
+datasets:
+  - id: '14208'
+    name: '機動車輛登記數統計'
+    url: 'https://data.gov.tw/dataset/14208'
+    agency: '交通部公路局'
+    update_freq: '每1月'
+    why: '文中 1,400 萬輛機車、每千人 678 輛，逐月登記數可自己算成長曲線'
+    verified: 2026-06-10
+  - id: '25932'
+    name: '桃園市A1及A2類道路交通事故每年統計-傷亡人數統計(91至114年)'
+    url: 'https://data.gov.tw/dataset/25932'
+    agency: '桃園市政府警察局'
+    update_freq: '每1年'
+    why: '文中「2023 年死亡超過 3,000 人」是全國數字，這是同一條曲線的單一直轄市 24 年序列'
+    verified: 2026-06-10
 ---
 
 # Le système de transport taïwanais : comment une île s'est compressée en 90 minutes
@@ -154,6 +169,13 @@ L'histoire maritime est encore plus spectaculaire. Des années 1980 aux années 
 - [La culture du scooter à Taïwan](/lifestyle/台灣機車文化) — derrière 14 millions de scooters : conception urbaine, politique de classe et guerre des droits routiers
 - [Le développement de la chaîne industrielle des véhicules électriques à Taïwan](/technology/台灣電動車產業鏈發展) — au-delà de Gogoro, le rôle de Taïwan dans la chaîne d'approvisionnement mondiale des véhicules électriques
 - [Les caractéristiques géographiques et la formation de l'île de Taïwan](/geography/台灣島嶼地理特色與形成) — la chaîne de montagnes centrale, la divergence est-ouest, et les origines géologiques des plaques tectoniques
+
+## Données publiques
+
+Les jeux de données publics ci-dessous permettent de vérifier — ou de réfuter — les chiffres de cet article. Les liens pointent vers les pages permanentes de [data.gov.tw](https://data.gov.tw/). Les lecteurs qui travaillent avec une IA peuvent interroger le même corpus via la passerelle MCP de données ouvertes taïwanaise [Twinkle Hub](https://hub.twinkleai.tw/).
+
+- [Statistiques d'immatriculation des véhicules motorisés](https://data.gov.tw/dataset/14208) (Direction des routes du ministère des Transports, mise à jour mensuelle) — les 14 millions de scooters et la densité de 678 véhicules pour mille habitants cités dans l'article : les chiffres d'immatriculation mensuels permettent de reconstituer soi-même la courbe qui continue de grimper
+- [Statistiques annuelles des accidents de la circulation A1 et A2 à Taoyuan — bilan des victimes (1991-2025)](https://data.gov.tw/dataset/25932) (Direction de la police de la mairie de Taoyuan, mise à jour annuelle) — les « plus de 3 000 morts en 2023 » cités dans l'article sont un chiffre national ; voici la même courbe à l'échelle d'une seule municipalité spéciale, 24 ans de série temporelle des victimes
 
 ## Références
 

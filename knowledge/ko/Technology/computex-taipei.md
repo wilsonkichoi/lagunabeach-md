@@ -23,10 +23,10 @@ lastVerified: 2026-06-04
 lastHumanReview: false
 featured: true
 translatedFrom: 'Technology/Computex.md'
-sourceCommitSha: 'c6ff13fe2'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:d37367135548def0'
 sourceBodyHash: 'sha256:bb5555703c8ada78'
-translatedAt: '2026-06-07T00:37:31+08:00'
+translatedAt: '2026-06-10T16:42:09Z'
 ---
 
 # Computex: 3대 국제 컴퓨터 전시회 중 둘은 막을 내렸고, 남은 하나는 타이베이에서 자랐다

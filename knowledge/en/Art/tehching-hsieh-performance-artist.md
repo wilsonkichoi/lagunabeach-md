@@ -19,11 +19,20 @@ readingTime: 16
 lastVerified: 2026-04-20
 lastHumanReview: 2026-04-20
 researchReport: 'reports/research/2026-04/謝德慶.md'
+sporeLinks:
+  - id: 39
+    platform: 'threads'
+    date: '2026-04-20'
+    url: 'https://www.threads.com/@taiwandotmd/post/DXVpBlLk4oE'
+  - id: 40
+    platform: 'x'
+    date: '2026-04-20'
+    url: 'https://x.com/taiwandotmd/status/2046066338138104130'
 translatedFrom: 'Art/謝德慶.md'
-sourceCommitSha: '5db9f136'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:6c03cf0ef8e01a7d'
 sourceBodyHash: 'sha256:63227fedc7d1144a'
-translatedAt: '2026-05-01T12:53:58+08:00'
+translatedAt: '2026-06-10T16:43:34Z'
 ---
 
 ## Tehching Hsieh: A Taiwanese Artist Who Turned 14 Years of Illegal Status into Performance Art

@@ -18,10 +18,25 @@ readingTime: 8
 featured: false
 translatedFrom: 'Economy/夜市經濟學.md'
 lastVerified: 2026-03-21
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:0fad49e81799ba5a'
-sourceBodyHash: 'sha256:3e5dc2a574d892a7'
-translatedAt: '2026-04-14T19:21:51+08:00'
+sourceCommitSha: '7678a430'
+sourceContentHash: 'sha256:d707615db91a024a'
+sourceBodyHash: 'sha256:7e08a20853bbe066'
+translatedAt: '2026-06-10T16:45:50Z'
+datasets:
+  - id: '10918'
+    name: '攤販經營概況調查'
+    url: 'https://data.gov.tw/dataset/10918'
+    agency: '行政院主計總處'
+    update_freq: '每5年'
+    why: '文中 23.3 萬攤、35.7 萬從業人員、3,954 億營收的源頭普查'
+    verified: 2026-06-10
+  - id: '85028'
+    name: '臺中市列管夜市'
+    url: 'https://data.gov.tw/dataset/85028'
+    agency: '臺中市政府經濟發展局'
+    update_freq: '不定期更新'
+    why: '「理論上不該存在的商業模式」被政府列管成正式清單的城市切片'
+    verified: 2026-06-10
 ---
 
 > Chaque soir à dix-huit heures, 233 000 étals s'illuminent simultanément à Taïwan. Sans marque commune, sans décoration somptueuse, sans même un emplacement fixe — ces petits stands en apparence « peu professionnels » génèrent pourtant près de 400 milliards de TWD par an et font vivre 470 000 familles. C'est le modèle commercial le plus singulier au monde, et la réussite économique la plus emblématique de Taïwan.
@@ -157,6 +172,13 @@ Derrière les 400 milliards de TWD de chiffre d'affaires, il y a la subsistance 
 L'économie des marchés de nuit nous enseigne que parfois, la méthode en apparence la moins « professionnelle » est en réalité le modèle commercial le plus efficace.
 
 ---
+
+## Données publiques
+
+Les jeux de données publics ci-dessous permettent de vérifier — ou de réfuter — les chiffres de cet article. Les liens pointent vers les pages permanentes de [data.gov.tw](https://data.gov.tw/). Les lecteurs qui travaillent avec une IA peuvent interroger le même corpus via la passerelle MCP de données ouvertes taïwanaise [Twinkle Hub](https://hub.twinkleai.tw/).
+
+- [Enquête sur les conditions d'exploitation des stands](https://data.gov.tw/dataset/10918) (Bureau central de statistiques de l'Exécutif Yuan, enquête quinquennale) — les 233 000 stands, 357 000 employés et 395,4 milliards de TWD de chiffre d'affaires cités dans l'article proviennent directement de ce recensement quinquennal ; la prochaine vague réécrira mécaniquement cet article
+- [Marchés de nuit déclarés à Taichung](https://data.gov.tw/dataset/85028) (Bureau du développement économique de la mairie de Taichung, mise à jour irrégulière) — à quoi ressemble « un modèle commercial qui en théorie ne devrait pas exister » quand un gouvernement le transforme en liste officielle déclarée, vue depuis une seule ville
 
 ## Références
 

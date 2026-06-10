@@ -17,10 +17,10 @@ readingTime: 8
 lastVerified: 2026-04-28
 lastHumanReview: false
 translatedFrom: 'Culture/伊斯蘭教在台灣.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:95c297a5e630bb43'
-sourceBodyHash: 'sha256:dbceb7d9f3f49bcd'
-translatedAt: '2026-05-01T22:19:06+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:4018ce6791ff917b'
+sourceBodyHash: 'sha256:bd3400d2929f24fe'
+translatedAt: '2026-06-10T17:00:20Z'
 ---
 
 > **Aperçu en 30 secondes :** L'islam à Taïwan n'est pas une culture étrangère importée, mais une mémoire ancienne profondément inscrite dans les veines de l'île. Des descendants des « Hui Ding » de Quanzhou arrivés avec Koxinga à la fin de la dynastie Ming et au début de la dynastie Qing, aux 260 000 travailleurs migrants musulmans indonésiens qui soutiennent aujourd'hui les secteurs de la pêche et des soins aux personnes âgées à Taïwan, cette foi a connu un voyage extraordinaire sur l'île, passant de l'assimilation et de la disparition à l'épanouissement dans la diversité.

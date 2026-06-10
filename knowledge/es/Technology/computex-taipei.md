@@ -23,10 +23,10 @@ lastVerified: 2026-06-04
 lastHumanReview: false
 featured: true
 translatedFrom: 'Technology/Computex.md'
-sourceCommitSha: 'c6ff13fe2'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:d37367135548def0'
 sourceBodyHash: 'sha256:bb5555703c8ada78'
-translatedAt: '2026-06-07T00:37:31+08:00'
+translatedAt: '2026-06-10T16:45:00+00:00'
 ---
 
 # Computex: de las tres grandes ferias internacionales de computadoras, dos cerraron; la que queda creció en Taipéi

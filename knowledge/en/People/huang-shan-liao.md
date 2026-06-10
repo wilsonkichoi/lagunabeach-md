@@ -18,10 +18,20 @@ category: 'People'
 readingTime: 12
 lastVerified: 2026-06-07
 lastHumanReview: false
+sporeLinks:
+  - id: 128
+    platform: 'threads'
+    date: '2026-06-07'
+    url: 'https://www.threads.com/@taiwandotmd/post/DZSRQKnk3Vm'
+  - id: 129
+    platform: 'x'
+    date: '2026-06-07'
+    url: 'https://x.com/taiwandotmd/status/2063604185912987689'
 translatedFrom: 'People/黃山料.md'
-sourceCommitSha: 'fcc2a6a68'
-sourceContentHash: 'sha256:1931764847aac8b9'
-translatedAt: '2026-06-09T01:35:53+08:00'
+sourceCommitSha: 'dd39065b'
+sourceContentHash: 'sha256:dba98b3ec5b142b0'
+sourceBodyHash: 'sha256:a1dcff0ad13c1e91'
+translatedAt: '2026-06-10T16:43:34Z'
 ---
 
 # Huang Shanliao: No one looked at the champion's clothes, so he started selling 'a sentence of comfort'

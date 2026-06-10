@@ -18,9 +18,10 @@ readingTime: 12
 lastVerified: 2026-03-31
 lastHumanReview: true
 translatedFrom: 'Food/台灣手路菜.md'
-sourceCommitSha: 'b0e441faa'
-sourceContentHash: 'sha256:ff399c43604618f1'
-translatedAt: '2026-06-09T03:28:13+08:00'
+sourceCommitSha: 'b0e441fa'
+sourceContentHash: 'sha256:976bf813ab549fe2'
+translatedAt: '2026-06-10T16:41:16Z'
+sourceBodyHash: 'sha256:c76694b44c893f41'
 ---
 
 > **30-Second Overview:** "Hand-cooked dishes" (手路菜) is a Teochew term for "signature dishes" [^1], referring to those requiring true skill, lacking standard recipes, and passed down orally from master to apprentice. Its most concentrated exhibition field is the "banquet" (辦桌)—a Taiwanese banquet tradition where tents are erected by the roadside and cooking fires are lit on-site. Neimen in Kaohsiung, due to its barren land, accidentally became the township with the highest density of banquet chefs (zongpushi) in Taiwan. In its golden age, one banquet company hosted 25,000 tables a year. However, from hotel weddings to the COVID-19 pandemic, banquet orders shrank by 90% over twenty years, taking away not just the taste of the food, but also the neighborly mutual aid of "returning the vegetable tail soup."

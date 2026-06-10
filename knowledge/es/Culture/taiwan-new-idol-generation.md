@@ -21,10 +21,10 @@ lastVerified: 2026-04-23
 lastHumanReview: false
 featured: false
 translatedFrom: 'Culture/台灣新偶像世代.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:8258a0ced6980600'
-sourceBodyHash: 'sha256:3dda77b7510dd761'
-translatedAt: '2026-05-02T01:17:17+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:3599258a3ecbb3d8'
+sourceBodyHash: 'sha256:ab167ea5a070ce1e'
+translatedAt: '2026-06-10T16:58:37+00:00'
 ---
 
 > **Resumen en 30 segundos:** Tras el debut de S.H.E en 2001, Taiwán pasó diecinueve años completos sin producir un grupo de ídolos exitoso. En 2020, el productor Chan Jen-hsiung invirtió 130 millones de dólares taiwaneses en crear el reality show de talento _Diamond Girls 52 (DD52)_, con la intención de relanzar la cadena industrial de ídolos taiwanesa a través de un solo programa. En los seis años siguientes, DD52, _Atom Boyz_, _Next Girlz_, _Atom Boyz 2_ y _Cosmic Angels_ — cinco programas, cuatro premios Golden Bell, más de cincuenta ídolos debutados y más de diez grupos. Pero la popularidad de los equipos campeones a menudo fue inferior a la de los subcampeones, siete grupos masculinos sufrieron una "caída abrupta" de popularidad un año después del debut, y la dificultad de sobrevivir tras debutar se convirtió en el problema estructural más profundo de la industria de ídolos de Taiwán.

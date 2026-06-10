@@ -28,7 +28,7 @@ readingTime: 15
 lastVerified: 2026-04-18
 lastHumanReview: true
 translatedFrom: People/Cicada.md
-sourceCommitSha: '5db9f136'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:fe41f66467969b5d'
 sourceBodyHash: 'sha256:94ae560f9807778b'
 translatedAt: 2026-05-01T20:54:10+08:00

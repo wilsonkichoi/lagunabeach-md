@@ -21,10 +21,10 @@ readingTime: 13
 lastVerified: 2026-04-29
 lastHumanReview: false
 translatedFrom: Culture/基督教在台灣.md
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:875b7e202aed03cb'
-sourceBodyHash: 'sha256:4b3f831fea6a96bf'
-translatedAt: 2026-05-02T01:17:17+08:00
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:91764d361c63b5b7'
+sourceBodyHash: 'sha256:a99853057e82dc58'
+translatedAt: '2026-06-10T16:58:37+00:00'
 ---
 
 > **Panorama en 30 segundos:** El desarrollo del cristianismo en Taiwán ha sido una larga maratón de la "incomprensión" a la "coexistencia". Los misioneros del siglo XIX abrieron las puertas de la sociedad con "una Biblia en una mano y un alicate en la otra"; solo Mackay extrajo más de veinte mil dientes. Tras enfrentar la presión de la adoración en santuarios shinto durante el período japonés y los años de socorro de la "iglesia de la harina" bajo la ayuda estadounidense de posguerra, esta fuerza se orientó finalmente hacia la política durante la ley marcial: la Iglesia Presbiterana publicó arriesgadamente la _Declaración de Derechos Humanos_, convirtiéndose en una voz innegable en el proceso de democratización de Taiwán. En la actualidad, los misioneros mormones —con sus camisas blancas y sus bicicletas— constituyen otro paisaje singular en las calles taiwanesas.

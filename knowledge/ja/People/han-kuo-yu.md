@@ -10,10 +10,10 @@ lastVerified: 2026-04-11
 lastHumanReview: false
 featured: true
 translatedFrom: 'People/韓國瑜.md'
-sourceCommitSha: '86db85f3'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:43806fa3b9658513'
 sourceBodyHash: 'sha256:fe00573219684528'
-translatedAt: '2026-05-25T21:07:04Z'
+translatedAt: '2026-06-10T16:41:16Z'
 ---
 
 # 韓国瑜

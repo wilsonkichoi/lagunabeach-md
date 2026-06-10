@@ -10,10 +10,10 @@ readingTime: 8
 lastVerified: 2026-04-28
 lastHumanReview: false
 translatedFrom: 'Culture/伊斯蘭教在台灣.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:95c297a5e630bb43'
-sourceBodyHash: 'sha256:dbceb7d9f3f49bcd'
-translatedAt: '2026-05-01T16:04:11+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:4018ce6791ff917b'
+sourceBodyHash: 'sha256:bd3400d2929f24fe'
+translatedAt: '2026-06-10T16:57:09Z'
 ---
 
 > **30秒概覧：** 台湾のイスラム教は外来の異文化ではなく、島の血脈に深く埋め込まれた古い記憶です。明末清初に鄭成功に従って台湾に渡った泉州の「回丁（かいてい）」の子孫から、現在台湾の長期介護と漁業を支える26万人のインドネシア人ムスリム移住労働者まで、この信仰は台湾において同化による消失から多様な開花へと至る幻想的な旅を経てきました。

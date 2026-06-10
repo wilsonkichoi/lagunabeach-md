@@ -27,10 +27,10 @@ readingTime: 17
 lastVerified: 2026-04-18
 lastHumanReview: true
 translatedFrom: People/草東沒有派對.md
-sourceCommitSha: '5db9f136'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:c93963fdd3e6600a'
 sourceBodyHash: 'sha256:5d39f10852397392'
-translatedAt: 2026-05-01T22:19:06+08:00
+translatedAt: 2026-06-10T16:45:50Z
 ---
 
 > **En 30 secondes :** No Party for Cao Dong est un groupe indépendant de quatre membres fondé le 9 juin 2012 au carrefour de la rue Jianxian et de la rue Cao Dong sur le mont Yangming à Taipei. En 2016, ils ont pressé à leurs frais 2 000 CD faits main, vendus en trois jours. Lors des 28e Golden Melody Awards en 2017, ils ont remporté de manière écrasante le meilleur groupe (en battant Mayday), le meilleur nouvel artiste et la chanson de l'année ([〈大風吹〉](https://www.youtube.com/watch?v=HqmpIQ9l-uA)), avec des scores de 19, 19 et 18 voix au premier tour. Le 30 octobre 2021, la batteuse Fan Fan (Cai Yifan, 26 ans) est décédée dans un hôtel de quarantaine à Taipei, plongeant le groupe dans un silence de près de deux ans. Le 20 mai 2023, ils ont sorti leur deuxième album _The Clod_ — « 瓦合 » (wǎ hé) apparaît dans le _Mémoire historique_ (Shiji), dans la « Biographie des érudits confucéens » (Ru Lin Lie Zhuan), et le sens étendu « des tuiles brisées assemblées, agrégées mais non identiques » provient d'une annotation de Yan Shugu de la dynastie Tang sur le _Livre des Han_ (Hanshu), dans la « Biographie de Li, Lu, Zhu, Liu, Shu Sun ». [^19] En 2024, avec _The Clod_, ils ont remporté le triple prix des 35e Golden Melody Awards : album de l'année + meilleur album mandarin + meilleur groupe. Le groupe était absent cette nuit-là ; le manager a accepté en déclarant : « No Party for Cao Dong n'a jamais été seulement les 4 personnes sur scène. » C'est une histoire de douze ans, dont le cœur est **perdre, se taire, revenir, perdre encore, se taire encore, revenir encore**.

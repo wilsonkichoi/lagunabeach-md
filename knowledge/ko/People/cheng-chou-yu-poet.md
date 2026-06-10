@@ -10,7 +10,7 @@ lastVerified: 2026-05-24
 lastHumanReview: false
 featured: true
 translatedFrom: 'People/鄭愁予.md'
-sourceCommitSha: '3951afb0'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:086f24d0c1633e3e'
 sourceBodyHash: 'sha256:f40f6f8b3d6781ad'
 translatedAt: '2026-05-26T05:10:57+08:00'

@@ -16,9 +16,10 @@ readingTime: 12
 lastVerified: 2026-04-12
 lastHumanReview: false
 translatedFrom: 'Society/太陽花學運.md'
-sourceCommitSha: '1844f59c5'
+sourceCommitSha: 'a33cc554'
 sourceContentHash: 'sha256:de374340ca4140af'
-translatedAt: '2026-06-09T02:11:39+08:00'
+sourceBodyHash: 'sha256:1bf83c4f24dc53dd'
+translatedAt: '2026-06-10T16:58:25Z'
 ---
 
 > **30-Second Overview:** On March 17, 2014, KMT legislator Chang Ching-chung lay on the floor and used a small microphone clipped to his lapel to announce in thirty seconds that the Cross-Strait Service Trade Agreement (CSSTA) was "deemed reviewed." Overnight, over two hundred students scaled the walls to occupy the Legislative Yuan, setting up a twenty-four-hour live stream using an iPad, bypassing all television stations. Twenty-four days later, the students withdrew; the CSSTA was not vetoed—it was abandoned by history. The numbers twelve years later say it all: Taiwan's trade dependence on China fell from 42% to 31.5%. They won a war they didn't know they were fighting.

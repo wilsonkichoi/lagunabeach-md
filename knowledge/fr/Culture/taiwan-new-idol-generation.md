@@ -21,10 +21,10 @@ lastVerified: 2026-04-23
 lastHumanReview: false
 featured: false
 translatedFrom: 'Culture/台灣新偶像世代.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:8258a0ced6980600'
-sourceBodyHash: 'sha256:3dda77b7510dd761'
-translatedAt: '2026-05-01T20:54:17+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:3599258a3ecbb3d8'
+sourceBodyHash: 'sha256:ab167ea5a070ce1e'
+translatedAt: '2026-06-10T17:00:20Z'
 ---
 
 > **En 30 secondes :** Après les débuts de S.H.E en 2001, Taïwan a passé dix-neuf ans sans produire de groupe d'idoles à succès. En 2020, le producteur Zhan Renxiong a investi 130 millions de dollars taïwanais dans l'émission de télé-crochet _Diamond Girls 52_ (DD52), tentant de relancer la chaîne industrielle des idoles taïwanaises à travers une seule émission. Au cours des six années suivantes, DD52, Atom Boyz, Next Girlz, Atom Boyz 2 et Cosmic Angels — cinq émissions, quatre Golden Bells, plus de cinquante idoles lancées, plus de dix groupes. Mais la popularité des groupes vainqueurs était souvent inférieure à celle des finalistes, sept groupes masculins ont vu leur notoriété « chuter en chute libre » un an après leurs débuts, et la difficulté de perdurer après un lancement facile est devenue le problème structurel le plus profond de l'industrie des idoles à Taïwan.

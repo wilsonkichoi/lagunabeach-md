@@ -25,10 +25,10 @@ lastVerified: 2026-05-09
 lastHumanReview: false
 featured: false
 translatedFrom: 'Nature/颱風.md'
-sourceCommitSha: '4407f0af6'
-sourceContentHash: 'sha256:b25ee135b9bea711'
-sourceBodyHash: 'sha256:c5aa7038d81fc4d3'
-translatedAt: '2026-06-03T21:58:47+08:00'
+sourceCommitSha: 'dd39065b'
+sourceContentHash: 'sha256:fb28c7a415f87d9c'
+sourceBodyHash: 'sha256:c57123f891fb2cee'
+translatedAt: '2026-06-10T16:45:00+00:00'
 ---
 
 # Puede predecir el viento y la lluvia, pero no el destino: cuatrocientos años de Taiwán y los tifones
@@ -61,7 +61,7 @@ Durante el periodo Tongzhi de la dinastía Qing (hacia 1865), los británicos co
 
 Ciento sesenta años antes, en Penghu, en 1705, el funcionario Sun Yuan-heng presenció un huracán con sus propios ojos. Escribió los ochenta y cinco versos de la “Canción del huracán”: “El viento de otoño levantó una ráfaga furiosa durante la noche; la madre del huracán llegó del oeste, altiva en su ira”.[^35] Hoy, trescientos años después, cada vez que se acerca un tifón, sus versos vuelven a leerse en alguna publicación de Facebook.
 
-El tiempo salta al 31 de julio de 1996. El tifón Herb golpeó Taiwán, y Alishan recibió 1.094,5 milímetros de lluvia en un solo día: el equivalente a la precipitación “anual” de Taipéi, volcada en veinticuatro horas.[^5] Fue la primera vez desde la instalación de la estación meteorológica en 1933. Años más tarde, un usuario de PTT recordó: “El tifón Herb inundó directamente mi casa del primer piso”. Otro dijo: “La mayor parte de los estanques de peces y tierras agrícolas que fueron el trabajo de toda la vida de mi padre se los llevó el agua”.[^5] Herb fue llamado “el 921 del mundo de los tifones”, con pérdidas totales de unos 25.000 a 30.000 millones de nuevos dólares taiwaneses.
+El tiempo salta al 31 de julio de 1996. El tifón Herb golpeó Taiwán, y Alishan recibió 1.094,5 milímetros de lluvia en un solo día: el equivalente a casi medio año de precipitación de Taipéi, volcada en veinticuatro horas.[^5] Fue la primera vez desde la instalación de la estación meteorológica en 1933. Años más tarde, un usuario de PTT recordó: “El tifón Herb inundó directamente mi casa del primer piso”. Otro dijo: “La mayor parte de los estanques de peces y tierras agrícolas que fueron el trabajo de toda la vida de mi padre se los llevó el agua”.[^5] Herb fue llamado “el 921 del mundo de los tifones”, con pérdidas totales de unos 25.000 a 30.000 millones de nuevos dólares taiwaneses.
 
 Cinco años después, en septiembre de 2001, el tifón Nari permaneció sobre Taiwán durante 49 horas con una trayectoria extraña. La estación meteorológica de Taipéi registró 425 milímetros de lluvia en un día, un máximo histórico en sus 105 años.[^2] Toda la línea Bannan del Metro de Taipéi quedó suspendida, y 16 estaciones y talleres se inundaron por completo. Cuando Hu Tsung-li, entonces jefe de tramo de la línea Bannan, escapó con sus llaves y cientos de miles de nuevos dólares para gastos operativos, las 12 estaciones que administraba habían quedado anegadas en una sola noche. En el barrio de Bishan, en Neihu, los residentes habían impulsado durante un año el reciclaje de recursos; cuando llegó el desastre, 150.000 toneladas de basura paralizaron por completo todo el sistema de reciclaje.[^2]
 
@@ -105,13 +105,13 @@ _9 de agosto de 2009, Minxiong, Chiayi. Morakot avanzó lentamente y las lluvias
 
 “Menos, pero más fuertes” invierte la lógica previa de prevención de desastres. Antes, la premisa para asignar recursos era que “cada año vendrán varios”. Ahora, la premisa pasa a ser que “quizá todo el verano esté tranquilo, pero si llega uno, habrá que resistir la destrucción de un año entero”. Un solo tifón equivale a un evento extremo anual.
 
-## Quienes persiguen el viento: Taiwán regresa desde el ojo del tifón
+## Quienes persiguen el viento: el Taiwán que lanza dropsondes a cuarenta mil pies sobre el ojo del tifón
 
 Las herramientas humanas frente a los tifones evolucionaron desde las banderas de colores de 1865 hasta la IA de 2025. En esa trayectoria hay un profesor de la Universidad Nacional de Taiwán llamado Wu Chun-chieh.
 
-Desde 2002 dirige el “Experimento de Observación de Tifones que Invaden Taiwán mediante Reconocimiento Aéreo y Sondas Lanzadas” (DOTSTAR, conocido popularmente como el proyecto de persecución de tifones), el primer gran proyecto de investigación de tifones en Asia. El 1 de septiembre de 2003, con el tifón Dujuan, el equipo realizó su primera misión formal. Hasta finales de 2012, completó misiones de observación de 49 tifones en 64 vuelos, lanzó 1.051 sondas de caída y acumuló 334 horas de vuelo. Esos datos de primera mano redujeron en promedio 20% el error de pronóstico de trayectoria de tifones a 24-72 horas.[^9]
+Desde 2002 dirige el “Experimento de Observación de Tifones que Invaden Taiwán mediante Reconocimiento Aéreo y Sondas Lanzadas” (DOTSTAR, conocido popularmente como el proyecto de persecución de tifones), el primer gran proyecto de investigación de tifones en Asia. El equipo usa un birreactor Astra SPX que sube a 43.000 pies y, dando vueltas en la periferia desde la cabeza del tifón, lanza dropsondes para recoger datos atmosféricos clave alrededor de la pared del ojo (un enfoque distinto al de los Hurricane Hunters estadounidenses, que atraviesan la pared del ojo con aviones de hélice). El 1 de septiembre de 2003, con el tifón Dujuan, el equipo realizó su primera misión formal. Hasta finales de 2012, completó misiones de observación de 49 tifones en 64 vuelos, lanzó 1.051 sondas de caída y acumuló 334 horas de vuelo. Esos datos de primera mano redujeron en promedio 20% el error de pronóstico de trayectoria de tifones a 24-72 horas.[^9]
 
-Wu Chun-chieh describió en primera persona lo que sentía dentro del ojo de un tifón:
+Wu Chun-chieh describió en primera persona lo que sentía de niño en Taitung al recibir y despedir el paso del ojo de un tifón desde tierra (no desde el avión):
 
 > “Crecí en Taitung y lo he perseguido. Primero sientes el viento del norte, porque el tifón gira en sentido antihorario; luego, de pronto, deja de haber viento, y eso significa que estás dentro del ojo. Unas decenas de minutos después empieza a soplar viento del sur: eso significa que el ojo ya pasó sobre ti”.
 

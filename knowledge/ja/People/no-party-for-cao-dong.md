@@ -26,9 +26,10 @@ readingTime: 17
 lastVerified: 2026-04-18
 lastHumanReview: true
 translatedFrom: 'People/草東沒有派對.md'
-sourceCommitSha: '5db9f136e'
-sourceContentHash: 'sha256:8ae5afb591a40c46'
-translatedAt: '2026-06-09T02:21:28+08:00'
+sourceCommitSha: 'dd39065b'
+sourceContentHash: 'sha256:c93963fdd3e6600a'
+translatedAt: '2026-06-10T16:41:16Z'
+sourceBodyHash: 'sha256:5d39f10852397392'
 ---
 
 > **30-Second Overview:** No Party For Cao Dong is a four-piece indie band formed in 2012 at the intersection of Jianxian Street and Cao Dong Street in Yangmingshan, Taipei. In 2016, they self-funded the pressing of 2,000 handmade CDs, which sold out in three days; at the 28th Golden Melody Awards in 2017, they decisively won Best Band (defeating Mayday), Best New Artist, and Song of the Year for [〈Big Wind Blows〉](https://www.youtube.com/watch?v=HqmpIQ9l-uA) with first-round votes of 19, 19, and 18. On October 30, 2021, drummer Fanfan (Tsai Yi-fan, aged 26) passed away in a quarantine hotel in Taipei, and the band fell into nearly two years of silence. On May 20, 2023, they released their second album _Wa He_ (The Clod) — "Wa He" appears in the _Records of the Grand Historian: Biographies of Confucian Scholars_, with the extended meaning "broken tiles joined together, though aggregated, are not uniform" originating from the Tang Dynasty scholar Yan Shigu's commentary on the _Book of Han: Biographies of Li, Lu, Zhu, Liu, and Shusun_. [^19] In 2024, with _Wa He_, they won the triple crown at the 35th Golden Melody Awards: Album of the Year, Best Mandarin Album, and Best Band; on the night of the awards, the band was absent, and the manager accepted the awards on their behalf, declaring: "No Party For Cao Dong has never been just the 4 people standing on stage." This is a twelve-year story, centered on **loss, silence, return, loss again, silence again, and return again**.

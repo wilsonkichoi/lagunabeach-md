@@ -19,10 +19,10 @@ readingTime: 10
 lastVerified: 2026-04-29
 lastHumanReview: false
 translatedFrom: 'Culture/台灣教會公報.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:3439ffa9774025fa'
-sourceBodyHash: 'sha256:2e121ca67feccc95'
-translatedAt: '2026-04-30T22:33:56+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:bbf4eb86e5c8f3f3'
+sourceBodyHash: 'sha256:50280d5b2f21e9e2'
+translatedAt: '2026-06-10T16:58:04Z'
 ---
 
 > **30-second overview:** On 12 June 1885 (the 11th year of Guangxu in the Qing dynasty), the British Presbyterian missionary Thomas Barclay published _Tâi-oân-hú-siâⁿ Kàu-hōe-pò_ (the Taiwan Prefectural Church News) in Tainan. Printed in church Romanization (Pe̍h-ōe-jī), it was the first newspaper in Taiwan's history. Through Qing rule, Japanese colonization, and postwar authoritarianism, it was suspended twice, banned from using the mother tongue, and had an entire press run seized by the Garrison Command — and it is still in print today. In 2025 it turned 140, making it the longest-running periodical still publishing in Taiwan. Its supplement covers everything from theology to social issues, and since 2022 has even featured columns on generative AI.

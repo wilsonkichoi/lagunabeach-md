@@ -22,10 +22,10 @@ featured: true
 lastVerified: 2026-04-26
 lastHumanReview: true
 translatedFrom: Lifestyle/台灣交通系統.md
-sourceCommitSha: 'f99a9959'
-sourceContentHash: 'sha256:9836460c1aa1a78f'
-sourceBodyHash: 'sha256:c2b8a86142503325'
-translatedAt: 2026-05-01T22:19:01+08:00
+sourceCommitSha: '7678a430'
+sourceContentHash: 'sha256:f05e6146f7a532ed'
+sourceBodyHash: 'sha256:9a046555ce3577ad'
+translatedAt: '2026-06-10T16:42:09Z'
 category: Lifestyle
 ---
 
@@ -154,6 +154,13 @@ YouBike 2.0의 도입으로 정류장이 지하 케이블에 연결될 필요가
 - [대만 오토바이 문화](/lifestyle/台灣機車文化) — 1,400만 대 오토바이 뒤의 도시 설계, 계급 정치, 그리고 도로 사용권 전쟁
 - [대만 전기차 산업 사슬 발전](/technology/台灣電動車產業鏈發展) — Gogoro 너머, 대만의 전기차 글로벌 공급망에서의 역할
 - [대만 섬 지리적 특성과 형성](/geography/台灣島嶼地理特色與形成) — 중앙산맥, 동서 분화의 판 지질적 기원
+
+## 공개 데이터
+
+아래 정부 개방 데이터는 이 글의 주장을 직접 검증하거나 반박하는 데 쓸 수 있다. 링크는 [data.gov.tw](https://data.gov.tw/)의 영구 페이지로 연결된다. AI로 작업하는 독자는 타이완의 개방 데이터 MCP 게이트웨이 [Twinkle Hub](https://hub.twinkleai.tw/)를 통해 같은 데이터셋을 조회할 수도 있다.
+
+- [자동차 등록대수 통계](https://data.gov.tw/dataset/14208)(교통부 공로국, 매월 갱신) — 본문의 1,400만 대 오토바이, 인구 1,000명당 678대의 밀도; 월별 등록대수가 여기 있어, 아직도 올라가는 그 곡선을 직접 계산할 수 있다
+- [타오위안시 A1 및 A2급 도로교통사고 연도별 통계 - 사상자수 통계](https://data.gov.tw/dataset/25932)(타오위안시정부 경찰국, 매년 갱신) — 본문의 “2023년 교통사고 사망자 3,000명 초과”는 전국 수치다; 이것은 단일 직할시 24년간의 사상자 시계열, 같은 곡선의 지역 해상도
 
 ## 참고 자료
 

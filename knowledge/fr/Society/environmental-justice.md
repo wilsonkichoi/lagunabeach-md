@@ -20,10 +20,10 @@ category: 'Society'
 lastVerified: 2026-03-20
 lastHumanReview: false
 translatedFrom: 'Society/台灣環境正義與鄰避爭議.md'
-sourceCommitSha: '1d54cbe5'
-sourceContentHash: 'sha256:14488432802fabfe'
-sourceBodyHash: 'sha256:eeb9b885e5063119'
-translatedAt: '2026-05-03T23:14:07+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:ca7f70cdde7f6b9f'
+sourceBodyHash: 'sha256:81936e65730d0960'
+translatedAt: '2026-06-10T17:00:20Z'
 ---
 
 # Justice environnementale et conflits NIMBY à Taïwan
@@ -222,6 +222,7 @@ Dans une société démocratique, les décisions environnementales devraient rep
 
 **Pour aller plus loin** :
 
+- Le débat sur le nucléaire à Taïwan — les Tao de Lanyu portent le poids des déchets nucléaires sans être au cœur du débat : la faille NIMBY et de justice environnementale la plus profonde du dossier nucléaire
 - [鐵皮屋](/society/鐵皮屋) — 塭仔圳拆遷是環境正義的典型案例：400 公頃鐵皮工廠聚落的污染、拆除與搬遷安置困境
 - [社會住宅與居住正義](/society/社會住宅與居住正義) — 居住問題的政策面：社會住宅供給與租屋市場改革
 - [盧秀燕](/people/盧秀燕) — 從 2018 年以空氣議題贏下台中的政治人物，中火、PM2.5、能源轉型的具體政策戰場

@@ -20,9 +20,10 @@ readingTime: 12
 lastVerified: 2026-06-09
 lastHumanReview: false
 translatedFrom: 'Food/台灣辦桌文化.md'
-sourceCommitSha: 'b0e441faa'
+sourceCommitSha: 'a33cc554'
 sourceContentHash: 'sha256:b2717c04ac0e7d69'
-translatedAt: '2026-06-09T03:27:16+08:00'
+sourceBodyHash: 'sha256:ad9286b907bc9e14'
+translatedAt: '2026-06-10T16:58:21Z'
 ---
 
 # Taiwanese Bando: The Martial Field That Opens Tables Amidst Torrential Rain, and the Fading Human-Ghost-Divine Trinity

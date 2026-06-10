@@ -1,8 +1,15 @@
 ---
-title: "Cheng Li-wen"
+title: 'Cheng Li-wen'
 description: "From the student activist who went on a hunger strike for Taiwan independence at the NTU gate in 1988 to the KMT chairperson who told Xi Jinping in Beijing in 2026 that 'compatriots across the strait are all Chinese.' What happened along this trajectory?"
 date: 2026-04-11
-tags: ['political_figure', 'Kuomintang', 'cross-strait_relations', 'student_movement_generation', '2026']
+tags:
+  [
+    'political_figure',
+    'Kuomintang',
+    'cross-strait_relations',
+    'student_movement_generation',
+    '2026',
+  ]
 subcategory: 'Political Figures'
 author: 'Taiwan.md'
 difficulty: 'intermediate'
@@ -11,9 +18,9 @@ featured: true
 lastVerified: 2026-04-11
 lastHumanReview: false
 translatedFrom: 'People/鄭麗文.md'
-sourceCommitSha: 'd6e87d07'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:d7d8adfe5a1c7158'
-translatedAt: 2026-05-16T22:21:10Z
+translatedAt: 2026-06-10T16:45:50Z
 sourceBodyHash: 'sha256:119c3d104b24e9dd'
 ---
 
@@ -33,7 +40,7 @@ This was the first time she realized that the "Taiwan independence" she envision
 
 What happened between that female student on a hunger strike and this KMT chairperson speaking in Beijing?
 
-> **30-Second Overview**: Cheng Li-wen, born in 1969 in a Veterans Affairs family in Tainan, joined the DPP in 1988 and went on a hunger strike at the NTU gate for the Huang Hua Taiwan independence case. She was elected to the National Convention in 1996. In 2002, she left the DPP due to the Wu Rui-ren incident. In 2005, she was invited by Lien Chan to join the KMT. Serving as a legislator and spokesperson for the Executive Yuan three times starting in 2008, she hosted the political talk show *Li-wen's Straight Talk* on TVBS from 2014 to 2015. In October 2025, she was elected KMT Chairperson, becoming the second female directly elected leader in the party's history; her election slogan was "I am Chinese." After taking office, she faced controversy over the White Terror Autumn Memorial, which commemorated espionage cases. On April 10, 2026, she represented the KMT in meeting Xi Jinping in Beijing, becoming the first leader of a major political party in the Republic of China to meet with the General Secretary of the Communist Party of China in ten years.
+> **30-Second Overview**: Cheng Li-wen, born in 1969 in a Veterans Affairs family in Tainan, joined the DPP in 1988 and went on a hunger strike at the NTU gate for the Huang Hua Taiwan independence case. She was elected to the National Convention in 1996. In 2002, she left the DPP due to the Wu Rui-ren incident. In 2005, she was invited by Lien Chan to join the KMT. Serving as a legislator and spokesperson for the Executive Yuan three times starting in 2008, she hosted the political talk show _Li-wen's Straight Talk_ on TVBS from 2014 to 2015. In October 2025, she was elected KMT Chairperson, becoming the second female directly elected leader in the party's history; her election slogan was "I am Chinese." After taking office, she faced controversy over the White Terror Autumn Memorial, which commemorated espionage cases. On April 10, 2026, she represented the KMT in meeting Xi Jinping in Beijing, becoming the first leader of a major political party in the Republic of China to meet with the General Secretary of the Communist Party of China in ten years.
 
 ## How a Top Student Learned International Politics
 
@@ -55,7 +62,7 @@ Within the party, she earned the title "Warrior" (Zhan Jiang). The reason was he
 
 But being a "Warrior" came with a cost. In 2005, while serving as Director of the KMT's Cultural and Propaganda Committee, she named and criticized DPP Taichung Mayor candidate Lin Chia-lung as a "corrupt mob" in an election advertisement. Lin sued her under the Election and Recall Act. The first instance sentenced her to three months in prison and deprived her of public rights for one year, later reduced to one month in detention suspended. [^9] Another controversy involved her violating KMT regulations on party positions by hosting a radio show for more than the four-hour weekly limit. These two controversies were not fatal, but they left a common label on her political career: **"Very capable, but often crossing the line."**
 
-From 2014 to 2015, she hosted the TVBS political talk show *Li-wen's Straight Talk*. [^10] This show solidified her "political talk style": direct, sharp, hitting the nail on the head, often using a single sentence to corner her opponent. This style was directly related to her path to becoming KMT Chairperson—she did not rely on organizations or local factions, but on "being able to speak."
+From 2014 to 2015, she hosted the TVBS political talk show _Li-wen's Straight Talk_. [^10] This show solidified her "political talk style": direct, sharp, hitting the nail on the head, often using a single sentence to corner her opponent. This style was directly related to her path to becoming KMT Chairperson—she did not rely on organizations or local factions, but on "being able to speak."
 
 On October 18, 2025, the results of the 12th KMT Chairperson election were announced. Cheng Li-wen defeated former Taipei Mayor Hung Hsiu-chu and current legislator Luo Chih-chiang with approximately 50% of the vote, becoming the second female directly elected chairperson in KMT history, the first being Hung Hsiu-chu. [^11]
 
@@ -87,7 +94,7 @@ Less than three weeks after becoming KMT Chairperson, Cheng Li-wen attended the 
 
 Who is Wu Shi? He was the former Deputy Chief of Staff of the Republic of China Ministry of National Defense, executed at the Machangding firing range in Taipei in 1950. His charge was: **Communist Spy**. He was indeed a high-level intelligence agent for the CCP潜伏 (hidden) in Taiwan, codenamed "Secret Agent No. 1," providing intelligence to the CCP around the time of the KMT's retreat to Taiwan in 1949. Historically recognized as a CCP spy—even the CCP itself later publicly acknowledged him and listed him as a "Revolutionary Martyr."
 
-The autumn memorial Cheng Li-wen attended placed Wu Shi on the same commemorative list as other "White Terror victims," and a Chinese red song, *Song of Rest*, was played on site. The Ministry of Foreign Affairs issued a statement with very heavy wording: This was "whitewashing criminals who betrayed the country and sold out their comrades into a tragedy of mutual slaughter between KMT and CCP and a historical tragedy," representing "the most serious harm to national dignity." [^15]
+The autumn memorial Cheng Li-wen attended placed Wu Shi on the same commemorative list as other "White Terror victims," and a Chinese red song, _Song of Rest_, was played on site. The Ministry of Foreign Affairs issued a statement with very heavy wording: This was "whitewashing criminals who betrayed the country and sold out their comrades into a tragedy of mutual slaughter between KMT and CCP and a historical tragedy," representing "the most serious harm to national dignity." [^15]
 
 Cheng Li-wen's response was divided into two parts. The first part was denial: She said she did not know beforehand that Wu Shi was on the memorial list; she went for "White Terror Commemoration," not to "commemorate a CCP spy." [^16] The second part was an extension: She mentioned that she too had gone on a hunger strike for Huang Hua in her youth, believing that tragedies between the two sides of the strait should be viewed within the same historical narrative—this was a language of "grand historical reconciliation." [^17]
 
@@ -159,7 +166,7 @@ So the real question is not "Has Cheng Li-wen changed?" but: **Has Taiwan change
 
 [^9]: [Zheng Liwen - Baidu Baike](https://baike.baidu.com/item/%E9%83%91%E4%B8%BD%E6%96%87/2093188) — Baidu Baike records Cheng Li-wen's complete judicial record during her tenure as Director of the KMT's Cultural and Propaganda Committee in 2005, where she was sued by Lin Chia-lung for violating the Election and Recall Act due to an election advertisement, initially sentenced to three months in prison and deprived of public rights for one year, later reduced to one month in detention suspended.
 
-[^10]: [Cheng Li-wun - Wikipedia](https://en.wikipedia.org/wiki/Cheng_Li-wun) — The English Wikipedia records Cheng Li-wen's tenure and style positioning hosting the political talk show *Li-wen's Strait Talk* on TVBS Cable Television Network during 2014-2015.
+[^10]: [Cheng Li-wun - Wikipedia](https://en.wikipedia.org/wiki/Cheng_Li-wun) — The English Wikipedia records Cheng Li-wen's tenure and style positioning hosting the political talk show _Li-wen's Strait Talk_ on TVBS Cable Television Network during 2014-2015.
 
 [^11]: [Cheng Li-wen Breaks Through with Warrior Image, Green Camp Origin Elected KMT Chairperson - CNA](https://www.cna.com.tw/news/aipl/202510180186.aspx) — CNA's election night report recorded the results of the 12th KMT Chairperson election on October 18, 2025, where Cheng Li-wen defeated Hung Hsiu-chu and Luo Chih-chiang with approximately 50% of the vote, becoming the second female directly elected chairperson in party history.
 

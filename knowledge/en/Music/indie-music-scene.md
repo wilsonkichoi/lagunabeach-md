@@ -19,10 +19,10 @@ lastVerified: 2026-03-29
 lastHumanReview: false
 featured: true
 translatedFrom: 'Music/台灣獨立音樂.md'
-sourceCommitSha: '4b6d28c54'
-sourceContentHash: 'sha256:bfe914abc0149304'
-sourceBodyHash: 'sha256:a16a5ddb8083143e'
-translatedAt: '2026-05-24T05:06:32+08:00'
+sourceCommitSha: '73443b2a'
+sourceContentHash: 'sha256:cd1df8dc4931d5ab'
+sourceBodyHash: 'sha256:c54c3768ed377e41'
+translatedAt: '2026-06-10T16:43:34Z'
 ---
 
 **Thirty-second overview: In 1986, Ren Jiang-da, of Korean-Japanese descent, borrowed NT$300,000 to take over a failing record store and began importing "music nobody wanted to hear" into Taiwan. Forty years later, the ecosystem that grew out of that shop, from live houses and independent labels to StreetVoice and the Golden Indie Music Awards, sent a band selling records in coffee shops to the Golden Melody Awards' Album of the Year, and sent an all-English Taipei band to Coachella. Four decades of Taiwanese independent music has been a relay race with no finish line: every runner is gasping for air, every runner feels close to collapse, but the baton has never fallen.**
@@ -203,6 +203,7 @@ What Ren Jiang-da told those children may be the same thing Taiwanese independen
 - [The History of Taiwanese Rock](/music/台灣搖滾樂發展史) — The complete path of rock in Taiwan from banned songs to the mainstream
 - [Taiwan's Music Festival Culture](/music/台灣音樂祭文化) — How the Ho-Hai-Yan Rock Festival became an incubator for independent music
 - [LTK Commune](/music/濁水溪公社) — Thirty years of Taiwanese-language punk underground; after disbanding, the band received its first Golden Melody nomination and won Best Taiwanese Album
+- [Sodagreen](/music/蘇打綠) — From the 2001 NCCU Golden Voice Award to the 2023 Chitang Movie Night, the full twenty-year arc of a Taiwanese indie band, including the trademark lawsuit and the resistance under the “Yu Ding Xi (魚丁糸)” alter ego
 
 ## References
 

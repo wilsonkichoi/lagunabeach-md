@@ -1,364 +1,373 @@
 ---
-title: "Taiwan's Nuclear Debate: Anti-Nuclear Was the Common Language of Democracy, Climate Crisis Has Shuffled Every Hand"
-description: "In August 2025, 4.34 million people voted 'yes' to 'restarting Nuclear Plant No. 3,' winning by 74%, but lost because the voter turnout did not meet the threshold. Over forty years and three referendums, Taiwan moved from an anti-nuclear consensus to a 'Nuclear-Free Homeland,' only to push the shut-down reactor back toward restart within three months. This debate has long transcended the binary of 'is nuclear energy good or bad'; it is about how a society decides on an issue with opposing time pressures: nuclear waste must be stable for 100,000 years, carbon reduction must be achieved within ten years, and power shortages are happening now."
+title: 'Taiwán y el debate sobre la energía nuclear: el antinuclearismo fue un lenguaje común del movimiento democrático, pero la crisis climática barajó de nuevo a todos los actores'
+description: 'En agosto de 2025, 4,34 millones de personas votaron a favor de “reiniciar la central nuclear Nº 3” y ganaron con el 74%, pero la propuesta se dio por perdida porque la participación no superó el umbral. En tres referendos durante cuarenta años, Taiwán pasó del consenso antinuclear a la patria sin energía nuclear, y luego, en tres meses, empujó con sus propias manos hacia el reinicio un reactor que acababa de cerrar. Este debate ya dejó atrás la pregunta binaria de si “la energía nuclear es buena o mala”: trata de cómo una sociedad decide algo sometido a presiones temporales opuestas: los residuos nucleares deben permanecer seguros durante cien mil años, la reducción de carbono debe lograrse en una década y la escasez eléctrica ocurre ahora.'
 date: 2026-06-07
-tags:
-  [
-    'nuclear energy',
-    'Nuclear Plant No. 4',
-    'Nuclear Plant No. 3',
-    'anti-nuclear movement',
-    'nuclear-free homeland',
-    'referendum',
-    'energy policy',
-    'environmental justice',
-    'Lanyu',
-    'energy security',
-  ]
-subcategory: 'Energy and Environmental Policy'
 author: 'Taiwan.md'
 category: 'Society'
-readingTime: 12
+subcategory: '能源與環境政策'
+tags:
+  [
+    'energía nuclear',
+    'central nuclear Nº 4',
+    'central nuclear Nº 3',
+    'movimiento antinuclear',
+    'patria sin energía nuclear',
+    'referendo',
+    'política energética',
+    'justicia ambiental',
+    'Isla de las Orquídeas',
+    'seguridad energética',
+  ]
 lastVerified: 2026-06-07
 lastHumanReview: false
+featured: false
 translatedFrom: 'Society/台灣與核能的討論.md'
-sourceCommitSha: '44238bb4f'
-sourceContentHash: 'sha256:0cf5d58073c426c0'
-translatedAt: '2026-06-09T03:58:18+08:00'
+sourceCommitSha: '7678a430b'
+sourceContentHash: 'sha256:3c2b41ea5e35d05a'
+sourceBodyHash: 'sha256:b926b1c1f3149aa8'
+translatedAt: '2026-06-11T00:44:03+08:00'
 ---
 
-# Taiwan's Nuclear Debate: Anti-Nuclear Was the Common Language of Democracy, Climate Crisis Has Shuffled Every Hand
+# Taiwán y el debate sobre la energía nuclear: el antinuclearismo fue un lenguaje común del movimiento democrático, pero la crisis climática barajó de nuevo a todos los actores
 
-> **30-Second Overview:** On August 23, 2025, Taiwan held a referendum on whether to "restart Nuclear Plant No. 3." 4.34 million people voted in favor, with 74% approval, but lost because the voter turnout was only 29.53%, failing to meet the 5 million vote threshold. This was Taiwan's third nuclear referendum in forty years—the 2018 "Nuclear for Green" passed, the 2021 "Nuclear Plant No. 4 Commercial Operation" was rejected, and the 2025 "Nuclear Plant No. 3 Extension" hit the threshold wall. Each result was different, yet the ground barely moved with the votes. More paradoxically, the very government that wrote "Nuclear-Free Homeland" into its party platform and whose president publicly cast a "no" vote is the one pushing the reactor, shut down just three months prior, toward restart. Anti-nuclear was once the common language of Taiwan's democratic movement; with the arrival of the climate crisis, every side in this debate has been reshuffled, and Taiwan remains without consensus.
+> **Resumen en 30 segundos:** El 23 de agosto de 2025, un referendo en Taiwán preguntó si debía permitirse el reinicio de la central nuclear Nº 3. Votaron a favor 4,34 millones de personas, el 74%, pero la propuesta perdió porque la participación fue de apenas 29,53% y no alcanzó el umbral de cinco millones de votos. Fue el tercer referendo nuclear de Taiwán en cuarenta años: en 2018 se aprobó “usar lo nuclear para alimentar lo verde”, en 2021 se rechazó la operación comercial de la central nuclear Nº 4 y en 2025 la extensión de la central Nº 3 quedó bloqueada por el umbral. Cada resultado fue distinto, pero sobre el terreno casi nada siguió el movimiento de las urnas. Lo más paradójico es que el reactor que acababa de cerrar tres meses antes fue empujado hacia el reinicio por un gobierno cuyo partido había escrito la “patria sin energía nuclear” en su programa y cuyo presidente votó públicamente en contra. El antinuclearismo fue un lenguaje común del movimiento democrático taiwanés; tras la llegada de la crisis climática, todos los lados de este debate fueron barajados de nuevo, y Taiwán sigue sin consenso.
 
-On the evening of August 23, 2025, the Central Election Commission's vote count froze: the Nuclear Plant No. 3 extension referendum, with 4,341,432 votes in favor and 1,511,693 against[^1]. The "yes" votes were nearly three times the "no" votes, with 74.17% saying "yes"[^2].
+La tarde del 23 de agosto de 2025, las cifras de escrutinio de la Comisión Electoral Central quedaron fijadas: en el referendo sobre la extensión de la central nuclear Nº 3 hubo 4.341.432 votos a favor y 1.511.693 en contra[^1]. Los votos favorables fueron casi tres veces los contrarios: 74,17% dijo “sí”[^2].
 
-By the common intuition of democracy, the outcome of this debate should have been clear. But it lost.
+Según la intuición democrática habitual, el ganador de este debate debería estar claro. Pero perdió.
 
-Because the Referendum Act stipulates that "yes" votes must exceed one-quarter of the total voting population nationwide; the threshold this time was 5,000,523 votes; the voter turnout was only 29.53%, and the "yes" votes didn't even touch the threshold[^1]. Huang Kuo-chang, chairman of the People First Party and the referendum proposer, said after the vote count that the "yes" votes for this referendum "far exceeded the 'no' votes by nearly three times"[^3]. Cui Suxin, spokesperson for the National Abolition of Nuclear Energy Action Platform, pointed out: "Even though the 'yes' votes are higher than the 'no' votes, the final referendum result did not pass and has no legal effect."[^4] These two sentences describe the same set of numbers but draw opposite conclusions.
-
-```tw-figure
-4,341,432 votes (74%) → Failed
-"Yes" votes were nearly three times the "no" votes, but failed to pass due to a 29.53% voter turnout falling below the 5 million vote threshold
-Central Election Commission 2025 Nuclear Plant No. 3 Extension Referendum Results
-```
-
-Won the debate, lost the system. This paradox of the summer of 2025 is the entry point to understanding the entire Taiwan nuclear energy discussion: on the surface, it asks "is nuclear energy good or bad," but underneath, they are arguing about something else.
-
-![In April 2013, anti-nuclear civil groups surrounded the Legislative Yuan. This is the most common street scene in Taiwan's forty-year nuclear debate.](/article-images/society/anti-nuclear-protest-legislative-yuan-voa-2013.jpg)
-
-## The Yellow Flag That Shouted "I Am Human, I Am Anti-Nuclear"
-
-To understand why this debate is so difficult, we must return to when it was not yet an "energy debate." In January 2013, a group of arts and culture figures initiated a petition, designing a yellow flag with red text that read "I Am Human, I Am Anti-Nuclear"[^5]. On March 9 of that year, approximately 220,000 people across Taiwan took to the streets—120,000 in Taipei, 30,000 in Taichung, 70,000 in Tainan, and 2,000–3,000 in Taitung—making it the largest march in the history of Taiwan's anti-nuclear movement[^6]. This yellow flag was planted at bookstore entrances, hung in coffee shop windows, and stuck on young people's backpacks, becoming a visual tattoo for a generation.
-
-But the roots of this flag go much deeper than 2013, and initially had little to do with nuclear energy. In 1986, residents of Lugang heard that the American company DuPont was coming to set up a titanium dioxide plant. Local teacher Li Dongliang initiated a petition and street march, shouting "I Love Lugang, Not DuPont"[^7]. The following March, DuPont announced the cancellation of the plant; in August of the same year, the Environmental Protection Bureau was established[^8]. The Lugang anti-DuPont movement was an **anti-pollution** movement, not inherently anti-nuclear—but it was the seed of Taiwan's post-war street environmental movement. That same energy quickly flowed toward another target: Nuclear Plant No. 4.
-
-In 1988, residents of Gongliao established the Yanliao Anti-Nuclear Self-Help Association[^9]. This plant, later named "Longmen" (Nuclear Plant No. 4), has been building for over thirty years since its site selection in Yanliao in 1980, yet has generated zero commercial power[^10]. The most tragic page in between was the "Gongliao 1003 Incident" of 1991: during the protest, a resident drove a car and killed security police officer Yang Chaojing, causing the movement to hit a low point[^9]. In 1994, Gongliao held a local referendum, with 96.13% of voters opposing Nuclear Plant No. 4—although the Referendum Act had not yet passed, this vote had no legal effect[^11].
-
-> **📝 Curator's Note**
->
-> The common narrative is "anti-nuclear is a progressive value, so the progressive camp is anti-nuclear." But this causality is actually reversed. Taiwan's anti-nuclear movement is unique because it **grew in the crack where the martial law regime was loosening**. Sociologist Ho Ming-hsiu writes directly in his research at Cambridge University: "The rise of anti-nuclear voices is closely related to democratic opening."[^12] In other words, Taiwanese people in the 1980s and 90s went to the streets to oppose nuclear energy, truly clashing with an authoritarian government that did not allow people to speak; Nuclear Plant No. 4 was just one of the few concrete targets that could unite people in that era. Anti-nuclear thus inherited all the legitimacy of the democratic movement. This also planted the foreshadowing for thirty years later: when nuclear energy became a "climate issue," this moral framework tied to democracy could no longer handle the new questions.
-
-Pushing this origin to its peak was one person's body.
-
-On the morning of April 22, 2014, former DPP Chairman Lin Yi-hsiung entered the Yiguang Church in Taipei and began an indefinite fast, demanding the halt of Nuclear Plant No. 4 construction[^13]. The location of Yiguang Church itself is a wound—on February 28, 1980, Lin Yi-hsiung's mother and a pair of twin daughters were stabbed to death in the old house here, known as the "Lin Family Tragedy," which remains unsolved to this day[^14]. Lin Yi-hsiung was an extra-parliamentary sufferer of the Formosa Incident and one of the first elected DPP chairmen; his fast connected the anti-nuclear movement with the bloodline of Taiwan's democratic movement into one.
-
-Nine days later, this fast ended. On April 27, the then-ruling Ma Ying-jeou government and the Kuomintang reached a consensus: Nuclear Plant No. 4 Unit 1 would be sealed after safety inspection, and Unit 2 would be halted; on April 28, the Executive Yuan officially announced the sealing; on April 30, Lin Yi-hsiung stopped fasting[^13].
-
-It is worth remembering: the government that pressed the pause button on Nuclear Plant No. 4 was not the anti-nuclear DPP, but the ruling Kuomintang government. This detail foreshadows the most chaotic part of the subsequent debate—the stance of every side is not as stable as you think.
-
-## Three Votes Over Seven Years, Yet the Ground Barely Moved
-
-The year after Lin Yi-hsiung's fast, the Fukushima nuclear disaster in 2011 had already flipped global nuclear politics[^10]. Taiwan's society also learned, in these years, to use a new tool to handle this question: the referendum.
-
-But the answers this tool gave were different three times.
-
-On November 24, 2018, the "Nuclear for Green" referendum (Case No. 16) passed. It sought to abolish the statutory deadline in the Electricity Act stating "nuclear power generation equipment should cease operation before 2025"—5,895,560 votes in favor, with a voter turnout of 54.83%[^15]. On the surface, this was a major victory for pro-nuclear forces.
-
-On December 18, 2021, the "Nuclear Plant No. 4 Commercial Operation" referendum (Case No. 17) was rejected. 3,804,689 votes in favor, 4,262,517 against, with a voter turnout of 41.09%, failing to meet the threshold[^16]. Nuclear Plant No. 4, built for thirty years without generating a single watt of electricity, was formally sentenced to death by the people.
-
-On August 23, 2025, it was the opening one: the Nuclear Plant No. 3 extension referendum (Case No. 21), with 74% approval but stuck at the threshold[^1].
-
-```tw-bars
-2018 Nuclear for Green (Abolish Nuclear-Free Deadline) | 59 | Yes 5.89M · Passed
-2021 Restart Nuclear Plant No. 4 Commercial Operation | 47 | Yes 3.80M · Rejected
-2025 Restart Nuclear Plant No. 3 Extension | 74 | Yes 4.34M · Hit Threshold
-Data Source: Central Election Commission official certification results for three referendums (% of yes votes)
-```
-
-Three votes over seven years, approval rates dropping from 59% to 47% then jumping to 74%, yet the results were Pass, Reject, Hit Threshold—like three dice, each time showing different numbers. Direct democracy can handle an arithmetic problem like "how much should electricity prices rise," but cannot handle a difficult problem where scientific judgment and value sorting are intertwined.
-
-More difficult is the paradox left by "Nuclear for Green." The vote in 2018 clearly abolished the legal text of the 2025 non-nuclear deadline, but the subsequent DPP government chose to voluntarily not extend the service, and Taiwan continued to move step by step toward non-nuclear by 2025[^17]. Therefore, the saying "the Nuclear-Free Homeland has already become invalid" circulated on the internet, which Fact-Checking Center Taiwan determined was **misinformation**: what was abolished was only the timeline in the Electricity Act, the "Nuclear-Free Homeland" goal revealed in Article 23 of the Basic Environmental Act remains effective[^17]. The law was torn in half, but the policy didn't let go—this is the most typical shape of Taiwan's nuclear energy discussion: every "win" comes with an unresolved tail.
-
-## A Government That Shut Down a Reactor, Then Wanted to Restart It
-
-In May 2025, Taiwan's power grid experienced a historic moment.
-
-On the evening of May 17, Nuclear Plant No. 3 Unit 2 in Hengchun, Pingtung began load reduction, disconnected at night, and officially shut down on the early morning of May 18[^18]. This was the first time Taiwan's power grid had no nuclear power at all. Some media described Taiwan as becoming the "Asia's First, World's Second" nuclear-free homeland—but this statement needs caution, as Italy had already stopped domestic nuclear power as early as 1990[^19].
-
-According to the "Nuclear-Free Homeland" script, the story should have ended here. But what happened in the following months tore up the script.
-
-Just four days before the shutdown, on May 13, 2025, the Legislative Yuan passed the third reading of the Amendment to Article 6 of the Nuclear Reactor Facility Control Act, with 61 votes in favor and 50 against, adding a clause that "licenses can be applied for extension after expiration," with a maximum operating life of 40 plus 20, totaling 60 years[^20]. Nuclear Plant No. 3 Unit 2's license exactly expired on May 17—the amendment was passed four days before expiration.
-
-By November 27, the Ministry of Economic Affairs determined the evaluation results: Nuclear Plant No. 1 is infeasible due to equipment demolition and being the same type as Fukushima; Nuclear Plants No. 2 and No. 3 have restart feasibility, requiring 1.5 to 2 years of self-inspection[^21]. In March 2026, the Lai Ching-te government announced that Nuclear Plants No. 2 and No. 3 meet the restart conditions, and the Taiwan Power Company submitted documents to the Nuclear and New Energy Administration, with Nuclear Plant No. 3 potentially restarting as early as 2028[^22].
-
-Thus appeared this scene: a government that wrote "Nuclear-Free Homeland" into its party platform, personally shut down the island's last reactor, and three months later personally pushed it toward restart.
-
-Lai Ching-te, caught in the middle, offered a stance called "pragmatic." He proposed three principles: "Nuclear Safety Without Worry, Nuclear Waste Has Solutions, Society Has Consensus," emphasizing "these three principles are indispensable," plus two musts—the Nuclear and New Energy Administration must formulate measures, and the Taiwan Power Company must complete self-inspection[^23]. But on August 13, 2025, ten days before the referendum, he publicly stated: "For the 8/23 referendum, I will go vote, let us together cast a 'no' vote."[^24]
-
-> **⚠️ Controversial Viewpoint**
->
-> How to read a government publicly opposing a referendum on "restarting a power plant it manages" depends on which side you stand on.
->
-> Pro-nuclear camps see contradiction and buck-passing: If you are sending documents for restart, why call on people to vote no? Kuomintang Chairman Chu Li-lun advocates that the government should "rebuild energy security and resilience" and "pragmatically adjust erroneous energy policies"[^25].
->
-> The Lai Ching-te government's explanation is about procedure and authorization: The referendum case was proposed by the opposition parties and tied to "immediate continuation," which is a different path from the government's主张 of "Nuclear and New Energy Administration把关, Taiwan Power Company self-inspection before discussion"; voting no is opposing "skipping safety procedures to restart immediately," not opposing nuclear energy itself. Premier Chuo Rong-tai explained this pragmatism more plainly: "Electricity is computing power, computing power is national power," "Anti-nuclear is not a sacred tablet"[^26].
->
-> Both readings hold up, depending on whether you focus on the "outcome (whether to have nuclear power)" or the "procedure (how to decide)." This is the epitome of why Taiwan's nuclear energy discussion is unsolvable—even the same action of the same government can be honestly read as two opposite things.
-
-## The Loudest Pro-Nuclear Flagbearer Is a Laptop Manufacturer
-
-If the anti-nuclear movement of the martial law era was a moral movement, the most surprising aspect of the recent resurgence of pro-nuclear voices is its highest-decibel spokesperson: standing on the front line, carrying the heaviest weight, is a laptop manufacturer.
-
-Hsu Tsyong-min, Chairman of Pegatron, has become the highest-decibel voice in Taiwan's pro-nuclear discourse in recent years. His words are direct and leave no room for ambiguity: "Not just Taiwan, including globally, if you do not rely on nuclear energy, you rely on solar plus wind power to save the earth, there is no hope."[^27] He advocates for nuclear power at about 1.42 NTD per kWh, and criticizes many international large companies pursuing RE100 (100% renewable energy) as "idealistic but somewhat castles in the air," believing that CFE (24-hour carbon-free electricity) incorporating nuclear energy "can better achieve carbon neutrality goals"[^28].
-
-This is the most critical change after the nuclear energy discussion was reshuffled by the climate crisis: **pro-nuclear discourse has been de-ideologized**. Its starting point has shifted from "nuclear energy is safe" to "carbon reduction is non-negotiable," "data centers consume electricity," "energy cannot be interrupted"—these industrial realities.
-
-The pro-nuclear camp can roughly be divided into three subgroups, each with different focuses. The popular science camp, represented by Huang Shih-hsiu, founder of "Nuclear Energy Rumor Terminator," focuses on cost: "Nuclear power costs 1.5 NTD per kWh, renewable energy 5.5 NTD per kWh."[^29] The academic camp, represented by Ye Zong-guang of National Tsing Hua University, focuses on technical clarification, for example, emphasizing that "the Hengchun Fault near Nuclear Plant No. 3 is different from the 'fault fracture zone' under the plant site, which the public often confuses"[^30]. The industry camp is this group of entrepreneurs, like Hsu Tsyong-min.
-
-Even NVIDIA CEO Jensen Huang backed them up on August 22, 2025, the day before the referendum, saying nuclear energy "is an excellent option"[^31].
-
-> **💡 Did You Know**
->
-> Huang Shih-hsiu also has a more intense rhetoric that has circulated widely: "Anti-nuclear is anti-American; anti-nuclear is selling out the country; anti-nuclear is licking the CCP."[^29] This sentence directly connects energy choices with national identity, making it one of the most aggressive discourses in the pro-nuclear camp. Taiwan.md places it here verbatim, not to endorse it, but to truthfully present the temperature of this debate—when nuclear energy is tied into geopolitics and unification-independence coordinates, originally rational discussions of engineering and cost easily turn into a loyalty test of "whether you love Taiwan." This heating up is shared by both anti-nuclear and pro-nuclear sides; the higher it rises, the further consensus gets.
-
-But be careful of a common misreading: you cannot say "the DPP has already flipped to pro-nuclear" just because the industry supports nuclear and young people support nuclear.
-
-The DPP's party platform has not changed, "Nuclear-Free Homeland" remains; the government has only opened a narrow door for "advanced nuclear energy, restart after safety inspection." More importantly, even the DPP's own supporters have split. According to a poll by _GVM_ and the Taiwan Foundation for Sustainable Energy in October 2024, among DPP supporters, 45.2% are anti-nuclear and 44.3% are pro-nuclear, almost a dead heat[^32].
-
-## The Younger, The More Pro-Nuclear — A Generation Without Fukushima Memory
-
-The clearest place for this crack is age.
-
-The same _GVM_ poll shows that 63.1% of the overall population supports nuclear power; for the youngest generation, aged 18 to 29, the pro-nuclear proportion is as high as 70.8%, 20 percentage points higher than the 50.2% for those over seventy[^32]. The younger, the more pro-nuclear.
-
-```tw-bars
-18–29 Years Old | 70.8 | Youngest Generation
-30–39 Years Old | 65 | (Approximate)
-70+ Years Old | 50.2 | Oldest Generation
-Data Source: GVM × Taiwan Foundation for Sustainable Energy Poll, October 2024 (% Pro-Nuclear)
-```
-
-This is almost the reverse of the martial law generation's anti-nuclear tendency. The reason is not hard to understand: people who took to the streets back then had memories of Chernobyl, Fukushima, and the fear of Gongliao and Lanyu; today's climate generation grew up with nuclear disasters as historical terms in textbooks, and their current anxiety is whether warming, air pollution, and power shortages will cause Taiwan's industries to flee. The same progressive value of "for the sake of the next generation," read by two generations into opposite answers—the former feel that anti-nuclear is protecting the next generation from disasters, the latter feel that carbon reduction is leaving the earth for the next generation.
-
-Most of the climate generation no longer hangs that 2013 yellow flag. However, young people supporting nuclear energy is more like **polling trends and individual choices**; Taiwan does not have an organized "Youth Pro-Nuclear Grand Alliance" equivalent to the Anti-Nuclear Platform of that era mobilizing. Writing it as an organized movement would mislead readers.
-
-## Ten Thousand Years on the Fault Line
-
-Shuffle as they may, the place where this debate truly gets stuck, where no one can convince the other, is two physical facts that no one can avoid: earthquakes, and nuclear waste.
-
-First, earthquakes. One of the core scientific arguments of the anti-nuclear camp is the location of Nuclear Plant No. 3. Geologist Chen Wen-shan points out: "The Hengchun Fault passes through the front gate of Nuclear Plant No. 3, about 900 meters from the reactor," and emphasizes "the fact that the fault is inside the plant site is certain"[^33]. Gan Chong-wei of the Green Party is more specific: "The turbine generator building of Nuclear Plant No. 3 Unit 1 is built directly on the Hengchun Fault's fracture zone."[^34] Geologist Li Xi-di cites evaluation data, questioning Nuclear Plant No. 3's safety mechanisms under the maximum earthquake: "ground motion acceleration reached as high as 1.384G, which is more than three times the design value adopted at the time"[^35].
-
-The pro-nuclear camp does not deny the existence of the fault, but their framing is different. Ye Zong-guang, mentioned earlier, argues that the public often conflates the "Hengchun Fault near the plant site" with the "fault fracture zone under the plant site," and they are not the same thing[^30].
-
-> **📝 Curator's Note**
->
-> Here is a detail worth noting: in the seismic resistance controversy, both anti-nuclear and pro-nuclear sides **actually use the same set of numbers made by Taipower itself**—the original design value of 0.4G, the reinforced 0.72G, and the evaluated 1.384G when the fault actually moves, all from Taipower's own reports. The difference is not in the data, but in the framework. The anti-nuclear side says "the evaluated value is several times the design value, too dangerous"; the pro-nuclear side says "the plant building has been reinforced, the fracture zone is not the same fault, no problem." The same set of numbers, two stories. This is why the nuclear energy discussion cannot end by "laying out scientific evidence"—when evidence itself can be interpreted in two legitimate ways, the divergence is not at the fact level, but at the value level: how much earthquake risk are you willing to bear for carbon reduction? This question has no objective answer.
-
-If earthquakes are a probability question of "whether it will happen," nuclear waste is a problem that is certain to face and has a time scale longer than imaginable.
-
-Taiwan has accumulated over 19,000 bundles of high-level nuclear waste and 210,000 drums of low-level nuclear waste, yet has not even one statutory final disposal site—this is the number repeatedly emphasized by anti-nuclear groups like the Earth公民 Foundation[^36]. As of May 2026, the spent nuclear fuel (high-level waste) from the three nuclear power plants totals 21,527 bundles[^37]. Former State Councilor Lin Tzu-lun explains the ethical core of this matter clearly: "Using nuclear power is transferring the cost, risk, and responsibility of nuclear waste disposal to the next generation."[^38]
-
-The scale of the problem is most startlingly seen in the Control Yuan's investigation. The Control Yuan's report states: "Basically, there is no final disposal site for high-level radioactive waste on the Taiwan island," and warns that even "storage caves buried 500 meters deep will emerge on the surface in 50,000 years"—because Taiwan is located in an active orogenic belt, the crust moves more than one centimeter per year, while high-level nuclear waste needs to be isolated for a million-year level[^39]. Control Yuanist Tian Qiujin's two questions are almost the footnote for this entire matter: "After spending 60 billion NTD, will we really find a final disposal site?" "The backend fund is the coffin capital of nuclear power plants; once spent, it's gone."[^40]
+La razón es que la Ley de Referendos exige que los votos favorables superen una cuarta parte del electorado nacional. Esta vez, el umbral era de 5.000.523 votos; la participación ese día fue de apenas 29,53%, y los votos afirmativos ni siquiera rozaron el umbral[^1]. Tras el escrutinio, Huang Kuo-chang, proponente del referendo y presidente del Partido Popular de Taiwán, dijo que los votos favorables “superaron por casi tres veces” a los contrarios[^3]. Tsui Su-hsin, vocera de la Plataforma Nacional de Acción para la Abolición Nuclear, del campo antinuclear, señaló en cambio: “Aunque los votos favorables fueron más que los contrarios, el resultado final del referendo no fue aprobado y no tiene efecto legal”[^4]. Las dos frases hablan del mismo conjunto de cifras, pero llegan a conclusiones opuestas.
 
 ```tw-figure
-Things That Need To Be Stable For At Least 10,000 Years
-21,527 bundles of high-level nuclear waste have nowhere to go; final disposal site is expected to be completed by 2055 at the earliest, site selection not yet made
-Nuclear and New Energy Administration, Control Yuan
+4.341.432 votos (74%) -> no aprobado
+Los votos favorables fueron casi tres veces los contrarios, pero no superaron el umbral de cinco millones porque la participación fue de 29,53%
+Resultados de la Comisión Electoral Central para el referendo de 2025 sobre la extensión de la central nuclear Nº 3
 ```
 
-The entire high-level nuclear waste final disposal plan is divided into five stages, expected to be completed from 2005 to 2055, with total costs of about 60 billion NTD (about 36.2 billion NTD already spent)[^41]. That is, by 2055—if everything goes smoothly—Taiwan will have just "built" the disposal site, but the thing it needs to stably guard must withstand tens of thousands of years of crustal movement.
+Ganó el debate y perdió ante el sistema. Esta paradoja del verano de 2025 es la entrada para entender toda la discusión nuclear en Taiwán: en la superficie pregunta si “la energía nuclear es buena o mala”, pero debajo se discute otra cosa.
 
-Nuclear waste needs a piece of land stable for 100,000 years; Taiwan stands on a constantly moving fault line. This is the deepest scar of this debate—it forces an island with not-so-ideal geological conditions to answer whether it wants to, and can, take responsibility for an energy that leaves a ten-thousand-year legacy. This question has no winners in the argument, only whether one is willing to bear it.
+![En abril de 2013, organizaciones civiles antinucleares rodearon el Yuan Legislativo. Es la imagen callejera más habitual en cuatro décadas de debate nuclear en Taiwán.](/article-images/society/anti-nuclear-protest-legislative-yuan-voa-2013.jpg)
 
-![Nuclear Plant No. 4 (Longmen), built but never commercially operated, sealed since 2014.](/article-images/society/longmen-nuclear-plant-2023.jpg)
+## La bandera amarilla de “Soy humano, soy antinuclear”
 
-## The "Canned Food Factory" on Lanyu
+Para entender por qué este debate es tan difícil, hay que volver a la época en que todavía no era, en su origen, un “debate energético”. En enero de 2013, un grupo de figuras del mundo artístico y cultural lanzó una campaña de firmas y diseñó una bandera amarilla con caracteres rojos que decía: “Soy humano, soy antinuclear”[^5]. El 9 de marzo de ese año, unas 220.000 personas salieron a la calle en todo Taiwán: 120.000 en Taipéi, 30.000 en Taichung, 70.000 en Tainan y entre dos y tres mil en Taitung. Fue la mayor marcha en la historia del movimiento antinuclear taiwanés[^6]. Esa bandera amarilla apareció frente a librerías, colgada en las ventanas de cafés, pegada en las mochilas de jóvenes, y se convirtió en una marca visual de una generación.
 
-When we argue about nuclear energy in Taipei, in the Legislative Yuan, before the referendum ballot boxes, there is a group of people who have never been at the center of this debate, yet have already borne its cost for over forty years.
+Pero las raíces de esa bandera se hunden mucho más atrás que 2013, y al principio tenían poco que ver con la energía nuclear. En 1986, los habitantes de Lukang supieron que la empresa estadounidense DuPont quería instalar allí una planta de dióxido de titanio. El maestro local Lee Tung-liang impulsó una petición y salió a marchar bajo el lema “Amo Lukang, no quiero DuPont”[^7]. En marzo del año siguiente, DuPont anunció la cancelación de la planta; en agosto de ese mismo año se creó la Administración de Protección Ambiental[^8]. La oposición de Lukang a DuPont fue un movimiento **contra la contaminación**, no antinuclear en sí mismo, pero fue la semilla del movimiento ambiental callejero de posguerra en Taiwán. Esa misma energía pronto se dirigió hacia otro objetivo: la central nuclear Nº 4.
 
-Lanyu.
+En 1988, residentes de Kungliao fundaron la Asociación de Autoayuda Antinuclear de Yenliao[^9]. Esa central nuclear Nº 4, que luego se llamó “Longmen”, llevaba más de treinta años en construcción desde que en 1980 se propuso ubicarla en Yenliao, y jamás generó un solo kilovatio-hora comercial[^10]. La página más trágica de esa historia fue el “incidente de Kungliao 1003” de 1991: durante una protesta, un residente atropelló y mató al policía antidisturbios Yang Chao-ching, y el movimiento cayó en un punto bajo[^9]. En 1994, Kungliao organizó por su cuenta un referendo local: 96,13% de los votantes se opuso a la central nuclear Nº 4. Como la Ley de Referendos aún no había sido aprobada, esa votación no tuvo efecto legal[^11].
 
-In 1974, the government decided to set up a low-level nuclear waste storage site on this small island inhabited by the Tao (Yami) people, without informing the island's residents; construction began in 1978, and it was put into use in 1982, with the external claim at the time being that it was a "canned food factory"[^42]. To this day, this storage site holds 97,672 drums of low-radioactive nuclear waste—respectively from Nuclear Plants No. 1, No. 2, and No. 3—stopping storage after reaching saturation in 1996[^42].
+> **📝 Nota curatorial**
+>
+> La explicación habitual dice: “El antinuclearismo es un valor progresista, por eso el campo progresista se opone a la energía nuclear”. Pero la causalidad, en realidad, funciona al revés. Lo particular del movimiento antinuclear taiwanés es que **creció en la grieta abierta por el aflojamiento del régimen de ley marcial**. El sociólogo Ho Ming-sho lo escribió de forma directa en su investigación publicada por Cambridge: “El surgimiento de voces antinucleares estuvo estrechamente vinculado con la apertura democrática”[^12]. En otras palabras, cuando los taiwaneses de las décadas de 1980 y 1990 salieron a la calle contra la energía nuclear, chocaban en realidad con un gobierno autoritario que no dejaba hablar al pueblo; la central nuclear Nº 4 era apenas uno de los pocos blancos concretos capaces de congregar a la gente en aquella época. Por eso el antinuclearismo heredó toda la legitimidad del movimiento democrático. Allí quedó sembrada también la premisa de tres décadas después: cuando la energía nuclear se convirtió en un “tema climático”, ese marco moral atado a la democracia ya no pudo contener el nuevo problema.
 
-The Tao people's resistance lasted for decades: the "Exorcise Evil Spirits" action in 1988, the "One Person One Stone Fill the Port" in 1995, trying to block the port where waste is transported[^42]. On August 1, 2016, Tsai Ing-wen, as President, apologized to indigenous peoples, with Lanyu nuclear waste being one item[^43].
+Quien llevó ese origen a su punto más alto fue el cuerpo de una persona.
 
-But what best illustrates the mood of this island is the rejection in 2019.
+La mañana del 22 de abril de 2014, Lin Yi-hsiung, expresidente del Partido Democrático Progresista, entró en la Iglesia Gikong de Taipéi e inició un ayuno indefinido para exigir la suspensión de la construcción de la central nuclear Nº 4[^13]. El propio lugar era una herida: el 28 de febrero de 1980, la madre de Lin Yi-hsiung y sus dos hijas gemelas fueron asesinadas a puñaladas en la antigua casa ubicada allí, en lo que se conoce como el “caso de la familia Lin”, aún sin resolver[^14]. Lin Yi-hsiung fue un damnificado tangwai del incidente de Kaohsiung y uno de los primeros presidentes electos del Partido Democrático Progresista; su ayuno unió el antinuclearismo y la sangre del movimiento democrático taiwanés en una misma línea.
 
-In November of that year, the government announced a retroactive compensation plan: a one-time compensation of 2.55 billion NTD, followed by 220 million NTD every three years[^44]. The Tao people rejected it. Elder Lin Hsin-yu of Lanyu said firmly: "As long as nuclear waste is not moved out of Lanyu, such death, such extinction of the tribe will continue. 'I solemnly declare, we will not take a single penny!'"[^44] What they want is not money, but to move the waste away—the deadline for removal promised in the 1990s (originally 2002) has been delayed to this day[^42].
+Nueve días después, el ayuno terminó. El 27 de abril, el gobierno de Ma Ying-jeou, entonces en el poder, y el Kuomintang alcanzaron un consenso: el reactor Nº 1 de la central nuclear Nº 4 sería sellado tras la inspección de seguridad, y las obras del reactor Nº 2 se suspenderían. El 28 de abril, el Yuan Ejecutivo anunció formalmente el sellado; el 30 de abril, Lin Yi-hsiung puso fin al ayuno[^13].
 
-> **✦** The Lanyu phrase "we will not take a single penny" is the voice that should be heard most in the entire nuclear energy discussion, yet is most often overlooked. It reminds us: the cost of nuclear power is never just written on the electricity bill. When both sides of the debate are calculating "how many NTD per kWh," "how many tons of carbon reduced," there is a cost silently paid by a group of people who have no seat at the decision-making table, using forty years of land and dignity.
+Conviene recordarlo: quien pulsó el botón de pausa de la central nuclear Nº 4 no fue el Partido Democrático Progresista antinuclear, sino el gobierno del Kuomintang en el poder. Ese detalle anticipó la parte más confusa de todo el debate posterior: ninguna postura era tan estable como parecía.
 
-![Traditional Tao settlement on Lanyu. The low-level nuclear waste storage site was established on this island in 1982, with removal promises delayed to this day. Image shows Tao underground houses, not the storage site itself.](/article-images/society/lanyu-tao-underground-house.jpg)
+## Tres votaciones en siete años, pero el terreno casi no se movió
 
-## Enough Gas For Ten Days, Enough Uranium For Eighteen Months
+Al año siguiente del ayuno de Lin Yi-hsiung, el desastre nuclear de Fukushima de 2011 ya había dado vuelta la política nuclear global[^10]. En esos años, la sociedad taiwanesa también aprendió a usar una herramienta nueva para procesar este tema: el referendo.
 
-What has allowed pro-nuclear discourse to quickly turn red in recent years, besides climate, is another sharper word: war.
+Pero esa herramienta dio tres respuestas distintas.
 
-Taiwan's energy import dependency in 2024 was as high as 95.8%—almost all energy relies on imports[^45]. Among them, the statutory safety stock for natural gas is about 11 days, coal about 41 days, while a batch of nuclear fuel can be used for about 18 months at once[^46]. The pro-nuclear camp thus proposes an "energy security" argument: if the Taiwan Strait is blocked, ships carrying natural gas cannot enter, and it won't last long; but the fuel rods in the nuclear power plant are already enough to burn for a year and a half.
+El 24 de noviembre de 2018 se aprobó el referendo “usar lo nuclear para alimentar lo verde” (propuesta Nº 16). Buscaba derogar la fecha límite legal incluida en la Ley de Electricidad, según la cual “todos los equipos de generación nuclear deberán dejar de operar antes de 2025”: hubo 5.895.560 votos a favor y una participación de 54,83%[^15]. En apariencia, fue una gran victoria del campo pronuclear.
+
+El 18 de diciembre de 2021 fue rechazado el referendo sobre la “operación comercial de la central nuclear Nº 4” (propuesta Nº 17). Hubo 3.804.689 votos a favor, 4.262.517 en contra, una participación de 41,09%, y no se alcanzó el umbral[^16]. La central nuclear Nº 4, construida durante treinta años sin generar electricidad, recibió formalmente una sentencia de muerte por parte del pueblo.
+
+El 23 de agosto de 2025 ocurrió el caso inicial: el referendo sobre la extensión de la central nuclear Nº 3 (propuesta Nº 21) tuvo 74% de apoyo, pero quedó detenido por el umbral[^1].
 
 ```tw-bars
-Nuclear Fuel (Approx. 18 Months) | 540 | One-time Loading Available
-Coal | 42 | Statutory Safety Stock (Days)
-Natural Gas LNG | 11 | Statutory Safety Stock (Days)
-Data Source: Ministry of Economic Affairs, CNA (This is the pro-nuclear camp's energy security argument)
+2018 Usar lo nuclear para alimentar lo verde (derogar el plazo no nuclear) | 59 | 5,89 millones a favor・aprobado
+2021 Reiniciar la operación comercial de la central nuclear Nº 4 | 47 | 3,80 millones a favor・rechazado
+2025 Reiniciar y extender la central nuclear Nº 3 | 74 | 4,34 millones a favor・bloqueado por el umbral
+Fuente: resultados oficiales certificados por la Comisión Electoral Central en los tres referendos (porcentaje de votos favorables)
 ```
 
-This point is not shouted out of nowhere. A wargame by the US think tank Center for Strategic and International Studies (CSIS) in August 2025 pointed out that "energy is the most fragile link in Taiwan's resilience," estimating that under a blockade scenario, natural gas would last about ten days, and power would collapse to only 20%, thus recommending extending nuclear service[^47]. Minister of Economic Affairs Guo Zhi-hui also said in the Legislative Yuan that energy security is a "national security issue, cannot be discussed in too much detail"[^48].
+Tres votaciones en siete años: el porcentaje favorable cayó de 59% a 47% y luego rebotó a 74%, pero los resultados fueron aprobación, rechazo y bloqueo por umbral, como tres dados que muestran un número distinto en cada tirada. La democracia directa puede resolver un problema aritmético como “cuántos dólares debe subir la tarifa eléctrica”, pero no puede resolver con facilidad una cuestión difícil donde se enredan juicio científico y jerarquía de valores.
 
-But the anti-nuclear camp has two rebuttals to the "nuclear power is safer" inference.
+Más difícil aún es la paradoja dejada por “usar lo nuclear para alimentar lo verde”. Aquella votación de 2018 derogó claramente la disposición legal que fijaba el límite no nuclear de 2025, pero el posterior gobierno del Partido Democrático Progresista optó por no extender las licencias por decisión propia, y Taiwán avanzó paso a paso hacia la ausencia de energía nuclear en 2025[^17]. Por eso, cuando en internet circuló la afirmación de que la “patria sin energía nuclear ya había perdido vigencia”, el Centro de Verificación de Datos de Taiwán la calificó como **información falsa**: lo derogado fue solo el calendario incluido en la Ley de Electricidad; el objetivo de una patria sin energía nuclear establecido en el artículo 23 de la Ley Básica Ambiental seguía vigente[^17]. La ley fue desmontada a medias, pero la política no aflojó. Esa es la forma más típica del debate nuclear taiwanés: cada “victoria” viene con una cola sin resolver.
 
-The first is Ukraine's Zaporizhzhia Nuclear Power Plant—it has been shelled multiple times during the war, becoming a living textbook for the anti-nuclear side: nuclear power plants during war may turn from a fortress into a bomb that could be detonated at any time[^49]. The second point is that distributed energy is more durable: concentrating power generation in a few large reactors is more likely to be paralyzed at once than solar and wind distributed across various locations. Former Deputy Minister of Energy Zeng Wen-sheng responds to this anxiety from another angle, meaning the cards Taiwan holds in hand are actually more than imagined, and there is no need to bet all on nuclear power[^48].
+## Un gobierno que apagó un reactor y luego quiso reiniciarlo
 
-The same "energy security," pro-nuclear side reads as "so we need nuclear power more," anti-nuclear side reads as "so nuclear power is more dangerous." Once again, the same premise, two opposite conclusions.
+En mayo de 2025, la red eléctrica de Taiwán vivió un momento histórico.
 
-## Both Sides Say They Stand on the Side of the Future
+La tarde del 17 de mayo, el reactor Nº 2 de la central nuclear Nº 3, en Hengchun, Pingtung, empezó a reducir carga; a las diez de la noche fue desconectado de la red y en la madrugada del 18 de mayo quedó formalmente detenido[^18]. Fue la primera vez que la red eléctrica taiwanesa funcionó sin energía nuclear. Algunos medios describieron a Taiwán como la “primera en Asia y segunda en el mundo” patria sin energía nuclear, pero esa fórmula requiere cautela: Italia ya había apagado toda su energía nuclear nacional en 1990[^19].
 
-Pulling the lens back, you will find that the whole world is reshuffling this deck, and every side in Taiwan can find examples internationally to back themselves up.
+Según el guion de la “patria sin energía nuclear”, la historia debía terminar allí. Pero lo que ocurrió en los meses siguientes rompió el guion.
 
-Germany completed nuclear phase-out in April 2023: the anti-nuclear side uses it to prove "advanced countries can also do without nuclear power," while the pro-nuclear side cites criticism from opposition leader Friedrich Merz, calling the phase-out a "huge mistake"—while Robert Habeck, the Green Party politician who pushed the phase-out, counters that electricity prices still fell and carbon emissions decreased after phase-out[^50]. After Japan's Fukushima accident, it was once completely shut down, and has now restarted 15 units, with nuclear power accounting for about 8.3% in 2024, targeting 20% by 2040; South Korea reversed the phase-out route under Yoon Suk-yeol, calling for nuclear power to account for 34.6% by 2036[^51].
+Cuatro días antes del cierre, el 13 de mayo de 2025, el Yuan Legislativo aprobó en tercera lectura una enmienda al artículo 6 de la Ley de Regulación de Instalaciones de Reactores Nucleares. La votación fue de 61 votos a favor y 50 en contra, y añadió una cláusula que permite solicitar una extensión después del vencimiento de la licencia, con una vida operativa máxima de 40 más 20 años, es decir, 60 años[^20]. La licencia del reactor Nº 2 de la central nuclear Nº 3 vencía precisamente el 17 de mayo: la reforma fue aprobada cuatro días antes.
 
-The most frequently cited by both sides is Finland's Onkalo—a high-level nuclear waste final disposal repository dug into 1.9-billion-year-old granite, 430 meters deep. The pro-nuclear side says "look, nuclear waste has a solution"; the anti-nuclear side says "that is Finland's stable ancient landmass, Taiwan is an active orogenic belt moving every day, cannot learn from it." To supplement, Onkalo is still in the license review stage, and the public often mistakenly believes it is already officially operating[^52].
+El 27 de noviembre, el Ministerio de Asuntos Económicos aprobó los resultados de la evaluación: la central nuclear Nº 1 no era viable porque parte de sus equipos ya había sido desmantelada y porque era del mismo tipo que Fukushima; las centrales Nº 2 y Nº 3, en cambio, sí tenían viabilidad de reinicio, siempre que pasaran entre 1,5 y 2 años de autoinspecciones de seguridad[^21]. En marzo de 2026, el gobierno de Lai Ching-te anunció que las centrales Nº 2 y Nº 3 cumplían las condiciones para reiniciarse; Taipower presentó la solicitud ante el Consejo de Seguridad Nuclear, y la central Nº 3 podría reiniciar como pronto en 2028[^22].
 
-> **📝 Curator's Note**
+Así apareció esta escena: un gobierno cuyo partido había inscrito la “patria sin energía nuclear” en su programa cerró con sus propias manos el último reactor de la isla y, tres meses después, lo empujó también con sus propias manos hacia el reinicio.
+
+Lai Ching-te, atrapado en el medio, ofreció una posición descrita como “pragmática”. Planteó tres principios: “seguridad nuclear sin dudas, solución para los residuos nucleares y consenso social”, y subrayó que “ninguno de estos tres principios puede faltar”, además de dos requisitos: que el Consejo de Seguridad Nuclear establezca los procedimientos y que Taipower complete sus autoinspecciones de seguridad[^23]. Pero el 13 de agosto de 2025, diez días antes del referendo, declaró públicamente: “Iré a votar en el referendo del 23 de agosto; votemos juntos en contra”[^24].
+
+> **⚠️ Punto controvertido**
 >
-> Putting these international cases together, you see something interesting: every case is simultaneously evidence for both sides. The same Germany, the same Finland, the same set of numbers, both anti-nuclear and pro-nuclear can use them to prove themselves right. No one is lying—both sides in this debate are actually answering **two different questions**. The pro-nuclear side asks: "In the moment of warming and gas cutoff, what options do we have to stabilize power supply and reduce carbon?" The anti-nuclear side asks: "Do we have the qualification to create a waste that needs guarding for 100,000 years, when we haven't even found a site for fifty years from now?" One is "current energy security," the other is "eternal intergenerational responsibility." Both questions are true, and neither should be suppressed by the other. Taiwan has had no consensus for forty years, not because one side is stupider or worse, but because both sides fear a different kind of drowning risk—one side fears nuclear disasters and ten-thousand-year nuclear waste, the other side fears power shortages, gas cutoffs, and warming. When what you fear is different, you will never agree on the other's priorities.
+> Cómo interpretar que un gobierno se oponga públicamente a un referendo para “reiniciar una central que él mismo administra” depende de dónde estés parado.
+>
+> El campo pronuclear ve contradicción y evasión de responsabilidades: si vas a presentar la solicitud de reinicio, ¿por qué pides al pueblo que vote en contra? Eric Chu, presidente del Kuomintang, sostuvo que el gobierno debía “reconstruir la seguridad y resiliencia energética” y “ajustar de forma pragmática una política energética equivocada”[^25].
+>
+> La explicación del gobierno de Lai Ching-te distingue procedimiento y autorización: la propuesta de referendo fue presentada por la oposición y amarraba el tema a una “continuación inmediata de operaciones”, mientras que la postura gubernamental habla de “decidir solo después del control del Consejo de Seguridad Nuclear y de las autoinspecciones de Taipower”; votar en contra significaba oponerse a “reiniciar de inmediato saltándose el procedimiento de seguridad”, no oponerse a la energía nuclear en sí. El primer ministro Cho Jung-tai expresó este pragmatismo con más claridad: “La electricidad es poder de cómputo; el poder de cómputo es poder nacional”; “el antinuclearismo no es una tablilla sagrada”[^26].
+>
+> Ambas lecturas se sostienen, según si pones el énfasis en el “resultado” (si debe haber energía nuclear) o en el “procedimiento” (cómo se decide). Esa es precisamente la miniatura de por qué el debate nuclear taiwanés no tiene solución: incluso una misma acción de un mismo gobierno puede leerse honestamente como dos cosas opuestas.
 
-So this debate probably won't "end."
+## El portaestandarte pronuclear más estridente es un empresario de computadoras portátiles
 
-It will continue to return, round after round, in the forms of referendums, law amendments, submissions, and streets. The 4.34 million "yes" votes in 2025 that failed to cross the threshold, and Lanyu's "we will not take a single penny," will remain in this island's memory together, neither able to convince the other.
+Si el antinuclearismo de la generación de la ley marcial fue un movimiento moral, lo más inesperado del repunte pronuclear de estos años es su vocero de mayor volumen: quien se puso en primera línea, y con más peso, fue un empresario que fabrica computadoras portátiles.
 
-Next time someone asks you "does Taiwan support nuclear power or not," perhaps the most honest answer is: whether Taiwan supports nuclear power depends on which Taiwan you ask—is it the tech industry boss who is so afraid of power shortages that he can't sleep, the anti-nuclear generation that remembers Fukushima and Gongliao, the young people with no nuclear disaster memory who only fear the earth getting hotter, or the small island that has guarded nuclear waste for the whole island for forty years, yet was never asked if it was willing? Forty years and three referendums, and the ground has barely moved. Because this question never had a standard answer. It asks: how does a society together decide on an issue—nuclear waste must be stable for 100,000 years, carbon reduction must be rushed within ten years, power shortages are happening now—three clocks moving at completely different speeds.
+Tung Tzu-hsien, presidente de Pegatron, se ha convertido en los últimos años en la voz más sonora del discurso pronuclear en Taiwán. Sus palabras son directas y tajantes: “No solo Taiwán, sino el mundo entero: si no dependes de la energía nuclear y quieres depender de la solar más la eólica para salvar el planeta, no hay esperanza”[^27]. Sostiene que el costo de la electricidad nuclear es de aproximadamente 1,42 dólares taiwaneses por kWh y critica que el RE100 buscado por muchas multinacionales, es decir, el objetivo de 100% de energías renovables, sea “un buen ideal, pero algo así como castillos en el aire”; considera que el CFE, electricidad libre de carbono las 24 horas, que incluye la energía nuclear, “puede alcanzar mejor la meta de neutralidad de carbono”[^28].
 
-And both sides say they stand on the side of the future.
+Este es el cambio más clave después de que la crisis climática barajara de nuevo el debate nuclear taiwanés: **el discurso pronuclear se desideologizó**. Su punto de partida dejó de ser “la energía nuclear es muy segura” y pasó a ser “no hay opción si queremos reducir carbono”, “los centros de datos consumen electricidad” y “la energía no puede cortarse”: realidades industriales.
 
-## Further Reading
+El campo pronuclear puede dividirse, a grandes rasgos, en tres subgrupos, cada uno con un énfasis propio. El sector de divulgación científica, representado por Huang Shih-hsiu, fundador de Nuclear Mythbusters, se centra en costos: “La electricidad nuclear cuesta 1,5 dólares por kWh; las renovables, 5,5”[^29]. El sector académico, representado por Yeh Tsung-kuang, de la Universidad Nacional Tsing Hua, insiste en la clarificación técnica; por ejemplo, subraya que “la falla de Hengchun, situada a un kilómetro de la central nuclear Nº 3, es distinta de la ‘zona de cizalla de falla’ bajo el predio de la planta, y el público suele confundirlas”[^30]. El sector industrial es el grupo de empresarios encabezado por Tung Tzu-hsien.
 
-- [Taiwan's Climate Crisis and Net Zero Transition](/nature/台灣氣候危機與淨零轉型) — The other side of the same energy question: starting from physical limits, power supply and demand, and carbon reduction timelines, it is a sister piece to this article.
-- [History of Taiwan's Environmental Movement](/nature/台灣環境運動史) — Anti-nuclear as part of Taiwan's post-war environmental movement, from the Lugang anti-DuPont to Gongliao's complete context.
-- [Environmental Justice and NIMBY Disputes in Taiwan](/society/台灣環境正義與鄰避爭議) — The NIMBY structure behind nuclear waste and Lanyu: why risks always fall on those with the least voice.
-- [Social Movements and Civic Participation](/society/社會運動與公民參與) — How anti-nuclear shares the same language and energy with Taiwan's democratic movement.
-- [Sunflower Student Movement](/society/太陽花學運) — Civic mobilization of the same generation, understanding the era atmosphere of Lin Yi-hsiung's fast in those years.
+Incluso Jensen Huang, director ejecutivo del gigante de chips de IA Nvidia, intervino desde Taipéi el 22 de agosto de 2025, un día antes del referendo, diciendo que la energía nuclear “is an excellent option” (“es una excelente opción”)[^31].
 
-## Image Sources
+> **💡 ¿Sabías que…?**
+>
+> Huang Shih-hsiu tiene otra frase, aún más intensa, que circuló ampliamente: “Ser antinuclear es ser antiestadounidense; ser antinuclear es vender Taiwán; ser antinuclear es lamerle las botas al Partido Comunista Chino”[^29]. La frase conecta directamente la elección energética con la identidad nacional y es uno de los discursos más agresivos dentro del campo pronuclear. Taiwan.md la reproduce aquí literalmente para mostrar con fidelidad la temperatura del debate, no para avalarla: cuando la energía nuclear queda atada a la geopolítica y al eje independencia-unificación, los problemas de ingeniería y costos que podrían discutirse racionalmente se vuelven muy fácilmente una prueba de lealtad sobre “si amas o no a Taiwán”. Esa escalada existe tanto del lado antinuclear como del pronuclear; y cuanto más sube la temperatura, más lejos queda el consenso.
 
-- **Hero / 2013 Anti-Nuclear Surrounding Legislative Yuan**: [Anti-nuclear protest, Legislative Yuan (VOA)](<https://commons.wikimedia.org/wiki/File:Longmen_Nuclear_Power_Plant_from_VOA_(1).jpg>), provided by Voice of America, Public Domain. (Wikimedia filename follows uploader naming, actual content is April 2013 anti-nuclear march scene.)
-- **Nuclear Plant No. 4 (Longmen)**: [2023 Longmen Nuclear Power Plant](https://commons.wikimedia.org/wiki/File:2023_Longmen_Nuclear_Power_Plant_J.jpg), photography by Taiwankengo, CC BY-SA 4.0.
-- **Nuclear Plant No. 3 (Maanshan) Nanwan**: [Maanshan Nuclear Power Plant, Nanwan](https://commons.wikimedia.org/wiki/File:Maanshan_Nuclear_Power_Plant.JPG), photography by M. Weitzel, CC BY-SA 3.0.
-- **Lanyu Tao Traditional Underground House**: [Entrance of a traditional underground house of Tao people on Orchid Island](https://commons.wikimedia.org/wiki/File:Entrance_of_a_traditional_underground_house_of_Tao_people_on_Orchid_Island_20100914.jpg), photography by othree, CC BY 2.0. Image shows Tao underground house settlement, used to present Lanyu's environmental justice context, not the low-level nuclear waste storage site itself.
+Pero hay que tener cuidado con una mala lectura frecuente: que haya sectores industriales y jóvenes pronucleares no significa que “el Partido Democrático Progresista ya se haya convertido en pronuclear”.
 
-## References
+El programa del Partido Democrático Progresista no cambió y la “patria sin energía nuclear” sigue allí; el gobierno solo abrió una puerta estrecha a “energía nuclear avanzada y reinicio después de inspecciones de seguridad”. Más decisivo aún: incluso los propios simpatizantes del Partido Democrático Progresista están divididos. Según una encuesta de Global Views Monthly y la Fundación de Taiwán para la Energía Sostenible realizada en octubre de 2024, entre los simpatizantes del Partido Democrático Progresista 45,2% era antinuclear y 44,3% pronuclear: prácticamente mitad y mitad[^32].
 
-[^1]: [Central News Agency: Nuclear Plant No. 3 Extension Referendum Results](https://www.cna.com.tw/news/aipl/202508235003.aspx) — CNA August 23, 2025 election night report, recording 4,341,432 votes in favor, 1,511,693 against, voter turnout 29.53%, failing to meet the one-quarter threshold of 5,000,523 votes and thus failing to pass.
+## Cuanto más jóvenes, más pronucleares: una generación sin memoria de Fukushima
 
-[^2]: [Wikipedia: Nuclear Plant No. 3 Extension Referendum](https://zh.wikipedia.org/zh-hant/核三延役公投) — Records the complete vote count for the 2025 Case No. 21 referendum, 74.17% approval rate, and threshold calculation, consistent with the Central Election Commission's certification results.
+La grieta se ve con mayor claridad en la edad.
 
-[^3]: [Central News Agency: Huang Kuo-chang Discusses Nuclear Plant No. 3 Referendum Results](https://www.cna.com.tw/news/aipl/202508230188.aspx) — CNA August 23, 2025 report, recording People First Party Chairman and referendum proposer Huang Kuo-chang stating after the vote count that "the 'yes' votes for this referendum are three times the 'no' votes."
+La misma encuesta de Global Views mostró que 63,1% de la población general apoyaba la energía nuclear; entre las personas de 18 a 29 años, la generación más joven, el apoyo llegaba a 70,8%, veinte puntos porcentuales por encima del 50,2% registrado entre mayores de setenta años[^32]. Cuanto más joven, más pronuclear.
 
-[^4]: [The Reporter: Nuclear Plant No. 3 Extension Referendum Results and Follow-up](https://www.twreporter.org/a/referendum-to-restart-maanshan-nuclear-power-plant-result) — The Reporter August 2025 in-depth report, recording National Abolition of Nuclear Energy Action Platform Secretary General Cui Suxin's verbatim comment on the referendum result "yes higher than no but failed to pass, no legal effect," and the anti-nuclear camp's stance on procedure and follow-up.
+```tw-bars
+18-29 años | 70.8 | generación más joven
+30-39 años | 65 | (valor aproximado)
+Más de 70 años | 50.2 | generación de mayor edad
+Fuente: encuesta de Global Views × Fundación de Taiwán para la Energía Sostenible, octubre de 2024 (porcentaje pronuclear)
+```
 
-[^5]: [Environmental Info Center: "I Am Human, I Am Anti-Nuclear" Arts Community Petition](https://e-info.org.tw/node/83462) — Environmental Info Center January 2013 report, recording the arts community initiating the "I Am Human, I Am Anti-Nuclear" petition and the origin of the yellow flag with red text logo.
+Es casi una inversión de la tendencia antinuclear de la generación de la ley marcial. La razón no es difícil de entender: quienes salieron a la calle entonces tenían en su memoria Chernóbil, Fukushima y los miedos de Kungliao e Isla de las Orquídeas; la generación climática actual creció con los desastres nucleares como términos históricos en los libros de texto, mientras sus ansiedades presentes son el calentamiento, la contaminación del aire y si la escasez eléctrica expulsará o no a la industria taiwanesa. El mismo valor progresista de “hacer lo correcto para la próxima generación” produce respuestas opuestas en dos generaciones: la primera siente que oponerse a lo nuclear es proteger a los descendientes de una catástrofe; la segunda siente que reducir carbono es dejarles un planeta.
 
-[^6]: [PTS Our Island: 309 Anti-Nuclear Grand March](https://ourisland.pts.org.tw/content/465) — PTS records the March 9, 2013 nationwide anti-nuclear grand march, recording the organizer's estimated attendance of about 220,000 people in four locations: North, Central, South, and East.
+La bandera amarilla de 2013 ya no suele colgarse entre la generación climática. Aun así, el apoyo juvenil a la energía nuclear es más bien **una tendencia reflejada en encuestas y decisiones individuales**; en Taiwán no apareció una “gran alianza juvenil pronuclear” organizada, con liderazgo y movilización, equivalente a la plataforma antinuclear de aquellos años. Describirlo como un movimiento organizado induciría a error.
 
-[^7]: [Changhua Cultural Assets: Lugang Anti-DuPont Incident](https://www.ccat.tw/topic-article/840) — Records the 1986 Lugang residents' anti-pollution movement initiated by Li Dongliang and others, shouting "I Love Lugang, Not DuPont," an important starting point for Taiwan's post-war environmental movement.
+## Cien mil años sobre una falla
 
-[^8]: [Ministry of Environment Chemical Knowledge Map: Establishment of the Environmental Protection Bureau](https://topic.moenv.gov.tw/chemiknowledgemap/cp-452-10329-751c1-5.html) — Ministry of Environment official data, recording the historical background of the establishment of the Executive Yuan Environmental Protection Bureau on August 22, 1987.
+Rebarajado o no, el punto donde este debate verdaderamente se atasca y nadie puede convencer a nadie son dos hechos físicos ineludibles: los terremotos y los residuos nucleares.
 
-[^9]: [Wikipedia: Gongliao 1003 Incident](https://zh.wikipedia.org/zh-tw/貢寮1003事件) — Records the establishment of the Yanliao Anti-Nuclear Self-Help Association in 1988, and the October 3, 1991 incident where security police officer Yang Chaojing was killed by a car during the anti-Nuclear Plant No. 4 protest.
+Primero, los terremotos. Uno de los argumentos científicos centrales del campo antinuclear es la ubicación de la central nuclear Nº 3. El geólogo Chen Wen-shan señaló: “La falla de Hengchun pasa por la entrada de la central nuclear Nº 3, a unos 900 metros del reactor”, y subrayó que “es un hecho establecido que la falla está dentro del predio de la planta”[^33]. Kan Chung-wei, del Partido Verde, fue más específico: “El edificio de la turbina de vapor y el generador del reactor Nº 1 de la central nuclear Nº 3 está construido directamente sobre la zona de cizalla de la falla de Hengchun”[^34]. El geólogo Lee Hsi-ti, citando datos de evaluación, cuestionó que bajo el terremoto máximo los mecanismos de seguridad de la central Nº 3 enfrentarían “una aceleración del suelo de hasta 1,384G, más de tres veces el valor de diseño usado en ese momento”[^35].
 
-[^10]: [Nuclear and New Energy Administration: Longmen Nuclear Power Plant Historical Timeline](https://www.nusc.gov.tw/share/file/regulation/b2q1KeyadBVcyexNK0cBHg__.pdf) — Nuclear and New Energy Administration official timeline PDF, recording key nodes of Nuclear Plant No. 4 (Longmen) from the 1980 proposal, 1999 construction start, 2014 sealing, to 2020 license expiration, primary historical material.
+El campo pronuclear no niega la existencia de la falla, pero la enmarca de otro modo. Yeh Tsung-kuang, mencionado antes, sostiene que el público suele mezclar “la falla de Hengchun cercana al predio” con “la zona de cizalla bajo el predio”, cuando no son la misma cosa[^30].
 
-[^11]: [Liberty Times: 27 Years Ago Gongliao Local Referendum](https://news.ltn.com.tw/news/politics/breakingnews/3768669) — Liberty Times report, recording the May 1994 Gongliao local referendum where 96.13% of voters opposed Nuclear Plant No. 4 (the Referendum Act had not yet passed, no legal effect).
+> **📝 Nota curatorial**
+>
+> Aquí hay un detalle muy importante: en la controversia sísmica, los campos antinuclear y pronuclear **usan en realidad el mismo conjunto de cifras producido por Taipower**: el valor de diseño original de 0,4G, el valor de 0,72G tras los refuerzos y el 1,384G evaluado si la falla se desplazara de verdad; todos provienen de informes de la propia Taipower. La diferencia no está en los datos, sino en el marco. El campo antinuclear dice: “el valor evaluado es varias veces el de diseño, demasiado peligroso”. El campo pronuclear dice: “los edificios ya fueron reforzados y la zona de cizalla no es la misma falla, no hay problema”. Un mismo conjunto de cifras, dos relatos. Por eso el debate nuclear no puede cerrarse simplemente “poniendo sobre la mesa la evidencia científica”: cuando la evidencia misma puede interpretarse de dos formas legítimas, la divergencia no está en el nivel de los hechos, sino en el de los valores. ¿Cuánto riesgo sísmico estás dispuesto a aceptar para reducir carbono? Esa pregunta no tiene una respuesta objetiva.
 
-[^12]: [Cambridge — The Politics of Anti-Nuclear Protest in Taiwan](https://www.cambridge.org/core/journals/modern-asian-studies/article/abs/politics-of-antinuclear-protest-in-taiwan-a-case-of-partydependent-movement-19802000/1AAEBCAECD16058D0AE5E020AC36E262) — Academic paper by sociologist Ho Ming-hsiu published in _Modern Asian Studies_, arguing that the rise of Taiwan's anti-nuclear voices is closely related to democratic opening.
+Si los terremotos son una pregunta probabilística sobre “si ocurrirán o no”, los residuos nucleares son un problema seguro, inevitable, y con una escala temporal que supera la imaginación.
 
-[^13]: [Wikipedia: Lin Yi-hsiung Anti-Nuclear Plant No. 4 Fast](https://zh.wikipedia.org/zh-tw/林義雄反核四禁食行動) — Records the complete timeline from Lin Yi-hsiung fasting at Yiguang Church starting April 22, 2014, April 27 cross-party consensus, April 28 Executive Yuan announcing Nuclear Plant No. 4 sealing, to April 30 stopping the fast.
+Taiwán ya acumuló más de 19.000 conjuntos de residuos nucleares de alta actividad y 210.000 barriles de residuos de baja actividad, pero no tiene ni un solo depósito final legalmente establecido. Esa es la cifra que grupos antinucleares como la Fundación Ciudadanos de la Tierra han subrayado una y otra vez[^36]. Al 18 de mayo de 2026, las tres centrales nucleares acumulaban en total 21.527 conjuntos de combustible nuclear usado, es decir, residuos de alta actividad[^37]. Lin Tze-luen, exministro sin cartera, resumió con claridad el núcleo ético del asunto: “Usar energía nuclear es transferir a la próxima generación los costos, riesgos y responsabilidades del tratamiento de los residuos nucleares”[^38].
 
-[^14]: [Wikipedia: Lin Family Tragedy](https://zh.wikipedia.org/zh-tw/林宅血案) — Records the February 28, 1980 incident where Lin Yi-hsiung's mother and twin daughters were stabbed to death in their Taipei residence (later rebuilt into Yiguang Church), an unsolved historical event.
+La magnitud del problema se ve de forma más estremecedora en una investigación del Yuan de Control. Su informe señaló que “en la isla principal de Taiwán básicamente no puede encontrarse un depósito final para residuos de alta radiactividad”, y advirtió que incluso “una cavidad de almacenamiento enterrada a 500 metros de profundidad quedaría expuesta en la superficie después de 50.000 años”, porque Taiwán está en una faja orogénica activa, con desplazamientos de la corteza superiores a un centímetro por año, mientras los residuos nucleares de alta actividad requieren aislamiento durante escalas de millones de años[^39]. Dos preguntas de la contralora Tien Chiu-chin funcionan casi como nota al pie de todo este tema: “¿De verdad se encontrará un sitio de disposición final después de gastar 60.000 millones de dólares taiwaneses?”; “El fondo de etapa final es el dinero del ataúd de las centrales nucleares”[^40].
 
-[^15]: [Central Election Commission: 2018 Case No. 16 Referendum Results (PDF)](https://web.cec.gov.tw/api/file/0132581c-18b5-4951-bc24-3cc083924666.pdf) — Central Election Commission official certification document, recording "Nuclear for Green" referendum 5,895,560 votes in favor, 4,014,215 against, voter turnout 54.83%, passed.
+```tw-figure
+Algo que debe permanecer seguro durante al menos cien mil años
+21.527 conjuntos de residuos nucleares de alta actividad no tienen adónde ir; el depósito final, en el mejor de los casos, terminaría en 2055, y hasta hoy ni siquiera se eligió el sitio
+Consejo de Seguridad Nuclear, Yuan de Control
+```
 
-[^16]: [Central Election Commission: 2021 Case No. 17 Referendum Results (PDF)](https://web.cec.gov.tw/api/file/8af8f22f-2e85-4aed-a5b3-795eb111e214.pdf) — Central Election Commission official certification document, recording Nuclear Plant No. 4 commercial operation referendum 3,804,689 votes in favor, 4,262,517 against, voter turnout 41.09%, threshold 4,956,367 votes, failed.
+Todo el plan de disposición final de residuos de alta actividad se divide en cinco etapas, prevé completarse entre 2005 y 2055 y tiene un presupuesto total de unos 60.000 millones de dólares taiwaneses, de los cuales ya se gastaron unos 36.200 millones[^41]. Es decir: en 2055, si todo sale bien, Taiwán apenas habrá “construido” el depósito, mientras aquello que debe custodiar tendrá que resistir los cambios de la corteza durante cientos de miles de años.
 
-[^17]: [Taiwan Fact-Checking Center: Has the Nuclear-Free Homeland Become Invalid?](https://tfc-taiwan.org.tw/articles/292/) — Fact-checking report, clarifying that the 2018 Case No. 16 only abolished the 2025 non-nuclear timeline in the Electricity Act, the "Nuclear-Free Homeland" goal in Article 23 of the Basic Environmental Act remains effective, "Nuclear-Free Homeland has become invalid" is misinformation.
+Los residuos nucleares necesitan un terreno estable durante cien mil años; Taiwán está parado sobre fallas que no dejan de moverse. Esa es la hendidura más profunda de este debate: obliga a una isla con condiciones geológicas poco ideales a responder si quiere y si puede hacerse responsable de una energía que deja una herencia de diez milenios. Esa pregunta no produce ganadores; lo que queda es si se está dispuesto a cargar con ella.
 
-[^18]: [Central News Agency: Nuclear Plant No. 3 Unit 2 Shutdown](https://www.cna.com.tw/news/afe/202505160355.aspx) — CNA May 2025 report, recording Nuclear Plant No. 3 Unit 2 load reduction on May 17, disconnection at night, shutdown early morning May 18, Taiwan power grid having no nuclear power for the first time.
+![La central nuclear Nº 4 (Longmen), construida pero sin haber generado jamás un kilovatio-hora comercial, permanece sellada desde 2014.](/article-images/society/longmen-nuclear-plant-2023.jpg)
 
-[^19]: [GVM Magazine: Taiwan Moves Toward Nuclear-Free Homeland](https://www.gvm.com.tw/article/121619) — GVM report framework calls Taiwan "Asia's First, World's Second" nuclear-free homeland; this article marks this as a media statement, Italy had already stopped domestic nuclear power as early as 1990.
+## La “fábrica de conservas” de Isla de las Orquídeas
 
-[^20]: [Central News Agency: Nuclear Plant Control Law Third Reading](https://www.cna.com.tw/news/aipl/202505130272.aspx) — CNA May 13, 2025 report, recording the Legislative Yuan passing the third reading of the Amendment to Article 6 of the Nuclear Reactor Facility Control Act with 61 votes in favor, 50 against, adding a clause that licenses can be applied for extension after expiration, longest 40+20 years.
+Mientras discutimos sobre energía nuclear en Taipéi, en el Yuan Legislativo o frente a las urnas de referendo, hay un grupo de personas que nunca ha estado en el centro de este debate, pero que ya cargó sus costos durante más de cuarenta años.
 
-[^21]: [Environmental Info Center: Ministry of Economic Affairs Nuclear Restart Evaluation](https://e-info.org.tw/node/242602) — Environmental Info Center report, recording the Ministry of Economic Affairs November 27, 2025 determination of Nuclear Plant No. 1 infeasibility, Nuclear Plants No. 2 and No. 3 having restart feasibility (requiring 1.5–2 years self-inspection) evaluation results.
+Isla de las Orquídeas.
 
-[^22]: [Central News Agency: Nuclear Plants No. 2 and No. 3 Meet Restart Conditions](https://www.cna.com.tw/news/aipl/202603220042.aspx) — CNA March 2026 report, recording the Lai Ching-te government announcing Nuclear Plants No. 2 and No. 3 meet restart conditions, Taiwan Power Company submitting documents to the Nuclear and New Energy Administration, Nuclear Plant No. 3 potentially restarting as early as 2028.
+En 1974, el gobierno decidió ubicar un depósito de residuos nucleares de baja actividad en esta pequeña isla donde vive desde hace generaciones el pueblo Tao (también llamado Yami), sin informar a sus habitantes. Las obras empezaron en 1978 y el sitio entró en operación en 1982; públicamente se dijo que se estaba construyendo una “fábrica de conservas”[^42]. Hasta hoy, el depósito almacena 97.672 barriles de residuos nucleares de baja actividad procedentes de las centrales Nº 1, Nº 2 y Nº 3; dejó de recibirlos en 1996, cuando alcanzó la saturación[^42].
 
-[^23]: [Lai Ching-te Threads: Nuclear Energy Three Principles](https://www.threads.com/@william_chingte/post/DWLKkJ9kSuD) — President Lai Ching-te personal Threads post (primary source), proposing three prerequisites "Nuclear Safety Without Worry, Nuclear Waste Has Solutions, Society Has Consensus" and emphasizing "indispensable."
+La resistencia Tao se ha prolongado durante décadas: la acción de 1988 para “expulsar los malos espíritus” y la campaña de 1995 “una persona, una piedra para llenar el puerto”, con la que buscaban bloquear el muelle usado para transportar residuos[^42]. El 1 de agosto de 2016, Tsai Ing-wen, en calidad de presidenta, pidió disculpas a los pueblos indígenas; los residuos nucleares de Isla de las Orquídeas fueron parte de esa lista[^43].
 
-[^24]: [Central News Agency: Lai Ching-te States on 8/13 Voting No](https://www.cna.com.tw/news/aipl/202508130229.aspx) — CNA August 13, 2025 report, recording Lai Ching-te publicly stating "For the 8/23 referendum, I will go vote, let us together cast a 'no' vote" and two must conditions.
+Pero lo que mejor explica el estado de ánimo de esa isla fue el rechazo de 2019.
 
-[^25]: [Central News Agency: Chu Li-lun Discusses Energy Policy](https://www.cna.com.tw/news/aipl/202508140130.aspx) — CNA August 2025 report, recording Kuomintang Chairman Chu Li-lun advocating "rebuild energy security and resilience," "pragmatically adjust erroneous energy policies."
+En noviembre de ese año, el gobierno anunció un plan de compensación retroactiva: 2.550 millones de dólares taiwaneses en un pago único y luego 220 millones cada tres años[^44]. El pueblo Tao lo rechazó. Lin Hsin-yu, anciano de Isla de las Orquídeas, lo dijo sin titubeos: “Mientras los residuos nucleares no sean retirados de Isla de las Orquídeas, esta muerte, este exterminio, continuará”. “Declaro solemnemente: no aceptaremos ni un centavo”[^44]. Lo que querían no era dinero, sino que se llevaran los residuos; y el plazo de retirada prometido en la década de 1990, originalmente fijado para 2002, sigue incumplido hasta hoy[^42].
 
-[^26]: [Business Today: Chuo Rong-tai Discusses Electricity and Computing Power](https://www.businesstoday.com.tw/article/category/183027/post/202602100020/) — Business Today February 2026 report, recording Premier Chuo Rong-tai's discourse "Electricity is computing power, computing power is national power"; his "anti-nuclear is not a sacred tablet" phrase is seen in [Newtalk March 24, 2026 Report](https://newtalk.tw/news/view/2026-03-24/1025911).
+> **✦** La frase de Isla de las Orquídeas, “no aceptaremos ni un centavo”, es una de las voces que más debería escucharse en todo el debate nuclear, y una de las más omitidas. Nos recuerda que el costo de la electricidad nuclear nunca aparece solo en la factura. Mientras ambos lados del debate calculan “cuánto cuesta un kWh” o “cuántas toneladas de carbono se reducen”, hay un costo que un grupo sin asiento en la mesa de decisiones pagó silenciosamente durante cuarenta años con su tierra y su dignidad.
 
-[^27]: [Business Today: Hsu Tsyong-min Discusses Nuclear Energy and Saving the Earth](https://www.businesstoday.com.tw/article/category/183025/post/202503100020/) — Business Today March 2025 report, recording Pegatron Chairman Hsu Tsyong-min's verbatim statement "Not just Taiwan, including globally, if you do not rely on nuclear energy, you rely on solar plus wind power to save the earth, there is no hope."
+![Aldea tradicional del pueblo Tao en Isla de las Orquídeas. Desde 1982 hay en esta isla un depósito de residuos nucleares de baja actividad, y la promesa de retirarlos sigue incumplida. La imagen muestra una casa subterránea Tao, no el depósito.](/article-images/society/lanyu-tao-underground-house.jpg)
 
-[^28]: [United Daily News: Hsu Tsyong-min Says RE100 Is Like Castles in the Air, May Be Replaced by CFE](https://udn.com/news/story/7238/8191536) — United Daily News August 2024 report, recording Hsu Tsyong-min criticizing RE100 as "overreaching, like castles in the air," advocating CFE carbon-free energy incorporating nuclear (including SMR) to better achieve carbon neutrality goals; his nuclear power cost of about 1.42 NTD per kWh statement is seen in [CNA Legislative Yuan Hearing Report](https://www.cna.com.tw/news/aipl/202503190127.aspx).
+## Aire para diez días, uranio para dieciocho meses
 
-[^29]: [ETtoday: Huang Shih-hsiu Discusses Nuclear Power Cost](https://www.ettoday.net/news/20250811/3013062.htm) — ETToday August 2025 report, recording Nuclear Energy Rumor Terminator founder Huang Shih-hsiu "nuclear power costs 1.5 NTD per kWh, renewable energy 5.5 NTD per kWh" and the intense rhetoric "anti-nuclear is anti-American, selling out the country, licking the CCP."
+Además del clima, lo que hizo que el discurso pronuclear recuperara popularidad rápidamente en estos años fue una palabra más punzante: guerra.
 
-[^30]: [Newtalk: Ye Zong-guang Discusses Hengchun Fault and Fracture Zone](https://newtalk.tw/news/view/2025-08-20/988961) — Newtalk report (reprint), recording National Tsing Hua University's Ye Zong-guang arguing that the Hengchun Fault near the plant site is different from the "fault fracture zone" under the plant site, which the public often conflates, the pro-nuclear side's technical point.
+En 2024, la dependencia de Taiwán de la energía importada llegó a 95,8%: casi toda la energía depende de importaciones[^45]. Dentro de ese cuadro, las reservas legales de seguridad de gas natural rondan los 11 días y las de carbón unos 41 días, mientras una carga de combustible nuclear puede usarse durante alrededor de 18 meses[^46]. Por eso el campo pronuclear plantea un argumento de “seguridad energética”: si el estrecho de Taiwán fuera bloqueado y los buques de gas natural no pudieran entrar, no habría mucho margen; en cambio, las barras de combustible dentro de una central nuclear ya alcanzan para un año y medio.
 
-[^31]: [IEEE Spectrum: Taiwan Maanshan Nuclear Plant and Industry Stance](https://spectrum.ieee.org/nuclear-energy-taiwan-maanshan-plant) — IEEE Spectrum report, recording NVIDIA CEO Jensen Huang publicly stating Taiwan should invest in nuclear energy, nuclear energy "is an excellent option"; his related statement in Taipei on the eve of the referendum (2025-08-22) is seen in [Bloomberg Report](https://www.bloomberg.com/news/articles/2025-08-22/nvidia-urges-taiwan-to-embrace-nuclear-power-ahead-of-referendum).
+```tw-bars
+Combustible nuclear (aprox. 18 meses) | 540 | utilizable con una sola carga
+Carbón | 42 | reserva legal de seguridad (días)
+Gas natural LNG | 11 | reserva legal de seguridad (días)
+Fuente: Administración de Energía, Agencia Central de Noticias (argumento de seguridad energética del campo pronuclear)
+```
 
-[^32]: [GVM Magazine: Energy Poll 18-29 Years Old Pro-Nuclear Proportion](https://www.gvm.com.tw/article/116455) — GVM and Taiwan Foundation for Sustainable Energy October 2024 poll, recording overall 63.1% pro-nuclear, 18–29 years old 70.8%, 70+ years old 50.2%, and DPP supporters 45.2% anti-nuclear, 44.3% pro-nuclear.
+Este argumento no surge de la nada. Un ejercicio de guerra realizado en agosto de 2025 por el Centro de Estudios Estratégicos e Internacionales (CSIS), un centro de estudios estadounidense, señaló que “la energía es el eslabón más frágil de la resiliencia de Taiwán”; estimó que, bajo un escenario de bloqueo, el gas natural alcanzaría para unos diez días y la electricidad caería a solo 20% del suministro, por lo que recomendó extender la vida de las centrales nucleares[^47]. El ministro de Asuntos Económicos, Kuo Jyh-huei, también dijo en el Yuan Legislativo que la seguridad energética es “un asunto de seguridad nacional, no se puede hablar con demasiado detalle”[^48].
 
-[^33]: [Taiwan Fact-Checking Center: Nuclear Plant No. 3 Referendum and Hengchun Fault Dispute](https://tfc-taiwan.org.tw/third-nuclear-plant-referendum-aug-23-key-points/) — Fact-checking center organizes key points of Nuclear Plant No. 3 extension referendum, recording geologist Chen Wen-shan "Hengchun Fault passes through Nuclear Plant No. 3's front gate, about 900 meters from reactor," "the fact that the fault is inside the plant site is certain" verbatim statements.
+Pero el campo antinuclear tiene dos respuestas a la inferencia de que “la energía nuclear es más segura”.
 
-[^34]: [The Reporter: Seven Key Disputes Ahead of Nuclear Plant No. 3 Restart Referendum](https://www.twreporter.org/a/ahead-referendum-to-restart-maanshan-nuclear-power-plant) — The Reporter pre-referendum in-depth report, recording Green Party's Gan Chong-wei "Nuclear Plant No. 3 Unit 1's turbine generator building is built directly on the Hengchun Fault's fracture zone" anti-nuclear side point.
+La primera es la central nuclear de Zaporiyia, en Ucrania, que fue bombardeada en varias ocasiones durante la guerra y se convirtió en un ejemplo pedagógico para los antinucleares: en tiempos de guerra, una central nuclear puede pasar de ser una fortaleza a convertirse en una bomba que podría detonar en cualquier momento[^49]. El segundo argumento es que la energía distribuida resiste mejor los ataques: concentrar la generación en unos pocos reactores grandes puede ser más fácil de paralizar de un solo golpe que una red dispersa de solar y eólica. Tseng Wen-sheng, exviceministro de la Administración de Energía, respondió a esta ansiedad desde otro ángulo: Taiwán tiene más cartas gestionables de lo que se imagina, y no necesita apostarlo todo a la energía nuclear[^48].
 
-[^35]: [Environmental Info Center: Nuclear Plant No. 3 Seismic Resistance and Fault Evaluation](https://e-info.org.tw/node/241621) — Environmental Info Center report, recording geologist Li Xi-di questioning Nuclear Plant No. 3's safety shutdown earthquake ground motion acceleration "reaching as high as 1.384G, more than three times the design value."
+El mismo concepto de “seguridad energética” es leído por el campo pronuclear como “por eso necesitamos más energía nuclear” y por el antinuclear como “por eso la energía nuclear es más peligrosa”. Una vez más, una misma premisa produce dos conclusiones opuestas.
 
-[^36]: [Earth公民 Foundation: Taiwan Nuclear Waste Status](https://gcaa.org.tw/initiative/nonukes/nuclear-waste-policy/status-of-nuclear-waste/) — Anti-nuclear group official page, recording Taiwan has produced over 19,000 bundles of high-level nuclear waste and 210,000 drums of low-level nuclear waste, yet has no statutory disposal site status data.
+## Ambos lados dicen estar del lado del futuro
 
-[^37]: [Nuclear and New Energy Administration: Nuclear Power Plant Spent Nuclear Fuel Storage Table](https://www.nusc.gov.tw/物料管制/乾式貯存管制/核電廠用過核子燃料池貯存表--6_5206_5221.html) — Nuclear and New Energy Administration official statistics (primary source), recording as of May 18, 2026, the three nuclear power plants' spent nuclear fuel totals 21,527 bundles.
+Al alejar la cámara, se ve que el mundo entero está barajando de nuevo estas cartas, y cada lado taiwanés puede encontrar ejemplos internacionales que lo respalden.
 
-[^38]: [The Reporter: Seven Key Disputes Ahead of Nuclear Plant No. 3 Restart Referendum](https://www.twreporter.org/a/ahead-referendum-to-restart-maanshan-nuclear-power-plant) — The Reporter pre-referendum in-depth report, recording former State Councilor Lin Tzu-lun "using nuclear power is transferring the cost, risk, and responsibility of nuclear waste disposal to the next generation" verbatim comment.
+Alemania completó su salida nuclear en abril de 2023: el campo antinuclear la usa para demostrar que “también los países avanzados pueden prescindir de la energía nuclear”, mientras el campo pronuclear cita la crítica del líder opositor Friedrich Merz, quien calificó la salida como un “enorme error”. Robert Habeck, político del Partido Verde que impulsó la salida nuclear, respondió que después del abandono nuclear los precios de la electricidad igualmente bajaron y las emisiones de carbono también disminuyeron[^50]. Japón, tras el accidente de Fukushima, llegó a detener todos sus reactores; hoy ya reinició 15 unidades, y en 2024 la energía nuclear representó cerca de 8,3%, con el objetivo de llevarla a 20% en 2040. Corea del Sur, por su parte, revirtió durante el gobierno de Yoon Suk-yeol la línea de salida nuclear y planteó elevar la participación nuclear a 34,6% en 2036[^51].
 
-[^39]: [Control Yuan: High-Level Radioactive Waste Final Disposal Investigation](https://www.cy.gov.tw/News_Content.aspx?n=709&s=25816) — Control Yuan investigation report (primary source), stating basically no high-level final disposal site exists on the Taiwan island, and warning "storage caves buried 500 meters deep will emerge on the surface in 50,000 years" (active orogenic belt, crust annual movement over 1 cm).
+El caso citado con más frecuencia por ambos lados es Onkalo, en Finlandia: un depósito final de residuos nucleares de alta actividad excavado en granito de 1.900 millones de años, a 430 metros de profundidad. El campo pronuclear dice: “Miren, los residuos nucleares tienen solución”; el antinuclear responde: “Eso es el antiguo y estable suelo finlandés; Taiwán es una faja orogénica en movimiento diario, no se puede copiar”. Hay que añadir que Onkalo sigue en fase de revisión de licencia, aunque fuera de Finlandia suele creerse erróneamente que ya opera formalmente[^52].
 
-[^40]: [Control Yuan: High-Level Radioactive Waste Backend Fund and Disposal Site Questioning](https://www.cy.gov.tw/News_Content.aspx?n=709&s=25816) — Control Yuan Fiscal and Economic Committee press release (primary source), recording Control Yuanist Tian Qiujin "after spending 60 billion NTD, will we really find a final disposal site?" "backend fund is the coffin capital of nuclear power plants, once spent, it's gone" questioning.
+> **📝 Nota curatorial**
+>
+> Al colocar estos casos internacionales juntos, aparece algo muy interesante: cada caso es al mismo tiempo prueba para ambos lados. La misma Alemania, la misma Finlandia, los mismos datos pueden ser usados por antinucleares y pronucleares para demostrar que tienen razón. Nadie está mintiendo: las dos partes de este debate, en realidad, responden **dos preguntas distintas**. El campo pronuclear pregunta: “En este momento de calentamiento y riesgo de interrupción energética, ¿qué opciones tenemos para suministrar electricidad estable y reducir carbono?”. El campo antinuclear pregunta: “¿Tenemos derecho a producir un residuo que debe custodiarse cien mil años cuando ni siquiera hemos encontrado un sitio para dentro de cincuenta?”. Una pregunta trata de la “seguridad energética del presente”; la otra, de la “responsabilidad generacional eterna”. Ambas son reales y ninguna debería aplastar a la otra. Que Taiwán no haya alcanzado consenso en cuarenta años no tiene que ver con que un lado sea más tonto o más malvado, sino con que cada lado teme un riesgo de naufragio distinto: unos temen el desastre nuclear y los residuos de diez milenios; otros temen la escasez eléctrica, la interrupción del gas y el calentamiento. Cuando lo que temes no es lo mismo, nunca aceptarás las prioridades del otro.
 
-[^41]: [Nuclear and New Energy Administration: High-Level Radioactive Waste Final Disposal](https://www.nusc.gov.tw/便民服務/民眾關切問答資訊/放射性物料管理/高放射性廢棄物最終處置--220_237_2275_3620.html) — Nuclear and New Energy Administration official Q&A (primary source), recording high-level nuclear waste final disposal plan divided into five stages, expected to be completed from 2005–2055, total cost about 60 billion NTD.
+Por eso este debate probablemente no “terminará”.
 
-[^42]: [Wikipedia: Lanyu Storage Site](https://zh.wikipedia.org/zh-tw/蘭嶼貯存場) — Records Lanyu low-level nuclear waste storage site 1974 decision not informing Tao people, 1982 put into use, storing 97,672 drums of low-level waste, 1996 saturation, and Tao people's annual resistance and removal promise delay complete process.
+Volverá una y otra vez en forma de referendos, reformas legales, solicitudes administrativas y protestas callejeras. Los 4,34 millones de votos afirmativos de 2025 que no lograron cruzar el umbral y la frase de Isla de las Orquídeas, “no aceptaremos ni un centavo”, permanecerán al mismo tiempo en la memoria de esta isla, sin que nadie logre convencer a nadie.
 
-[^43]: [Presidential Office: President Apologizes to Indigenous Peoples](https://www.president.gov.tw/) — August 1, 2016 President Tsai Ing-wen, as head of state, apologized to indigenous peoples, Lanyu nuclear waste disposal being one item of historical injustice.
+La próxima vez que alguien te pregunte si “Taiwán apoya o no la energía nuclear”, tal vez la respuesta más honesta sea: depende de a cuál Taiwán le preguntes. Al dueño de una empresa tecnológica que no puede dormir por miedo a la escasez eléctrica; a la generación antinuclear que recuerda Fukushima y Kungliao; a los jóvenes que no tienen memoria de desastres nucleares y solo temen que el planeta se caliente; o a la pequeña isla que custodió durante cuarenta años los residuos nucleares de todo el país sin que nadie le preguntara nunca si estaba dispuesta. Tras cuarenta años y tres referendos, el terreno casi no se movió. Porque esta pregunta nunca tuvo una respuesta estándar. Pregunta cómo una sociedad puede decidir junta algo cuyos tres relojes avanzan a velocidades completamente distintas: los residuos nucleares deben permanecer seguros cien mil años, la reducción de carbono debe completarse en una década y la escasez eléctrica existe ahora.
 
-[^44]: [Environmental Info Center: Tao People Reject 2.55 Billion Compensation](https://e-info.org.tw/node/221698) — Environmental Info Center 2019 report, recording government announcing 2.55 billion retroactive compensation plus 220 million every three years plan, Tao people rejecting, elder Lin Hsin-yu declaring "we will not take a single penny," wanting removal not compensation.
+Y ambos lados dicen estar del lado del futuro.
 
-[^45]: [Ministry of Economic Affairs Energy Supply Overview](https://www.moeaea.gov.tw) — Energy Administration official statistics, recording Taiwan 2024 energy import dependency about 95.8% (early primary energy basis about 97–98%).
+## Lecturas complementarias
 
-[^46]: [Central News Agency: Natural Gas Safety Stock and Blockade Risk](https://www.cna.com.tw/news/aipl/202410230146.aspx) — CNA October 2024 report, recording natural gas statutory safety stock about 11 days, coal about 41 days, nuclear fuel one-time loading about 18 months, and Ministry of Economic Affairs explanation on energy security.
+- [La crisis climática y la transición hacia cero emisiones netas en Taiwán](/nature/台灣氣候危機與淨零轉型) — La otra cara del mismo tema energético: límites físicos, oferta y demanda eléctrica, y calendario de reducción de carbono, como artículo hermano de este texto
+- [Historia del movimiento ambiental en Taiwán](/nature/台灣環境運動史) — El antinuclearismo como parte del movimiento ambiental taiwanés de posguerra, desde la oposición de Lukang a DuPont hasta el contexto completo de Kungliao
+- [Justicia ambiental y controversias NIMBY en Taiwán](/society/台灣環境正義與鄰避爭議) — La estructura NIMBY detrás de los residuos nucleares e Isla de las Orquídeas: por qué el riesgo cae siempre sobre los lugares con menos voz
+- [Movimientos sociales y participación ciudadana](/society/社會運動與公民參與) — Cómo el antinuclearismo compartió con el movimiento democrático taiwanés el mismo lenguaje y la misma energía
+- [Movimiento Estudiantil Girasol](/society/太陽花學運) — Otra movilización cívica de una misma generación, útil para entender el clima de época de los años del ayuno de Lin Yi-hsiung
 
-[^47]: [CSIS — Lights Out: Wargaming a Blockade of Taiwan](https://www.csis.org/analysis/lights-out-wargaming-blockade-taiwan) — US think tank Center for Strategic and International Studies wargame report, stating energy is Taiwan's most fragile link in resilience, natural gas would last about ten days under blockade scenario, power collapsing to 20%, recommending extending nuclear service.
+## Datos abiertos
 
-[^48]: [Central News Agency: Guo Zhi-hui Discusses Energy Security](https://www.cna.com.tw/news/aipl/202410230146.aspx) — CNA report, recording Minister of Economic Affairs Guo Zhi-hui "national security issue cannot be discussed in too much detail" statement, and energy dispatch related discussion.
+Los siguientes datos gubernamentales abiertos te permiten verificar, o refutar, los argumentos de este artículo. Los enlaces apuntan a [data.gov.tw](https://data.gov.tw/) o a sistemas de consulta de las autoridades competentes; quienes trabajan con IA también pueden consultar los mismos conjuntos de datos mediante la pasarela taiwanesa de datos abiertos MCP [Twinkle Hub](https://hub.twinkleai.tw/).
 
-[^49]: [Greenpeace: Distributed Energy and Wartime Nuclear Safety Risk](https://www.greenpeace.org/taiwan/update/37835/) — Greenpeace Taiwan branch data, presenting anti-nuclear side using Ukraine's Zaporizhzhia Nuclear Power Plant wartime shelling as example, arguing wartime nuclear power risk is high, distributed renewable energy is more resilient.
+- [Desempeño de generación nuclear y beneficios de reducción de carbono de Taipower en los últimos 10 años](https://data.gov.tw/dataset/10859) (Taipower, actualización anual) — La curva de este artículo, desde el pico de participación nuclear hasta llegar a cero y luego ser empujada hacia el reinicio, puede redibujarse con las columnas de generación anual y factor de capacidad de esta tabla
+- [Ubicación y equipos de las centrales nucleares de Taipower](https://data.gov.tw/dataset/10858) (Taipower, actualización irregular) — Datos originales sobre especificaciones y ubicación de cada unidad de las centrales Nº 1 a Nº 3, para contrastar con la cronología de desmantelamiento y las controversias sobre fallas mencionadas en el texto
+- [Pautas de compensación del Fondo de Operación de Etapa Final de Generación Nuclear para almacenamiento de residuos radiactivos y antes de completar el desmantelamiento de centrales nucleares](https://data.gov.tw/dataset/133848) (Taipower, actualización irregular) — El texto original de las reglas de compensación del fondo de etapa final de 60.000 millones de dólares taiwaneses que el Yuan de Control cuestionó como dinero que, “una vez gastado, se acaba”
 
-[^50]: [Clean Energy Wire — Germany's nuclear exit one year after](https://www.cleanenergywire.org/factsheets/qa-germanys-nuclear-exit-one-year-after) — German Energy Information Network Q&A, recording Germany completing nuclear phase-out in April 2023, electricity prices falling, carbon emissions decreasing, and opposition leader Merz calling phase-out a "huge mistake" controversy both sides statements.
+## Fuentes de imágenes
 
-[^51]: [NEI Magazine — South Korea to increase nuclear share to over 34% by 2036](https://www.neimagazine.com/news/newssouth-korea-to-increase-nuclear-share-to-more-than-34-by-2036-10523129) — Nuclear Engineering International Magazine report, recording South Korea's Yoon Suk-yeol government reversing phase-out, targeting nuclear power accounting for 34.6% by 2036, and can be compared with Japan restarting 15 units, 2040 target 20% policy direction.
+- **Hero / protesta antinuclear de 2013 alrededor del Yuan Legislativo**: [Anti-nuclear protest, Legislative Yuan (VOA)](<https://commons.wikimedia.org/wiki/File:Longmen_Nuclear_Power_Plant_from_VOA_(1).jpg>), producido y proporcionado por Voice of America, Public Domain. (El nombre del archivo de Wikimedia sigue el nombre dado por quien lo subió; el contenido real muestra una marcha antinuclear de abril de 2013.)
+- **Central nuclear Nº 4 (Longmen)**: [2023 Longmen Nuclear Power Plant](https://commons.wikimedia.org/wiki/File:2023_Longmen_Nuclear_Power_Plant_J.jpg), fotografía de Taiwankengo, CC BY-SA 4.0.
+- **Central nuclear Nº 3 (Maanshan), Nanwan**: [Maanshan Nuclear Power Plant, Nanwan](https://commons.wikimedia.org/wiki/File:Maanshan_Nuclear_Power_Plant.JPG), fotografía de M. Weitzel, CC BY-SA 3.0.
+- **Casa subterránea tradicional Tao en Isla de las Orquídeas**: [Entrance of a traditional underground house of Tao people on Orchid Island](https://commons.wikimedia.org/wiki/File:Entrance_of_a_traditional_underground_house_of_Tao_people_on_Orchid_Island_20100914.jpg), fotografía de othree, CC BY 2.0. La imagen muestra una aldea de casas subterráneas Tao y se usa para presentar el contexto de justicia ambiental de Isla de las Orquídeas; no es el depósito de residuos nucleares de baja actividad.
 
-[^52]: [American Nuclear Society — Finland's Onkalo licensing](https://www.ans.org/news/2025-01-28/article-6721/) — American Nuclear Society report, recording Finland's Onkalo high-level nuclear waste final disposal repository (deep 430 meters, 1.9-billion-year granite) still in license review stage, public often mistakenly believing it is already officially operating.
+## Referencias
+
+[^1]: [Agencia Central de Noticias: resultados del referendo sobre la extensión de la central nuclear Nº 3](https://www.cna.com.tw/news/aipl/202508235003.aspx) — Reporte de escrutinio de la CNA del 23 de agosto de 2025, que registra 4.341.432 votos a favor, 1.511.693 en contra, participación de 29,53% y no aprobación por no alcanzar el umbral de una cuarta parte del electorado favorable, fijado en 5.000.523 votos.
+
+[^2]: [Wikipedia: referendo sobre la extensión de la central nuclear Nº 3](https://zh.wikipedia.org/zh-hant/核三延役公投) — Recoge el conteo completo de la propuesta de referendo Nº 21 de 2025, el porcentaje favorable de 74,17% y el cálculo del umbral, en concordancia con los resultados certificados por la Comisión Electoral Central.
+
+[^3]: [Agencia Central de Noticias: Huang Kuo-chang habla sobre el resultado del referendo de la central nuclear Nº 3](https://www.cna.com.tw/news/aipl/202508230188.aspx) — Reporte de la CNA del 23 de agosto de 2025 que registra la declaración de Huang Kuo-chang, presidente del Partido Popular de Taiwán y proponente del referendo, según la cual “los votos favorables de este referendo fueron tres veces los votos contrarios”.
+
+[^4]: [The Reporter: resultados y secuelas del referendo sobre la extensión de la central nuclear Nº 3](https://www.twreporter.org/a/referendum-to-restart-maanshan-nuclear-power-plant-result) — Reportaje en profundidad de The Reporter de 2025, que recoge el comentario textual de Tsui Su-hsin, secretaria general de la Plataforma Nacional de Acción para la Abolición Nuclear, sobre el resultado: “los votos favorables superaron a los contrarios, pero no se aprobó y no tiene efecto legal”, además de la postura del campo antinuclear sobre el procedimiento y los pasos posteriores.
+
+[^5]: [Centro de Información Ambiental: campaña cultural “Soy humano, soy antinuclear”](https://e-info.org.tw/node/83462) — Reporte del Centro de Información Ambiental de enero de 2013 que documenta el origen de la campaña de firmas “Soy humano, soy antinuclear” impulsada por el mundo artístico y cultural, así como del emblema amarillo con caracteres rojos.
+
+[^6]: [PTS Nuestro Mundo: gran marcha antinuclear del 9 de marzo](https://ourisland.pts.org.tw/content/465) — Registro de PTS sobre la marcha antinuclear nacional del 9 de marzo de 2013, con la estimación de los organizadores de unas 220.000 personas participantes en el norte, centro, sur y este de Taiwán.
+
+[^7]: [Patrimonio cultural de Changhua: incidente antiduPont de Lukang](https://www.ccat.tw/topic-article/840) — Registra el proceso del movimiento contra la contaminación iniciado en 1986 por residentes de Lukang, entre ellos Lee Tung-liang, bajo el lema “Amo Lukang, no quiero DuPont”; fue un punto de partida importante del movimiento ambiental taiwanés de posguerra.
+
+[^8]: [Mapa de conocimientos químicos del Ministerio de Ambiente: creación de la Administración de Protección Ambiental](https://topic.moenv.gov.tw/chemiknowledgemap/cp-452-10329-751c1-5.html) — Material oficial del Ministerio de Ambiente que registra el contexto histórico de la creación de la Administración de Protección Ambiental del Yuan Ejecutivo el 22 de agosto de 1987.
+
+[^9]: [Wikipedia: incidente de Kungliao 1003](https://zh.wikipedia.org/zh-tw/貢寮1003事件) — Recoge la fundación en 1988 de la Asociación de Autoayuda Antinuclear de Yenliao y el desarrollo de los hechos del 3 de octubre de 1991, cuando el policía antidisturbios Yang Chao-ching murió atropellado durante las protestas contra la central nuclear Nº 4.
+
+[^10]: [Consejo de Seguridad Nuclear: cronología histórica de la central nuclear de Longmen](https://www.nusc.gov.tw/share/file/regulation/b2q1KeyadBVcyexNK0cBHg__.pdf) — Cronología oficial en PDF del Consejo de Seguridad Nuclear que registra, punto por punto, los hitos de la central nuclear Nº 4 (Longmen), desde la propuesta de 1980, el inicio de obras en 1999, el sellado de 2014 y la caducidad del permiso de construcción en 2020; es una fuente primaria.
+
+[^11]: [Liberty Times: referendo local de Kungliao de hace 27 años](https://news.ltn.com.tw/news/politics/breakingnews/3768669) — Reportaje de Liberty Times que registra el referendo local de Kungliao de mayo de 1994, en el que 96,13% de votantes se opuso a la central nuclear Nº 4, aunque sin efecto legal porque la Ley de Referendos aún no había sido aprobada.
+
+[^12]: [Cambridge — The Politics of Anti-Nuclear Protest in Taiwan](https://www.cambridge.org/core/journals/modern-asian-studies/article/abs/politics-of-antinuclear-protest-in-taiwan-a-case-of-partydependent-movement-19802000/1AAEBCAECD16058D0AE5E020AC36E262) — Artículo académico del sociólogo Ho Ming-sho publicado en Modern Asian Studies, que argumenta que el surgimiento de las voces antinucleares en Taiwán estuvo estrechamente relacionado con la apertura democrática.
+
+[^13]: [Wikipedia: ayuno de Lin Yi-hsiung contra la central nuclear Nº 4](https://zh.wikipedia.org/zh-tw/林義雄反核四禁食行動) — Recoge la cronología completa: inicio del ayuno de Lin Yi-hsiung en la Iglesia Gikong el 22 de abril de 2014, consenso entre gobierno y oposición el 27 de abril, anuncio del Yuan Ejecutivo del sellado de la central Nº 4 el 28 de abril y fin del ayuno el 30 de abril.
+
+[^14]: [Wikipedia: caso de la familia Lin](https://zh.wikipedia.org/zh-tw/林宅血案) — Registra el hecho histórico del 28 de febrero de 1980, cuando la madre de Lin Yi-hsiung y sus hijas gemelas fueron asesinadas en su vivienda de Taipéi, luego convertida en la Iglesia Gikong; el caso sigue sin resolverse.
+
+[^15]: [Comisión Electoral Central: resultados del referendo Nº 16 de 2018 (PDF)](https://web.cec.gov.tw/api/file/0132581c-18b5-4951-bc24-3cc083924666.pdf) — Documento oficial certificado de la Comisión Electoral Central que registra la aprobación del referendo “usar lo nuclear para alimentar lo verde” con 5.895.560 votos a favor, 4.014.215 en contra y participación de 54,83%.
+
+[^16]: [Comisión Electoral Central: resultados del referendo Nº 17 de 2021 (PDF)](https://web.cec.gov.tw/api/file/8af8f22f-2e85-4aed-a5b3-795eb111e214.pdf) — Documento oficial certificado de la Comisión Electoral Central que registra el referendo sobre operación comercial de la central nuclear Nº 4: 3.804.689 votos a favor, 4.262.517 en contra, participación de 41,09%, umbral de 4.956.367 votos y no aprobación.
+
+[^17]: [Centro de Verificación de Datos de Taiwán: si la patria sin energía nuclear perdió vigencia](https://tfc-taiwan.org.tw/articles/292/) — Informe de verificación que aclara que la propuesta Nº 16 de 2018 solo derogó el calendario no nuclear de 2025 en la Ley de Electricidad; el objetivo de patria sin energía nuclear del artículo 23 de la Ley Básica Ambiental siguió vigente, por lo que la afirmación “la patria sin energía nuclear ya perdió vigencia” es información falsa.
+
+[^18]: [Agencia Central de Noticias: parada del reactor Nº 2 de la central nuclear Nº 3](https://www.cna.com.tw/news/afe/202505160355.aspx) — Reporte de la CNA de mayo de 2025 que registra que el reactor Nº 2 de la central nuclear Nº 3 redujo carga el 17 de mayo, se desconectó de la red por la noche y se detuvo en la madrugada del 18 de mayo, dejando por primera vez a la red eléctrica taiwanesa sin energía nuclear.
+
+[^19]: [Global Views Monthly: Taiwán avanza hacia la patria sin energía nuclear](https://www.gvm.com.tw/article/121619) — El marco del reportaje de Global Views describe a Taiwán como “primera en Asia y segunda en el mundo” patria sin energía nuclear; este texto señala que se trata de una formulación mediática, pues Italia ya había detenido toda su energía nuclear interna en 1990.
+
+[^20]: [Agencia Central de Noticias: tercera lectura de la Ley de Regulación Nuclear](https://www.cna.com.tw/news/aipl/202505130272.aspx) — Reporte de la CNA del 13 de mayo de 2025 que registra la aprobación en tercera lectura, por 61 votos a favor y 50 en contra, de la enmienda al artículo 6 de la Ley de Regulación de Instalaciones de Reactores Nucleares, que permite solicitar una extensión tras el vencimiento de la licencia por un máximo de 40+20 años.
+
+[^21]: [Centro de Información Ambiental: evaluación del Ministerio de Asuntos Económicos sobre reinicio nuclear](https://e-info.org.tw/node/242602) — Reporte del Centro de Información Ambiental que registra los resultados aprobados por el Ministerio de Asuntos Económicos el 27 de noviembre de 2025: la central Nº 1 no es viable, mientras las Nº 2 y Nº 3 tienen viabilidad de reinicio, sujeta a autoinspecciones de seguridad de 1,5 a 2 años.
+
+[^22]: [Agencia Central de Noticias: centrales nucleares Nº 2 y Nº 3 cumplen condiciones de reinicio](https://www.cna.com.tw/news/aipl/202603220042.aspx) — Reporte de la CNA de marzo de 2026 que registra el anuncio del gobierno de Lai Ching-te de que las centrales Nº 2 y Nº 3 cumplen las condiciones para reiniciar, que Taipower presentó la solicitud al Consejo de Seguridad Nuclear y que la central Nº 3 podría reiniciar como pronto en 2028.
+
+[^23]: [Threads de Lai Ching-te: tres principios sobre energía nuclear](https://www.threads.com/@william_chingte/post/DWLKkJ9kSuD) — Publicación personal del presidente Lai Ching-te en Threads, fuente primaria, donde plantea las tres condiciones de “seguridad nuclear sin dudas, solución para los residuos nucleares y consenso social”, y subraya que “ninguna puede faltar”.
+
+[^24]: [Agencia Central de Noticias: Lai Ching-te declara el 13/8 que votará en contra](https://www.cna.com.tw/news/aipl/202508130229.aspx) — Reporte de la CNA del 13 de agosto de 2025 que registra la declaración pública de Lai Ching-te: “Iré a votar en el referendo del 23 de agosto; votemos juntos en contra”, así como dos condiciones necesarias.
+
+[^25]: [Agencia Central de Noticias: Eric Chu habla sobre política energética](https://www.cna.com.tw/news/aipl/202508140130.aspx) — Reporte de la CNA de agosto de 2025 que registra la postura del presidente del Kuomintang, Eric Chu, sobre “reconstruir la seguridad y resiliencia energética” y “ajustar de forma pragmática una política energética equivocada”.
+
+[^26]: [Business Today: Cho Jung-tai habla sobre electricidad y poder de cómputo](https://www.businesstoday.com.tw/article/category/183027/post/202602100020/) — Reporte de Business Today de febrero de 2026 que registra el argumento del primer ministro Cho Jung-tai: “la electricidad es poder de cómputo; el poder de cómputo es poder nacional”; su frase “el antinuclearismo no es una tablilla sagrada” aparece en [Newtalk, reporte del 24 de marzo de 2026](https://newtalk.tw/news/view/2026-03-24/1025911).
+
+[^27]: [Business Today: Tung Tzu-hsien habla sobre energía nuclear y salvar el planeta](https://www.businesstoday.com.tw/article/category/183025/post/202503100020/) — Reporte de Business Today de marzo de 2025 que recoge la declaración textual del presidente de Pegatron, Tung Tzu-hsien: “No solo Taiwán, sino el mundo entero: si no dependes de la energía nuclear y quieres depender de la solar más la eólica para salvar el planeta, no hay esperanza”.
+
+[^28]: [United Daily News: Tung Tzu-hsien dice que RE100 es como castillos en el aire y podría ser reemplazado por CFE](https://udn.com/news/story/7238/8191536) — Reporte de UDN de agosto de 2024 que recoge la crítica de Tung Tzu-hsien a RE100 como “demasiado idealista, como castillos en el aire”, y su argumento de que CFE, energía libre de carbono que incluye nuclear y SMR, puede alcanzar mejor la neutralidad de carbono; su afirmación de que la electricidad nuclear cuesta aproximadamente 1,42 dólares taiwaneses por kWh aparece también en [reporte de la CNA sobre la audiencia pública legislativa](https://www.cna.com.tw/news/aipl/202503190127.aspx).
+
+[^29]: [ETtoday: Huang Shih-hsiu habla sobre costos nucleares](https://www.ettoday.net/news/20250811/3013062.htm) — Reporte de ETtoday de agosto de 2025 que registra la afirmación de Huang Shih-hsiu, fundador de Nuclear Mythbusters, según la cual “la electricidad nuclear cuesta 1,5 dólares por kWh y las renovables 5,5”, así como su retórica intensa de que “ser antinuclear es ser antiestadounidense, vender Taiwán y lamerle las botas al Partido Comunista Chino”.
+
+[^30]: [Newtalk: Yeh Tsung-kuang habla sobre la falla de Hengchun y la zona de cizalla](https://newtalk.tw/news/view/2025-08-20/988961) — Reporte de Newtalk, republicado, que registra el argumento técnico pronuclear de Yeh Tsung-kuang, de la Universidad Nacional Tsing Hua: la falla de Hengchun cercana al predio y la “zona de cizalla de falla” bajo el predio son distintas y el público suele confundirlas.
+
+[^31]: [IEEE Spectrum: central nuclear de Maanshan en Taiwán y posición del sector industrial](https://spectrum.ieee.org/nuclear-energy-taiwan-maanshan-plant) — Reporte de IEEE Spectrum que recoge la declaración pública del CEO de Nvidia, Jensen Huang, según la cual Taiwán debería invertir en energía nuclear y esta “is an excellent option”; su postura en Taipéi la víspera del referendo, el 22 de agosto de 2025, también aparece en [reporte de Bloomberg](https://www.bloomberg.com/news/articles/2025-08-22/nvidia-urges-taiwan-to-embrace-nuclear-power-ahead-of-referendum).
+
+[^32]: [Global Views Monthly: encuesta energética y apoyo nuclear entre personas de 18 a 29 años](https://www.gvm.com.tw/article/116455) — Encuesta de octubre de 2024 de Global Views y la Fundación de Taiwán para la Energía Sostenible, que registra un apoyo nuclear general de 63,1%, 70,8% entre personas de 18 a 29 años, 50,2% entre mayores de 70, y entre simpatizantes del Partido Democrático Progresista 45,2% antinuclear y 44,3% pronuclear.
+
+[^33]: [Centro de Verificación de Datos de Taiwán: referendo de la central nuclear Nº 3 y puntos clave sobre la falla de Hengchun](https://tfc-taiwan.org.tw/third-nuclear-plant-referendum-aug-23-key-points/) — El Centro de Verificación resume los puntos clave del referendo sobre la extensión de la central Nº 3 y recoge declaraciones textuales del geólogo Chen Wen-shan: “la falla de Hengchun pasa por la entrada de la central nuclear Nº 3, a unos 900 metros del reactor” y “es un hecho establecido que la falla está dentro del predio”.
+
+[^34]: [The Reporter: siete puntos clave del referendo sobre el reinicio de la central nuclear Nº 3](https://www.twreporter.org/a/ahead-referendum-to-restart-maanshan-nuclear-power-plant) — Reportaje en profundidad previo al referendo de The Reporter que recoge el argumento antinuclear de Kan Chung-wei, del Partido Verde: “el edificio de la turbina de vapor y generador del reactor Nº 1 de la central nuclear Nº 3 está construido directamente sobre la zona de cizalla de la falla de Hengchun”.
+
+[^35]: [Centro de Información Ambiental: resistencia sísmica y evaluación de fallas en la central nuclear Nº 3](https://e-info.org.tw/node/241621) — Reporte del Centro de Información Ambiental que recoge las dudas del geólogo Lee Hsi-ti sobre la aceleración del suelo para parada segura de la central Nº 3, “hasta 1,384G, más de tres veces el valor de diseño”.
+
+[^36]: [Fundación Ciudadanos de la Tierra: situación actual de los residuos nucleares en Taiwán](https://gcaa.org.tw/initiative/nonukes/nuclear-waste-policy/status-of-nuclear-waste/) — Página oficial de una organización antinuclear que registra los datos actuales: Taiwán ha producido más de 19.000 conjuntos de residuos nucleares de alta actividad y 210.000 barriles de baja actividad, pero no cuenta con ningún depósito legal.
+
+[^37]: [Consejo de Seguridad Nuclear: tabla de almacenamiento de combustible nuclear usado en centrales nucleares](https://www.nusc.gov.tw/物料管制/乾式貯存管制/核電廠用過核子燃料池貯存表--6_5206_5221.html) — Estadística oficial del Consejo de Seguridad Nuclear, fuente primaria, que registra al 18 de mayo de 2026 un total de 21.527 conjuntos de combustible nuclear usado en las tres centrales nucleares.
+
+[^38]: [The Reporter: siete puntos clave del referendo sobre el reinicio de la central nuclear Nº 3](https://www.twreporter.org/a/ahead-referendum-to-restart-maanshan-nuclear-power-plant) — Reportaje en profundidad previo al referendo de The Reporter que recoge el comentario textual del exministro sin cartera Lin Tze-luen: “usar energía nuclear es transferir a la próxima generación los costos, riesgos y responsabilidades del tratamiento de los residuos nucleares”.
+
+[^39]: [Yuan de Control: investigación sobre la disposición final de residuos nucleares de alta actividad](https://www.cy.gov.tw/News_Content.aspx?n=709&s=25816) — Informe de investigación del Yuan de Control, fuente primaria, que señala que en la isla principal de Taiwán básicamente no puede encontrarse un depósito final para residuos de alta actividad, y advierte que “una cavidad de almacenamiento enterrada a 500 metros de profundidad quedaría expuesta en la superficie después de 50.000 años” debido a que Taiwán está en una faja orogénica activa con desplazamientos corticales anuales superiores a un centímetro.
+
+[^40]: [Yuan de Control: dudas sobre el fondo de etapa final y el depósito para residuos nucleares de alta actividad](https://www.cy.gov.tw/News_Content.aspx?n=709&s=25816) — Comunicado de prensa de la Comisión de Finanzas y Economía del Yuan de Control, fuente primaria, que recoge las preguntas de la contralora Tien Chiu-chin: “¿De verdad se encontrará un sitio de disposición final después de gastar 60.000 millones de dólares taiwaneses?” y “el fondo de etapa final es el dinero del ataúd de las centrales nucleares; una vez gastado, se acaba”.
+
+[^41]: [Consejo de Seguridad Nuclear: disposición final de residuos radiactivos de alta actividad](https://www.nusc.gov.tw/便民服務/民眾關切問答資訊/放射性物料管理/高放射性廢棄物最終處置--220_237_2275_3620.html) — Preguntas y respuestas oficiales del Consejo de Seguridad Nuclear, fuente primaria, que registran que el plan de disposición final de residuos nucleares de alta actividad se divide en cinco etapas, prevé completarse entre 2005 y 2055 y tiene un presupuesto total de unos 60.000 millones de dólares taiwaneses.
+
+[^42]: [Wikipedia: depósito de Isla de las Orquídeas](https://zh.wikipedia.org/zh-tw/蘭嶼貯存場) — Recoge la trayectoria completa del depósito de residuos nucleares de baja actividad de Isla de las Orquídeas: decisión de 1974 sin informar al pueblo Tao, entrada en operación en 1982, almacenamiento de 97.672 barriles de residuos de baja actividad, saturación en 1996, protestas Tao durante años e incumplimiento de la promesa de retirada.
+
+[^43]: [Oficina Presidencial: la presidenta pide disculpas a los pueblos indígenas](https://www.president.gov.tw/) — El 1 de agosto de 2016, la presidenta Tsai Ing-wen pidió disculpas a los pueblos indígenas como jefa de Estado; la disposición de residuos nucleares en Isla de las Orquídeas fue una de las injusticias históricas mencionadas.
+
+[^44]: [Centro de Información Ambiental: el pueblo Tao rechaza compensación de 2.550 millones](https://e-info.org.tw/node/221698) — Reporte del Centro de Información Ambiental de 2019 que registra el plan gubernamental de compensación retroactiva de 2.550 millones de dólares taiwaneses más 220 millones cada tres años, el rechazo del pueblo Tao y la declaración del anciano Lin Hsin-yu: “no aceptaremos ni un centavo”; lo que exigían era retirada, no compensación.
+
+[^45]: [Administración de Energía del Ministerio de Asuntos Económicos: panorama del suministro energético](https://www.moeaea.gov.tw) — Estadísticas oficiales de la Administración de Energía que registran que la dependencia de Taiwán de la energía importada en 2024 fue de aproximadamente 95,8% (en años anteriores, según la métrica de energía primaria, alrededor de 97-98%).
+
+[^46]: [Agencia Central de Noticias: reservas de seguridad de gas natural y riesgo de bloqueo](https://www.cna.com.tw/news/aipl/202410230146.aspx) — Reporte de la CNA de octubre de 2024 que registra reservas legales de seguridad de gas natural de unos 11 días, de carbón de unos 41 días, una carga de combustible nuclear de unos 18 meses, y explicaciones del Ministerio de Asuntos Económicos sobre seguridad energética.
+
+[^47]: [CSIS — Lights Out: Wargaming a Blockade of Taiwan](https://www.csis.org/analysis/lights-out-wargaming-blockade-taiwan) — Informe de ejercicio de guerra del Centro de Estudios Estratégicos e Internacionales de Estados Unidos, que señala la energía como el eslabón más frágil de la resiliencia taiwanesa; en un escenario de bloqueo, estima que el gas natural aguantaría unos diez días y la electricidad caería a 20%, y recomienda extender la vida de las centrales nucleares.
+
+[^48]: [Agencia Central de Noticias: Kuo Jyh-huei habla sobre seguridad energética](https://www.cna.com.tw/news/aipl/202410230146.aspx) — Reporte de la CNA que recoge la afirmación del ministro de Asuntos Económicos Kuo Jyh-huei de que se trata de “un asunto de seguridad nacional que no se puede explicar con demasiado detalle”, además de discusiones relacionadas con la gestión energética.
+
+[^49]: [Greenpeace: energía distribuida y riesgos de seguridad nuclear en tiempos de guerra](https://www.greenpeace.org/taiwan/update/37835/) — Material de Greenpeace Taiwán que presenta el argumento antinuclear basado en los bombardeos a la central nuclear de Zaporiyia, en Ucrania, y sostiene que las centrales nucleares tienen alto riesgo en guerra y que las renovables distribuidas son más resilientes.
+
+[^50]: [Clean Energy Wire — Germany's nuclear exit one year after](https://www.cleanenergywire.org/factsheets/qa-germanys-nuclear-exit-one-year-after) — Preguntas y respuestas del sitio alemán de información energética que registran que, tras completar la salida nuclear en abril de 2023, Alemania vio caer precios eléctricos y emisiones de carbono, además de recoger las posiciones enfrentadas, incluida la crítica del líder opositor Friedrich Merz, quien calificó la salida como un “enorme error”.
+
+[^51]: [NEI Magazine — South Korea to increase nuclear share to over 34% by 2036](https://www.neimagazine.com/news/newssouth-korea-to-increase-nuclear-share-to-more-than-34-by-2036-10523129) — Reporte de Nuclear Engineering International que registra la reversión de la política de salida nuclear del gobierno de Yoon Suk-yeol en Corea del Sur y el objetivo de elevar la participación nuclear a 34,6% en 2036; puede contrastarse con el reinicio de 15 unidades en Japón y su objetivo de 20% para 2040.
+
+[^52]: [American Nuclear Society — Finland's Onkalo licensing](https://www.ans.org/news/2025-01-28/article-6721/) — Reporte de la American Nuclear Society que registra que el depósito final finlandés Onkalo para residuos nucleares de alta actividad, a 430 metros de profundidad en granito de 1.900 millones de años, sigue en fase de revisión de licencia, aunque fuera de Finlandia a menudo se cree erróneamente que ya opera formalmente.

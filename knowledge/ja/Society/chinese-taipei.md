@@ -18,9 +18,10 @@ readingTime: 12
 lastVerified: 2026-06-04
 lastHumanReview: false
 translatedFrom: 'Society/中華台北.md'
-sourceCommitSha: '25b0f0de4'
-sourceContentHash: 'sha256:aa441aa2d585fbd1'
-translatedAt: '2026-06-09T01:54:06+08:00'
+sourceCommitSha: 'dd39065b'
+sourceContentHash: 'sha256:2b2c4d3c765d642b'
+translatedAt: '2026-06-10T16:41:16Z'
+sourceBodyHash: 'sha256:554fc5a28e8c0743'
 ---
 
 # Chinese Taipei: The Ticket That Lets Taiwan Play, But Won't Print Its Own Name

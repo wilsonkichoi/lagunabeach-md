@@ -10,10 +10,10 @@ readingTime: 12
 featured: false
 translatedFrom: 'Economy/夜市經濟學.md'
 lastVerified: 2026-03-21
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:0fad49e81799ba5a'
-sourceBodyHash: 'sha256:3e5dc2a574d892a7'
-translatedAt: '2026-04-14T08:28:14+08:00'
+sourceCommitSha: '7678a430'
+sourceContentHash: 'sha256:d707615db91a024a'
+sourceBodyHash: 'sha256:7e08a20853bbe066'
+translatedAt: '2026-06-10T16:42:09Z'
 ---
 
 # 야시장 경제학: 브랜드 없는 상업의 기적
@@ -151,6 +151,13 @@ AI와 자동화의 시대에 대만 야시장은 오히려 더 귀해졌다. 야
 야시장 경제학이 우리에게 말한다. 때로는 가장 '비전문적인' 방식이 가장 성공적인 비즈니스 모델이 된다고.
 
 ---
+
+## 공개 데이터
+
+아래 정부 개방 데이터는 이 글의 주장을 직접 검증하거나 반박하는 데 쓸 수 있다. 링크는 [data.gov.tw](https://data.gov.tw/)의 영구 페이지로 연결된다. AI로 작업하는 독자는 타이완의 개방 데이터 MCP 게이트웨이 [Twinkle Hub](https://hub.twinkleai.tw/)를 통해 같은 데이터셋을 조회할 수도 있다.
+
+- [노점 경영 현황 조사](https://data.gov.tw/dataset/10918)(행정원 주계총처, 5년에 한 번 조사) — 본문의 23.3만 노점, 35.7만 종사자, 3,954억 매출의 출처는 이 5년 주기 인구조사이며, 다음 조사 수치가 이 글을 직접 다시 쓰게 만들 것이다
+- [타이중시 관리 야시장](https://data.gov.tw/dataset/85028)(타이중시정부 경제발전국, 비정기 갱신) — “이론상 존재하지 않아야 할 비즈니스 모델”이 정부의 공식 관리 목록으로 등재된 모습; 한 도시의 단면
 
 ## 참고자료
 

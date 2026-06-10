@@ -22,9 +22,10 @@ readingTime: 21
 lastVerified: 2026-06-04
 lastHumanReview: false
 translatedFrom: 'Technology/Computex.md'
-sourceCommitSha: 'c6ff13fe2'
-sourceContentHash: 'sha256:39474d9560299424'
-translatedAt: '2026-06-09T02:05:27+08:00'
+sourceCommitSha: 'dd39065b'
+sourceContentHash: 'sha256:d37367135548def0'
+translatedAt: '2026-06-10T16:41:16Z'
+sourceBodyHash: 'sha256:bb5555703c8ada78'
 ---
 
 # Computex: Three Major International Computer Shows Have Closed Two, The Remaining One Grew in Taipei

@@ -11,10 +11,10 @@ readingTime: 10
 lastVerified: 2026-04-21
 lastHumanReview: false
 translatedFrom: 'Culture/紙傘.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:2b63bb823fbdea45'
-sourceBodyHash: 'sha256:6966802b8bb41d32'
-translatedAt: '2026-05-01T22:19:01+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:13063c6484238690'
+sourceBodyHash: 'sha256:0b682441a9d293c6'
+translatedAt: '2026-06-10T16:58:21Z'
 ---
 
 ## 종이우산: 우산에서 예술으로, 타이완 카문화의 백년풍화를 펼치다

@@ -19,10 +19,10 @@ lastVerified: 2026-04-29
 lastHumanReview: false
 featured: false
 translatedFrom: 'Culture/台灣教會公報.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:3439ffa9774025fa'
-sourceBodyHash: 'sha256:2e121ca67feccc95'
-translatedAt: '2026-05-01T22:19:01+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:bbf4eb86e5c8f3f3'
+sourceBodyHash: 'sha256:50280d5b2f21e9e2'
+translatedAt: '2026-06-10T16:58:21Z'
 ---
 
 > **30초 개요:** 1885년 6월 12일(청 광서 11년), 영국 장로교 선교사 토머스 바클레이(Thomas Barclay, 巴克禮)는 타이난에서 《대만부성교회보(台灣府城教會報)》를 창간하고 교회 로마자(백화자, 白話字)로 인쇄했다. 이는 타이완 역사상 최초의 신문이다. 이 신문은 청나라 통치기, 일본 통치기, 전후 독재기를 거치며 두 차례 정간되었고, 모어 사용이 금지되었으며, 경비총사령부에 의해 전량 압수되었지만, 지금도 발행되고 있다. 2025년 창간 140주년을 맞이한 이 신문은 타이완에서 현존하는 최장수 정기 간행물이다. 부편에서는 신학 논의부터 사회 이슈까지 다루는 폭넓은 주제를 다루고 있으며, 2022년부터는 생성형 AI에 관한 칼럼까지 게재하고 있다.

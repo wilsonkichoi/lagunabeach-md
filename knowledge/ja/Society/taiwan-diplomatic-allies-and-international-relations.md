@@ -12,7 +12,7 @@ lastVerified: 2026-04-28
 lastHumanReview: false
 featured: true
 translatedFrom: 'Society/台灣邦交國與國際外交.md'
-sourceCommitSha: '5db9f136e'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:106427f4b2a59983'
 sourceBodyHash: 'sha256:52dab0b7f31fb6c8'
 translatedAt: '2026-05-26T05:10:57+08:00'

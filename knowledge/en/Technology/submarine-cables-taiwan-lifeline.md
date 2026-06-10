@@ -20,11 +20,20 @@ featured: true
 lastVerified: 2026-04-29
 lastHumanReview: false
 researchReport: reports/research/2026-04/海底電纜.md
+sporeLinks:
+  - id: 55
+    platform: 'threads'
+    date: '2026-04-30'
+    url: 'https://www.threads.com/@taiwandotmd/post/DXwm8KLk5QP'
+  - id: 56
+    platform: 'x'
+    date: '2026-04-30'
+    url: 'https://x.com/taiwandotmd/status/2049860918641893571'
 translatedFrom: 'Technology/海底電纜.md'
-sourceCommitSha: 'a637afed'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:f38fca094c4c3275'
 sourceBodyHash: 'sha256:ec9a17aedbd5877e'
-translatedAt: '2026-05-01T01:46:13+08:00'
+translatedAt: '2026-06-10T16:43:34Z'
 ---
 
 > **30-second overview:** On February 2 and February 8, 2023, the two submarine cables connecting Lienchiang County (Matsu) to Taiwan's main island were severed in succession within six days [^1]. Chunghwa Telecom took **roughly 50 days** to repair the first; the second cable, Taiwan-Matsu No. 2, took a total of **4 months and 23 days** to fully repair — Ministry of Digital Affairs Deputy Minister Que Ho-ming said this "**exceeded the international average for cable repair**" because of "**interference from Chinese coast-guard vessels**" [^2]. Taiwan's outbound internet traffic relies on submarine cables for **99%** of its volume; the **14 active international cables** [^3] all land at **four sites** on the main island: Tamsui, Bali, Toucheng, and Fangshan [^4]. In 2024, Chunghwa Telecom quietly opened a fifth landing station in Dawu, Taitung. Locals can only call it the "**Building 506**" by its street number — a knowledgeable source said this is "a backup external-communication safety net for cross-strait wartime contingencies" [^5]. TSMC's clean rooms are the heroic camera angles above the silicon shield; these 14 lines, buried 1,300 meters down, are the lifeline below that no one sees: they can detach 23 million people from the world without firing a single shot.

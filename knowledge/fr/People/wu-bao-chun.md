@@ -19,10 +19,10 @@ readingTime: 7
 featured: true
 lastVerified: 2026-04-05
 translatedFrom: 'People/吳寶春.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:8ca95111311b9e7a'
-sourceBodyHash: 'sha256:99516f459f833e82'
-translatedAt: '2026-04-14T19:14:43+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:82ee8d84093955be'
+sourceBodyHash: 'sha256:1487714e3148ab1a'
+translatedAt: '2026-06-10T17:00:20Z'
 ---
 
 # Wu Pao-chun : une promesse faite à un enfant paiwan
@@ -96,6 +96,7 @@ Ce résultat est, en soi, quelque peu incohérent — et quand on regarde de pr�
 - André Chiang — De l'École de Commerce de Danshui au 14e rang mondial, une autre trajectoire d'un chef utilisant les saveurs taïwanaises pour conquérir la scène internationale
 - La carte culturelle des 16 peuples autochtones de Taïwan — le contexte culturel d'où provient le vin de millet paiwan contenu dans le pain au litchi et à la rose
 - La culture des marchés nocturnes — le socle de la cuisine populaire taïwanaise, pour comprendre d'où est née l'esthétique des ingrédients de Wu Pao-chun
+- Huang Shan-liao — un autre Taïwanais sacré sur une scène mondiale (Fashion Week de Londres), mais qui a pris le chemin inverse : abandonner l'artisanat pour faire de la « visibilité » un best-seller
 
 ## Références
 

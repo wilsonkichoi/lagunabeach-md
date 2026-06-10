@@ -21,10 +21,10 @@ lastVerified: 2026-04-23
 lastHumanReview: false
 featured: false
 translatedFrom: Culture/台灣新偶像世代.md
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:8258a0ced6980600'
-sourceBodyHash: 'sha256:3dda77b7510dd761'
-translatedAt: 2026-05-01T18:02:56+08:00
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:3599258a3ecbb3d8'
+sourceBodyHash: 'sha256:ab167ea5a070ce1e'
+translatedAt: '2026-06-10T16:57:09Z'
 ---
 
 > **30秒概要：** 2001年にS.H.Eがデビュー

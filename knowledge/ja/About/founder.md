@@ -10,10 +10,10 @@ lastVerified: 2026-04-20
 lastHumanReview: 2026-04-20
 featured: false
 translatedFrom: 'About/taiwan-md.md'
-sourceCommitSha: '1ea8ad2d'
-sourceContentHash: 'sha256:502969d3fc0ce42b'
-sourceBodyHash: 'sha256:e3652d2127ed8d69'
-translatedAt: '2026-05-01T18:02:56+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:6dc163db1bddf63e'
+sourceBodyHash: 'sha256:80b85f670193718c'
+translatedAt: '2026-06-10T16:57:09Z'
 category: About
 ---
 

@@ -18,10 +18,10 @@ readingTime: '8'
 lastVerified: '2026-04-21'
 lastHumanReview: false
 translatedFrom: 'Culture/神豬.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:4e7bd6002d83c43b'
-sourceBodyHash: 'sha256:0f6781254171f7ba'
-translatedAt: '2026-05-01T18:09:43+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:6f4523fa8d717e72'
+sourceBodyHash: 'sha256:6665fe12d60ecee3'
+translatedAt: '2026-06-10T16:57:09Z'
 ---
 
 ## 神豚：台湾の信仰と動物権の百年にわたる対立と転換の道

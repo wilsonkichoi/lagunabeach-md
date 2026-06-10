@@ -19,10 +19,10 @@ lastVerified: 2026-03-20
 lastHumanReview: false
 featured: false
 translatedFrom: 'Nature/台灣環境運動史.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:151e392e734f7b6f'
-sourceBodyHash: 'sha256:0fce8896f461a514'
-translatedAt: '2026-05-01T22:19:10+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:305b65af8a515840'
+sourceBodyHash: 'sha256:a23479ca0734c2ef'
+translatedAt: '2026-06-10T16:58:37+00:00'
 ---
 
 # Historia del movimiento ambiental de Taiwán

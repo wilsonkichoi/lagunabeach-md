@@ -1,8 +1,16 @@
 ---
 title: 'Histoire du mouvement environnemental à Taïwan'
-description: 'Du combat contre la pollution industrielle des années 1980 aux campagnes contre le plastique d'aujourd'hui, retour sur un demi-siècle de mobilisation écologique à Taïwan et sur la façon dont la conscience environnementale s'est entremêlée au processus de démocratisation.'
+description: "Du combat contre la pollution industrielle des années 1980 aux campagnes contre le plastique d'aujourd'hui, retour sur un demi-siècle de mobilisation écologique à Taïwan et sur la façon dont la conscience environnementale s'est entremêlée au processus de démocratisation."
 date: 2026-03-20
-tags: ['mouvement environnemental', 'protection de l'environnement', 'mouvements sociaux', 'mouvement antinucléaire', 'pollution atmosphérique', 'protection des océans']
+tags:
+  [
+    'mouvement environnemental',
+    "protection de l'environnement",
+    'mouvements sociaux',
+    'mouvement antinucléaire',
+    'pollution atmosphérique',
+    'protection des océans',
+  ]
 subcategory: 'Conservation et environnement'
 author: 'Taiwan.md Translation Team'
 readingTime: 12
@@ -10,11 +18,11 @@ featured: false
 category: 'Nature'
 lastVerified: 2026-03-20
 lastHumanReview: false
-translatedFrom: "Nature/台灣環境運動史.md"
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:151e392e734f7b6f'
-sourceBodyHash: 'sha256:0fce8896f461a514'
-translatedAt: "2026-04-14T19:22:44+08:00"
+translatedFrom: 'Nature/台灣環境運動史.md'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:305b65af8a515840'
+sourceBodyHash: 'sha256:a23479ca0734c2ef'
+translatedAt: '2026-06-10T17:00:20Z'
 ---
 
 # Histoire du mouvement environnemental à Taïwan
@@ -97,6 +105,7 @@ Quarante ans après ses débuts, le mouvement environnemental taïwanais a parco
 
 **Pour aller plus loin** :
 
+- Le débat sur le nucléaire à Taïwan — comment le mouvement antinucléaire est né du mouvement environnemental, puis a été rebattu par la génération climatique : quarante ans et trois référendums, l'histoire complète du débat
 - Crise climatique et transition vers le zéro carbone à Taïwan — comment la conscience environnementale s'est traduite en politique nationale de décarbonation et de transformation du mix énergétique.
 
 ## Sources et références

@@ -19,9 +19,10 @@ readingTime: 12
 lastVerified: 2026-06-07
 lastHumanReview: false
 translatedFrom: 'People/黃山料.md'
-sourceCommitSha: 'fcc2a6a68'
-sourceContentHash: 'sha256:1931764847aac8b9'
-translatedAt: '2026-06-09T01:47:20+08:00'
+sourceCommitSha: 'dd39065b'
+sourceContentHash: 'sha256:dba98b3ec5b142b0'
+translatedAt: '2026-06-10T16:41:16Z'
+sourceBodyHash: 'sha256:a1dcff0ad13c1e91'
 ---
 
 # Huang Shan-liao: No One Watched the Champion's Clothes, So He Started Selling 'A Sentence of Comfort'

@@ -15,11 +15,20 @@ tags:
 lastVerified: '2026-06-04'
 lastHumanReview: false
 featured: false
+sporeLinks:
+  - id: 120
+    platform: 'threads'
+    date: '2026-06-04'
+    url: 'https://www.threads.com/@taiwandotmd/post/DZKoOQpmPhJ'
+  - id: 121
+    platform: 'x'
+    date: '2026-06-04'
+    url: 'https://x.com/taiwandotmd/status/2062529681283522655'
 translatedFrom: 'Society/中華台北.md'
-sourceCommitSha: '25b0f0de4'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:2b2c4d3c765d642b'
 sourceBodyHash: 'sha256:554fc5a28e8c0743'
-translatedAt: '2026-06-06T00:51:18+08:00'
+translatedAt: '2026-06-10T16:43:34Z'
 ---
 
 # Chinese Taipei: The Ticket That Lets Taiwan Compete but Can’t Print Its Own Name

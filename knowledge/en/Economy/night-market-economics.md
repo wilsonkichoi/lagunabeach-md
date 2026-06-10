@@ -1,11 +1,26 @@
 ---
 translatedFrom: 'Economy/夜市經濟學.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:0fad49e81799ba5a'
-sourceBodyHash: 'sha256:3e5dc2a574d892a7'
-translatedAt: '2026-05-01T15:38:13+08:00'
+sourceCommitSha: '7678a430'
+sourceContentHash: 'sha256:d707615db91a024a'
+sourceBodyHash: 'sha256:7e08a20853bbe066'
+translatedAt: '2026-06-10T16:43:34Z'
 title: 'Night Market Economics: A Commercial Miracle Without Brands'
 description: "Exploring how Taiwan's night markets create an annual output value of nearly NT$400 billion without brands, decor, or fixed locations"
+datasets:
+  - id: '10918'
+    name: 'Vendor Operating Status Survey'
+    url: 'https://data.gov.tw/dataset/10918'
+    agency: 'Directorate-General of Budget, Accounting and Statistics (DGBAS)'
+    update_freq: 'Every 5 years'
+    why: 'Source census for the 233,000 stalls, 357,000 workers, and NT$395.4 billion revenue cited in this article'
+    verified: 2026-06-10
+  - id: '85028'
+    name: 'Taichung City Registered Night Markets'
+    url: 'https://data.gov.tw/dataset/85028'
+    agency: 'Taichung City Economic Development Bureau'
+    update_freq: 'Irregularly updated'
+    why: 'A city-level slice of a "business model that shouldn''t exist in theory" being inventoried by the government'
+    verified: 2026-06-10
 tags:
   [
     'economy',
@@ -153,6 +168,13 @@ Behind NT$400 billion in output value are 470,000 families' livelihoods, 200 yea
 Night market economics tells us: sometimes, the most "unprofessional" approach turns out to be the most successful business model.
 
 ---
+
+## Open Data
+
+The government open data below lets you verify or rebut the claims in this article. Links point to persistent pages on [data.gov.tw](https://data.gov.tw/); readers working with AI can also query the same datasets through Taiwan's open data MCP gateway, [Twinkle Hub](https://hub.twinkleai.tw/).
+
+- [Vendor Operating Status Survey](https://data.gov.tw/dataset/10918) (DGBAS, surveyed every five years) — The 233,000 stalls, 357,000 workers, and NT$395.4 billion revenue cited in this article come straight from this once-every-five-years census; the next round will rewrite this article directly
+- [Taichung City Registered Night Markets](https://data.gov.tw/dataset/85028) (Taichung City Economic Development Bureau, irregularly updated) — What a "business model that shouldn't exist in theory" looks like once a city government turns it into a formal registry, the slice of a single city
 
 ## References
 

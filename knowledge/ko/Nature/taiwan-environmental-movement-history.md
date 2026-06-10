@@ -9,10 +9,10 @@ author: 'Taiwan.md Translation Team'
 readingTime: 12
 featured: false
 translatedFrom: 'Nature/台灣環境運動史.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:151e392e734f7b6f'
-sourceBodyHash: 'sha256:0fce8896f461a514'
-translatedAt: '2026-04-14T10:48:03+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:305b65af8a515840'
+sourceBodyHash: 'sha256:a23479ca0734c2ef'
+translatedAt: '2026-06-10T16:58:21Z'
 ---
 
 # 대만 환경운동의 역사
@@ -95,6 +95,7 @@ translatedAt: '2026-04-14T10:48:03+08:00'
 
 **더 읽어보기**:
 
+- [대만과 원자력 발전 논쟁](/society/台灣與核能的討論) — 반핵운동이 환경운동에서 어떻게 자라났고, 기후 세대에 와서 다시 어떻게 재편되었는가: 40년에 걸친 세 차례 국민투표의 전체 논쟁사
 - [대만 기후 위기와 탄소중립 전환](/nature/台灣氣候危機與淨零轉型) — 환경의식이 어떻게 국가 차원의 탄소중립 전환 정책과 에너지 구조 재편으로 이어지는가
 
 ## 참고자료

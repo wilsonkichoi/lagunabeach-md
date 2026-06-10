@@ -28,7 +28,7 @@ lastVerified: 2026-05-26
 lastHumanReview: false
 featured: true
 translatedFrom: 'People/尹衍樑.md'
-sourceCommitSha: '3951afb08'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:232e75e6f0a55e9d'
 sourceBodyHash: 'sha256:72b70b205da94b86'
 translatedAt: '2026-06-07T00:37:30+08:00'

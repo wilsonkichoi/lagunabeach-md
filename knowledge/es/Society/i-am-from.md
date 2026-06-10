@@ -19,9 +19,10 @@ readingTime: 12
 lastVerified: 2026-06-05
 lastHumanReview: false
 translatedFrom: 'Society/我是OO人.md'
-sourceCommitSha: 'a66ee7481'
-sourceContentHash: 'sha256:9435bd25b91c523c'
-translatedAt: '2026-06-09T04:15:30+08:00'
+sourceCommitSha: 'dd39065b'
+sourceContentHash: 'sha256:cdc34bf666aa8587'
+sourceBodyHash: 'sha256:d2136eb2eef002a6'
+translatedAt: '2026-06-10T16:45:00+00:00'
 ---
 
 > **30-Second Overview:** You have likely followed at least one local fan page like "I Am a Kaohsiung Person" or "I Am a Taichung Person," sharing night market news and weather, feeling like "us locals." In February 2026, someone caught an uncleaned AI instruction in a post on the "I Am a Taipei Person" fan page. Following this thread back leads to a building on Jihu Road in Neihu, Taipei, and a group of people surnamed Lin running an enterprise network. They use AI to rewrite news from pro-China media into a "fellow townsman" tone, then distribute it in bulk on fan pages disguised as locals from various counties and cities. The most ironic part is that it hardly fabricates news, so the ruler of "verifying truth" cannot measure it.

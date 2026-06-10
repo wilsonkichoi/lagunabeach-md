@@ -21,7 +21,7 @@ lastVerified: 2026-05-17
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/陳建年.md'
-sourceCommitSha: '63bc1ff9'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:cac2669b66f68dc6'
 sourceBodyHash: 'sha256:7b2313f41ac13889'
 translatedAt: '2026-05-24T05:06:33+08:00'

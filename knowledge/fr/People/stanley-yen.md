@@ -19,7 +19,7 @@ readingTime: 12
 featured: false
 lastVerified: 2026-04-06
 translatedFrom: "People/嚴長壽.md"
-sourceCommitSha: '5db9f136'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:bf2c8c297d2e1acd'
 sourceBodyHash: 'sha256:c4adf4d38cbc289a'
 translatedAt: "2026-04-14T19:14:57+08:00"

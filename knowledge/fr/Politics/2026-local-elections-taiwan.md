@@ -20,10 +20,25 @@ lastVerified: 2026-05-27
 lastHumanReview: false
 featured: true
 translatedFrom: 'Politics/2026 九合一選舉.md'
-sourceCommitSha: 'e957cf7f1'
-sourceContentHash: 'sha256:bbf5a4ef25418f82'
-sourceBodyHash: 'sha256:411e53aa2fba684f'
-translatedAt: '2026-05-28T05:08:35+08:00'
+sourceCommitSha: '7678a430'
+sourceContentHash: 'sha256:f2f73e655df4bef5'
+sourceBodyHash: 'sha256:b17fcd6aed7e9299'
+translatedAt: '2026-06-10T16:45:50Z'
+datasets:
+  - id: '27491'
+    name: '選舉人數'
+    url: 'https://data.gov.tw/dataset/27491'
+    agency: '中央選舉委員會'
+    update_freq: '每4年'
+    why: '文中 1.1 萬個席次由多少選舉人選出，歷屆母體統計'
+    verified: 2026-06-10
+  - id: '15035'
+    name: '地方檢察署執行違反公職人員選舉罷免法案件裁判確定人數(統計)'
+    url: 'https://data.gov.tw/dataset/15035'
+    agency: '法務部統計處'
+    update_freq: '每1月'
+    why: '查察四大重點中賄選與介選兩項的歷年裁判結果，檢方查察強度量化面'
+    verified: 2026-06-10
 ---
 
 Le 28 novembre 2026, samedi, à huit heures précises du matin.
@@ -328,6 +343,13 @@ La position de Taiwan.md dans ce test de résistance : la curation au niveau ins
 ---
 
 _v1.0 | 2026-05-27 | Né de la mission ARTICLE-INBOX 🗳️ article pilier de la série Élections 2026. Fournit le récit curatorial général en complément de la page dynamique /elections/2026/ pour le [Hub politique](/politics)._
+
+## Données publiques
+
+Les jeux de données publics ci-dessous permettent de vérifier — ou de réfuter — les chiffres de cet article. Les liens pointent vers les pages permanentes de [data.gov.tw](https://data.gov.tw/). Les lecteurs qui travaillent avec une IA peuvent interroger le même corpus via la passerelle MCP de données ouvertes taïwanaise [Twinkle Hub](https://hub.twinkleai.tw/).
+
+- [Nombre d'électeurs](https://data.gov.tw/dataset/27491) (Commission électorale centrale, mise à jour quadriennale) — les 11 000 sièges cités dans l'article : combien de personnes en droit de voter les ont élus, série historique des effectifs
+- [Jugements définitifs des parquets pour infractions à la loi électorale](https://data.gov.tw/dataset/15035) (Bureau des statistiques du ministère de la Justice, mise à jour mensuelle) — parmi les quatre axes prioritaires de la justice, les achats de voix et l'ingérence étrangère sont les deux champs de bataille historiques ; voici les jugements définitifs cumulés au fil des années, la mesure quantitative de l'intensité de poursuite
 
 ## Références
 

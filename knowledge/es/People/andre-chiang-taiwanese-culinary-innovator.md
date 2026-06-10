@@ -11,8 +11,8 @@ lastHumanReview: false
 featured: false
 readingTime: 9
 translatedFrom: People/江振誠.md
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:b95aab4a94d428d9'
+sourceCommitSha: 'fb010188'
+sourceContentHash: 'sha256:5c3f4c327ba8e029'
 sourceBodyHash: 'sha256:12c31fa42e4be425'
 translatedAt: 2026-05-01T22:19:10+08:00
 ---

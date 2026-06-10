@@ -26,10 +26,10 @@ lastVerified: 2026-04-26
 lastHumanReview: false
 featured: false
 translatedFrom: People/壞特.md
-sourceCommitSha: 5db9f136e
-sourceContentHash: sha256:bc3dc1570bc97a61
-sourceBodyHash: sha256:f96db07a5b8f044c
-translatedAt: 2026-06-07T02:26:08+08:00
+sourceCommitSha: 'dd39065b'
+sourceContentHash: 'sha256:2f12f91cbf28ef93'
+sourceBodyHash: 'sha256:f96db07a5b8f044c'
+translatedAt: '2026-06-10T16:45:00+00:00'
 ---
 
 > **Resumen en 30 segundos:** Whyte ?te (nombre real: Lin Chih-yi, nacida en 1994, de Xiangshan, Hsinchu) ganó el premio al Mejor Artista Nuevo en la 32.ª edición de los Premios Golden Melody el 21 de agosto de 2021[^10]. Esa misma noche, Hebe Tien se llevó el premio a mejor vocalista femenina y Soft Lipa, el de mejor vocalista masculino. Lo que hizo que su discurso de aceptación se viralizara fue la frase que dirigió a todo el país: **«Por favor, no tengan miedo»**[^11]. Sobre el escenario contó su historia: se graduó de la Escuela Secundaria Femenina de Hsinchu, entró en la carrera de Medicina de la Academia Médica Militar Nacional y la cursó durante nueve años (incluido un año sabático en tercer curso y un año de retraso en la graduación; las dos prácticas clínicas obligatorias, que debían durar dos años, se alargaron tres porque no pudo asistir a consultas externas), completó la formación como médica interna y obtuvo el título de licenciada en Medicina[^29]. En la pista de los mejores estudiantes de Taiwán, ella pulsó el botón de pausa a mitad de camino: primero el año sabático en el que compaginó tres trabajos al día[^5], después el lanzamiento de su primera canción, «Cazzo», en 2019[^7], después el álbum _A Bedroom of One's Own_ en 2020[^9]; cuando ganó el premio, de día seguía con mascarilla en el quirófano como médica interna[^25]. Y luego no volvió a ser médica.
@@ -295,6 +295,7 @@ Cuando dijo «por favor, no tengan miedo» ante los focos de los Golden Melody, 
 ## Lecturas complementarias
 
 - [台灣獨立音樂](/music/台灣獨立音樂) — el ecosistema contemporáneo de _bedroom pop_ / lo-fi R&B en 2019-2020
+- [El desarrollo del hip-hop y el rap en Taiwán](/music/台灣嘻哈與饒舌發展) — Su apoyo transversal y la organización del foro She Vibes en la polémica misógina de 2025, situados en los cuarenta años de contexto del rap taiwanés
 - [田馥甄](/people/田馥甄) — ganadora del premio a mejor vocalista femenina en la misma 32.ª edición de los Golden Melody, en el otro extremo de una trayectoria con 19 ediciones de diferencia
 - [陳建騏](/people/陳建騏) — otra línea del linaje de productores de música pop en mandarín de la misma generación
 

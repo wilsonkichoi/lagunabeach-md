@@ -20,10 +20,10 @@ category: 'Society'
 lastVerified: 2026-03-20
 lastHumanReview: false
 translatedFrom: 'Society/台灣環境正義與鄰避爭議.md'
-sourceCommitSha: '1d54cbe5'
-sourceContentHash: 'sha256:14488432802fabfe'
-sourceBodyHash: 'sha256:eeb9b885e5063119'
-translatedAt: '2026-05-29T00:35:00+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:ca7f70cdde7f6b9f'
+sourceBodyHash: 'sha256:81936e65730d0960'
+translatedAt: '2026-06-10T16:58:37+00:00'
 ---
 
 # Justicia ambiental y conflictos NIMBY en Taiwán
@@ -222,6 +222,7 @@ Las decisiones ambientales en una democracia deben basarse en información sufic
 
 **Lecturas complementarias**:
 
+- [El debate sobre la energía nuclear en Taiwán](/society/台灣與核能的討論) — El pueblo Tao de Lanyu carga con los residuos nucleares pero queda fuera del centro del debate: la fractura más profunda de NIMBY y justicia ambiental en la controversia nuclear
 - [鐵皮屋](/society/鐵皮屋) — La demolición de Wenzizhun es un caso emblemático de justicia ambiental: contaminación, desmantelamiento y dificultades de reasentamiento de un asentamiento industrial de 400 hectáreas con estructuras de chapa metálica
 - [社會住宅與居住正義](/society/社會住宅與居住正義) — La dimensión política de la problemática de la vivienda: oferta de vivienda social y reforma del mercado de alquiler
 - [盧秀燕](/people/盧秀燕) — La política que ganó Taichung en 2018 con la agenda ambiental: la central térica de Taichung, PM2.5 y el campo de batalla concreto de la transición energética

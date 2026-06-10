@@ -19,10 +19,10 @@ readingTime: 10
 lastVerified: 2026-04-29
 lastHumanReview: false
 translatedFrom: 'Culture/台灣教會公報.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:3439ffa9774025fa'
-sourceBodyHash: 'sha256:2e121ca67feccc95'
-translatedAt: '2026-05-01T14:48:26+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:bbf4eb86e5c8f3f3'
+sourceBodyHash: 'sha256:50280d5b2f21e9e2'
+translatedAt: '2026-06-10T16:57:09Z'
 ---
 
 > **30秒概観：** 1885年6月12日（清・光緒11年）、英国長老派教会の宣教師トーマス・バークレイ（Thomas Barclay）が台南で「台湾府城教会報」を発行しました。教会ローマ字（白話字、Pe̍h-ōe-jī）で印刷されたこの新聞は、台湾史上初の新聞です。清朝統治期、日本統治期、戦後の権威主義体制を経て、二度の廃刊、母語使用の禁止、警備総司令部による全部押収を経験しながら、今も発行を続けています。2025年に創刊140周年を迎えたこの新聞は、台湾現存で最長命の定期刊行物です。副刊では神学の議論から社会問題まで幅広く取り上げており、2022年からは生成AIに関するコラムの掲載も始まっています。

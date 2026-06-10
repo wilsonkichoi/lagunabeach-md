@@ -18,7 +18,7 @@ lastVerified: 2026-05-27
 lastHumanReview: false
 featured: true
 translatedFrom: 'Music/落日飛車.md'
-sourceCommitSha: '91eb4403'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:a199eb8f6aa7f0fc'
 sourceBodyHash: 'sha256:2680b892b33ad9fa'
 translatedAt: '2026-05-28T05:08:34+08:00'

@@ -17,9 +17,10 @@ readingTime: 12
 lastVerified: 2026-04-07
 lastHumanReview: true
 translatedFrom: 'History/台灣民主轉型.md'
-sourceCommitSha: '3ec013e64'
-sourceContentHash: 'sha256:ac568698b149e338'
-translatedAt: '2026-06-09T02:40:34+08:00'
+sourceCommitSha: 'dd39065b'
+sourceContentHash: 'sha256:85252455c0ed43e6'
+translatedAt: '2026-06-10T16:41:16Z'
+sourceBodyHash: 'sha256:5c7fc1f11ad28097'
 ---
 
 # Taiwan's Democratic Transition: The Grave the Autocracy Dug for Itself

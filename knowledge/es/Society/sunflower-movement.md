@@ -16,10 +16,10 @@ lastVerified: 2026-04-12
 lastHumanReview: false
 featured: true
 translatedFrom: 'Society/太陽花學運.md'
-sourceCommitSha: '7b8c0d481'
-sourceContentHash: 'sha256:8a36018a77b69fe4'
-sourceBodyHash: 'sha256:7c672299649957c4'
-translatedAt: '2026-06-07T00:37:31+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:de374340ca4140af'
+sourceBodyHash: 'sha256:1bf83c4f24dc53dd'
+translatedAt: '2026-06-10T16:58:37+00:00'
 ---
 
 > **Panorama en 30 segundos:** El 17 de marzo de 2014, el legislador del Kuomintang Chang Ching-chung, tendido en el suelo, usó un pequeño micrófono sujeto al cuello de su camisa para anunciar en treinta segundos que el Acuerdo de Comercio de Servicios a ambos lados del estrecho se “daba por revisado”. Esa misma noche, más de doscientos estudiantes saltaron el muro y ocuparon el Yuan Legislativo; con un iPad montaron una transmisión de veinticuatro horas que eludió a todas las televisoras. Veinticuatro días después, los estudiantes se retiraron. El acuerdo de servicios no fue rechazado: fue abandonado por la historia. Doce años después, las cifras lo dicen todo: la dependencia comercial de Taiwán respecto de China cayó de 42% a 31.5%. Ganaron una guerra que no sabían que estaban librando.
@@ -164,6 +164,7 @@ En aquellos treinta segundos, Chang Ching-chung probablemente no imaginó que lo
 - [Crisis del estrecho de Taiwán y desarrollo de las relaciones a ambos lados del estrecho](/history/台海危機與兩岸關係發展) — El trasfondo geopolítico más amplio de la controversia sobre el acuerdo de servicios
 - [Ma Ying-jeou](/people/馬英九) — El actor presidencial durante la aprobación en 30 segundos del acuerdo de servicios, el desalojo policial del Yuan Ejecutivo en la madrugada del 24 de marzo y la retirada del movimiento el 10 de abril
 - [Za Share](/society/雜學校) — Otra continuidad de la energía fuera del sistema tras el Movimiento del 18 de Marzo: traducir la rebelión callejera en un carnaval educativo, al estilo taiwanés
+- [Festival de la Vida Compleja](/society/複雜生活節) — La cuarta salida del «salir y sembrar» del 18 de Marzo: sin elecciones, sin código, sin reclutamiento; cada año reúne a la generación de los ochenta —golpeada por los salarios bajos y el desconcierto— en un «foro de los no exitosos» de doscientas o trescientas personas
 - [Taiwán y Esuatini](/society/台灣與史瓦帝尼) — Diez años después del Movimiento del 18 de Marzo, el discurso exterior durante la visita de Lai Ching-te a Esuatini en una etapa de consolidación diplomática: la escena concreta de las palabras “Estado soberano”
 - [Aaron Nieh](/people/聶永真) — El diseñador del anuncio “Democracy at 4am” en The New York Times en 2014: un registro desde el diseño de cómo el movimiento estudiantil entró en la mirada internacional
 

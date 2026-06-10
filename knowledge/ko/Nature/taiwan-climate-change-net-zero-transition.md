@@ -25,9 +25,10 @@ readingTime: 26
 lastVerified: 2026-05-19
 lastHumanReview: true
 translatedFrom: 'Nature/台灣氣候危機與淨零轉型.md'
-sourceCommitSha: '44238bb4f'
-sourceContentHash: 'sha256:41040b4f81a76306'
-translatedAt: '2026-06-09T02:49:47+08:00'
+sourceCommitSha: '44238bb4'
+sourceContentHash: 'sha256:99d23321710787ca'
+sourceBodyHash: 'sha256:c086a3d5805158ba'
+translatedAt: '2026-06-10T16:58:21Z'
 ---
 
 # Taiwan's Climate Crisis and Net-Zero Transition: The Day the Nuclear Three Referendum Failed Was Just the Beginning of Physical Limits

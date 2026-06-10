@@ -19,10 +19,10 @@ lastVerified: '2026-04-24'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Food/嘉義火雞肉飯.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:961c8a81a8f8c3f1'
-sourceBodyHash: 'sha256:2b1f54ba6f041643'
-translatedAt: '2026-05-01T18:09:43+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:f79faf5588d7d10f'
+sourceBodyHash: 'sha256:2d4b333fe985b7a6'
+translatedAt: '2026-06-10T16:57:09Z'
 ---
 
 > 嘉義ターキーライスのルーツは冷戦の遺産です。第二次世界大戦後、米軍が嘉義に駐留し、大量のターキーをもたらしました。物資が不足していた時代、ターキーは地鶏より大きく、かつ安価でした。林添壽という職人が第一商場でターキーの肉を細切りにし、煮汁をかけて白飯に盛り付けました。七十年後、この一碗は農糧署の投票で「台湾十大看板飯」の第一位に選ばれ、国宴でも提供されましたが、嘉義の街頭では依然として30元で販売されています。台湾全土を見渡しても、これほど一つの料理と結びついた都市は他にありません。

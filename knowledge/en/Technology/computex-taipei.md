@@ -20,11 +20,20 @@ featured: true
 lastVerified: '2026-06-04'
 lastHumanReview: false
 readingTime: '21'
+sporeLinks:
+  - id: 111
+    platform: 'threads'
+    date: '2026-06-01'
+    url: 'https://www.threads.com/@taiwandotmd/post/DZCb3_QEyJX'
+  - id: 112
+    platform: 'x'
+    date: '2026-06-01'
+    url: 'https://x.com/taiwandotmd/status/2061379958304584103'
 translatedFrom: 'Technology/Computex.md'
-sourceCommitSha: 'c6ff13fe2'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:d37367135548def0'
 sourceBodyHash: 'sha256:bb5555703c8ada78'
-translatedAt: '2026-06-06T00:51:18+08:00'
+translatedAt: '2026-06-10T16:43:34Z'
 ---
 
 # Computex: Two of the Three Major International Computer Shows Have Folded, the Remaining One Grows in Taipei

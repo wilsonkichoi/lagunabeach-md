@@ -35,8 +35,8 @@ sporeLinks:
     date: '2026-04-26'
     url: 'https://x.com/taiwandotmd/status/2048290884022850047'
 translatedFrom: People/壞特.md
-sourceCommitSha: '5db9f136'
-sourceContentHash: 'sha256:bc3dc1570bc97a61'
+sourceCommitSha: 'dd39065b'
+sourceContentHash: 'sha256:2f12f91cbf28ef93'
 sourceBodyHash: 'sha256:f96db07a5b8f044c'
 translatedAt: '2026-04-30T22:50:13+08:00'
 ---

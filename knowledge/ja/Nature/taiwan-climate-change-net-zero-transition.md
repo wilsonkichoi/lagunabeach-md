@@ -26,10 +26,10 @@ lastVerified: '2026-05-19'
 lastHumanReview: true
 featured: true
 translatedFrom: 'Nature/台灣氣候危機與淨零轉型.md'
-sourceCommitSha: '89026b10'
-sourceContentHash: 'sha256:c97df57772682776'
-sourceBodyHash: 'sha256:f8a6fd9ed633ae52'
-translatedAt: '2026-05-25T21:07:04Z'
+sourceCommitSha: '44238bb4'
+sourceContentHash: 'sha256:99d23321710787ca'
+sourceBodyHash: 'sha256:c086a3d5805158ba'
+translatedAt: '2026-06-10T16:57:09Z'
 ---
 
 # 台湾の気候危機とネットゼロ転換：第三原発の住民投票が不成立となった日に、物理的上限をめぐる選択は始まったばかりです

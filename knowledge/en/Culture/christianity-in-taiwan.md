@@ -19,10 +19,10 @@ readingTime: 13
 lastVerified: 2026-04-29
 lastHumanReview: false
 translatedFrom: 'Culture/基督教在台灣.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:875b7e202aed03cb'
-sourceBodyHash: 'sha256:4b3f831fea6a96bf'
-translatedAt: '2026-05-01T01:46:13+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:91764d361c63b5b7'
+sourceBodyHash: 'sha256:a99853057e82dc58'
+translatedAt: '2026-06-10T16:58:04Z'
 ---
 
 > **30-second overview:** The development of Christianity in Taiwan is a long marathon from "misunderstanding" to "coexistence." Nineteenth-century missionaries used the approach of "Bible in one hand, dental forceps in the other" to open the doors of society — George Leslie Mackay alone pulled more than 21,000 teeth. After surviving the Shinto shrine pressure of the Japanese colonial period and the US-aid "flour church" relief years of the postwar era, this force ultimately turned political under martial law: the Presbyterian Church issued a Human Rights Declaration at the risk of imprisonment, becoming an indispensable voice in Taiwan's democratization. And in the contemporary era, young foreign missionaries in white shirts riding bicycles have become another distinctive sight on Taiwan's streets.

@@ -10,10 +10,10 @@ lastVerified: 2026-04-17
 lastHumanReview: true
 featured: false
 translatedFrom: Culture/原住民神話.md
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:3ad9f28eb81ce704'
-sourceBodyHash: 'sha256:93356a93ce6ebf61'
-translatedAt: '2026-05-01T12:53:58+08:00'
+sourceCommitSha: 'a33cc554'
+sourceContentHash: 'sha256:f16fb8d1c36fdd75'
+sourceBodyHash: 'sha256:e09a61ab23c86acd'
+translatedAt: '2026-06-10T16:58:04Z'
 ---
 
 > **30-Second Overview:** Taiwan, an island of geographic diversity, is also a treasury of cultural mythology. From the Atayal's rock-splitting creation to the Bunun's legend of shooting the sun, from the Amis's great flood and sibling marriage to the Atayal's flood sacrifice — these oral epics not only shaped each ethnic group's cosmology but reflect their profound interactions with and adaptive wisdom toward the natural environment. These myths are indispensable keys to understanding Taiwan's indigenous cultures.
