@@ -283,6 +283,35 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 🧬 2026-06-10 spore-data-architecture session — 3 候選（孢子資料三段跳 + build 審計）
+
+### 2026-06-10 spore-data — derived view 的「落點」是第二層架構問題：資料正確了，時間軸還在被污染
+
+- **pattern**: derived-view-placement
+- **原則**：衍生資料寫到哪個檔案是獨立於「資料對不對」的架構決策。高頻 mutable 數據（engagement 數字）寫進低頻內容檔（文章 frontmatter）= 每次回填都改文章 git 歷史 → content-dates → /latest 排序 + sitemap lastmod + JSON-LD dateModified 全部假新鮮。判準：任何 derived view 落檔前先問「這個檔案的 git 歷史被誰當訊號用？」訊號檔只准放 identity pointer，mutable 數據住自己的記錄層。
+- **觸發**：2026-06-10 哲宇 callout 孢子回填影響最新文章列表。實測 34/57 篇孢子文章的 content-date 來自 spore commit；5/9 上一輪 SSOT cleanup 把 derived view 落點選在 frontmatter，自己也成了污染源（12+ 篇凍在 5db9f136e）→ [reports/spore-data-architecture-2026-06-10.md](../../reports/spore-data-architecture-2026-06-10.md)
+- **可能層級**：操作規則（新 derived view 設計 checklist 加「落點的 git 訊號面」一問）
+- **相關**：REFLEXES #20（architecture 缺席比 content 缺席貴）+ #43 鏡像（新 JSON 進 refresh 之外，還要問放哪）
+- **verification_count**: 1
+
+### 2026-06-10 build-audit — 專抓 X 的儀器壞掉時，X 的惡化恰好隱形：同日三把壞尺
+
+- **pattern**: broken-instrument-blindspot
+- **原則**：量測儀器的失效模式跟它要量的東西互補 — build 變慢 30 天沒被抓到，因為 build-perf 感測器自己的 `grep -c` 數行數 bug 讓 ms_per_page 顯示 1099000（假到沒人信，也就沒人修）；OG 增量體系靜默全壞兩週，因為 mtime 工具換 apt 版後內部的 `git whatchanged` 被 runner git ≥2.51 廢除，只噴沒人看的 stderr WARNING。修法標配：儀器修好的同時加 fail-loud guard（restore ratio < 90% → CI fail；ms_per_page 假值修正後 alert 線才有意義）。
+- **觸發**：2026-06-10 build 審計，agent 量測 + 主 session 重驗（5 條 load-bearing 主張全成立，REFLEXES #31 的正面分工案例：agent 清點、主 session 判讀）→ [reports/build-pipeline-audit-2026-06-10.md](../../reports/build-pipeline-audit-2026-06-10.md)
+- **可能層級**：REFLEXES #59 / #65 verification_count +1（同源：自製指標 self-validation trap / awareness instrument 要 cross-verify）
+- **相關**：REFLEXES #52（immune 沒 fail loud 比沒 immune 危險）— 這次是 perf 儀器版 instance
+- **verification_count**: 1（單日三把壞尺 = 高密度）
+
+### 2026-06-10 build-audit — CI 依賴的外部工具要嘛 vendor 要嘛斷言其輸出：apt 套件的隱性 deprecated 依賴
+
+- **pattern**: external-tool-silent-rot
+- **原則**：外部工具（apt 套件 / GitHub action）內部依賴的指令可能被環境升級廢除，而工具本身不退場、不報錯、繼續「成功」exit 0。5/26 的 heal 把失聯 action 換成 apt git-restore-mtime 是當下合理的修補，但 2022.12 版內部的 `git whatchanged` 在 runner git 2.51 被廢 → 12,343/12,352 檔 mtime 沒還原，連續兩週每 build 多燒 66 秒。修法：核心路徑的外部工具 vendor 進 repo（零依賴自有實作 60 行 [scripts/ci/restore-mtime.py](../../scripts/ci/restore-mtime.py)），或至少對其輸出設機械斷言。
+- **觸發**：2026-06-10 build 審計熱點 #1，CI log 三點實證（queue 6 → 216 → 3,325）
+- **可能層級**：操作規則（deploy.yml 等 CI 關鍵路徑 review checklist：每個外部工具列「它失效時誰會知道？」）
+- **相關**：REFLEXES #24（工具在說謊的形式 — 補第 8 種：依賴鏈深處的 deprecated 指令）+ #15（這次直接配 guard 儀器化）
+- **verification_count**: 1
+
 ### 2026-06-10 audit-execution — 量測基底不穩時校準必出錯：對「寫到一半的 dist」量出 0.00% 並據此設 gate 2.0
 
 - **pattern**: measurement-substrate-instability
