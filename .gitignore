@@ -157,3 +157,9 @@ docs/semiont/harvest/ui/.env
 # 操作層級的授權清單（Excel / JSON）仍 commit
 data/*/_authorization/*.pdf
 public/carousel-images/
+
+# Research transcript audio — 13MB+ 逐字稿音源不入 git（audit 2026-06-10 A-5）
+# 轉錄後的 .json/.md 逐字稿照常 commit；音檔本體留本機（raw 不刪除，只是不進版本庫）
+reports/research/**/*.mp3
+reports/research/**/*.m4a
+reports/research/**/*.wav

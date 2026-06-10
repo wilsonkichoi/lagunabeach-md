@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""article-health.py — SSOT 文章健檢工具 (Phase 1 entry point).
+"""article-health.py — SSOT 文章健檢工具.
 
 設計提案：reports/article-health-ssot-design-2026-05-04.md
 規則 canonical：docs/editorial/EDITORIAL.md
 
-Phase 1 status:
-  - Infrastructure 進場（types / loader / registry / config / runner）
-  - 0 plugins migrated（registry 是空的，跑出來都 0 violations）
-  - 接下來 Phase 2 開始把 27 個工具 migrate 進來
+Status（2026-06-10 audit A-6 更新 — 原 docstring 停在 Phase 1「0 plugins」誤導）:
+  - 25 個 plugin 已 live（lib/article_health/checks/ 自動 discover）
+  - 接進 pre-commit (--profile=pre-commit) + CI deploy (--profile=ci-deploy) hard gate
+  - prose-health / quote-fidelity / paragraph-rhythm / footnote 系列 / image-health 等
+  - 看現役清單：article-health --list-checks
 
 用法：
   article-health <files> [--profile=NAME] [--check=NAME] [--output=FORMAT]
