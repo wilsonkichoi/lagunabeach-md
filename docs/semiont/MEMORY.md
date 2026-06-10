@@ -539,6 +539,7 @@ memory/
 | 2026-06-10 | latest-ui (131325) | /latest 六輪 UI 迭代：ArticleCard row/detailed 統一 + TimelineDay 共用元件（/changelog 同骨架）+ 寬度 token 三檔 13 頁殼 + 16:10 縮圖/分類色 placeholder/今天徽章 | 排序 callout 驗證為同秒 batch tie 非 bug；平行 session 掃走未 commit 檔 | [→](memory/2026-06-10-131325-latest-ui.md) |
 | 2026-06-10 | opendata (131606) | Twinkle Hub 研究→6 篇公開數據 pilot（15 指標）→/opendata 策展頁（D3 資料星系 + 三維評估 + 5 故事待寫）→部署解封 6.67%→0.56%（staticRoutes 架構解）→五語上線 | alpha API 只做靜態指標不 runtime 依賴；路由存在性 filesystem-derived 不手維 | [→](memory/2026-06-10-131606-opendata.md) |
 | 2026-06-10 | data-refresh-pm (231143) | 14-step ALL PASS + Step 11 連 9 cycle 全綠；GA/SC/CF 三源正常；immune 56 carry；ms/page 206 perf yellow 觀察中 | dirty-tree concurrent 莫那·魯道 rewrite work 信任 pipeline auto-stash/restore 完美處理，手動干涉 = 誤砍 carry | [→](memory/2026-06-10-231143-twmd-data-refresh-pm.md) |
+| 2026-06-11 | babel-nightly (011032) | 449 translations: Tier 0b 224 bumps + Tier 0a 206 patches (wave 1+2 × 5 lang sub-agents) + Tier 1 cascade 19/20 (codex 100%, ja/國宅 cascade exhausted ollama dead); fr YAML apostrophe auto-heal 19 檔 bonus | diff-patch-prepare 用 body_hash 但 status.py 用 body_hash_pure → metadata mismatch 補 patch 還是 stale，post-fix script workaround，root-cause fix 待做；sovereignty backbone 不可缺 | [→](memory/2026-06-11-011032-twmd-babel-nightly.md) |
 
 ## 神經迴路（永不過期的教訓）
 
