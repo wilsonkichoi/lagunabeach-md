@@ -163,3 +163,6 @@ public/carousel-images/
 reports/research/**/*.mp3
 reports/research/**/*.m4a
 reports/research/**/*.wav
+# 2026-06-10 spore data 解耦：public 靜態 API 由 prebuild:spores 重生（CI 自帶），
+# canonical 記錄層 src/data/spores.json 保留 git 追蹤（build-time import + diff 落點）
+public/api/spores.json

@@ -6,7 +6,8 @@
 #    1. Git sync                            (auto-stash + pull, hard abort on failure)
 #    2. fetch-sense-data.sh                 (CF + GA4 + SC + dashboard-analytics merge)
 #    3. sync-translations-json.py           (sync _translations.json from frontmatter SSOT)
-#    4. generate-dashboard-spores.py        (spore dashboard from SPORE-HARVESTS body — Phase 6 primary)
+#    4. generate-spore-records.py           (spores.json 完整記錄層 — 2026-06-10 解耦)
+#       + generate-dashboard-spores.py      (spore dashboard from SPORE-HARVESTS body — Phase 6 primary)
 #    5. i18n-coverage-audit.sh              (UI string coverage dashboard)
 #    6. generate-dashboard-immune.py        (免疫系統 6-dim v2 score — wire 修補 5/17 silent stale)
 #    7. npm run prebuild                    (dashboard-vitals/organism/articles/translations)
@@ -15,7 +16,9 @@
 #   10. extract-build-perf.mjs              (build perf trend dashboard)
 #   11. verify dashboard freshness          (mtime gate, REFLEXES #43)
 #   12. validate-spore-data.py              (SSOT consistency check)
-#   13. sync-spore-links.py                 (regen knowledge/*.md sporeLinks; Phase 3)
+#   13. sync-spore-links.py                 (regen knowledge/*.md sporeLinks identity pointer;
+#                                            v2 2026-06-10 — metrics 已移居 spores.json，
+#                                            文章只在新孢子發布時才有 diff)
 #   14. generate-reports-index.py           (regen reports/INDEX.md; per audit Layer 3)
 #
 # Removed in Phase 6 (2026-05-08):
@@ -127,10 +130,18 @@ if python3 scripts/tools/sync-translations-json.py 2>&1 | tail -3; then
 fi
 echo ""
 
-# ────────────────── Step 4 — generate dashboard-spores.json ──────────────────
+# ────────────────── Step 4 — generate spore records + dashboard-spores.json ──────────────────
 # 為什麼: 繁殖器官的 data-driven 感知；Dashboard 孢子面板資料源
 # Phase 6: SPORE-HARVESTS body table 為 primary (SPORE-LOG 成效追蹤 deprecated)
-echo -e "${GRN}[4/13]${RST} generate dashboard-spores.json..."
+# 2026-06-10 解耦: spores.json = 孢子完整記錄層（metrics + history），文章 frontmatter
+# 只剩 identity pointer — harvest 回填從此只動 spores.json，不再碰 knowledge/*.md
+# (reports/spore-data-architecture-2026-06-10.md / REFLEXES #43 新 JSON 進 refresh)
+echo -e "${GRN}[4/13]${RST} generate spore records + dashboard-spores.json..."
+if python3 scripts/tools/generate-spore-records.py 2>&1 | tail -2; then
+  echo -e "${DIM}   ✓ spores.json records generated${RST}"
+else
+  echo -e "${YEL}⚠️  generate-spore-records 部分失敗 — 心跳繼續${RST}"
+fi
 if python3 scripts/tools/generate-dashboard-spores.py 2>&1 | tail -3; then
   echo -e "${DIM}   ✓ dashboard-spores.json generated${RST}"
 else
@@ -238,11 +249,11 @@ else
 fi
 echo ""
 
-# ────────────────── Step 13 — sync sporeLinks (Phase 3) ──────────────────
-# 為什麼: knowledge/*.md sporeLinks 過去人類手寫，drift from SPORE-LOG (identity SSOT)
-# + SPORE-HARVESTS (event SSOT). Phase 3 之後 sporeLinks 是 derived view，每次 refresh
-# 從 canonical 來源重生，eliminates drift surface.
-echo -e "${GRN}[13/14]${RST} sync sporeLinks (regen from SPORE-LOG + SPORE-HARVESTS)..."
+# ────────────────── Step 13 — sync sporeLinks (v2 identity-only) ──────────────────
+# 為什麼: knowledge/*.md sporeLinks 過去人類手寫，drift from SPORE-LOG (identity SSOT)。
+# Phase 3 之後是 derived view；v2 (2026-06-10) 之後只剩 identity pointer（id/platform/
+# date/url），metrics 住 spores.json — 本步驟平日應為 no-op，只在新孢子發布日有 diff。
+echo -e "${GRN}[13/14]${RST} sync sporeLinks identity pointers (regen from SPORE-LOG)..."
 if python3 scripts/tools/sync-spore-links.py --apply 2>&1 | tail -3; then
   echo -e "${DIM}   ✓ sporeLinks synced${RST}"
 else

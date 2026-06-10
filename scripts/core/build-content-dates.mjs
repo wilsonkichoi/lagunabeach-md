@@ -69,6 +69,17 @@ const NON_DEFAULT_LANGS = new Set(
 const COSMETIC =
   /(\[routine\]|babel|prettier|\blint\b|^🧬 \[semiont\] chore|format-only|translate\(|apostrophe|simplified-char|繁簡)/i;
 
+// Spore lifecycle commits (ship / harvest backfill / sporeLinks pointer sync)
+// touch article frontmatter only — publishing or measuring a spore is NOT an
+// article content change. Without this, 34/57 spore-carrying articles had
+// their /latest position + sitemap lastmod set by spore ops (2026-06-10
+// audit, reports/spore-data-architecture-2026-06-10.md §2.3). Type-position
+// anchors keep real fixes like「heal: … 孢子 #132 查證抓出文章 date error」
+// counting as content. Belt-and-suspenders: since the same report's refactor,
+// harvest no longer writes article files at all.
+const SPORE_POINTER =
+  /(^🧬 \[semiont\] (spore|harvest)\b|^🧬 \[harvest|fix\(spore\)|evolve\+harvest|feat: spore SSOT cleanup|衍生資料同步|sporeLinks)/i;
+
 function knowledgePathToUrl(p) {
   const parts = p.split('/');
   if (parts[0] !== 'knowledge') return null;
@@ -120,7 +131,7 @@ function main() {
       const parts = token.split('|');
       curDate = parts[2] || '';
       const subject = parts.slice(3).join('|');
-      cosmetic = COSMETIC.test(subject);
+      cosmetic = COSMETIC.test(subject) || SPORE_POINTER.test(subject);
     } else if (token.startsWith('knowledge/') && token.endsWith('.md')) {
       if (cosmetic) {
         skipped++;

@@ -1,0 +1,5803 @@
+{
+  "_generated": "2026-06-10T17:39:31+08:00",
+  "schemaVersion": 1,
+  "counts": {
+    "spores": 125,
+    "articles": 61,
+    "withMetrics": 108
+  },
+  "spores": [
+    {
+      "id": 1,
+      "slug": "數位身分證與個資爭議",
+      "articlePath": null,
+      "articleUrl": null,
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-03-24",
+      "url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
+    },
+    {
+      "id": 2,
+      "slug": "齊柏林",
+      "articlePath": "knowledge/People/齊柏林.md",
+      "articleUrl": "/people/齊柏林/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-03-24",
+      "url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
+    },
+    {
+      "id": 3,
+      "slug": "林書豪",
+      "articlePath": "knowledge/People/林書豪.md",
+      "articleUrl": "/people/林書豪/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-04",
+      "url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
+    },
+    {
+      "id": 4,
+      "slug": "台灣國樂",
+      "articlePath": "knowledge/Music/台灣國樂.md",
+      "articleUrl": "/music/台灣國樂/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-04",
+      "url": "https://www.threads.com/@taiwandotmd/post/DWtoAI1k8Xf",
+      "metrics": {
+        "views": 351,
+        "likes": null,
+        "reposts": null,
+        "comments": 0,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 14,
+        "harvestDate": "2026-04-18 20:30 GMT+8",
+        "batch": "batch-2026-04-18-6-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 355,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 14,
+          "harvestDate": "2026-04-18 20:30 GMT+8",
+          "batch": "batch-2026-04-18-6-spores",
+          "views": 351,
+          "likes": null,
+          "reposts": null,
+          "comments": 0,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "台灣國樂",
+      "articlePath": "knowledge/Music/台灣國樂.md",
+      "articleUrl": "/music/台灣國樂/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-04-04",
+      "url": "https://x.com/taiwandotmd/status/2040438911697379383",
+      "metrics": {
+        "views": 55,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 55,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "台灣宗教與寺廟文化",
+      "articlePath": "knowledge/Culture/台灣宗教與寺廟文化.md",
+      "articleUrl": "/culture/台灣宗教與寺廟文化/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-06",
+      "url": "https://www.threads.com/@taiwandotmd/post/DWx7dvkEcNA",
+      "metrics": {
+        "views": 140,
+        "likes": null,
+        "reposts": null,
+        "comments": 0,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 12,
+        "harvestDate": "2026-04-18 20:30 GMT+8",
+        "batch": "batch-2026-04-18-6-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 140,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 12,
+          "harvestDate": "2026-04-18 20:30 GMT+8",
+          "batch": "batch-2026-04-18-6-spores",
+          "views": 140,
+          "likes": null,
+          "reposts": null,
+          "comments": 0,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "台灣宗教與寺廟文化",
+      "articlePath": "knowledge/Culture/台灣宗教與寺廟文化.md",
+      "articleUrl": "/culture/台灣宗教與寺廟文化/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-04-06",
+      "url": "https://x.com/taiwandotmd/status/2041042663613608298",
+      "metrics": {
+        "views": 428,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 428,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "嚴長壽",
+      "articlePath": "knowledge/People/嚴長壽.md",
+      "articleUrl": "/people/嚴長壽/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-06",
+      "url": "https://www.threads.com/@taiwandotmd/post/DWyqKShE4a8",
+      "metrics": {
+        "views": 212,
+        "likes": null,
+        "reposts": null,
+        "comments": 0,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 12,
+        "harvestDate": "2026-04-18 20:30 GMT+8",
+        "batch": "batch-2026-04-18-6-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 213,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 12,
+          "harvestDate": "2026-04-18 20:30 GMT+8",
+          "batch": "batch-2026-04-18-6-spores",
+          "views": 212,
+          "likes": null,
+          "reposts": null,
+          "comments": 0,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "slug": "嚴長壽",
+      "articlePath": "knowledge/People/嚴長壽.md",
+      "articleUrl": "/people/嚴長壽/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-04-06",
+      "url": "https://x.com/taiwandotmd/status/2041143084583469498",
+      "metrics": {
+        "views": 40,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 40,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "slug": "台灣民主轉型",
+      "articlePath": "knowledge/History/台灣民主轉型.md",
+      "articleUrl": "/history/台灣民主轉型/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-07",
+      "url": "https://www.threads.com/@taiwandotmd/post/DW1ba_tEz5D",
+      "metrics": {
+        "views": 274,
+        "likes": null,
+        "reposts": null,
+        "comments": 0,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 11,
+        "harvestDate": "2026-04-18 20:30 GMT+8",
+        "batch": "batch-2026-04-18-6-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 275,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 11,
+          "harvestDate": "2026-04-18 20:30 GMT+8",
+          "batch": "batch-2026-04-18-6-spores",
+          "views": 274,
+          "likes": null,
+          "reposts": null,
+          "comments": 0,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "slug": "台灣民主轉型",
+      "articlePath": null,
+      "articleUrl": null,
+      "lang": "en",
+      "platform": "x",
+      "date": "2026-04-07",
+      "url": "https://x.com/taiwandotmd/status/2041532925469224960",
+      "metrics": {
+        "views": 36,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 36,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "slug": "台灣民主轉型",
+      "articlePath": null,
+      "articleUrl": null,
+      "lang": "en",
+      "platform": "threads",
+      "date": "2026-04-07",
+      "url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
+    },
+    {
+      "id": 13,
+      "slug": "台海危機與兩岸關係發展",
+      "articlePath": "knowledge/History/台海危機與兩岸關係發展.md",
+      "articleUrl": "/history/台海危機與兩岸關係發展/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-08",
+      "url": "https://www.threads.com/@taiwandotmd/post/DW2rgufk40S",
+      "metrics": {
+        "views": 281,
+        "likes": null,
+        "reposts": null,
+        "comments": 0,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 10,
+        "harvestDate": "2026-04-18 20:30 GMT+8",
+        "batch": "batch-2026-04-18-6-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 285,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 10,
+          "harvestDate": "2026-04-18 20:30 GMT+8",
+          "batch": "batch-2026-04-18-6-spores",
+          "views": 281,
+          "likes": null,
+          "reposts": null,
+          "comments": 0,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "slug": "台海危機與兩岸關係發展",
+      "articlePath": null,
+      "articleUrl": null,
+      "lang": "en",
+      "platform": "x",
+      "date": "2026-04-08",
+      "url": "https://x.com/taiwandotmd/status/2041710306196677031",
+      "metrics": {
+        "views": 34,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 34,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "slug": "台灣感性",
+      "articlePath": "knowledge/Culture/台灣感性.md",
+      "articleUrl": "/culture/台灣感性/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-08",
+      "url": "https://www.threads.com/@taiwandotmd/post/DW2whskkZot",
+      "metrics": {
+        "views": 568,
+        "likes": null,
+        "reposts": null,
+        "comments": 0,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 10,
+        "harvestDate": "2026-04-18 20:30 GMT+8",
+        "batch": "batch-2026-04-18-6-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 571,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 10,
+          "harvestDate": "2026-04-18 20:30 GMT+8",
+          "batch": "batch-2026-04-18-6-spores",
+          "views": 568,
+          "likes": null,
+          "reposts": null,
+          "comments": 0,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "slug": "台灣感性",
+      "articlePath": null,
+      "articleUrl": null,
+      "lang": "en",
+      "platform": "x",
+      "date": "2026-04-08",
+      "url": "https://x.com/taiwandotmd/status/2041719940965920921",
+      "metrics": {
+        "views": 47,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 47,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "slug": "台灣國防與軍事現代化",
+      "articlePath": "knowledge/Society/台灣國防與軍事現代化.md",
+      "articleUrl": "/society/台灣國防與軍事現代化/",
+      "lang": "zh",
+      "platform": "—",
+      "date": "2026-04-10",
+      "url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
+    },
+    {
+      "id": 18,
+      "slug": "台灣國防與軍事現代化",
+      "articlePath": null,
+      "articleUrl": null,
+      "lang": "en",
+      "platform": "—",
+      "date": "2026-04-10",
+      "url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
+    },
+    {
+      "id": 19,
+      "slug": "台灣動物用藥爭議",
+      "articlePath": "knowledge/Society/台灣動物用藥爭議.md",
+      "articleUrl": "/society/台灣動物用藥爭議/",
+      "lang": "zh",
+      "platform": "—",
+      "date": "2026-04-10",
+      "url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
+    },
+    {
+      "id": 20,
+      "slug": "台灣動物用藥爭議",
+      "articlePath": null,
+      "articleUrl": null,
+      "lang": "en",
+      "platform": "—",
+      "date": "2026-04-10",
+      "url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
+    },
+    {
+      "id": 21,
+      "slug": "2026鄭習會與國共十年再會",
+      "articlePath": "knowledge/Society/2026鄭習會與國共十年再會.md",
+      "articleUrl": "/society/2026鄭習會與國共十年再會/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-11",
+      "url": "https://www.threads.com/@taiwandotmd/post/DW_CjmCkQMW",
+      "metrics": {
+        "views": 221,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 221,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "slug": "鄭麗文",
+      "articlePath": "knowledge/People/鄭麗文.md",
+      "articleUrl": "/people/鄭麗文/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-11",
+      "url": "https://www.threads.com/@taiwandotmd/post/DW_l-6Yk_kg",
+      "metrics": {
+        "views": 49000,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 49000,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "slug": "鄭麗文",
+      "articlePath": null,
+      "articleUrl": null,
+      "lang": "en",
+      "platform": "x",
+      "date": "2026-04-11",
+      "url": "https://x.com/taiwandotmd/status/2042527836003868785",
+      "metrics": {
+        "views": 28,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 28,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "slug": "韓國瑜",
+      "articlePath": "knowledge/People/韓國瑜.md",
+      "articleUrl": "/people/韓國瑜/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-13",
+      "url": "https://www.threads.com/@taiwandotmd/post/DXDpQqyETkf",
+      "metrics": {
+        "views": 8533,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 8533,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "slug": "張懸與安溥",
+      "articlePath": "knowledge/Music/張懸與安溥.md",
+      "articleUrl": "/music/張懸與安溥/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-13",
+      "url": "https://www.threads.com/@taiwandotmd/post/DXDq1FZkddO",
+      "metrics": {
+        "views": 190000,
+        "likes": 2357,
+        "reposts": 194,
+        "comments": 135,
+        "shares": 208
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 190000,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "slug": "韓國瑜",
+      "articlePath": "knowledge/People/韓國瑜.md",
+      "articleUrl": "/people/韓國瑜/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-04-13",
+      "url": "https://x.com/taiwandotmd/status/2043538858886017091",
+      "metrics": {
+        "views": 332,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 332,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "slug": "張懸與安溥",
+      "articlePath": "knowledge/Music/張懸與安溥.md",
+      "articleUrl": "/music/張懸與安溥/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-04-13",
+      "url": "https://x.com/taiwandotmd/status/2043538702853644444",
+      "metrics": {
+        "views": 489,
+        "likes": 2,
+        "reposts": 1,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 489,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "slug": "李洋",
+      "articlePath": "knowledge/People/李洋.md",
+      "articleUrl": "/people/李洋/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-14",
+      "url": "https://www.threads.com/@taiwandotmd/post/DXGo_9REaGS",
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
+    },
+    {
+      "id": 29,
+      "slug": "李洋",
+      "articlePath": "knowledge/People/李洋.md",
+      "articleUrl": "/people/李洋/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-14",
+      "url": "https://www.threads.com/@taiwandotmd/post/DXGuAudkbuC",
+      "metrics": {
+        "views": 300000,
+        "likes": 16000,
+        "reposts": 689,
+        "comments": 151,
+        "shares": 329
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 180000,
+          "likes": 16000,
+          "reposts": 689,
+          "comments": 151,
+          "shares": 329
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 300000,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "slug": "李洋",
+      "articlePath": "knowledge/People/李洋.md",
+      "articleUrl": "/people/李洋/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-04-14",
+      "url": "https://x.com/taiwandotmd/status/2043976162813325344",
+      "metrics": {
+        "views": 136474,
+        "likes": 3600,
+        "reposts": 492,
+        "comments": 47,
+        "shares": 112
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 112300,
+          "likes": 3600,
+          "reposts": 492,
+          "comments": 47,
+          "shares": null
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 136474,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "slug": "Cicada",
+      "articlePath": "knowledge/People/Cicada.md",
+      "articleUrl": "/people/Cicada/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-18",
+      "url": "https://www.threads.com/@taiwandotmd/post/DXQph5okwOu",
+      "metrics": {
+        "views": 304,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 0,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 207,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 242,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 293,
+          "likes": 8,
+          "reposts": null,
+          "comments": 1,
+          "shares": 4
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 304,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "slug": "Cicada",
+      "articlePath": "knowledge/People/Cicada.md",
+      "articleUrl": "/people/Cicada/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-04-18",
+      "url": "https://x.com/taiwandotmd/status/2045363785347612934",
+      "metrics": {
+        "views": 5312,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 0,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 92,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 1253,
+          "likes": 45,
+          "reposts": 12,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 4952,
+          "likes": 125,
+          "reposts": 34,
+          "comments": null,
+          "shares": 27
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 5312,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "slug": "草東沒有派對",
+      "articlePath": "knowledge/People/草東沒有派對.md",
+      "articleUrl": "/people/草東沒有派對/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-18",
+      "url": "https://www.threads.com/@taiwandotmd/post/DXQ_in_Ew0*",
+      "metrics": {
+        "views": 28000,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 16000,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 20000,
+          "likes": 655,
+          "reposts": 31,
+          "comments": 14,
+          "shares": 34
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 28000,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "slug": "草東沒有派對",
+      "articlePath": "knowledge/People/草東沒有派對.md",
+      "articleUrl": "/people/草東沒有派對/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-04-18",
+      "url": "https://x.com/taiwandotmd/status/2045412116665172331",
+      "metrics": {
+        "views": 218,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 59,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 199,
+          "likes": 6,
+          "reposts": 1,
+          "comments": 1,
+          "shares": null
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 218,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "slug": "台灣高鐵",
+      "articlePath": "knowledge/Lifestyle/台灣高鐵.md",
+      "articleUrl": "/lifestyle/台灣高鐵/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-19",
+      "url": "https://www.threads.com/@taiwandotmd/post/DXTr5QLkfgp",
+      "metrics": {
+        "views": 71000,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 0,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 37,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 71000,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "slug": "台灣高鐵",
+      "articlePath": "knowledge/Lifestyle/台灣高鐵.md",
+      "articleUrl": "/lifestyle/台灣高鐵/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-04-19",
+      "url": "https://x.com/taiwandotmd/status/2045793882970227009",
+      "metrics": {
+        "views": 63868,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 0,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 3,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 48072,
+          "likes": 313,
+          "reposts": 54,
+          "comments": 10,
+          "shares": null
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 63868,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "slug": "Portaly 首兩筆贊助感謝",
+      "articlePath": null,
+      "articleUrl": null,
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-20",
+      "url": "https://www.threads.com/@taiwandotmd/post/DXVjW6pEzeg",
+      "metrics": {
+        "views": 1415,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 0,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 59,
+          "likes": 1,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 1330,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 1415,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "slug": "Portaly 首兩筆贊助感謝",
+      "articlePath": null,
+      "articleUrl": null,
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-04-20",
+      "url": "https://x.com/taiwandotmd/status/2046054177093382449",
+      "metrics": {
+        "views": 150,
+        "likes": 5,
+        "reposts": 0,
+        "comments": 1,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 0,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 6,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 91,
+          "likes": 4,
+          "reposts": 0,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 150,
+          "likes": 5,
+          "reposts": 0,
+          "comments": 1,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "slug": "謝德慶",
+      "articlePath": "knowledge/Art/謝德慶.md",
+      "articleUrl": "/art/謝德慶/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-20",
+      "url": "https://www.threads.com/@taiwandotmd/post/DXVpBlLk4oE",
+      "metrics": {
+        "views": 3521,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 0,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 1378,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 3444,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 3521,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "slug": "謝德慶",
+      "articlePath": "knowledge/Art/謝德慶.md",
+      "articleUrl": "/art/謝德慶/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-04-20",
+      "url": "https://x.com/taiwandotmd/status/2046066338138104130",
+      "metrics": {
+        "views": 299,
+        "likes": 2,
+        "reposts": 0,
+        "comments": 1,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 0,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 66,
+          "likes": 1,
+          "reposts": 0,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 144,
+          "likes": 1,
+          "reposts": 0,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 299,
+          "likes": 2,
+          "reposts": 0,
+          "comments": 1,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "slug": "認知作戰",
+      "articlePath": "knowledge/Society/認知作戰.md",
+      "articleUrl": "/society/認知作戰/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-23",
+      "url": "https://www.threads.com/@taiwandotmd/post/DXdyoqkEdma",
+      "metrics": {
+        "views": 2100,
+        "likes": 258,
+        "reposts": 31,
+        "comments": 5,
+        "shares": 8
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 0,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 1831,
+          "likes": 209,
+          "reposts": 24,
+          "comments": 5,
+          "shares": 4
+        },
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 2138,
+          "likes": 257,
+          "reposts": 29,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 5,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 2174,
+          "likes": 258,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 2100,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "slug": "認知作戰",
+      "articlePath": "knowledge/Society/認知作戰.md",
+      "articleUrl": "/society/認知作戰/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-04-23",
+      "url": "https://x.com/taiwandotmd/status/2047213679826149450",
+      "metrics": {
+        "views": 25100,
+        "likes": 1400,
+        "reposts": 352,
+        "comments": 21,
+        "shares": 51
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 0,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 6403,
+          "likes": 398,
+          "reposts": 98,
+          "comments": 2,
+          "shares": 14
+        },
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 24435,
+          "likes": 1417,
+          "reposts": 345,
+          "comments": 20,
+          "shares": 50
+        },
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 3,
+          "likes": 3,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 5,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 24937,
+          "likes": 1437,
+          "reposts": 352,
+          "comments": 20,
+          "shares": 51
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 25100,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "slug": "田馥甄",
+      "articlePath": "knowledge/People/田馥甄.md",
+      "articleUrl": "/people/田馥甄/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-26",
+      "url": "https://www.threads.com/@taiwandotmd/post/DXlCpCRE7S9",
+      "metrics": {
+        "views": 827,
+        "likes": 60,
+        "reposts": 1,
+        "comments": 1,
+        "shares": 0
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 0,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 463,
+          "likes": 46,
+          "reposts": 1,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 801,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 827,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "slug": "田馥甄",
+      "articlePath": "knowledge/People/田馥甄.md",
+      "articleUrl": "/people/田馥甄/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-04-26",
+      "url": "https://x.com/taiwandotmd/status/2048233702053073039",
+      "metrics": {
+        "views": 49200,
+        "likes": 860,
+        "reposts": 76,
+        "comments": 5,
+        "shares": 63
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 0,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 5681,
+          "likes": 123,
+          "reposts": 14,
+          "comments": 0,
+          "shares": 6
+        },
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 48693,
+          "likes": 847,
+          "reposts": 76,
+          "comments": 5,
+          "shares": 60
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 49200,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "slug": "壞特",
+      "articlePath": "knowledge/People/壞特.md",
+      "articleUrl": "/people/壞特/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-26",
+      "url": "https://www.threads.com/@taiwandotmd/post/DXlcWdykVgv",
+      "metrics": {
+        "views": 65400,
+        "likes": 1027,
+        "reposts": 23,
+        "comments": 12,
+        "shares": 115
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 0,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 297,
+          "likes": 12,
+          "reposts": 1,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 65000,
+          "likes": 1027,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 65400,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "slug": "壞特",
+      "articlePath": "knowledge/People/壞特.md",
+      "articleUrl": "/people/壞特/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-04-26",
+      "url": "https://x.com/taiwandotmd/status/2048290884022850047",
+      "metrics": {
+        "views": 39900,
+        "likes": 491,
+        "reposts": 53,
+        "comments": 2,
+        "shares": 74
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-08",
+        "batch": "batch-historical-2026-05-08-migration",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 0,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 40,
+          "likes": 3,
+          "reposts": 1,
+          "comments": 0,
+          "shares": 0
+        },
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 39341,
+          "likes": 484,
+          "reposts": 52,
+          "comments": 2,
+          "shares": 68
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 39900,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "slug": "沈伯洋",
+      "articlePath": "knowledge/People/沈伯洋.md",
+      "articleUrl": "/people/沈伯洋/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-28",
+      "url": "https://www.threads.com/@taiwandotmd/post/DXqRxf5EQpg",
+      "metrics": {
+        "views": 12000,
+        "likes": 1130,
+        "reposts": 110,
+        "comments": 4,
+        "shares": 9
+      },
+      "metricsAsOf": {
+        "dPlus": 10,
+        "harvestDate": "2026-05-08 21:30",
+        "batch": "batch-2026-05-08-15-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 0,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 1529,
+          "likes": 121,
+          "reposts": 0,
+          "comments": 2,
+          "shares": null
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 12000,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 10,
+          "harvestDate": "2026-05-08 21:30",
+          "batch": "batch-2026-05-08-15-spores",
+          "views": 12000,
+          "likes": 1130,
+          "reposts": 110,
+          "comments": 4,
+          "shares": 9
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "slug": "沈伯洋",
+      "articlePath": "knowledge/People/沈伯洋.md",
+      "articleUrl": "/people/沈伯洋/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-04-28",
+      "url": "https://x.com/taiwandotmd/status/2048970734253551638",
+      "metrics": {
+        "views": 26940,
+        "likes": 704,
+        "reposts": 129,
+        "comments": 9,
+        "shares": 27
+      },
+      "metricsAsOf": {
+        "dPlus": 10,
+        "harvestDate": "2026-05-08 21:30",
+        "batch": "batch-2026-05-08-15-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 0,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 351,
+          "likes": 10,
+          "reposts": 2,
+          "comments": 0,
+          "shares": 0
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 26940,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 10,
+          "harvestDate": "2026-05-08 21:30",
+          "batch": "batch-2026-05-08-15-spores",
+          "views": 26940,
+          "likes": 704,
+          "reposts": 129,
+          "comments": 9,
+          "shares": 27
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "slug": "林琪兒",
+      "articlePath": "knowledge/People/林琪兒.md",
+      "articleUrl": "/people/林琪兒/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-28",
+      "url": "https://www.threads.com/@taiwandotmd/post/DXrDdODk37l",
+      "metrics": {
+        "views": 10000,
+        "likes": 743,
+        "reposts": 26,
+        "comments": 1,
+        "shares": 9
+      },
+      "metricsAsOf": {
+        "dPlus": 10,
+        "harvestDate": "2026-05-08 21:30",
+        "batch": "batch-2026-05-08-15-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 10000,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 10,
+          "harvestDate": "2026-05-08 21:30",
+          "batch": "batch-2026-05-08-15-spores",
+          "views": 10000,
+          "likes": 743,
+          "reposts": 26,
+          "comments": 1,
+          "shares": 9
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "slug": "林琪兒",
+      "articlePath": "knowledge/People/林琪兒.md",
+      "articleUrl": "/people/林琪兒/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-04-28",
+      "url": "https://x.com/taiwandotmd/status/2049079839244828881",
+      "metrics": {
+        "views": 8130,
+        "likes": 290,
+        "reposts": 41,
+        "comments": 8,
+        "shares": 12
+      },
+      "metricsAsOf": {
+        "dPlus": 10,
+        "harvestDate": "2026-05-08 21:30",
+        "batch": "batch-2026-05-08-15-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 8130,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 10,
+          "harvestDate": "2026-05-08 21:30",
+          "batch": "batch-2026-05-08-15-spores",
+          "views": 8130,
+          "likes": 290,
+          "reposts": 41,
+          "comments": 8,
+          "shares": 12
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "slug": "台灣邦交國與國際外交",
+      "articlePath": "knowledge/Society/台灣邦交國與國際外交.md",
+      "articleUrl": "/society/台灣邦交國與國際外交/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-29",
+      "url": "https://www.threads.com/@taiwandotmd/post/DXtCIBCEeTh?xmt=AQF00UmSgX_psrM3oEzyol1G5-uzmnwiLTKilOhh_lJbhQ",
+      "metrics": {
+        "views": 17000,
+        "likes": 500,
+        "reposts": 56,
+        "comments": 63,
+        "shares": 14
+      },
+      "metricsAsOf": {
+        "dPlus": 9,
+        "harvestDate": "2026-05-08 21:30",
+        "batch": "batch-2026-05-08-15-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 17000,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 9,
+          "harvestDate": "2026-05-08 21:30",
+          "batch": "batch-2026-05-08-15-spores",
+          "views": 17000,
+          "likes": 500,
+          "reposts": 56,
+          "comments": 63,
+          "shares": 14
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "slug": "台灣邦交國與國際外交",
+      "articlePath": "knowledge/Society/台灣邦交國與國際外交.md",
+      "articleUrl": "/society/台灣邦交國與國際外交/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-04-29",
+      "url": "https://x.com/taiwandotmd/status/2049358488246349945",
+      "metrics": {
+        "views": 59190,
+        "likes": 1192,
+        "reposts": 212,
+        "comments": 115,
+        "shares": 69
+      },
+      "metricsAsOf": {
+        "dPlus": 9,
+        "harvestDate": "2026-05-08 21:30",
+        "batch": "batch-2026-05-08-15-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 59190,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 9,
+          "harvestDate": "2026-05-08 21:30",
+          "batch": "batch-2026-05-08-15-spores",
+          "views": 59190,
+          "likes": 1192,
+          "reposts": 212,
+          "comments": 115,
+          "shares": 69
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "slug": "黑冠麻鷺",
+      "articlePath": "knowledge/Nature/黑冠麻鷺.md",
+      "articleUrl": "/nature/黑冠麻鷺/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-30",
+      "url": "https://www.threads.com/@taiwandotmd/post/DXwjz-nk9Iq",
+      "metrics": {
+        "views": 65000,
+        "likes": 2995,
+        "reposts": 205,
+        "comments": 116,
+        "shares": 364
+      },
+      "metricsAsOf": {
+        "dPlus": 8,
+        "harvestDate": "2026-05-08 21:30",
+        "batch": "batch-2026-05-08-15-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 65000,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 8,
+          "harvestDate": "2026-05-08 21:30",
+          "batch": "batch-2026-05-08-15-spores",
+          "views": 65000,
+          "likes": 2995,
+          "reposts": 205,
+          "comments": 116,
+          "shares": 364
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "slug": "黑冠麻鷺",
+      "articlePath": "knowledge/Nature/黑冠麻鷺.md",
+      "articleUrl": "/nature/黑冠麻鷺/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-04-30",
+      "url": "https://x.com/taiwandotmd/status/2049854898108522575",
+      "metrics": {
+        "views": 69664,
+        "likes": 1642,
+        "reposts": 226,
+        "comments": 28,
+        "shares": 113
+      },
+      "metricsAsOf": {
+        "dPlus": 8,
+        "harvestDate": "2026-05-08 21:30",
+        "batch": "batch-2026-05-08-15-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 69664,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 8,
+          "harvestDate": "2026-05-08 21:30",
+          "batch": "batch-2026-05-08-15-spores",
+          "views": 69664,
+          "likes": 1642,
+          "reposts": 226,
+          "comments": 28,
+          "shares": 113
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "slug": "海底電纜",
+      "articlePath": "knowledge/Technology/海底電纜.md",
+      "articleUrl": "/technology/海底電纜/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-04-30",
+      "url": "https://www.threads.com/@taiwandotmd/post/DXwm8KLk5QP",
+      "metrics": {
+        "views": 1500,
+        "likes": 165,
+        "reposts": 34,
+        "comments": 1,
+        "shares": 3
+      },
+      "metricsAsOf": {
+        "dPlus": 8,
+        "harvestDate": "2026-05-08 21:30",
+        "batch": "batch-2026-05-08-15-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 1500,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 8,
+          "harvestDate": "2026-05-08 21:30",
+          "batch": "batch-2026-05-08-15-spores",
+          "views": 1500,
+          "likes": 165,
+          "reposts": 34,
+          "comments": 1,
+          "shares": 3
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "slug": "海底電纜",
+      "articlePath": "knowledge/Technology/海底電纜.md",
+      "articleUrl": "/technology/海底電纜/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-04-30",
+      "url": "https://x.com/taiwandotmd/status/2049860918641893571",
+      "metrics": {
+        "views": 20940,
+        "likes": 821,
+        "reposts": 267,
+        "comments": 2,
+        "shares": 60
+      },
+      "metricsAsOf": {
+        "dPlus": 8,
+        "harvestDate": "2026-05-08 21:30",
+        "batch": "batch-2026-05-08-15-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 20940,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 8,
+          "harvestDate": "2026-05-08 21:30",
+          "batch": "batch-2026-05-08-15-spores",
+          "views": 20940,
+          "likes": 821,
+          "reposts": 267,
+          "comments": 2,
+          "shares": 60
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "slug": "賈永婕",
+      "articlePath": "knowledge/People/賈永婕.md",
+      "articleUrl": "/people/賈永婕/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-02",
+      "url": "https://www.threads.com/@taiwandotmd/post/DX13hccE6U6",
+      "metrics": {
+        "views": 35000,
+        "likes": 3396,
+        "reposts": 94,
+        "comments": 13,
+        "shares": 10
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-09 10:53",
+        "batch": "batch-2026-05-09-4-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 0,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 1800,
+          "likes": 189,
+          "reposts": 16,
+          "comments": 2,
+          "shares": 1
+        },
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 14000,
+          "likes": 1285,
+          "reposts": 51,
+          "comments": 10,
+          "shares": 7
+        },
+        {
+          "dPlus": 6,
+          "harvestDate": "2026-05-08 21:30",
+          "batch": "batch-2026-05-08-15-spores",
+          "views": 35000,
+          "likes": 3393,
+          "reposts": 51,
+          "comments": 10,
+          "shares": 7
+        },
+        {
+          "dPlus": 6,
+          "harvestDate": "2026-05-08 23:46",
+          "batch": "batch-2026-05-08-late-11-spores",
+          "views": 35000,
+          "likes": 3393,
+          "reposts": 94,
+          "comments": 13,
+          "shares": 10
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-09 10:53",
+          "batch": "batch-2026-05-09-4-spores",
+          "views": 35000,
+          "likes": 3396,
+          "reposts": 94,
+          "comments": 13,
+          "shares": 10
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "slug": "賈永婕",
+      "articlePath": "knowledge/People/賈永婕.md",
+      "articleUrl": "/people/賈永婕/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-05-02",
+      "url": "https://x.com/taiwandotmd/status/2050601653792047479",
+      "metrics": {
+        "views": 26536,
+        "likes": 1179,
+        "reposts": 161,
+        "comments": 6,
+        "shares": 39
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-09 10:53",
+        "batch": "batch-2026-05-09-4-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 0,
+          "harvestDate": "2026-05-08",
+          "batch": "batch-historical-2026-05-08-migration",
+          "views": 12000,
+          "likes": 593,
+          "reposts": 73,
+          "comments": 4,
+          "shares": 17
+        },
+        {
+          "dPlus": 6,
+          "harvestDate": "2026-05-08 21:30",
+          "batch": "batch-2026-05-08-15-spores",
+          "views": 26519,
+          "likes": 1180,
+          "reposts": 161,
+          "comments": 6,
+          "shares": 39
+        },
+        {
+          "dPlus": 6,
+          "harvestDate": "2026-05-08 23:46",
+          "batch": "batch-2026-05-08-late-11-spores",
+          "views": 26525,
+          "likes": 1180,
+          "reposts": 161,
+          "comments": 6,
+          "shares": 39
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-09 10:53",
+          "batch": "batch-2026-05-09-4-spores",
+          "views": 26536,
+          "likes": 1179,
+          "reposts": 161,
+          "comments": 6,
+          "shares": 39
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "slug": "黃魚鴞",
+      "articlePath": "knowledge/Nature/黃魚鴞.md",
+      "articleUrl": "/nature/黃魚鴞/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-04",
+      "url": "https://www.threads.com/@taiwandotmd/post/DX6Xxd6kQan",
+      "metrics": {
+        "views": 19000,
+        "likes": 1800,
+        "reposts": 134,
+        "comments": 2,
+        "shares": 110
+      },
+      "metricsAsOf": {
+        "dPlus": 8,
+        "harvestDate": "2026-05-12",
+        "batch": "batch-2026-05-12-13-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-08 21:30",
+          "batch": "batch-2026-05-08-15-spores",
+          "views": 19000,
+          "likes": 1796,
+          "reposts": 134,
+          "comments": 2,
+          "shares": 110
+        },
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-08 23:46",
+          "batch": "batch-2026-05-08-late-11-spores",
+          "views": 19000,
+          "likes": 1796,
+          "reposts": 134,
+          "comments": 2,
+          "shares": 110
+        },
+        {
+          "dPlus": 8,
+          "harvestDate": "2026-05-12",
+          "batch": "batch-2026-05-12-13-spores",
+          "views": 19000,
+          "likes": 1800,
+          "reposts": 134,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "slug": "黃魚鴞",
+      "articlePath": "knowledge/Nature/黃魚鴞.md",
+      "articleUrl": "/nature/黃魚鴞/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-05-04",
+      "url": "https://x.com/taiwandotmd/status/2051235570995839479",
+      "metrics": {
+        "views": 12776,
+        "likes": 423,
+        "reposts": 79,
+        "comments": 4,
+        "shares": 35
+      },
+      "metricsAsOf": {
+        "dPlus": 8,
+        "harvestDate": "2026-05-12",
+        "batch": "batch-2026-05-12-13-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-08 21:30",
+          "batch": "batch-2026-05-08-15-spores",
+          "views": 12691,
+          "likes": 422,
+          "reposts": 79,
+          "comments": 4,
+          "shares": 35
+        },
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-08 23:46",
+          "batch": "batch-2026-05-08-late-11-spores",
+          "views": 12698,
+          "likes": 422,
+          "reposts": 79,
+          "comments": 4,
+          "shares": 35
+        },
+        {
+          "dPlus": 8,
+          "harvestDate": "2026-05-12",
+          "batch": "batch-2026-05-12-13-spores",
+          "views": 12776,
+          "likes": 423,
+          "reposts": 79,
+          "comments": 4,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "slug": "台灣與史瓦帝尼",
+      "articlePath": "knowledge/Society/台灣與史瓦帝尼.md",
+      "articleUrl": "/society/台灣與史瓦帝尼/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-05",
+      "url": "https://www.threads.com/@taiwandotmd/post/DX8zEYFAe9c",
+      "metrics": {
+        "views": 7489,
+        "likes": 504,
+        "reposts": 0,
+        "comments": 0,
+        "shares": 0
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-12",
+        "batch": "batch-2026-05-12-13-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-08 23:46",
+          "batch": "batch-2026-05-08-late-11-spores",
+          "views": 7461,
+          "likes": 504,
+          "reposts": 0,
+          "comments": 0,
+          "shares": 0
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-12",
+          "batch": "batch-2026-05-12-13-spores",
+          "views": 7489,
+          "likes": 504,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "slug": "台灣與史瓦帝尼",
+      "articlePath": "knowledge/Society/台灣與史瓦帝尼.md",
+      "articleUrl": "/society/台灣與史瓦帝尼/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-05-05",
+      "url": "https://x.com/taiwandotmd/status/2051577099341967464",
+      "metrics": {
+        "views": 17332,
+        "likes": 541,
+        "reposts": 68,
+        "comments": 13,
+        "shares": 16
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-12",
+        "batch": "batch-2026-05-12-13-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-08 23:46",
+          "batch": "batch-2026-05-08-late-11-spores",
+          "views": 17265,
+          "likes": 538,
+          "reposts": 68,
+          "comments": 13,
+          "shares": 16
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-12",
+          "batch": "batch-2026-05-12-13-spores",
+          "views": 17332,
+          "likes": 541,
+          "reposts": 68,
+          "comments": 13,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "slug": "寶島聯播網訪談",
+      "articlePath": null,
+      "articleUrl": null,
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-05",
+      "url": "https://www.threads.com/@taiwandotmd/post/DX9i3zClPj4",
+      "metrics": {
+        "views": 270,
+        "likes": 0,
+        "reposts": 0,
+        "comments": 0,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-12",
+        "batch": "batch-2026-05-12-13-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-08 23:46",
+          "batch": "batch-2026-05-08-late-11-spores",
+          "views": 253,
+          "likes": 0,
+          "reposts": 0,
+          "comments": 0,
+          "shares": 0
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-12",
+          "batch": "batch-2026-05-12-13-spores",
+          "views": 270,
+          "likes": 0,
+          "reposts": 0,
+          "comments": 0,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "slug": "寶島聯播網訪談",
+      "articlePath": null,
+      "articleUrl": null,
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-05-05",
+      "url": "https://x.com/taiwandotmd/status/2051682413823336822",
+      "metrics": {
+        "views": 19,
+        "likes": 0,
+        "reposts": 0,
+        "comments": 0,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-12",
+        "batch": "batch-2026-05-12-13-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-08 23:46",
+          "batch": "batch-2026-05-08-late-11-spores",
+          "views": 19,
+          "likes": 0,
+          "reposts": 0,
+          "comments": 0,
+          "shares": 0
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-12",
+          "batch": "batch-2026-05-12-13-spores",
+          "views": 19,
+          "likes": 0,
+          "reposts": 0,
+          "comments": 0,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "slug": "寶島聯播網訪談",
+      "articlePath": null,
+      "articleUrl": null,
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-05-05",
+      "url": "https://x.com/taiwandotmd/status/2051684242749575450",
+      "metrics": {
+        "views": 9,
+        "likes": 0,
+        "reposts": 0,
+        "comments": 0,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-12",
+        "batch": "batch-2026-05-12-13-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-08 21:30",
+          "batch": "batch-2026-05-08-15-spores",
+          "views": 653,
+          "likes": 10,
+          "reposts": 0,
+          "comments": 0,
+          "shares": 0
+        },
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-08 23:46",
+          "batch": "batch-2026-05-08-late-11-spores",
+          "views": 9,
+          "likes": 0,
+          "reposts": 0,
+          "comments": 0,
+          "shares": 0
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-12",
+          "batch": "batch-2026-05-12-13-spores",
+          "views": 9,
+          "likes": 0,
+          "reposts": 0,
+          "comments": 0,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "slug": "聶永真",
+      "articlePath": "knowledge/People/聶永真.md",
+      "articleUrl": "/people/聶永真/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-08",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYE7ZAik0qr",
+      "metrics": {
+        "views": 1780,
+        "likes": 108,
+        "reposts": 12,
+        "comments": 6,
+        "shares": 0
+      },
+      "metricsAsOf": {
+        "dPlus": 8,
+        "harvestDate": "2026-05-16 07:00",
+        "batch": "batch-2026-05-16-8-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 0,
+          "harvestDate": "2026-05-08 23:46",
+          "batch": "batch-2026-05-08-late-11-spores",
+          "views": 880,
+          "likes": 0,
+          "reposts": 0,
+          "comments": 0,
+          "shares": 0
+        },
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-09 10:53",
+          "batch": "batch-2026-05-09-4-spores",
+          "views": 1185,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-12",
+          "batch": "batch-2026-05-12-13-spores",
+          "views": 1494,
+          "likes": 0,
+          "reposts": 0,
+          "comments": 4,
+          "shares": null
+        },
+        {
+          "dPlus": 5,
+          "harvestDate": "2026-05-13 07:05",
+          "batch": "batch-2026-05-13-8-spores",
+          "views": 1586,
+          "likes": 101,
+          "reposts": null,
+          "comments": 3,
+          "shares": null
+        },
+        {
+          "dPlus": 8,
+          "harvestDate": "2026-05-16 07:00",
+          "batch": "batch-2026-05-16-8-spores",
+          "views": 1780,
+          "likes": 108,
+          "reposts": 12,
+          "comments": 6,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "slug": "聶永真",
+      "articlePath": "knowledge/People/聶永真.md",
+      "articleUrl": "/people/聶永真/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-05-08",
+      "url": "https://x.com/taiwandotmd/status/2052721374570106952",
+      "metrics": {
+        "views": 9050,
+        "likes": 376,
+        "reposts": 61,
+        "comments": 0,
+        "shares": 18
+      },
+      "metricsAsOf": {
+        "dPlus": 8,
+        "harvestDate": "2026-05-16 07:00",
+        "batch": "batch-2026-05-16-8-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 0,
+          "harvestDate": "2026-05-08 23:46",
+          "batch": "batch-2026-05-08-late-11-spores",
+          "views": 1038,
+          "likes": 58,
+          "reposts": 9,
+          "comments": 0,
+          "shares": 5
+        },
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-09 10:53",
+          "batch": "batch-2026-05-09-4-spores",
+          "views": 4688,
+          "likes": 216,
+          "reposts": 31,
+          "comments": 0,
+          "shares": 18
+        },
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-12",
+          "batch": "batch-2026-05-12-13-spores",
+          "views": 8974,
+          "likes": 376,
+          "reposts": 60,
+          "comments": 0,
+          "shares": null
+        },
+        {
+          "dPlus": 5,
+          "harvestDate": "2026-05-13 07:05",
+          "batch": "batch-2026-05-13-8-spores",
+          "views": 8987,
+          "likes": 376,
+          "reposts": 60,
+          "comments": 0,
+          "shares": null
+        },
+        {
+          "dPlus": 8,
+          "harvestDate": "2026-05-16 07:00",
+          "batch": "batch-2026-05-16-8-spores",
+          "views": 9050,
+          "likes": 376,
+          "reposts": 61,
+          "comments": 0,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "slug": "台灣企業：台積電",
+      "articlePath": "knowledge/Economy/台灣企業：台積電.md",
+      "articleUrl": "/economy/台灣企業：台積電/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-09",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYHoQtCE-5Z",
+      "metrics": {
+        "views": 2875,
+        "likes": 60,
+        "reposts": 3,
+        "comments": 4,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-16 07:00",
+        "batch": "batch-2026-05-16-8-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-12",
+          "batch": "batch-2026-05-12-13-spores",
+          "views": 2854,
+          "likes": 0,
+          "reposts": 0,
+          "comments": 2,
+          "shares": null
+        },
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-13 07:05",
+          "batch": "batch-2026-05-13-8-spores",
+          "views": 2864,
+          "likes": null,
+          "reposts": null,
+          "comments": 1,
+          "shares": null
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-16 07:00",
+          "batch": "batch-2026-05-16-8-spores",
+          "views": 2875,
+          "likes": 60,
+          "reposts": 3,
+          "comments": 4,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "slug": "台灣企業：台積電",
+      "articlePath": "knowledge/Economy/台灣企業：台積電.md",
+      "articleUrl": "/economy/台灣企業：台積電/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-05-09",
+      "url": "https://x.com/taiwandotmd/status/2053100425730269544",
+      "metrics": {
+        "views": 6,
+        "likes": 0,
+        "reposts": 0,
+        "comments": 0,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-16 07:00",
+        "batch": "batch-2026-05-16-8-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-12",
+          "batch": "batch-2026-05-12-13-spores",
+          "views": 6,
+          "likes": 0,
+          "reposts": 0,
+          "comments": 0,
+          "shares": null
+        },
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-13 07:05",
+          "batch": "batch-2026-05-13-8-spores",
+          "views": 6,
+          "likes": 0,
+          "reposts": 0,
+          "comments": 0,
+          "shares": null
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-16 07:00",
+          "batch": "batch-2026-05-16-8-spores",
+          "views": 6,
+          "likes": 0,
+          "reposts": 0,
+          "comments": 0,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "slug": "台灣無人機產業",
+      "articlePath": "knowledge/Technology/台灣無人機產業.md",
+      "articleUrl": "/technology/台灣無人機產業/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-10",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYKW0PmkzbM",
+      "metrics": {
+        "views": 5334,
+        "likes": 461,
+        "reposts": 43,
+        "comments": 30,
+        "shares": 6
+      },
+      "metricsAsOf": {
+        "dPlus": 8,
+        "harvestDate": "2026-05-18 07:00",
+        "batch": "batch-2026-05-18-6-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-12",
+          "batch": "batch-2026-05-12-13-spores",
+          "views": 5140,
+          "likes": 460,
+          "reposts": null,
+          "comments": 13,
+          "shares": null
+        },
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-13 07:05",
+          "batch": "batch-2026-05-13-8-spores",
+          "views": 5193,
+          "likes": 460,
+          "reposts": null,
+          "comments": 11,
+          "shares": null
+        },
+        {
+          "dPlus": 6,
+          "harvestDate": "2026-05-16 07:00",
+          "batch": "batch-2026-05-16-8-spores",
+          "views": 5299,
+          "likes": 460,
+          "reposts": 43,
+          "comments": 30,
+          "shares": null
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-17 07:00",
+          "batch": "batch-2026-05-17-4-spores",
+          "views": 5310,
+          "likes": 460,
+          "reposts": 43,
+          "comments": 30,
+          "shares": null
+        },
+        {
+          "dPlus": 8,
+          "harvestDate": "2026-05-18 07:00",
+          "batch": "batch-2026-05-18-6-spores",
+          "views": 5334,
+          "likes": 461,
+          "reposts": 43,
+          "comments": 30,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "slug": "台灣無人機產業【未發布】",
+      "articlePath": null,
+      "articleUrl": null,
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-05-10",
+      "url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
+    },
+    {
+      "id": 72,
+      "slug": "蘋果西打",
+      "articlePath": "knowledge/Food/蘋果西打.md",
+      "articleUrl": "/food/蘋果西打/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-12",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYPI9W0kyPP",
+      "metrics": {
+        "views": 4805,
+        "likes": 47,
+        "reposts": 8,
+        "comments": 2,
+        "shares": 0
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-19 07:00",
+        "batch": "batch-2026-05-19-7-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-13 07:05",
+          "batch": "batch-2026-05-13-8-spores",
+          "views": 3857,
+          "likes": null,
+          "reposts": null,
+          "comments": 0,
+          "shares": null
+        },
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-16 07:00",
+          "batch": "batch-2026-05-16-8-spores",
+          "views": 4687,
+          "likes": 46,
+          "reposts": 0,
+          "comments": 1,
+          "shares": null
+        },
+        {
+          "dPlus": 5,
+          "harvestDate": "2026-05-17 07:00",
+          "batch": "batch-2026-05-17-4-spores",
+          "views": 4694,
+          "likes": 47,
+          "reposts": 8,
+          "comments": 2,
+          "shares": null
+        },
+        {
+          "dPlus": 6,
+          "harvestDate": "2026-05-18 07:00",
+          "batch": "batch-2026-05-18-6-spores",
+          "views": 4760,
+          "likes": 47,
+          "reposts": 8,
+          "comments": 2,
+          "shares": null
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-19 07:00",
+          "batch": "batch-2026-05-19-7-spores",
+          "views": 4805,
+          "likes": 47,
+          "reposts": 8,
+          "comments": 2,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "slug": "蘋果西打",
+      "articlePath": "knowledge/Food/蘋果西打.md",
+      "articleUrl": "/food/蘋果西打/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-05-12",
+      "url": "https://x.com/taiwandotmd/status/2054158652588863776",
+      "metrics": {
+        "views": 19029,
+        "likes": 236,
+        "reposts": 33,
+        "comments": 2,
+        "shares": 27
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-19 07:00",
+        "batch": "batch-2026-05-19-7-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-13 07:05",
+          "batch": "batch-2026-05-13-8-spores",
+          "views": 9942,
+          "likes": 119,
+          "reposts": 18,
+          "comments": 2,
+          "shares": null
+        },
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-16 07:00",
+          "batch": "batch-2026-05-16-8-spores",
+          "views": 18972,
+          "likes": 236,
+          "reposts": 33,
+          "comments": 2,
+          "shares": null
+        },
+        {
+          "dPlus": 5,
+          "harvestDate": "2026-05-17 07:00",
+          "batch": "batch-2026-05-17-4-spores",
+          "views": 18900,
+          "likes": 236,
+          "reposts": 33,
+          "comments": 2,
+          "shares": null
+        },
+        {
+          "dPlus": 6,
+          "harvestDate": "2026-05-18 07:00",
+          "batch": "batch-2026-05-18-6-spores",
+          "views": 19017,
+          "likes": 236,
+          "reposts": 33,
+          "comments": 2,
+          "shares": null
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-19 07:00",
+          "batch": "batch-2026-05-19-7-spores",
+          "views": 19029,
+          "likes": 236,
+          "reposts": 33,
+          "comments": 2,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "slug": "陳建年",
+      "articlePath": "knowledge/People/陳建年.md",
+      "articleUrl": "/people/陳建年/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-17",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYbYsqOldKC",
+      "metrics": {
+        "views": 30000,
+        "likes": 2727,
+        "reposts": 95,
+        "comments": 43,
+        "shares": 82
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-24 07:00",
+        "batch": "batch-2026-05-24-9-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-18 07:00",
+          "batch": "batch-2026-05-18-6-spores",
+          "views": 30000,
+          "likes": 2138,
+          "reposts": null,
+          "comments": 14,
+          "shares": null
+        },
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-19 07:00",
+          "batch": "batch-2026-05-19-7-spores",
+          "views": 38000,
+          "likes": 2722,
+          "reposts": null,
+          "comments": 14,
+          "shares": null
+        },
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-20 07:00",
+          "batch": "batch-2026-05-20-4-spores",
+          "views": 38000,
+          "likes": 2726,
+          "reposts": null,
+          "comments": 14,
+          "shares": null
+        },
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-21 07:00",
+          "batch": "batch-2026-05-21-5-spores",
+          "views": 38000,
+          "likes": 2726,
+          "reposts": 95,
+          "comments": 43,
+          "shares": null
+        },
+        {
+          "dPlus": 5,
+          "harvestDate": "2026-05-23 07:25",
+          "batch": "batch-2026-05-23-5-spores",
+          "views": 30000,
+          "likes": 2726,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-24 07:00",
+          "batch": "batch-2026-05-24-9-spores",
+          "views": 30000,
+          "likes": 2727,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "slug": "陳建年",
+      "articlePath": "knowledge/People/陳建年.md",
+      "articleUrl": "/people/陳建年/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-05-17",
+      "url": "https://x.com/taiwandotmd/status/2055881969976873375",
+      "metrics": {
+        "views": 10219,
+        "likes": 282,
+        "reposts": 45,
+        "comments": 2,
+        "shares": 23
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-24 07:00",
+        "batch": "batch-2026-05-24-9-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-18 07:00",
+          "batch": "batch-2026-05-18-6-spores",
+          "views": 4565,
+          "likes": 142,
+          "reposts": 20,
+          "comments": 1,
+          "shares": null
+        },
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-19 07:00",
+          "batch": "batch-2026-05-19-7-spores",
+          "views": 9569,
+          "likes": 265,
+          "reposts": 42,
+          "comments": 1,
+          "shares": null
+        },
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-20 07:00",
+          "batch": "batch-2026-05-20-4-spores",
+          "views": 10021,
+          "likes": 279,
+          "reposts": 45,
+          "comments": 1,
+          "shares": null
+        },
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-21 07:00",
+          "batch": "batch-2026-05-21-5-spores",
+          "views": 10094,
+          "likes": 280,
+          "reposts": 45,
+          "comments": 2,
+          "shares": null
+        },
+        {
+          "dPlus": 5,
+          "harvestDate": "2026-05-23 07:25",
+          "batch": "batch-2026-05-23-5-spores",
+          "views": 10172,
+          "likes": 282,
+          "reposts": 45,
+          "comments": 2,
+          "shares": 23
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-24 07:00",
+          "batch": "batch-2026-05-24-9-spores",
+          "views": 10219,
+          "likes": 282,
+          "reposts": 45,
+          "comments": 2,
+          "shares": 23
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "slug": "臺灣前途決議文",
+      "articlePath": "knowledge/History/臺灣前途決議文.md",
+      "articleUrl": "/history/臺灣前途決議文/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-17",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYca5etE80R",
+      "metrics": {
+        "views": 27000,
+        "likes": 353,
+        "reposts": 34,
+        "comments": 30,
+        "shares": 25
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-24 07:00",
+        "batch": "batch-2026-05-24-9-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-18 07:00",
+          "batch": "batch-2026-05-18-6-spores",
+          "views": 11000,
+          "likes": 191,
+          "reposts": null,
+          "comments": 8,
+          "shares": null
+        },
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-19 07:00",
+          "batch": "batch-2026-05-19-7-spores",
+          "views": 26000,
+          "likes": 349,
+          "reposts": null,
+          "comments": 8,
+          "shares": null
+        },
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-20 07:00",
+          "batch": "batch-2026-05-20-4-spores",
+          "views": 27000,
+          "likes": 353,
+          "reposts": null,
+          "comments": 13,
+          "shares": null
+        },
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-21 07:00",
+          "batch": "batch-2026-05-21-5-spores",
+          "views": 27000,
+          "likes": 353,
+          "reposts": 34,
+          "comments": 30,
+          "shares": null
+        },
+        {
+          "dPlus": 5,
+          "harvestDate": "2026-05-23 07:25",
+          "batch": "batch-2026-05-23-5-spores",
+          "views": 27000,
+          "likes": 353,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-24 07:00",
+          "batch": "batch-2026-05-24-9-spores",
+          "views": 27000,
+          "likes": 353,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "slug": "臺灣前途決議文",
+      "articlePath": "knowledge/History/臺灣前途決議文.md",
+      "articleUrl": "/history/臺灣前途決議文/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-05-17",
+      "url": "https://x.com/taiwandotmd/status/2056026352298688935",
+      "metrics": {
+        "views": 242,
+        "likes": 17,
+        "reposts": 3,
+        "comments": 1,
+        "shares": 1
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-24 07:00",
+        "batch": "batch-2026-05-24-9-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-18 07:00",
+          "batch": "batch-2026-05-18-6-spores",
+          "views": 109,
+          "likes": 8,
+          "reposts": 1,
+          "comments": 0,
+          "shares": null
+        },
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-19 07:00",
+          "batch": "batch-2026-05-19-7-spores",
+          "views": 186,
+          "likes": 16,
+          "reposts": 3,
+          "comments": 0,
+          "shares": null
+        },
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-20 07:00",
+          "batch": "batch-2026-05-20-4-spores",
+          "views": 210,
+          "likes": 17,
+          "reposts": 3,
+          "comments": 0,
+          "shares": null
+        },
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-21 07:00",
+          "batch": "batch-2026-05-21-5-spores",
+          "views": 219,
+          "likes": 17,
+          "reposts": 3,
+          "comments": 1,
+          "shares": null
+        },
+        {
+          "dPlus": 5,
+          "harvestDate": "2026-05-23 07:25",
+          "batch": "batch-2026-05-23-5-spores",
+          "views": 224,
+          "likes": 17,
+          "reposts": 3,
+          "comments": 1,
+          "shares": 1
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-24 07:00",
+          "batch": "batch-2026-05-24-9-spores",
+          "views": 242,
+          "likes": 17,
+          "reposts": 3,
+          "comments": 1,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "slug": "泛科學",
+      "articlePath": "knowledge/Society/泛科學.md",
+      "articleUrl": "/society/泛科學/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-20",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYi422_k4Vs",
+      "metrics": {
+        "views": 1690,
+        "likes": 104,
+        "reposts": 5,
+        "comments": 4,
+        "shares": 3
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-05-27 07:00",
+        "batch": "batch-2026-05-27-15-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-21 07:00",
+          "batch": "batch-2026-05-21-5-spores",
+          "views": 1462,
+          "likes": 96,
+          "reposts": 4,
+          "comments": 4,
+          "shares": null
+        },
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-23 07:25",
+          "batch": "batch-2026-05-23-5-spores",
+          "views": 1624,
+          "likes": 104,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-24 07:00",
+          "batch": "batch-2026-05-24-9-spores",
+          "views": 1641,
+          "likes": 104,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 5,
+          "harvestDate": "2026-05-25 07:55",
+          "batch": "batch-2026-05-25-8-spores",
+          "views": 1656,
+          "likes": 104,
+          "reposts": null,
+          "comments": 1,
+          "shares": null
+        },
+        {
+          "dPlus": 6,
+          "harvestDate": "2026-05-26 07:00",
+          "batch": "batch-2026-05-26-13-spores",
+          "views": 1677,
+          "likes": 104,
+          "reposts": null,
+          "comments": 1,
+          "shares": null
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-05-27 07:00",
+          "batch": "batch-2026-05-27-15-spores",
+          "views": 1690,
+          "likes": 104,
+          "reposts": 5,
+          "comments": 4,
+          "shares": 3
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "slug": "馬英九",
+      "articlePath": "knowledge/People/馬英九.md",
+      "articleUrl": "/people/馬英九/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-23",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYpdfODkxQU",
+      "metrics": {
+        "views": 3550,
+        "likes": 35,
+        "reposts": 2,
+        "comments": 4,
+        "shares": 0
+      },
+      "metricsAsOf": {
+        "dPlus": 10,
+        "harvestDate": "2026-06-02 06:30",
+        "batch": "batch-2026-06-02-15-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-24 07:00",
+          "batch": "batch-2026-05-24-9-spores",
+          "views": 3465,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-25 07:55",
+          "batch": "batch-2026-05-25-8-spores",
+          "views": 3509,
+          "likes": null,
+          "reposts": null,
+          "comments": 1,
+          "shares": null
+        },
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-26 07:00",
+          "batch": "batch-2026-05-26-13-spores",
+          "views": 3527,
+          "likes": null,
+          "reposts": null,
+          "comments": 2,
+          "shares": null
+        },
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-27 07:00",
+          "batch": "batch-2026-05-27-15-spores",
+          "views": 3537,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 5,
+          "harvestDate": "2026-05-28 06:30",
+          "batch": "batch-2026-05-28-15-spores",
+          "views": 35,
+          "likes": 4,
+          "reposts": 0,
+          "comments": 2,
+          "shares": null
+        },
+        {
+          "dPlus": 6,
+          "harvestDate": "2026-05-29 06:30",
+          "batch": "batch-2026-05-29-15-spores",
+          "views": 35,
+          "likes": 4,
+          "reposts": 0,
+          "comments": 2,
+          "shares": null
+        },
+        {
+          "dPlus": 9,
+          "harvestDate": "2026-06-01 06:30",
+          "batch": "batch-2026-06-01-15-spores",
+          "views": 3550,
+          "likes": 35,
+          "reposts": 2,
+          "comments": 4,
+          "shares": 0
+        },
+        {
+          "dPlus": 10,
+          "harvestDate": "2026-06-02 06:30",
+          "batch": "batch-2026-06-02-15-spores",
+          "views": null,
+          "likes": 35,
+          "reposts": 2,
+          "comments": 4,
+          "shares": 0
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "slug": "馬英九",
+      "articlePath": "knowledge/People/馬英九.md",
+      "articleUrl": "/people/馬英九/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-05-23",
+      "url": "https://x.com/taiwandotmd/status/2057861183848550878",
+      "metrics": {
+        "views": 3522,
+        "likes": 44,
+        "reposts": 3,
+        "comments": 9,
+        "shares": 3
+      },
+      "metricsAsOf": {
+        "dPlus": 4,
+        "harvestDate": "2026-05-27 07:00",
+        "batch": "batch-2026-05-27-15-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-24 07:00",
+          "batch": "batch-2026-05-24-9-spores",
+          "views": 3126,
+          "likes": 39,
+          "reposts": 3,
+          "comments": 9,
+          "shares": 3
+        },
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-25 07:55",
+          "batch": "batch-2026-05-25-8-spores",
+          "views": 3448,
+          "likes": 44,
+          "reposts": 3,
+          "comments": 9,
+          "shares": 3
+        },
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-26 07:00",
+          "batch": "batch-2026-05-26-13-spores",
+          "views": 3504,
+          "likes": 44,
+          "reposts": 3,
+          "comments": 9,
+          "shares": 3
+        },
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-27 07:00",
+          "batch": "batch-2026-05-27-15-spores",
+          "views": 3522,
+          "likes": 44,
+          "reposts": 3,
+          "comments": 9,
+          "shares": 3
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "slug": "許倬雲",
+      "articlePath": "knowledge/People/許倬雲.md",
+      "articleUrl": "/people/許倬雲/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-23",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYru52Bk31S",
+      "metrics": {
+        "views": 2179,
+        "likes": 19,
+        "reposts": 0,
+        "comments": 1,
+        "shares": 2
+      },
+      "metricsAsOf": {
+        "dPlus": 10,
+        "harvestDate": "2026-06-02 06:30",
+        "batch": "batch-2026-06-02-15-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-24 07:00",
+          "batch": "batch-2026-05-24-9-spores",
+          "views": 1303,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-25 07:55",
+          "batch": "batch-2026-05-25-8-spores",
+          "views": 2135,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-26 07:00",
+          "batch": "batch-2026-05-26-13-spores",
+          "views": 2155,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-27 07:00",
+          "batch": "batch-2026-05-27-15-spores",
+          "views": 2172,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 5,
+          "harvestDate": "2026-05-28 06:30",
+          "batch": "batch-2026-05-28-15-spores",
+          "views": 19,
+          "likes": 1,
+          "reposts": 0,
+          "comments": 2,
+          "shares": null
+        },
+        {
+          "dPlus": 6,
+          "harvestDate": "2026-05-29 06:30",
+          "batch": "batch-2026-05-29-15-spores",
+          "views": 19,
+          "likes": 1,
+          "reposts": 0,
+          "comments": 2,
+          "shares": null
+        },
+        {
+          "dPlus": 9,
+          "harvestDate": "2026-06-01 06:30",
+          "batch": "batch-2026-06-01-15-spores",
+          "views": 2179,
+          "likes": 19,
+          "reposts": 0,
+          "comments": 1,
+          "shares": 2
+        },
+        {
+          "dPlus": 10,
+          "harvestDate": "2026-06-02 06:30",
+          "batch": "batch-2026-06-02-15-spores",
+          "views": null,
+          "likes": 19,
+          "reposts": 0,
+          "comments": 1,
+          "shares": 2
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "slug": "許倬雲",
+      "articlePath": "knowledge/People/許倬雲.md",
+      "articleUrl": "/people/許倬雲/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-05-23",
+      "url": "https://x.com/taiwandotmd/status/2058183941593719181",
+      "metrics": {
+        "views": 2275,
+        "likes": 20,
+        "reposts": 3,
+        "comments": 5,
+        "shares": 3
+      },
+      "metricsAsOf": {
+        "dPlus": 4,
+        "harvestDate": "2026-05-27 07:00",
+        "batch": "batch-2026-05-27-15-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-24 07:00",
+          "batch": "batch-2026-05-24-9-spores",
+          "views": 1389,
+          "likes": 16,
+          "reposts": 3,
+          "comments": 3,
+          "shares": 2
+        },
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-25 07:55",
+          "batch": "batch-2026-05-25-8-spores",
+          "views": 2134,
+          "likes": 20,
+          "reposts": 3,
+          "comments": 3,
+          "shares": 3
+        },
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-26 07:00",
+          "batch": "batch-2026-05-26-13-spores",
+          "views": 2236,
+          "likes": 20,
+          "reposts": 3,
+          "comments": 4,
+          "shares": 3
+        },
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-27 07:00",
+          "batch": "batch-2026-05-27-15-spores",
+          "views": 2275,
+          "likes": 20,
+          "reposts": 3,
+          "comments": 5,
+          "shares": 3
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "slug": "臺灣漫遊錄",
+      "articlePath": "knowledge/Art/臺灣漫遊錄.md",
+      "articleUrl": "/art/臺灣漫遊錄/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-23",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYr71D9k-qA",
+      "metrics": {
+        "views": 1876,
+        "likes": 1883,
+        "reposts": 88,
+        "comments": 8,
+        "shares": 35
+      },
+      "metricsAsOf": {
+        "dPlus": 10,
+        "harvestDate": "2026-06-02 06:30",
+        "batch": "batch-2026-06-02-15-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-25 07:55",
+          "batch": "batch-2026-05-25-8-spores",
+          "views": 45000,
+          "likes": 1858,
+          "reposts": null,
+          "comments": 4,
+          "shares": null
+        },
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-26 07:00",
+          "batch": "batch-2026-05-26-13-spores",
+          "views": 45000,
+          "likes": 1872,
+          "reposts": null,
+          "comments": 5,
+          "shares": null
+        },
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-27 07:00",
+          "batch": "batch-2026-05-27-15-spores",
+          "views": 40000,
+          "likes": 1873,
+          "reposts": null,
+          "comments": 6,
+          "shares": null
+        },
+        {
+          "dPlus": 5,
+          "harvestDate": "2026-05-28 06:30",
+          "batch": "batch-2026-05-28-15-spores",
+          "views": 1875,
+          "likes": 8,
+          "reposts": 88,
+          "comments": 35,
+          "shares": null
+        },
+        {
+          "dPlus": 6,
+          "harvestDate": "2026-05-29 06:30",
+          "batch": "batch-2026-05-29-15-spores",
+          "views": 1876,
+          "likes": 8,
+          "reposts": 88,
+          "comments": 35,
+          "shares": null
+        },
+        {
+          "dPlus": 9,
+          "harvestDate": "2026-06-01 06:30",
+          "batch": "batch-2026-06-01-15-spores",
+          "views": null,
+          "likes": 1883,
+          "reposts": 88,
+          "comments": 8,
+          "shares": 35
+        },
+        {
+          "dPlus": 10,
+          "harvestDate": "2026-06-02 06:30",
+          "batch": "batch-2026-06-02-15-spores",
+          "views": null,
+          "likes": 1883,
+          "reposts": 88,
+          "comments": 8,
+          "shares": 35
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "slug": "臺灣漫遊錄",
+      "articlePath": "knowledge/Art/臺灣漫遊錄.md",
+      "articleUrl": "/art/臺灣漫遊錄/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-05-23",
+      "url": "https://x.com/taiwandotmd/status/2058211699229134864",
+      "metrics": {
+        "views": 34200,
+        "likes": 681,
+        "reposts": 78,
+        "comments": 3,
+        "shares": 53
+      },
+      "metricsAsOf": {
+        "dPlus": 4,
+        "harvestDate": "2026-05-27 07:00",
+        "batch": "batch-2026-05-27-15-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-25 07:55",
+          "batch": "batch-2026-05-25-8-spores",
+          "views": 30565,
+          "likes": 584,
+          "reposts": 70,
+          "comments": 2,
+          "shares": 48
+        },
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-26 07:00",
+          "batch": "batch-2026-05-26-13-spores",
+          "views": 33864,
+          "likes": 673,
+          "reposts": 76,
+          "comments": 2,
+          "shares": 52
+        },
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-27 07:00",
+          "batch": "batch-2026-05-27-15-spores",
+          "views": 34200,
+          "likes": 681,
+          "reposts": 78,
+          "comments": 3,
+          "shares": 53
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "slug": "鄭愁予",
+      "articlePath": "knowledge/People/鄭愁予.md",
+      "articleUrl": "/people/鄭愁予/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-24",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYt_TMpE2WV",
+      "metrics": {
+        "views": 4165,
+        "likes": 91,
+        "reposts": 2,
+        "comments": 5,
+        "shares": 8
+      },
+      "metricsAsOf": {
+        "dPlus": 9,
+        "harvestDate": "2026-06-02 06:30",
+        "batch": "batch-2026-06-02-15-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 0,
+          "harvestDate": "2026-05-25 07:55",
+          "batch": "batch-2026-05-25-8-spores",
+          "views": 3367,
+          "likes": null,
+          "reposts": null,
+          "comments": 2,
+          "shares": null
+        },
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-26 07:00",
+          "batch": "batch-2026-05-26-13-spores",
+          "views": 4120,
+          "likes": null,
+          "reposts": null,
+          "comments": 3,
+          "shares": null
+        },
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-27 07:00",
+          "batch": "batch-2026-05-27-15-spores",
+          "views": 4152,
+          "likes": null,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        },
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-28 06:30",
+          "batch": "batch-2026-05-28-15-spores",
+          "views": 91,
+          "likes": 5,
+          "reposts": 2,
+          "comments": 8,
+          "shares": null
+        },
+        {
+          "dPlus": 5,
+          "harvestDate": "2026-05-29 06:30",
+          "batch": "batch-2026-05-29-15-spores",
+          "views": 91,
+          "likes": 5,
+          "reposts": 2,
+          "comments": 8,
+          "shares": null
+        },
+        {
+          "dPlus": 8,
+          "harvestDate": "2026-06-01 06:30",
+          "batch": "batch-2026-06-01-15-spores",
+          "views": 4165,
+          "likes": 91,
+          "reposts": 2,
+          "comments": 5,
+          "shares": 8
+        },
+        {
+          "dPlus": 9,
+          "harvestDate": "2026-06-02 06:30",
+          "batch": "batch-2026-06-02-15-spores",
+          "views": null,
+          "likes": 91,
+          "reposts": 2,
+          "comments": 5,
+          "shares": 8
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "slug": "半導體產業",
+      "articlePath": "knowledge/Technology/半導體產業.md",
+      "articleUrl": "/technology/半導體產業/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-25",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYvqEURgXm-",
+      "metrics": {
+        "views": 4692,
+        "likes": 133,
+        "reposts": 11,
+        "comments": 23,
+        "shares": 8
+      },
+      "metricsAsOf": {
+        "dPlus": 8,
+        "harvestDate": "2026-06-02 06:30",
+        "batch": "batch-2026-06-02-15-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-26 07:00",
+          "batch": "batch-2026-05-26-13-spores",
+          "views": 3715,
+          "likes": 102,
+          "reposts": null,
+          "comments": 9,
+          "shares": null
+        },
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-27 07:00",
+          "batch": "batch-2026-05-27-15-spores",
+          "views": 4616,
+          "likes": 133,
+          "reposts": 11,
+          "comments": 19,
+          "shares": 8
+        },
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-28 06:30",
+          "batch": "batch-2026-05-28-15-spores",
+          "views": 133,
+          "likes": 23,
+          "reposts": 11,
+          "comments": 8,
+          "shares": null
+        },
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-29 06:30",
+          "batch": "batch-2026-05-29-15-spores",
+          "views": 133,
+          "likes": 23,
+          "reposts": 11,
+          "comments": 8,
+          "shares": null
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-06-01 06:30",
+          "batch": "batch-2026-06-01-15-spores",
+          "views": 4692,
+          "likes": 133,
+          "reposts": 11,
+          "comments": 23,
+          "shares": 8
+        },
+        {
+          "dPlus": 8,
+          "harvestDate": "2026-06-02 06:30",
+          "batch": "batch-2026-06-02-15-spores",
+          "views": null,
+          "likes": 133,
+          "reposts": 11,
+          "comments": 23,
+          "shares": 8
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "slug": "半導體產業",
+      "articlePath": "knowledge/Technology/半導體產業.md",
+      "articleUrl": "/technology/半導體產業/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-05-25",
+      "url": "https://x.com/taiwandotmd/status/2058735515021783190",
+      "metrics": {
+        "views": 4240,
+        "likes": 131,
+        "reposts": 13,
+        "comments": 2,
+        "shares": 11
+      },
+      "metricsAsOf": {
+        "dPlus": 2,
+        "harvestDate": "2026-05-27 07:00",
+        "batch": "batch-2026-05-27-15-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-26 07:00",
+          "batch": "batch-2026-05-26-13-spores",
+          "views": 3642,
+          "likes": 117,
+          "reposts": 13,
+          "comments": 1,
+          "shares": 9
+        },
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-27 07:00",
+          "batch": "batch-2026-05-27-15-spores",
+          "views": 4240,
+          "likes": 131,
+          "reposts": 13,
+          "comments": 2,
+          "shares": 11
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "slug": "雷亞遊戲",
+      "articlePath": "knowledge/Technology/雷亞遊戲.md",
+      "articleUrl": "/technology/雷亞遊戲/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-25",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYwMkzBgW8k",
+      "metrics": {
+        "views": 28000,
+        "likes": 536,
+        "reposts": 55,
+        "comments": 52,
+        "shares": 101
+      },
+      "metricsAsOf": {
+        "dPlus": 8,
+        "harvestDate": "2026-06-02 06:30",
+        "batch": "batch-2026-06-02-15-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-26 07:00",
+          "batch": "batch-2026-05-26-13-spores",
+          "views": 20000,
+          "likes": 404,
+          "reposts": null,
+          "comments": 14,
+          "shares": null
+        },
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-27 07:00",
+          "batch": "batch-2026-05-27-15-spores",
+          "views": 28000,
+          "likes": 531,
+          "reposts": 55,
+          "comments": 46,
+          "shares": 99
+        },
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-28 06:30",
+          "batch": "batch-2026-05-28-15-spores",
+          "views": 534,
+          "likes": 50,
+          "reposts": 55,
+          "comments": 100,
+          "shares": null
+        },
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-29 06:30",
+          "batch": "batch-2026-05-29-15-spores",
+          "views": 535,
+          "likes": 50,
+          "reposts": 55,
+          "comments": 101,
+          "shares": null
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-06-01 06:30",
+          "batch": "batch-2026-06-01-15-spores",
+          "views": 28000,
+          "likes": 536,
+          "reposts": 55,
+          "comments": 52,
+          "shares": 101
+        },
+        {
+          "dPlus": 8,
+          "harvestDate": "2026-06-02 06:30",
+          "batch": "batch-2026-06-02-15-spores",
+          "views": null,
+          "likes": 536,
+          "reposts": 55,
+          "comments": 52,
+          "shares": 101
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "slug": "雷亞遊戲",
+      "articlePath": "knowledge/Technology/雷亞遊戲.md",
+      "articleUrl": "/technology/雷亞遊戲/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-05-25",
+      "url": "https://x.com/taiwandotmd/status/2058811390337622339",
+      "metrics": {
+        "views": 10659,
+        "likes": 97,
+        "reposts": 14,
+        "comments": 4,
+        "shares": 22
+      },
+      "metricsAsOf": {
+        "dPlus": 2,
+        "harvestDate": "2026-05-27 07:00",
+        "batch": "batch-2026-05-27-15-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-26 07:00",
+          "batch": "batch-2026-05-26-13-spores",
+          "views": 9476,
+          "likes": 81,
+          "reposts": 8,
+          "comments": 2,
+          "shares": 20
+        },
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-27 07:00",
+          "batch": "batch-2026-05-27-15-spores",
+          "views": 10659,
+          "likes": 97,
+          "reposts": 14,
+          "comments": 4,
+          "shares": 22
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "slug": "江賢二",
+      "articlePath": "knowledge/Art/江賢二.md",
+      "articleUrl": "/art/江賢二/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-25",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYwhhzFgfe0",
+      "metrics": {
+        "views": 2719,
+        "likes": 68,
+        "reposts": 6,
+        "comments": 7,
+        "shares": 5
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-06-02 06:30",
+        "batch": "batch-2026-06-02-15-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 0,
+          "harvestDate": "2026-05-26 07:00",
+          "batch": "batch-2026-05-26-13-spores",
+          "views": 2097,
+          "likes": null,
+          "reposts": null,
+          "comments": 2,
+          "shares": null
+        },
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-27 07:00",
+          "batch": "batch-2026-05-27-15-spores",
+          "views": 2643,
+          "likes": 68,
+          "reposts": 7,
+          "comments": 3,
+          "shares": 5
+        },
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-28 06:30",
+          "batch": "batch-2026-05-28-15-spores",
+          "views": 68,
+          "likes": 5,
+          "reposts": 7,
+          "comments": 5,
+          "shares": null
+        },
+        {
+          "dPlus": 4,
+          "harvestDate": "2026-05-29 06:30",
+          "batch": "batch-2026-05-29-15-spores",
+          "views": 68,
+          "likes": 6,
+          "reposts": 7,
+          "comments": 5,
+          "shares": null
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-06-01 06:30",
+          "batch": "batch-2026-06-01-15-spores",
+          "views": 2719,
+          "likes": 68,
+          "reposts": 6,
+          "comments": 7,
+          "shares": 5
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-06-02 06:30",
+          "batch": "batch-2026-06-02-15-spores",
+          "views": null,
+          "likes": 68,
+          "reposts": 6,
+          "comments": 7,
+          "shares": 5
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "slug": "大宇雙劍",
+      "articlePath": "knowledge/Technology/大宇雙劍.md",
+      "articleUrl": "/technology/大宇雙劍/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-26",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYzFoZxk7GN",
+      "metrics": {
+        "views": 593,
+        "likes": 597,
+        "reposts": 24,
+        "comments": 87,
+        "shares": 42
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-06-02 06:30",
+        "batch": "batch-2026-06-02-15-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-28 06:30",
+          "batch": "batch-2026-05-28-15-spores",
+          "views": 593,
+          "likes": 82,
+          "reposts": 24,
+          "comments": 42,
+          "shares": null
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-06-02 06:30",
+          "batch": "batch-2026-06-02-15-spores",
+          "views": null,
+          "likes": 597,
+          "reposts": 24,
+          "comments": 87,
+          "shares": 42
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "slug": "國家人權博物館",
+      "articlePath": "knowledge/History/國家人權博物館.md",
+      "articleUrl": "/history/國家人權博物館/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-26",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYzG-R1k5Ze",
+      "metrics": {
+        "views": 0,
+        "likes": 95,
+        "reposts": 13,
+        "comments": 1,
+        "shares": 2
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-06-02 06:30",
+        "batch": "batch-2026-06-02-15-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-06-02 06:30",
+          "batch": "batch-2026-06-02-15-spores",
+          "views": null,
+          "likes": 95,
+          "reposts": 13,
+          "comments": 1,
+          "shares": 2
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "slug": "大宇雙劍",
+      "articlePath": "knowledge/Technology/大宇雙劍.md",
+      "articleUrl": "/technology/大宇雙劍/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-05-26",
+      "url": "https://x.com/taiwandotmd/status/2059239795231281223",
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "comments": 0,
+        "shares": 0
+      },
+      "metricsAsOf": {
+        "dPlus": null,
+        "harvestDate": null,
+        "batch": null,
+        "source": "preserved"
+      },
+      "history": []
+    },
+    {
+      "id": 95,
+      "slug": "尹衍樑",
+      "articlePath": "knowledge/People/尹衍樑.md",
+      "articleUrl": "/people/尹衍樑/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-26",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYzmiFqE0mC",
+      "metrics": {
+        "views": 11000,
+        "likes": 836,
+        "reposts": 21,
+        "comments": 4,
+        "shares": 35
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-06-02 06:30",
+        "batch": "batch-2026-06-02-15-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-27 07:00",
+          "batch": "batch-2026-05-27-15-spores",
+          "views": 6963,
+          "likes": 465,
+          "reposts": 12,
+          "comments": 3,
+          "shares": 23
+        },
+        {
+          "dPlus": 2,
+          "harvestDate": "2026-05-28 06:30",
+          "batch": "batch-2026-05-28-15-spores",
+          "views": 827,
+          "likes": 4,
+          "reposts": 20,
+          "comments": 35,
+          "shares": null
+        },
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-05-29 06:30",
+          "batch": "batch-2026-05-29-15-spores",
+          "views": 834,
+          "likes": 4,
+          "reposts": 20,
+          "comments": 35,
+          "shares": null
+        },
+        {
+          "dPlus": 6,
+          "harvestDate": "2026-06-01 06:30",
+          "batch": "batch-2026-06-01-15-spores",
+          "views": 11000,
+          "likes": 836,
+          "reposts": 21,
+          "comments": 4,
+          "shares": 35
+        },
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-06-02 06:30",
+          "batch": "batch-2026-06-02-15-spores",
+          "views": null,
+          "likes": 836,
+          "reposts": 21,
+          "comments": 4,
+          "shares": 35
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "slug": "尹衍樑",
+      "articlePath": "knowledge/People/尹衍樑.md",
+      "articleUrl": "/people/尹衍樑/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-05-26",
+      "url": "https://x.com/taiwandotmd/status/2059290686671982831",
+      "metrics": {
+        "views": 4000,
+        "likes": 109,
+        "reposts": 15,
+        "comments": 0,
+        "shares": 11
+      },
+      "metricsAsOf": {
+        "dPlus": 1,
+        "harvestDate": "2026-05-27 07:00",
+        "batch": "batch-2026-05-27-15-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-05-27 07:00",
+          "batch": "batch-2026-05-27-15-spores",
+          "views": 4000,
+          "likes": 109,
+          "reposts": 15,
+          "comments": 0,
+          "shares": 11
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "slug": "台灣美食總覽",
+      "articlePath": "knowledge/Food/台灣美食總覽.md",
+      "articleUrl": "/food/台灣美食總覽/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-27",
+      "url": "https://www.threads.com/@taiwandotmd/post/DY0zmnNE5RT",
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "comments": 0,
+        "shares": 0
+      },
+      "metricsAsOf": {
+        "dPlus": null,
+        "harvestDate": null,
+        "batch": null,
+        "source": "preserved"
+      },
+      "history": []
+    },
+    {
+      "id": 98,
+      "slug": "台灣美食總覽",
+      "articlePath": "knowledge/Food/台灣美食總覽.md",
+      "articleUrl": "/food/台灣美食總覽/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-05-27",
+      "url": "https://x.com/taiwandotmd/status/2059458468898287770",
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "comments": 0,
+        "shares": 0
+      },
+      "metricsAsOf": {
+        "dPlus": null,
+        "harvestDate": null,
+        "batch": null,
+        "source": "preserved"
+      },
+      "history": []
+    },
+    {
+      "id": 99,
+      "slug": "portaly-五月公開信",
+      "articlePath": null,
+      "articleUrl": null,
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-27",
+      "url": "https://www.threads.com/@taiwandotmd/post/DY1RPKCkcpo",
+      "metrics": {
+        "views": null,
+        "likes": 96,
+        "reposts": 8,
+        "comments": 2,
+        "shares": 14
+      },
+      "metricsAsOf": {
+        "dPlus": 6,
+        "harvestDate": "2026-06-02 06:30",
+        "batch": "batch-2026-06-02-15-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 6,
+          "harvestDate": "2026-06-02 06:30",
+          "batch": "batch-2026-06-02-15-spores",
+          "views": null,
+          "likes": 96,
+          "reposts": 8,
+          "comments": 2,
+          "shares": 14
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "slug": "portaly-五月公開信",
+      "articlePath": null,
+      "articleUrl": null,
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-05-27",
+      "url": "https://x.com/taiwandotmd/status/2059525841735016585",
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
+    },
+    {
+      "id": 101,
+      "slug": "落日飛車",
+      "articlePath": "knowledge/Music/落日飛車.md",
+      "articleUrl": "/music/落日飛車/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-27",
+      "url": "https://www.threads.com/@taiwandotmd/post/DY1oPxokz0L",
+      "metrics": {
+        "views": 0,
+        "likes": 26,
+        "reposts": 1,
+        "comments": 1,
+        "shares": 0
+      },
+      "metricsAsOf": {
+        "dPlus": 6,
+        "harvestDate": "2026-06-02 06:30",
+        "batch": "batch-2026-06-02-15-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 6,
+          "harvestDate": "2026-06-02 06:30",
+          "batch": "batch-2026-06-02-15-spores",
+          "views": null,
+          "likes": 26,
+          "reposts": 1,
+          "comments": 1,
+          "shares": 0
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "slug": "落日飛車",
+      "articlePath": "knowledge/Music/落日飛車.md",
+      "articleUrl": "/music/落日飛車/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-05-27",
+      "url": "https://x.com/taiwandotmd/status/2059577645722210476",
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "comments": 0,
+        "shares": 0
+      },
+      "metricsAsOf": {
+        "dPlus": null,
+        "harvestDate": null,
+        "batch": null,
+        "source": "preserved"
+      },
+      "history": []
+    },
+    {
+      "id": 103,
+      "slug": "周蕙",
+      "articlePath": "knowledge/Music/周蕙.md",
+      "articleUrl": "/music/周蕙/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-28",
+      "url": "https://www.threads.com/@taiwandotmd/post/DY4u5UzAVcT",
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "comments": 0,
+        "shares": 0
+      },
+      "metricsAsOf": {
+        "dPlus": null,
+        "harvestDate": null,
+        "batch": null,
+        "source": "preserved"
+      },
+      "history": []
+    },
+    {
+      "id": 104,
+      "slug": "周蕙",
+      "articlePath": "knowledge/Music/周蕙.md",
+      "articleUrl": "/music/周蕙/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-05-28",
+      "url": "https://x.com/taiwandotmd/status/2060010924015321462",
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "comments": 0,
+        "shares": 0
+      },
+      "metricsAsOf": {
+        "dPlus": null,
+        "harvestDate": null,
+        "batch": null,
+        "source": "preserved"
+      },
+      "history": []
+    },
+    {
+      "id": 109,
+      "slug": "科技園區發展",
+      "articlePath": "knowledge/Technology/科技園區發展.md",
+      "articleUrl": "/technology/科技園區發展/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-05-29",
+      "url": "https://www.threads.com/@taiwandotmd/post/DY6a0JvEdd7",
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "comments": 0,
+        "shares": 0
+      },
+      "metricsAsOf": {
+        "dPlus": null,
+        "harvestDate": null,
+        "batch": null,
+        "source": "preserved"
+      },
+      "history": []
+    },
+    {
+      "id": 110,
+      "slug": "科技園區發展",
+      "articlePath": "knowledge/Technology/科技園區發展.md",
+      "articleUrl": "/technology/科技園區發展/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-05-29",
+      "url": "https://x.com/taiwandotmd/status/2060247955467325544",
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "comments": 0,
+        "shares": 0
+      },
+      "metricsAsOf": {
+        "dPlus": null,
+        "harvestDate": null,
+        "batch": null,
+        "source": "preserved"
+      },
+      "history": []
+    },
+    {
+      "id": 111,
+      "slug": "Computex",
+      "articlePath": "knowledge/Technology/Computex.md",
+      "articleUrl": "/technology/Computex/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-06-01",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZCb3_QEyJX",
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
+    },
+    {
+      "id": 112,
+      "slug": "Computex",
+      "articlePath": "knowledge/Technology/Computex.md",
+      "articleUrl": "/technology/Computex/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-06-01",
+      "url": "https://x.com/taiwandotmd/status/2061379958304584103",
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
+    },
+    {
+      "id": 113,
+      "slug": "天燈",
+      "articlePath": "knowledge/Culture/天燈.md",
+      "articleUrl": "/culture/天燈/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-06-03",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZGziGaEwgz",
+      "metrics": {
+        "views": 0,
+        "likes": 43,
+        "reposts": 0,
+        "comments": 1,
+        "shares": 0
+      },
+      "metricsAsOf": {
+        "dPlus": 6,
+        "harvestDate": "2026-06-10 06:30",
+        "batch": "batch-2026-06-10-9-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 6,
+          "harvestDate": "2026-06-10 06:30",
+          "batch": "batch-2026-06-10-9-spores",
+          "views": null,
+          "likes": 43,
+          "reposts": null,
+          "comments": 1,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "slug": "天燈",
+      "articlePath": "knowledge/Culture/天燈.md",
+      "articleUrl": "/culture/天燈/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-06-03",
+      "url": "https://x.com/taiwandotmd/status/2061992719715795224",
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "comments": 0,
+        "shares": 0
+      },
+      "metricsAsOf": {
+        "dPlus": null,
+        "harvestDate": null,
+        "batch": null,
+        "source": "preserved"
+      },
+      "history": []
+    },
+    {
+      "id": 115,
+      "slug": "颱風",
+      "articlePath": "knowledge/Nature/颱風.md",
+      "articleUrl": "/nature/颱風/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-06-03",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZHUHpQk02w",
+      "metrics": {
+        "views": 0,
+        "likes": 30,
+        "reposts": 1,
+        "comments": 5,
+        "shares": 0
+      },
+      "metricsAsOf": {
+        "dPlus": 7,
+        "harvestDate": "2026-06-10 06:30",
+        "batch": "batch-2026-06-10-9-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 7,
+          "harvestDate": "2026-06-10 06:30",
+          "batch": "batch-2026-06-10-9-spores",
+          "views": null,
+          "likes": 30,
+          "reposts": 1,
+          "comments": 5,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "slug": "颱風",
+      "articlePath": "knowledge/Nature/颱風.md",
+      "articleUrl": "/nature/颱風/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-06-03",
+      "url": "https://x.com/taiwandotmd/status/2062065024613679469",
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "comments": 0,
+        "shares": 0
+      },
+      "metricsAsOf": {
+        "dPlus": null,
+        "harvestDate": null,
+        "batch": null,
+        "source": "preserved"
+      },
+      "history": []
+    },
+    {
+      "id": 117,
+      "slug": "開放文化基金會",
+      "articlePath": "knowledge/Technology/開放文化基金會.md",
+      "articleUrl": "/technology/開放文化基金會/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-06-03",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZIRG2tk6mZ",
+      "metrics": {
+        "views": 0,
+        "likes": 86,
+        "reposts": 11,
+        "comments": 2,
+        "shares": 6
+      },
+      "metricsAsOf": {
+        "dPlus": 6,
+        "harvestDate": "2026-06-10 06:30",
+        "batch": "batch-2026-06-10-9-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 6,
+          "harvestDate": "2026-06-10 06:30",
+          "batch": "batch-2026-06-10-9-spores",
+          "views": null,
+          "likes": 86,
+          "reposts": 11,
+          "comments": 2,
+          "shares": 6
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "slug": "開放文化基金會",
+      "articlePath": "knowledge/Technology/開放文化基金會.md",
+      "articleUrl": "/technology/開放文化基金會/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-06-03",
+      "url": "https://x.com/taiwandotmd/status/2062197280984399945",
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "comments": 0,
+        "shares": 0
+      },
+      "metricsAsOf": {
+        "dPlus": null,
+        "harvestDate": null,
+        "batch": null,
+        "source": "preserved"
+      },
+      "history": []
+    },
+    {
+      "id": 120,
+      "slug": "中華台北",
+      "articlePath": "knowledge/Society/中華台北.md",
+      "articleUrl": "/society/中華台北/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-06-04",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZKoOQpmPhJ",
+      "metrics": {
+        "views": 0,
+        "likes": 19,
+        "reposts": 2,
+        "comments": 1,
+        "shares": 1
+      },
+      "metricsAsOf": {
+        "dPlus": 6,
+        "harvestDate": "2026-06-10 06:30",
+        "batch": "batch-2026-06-10-9-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 6,
+          "harvestDate": "2026-06-10 06:30",
+          "batch": "batch-2026-06-10-9-spores",
+          "views": null,
+          "likes": 19,
+          "reposts": 2,
+          "comments": 1,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "slug": "中華台北",
+      "articlePath": "knowledge/Society/中華台北.md",
+      "articleUrl": "/society/中華台北/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-06-04",
+      "url": "https://x.com/taiwandotmd/status/2062529681283522655",
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "comments": 0,
+        "shares": 0
+      },
+      "metricsAsOf": {
+        "dPlus": null,
+        "harvestDate": null,
+        "batch": null,
+        "source": "preserved"
+      },
+      "history": []
+    },
+    {
+      "id": 122,
+      "slug": "國家太空中心",
+      "articlePath": "knowledge/Technology/國家太空中心.md",
+      "articleUrl": "/technology/國家太空中心/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-06-04",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZKv7oAmIQY",
+      "metrics": {
+        "views": null,
+        "likes": 126,
+        "reposts": 7,
+        "comments": 2,
+        "shares": 1
+      },
+      "metricsAsOf": {
+        "dPlus": 5,
+        "harvestDate": "2026-06-10 06:30",
+        "batch": "batch-2026-06-10-9-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 5,
+          "harvestDate": "2026-06-10 06:30",
+          "batch": "batch-2026-06-10-9-spores",
+          "views": null,
+          "likes": 126,
+          "reposts": 7,
+          "comments": 2,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "slug": "國家太空中心",
+      "articlePath": "knowledge/Technology/國家太空中心.md",
+      "articleUrl": "/technology/國家太空中心/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-06-04",
+      "url": "https://x.com/taiwandotmd/status/2062546721742483679",
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
+    },
+    {
+      "id": 124,
+      "slug": "我是OO人",
+      "articlePath": "knowledge/Society/我是OO人.md",
+      "articleUrl": "/society/我是OO人/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-06-05",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZM0aZ2kzIN",
+      "metrics": {
+        "views": null,
+        "likes": 1447,
+        "reposts": 383,
+        "comments": 22,
+        "shares": 91
+      },
+      "metricsAsOf": {
+        "dPlus": 5,
+        "harvestDate": "2026-06-10 06:30",
+        "batch": "batch-2026-06-10-9-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 5,
+          "harvestDate": "2026-06-10 06:30",
+          "batch": "batch-2026-06-10-9-spores",
+          "views": null,
+          "likes": 1447,
+          "reposts": 383,
+          "comments": 22,
+          "shares": 91
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "slug": "我是OO人",
+      "articlePath": "knowledge/Society/我是OO人.md",
+      "articleUrl": "/society/我是OO人/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-06-05",
+      "url": "https://x.com/taiwandotmd/status/2062839725648703638",
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
+    },
+    {
+      "id": 126,
+      "slug": "國宅與居住正義",
+      "articlePath": "knowledge/Society/國宅與居住正義.md",
+      "articleUrl": "/society/國宅與居住正義/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-06-06",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZPIcLHEzpk",
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
+    },
+    {
+      "id": 127,
+      "slug": "國宅與居住正義",
+      "articlePath": "knowledge/Society/國宅與居住正義.md",
+      "articleUrl": "/society/國宅與居住正義/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-06-06",
+      "url": "https://x.com/taiwandotmd/status/2063165712261390793",
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
+    },
+    {
+      "id": 128,
+      "slug": "黃山料",
+      "articlePath": "knowledge/People/黃山料.md",
+      "articleUrl": "/people/黃山料/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-06-07",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZSRQKnk3Vm",
+      "metrics": {
+        "views": 0,
+        "likes": 28,
+        "reposts": 2,
+        "comments": 1,
+        "shares": 8
+      },
+      "metricsAsOf": {
+        "dPlus": 3,
+        "harvestDate": "2026-06-10 06:30",
+        "batch": "batch-2026-06-10-9-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 3,
+          "harvestDate": "2026-06-10 06:30",
+          "batch": "batch-2026-06-10-9-spores",
+          "views": null,
+          "likes": 28,
+          "reposts": 2,
+          "comments": 1,
+          "shares": 8
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "slug": "黃山料",
+      "articlePath": "knowledge/People/黃山料.md",
+      "articleUrl": "/people/黃山料/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-06-07",
+      "url": "https://x.com/taiwandotmd/status/2063604185912987689",
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "comments": 0,
+        "shares": 0
+      },
+      "metricsAsOf": {
+        "dPlus": null,
+        "harvestDate": null,
+        "batch": null,
+        "source": "preserved"
+      },
+      "history": []
+    },
+    {
+      "id": 132,
+      "slug": "台灣嘻哈與饒舌發展",
+      "articlePath": "knowledge/Music/台灣嘻哈與饒舌發展.md",
+      "articleUrl": "/music/台灣嘻哈與饒舌發展/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-06-09",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZXjMdDE_xC",
+      "metrics": {
+        "views": 0,
+        "likes": 369,
+        "reposts": 39,
+        "comments": 21,
+        "shares": 45
+      },
+      "metricsAsOf": {
+        "dPlus": 0,
+        "harvestDate": "2026-06-10 06:30",
+        "batch": "batch-2026-06-10-9-spores",
+        "source": "harvest+backfill"
+      },
+      "history": [
+        {
+          "dPlus": 0,
+          "harvestDate": "2026-06-10 06:30",
+          "batch": "batch-2026-06-10-9-spores",
+          "views": null,
+          "likes": 369,
+          "reposts": 39,
+          "comments": 21,
+          "shares": 45
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "slug": "台灣嘻哈與饒舌發展",
+      "articlePath": "knowledge/Music/台灣嘻哈與饒舌發展.md",
+      "articleUrl": "/music/台灣嘻哈與饒舌發展/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-06-09",
+      "url": "https://x.com/taiwandotmd/status/2064344279485710550",
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "comments": 0,
+        "shares": 0
+      },
+      "metricsAsOf": {
+        "dPlus": null,
+        "harvestDate": null,
+        "batch": null,
+        "source": "preserved"
+      },
+      "history": []
+    }
+  ],
+  "byArticle": {
+    "2026鄭習會與國共十年再會": [21],
+    "Cicada": [31, 32],
+    "Computex": [111, 112],
+    "中華台北": [120, 121],
+    "半導體產業": [87, 88],
+    "台海危機與兩岸關係發展": [13],
+    "台灣企業：台積電": [68, 69],
+    "台灣動物用藥爭議": [19],
+    "台灣嘻哈與饒舌發展": [132, 133],
+    "台灣國樂": [4, 5],
+    "台灣國防與軍事現代化": [17],
+    "台灣宗教與寺廟文化": [6, 7],
+    "台灣感性": [15],
+    "台灣民主轉型": [10],
+    "台灣無人機產業": [70],
+    "台灣美食總覽": [97, 98],
+    "台灣與史瓦帝尼": [61, 62],
+    "台灣邦交國與國際外交": [51, 52],
+    "台灣高鐵": [35, 36],
+    "周蕙": [103, 104],
+    "嚴長壽": [8, 9],
+    "國宅與居住正義": [126, 127],
+    "國家人權博物館": [93],
+    "國家太空中心": [122, 123],
+    "壞特": [45, 46],
+    "大宇雙劍": [92, 94],
+    "天燈": [113, 114],
+    "尹衍樑": [95, 96],
+    "張懸與安溥": [25, 27],
+    "我是OO人": [124, 125],
+    "李洋": [28, 29, 30],
+    "林書豪": [3],
+    "林琪兒": [49, 50],
+    "江賢二": [91],
+    "沈伯洋": [47, 48],
+    "泛科學": [78],
+    "海底電纜": [55, 56],
+    "田馥甄": [43, 44],
+    "科技園區發展": [109, 110],
+    "聶永真": [66, 67],
+    "臺灣前途決議文": [76, 77],
+    "臺灣漫遊錄": [84, 85],
+    "草東沒有派對": [33, 34],
+    "落日飛車": [101, 102],
+    "蘋果西打": [72, 73],
+    "許倬雲": [82, 83],
+    "認知作戰": [41, 42],
+    "謝德慶": [39, 40],
+    "賈永婕": [57, 58],
+    "鄭愁予": [86],
+    "鄭麗文": [22],
+    "開放文化基金會": [117, 118],
+    "陳建年": [74, 75],
+    "雷亞遊戲": [89, 90],
+    "韓國瑜": [24, 26],
+    "颱風": [115, 116],
+    "馬英九": [80, 81],
+    "黃山料": [128, 129],
+    "黃魚鴞": [59, 60],
+    "黑冠麻鷺": [53, 54],
+    "齊柏林": [2]
+  }
+}

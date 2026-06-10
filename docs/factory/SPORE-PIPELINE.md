@@ -612,20 +612,24 @@ fi
    - **URL 乾淨化**：記錄前**必須把 query string 整段剝掉**。從 app share 複製的 URL 常帶 `?xmt=...&slof=1` 這類追蹤參數，統一剝掉
    - ✅ 正確：`https://www.threads.com/@taiwandotmd/post/DXVpBlLk4oE`
    - ❌ 錯誤：`https://www.threads.com/@taiwandotmd/post/DXVpBlLk4oE?xmt=...&slof=1`
-7. **寫回源文章 frontmatter `sporeLinks`** — 讀者層 single-snapshot：
+7. **寫回源文章 frontmatter `sporeLinks`** — identity pointer（v2 2026-06-10 資料解耦）：
 
    ```yaml
    sporeLinks:
-     - platform: 'threads' # 或 'x'
+     - id: 132 # SPORE-LOG 發文紀錄 # 號
+       platform: 'threads' # 或 'x'
        date: '2026-04-DD'
        url: '<乾淨化 URL>'
-       views: 0 # 初次發佈用 0，等 HARVEST 回填
-       likes: 0
-       reposts: 0
-       comments: 0
-       shares: 0 # X 為 bookmarks 數、Threads 為 shares 數
    ```
 
+   - **不寫 views/likes/reposts/comments/shares** — engagement 數字住 `src/data/spores.json`
+     （generate-spore-records.py 從 SPORE-HARVESTS 重生），SporeFootprint build-time join。
+     數字寫進文章 = 污染 git 時間軸 → /latest 排序 + sitemap lastmod 假更新
+     （[reports/spore-data-architecture-2026-06-10.md](../../reports/spore-data-architecture-2026-06-10.md)），
+     validate-spore-data.py check 5 會 ERROR
+   - 其實 step 6 寫完 SPORE-LOG 後跑 `python3 scripts/tools/sync-spore-links.py --apply` 會自動生成這塊，不必手寫
+   - **ship commit 紀律**：spore ship commit 只准動 frontmatter sporeLinks + factory 檔；
+     內文修正一律另開 `heal:` commit（content-dates 用 commit type 區分真假內容更新）
    - schema canonical：`src/components/SporeFootprint.astro` interface `SporeLink`
    - **不寫入 = 讀者看不到這篇孢子的存在**
 
@@ -694,7 +698,7 @@ grep "{中文slug}" knowledge/_translations.json
 
 - 前置：Hook tier 自檢 + d+0/+1/+7/+30 cadence + d+0 6h decision gate + re-hook 救援
 - Step 1: COLLECT 抓留言（Chrome MCP）
-- Step 1.5: 雙寫（SPORE-LOG + frontmatter sporeLinks）
+- Step 1.5: 寫 SPORE-LOG / SPORE-HARVESTS（frontmatter 是 identity pointer 不載數字，v2 2026-06-10）
 - Step 2: CATEGORIZE 分類（8 類 dimension）
 - Step 3: 跨源驗證
 - Step 4: 整合入文章本體

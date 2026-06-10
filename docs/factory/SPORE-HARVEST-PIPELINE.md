@@ -147,13 +147,17 @@ reply_count: '47 visible (Threads + X 合計)'
 
 **自動化下游**（不需要手動觸發）：
 
+- `generate-spore-records.py` 讀 body table 重生 `src/data/spores.json`（孢子完整記錄層
+  metrics + history + byArticle，refresh-data.sh Step 4 / prebuild:spores — **harvest 數字
+  唯一的下游落點，文章檔案不動**，per reports/spore-data-architecture-2026-06-10.md）
 - `generate-dashboard-spores.py` 讀 body table 算 dashboard
-- `sync-spore-links.py` 從 SSOT 重生 knowledge/\*.md sporeLinks（refresh-data.sh Step 13）
-- `validate-spore-data.py` 8 項一致性檢查（Step 12）
+- `sync-spore-links.py` 從 SSOT 重生 knowledge/\*.md sporeLinks identity pointer
+  （id/platform/date/url，無數字；refresh-data.sh Step 13，平日 no-op）
+- `validate-spore-data.py` 一致性檢查（Step 12，含 frontmatter 禁 metrics ERROR gate）
 
 **不要再做的事**（過去 anti-pattern）：
 
-- ❌ harvest 後手寫 knowledge/\*.md sporeLinks（會被 Step 13 覆蓋）
+- ❌ harvest 後手寫 knowledge/\*.md sporeLinks（會被 Step 13 覆蓋；數字進 frontmatter = validate ERROR + 污染文章 git 時間軸）
 - ❌ harvest 拆 multi-commit 跨多檔案寫（atomic batch log = single commit）
 - ⚠️ harvest 後手寫 SPORE-LOG.md 成效追蹤 narrative：仍 OK 但 optional（不再是 primary 寫入點，generator 已能從 batch body 算）
 

@@ -14,7 +14,8 @@ Validates:
   - SPORE-HARVESTS body table parses cleanly across batch logs
   - SPORE-HARVESTS frontmatter key drift (`spore` singular legacy vs `spores` plural canonical)
   - SPORE-HARVESTS body data <-> SPORE-LOG struct cols cross-check (within tolerance)
-  - knowledge sporeLinks <-> SPORE-HARVESTS latest D+N consistency
+  - knowledge sporeLinks identity-only guard (no metrics in frontmatter — v2 2026-06-10)
+  - src/data/spores.json records layer present + fresh + complete
 
 Exit code:
   0 = all green
@@ -533,69 +534,83 @@ def parse_sporelinks_from_md(md_path):
     return items
 
 
-def check_sporelinks_vs_harvests():
-    """Check 1.4: knowledge/*.md sporeLinks <-> SPORE-HARVESTS latest D+N consistency.
+METRIC_KEYS = ("views", "likes", "reposts", "comments", "shares")
 
-    For each article with sporeLinks frontmatter:
-      - For each sporeLink entry (platform, url, views, likes):
-        - Find matching SPORE-LOG row by URL → get spore #
-        - Find matching SPORE-HARVESTS latest D+N body row by (#, platform)
-        - If sporeLink has views but harvest has different views → flag
+
+def check_sporelinks_identity_only():
+    """Check 1.4 v2 (2026-06-10 spore data decoupling): frontmatter sporeLinks
+    must be IDENTITY ONLY (id/platform/date/url).
+
+    Metric keys in any knowledge file (all langs) = ERROR regression — numbers
+    live in src/data/spores.json (generate-spore-records.py); writing them back
+    into articles re-pollutes git timestamps → content-dates → /latest +
+    sitemap lastmod (reports/spore-data-architecture-2026-06-10.md).
+
+    Keeps the zh-canonical URL ↔ SPORE-LOG cross-check as a warning.
     """
-    issues = []
-    # Build URL → spore # index from SPORE-LOG 發文紀錄
+    errors = []
+    warnings = []
     log_text = SPORE_LOG.read_text() if SPORE_LOG.exists() else ""
-    url_to_n = {}
-    for line in log_text.split("\n"):
-        if not line.startswith("| ") or "https" not in line:
-            continue
-        m_n = re.search(r"^\|\s*(\d+)\s*\|", line)
-        m_url = re.search(r"\((https?://[^\)]+)\)", line)
-        if m_n and m_url:
-            url_to_n[m_url.group(1)] = int(m_n.group(1))
+    log_urls = set(re.findall(r"\((https?://[^\)]+)\)", log_text))
 
-    harvests = collect_harvests_by_spore()
-    checked = 0
-    # Phase 6: skip multilingual mirrors (knowledge/en/, ja/, ko/, ...) — they're
-    # synced by separate babel pipeline, drift here is out-of-scope for spore SSOT.
     LANG_DIRS = {"en", "ja", "ko", "es", "fr", "zh-TW"}
+    checked = 0
     for md in KNOWLEDGE_ROOT.rglob("*.md"):
-        rel = md.relative_to(KNOWLEDGE_ROOT)
-        if rel.parts and rel.parts[0] in LANG_DIRS:
-            continue
         sl = parse_sporelinks_from_md(md)
         if not sl:
             continue
+        rel = md.relative_to(REPO_ROOT)
+        is_zh = md.relative_to(KNOWLEDGE_ROOT).parts[0] not in LANG_DIRS
         for link in sl:
-            url = link.get("url", "").strip()
-            if not url:
-                continue
-            n = url_to_n.get(url)
-            if not n:
-                issues.append(
-                    f"⚠️  {md.relative_to(REPO_ROOT)} sporeLinks URL not in SPORE-LOG: {url}"
-                )
-                continue
-            # Find harvest body for this n
-            entries = harvests.get(n, [])
-            if not entries:
-                continue  # No harvest yet, expected for fresh spores
-            # Latest entry by harvest_date (string sort works for ISO)
-            latest = max(entries, key=lambda e: e.get("harvest_date") or "")
-            body = latest.get("body")
-            if not body:
-                continue
-            sl_views = _parse_int_loose(link.get("views"))
-            hv_views = _parse_int_loose(body.get("views"))
-            if sl_views and hv_views:
-                pct_diff = abs(sl_views - hv_views) / max(hv_views, 1) * 100
-                if pct_diff > VIEWS_TOLERANCE_PCT:
-                    issues.append(
-                        f"⚠️  {md.name} #{n}: sporeLinks views {sl_views:,} vs harvest {hv_views:,} "
-                        f"(diff {pct_diff:.1f}%)"
-                    )
             checked += 1
-    return issues, checked
+            leaked = [k for k in METRIC_KEYS if k in link]
+            if leaked:
+                errors.append(
+                    f"❌ {rel}: sporeLinks carries metrics {leaked} — v2 is identity-only "
+                    f"(id/platform/date/url); numbers belong in src/data/spores.json"
+                )
+            url = (link.get("url") or "").strip()
+            if is_zh and url and url not in log_urls:
+                warnings.append(
+                    f"⚠️  {rel} sporeLinks URL not in SPORE-LOG: {url}"
+                )
+    return errors, warnings, checked
+
+
+def check_spore_records():
+    """Check 1.5 (2026-06-10): src/data/spores.json exists, parses, covers every
+    發文紀錄 row, and is not older than its SSOT sources."""
+    errors = []
+    warnings = []
+    records_path = REPO_ROOT / "src/data/spores.json"
+    if not records_path.exists():
+        errors.append("❌ src/data/spores.json missing — run generate-spore-records.py")
+        return errors, warnings, 0
+    try:
+        data = json.loads(records_path.read_text())
+    except json.JSONDecodeError as e:
+        errors.append(f"❌ src/data/spores.json unparseable: {e}")
+        return errors, warnings, 0
+
+    n_records = len(data.get("spores", []))
+    n_log = len(parse_spore_log_rows())
+    if n_log and n_records != n_log:
+        warnings.append(
+            f"⚠️  spores.json has {n_records} records vs SPORE-LOG 發文紀錄 {n_log} rows "
+            f"— regenerate (generate-spore-records.py)"
+        )
+
+    rec_mtime = records_path.stat().st_mtime
+    sources = [SPORE_LOG]
+    if HARVESTS_DIR.exists():
+        sources.extend(HARVESTS_DIR.glob("*.md"))
+    for src in sources:
+        if src.exists() and src.stat().st_mtime > rec_mtime:
+            warnings.append(
+                f"⚠️  spores.json older than {src.name} — regenerate (generate-spore-records.py)"
+            )
+            break
+    return errors, warnings, n_records
 
 
 def write_audit_report(path, summary):
@@ -680,9 +695,10 @@ def main():
     all_warnings = []
     all_errors = []
 
-    # 5 active checks after Phase 6 (was 8 — checks 3 and 4 dropped along with 成效追蹤,
-    # check 7 cross-check no longer meaningful when SPORE-LOG narrative is deprecated)
-    print("[1/5] Parser regression test (K/M suffix)...")
+    # 6 active checks: Phase 6 dropped 成效追蹤 cross-checks; 2026-06-10 spore data
+    # decoupling replaced numeric frontmatter consistency with identity-only guard
+    # + spore records layer freshness
+    print("[1/6] Parser regression test (K/M suffix)...")
     parser_failures = check_parser_regression()
     if parser_failures:
         for inp, got, expected in parser_failures:
@@ -690,7 +706,7 @@ def main():
     else:
         print(green("    ✅ 8/8 cases pass"))
 
-    print("\n[2/5] Dashboard freshness (mtime check)...")
+    print("\n[2/6] Dashboard freshness (mtime check)...")
     fresh_issues = check_dashboard_freshness()
     if fresh_issues:
         all_warnings.extend(fresh_issues)
@@ -699,7 +715,7 @@ def main():
     else:
         print(green("    ✅ dashboard-spores.json is fresh"))
 
-    print("\n[3/5] SPORE-HARVESTS body table parseability...")
+    print("\n[3/6] SPORE-HARVESTS body table parseability...")
     body_issues, body_parsed, body_total = check_harvests_body_parseable()
     print(f"    {body_parsed}/{body_total} batch logs have parseable body table")
     if body_issues:
@@ -709,7 +725,7 @@ def main():
         if len(body_issues) > 5:
             print(yellow(f"    ... ({len(body_issues) - 5} more)"))
 
-    print("\n[4/5] SPORE-HARVESTS frontmatter key drift (spore vs spores)...")
+    print("\n[4/6] SPORE-HARVESTS frontmatter key drift (spore vs spores)...")
     fm_issues, fm_legacy, fm_canonical = check_harvests_frontmatter_keys()
     print(f"    canonical: {fm_canonical} / legacy: {fm_legacy}")
     if fm_issues:
@@ -719,17 +735,29 @@ def main():
         if len(fm_issues) > 5:
             print(yellow(f"    ... ({len(fm_issues) - 5} more)"))
 
-    print("\n[5/5] knowledge sporeLinks <-> SPORE-HARVESTS consistency...")
-    sl_issues, sl_checked = check_sporelinks_vs_harvests()
+    print("\n[5/6] knowledge sporeLinks identity-only (no metrics in frontmatter)...")
+    sl_errors, sl_warnings, sl_checked = check_sporelinks_identity_only()
+    sl_issues = sl_errors + sl_warnings
     print(f"    {sl_checked} sporeLinks entries checked")
+    all_errors.extend(sl_errors)
+    all_warnings.extend(sl_warnings)
     if sl_issues:
-        all_warnings.extend(sl_issues)
         for it in sl_issues[:5]:
             print(yellow(f"    {it}"))
         if len(sl_issues) > 5:
             print(yellow(f"    ... ({len(sl_issues) - 5} more)"))
     else:
-        print(green("    ✅ All sporeLinks consistent with harvest body data"))
+        print(green("    ✅ All sporeLinks identity-only (id/platform/date/url)"))
+
+    print("\n[6/6] spore records layer (src/data/spores.json)...")
+    rec_errors, rec_warnings, rec_count = check_spore_records()
+    all_errors.extend(rec_errors)
+    all_warnings.extend(rec_warnings)
+    if rec_errors or rec_warnings:
+        for it in (rec_errors + rec_warnings)[:5]:
+            print(yellow(f"    {it}"))
+    else:
+        print(green(f"    ✅ spores.json fresh, {rec_count} records"))
 
     # Bonus stats
     sporelink_issues, sl_count = check_sporelinks_consistency()
