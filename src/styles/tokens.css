@@ -19,7 +19,16 @@
  */
 
 :root {
-  /* === Container widths === */
+  /* === Container widths（頁面層主容器三檔，2026-06-10 統一）===
+   * 改這裡 = 全站生效；頁面 template 一律 max-w-[var(--container-*)]，
+   * 不再 hardcode px（特例頁的 bespoke 行寬除外，如 soundscape/bench）。
+   * prose:   敘事閱讀頁（home / about / semiont / diary）
+   * article: 文章頁雙欄（正文 + sidebar）
+   * wide:    hub / grid / 時間軸頁（explore / latest / changelog / data...），
+   *          與 Header / Footer / CategoryGrid 同寬
+   */
+  --container-prose: 800px;
+  --container-article: 1280px;
   --container-wide: 1380px;
 
   /* === Spacing scale === */
