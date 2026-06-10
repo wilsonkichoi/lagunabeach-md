@@ -275,6 +275,12 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 ## 未消化清單（📥 待 distill）
 
+### 🧬 2026-06-10 opendata session — 3 候選（Twinkle Hub pilot + /opendata 策展頁 + 部署解封）
+
+- **Alpha 外部 API 的整合鐵律「靜態指標、不 runtime 依賴」實證**：Twinkle Hub 兩個月兩次 contract 大改（裸 POST→session 握手、40→21 工具、twtools 整組下架）+ alpha rate limit 無預告出現（query_rows 首發 429）。文章引用一律寫成靜態 metadata（dataset_id + data.gov.tw 持久 URL + verified 日期），查詢層當可掉的加值。薄包裝（twinkle-hub-verify.py）隔離 contract 變動 + 429 退避 4 段。任何 alpha 依賴都該長這樣
+- **「某路由在所有語言都存在」這類存在性假設必須 filesystem-derived，手維清單必過期**：語言切換器 has 邏輯 + nav translatePath 盲前綴兩處同病，合計 ~1.5 萬條死鏈（semiont 舊 fallback 修復還在某次重構中無聲遺失）。staticRoutes.ts 模式：src/pages 樹即靜態路由 SSOT，[category] 動態段只放行 knowledge/ 目錄 derive 的分類。對應神經迴路「新語言出生時感知系統不會自動更新」的架構解版本（vc 候選：與 Header semiont 硬編碼 fallback 遺失同 family）
+- **多 session 同 working tree 的 finale 清場邊界**：只收「已收官 session」的殘留（audit 11:37 收官後遺留 Politics config ×5 + 自己的 diary 未 commit → 我收進 411257cdb），活著的 session（timeline 13:11 連發）讓它自己收——清場期間它的 diff 在我眼前變空即證據。對照 5/23 babel sweep-in 教訓的正面操作版
+
 <!-- 新教訓 append 這裡 -->
 
 ### 2026-06-10 audit-execution — 量測基底不穩時校準必出錯：對「寫到一半的 dist」量出 0.00% 並據此設 gate 2.0
