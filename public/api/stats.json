@@ -2,7 +2,7 @@
   "totalArticles": 4770,
   "totalCategories": 20,
   "estimatedContributors": 57,
-  "totalTags": 6241,
+  "totalTags": 6179,
   "categories": [
     {
       "name": "es",
@@ -91,12 +91,12 @@
       "count": 75
     },
     {
-      "name": "人物",
-      "count": 61
-    },
-    {
       "name": "企業",
       "count": 60
+    },
+    {
+      "name": "人物",
+      "count": 59
     },
     {
       "name": "科技與企業",
@@ -123,23 +123,15 @@
       "count": 25
     },
     {
-      "name": "高雄",
-      "count": 24
-    },
-    {
       "name": "인물",
       "count": 23
     },
     {
-      "name": "政治",
-      "count": 23
-    },
-    {
-      "name": "半導體",
-      "count": 23
-    },
-    {
       "name": "文化",
+      "count": 23
+    },
+    {
+      "name": "高雄",
       "count": 23
     },
     {
@@ -151,6 +143,14 @@
       "count": 22
     },
     {
+      "name": "政治",
+      "count": 22
+    },
+    {
+      "name": "歷史",
+      "count": 22
+    },
+    {
       "name": "體育",
       "count": 22
     },
@@ -159,11 +159,11 @@
       "count": 22
     },
     {
-      "name": "AI",
+      "name": "半導體",
       "count": 22
     },
     {
-      "name": "歷史",
+      "name": "民主化",
       "count": 21
     }
   ],
@@ -171,7 +171,7 @@
     "zh-TW": 4770,
     "en": 0
   },
-  "lastUpdated": "2026-06-11T15:09:00.706Z",
+  "lastUpdated": "2026-06-11T22:11:50.266Z",
   "stars": 1028,
   "forks": 150,
   "zhPages": 3972,

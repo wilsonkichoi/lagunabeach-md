@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-06-11T15:08:59.725Z",
+  "generatedAt": "2026-06-11T22:11:49.270Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "a73082afbbdbce92407592df81f3038df99ff208",
+      "date": "2026-06-12T05:27:16+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-12-052454-twmd-babel-nightly — 228 translations ship + diff-patch-prepare bug 4 晚 vc + agent ok=100% ≠ pipeline 收斂"
+    },
+    {
+      "hash": "995f14581496ccdadc8e5499f1da6266be29297f",
+      "date": "2026-06-12T05:24:32+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel-nightly: 228 translations (Tier 0b 15 + Tier 0a 100 + Tier 1 cascade 137) — 2026-06-11"
+    },
+    {
+      "hash": "d48618b2d2e130b9983c5cc8d1e805da82c6f723",
+      "date": "2026-06-11T23:10:44+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-11-230938-twmd-data-refresh-pm — 14-step ALL PASS + Step 11 連 11 cycle 全綠"
+    },
+    {
+      "hash": "42e8e341f0657084055a472bdd18e079ed7a9296",
+      "date": "2026-06-11T23:09:29+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] data-refresh-pm: 14-step ALL PASS — 2026-06-11 23:00"
+    },
     {
       "hash": "42de873dae334672684d4095cdcdf5b1f28fee87",
       "date": "2026-06-11T22:49:51+08:00",

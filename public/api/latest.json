@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-06-11T15:09:09.497Z",
+  "_generated": "2026-06-11T22:12:00.614Z",
   "perLang": 30,
   "byLang": {
     "zh-TW": [
@@ -334,8 +334,8 @@
         "readingTime": 12
       },
       {
-        "title": "History of Taiwan's Environmental Movement",
-        "desc": "The trajectory of Taiwan's environmental movement, from anti-pollution struggles in the 1980s to recent plastic reduction campaigns, witnessing the intersection of environmental awareness and democratization in Taiwanese society.",
+        "title": "Taiwan Environmental Movement History",
+        "desc": "The development trajectory of Taiwan's environmental movement from the anti-pollution protests of the 1980s to recent plastic reduction campaigns, witnessing the intertwining of societal environmental awareness awakening and democratization.",
         "category": "nature",
         "href": "/en/nature/taiwan-environmental-movement-history",
         "date": "2026-06-09T11:27:50+08:00",
@@ -536,8 +536,8 @@
         "readingTime": 12
       },
       {
-        "title": "History of Environmental Movements in Taiwan",
-        "desc": "The developmental trajectory of Taiwan's environmental movement, from anti-pollution struggles in the 1980s to recent plastic reduction campaigns, witnessing the intersection of environmental awareness and democratization in Taiwanese society.",
+        "title": "台湾環境運動史",
+        "desc": "台湾の環境運動は、1980年代の反公害運動から近年のプラスチック削減運動に至るまでの発展の軌跡であり、台湾社会における環境意識の覚醒と民主化の進展が交錯する過程を証言するものです。",
         "category": "nature",
         "href": "/ja/nature/taiwan-environmental-movement-history",
         "date": "2026-06-09T11:27:50+08:00",
@@ -688,12 +688,12 @@
         "readingTime": null
       },
       {
-        "title": "紙傘：雨具から芸術へ、台湾客家文化の百年の風彩を支える",
-        "desc": "高雄美濃において、一見何の変哲もない紙傘は、客家の「早生貴子」と「円満」の祝福を担うだけでなく、産業の低迷期において、職人・林享麟の堅持と『漢声』雑誌の報道を通じて、日常の雨具から国際的に注目される芸術品へと変貌を遂げました。台湾の伝統工芸が逆境の中でいかに再生し、現代社会において新たな位置づけを見出したかの百年の物語を語っています。",
+        "title": "紙傘：雨具から芸術へ、台湾客家文化の百年の栄光を支える",
+        "desc": "高雄美濃において、一見何の変哲もない紙傘は、客家の「早生貴子」と「円満」の祝福を担うだけでなく、産業の低迷期に、職人・林享麟の堅持と『漢声』雑誌の報道を通じて、日常の雨具から国際的に注目される芸術品へと変貌を遂げた。台湾の伝統工芸がいかに逆境から再生し、現代社会において新たな位置づけを見出したかの百年の物語である。",
         "category": "culture",
         "href": "/ja/culture/taiwan-paper-umbrella",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "10"
+        "readingTime": 10
       },
       {
         "title": "疫病が消えた後、花火は伝統になった：台湾の祝祭文化の予想外の進化",
@@ -704,8 +704,8 @@
         "readingTime": "12"
       },
       {
-        "title": "嘉義ターキーライス：30元の一碗が都市の身分証",
-        "desc": "第二次世界大戦後、米軍が嘉義にターキーをもたらし、林添壽という職人がターキーの肉を細切りにして煮汁をかけ、白飯に盛り付けました。七十年後、この30元の一碗は農糧署が実施した「台湾十大看板飯」の投票で第一位に選ばれました。嘉義の人々は「どこの店のものが一番美味しいか」を巡って正月全体を口論することもありますが、一つだけ異論のない事実があります：ターキーライスこそが嘉義を象徴する料理だ、ということです。",
+        "title": "嘉義の火鶏肉飯：三十元の都市の身分証",
+        "desc": "第二次世界大戦後、アメリカ軍が火鶏を嘉義に持ち込んだ。林添壽という職人が火鶏肉を細切りにして醤油ダレをかけ、白飯ののせた。七十年後、この三十元の飯は農糧署が選ぶ台湾十大招牌飯の一位になった。嘉義の人は「どこが一番美味しい」で正月中一喧嘩できるが、一つだけ喧嘩しないことがある。火鶏肉飯はものの見事に、なのである。",
         "category": "food",
         "href": "/ja/food/chiayi-turkey-rice",
         "date": "2026-05-20T12:37:22+08:00",
@@ -882,8 +882,8 @@
         "readingTime": 8
       },
       {
-        "title": "타이완 출국사: \"경비총사령부 승인\"에서 \"세계 통용\"으로의 섬 주민 국경 넘기 서사",
-        "desc": "1979년 신정, 타이완이 최초의 관광 여권을 발급했다. 이것은 단순한 한 장의 종이 발급이 아니라, 계엄과 봉쇄에서 국민 외교로의 전환이었으며, 타이완 사람들이 \"외낭비\" 죄인에서 세계 여행자가 되기까지의 이야기를 기록한 것이다.",
+        "title": "타이완 출국사: \"경총 승인\"에서 \"세계 통행\"으로, 섬사람들의 국경 넘기 서사",
+        "desc": "1979년 정월 초하루, 타이완이 최초의 관광 여권을 발급했다. 이것은 단지 한 장의 종이를 발급한 것이 아니라, 계엄에서 국민외교로의 전환이었으며, 타이완 사람들이 \"외낭비\" 죄인에서 세계 여행자가 되기까지의 이야기를 기록한 것이다.",
         "category": "history",
         "href": "/ko/history/taiwan-emigration-history",
         "date": "2026-05-24T22:50:13+08:00",
@@ -1188,12 +1188,12 @@
         "readingTime": "8"
       },
       {
-        "title": "Le riz huilé : du glutineux « ostentatoire » au cadeau de naissance porteur de vie",
-        "desc": "En 2026, dans les rues de Taïwan, un bol de riz huilé reste le choix privilégié de beaucoup pour célébrer une naissance. Issu de la tradition des immigrants hokkien et taïwanais, ce plat a évolué sur l'île pour développer un « ratio gourmand » mêlant le salé et le sucré, transformant le riz glutineux et l'oignon rouge en la bénédiction la plus solide que les familles taïwanaises offrent aux moments charnières de la vie.",
+        "title": "You fan : du glutineux « ostentatoire » au cadeau de naissance qui porte le poids de la vie",
+        "desc": "En 2026, dans les rues de Taïwan, un bol de you fan reste le choix privilégié de beaucoup pour célébrer une naissance. Ce plat, issu de la tradition des immigrants hans et qui a évolué à Taïwan vers un « ratio gourmet » mêlant le salé et le sucré, combine le riz glutineux et l'oignon vert frit pour former le vœu le plus solide que les familles taïwanaises adressent aux tournants de la vie.",
         "category": "food",
         "href": "/fr/food/oil-rice",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "10"
+        "readingTime": 10
       },
       {
         "title": "Gâteau à l'ananas : des collations électorales au « lingot d'or » taïwanais d'une valeur de production de 25 milliards de dollars NT",
