@@ -1,47 +1,47 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-11T06:13:02+08:00",
-    "zhCommitHead": "a205f2b87",
+    "lastUpdated": "2026-06-11T23:08:58+08:00",
+    "zhCommitHead": "42de873da",
     "totalZh": 794,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
         "total_zh": 794,
-        "fresh": 771,
-        "stale": 23,
-        "metadata_stale": 0,
+        "fresh": 767,
+        "stale": 24,
+        "metadata_stale": 3,
         "missing": 0,
         "orphan": 0
       },
       "ja": {
         "total_zh": 794,
-        "fresh": 738,
-        "stale": 56,
-        "metadata_stale": 0,
+        "fresh": 734,
+        "stale": 57,
+        "metadata_stale": 3,
         "missing": 0,
         "orphan": 0
       },
       "ko": {
         "total_zh": 794,
-        "fresh": 752,
-        "stale": 42,
-        "metadata_stale": 0,
+        "fresh": 748,
+        "stale": 43,
+        "metadata_stale": 3,
         "missing": 0,
         "orphan": 0
       },
       "es": {
         "total_zh": 794,
-        "fresh": 744,
-        "stale": 50,
-        "metadata_stale": 0,
+        "fresh": 740,
+        "stale": 51,
+        "metadata_stale": 3,
         "missing": 0,
         "orphan": 0
       },
       "fr": {
         "total_zh": 794,
-        "fresh": 748,
-        "stale": 46,
-        "metadata_stale": 0,
+        "fresh": 744,
+        "stale": 47,
+        "metadata_stale": 3,
         "missing": 0,
         "orphan": 0
       }
@@ -22939,9 +22939,9 @@
     },
     "Society/台灣原住民族土地正義與傳統領域.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:57fad95b8a079b38",
+        "lastCommit": "1e674def",
+        "lastModified": "2026-06-11T08:33:06+08:00",
+        "contentHash": "sha256:28b04fa76413100e",
         "bodyHash": "sha256:4f732aefea1fd604"
       },
       "translations": {
@@ -22956,8 +22956,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         },
         "ja": {
           "path": "ja/Society/indigenous-land-justice-and-traditional-territories.md",
@@ -22970,8 +22972,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         },
         "ko": {
           "path": "ko/Society/indigenous-land-justice-and-traditional-territories.md",
@@ -22984,8 +22988,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         },
         "es": {
           "path": "es/Society/indigenous-land-justice-and-traditional-territories.md",
@@ -22998,8 +23004,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         },
         "fr": {
           "path": "fr/Society/indigenous-land-justice-and-traditional-territories.md",
@@ -23012,8 +23020,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         }
       }
     },
@@ -35661,10 +35671,10 @@
     },
     "People/莫那·魯道.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:857be7a4bbbfd39e",
-        "bodyHash": "sha256:4cd8b15c2ccbd283"
+        "lastCommit": "1e674def",
+        "lastModified": "2026-06-11T08:33:06+08:00",
+        "contentHash": "sha256:ede7f18705cbb217",
+        "bodyHash": "sha256:e00af867a4682cf7"
       },
       "translations": {
         "en": {
@@ -36301,10 +36311,10 @@
     },
     "People/魏德聖.md": {
       "zh": {
-        "lastCommit": "0f8fae0a",
-        "lastModified": "2026-05-17T18:46:40+08:00",
-        "contentHash": "sha256:c12363db6be367bf",
-        "bodyHash": "sha256:c323a1cb617cbe0a"
+        "lastCommit": "8f070a88",
+        "lastModified": "2026-06-11T08:22:31+08:00",
+        "contentHash": "sha256:c53d9ecd803bd8cd",
+        "bodyHash": "sha256:9fd756dd61905363"
       },
       "translations": {
         "en": {
@@ -36318,8 +36328,10 @@
           "translationLastModified": "2026-05-24T08:42:27+08:00",
           "inferred": false,
           "footnoteDefs": 6,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+11 -2"
         },
         "ja": {
           "path": "ja/People/wei-te-sheng-taiwanese-epic-filmmaker.md",
@@ -36332,8 +36344,10 @@
           "translationLastModified": "2026-05-24T08:42:27+08:00",
           "inferred": false,
           "footnoteDefs": 6,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+11 -2"
         },
         "ko": {
           "path": "ko/People/wei-te-sheng-taiwanese-epic-filmmaker.md",
@@ -36346,8 +36360,10 @@
           "translationLastModified": "2026-05-24T08:42:27+08:00",
           "inferred": false,
           "footnoteDefs": 6,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+11 -2"
         },
         "es": {
           "path": "es/People/wei-te-sheng-taiwanese-epic-filmmaker.md",
@@ -36360,8 +36376,10 @@
           "translationLastModified": "2026-05-24T08:42:27+08:00",
           "inferred": false,
           "footnoteDefs": 6,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+11 -2"
         },
         "fr": {
           "path": "fr/People/wei-te-sheng-taiwanese-epic-filmmaker.md",
@@ -36374,8 +36392,10 @@
           "translationLastModified": "2026-05-24T08:42:27+08:00",
           "inferred": false,
           "footnoteDefs": 6,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+11 -2"
         }
       }
     },
@@ -51421,9 +51441,9 @@
     },
     "History/日治時期.md": {
       "zh": {
-        "lastCommit": "18157ab5",
-        "lastModified": "2026-05-14T11:04:30+08:00",
-        "contentHash": "sha256:33d9a2c12bde5914",
+        "lastCommit": "1e674def",
+        "lastModified": "2026-06-11T08:33:06+08:00",
+        "contentHash": "sha256:ab038fc6af555335",
         "bodyHash": "sha256:c1f42478c12060a3"
       },
       "translations": {
@@ -51438,8 +51458,10 @@
           "translationLastModified": "2026-05-20T10:49:50+08:00",
           "inferred": false,
           "footnoteDefs": 5,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+5 -0"
         },
         "ja": {
           "path": "ja/History/japanese-colonial-era.md",
@@ -51452,8 +51474,10 @@
           "translationLastModified": "2026-05-22T08:18:22+08:00",
           "inferred": false,
           "footnoteDefs": 5,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+5 -0"
         },
         "ko": {
           "path": "ko/History/japanese-colonial-era.md",
@@ -51466,8 +51490,10 @@
           "translationLastModified": "2026-05-22T08:18:22+08:00",
           "inferred": false,
           "footnoteDefs": 5,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+5 -0"
         },
         "es": {
           "path": "es/History/japanese-colonial-era.md",
@@ -51480,8 +51506,10 @@
           "translationLastModified": "2026-05-22T08:18:22+08:00",
           "inferred": false,
           "footnoteDefs": 5,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+5 -0"
         },
         "fr": {
           "path": "fr/History/japanese-colonial-era.md",
@@ -51494,8 +51522,10 @@
           "translationLastModified": "2026-05-22T08:18:22+08:00",
           "inferred": false,
           "footnoteDefs": 5,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+5 -0"
         }
       }
     },
@@ -52861,9 +52891,9 @@
     },
     "History/台灣原住民族歷史與正名運動.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:e4ab0082a9409924",
+        "lastCommit": "1e674def",
+        "lastModified": "2026-06-11T08:33:06+08:00",
+        "contentHash": "sha256:5abb3efb22ea6c92",
         "bodyHash": "sha256:93eb4a0251be6dd2"
       },
       "translations": {
@@ -52878,8 +52908,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         },
         "ja": {
           "path": "ja/History/indigenous-peoples-history-and-naming-movement.md",
@@ -52892,8 +52924,10 @@
           "translationLastModified": "2026-05-20T12:37:22+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         },
         "ko": {
           "path": "ko/History/indigenous-peoples-history-and-naming-movement.md",
@@ -52906,8 +52940,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         },
         "es": {
           "path": "es/History/indigenous-peoples-history-and-naming-movement.md",
@@ -52920,8 +52956,10 @@
           "translationLastModified": "2026-05-20T12:37:22+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         },
         "fr": {
           "path": "fr/History/indigenous-peoples-history-and-naming-movement.md",
@@ -52934,8 +52972,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         }
       }
     },

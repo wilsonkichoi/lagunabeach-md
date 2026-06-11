@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T06:13:10.366030",
+  "lastUpdated": "2026-06-11T23:09:07.091471",
   "schemaVersion": "v2-2026-05-16",
   "featureFlag": "IMMUNE_V2",
   "immuneScore": 55,
@@ -67,7 +67,7 @@
     "source": "git log %ai (not fs mtime — worktree-safe)"
   },
   "driftDetail": {
-    "new_articles_7d": 12,
+    "new_articles_7d": 8,
     "rate_per_article": 1.0,
     "note": "v1 heuristic — longitudinal tracking pending (B-line meta-health)"
   },

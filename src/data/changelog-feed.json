@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-06-10T22:13:03.202Z",
+  "generatedAt": "2026-06-11T15:08:59.725Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "42de873dae334672684d4095cdcdf5b1f28fee87",
+      "date": "2026-06-11T22:49:51+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-11-222546-twmd-rewrite-daily — Stage 0 Computex EVOLVE 觀點成型 + broadcast §自主權邊界 partial defer"
+    },
+    {
+      "hash": "7940fbe967843412aaf5d83ce587ffa111e69f5d",
+      "date": "2026-06-11T22:29:42+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-11-222507-twmd-maintainer-pm — PR #1144 5-layer immune review + 2 hallucinated citation block + vc reset"
+    },
+    {
+      "hash": "ae14a455e31863994df68f850213728e9dca163c",
+      "date": "2026-06-11T08:43:55+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-11-083920-twmd-maintainer-am — vc=4 第三輪 chain 第二棒 + LESSONS bump v=8"
+    },
+    {
+      "hash": "79ddf32673032354f4610d259531acd8ee26b35d",
+      "date": "2026-06-11T08:41:35+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-11-083358-莫那魯道 — 莫那·魯道 EVOLVE 跨 window 收官 + diary 差點覆寫上一個我的初稿"
+    },
+    {
+      "hash": "1e674def27cc5fe745a0b51cb791d26b4c32b873",
+      "date": "2026-06-11T08:33:06+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 莫那·魯道 補完 — rationale block + 2 果子電影官方影片 iframe + 3 reverse cross-link"
+    },
+    {
+      "hash": "8f070a887c043d0531cf1538206e4106a406d526",
+      "date": "2026-06-11T08:22:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 莫那·魯道 EVOLVE — 刻在二十元硬幣上的抗日英雄，他反抗的世界沒有中國也沒有日本"
+    },
+    {
+      "hash": "37486a60bf56c285f9a53666a333602ee4c8380d",
+      "date": "2026-06-11T07:09:25+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-11-070752-twmd-feedback-triage — 0 new feedback + 0 archive sync true idle + HG all PASS"
+    },
+    {
+      "hash": "21f43945970600bd4fe4746e8bf55f07e431afb4",
+      "date": "2026-06-11T06:49:36+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-11-064823-twmd-spore-harvest-am — 9 spores + 1 legacy heal + Pitfall 7 day-2 escalate + Bucket D #132 老莫 escalate"
+    },
+    {
+      "hash": "c55b245d6f47ae98eef79e014945141442f233b9",
+      "date": "2026-06-11T06:48:11+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest: 9 spores + 1 legacy heal — 2026-06-11 06:30"
+    },
+    {
+      "hash": "532d20383b1c60b0dc31223fc384d33ee8f26b01",
+      "date": "2026-06-11T06:15:13+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-11-061358-twmd-data-refresh-am — 14-step ALL PASS + Step 11 連 10 cycle 全綠 + auto-stash carry 第三次"
+    },
+    {
+      "hash": "22f907e04f6f1ab021f7d8ba03e18b35f8aaf5e3",
+      "date": "2026-06-11T06:13:52+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] data-refresh-am: 14-step ALL PASS + Step 11 連 10 cycle 全綠 — 2026-06-11 06:00"
+    },
     {
       "hash": "a205f2b876130bb0fbd1da3225db4d305bedecc6",
       "date": "2026-06-11T01:12:48+08:00",
