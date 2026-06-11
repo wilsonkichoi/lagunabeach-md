@@ -10,10 +10,10 @@ lastVerified: '2026-04-17'
 lastHumanReview: true
 featured: false
 translatedFrom: 'Culture/原住民神話.md'
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:f16fb8d1c36fdd75'
-sourceBodyHash: 'sha256:e09a61ab23c86acd'
-translatedAt: '2026-06-10T17:00:20Z'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:3ad9f28eb81ce704'
+sourceBodyHash: 'sha256:93356a93ce6ebf61'
+translatedAt: '2026-06-11T16:39:06Z'
 ---
 
 > **En 30 secondes :** L'île de Taïwan n'est pas seulement d'une grande diversité géographique : elle est aussi un trésor de mythes culturels. De la création par la fissure d'une roche chez les Atayal, au mythe de la mise à mort du soleil chez les Bunun, en passant par le grand déluge et le mariage fraternel chez les Amis, ces épopées orales ont façonné la cosmologie de chaque peuple et reflètent leur profonde interaction avec l'environnement naturel ainsi que leur sagesse d'adaptation. Ces mythes sont une clé indispensable pour comprendre la culture des peuples autochtones de Taïwan.

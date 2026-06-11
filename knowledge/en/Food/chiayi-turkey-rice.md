@@ -19,10 +19,10 @@ lastVerified: 2026-04-24
 featured: false
 lastHumanReview: false
 translatedFrom: 'Food/嘉義火雞肉飯.md'
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:f79faf5588d7d10f'
-sourceBodyHash: 'sha256:2d4b333fe985b7a6'
-translatedAt: '2026-06-10T16:58:04Z'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:961c8a81a8f8c3f1'
+sourceBodyHash: 'sha256:2b1f54ba6f041643'
+translatedAt: '2026-06-11T16:38:12Z'
 ---
 
 > Chiayi turkey rice has a Cold War origin story. After World War II, American forces were stationed in Chiayi and brought large quantities of turkeys. In an era of material scarcity, turkeys were bigger than local chickens and cheaper. A chef named Lin Tien-shou at the First Commercial Market shredded the turkey meat, ladled braised sauce over it, and piled it on white rice. Seventy years later, that bowl was voted No. 1 in the Council of Agriculture's Top Ten Signature Rice Dishes of Taiwan, has been served at state banquets, and still sells for NT$30 on Chiayi's streets. No other city in Taiwan is as inseparably bound to a single dish.

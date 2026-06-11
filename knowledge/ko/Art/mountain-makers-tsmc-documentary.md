@@ -20,10 +20,10 @@ readingTime: 12
 lastVerified: 2026-04-24
 lastHumanReview: false
 translatedFrom: 'Art/造山者世紀的賭注.md'
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:a95fbde18ca52301'
-sourceBodyHash: 'sha256:305bf3438490071a'
-translatedAt: '2026-06-10T16:58:21Z'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:48d568156f2d8bb9'
+sourceBodyHash: 'sha256:dae45d5a23a409e0'
+translatedAt: '2026-06-11T16:38:39Z'
 ---
 
 > **30-Second Overview:** Documentary director Hsiao Ju-chen spent five years (2019–2024) interviewing over 80 semiconductor pioneers to create an epic about Taiwan's semiconductor industry. However, Morris Chang did not give a formal interview in the film. The Chinese title is _The Mountain Maker: A Century's Bet_, and the English title is _A Chip Odyssey_ (not the commonly circulated "The Mountain Maker"). After its theatrical release in Taiwan in June 2025, it broke box office records with NT$32 million, ranking among the top five in the history of Taiwanese documentary cinema. From autumn 2025 to spring 2026, the film visited Stanford, UCLA, Columbia, Purdue, Wisconsin, and Michigan—the key hubs of the US semiconductor manufacturing industry in the CHIPS Act era—becoming another diplomatic track for Taiwan's technological soft power.

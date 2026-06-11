@@ -10,11 +10,42 @@ readingTime: 16
 lastVerified: 2026-06-06
 lastHumanReview: false
 featured: false
+datasets:
+  - id: 'lvr-trades'
+    name: '不動産売買 全国実価登録'
+    url: 'https://lvr.land.moi.gov.tw/'
+    agency: '内政部地政司'
+    update_freq: '3ヶ月ごと'
+    why: '記事は成功国民住宅の一住所を軸に40年を語っています。このデータベースで任意の国民住宅コミュニティの現在の成約価格を検索し、資産エスカレーターの傾斜を検証できます'
+    verified: 2026-06-10
+  - id: '121267'
+    name: '台北市国民住宅配売（賃貸）状況'
+    url: 'https://data.gov.tw/dataset/121267'
+    agency: '台北市政府都市発展局'
+    update_freq: '不定期更新'
+    why: '記事中の三大国民住宅で政府が販売した低価格住宅の配売・賃貸公式記録'
+    verified: 2026-06-10
+  - id: '155779'
+    name: '台北市政府社会住宅包租代管マッチング統計資料'
+    url: 'https://data.gov.tw/dataset/155779'
+    agency: '台北市政府都市発展局'
+    update_freq: '年1回'
+    why: '「2016年に政府は売らず賃貸へ転換」という新路線の実施側の数字'
+    verified: 2026-06-10
+sporeLinks:
+  - id: 126
+    platform: 'threads'
+    date: '2026-06-06'
+    url: 'https://www.threads.com/@taiwandotmd/post/DZPIcLHEzpk'
+  - id: 127
+    platform: 'x'
+    date: '2026-06-06'
+    url: 'https://x.com/taiwandotmd/status/2063165712261390793'
 translatedFrom: 'Society/國宅與居住正義.md'
-sourceCommitSha: 'e1dc9d480'
-sourceContentHash: 'sha256:d77f1b1d6c027fc4'
-sourceBodyHash: 'sha256:363d88d4e015f7ab'
-translatedAt: '2026-06-07T00:37:30+08:00'
+sourceCommitSha: 'dd39065b'
+sourceContentHash: 'sha256:1b571a2f0b3e267b'
+sourceBodyHash: 'sha256:81a883992eb755dc'
+translatedAt: '2026-06-11T16:38:27Z'
 ---
 
 # 国民住宅と居住正義：政府が建てた安い住宅は、最後に誰の資産エスカレーターを育てたのか
@@ -268,6 +299,14 @@ _ウィーンのカール・マルクス・ホーフ（Karl-Marx-Hof）です。
 - [台湾の少子化危機](/society/台灣少子化危機) — 住宅を買えないことと子どもを産めないことは、同じ構造的亀裂の両端です。世代正義のもう一つの側面です
 - [トタン屋根の増築住宅](/society/鐵皮屋) — 買えず、借りても安定しないとき、台湾の人びとはどのようにもっとも厳しい方法で、自分のための居場所を継ぎ足してきたのかを扱います
 - [台湾の環境正義と NIMBY 論争](/society/台灣環境正義與鄰避爭議) — 社会住宅や嫌悪施設は誰の家の隣に建てられるべきか。居住正義と空間正義の交差点です
+
+## 公開データ
+
+以下の政府オープンデータを使えば、この記事の論点をご自身で検証したり、反証したりすることができます。リンクは [data.gov.tw](https://data.gov.tw/) または主管機関の照会システムへ。AI で作業する読者は、台湾のオープンデータ MCP ゲートウェイ [Twinkle Hub](https://hub.twinkleai.tw/) から同じデータセットを照会することもできます。
+
+- [内政部不動産取引実価照会サービス（全国実価登録）](https://lvr.land.moi.gov.tw/)（内政部地政司、3ヶ月ごとにバッチ更新；Twinkle Hub データセットコード `lvr-trades`）— 記事は成功国民住宅の一住所を軸に40年を語っています。このサービスで任意の国民住宅コミュニティの現在の成約価格を検索し、「資産エスカレーター」の傾斜をご自身で検証できます
+- [台北市国民住宅配売（賃貸）状況](https://data.gov.tw/dataset/121267)（台北市政府都市発展局、不定期更新）— 記事中の三大国民住宅で政府が販売した低価格住宅の配売・賃貸公式記録
+- [台北市政府社会住宅包租代管マッチング統計資料](https://data.gov.tw/dataset/155779)（台北市政府都市発展局、年1回更新）— 「2016年に政府は売らず賃貸路線へ転換」という新たな方向の実施側の数字
 
 ## 参考資料
 

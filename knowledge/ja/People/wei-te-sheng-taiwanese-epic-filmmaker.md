@@ -24,10 +24,10 @@ readingTime: 7
 #   whats_excluded: "霧社事件歷史背景完整分析；台灣三部曲資金籌募細節；《海角七號》演員逐一介紹"
 #   where_it_hedges: "《海角七號》票房5.3億：來源P0確認「破億」，5.3億此數字為現有資料常見說法（建議確認官方統計）"
 translatedFrom: People/魏德聖.md
-sourceCommitSha: 0f8fae0ae
-sourceContentHash: sha256:c12363db6be367bf
-sourceBodyHash: sha256:c323a1cb617cbe0a
-translatedAt: 2026-05-24T05:06:32+08:00
+sourceCommitSha: '8f070a88'
+sourceContentHash: 'sha256:c53d9ecd803bd8cd'
+sourceBodyHash: 'sha256:9fd756dd61905363'
+translatedAt: '2026-06-11T16:38:27Z'
 ---
 
 # 魏德聖：永康1969、『海角七号』の興行収入1億ドル突破からヴェネツィア国際映画祭メインコンペティションへ――台湾の叙事詩的映画監督
@@ -90,7 +90,7 @@ translatedAt: 2026-05-24T05:06:32+08:00
 
 1969年に台南永康で生まれ、2000年に50万台湾ドルで5分間の作品を撮っても資金を得られず、2008年に5.3億台湾ドルの興行収入を記録し、2011年にヴェネツィアメインコンペティションにノミネートされる。この軌跡は、忍耐の積み重ねであり、奇跡とは無関係です。
 
-**関連記事：** [魏德聖 — Wikipedia](https://zh.wikipedia.org/zh-tw/魏德聖) ｜ [台湾映画データベース：魏德聖](https://taiwancinema.bamid.gov.tw/Staff/StaffContent/?ContentUrl=12549) ｜ [金馬賞公式サイト](https://www.goldenhorse.org.tw/)
+**関連記事：** [モナ・ルドー：20元硬貨に刻まれた抗日英雄](/people/莫那·魯道)（『賽德克・バライ』の主人公のモデルと、映画が記憶をどう再構築したか）｜ [魏德聖 — Wikipedia](https://zh.wikipedia.org/zh-tw/魏德聖) ｜ [台湾映画データベース：魏德聖](https://taiwancinema.bamid.gov.tw/Staff/StaffContent/?ContentUrl=12549) ｜ [金馬賞公式サイト](https://www.goldenhorse.org.tw/)
 
 ## 参考文献
 

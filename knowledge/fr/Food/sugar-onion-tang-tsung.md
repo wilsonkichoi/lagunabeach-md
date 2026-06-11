@@ -1,94 +1,132 @@
 ---
-title: 'Le Tang-sung : le « sucre de la résistance » caché dans ses cavités blanches'
-description: "Dans les années 1940, pour échapper au monopole japonais sur le sucre de canne, les paysans taïwanais ont étiré du sirop brun foncé en tubes blancs et légers ressemblant à des tiges de ciboule — un « art du déguisement » paysan, cristallisation d'un savoir-faire populaire séculaire. Les 16 grandes cavités et les 16 petites cavités minutieusement disposées dans chaque morceau de Tang-sung ont porté, pendant un siècle entier, la résistance sucrée et croquante de Taïwan."
+title: 'Sucre‑oignon : le « sucre de la résistance » caché dans des pores blancs'
+description: 'Dans les années 1940, les agriculteurs de Taïwan, pour échapper au monopole policier japonais sur le sucre de canne, ont tiré le sirop brun foncé en tubes blancs comme des oignons – une « technique de camouflage » des agriculteurs, cristallisation d’un siècle de sagesse populaire. Chaque morceau de sucre‑oignon possède 16 grands pores et 16 petits pores, soutenant une résistance croquante et sucrée qui a duré un siècle à Taïwan.'
 date: 2026-04-23
-tags:
-  [
-    'Food',
-    'Tang-sung',
-    'saveur traditionnelle',
-    'artisanat folklorique',
-    'Centre des arts traditionnels de Yilan',
-    'histoire sucrière',
-    'culture de la résistance',
-  ]
-subcategory: '飲食場景'
-author: 'Taiwan.md'
 category: 'Food'
-readingTime: 15
+subcategory: '飲食場景'
+tags:
+  - 'Alimentation'
+  - 'Sucre‑oignon'
+  - 'Saveur traditionnelle'
+  - 'Artisanat folklorique'
+  - 'Art traditionnel d’Ilan'
+  - 'Histoire de l’industrie sucrière'
+  - 'Culture de la résistance'
+author: 'Taiwan.md'
 featured: true
 lastVerified: 2026-04-23
 lastHumanReview: false
-translatedFrom: Food/糖蔥.md
-sourceCommitSha: '4b6d28c5'
+readingTime: 15
+translatedFrom: 'Food/糖蔥.md'
+sourceCommitSha: '4b6d28c54'
 sourceContentHash: 'sha256:ca062268b3b89018'
 sourceBodyHash: 'sha256:383a8a9c19be37a9'
-translatedAt: 2026-05-02T01:17:16+08:00
+translatedAt: '2026-06-12T00:53:43+08:00'
 ---
 
-# Le Tang-sung : le « sucre de la résistance » caché dans ses cavités blanches
+# Sucre‑oignon : le « sucre de la résistance » caché dans des pores blancs
 
-> **En 30 secondes :** Le Tang-sung ne contient aucune ciboule. C'était autrefois une « arme de déguisement » utilisée par les paysans taïwanais contre le gouvernement colonial. Sous l'occupation japonaise, le sucre de canne produit à Taïwan était strictement contrôlé et exporté vers le Japon ; pour les habitants locaux, consommer du sucre signifiait échapper aux fouilles de la police. Les paysans ont exploité l'extensibilité du sirop en refroidissant pour l'étirer de manière répétée en structures tubulaires creuses, d'un blanc immaculé rappelant la tige de la ciboule, dissimulés dans des paniers de légumes pour déjouer les contrôles[^5][^6]. Cette structure précise de « 16 grandes cavités et 16 petites cavités » lui confère une texture qui fond en bouche et croque sans coller aux dents — la douceur la plus emblématique de l'ingéniosité populaire insulaire[^14].
+> **30 secondes d’aperçu :** le sucre‑oignon ne contient pas d’oignon ; il a été l’« arme de camouflage » des agriculteurs de Taïwan contre le gouvernement colonial. Sous la domination japonaise, le sucre de canne produit à Taïwan était strictement contrôlé pour l’exportation vers le Japon, et les habitants devaient échapper aux fouilles policières pour en consommer. Les agriculteurs ont exploité l’élasticité du sirop en le refroidissant, le tirant à plusieurs reprises pour former des tubes creux, d’une blancheur rappelant celle des oignons, que l’on pouvait dissimuler dans les paniers de légumes[^5][^6]. Cette structure précise de « 16 grands pores, 16 petits pores » le rend fondant, croquant et non collant, constituant l’une des douceurs les plus ingénieuses de l’histoire insulaire[^14].
 
-En 2024, au Centre des arts traditionnels de Yilan, un groupe de visiteurs s'est rassemblé devant le « Musée culturel du Tang-sung ». L'air était imprégné d'un riche parfum caramélisé mêlé à la douceur maltée. Le maître Tsouo Tchouang-tching a accroché une masse de sucre brun de trois kilogrammes, portée à 120 °C, sur un pieu de bois, puis l'a étiré et plié à toute vitesse, encore et encore[^12][^20].
+En 2024, au Centre des arts traditionnels d’Ilan, un groupe de visiteurs s’est rassemblé devant le « musée du sucre‑oignon ». L’air était imprégné d’un parfum riche de caramel et de malt, tandis que le maître artisan Zhuo Chuang‑qing suspendait une masse de trois kilogrammes, chauffée à 120 °C, sur un pieu en bois, tirant, pliant et tirant à nouveau avec une rapidité fulgurante[^12][^20].
 
-À mesure que l'air était forcé à l'intérieur du sucre, un rythme régulier de « clac-clac » emplissait l'espace. En l'espace de dix minutes à peine, le liquide ambré et brun s'est miraculeusement transformé en un blanc ivoire aux reflets nacrés, avant de prendre sa forme finale de tubes soyeux rappelant la ciboule[^20]. Ce « marathon sucré » transmis depuis un siècle, chaque traction portant le poids de l'histoire.
+Lorsque l’air était forcé d’entrer dans la masse sucrée, un bruit rythmique de « clac » se faisait entendre. Le liquide brun ambré, transparent, se transformait en dix minutes en une blancheur ivoire éclatante, pour finalement se figer en une texture soyeuse rappelant la soie d’un oignon[^20]. Ce « marathon sucré » transmis depuis un siècle voit chaque tirage porter le poids de l’histoire.
 
-## Du Teochew à Taïwan : la migration transfrontalière de la douceur
+## De la région de Chao‑Shan à Taïwan : la migration transfrontalière du goût sucré
 
-L'histoire du Tang-sung remonte à la région de Chaozhou et Shantou, dans le Guangdong, sous la dynastie Qing[^2][^4]. Guo Zizhang, préfet de Chaozhou sous la dynastie Ming, nota dans ses _Notes diverses sur Chaozhou_ : « Le Tang-sung de Chaozhou est d'une blancheur et d'une légèreté extrêmes, sans la moindre impureté[^15]. » En tant qu'élément de la culture alimentaire des immigrants minnan et cantonais, le Tang-sung a traversé Hong Kong et le Fujian avec les vagues migratoires, avant de prendre racine à Taïwan[^2].
+L’histoire du sucre‑oignon remonte à la période Qing, dans les régions de Chaozhou et Shantou, dans le sud‑est de la Chine[^2][^4]. Le préfet de Chaozhou, Guo Zizhang, consigna dans le *Chaozhong Zaji* : « Le sucre‑oignon de Chao est d’une blancheur et d’une légèreté extrêmes, sans aucune impureté »[^15]. En tant qu’élément de la culture alimentaire des migrants Min‑Yue, le sucre‑oignon traversa les flux migratoires vers Hong Kong, le Fujian, puis s’enracina à Taïwan[^2].
 
-Dans les anciennes coutumes du Teochew, le Tang-sung jouait également un rôle éducatif. Le premier jour d'école, les enfants offraient des crêpes de Tang-sung en offrande au portrait de Confucius ; la structure « creuse » symbolisait « l'ouverture de l'esprit et de l'intelligence », représentant la clarté de l'esprit et l'amour de l'étude[^16][^17]. Un chant populaire humoristique circulait même à propos des premiers jours d'école : « Premier jour, le Tang-sung est sucré ; deuxième jour, la baguette de bambou pleine (les coups du maître) ; troisième jour, on se cache ; quatrième jour, on ne nous retrouve plus[^16]. »
+Dans les coutumes anciennes de la région de Chao‑Shan, le sucre‑oignon jouait également un rôle éducatif. Le premier jour d’école, les enfants offraient une crêpe fine de sucre‑oignon en hommage à Confucius ; sa structure creuse symbolisait « l’intelligence qui perce », représentant un esprit clair et avide d’apprentissage[^16][^17]. Un chant populaire humoristique circulait à propos des premiers jours d’école : « Le premier jour le sucre‑oignon est doux, le deuxième jour la baguette de bambou (coup de maître), le troisième jour on se cache, le quatrième jour on ne le retrouve plus »[^16].
 
-## Une douceur interdite : l'« art du déguisement » des paysans
+## Le « tour de passe‑passe » interdit : la technique de camouflage des agriculteurs
 
-L'industrie sucrière taïwanaise a connu son âge d'or sous l'occupation japonaise, mais cette douceur n'appartenait pas aux Taïwanais. Le gouvernement japonais appliquait une politique de protection de la canne à sucre : tout le sucre blanc devait être prioritairement expédié au Japon, et la production ou la dissimulation de sucre par les locaux considérée comme ill étaitégale[^5].
+L’industrie sucrière de Taïwan connut son âge d’or sous la domination japonaise, mais ce sucré n’appartenait pas aux Taïwanais. Le gouvernement japonais appliqua une politique de protection de la canne à sucre ; tout le sucre blanc devait être acheminé en priorité vers le Japon, et la production ou le stockage clandestin de sucre était considéré comme illégal[^5].
 
-Pour préserver une once de douceur, les paysans taïwanais ont fait preuve d'une créativité extrême. Ils ont découvert qu'en étirant de manière répétée le sirop après cuisson, d'innombrables petites bulles d'air se formaient, lui conférant un aspect blanc et creux ; une fois coupé en tronçons, il ressemblait trait pour trait à une tige de ciboule[^5][^6]. Les paysans glissaient ces « ciboules factices » parmi les véritables bottes de ciboule dans leurs paniers, et les patrouilleurs japonais, ne voyant qu'un panier de légumes, ignoraient qu'il recelait de précieux cristaux de sucre[^5]. Ce « sucre de la résistance » s'est ainsi largement répandu dans le folklore taïwanais, recevant les surnoms de « sucre-ciboule blanc » ou « sucre de la prospérité »[^1][^5].
+Pour préserver une bouchée de douceur, les agriculteurs taïwanais firent preuve d’une créativité extrême. Ils découvrirent qu’en tirant à plusieurs reprises le sirop cuit, d’innombrables micro‑pores se formaient, rendant le produit blanc et creux, ressemblant à une tige d’oignon après découpage[^5][^6]. Les agriculteurs mélangeaient ces « oignons factices » avec de véritables oignons verts dans les paniers ; les patrouilles policières ne voyaient que des légumes, ignorant la précieuse teneur en sucre dissimulée[^5]. Cette « sucre de la résistance » se répandit largement dans le folklore taïwanais, acquérant les surnoms de « sucre‑oignon blanc » ou « sucre de la prospérité »[^1][^5].
 
-## La précision du 16+16 : une symphonie de physique et de chimie
+## L’artisanat 16 + 16 : une symphonie physique et chimique
 
-Ce qui rend le Tang-sung si fascinant, ce n'est pas sa teneur en sucre, mais cette texture unique qui « se brise au moindre pli et fond instantanément en bouche ». Cette propriété physique découle d'une structure interne d'une complexité remarquable.
+Ce qui rend le sucre‑oignon fascinant n’est pas tant son degré de douceur que sa texture unique « se casse d’un seul pli, fond instantanément en bouche ». Cette particularité provient d’une structure interne extrêmement complexe.
 
-La fabrication du Tang-sung nécessite de mélanger du sucre blanc, de l'eau et du maltose dans des proportions précises, puis de chauffer le tout à une température rigoureusement contrôlée entre 120 °C et 130 °C[^3]. Lorsque la pâte sucrée est accrochée à un pieu de bois et étirée de manière répétée, les chaînes moléculaires du sucre sont forcées de se réorganiser, emprisonnant des milliers de microbulles d'air[^3].
+La fabrication du sucre‑oignon nécessite de mélanger du sucre blanc, de l’eau et du maltose selon des proportions précises, puis de chauffer à 120 °C–130 °C[^3]. Lorsque la pâte sucrée est suspendue sur un pieu et tirée à plusieurs reprises, les chaînes moléculaires du sucre sont réarrangées, emprisonnant des dizaines de milliers de minuscules bulles d’air[^3].
 
-| Étape de fabrication  | Changements physiques et chimiques                                             | Objectif clé                                                                       |
-| :-------------------- | :----------------------------------------------------------------------------- | :--------------------------------------------------------------------------------- |
-| **Cuisson du sucre**  | Transformation partielle des molécules de saccharose à 120-130 °C              | Garantir au sirop une extensibilité et une dureté suffisantes[^3]                  |
-| **Refroidissement**   | La pâte atteint le point critique entre l'état vitreux et l'état caoutchouteux | Saisir la fenêtre dorée de traction à l'état semi-solide[^3]                       |
-| **Traction du sucre** | Incorporation d'air ; le sucre devient blanc par diffusion optique             | Former une structure poreuse, augmenter le volume et le croquant[^1][^3]           |
-| **Pliage**            | 16 pliages formant une structure alvéolaire                                    | Constituer le soutien précis des 16 grandes cavités et des 16 petites cavités[^14] |
+| Étape de fabrication | Transformation physique et chimique                                              | Objectif clé                                                            |
+| :------------------- | :------------------------------------------------------------------------------- | :---------------------------------------------------------------------- |
+| **Cuisson**          | Les molécules de saccharose se transforment partiellement entre 120 °C et 130 °C | Garantir à la pâte sucrée une élasticité et une dureté suffisantes[^3]  |
+| **Refroidissement**  | La pâte atteint les points critiques « verre » et « caoutchouc »                 | Saisir la période optimale de traction du sucre semi‑solide[^3]         |
+| **Tirage**           | Incorporation d’air ; diffusion optique rend la pâte blanche comme neige         | Créer une structure poreuse, augmenter le volume et le croquant[^1][^3] |
+| **Pliage**           | 16 pliages forment une structure alvéolaire                                      | Soutenir les 16 grands pores et les 16 petits pores avec précision[^14] |
 
-Un Tang-sung de qualité doit présenter, en coupe transversale, une structure de « 16 grandes cavités, chacune entourée de 16 petites cavités »[^14]. Cette architecture minutieuse le rend extrêmement friable sous la pression ; au moment de la morsure, le craquement produit par le relâchement de la pression atmosphérique est un son qu'aucun bonbon fabriqué industriellement ne peut reproduire.
+Un sucre‑oignon conforme doit présenter, en coupe transversale, « 16 grands pores, chacun entouré de 16 petits pores »[^14]. Cette architecture précise rend le sucre‑oignon très fragile sous contrainte ; la libération de pression d’air au moment de la morsure produit un craquement net, impossible à reproduire par des machines.
 
-| Nom de l'artisanat                   | Procédé principal                                                    | Caractéristiques de texture                      | État physique                                                     |
-| :----------------------------------- | :------------------------------------------------------------------- | :----------------------------------------------- | :---------------------------------------------------------------- |
-| **Tang-sung**                        | Cuisson à haute température + traction et pliage en 16 fois          | Croquant, ne colle pas aux dents, fond en bouche | Tubes creux durs et cassants[^18][^19]                            |
-| **Cheveux de dragon (Long-xu-tang)** | Pâte de sucre cuit + poudre amidonnée + étirage des milliers de fois | Moelleux, fin comme un fil de soie               | Fils extrêmement fins, fourrés[^18][^19]                          |
-| **Sucre peint (Hua-tang)**           | Sucre cuit + coulée et tracé au cuivre                               | Dur et cassant, semblable à une sucette          | Motifs en deux dimensions[^19]                                    |
-| **Soufflé de sucre (Chui-tang)**     | Boule de sucre + soufflage et modelage                               | Fin et cassant, creux                            | Formes en trois dimensions (signes du zodiaque, par exemple)[^19] |
+## Le sucre‑oignon parmi les autres confiseries traditionnelles
 
-## Les maîtres gardiens de la saveur d'antan
+Dans les temples ou les vieilles rues de Taïwan, on rencontre souvent diverses confiseries traditionnelles. Bien que les ingrédients soient similaires, les techniques et les textures diffèrent nettement :
 
-Avec le développement de l'industrie agroalimentaire, le tirage manuel du Tang-sung, exigeant en main-d'œuvre et tributaire des conditions climatiques, est au bord de l'extinction. Quelques maîtres artisans à Taïwan perpétuent encore cet art :
+| Nom de l’art           | Processus central                                 | Caractéristique de texture                      | État physique                                 |
+| :--------------------- | :------------------------------------------------ | :---------------------------------------------- | :-------------------------------------------- |
+| **Sucre‑oignon**       | Cuisson à haute température + 16 pliages tirés    | Croquant, non collant, fond instantanément      | Tube creux dur et croustillant[^18][^19]      |
+| **Dragon’s Beard**     | Gelée cuite + poudre cuite + étirement millénaire | Doux, soyeux comme des filaments de vers à soie | Filaments très fins, fourrés[^18][^19]        |
+| **Dessins en sucre**   | Cuisson + coulée sur plaque de cuivre             | Dur, semblable à une sucette                    | Motifs plats[^19]                             |
+| **Soufflage de sucre** | Boule de sucre + tube de souffle modelé           | Fine, creuse                                    | Formes tridimensionnelles (ex. zodiacal)[^19] |
 
-- **Wujie, Yilan** : le maître Tsouo Tchouang-tching, héritier d'une tradition transmise sur trois générations, donne quotidiennement son « marathon sucré » au Centre des arts traditionnels[^12].
-- **Madou, Tainan** : le maître Chen Heng-hsiung, qui tire le sucre à la main depuis plus de quarante ans, insiste sur le fait qu'il s'agit d'un combat entre force physique et maîtrise de la température[^11].
-- **Vieille rue de Sanxia** : un maître Tsouo (même lignée), qui préserve cette saveur d'antan dans les rues au charme historique[^7].
-- **Tamsui et Chiayi** : d'autres maîtres, autodidactes ou héritiers familiaux, persistent dans la fabrication entièrement manuelle, malgré les contraintes de l'humidité et de la température[^9][^13].
+## Les maîtres qui préservent le goût d’antan
 
-## Conclusion : la résilience dans la douceur
+Avec le développement de l’industrie agroalimentaire, la confection laborieuse et climatiquement sensible du sucre‑oignon artisanal est menacée de disparition. Aujourd’hui, quelques maîtres continuent de perpétuer cet art :
 
-L'histoire du Tang-sung est, par essence, une histoire de « résilience ». Né de l'oppression, élevé dans la pénurie, il a survécu aux vagues de la gastronomie moderne grâce à ce savoir-faire de traction du sucre qu'aucune machine ne peut remplacer. Lorsque vous croquez dans un morceau de Tang-sung et entendez ce craquement net, la douceur qui se dégage porte en elle l'ingéniosité populaire des paysans taïwanais d'il y a un siècle, refusant de plier dans leur « résistance sucrée ».
+- **Wujie, Wujie** : maître Zhuo Chuang‑qing, trois générations, présente quotidiennement le « marathon sucré » au Centre des arts traditionnels d’Ilan[^12].
+- **Madu, Tainan** : maître Chen Heng‑xiong, plus de quarante ans de tirage à la main, insiste sur le combat entre force physique et température[^11].
+- **Vieille rue de Sanxia** : maître Zhuo (lignée familiale), garde ce goût ancien dans les ruelles pittoresques[^7].
+- **Tamsui et Chiayi** : d’autres maîtres autodidactes ou transmis de génération en génération, persévèrent malgré l’humidité et les variations de température[^9][^13].
+
+## Conclusion : la résilience dans la douceur
+
+L’histoire du sucre‑oignon est avant tout une histoire de « résilience ». Né sous la contrainte, il a grandi dans la pénurie, et a survécu aux vagues de la gastronomie moderne grâce à une technique de tirage du sucre impossible à automatiser. Lorsque vous mordez dans un sucre‑oignon et entendez ce craquement net, vous goûtez à la sagesse populaire des agriculteurs taïwanais qui, il y a plus d’un siècle, refusèrent de se soumettre à la « résistance sucrée ».
 
 ---
 
-## Pour aller plus loin
+## Lectures complémentaires
 
-- [Le Croissant d'or (Jin-niu-jiao)](/food/金牛角) — Une autre pâtisserie taïwanaise porteuse de mémoire locale, diffusée depuis la vieille rue de Sanxia à l'ensemble de l'île
+- [角牛角](/food/金牛角) — Un autre dessert taïwanais qui porte la mémoire locale, originaire de la vieille rue de Sanxia et diffusé à travers l’île
 
 ## Références
 
-[^1]: [Tang-sung](https://zh.wikipedia.org/zh-tw/%E7%B3%96%E8%94%A5) — Wikipédia, l'encyclopédie libre
+[^1]: [Sucre‑oignon](https://zh.wikipedia.org/zh-tw/%E7%B3%96%E8%94%A5) — Wikipédia, l’encyclopédie libre
 
-[^2]: [Lever le voile sur les mystères du Tang
+[^2]: [Dévoiler le voile mystérieux du sucre‑oignon](https://www.facebook.com/Luefuee72/posts/345718593589696/) — FB : Astuces de pâtisserie, 2020
+
+[^3]: [Processus artisanal du sucre‑oignon à Hong Kong](https://www.facebook.com/CantoneseMuseum/videos/1611628252180714/) — FB : Musée cantonais, 2016
+
+[^4]: [Le sucre‑oignon était à l’origine une douceur de la région de Chao‑Shan](https://www.facebook.com/TreasureDo/videos/5630256576993866/) — FB : Treasure Do, 2021
+
+[^5]: [La résistance sucrée de Taïwan : le « sucre‑oignon » né sous la répression japonaise](https://time.udn.com/udntime/story/122390/7227349) — Time UDN, 2023
+
+[^6]: [L’origine du sucre‑oignon ? Une réaction aux persécutions japonaises](https://baodao.setn.com/news/669886) — SETN, 2020
+
+[^7]: [Trois générations d’artisans, le maître Zhuo de Sanxia et le sucre‑oignon](https://smiletaiwan.cw.com.tw/article/2055) — Sourire Taïwan
+
+[^8]: [Le goût sucré des souvenirs : « les années du sucre d’or »—sucre‑oignon](https://www.taiwan-panorama.com/Articles/Details?Guid=77724d4d-cb1f-41e9-8970-53146e6fde7a&CatId=10) — Taiwan Panorama
+
+[^9]: [Documentaire sur le sucre‑oignon traditionnel de Chia‑li Chen](https://www.youtube.com/watch?v=IhFyyhqbI6w) — YouTube
+
+[^10]: [Les crêpes de Chao‑Shan similaires aux rouleaux de printemps taïwanais](https://big5.cri.cn/gate/big5/taiwan.cri.cn/20230406/c3f26f11-2860-7152-4760-31897e48f489.html) — CRI, 2023
+
+[^11]: [Un fil tiré, mille fils, le vieux goût du sucre‑oignon](https://enews.ccu.edu.tw/p/405-1089-74286,c178.php?Lang=zh-tw) — E‑News CCU, 2025
+
+[^12]: [Le tirage passionné du maître Zhuo de Sanxia](https://www.thecan.com.tw/tw/log/detail/651) — Ganle Culture Créative
+
+[^13]: [Le maître du sucre‑oignon blanc crée des souvenirs anciens](https://www.peopo.org/news/333349) — PeoPo, 2017
+
+[^14]: [Le sucre‑oignon le plus spécial du monde : structure 16 + 16](https://www.facebook.com/yahoofoodtw/videos/2218443921554312/) — Yahoo ! Cuisine Taïwan, 2019
+
+[^15]: [Coutumes de Chao‑Shan – Gâteau fin de Qingming (mention de Guo Zizhang, _Chaozhong Zaji_)](https://www.threads.com/@hktcca/post/DWfmR_skWsy/) — Threads, 2026
+
+[^16]: [Coutume de l’entrée à l’école avec le sucre‑oignon et le culte de Confucius](https://www.facebook.com/LKCSHENGHONGTEMPLE/posts/8135518059822690/) — FB : Temple de la ville de Jiu Cai Ba
+
+[^17]: [Culture de table de Chao‑Shan et le sucre‑oignon lors du culte de Confucius](https://www.instagram.com/p/C1eNC_HrCfs/) — Instagram
+
+[^18]: [Analyse des différences entre le dragon’s beard et le sucre‑oignon](https://www.facebook.com/100063838728512/posts/713596059058093/) — FB : Tang Nianxiang
+
+[^19]: [Comparaison des techniques de confiserie traditionnelle à Hong Kong](https://www.heritageconn.com/snack/) — HeritageConn
+
+[^20]: [Le premier fauteuil du monde du sucre‑oignon : interview du maître Zhuo](https://podcasts.apple.com/us/podcast/s3%E7%92%B0%E5%B3%B6%E5%AD%A3-ep20-%E7%B3%96%E8%94%A5%E7%9A%84%E7%AC%AC%E4%B8%80%E6%8A%8A%E4%BA%A4%E6%A4%85/id1532592237?i=1000521103499) — Apple Podcasts

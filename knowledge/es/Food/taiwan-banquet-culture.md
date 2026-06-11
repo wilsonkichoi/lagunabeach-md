@@ -19,11 +19,18 @@ category: 'Food'
 readingTime: 12
 lastVerified: 2026-06-07
 lastHumanReview: false
+researchReport: 'reports/research/2026-06/台灣辦桌文化.md'
+viewpoint_formed: true
+image: '/article-images/food/bando-ghost-festival-banquet-2017.jpg'
+imageAlt: 'Banquete comunitario bando nocturno en el patio del templo, mesas redondas con mantel rosado llenas de personas, meseros sirviendo platos en los pasillos, linternas rojas colgando en lo alto'
+imageCredit: '玄史生 / Wikimedia Commons'
+imageLicense: 'CC0 1.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:The_End_of_Ghost_Festival_Party_at_Dongsha_Tzufu_Temple_20170919a.jpg'
 translatedFrom: 'Food/台灣辦桌文化.md'
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:b2717c04ac0e7d69'
-translatedAt: '2026-06-10T16:58:37+00:00'
-sourceBodyHash: 'sha256:ad9286b907bc9e14'
+sourceCommitSha: 'b0e441fa'
+sourceContentHash: 'sha256:6c62955e72fc8718'
+sourceBodyHash: 'sha256:6086cefc9be2fccc'
+translatedAt: '2026-06-11T16:38:50Z'
 ---
 
 # Taiwanese Bando: The Martial Field That Sets Tables in the Rain, and a Human-Ghost-Divinity Trinity Fading Away

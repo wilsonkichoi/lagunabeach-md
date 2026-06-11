@@ -1,243 +1,244 @@
 ---
-title: 'Environmental Justice and NIMBY Controversies in Taiwan'
-description: 'Explores the phenomenon of unequal distribution of environmental burdens in Taiwan, analyzing environmental inequality and social justice issues through the lens of NIMBY conflicts involving incinerators, nuclear waste, and the petrochemical industry.'
+title: '台湾の環境正義とニンビー問題'
+description: '台湾における環境負荷の分配不均等現象を、ごみ焼却炉、核廃棄物から石油化学産業に至るニンビー（NIMBY）紛争を通じて考察し、環境不平等の問題と社会的公正の課題を分析する'
 date: 2026-03-20
-tags:
-  [
-    'Environmental Justice',
-    'NIMBY Effect',
-    'Environmental Inequality',
-    'Social Justice',
-    'Incinerators',
-    'Nuclear Waste',
-    'Petrochemical Industry',
-  ]
-subcategory: 'Social Movements'
 author: 'Taiwan.md Contributors'
 category: 'Society'
+subcategory: '社會運動'
+tags:
+  [
+    '環境正義',
+    'ニンビー効果',
+    '環境不平等',
+    '社会的公正',
+    'ごみ焼却炉',
+    '核廃棄物',
+    '石油化学産業',
+  ]
 readingTime: 13
 lastVerified: 2026-03-20
 lastHumanReview: false
+featured: false
 translatedFrom: 'Society/台灣環境正義與鄰避爭議.md'
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:ca7f70cdde7f6b9f'
-sourceBodyHash: 'sha256:81936e65730d0960'
-translatedAt: '2026-06-10T16:57:27Z'
+sourceCommitSha: '44238bb4f'
+sourceContentHash: 'sha256:ccdec2fddd52cf2e'
+sourceBodyHash: 'sha256:25150a865ae0a680'
+translatedAt: '2026-06-12T00:53:02+08:00'
 ---
 
-# Environmental Justice and NIMBY Controversies in Taiwan
+# 台湾の環境正義とニンビー問題
 
-Environmental Justice focuses on the fairness of the distribution of environmental burdens and environmental benefits. In Taiwan, environmental problems arising during the process of industrial development are often concentrated in specific regions and among specific groups, forming a phenomenon of "environmental inequality." From garbage incinerators and nuclear waste disposal to petrochemical industrial parks, these necessary but risky facilities always trigger NIMBY (Not In My Back Yard) controversies, reflecting deep-seated contradictions in the distribution of environmental risks within Taiwanese society.
+環境正義（Environmental Justice）とは、環境負荷と環境利益の分配の公平性を問う概念である。台湾では、工業化の過程で生じた環境問題が特定の地域や特定の集団に集中し、「環境不平等」という現象を形成してきた。ごみ焼却炉、核廃棄物の処理施設から石油化学工業団地に至るまで、必要ではあるもののリスクを伴うこれらの施設は、常にニンビー（NIMBY, Not In My Back Yard）問題を引き起こし、台湾社会における環境リスク分配の深層矛盾を映し出している。
 
-## Theoretical Foundations of Environmental Justice
+## 環境正義の理論的基礎
 
-### Unequal Distribution of Environmental Burdens
+### 環境負荷の分配不均等
 
-The core concept of environmental justice is "distributive fairness." Ideally, environmental benefits (such as clean air and beautiful landscapes) and environmental burdens (such as pollution facilities and health risks) should be distributed evenly. In reality, however, environmental burdens are often concentrated in specific areas, usually communities with economic disadvantages and limited political influence.
+環境正義の核心概念は「分配の公平性」である。理想状態においては、環境利益（清浄な空氣、美しい景観など）と環境負荷（汚染施設、健康リスクなど）は均等に分配されるべきである。しかし現実には、環境負荷は特定の地域、とりわけ経済的に弱い立場にあり政治的影響力の小さい地域社会に集中する傾向がある。
 
-The distribution of environmental burdens in Taiwan is clearly unequal. The Liucheng Petrochemical Industrial Park is located in Maiqiao Township, Yunlin County, where the local economy is primarily based on agriculture and fisheries, and residents have low incomes. The Kaohsiung Linhai Industrial Zone is located in Xiaogang District, where the population density is high but political influence is limited. This distribution model reflects the "principle of least resistance to capacity"—pollution facilities tend to be located where opposition is minimal.
+台湾における環境負荷の分配は明らかに不均等である。六軽（リウチン）石油化学工業団地は雲林県麦寮郷に位置し、地元は農漁業を主としており住民所得は低い。高雄臨海工業団地は小港区に設置されており、人口密度は高いが政治的影響力は限定的である。このような分配パターンは「最小抵抗の原則」——汚染施設は反対の声が最も小さい場所に設置されやすい——を反映している。
 
-### Procedural Justice and the Right to Participate
+### 手続的正義と参加権
 
-In addition to distributive fairness, environmental justice emphasizes "procedural justice," meaning that all affected groups should have equal opportunities to participate in environmental decision-making. However, Taiwan's environmental impact assessment (EIA) system has long focused on technical assessments, neglecting public participation.
+分配の公平性に加え、環境正義は「手続的正義」も重視する。すなわち、影響を受けるすべての集団が環境意思決定に平等に参加する機会を持つべきである。しかし台湾の環境影響評価制度は長らく技術的評価を重視し、住民参加を軽視してきた。
 
-Residents often only learn about facilities after their location has been determined, lacking opportunities for prior participation in decision-making. Even when public hearings are held, they often become mere formalities, with public opinion failing to truly influence decision outcomes. This "decide first, communicate later" model is a major cause of NIMBY controversies.
+住民が施設の設置決定を知らされるのは、多くの場合、決定がなされた後である。事前に意思決定に参加する機会が欠如している。公聴会が開催されても、その多くは形式的なものにとどまり、民意が意思決定の結果に実質的に反映されることは難しい。「決定してから説明する」というパターンが、ニンビー紛争の重要な原因となっている。
 
-### Intergenerational Justice and Risk Bearing
+### 世代間正義とリスクの負担
 
-Environmental justice also involves fairness between generations. The half-life of nuclear waste lasts for tens of thousands of years; the current generation enjoys the benefits of nuclear power, but the risks are borne by future generations. Similarly, industrial development brings economic growth, but the environmental costs may persist for decades.
+環境正義は世代間の公平性にも関わる。核廃棄物の半減期は数万年に及び、現代の世代が原子力発電の恩恵を受ける一方で、リスクは将来の世代に転嫁される。同様に、工業化は経済成長をもたらすが、環境へのコストは数十年にわたって継続しうる。
 
-The traditional territories of Indigenous peoples often become sites for waste disposal, such as the nuclear waste storage on Lanyu (Orchid Island) and garbage landfills in mountain townships. These decisions were often made in eras when Indigenous peoples lacked political voice, yet their impacts continue to this day, forming a "colonial environmentalism."
+先住民族の伝統的領域が廃棄物処理場所となるケースが多い。蘭嶼（ランユー）の核廃棄物貯存施設、山間部のごみ埋立地などがその例である。これらの意思決定は、先住民族が政治的な発言力を持たない時代になされたが、その影響は現在まで続いており、「植民地的環境主義」を形成している。
 
-## The NIMBY Dilemma of Waste Management
+## ごみ処理のニンビー的困難
 
-### Incinerator Siting Controversies
+### ごみ焼却炉の立地をめぐる紛争
 
-The construction of garbage incinerators in Taiwan has been filled with NIMBY protests. During the promotion of the "one incinerator per county/city" policy in the 1990s, almost every incinerator faced strong opposition. The resistance against the Xindian Anhang Incinerator was the most intense; local residents formed a self-help association and conducted a ten-year opposition movement.
+台湾におけるごみ焼却炉の建設過程は、ニンビー運動に満ちている。1990年代の「一県一焼却炉」政策推進時には、ほぼすべての焼却炉で激しい反対運動が起きた。新店安坑焼却炉の反対運動は最も激しく、地元住民は自救会を組織し、10年にわたる反対運動を展開した。
 
-Reasons for opposition include health risks, declining property values, and reduced quality of life. Dioxin emissions are the greatest concern. Although the dioxin emissions of modern incinerators have dropped to extremely low levels, public fear of "toxins" is difficult to eliminate. The mindset of "not in my backyard" is understandable, but garbage must be disposed of somewhere.
+反対の理由には、健康リスク、不動産価格の下落、生活の質の低下が挙げられる。ダイオキシン排出が最大の懸念事項であり、新型焼却炉のダイオキシン排出量は極めて低い水準にまで低下しているものの、住民の「有毒物質」への恐怖は容易に解消しない。「自分の裏庭には来てほしくない」という心情は理解できるが、ごみにはどこかで処理する場所が必要である。
 
-The government has attempted to resolve controversies using feedback funds. Townships where incinerators are located can receive feedback funds of tens of New Taiwan Dollars per ton of garbage for local construction. However, monetary compensation cannot fully alleviate concerns about environmental risks, and the fairness of the feedback mechanism is also questioned.
+政府は補償金によって紛争の解決を図った。焼却炉が立地する郷鎮は、ごみ1トンあたり数十元（台湾ドル）の補償金を受け取り、地域建設に充てることができる。しかし金銭的補償だけでは環境リスクへの懸念を完全に解消することはできず、補償メカニズムの公平性自体も疑問視されている。
 
-### Cross-County Waste Processing
+### ごみの跨県市処理
 
-Taipei City sends garbage to New Taipei City for processing, and New Taipei City sends garbage to Taoyuan, creating a phenomenon of "garbage travel." While this cross-regional processing solves the immediate problems of each county and city, it also triggers new unfairness issues.
+台北市のごみは新北市で処理され、新北市のごみは桃園で処理されるという「ごみの旅」現象が生じている。この跨域処理は各県市の差し迫った問題を解決する一方で、新たな不公平の問題を引き起こしている。
 
-Landfills in remote mountainous areas become the final destination for urban garbage. Mountain townships such as Wulai, Sanxia, and Shihden have small populations and limited political influence, often becoming the proposed sites for garbage landfills. Local residents protest, "Why must we bear the garbage created by urban people?"
+山間部の埋立地が都市部のごみの最終処分場となっている。烏来、三峡、石碇などの山間部郷鎮は、人口が少なく政治的影響力が限定的であることから、ごみ埋立地の予定地となりやすい。地元住民は「なぜ都市部の人が出したごみを我々が負担しなければならないのか」と抗議している。
 
-The distribution of waste processing costs is also unfair. Counties and cities that generate garbage pay processing fees, but the counties and cities bearing the environmental risks often receive compensation that is disproportionate. The principle of "polluter pays" is difficult to implement in cross-county garbage processing.
+ごみ処理費用の分配も不公平である。ごみを出す県市が処理費用を支払うが、環境リスクを負担する県市が得る補償は不釣り合いなことが多い。この「受益者負担」の原則は、跨域ごみ処理において実現が困難である。
 
-### Class Differences in Recycling
+### 資源回収における階層差
 
-The impact of waste reduction policies differs across socioeconomic classes. Middle-to-high-income families can purchase better products with less packaging, resulting in relatively less garbage. Low-income families often buy cheap goods with more packaging materials, resulting in larger amounts of garbage.
+ごみ減量政策が異なる社会経済階層に与える影響は異なる。中所得・高所得家庭は包装の少ない良質な製品を購入できるため、ごみ量が比較的少ない。低所得家庭は安価な商品を購入する傾向があり、包装材料が多くごみ量が多くなりやすい。
 
-The burden of recycling is also uneven. Street scavengers are mostly economically disadvantaged elderly people who engage in dangerous and dirty recycling work but earn meager incomes. Middle-to-high-income families enjoy the benefits of a clean environment, while the labor costs of recycling are borne by the bottom layer of society.
+資源回収の負担も不均等である。路上で資源回収に従事する人の多くは、経済的に弱い立場の高齢者であり、危険で不衛生な回収作業に従事しながらわずかな収入しか得ていない。中所得・高所得家庭は清潔な環境の恩恵を享受しながら、回収の労働コストは低所得層が負担している。
 
-## Ethnic Controversies in Nuclear Waste Disposal
+## 核廃棄物処理をめぐる民族間の紛争
 
-### The Lanyu Nuclear Waste Incident
+### 蘭嶼核廃棄物事件
 
-The Lanyu Nuclear Waste Storage Site is a classic case of environmental justice controversy in Taiwan. In 1982, Taipower set up a low-level radioactive waste storage site on Lanyu, but did not fully inform the Tao people residents of the radiation risks. It was claimed at the time to be a "fish canning factory," and the Tao people accepted the nuclear waste without knowing.
+蘭嶼核廃棄物貯存施設は、台湾の環境正義をめぐる紛争の典型的な事例である。1982年、台湾電力公司（台電）は蘭嶼に低レベル放射性廃棄物貯存施設を設置したが、事前にタオ族（旧称：ヤミ族）の住民に放射線のリスクを十分に説明しなかった。当時は「魚の缶詰工場」と説明され、タオ族の人々は知らないうちに核廃棄物を受け入れることになった。
 
-This event highlights multiple injustices: ethnic injustice (exploiting the vulnerable status of Indigenous peoples), intergenerational injustice (nuclear waste impacts lasting for hundreds of years), informational injustice (concealing true risks), and procedural injustice (lack of true informed consent).
+この事件は、多重の不正義を浮き彫りにしている：民族的不正義（先住民族の弱い立場を利用した）、世代間的不正義（核廃棄物の影響が数百年にわたって続く）、情報的不正義（真のリスクを隠した）、手続的正義の欠如（真の意味での知情同意がなかった）。
 
-The Tao people's resistance has lasted for forty years. They demand the removal of nuclear waste and the restoration of their ancestral land. "Nuclear Waste Out of Lanyu" is not just an environmental demand but also a claim for Indigenous self-determination. Although the government promised to remove the waste, the difficulty in choosing a final disposal site means the nuclear waste remains on Lanyu.
+タオ族の人々の抵抗運動は40年にわたって続いている。核廃棄物の移去と祖霊の土地の回復を求めている。「核廃棄物は蘭嶼から出ていけ」は、単なる環境保全の要求にとどまらず、先住民族の自己決定権の主張でもある。政府は移去を約束してきたが、最終処分場の選定が困難であり、核廃棄物は依然として蘭嶼に滞留している。
 
-### The Dilemma of Final Disposal Site Selection
+### 最終処分場の選定困難
 
-High-level radioactive nuclear waste requires deep geological disposal in geologically stable areas. Taipower commissioned Chung Hsing Engineering to conduct geological surveys, and sites such as Jinshan, Wanli, and Penghu were all listed as candidates, but all faced strong opposition.
+高レベル放射性廃棄物には、地質的に安定した深地層処分が必要である。台電は中興工程に地質調査を委託し、金山、万里、澎湖（ポンフー）などが候補地として挙げられたが、いずれも激しい反対に遭った。
 
-Public fear of nuclear waste is understandable, but the realistic problem of "someone must bear it" cannot be avoided. Countries such as Sweden and Finland have resolved siting issues through volunteer communities, generous feedback, and transparent decision-making processes, but Taiwan's weak social trust foundation makes it difficult to replicate this model.
+住民の核廃棄物への恐怖は理解できるが、「誰かが負担しなければならない」という現実的な問題は避けられない。スウェーデンやフィンランドなどでは、地域社会の自発的な申し出、手厚い補償、透明性のある意思決定を通じて処分場の選定問題を解決してきたが、台湾社会には信頼の基盤が脆弱であり、このモデルをそのまま適用することは難しい。
 
-The screening criteria for candidate sites also trigger controversy. While technical safety is important, social acceptance is equally indispensable. Selecting sites solely based on geological conditions while ignoring local public opinion inevitably triggers protests. Finding a balance between technical rationality and social rationality is a challenge in policy-making.
+候補地の選定基準も議論を呼んでいる。技術的な安全性はもちろん重要だが、社会的受容度も同様に軽視できない。地質的条件のみに基づいて立地を選定し、地元の民意を無視すれば、必ず反対運動が起きる。技術的合理性と社会的合理性の間でいかにバランスを見出すかが、政策立案の課題である。
 
-### The Fair Burden of Nuclear Decommissioning
+### 原子力発電所の廃止における公平な負担
 
-Taiwan's three nuclear power plants are being decommissioned in succession, generating large amounts of low-level radioactive waste. The disposal of these wastes also faces environmental justice issues. Nuclear power plants are mostly located in the north, with electricity mainly supplied to the Taipei metropolitan area, but waste disposal sites may be set up in other counties and cities.
+台湾の3基の原子力発電所が順次廃止され、大量の低レベル放射性廃棄物が発生している。これらの廃棄物の処理も同様に環境正義の問題に直面している。原子力発電所の多くは北部に位置し、電力は主に台北・新北の都市部に供給されているが、廃棄物の処理施設は他の県市に設置される可能性がある。
 
-Decommissioning costs are borne by the entire public, but environmental risks are concentrated in specific areas. This model of socializing costs and localizing risks is a manifestation of environmental injustice in nuclear energy policy. How to make beneficiaries bear corresponding responsibilities requires innovative institutional design.
+廃止費用は全民が負担するが、環境リスクは特定の地域に集中する。コストの社会化とリスクの地域化というパターンは、原子力政策における環境不正義の表れである。受益者が相応の責任を負うためには、制度設計の革新が必要である。
 
-## Environmental Burdens of the Petrochemical Industry
+## 石油化学産業の環境負荷
 
-### Health Risks of the Liucheng Industrial Park
+### 六軽工業団地の健康リスク
 
-The Liucheng Petrochemical Industrial Park in Maiqiao, Yunlin, is Taiwan's largest petrochemical base, with an annual output value exceeding NT$2 trillion. However, the park also brings severe environmental burdens: air pollution, water pollution, soil pollution, and health risks.
+雲林県麦寮の六軽石油化学工業団地は、台湾最大の石油化学の拠点であり、年間生産額は台湾ドル2兆元を超える。しかし、この団地は深刻な環境負荷ももたらしている：大気汚染、水質汚染、土壌汚染、健康リスク。
 
-Research by the College of Public Health at National Taiwan University found that the cancer incidence rate among residents near Liucheng is significantly higher. The incidence rates of lung cancer and liver cancer are 20-30% higher than the national average. The incidence rates of childhood asthma and allergies are also significantly higher. These health risks are mainly borne by local residents, while economic benefits are mainly obtained by enterprises and shareholders.
+台湾大学公衆衛生学院の研究では、六軽周辺住民の発がん率が有意に高いことが明らかになっている。肺がん、肝がんの発生率は全国平均より20〜30%高い。小児の喘息、アレルギーの発生率も明らかに高い。これらの健康リスクは主に地元住民が負担しているが、経済的利益は主に企業と株主が享受している。
 
-Air pollution from Liucheng has a wide impact range. Pollutants such as PM2.5, sulfur dioxide, and nitrogen oxides spread with the wind, affecting neighboring counties such as Changhua and Nantou. Air quality monitoring by the Environmental Protection Administration shows that air pollution concentrations in Yunlin have long exceeded standards.
+六軽の大気汚染の影響範囲は広い。PM2.5、二酸化硫黄、窒素酸化物などの汚染物質は風に乗って拡散し、彰化、南投などの隣接県市に影響を及ぼしている。環境保護署の大気質モニタリングによれば、雲林地域の大気汚染濃度は長期間にわたり基準値を超えている。
 
-### The Dalinpu Relocation Controversy
+### 大林蒲の移転をめぐる紛争
 
-The Dalinpu area in Kaohsiung is surrounded by petrochemical industrial parks, and residents have been exposed to air pollution for a long time. The government's promotion of the Dalinpu relocation plan has been slow, triggering resident dissatisfaction.
+高雄の大林蒲地区は石油化学工業団地に囲まれており、住民は長年大気汚染にさらされてきた。政府は大林蒲の移転計画を推進しているが、進展は遅く、住民の不満を招いている。
 
-Relocation compensation standards are the focus of controversy. The government purchases houses at market prices, but residents believe the compensation is insufficient to purchase equivalent housing elsewhere. Elderly residents are reluctant to leave their hometowns, while young people worry about employment issues. Relocation involves the reconstruction of the entire community, not just house buying and selling.
+移転補償の基準が紛争の焦点となっている。政府は市場価格で住宅を買い取るが、住民は補償額では他の場所で同等の住宅を購入できないと考えている。高齢住民は故郷を離れたがらず、若年層は雇用問題を懸念している。移転はコミュニティ全体の再建を伴う問題であり、単なる不動産の売買ではない。
 
-Living arrangements during temporary relocation are also a difficult problem. Schooling for children, medical care for the elderly, and work commutes all need to be rearranged. The government's resettlement plan lacks details, and residents lack a sense of certainty about their future lives.
+仮移転期間中の生活安排も難題である。子どもの就学、高齢者の医療、通勤手段などを再整備する必要がある。政府の移転計画は詳細を欠いており、住民は将来の生活に対する確信を持てない。
 
-### Transparency of Environmental Monitoring
+### 環境モニタリングの透明性
 
-Environmental monitoring in the petrochemical industry is often conducted by the enterprises themselves, and the credibility of the monitoring results is questioned. The public demands that the government set up independent monitoring stations, but the professional threshold for interpreting monitoring data is high, making it difficult for ordinary citizens to judge.
+石油化学産業の環境モニタリングは企業が自主的に実施することが多く、モニタリング結果の信頼性が疑問視されている。住民は政府による独立したモニタリングステーションの設置を求めているが、モニタリングデータの解釈には専門的な知識が必要であり、一般住民が判断することは難しい。
 
-The tracking and supervision mechanism for environmental impact assessments is weak. Many EIA commitments in industrial zones are difficult to verify afterwards, and penalties for violations are insufficient. The public lacks confidence in government regulatory capabilities, deepening distrust of industrial facilities.
+環境影響評価の追跡監督メカニズムは不十分である。多くの工業団地の環境評価における約束は、事後の確認が困難であり、違反に対する罰則も不十分である。住民は政府の監督能力に信頼を寄せておらず、工業施設への不信感を深めている。
 
-Citizen monitoring movements have emerged. Organizations such as the Changhua Environmental Protection Alliance and the Yunlin Environmental Protection Alliance purchase their own monitoring equipment to conduct air quality monitoring. This citizen science compensates for the shortcomings of official monitoring but also reflects the lack of government regulation.
+市民モニタリング運動が広がっている。彰化環境保護連盟、雲林環境保護連盟などの団体が独自にモニタリング機器を購入し、大気質のモニタリングを実施している。このような市民科学は公式のモニタリングの不足を補っているが、同時に政府の監督体制の欠如をも反映している。
 
-## Social Distribution of Environmental Risks
+## 環境リスクの社会的分配
 
-### Class and Environmental Exposure
+### 階層と環境への曝露
 
-Environmental risks in Taiwan are clearly related to social class. Housing near industrial zones is mostly inhabited by middle-to-low-income families because housing prices are low and rents are cheap. High-income families live in areas with better environments, such as hillside residential areas and seaside villa districts.
+台湾における環境リスクは、社会階層と明らかに関連している。工業団地周辺の住宅は、不動産価格や家賃が安いため、中所得・低所得世帯が居住する傾向がある。高所得世帯は、環境の良い地域、例えば山腹の住宅街や海辺の別荘地などに住んでいる。
 
-Occupational environmental exposure also has class differences. Blue-collar workers such as factory operators, construction workers, and sanitation workers are exposed to higher environmental risks. White-collar workers work in air-conditioned offices, with relatively lower environmental exposure.
+職業的な環境曝露にも階層差がある。工場作業員、建設作業員、清掃作業員などのブルーカラー労働者は、より高い環境リスクにさらされている。ホワイトカラー労働者はエアコンの効いたオフィスで働くため、環境曝露は比較的低い。
 
-Educational level affects environmental risk perception. Highly educated people are more likely to understand environmental risks and have more ability to take protective measures. People with lower educational levels may underestimate risks or be unable to move away from high-risk areas due to economic considerations.
+教育水準は環境リスクの認知に影響する。高学歴の住民は環境リスクをよりよく理解し、防護措置を講じる能力も高い。低学歴の住民はリスクを過小評価する可能性があり、あるいは経済的な理由で高リスク地域から移ることができない。
 
-### Urban-Rural Environmental Gap
+### 都市と農村の環境格差
 
-Urban areas enjoy better environmental quality and public services. Public transportation is developed, green spaces are abundant, and medical resources are sufficient. Rural areas often bear the environmental burdens produced by cities: garbage landfills, sewage treatment plants, and thermal power plants are mostly set up in rural areas.
+都市部では、より良い環境品質と公共サービスが享受されている。公共交通機関が発達し、緑地が多く、医療資源も充実している。一方、農村部は都市が生み出す環境負荷を負担することが多い：ごみ埋立地、下水処理場、火力発電所などが農村に設置されやすい。
 
-The environmental monitoring network in rural areas is sparser, making it difficult to discover pollution incidents in time. Medical resources are insufficient, making it difficult to handle environmental health risks in time. Farmers may continue to farm on polluted land due to economic considerations.
+農村部の環境モニタリングネットワークは希薄であり、汚染事件の早期発見が難しい。医療資源も不足しており、環境健康リスクへの迅速な対応が困難である。農家は経済的な理由から、汚染された土地で農業を続けざるを得ない場合もある。
 
-Environmental justice issues in the process of urbanization are also worth attention. Urban renewal often moves low-income residents to areas with poorer environments. Soil pollution remediation of industrial sites is often borne by the public sector, but the land value appreciation benefits are obtained by private entities.
+都市化の過程における環境正義の問題も注目に値する。都市再開発では、低所得住民が環境の悪い地域に移転させられることが多い。工業跡地の土壌汚染の浄化費用は公的部門が負担する一方で、土地の增值利益は私人が享受する。
 
-### Ethnic and Environmental Justice
+### 民族と環境正義
 
-Indigenous areas often become the proposed sites for environmental risk facilities. Garbage landfills, nuclear waste storage sites, and large reservoirs in mountain townships all impact the traditional territories of Indigenous peoples.
+先住民族の地域は、環境リスク施設の予定地となりやすい。山間部のごみ埋立地、核廃棄物貯存施設、大型ダムなどが、先住民族の伝統的領域に影響を及ぼしている。
 
-There are also ethnic differences in water resource distribution. Indigenous communities in mountain townships often lack safe drinking water, while downstream urban areas have sufficient water. The benefits and cost-bearing of water resources are disproportionate.
+水資源の分配にも民族間の格差がある。山間部の先住民族コミュニティでは安全な飲料水が不足することが多いが、下流の都市部の水供給は十分である。水資源の受益とコスト負担が不均衡である。
 
-Indigenous environmental knowledge and management systems have long been ignored. Traditional natural resource management methods may be more sustainable than modern scientific management, but they lack policy attention.
+先住民族の環境知識と管理制度は長らく軽視されてきた。伝統的な自然資源管理の方法は、現代的な科学的管理よりも持続可能性が高い場合があるが、政策上の重視が欠けている。
 
-## Response Strategies and Institutional Reform
+## 対応策と制度改革
 
-### Reform of the Environmental Impact Assessment System
+### 環境影響評価制度の改革
 
-The current EIA system focuses on technology over society and needs to increase the weight of social impact assessments. The scope of assessment should include aspects such as health risks, social impacts, and cultural impacts. The assessment process should have more opportunities for public participation.
+現行の環境影響評価制度は技術的側面を重視し社会的側面を軽視しており、社会影響評価の比重を高める必要がある。評価の範囲には、健康リスク、社会的影響、文化的影響などの側面を含めるべきである。評価の過程には、より多くの住民参加の機会を設ける必要がある。
 
-The composition of the EIA committee needs to be diversified. In addition to technical experts, social science experts, local representatives, and NGO representatives should be included. The decision-making process should be more transparent, and public opinions should have clear handling procedures.
+環境影響評価委員会の構成は多様化される必要がある。技術専門家に加え、社会科学の専門家、地元住民の代表、NGOの代表を含めるべきである。意思決定の過程はより透明性を高め、住民の意見には明確な対応手続きを設ける必要がある。
 
-The EIA tracking and supervision mechanism needs to be strengthened. Set up independent third-party monitoring institutions to regularly review the implementation of EIA commitments. Penalties for violations should have a deterrent effect and cannot be merely symbolic fines.
+環境影響評価の追跡監督メカニズムを強化する必要がある。独立した第三者モニタリング機関を設置し、環境評価における約束の履行状況を定期的に検証する。違反に対する罰則は抑止力を持つものでなければならず、象徴的な罰金にとどまってはならない。
 
-### Risk Communication Mechanisms
+### リスクコミュニケーションのメカニズム
 
-Establish effective risk communication mechanisms that allow the public to understand and participate in risk decision-making. Risk information should be presented in a way that the public can understand, avoiding technical black boxes.
+効果的なリスクコミュニケーションのメカニズムを構築し、住民がリスクに関する意思決定を理解し、参加できるようにする必要がある。リスク情報は住民が理解できる形で提供され、技術的なブラックボックス化を避けるべきである。
 
-Establish a permanent communication platform, not just communicating when facilities are being built. Regularly hold community meetings, collect public opinions, and respond to public concerns. Building trust requires long-term effort.
+常設のコミュニケーションプラットフォームを設立し、施設の建設時だけでなく、継続的に意思疎通を図る。定期的なコミュニティミーティングを開催し、住民の意見を収集し、住民の懸念に応える。信頼の構築には長期的な努力が必要である。
 
-The media plays an important role in risk communication. Science journalists need better professional training to accurately report environmental risk information. Avoid sensational reporting while not ignoring reasonable public concerns.
+メディアはリスクコミュニケーションにおいて重要な役割を果たす。科学ジャーナリストにはより良い専門的訓練が必要であり、環境リスク情報を正確に報道できるようにする。扇情的な報道を避ける一方で、合理的な住民の懸念を無視することも避けなければならない。
 
-### Compensation and Feedback Mechanisms
+### 補償とメリット還元のメカニズム
 
-Design fair compensation mechanisms that consider not only monetary compensation but also community development needs. The use of feedback funds should be transparent and public, truly used to improve the quality of life locally.
+公平な補償メカニズムを設計し、金銭的補償だけでなく、コミュニティの発展ニーズも考慮する。補償金の使用は透明性を確保し、確実に地域の生活の質の改善に充てる必要がある。
 
-Establish a health fund system to provide health monitoring and medical security for residents near environmental risk facilities. Regular health check-ups, medical expense subsidies, and health risk research can all be included in the fund scope.
+健康基金制度を設立し、環境リスク施設周辺の住民に健康モニタリングと医療保障を提供する。定期健康診断、医療費補助、健康リスク研究などを基金の対象に含めることができる。
 
-Consider establishing an "Environmental Justice Fund" to assist environmentally disadvantaged communities in improving environmental quality. Funding sources can include pollution fees, environmental taxes, carbon taxes, and other environmentally related revenues.
+「環境正義基金」の設立を検討し、環境的に弱い立場にあるコミュニティの環境品質の改善を支援する。財源としては、汚染料金、環境税、炭素税などの環境関連収入が考えられる。
 
-### Citizen Participation System
+### 市民参加の制度
 
-Strengthen the legal foundation for citizen participation in environmental decision-making. Establish the public's right to environmental information, participation, and supervision. Government information should be proactively disclosed, and public opinions should have clear handling procedures.
+市民の環境意思決定への参加の法的基盤を強化する。住民の環境に関する知情権、参加権、監督権を確立する。政府の情報は積極的に公開され、住民の意見には明確な対応手続きが設けられるべきである。
 
-Empower environmentally disadvantaged communities to participate. Provide resources such as legal assistance, technical support, and organizational training, allowing disadvantaged communities to effectively participate in environmental decision-making.
+環境的に弱い立場にあるコミュニティの参加能力を強化する。法的支援、技術的支援、組織運営の研修などのリソースを提供し、弱い立場にあるコミュニティが環境意思決定に効果的に参加できるようにする。
 
-Promote the application of participatory budgeting in environmental policies. Allow the public to directly participate in the allocation decisions of environmental budgets, increasing the democratic legitimacy of policies.
+環境政策における参加型予算の導入を推進する。住民が環境予算の配分決定に直接参加できるようにし、政策的な民主的正統性を高める。
 
-## International Experience and Insights
+## 国際的な経験と示唆
 
-### The US Environmental Justice Movement
+### 米国の環境正義運動
 
-The US Environmental Justice Movement originated in the 1980s, focusing on the phenomenon of toxic waste facilities concentrated in African American communities. After thirty years of development, environmental justice has been integrated into the mainstream of federal policy.
+米国の環境正義運動は1980年代に起源を持ち、有害廃棄物施設がアフリカ系アメリカ人コミュニティに集中する現象に注目した。30年の発展を経て、環境正義は連邦政策の主流に組み込まれた。
 
-The US Environmental Protection Agency established an Office of Environmental Justice to ensure that all policies consider environmental justice aspects. Federal government agencies must assess the impact on disadvantaged communities when formulating policies.
+米国環境保護庁には環境正義局が設置され、すべての政策が環境正義の側面を考慮するよう確保されている。連邦政府機関は政策立案時に、弱い立場にあるコミュニティへの影響を評価しなければならない。
 
-California's Environmental Justice Act (SB 535) stipulates that 25% of greenhouse gas reduction investments must be used for disadvantaged communities. This "beneficiary priority" principle is worth referencing for Taiwan.
+カリフォルニア州の環境正義法（SB 535）では、温室効果ガス削減投資の25%を弱い立場にあるコミュニティに充てることが義務付けられている。この「受益者優先」の原則は、台湾にとっても参考になる。
 
-### Procedural Justice in Europe
+### 欧州の手続的正義
 
-The European Union's Aarhus Convention establishes procedural rights such as the right to access environmental information, the right of public participation, and the right to judicial remedy. Member states must establish corresponding legal systems.
+欧州の「オーフス条約」は、環境情報へのアクセス権、住民参加権、司法救済権などの手続的権利を確立している。加盟国はこれに対応する法制度を整備しなければならない。
 
-Sweden's environmental court system allows the public to effectively remedy environmental rights. Professional judges, technical experts, and civil representatives jointly hear environmental cases. Judgments are binding, and both the government and enterprises must comply.
+スウェーデンの環境裁判所制度は、住民が環境権益を効果的に救済できるようにしている。専門の裁判官、技術専門家、市民代表が共同で環境事件を審理する。判決には強制力があり、政府も企業もこれに従わなければならない。
 
-The Netherlands' environmental impact assessment system emphasizes public participation. The public can not only express opinions but also influence the scope and methods of the assessment. Assessment results must respond to issues of concern to the public.
+オランダの環境影響評価制度は住民参加を重視している。住民は意見を述べるだけでなく、評価の範囲や評価方法に影響を及ぼすことができる。評価結果は住民の懸念事項に応えなければならない。
 
-### Risk Communication in Japan
+### 日本のリスクコミュニケーション
 
-Japan has vigorously promoted risk communication systems after the nuclear disaster. The government established a dedicated agency, trained risk communication experts, and established standardized communication procedures.
+日本は原子力災害後にリスクコミュニケーション制度の推進に力を入れている。政府は専門機関を設置し、リスクコミュニケーションの専門家を育成し、標準化されたコミュニケーションプロセスを構築している。
 
-The handling experience of the Fukushima nuclear disaster shows that risk communication is not just a technical issue but also a trust issue. The government must acknowledge uncertainty and assume decision-making responsibility to establish public trust.
+福島原子力災害の対応経験が示すように、リスクコミュニケーションは技術的な問題であると同時に信頼の問題でもある。政府は不確実性を認め、意思決定の責任を負うことで、住民の信頼を構築できる。
 
-Local governments in Japan play an important role in risk communication. The attitude and policies of local chief executives often determine the success or failure of risk communication.
+日本の地方自治体はリスクコミュニケーションにおいて重要な役割を果たしている。地方首長の姿勢と政策が、リスクコミュニケーションの成否を左右することが多い。
 
-## Outlook and Conclusion
+## 展望と結語
 
-Taiwan's environmental justice issues reflect deeper social inequality structures. Solving environmental justice issues requires addressing multiple inequalities such as class, ethnicity, urban-rural divides, and generations simultaneously.
+台湾の環境正義の問題は、より深い社会的不平等の構造を反映している。環境正義の問題を解決するには、階層、民族、都市と農村、世代などの多重の不平等に同時に対処する必要がある。
 
-Future challenges include: climate change exacerbating the unequal distribution of environmental risks, just transition in the process of energy transition, social impacts of circular economy development, and environmental justice issues in international trade.
+今後の課題には、気候変動による環境リスクの分配不均等の深刻化、エネルギー転換過程における公正な移行、循環型経済の発展が社会に与える影響、国際貿易における環境正義の問題などが含まれる。
 
-Environmental justice is not just an ideal but also a practice. Establishing fair, transparent, and participatory environmental governance systems, allowing all citizens to enjoy environmental quality and bear environmental responsibilities, is a necessary condition for Taiwan to move towards a sustainable society.
+環境正義は理想であると同時に、実務的な課題でもある。公平で透明性のある、参加型の環境ガバナンス制度を構築し、すべての住民が環境品質を享受し、環境責任を負えるようにする。これは台湾が持続可能な社会に向けて歩むための必要条件である。
 
-Environmental decision-making in a democratic society should be based on sufficient information, open debate, and procedural justice. There are no perfect solutions, but we can pursue fairer processes. The realization of environmental justice requires the joint efforts of the government, enterprises, and civil society, and more importantly, the active participation of every citizen.
+民主社会における環境意思決定は、十分な情報、公開された議論、手続的正義に基づくべきである。完璧な解決策はないが、より公平なプロセスを追求することはできる。環境正義の実現には、政府、企業、市民社会の共同努力が必要であり、何より一人ひとりの市民の積極的な参加が求められる。
 
-**Further Reading**:
+**関連記事**：
 
-- [Discussion on Nuclear Energy in Taiwan](/society/台灣與核能的討論) — The Lanyu Tao people bear nuclear waste but are not at the center of the debate: The deepest NIMBY and environmental justice fault lines in nuclear energy controversies
-- [Tin Sheds](/society/鐵皮屋) — The demolition of Wanzai Canal is a typical case of environmental justice: Pollution, demolition, and relocation dilemmas of a 400-hectare tin factory settlement
-- [Social Housing and Housing Justice](/society/社會住宅與居住正義) — Policy aspects of housing issues: Social housing supply and rental market reform
-- [Lu Hsiu-yen](/people/盧秀燕) — The politician who won Taichung in 2018 on the air topic: The specific policy battlefield of Taichung Power Plant, PM2.5, and energy transition
-- [Taiwan's Climate Crisis and Net Zero Transition](/nature/台灣氣候危機與淨零轉型) — Lanyu 97,672 barrels, Nuclear Plant 3 2025 referendum, Coral Reef Sanjie, geothermal 27 times gap: Environmental justice fault lines corresponding to every path of energy transition
+- [台湾と原子力発電をめぐる議論](/society/台灣與核能的討論) — 蘭嶼のタオ族が核廃棄物の負担を担いながら議論の中心にいない：原子力をめぐる論争における最も深いニンビーと環境正義の断絶
+- [トタン屋根の建物群](/society/鐵皮屋) — 塭仔圳の取り壊しは環境正義の典型的な事例：400ヘクタールのトタン工場密集地域における汚染、解体、移転・再定住の困難
+- [公営住宅と居住正義](/society/社會住宅與居住正義) — 居住問題の政策面：公営住宅の供給と賃貸市場の改革
+- [盧秀燕（ろ・しゅうえん）](/people/盧秀燕) — 2018年に大気の問題を争点にして台中を勝ち取った人物、火力発電所、PM2.5、エネルギー転換の具体的な政策の現場
+- [台湾の気候危機とカーボンニュートラルへの転換](/nature/台灣氣候危機與淨零轉型) — 蘭嶼の97,672バレル、原子力発電所3号機の2025年公投、サンゴ礁の第三LNG受入基地、地熱発電の27倍の不足：エネルギー転換のすべての道筋に対応する環境正義の断絶
 
-## References
+## 参考資料
 
-- [Foundation for Environmental Rights](https://www.erf.org.tw/) — Environmental law and public interest litigation
-- [Earth Citizen Foundation](https://www.cet-taiwan.org/) — Environmental justice advocacy and citizen action
-- [Taiwan Environmental Information Association](https://e-info.org.tw/) — Environmental news and issue analysis
-- [Green Citizen Action Alliance](https://www.gcaa.org.tw/) — Anti-nuclear and energy policy advocacy
-- [Wild at Heart Ecological Association](https://www.wildatheart.org.tw/) — Environmental law and policy supervision
-- [Kaohsiung Taishan Society](https://www.takao.org.tw/) — Local environmental protection and community participation
-- [Changhua County Environmental Protection Alliance](http://www.cepf.org.tw/) — Anti-air pollution and environmental monitoring
-- [Lanyu Tao Cultural and Educational Foundation](http://www.teyaw.org/) — Nuclear waste removal and Indigenous rights
-- [Environmental Protection Administration, Executive Yuan](https://www.epa.gov.tw/) — Environmental policy and regulatory information
-- [College of Public Health, National Taiwan University](https://www.sph.ntu.edu.tw/) — Environmental health risk research
-- _Environmental Justice: Environmental Risks in Disadvantaged Communities_, by Du Wenling, Kaixue Culture, 2012
-- _Introduction to Taiwan's Environmental Movement_, by Ho Ming-hsiu, Qunxue Publishing, 2006
+- [環境権保障基金会](https://www.erf.org.tw/) — 環境法と公益訴訟
+- [地球公民基金会](https://www.cet-taiwan.org/) — 環境正義の提言と市民活動
+- [台湾環境情報協会](https://e-info.org.tw/) — 環境ニュースと課題分析
+- [緑色市民行動連盟](https://www.gcaa.org.tw/) — 反原子力とエネルギー政策の提言
+- [台湾蛮野心足生態協会](https://www.wildatheart.org.tw/) — 環境法と政策の監督
+- [高雄市柴山会](https://www.takao.org.tw/) — 地域の環境保護とコミュニティ参加
+- [彰化県環境保護連盟](http://www.cepf.org.tw/) — 大気汚染対策と環境モニタリング
+- [蘭嶼タオ族文教基金会](http://www.teyaw.org/) — 核廃棄物の移去と先住民族の権益
+- [行政院環境保護署](https://www.epa.gov.tw/) — 環境政策と法規の情報
+- [台湾大学公衆衛生学院](https://www.sph.ntu.edu.tw/) — 環境健康リスクの研究
+- 杜文苓『環境正義：弱い立場にあるコミュニティの環境リスク』、開學文化、2012年
+- 何明修『台湾環境運動概論』、群学出版社、2006年

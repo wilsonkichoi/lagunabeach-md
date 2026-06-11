@@ -19,10 +19,10 @@ lastVerified: '2026-04-19'
 lastHumanReview: '2026-04-19'
 featured: false
 translatedFrom: 'Culture/菜市場名.md'
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:0d549957adf7ec01'
-sourceBodyHash: 'sha256:19efe95e4b4ebc08'
-translatedAt: '2026-06-10T17:00:20Z'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:4f24d54138c9fd30'
+sourceBodyHash: 'sha256:e1adcb11fb9e8afa'
+translatedAt: '2026-06-11T16:39:06Z'
 ---
 
 # Prénoms courants à Taïwan

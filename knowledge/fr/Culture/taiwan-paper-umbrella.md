@@ -19,10 +19,10 @@ readingTime: '10'
 lastVerified: '2026-04-21'
 lastHumanReview: false
 translatedFrom: 'Culture/紙傘.md'
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:13063c6484238690'
-sourceBodyHash: 'sha256:0b682441a9d293c6'
-translatedAt: '2026-06-10T17:00:20Z'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:2b63bb823fbdea45'
+sourceBodyHash: 'sha256:6966802b8bb41d32'
+translatedAt: '2026-06-11T16:39:06Z'
 ---
 
 ## L'ombrelle en papier : de l'objet utilitaire à l'art, un siècle de splendeur de la culture hakka taïwanaise

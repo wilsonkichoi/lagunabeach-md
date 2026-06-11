@@ -1,120 +1,113 @@
 ---
-title: 'History of Environmental Movements in Taiwan'
-description: "The developmental trajectory of Taiwan's environmental movement, from anti-pollution struggles in the 1980s to recent plastic reduction campaigns, witnessing the intersection of environmental awareness and democratization in Taiwanese society."
+title: '台湾環境運動史'
+description: '台湾の環境運動は、1980年代の反公害運動から近年のプラスチック削減運動に至るまでの発展の軌跡であり、台湾社会における環境意識の覚醒と民主化の進展が交錯する過程を証言するものです。'
 date: 2026-03-20
-tags:
-  [
-    'Environmental Movement',
-    'Environmental Protection',
-    'Social Movements',
-    'Anti-Nuclear Movement',
-    'Air Pollution',
-    'Marine Conservation',
-  ]
-subcategory: 'Conservation and Environment'
 author: 'Taiwan.md Contributors'
 category: 'Nature'
+subcategory: '保育與環境'
+tags: ['環境運動', '環境保護', '社会運動', '反核運動', '大気汚染', '海洋保護']
 readingTime: 12
 lastVerified: 2026-03-20
 lastHumanReview: false
-translatedFrom: 'Nature/台灣環境運動史.md'
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:305b65af8a515840'
-sourceBodyHash: 'sha256:a23479ca0734c2ef'
-translatedAt: '2026-06-10T16:57:27Z'
+featured: false
+translatedFrom: Nature/台灣環境運動史.md
+sourceCommitSha: 44238bb4f
+sourceContentHash: sha256:5ce21d3d3c3acbd6
+sourceBodyHash: sha256:11166779b46079e7
+translatedAt: 2026-06-12T00:53:02+08:00
 ---
 
-# History of Environmental Movements in Taiwan
+# 台湾環境運動史
 
-Taiwan's environmental movement has developed alongside its democratization process. Starting with anti-pollution struggles in the early 1980s, it has gradually formed a diverse network of environmental actions. These movements are not merely about environmental protection; they reflect deeper societal reflections on development models, quality of life, and intergenerational justice.
+台湾の環境運動は民主化の進展とともに発展してきた。1980年代初頭の反公害抗争から始まり、次第に多様な環境保全の行動ネットワークを形成していった。これらの運動は単なる環境保護にとどまらず、台湾社会における発展モデル、生活の質、世代間の正義に対する深い考察を反映している。
 
-## Emergence Phase: Anti-Pollution Struggles (1980s-1990s)
+## 萌芽期：反公害抗争（1980〜1990年代）
 
-The origins of Taiwan's environmental movement can be traced back to several major pollution incidents in the 1980s. In 1982, students from National Taiwan University opposed the construction of a DuPont factory in Lugang, marking an early symbol of the environmental movement. Subsequent events, such as the Houjin Fifth Refinery struggle and the Meipo anti-reservoir movement, demonstrated public backlash against heavy industrial pollution.
+台湾環境運動の起点は、1980年代のいくつかの重大な公害事件に遡ることができる。1982年、台湾大学の学生が鹿港（ルーガン）でのデュポン工場建設に反対したことは、環境運動の初期の象徴となった。続く後勁（ホウジン）五軽抗争、美濃（メイノン）反ダム運動は、いずれも住民が重工業による公害に直接反発したものである。
 
-Environmental movements during this period carried a strong "anti-development" character. Citizens faced direct health threats: air pollution, water quality degradation, and soil heavy metal contamination. The 1986 Green Mussel Incident exposed heavy metal pollution in the coastal waters of Tainan, drawing national attention. At that time, Taiwan was in the early stages of economic takeoff, and the mindset of "economic development first, environmental protection later" dominated policy-making, often viewing environmental protests as obstacles to progress.
+この時期の環境運動は、濃厚な「反開発」の色彩を帯びていた。住民が直面したのは直接的な健康被害であり、大気汚染、水質悪化、土壌の重金属汚染といった問題であった。1986年の緑カキ事件は、台南沿岸の重金属汚染問題を明らかにし、全国的な注目を集めた。当時、台湾は経済の高度成長期にあり、「まず経済発展、その後に環境保護」という考え方が政策決定を主導しており、環境抗争はしばしば発展の妨げと見なされていた。
 
-The Environmental Protection Alliance was established in 1987, becoming Taiwan's first nationwide environmental organization. Its founding philosophy was "to leave a clean Taiwan for future generations," reflecting societal reflections on the costs of development.
+1987年、台湾環境保護連盟が設立され、台湾初の全国的な環境保全組織となった。創設の理念は「子孫のためにきれいな台湾を残す」というものであり、当時の社会が発展の代償に対して抱いていた反省を反映していた。
 
-## The Continuous Frontline of the Anti-Nuclear Movement
+## 反核運動の継続的な戦線
 
-Taiwan's anti-nuclear movement began in the 1980s and has continued for over thirty years. Following the Chernobyl nuclear disaster in 1986, anti-nuclear sentiment in Taiwan intensified. The "I Love Taiwan Anti-Nuclear Grand Parade" in 1988 attracted tens of thousands of participants, becoming a significant milestone in the history of Taiwan's environmental movements.
+台湾の反核運動は1980年代から始まり、30年以上が経過した現在もなお続いている。1986年のチェルノブイリ原子力発電所事故をきっかけに、台湾における反核の声はさらに高まった。1988年の「我爱台湾反核大遊行」は数万人の参加者を集め、台湾環境運動史上の重要な転機となった。
 
-The争议 (controversy) surrounding Nuclear Power Plant No. 4 (NPP4) became the core battlefield of the anti-nuclear movement. Construction began in 1999, it was sealed in 2014, and a referendum to restart it was held in 2021. The NPP4 issue spanned different governments and generations. In 2000, the Chen Shui-bian administration announced the suspension of NPP4 construction, but work resumed under pressure from the Legislative Yuan and opposition parties. In 2014, the Ma Ying-jeou administration decided to seal NPP4. In 2021, the "Restart Nuclear Power Plant No. 4" referendum was rejected, temporarily putting an end to this controversy.
+原子力発電所四号機（核四）の問題は、反核運動の核心的な戦場となった。1999年の建設開始から2014年の建設凍結、そして2021年の再稼働を問う国民投票に至るまで、核四問題は異なる政権、異なる世代にまたがる争点であった。2000年、陳水扁政権は核四の建設中止を発表したが、立法院と野党の圧力により工事は再開された。2014年、馬英九政権は核四の凍結を決定し、2021年には「核四再稼働」を問う国民投票案が否決され、この問題に一応の区切りがついた。
 
-A characteristic of the anti-nuclear movement is cross-generational participation. From early scholars and experts, to later groups like the Mothers' Professor Alliance and student clubs, and recently the youth generation, people of different age groups have had channels to participate. The annual Anti-Nuclear Grand Parade in March has become an annual event in Taiwan's environmental movement.
+反核運動の特色は、世代を超えた参加にある。初期の学者・専門家から、その後の主婦教授連合、学生団体、そして近年の若い世代に至るまで、さまざまな年齢層が参加の場を持っている。毎年3月に行われる廃炉（原子炉廃止）大パレードは、台湾環境運動の年間恒例行事となっている。
 
-## The Long Battle Against Air Pollution
+## 大気汚染対策の長い闘い
 
-Air pollution issues in Taiwan began to receive attention in the late 1990s. Petrochemical industrial zones, thermal power plants, and steel mills in central and southern Taiwan caused severe air quality problems. After the World Health Organization classified PM2.5 as a Group 1 carcinogen in 2015, societal attention to air pollution reached a new height.
+台湾の大気汚染問題は、1990年代後半から注目されるようになった。中南部の石油化学工業地帯、火力発電所、製鉄所が深刻な大気汚染を引き起こしている。2015年に世界保健機関（WHO）がPM2.5を第一群発がん性物質に指定したことを受け、台湾社会の大気汚染への関心は新たな高みに達した。
 
-The Taichung Power Plant became the focal point of air pollution struggles. As the world's largest coal-fired power plant, it emits approximately 55 million tons of carbon dioxide annually. Frequent conflicts between local and central governments regarding coal reduction policies reflect the complexity of energy transition.
+台中火力発電所は、大気汚染抗争の焦点となっている。世界最大級の石炭火力発電所であるこの施設は、年間約5,500万トンの二酸化炭素を排出している。地方政府と中央政府の間で石炭削減政策をめぐる対立が繰り返されており、エネルギー転換の複雑さを物語っている。
 
-Air pollution issues in the Kaohsiung area are even more complex. The Dalinpu area is surrounded by petrochemical industrial zones, and local residents have long faced health risks. In 2018, the Kaohsiung City Government launched the Dalinpu relocation plan, but progress has been slow, demonstrating that resolving environmental justice issues requires more political will.
+高雄地域の大気汚染問題はさらに複雑である。大林蒲（ダリンープー）地区は石油化学工業地帯に囲まれており、地域住民は長年にわたり健康リスクに直面している。2018年、高雄市政府は大林蒲の移転計画を開始したが、進展は緩慢であり、環境正義の問題解決にはより強い政治的意思が必要であることを示している。
 
-Changhua County, due to its proximity to the Taichung Power Plant and its own industrial pollution, has consistently poor air quality. Local environmental groups have promoted the "Changhua Coal Reduction Alliance," urging the government to actively reduce coal-fired power generation.
+彰化県は台中火力発電所に近接していることに加え、地域自体の工業汚染もあり、大気の質は年間を通じて劣悪である。地元の環境保護団体は「彰化減煤大同盟」を推進し、政府に対して石炭火力発電の積極的な削減を求めている。
 
-## The Rise of Marine Conservation Awareness
+## 海洋保護意識の台頭
 
-Taiwan is surrounded by sea on all sides, but attention to marine conservation came relatively late. Starting in the 1990s, marine pollution issues gradually gained attention. The Amethyste oil spill incident in 2000 caused severe pollution in the Kenting sea area, serving as a turning point for marine conservation in Taiwan.
+台湾は四方を海に囲まれているが、海洋保護への相対的な関心は遅れていた。1990年代に入り、海洋汚染問題が徐々に注目されるようになった。2000年のアマス号貨油船の重油流出事件は、墾丁（ケンティン）海域に深刻な汚染をもたらし、台湾の海洋保護における転機となった。
 
-Marine debris issues became a focal point in the 2010s. According to statistics from the Environmental Protection Administration, approximately 14,000 metric tons of garbage are cleaned from Taiwan's coasts annually, with plastic products accounting for about 70%. This data prompted society to正视 (face) the "marine plastic" problem.
+海洋ごみ問題は2010年代に焦点となった。環境保護署の統計によれば、台湾の海岸では年間約14,000トンのごみが回収されており、そのうち約7割がプラスチック製品である。このデータは、社会に「海洋プラスチック」問題への認識をもたらした。
 
-Coral reef ecosystems in Taiwan's waters are also under threat. Coral reefs in Kenting, Green Island, and Lanyu have bleached due to climate change, pollution, and over-development. Marine conservation organizations have begun promoting coral rehabilitation projects, but results remain to be seen.
+台湾海域のサンゴ礁生態系も脅威にさらされている。墾丁、緑島（リュウダオ）、蘭嶼（ランユー）のサンゴ礁は、気候変動、汚染、過剰な開発により白化が進んでいる。海洋保全団体がサンゴ礁の復元計画を推進しているが、成果は今後の推移を見守る必要がある。
 
-Whale and dolphin conservation is another important aspect. There are 32 species of whales and dolphins in Taiwan's waters, but fisheries activities, ship noise, and habitat destruction pose threats to them. Organizations such as the Taiwan Whale and Dolphin Conservation Association promote rescue and conservation efforts and advocate for the establishment of marine protected areas.
+鯨類の保全は、もう一つの重要な側面である。台湾海域には32種の鯨類が生息しているが、漁業活動、船舶の騒音、生息地の破壊がすべて鯨類に脅威をもたらしている。中華鯨豚協会などの団体は、鯨類の救護と保全活動を推進し、海洋保護区の設置を提言している。
 
-## The Public Participation of the Plastic Reduction Movement
+## プラスチック削減運動への全民参加
 
-In 2018, the government began implementing the "Plastic Bag Ban," where chain stores no longer provided free plastic bags. This policy sparked a "Plastic Reduction Movement," evolving from government regulations into a全民 (national) movement.
+2018年、政府が「プラスチック規制令」を施行し、チェーン店でのビニール袋の無料提供が廃止された。この政策をきっかけに「プラスチック削減運動」が広がり、政府の法令から全民的な運動へと発展した。
 
-A characteristic of the plastic reduction movement is its "everyday life" nature. Compared to issues like anti-nuclear and anti-air pollution that require specialized knowledge, plastic reduction is an environmental action that everyone can participate in. Bringing own shopping bags, using eco-friendly cups, and refusing single-use cutlery have become new social trends.
+プラスチック削減運動の特色は「生活化」にある。反核や大気汚染対策といった専門知識を必要とする課題と比べ、プラスチック削減は誰もが参加できる環境行動である。マイバッグの持参、エコカップの使い捨て食器の拒否が、新たな社会的な風潮となっている。
 
-Environmental groups have promoted the "Plastic-Free Ocean" project, combining beach cleanups, educational outreach, and policy advocacy. Organizations such as the Wild at Heart Conservation Association and the Black Current Ocean Cultural and Educational Foundation regularly hold beach cleanup activities. These activities attract a large number of volunteers, including corporate employees, student clubs, and the general public.
+環境保護団体は「プラスチックフリー海洋」計画を推進し、海岸清掃、教育啓発、政策提言を組み合わせている。荒野保護協会、黒潮海洋文教基金会などの団体は、定期的にビーチクリーン活動を開催している。これらの活動には、企業の従業員、学生団体、一般市民など多くのボランティアが参加している。
 
-Convenience stores and bubble tea shops have become key areas for implementing plastic reduction policies. Starting in 2021, chain beverage stores banned plastic straws, switching to paper straws or biodegradable materials. Although consumer complaints were initially prevalent, acceptance has gradually increased.
+コンビニエンスストアやタピオカティー店は、プラスチック削減政策の実施の重点対象となっている。2021年以降、チェーンの飲料店ではプラスチック製ストローの使用が禁止され、紙製ストローや生分解性素材に切り替えられた。当初は消費者からの不満の声もあったが、次第に受け入れられるようになった。
 
-## New Characteristics of Contemporary Environmental Movements
+## 現代の環境運動の新たな特徴
 
-Entering the 21st century, Taiwan's environmental movement has presented several new characteristics:
+21世紀に入り、台湾の環境運動にはいくつかの新たな特徴が見られる。
 
-**Diversification of Issues**: Expansion from single pollution struggles to aspects such as climate change, biodiversity, and environmental justice. Emerging organizations like the Youth Climate Alliance and the Taiwan Environmental Planning Association focus on broader environmental issues.
+**課題の多様化**：単一の公害抗争から、気候変動、生物多様性、環境正義などへと範囲が拡大している。青年気候連盟、台湾環境計画協会などの新興団体は、より幅広い環境課題に取り組んでいる。
 
-**Generational Transition**: The younger generation participates in environmental movements through social media and street actions. During the Global Climate Strike in 2019, students in Taiwan responded with "Strike for Climate," demonstrating the intergenerational transmission of environmental awareness.
+**世代交代**：若い世代がソーシャルメディアや街頭行動を通じて環境運動に参加している。2019年の世界気候行動デーには、台湾の学生も「気候のための授業ボイコット」に応じ、環境意識の世代間の継承が示された。
 
-**Scientific Discourse**: Environmental groups place greater emphasis on scientific evidence, collaborating with academia for environmental monitoring and health risk assessments. The promotion of air pollution issues has heavily utilized health data and epidemiological research.
+**科学的論証の重視**：環境保護団体は科学的証拠をより重視し、学界と協力して環境モニタリングや健康リスク評価を行っている。大気汚染問題の推進には、健康データや疫学研究が多用されている。
 
-**Policy Participation**: A shift from past protest models to policy advocacy and supervision. Environmental groups actively participate in environmental impact assessments and policy consultations, attempting to drive reform within the system.
+**政策への参加**：過去の抗争モデルから、政策提言と監視へと転換している。環境保護団体は環境影響評価や政策審議に積極的に参加し、制度内での改革を試みている。
 
-**International Connections**: Taiwan's environmental groups have begun participating in international environmental networks, exchanging experiences with environmental organizations in the Asia-Pacific region. Global issues such as climate change and marine conservation have prompted local movements to align with international standards.
+**国際的な連携**：台湾の環境保護団体が国際的な環境ネットワークに参加し、アジア太平洋地域の環境団体と交流・協力を始めている。気候変動や海洋保護といった地球規模の課題が、地域の運動と国際的な連携を促している。
 
-## Challenges and Prospects
+## 課題と展望
 
-Taiwan's environmental movement faces several ongoing challenges:
+台湾の環境運動は、いくつかの継続的な課題に直面している。
 
-**Pressure of Economic Development**: Balancing environmental protection and economic growth remains difficult in the context of global competition. Energy transition and industrial transformation require long-term planning and social consensus.
+**経済発展の圧力**：グローバルな競争の中で、環境保護と経済成長の均衡は依然として困難である。エネルギー転換、産業転換には長期的な計画と社会的合意が必要である。
 
-**Risk of Politicization**: Environmental issues are easily politicized, affecting the sustainability of policies. Nuclear energy policy is a clear example, with different political parties holding different stances when in power.
+**政治化のリスク**：環境問題は政治化されやすく、政策の継続性に影響を与える。エネルギー政策はその顕著な例であり、与党が変わるたびに立場が異なる。
 
-**Generational Differences in Values**: Different generations have varying perceptions of environmental values, affecting the social foundation for policy implementation.
+**世代間の意識の違い**：世代によって環境に対する価値観に違いがあり、政策推進の社会的基盤に影響を与える。
 
-**Resource Constraints**: Compared to corporations and the government, environmental groups have limited resources, affecting the scale and sustainability of their actions.
+**資源の制約**：企業や政府と比較して、環境保護団体は資源が限られており、活動の規模と持続性に影響を与えている。
 
-Taiwan's environmental movement has evolved over forty years, from anti-pollution struggles to diverse actions pursuing sustainable development. This process reflects a shift in Taiwanese societal values: from pursuing rapid growth to valuing quality of life; from individual interests to intergenerational responsibility. The next step for the environmental movement will be how to establish more effective environmental governance mechanisms within a democratic system.
+台湾の環境運動は40年の発展を経て、公害に反対する抗争から、持続可能な発展を追求する多様な行動へと進化してきた。この過程は、台湾社会の価値観の変化を反映している。すなわち、急速な成長の追求から生活の質の重視へ、個人の利益から世代間の責任へと変わってきたのである。環境運動の次の課題は、民主主義の仕組みの中で、より効果的な環境ガバナンスの仕組みをいかに構築するかということである。
 
-**Further Reading**:
+**関連記事**：
 
-- [Discussion on Taiwan and Nuclear Energy](/society/History of Environmental Movements in Taiwan.md) — How the anti-nuclear movement grew out of the environmental movement and was reshuffled in the climate generation: A complete debate history of four decades and three referendums
-- [Taiwan's Climate Crisis and Net-Zero Transition](/nature/Taiwan's Climate Crisis and Net-Zero Transition.md) — How environmental awareness translates into national-level net-zero transition policies and energy structure restructuring
+- [台湾と原子力発電の議論](/society/台灣與核能的討論) — 反核運動が環境運動からどのように生まれ、気世代において再び議論を巻き起こしたか：40年間の3回の国民投票にわたる完全な論争史
+- [台湾の気候危機とカーボンニュートラルへの転換](/nature/台灣氣候危機與淨零轉型) — 環境意識がいかにして国家レベルのカーボンニュートラル政策とエネルギー構造の転換につながったか
 
-## References
+## 参考資料
 
-- [Taiwan Environment and Land Research Center](http://www.elt.org.tw/) — Research on the history and development of Taiwan's environmental movement
-- [Green Citizen Action Alliance](https://www.gcaa.org.tw/) — Anti-nuclear movement and environmental policy advocacy
-- [Wild at Heart Conservation Association](https://www.sow.org.tw/) — Nature conservation and environmental education
-- [Homemakers Foundation Environmental Protection Foundation](https://www.huf.org.tw/) — Lifestyle environmental protection and policy supervision
-- [Taiwan Environmental Information Association](https://e-info.org.tw/) — Environmental news and issue reporting
-- [Environmental Rights Foundation](https://www.erf.org.tw/) — Environmental law and public interest litigation
-- Statistics from the Environmental Protection Administration, Executive Yuan — Official data on air quality, waste disposal, etc.
-- _Introduction to Taiwan's Environmental Movements_, by Ho Ming-hsiu, Qunxue Publishing, 2006
-- _The Anti-Nuclear Movement and Taiwanese Society_, edited by Fan Yun et al., Taiwan Social Research Magazine, 2014
+- [台湾環境與土地研究中心](http://www.elt.org.tw/) — 台湾環境運動の歴史と発展に関する研究
+- [緑色公民行動連盟](https://www.gcaa.org.tw/) — 反核運動と環境政策の提言
+- [荒野保護協会](https://www.sow.org.tw/) — 自然保全と環境教育
+- [主婦連盟環境保護基金会](https://www.huf.org.tw/) — 生活に根ざした環境保全と政策監視
+- [台湾環境資訊協会](https://e-info.org.tw/) — 環境ニュースと課題の報道
+- [環境権保障基金会](https://www.erf.org.tw/) — 環境法と公益訴訟
+- 行政院環境保護署統計資料 — 大気の質、廃棄物処理などの公式データ
+- 『台湾環境運動概論』、何明修著、群学出版社、2006年
+- 『反核運動と台湾社会』、范雲ほか著、台湾社会研究雑誌社、2014年

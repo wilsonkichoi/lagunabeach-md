@@ -1,115 +1,114 @@
 ---
-title: 'Wu Pao-chun : une promesse faite à un enfant paiwan'
-description: "Fils de paysans de Pingtung, diplômé du collège, ne parlant pas un mot de français. Avec un pain au litchi et à la rose, il a décroché la première médaille d'or au monde de Maître Boulanger à Paris — une promesse tenue dix ans plus tôt à un enfant des peuples autochtones."
+title: 'Wu Pao-chun : un engagement envers un enfant Paiwan'
+description: "Fils d'un milieu rural de Pingtung, diplômé du collège, il ne parle pas français. Il a remporté la première médaille d'or de maître boulanger mondial à Paris avec un pain au litchi‑rose — contenant une promesse faite il y a dix ans à un enfant autochtone."
 date: 2026-04-05
-tags:
-  [
-    'restauration',
-    'boulangerie',
-    'artisanat',
-    'champion du monde',
-    'Pingtung',
-    'pain',
-    'peuples autochtones',
-  ]
-subcategory: 'Gastronomie et artisanat'
 category: 'People'
-author: 'Taiwan.md Translation Team'
-readingTime: 7
+tags:
+  - 'Restauration'
+  - 'Pâtisserie'
+  - "Esprit d'artisan"
+  - 'Champion du monde'
+  - 'Pingtung'
+  - 'Pain'
+  - 'Peuples autochtones'
+subcategory: '餐飲與職人'
+author: 'Taiwan.md'
 featured: true
 lastVerified: 2026-04-05
+lastHumanReview: false
+readingTime: 7
 translatedFrom: 'People/吳寶春.md'
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:82ee8d84093955be'
-sourceBodyHash: 'sha256:1487714e3148ab1a'
-translatedAt: '2026-06-10T17:00:20Z'
+sourceCommitSha: 'fb0101886'
+sourceContentHash: 'sha256:299e6ec6dab64e0a'
+sourceBodyHash: 'sha256:75c04d29af394ed6'
+translatedAt: '2026-06-12T00:53:43+08:00'
 ---
 
-# Wu Pao-chun : une promesse faite à un enfant paiwan
+# Wu Pao-chun : un engagement envers un enfant Paiwan
 
-Il s'était rendu dans une école primaire paiwane du district de Sandimen, dans le comté de Pingtung, pour une démonstration. À la fin de l'événement, un enfant l'avait tiré par la manche : _Est-ce que vous pouvez emmener notre vin de millet vers le monde ?_
+Il s’est rendu dans une école primaire Paiwan de Sandeimen, dans le comté de Pingtung, pour une démonstration. À la fin de l’activité, un enfant a tiré sur son manchette : « Peux‑tu emmener notre vin de millet au monde ? »
 
-Wu Pao-chun avait répondu : oui.
+Wu Pao-chun a répondu : « Oui. »
 
-Cette promesse a finalement été tenue — sous la forme d'un pain, au printemps 2010, à Paris.[^1]
+Cette promesse a ensuite été tenue — sous la forme d’un pain, au printemps 2010 à Paris. [^1]
 
-> **En 30 secondes :** Wu Pao-chun, né en 1970, a grandi dans un village agricole du comté de Pingtung. Son père est décédé quand il avait douze ans. Après le collège, il est monté à Taipei pour devenir apprenti boulanger. En 2008, il a mené l'équipe de Taïwan à la médaille d'argent à la Coupe du Monde de la Boulangerie ; en 2010, aux Masters de la Boulangerie, son pain au litchi et à la rose lui a valu la médaille d'or — il est devenu le premier Maître Boulanger médaillé d'or au monde. Les jurés français ont déclaré que ce pain était « le meilleur pain français jamais goûté ».
+> **30 secondes d’essentiel :** Wu Pao-chun, né en 1970 dans une zone rurale de Pingtung, a perdu son père à douze ans, a quitté le collège pour devenir apprenti boulanger à Taipei. En 2008, il a remporté la médaille d’argent avec l’équipe de Taïwan à la Coupe du Monde de la Boulangerie ; en 2010, il a décroché la médaille d’or du Masters de la Boulangerie avec un pain au litchi‑rose, devenant le premier maître boulanger au monde à obtenir cette distinction. Le jury français a déclaré ce pain « le meilleur pain français ».
 
-## De Longquan, Pingtung, aux boulangeries de Taipei
+## De Longquan, village de Pingtung, à la boulangerie de Taipei
 
-Wu Pao-chun était le benjamin de huit enfants. Son père est mort quand il avait douze ans, et sa mère a porté seule la famille. Il a grandi à Longquan, dans le district de Neipu, comté de Pingtung. Après quelques mois au lycée, il a abandonné ses études et, à quinze ans, il est monté à Taipei pour travailler comme apprenti dans une boulangerie.[^2]
+Wu Pao-chun était le plus jeune de huit enfants ; son père est décédé lorsqu’il avait douze ans, et sa mère a élevé la famille seule. Il a grandi à Longquan, dans le canton de Neipu, comté de Pingtung, a abandonné le lycée peu après l’avoir commencé, puis à quinze ans il est parti à Taipei où il a intégré une boulangerie en tant qu’apprenti. [^2]
 
-Ce chemin, beaucoup l'ont emprunté dans le Taïwan des années 1980 : les enfants des régions rurales, la montée vers la capitale, le travail manuel, le pain quotidien. Mais là où la plupart considéraient la boulangerie comme un simple gagne-pain, Wu Pao-chun en a fait une discipline. Il a appris le français en autodidacte pour lire les ouvrages de pâtisserie hexagonaux, économisé pour partir se former au Japon auprès de maîtres de renommée internationale, et a été formé à Taïwan par Chen Fu-guang — poussant au sommet ce que beaucoup jugeaient sans avenir.
+Cette trajectoire était courante à Taïwan dans les années 1980 : les enfants des zones rurales partaient vers les villes, effectuaient des travaux manuels pour gagner leur vie. Mais la plupart considéraient la boulangerie comme un simple moyen de subsistance ; Wu Pao-chun l’a abordée comme une voie spirituelle. Il a appris le français en autodidacte pour lire les ouvrages de pâtisserie français, a économisé pour se rendre au Japon et étudier auprès de maîtres de renommée mondiale, et a suivi la formation de Chen Fu‑guang à Taïwan, portant à son apogée une activité que beaucoup jugeaient impossible.
 
-> « Ce qui appauvrit une personne, ce n'est souvent pas son portefeuille, mais son cœur. »
+> « La pauvreté d’une personne ne réside pas tant dans son porte‑feuille que dans son cœur. »
 
-Replacée dans son parcours, cette phrase ressemble moins à une maxime inspirante qu'à un compte-rendu d'expérience vécue.
+Dans son contexte, cette phrase ressemble moins à un slogan motivant qu’à un témoignage personnel.
 
-## 2008 : la médaille d'argent et le « goût de maman »
+## 2008 : médaille d’argent et le bol « goût de maman »
 
-En 2006, Wu Pao-chun remporte les sélections régionales à Taïwan ; en 2007, l'équipe taïwanaise décroche la qualification asiatique à Guangzhou et représente l'Asie à Paris. En 2008, l'équipe monte sur la scène de la Coupe du Monde de la Boulangerie et obtient la médaille d'argent, juste derrière la France. Wu Pao-chun, responsable de la catégorie pain européen, remporte également la médaille d'or individuelle dans cette catégorie.[^3]
+En 2006, Wu Pao-chun s’est qualifié lors du concours régional taïwanais ; en 2007, l’équipe de Taïwan a remporté la qualification asiatique à Guangzhou, représentant l’Asie à Paris. En 2008, l’équipe taïwanaise est montée sur la scène de la Coupe du Monde de la Boulangerie, où elle a décroché la médaille d’argent, derrière l’équipe française. Wu Pao-chun était responsable de la catégorie pain européen et a également remporté la médaille d’or du pain européen en compétition individuelle. [^3]
 
-Son pain de compétition individuel était le « pain aux longanes au vin de riz sucré » — des longanes séchées macérées dans du vin de riz doux, en hommage aux saveurs de la cuisine de sa mère. Après l'épreuve, quand on lui a demandé d'où venait son inspiration, Wu Pao-chun a répondu par l'intermédiaire d'un interprète :
+Son pain personnel était le « pain au longane et aux châtaignes de longane » — des châtaignes de longane séchées macérées dans du vin de riz sucré, inspirées des souvenirs de cuisine de sa mère. Après la compétition, on lui a demandé d’où venait son inspiration ; via un interprète, il a déclaré :
 
-« C'est sans doute le goût de maman qui a touché les jurés. »[^3]
+« C’est probablement le goût de cette maman qui a touché les juges. » [^3]
 
-Un Taïwanais qui ne parlait pas un mot de français a décroché une médaille d'or en France avec les saveurs du quotidien d'une famille endeuillée.
+Un Taïwanais qui ne parlait pas français a, grâce aux saveurs de son foyer après le décès de son père, remporté l’or en France.
 
-## 2010 : le pain qui portait une promesse
+## 2010 : le pain qui porte la promesse
 
-Après 2008, Wu Pao-chun ne s'est pas arrêté. Il se souvenait de la question de l'enfant paiwan et a commencé à explorer comment intégrer les saveurs des montagnes de l'est de Taïwan dans la boulangerie française : le vin de millet paiwan de Sandimen, les litchis à feuilles noires de Fenyuan, les pétales de rose biologique de Puli. Les litchis séchés macèrent une nuit entière dans le vin de millet, la pâte fermente pendant au moins quinze heures, et le développement de la recette a demandé douze mois.[^4]
+Après 2008, Wu Pao-chun n’a pas cessé d’avancer. Il gardait en mémoire la question de l’enfant Paiwan et a consacré du temps à intégrer les saveurs des montagnes de l’est de Taïwan dans le pain français : le vin de millet Paiwan de Sandeimen, le litchi noir de Fengyuan, les pétales de rose biologique de Puli. Le litchi séché était trempé toute la nuit dans le vin de millet, la pâte fermentait au moins quinze heures, et le processus de recherche a duré douze mois. [^4]
 
-En 2010, les Masters de la Boulangerie se tiennent à Paris — première édition de la compétition individuelle. Wu Pao-chun présente ce pain triangulaire au litchi et à la rose, dont la forme triangulaire évoque l'image des chaînes de montagnes des peuples autochtones de Taïwan.
+En 2010, le Masters de la Boulangerie s’est tenu à Paris — la première édition individuelle. Wu Pao-chun a présenté ce pain triangulaire au litchi‑rose, dont la forme s’inspire des chaînes de montagnes des peuples autochtones de Taïwan.
 
-Il remporte la médaille d'or et devient le premier Maître Boulanger médaillé d'or au monde. Les paroles des jurés français sont restées dans les mémoires :
+Il a remporté la médaille d’or, devenant le premier maître boulanger au monde à obtenir ce titre. Les mots du jury français, encore cités aujourd’hui, sont :
 
-> « Wu Pao-chun a fait le meilleur pain français qui soit. »[^5]
+> « Wu Pao-chun a créé le meilleur pain français. » [^5]
 
-Non pas « un pain français aux saveurs orientales », ni « une interprétation asiatique de la boulangerie française » — mais, selon des jurés français, le meilleur pain français jamais goûté.
+Il ne s’agit pas d’un « pain français aux saveurs orientales », ni d’une « interprétation asiatique de la pâtisserie française », mais bien du meilleur pain français selon le jury.
 
-## Le retour à Taïwan, le retour aux produits locaux
+## Retour à Taïwan, retour aux racines
 
-Cinq mois après le sacre, le 4 novembre 2010, Wu Pao-chun ouvre sa première boulangerie « Wu Pao Chun Bakery » dans le district de Lingya, à Kaohsiung. Les files d'attente n'ont plus jamais désempli depuis le premier jour.[^5]
+Cinq mois après la victoire, le 4 novembre 2010, Wu Pao-chun a ouvert son premier « Wu Pao‑chun Maifang » dans le district de Lingya, à Kaohsiung. Les files d’attente n’ont jamais cessé dès le premier jour. [^5]
 
-Sur la raison d'utiliser des produits agricoles taïwanais, il est direct : « Le marché chinois compte certes 1,3 milliard de personnes, mais le monde en compte plus de 7 milliards. Je ne vais pas limiter mon regard à la Chine. Je ne représente pas Wu Pao-chun, je représente Taïwan, et je veux emmener les produits agricoles de Taïwan avec moi. »
+Interrogé sur l’utilisation de produits agricoles taïwanais, il a répondu sans détour : « Le marché chinois compte 1,3 milliard de personnes, mais le monde en compte plus de 70 milliards. Je ne me limite pas à la Chine. Ce que je représente, ce n’est pas seulement Wu Pao‑chun, c’est Taïwan, et je veux faire connaître les produits agricoles taïwanais à l’étranger. »
 
-En 2013, ouverture à la librairie Eslite de Songshan, Taipei ; en 2017, une boutique phare à Taichung ; en 2018, une boutique phare dans le quartier de Xinyi, Taipei ; en 2019, Singapour. Chaque étape a été délibérément ralentie — il dit qu'il n'ouvre pas une chaîne, il plante un arbre au bon endroit.
+En 2013, le magasin phare a ouvert à la boutique Eslite Songshan de Taipei ; en 2017, le flagship de Taichung ; en 2018, celui de Xinyi à Taipei ; en 2019, à Singapour. Chaque étape a été délibérément ralentie — il précise qu’il ne crée pas une chaîne, mais plante un arbre à l’endroit adéquat.
 
-## La « clause Wu Pao-chun » : un boulanger transforme la législation sur l'éducation
+## La « clause Wu Pao‑chun » : un boulanger qui a modifié la législation éducative taïwanaise
 
-En 2016, la National University of Singapore (NUS) l'invite à intégrer son programme EMBA. Le problème : il n'a qu'un diplôme de collège, or la réglementation taïwanaise exige un diplôme universitaire pour postuler en master. La NUS lui a accordé une dérogation ; le ministère de l'Éducation de Taïwan a alors modifié le règlement pour permettre aux personnes d'exception, même sans diplôme officiel, de postuler en cycle supérieur. Cette réforme est connue du grand public sous le nom de « clause Wu Pao-chun ».[^6]
+En 2016, l’Université nationale de Singapour (NUS) l’a invité à suivre un EMBA. Le problème : il ne possède qu’un diplôme de collège, alors que la législation taïwanaise exige un diplôme universitaire pour accéder aux études supérieures. La NUS a fait une exception, et le ministère de l’Éducation de Taïwan a modifié la règle, permettant aux talents exceptionnels, même sans diplôme officiel, de postuler à un master. Cette modification est communément appelée la « clause Wu Pao‑chun ». [^6]
 
-Le 18 juin 2022, la « Wu Pao-chun Baking Academy » a ouvert ses portes à l'Université des Sciences et Technologies Kun Shan de Tainan, avec Wu Pao-chun comme doyen et professeur honoraire — la première école de boulangerie de ce type à Taïwan, où les étudiants participent directement à la production et à l'exploitation des boutiques pendant leurs études.[^7]
+Le 18 juin 2022, le « Wu Pao‑chun Baking Academy » a été inauguré à l’Université technologique de Kunshan, à Tainan, où Wu Pao‑chun occupe les fonctions de directeur et de professeur honoraire — la première école de boulangerie de ce type à Taïwan, dont les étudiants participent directement à la production et à la gestion du magasin pendant leurs études. [^7]
 
-## Ce que cette promesse signifie
+## Le sens de cette promesse
 
-Disney+ lui a consacré le documentaire _The Best Baker in the World_. Son ouvrage _La douceur accomplit l'extraordinaire_ continue de se vendre. En 2016, il emmène à nouveau l'équipe de Taïwan décrocher l'argent à la Coupe du Monde de la Boulangerie ; ses élèves ont perpétué son héritage en 2018, s'inspirant des « Guanjiangshou » pour remporter des distinctions internationales.
+Disney+ a réalisé un documentaire à son sujet, intitulé _World’s First Maifang_. Son ouvrage _Softness Achieves the Extraordinary_ s’est vendu à plusieurs milliers d’exemplaires. En 2016, il a de nouveau mené l’équipe taïwanaise à la médaille d’argent de la Coupe du Monde de la Boulangerie ; ses élèves ont, en 2018, poursuivi son héritage avec le pain « Guan‑Jiang‑Shou », remportant des prix internationaux.
 
-Mais il faut toujours revenir à ce pain triangulaire. Ne parlant pas français, peu diplômé, enfant de la campagne, père disparu trop tôt, ressources quasiment nulles — il a dit oui à un enfant paiwan, puis a passé dix ans à emmener le vin de millet du village de cet enfant dans la bouche de jurés français, qui ont déclaré en avoir goûté là le meilleur pain français au monde.
+Mais tout revient à ce pain triangulaire. Sans parler français, avec peu de diplômes, issu d’un milieu rural, père décédé tôt, ressources quasi nulles. Il a dit à un enfant Paiwan qu’il pouvait le faire, puis, pendant dix ans, a transporté le vin de millet de son village natal, amenant le jury français à déclarer que c’était le meilleur pain français.
 
-Ce résultat est, en soi, quelque peu incohérent — et quand on regarde de près, on réalise que c'est précisément là que réside l'essentiel.
+Ce résultat paraît paradoxal — et c’est précisément là que réside le point essentiel.
 
 ---
 
-**Pour aller plus loin :**
+**Lectures complémentaires** :
 
-- André Chiang — De l'École de Commerce de Danshui au 14e rang mondial, une autre trajectoire d'un chef utilisant les saveurs taïwanaises pour conquérir la scène internationale
-- La carte culturelle des 16 peuples autochtones de Taïwan — le contexte culturel d'où provient le vin de millet paiwan contenu dans le pain au litchi et à la rose
-- La culture des marchés nocturnes — le socle de la cuisine populaire taïwanaise, pour comprendre d'où est née l'esthétique des ingrédients de Wu Pao-chun
-- Huang Shan-liao — un autre Taïwanais sacré sur une scène mondiale (Fashion Week de Londres), mais qui a pris le chemin inverse : abandonner l'artisanat pour faire de la « visibilité » un best-seller
+- [Jiang Zhen‑cheng](/people/江振誠) — De l’école technique de Tamsui à la 14ᵉ place mondiale, une autre histoire de chef taïwanais qui a conquis l’international avec les saveurs de Taïwan.
+- [Carte culturelle des 16 peuples autochtones de Taïwan](/culture/台灣原住民族16族文化地圖) — Contexte culturel du vin de millet Paiwan utilisé dans le pain au litchi‑rose.
+- [Culture des marchés nocturnes](/food/夜市文化) — Fondement de l’alimentation populaire taïwanaise, d’où émerge l’esthétique des ingrédients de Wu Pao‑chun.
+- [Huang Shan‑liao](/people/黃山料) — Un autre Taïwanais couronné à l’international (Fashion Week de Londres), qui a choisi une trajectoire opposée : quitter l’artisanat pour transformer la visibilité en best‑seller.
 
 ## Références
 
-[^1]: [吳寶春 — Wikipédia (version chinoise)](https://zh.wikipedia.org/zh-tw/%E5%90%B3%E5%AF%B6%E6%98%A5) — Biographie, parcours de compétition et histoire de la promesse faite à l'enfant paiwan de Sandimen.
+[^1]: [吳寶春 — 維基百科中文版](https://zh.wikipedia.org/zh-tw/%E5%90%B3%E5%AF%B6%E6%98%A5) — Biographie, parcours en compétitions, et l’histoire de la promesse faite à l’enfant Paiwan de Sandeimen.
 
-[^2]: [Wu Pao-chun — Wikipedia](https://en.wikipedia.org/wiki/Wu_Pao-chun) — Entrée en anglais détaillant sa naissance en 1970 à Longquan, Neipu, comté de Pingtung, ses origines familiales (père décédé prématurément, benjamin de huit enfants), sa carrière d'apprenti et son entrée en EMBA à la NUS en 2016.
+[^2]: [Wu Pao-chun — Wikipedia](https://en.wikipedia.org/wiki/Wu_Pao-chun) — Détails sur sa naissance en 1970 à Longquan (canton de Neipu, comté de Pingtung), son contexte familial et son apprentissage, ainsi que son EMBA à NUS en 2016.
 
-[^3]: [Baker returns home with silver cup — Taipei Times (7 avril 2008)](https://www.taipeitimes.com/News/taiwan/archives/2008/04/07/2003408624) — Reportage sur la médaille d'argent de l'équipe taïwanaise à la Coupe du Monde de la Boulangerie 2008 et première source citant Wu Pao-chun décrivant le pain au longane comme le « goût de maman ».
+[^3]: [Baker returns home with silver cup — Taipei Times (7 avril 2008)](https://www.taipeitimes.com/News/taiwan/archives/2008/04/07/2003408624) — Rapport sur la médaille d’argent de l’équipe taïwanaise en 2008 et la citation « goût de maman » de Wu Pao‑chun.
 
-[^4]: [Taiwan Litchi Rose Champion Bread — Site officiel de Wu Pao-chun](https://www.wupaochun.com/products/litchi-rose) — Page produit officielle du pain au litchi et à la rose, détaillant la provenance des ingrédients (vin de millet de Sandimen, litchis à feuilles noires de Fenyuan, rose biologique de Puli), le processus de fermentation et les douze mois de développement.
+[^4]: [Taiwan Litchi Rose Champion Bread — Site officiel de Wu Pao‑chun](https://www.wupaochun.com/products/litchi-rose) — Description du pain au litchi‑rose, provenance des ingrédients (vin de millet de Sandeimen, litchi noir de Fengyuan, pétales de rose biologique de Puli) et du processus de fermentation d’une douzaine de mois.
 
-[^5]: [Taiwan: The winner of the Masters de la Boulangerie 2010 is… — Global Voices (9 avril 2010)](https://globalvoices.org/2010/04/09/taiwan-the-winner-of-the-masters-de-la-boulangerie-2010-is/) — Compte-rendu de la médaille d'or de Wu Pao-chun aux Masters de la Boulangerie 2010, avec les commentaires des jurés et sa déclaration « je représente Taïwan, pas Wu Pao-chun ».
+[^5]: [Taiwan: The winner of the Masters de la Boulangerie 2010 is… — Global Voices (9 avril 2010)](https://globalvoices.org/2010/04/09/taiwan-the-winner-of-the-masters-de-la-boulangerie-2010-is/) — Article sur la victoire de Wu Pao‑chun au Masters de la Boulangerie 2010, incluant les commentaires du jury et sa déclaration « je représente Taïwan, pas moi-même ».
 
-[^6]: [Wu Pao Chun Bakery — Wikipedia](https://en.wikipedia.org/wiki/Wu_Pao_Chun_Bakery) — Chronologie des ouvertures : Kaohsiung (4 novembre 2010), Eslite Songshan à Taipei (2013), Singapour (2019), ainsi que l'épisode de la réforme législative dite « clause Wu Pao-chun ».
+[^6]: [Wu Pao Chun Bakery — Wikipedia](https://en.wikipedia.org/wiki/Wu_Pao_Chun_Bakery) — Chronologie des ouvertures (Kaohsiung 2010, Taipei Songshan 2013, Singapour 2019) et l’événement législatif connu sous le nom de « clause Wu Pao‑chun ».
 
-[^7]: [Ouverture de la « Wu Pao-chun Baking Academy » à Kun Shan — CNA (Agence centrale de presse)](https://www.cna.com.tw/postwrite/Chi/314329) — Reportage sur l'inauguration le 18 juin 2022 de l'académie à l'Université des Sciences et Technologies Kun Shan de Tainan, Wu Pao-chun occupant les fonctions de doyen et de professeur honoraire, première école de boulangerie en partenariat productif à Taïwan.
+[^7]: [崑大「吳寶春烘焙學院」開幕 — 中央社](https://www.cna.com.tw/postwrite/Chi/314329) — Reportage sur l’inauguration du Wu Pao‑chun Baking Academy à l’Université technologique de Kunshan le 18 juin 2022, avec Wu Pao‑chun comme directeur et professeur honoraire.

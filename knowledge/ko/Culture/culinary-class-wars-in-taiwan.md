@@ -19,10 +19,10 @@ readingTime: 14
 lastVerified: 2026-05-02
 lastHumanReview: false
 translatedFrom: 'Culture/黑白大廚在台灣.md'
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:0041359461493257'
-sourceBodyHash: 'sha256:82ab788b4ca08de3'
-translatedAt: '2026-06-10T16:58:21Z'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:31883f60285a57e2'
+sourceBodyHash: 'sha256:bf7679056e96cbe1'
+translatedAt: '2026-06-11T16:38:39Z'
 ---
 
 > **30초 개요:** 《흑백요리사: 요리 계급 전쟁》(흑백요리사 / Culinary Class Wars)은 넷플릭스와 한국 tvN Studios가 합작한 요리 경연 리얼리티쇼로, S1은 2024년 9월 17일 공개되어 10월 8일 종영, 총 12부작입니다[^1]. 프로그램 규모가 크고 캐릭터의 드라마성이 강합니다—80명의 '흑수저' 재야 셰프가 20명의 '백수저' 미슐랭 및 스타급 셰프와 맞붙고, 한국 식문화를 대표하는 백종원과 미슐랭 3스타 셰프 안성재가 심사를 맡았습니다[^2]. 프로그램은 첫 주에 대만 넷플릭스 비영어권 시청률 1위에 올랐고[^3], 이후 16개월 동안 9명의 출연자가 다양한 대만 산업과 협업으로 안착했습니다. 편의점 식품, 손음료, 패스트푸드 체인, 5성급 호텔 뷔페, 배달 플랫폼, 한식 체인에 더해 갤럭시 Z 폴드폰까지 합세했습니다[^4]. 본문은 이 기간의 소비 산업 궤적을 통합하고, 그 안의 식품 안전 논란도 기록합니다.

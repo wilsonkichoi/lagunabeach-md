@@ -23,7 +23,7 @@ translatedFrom: 'Food/糖蔥.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:ca062268b3b89018'
 sourceBodyHash: 'sha256:383a8a9c19be37a9'
-translatedAt: '2026-05-01T18:09:43+08:00'
+translatedAt: '2026-06-11T16:38:27Z'
 ---
 
 # 糖蔥：白い気孔に隠された「抗争の糖」

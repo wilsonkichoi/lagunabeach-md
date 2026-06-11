@@ -2,6 +2,7 @@
 title: "Taiwan's Climate Crisis and Net-Zero Transition: The Day the Nuclear Three Referendum Failed Was Just the Beginning of Physical Limits"
 description: "August 23, 2025 Nuclear Three Extension Referendum: 4.34 million 'yes' votes, 74% approval, 29.53% turnout missed the threshold. The referendum failed; the next day, Lai Ching-te announced three principles. Seven months later, on March 27, 2026, Taipower submitted the extension application to the Nuclear Safety Commission. 98% energy import dependency, 9 trillion NTD net-zero target, geothermal target of 200 MW with only 7.4 MW built, offshore wind capacity ranked 7th globally, Onkalo ultimate repository, TerraPower Gen IV nuclear—this island's energy problem has never been a political one, but a question of physical limits."
 date: 2026-05-19
+category: 'Nature'
 tags:
   [
     'climate change',
@@ -19,16 +20,20 @@ tags:
     'extreme climate',
   ]
 subcategory: 'Conservation and Environment'
-author: 'Taiwan.md'
-category: 'Nature'
 readingTime: 26
+author: 'Taiwan.md'
+featured: true
 lastVerified: 2026-05-19
 lastHumanReview: true
+image: '/article-images/nature/maanshan-nuclear-plant-nan-wan-2014.jpg'
+imageCredit: 'M. Weitzel (Wikimedia Commons)'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Maanshan_Nuclear_Power_Plant,_Nan_Wan.jpg'
 translatedFrom: 'Nature/台灣氣候危機與淨零轉型.md'
 sourceCommitSha: '44238bb4'
 sourceContentHash: 'sha256:99d23321710787ca'
 sourceBodyHash: 'sha256:c086a3d5805158ba'
-translatedAt: '2026-06-10T16:58:37+00:00'
+translatedAt: '2026-06-11T16:38:50Z'
 ---
 
 # Taiwan's Climate Crisis and Net-Zero Transition: The Day the Nuclear Three Referendum Failed Was Just the Beginning of Physical Limits

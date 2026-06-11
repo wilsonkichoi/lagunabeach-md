@@ -1,213 +1,211 @@
 ---
-title: 'Movimiento Estudiantil Girasol: los doce años después de aquellos treinta segundos'
-description: 'Un legislador, tendido en el suelo, leyó durante treinta segundos con un micrófono de solapa y desencadenó veinticuatro días de ocupación del parlamento, el despertar político de una generación y el punto de partida del giro de la economía de Taiwán para alejarse de China. Doce años después, la ley que exigían los estudiantes no fue aprobada, pero ganaron una guerra que no sabían que estaban librando.'
+title: 'Movimiento Sunflower — Los doce años después de esos treinta segundos'
+description: 'Un legislador se tumbó en el suelo y, usando un micrófono de solapa, recitó durante treinta segundos, desencadenando una ocupación del Congreso de veinticuatro días, la despertar político de una generación y el punto de partida de la reorientación económica de Taiwán lejos de China. Doce años después, la ley que los estudiantes exigían no se aprobó, pero ganaron una guerra que ni siquiera sabían que estaban librando.'
 date: 2026-04-12
-author: 'Taiwan.md'
 category: 'Society'
-subcategory: '民主與政治'
 tags:
-  [
-    'movimientos sociales',
-    'democracia',
-    'relaciones a ambos lados del estrecho',
-    'tecnología cívica',
-  ]
+  - 'movimiento social'
+  - 'democracia'
+  - 'relaciones a ambos lados del estrecho'
+  - 'tecnología cívica'
+subcategory: '民主與政治'
+author: 'Taiwan.md'
+featured: true
 lastVerified: 2026-04-12
 lastHumanReview: false
-featured: true
 translatedFrom: 'Society/太陽花學運.md'
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:de374340ca4140af'
-sourceBodyHash: 'sha256:1bf83c4f24dc53dd'
-translatedAt: '2026-06-10T16:58:37+00:00'
+sourceCommitSha: '1844f59c5'
+sourceContentHash: 'sha256:4b20ee6c7caeca19'
+sourceBodyHash: 'sha256:db9bd643c9240d48'
+translatedAt: '2026-06-12T00:53:42+08:00'
 ---
 
-> **Panorama en 30 segundos:** El 17 de marzo de 2014, el legislador del Kuomintang Chang Ching-chung, tendido en el suelo, usó un pequeño micrófono sujeto al cuello de su camisa para anunciar en treinta segundos que el Acuerdo de Comercio de Servicios a ambos lados del estrecho se “daba por revisado”. Esa misma noche, más de doscientos estudiantes saltaron el muro y ocuparon el Yuan Legislativo; con un iPad montaron una transmisión de veinticuatro horas que eludió a todas las televisoras. Veinticuatro días después, los estudiantes se retiraron. El acuerdo de servicios no fue rechazado: fue abandonado por la historia. Doce años después, las cifras lo dicen todo: la dependencia comercial de Taiwán respecto de China cayó de 42% a 31.5%. Ganaron una guerra que no sabían que estaban librando.
+> **Resumen de 30 segundos:** el 17 de marzo de 2014, el legislador del Kuomintang Zhang Qingzhong (張慶忠) se tumbó en el suelo y, usando un micrófono de solapa, anunció en treinta segundos que el Acuerdo de Comercio Transfronterizo (服貿) “se consideraba revisado”. Durante la noche, más de doscientos estudiantes escalaron el muro del Yuan Legislativo, montaron una transmisión en directo de veinticuatro horas con un iPad, eludiendo a todas las cadenas de televisión. Veinticuatro días después los estudiantes se retiraron; el acuerdo no fue rechazado—fue abandonado por la historia. Doce años después, los números lo explican todo: la dependencia de Taiwán del comercio con China pasó del 42 % al 31,5 %. Ganaron una guerra que ni siquiera sabían que estaban librando.
 
-| 42% → 31.5%                                                                      | 6.33 millones de dólares taiwaneses                                                           |
-| -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| Caída de la dependencia exportadora hacia China (incluido Hong Kong) (2014→2025) | Financiamiento colectivo para el anuncio en The New York Times (meta alcanzada en 35 minutos) |
+| 42 % → 31,5 %                                                                  | 6,33 millones de TWD                                                          |
+| ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------- |
+| Caída de la dependencia de exportaciones a China (incluye Hong Kong) 2014→2025 | Campaña de crowdfunding del New York Times (35 minutos para alcanzar la meta) |
 
 ## Treinta segundos
 
-La tarde del 17 de marzo de 2014, en la Comisión de Asuntos Internos del Yuan Legislativo. Legisladores del Partido Democrático Progresista ocupaban la mesa de presidencia para impedir la revisión del Acuerdo de Comercio de Servicios, mientras el legislador del Kuomintang Chang Ching-chung estaba reducido contra el suelo. Forcejeando, alcanzó el pequeño micrófono prendido al cuello de su camisa y leyó entrecortadamente: “El Acuerdo de Comercio de Servicios a ambos lados del estrecho se remite al pleno para su tramitación. Se levanta la sesión.”[^1]
+La tarde del 17 de marzo de 2014, en la comisión de Interior del Yuan Legislativo. Los legisladores del Partido Progresista Democrático ocuparon el estrado para impedir la revisión del Acuerdo de Comercio Transfronterizo; el legislador del Kuomintang Zhang Qingzhong fue empujado al suelo. Luchando, encontró el micrófono de solapa y, entrecortado, recitó: “Acuerdo de Comercio Transfronterizo entre ambos lados del estrecho, será remitido al comité, se levanta la sesión.”[^1]
 
-Treinta segundos. Un acuerdo que afectaba once sectores industriales de Taiwán, entre ellos finanzas, telecomunicaciones, publicaciones y transporte, quedó así “dado por revisado”[^2].
+Treinta segundos. Un acuerdo que afectaba a once sectores (finanzas, telecomunicaciones, publicación, transporte, etc.) fue “considerado revisado”[^2].
 
-En 2016, Chang Ching-chung perdió la reelección en el distrito de Zhonghe frente a Chiang Yung-chang, del Partido Democrático Progresista. Desde entonces, la forma en que se lo recuerda quedó reducida a un apodo: “Medio Minuto Chung”[^3].
+En 2016, Zhang perdió la reelección en el distrito de Zhonghe frente al demócrata Jiang Yongchang. Desde entonces, su apodo quedó como “Media lealtad”[^3].
 
-Pero lo que esos treinta segundos realmente cambiaron fue mucho más grande que la vida política de un legislador.
+Pero lo que realmente cambió en esos treinta segundos fue mucho mayor que la carrera política de un legislador.
 
-## La puerta que se saltó
+## La puerta que se cruzó
 
-El 18 de marzo, a las nueve y media de la noche, más de doscientos estudiantes e integrantes de organizaciones cívicas rompieron el cordón policial por la entrada lateral del Yuan Legislativo sobre Qingdao East Road y entraron en la cámara[^4]. Al frente estaban Lin Fei-fan, estudiante de posgrado del Instituto de Ciencia Política de la Universidad Nacional de Taiwán, y Chen Wei-ting, estudiante de posgrado del Instituto de Sociología de la Universidad Nacional Tsing Hua. Pero lo que hizo posible la ocupación no fue la decisión de una sola persona, sino lo que todos hicieron juntos después de cruzar aquella puerta.
+A las 21:30 del 18 de marzo, más de doscientos estudiantes y miembros de organizaciones cívicas atravesaron la puerta lateral de la calle Qingdao del Yuan Legislativo, enfrentándose a la policía y entrando al hemiciclo[^4]. Lideraban los estudiantes de posgrado de Ciencias Políticas de la Universidad Nacional de Taiwán, Lin Feifan, y de Sociología de la Universidad de Qinghua, Chen Wei-ting, pero lo que consolidó la ocupación no fue la decisión de una sola persona, sino lo que hicieron todos juntos después de cruzar esa puerta.
 
-Fue la primera vez que el parlamento fue ocupado desde la democratización de Taiwán.
+Fue la primera ocupación del Congreso desde la democratización de Taiwán.
 
-Dentro de la cámara, los estudiantes plantearon tres demandas: retirar el acuerdo de servicios, que el presidente [Ma Ying-jeou](/es/People/ma-ying-jeou-cross-strait-reconciliation-leader/) pidiera disculpas y que el premier Jiang Yi-huah renunciara. Fuera de la cámara, miles de personas se congregaban cada día alrededor del Yuan Legislativo; en el punto más alto, superaron las diez mil. Pero lo que hizo realmente distinto a este movimiento no fue el número de personas.
+Dentro del hemiciclo, los estudiantes presentaron tres demandas: retirar el Acuerdo de Comercio Transfronterizo, que el presidente [馬英九](/es/People/ma-ying-jeou-cross-strait-reconciliation-leader/) se disculpara, y que el premier Jiang Yi-hua renunciara. Afuera, miles de personas se reunían alrededor del edificio, superando los diez mil en los picos de asistencia. Lo que realmente distinguió a este movimiento no fue la cantidad de gente.
 
 ## Un iPad contra todas las cámaras
 
-La noche de la ocupación, ingenieros de la [comunidad de código abierto y g0v](/es/Technology/open-source-and-g0v/) ingresaron a la cámara. Usaron Hackpad para crear listas descentralizadas de necesidades materiales y turnos; Hackfoldr, mantenido entre otros por Audrey Tang, quien más tarde sería ministra digital sin cartera, para integrar todos los accesos a la información; y, sobre todo, un iPad atado a un soporte de micrófono para transmitir veinticuatro horas por Ustream, evitando los marcos interpretativos de todos los medios dominantes[^5].
+La noche de la ocupación, ingenieros del gobierno digital de la iniciativa de tiempo cero [開源社群與g0v](/es/Technology/open-source-and-g0v/) se instalaron en el hemiciclo. Crearon, con Hackpad, una tabla descentralizada de necesidades de suministros y horarios; con Hackfoldr (uno de sus principales mantenedores, luego comisionado digital, Audrey Tang) integraron todos los puntos de información; y lo más crucial, un iPad quedó sujeto al soporte del micrófono, transmitiendo en vivo 24 horas por Ustream, sorteando el marco interpretativo de los medios tradicionales[^5].
 
-> **📝 Nota curatorial**
-> En 2014, Taiwán aún no tenía TikTok e Instagram apenas empezaba a popularizarse. Un iPad era el medio independiente de aquella época. Cuando la señal 3G dentro de la cámara se saturó, un equipo de Academia Sinica instaló una antena direccional para hacer entrar señal WiMax y llevó más de veinte cables USB Ethernet. No fue improvisación: eran ingenieros construyendo infraestructura.
+> **📝 Nota del curador**  
+> En 2014 Taiwán aún no tenía TikTok; Instagram apenas empezaba a popularizarse. Un iPad era el medio independiente de la época. Cuando la señal 3G se saturó, un equipo del Academia Sinica instaló una antena direccional para introducir señal Wi‑Max y llevó más de veinte cables Ethernet USB al recinto. No fue improvisación, sino infraestructura básica construida por ingenieros.
 
-El 24 de marzo a las nueve de la mañana, once internautas lanzaron en la plataforma de financiamiento colectivo FlyingV el proyecto “compra conjunta de un anuncio de portada”. En treinta y cinco minutos reunieron 1.5 millones de dólares taiwaneses, alcanzando la meta para media página en Apple Daily; en tres horas participaron 3,495 personas y la recaudación superó los 6.3 millones[^6]. Cinco días después, el anuncio de página completa diseñado por Aaron Nieh apareció en la página cinco de la edición internacional asiática de The New York Times, con un título de cuatro palabras en inglés: “Democracy at 4am”[^7].
+A las 9 am del 24 de marzo, once internautas lanzaron en la plataforma de crowdfunding FlyingV la campaña “Compra colectiva de portada”. En treinta‑y‑cinco minutos recaudaron 1,5 millones de TWD, alcanzando la mitad de la meta del _Apple Daily_; en tres horas, 3 495 personas participaron, superando los 6,3 millones de TWD[^6]. Cinco días después, el diseñador Nie Yongzhen diseñó un anuncio de página completa que apareció en la quinta edición del _New York Times_ Asia, con el título en inglés “Democracy at 4 am”[^7].
 
-Era la democracia de las cuatro de la mañana. Y esas cuatro de la mañana aludían a la hora del desalojo del Yuan Ejecutivo el 23 de marzo.
+Era la democracia de la madrugada. Ese “4 am” hacía referencia a la hora en que la policía del gabinete ejecutivo desalojó a los manifestantes el 23 de marzo.
 
-## La noche de los cañones de agua y las porras
+## La noche del camión de agua y los porras
 
-La noche del 23 de marzo, alrededor de mil personas intentaron ocupar el Yuan Ejecutivo, elevando el nivel de la protesta. El premier Jiang Yi-huah ordenó el desalojo forzoso. Desde la madrugada del 24 de marzo, la policía antidisturbios desplegó cañones de agua, porras y escudos, y ejecutó seis oleadas de desalojo que dejaron más de 150 personas heridas[^8].
+El 23 de marzo por la noche, alrededor de mil personas intentaron ocupar el gabinete ejecutivo, elevando la tensión protestante. El premier Jiang Yi-hua ordenó el desalojo forzoso. Desde la madrugada del 24 de marzo, la policía antidisturbios desplegó camiones de agua, porras y escudos, ejecutando seis oleadas de despeje que dejaron más de ciento cincuenta heridos[^8].
 
-El informe de investigación del Yuan de Control confirmó que la policía “ejecutó el desalojo mediante medios violentos que excedieron el principio de proporcionalidad” y que algunos agentes “albergaban resentimiento contra la ciudadanía”[^9].
+El informe de la Oficina de Inspección confirmó que la policía utilizó “medios violentos que exceden el principio de proporcionalidad” y que algunos oficiales mostraron “resentimiento hacia la población”[^9].
 
-> **✦** Lin Chih-chieh entró aquella madrugada al vestíbulo del Yuan Ejecutivo y se sentó en protesta. Durante el desalojo recibió un golpe de porra en la cabeza que le causó una hemorragia intracraneal; al ser arrastrado escaleras abajo sufrió lesiones en la columna. Fue uno de los manifestantes más gravemente heridos ese día. Tras ocho años de litigio, perdió la querella privada, ganó la demanda de indemnización estatal y recibió 100,000 dólares taiwaneses.[^10]
+> **✦** Lin Zhijie se sentó en el vestíbulo del gabinete ejecutivo esa madrugada. Durante el desalojo recibió un golpe fuerte en la cabeza con una porra, provocándole una hemorragia intracraneal; al ser arrastrado por las escaleras sufrió una lesión de columna, convirtiéndose en una de las víctimas más graves. Tras ocho años de litigio, su demanda civil fue rechazada, pero ganó la indemnización estatal de diez mil dólares[^10].
 
-Lin Jui-tzu (Lin Hsiao-chiu) fue arrastrada del brazo y del cabello por el suelo, y sufrió una distensión de ligamentos en el hombro. Tras ocho años de litigio, perdió tanto la querella privada como la demanda de indemnización estatal, sin recibir un solo centavo. Diez años después, dijo a The Reporter: “No puedo permitir que mis padres sepan lo que ocurrió aquella noche.”[^10]
+Lin Ruizi (Lin Xiao‑qiu) fue arrastrada por el brazo y el cabello, lesionándose los ligamentos del hombro. Después de ocho años de procesos, tanto su demanda civil como la indemnización estatal fueron rechazadas, sin recibir un centavo. Diez años después contó a _The Reporter_: “No podía decirle a mis padres lo que ocurrió esa noche.”[^10]
 
-La sangre del 23 de marzo se transmitió por internet a todo Taiwán. Lo que despertó no fue miedo, sino indignación pública.
+La sangre del 323 se difundió por internet, no provocó miedo, sino indignación popular.
 
-## Luz del amanecer en la isla
+## Luz de isla
 
-Ese 23 de marzo, Sam Yang, vocalista de la banda Fire EX., fue al Yuan Legislativo en busca de inspiración. Vio la reacción de Lin Fei-fan al enterarse del desalojo del Yuan Ejecutivo, y Lin le dijo una frase: “Necesitamos un poco de fuerza suave.”[^11]
+Ese mismo día, el cantante de la banda _Fire EX_ (滅火器) Yang Dazheng (楊大正) fue al Yuan Legislativo en busca de inspiración. Al ver la reacción de Lin Feifan ante la noticia del desalojo, este le dijo: “Necesitamos un poco de fuerza amable.”[^11]
 
-Yang tomó una guitarra acústica y terminó una canción en dos días. “El cielo se aclara poco a poco; la esperanza en nuestro corazón es como la fuerza del sol que sale por el este...”
+Yang tomó su guitarra acústica y, en dos días, compuso una canción. “El cielo se aclara, la esperanza en nuestro corazón, como la fuerza del amanecer del este…”.
 
-El 30 de marzo, en Ketagalan Boulevard. Los organizadores afirmaron que había 500,000 personas; la policía contó 116,000; Associated Press estimó más de 200,000. La multitud vestida de negro se extendía desde Ketagalan Boulevard hasta Zhongxiao West Road y Zhongshan South Road, formando una cruz negra[^4]. “Island’s Sunrise” fue cantada por primera vez en el lugar por cientos de miles de personas.
+El 30 de marzo, en la avenida Ketagalan. Los organizadores anunciaron quinientas mil personas; la policía contabilizó 116 000; la Associated Press estimó más de doscientos mil. Multitudes vestidas de negro se extendieron desde la avenida Ketagalan hasta Zhongxiao West Road y Zhongshan South Road, formando una cruz negra[^4]. «Luz de isla» se cantó por primera vez en vivo ante decenas de miles.
 
-En 2015, la canción ganó el premio a Canción del Año en la 26.ª edición de los Golden Melody Awards. Al recibir el premio, Yang agradeció primero a un taxista que había encontrado su memoria USB, y luego dedicó el galardón a todas las personas que participaron en el 18 de marzo: “Ellos son los verdaderos protagonistas de esta canción.”[^12]
+En 2015, la canción ganó el premio a la Mejor Canción del Año en la 26ª edición de los Golden Melody Awards. Cuando Yang subió al escenario a recibir el galardón, agradeció primero a un taxista que le había devuelto una memoria USB y luego dedicó el premio a todos los que participaron en el 318: “Ellos son los verdaderos protagonistas de esta canción.”[^12]
 
-La canción fue posteriormente prohibida en China.
+Posteriormente, la canción fue prohibida en China.
 
-## El apretón de manos del Festival Qingming
+## El apretón de manos del Día de los Difuntos
 
-Después de veinticuatro días de ocupación, la clave de la retirada no fue una decisión estudiantil, sino una llamada telefónica.
+Tras los veinticuatro días de ocupación, la salida no dependió de los estudiantes, sino de una llamada telefónica.
 
-Durante el feriado del Festival Qingming, el entonces presidente del Yuan Legislativo Wang Jin-pyng se puso en contacto en privado con el grupo decisor del movimiento estudiantil. Ambas partes contaban con una cierta base de confianza mutua[^13]. El 6 de abril, Wang anunció formalmente fuera de la cámara: antes de completar la legislación de una norma de supervisión de los acuerdos a ambos lados del estrecho, no convocaría reuniones de negociación entre bancadas sobre el acuerdo de servicios.
+Durante el feriado del Día de los Difuntos, el entonces presidente del Yuan Legislativo, Wang Jin‑ping, contactó en privado al grupo de decisión del movimiento. Ambas partes ya contaban con una base de confianza mutua[^13]. El 6 de abril, Wang anunció fuera del hemiciclo que, mientras no se completara la legislación del Reglamento de Supervisión de Acuerdos Transfronterizos, no se convocarían reuniones de grupos parlamentarios sobre el Acuerdo.
 
-El 7 de abril a las ocho de la noche, el grupo decisor publicó la declaración “Pasar de la defensa al ataque, salir del paso y sembrar”, anunciando que había completado una tarea de etapa y que abandonaría la cámara el 10 de abril a las seis de la tarde[^4].
+El 7 de abril a las 20:00, el grupo de decisión emitió el comunicado «De la defensa a la ofensiva, sembrando fuera», anunciando que habían cumplido su misión parcial y que abandonarían el hemiciclo el 10 de abril a las 18:00[^4].
 
-Al atardecer del 10 de abril, los estudiantes salieron del Yuan Legislativo. Dentro de la cámara quedaron las huellas de veinticuatro días: pancartas, sacos de dormir, cables de carga, botellas de plástico a medio beber.
+Al atardecer del 10 de abril, los estudiantes dejaron el Yuan Legislativo. Dentro quedó el rastro de veinticuatro días: pancartas, sacos de dormir, cables de carga, botellas de plástico a medio terminar.
 
-1. **2014/3/17** — Chang Ching-chung declara el acuerdo aprobado en 30 segundos
-2. **2014/3/18** — Los estudiantes ocupan el Yuan Legislativo
-3. **2014/3/23** — Desalojo del Yuan Ejecutivo
-4. **2014/3/24** — La campaña del anuncio en The New York Times alcanza la meta en 35 minutos
-5. **2014/3/30** — Concentración en Ketagalan Boulevard, “Island’s Sunrise”
-6. **2014/4/6** — Wang Jin-pyng promete legislación de supervisión
-7. **2014/4/10** — Retirada estudiantil
+1. **2014/3/17** — Zhang Qingzhong declara en 30 s
+2. **2014/3/18** — Ocupación del Yuan Legislativo
+3. **2014/3/23** — Desalojo del gabinete ejecutivo
+4. **2014/3/24** — Campaña de crowdfunding del _New York Times_ en 35 minutos
+5. **2014/3/30** — Concentración en la avenida Ketagalan, “Luz de isla”
+6. **2014/4/6** — Wang Jin‑ping promete supervisar la legislación
+7. **2014/4/10** — Retiro de los estudiantes
 
-## El acuerdo de servicios murió solo
+## El Acuerdo de Comercio Transfronterizo se autodestruye
 
-La ocupación de veinticuatro días no rechazó el Acuerdo de Comercio de Servicios. Cuando los estudiantes se retiraron, la promesa de Wang Jin-pyng fue “legislar primero y revisar después”, no “no aprobarlo nunca”.
+Los veinticuatro días de ocupación no rechazaron el Acuerdo. Cuando los estudiantes se retiraron, la promesa de Wang fue “legislar antes de revisar”, no “nunca aprobar”.
 
-Pero el acuerdo de servicios no fue rechazado por la ley. Fue rechazado por la historia.
+Sin embargo, el Acuerdo nunca fue anulado por la ley; fue anulado por la historia.
 
-Después de 2014, las relaciones a ambos lados del estrecho se enfriaron abruptamente. En 2016, Tsai Ing-wen asumió la presidencia y Pekín interrumpió los canales oficiales de comunicación. El Acuerdo de Comercio de Servicios quedó silenciosamente guardado en los cajones del Yuan Legislativo, pasando de proyecto de ley controvertido a documento histórico. Nadie votó en su contra; simplemente nadie volvió a mencionarlo[^14].
+Después de 2014, las relaciones a ambos lados del estrecho se enfriaron drásticamente. En 2016, Tsai Ing‑wen asumió la presidencia y Pekín cortó los canales oficiales de comunicación. El Acuerdo quedó en un cajón del Yuan Legislativo, pasando de ser una legislación controvertida a un documento histórico. Nadie votó en contra; simplemente dejó de mencionarse[^14].
 
-¿Y aquella promesa que los estudiantes obtuvieron con la ocupación?
+¿Y el compromiso que los estudiantes obtuvieron?
 
-> **⚠️ Punto de vista controvertido**
-> La Ley de Supervisión de Acuerdos a Ambos Lados del Estrecho, como ley especial independiente, no ha sido aprobada hasta hoy. Lo que el Yuan Legislativo aprobó en tercera lectura en 2025 fue una enmienda a la Ley que Regula las Relaciones entre los Pueblos a Ambos Lados del Estrecho (con la incorporación del artículo 5-3), que elevó el umbral al nivel de una reforma constitucional: asistencia de tres cuartas partes de los legisladores, aprobación de tres cuartas partes y luego referéndum. Pero solo se aplica a “acuerdos sobre asuntos políticos” (cambios de soberanía), no a los acuerdos económicos que detonaron el movimiento aquel año[^15]. El paraguas que exigían los estudiantes, doce años después, solo se abrió a medias.
+> **⚠️ Punto controvertido**  
+> El Reglamento de Supervisión de Acuerdos Transfronterizos, como ley independiente, aún no ha sido aprobado. En 2025 el tercer voto del Yuan Legislativo fue sobre una enmienda al Reglamento de Relaciones entre los Pueblos de ambos lados del estrecho (artículo 5‑3), que eleva el umbral a nivel constitucional—tres cuartas partes de los legisladores presentes y tres cuartas partes de voto favorable más referéndum—pero solo se aplica a “acuerdos políticos” (cambio de soberanía), sin cubrir el acuerdo económico que originó el movimiento[^15]. La “paraguas” que los estudiantes demandaban, doce años después, solo se abrió a medias.
 
-## 42% → 31.5%
+## 42 % → 31,5 %
 
-Pero ganaron una guerra que no sabían que estaban librando.
+Sin embargo, ganaron una guerra que ni siquiera sabían que estaban librando.
 
-El Movimiento Girasol puso fin en la práctica al imaginario político de la integración económica a ambos lados del estrecho. En 2014, la dependencia de Taiwán respecto de las exportaciones a China (incluido Hong Kong) era de alrededor del 42%. Para 2025, esa cifra era 31.5%[^16]. En el mismo período, las exportaciones a Estados Unidos pasaron de 11% a 16.7%[^17].
+El movimiento Sunflower terminó con la imaginación política de una integración económica total entre Taiwán y China. En 2014, la dependencia de Taiwán de las exportaciones a China (incluye Hong Kong) era de aproximadamente 42 %. En 2025, esa cifra descendió a 31,5 %[^16]. En el mismo período, la participación de Taiwán en exportaciones a EE. UU. subió del 11 % al 16,7 %[^17].
 
-| Argumentos a favor del acuerdo de servicios                     | Argumentos en contra del acuerdo de servicios                                                                       |
-| --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| Elevar la competitividad internacional                          | El capital chino afectaría a las pequeñas y medianas empresas                                                       |
-| Profundizar la integración económica a ambos lados del estrecho | La diversidad editorial estaría amenazada                                                                           |
-| El sector financiero taiwanés podría abrir sucursales en China  | Se formaría un “bloque de intereses prochino” (en palabras de Lin Hsiang-kai, de la Universidad Nacional de Taiwán) |
+| Argumentos a favor del Acuerdo                                 | Argumentos en contra del Acuerdo                                                                    |
+| -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Mejora la competitividad internacional                         | Inversión china amenazaría a pymes                                                                  |
+| Profundiza la integración económica a ambos lados del estrecho | Amenaza la diversidad editorial                                                                     |
+| El sector financiero taiwanés podría abrir sucursales en China | Creación de “grupos de intereses pro‑China” (cita de Lin Xiang‑kai, Universidad Nacional de Taiwán) |
 
-Este giro no fue enteramente mérito del Movimiento Girasol. En 2018, la guerra comercial entre Estados Unidos y China aceleró la reorganización de las cadenas de suministro, y empresas taiwanesas trasladaron bases de producción desde China hacia Vietnam e India. El gobierno de Tsai Ing-wen impulsó la “Nueva Política hacia el Sur” para fortalecer los vínculos económicos y comerciales con el Sudeste Asiático. Pero el Girasol fue el punto de partida: convirtió la idea de que “la economía no puede depender en exceso de China” de un discurso marginal en un consenso social.
+Este cambio no se debe únicamente al Sunflower. La guerra comercial EE. UU.–China de 2018 aceleró la reconfiguración de cadenas de suministro; empresas taiwanesas trasladaron fábricas a Vietnam e India. El gobierno de Tsai impulsó la “Política del Nuevo Sur” para fortalecer los lazos comerciales con el sudeste asiático. Pero el Sunflower marcó el punto de partida: transformó la idea de “no depender excesivamente de China” de un discurso marginal a un consenso social.
 
-Durante el movimiento, el editor Rex How renunció a su cargo de asesor de política nacional de la Oficina Presidencial y escribió en una carta pública: “Estas industrias son, de hecho, el frente de una ‘guerra económica y de balas de plata’.”[^2] Mirado doce años después, tenía razón.
+El editor Hao Ming‑yi renunció a su cargo como asesor de política presidencial durante el movimiento y, en una carta abierta, escribió: “Estas industrias son, de hecho, el escenario de una ‘guerra económica y de plata’.”[^2] Doce años después, confirmó que tenía razón.
 
-## Medio Minuto Chung y el subsecretario general
+## Media lealtad y el subsecretario
 
-Las personas del Girasol tomaron luego caminos completamente distintos.
+Los participantes del Sunflower siguieron caminos muy diferentes.
 
-Lin Fei-fan se incorporó en 2019 al Partido Democrático Progresista como subsecretario general, convirtiéndose en parte del mismo sistema contra el que habían protestado. Chen Wei-ting mantuvo una trayectoria de movimiento social pero no entró en la política electoral; a fines de 2014 se retiró de la elección suplementaria legislativa de Miaoli debido a registros previos de acoso sexual[^18]. Huang Kuo-chang llegó con el New Power Party a obtener cinco escaños legislativos en 2016, luego dejó el partido que había fundado y en 2024 fue elegido como legislador por lista nacional del Partido Popular de Taiwán[^19].
+Lin Feifan se incorporó al Partido Progresista Democrático en 2019 como subsecretario, convirtiéndose en parte del aparato que había protestado contra. Chen Wei‑ting mantuvo su línea activista sin entrar en la política; en 2014 abandonó la candidatura a legislador en Miaoli tras revelarse un caso de acoso sexual[^18]. Huang Kuo‑chang lideró el partido Fuerza del Tiempo, ganó cinco escaños en 2016, luego dejó el partido que fundó y, en 2024, fue elegido como legislador de lista nacional por el Partido del Pueblo[^19].
 
-El Departamento de Sociología de la Universidad de Taipéi encuestó durante el movimiento a mil participantes: 65% participaba por primera vez en una protesta política, y la edad promedio era de veintitrés años[^4]. Hoy esas personas están en sus treinta y tantos, dispersas por distintos rincones de la sociedad taiwanesa.
+Una encuesta de la Universidad Nacional de Taipéi en sociología, realizada durante el movimiento, entrevistó a mil participantes: el 65 % era su primera vez en una protesta política, con una edad promedio de 23 años[^4]. Hoy esos jóvenes tienen treinta y tantos años y están dispersos por toda la sociedad de Taiwán.
 
-> **💡 ¿Sabías que...?**
-> En marzo de 2024, en vísperas del décimo aniversario del Movimiento Girasol, el presidente Lai Ching-te elogió públicamente su legado. La cámara del Yuan Legislativo ocupada aquel año es hoy un punto donde los turistas se toman fotografías.[^20]
+> **💡 ¿Lo sabías?**  
+> En marzo de 2024, el presidente Lai Ching‑te elogió públicamente el legado del movimiento Sunflower. El hemiciclo del Yuan Legislativo, que fue ocupado, hoy es una atracción turística para visitantes.[^20]
 
-## Ganaron, pero no de la manera que imaginaban
+## Ganaron, pero no de la forma que esperaban
 
-Al mirar atrás al Girasol, el hallazgo más contraintuitivo es este: el efecto real del movimiento superó con creces lo que cualquiera imaginaba entonces, pero ese efecto vino de una dirección completamente distinta a la que apuntaban.
+Mirando atrás, la conclusión más contraintuitiva es que el impacto real del movimiento superó con creces lo que cualquiera imaginó en 2014, pero la dirección del efecto fue totalmente distinta a la que buscaban.
 
-Querían impedir un acuerdo comercial, y ese acuerdo terminó muriendo solo. Querían impulsar una ley de supervisión, y esa ley sigue sin aprobarse. Lo que sí lograron fue hacer girar la orientación de toda la sociedad: de “hacer negocios con China es natural y lógico” a “la economía no puede quedar secuestrada por ningún país”.
+Querían bloquear un acuerdo comercial; el acuerdo se autodestruyó. Querían impulsar una ley de supervisión; esa ley sigue sin aprobarse. Lo que lograron fue cambiar la dirección del viento social: de “hacer negocios con China es natural” a “la economía no puede ser secuestrada por ningún país”.
 
-La sangre derramada en el Yuan Ejecutivo el 23 de marzo no trajo castigo para los perpetradores: solo catorce personas recibieron indemnizaciones por un total de 1.11 millones de dólares taiwaneses, y hasta hoy ningún agente concreto responsable de violencia ha rendido cuentas[^21]. “Island’s Sunrise” ganó un Golden Melody Award en Taiwán y fue prohibida en China. El acuerdo de servicios acumula polvo en un cajón, y la Ley de Supervisión de Acuerdos a Ambos Lados del Estrecho solo se abrió a medias.
+La sangre del 323 no trajo responsabilidad a los agresores—solo catorce personas recibieron una indemnización total de 1,111,000 TWD; los policías involucrados aún no han sido sancionados[^21]. «Luz de isla» ganó el Golden Melody y fue prohibida en China. El Acuerdo quedó en el cajón, y el Reglamento de Supervisión de Acuerdos Transfronterizos solo se abrió a medias.
 
-Pero lo que dejó aquella cruz negra sobre Ketagalan Boulevard no cabe en ninguna ley.
+Sin embargo, la cruz negra en la avenida Ketagalan dejó una huella que ninguna ley puede contener.
 
-Sam Yang lo dijo mejor. El día que recibió el Golden Melody Award, dedicó el premio a todas las personas que participaron en el 18 de marzo y dijo: “Ellos son los verdaderos protagonistas de esta canción.” Luego añadió: “Dedicado a todas las personas que se preocupan por el futuro del país, pero nunca se rinden.”[^12]
+Yang Dazheng lo expresó mejor. Al recibir el Golden Melody, dedicó el premio a todos los que participaron en el 318, diciendo: “Ellos son los verdaderos protagonistas de esta canción.” Luego añadió: “Lo dedico a todos los que se preocupan por el futuro del país, pero nunca dejan de luchar.”[^12]
 
-Doce años después, los estudiantes del Girasol ya no son estudiantes. Pero lo que aprendieron durante aquellos veinticuatro días —saltar una puerta, montar un iPad, pararse a las cuatro de la mañana frente a un cañón de agua— ya quedó escrito en el ADN de Taiwán.
+Doce años después, los estudiantes del Sunflower ya no son estudiantes. Pero lo que aprendieron en esos veinticuatro días—cruzar una puerta, montar un iPad, estar frente a un camión de agua a las cuatro de la madrugada—ya está escrito en el ADN de Taiwán.
 
-En aquellos treinta segundos, Chang Ching-chung probablemente no imaginó que lo que estaba reescribiendo no era el destino de un acuerdo comercial, sino la dirección de toda una isla.
+Aquellos treinta segundos, Zhang Qingzhong probablemente no imaginó que no estaba reescribiendo el destino de un acuerdo comercial, sino la dirección de toda una isla.
 
-**Lecturas complementarias**:
+**Lecturas relacionadas**:
 
-- [Transición democrática de Taiwán](/history/台灣民主轉型) — De la autoridad a la democracia, las bases institucionales del Movimiento Estudiantil Girasol
-- [Incidente de Kaohsiung](/history/美麗島事件) — Cómo la generación anterior de 1979 abrió la puerta de la democracia desde la calle
-- [Comunidad de código abierto y g0v](/technology/開源社群與g0v) — La comunidad de ingenieros detrás de la infraestructura digital del Girasol
-- [Movimientos sociales y participación cívica](/society/社會運動與公民參與) — La evolución de la sociedad civil taiwanesa después del Girasol
-- [Crisis del estrecho de Taiwán y desarrollo de las relaciones a ambos lados del estrecho](/history/台海危機與兩岸關係發展) — El trasfondo geopolítico más amplio de la controversia sobre el acuerdo de servicios
-- [Ma Ying-jeou](/people/馬英九) — El actor presidencial durante la aprobación en 30 segundos del acuerdo de servicios, el desalojo policial del Yuan Ejecutivo en la madrugada del 24 de marzo y la retirada del movimiento el 10 de abril
-- [Za Share](/society/雜學校) — Otra continuidad de la energía fuera del sistema tras el Movimiento del 18 de Marzo: traducir la rebelión callejera en un carnaval educativo, al estilo taiwanés
-- [Festival de la Vida Compleja](/society/複雜生活節) — La cuarta salida del «salir y sembrar» del 18 de Marzo: sin elecciones, sin código, sin reclutamiento; cada año reúne a la generación de los ochenta —golpeada por los salarios bajos y el desconcierto— en un «foro de los no exitosos» de doscientas o trescientas personas
-- [Taiwán y Esuatini](/society/台灣與史瓦帝尼) — Diez años después del Movimiento del 18 de Marzo, el discurso exterior durante la visita de Lai Ching-te a Esuatini en una etapa de consolidación diplomática: la escena concreta de las palabras “Estado soberano”
-- [Aaron Nieh](/people/聶永真) — El diseñador del anuncio “Democracy at 4am” en The New York Times en 2014: un registro desde el diseño de cómo el movimiento estudiantil entró en la mirada internacional
+- [Transformación democrática de Taiwán](/history/台灣民主轉型) — De la dictadura a la democracia, la base institucional del movimiento Sunflower
+- [Incidente de la Isla Hermosa](/history/美麗島事件) — Cómo los activistas de 1979 abrieron la puerta a la democracia en la calle
+- [開源社群與 g0v](/technology/開源社群與g0v) — La comunidad de ingenieros detrás de la infraestructura digital del Sunflower
+- [Movimientos sociales y participación cívica](/society/社會運動與公民參與) — La evolución de la sociedad civil en Taiwán después del Sunflower
+- [Crisis del estrecho de Taiwán y desarrollo de relaciones a ambos lados del estrecho](/history/台海危機與兩岸關係發展) — El contexto geopolítico más amplio del debate del Acuerdo
+- [馬英九](/people/馬英九) — Decisiones presidenciales durante el paso del Acuerdo, el desalojo del gabinete ejecutivo el 24 de marzo y la salida del movimiento el 10 de abril
+- [Escuela de la mezcolanza](/society/雜學校) — La continuación de la energía fuera del sistema tras el 318: traducir la rebelión callejera en un caso de educación en Taiwán
+- [Festival de vida compleja](/society/複雜生活節) — La cuarta salida del “Sembrar fuera” del 318: sin elecciones, sin codificación, sin reclutamiento, reuniendo a cientos de “no exitosos” cada año
+- [Taiwán y Esuatini](/society/台灣與史瓦帝尼) — Declaraciones externas diez años después del Sunflower, cuando Lai Ching‑te reforzó los lazos diplomáticos: el significado concreto de “estado soberano”
+- [聶永真](/people/聶永真) — El diseñador detrás del anuncio de madrugada “Democracy at 4 am” del _New York Times_, registro del diseño que llevó al movimiento a la vista internacional
 
 ## Referencias
 
-[^1]: [Watchout Congreso Wushuang: detrás del paso forzado del acuerdo de servicios en 30 segundos](https://watchout.tw/reports/DvH94jPxSXguzAMJbsoB) — Reconstrucción literal y análisis constitucional de la declaración de 30 segundos de Chang Ching-chung, con registro en video.
+[^1]: [沃草國會無雙：在服貿 30 秒闖關的背後](https://watchout.tw/reports/DvH94jPxSXguzAMJbsoB) — Transcripción literal y análisis constitucional del anuncio de 30 s de Zhang Qingzhong.
 
-[^2]: [CNA: el Movimiento Estudiantil Girasol vuelve al lugar de los hechos en su décimo aniversario](https://www.cna.com.tw/news/aipl/202403165004.aspx) — Reportaje retrospectivo de CNA de 2024 por el décimo aniversario, con el contenido del Acuerdo de Comercio de Servicios, la carta pública de Rex How y la controversia sobre la revisión.
+[^2]: [中央社：太陽花學運 10 週年重回現場](https://www.cna.com.tw/news/aipl/202403165004.aspx) — Reportaje de aniversario 2024, incluye contenido del Acuerdo y la carta pública de Hao Ming‑yi.
 
-[^3]: [Storm Media: “Medio Minuto Chung”, Chang Ching-chung, pierde la elección por el acuerdo de servicios](https://www.storm.mg/article/78743) — Reportaje electoral de 2016: Chang Ching-chung fracasa en su intento de un cuarto mandato consecutivo y pierde ante Chiang Yung-chang, del Partido Democrático Progresista.
+[^3]: [風傳媒：「半分忠」張慶忠因服貿落選](https://www.storm.mg/article/78743) — Cobertura de la derrota electoral de Zhang en 2016.
 
-[^4]: [Wikipedia: Movimiento Estudiantil Girasol](https://zh.wikipedia.org/wiki/%E5%A4%AA%E9%99%BD%E8%8A%B1%E5%AD%B8%E9%81%8B) — Cronología completa del movimiento, estadísticas de participación, proceso de retirada y compilación de respuestas de distintos sectores.
+[^4]: [維基百科：太陽花學運](https://zh.wikipedia.org/wiki/%E5%A4%AA%E9%99%BD%E8%8A%B1%E5%AD%B8%E9%81%8B) — Cronología completa, estadísticas de participación y proceso de salida.
 
-[^5]: [iThome: secretos de TI detrás del Movimiento Estudiantil Girasol](https://www.ithome.com.tw/news/86701) — Detalles técnicos de la infraestructura digital construida por ingenieros de g0v la noche de la ocupación, incluida la instalación de antenas WiMax y el uso de emergencia de Ethernet por USB.
+[^5]: [iThome：太陽花學運背後的 IT 祕辛](https://www.ithome.com.tw/news/86701) — Detalles técnicos de la infraestructura digital construida por ingenieros g0v.
 
-[^6]: [FlyingV: página de financiamiento colectivo ThisAttackComesFromTaiwan](https://www.zeczec.com/projects/thisattackcomesfromtaiwan) — Página original de financiamiento colectivo para el anuncio en The New York Times, que registra cómo se alcanzaron 1.5 millones en 35 minutos y se superaron 6.7 millones en 3 horas.
+[^6]: [FlyingV：ThisAttackComesFromTaiwan 集資專頁](https://www.zeczec.com/projects/thisattackcomesfromtaiwan) — Página original de crowdfunding del anuncio del _New York Times_.
 
-[^7]: [Business Today: diseñador taiwanés publica anuncio del movimiento estudiantil en The New York Times](https://www.businesstoday.com.tw/article-content-92743-106932) — Historia del diseño del anuncio “Democracy at 4am” a cargo de Aaron Nieh y detalles de su publicación.
+[^7]: [今周刊：台灣設計師《紐約時報》登學運廣告](https://www.businesstoday.com.tw/article-content-92743-106932) — Proceso y detalles del anuncio “Democracy at 4 am”.
 
-[^8]: [Wikipedia: incidente de la ocupación del Yuan Ejecutivo el 23 de marzo](https://zh.wikipedia.org/zh-tw/323%E4%BD%94%E9%A0%98%E8%A1%8C%E6%94%BF%E9%99%A2%E4%BA%8B%E4%BB%B6) — Desarrollo completo del intento de ocupación del Yuan Ejecutivo, las seis oleadas de desalojo y las cifras de heridos.
+[^8]: [維基百科：323 佔領行政院事件](https://zh.wikipedia.org/zh-tw/323%E4%BD%94%E9%A0%98%E8%A1%8C%E6%94%BF%E9%99%A2%E4%BA%8B%E4%BB%B6) — Relato completo del desalojo del gabinete ejecutivo y las seis oleadas de despeje.
 
-[^9]: [China Times: el Yuan de Control confirma que algunos policías actuaron con resentimiento durante el desalojo violento del Movimiento Girasol](https://www.chinatimes.com/realtimenews/20230323003804-260407) — Informe de investigación más reciente del Yuan de Control en 2023, que confirma excesos respecto del principio de proporcionalidad.
+[^9]: [中時新聞：太陽花學運警方暴力驅離 監察院確認部分員警懷恨意](https://www.chinatimes.com/realtimenews/20230323003804-260407) — Informe de la Oficina de Inspección de 2023 sobre uso excesivo de la fuerza.
 
-[^10]: [The Reporter: el largo camino traumático de las multitudes del Girasol](https://www.twreporter.org/a/318-movement-10th-anniversary-lawsuit-litigants) — Reportaje de profundidad de The Reporter en 2024, que sigue las historias personales de Lin Chih-chieh, con hemorragia intracraneal, y Lin Jui-tzu, tras ocho años de litigio, así como los resultados de las demandas de indemnización estatal.
+[^10]: [報導者：太陽花群眾的漫長創傷路](https://www.twreporter.org/a/318-movement-10th-anniversary-lawsuit-litigants) — Reportaje de 2024 sobre Lin Zhijie, Lin Ruizi y resultados de los casos de indemnización.
 
-[^11]: [The Can: escribir la canción más suave: Island’s Sunrise / Fire EX., Sam Yang](https://www.thecan.com.tw/tw/log/detail/508) — Relato de Sam Yang sobre el proceso creativo: la frase de Lin Fei-fan sobre una “fuerza suave” detonó la composición de letra y música en dos días.
+[^11]: [甘樂文創：寫一首最溫柔的歌——島嶼天光 / 滅火器，楊大正](https://www.thecan.com.tw/tw/log/detail/508) — Declaración de Yang Dazheng sobre la inspiración de la canción.
 
-[^12]: [Banco Nacional de Memoria Cultural: Island’s Sunrise gana el Golden Melody Award a mejor sencillo del año](https://tcmb.culture.tw/zh-tw/detail?indexCode=Culture_Object&id=507367) — Registro de la ceremonia de la 26.ª edición de los Golden Melody Awards, con el discurso completo de Sam Yang.
+[^12]: [國家文化記憶庫：島嶼天光奪金曲獎年度最佳單曲](https://tcmb.culture.tw/zh-tw/detail?indexCode=Culture_Object&id=507367) — Registro del premio Golden Melody 2015 y discurso completo de Yang.
 
-[^13]: [United Daily News: diez años del Girasol: de gobierno a estudiantes, todos pensaban en cómo retirar el movimiento](https://vip.udn.com/vip/story/121160/7840414) — Reportaje exclusivo de 2024 por el décimo aniversario, que reconstruye la coordinación privada de Wang Jin-pyng durante el feriado de Qingming y la declaración “Pasar de la defensa al ataque, salir del paso y sembrar”.
+[^13]: [聯合報：太陽花十年——從政府到學生都在想學運如何退場](https://vip.udn.com/vip/story/121160/7840414) — Reportaje de 2024 sobre la negociación privada de Wang Jin‑ping y el comunicado “Sembrar fuera”.
 
-[^14]: [The Reporter: diez años después del Girasol: diez palabras clave que merecen ser recordadas](https://www.twreporter.org/a/318-movement-10th-anniversary-10-keywords) — Serie de The Reporter por el décimo aniversario, que analiza la “muerte natural” del Acuerdo de Comercio de Servicios, el legado de largo plazo del movimiento y sus promesas inconclusas.
+[^14]: [報導者：太陽花 10 年後——10 個值得被記住的關鍵字](https://www.twreporter.org/a/318-movement-10th-anniversary-10-keywords) — Análisis del “muerte natural” del Acuerdo y su legado.
 
-[^15]: [The News Lens: el Yuan Legislativo aprueba en tercera lectura que el umbral para “acuerdos a ambos lados del estrecho” sea equivalente al de una reforma constitucional](https://www.thenewslens.com/article/120099) — Reportaje sobre la aprobación de la enmienda a la Ley que Regula las Relaciones entre los Pueblos a Ambos Lados del Estrecho, con análisis de por qué cubre solo acuerdos políticos y no económicos.
+[^15]: [關鍵評論網：立院三讀「兩岸協議」門檻比照修憲等級](https://www.thenewslens.com/article/120099) — Explicación del umbral constitucional para la enmienda del Reglamento de Relaciones a ambos lados del estrecho.
 
-[^16]: [Yahoo News: la dependencia de Taiwán respecto de las exportaciones a China cae a 31.5%](https://tw.news.yahoo.com/%E5%8F%B0%E7%81%A3%E5%B0%8D%E4%B8%AD%E5%9C%8B%E7%9A%84%E5%87%BA%E5%8F%A3%E4%BE%9D%E5%AD%98%E5%BA%A6%E9%99%8D%E8%87%B331-5-%E5%87%BA%E5%8F%A3%E9%99%84%E5%8A%A0%E5%83%B9%E5%80%BC%E5%89%B521%E5%B9%B4%E6%96%B0%E9%AB%98-072951768.html) — Datos comerciales más recientes de 2025: la proporción de exportaciones de Taiwán hacia China sigue disminuyendo.
+[^16]: [Yahoo 新聞：台灣對中國的出口依存度降至 31.5%](https://tw.news.yahoo.com/%E5%8F%B0%E7%81%A3%E5%AF%B9%E4%B8%AD%E5%9C%8B%E7%9A%84%E5%87%BA%E5%8F%A3%E4%BE%9D%E5%AD%98%E5%BA%A6%E9%99%8D%E8%87%B331-5-%E5%87%BA%E5%8F%A3%E9%99%84%E5%8A%A0%E5%83%B9%E5%80%BC%E5%89%B5%E5%8D%81%E5%B9%B4%E6%96%B0%E9%AB%98-072951768.html) — Datos de comercio 2025, caída de la dependencia de exportaciones a China.
 
-[^17]: [Liberty Times: medios extranjeros señalan que China se perjudicó a sí misma; la dependencia comercial de Taiwán respecto de China cae de forma sorprendente](https://ec.ltn.com.tw/article/breakingnews/4602029) — Análisis de medios internacionales sobre la disminución de la dependencia comercial de Taiwán respecto de China y el aumento de la proporción comercial con Estados Unidos.
+[^17]: [自由時報：外媒指中國自敗 台灣對中貿易依存驚人下降](https://ec.ltn.com.tw/article/breakingnews/4602029) — Análisis internacional del descenso de la dependencia comercial con China y aumento con EE. UU.
 
-[^18]: [Storm Media: quinto aniversario del Girasol: ¿qué fue de quienes ocuparon juntos el Yuan Legislativo aquel año?](https://www.storm.mg/article/1046957) — Seguimiento del desarrollo posterior de los líderes del movimiento, incluidas las trayectorias divergentes de Lin Fei-fan, Chen Wei-ting y Huang Kuo-chang.
+[^18]: [風傳媒：太陽花 5 周年——那年一起佔領立法院的那些人，現在怎麼了？](https://www.storm.mg/article/1046957) — Seguimiento de los líderes del movimiento después de 2019.
 
-[^19]: [Wikipedia: lista de elecciones del New Power Party](https://zh.wikipedia.org/zh-tw/%E6%99%82%E4%BB%A3%E5%8A%9B%E9%87%8F%E5%8F%83%E6%94%BF%E9%81%B8%E8%88%89%E5%88%97%E8%A1%A8) — Registro electoral del New Power Party, desde cinco escaños en 2016 hasta solo uno en 2024.
+[^19]: [維基百科：時代力量參政選舉列表](https://zh.wikipedia.org/zh-tw/%E6%99%82%E4%BB%A3%E5%8A%9B%E9%87%8F%E5%8F%83%E6%94%BF%E9%81%B8%E8%88%89%E5%88%97%E8%A1%A8) — Registro electoral del partido Fuerza del Tiempo.
 
-[^20]: [Taipei Times: Lai praises the legacy of the Sunflower movement](https://www.taipeitimes.com/News/taiwan/archives/2026/03/19/2003854087) — En 2026, el presidente Lai Ching-te elogió públicamente el legado del Movimiento Girasol.
+[^20]: [Taipei Times: Lai praises the legacy of the Sunflower movement](https://www.taipeitimes.com/News/taiwan/archives/2026/03/19/2003854087) — Declaración pública del presidente Lai Ching‑te en 2026.
 
-[^21]: [The News Lens: demanda de indemnización estatal del Movimiento Estudiantil Girasol: el tribunal de primera instancia sentencia que la Policía de Taipéi debe indemnizar a 14 personas](https://www.thenewslens.com/article/126796) — Sentencia de primera instancia de 2019 en la demanda de indemnización estatal: de 34 demandantes, 14 recibieron finalmente un total de 1,111,570 dólares taiwaneses.
+[^21]: [關鍵評論網：太陽花學運國賠案——法院一審宣判北市警局應賠 14 人](https://www.thenewslens.com/article/126796) — Sentencia de 2019 sobre la indemnización estatal a 14 manifestantes.

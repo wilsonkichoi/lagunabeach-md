@@ -1,19 +1,19 @@
 ---
-title: "Japanese Colonial Era"
+title: 'Japanese Colonial Era'
 description: "Japan ruled Taiwan for 50 years from 1895 to 1945, bringing comprehensive modernization and institutional management while implementing assimilation policies that profoundly shaped Taiwan's social development"
 date: 2026-03-17
-author: "Taiwan.md Contributors"
-category: "History"
-subcategory: "殖民與帝國"
-tags: ["History", "Japanese Rule", "Modernization", "Kōminka Movement"]
+author: 'Taiwan.md Contributors'
+category: 'History'
+subcategory: '殖民與帝國'
+tags: ['History', 'Japanese Rule', 'Modernization', 'Kōminka Movement']
 lastVerified: 2026-03-19
 lastHumanReview: false
 featured: true
-translatedFrom: "History/日治時期.md"
-sourceCommitSha: "18157ab5d"
-sourceContentHash: "sha256:33d9a2c12bde5914"
-sourceBodyHash: "sha256:c1f42478c12060a3"
-translatedAt: "2026-05-20T05:08:27+08:00"
+translatedFrom: 'History/日治時期.md'
+sourceCommitSha: '1e674def'
+sourceContentHash: 'sha256:ab038fc6af555335'
+sourceBodyHash: 'sha256:c1f42478c12060a3'
+translatedAt: '2026-05-20T05:08:27+08:00'
 ---
 
 # Japanese Colonial Era
@@ -24,7 +24,7 @@ From 1895 to 1945, Japan's fifty-year rule over Taiwan brought rapid modernizati
 
 ## The Colonial Governance System
 
-The Government-General of Taiwan, based in Taipei, was the supreme governing authority. The Governor-General was appointed by the Emperor and held executive, legislative, and military powers. The "Law 63" framework authorized the Governor-General to issue legally binding ordinances. Under the police system, the *hoko* (保甲) mutual surveillance organization incorporated every household into a collective responsibility network, ensuring colonial control penetrated to the grassroots level.
+The Government-General of Taiwan, based in Taipei, was the supreme governing authority. The Governor-General was appointed by the Emperor and held executive, legislative, and military powers. The "Law 63" framework authorized the Governor-General to issue legally binding ordinances. Under the police system, the _hoko_ (保甲) mutual surveillance organization incorporated every household into a collective responsibility network, ensuring colonial control penetrated to the grassroots level.
 
 Upon taking control of Taiwan in 1895, Japan faced armed resistance from the Republic of Taiwan. Local armed uprisings continued until the 1915 Xilai'an Incident, after which armed resistance largely ceased, and colonial rule entered a relatively stable period of modernization.
 
@@ -46,7 +46,7 @@ Political resistance took new forms in the 1920s. The Taiwan Parliament Petition
 
 The 1923 Police Affairs Incident was a major act of colonial suppression: Japanese authorities arrested core members of the Parliament Petition Movement (including Chiang Wei-shui) on charges of violating the Peace Preservation Law, and the subsequent trial generated widespread public attention, resulting in guilty verdicts. The incident significantly raised the movement's public profile and accelerated the political polarization of Taiwanese society. The Taiwan Communist Party, founded in 1928 in Shanghai by figures including Xie Xuehong (as a peripheral organization of the Japanese Communist Party), advocated Taiwanese national independence and was immediately suppressed by colonial authorities, collapsing by 1931.[^4]
 
-Japanese scholar Yanaihara Tadao's 1929 work *Taiwan Under Imperialism* analyzed the exploitative structure of Japanese colonial rule through capitalist political economy and remains one of the most frequently cited critical works in colonial historiography.
+Japanese scholar Yanaihara Tadao's 1929 work _Taiwan Under Imperialism_ analyzed the exploitative structure of Japanese colonial rule through capitalist political economy and remains one of the most frequently cited critical works in colonial historiography.
 
 The 1930 Wushe Incident was the largest indigenous armed anti-Japanese action during the colonial period, in which Seediq chief Mona Ludao led approximately 300 tribesmen in an uprising. The Japanese suppression and subsequent policies remain widely controversial.
 
@@ -69,9 +69,13 @@ Interpretations of the Japanese colonial period remain debated in academia. The 
 ## References
 
 [^1]: [Taiwan under Japanese rule — Wikipedia](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E6%97%A5%E6%B2%BB%E6%99%82%E6%9C%9F) — Overview of the Japanese colonial period in Taiwan, including governance systems, chronology of major events, and policies by phase.
+
 [^2]: [Chianan Canal — Wikipedia](https://zh.wikipedia.org/wiki/%E5%98%89%E5%8D%97%E5%A4%A7%E5%9C%B3) — Construction history of the Chianan Canal and the engineering background of Hatta Yoichi.
+
 [^3]: [Taiwan Cultural Association — Wikipedia](https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E6%96%87%E5%8C%96%E5%8D%94%E6%9C%83) — Founding background of the Taiwan Cultural Association, the roles of Chiang Wei-shui and Lin Hsien-tang, and the subsequent split and formation of the Taiwan People's Party.
+
 [^4]: [Police Affairs Incident — Wikipedia](https://zh.wikipedia.org/wiki/%E6%B2%BB%E8%AD%A6%E4%BA%8B%E4%BB%B6) — The 1923 arrest of Taiwan Parliament Petition Movement members by Japanese colonial authorities under the Peace Preservation Law.
+
 [^5]: [Gotō Shinpei — Wikipedia](https://zh.wikipedia.org/wiki/%E5%BE%8C%E8%97%A4%E6%96%B0%E5%B9%B3) — Gotō Shinpei's "biological theory of colonial governance" and his infrastructure policies as Civil Administrator of the Government-General of Taiwan.
 
 ## Further Reading

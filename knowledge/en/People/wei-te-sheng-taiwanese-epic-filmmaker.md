@@ -1,23 +1,29 @@
 ---
 title: "Wei Te-sheng: Yongkang 1969, the Taiwanese Epic Filmmaker from Cape No. 7's Record-Breaking Box Office to the Venice Main Competition"
-description: "Born August 16, 1969, in Yongkang Township, Tainan County (now Yongkang District, Tainan City). Graduated from the Department of Electrical Engineering at Far East Junior College (now Far East University of Science and Technology). In 2008, Cape No. 7 grossed approximately NT$530 million (a Taiwanese box office record). In 2011, Seediq Bala was selected for the main competition of the 68th Venice International Film Festival, competing for the Golden Lion, and won Best Feature Film at the 48th Golden Horse Awards. Currently preparing the Taiwan Trilogy epic project."
+description: 'Born August 16, 1969, in Yongkang Township, Tainan County (now Yongkang District, Tainan City). Graduated from the Department of Electrical Engineering at Far East Junior College (now Far East University of Science and Technology). In 2008, Cape No. 7 grossed approximately NT$530 million (a Taiwanese box office record). In 2011, Seediq Bala was selected for the main competition of the 68th Venice International Film Festival, competing for the Golden Lion, and won Best Feature Film at the 48th Golden Horse Awards. Currently preparing the Taiwan Trilogy epic project.'
 date: 2026-03-19
-author: "Taiwan.md"
-category: "People"
-subcategory: "電影與戲劇"
-tags: ['電影與戲劇', '導演', '台灣電影', '原住民文化', '海角七號', '賽德克巴萊', '台南']
-readingTime: '# design_rationale:
-#   why_this_hook: "5.3億票房+威尼斯主競賽——這兩個節點才能說清楚他在台灣電影史的位置：一個商業奇蹟與一個藝術認可，不是同一件事。"
-#   whats_excluded: "霧社事件歷史背景完整分析；台灣三部曲資金籌募細節；《海角七號》演員逐一介紹"
-#   where_it_hedges: "《海角七號》票房5.3億：來源P0確認「破億」，5.3億此數字為現有資料常見說法（建議確認官方統計）"'
+category: 'People'
+tags:
+  [
+    '電影與戲劇',
+    '導演',
+    '台灣電影',
+    '原住民文化',
+    '海角七號',
+    '賽德克巴萊',
+    '台南',
+  ]
+subcategory: '電影與戲劇'
+author: 'Taiwan.md'
+featured: false
 lastVerified: 2026-05-07
 lastHumanReview: true
-featured: false
-translatedFrom: People/魏德聖.md
-sourceCommitSha: 0f8fae0ae
-sourceContentHash: sha256:c12363db6be367bf
-sourceBodyHash: sha256:c323a1cb617cbe0a
-translatedAt: 2026-05-24T05:06:32+08:00
+readingTime: 7
+translatedFrom: 'People/魏德聖.md'
+sourceCommitSha: '8f070a88'
+sourceContentHash: 'sha256:c53d9ecd803bd8cd'
+sourceBodyHash: 'sha256:9fd756dd61905363'
+translatedAt: '2026-06-11T16:38:12Z'
 ---
 
 # Wei Te-sheng: Yongkang 1969, the Taiwanese Epic Filmmaker from Cape No. 7's Record-Breaking Box Office to the Venice Main Competition
@@ -80,7 +86,7 @@ There are no shortcuts in filmmaking. From an electrical engineering program in 
 
 Born in Yongkang, Tainan, in 1969; in 2000, spent NT$500,000 on a five-minute film and couldn't find funding; in 2008, NT$530 million at the box office; in 2011, the Venice main competition—this trajectory is an accumulation of endurance, nothing to do with miracles.
 
-**Further reading:** [Wei Te-sheng — Wikipedia](https://zh.wikipedia.org/zh-tw/魏德聖) ｜ [Taiwan Cinema Database: Wei Te-sheng](https://taiwancinema.bamid.gov.tw/Staff/StaffContent/?ContentUrl=12549) ｜ [Golden Horse Awards Official Site](https://www.goldenhorse.org.tw/)
+**Further reading:** [Mona Rudao](/en/People/mona-rudao) (the historical protagonist behind Seediq Bala, and how the film reshaped his memory) ｜ [Wei Te-sheng — Wikipedia](https://zh.wikipedia.org/zh-tw/魏德聖) ｜ [Taiwan Cinema Database: Wei Te-sheng](https://taiwancinema.bamid.gov.tw/Staff/StaffContent/?ContentUrl=12549) ｜ [Golden Horse Awards Official Site](https://www.goldenhorse.org.tw/)
 
 ## References
 

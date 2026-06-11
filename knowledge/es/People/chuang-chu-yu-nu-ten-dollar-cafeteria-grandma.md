@@ -1,77 +1,83 @@
 ---
-title: 'Chuang Chu Yu-nü: De las mesas gratuitas para obreros portuarios a los almuerzos de diez dólares taiwaneses tras vender siete propiedades'
-description: 'En 1951, Chuang Chu Yu-nü instaló una cocina junto al puerto de Kaohsiung para ofrecer comidas gratuitas a los obreros portuarios de escasos recursos. Esta abuela, conocida como la «guardiana de los pobres», mantuvo durante los siguientes cincuenta años un buffet libre a precio de diez dólares taiwaneses, llegando incluso a vender siete propiedades para cubrir los gastos, convirtiendo «que todos coman hasta saciarse» en una fe de toda la vida.'
-category: People
-tags:
-  [
-    'filántropa',
-    'Kaohsiung',
-    'almuerzos de diez dólares taiwaneses',
-    'Chuang Chu Yu-nü',
-    'causas benéficas sociales',
-    'Penghu',
-  ]
-author: 'Taiwan.md Contributors'
+title: 'Chuang Chu-yu-nu: de la mesa gratuita para los trabajadores del puerto a los almuerzos de diez dólares que le costaron vender siete casas'
+description: 'En 1951, Chuang Chu-yu-nu instaló una cocina junto al puerto de Kaohsiung para ofrecer comidas gratuitas a los trabajadores del muelle que vivían en la pobreza. Esta abuela, venerada como la «diosa protectora de los pobres», mantuvo durante cincuenta años un bufé ilimitado a diez dólares, llegando incluso a vender siete propiedades para sostener los gastos, convirtiendo «alimentar a la gente» en una fe de por vida.'
 date: 2026-04-29
-readingTime: 10
+category: 'People'
+tags:
+  - '慈善家'
+  - '高雄'
+  - '十元便當'
+  - '莊朱玉女'
+  - '社會公益'
+  - '澎湖'
+subcategory: '社會與公益'
+author: 'Taiwan.md Contributors'
+featured: false
 lastVerified: 2026-04-29
 lastHumanReview: false
+readingTime: 10
 translatedFrom: 'People/莊朱玉女.md'
-sourceCommitSha: '4b6d28c5'
+sourceCommitSha: '4b6d28c54'
 sourceContentHash: 'sha256:877ba646499c2433'
 sourceBodyHash: 'sha256:59833698754e5cb0'
-translatedAt: '2026-05-01T22:19:10+08:00'
+translatedAt: '2026-06-12T00:53:42+08:00'
 ---
 
-> **Resumen en 30 segundos:** Chuang Chu Yu-nü (1920-2015) fue una reconocida filántropa taiwanesa que gestionó durante décadas un «buffet libre de diez dólares taiwaneses» bajo el paso elevado del parque de Kaohsiung. Inicialmente ofrecía comidas gratuitas para cuidar a los obreros portuarios de su mismo pueblo natal, y más tarde, debido a los altos gastos, comenzó a cobrar diez dólares taiwaneses, manteniendo siempre la política de «comer hasta saciarse» sin reparar en costes. Vendió siete propiedades a lo largo de su vida para realizar obras benéficas, y su funeral atrajo a más de tres mil personas en condolencia; su espíritu sigue siendo un símbolo de calidez en la sociedad taiwanesa actual.
+> **Resumen de 30 segundos:** Chuang Chu-yu-nu (1920‑2015) es una famosa filántropa de Taiwán, conocida por operar durante años el «bufé de diez dólares» bajo el puente del parque de Kaohsiung. Al principio ofrecía comidas gratuitas a los trabajadores del puerto de su tierra natal, pero, ante los altos costos, empezó a cobrar diez dólares, manteniendo siempre la política de «comida ilimitada» sin buscar ganancias. Vendió siete inmuebles para financiar su labor; su funeral reunió a más de tres mil personas, y su espíritu sigue siendo un símbolo de calidez en la sociedad de Taiwán.
 
-En 1951, junto a un almacén de suministros junto al puerto de Kaohsiung, una mujer de 31 años, Chu Yu-nü, se afanaba revolviendo grandes ollas de comida frente a una cocina rudimentaria. Su objetivo no era lucrarse; quería que los obreros portuarios que habían llegado desde su pueblo natal de Penghu para buscarse la vida en el puerto de Kaohsiung pudieran disfrutar de una comida caliente y saciante [^1].
+En 1951, junto al almacén del puerto de Kaohsiung, una mujer de treinta y un años llamada Chu-yu-nu (朱玉女) agitaba una olla enorme sobre una cocina rudimentaria. No buscaba lucro; quería que los trabajadores del muelle, que habían llegado desde su tierra natal en Penghu, tuvieran una comida caliente y reconfortante[^1].
 
-### De «gratuito» a «diez dólares»: una compasión que desafía la lógica comercial
+### De «gratuito» a «diez dólares»: compasión que desafía la lógica empresarial
 
-Chuang Chu Yu-nü, cuyo nombre de nacimiento era Chu Yu-nü, nació el 4 de septiembre de 1920 en la aldea de Jibei, municipio de Baisha, Penghu [^2]. A los 16 años se casó con Chuang Wen-teng, un hombre de su misma aldea, y se mudó a Kaohsiung tras el matrimonio [^1]. Durante la Segunda Guerra Mundial, su marido fue enviado al Sudeste Asiático como personal militar, y ella mantuvo a la familia conduciendo un carro de bueyes, conociendo de primera mano las dificultades de la vida en los estratos más bajos [^1]. Tras la guerra, la pareja se dedicó a las operaciones de carga y descarga en el puerto de Kaohsiung. En aquel entonces, muchos obreros portuarios eran originarios de Penghu; realizaban trabajos de gran desgaste físico pero con ingresos muy bajos, y a menudo, por pobreza, se ahorraban comidas, llegando incluso a trabajar con el estómago vacío. Al ver la difícil situación de sus paisanos y de otras personas necesitadas, Chuang Chu Yu-nü decidió instalar una cocina junto al almacén de su casa para ofrecer comidas gratuitas [^1].
+Chuang Chu-yu-nu, cuyo nombre de nacimiento era Chu-yu-nu, nació el 4 de septiembre de 1920 en la aldea Jibei, municipio de Baisha, Penghu[^2]. A los dieciséis años se casó con su compatriota Chuang Wen-teng y se mudó a Kaohsiung[^1]. Durante la Segunda Guerra Mundial, su esposo fue enviado a Sudeste Asiático como soldado; ella condujo un carro de bueyes para mantener a la familia, comprendiendo de primera mano la dureza de la vida de la clase trabajadora[^1]. Tras la guerra, la pareja se dedicó a la carga y descarga en el puerto. Muchos de los trabajadores provenían de Penghu, realizaban labores físicamente exigentes y ganaban muy poco, a menudo trabajando con el estómago vacío. Al ver su sufrimiento, Chuang decidió instalar una cocina junto a su propio almacén para ofrecer comidas gratuitas[^1].
 
-Al principio, ofrecía comidas completamente gratuitas. Sin embargo, a medida que aumentaba el número de comensales, los enormes gastos en ingredientes hicieron que las finanzas familiares fueran insostenibles. Por sugerencia de su hijo mayor, Chuang Chi-hsiung, comenzó a cobrar simbólicamente «cinco dólares taiwaneses», y más tarde ajustó el precio a «diez dólares taiwaneses» debido a las fluctuaciones de precios [^1]. Incluso cobrando diez dólares, seguía siendo un negocio en el que «cuanto más se servía, más pérdidas se generaban». La comida de la abuela nunca era descuidada: sus platos eran caseros y abundantes, con arroz blanco en cuenco grande, tres acompañamientos que incluían pescado fresco, carne de cerdo braseada y verduras, además de una sopa de pescado humeante, llena del «sabor de casa» [^1].
+Al principio la comida era totalmente gratuita. Sin embargo, el número creciente de comensales hizo que los costos de los alimentos superaran la capacidad financiera familiar. Siguiendo el consejo de su hijo mayor, Chuang Ji-hsiung, empezó a cobrar simbólicamente «cinco dólares», y más tarde, ajustó el precio a «diez dólares» según la inflación[^1]. Incluso con el cobro de diez dólares, el negocio seguía siendo una operación de «ganar menos, perder más». El bufé de la abuela no escatimaba en calidad: arroz en grandes tazones, pescado fresco, carne estofada, verduras y una sopa de pescado humeante, todo con el sabor de «casa»[^1].
 
-📝 Nota del comisario: Esta obra benéfica no tenía cálculos precisos, solo la resistencia más instintiva de una persona común ante el «hambre», considerando que «que todos coman hasta saciarse» es la forma más básica de atención humanitaria.
+📝 Nota del curador: Esta obra caritativa no se basó en cálculos precisos, sino en la intuición de una persona común frente al hambre, considerando «alimentar a la gente» como la más básica preocupación humanitaria.
 
-Los vendedores de vegetales, sabiendo que la abuela realizaba obras meritorias, solían proveer ingredientes a precio de coste o incluso gratis, y todos juntos se turnaban para transmitir esta bondad en el mercado de vegetales [^1]. Este modelo de ayuda mutua comunitaria permitió que los almuerzos de diez dólares taiwaneses se mantuvieran durante décadas, convirtiéndose en un paisaje único junto al puerto de Kaohsiung.
+Los vendedores del mercado, al saber que la abuela estaba haciendo mérito, a menudo ofrecían los ingredientes a precio de costo o incluso gratis, creando una cadena de solidaridad que permitió que el almuerzo de diez dólares perdurara durante décadas, convirtiéndose en una escena única a la orilla del puerto de Kaohsiung.
 
-### Vender siete propiedades: la resistencia silenciosa de una persona
+### Vender siete inmuebles: una resistencia silenciosa
 
-Con el paso del tiempo, el puesto de Chuang Chu Yu-nü se trasladó del almacén Pier-2 a las inmediaciones del paso elevado del parque en la calle Gongyuan 2, distrito de Yancheng [^1]. Ante las objeciones de su familia, especialmente en días lluviosos, siempre insistía en montar el puesto, y pronunciaba estas palabras tan conmovedoras: «Si no voy a vender, ¿qué van a hacer estos trabajadores, dónde van a comer?» [^1]
+Con el tiempo, el puesto de Chuang se trasladó del almacén de Pier‑2 al puente del parque de la segunda avenida en el distrito de Yancheng[^1]. A pesar de las objeciones de su familia y de la lluvia, ella insistía en abrir el puesto, diciendo: «Si no vendo, ¿qué harán estos trabajadores? ¿Dónde comerán?»[^1]
 
-Para sostener este «negocio que daba pérdidas», Chuang Chu Yu-nü vendió siete propiedades familiares una tras otra [^1] [^3]. Cuando se agotaron las propiedades, su hijo mayor, Chuang Chi-hsiung, quien dirigía una empresa naviera y una agencia de viajes, asumió decididamente los gastos, subvencionando pérdidas de cientos de miles de dólares taiwaneses anuales, para que su madre pudiera seguir cuidando a esos «necesitados» bajo el paso elevado sin preocupaciones [^3].
+Para sostener este «negocio sin ganancias», Chuang vendió siete propiedades de su familia[^1][^3]. Cuando ya no quedó nada, su hijo mayor, Chuang Ji-hsiung, que había fundado una empresa naviera y una agencia de viajes, asumió los gastos, subsidiando anualmente decenas de miles de dólares en pérdidas para que su madre pudiera seguir trabajando bajo el puente sin preocupaciones financieras[^3].
 
-«La gente necesita comer hasta saciarse para tener fuerzas para trabajar; los obreros no tienen dinero, y si no comen se mueren de hambre». Esta era la frase que Chuang Chu Yu-nü repetía con más frecuencia [^1]. Su comprensión de la filantropía era extremadamente sencilla: no había planes complejos, solo la pureza y la persistencia de «no poder ver a nadie con el estómago vacío» [^4].
+«La gente necesita comer para tener energía y trabajar; si los obreros no tienen dinero, morirán de hambre», era la frase que Chuang repetía con frecuencia[^1]. Su comprensión de la caridad era extremadamente sencilla: no había planes complejos, solo el puro y firme deseo de «no ver a nadie con el estómago vacío»[^4].
 
-### Tres mil personas en el funeral: lo extraordinario en lo común
+### Tres mil personas en su funeral: lo extraordinario en lo cotidiano
 
-El 13 de febrero de 2015, Chuang Chu Yu-nü falleció a la edad de 96 años [^3]. Su funeral reunió a más de tres mil personas en condolencia, muchas de ellas obreros portuarios, personas sin hogar y mendigos que habían sido atendidos por ella [^1] [^3]. Las cestas de flores fuera del recinto se extendían por más de cien metros; fue una despedida sin movilización política, formada puramente por gratitud [^1]. Un trabajador entrevistado declaró: «El trabajo de los obreros portuarios es muy duro y los ingresos son bajos; el buffet de la abuela tenía mucha comida y platos de buena calidad, si no te alcanzaba podías repetir cuanto quisieras, extrañamos mucho a la abuela y su comida» [^1]
+El 13 de febrero de 2015, Chuang Chu-yu-nu falleció a los 96 años[^3]. Su funeral atrajo a más de tres mil dolientes, muchos de ellos antiguos trabajadores del puerto, personas sin hogar y vagabundos que ella había ayudado[^1][^3]. Las coronas florales se extendieron por más de cien metros, constituyendo una despedida sin movilización política, impulsada únicamente por el agradecimiento colectivo[^1]. Un trabajador entrevistado comentó: «Los obreros del puerto trabajan mucho y ganan poco; el bufé de la abuela era abundante y la comida buena. Extrañamos mucho a la abuela y sus platos»[^1].
 
-📝 Nota del comisario: En una sociedad tejida por el poder y la riqueza, un funeral con tres mil asistentes es la confirmación más impactante del «valor de los diez dólares», demostrando que la bondad sincera puede superar las mediciones materiales.
+📝 Nota del curador: En una sociedad donde poder y riqueza están entrelazados, un funeral de tres mil personas es la mayor validación del «valor de diez dólares», demostrando que la bondad sincera puede superar cualquier medida material.
 
-El espíritu de Chuang Chu Yu-nü no desapareció con su fallecimiento. El 21 de marzo de 2017, se inauguró su estatua en la isla Jibei, su pueblo natal en Penghu, y se estableció el «Parque Conmemorativo Chuang Chu Yu-nü» [^5] [^6]. Diversos sectores de la sociedad han presentado propuestas en repetidas ocasiones para imprimir su retrato en la moneda de diez dólares taiwaneses, reemplazando a figuras políticas, para que esta moneda lleve verdaderamente el valor central de los taiwaneses: la disposición a ayudar a los demás [^1].
+El espíritu de Chuang no desapareció con su muerte. El 21 de marzo de 2017 se inauguró su estatua en su tierra natal, la isla de Jibei en Penghu, y se estableció el «Parque conmemorativo Chuang Chu-yu-nu»[^5][^6]. Diversos sectores de la sociedad han propuesto imprimir su retrato en la moneda de diez dólares, sustituyendo a los políticos, para que la moneda realmente refleje el valor central de los taiwaneses: la disposición a ayudar al prójimo[^1].
 
 ### Desafíos y controversias: sostenibilidad de la filantropía y reflexión social
 
-La historia de Chuang Chu Yu-nü, además de conmover, ha generado debates sobre la «filantropía individual» y las «instituciones sociales». Algunos cuestionan si este sacrificio personal sin reparar en costes es sostenible. Sin embargo, precisamente ese «tesón» llenó un vacío enorme en una época en la que la red de seguridad social aún no estaba perfeccionada, proporcionando la garantía de supervivencia más básica a innumerables personas vulnerables [^1]. Sus obras benéficas también han impulsado a la sociedad a reflexionar sobre cómo los gobiernos y las organizaciones sociales pueden establecer sistemas de bienestar más efectivos, además de la generosidad individual, para evitar que las personas asuman cargas filantrópicas excesivas.
+La historia de Chuang, aunque conmovedora, también ha generado debates sobre la «filantropía individual» frente a los «sistemas sociales». Algunos cuestionan si el sacrificio personal sin buscar rentabilidad es sostenible a largo plazo. Sin embargo, esa «fuerza obstinada» llenó los vacíos de la red de seguridad social en una época en que el Estado aún no ofrecía una protección adecuada, proporcionando a los más vulnerables lo esencial para sobrevivir[^1]. Su ejemplo ha impulsado a la sociedad a reflexionar sobre cómo, además de la generosidad individual, el gobierno y las organizaciones deben construir sistemas de bienestar más eficaces para evitar que la carga caritativa recaiga excesivamente sobre individuos.
 
-Hoy en día, el hijo mayor Chuang Chi-hsiung fundó oficialmente la «Asociación Filantrópica Chuang Chu Yu-nü de la Ciudad de Kaohsiung» el 2 de mayo de 2015 [^3], para continuar el legado de su madre, planificando proyectos benéficos como consultas médicas gratuitas en Penghu, transporte escolar para niños de islas periféricas y distribución de almuerzos para personas sin hogar [^3]. Este amor se ha transformado de la cocina de una persona en la misión de una organización, demostrando que una vez sembrada la semilla de la bondad, terminará creciendo hasta convertirse en un bosque que brinde sombra.
+En la actualidad, el hijo mayor, Chuang Ji-hsiung, fundó el 2 de mayo de 2015 la «Asociación benéfica Chuang Chu-yu-nu de Kaohsiung»[^3], continuando el legado materno con proyectos como clínicas gratuitas en Penghu, transporte escolar para niños de islas periféricas y distribución de almuerzos a personas sin hogar[^3]. Lo que comenzó como una simple cocina se ha convertido en una misión organizacional, demostrando que la semilla de la bondad, una vez plantada, crece hasta convertirse en un bosque que brinda sombra a muchos.
 
-## Lecturas recomendadas
+## Lecturas complementarias
 
-- [Cultura de voluntariado y participación en causas benéficas en Taiwán](/society/台灣志工文化與公益參與) — Comprender el contexto a largo plazo de las causas benéficas sociales en Taiwán a través de las instituciones y las acciones civiles.
-- [Comida de los pueblos militares de Taiwán](/food/台灣眷村菜) — Contrastar cómo la dieta popular forma memoria a través del desplazamiento, la pobreza y la ayuda mutua comunitaria.
+- [Cultura del voluntariado y participación cívica en Taiwán](/society/台灣志工文化與公益參與) — Comprende el contexto a largo plazo del trabajo social y cívico en Taiwán.
+- [Cocina de los barrios militares de Taiwán](/food/台灣眷村菜) — Explora cómo la alimentación popular se forma a través de la migración, la pobreza y la cooperación comunitaria.
 
 ## Referencias
 
-[^1]: [Corazón y arte humano](https://www.thinkingtaiwan.net/content/6413](https://www.thinkingtaiwan.net/content/6413) — Proporciona antecedentes, datos o contexto de eventos relacionados con este artículo, como base para la narrativa y verificación de la entrada.
+[^1]: [人心人術](https://www.thinkingtaiwan.net/content/6413) — Proporciona contexto, datos y eventos relacionados con el artículo.
 
-[^2]: [Wikipedia. (s.f.). Chuang Chu Yu-nü](https://zh.wikipedia.org/zh-hant/%E8%8E%8A%E6%9C%B1%E7%8E%89%E5%A5%B3](https://zh.wikipedia.org/zh-hant/%E8%8E%8A%E6%9C%B1%E7%8E%89%E5%A5%B3) — Proporciona antecedentes, datos o contexto de eventos relacionados con este artículo, como base para la narrativa y verificación de la entrada.
+[^2]: [維基百科. (s.f.). 莊朱玉女](https://zh.wikipedia.org/zh-hant/%E8%8E%8A%E6%9C%B1%E7%8E%89%E5%A5%B3) — Proporciona contexto, datos y eventos relacionados con el artículo.
 
-[^3]: [Huang Liang-chieh. (3 de mayo de 2015). Cumple el legado de la abuela de diez dólares: el hijo funda una asociación filantrópica con casi 200 miembros. Liberty Times Net](https://news.ltn.com.tw/news/life/breakingnews/1305726](https://news.ltn.com.tw/news/life/breakingnews/1305726) — Proporciona antecedentes, datos o contexto de eventos relacionados con este artículo, como base para la narrativa y verificación de la entrada.
+[^3]: [黃良傑. (2015, 3 may). 圓10元善心嬤遺願 兒設慈善會 近200人繳費參加. 自由時報電子報](https://news.ltn.com.tw/news/life/breakingnews/1305726) — Proporciona contexto, datos y eventos relacionados con el artículo.
 
-[^4]: [Storm Media. (26 de julio de 2017). ¿Por qué un funeral de una abuela común que vendía almuerzos reunió a 3000 personas? Su historia merece ser recordada por todo Taiwán](https://www.storm.mg/lifestyle/304928](https://www.storm.mg/lifestyle/304928) — Proporciona antecedentes, datos o contexto de eventos relacionados con este artículo, como base para la narrativa y verificación de la entrada.
+[^4]: [風傳媒. (2017, 26 jul). 為何一個賣便當的平凡阿嬤，告別式竟來了3000人？她的故事值得全台灣的人紀念](https://www.storm.mg/lifestyle/304928) — Proporciona contexto, datos y eventos relacionados con el artículo.
 
-[^5]: [Agencia Central de Noticias. (27 de marzo de 2017). Se est
+[^5]: [中央社. (2017, 27 mar). 澎湖吉貝設莊朱玉女紀念園區 傳揚大愛](https://www.cna.com.tw/news/aloc/201703270146.aspx) — Proporciona contexto, datos y eventos relacionados con el artículo.
+
+[^6]: [10元便當嬤](https://news.tvbs.com.tw/life/716502) — Proporciona contexto, datos y eventos relacionados con el artículo.
+
+[^7]: [YKYuen. (2012, 31 dic). 賣夢的老人– 鹽埕區的莊朱玉女嬤嬤. Eureka!](https://eureka.ykyuen.info/2012/12/31/%E8%B3%A3%E5%A4%A2%E7%9A%84%E8%80%81%E4%BA%BA-%E9%B9%BD%E5%9F%95%E5%8D%80%E7%9A%84%E8%8E%8A%E6%9C%B1%E7%8E%89%E5%AC%A4%E5%AC%A4/) — Proporciona contexto, datos y eventos relacionados con el artículo.
+
+[^8]: [阿鍾哥. (2013, 7 may). 人間菩薩~~賣夢的老人. 隨意窩 Xuite日誌](https://blog.udn.com/as12369/6473023) — Proporciona contexto, datos y eventos relacionados con el artículo.

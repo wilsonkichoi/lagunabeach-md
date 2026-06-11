@@ -21,10 +21,10 @@ lastVerified: 2026-04-23
 lastHumanReview: false
 featured: false
 translatedFrom: Culture/台灣新偶像世代.md
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:3599258a3ecbb3d8'
-sourceBodyHash: 'sha256:ab167ea5a070ce1e'
-translatedAt: '2026-06-10T16:58:21Z'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:8258a0ced6980600'
+sourceBodyHash: 'sha256:3dda77b7510dd761'
+translatedAt: '2026-06-11T16:38:39Z'
 ---
 
 > **30초 개요:** 2001년 S.H.E가 데뷔한 후, 대만은 무려 19년간 성공적인 아이돌 그룹을 배출하지 못했다. 2020년, 프로듀서 잔런웅(詹仁雄)은 1억 3천만 신달러를 투자하여 오디션 프로그램 《능격세대 DD52》를 제작, 한 편의 프로그램으로 대만 아이돌 산업 생태계를 재가동하려 했다. 이후 6년간 DD52, 아톰 보이즈, 퓨처 걸즈, 아톰 보이즈 2, 코스믹 엔젤스 — 다섯 개의 프로그램, 네 개의 금종상, 50명 이상의 데뷔 아이돌, 열 개 이상의 그룹이 탄생했다. 그러나 우승 그룹의 화제상은 종종 준우승 그룹에 밀렸고, 일곱 개의 남자 그룹이 데뷔 1년 후 인기도가 "단락적으로 하락"했다. 데뷔는 쉽지만 유지하기 어려운 딜레마가 대만 아이돌 산업의 가장 깊은 구조적 문제로 자리 잡았다.

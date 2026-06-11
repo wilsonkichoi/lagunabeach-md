@@ -2,22 +2,28 @@
 title: 'Wei Te-sheng: Yongkang 1969, el director de épicas taiwanesas del éxito de taquilla de "Cape No. 7" a la competencia principal de Venecia'
 description: 'Nacido el 16 de agosto de 1969 en el municipio de Yongkang, condado de Tainan (actual distrito de Yongkang, ciudad de Tainan). Graduado en Ingeniería Eléctrica del Far Eastern Junior College of Technology. En 2008, "Cape No. 7" recaudó aproximadamente 530 millones de dólares taiwaneses (récord del cine taiwanés). En 2011, "Seediq Bale" fue seleccionado para la competencia principal de la 68.ª edición del Festival Internacional de Cine de Venecia, compitiendo por el León de Oro, y ganó el premio a Mejor Película en la 48.ª edición de los Premios Golden Horse. Actualmente prepara el proyecto épico "Trilogía de Taiwán".'
 date: 2026-03-19
-author: 'Taiwan.md'
 category: 'People'
+tags:
+  [
+    '電影與戲劇',
+    '導演',
+    '台灣電影',
+    '原住民文化',
+    '海角七號',
+    '賽德克巴萊',
+    '台南',
+  ]
 subcategory: '電影與戲劇'
-tags: ['電影與戲劇', '導演', '台灣電影', '原住民文化', '海角七號', '賽德克巴萊', '台南']
-readingTime: '# design_rationale:
-#   why_this_hook: "5.3億票房+威尼斯主競賽——這兩個節點才能說清楚他在台灣電影史的位置：一個商業奇蹟與一個藝術認可，不是同一件事。"
-#   whats_excluded: "霧社事件歷史背景完整分析；台灣三部曲資金籌募細節；《海角七號》演員逐一介紹"
-#   where_it_hedges: "《海角七號》票房5.3億：來源P0確認「破億」，5.3億此數字為現有資料常見說法（建議確認官方統計）"'
+author: 'Taiwan.md'
+featured: false
 lastVerified: 2026-05-07
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+readingTime: 7
 translatedFrom: 'People/魏德聖.md'
-sourceCommitSha: '0f8fae0ae'
-sourceContentHash: 'sha256:c12363db6be367bf'
-sourceBodyHash: 'sha256:c323a1cb617cbe0a'
-translatedAt: '2026-05-24T05:06:33+08:00'
+sourceCommitSha: '8f070a88'
+sourceContentHash: 'sha256:c53d9ecd803bd8cd'
+sourceBodyHash: 'sha256:9fd756dd61905363'
+translatedAt: '2026-06-11T16:38:50Z'
 ---
 
 # Wei Te-sheng: Yongkang 1969, el director de épicas taiwanesas del éxito de taquilla de "Cape No. 7" a la competencia principal de Venecia
@@ -80,7 +86,7 @@ El camino del cine no tiene atajos. Desde la carrera de ingeniería eléctrica e
 
 Nació en 1969 en Yongkang, Tainan; en el año 2000 invirtió 500.000 en un cortometraje de 5 minutos y no encontró financiación; en 2008, 530 millones en taquilla; en 2011, competencia principal en Venecia. Esa línea es una acumulación de resistencia, no tiene nada que ver con el milagro.
 
-**Lecturas complementarias:** [Wei Te-sheng — Wikipedia](https://zh.wikipedia.org/zh-tw/魏德聖) ｜ [Base de datos del cine taiwanés: Wei Te-sheng](https://taiwancinema.bamid.gov.tw/Staff/StaffContent/?ContentUrl=12549) ｜ [Sitio oficial de los Premios Golden Horse](https://www.goldenhorse.org.tw/)
+**Lecturas complementarias:** [Mona Rudao: el héroe antijapón grabado en la moneda de veinte yuanes](/people/莫那·魯道)（el prototipo del protagonista de "Seediq Bale" y cómo el cine remodela la memoria）｜ [Wei Te-sheng — Wikipedia](https://zh.wikipedia.org/zh-tw/魏德聖) ｜ [Base de datos del cine taiwanés: Wei Te-sheng](https://taiwancinema.bamid.gov.tw/Staff/StaffContent/?ContentUrl=12549) ｜ [Sitio oficial de los Premios Golden Horse](https://www.goldenhorse.org.tw/)
 
 ## Referencias
 

@@ -19,10 +19,10 @@ readingTime: 10
 lastVerified: 2026-04-29
 lastHumanReview: false
 translatedFrom: 'Culture/台灣教會公報.md'
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:bbf4eb86e5c8f3f3'
-sourceBodyHash: 'sha256:50280d5b2f21e9e2'
-translatedAt: '2026-06-10T17:00:20Z'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:3439ffa9774025fa'
+sourceBodyHash: 'sha256:2e121ca67feccc95'
+translatedAt: '2026-06-11T16:39:06Z'
 ---
 
 > **En 30 secondes :** Le 12 juin 1885 (11e année du règne de l'empereur Guangxu des Qing), le missionnaire de l'Église presbytérienne britannique Thomas Barclay publia le _Taiwan Fucheng Church News_ (《台灣府城教會報》) à Tainan, imprimé en écriture latine de l'Église (pe̍h-ōe-jī, « écriture vernaculaire »), le premier journal de l'histoire de Taïwan. Ce journal traversa les périodes Qing, japonaise et autoritaire de l'après-guerre, fut suspendu deux fois, interdit d'utiliser la langue maternelle, confisqué en totalité par le Commandement de la Garde nationale, et continue de paraître aujourd'hui. En 2025, il fête ses 140 ans, ce qui en fait la publication périodique la plus ancienne encore en activité à Taïwan. Son supplément littéraire couvre des sujets allant de la théologie aux questions sociales, et depuis 2022, il publie même des chroniques et commentaires sur l'intelligence artificielle générative.

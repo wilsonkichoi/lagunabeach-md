@@ -2,9 +2,7 @@
 title: 'Vivienda nacional y justicia habitacional: las casas baratas construidas por el gobierno, ¿la escalera patrimonial de quién terminaron alimentando?'
 description: 'En 1985, en la vivienda nacional Chenggong, a 67.000 dólares taiwaneses por ping nadie quería comprar; un viejo jefe de barrio juntó 400.000 dólares taiwaneses para el pago inicial y compró una unidad. Cuarenta años después, la misma dirección se acerca al millón por ping. La vivienda nacional nació como una herramienta para “ayudar a la gente a poder comprar casa”, pero nunca incorporó una compuerta para recuperar la valorización; el subsidio público terminó convertido en patrimonio privado de quienes compraron temprano. En 2026, Taoyuan volvió a instalar esa compuerta: en la práctica, es una admisión de error de la vivienda nacional.'
 date: '2026-06-06'
-author: 'Taiwan.md'
 category: 'Society'
-subcategory: '人權與平等'
 tags:
   [
     'vivienda nacional',
@@ -13,15 +11,53 @@ tags:
     'justicia intergeneracional',
     'vivienda asequible',
   ]
+subcategory: '人權與平等'
+author: 'Taiwan.md'
 readingTime: 16
+featured: false
 lastVerified: '2026-06-06'
 lastHumanReview: false
-featured: false
+viewpoint_formed: true
+image: '/article-images/society/taipei-skyline-housing-2026.jpg'
+imageCredit: 'Heeheemalu'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:20260204_Taipei,_Taiwan_Skyline.jpg'
+datasets:
+  - id: 'lvr-trades'
+    name: 'Registro Nacional de Precios Reales de Transacciones Inmobiliarias'
+    url: 'https://lvr.land.moi.gov.tw/'
+    agency: '內政部地政司'
+    update_freq: 'cada 3 meses'
+    why: 'El artículo narra cuarenta años a partir de una dirección de la vivienda nacional Chenggong; aquí se puede consultar el precio actual de transacción de cualquier comunidad de vivienda nacional y verificar la pendiente de la escalera patrimonial'
+    verified: 2026-06-10
+  - id: '121267'
+    name: 'Situación de distribución (arriendo) de vivienda nacional de la ciudad de Taipéi'
+    url: 'https://data.gov.tw/dataset/121267'
+    agency: '臺北市政府都市發展局'
+    update_freq: 'actualización irregular'
+    why: 'Registros oficiales de distribución y arriendo de las tres grandes viviendas nacionales mencionadas en el texto'
+    verified: 2026-06-10
+  - id: '155779'
+    name: 'Estadísticas de emparejamiento del programa de arriendo con gestión delegada de vivienda social del Gobierno de la Ciudad de Taipéi'
+    url: 'https://data.gov.tw/dataset/155779'
+    agency: '臺北市政府都市發展局'
+    update_freq: 'cada 1 año'
+    why: 'Cifras de ejecución de la nueva vía de “en 2016 el gobierno dejó de vender y pasó a arrendar”'
+    verified: 2026-06-10
+sporeLinks:
+  - id: 126
+    platform: 'threads'
+    date: '2026-06-06'
+    url: 'https://www.threads.com/@taiwandotmd/post/DZPIcLHEzpk'
+  - id: 127
+    platform: 'x'
+    date: '2026-06-06'
+    url: 'https://x.com/taiwandotmd/status/2063165712261390793'
 translatedFrom: 'Society/國宅與居住正義.md'
-sourceCommitSha: 'dd39065b2'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:1b571a2f0b3e267b'
 sourceBodyHash: 'sha256:81a883992eb755dc'
-translatedAt: '2026-06-11T00:44:03+08:00'
+translatedAt: '2026-06-11T16:38:50Z'
 ---
 
 # Vivienda nacional y justicia habitacional: las casas baratas construidas por el gobierno, ¿la escalera patrimonial de quién terminaron alimentando?

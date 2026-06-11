@@ -19,10 +19,10 @@ lastVerified: '2026-04-24'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Food/嘉義火雞肉飯.md'
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:f79faf5588d7d10f'
-sourceBodyHash: 'sha256:2d4b333fe985b7a6'
-translatedAt: '2026-06-10T17:00:20Z'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:961c8a81a8f8c3f1'
+sourceBodyHash: 'sha256:2b1f54ba6f041643'
+translatedAt: '2026-06-11T16:39:06Z'
 ---
 
 > L'histoire du riz au dinde de Chiayi est un héritage de la Guerre froide. Après la Seconde Guerre mondiale, les troupes américaines stationnées à Chiayi ont amené avec elles de grandes quantités de dindes. En une époque de pénurie, la dinde était plus grosse et moins chère que le poulet fermier. Un cuisinier nommé Lin Tianshou, dans le premier marché de la ville, a effiloché la viande de dinde, l'a nappée de sauce braisée et l'a servie sur du riz blanc, avec une poignée de croustillons d'oignon frit. Soixante-dix ans plus tard, ce plat a été élu premier du classement des dix plats emblématiques de Taïwan par l'Agence de l'agriculture et de l'alimentation, il a été servi lors de banquets d'État, mais dans les rues de Chiayi, il se vend toujours à trente yuans. Nulle autre ville à Taïwan n'est aussi indissociable d'un seul plat.

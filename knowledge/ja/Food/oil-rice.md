@@ -1,9 +1,9 @@
 ---
 translatedFrom: 'Food/油飯.md'
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:0e51f2bf22312077'
-sourceBodyHash: 'sha256:6051690fbdc046a5'
-translatedAt: '2026-06-10T16:57:09Z'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:9645370116faf0ce'
+sourceBodyHash: 'sha256:e335b1f6c8cbb675'
+translatedAt: '2026-06-11T16:38:27Z'
 title: '油飯（ヨウファン）：「富の誇示」だった餅米が、命の重さを担う満月祝いの礼物になるまで'
 description: '2026年の台湾の街頭でも、一皿の油飯は多くの人が新しい命の誕生を祝う際の定番だ。漢人移民の伝統に根ざし、台湾で独自に甘辛が交差する「老舗の黄金比率」へと進化したこの料理は、餅米と赤玉ねぎ（紅蔥頭）を組み合わせて、台湾の家庭が人生の節目に贈る最も温かな祝福となった。'
 category: Food

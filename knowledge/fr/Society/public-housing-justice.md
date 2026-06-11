@@ -17,11 +17,47 @@ readingTime: 16
 lastVerified: 2026-06-06
 lastHumanReview: false
 featured: false
+viewpoint_formed: true
+image: '/article-images/society/taipei-skyline-housing-2026.jpg'
+imageCredit: 'Heeheemalu'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:20260204_Taipei,_Taiwan_Skyline.jpg'
+datasets:
+  - id: 'lvr-trades'
+    name: 'Registre national des prix réels des transactions immobilières'
+    url: 'https://lvr.land.moi.gov.tw/'
+    agency: '內政部地政司'
+    update_freq: '每3月'
+    why: "L'article raconte quarante ans à partir d'une adresse des logements Chenggong ; ce service permet de rechercher le prix de transaction contemporain de n'importe quel ensemble de logements nationaux et de vérifier la pente de l'ascenseur patrimonial"
+    verified: 2026-06-10
+  - id: '121267'
+    name: 'Situation des attributions et locations des logements nationaux de la ville de Taipei'
+    url: 'https://data.gov.tw/dataset/121267'
+    agency: '臺北市政府都市發展局'
+    update_freq: '不定期更新'
+    why: "Registre officiel des attributions et locations des logements bon marché vendus par le gouvernement mentionnés dans les trois grands ensembles nationaux de l'article"
+    verified: 2026-06-10
+  - id: '155779'
+    name: "Statistiques d'appariement de la sous-location avec gestion déléguée pour les logements sociaux de Taipei"
+    url: 'https://data.gov.tw/dataset/155779'
+    agency: '臺北市政府都市發展局'
+    update_freq: '每1年'
+    why: "Chiffres d'exécution de la nouvelle voie décrite dans la section « En 2016, le gouvernement ne vend plus, il loue »"
+    verified: 2026-06-10
+sporeLinks:
+  - id: 126
+    platform: 'threads'
+    date: '2026-06-06'
+    url: 'https://www.threads.com/@taiwandotmd/post/DZPIcLHEzpk'
+  - id: 127
+    platform: 'x'
+    date: '2026-06-06'
+    url: 'https://x.com/taiwandotmd/status/2063165712261390793'
 translatedFrom: 'Society/國宅與居住正義.md'
-sourceCommitSha: 'dd39065b2'
+sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:1b571a2f0b3e267b'
 sourceBodyHash: 'sha256:81a883992eb755dc'
-translatedAt: '2026-06-11T00:44:03+08:00'
+translatedAt: '2026-06-11T16:39:06Z'
 ---
 
 # Logement public et justice résidentielle : les logements abordables construits par l’État, un ascenseur patrimonial pour qui ?

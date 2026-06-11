@@ -19,10 +19,10 @@ readingTime: 10
 lastVerified: 2026-04-21
 lastHumanReview: false
 translatedFrom: Culture/紙傘.md
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:13063c6484238690'
-sourceBodyHash: 'sha256:0b682441a9d293c6'
-translatedAt: '2026-06-10T16:58:37+00:00'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:2b63bb823fbdea45'
+sourceBodyHash: 'sha256:6966802b8bb41d32'
+translatedAt: '2026-06-11T16:38:50Z'
 ---
 
 ## El paraguas de papel: de objeto cotidiano a arte, el centenario esplendor de la cultura hakka taiwanesa

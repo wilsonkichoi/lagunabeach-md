@@ -1,7 +1,10 @@
 ---
 title: 'Justicia ambiental y conflictos NIMBY en Taiwán'
-description: 'Análisis del fenómeno de distribución desigual de la carga ambiental en Taiwán, desde los conflictos NIMBY asociados a incineradoras de residuos, desechos nucleares e industria petroquímica, hasta la desigualdad ambiental y las cuestiones de justicia social.'
+description: 'Análisis del fenómeno de distribución desigual de la carga ambiental en Taiwán, desde los conflictos NIMBY asociados a incineradoras de residuos, desechos nucleares e industria petroquímica, hasta las cuestiones de desigualdad ambiental y justicia social.'
 date: 2026-03-20
+author: 'Taiwan.md Contributors'
+category: 'Society'
+subcategory: '社會運動'
 tags:
   [
     'justicia ambiental',
@@ -12,143 +15,140 @@ tags:
     'desechos nucleares',
     'industria petroquímica',
   ]
-subcategory: '社會運動'
-author: 'Taiwan.md Contributors'
 readingTime: 13
-featured: false
-category: 'Society'
 lastVerified: 2026-03-20
 lastHumanReview: false
+featured: false
 translatedFrom: 'Society/台灣環境正義與鄰避爭議.md'
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:ca7f70cdde7f6b9f'
-sourceBodyHash: 'sha256:81936e65730d0960'
-translatedAt: '2026-06-10T16:58:37+00:00'
+sourceCommitSha: '44238bb4f'
+sourceContentHash: 'sha256:ccdec2fddd52cf2e'
+sourceBodyHash: 'sha256:25150a865ae0a680'
+translatedAt: '2026-06-12T00:53:04+08:00'
 ---
 
 # Justicia ambiental y conflictos NIMBY en Taiwán
 
-La justicia ambiental se ocupa de la equidad en la distribución de las cargas y los beneficios ambientales. En Taiwán, los problemas ambientales generados durante el proceso de industrialización tienden a concentrarse en regiones y grupos étnicos específicos, configurando un fenómeno de «desigualdad ambiental». Desde las incineradoras de residuos, la disposición de desechos nucleares hasta los parques industriales petroquímicos, estas instalaciones necesarias pero riesgosas generan invariablemente conflictos NIMBY (_Not In My Back Yard_, «No en mi patio trasero»), reflejando las contradicciones profundas de la sociedad taiwanesa en torno a la distribución del riesgo ambiental.
+La justicia ambiental se ocupa de la equidad en la distribución de las cargas y los beneficios ambientales. En Taiwán, los problemas ambientales generados durante el proceso de industrialización tienden a concentrarse en regiones y grupos étnicos específicos, configurando un fenómeno de «desigualdad ambiental». Desde las incineradoras de residuos, la eliminación de desechos nucleares hasta los parques industriales petroquímicos, estas instalaciones necesarias pero riesgosas generan invariablemente conflictos NIMBY (_Not In My Back Yard_, «no en mi patio trasero»), que reflejan contradicciones profundas en la distribución del riesgo ambiental en la sociedad taiwanesa.
 
 ## Fundamentos teóricos de la justicia ambiental
 
 ### Distribución desigual de la carga ambiental
 
-El concepto central de la justicia ambiental es la «equidad distributiva». En condiciones ideales, los beneficios ambientales (como aire limpio y paisajes agradables) y las cargas ambientales (como instalaciones contaminantes y riesgos para la salud) deberían distribuirse de manera uniforme. Sin embargo, en la práctica, las cargas ambientales tienden a concentrarse en áreas específicas, generalmente comunidades económicamente vulnerables con menor influencia política.
+El concepto central de la justicia ambiental es la «equidad distributiva». En condiciones ideales, los beneficios ambientales (aire limpio, paisajes agradables) y las cargas ambientales (instalaciones contaminantes, riesgos para la salud) deberían distribuirse de manera uniforme. Sin embargo, en la práctica, las cargas ambientales tienden a concentrarse en áreas específicas, generalmente comunidades económicamente vulnerables y con menor influencia política.
 
-La distribución de la carga ambiental en Taiwán es claramente desigual. El parque petroquímico de Mailiao, en el condado de Yunlin, se ubica en una zona dedicada principalmente a la agricultura y la pesca, con ingresos bajos entre la población local. El parque industrial costero de Linhai, en el distrito de Siaogang de Kaohsiung, presenta alta densidad poblacional pero limitada influencia política. Este patrón de distribución refleja el «principio de mínima resistencia»: las instalaciones contaminantes tienden a ubicarse donde la oposición es menor.
+La distribución de la carga ambiental en Taiwán es claramente desigual. El parque petroquímico de Mailiao se encuentra en el municipio de Mailiao, en el condado de Yunlin, una zona dedicada principalmente a la agricultura y la pesca con ingresos bajos por habitante. El parque industrial costero de Kaohsiung está situado en el distrito de Siaogang, una zona de alta densidad demográfica pero con influencia política limitada. Este patrón de distribución refleja el «principio de mínima resistencia»: las instalaciones contaminantes tienden a ubicarse donde la oposición es menor.
 
 ### Justicia procesal y derecho a la participación
 
 Además de la equidad distributiva, la justicia ambiental enfatiza la «justicia procesal», es decir, que todos los grupos afectados deben tener igualdad de oportunidades para participar en las decisiones ambientales. No obstante, el sistema de evaluación de impacto ambiental de Taiwán ha privilegiado durante mucho tiempo la evaluación técnica, descuidando la participación pública.
 
-Los residentes a menudo se enteran de la instalación de una instalación después de que la decisión ya ha sido tomada, careciendo de oportunidades de participación previa. Incluso cuando se realizan audiencias públicas, estas suelen ser meramente formales, y la opinión ciudadana difícilmente influye en las decisiones finales. Este modelo de «decidir primero, comunicar después» es una causa importante de los conflictos NIMBY.
+Los residentes a menudo se enteran de la instalación de una planta después de que la decisión ya ha sido tomada, sin oportunidad de participar previamente en el proceso. Incluso cuando se celebran audiencias públicas, estas suelen ser meramente formales, y la opinión ciudadana difícilmente influye en las decisiones finales. Este modelo de «decidir primero, comunicar después» es una causa importante de los conflictos NIMBY.
 
 ### Justicia intergeneracional y distribución del riesgo
 
-La justicia ambiental también abarca la equidad entre generaciones. Los desechos nucleares tienen una vida media de decenas de miles de años: las generaciones actuales disfrutan de los beneficios de la energía nuclear, pero el riesgo recae sobre las generaciones futuras. Del mismo modo, el desarrollo industrial trae crecimiento económico, pero el costo ambiental puede perdurar durante décadas.
+La justicia ambiental también abarca la equidad entre generaciones. Los desechos nucleares tienen una vida media de decenas de miles de años: la generación actual disfruta de los beneficios de la energía nuclear, pero el riesgo recae sobre las generaciones futuras. Del mismo modo, el desarrollo industrial trae crecimiento económico, pero el costo ambiental puede perdurar durante décadas.
 
-Los territorios tradicionales de los pueblos indígenas se han convertido con frecuencia en sitios de disposición de residuos, como el almacenamiento de desechos nucleares en Lanyu (isla Orchid) o los vertederos de basura en municipios montañosos. Estas decisiones se tomaron a menudo en épocas en que los pueblos indígenas carecían de voz política, pero sus efectos persisten hasta hoy, configurando un «ambientalismo colonial».
+Los territorios tradicionales de los pueblos indígenas se han convertido con frecuencia en lugares de eliminación de desechos, como el almacén de desechos nucleares en la Isla de las Orquídeas (Lanyu) o los vertederos de basura en municipios montañosos. Estas decisiones se tomaron a menudo en épocas en que los pueblos indígenas carecían de voz política, pero sus efectos persisten hasta hoy, configurando un «ambientalismo colonial».
 
 ## El dilema NIMBY en la gestión de residuos
 
 ### Controversias por la ubicación de incineradoras
 
-La construcción de incineradoras de residuos en Taiwán ha estado plagada de protestas NIMBY. Cuando en la década de 1990 se impulsó la política de «una incineradora por condado», prácticamente cada instalación enfrentó una fuerte oposición. La resistencia contra la incineradora de Ankeng, en el distrito de Xindian, fue la más intensa: los residentes locales formaron un comité de autodefensa y llevaron a cabo un movimiento de oposición que duró diez años.
+La construcción de incineradoras de residuos en Taiwán ha estado plagada de protestas NIMBY. Cuando en la década de 1990 se impulsó la política de «una incineradora por condado», prácticamente cada planta enfrentó una oposición feroz. La resistencia contra la incineradora de Ankeng, en el distrito de Xindian, fue la más intensa: los residentes locales formaron un comité de autodefensa y llevaron a cabo un movimiento de oposición que duró diez años.
 
-Las razones de la oposición incluían riesgos para la salud, depreciación del valor inmobiliario y deterioro de la calidad de vida. Las emisiones de dioxinas eran la principal preocupación; aunque las incineradoras modernas han reducido las emisiones de dioxinas a niveles extremadamente bajos, el miedo de la población a las «sustancias tóxicas» resulta difícil de disipar. La mentalidad de «no en mi patio trasero» es comprensible, pero los residuos deben procesarse en algún lugar.
+Las razones de la oposición incluían riesgos para la salud, depreciación del valor inmobiliario y deterioro de la calidad de vida. Las emisiones de dioxinas eran la mayor preocupación; aunque las incineradoras modernas han reducido las emisiones de dioxinas a niveles extremadamente bajos, el miedo ciudadano a las «sustancias tóxicas» es difícil de disipar. La mentalidad de «no en mi patio trasero» es comprensible, pero los residuos tienen que ir a algún lugar.
 
 El gobierno intentó resolver las controversias mediante compensaciones económicas. Los municipios donde se ubican las incineradoras reciben una compensación de varias decenas de dólares taiwaneses por tonelada de residuos, destinada a obras locales. Sin embargo, la compensación monetaria no logra disipar del todo las preocupaciones sobre el riesgo ambiental, y la equidad del mecanismo de compensación también ha sido cuestionada.
 
 ### Gestión intermunicipal de residuos
 
-Los residuos de la ciudad de Taipéi se envían a la ciudad de Nuevo Taipéi para su tratamiento, y los de Nuevo Taipéi se envían a Taoyuan, configurando un fenómeno de «viaje de la basura». Aunque este tratamiento interregional resuelve las necesidades urgentes de cada municipio, también genera nuevos problemas de inequidad.
+Los residuos de la ciudad de Taipéi se envían a Nuevo Taipéi para su tratamiento; los de Nuevo Taipéi se envían a Taoyuan, generando un fenómeno de «viaje de la basura». Aunque esta gestión interregional resuelve las necesidades inmediatas de cada municipio, también plantea nuevos problemas de inequidad.
 
-Los vertederos en zonas montañosas remotas se han convertido en el destino final de los residuos urbanos. Municipios montañosos como Wulai, Sanxia y Shiding, con escasa población y limitada influencia política, han sido frecuentemente designados como sitios para vertederos. Los residentes locales protestan: «¿Por qué tenemos que soportar la basura que generan los habitantes de la ciudad?».
+Los vertederos en zonas montañosas remotas se convierten en el destino final de los residuos urbanos. Municipios montañosos como Wulai, Sanxia o Shiding, con escasa población y poca influencia política, han sido frecuentemente designados como emplazamientos para vertederos. Los residentes locales protestan: «¿Por qué tenemos que soportar la basura que generan los habitantes de la ciudad?».
 
-La distribución de los costos de tratamiento de residuos también es desigual. Los municipios que generan los residuos pagan las tarifas de tratamiento, pero la compensación que reciben los municipios que asumen el riesgo ambiental suele ser desproporcionada. El principio de «quien contamina paga» resulta difícil de aplicar en el tratamiento intermunicipal de residuos.
+La distribución de los costos de tratamiento de residuos tampoco es equitativa. Los municipios que generan los residuos pagan las tarifas de tratamiento, pero la compensación que reciben los municipios que asumen el riesgo ambiental suele ser desproporcionada. El principio de «quien contamina paga» resulta difícil de aplicar en la gestión intermunicipal de residuos.
 
 ### Diferencias de clase en el reciclaje
 
-Las políticas de reducción de residuos afectan de manera diferente a los distintos estratos socioeconómicos. Las familias de ingresos medios y altos pueden adquirir productos de mejor calidad, con menor embalaje y, por tanto, generar menos residuos. Las familias de bajos ingresos suelen comprar productos más baratos, con mayor material de embalaje y, en consecuencia, generan más residuos.
+Las políticas de reducción de residuos afectan de manera diferente a los distintos estratos socioeconómicos. Las familias de ingresos medios y altos pueden adquirir productos de mejor calidad, con menos envases y, por tanto, generar menos residuos. Las familias de bajos ingresos suelen comprar productos más baratos, con mayor cantidad de material de embalaje y, en consecuencia, generan más residuos.
 
-La carga del reciclaje también es desigual. Los recolectores callejeros de materiales reciclables son en su mayoría personas mayores en situación económica vulnerable: realizan un trabajo peligroso e insalubre, pero con ingresos mínimos. Las familias de ingresos medios y altos disfrutan de los beneficios de un entorno limpio, mientras que los sectores más desfavorecidos asumen el costo laboral del reciclaje.
+La carga del reciclaje también es desigual. Los recolectores callejeros de material reciclable son en su mayoría personas mayores en situación económica precaria: realizan un trabajo peligroso e insalubre, pero con ingresos exiguos. Las familias de ingresos medios y altos disfrutan de los beneficios de un entorno limpio, mientras que los sectores más desfavorecidos asumen el costo laboral del reciclaje.
 
-## Controversias étnicas en la disposición de desechos nucleares
+## Controversias étnicas en la eliminación de desechos nucleares
 
-### El caso de los desechos nucleares en Lanyu
+### El caso de los desechos nucleares en la Isla de las Orquídeas
 
-El almacén de desechos nucleares de bajo nivel radiactivo en Lanyu es un caso emblemático de la controversia por justicia ambiental en Taiwán. En 1982, la empresa estatal Taipower instaló el almacén en Lanyu sin informar adecuadamente a los residentes del pueblo Tao sobre los riesgos de radiación. En aquel entonces, se presentó como una «fábrica de conservas de pescado», y los Tao aceptaron la presencia de desechos nucleares sin conocer su verdadera naturaleza.
+El almacén de desechos nucleares de baja radiactividad en la Isla de las Orquídeas (Lanyu) es un caso emblemático de la controversia por la justicia ambiental en Taiwán. En 1982, la empresa eléctrica estatal Taipower instaló allí un almacén de desechos de baja radiactividad, pero no informó adecuadamente a los residentes del pueblo Tao sobre los riesgos de radiación. En aquel momento se presentó como una «fábrica de conservas de pescado», y los Tao aceptaron los desechos nucleares sin conocer la realidad.
 
-Este episodio puso de manifiesto múltiples formas de injusticia: injusticia étnica (explotación de la posición vulnerable de los pueblos indígenas), injusticia intergeneracional (los desechos nucleares afectarán a cientos de generaciones futuras), injusticia informativa (ocultamiento del riesgo real) y injusticia procesal (ausencia de un consentimiento verdaderamente informado).
+Este episodio puso de manifiesto múltiples formas de injusticia: injusticia étnica (explotación de la posición vulnerable de un pueblo indígena), injusticia intergeneracional (los desechos nucleares afectarán a cientos de generaciones futuras), injusticia informativa (ocultamiento del riesgo real) y injusticia procesal (ausencia de un consentimiento verdaderamente informado).
 
-La lucha del pueblo Tao se ha prolongado durante cuarenta años. Exigen la retirada de los desechos nucleares y la restauración de la tierra de sus ancestros. «Los desechos nucleares fuera de Lanyu» no es solo una demanda ambiental, sino también una reivindicación del derecho de autodeterminación de los pueblos indígenas. Aunque el gobierno se comprometió a retirar los desechos, la selección de un sitio definitivo de disposición ha resultado difícil, y los desechos nucleares permanecen aún en Lanyu.
+La lucha del pueblo Tao se ha prolongado durante cuarenta años. Exigen la retirada de los desechos nucleares y la restitución de la tierra de sus ancestros. «Los desechos nucleares fuera de Lanyu» no es solo una demanda ambiental, sino una reivindicación del derecho de autodeterminación del pueblo indígena. Aunque el gobierno ha prometido retirarlos, la selección de un emplazamiento definitivo resulta difícil, y los desechos nucleares siguen almacenados en Lanyu.
 
-### El dilema de la selección del sitio de disposición final
+### El dilema de la selección del emplazamiento definitivo
 
-Los desechos nucleares de alta actividad requieren una disposición geológica profunda en formaciones geológicas estables. Taipower encargó a la empresa de ingeniería Sinotech la realización de estudios geológicos; sitios como Jinshan, Wanli y Penghu fueron considerados candidatos, pero todos enfrentaron una fuerte oposición.
+Los desechos nucleares de alta radiactividad requieren un almacenamiento geológico profundo en formaciones geológicas estables. Taipower encargó a Sinotech Engineering una investigación geológica, y lugares como Jinshan, Wanli y Penghu fueron incluidos como candidatos, pero todos encontraron una oposición feroz.
 
-El miedo de la población a los desechos nucleares es comprensible, pero la realidad de que «alguien tiene que asumir la carga» resulta ineludible. Países como Suecia y Finlandia han resuelto el problema de selección de sitios mediante comunidades voluntarias, compensaciones generosas y procesos de decisión transparentes, pero la base de confianza social en Taiwán es frágil, lo que dificulta replicar ese modelo.
+El miedo ciudadano a los desechos nucleares es comprensible, pero la realidad de que «alguien tiene que asumir la carga» es un problema ineludible. Países como Suecia y Finlandia han resuelto la cuestión de la selección de emplazamientos mediante comunidades voluntarias, compensaciones generosas y procesos de decisión transparentes, pero la base de confianza en la sociedad taiwanesa es frágil, lo que dificulta replicar ese modelo.
 
-Los criterios de selección de sitios candidatos también generan controversia. La seguridad técnica es importante, pero la aceptación social es igualmente ineludible. Seleccionar un sitio basándose únicamente en condiciones geológicas, ignorando la voluntad local, inevitablemente provoca resistencia. Encontrar un equilibrio entre la racionalidad técnica y la racionalidad social constituye un desafío para la formulación de políticas.
+Los criterios de selección de emplazamientos candidatos también generan controversia. La seguridad técnica es importante, pero la aceptación social es igualmente ineludible. Seleccionar un emplazamiento basándose únicamente en criterios geológicos, ignorando la voluntad local, inevitablemente provocará resistencia. Encontrar un equilibrio entre la racionalidad técnica y la racionalidad social constituye un desafío para la formulación de políticas.
 
 ### La carga equitativa del desmantelamiento nuclear
 
-Las tres centrales nucleares de Taiwán se están desmantelando progresivamente, generando grandes cantidades de desechos de baja actividad. La disposición de estos desechos enfrenta igualmente problemas de justicia ambiental. Las centrales nucleares se ubican principalmente en el norte de la isla, y la electricidad que generan abastece principalmente las áreas metropolitanas de Taipéi y Nuevo Taipéi, pero los sitios de disposición de desechos podrían ubicarse en otros condados.
+Las tres centrales nucleares de Taiwán se están desmantelando progresivamente, generando grandes cantidades de desechos de baja radiactividad. La eliminación de estos desechos plantea asimismo problemas de justicia ambiental. Las centrales nucleares se ubican principalmente en el norte de la isla, y la electricidad que producen abastece sobre todo el área metropolitana de Taipéi, pero los almacenes de desechos podrían ubicarse en otros condados.
 
-Los costos de desmantelamiento son asumidos por toda la ciudadanía, pero el riesgo ambiental se concentra en áreas específicas. Este modelo de socialización de costos y localización de riesgos es una manifestación de la injusticia ambiental de la política nuclear. Lograr que quienes se benefician asuman responsabilidades proporcionales requiere innovación en el diseño institucional.
+Los costos de desmantelamiento recaen sobre el conjunto de la ciudadanía, pero el riesgo ambiental se concentra en áreas específicas. Este modelo de costos socializados y riesgos localizados es una manifestación de la injusticia ambiental de la política nuclear. Lograr que quienes se benefician asuman la responsabilidad correspondiente requiere innovación en el diseño institucional.
 
 ## La carga ambiental de la industria petroquímica
 
 ### Riesgos para la salud en el parque de Mailiao
 
-El parque petroquímico de Mailiao, en el condado de Yunlin, es la mayor base petroquímica de Taiwán, con una producción anual que supera los dos billones de dólares taiwaneses. Sin embargo, el parque también genera graves cargas ambientales: contaminación del aire, del agua, del suelo y riesgos para la salud.
+El parque petroquímico de Mailiao, en el condado de Yunlin, es la mayor base petroquímica de Taiwán, con una producción anual que supera los dos billones de dólares taiwaneses. Sin embargo, el parque también genera graves cargas ambientales: contaminación atmosférica, contaminación hídrica, contaminación del suelo y riesgos para la salud.
 
-Investigaciones de la Escuela de Salud Pública de la Universidad Nacional de Taiwán han encontrado que la incidencia de cáncer entre los residentes cercanos al parque de Mailiao es significativamente mayor. La incidencia de cáncer de pulmón y de hígado supera el promedio nacional en un 20-30 %. La prevalencia de asma y alergias infantiles también es notablemente más alta. Estos riesgos para la salud son asumidos principalmente por los residentes locales, mientras que los beneficios económicos recaen sobre todo en las empresas y sus accionistas.
+Investigaciones de la Escuela de Salud Pública de la Universidad Nacional de Taiwán han revelado que la incidencia de cáncer entre los residentes cercanos al parque de Mailiao es significativamente más alta. La incidencia de cáncer de pulmón y de hígado supera la media nacional entre un 20 % y un 30 %. La prevalencia de asma y alergias infantiles también es notablemente mayor. Estos riesgos para la salud recaen principalmente sobre los residentes locales, mientras que los beneficios económicos se concentran en las empresas y sus accionistas.
 
-La contaminación del aire generada por Mailiao tiene un amplio alcance. Contaminantes como PM2.5, dióxido de azufre y óxidos de nitrógeno se dispersan con el viento, afectando condados vecinos como Changhua y Nantou. Los monitores de calidad del aire de la Agencia de Protección Ambiental muestran que las concentraciones de contaminación en el área de Yunlin superan los límites permitidos de manera sostenida.
+La contaminación atmosférica de Mailiao afecta a una amplia zona. Contaminantes como PM2.5, dióxido de azufre y óxidos de nitrógeno se dispersan con el viento, afectando condados vecinos como Changhua y Nantou. Las estaciones de monitoreo de calidad del aire de la Agencia de Protección Ambiental muestran que las concentraciones de contaminación atmosférica en el condado de Yunlin superan sistemáticamente los límites permitidos.
 
-### La controversia por la reubicación de Dalinpu
+### La controversia por el reasentamiento de Dalinpu
 
-La zona de Dalinpu, en Kaohsiung, está rodeada por parques industriales petroquímicos, y sus residentes están expuestos de manera crónica a la contaminación del aire. El gobierno ha impulsado un plan de reubicación para Dalinpu, pero su avance lento ha generado malestar entre los residentes.
+La zona de Dalinpu, en Kaohsiung, está rodeada por parques industriales petroquímicos, y sus residentes están expuestos de manera crónica a la contaminación atmosférica. El gobierno ha impulsado un plan de reasentamiento de Dalinpu, pero el avance ha sido lento, generando malestar entre los residentes.
 
-El estándar de compensación por reubicación es el principal foco de controversia. El gobierno adquiere las viviendas a precio de mercado, pero los residentes consideran que la compensación es insuficiente para comprar una vivienda equivalente en otra ubicación. Los residentes de edad avanzada se resisten a abandonar su tierra natal, y los jóvenes temen por sus oportunidades laborales. La reubicación implica la reconstrucción de toda la comunidad, no se limita a una transacción inmobiliaria.
+Los estándares de compensación por reasentamiento son el principal foco de controversia. El gobierno adquiere las viviendas a precio de mercado, pero los residentes consideran que la compensación no es suficiente para comprar una vivienda equivalente en otro lugar. Los residentes de edad avanzada se resisten a abandonar su tierra natal, y los jóvenes temen por sus oportunidades laborales. El reasentamiento implica la reconstrucción de toda la comunidad, no se limita a una transacción inmobiliaria.
 
-La organización de la vida durante el período de traslado temporal también es un problema. La escolarización de los niños, la atención médica de los ancianos y los desplazamientos laborales deben reorganizarse. El plan de reasentamiento gubernamental carece de detalles, y los residentes carecen de certeza sobre su vida futura.
+La organización de la vida durante el período de reasentamiento temporal también es un problema. La escolarización de los niños, la atención médica de los ancianos y los desplazamientos laborales deben reorganizarse. El plan de reasentamiento gubernamental carece de detalles, y los residentes carecen de certeza sobre su vida futura.
 
-### Transparencia en el monitoreo ambiental
+### Transparencia del monitoreo ambiental
 
-El monitoreo ambiental de la industria petroquímica suele ser realizado por las propias empresas, lo que genera dudas sobre la fiabilidad de los resultados. La población exige que el gobierno instale estaciones de monitoreo independientes, pero la interpretación de los datos de monitoreo requiere un alto nivel de especialización, difícil de evaluar para el ciudadano común.
+El monitoreo ambiental de la industria petroquímica suele ser realizado por las propias empresas, lo que genera dudas sobre la fiabilidad de los resultados. Los ciudadanos exigen que el gobierno instale estaciones de monitoreo independientes, pero la interpretación de los datos requiere conocimientos técnicos especializados que la ciudadanía general difícilmente puede evaluar.
 
-El mecanismo de seguimiento y supervisión de la evaluación de impacto ambiental es deficiente. Muchos compromisos de evaluación ambiental de parques industriales resultan difíciles de verificar a posteriori, y las sanciones por incumplimiento son insuficientes. La falta de confianza de la población en la capacidad de regulación gubernamental profundiza la desconfianza hacia las instalaciones industriales.
+El mecanismo de seguimiento y supervisión de la evaluación de impacto ambiental es deficiente. Muchos compromisos asumidos en las evaluaciones de impacto ambiental de parques industriales resultan difíciles de verificar a posteriori, y las sanciones por incumplimiento son insuficientes. La falta de confianza ciudadana en la capacidad de supervisión gubernamental profundiza la desconfianza hacia las instalaciones industriales.
 
-Surgen movimientos de monitoreo ciudadano. Organizaciones como la Alianza Ambiental de Changhua y la Alianza Ambiental de Yunlin adquieren equipos de monitoreo por cuenta propia para vigilar la calidad del aire. Esta ciencia ciudadana complementa las deficiencias del monitoreo oficial, pero también refleja las carencias de la regulación gubernamental.
+Surgen movimientos de monitoreo ciudadano. Organizaciones como la Alianza Ambiental de Changhua y la Alianza Ambiental de Yunlin adquieren equipos de monitoreo por cuenta propia para vigilar la calidad del aire. Esta ciencia ciudadana compensa las deficiencias del monitoreo oficial, pero también pone de manifierto las carencias de la supervisión gubernamental.
 
 ## Distribución social del riesgo ambiental
 
 ### Clase social y exposición ambiental
 
-En Taiwán, el riesgo ambiental está claramente correlacionado con la clase social. Las viviendas cercanas a zonas industriales son ocupadas principalmente por familias de bajos y medianos ingresos, debido a los menores precios de compra y alquiler. Las familias de altos ingresos residen en zonas con mejor calidad ambiental, como urbanizaciones en laderas o villas con vistas al mar.
+En Taiwán, el riesgo ambiental está claramente correlacionado con la clase social. Las viviendas cercanas a zonas industriales están habitadas predominantemente por familias de bajos y medianos ingresos, debido a los precios más accesibles de la vivienda y el alquiler. Las familias de altos ingresos residen en zonas con mejor calidad ambiental, como urbanizaciones en laderas o villas con vistas al mar.
 
-La exposición ambiental ocupacional también presenta diferencias de clase. Los trabajadores de fábrica, obreros de la construcción y personal de limpieza —trabajadores manuales— están expuestos a mayores riesgos ambientales. Los trabajadores de oficina realizan sus labores en espacios con aire acondicionado, con una exposición ambiental relativamente menor.
+La exposición ambiental ocupacional también presenta diferencias de clase. Los operarios de fábrica, los trabajadores de la construcción y el personal de limpieza —trabajadores manuales— están expuestos a mayores riesgos ambientales. Los trabajadores de oficina laboran en espacios con aire acondicionado, con una exposición ambiental relativamente menor.
 
-El nivel educativo influye en la percepción del riesgo ambiental. Los ciudadanos con mayor formación académica comprenden mejor los riesgos ambientales y tienen más capacidad para adoptar medidas de protección. Las personas con menor nivel educativo pueden subestimar los riesgos, o verse imposibilitadas económicamente de abandonar zonas de alto riesgo.
+El nivel educativo influye en la percepción del riesgo ambiental. Los ciudadanos con mayor formación académica comprenden mejor los riesgos ambientales y tienen más capacidad para adoptar medidas de protección. Las personas con menor nivel educativo pueden subestimar los riesgos o, por razones económicas, no poder abandonar las zonas de alto riesgo.
 
 ### Brecha ambiental urbano-rural
 
-Las zonas urbanas disfrutan de mejor calidad ambiental y servicios públicos. El transporte público es más desarrollado, hay más espacios verdes y los recursos médicos son más abundantes. Las zonas rurales, en cambio, suelen soportar las cargas ambientales generadas por las ciudades: vertederos, plantas de tratamiento de aguas residuales y centrales térmicas se ubican frecuentemente en áreas rurales.
+Las zonas urbanas disfrutan de una mejor calidad ambiental y de mejores servicios públicos. El transporte público es más desarrollado, hay más espacios verdes y los recursos médicos son más abundantes. Las zonas rurales, en cambio, suelen soportar las cargas ambientales generadas por las ciudades: vertederos, plantas de tratamiento de aguas residuales y centrales térmicas se ubican frecuentemente en áreas rurales.
 
-La red de monitoreo ambiental en zonas rurales es más dispersa, lo que dificulta la detección oportuna de incidentes de contaminación. La escasez de recursos médicos impide el tratamiento inmediato de los riesgos ambientales para la salud. Los agricultores, por razones económicas, pueden continuar cultivando en suelos contaminados.
+La red de monitoreo ambiental en el campo es más dispersa, lo que dificulta la detección oportuna de incidentes de contaminación. La escasez de recursos médicos impide el tratamiento inmediato de los riesgos ambientales para la salud. Los agricultores, por razones económicas, pueden seguir cultivando en suelos contaminados.
 
-Los problemas de justicia ambiental en el proceso de urbanización también merecen atención. La renovación urbana suele desplazar a residentes de bajos ingresos hacia zonas con peor calidad ambiental. La remediación de la contaminación del suelo en antiguos emplazamientos industriales suele ser financiada con fondos públicos, pero las plusvalías del terreno benefician a particulares.
+Los problemas de justicia ambiental en el proceso de urbanización también merecen atención. La renovación urbana suele desplazar a los residentes de bajos ingresos hacia zonas con peor calidad ambiental. La descontaminación del suelo en antiguos emplazamientos industriales suele ser financiada con fondos públicos, pero la plusvalía del terreno beneficia a propietarios privados.
 
-### Pueblos indígenas y justicia ambiental
+### Etnia y justicia ambiental
 
-Los territorios de los pueblos indígenas se han convertido frecuentemente en sitios designados para instalaciones de riesgo ambiental. Los vertederos en municipios montañosos, los almacenes de desechos nucleares y los grandes embalses han impactado los territorios tradicionales de los pueblos indígenas.
+Los territorios de los pueblos indígenas se han convertido con frecuencia en emplazamientos designados para instalaciones de riesgo ambiental. Los vertederos en municipios montañosos, los almacenes de desechos nucleares y las grandes presas han impactado los territorios tradicionales de los pueblos indígenas.
 
-La distribución de los recursos hídricos también presenta diferencias étnicas. Las comunidades indígenas en zonas montañosas carecen a menudo de agua potable segura, mientras que las áreas urbanas aguas abajo no experimentan escasez. Los beneficios y los costos de los recursos hídricos se distribuyen de manera desproporcionada.
+La distribución de los recursos hídricos también presenta diferencias étnicas. Las comunidades indígenas de montaña a menudo carecen de acceso a agua potable segura, mientras que las zonas urbanas aguas abajo no experimentan escasez. Los beneficios y los costos de los recursos hídricos se distribuyen de manera desproporcionada.
 
-El conocimiento ambiental y los sistemas de gestión de los pueblos indígenas han sido ignorados durante mucho tiempo. Las formas tradicionales de gestión de recursos naturales pueden ser más sostenibles que la gestión científica moderna, pero carecen de reconocimiento político.
+El conocimiento ambiental y los sistemas de gestión de los pueblos indígenas han sido ignorados durante mucho tiempo. Las formas tradicionales de gestión de los recursos naturales pueden ser más sostenibles que la gestión científica moderna, pero carecen de reconocimiento político.
 
 ## Estrategias de respuesta y reforma institucional
 
@@ -156,89 +156,89 @@ El conocimiento ambiental y los sistemas de gestión de los pueblos indígenas h
 
 El sistema actual de evaluación de impacto ambiental privilegia lo técnico sobre lo social; es necesario aumentar el peso de la evaluación de impacto social. El alcance de la evaluación debe incluir riesgos para la salud, impacto social, influencia cultural, entre otros aspectos. El proceso de evaluación debe ofrecer más oportunidades de participación pública.
 
-La composición de los comités de evaluación de impacto ambiental debe diversificarse. Además de expertos técnicos, se deben incluir especialistas en ciencias sociales, representantes locales y representantes de organizaciones no gubernamentales. El proceso de toma de decisiones debe ser más transparente, y las opiniones ciudadanas deben contar con procedimientos claros de atención.
+La composición de los comités de evaluación de impacto ambiental debe diversificarse. Además de expertos técnicos, deben incluirse expertos en ciencias sociales, representantes locales y representantes de ONG. El proceso de decisión debe ser más transparente, y las opiniones ciudadanas deben contar con procedimientos claros de tramitación.
 
-El mecanismo de seguimiento y supervisión de la evaluación de impacto ambiental debe fortalecerse. Se deben establecer organismos de monitoreo independientes de terceros que revisen periódicamente el cumplimiento de los compromisos de evaluación ambiental. Las sanciones por incumplimiento deben tener un efecto disuasorio, no ser meramente simbólicas.
+El mecanismo de seguimiento y supervisión de la evaluación de impacto ambiental debe fortalecerse. Se deben establecer organismos de monitoreo independientes de terceros que revisen periódicamente el cumplimiento de los compromisos asumidos en las evaluaciones. Las sanciones por incumplimiento deben tener un efecto disuasorio, no ser meramente simbólicas.
 
-### Mecanismos de comunicación de riesgos
+### Mecanismos de comunicación del riesgo
 
-Establecer mecanismos eficaces de comunicación de riesgos que permitan a la población comprender y participar en las decisiones sobre riesgos. La información sobre riesgos debe presentarse de manera comprensible para la ciudadanía, evitando la opacidad técnica.
+Establecer mecanismos eficaces de comunicación del riesgo que permitan a la ciudadanía comprender y participar en las decisiones sobre riesgos. La información sobre riesgos debe presentarse de manera comprensible para la población, evitando la opacidad técnica.
 
-Crear plataformas de comunicación permanentes, no limitadas al momento de la construcción de una instalación. Realizar reuniones comunitarias periódicas para recoger opiniones ciudadanas y responder a las preocupaciones de la población. Construir confianza requiere un esfuerzo sostenido a largo plazo.
+Crear plataformas de comunicación permanentes, no limitadas al momento de la construcción de una instalación. Celebrar reuniones comunitarias periódicas para recoger opiniones ciudadanas y responder a las preocupaciones de la población. Construir confianza requiere un esfuerzo sostenido.
 
-Los medios de comunicación desempeñan un papel importante en la comunicación de riesgos. Los periodistas científicos necesitan mejor formación profesional para informar con precisión sobre riesgos ambientales. Se deben evitar los sensacionalismos, pero tampoco ignorar las preocupaciones legítimas de la población.
+Los medios de comunicación desempeñan un papel importante en la comunicación del riesgo. Los periodistas científicos necesitan mejor formación profesional para informar con precisión sobre riesgos ambientales. Debe evitarse el sensacionalismo, pero tampoco ignorar las preocupaciones legítimas de la ciudadanía.
 
-### Mecanismos de compensación y retribución
+### Mecanismos de compensación y compensación comunitaria
 
-Diseñar mecanismos de compensación equitativos que vayan más allá de la compensación monetaria, considerando también las necesidades de desarrollo comunitario. El uso de los fondos de compensación debe ser transparente y destinarse efectivamente a mejorar la calidad de vida local.
+Diseñar mecanismos de compensación equitativos que vayan más allá de la compensación monetaria y consideren las necesidades de desarrollo comunitario. El uso de los fondos de compensación debe ser transparente y destinarse efectivamente a mejorar la calidad de vida local.
 
-Establecer un sistema de fondo de salud que ofrezca monitoreo sanitario y cobertura médica a los residentes cercanos a instalaciones de riesgo ambiental. Exámenes médicos periódicos, subsidios para gastos médicos e investigación sobre riesgos para la salud pueden incluirse en el ámbito del fondo.
+Establecer un sistema de fondo de salud que ofrezca monitoreo sanitario y cobertura médica a los residentes cercanos a instalaciones de riesgo ambiental. Los chequeos médicos periódicos, los subsidios para gastos médicos y la investigación sobre riesgos para la salud pueden incluirse en el ámbito del fondo.
 
-Considerar la creación de un «Fondo de Justicia Ambiental» para asistir a las comunidades ambientalmente vulnerables en la mejora de su calidad ambiental. Las fuentes de financiamiento pueden incluir tasas por contaminación, impuestos ambientales, impuestos al carbono y otros ingresos relacionados con el medio ambiente.
+Considerar la creación de un «fondo de justicia ambiental» para ayudar a las comunidades ambientalmente desfavorecidas a mejorar su calidad ambiental. Las fuentes de financiamiento pueden incluir tasas por contaminación, impuestos ambientales, impuestos al carbono y otros ingresos relacionados con el medio ambiente.
 
 ### Sistemas de participación ciudadana
 
-Fortalecer la base legal de la participación ciudadana en las decisiones ambientales. Establecer el derecho de la ciudadanía a la información ambiental, a la participación y a la supervisión. La información gubernamental debe ser proactivamente pública, y las opiniones ciudadanas deben contar con procedimientos claros de atención.
+Fortalecer la base legal de la participación ciudadana en las decisiones ambientales. Establecer el derecho de la ciudadanía a la información ambiental, a la participación y a la supervisión. La información gubernamental debe ser proactivamente pública, y las opiniones ciudadanas deben contar con procedimientos claros de tramitación.
 
 Fortalecer la capacidad de participación de las comunidades ambientalmente vulnerables. Proporcionar recursos de asistencia jurídica, apoyo técnico y formación organizativa para que las comunidades desfavorecidas puedan participar eficazmente en las decisiones ambientales.
 
-Promover la aplicación del presupuesto participativo en las políticas ambientales. Permitir que la ciudadanía participe directamente en las decisiones de asignación del presupuesto ambiental, aumentando la legitimidad democrática de las políticas.
+Promover la aplicación del presupuesto participativo en las políticas ambientales. Permitir que los ciudadanos participen directamente en las decisiones de asignación del presupuesto ambiental, aumentando la legitimidad democrática de las políticas.
 
 ## Experiencias internacionales y enseñanzas
 
 ### El movimiento de justicia ambiental en Estados Unidos
 
-El movimiento de justicia ambiental en Estados Unidos se originó en la década de 1980, centrado en la concentración de instalaciones de residuos tóxicos en comunidades afroamericanas. Tras tres décadas de desarrollo, la justicia ambiental se ha incorporado al mainstream de la política federal.
+El movimiento de justicia ambiental en Estados Unidos se originó en la década de 1980, centrado en la concentración de instalaciones de residuos tóxicos en comunidades afroamericanas. Tras tres décadas de desarrollo, la justicia ambiental se ha incorporado a la corriente principal de la política federal.
 
-La Agencia de Protección Ambiental de Estados Unidos estableció una Oficina de Justicia Ambiental para garantizar que todas las políticas consideren la dimensión de justicia ambiental. Los organismos del gobierno federal deben evaluar el impacto sobre las comunidades vulnerables al formular políticas.
+La Agencia de Protección Ambiental de Estados Unidos creó una Oficina de Justicia Ambiental para garantizar que todas las políticas consideren la dimensión de justicia ambiental. Los organismos del gobierno federal deben evaluar el impacto sobre las comunidades vulnerables al formular políticas.
 
-La Ley de Justicia Ambiental de California (SB 535) establece que el 25 % de las inversiones para la reducción de gases de efecto invernadero deben destinarse a comunidades desfavorecidas. Este principio de «prioridad para los beneficiarios» es digno de referencia para Taiwán.
+La ley de justicia ambiental de California (SB 535) establece que el 25 % de las inversiones para la reducción de gases de efecto invernadero deben destinarse a comunidades desfavorecidas. Este principio de «prioridad para los beneficiarios» merece ser considerado como referencia en Taiwán.
 
 ### La justicia procesal en Europa
 
-La Convención de Aarhus de Europa estableció el derecho de acceso a la información ambiental, el derecho de participación pública y el derecho de recurso judicial, entre otros derechos procedimentales. Los Estados miembros deben establecer los correspondientes marcos legales.
+La Convención de Aarhus de Europa establece derechos procesales como el derecho de acceso a la información ambiental, el derecho de participación pública y el derecho de recurso judicial. Los Estados miembros deben establecer los correspondientes marcos legales.
 
-El sistema de tribunales ambientales de Suecia permite a la ciudadanía defender eficazmente sus derechos ambientales. Jueces especializados, expertos técnicos y representantes de la sociedad civil conocen conjuntamente los casos ambientales. Las sentencias son vinculantes y tanto el gobierno como las empresas deben acatarlas.
+El sistema de tribunales ambientales de Suecia permite a la ciudadanía tutelar eficazmente sus derechos ambientales. Jueces especializados, expertos técnicos y representantes ciudadanos conocen conjuntamente los casos ambientales. Las sentencias son vinculantes y tanto el gobierno como las empresas deben acatarlas.
 
-El sistema de evaluación de impacto ambiental de los Países Bajos enfatiza la participación pública. Los ciudadanos no solo pueden expresar opiniones, sino también influir en el alcance y los métodos de evaluación. Los resultados de la evaluación deben responder a las preocupaciones planteadas por la población.
+El sistema de evaluación de impacto ambiental de los Países Bajos enfatiza la participación pública. Los ciudadanos no solo pueden expresar opiniones, sino también influir en el alcance y los métodos de evaluación. Los resultados de la evaluación deben responder a las preocupaciones planteadas por la ciudadanía.
 
-### La comunicación de riesgos en Japón
+### La comunicación del riesgo en Japón
 
-Tras el desastre nuclear, Japón impulsó vigorosamente un sistema de comunicación de riesgos. El gobierno estableció organismos especializados, capacitó expertos en comunicación de riesgos y creó procedimientos estandarizados de comunicación.
+Tras el desastre nuclear, Japón impulsó vigorosamente un sistema de comunicación del riesgo. El gobierno creó organismos especializados, formó expertos en comunicación del riesgo y estableció procedimientos estandarizados de comunicación.
 
-La experiencia en el manejo del desastre nuclear de Fukushima demostró que la comunicación de riesgos no es solo un problema técnico, sino también un problema de confianza. El gobierno debe reconocer la incertidumbre y asumir la responsabilidad de las decisiones para poder generar confianza ciudadana.
+La experiencia en el manejo del desastre nuclear de Fukushima demostró que la comunicación del riesgo no es solo una cuestión técnica, sino sobre todo una cuestión de confianza. El gobierno debe reconocer la incertidumbre y asumir la responsabilidad de las decisiones para ganarse la confianza ciudadana.
 
-Los gobiernos locales de Japón desempeñan un papel importante en la comunicación de riesgos. La actitud y las políticas de los líderes locales a menudo determinan el éxito o fracaso de la comunicación de riesgos.
+Los gobiernos locales de Japón desempeñan un papel importante en la comunicación del riesgo. La actitud y las políticas de los líderes locales a menudo determinan el éxito o el fracaso de la comunicación del riesgo.
 
 ## Perspectivas y conclusión
 
-Los problemas de justicia ambiental en Taiwán reflejan estructuras más profundas de desigualdad social. Resolver los problemas de justicia ambiental requiere abordar simultáneamente múltiples dimensiones de desigualdad: de clase, étnica, urbano-rural e intergeneracional.
+Los problemas de justicia ambiental en Taiwán reflejan estructuras más profundas de desigualdad social. Resolver la justicia ambiental requiere abordar simultáneamente múltiples dimensiones de desigualdad: de clase, étnica, urbano-rural e intergeneracional.
 
 Los desafíos futuros incluyen: el cambio climático, que agrava la distribución desigual del riesgo ambiental; la transición justa en el proceso de transición energética; el impacto social del desarrollo de la economía circular; y las cuestiones de justicia ambiental en el comercio internacional, entre otros.
 
 La justicia ambiental no es solo un ideal, sino también una cuestión práctica. Establecer un sistema de gobernanza ambiental equitativo, transparente y participativo, que permita a toda la ciudadanía disfrutar de la calidad ambiental y asumir responsabilidades ambientales, es una condición necesaria para que Taiwán avance hacia una sociedad sostenible.
 
-Las decisiones ambientales en una democracia deben basarse en información suficiente, debate público y justicia procesal. No existe una solución perfecta, pero se puede aspirar a un proceso más equitativo. La realización de la justicia ambiental requiere el esfuerzo conjunto del gobierno, las empresas y la sociedad civil, y sobre todo, la participación activa de cada ciudadano.
+Las decisiones ambientales en una democracia deben basarse en información suficiente, debate público y justicia procesal. No existe una solución perfecta, pero se puede aspirar a un proceso más equitativo. La realización de la justicia ambiental requiere el esfuerzo conjunto del gobierno, las empresas y la sociedad civil, y sobre todo la participación activa de cada ciudadano.
 
 **Lecturas complementarias**:
 
-- [El debate sobre la energía nuclear en Taiwán](/society/台灣與核能的討論) — El pueblo Tao de Lanyu carga con los residuos nucleares pero queda fuera del centro del debate: la fractura más profunda de NIMBY y justicia ambiental en la controversia nuclear
-- [鐵皮屋](/society/鐵皮屋) — La demolición de Wenzizhun es un caso emblemático de justicia ambiental: contaminación, desmantelamiento y dificultades de reasentamiento de un asentamiento industrial de 400 hectáreas con estructuras de chapa metálica
-- [社會住宅與居住正義](/society/社會住宅與居住正義) — La dimensión política de la problemática de la vivienda: oferta de vivienda social y reforma del mercado de alquiler
-- [盧秀燕](/people/盧秀燕) — La política que ganó Taichung en 2018 con la agenda ambiental: la central térica de Taichung, PM2.5 y el campo de batalla concreto de la transición energética
-- [Crisis climática de Taiwán y transición neta cero](/nature/台灣氣候危機與淨零轉型) — 97.672 barriles en Lanyu, referéndum de Maanshan 2025, Datan y el arrecife de algas, brecha de 27 veces en geotermia: la fractura de justicia ambiental correspondiente a cada vía de transición energética
+- [El debate sobre la energía nuclear en Taiwán](/society/台灣與核能的討論) — Los Tao de Lanyu soportan los desechos nucleares pero quedan al margen del debate: la fractura más profunda entre NIMBY y justicia ambiental en la controversia nuclear
+- [Las construcciones de chapa](/society/鐵皮屋) — La demolición de Wenzizhun como caso paradigmático de justicia ambiental: contaminación, desmantelamiento y dilemas de reasentamiento en un asentamiento industrial de 400 hectáreas de construcciones de chapa
+- [Vivienda social y justicia habitacional](/society/社會住宅與居住正義) — La dimensión política de la problemática de la vivienda: oferta de vivienda social y reforma del mercado de alquiler
+- [Lu Shiow-yen](/people/盧秀燕) — La política que ganó Taichung en 2018 con la agenda del aire: la central térmica de Taichung, PM2.5 y el campo de batalla concreto de la transición energética
+- [Crisis climática y transición a cero emisiones en Taiwán](/nature/台灣氣候危機與淨零轉型) — 97.672 barriles en Lanyu, referéndum de la central nuclear n.º 3 en 2025, la tercera terminal de gas en los arrecifes de algas, un déficit geotérmico 27 veces superior: las fracturas de justicia ambiental en cada ruta de la transición energética
 
 ## Referencias
 
-- [環境權保障基金會](https://www.erf.org.tw/) — Derecho ambiental y litigio de interés público
-- [地球公民基金會](https://www.cet-taiwan.org/) — Incidencia en justicia ambiental y acción ciudadana
-- [台灣環境資訊協會](https://e-info.org.tw/) — Noticias ambientales y análisis de temas
-- [綠色公民行動聯盟](https://www.gcaa.org.tw/) — Incidencia antinuclear y en política energética
-- [台灣蠻野心足生態協會](https://www.wildatheart.org.tw/) — Supervisión legal y política ambiental
-- [高雄市柴山會](https://www.takao.org.tw/) — Protección ambiental local y participación comunitaria
-- [彰化縣環境保護聯盟](http://www.cepf.org.tw/) — Lucha contra la contaminación del aire y monitoreo ambiental
-- [蘭嶼達悟族文教基金會](http://www.teyaw.org/) — Retiro de desechos nucleares y derechos indígenas
-- [行政院環境保護署](https://www.epa.gov.tw/) — Políticas y regulaciones ambientales
-- [台灣大學公共衛生學院](https://www.sph.ntu.edu.tw/) — Investigación sobre riesgos ambientales para la salud
-- _Justicia ambiental: riesgos ambientales en comunidades vulnerables_, de Wenling Du, Kaixuan Culture, 2012
-- _Introducción a los movimientos ambientales en Taiwán_, de Mingxiu He, Qunxue Publishing, 2006
+- [Fundación para la Garantía de los Derechos Ambientales](https://www.erf.org.tw/) — Derecho ambiental y litigio de interés público
+- [Fundación Ciudadanos de la Tierra](https://www.cet-taiwan.org/) — Incidencia en justicia ambiental y acción ciudadana
+- [Asociación de Información Ambiental de Taiwán](https://e-info.org.tw/) — Noticias ambientales y análisis de temas
+- [Alianza Ciudadana de Acción Verde](https://www.gcaa.org.tw/) — Incidencia antinuclear y en política energética
+- [Asociación Ecológica Wild at Heart de Taiwán](https://www.wildatheart.org.tw/) — Derecho ambiental y supervisión de políticas
+- [Asociación Chaishan de Kaohsiung](https://www.takao.org.tw/) — Protección ambiental local y participación comunitaria
+- [Alianza Ambiental de Changhua](http://www.cepf.org.tw/) — Lucha contra la contaminación atmosférica y monitoreo ambiental
+- [Fundación Cultural y Educativa del Pueblo Tao de Lanyu](http://www.teyaw.org/) — Retirada de desechos nucleares y derechos indígenas
+- [Agencia de Protección Ambiental, Yuan Ejecutivo](https://www.epa.gov.tw/) — Políticas y normativa ambiental
+- [Escuela de Salud Pública de la Universidad Nacional de Taiwán](https://www.sph.ntu.edu.tw/) — Investigación sobre riesgos ambientales para la salud
+- Du Wenling, _Justicia ambiental: riesgos ambientales en comunidades vulnerables_, Kaixuan Culture, 2012
+- He Mingxiu, _Introducción a los movimientos ambientales en Taiwán_, Qunxue Publishing, 2006

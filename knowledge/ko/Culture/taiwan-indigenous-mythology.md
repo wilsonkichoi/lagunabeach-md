@@ -10,10 +10,10 @@ lastVerified: 2026-04-17
 lastHumanReview: true
 featured: false
 translatedFrom: Culture/原住民神話.md
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:f16fb8d1c36fdd75'
-sourceBodyHash: 'sha256:e09a61ab23c86acd'
-translatedAt: '2026-06-10T16:58:21Z'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:3ad9f28eb81ce704'
+sourceBodyHash: 'sha256:93356a93ce6ebf61'
+translatedAt: '2026-06-11T16:38:39Z'
 ---
 
 > **30초 개요:** 대만이라는 섬은 지리적 다양성뿐 아니라 문화적 신화의 보고이기도 하다. 타이야족의 바위 갈라짐 창생 신화부터 부농족의 태양 쏘기 전설, 아메이족의 대홍수와 남매혼 이야기에 이르기까지, 이 구전 서사시들은 각 민족의 우주관을 형성했을 뿐 아니라 자연환경과의 깊은 상호작용 및 적응의 지혜를 반영한다. 이 신화들은 대만 원주민 문화를 이해하는 데 없어서는 안 될 열쇠이다.

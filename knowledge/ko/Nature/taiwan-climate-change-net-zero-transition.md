@@ -1,34 +1,39 @@
 ---
-title: "Taiwan's Climate Crisis and Net-Zero Transition: The Day the Nuclear Three Referendum Failed Was Just the Beginning of Physical Limits"
-description: "August 23, 2025 Nuclear Three Extension Referendum: 4.34 million 'yes' votes, 74% approval, 29.53% turnout missed the threshold. The referendum failed; the next day, Lai Ching-te announced three principles. Seven months later, on March 27, 2026, Taipower submitted the extension application to the Nuclear Safety Commission. 98% energy reliance on imports, 9 trillion NTD for net-zero, geothermal target of 200 MW with only 7.4 MW built, offshore wind capacity ranked 7th globally, Onkalo ultimate repository, TerraPower Gen-4 nuclear—this island's energy problem has never been political; it is a problem of physical limits."
+title: '대만의 기후 위기와 탄소중립 전환: 핵발전소 3호기 국민투표가 부결된 날, 물리적 한계와의 싸움이 비로소 시작되었다'
+description: '2025년 8월 23일 핵발전소 3호기 연장 국민투표: 434만 찬성표, 74% 찬성, 투표율 29.53%로 기준 미달. 투표 부결 다음 날 라이칭더는 세 가지 원칙을 제시했고, 7개월 후 2026년 3월 27일 타이전은 연장 신청서를 핵안전회에 제출했다. 에너지의 98%를 수입에 의존하고, 9조 신대만달러의 탄소중립 목표, 지열 목표 200MW에 실제 가동은 7.4MW, 해상풍력 설치량 세계 7위, 온칼로 최종 처리장, TerraPower 4세대 원전——이 섬의 에너지 문제는 결코 정치 문제가 아니다. 물리적 한계의 문제다.'
 date: 2026-05-19
+category: 'Nature'
 tags:
   [
-    'climate change',
-    'net-zero transition',
-    'energy transition',
-    'nuclear three',
-    'nuclear waste',
-    'hydrogen energy',
-    'geothermal',
-    'ocean energy',
-    'offshore wind',
-    'solar PV',
-    'carbon credit trading',
-    'Lanyu',
-    'extreme climate',
+    '氣候變遷',
+    '淨零轉型',
+    '能源轉型',
+    '核三',
+    '核廢料',
+    '氫能',
+    '地熱',
+    '海洋能',
+    '離岸風電',
+    '太陽光電',
+    '碳權交易',
+    '蘭嶼',
+    '極端氣候',
   ]
-subcategory: 'Conservation and Environment'
-author: 'Taiwan.md'
-category: 'Nature'
+subcategory: '保育與環境'
 readingTime: 26
+author: 'Taiwan.md'
+featured: true
 lastVerified: 2026-05-19
 lastHumanReview: true
+image: '/article-images/nature/maanshan-nuclear-plant-nan-wan-2014.jpg'
+imageCredit: 'M. Weitzel (Wikimedia Commons)'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Maanshan_Nuclear_Power_Plant,_Nan_Wan.jpg'
 translatedFrom: 'Nature/台灣氣候危機與淨零轉型.md'
 sourceCommitSha: '44238bb4'
 sourceContentHash: 'sha256:99d23321710787ca'
 sourceBodyHash: 'sha256:c086a3d5805158ba'
-translatedAt: '2026-06-10T16:58:21Z'
+translatedAt: '2026-06-11T16:38:39Z'
 ---
 
 # Taiwan's Climate Crisis and Net-Zero Transition: The Day the Nuclear Three Referendum Failed Was Just the Beginning of Physical Limits

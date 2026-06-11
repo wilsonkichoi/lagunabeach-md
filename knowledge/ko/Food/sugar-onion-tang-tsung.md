@@ -23,7 +23,7 @@ translatedFrom: 'Food/糖蔥.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:ca062268b3b89018'
 sourceBodyHash: 'sha256:383a8a9c19be37a9'
-translatedAt: '2026-05-01T22:19:01+08:00'
+translatedAt: '2026-06-11T16:38:39Z'
 ---
 
 # 당총: 하얀 구멍 속에 숨은 "항쟁의 사탕"

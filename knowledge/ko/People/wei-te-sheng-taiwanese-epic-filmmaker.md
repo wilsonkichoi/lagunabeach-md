@@ -5,19 +5,25 @@ date: 2026-03-19
 author: 'Taiwan.md'
 category: 'People'
 subcategory: '電影與戲劇'
-tags: ['영화와 연극', '감독', '대만 영화', '원주민 문화', '해구칠호', '사이더크바라이', '타이난']
-readingTime: '# design_rationale:
-#   why_this_hook: "5.3억 흥행+베니스 경쟁 부문——이 두 지점이야말로 그가 대만 영화사에서 차지하는 위치를 설명할 수 있다: 상업적 기적과 예술적 인정은 같은 일이 아니다."
-#   whats_excluded: "무사 사건 역사적 배경 완전 분석; 대만 삼부곡 자금 조달 상세 내용; 《해구칠호》 배우 일일 소개"
-#   where_it_hedges: "《해구칠호》 흥행 5.3억: 출처 P0에서 「억 대」 확인, 5.3억이라는 수치는 기존 자료에서 흔히 인용되는 수치(공식 통계 확인 권장)"'
+tags:
+  [
+    '영화와 연극',
+    '감독',
+    '대만 영화',
+    '원주민 문화',
+    '해구칠호',
+    '사이더크바라이',
+    '타이난',
+  ]
+readingTime: 7
 lastVerified: 2026-05-07
 lastHumanReview: true
 featured: false
 translatedFrom: 'People/魏德聖.md'
-sourceCommitSha: '0f8fae0ae'
-sourceContentHash: 'sha256:c12363db6be367bf'
-sourceBodyHash: 'sha256:c323a1cb617cbe0a'
-translatedAt: '2026-05-24T05:06:32+08:00'
+sourceCommitSha: '8f070a88'
+sourceContentHash: 'sha256:c53d9ecd803bd8cd'
+sourceBodyHash: 'sha256:9fd756dd61905363'
+translatedAt: '2026-06-11T16:38:39Z'
 ---
 
 # 웨이더성: 영강 1969, 《해구칠호》 억 대 박스오피스에서 베니스 경쟁 부문에 오른 대만 서사 영화 감독
@@ -80,7 +86,7 @@ translatedAt: '2026-05-24T05:06:32+08:00'
 
 1969년 타이난 영강에서 태어나, 2000년에 50만 원으로 5분 작품을 찍고도 자금을 구하지 못하고, 2008년 5억 3천만 흥행, 2011년 베니스 경쟁 부문. 이 선은 인내의 축적이지, 기적과는 무관하다.
 
-**더 읽기:** [웨이더성 — 위키백과](https://zh.wikipedia.org/zh-tw/魏德聖) ｜ [대만 영화 데이터베이스: 웨이더성](https://taiwancinema.bamid.gov.tw/Staff/StaffContent/?ContentUrl=12549) ｜ [금마장 공식 사이트](https://www.goldenhorse.org.tw/)
+**더 읽기:** [모나 루다오: 20원 동전에 새겨진 항일 영웅](/people/莫那·魯道)（《사이더크·바라이》의 주인공 원형, 그리고 영화가 어떻게 기억을 재형성했는가）｜ [웨이더성 — 위키백과](https://zh.wikipedia.org/zh-tw/魏德聖) ｜ [대만 영화 데이터베이스: 웨이더성](https://taiwancinema.bamid.gov.tw/Staff/StaffContent/?ContentUrl=12549) ｜ [금마장 공식 사이트](https://www.goldenhorse.org.tw/)
 
 ## 참고 문헌
 

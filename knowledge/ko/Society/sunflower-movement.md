@@ -1,213 +1,211 @@
 ---
-title: 'The Sunflower Student Movement — Twelve Years After Those Thirty Seconds'
-description: "A legislator lay on the floor reading via a lapel microphone for thirty seconds, triggering a 24-day occupation of the legislature, a political awakening for a generation, and the starting point of Taiwan's economic shift away from China. Twelve years later, the laws the students demanded were never passed, but they won a war they didn't know they were fighting."
+title: '태양꽃 학운——그 30초 이후의 12년'
+description: '한 명의 입법위원이 바닥에 엎드려 목걸이 마이크로 30초를 읽어냈고, 이는 24일간의 국회 점거와 한 세대의 정치 각성을 촉발했으며, 타이완 경제가 중국에서 다른 방향으로 전환되는 시점이 되었다. 12년이 지난 지금, 학생들이 요구한 법안은 통과되지 않았지만, 그들은 자신들이 어떤 전쟁을 치르고 있는지도 모른 채 승리했다.'
 date: 2026-04-12
-tags:
-  [
-    'Social Movements',
-    'Democracy',
-    'Cross-Strait Relations',
-    'Civic Technology',
-  ]
-subcategory: 'Democracy and Politics'
-author: 'Taiwan.md'
 category: 'Society'
-readingTime: 12
+tags:
+  - '사회운동'
+  - '민주주의'
+  - '양안관계'
+  - '시민기술'
+subcategory: '민주와 정치'
+author: 'Taiwan.md'
+featured: true
 lastVerified: 2026-04-12
 lastHumanReview: false
 translatedFrom: 'Society/太陽花學運.md'
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:de374340ca4140af'
-sourceBodyHash: 'sha256:1bf83c4f24dc53dd'
-translatedAt: '2026-06-10T16:58:21Z'
+sourceCommitSha: '1844f59c5'
+sourceContentHash: 'sha256:4b20ee6c7caeca19'
+sourceBodyHash: 'sha256:db9bd643c9240d48'
+translatedAt: '2026-06-12T00:53:42+08:00'
 ---
 
-> **30-Second Overview:** On March 17, 2014, KMT legislator Chang Ching-chung lay on the floor using a small microphone clipped to his lapel to announce that the Cross-Strait Service Trade Agreement (CSSTA) had been "deemed reviewed" in thirty seconds. Overnight, over 200 students scaled the walls to occupy the Legislative Yuan, setting up a 24-hour livestream using an iPad, bypassing all television stations. Twenty-four days later, the students withdrew; the CSSTA was not vetoed—it was abandoned by history. The numbers twelve years later tell the story: Taiwan's trade dependency on China fell from 42% to 31.5%. They won a war they didn't know they were fighting.
+> **30 초 개요:** 2014년 3월 17일, 국민당 입법위원 장경중이 바닥에 엎드려 목걸이 마이크로 30초 동안 서비스 무역 협정 “심사 완료”라고 선언했다. 그날 밤, 200명 넘는 학생들이 방화벽을 뚫고 입법원에 진입해 iPad 하나로 24시간 라이브 스트리밍을 구축, 모든 텔레비전 채널을 우회했다. 24일 후 학생들은 퇴거했지만, 서비스 무역은 부결되지 않았다—역사에 의해 버려졌다. 12년 뒤의 수치는 모든 것을 보여준다: 타이완의 대중(홍콩 포함) 수출 의존도가 42%에서 31.5%로 하락했다. 그들은 자신들이 어떤 전쟁을 치르고 있는지도 모른 채 승리했다.
 
-| 42% → 31.5%                                                  | NT$ 6.33 million                                      |
-| ------------------------------------------------------------ | ----------------------------------------------------- |
-| Decline in export dependency on China (incl. HK) (2014→2025) | Crowdfunding for the NYT Ad (Reached goal in 35 mins) |
+| 42% → 31.5%                                  | 633만 위안                             |
+| -------------------------------------------- | -------------------------------------- |
+| 대중(홍콩 포함) 수출 의존도 감소 (2014→2025) | 뉴타임즈 광고 크라우드펀딩 (35분 달성) |
 
-## The Thirty Seconds
+## 30초
 
-On the afternoon of March 17, 2014, in the Legislative Yuan's Internal Affairs Committee, DPP legislators occupied the chair to block the review of the CSSTA. KMT legislator Chang Ching-chung was pinned to the floor. Struggling, he reached for the small microphone clipped to his lapel and read haltingly: "The Cross-Strait Service Trade Agreement, sent to the plenary session for handling, adjourned."[^1]
+2014년 3월 17일 오후, 입법원 내정위원회. 민진당 입법위원이 의장단을 점거해 서비스 무역 협정 심의를 막는 가운데, 국민당 입법위원 장경중은 바닥에 눌려 있었다. 그는 몸부림치며 목걸이에 달린 작은 마이크를 잡고 끊어읽었다: “해협 양안 서비스 무역 협정, 법원 위원회에 송부, 산회.”[^1]
 
-Thirty seconds. An agreement affecting eleven industrial sectors including Taiwan's finance, telecommunications, publishing, and transportation was thus "deemed reviewed."[^2]
+30초. 타이완 금융·통신·출판·운송 등 11개 산업 분야에 영향을 미치는 협정이 이렇게 “심사 완료”된 것이다.[^2]
 
-In 2016, Chang Ching-chung failed to be re-elected in the Zhonghe constituency, losing to the DPP's Jiang Yong-chang. From then on, the only way people remembered him was by the nickname "Half-Minute Chung" (Ban Fen Zhong).[^3]
+2016년, 장경중은 중화구 선거구에서 재선에 실패하고 민진당 강영창에게 패배했다. 이후 사람들은 그를 ‘반분충’이라는 별명으로만 기억한다.[^3]
 
-But what the thirty seconds truly changed was far greater than one legislator's political life.
+하지만 30초가 진정 바꾼 것은 입법위원 개인의 정치 생애보다 훨씬 크다.
 
-## The Door That Was Climbed Over
+## 넘어간 그 문
 
-At 9:30 PM on March 18, over 200 students and members of civic groups breached police lines through the side door on Qingdao East Road, rushing into the legislative chamber.[^4] Led by NTU Political Science graduate student Lin Fei-fan and NTHU Sociology graduate student Chen Wei-ting, what truly made the occupation possible was not any single person's decision, but what everyone did together after climbing over that door.
+3월 18일 밤 9시 30분, 200명 넘는 학생과 시민단체 구성원이 입법원 청도동문을 뚫고 경비를 뚫고 의장단에 진입했다.[^4] 선두에 선 사람은 타이베이대 정치학과 대학원생 임비판과 청대 사회학과 대학원생 진위정이었지만, 점거가 성립된 것은 어느 한 사람의 결정이 아니라 그 문을 넘어선 뒤 모두가 함께 한 행동이었다.
 
-This was the first occupation of the legislature since Taiwan's democratization.
+이는 타이완 민주화 이후 최초의 국회 점거였다.
 
-Inside the chamber, students presented three demands: return the CSSTA, President [[Ma Ying-jeou]] apologize, and Premier [[Chiang Yi-chu]] resign. Outside the chamber, thousands gathered daily around the Legislative Yuan, peaking at over 10,000. But what made this movement truly different was not the number of people.
+의장단 안에서 학생들은 세 가지 요구를 제시했다: 서비스 무역 철회, 대통령 [馬英九](/ko/People/ma-ying-jeou-cross-strait-reconciliation-leader/) 사과, 행정원장 강이화 사퇴. 의장단 밖에서는 매일 수천 명이 입법원 주변에 모였으며, 최고점에서는 1만 명이 넘었다. 그러나 이 운동을 특별하게 만든 것은 인원수가 아니라었다.
 
-## An iPad Against All Cameras
+## iPad 한 대가 모든 카메라에 맞서는 순간
 
-On the night of the occupation, engineers from the [[Open Source Community and g0v]] zero-hour government entered the chamber. They used Hackpad to create a decentralized material request and shift schedule; used Hackfoldr (with one of its main maintainers being Tang Feng, who later became the Digital Minister) to integrate all information portals; most crucially, an iPad was attached to a microphone stand for a 24-hour Ustream livestream, bypassing the interpretive frameworks of all mainstream media.[^5]
+점거 당일 밤, [開源社群與g0v](/ko/Technology/open-source-and-g0v/) 제로시 정부 엔지니어들이 의장단에 투입되었다. 그들은 Hackpad로 탈중앙화 물자 수요표와 근무표를 만들고; Hackfoldr(주요 유지관리자 중 한 명은 나중에 디지털 행정위원이 된 탕펑)로 모든 정보 입구를 통합했다; 가장 핵심은 마이크 스탠드에 고정된 iPad 한 대가 24시간 Ustream으로 방송을 진행해 모든 주류 매체의 해석 틀을 우회했다.[^5]
 
-> **📝 Curator's Note**
-> In 2014, Taiwan did not yet have TikTok, and Instagram was just starting to become popular. An iPad was the independent media of that era. After the 3G signal in the chamber became congested, the Academia Sinica team pulled directional antennas to push WiMax signals in, and brought in over twenty USB Ethernet cables. This was not improvisation; it was engineers building infrastructure.
+> **📝 전시자 주석**  
+> 2014년 타이완에는 틱톡이 없었고, 인스타그램이 막 시작된 시기였다. iPad 한 대가 그 시기의 독립 미디어였다. 의장단 안의 3G 신호가 포화된 뒤, 중앙연구원 팀이 지향성 안테나를 설치해 WiMax 신호를 끌어들였고, 20여 개의 USB 이더넷 케이블을 현장에 들고 왔다. 이는 즉흥이 아니라 엔지니어가 기반 시설을 구축한 것이다.
 
-At 9:00 AM on March 24, eleven netizens launched the "Group Purchase Front Page Ad" campaign on the crowdfunding platform FlyingV. In thirty-five minutes, they raised NT$1.5 million, reaching the target for half a page in the _Apple Daily_; within three hours, 3,495 people participated, raising over NT$6.3 million.[^6] Five days later, a full-page ad designed by聂永真 (Nien Yung-chen) was published on the fifth page of the International Asia section of _The New York Times_, with the four-word headline: "Democracy at 4am".[^7]
+3월 24일 아침 9시, 11명의 네티즌이 크라우드펀딩 플랫폼 FlyingV에서 “첫 페이지 광고 공동구매” 프로젝트를 시작했다. 35분 만에 150만 위안을 모아 《애플 데일리》 반 페이지 목표를 달성했고; 3시간 안에 3,495명이 참여해 630만 위안을 초과 모금했다.[^6] 5일 뒤, 디자이너 설영진이 디자인한 전면 광고가 《뉴욕 타임스》 국제 아시아판 5면에 실렸으며, 제목은 네 개의 영문 단어 “Democracy at 4am”이었다.[^7]
 
-That was democracy at 4 AM. And that 4 AM referred to the time of the March 23 Executive Yuan eviction.
+그것은 새벽 4시의 민주였다. 그리고 그 새벽 4시는 3월 23일 행정원 퇴거 시간이었다.
 
-## The Night of Water Trucks and Batons
+## 물탱크와 경찰봉의 그 밤
 
-On the evening of March 23, approximately 1,000 people attempted to occupy the Executive Yuan, escalating the protest. Executive Yuan Premier Chiang Yi-chu ordered forced eviction. Starting early on March 24, riot police deployed water trucks, batons, and shields, launching six waves of clearance operations, resulting in over 150 injuries.[^8]
+3월 23일 저녁, 약 1천 명의 인파가 행정원 점거를 시도하며 시위 수준을 높였다. 행정원장 강이화는 강제 퇴거를 명령했다. 3월 24일 새벽부터 진압 경찰이 물탱크, 경찰봉, 방패를 동원해 6차례에 걸친 청소 작전을 펼쳤고, 150명 넘는 사람이 부상을 입었다.[^8]
 
-The Legislative Yuan's Control Yuan investigation report confirmed that the police "executed evictions using violent means exceeding the principle of proportionality," and some officers "harbored resentment towards the public."[^9]
+감찰원 조사 보고서는 경찰이 “비례 원칙을 초과한 폭력 수단으로 퇴거를 실행”했으며, 일부 경찰관이 “시민에 대한 원한”을 가지고 있었다고 확인했다.[^9]
 
-> **✦** Lin Chih-chieh entered the Executive Yuan lobby to sit in protest early that morning. During the eviction, his head was struck heavily by a baton, causing intracranial hemorrhage; he was dragged down the stairs, causing spinal injury. He was one of the protesters with the most severe injuries that day. After eight years of litigation, his private prosecution case was dismissed, but his state compensation case was won, resulting in compensation of NT$100,000.[^10]
+> **✦** 그날 새벽, 임지걸은 행정원 대강당에 들어가 앉아 있었다. 퇴거 과정에서 그의 머리는 경찰봉에 강타당해 두개내 출혈이 발생했고, 계단을 끌려 내려가면서 척추 부상을 입어 당시 가장 심각한 부상자 중 하나가 되었다. 8년간 소송 끝에 민사소송은 패소했지만 국가배상 소송은 승소해 10만 위안을 받았다.[^10]
 
-Lin Jui-tzu (Lin Xiao-qiu) had her arm dragged and her hair pulled along the ground, causing shoulder ligament strain. After eight years of litigation, both her private prosecution and state compensation cases were dismissed, and she received not a single cent. Ten years later, she told _The Reporter_: "I cannot let my parents know what happened that night."[^10]
+임수자(임소구)는 팔을 끌려가며 머리카락이 땅에 닿아 어깨 인대가 손상되었다. 8년간 소송을 이어갔지만, 민사와 국가배상 모두 패소해 한 푼도 받지 못했다. 10년 후 그녀는 《보도자》에 “그날 밤 일어난 일을 부모님께 말씀드릴 수 없다”고 전했다.[^10]
 
-The blood from March 23 spread across Taiwan via livestream, stirring not fear, but public outrage.
+323 사건의 피는 인터넷 라이브 스트리밍을 통해 전 타이완에 퍼졌으며, 두려움이 아니라 민심을 자극했다.
 
-## Dawn Over the Island
+## 섬의 새벽빛
 
-On March 23, Yang Ta-cheng, lead singer of the band Fire EX, went to the Legislative Yuan for inspiration. He saw Lin Fei-fan's reaction upon learning of the Executive Yuan eviction. Lin Fei-fan said to him: "We need a gentle power."[^11]
+3월 23일, 소방기 밴드 보컬 양대정이 입법원에 영감을 찾으러 갔다. 그는 임비판이 행정원 퇴거 소식을 접한 반응을 보고, 임비판에게 “우리는 조금 부드러운 힘이 필요해”라고 말했다.[^11]
 
-Yang Ta-cheng picked up his acoustic guitar and wrote a song in two days. "The sky gradually brightens, the hope in our hearts, like the power of the sunrise in the east..."
+양대정은 어쿠스틱 기타를 들고 이틀 만에 한 곡을 완성했다. “하늘이 점점 밝아오고, 우리 마음의 희망도 동쪽 해돋이처럼 힘을 얻는다…”
 
-On March 30, at Ketagalan Boulevard. The organizers claimed 500,000 people, police statistics said 116,000, and the Associated Press estimated over 200,000. A black cross formed by crowds in black clothing stretched from the boulevard to Zhongxiao West Road and Zhongshan South Road.[^4] _Island Dawn_ was sung together by hundreds of thousands of people on site for the first time.
+3월 30일, 케다그란대로. 주최 측은 50만 명, 경찰은 11만 6천 명, AP통신은 20만 명 이상이라고 주장했다. 검은 옷을 입은 인파가 케이다오에서 충효서로, 중산남로까지 뻗어 검은 십자가를 만들었다.[^4] 《섬의 새벽빛》은 현장에서 수십만 명이 함께 부른 최초의 무대가 되었다.
 
-In 2015, the song won Best Annual Song at the 26th Golden Melody Awards. When Yang Ta-cheng went on stage to accept the award, he first thanked a taxi driver who picked up his USB drive, then dedicated the award to everyone who participated in the March 18 movement: "They are the true protagonists of this song."[^12]
+2015년, 이 곡은 제26회 금곡상 최우수 연간곡상을 수상했다. 양대정이 무대에 올라 수상 소감을 말할 때, 그는 자신에게 USB를 건네준 택시 기사에게 감사를 표하고, 상을 318에 참여한 모든 이에게 바쳤다: “그들이 이 노래의 진정한 주인공이다.”[^12]
 
-This song was later banned in China.
+이 곡은 이후 중국에서 금지되었다.
 
-## The Handshake During Qingming
+## 청명절의 악수
 
-Twenty-four days after the occupation, the key to the withdrawal was not the students' decision, but a phone call.
+점거 24일 후 퇴거의 결정은 학생들의 선택이 아니라 한 통의 전화였다.
 
-During the Qingming holiday, then-Legislative Yuan President Wang Jin-ping privately contacted the student movement's decision-making group. There was a certain foundation of mutual trust.[^13] On April 6, Wang Jin-ping officially announced outside the chamber: before the Cross-Strait Agreement Supervision Act was legislated, no party-group consultation meetings related to the CSSTA would be convened.
+청명 연휴 기간, 당시 입법원 원장 왕진핑은 비공식적으로 학운 결정소와 연락을 취했다. 양측은 일정 수준의 신뢰 기반을 가지고 있었다.[^13] 4월 6일, 왕진핑은 의장단 밖에서 공식 선언했다: 양안 협정 감독법이 입법되기 전까지 서비스 무역 관련 당협의 회의를 소집하지 않겠다.
 
-At 8:00 PM on April 7, the decision-making group released a statement, "Turning Defense into Offense, Sowing Seeds Outside the Gate," announcing that they had completed their phased tasks and would withdraw from the chamber at 6:00 PM on April 10.[^4]
+4월 7일 밤 8시, 결정소는 성명서 《전환 방어, 출구 파종》을 발표하고, 4월 10일 오후 6시에 의장단을 떠날 것임을 선언했다.[^4]
 
-On the evening of April 10, the students walked out of the Legislative Yuan. The chamber left behind traces of twenty-four days: slogans, sleeping bags, charging cables, and half-drunk plastic bottles.
+4월 10일 저녁, 학생들은 입법원을 떠났다. 의장단 안에는 24일간 남은 흔적이 남아 있었다: 현수막, 침낭, 충전 케이블, 반쯤 마신 물병.
 
-1. **2014/3/17** — Chang Ching-chung's 30-second declaration
-2. **2014/3/18** — Students occupy the Legislative Yuan
-3. **2014/3/23** — Executive Yuan eviction incident
-4. **2014/3/24** — NYT ad crowdfunding reaches goal in 35 mins
-5. **2014/3/30** — Ketagalan gathering, _Island Dawn_
-6. **2014/4/6** — Wang Jin-ping promises supervision legislation
-7. **2014/4/10** — Students withdraw
+1. **2014/3/17** — 장경중 30초 선언
+2. **2014/3/18** — 학생들 입법원 점거
+3. **2014/3/23** — 행정원 퇴거 사건
+4. **2014/3/24** — 뉴타임즈 광고 35분 달성
+5. **2014/3/30** — 케이다오 집결, 섬의 새벽빛
+6. **2014/4/6** — 왕진핑 입법 감독 약속
+7. **2014/4/10** — 학생 퇴거
 
-## The CSSTA Died on Its Own
+## 서비스 무역은 스스로 사망했다
 
-The 24-day occupation did not veto the CSSTA. When the students withdrew, Wang Jin-ping's promise was "legislate first, then review," not "never pass."
+24일간의 점거는 서비스 무역 협정을 부결시키지 못했다. 학생들이 퇴거할 때 왕진핑의 약속은 “먼저 입법하고 심사한다”였으며, “절대 통과되지 않는다”는 것이 아니다.
 
-But the CSSTA was not vetoed by law. It was vetoed by history.
+하지만 서비스 무역은 법적으로 부결되지 않았다. 역사의 흐름 속에서 사라졌다.
 
-Cross-strait relations cooled rapidly after 2014. In 2016, Tsai Ing-wen took office, and Beijing cut off official communication channels. The CSSTA quietly lay in the Legislative Yuan's drawer, transforming from a controversial bill into a historical document. No one voted against it; it simply ceased to be mentioned by anyone.[^14]
+2014년 이후 양안 관계는 급격히 냉각되었다. 2016년 차이잉원이 취임하고, 베이징은 공식 소통 채널을 차단했다. 서비스 무역 협정은 입법원 서랍에 조용히 누워, 논란 법안에서 역사적 문서로 전락했다. 아무도 투표로 반대하지 않았으며, 단지 더 이상 언급되지 않을 뿐이다.[^14]
 
-And what of the promise the students exchanged for the occupation?
+그때 학생들이 점거로 얻은 약속은 무엇인가?
 
-> **⚠️ Controversial Viewpoint**
-> The _Cross-Strait Agreement Supervision Act_, as an independent special law, has never been passed. In 2025, the Legislative Yuan passed the third reading of the _Act Governing the Relations Between the Peoples on the Two Sides of the Straits_ Amendment (adding Article 5-3), raising the threshold to the level of constitutional amendment—three-quarters of legislators present, three-quarters agreeing, plus a referendum—but this only applies to "political issue agreements" (changes in sovereignty), not covering the economic agreements that ignited the movement.[^15] The umbrella the students demanded was only half-open twelve years later.
+> **⚠️ 논쟁적 관점**  
+> 《양안 협정 감독법》은 독립 전법으로 아직 통과되지 않았다. 2025년 입법원의 3독은 《양안 인민 관계 조례》 개정안(제5조의3 추가)이며, 문턱이 헌법 개정 수준—4분의3 입법자 출석, 4분의3 동의와 국민투표—으로 올랐다. 그러나 이는 “정치 협정”(주권 변동)만을 대상으로 하며, 당시 운동을 촉발한 경제 협정은 포함하지 않는다.[^15] 학생들이 원했던 그 우산은 12년 뒤 절반만 열렸다.
 
 ## 42% → 31.5%
 
-But they won a war they didn't know they were fighting.
+하지만 그들은 자신들이 어떤 전쟁을 치르고 있는지도 모른 채 승리했다.
 
-The Sunflower Movement effectively ended the political imagination of cross-strait economic integration. In 2014, Taiwan's export dependency on China (including Hong Kong) was approximately 42%. By 2025, this figure was 31.5%.[^16] During the same period, exports to the US rose from 11% to 16.7%.[^17]
+태양꽃 운동은 양안 경제 일체화라는 정치적 상상을 실질적으로 종식시켰다. 2014년 타이완의 대중(홍콩 포함) 수출 의존도는 약 42%였으며, 2025년에는 31.5%가 되었다.[^16] 같은 기간 미국 수출 비중은 11%에서 16.7%로 상승했다.[^17]
 
-| Arguments for Supporting the CSSTA                     | Arguments Against the CSSTA                                               |
-| ------------------------------------------------------ | ------------------------------------------------------------------------- |
-| Enhance international competitiveness                  | Chinese capital will impact SMEs                                          |
-| Deepen cross-strait economic integration               | Publishing diversity is threatened                                        |
-| Taiwan's financial sector can set up branches in China | Forms a "pro-China interest group" (in the words of NTU's Lin Hsiang-kai) |
+| 서비스 무역 찬성 논점                 | 서비스 무역 반대 논점                        |
+| ------------------------------------- | -------------------------------------------- |
+| 국제 경쟁력 강화                      | 중국 자본이 중소기업에 충격을 줄 우려        |
+| 양안 경제 통합 심화                   | 출판 다양성 위협                             |
+| 타이완 금융업이 중국에 지점 설립 가능 | “친중 이익 집단” 형성 (타이베이 임향해 발언) |
 
-This shift was not entirely due to the Sunflower Movement. The US-China trade war in 2018 accelerated supply chain restructuring, prompting Taiwanese companies to move production bases from China to Vietnam and India. The Tsai Ing-wen administration's "New Southbound Policy" strengthened Southeast Asian economic and trade relations. But the Sunflower Movement was the starting point: it turned the idea that "the economy cannot be overly dependent on China" from a marginal discourse into a social consensus.
+이 변화는 전적으로 태양꽃 덕만은 아니다. 2018년 미중 무역 전쟁이 공급망 재편을 가속화했고, 타이완 기업들은 생산 기지를 중국에서 베트남·인도로 이전했다. 차이잉원 정부는 “신남향 정책”으로 동남아시아와의 경제 관계를 강화했지만, 태양꽃은 출발점이었다: “경제가 중국에 과도하게 의존해서는 안 된다”는 주장을 주변부 논의에서 사회적 합의로 전환시켰다.
 
-Publisher Hao Ming-yi resigned as a State Councilor during the movement, writing in an open letter: "These industries are actually the scene of 'economic and silver-bullet war'."[^2] Looking back twelve years later, he was right.
+출판인 하오밍이 운동 기간 동안 대통령실 정책 고문직을 사임하고 공개 서한에서 “이들 산업은 사실상 ‘경제와 은탄 전쟁’ 현장”이라고 적었다.[^2] 12년 뒤 돌아보며 그는 옳았다고 말했다.
 
-## Half-Minute Chung and the Deputy Secretary-General
+## 반분충과 부서장
 
-The people of the Sunflower Movement later took completely different paths.
+태양꽃 인물들은 이후 전혀 다른 길을 걸었다.
 
-Lin Fei-fan joined the DPP as Deputy Secretary-General in 2019, becoming part of the very system they had protested against. Chen Wei-ting maintained his social movement path but did not enter politics; in late 2014, he withdrew from the Miaoli legislative by-election due to past sexual harassment records.[^18] Huang Kuo-chang took the New Power Party, which won five legislative seats in 2016; he later left the party he founded, and in 2024 was elected as a non-constituency legislator for the Taiwan People's Party.[^19]
+임비판은 2019년 민진당에 입당해 부서장이 되었으며, 자신들이 당시 항의했던 체제의 일원이 되었다. 진위정은 사회운동 노선을 유지했지만 정계에 진출하지 않았으며, 2014년 말 과거 성추행 기록으로 인해 미얼(苗栗) 입법원 보궐선거에서 물러났다[^18]. 황국창은 시대힘을 이끌며 2016년 5석을 차지했으나, 후에 자신이 만든 정당을 떠나 2024년 민중당 비례대표로 당선되었다[^19].
 
-The Department of Sociology at Taipei University surveyed 1,000 participants during the movement: 65% were participating in political protests for the first time, with an average age of 23.[^4] These people are now in their early thirties, scattered across various corners of Taiwanese society.
+타이베이 대학 사회학과는 운동 기간 동안 1,000명을 조사했으며, 65%가 처음으로 정치 시위에 참여했으며 평균 연령은 23세였다[^4]. 이들은 현재 30대 초반으로 타이완 사회 각지에 흩어져 있다.
 
-> **💡 Did You Know**
-> In March 2024, on the eve of the Sunflower Movement's 10th anniversary, President Lai Ching-te publicly praised the movement's legacy. The Legislative Yuan chamber, which was occupied back then, is today a photo spot for tourists.[^20]
+> **💡 알고 계셨나요**  
+> 2024년 3월, 태양꽃 10주년 전야에 라이칭더 대통령은 운동 유산을 공개적으로 찬양했다. 당시 점거했던 입법원 의장단은 오늘날 관광객이 사진을 찍는 명소가 되었다.[^20]
 
-## They Won, But Not in the Way They Thought
+## 그들은 승리했지만, 자신들이 생각한 방식은 아니다
 
-Looking back at the Sunflower Movement, the most counter-intuitive finding is: the actual effect of this movement far exceeded anyone's imagination at the time, but the direction of the effect was completely different from what they aimed for.
+태양꽃을 되돌아보면 가장 역설적인 발견은: 이 운동의 실제 효과는 당시 누구도 예상하지 못했지만, 그 효과는 전혀 목표로 삼았던 방향과는 반대였다.
 
-They wanted to stop a trade agreement, and that agreement died on its own. They wanted to promote a supervision law, but that law has never been passed. What they achieved was turning the tide of society: from "doing business with China is natural" to "the economy cannot be held hostage by any single country."
+그들은 한 무역 협정을 막으려 했지만, 그 협정은 스스로 사망했다. 그들은 감독 법안을 추진하려 했지만, 그 법안은 아직 통과되지 않았다. 그들이 이룬 것은 사회 전체의 풍향을 바꾼 것이다: “중국과 거래하는 것이 당연하다”는 인식이 “경제가 어느 한 국가에 얽매여서는 안 된다”는 인식으로 전환된 것이다.
 
-The blood from March 23 did not bring punishment for the perpetrators—only 14 people received a total of NT$1.11 million in compensation, and the specific officers who committed violence have still not been held accountable.[^21] _Island Dawn_ won an award at the Taiwan Golden Melody Awards, but was banned in China. The CSSTA gathers dust in the drawer; the Cross-Strait Agreement Supervision Act is only half-open.
+323 사건의 피는 가해 경찰에게 책임을 묻지 못했다—14명이 합산 1,111,570 위안을 배상받았을 뿐, 구체적 가해 경찰은 아직도 책임을 지지 않는다[^21]. 《섬의 새벽빛》은 타이완 금곡상에서 수상했지만, 중국에서는 금지되었다. 서비스 무역은 서랍에 누워 먼지를 쌓고, 양안 협정 감독법은 절반만 열렸다.
 
-But what the black cross left on the boulevard cannot be contained by any single law.
+하지만 케이다오의 검은 십자가가 남긴 것은 어떤 법률도 담을 수 없는 것이었다.
 
-Yang Ta-cheng said it best. On the day he accepted the Golden Melody Award, he dedicated the award to everyone who participated in the March 18 movement, saying: "They are the true protagonists of this song." Then he added: "To all those who worry about the country's future but never give up."[^12]
+양대정은 가장 잘 말했다. 그는 금곡상 수상식에서 상을 모든 318 참여자에게 바치며 “그들이 이 노래의 진정한 주인공이다”라고 말했다. 그리고 그는 덧붙였다: “나라의 미래를 걱정하지만 절대 포기하지 않는 사람들에게 바친다.”[^12]
 
-Twelve years later, the Sunflower students are no longer students. But what they learned in those twenty-four days—climbing over a door, setting up an iPad, standing in front of water trucks at 4 AM—has been written into Taiwan's DNA.
+12년이 지난 지금, 태양꽃의 학생들은 이제 학생이 아니다. 그러나 그들이 24일 동안 배운 것—문을 넘어가고, iPad를 설치하고, 새벽 4시에 물탱크 앞에 서는 것—은 이미 타이완의 DNA에 새겨졌다.
 
-Those thirty seconds, Chang Ching-chung probably didn't realize that he was rewriting not just the fate of a trade agreement, but the direction of an entire island.
+그 30초, 장경중은 아마도 자신이 바꾸고 있는 것이 무역 협정의 운명이 아니라 섬 전체의 방향이라는 것을 전혀 예상하지 못했을 것이다.
 
-**Further Reading**:
+**연관 읽기**:
 
-- [Taiwan's Democratic Transition](/history/台灣民主轉型) — From authoritarianism to democracy, the institutional foundation of the Sunflower Student Movement
-- [The Formosa Incident](/history/美麗島事件) — How the predecessors in 1979 pried open the door to democracy using the streets
-- [Open Source Community and g0v](/technology/開源社群與g0v) — The engineer community behind the Sunflower digital infrastructure
-- [Social Movements and Civic Participation](/society/社會運動與公民參與) — The evolution of Taiwan's civil society after the Sunflower Movement
-- [Cross-Strait Crisis and Development of Cross-Strait Relations](/history/台海危機與兩岸關係發展) — The broader geopolitical background of the CSSTA controversy
-- [Ma Ying-jeou](/people/馬英九) — The presidential decision-making during the period of the CSSTA review passing in 30 seconds, the police eviction of the Executive Yuan on the early morning of 3/24, and the student withdrawal on 4/10
-- [The杂 School](/society/雜學校) — Another continuation of extra-systemic energy after the 318 Student Movement: translating street rebellion into an educational carnival, the Taiwanese case
-- [Complex Life Festival](/society/複雜生活節) — The fourth exit of 318 "Sowing Seeds Outside the Gate": no elections, no coding, no recruitment, gathering the confused, low-wage post-80s generation into a "Forum of the Unsuccessful" of 200-300 people every year
-- [Taiwan and Eswatini](/society/台灣與史瓦帝尼) — Ten years after the 318 Student Movement, Lai Ching-te's visit to Eswatini consolidates the diplomatic narrative during the period of "sovereign states": the concrete scene of the four words "sovereign state"
-- [Nien Yung-chen](/people/聶永真) — The designer who created the "Democracy at 4am" NYT front-page ad in 2014, a design-side record of how the student movement entered the international perspective
+- [타이완 민주 전환](/history/台灣民主轉型) — 권위주의에서 민주주의로, 태양꽃 학운의 제도적 기반
+- [아름다운 섬 사건](/history/美麗島事件) — 1979년 선배들이 거리에서 민주주의의 문을 어떻게 열었는가
+- [開源社群與 g0v](/technology/開源社群與g0v) — 태양꽃 디지털 인프라 뒤 엔지니어 커뮤니티
+- [사회운동과 시민 참여](/society/社會運動與公民參與) — 태양꽃 이후 타이완 시민사회 변화
+- [타이해 위기와 양안 관계 발전](/history/台海危機與兩岸關係發展) — 서비스 무역 논쟁의 더 큰 지정학적 배경
+- [馬英九](/people/馬英九) — 서비스 무역 심사 30초 통과, 3/24 새벽 경찰 행정원 퇴거, 4/10 학운 퇴장 시기의 대통령 결정
+- [잡학학교](/society/雜學校) — 318 학운 이후 제도 밖 에너지의 또 다른 연속: 거리 반란을 교육 축제로 번역한 타이완 사례
+- [복합 생활제](/society/複雜生活節) — 318 “출구 파종”의 네 번째 출구: 선거도, 코딩도, 모집도 없이, 저임금에 방황하는 8학년을 매년 200~300명 모아 “성공하지 못한 사람 포럼”으로 만든다
+- [타이완과 스와티니](/society/台灣與史瓦帝尼) — 318 학운 10년 후, 라이칭더가 외교 방문 중 “주권 국가”라는 네 글자를 구체적으로 언급한 상황
+- [설영진](/people/聶永真) — 2014년 새벽 4시 “Democracy at 4am” 뉴욕 타임스 헤드라인 광고를 디자인한 디자이너, 학운이 국제 시각에 진입한 디자인 기록
 
-## References
+## 참고 자료
 
-[^1]: [Grassroots Legislative Yuan Double: Behind the 30-Second CSSTA Breakthrough](https://watchout.tw/reports/DvH94jPxSXguzAMJbsoB) — Word-for-word restoration and constitutional analysis of Chang Ching-chung's 30-second declaration, including video records.
+[^1]: [沃草國會無雙：在服貿 30 秒闖關的背後](https://watchout.tw/reports/DvH94jPxSXguzAMJbsoB) — 장경중 30초 선언의 문자 그대로와 헌법 분석, 영상 기록 포함.
 
-[^2]: [CNA: Sunflower Student Movement 10th Anniversary Returns to the Scene](https://www.cna.com.tw/news/aipl/202403165004.aspx) — 2024 CNA 10th-anniversary retrospective report, including CSSTA content, Hao Ming-yi's open letter, and the beginning and end of the review controversy.
+[^2]: [中央社：太陽花學運 10 週年重回現場](https://www.cna.com.tw/news/aipl/202403165004.aspx) — 2024년 중앙사회 10주년 회고 보도, 서비스 무역 협정 내용, 하오밍 공개 서한 및 심사 논쟁 전말 포함.
 
-[^3]: [Storm Media: "Half-Minute Chung" Chang Ching-chung Elected Out Due to CSSTA](https://www.storm.mg/article/78743) — 2016 election report, Chang Ching-chung challenged for a fourth consecutive term and lost, defeated by DPP's Jiang Yong-chang.
+[^3]: [風傳媒：「半分忠」張慶忠因服貿落選](https://www.storm.mg/article/78743) — 2016년 선거 보도, 장경중 4연임 도전 실패, 민진당 강영창에게 패배.
 
-[^4]: [Wikipedia: Sunflower Student Movement](https://zh.wikipedia.org/wiki/%E5%A4%AA%E9%99%BD%E8%8A%B1%E5%AD%B8%E9%81%8B) — Complete timeline of the movement, participant statistics, withdrawal process, and compilation of responses from all sectors.
+[^4]: [維基百科：太陽花學運](https://zh.wikipedia.org/wiki/%E5%A4%AA%E9%99%BD%E8%8A%B1%E5%AD%B8%E9%81%8B) — 운동 전체 타임라인, 참여 인원 통계, 퇴거 과정 및 각계 반응 정리.
 
-[^5]: [iThome: The IT Secrets Behind the Sunflower Student Movement](https://www.ithome.com.tw/news/86701) — Technical details of g0v engineers establishing digital infrastructure on the night of the occupation, including WiMax antenna setup and USB Ethernet emergency.
+[^5]: [iThome：太陽花學運背後的 IT 祕辛](https://www.ithome.com.tw/news/86701) — g0v 엔지니어가 점거 밤에 구축한 디지털 기반 시설 기술 세부, WiMax 안테나 설치와 USB 이더넷 비상 대처 포함.
 
-[^6]: [FlyingV: ThisAttackComesFromTaiwan Crowdfunding Page](https://www.zeczec.com/projects/thisattackcomesfromtaiwan) — Original page for the NYT ad crowdfunding, recording the process of reaching 1.5 million in 35 minutes and breaking 6.7 million in 3 hours.
+[^6]: [FlyingV：ThisAttackComesFromTaiwan 集資專頁](https://www.zeczec.com/projects/thisattackcomesfromtaiwan) — 뉴타임즈 광고 크라우드펀딩 원본 페이지, 35분에 150만 달성, 3시간에 670만 초과 기록.
 
-[^7]: [Business Today: Taiwan Designer's _New York Times_ Ad for Student Movement](https://www.businesstoday.com.tw/article-content-92743-106932) — The beginning and end of Nien Yung-chen's design of the "Democracy at 4am" ad and details of its publication.
+[^7]: [今周刊：台灣設計師《紐約時報》登學運廣告](https://www.businesstoday.com.tw/article-content-92743-106932) — 설영진이 디자인한 “Democracy at 4am” 광고 제작 전말 및 게재 세부.
 
-[^8]: [Wikipedia: March 23 Occupation of the Executive Yuan Incident](https://zh.wikipedia.org/zh-tw/323%E4%BD%94%E9%A0%98%E8%A1%8C%E6%94%BF%E9%99%A2%E4%BA%8B%E4%BB%B6) — Complete process of the Executive Yuan occupation incident, six waves of clearance operations, and casualty figures.
+[^8]: [維基百科：323 佔領行政院事件](https://zh.wikipedia.org/zh-tw/323%E4%BD%94%E9%A0%98%E8%A1%8C%E6%94%BF%E9%99%A2%E4%BA%8B%E4%BB%B6) — 행정원 점거 사건 전체 과정, 6차 청소 작전 및 부상 인원 수치.
 
-[^9]: [China Times News: Sunflower Student Movement Police Violent Eviction, Control Yuan Confirms Some Officers Harbored Resentment](https://www.chinatimes.com/realtimenews/20230323003804-260407) — 2023 Control Yuan latest investigation report, confirming violation of the principle of proportionality.
+[^9]: [中時新聞：太陽花學運警方暴力驅離 監察院確認部分員警懷恨意](https://www.chinatimes.com/realtimenews/20230323003804-260407) — 2023년 감찰원 최신 조사 보고서, 비례 원칙 초과 확인.
 
-[^10]: [The Reporter: The Long Trauma Road of Sunflower Protesters](https://www.twreporter.org/a/318-movement-10th-anniversary-lawsuit-litigants) — 2024 The Reporter in-depth report, tracking the personal stories and state compensation litigation results of Lin Chih-chieh's intracranial hemorrhage and Lin Jui-tzu's eight-year litigation.
+[^10]: [報導者：太陽花群眾的漫長創傷路](https://www.twreporter.org/a/318-movement-10th-anniversary-lawsuit-litigants) — 2024년 보도자 심층 보도, 임지걸 두개내 출혈, 임수자 8년간 소송 및 국가배상 결과와 개인 이야기.
 
-[^11]: [Kanle Cultural Creative: Writing the Gentlest Song — Island Dawn / Fire EX, Yang Ta-cheng](https://www.thecan.com.tw/tw/log/detail/508) — Yang Ta-cheng's personal account of the creative process: Lin Fei-fan's "gentle power" phrase triggered the completion of lyrics and music in two days.
+[^11]: [甘樂文創：寫一首最溫柔的歌——島嶼天光 / 滅火器，楊大正](https://www.thecan.com.tw/tw/log/detail/508) — 양대정 직접 서술한 창작 과정: 임비판의 “부드러운 힘” 한 마디가 두 날 만에 가사·곡 완성 촉발.
 
-[^12]: [National Cultural Memory Bank: Island Dawn Wins Golden Melody Award for Best Annual Single](https://tcmb.culture.tw/zh-tw/detail?indexCode=Culture_Object&id=507367) — Record of the 26th Golden Melody Awards ceremony, including Yang Ta-cheng's full speech.
+[^12]: [國家文化記憶庫：島嶼天光奪金曲獎年度最佳單曲](https://tcmb.culture.tw/zh-tw/detail?indexCode=Culture_Object&id=507367) — 제26회 금곡상 수상 기록, 양대정 수상 소감 전체.
 
-[^13]: [United Daily News: Sunflower Ten Years — From Government to Students, Everyone Was Thinking How the Movement Would Withdraw](https://vip.udn.com/vip/story/121160/7840414) — 2024 10th-anniversary exclusive report, restoring Wang Jin-ping's private coordination during the Qingming holiday and the "Turning Defense into Offense, Sowing Seeds Outside the Gate" statement.
+[^13]: [聯合報：太陽花十年——從政府到學生都在想學運如何退場](https://vip.udn.com/vip/story/121160/7840414) — 2024년 10주년 독점 보도, 왕진핑 청명 연휴 비공식 협조 및 “전환 방어, 출구 파종” 성명서 전말 복원.
 
-[^14]: [The Reporter: 10 Years After Sunflower — 10 Keywords Worth Remembering](https://www.twreporter.org/a/318-movement-10th-anniversary-10-keywords) — The Reporter's 10th-anniversary series report, analyzing the CSSTA's "natural death," the movement's long-term legacy, and unfulfilled promises.
+[^14]: [報導者：太陽花 10 年後——10 個值得被記住的關鍵字](https://www.twreporter.org/a/318-movement-10th-anniversary-10-keywords) — 보도자 10주년 시리즈, 서비스 무역 “자연 사망” 분석, 운동 장기 유산 및 미완성 약속.
 
-[^15]: [The News Lens: Legislative Yuan Third Reads "Cross-Strait Agreement" Threshold Comparable to Constitutional Amendment Level](https://www.thenewslens.com/article/120099) — Report on the passage of the _Act Governing the Relations Between the Peoples on the Two Sides of the Straits_ Amendment, analyzing why it only covers political agreements and not economic agreements.
+[^15]: [關鍵評論網：立院三讀「兩岸協議」門檻比照修憲等級](https://www.thenewslens.com/article/120099) — 입법원 3독 “양안 협정” 문턱이 헌법 개정 수준으로 상승, 정치 협정만 포함해 경제 협정은 제외된 배경 분석.
 
-[^16]: [Yahoo News: Taiwan's Export Dependency on China Drops to 31.5%](https://tw.news.yahoo.com/%E5%8F%B0%E7%81%A3%E5%B0%8D%E4%B8%AD%E5%9C%8B%E7%9A%84%E5%87%BA%E5%8F%A3%E4%BE%9D%E5%AD%98%E5%BA%A6%E9%99%8D%E8%87%B331-5-%E5%87%BA%E5%8F%A3%E9%99%84%E5%8A%A0%E5%83%B9%E5%80%BC%E5%89%B521%E5%B9%B4%E6%96%B0%E9%AB%98-072951768.html) — 2025 latest trade data, Taiwan's export proportion to China continues to decline.
+[^16]: [Yahoo 新聞：台灣對中國的出口依存度降至 31.5%](https://tw.news.yahoo.com/%E5%8F%B0%E7%81%A3%E5%B0%8D%E4%B8%AD%E5%9C%8B%E7%9A%84%E5%87%BA%E5%8F%A3%E4%BE%9D%E5%AD%98%E5%BA%A6%E9%99%8D%E8%87%B331-5-%E5%87%BA%E5%8F%A3%E9%99%84%E5%8A%A0%E5%83%B9%E5%80%BC%E5%89%B521%E5%B9%B4%E6%96%B0%E9%AB%98-072951768.html) — 2025년 최신 무역 데이터, 타이완의 대중 수출 비중 지속 하락.
 
-[^17]: [Liberty Times Net: Foreign Media Says China Self-Defeated, Taiwan's Trade Dependency on China Drops Shockingly](https://ec.ltn.com.tw/article/breakingnews/4602029) — International media analysis of the trend of Taiwan's declining trade dependency on China and rising trade proportion with the US.
+[^17]: [自由時報：外媒指中國自敗 台灣對中貿易依存驚人下降](https://ec.ltn.com.tw/article/breakingnews/4602029) — 국제 언론이 타이완의 대중 무역 의존도 감소와 미국 무역 비중 상승 추세 분석.
 
-[^18]: [Storm Media: Sunflower 5th Anniversary — Those Who Occupied the Legislative Yuan Together That Year, What Happened to Them Now?](https://www.storm.mg/article/1046957) — Tracking the subsequent development of movement leaders, including the divergent paths of Lin Fei-fan, Chen Wei-ting, and Huang Kuo-chang.
+[^18]: [風傳媒：太陽花 5 周年——那年一起佔領立法院的那些人，現在怎麼了？](https://www.storm.mg/article/1046957) — 운동 지도자 후속 발전 추적, 임비판·진위정·황국창 등 인물 경로 포함.
 
-[^19]: [Wikipedia: New Power Party Participation in Elections List](https://zh.wikipedia.org/zh-tw/%E6%99%82%E4%BB%A3%E5%8A%9B%E9%87%8F%E5%8F%83%E6%94%BF%E9%81%B8%E8%88%89%E5%88%97%E8%A1%A8) — Election records of the New Power Party from five seats in 2016 to only one seat remaining in 2024.
+[^19]: [維基百科：時代力量參政選舉列表](https://zh.wikipedia.org/zh-tw/%E6%99%82%E4%BB%A3%E5%8A%9B%E9%87%8F%E5%8F%83%E6%94%BF%E9%81%B8%E8%88%89%E5%88%97%E8%A1%A8) — 시대힘 2016년 5석에서 2024년 1석으로 감소한 선거 기록.
 
-[^20]: [Taipei Times: Lai praises the legacy of the Sunflower movement](https://www.taipeitimes.com/News/taiwan/archives/2026/03/19/2003854087) — 2026 President Lai Ching-te publicly praises the legacy of the Sunflower Movement.
+[^20]: [Taipei Times: Lai praises the legacy of the Sunflower movement](https://www.taipeitimes.com/News/taiwan/archives/2026/03/19/2003854087) — 2026년 라이칭더 대통령이 태양꽃 운동 유산을 공개 찬양.
 
-[^21]: [The News Lens: Sunflower Student Movement State Compensation Case — First Instance Court Rules Taipei City Police Bureau Should Compensate 14 People](https://www.thenewslens.com/article/126796) — 2019 first-instance state compensation judgment, 34 people filed lawsuits, ultimately 14 people received compensation totaling NT$1,111,570.
+[^21]: [關鍵評論網：太陽花學運國賠案——法院一審宣判北市警局應賠 14 人](https://www.thenewslens.com/article/126796) — 2019년 국가배상 1심 판결, 34명 고소 중 14명에게 총 1,111,570 위안 배상.

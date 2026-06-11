@@ -19,10 +19,10 @@ readingTime: 10
 lastVerified: 2026-04-28
 lastHumanReview: '2026-04-28'
 translatedFrom: Food/油飯.md
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:0e51f2bf22312077'
-sourceBodyHash: 'sha256:6051690fbdc046a5'
-translatedAt: '2026-06-10T16:58:04Z'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:9645370116faf0ce'
+sourceBodyHash: 'sha256:e335b1f6c8cbb675'
+translatedAt: '2026-06-11T16:38:12Z'
 ---
 
 > **30-second overview:**

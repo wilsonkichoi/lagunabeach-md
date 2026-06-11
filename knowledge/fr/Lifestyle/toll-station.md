@@ -1,128 +1,161 @@
 ---
-title: "Les péages : ces trois secondes d'arrêt disparues sur l'autoroute"
-description: "En 1974, le péage de Taishan inaugurait l'ère de la perception de péages sur les autoroutes de Taïwan. Cette histoire, qui s'étend sur un demi-siècle, ne reflète pas seulement l'évolution technologique du comptage manuel vers la tarification électronique au kilomètre, mais recèle aussi les besoins financiers nés de la crise pétrolière, la pénibilité de la chaleur et des gaz d'échappement dans les cabines, ainsi que la douleur sociale des péagistes, arrachées à leur « foyer » pour être jetées dans la rue de la contestation."
+title: 'Poste de péage : la pause de trois secondes disparue sur l’autoroute'
+description: 'En 1974, le poste de péage de Tâi‑shan inaugure l’ère de la tarification sur les autoroutes de Taïwan. Cette histoire s’étalant sur plus d’un demi‑siècle témoigne non seulement du passage de la comptabilisation manuelle à la facturation électronique, mais aussi des besoins budgétaires après la crise pétrolière, des conditions de travail dans les cabines exposées à des gaz d’échappement brûlants, et de la douleur sociale ressentie lorsque les agents de péage ont vu leur « maison » projetée dans la rue lors de luttes sociales.'
 date: 2026-05-03
-author: 'Taiwan.md Contributors'
 category: 'Lifestyle'
 tags:
   [
-    autoroute,
-    péage,
+    國道,
+    收費站,
     ETC,
-    histoire des transports,
-    mouvement social,
-    Sun Xiuluan,
-    tickets de passage,
-    péage de Taishan,
-    pont de Xiluo,
-    péage de Zhuoshui,
+    交通史,
+    社會運動,
+    孫秀鑾,
+    回數票,
+    泰山收費站,
+    西螺大橋,
+    濁水溪收費站,
   ]
-readingTime: 12
+subcategory: '交通與移動'
+author: 'Taiwan.md Contributors'
+featured: false
 lastVerified: 2026-05-03
 lastHumanReview: false
-featured: false
+readingTime: 12
 translatedFrom: 'Lifestyle/收費站.md'
-sourceCommitSha: '4b6d28c5'
+sourceCommitSha: '4b6d28c54'
 sourceContentHash: 'sha256:51547944c653872d'
 sourceBodyHash: 'sha256:bc9b5cd80bcd52ef'
-translatedAt: '2026-05-03T21:10:10+08:00'
+translatedAt: '2026-06-12T00:53:43+08:00'
 ---
 
-> **« Dans cette cabine de trois pieds carrés, ce que nous recevions n''était pas un simple ticket, mais l''âme de milliers de voyageurs pressés. Quand la vitre s''abaissait, s''engouffraient le vent glacial de l''hiver, la chaleur étouffante de l''été, et ce doux "merci pour votre travail". »**
+> **« Dans cette petite cabine carrée de trois pieds, nous ne recevions pas simplement un ticket, mais les âmes de nombreux voyageurs pressés. Quand la fenêtre s’abaissait, le vent d’hiver, la chaleur étouffante de l’été, et le doux « merci pour votre effort » entraient. »**
 
-> **En 30 secondes :** Les péages des autoroutes taïwanaises, en service de 1974 à 2013, constituent le décor le plus emblématique du passage de Taïwan de l''essor économique à la transformation numérique. Cette cabine de trois pieds carrés fut à la fois un bastion financier soutenant la construction nationale et le « foyer » où 947 péagistes ont consacré leur jeunesse. Cet article, dans une prose littéraire, retrace l''histoire depuis la naissance dans le sillage de la crise pétrolière jusqu''à la révolution d''équité déclenchée par la perception électronique, en passant par l''histoire douloureuse des luttes pour les droits des travailleurs qui résonne encore aujourd''hui.
+> **30 secondes en revue :** les postes de péage des autoroutes de Taïwan, de leur mise en service en 1974 à leur suppression en 2013, constituent le décor le plus concret de la transition du décollage économique du pays vers la numérisation. Cette petite cabine, autrefois bastion financier soutenant la construction nationale, était le « foyer » de 947 agents de péage. Cet article, rédigé en prose, retrace la naissance pendant la crise pétrolière, l’évolution vers la facturation électronique et la révolution d’équité qui s’en est suivie, ainsi que la douloureuse histoire des luttes pour les droits des travailleurs qui persiste encore aujourd’hui.
 
-C''était le regard le plus tendre et le plus cruel de l''histoire routière taïwanaise. Quand les roues s''engageaient lentement dans la voie de péage, le rugissement du moteur résonnait entre les butoirs de la cabine en un rythme sourd. Le conducteur baissait sa vitre, et s''engouffrait une vague de chaleur mêlée d''odeur de goudron brûlé et de gaz d''échappement diesel. La péagiste tendait la main, ses doigts effleurant le ticket de passage remis par le conducteur. Cette seconde d''arrêt était la seule parcelle de chaleur humaine sur l''autoroute. Aujourd''hui, nous franchissons les portiques froids à cent kilomètres à l''heure, et cette chaleur du « main à main » s''est dissipée avec les cabines démolies, engloutie dans la poussière du rétroviseur.
+C’est le regard le plus doux et le plus cruel de l’histoire routière de Taïwan. Lorsque les roues avancent lentement dans la voie de péage, le rugissement du moteur résonne entre les piliers de la cabine, créant un rythme lourd. Le conducteur abaisse la fenêtre, laissant entrer une vague mêlée d’odeur de goudron brûlé et de fumées de diesel. L’agent tend la main, le bout des doigts effleure le ticket à usage multiple remis par le conducteur ; cette pause d’une seconde constitue le seul feu d’artifice humain sur l’autoroute. Aujourd’hui, à cent kilomètres à l’heure, nous franchissons les portiques froids ; la chaleur du « main à main » s’est entièrement dissipée avec la disparition des cabines, se perdant dans la poussière du rétroviseur.
 
-### Avant l''origine : le péage du diable au bord du Zhuoshui et le curieux spectacle ferroviaire
+### Avant les origines : les péages de la rivière Zhuoshui et le phénomène ferroviaire
 
-Avant que le péage de Taishan ne devienne le « premier péage du monde », l''histoire de la perception de péages à Taïwan avait déjà commencé silencieusement au bord du Zhuoshui. En 1953, le **pont de Xiluo**, reliant les comtés de Yunlin et Changhua et alors le plus long pont d''Extrême-Orient, fut mis en service [^1]. Afin de récupérer les coûts de construction, le gouvernement établit le **péage de Zhuoshui** aux deux extrémités du pont, véritable ancêtre de la perception de péages routiers à Taïwan [^2].
+Avant que le poste de péage de Tâi‑shan devienne « la première station du monde », l’histoire du péage à Taïwan s’était déjà discrètement écrite au bord de la rivière Zhuoshui. En 1953, le **pont de Xiluo**, qui reliait alors les comtés de Yun‑chang et fut le plus grand pont de l’Extrême-Orient, fut inauguré[^1]. Pour récupérer les coûts de construction, le gouvernement installa le **poste de péage de Zhuoshui**, véritable ancêtre du péage routier taïwanais[^2].
 
-C''était une époque où même traverser un pont nécessitait de « payer son passage ». Plus curieux encore, en ces temps où les ponts routiers étaient encore rares, Taïwan connut le spectacle insolite de **péages ferroviaires**. Sur les cours d''eau de Hualien et Taitung, les ponts ferroviaires de la Taiwan Railways Administration (TRA) étaient souvent les seuls passages disponibles. La TRA ne transportait pas seulement des passagers, mais aussi des « routes » : pendant les intervalles entre les trains, les véhicules routiers pouvaient emprunter le pont ferroviaire, tandis que des employés de la TRA percevaient un droit de passage depuis les « guérites de surveillance » situées de part et d''autre [^3]. Ce système de « perception de péage par procuration » entre rail et route fit de la TRA, à son corps défendant, l''une des premières gestionnaires de péages, jusqu''à ce que la construction progressive de ponts routiers dans les années 1970 y mette fin [^4].
+À cette époque, même traverser un pont nécessitait un « droit de passage ». De façon encore plus surprenante, le réseau ferroviaire fut également soumis à un péage. Sur les cours d’eau entre Hualien et Taitung, les ponts ferroviaires de la Taiwan Railway Administration (TRA) constituaient parfois le seul passage possible. Lors des intervalles où les trains passaient, les véhicules routiers pouvaient emprunter le même pont, les employés de la TRA percevant les frais depuis les petites « maisons de guet » de chaque côté[^3]. Ce système de « collecte conjointe » fit de la TRA, de façon inattendue, le premier gestionnaire de postes de péage, jusqu’à la fin des années 1970, lorsque les ponts routiers furent progressivement achevés[^4].
 
-### 1974 : crise pétrolière et bastion financier de « la route qui se finance elle-même »
+### 1974 : crise pétrolière et forteresse budgétaire « payer la route pour la construire »
 
-Les années 1970 marquaient l''effervescence des « Dix Grands Projets » de Taïwan. Le 30 juillet 1974, le premier péage autoroutier de l''île, le **péage de Taishan**, entra officiellement en service [^5].
+Dans les années 1970, Taïwan vivait une période de frénésie liée aux « dix grands projets ». Le 30 juillet 1974, le tout premier poste de péage autoroutier du pays, le **poste de péage de Tâi‑shan**, entra en service[^5].
 
-Le contexte de l''époque était singulier : le monde traversait la première crise pétrolière, les prix du brut flambaient, et les finances publiques étaient sous pression. Pour financer les colossaux chantiers d''infrastructure, le gouvernement adopta la politique de « la route qui se finance elle-même » (以路養路), classant les autoroutes comme routes à péage [^6]. Le tarif pour une voiture légère n''était alors que de 15 NT$, somme symbolisant, dans une époque où le salaire mensuel moyen se chiffrait en quelques milliers de NT$, l''émergence de la « classe moyenne » et du « rêve de la voiture individuelle » [^7].
+Le contexte était particulier : la première crise pétrolière faisait grimper les prix du brut, mettant sous tension les finances publiques. Pour soutenir les coûts colossaux des grands travaux, le gouvernement adopta la politique du « payer la route pour la construire », transformant les autoroutes en routes à péage[^6]. Le tarif pour les petites voitures n’était alors que de 15 NT$, un montant symbolique à une époque où le salaire moyen mensuel n’excédait que quelques milliers de NT$, marquant l’émergence d’une classe moyenne aspirant à la possession d’une voiture privée[^7].
 
-À cette époque, le péage était le seul rythme de l''autoroute. Le conducteur devait ramener sa vitesse de cent kilomètres-heure à zéro, baisser sa vitre, et dans le ronronnement du moteur au point mort, sceller son premier contrat financier avec l''État.
+À ce moment, le poste de péage était le seul rythme de l’autoroute. Le conducteur devait réduire sa vitesse à zéro, ouvrir la fenêtre, et, au ralenti du moteur, conclure le premier contrat monétaire avec l’État.
 
-📝 Note du commissaire : La naissance des péages, c''était Taïwan échangeant « l''arrêt et l''immobilisation de l''usager » contre « l''accélération de la construction nationale ».
+📝 Note du curateur : la naissance du poste de péage représente l’échange du « temps d’arrêt du conducteur » contre l’« accélération du développement national ».
 
-### Le quotidien de la cabine : radio de nuit et solitude dans les gaz d''échappement
+### Vie quotidienne dans la cabine : radio nocturne et solitude dans les fumées
 
-À l''apogée du réseau, avec 23 péages répartis sur l''île, les péagistes travaillaient en **trois équipes strictes**, assurant un service ininterrompu 24 heures sur 24 [^8]. Pour les péagistes de nuit, leur seule compagnie était souvent le grésillement de la radio dans la cabine. La musique des stations et les bulletins d''état du trafic s''entrelaçaient en une solitude particulière.
+À l’apogée, 23 postes de péage étaient répartis sur tout le réseau, fonctionnant en **trois équipes** 24 h/24[^8]. Pour les équipes de nuit, la compagnie la plus fidèle était le vieux poste de radio grésillant dans la cabine. La musique et les bulletins d’information routière formaient une atmosphère de solitude particulière.
 
-- **La mémoire des objets** : ce carnet jauni de « cent tickets de passage », au papier légèrement rugueux, aux bords portant le toucher en relief des impressions anti-contrefaçon [^9]. On devinait sur le ticket un filigrane de fleur de prunier et des fils fluorescents anti-faux, scintillant sous la lumière ultraviolette. Pour les routiers de l''époque, les tickets de passage étaient même une « monnaie parallèle », souvent utilisés pour régler des repas ou échangés discrètement dans les aires de repos [^10].
-- **Le prix physiologique** : en été, la cabine était un brasier ; même un petit ventilateur ne parvenait à dissiper l''étouffante chaleur. Pour ne pas ralentir le trafic, les péagistes devaient maîtriser l''art de « boire en cinq secondes, manger en trois secondes ». À la longue, les cystites chroniques et les maladies respiratoires devinrent des stigmates professionnels indélébiles [^11].
-- **Le passage souterrain secret** : pour des raisons de sécurité, les péagistes devaient emprunter un « passage souterrain secret » sous l''autoroute pour rejoindre le bureau. C''était un couloir d''une centaine de mètres, si étroit que deux personnes pouvaient à peine s''y croiser de profil, abritant la fatigue et d''innombrables conversations lors des relèves [^12].
+- **Mémoire des objets** : le carnet jaunâtre de « 100 tickets à usage multiple », au papier légèrement rugueux, portait une impression en relief anti‑contrefaçon[^9]. Un filigrane de fleur de prunier et un fil fluorescent brillaient sous la lumière UV. Pour les conducteurs de camions, ces tickets servaient parfois de « monnaie alternative », échangeables contre des repas ou lors d’échanges informels dans les aires de repos[^10].
+- **Coût physiologique** : en été, la cabine ressemblait à un four ; même un petit ventilateur ne parvenait pas à dissiper la chaleur. Les agents, soucieux de ne pas ralentir le trafic, devaient maîtriser le « boire en cinq secondes, manger en trois », ce qui, à long terme, entraîna des cystites chroniques et des affections respiratoires, devenues des marques professionnelles indélébiles[^11].
+- **Passage souterrain mystérieux** : pour des raisons de sécurité, les agents devaient emprunter le « passage souterrain » sous l’autoroute afin d’atteindre leurs bureaux. Ce couloir d’environ cent mètres, assez étroit pour deux personnes côte à côte, était le théâtre de nombreuses conversations fatiguées lors des changements de quart[^12].
 
-Après l''affaire de corruption du péage de Zhongzheng en 1978, le système bascula vers un recrutement exclusivement féminin [^13]. Ces femmes péagistes, dans leur espace restreint, observaient la comédie humaine : les pressés qui accéléraient sitôt la monnaie déposée, les mains chaudes effleurées au moment de remettre le ticket, et ces silhouettes restant imperturbablement à leur poste sous les pluies torrentielles.
+Après le scandale du poste de péage du pont Zhongzheng en 1978, le système bascula vers une **politique entièrement féminine**[^13]. Ces femmes, dans l’espace exigu, observaient la diversité humaine : les voyageurs pressés qui laissaient tomber leur argent, la chaleur d’une main qui se posait sur le ticket, et les silhouettes qui, sous une pluie torrentielle, continuaient de tenir leur poste.
 
-### L''évolution technique : du ticket de passage à la révolution de l''équité
+### Évolution technique : du ticket à usage multiple à la révolution d’équité
 
-En 1985, la mise en place généralisée des « voies réservées aux tickets de passage » et des « voies sans monnaie » réduisit le temps de passage à 3,7 secondes [^14]. Cependant, cette « tarification au passage » recelait une profonde iniquité. Les données montraient qu''environ 65 % des usagers de courte distance (principalement des trajets urbains), ne passant par aucun péage, ne payaient aucune redevance, tandis que la totalité des coûts d''entretien reposait sur les 35 % d''usagers de moyenne et longue distance [^15].
+En 1985, la voie réservée aux tickets à usage multiple fut généralisée, ainsi que la « voie sans rendu de monnaie », réduisant le temps de passage à 3,7 secondes[^14]. Cependant, ce modèle de péage « à la traversée » cachait une inégalité profonde. Environ 65 % des usagers de courte distance (principalement des trajets urbains) ne payaient pas, tandis que les 35 % restants, effectuant des trajets moyens à longs, supportaient la totalité des coûts d’entretien[^15].
 
-Cela engendra aussi des « pratiques d''évasion » précoces. Le fameux « passage secret d''évasion des locaux » du péage de Dajia était un secret de Polichinelle parmi les chauffeurs de la région [^16]. Cette iniquité et ce goulot d''étranglement en matière d''efficacité poussèrent Taïwan à adopter la **perception électronique ETC**.
+Ce déséquilibre engendra le phénomène de l’« évasion du péage ». Le poste de Da‑jia était célèbre pour son « tunnel d’évasion local », connu des conducteurs comme d’un secret partagé[^16]. Cette injustice et le goulot d’étranglement de l’efficacité poussèrent Taïwan à développer le **péage électronique (ETC)**.
 
-La transition ETC de Taïwan est hautement représentative sur la scène internationale. Contrairement au système ETC japonais actuel, qui impose encore un ralentissement au passage des barrières, le système taïwanais de « flux libre multivoies » permet aux véhicules de franchir les portiques à grande vitesse, salué par les médias japonais comme un « système nerveux national de pointe » [^17].
+Le passage à l’ETC taïwanais est reconnu à l’international. Contrairement au système japonais qui impose un ralentissement à chaque portique, le système taïwanais à « flux libre multi‑voies » permet aux véhicules de traverser les portiques à grande vitesse, qualifié par les médias japonais de « système nerveux national avancé »[^17].
 
-### La génération des contractuelles abandonnées : Sun Xiuluan et le comité d''entraide
+### La génération contractuelle abandonnée : Sun Hsiu‑luan et l’auto‑sauvetage
 
-Lorsque l''automatisation devint totale sur les autoroutes, 947 péagistes perdirent leur « foyer » du jour au lendemain. Ces femmes, pour la plupart d''âge moyen ou avancé, avec en moyenne plus de dix ans d''ancienneté, se trouvèrent confrontées, en raison de leur statut d''emploi précaire « renouvelé chaque année », à une ancienneté ramenée à zéro et à des difficultés de reconversion [^18].
+Lorsque l’autoroute fut entièrement automatisée, 947 agents de péage perdirent du jour au lendemain leur « maison ». La plupart étaient des femmes d’âge moyen, avec plus de dix ans d’ancienneté, mais employées sous contrat d’un an, elles se retrouvèrent sans ancienneté et face à une reconversion difficile[^18].
 
-**Sun Xiuluan**, présidente du comité d''entraide, mena ses troupes dans une lutte de trois ans :
+Le président de l’auto‑sauvetage, **Sun Hsiu‑luan**, mena ses membres dans une lutte de trois ans :
 
-- **2013-2016** : de la pétition au palais présidentiel à la marche de protestation « un genou à terre tous les six pas ». Sous un soleil de pluie, elles mesurèrent à genoux la terre qu''elles avaient autrefois veillée [^19].
-- **L''accord final** : en 2016, l''arrivée d''un nouveau gouvernement permit d''aboutir à un accord d''indemnisation spécifique. Mais pour beaucoup de péagistes, la blessure d''avoir été « utilisées puis jetées » par l''État ne pouvait plus être effacée par l''argent [^20].
+- **2013‑2016** : pétitions au Palais présidentiel, « six pas, un genou à terre » en signe de protestation. Sous le soleil brûlant ou sous la pluie, elles mesurèrent le sol de leurs anciennes zones de garde avec leurs genoux[^19].
+- **Accord final** : après l’arrivée du nouveau gouvernement en 2016, un accord de compensation fut conclu. Mais pour de nombreux agents, la blessure d’avoir été « jetée comme un déchet » par l’État ne pouvait être apaisée par l’argent[^20].
 
-Ce fut un affrontement entre « efficacité » et « dignité ». Dans la marche de la nation vers la modernisation, ces personnes devinrent des silhouettes oubliées dans le rétroviseur.
+Il s’agit d’un affrontement entre « efficacité » et « dignité ». Dans le processus de modernisation du pays, ces travailleurs sont devenus les silhouettes oubliées dans le rétroviseur.
 
-### La concrétisation de la mémoire : éteindre la lumière dans la dernière minute
+### Concrétisation de la mémoire : la dernière minute d’extinction
 
-Le 29 décembre 2013, à minuit passé, les 132 derniers péagistes de l''île rangèrent le dernier ticket de passage. Chen Jingru, du péage de Dajia, se souvient qu''à cet instant, elle appuya doucement sur l''interrupteur de la cabine, et l''obscurité les enveloppa, seulement trouée par la lueur rouge clignotant au loin sur le portique eTag [^21].
+Dans la nuit du 29 décembre 2013, à minuit, les 132 agents de péage du pays rangèrent le dernier ticket à usage multiple. Chen Jing‑ju du poste de Da‑jia se souvient : à cet instant, elle appuya lentement sur l’interrupteur d’éclairage de la cabine, plongeant les lieux dans l’obscurité, seules les lueurs rouges des portiques eTag brillaient au loin[^21].
 
-Aujourd''hui, trois cabines ont été préservées :
+Aujourd’hui, trois cabines subsistent :
 
-- **Le péage de Taishan** : abrite une « salle d''exposition d''artefacts » présentant des tickets de passage jaunis et des uniformes [^22].
-- **Le péage de Dajia** : son architecture évoquant un « temple de la déesse Mazu » a été intégralement conservée, symbolisant la fusion avec la culture locale [^23].
-- **Le péage de Tianliao** : une partie des installations a été maintenue, permettant aux générations futures de se recueillir sur cette page de l''histoire autoroutière [^24].
+- **Poste de péage de Tâi‑shan** : une « salle d’exposition patrimoniale » expose les tickets jaunis et les uniformes[^22].
+- **Poste de péage de Da‑jia** : son architecture rappelant le temple de Mazu a été entièrement conservée, symbolisant la fusion avec la culture locale[^23].
+- **Poste de péage de Tian‑liao** : une partie de la structure demeure, offrant aux générations futures un lieu de commémoration de cette histoire autoroutière[^24].
 
-📝 Note du commissaire : À l''ère de la toute-efficacité, il ne nous faut qu''une seconde pour franchir un portique de détection ; mais ces trois secondes d''arrêt disparues étaient autrefois notre lien le plus concret avec cette terre.
+📝 Note du curateur : à l’ère de la priorité à l’efficacité, nous franchissons les portiques en une seconde ; mais la pause de trois secondes disparue était le lien le plus tangible entre nous et cette terre.
 
-### Chronologie : cinquante ans de péages autoroutiers
+### Chronologie : cinquante ans de péage autoroutier
 
-| Année    | Événement clé                                                                                                        |
-| :------- | :------------------------------------------------------------------------------------------------------------------- |
-| **1953** | Mise en service du pont de Xiluo, création du péage de Zhuoshui, premier péage de Taïwan.                            |
-| **1974** | Ouverture du péage de Taishan, début de l''ère de la perception manuelle au passage.                                 |
-| **1978** | Après l''affaire de corruption du péage de Zhongzheng, les péagistes deviennent toutes des femmes.                   |
-| **1985** | Mise en place généralisée des voies réservées aux tickets de passage, maximisation de l''efficacité.                 |
-| **2006** | Début de l''expérimentation de la perception électronique ETC (système OBU).                                         |
-| **2013** | Le 30/12, la perception manuelle appartient à l''histoire, passage intégral à la tarification au kilomètre par eTag. |
-| **2016** | Le comité d''entraide des péagistes et le gouvernement parviennent à un accord d''indemnisation.                     |
+| Année    | Événement clé                                                                                                 |
+| :------- | :------------------------------------------------------------------------------------------------------------ |
+| **1953** | Inauguration du pont de Xiluo, création du poste de péage de Zhuoshui, ancêtre du système de péage taïwanais. |
+| **1974** | Ouverture du poste de péage de Tâi‑shan, début de l’ère du péage manuel sur les autoroutes.                   |
+| **1978** | Après le scandale du pont Zhongzheng, les agents deviennent exclusivement féminines.                          |
+| **1985** | Mise en place généralisée des voies réservées aux tickets à usage multiple, optimisation de l’efficacité.     |
+| **2006** | Lancement pilote du système électronique ETC (système OBU).                                                   |
+| **2013** | Le 30 décembre, le péage manuel disparaît, remplacé entièrement par la facturation eTag.                      |
+| **2016** | Accord de compensation entre l’auto‑sauvetage des agents de péage et le gouvernement.                         |
 
 ---
 
-**Sources :**
+**Références :**
 
-[^1]: [Le pont de Xiluo : le plus long pont d''Extrême-Orient à Taïwan](https://www.archives.gov.tw/tw/arctw/69-1751.html) — Bureau des archives nationales, Commission nationale de développement (國家發展委員會檔案管理局)
+[^1]: [西螺大橋：遠東第一大橋在臺灣](https://www.archives.gov.tw/tw/arctw/69-1751.html) — 國家發展委員會檔案管理局（國家發展委員會檔案管理局）
 
-[^2]: [Le monde martial d''un pont : le prestige de l''époque du pont de Xiluo](https://www.taiwan-panorama.com/zh/Articles/Details?Guid=d18cbb51-9b6e-4ba0-b401-9e6be1806da4) — Article spécial de Taiwan Panorama (台灣光華雜誌)
+[^2]: [一座橋的武林：西螺大橋的時代風采](https://www.taiwan-panorama.com/zh/Articles/Details?Guid=d18cbb51-9b6e-4ba0-b401-9e6be1806da4) — 台灣光華雜誌專文（台灣光華雜誌）
 
-[^3]: [La TRA percevait-elle des péages pour les voitures ? L''histoire des véhicules « montant sur les rails »](https://www.ftvnews.com.tw/news/detail/2022113W0069) — Reportage de FTV News (民視新聞)
+[^3]: [台鐵曾收汽車過路費？他揭車輛「開上鐵道」歷史](https://www.ftvnews.com.tw/news/detail/2022113W0069) — 民視新聞報導（民視新聞）
 
-[^4]: [Le pont de Wanli en 1966 : pont mixte rail-route et péage](https://tcmb.culture.tw/zh-tw/detail?indexCode=Culture_Object&id=510276) — Banque nationale de la mémoire culturelle (國家文化記憶庫)
+[^4]: [1966年萬里橋的鐵公路共用橋與過橋費](https://tcmb.culture.tw/zh-tw/detail?indexCode=Culture_Object&id=510276) — 國家文化記憶庫（國家文化記憶庫）
 
-[^5]: [Chronologie de la perception de péages sur les autoroutes](https://www.freeway.gov.tw/Publish.aspx?cnid=1482&p=509) — Bureau des autoroutes, Ministère des Transports (交通部高速公路局)
+[^5]: [高速公路收費大事紀](https://www.freeway.gov.tw/Publish.aspx?cnid=1482&p=509) — 交通部高速公路局（交通部高速公路局）
 
-[^6]: [Le développement des transports au quotidien : le système de perception électronique sur les autoroutes](https://scitechvista.nat.gov.tw/Article/C000003/detail?ID=1b02c1c3-8e2c-4353-a36a-3191221db6d7) — Parc scientifique et technologique du Conseil national des sciences (科技大觀園)
+[^6]: [生活中的運輸發展：高速公路電子收費系統](https://scitechvista.nat.gov.tw/Article/C000003/detail?ID=1b02c1c3-8e2c-4353-a36a-3191221db6d7) — 國科會科技大觀園（科技大觀園）
 
-[^7]: [Annuaire statistique du revenu national](https://ws.dgbas.gov.tw/001/Upload/466/ebook/ebook_90488//pdf/full.pdf) — Direction générale du budget, des comptes et des statistiques, Yuan exécutif (行政院主計總處)
+[^7]: [國民所得統計年報](https://ws.dgbas.gov.tw/001/Upload/466/ebook/ebook_90488//pdf/full.pdf) — 行政院主計總處（行政院主計總處）
 
-[^8]: [Histoire des péages des autoroutes taïwanaises](https://m.youtube.com/watch?v=W4RnCRHjeuQ) — Documentaire YouTube (YouTube 影片分析)
+[^8]: [台灣高速公路收費站歷史](https://m.youtube.com/watch?v=W4RnCRHjeuQ) — YouTube 影片紀錄（YouTube 影片分析）
 
-[^9]: [Impression anti-contrefaçon des tickets de passage et technologie des étiquettes laser](https://zh.holoteam.com/post/park-voucher-zh) — Analyse technique de Holoteam (淩雲科技)
+[^9]: [防偽回數票印刷與雷射標籤技術](https://zh.holoteam.com/post/park-voucher-zh) — 凌雲科技技術解析（淩雲科技）
 
-[^10]: [Filigrane et détails anti-contrefaçon
+[^10]: [浮水印與回數票防偽細節](https://www.t-security.com/tw/latest-news/137-2020-07-31) — T-security 擎雷防偽資料（T-security 擎雷防偽）
+
+[^11]: [我們的票亭生活：寒風與汗水的記憶](https://tiwa.org.tw/tiwa%E5%B7%A5%E4%BD%9C/%E6%9C%AC%E5%8B%9E%E6%8A%97%E7%88%AD/%E5%9C%8B%E9%81%93%E6%94%B6%E8%B2%BB%E5%93%A1%E6%8A%97%E7%88%AD/) — 台灣國際勞工協會檔案（國道收費員自救會）
+
+[^12]: [國道收費員帶路！走讀天下第一站昔日秘道](https://tw.news.yahoo.com/%E5%9C%8B%E9%81%93%E6%94%B6%E8%B2%BB%E5%93%A1%E5%B8%B6%E8%B7%AF-%E8%B5%B0%E8%AE%80%E5%A4%A9%E4%B8%8B-%E7%AB%99%E6%98%94%E6%97%A5%E7%A7%98%E9%81%93-084213368.html) — Yahoo 新聞報導（Yahoo新聞）
+
+[^13]: [中正橋收費站弊案與女性收費員制度建立](https://m.youtube.com/watch?v=dlSb94TKpZU) — YouTube 影片紀錄（YouTube 影片分析）
+
+[^14]: [回數票演進史：從計次到計程的過渡](https://www.freeway.gov.tw/Publish.aspx?cnid=1482&p=509) — 交通部高速公路局（交通部高速公路局）
+
+[^15]: [高速公路實施電子計程收費之公平性分析數據](https://www.iot.gov.tw/uploads/asset/data/661a19e9367376304acd5abd/%E9%AB%98%E9%80%9F%E5%85%AC%E8%B7%AF%E5%AF%A6%E6%96%BD%E9%9B%BB%E5%AD%90%E8%A8%88%E7%A8%8B%E6%94%B6%E8%B2%BB%E4%B9%8B%E9%A7%95%E9%A7%9B%E4%BA%BA%E9%A1%98%E4%BB%98%E9%80%9A%E8%A1%8C%E8%B2%BB%E7%8E%87%E5%88%86%E6%9E%90.pdf) — 交通部運輸研究所報告（交通部運輸研究所）
+
+[^16]: [大甲收費站成紀念建築，當年在地人有逃費密道?](https://udn.com/news/story/120910/7114097) — 聯合新聞網報導（聯合新聞網）
+
+[^17]: [日本東京都會電視台肯定台灣ETC系統之領先表現](https://www.tcrf.org.tw/viewnews.php?thep=news&n=138) — 中華民國道路協會（中華民國道路協會）
+
+[^18]: [收費人員精簡辦理歷程與資遣補償](https://www.freeway.gov.tw/Publish.aspx?cnid=133) — 交通部高速公路局（交通部高速公路局）
+
+[^19]: [國道收費員挨餓抗爭：六步一跪的勞權吶喊](https://www.civilmedia.tw/archives/31332) — 公民行動影音紀錄資料庫（公民行動影音紀錄資料庫）
+
+[^20]: [決戰1219 國道收費員的六年漫漫抗爭路](https://eventsinfocus.org/news/3515) — 焦點事件報導（焦點事件）
+
+[^21]: [【歷史上的今天1229】國道人工收費站最後一夜](https://time.udn.com/udntime/story/122392/7673087) — 聯合新聞網報導（報時光）
+
+[^22]: [泰山收費站文物陳列室參觀資訊](https://time.udn.com/udntime/story/122392/7673087) — 聯合新聞網報導（報時光）
+
+[^23]: [國道計程收費留紀念 泰山、大甲、田寮票亭不拆](https://news.ltn.com.tw/news/life/breakingnews/924330) — 自由時報報導（自由時報）
+
+[^24]: [收費集錦：田寮收費站留存紀念與現況](https://www.freeway.gov.tw/Southernarchives/publish.aspx?NID=3330&P=12882) — 交通部高速公路局（交通部高速公路局）
+
+[^25]: [國道收費亭熄燈：大甲站陳靜茹的最後告別](https://www.merit-times.com/news/171288) — 人間福報專欄（人間福報）
+
+[^26]: [eTag 爭議與遠通電收資安稽查紀錄](https://www.storm.mg/article/26154) — 風傳媒專文（風傳媒）

@@ -21,10 +21,10 @@ readingTime: 13
 lastVerified: 2026-04-29
 lastHumanReview: false
 translatedFrom: Culture/基督教在台灣.md
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:91764d361c63b5b7'
-sourceBodyHash: 'sha256:a99853057e82dc58'
-translatedAt: '2026-06-10T16:58:21Z'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:875b7e202aed03cb'
+sourceBodyHash: 'sha256:4b3f831fea6a96bf'
+translatedAt: '2026-06-11T16:38:39Z'
 ---
 
 > **30초 개요:** 대만에서 기독교의 발전은 "오해"에서 "공생"으로 이어지는 긴 마라톤이었다. 19세기 선교사들은 "한 손에는 성경, 한 손에는 발치 집게"로 사회의 문을 열었고, 마개(馬偕) 한 사람만도 이만 개 이상의 이를 뽑았다. 일제 시기 신사 참배의 압박과 전후 미원조 "밀가루 교회"의 구호 시대를 거쳐, 이 힘은 계엄 시기에 정치로 전환되어 장로교회가 목숨을 걸고 《인권선언》을 발표했고, 대만 민주화 과정에서 무시할 수 없는 목소리가 되었다. 그리고 현대에 와서 흰 셔츠를 입고 자전거를 타는 몰몬교 선교사들은 대만 거리의 또 다른 독특한 풍경이 되고 있다.

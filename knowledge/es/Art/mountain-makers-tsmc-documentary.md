@@ -20,10 +20,10 @@ lastVerified: 2026-04-24
 lastHumanReview: false
 featured: true
 translatedFrom: 'Art/造山者世紀的賭注.md'
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:a95fbde18ca52301'
-sourceBodyHash: 'sha256:305bf3438490071a'
-translatedAt: '2026-06-10T16:58:37+00:00'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:48d568156f2d8bb9'
+sourceBodyHash: 'sha256:dae45d5a23a409e0'
+translatedAt: '2026-06-11T16:38:50Z'
 ---
 
 > **Panorama en 30 segundos:** La directora documental Hsiao Chiu-chen dedicó cinco años (2019-2024) a entrevistar a más de 80 pioneros de los semiconductores para crear una épica sobre la industria taiwanesa de semiconductores — pero Morris Chang no aceptó ninguna entrevista formal para la película. Título en chino: Los constructores de montañas: la apuesta de un siglo. Título en inglés: A Chip Odyssey (no «The Mountain Maker», como circulaba extraoficialmente). Tras su estreno en cines de Taiwán en junio de 2025, la recaudación superó los NT$32 millones, situándola entre los cinco documentales más taquilleros de la historia del cine documental taiwanés. Del otoño de 2025 a la primavera de 2026, la película se proyectó en Stanford, UCLA, Columbia, Purdue, Wisconsin y Michigan — centros neurálgicos de la manufactura de semiconductores en la era del CHIPS Act —, convirtiéndose en otra vía diplomática del poder blando tecnológico de Taiwán.

@@ -1,23 +1,29 @@
 ---
-title: "Wei Te-sheng : né à Yongkang en 1969, du succès au box-office de *Cape No. 7* à la compétition officielle de Venise"
+title: 'Wei Te-sheng : né à Yongkang en 1969, du succès au box-office de *Cape No. 7* à la compétition officielle de Venise'
 description: "Né le 16 août 1969 dans le canton de Yongkang, comté de Tainan (aujourd'hui district de Yongkang, ville de Tainan). Diplômé en génie électrique du Far East Junior College (aujourd'hui Far East University of Science and Technology). En 2008, *Cape No. 7* réalise un box-office d'environ 530 millions de dollars taïwanais (record du cinéma taïwanais). En 2011, *Seediq Bala* est sélectionné en compétition officielle à la 68ᵉ Mostra de Venise pour le Lion d'or, et remporte le prix du meilleur long métrage narratif à la 48ᵉ cérémonie des Golden Horse Awards. Prépare actuellement le projet épique *Trilogie de Taïwan*."
 date: 2026-03-19
-author: "Taiwan.md"
-category: "People"
-subcategory: "電影與戲劇"
-tags: ["電影與戲劇", "導演", "台灣電影", "原住民文化", "海角七號", "賽德克巴萊", "台南"]
-readingTime: '# design_rationale:
-#   why_this_hook: "5.3億票房+威尼斯主競賽——這兩個節點才能說清楚他在台灣電影史的位置：一個商業奇蹟與一個藝術認可，不是同一件事。"
-#   whats_excluded: "霧社事件歷史背景完整分析；台灣三部曲資金籌募細節；《海角七號》演員逐一介紹"
-#   where_it_hedges: "《海角七號》票房5.3億：來源P0確認「破億」，5.3億此數字為現有資料常見說法（建議確認官方統計）"'
+author: 'Taiwan.md'
+category: 'People'
+subcategory: '電影與戲劇'
+tags:
+  [
+    '電影與戲劇',
+    '導演',
+    '台灣電影',
+    '原住民文化',
+    '海角七號',
+    '賽德克巴萊',
+    '台南',
+  ]
+readingTime: 7
 lastVerified: 2026-05-07
-lastHumanReview: "true"
-featured: "false"
-translatedFrom: "People/魏德聖.md"
-sourceCommitSha: "0f8fae0ae"
-sourceContentHash: "sha256:c12363db6be367bf"
-sourceBodyHash: "sha256:c323a1cb617cbe0a"
-translatedAt: "2026-05-24T05:06:33+08:00"
+lastHumanReview: true
+featured: false
+translatedFrom: 'People/魏德聖.md'
+sourceCommitSha: '8f070a88'
+sourceContentHash: 'sha256:c53d9ecd803bd8cd'
+sourceBodyHash: 'sha256:9fd756dd61905363'
+translatedAt: '2026-06-11T16:39:06Z'
 ---
 
 # Wei Te-sheng : né à Yongkang en 1969, du succès au box-office de _Cape No. 7_ à la compétition officienne de Venise
@@ -80,7 +86,7 @@ Le chemin du cinéma n'a pas de raccourci. Du département de génie électrique
 
 Né en 1969 à Yongkang, Tainan ; en 2000, 500 000 dollars pour cinq minutes de film sans trouver de financement ; en 2008, 530 millions de recettes ; en 2011, la compétition de Venise. Cette trajectoire est une accumulation d'endurance, rien à voir avec un miracle.
 
-**Pour aller plus loin** : [Wei Te-sheng — Wikipédia](https://zh.wikipedia.org/zh-tw/魏德聖) ｜ [Base de données du cinéma taïwanais : Wei Te-sheng](https://taiwancinema.bamid.gov.tw/Staff/StaffContent/?ContentUrl=12549) ｜ [Site officiel des Golden Horse Awards](https://www.goldenhorse.org.tw/)
+**Pour aller plus loin** : [Mona Rudao : le héros anti-japonais gravé sur la pièce de vingt yuans](/people/莫那·魯道) (le modèle du personnage principal de _Seediq Bala_, et comment le film a reconfiguré la mémoire) ｜ [Wei Te-sheng — Wikipédia](https://zh.wikipedia.org/zh-tw/魏德聖) ｜ [Base de données du cinéma taïwanais : Wei Te-sheng](https://taiwancinema.bamid.gov.tw/Staff/StaffContent/?ContentUrl=12549) ｜ [Site officiel des Golden Horse Awards](https://www.goldenhorse.org.tw/)
 
 ## Références
 

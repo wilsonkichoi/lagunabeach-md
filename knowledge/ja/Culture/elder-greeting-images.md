@@ -18,10 +18,10 @@ readingTime: 10
 lastVerified: 2026-04-18
 lastHumanReview: false
 translatedFrom: 'Culture/長輩圖.md'
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:d96599505d319fe9'
-sourceBodyHash: 'sha256:5af5866bd222bc70'
-translatedAt: '2026-06-10T16:57:09Z'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:a9ec01947f1e86fd'
+sourceBodyHash: 'sha256:5921893fd25166ac'
+translatedAt: '2026-06-11T16:38:27Z'
 ---
 
 > **30 秒概覽：**

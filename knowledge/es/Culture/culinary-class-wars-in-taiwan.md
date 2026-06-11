@@ -19,10 +19,10 @@ readingTime: 14
 lastVerified: 2026-04-25
 lastHumanReview: false
 translatedFrom: Culture/黑白大廚在台灣.md
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:0041359461493257'
-sourceBodyHash: 'sha256:82ab788b4ca08de3'
-translatedAt: '2026-06-10T16:58:37+00:00'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:31883f60285a57e2'
+sourceBodyHash: 'sha256:bf7679056e96cbe1'
+translatedAt: '2026-06-11T16:38:50Z'
 ---
 
 > **Resumen en 30 segundos:** _Culinary Class Wars: La guerra culinaria de clases_ (흑백요리사 / Culinary Class Wars) es un reality show culinario producido por Netflix en colaboración con tvN Studios de Corea del Sur. La temporada 1 se estrenó el 17 de septiembre de 2024 y concluyó el 8 de octubre, con un total de 12 episodios[^1]. El programa destaca por su escala y su dramatismo: 80 chefs "cuchara negra" de restaurantes populares se enfrentan a 20 chefs "cuchara blanca" con estrellas Michelin, evaluados por el representante de la gastronomía coreana Baek Jong-won y el chef con tres estrellas Michelin Ahn Sung-jae[^2]. En su primera semana, el programa se coronó como el más visto en la categoría no inglesa de Netflix en Taiwán[^3], y en los 16 meses siguientes, 9 participantes del programa aterrizaron en la industria de consumo taiwanesa a través de distintas colaboraciones: alimentos preparados en tiendas de conveniencia, bebidas de té con perlas, cadenas de comida rápida, bufés de hoteles de cinco estrellas, plataformas de entrega a domicilio, cadenas de comida coreana y un Galaxy Z Fold[^4]. Este artículo recopila la trayectoria de la industria de consumo durante ese período y documenta las controversias de seguridad alimentaria asociadas.

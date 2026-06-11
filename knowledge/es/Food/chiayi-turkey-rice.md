@@ -19,10 +19,10 @@ lastVerified: 2026-04-24
 featured: false
 lastHumanReview: false
 translatedFrom: Food/嘉義火雞肉飯.md
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:f79faf5588d7d10f'
-sourceBodyHash: 'sha256:2d4b333fe985b7a6'
-translatedAt: '2026-06-10T16:58:37+00:00'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:961c8a81a8f8c3f1'
+sourceBodyHash: 'sha256:2b1f54ba6f041643'
+translatedAt: '2026-06-11T16:38:50Z'
 ---
 
 > El origen del arroz con pavo de Chiayi es un legado de la Guerra Fría. Tras la Segunda Guerra Mundial, los militares estadounidenses se establecieron en Chiayi e introdujeron grandes cantidades de pavos. En una época de escasez, el pavo era más grande y más barato que el pollo local. Un cocinero llamado Lin Tianshou, en el Primer Mercado, cortó la carne de pavo en tiras, la bañó en salsa de estofado y la sirvió sobre arroz blanco. Setenta años después, ese plato fue elegido por la Agencia de Alimentos y Agricultura como el número uno de los diez platos insignia de Taiwán, ha servido en cenas de estado, pero en las calles de Chiayi sigue costando treinta yuanes. No hay otra ciudad en Taiwán tan indisolublemente ligada a un solo plato.

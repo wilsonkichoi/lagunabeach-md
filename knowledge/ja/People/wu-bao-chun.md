@@ -1,115 +1,112 @@
 ---
-title: 'Wu Pao-chun: A Promise to a Paiwan Child'
-description: "A child from a rural village in Pingtung, with only a middle school education and no knowledge of French. He won the world's first gold medal for Bread Master with a Lychee Rose Bread—a bread containing a promise made ten years prior to indigenous children."
-date: 2026-04-05
-tags:
-  [
-    'Culinary',
-    'Baking',
-    'Craftsmanship',
-    'World Champion',
-    'Pingtung',
-    'Bread',
-    'Indigenous Peoples',
-  ]
-subcategory: 'Culinary and Craftsmanship'
-author: 'Taiwan.md'
+title: '吳宝春：パイワン族の子どもへの約束'
+description: '屏東の農村出身で中学卒業、フランス語は話せない。彼はパリでリチューローズブレッドというパンで世界初のベーカリーマスター金メダルを獲得した――その中には10年前に先住民族の子どもに約束したことが込められている。'
+date: '2026-04-05'
 category: 'People'
-readingTime: 7
-lastVerified: 2026-04-05
+tags:
+  - '飲食'
+  - 'ベーカリー'
+  - '職人精神'
+  - '世界チャンピオン'
+  - '屏東'
+  - 'パン'
+  - '先住民族'
+subcategory: '餐飲與職人'
+author: 'Taiwan.md'
+featured: true
+lastVerified: '2026-04-05'
 lastHumanReview: false
+readingTime: '7'
 translatedFrom: 'People/吳寶春.md'
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:82ee8d84093955be'
-sourceBodyHash: 'sha256:1487714e3148ab1a'
-translatedAt: '2026-06-10T16:57:27Z'
+sourceCommitSha: 'fb0101886'
+sourceContentHash: 'sha256:299e6ec6dab64e0a'
+sourceBodyHash: 'sha256:75c04d29af394ed6'
+translatedAt: '2026-06-12T00:53:40+08:00'
 ---
 
-# Wu Pao-chun: A Promise to a Paiwan Child
+# 吳宝春：パイワン族の子どもへの約束
 
-He went to a Paiwan elementary school in Sandimen Township, Pingtung County, to give a demonstration. After the event, a child pulled at his sleeve: Is there any way you can take our millet wine to the world?
+彼は屏東県三地門郷のパイワン族小学校でデモンストレーションを行った。活動終了後、ある子どもが彼の袖を引っ張りながら尋ねた。「私たちの小米酒（小さな米酒）を世界に持って行くことはできる？」  
+吳宝春は答えた。「できる。」  
+その約束は後に実現した――パンの形で、2010年春のパリで。[^1]
 
-Wu Pao-chun said: Yes.
+> **30秒概覽：** 吳宝春、1970年生まれ、屏東県の農村出身。父親は12歳のときに早逝し、国中卒業後に北上してパンの見習いとなった。2008年、世界パンカップ（Coupe du Monde de la Boulangerie）で銀メダルを獲得。2010年、世界ベーカリーマスターズ（Les Masters de la Boulangerie）でリチューローズブレッドにより金メダルを受賞し、世界初のベーカリーマスター金メダリストとなった。フランスの審査員はそのパンを「最高に美味しいフランスパン」と評価した。
 
-That promise was later fulfilled—in the form of a loaf of bread, in Paris in the spring of 2010. [^1]
+## 屏東龍泉村から台北のベーカリーへ
 
-> **30-Second Overview:** Wu Pao-chun, born in 1970, is from a rural village in Pingtung County. His father passed away when he was twelve, and after graduating from middle school, he moved north to Taipei to become a bread apprentice. In 2008, he led the Taiwan team to win a silver medal at the World Bread Cup (Coupe du Monde de la Boulangerie); in 2010, he won the gold medal at the World Bread Masters (Les Masters de la Boulangerie) with his Lychee Rose Bread, becoming the world's first Bread Master gold medalist. French judges described that loaf of bread as "the best-tasting French bread."
+吳宝春は8人兄弟の末っ子で、父親は彼が12歳のときに亡くなり、家計は母親一人で支えていた。屏東県内埔郷龍泉村で育ち、高校を短期間で退学し、15歳で北上し台北のパン屋で見習いとして働き始めた。[^2]
 
-## From Longquan Village in Pingtung to a Taipei Bakery
+その道は1980年代の台湾で多くの人がたどった道である：地方の子どもが北上し、肉体労働に従事し、生計を立てる。しかし多くはパン作りを生計の手段としたのに対し、吳宝春はそれを修行と捉えた。彼は独学でフランス語を学び、フランスのベーカリー書を読んで日本の世界的な師匠から学び、台湾では陳撫光に師事し、評価が低いとされたものを頂点にまで導いた。
 
-Wu Pao-chun was the youngest of eight children. His father passed away when he was twelve, and the family relied on his mother to hold it all together. He grew up in Longquan Village, Neipu Township, Pingtung County. He dropped out of high school after just a short time, moved north to Taipei at fifteen, and started as an apprentice in a bakery. [^2]
+> 「人が貧しいのは、しばしば財布ではなく心である。」
 
-This path was one many walked in Taiwan in the 1980s: children from remote areas, moving north, doing labor-intensive work, earning a living. But while most people treated baking bread as a means of survival, Wu Pao-chun treated it as a spiritual practice. He self-taught French to read French baking books, saved money to study with world-class masters in Japan, and studied under Chen Fu-guang in Taiwan, bringing an endeavor considered unlikely to succeed to its pinnacle.
+彼の背景に照らし合わせると、この言葉は励ましの格言というより、本人の体験的な報告に近い。
 
-> "Often, what is poor in a person is not their pocket, but their heart."
+## 2008年：銀メダルと「母の味」の碗
 
-In the context of his background, this sentence reads less like an inspirational motto and more like a personal testimony.
+2006年、吳宝春は台湾地区予選を突破。2007年、台湾チームは広州でアジア予選を制し、アジア代表としてパリへ出場。2008年、台湾チームは世界パンカップ（Coupe du Monde de la Boulangerie）のステージに立ち、銀メダルを獲得し、フランス代表に次ぐ成績を収めた。吳宝春は大会で欧州パン部門を担当し、同時に個人部門の欧州パン金メダルも受賞した。[^3]
 
-## 2008: Silver Medal and the "Taste of Mom"
+彼の出場作品は「酒酿桂圓パン」――桂圓乾を甘酒に漬け、母親の生前の台所の記憶からインスピレーションを得たものだった。大会後、インタビューでインタープリターを通じてこう語った。
 
-In 2006, Wu Pao-chun qualified in the Taiwan regional selection; in 2007, the Taiwan team won the Asian qualification in Guangzhou, representing Asia in Paris. In 2008, the Taiwan team took the stage at the World Bread Cup (Coupe du Monde de la Boulangerie), winning a silver medal, second only to the host French team. Wu Pao-chun was responsible for the European bread category in the competition and also won the gold medal in the European bread individual category. [^3]
+「たぶん、母の味が審査員の心を打ったんだと思います。」[^3]
 
-His personal competition bread was the "Fermented Wine Longan Bread"—dried longan soaked in sweet rice wine, drawn from memories of his mother's kitchen before she passed. After the competition, when asked where his inspiration came from, Wu Pao-chun said through an interpreter:
+フランス語すら話せない台湾人が、父親の死後に家でよく味わった味でフランスで金メダルを獲得した。
 
-"It was probably the 'taste of mom' that moved the judges." [^3]
+## 2010年：約束を込めたパン
 
-A Taiwanese who couldn't speak a word of French won a gold medal in France using the flavors common in his home after his father's death.
+2008年以降、吳宝春は止まらなかった。彼はパイワン族の子どもの質問を胸に、台湾東部山岳地域の味をフランスパンに取り入れる研究に時間を費やした：三地門のパイワン族小米酒、芬園郷の黒葉リチュエ、埔里の有機ローズペタル。リチュエは小米酒に一晩浸し、生地は最低15時間発酵させ、開発プロセスは12か月を要した。[^4]
 
-## 2010: The Bread Containing a Promise
+2010年、世界ベーカリーマスターズ（Les Masters de la Boulangerie）がパリで開催され――初の個人部門大会となった。吳宝春は三角形のリチューローズブレッドを持ち出場し、三角形は台湾先住民族の山岳イメージに由来している。
 
-After 2008, Wu Pao-chun did not stop. He remembered the question from the Paiwan child and began spending time researching how to bring the flavors of Taiwan's eastern mountains into French bread: Sandimen Paiwan millet wine, Feiyuan Township's Black Leaf lychees, and Puli's organic rose petals. The dried lychees were soaked in millet wine overnight, the dough fermented for at least fifteen hours, and the entire R&D process took twelve months. [^4]
+彼は金メダルを獲得し、世界初のベーカリーマスター金メダリストとなった。フランス審査員の言葉は今も語り継がれている。
 
-In 2010, the World Bread Masters (Les Masters de la Boulangerie) were held in Paris—the first individual competition. Wu Pao-chun brought that triangular Lychee Rose Bread to the stage, the triangle shape inspired by the mountain ranges of Taiwan's indigenous peoples.
+> 「吳宝春は最高に美味しいフランスパンを作り上げた。」[^5]
 
-He won the gold medal, becoming the world's first Bread Master gold medalist. The words of the French judges have been passed down to this day:
+「東洋の風味があるフランスパン」でも「アジア人が解釈したフランスベーカリー」でもなく、フランス審査員が認めた「最高に美味しいフランスパン」である。
 
-> "Wu Pao-chun made the best-tasting French bread." [^5]
+## 台湾へ、そして地域へ戻る
 
-Not "French bread with Eastern flavors," not "French-style baking interpreted by an Asian"—but French judges determined it was the best-tasting French bread.
+優勝から5か月後、2010年11月4日、吳宝春は高雄苓雅区に第一号店「吳宝春麥方店」をオープンした。開店初日から行列は止まらなかった。[^5]
 
-## Returning to Taiwan, Returning to Local Matters
+なぜ台湾産農産物を使用するのかと問われ、彼は率直に語った。「中国市場は13億人いるが、世界全体は70億以上だ。私は視野を中国だけに絞らない。私が代表するのは吳宝春ではなく台湾であり、台湾の農産物を世界に広めたい。」
 
-Five months after winning the championship, on November 4, 2010, Wu Pao-chun opened his first "Wu Pao-chun Wheat Square Shop" in Lingya District, Kaohsiung. The lines started from day one and never stopped. [^5]
+2013年、台北誠品松菸店がオープン。2017年、台中旗艦店。2018年、台北信義旗艦店。2019年、シンガポールへ。すべてのステップで意図的にスピードを落とし――「チェーン店を増やすのではなく、適切な場所に木を植える」ことを目指していると語る。
 
-When asked why he used Taiwanese agricultural products, he was direct: "Although the Chinese market has 1.3 billion people, the whole world has over 7 billion. I will not focus my eyes only on China. I do not represent Wu Pao-chun; I represent Taiwan. I want to take Taiwanese agricultural products out together."
+## 「吳宝春条項」：パン職人が台湾教育法規を変えた
 
-In 2013, the Taipei Eslite Bookstore Songshan Store opened; in 2017, the Taichung Flagship Store; in 2018, the Taipei Xinyi Flagship Store; in 2019, Singapore. Every step was deliberately slowed down—he said he wasn't opening chain stores, but planting trees in the right places.
+2016年、シンガポール国立大学（NUS）からEMBAへの招待を受けたが、彼は国中卒業しかなく、台湾では大学卒業が修士課程応募の必須条件とされていた。NUSは例外を認め、台湾教育部は規定を改正し、学歴がなくても優秀な人材が修士課程に応募できるようになった。この改正は民間で「吳宝春条項」と呼ばれている。[^6]
 
-## The "Wu Pao-chun Clause": A Baker Who Changed Taiwan's Education Laws
+2022年6月18日、「吳宝春烘焙学院」が台南の崑山科技大学で開校し、吳宝春は院長兼名誉講座教授を務める――台湾初の産学連携型ベーカリー学院で、学生は在学中に店舗の実務生産と運営に直接参加できる。[^7]
 
-In 2016, the National University of Singapore (NUS) invited him to study for an EMBA. The problem was that he only had a middle school education, and Taiwan regulations required a university degree to apply for graduate school. NUS made an exception for him, and the Taiwan Ministry of Education consequently revised the regulations, allowing outstanding talents to apply for graduate school even without formal degrees. The public came to call this revision the "Wu Pao-chun Clause." [^6]
+## 約束の意味
 
-On June 18, 2022, the "Wu Pao-chun Baking Academy" opened at Kun Shan University of Technology in Tainan, with Wu Pao-chun serving as Dean and Honorary Professor—the first baking academy of this form in Taiwan. Students participate directly in the actual production and operation of the store during their studies. [^7]
+Disney+は彼のドキュメンタリー『世界第一麥方』を制作した。著書『柔軟成就不凡』は現在も販売中。2016年、再び台湾チームを率いて世界パンカップで銀メダルを獲得。彼の弟子は2018年に「官將首」をテーマに師匠の精神を受け継ぎ、国際賞を受賞した。
 
-## The Meaning of That Promise
+しかし最終的に戻ってくるのはあの三角形のパンである。フランス語が話せず、学歴も乏しく、農村で育ち、父親は早くに亡くなり、資源はほぼゼロだった。彼はパイワン族の子どもに「できる」と言い、10年かけてその子どもの故郷の小米酒を使い、フランス審査員に「最高に美味しいフランスパン」と評価させた。
 
-Disney+ produced a documentary about him titled _The World's No. 1 Wheat Square_. His book _Softness Achieves Extraordinary_ has continued to sell. In 2016, he led the Taiwan team to win another silver medal at the World Bread Cup; his students, inspired by the "Guan Jiang Shou" (Officer General Head) in 2018, continued his legacy and won international awards.
-
-But ultimately, we must return to that triangular bread. No French, few degrees, grew up in a rural village, father died early, resources were almost zero. He said "yes" to a Paiwan child, and then used ten years, bringing the millet wine from that child's hometown, to make French judges say it was the best-tasting French bread.
-
-This result itself seems somewhat illogical—and then you look closely, and you realize that is precisely the point.
+この結果自体がやや不可解に思える――しかしよく見ると、そこが本質である。
 
 ---
 
-**Further Reading**:
+**延伸閱讀**：
 
-- [Jiang Zhen-cheng](/people/江振誠) — From Danshui Commercial High School to World No. 14, another chef's story of conquering the international stage with Taiwanese flavors
-- [Taiwan Indigenous Peoples 16 Ethnic Groups Culture Map](/culture/台灣原住民族16族文化地圖) — The cultural context of the Paiwan millet wine in the Lychee Rose Bread
-- [Night Market Culture](/food/夜市文化) — The foundation of Taiwanese folk cuisine, understanding where Wu Pao-chun's ingredient aesthetics grew from
-- [Huang Shan-liao](/people/黃山料) — Another Taiwanese who won championships on the world stage (London Fashion Week), but took the opposite path: leaving craftsmanship to make "being seen" a bestseller
+- [江振誠](/people/江振誠) — 淡水商工から世界第14位へ、台湾の味で国際舞台を制したシェフの物語
+- [台灣原住民族16族文化地圖](/culture/台灣原住民族16族文化地圖) — リチューローズブレッドに使用されたパイワン族小米酒の文化的背景
+- [夜市文化](/food/夜市文化) — 台湾庶民食の基盤、吳宝春の食材美学がどこから芽生えたかを理解する
+- [黃山料](/people/黃山料) — 世界の舞台で優勝した別の台湾人（ロンドン・ファッションウィーク）だが、逆の道を選び、手仕事を離れ「見られること」をベストセラーにした
 
-## References
+## 參考資料
 
-[^1]: [Wu Pao-chun — Wikipedia Chinese](https://zh.wikipedia.org/zh-tw/%E5%90%B3%E5%AF%B6%E6%98%A5) — Records his biography, competition experience, and the story of his promise to the Sandimen Paiwan child to take millet wine to compete.
+[^1]: [吳寶春 — 維基百科中文版](https://zh.wikipedia.org/zh-tw/%E5%90%B3%E5%AF%B6%E6%98%A5) — 生涯、競技歴、そして三地門パイワン族の子どもに小米酒を持って行く約束のエピソードが記載されている。
 
-[^2]: [Wu Pao-chun — Wikipedia](https://en.wikipedia.org/wiki/Wu_Pao-chun) — The English entry details his birth in 1970 in Longquan Village, Neipu Township, Pingtung County, family background (father died early, youngest of eight siblings), apprenticeship life, and the process of studying at NUS EMBA in 2016.
+[^2]: [Wu Pao-chun — Wikipedia](https://en.wikipedia.org/wiki/Wu_Pao-chun) — 1970年生まれ、屏東県内埔郷龍泉村出身、家族背景（父親早逝、8兄妹の末っ子）や見習い時代、2016年のNUS EMBA取得過程が詳述。
 
-[^3]: [Baker returns home with silver cup — Taipei Times (April 7, 2008)](https://www.taipeitimes.com/News/taiwan/archives/2008/04/07/2003408624) — Reports on the Taiwan team's silver medal result at the 2008 World Bread Cup, and Wu Pao-chun's first-hand report describing the inspiration for his longan bread as the "taste of mom."
+[^3]: [Baker returns home with silver cup — Taipei Times（2008 年 4 月 7 日）](https://www.taipeitimes.com/News/taiwan/archives/2008/04/07/2003408624) — 2008年世界パンカップ銀メダル結果と、吳宝春が「母の味」と形容した桂圓パンのインスピレーションに関する一次報道。
 
-[^4]: [Taiwan Litchi Rose Champion Bread — Wu Pao-chun Official Website](https://www.wupaochun.com/products/litchi-rose) — The official product page for the Lychee Rose Bread, detailing ingredient sources (Sandimen millet wine, Feiyuan Black Leaf lychee, Puli organic rose), dough fermentation process, and the twelve-month R&D process.
+[^4]: [Taiwan Litchi Rose Champion Bread — 吳寶春官方網站](https://www.wupaochun.com/products/litchi-rose) — リチューローズブレッドの公式商品ページ、原材料（三地門小米酒、芬園黒葉リチュエ、埔里有機ローズ）や発酵工程、12か月の開発プロセスが説明されている。
 
-[^5]: [Taiwan: The winner of the Masters de la Boulangerie 2010 is… — Global Voices (April 9, 2010)](https://globalvoices.org/2010/04/09/taiwan-the-winner-of-the-masters-de-la-boulangerie-2010-is/) — Reports on Wu Pao-chun winning gold at the 2010 World Bread Masters, including judge comments and his statement that he "represents Taiwan, not himself."
+[^5]: [Taiwan: The winner of the Masters de la Boulangerie 2010 is… — Global Voices（2010 年 4 月 9 日）](https://globalvoices.org/2010/04/09/taiwan-the-winner-of-the-masters-de-la-boulangerie-2010-is/) — 2010年世界ベーカリーマスターズでの金メダル獲得報道、審査員コメントと「自分ではなく台湾を代表する」声明が掲載。
 
-[^6]: [Wu Pao Chun Bakery — Wikipedia](https://en.wikipedia.org/wiki/Wu_Pao_Chun_Bakery) — Details the timeline of store openings: Kaohsiung first store (November 4, 2010), Taipei Eslite Songshan (2013), Singapore (2019), and the "Wu Pao-chun Clause" legislative event.
+[^6]: [Wu Pao Chun Bakery — Wikipedia](https://en.wikipedia.org/wiki/Wu_Pao_Chun_Bakery) — 高雄初店（2010年11月4日）、台北誠品松菸（2013年）、シンガポール（2019年）の出店年表と「吳宝春条項」改正事件の詳細。
 
-[^7]: [Kun Shan "Wu Pao-chun Baking Academy" Opens — CNA](https://www.cna.com.tw/postwrite/Chi/314329) — Reports on the opening of the Wu Pao-chun Baking Academy at Kun Shan University of Technology on June 18, 2022, with Wu Pao-chun serving as Dean and Honorary Professor, Taiwan's first industry-academia collaboration baking academy.
+[^7]: [崑大「吳寶春烘焙學院」開幕 — 中央社](https://www.cna.com.tw/postwrite/Chi/314329) — 2022年6月18日、崑山科技大学での吳宝春烘焙学院開幕報道、院長兼名誉講座教授としての吳宝春の役割が記載。

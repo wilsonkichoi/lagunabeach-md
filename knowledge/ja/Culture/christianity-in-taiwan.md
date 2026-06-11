@@ -22,10 +22,10 @@ author: 'Taiwan.md'
 featured: false
 readingTime: 13
 translatedFrom: 'Culture/基督教在台灣.md'
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:91764d361c63b5b7'
-sourceBodyHash: 'sha256:a99853057e82dc58'
-translatedAt: '2026-06-10T16:57:09Z'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:875b7e202aed03cb'
+sourceBodyHash: 'sha256:4b3f831fea6a96bf'
+translatedAt: '2026-06-11T16:38:27Z'
 ---
 
 # キリスト教と台湾：「目と心を抉る」という噂から「新しく独立した国家」宣言まで

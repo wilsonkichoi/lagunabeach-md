@@ -1,120 +1,111 @@
 ---
-title: "History of Taiwan's Environmental Movement"
-description: "The trajectory of Taiwan's environmental movement, from anti-pollution struggles in the 1980s to recent plastic reduction campaigns, witnessing the intersection of environmental awareness and democratization in Taiwanese society."
+title: 'Taiwan Environmental Movement History'
+description: "The development trajectory of Taiwan's environmental movement from the anti-pollution protests of the 1980s to recent plastic reduction campaigns, witnessing the intertwining of societal environmental awareness awakening and democratization."
 date: 2026-03-20
-tags:
-  [
-    'Environmental Movement',
-    'Environmental Protection',
-    'Social Movements',
-    'Anti-Nuclear Movement',
-    'Air Pollution',
-    'Marine Conservation',
-  ]
-subcategory: 'Conservation and Environment'
-author: 'Taiwan.md Contributors'
 category: 'Nature'
-readingTime: 12
+tags:
+  - 'environmental movement'
+  - 'environmental protection'
+  - 'social movement'
+  - 'anti-nuclear movement'
+  - 'air pollution'
+  - 'marine conservation'
+subcategory: '保育與環境'
+author: 'Taiwan.md Contributors'
+featured: false
 lastVerified: 2026-03-20
 lastHumanReview: false
+readingTime: 12
 translatedFrom: 'Nature/台灣環境運動史.md'
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:305b65af8a515840'
-sourceBodyHash: 'sha256:a23479ca0734c2ef'
-translatedAt: '2026-06-10T16:58:25Z'
+sourceCommitSha: '44238bb4f'
+sourceContentHash: 'sha256:5ce21d3d3c3acbd6'
+sourceBodyHash: 'sha256:11166779b46079e7'
+translatedAt: '2026-06-12T00:52:58+08:00'
 ---
 
-# History of Taiwan's Environmental Movement
+# Taiwan Environmental Movement History
 
-Taiwan's environmental movement has developed alongside its democratization process, starting with anti-pollution struggles in the early 1980s and gradually forming a diversified network of environmental actions. These movements are not merely about environmental protection; they also reflect deeper societal reflections on development models, quality of life, and intergenerational justice.
+Taiwan’s environmental movement has developed alongside the island’s democratization, beginning with anti‑pollution protests in the early 1980s and gradually forming a diversified network of ecological actions. These movements are not merely about environmental protection; they also reflect deep societal reflections on development models, quality of life, and intergenerational justice.
 
-## Emergence Phase: Anti-Pollution Struggles (1980s–1990s)
+## Emergence: Anti‑Pollution Protests (1980s–1990s)
 
-The origins of Taiwan's environmental movement can be traced back to several major pollution incidents in the 1980s. In 1982, students from National Taiwan University opposed the establishment of a DuPont factory in Lugang, becoming an early symbol of the environmental movement. Subsequent events, such as the Houjin Fifth Refinery resistance and the Meipo Anti-Reservoir Movement, demonstrated public backlash against heavy industrial pollution.
+The starting point of Taiwan’s environmental movement can be traced to several major pollution incidents in the 1980s. In 1982, National Taiwan University students protested DuPont’s plant in Lukang, becoming an early symbol of the movement. Subsequent struggles such as the Houjin Fifth‑Light (後勁五輕) protests and the Meinong anti‑reservoir movement demonstrated direct public backlash against heavy‑industry pollution.
 
-Environmental movements during this period were heavily characterized by an "anti-development" stance. The public faced direct health threats: air pollution, water quality deterioration, and soil heavy metal contamination. The 1986 Green Oyster Incident exposed heavy metal pollution in the coastal waters of Tainan, drawing national attention. At that time, Taiwan was in the early stages of economic takeoff, and the mindset of "economic development first, environmental protection later" dominated policy-making, often viewing environmental protests as obstacles to progress.
+During this period the movement carried a strong “anti‑development” hue. Citizens faced immediate health threats: air pollution, deteriorating water quality, and soil heavy‑metal contamination. The 1986 “Green Oyster” incident exposed heavy‑metal pollution along Tainan’s coast, drawing nationwide attention. At the time Taiwan was in an economic take‑off phase, with the prevailing policy mantra “first economic development, then environmental protection.” Environmental protests were often viewed as obstacles to progress.
 
-The Environmental Protection Alliance was established in 1987, becoming Taiwan's first nationwide environmental organization. Its founding principle was "to leave a clean Taiwan for future generations," reflecting societal reflection on the costs of development.
+The Environmental Alliance was founded in 1987, becoming Taiwan’s first nationwide environmental organization. Its founding principle—“to preserve a clean Taiwan for future generations”—reflected contemporary societal contemplation of development costs.
 
-## The Continuing Frontline of the Anti-Nuclear Movement
+## The Ongoing Anti‑Nuclear Front
 
-Taiwan's anti-nuclear movement began in the 1980s and has continued for over thirty years. Following the Chernobyl nuclear disaster in 1986, anti-nuclear sentiment in Taiwan intensified. The 1988 "I Love Taiwan Anti-Nuclear Grand Parade" attracted tens of thousands of participants, marking an important milestone in the history of Taiwan's environmental movement.
+Taiwan’s anti‑nuclear movement began in the 1980s and has persisted for more than three decades. After the 1985 Chernobyl disaster, anti‑nuclear sentiment intensified. The 1988 “I Love Taiwan Anti‑Nuclear Parade” attracted tens of thousands, marking a milestone in the island’s environmental history.
 
-The controversy surrounding Nuclear Power Plant No. 4 (NPP4) became the core battlefield of the anti-nuclear movement. Construction began in 1999, was sealed in 2014, and saw a referendum on restarting it in 2021. The NPP4 issue spanned different administrations and generations. In 2000, the Chen Shui-bian administration announced the suspension of NPP4 construction, but work resumed under pressure from the Legislative Yuan and opposition parties. In 2014, the Ma Ying-jeou administration decided to seal NPP4, and the 2021 referendum on "restarting NPP4" was rejected, temporarily bringing an end to this controversy.
+The controversy over the Fourth Nuclear Power Plant (核四) became the movement’s central battleground. Construction started in 1999, the plant was sealed in 2014, and a 2021 referendum sought to restart it—spanning different administrations and generations. In 2000 the Chen Shui‑bian government announced a halt to construction, but the project resumed under legislative and opposition pressure. The Ma Ying‑jeou administration decided to seal the plant in 2014, and the 2021 “Restart Nuclear‑Four” referendum was rejected, temporarily closing this chapter.
 
-A characteristic of the anti-nuclear movement is cross-generational participation. From early scholars and experts to later groups like the Mothers' Professor Alliance and student associations, and more recently the youth generation, people of all ages have had channels for participation. The annual Anti-Nuclear Grand Parade in March has become an annual highlight of Taiwan's environmental movement.
+A hallmark of the anti‑nuclear movement is its cross‑generational participation. Early phases involved scholars and experts; later, alliances of mothers and professors, student clubs, and, in recent years, youth activists all found avenues to engage. The annual March “Anti‑Nuclear Parade” has become a flagship event of Taiwan’s environmental movement.
 
-## The Long Battle Against Air Pollution
+## The Prolonged Struggle Against Air Pollution
 
-Taiwan's air pollution issues began to receive attention in the late 1990s. Petrochemical industrial zones, thermal power plants, and steel mills in central and southern Taiwan caused severe air quality problems. After the World Health Organization classified PM2.5 as a Group 1 carcinogen in 2015, societal attention to air pollution reached a new height.
+Air‑quality concerns rose to prominence in the late 1990s. Petrochemical zones, coal‑fired power plants, and steel mills in central and southern Taiwan generated severe air‑quality problems. After the World Health Organization classified PM2.5 as a Group 1 carcinogen in 2015, public attention to air pollution reached a new height.
 
-The Taichung Power Plant became the focal point of air pollution protests. As the world's largest coal-fired power plant, it emits approximately 55 million tons of carbon dioxide annually. Frequent conflicts between local and central governments over coal reduction policies reflected the complexity of energy transition.
+The Taichung Coal‑Fired Power Plant became a focal point of anti‑pollution protests. As the world’s largest coal plant, it emits roughly 55 million tonnes of CO₂ annually. Repeated clashes between local and central governments over coal‑reduction policies highlighted the complexity of Taiwan’s energy transition.
 
-Air pollution issues in the Kaohsiung area are even more complex. The Dalinpu area is surrounded by petrochemical industrial zones, and local residents have long faced health risks. In 2018, the Kaohsiung City Government launched the Dalinpu Village Relocation Plan, but progress has been slow, demonstrating that resolving environmental justice issues requires greater political will.
+Air‑quality issues are even more intricate in the Kaohsiung area. The Dali‑Pu region is surrounded by petrochemical complexes, exposing residents to long‑term health risks. In 2018 the Kaohsiung municipal government launched a relocation plan for Dali‑Pu, but progress has been slow, underscoring the need for stronger political will to resolve environmental‑justice concerns.
 
-Changhua County, due to its proximity to the Taichung Power Plant and its own industrial pollution, suffers from poor air quality year-round. Local environmental groups have promoted the "Changhua Coal Reduction Alliance," urging the government to actively reduce coal-fired power generation.
+Changhua County, situated downwind of the Taichung plant and burdened by its own industrial emissions, suffers chronic poor air quality. Local NGOs have formed the “Changhua Coal‑Reduction Alliance,” urging the government to cut coal‑fired generation.
 
-## The Rise of Marine Conservation Awareness
+## Rising Awareness of Marine Conservation
 
-Taiwan is surrounded by sea, but attention to marine conservation came relatively late. Starting in the 1990s, marine pollution issues gradually gained attention. The 2000 Amethyste oil spill caused severe pollution in the Kenting sea area, serving as a turning point for marine conservation in Taiwan.
+Surrounded by ocean on all sides, Taiwan’s attention to marine protection lagged behind other issues. Beginning in the 1990s, marine pollution gradually entered public discourse. The 2000 Amass cargo‑ship oil spill severely polluted the waters off Kenting, marking a turning point for marine conservation on the island.
 
-Marine debris issues became a focal point in the 2010s. According to statistics from the Environmental Protection Administration, approximately 14,000 metric tons of garbage are cleaned from Taiwan's coast each year, with plastic products accounting for about 70%. This data prompted society to正视 the issue of "marine plastics."
+Marine debris became a focal point in the 2010s. According to the Environmental Protection Administration, Taiwan’s coasts are cleared of roughly 14,000 metric tonnes of waste each year, with plastics accounting for about 70 percent. This data spurred societal recognition of the “marine plastic” problem.
 
-Coral reef ecosystems in Taiwan's waters also face threats. Corals in Kenting, Green Island, and Lanyu have bleached due to climate change, pollution, and overdevelopment. Marine conservation organizations have begun promoting coral rehabilitation projects, but results remain to be seen.
+Coral‑reef ecosystems in Taiwanese waters also face threats. Reefs around Kenting, Green Island, and Orchid Island suffer bleaching due to climate change, pollution, and overdevelopment. Marine conservation groups have launched coral‑restoration projects, though outcomes remain to be fully evaluated.
 
-Whale and dolphin conservation is another important aspect. There are 32 species of whales and dolphins in Taiwan's waters, but fisheries activities, ship noise, and habitat destruction pose threats to them. Organizations such as the Taiwan Cetacean Association promote whale and dolphin rescue and conservation work, advocating for the establishment of marine protected areas.
+Cetacean protection is another important dimension. Taiwan’s waters host 32 species of whales and dolphins, yet fisheries, ship noise, and habitat loss threaten them. Organizations such as the Chinese Cetacean Association promote rescue, rehabilitation, and advocacy for marine protected areas.
 
-## Universal Participation in the Plastic Reduction Movement
+## Nationwide Participation in the Plastic‑Reduction Movement
 
-In 2018, the government began implementing the "Plastic Bag Restriction Order," where chain stores no longer provided free plastic bags. This policy sparked a "Plastic Reduction Movement," evolving from government regulations into a全民 (nationwide) movement.
+In 2018 the government implemented a “Plastic‑Ban Order,” ending the free provision of plastic bags by chain stores. The policy sparked a broader “plastic‑reduction movement,” evolving from a top‑down regulation into a grassroots campaign.
 
-A characteristic of the plastic reduction movement is its "everyday life" focus. Compared to issues like anti-nuclear or anti-air pollution that require specialized knowledge, plastic reduction is an environmental action that everyone can participate in. Bringing shopping bags, using eco-friendly cups, and refusing single-use cutlery have become new social trends.
+The movement’s hallmark is its “everyday” character. Unlike anti‑nuclear or anti‑air‑pollution issues that often require technical expertise, plastic reduction invites participation from anyone: bringing reusable shopping bags, using eco‑cups, and refusing single‑use cutlery have become new social norms.
 
-Environmental groups have promoted the "Plastic-Free Ocean" plan, combining beach cleanups, educational outreach, and policy advocacy. Organizations such as the Wild at Heart Conservation Association and the Black Current Ocean Education Foundation regularly hold beach cleanup activities. These activities attract large numbers of volunteers, including corporate employees, student associations, and the general public.
+Environmental NGOs promote the “Plastic‑Free Ocean” initiative, combining beach clean‑ups, education, and policy advocacy. Groups such as the Wilderness Conservation Association and the Black Current Ocean Cultural Foundation regularly organize beach‑cleaning events, attracting volunteers from corporations, student clubs, and the general public.
 
-Convenience stores and bubble tea shops have become key areas for implementing plastic reduction policies. Starting in 2021, chain beverage stores banned plastic straws, switching to paper straws or biodegradable materials. Although consumer complaints were initially high, acceptance has gradually increased.
+Convenience stores and bubble‑tea shops have become key implementation sites for plastic‑reduction policies. Starting in 2021, chain beverage outlets banned plastic straws, switching to paper or biodegradable alternatives. Initial consumer complaints gave way to gradual acceptance.
 
-## New Characteristics of Contemporary Environmental Movements
+## New Features of Contemporary Environmental Activism
 
-Entering the 21st century, Taiwan's environmental movement has exhibited several new characteristics:
+Since the turn of the 21st century, Taiwan’s environmental movement has exhibited several new characteristics:
 
-**Diversification of Issues**: From single-pollution protests to expanding into climate change, biodiversity, and environmental justice. Emerging organizations such as the Youth Climate Alliance and the Taiwan Environmental Planning Association focus on broader environmental issues.
+- **Issue diversification**: From single‑pollution protests to climate change, biodiversity, and environmental justice. Emerging groups such as the Youth Climate Alliance and the Taiwan Environmental Planning Association address a broader agenda.
+- **Generational turnover**: Young people leverage social media and street actions. During the 2019 Global Climate Strike, Taiwanese students staged “climate walk‑outs,” demonstrating intergenerational transmission of environmental consciousness.
+- **Scientific framing**: NGOs place greater emphasis on scientific evidence, collaborating with academia for monitoring and health‑risk assessments. Air‑pollution advocacy heavily relies on epidemiological studies.
+- **Policy participation**: The movement has shifted from confrontational protests to policy advocacy and oversight. Environmental groups actively engage in environmental impact assessments and governmental consultations, seeking reforms from within the system.
+- **International linkages**: Taiwanese NGOs now participate in trans‑regional networks, cooperating with environmental organizations across the Asia‑Pacific. Global issues such as climate change and marine protection foster connections between local actions and international agendas.
 
-**Generational Transition**: The younger generation participates in environmental movements through social media and street actions. During the Global Climate Strike in 2019, students in Taiwan responded with "strike for climate," demonstrating the intergenerational transmission of environmental awareness.
+## Challenges and Outlook
 
-**Scientific Discourse**: Environmental groups place greater emphasis on scientific evidence, collaborating with academia for environmental monitoring and health risk assessments. The promotion of air pollution issues has heavily utilized health data and epidemiological research.
+Taiwan’s environmental movement faces several ongoing challenges:
 
-**Policy Participation**: Shifting from past protest models to policy advocacy and supervision. Environmental groups actively participate in environmental impact assessments and policy consultations, attempting to drive reform within the system.
+- **Economic development pressure**: Balancing environmental protection with economic growth remains difficult amid global competition. Energy and industrial transitions require long‑term planning and societal consensus.
+- **Politicization risk**: Environmental issues are prone to political instrumentalization, affecting policy continuity. Nuclear policy is a clear example, with differing stances across administrations.
+- **Generational value gaps**: Divergent environmental values among age cohorts can affect the social foundation for policy implementation.
+- **Resource constraints**: Compared with corporations and government agencies, NGOs operate with limited funding, restricting the scale and sustainability of actions.
 
-**International Connections**: Taiwan's environmental groups have begun participating in international environmental networks, exchanging ideas with environmental organizations in the Asia-Pacific region. Global issues such as climate change and marine conservation have brought local movements into alignment with international efforts.
-
-## Challenges and Prospects
-
-Taiwan's environmental movement faces several ongoing challenges:
-
-**Pressure for Economic Development**: Balancing environmental protection and economic growth remains difficult in the context of global competition. Energy and industrial transitions require long-term planning and social consensus.
-
-**Risk of Politicization**: Environmental issues are easily politicized, affecting the continuity of policies. The nuclear energy policy is a clear example, with different political parties holding different stances when in power.
-
-**Differences in Generational Values**: Different generations have varying perceptions of environmental values, affecting the social foundation for policy implementation.
-
-**Resource Constraints**: Compared to corporations and the government, environmental groups have limited resources, affecting the scale and sustainability of their actions.
-
-Taiwan's environmental movement has evolved over forty years, from anti-pollution protests to diverse actions pursuing sustainable development. This process reflects a shift in Taiwanese societal values: from pursuing rapid growth to valuing quality of life; from individual interests to intergenerational responsibility. The next step for the environmental movement will be how to establish more effective environmental governance mechanisms within a democratic system.
+Over four decades, Taiwan’s environmental movement has evolved from anti‑pollution protests to a multifaceted pursuit of sustainable development. This trajectory mirrors a shift in societal values: from rapid growth to quality of life; from individual profit to intergenerational responsibility. The next step for the movement will be to build more effective environmental governance mechanisms within Taiwan’s democratic system.
 
 **Further Reading**:
 
-- [Discussion on Taiwan and Nuclear Energy](/society/台灣與核能的討論) — How the anti-nuclear movement grew out of the environmental movement and was reshuffled in the climate generation: A complete debate history of forty years and three referendums.
-- [Taiwan's Climate Crisis and Net-Zero Transition](/nature/台灣氣候危機與淨零轉型) — How environmental awareness transforms into national-level net-zero transition policies and energy structure restructuring.
+- [Discussion on Taiwan and Nuclear Power](/society/台灣與核能的討論) — How the anti‑nuclear movement emerged from the broader environmental movement and was reshaped by climate‑generation politics: a comprehensive debate history of four decades and three referendums
+- [Taiwan’s Climate Crisis and Net‑Zero Transition](/nature/台灣氣候危機與淨零轉型) — How environmental awareness has been translated into national‑level net‑zero policies and energy‑system restructuring
 
 ## References
 
-- [Taiwan Environment and Land Research Center](http://www.elt.org.tw/) — Research on the history and development of Taiwan's environmental movement.
-- [Green Citizen Action Alliance](https://www.gcaa.org.tw/) — Anti-nuclear movement and environmental policy advocacy.
-- [Wild at Heart Conservation Association](https://www.sow.org.tw/) — Nature conservation and environmental education.
-- [Housewives Union Environmental Protection Foundation](https://www.huf.org.tw/) — Everyday environmental protection and policy supervision.
-- [Taiwan Environmental Information Association](https://e-info.org.tw/) — Environmental news and issue reporting.
-- [Environmental Rights Foundation](https://www.erf.org.tw/) — Environmental law and public interest litigation.
-- Statistics from the Executive Yuan Environmental Protection Administration — Official data on air quality, waste disposal, etc.
-- _Introduction to Taiwan's Environmental Movement_, by Ho Ming-hsiu, Qunxue Publishing, 2006.
-- _The Anti-Nuclear Movement and Taiwanese Society_, edited by Fan Yun et al., Taiwan Social Research Magazine, 2014.
+- [Environmental and Land Research Center, Taiwan](http://www.elt.org.tw/) — Research on the history and development of Taiwan’s environmental movement
+- [Green Citizen Action Alliance](https://www.gcaa.org.tw/) — Anti‑nuclear advocacy and environmental policy initiatives
+- [Wilderness Conservation Association](https://www.sow.org.tw/) — Nature conservation and environmental education
+- [Housewives’ Alliance Environmental Protection Foundation](https://www.huf.org.tw/) — Everyday environmental protection and policy oversight
+- [Taiwan Environmental Information Association](https://e-info.org.tw/) — Environmental news and issue reporting
+- [Executive Yuan Environmental Protection Administration statistics] — Official data on air quality, waste management, and related topics
+- _An Overview of Taiwan’s Environmental Movement_, He Ming‑hsu, Qun‑xue Publishing, 2006
+- _The Anti‑Nuclear Movement and Taiwanese Society_, Fan Yun et al., Taiwan Society Research Journal, 2014

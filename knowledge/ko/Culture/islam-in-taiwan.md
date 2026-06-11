@@ -9,10 +9,10 @@ readingTime: 8
 lastVerified: 2026-04-28
 lastHumanReview: false
 translatedFrom: Culture/伊斯蘭教在台灣.md
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:4018ce6791ff917b'
-sourceBodyHash: 'sha256:bd3400d2929f24fe'
-translatedAt: '2026-06-10T16:58:21Z'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:95c297a5e630bb43'
+sourceBodyHash: 'sha256:dbceb7d9f3f49bcd'
+translatedAt: '2026-06-11T16:38:39Z'
 ---
 
 > **30초 개요:** 대만의 이슬람교는 외래 이문화가 아니라 섬의 혈통 깊숙이 묻힌 고대의 기억이다. 명말 청초 정성공을 따라 대만에 온 저우저우의 「회정」 후예부터, 오늘날 대만의 장기 요어업과 어업을 떠받치는 26만 명의 인도네시아 무슬림 이주 노동자에 이르기까지, 이 신앙은 대만에서 동화와 소멸에서 다양한 개화로 이어지는 기여의 여정을 겪었다.

@@ -1,8 +1,16 @@
 ---
 title: 'Justice foncière et territoires traditionnels des peuples autochtones de Taïwan'
-description: 'Le contexte historique des droits fonciers des peuples autochtones de Taïwan, l'évolution du cadre juridique, les controverses autour de la délimitation des territoires traditionnels et les travaux de la Commission pour la justice transitionnelle autochtone'
+description: "Le contexte historique des droits fonciers des peuples autochtones de Taïwan, l'évolution du cadre juridique, les controverses autour de la délimitation des territoires traditionnels et les travaux de la Commission pour la justice transitionnelle autochtone"
 date: 2026-03-20
-tags: [peuples autochtones, justice foncière, territoires traditionnels, justice transitionnelle, commission autochtone, droits fonciers]
+tags:
+  [
+    peuples autochtones,
+    justice foncière,
+    territoires traditionnels,
+    justice transitionnelle,
+    commission autochtone,
+    droits fonciers,
+  ]
 subcategory: 'Droits humains et égalité'
 author: 'Taiwan.md Translation Team'
 readingTime: 9
@@ -10,11 +18,11 @@ featured: false
 category: Society
 lastVerified: 2026-03-20
 lastHumanReview: false
-translatedFrom: "Society/台灣原住民族土地正義與傳統領域.md"
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:57fad95b8a079b38'
+translatedFrom: 'Society/台灣原住民族土地正義與傳統領域.md'
+sourceCommitSha: '1e674def'
+sourceContentHash: 'sha256:28b04fa76413100e'
 sourceBodyHash: 'sha256:4f732aefea1fd604'
-translatedAt: "2026-04-14T12:32:24+08:00"
+translatedAt: '2026-04-14T12:32:24+08:00'
 ---
 
 # Justice foncière et territoires traditionnels des peuples autochtones de Taïwan

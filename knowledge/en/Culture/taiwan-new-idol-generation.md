@@ -21,10 +21,10 @@ lastVerified: 2026-04-23
 lastHumanReview: false
 featured: false
 translatedFrom: 'Culture/台灣新偶像世代.md'
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:3599258a3ecbb3d8'
-sourceBodyHash: 'sha256:ab167ea5a070ce1e'
-translatedAt: '2026-06-10T16:58:04Z'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:8258a0ced6980600'
+sourceBodyHash: 'sha256:3dda77b7510dd761'
+translatedAt: '2026-06-11T16:38:12Z'
 ---
 
 > **30-Second Overview:** After S.H.E debuted in 2001, Taiwan went nineteen full years without producing a successful idol group. In 2020, producer Chan Jen-Hsiung (詹仁雄) poured NT$130 million into a talent show called _DD52_ (菱格世代 DD52), hoping to restart Taiwan's idol industry chain with a single program. Over the following six years: DD52, Atom Boyz, Next Girlz, Atom Boyz 2, Cosmic Angels — five shows, four Golden Bell Awards, more than fifty debuted idols, ten or more groups. Yet the champion group's buzz often lagged behind the runner-up's; one year after debut, seven male groups' popularity showed "cliff-edge declines." Debuting is easy; staying relevant is hard — this became the deepest structural problem Taiwan's idol industry has ever faced.

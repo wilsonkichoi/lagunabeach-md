@@ -20,10 +20,10 @@ lastVerified: 2026-04-25
 lastHumanReview: false
 researchReport: reports/research/2026-04/heibai-kitchen-taiwan.md
 translatedFrom: 'Culture/黑白大廚在台灣.md'
-sourceCommitSha: 'a33cc554'
-sourceContentHash: 'sha256:0041359461493257'
-sourceBodyHash: 'sha256:82ab788b4ca08de3'
-translatedAt: '2026-06-10T16:58:04Z'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:31883f60285a57e2'
+sourceBodyHash: 'sha256:bf7679056e96cbe1'
+translatedAt: '2026-06-11T16:38:12Z'
 ---
 
 > **30-second overview:** Culinary Class Wars (흑백요리사 / Culinary Class Wars) is a cooking competition reality show co-produced by Netflix and Korea's tvN Studios. Season 1 launched on September 17, 2024, and concluded on October 8, 2024, spanning twelve episodes.[^1] The show's scale and dramatic characters were a major draw — eighty "Black Spoon" independent restaurant chefs squared off against twenty "White Spoon" Michelin-starred and top-tier chefs, with Korean food culture icon Paik Jong-won and Michelin three-star chef Ahn Sung-jae serving as judges.[^2] The show topped Taiwan's Netflix non-English television rankings in its premiere week,[^3] and over the following sixteen months, nine participants landed collaborations across different Taiwanese industries: convenience store fresh food, bubble tea, fast food chains, five-star hotel buffets, food delivery platforms, Korean restaurant chains, and a Galaxy Z foldable phone.[^4] This article traces the consumer industry trajectory across that period and documents the food safety controversies that arose within it.
