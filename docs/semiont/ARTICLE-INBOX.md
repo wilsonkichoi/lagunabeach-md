@@ -158,6 +158,21 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 ## 📥 Pending（待開發）
 
+### 視覺模組 v2.0 進真實文 EVOLVE batch — tiles/pyramid/stack 各找原生宿主
+
+- **Type**: `EVOLVE`
+- **Category**: Geography / Society
+- **Path** (EVOLVE only): knowledge/Geography/用數據看台灣22縣市.md（tw-tiles 主宿主）；knowledge/Society/台灣少子化危機.md（tw-pyramid）；knowledge/Society/台灣與核能的討論.md（tw-stack 公投段）
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Requested**: 2026-06-12 by viz-evolution session（哲宇 goal 的 v3 延伸，graph.md §九 + reports/viz-system-evolution-2026-06-12.md §7）
+- **Notes**:
+  - 不為加而加：各篇 EVOLVE 時順帶升級，不單獨為配圖開 rewrite
+  - 22縣市的 22 列 heatmap 可升級或並用 tw-tiles（資料已在文內，零新查證）
+  - 少子化 pyramid 需先查證年齡×性別官方數據（22縣市文只有比率，事實鐵三角）
+  - 核能公投段 stack 數據已驗證（中選會三場），低風險
+  - 配圖後必跑 `node scripts/tools/viz-shot.mjs --page {該頁}` 像素閘門
+
 ### 台灣人小時候的英文名字 NEW — Mary、Kevin 與補習班老師的命名權
 
 - **Type**: `NEW`

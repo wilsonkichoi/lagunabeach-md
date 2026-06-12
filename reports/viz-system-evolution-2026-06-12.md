@@ -30,7 +30,7 @@
 | 10  | 模組標題缺位                          | 只有 waffle/line 有標題                            | 共通標題列（無 `\|` 首列），斷言句原則進 §三.1                                      |
 | 11  | x 軸只標頭尾                          | ≥5 點時中段無刻度                                  | 加中點標籤                                                                          |
 
-證據：51 張截圖（session 中逐張人工檢視，capture script 為一次性工具未入 repo）。
+證據：51 張截圖（session 中逐張人工檢視）。Capture script 同日 round 2 升正式工具 **`scripts/tools/viz-shot.mjs`**（哲宇 directive 儀器化）：模組清單從頁面自動偵測（renderer 長新模組不用改工具）、light/dark/mobile 三變體、graph.md §七 升「像素閘門」步驟 + DNA §品質基因 row。Round 2 用它全檢 17 模組 × light/dark = 34 張全 PASS。
 
 ## 3. 圖表類型矩陣（盤點結論）
 
@@ -83,6 +83,7 @@ FT 九大類 × Taiwan.md 模組覆蓋（v2.0 後）：
 | `knowledge/Society/視覺化模組型錄.md`                   | 十七種活範例（新模組全用已驗證數據：戶政司 22 縣市 / 中選會公投 / 國宅）                                   |
 | `docs/editorial/graph.md`                               | v2.0（型錄表 / §三 +4 原則 / §四 共通約定+7 語法 / §八 +6 反例 / §九 替代表+v3）                           |
 | `docs/semiont/LONGINGS.md`                              | 視覺渴望 row 更新（10→17，下一步改 tiles/pyramid/slope 進真實文）                                          |
+| `scripts/tools/viz-shot.mjs`                            | NEW（round 2）：像素層驗證儀器——模組自動偵測逐元件截圖三變體；graph.md §七 像素閘門 + DNA §品質基因 row    |
 
 ## 7. 下一步（v3，不在本輪）
 

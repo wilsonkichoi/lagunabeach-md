@@ -361,6 +361,8 @@ viz 文字
 
 **自動閘門**：`python3 scripts/tools/article-health.py {file} --check=viz-health`（來源標註 / 「如上圖」AI-blind 指示語 / 圖表 table fallback）。進 `rewrite-stage-4` profile。
 
+**像素閘門**（2026-06-12 儀器化）：`node scripts/tools/viz-shot.mjs`（dev server 跑著時對頁面上每個 tw-\* 模組逐元件截圖，light/dark/mobile 三變體，模組清單自動偵測）。產出的 PNG 要**逐張人眼看過**才算驗證完成。為什麼是鐵律：markup 存在 ≠ 視覺正確——v1.0 的 quote/heatmap 在 production 壞了六天而 curl 驗證全綠，因為當時只驗了 class 名存在沒看像素。**模組樣式 / renderer / 全站 prose CSS 變更必跑**（全站樣式改動會 cascade 進模組，像素層才看得到）。
+
 ---
 
 ## 八、反例 gallery（像 EDITORIAL 禁句，看到要警覺）
