@@ -3252,6 +3252,22 @@ Tiebreaker 實戰（MANIFESTO > DNA > MEMORY）：多數條目落 MEMORY（綁 T
 - **verification_count**: 1
 - **severity**: operational
 
+### 2026-06-13 refactor-article — .astro frontmatter 是 per-render scope：cache 放錯層 = 每頁重跑
+
+- **原則**：Astro compiler 把 frontmatter 編譯成 component render function 本體——frontmatter 的 `const cache = new Map()` 每頁重新執行，cache 永遠空。任何 cache / 昂貴初始化 / 跨頁共享狀態必須住在被 import 的 .ts module（module scope 整個 build 進程共享）。article.template.astro 的 `_gitCaches` 放 frontmatter，`execSync(git log --full-history)` 每篇文章頁重跑一次（4,895 次，單次 326ms，且 execSync 同步 block event loop 讓 concurrency 失效）= 6/10 audit 量到「文章頁 554ms vs raw 46ms 相差 508ms 未拆帳」的本體。
+- **觸發**：2026-06-13 refactor-article session，哲宇 directive「解決 article.astro 編譯時間」。
+- **修補方向**：✅ 已修（buildGitInfoCache 在 utils/contributors.ts 內按 knowledgePath memoize，git log 4,895 次 → 6 次）+ 鐵律寫進 contributors.ts / article-render.ts / template 三處註解。報告：reports/article-template-refactor-2026-06-13.md。Distill 時建議升 REFLEXES（「frontmatter 不放 cache」一句話反射）。
+- **verification_count**: 1
+- **severity**: structural
+
+### 2026-06-13 refactor-article — 「有 cache」不是 binary 屬性：審計要連 scope 一起驗證，runtime probe > 讀碼
+
+- **原則**：6/10 build audit 寫「git info cache 讀碼確認有 module-level cache」——確認的是 wrapper 的那份（真 module scope），但 template 裡還有第二份同名同功能的 cache 在 frontmatter（per-render scope，永遠空轉）。兩份程式碼都「有 cache」，只有一份活著。對 .astro 檔案，「cache 是否生效」唯一可信的驗證是 runtime probe（buildGitInfoCache 進 console.error counter + dev server 同頁 request 3 次，3 分鐘出證據），不是讀碼。REFLEXES #24「工具在說謊」家族新形式：**註解在說謊**（「per-lang cache so 6 wrappers don't collide」描述的是意圖不是行為）。
+- **觸發**：2026-06-13 refactor-article session，§1.2 of reports/article-template-refactor-2026-06-13.md。
+- **修補方向**：審計 SOP 候選：任何「X 已有 cache/memo」結論必附 scope 證據（module-level 宣告行號）或 probe 數據；.astro 檔案一律 probe。同 session 第二 instance：自寫的 parity diff 工具第一版 sed delimiter 衝突 → normalizer 輸出空檔 → 5,268 檔 empty-vs-empty 假 PASS——驗證工具要自帶 self-test（樣本檔輸出長度 guard 加上後才翻成真 FAIL→真 PASS）。**驗證器本身也是會說謊的工具**（#24 第 N+2 形式）。
+- **verification_count**: 2
+- **severity**: structural
+
 ---
 
 ## ❌ 已歸檔（過時 / 撤回）

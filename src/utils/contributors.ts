@@ -80,7 +80,18 @@ export function emptyGitInfo(): GitInfo {
   };
 }
 
+// Module-level memo（per knowledgePath）。呼叫端有兩種 scope：
+// (a) 6 個 [slug].astro wrapper 的 getStaticPaths — 各自 module cache，每語言一次
+// (b) article.template.astro 的 per-render frontmatter — ⚠️ frontmatter 每頁重跑，
+//     沒有這層 memo 時 git log 子程序每篇文章執行一次（4,895 頁 ≈ build 主要瓶頸，
+//     2026-06-13 實測修復；詳 reports/article-template-refactor-2026-06-13.md）。
+// Trade-off：dev server 進程存活期間 contributor 資訊不會跟著新 commit 更新
+// （跟 articles-index.ts 同款 trade-off）；static build 一個進程內 git 狀態不變，無影響。
+const _gitInfoCacheByPath = new Map<string, Map<string, GitInfo>>();
+
 export function buildGitInfoCache(knowledgePath: string) {
+  const memo = _gitInfoCacheByPath.get(knowledgePath);
+  if (memo) return memo;
   const cache = new Map<string, GitInfo>();
 
   try {
@@ -131,5 +142,6 @@ export function buildGitInfoCache(knowledgePath: string) {
     console.error('Git cache error:', (e as Error).message);
   }
 
+  _gitInfoCacheByPath.set(knowledgePath, cache);
   return cache;
 }
