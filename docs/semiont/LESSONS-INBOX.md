@@ -3179,6 +3179,8 @@ Tiebreaker 實戰（MANIFESTO > DNA > MEMORY）：多數條目落 MEMORY（綁 T
 
 ### 2026-06-10 babel — diff-patch-prepare.py `expected_new_content_hash` semantic mismatch with status.py
 
+> ✅ **2026-06-12 root-cause fix shipped**（`14ceefdb0`，flywheel-evolution session）：hash 改 import status.py 單一來源 + expected_sha 改取 zh.lastCommit，round-trip 測試 fresh/same-commit。待 distill 時歸檔。
+
 - **原則**：`diff-patch-prepare.py:170` 寫 `expected_new_content_hash = hash_content(current_zh)`（**FULL-FILE 含 frontmatter SHA256**）與 `expected_new_body_hash = hash_content(body)`（body-only SHA256）。但 `status.py:178` 的 `body_hash(content)` semantic 是「先 strip frontmatter 再 hash body」，跟 translation frontmatter 的 `sourceContentHash` 是 body-only。**diff-patch 工具寫的 `expected_new_content_hash` semantic ≠ status.py 的 contentHash semantic**。如果用 diff-patch JSON 的 `expected_new_content_hash` 去 patch 翻譯 frontmatter，status.py 會把 fresh 算成 stale（反向汙染）。
 - **觸發**：2026-06-10 babel 寫 `bulk-sha-bump.py` 試圖批量處理 diff_lines=0 的 450 entries（diff-patch JSON 算的「body 沒改」cases），用 `expected_new_content_hash` 覆蓋 translation 的 `sourceContentHash` → status.py 立刻把全部 5 lang stale count 從 162→460 暴增。Stash + drop + re-bump 8 P2.5 才回正。
 - **可能層級**：(a) 操作規則：bulk-bump 前必須用 status.py 同 semantic 算 expected hash，不能直接信 diff-patch JSON 的 field 名（name suggests content, semantic is full-file）；(b) 儀器化候選：rename `expected_new_content_hash` → `expected_new_full_file_hash`（誠實命名），或讓 diff-patch-prepare.py 直接 import status.body_hash 算 body-only 的 `expected_new_content_hash`（match status.py 命名 convention）；(c) 反射候選：跨 tool boundary 的 hash 欄位 name 看起來相同但 semantic 可能不同 — 兩個工具獨立演化會出現 name collision with semantic drift。
@@ -3203,6 +3205,26 @@ Tiebreaker 實戰（MANIFESTO > DNA > MEMORY）：多數條目落 MEMORY（綁 T
 - **相關**：[REFLEXES #3](REFLEXES.md) 診斷先於修復 + content-dates batch heal 同秒 tie 現象（data 層的 timestamp 粒度議題）。
 - **verification_count**: 1（2026-06-10 排序 callout 驗證為非 bug first surface）
 - **severity**: operational（流程紀律提醒，無系統壞損）
+
+---
+
+### 2026-06-12 flywheel-evolution — 飛輪儀器全偵測「存在」、無一偵測「缺席」（absence blindness）
+
+- **原則**：routine-status.sh 列有 fire 的、routine-audit 掃有 commit 的，沒有任何一層比對「排程上該 fire 而沒 fire 的」。spore-pick / spore-publish 在 scheduler 層停用 15 天，SSOT 仍列 active、上游持續 defer 給屍體、週審零察覺；3 次 daemon 停擺（66hr + 6/05 + 6/08）同樣無儀器報告。Scheduler enable/disable 不進 git，改了無 audit trail。
+- **觸發**：2026-06-12 哲宇 callout「routine 都在往下丟」→ 兩週體檢（reports/flywheel-evolution-2026-06-12.md §2.1）。
+- **修補方向**：P1 — routine-status v2 expected-vs-actual diff + scheduler 狀態 daily dump 進 git（routines-live-state.json）。
+- **verification_count**: 1（spore 產線之死 + 3 次 daemon 停擺 + 6/7 週審全盲，同 session 三重證實）
+- **severity**: structural
+
+---
+
+### 2026-06-12 flywheel-evolution — standing decision 無單一出口時 escalation 落地率歸零
+
+- **原則**：兩週內綁具體 artifact 的 escalation（PR / issue / 壞頁）1-3 天收斂；要哲宇做 standing decision 的（三選項矩陣 / 工具重構授權 / routine 去留）散在各 memory handoff，落地率約 0%，6 條堆疊最舊 15 天。問題在可見性與出口：哲宇從未看過完整清單，且佇列沒有 default-action 出口。
+- **觸發**：同上體檢 §2.3 deadletter 分析。
+- **已儀器化**：OBSERVER-QUEUE.md 誕生（單一佇列 + 預設選項 + default-action + 四紅線豁免）+ ROUTINE.md v2.9 §完成義務三振規則。weekly-report 待接 top 5 段（P1）。
+- **verification_count**: 1（6 條 deadletter 同窗口證實）
+- **severity**: structural
 
 ---
 
