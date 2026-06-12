@@ -1,7 +1,133 @@
 {
-  "generatedAt": "2026-06-12T15:09:48.940Z",
+  "generatedAt": "2026-06-12T22:11:04.098Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "44722afe5b633fc29fde592b1e005f7b664b2736",
+      "date": "2026-06-13T02:57:48+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-13-003353-twmd-babel-nightly — 92 translations 3-tier ship + 5 lang 100% coverage 本週首次"
+    },
+    {
+      "hash": "e8126e8ff15d8f10c29400d3435b8bd606aa74fe",
+      "date": "2026-06-13T02:54:43+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel-nightly: 92 translations cascade (0a/1/4) — 2026-06-13"
+    },
+    {
+      "hash": "e5effb818c5fe2b1a2b5ef50601ab66bfdc7f93f",
+      "date": "2026-06-13T02:02:24+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: v1.10.0 認知層同步 — about 里程碑六語（短版：寫意義、故事看得懂）+ CONSCIOUSNESS 里程碑"
+    },
+    {
+      "hash": "4e78c1ffb5f6573dd0b5e2f98053ad8af4691f64",
+      "date": "2026-06-13T01:56:09+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: refactor-article v2.0 收官 — 七工作包補記 + diary（一整夜抓說謊的尺）+ handoff 更新"
+    },
+    {
+      "hash": "e4c4625a8399d90d7365a7aef4883682659be868",
+      "date": "2026-06-13T01:52:38+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: LESSONS-INBOX 完整消化策略 — 251 條全量聚類 + 12 新反射提案 + 6 批執行計畫"
+    },
+    {
+      "hash": "e1f00a47ea54e03659cf9f1efea307c438a94a45",
+      "date": "2026-06-13T01:50:57+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: RAG Phase 0 — 搜尋六語 per-lang shard，ja/ko/es/fr 讀者從零母語結果到全語料"
+    },
+    {
+      "hash": "1bcd0da6ad689389d1a91e4b6d823371044d743d",
+      "date": "2026-06-13T01:41:09+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 主頁面批次 refactor 完成 — data.template 人口金字塔 477 行抽 bundle + 16 檔結構性勘定「已健康」"
+    },
+    {
+      "hash": "9d2935dd94742b1dc380a69870207f40e76d07cd",
+      "date": "2026-06-13T01:34:18+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 架構深度審計 + 進化 roadmap — 雙讀路徑結構發現 + 14 條 EVO 進化項"
+    },
+    {
+      "hash": "0fd911db34976f4561514ca5229cf83fd4b7a17e",
+      "date": "2026-06-13T01:31:29+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: twmd 統一 CLI 誕生 — 98 散裝工具的 thin router 入口"
+    },
+    {
+      "hash": "0ef6c62561b8d33835d8e0b4af2ad9ba3df60521",
+      "date": "2026-06-13T01:29:32+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 快修包 — semiont build-fetch 改本地 JSON + politics mapping 補縫 + 儀器化 ×2"
+    },
+    {
+      "hash": "3b2ac71876acb4843bc4064947c638e970c928f2",
+      "date": "2026-06-13T01:21:16+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: refactor 完整驗證報告 — 功能/渲染/CI 四維全綠 + CI 實數（Build step 1,125s→125s -89%）"
+    },
+    {
+      "hash": "a3ec8ede51faa6e4334a6bc7a387046579e9e1c2",
+      "date": "2026-06-13T01:14:52+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: deploy.yml OG cache 拆 restore/save — 無內容變更的 run 不再每次存 186MB"
+    },
+    {
+      "hash": "6cd55f9dd4774c94091863e76467746381bb975f",
+      "date": "2026-06-13T01:14:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: dashboard template 解剖 — 5,329→629 行，client JS 與 CSS 抽出共用 bundle（每頁 HTML -52%）"
+    },
+    {
+      "hash": "5ed784cfb0355d3e1232b9fdee6176463fea54be",
+      "date": "2026-06-13T01:03:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-13-002414-refactor-article — article template 雙病灶手術收官 + MEMORY index"
+    },
+    {
+      "hash": "66e7db0edf0e997d6ad1b8470ef39e90ff4690aa",
+      "date": "2026-06-13T00:59:11+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: article template 雙病灶手術 — git log ×4,697→6（build 9m49s→40s 14.6×）+ 2,241→1,326 行"
+    },
+    {
+      "hash": "469abd2792e1a686702479f6e8f4584998b73209",
+      "date": "2026-06-13T00:03:43+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: viz-shot.mjs 像素閘門儀器化 + 雙主題 34/34 全檢 PASS — viz-evolution round 2"
+    },
+    {
+      "hash": "765263ba3ea68b00e237a9e4d281473399abdc7b",
+      "date": "2026-06-12T23:54:39+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-12-225752-viz-evolution — 視覺化 v2.0 收官 + diary（存在了跟長對了是兩種驗證）+ LESSONS ×2"
+    },
+    {
+      "hash": "6d8ae34b3d885666ff7c694b110be1d04bb690cc",
+      "date": "2026-06-12T23:48:22+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 視覺化模組型錄 17 種 — 7 新模組活範例（戶政司 22 縣市 / 中選會公投 / 國宅數據）"
+    },
+    {
+      "hash": "07b8f68c9b6bd7d629290117e8ec592b19e59836",
+      "date": "2026-06-12T23:48:02+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 視覺化系統 v2.0 — 模組 10→17 + 視覺體檢 11 修 + graph.md DNA 進化"
+    },
+    {
+      "hash": "d4151f28f92b01c726623a4798d45d34b526ab6d",
+      "date": "2026-06-12T23:13:45+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-12-231148-twmd-data-refresh-pm — 14-step ALL PASS + Step 11 連 13 cycle 全綠"
+    },
+    {
+      "hash": "4cc53d790f319a47295db4e3ad4c9a7aaf1f9b3c",
+      "date": "2026-06-12T23:11:34+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] data-refresh-pm: 14-step ALL PASS + Step 11 連 13 cycle 全綠 — 2026-06-12 23:00"
+    },
     {
       "hash": "422e912d30849634ecdafed00d1f3cc22e7392b0",
       "date": "2026-06-12T22:13:47+08:00",

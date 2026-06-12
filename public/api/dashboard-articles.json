@@ -52,11 +52,11 @@
       "民主假"
     ],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 2,
     "commitHash": "3b405f0d",
@@ -106,6 +106,42 @@
     "hasOverview": true,
     "hasReading": true,
     "fnCount": 36
+  },
+  {
+    "title": "視覺化模組型錄：十七種看見台灣數據的方法",
+    "slug": "視覺化模組型錄",
+    "category": "society",
+    "subcategory": "人權與平等",
+    "date": "2026-06-06",
+    "lastModified": "2026-06-12",
+    "lastVerified": "2026-06-12",
+    "lastHumanReview": false,
+    "featured": false,
+    "wordCount": 2280,
+    "tagCount": 4,
+    "tags": [
+      "資料視覺化",
+      "居住正義",
+      "住宅政策",
+      "開放資料"
+    ],
+    "translations": {
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
+    },
+    "revision": 2,
+    "commitHash": "6d8ae34b",
+    "commitSubject": "🧬 [semiont] rewrite: 視覺化模組型錄 17 種 — 7 新模組活範例（戶政司 22 縣市 / 中選會公投 / 國宅數據）",
+    "description": "Taiwan.md 的文章視覺化模組活範例——用真實的台灣居住與人口數據，把每一種 tw-* 視覺模組渲染一次，搭配 graph.md 的語法與設計原則一起看。",
+    "healthScore": 48,
+    "qualityScore": 0,
+    "formatIssues": 0,
+    "hasOverview": true,
+    "hasReading": true,
+    "fnCount": 5
   },
   {
     "title": "justfont 與台灣字體發展：用一種台灣茶的名字，把做字的人帶到陽光下",
@@ -1092,42 +1128,6 @@
     "hasOverview": false,
     "hasReading": true,
     "fnCount": 5
-  },
-  {
-    "title": "視覺化模組型錄：十種看見台灣居住數據的方法",
-    "slug": "視覺化模組型錄",
-    "category": "society",
-    "subcategory": "人權與平等",
-    "date": "2026-06-06",
-    "lastModified": "2026-06-06",
-    "lastVerified": "2026-06-06",
-    "lastHumanReview": false,
-    "featured": false,
-    "wordCount": 1470,
-    "tagCount": 4,
-    "tags": [
-      "資料視覺化",
-      "居住正義",
-      "住宅政策",
-      "開放資料"
-    ],
-    "translations": {
-      "en": true,
-      "ja": true,
-      "ko": true,
-      "es": true,
-      "fr": true
-    },
-    "revision": 1,
-    "commitHash": "d540c3ae",
-    "commitSubject": "🧬 [semiont] rewrite: 視覺化模組型錄 NEW — graph.md 的活範例（10 模組實際渲染）",
-    "description": "Taiwan.md 的文章視覺化模組活範例——用真實的台灣居住數據，把每一種 tw-* 視覺模組渲染一次，搭配 graph.md 的語法與設計原則一起看。",
-    "healthScore": 38,
-    "qualityScore": 0,
-    "formatIssues": 0,
-    "hasOverview": true,
-    "hasReading": true,
-    "fnCount": 3
   },
   {
     "title": "台灣樂器製造業：從后里薩克斯風到全球音樂工廠",

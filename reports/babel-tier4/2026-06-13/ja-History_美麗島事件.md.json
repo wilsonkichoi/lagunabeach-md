@@ -1,0 +1,28 @@
+{
+  "lang": "ja",
+  "zh_path": "History/美麗島事件.md",
+  "status": "stale",
+  "en_path": "knowledge/ja/History/kaohsiung-incident-formosa-incident.md",
+  "slug": "kaohsiung-incident-formosa-incident",
+  "zh_head_sha": "4b6d28c54",
+  "zh_content_hash": "sha256:b6388def07095d7a",
+  "zh_body_hash": "sha256:023966d5fd73721a",
+  "wikilink_targets": {
+    "台灣白色恐怖": "/ja/History/taiwan-white-terror/",
+    "林義雄": "/ja/People/lin-yi-hsiung-democracy-advocate-tragedy-survivor/",
+    "台灣民主轉型": "/ja/History/taiwan-democratization/",
+    "陳菊": "/ja/People/chen-chu-democracy-activist/",
+    "台灣轉型正義": "/ja/History/taiwan-transitional-justice/",
+    "太陽花學運": "/ja/Society/sunflower-movement/",
+    "戒嚴時期": "/ja/History/martial-law-era/",
+    "蔡英文": "/ja/People/tsai-ing-wen/",
+    "李登輝": "/ja/People/lee-teng-hui/"
+  },
+  "frontmatter_placeholder": {
+    "translatedFrom": "History/美麗島事件.md",
+    "sourceCommitSha": "4b6d28c54",
+    "sourceContentHash": "sha256:b6388def07095d7a",
+    "sourceBodyHash": "sha256:023966d5fd73721a",
+    "translatedAt": "2026-06-13T01:49:53+08:00"
+  }
+}

@@ -1,7 +1,7 @@
 ---
 title: 'reports/ INDEX — auto-generated'
 description: '頂層 *.md 按 9 type bucket × 月份 雙軸索引 + 子目錄 status summary'
-last_generated: 2026-06-12 23:10
+last_generated: 2026-06-13 06:11
 generator: scripts/tools/generate-reports-index.py
 ssot: reports/reports-archival-audit-2026-05-27.md §4 Layer 3
 type: auto-index
@@ -12,19 +12,21 @@ type: auto-index
 > **本 file 由 `scripts/tools/generate-reports-index.py` 完全 overwrite**。
 > 不要人工編輯（會被下一次 cron 覆蓋）。
 >
-> Last generated: **2026-06-12 23:10** · 頂層 \*.md 共 **156** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
+> Last generated: **2026-06-13 06:11** · 頂層 \*.md 共 **162** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
 
 ## 📦 子目錄 status
 
 | Subdir                  | Files | Size     | 用途                                                 |
 | ----------------------- | ----: | -------- | ---------------------------------------------------- |
-| `research/`             |   294 | 48.5 MB  | REWRITE-PIPELINE Stage 1 canonical (year-month 分槽) |
+| `research/`             |   295 | 48.5 MB  | REWRITE-PIPELINE Stage 1 canonical (year-month 分槽) |
 | `visual/`               |   111 | 214.5 MB | Visual smoke test 基線 (partial gitignored)          |
 | `archive/`              |    27 | 342.8 KB | 歸檔位置 (per audit Layer 4)                         |
 | `weekly/`               |    10 | 2.3 MB   | Self-evolve weekly digest                            |
 | `factcheck/`            |     9 | 98.7 KB  | —                                                    |
 | `scratch/`              |     9 | 1.7 MB   | POC / 暫存 (per audit Layer 1，已 .gitignored)       |
+| `babel-tier4/`          |     8 | 5.5 KB   | —                                                    |
 | `probe/`                |     6 | 69.8 KB  | BECOME §Step 7 探測器報告                            |
+| `babel-patches/`        |     5 | 3.4 MB   | —                                                    |
 | `translation-research/` |     5 | 338.0 KB | 巴別塔 5 lang research                               |
 | `ab-tests/`             |     4 | 69.2 KB  | Editorial v6 A/B test                                |
 | `music-media-audit/`    |     4 | 115.5 KB | Music 條目 media audit (json + md)                   |
@@ -74,9 +76,11 @@ type: auto-index
 - `2026-04-13` [ssodt-spore-linkback-plan-2026-04-13](ssodt-spore-linkback-plan-2026-04-13.md)
 - `2026-04-12` [semiont-public-pages-plan-2026-04-12](semiont-public-pages-plan-2026-04-12.md)
 
-### evolution (21)
+### evolution (23)
 
+- `2026-06-13` [evolution-roadmap-2026-06-13](evolution-roadmap-2026-06-13.md)
 - `2026-06-12` [flywheel-evolution-2026-06-12](flywheel-evolution-2026-06-12.md) — 飛輪進化研究 2026-06-12
+- `2026-06-12` [viz-system-evolution-2026-06-12](viz-system-evolution-2026-06-12.md)
 - `2026-06-05` [claude-code-connector-evolution-2026-06-05](claude-code-connector-evolution-2026-06-05.md) — Taiwan.md Claude Code Connector — 進化分析與實作規劃
 - `2026-06-04` [media-richness-band-evolution-2026-06-04](media-richness-band-evolution-2026-06-04.md)
 - `2026-06-04` [rewrite-pipeline-research-ssot-evolution-2026-06-04](rewrite-pipeline-research-ssot-evolution-2026-06-04.md)
@@ -108,8 +112,9 @@ type: auto-index
 - `2026-04-18` [ai-crawler-404-analysis-2026-04-18](ai-crawler-404-analysis-2026-04-18.md)
 - `2026-04-12` [traffic-analysis-2026-04-12](traffic-analysis-2026-04-12.md)
 
-### audit (15)
+### audit (16)
 
+- `2026-06-13` [architecture-deep-audit-2026-06-13](architecture-deep-audit-2026-06-13.md)
 - `2026-06-10` [build-pipeline-audit-2026-06-10](build-pipeline-audit-2026-06-10.md) — Build pipeline 完整審計 — 1099 秒解剖、30 天變慢歸因、六項修復
 - `2026-06-10` [build-pipeline-audit-findings-2026-06-10](build-pipeline-audit-findings-2026-06-10.md)
 - `2026-06-10` [four-pages-curation-audit-2026-06-10](four-pages-curation-audit-2026-06-10.md) — 四頁策展深度審視 — 首頁 / 關於 / 資源 / 參與
@@ -152,8 +157,9 @@ type: auto-index
 - `2026-05-09` [editorial-v6.1-test-c-2026-05-09](editorial-v6.1-test-c-2026-05-09.md)
 - `2026-05-03` [owl-diary-translation-poc-2026-05-03](owl-diary-translation-poc-2026-05-03.md) — Owl 巴別塔 × Semiont diary 翻譯 POC + 全 batch scope assessment
 
-### proposal (6)
+### proposal (7)
 
+- `2026-06-13` [lessons-distill-strategy-2026-06-13](lessons-distill-strategy-2026-06-13.md)
 - `2026-06-05` [twinklehub-partnership-strategy-2026-06-05](twinklehub-partnership-strategy-2026-06-05.md) — Taiwan.md × Twinkle Hub — 跨合作策略思考報告
 - `2026-06-03` [ig-carousel-strategy-2026-06-03](ig-carousel-strategy-2026-06-03.md) — IG Carousel 策略研究 — 把文章變成可滑動的社群貼文
 - `2026-05-27` [2026-election-evolution-proposal-2026-05-27](2026-election-evolution-proposal-2026-05-27.md) — 2026 地方選舉 × Taiwan.md 物種進化提案
@@ -171,8 +177,10 @@ type: auto-index
 - `2026-04-12` [NMTH-overseas-semiont-analysis-2026-04-12](NMTH-overseas-semiont-analysis-2026-04-12.md)
 - `2026-04-11` [TFT-semiont-analysis-2026-04-11](TFT-semiont-analysis-2026-04-11.md)
 
-### ops (47)
+### ops (49)
 
+- `2026-06-13` [article-template-refactor-2026-06-13](article-template-refactor-2026-06-13.md)
+- `2026-06-13` [refactor-verification-2026-06-13](refactor-verification-2026-06-13.md)
 - `2026-06-12` [feedback-triage-justfont-escalation-2026-06-12](feedback-triage-justfont-escalation-2026-06-12.md) — feedback-triage 升級報告 — justfont 共同創辦人蘇煒翔逐段勘誤（21 處）
 - `2026-06-12` [goal-notes-structuring-2026-06-12](goal-notes-structuring-2026-06-12.md) — 哲宇零碎筆記結構化 2026-06-12
 - `2026-06-10` [spore-data-architecture-2026-06-10](spore-data-architecture-2026-06-10.md) — 孢子資料架構解耦 — spores.json 獨立資料層設計與遷移
@@ -228,12 +236,18 @@ type: auto-index
 - Type breakdown: ops: 1
   - `????` [README](README.md)
 
-### 2026-06 (35 files)
+### 2026-06 (41 files)
 
-- Type breakdown: ops: 12 / design: 6 / evolution: 5 / audit: 5 / audit-routine: 2 / plan: 2 / proposal: 2 / analysis: 1
+- Type breakdown: ops: 14 / evolution: 7 / audit: 6 / design: 6 / proposal: 3 / audit-routine: 2 / plan: 2 / analysis: 1
+  - `2026-06-13` [architecture-deep-audit-2026-06-13](architecture-deep-audit-2026-06-13.md)
+  - `2026-06-13` [article-template-refactor-2026-06-13](article-template-refactor-2026-06-13.md)
+  - `2026-06-13` [evolution-roadmap-2026-06-13](evolution-roadmap-2026-06-13.md)
+  - `2026-06-13` [lessons-distill-strategy-2026-06-13](lessons-distill-strategy-2026-06-13.md)
+  - `2026-06-13` [refactor-verification-2026-06-13](refactor-verification-2026-06-13.md)
   - `2026-06-12` [feedback-triage-justfont-escalation-2026-06-12](feedback-triage-justfont-escalation-2026-06-12.md)
   - `2026-06-12` [flywheel-evolution-2026-06-12](flywheel-evolution-2026-06-12.md)
   - `2026-06-12` [goal-notes-structuring-2026-06-12](goal-notes-structuring-2026-06-12.md)
+  - `2026-06-12` [viz-system-evolution-2026-06-12](viz-system-evolution-2026-06-12.md)
   - `2026-06-10` [build-pipeline-audit-2026-06-10](build-pipeline-audit-2026-06-10.md)
   - `2026-06-10` [build-pipeline-audit-findings-2026-06-10](build-pipeline-audit-findings-2026-06-10.md)
   - `2026-06-10` [four-pages-curation-audit-2026-06-10](four-pages-curation-audit-2026-06-10.md)

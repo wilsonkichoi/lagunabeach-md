@@ -1,0 +1,18 @@
+{
+  "lang": "fr",
+  "zh_path": "Geography/嘉義縣.md",
+  "status": "stale",
+  "en_path": "knowledge/fr/Geography/chiayi-county.md",
+  "slug": "chiayi-county",
+  "zh_head_sha": "6f28d6167",
+  "zh_content_hash": "sha256:e233ab9cc8b79527",
+  "zh_body_hash": "sha256:8e7d5975a9ac8375",
+  "wikilink_targets": {},
+  "frontmatter_placeholder": {
+    "translatedFrom": "Geography/嘉義縣.md",
+    "sourceCommitSha": "6f28d6167",
+    "sourceContentHash": "sha256:e233ab9cc8b79527",
+    "sourceBodyHash": "sha256:8e7d5975a9ac8375",
+    "translatedAt": "2026-06-13T01:49:53+08:00"
+  }
+}

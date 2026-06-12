@@ -82,17 +82,6 @@
     "path": "ko/People/san-mao.md"
   },
   {
-    "title": "'Agencia Espacial de Taiwán: treinta y dos años para completar una agencia espacial para un país que todavía no había completado su nombre'",
-    "description": "En 1991 se llamaba «oficina preparatoria»: no tenía nombre, no tenía cohetes, no tenía terreno propio. Treinta y dos años después volvió a poner Taiwan en su nombre; hoy, el centro de control de Hsinchu sigue las 24 horas el pulso de ocho satélites. El día del terremoto del 0403 en Hualien, reconfiguró una misión seis minutos después del sismo y obtuvo imágenes en tres horas. Ahora está completando la última pieza: un cohete orbital propio, además de una misión lunar ya aprobada y que podría ponerse en marcha tan pronto como en 2028.",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/Technology/tasa-taiwan-space-agency",
-    "readingTime": 305,
-    "featured": true,
-    "date": "2026-06-04",
-    "path": "es/Technology/tasa-taiwan-space-agency.md"
-  },
-  {
     "title": "'CommonWealth Magazine: cuarenta años clasificando el «éxito» de Taiwán desde el lugar más cercano al capital'",
     "description": "En junio de 1981, una revista económico-financiera llamada CommonWealth nació en una isla bajo ley marcial; su primera tirada de diez mil ejemplares se agotó en dos días. El impulsor fue el economista Kao Hsi-chun, y su alma fue Diane Ying, exreportera de United Press International y The New York Times. Cuarenta años después, se convirtió en uno de los medios más confiables de Taiwán, y también en el «definidor del éxito» detrás de las listas de las 2.000 empresas principales, los 50 grandes grupos y las ciudades felices. La fuente de su credibilidad y la fuente de su poder para clasificar provienen de la misma distancia.",
     "category": "es",
@@ -249,7 +238,7 @@
       "허룽싱"
     ],
     "url": "https://taiwan.md/ko/Society/the-reporter-investigative-journalism",
-    "readingTime": 50,
+    "readingTime": 51,
     "featured": true,
     "date": "2026-04-29",
     "path": "ko/Society/the-reporter-investigative-journalism.md"
@@ -363,20 +352,12 @@
     "path": "ja/Culture/jiaobei-divination-blocks.md"
   },
   {
-    "title": "「毒じゃがいも」：200ppm の向こうに広がる30ppm、14日、そして15年の食の傷跡",
-    "description": "2026年4月29日、中国国台弁（こくたいべん）の報道官・陳斌華（ちんひんか）は「毒じゃがいも」という言葉で頼清徳政権が「民衆の健康を米国への貢ぎ物にした」と批判した。論争の核心は三つの層にまたがる——EU比150倍のCIPC残留基準格差、国境85人の検査員が30億個を「1個ずつ確認」する物理的不可能性、そして2011年の可塑剤（プラスチック可塑剤）事件から積み重なった15年の食の傷跡だ。",
+    "title": "「毒ジャガイモ」：200 ppmの外側にある30 ppm、14日、そして15年の食の安全の傷痕",
+    "description": "2026年4月29日、中国国務院台湾事務弁公室の報道官・陳斌華は「毒ジャガイモ」という表現で、頼清徳政権が「再び民衆の健康を、米国に媚びるための投名状にした」と批判しました。この論争の本当の核心は三層にまたがっています。発芽抑制剤CIPC残留基準におけるEU 0.2 ppmと台湾30 ppmの150倍の落差、国境検査の実働85人が3億個をどう「一つずつ検査」するのか、そして2011年の可塑剤事件以来15年にわたって蓄積された食の安全の傷痕です。この叙事が正確に踏み込んだ地盤は、そこにあります。",
     "category": "ja",
-    "tags": [
-      "毒じゃがいも",
-      "食の安全",
-      "認知戦",
-      "台中関係",
-      "ART協定",
-      "ソラニン",
-      "CIPC"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ja/Society/poisoned-potato-cognitive-warfare-taiwan",
-    "readingTime": 53,
+    "readingTime": 114,
     "featured": false,
     "date": "2026-04-30",
     "path": "ja/Society/poisoned-potato-cognitive-warfare-taiwan.md"
@@ -1308,12 +1289,12 @@
     "path": "History/中正紀念堂.md"
   },
   {
-    "title": "中正紀念堂",
-    "description": "台北市中心最大の政治的象徴であり、最も民主的なダンス練習場でもある。権威の聖殿から転換正義の嵐の目へ、この建築は台湾の魂が最も激しく揺れた記録を刻んでいる。",
+    "title": "中正記念堂",
+    "description": "台北市中心で最も巨大な政治的象徴であり、最も民主的なダンス練習場でもある。権威の聖殿から転換正義の嵐の目へ、この建築は台湾の魂が最も激しく揺れた記録を刻んでいる。",
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/History/chiang-kai-shek-memorial-hall",
-    "readingTime": 6,
+    "readingTime": 17,
     "featured": false,
     "date": "2026-04-10",
     "path": "ja/History/chiang-kai-shek-memorial-hall.md"
@@ -5896,20 +5877,12 @@
     "path": "ja/Society/media-and-press-freedom-in-taiwan.md"
   },
   {
-    "title": "台湾ヒップホップとラップの発展",
-    "description": "大支、熱狗から頑童MJ116、蛋堡、Leo王へ——台湾ヒップホップ文化のローカライズと金曲賞による承認",
+    "title": "台湾ヒップホップとラップの発展：中国語で rap できるはずがない、台湾語は表舞台に上がれない、貧民窟でもない、彼らは三つの不利を一枚の主権の声紋へと歌い変えた",
+    "description": "2004 年、宋岳庭はすでに亡くなって 2 年がたっており、母親と弟が彼に代わって金曲奨の最優秀作詞人賞を受け取りました。あの《Life's a Struggle》の二重韻は、「中国語は rap に向かない」という先入観を一歩先へ押し進めました。輸入アルバムを 1 枚ずつ頼りに独学した地下時代から、Leo 王、熱狗が相次いでラップの歌王となるまで、台湾は 20 年をかけて一つの道を歩き切りました。しかし、この島でもっとも胸を打つのは、どれほど米国に似ているかではありません。中国語の声調、台湾語のなまり、貧民窟ではない弱者という三つの先天的な不利を、ここでしか歌えない多元的な主権の声紋へと反転させたことです。",
     "category": "ja",
-    "tags": [
-      "音楽",
-      "ヒップホップ",
-      "ラップ",
-      "Hip-Hop",
-      "Rap",
-      "金曲賞",
-      "ポップミュージック"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ja/Music/taiwan-hip-hop-and-rap",
-    "readingTime": 48,
+    "readingTime": 116,
     "featured": true,
     "date": "2026-03-19",
     "path": "ja/Music/taiwan-hip-hop-and-rap.md"
@@ -12459,19 +12432,19 @@
     "path": "ja/History/national-human-rights-museum.md"
   },
   {
-    "title": "国家宇宙センター：三十二年をかけ、まだ名前もそろいきらない国のために宇宙庁をそろえました",
-    "description": "1991年、それは「準備室」と呼ばれ、名前も、ロケットも、自前の土地もありませんでした。三十二年後、それはTaiwanを名前に戻し、いま新竹の管制センターは24時間、八基の衛星の鼓動を追っています。0403花蓮地震の日には、発災六分後に任務を再設定し、三時間後に画像を取得しました。いま最後の部品を補おうとしています。自前の軌道投入ロケット一基、そしてすでに承認され、最速で2028年に始動する月探査任務です。",
+    "title": "国家宇宙センター：三十二年をかけ、まだ名前をそろえきれていない国のために宇宙庁をそろえる",
+    "description": "1991年、それは「準備処」と呼ばれ、名前も、ロケットも、自分の土地もありませんでした。三十二年後、それは Taiwan を名前の中に戻し、いま新竹の管制センターは24時間、九機の衛星の鼓動を追っています。0403花蓮地震の日には、地震発生から六分後に任務を再設定し、三時間で撮像しました。いま最後の部品を補おうとしています。それは自前の軌道投入ロケットであり、すでに承認され、最速で2028年に始動する月探査任務でもあります。",
     "category": "ja",
     "tags": [
       "国家宇宙センター",
       "TASA",
       "宇宙技術",
       "呉宗信",
-      "FORMOSAT",
+      "福衛",
       "宇宙主権"
     ],
     "url": "https://taiwan.md/ja/Technology/tasa-taiwan-space-agency",
-    "readingTime": 125,
+    "readingTime": 132,
     "featured": true,
     "date": "2026-06-04",
     "path": "ja/Technology/tasa-taiwan-space-agency.md"
@@ -14473,7 +14446,7 @@
       "戒厳"
     ],
     "url": "https://taiwan.md/ja/History/kaohsiung-incident-formosa-incident",
-    "readingTime": 27,
+    "readingTime": 30,
     "featured": false,
     "date": "2026-03-31",
     "path": "ja/History/kaohsiung-incident-formosa-incident.md"
@@ -16354,24 +16327,19 @@
     "path": "ja/Music/contemporary-indigenous-singer-songwriters.md"
   },
   {
-    "title": "視覚化モジュールカタログ：台湾の居住データを10の方法で見る",
-    "description": "Taiwan.md の記事視覚化モジュールのライブサンプル——実際の台湾の居住データを使って、すべての tw-* 視覚モジュールを一度ずつレンダリングし、graph.md の文法とデザイン原則と一緒に見るためのものです。",
+    "title": "視覚化モジュールカタログ：台湾データを見る十七の方法",
+    "description": "Taiwan.md の記事における視覚化モジュールの実例——実際の台湾の居住・人口データを用いて、すべての tw-* 視覚モジュールを一度ずつレンダリングし、graph.md の構文と設計原則と合わせて確認します。",
     "category": "ja",
-    "tags": [
-      "資料視覺化",
-      "居住正義",
-      "住宅政策",
-      "開放資料"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ja/Society/visualization-module-catalog",
-    "readingTime": 13,
+    "readingTime": 18,
     "featured": false,
     "date": "2026-06-06",
     "path": "ja/Society/visualization-module-catalog.md"
   },
   {
-    "title": "視覺化模組型錄：十種看見台灣居住數據的方法",
-    "description": "Taiwan.md 的文章視覺化模組活範例——用真實的台灣居住數據，把每一種 tw-* 視覺模組渲染一次，搭配 graph.md 的語法與設計原則一起看。",
+    "title": "視覺化模組型錄：十七種看見台灣數據的方法",
+    "description": "Taiwan.md 的文章視覺化模組活範例——用真實的台灣居住與人口數據，把每一種 tw-* 視覺模組渲染一次，搭配 graph.md 的語法與設計原則一起看。",
     "category": "Society",
     "tags": [
       "資料視覺化",
@@ -16380,7 +16348,7 @@
       "開放資料"
     ],
     "url": "https://taiwan.md/Society/%E8%A6%96%E8%A6%BA%E5%8C%96%E6%A8%A1%E7%B5%84%E5%9E%8B%E9%8C%84",
-    "readingTime": 9,
+    "readingTime": 14,
     "featured": false,
     "date": "2026-06-06",
     "path": "Society/視覺化模組型錄.md"
@@ -21358,6 +21326,17 @@
     "path": "ja/Politics/election-bulletin-system.md"
   },
   {
+    "title": "選挙過程：空票箱から深夜開票まで、全国参加の民主儀式",
+    "description": "台湾の選挙は、極めて高い透明性を誇る「手作業開票」で国際的に知られています。投票前に空の投票箱を展示する儀式感から、開票時に一枚一枚の投票用紙が高く掲げられ、名前が読み上げられる過程まで、これは指導者を選ぶだけでなく、社会的信頼を築く基礎でもあります。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Politics/taiwan-election-process",
+    "readingTime": 18,
+    "featured": false,
+    "date": "2026-06-11",
+    "path": "ja/Politics/taiwan-election-process.md"
+  },
+  {
     "title": "選舉公報：國家配發的公平基準，候選人自費競選文宣的分流",
     "description": "每位選民投票前都會收到的那本厚厚公報，是 1980 年起累積的設計演化。國家配發 vs 候選人自費的分流邏輯，把「候選人想說什麼」從廣告主的影響力中切割出來，是台灣民主基礎建設中最便宜也最被忽略的一塊。",
     "category": "Politics",
@@ -22247,23 +22226,6 @@
     "featured": false,
     "date": "2026-06-09",
     "path": "Music/蘇打綠.md"
-  },
-  {
-    "title": "蘇打綠：ステージの小さな舞台から「魚丁糸」への抵抗、20年にわたる音楽主権の奪還戦",
-    "description": "2003年の貢寮（こうりょう）海洋音楽祭での出会いが、蘇打綠と林暐哲（りんいってつ）との16年にわたる師弟関係を切り開くと同時に、後に法廷で対決する伏線となりました。これは名前、創作の主権、そして6人が「魚丁糸」という分身を通じて音楽を守った物語です。",
-    "category": "ja",
-    "tags": [
-      "蘇打綠",
-      "魚丁糸",
-      "吳青峰",
-      "台湾音楽",
-      "著作権"
-    ],
-    "url": "https://taiwan.md/ja/Music/sodagreen",
-    "readingTime": 13,
-    "featured": false,
-    "date": "2026-05-14",
-    "path": "ja/Music/sodagreen.md"
   },
   {
     "title": "蘇貞昌：從美麗島辯護律師到「衝衝衝」的電火球閣揆",
@@ -24328,23 +24290,23 @@
     "path": "fr/Technology/digital-id-and-digital-government.md"
   },
   {
-    "title": "Catálogo de módulos de visualización: diez maneras de ver los datos de vivienda en Taiwán",
-    "description": "Un ejemplo vivo de los módulos de visualización de artículos de Taiwan.md: utilizando datos reales de vivienda de Taiwán, se renderiza cada módulo visual tw-* una vez, para leerse junto con la sintaxis y los principios de diseño de graph.md.",
+    "title": "Catálogo de módulos de visualización: diecisiete formas de ver los datos de Taiwán",
+    "description": "Ejemplo activo de módulos de visualización de Taiwan.md — con datos reales de vivienda y población de Taiwán, se renderiza cada módulo tw-* una vez, junto con la sintaxis y los principios de diseño de graph.md.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Society/visualization-module-catalog",
-    "readingTime": 31,
+    "readingTime": 38,
     "featured": false,
     "date": "2026-06-06",
     "path": "es/Society/visualization-module-catalog.md"
   },
   {
-    "title": "Catalogue de modules de visualisation : dix façons de voir les données du logement à Taïwan",
-    "description": "Exemples vivants des modules de visualisation d'articles de Taiwan.md — en utilisant de vraies données taïwanaises sur le logement, chaque module de visualisation tw-* est rendu une fois, à lire conjointement avec la syntaxe et les principes de conception de graph.md.",
+    "title": "Catalogue des modules de visualisation : dix‑sept méthodes pour voir les données de Taïwan",
+    "description": "Exemple vivant des modules de visualisation d'articles de Taiwan.md — en utilisant des données réelles de logement et de population de Taïwan, chaque module tw-* est rendu une fois, accompagné de la syntaxe et des principes de conception de graph.md.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Society/visualization-module-catalog",
-    "readingTime": 33,
+    "readingTime": 44,
     "featured": false,
     "date": "2026-06-06",
     "path": "fr/Society/visualization-module-catalog.md"
@@ -26591,12 +26553,12 @@
     "path": "fr/Geography/changhua-county.md"
   },
   {
-    "title": "Comté de Chiayi : 490 000 habitants prêtent leur visage à Alishan, la préfecture à Taibao est oubliée",
-    "description": "À cinq heures du matin, les parcs à huîtres au large de Dongshi sont encore dans l'eau, fournissant la moitié des huîtres du pays. À cent kilomètres, Alishan a vu son chemin de fer forestier de 66,6 km ouvrir en 1912. À côté de la gare à grande vitesse de Taibao, le Musée du Palais Sud a mis 15 ans à ouvrir, accueillant 760 000 visiteurs en 2018. En 1991, la préfecture du comté de Chiayi a déménagé de la ville de Chiayi à Taibao, mais le pays entier associe toujours « Chiayi » à la ville. Trente‑cinq ans plus tard, 490 000 habitants entourent une ville de 270 000 découpée, avec un indice de vieillissement de 174 % – le plus élevé de Taïwan.",
+    "title": "Comté de Chiayi : 490 000 habitants prêtent leur visage à Alishan, la préfecture à Taibao est oubliée",
+    "description": "À cinq heures du matin, les parcs à huîtres au large de Dongshi sont encore dans l'eau, fournissant la moitié des huîtres du pays. À cent kilomètres, Alishan a vu son chemin de fer forestier de 66,6 km ouvrir en 1912. À côté de la gare à grande vitesse de Taibao, le Musée du Palais Sud a mis 15 ans à ouvrir, accueillant 760 000 visiteurs en 2018. En 1991, la préfecture du comté de Chiayi a déménagé de la ville de Chiayi à Taibao, mais le pays entier associe toujours «Chiayi» à la ville. Trente-cinq ans plus tard, 490 000 habitants entourent une ville de 270 000 découpée, avec un indice de vieillissement de 174 % — le plus élevé de Taïwan.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Geography/chiayi-county",
-    "readingTime": 101,
+    "readingTime": 220,
     "featured": false,
     "date": "2026-05-18",
     "path": "fr/Geography/chiayi-county.md"
@@ -27962,20 +27924,12 @@
     "path": "es/Culture/taiwan-cultural-creative-park-development.md"
   },
   {
-    "title": "Desarrollo del hip hop y el rap en Taiwán",
-    "description": "De Dwagie y MC HotDog a MJ116, Soft Lipa y Leo Wang: la localización de la cultura hip hop taiwanesa y su reconocimiento en los Golden Melody Awards",
+    "title": "Desarrollo del hip hop y el rap en Taiwán: el chino no debería poder rapear, el taiwanés no podía subir al escenario, y esto no era un gueto; convirtieron tres desventajas en una huella vocal de soberanía",
+    "description": "En 2004, Sung Yueh-ting llevaba ya dos años muerto. Su madre y su hermano menor subieron al escenario para recibir en su nombre el Golden Melody a mejor letrista. Las rimas dobles de «Life's a Struggle» empujaron un paso más allá el prejuicio de que «el chino no sirve para rapear». Desde los años underground, cuando se aprendía de manera autodidacta disco importado por disco importado, hasta que Leo Wang y MC HotDog ganaron sucesivamente el premio a mejor cantante masculino de rap, Taiwán recorrió ese camino en veinte años. Pero lo más conmovedor de esta isla no es cuánto se parece a Estados Unidos, sino cómo convirtió tres desventajas de origen —los tonos del chino, el acento del taiwanés y unos sujetos vulnerables que no venían del gueto— en una huella vocal plural de soberanía que sólo aquí podía cantarse.",
     "category": "es",
-    "tags": [
-      "música",
-      "hip hop",
-      "rap",
-      "hip-hop",
-      "rap",
-      "Golden Melody Awards",
-      "música popular"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/es/Music/taiwan-hip-hop-and-rap",
-    "readingTime": 128,
+    "readingTime": 256,
     "featured": true,
     "date": "2026-03-19",
     "path": "es/Music/taiwan-hip-hop-and-rap.md"
@@ -28071,25 +28025,6 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "en/Culture/taiwan-cultural-creative-park-development.md"
-  },
-  {
-    "title": "Development of Taiwan Hip-Hop and Rap",
-    "description": "From Dwagie and MC HotDog to MJ116, Soft Lipa, and Leo Wang: the localization of Taiwan hip-hop culture and its recognition by the Golden Melody Awards",
-    "category": "en",
-    "tags": [
-      "Music",
-      "Hip-Hop",
-      "Rap",
-      "Hip-Hop",
-      "Rap",
-      "Golden Melody Awards",
-      "Popular Music"
-    ],
-    "url": "https://taiwan.md/en/Music/taiwan-hip-hop-and-rap",
-    "readingTime": 119,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "en/Music/taiwan-hip-hop-and-rap.md"
   },
   {
     "title": "Development of Taiwan's Audio Industry",
@@ -28197,20 +28132,12 @@
     "path": "fr/Culture/taiwan-cultural-creative-park-development.md"
   },
   {
-    "title": "Développement du hip-hop et du rap à Taïwan",
-    "description": "De Dwagie et MC HotDog à MJ116, Soft Lipa et Leo Wang : l'ancrage local de la culture hip-hop taïwanaise et sa reconnaissance par les Golden Melody Awards",
+    "title": "Développement du hip-hop et du rap à Taïwan : le chinois ne devrait pas pouvoir rapper, le taïwanais hoklo n'aurait pas sa place sur scène, et ce n'est pas un ghetto, mais ils ont transformé ces trois handicaps en empreinte vocale souveraine",
+    "description": "En 2004, Sung Yueh-ting était mort depuis deux ans lorsque sa mère et son frère sont montés recevoir pour lui le Golden Melody Award des meilleures paroles. Les doubles rimes de « Life's a Struggle » ont fait reculer le préjugé selon lequel « le chinois ne convient pas au rap ». Des années underground où l'on apprenait seul, album importé après album importé, jusqu'aux couronnements successifs de Leo Wang et MC HotDog comme meilleurs chanteurs de rap, Taïwan a parcouru ce chemin en vingt ans. Mais ce que cette île a de plus émouvant n'est pas sa ressemblance avec les États-Unis : c'est sa manière de transformer trois handicaps innés, les tons du chinois, l'accent du taïwanais hoklo et la position de faibles qui ne viennent pas du ghetto, en une empreinte vocale plurielle et souveraine que seul ce lieu peut faire entendre.",
     "category": "fr",
-    "tags": [
-      "musique",
-      "hip-hop",
-      "rap",
-      "Hip-Hop",
-      "Rap",
-      "Prix Golden Melody",
-      "musique populaire"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/fr/Music/hip-hop-rap",
-    "readingTime": 132,
+    "readingTime": 261,
     "featured": true,
     "date": "2026-03-19",
     "path": "fr/Music/hip-hop-rap.md"
@@ -28781,7 +28708,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Art/taiwan-new-media-art",
-    "readingTime": 120,
+    "readingTime": 121,
     "featured": true,
     "date": "2026-03-28",
     "path": "es/Art/taiwan-new-media-art.md"
@@ -29432,6 +29359,17 @@
     "featured": false,
     "date": "2026-05-27",
     "path": "en/Politics/election-bulletin-system.md"
+  },
+  {
+    "title": "Election Process: From Empty Ballot Box to Late-Night Counting, a Nationwide Democratic Ritual",
+    "description": "Taiwan''s elections are internationally renowned for their extremely transparent \"manual counting\". From the ceremonial display of an empty ballot box before voting to the process where each ballot is raised and called out during counting, this is not only about electing leaders but also a cornerstone for building social trust.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Politics/taiwan-election-process",
+    "readingTime": 40,
+    "featured": false,
+    "date": "2026-06-11",
+    "path": "en/Politics/taiwan-election-process.md"
   },
   {
     "title": "Élections et vie politique partisane à Taïwan",
@@ -33774,56 +33712,56 @@
     "path": "Technology/justfont與台灣字體發展.md"
   },
   {
-    "title": "justfont and the Development of Taiwanese Typography: A Short History from DynaComware's 25 Years to JinXuan's 76 Minutes",
-    "description": "On the afternoon of September 8, 2015, the JinXuan typeface went live on flyingV — and hit its NT$1.5 million goal in 76 minutes, NT$10 million in 11 hours, and NT$20 million in 58 hours, ultimately rewriting Taiwan''s crowdfunding record at NT$25,930,099 from 7,667 backers. That same year in June, the default Chinese typeface Apple unveiled at WWDC, \"PingFang,\" was made by DynaComware (formerly DynaLab) in Nangang, Taipei. Taiwan was hardly incapable of producing typefaces — but the workload of \"an average of 3.8 hand-drawn Chinese characters per type designer per day\" had kept anyone from making a new one for 25 years.",
+    "title": "justfont and Taiwan’s Type Development: Bringing Type Designers Into the Sunlight With the Name of a Taiwanese Tea",
+    "description": "On the morning of September 8, 2015, a typeface named after a Taiwanese tea, Jin Xuan, went live on flyingV, broke through its NT$1.5 million threshold in 76 minutes, and ultimately raised NT$25.93 million from 7,667 backers. Everyone in Taiwan reads its letters every day, yet the market was once too small to sustain even a single type-making company. From DynaComware’s MingLiU, to lead type on Taiyuan Road, to Lin Hsia’s beginnings painting Buddhist images, this is the story of how Taiwan brought type designers into the sunlight.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Technology/justfont-and-taiwan-typography",
-    "readingTime": 115,
+    "readingTime": 195,
     "featured": true,
     "date": "2026-04-29",
     "path": "en/Technology/justfont-and-taiwan-typography.md"
   },
   {
-    "title": "justfont et le développement de la typographie taïwanaise : une petite histoire de la fonte, des vingt-cinq ans de DynaComware aux soixante-seize minutes de Jin Xuan",
-    "description": "Le 8 septembre 2015 après-midi, Jin Xuan atteignait son objectif de 1,5 million NT$ en 76 minutes sur flyingV, dépassait les 10 millions en 11 heures, franchissait les 20 millions en 58 heures, et réécrivait finalement le record du financement participatif taïwanais avec 25 930 099 NT$ et 7 667 contributeurs. En juin de la même année, Apple dévoilait lors de la WWDC la « PingFang », nouvelle police chinoise par défaut de l'iPhone, conçue par DynaComware (anciennement DynaLab), basée dans le district de Nangang à Taipei. Taïwan n'avait jamais cessé de créer des polices, mais l'ampleur de la tâche — « un typographe sculpte en moyenne 3,8 sinogrammes par jour » — avait découragé quiconque d'en créer de nouvelles pendant 25 ans.",
+    "title": "justfont et le développement de la typographie taïwanaise : sous le nom d'un thé taïwanais, ramener les créateurs de polices à la lumière",
+    "description": "Le 8 septembre 2015, la police « Jin Xuan » de justfont atteignait son objectif de 1,5 million NT$ en 76 minutes sur flyingV ; 7 667 personnes ont finalement investi 25 930 099 NT$ pour une police qui n'existait pas encore. Tout le monde lisait leurs caractères chaque jour, mais le marché avait failli ne pas pouvoir faire vivre une seule entreprise de fonderie. De la police MingLiU de DynaComware aux caractères en plomb de la rue Taiyuan, en passant par Lin Xia qui s'est formée en peignant des Bouddhas, c'est l'histoire de Taïwan ramenant ses créateurs de polices à la lumière du jour.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Technology/justfont-and-taiwan-typography",
-    "readingTime": 137,
+    "readingTime": 225,
     "featured": true,
     "date": "2026-04-29",
     "path": "fr/Technology/justfont-and-taiwan-typography.md"
   },
   {
-    "title": "justfont y el desarrollo tipográfico en Taiwán: una breve historia tipográfica desde los veinticinco años de DynaFont hasta los setenta y seis minutos de Jinxuan",
-    "description": "El 8 de septiembre de 2015 por la tarde, Jinxuan alcanzó su meta de 1,500,000 en la plataforma de financiamiento colectivo flyingV tan solo 76 minutos después de su lanzamiento, superó los 10 millones en 11 horas y rebasó los 20 millones en 58 horas, reescribiendo finalmente el récord de crowdfunding taiwanés con NT$25,930,099 y 7,667 patrocinadores. En junio del mismo año, la tipografía china predeterminada para iPhone presentada por Apple en la WWDC, \"PingFang\", fue obra de DynaComware (antes DynaFont), empresa ubicada en el distrito de Nankang, Taipéi. Taiwán no carecía de experiencia en tipografía: la carga de trabajo de \"un diseñador de tipos tallando un promedio de 3.8 caracteres chinos al día\" fue lo que desanimó a todos durante 25 años.",
+    "title": "justfont y el desarrollo tipográfico en Taiwán: con el nombre de un té taiwanés, sacaron a la luz a quienes crean las letras",
+    "description": "El 8 de septiembre de 2015 por la mañana, una tipografía llamada Jinxuan —nombrada en honor a un té taiwanés— apareció en flyingV y superó el umbral de 1,5 millones en 76 minutos; al cierre, 7.667 personas habían aportado 25,93 millones de dólares taiwaneses. Todo el país leía sus caracteres a diario, pero el mercado era tan pequeño que ninguna empresa fabricante de tipografías podía subsistir. Desde la MingLiU de DynaFont hasta los tipos de plomo de la calle Taiyuan, pasando por Lin Xia, que comenzó pintando estatuas de Buda, esta es la historia de cómo Taiwán sacó a la luz a quienes crean las letras.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Technology/justfont-and-taiwan-typography",
-    "readingTime": 137,
+    "readingTime": 213,
     "featured": true,
     "date": "2026-04-29",
     "path": "es/Technology/justfont-and-taiwan-typography.md"
   },
   {
-    "title": "justfont과 대만 서체 발전: 화강 25년에서 금선 76분까지의 서체 소사",
-    "description": "2015년 9월 8일 오후, 금선(金萱)이 flyingV에서 76분 만에 150만 원 목표 달성, 11시간 만에 1,000만 원 돌파, 58시간 만에 2,000만 원을 넘었으며, 최종적으로 NT$25,930,099 / 7,667명으로 대만 크라우드펀딩 기록을 갈아치웠다. 같은 해 6월, Apple이 WWDC에서 발표한 iPhone 기본 중국어 서체「핑방(蘋方)」은 타이베이시 남항구에 위치한 웨이펑디지탈(前 화강)이 제작한 것이었다. 대만이 서체를 만들어 본 적이 없는 것이 아니라, 「하루 평균 한 명의 서체 디자이너가 3.8개의 한자를 조각한다」는 작업량이 25년간 아무도 새 서체를 만들고 싶지 않게 만든 것이다.",
+    "title": "justfont와 대만 서체 발전: 대만 차 이름으로 글자 만드는 사람들을 빛 속으로",
+    "description": "2015년 9월 8일 오전, 대만 차 이름에서 따온 서체 「진쉬안(金萱)」이 flyingV에 올라 76분 만에 150만 원 목표를 돌파하고 최종 7,667명이 2,593만 원을 모았다. 온 국민이 매일 읽는 글자인데도, 시장은 한때 글자 만드는 회사 하나 먹여 살릴 수 없을 만큼 작았다. 화강의 세명체, 타이위안루의 납활자, 불화 그리기로 시작한 린샤까지—이것은 대만이 글자 만드는 사람들을 빛 속으로 데려온 이야기다.",
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/Technology/justfont-and-taiwan-typography",
-    "readingTime": 63,
+    "readingTime": 95,
     "featured": true,
     "date": "2026-04-29",
     "path": "ko/Technology/justfont-and-taiwan-typography.md"
   },
   {
-    "title": "justfontと台湾フォント開発の歩み：ダイナコムウェア25年から金萱（Jinxuan）の76分間まで",
-    "description": "2015年9月8日午後、金萱（きんせん）はflyingV上でクラウドファンディングを開始し、76分で150万台湾元の目標額を達成。11時間で1,000万元、58時間で2,000万元を突破し、最終的にNT$25,930,099／7,667人で台湾クラウドファンディング記録を塗り替えた。同年6月、AppleがWWDCで発表したiPhoneのデフォルト中国語フォント「蘋方（PingFang）」は、台北市南港区に本社を置くDynaComware（旧ダイナコムウェア）が制作したものだった。台湾にフォントを作る能力がなかったのではなく、「フォントデザイナー1人が1日に中国語文字を3.8字彫る」という作業量が、25年間、誰も新しいものを作ろうとしなかった理由だった。",
+    "title": "justfontと台湾フォント開発：台湾茶の名前で、文字を作る人たちを日の当たる場所へ",
+    "description": "2015年9月8日の朝、台湾茶にちなんで命名されたフォント「金萱」がflyingVに登場し、76分で150万元の目標を突破。最終的に7,667人が2,593万元を集資した。全国民が毎日読むその文字を、かつての市場は一社の造字会社も養えないほど小さかった。華康の細明体、太原路の鉛字、仏画から入った林霞——これは台湾が、文字を作る人たちを日の当たる場所へ連れ出した物語だ。",
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/Technology/justfont-and-taiwan-typography",
-    "readingTime": 59,
+    "readingTime": 83,
     "featured": true,
     "date": "2026-04-29",
     "path": "ja/Technology/justfont-and-taiwan-typography.md"
@@ -34353,7 +34291,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Art/taiwan-new-media-art",
-    "readingTime": 116,
+    "readingTime": 117,
     "featured": true,
     "date": "2026-03-28",
     "path": "fr/Art/taiwan-new-media-art.md"
@@ -41358,26 +41296,26 @@
     "path": "es/Economy/taiwan-agricultural-modernization.md"
   },
   {
-    "title": "Mona Rudao",
-    "description": "Mona Rudao, jefe del clan Mahebu del pueblo Seediq, lideró en 1930 el Incidente de Wushe con más de 300 guerreros para resistir la opresión colonial japonesa. Aunque acabó en tragedia, se ha convertido en el símbolo eterno de la lucha indomable de los pueblos indígenas de Taiwán.",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/People/mona-rudao",
-    "readingTime": 30,
-    "featured": false,
-    "date": "2026-03-25",
-    "path": "es/People/mona-rudao.md"
-  },
-  {
-    "title": "Mona Rudao",
-    "description": "Chef du clan Mahebo de l'ethnie Seediq, Mona Rudao a conduit l'Incident de Wushe en octobre 1930, mobilisant plus de 300 guerriers pour résister à l'oppression coloniale japonaise. Bien que l'événement se soit conclu tragiquement, il demeure le symbole éternel de la résistance indomptable des peuples autochtones de Taïwan.",
+    "title": "Mona Rudao : le héros antijaponais gravé sur la pièce de vingt dollars, et le monde sans Chine ni Japon",
+    "description": "En 2001, la Banque centrale de Taïwan a gravé le visage du héros antijaponais Mona Rudao sur la pièce de vingt dollars. Mais la Monnaie centrale eut beau fouiller les archives historiques du pays, elle ne trouva aucune photographie de lui ; c'est finalement dans une revue japonaise que son portrait fut repêché. Du matin des jeux sportifs de Wushe en 1930 à des restes humains conservés pendant environ quarante ans comme spécimen anthropologique, trois régimes eurent chacun besoin de lui. Or le monde qu'il défendait vraiment, celui du pont arc-en-ciel, du tatouage facial et de la Gaya, n'a jamais contenu ni la Chine ni le Japon.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/People/mona-rudao",
-    "readingTime": 34,
+    "readingTime": 289,
     "featured": false,
-    "date": "2026-03-25T00:00:00Z",
+    "date": "2026-03-25",
     "path": "fr/People/mona-rudao.md"
+  },
+  {
+    "title": "Mona Rudao: el héroe antijaponés grabado en la moneda de veinte dólares y aquel mundo sin China ni Japón",
+    "description": "En 2001, el Banco Central de Taiwán grabó el rostro del héroe antijaponés Mona Rudao en la moneda de veinte dólares. Pero la Casa de Moneda buscó por todos los archivos históricos del país y no encontró ninguna fotografía suya; al final, la rescató de una revista japonesa. Desde aquella mañana de 1930 en la jornada deportiva de Wushe hasta unos restos que fueron durante casi cuarenta años una muestra antropológica, tres regímenes lo necesitaron cada uno a su manera. Pero en el mundo que él realmente defendía, el de la puente arcoíris, el tatuaje facial y la Gaya, nunca hubo China ni Japón.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/People/mona-rudao",
+    "readingTime": 279,
+    "featured": false,
+    "date": "2026-03-25",
+    "path": "es/People/mona-rudao.md"
   },
   {
     "title": "Mona Rudao: The Anti-Japanese Hero on the Twenty-Dollar Coin, and the World Without China or Japan",
@@ -43508,12 +43446,12 @@
     "path": "es/Food/taiwanese-salt-and-pepper-fried-chicken.md"
   },
   {
-    "title": "Pommes de terre empoisonnées : au-delà des 200 ppm, les cicatrices de 30 ppm, 14 jours et 15 ans de sécurité alimentaire",
-    "description": "Le 29 avril 2026, le porte-parole du Bureau des affaires de Taïwan du Conseil d'État chinois, Chen Binhua, a critiqué le gouvernement Lai Ching-te en qualifiant les pommes de terre américaines de « pommes de terre empoisonnées », accusant le gouvernement « une fois de plus de sacrifier la santé publique comme lettre de créance pour flatter les États-Unis ». Le cœur véritable de la controverse s'étend sur trois niveaux : l'écart de 150 fois entre la limite européenne de 0,2 ppm et taïwanaise de 30 ppm pour le résidu de l'inhibiteur de germination CIPC, la question de savoir comment 85 agents frontaliers en poste peuvent « inspecter chaque tubercule » parmi 300 millions, et les cicatrices cumulées de 15 ans de crises de sécurité alimentaire depuis les plastifiants de 2011 — le socle sur lequel ce récit prend appui.",
+    "title": "Pommes de terre toxiques : au-delà de 200 ppm, il y a aussi 30 ppm, 14 jours et 15 ans de cicatrices de sécurité alimentaire",
+    "description": "Le 29 avril 2026, Chen Binhua, porte-parole du Bureau chinois des affaires taïwanaises, a critiqué le gouvernement de Lai Ching-te à propos de « pommes de terre toxiques », l'accusant de « sacrifier une fois de plus la santé de la population comme gage de soumission aux États-Unis ». Le véritable coeur de la controverse traverse trois niveaux : l'écart de 150 fois entre la limite de résidus du CIPC, inhibiteur de germination, fixée à 0,2 ppm dans l'UE et à 30 ppm à Taïwan ; la question de savoir comment 85 agents effectivement en poste aux frontières pourraient « inspecter une par une » 300 millions de pommes de terre ; et les 15 ans de cicatrices de sécurité alimentaire accumulées depuis le scandale des plastifiants de 2011, socle exact sur lequel ce récit vient prendre appui.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Society/poisoned-potato-cognitive-warfare-taiwan",
-    "readingTime": 214,
+    "readingTime": 297,
     "featured": false,
     "date": "2026-04-30",
     "path": "fr/Society/poisoned-potato-cognitive-warfare-taiwan.md"
@@ -43733,6 +43671,28 @@
     "featured": false,
     "date": "2026-05-15",
     "path": "es/History/green-island-prison.md"
+  },
+  {
+    "title": "Proceso electoral: de la urna vacía a la apertura de votos nocturna, una ceremonia democrática de participación nacional",
+    "description": "Las elecciones en Taiwán son reconocidas internacionalmente por su altísima transparencia mediante el “recuento manual”. Desde el ritual de exhibir la urna vacía antes de la votación hasta el proceso en que cada papeleta es alzada y cantada durante el escrutinio, no solo se elige a los líderes, sino que se cimenta la confianza social.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Politics/taiwan-election-process",
+    "readingTime": 49,
+    "featured": false,
+    "date": "2026-06-11",
+    "path": "es/Politics/taiwan-election-process.md"
+  },
+  {
+    "title": "Processus électoral : du coffre à bulletins vide au dépouillement tardif, un rituel démocratique participatif",
+    "description": "Les élections à Taïwan sont reconnues internationalement pour la transparence exceptionnelle de leur « dépouillement manuel ». Du rituel de présentation du coffre à bulletins vide avant le vote, au moment où chaque bulletin est brandi et nommé à haute voix, il ne s’agit pas seulement d’élire des dirigeants, mais d’établir la pierre angulaire de la confiance sociale.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Politics/taiwan-election-process",
+    "readingTime": 41,
+    "featured": false,
+    "date": "2026-06-11",
+    "path": "fr/Politics/taiwan-election-process.md"
   },
   {
     "title": "Prosa taiwanesa",
@@ -45381,32 +45341,15 @@
     "path": "en/History/social-movements-during-japanese-rule.md"
   },
   {
-    "title": "Sodagreen : de la petite scène de Gongliao à la bataille « Oaeen », une lutte de vingt ans pour la souveraineté musicale",
-    "description": "Une rencontre au Festival de musique de la mer de Gongliao en 2003 a scellé une relation maître-disciple entre Sodagreen et Lin Zhe-wei qui allait durer seize ans, tout en semant les graines d'une confrontation judiciaire à venir. C'est l'histoire d'un nom, de la souveraineté créative, et de la manière dont six musiciens ont protégé leur musique à travers l'alter ego « Oaeen ».",
+    "title": "Sodagreen : il leur a fallu vingt ans pour comprendre que leur propre nom pouvait aussi se plaider au tribunal",
+    "description": "En 2001, quatre étudiants forment un groupe sur la scène du Golden Melody de l'Université nationale Chengchi ; en 2003, ils sont repérés par Lin Wei-che au festival Ho-hai-yan de Gongliao ; après avoir chanté tout le cycle Vivaldi, ils passent par Pékin, Berlin et Londres ; en 2019, ils se retrouvent assignés en justice ; ce n'est qu'en 2023, à la Taipei Arena, qu'ils récupèrent leur propre nom. Après vingt ans, Sodagreen a appris ceci : pour un groupe indie taïwanais, la première chose à faire en début de carrière est d'enregistrer son nom.",
     "category": "fr",
-    "tags": [
-      "Sodagreen",
-      "Oaeen",
-      "Wu Qing-feng",
-      "musique taïwanaise",
-      "droit dauteur"
-    ],
-    "url": "https://taiwan.md/fr/Music/sodagreen",
-    "readingTime": 32,
-    "featured": false,
-    "date": "2026-05-14",
-    "path": "fr/Music/sodagreen.md"
-  },
-  {
-    "title": "Sodagreen: del escenario pequeño de Gongliao a la lucha como \"Oaeen\", una batalla de veinte años por la soberanía musical",
-    "description": "Un encuentro en el Festival de Música Oceánica de Gongliao en 2003 inició una relación maestro-discípulo de dieciséis años entre Sodagreen y Lin Whei-che, pero también sembró las semillas de un futuro enfrentamiento judicial. Esta es una historia sobre nombres, soberanía creativa y cómo seis personas protegieron su música a través del alter ego \"Oaeen\".",
-    "category": "es",
     "tags": [],
-    "url": "https://taiwan.md/es/Music/sodagreen",
-    "readingTime": 32,
+    "url": "https://taiwan.md/fr/Music/sodagreen",
+    "readingTime": 267,
     "featured": false,
-    "date": "2026-05-14",
-    "path": "es/Music/sodagreen.md"
+    "date": "2026-06-09",
+    "path": "fr/Music/sodagreen.md"
   },
   {
     "title": "Sodagreen: It Took Them Twenty Years to Learn That Even Their Own Name Would End Up in Court",
@@ -45418,6 +45361,17 @@
     "featured": false,
     "date": "2026-06-09",
     "path": "en/Music/sodagreen.md"
+  },
+  {
+    "title": "Sodagreen: tardaron veinte años en descubrir que también tendrían que litigar por su propio nombre",
+    "description": "Cuatro estudiantes formaron una banda en el escenario del Golden Melody de NCCU en 2001; en 2003 Lin Wei-che los descubrió en el Festival Oceánico de Gongliao; tras completar la tetralogía Vivaldi recorrieron Pekín y Berlín; en 2019 fueron llevados a los tribunales; y solo en 2023 recuperaron su nombre en el Taipei Arena. Sodagreen necesitó veinte años para aprender que lo primero que debe hacer una banda indie de Taiwán al debutar es registrar su nombre.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Music/sodagreen",
+    "readingTime": 279,
+    "featured": false,
+    "date": "2026-06-09",
+    "path": "es/Music/sodagreen.md"
   },
   {
     "title": "Softstar's Twin Classics: That Afternoon You Cried in a DOS Window",
@@ -47321,7 +47275,7 @@
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/Art/taiwan-new-media-art",
-    "readingTime": 106,
+    "readingTime": 107,
     "featured": false,
     "date": "2026-03-28",
     "path": "ja/Art/taiwan-new-media-art.md"
@@ -47448,12 +47402,12 @@
     "path": "en/Music/taiwan-soundscape.md"
   },
   {
-    "title": "Taiwan Space Agency: Thirty-Two Years to Assemble a Space Agency for a Country Still Assembling Its Name",
-    "description": "In 1991 it was called a “Preparatory Office”: no name, no rockets, no land of its own. Thirty-two years later, it put Taiwan back into its name. Today, its control center in Hsinchu tracks the heartbeats of eight satellites around the clock; on the day of the 0403 Hualien earthquake, it reset a mission six minutes after the quake and captured imagery within three hours. It is now adding the last missing pieces: its own orbital launch vehicle, and an approved lunar mission that could begin as soon as 2028.",
+    "title": "Taiwan Space Agency: Spending Thirty-Two Years to Assemble a Space Agency for a Country Still Assembling Its Own Name",
+    "description": "In 1991 it was called a preparatory office: no name, no rocket, no land of its own. Thirty-two years later, it put Taiwan back into its name. Today, its control center in Hsinchu tracks the heartbeat of nine satellites around the clock; on the day of the April 3 Hualien earthquake, it reset its mission six minutes after the quake and acquired imagery within three hours. It is now filling in the final missing parts: an orbital rocket of its own, and an approved lunar mission that could launch as early as 2028.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Technology/tasa-taiwan-space-agency",
-    "readingTime": 284,
+    "readingTime": 305,
     "featured": true,
     "date": "2026-06-04",
     "path": "en/Technology/tasa-taiwan-space-agency.md"
@@ -49899,15 +49853,26 @@
     "path": "fr/Food/portuguese-egg-tart-in-taiwan.md"
   },
   {
-    "title": "TASA, l'Agence spatiale taïwanaise : trente-deux ans pour doter d'une agence spatiale un pays qui n'avait pas encore rassemblé son propre nom",
-    "description": "En 1991, elle s'appelait un « bureau préparatoire » : pas de nom, pas de fusée, pas de terrain à elle. Trente-deux ans plus tard, elle a remis Taiwan dans son nom ; aujourd'hui, le centre de contrôle de Hsinchu suit vingt-quatre heures sur vingt-quatre les battements de coeur de huit satellites. Le jour du séisme du 3 avril à Hualien, elle a reconfiguré une mission six minutes après la secousse et obtenu des images en trois heures. Elle est en train d'ajouter la dernière pièce manquante : une fusée orbitale propre, ainsi qu'une mission lunaire déjà approuvée, dont le lancement pourrait avoir lieu dès 2028.",
+    "title": "TASA : trente-deux ans pour doter un pays qui n'avait pas encore réuni son propre nom d'une agence spatiale",
+    "description": "En 1991, ce n'était qu'un « bureau préparatoire » : pas de nom, pas de fusée, pas de terrain propre. Trente-deux ans plus tard, l'institution a remis Taiwan dans son nom ; aujourd'hui, le centre de contrôle de Hsinchu suit vingt-quatre heures sur vingt-quatre les battements de cœur de neuf satellites. Le jour du séisme du 3 avril 2024 à Hualien, il a reconfiguré une mission six minutes après la secousse et acquis des images en trois heures. Il lui reste à ajouter la dernière pièce : une fusée orbitale propre, ainsi qu'une mission lunaire déjà approuvée, qui pourrait démarrer dès 2028.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Technology/tasa-taiwan-space-agency",
-    "readingTime": 310,
+    "readingTime": 341,
     "featured": true,
     "date": "2026-06-04",
     "path": "fr/Technology/tasa-taiwan-space-agency.md"
+  },
+  {
+    "title": "TASA: treinta y dos años para construir una agencia espacial para un país que aún no terminaba de reunir su propio nombre",
+    "description": "En 1991 se llamaba «oficina preparatoria»: no tenía nombre, ni cohete, ni terreno propio. Treinta y dos años después volvió a poner Taiwan en su nombre; hoy, su centro de control en Hsinchu sigue las 24 horas el pulso de nueve satélites. El día del terremoto de Hualien del 0403, reconfiguró la misión seis minutos después del sismo y obtuvo imágenes en tres horas. Ahora está completando la última pieza: un cohete orbital propio, y una misión lunar ya aprobada que podría ponerse en marcha en 2028 como fecha más temprana.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Technology/tasa-taiwan-space-agency",
+    "readingTime": 329,
+    "featured": true,
+    "date": "2026-06-04",
+    "path": "es/Technology/tasa-taiwan-space-agency.md"
   },
   {
     "title": "Tawny Fish Owl: One Pair per Six Kilometers of Stream, a Nocturnal Raptor in a 1,800-Meter Michelia Tree",
@@ -50405,6 +50370,17 @@
     "path": "en/Society/democratic-system.md"
   },
   {
+    "title": "The Development of Hip-Hop and Rap in Taiwan: Chinese Was Not Supposed to Rap, Taiwanese Was Not Fit for the Stage, and This Was No Ghetto. They Turned Three Disadvantages into a Sovereign Voiceprint",
+    "description": "In 2004, Sung Yueh-ting had already been gone for two years when his mother and younger brother went onstage to accept the Golden Melody Award for Best Lyricist on his behalf. The double rhymes in Life's a Struggle pushed back against the prejudice that “Chinese is not suited to rap.” From the underground years, when artists taught themselves one imported album at a time, to Leo Wang and MC HotDog successively winning Best Mandarin Male Singer as rappers, Taiwan took twenty years to complete one stretch of the road. But what is most moving about this place is not how much it resembles the United States. It is how Taiwan transformed three supposed innate disadvantages: Chinese tones, Taiwanese accents, and non-ghetto underdogs, into a plural sovereign voiceprint that could only be sung here.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Music/taiwan-hip-hop-and-rap",
+    "readingTime": 240,
+    "featured": true,
+    "date": "2026-03-19",
+    "path": "en/Music/taiwan-hip-hop-and-rap.md"
+  },
+  {
     "title": "The Development of Taiwan’s Long‑Term Care System",
     "description": "From Long‑Term Care 1.0 to 2.0, Taiwan’s response to rapid aging through community‑based care",
     "category": "en",
@@ -50722,7 +50698,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Society/the-reporter-investigative-journalism",
-    "readingTime": 122,
+    "readingTime": 123,
     "featured": true,
     "date": "2026-04-29",
     "path": "fr/Society/the-reporter-investigative-journalism.md"
@@ -50733,7 +50709,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Society/the-reporter-investigative-journalism",
-    "readingTime": 122,
+    "readingTime": 123,
     "featured": true,
     "date": "2026-04-29",
     "path": "es/Society/the-reporter-investigative-journalism.md"
@@ -50744,7 +50720,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Society/the-reporter-investigative-journalism",
-    "readingTime": 102,
+    "readingTime": 103,
     "featured": true,
     "date": "2026-04-29",
     "path": "en/Society/the-reporter-investigative-journalism.md"
@@ -50938,12 +50914,12 @@
     "path": "fr/People/hebe-tien-singer.md"
   },
   {
-    "title": "Tiaotong de la avenida Zhongshan Norte: la ruta al santuario trazada por los japoneses que al final volvió a manos de empresas japonesas",
-    "description": "El 17 de abril de 1923, el príncipe heredero japonés Hirohito, de 19 años, salió en carruaje desde la estación de Taipéi por una vía de 15 metros de ancho con destino al Santuario de Taiwán en Yuanshan. Esa vía se llamaba Chokushi Kaido. En 1941 fue ampliada a una avenida de cinco carriles y 40 metros. En 1945 pasó a llamarse «avenida Zhongshan Norte» en memoria de Sun Yat-sen. En 1951, con la llegada de las fuerzas estadounidenses durante la Guerra de Corea, el tramo 3 de Zhongshan Norte se convirtió en una «concesión estadounidense». En 1972, tras la ruptura diplomática entre Taiwán y Japón, las empresas japonesas no se marcharon; en 1979 se fueron las tropas estadounidenses; en los años ochenta, las empresas japonesas tomaron el relevo en Tiaotong. La ruta al santuario trazada por los japoneses terminó volviendo a manos de las casas comerciales japonesas.",
+    "title": "Tiaotong de la avenida Zhongshan Norte: el camino al santuario que trazaron los japoneses y que al final recuperaron las empresas japonesas",
+    "description": "El 17 de abril de 1923, el príncipe heredero japonés Hirohito, de 19 años, salió de la estación de Taipéi en carruaje y recorrió una vía de 15 metros de ancho rumbo al Santuario de Taiwán en Yuanshan; esa vía se llamaba camino Chokushi. En 1941 fue ampliada a una avenida de cinco carriles y 40 metros. En 1945 fue rebautizada como «avenida Zhongshan Norte» en memoria de Sun Yat-sen. En 1951, durante la Guerra de Corea, las fuerzas estadounidenses se instalaron en Taiwán y el tramo 3 de Zhongshan Norte se convirtió en una «concesión estadounidense». En 1972, tras la ruptura diplomática entre la República de China (Taiwán) y Japón, las empresas japonesas no se fueron; en 1979 se fueron las tropas estadounidenses; en los años 1980, las empresas japonesas tomaron el relevo en los tiaotong. El camino al santuario que habían trazado los japoneses terminó siendo recuperado por las casas comerciales japonesas.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Geography/zhongshan-north-road-tiaotong",
-    "readingTime": 234,
+    "readingTime": 242,
     "featured": false,
     "date": "2026-05-21",
     "path": "es/Geography/zhongshan-north-road-tiaotong.md"
@@ -51435,8 +51411,8 @@
     "path": "fr/People/tsai-ing-wen.md"
   },
   {
-    "title": "Tsai Ing-wen: De la derrota con 800 000 votos a la reelección con 8,17 millones, la primera mujer presidenta",
-    "description": "Primera mujer presidenta de Taiwán (2016‑2024), académica de derecho comercial internacional, durante su mandato aprobó la primera ley de matrimonio igualitario de Asia, representó al gobierno en una disculpa a los pueblos indígenas y es descendiente de los Paiwan",
+    "title": "Tsai Ing-wen: De 800 000 votos perdidos a 8,17 millones de votos reelecta, la primera mujer presidenta",
+    "description": "Primera mujer presidenta de Taiwán (2016‑2024), académica de derecho comercial internacional, durante su mandato aprobó la primera ley de matrimonio igualitario de Asia, representó al gobierno en una disculpa a los pueblos indígenas y es descendiente de la etnia Paiwan",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/People/tsai-ing-wen",
@@ -52041,17 +52017,12 @@
     "path": "fr/Economy/screw.md"
   },
   {
-    "title": "Visualization Module Catalog: Ten Ways to See Taiwan's Housing Data",
-    "description": "A live example of Taiwan.md's article visualization modules: using real Taiwan housing data to render each tw-* visual module once, read alongside graph.md's syntax and design principles.",
+    "title": "Visualization Module Catalog: Seventeen Ways to See Taiwan Data",
+    "description": "Taiwan.md's live examples of visualization modules—using real Taiwan housing and population data to render each tw-* visualization module once, together with the syntax and design principles from graph.md.",
     "category": "en",
-    "tags": [
-      "Data Visualization",
-      "Housing Justice",
-      "Housing Policy",
-      "Open Data"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/Society/visualization-module-catalog",
-    "readingTime": 28,
+    "readingTime": 36,
     "featured": false,
     "date": "2026-06-06",
     "path": "en/Society/visualization-module-catalog.md"
@@ -54035,11 +54006,11 @@
   },
   {
     "title": "Zhongshan North Road Tiaotong : la route que les Japonais avaient tracée pour aller au sanctuaire, reprise finalement par les sociétés japonaises",
-    "description": "Le 17 avril 1923, le prince héritier japonais Hirohito, âgé de 19 ans, quitta la gare de Taipei en empruntant une route de 15 mètres de large en direction du sanctuaire de Taiwan à Yuanshan. Cette route s'appelait Chokushi Kaidō (« avenue des envoyés impériaux »). En 1941, elle fut élargie en une avenue à cinq voies de 40 mètres. En 1945, elle fut renommée « Zhongshan North Road » en mémoire de Sun Yat-sen. En 1951, avec l'arrivée des forces américaines durant la guerre de Corée, le troisième tronçon de Zhongshan North Road devint la « concession américaine ». En 1972, malgré la rupture des relations diplomatiques sino-japonaises, les entreprises japonaises ne partirent pas ; en 1979, les forces américaines se retirèrent ; dans les années 1980, les sociétés japonaises reprirent le quartier de Tiaotong. La route que les Japonais avaient tracée pour aller au sanctuaire fut finalement reprise par les sociétés japonaises.",
+    "description": "Le 17 avril 1923, le prince héritier japonais Hirohito, âgé de 19 ans, quitta la gare de Taipei en empruntant une route de 15 mètres de large en direction du sanctuaire de Taiwan à Yuanshan. Cette route s'appelait Chokushi Kaidō. En 1941, elle fut élargie en une avenue à cinq voies de 40 mètres. En 1945, elle fut renommée Zhongshan North Road en mémoire de Sun Yat-sen. En 1951, avec l'arrivée des forces américaines durant la guerre de Corée, le troisième tronçon devint la concession américaine. En 1972, malgré la rupture des relations sino-japonaises, les entreprises japonaises ne partirent pas ; en 1979, les forces américaines se retirèrent ; dans les années 1980, les sociétés japonaises reprirent le quartier de Tiaotong. La route que les Japonais avaient tracée pour aller au sanctuaire fut finalement reprise par les sociétés japonaises.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Geography/zhongshan-north-road-tiaotong",
-    "readingTime": 130,
+    "readingTime": 236,
     "featured": false,
     "date": "2026-05-21",
     "path": "fr/Geography/zhongshan-north-road-tiaotong.md"
@@ -54685,19 +54656,19 @@
     "path": "ko/Technology/national-cultural-memory-bank.md"
   },
   {
-    "title": "국가우주센터: 32년에 걸쳐, 아직 이름조차 다 갖추지 못한 국가를 위해 우주청 하나를 갖추다",
-    "description": "1991년 그것은 「준비처」라 불렸고, 이름도, 로켓도, 자기 땅도 없었다. 32년 뒤 그것은 Taiwan을 이름 안에 되돌려 놓았다. 지금 신주의 관제센터는 24시간 여덟 기 위성의 심박을 추적한다. 0403 화롄 지진 당일에는 지진 발생 6분 뒤 임무를 재설정하고, 3시간 뒤 영상을 확보했다. 그것은 마지막 부품을 보완하고 있다. 자기 힘으로 궤도에 올릴 로켓 한 기, 그리고 이미 승인되어 이르면 2028년 시작될 달 탐사 임무다.",
+    "title": "국가우주센터: 이름조차 아직 다 갖추지 못한 국가를 위해 32년에 걸쳐 우주청 하나를 갖추다",
+    "description": "1991년 그것은 ‘준비처’라고 불렸고, 이름도 로켓도 자기 땅도 없었다. 32년 뒤 그것은 Taiwan을 이름 안에 되돌려 넣었고, 지금 신주의 관제센터는 24시간 아홉 기 위성의 심장박동을 추적한다. 0403 화롄 지진이 일어난 날에는 지진 발생 6분 뒤 임무를 재설정하고 3시간 만에 영상을 획득했다. 이제 그것은 마지막 부품을 채우고 있다. 자체 궤도 진입 로켓 한 기, 그리고 이미 승인되어 이르면 2028년에 출발할 달 탐사 임무다.",
     "category": "ko",
     "tags": [
       "국가우주센터",
       "TASA",
-      "우주 과학기술",
+      "우주기술",
       "우쭝신",
-      "포모샛",
-      "우주 주권"
+      "포모사 위성",
+      "우주주권"
     ],
     "url": "https://taiwan.md/ko/Technology/tasa-taiwan-space-agency",
-    "readingTime": 137,
+    "readingTime": 147,
     "featured": true,
     "date": "2026-06-04",
     "path": "ko/Technology/tasa-taiwan-space-agency.md"
@@ -58932,20 +58903,14 @@
     "path": "ko/People/ming-hua-yuan.md"
   },
   {
-    "title": "모나 루다오 — 세이더크족의 불굴의 지도자",
-    "description": "세이더크족 마헤보 부족의 추장 모나 루다오는 1930년 300여 명의 용사를 이끌고 무사 반란을 일으켜 일본 식민 지배에 맞섰다. 비극으로 끝났지만 대만 원주민 저항의 영원한 상징이 됐다.",
+    "title": "모나·루다오: 20위안 동전에 새겨진 항일 영웅과 중국도 일본도 없던 세계",
+    "description": "2001년, 타이완 중앙은행은 항일 영웅 모나·루다오의 얼굴을 20위안 동전에 새겼다. 그러나 조폐공장은 국내 사료를 샅샅이 뒤져도 그의 사진을 찾지 못했고, 결국 한 일본어 잡지에서 그 이미지를 건져냈다. 1930년 우서 운동회가 열리던 그 새벽부터 약 40년 동안 인류학 표본이 되었던 한 구의 유해에 이르기까지, 세 정권은 저마다 그를 필요로 했다. 그러나 그가 실제로 지키려 했던 무지개다리, 문면, Gaya가 있는 세계에는 애초에 중국도 일본도 없었다.",
     "category": "ko",
-    "tags": [
-      "세이더크족",
-      "무사사건",
-      "원주민 역사",
-      "일본 식민지배",
-      "대만 항일"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ko/People/mona-rudao",
-    "readingTime": 11,
+    "readingTime": 128,
     "featured": false,
-    "date": "2026-03-25T00:00:00Z",
+    "date": "2026-03-25",
     "path": "ko/People/mona-rudao.md"
   },
   {
@@ -59458,6 +59423,17 @@
     "path": "ko/People/barbie-hsu-actress.md"
   },
   {
+    "title": "선거 과정: 빈 투표함에서 심야 개표까지, 전 국민이 참여하는 민주 의식",
+    "description": "타이완 선거는 그 높은 투명성의 ‘수작업 개표’로 국제적으로 유명하다. 투표 전 빈 투표함을 공개하는 의식에서부터 개표 시 각 투표지를 들어 올려 이름을 부르는 과정까지, 이는 단순히 지도자를 선출하는 것이 아니라 사회적 신뢰를 구축하는 기반이다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Politics/taiwan-election-process",
+    "readingTime": 20,
+    "featured": false,
+    "date": "2026-06-11",
+    "path": "ko/Politics/taiwan-election-process.md"
+  },
+  {
     "title": "선거공보: 국가가 배포하는 공정한 기준, 후보자가 자비로 제작하는 선거 홍보물의 분리",
     "description": "모든 유권자가 투표 전에 받아보는 두꺼운 공보 한 권은 1980년부터 축적된 설계의 진화다. 국가 배포 vs 후보자 자비의 분리 논리는 '후보자가 무엇을 말하고 싶은지'를 광고주의 영향력에서 분리해 내며, 대만 민주주의 기반 시설 중 가장 저렴하면서도 가장 간과되는 부분이다.",
     "category": "ko",
@@ -59603,23 +59579,6 @@
     "featured": true,
     "date": "2026-03-17",
     "path": "ko/Food/beef-noodle-soup.md"
-  },
-  {
-    "title": "소다그린: 공리아(貢寮)의 작은 무대에서 「어정사(魚丁糸)」 투쟁까지, 20년에 걸친 음악 주권 탈환의 전쟁",
-    "description": "2003년 공리아 해양음악제에서의 한 만남이 소다그린과 린웨이저(林暐哲) 사이의 16년 사제(師弟) 인연을 시작했지만, 이후 법정 대립의 복선도 깔았다. 이것은 이름, 창작 주권, 그리고 여섯 사람이 「어정사」라는 분신을 통해 음악을 지켜낸 이야기다.",
-    "category": "ko",
-    "tags": [
-      "소다그린",
-      "어정사",
-      "우칭펑",
-      "대만 음악",
-      "저작권"
-    ],
-    "url": "https://taiwan.md/ko/Music/sodagreen",
-    "readingTime": 15,
-    "featured": false,
-    "date": "2026-05-14",
-    "path": "ko/Music/sodagreen.md"
   },
   {
     "title": "소방기——수영장 옆에서 주운 이름, 25년을 노래하다",
@@ -59790,17 +59749,12 @@
     "path": "ko/History/hukou-camp-shengli-road-memory.md"
   },
   {
-    "title": "시각화 모듈 카탈로그: 타이완 주거 데이터를 보는 열 가지 방법",
-    "description": "Taiwan.md 의 기사 시각화 모듈 활용 예시——실제 타이완 주거 데이터를 사용하여 각 tw-* 시각 모듈을 한 번씩 렌더링하고, graph.md 의 문법 및 설계 원칙과 함께 살펴본다.",
+    "title": "시각화 모듈 카탈로그: 열일곱 가지 타이완 데이터를 보는 방법",
+    "description": "Taiwan.md의 기사 시각화 모듈 실전 예시——실제 타이완 주거·인구 데이터를 활용해 모든 tw-* 시각화 모듈을 한 번씩 렌더링하고, graph.md의 문법과 설계 원칙과 함께 살펴본다.",
     "category": "ko",
-    "tags": [
-      "데이터 시각화",
-      "주거 정의",
-      "주택 정책",
-      "개방 데이터"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ko/Society/visualization-module-catalog",
-    "readingTime": 14,
+    "readingTime": 20,
     "featured": false,
     "date": "2026-06-06",
     "path": "ko/Society/visualization-module-catalog.md"
@@ -59959,6 +59913,17 @@
     "featured": false,
     "date": "2026-04-26",
     "path": "ko/Food/sanxia-tea.md"
+  },
+  {
+    "title": "쑤다뤼: 그들은 20년이 지나서야 자기 이름도 법정에서 다투어야 한다는 것을 알았다",
+    "description": "2001년 정치대학 금선장 무대에서 네 학생이 결성하고, 2003년 궁랴오 해양음악제에서 린웨이저에게 발굴되었으며, 비발디 4부작을 노래하며 베이징과 베를린을 누볐다. 2019년 법정에 섰고, 2023년에야 타이베이 아레나에서 자기 이름을 되찾았다. 쑤다뤼는 20년을 지나고 나서야 배웠다. 타이완 인디 밴드가 데뷔할 때 가장 먼저 해야 할 일은 밴드 이름을 등록하는 것이다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Music/sodagreen",
+    "readingTime": 127,
+    "featured": false,
+    "date": "2026-06-09",
+    "path": "ko/Music/sodagreen.md"
   },
   {
     "title": "쓰레기차를 쫓는 섬: 대만의 쓰레기 위기에서 재활용 기적으로",
@@ -60532,17 +60497,6 @@
     "path": "ko/People/chu-yi-kuei-qing-rebel.md"
   },
   {
-    "title": "오철우(Che-Yu Wu): 빠삐용에서 베니스 흰 벽까지, 0과 1로 영혼에 다가가는 시계 장인",
-    "description": "시스템에 매료된 대만 소년이 빠삐용, 플래시 애니메이션, 생물 시뮬레이터에서 출발하여 베니스 비엔날레, Art Blocks, 타이베이 101 삼부작 개인전에 이르기까지. 그 사이에 NFT 억 대 매도, FTX 하룻밤 만에 원점 회귀, 카뮈 부조리주의로의 재출정이 있었다. 그는 스스로를 「고대의 시계 장인」이라 일컬으며, AI 생성 범람의 시대에 메커니즘 자체를 직접 설계하는 것을 고수하고, 일부 시간을 마크다운 작성에 투자하여 AI 시대의 대만을 위한 진정한 SSOT를 남기고 있다.",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/People/che-yu-wu",
-    "readingTime": 69,
-    "featured": true,
-    "date": "2026-04-20",
-    "path": "ko/People/che-yu-wu.md"
-  },
-  {
     "title": "오픈소스 커뮤니티와 g0v",
     "description": "'2020년 2월, 전 세계가 마스크를 사재기하던 시기, 대만의 한 무리 프로그래머들은 72시간 만에 13,000개 편의점에서 마스크 재고를 조회할 수 있도록 만들었다. 정부의 명령도, 예산 지원도 없었다. 오직 하나의 신념만이 있었다: 코드로 사회를 바꾸자. 이것이 바로 g0v 영시정부(零時政府), '정부를 포크(fork)하다'라는 기묘한 실험이다.'",
     "category": "ko",
@@ -60793,6 +60747,17 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "ko/People/wu-bai.md"
+  },
+  {
+    "title": "우저위(Che-Yu Wu): 핀볼대에서 베네치아의 흰 벽까지, 0과 1로 영혼에 접근하는 시계공",
+    "description": "시스템에 매혹된 한 타이완 소년은 핀볼대, Flash 애니메이션, 생물 시뮬레이터에서 출발해 베네치아 비엔날레, Art Blocks, 타이베이 101 3부작 개인전까지 나아갔다. 그 사이에는 NFT 자산 1억 돌파, FTX의 하룻밤 제로화, 카뮈의 부조리주의를 통한 재출발이 있었다. 그는 자신을 “오래된 시계공”이라 부르며, AI 생성물이 범람하는 시대에도 메커니즘 자체를 손수 설계하기를 고집한다. 또한 시간의 일부를 Markdown 작성에 쓰며, AI 시대의 타이완을 위해 진정한 SSOT를 남기려 한다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/People/che-yu-wu",
+    "readingTime": 87,
+    "featured": true,
+    "date": "2026-04-20",
+    "path": "ko/People/che-yu-wu.md"
   },
   {
     "title": "원주민 문학",
@@ -63135,7 +63100,7 @@
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/Art/taiwan-new-media-art",
-    "readingTime": 49,
+    "readingTime": 50,
     "featured": true,
     "date": "2026-03-28",
     "path": "ko/Art/taiwan-new-media-art.md"
@@ -63668,20 +63633,12 @@
     "path": "ko/Food/taiwan-hotpot-culture.md"
   },
   {
-    "title": "타이완 힙합과 랩의 발전",
-    "description": "다지(大支), MC HotDog(熱狗)에서 원동 MJ116(頑童MJ116), 단바오(蛋堡), Leo왕까지, 타이완 힙합 문화의 토착화와 금곡상(金曲獎) 인정",
+    "title": "타이완 힙합과 랩의 발전: 중국어는 랩을 할 수 없어야 했고, 타이완어는 주류 무대에 설 수 없었으며, 빈민가는 아니었지만, 그들은 세 가지 열세를 하나의 주권적 성문으로 노래했다",
+    "description": "2004년, 쑹웨팅은 이미 세상을 떠난 지 2년이 되었고, 그의 어머니와 동생이 그를 대신해 금곡장 최우수 작사가상을 받으러 무대에 올랐다. 그 노래 《Life's a Struggle》의 이중 운율은 “중국어는 랩에 적합하지 않다”는 선입견을 한 걸음 밀어냈다. 언더그라운드 시절 수입 앨범을 한 장씩 들으며 독학하던 때부터 Leo 왕과 MC HotDog이 잇달아 랩 가왕에 오르기까지, 타이완은 20년에 걸쳐 한 길을 걸어왔다. 그러나 이 섬에서 가장 감동적인 것은 그것이 얼마나 미국을 닮았는지가 아니라, 중국어 성조, 타이완어 억양, 빈민가 출신이 아닌 약자라는 세 가지 선천적 열세를 이곳에서만 노래할 수 있는 다원적 주권의 성문으로 바꾸어냈다는 점이다.",
     "category": "ko",
-    "tags": [
-      "음악",
-      "힙합",
-      "랩",
-      "Hip-Hop",
-      "Rap",
-      "금곡상",
-      "대중음악"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ko/Music/taiwan-hip-hop-and-rap",
-    "readingTime": 54,
+    "readingTime": 126,
     "featured": true,
     "date": "2026-03-19",
     "path": "ko/Music/taiwan-hip-hop-and-rap.md"
@@ -64999,6 +64956,17 @@
     "path": "ja/Economy/taiwan-startup-ecosystem-overview.md"
   },
   {
+    "title": "ソーダグリーン：彼らは二十年かけて、自分たちの名前にも訴訟が必要だと知りました",
+    "description": "2001 年、政治大学金旋奨の舞台で四人の学生が結成し、2003 年に貢寮海洋音楽祭で林暐哲に見いだされ、ヴィヴァルディ四部作を歌い終えて北京、ベルリンを歩き、2019 年に法廷へ訴えられ、2023 年になって台北アリーナで自分たちの名前を取り戻しました。ソーダグリーンは二十年を歩み終えてようやく学びました。台湾の indie バンドがデビューして最初にすべきことは、まずバンド名を商標登録することです。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Music/sodagreen",
+    "readingTime": 119,
+    "featured": false,
+    "date": "2026-06-09",
+    "path": "ja/Music/sodagreen.md"
+  },
+  {
     "title": "ソーリー・ユース（拍謝少年）：三人の南部っ子が台語で歌う他郷の孤独、二十年後に世代の声となった",
     "description": "2005年、台南の海辺でロックを聴いて育った三人の男が台語で作曲を決意した。目標は「祖父母も頷ける台語の名曲」。三人のうち台語育ちはジャンジャン（薑薑）ひとりだけだった。『海口味』から『噪音公寓』まで、全台語アルバム四枚・金音獎最優秀ロック三冠・flyingV募資記録を二度更新した拍謝少年は、他郷の孤独を世代全体の共通言語に変えた。",
     "category": "ja",
@@ -65217,20 +65185,14 @@
     "path": "ja/Nature/malayan-night-heron.md"
   },
   {
-    "title": "モナ・ルドー",
-    "description": "セデック族マヘボ社の頭目モナ・ルドーは、1930年に霧社事件を指導し、300人以上の勇士を率いて日本植民地支配の圧迫に抵抗した。悲劇的な結末を迎えたものの、台湾原住民の不屈の抵抗精神の永遠の象徴となった。",
+    "title": "モーナ・ルダオ：20元硬貨に刻まれた抗日英雄と、中国も日本もなかった世界",
+    "description": "2001 年、台湾の中央銀行は抗日英雄モーナ・ルダオの顔を20元硬貨に刻みました。しかし造幣局が国内史料を探し尽くしても彼の写真は見つからず、最後に一冊の日本語雑誌から掘り出されました。1930 年の霧社運動会のあの朝から、約40年間にわたり人類学標本とされた遺骨まで、三つの政権がそれぞれ彼を必要としました。しかし彼が本当に守ろうとした、虹の橋、顔面文身、Gaya のある世界には、中国も日本も存在しませんでした。",
     "category": "ja",
-    "tags": [
-      "セデック族",
-      "霧社事件",
-      "原住民歴史",
-      "日本植民地",
-      "台湾抗日"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ja/People/mona-rudao",
-    "readingTime": 10,
+    "readingTime": 115,
     "featured": false,
-    "date": "2026-03-25T00:00:00Z",
+    "date": "2026-03-25",
     "path": "ja/People/mona-rudao.md"
   },
   {

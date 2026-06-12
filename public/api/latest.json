@@ -1,8 +1,16 @@
 {
-  "_generated": "2026-06-12T15:10:02.290Z",
+  "_generated": "2026-06-12T22:11:18.387Z",
   "perLang": 30,
   "byLang": {
     "zh-TW": [
+      {
+        "title": "視覺化模組型錄：十七種看見台灣數據的方法",
+        "desc": "Taiwan.md 的文章視覺化模組活範例——用真實的台灣居住與人口數據，把每一種 tw-* 視覺模組渲染一次，搭配 graph.md 的語法與設計原則一起看。",
+        "category": "society",
+        "href": "/society/%E8%A6%96%E8%A6%BA%E5%8C%96%E6%A8%A1%E7%B5%84%E5%9E%8B%E9%8C%84",
+        "date": "2026-06-12T23:48:22+08:00",
+        "readingTime": 11
+      },
       {
         "title": "台灣新媒體藝術",
         "desc": "從1980年代錄像先驅到威尼斯VR大獎，16位關鍵藝術家與40年數位藝術革命的完整脈絡。台灣如何用程式碼寫詩，在國際藝術版圖刻下自己的名字。",
@@ -233,14 +241,6 @@
         "category": "society",
         "href": "/society/%E9%9B%9C%E5%AD%B8%E6%A0%A1",
         "date": "2026-06-07T16:52:58+08:00",
-        "readingTime": null
-      },
-      {
-        "title": "台灣手路菜：意思、由來與辦桌文化的「拿手好菜」",
-        "desc": "手路菜（台語 tshiú-lōo-tshài）是「拿手好菜」的意思。高雄內門的白堊土種不出作物，卻養出全台密度最高的總鋪師——黃金年代一年辦 25,000 桌，大月營收 1,200 萬。一鍋菜尾湯要花四到八小時，結得好不好，全村隔天都知道。",
-        "category": "food",
-        "href": "/food/%E5%8F%B0%E7%81%A3%E6%89%8B%E8%B7%AF%E8%8F%9C",
-        "date": "2026-06-07T16:51:46+08:00",
         "readingTime": null
       }
     ],
@@ -600,8 +600,8 @@
         "readingTime": null
       },
       {
-        "title": "中正紀念堂",
-        "desc": "台北市中心最大の政治的象徴であり、最も民主的なダンス練習場でもある。権威の聖殿から転換正義の嵐の目へ、この建築は台湾の魂が最も激しく揺れた記録を刻んでいる。",
+        "title": "中正記念堂",
+        "desc": "台北市中心で最も巨大な政治的象徴であり、最も民主的なダンス練習場でもある。権威の聖殿から転換正義の嵐の目へ、この建築は台湾の魂が最も激しく揺れた記録を刻んでいる。",
         "category": "history",
         "href": "/ja/history/chiang-kai-shek-memorial-hall",
         "date": "2026-05-20T12:37:22+08:00",
@@ -1108,8 +1108,8 @@
         "readingTime": 18
       },
       {
-        "title": "Pommes de terre empoisonnées : au-delà des 200 ppm, les cicatrices de 30 ppm, 14 jours et 15 ans de sécurité alimentaire",
-        "desc": "Le 29 avril 2026, le porte-parole du Bureau des affaires de Taïwan du Conseil d'État chinois, Chen Binhua, a critiqué le gouvernement Lai Ching-te en qualifiant les pommes de terre américaines de « pommes de terre empoisonnées », accusant le gouvernement « une fois de plus de sacrifier la santé publique comme lettre de créance pour flatter les États-Unis ». Le cœur véritable de la controverse s'étend sur trois niveaux : l'écart de 150 fois entre la limite européenne de 0,2 ppm et taïwanaise de 30 ppm pour le résidu de l'inhibiteur de germination CIPC, la question de savoir comment 85 agents frontaliers en poste peuvent « inspecter chaque tubercule » parmi 300 millions, et les cicatrices cumulées de 15 ans de crises de sécurité alimentaire depuis les plastifiants de 2011 — le socle sur lequel ce récit prend appui.",
+        "title": "Pommes de terre toxiques : au-delà de 200 ppm, il y a aussi 30 ppm, 14 jours et 15 ans de cicatrices de sécurité alimentaire",
+        "desc": "Le 29 avril 2026, Chen Binhua, porte-parole du Bureau chinois des affaires taïwanaises, a critiqué le gouvernement de Lai Ching-te à propos de « pommes de terre toxiques », l'accusant de « sacrifier une fois de plus la santé de la population comme gage de soumission aux États-Unis ». Le véritable coeur de la controverse traverse trois niveaux : l'écart de 150 fois entre la limite de résidus du CIPC, inhibiteur de germination, fixée à 0,2 ppm dans l'UE et à 30 ppm à Taïwan ; la question de savoir comment 85 agents effectivement en poste aux frontières pourraient « inspecter une par une » 300 millions de pommes de terre ; et les 15 ans de cicatrices de sécurité alimentaire accumulées depuis le scandale des plastifiants de 2011, socle exact sur lequel ce récit vient prendre appui.",
         "category": "society",
         "href": "/fr/society/poisoned-potato-cognitive-warfare-taiwan",
         "date": "2026-05-25T05:44:43+08:00",

@@ -1,24 +1,24 @@
 {
-  "totalArticles": 4771,
+  "totalArticles": 4776,
   "totalCategories": 20,
   "estimatedContributors": 57,
-  "totalTags": 6183,
+  "totalTags": 6133,
   "categories": [
     {
       "name": "es",
-      "count": 794
+      "count": 795
     },
     {
       "name": "ko",
-      "count": 795
+      "count": 796
     },
     {
       "name": "fr",
-      "count": 795
+      "count": 796
     },
     {
       "name": "ja",
-      "count": 794
+      "count": 795
     },
     {
       "name": "History",
@@ -34,7 +34,7 @@
     },
     {
       "name": "en",
-      "count": 798
+      "count": 799
     },
     {
       "name": "Culture",
@@ -168,13 +168,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4771,
+    "zh-TW": 4776,
     "en": 0
   },
-  "lastUpdated": "2026-06-12T15:09:49.987Z",
-  "stars": 1030,
+  "lastUpdated": "2026-06-12T22:11:05.038Z",
+  "stars": 1031,
   "forks": 150,
-  "zhPages": 3973,
-  "enPages": 798,
-  "totalPages": 4771
+  "zhPages": 3977,
+  "enPages": 799,
+  "totalPages": 4776
 }

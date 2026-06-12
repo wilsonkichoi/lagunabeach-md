@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T15:09:56.618Z",
+  "lastUpdated": "2026-06-12T22:11:11.857Z",
   "organs": [
     {
       "id": "heart",
@@ -32,7 +32,7 @@
         "v2Components": {
           "review_coverage": 27.7,
           "plugin_pass_rate": 70,
-          "plugin_health": 54.2,
+          "plugin_health": 50,
           "citation_density": 90.4,
           "tool_freshness": 80,
           "drift_velocity": 90,
@@ -114,11 +114,11 @@
       "metrics": {
         "languageCoverage": {
           "zh-TW": 793,
-          "en": 795,
-          "ja": 792,
-          "ko": 793,
-          "es": 792,
-          "fr": 793
+          "en": 796,
+          "ja": 793,
+          "ko": 794,
+          "es": 793,
+          "fr": 794
         },
         "translationPct": 93,
         "langHealthDetails": {
@@ -137,7 +137,7 @@
               "pct": 100
             },
             "articles": {
-              "count": 795,
+              "count": 796,
               "pct": 100
             },
             "score": 100
@@ -157,7 +157,7 @@
               "pct": 0
             },
             "articles": {
-              "count": 792,
+              "count": 793,
               "pct": 100
             },
             "score": 80
@@ -177,7 +177,7 @@
               "pct": 100
             },
             "articles": {
-              "count": 793,
+              "count": 794,
               "pct": 100
             },
             "score": 100
@@ -197,7 +197,7 @@
               "pct": 100
             },
             "articles": {
-              "count": 792,
+              "count": 793,
               "pct": 100
             },
             "score": 100
@@ -217,7 +217,7 @@
               "pct": 25
             },
             "articles": {
-              "count": 793,
+              "count": 794,
               "pct": 100
             },
             "score": 85
