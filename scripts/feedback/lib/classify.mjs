@@ -215,7 +215,32 @@ export function triageNoteFor(row) {
 const REJECT_NOTE =
   '系統初步判定為廣告/無效內容，未轉成 issue。如果是誤判，歡迎再送一次或補上來源。';
 
+/**
+ * 同一篇文章在同一 batch 出現 ≥ 此數量的非 spam 回報 → 整群 hold,不逐筆開 issue。
+ * 誕生事件：2026-06-09 12 連發 flood（一筆一 issue 開了 12 個）+ 2026-06-12 justfont
+ * 共同創辦人 21 連勘誤（當班 routine 人工判斷不 --commit 才沒開 22 個）。
+ * 同 slug 大量回報的正確形狀是 1 個 consolidated artifact 給維護者,不是 N 個 issue。
+ */
+export const BATCH_CLUSTER_THRESHOLD = 5;
+
+function clusterKey(row) {
+  return (row.article_slug || '').toLowerCase().trim();
+}
+
 export function triageBatch(rows, existingIssues = []) {
+  // Pass 1: 找出超量 cluster（只算非 spam 且有 slug 的回報）。
+  const slugCount = new Map();
+  for (const row of rows) {
+    const slug = clusterKey(row);
+    if (!slug || detectSpam(row).isSpam) continue;
+    slugCount.set(slug, (slugCount.get(slug) || 0) + 1);
+  }
+  const heldSlugs = new Set(
+    [...slugCount.entries()]
+      .filter(([, n]) => n >= BATCH_CLUSTER_THRESHOLD)
+      .map(([slug]) => slug),
+  );
+
   const seen = new Set();
   return rows.map((row) => {
     const spam = detectSpam(row);
@@ -225,6 +250,17 @@ export function triageBatch(rows, existingIssues = []) {
         decision: 'reject',
         reason: `spam:${spam.reasons.join(',')}`,
         note: REJECT_NOTE,
+      };
+    }
+    const slug = clusterKey(row);
+    if (slug && heldSlugs.has(slug)) {
+      // hold: 不開 issue、不回寫 status(維持 new),由 triage.mjs 產 1 份
+      // consolidated cluster report 升級給維護者決策。
+      return {
+        row,
+        decision: 'hold',
+        reason: `batch-cluster:${slug}:${slugCount.get(slug)}`,
+        cluster: slug,
       };
     }
     const key = dedupeKey(row);

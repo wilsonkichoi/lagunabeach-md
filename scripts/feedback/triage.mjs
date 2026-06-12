@@ -155,6 +155,41 @@ function createIssue(issue) {
   return { url, number: num };
 }
 
+// ── batch-cluster consolidated report（同 slug ≥ 閾值 → 1 份 artifact 給維護者）──
+function writeClusterReport(slug, held, mode) {
+  const date = new Date().toISOString().slice(0, 10);
+  const safe = slug.replace(/[^\w一-鿿-]+/g, '_');
+  const rel = `reports/feedback-clusters/${date}-${safe}.md`;
+  if (mode !== 'COMMIT') return rel;
+  try {
+    mkdirSync(dirname(rel), { recursive: true });
+    if (existsSync(rel)) return rel; // 同日重跑不重寫(回報維持 new 會再 hold 一次)
+    const rows = held.map((h, i) => {
+      const r = h.row;
+      const quote = r.quote
+        ? `\n   > 選取原文：${String(r.quote).replace(/\n/g, ' ')}`
+        : '';
+      const fix = r.correct_info ? `\n   - 更正建議：${r.correct_info}` : '';
+      return `${i + 1}. **${r.display_name || '匿名讀者'}** (${(r.created_at || '').slice(0, 16)}) · feedback id \`${r.id}\`${quote}\n   - 回報：${r.body}${fix}`;
+    });
+    writeFileSync(
+      rel,
+      `# Feedback cluster hold：${slug}（${held.length} 筆，${date}）\n\n` +
+        `> 同一篇文章單一 batch ≥ ${held.length} 筆非 spam 回報，batch-cluster guard 自動 hold。\n` +
+        `> 全部回報維持 Supabase status=new（不逐筆開 issue）。維護者決策後：開 1 個\n` +
+        `> consolidated issue 或直接走 REWRITE 修文，再把這批標 filed/rejected。\n\n` +
+        rows.join('\n') +
+        `\n\n---\n_由 twmd-feedback-triage batch-cluster guard 產出（classify.mjs BATCH_CLUSTER_THRESHOLD）_\n`,
+    );
+  } catch (e) {
+    console.warn(
+      `[triage] cluster report write failed for ${slug}:`,
+      e.message,
+    );
+  }
+  return rel;
+}
+
 // ── git archive（主權層：feedback + 溝通紀錄落進 repo）──────────────────────────
 function writeArchive(row, note) {
   const rel = archiveRelPath(row);
@@ -252,10 +287,14 @@ async function main() {
   const existing = args.commit ? listOpenIssues() : [];
   const results = triageBatch(rows, existing);
 
-  const summary = { file: 0, reject: 0, skip: 0 };
+  const summary = { file: 0, reject: 0, skip: 0, hold: 0 };
   for (const r of results) {
     summary[r.decision]++;
     const tag = r.decision.toUpperCase().padEnd(6);
+    if (r.decision === 'hold') {
+      console.log(`  ${tag} id=${r.row.id} · ${r.reason}`);
+      continue; // status 不回寫(維持 new);cluster report 統一在迴圈後寫
+    }
     if (r.decision === 'file') {
       console.log(`  ${tag} [${r.issue.type}] ${r.issue.title}`);
       console.log(`         labels: ${r.issue.labels.join(', ')}`);
@@ -284,12 +323,26 @@ async function main() {
     }
   }
 
+  // batch-cluster：每個 held slug 產 1 份 consolidated report 給維護者決策。
+  const clusters = new Map();
+  for (const r of results) {
+    if (r.decision !== 'hold') continue;
+    if (!clusters.has(r.cluster)) clusters.set(r.cluster, []);
+    clusters.get(r.cluster).push(r);
+  }
+  for (const [slug, held] of clusters) {
+    const rel = writeClusterReport(slug, held, mode);
+    console.log(
+      `  HOLD→  cluster「${slug}」 ${held.length} 筆 → ${rel}${mode === 'COMMIT' ? '' : ' (dry-run)'}`,
+    );
+  }
+
   // sync 既有 filed 紀錄的 issue 新留言（維護者回覆）進 git archive。
   let commentsSynced = 0;
   if (args.commit) commentsSynced = syncArchiveComments();
 
   console.log(
-    `\n[triage] done · file=${summary.file} reject=${summary.reject} skip=${summary.skip} · archive-comments-synced=${commentsSynced}`,
+    `\n[triage] done · file=${summary.file} reject=${summary.reject} skip=${summary.skip} hold=${summary.hold} · archive-comments-synced=${commentsSynced}`,
   );
   return summary;
 }

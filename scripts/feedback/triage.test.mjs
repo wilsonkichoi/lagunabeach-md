@@ -15,6 +15,7 @@ import {
   isDuplicate,
   triageBatch,
   triageNoteFor,
+  BATCH_CLUSTER_THRESHOLD,
 } from './lib/classify.mjs';
 
 const here = dirname(fileURLToPath(import.meta.url));
@@ -177,4 +178,78 @@ test('triageBatch attaches note to file + reject decisions', () => {
   const rejected = results.find((r) => r.decision === 'reject');
   assert.ok(filed.note && filed.note.length > 0);
   assert.ok(rejected.note && rejected.note.length > 0);
+});
+
+// ── v4: batch-cluster guard（2026-06-09 12 連發 + 2026-06-12 justfont 21 連發）──
+function clusterRows(n, slug = 'justfont與台灣字體發展') {
+  return Array.from({ length: n }, (_, i) => ({
+    id: `c${i}-uuid`,
+    type: 'content',
+    article_slug: slug,
+    article_title: slug,
+    display_name: '蘇煒翔',
+    created_at: '2026-06-12T06:00:00Z',
+    body: `第 ${i + 1} 段的事實有誤,正確版本是另一個說法 ${i}`,
+    correct_info: `更正 ${i}`,
+  }));
+}
+
+test(`batch-cluster: 同 slug ≥ ${BATCH_CLUSTER_THRESHOLD} 筆全 hold,0 筆 file`, () => {
+  const rows = clusterRows(21);
+  const results = triageBatch(rows, []);
+  assert.equal(results.filter((r) => r.decision === 'hold').length, 21);
+  assert.equal(results.filter((r) => r.decision === 'file').length, 0);
+  assert.match(results[0].reason, /^batch-cluster:/);
+  assert.equal(results[0].cluster, 'justfont與台灣字體發展'.toLowerCase());
+});
+
+test('batch-cluster: 低於閾值照常逐筆 file', () => {
+  const rows = clusterRows(BATCH_CLUSTER_THRESHOLD - 1);
+  const results = triageBatch(rows, []);
+  assert.equal(results.filter((r) => r.decision === 'hold').length, 0);
+  assert.equal(
+    results.filter((r) => r.decision === 'file').length,
+    BATCH_CLUSTER_THRESHOLD - 1,
+  );
+});
+
+test('batch-cluster: cluster 外的回報不受影響,照常 file', () => {
+  const rows = [
+    ...clusterRows(6),
+    {
+      id: 'solo-1',
+      type: 'bug',
+      article_slug: '李安',
+      body: '這頁排版在手機上壞掉了',
+    },
+  ];
+  const results = triageBatch(rows, []);
+  const solo = results.find((r) => r.row.id === 'solo-1');
+  assert.equal(solo.decision, 'file');
+  assert.equal(results.filter((r) => r.decision === 'hold').length, 6);
+});
+
+test('batch-cluster: cluster 內的 spam 仍 reject,不算進 cluster 數', () => {
+  const rows = [
+    ...clusterRows(BATCH_CLUSTER_THRESHOLD - 1),
+    {
+      id: 'spam-1',
+      article_slug: 'justfont與台灣字體發展',
+      body: 'casino casino http://bit.ly/x crypto pump',
+    },
+  ];
+  const results = triageBatch(rows, []);
+  // spam 不計入 → 4 筆非 spam 低於閾值 → 照常 file
+  assert.equal(results.filter((r) => r.decision === 'hold').length, 0);
+  assert.equal(results.find((r) => r.row.id === 'spam-1').decision, 'reject');
+});
+
+test('batch-cluster: 無 slug 的回報不會被 cluster', () => {
+  const rows = Array.from({ length: 8 }, (_, i) => ({
+    id: `nos${i}`,
+    type: 'idea',
+    body: `想法 ${i}：完全不同的主題建議各自獨立 ${i}`,
+  }));
+  const results = triageBatch(rows, []);
+  assert.equal(results.filter((r) => r.decision === 'hold').length, 0);
 });
