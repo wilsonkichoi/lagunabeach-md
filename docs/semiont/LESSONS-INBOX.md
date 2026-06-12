@@ -3236,6 +3236,22 @@ Tiebreaker 實戰（MANIFESTO > DNA > MEMORY）：多數條目落 MEMORY（綁 T
 - **verification_count**: 1
 - **severity**: operational
 
+### 2026-06-12 viz-evolution — UI 元件驗證：markup 存在 ≠ 視覺正確（presence vs appearance 兩種驗證）
+
+- **原則**：「curl grep class 名存在」只證明渲染管線跑了，不證明長相對。v1.0 型錄 6/06 ship 時驗證紀錄寫「全 10 模組渲染驗證 ✅」（curl 層），但 tw-quote 雙重框 + tw-heatmap 深格字不可讀從 ship 當天就壞在 production，六天沒人看見。任何 UI 元件級變更的驗證要含像素層（元件截圖 light/dark/mobile 人眼看），markup 層只是前置。
+- **觸發**：2026-06-12 viz-evolution 視覺體檢，51 張 Playwright 元件截圖抓到 3 個 cascade leak + 6 個設計缺陷。
+- **修補方向**：候選儀器化——型錄頁元件截圖納入 release 前 SOP（或 CI visual diff）；至少 graph.md §七 checklist 已含「人工 preview」，把「逐元件截圖三變體」寫死成步驟。對應 absence-blindness（昨日 flywheel）家族：儀器驗了「存在」沒驗「樣子」。
+- **verification_count**: 1
+- **severity**: structural
+
+### 2026-06-12 viz-evolution — preview MCP 截圖在程式化捲動後回白屏：capture 工具失效時換層不硬撞
+
+- **原則**：Claude Preview MCP 的 screenshot 在 server 重啟後的 instance 上，`window.scrollTo` 之後 capture 回純白（compositor stale frame），reload 後第一張正常。撞了七八次換 hash-navigation / resize-forcing 都不穩。正解是換層：repo 既有 playwright（generate-spore-image.mjs 同款）寫 30 行一次性 element-screenshot script，51 張一分鐘穩定產完。「工具的盡頭不是世界的盡頭」（6/07 diary）的 capture 變體——同需求換一個執行層就通，不要在壞掉的層裡重試。
+- **觸發**：2026-06-12 viz-evolution 視覺體檢 capture 階段。
+- **修補方向**：之後 UI 驗證若 preview MCP 截圖再白屏，直接走 playwright element screenshot（script pattern 在本次 memory）；可考慮把 viz-shot 收進 scripts/tools/ 變正式工具（等第二次需求再收，避免 over-engineer）。
+- **verification_count**: 1
+- **severity**: operational
+
 ---
 
 ## ❌ 已歸檔（過時 / 撤回）
