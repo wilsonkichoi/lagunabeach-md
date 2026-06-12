@@ -15,10 +15,10 @@ featured: false
 lastVerified: 2026-03-31
 lastHumanReview: false
 translatedFrom: 'History/美麗島事件.md'
-sourceCommitSha: '4b6d28c54'
+sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:b6388def07095d7a'
 sourceBodyHash: 'sha256:023966d5fd73721a'
-translatedAt: '2026-06-12T00:53:03+08:00'
+translatedAt: '2026-06-13T00:00:00Z'
 ---
 
 1980년 2월 28일, [林義雄](/ko/People/lin-yi-hsiung-democracy-advocate-tragedy-survivor/)은 타이베이 경미 군법 구금소에서 재판을 기다리고 있었다. 그날, 타이베이의 경찰과 정보 요원들은 그가 신이로에 있는 집 앞을 하루 종일 지키고 있었지만, 아무도 들어가지 않았다. 황혼이 되어서야 누군가 발견했다: 60세의 어머니 林游阿妹가 13대 칼에 찔려 지하실에 쓰러졌고, 7세 쌍둥이 딸 林亮均·林亭均은 각각 가슴과 등을 관통하는 칼에 맞아 현장에서 사망했다. 9세 장녀 林奐均은 여섯 대의 칼에 맞았지만, 배에 책가방을 메고 있어 기적적으로 살아남았다.[^12]

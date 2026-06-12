@@ -19,10 +19,10 @@ lastVerified: 2026-04-29
 lastHumanReview: false
 researchReport: reports/research/2026-04/報導者.md
 translatedFrom: Society/報導者.md
-sourceCommitSha: 'aaa69aba'
-sourceContentHash: 'sha256:55376eb6d0dcb7fd'
-sourceBodyHash: 'sha256:7c76adc95f0a8dd7'
-translatedAt: '2026-06-05T16:40:22Z'
+sourceCommitSha: 'ef8fab38'
+sourceContentHash: 'sha256:0330eda01672cda0'
+sourceBodyHash: 'sha256:5d81679e10b063a1'
+translatedAt: '2026-06-12T16:39:07Z'
 ---
 
 > **30-second overview:** The Reporter (《報導者》) is a nonprofit investigative journalism outlet co-founded on September 1, 2015 — Journalists' Day in Taiwan — by Ho Jung-hung and Chang Tieh-chih, with ASUS co-founder and Pegatron chairman Tung Tzu-hsien's (童子賢) initial personal donation of NT$5 million establishing the Reporter Cultural Foundation. [^1] It voluntarily ties its own hands: a "Three Nots" donor covenant — no ownership, no interference, no clawback — is written explicitly into its published articles. [^2] The newsroom accepts no advertising, no government contracts, and displays no internal traffic metrics; all content is free. Over ten years, its investigation _Blood and Tears at Sea_ directly prompted Control Yuan censure of the Fisheries Agency; [^3] the _Ruins Youth_ duology won the Excellence in Journalism Award; _Storm of Child Predators_ involved eight months of undercover work to expose a child sexual exploitation supply chain; and _MIT Machine Tools Flowing Into Russia's Defense Industry_ won first place at the 2025 SOPA Outstanding Economic Reporting Award. [^4] Annual fundraising rose from NT$34.47 million in 2022 to NT$52.98 million in 2025. [^5] This island's civil society, through monthly automatic payments from one stranger to another, has turned investigative journalism from a commercial media line item into a public good — one that sustains itself, and keeps going.
@@ -138,7 +138,8 @@ But the tenth anniversary exhibition was titled _OPEN_, not _The End_.
 - [Taiwan New Media Art](/art/taiwan-new-media-art) — Another Taiwan-DNA case driven by civic communities and growing across disciplinary lines
 - [PanSci](/society/泛科學) — Another 2010s case of Taiwanese new media building public discourse, but PanSci chose the route of sustaining that public space through science communication, courses, video, sponsored projects, and a knowledge-services company
 - [Taiwan Independent Music Scene](/music/indie-music-scene) — Another public-good ecosystem sustained by strangers paying voluntarily
-- [justfont and Taiwan Typography](/technology/justfont與台灣字體發展) — Another 2015 crowdfunding case study that reshaped Taiwanese public perception; a parallel in cultural infrastructure
+- [justfont and Taiwan Typography](/en/technology/justfont-and-taiwan-typography/) — Another story of Taiwanese readers voting with their money: 7,667 people in a crowdfunding campaign that started in 76 minutes decided a typeface deserved to exist
+- [justfont and Taiwan Typography: From Twenty-Five Years of DynaFont to Seventy-Six Minutes of Jinxuan](/en/technology/justfont-and-taiwan-typography/) — Another 2015 crowdfunding case that reshaped Taiwanese public perception; a parallel in cultural infrastructure
 - [Submarine Cables](/technology/海底電纜) — The Reporter's 2024 deep-dive on submarine cables is a key source for this topic
 
 ## References

@@ -1,33 +1,33 @@
 ---
-title: "嘉義県：49万人が顔を阿里山に貸し、県庁所在地が太保にあることも誰も覚えていません"
-description: "午前5時、東石沖のカキ棚はまだ海の中にあり、台湾全体の半分のカキがこの海から来ます。100キロ離れた阿里山では、1912年に二万坪まで開通した森林鉄道が全長66.6キロに及びます。その中間にある太保高速鉄道駅のそばでは、故宮南院が15年かけてようやく開館し、2018年の来館者は76万人でした。1991年に嘉義県庁が嘉義市から太保へ移転したとき、台湾全体は嘉義といえば嘉義市だと考えていました。35年が過ぎ、この県の49万人は、切り離された27万人の市を取り囲みながら暮らし、高齢化指数174%で台湾一となっています。"
+title: '嘉義県：49万人が顔を阿里山に貸し、県庁所在地が太保にあることも誰も覚えていません'
+description: '午前5時、東石沖のカキ棚はまだ海の中にあり、台湾全体の半分のカキがこの海から来ます。100キロ離れた阿里山では、1912年に二万坪まで開通した森林鉄道が全長66.6キロに及びます。その中間にある太保高速鉄道駅のそばでは、故宮南院が15年かけてようやく開館し、2018年の来館者は76万人でした。1991年に嘉義県庁が嘉義市から太保へ移転したとき、台湾全体は嘉義といえば嘉義市だと考えていました。35年が過ぎ、この県の49万人は、切り離された27万人の市を取り囲みながら暮らし、高齢化指数174%で台湾一となっています。'
 date: 2026-05-18
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
 tags:
   [
-    "嘉義県",
-    "阿里山",
-    "ツォウ族",
-    "高一生",
-    "故宮南院",
-    "太保",
-    "東石",
-    "布袋",
-    "朴子",
-    "県市分治",
-    "22県市シリーズ",
+    '嘉義県',
+    '阿里山',
+    'ツォウ族',
+    '高一生',
+    '故宮南院',
+    '太保',
+    '東石',
+    '布袋',
+    '朴子',
+    '県市分治',
+    '22県市シリーズ',
   ]
 readingTime: 18
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/嘉義縣.md"
-sourceCommitSha: "6f28d6167"
-sourceContentHash: "sha256:e233ab9cc8b79527"
-sourceBodyHash: "sha256:8e7d5975a9ac8375"
-translatedAt: "2026-05-18T05:08:08+08:00"
+translatedFrom: 'Geography/嘉義縣.md'
+sourceCommitSha: '6f28d616'
+sourceContentHash: 'sha256:e233ab9cc8b79527'
+sourceBodyHash: 'sha256:8e7d5975a9ac8375'
+translatedAt: '2026-06-12T16:38:55Z'
 ---
 
 # 嘉義県：49万人が顔を阿里山に貸し、県庁所在地が太保にあることも誰も覚えていません
@@ -45,7 +45,7 @@ translatedAt: "2026-05-18T05:08:08+08:00"
 これこそ、嘉義県が一つの県として存在するもっとも現代的な証拠です。それは阿里山ではありません。阿里山の下に広がる平野と海岸です。**台湾全体が知っているのは山であり、海に生きているのがこの県です**。
 
 ![東石漁港のカキ棚、2015年10月。竹竿に結ばれたカキ殻の連なりが、外傘頂洲に囲まれた浅海に浮かび、遠くから見ると水に逆さに挿した櫛が何列も並んでいるように見えます。嘉義県東石郷の年間生産量は、台湾全体のカキの約49%を占めます。](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Oyster_Trellis_at_Dongshi_fishing_habour%2C_Chiayi_County_%28Taiwan%29.jpg/1280px-Oyster_Trellis_at_Dongshi_fishing_habour%2C_Chiayi_County_%28Taiwan%29.jpg)
-_東石漁港のカキ棚、2015-10-10。Photo: Malcolm Koo (Mk2010), [CC BY-SA 4.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Oyster_Trellis_at_Dongshi_fishing_habour,_Chiayi_County_(Taiwan).jpg)._
+_東石漁港のカキ棚、2015-10-10。Photo: Malcolm Koo (Mk2010), [CC BY-SA 4.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Oyster_Trellis_at_Dongshi_fishing_habour,_Chiayi_County_(Taiwan).jpg).\_
 
 ## 諸羅城は嘉義県の祖籍ですが、県内にあったことはありません
 
@@ -86,8 +86,7 @@ _沼平駅の蒸気機関車、2008-03-23。Photo: Nils Öberg (Klockarnils), [C
 ツォウ族の三大祭儀の中で、戦祭 Mayasvi（マヤスビ）は最上位に置かれ、Kubaで行われ、戦神に戦力を祈ります。達邦の戦祭はおよそ8月から10月に、特富野ではおよそ1月から3月に行われます。二つの社は同期せず、すでに国家指定重要民俗に指定されています[^11]。
 
 ![1900年、達邦社（Tabangu）で製陶を担う女性。鳥居龍蔵撮影。鳥居は1896年から1900年にかけて何度も山に入り、台湾先住民族の部落を調査し、阿里山ツォウ族の最初期の映像記録を残しました。日本語原注：「擔當製陶女性（達邦社）」。](https://upload.wikimedia.org/wikipedia/commons/4/4f/Tsou%2C_Alishan%2C_Taiwan_1900_%28No.7425%29.jpg)
-_鳥居龍蔵撮影、達邦社、1900。Photo: 鳥居龍藏 (1870-1953), [Public Domain via Wikimedia](https://commons.wikimedia.org/wiki/File:Tsou,_Alishan,_Taiwan_1900_(No.7425).jpg)._
-
+_鳥居龍蔵撮影、達邦社、1900。Photo: 鳥居龍藏 (1870-1953), [Public Domain via Wikimedia](https://commons.wikimedia.org/wiki/File:Tsou,_Alishan,_Taiwan_1900_(No.7425).jpg).\_
 
 ツォウ族を台湾近現代史の中へ歩み入らせたのは、高一生という名前でした。
 
@@ -134,7 +133,6 @@ _鳥居龍蔵撮影、達邦社、1900。Photo: 鳥居龍藏 (1870-1953), [Publi
 ![故宮南院の本館建築と至美橋、2015年12月29日（開館翌日）。建築家の姚仁喜は、中国書法の三つの筆法（濃墨、飛白、渲染）を三つの流線型ボリュームへ転化しました。所在地は嘉義県太保市故宮大道888号です。](https://upload.wikimedia.org/wikipedia/commons/a/af/Southern_Branch_of_the_National_Palace_Museum_main_building_and_zhimei_bridge.jpg)
 _故宮南院、2015-12-29。Photo: B2322858, [Public Domain via Wikimedia](https://commons.wikimedia.org/wiki/File:Southern_Branch_of_the_National_Palace_Museum_main_building_and_zhimei_bridge.jpg)._
 
-
 開館の年には大勢の人が押し寄せました。2016年の来館者は約147万人でした。しかしその後3年間は下降線をたどりました。2017年は約97万人（34%減）、2018年は約76万人、2019年には中央社が「**故宮南院 108 年入館人數逾 104 萬**」と報じました[^23]。⚠️ 2020年から2023年は感染症の影響により、複数の情報源における逐字の年報数値が完全には公開されていません[^23]。
 
 > **✦** 「**本來是小康之家，如今變成兩個貧戶**」（元県長・塗徳錡、1982年の嘉義県市分治について）[^17]
@@ -155,7 +153,6 @@ _故宮南院、2015-12-29。Photo: B2322858, [Public Domain via Wikimedia](http
 
 ![嘉義布袋の塩山、2013年8月。布袋塩場は戦後台湾の六大塩場の一つで、2001年に全面的に製塩を廃止しました。画面の塩山は、初期の蒸発池に蓄積された人工の小山であり、布袋が「塩の郷」であったことの物質的痕跡です。](https://upload.wikimedia.org/wikipedia/commons/c/c1/%E5%98%89%E7%BE%A9%E5%B8%83%E8%A2%8B%E9%B9%BD%E5%B1%B1.JPG)
 _布袋塩山、2013-08-27。Photo: Pbdragonwang, [CC BY-SA 3.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:%E5%98%89%E7%BE%A9%E5%B8%83%E8%A2%8B%E9%B9%BD%E5%B1%B1.JPG)._
-
 
 朴子市の記憶はさらに古いものです。朴子配天宮は1682年に創建されました。地名は、先民の林馬が湄洲から媽祖像を迎え、牛稠渓（現在の朴子渓）のほとりにある千年の樸の木の下を通ったところ、媽祖が永住を望んだことに由来します。廟が建てられた後、「樸仔脚街」が形成されました[^19]。330年にわたり、朴子の廟口と市街地は同心円状に広がり、雲嘉南の媽祖信仰圏における重要な結節点であり続けました。1992年に朴子鎮が朴子市へ昇格したのは、県議会がここに移転したためであり、太保市政府とともに「分裂した県庁所在地」のもう一端を構成しています。
 
@@ -227,9 +224,9 @@ _布袋塩山、2013-08-27。Photo: Pbdragonwang, [CC BY-SA 3.0 via Wikimedia](h
 本文ではWikimedia Commonsの画像6点を使用し、CC BY-SAとPublic Domainのライセンスを併用しています。すべて commons.wikimedia.org から hot-link しています。
 
 - **Hero（frontmatter）**：[Tashan in morning glow](https://commons.wikimedia.org/wiki/File:Tashan_in_morning_glow.jpg) — 塔山の日の出。阿里山国家森林遊楽区内にある標高2,663メートルのツォウ族伝統聖山。Photo: Peellden, 2014-01。[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)。
-- **Scene §東石カキ棚**：[Oyster Trellis at Dongshi fishing habour](https://commons.wikimedia.org/wiki/File:Oyster_Trellis_at_Dongshi_fishing_habour,_Chiayi_County_(Taiwan).jpg) — 東石漁港のカキ棚と観光船。Photo: Malcolm Koo (Mk2010), 2015-10-10。[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)。
+- **Scene §東石カキ棚**：[Oyster Trellis at Dongshi fishing habour](<https://commons.wikimedia.org/wiki/File:Oyster_Trellis_at_Dongshi_fishing_habour,_Chiayi_County_(Taiwan).jpg>) — 東石漁港のカキ棚と観光船。Photo: Malcolm Koo (Mk2010), 2015-10-10。[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)。
 - **Scene §阿里山森林鉄道**：[Alishan station with Steam train](https://commons.wikimedia.org/wiki/File:Alishan_station_with_Steam_train.JPG) — 沼平駅のSHAY蒸気機関車とヒノキ客車（Cypress Train）。Photo: Nils Öberg (Klockarnils), 2008-03-23。[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)。
-- **Scene §ツォウ族**：[Tsou, Alishan, Taiwan 1900 (No.7425)](https://commons.wikimedia.org/wiki/File:Tsou,_Alishan,_Taiwan_1900_(No.7425).jpg) — 達邦社（Tabangu）の製陶女性。1900年に鳥居龍蔵が撮影した、台湾先住民族映像の最初期記録の一つ。[Public Domain](https://creativecommons.org/publicdomain/mark/1.0/)（鳥居龍蔵 1870-1953、著作権保護期間満了）。
+- **Scene §ツォウ族**：[Tsou, Alishan, Taiwan 1900 (No.7425)](<https://commons.wikimedia.org/wiki/File:Tsou,_Alishan,_Taiwan_1900_(No.7425).jpg>) — 達邦社（Tabangu）の製陶女性。1900年に鳥居龍蔵が撮影した、台湾先住民族映像の最初期記録の一つ。[Public Domain](https://creativecommons.org/publicdomain/mark/1.0/)（鳥居龍蔵 1870-1953、著作権保護期間満了）。
 - **Scene §故宮南院**：[Southern Branch of the National Palace Museum main building and zhimei bridge](https://commons.wikimedia.org/wiki/File:Southern_Branch_of_the_National_Palace_Museum_main_building_and_zhimei_bridge.jpg) — 故宮南院の本館建築と至美橋。Photo: B2322858, 2015-12-29。[Public Domain](https://creativecommons.org/publicdomain/mark/1.0/)。
 - **Scene §布袋塩田**：[嘉義布袋鹽山](https://commons.wikimedia.org/wiki/File:%E5%98%89%E7%BE%A9%E5%B8%83%E8%A2%8B%E9%B9%BD%E5%B1%B1.JPG) — 布袋塩場の蒸発池に蓄積された塩山。Photo: Pbdragonwang, 2013-08-27。[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)。
 

@@ -12,10 +12,10 @@ lastVerified: 2026-06-09
 lastHumanReview: true
 featured: false
 translatedFrom: 'Music/蘇打綠.md'
-sourceCommitSha: '73443b2a4'
+sourceCommitSha: '73443b2a'
 sourceContentHash: 'sha256:5156eab09e028ec3'
 sourceBodyHash: 'sha256:fbb2b0f8546f4d0c'
-translatedAt: '2026-06-12T03:51:13+08:00'
+translatedAt: '2026-06-12T16:39:07Z'
 ---
 
 # Sodagreen: It Took Them Twenty Years to Learn That Even Their Own Name Would End Up in Court

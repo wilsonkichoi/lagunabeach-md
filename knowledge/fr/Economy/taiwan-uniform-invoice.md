@@ -22,6 +22,7 @@ translatedFrom: 'Economy/發票.md'
 sourceCommitSha: '4b6d28c5'
 sourceBodyHash: 'sha256:1dc11e21cef45412'
 sourceContentHash: 'sha256:442f27209d04a396'
+translatedAt: '2026-06-13T00:00:00Z'
 ---
 
 > **En 30 secondes :**

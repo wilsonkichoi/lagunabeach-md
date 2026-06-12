@@ -27,7 +27,7 @@ translatedFrom: People/吳哲宇.md
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:ebee89e5e92900ff'
 sourceBodyHash: 'sha256:80855056570f3a2e'
-translatedAt: 2026-05-03T23:14:07+08:00
+translatedAt: '2026-06-13T00:00:00Z'
 ---
 
 > **Panorama en 30 segundos:** Che-Yu Wu (nacido en 1995 en Taipéi), artista de nuevos medios, programador-creador y educador. Graduado en Ingeniería Eléctrica en la Universidad Nacional Yang Ming Chiao Tung y máster en Medios Digitales Integrados en la Universidad de Nueva York. En 2021 se convirtió en uno de los primeros artistas taiwaneses en publicar en Art Blocks; la revista Global Vision lo presentó en portada como «diseñador digital taiwanés que superó los cien millones de dólares antes de los 30 años». Un año después, el colapso de FTX lo dejó a cero; en una entrevista dijo: «En realidad, me alegro de que eso sucediera». En 2023 regresó al Taipei 101 con la exposición individual _La Gran Ecuación_; en 2024 participó en la unidad Personal Structures de la 60.ª Bienal de Venecia. Se autodenomina «relojero antiguo». En marzo de 2026 lanzó el proyecto de código abierto Taiwan.md para preservar la soberanía del conocimiento taiwanés en la era de la IA; en el mismo mes, una publicación en Facebook sobre su experimento de simbiosis con IA obtuvo más de seis mil «me gusta». Se acerca al alma con 0 y 1, nunca podrá superponerla, pero el proceso de acercamiento en sí mismo es la obra.

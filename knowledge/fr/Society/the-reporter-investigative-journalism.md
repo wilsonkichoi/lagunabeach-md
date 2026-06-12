@@ -18,10 +18,10 @@ featured: true
 lastVerified: 2026-04-29
 lastHumanReview: false
 translatedFrom: 'Society/報導者.md'
-sourceCommitSha: 'aaa69aba'
-sourceContentHash: 'sha256:55376eb6d0dcb7fd'
-sourceBodyHash: 'sha256:7c76adc95f0a8dd7'
-translatedAt: '2026-06-06T00:00:00Z'
+sourceCommitSha: 'ef8fab38'
+sourceContentHash: 'sha256:0330eda01672cda0'
+sourceBodyHash: 'sha256:5d81679e10b063a1'
+translatedAt: '2026-06-13T00:00:00Z'
 ---
 
 > **En 30 secondes :** The Reporter est un média d'investigation à but non lucratif fondé le 1er septembre 2015, jour de la Fête des journalistes, par Ho Jung-hsing et Tieh Chih-chih, avec un don initial de cinq millions de dollars taïwanais de Tzu-hsien Tung, cofondateur d'ASUS, pour créer une fondation[^1]. Le média s'est volontairement lié les mains : les trois principes « ne pas posséder, ne pas intervenir, ne pas récupérer » sont inscrits dans la charte des donateurs[^2]. La rédaction n'accepte aucune publicité, n'accepte pas de contrats gouvernementaux et n'affiche pas les taux de clics ; tous les articles sont gratuits sur le site. En dix ans, _Blood and Tears Fishing Grounds_ a conduit le Yuan de Contrôle à émettre une correction officielle contre l'Agence des pêches[^3], _Children of the Ruins_ a remporté l'Excellence in Journalism Award en deux volets, _Child Hunting Storm_ a infiltré pendant huit mois les réseaux d'exploitation sexuelle de mineurs, et _MIT Machine Tools Flowing into Russian Military Industry_ a remporté le premier prix du SOPA 2025 pour le journalisme économique d'excellence[^4]. Les dons annuels sont passés de 34,47 millions en 2022 à 52,98 millions en 2025[^5]. La société civile de cette île a, par des prélèvements mensuels entre inconnus, sauvé le journalisme d'investigation — d'activité commerciale des médias, il est devenu un bien public viable et qui continue de nourrir.
@@ -137,6 +137,7 @@ Mais le titre de l'exposition du dixième anniversaire s'appelle _OPEN_, pas _Fi
 - [Nouveaux médias artistiques taïwanais](/art/台灣新媒體藝術) — Un autre cas de Taiwan-DNA, porté par la communauté citoyenne et en croissance transversale.
 - [PanSci](/society/泛科學) — Autre cas taïwanais d'utilité publique dans les nouveaux médias né dans les années 2010, mais PanSci a choisi de maintenir l'espace de débat public par la vulgarisation scientifique, les cours, les vidéos, les projets publicitaires et le modèle d'entreprise de services de connaissance.
 - [Musique indépendante taïwanaise](/music/台灣獨立音樂) — Un autre écosystème de bien public maintenu par des inconnus qui paient.
+- [justfont et le développement de la typographie taïwanaise](/technology/justfont與台灣字體發展) — Une autre histoire de lecteurs taïwanais votant avec leur argent : 7 667 personnes qui, en 76 minutes à partir du lancement d'une campagne de financement participatif, ont décidé qu'une police de caractères devait exister
 - [justfont et le développement de la typographie taïwanaise : Vingt-cinq ans de Hwa Kang à soixante-sept minutes de Kinmen](/technology/justfont與台灣字體發展) — Un autre cas ayant réécrit la perception publique taïwanaise par financement participatif en 2015, en miroir au niveau de l'infrastructure culturelle.
 - [Câbles sous-marins : Visibles au sommet du Bouclier de Silicium, invisibles sous le pouls](/technology/海底電纜) — Le reportage approfondi de The Reporter sur les câbles sous-marins en 2024 est une source clé pour ce sujet, ajoutant la perspective du pouls de communication extérieure de 23 millions de personnes.
 

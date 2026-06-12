@@ -19,7 +19,7 @@ translatedFrom: People/蔡英文.md
 sourceCommitSha: '1712d109'
 sourceContentHash: 'sha256:fadbb54905eb75f0'
 sourceBodyHash: 'sha256:251dc48eab49a71a'
-translatedAt: '2026-05-25T21:07:04Z'
+translatedAt: '2026-06-12T16:38:55Z'
 ---
 
 # 蔡英文

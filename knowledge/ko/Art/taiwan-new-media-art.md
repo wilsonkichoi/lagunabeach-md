@@ -22,10 +22,10 @@ lastVerified: 2026-04-04
 lastHumanReview: 2026-04-04
 featured: true
 translatedFrom: Art/台灣新媒體藝術.md
-sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:b4e7864454993486'
-sourceBodyHash: 'sha256:21f788b62f33ab8a'
-translatedAt: '2026-05-16T22:20:00Z'
+sourceCommitSha: 'ef8fab38'
+sourceContentHash: 'sha256:d196b7664449f36f'
+sourceBodyHash: 'sha256:3affa690cf7b66dc'
+translatedAt: '2026-06-13T00:00:00Z'
 ---
 
 # 타이완 뉴미디어 아트
@@ -149,6 +149,7 @@ translatedAt: '2026-05-16T22:20:00Z'
 - [台灣電影](/art/台灣電影) — 타이완 영상 아트의 또 다른 맥락, 뉴미디어 아트와 영화제 무대를 공유
 - [開源社群與g0v](/technology/開源社群與g0v) — 타이완 테크 문화의 또 다른 측면, 오픈소스 정신과 예술계의 교차
 - [台灣電視產業史](/technology/台灣電視產業史) — 방송에서 OTT까지의 미디어 변천, 영상 기술의 제도적 맥락
+- [justfont 與台灣字體發展](/technology/justfont與台灣字體發展) — 디자인, 기술, 문화 정체성의 교차점에 선 또 다른 창작자들: 타이완의 글자를 한 획 한 획 되살리는 사람들
 - [謝德慶](/art/謝德慶) — 뉴미디어 이전의 신체 매개, 타이완 행위 예술 선구자와 다섯 개의 1년 행위의 국제적 대가
 - [王新仁（阿亂）](/art/王新仁) — Art Blocks에 처음 오른 타이완 제너러티브 예술가, akaSwap과 FAB DAO 백악계획 핵심 인물
 - [王連晟（蝦爸）](/art/王連晟) — 2017 유명상 조각 부문 대상 수상자, i/O Lab 멤버이자 실성제 운영자, 타이완 사운드 설치 아트 대표

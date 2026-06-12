@@ -22,10 +22,10 @@ lastVerified: 2026-04-04
 lastHumanReview: 2026-04-04
 featured: true
 translatedFrom: Art/台灣新媒體藝術.md
-sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:b4e7864454993486'
-sourceBodyHash: 'sha256:21f788b62f33ab8a'
-translatedAt: 2026-05-16T22:20:34Z
+sourceCommitSha: 'ef8fab38'
+sourceContentHash: 'sha256:d196b7664449f36f'
+sourceBodyHash: 'sha256:3affa690cf7b66dc'
+translatedAt: 2026-06-13T00:00:00Z
 ---
 
 # L'art des nouveaux médias à Taïwan
@@ -149,6 +149,7 @@ Lorsque le nom de Yu Shien Yang apparaît sur la liste des lauréats de l'Ars El
 - [Le cinéma taïwanais](/art/台灣電影) — Un autre fil de l'art visuel taïwanais, partageant les mêmes scènes de festivals que l'art des nouveaux médias
 - [La communauté open source et g0v](/technology/開源社群與g0v) — Une autre facette de la culture technologique taïwanaise, à l'intersection de l'esprit du code ouvert et du monde de l'art
 - [L'histoire de l'industrie télévisuelle taïwanaise](/technology/台灣電視產業史) — L'évolution médiatique de la radio-télévision à l'OTT, le contexte institutionnel de la technologie visuelle
+- [justfont et le développement de la typographie taïwanaise](/technology/justfont與台灣字體發展) — Un autre collectif de créateurs à la croisée du design, de la technologie et de l'identité culturelle : ceux qui réapprennent les caractères taïwanais, trait par trait
 - [Tehching Hsieh](/art/謝德慶) — Le médium du corps avant les nouveaux médias, pionnier de l'art de la performance taïwanaise et maître international des cinq œuvres d'un an
 - [Wang Xin-Ren (A-Luan)](/art/王新仁) — Premier artiste génératif taïwanais à exposer sur Art Blocks, figure centrale des projets akaSwap FAB DAO et Hundred Peaks
 - [Wang Lian-Cheng (Shiba)](/art/王連晟) — Lauréat du premier prix de la catégorie sculpture aux Lumen Awards 2017, membre de l'i/O Lab et directeur du Lacking Sound Festival, figure majeure de l'art sonore d'installation à Taïwan

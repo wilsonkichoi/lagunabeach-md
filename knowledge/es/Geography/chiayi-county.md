@@ -1,33 +1,33 @@
 ---
-title: "Condado de Chiayi: 490.000 personas le prestan el rostro a Alishan, y nadie recuerda que la sede del condado está en Taibao"
-description: "A las cinco de la madrugada, los criaderos de ostras frente a la costa de Dongshi siguen dentro del agua; la mitad de las ostras de todo el país viene de este mar. A cien kilómetros, en Alishan, el ferrocarril forestal que llegó hasta Erwanping en 1912 tiene una longitud total de 66,6 kilómetros. En medio, junto a la estación Chiayi del tren de alta velocidad en Taibao, la sede sur del Museo Nacional del Palacio tardó 15 años en abrir; en 2018 recibió 760.000 visitantes. Cuando en 1991 la sede del condado de Chiayi se trasladó desde la ciudad de Chiayi a Taibao, todo el país seguía pensando que Chiayi era la ciudad de Chiayi. Treinta y cinco años después, las 490.000 personas de este condado rodean una ciudad de 270.000 habitantes que le fue recortada, con un índice de envejecimiento de 174%, el más alto de Taiwán."
+title: 'Condado de Chiayi: 490.000 personas le prestan el rostro a Alishan, y nadie recuerda que la sede del condado está en Taibao'
+description: 'A las cinco de la madrugada, los criaderos de ostras frente a la costa de Dongshi siguen dentro del agua; la mitad de las ostras de todo el país viene de este mar. A cien kilómetros, en Alishan, el ferrocarril forestal que llegó hasta Erwanping en 1912 tiene una longitud total de 66,6 kilómetros. En medio, junto a la estación Chiayi del tren de alta velocidad en Taibao, la sede sur del Museo Nacional del Palacio tardó 15 años en abrir; en 2018 recibió 760.000 visitantes. Cuando en 1991 la sede del condado de Chiayi se trasladó desde la ciudad de Chiayi a Taibao, todo el país seguía pensando que Chiayi era la ciudad de Chiayi. Treinta y cinco años después, las 490.000 personas de este condado rodean una ciudad de 270.000 habitantes que le fue recortada, con un índice de envejecimiento de 174%, el más alto de Taiwán.'
 date: 2026-05-18
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
 tags:
   [
-    "Condado de Chiayi",
-    "Alishan",
-    "Pueblo tsou",
-    "Gao Yisheng",
-    "Sede sur del Museo Nacional del Palacio",
-    "Taibao",
-    "Dongshi",
-    "Budai",
-    "Puzi",
-    "Separación entre condado y ciudad",
-    "Serie de 22 condados y ciudades",
+    'Condado de Chiayi',
+    'Alishan',
+    'Pueblo tsou',
+    'Gao Yisheng',
+    'Sede sur del Museo Nacional del Palacio',
+    'Taibao',
+    'Dongshi',
+    'Budai',
+    'Puzi',
+    'Separación entre condado y ciudad',
+    'Serie de 22 condados y ciudades',
   ]
 readingTime: 18
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/嘉義縣.md"
-sourceCommitSha: "6f28d6167"
-sourceContentHash: "sha256:e233ab9cc8b79527"
-sourceBodyHash: "sha256:8e7d5975a9ac8375"
-translatedAt: "2026-05-18T05:08:09+08:00"
+translatedFrom: 'Geography/嘉義縣.md'
+sourceCommitSha: '6f28d616'
+sourceContentHash: 'sha256:e233ab9cc8b79527'
+sourceBodyHash: 'sha256:8e7d5975a9ac8375'
+translatedAt: '2026-06-13T00:00:00Z'
 ---
 
 # Condado de Chiayi: 490.000 personas le prestan el rostro a Alishan, y nadie recuerda que la sede del condado está en Taibao
@@ -45,7 +45,7 @@ El municipio de Dongshi es la mayor zona productora de ostras de Taiwán: su pro
 Esta es la prueba más contemporánea del condado de Chiayi como condado. No es Alishan: es la llanura y la costa debajo de Alishan. **Lo que el país conoce es la montaña; quien vive del mar es este condado**.
 
 ![Criaderos de ostras del puerto pesquero de Dongshi, octubre de 2015. Varas de bambú sujetan hileras de conchas de ostra que flotan sobre el mar somero protegido por Waisanding; vistas de lejos, parecen peines clavados boca abajo en el agua. La producción anual del municipio de Dongshi, condado de Chiayi, representa alrededor de 49% de las ostras de Taiwán.](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Oyster_Trellis_at_Dongshi_fishing_habour%2C_Chiayi_County_%28Taiwan%29.jpg/1280px-Oyster_Trellis_at_Dongshi_fishing_habour%2C_Chiayi_County_%28Taiwan%29.jpg)
-_Criaderos de ostras del puerto pesquero de Dongshi, 2015-10-10. Photo: Malcolm Koo (Mk2010), [CC BY-SA 4.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Oyster_Trellis_at_Dongshi_fishing_habour,_Chiayi_County_(Taiwan).jpg)._
+_Criaderos de ostras del puerto pesquero de Dongshi, 2015-10-10. Photo: Malcolm Koo (Mk2010), [CC BY-SA 4.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Oyster_Trellis_at_Dongshi_fishing_habour,_Chiayi_County_(Taiwan).jpg).\_
 
 ## La ciudad de Zhuluo es el registro ancestral del condado de Chiayi, pero nunca estuvo dentro del condado
 
@@ -86,8 +86,7 @@ La sociedad tradicional tsou se organiza en torno a la “hosa” (gran comunida
 Entre los tres grandes rituales tsou, el ritual de guerra Mayasvi ocupa el lugar principal. Se celebra en el kuba y pide fuerza marcial al dios de la guerra. El Mayasvi de Tapang se realiza aproximadamente entre agosto y octubre; el de Tfuya, entre enero y marzo. Las dos comunidades no lo celebran al mismo tiempo, y el ritual está designado como folclore importante a nivel nacional[^11].
 
 ![Mujer alfarera de la comunidad Tapang (Tabangu), 1900, fotografiada por Torii Ryuzo. Torii realizó varias expediciones entre 1896 y 1900 para investigar comunidades indígenas de Taiwán y dejó los registros visuales más tempranos del pueblo tsou de Alishan. La nota original en japonés dice: “Mujer encargada de la alfarería (comunidad Tapang)”.](https://upload.wikimedia.org/wikipedia/commons/4/4f/Tsou%2C_Alishan%2C_Taiwan_1900_%28No.7425%29.jpg)
-_Fotografía de Torii Ryuzo, comunidad Tapang, 1900. Photo: 鳥居龍藏 (1870-1953), [Public Domain via Wikimedia](https://commons.wikimedia.org/wiki/File:Tsou,_Alishan,_Taiwan_1900_(No.7425).jpg)._
-
+_Fotografía de Torii Ryuzo, comunidad Tapang, 1900. Photo: 鳥居龍藏 (1870-1953), [Public Domain via Wikimedia](https://commons.wikimedia.org/wiki/File:Tsou,_Alishan,_Taiwan_1900_(No.7425).jpg).\_
 
 El nombre que hizo entrar al pueblo tsou en la historia moderna de Taiwán fue Gao Yisheng.
 
@@ -134,7 +133,6 @@ Durante el gobierno de Chen Shui-bian (2003-2008), legisladores del Kuomintang c
 ![Edificio principal de la sede sur del Museo Nacional del Palacio y puente Zhimei, 29 de diciembre de 2015 (un día después de la apertura). El arquitecto Kris Yao transformó tres técnicas de la caligrafía china (tinta densa, “blanco volador” y lavado) en tres volúmenes fluidos, ubicados en el número 888 de Gugong Boulevard, ciudad de Taibao, condado de Chiayi.](https://upload.wikimedia.org/wikipedia/commons/a/af/Southern_Branch_of_the_National_Palace_Museum_main_building_and_zhimei_bridge.jpg)
 _Sede sur del Museo Nacional del Palacio, 2015-12-29. Photo: B2322858, [Public Domain via Wikimedia](https://commons.wikimedia.org/wiki/File:Southern_Branch_of_the_National_Palace_Museum_main_building_and_zhimei_bridge.jpg)._
 
-
 El año de apertura atrajo multitudes. En 2016 hubo cerca de 1,47 millones de visitas. Pero los tres años siguientes formaron una curva descendente: en 2017, unas 970.000 visitas (34% menos); en 2018, unas 760.000; en 2019, la Agencia Central de Noticias informó que “**故宮南院 108 年入館人數逾 104 萬**”[^23]. ⚠️ Entre 2020 y 2023, debido a la pandemia, las cifras verbatim de múltiples informes anuales no se publicaron de manera completa[^23].
 
 > **✦** “**本來是小康之家，如今變成兩個貧戶**” (el exmagistrado Tu Deqi sobre la separación entre condado y ciudad de Chiayi en 1982)[^17]
@@ -155,7 +153,6 @@ Tras el cese de la producción, los trabajadores salineros se dispersaron, pero 
 
 ![Montaña de sal de Budai, Chiayi, agosto de 2013. Las salinas de Budai fueron una de las seis grandes salinas de Taiwán tras la guerra y cesaron completamente su producción por evaporación en 2001. La montaña de sal de la imagen es una pequeña colina artificial acumulada por antiguas piscinas de evaporación, un vestigio material de Budai como “tierra de sal”.](https://upload.wikimedia.org/wikipedia/commons/c/c1/%E5%98%89%E7%BE%A9%E5%B8%83%E8%A2%8B%E9%B9%BD%E5%B1%B1.JPG)
 _Montaña de sal de Budai, 2013-08-27. Photo: Pbdragonwang, [CC BY-SA 3.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:%E5%98%89%E7%BE%A9%E5%B8%83%E8%A2%8B%E9%B9%BD%E5%B1%B1.JPG)._
-
 
 La memoria de la ciudad de Puzi es aún más antigua. El templo Peitian de Puzi fue fundado en 1682. El topónimo proviene del colono Lin Ma, quien trajo desde Meizhou una imagen de Mazu y, al pasar junto a un árbol pu milenario a orillas del arroyo Niuchou (actual río Puzi), recibió de Mazu la indicación de quedarse allí para siempre; tras la construcción del templo se formó la “calle Puzaijiao”[^19]. Durante 330 años, la boca del templo y el centro de Puzi se expandieron como círculos concéntricos, y Puzi ha sido un nodo importante del círculo de devoción a Mazu en Yunlin, Chiayi y Tainan. En 1992, el poblado de Puzi fue elevado a ciudad porque el consejo del condado se trasladó allí, formando con el gobierno de la ciudad de Taibao el otro extremo de la “sede condal dividida”.
 
@@ -227,9 +224,9 @@ Coordenadas históricas a mayor escala:
 Este artículo usa 6 imágenes de Wikimedia Commons, con licencias mixtas CC BY-SA y Public Domain, todas hot-linked desde commons.wikimedia.org:
 
 - **Hero (frontmatter)**: [Tashan in morning glow](https://commons.wikimedia.org/wiki/File:Tashan_in_morning_glow.jpg) — Amanecer en Tashan, montaña sagrada tradicional tsou de 2.663 metros de altitud dentro del Área Recreativa Forestal Nacional de Alishan. Photo: Peellden, 2014-01. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
-- **Scene §Criaderos de ostras de Dongshi**: [Oyster Trellis at Dongshi fishing habour](https://commons.wikimedia.org/wiki/File:Oyster_Trellis_at_Dongshi_fishing_habour,_Chiayi_County_(Taiwan).jpg) — Criaderos de ostras y barco turístico del puerto pesquero de Dongshi. Photo: Malcolm Koo (Mk2010), 2015-10-10. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **Scene §Criaderos de ostras de Dongshi**: [Oyster Trellis at Dongshi fishing habour](<https://commons.wikimedia.org/wiki/File:Oyster_Trellis_at_Dongshi_fishing_habour,_Chiayi_County_(Taiwan).jpg>) — Criaderos de ostras y barco turístico del puerto pesquero de Dongshi. Photo: Malcolm Koo (Mk2010), 2015-10-10. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 - **Scene §Ferrocarril Forestal de Alishan**: [Alishan station with Steam train](https://commons.wikimedia.org/wiki/File:Alishan_station_with_Steam_train.JPG) — Locomotora de vapor SHAY y vagones de ciprés (Cypress Train) en la estación Zhaoping. Photo: Nils Öberg (Klockarnils), 2008-03-23. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
-- **Scene §Pueblo tsou**: [Tsou, Alishan, Taiwan 1900 (No.7425)](https://commons.wikimedia.org/wiki/File:Tsou,_Alishan,_Taiwan_1900_(No.7425).jpg) — Mujer alfarera de la comunidad Tapang (Tabangu), fotografiada por Torii Ryuzo en 1900, uno de los registros visuales más tempranos de pueblos indígenas de Taiwán. [Public Domain](https://creativecommons.org/publicdomain/mark/1.0/) (Torii Ryuzo, 1870-1953; derechos de autor expirados).
+- **Scene §Pueblo tsou**: [Tsou, Alishan, Taiwan 1900 (No.7425)](<https://commons.wikimedia.org/wiki/File:Tsou,_Alishan,_Taiwan_1900_(No.7425).jpg>) — Mujer alfarera de la comunidad Tapang (Tabangu), fotografiada por Torii Ryuzo en 1900, uno de los registros visuales más tempranos de pueblos indígenas de Taiwán. [Public Domain](https://creativecommons.org/publicdomain/mark/1.0/) (Torii Ryuzo, 1870-1953; derechos de autor expirados).
 - **Scene §Sede sur del Museo Nacional del Palacio**: [Southern Branch of the National Palace Museum main building and zhimei bridge](https://commons.wikimedia.org/wiki/File:Southern_Branch_of_the_National_Palace_Museum_main_building_and_zhimei_bridge.jpg) — Edificio principal de la sede sur del Museo Nacional del Palacio y puente Zhimei. Photo: B2322858, 2015-12-29. [Public Domain](https://creativecommons.org/publicdomain/mark/1.0/).
 - **Scene §Salinas de Budai**: [嘉義布袋鹽山](https://commons.wikimedia.org/wiki/File:%E5%98%89%E7%BE%A9%E5%B8%83%E8%A2%8B%E9%B9%BD%E5%B1%B1.JPG) — Montaña de sal acumulada en las piscinas de evaporación de las salinas de Budai. Photo: Pbdragonwang, 2013-08-27. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
 

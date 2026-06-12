@@ -1,5 +1,5 @@
 ---
-title: "Chiayi County: 490,000 People Lend Their Face to Alishan, and No One Remembers the County Seat Is in Taibao"
+title: 'Chiayi County: 490,000 People Lend Their Face to Alishan, and No One Remembers the County Seat Is in Taibao'
 description: "At five in the morning, the oyster racks off Dongshi are still in the water; half of the nation's oysters come from this stretch of sea. A hundred kilometers away on Alishan, the forest railway that opened to Erwanping in 1912 runs 66.6 kilometers. In between, beside Taibao's high-speed rail station, the Southern Branch of the National Palace Museum took 15 years to open, drawing 760,000 visitors in 2018. When the Chiayi County seat moved from Chiayi City to Taibao in 1991, the whole country thought Chiayi meant Chiayi City. Thirty-five years later, this county of 490,000 people surrounds a city of 270,000 that was carved out of it, with an aging index of 174%, the highest in Taiwan."
 date: 2026-05-18
 author: 'Taiwan.md Contributors'
@@ -24,10 +24,10 @@ lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/嘉義縣.md'
-sourceCommitSha: '6f28d6167'
+sourceCommitSha: '6f28d616'
 sourceContentHash: 'sha256:e233ab9cc8b79527'
 sourceBodyHash: 'sha256:8e7d5975a9ac8375'
-translatedAt: '2026-05-18T05:08:07+08:00'
+translatedAt: '2026-06-12T16:39:07Z'
 ---
 
 # Chiayi County: 490,000 People Lend Their Face to Alishan, and No One Remembers the County Seat Is in Taibao
@@ -45,7 +45,7 @@ Dongshi Township is Taiwan's largest oyster-producing area, accounting for about
 This is Chiayi County's most contemporary evidence of itself as a county. It is not Alishan. It is the plain and coast below Alishan. **What the nation knows is the mountain; what lives by the sea is this county**.
 
 ![Oyster racks at Dongshi Fishing Harbor, October 2015. Bamboo poles tied with strings of oyster shells float on the shallow sea enclosed by Waisanding Sandbar; from a distance, they look like rows of combs stuck upside down in the water. Dongshi Township, Chiayi County, accounts for about 49% of Taiwan's oyster output.](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Oyster_Trellis_at_Dongshi_fishing_habour%2C_Chiayi_County_%28Taiwan%29.jpg/1280px-Oyster_Trellis_at_Dongshi_fishing_habour%2C_Chiayi_County_%28Taiwan%29.jpg)
-_Oyster racks at Dongshi Fishing Harbor, 2015-10-10. Photo: Malcolm Koo (Mk2010), [CC BY-SA 4.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Oyster_Trellis_at_Dongshi_fishing_habour,_Chiayi_County_(Taiwan).jpg)._
+_Oyster racks at Dongshi Fishing Harbor, 2015-10-10. Photo: Malcolm Koo (Mk2010), [CC BY-SA 4.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Oyster_Trellis_at_Dongshi_fishing_habour,_Chiayi_County_(Taiwan).jpg).\_
 
 ## Zhuluo City Is Chiayi County's Ancestral Home, but It Was Never in the County
 
@@ -86,7 +86,7 @@ Traditional Tsou society centers on the _hosa_, or major community. Dutch coloni
 Among the three major Tsou rituals, the war ritual Mayasvi ranks highest. Held at the Kuba, it asks the war god for martial strength. Tapangu's war ritual takes place around August to October, while Tfuya's is held around January to March. The two communities do not hold it at the same time, and the ritual has been listed as a nationally designated important folk custom[^11].
 
 ![A woman making pottery in Tapangu, 1900, photographed by Torii Ryuzo. Torii made several trips into Taiwan's Indigenous mountain communities between 1896 and 1900, leaving the earliest photographic record of the Alishan Tsou. The original Japanese caption reads: "Woman in charge of pottery-making (Tapangu)." ](https://upload.wikimedia.org/wikipedia/commons/4/4f/Tsou%2C_Alishan%2C_Taiwan_1900_%28No.7425%29.jpg)
-_Photographed by Torii Ryuzo, Tapangu, 1900. Photo: Torii Ryuzo (1870-1953), [Public Domain via Wikimedia](https://commons.wikimedia.org/wiki/File:Tsou,_Alishan,_Taiwan_1900_(No.7425).jpg)._
+_Photographed by Torii Ryuzo, Tapangu, 1900. Photo: Torii Ryuzo (1870-1953), [Public Domain via Wikimedia](https://commons.wikimedia.org/wiki/File:Tsou,_Alishan,_Taiwan_1900_(No.7425).jpg).\_
 
 The name that brought the Tsou into Taiwan's modern history was Uyongu Yatauyungana, known in Chinese as Gao Yisheng.
 
@@ -224,9 +224,9 @@ Larger historical coordinates:
 This article uses six Wikimedia Commons images, under a mix of CC BY-SA and Public Domain licenses, all hot-linked from commons.wikimedia.org:
 
 - **Hero, frontmatter**: [Tashan in morning glow](https://commons.wikimedia.org/wiki/File:Tashan_in_morning_glow.jpg) — Sunrise over Tashan, a traditional sacred mountain of the Tsou at 2,663 meters inside the Alishan National Forest Recreation Area. Photo: Peellden, 2014-01. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
-- **Scene §Dongshi oyster racks**: [Oyster Trellis at Dongshi fishing habour](https://commons.wikimedia.org/wiki/File:Oyster_Trellis_at_Dongshi_fishing_habour,_Chiayi_County_(Taiwan).jpg) — Oyster racks and tourist boat at Dongshi Fishing Harbor. Photo: Malcolm Koo (Mk2010), 2015-10-10. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **Scene §Dongshi oyster racks**: [Oyster Trellis at Dongshi fishing habour](<https://commons.wikimedia.org/wiki/File:Oyster_Trellis_at_Dongshi_fishing_habour,_Chiayi_County_(Taiwan).jpg>) — Oyster racks and tourist boat at Dongshi Fishing Harbor. Photo: Malcolm Koo (Mk2010), 2015-10-10. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 - **Scene §Alishan Forest Railway**: [Alishan station with Steam train](https://commons.wikimedia.org/wiki/File:Alishan_station_with_Steam_train.JPG) — SHAY steam locomotive and cypress carriages, the Cypress Train, at Zhaoping Station. Photo: Nils Öberg (Klockarnils), 2008-03-23. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
-- **Scene §Tsou**: [Tsou, Alishan, Taiwan 1900 (No.7425)](https://commons.wikimedia.org/wiki/File:Tsou,_Alishan,_Taiwan_1900_(No.7425).jpg) — A pottery-making woman in Tapangu, photographed by Torii Ryuzo in 1900, one of the earliest photographic records of Taiwan's Indigenous peoples. [Public Domain](https://creativecommons.org/publicdomain/mark/1.0/) (Torii Ryuzo, 1870-1953; copyright expired).
+- **Scene §Tsou**: [Tsou, Alishan, Taiwan 1900 (No.7425)](<https://commons.wikimedia.org/wiki/File:Tsou,_Alishan,_Taiwan_1900_(No.7425).jpg>) — A pottery-making woman in Tapangu, photographed by Torii Ryuzo in 1900, one of the earliest photographic records of Taiwan's Indigenous peoples. [Public Domain](https://creativecommons.org/publicdomain/mark/1.0/) (Torii Ryuzo, 1870-1953; copyright expired).
 - **Scene §Southern Branch of the National Palace Museum**: [Southern Branch of the National Palace Museum main building and zhimei bridge](https://commons.wikimedia.org/wiki/File:Southern_Branch_of_the_National_Palace_Museum_main_building_and_zhimei_bridge.jpg) — Main building of the Southern Branch of the National Palace Museum and Zhimei Bridge. Photo: B2322858, 2015-12-29. [Public Domain](https://creativecommons.org/publicdomain/mark/1.0/).
 - **Scene §Budai salt fields**: [嘉義布袋鹽山](https://commons.wikimedia.org/wiki/File:%E5%98%89%E7%BE%A9%E5%B8%83%E8%A2%8B%E9%B9%BD%E5%B1%B1.JPG) — Salt mountain accumulated from the evaporation ponds of Budai Salt Field. Photo: Pbdragonwang, 2013-08-27. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
 

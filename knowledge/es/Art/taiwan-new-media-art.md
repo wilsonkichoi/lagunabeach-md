@@ -23,10 +23,10 @@ featured: true
 lastVerified: 2026-04-04
 lastHumanReview: true
 translatedFrom: 'Art/台灣新媒體藝術.md'
-sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:b4e7864454993486'
-sourceBodyHash: 'sha256:21f788b62f33ab8a'
-translatedAt: '2026-05-16T22:20:03Z'
+sourceCommitSha: 'ef8fab38'
+sourceContentHash: 'sha256:d196b7664449f36f'
+sourceBodyHash: 'sha256:3affa690cf7b66dc'
+translatedAt: '2026-06-13T00:00:00Z'
 ---
 
 # El arte de nuevos medios en Taiwán
@@ -150,6 +150,7 @@ Cuando en 2025 el nombre de Yu Shien Yang apareció en la lista de premiados del
 - [Cine taiwánés](/art/台灣電影) — Otra vertiente del arte audiovisual taiwánés, que comparte escenario festivalero con el arte de nuevos medios.
 - [Comunidad de código abierto y g0v](/technology/開源社群與g0v) — Otra faceta de la cultura tecnológica taiwánés: la intersección entre el espíritu de código abierto y el mundo del arte.
 - [Historia de la industria televisiva en Taiwán](/technology/台灣電視產業史) — La evolución mediática de la radiodifusión a OTT, el contexto institucional de la tecnología audiovisual.
+- [justfont y el desarrollo tipográfico en Taiwán](/technology/justfont與台灣字體發展) — Otro grupo de creadores en la intersección del diseño, la tecnología y la identidad cultural: quienes recuperan trazo a trazo la tipografía de Taiwán.
 - [Tehching Hsieh](/art/謝德慶) — El medio corporal antes de los nuevos medios: pionero del arte de acción taiwánés y maestro internacional de las cinco performances de un año.
 - [Wang Xin-Ren (A-Luan)](/art/王新仁) — Primer artista generativo taiwánés en Art Blocks, figura central del proyecto FAB DAO Hundred Peaks y de akaSwap.
   [Wang Lian-Cheng (Shrimp Dad)](/art/王連晟) — Ganador del primer premio en la categoría de escultura del Lumen Prize 2017, miembro de i/O Lab y director del festival Lacking Sound, representante del arte de instalaciones sonoras en Taiwán.

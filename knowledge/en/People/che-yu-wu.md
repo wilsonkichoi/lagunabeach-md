@@ -27,7 +27,7 @@ translatedFrom: People/吳哲宇.md
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:ebee89e5e92900ff'
 sourceBodyHash: 'sha256:80855056570f3a2e'
-translatedAt: 2026-05-03T23:14:05+08:00
+translatedAt: '2026-06-12T16:39:07Z'
 ---
 
 > **30-second overview:** Che-Yu Wu (born 1995, Taipei) is a new media artist, creative coder, and educator. He graduated from NYCU's Department of Electrical Engineering and holds a master's in Integrated Digital Media from NYU. In 2021, he became one of the first Taiwanese artists on Art Blocks; CommonWealth Magazine's cover story called him "the digital designer worth hundreds of millions before 30." A year later, FTX collapsed and everything went to zero — in an interview he said, "I'm actually glad that happened." In 2023 he returned to Taipei 101 for his solo exhibition _The Great Equation_; in 2024 he entered the 60th Venice Biennale's Personal Structures section. He calls himself an "ancient clockmaker." In March 2026 he launched the open-source project Taiwan.md to preserve a single source of truth for Taiwan's knowledge sovereignty in the AI era; the same month, a Facebook post about his AI symbiosis experiment garnered over 6,000 likes. He uses 0 and 1 to approach the soul — they will never overlap, but the act of approaching is the work itself.

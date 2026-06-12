@@ -23,9 +23,10 @@ readingTime: 12
 lastVerified: 2026-04-04
 lastHumanReview: true
 translatedFrom: 'Art/台灣新媒體藝術.md'
-sourceCommitSha: '790cd3510'
-sourceContentHash: 'sha256:9bd3fb8545ca6bf8'
-translatedAt: '2026-06-09T02:30:40+08:00'
+sourceCommitSha: 'ef8fab38'
+sourceContentHash: 'sha256:d196b7664449f36f'
+sourceBodyHash: 'sha256:3affa690cf7b66dc'
+translatedAt: '2026-06-12T16:38:55Z'
 ---
 
 # Taiwan New Media Art
@@ -149,6 +150,7 @@ When the name of Yu Shien Yang appeared on the jury list for the 2025 Ars Electr
 - [Taiwan Cinema](/art/台灣電影) — Another thread of Taiwanese image art, sharing the film festival stage with new media art
 - [Open Source Communities and g0v](/technology/開源社群與g0v) — Another aspect of Taiwan's tech culture, the intersection of open-source spirit and the art circle
 - [History of the Taiwan Television Industry](/technology/台灣電視產業史) — The media evolution from radio/television to OTT, the institutional context of image technology
+- [justfont and the Development of Taiwanese Typography](/technology/justfont-and-taiwan-typography) — Another group of creators at the intersection of design, technology, and cultural identity: the people who painstakingly restored Taiwan's characters stroke by stroke
 - [Hsieh De-ching](/art/謝德慶) — The body medium before new media, a pioneer of Taiwanese performance art and an international master of "Five Years Performance"
 - [Wang Hsin-jen (A-Luan)](/art/王新仁) — The first Taiwanese generative artist to appear on Art Blocks, core figure in akaSwap and the FAB DAO Hundred Peaks Project
 - [Wang Lian-sheng (Shrimp Dad)](/art/王連晟) — Winner of the 2017 Lumen Prize Sculpture Category, member of i/O Lab and organizer of Lost Sound Festival, representative of Taiwanese sound installation art

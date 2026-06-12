@@ -23,10 +23,10 @@ author: 'Taiwan.md'
 lastHumanReview: true
 featured: true
 translatedFrom: Art/台灣新媒體藝術.md
-sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:b4e7864454993486'
-sourceBodyHash: 'sha256:21f788b62f33ab8a'
-translatedAt: '2026-05-16T22:19:17Z'
+sourceCommitSha: 'ef8fab38'
+sourceContentHash: 'sha256:d196b7664449f36f'
+sourceBodyHash: 'sha256:3affa690cf7b66dc'
+translatedAt: '2026-06-12T16:39:07Z'
 ---
 
 # Taiwan New Media Art
@@ -154,7 +154,7 @@ When Yu Shien Yang's name appeared on the 2025 Ars Electronica Linz jury list, n
 - [Wang Lien-sheng (Xiababa)](/art/王連晟) — 2017 Lumen Prize Sculpture first-place winner; i/O Lab member and Lost and Found Festival organizer; Taiwanese sound installation art representative
 - [Wu Che-yu](/people/吳哲宇) — New media artist who calls himself an "ancient clockmaker"; Venice Biennale Personal Structures × Art Basel Miami × Taiwan.md open-source project initiator
 - [The Reporter](/society/the-reporter-investigative-journalism) — Another Taiwan-DNA case driven by civic communities; shows a different path to building public goods after 2015
-- [justfont and Taiwan Typography](/technology/justfont與台灣字體發展) — Typography as cultural infrastructure; another dimension of Taiwanese visual sovereignty
+- [justfont and Taiwan Typography](/en/technology/justfont-and-taiwan-typography/) — Typography as cultural infrastructure; another dimension of Taiwanese visual sovereignty
 - [Submarine Cables](/technology/海底電纜) — 99% of cross-border new media art exhibitions and curatorial collaborations run over submarine cables; this piece reveals the invisible digital cultural infrastructure beneath
 - [Aaron Nieh (聶永真)](/people/聶永真) — Taiwan's first AGI (Alliance Graphique Internationale) member; the curatorial position of his Eternal Design Studio (永真急制) in contemporary Taiwanese visual culture
 

@@ -13,6 +13,7 @@ translatedFrom: 'Nature/梅雨.md'
 sourceCommitSha: '4b6d28c5'
 sourceBodyHash: 'sha256:31c92fd7633ce35e'
 sourceContentHash: 'sha256:08c48a6ddad4519e'
+translatedAt: '2026-06-12T16:39:07Z'
 ---
 
 Every year in mid-May, when the first stationary front slides down from southern China and drapes itself over the whole of Taiwan, weather anchors say something every Taiwanese person has heard since childhood: "Mei-yu season is here." It sounds like a romantic announcement of seasonal change. But for an island in the subtropics where 70% of annual rainfall is concentrated between May and October[^1], this front is in fact a life-and-death gamble. Too much rain and people drown; too little and water must be rationed. The very narrow window between the two is the daily reality of 23 million people.

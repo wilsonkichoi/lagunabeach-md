@@ -27,7 +27,7 @@ translatedFrom: People/吳哲宇.md
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:ebee89e5e92900ff'
 sourceBodyHash: 'sha256:80855056570f3a2e'
-translatedAt: 2026-05-03T23:14:07+08:00
+translatedAt: '2026-06-13T00:00:00Z'
 ---
 
 > **En 30 secondes :** Wu Che-Yu (Che-Yu Wu, né en 1995 à Taipei), artiste des nouveaux médias, créateur-programmeur et enseignant. Diplômé en génie électrique de l'Université Yangming Jiaotong et titulaire d'un master en médias numériques intégrés de l'Université de New York. En 2021, il devient l'un des premiers artistes taïwanais à publier sur Art Blocks ; le magazine CommonWealth le décrit en couverture comme « un designer numérique taïwanais dont la fortune dépasse le cent millions à 26 ans ». Un an plus tard, l'effondrement de FTX efface tout ; il déclare en interview : « Je suis en fait content que cet événement se soit produit. » En 2023, il revient au Taipei 101 pour son exposition personnelle _The Great Equation_ ; en 2024, il participe à la 60ᵉ Biennale de Venise, section _Personal Structures_. Se qualifiant lui-même de « vieil horloger », il lance en mars 2026 le projet open source Taiwan.md pour préserver la souveraineté du savoir taïwanais à l'ère de l'IA, tandis qu'une publication Facebook sur son expérience de symbiose avec une IA recueille plus de six mille j'aime. Il approche l'âme avec des 0 et des 1, sans jamais pouvoir la toucher — et c'est ce processus d'approche qui constitue l'œuvre.

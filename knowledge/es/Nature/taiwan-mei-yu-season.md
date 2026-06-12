@@ -12,7 +12,7 @@ translatedFrom: 'Nature/梅雨.md'
 sourceCommitSha: '4b6d28c5'
 sourceBodyHash: 'sha256:31c92fd7633ce35e'
 sourceContentHash: 'sha256:08c48a6ddad4519e'
-translatedAt: '2026-05-26T21:07:27Z'
+translatedAt: '2026-06-13T00:00:00Z'
 ---
 
 Cada año, hacia mediados de mayo, cuando el primer frente estacionario desliza desde el sur de China hacia el sureste y envuelve toda Taiwán, los presentadores meteorológicos repiten una frase que los taiwaneses han oído desde niños: «Ha comenzado la temporada de Mei-Yu (梅雨, méiyǔ)». Suena como el anuncio romántico de un cambio de estación. Pero para una isla ubicada en la zona subtropical, donde el 70% de las lluvias anuales se concentra entre mayo y octubre[^1], ese frente es en realidad una apuesta a vida o muerte. Si llueve demasiado, la gente muere ahogada; si llueve demasiado poco, hay que racionar el agua. El estrecho margen entre ambos extremos es la rutina cotidiana de 23 millones de personas.

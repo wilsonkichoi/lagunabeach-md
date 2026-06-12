@@ -29,10 +29,10 @@ lastVerified: 2026-05-21
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/中山北路條通.md'
-sourceCommitSha: '20a4ac337'
+sourceCommitSha: '20a4ac33'
 sourceContentHash: 'sha256:b588a53aa70524ed'
 sourceBodyHash: 'sha256:c3fdba51ee1eb327'
-translatedAt: '2026-05-23T05:06:37+08:00'
+translatedAt: '2026-06-12T16:38:55Z'
 ---
 
 # 中山北路の条通：日本人が神社へ向かう道として敷いた道は、最後にはやはり日本商社が取り戻しました

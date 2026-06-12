@@ -24,10 +24,10 @@ lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/嘉義縣.md'
-sourceCommitSha: '6f28d6167'
+sourceCommitSha: '6f28d616'
 sourceContentHash: 'sha256:e233ab9cc8b79527'
 sourceBodyHash: 'sha256:8e7d5975a9ac8375'
-translatedAt: '2026-05-18T05:08:08+08:00'
+translatedAt: '2026-06-13T00:00:00Z'
 ---
 
 # 자이현: 49만 명이 아리산에 얼굴을 빌려주고, 현청이 타이바오에 있다는 사실도 아무도 기억하지 않는다
@@ -45,7 +45,7 @@ translatedAt: '2026-05-18T05:08:08+08:00'
 이것이 자이현이 하나의 현으로서 지닌 가장 현대적인 증거다. 그것은 아리산이 아니라, 아리산 아래의 평원과 해안이다. **전국이 아는 것은 산이고, 바다에 기대 살아가는 것은 이 현이다**.
 
 ![둥스 어항의 굴 양식장, 2015년 10월. 대나무 장대에 묶인 굴껍데기 줄이 와이산딩저우가 둘러 만든 얕은 바다 위에 떠 있으며, 멀리서 보면 물속에 거꾸로 꽂힌 빗처럼 보인다. 자이현 둥스향의 연간 생산량은 전국 굴의 약 49%를 차지한다.](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Oyster_Trellis_at_Dongshi_fishing_habour%2C_Chiayi_County_%28Taiwan%29.jpg/1280px-Oyster_Trellis_at_Dongshi_fishing_habour%2C_Chiayi_County_%28Taiwan%29.jpg)
-_둥스 어항 굴 양식장, 2015-10-10. Photo: Malcolm Koo (Mk2010), [CC BY-SA 4.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Oyster_Trellis_at_Dongshi_fishing_habour,_Chiayi_County_(Taiwan).jpg)._
+_둥스 어항 굴 양식장, 2015-10-10. Photo: Malcolm Koo (Mk2010), [CC BY-SA 4.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Oyster_Trellis_at_Dongshi_fishing_habour,_Chiayi_County_(Taiwan).jpg).\_
 
 ## 주뤄성은 자이현의 본적이지만, 한 번도 현 안에 있었던 적이 없다
 
@@ -86,8 +86,7 @@ _자오핑역 증기기관차, 2008-03-23. Photo: Nils Öberg (Klockarnils), [CC
 초우족의 3대 제의 가운데 전제 Mayasvi, 곧 마야스비가 가장 위에 놓인다. 이는 Kuba에서 거행되며, 전신에게 전투력을 기원한다. 다방의 전제는 대략 8월에서 10월 사이, 터푸예는 대략 1월에서 3월 사이에 열리며, 두 대사는 시기가 같지 않다. 이 제의는 국가 지정 중요 민속으로 등재되어 있다[^11].
 
 ![1900년 다방사(Tabangu)의 도기 제작 여성, 도리이 류조 촬영. 도리이는 1896-1900년 사이 여러 차례 산에 들어가 대만 원주민 부락을 조사했으며, 아리산 초우족의 가장 이른 영상 기록을 남겼다. 일본어 원주: “도기 제작 담당 여성(다방사)”.](https://upload.wikimedia.org/wikipedia/commons/4/4f/Tsou%2C_Alishan%2C_Taiwan_1900_%28No.7425%29.jpg)
-_도리이 류조 촬영, 다방사, 1900. Photo: 鳥居龍藏 (1870-1953), [Public Domain via Wikimedia](https://commons.wikimedia.org/wiki/File:Tsou,_Alishan,_Taiwan_1900_(No.7425).jpg)._
-
+_도리이 류조 촬영, 다방사, 1900. Photo: 鳥居龍藏 (1870-1953), [Public Domain via Wikimedia](https://commons.wikimedia.org/wiki/File:Tsou,_Alishan,_Taiwan_1900_(No.7425).jpg).\_
 
 초우족을 대만 현대사 안으로 들어오게 한 것은 가오이성이라는 이름이다.
 
@@ -134,7 +133,6 @@ _도리이 류조 촬영, 다방사, 1900. Photo: 鳥居龍藏 (1870-1953), [Pub
 ![고궁 남원 본관 건축과 즈메이교, 2015년 12월 29일, 개관 다음 날. 건축가 야오런시는 중국 서예의 세 가지 필법, 곧 농묵, 비백, 선염을 세 개의 유선형 매스로 전환했으며, 주소는 자이현 타이바오시 고궁대로 888호다.](https://upload.wikimedia.org/wikipedia/commons/a/af/Southern_Branch_of_the_National_Palace_Museum_main_building_and_zhimei_bridge.jpg)
 _고궁 남원, 2015-12-29. Photo: B2322858, [Public Domain via Wikimedia](https://commons.wikimedia.org/wiki/File:Southern_Branch_of_the_National_Palace_Museum_main_building_and_zhimei_bridge.jpg)._
 
-
 개관한 해에는 인파가 몰렸다. 2016년 방문객은 약 147만 명이었다. 그러나 이어진 3년은 하강 곡선이었다. 2017년 약 97만 명, 곧 34% 감소, 2018년 약 76만 명, 2019년에는 중앙통신사가 “**고궁 남원 108년 입관 인원 104만 명 넘어**”라고 보도했다[^23]. ⚠️ 2020년부터 2023년까지는 코로나19의 영향으로 여러 출처의 연보 수치가 완전하게 공개되지 않았다[^23].
 
 > **✦** “**본래는 그럭저럭 사는 집안이었는데, 이제는 두 가난한 집이 되었다**”(전 현장 투더치가 1982년 자이 현시 분치를 논하며 한 말)[^17]
@@ -155,7 +153,6 @@ _고궁 남원, 2015-12-29. Photo: B2322858, [Public Domain via Wikimedia](https
 
 ![자이 부다이 소금산, 2013년 8월. 부다이 염전은 전후 대만 6대 염전 가운데 하나였으며, 2001년 전면 폐염되었다. 화면 속 소금산은 초기 증발지에 축적된 인공 작은 산으로, 부다이가 “소금의 고장”이었음을 보여 주는 물질적 유적이다.](https://upload.wikimedia.org/wikipedia/commons/c/c1/%E5%98%89%E7%BE%A9%E5%B8%83%E8%A2%8B%E9%B9%BD%E5%B1%B1.JPG)
 _부다이 소금산, 2013-08-27. Photo: Pbdragonwang, [CC BY-SA 3.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:%E5%98%89%E7%BE%A9%E5%B8%83%E8%A2%8B%E9%B9%BD%E5%B1%B1.JPG)._
-
 
 푸쯔시의 기억은 더 오래되었다. 푸쯔 페이톈궁은 1682년에 세워졌고, 지명은 선민 린마가 메이저우에서 마쭈 신상을 모셔 오다가 니우처우강, 곧 오늘날 푸쯔강가의 천년 팽나무 아래를 지나던 중 마쭈가 영주하고자 한다는 뜻을 보였고, 사원을 세운 뒤 “푸쯔자오 거리”가 형성된 데서 왔다[^19]. 330년 동안 푸쯔의 사원 앞과 시가지는 동심원처럼 확장되었고, 줄곧 윈자난 마쭈 신앙권의 중요한 거점이었다. 1992년 푸쯔진이 푸쯔시로 승격된 것은 현의회가 이곳으로 이전했기 때문이며, 타이바오시정부와 함께 “분열 현청”의 다른 한 끝을 이룬다.
 
@@ -227,9 +224,9 @@ _부다이 소금산, 2013-08-27. Photo: Pbdragonwang, [CC BY-SA 3.0 via Wikimed
 이 글은 Wikimedia Commons 이미지 6장을 사용했으며, CC BY-SA와 Public Domain 라이선스가 섞여 있다. 모두 commons.wikimedia.org에서 hot-link했다.
 
 - **Hero(frontmatter)**: [Tashan in morning glow](https://commons.wikimedia.org/wiki/File:Tashan_in_morning_glow.jpg) — 타산 일출, 아리산 국가삼림유락구 안의 해발 2,663미터 초우족 전통 성산. Photo: Peellden, 2014-01. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
-- **Scene §둥스 굴 양식장**: [Oyster Trellis at Dongshi fishing habour](https://commons.wikimedia.org/wiki/File:Oyster_Trellis_at_Dongshi_fishing_habour,_Chiayi_County_(Taiwan).jpg) — 둥스 어항 굴 양식장과 관광선. Photo: Malcolm Koo (Mk2010), 2015-10-10. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **Scene §둥스 굴 양식장**: [Oyster Trellis at Dongshi fishing habour](<https://commons.wikimedia.org/wiki/File:Oyster_Trellis_at_Dongshi_fishing_habour,_Chiayi_County_(Taiwan).jpg>) — 둥스 어항 굴 양식장과 관광선. Photo: Malcolm Koo (Mk2010), 2015-10-10. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 - **Scene §아리산 삼림철도**: [Alishan station with Steam train](https://commons.wikimedia.org/wiki/File:Alishan_station_with_Steam_train.JPG) — 자오핑역 SHAY 증기기관차와 편백 객차(Cypress Train). Photo: Nils Öberg (Klockarnils), 2008-03-23. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
-- **Scene §초우족**: [Tsou, Alishan, Taiwan 1900 (No.7425)](https://commons.wikimedia.org/wiki/File:Tsou,_Alishan,_Taiwan_1900_(No.7425).jpg) — 다방사(Tabangu)의 도기 제작 여성, 1900년 도리이 류조 촬영, 대만 원주민 영상의 가장 초기 기록 가운데 하나. [Public Domain](https://creativecommons.org/publicdomain/mark/1.0/)(도리이 류조 1870-1953, 저작권 만료).
+- **Scene §초우족**: [Tsou, Alishan, Taiwan 1900 (No.7425)](<https://commons.wikimedia.org/wiki/File:Tsou,_Alishan,_Taiwan_1900_(No.7425).jpg>) — 다방사(Tabangu)의 도기 제작 여성, 1900년 도리이 류조 촬영, 대만 원주민 영상의 가장 초기 기록 가운데 하나. [Public Domain](https://creativecommons.org/publicdomain/mark/1.0/)(도리이 류조 1870-1953, 저작권 만료).
 - **Scene §고궁 남원**: [Southern Branch of the National Palace Museum main building and zhimei bridge](https://commons.wikimedia.org/wiki/File:Southern_Branch_of_the_National_Palace_Museum_main_building_and_zhimei_bridge.jpg) — 고궁 남원 본관 건축과 즈메이교. Photo: B2322858, 2015-12-29. [Public Domain](https://creativecommons.org/publicdomain/mark/1.0/).
 - **Scene §부다이 염전**: [嘉義布袋鹽山](https://commons.wikimedia.org/wiki/File:%E5%98%89%E7%BE%A9%E5%B8%83%E8%A2%8B%E9%B9%BD%E5%B1%B1.JPG) — 부다이 염전 증발지에 축적된 소금산. Photo: Pbdragonwang, 2013-08-27. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
 

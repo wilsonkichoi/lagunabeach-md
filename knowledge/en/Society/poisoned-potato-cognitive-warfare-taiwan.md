@@ -21,10 +21,10 @@ lastHumanReview: false
 image: '/article-images/society/du-mali-maine-potato-1940.jpg'
 imageAlt: 'Potato harvest season in Aroostook County, Maine, 1940 (US Farm Security Administration; schools did not open until potatoes were harvested) — the real face of American potatoes before they reach Taiwan'
 translatedFrom: 'Society/毒馬鈴薯認知作戰.md'
-sourceCommitSha: 'ce7f10f8'
+sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:441da61b4d105152'
 sourceBodyHash: 'sha256:001afbff1a12f651'
-translatedAt: '2026-05-09T14:29:43Z'
+translatedAt: '2026-06-12T16:39:07Z'
 ---
 
 > **30-second overview:** On 29 April 2026, Chen Binhua, spokesperson for Beijing's Taiwan Affairs Office (TAO), used the term "poisoned potatoes" at a routine press briefing to attack the DPP government for "openly abandoning the bottom line on food safety" and "after opening the door to ractopamine pork, putting poisoned potatoes on the dining tables of ordinary Taiwanese." The trigger was the adjustment of quarantine conditions for processed-use US potatoes, made under the Taiwan-US "Agreement on Reciprocal Trade" (ART) — a memorandum of understanding signed on 16 January and finalized on 13 February: small numbers of sprouted potatoes are now to be "rejected piece by piece" rather than have entire batches returned, and shipments with solanine concentrations below 200 ppm are cleared. The Mainland Affairs Council, the Ministry of Health and Welfare, and the Executive Yuan all issued rebuttals on 29 April. But the "truth" spans three layers. To see this narrative war clearly, you have to look simultaneously at the science layer (what is 200 ppm? behind it sits another 30 ppm), the governance layer (a treaty signed in 28 days plus the math of "inspecting every potato" with 85 border staff), and the trust layer (the 15-year scar from the 2011 plasticizer scandal to the 2024 ractopamine-pork debate). The CCP narrative **stepped precisely** onto this foundation — and the foundation is real.

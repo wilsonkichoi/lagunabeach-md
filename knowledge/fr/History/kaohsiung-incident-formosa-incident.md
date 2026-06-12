@@ -10,10 +10,10 @@ lastVerified: 2026-03-31
 lastHumanReview: false
 featured: false
 translatedFrom: 'History/美麗島事件.md'
-sourceCommitSha: '4b6d28c54'
+sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:b6388def07095d7a'
 sourceBodyHash: 'sha256:023966d5fd73721a'
-translatedAt: '2026-06-12T00:53:05+08:00'
+translatedAt: '2026-06-13T00:00:00Z'
 ---
 
 Le 28 février 1980, [Lin Yi-hsiung](fr/People/lin-yi-hsiung-democracy-advocate-tragedy-survivor/) attendait son procès au centre de détention militaire de Jingmei, à Taipei. Ce jour-là, la police et les agents des services de renseignement ont monté la garde devant son domicile de la route Xinyi à Taipei du matin au soir, sans que quiconque n'entre dans la maison. Ce n'est qu'au crépuscule que l'on a découvert sa mère, Lin Yu-mei, 60 ans, poignardée treize fois, gisant dans le sous-sol. Ses jumelles de sept ans, Lin Liang-jun et Lin Ting-jun, chacune transpercée d'un coup de couteau au thorax, étaient mortes sur le coup. L'aînée, Lin Huan-jun, neuf ans, portait six blessures ; le cartable dans son dos l'avait protégée, et elle survécut par miracle.[^12]

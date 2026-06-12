@@ -11,7 +11,7 @@ translatedFrom: History/美麗島事件.md
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:b6388def07095d7a'
 sourceBodyHash: 'sha256:023966d5fd73721a'
-translatedAt: 2026-05-01T22:19:10+08:00
+translatedAt: '2026-06-13T00:00:00Z'
 category: History
 ---
 

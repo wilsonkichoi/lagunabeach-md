@@ -3,7 +3,7 @@ translatedFrom: 'History/中正紀念堂.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:69baf41d38c3c7aa'
 sourceBodyHash: 'sha256:3ae76649f6776188'
-translatedAt: '2026-05-01T13:44:02+08:00'
+translatedAt: '2026-06-12T16:39:07Z'
 title: 'Chiang Kai-shek Memorial Hall'
 date: 2026-04-10
 category: 'History'
@@ -23,6 +23,7 @@ readingTime: 9
 lastVerified: 2026-04-10
 lastHumanReview: false
 ---
+
 # Chiang Kai-shek Memorial Hall
 
 ## 30-Second Overview
