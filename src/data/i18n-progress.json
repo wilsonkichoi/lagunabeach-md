@@ -1,83 +1,83 @@
 {
-  "total_zh": 3972,
+  "total_zh": 3973,
   "total_en": 798,
   "coverage_en": 20.1,
   "categories": {
-    "Geography": {
-      "zh": 63,
-      "en": 61
+    "Nature": {
+      "zh": 37,
+      "en": 37
     },
-    "ja": {
-      "zh": 794,
+    "People": {
+      "zh": 227,
+      "en": 228
+    },
+    "fr": {
+      "zh": 795,
       "en": 0
     },
     "es": {
       "zh": 794,
       "en": 0
     },
-    "ko": {
-      "zh": 795,
+    "ja": {
+      "zh": 794,
       "en": 0
-    },
-    "Lifestyle": {
-      "zh": 28,
-      "en": 28
-    },
-    "fr": {
-      "zh": 795,
-      "en": 0
-    },
-    "People": {
-      "zh": 227,
-      "en": 228
-    },
-    "History": {
-      "zh": 44,
-      "en": 44
-    },
-    "Technology": {
-      "zh": 52,
-      "en": 50
-    },
-    "Food": {
-      "zh": 55,
-      "en": 56
-    },
-    "Economy": {
-      "zh": 54,
-      "en": 55
-    },
-    "Society": {
-      "zh": 85,
-      "en": 86
-    },
-    "Nature": {
-      "zh": 37,
-      "en": 37
-    },
-    "Politics": {
-      "zh": 10,
-      "en": 10
-    },
-    "Culture": {
-      "zh": 61,
-      "en": 63
-    },
-    "Music": {
-      "zh": 33,
-      "en": 33
     },
     "Art": {
       "zh": 37,
       "en": 38
     },
-    "resources": {
-      "zh": 2,
-      "en": 2
+    "ko": {
+      "zh": 795,
+      "en": 0
+    },
+    "Geography": {
+      "zh": 63,
+      "en": 61
+    },
+    "Technology": {
+      "zh": 52,
+      "en": 50
+    },
+    "Society": {
+      "zh": 85,
+      "en": 86
+    },
+    "Culture": {
+      "zh": 61,
+      "en": 63
+    },
+    "Economy": {
+      "zh": 54,
+      "en": 55
+    },
+    "Music": {
+      "zh": 33,
+      "en": 33
+    },
+    "History": {
+      "zh": 44,
+      "en": 44
+    },
+    "Food": {
+      "zh": 55,
+      "en": 56
+    },
+    "Lifestyle": {
+      "zh": 28,
+      "en": 28
+    },
+    "Politics": {
+      "zh": 11,
+      "en": 10
     },
     "About": {
       "zh": 6,
       "en": 6
+    },
+    "resources": {
+      "zh": 2,
+      "en": 2
     },
     "root": {
       "zh": 0,

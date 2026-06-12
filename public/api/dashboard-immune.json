@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T06:11:56.782339",
+  "lastUpdated": "2026-06-12T23:09:56.583905",
   "schemaVersion": "v2-2026-05-16",
   "featureFlag": "IMMUNE_V2",
   "immuneScore": 55,
@@ -11,7 +11,7 @@
     "citation_density": 90.4,
     "tool_freshness": 80,
     "drift_velocity": 90.0,
-    "external_rulers": 2.7
+    "external_rulers": 3.2
   },
   "componentWeights": {
     "review_coverage": 0.25,
@@ -30,9 +30,9 @@
       "weight": 3.0
     },
     "T2": {
-      "total": 344,
+      "total": 345,
       "reviewed": 85,
-      "pct": 24.7,
+      "pct": 24.6,
       "weight": 1.5
     },
     "T3": {
@@ -43,8 +43,8 @@
     }
   },
   "pluginPassDetail": {
-    "total_files": 794,
-    "hard_pass_files": 794,
+    "total_files": 795,
+    "hard_pass_files": 795,
     "hard_pass_pct": 100.0,
     "warn_pass_files": 0,
     "warn_pass_pct": 0.0,
@@ -52,13 +52,13 @@
   },
   "citationDetail": {
     "grades": {
-      "A": 612,
+      "A": 613,
       "B": 11,
       "C": 156,
       "D": 4,
       "F": 9
     },
-    "files_with_grade": 792
+    "files_with_grade": 793
   },
   "freshnessDetail": {
     "editorial_days_old": 5,
@@ -205,8 +205,8 @@
     "note": "Phase 7 v1 — per-plugin drift only. Future: per-section EDITORIAL, false-positive-rate, longitudinal violation trend."
   },
   "externalRulersDetail": {
-    "ruledArticles": 21,
-    "totalArticles": 792,
+    "ruledArticles": 25,
+    "totalArticles": 793,
     "rulerSources": {
       "factcheckReports": true,
       "readerErrataCommits90d": true,

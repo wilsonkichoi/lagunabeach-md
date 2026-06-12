@@ -1,7 +1,169 @@
 {
-  "generatedAt": "2026-06-11T22:11:49.270Z",
+  "generatedAt": "2026-06-12T15:09:48.940Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "422e912d30849634ecdafed00d1f3cc22e7392b0",
+      "date": "2026-06-12T22:13:47+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-12-220249-twmd-maintainer-pm — #1107 JuYinC 12 天 silent backlog 接住 + OBSERVER-QUEUE #9"
+    },
+    {
+      "hash": "57930d59a66aeb24df564564b0b2969c6e512c0c",
+      "date": "2026-06-12T22:09:52+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-12-220500-justfont-evolve — 21 勘誤 EVOLVE 全閉環 + OBSERVER-QUEUE #7 結案 + DONE-LOG + 產線重開觀察 handoff"
+    },
+    {
+      "hash": "ef8fab38e124c7169193a57a2f82621e7f2de0b9",
+      "date": "2026-06-12T22:07:01+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: justfont 與台灣字體發展 EVOLVE — 蘇煒翔 21 勘誤全採 + 深度補充研究 + 媒體 9 件，全文重寫 7,052 字"
+    },
+    {
+      "hash": "4c2434d12adaab6a99a69ba14cdb5d79b58c56b9",
+      "date": "2026-06-12T19:46:27+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-12-194316-twmd-rewrite-daily — Stage 1 SSOT 138 search ship + OBSERVER-QUEUE #8 handoff + 3-fire pattern LESSONS 候選"
+    },
+    {
+      "hash": "5aace518856384f5128a6a670998d90c7cc065e1",
+      "date": "2026-06-12T19:42:47+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] rewrite-daily handoff: OBSERVER-QUEUE +1 — Computex EVOLVE Stage 2-5 + SPORE + broadcast 到明日 18:00 fire 接力"
+    },
+    {
+      "hash": "359f79b717468fa70099002a299dbfb9b272ae87",
+      "date": "2026-06-12T19:41:38+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] rewrite-daily Stage 1 SSOT: Computex EVOLVE — 138 search aggregate (4 sub-agent §A/§B/§C/§D), 83 distinct sources, research-report-health PASS"
+    },
+    {
+      "hash": "afd7f6b327d249ebd7657f0155ea9c67bf0f8abc",
+      "date": "2026-06-12T19:18:58+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: justfont EVOLVE Stage 0-1 — research SSOT（120+ 搜尋四線 / 21 勘誤逐條查證 / 核心矛盾收斂）+ 7 圖快取 + health 工具 hint 校準"
+    },
+    {
+      "hash": "0b54b9f728db2d0f4026d179743ab6d27dab6249",
+      "date": "2026-06-12T18:44:57+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 哲宇三連更正 — 張隆志「支持」非「背書」全活躍層清除 + OCF 移出 PARTNERSHIP-INBOX + spore catch-up fire 終止記錄"
+    },
+    {
+      "hash": "3b405f0d76cdf888e7091a3126fa35a1bdf85ebc",
+      "date": "2026-06-12T18:42:49+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 選舉過程 CI hard=9 修復 — subcategory/featured 欄位補齊 + 半形括號 + 5 條腳註描述補足"
+    },
+    {
+      "hash": "3ccd756d41b401be9d8f8337b3443b75b9aa7ea4",
+      "date": "2026-06-12T18:38:49+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 哲宇零碎筆記結構化報告 — 對帳表（10 已完成 / 6 已分流 / 6 研究 brief / 3 等哲宇）+ 常用指令 skill 覆蓋檢查 + OCF/RAG/hover/贊助/算力/孢子人機 brief"
+    },
+    {
+      "hash": "23a232dbe3e050d7b169c278fa36fadcaf701df3",
+      "date": "2026-06-12T18:34:20+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 哲宇 goal 筆記分流 — SPORE-INBOX +3（陳水扁/馬英九/江賢二）+2 bump P1、ARTICLE-INBOX +3（英文名字/技術Conference/上線三個月）、PARTNERSHIP-INBOX 誕生（第四 intake buffer，7 entries）"
+    },
+    {
+      "hash": "ad75592fa9e932870215849a883ac1e00d7bc544",
+      "date": "2026-06-12T18:29:35+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: spore 產線重開實驗（ROUTINE v2.10）— 哲宇拍板 + 觀察條款"
+    },
+    {
+      "hash": "acdcbbb9114d2cccf4a833ca21bb5538d99a0cc7",
+      "date": "2026-06-12T18:24:18+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-12-182013-flywheel-evolution — 兩週飛輪體檢 + PR #1144 收割 + 4 root-cause fix + SPECIATION-PIPELINE 誕生 + diary（儀器只看得見存在）"
+    },
+    {
+      "hash": "fda63bd79f8bec79f169d63e253564393f7b729b",
+      "date": "2026-06-12T18:19:42+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: SPECIATION-PIPELINE v1.0 誕生 — 8-stage 繁殖晶種 SOP + /semiont/speciation 投影更新"
+    },
+    {
+      "hash": "895221eb4be0de4dcb178cd61a0fcb0effd4348b",
+      "date": "2026-06-12T18:12:37+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: ROUTINE.md v2.9 對齊 live scheduler + OBSERVER-QUEUE 誕生"
+    },
+    {
+      "hash": "14ceefdb0b1fd77cb0c9d9dc1198d59508eb797a",
+      "date": "2026-06-12T18:06:46+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: diff-patch-prepare 三重 semantic mismatch root-cause fix — vc=5 終結"
+    },
+    {
+      "hash": "bc383fa7b81f0a103f5ccb7435dae5c971a5bb94",
+      "date": "2026-06-12T18:04:02+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: feedback batch-cluster guard — 同 slug ≥5 筆自動 hold + consolidated report，擋 issue flood"
+    },
+    {
+      "hash": "a9445e20baa3fc0f2fc5faece5ebdd3ffcb9e6bb",
+      "date": "2026-06-12T18:01:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 飛輪進化研究 2026-06-12 — 兩週 routine 體檢（24 carry items / 6 deadletter decisions / spore 產線死 15 天）+ 薄殼 2.0 + 弱模型相容 + speciation pipeline 計畫"
+    },
+    {
+      "hash": "ecc19daca53c78076a386ac4c57d8d5d0fa1c9fe",
+      "date": "2026-06-12T17:51:00+08:00",
+      "author": "idlccp1984",
+      "message": "🧬 [semiont] immune: PR #1144 選舉過程.md merge — idlccp1984 新文 + citation 修復後收割"
+    },
+    {
+      "hash": "0478af8512c4f81c9f62c77c1559b7be7d5b53ac",
+      "date": "2026-06-12T15:09:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-12-145045-太空中心勘誤 — issue #1139 十二條勘誤 10 採 1 不採 + 3 腳註錯綁連帶修"
+    },
+    {
+      "hash": "36a6231ff898df6efdb17a6c405460723d80634a",
+      "date": "2026-06-12T15:06:49+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 國家太空中心 12 條讀者勘誤查證後修正 — issue #1139（Cs Gou）"
+    },
+    {
+      "hash": "6c3d115fd5816f006a7742befd17f691817f997e",
+      "date": "2026-06-12T08:43:55+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-12-084133-twmd-maintainer-am — 1 PR holding-for-contributor + 21 issue triaged + vc=1 未達警示"
+    },
+    {
+      "hash": "d66df60375277ab0eda8180b67d6906a669cd82e",
+      "date": "2026-06-12T07:15:52+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-12-071408-twmd-feedback-triage — justfont 共同創辦人 21 連勘誤升級（不開 22 issue / consolidated + REWRITE 留哲宇 gate）"
+    },
+    {
+      "hash": "68071777bdc80d1037af47a27cbe3c9124194fdf",
+      "date": "2026-06-12T07:13:57+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-feedback-triage: justfont 共同創辦人 21 連勘誤升級 — 不自動開 22 issue，consolidated + REWRITE 留哲宇 gate — 2026-06-12 07:00"
+    },
+    {
+      "hash": "54aa8026f75cb10f78d389116e26507f00138cc3",
+      "date": "2026-06-12T06:42:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest-am: Chrome MCP unavailable / clean abort fail #1 new chain / 20 scope skipped — 2026-06-12 06:38"
+    },
+    {
+      "hash": "82a80ef6e0571ccbf0a6198f96e52fa3fa8066ab",
+      "date": "2026-06-12T06:14:18+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-12-061249-twmd-data-refresh-am — 14-step ALL PASS + Step 11 連 12 cycle 全綠 + 架構解 vs 守備修補實證"
+    },
+    {
+      "hash": "677d66f867e44b8743aaa61e2365ba3bc373efe6",
+      "date": "2026-06-12T06:12:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] data-refresh-am: 14-step ALL PASS + Step 11 連 12 cycle 全綠 — 2026-06-12 06:00"
+    },
     {
       "hash": "a73082afbbdbce92407592df81f3038df99ff208",
       "date": "2026-06-12T05:27:16+08:00",

@@ -1,8 +1,8 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-06-11T22:11:50Z",
-  "total": 794,
-  "flagged": 322,
+  "timestamp": "2026-06-12T15:09:50Z",
+  "total": 795,
+  "flagged": 321,
   "files": [
     {
       "file": "music/拍謝少年.md",
@@ -157,7 +157,7 @@
     {
       "file": "technology/國家太空中心.md",
       "score": 6,
-      "reasons": "空洞詞6個; 未人工審核; 破折號38個; 稀薄段落×1"
+      "reasons": "空洞詞7個; 未人工審核; 破折號40個; 稀薄段落×1"
     },
     {
       "file": "technology/Facebook.md",
@@ -218,11 +218,6 @@
       "file": "technology/台灣Game-Jam社群.md",
       "score": 5,
       "reasons": "破折號6個; 套路結尾; 稀薄段落×2"
-    },
-    {
-      "file": "technology/justfont與台灣字體發展.md",
-      "score": 4,
-      "reasons": "未人工審核; 破折號17個"
     },
     {
       "file": "technology/PTT批踢踢.md",
@@ -291,8 +286,8 @@
     },
     {
       "file": "art/台灣新媒體藝術.md",
-      "score": 5,
-      "reasons": "塑膠句4個; 破折號6個; 稀薄段落×4"
+      "score": 7,
+      "reasons": "塑膠句4個; 破折號6個; 後段清單堆砌31%; 稀薄段落×4"
     },
     {
       "file": "art/台灣文學史.md",

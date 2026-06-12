@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T22:11:56.816Z",
+  "lastUpdated": "2026-06-12T15:09:56.618Z",
   "languages": [
     "zh-TW",
     "en",
@@ -10,72 +10,72 @@
   ],
   "summary": {
     "zh-TW": {
-      "total": 792,
+      "total": 793,
       "percentage": 100,
-      "fresh": 792,
+      "fresh": 793,
       "stale": 0,
       "missing": 0,
       "deficit": 0
     },
     "en": {
       "total": 794,
-      "percentage": 100,
-      "fresh": 793,
+      "percentage": 99.9,
+      "fresh": 789,
       "metadataStale": 0,
-      "stale": 1,
-      "missing": 0,
+      "stale": 5,
+      "missing": 1,
       "orphan": 0,
-      "deficit": 0,
-      "freshPct": 99.9,
-      "bodyFreshPct": 99.9
+      "deficit": 1,
+      "freshPct": 99.2,
+      "bodyFreshPct": 99.2
     },
     "ja": {
       "total": 794,
-      "percentage": 100,
-      "fresh": 788,
+      "percentage": 99.9,
+      "fresh": 784,
       "metadataStale": 0,
-      "stale": 6,
-      "missing": 0,
+      "stale": 10,
+      "missing": 1,
       "orphan": 0,
-      "deficit": 0,
-      "freshPct": 99.2,
-      "bodyFreshPct": 99.2
+      "deficit": 1,
+      "freshPct": 98.6,
+      "bodyFreshPct": 98.6
     },
     "ko": {
       "total": 794,
-      "percentage": 100,
-      "fresh": 790,
+      "percentage": 99.9,
+      "fresh": 786,
       "metadataStale": 0,
-      "stale": 4,
-      "missing": 0,
+      "stale": 8,
+      "missing": 1,
       "orphan": 0,
-      "deficit": 0,
-      "freshPct": 99.5,
-      "bodyFreshPct": 99.5
+      "deficit": 1,
+      "freshPct": 98.9,
+      "bodyFreshPct": 98.9
     },
     "es": {
       "total": 794,
-      "percentage": 100,
-      "fresh": 790,
+      "percentage": 99.9,
+      "fresh": 786,
       "metadataStale": 0,
-      "stale": 4,
-      "missing": 0,
+      "stale": 8,
+      "missing": 1,
       "orphan": 0,
-      "deficit": 0,
-      "freshPct": 99.5,
-      "bodyFreshPct": 99.5
+      "deficit": 1,
+      "freshPct": 98.9,
+      "bodyFreshPct": 98.9
     },
     "fr": {
       "total": 794,
-      "percentage": 100,
-      "fresh": 788,
+      "percentage": 99.9,
+      "fresh": 784,
       "metadataStale": 0,
-      "stale": 6,
-      "missing": 0,
+      "stale": 10,
+      "missing": 1,
       "orphan": 0,
-      "deficit": 0,
-      "freshPct": 99.2,
-      "bodyFreshPct": 99.2
+      "deficit": 1,
+      "freshPct": 98.6,
+      "bodyFreshPct": 98.6
     }
   },
   "matrix": {
@@ -121,36 +121,36 @@
       "zh-TW": 37,
       "en": {
         "count": 37,
-        "fresh": 37,
-        "stale": 0,
+        "fresh": 36,
+        "stale": 1,
         "missing": 0,
         "deficit": 0
       },
       "ja": {
         "count": 37,
-        "fresh": 37,
-        "stale": 0,
+        "fresh": 36,
+        "stale": 1,
         "missing": 0,
         "deficit": 0
       },
       "ko": {
         "count": 37,
-        "fresh": 37,
-        "stale": 0,
+        "fresh": 36,
+        "stale": 1,
         "missing": 0,
         "deficit": 0
       },
       "es": {
         "count": 37,
-        "fresh": 37,
-        "stale": 0,
+        "fresh": 36,
+        "stale": 1,
         "missing": 0,
         "deficit": 0
       },
       "fr": {
         "count": 37,
-        "fresh": 37,
-        "stale": 0,
+        "fresh": 36,
+        "stale": 1,
         "missing": 0,
         "deficit": 0
       }
@@ -498,77 +498,77 @@
       }
     },
     "politics": {
-      "zh-TW": 10,
+      "zh-TW": 11,
       "en": {
         "count": 10,
         "fresh": 10,
         "stale": 0,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       },
       "ja": {
         "count": 10,
         "fresh": 10,
         "stale": 0,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       },
       "ko": {
         "count": 10,
         "fresh": 10,
         "stale": 0,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       },
       "es": {
         "count": 10,
         "fresh": 10,
         "stale": 0,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       },
       "fr": {
         "count": 10,
         "fresh": 10,
         "stale": 0,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       }
     },
     "society": {
       "zh-TW": 85,
       "en": {
         "count": 85,
-        "fresh": 85,
-        "stale": 0,
+        "fresh": 84,
+        "stale": 1,
         "missing": 0,
         "deficit": 0
       },
       "ja": {
         "count": 85,
-        "fresh": 84,
-        "stale": 1,
+        "fresh": 83,
+        "stale": 2,
         "missing": 0,
         "deficit": 0
       },
       "ko": {
         "count": 85,
-        "fresh": 85,
-        "stale": 0,
+        "fresh": 84,
+        "stale": 1,
         "missing": 0,
         "deficit": 0
       },
       "es": {
         "count": 85,
-        "fresh": 85,
-        "stale": 0,
+        "fresh": 84,
+        "stale": 1,
         "missing": 0,
         "deficit": 0
       },
       "fr": {
         "count": 85,
-        "fresh": 84,
-        "stale": 1,
+        "fresh": 83,
+        "stale": 2,
         "missing": 0,
         "deficit": 0
       }
@@ -577,36 +577,36 @@
       "zh-TW": 52,
       "en": {
         "count": 52,
-        "fresh": 52,
-        "stale": 0,
+        "fresh": 50,
+        "stale": 2,
         "missing": 0,
         "deficit": 0
       },
       "ja": {
         "count": 52,
-        "fresh": 52,
-        "stale": 0,
+        "fresh": 50,
+        "stale": 2,
         "missing": 0,
         "deficit": 0
       },
       "ko": {
         "count": 52,
-        "fresh": 52,
-        "stale": 0,
+        "fresh": 50,
+        "stale": 2,
         "missing": 0,
         "deficit": 0
       },
       "es": {
         "count": 52,
-        "fresh": 52,
-        "stale": 0,
+        "fresh": 50,
+        "stale": 2,
         "missing": 0,
         "deficit": 0
       },
       "fr": {
         "count": 52,
-        "fresh": 52,
-        "stale": 0,
+        "fresh": 50,
+        "stale": 2,
         "missing": 0,
         "deficit": 0
       }
@@ -614,7 +614,20 @@
   },
   "missing": {
     "en": [
+      "Politics/選舉過程：從空票匭到深夜開票，一場全民參與的民主儀式.md",
       "Technology/半導體產業：從 RCA 技轉到氮化鎵與量子封裝的 50 年材料革命.md"
+    ],
+    "ja": [
+      "Politics/選舉過程：從空票匭到深夜開票，一場全民參與的民主儀式.md"
+    ],
+    "ko": [
+      "Politics/選舉過程：從空票匭到深夜開票，一場全民參與的民主儀式.md"
+    ],
+    "es": [
+      "Politics/選舉過程：從空票匭到深夜開票，一場全民參與的民主儀式.md"
+    ],
+    "fr": [
+      "Politics/選舉過程：從空票匭到深夜開票，一場全民參與的民主儀式.md"
     ]
   },
   "statusSource": "translation-status.json",

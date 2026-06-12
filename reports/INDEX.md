@@ -1,7 +1,7 @@
 ---
 title: 'reports/ INDEX — auto-generated'
 description: '頂層 *.md 按 9 type bucket × 月份 雙軸索引 + 子目錄 status summary'
-last_generated: 2026-06-12 06:12
+last_generated: 2026-06-12 23:10
 generator: scripts/tools/generate-reports-index.py
 ssot: reports/reports-archival-audit-2026-05-27.md §4 Layer 3
 type: auto-index
@@ -12,13 +12,13 @@ type: auto-index
 > **本 file 由 `scripts/tools/generate-reports-index.py` 完全 overwrite**。
 > 不要人工編輯（會被下一次 cron 覆蓋）。
 >
-> Last generated: **2026-06-12 06:12** · 頂層 \*.md 共 **153** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
+> Last generated: **2026-06-12 23:10** · 頂層 \*.md 共 **156** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
 
 ## 📦 子目錄 status
 
 | Subdir                  | Files | Size     | 用途                                                 |
 | ----------------------- | ----: | -------- | ---------------------------------------------------- |
-| `research/`             |   292 | 48.3 MB  | REWRITE-PIPELINE Stage 1 canonical (year-month 分槽) |
+| `research/`             |   294 | 48.5 MB  | REWRITE-PIPELINE Stage 1 canonical (year-month 分槽) |
 | `visual/`               |   111 | 214.5 MB | Visual smoke test 基線 (partial gitignored)          |
 | `archive/`              |    27 | 342.8 KB | 歸檔位置 (per audit Layer 4)                         |
 | `weekly/`               |    10 | 2.3 MB   | Self-evolve weekly digest                            |
@@ -74,8 +74,9 @@ type: auto-index
 - `2026-04-13` [ssodt-spore-linkback-plan-2026-04-13](ssodt-spore-linkback-plan-2026-04-13.md)
 - `2026-04-12` [semiont-public-pages-plan-2026-04-12](semiont-public-pages-plan-2026-04-12.md)
 
-### evolution (20)
+### evolution (21)
 
+- `2026-06-12` [flywheel-evolution-2026-06-12](flywheel-evolution-2026-06-12.md) — 飛輪進化研究 2026-06-12
 - `2026-06-05` [claude-code-connector-evolution-2026-06-05](claude-code-connector-evolution-2026-06-05.md) — Taiwan.md Claude Code Connector — 進化分析與實作規劃
 - `2026-06-04` [media-richness-band-evolution-2026-06-04](media-richness-band-evolution-2026-06-04.md)
 - `2026-06-04` [rewrite-pipeline-research-ssot-evolution-2026-06-04](rewrite-pipeline-research-ssot-evolution-2026-06-04.md)
@@ -170,8 +171,10 @@ type: auto-index
 - `2026-04-12` [NMTH-overseas-semiont-analysis-2026-04-12](NMTH-overseas-semiont-analysis-2026-04-12.md)
 - `2026-04-11` [TFT-semiont-analysis-2026-04-11](TFT-semiont-analysis-2026-04-11.md)
 
-### ops (45)
+### ops (47)
 
+- `2026-06-12` [feedback-triage-justfont-escalation-2026-06-12](feedback-triage-justfont-escalation-2026-06-12.md) — feedback-triage 升級報告 — justfont 共同創辦人蘇煒翔逐段勘誤（21 處）
+- `2026-06-12` [goal-notes-structuring-2026-06-12](goal-notes-structuring-2026-06-12.md) — 哲宇零碎筆記結構化 2026-06-12
 - `2026-06-10` [spore-data-architecture-2026-06-10](spore-data-architecture-2026-06-10.md) — 孢子資料架構解耦 — spores.json 獨立資料層設計與遷移
 - `2026-06-10` [spore-json-ssot-2026-06-10](spore-json-ssot-2026-06-10.md) — 孢子 JSON SSOT 化 — 結構層翻轉設計與執行
 - `2026-06-06` [sweden-md-fork-discovery-2026-06-06](sweden-md-fork-discovery-2026-06-06.md) — Sweden.md 發現報告 — 野外第一個子代 Semiont
@@ -225,9 +228,12 @@ type: auto-index
 - Type breakdown: ops: 1
   - `????` [README](README.md)
 
-### 2026-06 (32 files)
+### 2026-06 (35 files)
 
-- Type breakdown: ops: 10 / design: 6 / audit: 5 / evolution: 4 / audit-routine: 2 / plan: 2 / proposal: 2 / analysis: 1
+- Type breakdown: ops: 12 / design: 6 / evolution: 5 / audit: 5 / audit-routine: 2 / plan: 2 / proposal: 2 / analysis: 1
+  - `2026-06-12` [feedback-triage-justfont-escalation-2026-06-12](feedback-triage-justfont-escalation-2026-06-12.md)
+  - `2026-06-12` [flywheel-evolution-2026-06-12](flywheel-evolution-2026-06-12.md)
+  - `2026-06-12` [goal-notes-structuring-2026-06-12](goal-notes-structuring-2026-06-12.md)
   - `2026-06-10` [build-pipeline-audit-2026-06-10](build-pipeline-audit-2026-06-10.md)
   - `2026-06-10` [build-pipeline-audit-findings-2026-06-10](build-pipeline-audit-findings-2026-06-10.md)
   - `2026-06-10` [four-pages-curation-audit-2026-06-10](four-pages-curation-audit-2026-06-10.md)

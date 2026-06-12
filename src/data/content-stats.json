@@ -11,7 +11,7 @@
     "Music": 166,
     "Nature": 185,
     "People": 1135,
-    "Politics": 50,
+    "Politics": 51,
     "Society": 425,
     "Technology": 259,
     "resources": 10
@@ -348,7 +348,11 @@
     {
       "date": "2026-06-11",
       "count": 1
+    },
+    {
+      "date": "2026-06-12",
+      "count": 1
     }
   ],
-  "updated": "2026-06-11"
+  "updated": "2026-06-12"
 }
