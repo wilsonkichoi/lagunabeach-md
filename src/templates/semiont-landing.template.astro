@@ -10,6 +10,9 @@ import {
   useTranslatedPath,
 } from '../i18n/utils';
 import '../styles/semiont.css';
+// 2026-06-13：organs 改讀本地 prebuilt JSON（原 build-time self-fetch 不確定性
+// bug，詳下方 organs 段註解 + refactor-verification report §1.1）
+import organsData from '../../public/api/dashboard-organism.json';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -18,14 +21,13 @@ const translatePath = useTranslatedPath(lang);
 const entries = await getAllDiaryEntries();
 const latestEntries = entries.slice(0, 3);
 
-// Organ scores from dashboard API
-const organsData = await fetch(
-  new URL('/api/dashboard-organism.json', Astro.url),
-)
-  .then((r) => r.json())
-  .catch(() => null);
-
-const organs = organsData?.organs || [];
+// Organ scores from prebuilt dashboard JSON（git-tracked，prebuild 更新）。
+// 2026-06-13 修：原本 build 時對自己的 API 走網路 fetch + 靜默空 fallback —
+// build 機器忙碌/離線時 fetch 失敗，8 器官 vitals 區塊整段靜默消失（production
+// 隨 build 環境不確定）。實證：reports/refactor-verification-2026-06-13.md §1.1
+// 的 5,268 檔 parity 唯一 diff 就是這裡。改讀本地檔（同 SEO.astro audit #5 pattern，
+// import 在頂部），build 輸出 deterministic；缺檔 = build fail loud 而非靜默缺塊。
+const organs = (organsData as { organs?: any[] })?.organs || [];
 
 // Individual cognitive organ pages + diary list are zh-TW canonical (no translation —
 // they change weekly, translations would go stale within days).

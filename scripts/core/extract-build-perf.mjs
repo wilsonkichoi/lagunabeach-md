@@ -228,8 +228,12 @@ function main() {
       // 抓到的 runs 實際涵蓋天數（< 7 表示 7d/30d avg 其實只蓋到這麼多天）
       coverage_days: coverageDays,
       ms_per_page_latest: msPerPage,
-      // Threshold: per-page > 200ms = ⚠️ flag for dashboard alert
-      flag_slow: msPerPage != null && msPerPage > 200,
+      // Threshold: per-page > 50ms = ⚠️ flag for dashboard alert。
+      // 2026-06-13 收緊 200→50：article refactor（git 子程序 ×4,697→6）後
+      // 新 baseline 是 Build step 125s / 8,437 頁 ≈ 15ms/頁；50ms = 3.3×
+      // headroom，能在「per-render scope 放昂貴操作」這類 bug 重生時第一個
+      // build 就翻黃旗（舊閾值 200 要劣化 13× 才會叫）。
+      flag_slow: msPerPage != null && msPerPage > 50,
     },
     trend: metrics.map((m) => ({
       run_id: m.run_id,

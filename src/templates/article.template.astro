@@ -117,6 +117,10 @@ const categoryMapping: Record<string, string> = {
   society: 'Society',
   economy: 'Economy',
   lifestyle: 'Lifestyle',
+  // 2026-06-13 補：先前漏 politics → ~67 篇 politics 頁 render-time git 查找
+  // 靜默跳過、走 props fallback（輸出相同，但路徑不一致）。wrapper 的
+  // CATEGORY_MAPPING 一直有 politics，兩張表應同步。
+  politics: 'Politics',
 };
 
 // ── Git info ─────────────────────────────────────────────────────────────────
