@@ -1,10 +1,10 @@
 {
-  "_generated": "2026-06-11T06:46:51+08:00",
+  "_generated": "2026-06-13T06:50:23+08:00",
   "schemaVersion": 1,
   "counts": {
     "spores": 125,
     "articles": 61,
-    "withMetrics": 109
+    "withMetrics": 110
   },
   "spores": [
     {
@@ -3992,16 +3992,16 @@
       "url": "https://x.com/taiwandotmd/status/2057861183848550878",
       "template": "A2 首尾呼應（breaking news hook + 45 年跨度）",
       "metrics": {
-        "views": 3522,
+        "views": 3596,
         "likes": 44,
         "reposts": 3,
         "comments": 9,
         "shares": 3
       },
       "metricsAsOf": {
-        "dPlus": 4,
-        "harvestDate": "2026-05-27 07:00",
-        "batch": "batch-2026-05-27-15-spores",
+        "dPlus": 21,
+        "harvestDate": "2026-06-13 06:38",
+        "batch": "batch-2026-06-13-15-spores",
         "source": "harvest"
       },
       "history": [
@@ -4040,6 +4040,16 @@
           "harvestDate": "2026-05-27 07:00",
           "batch": "batch-2026-05-27-15-spores",
           "views": 3522,
+          "likes": 44,
+          "reposts": 3,
+          "comments": 9,
+          "shares": 3
+        },
+        {
+          "dPlus": 21,
+          "harvestDate": "2026-06-13 06:38",
+          "batch": "batch-2026-06-13-15-spores",
+          "views": 3596,
           "likes": 44,
           "reposts": 3,
           "comments": 9,
@@ -4164,16 +4174,16 @@
       "url": "https://x.com/taiwandotmd/status/2058183941593719181",
       "template": "A2 首尾呼應（家族 connection hook + 95 年弧線 A+B 混合）",
       "metrics": {
-        "views": 2275,
+        "views": 2466,
         "likes": 20,
-        "reposts": 3,
+        "reposts": 2,
         "comments": 5,
         "shares": 3
       },
       "metricsAsOf": {
-        "dPlus": 4,
-        "harvestDate": "2026-05-27 07:00",
-        "batch": "batch-2026-05-27-15-spores",
+        "dPlus": 21,
+        "harvestDate": "2026-06-13 06:38",
+        "batch": "batch-2026-06-13-15-spores",
         "source": "harvest"
       },
       "history": [
@@ -4214,6 +4224,16 @@
           "views": 2275,
           "likes": 20,
           "reposts": 3,
+          "comments": 5,
+          "shares": 3
+        },
+        {
+          "dPlus": 21,
+          "harvestDate": "2026-06-13 06:38",
+          "batch": "batch-2026-06-13-15-spores",
+          "views": 2466,
+          "likes": 20,
+          "reposts": 2,
           "comments": 5,
           "shares": 3
         }
@@ -4326,16 +4346,16 @@
       "url": "https://x.com/taiwandotmd/status/2058211699229134864",
       "template": "A2 首尾呼應（dead twin + 假翻譯 + 布克 breaking news）",
       "metrics": {
-        "views": 34200,
-        "likes": 681,
-        "reposts": 78,
+        "views": 34500,
+        "likes": 687,
+        "reposts": 79,
         "comments": 3,
-        "shares": 53
+        "shares": 54
       },
       "metricsAsOf": {
-        "dPlus": 4,
-        "harvestDate": "2026-05-27 07:00",
-        "batch": "batch-2026-05-27-15-spores",
+        "dPlus": 21,
+        "harvestDate": "2026-06-13 06:38",
+        "batch": "batch-2026-06-13-15-spores",
         "source": "harvest"
       },
       "history": [
@@ -4368,6 +4388,16 @@
           "reposts": 78,
           "comments": 3,
           "shares": 53
+        },
+        {
+          "dPlus": 21,
+          "harvestDate": "2026-06-13 06:38",
+          "batch": "batch-2026-06-13-15-spores",
+          "views": 34500,
+          "likes": 687,
+          "reposts": 79,
+          "comments": 3,
+          "shares": 54
         }
       ]
     },
@@ -4564,16 +4594,16 @@
       "url": "https://x.com/taiwandotmd/status/2058735515021783190",
       "template": "A2 首尾呼應（學費→甲方 + 量子代工站位「還沒拿下」收口）",
       "metrics": {
-        "views": 4240,
-        "likes": 131,
-        "reposts": 13,
+        "views": 4522,
+        "likes": 134,
+        "reposts": 14,
         "comments": 2,
         "shares": 11
       },
       "metricsAsOf": {
-        "dPlus": 2,
-        "harvestDate": "2026-05-27 07:00",
-        "batch": "batch-2026-05-27-15-spores",
+        "dPlus": 19,
+        "harvestDate": "2026-06-13 06:38",
+        "batch": "batch-2026-06-13-15-spores",
         "source": "harvest"
       },
       "history": [
@@ -4594,6 +4624,16 @@
           "views": 4240,
           "likes": 131,
           "reposts": 13,
+          "comments": 2,
+          "shares": 11
+        },
+        {
+          "dPlus": 19,
+          "harvestDate": "2026-06-13 06:38",
+          "batch": "batch-2026-06-13-15-spores",
+          "views": 4522,
+          "likes": 134,
+          "reposts": 14,
           "comments": 2,
           "shares": 11
         }
@@ -4696,16 +4736,16 @@
       "url": "https://x.com/taiwandotmd/status/2058811390337622339",
       "template": "A2 首尾呼應（2008 街機失敗 → 2026 多場域裂縫 + 美學被看見/跌倒收尾）",
       "metrics": {
-        "views": 10659,
-        "likes": 97,
-        "reposts": 14,
+        "views": 10900,
+        "likes": 98,
+        "reposts": 13,
         "comments": 4,
         "shares": 22
       },
       "metricsAsOf": {
-        "dPlus": 2,
-        "harvestDate": "2026-05-27 07:00",
-        "batch": "batch-2026-05-27-15-spores",
+        "dPlus": 19,
+        "harvestDate": "2026-06-13 06:38",
+        "batch": "batch-2026-06-13-15-spores",
         "source": "harvest"
       },
       "history": [
@@ -4726,6 +4766,16 @@
           "views": 10659,
           "likes": 97,
           "reposts": 14,
+          "comments": 4,
+          "shares": 22
+        },
+        {
+          "dPlus": 19,
+          "harvestDate": "2026-06-13 06:38",
+          "batch": "batch-2026-06-13-15-spores",
+          "views": 10900,
+          "likes": 98,
+          "reposts": 13,
           "comments": 4,
           "shares": 22
         }
@@ -4910,19 +4960,30 @@
       "url": "https://x.com/taiwandotmd/status/2059239795231281223",
       "template": "A2 首尾呼應（1995 320×200 DOS 視窗掉眼淚 → 2024 五億賣斷 → 那台電腦不在了但那個下午還在）",
       "metrics": {
-        "views": 0,
-        "likes": 0,
-        "reposts": 0,
-        "comments": 0,
-        "shares": 0
+        "views": 6790,
+        "likes": 55,
+        "reposts": 13,
+        "comments": 7,
+        "shares": 6
       },
       "metricsAsOf": {
-        "dPlus": null,
-        "harvestDate": null,
-        "batch": null,
-        "source": "frontmatter-seed"
+        "dPlus": 18,
+        "harvestDate": "2026-06-13 06:38",
+        "batch": "batch-2026-06-13-15-spores",
+        "source": "harvest"
       },
-      "history": []
+      "history": [
+        {
+          "dPlus": 18,
+          "harvestDate": "2026-06-13 06:38",
+          "batch": "batch-2026-06-13-15-spores",
+          "views": 6790,
+          "likes": 55,
+          "reposts": 13,
+          "comments": 7,
+          "shares": 6
+        }
+      ]
     },
     {
       "id": 95,
@@ -5011,16 +5072,16 @@
       "url": "https://x.com/taiwandotmd/status/2059290686671982831",
       "template": "A2 首尾呼應 + 4 年驗證 hook（2014 唐獎 Allison+Honjo → 2018 諾貝爾 → 連續三屆預測 → 04:21 北榮辭世 → 醫院還在運轉）",
       "metrics": {
-        "views": 4000,
-        "likes": 109,
-        "reposts": 15,
-        "comments": 0,
-        "shares": 11
+        "views": 9291,
+        "likes": 236,
+        "reposts": 29,
+        "comments": 1,
+        "shares": 20
       },
       "metricsAsOf": {
-        "dPlus": 1,
-        "harvestDate": "2026-05-27 07:00",
-        "batch": "batch-2026-05-27-15-spores",
+        "dPlus": 18,
+        "harvestDate": "2026-06-13 06:38",
+        "batch": "batch-2026-06-13-15-spores",
         "source": "harvest"
       },
       "history": [
@@ -5033,6 +5094,16 @@
           "reposts": 15,
           "comments": 0,
           "shares": 11
+        },
+        {
+          "dPlus": 18,
+          "harvestDate": "2026-06-13 06:38",
+          "batch": "batch-2026-06-13-15-spores",
+          "views": 9291,
+          "likes": 236,
+          "reposts": 29,
+          "comments": 1,
+          "shares": 20
         }
       ]
     },
@@ -5047,19 +5118,30 @@
       "url": "https://www.threads.com/@taiwandotmd/post/DY0zmnNE5RT",
       "template": "B 冷知識型（1949 嘉義噴水池火雞肉飯 reveal 三層歷史：美軍養剩火雞 + 1925 蓬萊米 + 清代閩南醬油 = 三百年同台）",
       "metrics": {
-        "views": 0,
-        "likes": 0,
-        "reposts": 0,
-        "comments": 0,
-        "shares": 0
+        "views": 7460,
+        "likes": 473,
+        "reposts": 23,
+        "comments": 62,
+        "shares": 44
       },
       "metricsAsOf": {
-        "dPlus": null,
-        "harvestDate": null,
-        "batch": null,
-        "source": "frontmatter-seed"
+        "dPlus": 17,
+        "harvestDate": "2026-06-13 06:38",
+        "batch": "batch-2026-06-13-15-spores",
+        "source": "harvest"
       },
-      "history": []
+      "history": [
+        {
+          "dPlus": 17,
+          "harvestDate": "2026-06-13 06:38",
+          "batch": "batch-2026-06-13-15-spores",
+          "views": 7460,
+          "likes": 473,
+          "reposts": 23,
+          "comments": 62,
+          "shares": 44
+        }
+      ]
     },
     {
       "id": 98,
@@ -5072,19 +5154,30 @@
       "url": "https://x.com/taiwandotmd/status/2059458468898287770",
       "template": "B 冷知識型（1949 嘉義噴水池火雞肉飯 reveal 三層歷史：美軍養剩火雞 + 1925 蓬萊米 + 清代閩南醬油 = 三百年同台）",
       "metrics": {
-        "views": 0,
-        "likes": 0,
-        "reposts": 0,
-        "comments": 0,
-        "shares": 0
+        "views": 12900,
+        "likes": 371,
+        "reposts": 73,
+        "comments": 6,
+        "shares": 36
       },
       "metricsAsOf": {
-        "dPlus": null,
-        "harvestDate": null,
-        "batch": null,
-        "source": "frontmatter-seed"
+        "dPlus": 17,
+        "harvestDate": "2026-06-13 06:38",
+        "batch": "batch-2026-06-13-15-spores",
+        "source": "harvest"
       },
-      "history": []
+      "history": [
+        {
+          "dPlus": 17,
+          "harvestDate": "2026-06-13 06:38",
+          "batch": "batch-2026-06-13-15-spores",
+          "views": 12900,
+          "likes": 371,
+          "reposts": 73,
+          "comments": 6,
+          "shares": 36
+        }
+      ]
     },
     {
       "id": 99,
@@ -5097,16 +5190,16 @@
       "url": "https://www.threads.com/@taiwandotmd/post/DY1RPKCkcpo",
       "template": "F 站方公開信（公開感謝 + 一個月進化 + 跨單位合作 + 透明用途 + 邀請）",
       "metrics": {
-        "views": null,
-        "likes": 96,
-        "reposts": 8,
-        "comments": 2,
+        "views": 1752,
+        "likes": 97,
+        "reposts": 2,
+        "comments": 8,
         "shares": 14
       },
       "metricsAsOf": {
-        "dPlus": 6,
-        "harvestDate": "2026-06-02 06:30",
-        "batch": "batch-2026-06-02-15-spores",
+        "dPlus": 17,
+        "harvestDate": "2026-06-13 06:38",
+        "batch": "batch-2026-06-13-15-spores",
         "source": "harvest"
       },
       "history": [
@@ -5118,6 +5211,16 @@
           "likes": 96,
           "reposts": 8,
           "comments": 2,
+          "shares": 14
+        },
+        {
+          "dPlus": 17,
+          "harvestDate": "2026-06-13 06:38",
+          "batch": "batch-2026-06-13-15-spores",
+          "views": 1752,
+          "likes": 97,
+          "reposts": 2,
+          "comments": 8,
           "shares": 14
         }
       ]
@@ -5133,14 +5236,30 @@
       "url": "https://x.com/taiwandotmd/status/2059525841735016585",
       "template": "F 站方公開信（公開感謝 + 一個月進化 + 跨單位合作 + 透明用途 + 邀請）",
       "metrics": {
-        "views": null,
-        "likes": null,
-        "reposts": null,
-        "comments": null,
-        "shares": null
+        "views": 1733,
+        "likes": 90,
+        "reposts": 21,
+        "comments": 2,
+        "shares": 14
       },
-      "metricsAsOf": null,
-      "history": []
+      "metricsAsOf": {
+        "dPlus": 17,
+        "harvestDate": "2026-06-13 06:38",
+        "batch": "batch-2026-06-13-15-spores",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 17,
+          "harvestDate": "2026-06-13 06:38",
+          "batch": "batch-2026-06-13-15-spores",
+          "views": 1733,
+          "likes": 90,
+          "reposts": 21,
+          "comments": 2,
+          "shares": 14
+        }
+      ]
     },
     {
       "id": 101,
@@ -5153,17 +5272,17 @@
       "url": "https://www.threads.com/@taiwandotmd/post/DY1oPxokz0L",
       "template": "A2 首尾呼應變體（2010 Photo Booth pre-set 起點 → 2023 Coachella 沙漠舞台終點，14 年同一張圖回扣）",
       "metrics": {
-        "views": 0,
+        "views": 701,
         "likes": 26,
         "reposts": 1,
         "comments": 1,
         "shares": 0
       },
       "metricsAsOf": {
-        "dPlus": 6,
-        "harvestDate": "2026-06-02 06:30",
-        "batch": "batch-2026-06-02-15-spores",
-        "source": "harvest+backfill"
+        "dPlus": 17,
+        "harvestDate": "2026-06-13 06:38",
+        "batch": "batch-2026-06-13-15-spores",
+        "source": "harvest"
       },
       "history": [
         {
@@ -5171,6 +5290,16 @@
           "harvestDate": "2026-06-02 06:30",
           "batch": "batch-2026-06-02-15-spores",
           "views": null,
+          "likes": 26,
+          "reposts": 1,
+          "comments": 1,
+          "shares": 0
+        },
+        {
+          "dPlus": 17,
+          "harvestDate": "2026-06-13 06:38",
+          "batch": "batch-2026-06-13-15-spores",
+          "views": 701,
           "likes": 26,
           "reposts": 1,
           "comments": 1,
@@ -5189,19 +5318,30 @@
       "url": "https://x.com/taiwandotmd/status/2059577645722210476",
       "template": "A2 首尾呼應變體（2010 Photo Booth pre-set 起點 → 2023 Coachella 沙漠舞台終點，14 年同一張圖回扣）",
       "metrics": {
-        "views": 0,
-        "likes": 0,
-        "reposts": 0,
-        "comments": 0,
-        "shares": 0
+        "views": 1045,
+        "likes": 25,
+        "reposts": 4,
+        "comments": 1,
+        "shares": 2
       },
       "metricsAsOf": {
-        "dPlus": null,
-        "harvestDate": null,
-        "batch": null,
-        "source": "frontmatter-seed"
+        "dPlus": 17,
+        "harvestDate": "2026-06-13 06:38",
+        "batch": "batch-2026-06-13-15-spores",
+        "source": "harvest"
       },
-      "history": []
+      "history": [
+        {
+          "dPlus": 17,
+          "harvestDate": "2026-06-13 06:38",
+          "batch": "batch-2026-06-13-15-spores",
+          "views": 1045,
+          "likes": 25,
+          "reposts": 4,
+          "comments": 1,
+          "shares": 2
+        }
+      ]
     },
     {
       "id": 103,
@@ -5214,19 +5354,30 @@
       "url": "https://www.threads.com/@taiwandotmd/post/DY4u5UzAVcT",
       "template": "B 身份反差 hook（KTV 點唱率 25 年 vs 歌手本人 25 年才被認出 → 2026 小巨蛋「練習 26 年」+ 聲帶萎縮 endpoint）",
       "metrics": {
-        "views": 0,
-        "likes": 0,
-        "reposts": 0,
-        "comments": 0,
+        "views": 3099,
+        "likes": 52,
+        "reposts": 1,
+        "comments": 1,
         "shares": 0
       },
       "metricsAsOf": {
-        "dPlus": null,
-        "harvestDate": null,
-        "batch": null,
-        "source": "frontmatter-seed"
+        "dPlus": 16,
+        "harvestDate": "2026-06-13 06:38",
+        "batch": "batch-2026-06-13-15-spores",
+        "source": "harvest"
       },
-      "history": []
+      "history": [
+        {
+          "dPlus": 16,
+          "harvestDate": "2026-06-13 06:38",
+          "batch": "batch-2026-06-13-15-spores",
+          "views": 3099,
+          "likes": 52,
+          "reposts": 1,
+          "comments": 1,
+          "shares": 0
+        }
+      ]
     },
     {
       "id": 104,
@@ -5239,19 +5390,30 @@
       "url": "https://x.com/taiwandotmd/status/2060010924015321462",
       "template": "B 身份反差 hook（KTV 點唱率 25 年 vs 歌手本人 25 年才被認出 → 2026 小巨蛋「練習 26 年」+ 聲帶萎縮 endpoint）",
       "metrics": {
-        "views": 0,
-        "likes": 0,
-        "reposts": 0,
+        "views": 1479,
+        "likes": 25,
+        "reposts": 4,
         "comments": 0,
         "shares": 0
       },
       "metricsAsOf": {
-        "dPlus": null,
-        "harvestDate": null,
-        "batch": null,
-        "source": "frontmatter-seed"
+        "dPlus": 16,
+        "harvestDate": "2026-06-13 06:38",
+        "batch": "batch-2026-06-13-15-spores",
+        "source": "harvest"
       },
-      "history": []
+      "history": [
+        {
+          "dPlus": 16,
+          "harvestDate": "2026-06-13 06:38",
+          "batch": "batch-2026-06-13-15-spores",
+          "views": 1479,
+          "likes": 25,
+          "reposts": 4,
+          "comments": 0,
+          "shares": 0
+        }
+      ]
     },
     {
       "id": 109,

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T22:11:04.142072Z",
+  "lastUpdated": "2026-06-12T22:50:23.227887Z",
   "schemaVersion": "1.1",
   "totals": {
     "count": 125,
@@ -195,140 +195,140 @@
   "amplification": [],
   "platformComparison": {
     "threads": {
-      "count": 35,
-      "avgViews": 27511,
+      "count": 39,
+      "avgViews": 25023,
       "maxViews": 300000,
-      "avgRate": 7.06,
+      "avgRate": 6.67,
       "maxRate": 13.53
     },
     "x": {
-      "count": 33,
-      "avgViews": 18245,
+      "count": 44,
+      "avgViews": 15712,
       "maxViews": 136474,
-      "avgRate": 3.94,
+      "avgRate": 3.42,
       "maxRate": 9.09
     }
   },
   "backfillWarnings": [
     {
-      "n": 81,
-      "article": "馬英九",
-      "platform": "x",
-      "publishedDays": 21,
-      "status": "OVERDUE",
-      "url": "https://x.com/taiwandotmd/status/2057861183848550878"
-    },
-    {
-      "n": 83,
-      "article": "許倬雲",
-      "platform": "x",
-      "publishedDays": 21,
-      "status": "OVERDUE",
-      "url": "https://x.com/taiwandotmd/status/2058183941593719181"
-    },
-    {
-      "n": 85,
-      "article": "臺灣漫遊錄",
-      "platform": "x",
-      "publishedDays": 21,
-      "status": "OVERDUE",
-      "url": "https://x.com/taiwandotmd/status/2058211699229134864"
-    },
-    {
-      "n": 88,
-      "article": "半導體產業",
-      "platform": "x",
-      "publishedDays": 19,
-      "status": "OVERDUE",
-      "url": "https://x.com/taiwandotmd/status/2058735515021783190"
-    },
-    {
-      "n": 90,
-      "article": "雷亞遊戲",
-      "platform": "x",
-      "publishedDays": 19,
-      "status": "OVERDUE",
-      "url": "https://x.com/taiwandotmd/status/2058811390337622339"
-    },
-    {
-      "n": 94,
-      "article": "大宇雙劍",
-      "platform": "x",
-      "publishedDays": 18,
-      "status": "OVERDUE",
-      "url": "https://x.com/taiwandotmd/status/2059239795231281223"
-    },
-    {
-      "n": 96,
-      "article": "尹衍樑",
-      "platform": "x",
-      "publishedDays": 18,
-      "status": "OVERDUE",
-      "url": "https://x.com/taiwandotmd/status/2059290686671982831"
-    },
-    {
-      "n": 97,
-      "article": "台灣美食總覽",
+      "n": 109,
+      "article": "科技園區發展",
       "platform": "threads",
-      "publishedDays": 17,
+      "publishedDays": 15,
       "status": "OVERDUE",
-      "url": "https://www.threads.com/@taiwandotmd/post/DY0zmnNE5RT"
+      "url": "https://www.threads.com/@taiwandotmd/post/DY6a0JvEdd7"
     },
     {
-      "n": 98,
-      "article": "台灣美食總覽",
+      "n": 110,
+      "article": "科技園區發展",
       "platform": "x",
-      "publishedDays": 17,
+      "publishedDays": 15,
       "status": "OVERDUE",
-      "url": "https://x.com/taiwandotmd/status/2059458468898287770"
+      "url": "https://x.com/taiwandotmd/status/2060247955467325544"
     },
     {
-      "n": 99,
-      "article": "portaly-五月公開信",
+      "n": 111,
+      "article": "Computex",
       "platform": "threads",
-      "publishedDays": 17,
+      "publishedDays": 12,
       "status": "OVERDUE",
-      "url": "https://www.threads.com/@taiwandotmd/post/DY1RPKCkcpo"
+      "url": "https://www.threads.com/@taiwandotmd/post/DZCb3_QEyJX"
     },
     {
-      "n": 100,
-      "article": "portaly-五月公開信",
+      "n": 112,
+      "article": "Computex",
       "platform": "x",
-      "publishedDays": 17,
+      "publishedDays": 12,
       "status": "OVERDUE",
-      "url": "https://x.com/taiwandotmd/status/2059525841735016585"
+      "url": "https://x.com/taiwandotmd/status/2061379958304584103"
     },
     {
-      "n": 101,
-      "article": "落日飛車",
+      "n": 114,
+      "article": "天燈",
+      "platform": "x",
+      "publishedDays": 10,
+      "status": "OVERDUE",
+      "url": "https://x.com/taiwandotmd/status/2061992719715795224"
+    },
+    {
+      "n": 116,
+      "article": "颱風",
+      "platform": "x",
+      "publishedDays": 10,
+      "status": "OVERDUE",
+      "url": "https://x.com/taiwandotmd/status/2062065024613679469"
+    },
+    {
+      "n": 118,
+      "article": "開放文化基金會",
+      "platform": "x",
+      "publishedDays": 10,
+      "status": "OVERDUE",
+      "url": "https://x.com/taiwandotmd/status/2062197280984399945"
+    },
+    {
+      "n": 121,
+      "article": "中華台北",
+      "platform": "x",
+      "publishedDays": 9,
+      "status": "OVERDUE",
+      "url": "https://x.com/taiwandotmd/status/2062529681283522655"
+    },
+    {
+      "n": 123,
+      "article": "國家太空中心",
+      "platform": "x",
+      "publishedDays": 9,
+      "status": "OVERDUE",
+      "url": "https://x.com/taiwandotmd/status/2062546721742483679"
+    },
+    {
+      "n": 124,
+      "article": "我是OO人",
       "platform": "threads",
-      "publishedDays": 17,
+      "publishedDays": 8,
       "status": "OVERDUE",
-      "url": "https://www.threads.com/@taiwandotmd/post/DY1oPxokz0L"
+      "url": "https://www.threads.com/@taiwandotmd/post/DZM0aZ2kzIN"
     },
     {
-      "n": 102,
-      "article": "落日飛車",
+      "n": 125,
+      "article": "我是OO人",
       "platform": "x",
-      "publishedDays": 17,
+      "publishedDays": 8,
       "status": "OVERDUE",
-      "url": "https://x.com/taiwandotmd/status/2059577645722210476"
+      "url": "https://x.com/taiwandotmd/status/2062839725648703638"
     },
     {
-      "n": 103,
-      "article": "周蕙",
+      "n": 126,
+      "article": "國宅與居住正義",
       "platform": "threads",
-      "publishedDays": 16,
+      "publishedDays": 7,
       "status": "OVERDUE",
-      "url": "https://www.threads.com/@taiwandotmd/post/DY4u5UzAVcT"
+      "url": "https://www.threads.com/@taiwandotmd/post/DZPIcLHEzpk"
     },
     {
-      "n": 104,
-      "article": "周蕙",
+      "n": 127,
+      "article": "國宅與居住正義",
       "platform": "x",
-      "publishedDays": 16,
+      "publishedDays": 7,
       "status": "OVERDUE",
-      "url": "https://x.com/taiwandotmd/status/2060010924015321462"
+      "url": "https://x.com/taiwandotmd/status/2063165712261390793"
+    },
+    {
+      "n": 128,
+      "article": "黃山料",
+      "platform": "threads",
+      "publishedDays": 6,
+      "status": "waiting",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZSRQKnk3Vm"
+    },
+    {
+      "n": 129,
+      "article": "黃山料",
+      "platform": "x",
+      "publishedDays": 6,
+      "status": "waiting",
+      "url": "https://x.com/taiwandotmd/status/2063604185912987689"
     }
   ],
   "noUrlHistorical": [
@@ -385,12 +385,12 @@
     {
       "week": "2026-W21",
       "published": 8,
-      "avgViews": 10422
+      "avgViews": 10563
     },
     {
       "week": "2026-W22",
       "published": 20,
-      "avgViews": 6300
+      "avgViews": 5139
     },
     {
       "week": "2026-W23",
@@ -1201,8 +1201,8 @@
       "publishDate": "2026-05-23",
       "daysSincePublish": 21,
       "withinHarvestWindow": false,
-      "harvestCount": 4,
-      "lastHarvest": "2026-05-27 07:00"
+      "harvestCount": 5,
+      "lastHarvest": "2026-06-13 06:38"
     },
     {
       "n": 82,
@@ -1221,8 +1221,8 @@
       "publishDate": "2026-05-23",
       "daysSincePublish": 21,
       "withinHarvestWindow": false,
-      "harvestCount": 4,
-      "lastHarvest": "2026-05-27 07:00"
+      "harvestCount": 5,
+      "lastHarvest": "2026-06-13 06:38"
     },
     {
       "n": 84,
@@ -1241,8 +1241,8 @@
       "publishDate": "2026-05-23",
       "daysSincePublish": 21,
       "withinHarvestWindow": false,
-      "harvestCount": 3,
-      "lastHarvest": "2026-05-27 07:00"
+      "harvestCount": 4,
+      "lastHarvest": "2026-06-13 06:38"
     },
     {
       "n": 86,
@@ -1271,8 +1271,8 @@
       "publishDate": "2026-05-25",
       "daysSincePublish": 19,
       "withinHarvestWindow": false,
-      "harvestCount": 2,
-      "lastHarvest": "2026-05-27 07:00"
+      "harvestCount": 3,
+      "lastHarvest": "2026-06-13 06:38"
     },
     {
       "n": 89,
@@ -1291,8 +1291,8 @@
       "publishDate": "2026-05-25",
       "daysSincePublish": 19,
       "withinHarvestWindow": false,
-      "harvestCount": 2,
-      "lastHarvest": "2026-05-27 07:00"
+      "harvestCount": 3,
+      "lastHarvest": "2026-06-13 06:38"
     },
     {
       "n": 91,
@@ -1331,8 +1331,8 @@
       "publishDate": "2026-05-26",
       "daysSincePublish": 18,
       "withinHarvestWindow": false,
-      "harvestCount": 1,
-      "lastHarvest": ""
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-13 06:38"
     },
     {
       "n": 95,
@@ -1351,8 +1351,8 @@
       "publishDate": "2026-05-26",
       "daysSincePublish": 18,
       "withinHarvestWindow": false,
-      "harvestCount": 1,
-      "lastHarvest": "2026-05-27 07:00"
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-13 06:38"
     },
     {
       "n": 97,
@@ -1361,8 +1361,8 @@
       "publishDate": "2026-05-27",
       "daysSincePublish": 17,
       "withinHarvestWindow": false,
-      "harvestCount": 1,
-      "lastHarvest": ""
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-13 06:38"
     },
     {
       "n": 98,
@@ -1371,8 +1371,8 @@
       "publishDate": "2026-05-27",
       "daysSincePublish": 17,
       "withinHarvestWindow": false,
-      "harvestCount": 1,
-      "lastHarvest": ""
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-13 06:38"
     },
     {
       "n": 99,
@@ -1381,8 +1381,8 @@
       "publishDate": "2026-05-27",
       "daysSincePublish": 17,
       "withinHarvestWindow": false,
-      "harvestCount": 1,
-      "lastHarvest": "2026-06-02 06:30"
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-13 06:38"
     },
     {
       "n": 100,
@@ -1391,8 +1391,8 @@
       "publishDate": "2026-05-27",
       "daysSincePublish": 17,
       "withinHarvestWindow": false,
-      "harvestCount": 0,
-      "lastHarvest": null
+      "harvestCount": 1,
+      "lastHarvest": "2026-06-13 06:38"
     },
     {
       "n": 101,
@@ -1401,8 +1401,8 @@
       "publishDate": "2026-05-27",
       "daysSincePublish": 17,
       "withinHarvestWindow": false,
-      "harvestCount": 2,
-      "lastHarvest": "2026-06-02 06:30"
+      "harvestCount": 3,
+      "lastHarvest": "2026-06-13 06:38"
     },
     {
       "n": 102,
@@ -1411,8 +1411,8 @@
       "publishDate": "2026-05-27",
       "daysSincePublish": 17,
       "withinHarvestWindow": false,
-      "harvestCount": 1,
-      "lastHarvest": ""
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-13 06:38"
     },
     {
       "n": 103,
@@ -1421,8 +1421,8 @@
       "publishDate": "2026-05-28",
       "daysSincePublish": 16,
       "withinHarvestWindow": false,
-      "harvestCount": 1,
-      "lastHarvest": ""
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-13 06:38"
     },
     {
       "n": 104,
@@ -1431,8 +1431,8 @@
       "publishDate": "2026-05-28",
       "daysSincePublish": 16,
       "withinHarvestWindow": false,
-      "harvestCount": 1,
-      "lastHarvest": ""
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-13 06:38"
     },
     {
       "n": 109,
