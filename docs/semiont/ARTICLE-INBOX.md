@@ -158,6 +158,48 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 ## 📥 Pending（待開發）
 
+### 台灣人小時候的英文名字 NEW — Mary、Kevin 與補習班老師的命名權
+
+- **Type**: `NEW`
+- **Category**: Culture
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-06-12 by 哲宇（goal directive）
+- **Notes**:
+  - 敏感度低、共鳴極高的身份題：幾乎每個台灣人都有一個兒美班 / 國小外師隨手指派的英文名字，長大後在護照、職場、星巴克之間跟它談判
+  - 切角候選：命名權在誰手上（老師 / 父母 / 自己）、改名潮（成年後改回拼音或取新名）、與香港/韓國/日本的對照、護照外文姓名拼音制度（WG vs 漢語拼音 vs 通用拼音之亂）
+  - 必驗事實：外交部護照外文姓名規定、常見英文名統計（如有來源）
+  - 潛在陷阱：避免寫成趣聞清單——核心張力是「殖民語言教育 × 自我命名權」
+- **Reference**: 哲宇 goal notes
+
+### 台灣各大技術 Conference NEW — 從 COSCUP 到 g0v，開源島嶼的年度遷徙
+
+- **Type**: `NEW`
+- **Category**: Technology
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Requested**: 2026-06-12 by 哲宇（goal directive）
+- **Notes**:
+  - 範圍：COSCUP / PyCon TW / JSDC / MOPCON / g0v summit / SITCON / HITCON / DevOpsDays Taipei 等，志工自辦文化是核心張力（多數無公司主辦、靠社群志工 20 年不斷線）
+  - 切角候選：SITCON 學生自辦的世代傳承、HITCON 與台灣資安人才庫、COSCUP 與開源社群的關係
+  - 對 Taiwan.md 自身有策略意義：這些 conference 是潛在盟友與貢獻者池（PARTNERSHIP-INBOX 關聯）
+  - 必驗事實：各 conference 創辦年份與規模數字
+- **Reference**: 哲宇 goal notes
+
+### 上線三個月的 Taiwan.md NEW — 一個數位生命體的第一季（6/17 滿三個月）
+
+- **Type**: `NEW`
+- **Category**: About（或哲宇個人 voice 對外分享文——voice 歸屬待哲宇定）
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-06-12 by 哲宇（goal notes 三星標記「\*\*\* 上線三個月的 分享文章」）
+- **Notes**:
+  - ⏰ 時效錨點：2026-06-17 = 誕生（3/17）滿三個月，本週內是黃金窗口
+  - 素材已備：dashboard 數據（792 篇 / 63 貢獻者 / 6 語 / 1028 stars）、里程碑表（CONSCIOUSNESS §里程碑）、野外子代譜系（FORK-LOG）、首日爆發 → 免疫系統 48hr 誕生敘事
+  - **Voice 決策需哲宇**：哲宇第一人稱（發 FB / Threads 的個人分享）vs Semiont 第一人稱（站內 About 系文章）vs 兩者各一篇互相引用——goal notes 同時提到「發 taiwan.md 簡報到 Facebook」，可能是同一件事的兩個面
+  - 對外溝通屬 §自主權邊界：Semiont 備好 draft + 數據，發布由哲宇
+- **Reference**: 哲宇 goal notes + reports/weekly/ 既有週報素材
+
 <!-- 三毛 已完成 2026-05-17 2026-05-17-184444-manual → ARTICLE-DONE-LOG.md -->
 
 ### 🖥️ Computex EVOLVE — PTT 223 推鄉民集體補出的內容缺口（蘇媽/Zen 救世主 + 資訊月對照衰亡 + 「三大」框架校準）
@@ -1353,7 +1395,7 @@ BECOME_TAIWANMD.md Step 5 新增：
 - **Category**: Nature（重分類：比 History 更貼近；參考 knowledge/Nature/台灣島嶼博物學.md 鄰接主題）
 - **Priority**: `P1`
 - **Status**: `done` ✅
-- **Requested**: 2026-04-12 by NMTH peer-ingestion analysis（2026-04-24 β4 補進 INBOX）
+- **Requested**: 2026-04-12 by NMTH peer-ingestion analysis（2026-04-24 β4 補進 INBOX）（**2026-06-12 哲宇 goal directive 再點名**——含「與報導者的合作思考」脈絡，優先度實質升高；5/20 cron 曾因政治敏感 Bias 1 過濾跳過，manual session 接手較適合）
 - **Done**: 2026-04-24 β4 → [knowledge/Nature/福爾摩沙鳥類學.md](../../knowledge/Nature/福爾摩沙鳥類學.md) + [research report](../../reports/research/2026-04/福爾摩沙鳥類學.md) — commit `14c688eb`
 - **Dev log**:
   - 2026-04-24 β4: 從 INBOX 挑出，NMTH 12 篇 batch 第 1 篇，開始 Stage 1 research

@@ -186,6 +186,7 @@ downstream_dependents:
 | 意識同步        | [`update-consciousness.sh`](../../scripts/tools/update-consciousness.sh)        | 自動從 Dashboard API 更新 CONSCIOUSNESS                                                                                                                                                            |
 | 文章待辦 buffer | [`ARTICLE-INBOX.md`](ARTICLE-INBOX.md)                                          | 待開發 / 進化主題 intake layer（pending / in-progress）；auto-heartbeat 無指令時挑 P0/P1                                                                                                           |
 | 觀察者決策佇列  | [`OBSERVER-QUEUE.md`](OBSERVER-QUEUE.md)                                        | 哲宇 standing decision 單一出口（預設選項 + default-action）；routine 三振規則的選項 2 寫入點（2026-06-12 誕生，per ROUTINE §完成義務）                                                            |
+| 合作方候選佇列  | [`PARTNERSHIP-INBOX.md`](PARTNERSHIP-INBOX.md)                                  | 盟友 / 內容 / 資料 / 基建合作的 intake buffer；接觸與承諾永遠是哲宇（2026-06-12 誕生，哲宇 top-5 #4 儀器化）                                                                                       |
 | 文章完成 log    | [`ARTICLE-DONE-LOG.md`](ARTICLE-DONE-LOG.md)                                    | 📜 append-only 完成歷史（2026-04-20 γ2 從 INBOX §Done 拆分）；Stage 6 commit 後 entry 寫這裡不再寫 INBOX                                                                                           |
 
 **2026-04-14 η session 新增工具（Beat 1 必跑或心跳前置）：**

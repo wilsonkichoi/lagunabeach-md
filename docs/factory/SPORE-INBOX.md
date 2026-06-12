@@ -218,6 +218,57 @@ news-lens P1 count == 0 → daily routine 補 3
 
 ## 📥 Pending（待發）
 
+### 陳水扁 — Threads 活躍期的時效 spore
+
+- **Source-Mode**: `REACTIVE`
+- **Article-Path**: [knowledge/People/陳水扁.md](../../knowledge/People/陳水扁.md)
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-06-12 by 哲宇（goal directive「陳水扁 -> 最近threads很活躍」）
+- **Hook anchor 候選**:
+  1. **反差 hook**：當年的「台灣之子」現在每天在 Threads 上跟年輕人對話——平台比他兒子還年輕
+  2. **場景 hook**：從凱達格蘭大道的就職演說，到手機螢幕上的 Threads 貼文，陳水扁的麥克風換了三次形狀
+- **時效**: 本週內（Threads 活躍是 reactive 窗口，哲宇觀察時點 6/12）
+- **敏感度**: 高（政治人物 + 貪污案 + 保外就醫爭議——hook 不選邊，事實線走 article）
+- **必驗事實**: Threads 帳號真實性與近期活躍度（Chrome MCP 直讀）、article lastVerified 狀態
+- **必先 spawn ARTICLE-INBOX entry**: ❌（article 已存在；若 lastVerified > 90d 則 publish gate 會擋 → 先走 EVOLVE）
+- **預估發佈時機**: article 過 gate 即可，趁 Threads 活躍話題性
+- **Notes**: 高敏感 → routine 自動 ship 需特別走 SPORE-VERIFY 敏感度 gate；若被 defer 屬正常
+
+### 馬英九 — 哲宇點名候選（注意 #80 framing pending 舊案）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/People/馬英九.md](../../knowledge/People/馬英九.md)
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-06-12 by 哲宇（goal directive spore 選項）
+- **Hook anchor 候選**:
+  1. **數字 hook**：633 這三個數字，台灣人記了快二十年——它是承諾、是哏、也是一面照後鏡
+  2. **身份 hook**：當過總統的人裡，只有他在卸任後還每年去大陸祭祖、見過習近平兩次
+- **時效**: 無（evergreen 人物）
+- **敏感度**: 高（兩岸 + 政治立場雷區）
+- **必驗事實**: 馬習會次數與日期、633 政見原文、article lastVerified
+- **必先 spawn ARTICLE-INBOX entry**: ❌
+- **預估發佈時機**: ⚠️ **先決條件**：HARVEST-FRAMING-PENDING/2026-05-28 的 #80 馬英九 Bucket D framing 案仍 awaiting_observer——同人物有未結 framing 爭議時不自動 ship，等該案結案或哲宇 explicit go
+- **Notes**: 本 entry 對 routine 是 hold-with-condition；manual ship 不受限
+
+### 江賢二 — 第二輪（5/24 已發過一輪，換 hook 軸）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/Art/江賢二.md](../../knowledge/Art/江賢二.md)
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Requested**: 2026-06-12 by 哲宇（goal directive spore 選項）
+- **Hook anchor 候選**:
+  1. **場景 hook**：在巴黎跟紐約畫了三十年「封窗」的畫，回到台東金樽，他第一次把窗戶打開
+  2. **問句 hook**：一個畫家要多老，才能蓋一座給所有人的美術館？江賢二的答案是 81 歲
+- **時效**: 無
+- **敏感度**: 低
+- **必驗事實**: 5/24 第一輪 spore 用的 hook（場景型）——本輪必須換軸避免自我重複；江賢二藝術園區開園時間與現況
+- **必先 spawn ARTICLE-INBOX entry**: ❌
+- **預估發佈時機**: 與 5/24 前輪間隔已過 14 天排除窗，Stage 1 PICK 可抽
+- **Notes**: 哲宇連兩次點名江賢二（5/24 + 6/12），人物本身是他關注的訊號
+
 ### 台灣的年級生世代 — READY (cron 2026-06-08 article ship 同 cycle，#130/#131 blueprint 完成，DEFER 社群 post 等下次 cycle / 觀察者 manual)
 
 - **Source-Mode**: `EXISTING-ARTICLE`
@@ -328,7 +379,7 @@ news-lens P1 count == 0 → daily routine 補 3
 
 - **Source-Mode**: `EXISTING-ARTICLE`
 - **Article-Path**: [knowledge/People/曾博恩.md](../../knowledge/People/曾博恩.md)
-- **Priority**: `P2`
+- **Priority**: `P1`（2026-06-12 哲宇 goal directive 點名，P2→P1）
 - **Status**: `pending`
 - **Requested**: 2026-05-21 by 哲宇
 - **Hook anchor 候選**：
@@ -349,7 +400,7 @@ news-lens P1 count == 0 → daily routine 補 3
 
 - **Source-Mode**: `EXISTING-ARTICLE`
 - **Article-Path**: [knowledge/People/施振榮.md](../../knowledge/People/施振榮.md)
-- **Priority**: `P2`
+- **Priority**: `P1`（2026-06-12 哲宇 goal directive 點名，P2→P1）
 - **Status**: `pending`
 - **Requested**: 2026-05-21 by 哲宇
 - **Hook anchor 候選**：
