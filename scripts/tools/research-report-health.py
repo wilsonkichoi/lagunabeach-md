@@ -34,6 +34,8 @@ EN_HINTS = (
     "focustaiwan", "researchgate", "academia.edu", "ieee", "acm.org", "arxiv",
     "/en/", "thediplomat", "aljazeera", "economist", "ft.com", "wsj.com",
     "japantimes", "koreaherald", "scmp.com",
+    # 2026-06-12 justfont EVOLVE 補：科技/設計題常見英文媒體與國際組織（原漏）
+    "qz.com", "appleinsider", "goldthread", "atypi.org", "en.morisawa", "blog.adobe",
 )
 # 一手 = 官方 / 政府 / 學術原始來源
 # 註：.org.tw 多為財團法人 / 官方機構 / 協會官網（tdri.org.tw / goldenpin.org.tw /
@@ -45,6 +47,9 @@ PRIMARY_HINTS = (
     "ey.gov", "moc.gov", "moe.gov", "drnh.gov", "scholar.google", "jstor",
     "law.moj", "mops.twse", "gcis.nat", "data.gov", "nmth", "npm.gov",
     "ith.sinica", "drnh", "twreporter",  # 報導者 = 深度一手調查
+    # 2026-06-12 justfont EVOLVE 補（原漏，通用性站得住）：官方 source repo＝一手 artifact；
+    # 群募平台專案頁＝募資原始數據；國際專業協會官網＝一手
+    "github.com", "flyingv.cc", "wabay.tw", "zeczec.com", "atypi.org",
 )
 # 信度標記 pattern
 CONFIDENCE_RE = re.compile(
