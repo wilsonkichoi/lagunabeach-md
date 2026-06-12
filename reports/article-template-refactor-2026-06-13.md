@@ -214,8 +214,9 @@ git HEAD 不動）、同指令（`NODE_OPTIONS=--max-old-space-size=12288 npx as
    （88.7s 累計 render / 21s wall ≈ 4.2）
 3. **CI 投影**：6/10 audit 的 CI astro 階段 931s 中，文章頁佔 2,701s 累計
    （554ms/頁）。修掉 git 子程序後本機文章頁 18.5ms；CI（x86 4 vCPU）預期
-   astro 階段降到 ~150-350s 區間。**下一個 deploy 的 build log 會給實數**——
-   audit 熱點 #6 的感測器修好之前，先人工讀一次。
+   astro 階段降到 ~150-350s 區間。**下一個 deploy 的 build log 會給實數**
+   →（第二階段補記）實數出爐：astro 56.5s / Build step 125s，比預測更好，
+   完整拆帳見 [refactor-verification-2026-06-13.md §3](refactor-verification-2026-06-13.md)。
 
 ---
 
@@ -235,11 +236,11 @@ git HEAD 不動）、同指令（`NODE_OPTIONS=--max-old-space-size=12288 npx as
 
 ### 6.2 量測儀器（讓下次退化自己浮上來）
 
-- 6/10 audit 熱點 #6（build-perf 感測器壞掉：`ms_per_page_latest: 1099000`）**仍未修**——
-  這顆感測器活著的話，5/03 template 統一引入 git regression 當天就會在 dashboard 上
-  顯示 ms/頁跳階。它是「per-page render 變慢」唯一的自動防線，優先級應提到下一個
-  tooling session 的第一位
-- 修好後在 `dashboard-build-perf.json` 加 `astro_ms_per_article_page` 維度（文章頁
+- ~~6/10 audit 熱點 #6（build-perf 感測器壞掉）仍未修~~ **更正（同 session 第二階段讀碼證實）**：
+  #6 已修——`extract-build-perf.mjs` 的 `grep -o` 修正 + 真 7d/30d 時間窗 + coverage_days +
+  CI self-skip 都已落地（見 [refactor-verification-2026-06-13.md §4.1](refactor-verification-2026-06-13.md)）。
+  初稿寫「未修」是憑 6/10 audit 快照推論、沒重讀現碼——「audit 結論也有保鮮期」
+- 後續可加：`dashboard-build-perf.json` 加 `astro_ms_per_article_page` 維度（文章頁
   跟 raw 頁分開算，乘數頁的退化才不會被 raw 頁稀釋）
 
 ### 6.3 結構性天花板（頁數 +27/天的增長曲線）
