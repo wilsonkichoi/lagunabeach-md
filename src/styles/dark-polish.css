@@ -61,7 +61,7 @@
 :root[data-theme='dark'] .prose a:hover {
   text-decoration-color: var(--color-accent);
 }
-:root[data-theme='dark'] .prose blockquote {
+:root[data-theme='dark'] .prose blockquote:not(.tw-quote-text) {
   color: var(--color-ink-soft);
   border-left-color: var(--color-accent);
   /* The light-mode rule paints `rgba(26,60,52,0.04)` over cream — readable.
@@ -84,20 +84,21 @@
 :root[data-theme='dark'] .prose hr {
   border-color: var(--color-border);
 }
-:root[data-theme='dark'] .prose table {
+/* :not(.tw-heatmap-table …) — tw-heatmap 模組自帶配色（cascade leak 修復 2026-06-12） */
+:root[data-theme='dark'] .prose table:not(.tw-heatmap-table) {
   color: var(--color-ink);
 }
-:root[data-theme='dark'] .prose th,
-:root[data-theme='dark'] .prose td {
+:root[data-theme='dark'] .prose table:not(.tw-heatmap-table) th,
+:root[data-theme='dark'] .prose table:not(.tw-heatmap-table) td {
   color: var(--color-ink);
   /* Same reason as the h2 underline: 12% ink is invisible on near-black,
    * lift to 28% for visible cell borders. */
   border-color: color-mix(in srgb, var(--color-ink) 28%, transparent);
 }
-:root[data-theme='dark'] .prose th {
+:root[data-theme='dark'] .prose table:not(.tw-heatmap-table) th {
   background: color-mix(in srgb, var(--color-ink) 6%, transparent);
 }
-:root[data-theme='dark'] .prose tr:hover td {
+:root[data-theme='dark'] .prose table:not(.tw-heatmap-table) tr:hover td {
   background: color-mix(in srgb, var(--color-ink) 3%, transparent);
 }
 

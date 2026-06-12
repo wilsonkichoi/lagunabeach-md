@@ -35,11 +35,18 @@ APPLIES_TO = ["zh-TW"]  # 中文 SSOT 檢查；翻譯沿用幾何，文字由 ba
 
 # 呈現「資料關係」的圖表模組 → 強制標來源（用 `來源：…` 列）。
 # tw-figure / tw-stat 是關鍵數字 callout，來源走自身 positional slot，不在此強制集。
+# 2026-06-12 viz-evolution：+slope/dot/stack/pyramid/tiles/iso（graph.md v2.0 新六圖表模組）。
 _DATA_MODULES = {
     "tw-bars",
     "tw-waffle",
     "tw-line",
     "tw-heatmap",
+    "tw-slope",
+    "tw-dot",
+    "tw-stack",
+    "tw-pyramid",
+    "tw-tiles",
+    "tw-iso",
 }
 
 # fenced tw-* block：```tw-xxx\n …內容… \n```
