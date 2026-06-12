@@ -52,14 +52,20 @@ Where batch1.txt is one zh_path per line (P2 stale candidates).
 """
 
 import argparse
-import hashlib
 import json
 import re
 import subprocess
+import sys
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[3]
 LANGS = ["en", "ja", "ko", "es", "fr"]
+
+# Hash 函式 canonical 在 status.py — 本檔曾自帶一份實作（full-file hash + lstrip 差異），
+# 跟 status.py 的 body-only hash 語意分歧，patch 寫回的 sourceContentHash 永遠對不上
+# → 補完 patch 仍判 stale 的迴圈（2026-06-08 起連 4 晚 /tmp 自救）。單一來源杜絕。
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from status import body_hash, body_hash_pure  # noqa: E402
 
 
 def git_show(sha, path):
@@ -84,6 +90,19 @@ def git_diff(old_sha, new_sha, path):
 
 def git_latest_commit():
     result = subprocess.run(["git", "rev-parse", "HEAD"], capture_output=True, text=True, cwd=REPO)
+    return result.stdout.strip()
+
+
+def git_file_last_commit(rel_path):
+    """zh 檔自己的最後一個 commit（NOT repo HEAD）。
+
+    status.py classify 比對 translation sourceCommitSha vs zh 檔 lastCommit；寫 HEAD
+    進 frontmatter 會讓 sha 不在該檔歷史 → Case D fallback → hash 再 mismatch → 永遠 stale。
+    """
+    result = subprocess.run(
+        ["git", "log", "-1", "--format=%H", "--", rel_path],
+        capture_output=True, text=True, cwd=REPO,
+    )
     return result.stdout.strip()
 
 
@@ -122,19 +141,6 @@ def find_translation_file(zh_path, lang):
     return None
 
 
-def hash_content(text):
-    return "sha256:" + hashlib.sha256(text.encode("utf-8")).hexdigest()[:16]
-
-
-def strip_frontmatter(text):
-    if not text.startswith("---"):
-        return text
-    end = text.find("---", 3)
-    if end == -1:
-        return text
-    return text[end + 3:].lstrip("\n")
-
-
 def build_task(zh_path, lang, max_diff_lines=100):
     """Build one (zh_path, lang) patch task. Returns dict or None if skip."""
     tf = find_translation_file(zh_path, lang)
@@ -162,15 +168,19 @@ def build_task(zh_path, lang, max_diff_lines=100):
     current_zh = current_zh_path.read_text(encoding="utf-8") if current_zh_path.exists() else ""
     current_translation = tf.read_text(encoding="utf-8")
 
-    body = strip_frontmatter(current_zh)
+    # 三個 expected 值全部對齊 status.py 的 truth function（單一來源）：
+    #   sha   = zh 檔自己的 lastCommit（不是 repo HEAD）
+    #   hash  = body_hash（frontmatter 後全 body，含 trailer）
+    #   body  = body_hash_pure（再 strip trailer + footnote defs）
+    zh_last_sha = git_file_last_commit(f"knowledge/{zh_path}")
     return {
         "zh_path": zh_path,
         "lang": lang,
         "translation_path": str(tf.relative_to(REPO)),
         "old_sha": old_sha,
-        "expected_new_sha": latest_sha[:8],
-        "expected_new_content_hash": hash_content(current_zh),
-        "expected_new_body_hash": hash_content(body),
+        "expected_new_sha": zh_last_sha[:8],
+        "expected_new_content_hash": body_hash(current_zh),
+        "expected_new_body_hash": body_hash_pure(current_zh),
         "zh_diff": diff,
         "diff_lines": diff_lines,
         "current_zh": current_zh,
