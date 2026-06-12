@@ -89,8 +89,14 @@ jobs:
       # 真實 i18n breadcrumb labels、frontmatter title + description 直讀。
       # Incremental cache key 改 track v4 visual canonical：generate-og-images.mjs
       # + favicon.png（content 變動由 mtime 增量檢查，restore-keys 撿最新快取）。
+      # 2026-06-13 refactor-article session（audit §⑤ cache churn 項）：
+      # actions/cache@v4 的 key 含 run_id = 每 run 必存新 186MB cache，
+      # ~15 run/天 ≈ 2.8GB/天 quota churn 會 LRU 擠掉 npm/playwright cache。
+      # 拆成 restore（每 run 都要）+ save（只在 OG generation 真的跑過時）。
+      # 功能等價：needed=false 時 cache 內容不變，存回去是純浪費；
+      # og-rename-sync 的 mv 冪等，skip save 最壞情況 = 下一 run 重做 mv。
       - name: Restore OG image cache
-        uses: actions/cache@v4
+        uses: actions/cache/restore@v4
         with:
           path: public/og-images
           key: og-images-${{ hashFiles('scripts/core/generate-og-images.mjs', 'public/favicon.png') }}-${{ github.run_id }}
@@ -165,6 +171,14 @@ jobs:
           npm run og:generate || {
             echo "⚠️  OG generation partial failure — SEO fallback kicks in"
           }
+
+      # 只在 OG generation 真的跑過時才存 cache（對應上方 restore/save 拆分註解）
+      - name: Save OG image cache
+        if: steps.og-changes.outputs.needed == 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: public/og-images
+          key: og-images-${{ hashFiles('scripts/core/generate-og-images.mjs', 'public/favicon.png') }}-${{ github.run_id }}
 
       - name: Build
         # Feedback widget config (2026-06-01). Unset → empty → resolveBackendKind()
