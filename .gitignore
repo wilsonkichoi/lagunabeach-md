@@ -56,6 +56,7 @@ cloudflare-token*
 public/api/random.json
 public/api/random.json
 public/api/search-minisearch.json
+public/api/search-minisearch-*.json
 
 # ═══ 自動生成的資料檔案（由 npm run prebuild 在 CI 重生，不該進 git）═══
 # 對應 PR #551 洞察（dreamline2 誤 commit auto-generated JSON）：

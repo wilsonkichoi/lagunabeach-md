@@ -557,7 +557,15 @@ const jfClass = [
 
       function _isCJK(ch) {
         var cp = ch.codePointAt(0);
-        return (cp >= 0x4e00 && cp <= 0x9fff) || (cp >= 0x3400 && cp <= 0x4dbf);
+        // 範圍必須跟 scripts/core/build-search-index.mjs 的 isCJK 同步 —
+        // 2026-06-13 Phase 0 補假名 + 諺文（query 端打不中 index 端的洞）
+        return (
+          (cp >= 0x4e00 && cp <= 0x9fff) ||
+          (cp >= 0x3400 && cp <= 0x4dbf) ||
+          (cp >= 0x3040 && cp <= 0x30ff) ||
+          (cp >= 0x31f0 && cp <= 0x31ff) ||
+          (cp >= 0xac00 && cp <= 0xd7a3)
+        );
       }
 
       function _queryBigrams(text) {
@@ -597,7 +605,13 @@ const jfClass = [
 
       async function _initSearchEngine() {
         try {
-          var res = await fetch('/api/search-minisearch.json');
+          // 2026-06-13 RAG Phase 0：先抓本頁語言的 per-lang shard（六語各一份，
+          // ja/ko/es/fr 讀者從零母語結果 → 全母語語料）；shard 404 時退回
+          // legacy combined zh+en（舊部署 / 快取相容）。
+          var _docLang =
+            document.documentElement.getAttribute('lang') || 'zh-TW';
+          var res = await fetch('/api/search-minisearch-' + _docLang + '.json');
+          if (!res.ok) res = await fetch('/api/search-minisearch.json');
           if (!res.ok) throw new Error('HTTP ' + res.status);
           var data = await res.json();
           var MiniSearch = (
