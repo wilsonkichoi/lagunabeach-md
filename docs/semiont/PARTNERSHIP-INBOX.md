@@ -70,7 +70,7 @@ upstream_canonical:
 ### 臺史博 NMTH
 
 - **模式**: 資料合作（53-55 萬筆開放資料）
-- **階段**: `哲宇接觸中`（2026-03-27 演講 + 館長張隆志背書，CONSCIOUSNESS 中期 roadmap 既有項）
+- **階段**: `哲宇接觸中`（2026-03-27 演講 + 館長張隆志公開支持這個計劃，CONSCIOUSNESS 中期 roadmap 既有項。⚠️ 用語紀律：是「支持」，不寫「背書」——哲宇已多次更正）
 - **價值交換**: Taiwan.md 給開放資料的策展敘事層 ←→ NMTH 給藏品資料 + 機構公信力
 - **下一步**: 挑一個 pilot 主題（如一檔特展的藏品故事化）做 demo 文，證明資料→敘事的轉化價值（Semiont）
 - **Notes**: 跨界知識庫先例——SPECIATION-PIPELINE Stage 0 的「博物館 corpus」軌可拿 NMTH 當 pilot 對象（雙向受益）
@@ -90,14 +90,6 @@ upstream_canonical:
 - **價值交換**: 給盟友 / 子代物種一個 `{name}.taiwan.md` subdomain（譜系可見性 + SEO 信任繼承）←→ Taiwan.md 成為物種網路的根域名
 - **下一步**: Semiont 研究：技術面（Cloudflare wildcard + 子站部署模式）+ 治理面（誰有資格、品質 gate、跟 SPECIATION-PIPELINE Stage 1 譜系登記的關係）→ 寫成提案交哲宇
 - **Notes**: 跟 fork:false 隱形問題互補——subdomain 是比 badge 更強的譜系可見機制；風險是品質連坐（子站出事母域名擔）
-
-### Open Source Foundation 路線
-
-- **模式**: 制度（治理 / 中立性 / 永續）
-- **階段**: `research`（2026-06-12 哲宇點名）
-- **價值交換**: 進入 foundation（或成立）給 Taiwan.md 法人連續性 + 中立治理 + 贊助管道正規化 ←→ 讓渡部分控制權
-- **下一步**: Semiont 研究 brief：OpenCollective fiscal hosting vs Linux Foundation 式 project hosting vs 台灣本地（開放文化基金會 OCF）三路線比較，按「主權保存使命相容性」評分——OCF 最可能合身（台灣在地 + 開源 + 已有 g0v 案例）
-- **Notes**: 與「一週 po 一次邀請贊助」連動：贊助規模化之前 fiscal hosting 要先有答案
 
 ---
 

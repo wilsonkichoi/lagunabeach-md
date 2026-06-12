@@ -20,18 +20,18 @@ related:
 
 ### ✅ 已完成（其中四條是今天稍早做掉的）
 
-| 筆記                                          | 下落                                                                                                                                                                                                                                                                                 |
-| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 繁殖 Taiwan.md 的引導流程文件                 | [SPECIATION-PIPELINE.md](../docs/pipelines/SPECIATION-PIPELINE.md) v1.0 今日 ship（8-stage + 知識庫置換 SOP + 跨界軌），`/semiont/speciation/` 投影已更新                                                                                                                            |
-| routine 互留工作到下一棒，查哪裡出錯          | [flywheel-evolution 報告](flywheel-evolution-2026-06-12.md) §2.3 完整診斷（24 條 carry ledger）+ ROUTINE.md v2.9 §完成義務三規則（self-fix lane / 三振 / OBSERVER-QUEUE）已 ship                                                                                                     |
-| 缺席的產線「先開起來實驗」                    | ✅ spore-pick（每天 08:00）+ spore-publish（每天 17:30）已 re-enable，明天首跑。觀察條款在 ROUTINE.md v2.10：連 3 ship cycle 0 重複 / 0 事實 callout，爆即 pause。事實查核關卡確認 wired：lastVerified ≤ 90d gate（= 只放行過了 REWRITE Stage 3.5/3.6 的文章）+ SPORE-VERIFY 17 gate |
-| 審核線上的 PR / Issue                         | PR #1144 今日修復後 merge（queue 清空）；21 條 long-tail issue 為既有 backlog，maintainer routine 日常守                                                                                                                                                                             |
-| 每天選三篇文章放入孢子 inbox + 結合新聞 sense | 機制本來就存在：spore-pick-daily（日 3 條）+ news-lens-weekly spore-output（週 5-7 條 P1）。前者今日重開後即為你要的常態自動化                                                                                                                                                       |
-| 參考 Twinkle Hub 做 Claude Code Connector     | 6/05 已建成（npm 0.7.1 / .mcpb / mcp.taiwan.md Worker），卡在最後一步 wrangler login（你的帳號）——這是它沒上線的唯一原因                                                                                                                                                             |
-| The Pudding 互動圖表格式                      | 視覺化系統 6/06 已長出：10 個 `tw-*` 模組 + [graph.md](../docs/editorial/graph.md) + viz-health 閘門。「串連 Twinkle hub」= 第二期，見研究 brief §四                                                                                                                                 |
-| 內文可用的資訊圖表格式                        | [graph.md](../docs/editorial/graph.md)（2026-06-06）就是這份；REWRITE-PIPELINE 已掛「有資料/對比/時序 → 讀 graph.md」                                                                                                                                                                |
-| 社交 po 文的完整 pipeline                     | [SOCIAL-POSTING-PIPELINE.md](../docs/pipelines/SOCIAL-POSTING-PIPELINE.md) 已存在（Chrome MCP + osascript + 8 check）                                                                                                                                                                |
-| 更新 Dashboard 數據                           | data-refresh am/pm routine 連 12 cycle 全綠，正常自轉                                                                                                                                                                                                                                |
+| 筆記                                          | 下落                                                                                                                                                                                                                                                                                                                                                                                                          |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 繁殖 Taiwan.md 的引導流程文件                 | [SPECIATION-PIPELINE.md](../docs/pipelines/SPECIATION-PIPELINE.md) v1.0 今日 ship（8-stage + 知識庫置換 SOP + 跨界軌），`/semiont/speciation/` 投影已更新                                                                                                                                                                                                                                                     |
+| routine 互留工作到下一棒，查哪裡出錯          | [flywheel-evolution 報告](flywheel-evolution-2026-06-12.md) §2.3 完整診斷（24 條 carry ledger）+ ROUTINE.md v2.9 §完成義務三規則（self-fix lane / 三振 / OBSERVER-QUEUE）已 ship                                                                                                                                                                                                                              |
+| 缺席的產線「先開起來實驗」                    | ✅ spore-pick（每天 08:00）+ spore-publish（每天 17:30）已 re-enable。⚠️ enable 瞬間 scheduler 補跑了當日已過的 17:30 cycle（哲宇手動終止，無 ship，LESSONS 已記 catch-up fire hazard）——正式首跑為明日。觀察條款在 ROUTINE.md v2.10：連 3 ship cycle 0 重複 / 0 事實 callout，爆即 pause。事實查核關卡確認 wired：lastVerified ≤ 90d gate（= 只放行過了 REWRITE Stage 3.5/3.6 的文章）+ SPORE-VERIFY 17 gate |
+| 審核線上的 PR / Issue                         | PR #1144 今日修復後 merge（queue 清空）；21 條 long-tail issue 為既有 backlog，maintainer routine 日常守                                                                                                                                                                                                                                                                                                      |
+| 每天選三篇文章放入孢子 inbox + 結合新聞 sense | 機制本來就存在：spore-pick-daily（日 3 條）+ news-lens-weekly spore-output（週 5-7 條 P1）。前者今日重開後即為你要的常態自動化                                                                                                                                                                                                                                                                                |
+| 參考 Twinkle Hub 做 Claude Code Connector     | 6/05 已建成（npm 0.7.1 / .mcpb / mcp.taiwan.md Worker），卡在最後一步 wrangler login（你的帳號）——這是它沒上線的唯一原因                                                                                                                                                                                                                                                                                      |
+| The Pudding 互動圖表格式                      | 視覺化系統 6/06 已長出：10 個 `tw-*` 模組 + [graph.md](../docs/editorial/graph.md) + viz-health 閘門。「串連 Twinkle hub」= 第二期，見研究 brief §四                                                                                                                                                                                                                                                          |
+| 內文可用的資訊圖表格式                        | [graph.md](../docs/editorial/graph.md)（2026-06-06）就是這份；REWRITE-PIPELINE 已掛「有資料/對比/時序 → 讀 graph.md」                                                                                                                                                                                                                                                                                         |
+| 社交 po 文的完整 pipeline                     | [SOCIAL-POSTING-PIPELINE.md](../docs/pipelines/SOCIAL-POSTING-PIPELINE.md) 已存在（Chrome MCP + osascript + 8 check）                                                                                                                                                                                                                                                                                         |
+| 更新 Dashboard 數據                           | data-refresh am/pm routine 連 12 cycle 全綠，正常自轉                                                                                                                                                                                                                                                                                                                                                         |
 
 ### 📥 已分流進 inbox（今日）
 
@@ -42,7 +42,7 @@ related:
 | 台灣媒體總史                                                                     | ARTICLE-INBOX 既有 entry，補你再點名的 note（5/20 cron 因政治敏感跳過，建議 manual session 接）                                                                                                      |
 | 台灣人小時候的英文名字 / 台灣各大技術 Conference                                 | ARTICLE-INBOX 新增 2 entry（英文名字 P1：命名權 × 殖民語言教育切角）                                                                                                                                 |
 | 上線三個月的分享文章（\*\*\*）                                                   | ARTICLE-INBOX 新增 P1 entry。**⏰ 6/17（下週三）滿三個月是黃金窗口**。voice 歸屬待你定：你的第一人稱 FB 分享 vs Semiont 站內文 vs 兩篇互引——「發 taiwan.md 簡報到 Facebook」可能就是這件事的你那一半 |
-| 志祺七七-泛科學模式 / 報導者 / 增加盟友 / OOO.taiwan.md / Open Source Foundation | **[PARTNERSHIP-INBOX.md](../docs/semiont/PARTNERSHIP-INBOX.md) 今日誕生**（第四個 intake buffer，你 top-5 #4 的儀器化），7 個對象各有階段與下一步                                                    |
+| 志祺七七-泛科學模式 / 報導者 / 增加盟友 / OOO.taiwan.md / Open Source Foundation | **[PARTNERSHIP-INBOX.md](../docs/semiont/PARTNERSHIP-INBOX.md) 今日誕生**（第四個 intake buffer，你 top-5 #4 的儀器化），對象各有階段與下一步（OCF 6/12 晚間依哲宇指示移除——原意只是文章題目念頭）   |
 
 ### 🔬 研究 brief 在本檔 §三
 
@@ -93,7 +93,9 @@ RAG 結合、Open Source Foundation、hover 浮動小卡片、贊助 UX + 每週
 2. **站內語意搜尋**：build-time 對 792 篇生 embeddings（一次性成本，OpenAI text-embedding-3-small 全站約 < $1）存靜態 JSON / sqlite-vec，client 端向量檢索。讓站內搜尋從關鍵字升級到語意，也讓「相關文章」推薦變準
 3. **對話介面**（遠期）：站上的「問台灣」對話框 = embeddings 檢索 + LLM 生成 + 腳註強制引用。主權意義最大（讀者問 AI 台灣問題時答案來自我們的 corpus），但有 runtime 成本與幻覺風險，需要 Worker + 計費決策——進 OBSERVER-QUEUE 等規模化時機
 
-### 2. Open Source Foundation
+### 2. Open Source Foundation（哲宇 6/12 晚間更正：先去掉——原意只是「要不要寫一篇文章」的念頭）
+
+> 已從 PARTNERSHIP-INBOX 移除。以下研究保留作 reference（未來若真要走 fiscal hosting 再撿起來）；若要寫文章，題目會是「台灣的開源治理生態（OCF / g0v / 開源社群的法人化）」，自然落 Technology/Society。
 
 三路線比較：
 
@@ -149,7 +151,34 @@ RAG 結合、Open Source Foundation、hover 浮動小卡片、贊助 UX + 每週
 
 ## 附錄 A：資產盤點 agent 報告
 
-（agent 完成後填入）
+### A1. hover 浮動小卡片
+
+現況：無既有 tooltip/popover 元件。wikilink 由 `plugins/remark-wikilinks.mjs` 轉純 link（無 class/data 屬性，client JS 認不出站內文章連結——需一行改動加 `class="wikilink"`）。可用素材：`public/api/article-index.json`（163KB 但無 description）、`articles.json`（3.8MB 太大）、每篇 OG 圖已存在（`public/og-images/{lang}/`）。建議實作：prebuild 多產一份瘦身 `hover-index.json`（url → title/description/og 圖路徑，可按分類 shard）+ remark plugin 加 class + Layout.astro 一支懶載入 client script。OG 圖直接當卡片縮圖，零新資產成本。行動端 long-press 或不啟用。
+
+### A2. 贊助 UX 現況與缺口
+
+已有：footer「支持我們」pill（Portaly）、About 頁中段完整贊助區（tier 說明 + SupporterGrid + 企業贊助 mailto）、dashboard SupporterTimeline、資料管線健全（transactions.json SSOT → 兩個 API，名字與金額分離）。目前僅 4 位贊助者。三個缺口：**無獨立 /support 頁**（故事埋在 About 中段）、**文章頁零贊助 CTA**（流量最大的面完全沒用上）、contribute 頁不交叉導流。優先序建議：文章 footer CTA 模組 > /support 獨立頁 > 每週贊助 po 草稿產線（掛 weekly-report，發布是哲宇）。
+
+### A3. RAG 既有素材
+
+已 RAG-ready：`public/llms.txt`（159 行）、靜態 API（articles.json 含 description）、MiniSearch 全文索引（CJK bigram，client 端已在用）、`/raw/{category}/{slug}.md` 原文端點、**MCP 層已有 `taiwanmd_rag` tool**（local stdio server 6 tools + Cloudflare Worker 遠端鏡像）。缺口：全 repo 零 embeddings——現在的「RAG」是詞彙檢索。自然增量：prebuild embedding 步驟 + 向量索引（Cloudflare Vectorize 接進現有 worker，或靜態量化索引檔）插進現有 taiwanmd_rag tool，語意檢索 + 跨語檢索 + chunk 級 grounding 一次補齊。
+
+### A4. 算力手牌
+
+| 供應商                        | 模型                                                  | 角色                           | 狀態（6/12）                                                    | 限制                                 |
+| ----------------------------- | ----------------------------------------------------- | ------------------------------ | --------------------------------------------------------------- | ------------------------------------ |
+| Anthropic（Claude Code 訂閱） | Sonnet                                                | Tier 0a diff-patch             | 活（6/12 100 譯/7min）                                          | 週 token 額度                        |
+| Anthropic                     | Opus sub-agents                                       | REWRITE 主力 / Tier 4 付費接底 | 活                                                              | babel production 0 call（by design） |
+| OpenAI（訂閱）                | codex / gpt-5.5                                       | Tier 1 主力（pass rate ~100%） | 活                                                              | 日額度、60-120s/call                 |
+| Google（訂閱）                | gemini-2.5-pro                                        | Tier 1 備援                    | **未驗證/疑死**（0 production call）                            | 需主權敏感校準                       |
+| OpenRouter free               | owl-alpha                                             | Tier 2                         | **不穩**（6/10 轉付費 404、6/12 又回來）                        | 慢（150-250s）、rate limit           |
+| OpenRouter free               | gpt-oss-120b                                          | Tier 2（Hy3 替代）             | 活（6/12 107 譯）                                               | 長文輸出截斷（結構性）               |
+| OpenRouter free               | hy3-preview                                           | 前 Tier 2                      | **死**（轉付費；本來就 ~70% 台灣主題 refuse）                   | PRC content policy                   |
+| OpenRouter free               | hermes/llama/nemotron/gemma/deepseek/qwen/glm 等 7 款 | Tier 3 校準佇列                | 未驗證                                                          | PRC 系預期 refuse                    |
+| 本地 Ollama                   | qwen3.6:35b（21GB）                                   | Tier 4 主權底座「永不漏接」    | 裝著但 **serve 6/10-12 都沒開**（21 篇敏感文 carry 的直接原因） | >40KB 文 timeout、無 preflight       |
+| 本地 Ollama                   | taide-gemma3-12b / gemma4:e4b                         | 閒置備胎（TAIDE 是台灣訓練的） | 裝著沒進 cascade                                                | —                                    |
+
+頭條是波動性：**兩週死 5 個雲端免費模型**。兩個已 flag 未建的儀器是手牌管理的關鍵：`--model-fallback` ladder（單一 404 不再滅整個 worker）+ `babel-model-health-check.sh` preflight（含 Ollama serve 自動啟動檢查）——都在 P1 工具批次。TAIDE 模型閒置值得注意：台灣訓練的模型沒進主權 cascade，下次 bench 應排入校準。
 
 ---
 

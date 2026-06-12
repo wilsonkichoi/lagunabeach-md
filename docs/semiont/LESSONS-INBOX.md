@@ -3228,6 +3228,16 @@ Tiebreaker 實戰（MANIFESTO > DNA > MEMORY）：多數條目落 MEMORY（綁 T
 
 ---
 
+### 2026-06-12 goal-notes — scheduler re-enable 會立即補跑過期的當日 cycle（catch-up fire hazard）
+
+- **原則**：`update_scheduled_task enabled:true` 時若該 task 當日 cron 時點已過（nextRunAt 在過去），scheduler 立即補跑一次。6/12 18:32 重開 spore-publish（cron 17:30）→ 18:31 立刻 catch-up fire，哲宇手動終止。重開 routine 的正確時機：該 task 當日時點之前，或重開後主動告知觀察者「可能立即補跑一次」。
+- **觸發**：2026-06-12 spore 產線重開實驗第一分鐘。
+- **修補方向**：併入 ROUTINE.md §暫停/恢復 SOP 一行警語（下次 distill 或 routine 修改時帶上）。
+- **verification_count**: 1
+- **severity**: operational
+
+---
+
 ## ❌ 已歸檔（過時 / 撤回）
 
 <!-- 判斷後不採納的教訓 -->
