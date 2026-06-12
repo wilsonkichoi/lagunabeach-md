@@ -59,6 +59,15 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### justfont 與台灣字體發展 EVOLVE — 2026-06-12 flywheel-evolution session 完成（用一種台灣茶的名字，把做字的人帶到陽光下）
+
+- **Article**: [knowledge/Technology/justfont與台灣字體發展.md](../../knowledge/Technology/justfont與台灣字體發展.md)
+- **Pipeline**: REWRITE-PIPELINE v7.0 callout-triggered EVOLVE 全跑 — Teardown Firewall（觀點 blind / fresh writer / 3.2-bis 零校正焦慮）+ Step 3.6 成品總驗三關（2 adversarial verifier，25 處綁定修復、零杜撰）
+- **觸發**：justfont 共同創辦人蘇煒翔 21 條逐段勘誤（issue #1145 公開紀錄），21 條全採信
+- **核心矛盾**：全民天天讀它的字，市場卻曾小到養不活任何一家造字公司
+- **規格**：7,052 字 / 65 腳註 / 7 圖 + 2 iframe + 2 tw-\* 模組 / 標題哲宇親選
+- **Research**: [reports/research/2026-06/justfont與台灣字體發展.md](../../reports/research/2026-06/justfont與台灣字體發展.md) — 四線 120+ 搜尋 + 故事線 59 操作 + 媒體二輪，research-report-health depth PASS
+
 ### 蘇打綠 EVOLVE — 2026-06-09 routine twmd-rewrite-daily（3/19 早批 audit batch 第 3 篇「樂團成員↔樂團」高風險維度 worked example / multi-agent orchestration v6.3 全跑 / 9 條 INBOX hypothesis 幻覺 falsified）
 
 - **Article**: [knowledge/Music/蘇打綠.md](../../knowledge/Music/蘇打綠.md) — EVOLVE 2,400 → 12,797 CJK / 51 footnote / 9 場景式 H2 / 4 inline 圖 (Wikimedia CC BY-SA Solomon203: 六人 cropped hero + 2008 The Wall + 2014 巡迴 ×2) + 4 official YouTube iframe（〈小情歌〉/〈無與倫比的美麗〉/〈狂熱〉Live in The Pool 2009 倫敦錄音紀實 / 2017-01-01 自由廣場最後安可）
