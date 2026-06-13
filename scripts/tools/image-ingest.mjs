@@ -148,8 +148,8 @@ async function download(url, attempt = 1) {
       }
     }
     if (!resp.ok) {
-      if ((resp.status === 429 || resp.status >= 500) && attempt < 5) {
-        await sleep(5000 * attempt);
+      if ((resp.status === 429 || resp.status >= 500) && attempt < 6) {
+        await sleep(8000 * attempt); // Wikimedia 429 兇，需 8s+ 漸進退避
         return download(url, attempt + 1);
       }
       throw new Error(`HTTP ${resp.status}`);
@@ -164,10 +164,26 @@ async function download(url, attempt = 1) {
   }
 }
 
+// Commons File: page / Special:FilePath → canonical Special:FilePath download URL
+// （讓 manifest 給 File: 頁 URL 或 "derive-from-file-page" 時也能直接下載原圖）
+function commonsFilePath(src) {
+  let m = src.match(/commons\.wikimedia\.org\/wiki\/(?:File|Image):(.+)$/i);
+  if (m) {
+    const fname = m[1].replace(/^.*\//, '').split('#')[0];
+    return `https://commons.wikimedia.org/wiki/Special:FilePath/${fname}`;
+  }
+  if (/commons\.wikimedia\.org\/wiki\/Special:FilePath\//i.test(src)) return src;
+  return null;
+}
+
 async function resolveSource(src) {
   if (/^https?:\/\//.test(src)) {
-    console.log(`  ${C.gry}↓ downloading ${src.slice(0, 80)}…${C.nc}`);
-    return download(src);
+    const cf = commonsFilePath(src);
+    const url = cf || src;
+    console.log(
+      `  ${C.gry}↓ downloading ${cf ? '[Commons FilePath] ' : ''}${url.slice(0, 80)}…${C.nc}`,
+    );
+    return download(url);
   }
   const p = src.startsWith('/') ? src : join(REPO_ROOT, src);
   return readFile(p);
