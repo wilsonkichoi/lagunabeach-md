@@ -162,7 +162,7 @@ Two days one night of kindred spirit gathering, after dispersing, everyone still
 
 ## M D F K: Jargon Only the Echo Chamber Understands
 
-![Fourth Edition Main Visual: Bright yellow background with white hand-drawn standard Zhuyin Fuhao symbols M D F K, below marked M D F K IV](/article-images/society/complex-festival-iv-mdfk-design-19.png)
+![Fourth Edition Main Visual: Bright yellow background with white hand-drawn standard Zhuyin Fuhao symbols M D F K, below marked M D F K IV](/article-images/society/complex-festival-iv-mdfk-design-2019.webp)
 _Fourth Edition "M D F K" main visual: Huang Dou-ni hand-drew the motherfucker Zhuyin standard characters, a youth jargon only the echo chamber can read. Image: Huang Dou-ni Design (fair use editorial commentary)._
 
 The fourth edition pushed this "only for ourselves" temperament to the extreme.
