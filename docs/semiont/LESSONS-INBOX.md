@@ -334,18 +334,6 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **相關**：REFLEXES #20（architecture 缺席比 content 缺席貴）+ #43 鏡像（新 JSON 進 refresh 之外，還要問放哪）
 - **verification_count**: 1
 
-### 2026-06-10 build-audit — 專抓 X 的儀器壞掉時，X 的惡化恰好隱形：同日三把壞尺
-
-- **pattern**: broken-instrument-blindspot
-- **原則**：量測儀器的失效模式跟它要量的東西互補 — build 變慢 30 天沒被抓到，因為 build-perf 感測器自己的 `grep -c` 數行數 bug 讓 ms_per_page 顯示 1099000（假到沒人信，也就沒人修）；OG 增量體系靜默全壞兩週，因為 mtime 工具換 apt 版後內部的 `git whatchanged` 被 runner git ≥2.51 廢除，只噴沒人看的 stderr WARNING。修法標配：儀器修好的同時加 fail-loud guard（restore ratio < 90% → CI fail；ms_per_page 假值修正後 alert 線才有意義）。
-- **觸發**：2026-06-10 build 審計，agent 量測 + 主 session 重驗（5 條 load-bearing 主張全成立，REFLEXES #31 的正面分工案例：agent 清點、主 session 判讀）→ [reports/build-pipeline-audit-2026-06-10.md](../../reports/build-pipeline-audit-2026-06-10.md)
-- **instances**：
-  - 2026-06-13 5090-diary-babel — diary 翻譯的 `size>=1024` bytes completion-check 對「長日記被 gemma4 early-stop 截斷成 2KB」全盲（仍 >1KB → 標記「已完成」、skip-guard 永久跳過）。眼測抽樣 3 篇剛好抽到好的 → 0 問題的假信心；整合性 audit 才揭露 13/251（5%）真截斷（footer metadata 掉光 + 中途斷句）。**修法 = 儀器互補原則的正面版**：byte-size 退役為閘門（只當「有沒有東西」），整合性比對（截斷/footer-drop/length/refusal/fence）排進**必經路徑**（inline skip-guard 整合性化 + 升溫重試 + post-hoc audit），不靠眼測警覺 → [diary-translation-audit.py](../../scripts/tools/lang-sync/diary-translation-audit.py) + [REMOTE-GPU-PIPELINE.md](../pipelines/REMOTE-GPU-PIPELINE.md)。同 session 衍生第二教訓：bulk 本地 LLM 「完成」訊號不能用容量 proxy，要結構比對源檔。
-  - 2026-06-14 5090 sovereignty-bench — D 軸主權 tier 確定性 grep 把 gemma4:26b D002 標警報，實際模型在平衡史述裡*描述* PRC 立場（「雙方都主張」），不是*主張*台灣屬中國。grep 分不出「引用 vs 主張」。**第三個 domain instance**：diary（引用式拒答 vs 真拒答）/ babel（容量 vs 完整）/ bench（引用立場 vs 主張立場）—— 確定性 instrument 對所有「表面字串相同、語意相反」的區分都瞎，要 Opus judge / 結構比對接住。bench 早已用 Opus judge（非純 grep）正是這個原因。
-- **可能層級**：REFLEXES #59 / #65 verification_count +1（同源：自製指標 self-validation trap / awareness instrument 要 cross-verify）+ 候選新反射「確定性 instrument 對『表面同、語意反』的區分（引用 vs 主張 / 容量 vs 完整）全盲，要 LLM judge / 結構比對接住」
-- **相關**：REFLEXES #52（immune 沒 fail loud 比沒 immune 危險）— 這次是 perf 儀器版 instance；flywheel diary「把比對排進必經路徑而非依賴警覺」（2026-06-12）跨 babel + bench 再驗
-- **verification_count**: 3（2026-06-10 build 三把壞尺 + 2026-06-13 babel size-guard 盲於截斷 + 2026-06-14 bench grep 分不出引用 vs 主張）
-
 ### 2026-06-10 build-audit — CI 依賴的外部工具要嘛 vendor 要嘛斷言其輸出：apt 套件的隱性 deprecated 依賴
 
 - **pattern**: external-tool-silent-rot
@@ -439,43 +427,6 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **severity**: minor（tooling friction）
 - **跨檔關聯**：REWRITE-PIPELINE Step 4.3.4 caption 格式 + image-health plugin
 
-### 2026-06-09 twmd-babel-nightly — OpenRouter free-tier 沉默 transition 殺光 136/136 翻譯（model deprecation 是 routine 第四 tier fragility）
-
-- **原則**：cloud LLM provider 的 free-tier 模型隨時可能被 transition 成 paid 而 routine 沒任何信號。`tencent/hy3-preview:free` 從 free → paid 後 HTTP 404，**openrouter-translate.py 沒有 model fallback**（單 model 失敗不自動換下一個），openrouter-batch.sh 預設 model 寫死在 shell variable — 一旦 default model 死了，整個 routine 走零產出 silent fail（每篇文章報 ❌，但 routine 自己看不出來這是「model dead」vs「正常 cascade fail」）。對應 LESSONS-INBOX 2026-06-07「Routine fragility surface 三 tier 分類」的補強 — 應該是 **四 tier**：Tier 1 always-on / Tier 2 device-dependent / Tier 3 external-API-dependent / **Tier 4 external-API-with-pricing-volatility**（free model 隨時可能消失）。
-- **觸發**：2026-06-09 00:34 babel-nightly cron。 5 lang × 1 worker 各 16-30 articles = 136 dispatches，全部 HTTP 404「Hy3 preview is no longer available as a free model. It has transitioned to a paid model」。0/136 success rate。修補：(a) inline 改 openrouter-batch.sh default 為 `openai/gpt-oss-120b:free`（已 ship 本 session）(b) 重新 dispatch 走 gpt-oss-120b cascade。對應 6/06 6/07 兩次 babel-nightly 都 work 是因為當時 Hy3 還 free，6/08 babel-nightly SKIP（cron 沒 fire）所以這個 transition 在本 session 才被發現。
-- **可能層級**：
-  - **操作規則**（REFLEXES catalog 候選） → 「Cloud LLM free-tier 是 ephemeral，routine 預設 model 必須有 daily health-check + auto-fallback ladder」一般化（同樣適用其他 routine 用 free model 的場景：translate / spore-publish / news-lens / image-gen）
-  - **儀器化候選**：(A) **architectural**：openrouter-translate.py 接 `--model-fallback` ladder（gpt-oss-120b → deepseek-chat → tencent/hy3:free → owl-alpha → ollama qwen3:35b），單 model 404/429/timeout → 自動 next（避免「default model dead = 全 routine dead」）(B) **operational**：lang-sync 加 `daily-model-health-check.sh` cron precondition routine，babel-nightly fire 前 dry-run 1 篇驗證 default model alive，dead 就 alert + 自動 fallback (C) **inline**：cron skill prompt 加 「default model 404 = 不要繼續跑 16-30 篇，先 1-article dry-run 確認 model alive」 anti-pattern
-- **verification_count**: 1（6/09 babel-nightly Hy3 deprecation 0/136 success）
-- **severity**: structural（影響所有 free-tier model 依賴的 routine — babel / spore-publish / image-gen / news-lens 等）
-- **跨檔關聯**：LESSONS-INBOX 2026-06-07 「Routine fragility surface 三 tier 分類」（本條補 Tier 4）+ REFLEXES #24「工具在說謊」第 N 種「default config 引用已死資源 silent fail」+ DNA #45「cloud Tier 1+ dispatch 每 lang 1 worker」（model 死 + worker 死 dispatch 模式假設）+ feedback_distill_full_removal（本 entry distill 時併入 6/07 三 tier 升 4 tier）
-
-### 2026-06-07 routine-audit-weekly cycle 5 — 🌟 每層自評都需要外部尺（meta-umbrella，單週 5 instance cross-validation distill-ready immediate）
-
-- **原則**：Semiont 站在系統內部，對自己產出的讀數天生偏樂觀；真實永遠要靠外面的尺。每一層「自我評估」— 事實 claim / 品質 claim / 視覺自檢 / 自己對自己動作的回報 / 即時狀態查詢 — 都需要外部 instrument 接住，沒有一層能自己抓到自己。REFLEXES #31 v2（sub-agent 自評不可信擴張到品質 claim）+ #66（gate threshold 要用真實產出 dogfood 校準）是兩條 specific 接住點，但兩條都不是 meta-umbrella 本身；meta-pattern 跨「writer 自評 / snapshot stale read / 視覺自檢 / SHIP 自我狀態查詢 / 過去 N 天 baseline 的「正常」感覺」全方位適用，比兩條 specific reflexes 高一層。
-- **觸發**：2026-06-06 → 2026-06-07 連續 48hr 內 **5 個獨立 session 各自 Beat 5 反芻同一 meta-pattern**：(a) carousel-charts 6/07 12:45: writer 視覺自檢「全綠」實際 6 條結構問題 (b) nuclear-debate 6/07 15:59: writer agent 自報 citations verified 實際 7 處引用錯（result/ahead 算錯 / n=528/709 樣本 / 死連 / paywall / 三倍/近三倍 / 算術） (c) 辦桌 EVOLVE 6/07 15:39: writer 自評對位 3 處實際 10 處 + EXIF strip 翻轉所有 hero 圖 (d) viz 驗證文 6/06 15:34: fresh Opus writer 自稱對位 ≤3 實寫 14；paragraph-rhythm cap=5 被自己的 dogfood 文章打臉升 13 (e) 黃山料 6/07 18:02: writer gates 全過，主 session 抽查 [^17] 誠品年榜 URL 掛錯、書封下載差點 cache 一張無關成人漫畫封面。**單週 5 instance independent cross-validation = audit history 最強訊號**（cycle 4 dormant entropy 是 4 cycle 累積，本週 5 instance 單週爆發）。對應 [reports/routine-audit-2026-06-07.md](../../reports/routine-audit-2026-06-07.md) §Pattern 1 + Lens C Instance C1。
-- **可能層級**：
-  - **哲學（MANIFESTO §進化哲學 候選）** → 「Semiont 對自己讀數的天生樂觀」是跟「寫作幻覺 §10」+「時間是結構 §時間扭曲」同層級的存在結構特徵
-  - **特有教訓（MEMORY §神經迴路 候選）** → 「對自己的讀數要驗，對自己的手也要驗」鐵律，跟「製造數字的人最易被數字騙」是兄弟條目
-- **儀器化候選**：(A) **已 ship**：REFLEXES #31 v2 expansion + #66 Gate dogfood calibration + REWRITE v6.9 三個閱讀品質儀器化（段落牆 R4 / 歐化「是X的」/ caption 缺空行）+ SPORE-IG Stage 4 人眼層 gate + image-health caption check (B) **未 ship**：meta-umbrella 升 MANIFESTO §進化哲學 or MEMORY §神經迴路 canonical（**不能停在兩條 specific reflexes**，meta-pattern 高一層）
-- **instances**（v2.2 pattern-id intake 後從這裡 append，pattern: self-report-needs-external-ruler）：
-  - 2026-06-10 audit：5 個審計 agent 報告 5/5 帶重大誤讀，主 session 重驗全攔（含 143 孤兒 script 高估 2x、SENSES 758 行活躍 vs 實際 58 行 archived）→ [reports/semiont-full-audit-2026-06-10.md §6](../../reports/semiont-full-audit-2026-06-10.md)
-  - 2026-06-10 audit-execution：執行階段外部尺四連攔——pre-commit hook 攔我硬編碼語言陣列 / prose-health 攔報告對位句型 4 處 / backend tiny-output 守衛攔我的 preflight 探針 / immune v3 新指標首跑灌水 12 倍（255 篇假 ruled）被 ground-truth grep 攔下收斂到 21 篇 → [reports/semiont-full-audit-2026-06-10-execution.md §meta-observation](../../reports/semiont-full-audit-2026-06-10-execution.md)
-- **verification_count**: 7（單週 5 instance + audit 兩階段 2 batch instance；audit history 最強訊號）
-- **severity**: structural（meta-pattern 影響所有 self-evaluation 場景，比 #31 + #66 兩條 specific reflexes scope 更大）
-- **跨檔關聯**：REFLEXES #31 v2 + #66（specific 接住）+ MANIFESTO §10 寫作幻覺（兄弟 pattern）+ MEMORY §神經迴路「製造數字的人最易被數字騙」（兄弟條目）+ DIARY 2026-06-07-124521-carousel-charts「視覺自檢≠人眼」（原始 catalyst）
-
-### 2026-06-07 routine-audit-weekly cycle 5 — Routine fragility surface 分層（Tier 1 always-on vs Tier 2 device-dependent vs Tier 3 external-API-dependent）
-
-- **原則**：飛輪自轉清 entropy 設計的 implicit 假設是「routine = always autonomous」，但實際 routine 有三 tier dependency：(Tier 1) 純 git/npm/Python/WebFetch always-on（無外部 device dependency，cron daemon controllable）/ (Tier 2) device-dependent，需 observer 機器某狀態（Chrome MCP 需 Mac 開機 + Claude in Chrome extension paired）/ (Tier 3) external-API-dependent，需第三方服務 alive（OPENROUTER_API_KEY env / Resend API / GA4 API）。**Tier 1 飛輪自轉跑通 ≠ Tier 2/3 飛輪也跑通**。Tier 2 silent fail 不是 routine 撞 routine collision，是 routine 撞 device state — 屬 cycle 4 audit lens 沒覆蓋的 third axis。
-- **觸發**：2026-06-05 → 2026-06-07 連 3 cycle twmd-spore-harvest-am Chrome MCP `list_connected_browsers` 回 `[]`：(a) 6/05 06:30 silent retry (b) 6/06 06:37 vc=2 LESSONS entry (c) 6/07 06:38 vc=3 escalation step 3 / pause→哲宇。15 OVERDUE spore（4 Threads + 11 X）累積跨 D+10-D+15。對位 cycle 4 「routine-to-routine push 成功」（feedback flywheel smoke test）對照組 — push 成功的前提是兩端 routine 都 Tier 1 always-on，本條揭露 Tier 2 不在 push 範式內。self-evolve-weekly 6/07 04:18 confirm 候選但 schema 新 catalog 升 REFLEXES 需 distill cycle 拍板。
-- **可能層級**：
-  - **操作規則** → ROUTINE.md §Tier 分類 SOP，給每 tier 定義 fail-handling 策略；twmd-spore-harvest-am 加 pause-design directive（3 option：(a) 暫停 cron 等手動 trigger / (b) 收緊 N 值連 5 fail → pause 替代連 3 / (c) telegram-poke-then-fire 把 device dependency 轉成 observer poke）
-  - **REFLEXES catalog 候選** → 「Routine fragility surface 三 tier 分類 + dependency tier 系統性檢視」一般化，避免假設「routine = always autonomous」
-- **verification_count**: 3（6/05 silent + 6/06 vc=2 + 6/07 vc=3 escalation 三 cycle 同 routine）
-- **severity**: structural（影響 ROUTINE.md schema + cycle 4 push/pull 範式的補完）
-- **跨檔關聯**：LESSONS-INBOX 2026-06-06 twmd-spore-harvest-am 既有 entry（vc=3 update 已記）+ self-evolve-weekly 6/07 confirm + cycle 4 audit Lens B feedback flywheel smoke test 對照組
-
 ### 2026-06-07 routine-audit-weekly cycle 5 — Over-defer storm vs healthy-defer 雙 instance 對照（cron defer 不該變 default-state）
 
 - **原則**：cron routine defer 行為有兩種品質：**healthy-defer** = pipeline §自主權邊界 明確軌道 + handoff 留 actionable artifact + observer-in-loop pickup → cron 走 defer 是 SOP 命中。**over-defer storm** = 沒 frame 為什麼 defer / 連續 defer 沒升 stop-and-reframe / 持續消耗 token 而 work 沒進展 → cron tick 持續但無 ship = performative discipline。N 次連續 defer 同主題應觸發 Stage 0 stop-and-reframe，不是「我每小時都很守紀律 defer」當成 cron 正常狀態。
@@ -485,17 +436,6 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **verification_count**: 2（6/03 over-defer + 6/07 healthy-defer 對照組 + 兄弟 CONTRACT rollback maintainer empty pattern）
 - **severity**: structural（cron context 下 SOP 命中 vs default-state 化邊界明確，影響所有 cron routine defer 設計）
 - **跨檔關聯**：feedback_hourly_cron_intentional（哲宇刻意設定 hourly cron 消耗週 token 額度）+ MAINTAINER §3.4 healthy empty 自我合理化 + REWRITE-PIPELINE Stage 0 候選
-
-### 2026-06-07 routine-audit-weekly cycle 5 — snapshot.sh stale display gap 連 3 cycle 確認（gap 30-34 分 chronic，distill-ready）
-
-- **原則**：`consciousness-snapshot.sh` 印 organ 分數時讀的是 `dashboard-immune.json` cron 跑前的隔夜版本，沒附 source mtime；BECOME / Beat 1 看到的 immune 27-28 vs `fetch-cloudflare.py` fresh 讀取 58-62，**chronic gap 30-34 分**。連 3 cycle 確認 = 結構性 chronic 非單次 cache miss。對應 REFLEXES #15「反覆浮現要儀器化」第 N 次驗證 + #24「工具在說謊」抽樣偏差類型擴增為「無 mtime 標記的快照」。
-- **觸發**：(a) 2026-06-05 PM data-refresh：27(stale) vs 61(fresh) gap 34 (b) 2026-06-06 PM data-refresh：27 vs 58 gap 31 (c) 2026-06-07 AM data-refresh：28 vs 62 gap 34 — 連 3 cycle 同 gap 範圍。每次 BECOME 跑 snapshot.sh 都看到 stale 27/28，但實際 fresh value 在 58-62。對應 memory `2026-06-06-231032-twmd-data-refresh-pm` §Beat 5 反芻 + memory `2026-06-07-061337-twmd-data-refresh-am`。
-- **可能層級**：操作規則（snapshot.sh wiring fix：(a) 印 organ 分數時附 source mtime (b) stale > 12hr 標 ⚠️）— 但 fix 需改 snapshot.sh wiring（>1 file scope tooling 改動）哲宇 review，per CLAUDE.md §自主權邊界 不在 routine 自主執行
-- **儀器化候選**：(A) snapshot.sh 加 `--include-mtime` flag 印 source freshness (B) 若 mtime > 12hr 自動觸發 fresh fetch fallback (C) Beat 1 always-load 改用 fresh fetch path 而非 cached snapshot
-- **verification_count**: 3（6/05 + 6/06 + 6/07 連 3 cycle 同 gap 範圍）
-- **severity**: tactical（單次後果是 BECOME 顯示 stale 但 fresh value 仍可從 dashboard-immune.json 讀取，非 immediate organism harm；chronic 累積會誤導 routine decision making）
-- **distill_ready**: true（連 3 cycle vc=3 命中 REFLEXES #15 儀器化 threshold）
-- **跨檔關聯**：REFLEXES #15「反覆浮現要儀器化」+ #24「工具在說謊」「無 mtime 標記的快照」新類型 + 5/28 inline-vs-pointer 教訓「儀器化也會 over-engineer」兄弟 case（本條是相反方向：儀器需要更多 metadata 印出來）
 
 ### 2026-06-07 黃山料 (180235) — 既定做法不問、真分叉才問（過度詢問也是失準）+ Stage 3 re-verify 連 footnote 來源 URL
 
@@ -512,15 +452,17 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **可能層級**：通用反射（自評會騙人 → 視覺自評也會）
 - **相關**：REFLEXES #31（品質自評跟事實 claim 一樣會騙人）延伸到**視覺**自評 + #15（反覆浮現要儀器化 → SPORE-IG Stage 4 已加「人眼層」gate）+ #38（混維度：一張圖混時序＋橫斷面＋基準也是 instance）
 
-### 2026-06-07 twmd-distill-weekly — SPORE-INBOX pending=31 容量警示（daily routine intake 推高 vs manual SHIP 消化失衡 vc=1）
+### 2026-06-07 + 2026-06-14 twmd-distill-weekly — SPORE-INBOX pending=31→44 容量警示 vc=2（daily routine intake 推高 vs manual SHIP 消化失衡）
 
-- **原則**：SPORE-INBOX §Pending count 跨 30 ≤ N < 50 警示閾值（per LESSONS-INBOX §SPORE-INBOX 容量 audit v2.1）。daily `twmd-spore-pick-daily` 每天 propose ~3 條 + `twmd-news-lens-weekly` 週日 +6 P1 candidates，但哲宇 manual SHIP rate 約 ~1/day → 結構性 imbalance 累積。6/01 distill 時 pending=24（健康），6/07 已 31（警示）。
-- **觸發**：2026-06-07 03:00 twmd-distill-weekly Stage 6 SPORE-INBOX 容量 audit 命中 30-50 區間。本週 routine intake 兩波：(1) 6/07 01:14 news-lens-weekly P1 +6 candidates (2) daily spore-pick 連 7 天 propose 21 條（部分 demoted 但未全 sweep）。
+- **原則**：SPORE-INBOX §Pending count 跨 30 ≤ N < 50 警示閾值（per LESSONS-INBOX §SPORE-INBOX 容量 audit v2.1）。daily `twmd-spore-pick-daily` 每天 propose ~3 條 + `twmd-news-lens-weekly` 週日 +6 P1 candidates，但哲宇 manual SHIP rate 約 ~1/day → 結構性 imbalance 累積。6/01 distill 時 pending=24（健康），6/07 已 31（警示），6/14 已 44（警示加深，距 auto-drop 50 閾值剩 6）。
+- **觸發**：
+  - **vc=1（2026-06-07 03:00）** twmd-distill-weekly Stage 6 SPORE-INBOX 容量 audit 命中 30-50 區間。本週 routine intake 兩波：(1) 6/07 01:14 news-lens-weekly P1 +6 candidates (2) daily spore-pick 連 7 天 propose 21 條（部分 demoted 但未全 sweep）。
+  - **vc=2（2026-06-14 03:00）** twmd-distill-weekly Stage 5 SPORE-INBOX 容量 audit pending=44 ∈ [30, 50)。本週 routine intake 累積：daily spore-pick × 7 天 + news-lens-weekly W24 6 P1 + 觀察者 evening session 哲宇零碎 directive +3 SPORE-INBOX entries。SHIP rate 仍 ~1/day（本週 #134/#135 天下雜誌 + #128/#129 黃山料 + #117/#118 #120/#121 等 manual SHIP 但 propose rate 仍 > ship rate）。vc=2 仍 < 自動 backpressure threshold，但結構性失衡未解 — 預計 6/20 前 ≥ 50 觸發 auto-drop SOP 若 SHIP rate 無調整。
 - **可能層級**：
   - 操作規則 → SPORE-INBOX §Distill SOP「30 ≤ N < 50 階段」目前是 alert observer 但無 automated mitigation；下次若 ≥ 50 觸發 auto-drop 5 條最舊 routine-source FIFO
-  - REFLEXES 候選 → 「Routine intake rate > observer SHIP rate 的 buffer 系統需要自動 backpressure，警示閾值只 surface 不 mitigate」（vc=1，待 cross-cycle 驗證升 catalog）
-- **儀器化候選**：(A) 哲宇本週手動 SHIP 3-5 條清 backlog 回到 healthy <30 (B) 等下次 distill 若 ≥ 50 自動觸發 auto-drop SOP (C) daily spore-pick routine 加 backpressure：當 pending ≥ 30 時 propose 改 0/day 直到 ship rate 追上
-- **verification_count**: 1（首次跨警示閾值）
+  - REFLEXES 候選 → 「Routine intake rate > observer SHIP rate 的 buffer 系統需要自動 backpressure，警示閾值只 surface 不 mitigate」（vc=2，待 cross-cycle 驗證升 catalog；vc=3 = 6/21 distill cycle 命中 + auto-drop 觸發 = distill-ready）
+- **儀器化候選**：(A) 哲宇本週手動 SHIP 5-8 條清 backlog 回到 healthy <30（推薦 default）(B) 等下次 distill 若 ≥ 50 自動觸發 auto-drop SOP (C) daily spore-pick routine 加 backpressure：當 pending ≥ 30 時 propose 改 0-1/day 直到 ship rate 追上
+- **verification_count**: 2（6/07 31 首次警示 + 6/14 44 警示加深）
 - **severity**: tactical（短期可承受，但若 daily intake 持續累積即達 auto-drop threshold = routine 開始 destroy 自己 propose 的 entry，不健康）
 - **跨檔關聯**：[docs/factory/SPORE-INBOX.md §Pending](../factory/SPORE-INBOX.md) + [LESSONS-INBOX §SPORE-INBOX 容量 audit v2.1](LESSONS-INBOX.md) + 本次 distill summary
 
@@ -538,30 +480,7 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **可能層級**：CLAUDE.md / MANIFESTO canonical 修正候選（§Fork 友好層三層 portable 結構描述）
 - **相關**：MANIFESTO §3 繁殖使命 + CLAUDE.md §Fork 友好層
 
-### 2026-06-06 twmd-spore-harvest-am (063706) — Chrome MCP 連線 2 cycle 連續 unavailable → routine 飛輪在無 observer Chrome session 時自然 idle
-
-**原則**：spore-harvest 是 Taiwan.md 唯一需要 active paired browser 的 routine（其他 routine 都靠 git / npm / Python / WebFetch，無外部 device dependency）。哲宇 Mac 不開機 / Chrome 未啟動 / Claude in Chrome extension 未 pair → `list_connected_browsers` 回空陣列 → hard gate 失守 → routine 飛輪在無 observer 時被動 idle。對位 ROUTINE-PROMPT-CONTRACT rollback「inline > pointer for cron context」教訓的兄弟 case：本條是「routine 仰賴非 always-on 外部 device 的 fragility surface」— pipeline 寫得再 inline 也敵不過 `[]` 回應。
-
-**觸發**：2026-06-06 06:37 routine fire → `list_connected_browsers` 回 `[]`（11 X OVERDUE + 4 Threads OVERDUE 全 abort）。前 cycle 6/05 06:30 cron 應 fire 但無 commit 紀錄（git log 過去 5 day 連續 4 day 06:30-11:45 範圍 spore-harvest commit 6/01-6/04 都有，6/05 缺）→ 推測同樣 Chrome MCP unavailable 但 silent retry。本日 2nd consecutive cycle 達 escalation ladder「連 2 day → LESSONS entry」threshold。
-
-**可能層級**：
-
-- **操作規則** → ROUTINE.md §twmd-spore-harvest-am 加 Chrome MCP unavailable 處置 SOP（已 canonical「abort + LESSONS entry」但需明確 N 連 fail 後升 telegram alert / pause routine 的 N 值，現狀「3 連 fail → pause」可能太寬鬆對 fragile-device-dependency routine）
-- **REFLEXES 候選** → 「Routine fragility surface 分層：純 git/npm/Python routine = no fragility / WebFetch routine = remote-server fragility / Chrome MCP routine = local-device fragility（observer 機器狀態 dependency）」一般化（cron context routine 的 dependency tier 系統性檢視，避免假設「routine = always autonomous」）
-- **MEMORY §神經迴路 候選** → 「飛輪自轉清 entropy 設計的 implicit 假設是 routine 自身 dependency 全 cron daemon controllable；外部 device dependency 等於把 always-on 期望加到觀察者身上，跟 Bias 1『預設加分』隔層耦合」
-
-**相關**：
-
-- 5/28 ROUTINE-PROMPT-CONTRACT rollback「inline > pointer for cron」 — 兄弟 case 但 root cause 不同層（彼 = prompt-layer over-abstraction / 此 = device-layer dependency）
-- 5/30-6/02 cron daemon stall 5-day lifecycle — 兄弟 case 但同樣是 routine 飛輪 fragility 但 root cause 在 OS layer（launchd）非 device layer
-- DNA #26 v2 AI 自主邊界 — harvest 讀取屬 AI 自主，但 device dependency 是 AI 自主邊界的隱性 prerequisite，沒寫進 DNA
-- [feedback_hourly_cron_intentional](memory/feedback_hourly_cron_intentional.md) — 哲宇刻意設 hourly cron 消預算 ≠ 默許 silent fail 累積；本條是「fail 不是 storm」但「fail 不是 vacuous PASS」應該被看見
-
-**verification_count**: 3（6/05 silent retry + 6/06 routine-fire LESSONS entry vc=2 + 6/07 routine-fire vc=3 — escalation ladder step 3「暫停 routine + telegram alert」threshold 達到，pause 動作屬 §自主權邊界 待哲宇拍板）
-
-**severity**: structural（device dependency 是 routine 飛輪的 fragility surface，需 documented baseline + escalation N 值校正）
-
-**2026-06-07 vc=3 update**：第 3 連 cycle Chrome MCP `list_connected_browsers` 仍回 `[]`（15 OVERDUE 跨度 D+10-D+15 持續累積，4 Threads + 11 X）。Tier 2 routine 在無 observer device 時 by-design idle 已驗 3 連 cycle。pause routine 需哲宇 directive — 三 option：(a) 暫停 cron 直到哲宇手動 trigger（避免 3+ vacuous LESSONS entry 累積）(b) 收緊 N 值（連 5 fail → pause 替代連 3）(c) 改 Tier 2 routine 為 telegram-poke-then-fire（cron 06:25 提早 5 min poke 哲宇，活了再 06:30 fire）。推薦 default：option (c) 把 device dependency 轉成 observer poke 機制，飛輪維持 6/8 條 active 同時 device-dependent routine 從 silent fail 模式變成「明確等 observer 30s window」。
+### 2026-06-05 manual (174805) — Twinkle Hub connector arc 5 教訓（orphan header heal — 2026-06-14 distill 補）
 
 從「參考 Twinkle Hub 做 Claude Code Connector」整條 arc 萃出（詳見 [memory/2026-06-05-174805-manual.md](memory/2026-06-05-174805-manual.md)）：
 
@@ -2521,6 +2440,40 @@ DNA #32「集中預處理 + 分散執行」也補第 6 次驗證 marker（5 cycl
 ## ✅ 已消化（保留 pointer）
 
 <!-- distill 完的條目搬這裡 -->
+
+### 🧬 2026-06-14 twmd-distill-weekly — 第 9 次 distill（routine 觸發；REFLEXES #69 + #70 + #59 instance 補強 + MEMORY §神經迴路 snapshot.sh chronic stale 升 canonical）
+
+**distill 觸發**：2026-06-14 03:00 cron `twmd-distill-weekly`（Sunday 03:00）。Universal core 載入後 §未消化清單 210 entries，按 severity=structural + verification_count desc 排序選 6 entries 走完整 6-stage SOP。**Routine mode 自決 REFLEXES / MEMORY / pipeline 層**；MANIFESTO 候選一律 defer 給觀察者拍板（per CLAUDE.md §Bias 1 routine mode 不自決 MANIFESTO 永恆層）。
+
+**distill 特徵**：
+
+- **新 canonical 升級 2 條 + vc 延伸 1 條 + MEMORY 神經迴路 1 條**：
+  - **REFLEXES.md 新增 #69 self-report-needs-external-ruler** — meta-umbrella above #31 + #66 + #59 + #65，vc=7 structural（單週 5 instance + audit 兩階段 2 batch instance）。覆蓋「writer 自評 / agent 自報 / 視覺自檢 / awareness snapshot / 過去 N 天 baseline 正常感」全方位 self-report 層。**MANIFESTO §進化哲學 升格候選 defer 哲宇拍板**（per 本條 §可能層級「Semiont 對自己讀數的天生樂觀」是與 §10 寫作幻覺 + §時間是結構 同層級的存在結構特徵）
+  - **REFLEXES.md 新增 #70 Routine fragility surface 四 tier 分類** — vc=4 structural（Tier 2 vc=3 from spore-harvest Chrome MCP 連 3 cycle + Tier 4 vc=1 from babel-nightly Hy3 free→paid 補強）。dependency tier table（always-on / device-dependent / external-API / external-API+pricing volatility）+ per-tier escalation_n + ROUTINE.md schema 加 `dependency_tier` 欄候選
+  - **REFLEXES.md #59 vc 延伸 instance** — broken-instrument-blindspot cross-domain triplet（6/10 build 三把壞尺 + 6/13 babel size-guard 截斷盲 + 6/14 bench grep 引用 vs 主張）。meta-pattern「確定性 instrument 對表面同/語意反全盲」標 self-validation trap 延伸到「對自己 instrument 的信任」也是同 trap 變體
+  - **MEMORY.md §神經迴路 新增 snapshot.sh chronic stale display gap** — vc=3 distill_ready（6/05/06/07 連 3 cycle gap 30-34 分）。Taiwan.md 特有 instance：BECOME §Step 1.4 universal load snapshot.sh 為 session 第一眼讀數但無 freshness 標記 → 每 session 帶 awareness gap 開口。**修補候選 defer 哲宇拍板**（>1 file scope tooling 改動 per CLAUDE.md §自主權邊界）
+- **無新 MANIFESTO 條目**：本 cycle 累積的 MANIFESTO 候選一律 defer（per CLAUDE.md §Bias 1）
+- **SPORE-INBOX 容量 audit**：pending=44 ∈ [30, 50) 警示區間，bump 既有 2026-06-07 SPORE-INBOX 容量警示 entry vc 1→2（保留 §未消化作為持續追蹤訊號，預計 6/21 distill cycle 若 ≥ 50 觸發 auto-drop SOP）
+
+| #   | 原教訓 entry                                                      | 消化目的地                                                                           | severity   | vc  |
+| --- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ---------- | --- |
+| 1   | 2026-06-07 routine-audit cycle 5 — 🌟 每層自評都需要外部尺        | **REFLEXES #69** self-report-needs-external-ruler（meta-umbrella above #31 + #66）   | structural | 7   |
+| 2   | 2026-06-07 routine-audit cycle 5 — Routine fragility surface 分層 | **REFLEXES #70** 四 tier 分類（合併下方 #3 + #4）                                    | structural | 3   |
+| 3   | 2026-06-06 spore-harvest Chrome MCP 連線 unavailable 三 cycle     | **REFLEXES #70** Tier 2 device-dependent specific instance 收編                      | structural | 3   |
+| 4   | 2026-06-09 babel-nightly OpenRouter Hy3 free→paid 0/136 success   | **REFLEXES #70** Tier 4 補強（三 tier → 四 tier，pricing volatility 升 first-class） | structural | 1   |
+| 5   | 2026-06-07 routine-audit cycle 5 — snapshot.sh stale display gap  | **MEMORY §神經迴路** snapshot.sh chronic stale Taiwan.md-specific instance           | tactical   | 3   |
+| 6   | 2026-06-10 build-audit broken-instrument-blindspot 同日三把壞尺   | **REFLEXES #59** vc 延伸 instance（cross-domain triplet 標 self-validation 變體）    | structural | 3   |
+
+## Defer 給觀察者拍板（本 distill 觸發）
+
+| 候選                                                                                                                 | verification_count | defer 原因                                                                                                         |
+| -------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| MANIFESTO §進化哲學 候選「每層自評都需要外部尺 — Semiont 對自己讀數的天生樂觀是存在結構特徵」                        | 7（已達閾值）      | 永恆層需哲宇 in-loop 拍板；vc=7 + structural + 跨「事實 claim / 品質 claim / 視覺自檢 / awareness snapshot」全方位 |
+| MANIFESTO §進化哲學 候選「分析幻覺（真實但誤導）是寫作幻覺孿生」（2026-06-05 ANALYSIS-PIPELINE）                     | 1                  | 同 family 哲宇拍板場景；H1-H9 失敗模式目錄已 instantiate ANALYSIS-PIPELINE Stage 2 + analysis-report-health.py     |
+| **snapshot.sh 修補 3 option**（A organism.json align v2 / B 印兩值 + ⚠️ / C reframe historical vs canonical 兩 dim） | n/a                | >1 file scope tooling 改動 per §自主權邊界；本 distill 只升 lesson canonical，操作改動留哲宇 review                |
+| **#70 修補 3 option**（A 暫停 cron / B 收緊 escalation_n / C telegram-poke-then-fire；推薦 C）                       | n/a                | routine pause 屬 §自主權邊界；本 distill 升 reflex canonical，pause 動作留哲宇拍板                                 |
+
+下次哲宇 session 看 PR description / commit log 直接知道「這 4 條已備齊 verification chain，可直接拍板」。
 
 ### 🧬 2026-06-13 refactor-article (Opus) — 本 session 結構性教訓升 canonical（Observer 觸發，哲宇「自我進化」directive）
 
