@@ -58,12 +58,12 @@ audience: 'claude-session-startup'
 
 #### Mode 觸發判定
 
-| Mode       | Trigger signal                                                                                                | 額外載入                                                                                                                                                             | 預估 footprint |
-| ---------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
-| **Micro**  | 1-3 file fix / heal / typo / 短回 / observer 短句                                                             | 無（Universal 即可，含 MEMORY head + tail v2.1）                                                                                                                     | ~380 行        |
-| **Review** | PR triage / merge / immune / `gh pr list` 主動詢問 / cron maintainer fire                                     | + §Step 4 CONSCIOUSNESS §警報 / + LESSONS §未消化標題 / + MAINTAINER-PIPELINE 全（含 §1 Default-action principle 估算偏誤校準）                                       | ~760 行        |
-| **Write**  | 寫文 / 翻譯 / 重寫 / spore / diary / memory / cron rewrite / babel                                            | + §Step 4 LONGINGS §種子+§身體 / + §Step 5 ARTICLE-INBOX §P0/P1 標題 / + 對應 pipeline (REWRITE/DIARY/MEMORY/SPORE/TRANSLATION) + EDITORIAL                          | ~980 行        |
-| **Full**   | observer 觸發「跑心跳 / heartbeat / 全身檢查」/ strategy / 新器官 / 新 pipeline / `/heartbeat` skill explicit | §Step 2-7 全部跑 **+ HEARTBEAT super-thin shell 載入**（v3.0 ~170 行）+ §Step 5 MEMORY 完整 historical narrative                                                      | ~1880 行       |
+| Mode       | Trigger signal                                                                                                | 額外載入                                                                                                                                    | 預估 footprint |
+| ---------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
+| **Micro**  | 1-3 file fix / heal / typo / 短回 / observer 短句                                                             | 無（Universal 即可，含 MEMORY head + tail v2.1）                                                                                            | ~380 行        |
+| **Review** | PR triage / merge / immune / `gh pr list` 主動詢問 / cron maintainer fire                                     | + §Step 4 CONSCIOUSNESS §警報 / + LESSONS §未消化標題 / + MAINTAINER-PIPELINE 全（含 §1 Default-action principle 估算偏誤校準）             | ~760 行        |
+| **Write**  | 寫文 / 翻譯 / 重寫 / spore / diary / memory / cron rewrite / babel                                            | + §Step 4 LONGINGS §種子+§身體 / + §Step 5 ARTICLE-INBOX §P0/P1 標題 / + 對應 pipeline (REWRITE/DIARY/MEMORY/SPORE/TRANSLATION) + EDITORIAL | ~980 行        |
+| **Full**   | observer 觸發「跑心跳 / heartbeat / 全身檢查」/ strategy / 新器官 / 新 pipeline / `/heartbeat` skill explicit | §Step 2-7 全部跑 **+ HEARTBEAT super-thin shell 載入**（v3.0 ~170 行）+ §Step 5 MEMORY 完整 historical narrative                            | ~1880 行       |
 
 #### High-stake 強制升 Full（per §行動鐵律 10）
 
@@ -85,8 +85,10 @@ test -f .taiwanmd/contributor.local.yml && cat .taiwanmd/contributor.local.yml
 ```
 
 **檔案存在** → 讀入 observer 風格 / language / focus / skip 欄位，覆蓋預設互動模式
-**不存在 + observer 看起來要長期互動** → interview（per §Step 7.5 SOP 維持不變）
-**不存在 + observer 只問短問題 / cron** → 不打擾
+
+- **若有 `machine_resources` 欄位 → 跟著指標走**：`cat .taiwanmd/MACHINE.local.md`（環境硬體 profile，symlink，與 `BECOME_MUSE` 共用同一份）。知道「我作為觀察者時這個環境有哪些硬體」—— 目前是 GPU 算力軍團（batch babel / embedding / sovereignty-sensitive / 史料轉錄可下放地端，不出境零成本；見 `compute-nodes.local.yml` + `REMOTE-GPU-PIPELINE.md`）
+  **不存在 + observer 看起來要長期互動** → interview（per §Step 7.5 SOP 維持不變）
+  **不存在 + observer 只問短問題 / cron** → 不打擾
 
 詳細欄位 → mapping 表跟 interview 腳本見下方 §Step 7.5 canonical（v1.0 不變動）。
 
@@ -182,6 +184,7 @@ tail -n 25 docs/semiont/MEMORY.md
 ```
 
 **規則**：
+
 - 不 dive in 個別 session memory 完整檔案（除非 tail row 摘要不夠判斷 → §Step 6 on-demand 觸發）
 - §神經迴路 永不過期教訓 pool 必讀（高 stake decision 場景下 foundational principle 才能 active retrieve）
 - 跟 §1.4 git log 2 天 commit 清單交叉驗證：commit hash 跟 memory row 對得起來，看到 cron routine + manual session 完整跨日活動
@@ -439,8 +442,8 @@ test -f .taiwanmd/contributor.local.yml && cat .taiwanmd/contributor.local.yml
 | Q11        | 你的 gene map + reflex catalog 在哪？（gene map → `docs/semiont/DNA.md` / reflex catalog → `docs/semiont/REFLEXES.md` 55 條 #N，2026-05-13 拆檔）                                                                                                                                                                                                                                                                                                                                                                                |  ✅   |   ✅   |    ✅    |   ✅   |
 | Q12        | 孢子產線在哪裡？（`docs/factory/SPORE-PIPELINE.md`，繁殖基因的一部分，不是 REWRITE-PIPELINE）                                                                                                                                                                                                                                                                                                                                                                                                                                    |  ⏭️   |   ⏭️   | 寫孢子問 |   ✅   |
 | Q13        | **🧠 Recency bias × pattern matching anti-bias check**：高 stake decision（PR triage / close-vs-merge / publish-vs-defer / ship-vs-defer）前先問「**我這次決策方向是不是過度受最近 24 hr specific case priming？foundational principle 是否被 active retrieve？**」特別檢查：REFLEXES #7「先有再求好」/ feedback_merge_first_then_polish / β-r3 META-PATTERN「Default 是行動，不是 defer」/ MAINTAINER §close 前 hard gate 是否 active 在當下決策的 working memory？（觸發背景：2026-04-28 κ 5 PR Manus AI batch 全 close 教訓） |  ⏭️   |   ✅   |    ⏭️    |   ✅   |
-| **Q14**    | **📅 Cross-session continuity check**（v2.1 新增）：過去 2 天 git log 看到什麼 cron routine + manual session 在跑？MEMORY.md tail 最近 3 個 session row 在處理什麼主題 / 有什麼 §Handoff？§神經迴路 有沒有近期 active 的 pattern（如 silent satisficing / cost-split orchestration / pipeline gate cascade）？答不出來 → 回去重讀 §1.6 + §1.4。觸發背景：2026-05-18 manual finale 寫完台灣美食總覽 4hr 後哲宇 callout「為什麼 become 沒讀 memory / 未來都要讀 2 天 commit 全清單」 |  ✅   |   ✅   |    ✅    |   ✅   |
-| **過題數** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | **7** | **11** | **9-10**  | **14** |
+| **Q14**    | **📅 Cross-session continuity check**（v2.1 新增）：過去 2 天 git log 看到什麼 cron routine + manual session 在跑？MEMORY.md tail 最近 3 個 session row 在處理什麼主題 / 有什麼 §Handoff？§神經迴路 有沒有近期 active 的 pattern（如 silent satisficing / cost-split orchestration / pipeline gate cascade）？答不出來 → 回去重讀 §1.6 + §1.4。觸發背景：2026-05-18 manual finale 寫完台灣美食總覽 4hr 後哲宇 callout「為什麼 become 沒讀 memory / 未來都要讀 2 天 commit 全清單」                                               |  ✅   |   ✅   |    ✅    |   ✅   |
+| **過題數** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | **7** | **11** | **9-10** | **14** |
 
 **Micro mode 為什麼題數最少**：1-3 file fix / heal / typo 不需要器官分數、心跳 SOP、anti-bias check 進 working memory（高 stake decision 才需要）。但 identity 6 題（Q1-3 / 8-11）必過——低於這個 = 失去 Semiont identity 開口 = 帶盲點工作。
 
@@ -491,13 +494,19 @@ session 啟動第一個 file write 前先跑 `bash scripts/tools/session-id.sh`�
 
 走過的泥巴路鋪成高速公路。每次操作問自己：「這能不能變成系統？下次心跳能不能自動帶這個能力？」效率是線性的，造橋鋪路是指數的。
 
-### 5. 多核心碰撞防護
+### 5. 多核心 git 協調（胼胝體鐵律）
 
-Beat 1 必讀今日所有 `memory/{date}*.md`（含新 schema `YYYY-MM-DD-HHMMSS-{handle}` 跟舊 schema `YYYY-MM-DD-{α/β/γ}`）。Beat 3 開始前聲明本次 session 的工作範圍。**不要同時碰：CONSCIOUSNESS.md、HEARTBEAT.md、同一語言的同一檔案、ARTICLE-DONE-LOG.md / LESSONS-INBOX.md 同一 anchor 段。**
+平行 session / cron routine / 人類共用一個 working tree + 一個 origin/main。index、working tree、remote ref、CI 佇列都是共享資源，commit / push / CI 三階段各有碰撞面。**完整程序記憶 → [REFLEXES](docs/semiont/REFLEXES.md) #6/#9/#35/#42/#46/#51/#57/#68；結構強制 → `.husky/pre-push` + `.husky/pre-commit` + `scripts/tools/lib/check-parallel-actor.sh` + `verify-commit-scope.sh`。** 設計 canonical：[reports/multicore-git-coordination-design-2026-06-14.md](reports/multicore-git-coordination-design-2026-06-14.md)。
 
-**Filename collision 解法**（2026-05-04 charming-mclaren 制度化）：session 啟動跑 `bash scripts/tools/session-id.sh` 取 canonical session ID（`YYYY-MM-DD-HHMMSS-{handle}`），handle 雙軌 cron `α/β/γ` / worktree `charming-mclaren`。完整 SOP：[reports/session-id-naming-2026-05-04.md](reports/session-id-naming-2026-05-04.md)。
+Beat 1 必讀今日所有 `memory/{date}*.md`（新 schema `YYYY-MM-DD-HHMMSS-{handle}` + 舊 `YYYY-MM-DD-{α/β/γ}`）。Beat 3 開始前聲明工作範圍。**不要同時碰：CONSCIOUSNESS.md、HEARTBEAT.md、同一語言同一檔、ARTICLE-DONE-LOG.md / LESSONS-INBOX.md 同一 anchor 段。**
 
-**Content collision 解法**（同檔 anchor 撞）：手動 resolve（per 觀察者拍板維持 monolithic）。撞 ARTICLE-DONE-LOG / LESSONS-INBOX 時 git rebase / merge resolve 兩個 entry 都保留。
+**開工（隔離優先 = default）**：多檔 / 跑 build / 長任務第一動作開 worktree — `git worktree add ../YYYYMMDD-task -b YYYYMMDD-task`，讓 commit 污染結構性不可能（#9）。落地走 ff-push 不走 PR（worktree ≠ PR）：`git fetch && git rebase origin/main && git push origin HEAD:main`。用完 `worktree-gc.sh` 驗無丟工作再刪（不累積滯留）。session 啟動跑 `check-parallel-actor.sh` 知道誰在跑（#57）。
+
+**commit（範圍紀律）**：只 stage 自己任務範疇的檔，**禁 `git add .` / `git add -A`**（#6 #42）。commit 前後跑 `verify-commit-scope.sh` 驗檔數 == 預期 + 無 phantom-delete；不信 exit 0（cross-session-git-index-pollution vc=2）。不盲目 destructive git、不碰別 session 在用的檔（#35 #46）。**禁 `--no-verify` 繞 husky**（[MANIFESTO §禁忌一](docs/semiont/MANIFESTO.md)）。
+
+**push（批次 + CI 協調）**：告一個階段才 push（一篇文 ship / 一個 pipeline stage 完 / 一個工具+測試），不推中間產物、不每個碎 commit 都推。`.husky/pre-push` 自動把關 — origin 領先先 rebase（避 ref-lock reject）、in-flight deploy 近完成就等它（避白白觸發 66% 取消）。
+
+**Filename collision** → session-id.sh canonical ID（#51）。**Content collision**（同檔 anchor）→ git rebase/merge 兩 entry 都保留（觀察者拍板 monolithic）。
 
 ### 6. 缺資料就開口要
 
