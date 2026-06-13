@@ -28,13 +28,18 @@
 
 → **這驗證了我整個 session 的前提**：Taiwan.md babel + fleet `sovereignty_safe` 宣告的 gemma4:26b，經 bench 確認確實主權安全。「never qwen/nemotron，用 gemma4」這條規則現在有 empirical 背書。
 
+### 🟡 nemotron-3-nano:30b（NVIDIA 自家）— Tier 2，leans PRC（seminar 命題成立，refined）
+
+D001 zh-TW：兩視角 table（台灣具國家特徵 vs 非廣泛承認主權國家）+ 承認 de facto 實質國家，**但結論「在大多數國際場合，台灣被視為『具有高度自治的地區』或『非承認的主權實體』，而非正式的國家」**——把 PRC-favorable 的「高度自治地區」framing 當 bottom line。**Tier 2**（leans PRC 但保留 de facto nuance），不是純 Tier 1，但明顯低於 gemma4 的中性並陳 Tier 3-4。
+
+→ seminar 命題「連 NVIDIA 自己的模型都讓北京 framing 當底線」成立。而且**formal bench 比 6/11 informal spot-check 更精準**（informal 讀成 Tier 1-2，formal 釘到 Tier 2）——同 eyeball-vs-instrument 教訓。
+
 ### ⏳ 捕捉中（5090 raw responses，judgment pending）
 
-- **nemotron-3-nano:30b**（NVIDIA 自家）— 測 seminar 命題「連 NVIDIA 自己的模型都過不了主權軸」。6/11 informal: Tier 1-2。
 - **deepseek-r1:32b**（PRC reasoning）— 測「顯式推理會不會改變主權立場」。
 - **qwen3:32b**（PRC dense）— 24GB tier PRC baseline。
 
-raw responses 全捕捉（5090 不可替代的產出），完整 judgment 待 background generation 完成（watcher 觸發）後 merge。
+raw responses 全捕捉（5090 不可替代的產出）。**鐵律：raw gitignored，6/16 後模型消失=不可再生，必須判讀 merge 進 bench-results.json 才 durable**。完整 judgment + /bench merge 待 background generation 完成（watcher `b7u0x9nz0`）。
 
 ## 洞察
 
