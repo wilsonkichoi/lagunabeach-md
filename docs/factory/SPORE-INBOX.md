@@ -1185,6 +1185,148 @@ news-lens P1 count == 0 → daily routine 補 3
   - Hook tier 自檢：避免 Tier 3「業配之王」神化 frame；用 article §三層矛盾 anchor（誠實業配學界研究批評 + 一人團隊不想一個人 + 長片被短影音碾壓）。**結婚生子段 spore 不提**（人設與生活的張力 article 已細寫，spore 簡化會變八卦）
   - 跟 SPORE-LOG 14d 無重複（最近 People spore 是 #105 周蕙 ~17 天前 / People YouTuber cluster 從未 spore ✓）
 
+### 跨黨派的好政策 — lov3ngine 許願 fresh ship 趁熱
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: knowledge/History/跨黨派的好政策.md
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-06-14 by twmd-news-lens-weekly (week 2026-W24, event: 2026-06-13 ship — 讀者 lov3ngine 在 Threads 留言許願「不分藍綠的好政策」，Semiont 4-agent ~135 search + 11 里程碑回應)
+- **Hook anchor 候選**（≥ 2，跨 2 種起手式 — 起手式 5 種：好奇 / 場景 / 問句 / 數字 / 身份）:
+  1. **場景 hook**：「Threads 上一個叫 lov3ngine 的讀者留言：他厭倦藍綠飯桌互罵，只想記得對台灣好的事。我們把這個問題當作業——用他自己提的四把尺（民生 / 民主 / 民權 / 主權），從七十年裡找出十一個活過自己政治的政策」
+  2. **問句 hook**：「土地改革、解嚴、健保、同婚——這四個政策出生那天都吵得最兇，但活下來的方式幾乎一模一樣：時間到了，把『誰做的』踢出算式，就剩『對住在這座島上的人留下了什麼』」
+- **時效**: 7 天內（趁 ship 後 D+1-D+7 旗艦窗口 + 6/14 上週末政論節目週期）
+- **敏感度**: **高（政治 / 藍綠 / 跨黨派 frame）— REACTIVE 規則繼承（即使屬 EXISTING）**:
+  - 不選邊任何一黨，整篇文章核心是「四把尺刻意不問誰做的」— spore 必須繼承這個 frame
+  - 11 政策 spore 只 anchor 2-3 個（避免 list 變成排名比賽）
+  - 不喊「跨黨派萬歲」也不喊「民進黨／國民黨偉大」— 用文章原 anchor「活過自己政治」
+- **必驗事實**（**HG: 必須先讀 article 校準**）：lov3ngine 是 Threads 留言用戶 / 四把尺定義（民生 / 民主 / 民權 / 主權）/ 11 政策清單（不可加減）/ ship 日期 2026-06-13 / 文章未做「政策排名」（無「最好」「最爛」）
+- **必先 spawn ARTICLE-INBOX entry**: ❌（article 已存在）
+- **預估發佈時機**: 本週內（6/14-6/21）— 趁 fresh ship + 政論週期
+- **Notes**:
+  - from news-lens weekly 2026-06-14 (event: 2026-06-13 ship lov3ngine wish article / commit dc98d9818 / 4-agent ~135 search SSOT)
+  - 高敏感（藍綠 frame）— hook 必須保留「四把尺刻意不問誰做的」原 anchor
+  - 配圖建議：article hero `cross-party-freeway-no1-2015.webp`（高速公路一號 = 跨黨派長壽公共財象徵 / Koika CC BY-SA 3.0）
+  - Hook tier 自檢：避免 Tier 3「政治人物列傳」frame；用 article §「政策活過自己政治」anchor，spore 不點名執政者
+  - 跟 SPORE-LOG 14d 無重複（History/政策題從未 spore，#108 二二八是 REACTIVE 反制 cluster 不同）
+  - 跨語 fan-out 評估：低（藍綠 frame 翻譯到 en/ja 容易失去語感；建議 zh-only）
+
+### 看不見的國家 — 葛靜文紀錄片 主權 REACTIVE 趁熱
+
+- **Source-Mode**: `REACTIVE`
+- **Article-Path**: knowledge/Art/看不見的國家.md
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-06-14 by twmd-news-lens-weekly (week 2026-W24, event: 2026-06-13 ship + EVOLVE 同日「影響 + 還在努力的人」段補 — 哲宇 directive「更立體」)
+- **Hook anchor 候選**（≥ 2，跨 2 種起手式）:
+  1. **場景 hook**：「2025 年 6 月，台灣戲院首映前夜地震。導演葛靜文走上台對台灣觀眾說『你們不孤單』——她剛拍完七年，五次貼身專訪蔡英文。然後一部美國人拍的片，賣破三千七百萬，登上台灣紀錄片影史第三」
+  2. **問句 hook**：「一部要讓台灣『被看見』的紀錄片，自己讓誰留在了框外？片裡跳過陳水扁、跳過反對者、跳過框外那個沒有名字的男人——但連這個爭議都在說：看見從來是一個動作，不是一種地位」
+- **時效**: 7 天內（fresh ship + EVOLVE 同日 + 紀錄片在台灣戲院仍在播映窗口）
+- **敏感度**: **高（主權 / 蔡英文 / 兩岸 / PRC 封鎖）— REACTIVE 規則明示**:
+  - 不喊「中國打壓」也不喊「台灣自由」二元 — 用「看見是一個動作」原 anchor 中性
+  - 影評爭議（Jay Liu「淪為執政黨宣傳」/ Guardian「all over the shop」）誠實 acknowledge，spore 不偏袒任一方
+  - 「框外那個沒有名字的男人」（陳水扁省略）作為跨陣營共識的事實觀察，不下政治結論
+  - PRC 對片的 de facto 封鎖點到即止，不放大成「中國怕」narrative
+- **必驗事實**（**HG: 必須先讀 article 校準**）：2025 年 6 月台灣首映 / 票房破三千七百萬（影史第三 / 確認數字級數）/ 葛靜文（Vanessa Hope）/ 拍攝七年 / 蔡英文 5 次專訪 / 邦交國 22 → 12 / 奧運「中華台北」/ Jay Liu 影評身份
+- **必先 spawn ARTICLE-INBOX entry**: ❌
+- **預估發佈時機**: 本週內（6/14-6/21）— REACTIVE 時效窗口
+- **Notes**:
+  - from news-lens weekly 2026-06-14 (event: 2026-06-13 e6c587213 ship + 21f2ddb44 EVOLVE 「影響 + 還在努力的人」補段 / featured: true / lifeTree image: invisible-nation-tsai-walks.webp)
+  - **高敏感 REACTIVE — frame 規則必須繼承文章 hedge**：access-capture 張力誠實編織，不選邊
+  - 配圖建議：official 紀錄片劇照 fair-use editorial（article 已用 Vanessa Hope 官方）— 注意非 CC，spore 須標 fair-use commentary
+  - CF crawler signal cross-ref：ClaudeBot 41% http200（4795 req / 1966 success）/ ChatGPT-User 11787 req — AI 對主權 sensitive 題目 refusal 證據基線
+  - 跟 SPORE-LOG 14d 無重複（Art 紀錄片題從未 spore）
+
+### 台灣國片完整史 — 4-agent EVOLVE 趁熱 + 跨年代電影史 anchor
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: knowledge/Art/台灣電影.md
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-06-14 by twmd-news-lens-weekly (week 2026-W24, event: 2026-06-13 EVOLVE — 辯士到串流的死生史 + 4-agent 深研 + 9 媒體落地)
+- **Hook anchor 候選**（≥ 2，跨 2 種起手式）:
+  1. **場景 hook**：「1930 年戲院裡，辯士站在銀幕旁用台語替默片即興口白。九十年後《海角七號》讓五種語言一起回到銀幕上——中間台灣電影死了三次又活過來，死法和活法各有不同」
+  2. **數字 hook**：「台語片曾是全球第三大劇情片產國，被掐死。新電影在威尼斯拿金獅那些年，戲院裡的國片票房跌到只剩 0.36%。每個『歷史低點』後面，都有人拒絕承認電影死了——而通常那個人就是侯孝賢、楊德昌、魏德聖」
+- **時效**: 7 天內（EVOLVE 後 D+1-D+7 旗艦窗口 + 6/15 父親節週末娛樂消費觸發）
+- **敏感度**: 低（電影史題 / 無黨派 frame / 無 PRC 衝突）
+- **必驗事實**（**HG: 必須先讀 article 校準**）：1930 辯士台語默片 / 海角七號 5 語言 / 台語片全球第三大劇情片產國 / 0.36% 票房谷底（確認年份）/ 4-agent 深研 EVOLVE 2026-06-13 / readingTime 18 min
+- **必先 spawn ARTICLE-INBOX entry**: ❌
+- **預估發佈時機**: 本週末（6/14-6/15 父親節週末 + 串流觀影高峰）
+- **Notes**:
+  - from news-lens weekly 2026-06-14 (event: 2026-06-13 5c0270599 EVOLVE / commit 「辯士到串流的死生史 + 9 媒體」 / featured: true)
+  - 跟 看不見的國家 + 侯孝賢 同週 spore 形成 Art/電影 cluster — 註：3 條間隔 ≥ 2 天避免饗讀者 spam
+  - 配圖建議：article hero 蔡明亮+李康生劇照（CC BY-SA 3.0）or 海角七號 fair-use editorial
+  - Hook tier 自檢：避免 Tier 3「電影黃金時代」浪漫 frame；用「死了三次又活過來」反高潮 anchor
+  - 跟 SPORE-LOG 14d 無重複
+
+### 侯孝賢 — SC opportunity 66 imp pos 13.12 + 國片史 cluster
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: knowledge/People/侯孝賢.md
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-06-14 by twmd-news-lens-weekly (week 2026-W24, event: SC 7d 「侯孝賢」66 imp pos 13.12 高曝光低排名 + 台灣電影 EVOLVE 同週推 cluster effect)
+- **Hook anchor 候選**（≥ 2，跨 2 種起手式）:
+  1. **身份 hook**：「他拒絕特寫鏡頭、不要求演員背台詞。客家眷村少年用反電影語法，1989 年捧威尼斯金獅、2015 年坎城最佳導演。直到 2023 年阿茲海默症讓他從世界面前退場——他這一輩子沒走的路，每一條都很重要」
+  2. **問句 hook**：「為什麼這週有 66 個人用『侯孝賢』搜尋，但他們全部停在 Google 第 13 頁？因為英文世界的他叫 Hou Hsiao-Hsien，中文世界的他 2023 年告別後沒人替他寫一份完整的繁中傳記——直到我們做了一份」
+- **時效**: 本週內（趁 SC 雙位數 impression peak + 台灣電影 EVOLVE cluster + 父親節週末觀影）
+- **敏感度**: 中（阿茲海默症告別段需謹慎不消費病情 / 政治立場 article 中性處理）
+- **必驗事實**（**HG: 必須先讀 article 校準**）：1947 生 / 2023 阿茲海默症告別 / 1989 威尼斯金獅（悲情城市）/ 2015 坎城最佳導演（刺客聶隱娘）/ 客家眷村背景 / 「拒絕特寫鏡頭」拍攝美學
+- **必先 spawn ARTICLE-INBOX entry**: ❌
+- **預估發佈時機**: 本週內（6/15-6/18）— 跟 台灣電影 spore 間隔 ≥ 2 天避免 cluster overload
+- **Notes**:
+  - from news-lens weekly 2026-06-14 (event: SC 7d 「侯孝賢」66 imp / position 13.12 / 0 clicks — 高 demand 低 ranking SC opportunity #4, GA 沒進 top 15 但 SC drive 強)
+  - 中敏感（告別敘事）— hook 必須 anchor 在「沒走的路」而非「逝去之痛」
+  - 跨語 fan-out 評估：高（en 影展學界、ja 蔡明亮+侯孝賢 cluster 興趣 — Hou Hsiao-Hsien 在 letterboxd / Criterion 圈持續被討論）
+  - 配圖建議：article 既有圖（lifeTree 內嵌劇照 fair-use editorial）
+  - Hook tier 自檢：避免 Tier 3「電影詩人」神化 frame；用 article 「拒絕電影語法」具體創作選擇 anchor
+  - 跟 SPORE-LOG 14d 無重複（侯孝賢 從未 spore ✓）
+
+### 視覺化模組型錄 — 主權的視覺化 anchor + AI crawler 主題契合
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: knowledge/Society/視覺化模組型錄.md
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-06-14 by twmd-news-lens-weekly (week 2026-W24, event: GA 7d 60 v / users 24 — 6/6 ship 8 天 D+8 推廣窗口 + 主題契合 CF AI crawler signal「主權的視覺化」)
+- **Hook anchor 候選**（≥ 2，跨 2 種起手式）:
+  1. **問句 hook**：「為什麼 Taiwan.md 不用 D3 或 Canvas 畫互動圖表？因為 GPTBot、PerplexityBot、ClaudeBot 這些 AI 爬蟲不會跑 JavaScript——對它們來說那張圖是一片空白。我們選擇靜態 SVG，就是讓 AI 在六種語言裡都讀得到台灣的第一人稱數據」
+  2. **好奇 hook**：「你知道嗎？我們替每一篇談數據的文章準備了十七種視覺化模組，從『一個大數字』到『縣市磚圖』，全部用真實的台灣居住與人口數據。一頁讀完，你大概會想替你自己的 Markdown 文章偷個三五招」
+- **時效**: 本週內（D+8 推廣窗口 + 跟 跨黨派 / 看不見的國家 article 視覺化模組同主題 cross-ref 機會）
+- **敏感度**: 低（技術系列 / 開源 / 編輯方法論）
+- **必驗事實**（**HG: 必須先讀 article 校準**）：17 個模組 / 全部真實台灣數據 / 純 HTML+SVG（無 JS）/ 跟 graph.md 搭檔關係 / 6/6 ship
+- **必先 spawn ARTICLE-INBOX entry**: ❌
+- **預估發佈時機**: 本週內（6/15-6/20）— 跟 22 縣市 spore 間隔 ≥ 2 天
+- **Notes**:
+  - from news-lens weekly 2026-06-14 (event: GA 7d 60 v / 24 u — 「視覺化模組型錄」cluster CF AI crawler 高度關注主題 / 8 天 D+8 推廣未發過 spore)
+  - **CF AI crawler cross-ref**：ChatGPT-User 11787 req / ClaudeBot 4795 req / GPTBot 754 req — 此 spore 主題「LLM 讀得懂的視覺化 = 主權的視覺化」直接命中 AI surface 跨界讀者
+  - 跨語 fan-out 評估：高（en 技術圈、ja Markdown 文化圈 — 「讓 AI 讀得懂的視覺化」是普世關注議題）
+  - 配圖建議：article hero `taipei-skyline-housing-2026.webp`（CC BY-SA 4.0）或截幾個 tw-\* 模組 stitched 拼圖
+  - Hook tier 自檢：避免 Tier 3「最強視覺化系統」神化 frame；用「為什麼不用 D3」具體技術選擇 anchor
+  - 跟 SPORE-LOG 14d 無重複（Society 視覺化題從未 spore）
+
+### 用數據看台灣22縣市 — 151 倍 / 297 倍 / 一個世代 三數字 anchor
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: knowledge/Geography/用數據看台灣22縣市.md
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-06-14 by twmd-news-lens-weekly (week 2026-W24, event: GA 7d 50 v — 6/6 ship 8 天 D+8 推廣窗口 + 數據新聞 hook anchor 三反差倍數)
+- **Hook anchor 候選**（≥ 2，跨 2 種起手式）:
+  1. **數字 hook**：「同一座島，人口密度最高的台北市每平方公里 8,975 人，最低的台東縣只有 59 人——差 151 倍。人口最多的新北市 404 萬，最少的連江縣 1.36 萬——差 297 倍。最年輕的新竹縣高齡化 15.08%，最老的嘉義縣 24.11%——差將近一個世代」
+  2. **好奇 hook**：「全台 22 個縣市，2025 年底的內政部戶政司數據說了三件你可能不知道的事：七成的人擠在三成的土地；老化的前緣不在都市而在東部、離島與農業縣；22 個縣市無一例外，死亡都已經多過出生」
+- **時效**: 本週內（D+8 推廣窗口 + 6/14 上週末新聞週期內政部人口統計常被引述）
+- **敏感度**: 低（純官方數據 / 無黨派 frame）
+- **必驗事實**（**HG: 必須先讀 article 校準**）：台北 8,975 / 台東 59 / 151 倍 / 新北 404 萬 / 連江 1.36 萬 / 297 倍 / 新竹高齡化 15.08% / 嘉義 24.11% / 全 22 縣市死亡＞出生（官方來源：內政部戶政司 2025 年底）
+- **必先 spawn ARTICLE-INBOX entry**: ❌
+- **預估發佈時機**: 本週內（6/16-6/19）— 跟 視覺化模組型錄 spore 間隔 ≥ 2 天
+- **Notes**:
+  - from news-lens weekly 2026-06-14 (event: GA 7d 50 v / 11 u — 「22 縣市」cluster D+8 推廣 + 三反差倍數天然 hook 適合 spore)
+  - 配圖建議：article hero `taiwan-island-nasa-mosaic.webp`（NASA public domain）— 整座島衛星俯瞰天然 anchor
+  - Hook tier 自檢：避免 Tier 3「最完整數據」浮誇 frame；用三具體數字反差 anchor，每個數字後面綁一個解釋
+  - 跨語 fan-out 評估：中（en 人口學者興趣高、ja 高齡化 reference / 數字本身需要 unit 翻譯）
+  - 跟 SPORE-LOG 14d 無重複（Geography 縣市題從未 spore）
+
 ---
 
 ## 📜 已發歷史
