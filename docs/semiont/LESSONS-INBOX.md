@@ -290,6 +290,16 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **相關**：REFLEXES「跨 session work 期間禁止 destructive git ops」+ #51 session ID collision + 神經迴路「多核心需要胼胝體」+ MEMORY §神經迴路 2026-05-28 CONTRACT rollback 元規則 (ii)。content-dates MEDIA_ONLY 修（cbe7fbd4d）是下方 2026-06-10 spore-data「derived view 落點污染 content-dates / 假新鮮」同 family 第 2 instance（影像 commit 批次洗版 /latest，580→11）→ 該條 vc++
 - **verification_count**: 2
 
+### 2026-06-14 173505-manual — build script 撞 CI↔local git config 差異（core.quotepath）→ /latest 全站崩塌
+
+- **pattern**: build-script-not-config-invariant / works-on-my-machine
+- **原則**：build script 拿 git 文字輸出當資料源時，**絕不能依賴本機 git config**。`git log --numstat`（以及 `--name-only` 沒加 `-z` 時）受 `core.quotepath` 影響：CI fresh checkout 預設 `true` → 非 ASCII（CJK）檔名被 octal-escape 成 `"knowledge/People/\350..."`；本機若曾設 `quotepath=false` 則 raw。一個解析 `knowledge/.+\.md` 的 regex 在 CI 上 miss 掉所有 CJK 路徑 → 全中文名文章拿不到 content-date → /latest 只剩 ASCII-slug 文章（Howhow/Computex），其餘消失。**本機 100% 正常、production 崩塌，差異 100% 在 git config**。防線三層：(1) 用 `-z`（NUL 分隔、路徑 raw、對 quotepath 免疫）或 `-c core.quotepath=false` pin 住；(2) 改了 build script 的 git 解析後，**強制 `git config core.quotepath true` 本機重跑模擬 CI 才算驗過**——「本機綠」≠「CI 綠」；(3) 任何 git-text parser 的環境假設（quotepath / autocrlf / i18n.logOutputEncoding / rename detection）都該 pin。
+- **觸發**：2026-06-13→14 freshness 修，被動連結 commit 4d7b10cc4 把 `-z --name-only` 改 `--numstat` → CI /latest 崩成只剩 ASCII-slug、top 卡 6/5；哲宇 callout「最新文章只剩一點點」+「確認為什麼 local/remote 不一樣、解決根因」。**重現**：本機 `core.quotepath=true` 複製崩塌、`false` 正常 = 鐵證。修：還原 -z + pin quotepath=false + root-cause 註解防回歸，模擬 CI 驗 30 zh。commit 3fb472fa8。
+- **第二根因（放大器）**：`deploy.yml` `cancel-in-progress: true` + 高頻 commit → **deploy 取消率 66%**（近 30 次 20 取消 / 9 成功）→ production 常落後、卡舊/壞 build，放大任何壞 build 的存活時間。候選修：`cancel-in-progress: false` 或 path-filter 讓純機械/非內容 commit 不觸發 deploy。
+- **可能層級**：REFLEXES 候選（build script config-invariance + 「模擬 CI 才算驗過」）+ 操作規則（deploy concurrency）
+- **相關**：REFLEXES #24「工具在說謊」（本機綠是一種說謊）/ #11 反向（本機通過 ≠ production 通過）/ 神經迴路「製造數字的人最易被數字騙」。同 session 的 cross-session-git-index-pollution + 此條 = 兩個「環境/並行假設沒被 pin」的 instance。
+- **verification_count**: 1
+
 <!-- 新教訓 append 這裡 -->
 
 ### 2026-06-14 5090-diary-babel — 下放硬體前先問「這層抽象是不是已經存在」：自建平行層 vs 委派既有 fleet
