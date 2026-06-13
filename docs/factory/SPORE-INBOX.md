@@ -1108,6 +1108,85 @@ news-lens P1 count == 0 → daily routine 補 3
 
 ---
 
+### 蘇打綠 — 6/9 EVOLVE 趁熱 EXISTING-ARTICLE spore（22 年法律戰收回自己的名字）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/Music/蘇打綠.md](../../knowledge/Music/蘇打綠.md)
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Requested**: 2026-06-13 by twmd-spore-pick-daily routine (score=38)
+- **Hook anchor 候選**（≥ 2，跨 2 種起手式）:
+  1. **場景 hook**：「2001 年 5 月，政大金旋獎舞台，四個學生用一首〈窺〉拿下樂團組最佳人氣獎。22 年後的小巨蛋，主唱深吸一口氣才喊得出『我們是蘇打綠！』，那是一場打了四年的商標訴訟結束的瞬間」
+  2. **數字 hook**：「蘇打綠走完 22 年才學會一件事：台灣 indie 樂團出道第一件事，是先把團名註冊起來。中間有金曲獎五座、韋瓦第四部曲走遍北京柏林、2017 自由廣場兩萬人合唱、然後 2019 被告上法庭」
+  3. **身份 hook**：「你皮夾裡那張《冬 未了》——它讓蘇打綠在第 27 屆金曲獎一口氣抱走五座，但團名打官司的那四年，這張專輯的版稅是誰收的？」
+- **時效**: 7-10 天內（article 6/9 ship 趁熱窗口 D+4，剩 ~10 天）
+- **敏感度**: 低（樂團故事 / 商標訴訟已和解）
+- **必驗事實**（HG：必須對 article 校準）：2001 年 5 月政大金旋獎第 18 屆 / 主唱吳青峰中文系 / 2003 年 7 月貢寮海洋音樂祭被林暐哲發掘 / 第 27 屆金曲獎《冬 未了》拿五座 / 2017 自由廣場兩萬人 / 2019 訴訟開始 / 2023 年小巨蛋宣告結束 / 六位團員學科背景五系所兩所大學 / 林暐哲音樂社 5/30「蘇打綠日」
+- **必先 spawn ARTICLE-INBOX entry**: ❌（article 已存在）
+- **預估發佈時機**: 本週內（D+4 至 D+10 窗口）
+- **Notes**:
+  - score=38 (D1=+30 D2=+0 D3=+0 D4=+8 D5=+0 D6=+0 D7=+0); non_zero=2 / HG10 PASS
+  - 來源：routine pick / D1 趁熱 6/9 EVOLVE ship + D4 Music 高 fan-out 類別（trans 5/5 已 done）
+  - 多語 fan-out 觸發判斷 = 高（en 對 indie 樂團商標訴訟 + 韋瓦第四部曲跨國 tour 有 sustained 興趣；ja/ko 對林暐哲音樂社 + 韋瓦第計畫北京柏林版本有歷史 anchor）
+  - 配圖建議：article hero（2014 蘇打綠 10 周年世界巡迴 Solomon203 Wikimedia CC BY-SA 4.0）
+  - Hook tier 自檢：避免 Tier 3「神級樂團」神化 frame；用 22 年弧線 + 商標訴訟 anchor，故事張力在「樂團學會的第一件事卻是法律」
+  - 跟 SPORE-LOG 14d 無重複（最近 Music spore 是 #132/#133 嘻哈與饒舌發展 6/9 — 同日不同 cluster ✓）
+
+---
+
+### 莫那魯道 — 6/11 EVOLVE 趁熱 EXISTING-ARTICLE spore（二十元硬幣三層尷尬與沒有中國沒有日本的世界）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/People/莫那·魯道.md](../../knowledge/People/莫那·魯道.md)
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Requested**: 2026-06-13 by twmd-spore-pick-daily routine (score=38)
+- **Hook anchor 候選**（≥ 2，跨 2 種起手式）:
+  1. **數字 hook**：「2001 年台灣央行把抗日英雄莫那·魯道刻上二十元硬幣。但造幣廠找遍國內史料都沒有他的照片，最後是在一本日文雜誌裡撈出來的——這枚硬幣流通量極少，民眾拿去買滷味店家當假錢拒收」
+  2. **場景 hook**：「1930 年 10 月 27 日清晨，霧社公學校運動會。六社約三百名壯丁衝向運動場，殺了 134 名日本人。莫那·魯道用命去守的那個世界，沒有中國，也沒有日本——他想成為的，是賽德克語裡的『Seediq Bale』，真正的人」
+  3. **問句 hook**：「為什麼台灣最著名的抗日英雄，他被全國人民認得的那張臉，是從日本人的刊物裡撈出來的？答案藏在三個政權各自需要他的方式裡——他的遺骸當了將近四十年人類學標本」
+- **時效**: 7 天內（article 6/11 EVOLVE ship 趁熱窗口 D+2，剩 ~12 天）
+- **敏感度**: 中（霧社事件 / 原住民歷史 / 日本殖民 / 記憶政治）— 用 article §策展人筆記中性 frame，**不用「抗日」這個被預設舞台 frame**，而用「沒有中國也沒有日本的世界」原住民主體 frame
+- **必驗事實**（HG：必須對 article 校準）：2001 年 7 月二十元硬幣發行 / 雙色（外圈金內圈銀）/ 1930 年 10 月 27 日霧社公學校運動會 / 六社約 300 壯丁 / 殺 134 日本人 + 誤殺 2 漢人 / 繳獲約 180 支步槍 23000+ 子彈 / 鎮壓約 50 天到 12 月初 / 鎌田彌彥少將指揮 / 賽德克德固達雅群馬赫坡社 / 約生 1880 年（教育部記 1882）/ Gaya / 彩虹橋 Hakaw Utux / Seediq Bale / 1930 年 11 月 5 日陸軍省密電
+- **必先 spawn ARTICLE-INBOX entry**: ❌（article 已存在）
+- **預估發佈時機**: 本週內（D+2 至 D+9 窗口）
+- **Notes**:
+  - score=38 (D1=+30 D2=+0 D3=+0 D4=+8 D5=+0 D6=+0 D7=+0); non_zero=2 / HG10 PASS
+  - 來源：routine pick / D1 趁熱 6/11 EVOLVE ship + D4 People 高 fan-out 類別（trans 5/5 已 done）
+  - 多語 fan-out 觸發判斷 = 高（ja 對霧社事件 + 賽德克巴萊有 sustained 興趣；en 對 indigenous resistance + colonial history academic demand；ko 對日本殖民比較史 anchor）
+  - 配圖建議：article hero（1931《霧社討伐寫眞帖》PD-Japan-oldphoto）或二十元硬幣設計圖（fair-use editorial）
+  - Hook tier 自檢：避免 Tier 3「抗日英雄」民族主義 frame；用 article §策展人筆記三層尷尬 + 「沒有中國沒有日本的世界」原住民主體 anchor。**毒氣段落 spore 不提**（學界未定論，article 已謹慎處理，spore 簡化會踩線）
+  - 跟 SPORE-LOG 14d 無重複（People 6/9 蘇打綠 cluster 不同 / 最近原住民題材 spore 是 #105 周蕙阿美族 ~17 天前 ✓）
+  - 哲宇敏感度 review 提醒：高敏感 cluster + 記憶政治 frame，若 hook 落地不準建議 manual gate（per [MANIFESTO §自主權邊界](../semiont/MANIFESTO.md#我的存在結構) 政治立場 human-must）
+
+---
+
+### Howhow — SC 補位 + 6/5 EVOLVE 趁熱 REACTIVE spore（業配之王、一人團隊、長片是越來越貴的賭注）
+
+- **Source-Mode**: `REACTIVE`
+- **Article-Path**: [knowledge/People/Howhow.md](../../knowledge/People/Howhow.md)
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Requested**: 2026-06-13 by twmd-spore-pick-daily routine (score=23)
+- **Hook anchor 候選**（≥ 2，跨 2 種起手式）:
+  1. **場景 hook**：「2015 年 9 月，一個粉絲不到十萬的 YouTuber 被三星飛去紐約林肯中心拍 Galaxy Note 5 Unpacked。陳孜昊以為自己是要去當攝影師，把聯絡人存成『大恩人』三個字」
+  2. **問句 hook**：「為什麼 Howhow 要把『直接進入業配主題！』寫成大字幕？因為他發現觀眾最反感的，是被偷偷推銷——他乾脆把廣告攤在陽光下。一個經濟系畢業生為了『誠實』，反過來成為業配之王」
+  3. **數字 hook**：「154 萬訂閱、7.6 億觀看、一個人編導演剪。但 Howhow 從不想要一個人——他被 PTT 質疑『實在很難想像劇本攝影演戲都自己一個人』時跳出來回了一句：『我也不想一個人啊，可惡』」
+- **時效**: 本週內（SC 'howhow' 65 imp / pos 11.22 趁熱回應 + article 6/5 EVOLVE ship D+8 趁熱窗口剩 ~6 天）
+- **敏感度**: 低（YouTuber / 創作者文化）
+- **必驗事實**（HG：必須對 article 校準）：1989 年 4 月 20 日新北金山出生（非萬里）/ 師大附中 → 政大經濟系 / 2007 年 HowFun 頻道建立 / 2013 年 6 月 24 日《我們畢典要表演什麼》/ 薩凡納藝術設計學院 SCAD 動畫與視覺特效碩士 / 2015 年 9 月三星紐約 Galaxy Note 5 Unpacked / 2018 年 12 月 23 日百萬訂閱 / 2019 年 2 月 14 日情人節與鄧福如登記結婚 / 2018 年 1 月《How Fun！如何爽當 YouTuber》高寶出版，版稅捐家扶 / 樂團七月半貝斯手兼團長 2020《夜露思苦》/ 2026 年 1 月告五人《快樂的事記不起》MV 客串
+- **必先 spawn ARTICLE-INBOX entry**: ❌（article 已存在）
+- **預估發佈時機**: 本週內（趁 SC demand + D+8 至 D+14 窗口）
+- **Notes**:
+  - score=23 (D1=+15 D2=+0 D3=+0 D4=+8 D5=+0 D6=+0 D7=+0); non_zero=2 / HG10 PASS（D2 SC 65 imp < 100 threshold，未拿 +15，但 'howhow' 跨語 query SC opportunity 是 REACTIVE source-mode 主要動機）
+  - 來源：routine pick / SC 'howhow' 65 imp pos 11.22 → REACTIVE 補位 + D1 趁熱 6/5 EVOLVE ship + D4 People 高 fan-out
+  - 多語 fan-out 觸發判斷 = 中（ja YouTuber community 對台灣業配文化有理論興趣；en 較弱；'howhow' SC query 已有 65 imp/pos 11.22 顯示直接搜尋 demand）
+  - 配圖建議：article 既有圖（七月半樂團 RJ廉傑克曼 CC BY 3.0 / Howhow WebTVAsia 訪談 CC BY 3.0）
+  - Hook tier 自檢：避免 Tier 3「業配之王」神化 frame；用 article §三層矛盾 anchor（誠實業配學界研究批評 + 一人團隊不想一個人 + 長片被短影音碾壓）。**結婚生子段 spore 不提**（人設與生活的張力 article 已細寫，spore 簡化會變八卦）
+  - 跟 SPORE-LOG 14d 無重複（最近 People spore 是 #105 周蕙 ~17 天前 / People YouTuber cluster 從未 spore ✓）
+
+---
+
 ## 📜 已發歷史
 
 → 完整紀錄見 [SPORE-LOG.md §發文紀錄](SPORE-LOG.md) + [SPORE-HARVESTS/](SPORE-HARVESTS/) batch logs。本檔不存 done 痕跡（per 完成歸檔鐵律）。
