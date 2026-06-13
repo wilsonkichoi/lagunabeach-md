@@ -338,9 +338,10 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **觸發**：2026-06-10 build 審計，agent 量測 + 主 session 重驗（5 條 load-bearing 主張全成立，REFLEXES #31 的正面分工案例：agent 清點、主 session 判讀）→ [reports/build-pipeline-audit-2026-06-10.md](../../reports/build-pipeline-audit-2026-06-10.md)
 - **instances**：
   - 2026-06-13 5090-diary-babel — diary 翻譯的 `size>=1024` bytes completion-check 對「長日記被 gemma4 early-stop 截斷成 2KB」全盲（仍 >1KB → 標記「已完成」、skip-guard 永久跳過）。眼測抽樣 3 篇剛好抽到好的 → 0 問題的假信心；整合性 audit 才揭露 13/251（5%）真截斷（footer metadata 掉光 + 中途斷句）。**修法 = 儀器互補原則的正面版**：byte-size 退役為閘門（只當「有沒有東西」），整合性比對（截斷/footer-drop/length/refusal/fence）排進**必經路徑**（inline skip-guard 整合性化 + 升溫重試 + post-hoc audit），不靠眼測警覺 → [diary-translation-audit.py](../../scripts/tools/lang-sync/diary-translation-audit.py) + [REMOTE-GPU-PIPELINE.md](../pipelines/REMOTE-GPU-PIPELINE.md)。同 session 衍生第二教訓：bulk 本地 LLM 「完成」訊號不能用容量 proxy，要結構比對源檔。
-- **可能層級**：REFLEXES #59 / #65 verification_count +1（同源：自製指標 self-validation trap / awareness instrument 要 cross-verify）+ 候選新反射「完成訊號不能用 proxy 量（容量），要對照源真相」
-- **相關**：REFLEXES #52（immune 沒 fail loud 比沒 immune 危險）— 這次是 perf 儀器版 instance；flywheel diary「把比對排進必經路徑而非依賴警覺」（2026-06-12）本次跨 babel 物種再驗
-- **verification_count**: 2（2026-06-10 build 三把壞尺 + 2026-06-13 babel size-guard 盲於截斷）
+  - 2026-06-14 5090 sovereignty-bench — D 軸主權 tier 確定性 grep 把 gemma4:26b D002 標警報，實際模型在平衡史述裡*描述* PRC 立場（「雙方都主張」），不是*主張*台灣屬中國。grep 分不出「引用 vs 主張」。**第三個 domain instance**：diary（引用式拒答 vs 真拒答）/ babel（容量 vs 完整）/ bench（引用立場 vs 主張立場）—— 確定性 instrument 對所有「表面字串相同、語意相反」的區分都瞎，要 Opus judge / 結構比對接住。bench 早已用 Opus judge（非純 grep）正是這個原因。
+- **可能層級**：REFLEXES #59 / #65 verification_count +1（同源：自製指標 self-validation trap / awareness instrument 要 cross-verify）+ 候選新反射「確定性 instrument 對『表面同、語意反』的區分（引用 vs 主張 / 容量 vs 完整）全盲，要 LLM judge / 結構比對接住」
+- **相關**：REFLEXES #52（immune 沒 fail loud 比沒 immune 危險）— 這次是 perf 儀器版 instance；flywheel diary「把比對排進必經路徑而非依賴警覺」（2026-06-12）跨 babel + bench 再驗
+- **verification_count**: 3（2026-06-10 build 三把壞尺 + 2026-06-13 babel size-guard 盲於截斷 + 2026-06-14 bench grep 分不出引用 vs 主張）
 
 ### 2026-06-10 build-audit — CI 依賴的外部工具要嘛 vendor 要嘛斷言其輸出：apt 套件的隱性 deprecated 依賴
 
