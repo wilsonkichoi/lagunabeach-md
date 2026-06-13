@@ -9,6 +9,8 @@ import { parse as parseYaml } from 'yaml';
 
 interface TermEntry {
   id: string;
+  /** Resolved per-term page slug (= d.id || filename stem). Set during parse. */
+  _slug?: string;
   category: string;
   fork_type: string; // A / B / C / D / E / F
   display: {
@@ -57,11 +59,51 @@ for (const file of files) {
       }
     }
     if (d && d.display && d.display.taiwan) {
+      // Resolve the per-term page slug the SAME way [id].astro getStaticPaths
+      // does (d.id || filename stem) so the card's link can't drift from the
+      // route it points at.
+      d._slug = (d.id || file.replace(/\.yaml$/, '')).toString();
       terms.push(d);
     }
   } catch {
     // skip malformed
   }
+}
+
+// Mirror [id].astro's inclusion + cleaning rule so a card only links to a
+// per-term page when that page actually exists (entry has display.taiwan + a
+// meaningful, differing display.china). Cards that fail this still render —
+// they just aren't wrapped in a link (no 404s).
+const RESERVED_TERM_SLUGS = new Set(['converter', 'index']);
+function cleanChinaSource(raw: string): string {
+  if (!raw || raw.startsWith('N/A') || raw.startsWith('（無')) return raw;
+  let s = raw;
+  s = s.replace(/（[^）]*）/g, '');
+  s = s.replace(/\([^)]*\)/g, '');
+  if (s.includes('/')) s = s.split('/')[0];
+  return s.trim();
+}
+// Returns the per-term page slug for an entry, or '' if no page exists for it.
+// NB: no first-wins dedup here (unlike getStaticPaths) — on the lone duplicate-id
+// collision (給力/讚 both id=awesome) both cards simply link to the one page that
+// id resolves to. The page is guaranteed to exist because both entries clear the
+// same content filter, so there's no 404 risk; worst case a sibling term's card
+// points at the winner's page.
+function resolvePageSlug(t: TermEntry): string {
+  const taiwan = (t.display?.taiwan || '').trim();
+  const chinaRaw = (t.display?.china || '').trim();
+  if (!taiwan || !chinaRaw || chinaRaw === taiwan) return '';
+  const chinaClean = cleanChinaSource(chinaRaw);
+  if (
+    !chinaClean ||
+    chinaClean === taiwan ||
+    chinaClean.startsWith('N/A') ||
+    chinaClean.startsWith('（無')
+  )
+    return '';
+  const slug = t._slug || '';
+  if (!slug || RESERVED_TERM_SLUGS.has(slug)) return '';
+  return slug;
 }
 
 // Sort by fork_type then taiwan display
@@ -119,6 +161,8 @@ interface CardData {
   exceptions: string;
   sources: string[];
   subcategory: string;
+  /** /terminology/{slug} target, or '' if this entry has no per-term page. */
+  page_slug: string;
 }
 
 const cards: CardData[] = terms.map((t) => {
@@ -128,6 +172,7 @@ const cards: CardData[] = terms.map((t) => {
   const notesShort =
     notesClean.length > 90 ? notesClean.slice(0, 90) + '…' : notesClean;
   return {
+    page_slug: resolvePageSlug(t),
     fork_type: t.fork_type || '',
     taiwan: t.display?.taiwan || '',
     china: t.display?.china || '',
@@ -198,7 +243,9 @@ const termsJSON = JSON.stringify(terms);
         >
       </Fragment>
       <Fragment slot="subtitle">
-        Taiwan.md 的文字讀起來像在台灣長大的人寫的，保留語言裡的生活經驗與文化記憶。<br /><br />
+        Taiwan.md
+        的文字讀起來像在台灣長大的人寫的，保留語言裡的生活經驗與文化記憶。<br
+        /><br />
         語言彼此滲透是常態，把那份脈絡攤開——你保留哪些字、放下哪些字，由你自己決定。
       </Fragment>
       <Fragment slot="meta">
@@ -310,7 +357,17 @@ const termsJSON = JSON.stringify(terms);
             >
               <div class="card-top">
                 <div class="card-main">
-                  <span class="taiwan-word">{c.taiwan}</span>
+                  {c.page_slug ? (
+                    <a
+                      class="taiwan-word taiwan-word-link"
+                      href={`/terminology/${encodeURIComponent(c.page_slug)}`}
+                      title={`「${c.taiwan}」的用語對照與詞源`}
+                    >
+                      {c.taiwan}
+                    </a>
+                  ) : (
+                    <span class="taiwan-word">{c.taiwan}</span>
+                  )}
                   {c.china && <span class="china-word">中：{c.china}</span>}
                   {c.hongkong && <span class="hk-word">港：{c.hongkong}</span>}
                 </div>
@@ -780,6 +837,18 @@ const termsJSON = JSON.stringify(terms);
     color: #1a1a2e;
     line-height: 1.2;
     word-break: keep-all;
+  }
+  /* When the term has a per-term page, the heading word becomes a link.
+     Keep the heading look; add a subtle underline-on-hover affordance. */
+  a.taiwan-word-link {
+    text-decoration: none;
+    display: inline-block;
+    transition: color 0.15s;
+  }
+  a.taiwan-word-link:hover {
+    color: #00695c;
+    text-decoration: underline;
+    text-underline-offset: 3px;
   }
   .china-word {
     font-size: 0.82rem;

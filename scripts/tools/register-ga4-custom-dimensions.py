@@ -75,7 +75,20 @@ PAGE_DIMENSIONS = [
     ("had_suggestion", "Had Suggestion 404", "smart-404 是否找到鄰近文章建議 true/false"),
 ]
 
-DIMENSIONS = SEARCH_DIMENSIONS + HOMEPAGE_DIMENSIONS + PAGE_DIMENSIONS
+# ── converter events（2026-06-13 上線，terminology/converter.astro CONV-1）──
+# param 名以 converter.astro track() 實際送的為準（SSOT 對齊用）。
+# 餵 scripts/tools/converter-demand.py 的需求飛輪查詢。
+CONVERTER_DIMENSIONS = [
+    ("term_id", "Converter Term ID", "converter_term_lookup 被查的詞條 id（= YAML id，需求飛輪主訊號）"),
+    ("direction", "Converter Direction", "converter_convert 轉換方向 cn2tw / tw2cn"),
+    ("category", "Converter Category", "term_lookup 詞條分類 / example_click 範例分類 tech/life/..."),
+    ("fork_type", "Converter Fork Type", "term_lookup 詞條分支類型 A-F"),
+    ("to", "Converter Toggle Target", "converter_direction_toggle 切到的方向 cn2tw/tw2cn"),
+]
+
+DIMENSIONS = (
+    SEARCH_DIMENSIONS + HOMEPAGE_DIMENSIONS + PAGE_DIMENSIONS + CONVERTER_DIMENSIONS
+)
 
 # ── 廢棄維度（archive 而非刪除，GA4 archive 可重建）──────────────────────────
 # pct: 2026-05-27 誤註冊。HomeEventTracker scroll_depth 實際 fire `depth_pct`，
