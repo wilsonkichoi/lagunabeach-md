@@ -66,7 +66,7 @@ Routine cron `30 0 * * *`（每天 00:30，2026-05-28 shift 從 05:00 → 00:30 
 
 6. **Smart tier router**（PRC-sensitivity / size / prior refusal cache）：見 prioritize-batch.py `suggest_tier()`。
 
-7. **遠端 GPU tier（雲地混合，2026-06-13 新增）**：大批量 / sovereignty-sensitive / 成本敏感 → 下放遠端主權 GPU 節點。一行接通 `eval "$(bash scripts/tools/lang-sync/remote-ollama.sh connect <node> --export)"`，任何 translation 工具自動走那台 GPU（gemma4:26b，**never qwen/nemotron** — 主權決策）。**整合性閘門必跑**（本地 LLM 靜默截斷，byte-size 攔不住）。完整 SOP：[REMOTE-GPU-PIPELINE.md](../../../docs/pipelines/REMOTE-GPU-PIPELINE.md)。
+7. **遠端 GPU tier（雲地混合，v2.0 2026-06-14）**：大批量 / sovereignty-sensitive / 成本敏感 → 下放地端 GPU 軍團。**硬體層委派 fleet**（`~/Projects/muse-bot/fleet/`，node selection / 連線 / 主權 model 全是它的事）：`eval "$(bash scripts/tools/lang-sync/fleet-endpoint.sh --export)"` → 軍團挑機器、translation 工具自動走那台（直連 Tailscale 無 tunnel）。**整合性閘門必跑**（本地 LLM 靜默截斷，byte-size 攔不住）。完整 SOP：[REMOTE-GPU-PIPELINE.md](../../../docs/pipelines/REMOTE-GPU-PIPELINE.md)。
 
 ---
 
