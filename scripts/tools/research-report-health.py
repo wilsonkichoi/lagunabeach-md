@@ -79,6 +79,21 @@ COUNTEREX_RE = re.compile(
 )
 URL_RE = re.compile(r"https?://[^\s\)\]\>\"'，。、；]+")
 
+# ── Stage 0 觀點成型 exit gate 三件套（v7.3 — 哲宇 anti-drift 儀器化）─────────
+# 抓「persona-only」drift：跑了 persona 但跳過 0.6.1 六核心問題 + 0.6.4 ≥20 探索搜尋。
+VIEWPOINT_RE = re.compile(r"##+\s*.*觀點成型")
+PERSONA_RE = re.compile(r"##+\s*.*(20\s*路\s*persona|persona\s*切入點)", re.IGNORECASE)
+FRONTMATTER_VP_RE = re.compile(r"^viewpoint_formed:\s*true", re.MULTILINE)
+# 六核心問題落檔結構標記（記憶/多元面貌/想法感受/歷史脈絡/社會關聯/類型 → §觀點成型 sub-sections）
+SIXQ_MARKERS = (
+    re.compile(r"記憶\s*anchor|對台灣人的記憶"),
+    re.compile(r"多元面貌|多元不同面貌"),
+    re.compile(r"歷史脈絡"),
+    re.compile(r"切入點清單"),
+    re.compile(r"研究方向"),
+    re.compile(r"核心矛盾候選|預期核心矛盾"),
+)
+
 TIERS = {
     # tier: (min_distinct, min_en, min_primary, min_confidence, min_lines)
     "depth": (25, 5, 5, 8, 300),
@@ -99,6 +114,11 @@ def analyze(path: Path):
     verif_tiers = sum(1 for r in VERIF_TIERS if r.search(txt))  # 0-3
     has_negative = bool(NEGATIVE_RE.search(txt))
     has_counterex = bool(COUNTEREX_RE.search(txt))
+    # Stage 0 觀點成型 三件套 signals
+    has_viewpoint = bool(VIEWPOINT_RE.search(txt))
+    has_persona = bool(PERSONA_RE.search(txt))
+    viewpoint_formed = bool(FRONTMATTER_VP_RE.search(txt))
+    sixq = sum(1 for r in SIXQ_MARKERS if r.search(txt))
     # domain diversity
     domains = set()
     for u in distinct:
@@ -116,6 +136,10 @@ def analyze(path: Path):
         verif_tiers=verif_tiers,
         has_negative=has_negative,
         has_counterex=has_counterex,
+        has_viewpoint=has_viewpoint,
+        has_persona=has_persona,
+        viewpoint_formed=viewpoint_formed,
+        sixq=sixq,
     )
 
 
@@ -163,10 +187,35 @@ def grade(metrics, tier):
     return results, hard_fail, warn
 
 
+def grade_stage0(m):
+    """Stage 0 觀點成型 exit gate — 三件套全到才進 Stage 1（哲宇 anti-drift 儀器化）。
+    核心：抓 persona-only drift —— 跑了 persona 卻跳過 0.6.1 六核心問題 + 0.6.4 ≥20 探索搜尋。
+    ≥10 distinct 來源是「≥20 探索真的發生」的 proxy（persona-only 只發散問題 → ~0 來源）。"""
+    results = []
+    hard = 0
+
+    def chk(name, ok, detail):
+        nonlocal hard
+        if not ok:
+            hard += 1
+        results.append((name, ok, detail))
+
+    chk("§觀點成型 section", m["has_viewpoint"], "缺 `## 觀點成型`")
+    chk("frontmatter viewpoint_formed: true", m["viewpoint_formed"], "缺 `viewpoint_formed: true`")
+    chk("六核心問題落檔結構 (≥4/6)", m["sixq"] >= 4, f"只有 {m['sixq']}/6 結構標記 (記憶/多元/脈絡/切入點/方向/矛盾)")
+    chk("§20 路 persona 切入點", m["has_persona"], "缺 persona 切入點 section")
+    chk("搜尋日誌/探索紀錄 section", m["has_searchlog"], "缺 `### 探索搜尋紀錄`")
+    chk("≥20 探索搜尋 (distinct 來源 ≥10 proxy)", m["distinct"] >= 10,
+        f"只有 {m['distinct']} distinct 來源 — persona-only？≥20 探索本該留 ≥10 來源")
+    return results, hard
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("report")
     ap.add_argument("--tier", default="depth", choices=list(TIERS))
+    ap.add_argument("--stage", choices=["0", "1"], default="1",
+                    help="0 = Stage 0 觀點成型 exit gate (三件套 anti-drift); 1 = Stage 1 SSOT gate (預設)")
     ap.add_argument("--json", action="store_true")
     args = ap.parse_args()
 
@@ -176,6 +225,25 @@ def main():
         sys.exit(2)
 
     m = analyze(p)
+
+    # ── Stage 0 觀點成型 exit gate（哲宇 anti-drift：persona ≠ Stage 0 全部）──
+    if args.stage == "0":
+        results, hard_fail = grade_stage0(m)
+        if args.json:
+            print(json.dumps(dict(file=str(p), stage=0, metrics=m,
+                                  hard_fail=hard_fail, passed=(hard_fail == 0)),
+                             ensure_ascii=False, indent=2))
+            sys.exit(0 if hard_fail == 0 else 1)
+        print(f"🔬 research-report-health [Stage 0 觀點成型 exit gate]  {p}")
+        for name, ok, detail in results:
+            print(f"   {'✅' if ok else '🔴'} {name}" + ("" if ok else f"  — {detail}"))
+        verdict = "PASS" if hard_fail == 0 else "FAIL"
+        print(f"\n   Summary: hard_fail={hard_fail}  → {verdict}")
+        if hard_fail:
+            print("   ⛔ Stage 0 三件套未齊 = 不進 Stage 1。六核心問題 + ≥20 探索 + persona 缺一不可"
+                  "（persona-only 不算 Stage 0 做完）。")
+        sys.exit(0 if hard_fail == 0 else 1)
+
     results, hard_fail, warn = grade(m, args.tier)
 
     if args.json:
