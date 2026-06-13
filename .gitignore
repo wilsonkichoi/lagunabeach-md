@@ -55,6 +55,7 @@ cloudflare-token*
 .idea/
 public/api/random.json
 public/api/random.json
+public/api/search-index.json
 public/api/search-minisearch.json
 public/api/search-minisearch-*.json
 

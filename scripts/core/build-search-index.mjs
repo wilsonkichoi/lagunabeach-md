@@ -187,3 +187,26 @@ await writeFile(
 console.log(
   `[search] legacy combined zh+en: ${legacyDocs.length} docs, ${(legacySerialized.length / 1024).toFixed(0)} KB → search-minisearch.json`,
 );
+
+// Plain-array fallback for Layout.astro's indexOf path (used only when
+// MiniSearch fails to load). 2026-06-13 EVO-A2: this REPLACES the duplicate
+// runtime route src/pages/api/search-index.json.ts, which re-scanned knowledge/
+// with its OWN category map that had drifted (missing politics, zh+en only).
+// Derived from legacyDocs = the same single scan → zh+en, all categories, no
+// drift. Strip the bigram fields; keep the {t,d,u,tags,lang} shape the old
+// route emitted so Layout's fallback is unchanged.
+const fallbackDocs = legacyDocs.map((d) => ({
+  t: d.t,
+  d: d.d,
+  u: d.u,
+  tags: d.tags,
+  lang: d.lang,
+}));
+await writeFile(
+  join(apiDir, 'search-index.json'),
+  JSON.stringify(fallbackDocs),
+  'utf-8',
+);
+console.log(
+  `[search] fallback plain index: ${fallbackDocs.length} docs (zh+en) → search-index.json`,
+);
