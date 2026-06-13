@@ -1119,8 +1119,8 @@ node scripts/tools/image-ingest.mjs audit [--cat <Category>]
 範例：
 
 ```
-public/article-images/people/lindgren-emu-2014.jpg
-public/article-images/people/lindgren-crew4-training.jpg
+public/article-images/people/lindgren-emu-2014.webp
+public/article-images/people/lindgren-crew4-training.webp
 public/article-images/history/twenty-eight-incident-monument-2025.jpg
 ```
 
@@ -1169,9 +1169,9 @@ yt-dlp --skip-download --write-auto-sub --write-sub \
 
 ### 圖片素材
 
-| 媒體檔                | 用途 | 來源 URL                                                                    | 授權                 | 攝影者/作者        | 拍攝日期   | NASA Image ID / Commons File             | 本地 cache 路徑                              | alt text                                  |
-| --------------------- | ---- | --------------------------------------------------------------------------- | -------------------- | ------------------ | ---------- | ---------------------------------------- | -------------------------------------------- | ----------------------------------------- |
-| lindgren-emu-2014.jpg | hero | https://commons.wikimedia.org/wiki/File:Kjell_Lindgren_in_EMU_(cropped).jpg | Public domain (NASA) | NASA/Bill Stafford | 2014-08-27 | File:Kjell*Lindgren_in_EMU*(cropped).jpg | /article-images/people/lindgren-emu-2014.jpg | 林琪兒 2014 年穿艙外活動服（EMU）官方人像 |
+| 媒體檔                | 用途 | 來源 URL                                                                    | 授權                 | 攝影者/作者        | 拍攝日期   | NASA Image ID / Commons File             | 本地 cache 路徑                               | alt text                                  |
+| --------------------- | ---- | --------------------------------------------------------------------------- | -------------------- | ------------------ | ---------- | ---------------------------------------- | --------------------------------------------- | ----------------------------------------- |
+| lindgren-emu-2014.jpg | hero | https://commons.wikimedia.org/wiki/File:Kjell_Lindgren_in_EMU_(cropped).jpg | Public domain (NASA) | NASA/Bill Stafford | 2014-08-27 | File:Kjell*Lindgren_in_EMU*(cropped).jpg | /article-images/people/lindgren-emu-2014.webp | 林琪兒 2014 年穿艙外活動服（EMU）官方人像 |
 
 ### 引用 transcript
 
@@ -1866,10 +1866,10 @@ _caption 說明文字。Photo: {credit}. [License via {source}]({source-url})._
 
 ```markdown
 ❌ 壞 alt text（只有圖名）：
-![林琪兒 2014](/article-images/people/lindgren-emu-2014.jpg)
+![林琪兒 2014](/article-images/people/lindgren-emu-2014.webp)
 
 ✅ 好 alt text（描述畫面）：
-![林琪兒 2014 年穿艙外活動服（EMU）官方人像，全套白色 NASA 太空服，仰角拍攝顯示頭盔反光](/article-images/people/lindgren-emu-2014.jpg)
+![林琪兒 2014 年穿艙外活動服（EMU）官方人像，全套白色 NASA 太空服，仰角拍攝顯示頭盔反光](/article-images/people/lindgren-emu-2014.webp)
 ```
 
 **Caption 規則**：
