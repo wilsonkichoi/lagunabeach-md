@@ -285,10 +285,10 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 - **pattern**: cross-session-git-index-pollution
 - **原則**：7+ 小時長 session 期間，並行 session + routine（data-refresh / maintainer 做 git reset/pull）+ 背景 job 都在同一 working tree 的 main commit。主 session `git add <我的檔>` 前，index 可能已被別的程序 stage 了一批不相干檔（本次：日記五語翻譯 job 的 977 個 untracked 檔）→ `git commit` 把它們一起掃進「我的」commit（991 檔 vs 預期 3）。防線三層：(1) commit 後必驗 `git diff --cached --name-only | wc -l` == 預期數，不對立刻停；(2) 警覺時 `git reset --soft HEAD~1` + `git restore --staged .` 退乾淨，`git merge-base --is-ancestor <我的commit> HEAD` 確認工作沒孤兒化，開 recovery 分支雙保險，再乾淨重 commit；(3) 鐵律「跨 session 禁止盲目 destructive git」這次第一次具體咬到並驗證救援有效（警覺 991 不對、先查 is-ancestor 不先動，救了工作）
-- **觸發**：2026-06-13→14 媒體 session（image-ingest + WebP 遷移）content-dates commit 誤掃 977 diary 檔；push 又撞 ref-lock race（並行 agent 同刻推共享 main，remote rejected「expected X but at Y」但工作已連帶上 origin）
-- **可能層級**：操作規則（commit SOP 加 staged-count 自檢）+ 候選儀器化（pre-commit hook 比對 staged 檔 vs 本 session touched 檔，異常數量警示，延伸既有 narrative-scope warning）
-- **相關**：REFLEXES「跨 session work 期間禁止 destructive git ops」+ #51 session ID collision + 神經迴路「多核心需要胼胝體」。content-dates MEDIA_ONLY 修（cbe7fbd4d）是下方 2026-06-10 spore-data「derived view 落點污染 content-dates / 假新鮮」同 family 第 2 instance（影像 commit 批次洗版 /latest，580→11）→ 該條 vc++
-- **verification_count**: 1
+- **觸發**：2026-06-13→14 媒體 session（image-ingest + WebP 遷移）content-dates commit 誤掃 977 diary 檔；push 又撞 ref-lock race（並行 agent 同刻推共享 main，remote rejected「expected X but at Y」但工作已連帶上 origin）。**vc=2 instance（2026-06-14 003401-routine-babel）**：cron babel-nightly 跑 `git add knowledge/ && git commit` 後，commit stat 多了一筆從未在 `git status` snapshot 出現的 `delete mode 100755 scripts/tools/lang-sync/remote-ollama.sh`（sibling 5090 diary-babel session 在用的檔）。Husky / lint-staged stash → restore boundary 把 sibling-session 在 working tree 上的這檔吞掉。修：`git checkout HEAD~1 -- <檔>` 撈回 + heal commit + push 兩 commit 同 land。**跟 vc=1 不同 sub-pattern**：vc=1 是 sibling routine 污染主 session 的 index（誤掃 977 untracked）；vc=2 是主 session commit 誤刪 sibling 在用的 tracked 檔。共同根因：pre-commit hook 不能假定獨佔 working tree
+- **可能層級**：操作規則（commit SOP 加 staged-count + 預期檔 diff 自檢）+ 候選儀器化（pre-commit hook 比對 staged 檔 vs 本 session touched 檔；post-commit 必跑 stat 看是否有 phantom delete）
+- **相關**：REFLEXES「跨 session work 期間禁止 destructive git ops」+ #51 session ID collision + 神經迴路「多核心需要胼胝體」+ MEMORY §神經迴路 2026-05-28 CONTRACT rollback 元規則 (ii)。content-dates MEDIA_ONLY 修（cbe7fbd4d）是下方 2026-06-10 spore-data「derived view 落點污染 content-dates / 假新鮮」同 family 第 2 instance（影像 commit 批次洗版 /latest，580→11）→ 該條 vc++
+- **verification_count**: 2
 
 <!-- 新教訓 append 這裡 -->
 
