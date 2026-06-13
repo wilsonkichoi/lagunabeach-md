@@ -127,10 +127,20 @@ function getCategoryFromPath(filePath) {
  */
 function generateArticleUrl(filePath) {
   const relativePath = path.relative(KNOWLEDGE_DIR, filePath);
-  const urlPath = relativePath
-    .replace(/\.md$/, '')
-    .split(path.sep)
-    .map((part) => encodeURIComponent(part))
+  // Path shape is always `[lang/]Category/slug` — the category is the
+  // second-to-last segment. Astro routes the category in lowercase
+  // (getStaticPaths emits the lowercase categorySlug, e.g. `politics`), so
+  // the canonical URL must lowercase it too. Preserving the on-disk
+  // PascalCase folder name (`/en/Politics/...`) yields a URL that resolves
+  // on a case-insensitive macOS dev box but 404s on case-sensitive hosts
+  // like Cloudflare Pages — the exact dev/prod gap behind the non-default-
+  // language "surprise me" 404s (RandomDiscovery / explore random pools).
+  const parts = relativePath.replace(/\.md$/, '').split(path.sep);
+  const catIdx = parts.length - 2; // category sits before the slug
+  const urlPath = parts
+    .map((part, i) =>
+      encodeURIComponent(i === catIdx ? part.toLowerCase() : part),
+    )
     .join('/');
 
   return `${BASE_URL}/${urlPath}`;

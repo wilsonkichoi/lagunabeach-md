@@ -1,6 +1,7 @@
 ---
 import { useTranslations, getLangFromUrl } from '../../i18n/utils';
 import { LANGUAGES, DEFAULT_LANGUAGE } from '../../config/languages';
+import { categoryList } from '../../utils/categoryConfig';
 
 interface Props {
   articlesJson?: string;
@@ -20,6 +21,12 @@ const langPrefixes = [
   ),
   'zh-tw',
 ];
+
+// Routed article categories (SSOT, lowercase). The random pool must only
+// land on pages with a /[category]/[slug] route — this excludes resources/*
+// (data for the standalone /resources page) and categoryless strays like
+// /en/taiwan-semiconductor-industry that otherwise 404 when rolled.
+const routedCats = categoryList;
 ---
 
 <!--
@@ -69,7 +76,10 @@ const langPrefixes = [
   </div>
 </section>
 
-<script is:inline define:vars={{ articlesJson, isEn, lang, langPrefixes }}>
+<script
+  is:inline
+  define:vars={{ articlesJson, isEn, lang, langPrefixes, routedCats }}
+>
   document.addEventListener('DOMContentLoaded', async function () {
     const randomBtn = document.getElementById('random-discovery-btn');
     let articles = [];
@@ -77,12 +87,13 @@ const langPrefixes = [
     if (articlesJson) {
       articles = JSON.parse(articlesJson);
     } else {
-      // Fallback path (zh-TW / ja / ko home): fetch /api/articles.json and
-      // narrow to the current page's language. articles.json contains every
-      // language folder under knowledge/ (including preview-mode fr/es whose
-      // routes are disabled), so the per-lang filter is required to prevent
-      // the random button from landing on /fr/… 404s or dropping the reader
-      // into the wrong locale. See Issue #575.
+      // Fallback path — runs for ALL langs (home.template.astro renders
+      // <RandomDiscovery /> with no articlesJson prop). Fetch
+      // /api/articles.json and narrow to the current page's language.
+      // articles.json contains every language folder under knowledge/
+      // (including preview-mode fr/es whose routes are disabled), so the
+      // per-lang filter is required to prevent the random button from landing
+      // on /fr/… 404s or dropping the reader into the wrong locale. Issue #575.
       var catLabels = {
         history: '📜 歷史',
         geography: '🗺️ 地理',
@@ -109,20 +120,34 @@ const langPrefixes = [
               if (lang === 'zh-TW') {
                 // zh-TW = default locale, URL has no language prefix.
                 // Exclude articles whose category IS a language code.
-                return langPrefixes.indexOf(cat) === -1;
+                if (langPrefixes.indexOf(cat) !== -1) return false;
+              } else if (cat !== lang) {
+                // Non-default locale: category must equal current lang.
+                return false;
               }
-              // Non-default locale: category must equal current lang.
-              return cat === lang;
+              // Routed-category gate: the URL's category segment
+              // (second-to-last) must be a real routed category. Excludes
+              // resources/* + categoryless strays that 404. See verify note.
+              var s = a.url.replace('https://taiwan.md', '').split('/');
+              var urlCat = s.length >= 2 ? s[s.length - 2].toLowerCase() : '';
+              return routedCats.indexOf(urlCat) !== -1;
             })
             .map(function (a) {
-              var u = a.url
-                .replace('https://taiwan.md', '')
-                .replace(/^\/([^\/]+)/, function (m, p) {
-                  return '/' + p.toLowerCase();
-                });
+              // Lowercase the CATEGORY segment (always second-to-last:
+              // `[/lang]/Category/slug`). Routes are emitted lowercase, so a
+              // PascalCase category 404s on case-sensitive prod (Cloudflare).
+              // The old code lowercased only the FIRST segment — which for
+              // non-default langs is the lang code, leaving `/en/Politics/...`
+              // 404ing (the reported "surprise me" bug). generate-api.js now
+              // emits canonical URLs; this stays as defense in depth for the
+              // CDN cache-transition window after deploy. See Issue #575.
+              var segs = a.url.replace('https://taiwan.md', '').split('/');
+              if (segs.length >= 2) {
+                segs[segs.length - 2] = segs[segs.length - 2].toLowerCase();
+              }
               return {
                 title: a.title,
-                url: u,
+                url: segs.join('/'),
                 category: catLabels[a.category.toLowerCase()] || a.category,
               };
             });

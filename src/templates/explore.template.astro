@@ -22,7 +22,7 @@ import PageHero from '../components/PageHero.astro';
 import CategoryGrid from '../components/CategoryGrid.astro';
 import { useTranslations, getLangFromUrl } from '../i18n/utils';
 import { getLatestArticles } from '../utils/articles-index';
-import { getCategoryConfigs } from '../utils/categoryConfig';
+import { getCategoryConfigs, categoryList } from '../utils/categoryConfig';
 import {
   ENABLED_LANGUAGE_CODES,
   LANGUAGES,
@@ -200,6 +200,9 @@ const langPrefixesLower = [
   ...nonDefaultLangCodes,
   defaultLangCode.toLowerCase(),
 ];
+// Routed categories (SSOT, lowercase) — random pool must only land on
+// /[category]/[slug] pages; excludes resources/* + categoryless strays.
+const routedCats = categoryList;
 ---
 
 <Layout
@@ -579,7 +582,12 @@ const langPrefixesLower = [
 
 <script
   is:inline
-  define:vars={{ nonDefaultLangCodes, defaultLangCode, langPrefixesLower }}
+  define:vars={{
+    nonDefaultLangCodes,
+    defaultLangCode,
+    langPrefixesLower,
+    routedCats,
+  }}
 >
   // ── Search trigger: open global modal + focus input ──
   function openSearchModal(prefill) {
@@ -645,18 +653,28 @@ const langPrefixesLower = [
             if (currentLang === defaultLangCode) {
               // Default locale (no URL prefix) — exclude any article
               // whose category is itself a language code.
-              return langPrefixesLower.indexOf(cat) === -1;
+              if (langPrefixesLower.indexOf(cat) !== -1) return false;
+            } else if (cat !== currentLang) {
+              return false;
             }
-            return cat === currentLang;
+            // Routed-category gate: URL's category segment (second-to-last)
+            // must be a real routed category — excludes resources/* +
+            // categoryless strays that 404. Mirrors RandomDiscovery.astro.
+            var s = a.url.replace('https://taiwan.md', '').split('/');
+            var urlCat = s.length >= 2 ? s[s.length - 2].toLowerCase() : '';
+            return routedCats.indexOf(urlCat) !== -1;
           });
           if (pool.length === 0) throw new Error('empty pool');
           var pick = pool[Math.floor(Math.random() * pool.length)];
-          var url = pick.url
-            .replace('https://taiwan.md', '')
-            .replace(/^\/([^\/]+)/, function (m, p) {
-              return '/' + p.toLowerCase();
-            });
-          location.href = url;
+          // Lowercase the CATEGORY segment (second-to-last: `[/lang]/Cat/slug`)
+          // so non-default-lang picks don't 404 on case-sensitive prod.
+          // Mirrors RandomDiscovery.astro; generate-api.js now emits canonical
+          // URLs, this is defense in depth for the CDN cache window.
+          var segs = pick.url.replace('https://taiwan.md', '').split('/');
+          if (segs.length >= 2) {
+            segs[segs.length - 2] = segs[segs.length - 2].toLowerCase();
+          }
+          location.href = segs.join('/');
         } catch (e) {
           randomBtn.style.pointerEvents = '';
           randomBtn.style.opacity = '';
