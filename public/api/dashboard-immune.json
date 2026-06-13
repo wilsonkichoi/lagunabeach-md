@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-06-13T06:11:11.824788",
+  "lastUpdated": "2026-06-13T23:09:09.002147",
   "schemaVersion": "v2-2026-05-16",
   "featureFlag": "IMMUNE_V2",
   "immuneScore": 55,
   "status": "漂移 — 多維度退化中",
   "components": {
-    "review_coverage": 27.7,
+    "review_coverage": 27.6,
     "plugin_pass_rate": 70.0,
     "plugin_health": 50.0,
-    "citation_density": 90.4,
+    "citation_density": 90.5,
     "tool_freshness": 80,
     "drift_velocity": 90.0,
-    "external_rulers": 3.2
+    "external_rulers": 3.1
   },
   "componentWeights": {
     "review_coverage": 0.25,
@@ -24,13 +24,13 @@
   },
   "tierBreakdown": {
     "T1": {
-      "total": 356,
+      "total": 357,
       "reviewed": 105,
-      "pct": 29.5,
+      "pct": 29.4,
       "weight": 3.0
     },
     "T2": {
-      "total": 345,
+      "total": 346,
       "reviewed": 85,
       "pct": 24.6,
       "weight": 1.5
@@ -43,8 +43,8 @@
     }
   },
   "pluginPassDetail": {
-    "total_files": 795,
-    "hard_pass_files": 795,
+    "total_files": 797,
+    "hard_pass_files": 797,
     "hard_pass_pct": 100.0,
     "warn_pass_files": 0,
     "warn_pass_pct": 0.0,
@@ -52,13 +52,13 @@
   },
   "citationDetail": {
     "grades": {
-      "A": 613,
+      "A": 616,
       "B": 11,
-      "C": 156,
+      "C": 155,
       "D": 4,
       "F": 9
     },
-    "files_with_grade": 793
+    "files_with_grade": 795
   },
   "freshnessDetail": {
     "editorial_days_old": 6,
@@ -67,7 +67,7 @@
     "source": "git log %ai (not fs mtime — worktree-safe)"
   },
   "driftDetail": {
-    "new_articles_7d": 8,
+    "new_articles_7d": 7,
     "rate_per_article": 1.0,
     "note": "v1 heuristic — longitudinal tracking pending (B-line meta-health)"
   },
@@ -206,7 +206,7 @@
   },
   "externalRulersDetail": {
     "ruledArticles": 25,
-    "totalArticles": 793,
+    "totalArticles": 795,
     "rulerSources": {
       "factcheckReports": true,
       "readerErrataCommits90d": true,

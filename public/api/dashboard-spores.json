@@ -1,26 +1,58 @@
 {
-  "lastUpdated": "2026-06-12T22:50:23.227887Z",
+  "lastUpdated": "2026-06-13T15:08:59.964326Z",
   "schemaVersion": "1.1",
   "totals": {
-    "count": 125,
+    "count": 127,
     "platforms": {
-      "threads": 65,
-      "x": 56,
+      "threads": 66,
+      "x": 57,
       "other": 4
     },
     "languages": {
-      "zh": 118,
+      "zh": 120,
       "en": 7
     },
     "templates": {
       "B": 39,
       "A": 32,
       "D": 4,
-      "A2": 46,
+      "A2": 48,
       "other": 4
     }
   },
   "recent": [
+    {
+      "n": 135,
+      "date": "2026-06-13",
+      "platform": "x",
+      "article": "天下雜誌",
+      "articleSlug": "天下雜誌",
+      "category": "Society",
+      "template": "A2 首尾呼應（紀實文學 voice）",
+      "url": "https://x.com/taiwandotmd/status/2065697249041281306",
+      "highlight": "同 #134，X 單則全文版",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
+    {
+      "n": 134,
+      "date": "2026-06-13",
+      "platform": "threads",
+      "article": "天下雜誌",
+      "articleSlug": "天下雜誌",
+      "category": "Society",
+      "template": "A2 首尾呼應（紀實文學 voice / 3-post thread）",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZhJTUkEwRM",
+      "highlight": "殷允芃借棗紅色牛仔褲訪張愛玲→辦天下→同一段距離；哲宇 callout 後查證 cw 回顧文 verbatim 升級「棗紅色」",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
     {
       "n": 133,
       "date": "2026-06-09",
@@ -65,38 +97,6 @@
       "highlight": "同 #128 內容 X 單則 inline UTM（utm_campaign=s129, t.co/kBJVkskndg wrap）。**/twmd-spore manual session 2026-06-07，哲宇「yes」authorize 雙平台發**。剛 ship 黃山料 Fresh People 文（4-agent 104 搜 / 6392 字 / 42 footnote / 6 媒體）→ spore。Hook tier 1b（「金門1969」衣服 anchor + 世界冠軍↔沒料反差）。帳號 gate @taiwandotmd ✅。image PNGf 2160² + 全文 inline URL JXA NSPasteboard UTF-8 + Cmd+V（DraftJS 14 blocks 保留）。Pre-ship 8/8 PASS（hook「你知道嗎？👔」standalone 7 chars / block 14 ≥4 / utm x·spore·s129 / image / Post enabled / 461 chars）。Post-ship PASS（hook ✅ / quote「這個世界不是比誰有能力」+「一句話的安慰」✅ / close 他叫黃山料 ✅ / tweetPhoto media ✅ / t.co UTM / 7 line breaks）。事實鐵三角：無算術 / 兩處直引 verbatim（storm.mg + 鏡大咖）/ 誠品「連續兩年」精確非連五年。Blueprint: [SPORE-BLUEPRINTS/128-黃山料.md](SPORE-BLUEPRINTS/128-黃山料.md)。",
       "views_7d": null,
       "views_latest": 0,
-      "engagements_7d": null,
-      "rate_7d": null,
-      "backfilled": false
-    },
-    {
-      "n": 128,
-      "date": "2026-06-07",
-      "platform": "threads",
-      "article": "黃山料",
-      "articleSlug": "黃山料",
-      "category": "people",
-      "template": "A2 首尾呼應變體（衣服↔句子反差）",
-      "url": "https://www.threads.com/@taiwandotmd/post/DZSRQKnk3Vm",
-      "highlight": "**/twmd-spore manual session 2026-06-07，哲宇「yes」authorize**。Threads 串文 2/2（主貼 hook「你知道嗎？👔」standalone + 5 段呼吸 + 2160² square 配圖 + self-reply「完整故事 👉」utm_campaign=s128）。主題「台灣」。A2 弧線：2014 倫敦走秀「金門1969」國際首獎 → 沒媒體報導求職被疑造假 →「世界比的是說話的本事」→ 改寫一行 28 字「一句話的安慰」連兩年誠品冠軍 30 萬本 → 這禮拜被 60 萬人笑沒料 → 首尾呼應同一個人他叫黃山料。JXA NSPasteboard UTF-8 + Cmd+V 多段保留（Lexical 6 spans / 12 br）+ image PNGf。Post-ship PASS（hook 你知道嗎 / quote 一句話的安慰 / close 他叫黃山料 / image 渲染 / self-reply DZSRQ5BE7gt 含 encoded UTM s128 / 黃山料 live / 1-2 thread label）。觸發：ginger.huang Threads 貼文 18.5 萬瀏覽自然爆紅趁熱。Blueprint: [SPORE-BLUEPRINTS/128-黃山料.md](SPORE-BLUEPRINTS/128-黃山料.md)。",
-      "views_7d": null,
-      "views_latest": null,
-      "engagements_7d": null,
-      "rate_7d": null,
-      "backfilled": false
-    },
-    {
-      "n": 127,
-      "date": "2026-06-06",
-      "platform": "x",
-      "article": "國宅與居住正義",
-      "articleSlug": "國宅與居住正義",
-      "category": "society",
-      "template": "A2+C 混合 × 紀實文學 voice（門牌弧線 anchor × 央地對撞 payoff）",
-      "url": "https://x.com/taiwandotmd/status/2063165712261390793",
-      "highlight": "同 #126 內容 X 單則 inline UTM（utm_campaign=s127, t.co/eGCpqcWqZM wrap）。**/twmd-spore manual session 2026-06-06，哲宇 directive「A額外加C」+「更接近紀實文學與大家的生活」五輪微調 + authorize「繼續完成發布」**。剛 ship 國宅與居住正義深度文（4-agent fanout 117 搜／一手立院・營建署・實價登錄／27 footnote／16 min）→ spore。帳號 gate @taiwandotmd ✅（非 @cheyuwu345）。image PNGf 2160² + 全文 inline URL JXA NSPasteboard UTF-8 + Cmd+V（7 段保留）。Pre-ship 8/8 PASS（hook「你知道嗎？🏠」standalone 6 chars／7 段 ≥4／utm x·spore·s127／image／Post enabled／634 chars）。Post-ship PASS（hook ✅／close 下一個成交價 ✅／7 line breaks／t.co UTM／image profile-confirmed）。政治敏感（央地對撞）央地兩邊並陳不喊政黨。spore-writing hard=0／prose-health hard=0／三板斧 0·0·0。本孢子 = SPORE-WRITING v3.5 §紀實文學 voice 首個 worked example。Blueprint: [SPORE-BLUEPRINTS/126-國宅與居住正義.md](SPORE-BLUEPRINTS/126-國宅與居住正義.md)。",
-      "views_7d": null,
-      "views_latest": null,
       "engagements_7d": null,
       "rate_7d": null,
       "backfilled": false
@@ -399,7 +399,7 @@
     },
     {
       "week": "2026-W24",
-      "published": 2,
+      "published": 4,
       "avgViews": 0
     }
   ],
@@ -1653,6 +1653,26 @@
       "withinHarvestWindow": true,
       "harvestCount": 1,
       "lastHarvest": ""
+    },
+    {
+      "n": 134,
+      "article": "天下雜誌",
+      "platform": "threads",
+      "publishDate": "2026-06-13",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
+    },
+    {
+      "n": 135,
+      "article": "天下雜誌",
+      "platform": "x",
+      "publishDate": "2026-06-13",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
     }
   ]
 }

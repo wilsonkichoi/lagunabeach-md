@@ -1,9 +1,9 @@
 {
-  "_generated": "2026-06-13T06:50:23+08:00",
+  "_generated": "2026-06-13T17:28:55+08:00",
   "schemaVersion": 1,
   "counts": {
-    "spores": 125,
-    "articles": 61,
+    "spores": 127,
+    "articles": 62,
     "withMetrics": 110
   },
   "spores": [
@@ -6118,6 +6118,46 @@
         "source": "frontmatter-seed"
       },
       "history": []
+    },
+    {
+      "id": 134,
+      "slug": "天下雜誌",
+      "articlePath": "knowledge/Society/天下雜誌.md",
+      "articleUrl": "/society/天下雜誌/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-06-13",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZhJTUkEwRM",
+      "template": "A2 首尾呼應（紀實文學 voice / 3-post thread）",
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
+    },
+    {
+      "id": 135,
+      "slug": "天下雜誌",
+      "articlePath": "knowledge/Society/天下雜誌.md",
+      "articleUrl": "/society/天下雜誌/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-06-13",
+      "url": "https://x.com/taiwandotmd/status/2065697249041281306",
+      "template": "A2 首尾呼應（紀實文學 voice）",
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
     }
   ],
   "byArticle": {
@@ -6147,6 +6187,7 @@
     "國家太空中心": [122, 123],
     "壞特": [45, 46],
     "大宇雙劍": [92, 94],
+    "天下雜誌": [134, 135],
     "天燈": [113, 114],
     "尹衍樑": [95, 96],
     "張懸與安溥": [25, 27],

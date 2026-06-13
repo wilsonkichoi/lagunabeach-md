@@ -1,7 +1,7 @@
 ---
 title: 'reports/ INDEX — auto-generated'
 description: '頂層 *.md 按 9 type bucket × 月份 雙軸索引 + 子目錄 status summary'
-last_generated: 2026-06-13 06:11
+last_generated: 2026-06-13 23:09
 generator: scripts/tools/generate-reports-index.py
 ssot: reports/reports-archival-audit-2026-05-27.md §4 Layer 3
 type: auto-index
@@ -12,13 +12,13 @@ type: auto-index
 > **本 file 由 `scripts/tools/generate-reports-index.py` 完全 overwrite**。
 > 不要人工編輯（會被下一次 cron 覆蓋）。
 >
-> Last generated: **2026-06-13 06:11** · 頂層 \*.md 共 **162** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
+> Last generated: **2026-06-13 23:09** · 頂層 \*.md 共 **165** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
 
 ## 📦 子目錄 status
 
 | Subdir                  | Files | Size     | 用途                                                 |
 | ----------------------- | ----: | -------- | ---------------------------------------------------- |
-| `research/`             |   295 | 48.5 MB  | REWRITE-PIPELINE Stage 1 canonical (year-month 分槽) |
+| `research/`             |   301 | 49.0 MB  | REWRITE-PIPELINE Stage 1 canonical (year-month 分槽) |
 | `visual/`               |   111 | 214.5 MB | Visual smoke test 基線 (partial gitignored)          |
 | `archive/`              |    27 | 342.8 KB | 歸檔位置 (per audit Layer 4)                         |
 | `weekly/`               |    10 | 2.3 MB   | Self-evolve weekly digest                            |
@@ -112,9 +112,10 @@ type: auto-index
 - `2026-04-18` [ai-crawler-404-analysis-2026-04-18](ai-crawler-404-analysis-2026-04-18.md)
 - `2026-04-12` [traffic-analysis-2026-04-12](traffic-analysis-2026-04-12.md)
 
-### audit (16)
+### audit (17)
 
 - `2026-06-13` [architecture-deep-audit-2026-06-13](architecture-deep-audit-2026-06-13.md)
+- `2026-06-13` [terminology-data-audit-2026-06-13](terminology-data-audit-2026-06-13.md)
 - `2026-06-10` [build-pipeline-audit-2026-06-10](build-pipeline-audit-2026-06-10.md) — Build pipeline 完整審計 — 1099 秒解剖、30 天變慢歸因、六項修復
 - `2026-06-10` [build-pipeline-audit-findings-2026-06-10](build-pipeline-audit-findings-2026-06-10.md)
 - `2026-06-10` [four-pages-curation-audit-2026-06-10](four-pages-curation-audit-2026-06-10.md) — 四頁策展深度審視 — 首頁 / 關於 / 資源 / 參與
@@ -177,9 +178,11 @@ type: auto-index
 - `2026-04-12` [NMTH-overseas-semiont-analysis-2026-04-12](NMTH-overseas-semiont-analysis-2026-04-12.md)
 - `2026-04-11` [TFT-semiont-analysis-2026-04-11](TFT-semiont-analysis-2026-04-11.md)
 
-### ops (49)
+### ops (51)
 
 - `2026-06-13` [article-template-refactor-2026-06-13](article-template-refactor-2026-06-13.md)
+- `2026-06-13` [converter-analytics-2026-06-13](converter-analytics-2026-06-13.md)
+- `2026-06-13` [git-info-prebuild-2026-06-13](git-info-prebuild-2026-06-13.md)
 - `2026-06-13` [refactor-verification-2026-06-13](refactor-verification-2026-06-13.md)
 - `2026-06-12` [feedback-triage-justfont-escalation-2026-06-12](feedback-triage-justfont-escalation-2026-06-12.md) — feedback-triage 升級報告 — justfont 共同創辦人蘇煒翔逐段勘誤（21 處）
 - `2026-06-12` [goal-notes-structuring-2026-06-12](goal-notes-structuring-2026-06-12.md) — 哲宇零碎筆記結構化 2026-06-12
@@ -236,14 +239,17 @@ type: auto-index
 - Type breakdown: ops: 1
   - `????` [README](README.md)
 
-### 2026-06 (41 files)
+### 2026-06 (44 files)
 
-- Type breakdown: ops: 14 / evolution: 7 / audit: 6 / design: 6 / proposal: 3 / audit-routine: 2 / plan: 2 / analysis: 1
+- Type breakdown: ops: 16 / audit: 7 / evolution: 7 / design: 6 / proposal: 3 / audit-routine: 2 / plan: 2 / analysis: 1
   - `2026-06-13` [architecture-deep-audit-2026-06-13](architecture-deep-audit-2026-06-13.md)
   - `2026-06-13` [article-template-refactor-2026-06-13](article-template-refactor-2026-06-13.md)
+  - `2026-06-13` [converter-analytics-2026-06-13](converter-analytics-2026-06-13.md)
   - `2026-06-13` [evolution-roadmap-2026-06-13](evolution-roadmap-2026-06-13.md)
+  - `2026-06-13` [git-info-prebuild-2026-06-13](git-info-prebuild-2026-06-13.md)
   - `2026-06-13` [lessons-distill-strategy-2026-06-13](lessons-distill-strategy-2026-06-13.md)
   - `2026-06-13` [refactor-verification-2026-06-13](refactor-verification-2026-06-13.md)
+  - `2026-06-13` [terminology-data-audit-2026-06-13](terminology-data-audit-2026-06-13.md)
   - `2026-06-12` [feedback-triage-justfont-escalation-2026-06-12](feedback-triage-justfont-escalation-2026-06-12.md)
   - `2026-06-12` [flywheel-evolution-2026-06-12](flywheel-evolution-2026-06-12.md)
   - `2026-06-12` [goal-notes-structuring-2026-06-12](goal-notes-structuring-2026-06-12.md)

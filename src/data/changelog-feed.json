@@ -1,7 +1,343 @@
 {
-  "generatedAt": "2026-06-12T22:11:04.098Z",
+  "generatedAt": "2026-06-13T15:08:59.905Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "0670dd3915dfa0636a9d52b071af13d0a0baddda",
+      "date": "2026-06-13T22:05:52+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-pm: 0 PR / 0 actionable / vc=2 — 2026-06-13 22:00"
+    },
+    {
+      "hash": "64e790f20c63a3fc9140995bc7805999759ea897",
+      "date": "2026-06-13T21:54:47+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 跨黨派好政策 媒體增補補記 — 8→12 媒體 + EVOLVE handoff retire（同婚/解嚴/二二八現場補強 done）"
+    },
+    {
+      "hash": "6e4cfc200276340be8b30e0ab9a4314717f24ee1",
+      "date": "2026-06-13T21:54:46+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 跨黨派好政策 媒體增補到富媒體 — +李登輝肖像 +3 官方影片（公視解嚴/中央社二二八/華視同婚 oembed 驗）"
+    },
+    {
+      "hash": "e44144df07ef5384e318709ab50211c5ff5e8fd4",
+      "date": "2026-06-13T20:59:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-13-190738-跨黨派好政策 收官 — 跨黨派好政策 ship + diary（我用這篇文章的方法，量了寫它的人）+ 3 LESSONS 候選（Special:FilePath 媒體鐵律 / 自信全綠報告越要驗 / 政治題 integrity 來自 own subjectivity）"
+    },
+    {
+      "hash": "dc98d98182d12bee91c712c2b2ca7d23ff19923a",
+      "date": "2026-06-13T20:50:35+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 跨黨派的好政策 ship — 回應 lov3ngine 許願「好政策如何活過它的政治」"
+    },
+    {
+      "hash": "324152c3c13ab7648e1140da976bdd20f42f6942",
+      "date": "2026-06-13T19:55:37+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 跨黨派好政策 Stage 0-1 研究 SSOT — lov3ngine 許願 / 好政策活過政治框架 / 11 里程碑 4-agent ~135 search / falsification 紅線 / research-health PASS"
+    },
+    {
+      "hash": "c8e47c6d76203782b95b2b0555ed5b68b766591d",
+      "date": "2026-06-13T18:41:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-13-183725-深度研究-台灣國片 — 台灣國片 S級完整史 ship 收官 + diary（我寫一部橫向銀幕的歷史，最難的一關是找一張橫的圖）+ 3 LESSONS 候選（媒體瓶頸是aspect/slug免費反向/iframe必oembed驗）"
+    },
+    {
+      "hash": "5c02705997799e1684c9ebdcf4d2721951816519",
+      "date": "2026-06-13T18:36:06+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 台灣國片完整史 EVOLVE — 辯士到串流的死生史 + 4-agent 深研 + 9 媒體"
+    },
+    {
+      "hash": "be4231797b8ffc2026b596e3b2a5633cb5f98fd5",
+      "date": "2026-06-13T18:33:34+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-13-181608-manual finale — orphan retire 補記（zh SSOT 更正）+ diary（驗證面≠開發面）"
+    },
+    {
+      "hash": "865cd9895d5f9e1f8dd62c7a7f5eceecb3797bdd",
+      "date": "2026-06-13T18:32:52+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: diary 2026-06-13-174425-persona-stage0 — 借別人的腦袋 + 創造者只給方向"
+    },
+    {
+      "hash": "11c737ebb6656b8c6d5e09a4251758afa3160814",
+      "date": "2026-06-13T18:30:34+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: diary 2026-06-13 converter-evolution — 替工具裝眼睛 + git 對 U+F906 修改失明的反芻"
+    },
+    {
+      "hash": "fcd84e4a7551b636e60abe09187a51a0ae1d6a0b",
+      "date": "2026-06-13T18:29:32+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: SPORE-PIPELINE v3.10 — 接 PERSONA-PIPELINE hook-select caller + 看不見的國家 20 persona 歸檔 report SSOT"
+    },
+    {
+      "hash": "7510b2f6601a2f81bc72e93d8a872e84dcbc0efa",
+      "date": "2026-06-13T18:26:35+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-13 converter-evolution — 轉換器深度進化 + 資料體檢收官 + U+F906/多核 2 教訓"
+    },
+    {
+      "hash": "d75093c3be4083f43864dccf28b963bc65983c9d",
+      "date": "2026-06-13T18:23:15+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-13-174425-persona-stage0 — REWRITE v7.1 persona 步驟 + PERSONA-PIPELINE 原語 + 孢子自動發踩 §自主權邊界"
+    },
+    {
+      "hash": "99e15c7be75bf90d605bd6878e6a5e31016b1caa",
+      "date": "2026-06-13T18:19:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-13-181608-manual — 隨機探索跨語言 404 根治 + LESSONS 候選（case-sensitivity dev/prod 斷層 + 驗證要對 dist 精確大小寫）"
+    },
+    {
+      "hash": "b232066455487090d088cded1561ac0b83bdd932",
+      "date": "2026-06-13T18:18:53+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 用語詞庫 audit 報告補完 — 81 相容字正規化 + 8 旗標處置 + multi-core 教訓"
+    },
+    {
+      "hash": "1dd5a10cc3be38618f1756cbc1c5044230ef57c1",
+      "date": "2026-06-13T18:18:03+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: PERSONA-PIPELINE.md v1.0 — 共用 persona 發散原語誕生（哲宇 directive 抽象化）"
+    },
+    {
+      "hash": "034f76a2b9ce6a567cb267f571a967cdc32faf81",
+      "date": "2026-06-13T18:14:54+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 隨機探索跨語言 404 根治 — 類別段大小寫 canonical 化 + 路由類別閘門"
+    },
+    {
+      "hash": "7a01b31dbcf184669035b623eae6c6d0148dba50",
+      "date": "2026-06-13T18:14:40+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: ja/fr 翻譯 image ref babel year-mangle 修復 + verify-translation inline 圖路徑 gate"
+    },
+    {
+      "hash": "3ef21969052d214c3ae50f6f70c43d81549b0bef",
+      "date": "2026-06-13T18:00:53+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-13-173505-manual finale — WebP 遷移補記 + diary"
+    },
+    {
+      "hash": "12f28818865c7d2cf8fd5d5d2aa30acfe5c24ef4",
+      "date": "2026-06-13T17:58:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 句號.yaml china 欄補修 — U+F906 相容字檔名讓 batch 2 漏網"
+    },
+    {
+      "hash": "31a05c44bd403fbdcf23e44c71e8da2c532fd1ca",
+      "date": "2026-06-13T17:54:04+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: WebP 全站遷移 — 414 圖 jpg/png→webp（哲宇拍板 §自主權邊界）"
+    },
+    {
+      "hash": "90db8c6bc2362f821631146103e081d6ab1c21d0",
+      "date": "2026-06-13T17:53:27+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 用語詞庫 china 欄錯置 audit Batch 2 — 手柄/雙擊/句號/撥號工具/撤銷"
+    },
+    {
+      "hash": "dbe633a19944dcda27262539939f421ab8cd5b84",
+      "date": "2026-06-13T17:48:26+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: REWRITE-PIPELINE v7.1 — Stage 0 加 Step 0.6.1-bis「20 路 persona 切入點」（哲宇 directive）"
+    },
+    {
+      "hash": "62691fa2539709b55f596be72c19b0a7602fc741",
+      "date": "2026-06-13T17:38:11+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 中國用語轉換器深度進化 — 互動埋點 + 2,295 per-term 頁 + 需求飛輪 + 7 壞 YAML 修正"
+    },
+    {
+      "hash": "77327c7a13e18bd4b264baaae44e6e12da03092c",
+      "date": "2026-06-13T17:37:04+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-13-173505-manual — 影像工具鏈儀器化 + 媒體軍團收官 + 落地接力手冊"
+    },
+    {
+      "hash": "8a230ddb2f71dceddb3d5fba693586867b9b26d9",
+      "date": "2026-06-13T17:30:59+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 媒體增補批次 1 — 蛋撻 + 街頭塗鴉 落地 + 軍團 49 manifest + 落地驅動器"
+    },
+    {
+      "hash": "21f2ddb444ae0e2a0d53b342bb8bef6062733327",
+      "date": "2026-06-13T17:29:18+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 看不見的國家 EVOLVE — 影響 + 還在努力的人（哲宇 directive「更立體」）"
+    },
+    {
+      "hash": "4c05dcac580537f3bd1d6f4a5b22600ffc85c3af",
+      "date": "2026-06-13T17:14:35+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: babel 雲地混合 — 遠端主權 GPU 通用儀器 + pipeline + 方法論"
+    },
+    {
+      "hash": "875243f2418c8488fa55b1c41ebe0d4f1324a8b2",
+      "date": "2026-06-13T17:11:48+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: diary 2026-06-13-170434-manual — 他說線斷了，可是線從來沒斷（診斷是翻譯）"
+    },
+    {
+      "hash": "f33bde231ecd7d2d907f4a18510a44c4844e2466",
+      "date": "2026-06-13T17:08:15+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-13-170434-manual — /latest 手機版三修收官（圖上文下 + 時間軸線可見度 + hero/filter 空白）"
+    },
+    {
+      "hash": "0b24cfcee060a0dc79db166e65443e2f06b48510",
+      "date": "2026-06-13T17:04:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: /latest 手機版三修 — 卡片圖上文下 + 時間軸線可見度 + 移除 hero/filter 空白"
+    },
+    {
+      "hash": "bd0134b2b196cb2b8cab5852fae243b0ff4480bb",
+      "date": "2026-06-13T16:58:45+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 影像後處理工具鏈儀器化 — image-ingest.mjs (sharp/WebP) 一條龍 + 綠島監獄媒體落地 dogfood"
+    },
+    {
+      "hash": "e8368bf4717650e8f4582ad225d322ddbfc1a7fe",
+      "date": "2026-06-13T16:37:02+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: diary 翻譯整合性 inline gate + audit 工具 — 儀器化驗證取代眼測"
+    },
+    {
+      "hash": "e6c5872139754d53fcbebf0fab969bc95c71ccbf",
+      "date": "2026-06-13T16:08:35+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 看不見的國家（Invisible Nation 2023）— 葛靜文紀錄片深度文 ship"
+    },
+    {
+      "hash": "ad80b7eebd1f5aa37b6c4ba56a36c7137ae85ca2",
+      "date": "2026-06-13T16:01:53+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-13-155142-manual — 天下雜誌孢子 #134/#135 紀實文學 ship + 棗紅色 verbatim 查證 + diary（哲宇問的不是真假，是那扇門讀者推不推得開）"
+    },
+    {
+      "hash": "0b575ce16e3a96de54c9a5916d6def77bdcc7090",
+      "date": "2026-06-13T15:43:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 天下雜誌 — 棗紅色牛仔褲補正確來源 [^41] + 結尾「創辦時」校正"
+    },
+    {
+      "hash": "f1b6b8f26099b037744ddc36dee945a10986c5b0",
+      "date": "2026-06-13T15:40:53+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore #134/#135 SHIPPED: 天下雜誌 — 殷允芃借棗紅色牛仔褲訪張愛玲，辦出最受信任的雜誌，公信力與排名權力來自同一段距離（紀實文學 voice / 雙平台）"
+    },
+    {
+      "hash": "58b4d974228c56e44c95b2c57973011d3967e14c",
+      "date": "2026-06-13T15:28:45+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] fix: about hero 0+ — stars/forks 收進 dashboard-vitals SSOT + GH_TOKEN 根因"
+    },
+    {
+      "hash": "3e78349a1436faa06ea3194e28fa4495ca93d97a",
+      "date": "2026-06-13T15:20:21+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 看不見的國家 Stage 1 研究 SSOT — 152 搜尋 / 71 來源 / 反方 perspective scan"
+    },
+    {
+      "hash": "d7401430b3b47a8cbc9a6e08a06463a1c6cb145d",
+      "date": "2026-06-13T11:39:02+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: refactor-article v3.0 Opus 接手段收官 + diary（換了一顆腦袋接手，修的第一個錯是另一個我留下的）"
+    },
+    {
+      "hash": "74783ac5b6df3b7e8901e8aeb4ee10657a33e171",
+      "date": "2026-06-13T11:35:18+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: contributor 全鏈 data-driven 自動化 — dashboard 唯一 SSOT + per-person types + README table 自動生成"
+    },
+    {
+      "hash": "1430b9d234aa2582b3af37ca3b88908512598320",
+      "date": "2026-06-13T11:05:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: contributors + README stats 全面 SSOT 化（about grid data-driven + markers 自動化）"
+    },
+    {
+      "hash": "3cfe39a977d9c635acc687e06bf232575dbda200",
+      "date": "2026-06-13T10:44:33+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: EVO-A4 報告 + roadmap 劃線（A4/A2/E3 done）+ 哲宇決策提案"
+    },
+    {
+      "hash": "d770be2b07cbe26456d19cad78c896e0cc574a14",
+      "date": "2026-06-13T10:40:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 自我進化 — 本 session 結構性教訓升 REFLEXES #67 + #24 第 8 種 + MEMORY 神經迴路（EVO-E3）"
+    },
+    {
+      "hash": "2f3b8de5de544235540365f740e0f9c4612494b6",
+      "date": "2026-06-13T10:32:26+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: EVO-A2 search 單一生成器 — 刪漂移的 runtime route，fallback 改由同一次掃描衍生"
+    },
+    {
+      "hash": "faf72e580e5b4fdd739a0807043b955d5e03f755",
+      "date": "2026-06-13T10:28:15+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: EVO-A4 git 資料 prebuild 化 — astro render 階段零 git 依賴（6→0 子程序）"
+    },
+    {
+      "hash": "ab269b0011dd0b0a8ecf82ac99726b60c48938cb",
+      "date": "2026-06-13T10:13:46+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] data-refresh: dashboard-analytics 08:17 三源刷新歸位（Opus session 接手前 routine 衍生）"
+    },
+    {
+      "hash": "55b8746d62e3114e7da6241452cf9ad793c9352d",
+      "date": "2026-06-13T08:41:54+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-am: 0 PR / 0 actionable / vc=1 — 2026-06-13 08:30"
+    },
+    {
+      "hash": "13f217bb078da5c8a01dcbf1112955b6fe6ee9ee",
+      "date": "2026-06-13T08:12:42+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-13-081002-twmd-spore-pick-daily — 3 picks ship + HG10 multi-dim 全過 + D5 結構性沉默 LESSONS 候選 vc=1"
+    },
+    {
+      "hash": "069386ac583e779ac344c5a3a845f6cdfc050f9b",
+      "date": "2026-06-13T08:09:52+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-pick-daily: 3 candidates — 2026-06-13"
+    },
+    {
+      "hash": "9586b03be4cf49ce0f50275e8aadd6aff314a8ba",
+      "date": "2026-06-13T07:08:33+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-feedback-triage: 0 new feedback + 12 archive comments synced — 2026-06-13 07:00"
+    },
+    {
+      "hash": "bfe57d273023176e08ecd67b9a303611f1394620",
+      "date": "2026-06-13T06:53:47+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-13-065113-twmd-spore-harvest-am — 15 OVERDUE backfilled + LESSONS candidate spore-vs-article drift vc=1"
+    },
+    {
+      "hash": "23e8f571812a5a1fcb4edb7c945f2165227b4781",
+      "date": "2026-06-13T06:50:56+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest-am: 15 OVERDUE spores backfilled (D+16-D+21) — 2026-06-13"
+    },
+    {
+      "hash": "21226ed96f04ad4493a247d6df86c411017187ff",
+      "date": "2026-06-13T06:14:39+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-13-061144-twmd-data-refresh-am — 14-step ALL PASS + 連 14 cycle 全綠 + ms-page 24 refactor 收益落地"
+    },
+    {
+      "hash": "b4b4ae4da40543371269da3b4581955fd036454d",
+      "date": "2026-06-13T06:14:27+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] data-refresh-am: 14-step ALL PASS + Step 11 連 14 cycle 全綠 — 2026-06-13 06:00"
+    },
     {
       "hash": "44722afe5b633fc29fde592b1e005f7b664b2736",
       "date": "2026-06-13T02:57:48+08:00",
