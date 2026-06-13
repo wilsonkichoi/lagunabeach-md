@@ -21,7 +21,7 @@ translatedAt: "2026-05-18T20:48:56+08:00"
 
 > **Aperçu en 30 secondes** : le 27 mars 2020, Chen Shengwei, chercheur de 44 ans à l’Academia Sinica, appela la rédactrice en chef du magazine CommonWealth pour lui dire, avec gravité, qu’il « voulait faire quelque chose » : créer une forme de cours de programmation gratuit pour toute la population. Deux jours plus tard, il chuta, tomba dans le coma, et mourut treize jours après. Au moment de sa disparition, l’École taïwanaise d’intelligence artificielle (AIA), qu’il avait fondée en 2018, avait déjà formé plus de six mille personnes. À la même période, le Conseil national du développement annonçait, avec sa stratégie « petit pays, grande stratégie IA », 16 milliards de dollars taïwanais sur cinq ans ; lui créa son école grâce à 180 millions de dollars taïwanais levés auprès de six entreprises, dont Formosa Plastics, Chi Mei et Inventec, à raison de 30 millions chacune. Huit ans plus tard, les anciens élèves ont dépassé les dix mille. L’AIA est, dans la montée en gamme industrielle de Taïwan, la pièce du puzzle la moins typiquement taïwanaise.
 
-![Portrait officiel de Chen Shengwei lors d’une conférence publique de l’École taïwanaise d’intelligence artificielle, 2018](/article-images/technology/taiwan-ai-academy-chen-shengwei-portrait-2018.jpg)
+![Portrait officiel de Chen Shengwei lors d’une conférence publique de l’École taïwanaise d’intelligence artificielle, 2018](/article-images/technology/taiwan-ai-academy-chen-shengwei-portrait-2018.webp)
 _Chen Shengwei (1976-2020), fondateur et directeur général de l’École taïwanaise d’intelligence artificielle. Photo : École taïwanaise d’intelligence artificielle, officielle. [via aiacademy.tw](https://aiacademy.tw/swc/)._
 
 ---
@@ -128,7 +128,7 @@ Le programme de leaders techniques s’adressait aux **ingénieurs qui savaient 
 
 Deux programmes, deux manques à combler : ce fut la première différence structurelle entre l’AIA et les autres cours MOOC en ligne.
 
-![Chen Shengwei, directeur général, prenant la parole dans un cours ou lors d’un événement de l’AIA, 2018](/article-images/technology/taiwan-ai-academy-chen-shengwei-talk-2018.jpg)
+![Chen Shengwei, directeur général, prenant la parole dans un cours ou lors d’un événement de l’AIA, 2018](/article-images/technology/taiwan-ai-academy-chen-shengwei-talk-2018.webp)
 _Chen Shengwei, directeur général, s’exprimant lors d’un événement public de l’École taïwanaise d’intelligence artificielle. Photo : École taïwanaise d’intelligence artificielle, officielle. [via aiacademy.tw](https://aiacademy.tw/swc/)._
 
 Parmi les élèves admis dans la première cohorte figurait une personne qui partagea ensuite publiquement son témoignage sur la page officielle des élèves de l’AIA. Numéro d’étudiant AT071039, nom : Chen Yen-chin. Il écrivit :
@@ -203,7 +203,7 @@ L’expression anglaise « make a difference », Chen Shengwei l’utilisait lui
 
 Le 29 mars 2020, Chen Shengwei tomba et se heurta la tête sur une piste de rollers. Sur le chemin du retour en voiture, il se sentit soudain mal et s’arrêta temporairement au bord de la route. Transporté à l’hôpital, il tomba dans le coma à la suite d’une hémorragie cérébrale. Treize jours plus tard, le 11 avril 2020, il mourut[^2].
 
-![Portrait de Chen Shengwei lors d’un entretien avec Global Views Monthly en 2020, parmi les derniers ensembles d’images publiques avant sa mort](/article-images/technology/taiwan-ai-academy-chen-shengwei-gvm-2020.jpg)
+![Portrait de Chen Shengwei lors d’un entretien avec Global Views Monthly en 2020, parmi les derniers ensembles d’images publiques avant sa mort](/article-images/technology/taiwan-ai-academy-chen-shengwei-gvm-2020.webp)
 _Portrait de Chen Shengwei réalisé par Global Views Monthly peu avant sa mort. Photo : Chang Chih-chieh / Global Views Monthly, 2020. [via gvm.com.tw](https://www.gvm.com.tw/article/72282) (fair use editorial commentary)._
 
 Après l’annonce de son décès, les anciens élèves de l’AIA, E.SUN Financial Holding, l’Academia Sinica, g0v et la communauté taïwanaise de science des données collaborèrent pour mettre en ligne, le 21 avril, une plateforme de commémoration en ligne au style de décor d’anime et de jeu vidéo. L’équipe travailla toute la nuit et termina à une heure du matin[^B1].

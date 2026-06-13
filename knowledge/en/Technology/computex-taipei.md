@@ -63,7 +63,7 @@ The second edition featured only 40 exhibitors.[^4] No one could have imagined t
 
 ## The Year Stan Shih Changed the Name
 
-![Stan Shih at the 2014 Taipei IT Month press event, wearing a dark suit, surrounded by microphones and cameras; the backdrop shows the IT Month exhibition hall.](/article-images/technology/stan-shih-taipei-it-month-2014.jpg)
+![Stan Shih at the 2014 Taipei IT Month press event, wearing a dark suit, surrounded by microphones and cameras; the backdrop shows the IT Month exhibition hall.](/article-images/technology/stan-shih-taipei-it-month-2014.webp)
 _Stan Shih, founder of Acer. In 1984 he renamed the “Taipei City Computer Exhibition” to **COMPUTEX TAIPEI**, giving the show a globally recognizable brand; the photo shows him speaking at Taipei IT Month in 2014. Photo: Tony Tseng, 2014‑12‑05. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stan_Shih_at_Taipei_IT_Month_20141205a.jpg)._
 
 1984 marked a turning point. According to Wikipedia and multiple reports, the then‑chairman of the Taipei City Computer Business Association, **Stan Shih**—who would later found Acer—approved the English name **COMPUTEX TAIPEI**.[^4][^5] This locally driven naming move gave a show that had previously catered only to Taiwanese manufacturers a sign that faced the world.
@@ -81,7 +81,7 @@ Entering the new millennium, the balance among the world’s three major compute
 
 The first to fall was the United States’ **COMDEX**. In 2003, as COMDEX declined, Computex’s organizers incorporated Taipei World Trade Center Hall 3 into the exhibition area, officially becoming the “second‑largest computer show in the world, behind only CeBIT.” In 2004 the four‑hall format was solidified.[^4][^5]
 
-![Crowds at CeBIT 2005 in Hanover, Germany, with rows of vendor booths lining the wide aisles and high ceilings.](/article-images/technology/cebit-hannover-2005.jpg)
+![Crowds at CeBIT 2005 in Hanover, Germany, with rows of vendor booths lining the wide aisles and high ceilings.](/article-images/technology/cebit-hannover-2005.webp)
 _The 2005 CeBIT exhibition in Hanover, Germany. At the height of the dot‑com bubble it attracted 850 000 visitors, making it the undisputed world‑leading computer show; it announced its closure in 2018. Photo: Florian K, 2005‑03‑16. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cebit_Hannover_2004.JPG)._
 
 The longer‑lasting rival was Germany’s **CeBIT**. CeBIT split off from the historic Hanover industrial fair in 1986 and, during the dot‑com boom, peaked at 850 000 visitors, becoming the world’s number‑one computer show.[^7] Yet as the boom faded, attendance and exhibitor numbers steadily declined, with the market being divided among January’s **CES**, February’s **MWC**, June’s **Computex**, and September’s **IFA**. In November 2018 the organizers announced CeBIT’s closure.[^7]
@@ -97,7 +97,7 @@ Thus, of the three historic computer shows, COMDEX folded in 2003, CeBIT folde
 
 ## The Six‑Thousand Booths No One Films
 
-![Exterior of Nangang Exhibition Hall Hall 1, with a large COMPUTEX TAIPEI banner on the glass curtain wall; crowds with badges line the entrance. This is the main venue for recent Taipei International Computer Exhibitions.](/article-images/technology/computex-nangang-exterior-2016.jpg)
+![Exterior of Nangang Exhibition Hall Hall 1, with a large COMPUTEX TAIPEI banner on the glass curtain wall; crowds with badges line the entrance. This is the main venue for recent Taipei International Computer Exhibitions.](/article-images/technology/computex-nangang-exterior-2016.webp)
 _The Nangang Exhibition Hall, the recent main venue for Computex. Every late May‑early June, buyers from hundreds of countries converge here. Photo: NVIDIA Taiwan, 2016‑05‑31. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Computex_Taipei_at_Taipei_Nangang_Exhibition_Center_20160531.jpg)._
 
 Media always focus on the keynote stage and the CEOs. But Computex’s real body is those 6 000 booths.[^6]
@@ -120,7 +120,7 @@ No one foresaw that this survival‑driven transformation would lay the groundwo
 
 ## The Year Jensen Huang Returned
 
-![Jensen Huang speaking on the Computex Taipei stage in 2016, wearing a dark shirt, with a large projection screen behind him and an attentive audience below. This is one of several occasions he has returned to the Taipei computer show for a keynote.](/article-images/technology/computex-jensen-huang-2016.jpg)
+![Jensen Huang speaking on the Computex Taipei stage in 2016, wearing a dark shirt, with a large projection screen behind him and an attentive audience below. This is one of several occasions he has returned to the Taipei computer show for a keynote.](/article-images/technology/computex-jensen-huang-2016.webp)
 _Jensen Huang’s 2016 Computex Taipei keynote. Since 2023 he has returned almost annually to announce NVIDIA’s latest AI chips. Photo: NVIDIA Taiwan, 2016‑05‑31. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jensen_Huang_at_Computex_Taipei_20160531c.jpg)._
 
 On 29 May 2023, Jensen Huang took the Computex stage for his first post‑pandemic in‑person keynote—and his first public speech in nearly four years.[^9] He introduced the **Grace Hopper** super‑chip, announced its mass production, and unveiled a **DGX GH200** supercomputer that links 256 chips via NVLink to achieve exaflop‑scale performance, with Google, Meta and Microsoft among the first customers.[^9] His core message: bring generative AI into every data center.
@@ -186,7 +186,7 @@ _NVIDIA official channel: Jensen Huang’s full 2026 GTC Taipei keynote. Here 
 
 Zooming out from the stage reveals Computex’s real strength—and its hidden risk.
 
-![Exterior of a TSMC fab in Hsinchu Science Park, a massive white clean‑room building that produces the world’s most advanced chips.](/article-images/technology/tsmc-fab-hsinchu-2009.jpg)
+![Exterior of a TSMC fab in Hsinchu Science Park, a massive white clean‑room building that produces the world’s most advanced chips.](/article-images/technology/tsmc-fab-hsinchu-2009.webp)
 _TSMC’s Hsinchu fab. An AI chip’s first step is here—over ninety percent of the world’s most advanced chips are produced by TSMC. Photo: Arusanov, 2009, public domain. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tsmc_factory_hsinchu.JPG)._
 
 For a NVIDIA AI chip to become a data‑center server, almost every step occurs in Taiwan. The chip is fabricated by **TSMC**, which produces over ninety percent of the world’s most advanced chips. Packaging relies on TSMC’s **CoWoS** advanced packaging, now the bottleneck of AI compute supply.[^18] Assembly is handled by **Foxconn**, **Quanta**, **Wistron** and others; Foxconn alone accounts for roughly forty percent of global AI‑server OEM market share.[^19] Power supplies come from **Delta Electronics**, which holds about half of the global server‑power market; cooling, connectors and chassis are likewise dominated by Taiwanese firms.[^18] Research institutes estimate that nearly ninety percent of AI servers are assembled and shipped by Taiwanese manufacturers.[^18]

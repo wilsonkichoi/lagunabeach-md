@@ -46,7 +46,7 @@ Résultats du référendum 2025 sur la prolongation de la troisième centrale nu
 
 Gagner le débat, perdre dans le dispositif institutionnel. Ce paradoxe de l'été 2025 est la porte d'entrée pour comprendre l'ensemble du débat taïwanais sur le nucléaire : en surface, il demande si « le nucléaire est bon ou non » ; en dessous, il porte sur tout autre chose.
 
-![En avril 2013, des organisations civiles antinucléaires encerclent le Yuan législatif. C'est l'une des images de rue les plus fréquentes dans quarante ans de débat nucléaire à Taïwan.](/article-images/society/anti-nuclear-protest-legislative-yuan-voa-2013.jpg)
+![En avril 2013, des organisations civiles antinucléaires encerclent le Yuan législatif. C'est l'une des images de rue les plus fréquentes dans quarante ans de débat nucléaire à Taïwan.](/article-images/society/anti-nuclear-protest-legislative-yuan-voa-2013.webp)
 
 ## Le drapeau jaune « Je suis humain, je suis antinucléaire »
 
@@ -182,7 +182,7 @@ Le plan global de stockage définitif des déchets de haute activité se déroul
 
 Les déchets nucléaires exigent un terrain stable pendant cent mille ans au minimum ; Taïwan se tient sur une terre de failles qui ne cesse de bouger. C'est la cicatrice la plus profonde de ce débat : il oblige une île aux conditions géologiques peu idéales à répondre à la question de savoir si elle veut, et si elle peut, assumer la responsabilité d'une énergie qui laisse un héritage millénaire. Sur cette question, il n'y a pas de vainqueur dans le débat ; il ne reste que la disposition à porter le fardeau.
 
-![Construite mais jamais entrée en service commercial, la quatrième centrale nucléaire (Longmen) est mise sous cocon depuis 2014.](/article-images/society/longmen-nuclear-plant-2023.jpg)
+![Construite mais jamais entrée en service commercial, la quatrième centrale nucléaire (Longmen) est mise sous cocon depuis 2014.](/article-images/society/longmen-nuclear-plant-2023.webp)
 
 ## L'« usine de conserves » de Lanyu
 
@@ -200,7 +200,7 @@ En novembre de cette année-là, le gouvernement a annoncé un dispositif de com
 
 > **✦** La phrase de Lanyu — « nous ne prendrons pas un centime » — est l'une des voix qui devraient être les plus entendues dans tout le débat nucléaire, et pourtant l'une des plus souvent ignorées. Elle rappelle que le coût de l'électricité nucléaire ne figure jamais seulement sur la facture d'électricité. Lorsque les deux camps calculent le prix par kilowattheure et les tonnes de carbone évitées, il existe un coût payé silencieusement, pendant quarante ans, par un groupe de personnes sans siège à la table des décisions, avec sa terre et sa dignité.
 
-![Village traditionnel tao de Lanyu. Le site de stockage des déchets nucléaires de faible activité est installé sur l'île depuis 1982, et la promesse de les évacuer n'a jamais été tenue. L'image montre une maison souterraine tao, non le site de stockage lui-même.](/article-images/society/lanyu-tao-underground-house.jpg)
+![Village traditionnel tao de Lanyu. Le site de stockage des déchets nucléaires de faible activité est installé sur l'île depuis 1982, et la promesse de les évacuer n'a jamais été tenue. L'image montre une maison souterraine tao, non le site de stockage lui-même.](/article-images/society/lanyu-tao-underground-house.webp)
 
 ## Assez d'air pour dix jours, assez d'uranium pour dix-huit mois
 

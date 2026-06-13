@@ -100,7 +100,7 @@ _루강 룽산사, 2017. Photo: Outlookxp, [CC BY-SA 4.0 via Wikimedia](https://
 
 「일부이루삼모하」의 이루(二鹿) 시대는 19세기 중엽에 끝났다. 루강이 가장 번성했던 시기는 불과 70년에 불과하다.
 
-![루강 옛거리 골목. 모유항(正式名「군자巷」) 가장 좁은 곳 70cm, 구곡구(九曲巷)의 굽은 설계는 동북 계절풍을 막고, 반변정(半邊井, 야오린가 12호)의 친睦 정신, 이 200년의 도시 질감이 아직 제자리에 있다.](/article-images/geography/changhua-02.jpg)
+![루강 옛거리 골목. 모유항(正式名「군자巷」) 가장 좁은 곳 70cm, 구곡구(九曲巷)의 굽은 설계는 동북 계절풍을 막고, 반변정(半邊井, 야오린가 12호)의 친睦 정신, 이 200년의 도시 질감이 아직 제자리에 있다.](/article-images/geography/changhua-02.webp)
 _루강 옛거리 골목. Photo: Wikimedia Commons contributor, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:%E9%B9%BF%E6%B8%AF%E8%80%81%E8%A1%97%E5%B0%8F%E5%B7%B707.jpg)._
 
 ## 1986년, 루강 사람들이 「아니오」라고 말하다
@@ -158,7 +158,7 @@ _현저 부채형 차고. Photo: Wikimedia Commons contributor, [CC BY-SA via Wi
 
 중국시보(中國時報)의 기록: 「**1961년 대불이 완성된 후**」, 현지 주민들 사이에서 하나의 설이 형성되었다: 「**현저는 '바람은 있지만 태풍은 없고, 비는 오지만 재해는 없다'고 하며, 모두 대불의 복덕을 굳게 믿었다**」[^22].
 
-![팔광산 대불, 1961년 완공, 높이 22미터, 철근 콘크리트, 설계자 린경요. 불상 내부는 6개 층으로 나뉘어 들어가서 관람할 수 있다.](/article-images/geography/changhua-04.jpg)
+![팔광산 대불, 1961년 완공, 높이 22미터, 철근 콘크리트, 설계자 린경요. 불상 내부는 6개 층으로 나뉘어 들어가서 관람할 수 있다.](/article-images/geography/changhua-04.webp)
 _팔광산 대불. Photo: Wikimedia Commons contributor, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BD%B0%E5%8C%96%E5%85%AB%E5%8D%A6%E5%B1%B1%E5%A4%A7%E4%BD%9B31.jpg)._
 
 22미터의 콘크리트 보살은, 루강 룽산사 1786년의 목조 보살, 신조궁 1788년의 관비 마조, 톈웨이 국화밭 옆의 토지공묘와 함께, 현저현 내의 신앙 대상은 청나라부터 전후까지 하나의 동일한 시간선을 잇지 않는다. 각각은 당시 사람들이 「우리는 어떤 힘의 보호가 필요한가」에 대한 구체적인 답변이었다.

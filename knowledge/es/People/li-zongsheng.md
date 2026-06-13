@@ -44,7 +44,7 @@ En 1975, cuando todavía estudiaba, formó con Chiang Hsueh-shih y Chang Ping-hu
 > 📝 **Nota curatorial**
 > Mucha gente recuerda a Jonathan Lee como “padrino del pop en mandarín” y recuerda cuántas grandes canciones de amor escribió. Pero el punto de partida creativo que él mismo dio fue “no quería volver a repartir gas”. Ese origen importa mucho: explica por qué escribió toda la vida con palabras que la gente común podía entender. Alguien que cargó cilindros, tocó timbres y cobró dinero no iba a escribir canciones con una dicción rebuscada. Escribía en el lenguaje popular porque, desde el inicio, estaba parado en medio de la vida popular.
 
-![Retrato de medio cuerpo de Jonathan Lee en 2008, con barba y gesto sereno, el rostro más reconocible del padrino del pop en mandarín](/article-images/people/jonathan-lee-portrait-2008.jpg)
+![Retrato de medio cuerpo de Jonathan Lee en 2008, con barba y gesto sereno, el rostro más reconocible del padrino del pop en mandarín](/article-images/people/jonathan-lee-portrait-2008.webp)
 _Jonathan Lee, fotografiado en 2008. Una guitarra y un taburete: la canción convertida en una extensión del habla. Photo: Tat Lau. [CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:JonathanLee2008_crop.jpg)._
 
 ## Escribir una carta para Chyi Yu en nombre de otra persona
@@ -70,7 +70,7 @@ Una crítica musical formuló ese contraste con precisión: “Lo Ta-yu observa 
 
 Sus trayectorias vitales también forman un contraste interesante. En 1990, Lo Ta-yu fundó en Hong Kong el sello “Music Factory”.[^19] Lee no tuvo un sello propio; su escenario fue siempre Rock Records. Llegó a ser vicepresidente y director de producción, y llevó generación tras generación de cantantes al centro de la escena musical de Taiwán. Son dos formas distintas de vivir como “padrino”: uno funda su propia casa y actúa como abanderado; el otro, dentro de una gran compañía, es la mano que elige canciones, las pule y ficha artistas.
 
-![Lo Ta-yu en los Premios Golden Melody de 2021, con gafas oscuras y su característica ropa negra](/article-images/people/lo-ta-yu-gma-2021.jpg)
+![Lo Ta-yu en los Premios Golden Melody de 2021, con gafas oscuras y su característica ropa negra](/article-images/people/lo-ta-yu-gma-2021.webp)
 _Lo Ta-yu, fotografiado en los Premios Golden Melody de 2021, y Jonathan Lee suelen ser llamados los dos padrinos de la música en mandarín: uno observa el mundo; el otro se asoma al corazón. Photo: 化城再来人. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:20210822CPKK35c_TAIWAN_GMA_LO_TAYOU_EN0822LA07-1.jpg)._
 
 ## Las canciones que en realidad no escribió
@@ -130,7 +130,7 @@ La academia ha reparado en esta tensión. En la Universidad Nacional Chung Hsing
 
 En 2002, Jonathan Lee hizo algo bastante distinto de producir discos y escribir canciones: fundó Lee Guitars y empezó a construir guitarras acústicas con sus propias manos.[^40] Dijo que en la historia del pop en mandarín casi no había luthiers propios. Al año siguiente trasladó el taller al distrito artístico 798 de Pekín, y más tarde el centro de su vida también se fue desplazando gradualmente hacia Pekín.[^40]
 
-![Primer plano de una guitarra acústica de Lee Guitars, con la veta de la madera y la boca claramente visibles](/article-images/people/jonathan-lee-guitar.jpg)
+![Primer plano de una guitarra acústica de Lee Guitars, con la veta de la madera y la boca claramente visibles](/article-images/people/jonathan-lee-guitar.webp)
 _Una guitarra de Lee Guitars. De las manos que cargaban cilindros de gas a las manos que cepillan madera para construir guitarras. Photo: KaurJmeb. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jonathan_Lees_guitar.jpg)._
 
 De las manos que cargaban cilindros de gas a las que tocaban la guitarra, escribían canciones y pulían cantantes; luego, a las que cepillaban madera para hacer guitarras. Esas manos cambiaron muchas veces de oficio. Pero, si se mira con atención, lo que hicieron fue siempre lo mismo: tomar algo que una persona común quería decir pero no lograba expresar con claridad, y convertirlo lentamente en una obra que otros pudieran recibir.

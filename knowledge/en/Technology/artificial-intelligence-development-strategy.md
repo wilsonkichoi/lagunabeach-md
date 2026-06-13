@@ -46,7 +46,7 @@ Set the timeline beside it: when Hopfield published his paper, “Neural network
 
 In the end, the Nobel Prizes awarded over those two days were not for ChatGPT. They were for several papers from 30 or 40 years earlier that almost nobody understood at the time. The lag between basic research and industrial application has always worked this way.
 
-![Geoffrey E. Hinton’s official portrait during Nobel Week in Stockholm on December 8, 2024: dark suit, white hair, calm expression facing the camera](/article-images/technology/hinton-nobel-2024.jpg)
+![Geoffrey E. Hinton’s official portrait during Nobel Week in Stockholm on December 8, 2024: dark suit, white hair, calm expression facing the camera](/article-images/technology/hinton-nobel-2024.webp)
 _Geoffrey Hinton, 2024 Nobel Prize laureate in Physics, during Nobel Week in Stockholm. Photo: Arthur Petron, 2024-12-08. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Geoffrey_E._Hinton,_2024_Nobel_Prize_Laureate_in_Physics_(3x4*cropped).jpg).*
 
 ---
@@ -75,7 +75,7 @@ AI chip performance depends not only on process-node shrinkage but also on packa
 
 Foxconn is also working with NVIDIA and the Taiwanese government to build a 100-megawatt AI factory supercomputer in Kaohsiung, using NVIDIA’s latest Blackwell architecture[^10]. Taiwan is being upgraded from “the place that manufactures AI chips” to “the place where AI runs.”
 
-![Exterior of TSMC’s Fab 5 at Hsinchu Science Park in the 2010s, the physical site of semiconductor foundry manufacturing](/article-images/technology/tsmc-fab5-hsinchu-2010.jpg)
+![Exterior of TSMC’s Fab 5 at Hsinchu Science Park in the 2010s, the physical site of semiconductor foundry manufacturing](/article-images/technology/tsmc-fab5-hsinchu-2010.webp)
 _TSMC Fab 5 in Hsinchu, the physical site of AI chip foundry manufacturing. Photo: Wikimedia Commons via [TSMC Fab 5 file](https://commons.wikimedia.org/wiki/File:TSMC_Fab_5.jpg)._
 
 The question is: once the hardware ticket has been secured, where will the next battle be?
@@ -102,7 +102,7 @@ Even more interesting is something Hopfield later said. He spent his career at P
 
 The person who wrote out the mathematical foundation of modern AI reminded everyone, on the day he received the prize, to be careful.
 
-![John J. Hopfield during Nobel Week in Stockholm on December 8, 2024: dark suit, white hair, composed expression](/article-images/technology/hopfield-nobel-2024.jpg)
+![John J. Hopfield during Nobel Week in Stockholm on December 8, 2024: dark suit, white hair, composed expression](/article-images/technology/hopfield-nobel-2024.webp)
 _John J. Hopfield, 2024 Nobel Prize laureate in Physics, during Nobel Week in Stockholm. Photo: Arthur Petron, 2024-12-08. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:John_J._Hopfield,_2024_Nobel_Prize_Laureate_in_Physics_1_(cropped).jpg).\_
 
 ---

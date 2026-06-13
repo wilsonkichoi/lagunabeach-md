@@ -46,7 +46,7 @@ Comparemos la línea de tiempo: cuando Hopfield publicó en 1982 en _Proceedings
 
 En el fondo, esos dos Nobel no premiaron a ChatGPT, sino a unos artículos de hace tres o cuatro décadas que casi nadie entendía. La brecha temporal entre la investigación básica y la aplicación industrial siempre ha sido así.
 
-![Retrato oficial de Geoffrey E. Hinton entrevistado durante la semana Nobel en Estocolmo el 8 de diciembre de 2024, con traje oscuro, cabello blanco y expresión serena frente a la cámara](/article-images/technology/hinton-nobel-2024.jpg)
+![Retrato oficial de Geoffrey E. Hinton entrevistado durante la semana Nobel en Estocolmo el 8 de diciembre de 2024, con traje oscuro, cabello blanco y expresión serena frente a la cámara](/article-images/technology/hinton-nobel-2024.webp)
 _Geoffrey Hinton, laureado con el Premio Nobel de Física 2024, durante la semana Nobel en Estocolmo. Photo: Arthur Petron, 2024-12-08. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Geoffrey_E._Hinton,_2024_Nobel_Prize_Laureate_in_Physics_(3x4*cropped).jpg).*
 
 ---
@@ -75,7 +75,7 @@ El rendimiento de los chips de IA no depende solo de la miniaturización del pro
 
 Foxconn, además, coopera con NVIDIA y el gobierno taiwanés para construir en Kaohsiung una supercomputadora de fábrica de IA de 100 megavatios (MW), basada en la arquitectura NVIDIA Blackwell más reciente[^10]. Taiwán está pasando de ser “el lugar donde se fabrican chips de IA” a ser “el lugar donde se ejecuta IA”.
 
-![Exterior de la planta Fab 5 de TSMC en el Parque Científico de Hsinchu, escena de la década de 2010, sitio físico de la fabricación por fundición de obleas semiconductoras](/article-images/technology/tsmc-fab5-hsinchu-2010.jpg)
+![Exterior de la planta Fab 5 de TSMC en el Parque Científico de Hsinchu, escena de la década de 2010, sitio físico de la fabricación por fundición de obleas semiconductoras](/article-images/technology/tsmc-fab5-hsinchu-2010.webp)
 _Planta Fab 5 de TSMC en Hsinchu, sitio físico de la fundición de chips de IA. Photo: Wikimedia Commons via [TSMC Fab 5 file](https://commons.wikimedia.org/wiki/File:TSMC_Fab_5.jpg)._
 
 La pregunta es: una vez conseguido el boleto de entrada del hardware, ¿dónde será la próxima batalla?
@@ -102,7 +102,7 @@ Más interesante aún es algo que Hopfield dijo después. Pasó su vida en Princ
 
 La persona que escribió parte de la base matemática de toda la IA moderna aprovechó el día en que recibió el premio para pedir cautela.
 
-![Retrato de John J. Hopfield entrevistado durante la semana Nobel en Estocolmo el 8 de diciembre de 2024, con traje oscuro, cabello blanco y expresión serena](/article-images/technology/hopfield-nobel-2024.jpg)
+![Retrato de John J. Hopfield entrevistado durante la semana Nobel en Estocolmo el 8 de diciembre de 2024, con traje oscuro, cabello blanco y expresión serena](/article-images/technology/hopfield-nobel-2024.webp)
 _John J. Hopfield, laureado con el Premio Nobel de Física 2024, durante la semana Nobel en Estocolmo. Photo: Arthur Petron, 2024-12-08. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:John_J._Hopfield,_2024_Nobel_Prize_Laureate_in_Physics_1_(cropped).jpg).\_
 
 ---

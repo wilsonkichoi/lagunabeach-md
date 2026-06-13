@@ -77,7 +77,7 @@ The common explanation is that “Taiwan developed later, so its system came lat
 
 ## Yingge’s Clay, Sanyi’s Trees, Meinong’s Rain
 
-![Exterior of the Sanyi Wood Sculpture Museum, Taiwan’s only public museum devoted to wood sculpture; outsourced by the Miaoli County Government in April 2007, it is the core exhibition space of the Sanyi woodcarving craft settlement](/article-images/culture/sanyi-wood-sculpture-museum-2010.jpg)
+![Exterior of the Sanyi Wood Sculpture Museum, Taiwan’s only public museum devoted to wood sculpture; outsourced by the Miaoli County Government in April 2007, it is the core exhibition space of the Sanyi woodcarving craft settlement](/article-images/culture/sanyi-wood-sculpture-museum-2010.webp)
 _Exterior of the Sanyi Wood Sculpture Museum in Guangsheng Village, Sanyi Township, Miaoli County, Taiwan’s only public museum devoted to wood sculpture. Photo: Anrew0517, 2010-05-01, CC BY-SA 3.0, [Commons File](https://commons.wikimedia.org/wiki/File:Sanyi_Wood_Sculpture_Museum_20100501.jpg)._
 
 Craft settlements do not arise out of nowhere. Each is the double crystallization of “local materials × techniques brought by migrants.” Geography locks production possibilities into a radius; migrants determine what industry will grow within that radius.
@@ -102,7 +102,7 @@ That sentence was written in 1981. Forty-five years later, it reads as if it had
 
 ## A Craft the Government Did Not Revive: The Revival of Sanxia Indigo Dyeing
 
-![The “Blue and White Series” indigo-dyed garments displayed inside the Sanxia District Historical Relics Hall are among the most representative contemporary visual archives of Sanxia indigo dyeing after its 1996 revival](/article-images/culture/sanxia-indigo-display.jpg)
+![The “Blue and White Series” indigo-dyed garments displayed inside the Sanxia District Historical Relics Hall are among the most representative contemporary visual archives of Sanxia indigo dyeing after its 1996 revival](/article-images/culture/sanxia-indigo-display.webp)
 _The “Blue and White Series” indigo-dyed garments displayed at the Sanxia District Historical Relics Hall show the contemporary applications of Sanxia indigo dyeing after its 1996 revival. Photo: Outlookxp, CC BY-SA 4.0, [Commons File](https://commons.wikimedia.org/wiki/File:%E4%B8%89%E5%B3%BD%E5%8D%80%E6%AD%B7%E5%8F%B2%E6%96%87%E7%89%A9%E9%A4%A8%E5%85%A7%E6%89%80%E5%B1%95%E7%A4%BA%E3%80%8C%E8%97%8D%E8%88%87%E7%99%BD%E7%B3%BB%E5%88%97%E3%80%8D%E8%97%8D%E6%9F%93%E6%9C%8D%E9%A3%BE.jpg)._
 
 Sanxia, formerly known as Sankakuyū, was the most important cloth-dyeing center in northern Taiwan during the Guangxu reign of the Qing dynasty. Clear creek water and damp mountain valleys were suitable for the growth of Strobilanthes cusia, the indigo plant known locally as daqing or malan, and dye workshops lined the streets. The red-brick facades on today’s Sanxia Old Street remain historical testimony to the wealth once brought by indigo dyeing.[^17]

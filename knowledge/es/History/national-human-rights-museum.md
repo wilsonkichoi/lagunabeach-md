@@ -53,7 +53,7 @@ Y aquel día de 2018, en esa isla transformada de prisión en museo, dijo:
 
 Cinco años después, el 3 de septiembre de 2023, Tsai Kun-lin falleció a la venerable edad de 93 años. La presidenta Tsai Ing-wen le otorgó una mención presidencial póstuma, entregada en representación por el viceministro político de Cultura[^4]. Hasta el día de su muerte, nunca supo la respuesta.
 
-![Monumento de Derechos Humanos de la Isla Verde (Monumento de las Lágrimas), inaugurado personalmente por el presidente Lee Teng-hui el 10 de diciembre de 1999, Día Internacional de los Derechos Humanos, con una inscripción de 28 caracteres escrita por Bo Yang](/article-images/history/nhrm-greenisland-monument-2022.jpg)
+![Monumento de Derechos Humanos de la Isla Verde (Monumento de las Lágrimas), inaugurado personalmente por el presidente Lee Teng-hui el 10 de diciembre de 1999, Día Internacional de los Derechos Humanos, con una inscripción de 28 caracteres escrita por Bo Yang](/article-images/history/nhrm-greenisland-monument-2022.webp)
 _Fotografía de 2022. Photo: S8321414. [CC BY-SA 4.0 vía Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Taiwan_GreenIsland_Human_Rights_Memorial_Monument_2022.jpg)._
 
 El mismo día de la inauguración en la Isla Verde, a menos de un kilómetro del podio, se erguía un «Monumento de Derechos Humanos» concluido el 10 de diciembre de 1999, Día Internacional de los Derechos Humanos, conocido popularmente como el «Monumento de las Lágrimas»[^5]. El cuerpo del monumento es una estructura en espiral; cuando llueve, el agua corre por canaletas a ambos lados y converge en el centro como lágrimas. La inscripción escrita por Bo Yang tiene apenas 28 caracteres:
@@ -72,7 +72,7 @@ El 2 de octubre de 2021, la Comisión de Justicia Transicional anunció la anula
 
 ## El centro de detención junto a la línea de metro de Xindian
 
-![Parque Conmemorativo del Terror Blanco de Jingmei, antiguo centro de detención del Departamento de Justicia Militar del Comando General de Guarnición, donde estuvo la primera sala del gran juicio del incidente de Formosa en 1980](/article-images/history/nhrm-jingmei-park.jpg)
+![Parque Conmemorativo del Terror Blanco de Jingmei, antiguo centro de detención del Departamento de Justicia Militar del Comando General de Guarnición, donde estuvo la primera sala del gran juicio del incidente de Formosa en 1980](/article-images/history/nhrm-jingmei-park.webp)
 _Parque Cultural de Derechos Humanos de Jingmei. Photo: Zhang Yongtai. [Dominio público (Voice of America) vía Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E6%99%AF%E7%BE%8E%E4%BA%BA%E6%AC%8A%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80.jpg)._
 
 N.º 131, Fuxing Road, distrito de Xindian, Nuevo Taipéi. A 10 minutos a pie de la estación Shisizhang del metro, línea circular[^8].

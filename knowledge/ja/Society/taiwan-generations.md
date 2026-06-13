@@ -57,7 +57,7 @@ If there is really a wall between generations, that wall is built from childhood
 
 The childhoods of Fifth and Sixth Graders were in corner stores (Kanzaden). Datong Babo, listed in 1969, was given as a gift for buying 10,000 yuan worth of appliances; that red-clad doll placed in the living room was a proof of status for a family climbing from laborers to the middle class[^7]; Yakult set up a factory in Taiwan in 1964, costing two yuan per bottle, delivered door-to-door by "Yakult Moms" carrying cooling boxes[^8]; the way home from school featured Wangzi Noodles, Kexue Noodles, Wangzai Biao, and marbles. Turning on the TV, Huang Junxiong's puppet show _Cloud State Grand Confucian Hero_ aired on TTV in 1970, with Shi Yanwen fighting for 583 episodes, achieving a 97% viewership rate, so popular that it was banned in 1974 on the grounds of "hindering farmers' work schedules"[^9].
 
-![Five plastic small bottles of Yakult lined up, the red and white packaged Yakult is a common lactic acid beverage in Taiwanese family refrigerators](/article-images/society/yakult-bottles.jpg)
+![Five plastic small bottles of Yakult lined up, the red and white packaged Yakult is a common lactic acid beverage in Taiwanese family refrigerators](/article-images/society/yakult-bottles.webp)
 _Five-pack Yakult, a signature drink in Fifth and Sixth Grade corner stores and grocery stores. Photo: kxz Chen, CC BY-SA 2.0 via Wikimedia Commons._
 
 ```tw-versus
@@ -70,7 +70,7 @@ A whole street watching the same show | One person swiping a video only fed to t
 
 Seventh Graders' youth changed the interface. Pagers (BB Call) peaked in 1999, with over four million households in Taiwan[^10]; couples used numbers to convey affection, with 520 and 1314 flashing on small screens; after going online, the "ding-dong" sound of Kimoji Instant Messenger, the "deng-deng-deng" of MSN online, and WuMing XiaoZhan's blogs and photo albums formed a complete set of codes only they were familiar with[^4]. In 1997, the Tamagotchi arrived in Taiwan, sold out in Kaohsiung department stores with one resold for 1,500 yuan; students focused on feeding their electronic pets in class, and even the Minister of Education at the time joked that perhaps schools could set up a "chicken farm" to raise them together[^11].
 
-![A 1990s blue digital pager, a small screen with a metal casing displaying numbers, a portable communication device of the BB Call era](/article-images/society/bb-call-pager.jpg)
+![A 1990s blue digital pager, a small screen with a metal casing displaying numbers, a portable communication device of the BB Call era](/article-images/society/bb-call-pager.webp)
 _Digital pagers (BB Call) from the 1990s, a communication tool for Seventh Graders to send "520" and "1314". Photo: Solomon203, CC BY-SA 3.0 via Wikimedia Commons._
 
 By Eighth Grade, the stage was PTT and Facebook. In 2009, Happy Farm had everyone asking, "Did you steal vegetables today?" Ninth Graders are entirely immersed in algorithms: IG, TikTok, Xiaohongshu, Dcard. What changed is not just the platform, but the viewing method itself: for the Fifth Grade generation, a whole street watched the same _Cloud State Grand Confucian Hero_ at night; for the Ninth Grade generation, one person swipes a short video fed only to them by an algorithm.
@@ -104,7 +104,7 @@ First, look at salaries. Research from the Academia Sinica indicates that before
 
 Next, look at housing. This is where the escalator truly steepens. The national mortgage burden rate rose from 21.7% in 2005 to 46.62% in 2024, meaning a family must spend nearly half its income on mortgage payments[^3]. The housing price-to-income ratio is more direct: nationally it rose from 8.2 times in 2014 to 9.89 times in the first quarter of 2025, while Taipei skyrocketed from 6.4 times in 2004 to 15.41 times in the first quarter of 2025, higher than London or New York[^3]. Translated into plain language: in Taipei, a family must not eat or drink for fifteen years to afford one house.
 
-![Residential building clusters in Tamsui, New Taipei City, dense apartment buildings tightly arranged, presenting a typical mid-to-high-rise collective housing landscape of Taiwanese urbanization](/article-images/society/taipei-housing-density.jpg)
+![Residential building clusters in Tamsui, New Taipei City, dense apartment buildings tightly arranged, presenting a typical mid-to-high-rise collective housing landscape of Taiwanese urbanization](/article-images/society/taipei-housing-density.webp)
 _Dense apartment clusters in Tamsui, New Taipei, a typical face of Taiwanese urbanized housing. Photo: HC Lin, CC BY 2.0 via Wikimedia Commons._
 
 ```tw-line
@@ -144,7 +144,7 @@ The National Chengchi University Election Research Center has long tracked Taiwa
 
 This identity curve is often simplified into "Natural Independence Generation is inherently independent." But the academic view is more cautious. Multiple researchers point out that the dominant factor here is what scholars call the "period effect," meaning that common experiences of "events" such as democratization and the 2014 Sunflower Movement reshaped the identities of various generations. The answer is chiseled by the era, never in anyone's genes. Scholar Shen Wei-chieh, who studies Natural Independence, stated clearly in her master's thesis: "Natural Independence is not natural, but formed post-natally; Natural Independence is also not traditional nationalist Taiwan independence, but rather anti-China"[^22].
 
-![A crowd filling Kweilin Street in Taipei for the anti-ECFA march on March 30, 2014, the Sunflower Movement called the peak of the "Natural Independence Generation" going to the streets. Photo: tenz1225, CC BY-SA 2.0 via Wikimedia Commons.](/article-images/society/sunflower-movement-2014.jpg)
+![A crowd filling Kweilin Street in Taipei for the anti-ECFA march on March 30, 2014, the Sunflower Movement called the peak of the "Natural Independence Generation" going to the streets. Photo: tenz1225, CC BY-SA 2.0 via Wikimedia Commons.](/article-images/society/sunflower-movement-2014.webp)
 _March 30, 2014, the anti-ECFA march filled Kweilin Street in Taipei, the Sunflower Movement called the peak of the "Natural Independence Generation" going to the streets. Photo: tenz1225, CC BY-SA 2.0 via Wikimedia Commons._
 
 By Ninth Grade, things present an interesting tension. This generation grew up sliding on Douyin and scrolling Xiaohongshu, using simplified characters, chasing mainland variety shows and internet slang, culturally closer to the mainland than ever before; but politically, they are native to a democratic system and the most intuitively repulsed by "being unified." Taiwan Democracy Lab's 2025 observation points out that junior high school students' TikTok usage rate reached 57.87% and high school students 50.73%[^23], but cultural proximity has not automatically translated into political shift.

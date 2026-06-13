@@ -84,7 +84,7 @@ En 2001, « Tonight, Take Good Care » est son premier album publié avec une vr
 
 Pour comprendre la place de Chou Hui dans l’histoire de la musique taïwanaise, il faut d’abord comprendre la généalogie de « Promesse ».
 
-![Version cantonaise de « Promesse », incluse dans l’EP « Toy » de Faye Wong en 1997, paroles de Lin Xi, composition de Chen Xiao-xia, lauréate du prix de recommandation professionnelle de la chanson de Commercial Radio Hong Kong Ultimate 903](/article-images/music/wang-fei-yueding-1997.jpg)
+![Version cantonaise de « Promesse », incluse dans l’EP « Toy » de Faye Wong en 1997, paroles de Lin Xi, composition de Chen Xiao-xia, lauréate du prix de recommandation professionnelle de la chanson de Commercial Radio Hong Kong Ultimate 903](/article-images/music/wang-fei-yueding-1997.webp)
 _Version cantonaise de « Promesse » dans l’EP « Toy » de Faye Wong, 1997 ; paroles de Lin Xi, composition de Chen Xiao-xia. Fair use editorial commentary on the original work. [Source via YouTube](https://www.youtube.com/watch?v=gjC00DJPeLs)._
 
 La version originale est celle de Faye Wong. En 1997, elle inclut dans son EP « Toy » une chanson intitulée « Promesse », en cantonais, avec des paroles de Lin Xi et une composition de Chen Xiao-xia[^12]. Cette version remporte à Hong Kong le prix de recommandation professionnelle de la chanson de Commercial Radio Ultimate 903 ; Lin Xi obtient pour ces paroles le prix des meilleures paroles de pop chinoise à la 20e cérémonie des Top Ten Chinese Gold Songs. C’est déjà une grande chanson dans l’espace cantonophone.
@@ -298,7 +298,7 @@ Samedi soir 25 avril 2026, Taipei Arena.
 
 C’est le premier concert de Chou Hui au Taipei Arena après 27 ans de carrière[^5]. Le concert s’intitule « Je veux vraiment bien aimer Chou Hui » ; la scénographie est confiée à Li Shih-chi, designer régulier des Golden Melody Awards et des Golden Horse Awards, et adopte un concept de kaléidoscope. Le concert dure trois heures et compte 25 chansons[^34]. Après l’ouverture des ventes le 22 janvier à midi, les billets partent rapidement et une date supplémentaire est ajoutée.
 
-![Le 25 avril 2026, Chou Hui sur scène au Taipei Arena lors du concert « Je veux vraiment bien aimer Chou Hui », sa première entrée dans cette salle après 27 ans de carrière](/article-images/music/zhou-hui-xiaojudan-2026.jpg)
+![Le 25 avril 2026, Chou Hui sur scène au Taipei Arena lors du concert « Je veux vraiment bien aimer Chou Hui », sa première entrée dans cette salle après 27 ans de carrière](/article-images/music/zhou-hui-xiaojudan-2026.webp)
 _2026-04-25, concert « Je veux vraiment bien aimer Chou Hui » au Taipei Arena. Fair use editorial commentary. [Source via TVBS YouTube](https://www.youtube.com/watch?v=DXW6TkALWSE)._
 
 Pendant les neuf premières chansons, Chou Hui parle à peine. Elle monte et descend sur les plateformes, se déplace, accompagne les mécanismes de scène et chante sans interruption. Après la neuvième chanson, elle dit enfin au public :

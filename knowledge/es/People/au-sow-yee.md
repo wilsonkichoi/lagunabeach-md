@@ -43,7 +43,7 @@ La autodescripción de la biblioteca habla de una “**living coordinate**”, u
 
 Esa frase no describe solo una biblioteca. También describe a Au Sow Yee.
 
-![Still de la obra de Au Sow Yee A Day Without Sun in Mengkerang (Chapter One) (2013). La imagen muestra un proyecto de medición audiovisual de escenas cotidianas de la península malaya](/article-images/people/au-sow-yee-mengkerang-still-2013.jpg)
+![Still de la obra de Au Sow Yee A Day Without Sun in Mengkerang (Chapter One) (2013). La imagen muestra un proyecto de medición audiovisual de escenas cotidianas de la península malaya](/article-images/people/au-sow-yee-mengkerang-still-2013.webp)
 _Still de la obra de Au Sow Yee A Day Without Sun in Mengkerang (Chapter One) (2013). Comentario editorial de uso razonable sobre la obra de Au Sow Yee. Fuente: [portafolio oficial de la artista](https://ausowyee.cargo.site/)._
 
 ## Por qué una malasia de origen chino haría esto en Taiwán
@@ -97,7 +97,7 @@ Sharon Chin también señaló que el acierto de Pak Tai Foto es que **no “da v
 
 Esta es una de las metodologías más importantes de Au Sow Yee: **oponerse a la postura curatorial de “dar voz a alguien”**.
 
-![Still de la obra de Au Sow Yee Pak Tai Foto (2015). La imagen muestra el interior de una antigua tienda fotográfica de Petaling Street, Kuala Lumpur, a punto de ser demolida](/article-images/people/au-sow-yee-pak-tai-foto-still-2015.jpg)
+![Still de la obra de Au Sow Yee Pak Tai Foto (2015). La imagen muestra el interior de una antigua tienda fotográfica de Petaling Street, Kuala Lumpur, a punto de ser demolida](/article-images/people/au-sow-yee-pak-tai-foto-still-2015.webp)
 _Still de la obra de Au Sow Yee Pak Tai Foto (2015). La antigua tienda de Petaling Street estaba por ser demolida por las obras del metro, y las voces de los migrantes resonaban en el local vacío. Comentario editorial de uso razonable sobre la obra de Au Sow Yee. Fuente: [portafolio oficial de la artista](https://ausowyee.cargo.site/)._
 
 ## La “ausencia” es precisamente la posición creativa

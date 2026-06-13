@@ -23,7 +23,7 @@ featured: true
 lastVerified: 2026-06-12
 lastHumanReview: false
 researchReport: reports/research/2026-06/justfont與台灣字體發展.md
-image: '/article-images/technology/justfont-jinxuan-flyingv-cover-2015.jpg'
+image: '/article-images/technology/justfont-jinxuan-flyingv-cover-2015.webp'
 imageCredit: 'justfont / flyingV'
 imageLicense: 'Fair use editorial commentary'
 imageSource: 'https://www.flyingv.cc/projects/8250'
@@ -50,7 +50,7 @@ Hacer tipografías en Taiwán siempre fue así: en rótulos, en libros de texto,
 
 ## Un disco en el Guanghua Market
 
-![Panel LED de una línea de autobús en Taipéi que muestra el número de ruta y el destino en caracteres Ming, un paisaje cotidiano en las calles de la ciudad taiwanesa](/article-images/technology/taipei-bus-311-mingliu-led-sign-2022.jpg)
+![Panel LED de una línea de autobús en Taipéi que muestra el número de ruta y el destino en caracteres Ming, un paisaje cotidiano en las calles de la ciudad taiwanesa](/article-images/technology/taipei-bus-311-mingliu-led-sign-2022.webp)
 
 _Indicador de línea de autobús en Taipéi. Los caracteres Ming han ocupado documentos oficiales, señales y transporte público taiwaneses durante décadas: un paisaje que todos leen a diario pero que muy pocos notan. Foto: BlubiNeko, 2022. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)._
 
@@ -65,7 +65,7 @@ La ruta de salida puede contarse con dos empresas. Arphic, tras orientarse a los
 
 ## Trece mil cincuenta y tres hoyos
 
-![Tipos de plomo en la fundición Rixing Type Foundry, con matrices de cobre y caracteres de plomo apiñados estante tras estante, cada carácter chino corresponde a una pieza física](/article-images/technology/rixing-type-foundry-lead-type-2023.jpg)
+![Tipos de plomo en la fundición Rixing Type Foundry, con matrices de cobre y caracteres de plomo apiñados estante tras estante, cada carácter chino corresponde a una pieza física](/article-images/technology/rixing-type-foundry-lead-type-2023.webp)
 
 _Tipos de plomo en la fundición Rixing. Antes de la tipografía digital, cada carácter chino era un troquel de plomo; el soporte cambió varias veces, pero la escala de más de trece mil caracteres nunca varió. Foto: Johan Jönsson, 2023. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)._
 
@@ -116,7 +116,7 @@ El nombre en sí es otra historia taiwanesa. Jinxuan es originalmente el nombre 
 
 Ese nombre estuvo a punto de no existir. Años después, Lin Xia recordó en ese mismo episodio del podcast que Jinxuan casi se llamó «Tiezhi» (Vara de Hierro) o «Matteo Ricci»[^48]. Una vez que se decidió el nombre, la identidad taiwanesa se llevó hasta el final: «Precisamente porque Jinxuan es un té auténticamente taiwanés, al dar nombre a las distintas variantes del archivo de tipografías también quisimos fundirlas, y hasta rendir homenaje, a la cultura de las tiendas de bebidas de Taiwán»[^21]. Los nombres de los pesos fueron tomados directamente del mostrador de las bubble tea: dos décimas de azúcar, poco azúcar, cuatro décimas, medio azúcar, ocho décimas[^21].
 
-![Muestra oficial de la tipografía Jinxuan, con términos de bubble tea como «leche con perlas» y «poco azúcar sin hielo» intercalados entre ilustraciones de hojas de té, mostrando la personalidad de la fuente de temática taiwanesa](/article-images/technology/justfont-jinxuan-specimen-2015.png)
+![Muestra oficial de la tipografía Jinxuan, con términos de bubble tea como «leche con perlas» y «poco azúcar sin hielo» intercalados entre ilustraciones de hojas de té, mostrando la personalidad de la fuente de temática taiwanesa](/article-images/technology/justfont-jinxuan-specimen-2015.webp)
 
 _La muestra oficial del comunicado de presentación de Jinxuan, con términos de bubble tea como ejemplos tipográficos. Imagen: © justfont, material facilitado por justfont, fair use editorial commentary (cesión de colaboración). [Fuente](https://blog.justfont.com/2015/08/introducing-jinshuan/)._
 
@@ -166,7 +166,7 @@ Las zonas grises del derecho de autor tienen un capítulo anterior en Taiwán. E
 
 ## Las perlas que se enviaron al mundo
 
-![Banner visual oficial de la tipografía jf open Huninn (粉圓), mostrando el nombre y muestras tipográficas en el estilo redondeado de la fuente](/article-images/technology/justfont-open-huninn-banner-2019.png)
+![Banner visual oficial de la tipografía jf open Huninn (粉圓), mostrando el nombre y muestras tipográficas en el estilo redondeado de la fuente](/article-images/technology/justfont-open-huninn-banner-2019.webp)
 
 _Visual oficial de jf open Huninn. Esta tipografía redonda de código abierto se derivó de la japonesa Kosugi Maru, a la que se añadieron el bopomofo y los caracteres de uso común en Taiwán, y se publicó bajo licencia OFL. Imagen: GitHub oficial de justfont. [Fuente](https://github.com/justfont/open-huninn-font)._
 
@@ -179,7 +179,7 @@ La línea de código abierto siguió creciendo. Ko Zhijie (conocido en línea co
 
 ## La lluvia rescatada de las planchas de imprenta
 
-![Imagen oficial comparativa de Lan Yang Ming Ti y los caracteres grabados en las planchas de madera de «Jianyuji», con ambas versiones del mismo conjunto de caracteres mostrando la plancha original y el esqueleto Ming tras la transposición digital](/article-images/technology/justfont-lanyangmingti-jianyuji-comparison-2021.png)
+![Imagen oficial comparativa de Lan Yang Ming Ti y los caracteres grabados en las planchas de madera de «Jianyuji», con ambas versiones del mismo conjunto de caracteres mostrando la plancha original y el esqueleto Ming tras la transposición digital](/article-images/technology/justfont-lanyangmingti-jianyuji-comparison-2021.webp)
 
 _Comparación oficial de Lan Yang Ming Ti con los caracteres de las planchas de «Jianyuji». El ductus del kaishi grabado en las planchas fue transpuesto al esqueleto de los tipos Ming modernos. Imagen: © justfont, material facilitado por justfont, fair use editorial commentary (cesión de colaboración). [Fuente](https://justfont.com/lanyangming/)._
 
@@ -211,7 +211,7 @@ Entre Jinxuan y Lan Yang Ming Ti, justfont encontró un tercer camino: hacer nac
 
 Mientras la lista seguía creciendo, también empezaron a fijarse en las calles. Las calles de Taiwán son desde siempre una exposición de tipografías sin entrada de pago: Wang Shuihe, el rótulista de Taichung, entró en el oficio a los catorce años y en su vida formó a más de cuatrocientos aprendices; el rótulo de Miyahara en Taichung lleva la «Wang Shuihe Yuan Ti» de su propia mano —estructura rectangular, centro de gravedad alto—, que al ponerla al lado de las tipografías redondas modernas delata su época con una mirada[^53]. La diseñadora de justfont Shen Cairou quería capturar esa «calidez humana» en el ordenador; recorrió rótulos de calles antiguas, títulos de libros viejos y tablillas de honores en templos para recopilar ejemplos, y luego siguió las reglas de los maestros artesanos: sin boceto previo, solo marcando las guías en el papel y entintando a pulso directo[^54][^55]. El resultado se llama Kamabit —una variedad de tomate en taiwanés—, y salió a principios de 2025[^55].
 
-![Muestra oficial de la tipografía Kamabit con la paleta retro de fondo verde y letras rojas, con trazos gruesos heredados de los rótulos pintados a mano del Taiwán de antaño](/article-images/technology/justfont-kamabit-specimen-2023.jpg)
+![Muestra oficial de la tipografía Kamabit con la paleta retro de fondo verde y letras rojas, con trazos gruesos heredados de los rótulos pintados a mano del Taiwán de antaño](/article-images/technology/justfont-kamabit-specimen-2023.webp)
 
 _Visual principal oficial de Kamabit, en homenaje a los rótulos pintados a mano en los letreros. Imagen: © justfont, material facilitado por justfont, fair use editorial commentary (cesión de colaboración). [Fuente](https://justfont.com/kamabit/)._
 
@@ -228,7 +228,7 @@ El eslabón más antiguo de este relevo está en la calle Taiyuan del distrito D
 
 Zhang Jiekuan, el responsable de segunda generación, empezó en el oficio con su padre a los diecisiete años[^57]. En la época de mayor actividad las siete máquinas del taller funcionaban a pleno rendimiento: «¡Los maestros se quedaban en ropa interior y seguían sudando a mares!»[^57] Cuando la industria de la imprenta cambió de era, el trabajo que custodiaba añadió una tarea: las matrices de cobre se desgastan con el uso, los tipos fundidos salen con ángulos rotos o trazos cortados, y hay que repararlos uno a uno. Décadas de reparaciones; él lo describe como una disciplina espiritual: «Cada persona interpreta los caracteres de manera distinta; reparar tipos no es como diseñar tipografías, hay que eliminar el "yo"; en realidad es muy difícil»[^57].
 
-![Zhang Jiekuan sentado ante una pantalla reparando glifos digitalizados de tipos de plomo, con tablas de muestras tipográficas cubriendo densamente la pared detrás de él](/article-images/technology/rixing-chang-chieh-kuan-repairing-type-2025.jpg)
+![Zhang Jiekuan sentado ante una pantalla reparando glifos digitalizados de tipos de plomo, con tablas de muestras tipográficas cubriendo densamente la pared detrás de él](/article-images/technology/rixing-chang-chieh-kuan-repairing-type-2025.webp)
 
 _Zhang Jiekuan reparando glifos digitalizados ante una pantalla. El arte de reparar tipos de la era del plomo continúa ahora sobre curvas vectoriales. Foto: © justfont, material facilitado por justfont, fair use editorial commentary (cesión de colaboración). [Fuente](https://blog.justfont.com/2025/06/rixing-song2-revivals/)._
 

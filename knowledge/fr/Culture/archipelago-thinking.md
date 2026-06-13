@@ -223,9 +223,9 @@ La prochaine fois que quelqu’un vous demandera « à quel lieu Taïwan apparti
 - [Histoire du commerce maritime de Taïwan](/history/台灣海洋貿易史) — Du jade de Beinan à l’âge des grandes navigations, les connexions maritimes de Taïwan
 - [Carte culturelle des 16 peuples autochtones de Taïwan](/culture/台灣原住民族16族文化地圖) — Les systèmes linguistiques des 16 peuples et leur correspondance avec les neuf grandes branches austronésiennes de Taïwan
 
-![Le pilier de pierre en forme de lune du parc du site de Beinan est un vestige emblématique de la culture de Beinan, datée de 5300 à 2300 ans avant le présent. Plus de 5000 objets en jade ont été exhumés du site de Beinan ; certains ont ensuite été retrouvés par les archéologues dans des sites préhistoriques des Philippines, du Vietnam et de Thaïlande.](/article-images/culture/beinan-stone-pillar.jpg)
+![Le pilier de pierre en forme de lune du parc du site de Beinan est un vestige emblématique de la culture de Beinan, datée de 5300 à 2300 ans avant le présent. Plus de 5000 objets en jade ont été exhumés du site de Beinan ; certains ont ensuite été retrouvés par les archéologues dans des sites préhistoriques des Philippines, du Vietnam et de Thaïlande.](/article-images/culture/beinan-stone-pillar.webp)
 
-![Fragment de poterie Lapita à décor dentelé imprimé, exhumé sur le site de Bourewa aux Fidji. La technique décorative des poteries Lapita remonte au nord de Luçon, dont les racines pointent à leur tour vers les poteries rouges à décor cordé de la culture de Dapenkeng à Taïwan : l’une des chaînes matérielles les plus complètes de la théorie de la « sortie de Taïwan » des langues austronésiennes.](/article-images/culture/lapita-potsherd.jpg)
+![Fragment de poterie Lapita à décor dentelé imprimé, exhumé sur le site de Bourewa aux Fidji. La technique décorative des poteries Lapita remonte au nord de Luçon, dont les racines pointent à leur tour vers les poteries rouges à décor cordé de la culture de Dapenkeng à Taïwan : l’une des chaînes matérielles les plus complètes de la théorie de la « sortie de Taïwan » des langues austronésiennes.](/article-images/culture/lapita-potsherd.webp)
 
 ## Références
 

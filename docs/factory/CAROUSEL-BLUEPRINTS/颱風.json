@@ -2,7 +2,7 @@
   "slug": "颱風",
   "category": "nature",
   "url": "taiwan.md/nature/颱風",
-  "heroImage": "public/article-images/nature/morakot-modis-satellite-2009.jpg",
+  "heroImage": "public/article-images/nature/morakot-modis-satellite-2009.webp",
   "_note": "SPORE-IG-PIPELINE v0.4 — accent2 分類色拿掉（哲宇 directive 2026-06-03），全 deck 統一 TWMD 識別色。事實 100% 繼承 knowledge/Nature/颱風.md。",
   "slides": [
     {
@@ -33,7 +33,7 @@
     {
       "type": "figure",
       "pull": "2009 莫拉克",
-      "image": "public/article-images/nature/morakot-minxiong-flood-2009.jpg",
+      "image": "public/article-images/nature/morakot-minxiong-flood-2009.webp",
       "caption": "嘉義民雄一處村落在連日豪雨後淹水。Photo: zilupe, CC BY 2.0",
       "body": "莫拉克在阿里山倒下 3,000 毫米雨，是史上最強颱賀伯的 1.5 倍 — 相當於台北全年降雨量在三天內傾倒。中研院後來算出：其中 6.5%，是氣候變遷把雨量放大的結果。"
     },

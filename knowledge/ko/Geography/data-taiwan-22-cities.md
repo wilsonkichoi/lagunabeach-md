@@ -77,7 +77,7 @@ translatedAt: '2026-06-07T00:37:31+08:00'
 
 이 격자 그래프를 오래 들여다보면 한 가지 질문이 떠오른다: 토지의 70%에 흩어져 사는 인구 30%는 어떤 삶을 살고 있는가? 답은 밀도 속에 숨어 있다.
 
-![타이베이시 신이구와 난강 일대의 고층 빌딩 스카이라인, 밀집한 주거와 상업 시설이 층층이 쌓여 있다](/article-images/society/taipei-skyline-housing-2026.jpg)
+![타이베이시 신이구와 난강 일대의 고층 빌딩 스카이라인, 밀집한 주거와 상업 시설이 층층이 쌓여 있다](/article-images/society/taipei-skyline-housing-2026.webp)
 _타이베이시의 스카이라인. 전국에서 가장 붐비는 시현, 제곱킬로미터당 8,975명이 밀집해 있다. Photo: Heeheemalu, CC BY-SA 4.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:20260204_Taipei,_Taiwan_Skyline.jpg)._
 
 ## 가장 붐비는 곳에서 가장 한적한 곳까지, 151배 차이

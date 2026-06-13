@@ -43,7 +43,7 @@ La jugada de Mswati fue directa: envió a su viceprimera ministra Thulisile Dlad
 
 "El rey presta un avión al presidente de Taiwán para romper el bloqueo chino" fue la esencia misma de esta visita. The Wall Street Journal la calificó como "surprise visit" (golpe de efecto), y Al Jazeera tituló "despite China's attempts to block trip" (a pesar de los intentos de China por bloquear el viaje)[^6]. La Agencia Central de Noticias (CNA) también documentó en su canal oficial el [proceso de llegada en el avión privado a Eswatini](https://www.youtube.com/watch?v=YrbOMarnkX8).
 
-![El presidente Lai Ching-te llega al aeropuerto de Mbabane, Eswatini, el 2 de mayo de 2026, recibiendo honores militares mientras la guardia de honor del país forma filas](/article-images/society/taiwan-eswatini-military-honor-2026.jpg)
+![El presidente Lai Ching-te llega al aeropuerto de Mbabane, Eswatini, el 2 de mayo de 2026, recibiendo honores militares mientras la guardia de honor del país forma filas](/article-images/society/taiwan-eswatini-military-honor-2026.webp)
 _2 de mayo de 2026: Lai Ching-te recibe honores militares en el aeropuerto de Mbabane, Eswatini. Foto: Oficina Presidencial de la República de China. [OGDL vía comunicado oficial de la Oficina Presidencial](https://english.president.gov.tw/News/7121)._
 
 La escena de llegada era sencilla pero cargada de significado: el primer ministro Russell Dlamini, la ministra de Relaciones Exteriores e Internacional Pholile Shakantu, el embajador taiwanés en Eswatini Jeremy H.S. Liang, y el oficial de protocolo eswatini Khandlela Mdluli recibieron personalmente al presidente. Lai Ching-te recibió los honores militares y saludó uno por uno al personal de la embajada y a las familias del equipo técnico taiwanés[^7]. El canal oficial de CNA documentó [la llegada de Lai Ching-te al Reino de Eswatini para realizar una visita de Estado](https://www.youtube.com/watch?v=TuZ8i6KV7Ys).
@@ -114,7 +114,7 @@ También gracias a esta acumulación de asistencia multilateral a largo plazo �
 
 En la mañana del 3 de mayo, Lai Ching-te sostuvo conversaciones bilaterales con Mswati III en el Mandvulo Grand Hall del Palacio Real de Lozitha[^7].
 
-![El presidente Lai Ching-te y el rey Mswati III de Eswatini en conversaciones bilaterales en el Mandvulo Grand Hall](/article-images/society/taiwan-eswatini-mandvulo-summit-2026.jpg)
+![El presidente Lai Ching-te y el rey Mswati III de Eswatini en conversaciones bilaterales en el Mandvulo Grand Hall](/article-images/society/taiwan-eswatini-mandvulo-summit-2026.webp)
 _3 de mayo de 2026: conversaciones bilaterales entre Lai Ching-te y Mswati III en el Mandvulo Grand Hall del Palacio Real de Lozitha. Foto: Oficina Presidencial de la República de China. [OGDL vía comunicado oficial de la Oficina Presidencial](https://english.president.gov.tw/News/7122)._
 
 La ceremonia incluyó los himnos nacionales de ambos países, revista de la guardia de honor de Eswatini, salva de cañones y danza tradicional. Tras la reunión, se firmaron dos documentos importantes:
@@ -122,7 +122,7 @@ La ceremonia incluyó los himnos nacionales de ambos países, revista de la guar
 1. **Comunicado conjunto**: reafirmando la "profunda amistad, confianza mutua y valores compartidos"
 2. **Acuerdo de asistencia mutua aduanera**: firmado por el ministro de Relaciones Exteriores taiwanés Lin Chia-lung y la ministra de Relaciones Exteriores eswatini Pholile Shakantu[^7]
 
-![El presidente Lai Ching-te y el rey Mswati III presencian la firma del Acuerdo de asistencia mutua aduanera](/article-images/society/taiwan-eswatini-joint-communique-2026.jpg)
+![El presidente Lai Ching-te y el rey Mswati III presencian la firma del Acuerdo de asistencia mutua aduanera](/article-images/society/taiwan-eswatini-joint-communique-2026.webp)
 _3 de mayo de 2026: ambas partes firman el Acuerdo de asistencia mutua aduanera y el comunicado conjunto en el Mandvulo Grand Hall. Foto: Oficina Presidencial de la República de China. [OGDL vía comunicado oficial de la Oficina Presidencial](https://english.president.gov.tw/News/7122)._
 
 El canal oficial de CNA documentó íntegramente [la firma del comunicado conjunto entre Taiwán y Eswatini para profundizar la cooperación](https://www.youtube.com/watch?v=kdRZ5v61Vjo).

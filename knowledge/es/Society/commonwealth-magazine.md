@@ -62,7 +62,7 @@ Muchas personas creen que CommonWealth Magazine y CommonWealth Publishing Group 
 
 ## Cuatro personas, cinco años, dos caminos
 
-![Kao Hsi-chun pronuncia un discurso ante un podio, vestido con traje oscuro, con una presentación de libros al fondo](/article-images/society/kao-hsi-chun-2023.jpg)
+![Kao Hsi-chun pronuncia un discurso ante un podio, vestido con traje oscuro, con una presentación de libros al fondo](/article-images/society/kao-hsi-chun-2023.webp)
 _Kao Hsi-chun, presidente del grupo Global Views-CommonWealth Publishing. Bajo la idea de que «los intelectuales sirven al país», convocó al equipo que fundó CommonWealth; tras la separación de 1986, fundó Global Views Monthly y CommonWealth Publishing. Foto: Oficina Presidencial de la República de China (Taiwán), 2023. [CC BY 2.0 vía Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Charles_Kao_2023-02-09.jpg)._
 
 En 1986, cuando se cumplían cinco años de la fundación, el equipo fundador de CommonWealth se separó.
@@ -78,7 +78,7 @@ Sobre cuántas personas fueron realmente fundadoras, las dos partes tienen versi
 
 ## Quiénes son las 2.000 principales: cómo una revista define el «éxito»
 
-![Foro Económico CommonWealth en el salón de banquetes del Grand Hyatt Taipei: hay ponentes en el escenario y un público lleno de representantes del sector productivo, el gobierno y la academia](/article-images/society/cwef-economic-forum-2023.jpg)
+![Foro Económico CommonWealth en el salón de banquetes del Grand Hyatt Taipei: hay ponentes en el escenario y un público lleno de representantes del sector productivo, el gobierno y la academia](/article-images/society/cwef-economic-forum-2023.webp)
 _Foro Económico CommonWealth (CWEF), edición de invierno de 2023, en el Grand Hyatt Taipei. Cada año, CommonWealth reúne en una misma sala a empresas, gobierno y academia. La revista que los cubre es también quien los convoca; esa capacidad de convocatoria es otra cara de su cercanía al poder. Foto: Chien Chih-hung / Oficina Presidencial de la República de China (Taiwán). [CC BY 2.0 vía Wikimedia Commons](https://commons.wikimedia.org/wiki/File:At_the_CommonWealth_Economic_Forum_at_Grand_Hyatt_Taipei_2023-01-09.jpg)._
 
 Si la historia terminara aquí, CommonWealth sería apenas una revista económico-financiera bien hecha. Lo que la convirtió en otra clase de actor fueron los rankings.

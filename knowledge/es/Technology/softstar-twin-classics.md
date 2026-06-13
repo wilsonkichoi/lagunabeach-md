@@ -33,7 +33,7 @@ translatedAt: '2026-05-29T00:35:00+08:00'
 
 ## Los adolescentes de Guang Hua Computer Market
 
-![Guang Hua Computer Market en los años 90 era el corazón de la industria informática de Taiwán; tiendas de software, puestos de componentes y librerías de manuales técnicos se apiñaban en el subsuelo. Los creadores de juegos venían aquí a buscar información técnica](/article-images/technology/guanghua-computer-market-2007.jpg)
+![Guang Hua Computer Market en los años 90 era el corazón de la industria informática de Taiwán; tiendas de software, puestos de componentes y librerías de manuales técnicos se apiñaban en el subsuelo. Los creadores de juegos venían aquí a buscar información técnica](/article-images/technology/guanghua-computer-market-2007.webp)
 _Guang Hua Computer Market, Taipéi, fotografiado en 2007. El corazón de la industria informática taiwanesa en los años 90. Foto: pacificmorningpost vía Flickr. [CC BY 2.0 vía Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2007-10-15_Guanhua_Computer_Market_Shop.jpg)._
 
 En octubre de 1990, Taipéi. Un juego llamado _Xuan Yuan Jian_ apareció en los estantes de las tiendas de software.
@@ -50,7 +50,7 @@ Los gráficos de _Xuan Yuan Jian_ eran toscos, la interfaz era torpe, pero fue e
 
 ## El que convirtió un amor no correspondido en un final
 
-![Portada de la página de Steam de Xian Jian Qi Zhuan, distribuida por SOFTSTAR ENTERTAINMENT bajo licencia de Softstar. La remasterización de 2021 en Steam mantiene la dirección artística original de 1995 y los personajes de Li Xiaoyao y Zhao Linger](/article-images/technology/softstar-sword-and-fairy.jpg)
+![Portada de la página de Steam de Xian Jian Qi Zhuan, distribuida por SOFTSTAR ENTERTAINMENT bajo licencia de Softstar. La remasterización de 2021 en Steam mantiene la dirección artística original de 1995 y los personajes de Li Xiaoyao y Zhao Linger](/article-images/technology/softstar-sword-and-fairy.webp)
 _Portada de la página de Steam de Xian Jian Qi Zhuan, distribuida por SOFTSTAR bajo licencia propia. Foto: imagen oficial de la tienda Steam de SOFTSTAR ENTERTAINMENT, citada como comentario editorial retrospectivo de 30 años de historia de la IP (fair use editorial commentary)._
 
 Cinco años después, la segunda espada fue desenvainada.
@@ -72,7 +72,7 @@ Las ventas del primer día agotaron las diez mil copias. Las ventas acumuladas d
 
 ## Dos espadas, dos caminos
 
-![Portada de la página de Steam de Xuan Yuan Jian VII, lanzado en 2020 por el Grupo DOMO de Softstar. Fue considerado el primer título AAA con motor de nueva generación del mercado chino, pero su pobre rendimiento comercial fue una de las razones principales por las que Softstar vendió la IP de ambas espadas en 2024](/article-images/technology/softstar-xuan-yuan-sword-7.jpg)
+![Portada de la página de Steam de Xuan Yuan Jian VII, lanzado en 2020 por el Grupo DOMO de Softstar. Fue considerado el primer título AAA con motor de nueva generación del mercado chino, pero su pobre rendimiento comercial fue una de las razones principales por las que Softstar vendió la IP de ambas espadas en 2024](/article-images/technology/softstar-xuan-yuan-sword-7.webp)
 _Portada de Xuan Yuan Jian VII (2000) en Steam, desarrollada por el Grupo DOMO de Softstar. Foto: imagen oficial de la tienda Steam de SOFTSTAR ENTERTAINMENT, fair use editorial commentary sobre 30 años de historia de la IP._
 
 Tanto _Xian Jian_ como _Xuan Yuan Jian_ fueron forjadas en Softstar, pero tomaron caminos muy distintos.

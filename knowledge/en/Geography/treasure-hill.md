@@ -42,7 +42,7 @@ translatedAt: '2026-05-23T05:06:37+08:00'
 
 ## At Five in the Evening, the Hillside Stairways Light Up One by One
 
-![A 2018 aerial photograph of Treasure Hill, taken by the Taipei City Government Department of Cultural Affairs, showing the hillside building cluster in relation to the Xindian River embankment and Fuhe Bridge: a landscape-scale view of this 46-meter-high hill](/article-images/geography/treasure-hill-2018-aerial.jpg)
+![A 2018 aerial photograph of Treasure Hill, taken by the Taipei City Government Department of Cultural Affairs, showing the hillside building cluster in relation to the Xindian River embankment and Fuhe Bridge: a landscape-scale view of this 46-meter-high hill](/article-images/geography/treasure-hill-2018-aerial.webp)
 _An aerial photograph of Treasure Hill in October 2018. Photo: Taipei City Government Department of Cultural Affairs, 2018-10-05. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Treasure_Hill_20181005.jpg) (Attribution)._
 
 Come out of Exit 1 of MRT Gongguan Station, turn right into Lane 90, Section 4, Roosevelt Road, then left onto Tingzhou Road, and walk until you turn right at Lane 230, Section 3. It takes about five to seven minutes[^8]. If it is your first visit, you may walk past it, because the mouth of the lane looks like an ordinary Gongguan alley. There is no sign announcing that you are about to enter a historic settlement. After passing through the noise of Shuiyuan Market and the Gongguan shopping district, then walking another two street corners, a small hill suddenly appears in front of you.
@@ -93,7 +93,7 @@ This was the physical reality facing the 1980 demolition order: an illegal settl
 
 ## From Water-Source Protection Land to the Planned Site of Park No. 297
 
-![The hillside building cluster of Treasure Hill in February 2026; the layered mix of concrete, red brick, and sheet metal following the terrain is material evidence of 1960s and 1970s self-help housing](/article-images/geography/treasure-hill-village-2026.jpg)
+![The hillside building cluster of Treasure Hill in February 2026; the layered mix of concrete, red brick, and sheet metal following the terrain is material evidence of 1960s and 1970s self-help housing](/article-images/geography/treasure-hill-village-2026.webp)
 _The main building cluster of Treasure Hill in February 2026. Photo: 阿道 (User: 阿道), 2026-02-21. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Treasure_Hill_Village_01_20260221.jpg) (CC BY-SA 4.0)._
 
 In July 1980, the Taipei City Government announced that Treasure Hill would be formally reclassified from water-source protection land into the planned site of Urban Planning Park No. 297 in the riverfront zone[^1]. For residents, this announcement was a verdict.
@@ -114,7 +114,7 @@ Treasure Hill avoided Kangle Borough’s fate. The city did not change its mind 
 
 ## The 2003 Napalm Performance Art
 
-![Marco Casagrande’s 2003 “napalm” performance at Treasure Hill, using fire to symbolize a settlement on the verge of demolition](/article-images/geography/treasure-hill-fire-2003.jpg)
+![Marco Casagrande’s 2003 “napalm” performance at Treasure Hill, using fire to symbolize a settlement on the verge of demolition](/article-images/geography/treasure-hill-fire-2003.webp)
 _Marco Casagrande’s “napalm” performance at Treasure Hill in 2003. Photo: Burgeoisnieves, 2003. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Treasure_Hill_fire.jpg) (Public domain)._
 
 The 13 years from 1997 to 2010 were Treasure Hill’s “experimental period.”
@@ -133,7 +133,7 @@ What people remember most was the napalm performance art. Casagrande staged a ri
 
 ## Treasure Hill’s Vegetable Gardens, Stairways, and Half-Demolished Houses
 
-![The vegetable garden opened by Marco Casagrande during the 2003 “Organic Layer / Treasure Hill” practice, transforming demolition ruins into space for ecological urban repair](/article-images/geography/treasure-hill-garden-2003.jpg)
+![The vegetable garden opened by Marco Casagrande during the 2003 “Organic Layer / Treasure Hill” practice, transforming demolition ruins into space for ecological urban repair](/article-images/geography/treasure-hill-garden-2003.webp)
 _The vegetable garden from Marco Casagrande’s “Organic Layer / Treasure Hill” ecological urban repair practice in 2003. Photo: Jan jörg, 2003. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Treasure_Hill_garden.jpg) (Public domain)._
 
 The three years from 2003 to 2006 were Treasure Hill’s most complex.
@@ -170,7 +170,7 @@ On March 21, 2026, “2026 Treasure Hill Light Festival: City of Glimmers” ope
 
 ## The Three Places Locals Will Take You to See
 
-![A 2012 graffiti work by an artist inside Treasure Hill, one of Treasure Hill’s visual grammars after subcultures flowed in during the late 1990s](/article-images/geography/treasure-hill-graffiti-2012.jpg)
+![A 2012 graffiti work by an artist inside Treasure Hill, one of Treasure Hill’s visual grammars after subcultures flowed in during the late 1990s](/article-images/geography/treasure-hill-graffiti-2012.webp)
 _Graffiti in Treasure Hill in October 2012. Photo: Nisa yeh, 2012-10-14. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Graffiti_at_the_Treasure_Hill%2C_Taipei.jpg) (CC BY-SA 2.0)._
 
 Tourists all know Treasure Hill. But locals will take you to see these three places.
@@ -185,7 +185,7 @@ After seeing these three places, you understand Treasure Hill’s true texture. 
 
 ## 1980 vs. 2026, the Same Hill
 
-![People walking in front of Treasure Hill’s ecological garden on the second day of Lunar New Year in 2025, reflecting Treasure Hill’s contemporary role as part of the Gongguan walking route after its 2010 opening](/article-images/geography/treasure-hill-street-2025.jpg)
+![People walking in front of Treasure Hill’s ecological garden on the second day of Lunar New Year in 2025, reflecting Treasure Hill’s contemporary role as part of the Gongguan walking route after its 2010 opening](/article-images/geography/treasure-hill-street-2025.webp)
 _People walking in front of Treasure Hill’s ecological garden on January 30, 2025, the second day of Lunar New Year. Photo: Allervous, 2025-01-30. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Street_in_Taipei_Treasure_Hill.jpg) (CC BY 4.0)._
 
 One afternoon in July 1980, in the office of the Taipei City Government’s Department of Urban Development, several officials stamped “planned site of Park No. 297” on a document. More than 200 households on the hillside had no idea this had happened. They only knew that starting the following year, in 1981, people would come to paste demolition warning notices on their doors.

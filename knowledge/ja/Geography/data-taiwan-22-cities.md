@@ -77,7 +77,7 @@ translatedAt: '2026-06-07T00:37:30+08:00'
 
 この方眼図をしばらく見つめると、一つの問いが浮かびます。7割の土地に散らばるその30%の人々は、どのような生活をしているのでしょうか。その答えは密度の中に隠れています。
 
-![台北市信義区と南港周辺の高層ビルのスカイライン。密集した住宅と商業ビルが幾層にも重なっている](/article-images/society/taipei-skyline-housing-2026.jpg)
+![台北市信義区と南港周辺の高層ビルのスカイライン。密集した住宅と商業ビルが幾層にも重なっている](/article-images/society/taipei-skyline-housing-2026.webp)
 _台北市のスカイライン。台湾で最も混み合う県市であり、1平方キロメートル当たり8,975人が詰め込まれています。Photo: Heeheemalu, CC BY-SA 4.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:20260204_Taipei,_Taiwan_Skyline.jpg)._
 
 ## 最も密な地域から最も疎な地域まで、151倍の差

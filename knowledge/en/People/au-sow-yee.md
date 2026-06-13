@@ -43,7 +43,7 @@ The library describes itself as a “**living coordinate**.” It connects geogr
 
 That sentence describes more than a library. It also describes Au Sow Yee herself.
 
-![Still from Au Sow Yee’s A Day Without Sun in Mengkerang (Chapter One) (2013). The image shows a video survey project of everyday scenes on the Malay Peninsula](/article-images/people/au-sow-yee-mengkerang-still-2013.jpg)
+![Still from Au Sow Yee’s A Day Without Sun in Mengkerang (Chapter One) (2013). The image shows a video survey project of everyday scenes on the Malay Peninsula](/article-images/people/au-sow-yee-mengkerang-still-2013.webp)
 _Still from Au Sow Yee’s A Day Without Sun in Mengkerang (Chapter One) (2013). Fair use editorial commentary on Au Sow Yee's work. Source: [artist's official portfolio](https://ausowyee.cargo.site/)._
 
 ## Why a Malaysian Chinese Artist Would Do This in Taiwan
@@ -97,7 +97,7 @@ Sharon Chin also said that the strength of Pak Tai Foto was that it **did not �
 
 This is one of Au Sow Yee’s most important methodologies: **opposing the curatorial posture of “speaking for” someone**.
 
-![Still from Au Sow Yee’s Pak Tai Foto (2015). The image shows the interior of an old photo studio on Petaling Street, Kuala Lumpur, shortly before demolition](/article-images/people/au-sow-yee-pak-tai-foto-still-2015.jpg)
+![Still from Au Sow Yee’s Pak Tai Foto (2015). The image shows the interior of an old photo studio on Petaling Street, Kuala Lumpur, shortly before demolition](/article-images/people/au-sow-yee-pak-tai-foto-still-2015.webp)
 _Still from Au Sow Yee’s Pak Tai Foto (2015). The old shop on Petaling Street was about to be demolished because of MRT construction; migrant workers’ voices echo through the empty shop. Fair use editorial commentary on Au Sow Yee's work. Source: [artist's official portfolio](https://ausowyee.cargo.site/)._
 
 ## “Absence” as the Position of Creation

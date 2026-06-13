@@ -158,10 +158,10 @@ Así que la próxima vez que suene la música de una película taiwanesa, de una
 
 Si puedes formular esa pregunta, habrás escuchado a esta isla componiendo su propia banda sonora.
 
-![Estatua conmemorativa de Teng Yu-hsien.](/article-images/music/teng-yuhsien-statue-longtan-2016.jpg)
+![Estatua conmemorativa de Teng Yu-hsien.](/article-images/music/teng-yuhsien-statue-longtan-2016.webp)
 _Estatua conmemorativa de Teng Yu-hsien. «Moonlight Sorrow», arreglada por este “padre de la canción taiwanesa”, procede en su melodía más antigua de una canción pingpu recopilada por Mackay; más tarde fue canción prohibida durante la ley marcial y luego entró en \_Detention_. Una vieja melodía es una de las capas más profundas de los estratos sonoros de Taiwán.\_
 
-![Lim Giong, figura clave en el giro de la música cinematográfica taiwanesa desde la orquesta académica hacia el vacío electrónico.](/article-images/music/lim-giong-2015.jpg)
+![Lim Giong, figura clave en el giro de la música cinematográfica taiwanesa desde la orquesta académica hacia el vacío electrónico.](/article-images/music/lim-giong-2015.webp)
 _Lim Giong. De rey del rock en taiwanés con \_Marching Forward_ a compositor que dejó vacío en las películas de Hou Hsiao-hsien, ganó dos veces el Golden Horse a la mejor música original para cine e hizo que la romanización “Lim Giong” se volviera el documento de identidad del sonido taiwanés en el cine internacional.\_
 
 **Lecturas complementarias**:

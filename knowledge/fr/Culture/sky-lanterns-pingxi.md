@@ -55,7 +55,7 @@ En 1988 (77e année de la République de Chine), Pingxi organisa pour la premiè
 
 ## De la marque « Au sud les feux de Bengale, au nord les lanternes célestes » au pic de l'internationalisation
 
-![Scène diurne du vieux quartier de Shifen, la ligne de chemin de fer de Pingxi traversant le centre du vieux quartier, des stands et boutiques de lanternes célestes alignés des deux côtés](/article-images/culture/shifen-old-street-2017.jpg)
+![Scène diurne du vieux quartier de Shifen, la ligne de chemin de fer de Pingxi traversant le centre du vieux quartier, des stands et boutiques de lanternes célestes alignés des deux côtés](/article-images/culture/shifen-old-street-2017.webp)
 _Scène diurne du vieux quartier de Shifen, la ligne de chemin de fer de Pingxi traversant le centre du vieux quartier, des stands et boutiques de lanternes célestes alignés des deux côtés. L'économie touristique le long de la voie ferrée est la base industrielle locale accumulée en 30 ans depuis l'établissement de la marque « Au sud les feux de Bengale, au nord les lanternes célestes ». Photo : Xiquinho Silva. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Shifen_Old_Street_48013-Shifen_(30606697197).jpg).\_
 
 De 1988 aux années 2010, la fête des lanternes célestes de Pingxi a suivi un parcours typique : « coutume locale → marque touristique municipale → recommandation par les médias internationaux ».
@@ -88,7 +88,7 @@ La municipalité du Nouveau Taipei a annoncé par la suite 35 cas de dommages ca
 
 ## Deux personnes nommées Hu, deux personnes liées à l'école primaire de Shifen, deux personnes buvant l'eau de la rivière Keelung
 
-![Gros plan sur le lancement de lanternes célestes lors de la fête de Pingxi, des touristes allumant et lâchant eux-mêmes des lanternes célestes couvertes de vœux](/article-images/culture/pingxi-lantern-release-2023.jpg)
+![Gros plan sur le lancement de lanternes célestes lors de la fête de Pingxi, des touristes allumant et lâchant eux-mêmes des lanternes célestes couvertes de vœux](/article-images/culture/pingxi-lantern-release-2023.webp)
 _Gros plan sur le lancement de lanternes célestes lors de la fête de Pingxi 2023, des touristes allumant et lâchant eux-mêmes des lanternes célestes couvertes de vœux. Derrière chaque lanterne céleste qui s'élève, il y a un pinceau de marchand du vieux quartier de Shifen, un papier collé, et une question de responsabilité environnementale. Photo : Cheng Hui-ying Vickie399. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E5%B9%B3%E6%BA%AA%E5%A4%A9%E7%87%88%E7%AF%80_%E9%84%AD%E6%83%A0%E9%9C%99.jpg).\_
 
 Si l'on s'arrête à « 326 kilogrammes » et « la maison de M. Hu Wei-ming », l'histoire retombe dans le schéma classique « environnement vs culture ».

@@ -100,7 +100,7 @@ _鹿港龍山寺、2017年。Photo: Outlookxp, [CC BY-SA 4.0 via Wikimedia](http
 
 「一府二鹿三艋舺」の「二鹿」時代は、19世紀半ばには終わっていた。鹿港の最も賑わった年月はわずか70年に過ぎない。
 
-![鹿港老街の路地。摸乳巷（正式名称「君子巷」）の最も狭い幅は70センチメートル、九曲湾の曲がりくねった設計は北東モンスーンを防ぐため、半辺井（瑤林街12号）の親睦精神、これらの200年の都市の痕跡は今もその場所にある。](/article-images/geography/changhua-02.jpg)
+![鹿港老街の路地。摸乳巷（正式名称「君子巷」）の最も狭い幅は70センチメートル、九曲湾の曲がりくねった設計は北東モンスーンを防ぐため、半辺井（瑤林街12号）の親睦精神、これらの200年の都市の痕跡は今もその場所にある。](/article-images/geography/changhua-02.webp)
 _鹿港老街の路地。Photo: Wikimedia Commons contributor, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:%E9%B9%BF%E6%B8%AF%E8%80%81%E8%A1%97%E5%B0%8F%E5%B7%B707.jpg)._
 
 ## 1986年、鹿港の住民が「ノー」と言う
@@ -158,7 +158,7 @@ _彰化扇形車庫。Photo: Wikimedia Commons contributor, [CC BY-SA via Wikime
 
 中国時報の報道にはこう記されている：「**1961年の大仏完成後**」、地元住民の間で「**彰化は『風はあるが台風は来ず、雨はあるが災害はない』のは大仏の御利益によるものだ**」という説が広まった[^22]。
 
-![八卦山大仏、1961年竣工、高さ22メートル、鉄筋コンクリート、設計者林慶堯。仏像内部は6層の空間に分かれ、中に入って見学できる。](/article-images/geography/changhua-04.jpg)
+![八卦山大仏、1961年竣工、高さ22メートル、鉄筋コンクリート、設計者林慶堯。仏像内部は6層の空間に分かれ、中に入って見学できる。](/article-images/geography/changhua-04.webp)
 _八卦山大仏。Photo: Wikimedia Commons contributor, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BD%B0%E5%8C%96%E5%85%AB%E5%8D%A6%E5%B1%B1%E5%A4%A7%E4%BD%9B31.jpg)._
 
 22メートルのコンクリートの菩薩、鹿港龍山寺の1786年の木彫の菩薩、新祖宮の1788年の官費の媽祖、田尾の菊の畑の近くの土地公廟、彰化県境内の信仰の対象は、清代から戦後まで、一つの時間軸に連続するものはない。それぞれが、当時の人々が「どのような力に守られる必要があるか」という問いに対する具体的な答えであった。

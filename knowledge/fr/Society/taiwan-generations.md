@@ -57,7 +57,7 @@ If there is really a wall between generations, that wall is built from childhood
 
 The childhoods of the fifth and sixth grades were in the Kanzaden (general stores). The Datong Babo, launched in 1969, was given as a gift for buying 10,000 NTD worth of appliances; that red-clad doll placed in the living room was proof of a family climbing from laborer to middle class[^7]; Yakult set up a factory in Taiwan in 1964, costing two NTD per bottle, delivered door-to-door by "Yakult Moms" carrying cold boxes[^8]; the way home from school featured Prince Noodles, Science Noodles, and marbles. Turning on the TV, Huang Junxiong's puppet show _Yunzhou Grand Confucian Hero_ aired on TTV in 1970, with Shi Yanshan fighting for 583 episodes, achieving a 97% viewership rate, so popular that it was banned in 1974 on the grounds of "hindering farmers' work schedules"[^9].
 
-![Five plastic small bottles of Yakult lined up, the red and white packaged Yakult is a common lactic acid drink in Taiwanese family refrigerators](/article-images/society/yakult-bottles.jpg)
+![Five plastic small bottles of Yakult lined up, the red and white packaged Yakult is a common lactic acid drink in Taiwanese family refrigerators](/article-images/society/yakult-bottles.webp)
 _Five-pack Yakult, a signature drink of fifth- and sixth-grade Kanzaden and grocery stores. Photo: kxz Chen, CC BY-SA 2.0 via Wikimedia Commons._
 
 ```tw-versus
@@ -70,7 +70,7 @@ A whole street watching the same show | One person swiping a video only fed to t
 
 The seventh grade's youth changed interfaces. Pagers (BB Call) peaked in 1999, with over four million households across Taiwan[^10]; couples used numbers to convey affection, with 520 and 1314 flashing on small screens; after going online, the "ding-dong" sound of Yahoo Messenger, the "ding-ding-ding" of MSN login, NoMAD blogs and photo albums formed a whole set of codes only they knew[^4]. The electronic chicken debuted in 1997, sold out at a high-end department store in Kaohsiung with one resold for 1,500 NTD; students focused on feeding electronic pets in class, leading the then-Minister of Education to half-jokingly suggest setting up a "chicken farm" in schools to raise them together[^11].
 
-![A 1990s blue digital pager, metal casing with a small screen displaying numbers, a portable communication device of the BB Call era](/article-images/society/bb-call-pager.jpg)
+![A 1990s blue digital pager, metal casing with a small screen displaying numbers, a portable communication device of the BB Call era](/article-images/society/bb-call-pager.webp)
 _1990s digital pagers (BB Call), the communication tool used by the seventh grade to send "520" and "1314". Photo: Solomon203, CC BY-SA 3.0 via Wikimedia Commons._
 
 By the eighth grade, the stage was PTT and Facebook. In 2009, Happy Farm had everyone asking, "Did you steal vegetables today?" The ninth grade is entirely immersed in algorithms: IG, TikTok, Xiaohongshu, Dcard. What changed was not just the platform, but the viewing method itself: for the fifth grade, a whole street watched the same _Yunzhou Grand Confucian Hero_ at night; for the ninth grade, one person swipes a short video fed only to them by an algorithm.
@@ -104,7 +104,7 @@ First, look at salaries. Research from the Academia Sinica indicates that before
 
 Second, look at housing. This is where the escalator truly steepens. The national mortgage burden rate rose from 21.7% in 2005 to 46.62% in 2024, meaning a family must dedicate nearly half its income to mortgage payments[^3]. The housing price-to-income ratio is more direct: nationally it rose from 8.2 times in 2014 to 9.89 times in the first quarter of 2025, while Taipei soared from 6.4 times in 2004 to 15.41 times in the first quarter of 2025, higher than London or New York[^3]. In plain terms: in Taipei, a family must not eat or drink for fifteen years to afford a house.
 
-![Residential high-rise buildings in Tamsui, New Taipei City, dense apartment blocks closely arranged, presenting a typical mid-to-high-rise collective housing landscape of Taiwanese urbanization](/article-images/society/taipei-housing-density.jpg)
+![Residential high-rise buildings in Tamsui, New Taipei City, dense apartment blocks closely arranged, presenting a typical mid-to-high-rise collective housing landscape of Taiwanese urbanization](/article-images/society/taipei-housing-density.webp)
 _Dense apartment blocks in Tamsui, New Taipei, a typical face of Taiwanese urban housing. Photo: HC Lin, CC BY 2.0 via Wikimedia Commons._
 
 ```tw-line
@@ -144,7 +144,7 @@ The National Chengchi University Election Research Center has long tracked Taiwa
 
 This identity curve is often simplified into the "Natural Independence Generation is inherently independent." But academic views are more cautious. Many researchers point out that the dominant factor here is what academia calls the "period effect," meaning that democratization, the 2014 Sunflower Movement, and other shared "events" reshaped the identities of various generations. The answer is chiseled by the era, never in anyone's genes. Scholar Shen Wei-jie, researching Natural Independence, stated clearly in her master's thesis: "Natural Independence is not natural, but formed later; Natural Independence is also not traditional nationalist Taiwan independence, but more anti-China"[^22].
 
-![Crowds filling Keting Huang Avenue in Taipei for the anti-ECFA march on March 30, 2014, the crowd extending from the square, many holding banners](/article-images/society/sunflower-movement-2014.jpg)
+![Crowds filling Keting Huang Avenue in Taipei for the anti-ECFA march on March 30, 2014, the crowd extending from the square, many holding banners](/article-images/society/sunflower-movement-2014.webp)
 _March 30, 2014, the anti-ECFA march filled Keting Huang Avenue in Taipei, the Sunflower Movement called the peak of the "Natural Independence Generation" taking to the streets. Photo: tenz1225, CC BY-SA 2.0 via Wikimedia Commons._
 
 By the ninth grade, a new tension appears. This generation grew up swiping Douyin and Xiaohongshu, using simplified characters, chasing mainland variety shows and internet slang, culturally closer to the mainland than ever before; but politically, they are the most intuitively repulsed by "being unified," being native to a democratic system. Taiwan Doublethink Lab's 2025 observation notes that junior high students' TikTok usage rate reached 57.87% and high school students 50.73%[^23], but cultural proximity has not automatically translated into political shift.

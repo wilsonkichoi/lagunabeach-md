@@ -158,10 +158,10 @@ So next time, when the score of a Taiwanese film, a Taiwanese drama, or a Taiwan
 
 If you can ask that, then you have heard this island scoring itself.
 
-![Commemorative bronze statue of Teng Yu-hsien.](/article-images/music/teng-yuhsien-statue-longtan-2016.jpg)
+![Commemorative bronze statue of Teng Yu-hsien.](/article-images/music/teng-yuhsien-statue-longtan-2016.webp)
 _Commemorative bronze statue of Teng Yu-hsien. "Sorrow on a Moonlit Night," rearranged by this "father of Taiwanese song," traces its earliest melody to a Plains Indigenous tune collected by George Leslie Mackay. It later became a banned song under martial law, then was written into Detention. One old tune is the deepest layer of Taiwan's sonic strata._
 
-![Lim Giong, a key figure in Taiwanese film scoring's turn from academic orchestration to electronic spaciousness.](/article-images/music/lim-giong-2015.jpg)
+![Lim Giong, a key figure in Taiwanese film scoring's turn from academic orchestration to electronic spaciousness.](/article-images/music/lim-giong-2015.webp)
 _Lim Giong. From the Taiwanese-language rock star of Marching Forward to the composer who left space in Hou Hsiao-hsien's films, he has twice won the Golden Horse Award for Best Original Film Score, and made the spelling "Lim Giong" an identity card for Taiwanese sound in international cinema._
 
 **Further Reading**:

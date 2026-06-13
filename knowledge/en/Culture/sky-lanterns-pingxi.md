@@ -55,7 +55,7 @@ In 1988 (ROC year 77), Pingxi held its first public sky lantern event — before
 
 ## From "South: Bee Rockets, North: Sky Lanterns" Brand to International Peak
 
-![Shifen Old Street in daytime, the Pingxi Line railway running through the center of the old street, with sky lantern vendors and shops lining both sides](/article-images/culture/shifen-old-street-2017.jpg)
+![Shifen Old Street in daytime, the Pingxi Line railway running through the center of the old street, with sky lantern vendors and shops lining both sides](/article-images/culture/shifen-old-street-2017.webp)
 _Shifen Old Street in daytime, the Pingxi Line railway running through the center of the old street, with sky lantern vendors and shops lining both sides. The tourism economy along the railway is the local industry foundation accumulated over 30 years since the "South: Bee Rockets, North: Sky Lanterns" brand was established. Photo: Xiquinho Silva. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Shifen_Old_Street_48013-Shifen_(30606697197).jpg).\_
 
 From 1988 to the 2010s, the Pingxi Sky Lantern Festival followed a classic trajectory: "local custom → city tourism brand → international media recommendation."
@@ -88,7 +88,7 @@ The New Taipei City Government later announced that from 2018 to 2025, there wer
 
 ## Two People Surnamed Hu, Two Connected to Shifen Elementary School, Two Drinking from the Keelung River
 
-![Close-up of sky lanterns being released at the Pingxi Sky Lantern Festival, tourists personally lighting and releasing lanterns filled with written wishes](/article-images/culture/pingxi-lantern-release-2023.jpg)
+![Close-up of sky lanterns being released at the Pingxi Sky Lantern Festival, tourists personally lighting and releasing lanterns filled with written wishes](/article-images/culture/pingxi-lantern-release-2023.webp)
 _Close-up of sky lanterns being released at the 2023 Pingxi Sky Lantern Festival, tourists personally lighting and releasing lanterns filled with written wishes. Behind every lantern that rises is a calligraphy brushstroke from a Shifen Old Street vendor, a paper shell, and a question of environmental responsibility. Photo: 鄭惠霙 Vickie399. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E5%B9%B3%E6%BA%AA%E5%A4%A9%E7%87%88%E7%AF%80_%E9%84%AD%E6%83%A0%E9%9C%99.jpg).\_
 
 If we stop at "326 kilograms" and "Hu Wei-ming's house," the story falls back into the standard "environmentalism vs. culture" frame.

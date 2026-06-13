@@ -31,7 +31,7 @@ translatedAt: '2026-06-02T00:40:00+08:00'
 
 # Industria de semiconductores: 50 años de revolución de materiales desde la transferencia tecnológica de RCA hasta el nitruro de galio y el empaquetado cuántico
 
-![Comparación lado a lado de dos cargadores rápidos USB-C de 30 W con la misma potencia: el producto de silicio a la izquierda es claramente más grande, mientras que el de nitruro de galio a la derecha reduce su tamaño casi a la mitad, reflejando cómo la ciencia de materiales comprime la densidad energética hasta caber en la palma de la mano](/article-images/technology/silicon-vs-gan-charger-2025.jpg)
+![Comparación lado a lado de dos cargadores rápidos USB-C de 30 W con la misma potencia: el producto de silicio a la izquierda es claramente más grande, mientras que el de nitruro de galio a la derecha reduce su tamaño casi a la mitad, reflejando cómo la ciencia de materiales comprime la densidad energética hasta caber en la palma de la mano](/article-images/technology/silicon-vs-gan-charger-2025.webp)
 _Comparación de tamaño entre cargadores USB-C Si vs GaN de la misma potencia. Foto: 4300streetcar, 2025-12-25. [Licencia vía Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Silicon_vs_GaN_30W_USB-C_chargers.jpg)._
 
 > **Resumen en 30 segundos:** En el cuarto trimestre de 2025, TSMC inició la producción en masa de 2 nanómetros en Kaohsiung Fab 22, con una ventaja mundial de 2 a 3 generaciones[^2]. Pero la historia no ocurre solo en transistores cada vez más pequeños: el cargador rápido en tu bolso contiene nitruro de galio (GaN), GlobalWafers fabrica obleas de carburo de silicio (SiC) de 8 pulgadas en Zhongli, y las GPU Blackwell de NVIDIA dependen por completo del empaquetado CoWoS de TSMC para llegar a los centros de datos. Desde los 4,5 millones de dólares que el ITRI pagó en 1973 a RCA por tecnología[^5], hasta el chip cuántico superconductor de 20 qubits de Academia Sinica conectado a la red en 2026[^6], Taiwán ha recorrido un largo río de ciencia de materiales que va desde la física de bandas prohibidas hasta la deposición de capas atómicas y los qubits topológicos. La montaña sagrada protectora se apoya en 50 años de experiencia en fundición por contrato, pero Taiwán aún no ha asegurado su posición de fundición en la era cuántica.
@@ -44,7 +44,7 @@ Esa conversación cambió el mundo. Pero, al mirar atrás 40 años después, el 
 
 ## La apuesta de fundición de 1987
 
-![Exterior de la planta Fab 5 de TSMC en el Parque Científico de Hsinchu; un edificio industrial de varios niveles conectado con Guangfu Road, una de las plantas representativas de la expansión de TSMC en la década de 1990](/article-images/technology/tsmc-fab5-hsinchu-2010.jpg)
+![Exterior de la planta Fab 5 de TSMC en el Parque Científico de Hsinchu; un edificio industrial de varios niveles conectado con Guangfu Road, una de las plantas representativas de la expansión de TSMC en la década de 1990](/article-images/technology/tsmc-fab5-hsinchu-2010.webp)
 _Planta Fab 5 de TSMC en el Parque Científico de Hsinchu, 2010. Foto: Peellden. [Licencia vía Wikimedia Commons](https://commons.wikimedia.org/wiki/File:TSMC_Fab5.JPG)._
 
 La historia comienza antes. En 1973, el ITRI pagó 4,5 millones de dólares para adquirir tecnología de circuitos integrados de la estadounidense RCA y envió a 19 ingenieros a capacitarse en Estados Unidos[^5]. Nadie imaginaba entonces que esa “matrícula” se convertiría en la primera piedra del reino taiwanés de los semiconductores. En 1980, la transferencia tecnológica del ITRI dio origen a United Microelectronics Corporation, la primera empresa de semiconductores de Taiwán. Pero K. T. Li no estaba satisfecho: UMC era demasiado pequeña, su tecnología no alcanzaba el nivel internacional y Taiwán necesitaba un salto mayor.
@@ -147,7 +147,7 @@ La siguiente etapa es SoIC (System on Integrated Chips) y SoW-X (System on Wafer
 
 ## ALD: crecer átomo por átomo
 
-![En una vitrina de museo se exhiben varias obleas de silicio de distintos tamaños, la mayor de unas 12 pulgadas; su brillo especular muestra la materia prima central de la fabricación de semiconductores](/article-images/technology/silicon-wafers-museum-2017.jpg)
+![En una vitrina de museo se exhiben varias obleas de silicio de distintos tamaños, la mayor de unas 12 pulgadas; su brillo especular muestra la materia prima central de la fabricación de semiconductores](/article-images/technology/silicon-wafers-museum-2017.webp)
 _Exhibición de muestras de obleas de silicio, 2017. Foto: ArticCynda. [Licencia vía Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Silicon_wafers.jpg)._
 
 3 nanómetros, 2 nanómetros, 1,6 nanómetros. Detrás de esos números hay una tecnología de fabricación discreta pero clave: la deposición de capas atómicas (Atomic Layer Deposition, ALD).

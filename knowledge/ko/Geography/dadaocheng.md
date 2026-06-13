@@ -75,7 +75,7 @@ translatedAt: '2026-05-25T21:07:07Z'
 
 그러나 다다오청을 진정으로 바꾼 사건은 1860년까지 기다려야 했다.
 
-![다다오청 샤하이 성황묘, 디화제 1단 61호. 1859년, 1853년 딩샤자오핀에서 패배한 퉁안 사람들이 방카 바자장에서 이곳으로 옮겨 세운 사원으로, 다다오청의 가장 이른 신앙 중심 가운데 하나이다. 사원 건물은 167년 동안 원래 자리에 서서 옮겨진 적이 없다.](/article-images/geography/dadaocheng-xia-hai-city-god-temple-2018.jpg)
+![다다오청 샤하이 성황묘, 디화제 1단 61호. 1859년, 1853년 딩샤자오핀에서 패배한 퉁안 사람들이 방카 바자장에서 이곳으로 옮겨 세운 사원으로, 다다오청의 가장 이른 신앙 중심 가운데 하나이다. 사원 건물은 167년 동안 원래 자리에 서서 옮겨진 적이 없다.](/article-images/geography/dadaocheng-xia-hai-city-god-temple-2018.webp)
 _다다오청 샤하이 성황묘, 디화제 1단 61호. Photo: Solomon203, CC BY-SA 4.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Taipei_Xia-Hai_City_God_Temple_20180729.jpg)._
 
 ## 1860년 개항, John Dodd, 리춘성, 그 12만 근의 차
@@ -136,7 +136,7 @@ _다다오청 샤하이 성황묘, 디화제 1단 61호. Photo: Solomon203, CC B
 
 1932년 **콜럼비아(Columbia) 레코드** 타이완 지사가 제작하고, **덩위셴**이 작곡하고, **리린추**가 작사한 〈**망춘풍**〉이 **춘춘**(본명 류칭샹)의 노래로 발표되었다. 녹음 장소는 다다오청에 있던 콜럼비아 레코드 회사 사무실, 오늘날 디화제 남단이었다. 〈망춘풍〉은 발매 뒤 1930년대 타이완에서 크게 유행했고, 타이완 최초의 진정한 의미의 「유행가」가 되었다[^18]. 1934년 〈**우야화**〉, 1933년 〈**월야수**〉 등 덩위셴의 작품도 모두 이 다다오청 사무실에서 나왔고, 오늘날까지도 다시 불린다. **다다오청은 1930년대에 상업 중심지였을 뿐 아니라, 타이완어 대중음악의 탄생지이기도 했다**.
 
-![다다오청 천톈라이 고거(진지다행 양옥), 구이더제 73호. 1920-1923년에 지어졌고, 바로크풍 입면 정중앙에 「錦記」 두 글자가 있다. 1985년 타이베이시 지정 고적으로 지정되었고, 2018년 복원을 마치고 다시 개방되었다.](/article-images/geography/dadaocheng-chen-tian-lai-residence-2014.jpg)
+![다다오청 천톈라이 고거(진지다행 양옥), 구이더제 73호. 1920-1923년에 지어졌고, 바로크풍 입면 정중앙에 「錦記」 두 글자가 있다. 1985년 타이베이시 지정 고적으로 지정되었고, 2018년 복원을 마치고 다시 개방되었다.](/article-images/geography/dadaocheng-chen-tian-lai-residence-2014.webp)
 _천톈라이 고거, 구이더제 73호, 2018년 복원 뒤 재개방. Photo: Nisa yeh from Taipei, Taiwan, CC BY-SA 2.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chen_Tian-lai_Residence_(12303134604).jpg).\_
 
 ## 그 담배 꾸러미: 난징시루 189호의 작은 돌 표지
@@ -169,10 +169,10 @@ _천톈라이 고거, 구이더제 73호, 2018년 복원 뒤 재개방. Photo: N
 
 오늘날 디화제에 가면 남쪽에서 북쪽까지 800미터 안에서 세 겹의 시대가 공존하는 모습을 볼 수 있다. 1851년 중제 유적 옆에는 1859년 샤하이 성황묘가 있고, 사원 맞은편에는 1917년의 왓슨스 대약방(바로크식 거리 가옥 입면)이 있으며, 다시 북쪽으로 200미터를 가면 1923년의 천톈라이 고거가 있고, 조금 더 북쪽에는 2017년의 디화제 207 박물관과 2010년대 이후 입주한 「인화러」「허싱 88정」「ASW Tea House」 같은 문화창의 브랜드가 있다. **이 800미터에는 타이완 보존운동 30년의 모든 결과가 담겨 있다**.
 
-![디화제 왓슨스 대약방(오늘날 스타벅스 바오안점), 1917년 리쥔치가 창건했으며, 다다오청을 대표하는 바로크식 거리 가옥 가운데 하나이다.](/article-images/geography/dadaocheng-watsons-pharmacy-house.jpg)
+![디화제 왓슨스 대약방(오늘날 스타벅스 바오안점), 1917년 리쥔치가 창건했으며, 다다오청을 대표하는 바로크식 거리 가옥 가운데 하나이다.](/article-images/geography/dadaocheng-watsons-pharmacy-house.webp)
 _디화제 왓슨스 대약방, 1917년 창건. Photo: 寺人孟子, CC BY-SA 4.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:屈臣氏大藥房.jpg)._
 
-![설맞이 시장 기간의 디화제. 해마다 음력 설 전 한 주 동안 이 거리는 발 디딜 틈 없이 붐빈다. 이는 1996년 확장 반대 운동이 남긴 성과 가운데 하나이다.](/article-images/geography/dadaocheng-lunar-new-year-2011.jpg)
+![설맞이 시장 기간의 디화제. 해마다 음력 설 전 한 주 동안 이 거리는 발 디딜 틈 없이 붐빈다. 이는 1996년 확장 반대 운동이 남긴 성과 가운데 하나이다.](/article-images/geography/dadaocheng-lunar-new-year-2011.webp)
 _설맞이 시장 기간의 디화제. Photo: 玄史生, CC BY-SA 3.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dihua_Street_Lunar_New_Year_20110203a.jpg)._
 
 ## 지역민이 데려가는 세 곳

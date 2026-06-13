@@ -21,7 +21,7 @@ lastVerified: 2026-06-07
 lastHumanReview: false
 researchReport: 'reports/research/2026-06/台灣辦桌文化.md'
 viewpoint_formed: true
-image: '/article-images/food/bando-ghost-festival-banquet-2017.jpg'
+image: '/article-images/food/bando-ghost-festival-banquet-2017.webp'
 imageAlt: 'Banquete comunitario bando nocturno en el patio del templo, mesas redondas con mantel rosado llenas de personas, meseros sirviendo platos en los pasillos, linternas rojas colgando en lo alto'
 imageCredit: '玄史生 / Wikimedia Commons'
 imageLicense: 'CC0 1.0'
@@ -61,7 +61,7 @@ Regardless of strong winds, heavy rain, broken bridges, or collapsed roads, as l
 
 ## Where Even Thorny Bamboo Could Survive, a Kingdom of Head Chefs Grew
 
-![The mudstone badlands of the Gutingkeng Formation in Kaohsiung, with gray-white ridges exposed one after another, almost barren, with sparse green trees and small settlements in the distance](/article-images/food/tianliao-moon-world-badlands-2019.jpg)
+![The mudstone badlands of the Gutingkeng Formation in Kaohsiung, with gray-white ridges exposed one after another, almost barren, with sparse green trees and small settlements in the distance](/article-images/food/tianliao-moon-world-badlands-2019.webp)
 _The mudstone badlands of the Gutingkeng Formation in the Kaohsiung area, commonly known as the "Moon World." Neimen is located on the edge of this landscape where even crops struggle to grow. Photo: StevenK234, 2019. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tianliao_Moon_World_3.jpg)._
 
 To understand how this martial field discipline was forged, one must first look at a piece of land that is difficult to cultivate.
@@ -139,7 +139,7 @@ Older masters often use presidential terms to remember the industry's ups and do
 
 From 1988 to 2000, the 12 years Li Denghui served as president are considered the golden age of Bando. This was not only the era of the traditional "Eight Celebrations and One Funeral"—engagement, marriage, full-month, returning to natal home, opening business, birthday, moving house, passing away; it was also an era where even children getting PhDs or winning pigeon racing prizes would host a banquet [^21]. When auspicious lunar days arrived, the temple square and roadside were full of "Black Forest Grand Hotels." The origin of this name is very Taiwanese: early canvas tents were often provided by beverage companies, printed with Black Forest soda advertisements; over time, "Black Forest Grand Hotel" became a synonym for Bando [^21].
 
-![Round tables with red chair covers in Tainan at night, one after another, filled with guests, with storefronts with rolling shutters down and motorcycles parked on the roadside in the background](/article-images/food/bando-street-banquet-tainan-2014.jpg)
+![Round tables with red chair covers in Tainan at night, one after another, filled with guests, with storefronts with rolling shutters down and motorcycles parked on the roadside in the background](/article-images/food/bando-street-banquet-tainan-2014.webp)
 _A Bando held directly on the street in Tainan in 2014. Closing the street, setting up tables, and starting the feast is the most daily appearance of the "Black Forest Grand Hotel." Photo: Ce Jingzhe, 2014. [CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2014-12-07_a_banquet_on_street_in_Tainan.jpg)._
 
 How prosperous that era was, Xue Menghui remembers most clearly from his father Xue Qingji's work diary.

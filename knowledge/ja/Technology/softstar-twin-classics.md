@@ -33,7 +33,7 @@ translatedAt: '2026-05-29T00:35:00+08:00'
 
 ## 光華商場の少年たち
 
-![光華商場 1990年代は台湾情報産業の心臓であり、ソフトウェア店・部品屋台・技術書の店が地下階に密集し、ゲーム開発者はここで技術資料を探した](/article-images/technology/guanghua-computer-market-2007.jpg)
+![光華商場 1990年代は台湾情報産業の心臓であり、ソフトウェア店・部品屋台・技術書の店が地下階に密集し、ゲーム開発者はここで技術資料を探した](/article-images/technology/guanghua-computer-market-2007.webp)
 _台北光華商場 2007年撮影。1990年代台湾情報産業の心臓。Photo: pacificmorningpost via Flickr. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2027-10-15_Guanhua_Computer_Market_Shop.jpg)._
 
 1990年10月、台北。『軒轄剣』という名前のゲームがソフトウェア店の棚に並んだ。
@@ -50,7 +50,7 @@ _台北光華商場 2007年撮影。1990年代台湾情報産業の心臓。Phot
 
 ## 失恋をエンディングに書き込んだ男
 
-![仙剣奇侠伝 Steam ページ表紙、大宇が SOFTSTAR ENTERTAINMENT にライセンス、2021年 Steam リメイク版でも原作1995年の美術スタイルと李逍遙・趙霊児のキャラクター像を維持](/article-images/technology/softstar-sword-and-fairy.jpg)
+![仙剣奇侠伝 Steam ページ表紙、大宇が SOFTSTAR ENTERTAINMENT にライセンス、2021年 Steam リメイク版でも原作1995年の美術スタイルと李逍遙・趙霊児のキャラクター像を維持](/article-images/technology/softstar-sword-and-fairy.webp)
 _仙剣奇侠伝 Steam ページ表紙、大宇が SOFTSTAR 自社で発行。Photo: SOFTSTAR ENTERTAINMENT 公式 Steam ストア画像、30年にわたる IP 史の記録的評論として引用（fair use editorial commentary）。_
 
 5年後、二振目の剣が鞘を抜いた。
@@ -72,7 +72,7 @@ _仙剣奇侠伝 Steam ページ表紙、大宇が SOFTSTAR 自社で発行。Ph
 
 ## 二振りの剣、二つの道
 
-![軒轅剣柒 Steam ページ表紙、2020年に大宇 DOMO チームが発表。中文市場初の次世代エンジン 3A タイトルと称されたが、商業的に振るわず、2024年の大宇によるダブルソード IP 売却の主因のひとつとなった](/article-images/technology/softstar-xuan-yuan-sword-7.jpg)
+![軒轅剣柒 Steam ページ表紙、2020年に大宇 DOMO チームが発表。中文市場初の次世代エンジン 3A タイトルと称されたが、商業的に振るわず、2024年の大宇によるダブルソード IP 売却の主因のひとつとなった](/article-images/technology/softstar-xuan-yuan-sword-7.webp)
 _軒轅剣柒（2020）Steam ページ表紙、大宇 DOMO チーム制作。Photo: SOFTSTAR ENTERTAINMENT 公式 Steam ストア画像、30年にわたる IP 史の記録的評論として引用（fair use editorial commentary）。_
 
 仙剣と軒轅剣はどちらも大宇情報から鍛えられたが、歩んだ道はまったく異なっていた。

@@ -522,8 +522,8 @@ BNT 疫苗 2021 年 9 月 2 日凌晨 7 點抵台，而在某個科學園區的 
 
 | 媒體檔 | 用途 | 來源 URL | 授權 | 攝影者/作者 | 拍攝日期 | Commons File | 本地 cache 路徑 | alt text |
 |--------|------|----------|------|-----------|---------|--------------|----------------|---------|
-| Karikó_Katalin_Szegeden.jpg | hero 候選（portrait） | https://commons.wikimedia.org/wiki/File:Karik%C3%B3_Katalin_Szegeden.jpg | CC BY-SA 4.0 | Szegedi Tudományegyetem (University of Szeged) | 2021-05-21 | File:Karikó_Katalin_Szegeden.jpg | /article-images/society/kariko-katalin-szeged-2021.jpg | 卡塔琳・卡里科 2021 年於塞格德大學 |
-| Drew_Weissman_and_Katalin_Karikó_Life_Science_Medalists.jpg | hero 候選（共同照） | https://commons.wikimedia.org/wiki/File:Drew_Weissman_and_Katalin_Karik%C3%B3_Life_Science_Medalists.jpg | CC BY 3.0 | Thorne Media | 2022-06-16 | File:Drew_Weissman_and_Katalin_Karikó_Life_Science_Medalists.jpg | /article-images/society/kariko-weissman-life-science-2022.jpg | 卡塔琳・卡里科與德魯・韋斯曼，2022 年 Life Science 獎章得主 |
+| Karikó_Katalin_Szegeden.jpg | hero 候選（portrait） | https://commons.wikimedia.org/wiki/File:Karik%C3%B3_Katalin_Szegeden.jpg | CC BY-SA 4.0 | Szegedi Tudományegyetem (University of Szeged) | 2021-05-21 | File:Karikó_Katalin_Szegeden.jpg | /article-images/society/kariko-katalin-szeged-2021.webp | 卡塔琳・卡里科 2021 年於塞格德大學 |
+| Drew_Weissman_and_Katalin_Karikó_Life_Science_Medalists.jpg | hero 候選（共同照） | https://commons.wikimedia.org/wiki/File:Drew_Weissman_and_Katalin_Karik%C3%B3_Life_Science_Medalists.jpg | CC BY 3.0 | Thorne Media | 2022-06-16 | File:Drew_Weissman_and_Katalin_Karikó_Life_Science_Medalists.jpg | /article-images/society/kariko-weissman-life-science-2022.webp | 卡塔琳・卡里科與德魯・韋斯曼，2022 年 Life Science 獎章得主 |
 | MRNA_structure.svg | inline 圖（mRNA 結構示意） | https://commons.wikimedia.org/wiki/File:MRNA_structure.svg | Public Domain | Daylite | 2008-02-11 | File:MRNA_structure.svg | /article-images/society/mrna-structure-diagram.svg | mRNA（信使 RNA）分子結構示意圖 |
 
 ⚠️ **注意**：Karikó 肖像圖（File:Karikó_Katalin_Szegeden.jpg）尺寸為 494×605 px（portrait），比例約 0.82:1，接近正方形，作為 hero 需確認 Astro 渲染結果（護欄要求 0.9 ≤ hero ratio ≤ 2.0）。建議改用 Drew_Weissman_and_Katalin_Karikó 合照（765×597 px，ratio ≈ 1.28:1 ✅）作為 hero，Karikó 肖像作為 inline。

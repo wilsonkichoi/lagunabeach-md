@@ -85,12 +85,12 @@ translatedAt: '2026-05-28T05:08:34+08:00'
 
 피츠버그 시기에 그가 한 일은 두 가지 구조적 작업이었다. 하나는 사회과학으로 중국사를 연구하는 방법론을 계속 심화하는 것이었고, 다른 하나는 이 방법을 더 큰 척도에 적용하는 것이었다. 한 왕조만 보거나 중국 자체만 보는 것이 아니라, 세계 문명사의 맥락 속에 중국을 놓고 비교하는 일이었다[^26].
 
-![중앙연구원 난강 원구 건물 외관, 모더니즘적 회백색 입면과 광장 공간](/article-images/people/hsu-cho-yun-academia-sinica-building.jpg)
+![중앙연구원 난강 원구 건물 외관, 모더니즘적 회백색 입면과 광장 공간](/article-images/people/hsu-cho-yun-academia-sinica-building.webp)
 _중앙연구원 난강 원구. 허줘윈이 1956년부터 재직한 역사언어연구소의 오랜 거점이자, 1980년 그가 제13기 원사로 선출된 학술적 근거지다. Photo: KaurJmeb, 2005-12-20. [CC BY-SA 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Academia_Sinica.JPG)._
 
 1980년, 그는 50세에 중앙연구원 제13기 원사(인문 및 사회과학조)로 선출되었다[^27].
 
-![허줘윈 노년의 중앙연구원 공식 초상, 연한 파란 배경, 안경을 쓰고 온화한 표정으로 정면을 응시함](/article-images/people/hsu-cho-yun-academia-sinica-portrait.jpg)
+![허줘윈 노년의 중앙연구원 공식 초상, 연한 파란 배경, 안경을 쓰고 온화한 표정으로 정면을 응시함](/article-images/people/hsu-cho-yun-academia-sinica-portrait.webp)
 _허줘윈 노년의 중앙연구원 공식 초상. Photo: Academia Sinica（中央研究院）, after 1980. [Attribution license via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cho-Yun_Hsu_%E8%A8%B1%E5%80%AC%E9%9B%B2.jpg).\_
 
 📝 **“대역사”라는 세 글자는 훗날 황런위가 가장 널리 사용했지만, 허줘윈이 수행한 대역사는 다른 종류였다**. 황런위가 주목한 것은 중국이 왜 전통적 통치 양식에서 벗어나지 못했는가(《만력 15년》, 《중국 대역사》)였다. 허줘윈이 주목한 것은 중국 문명 자체가 다른 문명(초원, 인도, 이슬람, 서방)과 접촉하는 과정에서 어떻게 형성되었고, 동시에 어떻게 타자를 형성했는가였다. 그의 핵심 신념은 “중국중심론”의 거부였다. 중국을 이해하려면 중국을 자족적이고 고립적이며 자기 내부 논리에 따라 진화한 폐쇄 체계로 보아서는 안 되고, 세계사의 맥락 속에 되돌려 놓고 보아야 한다는 것이다[^28].

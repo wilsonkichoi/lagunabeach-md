@@ -53,7 +53,7 @@ Et ce jour de 2018, sur cette île transformée de prison en musée, il déclara
 
 Cinq ans plus tard, le 3 septembre 2023, Tsai Kun-lin mourut à l’âge vénérable de 93 ans. La présidente Tsai Ing-wen lui décerna une citation honorifique, remise par un vice-ministre politique de la Culture[^4]. Jusqu’au jour de sa mort, il ne connut pas la réponse.
 
-![Mémorial des droits humains de Green Island, ou monument des larmes, inauguré par le président Lee Teng-hui le 10 décembre 1999, Journée internationale des droits humains, avec une inscription de 28 caractères rédigée par Bo Yang](/article-images/history/nhrm-greenisland-monument-2022.jpg)
+![Mémorial des droits humains de Green Island, ou monument des larmes, inauguré par le président Lee Teng-hui le 10 décembre 1999, Journée internationale des droits humains, avec une inscription de 28 caractères rédigée par Bo Yang](/article-images/history/nhrm-greenisland-monument-2022.webp)
 _Photo prise en 2022. Photo : S8321414. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Taiwan_GreenIsland_Human_Rights_Memorial_Monument_2022.jpg)._
 
 Le jour même de l’inauguration à Green Island, à moins d’un kilomètre de la tribune, se dressait un « mémorial des droits humains » achevé le 10 décembre 1999, Journée internationale des droits humains, couramment appelé par la société civile « monument des larmes »[^5]. Le monument a une structure en spirale ; lorsqu’il pleut, l’eau ruisselle le long de rigoles latérales vers le point central, comme des larmes. L’inscription rédigée par Bo Yang ne compte que 28 caractères :
@@ -72,7 +72,7 @@ Le 2 octobre 2021, la Commission pour la promotion de la justice transitionnelle
 
 ## Le centre de détention près de cette ligne de métro à Xindian
 
-![Parc mémoriel de la Terreur blanche de Jingmei, ancien centre de détention du département de justice militaire du Taiwan Garrison Command, où se tint en 1980 le premier tribunal du grand procès de Formosa](/article-images/history/nhrm-jingmei-park.jpg)
+![Parc mémoriel de la Terreur blanche de Jingmei, ancien centre de détention du département de justice militaire du Taiwan Garrison Command, où se tint en 1980 le premier tribunal du grand procès de Formosa](/article-images/history/nhrm-jingmei-park.webp)
 _Parc culturel des droits humains de Jingmei. Photo : Chang Yung-tai. [Public Domain (Voice of America) via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E6%99%AF%E7%BE%8E%E4%BA%BA%E6%AC%8A%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80.jpg)._
 
 131, Fuxing Road, district de Xindian, Nouveau Taipei. Dix minutes à pied depuis la station Shisizhang du métro, ligne circulaire[^8].

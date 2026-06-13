@@ -68,7 +68,7 @@ translatedAt: '2026-06-06T00:00:00Z'
 
 ## 아무도 안 보는 TV가 전국민의 집단 치유 드라마를 만들다
 
-![공공방송, 객가 TV, 원주민 TV 세 방송사 앵커 데스크, 2010년 중화민국 국경일 공공방송 건물 내 연계 생중계 현상, 공공방송 그룹의 다언어 채널 판도를 상징](/article-images/society/pts-tbs-newscaster-desk-2010.jpg)
+![공공방송, 객가 TV, 원주민 TV 세 방송사 앵커 데스크, 2010년 중화민국 국경일 공공방송 건물 내 연계 생중계 현상, 공공방송 그룹의 다언어 채널 판도를 상징](/article-images/society/pts-tbs-newscaster-desk-2010.webp)
 _2010년 10월 10일 중화민국 국경일, 공공방송, 객가 TV, 원주민 TV 세 방송사 앵커가 공공방송 그룹 건물의 연계 생중계 앵커 데스크에 앉아 있다. Photo: Solomon203. [CC BY 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Public_Television_Service,_Hakka_TV,_and_Taiwan_Indigious_TV_newscaster_desk_on_Double_Ten_Day_2010.jpg)._
 
 공공방송 주채널의 종일 평균 시청률은 장기간 0.5 미만을 유지했다. 이 수치는 오랫동안 "공공방송은 아무도 안 본다"는 논거로 인용되었으며, 감찰원 2024년 시정 조서에서도 공공방송의 무선 시장 점유율 순위가 정체되어 있다고 언급했다[^14].
@@ -115,7 +115,7 @@ _2010년 10월 10일 중화민국 국경일, 공공방송, 객가 TV, 원주민 
 
 ## TaiwanPlus와 보이지 않는 방화벽
 
-![차잉원(蔡英文) 대통령이 공공방송 TaiwanPlus 채널 개국 기자회견에 참석하여 연설하는 모습, 2022년 10월 3일 국제 영어 채널 정식 개국](/article-images/society/pts-taiwanplus-launch-2022.jpg)
+![차잉원(蔡英文) 대통령이 공공방송 TaiwanPlus 채널 개국 기자회견에 참석하여 연설하는 모습, 2022년 10월 3일 국제 영어 채널 정식 개국](/article-images/society/pts-taiwanplus-launch-2022.webp)
 _2022년 10월 3일, 차잉원 대통령이 공공방송 TaiwanPlus 24시간 국제 영어 채널 개국 기자회견에 참석하여 연설하기 전의 현장 모습. Photo: 젠즈홍(簡至宏) / 중화민국 대통령실. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:10.03_%E7%B8%BD%E7%B5%B1%E5%87%BA%E5%B8%AD%E3%80%8C%E5%85%AC%E5%85%B1%E9%9B%BB%E8%A6%96TaiwanPlus%E9%A0%BB%E9%81%93%E9%96%8B%E6%92%AD%E8%A8%98%E8%80%85%E6%9C%83%E3%80%8D\*(52400876416).jpg).\_
 
 2021년, 문화부는 5.8억 신대만 달러로 TaiwanPlus 계획을 시작했고, 2022년 10월 3일 24시간 국제 영어 TV 채널로 업그레이드하여 정식 개국했다[^30]. 처음에 공공방송(PTS)이 제안을 인수했을 때 "정부 선전 도구" + "정부의 공공방송 개입"이라는 강렬한 반발을 받았고, 문화부는 철회하여 중앙통신사(中央通訊社)가 대신 수행했으며, 2022년 8월 NCC가 플랫폼을 PTS로 이관한다고 공고했다[^31]. 3년간(2021-2023) TaiwanPlus는 약 30억을 소진했으며, 감사부는 대만 마케팅 계획 목표에 미달한다고 평가했고, 서비스 개시 1년 후(2022년 중반) 앱 다운로드 수는 수만 건에 불과하여 계획 목표 100만 건에 크게 미달했다[^32].

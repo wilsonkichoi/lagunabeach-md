@@ -59,7 +59,7 @@ En 2014, Cheng Kuo-wei a donné une autre série de chiffres précoces : la prem
 
 Ces chiffres montrent que la société taïwanaise avait bien une demande de lecture scientifique, mais que cette demande ne ressemblait pas nécessairement à des manuels scolaires, ni à des articles de recherche. L'interstice trouvé par PanSci consistait à faire passer la science du statut de « réponse » à celui de « méthode de discussion ».
 
-![Bannière de la page d'accueil du site officiel de PanSci, avec un visuel principal en forme de cerveau et le slogan « Make our science PanScience », accompagné d'illustrations de matériel de laboratoire et de livres](/article-images/society/pansci-banner-2024.jpg)
+![Bannière de la page d'accueil du site officiel de PanSci, avec un visuel principal en forme de cerveau et le slogan « Make our science PanScience », accompagné d'illustrations de matériel de laboratoire et de livres](/article-images/society/pansci-banner-2024.webp)
 _Bannière de la page d'accueil officielle de PanSci. Le slogan « Make our science PanScience » condense la proposition centrale de 2011 en un mot : « Pan » (pour tous, transdisciplinaire, ouvrant la science afin que chacun puisse y entrer). Fair use editorial commentary on PanSci's brand identity._
 
 La page officielle « À propos » formule directement sa mission : PanSci invite chercheurs, éducateurs, passionnés et personnes affectées par la science à discuter ensemble de science, à replacer le développement scientifique dans le forum public taïwanais, et à penser rationnellement la dimension scientifique des enjeux sociaux.[^about]
@@ -154,7 +154,7 @@ Cela relie aussi PanSci à l'[industrie et culture des YouTubeurs taïwanais](/f
 
 ## Du site à l'industrie du savoir
 
-![Logo de PanSci : mot PanSci en noir avec une ligne ondulée violette et la mention « Be curious about everything! » en dessous](/article-images/society/pansci-logo-2024.png)
+![Logo de PanSci : mot PanSci en noir avec une ligne ondulée violette et la mention « Be curious about everything! » en dessous](/article-images/society/pansci-logo-2024.webp)
 _Logo de PanSci, version 2024. Le slogan « Be curious about everything! » correspond à son passage progressif de « site de vulgarisation scientifique » à « chaîne d'approvisionnement en contenus de savoir ». Fair use editorial commentary on PanSci's brand identity._
 
 La société mère de PanSci, PanMedia Knowledge, ressemble elle aussi de plus en plus à un prestataire de l'industrie du savoir.

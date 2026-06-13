@@ -47,7 +47,7 @@ Central Election Commission 2025 Maanshan restart referendum result
 
 It won the debate and lost the system. This paradox from the summer of 2025 is the entry point for understanding Taiwan’s entire nuclear debate: on the surface, it asks whether nuclear power is good; underneath, the argument is about something else.
 
-![In April 2013, anti-nuclear civic groups surrounded the Legislative Yuan. This has been the most familiar street scene in Taiwan’s nuclear debate over the past forty years.](/article-images/society/anti-nuclear-protest-legislative-yuan-voa-2013.jpg)
+![In April 2013, anti-nuclear civic groups surrounded the Legislative Yuan. This has been the most familiar street scene in Taiwan’s nuclear debate over the past forty years.](/article-images/society/anti-nuclear-protest-legislative-yuan-voa-2013.webp)
 
 ## The Yellow Flag That Said “I Am Human, I Am Anti-Nuclear”
 
@@ -183,7 +183,7 @@ The entire final disposal plan for high-level nuclear waste has five stages, is 
 
 Nuclear waste needs a piece of land that will remain stable for at least 100,000 years. Taiwan stands on a faulted landmass that keeps moving. This is the deepest groove in the debate: it forces an island with less-than-ideal geological conditions to answer whether it wants to, and can, take responsibility for an energy source that leaves a legacy lasting tens of thousands of years. There is no winner to be argued out of this question. What remains is whether one is willing to bear it.
 
-![The Fourth Nuclear Power Plant, or Lungmen, was completed but never generated a single unit of commercial electricity. It has been sealed since 2014.](/article-images/society/longmen-nuclear-plant-2023.jpg)
+![The Fourth Nuclear Power Plant, or Lungmen, was completed but never generated a single unit of commercial electricity. It has been sealed since 2014.](/article-images/society/longmen-nuclear-plant-2023.webp)
 
 ## Orchid Island’s “Canned Food Factory”
 
@@ -201,7 +201,7 @@ In November that year, the government announced a retroactive compensation plan:
 
 > **✦** Orchid Island’s sentence, “we will not take a single cent,” is the voice in the entire nuclear debate that most deserves to be heard and is most often skipped over. It reminds us that the cost of nuclear power has never been written only on electricity bills. When both sides of the debate calculate “how many dollars per kilowatt-hour” and “how many tons of carbon reduced,” there is another kind of cost: one paid silently over forty years in land and dignity by people who had no seat at the decision-making table.
 
-![A traditional Tao settlement on Orchid Island. The low-level nuclear waste storage facility has been located on the island since 1982, and the promise to remove it remains unmet. The image shows a Tao underground house, not the storage facility itself.](/article-images/society/lanyu-tao-underground-house.jpg)
+![A traditional Tao settlement on Orchid Island. The low-level nuclear waste storage facility has been located on the island since 1982, and the promise to remove it remains unmet. The image shows a Tao underground house, not the storage facility itself.](/article-images/society/lanyu-tao-underground-house.webp)
 
 ## Gas for Ten Days, Uranium for Eighteen Months
 

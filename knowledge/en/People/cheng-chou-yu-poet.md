@@ -88,7 +88,7 @@ Even so, he was never thoroughly “Americanized.” He still wrote poetry in Ch
 
 ## Return: registering in Kinmen in 2005
 
-![Sunset over Cihu, Kinmen — the shore where Cheng Chou-yu often walked alone after registering his household in Kinmen in 2005](/article-images/people/zheng-chouyu-cikan-sunset-kinmen.jpg)
+![Sunset over Cihu, Kinmen — the shore where Cheng Chou-yu often walked alone after registering his household in Kinmen in 2005](/article-images/people/zheng-chouyu-cikan-sunset-kinmen.webp)
 _Sunset over Cihu, Kinmen. After retiring from Yale and returning to Taiwan in 2005, Cheng Chou-yu often walked alone along Cihu’s shore, watching the tides rise and fall. Photo: Meigazine CHENG (Wikimedia Commons, CC BY-SA 4.0)_
 
 The year 2005 was a crucial turning point in Cheng Chou-yu’s life. That year, at 72, he retired from Yale and decided to return to Taiwan. His place of return was not Taipei, nor Hsinchu, where he had attended secondary school, but Kinmen.
@@ -103,7 +103,7 @@ These activities formed the prelude to his formal household registration in Kinm
 
 ## The Mantle of Peace and the 823 Peace Bell
 
-![Panorama of Cihu, Kinmen — the island landscape where Cheng Chou-yu most often lingered in his later years](/article-images/people/zheng-chouyu-kinmen-cilake.jpg)
+![Panorama of Cihu, Kinmen — the island landscape where Cheng Chou-yu most often lingered in his later years](/article-images/people/zheng-chouyu-kinmen-cilake.webp)
 _Panorama of Cihu, Kinmen. Located in Jinning Township, Kinmen County, Cihu covers 120 hectares and is Kinmen’s largest artificial lake. It was originally created in 1969 by building an embankment under Chiang Ching-kuo’s military supervision, and after the 1990s became a habitat for migratory birds. Photo: Mnb (Wikimedia Commons, CC BY-SA 4.0)_
 
 After registering his household in Kinmen, Cheng Chou-yu wrote a new poetry collection titled The Mantle of Peace: A Century of Poetry, Ten Thousand Ages of Tranquility, which won the 10th Global Life Literature Creation Award. The central subject of this collection was peace. For someone whose ancestral home was Hebei, who was born in Shandong, who fled with his mother through Chinese provinces during the War of Resistance, crossed the sea in 1949, first set foot on the Kinmen front line in 1967, and registered his household in Kinmen in 2005, “peace” was not an abstract word but a concrete condition pursued over an entire lifetime.

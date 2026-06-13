@@ -39,7 +39,7 @@ Primero, un problema técnico. El núcleo del rap es el ritmo y la rima, y el in
 
 ¿Cómo respondieron los rappers taiwaneses a ese problema? La respuesta está en Sung Yueh-ting. DJ KU, de la Sociedad de Investigación de Hip Hop de la Universidad Nacional de Taiwán, lo describió como «pionero de la técnica de la doble rima», con cortes de fraseo y estilo vocal cercanos a Tupac[^3]. La doble rima consiste en rimar simultáneamente dos grupos de terminaciones dentro de una misma línea, de modo que el sentido rítmico del chino ya no dependa de los tonos, sino de la **densidad de la rima**. Fue una primera forma de rodear la desventaja: si los tonos no podían generar una pulsación natural como el acento inglés, entonces una rima más tupida llenaría el vacío rítmico.
 
-![Retrato conmemorativo del rapero Sung Yueh-ting: un rostro joven, de expresión tranquila.](/article-images/music/sung-yueh-ting-portrait.jpg)
+![Retrato conmemorativo del rapero Sung Yueh-ting: un rostro joven, de expresión tranquila.](/article-images/music/sung-yueh-ting-portrait.webp)
 
 _Sung Yueh-ting (1978-2002), fallecido a los veintitrés años. Su obra póstuma «Life's a Struggle» empujó el rap en chino un paso adelante mediante la doble rima y ganó el premio a mejor letrista en la 15.ª edición de los Golden Melody Awards, en 2004. Retrato conmemorativo, fair use editorial commentary._
 
@@ -76,7 +76,7 @@ La representante de la línea indígena es Abao, Aljenljeng Tjaluvie, paiwan de 
 
 > **✦** «Gracias a todos los oyentes que alguna vez presionaron PLAY para compartir; gracias por intentar escuchar una lengua que no comprenden».
 
-![Portada del álbum «Songs of Madness» de Blacklist Studio, de 1989, con figuras y tonos rojos y negros; una imagen representativa del nuevo movimiento taiwanés.](/article-images/music/blacklist-studio-songs-of-madness-1989.jpg)
+![Portada del álbum «Songs of Madness» de Blacklist Studio, de 1989, con figuras y tonos rojos y negros; una imagen representativa del nuevo movimiento taiwanés.](/article-images/music/blacklist-studio-songs-of-madness-1989.webp)
 
 _Blacklist Studio, «Songs of Madness» (1989). Al unir tsa̍p-liām-á taiwanés, rap y reggae, fue precursor del «nuevo movimiento de canciones en taiwanés» e hizo que, por primera vez, el acento taiwanés fuera tratado como un activo. Portada de álbum, fair use editorial commentary._
 
@@ -109,7 +109,7 @@ Nine One One se formó en Taichung en septiembre de 2009. Sus tres integrantes, 
 
 _MV oficial de Nine One One: «A Fool in Love», con cerca de 80 millones de reproducciones, fue el verdadero caudal popular que llevó el rap a las entradas de los templos y a los night markets._
 
-![Nine One One actúa en el gran escenario de la fiesta de Año Nuevo en Taipéi: los tres sostienen micrófonos, con el cielo nocturno urbano y luces de escenario de fondo.](/article-images/music/nine-one-one-newyear-2017.jpg)
+![Nine One One actúa en el gran escenario de la fiesta de Año Nuevo en Taipéi: los tres sostienen micrófonos, con el cielo nocturno urbano y luces de escenario de fondo.](/article-images/music/nine-one-one-newyear-2017.webp)
 
 _Nine One One actúa en la fiesta de Año Nuevo de Taipéi. Surgidos de ferias de templo y night markets, acumularon cerca de 80 millones de reproducciones en YouTube con «A Fool in Love», el verdadero caudal que llevó el rap a los oídos taiwaneses comunes. Foto: Departamento de Información y Turismo del Gobierno de la Ciudad de Taipéi, CC0 vía Wikimedia Commons._
 
@@ -131,7 +131,7 @@ _MV oficial de KAO!INC.: «Classic!», colaboración de Soft Lipa con la banda j
 
 El más mainstream en términos comerciales fue True Color Music, fundado en Taipéi en 2004 por Chang Chen-yue y Huang Ching-po, con MC HotDog y MJ116 como dos grandes marcas, y una línea comercial de espíritu fraternal[^27]. MJ116, donde MJ es Muzha y 116 el código postal del distrito de Wenshan, integrado por E.SO, Chen Yu-jung; Kenzy, Chou Wen-chieh; y Muta, Lin Mu-yuan, ganó con «Big Thing» de 2017 el premio a mejor grupo vocal en la 29.ª edición (2018) de los Golden Melody Awards, y representa el rap idol de nueva generación[^28].
 
-![Kenzy, Chou Wen-chieh, integrante de MJ116, actúa en un evento del Gobierno de la Ciudad de Taoyuan, con gorra y micrófono en mano.](/article-images/music/mj116-kenzy-2021.jpg)
+![Kenzy, Chou Wen-chieh, integrante de MJ116, actúa en un evento del Gobierno de la Ciudad de Taoyuan, con gorra y micrófono en mano.](/article-images/music/mj116-kenzy-2021.webp)
 
 _Kenzy, Chou Wen-chieh, de MJ116, en 2021. Surgidos de Muzha 116, MJ116 empaquetó el hip hop como idol de nueva generación y en 2025 hizo siete conciertos seguidos en el Taipei Arena. Foto: Gobierno de la Ciudad de Taoyuan, atribución vía Wikimedia Commons._
 
@@ -169,7 +169,7 @@ _MV oficial de KAO!INC.: Leo Wang, «Wú Bìng Shēn Yín» feat. Soft Lipa. El 
 
 El segundo cierre llegó en 2024. MC HotDog, llamado por los medios «padrino del hip hop», cuyo nombre real es Yao Chung-jen y estudió Comunicación Visual en la Universidad Católica Fu Jen, ganó con «Disgusting Artist» el premio a mejor cantante masculino en mandarín en la 35.ª edición de los Golden Melody Awards: su primer título como rey cantante, además de llevarse también mejor letrista[^34]. Desde su debut en 1998, pasando por el premio a mejor álbum en mandarín con «Wake Up» en 2007, hasta finalmente coronarse en 2024, el padrino necesitó veintiséis años para completar la última pieza del reconocimiento institucional.
 
-![El rapero MC HotDog actúa de perfil en el escenario con un micrófono adidas en la mano, gorra y expresión concentrada.](/article-images/music/mc-hotdog-mic-2012.jpg)
+![El rapero MC HotDog actúa de perfil en el escenario con un micrófono adidas en la mano, gorra y expresión concentrada.](/article-images/music/mc-hotdog-mic-2012.webp)
 
 _MC HotDog en una presentación de 2012. Llamado «padrino del hip hop», pasó del underground al mainstream, pero recién en 2024 obtuvo finalmente el Golden Melody a mejor cantante masculino. Foto: Chiu Yu-feng, CC BY-SA 4.0 vía Wikimedia Commons._
 
@@ -188,7 +188,7 @@ Dwagie llevó esa diferencia hasta el punto más lejano. En enero de 2017 cantó
 
 Hay que decirlo con honestidad: la autenticidad y el alcance de esa lista de veto son difíciles de verificar, y las versiones oficiales no coinciden. La relación entre la escena taiwanesa de hip hop y el otro lado del estrecho abarca un espectro amplio, desde desarrollar carrera allí hasta ser señalado como vetado, con posiciones muy diversas. Más que tomar partido, aquí interesa mostrar algo: cuando la polifonía de una música ya es política en sí misma, la fricción con un mercado que busca un discurso único está destinada a aparecer. Esa fricción es la prueba más concreta de la idea de «huella vocal de soberanía».
 
-![El rapero Dwagie actúa en el escenario de un festival de Año Nuevo, micrófono en mano, con expresión concentrada y luces de escenario de fondo.](/article-images/music/dwagie-portrait-2019.jpg)
+![El rapero Dwagie actúa en el escenario de un festival de Año Nuevo, micrófono en mano, con expresión concentrada y luces de escenario de fondo.](/article-images/music/dwagie-portrait-2019.webp)
 
 _Dwagie. Fue el primer rapper taiwanés en subir a un escenario de la NBA y también fue cubierto por la revista Time. Durante años ha usado el taiwanés para hablar en sus canciones de derechos humanos y política. Foto: Gobierno de la Ciudad de Chiayi, atribución vía Wikimedia Commons._
 
@@ -204,7 +204,7 @@ Quien estuvo casi diez años sola dentro de ese muro fue Miss Ko, Ko Chung-shan,
 
 > **✦** «Una rapera nunca vista en Taiwán; sus técnicas de hip hop son auténticas y precisas, su desempeño supera al de los raperos hombres, y nadie en la escena musical en chino puede igualarla». — Jurado de la 24.ª edición de los Golden Melody Awards, sobre Miss Ko
 
-![La rapera Miss Ko canta con micrófono en mano durante una presentación; lleva el pelo largo y una expresión segura.](/article-images/music/miss-ko-cmj-2013.jpg)
+![La rapera Miss Ko canta con micrófono en mano durante una presentación; lleva el pelo largo y una expresión segura.](/article-images/music/miss-ko-cmj-2013.webp)
 
 _Miss Ko en el festival CMJ de Nueva York, 2013. Fue la primera rapera taiwanesa en ganar el Golden Melody a mejor artista nueva; el jurado dijo que «nadie en la escena musical en chino puede igualarla», pero después volvió a sostener casi sola ese lugar durante cerca de diez años. Foto: May S. Young, CC BY-SA 2.0 vía Wikimedia Commons._
 

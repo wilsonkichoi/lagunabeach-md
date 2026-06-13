@@ -84,7 +84,7 @@ The 2001 album _Tonight, Take Care_ was the first to use a real photo on the cov
 
 To understand Where Chou's place in Taiwan's music history, you first need to understand the lineage of "Agreement."
 
-![Faye Wong's 1997 EP *Toys* containing the Cantonese version of "Agreement," lyrics by Albert Leung, music by Chen Xiaoxia, winner of the CRHK Ultimate Song Chart Award](/article-images/music/wang-fei-yueding-1997.jpg)
+![Faye Wong's 1997 EP *Toys* containing the Cantonese version of "Agreement," lyrics by Albert Leung, music by Chen Xiaoxia, winner of the CRHK Ultimate Song Chart Award](/article-images/music/wang-fei-yueding-1997.webp)
 _Faye Wong's 1997 EP *Toys* — "Agreement" Cantonese version, lyrics by Albert Leung, music by Chen Xiaoxia. Fair use editorial commentary on the original work. [Source via YouTube](https://www.youtube.com/watch?v=gjC00DJPeLs)._
 
 The original was Faye Wong's. In 1997, she included a Cantonese "Agreement" on her EP _Toys_, with lyrics by Albert Leung and music by Chen Xiaoxia.[^12] This version won the CRHK Ultimate Song Chart Award, and Albert Leung won the Best Chinese Pop Lyrics award at the 20th Top Ten Chinese Gold Songs Awards for these lyrics. It was already a well-regarded song in the Cantonese-speaking world.
@@ -298,7 +298,7 @@ Saturday night, April 25, 2026, Taipei Arena.
 
 This was Where Chou's first Taipei Arena concert in 27 years since debut.[^5] The concert was titled _Want to Love You Well, Where Chou_, with stage design by Li Shih-ch'i, a designer designated for the Golden Melody Awards and Golden Horse Awards, using a kaleidoscope concept. The entire show ran three hours with 25 songs.[^34] After tickets went on sale at noon on January 22, they sold out quickly, and an additional show was added.
 
-![April 25, 2026, Where Chou on stage at Taipei Arena during the *Want to Love You Well, Where Chou* concert, her first assault on the Arena in 27 years since debut](/article-images/music/zhou-hui-xiaojudan-2026.jpg)
+![April 25, 2026, Where Chou on stage at Taipei Arena during the *Want to Love You Well, Where Chou* concert, her first assault on the Arena in 27 years since debut](/article-images/music/zhou-hui-xiaojudan-2026.webp)
 _April 25, 2026, Taipei Arena, *Want to Love You Well, Where Chou* concert. Fair use editorial commentary. [Source via TVBS YouTube](https://www.youtube.com/watch?v=DXW6TkALWSE)._
 
 For the first nine songs, Where Chou barely spoke. She rose, descended, moved positions, coordinating with stage mechanisms, singing continuously. After the ninth song, she finally addressed the audience:

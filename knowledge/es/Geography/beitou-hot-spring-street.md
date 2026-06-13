@@ -46,7 +46,7 @@ translatedAt: '2026-05-23T05:06:38+08:00'
 
 ## A las seis de la mañana, el vapor de agua en el Parque Beitou
 
-![Aspecto exterior del Museo de Aguas Termales de Beitou, antiguo baño público de Beitou de 1913, edificio de ladrillo rojo de dos pisos de inspiración inglesa, con galería de arcos y vitrales, diseñado por Moriyama Matsunosuke](/article-images/geography/beitou-hot-spring-museum-2020.jpg)
+![Aspecto exterior del Museo de Aguas Termales de Beitou, antiguo baño público de Beitou de 1913, edificio de ladrillo rojo de dos pisos de inspiración inglesa, con galería de arcos y vitrales, diseñado por Moriyama Matsunosuke](/article-images/geography/beitou-hot-spring-museum-2020.webp)
 _Exterior del Museo de Aguas Termales de Beitou, originalmente el baño público de aguas termales de Beitou terminado en 1913. Photo: Wikimedia Commons contributor. [License via Wikimedia](https://commons.wikimedia.org/wiki/File:Beitou_Hot_Spring_Museum_2.jpg) (CC BY-SA 4.0)._
 
 Si le preguntas a un adolescente taipeiano de 18 años “adónde vamos el fin de semana”, dirá Ximending. Si le preguntas a una abuela de 70 años “adónde fuiste a caminar esta mañana”, dirá Xinbeitou.
@@ -105,7 +105,7 @@ Hirata Gengo vivió en Tengu-an hasta su muerte, el 7 de julio de 1919 (año 8 d
 
 ## 1913, el baño de ladrillo rojo de Moriyama Matsunosuke
 
-![Escalinata ante la entrada del Museo de Aguas Termales de Beitou y fachada de estilo villa campestre inglesa, edificio de ladrillo rojo de dos pisos terminado en 1913](/article-images/geography/beitou-hot-spring-museum-entrance.jpg)
+![Escalinata ante la entrada del Museo de Aguas Termales de Beitou y fachada de estilo villa campestre inglesa, edificio de ladrillo rojo de dos pisos terminado en 1913](/article-images/geography/beitou-hot-spring-museum-entrance.webp)
 _Entrada del Museo de Aguas Termales de Beitou, antiguo baño público de 1913. Photo: Wikimedia Commons contributor. [License via Wikimedia](https://commons.wikimedia.org/wiki/File:Entrance_of_Beitou_public_hot_spring.jpg) (CC BY-SA)._
 
 Después de que se construyera Tengu-an, Beitou se convirtió en un lugar terapéutico de visita obligada para los japoneses que llegaban a Taiwán. El 17 de junio de 1913 (año 2 de Taishō), la prefectura de Taipéi destinó más de 56.000 yenes de fondos de salud pública y construyó oficialmente un gran baño público, que fue inaugurado ese día[^4][^9].
@@ -126,7 +126,7 @@ El final de la línea era la “parada Xinbeitou”, luego estación Xinbeitou, 
 
 ## 1923, el príncipe heredero vino a bañarse una vez
 
-![Fotografía documental de la visita del príncipe heredero Hirohito al baño público de aguas termales de Beitou el 25 de abril de 1923](/article-images/geography/beitou-hirohito-public-bathhouse-1923.jpg)
+![Fotografía documental de la visita del príncipe heredero Hirohito al baño público de aguas termales de Beitou el 25 de abril de 1923](/article-images/geography/beitou-hirohito-public-bathhouse-1923.webp)
 _Fotografía documental de la visita del príncipe heredero Hirohito al baño público de Beitou en 1923. Photo: Public domain (戰前文書, 1923). [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Crown_Prince_Hirohito%27s_visit_at_Hokutō_Public_Bathhouse_1923.jpg)._
 
 En abril de 1923 (año 12 de Taishō), el **príncipe heredero Hirohito**, luego emperador Shōwa, visitó Taiwán durante 12 días en calidad de regente en representación del emperador Taishō[^6]. Fue la primera visita de la familia imperial japonesa a la colonia de Taiwán.
@@ -207,7 +207,7 @@ En noviembre de 2002, el **Centro Cultural Ketagalan** abrió en el número 3-1 
 
 ## 2017, la estación vuelve a casa
 
-![Estación Xinbeitou, inaugurada en 1916, reensamblada en 2017 en el Parque Qixing tras su regreso; construida con ciprés rojo taiwanés y con cuatro aberturas circulares en buhardillas](/article-images/geography/xinbeitou-historic-station-2023.jpg)
+![Estación Xinbeitou, inaugurada en 1916, reensamblada en 2017 en el Parque Qixing tras su regreso; construida con ciprés rojo taiwanés y con cuatro aberturas circulares en buhardillas](/article-images/geography/xinbeitou-historic-station-2023.webp)
 _Estado actual de la estación Xinbeitou reensamblada en el Parque Qixing. Photo: Wikimedia Commons contributor. [License via Wikimedia](https://commons.wikimedia.org/wiki/File:Front_view_of_Xinbeitou_Station_on_a_bright_sunny_day.jpg) (CC BY-SA)._
 
 El 15 de julio de 1988, el día en que el ramal Xinbeitou fue cerrado, la estación de ciprés rojo taiwanés construida en 1916 fue desmontada, transportada a Changhua y reensamblada dentro del Taiwan Folk Village[^19]. Permaneció en Changhua 24 años. Nadie subió a un tren en esa estación durante ese tiempo; se convirtió en un objeto de exhibición del parque folclórico, algo que los visitantes fotografiaban, miraban un momento y dejaban atrás[^19].
@@ -226,7 +226,7 @@ Entre 1916 y 2017, esta estación pasó por: **ferrocarril turístico del period
 
 ## Capa material: ladrillo rojo, piedra de Qilian, hokutolita, ciprés
 
-![Superficie humeante de las aguas de azufre verde del Valle Geotérmico, manantial sulfurosos de casi 100°C](/article-images/geography/beitou-thermal-valley.jpg)
+![Superficie humeante de las aguas de azufre verde del Valle Geotérmico, manantial sulfurosos de casi 100°C](/article-images/geography/beitou-thermal-valley.webp)
 _Aguas de azufre verde del Valle Geotérmico. Photo: Wikimedia Commons contributor. [License via Wikimedia](https://commons.wikimedia.org/wiki/File:Beitou_Thermal_Valley.jpg) (CC BY-SA)._
 
 La capa material de esta calle de Beitou cuenta una historia en cada elemento.
@@ -257,7 +257,7 @@ Si recorres estos tres puntos, más el Museo de Aguas Termales y el Valle Geoté
 
 ## El mismo manantial de montaña, la próxima generación de habitantes
 
-![Seis piscinas públicas del Baño Termal al Aire Libre del Parque Beitou, “Millennium Hot Spring”](/article-images/geography/beitou-park-outdoor-pool-2018.jpg)
+![Seis piscinas públicas del Baño Termal al Aire Libre del Parque Beitou, “Millennium Hot Spring”](/article-images/geography/beitou-park-outdoor-pool-2018.webp)
 _Baño Termal al Aire Libre del Parque Beitou, Millennium Hot Spring. Photo: Wikimedia Commons contributor. [License via Wikimedia](https://commons.wikimedia.org/wiki/File:Beitou_Park_Outdoor_Hot_Spring_Bathing_Pool.jpg) (CC BY-SA)._
 
 A las seis de la mañana, el baño al aire libre aún no abrió, pero en la entrada ya hay una fila de señoras mayores sentadas.

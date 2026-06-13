@@ -54,7 +54,7 @@ Regardless of strong winds and heavy rain, broken bridges, and collapsed roads, 
 
 ## Where Even Thorny Bamboo Can Survive, a Kingdom of Head Chefs Grew
 
-![The mudstone badlands of the Gutingkeng Formation in Kaohsiung, with gray-white ridges exposed one after another, almost barren, with sparse green trees and small settlements in the distance](/article-images/food/tianliao-moon-world-badlands-2019.jpg)
+![The mudstone badlands of the Gutingkeng Formation in Kaohsiung, with gray-white ridges exposed one after another, almost barren, with sparse green trees and small settlements in the distance](/article-images/food/tianliao-moon-world-badlands-2019.webp)
 _The mudstone badlands of the Gutingkeng Formation in the Kaohsiung area, commonly known as the "Moon World." Neimen is located on the edge of this landscape where even crops struggle to grow. Photo: StevenK234, 2019. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tianliao_Moon_World_3.jpg)._
 
 To understand how this martial field discipline was forged, one must first look at a land that is difficult to cultivate.
@@ -132,7 +132,7 @@ Older generation masters often use presidential terms to remember the industry's
 
 From 1988 to 2000, the 12 years during which Lee Teng-hui served as president are considered the golden age of Bando. It was not only the era of traditional "Eight Celebrations and One Funeral"—engagement, marriage, full-month, returning to natal home, opening business, birthday, moving house, passing away—; it was also an era where even children getting PhDs or winning pigeon racing prizes would host a banquet [^21]. When auspicious lunar days arrived, temple gates and roadside were full of "Black Forest Grand Hotels." The origin of this name is very Taiwanese: early canvas tents were often provided by beverage companies, with Black Forest soda advertisements printed on them. Over time, "Black Forest Grand Hotel" became a synonym for Bando [^21].
 
-![Round tables with red chair covers in Tainan at night, one table after another, filled with guests, with storefronts with rolled-down iron doors and parked motorcycles in the background](/article-images/food/bando-street-banquet-tainan-2014.jpg)
+![Round tables with red chair covers in Tainan at night, one table after another, filled with guests, with storefronts with rolled-down iron doors and parked motorcycles in the background](/article-images/food/bando-street-banquet-tainan-2014.webp)
 _A Bando directly held on the street in Tainan in 2014. Closing the street, setting up tables, and opening the feast is the most everyday appearance of the "Black Forest Grand Hotel." Photo: Ce Jingzhe, 2014. [CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File/2014-12-07_a_banquet_on_street_in_Tainan.jpg)._
 
 How prosperous that period was, Xue Menghui remembers most clearly from his father Xue Qingji's work diary.

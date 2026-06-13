@@ -56,7 +56,7 @@ En la segunda edición participaron sólo 40 empresas[^4]. Nadie habría imagina
 
 ## El año en que Stan Shih le cambió el nombre
 
-![Stan Shih durante una entrevista conjunta con varios medios en el evento Taipei IT Month de 2014; viste traje oscuro, frente a él hay una fila de micrófonos y cámaras, y detrás se ve el recinto de la feria](/article-images/technology/stan-shih-taipei-it-month-2014.jpg)
+![Stan Shih durante una entrevista conjunta con varios medios en el evento Taipei IT Month de 2014; viste traje oscuro, frente a él hay una fila de micrófonos y cámaras, y detrás se ve el recinto de la feria](/article-images/technology/stan-shih-taipei-it-month-2014.webp)
 _Stan Shih, fundador de Acer. En 1984 rebautizó la «Feria de Computadoras de la Ciudad de Taipéi» como COMPUTEX TAIPEI y le puso a la feria un rótulo orientado al mundo; en la imagen, durante una entrevista en Taipei IT Month en 2014. Photo: Tony Tseng, 2014-12-05. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stan_Shih_at_Taipei_IT_Month_20141205a.jpg)._
 
 1984 fue un punto de inflexión. Según Wikipedia y varios reportes, Stan Shih, entonces presidente de la Asociación de Computadoras de Taipéi y más tarde fundador de Acer, decidió formalizar el nombre inglés de la feria como «COMPUTEX TAIPEI»[^4][^5]. El gesto de nombrar por parte de un ingeniero local colgó, sobre una exposición que originalmente miraba sólo a los fabricantes taiwaneses, un letrero dirigido al mundo.
@@ -74,7 +74,7 @@ Al entrar el siglo XXI, la balanza entre las tres grandes ferias informáticas d
 
 La primera en caer fue COMDEX, en Estados Unidos. En 2003, con el declive de COMDEX, los organizadores de Computex incorporaron oficialmente el Taipei World Trade Center Hall 3 al área de exposición. Ese año la feria ascendió formalmente al lugar de «segunda mayor feria informática del mundo, sólo detrás de CeBIT», y en 2004 consolidó una escala de cuatro recintos simultáneos[^4][^5].
 
-![El recinto de CeBIT 2005 en Hannover, Alemania, lleno de visitantes; a ambos lados de los amplios pasillos se alinean puestos de empresas tecnológicas, con techos altos y abundantes letreros, mostrando la escala que tenía entonces la mayor feria informática del mundo](/article-images/technology/cebit-hannover-2005.jpg)
+![El recinto de CeBIT 2005 en Hannover, Alemania, lleno de visitantes; a ambos lados de los amplios pasillos se alinean puestos de empresas tecnológicas, con techos altos y abundantes letreros, mostrando la escala que tenía entonces la mayor feria informática del mundo](/article-images/technology/cebit-hannover-2005.webp)
 _El recinto de CeBIT 2005 en Hannover, Alemania. En el auge de la burbuja de internet llegó a reunir 850.000 visitantes y fue, sin discusión, la mayor feria informática del mundo; en 2018 anunció su fin. Photo: Florian K, 2005-03-16. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cebit_Hannover_2004.JPG)._
 
 La que resistió más tiempo fue la alemana CeBIT. CeBIT se independizó en 1986 de la histórica feria industrial de Hannover y, en el apogeo de la burbuja de internet, llegó a alcanzar 850.000 visitantes: era, sin discusión, la número uno del mundo[^7]. Pero tras tocar la cima empezó el declive. La asistencia y el número de expositores cayeron año tras año, y el mercado fue repartido en fragmentos por el CES de enero, el MWC de febrero, Computex en junio y la IFA en septiembre. En noviembre de 2018, los organizadores anunciaron que CeBIT pasaba a la historia[^7].
@@ -90,7 +90,7 @@ De las tres grandes ferias informáticas, COMDEX cerró en 2003, CeBIT cerró en
 
 ## Los seis mil puestos que nadie fotografía
 
-![Exterior del Nangang Exhibition Center Hall 1, un edificio con muro cortina de vidrio y un gran letrero de COMPUTEX TAIPEI; frente a la entrada se reúne una multitud de visitantes con credenciales, lista para ingresar. Este es el recinto principal reciente de la Exposición Internacional de Computadoras de Taipéi](/article-images/technology/computex-nangang-exterior-2016.jpg)
+![Exterior del Nangang Exhibition Center Hall 1, un edificio con muro cortina de vidrio y un gran letrero de COMPUTEX TAIPEI; frente a la entrada se reúne una multitud de visitantes con credenciales, lista para ingresar. Este es el recinto principal reciente de la Exposición Internacional de Computadoras de Taipéi](/article-images/technology/computex-nangang-exterior-2016.webp)
 _El Taipei Nangang Exhibition Center, recinto principal reciente de COMPUTEX. Cada año, entre fines de mayo y comienzos de junio, aquí se concentran compradores de más de cien países. Photo: NVIDIA Taiwan, 2016-05-31. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Computex_Taipei_at_Taipei_Nangang_Exhibition_Center_20160531.jpg)._
 
 Las cámaras de los medios siempre apuntan al escenario de las conferencias principales, a esos pocos CEO. Pero el verdadero cuerpo de Computex son esos 6.000 puestos[^6].
@@ -113,7 +113,7 @@ Nadie sabía que esa transformación hecha para sobrevivir estaba, justo, prepar
 
 ## El año en que Jensen Huang volvió
 
-![Jensen Huang sobre el escenario de Computex Taipei, vestido con su característica prenda oscura; detrás hay una gran pantalla de proyección y el público escucha atentamente. Es una de las escenas de sus varias conferencias principales de regreso a la feria informática de Taipéi](/article-images/technology/computex-jensen-huang-2016.jpg)
+![Jensen Huang sobre el escenario de Computex Taipei, vestido con su característica prenda oscura; detrás hay una gran pantalla de proyección y el público escucha atentamente. Es una de las escenas de sus varias conferencias principales de regreso a la feria informática de Taipéi](/article-images/technology/computex-jensen-huang-2016.webp)
 _Jensen Huang durante una charla en Computex Taipei en 2016. Desde 2023 ha vuelto casi cada año a esta feria para anunciar los chips de IA más recientes de NVIDIA. Photo: NVIDIA Taiwan, 2016-05-31. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jensen_Huang_at_Computex_Taipei_20160531c.jpg)._
 
 El 29 de mayo de 2023, Jensen Huang subió al escenario de Computex para pronunciar su primera conferencia principal presencial tras la pandemia y su primera charla pública en casi cuatro años[^9]. Presentó el superchip Grace Hopper, anunció su producción formal en masa y mostró la supercomputadora DGX GH200, capaz de conectar 256 chips mediante NVLink y alcanzar un exaflop de potencia de cálculo; Google, Meta y Microsoft fueron los primeros clientes[^9]. Su eje podía resumirse en una frase: llevar la IA generativa a cada centro de datos.
@@ -181,7 +181,7 @@ _Canal oficial de NVIDIA: versión completa de la conferencia principal de Jense
 
 Al alejar la cámara del escenario se ve la verdadera base de Computex, y también sus preocupaciones ocultas.
 
-![Exterior de una planta de TSMC en el Hsinchu Science Park; grandes edificios beige de salas limpias que constituyen una de las principales bases de producción de chips avanzados del mundo](/article-images/technology/tsmc-fab-hsinchu-2009.jpg)
+![Exterior de una planta de TSMC en el Hsinchu Science Park; grandes edificios beige de salas limpias que constituyen una de las principales bases de producción de chips avanzados del mundo](/article-images/technology/tsmc-fab-hsinchu-2009.webp)
 _Planta de TSMC en el Hsinchu Science Park. Para que un chip de IA se convierta en un servidor, el primer proceso ocurre aquí: más del 90% de los chips más avanzados del mundo son producidos por TSMC. Photo: Arusanov, 2009, dominio público. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tsmc_factory_hsinchu.JPG)._
 
 Para que un chip de IA de NVIDIA se convierta en un servidor capaz de operar en un centro de datos, casi cada proceso intermedio ocurre en Taiwán. La fabricación del chip depende de TSMC, de cuyas líneas salen más del 90% de los chips más avanzados del mundo; el empaquetado depende del CoWoS de TSMC, un proceso de empaquetado avanzado que hoy es el cuello de botella de toda la oferta de potencia de cálculo para IA[^18]. El ensamblaje del servidor depende de fabricantes por contrato como Foxconn, Quanta y Wistron; sólo Foxconn concentra cerca del 40% del mercado mundial de fabricación por contrato de servidores de IA[^19]. La alimentación depende de Delta Electronics, que tiene aproximadamente la mitad del mercado global de fuentes de poder para servidores; la disipación térmica, los conectores y los gabinetes también están cubiertos casi por completo por empresas taiwanesas[^18]. Según estimaciones de firmas de investigación, casi nueve de cada diez servidores de IA del mundo son ensamblados y enviados por fabricantes taiwaneses[^18].

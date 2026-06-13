@@ -31,7 +31,7 @@ translatedAt: '2026-06-02T00:40:00+08:00'
 
 # 반도체 산업: RCA 기술 이전에서 질화 갈륨과 양자 패키징까지, 50년 재료 혁명
 
-![같은 출력의 30W USB-C 고속 충전기 두 개를 나란히 비교한 사진. 왼쪽의 실리콘 소재 제품은 크기가 뚜렷하게 크고, 오른쪽의 질화 갈륨 제품은 거의 절반으로 작아져, 재료과학이 어떻게 에너지 밀도를 손바닥 안에 밀어 넣는지를 보여준다](/article-images/technology/silicon-vs-gan-charger-2025.jpg)
+![같은 출력의 30W USB-C 고속 충전기 두 개를 나란히 비교한 사진. 왼쪽의 실리콘 소재 제품은 크기가 뚜렷하게 크고, 오른쪽의 질화 갈륨 제품은 거의 절반으로 작아져, 재료과학이 어떻게 에너지 밀도를 손바닥 안에 밀어 넣는지를 보여준다](/article-images/technology/silicon-vs-gan-charger-2025.webp)
 _동일 와트 수의 Si vs GaN USB-C 충전기 크기 비교. Photo: 4300streetcar, 2025-12-25. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Silicon_vs_GaN_30W_USB-C_chargers.jpg)._
 
 > **30초 개관:** TSMC는 2025년 4분기 가오슝 Fab 22에서 2나노미터 양산을 시작해 세계를 2-3세대 앞서갔다[^2]. 그러나 이야기는 트랜지스터를 점점 더 작게 만드는 데서 끝나지 않는다. 당신의 가방 속 고속 충전기에는 질화 갈륨(GaN)이 들어 있고, 글로벌웨이퍼스는 중리에서 8인치 탄화 규소(SiC) 웨이퍼를 만들며, NVIDIA의 Blackwell GPU는 TSMC의 CoWoS 패키징에 의존해 데이터센터로 들어간다. 1973년 공업기술연구원(ITRI)이 450만 달러를 들여 RCA에서 기술을 사온 일[^5]부터 2026년 중앙연구원 20큐비트 초전도 양자 칩의 온라인 연결[^6]까지, 타이완이 걸어온 길은 밴드갭 물리학에서 원자층 증착, 위상 양자비트에 이르는 재료과학의 긴 강이었다. 호국신산은 50년의 파운드리 경험에 기대고 있지만, 양자 시대의 파운드리 지위는 아직 타이완이 확보하지 못했다.
@@ -44,7 +44,7 @@ _동일 와트 수의 Si vs GaN USB-C 충전기 크기 비교. Photo: 4300street
 
 ## 1987년의 파운드리 베팅
 
-![신주과학단지 안 TSMC Fab 5 공장 외관. 여러 층의 산업용 건물이 광푸로와 이어져 있으며, TSMC 1990년대 확장기의 대표적 공장 중 하나다](/article-images/technology/tsmc-fab5-hsinchu-2010.jpg)
+![신주과학단지 안 TSMC Fab 5 공장 외관. 여러 층의 산업용 건물이 광푸로와 이어져 있으며, TSMC 1990년대 확장기의 대표적 공장 중 하나다](/article-images/technology/tsmc-fab5-hsinchu-2010.webp)
 _신주과학단지 TSMC Fab 5 공장, 2010년. Photo: Peellden. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:TSMC_Fab5.JPG)._
 
 이야기는 더 이른 시점에서 시작해야 한다. 1973년 공업기술연구원은 450만 달러를 들여 미국 RCA의 집적회로 기술을 사들이고, 엔지니어 19명을 미국으로 보내 훈련을 받게 했다[^5]. 당시 누구도 이 “수업료”가 타이완 반도체 왕국의 첫 주춧돌이 되리라고 생각하지 못했다. 1980년 공업기술연구원의 기술 이전으로 유나이티드마이크로일렉트로닉스(UMC)가 설립되면서 타이완에는 첫 반도체 회사가 생겼다. 그러나 리궈딩은 만족하지 않았다. UMC는 규모가 너무 작았고, 기술은 국제 수준을 따라가지 못했다. 타이완에는 더 큰 돌파구가 필요했다.
@@ -147,7 +147,7 @@ _NVIDIA 공식 채널: 젠슨 황이 2024년 6월 2일 국립타이완대학교 
 
 ## ALD: 원자가 한 층씩 자라나다
 
-![박물관 전시 케이스 안에 서로 다른 크기의 실리콘 웨이퍼 표본 여러 장이 나란히 놓여 있다. 가장 큰 것은 지름이 약 12인치이며, 거울 같은 반사광은 반도체 제조의 핵심 원료를 보여준다](/article-images/technology/silicon-wafers-museum-2017.jpg)
+![박물관 전시 케이스 안에 서로 다른 크기의 실리콘 웨이퍼 표본 여러 장이 나란히 놓여 있다. 가장 큰 것은 지름이 약 12인치이며, 거울 같은 반사광은 반도체 제조의 핵심 원료를 보여준다](/article-images/technology/silicon-wafers-museum-2017.webp)
 _실리콘 웨이퍼 표본 전시, 2017년. Photo: ArticCynda. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Silicon_wafers.jpg)._
 
 3나노미터, 2나노미터, 1.6나노미터. 이 숫자들 뒤에는 조용하지만 결정적인 제조 기술이 있다. 원자층 증착(Atomic Layer Deposition, ALD)이다.

@@ -16,7 +16,7 @@ featured: false
 lastVerified: 2026-04-30
 lastHumanReview: false
 researchReport: reports/research/2026-04/黑冠麻鷺.md
-image: '/article-images/nature/malayan-night-heron-taipei-foraging-2010.jpg'
+image: '/article-images/nature/malayan-night-heron-taipei-foraging-2010.webp'
 imageCredit: 'Dr. Raju Kasambe'
 imageLicense: 'CC BY-SA 3.0'
 imageSource: 'https://commons.wikimedia.org/wiki/File:Malayan_Night_Heron_(Gorsachius_melanolophus),_Taipei_Taiwan.jpg'
@@ -61,7 +61,7 @@ If you only look at the expansion curve, this reads as a story of successful ada
 
 ## Camphor Trees and Banyans as Five-Meter-High Low-Elevation Forest
 
-![A side view of a Malayan Night Heron in a Kaohsiung urban green space, head lowered in focused foraging, beak pointed down, neck angled forward, beside a trimmed lawn](/article-images/nature/malayan-night-heron-kaohsiung-foraging-2026.jpg)
+![A side view of a Malayan Night Heron in a Kaohsiung urban green space, head lowered in focused foraging, beak pointed down, neck angled forward, beside a trimmed lawn](/article-images/nature/malayan-night-heron-kaohsiung-foraging-2026.webp)
 _March 2026, a Malayan Night Heron foraging in a Kaohsiung urban green space. From Taipei's expansion south, city parks over thirty years have become its food supply stations. Photo: The Nature Box. [Public domain (CC0) via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Malayan_night_heron_foraging_Kaohsiung_Taiwan_2026-03-28_0846.jpg)._
 
 The Malayan Night Heron needs two things: tall tree canopy for nesting, and open understory for foraging with its head down. Drawing on breeding-season surveys of several major Taipei parks (Daan Forest Park, Chiang Kai-shek Memorial Hall, Youth Park, NTU, and 228 Peace Memorial Park), the species prefers nest sites at trunk forks, at near-horizontal angles, with canopy cover typically above 70%.[^6] Yuan's NTU survey identifies banyans as the preferred nest tree and emphasizes that the ratio of trees to lawn is the key factor in habitat selection — density either too high or too low is unsuitable.[^7]

@@ -68,7 +68,7 @@ From 1998 to 2000, the budget decreased year by year; from 2001 onward, it was f
 
 ## A Channel Nobody Watches Made Dramas That Healed a Society
 
-![The anchor desk shared by PTS, Hakka TV, and Taiwan Indigenous TV during a joint broadcast inside the PTS building on Taiwan's National Day in 2010, symbolizing the multilingual channel map of the Taiwan Broadcasting System](/article-images/society/pts-tbs-newscaster-desk-2010.jpg)
+![The anchor desk shared by PTS, Hakka TV, and Taiwan Indigenous TV during a joint broadcast inside the PTS building on Taiwan's National Day in 2010, symbolizing the multilingual channel map of the Taiwan Broadcasting System](/article-images/society/pts-tbs-newscaster-desk-2010.webp)
 _On October 10, 2010, Taiwan's National Day, anchors from PTS, Hakka TV, and Taiwan Indigenous TV at the joint-broadcast anchor desk inside the Taiwan Broadcasting System building. Photo: Solomon203. [CC BY 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Public_Television_Service,_Hakka_TV,_and_Taiwan_Indigious_TV_newscaster_desk_on_Double_Ten_Day_2010.jpg)._
 
 The PTS main channel's all-day average rating has long been below 0.5. This figure has long been cited as evidence that "nobody watches PTS," and a 2024 corrective case by the Control Yuan also noted that PTS's market-share ranking among terrestrial stations had remained stagnant.[^14]
@@ -115,7 +115,7 @@ But this 17-year intermediate state itself poses a question: should Taiwan's pub
 
 ## TaiwanPlus and the Invisible Firewall
 
-![President Tsai Ing-wen speaking at the launch press conference for the PTS TaiwanPlus channel; the international English-language channel officially launched on October 3, 2022](/article-images/society/pts-taiwanplus-launch-2022.jpg)
+![President Tsai Ing-wen speaking at the launch press conference for the PTS TaiwanPlus channel; the international English-language channel officially launched on October 3, 2022](/article-images/society/pts-taiwanplus-launch-2022.webp)
 _On October 3, 2022, President Tsai Ing-wen attended the launch press conference for PTS's TaiwanPlus 24/7 international English-language channel; the scene before her remarks. Photo: Chien Chih-hung / Office of the President, Republic of China. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:10.03_%E7%B8%BD%E7%B5%B1%E5%87%BA%E5%B8%AD%E3%80%8C%E5%85%AC%E5%85%B1%E9%9B%BB%E8%A6%96TaiwanPlus%E9%A0%BB%E9%81%93%E9%96%8B%E6%92%AD%E8%A8%98%E8%80%85%E6%9C%83%E3%80%8D*(52400876416).jpg).*
 
 In 2021, the Ministry of Culture launched the TaiwanPlus project with NT$580 million. On October 3, 2022, it was upgraded and officially launched as a 24/7 international English-language television channel.[^30] When PTS first took over the proposal, it encountered strong backlash and accusations of being a "government propaganda tool" and "government interference in PTS"; the Ministry of Culture withdrew the plan and instead assigned it to the Central News Agency. In August 2022, the National Communications Commission announced the platform's transfer back to PTS.[^31] Over three years (2021-2023), TaiwanPlus burned through nearly NT$3 billion, and the National Audit Office assessed that it had not met the goals of the plan to market Taiwan; one year after launch, in mid-2022, app downloads numbered only in the tens of thousands, far below the target of one million.[^32]

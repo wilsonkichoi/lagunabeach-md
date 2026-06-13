@@ -31,7 +31,7 @@ translatedAt: '2026-05-24T05:06:33+08:00'
 
 > **Panorama en 30 segundos:** Chen Chien-nien (nombre en pinuyumayan: Pau-dull) nació el 1 de agosto de 1967 en la comunidad Nanwang, municipio de Beinan, condado de Taitung.[^1] Es nieto materno de Lu Sen-bao (Baliwakes, 1910-1988), maestro de la canción pinuyumayan y autor de 〈Beautiful Rice Ears〉.[^1][^2] Tras graduarse en 1986 de la promoción 114 del curso de agentes policiales, fue destinado a Guanshan, Taitung, e hizo carrera en la policía durante 30 años y 10 meses.[^3] En 1999, a los 33 años, publicó su primer álbum de composiciones propias, Ocean; en la 11.ª edición de los Golden Melody Awards, en 2000, derrotó a Jacky Cheung, Harlem Yu, David Tao y Wang Leehom para obtener el premio a mejor intérprete masculino en mandarín; en la misma edición ganó además el premio a mejor composición por 〈Myth〉, canción que escribió para Samingad.[^4][^5] En el momento de recibir el premio, su empleo principal seguía siendo el de policía.[^3] En septiembre de ese mismo año pidió el traslado a Lanyu, donde permaneció hasta su jubilación en 2017.[^1][^6]
 
-![Chen Chien-nien cantando en marzo de 2018 en FENG live house, en Hsinchu: de perfil, con gorra, sosteniendo una guitarra acústica e inclinando la cabeza ante el micrófono.](/article-images/people/chen-chien-nien-hsinchu-feng-2018.jpg)
+![Chen Chien-nien cantando en marzo de 2018 en FENG live house, en Hsinchu: de perfil, con gorra, sosteniendo una guitarra acústica e inclinando la cabeza ante el micrófono.](/article-images/people/chen-chien-nien-hsinchu-feng-2018.webp)
 _25 de marzo de 2018, Chen Chien-nien en una presentación en FENG live house, Hsinchu. Photo: Taiwania Justo. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pur-dull_in_Hsinchu_2.jpg)._
 
 ## Pau-dull, pinuyumayan, y las canciones que dejó su abuelo materno
@@ -116,7 +116,7 @@ Es decir, entre el premio de 2000 a mejor intérprete masculino en mandarín y e
 
 _MV oficial de Trees Music: 〈Beautiful Heart of Orchid Island〉, incluida en el tercer álbum de composiciones propias de 2021, pongso no Tao (en lengua tao, “isla de los seres humanos”). Grabaciones de primera mano acumuladas lentamente durante 17 años en Lanyu, que luego obtuvieron en 2022 el Golden Melody Award a mejor álbum en lengua indígena._
 
-![Primer plano frontal de Chen Chien-nien ante el micrófono durante una actuación en Hsinchu; bajo la gorra, su expresión se ve concentrada.](/article-images/people/chen-chien-nien-hsinchu-cropped-2018.jpg)
+![Primer plano frontal de Chen Chien-nien ante el micrófono durante una actuación en Hsinchu; bajo la gorra, su expresión se ve concentrada.](/article-images/people/chen-chien-nien-hsinchu-cropped-2018.webp)
 _25 de marzo de 2018, primer plano de Chen Chien-nien durante una presentación en Hsinchu. Photo: Taiwania Justo. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pur-dull_in_Hsinchu_(cropped).jpg).\_
 
 ## 〈We Are Compatriots〉: una letra escrita en 1999 que en 2024 se convirtió en canción de los sitios de ayuda ante desastres
@@ -158,7 +158,7 @@ La singularidad de ese concierto no residía en su escala: 2.500 personas es una
 > **📝 Nota curatorial**
 > Para una narrativa rockera acostumbrada a situarse en una postura antiinstitucional, la frase “el trabajo de la policía es ser leal al país y fiel al líder” parecería hecha para ser deconstruida a la inversa. Pero cuando la dice Chen Chien-nien, la dice con total seriedad. Esa es la razón por la que no puede ser incorporado sin más a ninguna de las dos narrativas: no es un “músico indígena rebelde disfrazado de policía”, ni tampoco “un policía obediente al sistema que hace música en secreto”. Es alguien que cree en dos cosas al mismo tiempo: la lealtad a la tierra, la lealtad al Estado y la lealtad a las canciones que dejó su abuelo materno conviven en un mismo cuerpo. Esa coexistencia es muy común dentro del sistema de función pública taiwanés. Tan común que, cuando alguien así escribe algo como 〈Ocean〉, el mundo exterior se sorprende al descubrir que una persona así también escribe canciones.
 
-![Plano de cuerpo entero de Chen Chien-nien cantando en Vision Hall, Hsinchu; sostiene una guitarra acústica frente al pecho, con luces cálidas de live house al fondo.](/article-images/people/chen-chien-nien-hsinchu-vision-2018.jpg)
+![Plano de cuerpo entero de Chen Chien-nien cantando en Vision Hall, Hsinchu; sostiene una guitarra acústica frente al pecho, con luces cálidas de live house al fondo.](/article-images/people/chen-chien-nien-hsinchu-vision-2018.webp)
 _25 de marzo de 2018, Chen Chien-nien en una pequeña presentación de live house en Hsinchu. Photo: Taiwania Justo. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pur-dull_in_Hsinchu.jpg)._
 
 ## Después de la jubilación: la segunda mitad de la vida

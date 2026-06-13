@@ -46,7 +46,7 @@ C'est la preuve la plus contemporaine que Keelung est un port. La gloire histori
 
 ## Il y a quatre cents ans, les Espagnols plantent leur drapeau sur l'île de Hoping
 
-![Formations maréales du parc géologique de l'île de Hoping, 2022. Cette petite île, à seulement 75 mètres de l'île principale de Taïwan, abritait en 1626 le fort San Salvador des Espagnols. Depuis 2016, une équipe de l'Université Tsinghua y a mis au jour les vestiges de l'église de Tous-les-Saints, la seule preuve matérielle de la colonisation espagnole à Taïwan.](/article-images/geography/keelung-01.jpg)
+![Formations maréales du parc géologique de l'île de Hoping, 2022. Cette petite île, à seulement 75 mètres de l'île principale de Taïwan, abritait en 1626 le fort San Salvador des Espagnols. Depuis 2016, une équipe de l'Université Tsinghua y a mis au jour les vestiges de l'église de Tous-les-Saints, la seule preuve matérielle de la colonisation espagnole à Taïwan.](/article-images/geography/keelung-01.webp)
 
 L'île de Hoping, à seulement 75 mètres de l'île principale de Taïwan, s'appelait « île de Sheliao » à l'époque espagnole. Avant cela, c'était un village du peuple Basay, de la tribu des Ketagalan, qui l'appelait « tuman » en langue basay[^2].
 
@@ -86,7 +86,7 @@ Le résultat de la négociation est le suivant : **les familles patrilinéaires 
 
 C'est l'esprit central du festival des fantômes de Jilong. Ce n'est pas seulement une cérémonie de la fête des fantômes. Partout à Taïwan, la fête des fantômes honore les âmes errantes sans maître, mais seul le festival de Jilong a institutionnalisé la mémoire d'un affrontement meurtrier en un rituel de rotation des familles patrilinéaires qui se perpétue depuis 170 ans. Les concours de processions sont une version ritualisée des combats : on continue à rivaliser, mais sans se battre, en déployant des dieux de procession richement décorés, des formations et des batteries de tambours, pour voir qui présente le plus grand spectacle.
 
-![Autel principal du festival des fantômes de Jilong, octobre 2023. La tour octogonale du parc de Zhongzheng a été achevée au milieu des années 1970 et accueille chaque année la cérémonie de la fête des fantômes au septième mois lunaire. Au loin à droite de la tour se dresse le monument emblématique de Keelung, la Keelung Tower.](/article-images/geography/keelung-00.jpg)
+![Autel principal du festival des fantômes de Jilong, octobre 2023. La tour octogonale du parc de Zhongzheng a été achevée au milieu des années 1970 et accueille chaque année la cérémonie de la fête des fantômes au septième mois lunaire. Au loin à droite de la tour se dresse le monument emblématique de Keelung, la Keelung Tower.](/article-images/geography/keelung-00.webp)
 _Autel principal et Keelung Tower, 23 octobre 2023. Photo : contributeur Wikimedia Commons, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:Keelung_Tower_and_Ts%C3%BA-ph%C3%B3o-tu%C3%A2nn_20231023.jpg)._
 
 Après la guerre sino-française de 1884, ce rituel est à nouveau élargi. **Les âmes des plus de 700 soldats français sont intégrées à la cérémonie de la fête des fantômes.** « Les immigrants chinois, mus par la compassion, ont eu l'empathie de vénérer ces défunts sans sépulture »[^12]. Un rituel de réconciliation né d'un affrontement entre Zhangzhou et Quanzhou devient une cérémonie qui accueille jusqu'aux ennemis tombés au combat. De 1855 à aujourd'hui, il se déroule chaque année au septième mois lunaire à l'autel principal du parc de Zhongzheng. Le nouvel autel principal, achevé au milieu des années 1970, est une tour octogonale dont le premier étage abrite un musée des artefacts de la fête des fantômes[^13].
@@ -105,7 +105,7 @@ Puis vient 1984.
 
 **« En 1984, le port de Keelung se classe au 7e rang mondial des ports à conteneurs »**[^17]. C'est le sommet historique de Keelung en tant que port. Un petit port recevant 3 000 mm de pluie par an a été le septième nœud du réseau maritime mondial.
 
-![Vue aérienne du port de Keelung, 2017. L'infrastructure portuaire établie par les cinq phases de construction de l'époque coloniale japonaise perdure jusqu'à aujourd'hui. Après le sommet historique de 1984 (septième port à conteneurs mondial), le déclin est progressif : en 2018, le port est tombé au 113e rang mondial et au 4e rang des ports commerciaux de Taïwan.](/article-images/geography/keelung-03.jpg)
+![Vue aérienne du port de Keelung, 2017. L'infrastructure portuaire établie par les cinq phases de construction de l'époque coloniale japonaise perdure jusqu'à aujourd'hui. Après le sommet historique de 1984 (septième port à conteneurs mondial), le déclin est progressif : en 2018, le port est tombé au 113e rang mondial et au 4e rang des ports commerciaux de Taïwan.](/article-images/geography/keelung-03.webp)
 
 ### Puis trois choses se produisent simultanément
 
@@ -129,7 +129,7 @@ Et le marché aux poissons de Kanziding (celui mentionné plus haut) est en réa
 
 ## En face des maisons colorées de Zhengbin, les ruines d'Agena
 
-![Maisons colorées de la rue du port de pêche de Zhengbin, août 2025. Sous le mandat du maire Lin You-chang, 55 couleurs ont été appliquées sur les vieilles maisons du port en collaboration avec Guo Qionying, directrice du département de paysagisme de l'Université culturelle. En face, dans le même cadre, se dressent les ruines du chantier naval Agena.](/article-images/geography/keelung-01.jpg)
+![Maisons colorées de la rue du port de pêche de Zhengbin, août 2025. Sous le mandat du maire Lin You-chang, 55 couleurs ont été appliquées sur les vieilles maisons du port en collaboration avec Guo Qionying, directrice du département de paysagisme de l'Université culturelle. En face, dans le même cadre, se dressent les ruines du chantier naval Agena.](/article-images/geography/keelung-01.webp)
 _Maisons colorées du port de pêche de Zhengbin, 12 août 2025. Photo : contributeur Wikimedia Commons, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:20250812_105703_%E6%AD%A3%E6%BF%B1%E6%BC%81%E6%B8%AF%E5%BD%A9%E8%89%B2%E8%A1%97%E5%B1%8B.jpg).\_
 
 Si vous voulez voir comment une ville gère ses ruines, allez au port de pêche de Zhengbin.

@@ -48,7 +48,7 @@ translatedAt: '2026-05-25T21:07:07Z'
 
 ## 1788년 겨울, 200여 구의 유골을 그 산비탈에 합장하다
 
-![포충정 의민묘 정면, 2018년 5월, 신푸진 팡랴오리. 하카 의민 신앙의 중심 묘우로, 건륭 53년(1788) 겨울 기초 공사를 시작했고, 55년(1790) 정청이 완공되었으며, 56년(1791) 전 묘우가 준공되었다.](/article-images/geography/hsinchu-county-hero.jpg)
+![포충정 의민묘 정면, 2018년 5월, 신푸진 팡랴오리. 하카 의민 신앙의 중심 묘우로, 건륭 53년(1788) 겨울 기초 공사를 시작했고, 55년(1790) 정청이 완공되었으며, 56년(1791) 전 묘우가 준공되었다.](/article-images/geography/hsinchu-county-hero.webp)
 _포충정 의민묘 정면, 2018-05-27. Photo: Outlookxp. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E8%A4%92%E5%BF%A0%E4%BA%AD%E7%BE%A9%E6%B0%91%E5%BB%9F%E6%AD%A3%E9%9D%A2%E7%85%A7.jpg)._
 
 의민묘가 왜 235년을 갖게 되었는지를 이해하려면 렌즈를 건륭 51년(1786년) 가을로 돌려야 한다.

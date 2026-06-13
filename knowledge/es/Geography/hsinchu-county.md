@@ -48,7 +48,7 @@ A 5 kilómetros de distancia, en la zona especial del tren de alta velocidad de 
 
 ## El invierno de 1788: enterrar más de doscientos conjuntos de restos en aquella ladera
 
-![Fachada frontal del Pabellón Bao-chong (Templo de los Yi-min), mayo de 2018, pueblo de Fangliao, municipio de Xinpu. Templo central de la fe de los yi-min Hakka, cuya fundación se colocó en el invierno del quincuagésimo tercer año de Qianlong (1788), el salón central se completó en el quincuagésimo quinto año (1790) y todo el templo quedó terminado en el quincuagésimo sexto año (1791).](/article-images/geography/hsinchu-county-hero.jpg)
+![Fachada frontal del Pabellón Bao-chong (Templo de los Yi-min), mayo de 2018, pueblo de Fangliao, municipio de Xinpu. Templo central de la fe de los yi-min Hakka, cuya fundación se colocó en el invierno del quincuagésimo tercer año de Qianlong (1788), el salón central se completó en el quincuagésimo quinto año (1790) y todo el templo quedó terminado en el quincuagésimo sexto año (1791).](/article-images/geography/hsinchu-county-hero.webp)
 _Fachada frontal del Pabellón Bao-chong, 2018-05-27. Foto: Outlookxp. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E8%A4%92%E5%BF%A0%E4%BA%AD%E7%BE%A9%E6%B0%91%E5%BB%9F%E6%AD%A3%E9%9D%A2%E7%85%A7.jpg)._
 
 Para entender por qué el Templo de los Yi-min tiene 235 años de historia, hay que retroceder al otoño del quincuagésimo primer año de Qianlong (1786).

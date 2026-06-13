@@ -62,7 +62,7 @@ The next two satellites established the way this institution would speak publicl
 
 FORMOSAT-3, launched in 2006, was more direct: a constellation of six microsatellites, part of the COSMIC program in cooperation with the United States, using GPS radio occultation to measure the atmosphere.[^9] It was called "the most precise thermometer in space," and it pushed the accuracy of global weather forecasting up by another notch.[^9]
 
-![Payload structure diagram of the FORMOSAT-3/COSMIC microsatellite constellation: six microsatellites of this kind formed a constellation that used GPS radio occultation to measure the atmosphere. It was called "the most precise thermometer in space" and improved the accuracy of global weather forecasts.](/article-images/technology/formosat3-cosmic-constellation.jpg)
+![Payload structure diagram of the FORMOSAT-3/COSMIC microsatellite constellation: six microsatellites of this kind formed a constellation that used GPS radio occultation to measure the atmosphere. It was called "the most precise thermometer in space" and improved the accuracy of global weather forecasts.](/article-images/technology/formosat3-cosmic-constellation.webp)
 
 > **Did you know?**
 > The FORMOSAT series runs from 1 to 8, but 4 and 6 are missing. FORMOSAT-4 was halted because of problems in the procurement process, and its work was folded into FORMOSAT-5. FORMOSAT-6 was originally intended for self-launch in 2009, later changed to outsourced launch, and then canceled.[^10] Taiwan's FORMOSAT family is therefore a family with two empty spaces. Those two gaps mark two paths that did not go through.
@@ -73,7 +73,7 @@ Disaster response, weather reporting, atmospheric measurement: this was the face
 
 On August 25, 2017, FORMOSAT-5 launched aboard SpaceX's Falcon 9. This one was different: it was Taiwan's first high-resolution remote-sensing satellite billed as "indigenously developed." It cost NT$5.659 billion, took six years to build, and for the first time placed five major key components, including the payload computer, power control, and flight software, in Taiwan's own hands.[^11]
 
-![On August 24, 2017, FORMOSAT-5 launched from Vandenberg Air Force Base in the United States aboard a SpaceX Falcon 9 rocket: a Taiwan-made satellite riding a borrowed rocket into the sky.](/article-images/technology/formosat5-falcon9-launch-2017.jpg)
+![On August 24, 2017, FORMOSAT-5 launched from Vandenberg Air Force Base in the United States aboard a SpaceX Falcon 9 rocket: a Taiwan-made satellite riding a borrowed rocket into the sky.](/article-images/technology/formosat5-falcon9-launch-2017.webp)
 
 > **✦** "As long as you have seen a rocket made by Taiwan itself launch, national confidence will rise. You will immediately become 100 percent Taiwanese." — Jong-Shinn Wu[^12]
 
@@ -121,7 +121,7 @@ With the restructuring, the English name changed from NSPO to TASA, the Taiwan S
 
 > **✦** A country that cannot even print its name on the sports field first put Taiwan back onto its own space agency.
 
-![On January 1, 2023, the Taiwan Space Agency was restructured as an administrative corporation, and the sign reading "TASA 國家太空中心 / Taiwan Space Agency" was officially unveiled. Thirty-two years after its founding, the institution had legal personhood for the first time, and put Taiwan into its English name for the first time.](/article-images/technology/tasa-opening-ceremony-2023.jpg)
+![On January 1, 2023, the Taiwan Space Agency was restructured as an administrative corporation, and the sign reading "TASA 國家太空中心 / Taiwan Space Agency" was officially unveiled. Thirty-two years after its founding, the institution had legal personhood for the first time, and put Taiwan into its English name for the first time.](/article-images/technology/tasa-opening-ceremony-2023.webp)
 
 This is the quietest yet most crucial moment in this story. Changing an English abbreviation did not alter anything technically. The satellites were still those satellites; the engineers were still those engineers. But an institution whose name had been decided by others for thirty years, and whose own repeated renamings had never dared to be too serious, put the word "Taiwan" into its own name for the first time. When the draft bill was announced, Premier Su Tseng-chang said the aim was to "send Taiwan's national strength into space."[^28] That can be political language, but at the moment of this name correction, it referred to something very concrete.
 
@@ -138,7 +138,7 @@ At the other end of the factory, the next batch of satellites is being assembled
 
 What the satellites photograph eventually has to become services people can use. TASA has opened an imagery service platform for government agencies: disaster prevention needs to see where slopes have collapsed, agriculture needs to see crop growth, and national land planning needs to track how coastlines are changing.[^51] Historical imagery accumulated over the years by FORMOSAT-2 and FORMOSAT-5 has also gradually been released on the government's open data platform.[^51]
 
-![Turquoise shallows and a deep blue trench off the Bahamas, with a sand island lying in the middle. This is one scene captured by a FORMOSAT satellite and included in TASA's imagery service platform: the world seen through Taiwan's own eyes. (Taiwan Space Agency TASA FORMOSAT image selection)](/article-images/technology/formosat-bahamas-shoals-tasa.jpg)
+![Turquoise shallows and a deep blue trench off the Bahamas, with a sand island lying in the middle. This is one scene captured by a FORMOSAT satellite and included in TASA's imagery service platform: the world seen through Taiwan's own eyes. (Taiwan Space Agency TASA FORMOSAT image selection)](/article-images/technology/formosat-bahamas-shoals-tasa.webp)
 
 _The Bahamas shoals captured by a FORMOSAT satellite. The preparatory office that had no name thirty years ago can now see the seabed on the other side of the world this clearly._
 
@@ -150,7 +150,7 @@ On the morning of April 3, 2024, a magnitude 7.4 earthquake struck off the coast
 
 This is the value of a satellite in its most concrete form. FORMOSAT-5's single imaging swath is only twenty-four kilometers wide, so seeing the whole Hualien mountain region required it to fly pass after pass and piece together tile after tile.[^53] The Agency of Rural Development and Soil and Water Conservation used imagery from FORMOSAT-5 and other satellites for interpretation, counting 1,391 newly formed landslides after the quake, covering a total area of 943.76 hectares. Of these, 444 lay within potential debris-flow zones, and 62 directly threatened railways and roads.[^53] A National Central University team calculated that the Xiulin area alone had about 20.6 square kilometers of landslides.[^53] These figures are not academic-paper abstractions. They are the basis for emergency evacuation, road closures, and the allocation of disaster-response resources.
 
-![A false-color FORMOSAT-5 image, with red representing vegetation, clearly shows a large landslide beside Chike Mountain Industrial Road in Taitung. This cloud-free image was taken by FORMOSAT-5 on September 21 after the 2022 Chishang earthquake in Taitung and compared with a pre-disaster image from August 30. Two years later, after the April 3 Hualien earthquake, TASA activated the same capability: emergency post-quake re-imaging and pre-/post-disaster comparison. (Taiwan Space Agency TASA)](/article-images/technology/formosat5-taitung-landslide-2022.jpg)
+![A false-color FORMOSAT-5 image, with red representing vegetation, clearly shows a large landslide beside Chike Mountain Industrial Road in Taitung. This cloud-free image was taken by FORMOSAT-5 on September 21 after the 2022 Chishang earthquake in Taitung and compared with a pre-disaster image from August 30. Two years later, after the April 3 Hualien earthquake, TASA activated the same capability: emergency post-quake re-imaging and pre-/post-disaster comparison. (Taiwan Space Agency TASA)](/article-images/technology/formosat5-taitung-landslide-2022.webp)
 
 _A landslide at Chike Mountain interpreted from FORMOSAT-5 imagery after the 2022 Chishang earthquake in Taitung. The same interpretation workflow counted more than 1,000 newly formed landslides after the April 3 Hualien earthquake._
 
@@ -167,7 +167,7 @@ This is why Taiwan wants its own low-Earth-orbit communications satellites. But 
 > **Curator's note**
 > FORMOSAT-3 was called "the most precise thermometer in space" not because Taiwan was boasting. In 2020, radio occultation data from its successor, COSMIC-2, were formally incorporated into global forecasting systems by the European Centre for Medium-Range Weather Forecasts (ECMWF) and the U.S. National Oceanic and Atmospheric Administration (NOAA).[^55] ECMWF's assessment said these data improved forecasts at certain altitudes by "about 5% at 100 hPa in the tropics"; NOAA directly described the program as "the largest science and technology cooperation between the United States and Taiwan authorities."[^55] A small institution unrecognized by most countries did not rely on diplomatic recognition. It relied on the fact that it could truly photograph, calculate, and measure accurately enough that weather models around the world had to use its numbers. This is a hidden path by which Taiwan bypasses diplomatic isolation and embeds itself into international systems through technology.
 
-![In the early hours of June 25, 2019, a Falcon Heavy rocket lifted off from Launch Complex 39A at Kennedy Space Center in the United States, carrying Taiwan's six FORMOSAT-7/COSMIC-2 microsatellites. Once again, Taiwan's own satellites rode a borrowed rocket into the sky. (NASA/Joel Kowsky, public domain)](/article-images/technology/falcon-heavy-stp2-formosat7-launch-2019.jpg)
+![In the early hours of June 25, 2019, a Falcon Heavy rocket lifted off from Launch Complex 39A at Kennedy Space Center in the United States, carrying Taiwan's six FORMOSAT-7/COSMIC-2 microsatellites. Once again, Taiwan's own satellites rode a borrowed rocket into the sky. (NASA/Joel Kowsky, public domain)](/article-images/technology/falcon-heavy-stp2-formosat7-launch-2019.webp)
 
 _FORMOSAT-7/COSMIC-2 was sent into space by Falcon Heavy in 2019. Taiwan has its own satellites, but not yet its own rockets and launch site. That is why the next part is all about how to fill in those two missing pieces._
 
@@ -186,7 +186,7 @@ FORMOSAT-8 also contains a green experiment that one may not notice but that is 
 
 The cleverest idea is on Triton. It measures ocean surface winds, but it does not emit any signal toward the sea. Instead, it uses existing GPS satellite signals in the sky as a "lamp." Those signals reflect off the sea surface; the rougher the sea and the stronger the wind, the more chaotic the reflected signal becomes.[^66] Triton is simply a quiet receiver, inferring wind speed from the disorder in the reflected signals.[^66] A satellite that never touches the sea and emits no signal of its own measures the wind across entire oceans by borrowing someone else's signal.
 
-![Integration and testing of the Triton satellite in the space center's cleanroom. This first Taiwan-made weather satellite was originally the thirteenth satellite of the Taiwan-U.S. FORMOSAT-7 cooperation, later spun off as an independent mission, with a domestic production rate exceeding 80 percent. It uses GNSS reflected signals to measure ocean surface wind speed.](/article-images/technology/triton-inspection-nspo-2022.jpg)
+![Integration and testing of the Triton satellite in the space center's cleanroom. This first Taiwan-made weather satellite was originally the thirteenth satellite of the Taiwan-U.S. FORMOSAT-7 cooperation, later spun off as an independent mission, with a domestic production rate exceeding 80 percent. It uses GNSS reflected signals to measure ocean surface wind speed.](/article-images/technology/triton-inspection-nspo-2022.webp)
 
 ## A borrowed sky
 
@@ -217,7 +217,7 @@ The communications-satellite layer is also being filled in. Taiwan's experimenta
 
 And above all these, in 2025 a goal appeared quietly that in the past would have been unimaginable: the Moon.
 
-![The active phased-array antenna synthetic aperture radar (SAR) payload of FORMOSAT-9. SAR satellites are unaffected by day, night, or weather, and can provide radar imagery at the first moment, complementing FORMOSAT-8's optical remote sensing in an Earth-observation system.](/article-images/technology/formosat9-sar-tasa.png)
+![The active phased-array antenna synthetic aperture radar (SAR) payload of FORMOSAT-9. SAR satellites are unaffected by day, night, or weather, and can provide radar imagery at the first moment, complementing FORMOSAT-8's optical remote sensing in an Earth-observation system.](/article-images/technology/formosat9-sar-tasa.webp)
 
 This is already budgeted and approved; it is no longer just talk. In 2025, TASA launched Taiwan's first lunar exploration mission, with launch possible as early as 2028, and issued a NT$335 million tender for integrated delivery by lunar lander.[^61] What it intends to send to the Moon are two Taiwan-made scientific payloads: a lunar vector magnetometer and the Formosa Lunar Ultraviolet Telescope.[^61] Wu once told the NASA administrator in person that "Taiwan wants to be a part of the lunar adventure." NASA has not yet formally confirmed Taiwan's participation in the Artemis program.[^61]
 
@@ -229,7 +229,7 @@ On November 29, 2025, the first FORMOSAT-8 satellite, FS-8A, launched from Vande
 
 Chi Po-lin was the director of Beyond Beauty: Taiwan from Above, the 2013 aerial documentary that made the whole country see its own wounds. On June 10, 2017, while filming the sequel in Hualien, he died in a helicopter crash; the sequel was never completed.[^40] Eight years later, a satellite named after him began seeing Taiwan for him from 561 kilometers above. At the launch, Lai Ching-te said he hoped director Chi's spirit could extend into space, "continuing to watch over Taiwan and observe the world."[^41] Chi's son, Chi Ting-huan, said the satellite would "stand in for my father, protecting Taiwan from a higher perspective."[^40]
 
-![FORMOSAT-8 optical remote-sensing satellite: with a domestic production rate of 84 percent, it goes a step beyond FORMOSAT-5. After all eight satellites in the constellation are deployed, revisit frequency will rise from once every two days to three times per day, and it will be able to distinguish whether a vehicle is a truck or a sedan from space.](/article-images/technology/formosat8-spacecraft-model-2025.jpg)
+![FORMOSAT-8 optical remote-sensing satellite: with a domestic production rate of 84 percent, it goes a step beyond FORMOSAT-5. After all eight satellites in the constellation are deployed, revisit frequency will rise from once every two days to three times per day, and it will be able to distinguish whether a vehicle is a truck or a sedan from space.](/article-images/technology/formosat8-spacecraft-model-2025.webp)
 
 FORMOSAT-8's domestic production rate is 84 percent, a step further than FORMOSAT-5.[^42] It sees more clearly: FORMOSAT-5 can roughly see that cars are moving on a highway, while FORMOSAT-8 can distinguish whether they are trucks or sedans.[^43] Once all eight satellites are in place, the constellation's revisit frequency over Taiwan will rise from FORMOSAT-5's once every two days to three times per day. It also carries a short-wave infrared sensor that can penetrate cloud cover to detect high-temperature heat sources on the ground.[^44] The FORMOSAT-8 project is led by Liu Hsiao-ching, who stumbled with FORMOSAT-5 and resolved to redeem that failure with FORMOSAT-8.[^45]
 

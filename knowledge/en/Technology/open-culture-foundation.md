@@ -40,7 +40,7 @@ You've probably never heard this name, yet you've very likely used something it 
 
 ## A Conference Receipt That Couldn't Be Filed
 
-![Taipei street scene during the Sunflower Movement, crowds and protest banners around the Legislative Yuan, a quiet atmosphere of a movement in progress on the ground.](/article-images/technology/ocf-sunflower-movement-2014.jpg)
+![Taipei street scene during the Sunflower Movement, crowds and protest banners around the Legislative Yuan, a quiet atmosphere of a movement in progress on the ground.](/article-images/technology/ocf-sunflower-movement-2014.webp)
 _Taipei street scene during the 2014 Sunflower Movement. g0v set up citizen livestreams during this movement, pushing the energy of "fixing the public sphere yourself" to a peak. OCF was born out of that energy. Photo: Jesse Steele, CC BY 2.0 (full source in image credits at the end of the article)._
 
 The origin story is anything but romantic.
@@ -64,7 +64,7 @@ _clkao delivering the "g0v State of the Village" address at COSCUP 2014, explain
 
 ## Issuing Invoices for "No One"
 
-![A group of people sitting around a long table collaborating, laptops and screens lit up—the indoor scene of g0v's 13th hackathon in 2015, participants grouped and working on civic tech projects.](/article-images/technology/ocf-g0v-hackathon-2015.jpg)
+![A group of people sitting around a long table collaborating, laptops and screens lit up—the indoor scene of g0v's 13th hackathon in 2015, participants grouped and working on civic tech projects.](/article-images/technology/ocf-g0v-hackathon-2015.webp)
 _g0v's 13th hackathon, 2015. Hackers can spin up a project in a weekend, but the receipts, contracts, and labor insurance behind the project have to be handled by someone—that's the part OCF took on. Photo: g0v.tw, CC BY 2.0 (full source in image credits at the end of the article)._
 
 What OCF actually does, stated plainly, is unsexy: opening bank accounts, receiving payments, reconciling accounts, issuing receipts, running processes, applying for grants, handling all the miscellaneous tasks for an event from start to finish.[^7] Any community that wants to hold events or accept donations—but doesn't want to register an organization or bear full-time staffing costs—can hand these maddening back-office tasks to OCF. Board member Lee Po-feng put it aptly: "These are all small things, but accumulated they become many and miscellaneous."[^8] The essence of back-office administration is in that sentence. No single item looks like a big deal on its own, but stacked together, they're enough to crush a volunteer team that just wants to write code.
@@ -80,7 +80,7 @@ Because of this, OCF never claims the mask map as something it built. That was t
 
 ## From a Home to a Castle on Wheels
 
-![A bright meeting space with dozens of people sitting at neatly arranged tables participating in a workshop, someone presenting at the front—the scene of the 2017 g0v Civic Tech Grant Kickoff.](/article-images/technology/ocf-g0v-civictech-grant-2017.jpg)
+![A bright meeting space with dozens of people sitting at neatly arranged tables participating in a workshop, someone presenting at the front—the scene of the 2017 g0v Civic Tech Grant Kickoff.](/article-images/technology/ocf-g0v-civictech-grant-2017.webp)
 _The 2017 g0v Civic Tech Grant Kickoff workshop. When a community wants to scale a project, it needs a back office that can manage money, run events, and interface with the outside world—this is the role OCF grew into. Photo: Kirby Wu, CC BY-SA 2.0 (full source in image credits at the end of the article)._
 
 OCF's first employee was Singing Li (Li Xin-ying), known in the community as singing, who is also the current CEO.[^11] Starting with just her, in the space at 4F, No. 94, Section 1, Bade Road in Taipei—affectionately nicknamed "Bade 94" by the community—over ten years the full-time staff grew to 19, and the open source communities supported expanded from the original 4 to over 40.[^1]
@@ -99,7 +99,7 @@ And a comment from board member Li Ming-zhe (known in the community as Izero) pu
 
 ## The Person Who Filed Receipts Learned to Speak for Everyone
 
-![Portrait of Audrey Tang, wearing thin-framed glasses, short hair, smiling, against a plain light background.](/article-images/technology/ocf-audrey-tang-2016.jpg)
+![Portrait of Audrey Tang, wearing thin-framed glasses, short hair, smiling, against a plain light background.](/article-images/technology/ocf-audrey-tang-2016.webp)
 _Audrey Tang: from g0v participant to Taiwan's first Minister of Digital Affairs. OCF has repeatedly engaged with the digital ministry under her leadership—both cooperating and keeping watch. Photo: Audrey Tang, released by the author, CC0 public domain (full source in image credits at the end of the article)._
 
 Imagine the person in a neighborhood who runs errands for everyone. He stamps documents and handles miscellaneous tasks for residents, but as he gets busier, he ends up speaking for the whole street at district office meetings. OCF's transformation follows roughly this path. Once it got good at handling receipts, legal affairs, and HR, it found itself in a unique position: it knew all the communities, it understood technology, and it had a formal identity for dealing with government and corporations. So it began doing things beyond filing receipts: watching over public issues related to "openness" and "freedom" on behalf of the community.

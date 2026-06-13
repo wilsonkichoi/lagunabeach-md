@@ -78,7 +78,7 @@ Sin embargo, nunca se «americanizó» por completo. Seguía escribiendo poesía
 
 ## El regreso: avecindamiento en Kinmen en 2005
 
-![Atardecer en la costa de Ci, Kinmen — la orilla donde Cheng Chou-yu solía caminar solo tras avecindarse en Kinmen en 2005](/article-images/people/zheng-chouyu-cikan-sunset-kinmen.jpg)
+![Atardecer en la costa de Ci, Kinmen — la orilla donde Cheng Chou-yu solía caminar solo tras avecindarse en Kinmen en 2005](/article-images/people/zheng-chouyu-cikan-sunset-kinmen.webp)
 _Atardecer en la costa de Ci, Kinmen. Tras retirarse de Yale y regresar a Taiwán en 2005, Cheng Chou-yu solía caminar solo por la costa del lago Ci, observando la marea subir y bajar. Fotografía: Meigazine CHENG (Wikimedia Commons, CC BY-SA 4.0)_
 
 El año 2005 fue un punto de inflexión en la vida de Cheng Chou-yu. Ese año se retiró de Yale, a los 72 años, y decidió regresar a Taiwán. Su lugar de asentamiento no fue Taipéi ni Hsinchu (la ciudad donde estudió la secundaria), sino Kinmen.
@@ -93,7 +93,7 @@ Estas actividades constituyeron el preludio de su avecindamiento formal en Kinme
 
 ## _El legado de la paz_ y la Campana de la Paz del 823
 
-![Vista panorámica del lago Ci, Kinmen — el paisaje insular donde Cheng Chou-yu pasó sus últimos años](/article-images/people/zheng-chouyu-kinmen-cilake.jpg)
+![Vista panorámica del lago Ci, Kinmen — el paisaje insular donde Cheng Chou-yu pasó sus últimos años](/article-images/people/zheng-chouyu-kinmen-cilake.webp)
 _Vista panorámica del lago Ci, Kinmen. El lago Ci se encuentra en el municipio de Jinning, condado de Kinmen, con una superficie de 120 hectáreas. Es el lago artificial más grande de Kinmen, originalmente construido en 1969 bajo la supervisión militar de Chiang Ching-kuo, y desde la década de 1990 se ha convertido en hábitat de aves migratorias. Fotografía: Mnb (Wikimedia Commons, CC BY-SA 4.0)_
 
 Tras avecindarse en Kinmen, Cheng Chou-yu escribió un nuevo poemario titulado _El legado de la paz: cien años de poesía, diez mil años de paz duradera_, que ganó el 10.º Premio Mundial de Creación Literaria sobre la Vida. El tema central de este poemario es la paz — para alguien descendiente de Hebei, nacido en Shandong, que huyó con su madre por las provincias de China durante la guerra de resistencia, cruzó el mar en 1949, pisó por primera vez el frente de Kinmen en 1967 y se avecindó en Kinmen en 2005, «paz» no es una palabra abstracta, sino un estado concreto que persiguió toda la vida.

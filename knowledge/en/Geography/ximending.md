@@ -40,7 +40,7 @@ translatedAt: '2026-05-25T21:06:51Z'
 
 ## Six o’clock on Saturday evening, Red House South Plaza
 
-![The Ximen pedestrian zone at six o’clock on a Saturday evening, as crowds cross the rainbow crosswalk toward the Red House: a symbol of Taipei youths’ open-air living room after the pedestrian zone was designated in the late 1990s](/article-images/geography/ximending-rainbow-crossing-2019.jpg)
+![The Ximen pedestrian zone at six o’clock on a Saturday evening, as crowds cross the rainbow crosswalk toward the Red House: a symbol of Taipei youths’ open-air living room after the pedestrian zone was designated in the late 1990s](/article-images/geography/ximending-rainbow-crossing-2019.webp)
 _Crowds on the rainbow crosswalk in the Ximen pedestrian zone, September 2019. Photo: Volksabstimmung, 2019-09-28. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ximending_rainbow_crossing_201910.jpg) (CC BY-SA 2.0)._
 
 If you ask an 18-year-old Taipei teenager, “Where are you going this weekend?” they will not say Xinyi District. They will say “Ximen.”
@@ -71,7 +71,7 @@ But in 1904, something happened: the Japanese decided to demolish Taipei’s Qin
 
 ## The octagonal brick building of 1908
 
-![The Ximen Red House South Plaza, where the two red-brick buildings completed in 1908 — the octagonal hall to the north and the cruciform building to the south — became an outdoor bar district and LGBTQ-friendly public space in the twenty-first-century evening](/article-images/geography/ximending-red-house-south-plaza-2013.jpg)
+![The Ximen Red House South Plaza, where the two red-brick buildings completed in 1908 — the octagonal hall to the north and the cruciform building to the south — became an outdoor bar district and LGBTQ-friendly public space in the twenty-first-century evening](/article-images/geography/ximending-red-house-south-plaza-2013.webp)
 _Panoramic view of the Ximen Red House South Plaza. Photo: Asacyan, 2013-04-25. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:South_Plaza,_Red_House_Theater_20130425.jpg) (CC BY-SA 3.0)._
 
 If there is only one object in Ximending that you must see, it is the Ximen Red House.
@@ -126,7 +126,7 @@ After walking through these three shops, you understand Ximending’s true textu
 
 ## After 1999, the street slowed down and people increased
 
-![Graffiti on the blue wall at Ximending Cinema Park: after subcultures poured into Ximending in the late 1990s, street art became one of the street’s visual languages](/article-images/geography/ximending-graffiti-wall-2010.jpg)
+![Graffiti on the blue wall at Ximending Cinema Park: after subcultures poured into Ximending in the late 1990s, street art became one of the street’s visual languages](/article-images/geography/ximending-graffiti-wall-2010.webp)
 _Graffiti on the blue wall at Ximending Cinema Park. Photo: eazytraveler, 2010-02-13. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2010-02-13_Blue_wall_with_graffiti_in_Ximending.jpg) (CC BY 2.0)._
 
 Ximending’s second major reincarnation happened in the late 1990s.
@@ -149,7 +149,7 @@ After the 2010s, the Taipei City Government actively reinforced the subculture p
 
 ## Young people on the same street for 130 years
 
-![The Ximending pedestrian zone on a Christmas night, where crowds move under neon signs and holiday lights: the contemporary form of the same street in 2026](/article-images/geography/ximending-christmas-lights-2022.jpg)
+![The Ximending pedestrian zone on a Christmas night, where crowds move under neon signs and holiday lights: the contemporary form of the same street in 2026](/article-images/geography/ximending-christmas-lights-2022.webp)
 _The Ximending pedestrian zone on a Christmas night in December 2022. Photo: 迷惘的人生 (KUO TUNG YU), 2022-12-14. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Christmas_lights_at_Ximending_20221214.jpg) (CC BY-SA 2.0)._
 
 On October 18, 1908, the first day Ximen Market opened for business, an 18-year-old local Hoklo boy walked with his parents through the entrance of the Octagonal Hall designed by Juro Kondo and saw Japanese vendors selling seasonings he had never seen before. He did not know this red-brick building would stand here for 100 years.

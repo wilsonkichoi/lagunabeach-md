@@ -32,7 +32,7 @@ On August 25, 1960, the Rome Olympics opened. Delegations from various countries
 
 That year, this team could not be called the "Republic of China" nor "Taiwan." The name given by the IOC was "FORMOSA," Formosa. In the team was a young man named Yang Chuan-kwang. A few days later, he won a silver medal in the decathlon; it was Taiwan's first Olympic medal—hung under a team named "Formosa."
 
-![Yang Chuan-kwang, 1960 Rome Olympics](/article-images/society/yang-chuan-kwang-1960.jpg)
+![Yang Chuan-kwang, 1960 Rome Olympics](/article-images/society/yang-chuan-kwang-1960.webp)
 _Yang Chuan-kwang, silver medalist in the decathlon at the 1960 Rome Olympics, Taiwan's first Olympic medal. The team name he wore that year was "FORMOSA," Formosa. (UCLA Southern Campus 1960, Public Domain)_
 
 This is the only time in Olympic history that a delegation publicly protested during the opening ceremony[^2]. More than sixty years later, that white banner has been consigned to history, but the thing the banner wanted to protest has never ended: a team entered the field, but could not use the name it wanted.
@@ -77,7 +77,7 @@ Legally, Taiwan won this lawsuit. But what after winning? The fact that the IOC 
 
 Two months later, on March 23, 1981, Shen Chia-ming, Secretary-General of the Chinese Olympic Committee, and Samaranch formally signed the _Lausanne Agreement_ (Agreement between the IOC and the Chinese Taipei Olympic Committee). The agreement established the name that has been used ever since: **CHINESE TAIPEI OLYMPIC COMMITTEE**, with the country code TPE[^13]. A detail reveals the political calculation at the time: in the Olympic entry order, TPE was placed in Group T, deliberately arranged so as not to be listed together with "China" starting with the code C, avoiding any visual association of "Two Chinas" being listed side by side.
 
-![IOC President Samaranch](/article-images/society/samaranch.jpg)
+![IOC President Samaranch](/article-images/society/samaranch.webp)
 _Then-IOC President Juan Antonio Samaranch. On March 23, 1981, he signed the Lausanne Agreement with Shen Chia-ming, Secretary-General of the Chinese Olympic Committee. The name "Chinese Taipei" was thus finalized, used for forty years. (Photo by Leo Medvedev, CC BY-SA 4.0)_
 
 > **📝 Curator's Note**

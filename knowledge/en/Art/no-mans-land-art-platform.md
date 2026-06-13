@@ -32,7 +32,7 @@ translatedAt: '2026-05-17T05:06:52+08:00'
 
 > **30-second overview:** In November 2011, Cheng Wen-chi launched an online writing project in Taipei called "No Man's Land." It had no print edition, no advertising, and no subscription fee. Twelve years later, it had accumulated 56 themed issues, 384 articles, 31 podcast episodes, and 10 volumes of the Nusantara Archive[^1]. Among Chinese-language art-criticism platforms of the same period with the same three conditions, "no print-media parent body + no physical space + driven by an individual editor-in-chief," there is **no comparable case that survived across the same period**. It endured through the precise layering of three forms of quiet infrastructure: ET@T and the Digital Art Foundation absorbed hosting and legal-person status, public-sector bodies such as the National Culture and Arts Foundation punctuatedly filled issue-based project content, and Cheng Wen-chi personally covered the remaining gap over 12 years. Many invisible things in Taiwan's art world are sustained this way.
 
-![Cover of No Man's Land's November 2011 trial issue "Ocular Bonds," a black-ground, white-text digital grid image designed by masthead designer Huang Wen-hao](/article-images/art/nml-trial-issue-hero-2011.jpg)
+![Cover of No Man's Land's November 2011 trial issue "Ocular Bonds," a black-ground, white-text digital grid image designed by masthead designer Huang Wen-hao](/article-images/art/nml-trial-issue-hero-2011.webp)
 _In November 2011, the cover of No Man's Land's trial issue "Ocular Bonds." Cover design: Huang Wen-hao, chair of the Digital Art Foundation and executive director of the Taipei Digital Art Center since 2008. Fair use editorial commentary on the operation of the No Man's Land platform. Source: [heath.tw](https://www.heath.tw/nml-issue/trial-issue-of-no-mans-land/)._
 
 ## A Magazine No One Paid to Buy
@@ -73,7 +73,7 @@ This choice of position structurally affects the question of "why it survived": 
 
 The earliest concrete instantiation of NML's choice of a "peripheral" position was Issue 12, "Twinning the Wastelands," in November 2013. Curated by Cheng Wen-chi, with a masthead by the German artist Lars Hayer and assistance from the Kuala Lumpur art collective R.A.P., or Rumah Air Panas, "House of Hot Water," the issue included two interviews with Malaysian artists, Yap Sau Bin and Tan Wei Kheng, written by the Malaysian Chinese critic Chai Chang Hwang[^17].
 
-![Cover of No Man's Land Issue 12 "Twinning the Wastelands," November 2013, in dialogue with Kuala Lumpur R.A.P.'s ruin-linking project](/article-images/art/nml-twinning-wastelands-inline-2013.jpg)
+![Cover of No Man's Land Issue 12 "Twinning the Wastelands," November 2013, in dialogue with Kuala Lumpur R.A.P.'s ruin-linking project](/article-images/art/nml-twinning-wastelands-inline-2013.webp)
 _In November 2013, No Man's Land Issue 12, "Twinning the Wastelands," in dialogue with the Wasteland Twinning Network project of the Kuala Lumpur art collective R.A.P. Cover design: Lars Hayer. Fair use editorial commentary. Source: [heath.tw](https://www.heath.tw/nml-issue/twinning-the-wastelands/)._
 
 R.A.P. began as an independent Kuala Lumpur space in 1997. Yap Sau Bin and Chai Chang Hwang were founding members; it later shifted into a project-oriented art collective[^18]. The editor's preface to "Twinning the Wastelands" is circuitous but precise:
@@ -158,7 +158,7 @@ This bloodline explains one thing: why Taiwan's art world could grow a platform 
 >
 > The next time you read an old article from 2013 on heath.tw, remember that behind it are three layers of institutional parent body, two public-sector subsidies, and one editor's unchanged morning shift for 12 years. It was sustained by quiet infrastructure, not by miracle.
 
-![Cover of No Man's Land Issue 34 "Hermeneutics of Nusantara," a 2017 first-year review of the Nusantara Archive](/article-images/art/nml-hermeneutics-nusantara-inline-2017.jpg)
+![Cover of No Man's Land Issue 34 "Hermeneutics of Nusantara," a 2017 first-year review of the Nusantara Archive](/article-images/art/nml-hermeneutics-nusantara-inline-2017.webp)
 _In September 2017, No Man's Land Issue 34, "Hermeneutics of Nusantara," a first-year review of the Nusantara Archive. Fair use editorial commentary. Source: [heath.tw](https://www.heath.tw/nml-issue/hermeneutics-of-nusantara/)._
 
 ## Further Reading

@@ -77,7 +77,7 @@ Fuente: Departamento de Registro Civil del Ministerio del Interior, fines de 202
 
 Si miras este gráfico de cuadros durante un rato, surge una pregunta: ¿qué tipo de vida llevan esas personas que conforman el 30% disperso por el 70% del territorio? La respuesta está escondida en la densidad.
 
-![Horizonte de rascacielos en torno al distrito de Xinyi y Nangang, en Taipéi, con viviendas y oficinas apiladas densamente](/article-images/society/taipei-skyline-housing-2026.jpg)
+![Horizonte de rascacielos en torno al distrito de Xinyi y Nangang, en Taipéi, con viviendas y oficinas apiladas densamente](/article-images/society/taipei-skyline-housing-2026.webp)
 _El horizonte de la ciudad de Taipéi. La jurisdicción más densa de Taiwán reúne 8,975 personas por kilómetro cuadrado. Photo: Heeheemalu, CC BY-SA 4.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:20260204_Taipei,_Taiwan_Skyline.jpg)._
 
 ## De lo más denso a lo más vacío, una diferencia de 151 veces

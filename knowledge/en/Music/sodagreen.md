@@ -82,7 +82,7 @@ This difference in sequence may seem small, but it affects the entire story that
 
 ## "This Is the One": The Hot Wave Rock Stage at Gongliao Ocean Music Festival
 
-![March 12, 2008 — Sodagreen performing live at The Wall in Taipei, lead singer Wu Qingfeng on stage with five bandmates](/article-images/music/sodagreen-the-wall-2008.jpg)
+![March 12, 2008 — Sodagreen performing live at The Wall in Taipei, lead singer Wu Qingfeng on stage with five bandmates](/article-images/music/sodagreen-the-wall-2008.webp)
 _March 12, 2008 — Sodagreen live at The Wall, Taipei. Photo: Wikipedia user Solomon203, CC BY-SA 3.0. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sodagreen-20080312TheWall.jpg)._
 
 July 2003. Fulong Beach, Gongliao District, New Taipei City. The 4th Ocean Music Festival.
@@ -121,7 +121,7 @@ _"Little Love Song" — lead single from the October 2006 album *Small Universe*
 
 ## Vivaldi Took Them to London, Beijing, Berlin
 
-![July 2014 — "Audiovisuals and Hallucinations in the Air" 10th Anniversary World Tour at Taipei Arena, Sodagreen performing under stage lights](/article-images/music/sodagreen-vivaldi-tour-2014-09.jpg)
+![July 2014 — "Audiovisuals and Hallucinations in the Air" 10th Anniversary World Tour at Taipei Arena, Sodagreen performing under stage lights](/article-images/music/sodagreen-vivaldi-tour-2014-09.webp)
 _July 2014 — "Audiovisuals and Hallucinations in the Air" 10th Anniversary World Tour, Taipei Arena, three consecutive shows. Photo: Wikipedia user Solomon203, CC BY-SA 3.0. [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Sodagreen)._
 
 On October 20, 2006, Sodagreen released their second studio album, _Small Universe_[^18]. The title track and "Little Love Song" were the two defining tracks of the album. The lyrics and music for "Little Love Song" were entirely Wu Qingfeng's work; the melody's cleanliness and the lyrics' colloquialism pushed the song onto the must-sing list for Taiwanese college students in that era's KTVs.
@@ -194,7 +194,7 @@ _2009 — footage of Sodagreen recording *Summer / Fever* at London's Miloco Stu
 
 ## The Last Encore at Liberty Plaza
 
-![2014 — "Audiovisuals and Hallucinations in the Air" 10th Anniversary World Tour stage foreground, Sodagreen mid-performance](/article-images/music/sodagreen-vivaldi-tour-2014-09.jpg)
+![2014 — "Audiovisuals and Hallucinations in the Air" 10th Anniversary World Tour stage foreground, Sodagreen mid-performance](/article-images/music/sodagreen-vivaldi-tour-2014-09.webp)
 _2014 — "Audiovisuals and Hallucinations in the Air" 10th Anniversary World Tour live — from the 10th anniversary in 2014 to the last encore at Liberty Plaza in 2017, Sodagreen completed their mainstream heyday. Photo: Wikipedia user Solomon203, CC BY-SA 3.0. [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Sodagreen)._
 
 January 1, 2017. National Concert Hall.

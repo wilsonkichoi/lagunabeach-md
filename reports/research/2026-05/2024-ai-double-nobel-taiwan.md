@@ -537,10 +537,10 @@ Stage 1 完成 by Sonnet sub-agent — 43 searches / 15 WebFetch / 約 60 verbat
 
 **Image cache** (Stage 4.5):
 
-- hero: `/article-images/technology/alphafold-cbln1-structure-2025.png` (840x610, CC BY 4.0)
-- inline: `/article-images/technology/hinton-nobel-2024.jpg` (Arthur Petron, CC BY-SA 4.0)
-- inline: `/article-images/technology/hopfield-nobel-2024.jpg` (Arthur Petron, CC BY-SA 4.0)
-- inline: `/article-images/technology/tsmc-fab5-hsinchu-2010.jpg` (existing cache, reused)
+- hero: `/article-images/technology/alphafold-cbln1-structure-2025.webp` (840x610, CC BY 4.0)
+- inline: `/article-images/technology/hinton-nobel-2024.webp` (Arthur Petron, CC BY-SA 4.0)
+- inline: `/article-images/technology/hopfield-nobel-2024.webp` (Arthur Petron, CC BY-SA 4.0)
+- inline: `/article-images/technology/tsmc-fab5-hsinchu-2010.webp` (existing cache, reused)
 
 **Sibling reverse cross-link**:
 

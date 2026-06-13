@@ -49,7 +49,7 @@ Si solo se observa la curva de expansión, esta es una historia de adaptación e
 
 ## Árboles de alcanfor y ficus: un bosque de baja altitud de 5 metros de altura
 
-![Una garza nocturna de capirote negro inclinada sobre un césped urbano en Kaohsiung, con el pico hacia abajo y el cuello extendido, buscando alimento](/article-images/nature/malayan-night-heron-kaohsiung-foraging-2026.jpg)
+![Una garza nocturna de capirote negro inclinada sobre un césped urbano en Kaohsiung, con el pico hacia abajo y el cuello extendido, buscando alimento](/article-images/nature/malayan-night-heron-kaohsiung-foraging-2026.webp)
 _Marzo de 2026, garza nocturna de capirote negro buscando alimento en una zona urbana verde de Kaohsiung. Desde Taipéi hasta el sur de Taiwán, en treinta años los parques urbanos se han convertido en su estación de suministro de alimento. Foto: The Nature Box. [Dominio público (CC0) vía Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Malayan_night_heron_foraging_Kaohsiung_Taiwan_2026-03-28_0846.jpg)._
 
 La garza nocturna de capirote negro necesita dos cosas: copas altas donde anidar y un sotobosque abierto donde buscar alimento con el pico hacia abajo. Según los estudios de temporada reproductiva en varios parques principales de Taipéi (Bosque Daan, Memorial de Chiang Kai-shek, Parque de la Juventud, NTU, Parque 228), los nidos de esta especie prefieren bifurcaciones del tronco con ángulos casi horizontales, y la cobertura de copa suele superar el 70 %[^6]. La investigación de Yuan Hsiao-wei en la NTU señala que los ficus son el árbol de anidación preferido, y subraya que la proporción entre árboles y césped es clave para la selección de zonas de actividad: una densidad demasiado alta o demasiado baja resulta inadecuada[^7].

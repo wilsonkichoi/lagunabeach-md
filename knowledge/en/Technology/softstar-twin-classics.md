@@ -25,7 +25,7 @@ sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:8e80804c9910ac1a'
 sourceBodyHash: 'sha256:c6e2238f1a2c15d5'
 translatedAt: '2026-05-29T00:35:00+08:00'
-image: '/article-images/technology/guanghua-computer-market-2007.jpg'
+image: '/article-images/technology/guanghua-computer-market-2007.webp'
 imageCredit: 'pacificmorningpost (Flickr)'
 imageLicense: 'CC BY 2.0'
 imageSource: 'https://commons.wikimedia.org/wiki/File:2007-10-15_Guanhua_Computer_Market_Shop.jpg'
@@ -46,7 +46,7 @@ sporeLinks:
 
 ## The Boys of Guanghua Computer Market
 
-![Guanghua Computer Market in the 1990s was the heart of Taiwan's information industry — software shops / component stalls / technical manual bookstands densely packed in the basement level; game developers came here for technical reference materials](/article-images/technology/guanghua-computer-market-2007.jpg)
+![Guanghua Computer Market in the 1990s was the heart of Taiwan's information industry — software shops / component stalls / technical manual bookstands densely packed in the basement level; game developers came here for technical reference materials](/article-images/technology/guanghua-computer-market-2007.webp)
 _Guanghua Computer Market, Taipei, photographed in 2007. The heart of Taiwan's information industry in the 1990s. Photo: pacificmorningpost via Flickr. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2007-10-15_Guanhua_Computer_Market_Shop.jpg)._
 
 In October 1990, Taipei. A game called _Xuan-Yuan Sword_ appeared on the shelves of software shops.
@@ -63,7 +63,7 @@ _Xuan-Yuan Sword_'s graphics were rough and its controls clumsy, but it was the 
 
 ## The Man Who Wrote Heartbreak Into an Ending
 
-![The Legend of Sword and Fairy Steam page cover, published under license from SOFTSTAR ENTERTAINMENT; the 2021 Steam remake retains the original 1995 art direction and the character designs of Li Xiaoyao and Zhao Ling'er](/article-images/technology/softstar-sword-and-fairy.jpg)
+![The Legend of Sword and Fairy Steam page cover, published under license from SOFTSTAR ENTERTAINMENT; the 2021 Steam remake retains the original 1995 art direction and the character designs of Li Xiaoyao and Zhao Ling'er](/article-images/technology/softstar-sword-and-fairy.webp)
 _The Legend of Sword and Fairy_ Steam page cover, published by SOFTSTAR ENTERTAINMENT. Photo: Official SOFTSTAR Steam store image, used as fair use editorial commentary on the 30-year IP history.
 
 Five years later, the second sword was unsheathed.
@@ -85,7 +85,7 @@ The first-day run of 10,000 copies sold out. Cumulative sales across all version
 
 ## Two Swords, Two Paths
 
-![Xuan-Yuan Sword VII Steam page cover, released in 2020 by Softstar's DOMO Group, called the first next-gen engine AAA title in the Chinese-language market, but its poor commercial performance became one of the main reasons Softstar sold off the Twin Classics IPs in 2024](/article-images/technology/softstar-xuan-yuan-sword-7.jpg)
+![Xuan-Yuan Sword VII Steam page cover, released in 2020 by Softstar's DOMO Group, called the first next-gen engine AAA title in the Chinese-language market, but its poor commercial performance became one of the main reasons Softstar sold off the Twin Classics IPs in 2024](/article-images/technology/softstar-xuan-yuan-sword-7.webp)
 _Xuan-Yuan Sword VII_ (2020) Steam page cover, developed by Softstar's DOMO Group. Photo: Official SOFTSTAR Steam store image, fair use editorial commentary on the 30-year IP history.
 
 Both _Sword and Fairy_ and _Xuan-Yuan Sword_ were forged at Softstar, but they traveled very different paths.

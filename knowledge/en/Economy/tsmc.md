@@ -26,7 +26,7 @@ translatedAt: '2026-05-13T09:30:28+08:00'
 lastHumanReview: false
 readingTime: 14
 researchReport: reports/research/2026-05/台灣企業：台積電.md
-image: '/article-images/economy/tsmc-fabs-hsinchu-2020.jpg'
+image: '/article-images/economy/tsmc-fabs-hsinchu-2020.webp'
 imageCredit: 'Tseng Cheng-Hsun via Wikimedia Commons'
 imageLicense: 'CC BY 2.0'
 imageSource: 'https://commons.wikimedia.org/wiki/File:TSMC_fabs_in_Hsinchu_01.jpg'
@@ -72,7 +72,7 @@ The pledge to have no house brand and never compete with customers turned out to
 
 ## From "Nobody Gets It" to "Irreplaceable"
 
-![Aerial view of TSMC's fab complex in the Hsinchu Science Park, January 2, 2020 (photo: Tseng Cheng-Hsun)](/article-images/economy/tsmc-fabs-hsinchu-2020.jpg)
+![Aerial view of TSMC's fab complex in the Hsinchu Science Park, January 2, 2020 (photo: Tseng Cheng-Hsun)](/article-images/economy/tsmc-fabs-hsinchu-2020.webp)
 _TSMC's fab complex in the Hsinchu Science Park (Tseng Cheng-Hsun, January 2, 2020). Photo: Tseng Cheng-Hsun. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:TSMC_fabs_in_Hsinchu_01.jpg)._
 
 The turning point came in the late 1990s.
@@ -141,7 +141,7 @@ This is just one case. TSMC has similarly scaled land acquisition disputes and e
 
 ## The Most Important Man in the East Room
 
-![Aerial view of TSMC Fab 21 construction site in Phoenix, Arizona, November 5, 2023 (photo: Hunter Trick)](/article-images/economy/tsmc-fab21-arizona-2023.jpg)
+![Aerial view of TSMC Fab 21 construction site in Phoenix, Arizona, November 5, 2023 (photo: Hunter Trick)](/article-images/economy/tsmc-fab21-arizona-2023.webp)
 _TSMC Fab 21 construction site in Phoenix, Arizona (Hunter Trick, November 5, 2023). Photo: Hunter Trick. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:231105-1_TSMC_Fab_21_construction.jpg)._
 
 The afternoon of March 3, 2025. The East Room of the White House.

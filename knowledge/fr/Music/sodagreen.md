@@ -90,7 +90,7 @@ Cette différence d’ordre paraît minime, mais elle influence toute l’histoi
 
 ## « 就是這一組了 » : la scène Heat Wave Rock du festival Ho-hai-yan de Gongliao
 
-![Le 12 mars 2008, concert live de Sodagreen au The Wall Gongguan à Taipei, avec le chanteur Wu Ching-feng et les cinq autres membres sur scène](/article-images/music/sodagreen-the-wall-2008.jpg)
+![Le 12 mars 2008, concert live de Sodagreen au The Wall Gongguan à Taipei, avec le chanteur Wu Ching-feng et les cinq autres membres sur scène](/article-images/music/sodagreen-the-wall-2008.webp)
 _Le 12 mars 2008, Sodagreen en live au The Wall Gongguan, Taipei. Photo : utilisateur Wikipédia Solomon203, CC BY-SA 3.0. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sodagreen-20080312TheWall.jpg)._
 
 Juillet 2003, plage de Fulong, arrondissement de Gongliao, Nouveau Taipei. Quatrième édition du festival de musique océanique Ho-hai-yan.
@@ -129,7 +129,7 @@ _〈小情歌〉, titre principal de l’album 《小宇宙》 sorti en octobre 
 
 ## Vivaldi les emmène à Londres, Pékin et Berlin
 
-![Concert de Sodagreen sous les éclairages de scène lors de la tournée mondiale du dixième anniversaire « Air World Tour » à la Taipei Arena en 2014](/article-images/music/sodagreen-vivaldi-tour-2014-07.jpg)
+![Concert de Sodagreen sous les éclairages de scène lors de la tournée mondiale du dixième anniversaire « Air World Tour » à la Taipei Arena en 2014](/article-images/music/sodagreen-vivaldi-tour-2014-07.webp)
 _Juillet 2014, trois concerts à la Taipei Arena dans le cadre de la tournée mondiale du dixième anniversaire « Air World Tour ». Photo : utilisateur Wikipédia Solomon203, CC BY-SA 3.0. [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Sodagreen)._
 
 Le 20 octobre 2006, Sodagreen sort son deuxième album studio, 《小宇宙》[^18]. Le titre éponyme et 〈小情歌〉 en sont les deux points de mémoire. Les paroles et la musique de 〈小情歌〉 sont entièrement de Wu Ching-feng ; sa mélodie limpide et son écriture orale propulsent la chanson dans la liste des incontournables de karaoké des étudiants taïwanais de l’époque.
@@ -202,7 +202,7 @@ _Extrait documentaire de l’enregistrement de 《夏／狂熱》 par Sodagreen 
 
 ## Le dernier rappel de Liberty Square
 
-![Premier plan de scène lors de la tournée mondiale du dixième anniversaire « Air World Tour » en 2014, concert de Sodagreen en cours](/article-images/music/sodagreen-vivaldi-tour-2014-09.jpg)
+![Premier plan de scène lors de la tournée mondiale du dixième anniversaire « Air World Tour » en 2014, concert de Sodagreen en cours](/article-images/music/sodagreen-vivaldi-tour-2014-09.webp)
 _Concert de la tournée mondiale du dixième anniversaire « Air World Tour » en 2014 : du dixième anniversaire en 2014 au dernier rappel de Liberty Square en 2017, Sodagreen achève son apogée mainstream. Photo : utilisateur Wikipédia Solomon203, CC BY-SA 3.0. [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Sodagreen)._
 
 Le 1er janvier 2017, au National Concert Hall.

@@ -46,7 +46,7 @@ translatedAt: '2026-05-23T05:06:37+08:00'
 
 ## Six in the Morning, Steam over Beitou Park
 
-![The two-story red-brick, English country house-style exterior of the Beitou Hot Spring Museum, formerly the 1913 Beitou Public Bathhouse, with arched corridors and stained-glass windows, designed by Moriyama Matsunosuke](/article-images/geography/beitou-hot-spring-museum-2020.jpg)
+![The two-story red-brick, English country house-style exterior of the Beitou Hot Spring Museum, formerly the 1913 Beitou Public Bathhouse, with arched corridors and stained-glass windows, designed by Moriyama Matsunosuke](/article-images/geography/beitou-hot-spring-museum-2020.webp)
 _Exterior of the Beitou Hot Spring Museum, originally the Beitou Public Hot Spring Bathhouse completed in 1913. Photo: Wikimedia Commons contributor. [License via Wikimedia](https://commons.wikimedia.org/wiki/File:Beitou_Hot_Spring_Museum_2.jpg) (CC BY-SA 4.0)._
 
 If you ask an 18-year-old Taipei teenager “Where are you going this weekend,” he will say Ximen. If you ask a 70-year-old grandmother “Where are you going for a walk this morning,” she will say Xinbeitou.
@@ -105,7 +105,7 @@ Hirata Gengo lived at Tengu-an until his death on July 7, 1919 (Taishō 8)[^16].
 
 ## 1913, Moriyama Matsunosuke’s Red-Brick Bathhouse
 
-![The steps before the Beitou Hot Spring Museum entrance and its English country house-style facade, a two-story red-brick building completed in 1913](/article-images/geography/beitou-hot-spring-museum-entrance.jpg)
+![The steps before the Beitou Hot Spring Museum entrance and its English country house-style facade, a two-story red-brick building completed in 1913](/article-images/geography/beitou-hot-spring-museum-entrance.webp)
 _Beitou Hot Spring Museum entrance, originally the 1913 public bathhouse. Photo: Wikimedia Commons contributor. [License via Wikimedia](https://commons.wikimedia.org/wiki/File:Entrance_of_Beitou_public_hot_spring.jpg) (CC BY-SA)._
 
 After Tengu-an was built, Beitou became a therapeutic resort that Japanese visitors to Taiwan had to see. On June 17, 1913 (Taishō 2), Taipei Prefecture spent more than 56,000 yen in public-health funds to build and formally open a large public bathhouse[^4][^9].
@@ -126,7 +126,7 @@ At the end of the line was the “Xinbeitou passenger halt,” later Xinbeitou S
 
 ## 1923, the Crown Prince Came to Bathe Once
 
-![A documentary photograph from April 25, 1923, showing Crown Prince Hirohito visiting the Beitou Public Hot Spring Bathhouse](/article-images/geography/beitou-hirohito-public-bathhouse-1923.jpg)
+![A documentary photograph from April 25, 1923, showing Crown Prince Hirohito visiting the Beitou Public Hot Spring Bathhouse](/article-images/geography/beitou-hirohito-public-bathhouse-1923.webp)
 _Archival photograph of Crown Prince Hirohito visiting the Beitou Public Bathhouse in 1923. Photo: Public domain (prewar document, 1923). [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Crown_Prince_Hirohito%27s_visit_at_Hokutō_Public_Bathhouse_1923.jpg)._
 
 In April 1923 (Taishō 12), **Crown Prince Hirohito**, later the Shōwa emperor, visited Taiwan for 12 days in his capacity as regent on behalf of Emperor Taishō[^6]. This was the first visit by Japan’s imperial family to colonial Taiwan.
@@ -207,7 +207,7 @@ In November 2002, the **Ketagalan Culture Center** opened at No. 3-1 Zhongshan R
 
 ## 2017, the Station Comes Home
 
-![Xinbeitou Station, opened in 1916 and reassembled in Qixing Park in 2017, built of Taiwanese hinoki cypress with four round dormer-window openings](/article-images/geography/xinbeitou-historic-station-2023.jpg)
+![Xinbeitou Station, opened in 1916 and reassembled in Qixing Park in 2017, built of Taiwanese hinoki cypress with four round dormer-window openings](/article-images/geography/xinbeitou-historic-station-2023.webp)
 _Current state of Xinbeitou Station reassembled in Qixing Park. Photo: Wikimedia Commons contributor. [License via Wikimedia](https://commons.wikimedia.org/wiki/File:Front_view_of_Xinbeitou_Station_on_a_bright_sunny_day.jpg) (CC BY-SA)._
 
 On July 15, 1988, the day the Xinbeitou Branch Line was abolished, the 1916 Taiwanese hinoki station building was dismantled, transported to Changhua, and reassembled inside Taiwan Folk Village[^19]. It stayed in Changhua for 24 years. No one boarded a train at that station there. It became an exhibit in the folk village; tourists took photos, looked once, and walked past[^19].
@@ -226,7 +226,7 @@ From 1916 to 2017, this station experienced: **Japanese-period tourist railway (
 
 ## Material Layers: Red Brick, Qilian Stone, Hokutolite, Cypress
 
-![Green sulfur spring water in Thermal Valley steaming white, a sulfur spring near 100°C](/article-images/geography/beitou-thermal-valley.jpg)
+![Green sulfur spring water in Thermal Valley steaming white, a sulfur spring near 100°C](/article-images/geography/beitou-thermal-valley.webp)
 _Green sulfur spring at Thermal Valley. Photo: Wikimedia Commons contributor. [License via Wikimedia](https://commons.wikimedia.org/wiki/File:Beitou_Thermal_Valley.jpg) (CC BY-SA)._
 
 Every material layer on this Beitou street has a story.
@@ -257,7 +257,7 @@ Visit these three places, along with the Hot Spring Museum and Thermal Valley, a
 
 ## The Same Mountain Spring, the Next Generation of Residents
 
-![The six public pools of Beitou Park Outdoor Hot Spring Bathing Pool, “Millennium Hot Spring”](/article-images/geography/beitou-park-outdoor-pool-2018.jpg)
+![The six public pools of Beitou Park Outdoor Hot Spring Bathing Pool, “Millennium Hot Spring”](/article-images/geography/beitou-park-outdoor-pool-2018.webp)
 _Beitou Park Outdoor Hot Spring Bathing Pool, or Millennium Hot Spring. Photo: Wikimedia Commons contributor. [License via Wikimedia](https://commons.wikimedia.org/wiki/File:Beitou_Park_Outdoor_Hot_Spring_Bathing_Pool.jpg) (CC BY-SA)._
 
 At six in the morning, the outdoor pool has not opened yet, but a row of older women is already sitting by the entrance.

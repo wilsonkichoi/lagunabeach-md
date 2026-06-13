@@ -23,7 +23,7 @@ featured: true
 lastVerified: 2026-06-12
 lastHumanReview: false
 researchReport: reports/research/2026-06/justfont與台灣字體發展.md
-image: '/article-images/technology/justfont-jinxuan-flyingv-cover-2015.jpg'
+image: '/article-images/technology/justfont-jinxuan-flyingv-cover-2015.webp'
 imageCredit: 'justfont / flyingV'
 imageLicense: 'Fair use editorial commentary'
 imageSource: 'https://www.flyingv.cc/projects/8250'
@@ -50,7 +50,7 @@ Faire des polices à Taïwan a toujours été ce type de métier : sur les ensei
 
 ## Un CD-ROM au marché Guanghua
 
-![L'affichage LED de l'itinéraire sur le devant d'un bus de Taipei, montrant le numéro de ligne et la destination en caractères Ming — un paysage typographique ordinaire dans les rues taïwanaises](/article-images/technology/taipei-bus-311-mingliu-led-sign-2022.jpg)
+![L'affichage LED de l'itinéraire sur le devant d'un bus de Taipei, montrant le numéro de ligne et la destination en caractères Ming — un paysage typographique ordinaire dans les rues taïwanaises](/article-images/technology/taipei-bus-311-mingliu-led-sign-2022.webp)
 
 _Affichage des itinéraires de bus dans les rues de Taipei. Les caractères Ming ont occupé les documents officiels, la signalétique et les transports en commun taïwanais pendant des décennies — un paysage que la plupart des gens lisent chaque jour sans y prêter attention. Photo : BlubiNeko, 2022. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)._
 
@@ -65,7 +65,7 @@ La trajectoire de l'exode peut se raconter à travers deux entreprises. Arphic, 
 
 ## Treize mille cinquante-trois cases
 
-![Les caractères en plomb de la fonderie Rixing, des matrices en cuivre et des caractères en plomb serrés rangée après rangée sur les étagères, chaque sinogramme correspondant à un caractère physique](/article-images/technology/rixing-type-foundry-lead-type-2023.jpg)
+![Les caractères en plomb de la fonderie Rixing, des matrices en cuivre et des caractères en plomb serrés rangée après rangée sur les étagères, chaque sinogramme correspondant à un caractère physique](/article-images/technology/rixing-type-foundry-lead-type-2023.webp)
 
 _Les caractères en plomb de la fonderie Rixing. Avant les polices numériques, chaque sinogramme était un caractère en plomb physique ; les supports se sont succédé génération après génération, mais l'ordre de grandeur de plus de treize mille caractères n'a jamais changé. Photo : Johan Jönsson, 2023. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)._
 
@@ -116,7 +116,7 @@ Le nom lui-même raconte une autre histoire taïwanaise. Jin Xuan (金萱) est �
 
 Ce nom a failli ne pas exister. Des années plus tard, Lin Xia raconte dans le même épisode de podcast que la police avait failli s'appeler « Tiezhi » (branche de fer) ou « Matteo Ricci »[^48]. Une fois le nom arrêté, la saveur taïwanaise a été intégrée jusqu'au bout : « Précisément parce que "Jin Xuan" est un thé authentiquement taïwanais, nous avons voulu, lors de la création de toutes les caractéristiques des fichiers de polices, fusionner, voire rendre hommage à la culture des boissons à emporter si caractéristique de Taïwan. »[^21] Les noms des graisses ont donc directement emprunté le vocabulaire du comptoir des boissons fraîches : deux sucres, peu sucré, quatre sucres, demi-sucre, huit sucres[^21].
 
-![Spécimen officiel de la police Jin Xuan, présentant des termes de bubble tea comme "perles de tapioca" et "peu sucré sans glace" typographiés parmi des illustrations de feuilles de thé, exprimant la personnalité typographique autour du thème taïwanais](/article-images/technology/justfont-jinxuan-specimen-2015.png)
+![Spécimen officiel de la police Jin Xuan, présentant des termes de bubble tea comme "perles de tapioca" et "peu sucré sans glace" typographiés parmi des illustrations de feuilles de thé, exprimant la personnalité typographique autour du thème taïwanais](/article-images/technology/justfont-jinxuan-specimen-2015.webp)
 
 _Le spécimen officiel du texte de présentation de Jin Xuan, utilisant le vocabulaire des boissons à emporter comme texte d'exemple. Image : © justfont, matériaux fournis par justfont, fair use editorial commentary (autorisation de collaboration). [Source](https://blog.justfont.com/2015/08/introducing-jinshuan/)._
 
@@ -166,7 +166,7 @@ Les zones grises du droit d'auteur avaient un chapitre antérieur à Taïwan. Le
 
 ## Les perles de tapioca libérées
 
-![Bannière officielle de la police jf open 粉圓, affichant le nom et les exemples de caractères en style arrondi](/article-images/technology/justfont-open-huninn-banner-2019.png)
+![Bannière officielle de la police jf open 粉圓, affichant le nom et les exemples de caractères en style arrondi](/article-images/technology/justfont-open-huninn-banner-2019.webp)
 
 _Visuel officiel de jf open 粉圓. Cette police open source de style arrondi est adaptée de la Kosugi Maru japonaise, enrichie des phonèmes bopomofo et des caractères courants taïwanais, puis publiée sous licence OFL. Image : GitHub officiel de justfont. [Source](https://github.com/justfont/open-huninn-font)._
 
@@ -179,7 +179,7 @@ La lignée open source s'est allongée. Ke Zhi-Jie (connu en ligne sous le pseud
 
 ## Extraite du bois de gravure, la pluie
 
-![Visuel officiel de la comparaison entre la police Lan Yang Mingti de justfont et les glyphes de la xylographie de _Jian Yu Ji_, les mêmes caractères présentés côte à côte montrant les originaux xylographiques et le squelette Ming transposé numériquement](/article-images/technology/justfont-lanyangmingti-jianyuji-comparison-2021.png)
+![Visuel officiel de la comparaison entre la police Lan Yang Mingti de justfont et les glyphes de la xylographie de _Jian Yu Ji_, les mêmes caractères présentés côte à côte montrant les originaux xylographiques et le squelette Ming transposé numériquement](/article-images/technology/justfont-lanyangmingti-jianyuji-comparison-2021.webp)
 
 _La comparaison officielle entre Lan Yang Mingti et les caractères xylographiques de \_Jian Yu Ji_. Le geste calligraphique de la xylographie en Kaiti a été transposé dans le squelette d'un Ming contemporain. Image : © justfont, matériaux fournis par justfont, fair use editorial commentary (autorisation de collaboration). [Source](https://justfont.com/lanyangming/).\_
 
@@ -211,7 +211,7 @@ Entre Jin Xuan et Lan Yang, justfont a aussi ouvert une troisième voie : aider 
 
 Alors que la liste s'allongeait, le regard se tournait aussi vers la rue. Les rues de Taïwan sont depuis longtemps un musée de polices sans billet d'entrée : Wang Shui-He, enseigniste à Taichung, a commencé son métier à quatorze ans, a formé plus de quatre cents apprentis au cours de sa vie, et l'enseigne de l'établissement Miyahara porte encore aujourd'hui ses caractères, la « Wang Shui-He Yuanti », aux proportions rectangulaires et à l'axe optique élevé — placée côte à côte avec une Yuanti moderne, l'époque s'y lit au premier coup d'œil[^53]. La designer de justfont Shen Cai-Rou voulait capturer ce « toucher humain » pour l'intégrer dans l'ordinateur ; elle a parcouru de vieilles enseignes de rue, des titres de vieux livres et des plaques de temple pour collecter des exemples, puis a travaillé selon les règles des anciens artisans : délibérément sans esquisse préalable, en ne traçant que la grille sur le papier avant d'appliquer directement l'encre[^54][^55]. Le résultat s'appelle Kamabit — une façon de dire « tomate » en taïwanais — et a été mis en ligne début 2025[^55].
 
-![Spécimen officiel de la police Kamabit, aux couleurs rétro de fond vert et caractères rouges, avec des traits épais issus des enseignes peintes à la main des vieilles boutiques taïwanaises](/article-images/technology/justfont-kamabit-specimen-2023.jpg)
+![Spécimen officiel de la police Kamabit, aux couleurs rétro de fond vert et caractères rouges, avec des traits épais issus des enseignes peintes à la main des vieilles boutiques taïwanaises](/article-images/technology/justfont-kamabit-specimen-2023.webp)
 
 _Visuel principal officiel de Kamabit, en hommage aux caractères peints à la main des vieilles enseignes. Image : © justfont, matériaux fournis par justfont, fair use editorial commentary (autorisation de collaboration). [Source](https://justfont.com/kamabit/)._
 
@@ -228,7 +228,7 @@ Dans ce relais, le témoin le plus ancien se transmet dans le quartier de Datong
 
 Zhang Jie-Guan, le gérant de la deuxième génération, a commencé ce métier à dix-sept ans aux côtés de son père[^57]. À l'apogée de l'entreprise, les sept fondeuses tournaient à plein régime : « Les maîtres artisans finissaient en sous-vêtements et étaient encore en nage ! »[^57] Quand l'industrie de l'imprimerie a changé d'époque, son travail a acquis une dimension supplémentaire : la restauration des caractères. Les matrices en cuivre s'usent à l'usage, les caractères en plomb obtenus présentent des angles manquants ou des traits brisés qui doivent être restaurés un par un. Après des décennies de restauration, il parle de ce travail comme d'une pratique spirituelle : « L'interprétation de chaque caractère est différente selon les personnes. Restaurer des caractères, ce n'est pas de la conception typographique — il faut effacer le "moi", ce qui est en réalité très difficile. »[^57]
 
-![Zhang Jie-Guan assis devant un écran, restaurant numériquement des glyphes de caractères en plomb, les murs derrière lui couverts de tableaux de spécimens de caractères en plomb](/article-images/technology/rixing-chang-chieh-kuan-repairing-type-2025.jpg)
+![Zhang Jie-Guan assis devant un écran, restaurant numériquement des glyphes de caractères en plomb, les murs derrière lui couverts de tableaux de spécimens de caractères en plomb](/article-images/technology/rixing-chang-chieh-kuan-repairing-type-2025.webp)
 
 _Zhang Jie-Guan restaurant des glyphes numérisés devant son écran. Le savoir-faire de la restauration de caractères de l'ère du plomb se perpétue sur les courbes vectorielles. Photo : © justfont, matériaux fournis par justfont, fair use editorial commentary (autorisation de collaboration). [Source](https://blog.justfont.com/2025/06/rixing-song2-revivals/)._
 

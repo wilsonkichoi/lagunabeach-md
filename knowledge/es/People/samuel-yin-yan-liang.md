@@ -98,7 +98,7 @@ La escala de sus donaciones a ambos lados del estrecho le valió con frecuencia 
 
 Ese día prometió públicamente donar el 95% de su patrimonio personal a la caridad tras su fallecimiento[^2].
 
-![Exterior de la Biblioteca Daryl Seetoo de la Universidad Nacional de Chengchi, construida con una donación de aproximadamente 1,300 millones de dólares taiwaneses de Samuel Yin para celebrar el septuagésimo cumpleaños de su director de tesis Daryl Seetoo](/article-images/people/yin-nccu-dah-hsian-library-2022.jpg)
+![Exterior de la Biblioteca Daryl Seetoo de la Universidad Nacional de Chengchi, construida con una donación de aproximadamente 1,300 millones de dólares taiwaneses de Samuel Yin para celebrar el septuagésimo cumpleaños de su director de tesis Daryl Seetoo](/article-images/people/yin-nccu-dah-hsian-library-2022.webp)
 _Biblioteca Daryl Seetoo de la Universidad Nacional de Chengchi, inaugurada en 2019. Samuel Yin donó aproximadamente 1,300 millones de dólares taiwaneses para celebrar el septuagésimo cumpleaños de su director de tesis Daryl Seetoo. Foto: colaborador de Wikimedia Commons, 2022-08-15. [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Dah_Hsian_Seetoo_Library_front_20220815.jpg)._
 
 ## ¿Por qué construyó un premio científico y no un museo?
@@ -145,7 +145,7 @@ Mirando hacia atrás los resultados de las selecciones, el Tang Prize logró alg
 
 Para una isla que frecuentemente es marginada de la comunidad internacional por razones políticas, esta es otra forma de escribir la soberanía.
 
-![Samuel Yin en la recepción inaugural del Tang Prize en 2014](/article-images/people/yin-yan-liang-tang-prize-reception.jpg)
+![Samuel Yin en la recepción inaugural del Tang Prize en 2014](/article-images/people/yin-yan-liang-tang-prize-reception.webp)
 _Septiembre de 2014, recepción inaugural del Tang Prize. Foto: Gobierno de la Ciudad de Taipéi, 2014-09-15. [Información abierta del Gobierno de la Ciudad de Taipéi](https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&sms=72544237BBE4C5F6&s=D6F7488144C1C3CA)._
 
 ## La línea del límite siempre estuvo del lado de adentro
@@ -180,7 +180,7 @@ Desde la suspensión de la acusación en el caso de seguridad nacional en 2012, 
 
 Apuesta bilateral, privilegio de cuello blanco, denunciante, filántropo: todos estos marcos lo definen simultáneamente. El lector puede elegir uno de esos marcos como su definición, o puede aceptar que varios marcos coexisten al mismo tiempo.
 
-![Retrato de Samuel Yin en un acto público en 2015](/article-images/people/yin-yan-liang-portrait-2015.jpg)
+![Retrato de Samuel Yin en un acto público en 2015](/article-images/people/yin-yan-liang-portrait-2015.webp)
 _Samuel Yin, en un acto público en 2015. Foto: Gobierno de la Ciudad de Taipéi, 2015-10-28. [Información abierta del Gobierno de la Ciudad de Taipéi](https://commons.wikimedia.org/wiki/File:Samuel_Yin_2015_(cropped).jpg).\_
 
 ## Un día menos de construcción es un día más salvando a un paciente

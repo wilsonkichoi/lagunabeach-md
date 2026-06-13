@@ -55,7 +55,7 @@ En 1988 (año 77 de la República), Pingxi celebró por primera vez un evento de
 
 ## De la marca "Sur: cañones de abejas; Norte: faroles de cielo" al pico de internacionalización
 
-![Escena diurna del casco antiguo de Shifen, con la línea ferroviaria de Pingxi cruzando el centro del casco antiguo y puestos y tiendas de faroles a ambos lados](/article-images/culture/shifen-old-street-2017.jpg)
+![Escena diurna del casco antiguo de Shifen, con la línea ferroviaria de Pingxi cruzando el centro del casco antiguo y puestos y tiendas de faroles a ambos lados](/article-images/culture/shifen-old-street-2017.webp)
 _Escena diurna del casco antiguo de Shifen, con la línea ferroviaria de Pingxi cruzando el centro del casco antiguo y puestos y tiendas de faroles a ambos lados. La economía turística a lo largo de la vía férrea es la base industrial local acumulada durante 30 años desde la creación de la marca "Sur: cañones de abejas; Norte: faroles de cielo". Foto: Xiquinho Silva. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Shifen_Old_Street_48013-Shifen_(30606697197).jpg).\_
 
 De 1988 a la década de 2010, el Festival de Faroles de Cielo de Pingxi recorrió una trayectoria típica de "costumbre local → marca turística municipal → recomendación de medios internacionales".
@@ -88,7 +88,7 @@ El gobierno de Nuevo Taipéi anunció posteriormente que entre 2018 y 2025 se ha
 
 ## Dos personas apellidadas Hu, dos vinculadas a la escuela primaria de Shifen, dos que beben del Río Keelung
 
-![Detalle de faroles de cielo elevándose durante el Festival de Faroles de Cielo de Pingxi, con turistas encendiendo y soltando faroles escritos con bendiciones](/article-images/culture/pingxi-lantern-release-2023.jpg)
+![Detalle de faroles de cielo elevándose durante el Festival de Faroles de Cielo de Pingxi, con turistas encendiendo y soltando faroles escritos con bendiciones](/article-images/culture/pingxi-lantern-release-2023.webp)
 _Detalle de faroles de cielo elevándose durante el Festival de Faroles de Cielo de Pingxi 2023, con turistas encendiendo y soltando faroles escritos con bendiciones. Detrás de cada farol que se eleva hay un pincel de tinta de algún puesto del casco antiguo de Shifen, un papel pegado con engrudo y una pregunta sobre responsabilidad ambiental. Foto: 鄭惠霙 Vickie399. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E5%B9%B3%E6%BA%AA%E5%A4%A9%E7%87%88%E7%AF%80_%E9%84%AD%E6%83%A0%E9%9C%99.jpg).\_
 
 Si nos detuviéramos en "los 326 kilogramos" y "la casa de Hu Wei-ming", la historia caería en el embudo estándar de "ambientalistas vs. culturalistas".

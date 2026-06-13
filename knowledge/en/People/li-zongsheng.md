@@ -44,7 +44,7 @@ In 1975, while still in school, he formed the Wood Guitar choir with Chiang Hsue
 > 📝 **Curator's Note**
 > Many people remember Jonathan Lee as the "godfather of Mandopop" and remember the great love songs he wrote. But the creative starting point he gave for himself was that he "didn't want to go back to delivering gas." That starting point matters. It explains why he spent his life writing words ordinary people could understand. Someone who has carried steel cylinders, rung doorbells, and collected money does not write songs in ornate literary diction. He writes in the language of the street, because that is where he originally stood.
 
-![A half-length portrait of Jonathan Lee from 2008, bearded and composed, the most familiar face of the godfather of Mandopop](/article-images/people/jonathan-lee-portrait-2008.jpg)
+![A half-length portrait of Jonathan Lee from 2008, bearded and composed, the most familiar face of the godfather of Mandopop](/article-images/people/jonathan-lee-portrait-2008.webp)
 _Jonathan Lee, photographed in 2008. With a guitar and a stool, he turned singing into an extension of speech. Photo: Tat Lau. [CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:JonathanLee2008_crop.jpg)._
 
 ## Writing Someone Else's Letter to Chyi Yu
@@ -70,7 +70,7 @@ One music review put the contrast with great precision: "Lo Ta-yu observes the w
 
 Their life paths also make an interesting contrast. In 1990, Lo Ta-yu founded the label Music Factory in Hong Kong.[^19] Jonathan Lee did not have his own label; his stage was always Rock Records. He became vice president and production director, bringing batch after batch of singers to the center of Taiwan's music scene. These are two different ways of living as a "godfather": one sets up his own banner as a standard-bearer; the other, inside a major company, becomes the hands that choose songs, refine songs, and sign artists.
 
-![Lo Ta-yu attending the Golden Melody Awards in 2021, wearing sunglasses and his signature all-black outfit](/article-images/people/lo-ta-yu-gma-2021.jpg)
+![Lo Ta-yu attending the Golden Melody Awards in 2021, wearing sunglasses and his signature all-black outfit](/article-images/people/lo-ta-yu-gma-2021.webp)
 _Lo Ta-yu, pictured at the 2021 Golden Melody Awards, is often named alongside Jonathan Lee as one of Mandopop's two godfathers: one observes the world, the other peers into the human heart. Photo: 化城再来人. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:20210822CPKK35c_TAIWAN_GMA_LO_TAYOU_EN0822LA07-1.jpg)._
 
 ## The Songs He Actually Did Not Write
@@ -130,7 +130,7 @@ Academia has noticed this tension. A master's thesis at National Chung Hsing Uni
 
 In 2002, Jonathan Lee did something rather different from producing and songwriting: he founded Lee Guitars and began making acoustic guitars by hand.[^40] He said that in the history of Mandopop, there had been almost no luthiers of its own. The next year, he moved the workshop to Beijing's 798 Art District, and the center of his life gradually shifted to Beijing as well.[^40]
 
-![A close-up of a Lee Guitars acoustic guitar, with the wood grain of the body and the soundhole clearly visible](/article-images/people/jonathan-lee-guitar.jpg)
+![A close-up of a Lee Guitars acoustic guitar, with the wood grain of the body and the soundhole clearly visible](/article-images/people/jonathan-lee-guitar.webp)
 _A Lee Guitars acoustic guitar. From hands that carried gas cylinders to hands that plane wood and make guitars. Photo: KaurJmeb. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jonathan_Lees_guitar.jpg)._
 
 From hands that carried gas cylinders, to hands that played guitar, wrote songs, and polished singers, then to hands that plane wood and make guitars, these hands have taken on many kinds of work. But if one looks closely, they have been doing the same thing all along: slowly turning something an ordinary person wants to say but cannot quite articulate into a work that someone else can receive.

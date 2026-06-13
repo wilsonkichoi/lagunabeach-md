@@ -112,7 +112,7 @@ Después, en una entrevista con _Culture Journal_, dijo: "**Yo creía que sin m�
 
 Leyendo estos dos pasajes juntos — "sin mí no podían vs cada vez mejor" + "cuando las personas estén bien cuidadas, los animales podrán estar mejor" — se ve su reflexión sobre la narrativa romántica de "una sola lente rescató un pueblo de montaña". Una lente puede rescatar un pueblo de montaña, pero una lente no puede cerrar la buena voluntad que generó.
 
-![Paisaje del pueblo de montaña del valle del río Keelung, vista desde un puente cerca de la estación de Houtong, la línea Pingxi cruza el valle](/article-images/geography/houtong-keelung-river-2016.jpg)
+![Paisaje del pueblo de montaña del valle del río Keelung, vista desde un puente cerca de la estación de Houtong, la línea Pingxi cruza el valle](/article-images/geography/houtong-keelung-river-2016.webp)
 _Paisaje del valle del Keelung, vista del pueblo de montaña desde las escaleras panorámicas cerca de Houtong — la línea Pingxi cruza el valle, las montañas se desvanecen en la niebla al fondo. El destino de este pueblo de montaña, desde el cese de Ruisan en 1990 hasta la lente de Madre Gata en 2009 y los poco más de 30 gatos restantes en 2026, está inseparablemente ligado al paisaje formado por este río, este ferrocarril y estas montañas. Foto: CharlieDigital. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stairway_to_Keelung_River_near_Houtong_Cat_Village_20160401.jpg)._
 
 ## TNVR repara — de 189 esterilizaciones al primer director "Dorayaki" de la Oficina Gatuna
@@ -129,7 +129,7 @@ La curva de progreso fue la siguiente:
 
 De 274 a poco más de 30 tomó 8 años. Se logró mediante esterilización, adopción y el tiempo del envejecimiento natural de los gatos.
 
-![Primer plano de un gato callejero de Houtong, un calicó tricolor mirando hacia la cámara en una calle, con escaleras de piedra húmedas de fondo](/article-images/geography/houtong-calico-cat-2015.jpg)
+![Primer plano de un gato callejero de Houtong, un calicó tricolor mirando hacia la cámara en una calle, con escaleras de piedra húmedas de fondo](/article-images/geography/houtong-calico-cat-2015.webp)
 _Un gato callejero de Houtong en 2015 — un calicó tricolor mira hacia la cámara frente a unas escaleras de piedra. Desde que la Oficina de Protección Animal de la Nueva Taipei inició el TNVR en 2015, cada gato registrado tiene un número y un microchip. Esto es lo que el pueblo de montaña de Houtong puede conservar realmente más allá de la marca "paraíso de los gatos". Foto: Sun Taro. [CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2015-05-03_feral_calico_cat_at_Houtong_(cropped*2022).jpg).*
 
 En 2021, la Oficina de Protección Animal de la Nueva Taipei estableció la "Oficina Preparatoria de la Oficina Gatuna de Houtong", en una antigua residencia ferroviaria, con la fachada pintada en tono "oro de Ruifang" como homenaje al paisaje minero[^26]. El 29 de abril de 2024 se inauguró oficialmente, y el gato naranja "Dorayaki" fue elegido como primer director por votación[^27]. En ese momento había 172 gatos registrados.

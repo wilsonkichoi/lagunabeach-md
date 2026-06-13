@@ -2,7 +2,7 @@
   "slug": "中華台北",
   "category": "society",
   "url": "taiwan.md/society/中華台北",
-  "heroImage": "public/article-images/society/under-protest-rome-1960.jpg",
+  "heroImage": "public/article-images/society/under-protest-rome-1960.webp",
   "_note": "SPORE-IG-PIPELINE v0.4 — 概念悖論×歷史時間軸 hybrid。事實 100% 繼承 knowledge/Society/中華台北.md（已過 FACTCHECK Full Mode）+ SPORE-BLUEPRINTS/120-中華台北-merged.md。排除 contested 1976 旗歌 atom。政治敏感：並陳紀政正名/運動員反對/蔣經國法統三面不裁判。§11 各 body 不是X是Y=0 / 而是=0 / 破折號連用=0。",
   "slides": [
     {
@@ -33,7 +33,7 @@
     {
       "type": "figure",
       "pull": "1981 洛桑協議",
-      "image": "public/article-images/society/samaranch.jpg",
+      "image": "public/article-images/society/samaranch.webp",
       "caption": "國際奧會主席薩瑪蘭奇，1981 年與中華奧會簽下洛桑協議，名字從此定案。Photo: Leo Medvedev, CC BY-SA 4.0",
       "body": "名字、旗子、歌，三樣象徵全部換新之後，台灣終於在 1984 年回到奧運賽場。法庭上贏了理，談判桌上卻收下一個自己沒選過的稱呼，從此再也聽不見自己真正的名字。"
     },

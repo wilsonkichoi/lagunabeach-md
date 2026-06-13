@@ -39,7 +39,7 @@ translatedAt: '2026-05-28T05:08:34+08:00'
 
 ## Lo que les enseñó una máquina arcade
 
-![Logo oficial de Rayark Inc., marca usada desde 2012, con una R blanca sobre fondo rojo](/article-images/technology/rayark-logo-2012.png)
+![Logo oficial de Rayark Inc., marca usada desde 2012, con una R blanca sobre fondo rojo](/article-images/technology/rayark-logo-2012.webp)
 _Logo oficial de Rayark Inc. Source: [English Wikipedia File:Logo of Rayark Inc.png](https://en.wikipedia.org/wiki/File:Logo_of_Rayark_Inc.png). Fair use editorial commentary._
 
 La historia de Rayark empieza con un fracaso.
@@ -70,14 +70,14 @@ Ese origen común en la Facultad de Ingeniería Eléctrica e Informática de la 
 
 El 12 de enero de 2012, Cytus llegó a iOS[^cytus-wiki].
 
-![Captura de gameplay de Cytus II, con el mecanismo característico de la serie: tocar notas siguiendo una línea de escaneo dinámica](/article-images/technology/cytus-ii-gameplay.png)
+![Captura de gameplay de Cytus II, con el mecanismo característico de la serie: tocar notas siguiendo una línea de escaneo dinámica](/article-images/technology/cytus-ii-gameplay.webp)
 _Versión de Cytus II de la jugabilidad característica de la serie Cytus, basada en una “línea de escaneo dinámica”. Source: [English Wikipedia File:Cytus II gameplay.png](https://en.wikipedia.org/wiki/File:Cytus_II_gameplay.png). Fair use editorial commentary._
 
 La mecánica consistía en tocar notas siguiendo una línea de escaneo dinámica: simple e intuitiva. Pero lo que realmente lo hizo destacar fue la calidad de su arte y su música. El diseño visual de ciencia ficción, junto con música electrónica original de alto nivel, le dio a Cytus una identidad memorable dentro de un mercado móvil de juegos musicales muy homogeneizado. En un mes desde su lanzamiento llegó al primer lugar del App Store en 14 países, dominó durante 29 días consecutivos el ranking japonés de juegos musicales y, en abril de 2015, alcanzó un millón de descargas pagadas[^cytus-wiki].
 
 El 13 de noviembre de 2013 se lanzó Deemo[^deemo-wiki]. Si Cytus era ciencia ficción y música electrónica, Deemo era piano clásico. El jugador tocaba el piano en un mundo en blanco y negro con aire de cuento de hadas; la música pasaba de la electrónica a lo clásico y lírico, y el estilo visual dejaba la ciencia ficción fría para entrar en una calidez dibujada a mano.
 
-![Portada de la versión PS Vita de DEEMO Last Recital, con la imagen característica de una niña tocando piano en una sala de cuento de hadas en blanco y negro](/article-images/technology/deemo-cover.jpg)
+![Portada de la versión PS Vita de DEEMO Last Recital, con la imagen característica de una niña tocando piano en una sala de cuento de hadas en blanco y negro](/article-images/technology/deemo-cover.webp)
 _Portada de la versión PS Vita de DEEMO Last Recital; el estilo de cuento de hadas en blanco y negro es la marca visual de la serie Deemo. Source: [English Wikipedia File:DeemoLastRecitalVita.jpg](https://en.wikipedia.org/wiki/File:DeemoLastRecitalVita.jpg). Fair use editorial commentary._
 
 Deemo se convirtió en una de las obras más exitosas de Rayark. Para octubre de 2014 ya acumulaba 7 millones de descargas, y cuando se anunció la película animada en 2021 había llegado a 28 millones[^deemo-wiki]. La banda sonora se vendió muy bien en el mercado japonés, y el juego obtuvo el premio App Store Taiwan 2013 Best of como desarrollador independiente del año y el premio Google Play Taiwan 2014 a mejor música de juego. La versión de Nintendo Switch alcanzó 88 puntos en Metacritic[^deemo-wiki]. Su secuela, DEEMO II, se lanzó el 13 de enero de 2022, con un millón de preregistros globales, más de un millón de descargas en la primera semana y el carácter de obra conmemorativa por el décimo aniversario de Rayark[^deemo2-gnn].
@@ -87,7 +87,7 @@ Deemo se convirtió en una de las obras más exitosas de Rayark. Para octubre de
 
 ---
 
-![Stand de Rayark en 2018; al fondo se ven de espaldas cosplayers de Pipimi y Popuko, de POP TEAM EPIC](/article-images/technology/rayark-booth-cosplayers-2018.jpg)
+![Stand de Rayark en 2018; al fondo se ven de espaldas cosplayers de Pipimi y Popuko, de POP TEAM EPIC](/article-images/technology/rayark-booth-cosplayers-2018.webp)
 _Stand de Rayark en 2018, con cosplayers vistos de espaldas. Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cosplayers_of_Pipimi_and_Popuko_seen_from_behind_at_Rayark_booth_(40764217870).jpg). Photo: jugador cosplay snapshot, CC BY-SA 2.0.\_
 
 ## El año del lanzamiento de Switch hicieron cinco cosas a la vez
@@ -98,7 +98,7 @@ Implosion llegó a iOS y Android el 8 de abril de 2015, y a Nintendo Switch el 6
 
 En junio de 2016, VOEZ llegó a móviles. Al año siguiente, el 3 de marzo de 2017, VOEZ se convirtió en uno de los juegos de lanzamiento de Nintendo Switch; Rayark fue uno de los pocos desarrolladores de juegos musicales que no pertenecían a Nintendo incluidos en la lista inicial de Switch[^voez-4gamers]. Para comienzos de 2017, sus descargas globales habían superado los 10 millones[^voez-4gamers]. Nintendo Life le dio 8/10 y lo llamó “el arma secreta de Switch”[^voez-nintendo-life].
 
-![Portada de VOEZ para Nintendo Switch, con una composición especular de dos personajes y el característico estilo de acuarela](/article-images/technology/voez-switch-cover.jpg)
+![Portada de VOEZ para Nintendo Switch, con una composición especular de dos personajes y el característico estilo de acuarela](/article-images/technology/voez-switch-cover.webp)
 _Portada de VOEZ para Nintendo Switch, publicada por Flyhigh Works: juego de lanzamiento de Switch el 3 de marzo de 2017. Source: [English Wikipedia File:SwitchVOEZ.jpg](https://en.wikipedia.org/wiki/File:SwitchVOEZ.jpg). Fair use editorial commentary._
 
 El 18 de enero de 2018 se lanzó Cytus II, secuela del Cytus original seis años después[^cytus2-gematsu]. El nuevo sistema llevó al límite la capacidad de判定 de los jugadores de juegos musicales, y más tarde acumuló más de 18 millones de descargas globales. En mayo de 2026, Rayark anunció que Cytus II tendría versiones para Nintendo Switch 2 y Switch en 2027, con más de 500 canciones incluidas[^cytus2-gematsu][^cytus2-qooapp].
@@ -113,7 +113,7 @@ Y luego llegó Sdorica -sunset-, el 19 de abril de 2018[^sdorica-wiki].
 
 ## Salir de la zona de confort: los ocho años de Sdorica -sunset-
 
-![Logo de Sdorica -sunset-, versión con subtítulo “aurora” y arte de personaje con motivo de aurora](/article-images/technology/sdorica-logo.png)
+![Logo de Sdorica -sunset-, versión con subtítulo “aurora” y arte de personaje con motivo de aurora](/article-images/technology/sdorica-logo.webp)
 _Logo de Sdorica -sunset-, versión con subtítulo aurora. Source: [English Wikipedia File:Sdorica logo.png](https://en.wikipedia.org/wiki/File:Sdorica_logo.png). Fair use editorial commentary._
 
 Sdorica -sunset- fue el intento más audaz de Rayark.
@@ -187,7 +187,7 @@ Un año antes, en 2019, Devotion, de [Red Candle Games](/technology/赤燭遊戲
 
 ## Implosion: once años de Zero Day
 
-![Póster de Implosion: Never Lose Hope, con una escena de acción mecha y la información de lanzamiento en App Store y Google Play](/article-images/technology/implosion-cover.png)
+![Póster de Implosion: Never Lose Hope, con una escena de acción mecha y la información de lanzamiento en App Store y Google Play](/article-images/technology/implosion-cover.webp)
 _Póster promocional de Implosion: Never Lose Hope, juego de acción 3D con mechas, ganador del iOS Game of the Year Asia 2015. Source: [English Wikipedia File:Implosion- Never Lose Hope - cover.png](https://en.wikipedia.org/wiki/File:Implosion-_Never_Lose_Hope_-_cover.png). Fair use editorial commentary._
 
 Algunas promesas se ven peor que el silencio.

@@ -25,7 +25,7 @@ sourceBodyHash: 'sha256:c307a1be6d5f1271'
 translatedAt: '2026-05-13T09:30:28+08:00'
 lastHumanReview: false
 readingTime: 14
-image: '/article-images/economy/tsmc-fabs-hsinchu-2020.jpg'
+image: '/article-images/economy/tsmc-fabs-hsinchu-2020.webp'
 imageCredit: '曾成訓 (Tseng Cheng-Hsun) via Wikimedia Commons'
 imageLicense: 'CC BY 2.0'
 imageSource: 'https://commons.wikimedia.org/wiki/File:TSMC_fabs_in_Hsinchu_01.jpg'
@@ -80,7 +80,7 @@ sporeLinks:
 
 ## 誰も理解できなかったが、今は不可欠な存在へ
 
-![新竹サイエンスパークのTSMC工場群、2020年1月2日空撮（曾成訓撮影）](/article-images/economy/tsmc-fabs-hsinchu-2020.jpg)
+![新竹サイエンスパークのTSMC工場群、2020年1月2日空撮（曾成訓撮影）](/article-images/economy/tsmc-fabs-hsinchu-2020.webp)
 _新竹サイエンスパークのTSMC工場群（曾成訓、2020年1月2日撮影）。Photo: Tseng Cheng-Hsun. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:TSMC_fabs_in_Hsinchu_01.jpg)._
 
 転機は1990年代末に訪れた。
@@ -149,7 +149,7 @@ TSMCは2050年にカーボンニュートラルを達成すると約束し、再
 
 ## ホワイトハウスの「最も重要な男」
 
-![アリゾナ州フェニックスのTSMC Fab 21工事現場の空撮、2023年11月5日（Hunter Trick撮影）](/article-images/economy/tsmc-fab21-arizona-2023.jpg)
+![アリゾナ州フェニックスのTSMC Fab 21工事現場の空撮、2023年11月5日（Hunter Trick撮影）](/article-images/economy/tsmc-fab21-arizona-2023.webp)
 _アリゾナ州フェニックスのTSMC Fab 21工事現場の空撮（Hunter Trick、2023年11月5日撮影）。Photo: Hunter Trick. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:231105-1_TSMC_Fab_21_construction.jpg)._
 
 2025年3月3日午後、米ホワイトハウス東棟。

@@ -90,7 +90,7 @@ La diferencia de orden parece pequeña, pero afecta toda la historia posterior. 
 
 ## “Son ellos”: el escenario Heat Wave Rock del Festival Oceánico de Gongliao
 
-![Presentación en vivo de Sodagreen en The Wall Gongguan, Taipéi, el 12 de marzo de 2008, con el vocalista Wu Ching-feng y los otros cinco integrantes en escena](/article-images/music/sodagreen-the-wall-2008.jpg)
+![Presentación en vivo de Sodagreen en The Wall Gongguan, Taipéi, el 12 de marzo de 2008, con el vocalista Wu Ching-feng y los otros cinco integrantes en escena](/article-images/music/sodagreen-the-wall-2008.webp)
 _12 de marzo de 2008, Sodagreen en vivo en The Wall Gongguan, Taipéi. Foto: usuario de Wikipedia Solomon203, CC BY-SA 3.0. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sodagreen-20080312TheWall.jpg)._
 
 Julio de 2003. Playa de Fulong, distrito de Gongliao, Nuevo Taipéi. Cuarta edición del Festival Oceánico de Música.
@@ -129,7 +129,7 @@ _“Little Love Song”, sencillo principal del álbum \_Little Universe_, de oc
 
 ## Vivaldi los llevó a Londres, Pekín y Berlín
 
-![Escena de Sodagreen bajo la iluminación del escenario durante la presentación en el Taipei Arena de la gira mundial de décimo aniversario “Air World Tour”, en 2014](/article-images/music/sodagreen-vivaldi-tour-2014-07.jpg)
+![Escena de Sodagreen bajo la iluminación del escenario durante la presentación en el Taipei Arena de la gira mundial de décimo aniversario “Air World Tour”, en 2014](/article-images/music/sodagreen-vivaldi-tour-2014-07.webp)
 _Julio de 2014, tres funciones en el Taipei Arena de la gira mundial de décimo aniversario “Air World Tour”. Foto: usuario de Wikipedia Solomon203, CC BY-SA 3.0. [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Sodagreen)._
 
 El 20 de octubre de 2006, Sodagreen lanzó su segundo álbum de estudio, _Little Universe_[^18]. La canción homónima y “Little Love Song” fueron los dos puntos de memoria del disco. “Little Love Song”, con letra y música íntegramente de Wu Ching-feng, combinaba una melodía limpia con letras de habla cotidiana, y entró en la lista de canciones obligadas en los KTV de los universitarios taiwaneses de esa época.
@@ -202,7 +202,7 @@ _Fragmento documental de la grabación de \_Summer / Fever_ por Sodagreen en Mil
 
 ## El último encore en Liberty Square
 
-![Primer plano del escenario de la gira mundial de décimo aniversario “Air World Tour”, en 2014, durante una presentación de Sodagreen](/article-images/music/sodagreen-vivaldi-tour-2014-09.jpg)
+![Primer plano del escenario de la gira mundial de décimo aniversario “Air World Tour”, en 2014, durante una presentación de Sodagreen](/article-images/music/sodagreen-vivaldi-tour-2014-09.webp)
 _Escenario de la gira mundial de décimo aniversario “Air World Tour”, 2014. Desde el décimo aniversario de 2014 hasta el último encore de 2017 en Liberty Square, Sodagreen completó su periodo de apogeo mainstream. Foto: usuario de Wikipedia Solomon203, CC BY-SA 3.0. [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Sodagreen)._
 
 1 de enero de 2017. National Concert Hall.

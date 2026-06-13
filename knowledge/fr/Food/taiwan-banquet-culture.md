@@ -55,7 +55,7 @@ Tempêtes, ponts coupés, routes effondrées — tant que le maître de maison n
 
 ## Là où seul le bambou épineux survit, est né un royaume de chefs itinéants
 
-![Les badlands de marnes argileuses du Gutingkeng à Kaohsiung — crêtes grises et blanches dénudées, presque sans végétation, avec au loin quelques arbres clairsemés et un petit hameau](/article-images/food/tianliao-moon-world-badlands-2019.jpg)
+![Les badlands de marnes argileuses du Gutingkeng à Kaohsiung — crêtes grises et blanches dénudées, presque sans végétation, avec au loin quelques arbres clairsemés et un petit hameau](/article-images/food/tianliao-moon-world-badlands-2019.webp)
 _Les badlands de marnes argileuses du Gutingkeng à Kaohsiung, communément appelés « monde lunaire » (*Yuè Shìjiè*). Neimen se situe en bordure de ce paysage où même les cultures peinent à pousser. Photo : StevenK234, 2019. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tianliao_Moon_World_3.jpg)._
 
 Pour comprendre comment cette discipline du champ militaire s'est forgée, il faut d'abord regarder une terre où rien ne pousse facilement.
@@ -133,7 +133,7 @@ Les anciens du métier datent souvent les cycles de l'industrie selon les mandat
 
 De 1988 à 2000, les douze ans de présidence de Lee Teng-hui sont considérés comme l'âge d'or du _pān-toh_. Ce n'est pas seulement l'époque des « huit festivités et un deuil » (_bā qìng yī sāng_) — fiançailles, mariage, premier mois, retour chez les parents, ouverture de commerce, anniversaire, emménagement, décès — c'est l'époque où même un enfant reçu au doctorat ou une victoire aux courses de pigeons justifiait un banquet[^21]. Les jours fastes du calendrier lunaire, les abords des temples et les routes étaient tapissés de « Grand Hôtel Hei-Song ». Le nom est très taïwanais : les chapiteaux de toile étaient souvent fournis par des distributeurs de boissons, imprimés aux couleurs du soda Hei-Song, et avec le temps, « Grand Hôtel Hei-Song » est devenu le surnom du _pān-toh_[^21].
 
-![Une rue de Tainan la nuit, des tables rondes couvertes de housses rouges serrées les unes contre les autres, pleines de convives, avec en arrière-plan des magasins aux volets baissés et des scooters garés en bordure](/article-images/food/bando-street-banquet-tainan-2014.jpg)
+![Une rue de Tainan la nuit, des tables rondes couvertes de housses rouges serrées les unes contre les autres, pleines de convives, avec en arrière-plan des magasins aux volets baissés et des scooters garés en bordure](/article-images/food/bando-street-banquet-tainan-2014.webp)
 _Tainan, 2014 : un *pān-toh* organisé directement sur la route. Barrer la route, installer les tables, ouvrir le banquet — c'est l'image la plus ordinaire du « Grand Hôtel Hei-Song ». Photo : 測鏡者, 2014. [CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2014-12-07_a_banquet_on_street_in_Tainan.jpg)._
 
 L'ampleur de cette époque, Xue Meng-hui s'en souvient à travers le journal de travail laissé par son père, Xue Qing-ji.

@@ -46,7 +46,7 @@ Un rappel chronologique permet de mesurer l’écart : lorsque Hopfield publie e
 
 Au fond, ces deux Nobel ne récompensent pas ChatGPT, mais quelques articles d’il y a trente ou quarante ans que presque personne ne comprenait alors. Le décalage temporel entre recherche fondamentale et application industrielle a toujours fonctionné ainsi.
 
-![Portrait officiel de Geoffrey E. Hinton interviewé le 8 décembre 2024 à Stockholm pendant la semaine Nobel, costume sombre, cheveux blancs, expression calme face à l’objectif](/article-images/technology/hinton-nobel-2024.jpg)
+![Portrait officiel de Geoffrey E. Hinton interviewé le 8 décembre 2024 à Stockholm pendant la semaine Nobel, costume sombre, cheveux blancs, expression calme face à l’objectif](/article-images/technology/hinton-nobel-2024.webp)
 _Geoffrey Hinton, lauréat du prix Nobel de physique 2024, pendant la semaine Nobel à Stockholm. Photo : Arthur Petron, 2024-12-08. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Geoffrey_E._Hinton,_2024_Nobel_Prize_Laureate_in_Physics_(3x4*cropped).jpg).*
 
 ---
@@ -75,7 +75,7 @@ La performance d’une puce d’IA ne dépend pas seulement de la miniaturisatio
 
 Foxconn coopère en outre avec NVIDIA et le gouvernement taïwanais pour construire à Kaohsiung un supercalculateur d’usine IA de classe 100 MW, fondé sur la dernière architecture NVIDIA Blackwell[^10]. Taïwan passe ainsi du statut de « lieu où l’on fabrique les puces d’IA » à celui de « lieu où l’on fait fonctionner l’IA ».
 
-![Extérieur de l’usine Fab 5 de TSMC dans le parc scientifique de Hsinchu, scène des années 2010, site physique de la fonderie de wafers semi-conducteurs](/article-images/technology/tsmc-fab5-hsinchu-2010.jpg)
+![Extérieur de l’usine Fab 5 de TSMC dans le parc scientifique de Hsinchu, scène des années 2010, site physique de la fonderie de wafers semi-conducteurs](/article-images/technology/tsmc-fab5-hsinchu-2010.webp)
 _Usine Fab 5 de TSMC à Hsinchu, site physique de la fonderie des puces d’IA. Photo : Wikimedia Commons via [TSMC Fab 5 file](https://commons.wikimedia.org/wiki/File:TSMC_Fab_5.jpg)._
 
 La question est donc la suivante : une fois le ticket matériel obtenu, où se jouera la prochaine bataille ?
@@ -102,7 +102,7 @@ Plus intéressant encore : une phrase que Hopfield prononce plus tard. Il a pass
 
 L’homme qui a formulé une partie des bases mathématiques de l’IA moderne rappelle, le jour même où il reçoit le prix, qu’il faut faire preuve de prudence.
 
-![Portrait de John J. Hopfield interviewé le 8 décembre 2024 à Stockholm pendant la semaine Nobel, costume sombre, cheveux blancs, expression posée](/article-images/technology/hopfield-nobel-2024.jpg)
+![Portrait de John J. Hopfield interviewé le 8 décembre 2024 à Stockholm pendant la semaine Nobel, costume sombre, cheveux blancs, expression posée](/article-images/technology/hopfield-nobel-2024.webp)
 _John J. Hopfield, lauréat du prix Nobel de physique 2024, pendant la semaine Nobel à Stockholm. Photo : Arthur Petron, 2024-12-08. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:John_J._Hopfield,_2024_Nobel_Prize_Laureate_in_Physics_1_(cropped).jpg).\_
 
 ---

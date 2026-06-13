@@ -56,7 +56,7 @@ A man with a master's degree in film and a directing award spent his days readin
 
 > ✦ "Fear drives me to keep seeking improvement, because there is no feeling stronger than fear. The motivation to keep trying lies in insecurity."[^12]
 
-![A recent photo of Ang Lee at a film festival event, wearing a dark suit and looking composed](/article-images/people/ang-lee-hkaff-2007.jpg)
+![A recent photo of Ang Lee at a film festival event, wearing a dark suit and looking composed](/article-images/people/ang-lee-hkaff-2007.webp)
 _Ang Lee attending the Hong Kong Asian Film Festival in 2007. Photo: WikiCantona. [CC BY-SA 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ang_Lee_HKAFF_2007.jpg)._
 
 The turning point came in 1990. That year, Lee submitted two scripts to the Government Information Office's Excellent Screenplay Awards. _Pushing Hands_ won first prize and a prize of NT$400,000; _The Wedding Banquet_ won second prize.[^13] That NT$400,000, together with the eye of Central Motion Picture Corporation vice president Hsu Li-kong, pulled him out of the kitchen. Hsu saw promise in this newcomer who had never made a feature film and decided to invest in _Pushing Hands_, with a production budget of roughly NT$12 million to NT$13.5 million. Hsu's words to him were blunt and practical: "It is NT$12 million. Not a cent more."[^14] Lee's second son, Mason Lee, was also born that year.[^15]
@@ -187,7 +187,7 @@ _Paramount Pictures' official trailer: in \_Gemini Man_, Ang Lee used digital de
 
 Lee has never forgotten Taiwan. In 2018, he took over from Sylvia Chang as chair of the Taipei Golden Horse Film Festival Executive Committee. During his tenure, he founded the Golden Horse Film Masterclass, bringing world-class film experience back to Taiwan for young creators. In 2022, he stepped down and was succeeded by cinematographer Mark Lee Ping-bing. In 2023, he served as jury president for the 60th Golden Horse Awards.[^44]
 
-![Ang Lee attending the Cannes Film Festival, smiling toward the camera](/article-images/people/ang-lee-cannes-2013.jpg)
+![Ang Lee attending the Cannes Film Festival, smiling toward the camera](/article-images/people/ang-lee-cannes-2013.webp)
 _Ang Lee attending the Cannes Film Festival in 2013. Photo: Georges Biard. [CC BY-SA 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ang_Lee_Cannes_2013.jpg)._
 
 The year after he took over as chair, the Golden Horse Awards were hit by a storm. At the 55th Golden Horse Awards in 2018, documentary director Fu Yue's acceptance speech triggered cross-strait controversy, and China began boycotting the Golden Horse Awards the following year. For someone who had just poured his full energy into the festival, this was a difficult moment: he was protecting an award for Chinese-language cinema, and that award was being swept into a political current it could not control. As chair, Lee's position in later interviews was consistent. What he guarded was the independence of cinema itself: "Taiwan's side is free, and the film festival is open"; "speak of art as art, and hope there will be no other political factors interfering"; "I hope the Golden Horse Awards can remain very pure, and I ask everyone to give filmmakers respect."[^45] He did not choose any political camp. He only emphasized one thing again and again: let cinema be cinema. This is in fact the same posture as his life's work. He never tells stories from the position of a faction. He stands beside the person caught in the middle, unable to choose either side.

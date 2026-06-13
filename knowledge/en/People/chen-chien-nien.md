@@ -31,7 +31,7 @@ translatedAt: '2026-05-24T05:06:32+08:00'
 
 > **30-second overview:** Chen Chien-nien (Puyuma name: Pau-dull), born on August 1, 1967, in the Nanwang community, Beinan Township, Taitung County.[^1] He is the maternal grandson of Baliwakes Lu Sen-bao (1910-1988), the Puyuma song master and author of “Beautiful Rice Ears.”[^1][^2] After graduating from police officer class no. 114 in 1986, he was assigned to Guanshan, Taitung, and went on to serve in the police force for 30 years and 10 months.[^3] In 1999, at age 33, he released his first album of original songs, Ocean. At the 11th Golden Melody Awards in 2000, he defeated Jacky Cheung, Harlem Yu, David Tao, and Wang Leehom to win Best Mandarin Male Vocalist; at the same ceremony, he also won Best Composer for “Myth,” written for Samingad.[^4][^5] At the moment he won, his full-time job was still police officer.[^3] In September that year, he chose to request a transfer to Lanyu, where he remained until retiring in 2017.[^1][^6]
 
-![Chen Chien-nien performing at FENG live house in Hsinchu in March 2018, holding an acoustic guitar under a flat cap, head lowered as he sings into a microphone.](/article-images/people/chen-chien-nien-hsinchu-feng-2018.jpg)
+![Chen Chien-nien performing at FENG live house in Hsinchu in March 2018, holding an acoustic guitar under a flat cap, head lowered as he sings into a microphone.](/article-images/people/chen-chien-nien-hsinchu-feng-2018.webp)
 _March 25, 2018, Chen Chien-nien performing at FENG live house in Hsinchu. Photo: Taiwania Justo. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pur-dull_in_Hsinchu_2.jpg)._
 
 ## Puyuma Pau-dull, and the Songs His Grandfather Left Behind
@@ -116,7 +116,7 @@ That is to say, between the Best Mandarin Male Vocalist award in 2000 and the Be
 
 _Official Trees Music MV: “Beautiful Heart of Orchid Island,” included on the 2021 third album of original songs pongso no Tao (Tao for “Island of the People”). These first-hand recordings, slowly written into the work over 17 years on Lanyu, later won Best Indigenous Language Album at the 2022 Golden Melody Awards._
 
-![A close frontal image of Chen Chien-nien at the microphone during a Hsinchu performance, focused beneath his flat cap.](/article-images/people/chen-chien-nien-hsinchu-cropped-2018.jpg)
+![A close frontal image of Chen Chien-nien at the microphone during a Hsinchu performance, focused beneath his flat cap.](/article-images/people/chen-chien-nien-hsinchu-cropped-2018.webp)
 _March 25, 2018, a close-up of Chen Chien-nien performing in Hsinchu. Photo: Taiwania Justo. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pur-dull_in_Hsinchu_(cropped).jpg).\_
 
 ## “We Are All Kin”: Lyrics Written in 1999 Become a Song at Disaster-Relief Sites in 2024
@@ -158,7 +158,7 @@ What made this concert special was not its scale. For a Golden Melody King from 
 > **📝 Curator’s Note**
 > For a rock narrative accustomed to standing in an anti-establishment position, the line “the work of the police is to be loyal to the state and faithful to the leader” would usually be something to deconstruct in reverse. But when Chen Chien-nien said it, he was completely serious. This is why he cannot be absorbed into any one side’s narrative: he is not a “rebellious Indigenous musician disguised as a police officer,” nor is he “an obedient police officer secretly making music.” He is someone who believes in two things at the same time: loyalty to the land, loyalty to the state, and loyalty to the songs his grandfather left behind, all set side by side in one body. This kind of side-by-side existence is very ordinary in Taiwan’s civil service system. So ordinary that, when he writes something like “Ocean,” the outside world is surprised that such a person writes songs.
 
-![A full-body image of Chen Chien-nien performing at Vision Hall in Hsinchu, acoustic guitar held to his chest, with the warm lighting of a live house in the background.](/article-images/people/chen-chien-nien-hsinchu-vision-2018.jpg)
+![A full-body image of Chen Chien-nien performing at Vision Hall in Hsinchu, acoustic guitar held to his chest, with the warm lighting of a live house in the background.](/article-images/people/chen-chien-nien-hsinchu-vision-2018.webp)
 _March 25, 2018, Chen Chien-nien performing at a small live house in Hsinchu. Photo: Taiwania Justo. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pur-dull_in_Hsinchu.jpg)._
 
 ## After Retirement: The Second Half of Life

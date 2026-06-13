@@ -75,7 +75,7 @@ Desde la notificación de baja médica hasta la carta de aceptación, pasaron ap
 
 ### La primera lechuga bajo LED rojos
 
-![Tres astronautas de pie frente al simulador de la nave Soyuz TMA en el centro de entrenamiento de cosmonautas Star City, Rusia; de izquierda a derecha: Lindgren (NASA), Oleg Kononenko (Rusia) y Kimiya Yui (Japón), todos con el mono azul de la tripulación de respaldo de la Expedición 42/43](/article-images/people/lindgren-expedition42-crew.jpg)
+![Tres astronautas de pie frente al simulador de la nave Soyuz TMA en el centro de entrenamiento de cosmonautas Star City, Rusia; de izquierda a derecha: Lindgren (NASA), Oleg Kononenko (Rusia) y Kimiya Yui (Japón), todos con el mono azul de la tripulación de respaldo de la Expedición 42/43](/article-images/people/lindgren-expedition42-crew.webp)
 _El 30 de octubre de 2014, Lindgren (izquierda) en el centro de entrenamiento de cosmonautas Gagarin de Star City, Rusia, con los miembros de la tripulación de respaldo de la Expedición 42/43: Oleg Kononenko (centro, Rusia) y Kimiya Yui (derecha, Japón). Los tres se convirtieron después en sus compañeros de nave en su primera misión espacial, Soyuz TMA-17M. Foto: NASA/Stephanie Stoll. [Dominio público vía Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Expedition_42_backup_crew_members_in_front_of_the_Soyuz_TMA_spacecraft_mock-up_in_Star_City,_Russia.jpg)._
 
 El 22 de julio de 2015, Lindgren despegó a bordo de la Soyuz TMA-17M desde el cosmódromo de Baikonur, Kazajistán, junto con el comandante ruso Oleg Kononenko y el astronauta japonés Kimiya Yui, en la misión Expedición 44/45[^12]. Este fue su primer vuelo espacial.
@@ -112,7 +112,7 @@ En aquella misión de 141 días, también realizó dos actividades extravehicula
 
 ### Bautizar su nave como _Freedom_
 
-![Lindgren con mono azul de la NASA, brazos cruzados, retrato oficial frente a la cápsula modelo Crew Dragon en la sede de SpaceX en Hawthorne, California; la insignia de la NASA en el hombro izquierdo y la bandera de EE. UU. en el derecho son claramente visibles](/article-images/people/lindgren-crew4-training.jpg)
+![Lindgren con mono azul de la NASA, brazos cruzados, retrato oficial frente a la cápsula modelo Crew Dragon en la sede de SpaceX en Hawthorne, California; la insignia de la NASA en el hombro izquierdo y la bandera de EE. UU. en el derecho son claramente visibles](/article-images/people/lindgren-crew4-training.webp)
 _En febrero de 2022, Lindgren, como comandante de SpaceX Crew-4, entrenó en la cápsula modelo Crew Dragon en la sede de SpaceX en Hawthorne, California. Foto: NASA. [Dominio público vía NASA](https://www.nasa.gov/image-feature/nasa-astronaut-and-spacex-crew-4-commander-kjell-lindgren-0/) (ID de imagen NASA `jsc2022e011416`)._
 
 Siete años después, el 27 de abril de 2022, Lindgren despegó por segunda vez, esta vez a bordo de un SpaceX Crew Dragon, como comandante de la misión Crew-4[^19].

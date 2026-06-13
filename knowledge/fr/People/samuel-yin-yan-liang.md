@@ -98,7 +98,7 @@ L'ampleur de ces dons de part et d'autre du détroit lui a valu d'être réguli�
 
 Ce jour-là, il a publiquement promis de léguer 95 % de ses biens personnels à des œuvres de charité après sa mort[^2].
 
-![Façade de la bibliothèque Dah-Hsian de l'université NCCU, construite grâce à un don d'environ 1,3 milliard de dollars taïwanais de Samuel Yin pour célébrer les 70 ans de son directeur de thèse Seetoo Dah-Hsian](/article-images/people/yin-nccu-dah-hsian-library-2022.jpg)
+![Façade de la bibliothèque Dah-Hsian de l'université NCCU, construite grâce à un don d'environ 1,3 milliard de dollars taïwanais de Samuel Yin pour célébrer les 70 ans de son directeur de thèse Seetoo Dah-Hsian](/article-images/people/yin-nccu-dah-hsian-library-2022.webp)
 _Bibliothèque Dah-Hsian de l'université NCCU, inaugurée en 2019. Samuel Yin a fait un don d'environ 1,3 milliard de dollars taïwanais pour célébrer les 70 ans de son directeur de thèse Seetoo Dah-Hsian. Photo : contributeur Wikimedia Commons, 2022-08-15. [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Dah_Hsian_Seetoo_Library_front_20220815.jpg)._
 
 ## Pourquoi un prix scientifique plutôt qu'un musée
@@ -145,7 +145,7 @@ En regardant les résultats de sélection avec le recul, le Tang Prize a accompl
 
 Pour une île régulièrement marginalisée par la communauté internationale pour des raisons politiques, c'est une autre forme d'affirmation de souveraineté.
 
-![Samuel Yin lors de la réception de bienvenue de la première édition du Tang Prize en 2014](/article-images/people/yin-yan-liang-tang-prize-reception.jpg)
+![Samuel Yin lors de la réception de bienvenue de la première édition du Tang Prize en 2014](/article-images/people/yin-yan-liang-tang-prize-reception.webp)
 _Septembre 2014, réception de bienvenue de la première édition du Tang Prize. Photo : municipalité de Taipei, 2014-09-15. [Données ouvertes via la municipalité de Taipei](https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&sms=72544237BBE4C5F6&s=D6F7488144C1C3CA)._
 
 ## La ligne de démarcation toujours tracée de l'intérieur
@@ -180,7 +180,7 @@ Du sursis judiciaire de 2012 dans l'affaire des comptes secrets de la sécurité
 
 Pari double sur les deux rives, privilège de la classe dirigeante, dénonciateur, philanthrope — toutes ces étiquettes lui appartenaient simultanément. Le lecteur peut choisir l'une d'entre elles comme définition, ou accepter qu'elles coexistent.
 
-![Portrait de Samuel Yin lors d'un événement public en 2015](/article-images/people/yin-yan-liang-portrait-2015.jpg)
+![Portrait de Samuel Yin lors d'un événement public en 2015](/article-images/people/yin-yan-liang-portrait-2015.webp)
 _Samuel Yin, photographié lors d'un événement public en 2015. Photo : municipalité de Taipei, 2015-10-28. [Données ouvertes via la municipalité de Taipei](https://commons.wikimedia.org/wiki/File:Samuel_Yin_2015_(cropped).jpg).\_
 
 ## Un jour de gagné, c'est un patient sauvé un jour plus tôt
@@ -193,7 +193,7 @@ Plus important encore, il a choisi de mettre gratuitement ces plus de 600 brevet
 
 Son empire commercial a connu un dernier chapitre en 2021. Le 22 octobre de cette année-là, il a choisi de vendre l'activité taïwanaise de RT-Mart à PX Mart, la transaction étant finalisée en 2022. Ruentex Construction et Ruentex Industries ont chacun engrangé 1,303 milliard de dollars taïwanais de gains boursiers, pour une valorisation totale d'environ 130 à 150 milliards de dollars taïwanais, immobilier et marque inclus[^39]. Le transfert de ce géant national de la grande distribution a marqué un tournant dans le paysage du commerce de détail taïwanais. C'était aussi la dernière grande décision d'entreprise qu'il a prise de son vivant.
 
-![Complexe de la gare Zhonglun par Ruentex, district de Zhongshan, Taipei. L'un des fleurons de Ruentex Construction](/article-images/people/yin-ruentex-zhonglun-2023.jpg)
+![Complexe de la gare Zhonglun par Ruentex, district de Zhongshan, Taipei. L'un des fleurons de Ruentex Construction](/article-images/people/yin-ruentex-zhonglun-2023.webp)
 _Complexe de la gare Zhonglun par Ruentex, district de Zhongshan, Taipei, construit par Ruentex Construction. L'application centrale de la méthode de préfabrication est de permettre l'achèvement rapide de ce type de grands immeubles de bureaux. Photo : Yu tptw, 2023-05-17. [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Ruentex_Zhonglun_Station_Complex_20230517.jpg)._
 
 Il est parti, mais ce qu'il a bâti continue de fonctionner.

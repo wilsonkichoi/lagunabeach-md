@@ -11,7 +11,7 @@ featured: true
 lastVerified: 2026-05-09
 lastHumanReview: false
 readingTime: 14
-image: '/article-images/economy/tsmc-fabs-hsinchu-2020.jpg'
+image: '/article-images/economy/tsmc-fabs-hsinchu-2020.webp'
 imageCredit: 'Tseng Cheng-Hsun via Wikimedia Commons'
 imageLicense: 'CC BY 2.0'
 imageSource: 'https://commons.wikimedia.org/wiki/File:TSMC_fabs_in_Hsinchu_01.jpg'
@@ -62,7 +62,7 @@ Cette promesse — ne pas creer de marque propre, ne jamais concurrencer les cli
 
 ## Du « mal compris » à l'« incontournable »
 
-![Vue aerienne du complexe d'usines TSMC dans le Parc scientifique de Hsinchu, 2 janvier 2020 (photo : Tseng Cheng-Hsun)](/article-images/economy/tsmc-fabs-hsinchu-2020.jpg)
+![Vue aerienne du complexe d'usines TSMC dans le Parc scientifique de Hsinchu, 2 janvier 2020 (photo : Tseng Cheng-Hsun)](/article-images/economy/tsmc-fabs-hsinchu-2020.webp)
 _Complexe d'usines TSMC dans le Parc scientifique de Hsinchu (Tseng Cheng-Hsun, 2 janvier 2020). Photo: Tseng Cheng-Hsun. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:TSMC_fabs_in_Hsinchu_01.jpg)._
 
 Le tournant se produisit à la fin des annees 1990.
@@ -131,7 +131,7 @@ Ce n'est qu'un cas parmi d'autres. À Baoshan (comte de Hsinchu), Tongluo (comte
 
 ## L'homme le plus important dans la Salle Est de la Maison Blanche
 
-![Vue aerienne du chantier de construction de la Fab 21 de TSMC à Phoenix, Arizona, le 5 novembre 2023 (photo : Hunter Trick)](/article-images/economy/tsmc-fab21-arizona-2023.jpg)
+![Vue aerienne du chantier de construction de la Fab 21 de TSMC à Phoenix, Arizona, le 5 novembre 2023 (photo : Hunter Trick)](/article-images/economy/tsmc-fab21-arizona-2023.webp)
 _Chantier de la Fab 21 de TSMC à Phoenix, Arizona (Hunter Trick, 5 novembre 2023). Photo: Hunter Trick. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:231105-1_TSMC_Fab_21_construction.jpg)._
 
 L'après-midi du 3 mars 2025, Salle Est de la Maison Blanche.

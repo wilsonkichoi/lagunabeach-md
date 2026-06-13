@@ -43,7 +43,7 @@ Mswati’s move was direct: he sent Deputy Prime Minister Thulisile Dladla on hi
 
 “The king of Eswatini lending Taiwan’s president a plane to break through China’s blockade” was the visit itself. The Wall Street Journal framed it as a “surprise visit,” while Al Jazeera’s headline read “despite China’s attempts to block trip”[^6]. Taiwan’s Central News Agency also documented the [process of arriving in Eswatini by special aircraft](https://www.youtube.com/watch?v=YrbOMarnkX8) through its official channel.
 
-![President Lai Ching-te arrives at Mbabane Airport in Eswatini on May 2, 2026, and receives military honors as Eswatini honor guards salute in formation](/article-images/society/taiwan-eswatini-military-honor-2026.jpg)
+![President Lai Ching-te arrives at Mbabane Airport in Eswatini on May 2, 2026, and receives military honors as Eswatini honor guards salute in formation](/article-images/society/taiwan-eswatini-military-honor-2026.webp)
 _On May 2, 2026, Lai Ching-te received military honors at Mbabane Airport. Photo: Office of the President, Republic of China. [OGDL via the official presidential press release](https://english.president.gov.tw/News/7121)._
 
 The arrival scene was simple but weighty: Prime Minister Russell Dlamini, Minister of Foreign Affairs and International Cooperation Pholile Shakantu, Taiwan’s ambassador to Eswatini Jeremy H.S. Liang, and Eswatini protocol officer Khandlela Mdluli personally greeted him. Lai received military honors and exchanged greetings one by one with personnel from Taiwan’s embassy in Eswatini and family members of Taiwan’s technical mission[^7]. CNA’s official channel recorded the full [arrival of Lai Ching-te in the Kingdom of Eswatini for a state visit](https://www.youtube.com/watch?v=TuZ8i6KV7Ys).
@@ -114,7 +114,7 @@ It was also because of the accumulation of long-term multilateral aid, including
 
 On the morning of May 3, Lai Ching-te held bilateral talks with Mswati III at Mandvulo Grand Hall in Lozitha Royal Palace[^7].
 
-![President Lai Ching-te and King Mswati III of Eswatini hold bilateral talks at Mandvulo Grand Hall](/article-images/society/taiwan-eswatini-mandvulo-summit-2026.jpg)
+![President Lai Ching-te and King Mswati III of Eswatini hold bilateral talks at Mandvulo Grand Hall](/article-images/society/taiwan-eswatini-mandvulo-summit-2026.webp)
 _On May 3, 2026, Lai Ching-te and Mswati III held bilateral talks at Mandvulo Grand Hall in Lozitha Royal Palace. Photo: Office of the President, Republic of China. [OGDL via the official presidential press release](https://english.president.gov.tw/News/7122)._
 
 The ceremony included the national anthems of both countries, a review of Eswatini’s honor guard, a gun salute, and traditional dance performances. After the meeting, two important documents were signed:
@@ -122,7 +122,7 @@ The ceremony included the national anthems of both countries, a review of Eswati
 1. **Joint communiqué**: reaffirming “deep friendship, mutual trust, and shared values”
 2. **Agreement on Mutual Assistance in Customs Matters**: signed by Taiwan’s Foreign Minister Lin Chia-lung and Eswatini’s Foreign Minister Pholile Shakantu[^7]
 
-![President Lai Ching-te and King Mswati III jointly witness the signing of the Agreement on Mutual Assistance in Customs Matters](/article-images/society/taiwan-eswatini-joint-communique-2026.jpg)
+![President Lai Ching-te and King Mswati III jointly witness the signing of the Agreement on Mutual Assistance in Customs Matters](/article-images/society/taiwan-eswatini-joint-communique-2026.webp)
 _On May 3, 2026, Taiwan and Eswatini signed the Agreement on Mutual Assistance in Customs Matters and a joint communiqué at Mandvulo Grand Hall. Photo: Office of the President, Republic of China. [OGDL via the official presidential press release](https://english.president.gov.tw/News/7122)._
 
 CNA’s official channel fully recorded [Taiwan and Eswatini signing a joint communiqué to deepen cooperation](https://www.youtube.com/watch?v=kdRZ5v61Vjo).

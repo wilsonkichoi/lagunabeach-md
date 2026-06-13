@@ -158,10 +158,10 @@ Alors la prochaine fois que retentira la musique d’un film taïwanais, d’une
 
 Si l’on parvient à poser cette question, alors on entend cette île en train de composer sa propre musique.
 
-![Statue commémorative de Teng Yu-hsien.](/article-images/music/teng-yuhsien-statue-longtan-2016.jpg)
+![Statue commémorative de Teng Yu-hsien.](/article-images/music/teng-yuhsien-statue-longtan-2016.webp)
 _Statue commémorative de Teng Yu-hsien. « Moonlit Night Sorrow », arrangée par celui que l’on appelle le « père de la chanson taïwanaise », dérive à l’origine d’un chant pingpu collecté par Mackay. Elle deviendra plus tard une chanson interdite sous la loi martiale, puis sera intégrée à Detention. Un vieil air peut être la strate la plus profonde du son taïwanais._
 
-![Lim Giong, figure clé du passage de la musique de film taïwanaise de l’orchestration académique au silence électronique.](/article-images/music/lim-giong-2015.jpg)
+![Lim Giong, figure clé du passage de la musique de film taïwanaise de l’orchestration académique au silence électronique.](/article-images/music/lim-giong-2015.webp)
 _Lim Giong. De roi du rock taïwanais en hoklo avec Marching Forward à compositeur laissant de l’espace dans les films de Hou Hsiao-hsien, il a remporté deux fois le Golden Horse Award de la meilleure musique originale de film, et a fait de la romanisation « Lim Giong » une carte d’identité du son taïwanais dans le cinéma international._
 
 **Lectures complémentaires** :

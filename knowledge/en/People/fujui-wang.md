@@ -18,7 +18,7 @@ author: 'Taiwan.md'
 featured: false
 lastVerified: 2026-05-09
 lastHumanReview: false
-image: '/article-images/people/wang-fujui-noise-silence-2020.jpg'
+image: '/article-images/people/wang-fujui-noise-silence-2020.webp'
 imageCredit: 'Project Fulfill Art Space'
 imageLicense: "Fair use (editorial commentary on artist's work)"
 imageSource: 'https://www.projectfulfill.com/wang-fujui-295793111929790.html'
@@ -105,14 +105,14 @@ This passage describes a fact, and also the cost of an artist's thirty-year walk
 
 ## Post-Surgery Body Frequencies
 
-![Three works from the solo exhibition "Noise is the New Silence" in the same frame: on the left, "Noise Shadow" — CRT screen noise; in the center, "Skull Noise" — a headphone installation; on the right, "Body Noise" — images of surgical sutures. Project Fulfill Art Space, November 2020.](/article-images/people/wang-fujui-noise-silence-three-pieces-2020.jpg)
+![Three works from the solo exhibition "Noise is the New Silence" in the same frame: on the left, "Noise Shadow" — CRT screen noise; in the center, "Skull Noise" — a headphone installation; on the right, "Body Noise" — images of surgical sutures. Project Fulfill Art Space, November 2020.](/article-images/people/wang-fujui-noise-silence-three-pieces-2020.webp)
 _The three works installed side by side at the November 2020 solo exhibition "Noise is the New Silence." Photo: Project Fulfill Art Space. [Fair use editorial reference via Project Fulfill](https://www.projectfulfill.com/wang-fujui-295793111929790.html)._
 
 In November 2020, Wang held a solo exhibition titled _[Noise is the New Silence](https://www.youtube.com/watch?v=c8m8zPKBVkg)_ (噪音寂靜) at [Project Fulfill Art Space](https://www.projectfulfill.com/wang-fujui-295793111929790.html), on view through December 5.[^6] This was his third solo exhibition with the gallery, following _Quiet Noise_ (靜噪) in 2012 and _Transparent Imagery of Sounds_ (透明響像) in 2016, with a fourth, _So Noisy, So Silent_ (如噪如靜), to follow in 2024.[^12] Read in sequence, the four exhibition titles are like four variations on the same composition, each circling the same theme: the dialectic of silence and noise.
 
 But _Noise is the New Silence_ was different.
 
-![Fujui Wang's "Noise is the New Silence" centerpiece: a custom-built polyhedral 12-channel omnidirectional speaker hanging from the ceiling. Project Fulfill Art Space, 2020.](/article-images/people/wang-fujui-noise-silence-2020.jpg)
+![Fujui Wang's "Noise is the New Silence" centerpiece: a custom-built polyhedral 12-channel omnidirectional speaker hanging from the ceiling. Project Fulfill Art Space, 2020.](/article-images/people/wang-fujui-noise-silence-2020.webp)
 _The centerpiece of Wang Fujui's 2020 solo exhibition "Noise is the New Silence" — the polyhedral 12-channel omnidirectional speaker transmitting the faint frequencies of an artificial blood vessel. Photo: Project Fulfill Art Space. [Fair use editorial reference via Project Fulfill](https://www.projectfulfill.com/wang-fujui-295793111929790.html)._
 
 The centerpiece of the gallery was a polyhedral 12-channel omnidirectional speaker, custom-built by Wang and suspended from the ceiling.[^6] Other works included _Noise Shadow_ (雜影, noise patterns on a CRT screen), _Skull Noise_ (頭顱噪音, a headphone installation), and _Body Noise_ (身體噪音, images of surgical sutures).[^6]
@@ -129,7 +129,7 @@ From the "absence of rules" in the external environment to the "absence of rules
 
 ## The Bandcamp Doujin Label
 
-![The cover of the digital album "Ching-Shen-Ching 1.2.3.0." — a 2022 ET@T Bandcamp release, a contemporary imprint of thirty years of "Ching-Shen-Ching" sound materials.](/article-images/people/wang-fujui-ching-shen-ching-album-2022.jpg)
+![The cover of the digital album "Ching-Shen-Ching 1.2.3.0." — a 2022 ET@T Bandcamp release, a contemporary imprint of thirty years of "Ching-Shen-Ching" sound materials.](/article-images/people/wang-fujui-ching-shen-ching-album-2022.webp)
 _The cover of the 2022 digital album "Ching-Shen-Ching 1.2.3.0." Cover image courtesy of [ET@T Bandcamp](https://etat.bandcamp.com/album/ching-shen-ching-1230). Fair use editorial reference._
 
 In 2022, Wang released the digital album _[Ching-Shen-Ching 1.2.3.0.](https://etat.bandcamp.com/album/ching-shen-ching-1230)_ through the Etat Bandcamp label, comprising 4 tracks,[^13] organizing "Ching-Shen-Ching" sound materials from the late 1990s through the early 2020s into a downloadable digital imprint. Among the tracks is _[V-Zone](https://etat.bandcamp.com/track/v-zone)_, one of the representative works on this axis. From the 1993 "physical doujin exchange" of 200 photocopied zines to the 2022 Bandcamp stream of a "global online one-person label," thirty years is the same DIY logic on different carriers.

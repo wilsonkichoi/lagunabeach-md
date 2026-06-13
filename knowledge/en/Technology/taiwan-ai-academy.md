@@ -21,7 +21,7 @@ translatedAt: '2026-05-18T20:48:56+08:00'
 
 > **30-second overview**: On March 27, 2020, Chen Sheng-wei, a 44-year-old research fellow at Academia Sinica, called the editor-in-chief of CommonWealth Magazine and solemnly said that he “wanted to do something”: create a free programming course for the public. Two days later, he fell and lost consciousness; 13 days after that, he died. When he passed away, Taiwan AI Academy (AIA), which he had founded in 2018, had already trained more than 6,000 people. At the same time, the National Development Council’s “AI Small Country, Big Strategy” called for NT$16 billion over five years; Chen built his own school with NT$180 million in private fundraising, NT$30 million each from six companies including Formosa Plastics, Chimei, and Inventec. Eight years later, alumni exceeded 10,000. AIA is the most un-Taiwan-like piece of Taiwan’s industrial upgrading puzzle.
 
-![Official portrait of Chen Sheng-wei speaking publicly at Taiwan AI Academy, 2018](/article-images/technology/taiwan-ai-academy-chen-shengwei-portrait-2018.jpg)
+![Official portrait of Chen Sheng-wei speaking publicly at Taiwan AI Academy, 2018](/article-images/technology/taiwan-ai-academy-chen-shengwei-portrait-2018.webp)
 _Chen Sheng-wei (1976-2020), founder and CEO of Taiwan AI Academy. Photo: Taiwan AI Academy official. [via aiacademy.tw](https://aiacademy.tw/swc/)._
 
 ---
@@ -128,7 +128,7 @@ The Technical Leader Program was for **engineers who could already write code**;
 
 Two programs, two kinds of gap-filling: this was the first structural difference between AIA and other online MOOC courses.
 
-![AIA CEO Chen Sheng-wei speaking in an AIA class or event, 2018](/article-images/technology/taiwan-ai-academy-chen-shengwei-talk-2018.jpg)
+![AIA CEO Chen Sheng-wei speaking in an AIA class or event, 2018](/article-images/technology/taiwan-ai-academy-chen-shengwei-talk-2018.webp)
 _CEO Chen Sheng-wei speaking at a public Taiwan AI Academy event. Photo: Taiwan AI Academy official. [via aiacademy.tw](https://aiacademy.tw/swc/)._
 
 Among the students admitted to the first cohort was one who later shared a public reflection on AIA’s official student testimonial page. His student number was AT071039, and his name was Chen Yen-chin. He wrote:
@@ -203,7 +203,7 @@ These are colleagues’ memories. But returning to Chen’s own interviews befor
 
 On March 29, 2020, Chen Sheng-wei fell and hit his head at an inline skating rink. On the drive home, he suddenly felt unwell and pulled over at the roadside. He was taken to hospital with a cerebral hemorrhage and fell into a coma. Thirteen days later, on April 11, 2020, he died[^2].
 
-![Chen Sheng-wei portrait from a 2020 Global Views Monthly interview, among the last batches of public images before his death](/article-images/technology/taiwan-ai-academy-chen-shengwei-gvm-2020.jpg)
+![Chen Sheng-wei portrait from a 2020 Global Views Monthly interview, among the last batches of public images before his death](/article-images/technology/taiwan-ai-academy-chen-shengwei-gvm-2020.webp)
 _Portrait from a Global Views Monthly interview shortly before Chen Sheng-wei’s death. Photo: Chang Chih-chieh / Global Views Monthly, 2020. [via gvm.com.tw](https://www.gvm.com.tw/article/72282) (fair use editorial commentary)._
 
 After news of his death spread, AIA alumni, E.SUN, Academia Sinica, g0v, and Taiwan’s data science community worked together to launch an online memorial platform in the style of an anime game scene on April 21. The team worked overnight and finished at 1 a.m.[^B1].

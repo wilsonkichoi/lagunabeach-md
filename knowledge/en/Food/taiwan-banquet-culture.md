@@ -54,7 +54,7 @@ Regardless of strong winds and heavy rain, broken bridges, and collapsed roads, 
 
 ## Where Even Thorny Bamboo Can Survive, a Kingdom of Head Chefs Grew
 
-![The mudstone badland of the Gutingkeng Formation in Kaohsiung, with gray-white mountain ridges exposed one after another, almost barren, with sparse green trees and small settlements in the distance](/article-images/food/tianliao-moon-world-badlands-2019.jpg)
+![The mudstone badland of the Gutingkeng Formation in Kaohsiung, with gray-white mountain ridges exposed one after another, almost barren, with sparse green trees and small settlements in the distance](/article-images/food/tianliao-moon-world-badlands-2019.webp)
 _The mudstone badland of the Gutingkeng Formation in the Kaohsiung area, commonly known as the "Moon World." Neimen is located on the edge of this landscape where even crops struggle to grow. Photo: StevenK234, 2019. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tianliao_Moon_World_3.jpg)._
 
 To understand how this martial field discipline was forged, one must first look at a land that is difficult to cultivate.
@@ -132,7 +132,7 @@ Older generation masters often use presidential terms to remember the industry's
 
 From 1988 to 2000, the 12 years Li Denghui served as president are considered the golden age of banquets. This was not only the era of traditional "Eight Celebrations and One Funeral"—engagement, marriage, full-month, returning to娘家 (natal home), opening business, birthday, moving in, passing away—; it was also an era where even if a child got a PhD or won money from pigeon racing, a banquet table was held [^21]. On auspicious lunar days, the temple square and roadside were full of "Black Forest Hotels." The origin of this name is very Taiwanese: early canvas tents were often provided by beverage companies, with Black Forest soda advertisements printed on them. Over time, "Black Forest Hotel" became a synonym for banquets [^21].
 
-![Round tables with red chair covers in Tainan at night, one after another, filled with guests, with storefronts with rolled-down iron doors and parked motorcycles in the background](/article-images/food/bando-street-banquet-tainan-2014.jpg)
+![Round tables with red chair covers in Tainan at night, one after another, filled with guests, with storefronts with rolled-down iron doors and parked motorcycles in the background](/article-images/food/bando-street-banquet-tainan-2014.webp)
 _A banquet directly held on the street in Tainan in 2014. Blocking the road, setting up tables, and opening seats is the most everyday appearance of the "Black Forest Hotel". Photo: Ce Jingzhe, 2014. [CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File/2014-12-07_a_banquet_on_street_in_Tainan.jpg)._
 
 How prosperous that period was, Xue Menghui remembers most clearly from his father Xue Qingji's work diary.

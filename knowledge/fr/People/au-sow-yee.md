@@ -43,7 +43,7 @@ La bibliothèque se définit par l'expression « **living coordinate** », une c
 
 Cette phrase ne décrit pas seulement une bibliothèque. Elle décrit aussi Au Sow Yee elle-même.
 
-![Still de l'œuvre d'Au Sow Yee A Day Without Sun in Mengkerang (Chapter One) (2013). L'image montre un projet de mesure vidéo de scènes quotidiennes de la péninsule Malaise](/article-images/people/au-sow-yee-mengkerang-still-2013.jpg)
+![Still de l'œuvre d'Au Sow Yee A Day Without Sun in Mengkerang (Chapter One) (2013). L'image montre un projet de mesure vidéo de scènes quotidiennes de la péninsule Malaise](/article-images/people/au-sow-yee-mengkerang-still-2013.webp)
 _Still de l'œuvre d'Au Sow Yee A Day Without Sun in Mengkerang (Chapter One) (2013). Fair use editorial commentary on Au Sow Yee's work. Source: [portfolio officiel de l'artiste](https://ausowyee.cargo.site/)._
 
 ## Pourquoi une Malaisienne d'origine chinoise fait-elle cela à Taïwan ?
@@ -97,7 +97,7 @@ Sharon Chin ajoute que la force de Pak Tai Foto est précisément de **ne pas �
 
 C'est l'une des méthodes les plus importantes d'Au Sow Yee : **refuser la posture curatoriale qui consiste à “parler pour quelqu'un”**.
 
-![Still de l'œuvre d'Au Sow Yee Pak Tai Foto (2015). L'image montre l'intérieur d'un ancien studio photographique de Petaling Street, à Kuala Lumpur, bientôt démoli](/article-images/people/au-sow-yee-pak-tai-foto-still-2015.jpg)
+![Still de l'œuvre d'Au Sow Yee Pak Tai Foto (2015). L'image montre l'intérieur d'un ancien studio photographique de Petaling Street, à Kuala Lumpur, bientôt démoli](/article-images/people/au-sow-yee-pak-tai-foto-still-2015.webp)
 _Still de l'œuvre d'Au Sow Yee Pak Tai Foto (2015). L'ancien commerce de Petaling Street va être démoli en raison des travaux du métro ; les voix des travailleurs migrants résonnent dans la boutique vide. Fair use editorial commentary on Au Sow Yee's work. Source: [portfolio officiel de l'artiste](https://ausowyee.cargo.site/)._
 
 ## C'est « ne pas être là » qui devient position de création

@@ -74,7 +74,7 @@ Permaneció en París, pero su ídolo ya no estaba. ¿Qué estudiar? ¿Cómo est
 
 Ese año tenía veintiséis años. No imaginaba que esa salida de Taiwán duraría cuarenta y cinco años.
 
-![Detalle de la fachada occidental de Notre-Dame de París, 2017. En el verano de 1982, Chiang Hsien-yi volvió de Nueva York a París y pintó con las ventanas selladas en un ático sobre un cine del Barrio Latino, donde creó la serie «Notre-Dame de París», punto de inflexión de su carrera como pintor](/article-images/art/jiang-chien-notre-dame-paris-2017.jpg)
+![Detalle de la fachada occidental de Notre-Dame de París, 2017. En el verano de 1982, Chiang Hsien-yi volvió de Nueva York a París y pintó con las ventanas selladas en un ático sobre un cine del Barrio Latino, donde creó la serie «Notre-Dame de París», punto de inflexión de su carrera como pintor](/article-images/art/jiang-chien-notre-dame-paris-2017.webp)
 
 _Detalle de la fachada occidental de Notre-Dame de París, 2017. En el verano de 1982, Chiang Hsien-yi volvió de Nueva York a París y pintó con las ventanas selladas en un ático sobre un cine del Barrio Latino, donde creó la serie «Notre-Dame de París», punto de inflexión de su carrera como pintor. Photo: Fernando Losada Rodríguez, CC BY-SA 4.0 via Wikimedia Commons._
 
@@ -129,7 +129,7 @@ La serie «Templo centenario» creció desde aquella casa vacía con goteras de 
 
 Como en «Notre-Dame de París», la imagen también partía de una base negra y sombría, pero dentro del negro había algo más. Unos haces de luz dorada cobriza emergían desde el fondo del cuadro. Era el color que las columnas del templo adquirían lentamente tras ser tocadas por incontables manos, ahumadas durante siglos por el incienso e iluminadas oblicuamente por el sol al entrar desde el patio de luz[^20].
 
-![Una obra de la serie «Templo centenario» de Chiang Hsien-yi, 1998 — haces de luz dorada cobriza emergen desde el fondo sobre una base negra y sombría, el color que las columnas del templo adquieren lentamente tras ser tocadas por incontables manos y ahumadas durante siglos](/article-images/art/jiang-chien-baiNianMiao-1998.jpg)
+![Una obra de la serie «Templo centenario» de Chiang Hsien-yi, 1998 — haces de luz dorada cobriza emergen desde el fondo sobre una base negra y sombría, el color que las columnas del templo adquieren lentamente tras ser tocadas por incontables manos y ahumadas durante siglos](/article-images/art/jiang-chien-baiNianMiao-1998.webp)
 _Una obra de la serie «Templo centenario» de Chiang Hsien-yi, 1998. Source: [Sitio web oficial del artista Chiang Hsien-yi](https://www.paulchiang.org/works), colección del período Notre-Dame de París / Templo centenario. Fair use editorial commentary._
 
 En marzo de 1997, Chiang Hsien-yi realizó una exposición individual en la galería Eslite de Taipéi. El subtítulo de la muestra decía: «Primera exposición individual en Taiwán tras treinta años de ausencia.»[^21]
@@ -159,7 +159,7 @@ De París, Nueva York y Taipéi a Jinzun, Taitung: era su cuarto estudio.
 
 Y también el primero en el que no selló las ventanas.
 
-![Vista del océano Pacífico desde un tramo de la Ruta Provincial 11 en el municipio de Donghe, condado de Taitung, 2018. En 2007, el matrimonio Chiang encontró la ladera de Jinzun junto a esta carretera; en 2008 se establecieron allí y han vivido allí desde entonces](/article-images/art/jiang-chien-donghe-coast-2018.jpg)
+![Vista del océano Pacífico desde un tramo de la Ruta Provincial 11 en el municipio de Donghe, condado de Taitung, 2018. En 2007, el matrimonio Chiang encontró la ladera de Jinzun junto a esta carretera; en 2008 se establecieron allí y han vivido allí desde entonces](/article-images/art/jiang-chien-donghe-coast-2018.webp)
 
 _Vista del océano Pacífico desde un tramo de la Ruta Provincial 11 en el municipio de Donghe, condado de Taitung, 2018. En 2007, el matrimonio Chiang encontró la ladera de Jinzun junto a esta carretera; en 2008 se establecieron allí y han vivido allí desde entonces. Photo: Aa7778273, CC BY-SA 4.0 via Wikimedia Commons._
 
@@ -172,10 +172,10 @@ _Vista del océano Pacífico desde un tramo de la Ruta Provincial 11 en el munic
 
 Series como «El sueño de Pisirian», «Sobre las alas del canto», «Jinzun» y «Lago de plata» fueron apareciendo una tras otra después de 2008[^27]. En la superficie comenzaron a aparecer azules, amarillos, naranjas, rosas. Empezaron a aparecer el mar, el canto, el sueño[^27]. «Los colores que uso, el tamaño de las obras y también la libertad: todo eso llegó solo después de mudarme a Taitung.»[^28]
 
-![Una obra de la serie «El sueño de Pisirian» de Chiang Hsien-yi, 2010 — masas de azul, rosa y amarillo como una mañana en el Pacífico, junto a la colina que en lengua amis significa «tierra de pastoreo»](/article-images/art/jiang-chien-bisirian-2010.jpg)
+![Una obra de la serie «El sueño de Pisirian» de Chiang Hsien-yi, 2010 — masas de azul, rosa y amarillo como una mañana en el Pacífico, junto a la colina que en lengua amis significa «tierra de pastoreo»](/article-images/art/jiang-chien-bisirian-2010.webp)
 _Una obra de la serie «El sueño de Pisirian» de Chiang Hsien-yi, 2010. Pisirian es el antiguo nombre amis de la costa junto al estudio de Jinzun. Source: [Sitio web oficial del artista Chiang Hsien-yi](https://www.paulchiang.org/works), colección del período El sueño de Pisirian. Fair use editorial commentary._
 
-![Una obra de la serie «Lago de plata» de Chiang Hsien-yi, 2008 — un halo blanco sobre fondo negro como la luz de la luna sobre un lago, como la primera nota baja sol del piano de Gould](/article-images/art/jiang-chien-silver-lake-2008.jpg)
+![Una obra de la serie «Lago de plata» de Chiang Hsien-yi, 2008 — un halo blanco sobre fondo negro como la luz de la luna sobre un lago, como la primera nota baja sol del piano de Gould](/article-images/art/jiang-chien-silver-lake-2008.webp)
 _Una obra de la serie «Lago de plata» de Chiang Hsien-yi, 2008. Source: [Sitio web oficial del artista Chiang Hsien-yi](https://www.paulchiang.org/works), colección del período Lago de plata. Fair use editorial commentary._
 
 Su rutina diaria pasó a ser esta:

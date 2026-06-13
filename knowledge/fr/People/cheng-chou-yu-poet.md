@@ -88,7 +88,7 @@ Cependant, il ne fut jamais complètement « américanisé ». Il continuait à 
 
 ## Le retour : l'installation à Kinmen en 2005
 
-![Coucher de soleil sur la digue de Cihu, Kinmen — la plage où Cheng Chou-yu marchait souvent seul après s'être installé à Kinmen en 2005](/article-images/people/zheng-chouyu-cikan-sunset-kinmen.jpg)
+![Coucher de soleil sur la digue de Cihu, Kinmen — la plage où Cheng Chou-yu marchait souvent seul après s'être installé à Kinmen en 2005](/article-images/people/zheng-chouyu-cikan-sunset-kinmen.webp)
 _Coucher de soleil sur la digue de Cihu, Kinmen. Après son retour à Taïwan à sa retraite de Yale en 2005, Cheng Chou-yu marchait souvent seul au bord de la mer de Cihu, regardant les marées. Photo : Meigazine CHENG (Wikimedia Commons, CC BY-SA 4.0)_
 
 2005 fut un tournant décisif dans la vie de Cheng Chou-yu. Cette année-là, il prit sa retraite de Yale, à 72 ans, et décida de revenir à Taïwan. Son point d'atterrissage ne fut ni Taipei, ni Hsinchu (la ville où il avait fait ses études secondaires), mais Kinmen.
@@ -103,7 +103,7 @@ Ces activités constituèrent le prélude à son installation officielle à Kinm
 
 ## _La Robe de la paix_ et la cloche de la paix du 23 août
 
-![Panorama du lac Cihu, Kinmen — le paysage insulaire où Cheng Chou-yu séjourna le plus souvent dans ses dernières années](/article-images/people/zheng-chouyu-kinmen-cilake.jpg)
+![Panorama du lac Cihu, Kinmen — le paysage insulaire où Cheng Chou-yu séjourna le plus souvent dans ses dernières années](/article-images/people/zheng-chouyu-kinmen-cilake.webp)
 _Panorama du lac Cihu, Kinmen. Le lac Cihu se trouve dans le canton de Ning, comté de Kinmen, sur une superficie de 120 hectares. C'est le plus grand lac artificiel de Kinmen, créé à l'origine en 1969 par la construction d'une digue sous la supervision de Chiang Ching-kuo, devenu un habitat pour les oiseaux migrateurs dans les années 1990. Photo : Mnb (Wikimedia Commons, CC BY-SA 4.0)_
 
 Après s'être installé à Kinmen, Cheng Chou-yu écrivit un nouveau recueil intitulé _La Robe de la paix : cent ans de poésie, dix mille ans de paix perpétuelle_, qui remporte le 10e prix mondial de création littéraire sur la vie. Le thème central de ce recueil est la paix — pour quelqu'un originaire du Hebei, né dans le Shandong, ayant fui la guerre avec sa mère à travers les provinces chinoises pendant la guerre de Résistance, traversé la mer en 1949, mis pour la première fois les pieds sur le front de Kinmen en 1967, puis s'étant installé à Kinmen en 2005, « la paix » n'est pas un concept abstrait, mais un état concret poursuivi toute une vie.

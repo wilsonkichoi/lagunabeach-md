@@ -77,7 +77,7 @@ Source: Department of Household Registration, end of 2025
 
 Stare at this grid chart a little longer, and one question emerges: what kind of life is being lived by the 30% of people scattered across 70% of the land? The answer is hidden in density.
 
-![The high-rise skyline around Xinyi District and Nangang in Taipei City, with dense layers of residential and commercial buildings](/article-images/society/taipei-skyline-housing-2026.jpg)
+![The high-rise skyline around Xinyi District and Nangang in Taipei City, with dense layers of residential and commercial buildings](/article-images/society/taipei-skyline-housing-2026.webp)
 _Taipei City’s skyline. Taiwan’s most crowded county or city packs 8,975 people into each square kilometer. Photo: Heeheemalu, CC BY-SA 4.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:20260204_Taipei,_Taiwan_Skyline.jpg)._
 
 ## From the Most Crowded to the Most Empty, a 151-Fold Difference

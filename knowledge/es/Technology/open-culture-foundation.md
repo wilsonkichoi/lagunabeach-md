@@ -40,7 +40,7 @@ Probablemente no has oído su nombre, pero es muy posible que hayas usado cosas 
 
 ## Un recibo de conferencia imposible de rendir
 
-![Una calle de Taipéi durante el Movimiento Girasol, con personas reunidas alrededor del Yuan Legislativo y pancartas de protesta; el suelo conserva la atmósfera quieta de un escenario de movilización.](/article-images/technology/ocf-sunflower-movement-2014.jpg)
+![Una calle de Taipéi durante el Movimiento Girasol, con personas reunidas alrededor del Yuan Legislativo y pancartas de protesta; el suelo conserva la atmósfera quieta de un escenario de movilización.](/article-images/technology/ocf-sunflower-movement-2014.webp)
 _Calle de Taipéi durante el Movimiento Girasol de 2014. g0v instaló transmisiones cívicas en vivo durante este movimiento y llevó al punto más alto la energía de “transformar el espacio público con las propias manos”; OCF también nació dentro de esa energía. Imagen: Jesse Steele, CC BY 2.0 (fuente completa al final)._
 
 El inicio de la historia no tiene nada de romántico.
@@ -64,7 +64,7 @@ _clkao presentó en COSCUP 2014 el “Discurso sobre el estado de la aldea g0v�
 
 ## Emitir facturas para “nadie”
 
-![Un grupo de personas sentadas alrededor de una mesa larga colaboran con laptops y pantallas encendidas; es el interior del decimotercer hackatón de g0v en 2015, con participantes divididos en grupos trabajando en proyectos de tecnología cívica.](/article-images/technology/ocf-g0v-hackathon-2015.jpg)
+![Un grupo de personas sentadas alrededor de una mesa larga colaboran con laptops y pantallas encendidas; es el interior del decimotercer hackatón de g0v en 2015, con participantes divididos en grupos trabajando en proyectos de tecnología cívica.](/article-images/technology/ocf-g0v-hackathon-2015.webp)
 _Decimotercer hackatón de g0v, 2015. Los hackers pueden producir un proyecto en un fin de semana, pero detrás del proyecto alguien tiene que hacerse cargo de contabilidad, contratos y seguros laborales y de salud. Esa es la parte que asumió OCF. Imagen: g0v.tw Taiwan Zero Government, CC BY 2.0 (fuente completa al final)._
 
 Lo que OCF hace en realidad suena muy poco atractivo: abrir cuentas, recibir pagos, conciliar movimientos, emitir recibos, correr trámites, solicitar subsidios y ocuparse de toda la logística de un evento de principio a fin[^7]. Si una comunidad quiere organizar actividades o recibir donaciones, pero no quiere registrar su propia organización ni cargar con el costo de personal de tiempo completo, puede pasarle a OCF ese trabajo de apoyo que vuelve loca a la gente. El director Li Po-feng lo resumió con una frase muy precisa: “Todas estas son cosas pequeñas, pero acumuladas son muchas y muy variadas”[^8]. La naturaleza de la administración de apoyo está ahí. Ninguna tarea, vista por separado, parece grande; juntas, pueden aplastar a un equipo de voluntarios que solo quiere escribir código.
@@ -80,7 +80,7 @@ Por eso, OCF nunca afirma que el mapa de mascarillas lo hizo ella. Lo hicieron h
 
 ## De una casa a un castillo en movimiento
 
-![En una sala de reuniones luminosa, decenas de personas sentadas frente a mesas ordenadas participan en un taller; al frente alguien presenta. Es la escena de arranque de la beca de tecnología cívica de g0v de 2017.](/article-images/technology/ocf-g0v-civictech-grant-2017.jpg)
+![En una sala de reuniones luminosa, decenas de personas sentadas frente a mesas ordenadas participan en un taller; al frente alguien presenta. Es la escena de arranque de la beca de tecnología cívica de g0v de 2017.](/article-images/technology/ocf-g0v-civictech-grant-2017.webp)
 _Taller de inicio de la beca de tecnología cívica de g0v, 2017. Cuando las comunidades quieren hacer crecer sus proyectos, necesitan detrás un equipo capaz de administrar dinero, organizar actividades y tratar con actores externos. Ese fue precisamente el rol que OCF desarrolló. Imagen: Kirby Wu, CC BY-SA 2.0 (fuente completa al final)._
 
 La primera empleada de OCF fue Li Hsin-ying, conocida en la comunidad como singing y actual directora ejecutiva[^11]. Empezó sola en el espacio del cuarto piso del número 94, sección 1, Bade Road, en Taipéi, apodado por la comunidad “Bade 94”. Diez años después, el personal de tiempo completo llegó a 19 personas, y las comunidades de código abierto sostenidas pasaron de las 4 iniciales a más de cuarenta[^1].
@@ -99,7 +99,7 @@ Una frase del director Li Ming-che, conocido en la comunidad como Izero, revela 
 
 ## Quien rendía cuentas aprendió después a hablar por todos
 
-![Retrato individual de Audrey Tang, con lentes de montura fina, pelo corto y una sonrisa, sobre un fondo claro y simple.](/article-images/technology/ocf-audrey-tang-2016.jpg)
+![Retrato individual de Audrey Tang, con lentes de montura fina, pelo corto y una sonrisa, sobre un fondo claro y simple.](/article-images/technology/ocf-audrey-tang-2016.webp)
 _Audrey Tang: de participante de g0v a primera ministra de Desarrollo Digital de Taiwán. OCF interactuó muchas veces con el ministerio que ella encabezó: cooperando y también vigilando. Imagen publicada por la propia Audrey Tang, dominio público CC0 (fuente completa al final)._
 
 Imagina a una persona de un barrio que hace mandados para todos. Ayuda a los vecinos con sellos y trámites, y mientras se ocupa de esas tareas, termina hablando en las reuniones de la oficina distrital en nombre de toda la calle. La transformación de OCF siguió más o menos ese camino. Cuando ya dominaba contabilidad, asuntos legales y recursos humanos, descubrió que estaba en una posición especial: conocía a todas las comunidades, entendía la tecnología y tenía una identidad formal para tratar con el gobierno y las empresas. Entonces empezó a hacer cosas más allá de rendir cuentas: vigilar, en nombre de las comunidades, los asuntos públicos relacionados con “apertura” y “libertad”.

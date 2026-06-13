@@ -77,7 +77,7 @@ Source : Département de l'enregistrement des ménages du ministère de l'Intér
 
 Si l'on fixe ce diagramme assez longtemps, une question surgit : quelle vie mènent les 30 % de personnes dispersées sur 70 % du territoire ? La réponse se cache dans la densité.
 
-![Gratte-ciel de l'arrondissement de Xinyi et du secteur de Nangang à Taipei, avec des immeubles résidentiels et de bureaux densément superposés](/article-images/society/taipei-skyline-housing-2026.jpg)
+![Gratte-ciel de l'arrondissement de Xinyi et du secteur de Nangang à Taipei, avec des immeubles résidentiels et de bureaux densément superposés](/article-images/society/taipei-skyline-housing-2026.webp)
 _La ligne d'horizon de Taipei. La ville ou le comté le plus dense de Taïwan concentre 8 975 personnes par kilomètre carré. Photo : Heeheemalu, CC BY-SA 4.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:20260204_Taipei,_Taiwan_Skyline.jpg)._
 
 ## Du plus dense au plus vide, un écart de 151 fois

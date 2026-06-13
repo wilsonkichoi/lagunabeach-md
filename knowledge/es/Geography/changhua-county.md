@@ -100,7 +100,7 @@ El primero fue la sedimentación del puerto. Wikipedia registra textualmente: "*
 
 La era de "dos Lukang" en "una prefectura, dos Lukang, tres Mengjia" terminó a mediados del siglo XIX. El período más próspero de Lukang duró apenas 70 años.
 
-![Callejones del casco antiguo de Lukang. El "callejón del abrazo" (nombre oficial: "callejón del caballero"), con su punto más estrecho de 70 centímetros; el diseño sinuoso del "callejón de las nueve curvas" para proteger del viento monzónico del noreste; el "pozo de medio lado" (calle Yaolin n.º 12) como expresión de buena vecindad: estas texturas urbanas de 200 años siguen en su lugar.](/article-images/geography/changhua-02.jpg)
+![Callejones del casco antiguo de Lukang. El "callejón del abrazo" (nombre oficial: "callejón del caballero"), con su punto más estrecho de 70 centímetros; el diseño sinuoso del "callejón de las nueve curvas" para proteger del viento monzónico del noreste; el "pozo de medio lado" (calle Yaolin n.º 12) como expresión de buena vecindad: estas texturas urbanas de 200 años siguen en su lugar.](/article-images/geography/changhua-02.webp)
 _Callejones del casco antiguo de Lukang. Foto: colaborador de Wikimedia Commons, [CC BY-SA vía Wikimedia](https://commons.wikimedia.org/wiki/File:%E9%B9%BF%E6%B8%AF%E8%80%81%E8%A1%97%E5%B0%8F%E5%B7%B707.jpg)._
 
 ## En 1986, Lukang dijo "no"
@@ -158,7 +158,7 @@ La fecha fue 1956. El primer magistrado del condado de Changhua, Chen Xiqing, im
 
 Un reportaje del _China Times_ registra: "**Tras la finalización del Gran Buda en 1961**", los residentes locales desarrollaron una creencia: "**Changhua 'tiene viento pero no tifones, tiene lluvia pero no desastres', y todos creen firmemente que es la bendición del Gran Buda**"[^22].
 
-![Gran Buda de la montaña Baguashan, completado en 1961, 22 metros de altura, hormigón armado, diseñado por Lin Qingyao. El interior de la estatua está dividido en 6 niveles accesibles al público.](/article-images/geography/changhua-04.jpg)
+![Gran Buda de la montaña Baguashan, completado en 1961, 22 metros de altura, hormigón armado, diseñado por Lin Qingyao. El interior de la estatua está dividido en 6 niveles accesibles al público.](/article-images/geography/changhua-04.webp)
 _Gran Buda de la montaña Baguashan. Foto: colaborador de Wikimedia Commons, [CC BY-SA vía Wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BD%B0%E5%8C%96%E5%85%AB%E5%8D%A6%E5%B1%B1%E5%A4%A7%E4%BD%9B31.jpg)._
 
 Un Bodhisattva de hormigón de 22 metros, junto con el Bodhisattva de madera tallada del Templo Longshan de Lukang de 1786, la Mazu financiada por la corte imperial de Xinzu Gong de 1788, y el templo del dios de la tierra junto a los campos de crisantemos de Tianwei: los objetos de fe dentro del condado de Changhua, desde la era Qing hasta la posguerra, no siguen una misma línea temporal. Cada uno es la respuesta concreta de la gente de su época a la pregunta "¿con qué tipo de fuerza necesitamos ser protegidos?".

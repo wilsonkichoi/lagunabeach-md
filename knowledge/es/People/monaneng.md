@@ -27,7 +27,7 @@ translatedAt: '2026-06-03T21:58:47+08:00'
 
 # Monaneng: dos tipos de ceguera, un poemario
 
-![Paisaje del municipio de Daren, condado de Taitung: una comunidad tribal entre la montaña y el mar, con el Pacífico a lo lejos. Monaneng nació en 1956 en la comunidad de Aluwei (aldea de Anshuo) de este municipio.](/article-images/people/monaneng-daren-township-2011.jpg)
+![Paisaje del municipio de Daren, condado de Taitung: una comunidad tribal entre la montaña y el mar, con el Pacífico a lo lejos. Monaneng nació en 1956 en la comunidad de Aluwei (aldea de Anshuo) de este municipio.](/article-images/people/monaneng-daren-township-2011.webp)
 _Municipio de Daren, condado de Taitung: lugar donde se encuentra la comunidad de Aluwei, sitio de nacimiento de Monaneng en 1956. Photo: Bernard Gagnon, 2011-06-08. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Daren_Township,_Taiwan.jpg) CC BY-SA 3.0._
 
 > **Resumen en 30 segundos:** El poeta ciego paiwan Maljaljaves Mulaneng, nacido en 1956 en la comunidad de Aluwei, municipio de Daren, Taitung, y registrado en chino como Tseng Shun-wang, fue el **primer poeta indígena de Taiwán en publicar un poemario moderno en chino**. The Beautiful Rice Ear, publicado por Morning Star en 1989, reúne 30 poemas y lleva un largo prólogo del escritor Chen Ying-chen titulado “Un poeta colonial dentro de Taiwán”. Monaneng no nació ciego: perdió completamente la vista después de una conmoción cerebral provocada por un accidente de tránsito mientras trabajaba en una empresa de transporte de carga en 1979. En Come, brindemos, el verso «La consigna de autodeterminación de dieciocho millones de personas / no oye nuestros suspiros» llevó al poema, simultáneamente, el movimiento independentista taiwanés recién salido del levantamiento de la ley marcial, el movimiento indígena por la devolución de tierras y la pregunta de «quién cuenta como taiwanés». Más tarde, el propio Monaneng se opuso públicamente a la independencia de Taiwán, defendió la unificación a ambos lados del estrecho y se incorporó a la Asociación de Escritores de China[^1]. Leer su poesía presenta dos dificultades: físicamente, él no ve; políticamente, muchos lectores taiwaneses tampoco quieren ver su posición.
@@ -54,7 +54,7 @@ El accidente decisivo ocurrió en **1979**. Trabajaba en una empresa de transpor
 
 Después fue al **Instituto de Reconstrucción para Ciegos de Taiwán** para aprender masaje y braille. Más tarde abrió en Taipéi una pequeña clínica de masajes llamada “A-Neng Massage”[^11]. No era un “masajista callejero” —como suele escribirse en internet, de manera imprecisa—, sino que tenía un local físico. Allí escribía poemas en braille. **Pero la poesía no empezó en el braille**.
 
-![Presentación tradicional de canto y danza paiwan: tres integrantes del pueblo interpretan juntos con vestimenta tradicional. La poesía de Monaneng también surgió originalmente así en 1984: de su boca, en forma de bebida, oralidad y canto, para luego ser transcrita por otros.](/article-images/people/monaneng-paiwan-song-dance-2018.jpg)
+![Presentación tradicional de canto y danza paiwan: tres integrantes del pueblo interpretan juntos con vestimenta tradicional. La poesía de Monaneng también surgió originalmente así en 1984: de su boca, en forma de bebida, oralidad y canto, para luego ser transcrita por otros.](/article-images/people/monaneng-paiwan-song-dance-2018.webp)
 _Canto y danza paiwan (festival de culturas indígenas Riddu Riđđu, norte de Europa, 2018): imagen correspondiente a la escena originaria de 1984, cuando Monaneng bebía en casa de Yang Tu y recitaba oralmente sus poemas. Photo: Riddu Riđđu Festival via Flickr. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Familieforestilling_-_Paiwan_sang_og_dans_(41534824410).jpg) CC BY-SA 2.0.\_
 
 ## Beber en casa de Yang Tu y cantar los poemas
@@ -75,7 +75,7 @@ Conviene leer despacio esta secuencia:
 
 Ese origen oral, de tipo odiseico, es el fundamento real de que Chen Ying-chen lo llamara más tarde “**un poeta colonial dentro de Taiwán**” y de que la academia lo comparara con “**el Homero de Taiwán**”. Homero no fue grande por su ceguera, sino porque en él continuó la tradición de la épica oral[^15].
 
-![Edificio de la Iglesia Presbiteriana en el municipio de Daren, Taitung: uno de los primeros espacios modernos de las comunidades indígenas taiwanesas de posguerra y también un nodo de las redes del movimiento indígena en la década de 1980.](/article-images/people/monaneng-daren-church-2011.jpg)
+![Edificio de la Iglesia Presbiteriana en el municipio de Daren, Taitung: uno de los primeros espacios modernos de las comunidades indígenas taiwanesas de posguerra y también un nodo de las redes del movimiento indígena en la década de 1980.](/article-images/people/monaneng-daren-church-2011.webp)
 _Iglesia Presbiteriana del municipio de Daren, Taitung: uno de los primeros espacios organizativos modernos en las comunidades indígenas taiwanesas de posguerra y un nodo importante de las redes del movimiento indígena en la década de 1980. Photo: Bernard Gagnon, 2011-03-08. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Daren_Church,_Presbyterian_Church_in_Taiwan_20110308.jpg) CC BY-SA 3.0._
 
 ## Las campanas de la mina Haishan, el bastón de la Asociación por los Derechos Indígenas

@@ -70,7 +70,7 @@ _Hsu Hao-ning talks about Complex Life Festival (Ministry of Education Youth Dev
 
 ## A Hotel California You Can Enter But Never Leave
 
-![Complex Life Festival Venue: Two to three hundred young people squeezed in a high-ceilinged industrial-style space in Taichung, sitting on mismatched chairs listening to a speaker share, yellow plastic baskets of Taiwan Beer serving as stage and partitions](/article-images/society/complex-festival-talk-crowd.jpg)
+![Complex Life Festival Venue: Two to three hundred young people squeezed in a high-ceilinged industrial-style space in Taichung, sitting on mismatched chairs listening to a speaker share, yellow plastic baskets of Taiwan Beer serving as stage and partitions](/article-images/society/complex-festival-talk-crowd.webp)
 _The Complex Life Festival venue: Two to three hundred people, speakers and audience mixed together, yellow baskets of Taiwan Beer serving as stage and seats. Photo: Complex Life Festival (fair use editorial commentary)._
 
 After the first edition, this gathering was held every May for five years.
@@ -79,7 +79,7 @@ The method was special. No host, the boundary between speakers and audience was 
 
 The first edition had thirty groups of speakers, cutting across the eighth-generation independent creation ecology: college students making presentations, students organizing the NTU Music Festival, the literary review magazine _Secret Reader_, _Poem for You Every Day_ posting a poem on Facebook daily, online course platform Hahow, and the _Yiren_ studio focusing on Southeast Asian migrant workers [^9]. Spreading out this list, you see a small universe grown by Taiwanese youth in 2016: presentations, music, literature, education, new immigrants; none of these are positions mainstream industries care about, but everyone was doing them seriously.
 
-![A speaker stands in front of a projection screen sharing with the audience below, a banner with the Complex Life Festival's pixel dot-matrix font hangs on the background wall, the scene atmosphere is a DIY industrial-style space](/article-images/society/complex-festival-iii-sharing-2018.jpg)
+![A speaker stands in front of a projection screen sharing with the audience below, a banner with the Complex Life Festival's pixel dot-matrix font hangs on the background wall, the scene atmosphere is a DIY industrial-style space](/article-images/society/complex-festival-iii-sharing-2018.webp)
 _A speaker shares in front of a projection screen, the wall hangs the Complex Life Festival's iconic pixel dot-matrix banner. The visual language of the whole gathering is a deliberate "amateur feel": not refined, no lighting, like a club orientation rather than a brand event. Photo: Complex Life Festival (fair use editorial commentary)._
 
 The second edition, 2017, was themed "Hotel California." This edition really held the venue in a hotel [^10]. The name comes from the famous lyric of the Eagles' song: You can check out any time you like, but you can never leave. The song originally spoke of a gorgeous yet trapping intoxication; applied to Complex Life Festival, it meant something different—it spoke of a group of people who found kindred spirits in each other, once entering, they couldn't leave, because there was no other place outside where they could speak like this. A metaphor of "entering but never leaving," Huang Dou-ni also used the phrase "The Hotel California that you can enter but never leave was really held in a hotel" in a later visual design article [^10].
@@ -92,26 +92,26 @@ Five editions added up to about 1,500 people; this number, placed next to Za Sch
 
 ## The Triangle Facing Away from the Audience
 
-![Scattered soccer shoes on the floor outside the lecture room, next to a yellow "Shoe Stop Youth" sign with a blue sneaker icon](/article-images/society/complex-festival-shoes-sign.jpg)
+![Scattered soccer shoes on the floor outside the lecture room, next to a yellow "Shoe Stop Youth" sign with a blue sneaker icon](/article-images/society/complex-festival-shoes-sign.webp)
 "The Shoe Stop Youth" sign and a pair of soccer shoes outside the lecture room. Complex Life Festival held deep conversations like being in someone else's living room; taking off shoes before entering, this small action echoes its self-positioning of "coming back for New Year." Photo: Complex Life Festival (fair use editorial commentary).
 
 The third edition is the most remembered edition of this gathering.
 
 In 2018, the theme was "Buddhist Youth," with the subtitle as a question: "Why complicate when you could be simple?" [^13] "Buddhist" was the buzzword of those two years, speaking of a lying-flat mentality of "whatever, doesn't matter, no strong demand." Complex Life Festival used it as a theme, which itself was a counter-question: a group of workaholics who made life exhausting, talking about "Buddhist," was actually talking about "we could choose to not care, why can't we let go?" This edition was held during the day at China Medical University, and at night opened "Complex Life Village" next to Fengjia Night Market [^13].
 
-![A speaker stands on stage holding a microphone, a calligraphy banner of "Buddhist Youth" hangs behind, next to a countdown clock showing 59:59](/article-images/society/complex-festival-iii-stage-2018.jpg)
+![A speaker stands on stage holding a microphone, a calligraphy banner of "Buddhist Youth" hangs behind, next to a countdown clock showing 59:59](/article-images/society/complex-festival-iii-stage-2018.webp)
 _The third edition "Buddhist Youth" scene: Behind the speaker is a handwritten "Buddhist Youth" banner, next to a 59:59 countdown clock. The countdown clock is Complex Life Festival's obsession with "depth," framing each share in time, forcing speakers to speak to the end. Photo: Complex Life Festival (fair use editorial commentary)._
 
 This edition invited a three-way dialogue, three people who later became "successful" in some sense: Audrey Tang, then a Digital Minister of the Executive Yuan; Liu An-ting, the educational entrepreneur who founded "Teach For Taiwan"; and Lin Yi-ying, Deputy Mayor of Taichung City [^14].
 
 The dialogue design was strange. The three sat in a triangle, facing away from the audience, receiving questions from the audience via the online Q&A tool Slido [^14].
 
-![Overhead view: Three sofas arranged in a triangle, three speakers facing inward, back to the surrounding audience, red, blue, and yellow curtains hanging from the ceiling](/article-images/society/complex-festival-iii-trialogue-2018.jpg)
+![Overhead view: Three sofas arranged in a triangle, three speakers facing inward, back to the surrounding audience, red, blue, and yellow curtains hanging from the ceiling](/article-images/society/complex-festival-iii-trialogue-2018.webp)
 _The core image of the third edition three-way dialogue: Three sofas arranged in a triangle, Audrey Tang, Liu An-ting, and Lin Yi-ying facing inward, back to the surrounding audience, red, blue, and yellow curtains hanging down. This is the "triangle facing away from the audience" itself: turning the speakers to face each other is Complex Life Festival's most direct declaration that "dialogue is more important than performance." Photo: Complex Life Festival (fair use editorial commentary)._
 
 Speaking with their backs to the audience is itself the temperament of Complex Life Festival: no performance, no facing the spotlight, only caring if the dialogue is deep enough. General forum speakers face the audience, speaking words for the audience to hear; these three faced each other, speaking words for each other to hear, the audience was only allowed to eavesdrop. Hsu Hao-ning said, "Deep dialogue, distance-less and almost harshly deep dialogue," is the signature of this gathering [^12]. The word "harsh" is accurate—it doesn't want lukewarm small talk, it wants to force the speakers to have no way out.
 
-![Close-up of Audrey Tang's profile, listening attentively at the dialogue scene, background is soft warm lighting](/article-images/society/complex-festival-iii-audrey-tang-2018.jpg)
+![Close-up of Audrey Tang's profile, listening attentively at the dialogue scene, background is soft warm lighting](/article-images/society/complex-festival-iii-audrey-tang-2018.webp)
 _Audrey Tang's profile at the three-way dialogue scene. At that time she was a Digital Minister of the Executive Yuan, a citizen tech advocate from g0v, and became Taiwan's first Digital Minister two years later. Photo: Complex Life Festival (fair use editorial commentary)._
 
 That day Audrey Tang said, "The government, from a perspective of fairness, is not suitable for innovation" [^14]. Her meaning was that the government must treat everyone equally, and innovation is essentially a privilege for a few to take risks; the two have inherent tension. Liu An-ting then said, "Innovation comes from the margins" [^14]. She spoke of how truly new things rarely emerge from the center of the system, but grow from ignored corners, from people with no resources so they can only think of ways themselves. This sentence was often mistakenly hung on the organizer's head, but it was Liu An-ting's, not Hsu Hao-ning's. A forum for "unsuccessful people," with the most promising people of this generation sitting on stage, talking about "innovation comes from the margins"—and sitting below were those who thought they were on the margins, but later one by one walked into the center.
@@ -132,7 +132,7 @@ The third edition split day and night into two completely different spaces, this
 
 During the day at China Medical University was the serious dialogue venue, triangle, countdown clock, harsh depth. After sunset, the whole group moved to a venue called "Si Guan" next to Fengjia Night Market, opening "Complex Life Village" [^13]. The word "village" is interesting: during the day they were forum speakers and audience, at night they became villagers of the same village. Entering the village required a "Villager Pass," inside the village, alcohol was exchanged for "Cocktail Vouchers."
 
-![A hand holding two vouchers, one printed with "Villager Pass," one with "Cocktail Voucher," the voucher face uses geometric dot-matrix font design](/article-images/society/complex-festival-village-pass-2018.jpg)
+![A hand holding two vouchers, one printed with "Villager Pass," one with "Cocktail Voucher," the voucher face uses geometric dot-matrix font design](/article-images/society/complex-festival-village-pass-2018.webp)
 _The "Villager Pass" and "Cocktail Voucher" of Complex Life Village, geometric dot-matrix font is the visual signature of Complex Life Festival. Calling entry a "Villager Pass" secretly rewrites an event into a temporary village: you are not here to attend, you are here to be a villager. Photo: Complex Life Festival (fair use editorial commentary)._
 
 Pixel banners hung on the walls of Si Guan in Fengjia, the whole space soaked in that dot-matrix font visual language. This pixel aesthetic was not randomly chosen. Dot-matrix font is the font of early computers, early game consoles, the screen memory of this eighth generation when they were children. Using it for a 2018 youth gathering is saying: We are a generation raised looking at these low-resolution screens, our nostalgia looks like this.

@@ -31,7 +31,7 @@ translatedAt: '2026-06-02T00:40:00+08:00'
 
 # Industrie des semi-conducteurs : cinquante ans de révolution des matériaux, du transfert technologique de RCA au nitrure de gallium et au packaging quantique
 
-![Deux chargeurs rapides USB-C de 30 W, de même puissance, comparés côte à côte : le produit en silicium à gauche est nettement plus volumineux, tandis que le produit en nitrure de gallium à droite est presque deux fois plus petit, montrant comment la science des matériaux concentre la densité énergétique dans la paume de la main](/article-images/technology/silicon-vs-gan-charger-2025.jpg)
+![Deux chargeurs rapides USB-C de 30 W, de même puissance, comparés côte à côte : le produit en silicium à gauche est nettement plus volumineux, tandis que le produit en nitrure de gallium à droite est presque deux fois plus petit, montrant comment la science des matériaux concentre la densité énergétique dans la paume de la main](/article-images/technology/silicon-vs-gan-charger-2025.webp)
 _Comparaison de volume entre chargeurs USB-C de même puissance, Si contre GaN. Photo : 4300streetcar, 2025-12-25. [Licence via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Silicon_vs_GaN_30W_USB-C_chargers.jpg)._
 
 > **Aperçu en 30 secondes :** au quatrième trimestre 2025, TSMC a lancé la production de masse en 2 nm dans sa Fab 22 de Kaohsiung, avec deux à trois générations d’avance sur le reste du monde[^2]. Mais l’histoire ne se joue pas seulement dans des transistors toujours plus petits : le chargeur rapide dans votre sac contient du nitrure de gallium (GaN), GlobalWafers fabrique des wafers de carbure de silicium (SiC) de 8 pouces à Zhongli, et les GPU Blackwell de NVIDIA arrivent dans les centres de données grâce au packaging CoWoS de TSMC. Depuis les 4,5 millions de dollars versés en 1973 par l’ITRI pour acheter la technologie de RCA[^5] jusqu’à la connexion en ligne, en 2026, de la puce quantique supraconductrice à 20 qubits de l’Academia Sinica[^6], Taïwan a parcouru un long fleuve de science des matériaux, de la physique des bandes interdites au dépôt de couches atomiques, puis aux qubits topologiques. La montagne sacrée qui protège le pays s’appuie sur cinquante ans d’expérience en fonderie ; mais dans l’ère quantique, Taïwan n’a pas encore conquis sa position de fonderie.
@@ -44,7 +44,7 @@ Cette conversation a changé le monde. Mais quarante ans plus tard, le « monde 
 
 ## Le pari de la fonderie en 1987
 
-![Vue extérieure de la Fab 5 de TSMC dans le parc scientifique de Hsinchu, un bâtiment industriel à plusieurs niveaux relié à Guangfu Road, l’un des sites représentatifs de l’expansion de TSMC dans les années 1990](/article-images/technology/tsmc-fab5-hsinchu-2010.jpg)
+![Vue extérieure de la Fab 5 de TSMC dans le parc scientifique de Hsinchu, un bâtiment industriel à plusieurs niveaux relié à Guangfu Road, l’un des sites représentatifs de l’expansion de TSMC dans les années 1990](/article-images/technology/tsmc-fab5-hsinchu-2010.webp)
 _Fab 5 de TSMC dans le parc scientifique de Hsinchu, 2010. Photo : Peellden. [Licence via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:TSMC_Fab5.JPG)._
 
 L’histoire commence plus tôt. En 1973, l’ITRI dépense 4,5 millions de dollars pour acquérir la technologie des circuits intégrés de l’américain RCA et envoie 19 ingénieurs se former aux États-Unis[^5]. Personne n’imagine alors que ces « frais de scolarité » deviendront la première pierre du royaume taïwanais des semi-conducteurs. En 1980, l’ITRI transfère sa technologie pour créer United Microelectronics Corporation (UMC), donnant à Taïwan sa première entreprise de semi-conducteurs. Mais Li Kwoh-ting n’est pas satisfait : UMC est trop petite, sa technologie ne rattrape pas les standards internationaux, et Taïwan a besoin d’une rupture plus ample.
@@ -147,7 +147,7 @@ L’étape suivante est SoIC (System on Integrated Chips) et SoW-X (System on Wa
 
 ## ALD : faire croître les atomes couche par couche
 
-![Dans une vitrine de musée sont exposés plusieurs échantillons de wafers de silicium de tailles différentes, le plus grand mesurant environ 12 pouces de diamètre ; leur éclat miroir montre la matière première centrale de la fabrication des semi-conducteurs](/article-images/technology/silicon-wafers-museum-2017.jpg)
+![Dans une vitrine de musée sont exposés plusieurs échantillons de wafers de silicium de tailles différentes, le plus grand mesurant environ 12 pouces de diamètre ; leur éclat miroir montre la matière première centrale de la fabrication des semi-conducteurs](/article-images/technology/silicon-wafers-museum-2017.webp)
 _Échantillons de wafers de silicium, 2017. Photo : ArticCynda. [Licence via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Silicon_wafers.jpg)._
 
 3 nm, 2 nm, 1,6 nm. Derrière ces chiffres se trouve une technologie de fabrication discrète mais décisive : le dépôt de couches atomiques (Atomic Layer Deposition, ALD).

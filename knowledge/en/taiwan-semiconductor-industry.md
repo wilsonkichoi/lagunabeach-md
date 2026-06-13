@@ -31,7 +31,7 @@ translatedAt: '2026-06-02T00:40:00+08:00'
 
 # Semiconductor Industry: Fifty Years of Materials Revolution from RCA Technology Transfer to Gallium Nitride and Quantum Packaging
 
-![Two same-power 30W USB-C fast chargers placed side by side: the silicon-based product on the left is visibly larger, while the gallium nitride product on the right is nearly half the size, showing how materials science compresses energy density into the palm of the hand](/article-images/technology/silicon-vs-gan-charger-2025.jpg)
+![Two same-power 30W USB-C fast chargers placed side by side: the silicon-based product on the left is visibly larger, while the gallium nitride product on the right is nearly half the size, showing how materials science compresses energy density into the palm of the hand](/article-images/technology/silicon-vs-gan-charger-2025.webp)
 _Size comparison of Si vs GaN USB-C chargers at the same wattage. Photo: 4300streetcar, 2025-12-25. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Silicon_vs_GaN_30W_USB-C_chargers.jpg)._
 
 > **30-second overview:** In the fourth quarter of 2025, TSMC began 2-nanometer mass production at Kaohsiung Fab 22, leading the world by two to three generations[^2]. But the story is not only about transistors getting smaller: the fast charger in your bag contains gallium nitride (GaN), GlobalWafers is making 8-inch silicon carbide (SiC) wafers in Zhongli, and NVIDIA's Blackwell GPUs all depend on TSMC's CoWoS packaging to enter data centers. From ITRI spending US$4.5 million in 1973 to buy technology from RCA[^5], to Academia Sinica connecting a 20-qubit superconducting quantum chip to the internet in 2026[^6], Taiwan has traveled a long river of materials science, from bandgap physics to atomic layer deposition to topological qubits. The sacred mountain protecting the nation rests on fifty years of foundry experience, but Taiwan has not yet secured its foundry position for the quantum era.
@@ -44,7 +44,7 @@ That conversation changed the world. But looking back forty years later, the "wo
 
 ## The 1987 Foundry Bet
 
-![Exterior of TSMC Fab 5 in Hsinchu Science Park, a multi-story industrial building connected to Guangfu Road and one of the representative fabs from TSMC's 1990s expansion](/article-images/technology/tsmc-fab5-hsinchu-2010.jpg)
+![Exterior of TSMC Fab 5 in Hsinchu Science Park, a multi-story industrial building connected to Guangfu Road and one of the representative fabs from TSMC's 1990s expansion](/article-images/technology/tsmc-fab5-hsinchu-2010.webp)
 _TSMC Fab 5 in Hsinchu Science Park, 2010. Photo: Peellden. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:TSMC_Fab5.JPG)._
 
 The story begins earlier. In 1973, ITRI spent US$4.5 million to acquire integrated circuit technology from the American company RCA and sent nineteen engineers to the United States for training[^5]. No one at the time imagined that this "tuition" would become the first cornerstone of Taiwan's semiconductor kingdom. In 1980, ITRI transferred technology to establish United Microelectronics Corporation, giving Taiwan its first semiconductor company. But K.T. Li was not satisfied: UMC was too small, its technology lagged international standards, and Taiwan needed a larger breakthrough.
@@ -147,7 +147,7 @@ The next stages are SoIC, System on Integrated Chips, and SoW-X, System on Wafer
 
 ## ALD: Growing Atom by Atom
 
-![Several silicon wafer samples of different sizes displayed side by side in a museum case, the largest about 12 inches in diameter, their mirror-like reflections showing the core raw material of semiconductor manufacturing](/article-images/technology/silicon-wafers-museum-2017.jpg)
+![Several silicon wafer samples of different sizes displayed side by side in a museum case, the largest about 12 inches in diameter, their mirror-like reflections showing the core raw material of semiconductor manufacturing](/article-images/technology/silicon-wafers-museum-2017.webp)
 _Silicon wafer sample display, 2017. Photo: ArticCynda. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Silicon_wafers.jpg)._
 
 3 nanometers, 2 nanometers, 1.6 nanometers. Behind these numbers is a quiet but crucial manufacturing technology: atomic layer deposition, or ALD.

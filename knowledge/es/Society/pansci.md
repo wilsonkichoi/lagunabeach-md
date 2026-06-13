@@ -59,7 +59,7 @@ En 2014, Cheng Kuo-wei ofreció otro conjunto de cifras tempranas: durante el pr
 
 Estas cifras muestran que la sociedad taiwanesa sí tenía demanda de lectura científica, solo que esa demanda no necesariamente se parecía a los libros de texto escolares ni a los artículos académicos. La grieta que PanSci encontró fue convertir la ciencia de “respuesta” en “método de discusión”.
 
-![Banner de la página de inicio oficial de PanSci, con una imagen principal de un cerebro y el eslogan “Make our science PanScience”, junto a ilustraciones de equipo de laboratorio y libros](/article-images/society/pansci-banner-2024.jpg)
+![Banner de la página de inicio oficial de PanSci, con una imagen principal de un cerebro y el eslogan “Make our science PanScience”, junto a ilustraciones de equipo de laboratorio y libros](/article-images/society/pansci-banner-2024.webp)
 _Banner de la página de inicio oficial de PanSci. El eslogan “Make our science PanScience” condensa en una palabra la proposición central de su fundación en 2011: “Pan” como de todos, transdisciplinario, abrir la ciencia para que cualquiera pueda entrar. Fair use editorial commentary on PanSci's brand identity._
 
 La página oficial “Sobre nosotros” formula su misión de manera directa: PanSci invita a investigadores, educadores, aficionados y personas afectadas por la ciencia a conversar conjuntamente sobre ciencia, devolver el desarrollo científico al foro público taiwanés y pensar racionalmente las dimensiones científicas de los asuntos sociales. [^about]
@@ -154,7 +154,7 @@ Esto también conecta a PanSci con la [industria y cultura de los YouTubers taiw
 
 ## Del sitio web a la industria del conocimiento
 
-![Logotipo de PanSci: letras negras PanSci con una línea ondulada morada y el texto “Be curious about everything!” debajo](/article-images/society/pansci-logo-2024.png)
+![Logotipo de PanSci: letras negras PanSci con una línea ondulada morada y el texto “Be curious about everything!” debajo](/article-images/society/pansci-logo-2024.webp)
 _Logotipo de PanSci, versión 2024. El eslogan “Be curious about everything!” corresponde a su proceso de crecimiento desde “sitio de divulgación científica” hasta “cadena de suministro de contenidos de conocimiento”. Fair use editorial commentary on PanSci's brand identity._
 
 La empresa matriz de PanSci, Pan Knowledge, se ha parecido cada vez más a un proveedor de servicios para la industria del conocimiento.

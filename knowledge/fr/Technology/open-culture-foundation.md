@@ -40,7 +40,7 @@ Vous n'avez probablement jamais entendu ce nom, mais vous avez très probablemen
 
 ## Un reçu de colloque impossible à faire rembourser
 
-![Rue de Taipei pendant le Mouvement tournesol, foule rassemblée autour du Yuan législatif, banderoles de protestation, atmosphère d'un lieu de mobilisation.](/article-images/technology/ocf-sunflower-movement-2014.jpg)
+![Rue de Taipei pendant le Mouvement tournesol, foule rassemblée autour du Yuan législatif, banderoles de protestation, atmosphère d'un lieu de mobilisation.](/article-images/technology/ocf-sunflower-movement-2014.webp)
 _Rues de Taipei pendant le Mouvement tournesol en 2014. g0v a mis en place une diffusion en direct citoyenne pendant ce mouvement, portant l'énergie du « bricolage de la sphère publique par soi-même » à son apogée. C'est dans cette énergie que l'OCF est né. Photo : Jesse Steele, CC BY 2.0 (source complète en fin d'article)._
 
 Le point de départ n'a rien de romantique.
@@ -64,7 +64,7 @@ _clkao prononce le « rapport sur l'état de g0v » à COSCUP 2014, expliquant d
 
 ## Émettre des facteurs pour « personne »
 
-![Groupe de personnes assises autour d'une longue table en collaboration, ordinateurs et écrans allumés. Scène intérieure du 13ᵉ hackathon g0v en 2015, participants répartis en groupes sur des projets de technologie civique.](/article-images/technology/ocf-g0v-hackathon-2015.jpg)
+![Groupe de personnes assises autour d'une longue table en collaboration, ordinateurs et écrans allumés. Scène intérieure du 13ᵉ hackathon g0v en 2015, participants répartis en groupes sur des projets de technologie civique.](/article-images/technology/ocf-g0v-hackathon-2015.webp)
 _Le 13ᵉ hackathon g0v en 2015. Les hackers peuvent produire un projet en un week-end, mais la comptabilité, les contrats et les assurances sociales derrière le projet doivent être pris en charge par quelqu'un — c'est la partie que l'OCF a reprise. Photo : g0v.tw 零時政府, CC BY 2.0 (source complète en fin d'article)._
 
 Ce que l'OCF fait réellement, formulé crûnement, n'a rien de glamour : ouvrir des comptes, encaisser, rapprocher les comptes, émettre des reçus, suivre les procédures, demander des subventions, gérer toutes les tâches administratives d'un événement de A à Z[^7]. Une communauté qui veut organiser un événement, recevoir des dons, mais ne pas créer sa propre structure ni assumer les coûts de personnel à plein temps peut confier à l'OCF ces tâches de back-end à rendre fou. Le président Li Bo-feng a résumé cela en une phrase juste : « Ce sont des petites petites choses, mais accumulées, elles deviennent nombreuses et complexes. »[^8] L'essence de l'administration de back-end tient dans cette phrase. Aucune tâche prise isolément n'est importante, mais empilées, elles peuvent écraser une équipe de bénévoles qui ne veut que coder.
@@ -80,7 +80,7 @@ Pour cette raison, l'OCF ne revendique jamais la paternité de la carte des masq
 
 ## D'une maison à un château roulant
 
-![Espace de réunion lumineux où des dizaines de personnes sont assises à des tables alignées participant à un atelier. Quelqu'un présente à l'avant. Scène du Kickoff de la bourse de technologie civique g0v en 2017.](/article-images/technology/ocf-g0v-civictech-grant-2017.jpg)
+![Espace de réunion lumineux où des dizaines de personnes sont assises à des tables alignées participant à un atelier. Quelqu'un présente à l'avant. Scène du Kickoff de la bourse de technologie civique g0v en 2017.](/article-images/technology/ocf-g0v-civictech-grant-2017.webp)
 _Atelier Kickoff de la bourse de technologie civique g0v en 2017. Quand une communauté veut amplifier un projet, elle a besoin d'un back-end capable de gérer l'argent, d'organiser des événements et d'interagir avec l'extérieur — c'est précisément le rôle dans lequel l'OCF s'est développé. Photo : Kirby Wu, CC BY-SA 2.0 (source complète en fin d'article)._
 
 Le premier employé de l'OCF a été Li Hsin-ying (Singing), que la communauté appelle ainsi, et qui est aujourd'hui la directrice générale[^11]. Partant d'elle seule, installée au 4ᵉ étage du 94, section 1, rue Bade à Taipei — un espace que la communauté surnomme « Bade 94 » (八德九四) —, dix ans plus tard, l'équipe est passée à 19 employés à plein temps, et les communautés open source soutenues sont passées de 4 à plus de quarante[^1].
@@ -99,7 +99,7 @@ Et une phrase du directeur Li Ming-zhe (Izero) résume cette trajectoire de croi
 
 ## Celui qui tenait les comptes a aussi appris à parler pour tout le monde
 
-![Portrait d'Audrey Tang, lunettes à monture fine, cheveux courts, sourire léger, fond clair uni.](/article-images/technology/ocf-audrey-tang-2016.jpg)
+![Portrait d'Audrey Tang, lunettes à monture fine, cheveux courts, sourire léger, fond clair uni.](/article-images/technology/ocf-audrey-tang-2016.webp)
 _Audrey Tang : de participante g0v à première ministre du Développement numérique de Taïwan. L'OCF a interagi à plusieurs reprises avec le ministère sous sa direction, tant en collaboration qu'en vigilance. Photo : Audrey Tang, domaine public CC0 (source complète en fin d'article)._
 
 Imaginez quelqu'un dans un quartier qui fait les courses pour tout le monde. Il aide les habitants à apposer des sceaux, gère les paperasses, mais à force, il finit aussi, lors des réunions en mairie, à parler pour toute la rue. La transformation de l'OCF suit à peu près ce chemin. Quand elle a maîtrisé la comptabilité, le juridique et le personnel, elle s'est retrouvée dans une position singulière : elle connaissait toutes les communautés, comprenait la technologie, et avait le statut formel pour interagir avec le gouvernement et les entreprises. Elle a alors commencé à faire autre chose que de la comptabilité : veiller, au nom des communautés, sur les questions publiques liées à l'« ouverture » et à la « liberté ».

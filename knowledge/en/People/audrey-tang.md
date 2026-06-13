@@ -138,7 +138,7 @@ She assembled a 20-person team called PDIS, the Public Digital Innovation Space.
 
 In 2019, she was selected for Foreign Policy’s Top 100 Global Thinkers, in the readers’ choice category[^27]. Media described her as “the world’s only openly transgender minister” and a “programming star.” In every interview, she pushed the credit back outward. But the story of the “genius minister” was easier to retell than the words she actually said.
 
-![Audrey Tang speaking at the re:publica digital society conference in Berlin in May 2019](/article-images/people/audrey-tang-re-publica-2019.jpg)
+![Audrey Tang speaking at the re:publica digital society conference in Berlin in May 2019](/article-images/people/audrey-tang-re-publica-2019.webp)
 _At the “Digital Social Innovation” session at the re:publica digital society conference in Berlin on May 8, 2019, Audrey Tang appeared on stage with Julia Kloiber. Photo: Jan Michalko. [CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Re_publica_19_-_Day_3_(32860400897).jpg).\_
 
 ## Conservative Anarchism: Refusing to Command, and Refusing to Be Commanded

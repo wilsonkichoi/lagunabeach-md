@@ -74,7 +74,7 @@ He stayed in Paris. But with his idol gone, what was he to learn? How was he to 
 
 He was twenty-six that year. He did not imagine that this departure from Taiwan would last forty-five years.
 
-![Detail of the west facade of Notre-Dame de Paris, 2017. In the summer of 1982, Paul Chiang returned from New York to Paris and painted in a window-sealed attic studio above a cinema in the Latin Quarter, creating the “Notre-Dame de Paris” series that became a turning point in his career](/article-images/art/jiang-chien-notre-dame-paris-2017.jpg)
+![Detail of the west facade of Notre-Dame de Paris, 2017. In the summer of 1982, Paul Chiang returned from New York to Paris and painted in a window-sealed attic studio above a cinema in the Latin Quarter, creating the “Notre-Dame de Paris” series that became a turning point in his career](/article-images/art/jiang-chien-notre-dame-paris-2017.webp)
 
 _Detail of the west facade of Notre-Dame de Paris, 2017. In the summer of 1982, Paul Chiang returned from New York to Paris and painted in a window-sealed attic studio above a cinema in the Latin Quarter, creating the “Notre-Dame de Paris” series that became a turning point in his career. Photo: Fernando Losada Rodríguez, CC BY-SA 4.0 via Wikimedia Commons._
 
@@ -129,7 +129,7 @@ The “Centennial Temple” series grew out of that leaking empty apartment on J
 
 Like “Notre-Dame de Paris,” the images are set against a somber black ground, but within the black there is something more. Several rays of bronze-gold light emerge from the depths of the canvas. They are the colors that slowly grow on temple columns touched by countless hands, smoked by incense for hundreds of years, and lit by sunlight slanting in from a courtyard skylight[^20].
 
-![One work from Paul Chiang’s “Centennial Temple” series, 1998](/article-images/art/jiang-chien-baiNianMiao-1998.jpg)
+![One work from Paul Chiang’s “Centennial Temple” series, 1998](/article-images/art/jiang-chien-baiNianMiao-1998.webp)
 _One work from Paul Chiang’s “Centennial Temple” series, 1998. Source: [Paul Chiang official artist website](https://www.paulchiang.org/works) Paris Notre-Dame / Centennial Temple period portfolio. Fair use editorial commentary._
 
 In March 1997, Chiang held a solo exhibition at Eslite Gallery in Taipei. The exhibition subtitle read: “His first solo exhibition in Taiwan after thirty years away.”[^21]
@@ -159,7 +159,7 @@ From Paris, New York, and Taipei to Jinzun in Taitung, this was his fourth studi
 
 It was also the first studio in which he did not seal the windows.
 
-![A view of the Pacific Ocean from Provincial Highway 11 in Donghe Township, Taitung County, 2018. In 2007, Paul Chiang and his wife found the Jinzun hillside beside this road; in 2008, they settled there and have lived there since](/article-images/art/jiang-chien-donghe-coast-2018.jpg)
+![A view of the Pacific Ocean from Provincial Highway 11 in Donghe Township, Taitung County, 2018. In 2007, Paul Chiang and his wife found the Jinzun hillside beside this road; in 2008, they settled there and have lived there since](/article-images/art/jiang-chien-donghe-coast-2018.webp)
 
 _A view of the Pacific Ocean from Provincial Highway 11 in Donghe Township, Taitung County, 2018. In 2007, Paul Chiang and his wife found the Jinzun hillside beside this road; in 2008, they settled there and have lived there since. Photo: Aa7778273, CC BY-SA 4.0 via Wikimedia Commons._
 
@@ -172,10 +172,10 @@ _A view of the Pacific Ocean from Provincial Highway 11 in Donghe Township, Tait
 
 After 2008, series such as “Pisirian Dreams,” “On Wings of Song,” “Jinzun,” and “Silver Lake” emerged one after another[^27]. Blue, yellow, orange, and pink began appearing in the images. The paintings began to contain sea, song, and dream[^27]. “The colors I use, the scale of the works, and the degree of freedom all came only after I moved to Taitung.”[^28]
 
-![One work from Paul Chiang’s “Pisirian Dreams” series, 2010](/article-images/art/jiang-chien-bisirian-2010.jpg)
+![One work from Paul Chiang’s “Pisirian Dreams” series, 2010](/article-images/art/jiang-chien-bisirian-2010.webp)
 _One work from Paul Chiang’s “Pisirian Dreams” series, 2010. Pisirian is the old Amis name for the coast beside the Jinzun studio. Source: [Paul Chiang official artist website](https://www.paulchiang.org/works) Pisirian Dreams period portfolio. Fair use editorial commentary._
 
-![One work from Paul Chiang’s “Silver Lake” series, 2008](/article-images/art/jiang-chien-silver-lake-2008.jpg)
+![One work from Paul Chiang’s “Silver Lake” series, 2008](/article-images/art/jiang-chien-silver-lake-2008.webp)
 _One work from Paul Chiang’s “Silver Lake” series, 2008. Source: [Paul Chiang official artist website](https://www.paulchiang.org/works) Silver Lake period portfolio. Fair use editorial commentary._
 
 His daily life became this:
@@ -235,7 +235,7 @@ On March 15, 2025, the Paul Chiang Art Center officially opened to the public[^4
 
 That day, Chiang was eighty-three.
 
-![Paul Chiang’s “Purification Night” installation work — a cubic structure of interwoven steel rods like thorns suspended in a darkened room, light cast from above](/article-images/art/jiang-chien-jinzun-purification-night.jpg)
+![Paul Chiang’s “Purification Night” installation work — a cubic structure of interwoven steel rods like thorns suspended in a darkened room, light cast from above](/article-images/art/jiang-chien-jinzun-purification-night.webp)
 _Paul Chiang’s “Purification Night” installation work. Source: [Paul Chiang official artist website](https://www.paulchiang.org/works) Jinzun / Purification Night portfolio. Fair use editorial commentary._
 
 ## At eighty-three, what he opened was not only a window

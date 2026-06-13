@@ -18,7 +18,7 @@ featured: false
 lastVerified: '2026-06-06'
 lastHumanReview: false
 viewpoint_formed: true
-image: '/article-images/society/taipei-skyline-housing-2026.jpg'
+image: '/article-images/society/taipei-skyline-housing-2026.webp'
 imageCredit: 'Heeheemalu'
 imageLicense: 'CC BY-SA 4.0'
 imageSource: 'https://commons.wikimedia.org/wiki/File:20260204_Taipei,_Taiwan_Skyline.jpg'
@@ -94,7 +94,7 @@ En 1982 la ley tuvo una gran reforma y pasó de una decena de artículos a 45. E
 
 Si hubo algo que en 1982 sí alteró la naturaleza del sistema, fue que de paso abrió la puerta a otro grupo. Para promover las ventas, la vivienda nacional empezó a aceptar solicitudes de militares, funcionarios públicos y docentes. Así apareció un giro irónico: las “familias de menores ingresos” que el texto original decía proteger terminaron, en la distribución real, quedando atrás, mientras que el personal militar, público y docente, con ingresos más estables y más capacidad para pagar el inicial, se volvió el grupo principal. La entrada a la vivienda barata se desplazó en silencio desde quienes más la necesitaban hacia quienes todavía podían arreglárselas.
 
-![Conjunto denso de edificios residenciales de departamentos a lo largo de Wenlin Road, distrito de Shilin, Taipéi, con construcciones nuevas y antiguas muy próximas entre sí](/article-images/society/shilin-apartments-2022.jpg)
+![Conjunto denso de edificios residenciales de departamentos a lo largo de Wenlin Road, distrito de Shilin, Taipéi, con construcciones nuevas y antiguas muy próximas entre sí](/article-images/society/shilin-apartments-2022.webp)
 _La textura residencial de alta densidad de Taipéi. Las viviendas construidas en la generación de la vivienda nacional suelen estar incrustadas en manzanas como estas, y más tarde se revalorizaron junto con su ubicación. Photo: 迷惘的人生, CC BY-SA 2.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Apartment_buildings_in_Shilin,_Taipei_20220705.jpg)._
 
 ¿Por qué, entonces, tanta gente quería ganar el sorteo de una vivienda nacional? Porque el precio de distribución estaba, desde el inicio, por debajo del precio de mercado. Ganar una unidad era casi como ganar la lotería: en el momento de recibir las llaves, uno ya tenía en la mano una diferencia de precio de alrededor de 30% por debajo del mercado, convertible en efectivo al revender.[^6] Ese ambiente de “ganar el sorteo es como ganar la lotería” no era, en sí mismo, un error. Era precisamente lo que debía ser la justicia habitacional: permitir que quienes no podían comprar, mediante suerte y elegibilidad, también pudieran entrar.
@@ -176,7 +176,7 @@ La valorización queda casi por completo en manos individuales | La valorizació
 El stock público se pierde de una sola vez | La cesión pública puede recuperarse
 ```
 
-![Hoi Fu Court, en To Kwa Wan, Hong Kong, conjunto de viviendas subsidiadas de venta “Home Ownership Scheme”, con varias torres residenciales altas alineadas](/article-images/society/hongkong-hoifu-court-hos-2008.jpg)
+![Hoi Fu Court, en To Kwa Wan, Hong Kong, conjunto de viviendas subsidiadas de venta “Home Ownership Scheme”, con varias torres residenciales altas alineadas](/article-images/society/hongkong-hoifu-court-hos-2008.webp)
 _El “Home Ownership Scheme” Hoi Fu Court de Hong Kong. El gobierno de Hong Kong vende estas viviendas a hogares de ingresos bajos y medios a un 60%-70% del precio de mercado, pero instaló una compuerta que la vivienda nacional taiwanesa no tenía: la prima de suelo. Photo: Thomasman, CC BY-SA 3.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hoi_Fu_Court-Hoi_Wen_House_and_Hoi_Lam_House.JPG)._
 
 Si Hong Kong es la tarea que Taiwán debió copiar y no copió, Reino Unido es un espejo más cruel.
@@ -185,12 +185,12 @@ En 1980, el gobierno de Margaret Thatcher lanzó el “Right to Buy”, que perm
 
 > ✦ "The equity given away through the discount is worth £194 billion…" (Solo el patrimonio cedido mediante el descuento vale 194.000 millones de libras esterlinas.) — think tank Common Wealth
 
-![Vivienda pública municipal Brookfield Estate, en St Pancras, Londres, conjunto residencial de ladrillo rojo construido en la década de 1920, con edificios de varios pisos alineados](/article-images/society/london-brookfield-council-estate.jpg)
+![Vivienda pública municipal Brookfield Estate, en St Pancras, Londres, conjunto residencial de ladrillo rojo construido en la década de 1920, con edificios de varios pisos alineados](/article-images/society/london-brookfield-council-estate.webp)
 _Vivienda pública municipal de Londres. El “Right to Buy” de Thatcher en 1980 vendió este tipo de vivienda pública a sus inquilinos con descuento; cuarenta años después, la proporción de vivienda social británica se redujo a la mitad, hasta quedar en 16%. Photo: Reading Tom, CC BY 2.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Brookfield_Estate_(49445902922).jpg).\_
 
 La consecuencia posterior fue aún más irónica: el 41% de las viviendas públicas vendidas entonces se han convertido hoy en arriendos privados más caros.[^13] El gobierno vendió casas con descuento a los inquilinos, y esos inquilinos —o los siguientes dueños— volvieron a arrendarlas a otros por rentas más altas. El subsidio público dio una vuelta completa y terminó elevando el precio del mercado de arriendo. Ese “ascensor que retiró la escalera” de la vivienda nacional taiwanesa tuvo en Reino Unido una versión multiplicada por un millón.
 
-![Bloques HDB en el distrito Lavender de Singapur, vivienda pública típica en torres altas, con fachadas de colores vivos](/article-images/society/singapore-hdb-lavender-2014.jpg)
+![Bloques HDB en el distrito Lavender de Singapur, vivienda pública típica en torres altas, con fachadas de colores vivos](/article-images/society/singapore-hdb-lavender-2014.webp)
 _Bloques HDB de Singapur, donde vive alrededor del 80% de la población. El gobierno construye para “vender” con contratos de 99 años; aunque fija un periodo mínimo de ocupación, tampoco ha logrado impedir la privatización de la valorización de esos bloques. Photo: Martinpasquier, CC BY-SA 4.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lavender_district_HDB_flats_in_Singapore.JPG)._
 
 Incluso Singapur, tan citado como ejemplo positivo, no ha logrado contenerlo del todo. El gobierno singapurense construye y “vende” a la población bloques HDB con contratos de 99 años; alrededor del 80% de la ciudadanía vive en ellos, y el sistema parece un modelo de “vivienda para quien la habita”. Pero aunque fija un periodo mínimo de residencia y cargos adicionales de reventa, no ha podido frenar la privatización de la valorización de los HDB. El académico Chua Beng Huat lo señaló directamente: este subsidio público, pensado originalmente para reducir desigualdades, en la práctica profundizó la brecha de riqueza entre generaciones. Quienes compraron temprano acumularon activos gracias a la valorización de los HDB; las generaciones tardías necesitan precios más altos para poder comprar. A ese ciclo de comprar y vender HDB, en Singapur se le da una expresión muy gráfica: “two bites of the cherry”, morder la cereza dos veces.[^14]
@@ -237,7 +237,7 @@ Tras retirarle el enchufe a la vivienda nacional, la justicia habitacional de Ta
 
 La base legal de ese camino es la Ley de Vivienda, promulgada en 2011 y vigente desde fines de 2012. Su artículo 3, inciso 2, define la vivienda social con mucha precisión: “vivienda social: viviendas y sus instalaciones accesorias necesarias promovidas por el gobierno o por privados incentivados por el gobierno, **destinadas exclusivamente al arriendo**”.[^19] Esas cuatro palabras, “exclusivamente al arriendo”, sellaron desde el nivel de la ley central la vía de “solo arriendo, no venta”. Vender quedó excluido de la vivienda social.
 
-![Vista frontal de la vivienda social Minglun, en el distrito de Datong, Taipéi, edificio público moderno de varios pisos con torres de fachada ordenada en tonos beige](/article-images/society/minglun-social-housing-2023.jpg)
+![Vista frontal de la vivienda social Minglun, en el distrito de Datong, Taipéi, edificio público moderno de varios pisos con torres de fachada ordenada en tonos beige](/article-images/society/minglun-social-housing-2023.webp)
 _Vivienda social Minglun, en Taipéi. Después de 2016, el eje de la justicia habitacional en Taiwán pasó a ser este tipo de vivienda social “solo en arriendo, no en venta”: el gobierno conserva la propiedad y arrienda, sin vender definitivamente a los residentes. Photo: Solomon203, CC BY-SA 4.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Minglun_Social_Housing_front_view_20230304.jpg)._
 
 En 2016, el nuevo gobierno convirtió esta vía en política insignia: construir 200.000 viviendas sociales en ocho años, con una doble pista de construcción directa y arriendo con gestión delegada. La historia posterior —cómo se construyen esas 200.000 unidades, cómo funciona el arriendo con gestión delegada, cómo el diseño de convivencia mixta intenta evitar que la vivienda social sea estigmatizada— es tema de otro artículo. Aquí solo hace falta recordar una cosa: **en 2015 se cerró el telón de la vivienda nacional; en 2016 la vivienda social tomó la posta, y el tema dominante de la justicia habitacional en Taiwán pasó de “ayudarte a poder comprar” a “ayudarte a poder arrendar”.** (Para saber cómo avanza esa vía de solo arriendo y qué resultados ha tenido, véase el artículo hermano “Vivienda social y justicia habitacional”.)
@@ -258,7 +258,7 @@ Después de diez años en que “solo arriendo, no venta” fue la melodía domi
 
 El 29 de mayo de 2026, el Concejo Municipal de Taoyuan aprobó en tercera lectura y de forma transversal entre partidos la Ordenanza Autónoma de Promoción y Gestión de Vivienda Asequible de la Ciudad de Taoyuan, enviada en junio al Yuan Ejecutivo para su aprobación.[^23] Esta “vivienda asequible” es, en su estructura, una resurrección de la vivienda nacional: el gobierno construye casas y las vende a la población a alrededor de 50%-60% del precio de mercado —en el rango de los 200.000 dólares taiwaneses por ping—, enfocadas en familias de 25 a 44 años con matrimonio e hijos, registradas en la ciudad desde hace al menos un año y sin vivienda propia a su nombre. La primera tanda contempla unas 107 unidades, ubicadas cerca de las estaciones A18 y A20 del Metro del Aeropuerto, con el objetivo de construir 3.000 unidades en tres o cuatro años.[^23]
 
-![Vista de la silueta urbana del distrito Qingpu desde el andén de la estación del tren de alta velocidad y metro de Taoyuan, con torres y centros comerciales de una zona de redesarrollo emergente](/article-images/society/taoyuan-qingpu-skyline-2023.jpg)
+![Vista de la silueta urbana del distrito Qingpu desde el andén de la estación del tren de alta velocidad y metro de Taoyuan, con torres y centros comerciales de una zona de redesarrollo emergente](/article-images/society/taoyuan-qingpu-skyline-2023.webp)
 _Distrito Qingpu de Taoyuan, zona emergente de redesarrollo alrededor de las estaciones A18 y A20 del Metro del Aeropuerto. La primera tanda de viviendas asequibles de Taoyuan se ubicará en esta área de estaciones. Photo: Heeheemalu, CC BY-SA 4.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Taoyuan_Skyline_20230903.jpg)._
 
 Pero esta vez Taoyuan hizo algo que la vivienda nacional no hizo en cincuenta años. Volvió a instalar la compuerta.
@@ -286,7 +286,7 @@ _Programa oficial de CommonWealth Magazine: por qué se encogió drásticamente 
 
 Esta vez el Yuan Ejecutivo no rechazó de plano la propuesta. La actitud del primer ministro Cho Jung-tai se suavizó claramente: no negó el enfoque de Taoyuan y solo expresó la esperanza de que “las políticas del gobierno central y local puedan alinearse”.[^27] Una vía política derogada hacía once años, con una justificación oficial ya escrita —“tasa de vivienda propia de 85%, misión cumplida”—, volvió a tocar la puerta del gobierno central desde las manos de un gobierno local.
 
-![Tramo central de la vivienda social Karl-Marx-Hof, en el distrito 19 de Viena, una hilera de fachadas monumentales rojas y amarillas de vivienda municipal de un kilómetro de largo](/article-images/society/vienna-karl-marx-hof.jpg)
+![Tramo central de la vivienda social Karl-Marx-Hof, en el distrito 19 de Viena, una hilera de fachadas monumentales rojas y amarillas de vivienda municipal de un kilómetro de largo](/article-images/society/vienna-karl-marx-hof.webp)
 _Karl-Marx-Hof, en Viena, terminado en 1933 y todavía en manos del gobierno municipal, solo en arriendo y no en venta. Si no vendes durante cien años, el stock permanece en manos públicas. Photo: C.Stadler/Bwag, CC BY-SA 4.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Döbling_(Wien)_-\_Karl-Marx-Hof_(2).JPG).\_
 
 Esta colisión entre centro y municipio discute, en el fondo, una pregunta que debió responderse hace cincuenta años y que siempre fue esquivada: ¿debe el gobierno ayudar a la gente a “poder comprar” o a “poder arrendar”?

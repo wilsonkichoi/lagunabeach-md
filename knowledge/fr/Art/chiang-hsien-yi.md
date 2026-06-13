@@ -74,7 +74,7 @@ Il reste à Paris, mais son idole n'est plus là. Qu'apprendre ? Comment apprend
 
 Il a alors vingt-six ans. Il ne sait pas encore que ce départ de Taïwan durera quarante-cinq ans.
 
-![Détail de la façade occidentale de Notre-Dame de Paris, 2017. À l'été 1982, Jiang Hsien-yi revient de New York à Paris ; dans un atelier mansardé situé au-dessus d'un cinéma du Quartier latin, il condamne les fenêtres et peint la série « Notre-Dame de Paris », tournant décisif de sa carrière de peintre](/article-images/art/jiang-chien-notre-dame-paris-2017.jpg)
+![Détail de la façade occidentale de Notre-Dame de Paris, 2017. À l'été 1982, Jiang Hsien-yi revient de New York à Paris ; dans un atelier mansardé situé au-dessus d'un cinéma du Quartier latin, il condamne les fenêtres et peint la série « Notre-Dame de Paris », tournant décisif de sa carrière de peintre](/article-images/art/jiang-chien-notre-dame-paris-2017.webp)
 
 _Détail de la façade occidentale de Notre-Dame de Paris, 2017. À l'été 1982, Jiang Hsien-yi revient de New York à Paris ; dans un atelier mansardé situé au-dessus d'un cinéma du Quartier latin, il condamne les fenêtres et peint la série « Notre-Dame de Paris », tournant décisif de sa carrière de peintre. Photo : Fernando Losada Rodríguez, CC BY-SA 4.0 via Wikimedia Commons._
 
@@ -129,7 +129,7 @@ La série « Temple centenaire » naît de cette maison vide et perméable à la
 
 Comme « Notre-Dame de Paris », les tableaux reposent sur un noir sombre, mais quelque chose s'est ajouté à ce noir. Quelques lumières couleur bronze et or émergent des profondeurs de l'image. C'est la couleur qui apparaît lentement lorsque les colonnes d'un temple ont été touchées par d'innombrables mains, enfumées par des siècles d'encens, et obliquement éclairées par la lumière du soleil depuis une cour intérieure[^20].
 
-![Une toile de la série « Temple centenaire » de Jiang Hsien-yi, 1998 — sur un fond noir sombre, quelques lumières couleur bronze et or émergent des profondeurs, la couleur lentement née des colonnes touchées par d'innombrables mains et enfumées par des siècles d'encens](/article-images/art/jiang-chien-baiNianMiao-1998.jpg)
+![Une toile de la série « Temple centenaire » de Jiang Hsien-yi, 1998 — sur un fond noir sombre, quelques lumières couleur bronze et or émergent des profondeurs, la couleur lentement née des colonnes touchées par d'innombrables mains et enfumées par des siècles d'encens](/article-images/art/jiang-chien-baiNianMiao-1998.webp)
 _Une toile de la série « Temple centenaire » de Jiang Hsien-yi, 1998. Source : [site officiel de l'artiste Jiang Hsien-yi](https://www.paulchiang.org/works), collection de la période Notre-Dame de Paris / Temple centenaire. Fair use editorial commentary._
 
 En mars 1997, Jiang Hsien-yi organise une exposition personnelle à la galerie Eslite de Taipei. Le sous-titre de l'exposition indique : « Première exposition personnelle à Taïwan après trente ans d'absence. »[^21]
@@ -159,7 +159,7 @@ De Paris, New York et Taipei à Jinzun, Taitung : c'est son quatrième atelier.
 
 C'est aussi le premier où il ne condamne pas les fenêtres.
 
-![Vue sur l'océan Pacifique depuis un tronçon de la route provinciale 11 dans le canton de Donghe, comté de Taitung, 2018. En 2007, Jiang Hsien-yi et son épouse trouvent sur le bord de cette route la colline de Jinzun ; ils s'y installent en 2008 et y vivent depuis](/article-images/art/jiang-chien-donghe-coast-2018.jpg)
+![Vue sur l'océan Pacifique depuis un tronçon de la route provinciale 11 dans le canton de Donghe, comté de Taitung, 2018. En 2007, Jiang Hsien-yi et son épouse trouvent sur le bord de cette route la colline de Jinzun ; ils s'y installent en 2008 et y vivent depuis](/article-images/art/jiang-chien-donghe-coast-2018.webp)
 
 _Vue sur l'océan Pacifique depuis un tronçon de la route provinciale 11 dans le canton de Donghe, comté de Taitung, 2018. En 2007, Jiang Hsien-yi et son épouse trouvent sur le bord de cette route la colline de Jinzun ; ils s'y installent en 2008 et y vivent depuis. Photo : Aa7778273, CC BY-SA 4.0 via Wikimedia Commons._
 
@@ -172,10 +172,10 @@ _Vue sur l'océan Pacifique depuis un tronçon de la route provinciale 11 dans l
 
 Après 2008, les séries « Le Rêve de Pisirian », « Sur les ailes du chant », « Jinzun », « Lac d'argent » apparaissent l'une après l'autre[^27]. Les tableaux se remplissent de bleu, de jaune, d'orange, de rose. La mer, le chant, le rêve entrent dans l'image[^27]. « Les couleurs que j'utilise, les dimensions des œuvres et leur degré de liberté, tout cela n'est apparu qu'après mon installation à Taitung. »[^28]
 
-![Une toile de la série « Le Rêve de Pisirian » de Jiang Hsien-yi, 2010 — des aplats de bleu, de rose et de jaune comme un matin sur le Pacifique, coexistant avec les pentes qu'on appelle « lieu où l'on garde les moutons » en langue amis](/article-images/art/jiang-chien-bisirian-2010.jpg)
+![Une toile de la série « Le Rêve de Pisirian » de Jiang Hsien-yi, 2010 — des aplats de bleu, de rose et de jaune comme un matin sur le Pacifique, coexistant avec les pentes qu'on appelle « lieu où l'on garde les moutons » en langue amis](/article-images/art/jiang-chien-bisirian-2010.webp)
 _Une toile de la série « Le Rêve de Pisirian » de Jiang Hsien-yi, 2010. Pisirian est le nom amis de la côte voisine de l'atelier de Jinzun. Source : [site officiel de l'artiste Jiang Hsien-yi](https://www.paulchiang.org/works), collection de la période Le Rêve de Pisirian. Fair use editorial commentary._
 
-![Une toile de la série « Lac d'argent » de Jiang Hsien-yi, 2008 — sur fond noir, un halo blanc comme la lumière de la lune sur l'eau d'un lac, comme la première note grave sol au piano de Gould](/article-images/art/jiang-chien-silver-lake-2008.jpg)
+![Une toile de la série « Lac d'argent » de Jiang Hsien-yi, 2008 — sur fond noir, un halo blanc comme la lumière de la lune sur l'eau d'un lac, comme la première note grave sol au piano de Gould](/article-images/art/jiang-chien-silver-lake-2008.webp)
 _Une toile de la série « Lac d'argent » de Jiang Hsien-yi, 2008. Source : [site officiel de l'artiste Jiang Hsien-yi](https://www.paulchiang.org/works), collection de la période Lac d'argent. Fair use editorial commentary._
 
 Son quotidien devient le suivant :
@@ -235,7 +235,7 @@ Le 15 mars 2025, le Parc artistique Jiang Hsien-yi ouvre officiellement au publi
 
 Ce jour-là, Jiang Hsien-yi a quatre-vingt-trois ans.
 
-![Œuvre d'installation « Nuit de purification » de Jiang Hsien-yi — une structure cubique de barres d'acier entrelacées comme des épines suspendue dans l'obscurité, la lumière tombant d'en haut](/article-images/art/jiang-chien-jinzun-purification-night.jpg)
+![Œuvre d'installation « Nuit de purification » de Jiang Hsien-yi — une structure cubique de barres d'acier entrelacées comme des épines suspendue dans l'obscurité, la lumière tombant d'en haut](/article-images/art/jiang-chien-jinzun-purification-night.webp)
 _Œuvre d'installation « Nuit de purification » de Jiang Hsien-yi. « Purification » et « lumière » sont l'un des thèmes centraux de l'exposition inaugurale « Lumière, beauté et purification » du Parc artistique Jiang Hsien-yi en 2025. Source : [site officiel de l'artiste Jiang Hsien-yi](https://www.paulchiang.org/works), collection Jinzun / Nuit de purification. Fair use editorial commentary._
 
 ## À quatre-vingt-trois ans, il n'ouvre pas seulement les fenêtres

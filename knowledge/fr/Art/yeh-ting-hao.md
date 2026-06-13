@@ -82,7 +82,7 @@ La plus ancienne trace est _Loop Me_, œuvre de 2009 de la chorégraphe Su Wen-C
 
 ### HH : le duo audiovisuel fondé en 2013, un album techno réalisé avec des tubes fluorescents
 
-![Une image fixe du documentaire sur l'œuvre en résidence 2023-2024 du National Taichung Theater, _Reverberation of the Phantasm_ : Yeh Ting-Hao règle dans la Playhouse les images temps réel et les haut-parleurs multicanaux, avec en arrière-plan l'espace architectural courbe d'une projection immersive](/article-images/art/yeh-ting-hao-reverberation-scene1-2024.jpg)
+![Une image fixe du documentaire sur l'œuvre en résidence 2023-2024 du National Taichung Theater, _Reverberation of the Phantasm_ : Yeh Ting-Hao règle dans la Playhouse les images temps réel et les haut-parleurs multicanaux, avec en arrière-plan l'espace architectural courbe d'une projection immersive](/article-images/art/yeh-ting-hao-reverberation-scene1-2024.webp)
 _Extrait du documentaire NTT 2024 sur l'œuvre en résidence \_Reverberation of the Phantasm_ : Yeh Ting-Hao règle sur place le système d'images temps réel. Attribution complète dans la section « Sources des images ».\_
 
 L'œuvre emblématique personnelle de Yeh Ting-Hao ne se trouve pas dans les compagnies de danse. Elle se trouve dans HH.
@@ -134,7 +134,7 @@ La dernière partie de la carrière de Yeh Ting-Hao se concentre autour de deux 
 
 En 2023-2024, Yeh Ting-Hao est sélectionné comme artiste en résidence du National Taichung Theater[^25]. Pendant plus d'un an de résidence, il développe et affine _Reverberation of the Phantasm_. L'œuvre est présentée sept fois du 31 août au 8 septembre 2024 dans la Playhouse du théâtre[^26]. La Playhouse est un espace de présentation atypique au sein de l'architecture courbe conçue par l'architecte Toyo Ito ; Yeh Ting-Hao y conçoit un « concert audiovisuel combinant projection immersive et dispositif de haut-parleurs multicanaux »[^26].
 
-![Extrait de _Reverberation of the Phantasm_ : projection immersive dans l'architecture courbe, son et lumière circulant sur les murs incurvés de la Playhouse, le public enveloppé simultanément par le son et l'image](/article-images/art/yeh-ting-hao-reverberation-scene2-2024.jpg)
+![Extrait de _Reverberation of the Phantasm_ : projection immersive dans l'architecture courbe, son et lumière circulant sur les murs incurvés de la Playhouse, le public enveloppé simultanément par le son et l'image](/article-images/art/yeh-ting-hao-reverberation-scene2-2024.webp)
 \__Reverberation of the Phantasm_ dans la Playhouse : concert audiovisuel à projection immersive et haut-parleurs multicanaux calculés en temps réel. Attribution complète dans la section « Sources des images ».\_
 
 Dans l'équipe de production, Yeh Ting-Hao est l'artiste principal. Le producteur lauréat d'un Golden Melody Award Cheng Ko-Chun, alias sonicdeadhorse, assure la production musicale, la programmation live, les synthétiseurs et la guitare ; il improvise en direct sur une base de musique électronique et génère les images en temps réel[^26]. Chen Pin-Chen prend en charge l'intégration et l'exécution techniques de l'image, un partenaire avec lequel Yeh Ting-Hao coanime TouchDesignerTW depuis sept ans. Le producteur Wu Po-Shan coordonne l'ensemble du projet[^26].

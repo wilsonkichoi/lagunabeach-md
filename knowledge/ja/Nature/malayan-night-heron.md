@@ -19,7 +19,7 @@ readingTime: 8
 featured: false
 lastVerified: '2026-04-30'
 lastHumanReview: false
-image: '/article-images/nature/malayan-night-heron-taipei-foraging-2010.jpg'
+image: '/article-images/nature/malayan-night-heron-taipei-foraging-2010.webp'
 imageCredit: 'Dr. Raju Kasambe'
 imageLicense: 'CC BY-SA 3.0'
 imageSource: 'https://commons.wikimedia.org/wiki/File:Malayan_Night_Heron_(Gorsachius_melanolophus),_Taipei_Taiwan.jpg'
@@ -51,7 +51,7 @@ date: 2026-04-30
 
 ## クスノキとガジュマル——5メートル高さの低地森林
 
-![高雄市内の緑地でうつむきながら採食するマレーゴイサギの横顔。嘴を下げ、首を前に傾け、周囲は刈り込まれた芝生](/article-images/nature/malayan-night-heron-kaohsiung-foraging-2026.jpg)
+![高雄市内の緑地でうつむきながら採食するマレーゴイサギの横顔。嘴を下げ、首を前に傾け、周囲は刈り込まれた芝生](/article-images/nature/malayan-night-heron-kaohsiung-foraging-2026.webp)
 _2026年3月、高雄市内の緑地でうつむきながら採食するマレーゴイサギ。台北から南台湾へ拡大し、30年かけて都市公園は餌の供給地となった。Photo: The Nature Box. [Public domain (CC0) via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Malayan_night_heron_foraging_Kaohsiung_Taiwan_2026-03-28_0846.jpg)._
 
 マレーゴイサギが必要とするのは二つだ。巣を作れる高い木の冠と、うつむきながら採食できる開けた林床。台北の主要公園（大安森林公園、中正紀念堂、青年公園、台湾大学、二二八公園）での繁殖期調査を総合すると、マレーゴイサギの巣の位置は水平に近い角度の幹の分岐部を好み、樹冠被覆率は7割以上が多い。[^6] 袁孝維の台湾大学調査ではガジュマルが筆頭の巣木で、木と芝生の比率が活動域選択の鍵——密度が高すぎても低すぎても不適切だと強調している。[^7]

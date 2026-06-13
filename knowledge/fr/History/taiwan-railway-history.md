@@ -104,7 +104,7 @@ Le ministère de la Culture a inscrit le chemin de fer forestier d’Alishan par
 
 ## Les heitou-á et les lignées de noms
 
-![Les locomotives à vapeur des chemins de fer taïwanais conservées au dépôt circulaire de Changhua, photographiées en 2009 : carrosseries noires, cheminées et cabines alignées, origine visuelle du terme « heitou-á »](/article-images/history/tra-changhua-roundhouse-steam-2009.jpg)
+![Les locomotives à vapeur des chemins de fer taïwanais conservées au dépôt circulaire de Changhua, photographiées en 2009 : carrosseries noires, cheminées et cabines alignées, origine visuelle du terme « heitou-á »](/article-images/history/tra-changhua-roundhouse-steam-2009.webp)
 _Les locomotives à vapeur des chemins de fer taïwanais conservées en 2009 au dépôt circulaire de Changhua. Photo : Neeson Hsu. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2009-08-30_Steam_locomotives_at_TRA_Changhua_Roundhouse.jpg)._
 
 Sur les rails laissés par les ingénieurs étrangers circulait un autre groupe de choses. De la fin de la période coloniale japonaise à l’après-guerre, les trains de Taïwan avaient leurs propres noms en taïwanais.
@@ -178,7 +178,7 @@ Le 1er janvier 2024, l’Administration des chemins de fer de Taïwan du minist�
 
 ## Le système nerveux d’une île
 
-![Train spécial de remise en service en 2021 : la locomotive à vapeur DT668 poussée par la locomotive électrique E327 sur la ligne côtière, exemple contemporain de conservation dynamique d’un modèle équivalent à la D51 de la fin de la période japonaise](/article-images/history/tra-dt668-coast-line-2021.jpg)
+![Train spécial de remise en service en 2021 : la locomotive à vapeur DT668 poussée par la locomotive électrique E327 sur la ligne côtière, exemple contemporain de conservation dynamique d’un modèle équivalent à la D51 de la fin de la période japonaise](/article-images/history/tra-dt668-coast-line-2021.webp)
 _En 2021, la DT668 poussée par la E327 circule sur la ligne côtière des chemins de fer taïwanais, exemple contemporain de conservation dynamique d’un modèle équivalent à la D51 de la fin de la période japonaise. Photo : Cheng-en Cheng. [CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2021-10-25_TRA_DT668_pulled_by_E327_on_the_Coast_Line.jpg)._
 
 La carte ferroviaire de Taïwan ressemble à un système nerveux : la ligne longitudinale occidentale en est la moelle épinière, le train à grande vitesse le couloir rapide qui la longe, les lignes de la boucle nord et de la boucle sud vers l’est sont les terminaisons nerveuses qui s’étendent vers Hualien et Taitung, et les lignes d’Alishan et de Pingxi sont les capillaires.

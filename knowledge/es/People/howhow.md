@@ -40,7 +40,7 @@ Después de que el video de la graduación se hiciera famoso, tomó una decisió
 
 ## Poner la palabra «patrocinado» bajo el sol
 
-![Howhow (Chen Tzu-hao) durante una entrevista en un programa de internet: lleva anteojos de marco negro y una camiseta oscura, gesticula bajo la luz del estudio con una expresión tímida](/article-images/people/howhow-webtvasia-interview-2016.jpg)
+![Howhow (Chen Tzu-hao) durante una entrevista en un programa de internet: lleva anteojos de marco negro y una camiseta oscura, gesticula bajo la luz del estudio con una expresión tímida](/article-images/people/howhow-webtvasia-interview-2016.webp)
 _Howhow habla en una entrevista sobre su creación y su método para el contenido patrocinado. El «rey del contenido patrocinado», que puso la publicidad a plena luz, es en privado un chico de Chengchi que se define como marginal. Photo: WebTVAsiaTaiwan. [CC BY 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:WebTVAsia%E3%80%90BIG_SHOT%E7%B6%B2%E8%B7%AF%E7%B4%85%E4%BA%BA%E8%AA%8C%E3%80%91%E5%B0%88%E8%A8%AA_x_HOWFUN_02.png)._
 
 En septiembre de 2015, el destino llamó a su puerta de una forma que ni él mismo podía explicar. Samsung iba a celebrar en el Lincoln Center de Nueva York el evento Unpacked del Galaxy Note 5 y, a través de la agencia publicitaria Leo Burnett, contactó a Howhow, que en ese momento todavía tenía menos de cien mil seguidores[^6]. Él recuerda que entonces «todavía pensé que querían contratarme como camarógrafo», porque «en ese momento mi número de suscriptores y de me gusta no era alto», y no entendía por qué lo habían elegido[^7]. Incluso guardó el contacto de Samsung en su teléfono con tres caracteres: «Gran benefactor»[^7].
@@ -80,7 +80,7 @@ La investigación académica vuelve esa contradicción aún más aguda. En 2021,
 
 Howhow pudo generar tanta resonancia con los usuarios de PTT en Taiwán porque llevó al video el lenguaje compartido de la generación de PTT de mediados de la década de 2010. _Gongjuren_ (el «útil», alguien usado por otros), marginal, «despierta, no tienes hermana menor»: él fue usuario y creador de esos memes. La imagen que interpretaba, la de un perdedor soltero al que nadie quería y que tenía que hacerlo todo solo, fue la proyección de incontables usuarios. En ese contexto, casi era el líder espiritual de la «alianza de los útiles».
 
-![La cantautora Teng Fu-ju (A-fu) sostiene una guitarra acústica en un escenario al aire libre y toca mirando hacia abajo bajo el sol](/article-images/people/teng-fu-ju-2011.jpg)
+![La cantautora Teng Fu-ju (A-fu) sostiene una guitarra acústica en un escenario al aire libre y toca mirando hacia abajo bajo el sol](/article-images/people/teng-fu-ju-2011.webp)
 _La cantautora Teng Fu-ju (A-fu), que registró su matrimonio con Howhow el Día de San Valentín de 2019. Photo: Onlymyself65536. [CC BY-SA 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E9%84%A7%E7%A6%8F%E5%A6%82.JPG)._
 
 Por eso, cuando se supo que el 14 de febrero de 2019, precisamente el Día de San Valentín, él y la cantante Teng Fu-ju habían registrado su matrimonio[^1], para los usuarios que seguían su personaje de «marginal» hubo una sutil sensación de «traición». El líder había dejado la soltería, y además en San Valentín. En 2021 tuvo un hijo, y en 2023 una hija, formando el carácter «好» (_hao_, «bien»), compuesto por «mujer» e «hijo»[^18]. Aquel hombre que actuaba solo frente a la cámara como perdedor soltero fue, en la vida real, construyendo una familia.

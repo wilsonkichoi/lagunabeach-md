@@ -26,7 +26,7 @@ sourceBodyHash: 'sha256:1999959e3ea909b4'
 translatedAt: '2026-05-24T05:06:33+08:00'
 ---
 
-![Yang Shuang-zi el 20 de noviembre de 2024, en la ceremonia de los National Book Awards en Nueva York, de pie junto al trofeo con una chaqueta oscura y gesto sereno](/article-images/art/taiwan-travelogue-yang-shuang-zi-nba-2024.jpg)
+![Yang Shuang-zi el 20 de noviembre de 2024, en la ceremonia de los National Book Awards en Nueva York, de pie junto al trofeo con una chaqueta oscura y gesto sereno](/article-images/art/taiwan-travelogue-yang-shuang-zi-nba-2024.webp)
 _20 de noviembre de 2024: Yang Shuang-zi recibe en Nueva York el premio de literatura traducida de la 75.ª edición de los National Book Awards. Photo: Bea Phi (Phibeatrice), [via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Yang_Shuang-zi_at_the_2024_National_Book_Awards.jpg), CC BY-SA 4.0._
 
 > **Panorama en 30 segundos:** 《Taiwan Travelogue》 es una novela de seudotraducción publicada en 2020 por Spring Hill: la cubierta dice “escrito por Aoyama Chizuko, traducido por Yang Shuang-zi”, pero Aoyama Chizuko no existe en absoluto, y Yang Shuang-zi es también un seudónimo compartido por dos personas: la hermana menor Yang Ruo-hui, fallecida cinco años antes, y la hermana mayor Yang Ruo-ci, aún viva. En noviembre de 2024, en Nueva York, obtuvo el premio de literatura traducida de los National Book Awards; en mayo de 2026, en la Tate Modern de Londres, el International Booker Prize. Fue la primera vez que la literatura taiwanesa subió a esos dos podios internacionales. El premio de 50.000 libras esterlinas se repartió entre Yang Ruo-ci y la traductora Lin King. Más importante que eso: la autora tradujo, con el nombre de su hermana menor, una novela japonesa inexistente, y convirtió la historia colonial en el relato de dos mujeres que comen 12 platos.
@@ -79,7 +79,7 @@ En otras palabras, en un libro cuya cubierta dice “traducido por Yang Shuang-z
 
 Cuando el libro se publicó, habían pasado cinco años desde la muerte de Yang Ruo-hui.
 
-![Yang Shuang-zi y la traductora Lin King en la ceremonia de los National Book Awards de 2024, de pie una junto a la otra con vestimenta formal](/article-images/art/taiwan-travelogue-yang-and-lin-king-nba-2024.jpg)
+![Yang Shuang-zi y la traductora Lin King en la ceremonia de los National Book Awards de 2024, de pie una junto a la otra con vestimenta formal](/article-images/art/taiwan-travelogue-yang-and-lin-king-nba-2024.webp)
 _20 de noviembre de 2024, ceremonia de los National Book Awards: Yang Shuang-zi (izquierda) y la traductora Lin King posan juntas. El 19 de diciembre de ese mismo año, ambas fueron recibidas en la Oficina Presidencial; en mayo de 2026 volvieron a compartir escenario al recibir el Booker. Photo: Jennifer 8. Lee (Jenny8lee), [via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Yang_Shuang-zi_and_Lin_King_at_the_National_Book_Awards_Ceremony_2024_02.jpg), CC BY-SA 4.0._
 
 ## Doce platos, de semillas de melón a hielo con frijoles dulces
@@ -144,7 +144,7 @@ Pero en una entrevista con U People dijo una frase que podría colocarse como no
 
 Los cuadernos de cuentas fueron el código que Yang Ruo-hui dejó a su hermana mayor. Ese libro fue el lugar que Yang Ruo-ci dejó para su hermana menor.
 
-![Yang Shuang-zi leyendo con concentración el 19 de noviembre de 2024, en la lectura de finalistas de los National Book Awards en Nueva York, con lentes y la mirada puesta en el texto](/article-images/art/taiwan-travelogue-yang-shuang-zi-nba-reading-2024.jpg)
+![Yang Shuang-zi leyendo con concentración el 19 de noviembre de 2024, en la lectura de finalistas de los National Book Awards en Nueva York, con lentes y la mirada puesta en el texto](/article-images/art/taiwan-travelogue-yang-shuang-zi-nba-reading-2024.webp)
 _19 de noviembre de 2024, lectura de finalistas de los National Book Awards: Yang Shuang-zi lee en Nueva York un fragmento en inglés de 《Taiwan Travelogue》. La noche siguiente obtuvo oficialmente el premio de literatura traducida. Photo: Bea Phi (Phibeatrice), [via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Y%C3%A1ng_Shu%C4%81ng-z%C7%90,_writer,_at_the_2024_National_Book_Awards_finalist_reading_3.jpg), CC BY-SA 4.0._
 
 **Lecturas relacionadas**:

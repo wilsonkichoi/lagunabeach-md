@@ -24,7 +24,7 @@ sourceBodyHash: 'sha256:94722ea3fb057b13'
 translatedAt: '2026-05-16T05:07:56+08:00'
 ---
 
-![Gua bao de Yuanfang Gua Bao, en la calle Huaxi: una masa semicircular doblada que envuelve panceta de cerdo estofada, hojas de mostaza encurtidas, maní molido y cilantro; uno de los gua bao tradicionales más representativos de Taipéi](/article-images/food/gua-bao-yuanfang-2023.jpg)
+![Gua bao de Yuanfang Gua Bao, en la calle Huaxi: una masa semicircular doblada que envuelve panceta de cerdo estofada, hojas de mostaza encurtidas, maní molido y cilantro; uno de los gua bao tradicionales más representativos de Taipéi](/article-images/food/gua-bao-yuanfang-2023.webp)
 _28 de abril de 2023, fotografía tomada por la Oficina Presidencial en Yuanfang Gua Bao, calle Huaxi, Wanhua, Taipéi. Photo: Wang Yu-ching / Oficina Presidencial de la República de China. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gua-bao_by_the_Yuan_Fang_Guabao_at_Huaxi_Street_2023-04-28_01.jpg)._
 
 > **Panorama en 30 segundos:** El gua bao —forma normativa del Ministerio de Educación: “割包”, tai-lo _kuah-pau_— deriva del “bollo hoja de loto” de Fuzhou, Fujian, y en Taiwán se lo conoce como “tigre que muerde al cerdo”[^1][^2]. El diario de 1927 del notable de Hsinchu Huang Wang-cheng conserva una mención a “comer tigre que muerde al cerdo en el weiya”[^3]. Sus ingredientes se estabilizaron en cuatro elementos: panceta de cerdo estofada, hojas de mostaza encurtidas, maní molido y cilantro. El weiya del día 16 del duodécimo mes lunar, cuando se agasaja a los trabajadores, es su anclaje cultural más profundo. Yuanfang, en la calle Huaxi, famoso desde 1955, y Lan Jia, en Gongguan, célebre desde 1992, recibieron ambos la recomendación Bib Gourmand de Michelin[^4][^5]. En 2013, Erchen Chang, nacida en Taipéi, instaló en Netil Market, al este de Londres, una caseta de seis asientos llamada BAO; cuando abrió su local en Soho en 2015, críticos gastronómicos veteranos del Reino Unido la señalaron de inmediato[^6]. CNN y Michelin lo proyectaron al mundo bajo el marco del “Taiwanese hamburger”. La misma masa doblada pasó de agasajo laboral en 1927 a mesa global en 2026.
@@ -95,7 +95,7 @@ Taipéi cuenta con al menos cuatro tiendas célebres de gua bao, pertenecientes 
 
 Incluso las tiendas de conveniencia se han sumado a esta ola. En 2019, 7-Eleven lanzó el “gua bao de salchicha” y el “bollo de carne asada al carbón”; “cuando se probaron regionalmente a fines de abril, cada mes vendieron más de 200.000 unidades”[^21]. De alimento ritual en la mesa de weiya a comida rápida en el estante de microondas de una tienda de conveniencia, el gua bao ya completó en Taiwán su penetración en todos los niveles de la restauración.
 
-![Primer plano de un gua bao con masa doblada, donde se distinguen capas de cerdo estofado, maní molido y cilantro dentro de la masa con forma de hoja de loto](/article-images/food/gua-bao-steamed-leoalmighty.jpg)
+![Primer plano de un gua bao con masa doblada, donde se distinguen capas de cerdo estofado, maní molido y cilantro dentro de la masa con forma de hoja de loto](/article-images/food/gua-bao-steamed-leoalmighty.webp)
 _La estructura de masa doblada del gua bao: una cubierta con forma de hoja de loto que envuelve los cuatro elementos de panceta estofada, hojas de mostaza encurtidas, maní molido y cilantro. Photo: LeoAlmighty. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Steamed_Sandwich,taken_by_LeoAlmighty.jpg)._
 
 ## El pan de pato laqueado de David Chang y la respuesta de Eddie Huang

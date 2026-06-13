@@ -631,9 +631,9 @@ IEEE Spectrum 2024 文章「AI in Taiwan: Nation's Goals Will Need More Tech Tal
 
 | # | 用途 | Source URL | 授權 | 攝影者 / 來源 | 拍攝期 | 本地 cache | 尺寸 | Aspect | check-aspect | Alt text |
 |---|------|-----------|------|---------------|--------|------------|------|--------|--------------|----------|
-| 1 | hero | https://aiacademy.tw/swc/portrait2.jpg | AIA 官方授權 / fair use editorial | AIA 官方 | 2018 | `/article-images/technology/taiwan-ai-academy-chen-shengwei-portrait-2018.jpg` | 841×617 | 1.36 | ✅ PASS (hero 0.9-2.0) | 陳昇瑋於台灣人工智慧學校公開演講中的官方人像，深色西裝、戴眼鏡、神情專注 |
-| 2 | inline 1 | https://aiacademy.tw/swc/portrait4.jpg | AIA 官方授權 | AIA 官方 | 2018-2019 | `/article-images/technology/taiwan-ai-academy-chen-shengwei-talk-2018.jpg` | 876×876 | 1.00 | ✅ PASS (inline 0.75-2.5) | 陳昇瑋執行長於 AIA 課堂或活動現場演講畫面，方形正面構圖 |
-| 3 | inline 2 | https://imgs.gvm.com.tw/upload/gallery/20200421/72282_02.jpg | 遠見雜誌 fair use editorial commentary（per Step 1.9.2 第 8 點，紀實肖像） | 張智傑攝 / 遠見雜誌 | 2020-04 之前 | `/article-images/technology/taiwan-ai-academy-chen-shengwei-gvm-2020.jpg` | 792×555 | 1.43 | ✅ PASS (inline 0.75-2.5) | 陳昇瑋 2020 年遠見雜誌專訪人像，眼神望向遠方，是過世前最後一批公開影像之一 |
+| 1 | hero | https://aiacademy.tw/swc/portrait2.jpg | AIA 官方授權 / fair use editorial | AIA 官方 | 2018 | `/article-images/technology/taiwan-ai-academy-chen-shengwei-portrait-2018.webp` | 841×617 | 1.36 | ✅ PASS (hero 0.9-2.0) | 陳昇瑋於台灣人工智慧學校公開演講中的官方人像，深色西裝、戴眼鏡、神情專注 |
+| 2 | inline 1 | https://aiacademy.tw/swc/portrait4.jpg | AIA 官方授權 | AIA 官方 | 2018-2019 | `/article-images/technology/taiwan-ai-academy-chen-shengwei-talk-2018.webp` | 876×876 | 1.00 | ✅ PASS (inline 0.75-2.5) | 陳昇瑋執行長於 AIA 課堂或活動現場演講畫面，方形正面構圖 |
+| 3 | inline 2 | https://imgs.gvm.com.tw/upload/gallery/20200421/72282_02.jpg | 遠見雜誌 fair use editorial commentary（per Step 1.9.2 第 8 點，紀實肖像） | 張智傑攝 / 遠見雜誌 | 2020-04 之前 | `/article-images/technology/taiwan-ai-academy-chen-shengwei-gvm-2020.webp` | 792×555 | 1.43 | ✅ PASS (inline 0.75-2.5) | 陳昇瑋 2020 年遠見雜誌專訪人像，眼神望向遠方，是過世前最後一批公開影像之一 |
 
 **檔案 size check**（per Step 1.9.2 hero < 600K / inline < 400K）：
 - hero portrait-2018: 415K ✅

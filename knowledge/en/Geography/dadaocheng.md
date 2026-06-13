@@ -75,7 +75,7 @@ What the Tong'an people brought to Dadaocheng was not only the City God image. T
 
 But the event that truly changed Dadaocheng would not arrive until 1860.
 
-![Dadaocheng Xia-Hai City God Temple, No. 61, Section 1, Dihua Street. In 1859, the Tong'an people defeated in the 1853 Dingxia Jiaopin conflict relocated it here from Bajiazhuang in Bangka. One of Dadaocheng's earliest religious centers, the temple has stood in the same place for 167 years without moving.](/article-images/geography/dadaocheng-xia-hai-city-god-temple-2018.jpg)
+![Dadaocheng Xia-Hai City God Temple, No. 61, Section 1, Dihua Street. In 1859, the Tong'an people defeated in the 1853 Dingxia Jiaopin conflict relocated it here from Bajiazhuang in Bangka. One of Dadaocheng's earliest religious centers, the temple has stood in the same place for 167 years without moving.](/article-images/geography/dadaocheng-xia-hai-city-god-temple-2018.webp)
 _Dadaocheng Xia-Hai City God Temple, No. 61, Section 1, Dihua Street. Photo: Solomon203, CC BY-SA 4.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Taipei_Xia-Hai_City_God_Temple_20180729.jpg)._
 
 ## The 1860 Opening of the Port, John Dodd, Li Chunsheng, and Those 120,000 Catties of Tea
@@ -136,7 +136,7 @@ Taipingcho was not only about politics. It also had music.
 
 In 1932, **"Longing for the Spring Breeze"** was produced by the Taiwan branch of **Columbia Records**, composed by **Teng Yu-hsien**, written by **Li Lin-chiu**, and sung by **Sun-sun**, whose real name was Liu Qingxiang. The recording took place in Columbia Records' Dadaocheng office, in the southern section of today's Dihua Street. After its release, "Longing for the Spring Breeze" became widely popular in 1930s Taiwan and was Taiwan's first pop song in the true sense[^18]. Teng Yu-hsien's later works, including **"Rainy Night Flower"** in 1934 and **"Sorrow on a Moonlit Night"** in 1933, also came out of this Dadaocheng office and are still covered today. **In the 1930s, Dadaocheng was not only a commercial center but also the birthplace of Taiwanese-language popular music**.
 
-![The Chen Tian-lai Residence, the Western-style building of Jinji Tea Company, at No. 73 Guide Street in Dadaocheng. Built between 1920 and 1923, its Baroque-inspired facade has the two characters "Jinji" at the center. It was designated a Taipei City municipal historic site in 1985 and was restored and reopened in 2018.](/article-images/geography/dadaocheng-chen-tian-lai-residence-2014.jpg)
+![The Chen Tian-lai Residence, the Western-style building of Jinji Tea Company, at No. 73 Guide Street in Dadaocheng. Built between 1920 and 1923, its Baroque-inspired facade has the two characters "Jinji" at the center. It was designated a Taipei City municipal historic site in 1985 and was restored and reopened in 2018.](/article-images/geography/dadaocheng-chen-tian-lai-residence-2014.webp)
 _Chen Tian-lai Residence, No. 73 Guide Street, reopened after restoration in 2018. Photo: Nisa yeh from Taipei, Taiwan, CC BY-SA 2.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chen_Tian-lai_Residence_(12303134604).jpg).\_
 
 ## That Packet of Cigarettes: the Small Stone Plaque at No. 189 Nanjing West Road
@@ -169,10 +169,10 @@ From 2010, Taipei City's Department of Cultural Affairs launched the **URS, or U
 
 Walk Dihua Street today and within 800 meters from south to north, you can see three eras coexisting: beside the 1851 Middle Street site stands the 1859 Xia-Hai City God Temple; across from the temple is the 1917 Watson's Pharmacy, with its Baroque-style shophouse facade; 200 meters farther north is the 1923 Chen Tian-lai Residence; still farther north are Museum 207, opened in 2017, and cultural-creative brands that arrived after the 2010s, including inBlooom, He Xing 88 Ting, and ASW Tea House. **These 800 meters contain every result of Taiwan's 30 years of preservation movements**.
 
-![Dihua Street Watson's Pharmacy, now Starbucks Bao'an Store, founded by Li Junqi in 1917 and one of Dadaocheng's most representative Baroque-style shophouses.](/article-images/geography/dadaocheng-watsons-pharmacy-house.jpg)
+![Dihua Street Watson's Pharmacy, now Starbucks Bao'an Store, founded by Li Junqi in 1917 and one of Dadaocheng's most representative Baroque-style shophouses.](/article-images/geography/dadaocheng-watsons-pharmacy-house.webp)
 _Dihua Street Watson's Pharmacy, founded in 1917. Photo: 寺人孟子, CC BY-SA 4.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:屈臣氏大藥房.jpg)._
 
-![Dihua Street during the Lunar New Year market. Every year in the week before Lunar New Year, the street is packed so tightly that no one can move, one of the results preserved by the 1996 anti-widening movement.](/article-images/geography/dadaocheng-lunar-new-year-2011.jpg)
+![Dihua Street during the Lunar New Year market. Every year in the week before Lunar New Year, the street is packed so tightly that no one can move, one of the results preserved by the 1996 anti-widening movement.](/article-images/geography/dadaocheng-lunar-new-year-2011.webp)
 _Dihua Street during the Lunar New Year market. Photo: 玄史生, CC BY-SA 3.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dihua_Street_Lunar_New_Year_20110203a.jpg)._
 
 ## Three Places Locals Will Take You

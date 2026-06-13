@@ -46,7 +46,7 @@ Then he jokingly held the bottle up to the camera: “This should give me a chan
 
 But the 60 years this golden sparkling drink has lived through are far more complicated than that mixed drink in a KTV room. For its first 30 years, its trademark never truly belonged to Taiwan; twice, it fell under the yeast and moldy ceilings of its own factory; and in 2024, its parent company had to sell 7,222 ping of land in Hunei, Kaohsiung to repay its final bank loans.
 
-![An Apple Sidra advertising light box at a shop in Ximending, February 2025. The golden plastic-bottled product remains the visual symbol of a national sparkling drink.](/article-images/food/apple-sidra-ximending-2025.jpg)
+![An Apple Sidra advertising light box at a shop in Ximending, February 2025. The golden plastic-bottled product remains the visual symbol of a national sparkling drink.](/article-images/food/apple-sidra-ximending-2025.webp)
 _An Apple Sidra advertising light box at a shop in Ximending, photographed in February 2025. After the 2018 and 2023 food-safety incidents and the 2024 disposal of real estate in Tainan and Kaohsiung to clear debts, this sparkling drink whose formula was bought from America’s CosCo in 1965 can still be seen on Taiwan’s streets. Photo: Solomon203, 2025-02-01, [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Apple_Sidra_shop_light_box_in_Ximending_20250201.jpg)._
 
 ## Philippine Businessman Lee Hung-lueh and CosCo’s Order
@@ -59,7 +59,7 @@ The factory was built in Pingzhen, Taoyuan. This geographic choice later became 
 
 The drink was initially called “American Apple Sidra,” emphasizing its original American lineage. In Taiwan from 1965 to 1979, the word “American” was a passport for consumers. Before Hollywood films, Coca-Cola, and McDonald’s had fully entered Taiwan, any product “from America” carried its own halo. Apple Sidra established its place on the dining table in that era. On January 1, 1979, the Republic of China broke diplomatic relations with the United States, and around that period the word “American” was quietly removed from the product name. From then on, it was called simply “Apple Sidra”[^6]. A name change for an export product unexpectedly became a miniature footnote to Taiwan’s diplomatic history.
 
-![Apple Sidra and a bowl of rice. A 2013 domestic dining-table scene showing the national beverage’s cultural place in everyday eating.](/article-images/food/apple-sidra-rice-2013.jpg)
+![Apple Sidra and a bowl of rice. A 2013 domestic dining-table scene showing the national beverage’s cultural place in everyday eating.](/article-images/food/apple-sidra-rice-2013.webp)
 _Apple Sidra and a bowl of rice on an everyday dining table, photographed in 2013. From its 1965 debut to its 2024 revival, this sparkling drink’s presence has always been built around its role as a “meal accompaniment”: with rechao stir-fry dishes, banquet tables, and dorm-room lunchboxes. Photo: Solomon203, 2013-11-23, [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Apple_Sidra_and_rice_20131123.jpg)._
 
 ## A Shell-Borrowing American-Taiwanese Hybrid

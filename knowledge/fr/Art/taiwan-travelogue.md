@@ -26,7 +26,7 @@ sourceBodyHash: 'sha256:1999959e3ea909b4'
 translatedAt: '2026-05-24T05:06:33+08:00'
 ---
 
-![Yang Shuangzi le 20 novembre 2024, lors de la cérémonie de remise du National Book Award à New York, debout à côté du trophée, vêtue d'un manteau sombre, le visage serein](/article-images/art/taiwan-travelogue-yang-shuang-zi-nba-2024.jpg)
+![Yang Shuangzi le 20 novembre 2024, lors de la cérémonie de remise du National Book Award à New York, debout à côté du trophée, vêtue d'un manteau sombre, le visage serein](/article-images/art/taiwan-travelogue-yang-shuang-zi-nba-2024.webp)
 _Le 20 novembre 2024, Yang Shuangzi reçoit le prix de littérature traduite du 75ᵉ National Book Award à New York. Photo : Bea Phi (Phibeatrice), [via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Yang_Shuang-zi_at_the_2024_National_Book_Awards.jpg), CC BY-SA 4.0._
 
 > **En 30 secondes :** Taiwan Travelogue est un roman à fausse traduction publié en 2020 par Chanshan Publishing : la couverture indique « par Chihako Aoyama, traduit par Yang Shuangzi », mais Chihako Aoyama n'a jamais existé, et Yang Shuangzi est elle-même un pseudonyme commun utilisé par deux sœurs — la sœur décédée Yang Ruohui et la sœur encore en vie Yang Ruizi. En novembre 2024, le National Book Award de littérature traduite à New York ; en mai 2026, le Booker Prize international à la Tate Modern de Londres — la littérature taïwanaise remporte pour la première fois ces deux scènes internationales. Le prix de 50 000 livres sterling est partagé entre Yang Ruizi et la traductrice Lin King. Plus lourd que cela : l'auteure a traduit un roman japonais inexistant sous le nom de sa sœur, transformant l'histoire coloniale en un récit de deux femmes partageant 12 plats.
@@ -79,7 +79,7 @@ En d'autres termes, sur la couverture d'un livre portant la mention « traduit p
 
 Le livre paraît cinq ans après la mort de Yang Ruohui.
 
-![Yang Shuangzi et la traductrice Lin King lors de la cérémonie du National Book Award 2024, debout côte à côte, en tenue de soirée formelle](/article-images/art/taiwan-travelogue-yang-and-lin-king-nba-2024.jpg)
+![Yang Shuangzi et la traductrice Lin King lors de la cérémonie du National Book Award 2024, debout côte à côte, en tenue de soirée formelle](/article-images/art/taiwan-travelogue-yang-and-lin-king-nba-2024.webp)
 _20 novembre 2024, cérémonie du NBA, Yang Shuangzi (à gauche) et la traductrice Lin King. Le 19 décembre 2024, les deux sont reçues au Bureau présidentiel ; en mai 2026, elles remontent ensemble sur scène pour le Booker Prize. Photo : Jennifer 8. Lee (Jenny8lee), [via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Yang_Shuang-zi_and_Lin_King_at_the_National_Book_Awards_Ceremony_2024_02.jpg), CC BY-SA 4.0._
 
 ## Douze plats, de la graine de courge à la glace aux haricots au miel
@@ -144,7 +144,7 @@ Mais elle a dit une chose dans l'interview à _You Ren Wu_, qui peut servir de n
 
 Les carnets de comptes sont le code que Yang Ruohui a laissé à sa sœur. Ce livre est la place que Yang Ruizi a laissée à sa sœur.
 
-![Yang Shuangzi le 19 novembre 2024, lors de la lecture des finalistes du National Book Award à New York, concentrée sur sa lecture, lunettes sur le nez, regardant son texte](/article-images/art/taiwan-travelogue-yang-shuang-zi-nba-reading-2024.jpg)
+![Yang Shuangzi le 19 novembre 2024, lors de la lecture des finalistes du National Book Award à New York, concentrée sur sa lecture, lunettes sur le nez, regardant son texte](/article-images/art/taiwan-travelogue-yang-shuang-zi-nba-reading-2024.webp)
 _19 novembre 2024, lecture des finalistes du NBA, Yang Shuangzi lit un extrait en anglais de Taiwan Travelogue à New York. Le soir suivant, elle remporte officiellement le prix de littérature traduite. Photo : Bea Phi (Phibeatrice), [via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Y%C3%A1ng_Shu%C4%81ng-z%C7%90,_writer,_at_the_2024_National_Book_Awards_finalist_reading_3.jpg), CC BY-SA 4.0._
 
 **Pour aller plus loin** :

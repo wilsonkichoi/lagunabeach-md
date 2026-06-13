@@ -46,7 +46,7 @@ Esta es la evidencia más contemporánea de Keelung como puerto. El esplendor hi
 
 ## Hace cuatrocientos años, los españoles plantaron su bandera en la Isla de la Paz
 
-![Formaciones de erosión marina en el parque geológico de la Isla de la Paz, 2022. Esta pequeña isla, a solo 75 metros de la isla principal de Taiwán, fue en 1626 la ubicación del Fuerte San Salvador de los españoles; desde 2016 un equipo de la Universidad Nacional de Tsing Hua ha excavado en el sitio los restos de la Iglesia de Todos los Santos, la única evidencia material del colonialismo español en Taiwán.](/article-images/geography/keelung-01.jpg)
+![Formaciones de erosión marina en el parque geológico de la Isla de la Paz, 2022. Esta pequeña isla, a solo 75 metros de la isla principal de Taiwán, fue en 1626 la ubicación del Fuerte San Salvador de los españoles; desde 2016 un equipo de la Universidad Nacional de Tsing Hua ha excavado en el sitio los restos de la Iglesia de Todos los Santos, la única evidencia material del colonialismo español en Taiwán.](/article-images/geography/keelung-01.webp)
 
 La Isla de la Paz (Heping Dao), a solo 75 metros de la isla principal de Taiwán, se llamaba en la época española «Isla de Soclang». Antes de eso fue un asentamiento del pueblo Basay de la etnia Ketagalan; en lengua basay se llamaba «tuman»[^2].
 
@@ -86,7 +86,7 @@ El resultado de la negociación fue: **rotar la organización principal del fest
 
 Este es el espíritu central del Festival de los Espíritus de Keelung (鷄籠中元祭). No es simplemente un festival de los fantasmas del mes séptimo. En todo Taiwán, el Festival de los Espíritus del mes séptimo honra a las almas errantes sin dueño, pero solo el Festival de los Espíritus de Keelung institucionalizó la memoria de una muerte por enfrentamiento en un ritual de rotación por apellidos que lleva 170 años continuando. La competencia de procesiones rituales es una versión ceremonializada de los enfrentamientos: todavía hay que competir, pero no se golpea a nadie; en su lugar, se usan deidades guerreras suntuosamente decoradas, formaciones y tambores para ver quién ofrece el espectáculo más grandioso.
 
-![Pabellón principal del Festival de los Espíritus de Keelung, octubre de 2023. Torre octogonal del parque Zhongzheng, terminada a mediados de la década de 1970, donde se celebra el festival de los espíritus del mes séptimo lunar cada año. A la derecha de la torre, a lo lejos, se divisa el monumento Keelung Tower.](/article-images/geography/keelung-00.jpg)
+![Pabellón principal del Festival de los Espíritus de Keelung, octubre de 2023. Torre octogonal del parque Zhongzheng, terminada a mediados de la década de 1970, donde se celebra el festival de los espíritus del mes séptimo lunar cada año. A la derecha de la torre, a lo lejos, se divisa el monumento Keelung Tower.](/article-images/geography/keelung-00.webp)
 _Pabellón principal y Torre de Keelung, 2023-10-23. Foto: colaborador de Wikimedia Commons, [CC BY-SA vía Wikimedia](https://commons.wikimedia.org/wiki/File:Keelung_Tower_and_Ts%C3%BA-ph%C3%B3o-tu%C3%A2nn_20231023.jpg)._
 
 Tras la guerra chino-francesa de 1884, este festival se amplió nuevamente. **Las almas de aquellos más de 700 soldados franceses fueron incorporadas al ritual de salvación universal (pudu).** «Los inmigrantes chinos, movidos por compasión, iniciaron un ritual de reverencia hacia esos fallecidos que nadie había enterrado»[^12]. Un ritual de reconciliación nacido de un enfrentamiento entre Zhangzhou y Quanzhou se convirtió en un festival que incluso acogía a los enemigos caídos en la guerra. Desde 1855 hasta hoy, se celebra cada año en el séptimo mes lunar en el pabellón principal del parque Zhongzheng. El nuevo pabellón principal, terminado a mediados de la década de 1970, es una torre octogonal cuyo primer piso alberga un museo de artefactos del festival[^13].
@@ -105,7 +105,7 @@ Y luego llegó 1984.
 
 «**En 1984, [el puerto de Keelung] alcanzó el séptimo puesto mundial entre los puertos de contenedores**»[^17]. Este fue el pico histórico de Keelung como puerto. Un pequeño puerto con 3.000 mm de lluvia anual fue una vez el séptimo nodo de la red de transporte marítimo mundial.
 
-![Vista aérea del puerto de Keelung, 2017. El esqueleto portuario establecido por las cinco fases de construcción del periodo japonés perdura hasta hoy; tras el pico histórico de ser el séptimo mayor puerto de contenedores del mundo en 1984, el declive ha sido progresivo, cayendo en 2018 al puesto 113 mundial y al cuarto mayor puerto comercial de Taiwán.](/article-images/geography/keelung-03.jpg)
+![Vista aérea del puerto de Keelung, 2017. El esqueleto portuario establecido por las cinco fases de construcción del periodo japonés perdura hasta hoy; tras el pico histórico de ser el séptimo mayor puerto de contenedores del mundo en 1984, el declive ha sido progresivo, cayendo en 2018 al puesto 113 mundial y al cuarto mayor puerto comercial de Taiwán.](/article-images/geography/keelung-03.webp)
 
 ## Entonces ocurrieron tres cosas al mismo tiempo
 
@@ -129,7 +129,7 @@ Y el mercado de pescado de Kanzaiding (mencionado antes) es en realidad el verda
 
 ## Frente a las casas coloridas de Zhengbin, las ruinas de Agenna
 
-![Casas coloridas de la calle del puerto pesquero de Zhengbin, agosto de 2025. Durante el mandato del alcalde Lin Youchang, en colaboración con la directora del Departamento de Paisaje de la Universidad Cultural de Taiwán, Guo Qiongying, se pintaron las viejas casas junto al puerto con 55 colores distintos. Enfrente se encuentran las ruinas del astillero Agenna, visibles en el mismo encuadre.](/article-images/geography/keelung-01.jpg)
+![Casas coloridas de la calle del puerto pesquero de Zhengbin, agosto de 2025. Durante el mandato del alcalde Lin Youchang, en colaboración con la directora del Departamento de Paisaje de la Universidad Cultural de Taiwán, Guo Qiongying, se pintaron las viejas casas junto al puerto con 55 colores distintos. Enfrente se encuentran las ruinas del astillero Agenna, visibles en el mismo encuadre.](/article-images/geography/keelung-01.webp)
 _Casas coloridas de la calle del puerto pesquero de Zhengbin, 2025-08-12. Foto: colaborador de Wikimedia Commons, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:20250812_105703_%E6%AD%A3%E6%BF%B1%E6%BC%81%E6%B8%AF%E5%BD%A9%E8%89%B2%E8%A1%97%E5%B1%8B.jpg).\_
 
 Si quieres ver cómo una ciudad gestiona sus ruinas, ve al puerto pesquero de Zhengbin.

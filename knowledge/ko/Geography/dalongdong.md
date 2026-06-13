@@ -41,7 +41,7 @@ translatedAt: '2026-05-23T05:06:37+08:00'
 
 > **30초 개관:** 지하철 위안산역에서 걸어 나오면 1.5킬로미터 안에 세 신앙 공간이 놓여 있다. 1742년 퉁안인들이 초가로 세운 보안궁, 1925년 지방 신사들이 모금해 재건한 타이베이 공묘, 1973년 양줘청이 설계한 위안산대반점이다. 같은 축선 위에 서로 다른 세 시대의 ‘정통’이 나란히 있다. 발밑의 이 땅의 역사는 300년에 그치지 않는다. 5,300년 전 위안산 패총의 신석기인들이 이미 이곳에 살았다. 청대 가경 7년 왕위안지 등 퉁안인 여섯 가구가 44칸의 기와 가게를 열었고, ‘흥륭동안’의 ‘룽퉁’이 오늘날 다퉁구가 되었다. 함풍 9년 천웨이잉이 거인에 급제하자, 향민들은 ‘선비를 용처럼 보아’ 다룽퉁을 다룽둥으로 고쳤다. 1853년 딩샤자오핀에서 패퇴한 퉁안인들은 먼저 보안궁으로 몸을 피워 방어 거점으로 삼은 뒤 다시 다다오청으로 옮겨 갔다. 1907년 일본인이 옛 타이베이 부학 문묘를 철거하고 국어학교를 세우자, 천웨지 가문과 구셴룽은 공자가 돌아갈 집을 잃지 않도록 3,000여 평의 땅을 기증했다. 1944년 일본 여객기 한 대가 쑹산공항 착륙 중 사고로 타이완 신궁을 들이받아 파괴했고, 전후 신사는 철거되었으며, 1952년 장쑹메이링의 돈목연의회가 그 터를 이어받았다. 1995년 랴오우즈는 정부 보조금을 거절하고 2억 6천만 대만달러를 자비로 들여 보안궁을 수리했으며, 2003년 타이완 최초의 UNESCO 아시아태평양 문화유산상을 받았다. 이 글이 말하려는 것은 이것이다. 다룽가에서 태극권을 연마하는 중장년 남녀가 발밑에 딛고 있는 것은 타이베이에서 가장 농축된 시간의 단면이다.
 
-![다룽둥 보안궁 정면 건축 전경, 붉은 기와와 노란 처마의 삼천전 및 광장. 1742년 퉁안인들이 바이자오 츠지궁의 보생대제 분령을 타이완으로 모셔와 초창했고, 1830년 정식으로 낙성했으며, 1995-2002년 랴오우즈가 주도해 자비로 수리한 뒤 UNESCO 아시아태평양 문화유산상을 받았다.](/article-images/geography/dalongdong-baoan-temple-2010s.jpg)
+![다룽둥 보안궁 정면 건축 전경, 붉은 기와와 노란 처마의 삼천전 및 광장. 1742년 퉁안인들이 바이자오 츠지궁의 보생대제 분령을 타이완으로 모셔와 초창했고, 1830년 정식으로 낙성했으며, 1995-2002년 랴오우즈가 주도해 자비로 수리한 뒤 UNESCO 아시아태평양 문화유산상을 받았다.](/article-images/geography/dalongdong-baoan-temple-2010s.webp)
 _다룽둥 보안궁 정면. Photo: Tianmu peter via panoramio, [CC BY 3.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E9%BE%8D%E5%B3%92%E4%BF%9D%E5%AE%89%E5%AE%AE_Dalongdong_Baoan_Temple_-_panoramio.jpg)._
 
 ## 이른 아침 7시, 보안궁 앞 광장의 태극권
@@ -94,7 +94,7 @@ _다룽둥 보안궁 정면. Photo: Tianmu peter via panoramio, [CC BY 3.0 via W
 
 마지막 이름은 오늘까지 이어졌다. 1990년 타이베이시가 행정구를 재획정하면서 이 일대는 다퉁구에 속했고, 지룽허를 건넌 뒤에는 중산구에 속하게 되었다. ‘다퉁’이라는 구명은 바로 ‘흥륭동안’에서 왔다.
 
-![보안궁 산문 세부, 문미의 채색화와 돌사자. 산문 밖의 돌사자는 280여 년 동안 서서 지키며 다룽퉁이 다룽둥으로 바뀌는 것을 보고, 일본인이 옛 공묘를 허무는 것을 보고, 국민정부가 위안산대반점을 세우는 것을 보았다.](/article-images/geography/dalongdong-baoan-gate-2020s.jpg)
+![보안궁 산문 세부, 문미의 채색화와 돌사자. 산문 밖의 돌사자는 280여 년 동안 서서 지키며 다룽퉁이 다룽둥으로 바뀌는 것을 보고, 일본인이 옛 공묘를 허무는 것을 보고, 국민정부가 위안산대반점을 세우는 것을 보았다.](/article-images/geography/dalongdong-baoan-gate-2020s.webp)
 _보안궁 산문. Photo: Outlookxp, [CC BY-SA 4.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Gate_of_the_Dalongdong_Bao-an_Temple_01.jpg)._
 
 ## 1853: 패퇴한 퉁안인들의 첫 정착지는 다다오청이 아니었다
@@ -135,7 +135,7 @@ _보안궁 산문. Photo: Outlookxp, [CC BY-SA 4.0 via Wikimedia](https://common
 
 천웨이잉이 세상을 떠난 지 27년 뒤인 1896년, 일본인은 보안궁 안에 국어학교 제3부속학교, 곧 다룽초등학교의 전신을 설치했다[^1]. 한 사원 안에 두 학교가 잇달아 머문 셈이다. 1853년 수런서원 뒤에는 1896년 국어학교가 있었다. 같은 마당에서 앞선 학생은 장삼을 입고 문창에게 절했고, 뒤의 학생은 모자를 쓰고 오십음을 읽었다.
 
-![보안궁 반룡 석주, 전각 앞 팔각 용기둥이 아래에서 위로 감겨 올라간다. 가경 연간(1796-1820)의 작품으로, 이 사원에 현존하는 가장 이른 석조물이다.](/article-images/geography/dalongdong-baoan-dragon-pillars-2012.jpg)
+![보안궁 반룡 석주, 전각 앞 팔각 용기둥이 아래에서 위로 감겨 올라간다. 가경 연간(1796-1820)의 작품으로, 이 사원에 현존하는 가장 이른 석조물이다.](/article-images/geography/dalongdong-baoan-dragon-pillars-2012.webp)
 _보안궁 반룡 석주. Photo: panoramio contributor, [CC BY 3.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BF%9D%E5%AE%89%E5%AE%AE%E9%BE%8D%E6%9F%B1_Dragon_Pillars_of_Baoan_Temple_-_panoramio.jpg)._
 
 ## 1917년 대장작: 두 목수의 겨루기, 조롱까지 나무에 새기다
@@ -187,7 +187,7 @@ _보안궁 반룡 석주. Photo: panoramio contributor, [CC BY 3.0 via Wikimedia
 
 1879년 천싱쥐가 첫 타이베이 공묘를 세운 일에서 1907년 일본인의 철거, 1925년 천페이건과 구셴룽의 토지 기증 재건, 1939년 전체 완공, 1971년 시정부 인수, 그리고 2026년 다룽초등학교 6학년 학생들의 팔일무까지. 한 사원이 제국에서 일제, 전후, 당대를 잇는 축선을 완주하는 데 147년이 걸렸다.
 
-![타이베이 공묘 대성전과 뜰, 1927년 착공, 1929년 대성전 낙성(왕진무 시디파 시공), 1939년 전체 완공. 천페이건이 2,000여 평을 기증하고 구셴룽이 다시 1,000여 평을 사들여 헌납함으로써 다룽둥 새 터가 마련되었다.](/article-images/geography/dalongdong-confucius-temple-2014.jpg)
+![타이베이 공묘 대성전과 뜰, 1927년 착공, 1929년 대성전 낙성(왕진무 시디파 시공), 1939년 전체 완공. 천페이건이 2,000여 평을 기증하고 구셴룽이 다시 1,000여 평을 사들여 헌납함으로써 다룽둥 새 터가 마련되었다.](/article-images/geography/dalongdong-confucius-temple-2014.webp)
 _타이베이 공자묘. Photo: panoramio contributor, [CC BY 3.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Taipei_Confucius_Temple_%E5%8F%B0%E5%8C%97%E5%AD%94%E5%BB%9F\*-\_panoramio.jpg).\_
 
 ## 비행기가 신궁을 들이받은 그 오후
@@ -212,7 +212,7 @@ _타이베이 공자묘. Photo: panoramio contributor, [CC BY 3.0 via Wikimedia]
 
 > **⚠️ 논쟁적 관점:** 위안산대반점은 1944년 비행기 충돌로 파괴된 타이완 신궁의 원터에 서 있다. 같은 산머리 위에 먼저 일본인이 타이완 정복 중 전사한 친왕을 기념하기 위해 지은 ‘관폐대사’가 있었고, 전후에는 국민정부가 외빈을 맞이하는 ‘중국 궁전식’ 붉은 기와와 노란 처마로 바뀌었다. 두 건축 언어, 두 시대의 권력 의례가 같은 땅 위에 겹쳐 있다. 1995년 6월 27일 오전, 위안산대반점 12층 옥상에서 화재가 발생했다. 유리기와 공사 중 용접 부주의로 불이 붙은 것이었다[^40]. 불은 4시간 동안 탔지만 다행히 인명 피해는 없었고, 건축 구조도 훼손되지 않았다[^40]. 1944년에 막 비행기 충돌로 파괴된 신궁, 1973년에 세워진 새 건물, 1995년에 다시 한 번 불탄 건물. 같은 땅에서 두 번의 화재(1944, 1995)가 있었고, 매번 정권의 의례와 관련되어 있었다.
 
-![위안산대반점 14층 중국 궁전식 건축 정면, 붉은 기둥과 노란 기와, 양줘청의 1973년 설계. 같은 땅은 1900년에 타이완 신사였고, 1944년 비행기 충돌로 파괴되었으며, 1952년 장쑹메이링의 돈목연의회가 이어받고, 1973년 양줘청이 설계한 새 건물이 낙성했다.](/article-images/geography/dalongdong-grand-hotel-2017.jpg)
+![위안산대반점 14층 중국 궁전식 건축 정면, 붉은 기둥과 노란 기와, 양줘청의 1973년 설계. 같은 땅은 1900년에 타이완 신사였고, 1944년 비행기 충돌로 파괴되었으며, 1952년 장쑹메이링의 돈목연의회가 이어받고, 1973년 양줘청이 설계한 새 건물이 낙성했다.](/article-images/geography/dalongdong-grand-hotel-2017.webp)
 _위안산대반점. Photo: shennongtw, [Public domain via Wikimedia](https://commons.wikimedia.org/wiki/File:R38577389977_Grand_Hotel,_Taipei.JPG)._
 
 ## 1995: 랴오우즈가 정부 보조금을 거절하고 사원을 수리해, 타이완 최초의 UNESCO 아시아태평양 문화유산상을 받다
@@ -277,7 +277,7 @@ _위안산대반점. Photo: shennongtw, [Public domain via Wikimedia](https://co
 
 이 축선을 다 걷는 데에는 30분이 걸린다.
 
-![보안궁 정전 전경, 오개간 중첨 헐산식 지붕과 칠층 보탑. 1995-2002년 랴오우즈가 복원을 주도했고, 2003년 UNESCO 아시아태평양 문화유산상을 받았으며, 심사평은 이를 ‘공동체 기반 복원의 전범’이라 불렀다.](/article-images/geography/dalongdong-baoan-main-hall-2018.jpg)
+![보안궁 정전 전경, 오개간 중첨 헐산식 지붕과 칠층 보탑. 1995-2002년 랴오우즈가 복원을 주도했고, 2003년 UNESCO 아시아태평양 문화유산상을 받았으며, 심사평은 이를 ‘공동체 기반 복원의 전범’이라 불렀다.](/article-images/geography/dalongdong-baoan-main-hall-2018.webp)
 _보안궁 정전. Photo: Bgabel, [CC BY-SA 4.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Taipeh_Dalongdong_Baoan_Temple_Haupthalle_1.jpg)._
 
 ## 새벽 7시의 태극권은 아직도 계속된다

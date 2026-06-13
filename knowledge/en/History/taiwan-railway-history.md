@@ -104,7 +104,7 @@ The Ministry of Culture has listed the Alishan Forest Railway as one of Taiwan�
 
 ## Black-Headed Trains and the Genealogy of Naming
 
-![The preserved group of Taiwan Railways steam locomotives at the Changhua Roundhouse, photographed in 2009. Their black bodies, smokestacks, and cabs lined up in a row provide the visual origin of the term “black-headed trains.”](/article-images/history/tra-changhua-roundhouse-steam-2009.jpg)
+![The preserved group of Taiwan Railways steam locomotives at the Changhua Roundhouse, photographed in 2009. Their black bodies, smokestacks, and cabs lined up in a row provide the visual origin of the term “black-headed trains.”](/article-images/history/tra-changhua-roundhouse-steam-2009.webp)
 _The group of Taiwan Railways steam locomotives preserved at the Changhua Roundhouse in 2009. Photo: Neeson Hsu. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2009-08-30_Steam_locomotives_at_TRA_Changhua_Roundhouse.jpg)._
 
 What ran on the tracks left by foreign engineers was another group of things. From the late Japanese colonial period into the postwar era, trains in Taiwan had their own Taiwanese-language names.
@@ -178,7 +178,7 @@ On January 1, 2024, the Taiwan Railways Administration of the Ministry of Transp
 
 ## An Island’s Nervous System
 
-![A 2021 special return-to-service train: DT668, a steam locomotive, pushed by E327, an electric locomotive, on the Coast Line. It is a contemporary example of dynamic preservation for a type equivalent to the Japanese colonial-period D51.](/article-images/history/tra-dt668-coast-line-2021.jpg)
+![A 2021 special return-to-service train: DT668, a steam locomotive, pushed by E327, an electric locomotive, on the Coast Line. It is a contemporary example of dynamic preservation for a type equivalent to the Japanese colonial-period D51.](/article-images/history/tra-dt668-coast-line-2021.webp)
 _In 2021, DT668 was pushed by E327 on Taiwan Railways’ Coast Line, a contemporary example of dynamic preservation for a type equivalent to the late Japanese colonial-period D51. Photo: Cheng-en Cheng. [CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2021-10-25_TRA_DT668_pulled_by_E327_on_the_Coast_Line.jpg)._
 
 Taiwan’s railway map resembles a nervous system: the western trunk line is the spinal cord, the high-speed rail is the high-speed channel beside it, the eastern North-Link and South-Link lines are nerve endings extending toward Hualien and Taitung, and Alishan and Pingxi are capillaries.

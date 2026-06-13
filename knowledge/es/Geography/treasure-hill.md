@@ -42,7 +42,7 @@ translatedAt: '2026-05-23T05:06:38+08:00'
 
 ## A las cinco de la tarde, las escaleras de la ladera empiezan a iluminarse una por una
 
-![Fotografía aérea del asentamiento de Treasure Hill en 2018, tomada por el Departamento de Cultura del Gobierno de la Ciudad de Taipéi; permite ver la relación entre el conjunto construido sobre la ladera, el dique del río Xindian y el puente Fuhe, como perspectiva paisajística integral de esta colina de 46 metros de altura](/article-images/geography/treasure-hill-2018-aerial.jpg)
+![Fotografía aérea del asentamiento de Treasure Hill en 2018, tomada por el Departamento de Cultura del Gobierno de la Ciudad de Taipéi; permite ver la relación entre el conjunto construido sobre la ladera, el dique del río Xindian y el puente Fuhe, como perspectiva paisajística integral de esta colina de 46 metros de altura](/article-images/geography/treasure-hill-2018-aerial.webp)
 _Fotografía aérea del asentamiento de Treasure Hill en octubre de 2018. Photo: Departamento de Cultura del Gobierno de la Ciudad de Taipéi, 2018-10-05. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Treasure_Hill_20181005.jpg) (Attribution)._
 
 Al salir por la salida 1 de la estación Gongguan del metro, se gira a la derecha hacia el callejón 90 de la sección 4 de Roosevelt Road, luego a la izquierda hacia Tingzhou Road y se camina hasta girar a la derecha en el callejón 230 de la sección 3: unos 5 a 7 minutos[^8]. Si es la primera vez que vienes, es posible que te pases de largo, porque la entrada del callejón parece un callejón común de Gongguan, sin ningún letrero que anuncie “está entrando en un asentamiento histórico”. Después de atravesar el ruido del mercado Shuiyuan y del distrito comercial de Gongguan, y de caminar dos esquinas más, aparece de pronto una pequeña colina.
@@ -93,7 +93,7 @@ Esa era la realidad física que enfrentó la orden de demolición de 1980: un de
 
 ## De zona de protección hídrica a terreno reservado para el Parque n.º 297
 
-![Conjunto construido en la ladera del asentamiento de Treasure Hill en febrero de 2026; la estructura mezclada de cemento, ladrillo rojo y chapa metálica, apilada siguiendo la pendiente, es evidencia material de la autoconstrucción de las décadas de 1960 y 1970](/article-images/geography/treasure-hill-village-2026.jpg)
+![Conjunto construido en la ladera del asentamiento de Treasure Hill en febrero de 2026; la estructura mezclada de cemento, ladrillo rojo y chapa metálica, apilada siguiendo la pendiente, es evidencia material de la autoconstrucción de las décadas de 1960 y 1970](/article-images/geography/treasure-hill-village-2026.webp)
 _Conjunto principal del asentamiento de Treasure Hill en febrero de 2026. Photo: 阿道 (User：阿道), 2026-02-21. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Treasure_Hill_Village_01_20260221.jpg) (CC BY-SA 4.0)._
 
 En julio de 1980, el Gobierno de la Ciudad de Taipéi anunció que Treasure Hill pasaba oficialmente de zona de protección hídrica a integrarse en el terreno urbano reservado para el Parque n.º 297 de la zona ribereña[^1]. Para los residentes, ese anuncio fue una sentencia.
@@ -114,7 +114,7 @@ Treasure Hill evitó un destino como el de Kangle Li. El gobierno municipal no c
 
 ## El performance napalm de 2003
 
-![Performance “napalm” realizado por Marco Casagrande en Treasure Hill en 2003, que utilizó el fuego para simbolizar este asentamiento a punto de ser demolido](/article-images/geography/treasure-hill-fire-2003.jpg)
+![Performance “napalm” realizado por Marco Casagrande en Treasure Hill en 2003, que utilizó el fuego para simbolizar este asentamiento a punto de ser demolido](/article-images/geography/treasure-hill-fire-2003.webp)
 _Performance “napalm” de Marco Casagrande en Treasure Hill, 2003. Photo: Burgeoisnieves, 2003. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Treasure_Hill_fire.jpg) (Public domain)._
 
 Los 13 años entre 1997 y 2010 fueron el “periodo experimental” de Treasure Hill.
@@ -133,7 +133,7 @@ Lo más recordado fue aquel performance napalm: Casagrande realizó una acción 
 
 ## Los huertos, las escaleras y las casas medio demolidas de Treasure Hill
 
-![Huerto abierto por Marco Casagrande en la práctica “Organic Layer / Treasure Hill” de 2003, que transformó ruinas de demolición en un espacio de reparación urbana ecológica](/article-images/geography/treasure-hill-garden-2003.jpg)
+![Huerto abierto por Marco Casagrande en la práctica “Organic Layer / Treasure Hill” de 2003, que transformó ruinas de demolición en un espacio de reparación urbana ecológica](/article-images/geography/treasure-hill-garden-2003.webp)
 _Huerto de la práctica de reparación urbana ecológica “Organic Layer / Treasure Hill” de Marco Casagrande, 2003. Photo: Jan jörg, 2003. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Treasure_Hill_garden.jpg) (Public domain)._
 
 Entre 2003 y 2006 se dieron los tres años más complejos de Treasure Hill.
@@ -170,7 +170,7 @@ El 21 de marzo de 2026 se inauguró el “Festival de Luces Treasure Hill 2026: 
 
 ## Los tres lugares que te mostraría alguien local
 
-![Grafiti de artistas dentro del asentamiento de Treasure Hill en 2012, una de las gramáticas visuales de Treasure Hill tras la llegada de subculturas desde fines de la década de 1990](/article-images/geography/treasure-hill-graffiti-2012.jpg)
+![Grafiti de artistas dentro del asentamiento de Treasure Hill en 2012, una de las gramáticas visuales de Treasure Hill tras la llegada de subculturas desde fines de la década de 1990](/article-images/geography/treasure-hill-graffiti-2012.webp)
 _Grafiti en el asentamiento de Treasure Hill, octubre de 2012. Photo: Nisa yeh, 2012-10-14. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Graffiti_at_the_Treasure_Hill%2C_Taipei.jpg) (CC BY-SA 2.0)._
 
 Los turistas conocen Treasure Hill. Pero alguien local te llevaría a mirar estos tres lugares.
@@ -185,7 +185,7 @@ Después de recorrer estos tres lugares, se entiende la textura real de Treasure
 
 ## 1980 vs. 2026, la misma colina
 
-![Multitud caminando frente al jardín ecológico de Treasure Hill el segundo día del Año Nuevo Lunar de 2025, reflejo contemporáneo de cómo Treasure Hill se convirtió, después de su inauguración en 2010, en una ruta de paseo de Gongguan](/article-images/geography/treasure-hill-street-2025.jpg)
+![Multitud caminando frente al jardín ecológico de Treasure Hill el segundo día del Año Nuevo Lunar de 2025, reflejo contemporáneo de cómo Treasure Hill se convirtió, después de su inauguración en 2010, en una ruta de paseo de Gongguan](/article-images/geography/treasure-hill-street-2025.webp)
 _Multitud caminando frente al jardín ecológico de Treasure Hill el 30 de enero de 2025, segundo día del Año Nuevo Lunar. Photo: Allervous, 2025-01-30. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Street_in_Taipei_Treasure_Hill.jpg) (CC BY 4.0)._
 
 Aquella tarde de julio de 1980, en la oficina del Departamento de Desarrollo Urbano del Gobierno de la Ciudad de Taipéi, varios funcionarios estamparon en un documento el sello de “terreno reservado para el Parque n.º 297”. Las más de 200 familias de la ladera no sabían absolutamente nada de eso; solo supieron que, al año siguiente, 1981, empezaría a venir gente a pegar avisos de desalojo en la puerta de sus casas.

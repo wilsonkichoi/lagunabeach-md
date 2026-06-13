@@ -35,7 +35,7 @@ translatedAt: '2026-06-11T16:38:12Z'
 
 > **30-Second Overview:** On the evening of August 23, 2025, the results of the Nuclear Three extension referendum were announced: 4.34 million yes votes, 74% approval, and a turnout of 29.53%, missing the threshold by 650,000 votes. The next day, President Lai Ching-te announced three principles: "nuclear safety assured, nuclear waste solved, social consensus." Seven months later, on March 27, 2026, Taipower submitted the Nuclear Three re-operation application to the Nuclear and Material Safety Administration (NAC), with the earliest restart expected in 2028[^22][^23]. The referendum failed, yet Taipower is walking back towards nuclear power. This is the deepest contradiction of an island that relies on imports for 98% of its energy and has pledged to invest 9 trillion NTD to achieve net-zero by 2050[^11]. The government's geothermal target is 200 MW by 2030, but actual commercial operation by the end of 2025 is only 7.4 MW, a 27-fold gap; the Lanyu storage facility opened in 1982, holding 97,672 barrels of nuclear waste, with relocation deadlines missed four times[^24][^25]. Energy is a question of physical limits.
 
-![Appearance of Nuclear Three Plant (Maanshan, Hengchun, Pingtung)](/article-images/nature/maanshan-nuclear-plant-nan-wan-2014.jpg)
+![Appearance of Nuclear Three Plant (Maanshan, Hengchun, Pingtung)](/article-images/nature/maanshan-nuclear-plant-nan-wan-2014.webp)
 
 _The Nuclear Three Plant (Maanshan Nuclear Power Plant) in Hengchun, Pingtung, located on the Nanwan coastline. Unit 1 shut down on January 1, 2025, and Unit 2 on May 17, 2025. Image: M. Weitzel, CC BY-SA 3.0, via Wikimedia Commons_
 
@@ -71,7 +71,7 @@ Shift the lens to Olkiluoto Island in southern Finland.
 
 500 meters underground, in the granite layer, a 5-kilometer-long tunnel is dug. At the end of the tunnel lies **Onkalo**, humanity's first high-level radioactive waste ultimate repository to officially receive an operating license. In August 2024, the Finnish Nuclear and Waste Safety Authority (STUK) issued the license. This project, planned since the 1970s, **took nearly half a century**[^29].
 
-![Onkalo Underground Repository (Finland, Olkiluoto)](/article-images/nature/onkalo-finland-2024.jpg)
+![Onkalo Underground Repository (Finland, Olkiluoto)](/article-images/nature/onkalo-finland-2024.webp)
 
 _The entrance to Finland's Onkalo high-level radioactive waste ultimate repository, in the granite layer 500 meters underground, received an operating license in 2024. Image: kallerna, CC BY-SA 4.0, via Wikimedia Commons_
 
@@ -177,7 +177,7 @@ Does Taiwan have an SMR plan? Currently **no official planning**. Even if evalua
 
 Shift the lens back to what has already happened.
 
-![Hai Long Offshore Wind Farm off Miaoli](/article-images/nature/hai-neng-offshore-wind-farm-2024.jpg)
+![Hai Long Offshore Wind Farm off Miaoli](/article-images/nature/hai-neng-offshore-wind-farm-2024.webp)
 
 _Hai Long Offshore Wind Farm (Formosa 1) off Miaoli, commercial operation started in 2019, Taiwan's first large-scale offshore wind farm. Image: Ministry of Economic Affairs, Attribution, via Wikimedia Commons_
 
@@ -191,7 +191,7 @@ But offshore wind turbines bring not only power but also conflict. In February 2
 
 Solar PV takes another path. In 2024, solar PV installed capacity reached 14,281 MW, accounting for 68% of total renewable energy, with 14.9 billion kWh generated[^15]. Rooftop, ground-mounted, floating, agrivoltaics—diverse installation modes make solar the mainstay of renewable energy. But agrivoltaic policies have sparked质疑 of "fake farming, real power generation," forcing the Ministry of Agriculture to strengthen inspections. On an island with only 790,000 hectares of arable land, every piece of land's use is a political issue.
 
-![Highway Service Area Rooftop Solar Panels](/article-images/nature/xihu-service-area-solar-2014.jpg)
+![Highway Service Area Rooftop Solar Panels](/article-images/nature/xihu-service-area-solar-2014.webp)
 
 _Xihu Service Area rooftop solar panels. Taiwan's solar PV installed capacity reached 14,281 MW in 2024, accounting for 68% of renewables. Image: lienyuan lee, CC BY 3.0, via Wikimedia Commons_
 

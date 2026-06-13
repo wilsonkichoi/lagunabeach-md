@@ -43,7 +43,7 @@ translatedAt: '2026-05-26T05:10:57+08:00'
 
 “에스와티니 국왕이 대만 총통에게 항공기를 빌려 중국의 봉쇄를 돌파했다”는 사실 자체가 이번 방문의 본질이었다. Wall Street Journal은 이를 “surprise visit”(허를 찌른 방문)이라고 규정했고, Al Jazeera의 제목은 “despite China's attempts to block trip”(중국이 방문을 막으려 했음에도)였다[^6]. 중앙통신사도 공식 채널을 통해 이 [전용기 탑승 후 에스와티니 도착 과정](https://www.youtube.com/watch?v=YrbOMarnkX8)을 기록했다.
 
-![라이칭더 총통이 2026년 5월 2일 에스와티니 음바바네 공항에 도착해 군례를 받고, 에스와티니 의장대가 도열해 경례하고 있다](/article-images/society/taiwan-eswatini-military-honor-2026.jpg)
+![라이칭더 총통이 2026년 5월 2일 에스와티니 음바바네 공항에 도착해 군례를 받고, 에스와티니 의장대가 도열해 경례하고 있다](/article-images/society/taiwan-eswatini-military-honor-2026.webp)
 _2026년 5월 2일, 라이칭더가 음바바네 공항에서 에스와티니 군례를 받았다. Photo: 중화민국 총통부. [OGDL via 총통부 공식 보도자료](https://english.president.gov.tw/News/7121)._
 
 도착 장면은 단순했지만 무게는 컸다. 러셀 들라미니(Russell Dlamini) 총리, 폴릴레 샤칸투(Pholile Shakantu) 외교국제협력부 장관, 량훙성(Jeremy H.S. Liang) 주에스와티니 대만 대사, 칸들렐라 음들룰리(Khandlela Mdluli) 에스와티니 의전관이 직접 영접했다. 라이칭더는 군례를 받고 주에스와티니 대사관 인원 및 대만 기술단 가족들과 일일이 인사를 나눴다[^7]. 중앙통신사 공식 채널은 [라이칭더가 에스와티니 왕국에 도착해 국빈 방문을 시작한 전 과정](https://www.youtube.com/watch?v=TuZ8i6KV7Ys)을 기록했다.
@@ -114,7 +114,7 @@ TaiwanICDF(국제협력발전기금회)의 주에스와티니 농업기술단은
 
 5월 3일 아침, 라이칭더는 로지타 왕궁(Lozitha Royal Palace)의 Mandvulo Grand Hall에서 음스와티 3세와 양자회담을 했다[^7].
 
-![라이칭더 총통과 에스와티니 국왕 음스와티 3세가 Mandvulo Grand Hall에서 양자회담을 하고 있다](/article-images/society/taiwan-eswatini-mandvulo-summit-2026.jpg)
+![라이칭더 총통과 에스와티니 국왕 음스와티 3세가 Mandvulo Grand Hall에서 양자회담을 하고 있다](/article-images/society/taiwan-eswatini-mandvulo-summit-2026.webp)
 _2026년 5월 3일, 라이칭더와 음스와티 3세가 Lozitha Royal Palace의 Mandvulo Grand Hall에서 양자회담을 했다. Photo: 중화민국 총통부. [OGDL via 총통부 공식 보도자료](https://english.president.gov.tw/News/7122)._
 
 의식에는 양국 국가 연주, 에스와티니 의장대 사열, 예포, 전통무용 공연이 포함되었다. 회담 뒤 두 건의 중요한 문서가 서명되었다.
@@ -122,7 +122,7 @@ _2026년 5월 3일, 라이칭더와 음스와티 3세가 Lozitha Royal Palace의
 1. **공동공보**: “깊은 우정, 상호 신뢰, 공동 가치” 재확인
 2. **《세관 상호지원협정》**: 린자룽 대만 외교부장과 폴릴레 샤칸투 에스와티니 외교장관이 서명[^7]
 
-![라이칭더 총통과 음스와티 3세 국왕이 《세관 상호지원협정》 서명을 함께 지켜보고 있다](/article-images/society/taiwan-eswatini-joint-communique-2026.jpg)
+![라이칭더 총통과 음스와티 3세 국왕이 《세관 상호지원협정》 서명을 함께 지켜보고 있다](/article-images/society/taiwan-eswatini-joint-communique-2026.webp)
 _2026년 5월 3일, 대만과 에스와티니 양측이 Mandvulo Grand Hall에서 《세관 상호지원협정》과 공동공보에 서명했다. Photo: 중화민국 총통부. [OGDL via 총통부 공식 보도자료](https://english.president.gov.tw/News/7122)._
 
 중앙통신사 공식 채널은 [대만과 에스와티니가 공동공보를 서명해 협력을 심화한 전 과정](https://www.youtube.com/watch?v=kdRZ5v61Vjo)을 완전하게 기록했다.

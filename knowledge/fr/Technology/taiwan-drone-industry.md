@@ -74,7 +74,7 @@ L'opportunité de Taïwan se trouve ici : les États-Unis et leurs alliés ont b
 > **📝 Note du conservateur**
 > L'approche de Thunder Tiger pour pénétrer le marché américain mérite attention : d'abord obtenir la certification Blue UAS (résoudre le problème de confiance), puis cibler le « Drone Dominance Program » de l'armée américaine, qui prévoit de livrer plus de 200 000 petits drones à l'armée d'ici 2027. Une entreprise d'avions réduits de Taichung soumissionne pour des commandes du Pentagone.
 
-![Drone NCSIST Albatross n° 9717 exposé lors de la journée portes ouvertes du port de Zhongzheng en mai 2013, ailes déployées, posé au sol sur le quai en béton du rivage — l'un des modèles représentatifs des UAV militaires de fabrication taïwanaise](/article-images/technology/uav-9717-zhongzheng-port-2013.jpg)
+![Drone NCSIST Albatross n° 9717 exposé lors de la journée portes ouvertes du port de Zhongzheng en mai 2013, ailes déployées, posé au sol sur le quai en béton du rivage — l'un des modèles représentatifs des UAV militaires de fabrication taïwanaise](/article-images/technology/uav-9717-zhongzheng-port-2013.webp)
 
 _Le 4 mai 2013, le drone « Rui Yuan » (Albatross) du CSIST (n° 9717, série NCSIST Albatross) exposé lors de la journée portes ouvertes du quai n° 11 du port de Zhongzheng à Kaohsiung. Photo : 玄史生. [CC BY-SA 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:UAV_9717_Display_at_No.11_Pier_Left_Rear_View_20130504.jpg)._
 

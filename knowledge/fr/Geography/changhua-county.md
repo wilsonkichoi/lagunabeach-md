@@ -100,7 +100,7 @@ Le premier fut l'ensablement du port. Wikipédia écrit : « **L'avantage portua
 
 L'époque du « deux Lukang » dans l'expression « une préfecture, deux Lukang, trois Monga » prit fin dès le milieu du XIXe siècle. Les années les plus animées de Lukang n'avaient duré qu'environ 70 ans.
 
-![Ruelles de la vieille rue de Lukang. L'allée Molu, officiellement « allée du Gentilhomme », ne mesure que 70 centimètres à son point le plus étroit ; le tracé sinueux de Jiucuxiang protège du vent de mousson du nord-est ; le puits à demi-partagé du 12 rue Yaolin incarne l'esprit de bon voisinage. Ces textures urbaines vieilles de 200 ans sont encore en place.](/article-images/geography/changhua-02.jpg)
+![Ruelles de la vieille rue de Lukang. L'allée Molu, officiellement « allée du Gentilhomme », ne mesure que 70 centimètres à son point le plus étroit ; le tracé sinueux de Jiucuxiang protège du vent de mousson du nord-est ; le puits à demi-partagé du 12 rue Yaolin incarne l'esprit de bon voisinage. Ces textures urbaines vieilles de 200 ans sont encore en place.](/article-images/geography/changhua-02.webp)
 _Ruelles de la vieille rue de Lukang. Photo : contributeur Wikimedia Commons, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:%E9%B9%BF%E6%B8%AF%E8%80%81%E8%A1%97%E5%B0%8F%E5%B7%B707.jpg)._
 
 ## En 1986, les habitants de Lukang disent « non »
@@ -158,7 +158,7 @@ C'était en 1956. Le premier magistrat du comté de Changhua, Chen Xiqing, lanç
 
 Le China Times rapporte : « **Après l'achèvement du Grand Bouddha en 1961** », les habitants locaux développèrent cette formule : « **À Changhua, “il y a du vent mais pas de typhon, de la pluie mais pas de catastrophe” ; tous croient fermement que c'est la bénédiction du Grand Bouddha** »[^22].
 
-![Grand Bouddha de Bagua Shan, achevé en 1961, haut de 22 mètres, en béton armé, conçu par Lin Qingyao. L'intérieur de la statue comprend six niveaux accessibles à la visite.](/article-images/geography/changhua-04.jpg)
+![Grand Bouddha de Bagua Shan, achevé en 1961, haut de 22 mètres, en béton armé, conçu par Lin Qingyao. L'intérieur de la statue comprend six niveaux accessibles à la visite.](/article-images/geography/changhua-04.webp)
 _Grand Bouddha de Bagua Shan. Photo : contributeur Wikimedia Commons, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BD%B0%E5%8C%96%E5%85%AB%E5%8D%A6%E5%B1%B1%E5%A4%A7%E4%BD%9B31.jpg)._
 
 Ce bodhisattva de ciment de 22 mètres, les bodhisattvas sculptés en bois du temple Longshan de Lukang en 1786, la Mazu financée par l'État du Xinzugong en 1788, les temples du dieu de la Terre au bord des champs de chrysanthèmes de Tianwei : les objets de croyance présents dans le comté de Changhua, de l'époque Qing à l'après-guerre, ne prolongent pas une seule et même ligne temporelle. Chacun constitue une réponse concrète donnée par les gens de son époque à la question : « De quelle force avons-nous besoin pour être protégés ? »

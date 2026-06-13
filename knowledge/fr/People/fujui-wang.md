@@ -18,7 +18,7 @@ author: 'Taiwan.md'
 featured: false
 lastVerified: 2026-05-09
 lastHumanReview: false
-image: '/article-images/people/wang-fujui-noise-silence-2020.jpg'
+image: '/article-images/people/wang-fujui-noise-silence-2020.webp'
 imageCredit: '就在藝術空間 Project Fulfill Art Space'
 imageLicense: "Fair use (editorial commentary on artist's work)"
 imageSource: 'https://www.projectfulfill.com/wang-fujui-295793111929790.html'
@@ -105,14 +105,14 @@ Ce passage décrit un fait, mais aussi le prix à payer pour un artiste qui, en 
 
 ## Les fréquences du corps post-opératoire
 
-![Trois œuvres de l'exposition _Noise is the New Silence_ dans le même cadre : à gauche _Shadow of Noise_ (bruit d'écran CRT), au centre _Skull Noise_ (dispositif de casque audio), à droite _Body Noise_ (images de sutures chirurgicales), novembre 2020 au Project Fulfill Art Space](/article-images/people/wang-fujui-noise-silence-three-pieces-2020.jpg)
+![Trois œuvres de l'exposition _Noise is the New Silence_ dans le même cadre : à gauche _Shadow of Noise_ (bruit d'écran CRT), au centre _Skull Noise_ (dispositif de casque audio), à droite _Body Noise_ (images de sutures chirurgicales), novembre 2020 au Project Fulfill Art Space](/article-images/people/wang-fujui-noise-silence-three-pieces-2020.webp)
 _Novembre 2020, vue d'ensemble de l'exposition _Noise is the New Silence_, trois œuvres présentées ensemble. Photo : 就在藝術空間 Project Fulfill Art Space. [Référence éditoriale fair use via Project Fulfill](https://www.projectfulfill.com/wang-fujui-295793111929790.html)._
 
 En novembre 2020, Fujui Wang présente son exposition personnelle _[Noise is the New Silence](https://www.youtube.com/watch?v=c8m8zPKBVkg)_ (_Bruit-Silence_) au [Project Fulfill Art Space](https://www.projectfulfill.com/wang-fujui-295793111929790.html) (就在藝術空間), jusqu'au 5 décembre[^6]. C'est sa troisième exposition personnelle dans cet espace avec lequel il collabore de longue date, après _Quiet Noise_ (_Bruit silencieux_) en 2012 et _Transparent Imagery of Sounds_ (_Images sonores transparentes_) en 2016 ; suivra _So Noisy, So Silent_ (_Comme bruit, comme silence_) en 2024[^12]. Les quatre titres d'exposition se lisent comme quatre variations sur le même thème : la dialectique du silence et du bruit.
 
 Mais _Noise is the New Silence_ est différent.
 
-![Œuvre centrale de l'exposition _Noise is the New Silence_ de Fujui Wang : enceinte omnidirectionnelle 12 canaux polyédrique fabriquée par l'artiste, suspendue au plafond, 2020 au Project Fulfill Art Space](/article-images/people/wang-fujui-noise-silence-2020.jpg)
+![Œuvre centrale de l'exposition _Noise is the New Silence_ de Fujui Wang : enceinte omnidirectionnelle 12 canaux polyédrique fabriquée par l'artiste, suspendue au plafond, 2020 au Project Fulfill Art Space](/article-images/people/wang-fujui-noise-silence-2020.webp)
 _2020, œuvre centrale de l'exposition _Noise is the New Silence_ : enceinte omnidirectionnelle 12 canaux polyédrique, transmettant les fréquences ténues de la prothèse vasculaire. Photo : 就在藝術空間 Project Fulfill Art Space. [Référence éditoriale fair use via Project Fulfill](https://www.projectfulfill.com/wang-fujui-295793111929790.html)._
 
 Le cœur de l'exposition est une enceinte omnidirectionnelle 12 canaux polyédrique, fabriquée par Fujui Wang lui-même, suspendue au plafond[^6]. Les autres œuvres sont _Shadow of Noise_ (_Ombres de bruit_, bruit d'écran CRT), _Skull Noise_ (_Bruit de crâne_, dispositif de casque audio) et _Body Noise_ (_Bruit de corps_, images de sutures chirurgicales)[^6].
@@ -129,7 +129,7 @@ De l'« absence de règles » de l'environnement extérieur à l'« absence de r
 
 ## Le label dōjin sur Bandcamp
 
-![Pochette de l'album numérique _Ching-Shen-Ching 1.2.3.0._, publié sur Bandcamp ET@T en 2022, empreinte contemporaine de trente ans de matériaux sonores de « Jing-Shen-Jing »](/article-images/people/wang-fujui-ching-shen-ching-album-2022.jpg)
+![Pochette de l'album numérique _Ching-Shen-Ching 1.2.3.0._, publié sur Bandcamp ET@T en 2022, empreinte contemporaine de trente ans de matériaux sonores de « Jing-Shen-Jing »](/article-images/people/wang-fujui-ching-shen-ching-album-2022.webp)
 _2022, pochette de l'album numérique _Ching-Shen-Ching 1.2.3.0._. Image courtesy of [ET@T Bandcamp](https://etat.bandcamp.com/album/ching-shen-ching-1230). Référence éditoriale fair use._
 
 En 2022, Fujui Wang sort l'album numérique _[Ching-Shen-Ching 1.2.3.0.](https://etat.bandcamp.com/album/ching-shen-ching-1230)_ sur le label Bandcamp d'ET@T, 4 titres[^13], compilant les matériaux sonores de « Jing-Shen-Jing » de la fin des années 1990 au début des années 2020 en un format numérique téléchargeable. Parmi les titres figure _[V-Zone](https://etat.bandcamp.com/track/v-zone)_, l'un des morceaux représentatifs de cette ligne. De l'« échange physique entre dōjin » de 200 exemplaires de fanzine photocopié en 1993 au « label individuel mondial en ligne » du streaming Bandcamp en 2022, trente ans de logique DIY sous différents supports.

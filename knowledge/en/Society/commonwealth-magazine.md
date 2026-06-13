@@ -18,7 +18,7 @@ author: 'Taiwan.md'
 featured: true
 lastVerified: 2026-06-04
 lastHumanReview: false
-image: '/article-images/society/diane-ying-magsaysay.png'
+image: '/article-images/society/diane-ying-magsaysay.webp'
 imageCredit: 'Ramon Magsaysay Award Foundation'
 imageLicense: 'Fair use editorial commentary'
 imageSource: 'https://rmaward.asia/rmawardees/ying-diane-yun-peng/'
@@ -66,7 +66,7 @@ Many people assume CommonWealth Magazine and CommonWealth Culture (天下文化)
 
 ## Four people, five years, two roads
 
-![Kao Hsi-chun speaking at a podium, wearing a dark suit, at what appears to be a book launch event](/article-images/society/kao-hsi-chun-2023.jpg)
+![Kao Hsi-chun speaking at a podium, wearing a dark suit, at what appears to be a book launch event](/article-images/society/kao-hsi-chun-2023.webp)
 _Kao Hsi-chun, chairman of the Global Views-CommonWealth Culture Group. Motivated by scholars' duty to the nation, he assembled the founding team of CommonWealth. After the 1986 split, he went on to found Global Views Magazine and CommonWealth Culture publishing. Photo: Office of the President, Republic of China, 2023. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Charles_Kao_2023-02-09.jpg)._
 
 In 1986, five years after its founding, the CommonWealth team went separate ways.
@@ -82,7 +82,7 @@ As for how many founders there were, the two camps remember differently. CommonW
 
 ## Who belongs in the Top 2000: how a magazine defines "success"
 
-![CommonWealth Economic Forum at the Grand Hyatt Taipei, a speaker on stage, a full audience of business, government, and academic figures](/article-images/society/cwef-economic-forum-2023.jpg)
+![CommonWealth Economic Forum at the Grand Hyatt Taipei, a speaker on stage, a full audience of business, government, and academic figures](/article-images/society/cwef-economic-forum-2023.webp)
 _The CommonWealth Economic Forum (CWEF), winter 2023, at the Grand Hyatt Taipei. Every year, CommonWealth brings executives, officials, and academics into the same room. The magazine that covers them is also the one that convenes them — that convening power is the other face of "standing closest to power." Photo: Chien Chih-hung / Office of the President, Republic of China. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:At_the_CommonWealth_Economic_Forum_at_Grand_Hyatt_Taipei_2023-01-09.jpg)._
 
 Up to this point, CommonWealth is still just a well-run business magazine. What turned it into something else was rankings.

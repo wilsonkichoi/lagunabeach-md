@@ -36,7 +36,7 @@ translatedAt: '2026-05-26T05:10:58+08:00'
 
 > **Aperçu en 30 secondes :** Le 23 août 2025 au soir, les résultats du référendum sur la prolongation de la centrale nucléaire no 3 ont été dépouillés : 4,34 millions de voix favorables, 74 % de oui, un taux de participation de 29,53 %, soit 650 000 voix de moins que le seuil requis. Le lendemain, Lai Ching-te a annoncé trois principes : « sûreté nucléaire garantie, solution aux déchets nucléaires, consensus social ». Sept mois plus tard, le 27 mars 2026, Taipower déposait auprès du Conseil de sûreté nucléaire une demande de redémarrage de la centrale nucléaire no 3, avec une remise en service possible dès 2028[^22][^23]. Le référendum a échoué, mais Taipower reprend la voie du nucléaire : c’est la contradiction la plus profonde d’une île dont 98 % de l’énergie dépend des importations et qui promet d’investir 9 000 milliards de dollars taïwanais pour atteindre le zéro émission nette en 2050[^11]. Objectif gouvernemental pour la géothermie : 200 MW en 2030 ; capacité commerciale réelle fin 2025 : seulement 7,4 MW, soit un écart d’un facteur 27. Le site de stockage de Lanyu a été ouvert en 1982 ; il contient 97 672 fûts de déchets nucléaires, et la date limite de transfert a été manquée quatre fois[^24][^25]. La question énergétique est une question de limites physiques.
 
-![Vue de la centrale nucléaire no 3, à Ma’anshan, Hengchun, Pingtung](/article-images/nature/maanshan-nuclear-plant-nan-wan-2014.jpg)
+![Vue de la centrale nucléaire no 3, à Ma’anshan, Hengchun, Pingtung](/article-images/nature/maanshan-nuclear-plant-nan-wan-2014.webp)
 
 _La centrale nucléaire no 3 de Hengchun, Pingtung, aussi appelée centrale nucléaire de Ma’anshan, située sur le littoral de Nanwan. Le réacteur no 1 a été arrêté le 1er janvier 2025, le réacteur no 2 le 17 mai. Image : M. Weitzel, CC BY-SA 3.0, via Wikimedia Commons_
 
@@ -72,7 +72,7 @@ Déplaçons la caméra vers l’île d’Olkiluoto, dans le sud de la Finlande.
 
 À 500 mètres sous terre, dans une couche de granite, un tunnel long de 5 kilomètres a été creusé. Au bout se trouve **Onkalo**, le premier site de stockage définitif des déchets nucléaires hautement radioactifs au monde à avoir officiellement obtenu une autorisation d’essai d’exploitation. En août 2024, l’autorité finlandaise de sûreté nucléaire, STUK, a délivré son permis. Le projet, planifié depuis les années 1970, a **pris près d’un demi-siècle**[^29].
 
-![Site de stockage souterrain d’Onkalo, Olkiluoto, Finlande](/article-images/nature/onkalo-finland-2024.jpg)
+![Site de stockage souterrain d’Onkalo, Olkiluoto, Finlande](/article-images/nature/onkalo-finland-2024.webp)
 
 _Entrée du site finlandais de stockage définitif des déchets nucléaires hautement radioactifs d’Onkalo, à 500 mètres sous terre dans une couche de granite, autorisé pour des essais en 2024. Image : kallerna, CC BY-SA 4.0, via Wikimedia Commons_
 
@@ -178,7 +178,7 @@ Taïwan a-t-elle un projet de SMR ? À l’heure actuelle, **aucune planificatio
 
 Revenons à ce qui existe déjà.
 
-![Parc éolien en mer Formosa 1 au large de Miaoli](/article-images/nature/hai-neng-offshore-wind-farm-2024.jpg)
+![Parc éolien en mer Formosa 1 au large de Miaoli](/article-images/nature/hai-neng-offshore-wind-farm-2024.webp)
 
 _Le parc éolien en mer Formosa 1, au large de Miaoli, mis en service commercial en 2019, première grande ferme éolienne en mer de Taïwan. Image : ministère de l’Économie de la République de Chine, Attribution, via Wikimedia Commons_
 
@@ -192,7 +192,7 @@ Mais les éoliennes en mer n’apportent pas seulement de l’électricité ; el
 
 Le solaire photovoltaïque suit une autre voie. En 2024, sa capacité installée atteignait 14 281 MW, soit 68 % du total des renouvelables, pour une production de 14,9 milliards de kWh[^15]. Toitures, sols, plans d’eau, agrivoltaïsme : la diversité des modes d’installation a fait du solaire le pilier des énergies renouvelables. Mais la politique agrivoltaïque a suscité des accusations de « fausse agriculture, vraie production d’électricité », obligeant le ministère de l’Agriculture à renforcer les contrôles. Sur une île où les terres arables ne couvrent que 790 000 hectares, chaque parcelle est une question politique.
 
-![Panneaux solaires sur le toit de l’aire de service de Xihu](/article-images/nature/xihu-service-area-solar-2014.jpg)
+![Panneaux solaires sur le toit de l’aire de service de Xihu](/article-images/nature/xihu-service-area-solar-2014.webp)
 
 _Panneaux solaires sur le toit de l’aire de service de Xihu. En 2024, la capacité photovoltaïque installée de Taïwan atteignait 14 281 MW, soit 68 % des renouvelables. Image : lienyuan lee, CC BY 3.0, via Wikimedia Commons_
 

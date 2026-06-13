@@ -33,7 +33,7 @@ translatedAt: '2026-05-29T00:35:00+08:00'
 
 ## Des adolescents au Guanghua Computer Market
 
-![Le Guanghua Computer Market dans les années 1990 était le cœur de l'industrie informatique taïwanaise : boutiques de logiciels / stands de composants / étals de manuels techniques se pressaient au sous-sol. Les créateurs de jeux y cherchaient leur documentation technique.](/article-images/technology/guanghua-computer-market-2007.jpg)
+![Le Guanghua Computer Market dans les années 1990 était le cœur de l'industrie informatique taïwanaise : boutiques de logiciels / stands de composants / étals de manuels techniques se pressaient au sous-sol. Les créateurs de jeux y cherchaient leur documentation technique.](/article-images/technology/guanghua-computer-market-2007.webp)
 _Guanghua Computer Market, Taipei, photographié en 2007. Le cœur de l'industrie informatique taïwanaise dans les années 1990. Photo : pacificmorningpost via Flickr. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2007-10-15_Guanhua_Computer_Market_Shop.jpg)._
 
 En octobre 1990, à Taipei. Un jeu intitulé Xuan-Yuan Sword apparaissait sur les étageries des boutiques de logiciels.
@@ -50,7 +50,7 @@ Xuan-Yuan Sword avait des graphismes rudimentaires et des commandes maladroites,
 
 ## Celui qui a transformé sa peine de cœur en fin de jeu
 
-![Couverture Steam de The Legend of Sword and Fairy, éditée par SOFTSTAR ENTERTAINMENT sous licence de Softstar. La version remasterisée Steam de 2021 conserve le design graphique original de 1995 ainsi que les personnages de Li Xiaoyao et Zhao Ling'er.](/article-images/technology/softstar-sword-and-fairy.jpg)
+![Couverture Steam de The Legend of Sword and Fairy, éditée par SOFTSTAR ENTERTAINMENT sous licence de Softstar. La version remasterisée Steam de 2021 conserve le design graphique original de 1995 ainsi que les personnages de Li Xiaoyao et Zhao Ling'er.](/article-images/technology/softstar-sword-and-fairy.webp)
 _Couverture Steam de The Legend of Sword and Fairy, éditée par SOFTSTAR sous sa propre marque. Photo : image officielle du Steam Store de SOFTSTAR ENTERTAINMENT, utilisée à titre de commentaire éditorial documentaire sur 30 ans d'histoire de la PI (fair use editorial commentary)._
 
 Cinq ans plus tard, la deuxième épée fut dégainée.
@@ -72,7 +72,7 @@ Dix mille exemplaires se sont vendus le premier jour, en rupture de stock. Les v
 
 ## Deux épées, deux chemins
 
-![Couverture Steam de Xuan-Yuan Sword VII, sorti en 2020 par l'équipe DOMO de Softstar. Considéré comme le premier AAA à moteur de nouvelle génération du marché sinophone, ses piètres performances commerciales ont été l'une des raisons principales de la vente des PI des deux épées par Softstar en 2024.](/article-images/technology/softstar-xuan-yuan-sword-7.jpg)
+![Couverture Steam de Xuan-Yuan Sword VII, sorti en 2020 par l'équipe DOMO de Softstar. Considéré comme le premier AAA à moteur de nouvelle génération du marché sinophone, ses piètres performances commerciales ont été l'une des raisons principales de la vente des PI des deux épées par Softstar en 2024.](/article-images/technology/softstar-xuan-yuan-sword-7.webp)
 _Xuan-Yuan Sword VII (2020), couverture Steam, réalisé par l'équipe DOMO de Softstar. Photo : image officielle du Steam Store de SOFTSTAR ENTERTAINMENT, fair use editorial commentary sur 30 ans d'histoire de la PI._
 
 The Legend of Sword and Fairy et Xuan-Yuan Sword ont tous deux été forgés chez Softstar, mais ils ont suivi des chemins radicalement différents.

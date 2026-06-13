@@ -44,7 +44,7 @@ En 1975, alors qu'il était encore étudiant, il forma avec Chiang Hsueh-shih et
 > 📝 **Note de curation**
 > Beaucoup se souviennent de Lee Tsung-sheng comme du « parrain de la pop mandarine », et des grandes chansons d'amour qu'il a écrites. Mais le point de départ qu'il donne lui-même à sa création est : « Je ne voulais plus retourner livrer du gaz. » Ce point de départ compte, car il explique pourquoi il a écrit toute sa vie dans une langue que les gens ordinaires pouvaient comprendre. Quelqu'un qui a porté des bonbonnes, sonné aux portes et encaissé de l'argent n'écrit pas des chansons dans une langue apprêtée. Il écrit dans la langue du marché et de la rue, parce qu'il se tenait dès le départ au milieu d'eux.
 
-![Portrait en buste de Lee Tsung-sheng en 2008, barbu et d'allure posée, le visage le plus familier du parrain de la pop mandarine](/article-images/people/jonathan-lee-portrait-2008.jpg)
+![Portrait en buste de Lee Tsung-sheng en 2008, barbu et d'allure posée, le visage le plus familier du parrain de la pop mandarine](/article-images/people/jonathan-lee-portrait-2008.webp)
 _Lee Tsung-sheng, photographié en 2008. Une guitare, un tabouret : faire de la chanson le prolongement de la parole. Photo : Tat Lau. [CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:JonathanLee2008_crop.jpg)._
 
 ## Écrire pour quelqu'un d'autre une lettre à Chyi Yu
@@ -70,7 +70,7 @@ Un article de critique musicale formule ce contraste avec une grande justesse : 
 
 Leurs trajectoires de vie forment aussi un contraste intéressant. En 1990, Lo Ta-yu fonda à Hong Kong le label « 音樂工廠 » (Music Factory). [^19] Lee Tsung-sheng n'eut pas son propre label ; sa scène resta toujours Rock Records. Il y devint vice-président et directeur de production, amenant vague après vague de chanteurs au centre de la scène musicale taïwanaise. Voilà deux manières différentes de vivre en « parrain » : l'un crée sa propre maison et devient porte-drapeau ; l'autre, dans une grande entreprise, devient la paire de mains qui choisit les chansons, les polit et signe les artistes.
 
-![Lo Ta-yu lors des Golden Melody Awards 2021, lunettes noires et tenue noire, son style caractéristique](/article-images/people/lo-ta-yu-gma-2021.jpg)
+![Lo Ta-yu lors des Golden Melody Awards 2021, lunettes noires et tenue noire, son style caractéristique](/article-images/people/lo-ta-yu-gma-2021.webp)
 _Lo Ta-yu, ici photographié aux Golden Melody Awards 2021, et Lee Tsung-sheng sont souvent nommés ensemble comme les deux parrains de la musique mandarine : l'un observe le monde, l'autre sonde le coeur. Photo : 化城再来人. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:20210822CPKK35c_TAIWAN_GMA_LO_TAYOU_EN0822LA07-1.jpg)._
 
 ## Ces chansons qui ne sont en réalité pas de lui
@@ -130,7 +130,7 @@ Le monde universitaire a remarqué cette tension. À l'Université nationale Chu
 
 En 2002, Lee Tsung-sheng fit quelque chose d'assez différent de la production et de l'écriture de chansons : il fonda « Lee Guitars » et se mit à fabriquer lui-même des guitares acoustiques. [^40] Il expliqua que l'histoire de la pop mandarine ne comptait presque pas de luthiers qui lui soient propres. L'année suivante, il transféra son atelier à 798, à Pékin ; le centre de gravité de sa vie se déplaça ensuite progressivement vers Pékin. [^40]
 
-![Gros plan sur une guitare acoustique Lee Guitars, avec le veinage du bois et la rosace nettement visibles](/article-images/people/jonathan-lee-guitar.jpg)
+![Gros plan sur une guitare acoustique Lee Guitars, avec le veinage du bois et la rosace nettement visibles](/article-images/people/jonathan-lee-guitar.webp)
 _Une guitare « Lee Guitars ». Des mains qui portaient des bonbonnes de gaz aux mains qui rabotent le bois pour fabriquer des guitares. Photo : KaurJmeb. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jonathan_Lees_guitar.jpg)._
 
 Des mains qui portaient des bonbonnes de gaz, aux mains qui jouaient de la guitare, écrivaient des chansons et polissaient les chanteurs, puis aux mains qui rabotent le bois pour faire des guitares, ces mains ont changé plusieurs fois de métier. Mais en y regardant de près, elles font en réalité toujours la même chose : transformer lentement ce qu'une personne ordinaire voudrait dire sans savoir le formuler en une oeuvre que d'autres peuvent recevoir.

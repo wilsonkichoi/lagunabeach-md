@@ -32,7 +32,7 @@ Le 25 août 1960, lors de la cérémonie d'ouverture des Jeux olympiques de Rome
 
 Cette année-là, cette équipe ne pouvait ni s'appeler « République de Chine » ni « Taiwan ». Le nom que le CIO lui avait attribué était « FORMOSA », Formose. Dans les rangs se trouvait un jeune homme nommé Yang Chuan-kwang ; quelques jours plus tard, il décrocha l'argent du décathlon — la première médaille olympique de l'histoire de Taïwan — sous la bannière d'une équipe baptisée « Formose ».
 
-![Yang Chuan-kwang, JO de Rome 1960](/article-images/society/yang-chuan-kwang-1960.jpg)
+![Yang Chuan-kwang, JO de Rome 1960](/article-images/society/yang-chuan-kwang-1960.webp)
 _Yang Chuan-kwang, médaille d'argent du décathlon aux JO de Rome 1960, première médaille olympique de Taïwan. Le nom d'équipe qu'il portait était « FORMOSA », Formose. (UCLA Southern Campus 1960, domaine public)_
 
 Ce fut la seule et unique fois dans l'histoire olympique qu'une délégation protesta publiquement lors de la cérémonie d'ouverture[^2]. Plus de soixante ans ont passé depuis ; la banderole a été rangée dans les archives, mais ce contre quoi elle protestait n'a jamais cessé : une équipe monte sur scène, mais ne peut pas utiliser le nom qu'elle souhaite.
@@ -77,7 +77,7 @@ Sur le plan juridique, Taïwan avait gagné. Mais après la victoire ? Le fait q
 
 Deux mois plus tard, le 23 mars 1981, Shen Chia-ming, secrétaire général du Comité olympique chinois (de Taipei), signa officiellement avec Samaranch l'**Accord de Lausanne** (Protocole d'accord entre le CIO et le Comité olympique de Chinese Taipei). L'accord fixa le nom utilisé depuis lors : **CHINESE TAIPEI OLYMPIC COMMITTEE**, code pays TPE[^13]. Un détail révèle le calcul politique de l'époque : dans l'ordre d'entrée des délégations aux cérémonies, TPE fut classé dans le groupe T, délibérément éloigné du groupe C (« China »), pour éviter toute juxtaposition visuelle évoquant une « double Chine ».
 
-![Le président du CIO Juan Antonio Samaranch](/article-images/society/samaranch.jpg)
+![Le président du CIO Juan Antonio Samaranch](/article-images/society/samaranch.webp)
 _Juan Antonio Samaranch, alors président du CIO. Le 23 mars 1981, il signa l'Accord de Lausanne avec Shen Chia-ming, secrétaire général du Comité olympique chinois, scellant le nom « Chinese Taipei » pour les quarante années à venir. (Photo Leo Medvedev, CC BY-SA 4.0)_
 
 > **📝 Note du curateur**

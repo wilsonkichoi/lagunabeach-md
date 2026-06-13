@@ -62,7 +62,7 @@ Beaucoup pensent que CommonWealth Magazine et CommonWealth Publishing appartienn
 
 ## Quatre personnes, cinq ans, deux voies
 
-![Kao Hsi-chun prononce un discours devant un pupitre, vêtu d’un costume sombre, avec en arrière-plan le lieu d’une présentation de livres](/article-images/society/kao-hsi-chun-2023.jpg)
+![Kao Hsi-chun prononce un discours devant un pupitre, vêtu d’un costume sombre, avec en arrière-plan le lieu d’une présentation de livres](/article-images/society/kao-hsi-chun-2023.webp)
 _Kao Hsi-chun, président du groupe Global Views-CommonWealth Publishing. C’est dans l’esprit de « servir le pays en lettré » qu’il invita l’équipe fondatrice de CommonWealth ; après la scission de 1986, il fonda Global Views Monthly et CommonWealth Publishing. Photo : Bureau présidentiel de la République de Chine, 2023. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Charles_Kao_2023-02-09.jpg)._
 
 En 1986, cinq ans après la fondation, l’équipe fondatrice de CommonWealth se sépara.
@@ -78,7 +78,7 @@ Sur le nombre exact de fondateurs, les deux groupes ont chacun leur version. Com
 
 ## Qui fait partie des 2 000 plus grandes : comment un magazine définit la « réussite »
 
-![Forum économique de CommonWealth, salle de banquet du Grand Hyatt Taipei, avec des intervenants sur scène et un public nombreux issu du gouvernement, de l’industrie et du monde académique](/article-images/society/cwef-economic-forum-2023.jpg)
+![Forum économique de CommonWealth, salle de banquet du Grand Hyatt Taipei, avec des intervenants sur scène et un public nombreux issu du gouvernement, de l’industrie et du monde académique](/article-images/society/cwef-economic-forum-2023.webp)
 _Session d’hiver 2023 du CommonWealth Economic Forum (CWEF), au Grand Hyatt Taipei. Chaque année, CommonWealth invite entreprises, gouvernement et monde académique dans la même salle. Le magazine qui les couvre est aussi celui qui les réunit ; cette capacité de convocation est l’autre face de sa proximité avec le pouvoir. Photo : Chien Chih-hung / Bureau présidentiel de la République de Chine. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:At_the_CommonWealth_Economic_Forum_at_Grand_Hyatt_Taipei_2023-01-09.jpg)._
 
 À ce stade, CommonWealth n’était encore qu’un magazine économique réussi. Ce qui lui donna un autre rôle, ce furent les classements.

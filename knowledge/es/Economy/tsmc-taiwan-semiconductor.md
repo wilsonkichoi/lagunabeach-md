@@ -16,7 +16,7 @@ sourceBodyHash: 'sha256:c307a1be6d5f1271'
 translatedAt: '2026-05-13T09:30:28+08:00'
 lastHumanReview: false
 readingTime: 14
-image: '/article-images/economy/tsmc-fabs-hsinchu-2020.jpg'
+image: '/article-images/economy/tsmc-fabs-hsinchu-2020.webp'
 imageCredit: 'Tseng Cheng-Hsun via Wikimedia Commons'
 imageLicense: 'CC BY 2.0'
 imageSource: 'https://commons.wikimedia.org/wiki/File:TSMC_fabs_in_Hsinchu_01.jpg'
@@ -62,7 +62,7 @@ El compromiso de "no crear marcas propias, nunca competir con los clientes" demo
 
 ## "De incomprendido" a "indispensable"
 
-![Vista aérea del complejo de fábricas de TSMC en el Parque Científico de Hsinchu, 2 de enero de 2020 (foto de Tseng Cheng-Hsun)](/article-images/economy/tsmc-fabs-hsinchu-2020.jpg)
+![Vista aérea del complejo de fábricas de TSMC en el Parque Científico de Hsinchu, 2 de enero de 2020 (foto de Tseng Cheng-Hsun)](/article-images/economy/tsmc-fabs-hsinchu-2020.webp)
 _Complejo de fábricas de TSMC en el Parque Científico de Hsinchu (Tseng Cheng-Hsun, 2020-01-02). Photo: Tseng Cheng-Hsun. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:TSMC_fabs_in_Hsinchu_01.jpg)._
 
 El punto de inflexión llegó a finales de los años noventa.
@@ -131,7 +131,7 @@ Este es solo un caso. TSMC tiene controversias similares de expropiación y eval
 
 ## El hombre más importante en el Salón Este de la Casa Blanca
 
-![Vista aérea de la obra de la Fab 21 de TSMC en Phoenix, Arizona, 5 de noviembre de 2023 (foto de Hunter Trick)](/article-images/economy/tsmc-fab21-arizona-2023.jpg)
+![Vista aérea de la obra de la Fab 21 de TSMC en Phoenix, Arizona, 5 de noviembre de 2023 (foto de Hunter Trick)](/article-images/economy/tsmc-fab21-arizona-2023.webp)
 _Vista aérea de la obra de la Fab 21 de TSMC en Phoenix, Arizona (Hunter Trick, 2023-11-05). Photo: Hunter Trick. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:231105-1_TSMC_Fab_21_construction.jpg)._
 
 La tarde del 3 de marzo de 2025, Salón Este de la Casa Blanca.

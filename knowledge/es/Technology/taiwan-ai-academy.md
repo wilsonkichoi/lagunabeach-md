@@ -21,7 +21,7 @@ translatedAt: "2026-05-18T20:48:56+08:00"
 
 > **Resumen en 30 segundos**: El 27 de marzo de 2020, Chen Sheng-wei, investigador de 44 años de la Academia Sinica, llamó al editor jefe de CommonWealth Magazine y le dijo con seriedad que “quería hacer algo”: abrir una especie de curso gratuito de programación para toda la ciudadanía. Dos días después sufrió una caída y quedó en coma; 13 días más tarde murió. Al momento de su muerte, la Escuela Taiwanesa de Inteligencia Artificial (AIA), que él había fundado en 2018, ya había formado a más de seis mil personas. En el mismo período, el Consejo Nacional de Desarrollo proclamaba una “gran estrategia de IA para un país pequeño” con 16.000 millones de dólares taiwaneses en cinco años; él, en cambio, levantó 180 millones de financiamiento privado, con 30 millones aportados por cada una de seis empresas, entre ellas Formosa Plastics, Chi Mei e Inventec, y abrió su propia escuela. Ocho años después, los exalumnos superaron los diez mil. AIA es una pieza del rompecabezas de la modernización industrial de Taiwán que se parece muy poco a Taiwán.
 
-![Retrato oficial de Chen Sheng-wei durante una conferencia pública en la Escuela Taiwanesa de Inteligencia Artificial, 2018](/article-images/technology/taiwan-ai-academy-chen-shengwei-portrait-2018.jpg)
+![Retrato oficial de Chen Sheng-wei durante una conferencia pública en la Escuela Taiwanesa de Inteligencia Artificial, 2018](/article-images/technology/taiwan-ai-academy-chen-shengwei-portrait-2018.webp)
 _Chen Sheng-wei (1976-2020), fundador y director ejecutivo de la Escuela Taiwanesa de Inteligencia Artificial. Foto: Escuela Taiwanesa de Inteligencia Artificial, oficial. [via aiacademy.tw](https://aiacademy.tw/swc/)._
 
 ---
@@ -128,7 +128,7 @@ El programa de líderes técnicos estaba dirigido a **ingenieros que ya sabían 
 
 Dos programas para dos tipos de vacío: esa fue la primera diferencia estructural entre AIA y otros cursos MOOC en línea.
 
-![El director ejecutivo Chen Sheng-wei durante una charla en una clase o actividad de AIA, 2018](/article-images/technology/taiwan-ai-academy-chen-shengwei-talk-2018.jpg)
+![El director ejecutivo Chen Sheng-wei durante una charla en una clase o actividad de AIA, 2018](/article-images/technology/taiwan-ai-academy-chen-shengwei-talk-2018.webp)
 _El director ejecutivo Chen Sheng-wei dando un discurso en un acto público de la Escuela Taiwanesa de Inteligencia Artificial. Foto: Escuela Taiwanesa de Inteligencia Artificial, oficial. [via aiacademy.tw](https://aiacademy.tw/swc/)._
 
 Entre los estudiantes admitidos en la primera cohorte hubo uno que luego compartió públicamente su experiencia en la página oficial de testimonios de AIA. Su número de estudiante era AT071039 y se llamaba Chen Yen-chin. Escribió:
@@ -203,7 +203,7 @@ La expresión inglesa “make a difference” también fue usada por el propio C
 
 El 29 de marzo de 2020, Chen Sheng-wei cayó en una pista de patinaje en línea y se golpeó la cabeza. De regreso a casa en automóvil, empezó a sentirse mal y se detuvo temporalmente al costado de la vía. Fue llevado al hospital, sufrió una hemorragia cerebral y quedó en coma. Trece días después, el 11 de abril de 2020, murió[^2].
 
-![Retrato de Chen Sheng-wei en una entrevista de Global Views Monthly en 2020, una de las últimas series de imágenes públicas antes de su muerte](/article-images/technology/taiwan-ai-academy-chen-shengwei-gvm-2020.jpg)
+![Retrato de Chen Sheng-wei en una entrevista de Global Views Monthly en 2020, una de las últimas series de imágenes públicas antes de su muerte](/article-images/technology/taiwan-ai-academy-chen-shengwei-gvm-2020.webp)
 _Retrato de Chen Sheng-wei poco antes de su muerte, en una entrevista de Global Views Monthly. Foto: Chang Chih-chieh / Global Views Monthly, 2020. [via gvm.com.tw](https://www.gvm.com.tw/article/72282) (comentario editorial bajo uso justo)._
 
 Después de que se difundió la noticia de su muerte, exalumnos de AIA, E.SUN Financial, la Academia Sinica, g0v y la comunidad taiwanesa de ciencia de datos colaboraron para poner en línea el 21 de abril una plataforma de homenaje virtual con estilo de escena de anime y videojuegos. El equipo trabajó toda la noche y terminó a la una de la madrugada[^B1].

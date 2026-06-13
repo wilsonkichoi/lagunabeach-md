@@ -40,7 +40,7 @@ translatedAt: '2026-05-26T05:10:58+08:00'
 
 ## Samedi, 18 heures, place sud de la Maison rouge
 
-![La zone piétonne de Ximen un samedi à 18 heures : la foule traverse le passage piéton arc-en-ciel en direction de la Maison rouge, symbole du salon à ciel ouvert des adolescents de Taipei depuis la délimitation de la zone piétonne à la fin des années 1990](/article-images/geography/ximending-rainbow-crossing-2019.jpg)
+![La zone piétonne de Ximen un samedi à 18 heures : la foule traverse le passage piéton arc-en-ciel en direction de la Maison rouge, symbole du salon à ciel ouvert des adolescents de Taipei depuis la délimitation de la zone piétonne à la fin des années 1990](/article-images/geography/ximending-rainbow-crossing-2019.webp)
 _Septembre 2019, foule sur le passage piéton arc-en-ciel de la zone piétonne de Ximen. Photo: Volksabstimmung, 2019-09-28. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ximending_rainbow_crossing_201910.jpg) (CC BY-SA 2.0)._
 
 Si vous demandez à un adolescent de Taipei de 18 ans « où sortir ce week-end », il ne répondra pas Xinyi. Il dira « Ximen ».
@@ -71,7 +71,7 @@ Mais en 1904, une chose se produisit : les Japonais décidèrent de démolir les
 
 ## Le bâtiment octogonal en brique de 1908
 
-![Place sud de la Maison rouge de Ximen : l’ensemble de deux bâtiments en brique rouge achevé en 1908, salle octogonale au nord et bâtiment en croix au sud, est devenu au XXIe siècle une zone de bars en terrasse et un espace public LGBTQ-friendly](/article-images/geography/ximending-red-house-south-plaza-2013.jpg)
+![Place sud de la Maison rouge de Ximen : l’ensemble de deux bâtiments en brique rouge achevé en 1908, salle octogonale au nord et bâtiment en croix au sud, est devenu au XXIe siècle une zone de bars en terrasse et un espace public LGBTQ-friendly](/article-images/geography/ximending-red-house-south-plaza-2013.webp)
 _Vue panoramique de la place sud de la Maison rouge de Ximen. Photo: Asacyan, 2013-04-25. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:South_Plaza,_Red_House_Theater_20130425.jpg) (CC BY-SA 3.0)._
 
 S’il n’y avait qu’un seul objet à voir à Ximending, ce serait la Maison rouge de Ximen.
@@ -126,7 +126,7 @@ Après ces trois lieux, on comprend la véritable texture de Ximending. Les tour
 
 ## Après 1999, la rue ralentit et les gens se multiplièrent
 
-![Graffitis du mur bleu du Cinema Theme Park dans la zone piétonne de Ximen : après l’arrivée des sous-cultures à Ximending à la fin des années 1990, l’art de rue est devenu l’une des grammaires visuelles du quartier](/article-images/geography/ximending-graffiti-wall-2010.jpg)
+![Graffitis du mur bleu du Cinema Theme Park dans la zone piétonne de Ximen : après l’arrivée des sous-cultures à Ximending à la fin des années 1990, l’art de rue est devenu l’une des grammaires visuelles du quartier](/article-images/geography/ximending-graffiti-wall-2010.webp)
 _Graffitis du mur bleu du Cinema Theme Park à Ximending. Photo: eazytraveler, 2010-02-13. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2010-02-13_Blue_wall_with_graffiti_in_Ximending.jpg) (CC BY 2.0)._
 
 La seconde grande transformation de Ximending se produisit à la fin des années 1990.
@@ -149,7 +149,7 @@ Après les années 2010, la municipalité de Taipei renforça activement ce posi
 
 ## 130 ans de jeunes sur la même rue
 
-![La zone piétonne de Ximen une nuit de Noël : la foule traverse sous les enseignes néon et les décorations lumineuses, image contemporaine de cette même rue en 2026](/article-images/geography/ximending-christmas-lights-2022.jpg)
+![La zone piétonne de Ximen une nuit de Noël : la foule traverse sous les enseignes néon et les décorations lumineuses, image contemporaine de cette même rue en 2026](/article-images/geography/ximending-christmas-lights-2022.webp)
 _La zone piétonne de Ximen une nuit de Noël en décembre 2022. Photo: 迷惘的人生 (KUO TUNG YU), 2022-12-14. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Christmas_lights_at_Ximending_20221214.jpg) (CC BY-SA 2.0)._
 
 Le 18 octobre 1908, premier jour d’ouverture du Marché de Ximen. Un adolescent minnanais local de 18 ans entre avec ses parents par la porte de la salle octogonale conçue par Jūrō Kondō et voit des commerçants japonais vendre des assaisonnements qu’il n’a jamais vus. Il ne sait pas que ce bâtiment de brique rouge restera ici pendant un siècle.

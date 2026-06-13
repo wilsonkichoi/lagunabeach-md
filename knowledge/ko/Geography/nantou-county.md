@@ -73,7 +73,7 @@ The Zhuoshui River is Taiwan's longest river, 186.4 kilometers long, originating
 
 The history of this county is arranged by altitude. The Bacao Canal on the plains, Wushe on the mountainside, Lalu Island under the lake, Yushan at 3,952 meters—every altitude layer presses a story.
 
-![High-altitude landscape around Hehuanshan Main Peak. Wuling, at 3,275 meters, is located in the saddle between Hehuanshan Main Peak and East Peak. This point on Route 14-甲 is the highest point on Taiwan's roads; winter snowfall here is one of the few places on the Taiwan island where snow can be seen.](/article-images/geography/nantou-01.jpg)
+![High-altitude landscape around Hehuanshan Main Peak. Wuling, at 3,275 meters, is located in the saddle between Hehuanshan Main Peak and East Peak. This point on Route 14-甲 is the highest point on Taiwan's roads; winter snowfall here is one of the few places on the Taiwan island where snow can be seen.](/article-images/geography/nantou-01.webp)
 _Hehuanshan Landscape. Photo: Chewy3326, CC BY 2.5. [via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hehuanshan_Cuesta.JPG)._
 
 ## The Water of Bacao Canal Flows from the Kangxi Era to Mingjian Township
@@ -136,7 +136,7 @@ The Shao people originally lived in the Shiin settlement on the east side of Sun
 
 Lalu Island (Lalu) is the small island in the center of Sun Moon Lake, the highest ancestral spirit ground of the Shao people. Lalu means "**Holy Island in the Heart**" in the Shao language[^15]. During the Japanese occupation, it was called "Jade Island"; after the war, in 1949, the Kuomintang renamed it "Guanghua Island" (meaning "Shining China"). Shrunk from hundreds of jia of farmland to a 30-meter island after the reservoir project. **It took 15 years to turn from a Holy Island into a small island surrounded by tourist boats for photos.**
 
-![Lalu Island, August 2013. The small island in the center of Sun Moon Lake, the highest ancestral spirit ground of the Shao people, Lalu "Holy Island in the Heart". Before the Wugui Dam raised the water level by 18.18 meters in 1934, it was hundreds of jia of farmland for the Shao people; today it is shrunk to a 30-meter island, surrounded by tourist boats for photos. In 2000, it was officially renamed back to Lalu from "Guanghua Island".](/article-images/geography/nantou-01.jpg)
+![Lalu Island, August 2013. The small island in the center of Sun Moon Lake, the highest ancestral spirit ground of the Shao people, Lalu "Holy Island in the Heart". Before the Wugui Dam raised the water level by 18.18 meters in 1934, it was hundreds of jia of farmland for the Shao people; today it is shrunk to a 30-meter island, surrounded by tourist boats for photos. In 2000, it was officially renamed back to Lalu from "Guanghua Island".](/article-images/geography/nantou-01.webp)
 _Lalu Island, 2013-08-19. Photo: Ckbun, CC BY-SA 3.0. [via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2013%E5%B9%B48%E6%9C%8819%E6%97%A5%E6%8B%89%E9%AD%AF%E5%B3%B6.JPG)._
 
 By 2000, the Shao people fought to rename Guanghua Island back to "Lalu Island"[^15]. The following year, on August 8, 2001, the Shao people were officially recognized as the **10th indigenous people**, moving from the Pingpu category. ⚠️ The Shao population figures vary by year: Ministry of the Interior Household Registration Department 2017 statistics show 776 people; other statistics show around 885 people. This article adopts "**over 800 people**," making it the third-smallest ethnic group among Taiwan's 16 indigenous peoples[^16].

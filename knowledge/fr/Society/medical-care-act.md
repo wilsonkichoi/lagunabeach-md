@@ -34,7 +34,7 @@ Le jour où l’amendement a été adopté, les urgences taïwanaises étaient e
 
 Ces trois phrases se tiennent sur la même terre taïwanaise que les mots de l’article 1 de la Loi sur les soins médicaux : « promouvoir le développement sain des activités médicales, répartir rationnellement les ressources médicales, améliorer la qualité des soins, protéger les droits et intérêts des patients, et accroître la santé nationale »[^3]. D’un côté, la vision écrite dans la loi ; de l’autre, l’épuisement sur le terrain hospitalier. Entre les deux se trouve le chemin parcouru par la loi depuis quarante ans, et celui qu’elle n’a pas encore achevé.
 
-![Vue officielle de l’Hôpital de l’Université nationale de Taïwan depuis le bassin du parc mémorial 228 de Taipei, l’un des symboles matériels de quarante ans d’accumulation réglementaire dans les hôpitaux publics taïwanais](/article-images/society/ntu-hospital-pond-2011.jpg)
+![Vue officielle de l’Hôpital de l’Université nationale de Taïwan depuis le bassin du parc mémorial 228 de Taipei, l’un des symboles matériels de quarante ans d’accumulation réglementaire dans les hôpitaux publics taïwanais](/article-images/society/ntu-hospital-pond-2011.webp)
 
 _Le 10 mai 2011, l’Hôpital de l’Université nationale de Taïwan photographié vers l’est depuis le bord du bassin situé au nord-ouest du parc mémorial de la paix 228 à Taipei. L’hôpital NTU remonte à l’« Hôpital taïwanais du Grand Japon » fondé en 1895 ; il est l’une des institutions témoins de la plus longue évolution du système hospitalier public taïwanais. Photo : 玄史生. [CC BY-SA 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:NTU_Hospital_View_from_Pond_of_Taipei_New_Park_20110510.jpg)._
 

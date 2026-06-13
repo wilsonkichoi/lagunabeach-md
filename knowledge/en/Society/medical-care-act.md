@@ -34,7 +34,7 @@ On the day the amendment passed, Taiwan’s emergency rooms were still congested
 
 These three sentences stand on the same piece of Taiwanese land as Article 1 of the Medical Care Act, which speaks of “promoting the sound development of medical care enterprises, reasonably distributing medical care resources, improving medical care quality, protecting patient rights and interests, and promoting national health.”[^3] On one side is the vision written into law. On the other is exhaustion at the hospital front line. Between them lies the forty-year path the Medical Care Act has taken, and the path it has yet to complete.
 
-![The official eastward view of National Taiwan University Hospital from the pond in Taipei 228 Memorial Park is one physical symbol of four decades of accumulated regulation around Taiwan’s public hospitals](/article-images/society/ntu-hospital-pond-2011.jpg)
+![The official eastward view of National Taiwan University Hospital from the pond in Taipei 228 Memorial Park is one physical symbol of four decades of accumulated regulation around Taiwan’s public hospitals](/article-images/society/ntu-hospital-pond-2011.webp)
 
 _National Taiwan University Hospital, photographed eastward from the pond on the northwest side of Taipei 228 Peace Memorial Park on May 10, 2011. NTU Hospital traces its predecessor to the “Taiwan Hospital of the Great Japanese Empire,” founded in 1895, and is one of the institutions that has witnessed the longest evolution of Taiwan’s public hospital system. Photo: 玄史生. [CC BY-SA 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:NTU_Hospital_View_from_Pond_of_Taipei_New_Park_20110510.jpg)._
 

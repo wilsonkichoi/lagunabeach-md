@@ -98,7 +98,7 @@ The scale of cross-strait donations led the media to frequently call him "one of
 
 That day, he publicly pledged to donate 95% of his personal wealth to charity after his death.[^2]
 
-![Exterior of the Dah-Hsian Library at National Chengchi University, built with a donation of approximately NT$1.3 billion from Samuel Yin to celebrate his advisor Seetoo Dah-Hsian's 70th birthday](/article-images/people/yin-nccu-dah-hsian-library-2022.jpg)
+![Exterior of the Dah-Hsian Library at National Chengchi University, built with a donation of approximately NT$1.3 billion from Samuel Yin to celebrate his advisor Seetoo Dah-Hsian's 70th birthday](/article-images/people/yin-nccu-dah-hsian-library-2022.webp)
 _Dah-Hsian Library at National Chengchi University, completed in 2019. Samuel Yin donated approximately NT$1.3 billion to celebrate his advisor Seetoo Dah-Hsian's 70th birthday. Photo: Wikimedia Commons contributor, 2022-08-15. [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Dah_Hsian_Seetoo_Library_front_20220815.jpg)._
 
 ## Why He Built a Science Prize, Not a Museum
@@ -145,7 +145,7 @@ Looking back at the selection results, the Tang Prize accomplished something rar
 
 For an island frequently marginalized by the international society for political reasons, this is another way of writing sovereignty.
 
-![Samuel Yin at the 2014 inaugural Tang Prize reception](/article-images/people/yin-yan-liang-tang-prize-reception.jpg)
+![Samuel Yin at the 2014 inaugural Tang Prize reception](/article-images/people/yin-yan-liang-tang-prize-reception.webp)
 _September 2014, inaugural Tang Prize reception. Photo: Taipei City Government, 2014-09-15. [Open data via Taipei City Government](https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&sms=72544237BBE4C5F6&s=D6F7488144C1C3CA)._
 
 ## The Line Always Stayed on the Inside
@@ -180,7 +180,7 @@ From the 2012 deferred prosecution in the national security accounts case, to th
 
 Cross-strait hedging, white-collar privilege, whistleblower, philanthropist — all of these framings apply to him simultaneously. A reader may choose any single framing as his definition, or accept that all of them coexist.
 
-![Samuel Yin at a public event, 2015](/article-images/people/yin-yan-liang-portrait-2015.jpg)
+![Samuel Yin at a public event, 2015](/article-images/people/yin-yan-liang-portrait-2015.webp)
 _Samuel Yin, photographed at a public event in 2015. Photo: Taipei City Government, 2015-10-28. [Open data via Taipei City Government](https://commons.wikimedia.org/wiki/File:Samuel_Yin_2015_(cropped).jpg).\_
 
 ## Complete It One Day Earlier, Save One More Patient
@@ -193,7 +193,7 @@ More importantly, he chose to license these 600-plus patents to the entire engin
 
 His business empire reached its final chapter in 2021. On October 22 that year, he chose to sell RT-Mart's Taiwan operations to Pxmart, completing the transaction in 2022. Ruentex Construction and Ruentex Industries each recorded NT$1.303 billion in stock gains, with the total transaction valued at approximately NT$130–150 billion, including real estate and brand.[^39] The change of ownership at Taiwan's leading local hypermarket chain marked a turning point in Taiwan's retail industry. It was also the last major business decision he made during his lifetime.
 
-![Ruentex Zhonglun Station Complex, Zhongshan District, Taipei. One of Ruentex Construction's signature works](/article-images/people/yin-ruentex-zhonglun-2023.jpg)
+![Ruentex Zhonglun Station Complex, Zhongshan District, Taipei. One of Ruentex Construction's signature works](/article-images/people/yin-ruentex-zhonglun-2023.webp)
 _Ruentex Zhonglun Station Complex, Zhongshan District, Taipei, built by Ruentex Construction. The precast method's core application is enabling rapid completion of large commercial buildings of this type. Photo: Yu tptw, 2023-05-17. [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Ruentex_Zhonglun_Station_Complex_20230517.jpg)._
 
 He is gone, but what he built continues to operate.

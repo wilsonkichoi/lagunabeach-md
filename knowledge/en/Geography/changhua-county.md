@@ -100,7 +100,7 @@ The first was harbor silting. Wikipedia's original text: "**Lukang's port advant
 
 The "Two Lukang" era of "One Prefecture, Two Lukang, Three Mengjia" ended by the mid-19th century. Lukang's most prosperous period lasted only about 70 years.
 
-![Lukang Old Street alleys. The Touching Breast Lane (formally "Gentleman's Lane") at its narrowest is 70 cm; the curved design of Nine Turns Lane blocks the northeast monsoon; the Half-Side Well (No. 12, Yaolin Street) embodies the spirit of neighborhood goodwill — these 200-year-old urban textures remain in place.](/article-images/geography/changhua-02.jpg)
+![Lukang Old Street alleys. The Touching Breast Lane (formally "Gentleman's Lane") at its narrowest is 70 cm; the curved design of Nine Turns Lane blocks the northeast monsoon; the Half-Side Well (No. 12, Yaolin Street) embodies the spirit of neighborhood goodwill — these 200-year-old urban textures remain in place.](/article-images/geography/changhua-02.webp)
 _Lukang Old Street alleys. Photo: Wikimedia Commons contributor, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:%E9%B9%BF%E6%B8%AF%E8%80%81%E8%A1%97%E5%B0%8F%E5%B7%B707.jpg)._
 
 ## 1986: Lukang Said "No"
@@ -158,7 +158,7 @@ The year was 1956. The first Changhua County magistrate, Chen Xi-qing, initiated
 
 The _China Times_ reported: "**After the Great Buddha was completed in 1961**," local residents developed a saying: "**Changhua 'has wind but no typhoons, has rain but no disasters,' all believed to be the Buddha's blessing.**"[^22]
 
-![Bagua Mountain Great Buddha, completed in 1961, 22 meters tall, reinforced concrete, designed by Lin Qing-yao. The interior is divided into six levels accessible to visitors.](/article-images/geography/changhua-04.jpg)
+![Bagua Mountain Great Buddha, completed in 1961, 22 meters tall, reinforced concrete, designed by Lin Qing-yao. The interior is divided into six levels accessible to visitors.](/article-images/geography/changhua-04.webp)
 _Bagua Mountain Great Buddha. Photo: Wikimedia Commons contributor, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BD%B0%E5%8C%96%E5%85%AB%E5%8D%A6%E5%B1%B1%E5%A4%A7%E4%BD%9B31.jpg)._
 
 A 22-meter concrete Bodhisattva, alongside the 1786 wooden-carved Bodhisattva of Lukang Longshan Temple, the 1788 officially funded Mazu of Xinzu Gong, and the Tudigong shrines beside Tianwei's chrysanthemum fields — the objects of faith within Changhua's borders, from the Qing dynasty to the post-war period, do not continue along a single timeline. Each is a concrete answer from its era to the question "what kind of power do we need protection from?"

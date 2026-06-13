@@ -98,7 +98,7 @@ Si en una calle de Taiwán ves un perro o un gato con una pequeña punta faltant
 
 TNR es la sigla de Trap (capturar), Neuter (esterilizar) y Return (devolver): capturar animales callejeros, esterilizarlos, marcarles la oreja y devolverlos a su lugar original. Más tarde, la versión oficial de la mayoría de los condados y ciudades incorporó la vacunación y pasó a llamarse **TNvR**; la v adicional corresponde a Vaccinate. La lógica es sencilla: si no puedes matarlos a todos, haz que dejen de reproducirse. Después de una generación, dos, tres, la población disminuirá de forma natural.
 
-![Primer plano de un gato callejero atigrado con la oreja recortada; la punta de la oreja izquierda tiene un pequeño triángulo cortado como marca de esterilización, con un fondo urbano desenfocado](/article-images/society/tnr-cat-clipped-ear-2016.jpg)
+![Primer plano de un gato callejero atigrado con la oreja recortada; la punta de la oreja izquierda tiene un pequeño triángulo cortado como marca de esterilización, con un fondo urbano desenfocado](/article-images/society/tnr-cat-clipped-ear-2016.webp)
 _A los gatos callejeros que completan la cirugía TNR se les recorta la punta de una oreja como marca. Esa señal permite a voluntarios y personal de protección animal distinguir desde lejos que “este ya fue esterilizado”, evitando capturas repetidas. Photo: Yu Tae-wook, 2016. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cat_with_clipped_ear_(cropped).jpg).\_
 
 En Taiwán, el TNR fue impulsado inicialmente de manera espontánea por organizaciones civiles de protección animal, moviéndose en una zona gris legal. Tras la reforma de 2015 de la Ley de Protección Animal, el TNR finalmente fue incorporado formalmente como herramienta de política pública[^4]. Los gobiernos locales empezaron a asignar presupuesto y a colaborar con organizaciones animalistas para ejecutar programas de TNR a gran escala.
@@ -289,7 +289,7 @@ Pero el TNSA presupone una condición extremadamente difícil: **capacidad sufic
 
 Cambiar R por S+A implica construir más refugios, o reducir drásticamente las reubicaciones y acelerar las adopciones. Cualquiera de las dos vías exige dinero, personal y voluntad política.
 
-![Primer plano frontal de un oso negro de Taiwán, de pelo corto negro y una marcada media luna blanca en forma de V en el pecho, de pie en un pastizal al borde de un bosque de baja altitud y mirando a lo lejos](/article-images/society/formosan-black-bear-2007.jpg)
+![Primer plano frontal de un oso negro de Taiwán, de pelo corto negro y una marcada media luna blanca en forma de V en el pecho, de pie en un pastizal al borde de un bosque de baja altitud y mirando a lo lejos](/article-images/society/formosan-black-bear-2007.webp)
 _El oso negro de Taiwán es una especie indicadora de los ecosistemas montañosos de la isla; la V blanca en el pecho es su rasgo distintivo. En abril de 2025, la Administración Forestal y de Conservación de la Naturaleza declaró que la población de osos negros de Taiwán “ha aumentado varias veces respecto de hace 20 años” y que “la frecuencia de aparición por debajo de los 1,200 metros de altitud también ha aumentado claramente”[^11]. Pero las bajas altitudes son precisamente las zonas con mayor densidad de perros errantes. Photo: smartneddy, 2007. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Formosan_Black_Bear01.jpg)._
 
 ---
@@ -385,7 +385,7 @@ En Taiwán, cada una de esas condiciones es más difícil de alcanzar que en Jai
 
 ## La altura de la montaña y la altura del perro
 
-![Primer plano de la cima principal de Yushan; una cresta rocosa gris blanquecina y afilada a 3,949 metros de altitud se extiende bajo nubes claras, con cordilleras lejanas hasta el horizonte](/article-images/society/yushan-summit-2024.jpg)
+![Primer plano de la cima principal de Yushan; una cresta rocosa gris blanquecina y afilada a 3,949 metros de altitud se extiende bajo nubes claras, con cordilleras lejanas hasta el horizonte](/article-images/society/yushan-summit-2024.webp)
 _Cima principal de Yushan, 3,949 metros sobre el nivel del mar, uno de los principales hábitats del oso negro de Taiwán. Photo: PirateTseng, 2024-10-29. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Yushan_Summit_2024.jpg)._
 
 La declaración de abril de 2025 de la Administración Forestal y de Conservación de la Naturaleza indicó que la población de oso negro de Taiwán “ha aumentado varias veces respecto de hace 20 años” y que “la frecuencia de aparición por debajo de los 1,200 metros de altitud también ha aumentado claramente”[^11]. La misma declaración reconoció que, aunque el oso negro “sigue listado como fauna silvestre en peligro de extinción, el estado de la población ya no presenta riesgo de extinción inminente”[^11].

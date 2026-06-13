@@ -53,7 +53,7 @@ translatedAt: '2026-05-28T05:08:34+08:00'
 
 5年後（2023年9月3日）、蔡焜霖は逝去し、享年93歳でした。蔡英文総統は褒揚令を贈り、文化部政務次長が代表して授与しました[^4]。その日、死に至るまで、彼は答えを知りませんでした。
 
-![緑島人権記念碑（涙の碑）。1999年12月10日の国際人権デーに李登輝総統が自ら除幕し、柏楊が28字の碑文を書いた](/article-images/history/nhrm-greenisland-monument-2022.jpg)
+![緑島人権記念碑（涙の碑）。1999年12月10日の国際人権デーに李登輝総統が自ら除幕し、柏楊が28字の碑文を書いた](/article-images/history/nhrm-greenisland-monument-2022.webp)
 _2022年撮影。Photo: S8321414. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Taiwan_GreenIsland_Human_Rights_Memorial_Monument_2022.jpg)._
 
 緑島で看板除幕が行われた同じ日、挨拶台から1キロも離れていない場所に、1999年12月10日の国際人権デーに完成した「人権記念碑」が立っています。民間では「涙の碑」と呼ばれています[^5]。碑体はらせん状の構造で、雨が降ると雨水が両側の集水溝を伝って中心点へ流れ込み、涙のように見えます。柏楊が書いた碑文は、わずか28字です。
@@ -72,7 +72,7 @@ _2022年撮影。Photo: S8321414. [CC BY-SA 4.0 via Wikimedia Commons](https://c
 
 ## 新店のMRT路線脇にある看守所
 
-![白色テロ景美記念園区。旧警備総部軍法処看守所。1980年の美麗島大裁判第一法廷はここにあった](/article-images/history/nhrm-jingmei-park.jpg)
+![白色テロ景美記念園区。旧警備総部軍法処看守所。1980年の美麗島大裁判第一法廷はここにあった](/article-images/history/nhrm-jingmei-park.webp)
 _景美人権文化園区。Photo: 張永泰. [Public Domain (Voice of America) via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E6%99%AF%E7%BE%8E%E4%BA%BA%E6%AC%8A%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80.jpg)._
 
 新北市新店区復興路131号。十四張MRT駅（環状線）から徒歩10分です[^8]。

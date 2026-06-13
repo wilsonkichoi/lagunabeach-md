@@ -75,7 +75,7 @@ translatedAt: '2026-05-25T21:07:04Z'
 
 しかし大稲埕を本当に変えた出来事は、1860年を待たなければなりません。
 
-![大稲埕霞海城隍廟、迪化街一段61号。1859年、1853年の頂下郊拼で敗れた同安人が艋舺八甲庄から移築したもので、大稲埕で最も早い信仰中心の一つです。廟は元の場所に167年間立ち続け、移動していません。](/article-images/geography/dadaocheng-xia-hai-city-god-temple-2018.jpg)
+![大稲埕霞海城隍廟、迪化街一段61号。1859年、1853年の頂下郊拼で敗れた同安人が艋舺八甲庄から移築したもので、大稲埕で最も早い信仰中心の一つです。廟は元の場所に167年間立ち続け、移動していません。](/article-images/geography/dadaocheng-xia-hai-city-god-temple-2018.webp)
 _大稲埕霞海城隍廟、迪化街一段61号。Photo: Solomon203, CC BY-SA 4.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Taipei_Xia-Hai_City_God_Temple_20180729.jpg)._
 
 ## 1860年の開港、John Dodd、李春生、あの12万斤の茶葉
@@ -136,7 +136,7 @@ _大稲埕霞海城隍廟、迪化街一段61号。Photo: Solomon203, CC BY-SA 4
 
 1932年、**古倫美亜（Columbia）レコード**台湾支社が制作し、**鄧雨賢**が作曲、**李臨秋**が作詞した〈**望春風**〉が、**純純**（本名・劉清香）によって歌われました。録音場所は大稲埕の古倫美亜レコード会社の事務所（現在の迪化街南段）でした。〈望春風〉は発表後、1930年代の台湾で大流行し、台湾で最初の本格的な「流行歌」となりました[^18]。1934年の〈**雨夜花**〉、1933年の〈**月夜愁**〉など、鄧雨賢の作品はいずれもこの大稲埕の事務所から生まれ、今日まで歌い継がれています。**大稲埕は1930年代、商業中心としてだけでなく、台湾語ポピュラー音楽の誕生地でもありました**。
 
-![大稲埕陳天来旧居（錦記茶行洋館）、貴徳街73号。1920年から1923年にかけて建てられ、バロック風ファサードの正中央に「錦記」の二文字があります。1985年に台北市の市定古跡に指定され、2018年に修復を終えて再公開されました。](/article-images/geography/dadaocheng-chen-tian-lai-residence-2014.jpg)
+![大稲埕陳天来旧居（錦記茶行洋館）、貴徳街73号。1920年から1923年にかけて建てられ、バロック風ファサードの正中央に「錦記」の二文字があります。1985年に台北市の市定古跡に指定され、2018年に修復を終えて再公開されました。](/article-images/geography/dadaocheng-chen-tian-lai-residence-2014.webp)
 _陳天来旧居、貴徳街73号、2018年の修復後に再公開。Photo: Nisa yeh from Taipei, Taiwan, CC BY-SA 2.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chen_Tian-lai_Residence_(12303134604).jpg).\_
 
 ## あの一包みのたばこ：南京西路189号の小さな石碑
@@ -169,10 +169,10 @@ _陳天来旧居、貴徳街73号、2018年の修復後に再公開。Photo: Nis
 
 今日、迪化街へ行くと、南から北まで800メートルの中に三つの時代が並存しているのを見ることができます。1851年の中街跡のそばには1859年の霞海城隍廟があり、廟の向かいには1917年の屈臣氏大薬房（バロック式街屋のファサード）があり、さらに北へ200メートル進むと1923年の陳天来旧居があり、その少し北には2017年の迪化街207博物館と、2010年代以後に入居した「印花楽」「合興八十八亭」「ASW Tea House」などの文創ブランドがあります。**この800メートルには、台湾の保存運動30年のすべての成果が収められています**。
 
-![迪化街の屈臣氏大薬房（現在のスターバックス保安店）。1917年に李俊啓が創建したもので、大稲埕を代表するバロック式街屋の一つです。](/article-images/geography/dadaocheng-watsons-pharmacy-house.jpg)
+![迪化街の屈臣氏大薬房（現在のスターバックス保安店）。1917年に李俊啓が創建したもので、大稲埕を代表するバロック式街屋の一つです。](/article-images/geography/dadaocheng-watsons-pharmacy-house.webp)
 _迪化街屈臣氏大薬房、1917年創建。Photo: 寺人孟子, CC BY-SA 4.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:屈臣氏大藥房.jpg)._
 
-![年貨大街期間の迪化街。毎年旧正月前の一週間、この通りは身動きできないほど混み合います。これは1996年の反拡幅運動によって残された成果の一つです。](/article-images/geography/dadaocheng-lunar-new-year-2011.jpg)
+![年貨大街期間の迪化街。毎年旧正月前の一週間、この通りは身動きできないほど混み合います。これは1996年の反拡幅運動によって残された成果の一つです。](/article-images/geography/dadaocheng-lunar-new-year-2011.webp)
 _年貨大街期間の迪化街。Photo: 玄史生, CC BY-SA 3.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dihua_Street_Lunar_New_Year_20110203a.jpg)._
 
 ## 地元の人が連れて行く三つの場所

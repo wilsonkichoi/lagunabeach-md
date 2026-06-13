@@ -98,7 +98,7 @@ If you see a dog or cat on a Taiwanese street with a small notch missing from on
 
 TNR stands for Trap, Neuter, Return: stray animals are captured, sterilized, ear-tipped for identification, and then returned to where they were found. Later, the official version in most counties and cities added vaccination, becoming **TNvR**; the additional “v” stands for Vaccinate. The logic is simple: if you cannot kill them all, then stop them from reproducing. After one generation, two generations, three generations, the population will naturally decline.
 
-![Close-up of an ear-tipped tabby stray cat, with a small triangle cut from the tip of the left ear as a sterilization mark, against a blurred street background](/article-images/society/tnr-cat-clipped-ear-2016.jpg)
+![Close-up of an ear-tipped tabby stray cat, with a small triangle cut from the tip of the left ear as a sterilization mark, against a blurred street background](/article-images/society/tnr-cat-clipped-ear-2016.webp)
 _Stray cats that have completed TNR surgery have one ear tip clipped as a marker. This ear-tip mark allows volunteers and animal protection officers to identify from a distance that “this one has already been sterilized,” avoiding repeated capture. Photo: Yu Tae-wook, 2016. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cat_with_clipped_ear_(cropped).jpg).\_
 
 Taiwan’s TNR was first promoted spontaneously by private animal protection groups, operating in a legal gray area. After the 2015 amendment to the Animal Protection Act, TNR was finally formally incorporated as a policy tool[^4]. County and city governments began allocating budgets and cooperating with animal protection groups to carry out large-scale TNR.
@@ -289,7 +289,7 @@ But TNSA presupposes an extremely difficult condition: **there must be enough sh
 
 Changing R to S+A means building more shelters, or sharply reducing the number of returned animals and accelerating adoptions. Either path requires money, people, and political will.
 
-![Frontal close-up of a Formosan black bear with short black fur and a prominent white V-shaped crescent on its chest, standing on grass at the edge of a low-elevation forest and looking into the distance](/article-images/society/formosan-black-bear-2007.jpg)
+![Frontal close-up of a Formosan black bear with short black fur and a prominent white V-shaped crescent on its chest, standing on grass at the edge of a low-elevation forest and looking into the distance](/article-images/society/formosan-black-bear-2007.webp)
 _The Formosan black bear is an indicator species of Taiwan’s mountain forest ecosystems, identifiable by the white V on its chest. In an April 2025 statement, the Forestry and Nature Conservation Agency said that the Formosan black bear population has “increased by severalfold compared with 20 years ago” and that its “frequency of occurrence below 1,200 meters above sea level has also significantly increased”[^11]. But low elevations are precisely where free-ranging dog density is highest. Photo: smartneddy, 2007. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Formosan_Black_Bear01.jpg)._
 
 ---
@@ -385,7 +385,7 @@ Every one of those conditions is harder to achieve in Taiwan than in Jaipur.
 
 ## The Height of the Mountains and the Height of Dogs
 
-![Close-up of the summit of Yushan Main Peak, with a sharp gray-white rocky ridgeline at 3,949 meters above sea level extending beneath pale clouds and distant ridges stretching to the edge of view](/article-images/society/yushan-summit-2024.jpg)
+![Close-up of the summit of Yushan Main Peak, with a sharp gray-white rocky ridgeline at 3,949 meters above sea level extending beneath pale clouds and distant ridges stretching to the edge of view](/article-images/society/yushan-summit-2024.webp)
 _Yushan Main Peak, 3,949 meters above sea level, one of the main habitats of the Formosan black bear. Photo: PirateTseng, 2024-10-29. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Yushan_Summit_2024.jpg)._
 
 The Forestry and Nature Conservation Agency’s April 2025 statement noted that the Formosan black bear population has “increased by severalfold compared with 20 years ago” and that its “frequency of occurrence below 1,200 meters above sea level has also significantly increased”[^11]. The same statement acknowledged that although the black bear “remains listed as an endangered wild animal, the population is no longer in danger of extinction”[^11].

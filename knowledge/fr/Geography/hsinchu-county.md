@@ -48,7 +48,7 @@ Lorsque les mâts se dressent un par un, les responsables du temple parlent peu.
 
 ## En hiver 1788, plus de deux cents dépouilles furent enterrées ensemble sur cette colline
 
-![Façade du temple Bao-Zhong des Yimin, mai 2018, village de Fangliao, canton de Xinpu. Temple central de la croyance hakka des Yimin, fondé en hiver de la 53e année du règne de Qianlong (1788), le hall central achevé en hiver de la 55e année (1790), l'ensemble du temple terminé en 1791 (56e année).](/article-images/geography/hsinchu-county-hero.jpg)
+![Façade du temple Bao-Zhong des Yimin, mai 2018, village de Fangliao, canton de Xinpu. Temple central de la croyance hakka des Yimin, fondé en hiver de la 53e année du règne de Qianlong (1788), le hall central achevé en hiver de la 55e année (1790), l'ensemble du temple terminé en 1791 (56e année).](/article-images/geography/hsinchu-county-hero.webp)
 _Façade du temple Bao-Zhong des Yimin, 2018-05-27. Photo : Outlookxp. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E8%A4%92%E5%BF%A0%E4%BA%AD%E7%BE%A9%E6%B0%91%E5%BB%9F%E6%AD%A3%E9%9D%A2%E7%85%A7.jpg)._
 
 Pour comprendre pourquoi le temple des Yimin existe depuis 235 ans, il faut revenir à l'automne de la 51e année du règne de Qianlong (1786).

@@ -46,7 +46,7 @@ This is the most contemporary evidence of Keelung as a port. The glory of being 
 
 ## Four Hundred Years Ago, the Spaniards Planted a Flag on Heping Island
 
-![Sea-eroded formations at Heping Island Geopark, 2022. This small island, just 75 meters from the Taiwan mainland, was the site of the Spanish Fort San Salvador in 1626. Since 2016, an NTU team has excavated the ruins of the Church of All Saints here — the only physical evidence of Spanish colonization in Taiwan.](/article-images/geography/keelung-01.jpg)
+![Sea-eroded formations at Heping Island Geopark, 2022. This small island, just 75 meters from the Taiwan mainland, was the site of the Spanish Fort San Salvador in 1626. Since 2016, an NTU team has excavated the ruins of the Church of All Saints here — the only physical evidence of Spanish colonization in Taiwan.](/article-images/geography/keelung-01.webp)
 
 Heping Island, only 75 meters from the Taiwan mainland, was called "Sheliao Island" in the Spanish era. Before that, it was a settlement of the Ketagalan Basay people, called "tuman" in the Basay language[^2].
 
@@ -86,7 +86,7 @@ The result of the negotiation was: **clan-based rotation of the Zhu Pu (chief of
 
 This is the core spirit of the Keelung Ghost Festival. It is not just the Ghost Festival. Ghost Festivals across Taiwan all venerate wandering spirits, but only the Keelung Ghost Festival institutionalizes the memory of a feud's deaths into a clan-rotation ritual that has continued for 170 years. The parade formations are a ritualized version of the feud: you still compete, but instead of hitting people, you use ornate deity statues, formations, and drum ensembles to see who puts on the grander spectacle.
 
-![The Zhu Pu altar of the Keelung Ghost Festival, October 2023. The octagonal tower in Zhongzheng Park, completed in the mid-1970s, hosts the Ghost Festival every seventh lunar month. In the distance to the right of the tower is the Keelung landmark, Keelung Tower.](/article-images/geography/keelung-00.jpg)
+![The Zhu Pu altar of the Keelung Ghost Festival, October 2023. The octagonal tower in Zhongzheng Park, completed in the mid-1970s, hosts the Ghost Festival every seventh lunar month. In the distance to the right of the tower is the Keelung landmark, Keelung Tower.](/article-images/geography/keelung-00.webp)
 _Zhu Pu altar and Keelung Tower, 2023-10-23. Photo: Wikimedia Commons contributor, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:Keelung_Tower_and_Ts%C3%BA-ph%C3%B3o-tu%C3%A2nn_20231023.jpg)._
 
 After the Sino-French War of 1884, this ritual was upgraded again. **Those 700-plus French war dead were incorporated into the universal salvation rites.** "Compassionate Han immigrants thus initiated empathy, venerating these unburied deceased"[^12]. A ritual of reconciliation from a Zhangzhou-Quanzhou feud evolved into a ceremony that even accommodates enemy soldiers from a war. From 1855 to today, it is held every seventh lunar month at the Zhu Pu altar in Zhongzheng Park. The new Zhu Pu altar, completed in the mid-1970s, is an octagonal tower, with the first floor housing the Ghost Festival Cultural Relics Museum[^13].
@@ -105,7 +105,7 @@ Then came 1984.
 
 "**In 1984, (Keelung Port) rose to become the world's 7th largest container port**."[^17] This was the historical peak of Keelung as a port. A small port receiving 3,000 mm of rainfall was once the seventh node in the global shipping network.
 
-![Aerial view of Keelung Port, 2017. The port skeleton established during the five phases of Japanese-era construction continues to this day. After the historical peak of being the world's 7th largest container port in 1984, it declined year by year, falling to 113th in the world and 4th largest commercial port in Taiwan in 2018.](/article-images/geography/keelung-03.jpg)
+![Aerial view of Keelung Port, 2017. The port skeleton established during the five phases of Japanese-era construction continues to this day. After the historical peak of being the world's 7th largest container port in 1984, it declined year by year, falling to 113th in the world and 4th largest commercial port in Taiwan in 2018.](/article-images/geography/keelung-03.webp)
 
 ### Then Three Things Happened at Once
 
@@ -129,7 +129,7 @@ And the Kanzaiteng fish market (mentioned earlier) is actually the true engine o
 
 ## Across from Zhengbin's Colorful Houses, the Ruins of Argenna
 
-![Colorful row houses at Zhengbin Fishing Port, August 2025. During Mayor You Chang Lin's tenure, in collaboration with Guo Qiongying, chair of the Chinese Culture University Department of Landscape Architecture, old houses by the port were painted in 55 colors. Directly across, visible in the same frame, are the ruins of Argenna Shipyard.](/article-images/geography/keelung-01.jpg)
+![Colorful row houses at Zhengbin Fishing Port, August 2025. During Mayor You Chang Lin's tenure, in collaboration with Guo Qiongying, chair of the Chinese Culture University Department of Landscape Architecture, old houses by the port were painted in 55 colors. Directly across, visible in the same frame, are the ruins of Argenna Shipyard.](/article-images/geography/keelung-01.webp)
 _Colorful row houses at Zhengbin Fishing Port, 2025-08-12. Photo: Wikimedia Commons contributor, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:20250812_105703_%E6%AD%A3%E6%BF%B1%E6%BC%81%E6%B8%AF%E5%BD%A9%E8%89%B2%E8%A1%97%E5%B1%8B.jpg).\_
 
 If you want to see how a city deals with its own ruins, go to Zhengbin Fishing Port.

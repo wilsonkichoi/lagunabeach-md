@@ -40,7 +40,7 @@ After the graduation video became popular, he made a decision that ran against t
 
 ## Putting “Sponsored Content” in the Sunlight
 
-![Howhow (Chen Tzu-hao) being interviewed on an online program, wearing black-rimmed glasses and a dark top, gesturing shyly under studio lights](/article-images/people/howhow-webtvasia-interview-2016.jpg)
+![Howhow (Chen Tzu-hao) being interviewed on an online program, wearing black-rimmed glasses and a dark top, gesturing shyly under studio lights](/article-images/people/howhow-webtvasia-interview-2016.webp)
 _Howhow being interviewed about his creative work and sponsored-content methods. The “king of sponsored content” who laid advertising out in the sun is, in private, a National Chengchi University boy who calls himself a marginal person. Photo: WebTVAsiaTaiwan. [CC BY 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:WebTVAsia%E3%80%90BIG_SHOT%E7%B6%B2%E8%B7%AF%E7%B4%85%E4%BA%BA%E8%AA%8C%E3%80%91%E5%B0%88%E8%A8%AA_x_HOWFUN_02.png)._
 
 In September 2015, fate came knocking in a way even he could not quite explain. Samsung was holding the Unpacked launch event for the Galaxy Note 5 at Lincoln Center in New York and, through the advertising agency Leo Burnett, reached out to Howhow, who at the time still had fewer than 100,000 followers.[^6] In his own recollection, he “thought they wanted me to be a photographer,” because “my subscriber count and like count were not high at the time,” and he could not understand why they had chosen him.[^7] He even saved the Samsung contact in his phone under the three characters “great benefactor.”[^7]
@@ -80,7 +80,7 @@ Academic research sharpens this contradiction. Liu Chih-yu’s 2021 study at Nat
 
 Howhow resonated so deeply with Taiwan’s PTT users because he moved the shared language of the mid-2010s PTT generation into his videos. Tool man, marginal person, “wake up, you don’t have a younger sister”: these memes were things he both used and created. The unloved single loser character he played, who had to do everything himself, was a self-projection for countless forum users. In that context, he was almost the spiritual leader of the “tool-man alliance.”
 
-![Singer-songwriter Teng Fu-ju (A-Fu) holding an acoustic guitar during an outdoor stage performance, looking down and plucking the strings in sunlight](/article-images/people/teng-fu-ju-2011.jpg)
+![Singer-songwriter Teng Fu-ju (A-Fu) holding an acoustic guitar during an outdoor stage performance, looking down and plucking the strings in sunlight](/article-images/people/teng-fu-ju-2011.webp)
 _Singer-songwriter Teng Fu-ju (A-Fu), who registered her marriage with Howhow on Valentine’s Day 2019. Photo: Onlymyself65536. [CC BY-SA 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E9%84%A7%E7%A6%8F%E5%A6%82.JPG)._
 
 So when news came out that on February 14, 2019, Valentine’s Day, he and singer Teng Fu-ju, known as A-Fu, had registered their marriage,[^1] there was a subtle sense of “betrayal” for forum users who had followed his “marginal person” persona. The alliance leader was no longer single, and on Valentine’s Day no less. In 2021 he welcomed a son, and in 2023 a daughter, forming the character “好,” composed of “woman” and “child.”[^18] The person who had acted as a single loser alone before the camera had, in real life, steadily built a family.

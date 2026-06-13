@@ -104,7 +104,7 @@ El Ministerio de Cultura incluyó el Ferrocarril Forestal de Alishan entre los 1
 
 ## Los «cabezas negras» y la genealogía de los nombres
 
-![Grupo de locomotoras de vapor de la Administración de Ferrocarriles de Taiwán preservadas en la rotonda ferroviaria de Changhua, fotografiadas en 2009; los cuerpos negros, las chimeneas y las cabinas alineadas son el origen visual del término «o͘-thâu-á», «cabeza negra»](/article-images/history/tra-changhua-roundhouse-steam-2009.jpg)
+![Grupo de locomotoras de vapor de la Administración de Ferrocarriles de Taiwán preservadas en la rotonda ferroviaria de Changhua, fotografiadas en 2009; los cuerpos negros, las chimeneas y las cabinas alineadas son el origen visual del término «o͘-thâu-á», «cabeza negra»](/article-images/history/tra-changhua-roundhouse-steam-2009.webp)
 _Grupo de locomotoras de vapor de la Administración de Ferrocarriles de Taiwán preservadas en la rotonda ferroviaria de Changhua en 2009. Photo: Neeson Hsu. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2009-08-30_Steam_locomotives_at_TRA_Changhua_Roundhouse.jpg)._
 
 Sobre los rieles dejados por los ingenieros extranjeros corría otro conjunto de cosas. Desde fines del período colonial japonés hasta la posguerra, los trenes de Taiwán tuvieron sus propios nombres en taiwanés.
@@ -178,7 +178,7 @@ El 1 de enero de 2024, la Administración de Ferrocarriles de Taiwán del Minist
 
 ## El sistema nervioso de una isla
 
-![Tren especial de regreso al servicio en 2021: la locomotora de vapor DT668, empujada por la locomotora eléctrica E327, circula por la línea costera; es un ejemplo contemporáneo de preservación dinámica de un modelo equivalente a la D51 del período colonial japonés](/article-images/history/tra-dt668-coast-line-2021.jpg)
+![Tren especial de regreso al servicio en 2021: la locomotora de vapor DT668, empujada por la locomotora eléctrica E327, circula por la línea costera; es un ejemplo contemporáneo de preservación dinámica de un modelo equivalente a la D51 del período colonial japonés](/article-images/history/tra-dt668-coast-line-2021.webp)
 _En 2021, la DT668 fue empujada por la E327 en la línea costera de la TRA, un ejemplo contemporáneo de preservación dinámica de un modelo equivalente a la D51 de fines del período colonial japonés. Photo: Cheng-en Cheng. [CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2021-10-25_TRA_DT668_pulled_by_E327_on_the_Coast_Line.jpg)._
 
 El mapa ferroviario de Taiwán parece un sistema nervioso: la línea longitudinal occidental es la médula espinal; el tren de alta velocidad es el canal rápido junto a ella; las líneas Beihui y Nanhui del este son las terminaciones nerviosas que se extienden hacia Hualien y Taitung; Alishan y Pingxi son capilares.

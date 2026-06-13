@@ -138,7 +138,7 @@ g0v의 첫 프로젝트는 중앙정부 총예산 시각화였다. 두꺼운 예
 
 2019년 그녀는 『Foreign Policy』 세계 100대 사상가에 선정됐다. 독자 투표 부문이었다[^27]. 언론은 그녀를 “세계에서 유일하게 공개적으로 트랜스젠더인 장관”, “프로그래밍 스타”라고 썼다. 그녀는 모든 인터뷰에서 공을 다시 돌려놓았다. 그러나 “천재 장관”의 이야기는 그녀가 한 말보다 훨씬 더 쉽게 전해졌다.
 
-![2019년 5월 베를린 re:publica 디지털 사회 연례회의에서 연설하는 탕펑](/article-images/people/audrey-tang-re-publica-2019.jpg)
+![2019년 5월 베를린 re:publica 디지털 사회 연례회의에서 연설하는 탕펑](/article-images/people/audrey-tang-re-publica-2019.webp)
 _2019년 5월 8일 베를린 re:publica 디지털 사회 연례회의 “Digital Social Innovation” 대담 현장. 탕펑과 Julia Kloiber가 함께 무대에 섰다. Photo: Jan Michalko. [CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Re_publica_19_-_Day_3_(32860400897).jpg).\_
 
 ## 보수적 아나키즘: 명령을 거부하고, 명령받기도 거부하다

@@ -27,7 +27,7 @@ sourceBodyHash: 'sha256:06cd641264af37d8'
 translatedAt: '2026-06-05T16:41:14Z'
 ---
 
-![カタリン・カリコーとドリュー・ワイスマンが2022年に Life Science メダルを共同受賞し、バックパネルの前で撮影された写真。カリコーは赤いスーツ、ワイスマンは濃色のスーツを着用しています](/article-images/society/kariko-weissman-life-science-2022.jpg)
+![カタリン・カリコーとドリュー・ワイスマンが2022年に Life Science メダルを共同受賞し、バックパネルの前で撮影された写真。カリコーは赤いスーツ、ワイスマンは濃色のスーツを着用しています](/article-images/society/kariko-weissman-life-science-2022.webp)
 _カタリン・カリコー（Katalin Karikó）とドリュー・ワイスマン（Drew Weissman）は、2022年6月16日に Life Science メダルを受賞しました。翌年10月、二人はノーベル生理学・医学賞を共同受賞しました。Photo: Thorne Media. [CC BY 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Drew_Weissman_and_Katalin_Karik%C3%B3_Life_Science_Medalists.jpg)._
 
 ## 序章：93万回分の早朝と、五度追い出されたことのある女性
@@ -242,7 +242,7 @@ _mRNA（メッセンジャーRNA）の分子構造。カリコーとワイスマ
 
 ## 結語：奇跡の代価は平凡な粘り強さである
 
-![カタリン・カリコーが2021年5月、セゲド大学（University of Szeged）の公開行事で、赤い上着を着て大学の紋章の前に立っています](/article-images/society/kariko-katalin-szeged-2021.jpg)
+![カタリン・カリコーが2021年5月、セゲド大学（University of Szeged）の公開行事で、赤い上着を着て大学の紋章の前に立っています](/article-images/society/kariko-katalin-szeged-2021.webp)
 _カタリン・カリコーは2021年5月、ハンガリーのセゲド大学の行事に出席しました。彼女はこの大学で生化学の博士号を取得し、1985年、娘のテディベアに縫い込んだ1,200米ドルを携えてハンガリーを離れました。Photo: University of Szeged. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Karik%C3%B3_Katalin_Szegeden.jpg)._
 
 2023年10月2日、ノーベル委員会からの電話が鳴りました。

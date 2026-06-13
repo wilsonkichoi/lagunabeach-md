@@ -17,7 +17,7 @@ sourceBodyHash: 'sha256:94722ea3fb057b13'
 translatedAt: '2026-05-16T05:07:54+08:00'
 ---
 
-![Yuan Fang Guabao on Huaxi Street: a semicircular folded wheat bun filled with braised pork belly, pickled mustard greens, peanut powder, and cilantro, one of Taipei’s most representative traditional gua bao](/article-images/food/gua-bao-yuanfang-2023.jpg)
+![Yuan Fang Guabao on Huaxi Street: a semicircular folded wheat bun filled with braised pork belly, pickled mustard greens, peanut powder, and cilantro, one of Taipei’s most representative traditional gua bao](/article-images/food/gua-bao-yuanfang-2023.webp)
 _April 28, 2023, photographed by the Presidential Office at Yuan Fang Guabao on Huaxi Street, Wanhua, Taipei. Photo: Wang Yu-ching / Office of the President, Republic of China. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gua-bao_by_the_Yuan_Fang_Guabao_at_Huaxi_Street_2023-04-28_01.jpg)._
 
 > **30-second overview:** Gua bao (the Ministry of Education’s standard written form is 割包; Taiwanese Romanization _kuah-pau_) originated from Fuzhou, Fujian’s “lotus-leaf bun,” and in Taiwan is called “tiger bites pig”[^1][^2]. The 1927 diary of Hsinchu gentleman Huang Wang-cheng preserves a record of “eating tiger bites pig at weiya”[^3]. Its ingredients became fixed as four essentials: braised pork belly, pickled mustard greens, peanut powder, and cilantro. The weiya banquet on the sixteenth day of the twelfth lunar month, when employers rewarded workers, is its deepest cultural anchor. Yuan Fang on Huaxi Street, founded in 1955, and Lan Jia in Gongguan, founded in 1992, became famous in succession; both have received Michelin Bib Gourmand recognition[^4][^5]. In 2013, Taipei-born Erchen Chang set up BAO, a six-seat hut in East London’s Netil Market. When its Soho shop opened in 2015, it was immediately singled out by veteran British food critics[^6]. CNN and Michelin framed it as a “Taiwanese hamburger” and pushed it onto the world stage. The same folded wheat bun has traveled from a 1927 workers’ reward to the global table of 2026.
@@ -88,7 +88,7 @@ Taipei has at least four famous gua bao shops, belonging to different eras and d
 
 Even convenience stores have caught the trend. In 2019, 7-Eleven launched a “sausage gua bao” and a “charcoal-grilled pork bun,” which “each sold more than 200,000 per month during regional test sales at the end of April”[^21]. From a ritual food on the weiya table to a quick meal on the convenience-store microwave shelf, gua bao has already penetrated every level of Taiwan’s food-service system.
 
-![Close-up of a folded wheat-skin gua bao, showing layers of braised pork, peanut powder, and cilantro inside the lotus-leaf-shaped bun](/article-images/food/gua-bao-steamed-leoalmighty.jpg)
+![Close-up of a folded wheat-skin gua bao, showing layers of braised pork, peanut powder, and cilantro inside the lotus-leaf-shaped bun](/article-images/food/gua-bao-steamed-leoalmighty.webp)
 _The folded wheat-skin structure of gua bao: a lotus-leaf-like outer skin holding the four essentials of braised pork belly, pickled mustard greens, peanut powder, and cilantro. Photo: LeoAlmighty. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Steamed_Sandwich,taken_by_LeoAlmighty.jpg)._
 
 ## David Chang’s Peking Duck Bun and Eddie Huang’s Pushback

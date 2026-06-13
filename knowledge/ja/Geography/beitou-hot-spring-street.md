@@ -46,7 +46,7 @@ translatedAt: '2026-05-23T05:06:37+08:00'
 
 ## 朝六時、北投公園の湯けむり
 
-![北投温泉博物館（旧1913年北投公共浴場）の二階建て赤レンガ、英国風建築の外観。アーチ回廊とステンドグラス窓を備え、森山松之助が設計した](/article-images/geography/beitou-hot-spring-museum-2020.jpg)
+![北投温泉博物館（旧1913年北投公共浴場）の二階建て赤レンガ、英国風建築の外観。アーチ回廊とステンドグラス窓を備え、森山松之助が設計した](/article-images/geography/beitou-hot-spring-museum-2020.webp)
 _北投温泉博物館の外観。もとは1913年に完成した北投温泉公共浴場です。Photo: Wikimedia Commons contributor. [License via Wikimedia](https://commons.wikimedia.org/wiki/File:Beitou_Hot_Spring_Museum_2.jpg) (CC BY-SA 4.0)._
 
 もし18歳の台北の少年に「週末はどこへ行くの」と聞けば、彼は西門と答えるでしょう。もし70歳のおばあさんに「今朝はどこへ散歩に行くの」と聞けば、彼女は新北投と答えるでしょう。
@@ -105,7 +105,7 @@ _北投温泉博物館の外観。もとは1913年に完成した北投温泉公
 
 ## 1913年、森山松之助の赤レンガ浴場
 
-![北投温泉博物館入口前の階段と英国田園別荘風の立面。1913年に完成した二階建て赤レンガ建築](/article-images/geography/beitou-hot-spring-museum-entrance.jpg)
+![北投温泉博物館入口前の階段と英国田園別荘風の立面。1913年に完成した二階建て赤レンガ建築](/article-images/geography/beitou-hot-spring-museum-entrance.webp)
 _北投温泉博物館入口（旧1913年公共浴場）。Photo: Wikimedia Commons contributor. [License via Wikimedia](https://commons.wikimedia.org/wiki/File:Entrance_of_Beitou_public_hot_spring.jpg) (CC BY-SA)._
 
 天狗庵が完成した後、北投は日本人が台湾に来たら必ず訪れる療養地となりました。1913年（大正2年）6月17日、台北州庁は5万6千余円の公共衛生費を投じ、大規模な公共浴場を正式に開業させました[^4][^9]。
@@ -126,7 +126,7 @@ _北投温泉博物館入口（旧1913年公共浴場）。Photo: Wikimedia Comm
 
 ## 1923年、皇太子が一度入浴しました
 
-![1923年4月25日、裕仁皇太子が北投温泉公共浴場を訪問した当時の記録写真](/article-images/geography/beitou-hirohito-public-bathhouse-1923.jpg)
+![1923年4月25日、裕仁皇太子が北投温泉公共浴場を訪問した当時の記録写真](/article-images/geography/beitou-hirohito-public-bathhouse-1923.webp)
 _1923年、裕仁皇太子の北投公共浴場訪問記録写真。Photo: Public domain (戰前文書, 1923). [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Crown_Prince_Hirohito%27s_visit_at_Hokutō_Public_Bathhouse_1923.jpg)._
 
 1923年（大正12年）4月、**裕仁皇太子**（後の昭和天皇）は摂政宮として大正天皇に代わり、12日間台湾を行啓しました[^6]。これは日本皇室が植民地台湾を訪問した初めての出来事でした。
@@ -207,7 +207,7 @@ _1923年、裕仁皇太子の北投公共浴場訪問記録写真。Photo: Publi
 
 ## 2017年、駅が家に帰りました
 
-![2017年に故郷へ戻り七星公園で再組立された新北投駅（1916年開業）。台湾紅檜の建材と四つのドーマー窓の丸孔形式](/article-images/geography/xinbeitou-historic-station-2023.jpg)
+![2017年に故郷へ戻り七星公園で再組立された新北投駅（1916年開業）。台湾紅檜の建材と四つのドーマー窓の丸孔形式](/article-images/geography/xinbeitou-historic-station-2023.webp)
 _七星公園に再組立された新北投駅の現在の姿。Photo: Wikimedia Commons contributor. [License via Wikimedia](https://commons.wikimedia.org/wiki/File:Front_view_of_Xinbeitou_Station_on_a_bright_sunny_day.jpg) (CC BY-SA)._
 
 1988年7月15日、新北投支線の廃線当日、1916年の台湾紅檜木造駅舎は解体され、彰化へ運ばれ、台湾民俗村の中で再組立されました[^19]。彰化で24年を過ごす間、その駅舎で列車に乗った人はいませんでした。それは民俗村の展示物となり、観光客は写真を撮り、一瞥して通り過ぎました[^19]。
@@ -226,7 +226,7 @@ _七星公園に再組立された新北投駅の現在の姿。Photo: Wikimedia
 
 ## 物質層：赤レンガ、唭哩岸石、北投石、檜木
 
-![地熱谷の青磺泉の湖面から白煙が上がる、温度約100°Cの硫黄泉](/article-images/geography/beitou-thermal-valley.jpg)
+![地熱谷の青磺泉の湖面から白煙が上がる、温度約100°Cの硫黄泉](/article-images/geography/beitou-thermal-valley.webp)
 _地熱谷の青磺泉。Photo: Wikimedia Commons contributor. [License via Wikimedia](https://commons.wikimedia.org/wiki/File:Beitou_Thermal_Valley.jpg) (CC BY-SA)._
 
 北投という街の物質層には、一つ一つに物語があります。
@@ -257,7 +257,7 @@ _地熱谷の青磺泉。Photo: Wikimedia Commons contributor. [License via Wiki
 
 ## 同じ山の泉、次の世代の住民
 
-![北投公園露天温泉浴池「千禧湯」の六つの大衆浴池](/article-images/geography/beitou-park-outdoor-pool-2018.jpg)
+![北投公園露天温泉浴池「千禧湯」の六つの大衆浴池](/article-images/geography/beitou-park-outdoor-pool-2018.webp)
 _北投公園露天温泉浴池（千禧湯）。Photo: Wikimedia Commons contributor. [License via Wikimedia](https://commons.wikimedia.org/wiki/File:Beitou_Park_Outdoor_Hot_Spring_Bathing_Pool.jpg) (CC BY-SA)._
 
 朝六時、露天浴池はまだ開いていませんが、入口にはすでに近所の女性たちが一列に座っています。

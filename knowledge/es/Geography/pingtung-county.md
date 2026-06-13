@@ -47,12 +47,12 @@ Pero el 21 de abril de 2026 se subastó el “primer atún”: un atún rojo de 
 
 Esa es la prueba más contemporánea de Pingtung como condado pesquero. La gloria histórica del Spring Scream de Kenting en mayo pertenece al turismo; pero la lonja de Donggang a las cinco y media de la madrugada, donde cada pez pasa del canal de Bashi a la mesa de un restaurante japonés en Taipéi, ocurre todos los años en esta época. **Antes de que la capital se coma ese atún, la gente de Pingtung ya lo pujó en la lonja**.
 
-![Faro de Eluanbi, 2011. El faro más austral de la isla principal de Taiwán, cuya construcción comenzó en 1881 y terminó en 1883, fue diseñado como fortificación: muros con troneras, foso y estructura defensiva. Es “el único faro armado del mundo”. El 15 de marzo de 2024 fue elevado a monumento nacional.](/article-images/geography/pingtung-hero.jpg)
+![Faro de Eluanbi, 2011. El faro más austral de la isla principal de Taiwán, cuya construcción comenzó en 1881 y terminó en 1883, fue diseñado como fortificación: muros con troneras, foso y estructura defensiva. Es “el único faro armado del mundo”. El 15 de marzo de 2024 fue elevado a monumento nacional.](/article-images/geography/pingtung-hero.webp)
 _Faro de Eluanbi, 2011-06-06. Photo: Bernard Gagnon, [CC BY-SA 3.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Eluanbi_Lighthouse_02.jpg)._
 
 ## La emboscada en el desfiladero de Shimen
 
-![Chaleco tradicional sin mangas de la comunidad paiwan de Mudan, bordado sobre fondo rojo. Ingresó en 1956 a la colección de la Universidad Nacional de Taiwán y es una de las evidencias materiales contemporáneas del incidente de Mudan de 1874.](/article-images/geography/pingtung-01.jpg)
+![Chaleco tradicional sin mangas de la comunidad paiwan de Mudan, bordado sobre fondo rojo. Ingresó en 1956 a la colección de la Universidad Nacional de Taiwán y es una de las evidencias materiales contemporáneas del incidente de Mudan de 1874.](/article-images/geography/pingtung-01.webp)
 _Chaleco sin mangas de la comunidad paiwan de Mudan, colección de la Universidad Nacional de Taiwán desde 1956. Photo: 氏子, [CC BY-SA 4.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:%E6%8E%92%E7%81%A3%E6%97%8F%E7%89%A1%E4%B8%B9%E7%A4%BE%E7%84%A1%E8%A2%96%E7%9F%AD%E4%B8%8A%E8%A1%A3.jpg)._
 
 El momento en que la península de Pingtung cambió el destino de Taiwán ocurrió en otra hora distinta de las cuatro y media de la madrugada: el 22 de mayo de 1874, en el desfiladero de Shimen.
@@ -77,7 +77,7 @@ En otras palabras: **el incidente de Mudan fue la primera prueba militar de Jap�
 
 ## Aquella iglesia de 1861, 21 años antes que el Oxford College
 
-![Exterior de la iglesia católica de Wanjin (Basílica de Nuestra Señora de Wanjin), aldea de Wanjin, municipio de Wanluan, condado de Pingtung. Fundada en 1861 por el padre español dominico Fernando Sainz y reconstruida en su ubicación actual en 1870, fue designada basílica menor por el papa Juan Pablo II en 1984. Hoy, cerca del 80% de la población de Wanjin profesa el catolicismo.](/article-images/geography/pingtung-02.jpg)
+![Exterior de la iglesia católica de Wanjin (Basílica de Nuestra Señora de Wanjin), aldea de Wanjin, municipio de Wanluan, condado de Pingtung. Fundada en 1861 por el padre español dominico Fernando Sainz y reconstruida en su ubicación actual en 1870, fue designada basílica menor por el papa Juan Pablo II en 1984. Hoy, cerca del 80% de la población de Wanjin profesa el catolicismo.](/article-images/geography/pingtung-02.webp)
 _Iglesia católica de Wanjin (Basílica de Nuestra Señora de Wanjin). Photo: WEI WAN-CHEN, [CC BY-SA 4.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:%E8%90%AC%E9%87%91%E5%A4%A9%E4%B8%BB%E6%95%99%E5%A0%82%EF%BC%88%E8%90%AC%E9%87%91%E8%81%96%E6%AF%8D%E8%81%96%E6%AE%BF%EF%BC%89.jpg)._
 
 Cincuenta kilómetros hacia el norte aparece otro punto temporal que la narrativa central dejó fuera.
@@ -122,7 +122,7 @@ El alimento más famoso hoy de Wanluan (dui de vanguardia) es la pierna de cerdo
 
 ## Eluanbi 1883, antigua ciudad de Hengchun 1879
 
-![Almenas de la puerta oriental de la antigua ciudad de Hengchun, 2013. Después de que Shen Baozhen estableciera el condado de Hengchun en 1875, la construcción de la muralla comenzó el 18 de octubre de ese mismo año y terminó en julio de 1879. La ciudad amurallada tenía un perímetro de 880 zhang y conserva completas sus cuatro puertas; es la ciudad condal de la dinastía Qing mejor conservada de Taiwán.](/article-images/geography/pingtung-03.jpg)
+![Almenas de la puerta oriental de la antigua ciudad de Hengchun, 2013. Después de que Shen Baozhen estableciera el condado de Hengchun en 1875, la construcción de la muralla comenzó el 18 de octubre de ese mismo año y terminó en julio de 1879. La ciudad amurallada tenía un perímetro de 880 zhang y conserva completas sus cuatro puertas; es la ciudad condal de la dinastía Qing mejor conservada de Taiwán.](/article-images/geography/pingtung-03.webp)
 _Almenas de la puerta oriental de la antigua ciudad de Hengchun, 2013-09-07. Photo: Orbital, [CC BY-SA 3.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:%E6%81%86%E6%98%A5%E5%8F%A4%E5%9F%8E%E6%9D%B1%E9%96%80%E5%9F%8E%E5%9E%9B.JPG)._
 
 La segunda cosa que hizo la corte Qing después del incidente de Mudan fue construir una ciudad amurallada.
@@ -139,7 +139,7 @@ El 12 de diciembre de 2008 se estrenó Cape No. 7, dirigida por Wei Te-sheng. En
 
 ## El día en que las compuertas de Linbian ya no pudieron contener el agua
 
-![Estación de Pingtung, 2013. La “estación de Ako”, terminada en 1939 (año 14 de Showa) durante el periodo japonés, fue el nodo central que conectaba el ferrocarril azucarero de Pingtung con la línea troncal occidental. El ferrocarril azucarero, con 226 kilómetros en 20 municipios, fue la estructura física de la modernización japonesa de Pingtung.](/article-images/geography/pingtung-04.jpg)
+![Estación de Pingtung, 2013. La “estación de Ako”, terminada en 1939 (año 14 de Showa) durante el periodo japonés, fue el nodo central que conectaba el ferrocarril azucarero de Pingtung con la línea troncal occidental. El ferrocarril azucarero, con 226 kilómetros en 20 municipios, fue la estructura física de la modernización japonesa de Pingtung.](/article-images/geography/pingtung-04.webp)
 _Estación de Pingtung, terminada en 1939 (año 14 de Showa). Photo: Wikimedia Commons contributor, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:Pingtung_Train_Station.jpg)._
 
 Entre el 7 y el 9 de agosto de 2009, las lluvias del tifón Morakot en la zona montañosa de Pingtung rompieron todos los registros de las estaciones meteorológicas de Taiwán hasta entonces. La estación **Xinmaja** registró el 8 de agosto 1.897 milímetros en un solo día; la estación **Taiwu**, 1.145 milímetros el 7 de agosto; y la estación del monte **Weiliao**, en Pingtung, 1.403 milímetros el 8 de agosto, cifra que en ese momento marcó el récord histórico de lluvia diaria en Taiwán[^18].

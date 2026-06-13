@@ -47,7 +47,7 @@ He entered the Department of Fashion Design at Shih Chien University through the
 
 "Kinmen 1969" consisted of six outfits telling the war memories of his hometown: Heroic women, war zone women, the spirit of soldiers, heavily using military totems, bullet holes, military boots, and camouflage nets, printing old newspaper images from the _Kinmen Daily News_ and _Zhengqi Zhonghua News_ onto faux leather-textured fabrics, paired with black iron metal details.[^4] He explained the design philosophy of these clothes in the _Kinmen Daily News_: "Memories are gentle, history is resolute. In the pattern and silhouette, I演绎 (interpret/演绎) the elements of soldiers: bunkers, military uniforms, steadiness, strength and power."[^2] He also said a more complete sentence: "The principle I grasp is that each work is a personality, a character, telling the stories of that era and defending the cultural history gradually destroyed by civilization."[^2]
 
-![Huang Shanliao (center, white shirt) backstage at the 2014 London Graduate Fashion Week, taking a photo with models wearing his "Kinmen 1969" series. The clothes show military cuts, newspaper prints, and war zone elements.](/article-images/people/huang-shan-liao-jinmen1969-gfw-2014.jpg)
+![Huang Shanliao (center, white shirt) backstage at the 2014 London Graduate Fashion Week, taking a photo with models wearing his "Kinmen 1969" series. The clothes show military cuts, newspaper prints, and war zone elements.](/article-images/people/huang-shan-liao-jinmen1969-gfw-2014.webp)
 
 _Backstage at the 2014 London Graduate Fashion Week, Huang Shanliao (center) with models wearing the "Kinmen 1969" series. Military uniforms, newspaper prints, camouflage nets—this cabinet of clothes telling the history of Kinmen's war zone won him the international first prize, yet it was a cabinet almost no one in Taiwan had seen. Photo: Kinmen Daily News (fair use editorial commentary)._
 
@@ -93,7 +93,7 @@ He started writing full-time from 2021. His first book _Drifting Youth_ (2019) w
 
 The numbers are astonishing. Verified by Eslite's official annual list: In 2021, _Live Well_ took the TOP 1 in Psychological Inspirational category and 3rd overall non-category; in 2022 and 2023, he won the Eslite non-category annual bestseller champion for two consecutive years (_Say Goodbye Well_, _The Rest of Your Life_); in 2024 and 2025, he was 2nd overall, losing to Kevin Tsai's _You Will_ and _The Autobiography of Chang Chung-moon_ respectively.[^17] In terms of sales, he stated in 2023 that six books cumulatively exceeded 300,000 copies; in 2025, media called it over 400,000 copies; _The Heart is Small_ pre-sales sold 3,000 copies in 6 minutes, breaking 1 million in revenue, first print run 30,000; _Lonely in the Human World_ first print run 30,000 plus 5,000 signed copies all sold out.[^18][^19]
 
-![Huang Shanliao at a book signing, with piles of new books with titles written on them stacked on the table in front of him.](/article-images/people/huang-shan-liao-book-signing.jpg)
+![Huang Shanliao at a book signing, with piles of new books with titles written on them stacked on the table in front of him.](/article-images/people/huang-shan-liao-book-signing.webp)
 
 _After switching to writing, Huang Shanliao became a regular on the Eslite lists. Piles of new books on the signing table are the concrete scale of "one sentence of comfort" becoming a national commodity. Photo: Huang Shanliao Instagram (@iam_3636) / Bella Nongnong (fair use editorial commentary)._
 
@@ -139,7 +139,7 @@ The Department of Fashion Design at Shih Chien University had won the internatio
 
 Angus Chiang stayed. His 2013 award-winning work "Sailing to the Moon" stitched together Taiwanese temple fair elements with spacesuits (Western reporters even read it as "Mexican spacesuit," a cross-cultural misreading).[^29] Later, he founded his eponymous brand ANGUS CHIANG in 2015, became the first Taiwanese designer to be shortlisted for the LVMH Prize in 2017 (semi-finalist), and appeared at Paris Fashion Week.[^30] He gained respect from the international fashion circle—and niche volume. In the Taiwanese public, far fewer people know Angus Chiang's name than know Huang Shanliao's.
 
-![Black and white portrait of Angus Chiang (right), and avant-garde menswear from his eponymous brand ANGUS CHIANG (left), with clothing printed with "Fashion Technology" text and fluorescent color blocks.](/article-images/people/angus-chiang-runway-portrait.jpg)
+![Black and white portrait of Angus Chiang (right), and avant-garde menswear from his eponymous brand ANGUS CHIANG (left), with clothing printed with "Fashion Technology" text and fluorescent color blocks.](/article-images/people/angus-chiang-runway-portrait.webp)
 
 _Among the three consecutive champions from Shih Chien in London, Angus Chiang (right) chose to stay in fashion: His eponymous brand ANGUS CHIANG turned Taiwanese temple fairs and betel nut stand visuals into avant-garde menswear on the international runway, becoming the first Taiwanese designer shortlisted for the LVMH Prize in 2017. The international fashion circle recognizes him; the Taiwanese public mostly doesn't. Photo: Marie Claire (fair use editorial commentary)._
 

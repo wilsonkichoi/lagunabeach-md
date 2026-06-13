@@ -112,7 +112,7 @@ Plus tard, dans une interview à _Culture Journal_, elle a déclaré : « **Je c
 
 En lisant ces deux passages ensemble — « on ne peut pas se passer de moi vs de mieux en mieux » + « quand les gens sont bien pris en charge, les animaux peuvent alors aller mieux » — on perçoit sa réflexion sur le récit romantique selon lequel « un seul objectif a sauvé une ville de montagne ». Un objectif peut sauver une ville de montagne, mais un objectif ne peut pas conclure la générosité qu'il a engendrée.
 
-![Paysage de ville de montagne dans la vallée de la rivière Keelung, vue surplombante depuis un pont près de la gare de Houtong, la ligne Pingxi traversant la vallée](/article-images/geography/houtong-keelung-river-2016.jpg)
+![Paysage de ville de montagne dans la vallée de la rivière Keelung, vue surplombante depuis un pont près de la gare de Houtong, la ligne Pingxi traversant la vallée](/article-images/geography/houtong-keelung-river-2016.webp)
 _Paysage de la vallée de Keelung, vue sur la ville de montagne depuis les escaliers panoramiques près de Houtong — la ligne Pingxi traverse la vallée, les arrière-plans de montagnes se fondent dans la brume. Le destin de cette ville de montagne, de l'arrêt de Ruisan en 1990 à l'objectif de Madame Chats en 2009 puis à la population féline réduite à une trentaine en 2026, est indissociable du paysage formé par cette rivière, cette voie ferrée et ces montagnes. Photo : CharlieDigital. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stairway_to_Keelung_River_near_Houtong_Cat_Village_20160401.jpg)._
 
 ## Le colmatage par le TNVR — de 189 stérilisations au premier « directeur » du bureau des chats, Dorayaki
@@ -129,7 +129,7 @@ La courbe de progression est la suivante :
 
 Il a fallu 8 ans pour passer de 274 à une trentaine. Cela a reposé sur la stérilisation, l'adoption et le temps du vieillissement naturel des chats.
 
-![Gros plan sur un chat errant de Houtong, un calico tricolore noir-blanc-orange regardant l'objectif depuis une rue, arrière-plan de marches de pierre mouillées](/article-images/geography/houtong-calico-cat-2015.jpg)
+![Gros plan sur un chat errant de Houtong, un calico tricolore noir-blanc-orange regardant l'objectif depuis une rue, arrière-plan de marches de pierre mouillées](/article-images/geography/houtong-calico-cat-2015.webp)
 _Chat errant de Houtong en 2015 — un calico tricolore noir-blanc-orange regardant l'objectif depuis des marches de pierre. Depuis le lancement du TNVR par le bureau de protection animale de Nouveau Taipei en 2015, chaque chat enregistré possède un numéro et une puce électronique. C'est ce que la ville de montagne de Houtong peut véritablement conserver, au-delà du label « paradis des chats ». Photo : Sun Taro. [CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2015-05-03_feral_calico_cat_at_Houtong_(cropped*2022).jpg).*
 
 En 2021, le bureau de protection animale de Nouveau Taipei a créé le « Bureau préparatoire du bureau des chats de Houtong », installé dans d'anciens dortoirs de la Taiwan Railways Administration, avec une façade peinte dans la teinte « Ruifang Gold », faisant écho au paysage minier[^26]. Le 29 avril 2024, il a été officiellement inauguré, et le chat roux « Dorayaki » a été élu premier « directeur » par vote[^27]. La population féline enregistrée était alors de 172 chats.

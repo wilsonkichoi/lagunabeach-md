@@ -82,7 +82,7 @@ Desde 2015, se incorporó a otra línea interdisciplinaria: el proyecto de perfo
 
 ### HH: el dúo audiovisual fundado en 2013 y un álbum de techno hecho con tubos fluorescentes
 
-![Fotograma del documental sobre la obra de residencia 2023-2024 del Teatro Nacional de Taichung, 《Reverberation of Illusions》; Yeh Ting-Hao ajusta en vivo el sistema de imagen en tiempo real y los parlantes multicanal en el Playhouse, con el espacio arquitectónico curvo de proyección envolvente al fondo](/article-images/art/yeh-ting-hao-reverberation-scene1-2024.jpg)
+![Fotograma del documental sobre la obra de residencia 2023-2024 del Teatro Nacional de Taichung, 《Reverberation of Illusions》; Yeh Ting-Hao ajusta en vivo el sistema de imagen en tiempo real y los parlantes multicanal en el Playhouse, con el espacio arquitectónico curvo de proyección envolvente al fondo](/article-images/art/yeh-ting-hao-reverberation-scene1-2024.webp)
 _Fragmento del documental de la obra de residencia 《Reverberation of Illusions》 de NTT, 2024: Yeh Ting-Hao ajusta en vivo el sistema de imagen en tiempo real. La atribución completa aparece al final en “Fuentes de las imágenes”._
 
 La obra representativa propia de Yeh Ting-Hao no está en una compañía de danza. Está en HH.
@@ -134,7 +134,7 @@ La etapa final de la carrera de Yeh Ting-Hao se concentró en dos obras represen
 
 En 2023-2024, Yeh Ting-Hao fue seleccionado como artista residente del Teatro Nacional de Taichung[^25]. Durante más de un año de residencia, maduró 《Reverberation of Illusions》. La obra se presentó siete veces en el Playhouse del teatro entre el 31 de agosto y el 8 de septiembre de 2024[^26]. El Playhouse es un espacio de exhibición y performance atípico dentro de la arquitectura curva del teatro, diseñada por Toyo Ito; allí Yeh Ting-Hao realizó un “concierto audiovisual que combinaba proyección envolvente y configuración de parlantes multicanal”[^26].
 
-![Fragmento de la presentación de 《Reverberation of Illusions》: proyección envolvente dentro de una arquitectura curva; luz y sonido fluyen sobre las paredes curvas del Playhouse y envuelven al público de manera sincronizada](/article-images/art/yeh-ting-hao-reverberation-scene2-2024.jpg)
+![Fragmento de la presentación de 《Reverberation of Illusions》: proyección envolvente dentro de una arquitectura curva; luz y sonido fluyen sobre las paredes curvas del Playhouse y envuelven al público de manera sincronizada](/article-images/art/yeh-ting-hao-reverberation-scene2-2024.webp)
 _《Reverberation of Illusions》 en el Playhouse: concierto audiovisual con proyección envolvente, parlantes multicanal y cálculo en tiempo real. La atribución completa aparece al final en “Fuentes de las imágenes”._
 
 Dentro del equipo de producción, Yeh Ting-Hao fue el artista creador principal. El productor ganador del Golden Melody Award Cheng Ko-Chun (sonicdeadhorse) estuvo a cargo de la producción musical, la programación en vivo, el sintetizador y la guitarra; partiendo de la música electrónica, tocaba en tiempo real y generaba imagen simultáneamente[^26]. Chen Pin-Chen se ocupó de la integración y ejecución técnica de imagen, una colaboración que ya llevaba siete años de gestión conjunta de TouchDesignerTW con Yeh Ting-Hao. El productor Wu Po-Shan coordinó todo el proyecto[^26].

@@ -2,7 +2,7 @@
   "slug": "天燈",
   "category": "culture",
   "url": "taiwan.md/culture/天燈",
-  "heroImage": "public/article-images/culture/pingxi-lantern-festival-2014.jpg",
+  "heroImage": "public/article-images/culture/pingxi-lantern-festival-2014.webp",
   "_note": "SPORE-IG-PIPELINE v0.4 — accent2 分類色拿掉（哲宇 directive「主題色效果不好先不要用」），全 deck 統一 TWMD 識別色 #00d4aa。第 2 篇 pilot。事實 100% 繼承 knowledge/Culture/天燈.md + SPORE-BLUEPRINTS/113-天燈.md。紀實/煽情閘四問全過。",
   "slides": [
     {
@@ -33,7 +33,7 @@
     {
       "type": "figure",
       "pull": "巔峰：一年 40-60 萬盞",
-      "image": "public/article-images/culture/pingxi-lantern-release-2023.jpg",
+      "image": "public/article-images/culture/pingxi-lantern-release-2023.webp",
       "caption": "平溪天燈節升空特寫：遊客親手將寫滿祝福的天燈點亮放飛。Photo cached from article-images。",
       "body": "新北市議員林裔綺曾引述觀光局數據：平溪一年放出 40 到 60 萬盞天燈。每一盞都帶著祝福升空，也都得在山林裡降下來 — 而它們降下來的方式，不是每一盞都被撿回去。"
     },

@@ -46,7 +46,7 @@ translatedAt: '2026-05-23T05:06:38+08:00'
 
 ## Six heures du matin, les vapeurs du parc de Beitou
 
-![Aspect extérieur en briques rouges sur deux niveaux du Musée des sources chaudes de Beitou, ancien bain public de Beitou de 1913, dans un style pseudo-anglais, avec galerie à arcades et vitraux, conçu par Moriyama Matsunosuke](/article-images/geography/beitou-hot-spring-museum-2020.jpg)
+![Aspect extérieur en briques rouges sur deux niveaux du Musée des sources chaudes de Beitou, ancien bain public de Beitou de 1913, dans un style pseudo-anglais, avec galerie à arcades et vitraux, conçu par Moriyama Matsunosuke](/article-images/geography/beitou-hot-spring-museum-2020.webp)
 _Aspect extérieur du Musée des sources chaudes de Beitou, à l'origine bain public des sources chaudes de Beitou achevé en 1913. Photo : contributeur Wikimedia Commons. [Licence via Wikimedia](https://commons.wikimedia.org/wiki/File:Beitou_Hot_Spring_Museum_2.jpg) (CC BY-SA 4.0)._
 
 Si vous demandez à un adolescent de Taipei de 18 ans « où vas-tu ce week-end ? », il répondra Ximen. Si vous demandez à une grand-mère de 70 ans « où vas-tu marcher ce matin ? », elle répondra Xinbeitou.
@@ -105,7 +105,7 @@ Hirata Gengo vécut au Tengu-an jusqu'à sa mort, le 7 juillet 1919 (8e année d
 
 ## 1913, le bain en briques rouges de Moriyama Matsunosuke
 
-![Escalier devant l'entrée du Musée des sources chaudes de Beitou et façade de style villa de campagne anglaise, bâtiment en briques rouges sur deux niveaux achevé en 1913](/article-images/geography/beitou-hot-spring-museum-entrance.jpg)
+![Escalier devant l'entrée du Musée des sources chaudes de Beitou et façade de style villa de campagne anglaise, bâtiment en briques rouges sur deux niveaux achevé en 1913](/article-images/geography/beitou-hot-spring-museum-entrance.webp)
 _Entrée du Musée des sources chaudes de Beitou, ancien bain public de 1913. Photo : contributeur Wikimedia Commons. [Licence via Wikimedia](https://commons.wikimedia.org/wiki/File:Entrance_of_Beitou_public_hot_spring.jpg) (CC BY-SA)._
 
 Après la construction du Tengu-an, Beitou devint un lieu de cure incontournable pour les Japonais venant à Taïwan. Le 17 juin 1913 (2e année de Taisho), l'administration de Taipei dépensa plus de 56 000 yens de fonds de santé publique et inaugura officiellement un bain public de grande ampleur[^4][^9].
@@ -126,7 +126,7 @@ Le terminus était l'« arrêt de Xinbeitou » (plus tard gare de Xinbeitou), un
 
 ## 1923, le bain unique du prince héritier
 
-![Photographie d'archive montrant la visite du prince héritier Hirohito au bain public des sources chaudes de Beitou le 25 avril 1923](/article-images/geography/beitou-hirohito-public-bathhouse-1923.jpg)
+![Photographie d'archive montrant la visite du prince héritier Hirohito au bain public des sources chaudes de Beitou le 25 avril 1923](/article-images/geography/beitou-hirohito-public-bathhouse-1923.webp)
 _Photographie d'archive de la visite du prince héritier Hirohito au bain public de Beitou en 1923. Photo : domaine public (document d'avant-guerre, 1923). [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Crown_Prince_Hirohito%27s_visit_at_Hokutō_Public_Bathhouse_1923.jpg)._
 
 En avril 1923 (12e année de Taisho), **le prince héritier Hirohito** (futur empereur Showa), en qualité de régent, effectua à la place de l'empereur Taisho une visite de 12 jours à Taïwan[^6]. C'était la première visite de la famille impériale japonaise dans la colonie de Taïwan.
@@ -207,7 +207,7 @@ En novembre 2002, **le Centre culturel ketagalan** ouvrit au 3-1 Zhongshan Road,
 
 ## 2017, la gare rentre chez elle
 
-![Gare de Xinbeitou, ouverte en 1916, revenue et remontée dans le parc Qixing en 2017, en cyprès rouge taïwanais, avec ses quatre ouvertures rondes de lucarnes](/article-images/geography/xinbeitou-historic-station-2023.jpg)
+![Gare de Xinbeitou, ouverte en 1916, revenue et remontée dans le parc Qixing en 2017, en cyprès rouge taïwanais, avec ses quatre ouvertures rondes de lucarnes](/article-images/geography/xinbeitou-historic-station-2023.webp)
 _État actuel de la gare de Xinbeitou remontée dans le parc Qixing. Photo : contributeur Wikimedia Commons. [Licence via Wikimedia](https://commons.wikimedia.org/wiki/File:Front_view_of_Xinbeitou_Station_on_a_bright_sunny_day.jpg) (CC BY-SA)._
 
 Le 15 juillet 1988, jour de la fermeture de la ligne secondaire de Xinbeitou, la gare en cyprès rouge taïwanais de 1916 fut démontée, transportée à Changhua et remontée dans le Taiwan Folk Village[^19]. Elle y resta 24 ans. Personne ne prit jamais le train dans cette gare ; elle devint un objet d'exposition du village folklorique, devant lequel les visiteurs prenaient une photo, jetaient un regard, puis passaient leur chemin[^19].
@@ -226,7 +226,7 @@ De 1916 à 2017, cette gare traversa : **chemin de fer touristique de la périod
 
 ## Couche matérielle : briques rouges, pierre de Qilian, hokutolite, cyprès
 
-![Surface fumante de la source sulfurée bleue de la vallée géothermique, source sulfurée proche de 100 °C](/article-images/geography/beitou-thermal-valley.jpg)
+![Surface fumante de la source sulfurée bleue de la vallée géothermique, source sulfurée proche de 100 °C](/article-images/geography/beitou-thermal-valley.webp)
 _Source sulfurée bleue de la vallée géothermique. Photo : contributeur Wikimedia Commons. [Licence via Wikimedia](https://commons.wikimedia.org/wiki/File:Beitou_Thermal_Valley.jpg) (CC BY-SA)._
 
 Chaque élément de la couche matérielle de cette rue de Beitou a son histoire.
@@ -257,7 +257,7 @@ Ces trois points, ajoutés au Musée des sources chaudes et à la vallée géoth
 
 ## La même source de montagne, la génération suivante d'habitants
 
-![Les six bassins publics du bassin thermal en plein air « Millennium Hot Spring » du parc de Beitou](/article-images/geography/beitou-park-outdoor-pool-2018.jpg)
+![Les six bassins publics du bassin thermal en plein air « Millennium Hot Spring » du parc de Beitou](/article-images/geography/beitou-park-outdoor-pool-2018.webp)
 _Bassin thermal en plein air du parc de Beitou, Millennium Hot Spring. Photo : contributeur Wikimedia Commons. [Licence via Wikimedia](https://commons.wikimedia.org/wiki/File:Beitou_Park_Outdoor_Hot_Spring_Bathing_Pool.jpg) (CC BY-SA)._
 
 À six heures du matin, le bassin en plein air n'a pas encore ouvert, mais une rangée de grand-mères et de mères est déjà assise devant la porte.

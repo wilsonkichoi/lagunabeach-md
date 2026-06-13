@@ -48,7 +48,7 @@ translatedAt: '2026-05-25T21:07:04Z'
 
 ## 1788年冬、200体余りの遺骨をあの丘陵に合葬しました
 
-![褒忠亭義民廟正面、2018年5月、新埔鎮枋寮里。客家義民信仰の中心廟で、乾隆53年（1788）冬に着工し、55年（1790）に正庁が完成、56年（1791）に廟全体が竣工しました。](/article-images/geography/hsinchu-county-hero.jpg)
+![褒忠亭義民廟正面、2018年5月、新埔鎮枋寮里。客家義民信仰の中心廟で、乾隆53年（1788）冬に着工し、55年（1790）に正庁が完成、56年（1791）に廟全体が竣工しました。](/article-images/geography/hsinchu-county-hero.webp)
 _褒忠亭義民廟正面、2018-05-27。Photo: Outlookxp。[CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E8%A4%92%E5%BF%A0%E4%BA%AD%E7%BE%A9%E6%B0%91%E5%BB%9F%E6%AD%A3%E9%9D%A2%E7%85%A7.jpg)._
 
 義民廟がなぜ235年の歴史を持つのかを理解するには、視点を乾隆51年（1786年）秋に戻す必要があります。

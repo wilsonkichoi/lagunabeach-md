@@ -56,7 +56,7 @@ Sa fonction initiale est très concrète : offrir un stand aux jeunes PME inform
 
 ## L'année où Stan Shih change le nom
 
-![Stan Shih est interviewé par plusieurs médias lors de l'événement Taipei IT Month en 2014 ; il porte un costume sombre, une rangée de micros et de caméras devant lui, avec le salon en arrière-plan](/article-images/technology/stan-shih-taipei-it-month-2014.jpg)
+![Stan Shih est interviewé par plusieurs médias lors de l'événement Taipei IT Month en 2014 ; il porte un costume sombre, une rangée de micros et de caméras devant lui, avec le salon en arrière-plan](/article-images/technology/stan-shih-taipei-it-month-2014.webp)
 _Stan Shih, fondateur d'Acer. En 1984, il renomme officiellement le « Salon informatique de la ville de Taipei » en COMPUTEX TAIPEI, donnant à ce salon une enseigne tournée vers le monde ; ici, il est interviewé lors du Taipei IT Month en 2014. Photo: Tony Tseng, 2014-12-05. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stan_Shih_at_Taipei_IT_Month_20141205a.jpg)._
 
 L'année 1984 marque un tournant. Selon Wikipédia et plusieurs articles, Stan Shih, alors président de la Taipei Computer Association et futur fondateur d'Acer, décide de donner au salon son nom anglais officiel : « COMPUTEX TAIPEI »[^4][^5]. Le geste de nomination d'un ingénieur local appose à cette exposition, jusque-là destinée surtout aux fabricants taïwanais, une enseigne tournée vers le monde.
@@ -74,7 +74,7 @@ En 1989, il est déjà le plus grand salon informatique d'Asie et le troisième 
 
 Le premier à tomber est le COMDEX américain. En 2003, alors que le COMDEX décline, les organisateurs de Computex intègrent officiellement le hall 3 du Taipei World Trade Center au périmètre du salon. Cette année-là, Computex accède officiellement au rang de « deuxième plus grand salon informatique du monde derrière le CeBIT », puis confirme en 2004 une configuration à quatre halls ouverts en même temps[^4][^5].
 
-![Le salon CeBIT 2005 à Hanovre, en Allemagne, est bondé ; les larges allées du hall sont bordées de stands d'entreprises informatiques, avec un plafond élevé et de nombreux panneaux, montrant l'ampleur de ce qui était alors le plus grand salon informatique du monde](/article-images/technology/cebit-hannover-2005.jpg)
+![Le salon CeBIT 2005 à Hanovre, en Allemagne, est bondé ; les larges allées du hall sont bordées de stands d'entreprises informatiques, avec un plafond élevé et de nombreux panneaux, montrant l'ampleur de ce qui était alors le plus grand salon informatique du monde](/article-images/technology/cebit-hannover-2005.webp)
 _Le salon CeBIT 2005 à Hanovre, en Allemagne. Au sommet de la bulle Internet, il a atteint jusqu'à 850 000 visiteurs, faisant de lui le véritable numéro un mondial ; en 2018, il annonce son entrée dans l'histoire. Photo: Florian K, 2005-03-16. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cebit_Hannover_2004.JPG)._
 
 Celui qui résiste plus longtemps est le CeBIT allemand. Né en 1986 comme spin-off du très ancien salon industriel de Hanovre, le CeBIT atteint au plus fort de la bulle Internet 850 000 visiteurs, un statut indiscutable de numéro un mondial[^7]. Mais l'apogée précède le déclin : le nombre de visiteurs et d'exposants baisse année après année, tandis que le marché se fragmente entre le CES de janvier, le MWC de février, Computex en juin et l'IFA en septembre. En novembre 2018, les organisateurs annoncent la fin du CeBIT[^7].
@@ -90,7 +90,7 @@ Des trois grands salons informatiques, COMDEX s'arrête en 2003, CeBIT en 2018. 
 
 ## Les six mille stands que personne ne photographie
 
-![Extérieur du hall 1 du Nangang Exhibition Center, avec un grand panneau COMPUTEX TAIPEI accroché à la façade vitrée ; une foule de visiteurs munis de badges se rassemble à l'entrée, devenue l'un des principaux sites du Salon international de l'informatique de Taipei ces dernières années](/article-images/technology/computex-nangang-exterior-2016.jpg)
+![Extérieur du hall 1 du Nangang Exhibition Center, avec un grand panneau COMPUTEX TAIPEI accroché à la façade vitrée ; une foule de visiteurs munis de badges se rassemble à l'entrée, devenue l'un des principaux sites du Salon international de l'informatique de Taipei ces dernières années](/article-images/technology/computex-nangang-exterior-2016.webp)
 _Le Nangang Exhibition Center de Taipei, principal site de COMPUTEX ces dernières années. Chaque année, entre fin mai et début juin, des acheteurs de plus d'une centaine de pays s'y pressent. Photo: NVIDIA Taiwan, 2016-05-31. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Computex_Taipei_at_Taipei_Nangang_Exhibition_Center_20160531.jpg)._
 
 Les caméras des médias regardent toujours vers la scène des discours-programmes, vers ces quelques PDG. Mais le véritable corps de Computex, ce sont ces 6 000 stands[^6].
@@ -113,7 +113,7 @@ Personne ne sait alors que cette transformation entreprise pour survivre vient d
 
 ## L'année du retour de Jensen Huang
 
-![Jensen Huang prononce un discours sur la scène de Computex Taipei, vêtu de son haut sombre caractéristique, avec un grand écran de projection derrière lui et un public attentif dans la salle ; c'est l'une des nombreuses scènes où il revient au salon informatique de Taipei pour présenter un discours-programme](/article-images/technology/computex-jensen-huang-2016.jpg)
+![Jensen Huang prononce un discours sur la scène de Computex Taipei, vêtu de son haut sombre caractéristique, avec un grand écran de projection derrière lui et un public attentif dans la salle ; c'est l'une des nombreuses scènes où il revient au salon informatique de Taipei pour présenter un discours-programme](/article-images/technology/computex-jensen-huang-2016.webp)
 _Jensen Huang lors d'une intervention à Computex Taipei en 2016. Depuis 2023, il revient presque chaque année à ce salon pour annoncer les dernières puces d'IA de NVIDIA. Photo: NVIDIA Taiwan, 2016-05-31. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jensen_Huang_at_Computex_Taipei_20160531c.jpg)._
 
 Le 29 mai 2023, Jensen Huang monte sur la scène de Computex pour son premier discours-programme physique depuis la pandémie, et sa première prise de parole publique depuis près de quatre ans[^9]. Il apporte la superpuce Grace Hopper, annonce son entrée officielle en production de masse, et présente aussi le superordinateur DGX GH200, capable de relier 256 puces par NVLink pour atteindre une puissance de calcul d'un exaflop ; Google, Meta et Microsoft en sont les premiers clients[^9]. Son axe tient en une phrase : faire entrer l'IA générative dans chaque centre de données.
@@ -181,7 +181,7 @@ _Chaîne officielle de NVIDIA : version intégrale du discours-programme de Jens
 
 En éloignant la caméra de la scène, on voit la véritable assise de Computex, mais aussi ses inquiétudes.
 
-![Extérieur d'une usine TSMC dans le parc scientifique de Hsinchu, vaste ensemble de salles blanches beige clair, base majeure de production des puces avancées mondiales](/article-images/technology/tsmc-fab-hsinchu-2009.jpg)
+![Extérieur d'une usine TSMC dans le parc scientifique de Hsinchu, vaste ensemble de salles blanches beige clair, base majeure de production des puces avancées mondiales](/article-images/technology/tsmc-fab-hsinchu-2009.webp)
 _Usine TSMC dans le parc scientifique de Hsinchu. Pour qu'une puce d'IA devienne un serveur, la première étape a lieu ici : plus de 90 % des puces les plus avancées du monde sont produites par TSMC. Photo: Arusanov, 2009, domaine public. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tsmc_factory_hsinchu.JPG)._
 
 Pour qu'une puce d'IA NVIDIA devienne un serveur capable de fonctionner dans un centre de données, presque chaque étape intermédiaire se déroule à Taïwan. La puce est produite par TSMC, qui fabrique plus de 90 % des puces les plus avancées au monde ; son encapsulation repose sur le CoWoS de TSMC, une technologie avancée qui constitue aujourd'hui le goulot d'étranglement de toute la puissance de calcul d'IA[^18]. L'assemblage des serveurs s'appuie sur Foxconn, Quanta, Wistron et d'autres sous-traitants ; Foxconn à lui seul détient environ 40 % du marché mondial de la sous-traitance des serveurs d'IA[^19]. Les alimentations reposent sur Delta Electronics, qui détient environ la moitié du marché mondial des alimentations pour serveurs ; le refroidissement, les connecteurs et les boîtiers sont eux aussi presque entièrement couverts par des fabricants taïwanais[^18]. Selon les estimations d'instituts de recherche, près de 90 % des serveurs d'IA du monde sont assemblés et expédiés par des entreprises taïwanaises[^18].

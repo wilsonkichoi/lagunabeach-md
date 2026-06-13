@@ -45,7 +45,7 @@ In Taiwan, type-making had always been this kind of craft. Its products were eve
 
 ## A CD at Guanghua Market
 
-![An LED route display on the front of a Taipei city bus, showing the route number and destination in Ming-style type, part of Taiwan’s everyday streetscape of text](/article-images/technology/taipei-bus-311-mingliu-led-sign-2022.jpg)
+![An LED route display on the front of a Taipei city bus, showing the route number and destination in Ming-style type, part of Taiwan’s everyday streetscape of text](/article-images/technology/taipei-bus-311-mingliu-led-sign-2022.webp)
 
 _A bus route display on a Taipei street. Ming-style type occupied Taiwan’s official documents, signs, and public transit for decades, a landscape most people read every day but rarely notice. Photo: BlubiNeko, 2022. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)._
 
@@ -60,7 +60,7 @@ The exit route can be told through two companies. After pivoting toward the Japa
 
 ## Thirteen Thousand and Fifty-three Pits
 
-![Lead type at Ri Xing Type Foundry, with rows of matrices and lead type tightly arranged on shelves, each Chinese character corresponding to a physical piece of type](/article-images/technology/rixing-type-foundry-lead-type-2023.jpg)
+![Lead type at Ri Xing Type Foundry, with rows of matrices and lead type tightly arranged on shelves, each Chinese character corresponding to a physical piece of type](/article-images/technology/rixing-type-foundry-lead-type-2023.webp)
 
 _Lead type at Ri Xing Type Foundry. Before digital typefaces, every Chinese character was a physical piece of lead type. The carrier changed across generations, but the scale of more than 13,000 characters never did. Photo: Johan Jönsson, 2023. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)._
 
@@ -111,7 +111,7 @@ The name itself is another Taiwanese story. Jin Xuan was originally the tea cult
 
 This name almost did not exist. Years later, Lin Hsia recalled on the same podcast episode that Jin Xuan had nearly been called “Iron Branch” or “Matteo Ricci”[^48]. After the final decision, the Taiwanese flavor was carried through completely: “Precisely because ‘Jin Xuan’ is an authentic Taiwanese tea, when creating the various typeface-file features, we also wanted to integrate, and even pay homage to, Taiwan’s distinctive hand-shaken drink stand culture.”[^21] The weight names were therefore taken straight from the counter of a hand-shaken beverage shop: 20 percent sugar, light sugar, 40 percent sugar, half sugar, and 80 percent sugar[^21].
 
-![Official Jin Xuan typeface specimen, with hand-shaken drink terms such as pearl milk tea and light sugar with no ice typeset among tea-leaf illustrations, showing the tea-themed personality of the typeface](/article-images/technology/justfont-jinxuan-specimen-2015.png)
+![Official Jin Xuan typeface specimen, with hand-shaken drink terms such as pearl milk tea and light sugar with no ice typeset among tea-leaf illustrations, showing the tea-themed personality of the typeface](/article-images/technology/justfont-jinxuan-specimen-2015.webp)
 
 _The official specimen from the Jin Xuan launch post, using hand-shaken drink vocabulary as sample text. Image: © justfont, materials provided by justfont, fair use editorial commentary under cooperative authorization. [Source](https://blog.justfont.com/2015/08/introducing-jinshuan/)._
 
@@ -161,7 +161,7 @@ The gray zone of copyright had an earlier chapter in Taiwan. Wang Han-tsung, a p
 
 ## The Tapioca Pearls Given Away
 
-![Official visual banner for the jf open Huninn typeface, showing rounded Huninn lettering and the typeface name](/article-images/technology/justfont-open-huninn-banner-2019.png)
+![Official visual banner for the jf open Huninn typeface, showing rounded Huninn lettering and the typeface name](/article-images/technology/justfont-open-huninn-banner-2019.webp)
 
 _The official visual for jf open Huninn. This open-source rounded typeface was adapted from Japan’s Kosugi Maru and released under the OFL after zhuyin and Taiwan-specific common characters were added. Image: justfont official GitHub. [Source](https://github.com/justfont/open-huninn-font)._
 
@@ -174,7 +174,7 @@ This open-source line kept extending. Ko Chih-chieh, using the online name But K
 
 ## Rain Retrieved From Woodblocks
 
-![A comparison image released by justfont showing Lanyang Ming and the woodblock glyphs of Jianyuji, placing the original carved forms beside their digitally translated Ming-style skeletons](/article-images/technology/justfont-lanyangmingti-jianyuji-comparison-2021.png)
+![A comparison image released by justfont showing Lanyang Ming and the woodblock glyphs of Jianyuji, placing the original carved forms beside their digitally translated Ming-style skeletons](/article-images/technology/justfont-lanyangmingti-jianyuji-comparison-2021.webp)
 
 _Official comparison of Lanyang Ming and the woodblock characters of \_Jianyuji_. The brush movement of carved regular script was translated into the skeleton of a modern Ming typeface. Image: © justfont, materials provided by justfont, fair use editorial commentary under cooperative authorization. [Source](https://justfont.com/lanyangming/).\_
 
@@ -206,7 +206,7 @@ Between Jin Xuan and Lanyang, justfont also grew a third path: helping other peo
 
 As the list grew, it also began looking toward the street. Taiwan’s streets were already a free typography exhibition. Taichung sign painter Wang Shui-he entered the trade at fourteen and trained more than 400 apprentices in his lifetime. The “Shuihe Rounded” letters on the Miyahara Ophthalmology sign are still his hand: rectangular skeletons, a high center of gravity, and a period quality immediately visible when placed beside modern rounded type[^53]. justfont designer Shen Tsai-jou wanted to bring this “human flavor” into the computer. She visited old-street signs, old book titles, and temple duty plaques to collect letterforms, then worked according to the old masters’ rules: deliberately making no draft, marking only gridlines on the paper, and applying ink directly with the brush[^54][^55]. The result was Kamabit, a Tâi-gí term for tomato, which went online in early 2025[^55].
 
-![Official specimen for the Kamabit typeface, with retro signboard colors of red letters on a green background and thick-stroked forms derived from hand-painted Taiwanese sign lettering](/article-images/technology/justfont-kamabit-specimen-2023.jpg)
+![Official specimen for the Kamabit typeface, with retro signboard colors of red letters on a green background and thick-stroked forms derived from hand-painted Taiwanese sign lettering](/article-images/technology/justfont-kamabit-specimen-2023.webp)
 
 _The official key visual for Kamabit, paying tribute to hand-painted display lettering on old signs. Image: © justfont, materials provided by justfont, fair use editorial commentary under cooperative authorization. [Source](https://justfont.com/kamabit/)._
 
@@ -223,7 +223,7 @@ The oldest baton in this relay is on Taiyuan Road in Taipei’s Datong District.
 
 Second-generation proprietor Chang Chieh-kuan began following his father into the trade at seventeen[^57]. In the shop’s heyday, all seven casting machines ran at once: “The masters stripped down to only their underwear and were still sweating from head to toe!”[^57] Later, as the printing industry changed eras, the work he guarded gained another task: repairing characters. Matrices wear down with use, and the lead type cast from them comes out with missing corners and broken strokes, each one needing to be repaired. After decades of repairs, he described the work like a discipline: “Everyone interprets written characters differently. Repairing type is different from type design; one has to remove the ‘self,’ and that is actually very difficult.”[^57]
 
-![Chang Chieh-kuan of Ri Xing Type Foundry sitting before a screen repairing digitized lead-type glyphs, with dense lead-type specimen sheets hanging on the wall behind him](/article-images/technology/rixing-chang-chieh-kuan-repairing-type-2025.jpg)
+![Chang Chieh-kuan of Ri Xing Type Foundry sitting before a screen repairing digitized lead-type glyphs, with dense lead-type specimen sheets hanging on the wall behind him](/article-images/technology/rixing-chang-chieh-kuan-repairing-type-2025.webp)
 
 _Chang Chieh-kuan repairing digitized glyphs before a screen. The craft of type repair from the lead-type era continues on vector curves. Photo: © justfont, materials provided by justfont, fair use editorial commentary under cooperative authorization. [Source](https://blog.justfont.com/2025/06/rixing-song2-revivals/)._
 

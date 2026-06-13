@@ -65,7 +65,7 @@ Taiwan's opportunity lies here: the United States and its allies need a drone su
 > **📝 Curator's note**
 > Thunder Tiger's path into the U.S. market is worth watching: first obtain Blue UAS certification (solving the trust problem), then target the U.S. Army's Drone Dominance Program, which aims to deliver over 200,000 small drones to the military by 2027. A model-airplane company from Taichung is bidding on Pentagon contracts.
 
-![NCSIST Albatross UAV No. 9717 on display at Zhongzheng Naval Port Open Day, May 2013, wings extended, low-profile on a concrete waterfront surface — one of Taiwan's signature domestically developed military UAVs](/article-images/technology/uav-9717-zhongzheng-port-2013.jpg)
+![NCSIST Albatross UAV No. 9717 on display at Zhongzheng Naval Port Open Day, May 2013, wings extended, low-profile on a concrete waterfront surface — one of Taiwan's signature domestically developed military UAVs](/article-images/technology/uav-9717-zhongzheng-port-2013.webp)
 
 _May 4, 2013: NCSIST "Albatross" UAV (No. 9717) on display at Pier 11, Zhongzheng Naval Port, Kaohsiung. Photo: 玄史生. [CC BY-SA 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:UAV_9717_Display_at_No.11_Pier_Left_Rear_View_20130504.jpg)._
 

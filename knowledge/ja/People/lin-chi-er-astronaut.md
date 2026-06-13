@@ -10,7 +10,7 @@ readingTime: 14
 lastVerified: 2026-04-28
 lastHumanReview: false
 researchReport: reports/research/2026-04/lin-qi-er.md
-image: '/article-images/people/lindgren-emu-2014.jpg'
+image: '/article-images/people/lindgren-emu-2014.webp'
 imageCredit: 'NASA/Bill Stafford'
 imageLicense: 'Public domain (NASA)'
 imageSource: 'https://commons.wikimedia.org/wiki/File:Kjell_Lindgren_in_EMU_(cropped).jpg'
@@ -72,7 +72,7 @@ translatedAt: '2026-05-16T22:35:34Z'
 
 ### 赤いLEDの下での最初のレタス
 
-![3人の宇宙飛行士がロシアのスターシティ宇宙飛行士訓練センターのソユーズTMAシミュレーター前に並んで立っており、左から林琪兒（NASA）、オレグ・コノネンコ（ロシア）、油井亀美也（日本）、全員がExpedition 42/43バックアップクルーの青いつなぎ服を着用している](/article-images/people/lindgren-expedition42-crew.jpg)
+![3人の宇宙飛行士がロシアのスターシティ宇宙飛行士訓練センターのソユーズTMAシミュレーター前に並んで立っており、左から林琪兒（NASA）、オレグ・コノネンコ（ロシア）、油井亀美也（日本）、全員がExpedition 42/43バックアップクルーの青いつなぎ服を着用している](/article-images/people/lindgren-expedition42-crew.webp)
 _2014年10月30日、林琪兒（左）がロシアのスターシティにあるガガーリン宇宙飛行士訓練センターで、Expedition 42/43バックアップクルーメンバーのオレグ・コノネンコ（中央、ロシア）、油井亀美也（やぶり きみや、右、日本）と並んで撮影。3人は後に彼の最初のミッション、ソユーズTMA-17Mの乗組員となりました。Photo: NASA/Stephanie Stoll. [Public domain via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Expedition_42_backup_crew_members_in_front_of_the_Soyuz_TMA_spacecraft_mock-up_in_Star_City,_Russia.jpg)._
 
 2015年7月22日、リングレンはソユーズTMA-17Mでカザフスタンのバイコヌール宇宙基地から打ち上げられました。同乗者はロシア人指揮官のオレグ・コノネンコ（Oleg Kononenko）と日本の宇宙飛行士・油井亀美也（やぶり きみや）で、Expedition 44/45ミッションを担当しました[^12]。これが彼の最初の宇宙飛行でした。
@@ -109,7 +109,7 @@ NASAの公式追悼文に彼はこう記しました：
 
 ### 自分の宇宙船にフリーダムと名付ける
 
-![林琪兒が青いNASAのつなぎ服を着て両腕を組み、カリフォルニア州ホーソーンにあるSpaceX本社のクルードラゴンモデルキャビン前で公式ポートレートを撮影。左肩のNASAバッジと右肩の米国旗が鮮明に見える](/article-images/people/lindgren-crew4-training.jpg)
+![林琪兒が青いNASAのつなぎ服を着て両腕を組み、カリフォルニア州ホーソーンにあるSpaceX本社のクルードラゴンモデルキャビン前で公式ポートレートを撮影。左肩のNASAバッジと右肩の米国旗が鮮明に見える](/article-images/people/lindgren-crew4-training.webp)
 _2022年2月、SpaceXクルー4船長として、カリフォルニア州ホーソーンのSpaceX本社にあるクルードラゴンのモデルキャビンで訓練。Photo: NASA. [Public domain via NASA](https://www.nasa.gov/image-feature/nasa-astronaut-and-spacex-crew-4-commander-kjell-lindgren-0/) (NASA Image ID `jsc2022e011416`)._
 
 7年後、2022年4月27日、リングレンはSpaceXクルードラゴンに搭乗して2度目の宇宙へ飛び立ちました。今回はクルー4ミッションの船長として[^19]。

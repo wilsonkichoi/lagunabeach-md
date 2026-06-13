@@ -39,7 +39,7 @@ translatedAt: '2026-05-28T05:08:33+08:00'
 
 ## What an Arcade Cabinet Taught Them
 
-![Rayark Inc. official logo, the brand mark used since 2012: a white R on a red background](/article-images/technology/rayark-logo-2012.png)
+![Rayark Inc. official logo, the brand mark used since 2012: a white R on a red background](/article-images/technology/rayark-logo-2012.webp)
 _Rayark Inc. official logo. Source: [English Wikipedia File:Logo of Rayark Inc.png](https://en.wikipedia.org/wiki/File:Logo_of_Rayark_Inc.png). Fair use editorial commentary._
 
 Rayark's story begins with a failure.
@@ -70,14 +70,14 @@ The six-person NTU College of Electrical Engineering and Computer Science alumni
 
 On January 12, 2012, Cytus launched on iOS.[^cytus-wiki]
 
-![Cytus II gameplay screenshot, showing the dynamic scanline note-tapping judgment mechanic — the Cytus series' signature gameplay](/article-images/technology/cytus-ii-gameplay.png)
+![Cytus II gameplay screenshot, showing the dynamic scanline note-tapping judgment mechanic — the Cytus series' signature gameplay](/article-images/technology/cytus-ii-gameplay.webp)
 _The Cytus II version of the Cytus series' signature "dynamic scanline" gameplay. Source: [English Wikipedia File:Cytus II gameplay.png](https://en.wikipedia.org/wiki/File:Cytus_II_gameplay.png). Fair use editorial commentary._
 
 The gameplay was simple and intuitive: tap notes as a dynamic scanline passed over them. What truly set it apart, however, was the quality of its art and music. Its science-fiction visual design and high-level original electronic music gave Cytus a memorable identity in a crowded field of homogeneous mobile rhythm games. Within a month of launch, it reached No. 1 on the App Store charts in 14 countries, held the top spot on Japan's rhythm game chart for 29 consecutive days, and reached 1 million paid downloads in April 2015.[^cytus-wiki]
 
 On November 13, 2013, Deemo launched.[^deemo-wiki] If Cytus was science-fiction electronic music, Deemo was classical piano. Players performed piano pieces in a black-and-white fairy-tale world. The music moved from electronic toward classical and lyrical, while the art style shifted from cool-toned science fiction to warm hand-drawn illustration.
 
-![DEEMO Last Recital PS Vita cover, the signature image of a little girl playing piano in a black-and-white fairy-tale piano room](/article-images/technology/deemo-cover.jpg)
+![DEEMO Last Recital PS Vita cover, the signature image of a little girl playing piano in a black-and-white fairy-tale piano room](/article-images/technology/deemo-cover.webp)
 _The PS Vita cover of DEEMO Last Recital; its black-and-white fairy-tale style is the signature art direction of the Deemo series. Source: [English Wikipedia File:DeemoLastRecitalVita.jpg](https://en.wikipedia.org/wiki/File:DeemoLastRecitalVita.jpg). Fair use editorial commentary._
 
 Deemo became one of Rayark's biggest commercial works. By October 2014, it had accumulated 7 million downloads; by the time its animated film was announced in 2021, it had reached 28 million downloads.[^deemo-wiki] Its soundtrack sold well in the Japanese market, and the game won App Store Taiwan's 2013 Best of the Year Independent Developer and Google Play Taiwan's 2014 Best Game Music. The Nintendo Switch version has a Metacritic score of 88.[^deemo-wiki] Its sequel, DEEMO II, launched on January 13, 2022, reached 1 million pre-registrations worldwide, surpassed 1 million downloads in its first week, and served as Rayark's tenth-anniversary title.[^deemo2-gnn]
@@ -87,7 +87,7 @@ Deemo became one of Rayark's biggest commercial works. By October 2014, it had a
 
 ---
 
-![Rayark booth in 2018, with the backs of Pipimi and Popuko cosplayers from POP TEAM EPIC visible in the distance](/article-images/technology/rayark-booth-cosplayers-2018.jpg)
+![Rayark booth in 2018, with the backs of Pipimi and Popuko cosplayers from POP TEAM EPIC visible in the distance](/article-images/technology/rayark-booth-cosplayers-2018.webp)
 _Rayark booth in 2018, seen from behind cosplay attendees. Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cosplayers_of_Pipimi_and_Popuko_seen_from_behind_at_Rayark_booth_(40764217870).jpg). Photo: player cosplay snapshot, CC BY-SA 2.0.\_
 
 ## The Year of the Switch Launch, They Did Five Things at Once
@@ -98,7 +98,7 @@ Implosion launched on iOS and Android on April 8, 2015, and came to Nintendo Swi
 
 In June 2016, VOEZ launched on mobile. The following year, on March 3, 2017, VOEZ became one of the Nintendo Switch launch titles. Rayark was one of the few non-Nintendo first-party rhythm game developers in the Switch launch lineup.[^voez-4gamers] By early 2017, worldwide downloads had surpassed 10 million.[^voez-4gamers] Nintendo Life gave it an 8/10 and called it the Switch's "secret weapon."[^voez-nintendo-life]
 
-![VOEZ Nintendo Switch cover, featuring the signature watercolor visual style with a mirrored two-person composition](/article-images/technology/voez-switch-cover.jpg)
+![VOEZ Nintendo Switch cover, featuring the signature watercolor visual style with a mirrored two-person composition](/article-images/technology/voez-switch-cover.webp)
 _VOEZ Nintendo Switch cover, published by Flyhigh Works — a Switch launch title on March 3, 2017. Source: [English Wikipedia File:SwitchVOEZ.jpg](https://en.wikipedia.org/wiki/File:SwitchVOEZ.jpg). Fair use editorial commentary._
 
 On January 18, 2018, Cytus II launched, a sequel arriving six years after the original Cytus.[^cytus2-gematsu] The new system pushed rhythm game players' judgment abilities to the limit, and the game later accumulated more than 18 million downloads worldwide. In May 2026, Rayark announced that Cytus II would launch on Nintendo Switch 2 and Switch in 2027, with more than 500 tracks included.[^cytus2-gematsu][^cytus2-qooapp]
@@ -113,7 +113,7 @@ Then came Sdorica on April 19, 2018.[^sdorica-wiki]
 
 ## Leaving the Comfort Zone: Eight Years of Sdorica
 
-![Sdorica game logo, the "aurora" subtitle version with aurora-themed character artwork](/article-images/technology/sdorica-logo.png)
+![Sdorica game logo, the "aurora" subtitle version with aurora-themed character artwork](/article-images/technology/sdorica-logo.webp)
 _Sdorica game logo, the aurora subtitle version. Source: [English Wikipedia File:Sdorica logo.png](https://en.wikipedia.org/wiki/File:Sdorica_logo.png). Fair use editorial commentary._
 
 Sdorica was Rayark's boldest experiment.
@@ -187,7 +187,7 @@ One year earlier, in 2019, Devotion by [Red Candle Games](/technology/赤燭遊�
 
 ## Implosion: Eleven Years of Zero Day
 
-![Implosion: Never Lose Hope game poster, a mecha action scene with App Store and Google Play release information](/article-images/technology/implosion-cover.png)
+![Implosion: Never Lose Hope game poster, a mecha action scene with App Store and Google Play release information](/article-images/technology/implosion-cover.webp)
 _Implosion: Never Lose Hope promotional poster — a 3D mecha action game that won 2015 iOS Game of the Year Asia. Source: [English Wikipedia File:Implosion- Never Lose Hope - cover.png](https://en.wikipedia.org/wiki/File:Implosion-_Never_Lose_Hope_-_cover.png). Fair use editorial commentary._
 
 Some promises look worse than silence.

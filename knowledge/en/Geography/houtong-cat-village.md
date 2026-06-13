@@ -112,7 +112,7 @@ She later said in an interview with _Culture Journal_: "**I once thought I was i
 
 Reading these two passages together — "I was indispensable vs. getting better and better" + "Only when people are taken care of can the animals possibly be better" — is her reflection on the romantic narrative of "a single camera saving a mountain town." A camera can save a mountain town, but a camera can't finish patching up the good intentions it spawned.
 
-![Keelung River valley mountain town landscape, overlooking from a bridge near Houtong Station, the Pingxi Line railway running along the valley](/article-images/geography/houtong-keelung-river-2016.jpg)
+![Keelung River valley mountain town landscape, overlooking from a bridge near Houtong Station, the Pingxi Line railway running along the valley](/article-images/geography/houtong-keelung-river-2016.webp)
 _Keelung River valley landscape, overlooking the mountain town from observation stairs near Houtong — the Pingxi Line railway runs through the valley, with mountain ridges fading into clouds in the background. The fate of this mountain town, from Ruisan's 1990 closure to Cat Lady's 2009 lens to the 2026 cat population of 30-something, is inseparable from this river, this railway, and these mountains. Photo: CharlieDigital. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stairway_to_Keelung_River_near_Houtong_Cat_Village_20160401.jpg)._
 
 ## TNVR Patches Up — From 189 Cats Sterilized to the Cat Office's "Dorayaki" as First Director
@@ -129,7 +129,7 @@ The progress curve looked like this:
 
 It took 8 years to go from 274 to 30+. This was achieved through sterilization, adoption, and the passage of time as cats aged naturally.
 
-![Close-up of a Houtong street cat, a calico looking back at the camera on a street, wet stone steps in the background](/article-images/geography/houtong-calico-cat-2015.jpg)
+![Close-up of a Houtong street cat, a calico looking back at the camera on a street, wet stone steps in the background](/article-images/geography/houtong-calico-cat-2015.webp)
 _A Houtong street cat in 2015 — a calico looking back at the camera on stone steps. From the New Taipei City Animal Protection Office's TNVR launch in 2015 to the present, every registered cat has a number and a microchip record. This is what Houtong's mountain town can truly leave behind, beyond the "Cat Paradise" brand. Photo: Sun Taro. [CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2015-05-03_feral_calico_cat_at_Houtong_(cropped*2022).jpg).*
 
 In 2021, the New Taipei City Animal Protection Office established the "Houtong Cat Office Preparatory Office" in a former Taiwan Railways Administration dormitory, with an exterior painted in "Ruifang Gold" tones echoing the mining landscape.[^26] It was officially unveiled on April 29, 2024, with an orange cat named "Dorayaki" voted in as the first director.[^27] At the time, there were 172 registered cats.

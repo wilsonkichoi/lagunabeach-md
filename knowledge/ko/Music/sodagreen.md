@@ -90,7 +90,7 @@ translatedAt: '2026-06-13T01:49:53+08:00'
 
 ## “바로 이 팀이다”: 궁랴오 해양음악제 열랑 록 무대
 
-![2008년 3월 12일, 쑤다뤼가 타이베이 The Wall 궁관에서 live 공연을 하는 모습. 보컬 우칭펑과 다섯 멤버가 함께 무대에 서 있다](/article-images/music/sodagreen-the-wall-2008.jpg)
+![2008년 3월 12일, 쑤다뤼가 타이베이 The Wall 궁관에서 live 공연을 하는 모습. 보컬 우칭펑과 다섯 멤버가 함께 무대에 서 있다](/article-images/music/sodagreen-the-wall-2008.webp)
 _2008년 3월 12일, 쑤다뤼의 타이베이 The Wall 궁관 live. Photo: Wikipedia user Solomon203, CC BY-SA 3.0. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sodagreen-20080312TheWall.jpg)._
 
 2003년 7월, 신베이시 궁랴오구의 푸룽해수욕장. 제4회 해양음악제였다.
@@ -129,7 +129,7 @@ _〈소정가〉는 2006년 10월 《소우주》 앨범의 타이틀곡이다. 
 
 ## 비발디가 그들을 런던, 베이징, 베를린으로 데려갔다
 
-![2014년 “공기 속의 시청각과 환각” 10주년 월드 투어 타이베이 아레나 공연. 무대 조명 아래에서 공연하는 쑤다뤼](/article-images/music/sodagreen-vivaldi-tour-2014-07.jpg)
+![2014년 “공기 속의 시청각과 환각” 10주년 월드 투어 타이베이 아레나 공연. 무대 조명 아래에서 공연하는 쑤다뤼](/article-images/music/sodagreen-vivaldi-tour-2014-07.webp)
 _2014년 7월, “공기 속의 시청각과 환각” 10주년 월드 투어 타이베이 아레나 3회 공연 현장. Photo: Wikipedia user Solomon203, CC BY-SA 3.0. [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Sodagreen)._
 
 2006년 10월 20일, 쑤다뤼는 두 번째 스튜디오 앨범 《소우주》를 발매했다[^18]. 동명 타이틀곡과 〈소정가〉는 앨범의 두 기억점이었다. 〈소정가〉의 작사와 작곡은 모두 우칭펑이 혼자 맡았다. 깨끗한 선율과 구어적인 가사는 이 노래를 그 시대 타이완 대학생들의 KTV 필수곡 목록에 올려놓았다.
@@ -202,7 +202,7 @@ _2009년 쑤다뤼가 런던 Miloco Studios “The Pool”에서 《여름／광
 
 ## 자유광장의 마지막 앙코르
 
-![2014년 “공기 속의 시청각과 환각” 10주년 월드 투어 무대 전경. 쑤다뤼 공연이 진행 중이다](/article-images/music/sodagreen-vivaldi-tour-2014-09.jpg)
+![2014년 “공기 속의 시청각과 환각” 10주년 월드 투어 무대 전경. 쑤다뤼 공연이 진행 중이다](/article-images/music/sodagreen-vivaldi-tour-2014-09.webp)
 _2014년 “공기 속의 시청각과 환각” 10주년 월드 투어 현장. 2014년 10주년부터 2017년 자유광장 마지막 앙코르까지, 쑤다뤼는 주류 전성기를 완주했다. Photo: Wikipedia user Solomon203, CC BY-SA 3.0. [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Sodagreen)._
 
 2017년 1월 1일, 국가음악청.

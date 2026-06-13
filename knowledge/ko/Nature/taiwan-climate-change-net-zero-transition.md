@@ -25,7 +25,7 @@ author: 'Taiwan.md'
 featured: true
 lastVerified: 2026-05-19
 lastHumanReview: true
-image: '/article-images/nature/maanshan-nuclear-plant-nan-wan-2014.jpg'
+image: '/article-images/nature/maanshan-nuclear-plant-nan-wan-2014.webp'
 imageCredit: 'M. Weitzel (Wikimedia Commons)'
 imageLicense: 'CC BY-SA 3.0'
 imageSource: 'https://commons.wikimedia.org/wiki/File:Maanshan_Nuclear_Power_Plant,_Nan_Wan.jpg'
@@ -40,7 +40,7 @@ translatedAt: '2026-06-11T16:38:39Z'
 
 > **30-Second Overview:** On the evening of August 23, 2025, the results of the Nuclear Three extension referendum were announced: 4.34 million 'yes' votes, 74% approval, but a turnout of only 29.53%, missing the threshold by 650,000 votes. The next day, Lai Ching-te announced three principles: "Nuclear Safety Assurance, Nuclear Waste Solution, Social Consensus." Seven months later, on March 27, 2026, Taipower submitted the Nuclear Three re-operation application to the Nuclear Safety Commission, with the earliest restart expected in 2028[^22][^23]. The referendum failed, yet Taipower is walking back the path of nuclear energy. This is the deepest contradiction of an island that relies on imports for 98% of its energy and has pledged to invest 9 trillion NTD to achieve net-zero by 2050[^11]. The government's geothermal target is 200 MW by 2030, but actual commercial operation at the end of 2025 was only 7.4 MW, a 27-fold gap; the Lanyu storage facility was activated in 1982 with 97,672 barrels of nuclear waste, and the relocation deadline has been delayed four times[^24][^25]. Energy is a problem of physical limits.
 
-![Nuclear Three Plant Exterior (Maanshan, Hengchun, Pingtung)](/article-images/nature/maanshan-nuclear-plant-nan-wan-2014.jpg)
+![Nuclear Three Plant Exterior (Maanshan, Hengchun, Pingtung)](/article-images/nature/maanshan-nuclear-plant-nan-wan-2014.webp)
 
 _The Nuclear Three Plant (Maanshan Nuclear Power Plant) in Hengchun, Pingtung, located on the Nanwan coastline. Unit 1 shut down on January 1, 2025, and Unit 2 shut down on May 17, 2025. Image: M. Weitzel, CC BY-SA 3.0, via Wikimedia Commons_
 
@@ -76,7 +76,7 @@ Shift the lens to Olkiluoto Island in southern Finland.
 
 500 meters underground, in the granite layer, a tunnel 5 kilometers long is dug. At the end of the tunnel lies **Onkalo**, humanity's first high-level radioactive waste ultimate repository to officially receive an operating license. In August 2024, Finland's nuclear safety authority, STUK, issued a license. This plan, planned since the 1970s, **took nearly half a century**[^29].
 
-![Onkalo Underground Repository (Finland, Olkiluoto)](/article-images/nature/onkalo-finland-2024.jpg)
+![Onkalo Underground Repository (Finland, Olkiluoto)](/article-images/nature/onkalo-finland-2024.webp)
 
 _The entrance to Finland's Onkalo high-level radioactive waste ultimate repository, in the granite layer 500 meters underground, received an operating license in 2024. Image: kallerna, CC BY-SA 4.0, via Wikimedia Commons_
 
@@ -182,7 +182,7 @@ Does Taiwan have an SMR plan? Currently, **there are no official plans**. Even i
 
 Shift the lens back to what has already happened.
 
-![Hai Neng Offshore Wind Farm off Miaoli](/article-images/nature/hai-neng-offshore-wind-farm-2024.jpg)
+![Hai Neng Offshore Wind Farm off Miaoli](/article-images/nature/hai-neng-offshore-wind-farm-2024.webp)
 
 _The Hai Neng Offshore Wind Farm (Formosa 1) off Miaoli, commercial operation started in 2019, Taiwan's first large-scale offshore wind farm. Image: Ministry of Economic Affairs, Attribution, via Wikimedia Commons_
 
@@ -196,7 +196,7 @@ But offshore wind turbines bring not only electricity but also conflict. In Febr
 
 Solar PV took another path. Solar PV installed capacity reached 14,281 MW in 2024, accounting for 68% of total renewable energy, with 14.9 billion kWh of power generation[^15]. Roof-mounted, ground-mounted, water-surface-mounted, agrivoltaics—diverse installation models make solar the mainstay of renewable energy. But the agrivoltaics policy has triggered questions of "fake farming, real power generation," forcing the Ministry of Agriculture to strengthen inspections. On an island with only 790,000 hectares of arable land, the use of every piece of land is a political issue.
 
-![Solar Panels on Guodao Service Area Roof](/article-images/nature/xihu-service-area-solar-2014.jpg)
+![Solar Panels on Guodao Service Area Roof](/article-images/nature/xihu-service-area-solar-2014.webp)
 
 _Solar panels on the roof of Xihu Service Area. Taiwan's solar PV installed capacity reached 14,281 MW in 2024, accounting for 68% of renewable energy. Image: lienyuan lee, CC BY 3.0, via Wikimedia Commons_
 

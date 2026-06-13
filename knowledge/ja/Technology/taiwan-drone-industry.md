@@ -74,7 +74,7 @@ translatedAt: '2026-05-10T22:52:30+08:00'
 > **📝 キュレーターメモ**
 > 雷虎が米国市場に進出する経路は注目に値する。まずブルーUAS認証を取得し（信頼性の問題を解決）、次に米陸軍の「ドローン・ドミナンス・プログラム（Drone Dominance Program）」を標的とした。2027年までに米軍に20万機以上の小型ドローンの一部を納入する計画である。台中の模型飛行機メーカーが、五角大棟の入札に参加しようとしている。
 
-![中科院鋭鳶ドローン（NCSIST Albatross）9717号が2013年5月中正軍港公開日に展示され、翼を広げて岸辺のコンクリート地面に低姿勢で停まっている。台湾国産軍用UAVの代表機種の一つ。](/article-images/technology/uav-9717-zhongzheng-port-2013.jpg)
+![中科院鋭鳶ドローン（NCSIST Albatross）9717号が2013年5月中正軍港公開日に展示され、翼を広げて岸辺のコンクリート地面に低姿勢で停まっている。台湾国産軍用UAVの代表機種の一つ。](/article-images/technology/uav-9717-zhongzheng-port-2013.webp)
 
 _2013年5月4日、中科院「鋭鳶」ドローン（番号9717、NCSIST Albatrossシリーズ）が高雄中正軍港11号码頭の公開日に展示された。Photo: 玄史生. [CC BY-SA 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:UAV_9717_Display_at_No.11_Pier_Left_Rear_View_20130504.jpg)._
 

@@ -46,7 +46,7 @@ Il prend ensuite la bouteille avec humour devant la caméra : « Comme ça, j’
 
 Mais les 60 ans traversés par cette boisson gazeuse dorée sont bien plus complexes que le cocktail d’un salon de KTV. Pendant ses 30 premières années, sa marque n’a jamais vraiment appartenu à Taïwan ; elle est tombée deux fois sous les levures et les plafonds moisis de sa propre usine ; en 2024, sa maison mère n’a remboursé sa dernière dette bancaire qu’en vendant 7 222 ping de terrain à Hunei, Kaohsiung.
 
-![Caisson lumineux publicitaire Apple Sidra dans un magasin de Ximending, février 2025. Le produit en bouteille plastique à la robe dorée reste un symbole visuel de la boisson gazeuse nationale.](/article-images/food/apple-sidra-ximending-2025.jpg)
+![Caisson lumineux publicitaire Apple Sidra dans un magasin de Ximending, février 2025. Le produit en bouteille plastique à la robe dorée reste un symbole visuel de la boisson gazeuse nationale.](/article-images/food/apple-sidra-ximending-2025.webp)
 _Caisson lumineux publicitaire Apple Sidra dans un magasin de Ximending, photographié en février 2025. Après deux incidents de sécurité alimentaire en 2018 et 2023, puis la vente en 2024 de biens immobiliers à Tainan et Kaohsiung pour rembourser ses dettes, cette boisson gazeuse dont la formule fut achetée en 1965 à la société américaine CosCo reste visible dans les rues de Taïwan. Photo : Solomon203, 2025-02-01, [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Apple_Sidra_shop_light_box_in_Ximending_20250201.jpg)._
 
 ## L’entrepreneur philippin Lee Hong-lueh et la commande passée à CosCo
@@ -59,7 +59,7 @@ L’usine est installée à Pingzhen, Taoyuan. Ce choix géographique deviendra 
 
 Au départ, la boisson s’appelle « American Apple Sidra », afin de souligner son origine américaine. À Taïwan entre 1965 et 1979, le mot « américain » fonctionne comme un passeport auprès des consommateurs : avant l’arrivée du cinéma hollywoodien, de Coca-Cola et de McDonald’s à Taïwan, tout produit « venu des États-Unis » bénéficie d’une aura propre. Apple Sidra s’impose à table dans ce contexte. Le 1er janvier 1979, la République de Chine rompt ses relations diplomatiques avec les États-Unis. À cette période, les deux caractères signifiant « américain » disparaissent discrètement du nom du produit, qui devient simplement « 蘋菓西打 »[^6]. Le changement de nom d’un produit d’exportation devient, par accident, une note de bas de page miniature de l’histoire diplomatique taïwanaise.
 
-![Apple Sidra avec un bol de riz. Scène de table domestique en 2013, montrant la place culturelle d’une boisson nationale intégrée aux repas quotidiens.](/article-images/food/apple-sidra-rice-2013.jpg)
+![Apple Sidra avec un bol de riz. Scène de table domestique en 2013, montrant la place culturelle d’une boisson nationale intégrée aux repas quotidiens.](/article-images/food/apple-sidra-rice-2013.webp)
 _Apple Sidra avec un bol de riz sur une table quotidienne, photographiée en 2013. De son lancement en 1965 à sa résurrection en 2024, la présence de cette boisson gazeuse s’est toujours construite autour de son rôle d’accompagnement : avec les plats rechao, les banquets, ou les bentos de dortoir. Photo : Solomon203, 2013-11-23, [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Apple_Sidra_and_rice_20131123.jpg)._
 
 ## Un hybride américano-taïwanais sous étiquette empruntée

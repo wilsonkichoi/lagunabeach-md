@@ -646,10 +646,10 @@ Stage 1 完成 by Sonnet sub-agent — 35 search / 24 verbatim / 5 圖授權 / 2
 
 | 媒體 | 用途 | 來源 | 授權 | cache 本地路徑 |
 |------|------|------|------|---------------|
-| leopard-cat-specimen-2026.jpg | hero | Wikimedia File:中華石虎標本（2）.jpg | CC0 1.0 公有領域 (丘崈) | /article-images/society/leopard-cat-specimen-2026.jpg |
-| tnr-cat-clipped-ear-2016.jpg | scene-mid (TNR section) | Wikimedia File:Cat_with_clipped_ear_(cropped).jpg | CC0 1.0 (Yu Tae-wook) | /article-images/society/tnr-cat-clipped-ear-2016.jpg |
-| formosan-black-bear-2007.jpg | scene-mid (TNR limit section) | Wikimedia File:Formosan_Black_Bear01.jpg | CC BY-SA 3.0 (smartneddy) | /article-images/society/formosan-black-bear-2007.jpg |
-| yushan-summit-2024.jpg | closure (山的高度與狗的高度) | Wikimedia File:Yushan_Summit_2024.jpg | CC BY-SA 4.0 (PirateTseng) | /article-images/society/yushan-summit-2024.jpg |
+| leopard-cat-specimen-2026.jpg | hero | Wikimedia File:中華石虎標本（2）.jpg | CC0 1.0 公有領域 (丘崈) | /article-images/society/leopard-cat-specimen-2026.webp |
+| tnr-cat-clipped-ear-2016.jpg | scene-mid (TNR section) | Wikimedia File:Cat_with_clipped_ear_(cropped).jpg | CC0 1.0 (Yu Tae-wook) | /article-images/society/tnr-cat-clipped-ear-2016.webp |
+| formosan-black-bear-2007.jpg | scene-mid (TNR limit section) | Wikimedia File:Formosan_Black_Bear01.jpg | CC BY-SA 3.0 (smartneddy) | /article-images/society/formosan-black-bear-2007.webp |
+| yushan-summit-2024.jpg | closure (山的高度與狗的高度) | Wikimedia File:Yushan_Summit_2024.jpg | CC BY-SA 4.0 (PirateTseng) | /article-images/society/yushan-summit-2024.webp |
 
 四張全部 cache 本地 + EXIF GPS 清空 + aspect 0.9-2.0 範圍內 + size hero 476KB / inline ≤ 1MB（per pipeline 護欄）。
 

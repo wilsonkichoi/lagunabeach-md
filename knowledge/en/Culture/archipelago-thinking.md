@@ -223,9 +223,9 @@ The next time someone asks you “where does Taiwan really belong,” you can an
 - [Taiwan’s Maritime Trade History](/history/台灣海洋貿易史) — Taiwan’s maritime connections from Beinan jade artifacts to the Age of Sail
 - [A Cultural Map of Taiwan’s 16 Indigenous Peoples](/culture/台灣原住民族16族文化地圖) — The correspondence between the language systems of the 16 peoples and the nine primary branches of Austronesian in Taiwan
 
-![The moon-shaped stone pillar at Beinan Site Park is an iconic remnant of the Beinan culture, dated to 5,300-2,300 years before present. More than 5,000 jade artifacts have been excavated from the Beinan Site, some of which were later found by archaeologists in prehistoric sites in the Philippines, Vietnam, and Thailand.](/article-images/culture/beinan-stone-pillar.jpg)
+![The moon-shaped stone pillar at Beinan Site Park is an iconic remnant of the Beinan culture, dated to 5,300-2,300 years before present. More than 5,000 jade artifacts have been excavated from the Beinan Site, some of which were later found by archaeologists in prehistoric sites in the Philippines, Vietnam, and Thailand.](/article-images/culture/beinan-stone-pillar.webp)
 
-![A decorated Lapita dentate-stamped pottery sherd excavated at the Bourewa Site in Fiji. The decorative techniques of Lapita pottery can be traced back to northern Luzon, whose roots in turn point to the cord-marked red pottery of Taiwan’s Dapenkeng culture, forming the most complete material chain for the “Out of Taiwan” theory of Austronesian dispersal.](/article-images/culture/lapita-potsherd.jpg)
+![A decorated Lapita dentate-stamped pottery sherd excavated at the Bourewa Site in Fiji. The decorative techniques of Lapita pottery can be traced back to northern Luzon, whose roots in turn point to the cord-marked red pottery of Taiwan’s Dapenkeng culture, forming the most complete material chain for the “Out of Taiwan” theory of Austronesian dispersal.](/article-images/culture/lapita-potsherd.webp)
 
 ## References
 

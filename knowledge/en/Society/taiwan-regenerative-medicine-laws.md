@@ -27,7 +27,7 @@ sourceBodyHash: 'sha256:06cd641264af37d8'
 translatedAt: '2026-06-05T16:40:22Z'
 ---
 
-![Katalin Karikó and Drew Weissman jointly receiving the Life Science Medal in 2022, photographed in front of a backdrop; Karikó wears a red suit and Weissman a dark suit](/article-images/society/kariko-weissman-life-science-2022.jpg)
+![Katalin Karikó and Drew Weissman jointly receiving the Life Science Medal in 2022, photographed in front of a backdrop; Karikó wears a red suit and Weissman a dark suit](/article-images/society/kariko-weissman-life-science-2022.webp)
 _Katalin Karikó and Drew Weissman received the Life Science Medal on June 16, 2022. In October the following year, they jointly received the Nobel Prize in Physiology or Medicine. Photo: Thorne Media. [CC BY 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Drew_Weissman_and_Katalin_Karik%C3%B3_Life_Science_Medalists.jpg)._
 
 ## Prologue: 930,000 Doses at Daybreak, and a Woman Who Had Been Fired Five Times
@@ -242,7 +242,7 @@ But in another corner of the same landscape, progress on the mRNA platform has n
 
 ## Conclusion: The Price of Miracles Is Ordinary Persistence
 
-![Katalin Karikó at a public event at the University of Szeged in May 2021, wearing a red jacket and standing in front of the university emblem](/article-images/society/kariko-katalin-szeged-2021.jpg)
+![Katalin Karikó at a public event at the University of Szeged in May 2021, wearing a red jacket and standing in front of the university emblem](/article-images/society/kariko-katalin-szeged-2021.webp)
 _Katalin Karikó at an event at the University of Szeged in Hungary in May 2021. She earned her PhD in biochemistry from this university and left Hungary in 1985 with US$1,200 sewn into her daughter’s teddy bear. Photo: University of Szeged. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Karik%C3%B3_Katalin_Szegeden.jpg)._
 
 On October 2, 2023, the Nobel Committee’s phone rang.

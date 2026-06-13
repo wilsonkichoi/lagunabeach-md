@@ -84,7 +84,7 @@ En 2001, 《Tonight I Cherish You More》 fue el primer disco que publicó con u
 
 Para entender el lugar de Chou Hui en la historia musical de Taiwán, primero hay que aclarar la genealogía de 〈Promise〉.
 
-![Versión en cantonés de 〈Promise〉 incluida en el EP 《Toy》 de Faye Wong de 1997, letra de Lin Xi, música de Chen Hsiao-hsia, premio Canción Recomendada Profesional de Commercial Radio Hong Kong Ultimate 903](/article-images/music/wang-fei-yueding-1997.jpg)
+![Versión en cantonés de 〈Promise〉 incluida en el EP 《Toy》 de Faye Wong de 1997, letra de Lin Xi, música de Chen Hsiao-hsia, premio Canción Recomendada Profesional de Commercial Radio Hong Kong Ultimate 903](/article-images/music/wang-fei-yueding-1997.webp)
 _Versión en cantonés de 〈Promise〉 del EP 《Toy》 de Faye Wong de 1997, letra de Lin Xi y música de Chen Hsiao-hsia. Fair use editorial commentary on the original work. [Source via YouTube](https://www.youtube.com/watch?v=gjC00DJPeLs)._
 
 La original es de Faye Wong. En 1997 incluyó una canción llamada 〈Promise〉 en el EP 《Toy》, en cantonés, con letra de Lin Xi y música de Chen Hsiao-hsia[^12]. Esa versión ganó en Hong Kong el premio Canción Recomendada Profesional de Commercial Radio Ultimate 903, y Lin Xi obtuvo con esa letra el premio a Mejor Letra Pop China en la 20.ª edición de los Top Ten Chinese Gold Songs. Ya era una buena canción dentro del circuito cantonés.
@@ -298,7 +298,7 @@ Sábado 25 de abril de 2026 por la noche, Taipei Arena.
 
 Fue el primer concierto de Chou Hui en el Taipei Arena después de 27 años de carrera[^5]. El concierto se llamó 《Really Want to Love Chou Hui Well》; el diseño escénico estuvo a cargo de Li Shih-chi, diseñador habitual de los Golden Melody Awards y los Golden Horse Awards, y utilizó el concepto de caleidoscopio. La función duró tres horas y tuvo 25 canciones[^34]. Después de salir a la venta al mediodía del 22 de enero, las entradas se agotaron rápidamente y se añadió una función.
 
-![El 25 de abril de 2026, Chou Hui en el escenario del Taipei Arena durante el concierto 《Really Want to Love Chou Hui Well》, su primer ataque al Arena tras 27 años de debut](/article-images/music/zhou-hui-xiaojudan-2026.jpg)
+![El 25 de abril de 2026, Chou Hui en el escenario del Taipei Arena durante el concierto 《Really Want to Love Chou Hui Well》, su primer ataque al Arena tras 27 años de debut](/article-images/music/zhou-hui-xiaojudan-2026.webp)
 _2026-04-25, Taipei Arena, concierto 《Really Want to Love Chou Hui Well》. Fair use editorial commentary. [Source via TVBS YouTube](https://www.youtube.com/watch?v=DXW6TkALWSE)._
 
 Durante las primeras nueve canciones, Chou Hui casi no habló. Subió y bajó en plataformas, se desplazó por el escenario y cantó de corrido acompañando los mecanismos escénicos. Después de la novena canción, finalmente dijo al público:

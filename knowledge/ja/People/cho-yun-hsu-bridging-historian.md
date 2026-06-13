@@ -85,12 +85,12 @@ translatedAt: '2026-05-28T05:08:34+08:00'
 
 ピッツバーグ時代に彼が行ったのは、二つの構造的な仕事でした。一つは、社会科学を用いて中国史に入る方法論をさらに深めること。もう一つは、その方法をより大きな尺度に適用することでした。一つの王朝だけを見るのでも、中国そのものだけを見るのでもなく、中国を世界文明史の文脈の中に置いて比較したのです[^26]。
 
-![中央研究院南港キャンパスの建物外観。モダニズムの灰白色のファサードと広場空間](/article-images/people/hsu-cho-yun-academia-sinica-building.jpg)
+![中央研究院南港キャンパスの建物外観。モダニズムの灰白色のファサードと広場空間](/article-images/people/hsu-cho-yun-academia-sinica-building.webp)
 _中央研究院南港キャンパス。許倬雲が1956年から勤務した史語所の長年の拠点であり、1980年に第13期院士に選出された学術的基盤でもあります。Photo: KaurJmeb, 2005-12-20. [CC BY-SA 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Academia_Sinica.JPG)._
 
 1980年、50歳のとき、彼は中央研究院第13期院士（人文および社会科学組）に選出されました[^27]。
 
-![許倬雲晩年の中央研究院公式ポートレート。淡い青色の背景、眼鏡をかけ、穏やかな表情で正面を見つめている](/article-images/people/hsu-cho-yun-academia-sinica-portrait.jpg)
+![許倬雲晩年の中央研究院公式ポートレート。淡い青色の背景、眼鏡をかけ、穏やかな表情で正面を見つめている](/article-images/people/hsu-cho-yun-academia-sinica-portrait.webp)
 _許倬雲晩年の中央研究院公式ポートレート。Photo: Academia Sinica（中央研究院）, after 1980. [Attribution license via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cho-Yun_Hsu_%E8%A8%B1%E5%80%AC%E9%9B%B2.jpg).\_
 
 📝 **「大歴史」という三文字はのちに黄仁宇によってもっとも広く用いられましたが、許倬雲の大歴史は別種のものでした**。黄仁宇が関心を向けたのは、中国がなぜ伝統的統治様式から抜け出せなかったのかという問題でした（『万暦十五年』『中国大歴史』）。許倬雲が関心を向けたのは、中国文明そのものが、草原、インド、イスラーム、西洋といった他文明との接触の中でどのように形づくられ、同時に他者を形づくったのかという問題でした。彼の核心的信念は、「中国中心論」を拒むことにありました。中国を理解するには、中国を世界史の文脈の中に置き直して見なければなりません。中国を自足的で孤立した、自己の内的論理だけに従って変化する閉じた体系として見てはならないのです[^28]。

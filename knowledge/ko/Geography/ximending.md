@@ -40,7 +40,7 @@ translatedAt: '2026-05-25T21:07:07Z'
 
 ## 토요일 저녁 6시, 홍러우 남쪽 광장
 
-![토요일 저녁 6시의 시먼 보행자 구역. 인파가 무지개 횡단보도를 지나 홍러우 방향으로 이동하는 장면은 1990년대 말 보행자 구역 지정 이후 타이베이 청소년들의 야외 거실을 상징한다](/article-images/geography/ximending-rainbow-crossing-2019.jpg)
+![토요일 저녁 6시의 시먼 보행자 구역. 인파가 무지개 횡단보도를 지나 홍러우 방향으로 이동하는 장면은 1990년대 말 보행자 구역 지정 이후 타이베이 청소년들의 야외 거실을 상징한다](/article-images/geography/ximending-rainbow-crossing-2019.webp)
 _2019년 9월, 시먼 보행자 구역 무지개 횡단보도의 인파. Photo: Volksabstimmung, 2019-09-28. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ximending_rainbow_crossing_201910.jpg) (CC BY-SA 2.0)._
 
 타이베이의 열여덟 살 청소년에게 “주말에 어디 갈 거야?”라고 묻는다면 그는 신이구라고 말하지 않는다. “시먼”이라고 말할 것이다.
@@ -71,7 +71,7 @@ _2019년 9월, 시먼 보행자 구역 무지개 횡단보도의 인파. Photo: 
 
 ## 1908년의 그 팔각 벽돌 건물
 
-![시먼홍러우 남쪽 광장. 1908년에 완공된 붉은 벽돌 두 동 조합, 곧 북쪽 팔각당과 남쪽 십자루는 21세기 저녁에 야외 바 구역이자 성소수자 친화 공공공간이 되었다](/article-images/geography/ximending-red-house-south-plaza-2013.jpg)
+![시먼홍러우 남쪽 광장. 1908년에 완공된 붉은 벽돌 두 동 조합, 곧 북쪽 팔각당과 남쪽 십자루는 21세기 저녁에 야외 바 구역이자 성소수자 친화 공공공간이 되었다](/article-images/geography/ximending-red-house-south-plaza-2013.webp)
 _시먼홍러우 남쪽 광장 전경. Photo: Asacyan, 2013-04-25. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:South_Plaza,_Red_House_Theater_20130425.jpg) (CC BY-SA 3.0)._
 
 시먼딩에서 반드시 보아야 할 대상이 하나뿐이라면, 그것은 시먼홍러우다.
@@ -126,7 +126,7 @@ _시먼홍러우 남쪽 광장 전경. Photo: Asacyan, 2013-04-25. [License via 
 
 ## 1999년 이후, 거리는 느려졌고 사람은 많아졌다
 
-![시먼 보행자 구역 영화주제공원의 푸른 벽 그래피티. 1990년대 말 하위문화가 시먼딩으로 밀려든 뒤 거리예술은 이 거리의 시각 언어 가운데 하나가 되었다](/article-images/geography/ximending-graffiti-wall-2010.jpg)
+![시먼 보행자 구역 영화주제공원의 푸른 벽 그래피티. 1990년대 말 하위문화가 시먼딩으로 밀려든 뒤 거리예술은 이 거리의 시각 언어 가운데 하나가 되었다](/article-images/geography/ximending-graffiti-wall-2010.webp)
 _시먼딩 영화주제공원 푸른 벽 그래피티. Photo: eazytraveler, 2010-02-13. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2010-02-13_Blue_wall_with_graffiti_in_Ximending.jpg) (CC BY 2.0)._
 
 시먼딩의 두 번째 대전생은 1990년대 말에 일어났다.
@@ -149,7 +149,7 @@ _시먼딩 영화주제공원 푸른 벽 그래피티. Photo: eazytraveler, 2010
 
 ## 130년 같은 거리 위의 청소년
 
-![크리스마스 밤의 시먼 보행자 구역. 네온 간판과 조명 아래를 지나는 인파는 2026년 같은 거리의 당대적 모습을 보여 준다](/article-images/geography/ximending-christmas-lights-2022.jpg)
+![크리스마스 밤의 시먼 보행자 구역. 네온 간판과 조명 아래를 지나는 인파는 2026년 같은 거리의 당대적 모습을 보여 준다](/article-images/geography/ximending-christmas-lights-2022.webp)
 _2022년 12월 크리스마스 밤의 시먼 보행자 구역. Photo: 迷惘的人生 (KUO TUNG YU), 2022-12-14. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Christmas_lights_at_Ximending_20221214.jpg) (CC BY-SA 2.0)._
 
 1908년 10월 18일, 시먼시장이 문을 연 첫날. 열여덟 살의 현지 민난인 소년 하나가 부모를 따라 곤도 주로가 설계한 팔각당 입구로 들어섰고, 한 번도 본 적 없는 조미료를 파는 일본인 노점상을 보았다. 그는 이 붉은 벽돌 건물이 이곳에 100년 동안 서 있으리라는 사실을 알지 못했다.

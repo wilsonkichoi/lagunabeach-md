@@ -74,7 +74,7 @@ translatedAt: '2026-05-10T22:52:30+08:00'
 > **📝 큐레이터 노트**
 > 레이후가 미국 시장에 진입한 경로가 주목할 만하다. 먼저 블루 리스트 인증을 취득하여(신뢰 문제 해결), 이어 미 육군의 「드론 도미넌스 프로그램(Drone Dominance Program)」을 겨냥한다. 이 프로그램은 2027년까지 미군에 20만 대 이상의 소형 드론을 인도하는 것을 목표로 한다. 타이중의 한 모형 비행기 회사가 펜타곤의 주문을 놓고 경쟁하고 있는 것이다.
 
-![중국과학원 예언 드론(NCSIST Albatross) 9717호가 2013년 5월 중정군항 개방일에 전시된 모습. 날개를 펼치고 낮은 자세로 부두 콘크리트 바닥에 정지해 있으며, 대만 국산 군용 UAV의 대표 기종 중 하나이다.](/article-images/technology/uav-9717-zhongzheng-port-2013.jpg)
+![중국과학원 예언 드론(NCSIST Albatross) 9717호가 2013년 5월 중정군항 개방일에 전시된 모습. 날개를 펼치고 낮은 자세로 부두 콘크리트 바닥에 정지해 있으며, 대만 국산 군용 UAV의 대표 기종 중 하나이다.](/article-images/technology/uav-9717-zhongzheng-port-2013.webp)
 
 _2013년 5월 4일, 중국과학원(中科院) 「예언(銳鳶)」 드론(번호 9717, NCSIST Albatross 시리즈)이 가오슝 중정군항 11번 부두 개방일에 전시되었다. 사진: 현사생(玄史生). [CC BY-SA 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:UAV_9717_Display_at_No.11_Pier_Left_Rear_View_20130504.jpg)._
 

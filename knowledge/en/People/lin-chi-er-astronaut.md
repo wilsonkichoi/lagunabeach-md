@@ -17,7 +17,7 @@ readingTime: 14
 lastVerified: 2026-04-28
 lastHumanReview: false
 researchReport: 'reports/research/2026-04/lin-qi-er.md'
-image: '/article-images/people/lindgren-emu-2014.jpg'
+image: '/article-images/people/lindgren-emu-2014.webp'
 imageCredit: 'NASA/Bill Stafford'
 imageLicense: 'Public domain (NASA)'
 imageSource: 'https://commons.wikimedia.org/wiki/File:Kjell_Lindgren_in_EMU_(cropped).jpg'
@@ -79,7 +79,7 @@ From the medical discharge notice to the acceptance letter: approximately 14 yea
 
 ### The first bite of lettuce under red LEDs
 
-![Three astronauts standing in front of the Soyuz TMA spacecraft mock-up at the Gagarin Cosmonaut Training Center in Star City, Russia. From left: Lindgren (NASA), Oleg Kononenko (Russia), Kimiya Yui (Japan), all wearing blue Expedition 42/43 backup crew jumpsuits](/article-images/people/lindgren-expedition42-crew.jpg)
+![Three astronauts standing in front of the Soyuz TMA spacecraft mock-up at the Gagarin Cosmonaut Training Center in Star City, Russia. From left: Lindgren (NASA), Oleg Kononenko (Russia), Kimiya Yui (Japan), all wearing blue Expedition 42/43 backup crew jumpsuits](/article-images/people/lindgren-expedition42-crew.webp)
 _October 30, 2014: Lindgren (left) with Expedition 42/43 backup crew members Oleg Kononenko (center, Russia) and Kimiya Yui (right, Japan) at the Gagarin Cosmonaut Training Center in Star City — they would later be his crewmates on Soyuz TMA-17M. Photo: NASA/Stephanie Stoll. [Public domain via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Expedition_42_backup_crew_members_in_front_of_the_Soyuz_TMA_spacecraft_mock-up_in_Star_City,_Russia.jpg)._
 
 On July 22, 2015, Lindgren launched aboard Soyuz TMA-17M from Baikonur Cosmodrome in Kazakhstan, alongside Russian commander Oleg Kononenko and Japanese astronaut Kimiya Yui, for Expedition 44/45.[^12] This was his first spaceflight.
@@ -114,7 +114,7 @@ During those 141 days, he also completed two spacewalks (EVAs), both with Scott 
 
 ### Naming his spacecraft Freedom
 
-![Lindgren in a blue NASA jumpsuit, arms crossed, standing in front of a Crew Dragon mockup capsule at SpaceX headquarters in Hawthorne, California. His NASA patch and American flag are clearly visible on his shoulders](/article-images/people/lindgren-crew4-training.jpg)
+![Lindgren in a blue NASA jumpsuit, arms crossed, standing in front of a Crew Dragon mockup capsule at SpaceX headquarters in Hawthorne, California. His NASA patch and American flag are clearly visible on his shoulders](/article-images/people/lindgren-crew4-training.webp)
 _February 2022: Lindgren, as SpaceX Crew-4 Commander, during training in the Crew Dragon mockup at SpaceX headquarters in Hawthorne, California. Photo: NASA. [Public domain via NASA](https://www.nasa.gov/image-feature/nasa-astronaut-and-spacex-crew-4-commander-kjell-lindgren-0/) (NASA Image ID `jsc2022e011416`)._
 
 Seven years later, on April 27, 2022, Lindgren launched a second time — this time aboard a SpaceX Crew Dragon, as commander of the Crew-4 mission.[^19]

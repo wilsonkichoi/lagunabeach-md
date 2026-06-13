@@ -26,7 +26,7 @@ sourceBodyHash: 'sha256:1999959e3ea909b4'
 translatedAt: '2026-05-24T05:06:32+08:00'
 ---
 
-![Yang Shuang-zi, wearing a dark jacket and standing calmly beside the award trophy at the National Book Awards ceremony in New York on November 20, 2024](/article-images/art/taiwan-travelogue-yang-shuang-zi-nba-2024.jpg)
+![Yang Shuang-zi, wearing a dark jacket and standing calmly beside the award trophy at the National Book Awards ceremony in New York on November 20, 2024](/article-images/art/taiwan-travelogue-yang-shuang-zi-nba-2024.webp)
 _On November 20, 2024, Yang Shuang-zi accepted the 75th National Book Award for Translated Literature in New York. Photo: Bea Phi (Phibeatrice), [via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Yang_Shuang-zi_at_the_2024_National_Book_Awards.jpg), CC BY-SA 4.0._
 
 > **30-second overview:** _Taiwan Travelogue_ is a 2020 pseudotranslation novel published by SpringHill Publishing: the cover says "written by Chizuko Aoyama, translated by Yang Shuang-zi," but Chizuko Aoyama does not exist, and even Yang Shuang-zi is a pen name shared by two people: the younger sister Yang Jo-hui, who had died five years earlier, and the surviving elder sister Yang Jo-tzu. In November 2024 at the National Book Awards in New York, and in May 2026 at the International Booker Prize ceremony at Tate Modern in London, Taiwanese literature reached these two international prize stages for the first time. The GBP 50,000 prize money was split between Yang Jo-tzu and translator Lin King. More weighty than that is this: the author translated a nonexistent Japanese novel under her sister's name, turning colonial history into a story of two women eating 12 dishes together.
@@ -79,7 +79,7 @@ In other words, for a book whose cover says "translated by Yang Shuang-zi," the 
 
 When the book was published, it was the fifth year after Yang Jo-hui's death.
 
-![Yang Shuang-zi and translator Lin King pose together at the 2024 National Book Awards ceremony, standing side by side in formal attire](/article-images/art/taiwan-travelogue-yang-and-lin-king-nba-2024.jpg)
+![Yang Shuang-zi and translator Lin King pose together at the 2024 National Book Awards ceremony, standing side by side in formal attire](/article-images/art/taiwan-travelogue-yang-and-lin-king-nba-2024.webp)
 _At the National Book Awards ceremony on November 20, 2024, Yang Shuang-zi (left) and translator Lin King pose together. On December 19 of the same year, Taiwan's Presidential Office received the two; in May 2026, they again shared the stage at the Booker Prize ceremony. Photo: Jennifer 8. Lee (Jenny8lee), [via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Yang_Shuang-zi_and_Lin_King_at_the_National_Book_Awards_Ceremony_2024_02.jpg), CC BY-SA 4.0._
 
 ## Twelve dishes, from melon seeds to sweet bean ice
@@ -144,7 +144,7 @@ But in her interview with _U People_, she once said a sentence that can serve as
 
 The account books were the code Yang Jo-hui left to her elder sister. That book was the place Yang Jo-tzu left for her younger sister.
 
-![Yang Shuang-zi reads intently at the National Book Awards finalist reading in New York on November 19, 2024, wearing glasses and looking down at her manuscript](/article-images/art/taiwan-travelogue-yang-shuang-zi-nba-reading-2024.jpg)
+![Yang Shuang-zi reads intently at the National Book Awards finalist reading in New York on November 19, 2024, wearing glasses and looking down at her manuscript](/article-images/art/taiwan-travelogue-yang-shuang-zi-nba-reading-2024.webp)
 _At the National Book Awards finalist reading on November 19, 2024, Yang Shuang-zi read an English excerpt from \_Taiwan Travelogue_ in New York. The following evening, she formally won the award for translated literature. Photo: Bea Phi (Phibeatrice), [via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Y%C3%A1ng_Shu%C4%81ng-z%C7%90,_writer,_at_the_2024_National_Book_Awards_finalist_reading_3.jpg), CC BY-SA 4.0.\_
 
 **Further reading**:

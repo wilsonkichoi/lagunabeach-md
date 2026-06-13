@@ -16,7 +16,7 @@ tags:
 readingTime: '14'
 lastVerified: '2026-04-28'
 lastHumanReview: false
-image: '/article-images/people/lindgren-emu-2014.jpg'
+image: '/article-images/people/lindgren-emu-2014.webp'
 imageCredit: 'NASA/Bill Stafford'
 imageLicense: 'Public domain (NASA)'
 imageSource: 'https://commons.wikimedia.org/wiki/File:Kjell_Lindgren_in_EMU_(cropped).jpg'
@@ -78,7 +78,7 @@ Entre la lettre de radiation médicale et la lettre d'admission, il s'était éc
 
 ### La première bouchée de laitue sous LED rouges
 
-![Trois astronautes debout côte à côte devant le simulateur du vaisseau spatial Soyouz TMA au centre d'entraînement des cosmonautes de Star City, Russie. De gauche à droite : Kjell Lindgren (NASA), Oleg Kononenko (Russie), Kimiya Yui (Japon), portant tous la combinaison bleue de l'équipage de réserve de la mission Expédition 42/43](/article-images/people/lindgren-expedition42-crew.jpg)
+![Trois astronautes debout côte à côte devant le simulateur du vaisseau spatial Soyouz TMA au centre d'entraînement des cosmonautes de Star City, Russie. De gauche à droite : Kjell Lindgren (NASA), Oleg Kononenko (Russie), Kimiya Yui (Japon), portant tous la combinaison bleue de l'équipage de réserve de la mission Expédition 42/43](/article-images/people/lindgren-expedition42-crew.webp)
 _Le 30 octobre 2014, Kjell Lindgren (à gauche) au centre d'entraînement des cosmonautes Gagarine de Star City, Russie, avec les membres de l'équipage de réserve de l'Expédition 42/43 : Oleg Kononenko (au centre, Russie) et Kimiya Yui (à droite, Japon). Les trois deviendraient ses compagnons de vol pour sa première mission spatiale, Soyouz TMA-17M. Photo : NASA/Stephanie Stoll. [Domaine public via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Expedition_42_backup_crew_members_in_front_of_the_Soyuz_TMA_spacecraft_mock-up_in_Star_City,_Russia.jpg)._
 
 Le 22 juillet 2015, Lindgren a décollé du cosmodrome de Baïkonour, au Kazakhstan, à bord de Soyouz TMA-17M, accompagné du commandant russe Oleg Kononenko et de l'astronaute japonais Kimiya Yui, pour la mission Expédition 44/45[^12]. C'était son premier vol spatial.
@@ -113,7 +113,7 @@ Au cours de cette mission de 141 jours, il a également réalisé deux sorties e
 
 ### Baptiser son vaisseau « Freedom »
 
-![Kjell Lindgren en combinaison bleue de la NASA, bras croisés, debout devant la cabine du modèle Crew Dragon au siège de SpaceX à Hawthorne, Californie. L'insigne de la NASA sur l'épaule gauche et le drapeau américain sur l'épaule droite sont clairement visibles](/article-images/people/lindgren-crew4-training.jpg)
+![Kjell Lindgren en combinaison bleue de la NASA, bras croisés, debout devant la cabine du modèle Crew Dragon au siège de SpaceX à Hawthorne, Californie. L'insigne de la NASA sur l'épaule gauche et le drapeau américain sur l'épaule droite sont clairement visibles](/article-images/people/lindgren-crew4-training.webp)
 _Février 2022. Kjell Lindgren, en tant que commandant de SpaceX Crew-4, s'entraîne dans la cabine du modèle Crew Dragon au siège de SpaceX à Hawthorne, Californie. Photo : NASA. [Domaine public via NASA](https://www.nasa.gov/image-feature/nasa-astronaut-and-spacex-crew-4-commander-kjell-lindgren-0/) (Identifiant image NASA `jsc2022e011416`)._
 
 Sept ans plus tard, le 27 avril 2022, Lindgren a décollé pour la deuxième fois, cette fois à bord d'un SpaceX Crew Dragon, en tant que commandant de la mission Crew-4[^19].

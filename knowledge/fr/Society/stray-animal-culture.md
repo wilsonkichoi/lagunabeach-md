@@ -98,7 +98,7 @@ Si vous voyez dans une rue de Taïwan un chien ou un chat auquel il manque un pe
 
 TNR est l'abréviation de Trap, Neuter, Return : capturer les animaux errants, les stériliser, leur couper l'oreille comme marque distinctive, puis les relâcher sur place. Plus tard, la version officielle de la plupart des villes et comtés y a ajouté la vaccination, devenant **TNvR** (le v supplémentaire signifiant Vaccinate). La logique est simple : si vous ne pouvez pas tous les tuer, faites en sorte qu'ils ne se reproduisent plus. Une génération, deux générations, trois générations plus tard, les effectifs baissent naturellement.
 
-![Gros plan d'un chat errant tigré à l'oreille coupée, le bout de l'oreille gauche ayant été retiré en petit triangle pour signaler sa stérilisation, avec une rue floue en arrière-plan](/article-images/society/tnr-cat-clipped-ear-2016.jpg)
+![Gros plan d'un chat errant tigré à l'oreille coupée, le bout de l'oreille gauche ayant été retiré en petit triangle pour signaler sa stérilisation, avec une rue floue en arrière-plan](/article-images/society/tnr-cat-clipped-ear-2016.webp)
 _Les chats errants ayant subi une opération TNR ont le bout d'une oreille coupé pour servir de marque. Cette coupe permet aux bénévoles et aux agents de protection animale de reconnaître à distance qu'« il est déjà stérilisé » et d'éviter une nouvelle capture. Photo : Yu Tae-wook, 2016. [Licence via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cat_with_clipped_ear_(cropped).jpg).\_
 
 À Taïwan, le TNR a d'abord été lancé spontanément par des organisations civiles de protection animale, dans une zone grise juridique. Après la révision de la Loi sur la protection animale en 2015, le TNR a finalement été intégré officiellement aux outils de politique publique[^4]. Les gouvernements locaux ont commencé à y consacrer des budgets et à coopérer avec les associations de protection animale pour mener des campagnes de TNR à grande échelle.
@@ -289,7 +289,7 @@ Mais le TNSA présuppose une condition très difficile : **une capacité d'accue
 
 Remplacer R par S+A signifie construire davantage de refuges, ou réduire fortement le nombre de retours sur site et accélérer les adoptions. Dans tous les cas, il faut de l'argent, des personnes et de la volonté politique.
 
-![Gros plan frontal d'un ours noir de Taïwan, pelage noir court, marque blanche en V bien visible sur la poitrine, debout dans une prairie au bord d'une forêt de basse altitude et regardant au loin](/article-images/society/formosan-black-bear-2007.jpg)
+![Gros plan frontal d'un ours noir de Taïwan, pelage noir court, marque blanche en V bien visible sur la poitrine, debout dans une prairie au bord d'une forêt de basse altitude et regardant au loin](/article-images/society/formosan-black-bear-2007.webp)
 _L'ours noir de Taïwan est une espèce indicatrice des écosystèmes forestiers taïwanais ; le V blanc sur sa poitrine est sa marque distinctive. Dans une déclaration d'avril 2025, l'Agence des forêts et de la conservation de la nature a indiqué que la population d'ours noirs de Taïwan avait « plus que doublé par rapport à il y a 20 ans » et que « la fréquence des observations sous 1 200 mètres d'altitude avait aussi nettement augmenté »[^11]. Mais les basses altitudes sont précisément les zones où la densité de chiens errants est la plus élevée. Photo : smartneddy, 2007. [Licence via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Formosan_Black_Bear01.jpg)._
 
 ---
@@ -385,7 +385,7 @@ Pour Taïwan, chacune de ces conditions est plus difficile à remplir qu'à Jaip
 
 ## La hauteur de la montagne et la hauteur du chien
 
-![Gros plan du sommet principal du Yushan, avec une arête rocheuse gris clair et acérée à 3 949 mètres d'altitude s'étendant sous des nuages pâles, et des crêtes lointaines jusqu'à l'horizon](/article-images/society/yushan-summit-2024.jpg)
+![Gros plan du sommet principal du Yushan, avec une arête rocheuse gris clair et acérée à 3 949 mètres d'altitude s'étendant sous des nuages pâles, et des crêtes lointaines jusqu'à l'horizon](/article-images/society/yushan-summit-2024.webp)
 _Sommet principal du Yushan, 3 949 mètres d'altitude, l'un des principaux habitats de l'ours noir de Taïwan. Photo : PirateTseng, 2024-10-29. [Licence via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Yushan_Summit_2024.jpg)._
 
 La déclaration d'avril 2025 de l'Agence des forêts et de la conservation de la nature indique que la population d'ours noirs de Taïwan a « plus que doublé par rapport à il y a 20 ans » et que « la fréquence des observations sous 1 200 mètres d'altitude a aussi nettement augmenté »[^11]. La même déclaration reconnaît que l'ours noir, « bien qu'encore classé comme animal sauvage menacé d'extinction, ne se trouve plus dans une situation où sa population serait en danger d'extinction »[^11].

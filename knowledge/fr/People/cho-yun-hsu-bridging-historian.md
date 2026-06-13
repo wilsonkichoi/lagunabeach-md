@@ -85,12 +85,12 @@ Il resta 28 ans à Pittsburgh, de 1970 à 1998, passant de professeur invité, d
 
 Durant la période de Pittsburgh, il mena deux travaux structurels : approfondir la méthode d’entrée des sciences sociales dans l’histoire chinoise, et appliquer cette méthode à une plus grande échelle — non plus seulement une dynastie, non plus seulement la Chine elle-même, mais la Chine replacée et comparée dans le contexte de l’histoire des civilisations mondiales[^26].
 
-![Façade du campus de Nangang de l’Academia Sinica, volumes modernistes gris et blancs et espace de place ouverte](/article-images/people/hsu-cho-yun-academia-sinica-building.jpg)
+![Façade du campus de Nangang de l’Academia Sinica, volumes modernistes gris et blancs et espace de place ouverte](/article-images/people/hsu-cho-yun-academia-sinica-building.webp)
 _Le campus de Nangang de l’Academia Sinica : le site de long terme de l’Institut d’histoire et de philologie où Hsu Cho-yun travailla à partir de 1956, et la base académique de son élection en 1980 comme académicien de la treizième promotion. Photo : KaurJmeb, 2005-12-20. [CC BY-SA 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Academia_Sinica.JPG)._
 
 En 1980, à 50 ans, il fut élu académicien de la treizième promotion de l’Academia Sinica, dans la section des sciences humaines et sociales[^27].
 
-![Portrait officiel tardif de Hsu Cho-yun par l’Academia Sinica, fond bleu clair, lunettes, expression douce et regard direct](/article-images/people/hsu-cho-yun-academia-sinica-portrait.jpg)
+![Portrait officiel tardif de Hsu Cho-yun par l’Academia Sinica, fond bleu clair, lunettes, expression douce et regard direct](/article-images/people/hsu-cho-yun-academia-sinica-portrait.webp)
 _Portrait officiel tardif de Hsu Cho-yun par l’Academia Sinica. Photo : Academia Sinica（中央研究院）, après 1980. [Licence d’attribution via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cho-Yun_Hsu_%E8%A8%B1%E5%80%AC%E9%9B%B2.jpg).\_
 
 📝 **L’expression « macro-histoire » fut ensuite surtout popularisée par Ray Huang, mais la macro-histoire pratiquée par Hsu Cho-yun était d’un autre type** : Ray Huang s’intéressait aux raisons pour lesquelles la Chine ne parvenait pas à sortir de son mode de gouvernement traditionnel, dans _1587, a Year of No Significance_ et _China: A Macro History_. Hsu Cho-yun, lui, se demandait comment la civilisation chinoise elle-même avait été façonnée par ses contacts avec d’autres civilisations, steppe, Inde, islam, Occident, tout en les façonnant à son tour. Sa conviction centrale était le refus du « sinocentrisme » : pour comprendre la Chine, il faut la replacer dans le contexte de l’histoire mondiale, et non la traiter comme un système clos, autosuffisant, isolé, évoluant selon sa seule logique interne[^28].

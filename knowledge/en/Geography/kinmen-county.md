@@ -35,7 +35,7 @@ translatedAt: '2026-05-26T05:10:57+08:00'
 
 > **30-second overview:** Kinmen is about 1.8 kilometers from Jiaoyu, Xiamen, at its nearest point, and 358 kilometers from Taipei. The Cold War placed a county somewhere its geography would not have put it. In 1387, Zhou Dexing built the Kinmen garrison city, taking the place name from the eight characters “as impregnable as walls of metal and a moat of boiling water, a mighty guard at the sea gate.” At 2 a.m. on October 25, 1949, three Communist regiments, 9,086 men, landed on the beaches of Guningtou; Nationalist forces repelled them after 56 hours of fierce fighting. Had those 56 hours not held, there would be no such term today as “the two sides of the strait.” In the 44 days beginning at 5:30 p.m. on August 23, 1958, 474,910 artillery shells fell on an island of 151 square kilometers, and three deputy commanders were killed at the Taiwu Mountain command post on the same afternoon. The subsequent policy of shelling on odd-numbered days and not shelling on even-numbered days continued for another 21 years, ending only on January 1, 1979, when the United States and China established diplomatic relations. From 1956 to 1992, Kinmen spent 36 years under warzone administration: curfew was at 10 p.m. (9 p.m. in Matsu), entry and exit required permits, radios had to be registered, and flotation devices were banned at the shore. Today, 145,000 people are registered in Kinmen, and at 4 a.m. more speedboats leave Shuitou Pier for Wutong, Xiamen, than planes fly to Taipei Songshan. Yeh Hua-cheng’s great-grandson has waited 67 years for an apology.
 
-![A landscape montage of Kinmen County, including traditional houses, Juguang Tower, battlefield bunkers, Wind Lion Gods, and Taiwu Mountain. Composite by Sleepingstar, 2012-2015.](/article-images/geography/kinmen-hero.png)
+![A landscape montage of Kinmen County, including traditional houses, Juguang Tower, battlefield bunkers, Wind Lion Gods, and Taiwu Mountain. Composite by Sleepingstar, 2012-2015.](/article-images/geography/kinmen-hero.webp)
 
 ## Looking at Xiamen from Kinmen Means Looking Across a 1.8-Kilometer Strait
 
@@ -51,7 +51,7 @@ Kinmen's main island covers 134 square kilometers. Together with Lieyu (Little K
 
 To understand Kinmen, one must first set aside the intuition that “geography determines belonging.” **Kinmen is a county of Taiwan, but Kinmen has never been Taiwan's geography**.
 
-![Juguang Tower, outside the North Gate of Jincheng Township, a palace-style building completed in 1952. It was once a symbol of “Juguang Day” military political education and is now one of Kinmen County's most representative landmarks. Photo by Shoestring, 2009.](/article-images/geography/kinmen-01.jpg)
+![Juguang Tower, outside the North Gate of Jincheng Township, a palace-style building completed in 1952. It was once a symbol of “Juguang Day” military political education and is now one of Kinmen County's most representative landmarks. Photo by Shoestring, 2009.](/article-images/geography/kinmen-01.webp)
 
 ## At 2 a.m., the 56 Hours on the Beaches of Guningtou
 
@@ -101,7 +101,7 @@ At its peak during military rule, the size of the Nationalist garrison in Kinmen
 
 **The war did not end. It was hidden inside the granite**.
 
-![Entrance to the Zhaishan Tunnel, on the south coast of Jincheng Township, excavated and completed from 1961 to 1965. The tunnel is 357 meters long and 11.5 meters wide. Originally a resupply base for submarines and small landing craft, it became a tourist site in 1998. Kayaking through the tunnel is now one of Kinmen's most popular tourism experiences. Photo by Shoestring, 2009.](/article-images/geography/kinmen-02.jpg)
+![Entrance to the Zhaishan Tunnel, on the south coast of Jincheng Township, excavated and completed from 1961 to 1965. The tunnel is 357 meters long and 11.5 meters wide. Originally a resupply base for submarines and small landing craft, it became a tourist site in 1998. Kayaking through the tunnel is now one of Kinmen's most popular tourism experiences. Photo by Shoestring, 2009.](/article-images/geography/kinmen-02.webp)
 
 ## Yeh Hua-cheng's Great-Grandson Waited 67 Years for an Apology
 
@@ -131,15 +131,15 @@ In the late Ming and early Qing, Kinmen encountered a man named **Koxinga, Zheng
 
 After the Zheng regime surrendered to the Qing, Kinmen entered two relatively peaceful centuries. Large numbers of emigrants went to Nanyang, or Southeast Asia, including the Philippines, Malaysia, and Indonesia, to make a living, then brought wealth home to build Western-style houses, forming the distinctive “fanzai lou,” or overseas Chinese mansions, of the late Qing and early Republican period. **Shanhou Village** is the best-preserved representative example. Located in Jinsha Township and built in the late Qing and early Republican period, around the 1900s to 1920s, it consists of **16 to 18** traditional Southern Min houses, with counts varying slightly by source. They were built by the Shanhou Wang family after returning from residence in Japan. The architectural vocabulary combines Southern Min tradition, Japanese details, and Western decorative elements[^21]. It was listed among the first group of historic sites in 1979 and opened to the public after restoration in 1998.
 
-![Shanhou Village, also known as Shanhou Folk Culture Village, in Jinsha Township. Built by the Shanhou Wang family after returning from residence in Japan, it is one of the best-preserved clusters of traditional Southern Min houses. Photo by Shoestring, 2009.](/article-images/geography/kinmen-03.jpg)
+![Shanhou Village, also known as Shanhou Folk Culture Village, in Jinsha Township. Built by the Shanhou Wang family after returning from residence in Japan, it is one of the best-preserved clusters of traditional Southern Min houses. Photo by Shoestring, 2009.](/article-images/geography/kinmen-03.webp)
 
 **Jincheng Model Street** is evidence from another timeline. Completed in 1924, this old street of connected two-story arcade shophouses has facades that combine Southern Min, Southeast Asian, and Western styles. Its name came from the Kinmen county magistrate at the time, who praised the street as a “model of construction.” The greatest difference between Model Street and old streets of the same period on Taiwan proper under Japanese rule is this: **it was built by returning overseas Chinese, not by Japanese people**. Kinmen was never directly ruled by Japan, except for the brief Japanese occupation of Kinmen and Xiamen during the Second Sino-Japanese War from 1937 to 1945. The time embodied on this street therefore belongs to the language system of “overseas Chinese time,” a separate axis from “Japanese colonial time.”
 
-![Jincheng Model Street, an old street of connected two-story arcade shophouses completed in 1924. Its facades combine Southern Min, Southeast Asian, and Western styles. It was built by returning overseas Chinese, not by Japanese people. Photo by Shoestring, 2009.](/article-images/geography/kinmen-04.jpg)
+![Jincheng Model Street, an old street of connected two-story arcade shophouses completed in 1924. Its facades combine Southern Min, Southeast Asian, and Western styles. It was built by returning overseas Chinese, not by Japanese people. Photo by Shoestring, 2009.](/article-images/geography/kinmen-04.webp)
 
 As for the distinctive stone lion sculptures at village entrances, the **Wind Lion Gods**, there are more than **70** across Kinmen, with different counts ranging from 70 to 90[^22]. Kinmen Island is flat, and the winter northeast monsoon is strong. Traditional Southern Min folk belief holds that “lions bite the wind” and can suppress harmful wind forces, so stone lions were placed at village entrances as guardians. Okinawa's “shisa” serve a similar function, and scholars have suggested they may be connected to the migration of Southern Min fishers to the Ryukyus during the Tang and Song periods. But this interpretation remains debated and should not be stated as settled fact.
 
-![A Kinmen Wind Lion God. Villages place stone lions at their entrances to suppress harmful wind forces. They are recorded from the Ming and Qing periods and became especially prevalent in the Qing. There are more than 70 across the island, made of sandstone or granite and appearing in varied forms. Photo by P95521708, 2018.](/article-images/geography/kinmen-05.jpg)
+![A Kinmen Wind Lion God. Villages place stone lions at their entrances to suppress harmful wind forces. They are recorded from the Ming and Qing periods and became especially prevalent in the Qing. There are more than 70 across the island, made of sandstone or granite and appearing in varied forms. Photo by P95521708, 2018.](/article-images/geography/kinmen-05.webp)
 
 ## Wuqiu Speaks a Third Language
 

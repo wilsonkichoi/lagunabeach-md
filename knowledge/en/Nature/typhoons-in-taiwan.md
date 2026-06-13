@@ -109,7 +109,7 @@ The Research Center for Environmental Changes (RCEC) at Academia Sinica and Nati
 
 The study also found that 6.5% of Typhoon Morakot's extreme rainfall was amplified by human-induced climate change.[^1] Without global warming, Mt. Xiandu might not have collapsed on that morning. This is a concrete number by which academia directly connected one typhoon to a warming planet.
 
-![A village in Minxiong, Chiayi, flooded after Morakot's torrential rain on August 9, 2009; muddy water covers roads and enters the first floors of homes, while people wade through water in the distance](/article-images/nature/morakot-minxiong-flood-2009.jpg)
+![A village in Minxiong, Chiayi, flooded after Morakot's torrential rain on August 9, 2009; muddy water covers roads and enters the first floors of homes, while people wade through water in the distance](/article-images/nature/morakot-minxiong-flood-2009.webp)
 _On August 9, 2009, in Minxiong, Chiayi, Morakot moved slowly, and days of torrential rain poured into this village. The rain amplified by that 6.5% from climate change ultimately became water like this. Photo: zilupe, [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2009-08-09_at_a_village_under_the_Typhoon_Morakot,_in_Minxiong,_Chiayi.jpg)._
 
 "Fewer but stronger" overturns the old logic of disaster prevention. In the past, resources were allocated on the assumption that "several will come every year." The new premise is: "The whole summer may be quiet, but when that one comes, we have to withstand an entire year's worth of destruction." One typhoon becomes an annual extreme event.

@@ -75,7 +75,7 @@ Les Tong’an n’apportèrent pas seulement l’image du dieu de la Cité à Da
 
 Mais l’événement qui transforma véritablement Dadaocheng dut attendre 1860.
 
-![Le temple Xia-Hai du dieu de la Cité de Dadaocheng, au 61, section 1 de la rue Dihua. Construit en 1859 par les Tong’an défaits lors du conflit Dingxia jiaopin de 1853, qui le déplacèrent depuis le village Bajia de Bangka, il est l’un des premiers centres religieux de Dadaocheng ; le temple se dresse au même endroit depuis 167 ans.](/article-images/geography/dadaocheng-xia-hai-city-god-temple-2018.jpg)
+![Le temple Xia-Hai du dieu de la Cité de Dadaocheng, au 61, section 1 de la rue Dihua. Construit en 1859 par les Tong’an défaits lors du conflit Dingxia jiaopin de 1853, qui le déplacèrent depuis le village Bajia de Bangka, il est l’un des premiers centres religieux de Dadaocheng ; le temple se dresse au même endroit depuis 167 ans.](/article-images/geography/dadaocheng-xia-hai-city-god-temple-2018.webp)
 _Temple Xia-Hai du dieu de la Cité de Dadaocheng, au 61, section 1 de la rue Dihua. Photo : Solomon203, CC BY-SA 4.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Taipei_Xia-Hai_City_God_Temple_20180729.jpg)._
 
 ## L’ouverture du port en 1860, John Dodd, Li Chunsheng et les 120 000 jin de thé
@@ -136,7 +136,7 @@ La rue Taiping-chō ne fut pas seulement politique ; elle fut aussi musicale.
 
 En 1932, **Columbia Records**, branche taïwanaise, produisit 〈**Bāng Chhun-hong**〉, « Aspiration à la brise de printemps », composé par **Teng Yu-hsien**, écrit par **Li Linqiu** et chanté par **Chunchun**, de son vrai nom Liu Qingxiang. L’enregistrement eut lieu dans les bureaux de Columbia Records à Dadaocheng, dans la partie sud de l’actuelle rue Dihua. Après sa sortie, 〈Bāng Chhun-hong〉 devint extrêmement populaire dans le Taïwan des années 1930 et fut la première véritable « chanson populaire » taïwanaise au sens moderne[^18]. 〈**Fleur de la nuit pluvieuse**〉 en 1934, 〈**Tristesse d’une nuit de lune**〉 en 1933 et d’autres œuvres de Teng Yu-hsien sortirent aussi de ce bureau de Dadaocheng et sont encore reprises aujourd’hui. **Dans les années 1930, Dadaocheng ne fut pas seulement un centre commercial ; il fut aussi le lieu de naissance de la musique populaire en taïwanais**.
 
-![La résidence Chen Tian-lai de Dadaocheng, maison de commerce Jinji Tea Company, au 73 rue Guide. Construite entre 1920 et 1923, elle présente une façade néobaroque portant en son centre les deux caractères « Jinji ». Classée monument municipal de Taipei en 1985, elle fut restaurée et rouverte en 2018.](/article-images/geography/dadaocheng-chen-tian-lai-residence-2014.jpg)
+![La résidence Chen Tian-lai de Dadaocheng, maison de commerce Jinji Tea Company, au 73 rue Guide. Construite entre 1920 et 1923, elle présente une façade néobaroque portant en son centre les deux caractères « Jinji ». Classée monument municipal de Taipei en 1985, elle fut restaurée et rouverte en 2018.](/article-images/geography/dadaocheng-chen-tian-lai-residence-2014.webp)
 _Résidence Chen Tian-lai, 73 rue Guide, rouverte après restauration en 2018. Photo : Nisa yeh from Taipei, Taiwan, CC BY-SA 2.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chen_Tian-lai_Residence_(12303134604).jpg).\_
 
 ## Ce paquet de cigarettes : la petite plaque de pierre du 189 Nanjing West Road
@@ -169,10 +169,10 @@ La **fondation culturelle et éducative Leshan** menait depuis les années 1980 
 
 Aujourd’hui, en parcourant les 800 mètres de la rue Dihua du sud au nord, on voit coexister trois strates temporelles : à côté du site de la rue du Milieu de 1851 se trouve le temple Xia-Hai du dieu de la Cité de 1859 ; en face du temple, la grande pharmacie Watsons de 1917, avec sa façade de maison de rue baroque ; 200 mètres plus au nord, la résidence Chen Tian-lai de 1923 ; un peu plus loin encore, le musée Dihua Street 207 de 2017 et les marques culturelles et créatives installées après les années 2010, comme « InBlooom », « He Xing 88 Ting » et « ASW Tea House ». **Ces 800 mètres contiennent tous les résultats de 30 ans de mouvement de préservation à Taïwan**.
 
-![La grande pharmacie Watsons de la rue Dihua, aujourd’hui Starbucks Bao’an, fondée en 1917 par Li Junqi, est l’une des maisons de rue baroques les plus représentatives de Dadaocheng.](/article-images/geography/dadaocheng-watsons-pharmacy-house.jpg)
+![La grande pharmacie Watsons de la rue Dihua, aujourd’hui Starbucks Bao’an, fondée en 1917 par Li Junqi, est l’une des maisons de rue baroques les plus représentatives de Dadaocheng.](/article-images/geography/dadaocheng-watsons-pharmacy-house.webp)
 _Grande pharmacie Watsons de la rue Dihua, fondée en 1917. Photo : 寺人孟子, CC BY-SA 4.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:屈臣氏大藥房.jpg)._
 
-![La rue Dihua pendant la rue des achats du Nouvel An : chaque année, la semaine précédant le Nouvel An lunaire, cette rue est si bondée qu’on n’y circule presque plus. C’est l’un des résultats préservés par le mouvement contre l’élargissement de 1996.](/article-images/geography/dadaocheng-lunar-new-year-2011.jpg)
+![La rue Dihua pendant la rue des achats du Nouvel An : chaque année, la semaine précédant le Nouvel An lunaire, cette rue est si bondée qu’on n’y circule presque plus. C’est l’un des résultats préservés par le mouvement contre l’élargissement de 1996.](/article-images/geography/dadaocheng-lunar-new-year-2011.webp)
 _Rue Dihua pendant la rue des achats du Nouvel An. Photo : 玄史生, CC BY-SA 3.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dihua_Street_Lunar_New_Year_20110203a.jpg)._
 
 ## Trois lieux où les habitants vous emmèneraient

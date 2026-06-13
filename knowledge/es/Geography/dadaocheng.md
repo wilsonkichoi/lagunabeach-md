@@ -75,7 +75,7 @@ Los Tong'an no solo llevaron la estatua del Dios de la Ciudad a Dadaocheng. Tras
 
 Pero lo que realmente cambió a Dadaocheng tuvo que esperar hasta 1860.
 
-![Templo del Dios de la Ciudad Xia Hai de Dadaocheng, número 61 de la sección 1 de Dihua Street. Reconstruido en 1859 por los Tong'an derrotados en la lucha Ding Xia Jiao de 1853, que huyeron desde Bajiazhuang en Bangka, es uno de los centros de fe más antiguos de Dadaocheng, y el edificio del templo ha permanecido en el mismo lugar durante 167 años sin moverse.](/article-images/geography/dadaocheng-xia-hai-city-god-temple-2018.jpg)
+![Templo del Dios de la Ciudad Xia Hai de Dadaocheng, número 61 de la sección 1 de Dihua Street. Reconstruido en 1859 por los Tong'an derrotados en la lucha Ding Xia Jiao de 1853, que huyeron desde Bajiazhuang en Bangka, es uno de los centros de fe más antiguos de Dadaocheng, y el edificio del templo ha permanecido en el mismo lugar durante 167 años sin moverse.](/article-images/geography/dadaocheng-xia-hai-city-god-temple-2018.webp)
 _Templo del Dios de la Ciudad Xia Hai de Dadaocheng, número 61 de la sección 1 de Dihua Street. Foto: Solomon203, CC BY-SA 4.0 vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Taipei_Xia-Hai_City_God_Temple_20180729.jpg)._
 
 ## La apertura del puerto en 1860, John Dodd, Li Chunsheng y aquellas 120.000 jin de té
@@ -136,7 +136,7 @@ La calle Ping Ancho, además de la política, también tuvo música.
 
 En 1932, la canción «**Wang Chunfeng**» (望春風), producida por la sucursal taiwanesa de **Columbia Records**, con música de **Deng Yuxian** y letra de **Li Linqiu**, fue interpretada por **Chun Chun** (nombre real: Liu Qingxiang). La grabación se realizó en las oficinas de Columbia Records en Dadaocheng (en la zona sur de la actual Dihua Street). «Wang Chunfeng» se hizo enormemente popular en Taiwán durante la década de 1930 y es considerada la primera «canción pop» en el sentido estricto de Taiwán[^18]. En 1934, «Yeh Ye Hua» (雨夜花), y en 1933, «Yue Ye Chou» (月夜愁), entre otras obras de Deng Yuxian, salieron de estas oficinas de Dadaocheng y siguen siendo versionadas hoy. **Dadaocheng, además de su papel como centro comercial en la década de 1930, fue también la cuna de la música pop en hokkienés taiwanés**.
 
-![Antigua residencia de Chen Tianlai (edificio occidental de la casa de té Chin Ki), número 73 de Gui De Street. Construido entre 1920 y 1923, la fachada neobarroca tiene las palabras «錦記» en el centro. Declarado monumento histórico municipal de Taipéi en 1985, se completó su restauración en 2018 y se reabrió al público.](/article-images/geography/dadaocheng-chen-tian-lai-residence-2014.jpg)
+![Antigua residencia de Chen Tianlai (edificio occidental de la casa de té Chin Ki), número 73 de Gui De Street. Construido entre 1920 y 1923, la fachada neobarroca tiene las palabras «錦記» en el centro. Declarado monumento histórico municipal de Taipéi en 1985, se completó su restauración en 2018 y se reabrió al público.](/article-images/geography/dadaocheng-chen-tian-lai-residence-2014.webp)
 _Antigua residencia de Chen Tianlai, número 73 de Gui De Street, reabierta tras su restauración en 2018. Foto: Nisa yeh from Taipei, Taiwan, CC BY-SA 2.0 vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chen_Tian-lai_Residence_(12303134604).jpg).\_
 
 ## Aquel paquete de cigarrillos: la pequeña placa de piedra en el número 189 de Nanjing West Road
@@ -169,10 +169,10 @@ A partir de 2010, la Oficina de Asuntos Culturales de la Ciudad de Taipéi puso 
 
 Hoy, paseando por Dihua Street de norte a sur a lo largo de 800 metros, se pueden ver tres capas temporales coexistiendo: junto al sitio de la Calle del Medio de 1851 está el templo del Dios de la Ciudad Xia Hai de 1859; frente al templo está la antigua farmacia Watsons de 1917 (fachada de edificio callejero neobarroco); 200 metros más al norte está la antigua residencia de Chen Tianlai de 1923; un poco más al norte está el Museo del Número 207 de Dihua Street de 2017 y las marcas culturales creativas que se han instalado a partir de la década de 2010, como «印花樂» (Printwork), «合興八十八亭» (Hsing Bakery) y «ASW Tea House». **Estos 800 metros contienen todos los resultados de 30 años de movimiento de conservación en Taiwán**.
 
-![Antigua farmacia Watsons de Dihua Street (hoy Starbucks Bao'an), fundada en 1917 por Li Junqi, uno de los edificios callejeros neobarrocos más representativos de Dadaocheng.](/article-images/geography/dadaocheng-watsons-pharmacy-house.jpg)
+![Antigua farmacia Watsons de Dihua Street (hoy Starbucks Bao'an), fundada en 1917 por Li Junqi, uno de los edificios callejeros neobarrocos más representativos de Dadaocheng.](/article-images/geography/dadaocheng-watsons-pharmacy-house.webp)
 _Antigua farmacia Watsons de Dihua Street, fundada en 1917. Foto: 寺人孟子, CC BY-SA 4.0 vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:屈臣氏大藥房.jpg)._
 
-![Dihua Street durante la temporada de comestibles de Año Nuevo Lunar, cuando la calle se llena hasta el punto de no poder caminar durante la semana anterior al Año Nuevo Lunar, uno de los logros conservados gracias al movimiento contra el ensanchamiento de 1996.](/article-images/geography/dadaocheng-lunar-new-year-2011.jpg)
+![Dihua Street durante la temporada de comestibles de Año Nuevo Lunar, cuando la calle se llena hasta el punto de no poder caminar durante la semana anterior al Año Nuevo Lunar, uno de los logros conservados gracias al movimiento contra el ensanchamiento de 1996.](/article-images/geography/dadaocheng-lunar-new-year-2011.webp)
 _Dihua Street durante la temporada de comestibles de Año Nuevo Lunar. Foto: 玄史生, CC BY-SA 3.0 vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dihua_Street_Lunar_New_Year_20110203a.jpg)._
 
 ## Tres lugares a los que un residente local te llevaría

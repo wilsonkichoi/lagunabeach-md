@@ -138,7 +138,7 @@ Elle forme une équipe de vingt personnes, appelée PDIS, Public Digital Innovat
 
 En 2019, elle figure dans la liste des « 100 Global Thinkers » de Foreign Policy, dans la catégorie du vote des lecteurs[^27]. Les médias la présentent comme « la seule ministre ouvertement transgenre au monde » ou une « star du code ». Dans chaque entretien, elle renvoie le mérite vers les autres, mais l’histoire du « ministre génial » se raconte plus facilement que ses propres paroles.
 
-![Audrey Tang lors de son intervention à re:publica, conférence sur la société numérique, à Berlin en mai 2019](/article-images/people/audrey-tang-re-publica-2019.jpg)
+![Audrey Tang lors de son intervention à re:publica, conférence sur la société numérique, à Berlin en mai 2019](/article-images/people/audrey-tang-re-publica-2019.webp)
 _Le 8 mai 2019, à Berlin, lors de la discussion « Digital Social Innovation » à la conférence re:publica sur la société numérique, Audrey Tang partage la scène avec Julia Kloiber. Photo : Jan Michalko. [CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Re_publica_19_-_Day_3_(32860400897).jpg).\_
 
 ## Anarchisme conservateur : refuser de commander et refuser d’être commandée

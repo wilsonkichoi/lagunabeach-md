@@ -27,7 +27,7 @@ translatedAt: '2026-06-03T21:58:47+08:00'
 
 # Monaneng: Two Kinds of Blindness, One Poetry Collection
 
-![A view of Daren Township, Taitung County: tribal communities between the mountains and the sea, with the Pacific Ocean in the distance. Monaneng was born in 1956 in this township’s Aluwei community, now Anshuo Village.](/article-images/people/monaneng-daren-township-2011.jpg)
+![A view of Daren Township, Taitung County: tribal communities between the mountains and the sea, with the Pacific Ocean in the distance. Monaneng was born in 1956 in this township’s Aluwei community, now Anshuo Village.](/article-images/people/monaneng-daren-township-2011.webp)
 _Daren Township, Taitung County — where the Aluwei community, Monaneng’s 1956 birthplace, is located. Photo: Bernard Gagnon, 2011-06-08. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Daren_Township,_Taiwan.jpg) CC BY-SA 3.0._
 
 > **30-second overview:** The blind Paiwan poet Maljaljaves Mulaneng, known in Chinese as Tseng Shun-wang, was born in 1956 in the Aluwei community of Daren Township, Taitung. He was Taiwan’s **first Indigenous poet to publish a modern poetry collection in Chinese**. _The Beautiful Rice Stalks_, published by Morning Star in 1989, contains thirty poems and includes the writer Chen Yingzhen’s long preface, “A Colonial Poet within Taiwan.” Monaneng became completely blind only after suffering a concussion in a traffic accident while working for a freight company in 1979; he was not born unable to see. The line in “Come, Have a Drink” — “The slogan of self-determination for eighteen million people / cannot hear our sighs” — writes into poetry the newly post-martial-law Taiwan independence movement, the Indigenous land-return movement, and the question of “who counts as Taiwanese” all at once. Monaneng himself later publicly opposed Taiwan independence, advocated Cross-Strait unification, and joined the China Writers Association.[^1] Reading his poetry presents two kinds of difficulty: physically, he could not see; politically, many Taiwanese readers also do not want to see his position.
@@ -54,7 +54,7 @@ The decisive accident came in **1979**. He was working for a freight company whe
 
 Afterward, he went to the **Taiwan Blind Rehabilitation Institute** to learn massage and braille. Later he ran a small massage clinic in Taipei called “A-Neng Massage Clinic.”[^11] He was not a “street masseur” — a phrase often used online, but inaccurate. He had a physical shop, and in that shop he wrote poems in braille. **But the poems did not begin with braille**.
 
-![A Paiwan traditional song-and-dance performance: three people in traditional dress performing side by side. Monaneng’s poetry first emerged in 1984 in a similar form: drinking, oral transmission, and chant, spoken from his mouth and written down by others.](/article-images/people/monaneng-paiwan-song-dance-2018.jpg)
+![A Paiwan traditional song-and-dance performance: three people in traditional dress performing side by side. Monaneng’s poetry first emerged in 1984 in a similar form: drinking, oral transmission, and chant, spoken from his mouth and written down by others.](/article-images/people/monaneng-paiwan-song-dance-2018.webp)
 _Paiwan song-and-dance performance at the Riddu Riđđu Indigenous Festival in northern Europe, 2018 — corresponding to the source scene in 1984, when Monaneng drank at Yang Du’s home and orally chanted his poems. Photo: Riddu Riđđu Festival via Flickr. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Familieforestilling_-_Paiwan_sang_og_dans_(41534824410).jpg) CC BY-SA 2.0.\_
 
 ## Drinking at Yang Du’s Home, Chanting the Poems Aloud
@@ -75,7 +75,7 @@ This sequence is worth reading slowly:
 
 This Odyssean oral origin is the real basis for Chen Yingzhen later calling him “**a colonial poet within Taiwan**” and for scholars comparing him to “**Taiwan’s Homer**.” Homer’s greatness lay not in blindness, but in the continuation of the oral epic tradition through him.[^15]
 
-![A Presbyterian church building in Daren Township, Taitung: one of the earliest modern organizational spaces in postwar Taiwan’s Indigenous communities, and a network node in the Indigenous movement of the 1980s.](/article-images/people/monaneng-daren-church-2011.jpg)
+![A Presbyterian church building in Daren Township, Taitung: one of the earliest modern organizational spaces in postwar Taiwan’s Indigenous communities, and a network node in the Indigenous movement of the 1980s.](/article-images/people/monaneng-daren-church-2011.webp)
 _Daren Presbyterian Church, Taitung — one of the earliest modern organizational spaces in postwar Taiwan’s Indigenous communities and an important node in the Indigenous movement network of the 1980s. Photo: Bernard Gagnon, 2011-03-08. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Daren_Church,_Presbyterian_Church_in_Taiwan_20110308.jpg) CC BY-SA 3.0._
 
 ## The Bell of the Haishan Coal Mine, the Cane of the Indigenous Rights Association

@@ -59,7 +59,7 @@ translatedAt: '2026-06-06T00:00:00Z'
 
 이 숫자들은 대만 사회에 실제로 과학 읽기에 대한 수요가 있었음을 보여준다. 다만 그 수요는 반드시 학교 교과서처럼 생긴 것도, 연구논문처럼 생긴 것도 아니었다. 팬사이가 찾아낸 틈은 과학을 “답”에서 “토론의 방법”으로 바꾸는 데 있었다.
 
-![PanSci 팬사이 공식 웹사이트 첫 화면의 배너. 주 시각 요소는 뇌 그림과 “Make our science PanScience”라는 슬로건이며, 옆에는 실험 기구와 책 일러스트가 놓여 있다.](/article-images/society/pansci-banner-2024.jpg)
+![PanSci 팬사이 공식 웹사이트 첫 화면의 배너. 주 시각 요소는 뇌 그림과 “Make our science PanScience”라는 슬로건이며, 옆에는 실험 기구와 책 일러스트가 놓여 있다.](/article-images/society/pansci-banner-2024.webp)
 _PanSci 팬사이 공식 웹사이트 첫 화면 배너. “Make our science PanScience”라는 슬로건은 2011년 설립 당시의 핵심 명제를 “Pan”이라는 한 단어에 압축한다. 모두의 것, 경계를 넘는 것, 과학을 열어 모두가 들어올 수 있게 하는 것. Fair use editorial commentary on PanSci's brand identity._
 
 공식 소개 페이지는 사명을 매우 직접적으로 말한다. 팬사이는 연구자, 교육자, 애호가, 과학의 영향을 받는 사람들이 함께 과학을 이야기하도록 초대하고, 과학 발전을 대만의 공공 포럼 안으로 되돌려 놓으며, 사회 의제 속 과학적 측면을 이성적으로 사고한다.[^about]
@@ -154,7 +154,7 @@ _PanSci 팬사이 공식 웹사이트 첫 화면 배너. “Make our science Pan
 
 ## 웹사이트에서 지식 산업으로
 
-![PanSci 팬사이의 표식. 검은색 PanSci 글자와 보라색 물결선 아래에 “Be curious about everything!”이 적혀 있다.](/article-images/society/pansci-logo-2024.png)
+![PanSci 팬사이의 표식. 검은색 PanSci 글자와 보라색 물결선 아래에 “Be curious about everything!”이 적혀 있다.](/article-images/society/pansci-logo-2024.webp)
 _PanSci 팬사이의 표식, 2024년 버전. 슬로건 “Be curious about everything!”은 그것이 “과학 대중화 웹사이트”에서 “지식 콘텐츠 공급망”으로 자라난 과정과 대응한다. Fair use editorial commentary on PanSci's brand identity._
 
 팬사이의 모회사 팬사이 지식은 이후 점점 더 지식 산업 서비스 기업에 가까워졌다.

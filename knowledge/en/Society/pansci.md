@@ -59,7 +59,7 @@ In 2014, Cheng Kuo-wei provided another set of early figures: in PanSci’s firs
 
 These numbers show that Taiwanese society did in fact have a demand for science reading. It is just that this demand did not necessarily resemble school textbooks, nor did it necessarily resemble research papers. The opening PanSci found was to turn science from an “answer” into a “method of discussion.”
 
-![The banner on PanSci’s official website homepage, with a main visual of a brain pattern and the slogan “Make our science PanScience,” alongside illustrations of laboratory equipment and books](/article-images/society/pansci-banner-2024.jpg)
+![The banner on PanSci’s official website homepage, with a main visual of a brain pattern and the slogan “Make our science PanScience,” alongside illustrations of laboratory equipment and books](/article-images/society/pansci-banner-2024.webp)
 _The homepage banner of PanSci’s official website. The slogan “Make our science PanScience” compresses the core proposition from its 2011 founding into one word: “Pan” (for everyone, cross-disciplinary, opening science so that all can enter). Fair use editorial commentary on PanSci's brand identity._
 
 The official About Us page states its mission directly: PanSci invites researchers, educators, enthusiasts, and people affected by science to discuss science together, to put scientific development back into Taiwan’s public forum, and to use rational thought to examine the scientific dimensions of social issues. [^about]
@@ -154,7 +154,7 @@ This also connects PanSci to [Taiwan’s YouTuber Industry and Culture](/en/Cult
 
 ## From Website to Knowledge Industry
 
-![PanSci’s logo: black PanSci lettering with a purple wavy line and the phrase “Be curious about everything!” underneath](/article-images/society/pansci-logo-2024.png)
+![PanSci’s logo: black PanSci lettering with a purple wavy line and the phrase “Be curious about everything!” underneath](/article-images/society/pansci-logo-2024.webp)
 _PanSci’s logo, 2024 version. The slogan “Be curious about everything!” corresponds to its growth from a “popular science website” into a “knowledge content supply chain.” Fair use editorial commentary on PanSci's brand identity._
 
 PanSci’s parent company, Pan Knowledge, also increasingly came to resemble a knowledge industry service provider.

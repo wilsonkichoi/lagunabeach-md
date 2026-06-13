@@ -39,7 +39,7 @@ Start with a technical problem. The core of rap is rhythm and rhyme, and English
 
 How did Taiwanese rappers respond to this problem? The answer is hidden in Sung Yueh-ting. DJ KU of the NTU Hip-Hop Culture Research Club described him as a “pioneer of double-rhyme technique,” with phrasing and delivery close to Tupac[^3]. Double rhyme means rhyming two sets of rhyme endings within a single line, allowing the rhythmic feel of Chinese to depend not on tones but on the **density of rhyme**. This was the first way to route around the disadvantage: since tones could not naturally generate beats the way English stress does, denser rhyme would fill the rhythmic gap.
 
-![A commemorative portrait of rapper Sung Yueh-ting: a young face, quiet in expression.](/article-images/music/sung-yueh-ting-portrait.jpg)
+![A commemorative portrait of rapper Sung Yueh-ting: a young face, quiet in expression.](/article-images/music/sung-yueh-ting-portrait.webp)
 
 _Sung Yueh-ting (1978-2002), who died at twenty-three. His posthumous work “Life's a Struggle” advanced Chinese-language rap through double rhyme and won Best Lyricist at the 15th Golden Melody Awards in 2004. Commemorative portrait, fair use editorial commentary._
 
@@ -76,7 +76,7 @@ The representative of the Indigenous line is ABAO (Aljenljeng Tjaluvie), a Paiwa
 
 > **✦** “Thank you to all the listeners who once pressed PLAY and shared it. Thank you for trying to listen to a language you do not understand.”
 
-![The cover of Blacklist Studio's 1989 album Song of Madness, with figures and red-black tones, a representative visual of Taiwan's New Taiwanese Song Movement.](/article-images/music/blacklist-studio-songs-of-madness-1989.jpg)
+![The cover of Blacklist Studio's 1989 album Song of Madness, with figures and red-black tones, a representative visual of Taiwan's New Taiwanese Song Movement.](/article-images/music/blacklist-studio-songs-of-madness-1989.webp)
 
 _Blacklist Studio's \_Song of Madness_ (1989). It stitched together Taiwanese _tsap-liam-a_, rap, and reggae, becoming the forerunner of the New Taiwanese Song Movement and allowing the accent of Taiwanese to be treated as an asset for the first time. Album cover, fair use editorial commentary.\_
 
@@ -109,7 +109,7 @@ Nine One One was formed in Taichung in September 2009. Its three members, Ken-G 
 
 _Official Nine One One MV: “A Lovesick Man,” with around 80 million views, was the true national-level traffic that brought rap into temple plazas and night markets._
 
-![Nine One One performing on the large stage of Taipei's New Year's Eve concert: the three hold microphones, with the city night sky and stage lights in the background.](/article-images/music/nine-one-one-newyear-2017.jpg)
+![Nine One One performing on the large stage of Taipei's New Year's Eve concert: the three hold microphones, with the city night sky and stage lights in the background.](/article-images/music/nine-one-one-newyear-2017.webp)
 
 _Nine One One performing at Taipei's New Year's Eve concert. Starting from temple festivals and night markets, they brought rap into ordinary Taiwanese ears with “A Lovesick Man,” which has accumulated around 80 million YouTube views. Photo: Department of Information and Tourism, Taipei City Government, CC0 via Wikimedia Commons._
 
@@ -131,7 +131,7 @@ _Official KAO!INC. MV: Soft Lipa and the Japanese jazz band JABBERLOOP's “Clas
 
 The most commercially mainstream was True Color, founded in Taipei in 2004 by Chang Chen-yue and Huang Ching-po. With MC HotDog and MJ116 as its two flagship acts, it followed a commercial route shaped by a brotherhood temperament[^27]. MJ116, in which MJ stands for Muzha and 116 is the Wenshan District postal code, consisted of E.SO (Chen Yu-jung), Kenzy (Chou Wen-chieh), and Muta (Lin Mu-yuan). Their 2017 album _Big Thing_ won Best Vocal Group at the 29th Golden Melody Awards in 2018, making them representatives of new-generation idol rap[^28].
 
-![MJ116 member Kenzy (Chou Wen-chieh) performing at a Taoyuan City Government event, wearing a hat and holding a microphone.](/article-images/music/mj116-kenzy-2021.jpg)
+![MJ116 member Kenzy (Chou Wen-chieh) performing at a Taoyuan City Government event, wearing a hat and holding a microphone.](/article-images/music/mj116-kenzy-2021.webp)
 
 _Kenzy (Chou Wen-chieh) of MJ116, 2021. From Muzha 116, MJ116 packaged hip-hop as new-generation idol music and held seven consecutive shows at Taipei Arena in 2025. Photo: Taoyuan City Government, attribution license via Wikimedia Commons._
 
@@ -169,7 +169,7 @@ _Official KAO!INC. MV: Leo Wang's “Groovy Shit” feat. Soft Lipa. The album o
 
 The second closure came in 2024. MC HotDog, born Yao Chung-jen, a graduate of Fu Jen Catholic University's Department of Mass Communication and widely called the “godfather of hip-hop” by the media, won Best Mandarin Male Singer at the 35th Golden Melody Awards for _Disgusted Artist_. It was his first Best Male Singer award, and he also won Best Lyricist[^34]. From his 1998 debut, to winning Best Mandarin Album with _Wake Up_ in 2007, to finally becoming “king” in 2024, the godfather took twenty-six years to complete the final piece of institutional recognition.
 
-![Rapper MC HotDog performing onstage in profile while holding an adidas microphone, wearing a cap, with a focused expression.](/article-images/music/mc-hotdog-mic-2012.jpg)
+![Rapper MC HotDog performing onstage in profile while holding an adidas microphone, wearing a cap, with a focused expression.](/article-images/music/mc-hotdog-mic-2012.webp)
 
 _MC HotDog performing in 2012. Known as the “godfather of hip-hop,” he moved from the underground to the mainstream and did not finally win Best Mandarin Male Singer at the Golden Melody Awards until 2024. Photo: Chiu Yu-feng, CC BY-SA 4.0 via Wikimedia Commons._
 
@@ -188,7 +188,7 @@ Dwagie pushed this “difference” to the farthest place. In January 2017, he p
 
 One must be honest: the authenticity and scope of that ban list were difficult to verify, and official accounts were inconsistent. The relationship between Taiwan's hip-hop scene and China ranges widely, from developing in China to being named on ban lists, and positions vary. Rather than choosing sides, what matters here is seeing one thing: when the many-voiced character of a kind of music is itself political, friction with a market that seeks a single discourse is inevitable. That friction is the most concrete evidence for the idea of a “sovereign voiceprint.”
 
-![Rapper Dwagie performing on the New Year's Eve Festival stage, holding a microphone, intensely engaged, with stage lights in the background.](/article-images/music/dwagie-portrait-2019.jpg)
+![Rapper Dwagie performing on the New Year's Eve Festival stage, holding a microphone, intensely engaged, with stage lights in the background.](/article-images/music/dwagie-portrait-2019.webp)
 
 _Dwagie. He was the first Taiwanese rapper to perform on an NBA stage and has also been covered by \_Time_ magazine. He has long used Taiwanese in songs about human rights and politics. Photo: Chiayi City Government, attribution license via Wikimedia Commons.\_
 
@@ -204,7 +204,7 @@ The person who stood almost alone within this wall for nearly a decade was Miss 
 
 > **✦** “A female hip-hop artist Taiwan has never had before, with authentic and fully realized hip-hop technique, performing better than male hip-hop artists. No one in the Chinese-language music scene can match her.” — Judges of the 24th Golden Melody Awards, on Miss Ko
 
-![Rapper Miss Ko performing live with a microphone, long-haired and confident in expression.](/article-images/music/miss-ko-cmj-2013.jpg)
+![Rapper Miss Ko performing live with a microphone, long-haired and confident in expression.](/article-images/music/miss-ko-cmj-2013.webp)
 
 _Miss Ko at the CMJ Music Marathon in New York, 2013. She was Taiwan's first female hip-hop artist to win Best New Artist at the Golden Melody Awards. The judges said “no one in the Chinese-language music scene can match her,” but she then held up the space almost alone for nearly ten years. Photo: May S. Young, CC BY-SA 2.0 via Wikimedia Commons._
 

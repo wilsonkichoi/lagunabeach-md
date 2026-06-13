@@ -53,7 +53,7 @@ And on that day in 2018, on an island transformed from a prison into a museum, h
 
 Five years later, on September 3, 2023, Tsai Kun-lin died at the venerable age of 93. President Tsai Ing-wen issued a presidential citation, presented on behalf of the government by the Ministry of Culture’s deputy minister.[^4] Until the day he died, he still did not know the answer.
 
-![Green Island Human Rights Memorial Monument, known as the Tearful Monument, personally unveiled by President Lee Teng-hui on International Human Rights Day, December 10, 1999, with a 28-character inscription written by Bo Yang](/article-images/history/nhrm-greenisland-monument-2022.jpg)
+![Green Island Human Rights Memorial Monument, known as the Tearful Monument, personally unveiled by President Lee Teng-hui on International Human Rights Day, December 10, 1999, with a 28-character inscription written by Bo Yang](/article-images/history/nhrm-greenisland-monument-2022.webp)
 _Taken in 2022. Photo: S8321414. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Taiwan_GreenIsland_Human_Rights_Memorial_Monument_2022.jpg)._
 
 On the same day as the Green Island inauguration, less than a kilometer from the podium, stood a “Human Rights Memorial Monument” completed on International Human Rights Day, December 10, 1999, commonly known among the public as the “Tearful Monument.”[^5] Its body is a spiral structure. When it rains, water flows along collection channels on both sides into the central point like tears. The inscription written by Bo Yang contains only 28 Chinese characters:
@@ -72,7 +72,7 @@ On October 2, 2021, the Transitional Justice Commission announced the revocation
 
 ## The Detention Center Beside That MRT Line in Xindian
 
-![White Terror Jingmei Memorial Park, the former Taiwan Garrison Command Military Law Division Detention Center, where the first courtroom of the 1980 Kaohsiung Incident major trial was located](/article-images/history/nhrm-jingmei-park.jpg)
+![White Terror Jingmei Memorial Park, the former Taiwan Garrison Command Military Law Division Detention Center, where the first courtroom of the 1980 Kaohsiung Incident major trial was located](/article-images/history/nhrm-jingmei-park.webp)
 _Jingmei Human Rights Cultural Park. Photo: Chang Yung-tai. [Public Domain (Voice of America) via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E6%99%AF%E7%BE%8E%E4%BA%BA%E6%AC%8A%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80.jpg)._
 
 No. 131, Fuxing Road, Xindian District, New Taipei City. A 10-minute walk from Shisizhang MRT Station on the Circular Line.[^8]

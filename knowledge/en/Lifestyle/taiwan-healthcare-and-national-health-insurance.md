@@ -46,7 +46,7 @@ The satisfaction data from the first year is often buried under mythmaking. In 1
 
 > 📝 **Curator's note:** "Single-payer" is usually rendered in Chinese as "single insurer," but those four Chinese characters have locked in 30 years of political possibility. Putting everyone into the same pool means that any decision to change premium rates, benefits, copayments, or the way total household income is calculated has no fallback route of "pilot first," "trial first," or "separate first." Either everyone changes together, or nothing changes. This was written into the DNA of the system when William Hsiao chose the Canadian model in 1989. Thirty years later, it is simultaneously NHI's greatest advantage and its greatest political brake.
 
-![2017 version of the NHI IC card](/article-images/lifestyle/nhi-ic-card-2017.jpg)
+![2017 version of the NHI IC card](/article-images/lifestyle/nhi-ic-card-2017.webp)
 _The 2017 version of the NHI IC card. Taiwan fully replaced its cards with IC cards in 2004, and the move is often described as "world first." But Slovenia had completed nationwide deployment as early as September 2000. Taiwan was the second case, and the largest and most deeply integrated._
 
 ## Lee Yu-chun's Four Characters
@@ -121,7 +121,7 @@ Closed beds are the most visible indicator. Among Taiwan's 22 medical centers, N
 
 The political tug-of-war over closed beds exploded in June 2024. Tsai Shu-feng, director of the Ministry of Health and Welfare's Department of Nursing and Health Care, publicly asked on June 2024: "Which hospitals have closed beds?"[^28]. The remark was understood as "the ministry does not acknowledge bed closures." On June 5, Minister of Health and Welfare Chiu Tai-yuan apologized at the Legislative Yuan over the remark[^30]. That same month, Chao Lin-yu, director of the spine division at Ditmanson Medical Foundation Chia-Yi Christian Hospital, gave the frontline version in an interview with The Reporter: "If there are no surgeries to perform, does a surgeon still have a career?"; "we are short of anesthesia nurse specialists, so surgeons are restricted to only one surgery day per week"[^28]. Luo Hsiang-yun, head of emergency medicine at Linkou Chang Gung Memorial Hospital, gave what became one of the most frequently cited lines in 30 years of nursing shortage discourse when speaking to patients' families: "You can lose your temper at me, and you can be rude to me, but not to the nurses!"[^28]
 
-![Chia-Yi Christian Hospital mobile nursing station, 2007](/article-images/lifestyle/nhi-mobile-nurse-station-2007.jpg)
+![Chia-Yi Christian Hospital mobile nursing station, 2007](/article-images/lifestyle/nhi-mobile-nurse-station-2007.webp)
 _A mobile nursing station at Ditmanson Medical Foundation Chia-Yi Christian Hospital in 2007. The three-shift nurse-to-patient ratio reform, brought forward to 2026, is the largest structural adjustment to nursing working conditions in 30 years._
 
 Three-shift nurse-to-patient ratio reform: on March 1, 2024, the Ministry of Health and Welfare issued an administrative order setting ratios of 1:6/1:7/1:10 for day shifts, 1:9/1:11/1:13 for evening shifts, and 1:11/1:13/1:15 for night shifts. On May 8, 2026, the Legislative Yuan passed amendments to the Medical Care Act on third reading. On May 12, 2026, Lai Ching-te announced that phased implementation would be brought forward to May 20, 2027[^31]. Penalties are NT$250,000 to NT$500,000 for district hospitals, NT$500,000 to NT$1 million for regional hospitals, and NT$1 million to NT$2 million for medical centers[^31]. This is the largest structural adjustment to nursing working conditions in 30 years. But scholars generally assess that "improving working hours does not automatically bring people back." Australia and Canada are still offering what they offer. If Taiwan's healthcare wage structure does not change at the same time, the three-shift nurse-to-patient ratio can only slow the acceleration of loss; it may not reverse it.
@@ -164,7 +164,7 @@ Yeh Ching-chuan said in 2020: "The current system can last at most another five 
 
 William Hsiao's reason for choosing the Canadian model in 1989 was that "the quality of services was very high"[^10]. Thirty years later, Taiwan's world-highest coverage rate rests on the lowest payment point values and a 12.61% nursing turnover rate. Institutional success is not the opposite of institutional defects. Success itself has produced the political path dependence of those defects. Getting out will not depend on the next "three days with a fire at our backsides." It will depend on someone, for the first time in 30 years, being willing to touch the taboo zones of "total household income," "hospital allocation," and "data opt-out rights" one by one.
 
-![National Taiwan University Hospital main building](/article-images/lifestyle/ntuh-2014.jpg)
+![National Taiwan University Hospital main building](/article-images/lifestyle/ntuh-2014.webp)
 _The main building of National Taiwan University Hospital. Founded in 1895, it is the largest medical center in Taiwan's NHI system. Thirty years ago, when NHI launched on March 1, patients here also used national ID cards in place of NHI cards that had not yet been printed._
 
 ---

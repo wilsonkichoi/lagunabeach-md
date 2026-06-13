@@ -100,7 +100,7 @@ El Centro de Investigación de Cambio Ambiental (RCEC) de Academia Sinica, en co
 
 El estudio también encontró que el 6,5% de la precipitación extrema del tifón Morakot fue amplificado por el cambio climático antropogénico.[^1] Sin calentamiento global, quizá el monte Xiandu no se habría derrumbado aquella madrugada. Es una cifra concreta que conecta directamente, en la literatura académica, un tifón con el calentamiento del planeta.
 
-![El 9 de agosto de 2009, una aldea de Minxiong, Chiayi, inundada tras las lluvias torrenciales de Morakot; el agua lodosa cubre la carretera, entra al primer piso de las viviendas y, al fondo, personas caminan entre el agua](/article-images/nature/morakot-minxiong-flood-2009.jpg)
+![El 9 de agosto de 2009, una aldea de Minxiong, Chiayi, inundada tras las lluvias torrenciales de Morakot; el agua lodosa cubre la carretera, entra al primer piso de las viviendas y, al fondo, personas caminan entre el agua](/article-images/nature/morakot-minxiong-flood-2009.webp)
 _9 de agosto de 2009, Minxiong, Chiayi. Morakot avanzó lentamente y las lluvias torrenciales de varios días inundaron esta aldea. Ese 6,5% de lluvia amplificada por el cambio climático terminó convertido en esta agua. Photo: zilupe, [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2009-08-09_at_a_village_under_the_Typhoon_Morakot,_in_Minxiong,_Chiayi.jpg)._
 
 “Menos, pero más fuertes” invierte la lógica previa de prevención de desastres. Antes, la premisa para asignar recursos era que “cada año vendrán varios”. Ahora, la premisa pasa a ser que “quizá todo el verano esté tranquilo, pero si llega uno, habrá que resistir la destrucción de un año entero”. Un solo tifón equivale a un evento extremo anual.

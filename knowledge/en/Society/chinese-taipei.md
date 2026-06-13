@@ -39,7 +39,7 @@ On **25 August 1960**, the Rome Olympics opened. As each national delegation
 
 That year the team could not call itself the “Republic of China” nor “Taiwan.” The IOC’s designation was **FORMOSA** (the historic name _Formosa_). Among the athletes was a young man named **Yang Chuan‑kuang**; a few days later he won silver in the decathlon, earning Taiwan’s first Olympic medal—displayed under the team name “Formosa.”
 
-![Yang Chuan‑kuang, 1960 Rome Olympics](/article-images/society/yang-chuan-kwang-1960.jpg)
+![Yang Chuan‑kuang, 1960 Rome Olympics](/article-images/society/yang-chuan-kwang-1960.webp)
 *Yang Chuan‑kuang, silver‑medalist in the decathlon at the 1960 Rome Olympics, Taiwan’s first Olympic medal. The team name he competed under was “FORMOSA,” *Formosa* (UCLA Southern Campus 1960, Public Domain).*
 
 This was the **only** opening‑ceremony protest by a national delegation in Olympic history[^2]. Over sixty years later the white banner has long been stored in the archives, but the issue it protested has never been resolved: a team can compete, yet it cannot use the name it wishes.
@@ -84,7 +84,7 @@ Legally, Taiwan won. Yet the victory did not restore its Olympic status. The Nag
 
 Two months later, on **23 March 1981**, the Chinese Olympic Committee secretary‑general **Shen Jia‑ming** and Samaranch signed the **Lausanne Agreement**. The agreement codified the name that persists to this day: **CHINESE TAIPEI OLYMPIC COMMITTEE**, country code **TPE**[^13]. A subtle political calculation is evident in the ordering of country codes: TPE was placed in the “T” group, deliberately avoiding visual adjacency with the “C” codes for “China,” thereby sidestepping any direct “two‑China” juxtaposition.
 
-![Juan Antonio Samaranch](/article-images/society/samaranch.jpg)
+![Juan Antonio Samaranch](/article-images/society/samaranch.webp)
 _Juan Antonio Samaranch, IOC president in 1981. On 23 March 1981 he and Chinese Olympic Committee secretary‑general Shen Jia‑ming signed the Lausanne Agreement, cementing the “Chinese Taipei” name for the next forty years. (Photo: Leo Medvedev, CC BY‑SA 4.0)_
 
 > **📝 Curator’s note**

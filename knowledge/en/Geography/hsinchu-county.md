@@ -48,7 +48,7 @@ Five kilometers away, in Zhubei’s HSR district, 4:30 p.m. is exactly shift-cha
 
 ## In the Winter of 1788, More Than 200 Sets of Bones Were Buried Together on That Hillside
 
-![Front of Baozhong Yimin Temple, May 2018, Fangliao Village, Xinpu Township. The central temple of Hakka yimin belief, founded and broken ground in the winter of Qianlong 53 (1788), with the main hall completed in Qianlong 55 (1790) and the whole temple completed in Qianlong 56 (1791).](/article-images/geography/hsinchu-county-hero.jpg)
+![Front of Baozhong Yimin Temple, May 2018, Fangliao Village, Xinpu Township. The central temple of Hakka yimin belief, founded and broken ground in the winter of Qianlong 53 (1788), with the main hall completed in Qianlong 55 (1790) and the whole temple completed in Qianlong 56 (1791).](/article-images/geography/hsinchu-county-hero.webp)
 _Front of Baozhong Yimin Temple, 2018-05-27. Photo: Outlookxp. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E8%A4%92%E5%BF%A0%E4%BA%AD%E7%BE%A9%E6%B0%91%E5%BB%9F%E6%AD%A3%E9%9D%A2%E7%85%A7.jpg)._
 
 To understand why Yimin Temple has 235 years behind it, the camera has to pull back to the autumn of Qianlong 51, 1786.

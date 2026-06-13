@@ -47,7 +47,7 @@ translatedAt: '2026-05-28T05:08:34+08:00'
 
 ## "남봉포(南蜂炮), 북천등(北天燈)" 브랜드 구축에서 국제화 정점까지
 
-![십분 오래된 거리 낮 장면, 평계선 철도가 거리 중관을 관통하고 양쪽에 천등 노점과 상점이 늘어서 있다](/article-images/culture/shifen-old-street-2017.jpg)
+![십분 오래된 거리 낮 장면, 평계선 철도가 거리 중관을 관통하고 양쪽에 천등 노점과 상점이 늘어서 있다](/article-images/culture/shifen-old-street-2017.webp)
 _십분 오래된 거리 낮 장면. 평계선 철도가 거리 중앙을 관통하고 양쪽에 천등 노점과 상점이 늘어서 있다. 철도 연선의 관광 경제는 "남봉포, 북천등" 브랜드 구축 이후 30년에 걸쳐 축적된 지역 산업의 기반이다. Photo: Xiquinho Silva. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Shifen_Old_Street_48013-Shifen_(30606697197).jpg).\_
 
 1988년부터 2010년대까지, 평계 천등 축제는 전형적인 "지역 풍습 → 시현 관광 브랜드 → 국제 언론 추천" 경로를 걸었다.
@@ -80,7 +80,7 @@ _십분 오래된 거리 낮 장면. 평계선 철도가 거리 중앙을 관통
 
 ## 같은 호(胡) 씨 성을 가진 두 사람, 십분 초등학교와 관련된 두 사람, 기륜하 물을 마시는 두 사람
 
-![평계 천등 축제 상승 클로즈업, 관광객이 직접 축복의 글씨를 가득 쓴 천등에 불을 붙여 날린다](/article-images/culture/pingxi-lantern-release-2023.jpg)
+![평계 천등 축제 상승 클로즈업, 관광객이 직접 축복의 글씨를 가득 쓴 천등에 불을 붙여 날린다](/article-images/culture/pingxi-lantern-release-2023.webp)
 _2023년 평계 천등 축제 상승 클로즈업. 관광객이 직접 축복의 글씨를 가득 쓴 천등에 불을 붙여 날린다. 하늘로 올라가는 천등 하나하나의 뒤에는 십분 오래된 거리 어느 노점의 붓글씨 한 자, 종이 한 장, 환경 책질이라는 물음이 있다. Photo: 정혜영 Vickie399. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E5%B9%B3%E6%BA%AA%E5%A4%A9%E7%87%88%E7%AF%80_%E9%84%AD%E6%83%A0%E9%9C%99.jpg).\_
 
 "326킬로그램"과 "웨이밍의 집"에서 멈춘다면, 이야기는 전형적인 "환경파 vs 문화파"의 틀로 빠져들 것이다.

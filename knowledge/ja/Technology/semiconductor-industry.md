@@ -31,7 +31,7 @@ translatedAt: '2026-06-02T00:40:00+08:00'
 
 # 半導体産業：RCA 技術移転から窒化ガリウムと量子封裝への50年の材料革命
 
-![同出力30WのUSB-C急速充電器2つを並べて比較したもの。左側のシリコン製品は体積が明らかに大きく、右側の窒化ガリウム製品はほぼ半分に縮小されており、材料科学がいかにエネルギー密度を掌に押し込んだかを反映している](/article-images/technology/silicon-vs-gan-charger-2025.jpg)
+![同出力30WのUSB-C急速充電器2つを並べて比較したもの。左側のシリコン製品は体積が明らかに大きく、右側の窒化ガリウム製品はほぼ半分に縮小されており、材料科学がいかにエネルギー密度を掌に押し込んだかを反映している](/article-images/technology/silicon-vs-gan-charger-2025.webp)
 _Si vs GaN 同ワット数USB-C充電器の体積比較。Photo: 4300streetcar, 2025-12-25. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Silicon_vs_GaN_30W_USB-C_chargers.jpg)._
 
 > **30秒概要：** 台積電（TSMC）は2025年第4四半期に高雄Fab 22で2ナノメートルの量産を開始し、世界より2～3世代リードしています[^2]。しかし、トランジスタがどんどん小さくなることだけが物語ではありません。あなたのバッグの中の急速充電器には窒化ガリウム（GaN）が詰まっており、環球晶（GlobalWafers）は中壢で8インチ炭化ケイ素（SiC）ウェハーを製造し、NVIDIAのBlackwell GPUはすべて台積電のCoWoS封裝を経てデータセンターに送り込まれています。1973年に工研院（ITRI）が450万米ドルをかけてRCAから技術を導入してから[^5]、2026年に中央研究院（Academia Sinica）が20ビット超伝導量子チップをオンライン接続するまで[^6]、台湾が歩んできたのは、バンドギャップ物理から原子層堆積（ALD）、トポロジカル量子ビットに至る材料科学の長い道のりです。護国神山は50年のファウンドリ経験に支えられていますが、量子時代のファウンドリポジションは、まだ台湾が獲得していません。
@@ -44,7 +44,7 @@ _Si vs GaN 同ワット数USB-C充電器の体積比較。Photo: 4300streetcar, 
 
 ## 1987年のファウンドリという賭け
 
-![新竹科学園区内の台積電Fab 5の外観。多層の工業建築が光復路と接続しており、1990年代の台積電拡張期を代表する工場の一つである](/article-images/technology/tsmc-fab5-hsinchu-2010.jpg)
+![新竹科学園区内の台積電Fab 5の外観。多層の工業建築が光復路と接続しており、1990年代の台積電拡張期を代表する工場の一つである](/article-images/technology/tsmc-fab5-hsinchu-2010.webp)
 _新竹科学園區 台積電Fab 5、2010年。Photo: Peellden. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:TSMC_Fab5.JPG)。_
 
 物語はもっと遡ります。1973年、工研院は450万米ドルを費やして米国RCA社の集積回路技術を購入し、19人のエンジニアを米国に派遣して研修を受けさせました[^5]。当時、この「授業料」が台湾半導体王国の最初の礎石になるとは誰も思っていませんでした。1980年、工研院から技術移転を受けて聯華電子（UMC）が設立され、台湾初の半導体会社が誕生しました。しかし李国鼎は満足しませんでした。聯電は規模が小さく、技術が国際水準に追いつかない。台湾にはより大きなブレークスルーが必要でした。
@@ -147,7 +147,7 @@ _NVIDIA公式チャンネル：黄仁勳 2024年6月2日 台大体育館Computex
 
 ## ALD：原子を一つずつ積み重ねる
 
-![博物館のショーケースに並べて展示された異なるサイズのシリコンウェハーサンプル。最大のものは直径約12インチで、鏡面のような光沢が半導体製造の核心原料を示している](/article-images/technology/silicon-wafers-museum-2017.jpg)
+![博物館のショーケースに並べて展示された異なるサイズのシリコンウェハーサンプル。最大のものは直径約12インチで、鏡面のような光沢が半導体製造の核心原料を示している](/article-images/technology/silicon-wafers-museum-2017.webp)
 _シリコンウェハー展示、2017年。Photo: ArticCynda. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Silicon_wafers.jpg)。_
 
 3ナノメートル、2ナノメートル、1.6ナノメートル。これらの数字の裏に、控えきだが重要な製造技術があります。原子層堆積（Atomic Layer Deposition、ALD）です。

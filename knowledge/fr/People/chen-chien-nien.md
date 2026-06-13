@@ -31,7 +31,7 @@ translatedAt: '2026-05-24T05:06:33+08:00'
 
 > **Aperçu en 30 secondes :** Chen Chien-nien (nom en langue puyuma : Pau-dull), né le 1er août 1967 dans la communauté Nanwang, canton de Beinan, comté de Taitung.[^1] Il est le petit-fils maternel de Lu Sen-bao (Baliwakes, 1910-1988), maître des chants puyuma et auteur de 〈美麗的稻穗〉.[^1][^2] Après avoir obtenu son diplôme de la 114e promotion de la classe des agents de police en 1986, il est affecté à Guanshan, Taitung, et sert dans la police pendant 30 ans et 10 mois.[^3] En 1999, à 33 ans, il publie son premier album d’auteur-compositeur, 《海洋》 ; en 2000, lors de la 11e édition des Golden Melody Awards, il devance Jacky Cheung, Harlem Yu, David Tao et Wang Leehom pour remporter le prix du meilleur chanteur mandarin ; la même année, 〈神話〉, écrit pour Samingad, lui vaut aussi le prix de la meilleure composition.[^4][^5] Au moment où il reçoit le prix, son métier principal est encore policier.[^3] En septembre de la même année, il choisit de demander sa mutation à Lanyu, où il reste jusqu’à sa retraite en 2017.[^1][^6]
 
-![Chen Chien-nien chantant en mars 2018 au FENG live house de Hsinchu : silhouette de profil, casquette, guitare acoustique dans les bras, tête baissée devant le micro.](/article-images/people/chen-chien-nien-hsinchu-feng-2018.jpg)
+![Chen Chien-nien chantant en mars 2018 au FENG live house de Hsinchu : silhouette de profil, casquette, guitare acoustique dans les bras, tête baissée devant le micro.](/article-images/people/chen-chien-nien-hsinchu-feng-2018.webp)
 _25 mars 2018, Chen Chien-nien en concert au FENG live house de Hsinchu. Photo : Taiwania Justo. [Licence via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pur-dull_in_Hsinchu_2.jpg)._
 
 ## Pau-dull, Puyuma, et la chanson laissée par le grand-père maternel
@@ -116,7 +116,7 @@ Autrement dit, entre le prix du chanteur mandarin en 2000 et le prix de l’albu
 
 _MV officiel de Taiwan Colors Music : 〈美麗心蘭嶼〉, inclus dans le troisième album d’auteur-compositeur paru en 2021, 《pongso no Tao》 (« l’île des hommes » en langue tao). Dix-sept ans de Lanyu lentement inscrits dans des enregistrements de première main, qui remporteront ensuite le prix du meilleur album en langue autochtone aux Golden Melody Awards 2022._
 
-![Portrait frontal rapproché de Chen Chien-nien devant le micro lors d’un concert à Hsinchu, regard concentré sous sa casquette.](/article-images/people/chen-chien-nien-hsinchu-cropped-2018.jpg)
+![Portrait frontal rapproché de Chen Chien-nien devant le micro lors d’un concert à Hsinchu, regard concentré sous sa casquette.](/article-images/people/chen-chien-nien-hsinchu-cropped-2018.webp)
 _25 mars 2018, gros plan de Chen Chien-nien chantant à Hsinchu. Photo : Taiwania Justo. [Licence via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pur-dull_in_Hsinchu_(cropped).jpg).\_
 
 ## 〈我們是同胞〉 : des paroles écrites en 1999, devenues en 2024 une chanson des lieux de secours
@@ -158,7 +158,7 @@ La particularité de ce concert ne tient pas à son ampleur : 2 500 personnes, p
 > **📝 Note du curateur**
 > Dans un récit rock habitué aux positions anti-institutionnelles, la phrase « le travail de la police consiste à servir loyalement l’État, à être fidèle au dirigeant » devrait normalement être déconstruite à rebours. Mais lorsque Chen Chien-nien la prononce, il est entièrement sérieux. C’est précisément pourquoi il ne peut être absorbé par aucun récit unilatéral : il n’est ni un « musicien autochtone rebelle déguisé en policier », ni un « policier soumis au système qui fait de la musique en secret ». Il est quelqu’un qui croit simultanément à plusieurs choses : la loyauté envers la terre, la loyauté envers l’État, la loyauté envers les chansons laissées par son grand-père maternel, réunies dans un même corps. Une telle coexistence est très ordinaire dans la fonction publique taïwanaise. Si ordinaire que lorsque quelqu’un comme lui écrit quelque chose comme 〈海洋〉, le monde extérieur s’étonne soudain qu’une telle personne puisse écrire des chansons.
 
-![Plan en pied de Chen Chien-nien chantant au Hsinchu Original Vision Hall, guitare acoustique contre la poitrine, lumières chaudes de live house en arrière-plan.](/article-images/people/chen-chien-nien-hsinchu-vision-2018.jpg)
+![Plan en pied de Chen Chien-nien chantant au Hsinchu Original Vision Hall, guitare acoustique contre la poitrine, lumières chaudes de live house en arrière-plan.](/article-images/people/chen-chien-nien-hsinchu-vision-2018.webp)
 _25 mars 2018, Chen Chien-nien lors d’un petit concert en live house à Hsinchu. Photo : Taiwania Justo. [Licence via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pur-dull_in_Hsinchu.jpg)._
 
 ## Après la retraite : la seconde moitié de la vie

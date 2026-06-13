@@ -77,7 +77,7 @@ La explicación corriente dice que “Taiwán se desarrolló más tarde, por eso
 
 ## La arcilla de Yingge, los árboles de Sanyi, la lluvia de Meinong
 
-![Exterior del Museo de Escultura en Madera de Sanyi, el único museo público de Taiwán dedicado a la talla en madera; gestionado desde abril de 2007 por encargo del Gobierno del Condado de Miaoli, es el espacio central de exhibición del asentamiento artesanal de talla en madera de Sanyi](/article-images/culture/sanyi-wood-sculpture-museum-2010.jpg)
+![Exterior del Museo de Escultura en Madera de Sanyi, el único museo público de Taiwán dedicado a la talla en madera; gestionado desde abril de 2007 por encargo del Gobierno del Condado de Miaoli, es el espacio central de exhibición del asentamiento artesanal de talla en madera de Sanyi](/article-images/culture/sanyi-wood-sculpture-museum-2010.webp)
 _Exterior del Museo de Escultura en Madera de Sanyi, en la aldea de Guangsheng, municipio de Sanyi, condado de Miaoli, el único museo público de Taiwán dedicado a la talla en madera. Photo: Anrew0517, 2010-05-01, CC BY-SA 3.0, [Commons File](https://commons.wikimedia.org/wiki/File:Sanyi_Wood_Sculpture_Museum_20100501.jpg)._
 
 Los asentamientos artesanales no surgen de la nada. Cada uno es el doble resultado de “materiales locales × técnicas traídas por migrantes”. La geografía fija las posibilidades de producción dentro de un radio determinado; los migrantes deciden qué industria brotará dentro de ese radio.
@@ -102,7 +102,7 @@ Esa frase fue escrita en 1981. Leída 45 años después, suena como si acabara d
 
 ## Una artesanía que no fue rescatada por el gobierno: el renacimiento del teñido índigo de Sanxia
 
-![Vestimentas teñidas con índigo de la serie “Azul y blanco”, exhibidas en el Museo Histórico de Sanxia; uno de los archivos visuales contemporáneos más representativos del renacimiento del teñido índigo de Sanxia desde 1996](/article-images/culture/sanxia-indigo-display.jpg)
+![Vestimentas teñidas con índigo de la serie “Azul y blanco”, exhibidas en el Museo Histórico de Sanxia; uno de los archivos visuales contemporáneos más representativos del renacimiento del teñido índigo de Sanxia desde 1996](/article-images/culture/sanxia-indigo-display.webp)
 _Vestimentas teñidas con índigo de la serie “Azul y blanco”, exhibidas en el Museo Histórico de Sanxia; muestran las aplicaciones contemporáneas del teñido índigo de Sanxia después de su renacimiento en 1996. Photo: Outlookxp, CC BY-SA 4.0, [Commons File](https://commons.wikimedia.org/wiki/File:%E4%B8%89%E5%B3%BD%E5%8D%80%E6%AD%B7%E5%8F%B2%E6%96%87%E7%89%A9%E9%A4%A8%E5%85%A7%E6%89%80%E5%B1%95%E7%A4%BA%E3%80%8C%E8%97%8D%E8%88%87%E7%99%BD%E7%B3%BB%E5%88%97%E3%80%8D%E8%97%8D%E6%9F%93%E6%9C%8D%E9%A3%BE.jpg)._
 
 Sanxia, antiguamente llamada Sanjiaoyong, fue durante el reinado de Guangxu de la dinastía Qing el centro más importante de teñido textil del norte de Taiwán. Las aguas claras de los arroyos y los valles húmedos eran adecuados para el crecimiento de la planta de índigo dajing, o índigo asiático, y las tintorerías llenaban las calles. Las fachadas de ladrillo rojo que hoy se conservan en la calle antigua de Sanxia siguen siendo testimonio histórico de la prosperidad generada entonces por el índigo.[^17]

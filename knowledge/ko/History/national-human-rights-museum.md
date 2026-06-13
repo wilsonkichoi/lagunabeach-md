@@ -53,7 +53,7 @@ translatedAt: '2026-05-28T05:08:34+08:00'
 
 5년 뒤인 2023년 9월 3일, 차이쿤린은 향년 93세로 세상을 떠났다. 차이잉원 총통은 표창장을 추서했고, 문화부 정무차관이 대표로 이를 전달했다[^4]. 그날 죽을 때까지 그는 답을 알지 못했다.
 
-![뤼다오 인권기념비(눈물의 비석), 1999년 12월 10일 국제 인권의 날 리덩후이 총통이 직접 제막했고, 보양이 28자 비문을 썼다](/article-images/history/nhrm-greenisland-monument-2022.jpg)
+![뤼다오 인권기념비(눈물의 비석), 1999년 12월 10일 국제 인권의 날 리덩후이 총통이 직접 제막했고, 보양이 28자 비문을 썼다](/article-images/history/nhrm-greenisland-monument-2022.webp)
 _2022년 촬영. Photo: S8321414. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Taiwan_GreenIsland_Human_Rights_Memorial_Monument_2022.jpg)._
 
 뤼다오 현판식이 열린 바로 그날, 연단에서 1킬로미터도 떨어지지 않은 곳에는 1999년 12월 10일 국제 인권의 날에 완공된 “인권기념비”가 서 있었다. 민간에서는 흔히 “눈물의 비석”이라고 부른다[^5]. 비석 몸체는 나선형 구조이며, 비가 오면 빗물이 양쪽 집수로를 따라 중앙으로 모여 눈물처럼 흐른다. 보양이 쓴 비문은 단 28자였다.
@@ -72,7 +72,7 @@ _2022년 촬영. Photo: S8321414. [CC BY-SA 4.0 via Wikimedia Commons](https://c
 
 ## 신뎬의 그 지하철 노선 옆 구치소
 
-![백색테러 징메이 기념원구, 옛 경비총사령부 군법처 구치소, 1980년 메이리다오 대재판 제1법정이 있던 곳](/article-images/history/nhrm-jingmei-park.jpg)
+![백색테러 징메이 기념원구, 옛 경비총사령부 군법처 구치소, 1980년 메이리다오 대재판 제1법정이 있던 곳](/article-images/history/nhrm-jingmei-park.webp)
 _징메이 인권문화원구. Photo: 張永泰. [Public Domain (Voice of America) via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E6%99%AF%E7%BE%8E%E4%BA%BA%E6%AC%8A%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80.jpg)._
 
 신베이시 신뎬구 푸싱로 131호. 스쓰장 MRT역(순환선)에서 걸어서 10분[^8].

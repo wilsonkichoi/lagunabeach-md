@@ -46,7 +46,7 @@ Resultados de la Comisión Electoral Central para el referendo de 2025 sobre la 
 
 Ganó el debate y perdió ante el sistema. Esta paradoja del verano de 2025 es la entrada para entender toda la discusión nuclear en Taiwán: en la superficie pregunta si “la energía nuclear es buena o mala”, pero debajo se discute otra cosa.
 
-![En abril de 2013, organizaciones civiles antinucleares rodearon el Yuan Legislativo. Es la imagen callejera más habitual en cuatro décadas de debate nuclear en Taiwán.](/article-images/society/anti-nuclear-protest-legislative-yuan-voa-2013.jpg)
+![En abril de 2013, organizaciones civiles antinucleares rodearon el Yuan Legislativo. Es la imagen callejera más habitual en cuatro décadas de debate nuclear en Taiwán.](/article-images/society/anti-nuclear-protest-legislative-yuan-voa-2013.webp)
 
 ## La bandera amarilla de “Soy humano, soy antinuclear”
 
@@ -182,7 +182,7 @@ Todo el plan de disposición final de residuos de alta actividad se divide en ci
 
 Los residuos nucleares necesitan un terreno estable durante cien mil años; Taiwán está parado sobre fallas que no dejan de moverse. Esa es la hendidura más profunda de este debate: obliga a una isla con condiciones geológicas poco ideales a responder si quiere y si puede hacerse responsable de una energía que deja una herencia de diez milenios. Esa pregunta no produce ganadores; lo que queda es si se está dispuesto a cargar con ella.
 
-![La central nuclear Nº 4 (Longmen), construida pero sin haber generado jamás un kilovatio-hora comercial, permanece sellada desde 2014.](/article-images/society/longmen-nuclear-plant-2023.jpg)
+![La central nuclear Nº 4 (Longmen), construida pero sin haber generado jamás un kilovatio-hora comercial, permanece sellada desde 2014.](/article-images/society/longmen-nuclear-plant-2023.webp)
 
 ## La “fábrica de conservas” de Isla de las Orquídeas
 
@@ -200,7 +200,7 @@ En noviembre de ese año, el gobierno anunció un plan de compensación retroact
 
 > **✦** La frase de Isla de las Orquídeas, “no aceptaremos ni un centavo”, es una de las voces que más debería escucharse en todo el debate nuclear, y una de las más omitidas. Nos recuerda que el costo de la electricidad nuclear nunca aparece solo en la factura. Mientras ambos lados del debate calculan “cuánto cuesta un kWh” o “cuántas toneladas de carbono se reducen”, hay un costo que un grupo sin asiento en la mesa de decisiones pagó silenciosamente durante cuarenta años con su tierra y su dignidad.
 
-![Aldea tradicional del pueblo Tao en Isla de las Orquídeas. Desde 1982 hay en esta isla un depósito de residuos nucleares de baja actividad, y la promesa de retirarlos sigue incumplida. La imagen muestra una casa subterránea Tao, no el depósito.](/article-images/society/lanyu-tao-underground-house.jpg)
+![Aldea tradicional del pueblo Tao en Isla de las Orquídeas. Desde 1982 hay en esta isla un depósito de residuos nucleares de baja actividad, y la promesa de retirarlos sigue incumplida. La imagen muestra una casa subterránea Tao, no el depósito.](/article-images/society/lanyu-tao-underground-house.webp)
 
 ## Aire para diez días, uranio para dieciocho meses
 

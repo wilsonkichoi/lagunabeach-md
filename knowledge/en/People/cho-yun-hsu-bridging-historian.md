@@ -85,12 +85,12 @@ He spent 28 years in Pittsburgh (1970-1998), moving from visiting professor (197
 
 During the Pittsburgh period, he carried out two structural tasks. First, he continued deepening the methodology of bringing the social sciences into Chinese history. Second, he applied this method at a larger scale: not looking only at one dynasty, and not looking only at China itself, but comparing China within the context of world civilizational history[^26].
 
-![The exterior of Academia Sinica's Nangang campus buildings, with modernist gray-white facades and plaza space](/article-images/people/hsu-cho-yun-academia-sinica-building.jpg)
+![The exterior of Academia Sinica's Nangang campus buildings, with modernist gray-white facades and plaza space](/article-images/people/hsu-cho-yun-academia-sinica-building.webp)
 _Academia Sinica's Nangang campus: the long-term home of the Institute of History and Philology, where Hsu Cho-yun began serving in 1956, and the academic base from which he was elected to the 13th class of academicians in 1980. Photo: KaurJmeb, 2005-12-20. [CC BY-SA 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Academia_Sinica.JPG)._
 
 In 1980, at 50, he was elected to Academia Sinica's 13th class of academicians in the Humanities and Social Sciences Division[^27].
 
-![Academia Sinica's official late-life portrait of Hsu Cho-yun, light-blue background, wearing glasses, looking gently straight at the camera](/article-images/people/hsu-cho-yun-academia-sinica-portrait.jpg)
+![Academia Sinica's official late-life portrait of Hsu Cho-yun, light-blue background, wearing glasses, looking gently straight at the camera](/article-images/people/hsu-cho-yun-academia-sinica-portrait.webp)
 _Academia Sinica's official late-life portrait of Hsu Cho-yun. Photo: Academia Sinica（中央研究院）, after 1980. [Attribution license via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cho-Yun_Hsu_%E8%A8%B1%E5%80%AC%E9%9B%B2.jpg).\_
 
 📝 **The phrase "big history" was later most widely associated in Chinese with Ray Huang, but the big history Hsu Cho-yun practiced was another kind**. Huang focused on why China could not break out of traditional modes of governance, as in _1587, a Year of No Significance_ and _China: A Macro History_. Hsu focused on how Chinese civilization itself was shaped through contact with other civilizations, including the steppe, India, Islam, and the West, while also shaping others. His core conviction was a rejection of "Sinocentrism": to understand China, one must place China back in the context of world history, rather than treating it as a self-sufficient, isolated, closed system evolving along its own internal logic[^28].

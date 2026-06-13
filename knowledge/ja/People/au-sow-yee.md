@@ -43,7 +43,7 @@ translatedAt: '2026-05-17T05:06:52+08:00'
 
 この一文が説明しているのは、一つの図書館だけではありません。区秀詒という人物そのものでもあります。
 
-![区秀詒《メンケランの太陽なき一日（第一章）》（2013）作品 still。画面にはマレー半島の日常風景をめぐる映像測量プロジェクトが映し出されています](/article-images/people/au-sow-yee-mengkerang-still-2013.jpg)
+![区秀詒《メンケランの太陽なき一日（第一章）》（2013）作品 still。画面にはマレー半島の日常風景をめぐる映像測量プロジェクトが映し出されています](/article-images/people/au-sow-yee-mengkerang-still-2013.webp)
 _区秀詒《メンケランの太陽なき一日（第一章）》（2013）作品 still。Fair use editorial commentary on Au Sow Yee's work. Source: [artist's official portfolio](https://ausowyee.cargo.site/)._
 
 ## なぜ一人のマレーシア華人が台湾でこの仕事をするのか
@@ -97,7 +97,7 @@ Sharon Chin はさらに、《百代写真館》の優れている点は、**「
 
 これは区秀詒の最も重要な方法論の一つです。**「誰かの代わりに声を上げる」キュレーション姿勢への反対**です。
 
-![区秀詒《百代写真館》（Pak Tai Foto, 2015）作品 still。画面にはクアラルンプールのペタリン・ストリートにある取り壊し予定の古い写真館内部が映し出されています](/article-images/people/au-sow-yee-pak-tai-foto-still-2015.jpg)
+![区秀詒《百代写真館》（Pak Tai Foto, 2015）作品 still。画面にはクアラルンプールのペタリン・ストリートにある取り壊し予定の古い写真館内部が映し出されています](/article-images/people/au-sow-yee-pak-tai-foto-still-2015.webp)
 _区秀詒《百代写真館》（2015）作品 still。ペタリン・ストリートの老舗は MRT 工事のためまもなく取り壊され、移工の声が空っぽの店内に響きます。Fair use editorial commentary on Au Sow Yee's work. Source: [artist's official portfolio](https://ausowyee.cargo.site/)._
 
 ## 「不在」こそが制作の位置である
