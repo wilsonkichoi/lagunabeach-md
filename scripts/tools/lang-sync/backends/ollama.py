@@ -19,6 +19,7 @@ PRC content policy infection of multi-lang projection.
 from __future__ import annotations
 
 import json
+import os
 import urllib.error
 import urllib.request
 
@@ -48,9 +49,15 @@ class OllamaBackend(TranslationBackend):
     DEFAULT_TIMEOUT = 900  # local model + large article can be slow
     API_URL = "http://localhost:11434/api/chat"
 
-    def __init__(self, model: str = None, host: str = "http://localhost:11434", **config):
+    def __init__(self, model: str = None, host: str = None, **config):
         super().__init__(**config)
-        self.host = host
+        # host + model are env-overridable so the same backend targets a REMOTE
+        # sovereignty-safe GPU node (e.g. the RTX 5090 over an SSH tunnel) without
+        # a code change: `OLLAMA_HOST=http://localhost:11500 OLLAMA_MODEL=gemma4:26b`.
+        # Wire a node via scripts/tools/lang-sync/remote-ollama.sh connect <node>.
+        # See docs/pipelines/REMOTE-GPU-PIPELINE.md.
+        self.host = host or os.environ.get("OLLAMA_HOST", "http://localhost:11434")
+        model = model or os.environ.get("OLLAMA_MODEL")
         if model:
             # update CAPABILITIES with custom model
             self.CAPABILITIES = BackendCapabilities(

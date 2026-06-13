@@ -1,0 +1,35 @@
+# compute-nodes.example.yml — remote sovereignty-safe GPU compute nodes
+#
+# Taiwan.md routes batch LLM work (article babel / diary translation / future
+# embedding) to remote private GPU boxes reachable over Tailscale, running
+# Ollama. This is "雲地混合": cloud Claude is the 0→1 brain, the GPU box is the
+# high-bandwidth muscle (zero marginal cost, off-cloud = no PRC content policy).
+#
+# Copy to `compute-nodes.local.yml` and fill in your nodes. The .local.yml is
+# gitignored (it holds machine-specific IPs / users). This .example.yml is the
+# committed template.
+#
+# Methodology + SOP: docs/pipelines/REMOTE-GPU-PIPELINE.md
+# Driver:           scripts/tools/lang-sync/remote-ollama.sh
+#
+# Sovereignty rule (per docs/pipelines/BENCH-PIPELINE.md + 2026-06-11 5090 bench):
+#   model choice is a SOVEREIGNTY decision, not a speed decision. The fastest
+#   models (qwen / nemotron) answer Taiwan questions with Beijing's framing
+#   (Tier 1-2) and can leak PRC reframing into translations. Use only Gemma 4
+#   family or TAIDE for Taiwan content. NEVER qwen / nemotron / deepseek.
+
+nodes:
+  # ---- example node (replace with your own) ----
+  example-box:
+    description: "RTX 5090-class laptop, 24GB VRAM — gemma4:26b sovereignty-safe"
+    ssh_host: 100.x.x.x # Tailscale IP (preferred — stable across networks) or hostname
+    ssh_user: youruser
+    ollama_port: 11434 # Ollama port on the box's own localhost
+    tunnel_port: 11500 # local port the SSH tunnel binds (avoid the Mac's own 11434)
+    serve_task: OllamaServeBoot # Windows scheduled task that runs `ollama serve` headless
+    platform: windows # windows | linux | macos — affects serve-task management
+    num_parallel: 3 # OLLAMA_NUM_PARALLEL — VRAM-bound (3 = safe on 24GB for gemma4:26b)
+    model: gemma4:26b # default model — fast (93 tok/s) + Tier 3-4 sovereignty-safe
+    safe_models: [gemma4:26b, gemma4:31b, gemma4:12b, taide]
+    unsafe_models: [qwen3, qwen3.6, nemotron-3-nano, deepseek-r1] # PRC Tier 1-2 — NEVER for Taiwan content
+    hygiene: "borrowed machine — teardown tunnel on done; no firewall changes; leave no trace"
