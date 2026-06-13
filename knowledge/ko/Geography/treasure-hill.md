@@ -30,10 +30,10 @@ lastVerified: '2026-05-21'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/寶藏巖.md'
-sourceCommitSha: '20a4ac337'
-sourceContentHash: 'sha256:34c40d44d4f457e7'
-sourceBodyHash: 'sha256:e2bebc0edf0593c1'
-translatedAt: '2026-05-23T05:06:37+08:00'
+sourceCommitSha: 31a05c44
+sourceContentHash: 'sha256:e34125e4b520b62c'
+sourceBodyHash: 'sha256:6490dd989b255fd9'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 # 바오장옌: 30년 동안 철거 대상이었던 무허가 취락이 마침내 타이베이에서 가장 멋진 예술촌이 되다

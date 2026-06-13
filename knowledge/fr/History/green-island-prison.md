@@ -23,11 +23,15 @@ readingTime: 20
 lastVerified: 2026-05-15
 lastHumanReview: false
 featured: false
+image: '/article-images/history/green-island-memorial-park-2016.webp'
+imageCredit: 'Naplee12 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Human_Rights_Memorial_Park_Lyudao.jpg'
 translatedFrom: 'History/綠島監獄.md'
-sourceCommitSha: '6c2f8ea8d'
-sourceContentHash: 'sha256:21d8b7fd3400d252'
-sourceBodyHash: 'sha256:8737f67632ce39fd'
-translatedAt: '2026-05-28T05:08:35+08:00'
+sourceCommitSha: 'bd0134b2'
+sourceContentHash: 'sha256:63c92f0dce6f2dff'
+sourceBodyHash: 'sha256:cad7f5c77e571b29'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 ## Vue d'ensemble en trente secondes : Green Island, un îlot stratifié par la mémoire
@@ -50,9 +54,15 @@ Ce fut le premier camp de concentration pour prisonniers politiques établi par 
 
 Le ruisseau Liugou fut l'adresse domiciliaire commune des prisonniers politiques du Centre de rééducation : « Liugou, numéro 15 »[^22]. Cette seule source d'eau douce de l'île ne servit pas seulement au travail et au lavage du linge des détenus, mais aussi à la transmission de messages secrets, voire à de brèves rencontres avec les habitants locaux, portant en elle d'innombrables histoires méconnues. Le cimetière situé près de la grotte des Hirondelles, appelé en privé la « Treizième compagnie »[^23] par les victimes politiques, abrite les tombes de nombreux morts de maladie, de suicide ou de maltérance, dont les familles n'avaient pas les moyens de récupérer les corps. Leurs âmes sont considérées comme éternellement liées à celles de leurs compagnons d'infortune.
 
+![Salle d'exposition du Troisième bataillon du Centre de rééducation pour nouveaux détenus, avec sur le mur une série de photographies en noir et blanc et de documents de prisonniers politiques](/article-images/history/green-island-xinsheng-exhibition-2016.webp)
+_Salle d'exposition du Troisième bataillon du Centre de rééducation pour nouveaux détenus, au Mémorial de la Terreur blanche de Green Island ; le mur présente les portraits des prisonniers politiques victimes. Photo prise en 2016. Photo : Outlookxp. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E7%B6%A0%E5%B3%B6%E4%BA%BA%E6%AC%8A%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80%E6%96%B0%E7%94%9F%E8%A8%93%E5%B0%8E%E8%99%95%E7%AC%AC%E4%B8%89%E5%A4%A7%E9%9A%8A%E5%B1%95%E7%A4%BA%E5%8D%80.jpg)._
+
 ### La Vallée de l'Oasis : la rigueur derrière les murs et la volonté de résistance
 
 En 1970, l'« Incident de Taiyuan » — une tentative de prise d'armes par des prisonniers politiques de la prison de Taiyuan à Taitung — échoua[^3]. Après cet échec, le gouvernement renforça le contrôle sur les prisonniers politiques et construisit à la hâte à Green Island la prison de rééducation du ministère de la Défense, surnommée « Vallée de l'Oasis »[^4]. Cette prison, connue pour ses hauts murs et son plan en bâtiment octogonal, présentait une structure architecturale en croix radiale conçue pour faciliter la gestion et la surveillance, réduisant au minimum la liberté des détenus[^5]. De nombreux prisonniers politiques importants, tels que Bo Yang, Shi Mingde et Chen Yingzhen, y furent incarcérés[^6]. Les murs de la Vallée de l'Oasis étaient autrefois couverts de slogans patriotiques — « Résister fermement au communisme », « La mer de souffrance est sans rivale » — créant un contraste saisissant avec sa nature carcérale[^12].
+
+![Les hauts murs du Parc culturel des droits humains de Green Island, symbole des années où les prisonniers politiques étaient coupés du monde extérieur](/article-images/history/green-island-prison-walls-2003.webp)
+_Hauts murs du Mémorial de la Terreur blanche de Green Island (ancienne prison de rééducation du ministère de la Défense, « Vallée de l'Oasis »), photographiés en 2003. Photo : lienyuan lee. [CC BY 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E9%AB%98%E7%89%86_Walls_-_panoramio.jpg)._
 
 ### Le village de Chongde : la terre des parrains et le quotidien d'une prison moderne
 
@@ -80,6 +90,14 @@ La prison de Green Island, cet îlot du Pacifique, porte la mémoire la plus lou
 - [La Terreur blanche à Taïwan](/history/台灣白色恐怖) — L'ensemble des affaires politiques sous les 38 ans de loi martiale, Green Island en étant le centre de détention et de transformation idéologique
 - [La période de loi martiale](/history/戒嚴時期) — Le cadre juridique de 1949 à 1987
 - [La justice transitionnelle à Taïwan](/history/台灣轉型正義) — L'entreprise inachevée de révision des jugements et de responsabilisation des auteurs
+
+## Sources des images
+
+Cet article utilise 3 images sous licence CC, toutes mises en cache dans `public/article-images/history/` pour éviter le hotlink vers les serveurs sources :
+
+- [Ancien bâtiment carcéral du Parc des droits humains de Green Island](https://commons.wikimedia.org/wiki/File:Human_Rights_Memorial_Park_Lyudao.jpg) — Photo : Naplee12, 2016, CC BY-SA 4.0
+- [Salle d'exposition du Troisième bataillon du Centre de rééducation](https://commons.wikimedia.org/wiki/File:%E7%B6%A0%E5%B3%B6%E4%BA%BA%E6%AC%8A%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80%E6%96%B0%E7%94%9F%E8%A8%93%E5%B0%8E%E8%99%95%E7%AC%AC%E4%B8%89%E5%A4%A7%E9%9A%8A%E5%B1%95%E7%A4%BA%E5%8D%80.jpg) — Photo : Outlookxp, 2016, CC BY-SA 4.0
+- [Hauts murs du Mémorial de la Terreur blanche de Green Island](https://commons.wikimedia.org/wiki/File:%E9%AB%98%E7%89%86_Walls_-_panoramio.jpg) — Photo : lienyuan lee, 2003, CC BY 3.0
 
 ## Références
 

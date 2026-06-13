@@ -29,10 +29,10 @@ lastVerified: 2026-05-22
 lastHumanReview: false
 featured: true
 translatedFrom: 'Art/江賢二.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:3870280529c79170'
-sourceBodyHash: 'sha256:67baf16d4a608267'
-translatedAt: '2026-05-25T21:06:51Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:872c1259e15043c2'
+sourceBodyHash: 'sha256:ae43b98131d02326'
+translatedAt: '2026-06-14T00:35:00+08:00'
 sporeLinks:
   - id: 91
     platform: 'threads'

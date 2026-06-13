@@ -34,10 +34,10 @@ lastVerified: 2026-05-21
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/北投溫泉街.md'
-sourceCommitSha: '20a4ac337'
-sourceContentHash: 'sha256:1f142c7ded5634b0'
-sourceBodyHash: 'sha256:03a51dfb5a6b4eb8'
-translatedAt: '2026-05-23T05:06:37+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:fb76ac27fc6cd3ba'
+sourceBodyHash: 'sha256:a32189fb31dd0c7d'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 # 北投温泉街：1697年の硫黄採取から2026年の温泉博物館まで、同じ山の泉は四世代の住民を迎えました

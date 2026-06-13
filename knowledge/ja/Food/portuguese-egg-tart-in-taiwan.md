@@ -18,10 +18,14 @@ lastVerified: 2026-06-01
 lastHumanReview: false
 featured: false
 translatedFrom: 'Food/蛋撻.md'
-sourceCommitSha: 'edae9fc94'
-sourceContentHash: 'sha256:4a2eb378f3d3a951'
-sourceBodyHash: 'sha256:2189f37c67ada0ed'
-translatedAt: '2026-06-02T00:39:59+08:00'
+sourceCommitSha: '8a230ddb'
+sourceContentHash: 'sha256:97dd164af6e04522'
+sourceBodyHash: 'sha256:c821b247831a9b89'
+image: '/article-images/food/dan-ta-hero.webp'
+imageCredit: 'ProjectManhattan / Wikimedia Commons'
+imageLicense: 'CC0 1.0 Public Domain'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Egg_tart.jpg'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 > **30 秒概要：**
@@ -42,6 +46,9 @@ translatedAt: '2026-06-02T00:39:59+08:00'
 ポルトガル式エッグタルト（Pastéis de Nata）の起源は、19 世紀のポルトガル・リスボンにさかのぼります。ベレン地区のジェロニモス修道院（Mosteiro dos Jerónimos）では、修道女たちが修道服の糊付けに大量の卵白を用い、残った卵黄を菓子に加工していました [^2]。
 
 この菓子はその後、海を越えてマカオへ渡りました。1989 年、英国人のアンドリュー・ストウ（Andrew Stow）がマカオのコロアン、タルトサ街に「ロード・ストウズ・ベーカリー」を開業しました。彼は伝統的なポルトガル式レシピを改良し、カスタードパウダーを使わず、クリーム、卵、牛乳を用い、さらに糖分を抑えました。これが、今日の台湾人になじみ深い「マカオ式ポルトガルタルト」へと発展しました [^3]。1997 年にアンドリューが妻のマーガレット・ウォン（Margaret Wong）と離婚した後、マーガレットはマカオ半島で同系統のエッグタルト店を独立して運営し、後にそのレシピをケンタッキーフライドチキン（KFC）にライセンス供与しました。これにより、ポルトガル式エッグタルトはアジアのチェーンシステムにおける伝説を切り開くことになりました [^4]。
+
+![マカオの街路にある赤煉瓦の建物。入口に Lord Stow's Bakery の看板が掛かり、店頭を通行人が行き交う](/article-images/food/dan-ta-02-2023.webp)
+_マカオ・タイパ仁慕街の Lord Stow's Bakery の店構え（2023 年 2 月）。英国人のアンドリュー・ストウ（Andrew Stow）が 1989 年にコロアンで創業したこの店が、台湾における 1998 年のポルトガル式エッグタルトブームの源流となりました。Photo: LN9267. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lord_Stow%27s_Bakery_Rua_do_Cunha_shop_01-02-2023.jpg)._
 
 ## フライドチキンに足を引っ張られたエッグタルト専門店
 
@@ -68,6 +75,9 @@ translatedAt: '2026-06-02T00:39:59+08:00'
 - **練り込み生地（クッキー生地）**：これは台湾で最も伝統的な「蛋塔」の作り方です。生地はバター、小麦粉、卵を混ぜて作られ、折り込み工程を経ません。食感はタルト生地とクッキーの中間にあります。フィリングは通常、完全になめらかな鏡面状で、しっかりとした口当たりと濃い乳香を備えています [^12]。
 - **中華式パイ生地**：伝統的な茶餐廳、すなわち香港式喫茶食堂でよく見られます。ポルトガル式エッグタルトの西洋式パイ生地とは異なり、中華式パイ生地では通常、ラードまたは植物油を用い、「油酥で油皮を包む」伝統的な折り返し法を採用します。その層はきわめて軽く崩れやすく、触れるだけで砕けるほどで、濃厚なバター感ではなく淡雅な油の香りを重視します [^13]。
 
+![木のトレイに並ぶ泰昌餅家の三種の菓子：左がパイナップルバンパン、中央がカクテルパン、右が看板のエッグタルト](/article-images/food/dan-ta-01-2019.webp)
+_台湾・新北市板橋の泰昌餅家の看板エッグタルト（右）と香港式の菓子、2019 年撮影。泰昌は香港の老舗で、台湾にも出店しており、台湾の街頭における香港式エッグタルトの文脈を体現しています。Photo: bryan…（Flickr 91049143@N00）. [CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Food_%E7%9A%87%E7%89%8C%E8%9B%8B%E6%92%BB%2C*%E5%86%B0%E7%81%AB%E8%84%86%E7%9A%AE%E8%8F%A0%E8%98%BF%E6%B2%B9%2C*%E6%B3%B0%E6%98%8C%E9%9B%9E%E5%B0%BE%E5%8C%85%2C*%E6%B3%B0%E6%98%8C%E9%A4%85%E5%AE%B6%2C*%E6%9D%BF%E6%A9%8B%2C*%E6%96%B0%E5%8C%97%E5%B8%82%2C*%E5%8F%B0%E7%81%A3%2C*New_Taipei_City%2C_Taiwan*%2847201805022%29.jpg).\_
+
 ### ミルフィーユ・エッグタルト：2024 年の究極技法の復興
 
 2024 年、台湾では再び「ミルフィーユ・エッグタルト」の熱潮が起こりました。このエッグタルトは視覚的に魅力的な「小花」の放射状を呈し、伝統的なポルトガル式エッグタルトとの最大の技術的差異は、**成形と型**にあります。
@@ -81,6 +91,14 @@ translatedAt: '2026-06-02T00:39:59+08:00'
 「エッグタルト効果」は、今日の台湾でもなお繰り返されています。清玉の翡翠レモン、胖老爹フライドチキンから近年の酸菜魚に至るまで、台湾市場には常に「急騰急落」の法則が存在しています [^9]。エッグタルトはこの現象の始祖として、その意味がすでに食べ物そのものを超えています。それは私たちに、集合的な狂騒の背後には、しばしば新鮮さへの極度の渇望と、流行に乗り遅れることへの恐れが潜んでいることを思い出させます。
 
 ---
+
+## 画像出典
+
+本記事では 3 枚のパブリックドメイン / CC ライセンス画像を使用し、すべて `public/article-images/food/` にキャッシュして、元サーバーへのホットリンクを避けています：
+
+- [ポルトガル式エッグタルト](https://commons.wikimedia.org/wiki/File:Egg_tart.jpg) — Photo: ProjectManhattan, CC0 1.0 Public Domain
+- [マカオ Lord Stow's Bakery の店構え](https://commons.wikimedia.org/wiki/File:Lord_Stow%27s_Bakery_Rua_do_Cunha_shop_01-02-2023.jpg) — Photo: LN9267, 2023, CC BY-SA 4.0
+- [台湾・板橋泰昌餅家の香港式エッグタルト](https://commons.wikimedia.org/wiki/File:Food_%E7%9A%87%E7%89%8C%E8%9B%8B%E6%92%BB%2C_%E5%86%B0%E7%81%AB%E8%84%86%E7%9A%AE%E8%8F%A0%E8%98%BF%E6%B2%B9%2C_%E6%B3%B0%E6%98%8C%E9%9B%9E%E5%B0%BE%E5%8C%85%2C_%E6%B3%B0%E6%98%8C%E9%A4%85%E5%AE%B6%2C_%E6%9D%BF%E6%A9%8B%2C_%E6%96%B0%E5%8C%97%E5%B8%82%2C_%E5%8F%B0%E7%81%A3%2C_New_Taipei_City%2C_Taiwan_%2847201805022%29.jpg) — Photo: bryan… (Flickr), 2019, CC BY-SA 2.0
 
 ## 参考資料
 

@@ -10,11 +10,15 @@ readingTime: 6
 lastVerified: 2026-06-01
 lastHumanReview: false
 featured: false
+image: '/article-images/food/dan-ta-hero.webp'
+imageCredit: 'ProjectManhattan / Wikimedia Commons'
+imageLicense: 'CC0 1.0 Public Domain'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Egg_tart.jpg'
 translatedFrom: 'Food/蛋撻.md'
-sourceCommitSha: 'edae9fc94'
-sourceContentHash: 'sha256:4a2eb378f3d3a951'
-sourceBodyHash: 'sha256:2189f37c67ada0ed'
-translatedAt: '2026-06-02T00:39:59+08:00'
+sourceCommitSha: 8a230ddb
+sourceContentHash: 'sha256:97dd164af6e04522'
+sourceBodyHash: 'sha256:c821b247831a9b89'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 > **30초 개요:**
@@ -35,6 +39,9 @@ translatedAt: '2026-06-02T00:39:59+08:00'
 포르투갈식 에그타르트(Pastéis de Nata)의 기원은 19세기 포르투갈 리스본으로 거슬러 올라간다. 벨렝 지구의 제로니무스 수도원(Mosteiro dos Jerónimos)에서 수녀들은 수도복을 풀 먹여 다림질하기 위해 많은 양의 달걀흰자를 사용했고, 남은 노른자는 디저트로 만들어졌다 [^2].
 
 이 디저트는 훗날 바다를 건너 마카오에 도착했다. 1989년 영국인 앤드루 스토(Andrew Stow)는 마카오 콜로안 타르샤가에 「앤드루 베이커리」를 열었다. 그는 전통적인 포르투갈식 조리법을 개량하여 커스터드 파우더를 쓰지 않고 크림, 달걀, 우유를 사용했으며 당도를 낮추었다. 이것이 오늘날 타이완인에게 익숙한 「마카오식 포르투갈 에그타르트」로 발전했다 [^3]. 1997년 앤드루가 아내 마거릿 웡(Margaret Wong)과 이혼한 뒤, 마거릿은 마카오반도에서 독립해 같은 유형의 에그타르트를 운영했고, 이후 그 조리법을 KFC에 라이선스하면서 아시아 체인 시스템 속 포르투갈식 에그타르트의 전설이 열렸다 [^4].
+
+![마카오 거리의 붉은 벽돌 건물, 입구에 Lord Stow's Bakery 간판이 걸려 있고 가게 앞으로 행인이 오간다](/article-images/food/dan-ta-02-2023.webp)
+_마카오 타이파 지구 인무가의 Lord Stow's Bakery 매장 정면(2023년 2월). 영국인 앤드루 스토(Andrew Stow)가 1989년 콜로안에 창업한 이 가게는, 포르투갈식 조리법을 개량한 뒤 1998년 타이완 에그타르트 열풍의 진원지가 되었다. Photo: LN9267. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lord_Stow%27s_Bakery_Rua_do_Cunha_shop_01-02-2023.jpg)._
 
 ## 프라이드치킨에 가려진 에그타르트 전문점
 
@@ -61,6 +68,9 @@ translatedAt: '2026-06-02T00:39:59+08:00'
 - **핀치 크러스트(쿠키 크러스트)**: 타이완에서 가장 전통적인 「에그타르트」 방식이다. 파이지는 버터, 밀가루, 달걀을 섞어 만들며 접는 과정을 거치지 않는다. 식감은 타르트지와 쿠키 사이에 가깝다. 속은 대개 완벽하게 매끈한 거울 같은 표면을 보이며, 식감은 단단하고 우유 향이 진하다 [^12].
 - **중국식 페이스트리**: 전통 차찬텡에서 흔히 볼 수 있다. 포르투갈식 에그타르트의 서양식 퍼프 페이스트리와 달리, 중국식 페이스트리는 보통 돼지기름이나 식물성 기름을 쓰며, 「기름 반죽으로 물반죽을 감싸는」 전통적인 되접기 방식을 채택한다. 그 층은 극도로 바삭하고 헐거워 건드리기만 해도 부서지며, 진한 버터감보다 은은한 기름 향을 중시한다 [^13].
 
+![나무 쟁반 위에 타이창 빵집의 세 가지 디저트가 나란히 놓여 있다: 왼쪽은 파인애플 번, 가운데는 칵테일 번, 오른쪽은 시그니처 에그타르트](/article-images/food/dan-ta-01-2019.webp)
+_타이완 신베이시 반차오 타이창 빵집의 시그니처 에그타르트(오른쪽)와 홍콩식 디저트, 2019년 촬영. 타이창은 홍콩의 오래된 가게이자 타이완에도 분점을 두고 있어, 타이완 거리에 자리잡은 홍콩식 에그타르트의 맥락을 보여 준다. Photo: bryan…(Flickr 91049143@N00). [CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Food_%E7%9A%87%E7%89%8C%E8%9B%8B%E6%92%BB%2C*%E5%86%B0%E7%81%AB%E8%84%86%E7%9A%AE%E8%8F%A0%E8%98%BF%E6%B2%B9%2C*%E6%B3%B0%E6%98%8C%E9%9B%9E%E5%B0%BE%E5%8C%85%2C*%E6%B3%B0%E6%98%8C%E9%A4%85%E5%AE%B6%2C*%E6%9D%BF%E6%A9%8B%2C*%E6%96%B0%E5%8C%97%E5%B8%82%2C*%E5%8F%B0%E7%81%A3%2C*New_Taipei_City%2C_Taiwan*%2847201805022%29.jpg).\_
+
 ### 천 겹 에그타르트: 2024년의 극한 공법 부흥
 
 2024년, 타이완에서는 다시 한 차례 「천 겹 에그타르트」 열풍이 일었다. 이 에그타르트는 시각적으로 매혹적인 「작은 꽃」 모양의 방사형을 띠며, 전통 포르투갈식 에그타르트와 가장 큰 기술적 차이는 **성형과 틀**에 있다.
@@ -74,6 +84,14 @@ translatedAt: '2026-06-02T00:39:59+08:00'
 「에그타르트 효과」는 오늘날의 타이완에서도 계속 반복되고 있다. 칭위의 비취 레몬차, 팡라오디 프라이드치킨부터 최근의 쏸차이위에 이르기까지, 타이완 시장에는 언제나 「급등과 급락」의 규칙이 존재해 왔다 [^9]. 에그타르트는 이 현상의 원조로서, 그 의미가 이미 음식 자체를 넘어섰다. 그것은 우리에게 일깨운다. 집단적 광기의 이면에는 흔히 새로움에 대한 극도의 갈망과 유행의 입장권을 잃을지 모른다는 두려움이 숨어 있다는 사실을.
 
 ---
+
+## 이미지 출처
+
+본 글은 퍼블릭 도메인 / CC 라이선스 이미지 3장을 사용했으며, 모두 `public/article-images/food/`에 캐시해 원본 서버에 대한 핫링크를 피한다:
+
+- [포르투갈식 에그타르트](https://commons.wikimedia.org/wiki/File:Egg_tart.jpg) — Photo: ProjectManhattan, CC0 1.0 Public Domain
+- [마카오 Lord Stow's Bakery 매장 정면](https://commons.wikimedia.org/wiki/File:Lord_Stow%27s_Bakery_Rua_do_Cunha_shop_01-02-2023.jpg) — Photo: LN9267, 2023, CC BY-SA 4.0
+- [타이완 반차오 타이창 빵집의 홍콩식 에그타르트](https://commons.wikimedia.org/wiki/File:Food_%E7%9A%87%E7%89%8C%E8%9B%8B%E6%92%BB%2C_%E5%86%B0%E7%81%AB%E8%84%86%E7%9A%AE%E8%8F%A0%E8%98%BF%E6%B2%B9%2C_%E6%B3%B0%E6%98%8C%E9%9B%9E%E5%B0%BE%E5%8C%85%2C_%E6%B3%B0%E6%98%8C%E9%A4%85%E5%AE%B6%2C_%E6%9D%BF%E6%A9%8B%2C_%E6%96%B0%E5%8C%97%E5%B8%82%2C_%E5%8F%B0%E7%81%A3%2C_New_Taipei_City%2C_Taiwan_%2847201805022%29.jpg) — Photo: bryan… (Flickr), 2019, CC BY-SA 2.0
 
 ## 참고 자료
 

@@ -17,11 +17,15 @@ readingTime: 6
 lastVerified: 2026-06-01
 lastHumanReview: false
 featured: false
+image: '/article-images/food/dan-ta-hero.webp'
+imageCredit: 'ProjectManhattan / Wikimedia Commons'
+imageLicense: 'CC0 1.0 Public Domain'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Egg_tart.jpg'
 translatedFrom: 'Food/蛋撻.md'
-sourceCommitSha: 'edae9fc94'
-sourceContentHash: 'sha256:4a2eb378f3d3a951'
-sourceBodyHash: 'sha256:2189f37c67ada0ed'
-translatedAt: '2026-06-02T00:40:00+08:00'
+sourceCommitSha: '8a230ddb'
+sourceContentHash: 'sha256:97dd164af6e04522'
+sourceBodyHash: 'sha256:c821b247831a9b89'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 > **Resumen en 30 segundos:**
@@ -42,6 +46,9 @@ Según las crónicas de los medios de la época, las tiendas de tartas de huevo 
 El origen de la tarta de huevo portuguesa (Pastéis de Nata) se remonta al Lisboa del siglo XIX, en Portugal. En el Monasterio de los Jerónimos (Mosteiro dos Jerónimos), en el barrio de Belém, las monjas usaban grandes cantidades de claras de huevo para almidonar hábitos religiosos, y las yemas sobrantes se convertían en postres [^2].
 
 Este dulce cruzó luego el océano hasta llegar a Macao. En 1989, el británico Andrew Stow abrió Lord Stow’s Bakery en la Rua do Tassara, en Coloane, Macao. Modificó la receta portuguesa tradicional: dejó de usar natillas en polvo, incorporó crema, huevos y leche, y redujo el azúcar. Así evolucionó hasta convertirse en la “tarta portuguesa de estilo Macao” que hoy conocen los taiwaneses [^3]. Después de que Andrew se divorciara de su esposa Margaret Wong en 1997, Margaret estableció su propio negocio en la península de Macao vendiendo el mismo tipo de tarta de huevo, y posteriormente licenció la receta a KFC, abriendo la leyenda de la tarta portuguesa dentro de los sistemas de cadenas en Asia [^4].
+
+![Un edificio de ladrillo rojo en una calle de Macao, con el letrero de Lord Stow's Bakery sobre la puerta y transeúntes pasando frente a la tienda](/article-images/food/dan-ta-02-2023.webp)
+_Fachada de Lord Stow's Bakery en la Rua do Cunha, Taipa, Macao (febrero de 2023). El británico Andrew Stow fundó esta tienda en Coloane en 1989; tras modificar la receta portuguesa, se convirtió en el origen de la fiebre taiwanesa de la tarta portuguesa de 1998. Photo: LN9267. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lord_Stow%27s_Bakery_Rua_do_Cunha_shop_01-02-2023.jpg)._
 
 ## La tienda especializada en tartas de huevo distraída por vender pollo frito
 
@@ -68,6 +75,9 @@ Antes de la popularidad de la tarta portuguesa, las versiones dominantes en Taiw
 - **Masa prensada o de galleta**: es el método más tradicional de la “tarta de huevo” taiwanesa. La corteza se hace mezclando mantequilla, harina y huevo, sin plegados, y su textura queda entre una masa de tarta y una galleta. El relleno suele presentar una superficie perfectamente lisa y brillante, con una textura firme y un intenso aroma lácteo [^12].
 - **Hojaldre chino**: frecuente en los cha chaan teng, cafeterías tradicionales de Hong Kong. A diferencia del hojaldre occidental de la tarta portuguesa, el hojaldre chino suele usar manteca de cerdo o aceite vegetal y emplea el método tradicional de envolver una masa grasa dentro de una masa de agua y aceite para luego plegarla. Sus capas son extremadamente quebradizas y se deshacen al contacto; lo que busca es un aroma aceitoso delicado, no una sensación intensa de mantequilla [^13].
 
+![Tres postres de Tai Cheong Bakery alineados sobre una bandeja de madera: a la izquierda, pan de piña con mantequilla; al centro, pan de cola; a la derecha, la tarta de huevo emblemática](/article-images/food/dan-ta-01-2019.webp)
+_La tarta de huevo emblemática (derecha) y postres al estilo hongkonés de Tai Cheong Bakery, en Banqiao, Nuevo Taipéi, fotografiados en 2019. Tai Cheong es una casa centenaria de Hong Kong con sucursales en Taiwán, y muestra el linaje hongkonés de las tartas de huevo en las calles taiwanesas. Photo: bryan… (Flickr 91049143@N00). [CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Food_%E7%9A%87%E7%89%8C%E8%9B%8B%E6%92%BB%2C*%E5%86%B0%E7%81%AB%E8%84%86%E7%9A%AE%E8%8F%A0%E8%98%BF%E6%B2%B9%2C*%E6%B3%B0%E6%98%8C%E9%9B%9E%E5%B0%BE%E5%8C%85%2C*%E6%B3%B0%E6%98%8C%E9%A4%85%E5%AE%B6%2C*%E6%9D%BF%E6%A9%8B%2C*%E6%96%B0%E5%8C%97%E5%B8%82%2C*%E5%8F%B0%E7%81%A3%2C*New_Taipei_City%2C_Taiwan*%2847201805022%29.jpg).\_
+
 ### Tarta de huevo de mil capas: el renacimiento técnico extremo de 2024
 
 En 2024, Taiwán volvió a vivir una ola de popularidad de la “tarta de huevo de mil capas”. Visualmente, esta tarta presenta una atractiva forma radial de “flor pequeña”, y su mayor diferencia técnica respecto de la tarta portuguesa tradicional está en el **modelado y el molde**.
@@ -81,6 +91,14 @@ La tarta de mil capas suele usar mantequilla francesa de alta calidad, como la m
 El “efecto de la tarta de huevo” sigue repitiéndose en el Taiwán actual. Desde la limonada esmeralda de Qingyu y el pollo frito de Fat Daddy hasta el pescado con col encurtida de los últimos años, el mercado taiwanés mantiene una pauta constante de “auge y desplome” [^9]. Como origen de este fenómeno, la tarta de huevo hace tiempo que superó el significado de la comida en sí. Nos recuerda que, detrás de la locura colectiva, a menudo se esconde un deseo extremo de novedad y el miedo a quedarse sin boleto de entrada a la moda.
 
 ---
+
+## Fuentes de las imágenes
+
+Este artículo utiliza 3 imágenes de dominio público o con licencia CC, todas almacenadas en `public/article-images/food/` para evitar el hot-linking al servidor de origen:
+
+- [Tarta de huevo portuguesa](https://commons.wikimedia.org/wiki/File:Egg_tart.jpg) — Photo: ProjectManhattan, CC0 1.0 Public Domain
+- [Fachada de Lord Stow's Bakery en Macao](https://commons.wikimedia.org/wiki/File:Lord_Stow%27s_Bakery_Rua_do_Cunha_shop_01-02-2023.jpg) — Photo: LN9267, 2023, CC BY-SA 4.0
+- [Tarta de huevo al estilo hongkonés de Tai Cheong Bakery en Banqiao, Taiwán](https://commons.wikimedia.org/wiki/File:Food_%E7%9A%87%E7%89%8C%E8%9B%8B%E6%92%BB%2C_%E5%86%B0%E7%81%AB%E8%84%86%E7%9A%AE%E8%8F%A0%E8%98%BF%E6%B2%B9%2C_%E6%B3%B0%E6%98%8C%E9%9B%9E%E5%B0%BE%E5%8C%85%2C_%E6%B3%B0%E6%98%8C%E9%A4%85%E5%AE%B6%2C_%E6%9D%BF%E6%A9%8B%2C_%E6%96%B0%E5%8C%97%E5%B8%82%2C_%E5%8F%B0%E7%81%A3%2C_New_Taipei_City%2C_Taiwan_%2847201805022%29.jpg) — Photo: bryan… (Flickr), 2019, CC BY-SA 2.0
 
 ## Referencias
 

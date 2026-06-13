@@ -10,11 +10,15 @@ readingTime: 8
 lastVerified: 2026-06-01
 lastHumanReview: false
 featured: false
+image: '/article-images/art/street-graffiti-hero-2021.webp'
+imageCredit: 'Lokseng01 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Graffiti_at_Taipei_Cinema_Park.jpg'
 translatedFrom: 'Art/街頭塗鴉.md'
-sourceCommitSha: 'edae9fc94'
-sourceContentHash: 'sha256:fe0060220b6915dc'
-sourceBodyHash: 'sha256:daf1424133334015'
-translatedAt: '2026-06-02T00:40:00+08:00'
+sourceCommitSha: '8a230ddb'
+sourceContentHash: 'sha256:9c83c84bdc39c0f8'
+sourceBodyHash: 'sha256:0539eab7900ae6ed'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 > **Panorama en 30 segundos:**
@@ -30,11 +34,17 @@ En cajas eléctricas, vallas de construcción o esquinas de callejones de Taipé
 
 Horumon Baby declaró con franqueza en una entrevista: “El arte en sí no tiene jerarquías; mientras haya ideas buenas y nuevas, originalidad e imaginación, es una buena obra de arte” [^3]. Busca deliberadamente un equilibrio de “feo pero adorable” (kimokawaii), y transforma imágenes de alimentos locales como los fideos con intestino grueso o el intestino grueso envuelto en intestino delgado en una marca visual que reivindica “#productos locales de Taiwán” [^3]. Esta postura antielitista hizo que sus obras detonaran en Instagram una fiebre ciudadana por “capturar” bebés en la calle.
 
+![Primer plano lateral de un artista callejero taiwanés realizando una obra de grafiti con aerosol sobre una pared](/article-images/art/street-graffiti-02-2015.webp)
+_Un artista callejero taiwanés crea con aerosol sobre una pared, en junio de 2015. El juego del gato y el ratón con la Oficina de Protección Ambiental en plena noche es la fuente más central de vitalidad de esta cultura. Photo: streetallnight. [CC BY-SA 2.0 Taiwan via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Streetartintaiwan-01.jpg)._
+
 ### Del margen social al cubo blanco: los recorridos de Reach y Candy Bird
 
 Si Horumon Baby es el humorista de la calle, Reach y Candy Bird representan otros dos extremos del grafiti taiwanés. Reach, que comenzó a acercarse al grafiti en 1995, fue pionero en vincular el grafiti taiwanés con el comercio: combinó sus líneas minimalistas de “mano de gato” con marcas como Nike y G-Shock, demostrando que el grafiti podía pasar de la calle a las galerías y los centros comerciales [^4].
 
 En contraste, las obras de Candy Bird están cargadas de una densa preocupación social. Desde 2010 utiliza el grafiti para transmitir perspectivas ignoradas por la corriente dominante; pinta en las grietas de los márgenes urbanos con la intención de practicar la resistencia social entre el acero y el cemento [^5].
+
+![Muros exteriores de un edificio militar abandonado en Wanhua, Taipéi, cubiertos por una gran extensión de grafiti callejero](/article-images/art/street-graffiti-01-2021.webp)
+_Los muros exteriores del antiguo recinto de suministros militares Yongjin en el distrito de Wanhua, Taipéi, cubiertos de grafiti, abril de 2021. Las grietas de los edificios abandonados son el escenario más típico del grafiti callejero taiwanés. Photo: Lokseng01. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Building_with_graffiti_near_Ximending_01.jpg)._
 
 📝 Nota curatorial: En Taiwán, el grafiti no es solo decoración; es un registro de “combate cuerpo a cuerpo” de distintas generaciones frente a la realidad social.
 
@@ -51,6 +61,14 @@ Cuando el grafiti queda domesticado dentro de zonas legales, ¿conserva todavía
 📝 Nota curatorial: El mejor grafiti siempre aparece donde menos debería aparecer; es una recuperación momentánea de la soberanía sobre el espacio.
 
 Desde aquel muro de Minsheng East Road en 1989 hasta hoy, el grafiti taiwanés pasó de ser una forma de “ruido” a convertirse en parte de la ciudad. Ya no es solo una descarga de ira, sino un espejo que refleja el proceso mediante el cual esta isla oscila y tantea, una y otra vez, entre la ley, la estética y la libertad.
+
+## Fuentes de las imágenes
+
+Este artículo utiliza 3 imágenes con licencia CC, todas almacenadas en `public/article-images/art/` para evitar el hot-linking al servidor de origen:
+
+- [Muro de grafiti del Taipei Cinema Park de Ximending](https://commons.wikimedia.org/wiki/File:Graffiti_at_Taipei_Cinema_Park.jpg) — Photo: Lokseng01, 2021, CC BY-SA 4.0
+- [Grafiti en un edificio militar abandonado de Wanhua](https://commons.wikimedia.org/wiki/File:Building_with_graffiti_near_Ximending_01.jpg) — Photo: Lokseng01, 2021, CC BY-SA 4.0
+- [Artista callejero taiwanés creando en vivo](https://commons.wikimedia.org/wiki/File:Streetartintaiwan-01.jpg) — Photo: streetallnight, 2015, CC BY-SA 2.0 Taiwan
 
 ## Referencias
 

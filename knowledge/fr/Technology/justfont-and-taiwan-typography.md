@@ -28,10 +28,10 @@ imageCredit: 'justfont / flyingV'
 imageLicense: 'Fair use editorial commentary'
 imageSource: 'https://www.flyingv.cc/projects/8250'
 translatedFrom: 'Technology/justfont與台灣字體發展.md'
-sourceCommitSha: 'ef8fab38e'
-sourceContentHash: 'sha256:a585a80f27b0c71d'
-sourceBodyHash: 'sha256:6deb9bb9be119b89'
-translatedAt: '2026-06-13T01:49:53+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:4b06ed2980a5f57a'
+sourceBodyHash: 'sha256:adbe918308216cc3'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 > **Vue d'ensemble en 30 secondes :** Le 8 septembre 2015, la campagne de financement participatif de la police _Jin Xuan_ a démarré sur flyingV. **76 minutes** pour atteindre l'objectif de 1,5 million NT$, **11 heures** pour dépasser les 10 millions, **58 heures** pour franchir les 20 millions. À la clôture, 7 667 personnes avaient investi 25 930 099 NT$ pour une police qui n'existait pas encore[^1]. Ce jour-là, des dizaines de milliers de personnes se sont disputées dans les commentaires Facebook pour la première fois autour de « ce à quoi ressemblent les caractères ». L'article remonte à 1987, à la fondation de DynaComware (华康), la première entreprise taïwanaise de polices numériques, et retrace vingt-huit ans d'une industrie que tout le monde utilisait au quotidien mais dans laquelle personne n'osait s'aventurer. Il parle aussi de ceux qui faisaient les caractères : Lin Xia, issue des arts du bouddhisme, Zhang Jie-Guan qui coulait du plomb depuis un demi-siècle rue Taiyuan, Wang Shui-He entré dans le métier d'enseigniste à quatorze ans ; et de l'écosystème qui s'est développé après Jin Xuan : polices open source, Lan Yang Mingti, et les designers indépendants.

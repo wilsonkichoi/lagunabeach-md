@@ -24,10 +24,14 @@ lastVerified: 2026-05-15
 lastHumanReview: false
 featured: false
 translatedFrom: 'History/綠島監獄.md'
-sourceCommitSha: '6c2f8ea8d'
-sourceContentHash: 'sha256:21d8b7fd3400d252'
-sourceBodyHash: 'sha256:8737f67632ce39fd'
-translatedAt: '2026-05-28T05:08:33+08:00'
+image: '/article-images/history/green-island-memorial-park-2016.webp'
+imageCredit: 'Naplee12 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Human_Rights_Memorial_Park_Lyudao.jpg'
+sourceCommitSha: 'bd0134b2'
+sourceContentHash: 'sha256:63c92f0dce6f2dff'
+sourceBodyHash: 'sha256:cad7f5c77e571b29'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 ## 30-Second Overview: Green Island, a Solitary Isle Layered with Memory
@@ -50,9 +54,15 @@ This was the first political prisoner concentration camp established by the Nati
 
 Liúmagōu (流麻溝) was the shared household registration address for political prisoners during the New Life Training Center era: "No. 15, Liúmagōu."[^22] This sole source of fresh water on the island was not only where prisoners labored and washed clothes, but also where they passed secret messages and even had brief encounters with local residents — carrying countless untold stories. The cemetery near Swallow Cave, privately called the "Thirteenth Squadron" (第十三中隊) by survivors,[^23] holds the remains of countless victims who died of illness, suicide, or abuse, whose families were unable to claim their bodies. Their spirits are believed to remain forever with their fellow prisoners.
 
+![Exhibition space of the New Life Training Center's Third Brigade, with black-and-white photographs and documents of political prisoners arranged on the wall](/article-images/history/green-island-xinsheng-exhibition-2016.webp)
+_Exhibition area of the New Life Training Center's Third Brigade at the Green Island White Terror Memorial Park, with walls displaying photographs of political prisoners, photographed in 2016. Photo: Outlookxp. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E7%B6%A0%E5%B3%B6%E4%BA%BA%E6%AC%8A%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80%E6%96%B0%E7%94%9F%E8%A8%93%E5%B0%8E%E8%99%95%E7%AC%AC%E4%B8%89%E5%A4%A7%E9%9A%8A%E5%B1%95%E7%A4%BA%E5%8D%80.jpg)._
+
 ### Oasis Villa: Killing Severity Behind High Walls and the Will to Resist
 
 In 1970, the "Tayuan Incident" occurred at Taitung Tayuan Prison, in which political prisoners attempted an armed seizure of power.[^3] After the incident failed, the government rushed to build a high-security facility on Green Island — the Ministry of National Defense's Green Island Reform and Training Prison, nicknamed "Oasis Villa" (綠洲山莊).[^4] This prison was known for its high walls and octagonal (八卦樓-style) design. Its cross-shaped radial architectural structure was intended to facilitate management and surveillance, compressing the political prisoners' freedom to the absolute minimum.[^5] Many prominent political prisoners, including Bo Yang, Shih Ming-teh, and Chen Ying-chen, were once held here.[^6] The walls of Oasis Villa were once painted with patriotic slogans such as "Firmly Anti-Communist" and "The Sea of Suffering Has No Shore," forming a stark contrast with its closed nature.[^12]
+
+![Towering perimeter walls of the Green Island Human Rights Cultural Park, symbolizing the years political prisoners were cut off from the outside world](/article-images/history/green-island-prison-walls-2003.webp)
+_The high walls of the Green Island White Terror Memorial Park (formerly the Ministry of National Defense's Green Island Reform and Training Prison, "Oasis Villa"), photographed in 2003. Photo: lienyuan lee. [CC BY 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E9%AB%98%E7%89%86_Walls_-_panoramio.jpg)._
 
 ### Chongde New Village: The Homeland of Big Brothers and the Routine of a Modern Prison
 
@@ -80,6 +90,14 @@ Green Island Prison, this solitary island in the Pacific, carries the heaviest m
 - [Taiwan White Terror](/history/台灣白色恐怖) — The full picture of political cases under 38 years of martial law, with Green Island as a central site of detention and ideological remolding
 - [Martial Law Period](/history/戒嚴時期) — The legal framework of 1949–1987
 - [Taiwan Transitional Justice](/history/台灣轉型正義) — The unfinished work of overturning verdicts and holding perpetrators accountable
+
+## Image Sources
+
+This article uses 3 CC-licensed images, all cached under `public/article-images/history/` to avoid hotlinking source servers:
+
+- [Old prison buildings at the Green Island Human Rights Memorial Park](https://commons.wikimedia.org/wiki/File:Human_Rights_Memorial_Park_Lyudao.jpg) — Photo: Naplee12, 2016, CC BY-SA 4.0
+- [New Life Training Center Third Brigade exhibition area](https://commons.wikimedia.org/wiki/File:%E7%B6%A0%E5%B3%B6%E4%BA%BA%E6%AC%8A%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80%E6%96%B0%E7%94%9F%E8%A8%93%E5%B0%8E%E8%99%95%E7%AC%AC%E4%B8%89%E5%A4%A7%E9%9A%8A%E5%B1%95%E7%A4%BA%E5%8D%80.jpg) — Photo: Outlookxp, 2016, CC BY-SA 4.0
+- [High walls of the Green Island White Terror Memorial Park](https://commons.wikimedia.org/wiki/File:%E9%AB%98%E7%89%86_Walls_-_panoramio.jpg) — Photo: lienyuan lee, 2003, CC BY 3.0
 
 ## References
 

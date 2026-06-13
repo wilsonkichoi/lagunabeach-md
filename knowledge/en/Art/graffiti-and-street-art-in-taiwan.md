@@ -11,10 +11,14 @@ lastVerified: 2026-06-01
 lastHumanReview: false
 featured: false
 translatedFrom: 'Art/街頭塗鴉.md'
-sourceCommitSha: 'edae9fc94'
-sourceContentHash: 'sha256:fe0060220b6915dc'
-sourceBodyHash: 'sha256:daf1424133334015'
-translatedAt: '2026-06-02T00:39:59+08:00'
+image: '/article-images/art/street-graffiti-hero-2021.webp'
+imageCredit: 'Lokseng01 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Graffiti_at_Taipei_Cinema_Park.jpg'
+sourceCommitSha: '8a230ddb'
+sourceContentHash: 'sha256:9c83c84bdc39c0f8'
+sourceBodyHash: 'sha256:0539eab7900ae6ed'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 > **30-Second Overview:**
@@ -30,11 +34,17 @@ On transformer boxes, construction fences, and alley corners in Taipei, one ofte
 
 Horumon Baby once said frankly in an interview: "There is no hierarchy in art to begin with. As long as there is good, new creativity, originality, and imagination, it is a good artwork." [^3] He deliberately pursues a balance of "ugly but cute" (Kimokawaii), transforming local food imagery such as large-intestine vermicelli and small sausage wrapped in large sausage into a visual trademark branded as "#TaiwanLocalProduct" [^3]. This anti-elite stance set off a wave on Instagram of people "capturing" the baby on the streets.
 
+![Side close-up of a Taiwanese street artist creating a spray-paint piece on a wall](/article-images/art/street-graffiti-02-2015.webp)
+_A Taiwanese street artist spray-painting on a wall, photographed in June 2015. The late-night cat-and-mouse game with the Department of Environmental Protection is the most vital source of this culture's life force. Photo: streetallnight. [CC BY-SA 2.0 Taiwan via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Streetartintaiwan-01.jpg)._
+
 ### From the Social Margins to the White Cube: The Paths of Reach and Candy Bird
 
 If Horumon Baby is the humorist of the street, then Reach and Candy Bird represent two other poles of Taiwanese graffiti. Reach, who began engaging with graffiti in 1995, is a pioneer in combining Taiwanese graffiti with commerce. He integrated his minimalist "cat hand" lines with brands such as Nike and G-Shock, proving that graffiti could move from the street into galleries and commercial centers [^4].
 
 By contrast, Candy Bird's works are filled with weighty social concern. Since 2010, he has used graffiti to convey viewpoints ignored by the mainstream, painting his works in the gaps at the margins of the city in an attempt to practice social resistance amid reinforced concrete [^5].
+
+![Large-scale street graffiti covering the exterior wall of an abandoned military building in Wanhua, Taipei](/article-images/art/street-graffiti-01-2021.webp)
+_The exterior walls of the former Yongjin ROC Army Cultural Supply Station in Wanhua District, Taipei, covered in graffiti, photographed in April 2021. The cracks of abandoned buildings are the most typical site for Taiwanese street graffiti. Photo: Lokseng01. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Building_with_graffiti_near_Ximending_01.jpg)._
 
 📝 Curator's Note: In Taiwan, graffiti is not merely decoration. It is a record of different generations grappling hand-to-hand with social reality.
 
@@ -51,6 +61,14 @@ When graffiti is corralled into legal zones, does it still possess its original 
 📝 Curator's Note: The best graffiti always appears where it most should not. It is a brief reclamation of spatial sovereignty.
 
 From the wall on Minsheng East Road in 1989 to the present, Taiwanese graffiti has changed from a kind of "noise" into part of the city itself. It is no longer merely an outlet for anger, but a mirror reflecting the process by which this island continually sways and tests its limits among law, aesthetics, and freedom.
+
+## Image Sources
+
+This article uses 3 CC-licensed images, all cached under `public/article-images/art/` to avoid hotlinking source servers:
+
+- [Graffiti wall at Ximending's Taipei Cinema Park](https://commons.wikimedia.org/wiki/File:Graffiti_at_Taipei_Cinema_Park.jpg) — Photo: Lokseng01, 2021, CC BY-SA 4.0
+- [Graffiti on abandoned military building in Wanhua](https://commons.wikimedia.org/wiki/File:Building_with_graffiti_near_Ximending_01.jpg) — Photo: Lokseng01, 2021, CC BY-SA 4.0
+- [Taiwanese street artist creating live](https://commons.wikimedia.org/wiki/File:Streetartintaiwan-01.jpg) — Photo: streetallnight, 2015, CC BY-SA 2.0 Taiwan
 
 ## References
 

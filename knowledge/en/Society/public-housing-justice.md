@@ -18,10 +18,10 @@ lastVerified: 2026-06-06
 lastHumanReview: false
 featured: false
 translatedFrom: 'Society/國宅與居住正義.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:1b571a2f0b3e267b'
-sourceBodyHash: 'sha256:81a883992eb755dc'
-translatedAt: '2026-06-11T16:38:12Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:bd9b1e07ed885b16'
+sourceBodyHash: 'sha256:547ee1d3b342a025'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 # National Housing and Housing Justice: The Cheap Homes Built by the Government, and Whose Asset Escalator They Ultimately Created

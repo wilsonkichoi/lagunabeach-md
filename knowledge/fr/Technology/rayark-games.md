@@ -27,10 +27,10 @@ lastVerified: '2026-05-26'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Technology/雷亞遊戲.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:d307bb82f3b9e301'
-sourceBodyHash: 'sha256:c5aec6ca99b3567c'
-translatedAt: '2026-05-28T05:08:35+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:efb74dfc78d9c93c'
+sourceBodyHash: 'sha256:28ef520886f893e3'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 > **Aperçu en 30 secondes :** En septembre 2011, six jeunes issus du Collège d’électrotechnique et d’informatique de l’Université nationale de Taïwan fondent Rayark Games sur Jinshan North Road, à Taipei, avec un capital de trente millions de dollars taïwanais et une équipe de 16 personnes. En janvier 2012, Cytus sort sur iOS ; en un mois, il atteint la première place des classements dans 14 pays. Deemo entre ensuite au classement japonais Oricon, Implosion remporte le prix du meilleur jeu iOS de 2015, et VOEZ devient un titre de lancement de la Nintendo Switch. Quatorze ans plus tard, Rayark a publié plus de dix jeux et dépassé 130 millions de téléchargements dans le monde, mais les mots-clés associés à l’entreprise ne sont plus « génie » : ils sont devenus « dommage ». Après huit ans de survie difficile, Sdorica entre officiellement en mode maintenance en février 2026 ; l’animation Implosion, financée sur Kickstarter en 2015, n’a toujours pas été livrée en 2026 ; après l’affaire du code Morse d’ICE en 2020, Rayark modifie son jeu pour se conformer au marché chinois. L’esthétique les a rendus visibles dans le monde entier ; elle les a aussi fait trébucher dans chaque domaine qui n’était pas musical.

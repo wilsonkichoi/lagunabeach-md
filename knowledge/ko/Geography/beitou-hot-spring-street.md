@@ -34,10 +34,10 @@ lastVerified: 2026-05-21
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/北投溫泉街.md'
-sourceCommitSha: '20a4ac337'
-sourceContentHash: 'sha256:1f142c7ded5634b0'
-sourceBodyHash: 'sha256:03a51dfb5a6b4eb8'
-translatedAt: '2026-05-23T05:06:37+08:00'
+sourceCommitSha: 31a05c44
+sourceContentHash: 'sha256:fb76ac27fc6cd3ba'
+sourceBodyHash: 'sha256:a32189fb31dd0c7d'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 # 베이터우 온천 거리: 1697년 유황 채취에서 2026년 온천박물관까지, 같은 산천에 네 세대 주민이 바뀌다

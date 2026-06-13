@@ -23,11 +23,15 @@ readingTime: 20
 lastVerified: 2026-05-15
 lastHumanReview: false
 featured: false
+image: '/article-images/history/green-island-memorial-park-2016.webp'
+imageCredit: 'Naplee12 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Human_Rights_Memorial_Park_Lyudao.jpg'
 translatedFrom: 'History/綠島監獄.md'
-sourceCommitSha: '6c2f8ea8d'
-sourceContentHash: 'sha256:21d8b7fd3400d252'
-sourceBodyHash: 'sha256:8737f67632ce39fd'
-translatedAt: '2026-05-28T05:08:34+08:00'
+sourceCommitSha: 'bd0134b2'
+sourceContentHash: 'sha256:63c92f0dce6f2dff'
+sourceBodyHash: 'sha256:cad7f5c77e571b29'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 ## Panorama en treinta segundos: Isla Verde, una isla solitaria cubierta de capas de memoria
@@ -50,9 +54,15 @@ Este fue el primer campo de concentración de presos políticos establecido por 
 
 Liugou fue la dirección de registro de hogar común para los presos políticos durante el período del Centro de Reeducación de Xinsheng: «Liugou N.º 15»[^22]. Esta única fuente de agua dulce de la isla no era solo el lugar donde los presos políticos trabajaban y lavaban ropa, sino también el espacio donde transmitían mensajes secretos e incluso tenían breves encuentros con los lugareños, albergando innumerables historias desconocidas. El cementerio cercano a la Cueva de las Golondrinas fue llamado en privado por las víctimas políticas el «Decimotercer Escuadrón»[^23], donde yacen los restos de innumerables víctimas que murieron por enfermedad, suicidio o maltrato, y cuyas familias no pudieron reclamar sus cuerpos. Se cree que sus almas permanecen para siempre junto a sus compañeros de sufrimiento.
 
+![Sala de exhibición del Tercer Batallón del Centro de Reeducación de Xinsheng, con fotografías en blanco y negro de presos políticos y documentos alineados en las paredes](/article-images/history/green-island-xinsheng-exhibition-2016.webp)
+_Sala de exhibición del Tercer Batallón del Centro de Reeducación de Xinsheng en el Parque Conmemorativo del Terror Blanco de Isla Verde, con fotografías de presos políticos víctimas en las paredes, fotografiada en 2016. Photo: Outlookxp. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E7%B6%A0%E5%B3%B6%E4%BA%BA%E6%AC%8A%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80%E6%96%B0%E7%94%9F%E8%A8%93%E5%B0%8E%E8%99%95%E7%AC%AC%E4%B8%89%E5%A4%A7%E9%9A%8A%E5%B1%95%E7%A4%BA%E5%8D%80.jpg)._
+
 ### Villa Oasis: La austeridad tras los muros y la voluntad de resistencia
 
 En 1970, ocurrió el «Incidente de Taiyuan» en la prisión de Taiyuan, en Taitung, donde presos políticos intentaron un golpe armado para tomar el control[^3]. Tras el fracaso del incidente, el gobierno, para reforzar el control estricto sobre los presos políticos, construyó apresuradamente en Isla Verde la prisión de reeducación del Ministerio de Defensa Nacional, conocida como «Villa Oasis»[^4]. Esta prisión era famosa por sus altos muros y su diseño en forma de edificio bagua (ocho trigramas), con una estructura arquitectónica radial en cruz destinada a facilitar la gestión y la vigilancia, reduciendo al mínimo la libertad de los presos políticos[^5]. Muchos presos políticos importantes, como Bo Yang, Shi Mingde y Chen Yingzhen, fueron recluidos aquí[^6]. En los muros de Villa Oasis se pintaron esloganes patrióticos como «Firme anticomunismo» o «El mar de sufrimiento no tiene orilla», creando un fuerte contraste con su naturaleza cerrada[^12].
+
+![Altos muros del Parque Cultural de Derechos Humanos de Isla Verde, símbolo de los años en que los presos políticos quedaron aislados del mundo exterior](/article-images/history/green-island-prison-walls-2003.webp)
+_Los altos muros del Parque Conmemorativo del Terror Blanco de Isla Verde (antigua Prisión de Reeducación de Isla Verde del Ministerio de Defensa, «Villa Oasis»), fotografiados en 2003. Photo: lienyuan lee. [CC BY 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E9%AB%98%E7%89%86_Walls_-_panoramio.jpg)._
 
 ### Aldea Chongde: El hogar de los capos y la vida cotidiana de la prisión moderna
 
@@ -80,6 +90,14 @@ La prisión de Isla Verde, esta isla solitaria en el Pacífico, alberga la memor
 - [Terror Blanco en Taiwán](/history/台灣白色恐怖) — El panorama completo de los casos políticos durante los 38 años de ley marcial, siendo Isla Verde el centro de detención y reforma ideológica
 - [Período de ley marcial](/history/戒嚴時期) — El marco legal de 1949-1987
 - [Justicia transicional en Taiwán](/history/台灣轉型正義) — La tarea pendiente de revocar sentencias y exigir responsabilidades a los perpetradores
+
+## Fuentes de las imágenes
+
+Este artículo utiliza 3 imágenes con licencia CC, todas almacenadas en `public/article-images/history/` para evitar el hot-linking al servidor de origen:
+
+- [Antiguos edificios penitenciarios del Parque Conmemorativo de los Derechos Humanos de Isla Verde](https://commons.wikimedia.org/wiki/File:Human_Rights_Memorial_Park_Lyudao.jpg) — Photo: Naplee12, 2016, CC BY-SA 4.0
+- [Sala de exhibición del Tercer Batallón del Centro de Reeducación de Xinsheng](https://commons.wikimedia.org/wiki/File:%E7%B6%A0%E5%B3%B6%E4%BA%BA%E6%AC%8A%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80%E6%96%B0%E7%94%9F%E8%A8%93%E5%B0%8E%E8%99%95%E7%AC%AC%E4%B8%89%E5%A4%A7%E9%9A%8A%E5%B1%95%E7%A4%BA%E5%8D%80.jpg) — Photo: Outlookxp, 2016, CC BY-SA 4.0
+- [Altos muros del Parque Conmemorativo del Terror Blanco de Isla Verde](https://commons.wikimedia.org/wiki/File:%E9%AB%98%E7%89%86_Walls_-_panoramio.jpg) — Photo: lienyuan lee, 2003, CC BY 3.0
 
 ## Referencias
 

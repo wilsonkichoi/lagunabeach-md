@@ -28,10 +28,10 @@ imageCredit: 'justfont / flyingV'
 imageLicense: 'Fair use editorial commentary'
 imageSource: 'https://www.flyingv.cc/projects/8250'
 translatedFrom: 'Technology/justfont與台灣字體發展.md'
-sourceCommitSha: 'ef8fab38e'
-sourceContentHash: 'sha256:a585a80f27b0c71d'
-sourceBodyHash: 'sha256:6deb9bb9be119b89'
-translatedAt: '2026-06-13T01:49:53+08:00'
+sourceCommitSha: 31a05c44
+sourceContentHash: 'sha256:4b06ed2980a5f57a'
+sourceBodyHash: 'sha256:adbe918308216cc3'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 > **30초 개요:** 2015년 9월 8일 오전, justfont의 진쉬안(金萱) 서체가 flyingV에서 크라우드펀딩을 시작해 76분 만에 150만 원 목표를 돌파하고, 11시간 만에 1,000만 원, 58시간 만에 2,000만 원을 넘었으며, 최종적으로 7,667명이 NT$25,930,099를 모았다[^1]. 이 글은 1987년 화강 설립부터 시작해, 온 대만이 매일 읽는 산업이 어떻게 무너졌는지, 독자들이 어떻게 교육받았는지를 살펴본다. 아울러 글자 만드는 사람들도 들여다본다: 불화 그리기로 입문한 린샤, 타이위안루에서 반세기 동안 납활자를 주조한 장제관, 열네 살에 간판 그리기로 이 세계에 들어온 왕수이허, 그리고 진쉬안 이후 성장한 오픈소스 서체, 란양밍티와 독립 디자이너 생태계까지.

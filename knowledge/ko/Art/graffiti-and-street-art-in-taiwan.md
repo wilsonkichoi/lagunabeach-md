@@ -10,11 +10,15 @@ readingTime: 8
 lastVerified: 2026-06-01
 lastHumanReview: false
 featured: false
+image: '/article-images/art/street-graffiti-hero-2021.webp'
+imageCredit: 'Lokseng01 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Graffiti_at_Taipei_Cinema_Park.jpg'
 translatedFrom: 'Art/街頭塗鴉.md'
-sourceCommitSha: 'edae9fc94'
-sourceContentHash: 'sha256:fe0060220b6915dc'
-sourceBodyHash: 'sha256:daf1424133334015'
-translatedAt: '2026-06-02T00:39:59+08:00'
+sourceCommitSha: 8a230ddb
+sourceContentHash: 'sha256:9c83c84bdc39c0f8'
+sourceBodyHash: 'sha256:0539eab7900ae6ed'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 > **30초 개요:**
@@ -30,11 +34,17 @@ translatedAt: '2026-06-02T00:39:59+08:00'
 
 대장왕은 한 인터뷰에서 이렇게 직설적으로 말했다. “예술에는 본래 높고 낮음의 구분이 없다. 좋고 새로운 창의성, 독창성, 상상력이 있다면 그것이 좋은 예술품이다.”[^3]. 그는 의도적으로 “추함 속의 귀여움”(Kimokawaii)이라는 균형을 추구하며, 대장면선, 대장포소장 같은 현지 음식의 이미지를 “#타이완 토산”을 표방하는 시각 상표로 전환했다 [^3]. 이러한 반엘리트적 태도는 그의 작품이 Instagram에서 시민들이 거리에서 베이비를 “포획”하는 열풍을 일으키게 했다.
 
+![타이완 거리 예술가가 벽면에 스프레이로 그래피티를 작업하는 측면 클로즈업](/article-images/art/street-graffiti-02-2015.webp)
+_타이완 거리 예술가가 벽면에서 스프레이 작업을 하고 있다, 2015년 6월 촬영. 심야에 환경보호국과 벌이는 쫓고 쫓기는 게임이 이 문화의 가장 핵심적인 생명력의 원천이다. Photo: streetallnight. [CC BY-SA 2.0 Taiwan via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Streetartintaiwan-01.jpg)._
+
 ### 사회의 주변부에서 화이트 큐브로: Reach와 Candy Bird의 경로
 
 대장왕이 거리의 유머리스트라면, Reach와 Candy Bird는 타이완 그래피티의 또 다른 두 극단을 대표한다. 1995년부터 그래피티를 접하기 시작한 Reach는 타이완 그래피티와 상업의 결합을 선도한 인물이다. 그는 미니멀한 “고양이 손” 선을 Nike, G-Shock 등의 브랜드와 결합해 그래피티가 거리에서 갤러리와 상업 중심지로 들어갈 수 있음을 입증했다 [^4].
 
 반면 Candy Bird의 작품은 무거운 사회적 관심으로 가득하다. 그는 2010년부터 그래피티를 통해 주류가 간과한 관점을 전달해 왔으며, 도시 주변부의 틈새에 작품을 그려 철근 콘크리트 속에서 사회적 저항을 실천하고자 했다 [^5].
+
+![타이베이 완화의 폐 군용 건물 외벽이 대형 거리 그래피티로 뒤덮여 있다](/article-images/art/street-graffiti-01-2021.webp)
+_타이베이시 완화구 융진 국군 문공참 옛터 외벽이 그래피티로 뒤덮여 있다, 2021년 4월 촬영. 폐 건축물의 틈새는 타이완 거리 그래피티가 펼쳐지는 가장 전형적인 무대다. Photo: Lokseng01. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Building_with_graffiti_near_Ximending_01.jpg)._
 
 📝 큐레이터 노트: 타이완에서 그래피티는 단순한 장식이 아니다. 그것은 서로 다른 세대가 사회 현실과 “육박”한 기록이다.
 
@@ -51,6 +61,14 @@ translatedAt: '2026-06-02T00:39:59+08:00'
 📝 큐레이터 노트: 최고의 그래피티는 언제나 가장 나타나서는 안 될 장소에 나타난다. 그것은 공간 주권을 잠시 되찾는 행위다.
 
 1989년 민성둥루의 그 벽에서 지금에 이르기까지, 타이완 그래피티는 일종의 “소음”에서 도시의 일부로 변해 왔다. 그것은 더 이상 분노의 배출에 그치지 않고 하나의 거울이 되어, 이 섬이 법, 미학, 자유 사이에서 끊임없이 흔들리고 시험해 온 과정을 비춘다.
+
+## 이미지 출처
+
+본 글은 CC 라이선스 이미지 3장을 사용했으며, 모두 `public/article-images/art/`에 캐시해 원본 서버에 대한 핫링크를 피한다:
+
+- [시먼딩 영화 테마공원 그래피티 벽](https://commons.wikimedia.org/wiki/File:Graffiti_at_Taipei_Cinema_Park.jpg) — Photo: Lokseng01, 2021, CC BY-SA 4.0
+- [완화의 폐 군용 건물 그래피티](https://commons.wikimedia.org/wiki/File:Building_with_graffiti_near_Ximending_01.jpg) — Photo: Lokseng01, 2021, CC BY-SA 4.0
+- [타이완 거리 예술가의 현장 작업](https://commons.wikimedia.org/wiki/File:Streetartintaiwan-01.jpg) — Photo: streetallnight, 2015, CC BY-SA 2.0 Taiwan
 
 ## 참고 자료
 

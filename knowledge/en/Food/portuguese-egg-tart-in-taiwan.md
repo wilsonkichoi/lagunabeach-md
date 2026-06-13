@@ -18,10 +18,14 @@ lastVerified: 2026-06-01
 lastHumanReview: false
 featured: false
 translatedFrom: 'Food/蛋撻.md'
-sourceCommitSha: 'edae9fc94'
-sourceContentHash: 'sha256:4a2eb378f3d3a951'
-sourceBodyHash: 'sha256:2189f37c67ada0ed'
-translatedAt: '2026-06-02T00:39:59+08:00'
+image: '/article-images/food/dan-ta-hero.webp'
+imageCredit: 'ProjectManhattan / Wikimedia Commons'
+imageLicense: 'CC0 1.0 Public Domain'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Egg_tart.jpg'
+sourceCommitSha: '8a230ddb'
+sourceContentHash: 'sha256:97dd164af6e04522'
+sourceBodyHash: 'sha256:c821b247831a9b89'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 > **30-Second Overview:**
@@ -42,6 +46,9 @@ Media reports at the time described egg tart shops springing up everywhere in ci
 The origin of the Portuguese egg tart (Pastéis de Nata) can be traced to nineteenth-century Lisbon, Portugal. At the Jerónimos Monastery (Mosteiro dos Jerónimos) in the Belém district, nuns used large amounts of egg whites to starch religious habits, and the leftover yolks were made into desserts [^2].
 
 This dessert later crossed the ocean to Macao. In 1989, the Englishman Andrew Stow opened Lord Stow’s Bakery on Rua da Tassara in Coloane, Macao. He adapted the traditional Portuguese recipe, abandoning custard powder in favor of cream, eggs, and milk while reducing the sugar content. This was how the “Macao-style Portuguese egg tart” familiar to Taiwanese consumers today took shape [^3]. After Andrew and his wife Margaret Wong divorced in 1997, Margaret established her own business on the Macao Peninsula selling the same kind of egg tart. She later licensed the recipe to KFC, opening the legendary chapter of Portuguese egg tarts within Asian chain-store systems [^4].
+
+![A brick-red building on a Macao street with the Lord Stow's Bakery sign at the entrance and pedestrians passing by](/article-images/food/dan-ta-02-2023.webp)
+_The storefront of Lord Stow's Bakery on Rua do Cunha, Taipa, Macao (February 2023). The Englishman Andrew Stow founded this shop in Coloane in 1989; after adapting the Portuguese recipe, it became the source of Taiwan's 1998 Portuguese egg tart craze. Photo: LN9267. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lord_Stow%27s_Bakery_Rua_do_Cunha_shop_01-02-2023.jpg)._
 
 ## The Egg Tart Shop Delayed by Fried Chicken
 
@@ -68,6 +75,9 @@ Before Portuguese egg tarts became popular, the mainstream in Taiwan and Hong Ko
 - **Pressed shortcrust (cookie crust)**: This is Taiwan’s most traditional “egg tart” method. The crust is made by mixing butter, flour, and eggs, without folding. Its texture falls somewhere between a tart shell and a cookie. The filling usually has a perfectly smooth, mirror-like surface, with a firm texture and rich milky aroma [^12].
 - **Chinese puff pastry**: Common in traditional cha chaan teng, or Hong Kong-style cafés. Unlike the Western puff pastry used in Portuguese egg tarts, Chinese puff pastry usually uses lard or vegetable oil and relies on the traditional reverse-folding method of wrapping oil dough inside water dough. Its layers are extremely flaky and shatter at a touch, emphasizing an elegant oil aroma rather than a rich buttery quality [^13].
 
+![Three pastries from Tai Cheong Bakery laid side by side on a wooden tray: pineapple bun on the left, cocktail bun in the middle, signature egg tart on the right](/article-images/food/dan-ta-01-2019.webp)
+_Tai Cheong Bakery's signature egg tart (right) alongside Hong Kong-style pastries at the Banqiao branch in New Taipei City, photographed in 2019. Tai Cheong is a longstanding Hong Kong brand that also operates in Taiwan, illustrating the Hong Kong-style egg tart lineage on Taiwanese streets. Photo: bryan… (Flickr 91049143@N00). [CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Food_%E7%9A%87%E7%89%8C%E8%9B%8B%E6%92%BB%2C*%E5%86%B0%E7%81%AB%E8%84%86%E7%9A%AE%E8%8F%A0%E8%98%BF%E6%B2%B9%2C*%E6%B3%B0%E6%98%8C%E9%9B%9E%E5%B0%BE%E5%8C%85%2C*%E6%B3%B0%E6%98%8C%E9%A4%85%E5%AE%B6%2C*%E6%9D%BF%E6%A9%8B%2C*%E6%96%B0%E5%8C%97%E5%B8%82%2C*%E5%8F%B0%E7%81%A3%2C*New_Taipei_City%2C_Taiwan*%2847201805022%29.jpg).\_
+
 ### Mille-Feuille Egg Tarts: The 2024 Revival of Extreme Technique
 
 In 2024, Taiwan saw another wave of enthusiasm for “mille-feuille egg tarts.” Visually, this egg tart presents an appealing radial “little flower” shape. Its greatest technical difference from the traditional Portuguese egg tart lies in **hand-forming and molds**.
@@ -81,6 +91,14 @@ Mille-feuille egg tarts usually use high-quality French butter, such as Montaigu
 The “egg tart effect” continues to repeat itself in Taiwan today. From Ching Yu’s jade lemon tea and Fat Daddy fried chicken to the suancai fish, or pickled mustard-green fish, of recent years, the Taiwanese market has always followed a pattern of “explosive rise and collapse” [^9]. As the originator of this phenomenon, the egg tart has long since surpassed food itself in meaning. It reminds us that behind collective frenzy often lies an extreme craving for novelty, and a fear of losing one’s ticket to the latest trend.
 
 ---
+
+## Image Sources
+
+This article uses 3 public-domain / CC-licensed images, all cached under `public/article-images/food/` to avoid hotlinking source servers:
+
+- [Portuguese egg tart](https://commons.wikimedia.org/wiki/File:Egg_tart.jpg) — Photo: ProjectManhattan, CC0 1.0 Public Domain
+- [Lord Stow's Bakery storefront in Macao](https://commons.wikimedia.org/wiki/File:Lord_Stow%27s_Bakery_Rua_do_Cunha_shop_01-02-2023.jpg) — Photo: LN9267, 2023, CC BY-SA 4.0
+- [Tai Cheong Bakery Hong Kong-style egg tart at Banqiao, Taiwan](https://commons.wikimedia.org/wiki/File:Food_%E7%9A%87%E7%89%8C%E8%9B%8B%E6%92%BB%2C_%E5%86%B0%E7%81%AB%E8%84%86%E7%9A%AE%E8%8F%A0%E8%98%BF%E6%B2%B9%2C_%E6%B3%B0%E6%98%8C%E9%9B%9E%E5%B0%BE%E5%8C%85%2C_%E6%B3%B0%E6%98%8C%E9%A4%85%E5%AE%B6%2C_%E6%9D%BF%E6%A9%8B%2C_%E6%96%B0%E5%8C%97%E5%B8%82%2C_%E5%8F%B0%E7%81%A3%2C_New_Taipei_City%2C_Taiwan_%2847201805022%29.jpg) — Photo: bryan… (Flickr), 2019, CC BY-SA 2.0
 
 ## References
 

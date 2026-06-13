@@ -20,10 +20,10 @@ lastVerified: 2026-06-10
 lastHumanReview: false
 featured: false
 translatedFrom: People/莫那·魯道.md
-sourceCommitSha: '1e674def'
-sourceContentHash: 'sha256:ede7f18705cbb217'
-sourceBodyHash: 'sha256:e00af867a4682cf7'
-translatedAt: '2026-06-12T16:39:07Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:0b1a3c6909f4b2bd'
+sourceBodyHash: 'sha256:06471c32d8e8a9fd'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 # Mona Rudao: The Anti-Japanese Hero on the Twenty-Dollar Coin, and the World Without China or Japan

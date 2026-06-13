@@ -33,10 +33,10 @@ lastVerified: 2026-05-21
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/公館.md'
-sourceCommitSha: '20a4ac337'
-sourceContentHash: 'sha256:8c674665d432e2f8'
-sourceBodyHash: 'sha256:269fe229b33b29a3'
-translatedAt: '2026-05-23T05:06:37+08:00'
+sourceCommitSha: 31a05c44
+sourceContentHash: 'sha256:d4a87d0d4d9ecb17'
+sourceBodyHash: 'sha256:18162eee72c09bc5'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 # 궁관: 일본제국의 연구실, 계엄기의 지하 살롱, 타이완대 학생의 닭튀김 스테이크, 500미터 안의 세 세기

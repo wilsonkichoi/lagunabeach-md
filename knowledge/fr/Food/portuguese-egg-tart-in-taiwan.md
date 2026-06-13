@@ -17,11 +17,15 @@ readingTime: 6
 lastVerified: 2026-06-01
 lastHumanReview: false
 featured: false
+image: '/article-images/food/dan-ta-hero.webp'
+imageCredit: 'ProjectManhattan / Wikimedia Commons'
+imageLicense: 'CC0 1.0 Public Domain'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Egg_tart.jpg'
 translatedFrom: 'Food/蛋撻.md'
-sourceCommitSha: 'edae9fc94'
-sourceContentHash: 'sha256:4a2eb378f3d3a951'
-sourceBodyHash: 'sha256:2189f37c67ada0ed'
-translatedAt: '2026-06-02T00:40:00+08:00'
+sourceCommitSha: '8a230ddb'
+sourceContentHash: 'sha256:97dd164af6e04522'
+sourceBodyHash: 'sha256:c821b247831a9b89'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 > **Aperçu en 30 secondes :**
@@ -42,6 +46,9 @@ Les reportages de l’époque décrivaient des boutiques de tartelettes surgissa
 L’origine de la tartelette aux œufs portugaise, ou pastéis de nata, remonte au Lisbonne du XIXe siècle. Dans le quartier de Belém, au monastère des Hiéronymites (Mosteiro dos Jerónimos), les religieuses utilisaient de grandes quantités de blancs d’œufs pour amidonner les habits monastiques ; les jaunes restants étaient transformés en dessert [^2].
 
 Ce dessert a ensuite traversé les mers jusqu’à Macao. En 1989, le Britannique Andrew Stow ouvrit la Lord Stow’s Bakery dans la rue Taipa à Coloane, Macao. Il modifia la recette portugaise traditionnelle en abandonnant la poudre à crème, en utilisant de la crème, des œufs et du lait, et en réduisant la teneur en sucre : c’est ainsi qu’est née la « tartelette portugaise à la macanaise » que les Taïwanais connaissent aujourd’hui [^3]. Après le divorce d’Andrew et de son épouse Margaret Wong en 1997, Margaret établit sa propre enseigne sur la péninsule de Macao pour vendre le même type de tartelette, puis concéda la recette sous licence à KFC, ouvrant la légende des tartelettes portugaises dans les chaînes asiatiques [^4].
+
+![Dans une rue de Macao, un bâtiment de brique rouge avec l’enseigne « Lord Stow’s Bakery » au-dessus de la porte ; quelques passants devant la devanture](/article-images/food/dan-ta-02-2023.webp)
+_Façade de la Lord Stow’s Bakery, rue Rua do Cunha à Taipa, Macao (février 2023). Le Britannique Andrew Stow y fonda l’enseigne en 1989, à Coloane ; sa recette portugaise revisitée fut la source de l’engouement taïwanais pour les tartelettes portugaises en 1998. Photo : LN9267. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lord_Stow%27s_Bakery_Rua_do_Cunha_shop_01-02-2023.jpg)._
 
 ## La boutique de tartelettes retardée par le poulet frit
 
@@ -68,6 +75,9 @@ Avant la popularité des tartelettes portugaises, le courant dominant à Taïwan
 - **Pâte pincée, ou pâte sablée** : c’est la méthode la plus traditionnelle à Taïwan pour la « tartelette aux œufs ». La pâte est composée de beurre, de farine et d’œufs, sans pliage ; sa texture se situe entre la pâte à tarte et le biscuit. Sa garniture présente généralement une surface parfaitement lisse et brillante, avec une texture ferme et un parfum lacté prononcé [^12].
 - **Feuilletage chinois** : courant dans les cha chaan teng traditionnels, ces cafés-restaurants hongkongais populaires. Contrairement au feuilletage occidental des tartelettes portugaises, le feuilletage chinois utilise généralement du saindoux ou de l’huile végétale et recourt à la méthode traditionnelle consistant à envelopper une pâte huileuse dans une pâte détrempée, puis à la replier. Ses couches sont extrêmement friables, se brisant au moindre contact ; l’accent porte sur un parfum d’huile léger plutôt que sur une sensation riche de beurre [^13].
 
+![Sur un plateau en bois, trois pâtisseries de la maison Tai Cheong Bakery alignées : à gauche un bolo de ananas au beurre, au milieu un cocktail bun, à droite une tartelette aux œufs « Royale »](/article-images/food/dan-ta-01-2019.webp)
+_La tartelette « Royale » de Tai Cheong Bakery (à droite) et d’autres pâtisseries de style hongkongais, à Banqiao, Nouvelle-Taipei, en 2019. Tai Cheong est une enseigne hongkongaise historique également implantée à Taïwan, qui incarne la filiation hongkongaise des tartelettes aux œufs dans les rues taïwanaises. Photo : bryan… (Flickr 91049143@N00). [CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Food_%E7%9A%87%E7%89%8C%E8%9B%8B%E6%92%BB%2C*%E5%86%B0%E7%81%AB%E8%84%86%E7%9A%AE%E8%8F%A0%E8%98%BF%E6%B2%B9%2C*%E6%B3%B0%E6%98%8C%E9%9B%9E%E5%B0%BE%E5%8C%85%2C*%E6%B3%B0%E6%98%8C%E9%A4%85%E5%AE%B6%2C*%E6%9D%BF%E6%A9%8B%2C*%E6%96%B0%E5%8C%97%E5%B8%82%2C*%E5%8F%B0%E7%81%A3%2C*New_Taipei_City%2C_Taiwan*%2847201805022%29.jpg).\_
+
 ### Tartelette millefeuille : renaissance technique extrême en 2024
 
 En 2024, Taïwan a connu une nouvelle vague d’engouement pour les « tartelettes millefeuille ». Visuellement, cette tartelette présente un séduisant motif radial en « petite fleur » ; sa principale différence technique avec la tartelette portugaise traditionnelle tient au **façonnage et au moule**.
@@ -81,6 +91,14 @@ La tartelette millefeuille utilise généralement un beurre français de haute q
 L’« effet tartelette aux œufs » continue de se répéter à Taïwan aujourd’hui. Du citron vert jade de Ching Yu au poulet frit de Fat Daddy, puis plus récemment au poisson à la choucroute, le marché taïwanais obéit toujours à une logique d’« essor fulgurant et d’effondrement brutal » [^9]. En tant que phénomène fondateur, la tartelette aux œufs a depuis longtemps dépassé le seul registre alimentaire. Elle nous rappelle que derrière la folie collective se cachent souvent un désir extrême de nouveauté et la peur de manquer son billet d’entrée dans la tendance.
 
 ---
+
+## Sources des images
+
+Cet article utilise 3 images du domaine public / sous licence CC, toutes mises en cache dans `public/article-images/food/` pour éviter le hotlink vers les serveurs sources :
+
+- [Tartelette portugaise](https://commons.wikimedia.org/wiki/File:Egg_tart.jpg) — Photo : ProjectManhattan, CC0 1.0 Domaine public
+- [Façade de la Lord Stow’s Bakery à Macao](https://commons.wikimedia.org/wiki/File:Lord_Stow%27s_Bakery_Rua_do_Cunha_shop_01-02-2023.jpg) — Photo : LN9267, 2023, CC BY-SA 4.0
+- [Tartelette aux œufs hongkongaise chez Tai Cheong à Banqiao, Taïwan](https://commons.wikimedia.org/wiki/File:Food_%E7%9A%87%E7%89%8C%E8%9B%8B%E6%92%BB%2C_%E5%86%B0%E7%81%AB%E8%84%86%E7%9A%AE%E8%8F%A0%E8%98%BF%E6%B2%B9%2C_%E6%B3%B0%E6%98%8C%E9%9B%9E%E5%B0%BE%E5%8C%85%2C_%E6%B3%B0%E6%98%8C%E9%A4%85%E5%AE%B6%2C_%E6%9D%BF%E6%A9%8B%2C_%E6%96%B0%E5%8C%97%E5%B8%82%2C_%E5%8F%B0%E7%81%A3%2C_New_Taipei_City%2C_Taiwan_%2847201805022%29.jpg) — Photo : bryan… (Flickr), 2019, CC BY-SA 2.0
 
 ## Références
 

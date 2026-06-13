@@ -10,11 +10,15 @@ readingTime: 8
 lastVerified: 2026-06-01
 lastHumanReview: false
 featured: false
+image: '/article-images/art/street-graffiti-hero-2021.webp'
+imageCredit: 'Lokseng01 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Graffiti_at_Taipei_Cinema_Park.jpg'
 translatedFrom: 'Art/街頭塗鴉.md'
-sourceCommitSha: 'edae9fc94'
-sourceContentHash: 'sha256:fe0060220b6915dc'
-sourceBodyHash: 'sha256:daf1424133334015'
-translatedAt: '2026-06-02T00:40:00+08:00'
+sourceCommitSha: '8a230ddb'
+sourceContentHash: 'sha256:9c83c84bdc39c0f8'
+sourceBodyHash: 'sha256:0539eab7900ae6ed'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 > **Aperçu en 30 secondes :**
@@ -30,11 +34,17 @@ Dans les rues de Taipei, sur les transformateurs électriques, les palissades de
 
 Horumon King a déclaré sans détour dans un entretien : « L’art n’a pas, en soi, de hiérarchie ; dès lors qu’il y a une bonne idée nouvelle, de l’originalité et de l’imagination, c’est une bonne œuvre d’art. » [^3]. Il recherche délibérément un équilibre entre « laideur et mignonnerie » (Kimokawaii), transformant des images alimentaires locales comme les nouilles aux gros intestins ou le « gros intestin enveloppant le petit intestin » en une marque visuelle revendiquant le « #produitlocaltaïwanais » [^3]. Cette posture anti-élitiste a suscité sur Instagram un engouement populaire pour « capturer » les bébés dans la rue.
 
+![Gros plan latéral d’un artiste de rue taïwanais en train de réaliser une création à la bombe sur un mur](/article-images/art/street-graffiti-02-2015.webp)
+_Un artiste de rue taïwanais en pleine création à la bombe sur un mur, juin 2015. Le jeu nocturne du chat et de la souris avec les services de protection de l’environnement reste la source vitale la plus centrale de cette culture. Photo : streetallnight. [CC BY-SA 2.0 Taiwan via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Streetartintaiwan-01.jpg)._
+
 ### Des marges sociales au white cube : les trajectoires de Reach et Candy Bird
 
 Si Horumon King est l’humoriste de la rue, Reach et Candy Bird représentent deux autres extrêmes du graffiti taïwanais. Reach, qui commence à s’intéresser au graffiti en 1995, est un pionnier de l’association entre graffiti et commerce à Taïwan. Il a combiné les lignes minimalistes de sa « patte de chat » avec des marques comme Nike ou G-Shock, prouvant que le graffiti pouvait quitter la rue pour entrer dans les galeries et les centres commerciaux [^4].
 
 À l’inverse, les œuvres de Candy Bird sont traversées par une lourde préoccupation sociale. Depuis 2010, il utilise le graffiti pour transmettre des points de vue ignorés par le courant dominant, peignant ses œuvres dans les interstices des marges urbaines afin de tenter une pratique de contestation sociale au sein du béton armé [^5].
+
+![Le mur extérieur d’un bâtiment militaire abandonné de Wanhua, à Taipei, recouvert sur une large surface de graffitis de rue](/article-images/art/street-graffiti-01-2021.webp)
+_Le mur extérieur de l’ancien dépôt militaire Yongjin du district de Wanhua, à Taipei, couvert de graffitis, avril 2021. Les interstices des bâtiments abandonnés constituent le terrain le plus typique du graffiti de rue taïwanais. Photo : Lokseng01. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Building_with_graffiti_near_Ximending_01.jpg)._
 
 📝 Note de commissariat : à Taïwan, le graffiti n’est pas seulement décoratif ; il est l’archive d’un corps-à-corps entre différentes générations et la réalité sociale.
 
@@ -51,6 +61,14 @@ Lorsque le graffiti est cantonné dans des zones légales, conserve-t-il encore 
 📝 Note de commissariat : les meilleurs graffitis apparaissent toujours là où ils ne devraient surtout pas apparaître ; ils sont une brève reprise de souveraineté sur l’espace.
 
 Depuis le mur de Minsheng East Road en 1989 jusqu’à aujourd’hui, le graffiti taïwanais est passé du statut de « bruit » à celui de partie intégrante de la ville. Il n’est plus seulement une décharge de colère, mais un miroir qui reflète le processus par lequel cette île oscille et expérimente sans cesse entre droit, esthétique et liberté.
+
+## Sources des images
+
+Cet article utilise 3 images sous licence CC, toutes mises en cache dans `public/article-images/art/` pour éviter le hotlink vers les serveurs sources :
+
+- [Mur de graffitis du Taipei Cinema Park à Ximending](https://commons.wikimedia.org/wiki/File:Graffiti_at_Taipei_Cinema_Park.jpg) — Photo : Lokseng01, 2021, CC BY-SA 4.0
+- [Graffitis sur un bâtiment militaire abandonné à Wanhua](https://commons.wikimedia.org/wiki/File:Building_with_graffiti_near_Ximending_01.jpg) — Photo : Lokseng01, 2021, CC BY-SA 4.0
+- [Artiste de rue taïwanais en création](https://commons.wikimedia.org/wiki/File:Streetartintaiwan-01.jpg) — Photo : streetallnight, 2015, CC BY-SA 2.0 Taiwan
 
 ## Références
 

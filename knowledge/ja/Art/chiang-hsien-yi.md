@@ -34,10 +34,10 @@ sporeLinks:
     platform: 'threads'
     date: '2026-05-25'
     url: 'https://www.threads.com/@taiwandotmd/post/DYwhhzFgfe0'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:3870280529c79170'
-sourceBodyHash: 'sha256:67baf16d4a608267'
-translatedAt: '2026-05-25T21:07:04Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:872c1259e15043c2'
+sourceBodyHash: 'sha256:ae43b98131d02326'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 # 江賢二：台湾を四十五年離れ、帰郷して初めて生涯最高の絵を描けた画家

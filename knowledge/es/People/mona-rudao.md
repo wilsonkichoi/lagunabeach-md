@@ -19,11 +19,12 @@ readingTime: 20
 lastVerified: 2026-06-10
 lastHumanReview: false
 featured: false
+image: '/article-images/people/mona-rudao-seediq-leaders-1931.webp'
 translatedFrom: 'People/莫那·魯道.md'
-sourceCommitSha: '1e674def2'
-sourceContentHash: 'sha256:ede7f18705cbb217'
-sourceBodyHash: 'sha256:e00af867a4682cf7'
-translatedAt: '2026-06-13T01:49:53+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:0b1a3c6909f4b2bd'
+sourceBodyHash: 'sha256:06471c32d8e8a9fd'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 # Mona Rudao: el héroe antijaponés grabado en la moneda de veinte dólares y aquel mundo sin China ni Japón

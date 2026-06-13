@@ -23,10 +23,10 @@ lastVerified: 2026-05-18
 lastHumanReview: false
 featured: true
 translatedFrom: 'Food/台灣美食總覽.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:a85e988c90e94e31'
-sourceBodyHash: 'sha256:08f30e675ba550e9'
-translatedAt: '2026-06-07T00:37:30+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:ca3079f9c00d31cf'
+sourceBodyHash: 'sha256:c5fac90142ae7a6b'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 # 台湾美食総覧：純粋に台湾だけの料理は一つもなく、どの料理も最も台湾らしいです

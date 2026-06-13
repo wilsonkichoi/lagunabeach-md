@@ -11,10 +11,14 @@ lastVerified: 2026-06-01
 lastHumanReview: false
 featured: false
 translatedFrom: 'Art/街頭塗鴉.md'
-sourceCommitSha: 'edae9fc94'
-sourceContentHash: 'sha256:fe0060220b6915dc'
-sourceBodyHash: 'sha256:daf1424133334015'
-translatedAt: '2026-06-02T00:39:59+08:00'
+sourceCommitSha: '8a230ddb'
+sourceContentHash: 'sha256:9c83c84bdc39c0f8'
+sourceBodyHash: 'sha256:0539eab7900ae6ed'
+image: '/article-images/art/street-graffiti-hero-2021.webp'
+imageCredit: 'Lokseng01 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Graffiti_at_Taipei_Cinema_Park.jpg'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 > **30秒概観：**
@@ -30,11 +34,17 @@ translatedAt: '2026-06-02T00:39:59+08:00'
 
 大腸王はインタビューで、「芸術に本来、高低の区別はありません。よい新しい創意、オリジナリティ、想像力があれば、それはよい芸術作品です」と率直に語っています [^3]。彼は意図的に「醜いけれどかわいい」（キモカワイイ）均衡を追求し、大腸麺線や大腸包小腸といった在地の食べ物のイメージを、「#台湾土産」を掲げる視覚的商標へと転化しました [^3]。この反エリート的な姿勢により、彼の作品はInstagram上で、人々が街頭でベビーを「捕獲」する熱潮を引き起こしました。
 
+![壁に向かってスプレー塗料でグラフィティを制作する台湾のストリートアーティストの横顔のクローズアップ](/article-images/art/street-graffiti-02-2015.webp)
+_壁面でスプレー制作を行う台湾のストリートアーティスト、2015 年 6 月撮影。深夜に環境保護局と繰り広げる猫とネズミの追走劇こそ、この文化の最も核心的な生命力の源泉です。Photo: streetallnight. [CC BY-SA 2.0 Taiwan via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Streetartintaiwan-01.jpg)._
+
 ### 社会の周縁からホワイトキューブへ：ReachとCandy Birdの道筋
 
 大腸王が街頭のユーモリストだとすれば、ReachとCandy Birdは台湾グラフィティの別の二つの極を代表しています。1995年にグラフィティに触れ始めたReachは、台湾におけるグラフィティと商業の結合の先駆者です。彼は極めて簡潔な「猫の手」の線をNikeやG-Shockなどのブランドと結びつけ、グラフィティが街頭からギャラリーや商業施設へと入っていけることを証明しました [^4]。
 
 それに対して、Candy Birdの作品には重い社会的関心が満ちています。彼は2010年以降、グラフィティを用いて主流から見落とされた視点を伝え、作品を都市周縁の隙間に描くことで、鉄筋コンクリートのなかで社会的抵抗を実践しようとしてきました [^5]。
+
+![台北・万華区の廃棄された軍事建築の外壁を大面積で覆うストリートグラフィティ](/article-images/art/street-graffiti-01-2021.webp)
+_台北市万華区にある旧永進国軍文供站の外壁を埋め尽くすグラフィティ、2021 年 4 月撮影。廃棄された建築の隙間こそ、台湾のストリートグラフィティの最も典型的な場です。Photo: Lokseng01. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Building_with_graffiti_near_Ximending_01.jpg)._
 
 📝 キュレーター・ノート：台湾におけるグラフィティは単なる装飾ではありません。それは異なる世代が社会の現実と「肉弾戦」を繰り広げた記録です。
 
@@ -51,6 +61,14 @@ translatedAt: '2026-06-02T00:39:59+08:00'
 📝 キュレーター・ノート：最良のグラフィティは、常に本来現れてはならない場所に現れます。それは空間の主権を一時的に奪い返す行為です。
 
 1989年の民生東路のあの壁から現在に至るまで、台湾のグラフィティは一種の「騒音」から都市の一部へと変わりました。それはもはや怒りの発散にとどまらず、一枚の鏡として、この島が法律、美学、自由のあいだで揺れ動き、試行し続ける過程を映し出しています。
+
+## 画像出典
+
+本記事では 3 枚の CC ライセンス画像を使用し、すべて `public/article-images/art/` にキャッシュして、元サーバーへのホットリンクを避けています：
+
+- [西門町映画テーマパークのグラフィティウォール](https://commons.wikimedia.org/wiki/File:Graffiti_at_Taipei_Cinema_Park.jpg) — Photo: Lokseng01, 2021, CC BY-SA 4.0
+- [万華の廃棄された軍事建築のグラフィティ](https://commons.wikimedia.org/wiki/File:Building_with_graffiti_near_Ximending_01.jpg) — Photo: Lokseng01, 2021, CC BY-SA 4.0
+- [台湾のストリートアーティストの現場制作](https://commons.wikimedia.org/wiki/File:Streetartintaiwan-01.jpg) — Photo: streetallnight, 2015, CC BY-SA 2.0 Taiwan
 
 ## 参考資料
 

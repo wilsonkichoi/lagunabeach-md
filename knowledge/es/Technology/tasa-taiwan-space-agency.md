@@ -18,11 +18,12 @@ readingTime: 28
 lastVerified: 2026-06-12
 lastHumanReview: false
 featured: true
+image: '/article-images/technology/formosat8-tasa-banner.webp'
 translatedFrom: 'Technology/國家太空中心.md'
-sourceCommitSha: '36a6231ff'
-sourceContentHash: 'sha256:6babcf758b4ae264'
-sourceBodyHash: 'sha256:0cd20bdd22ab7e9b'
-translatedAt: '2026-06-13T01:49:53+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:a54685fba76c9f68'
+sourceBodyHash: 'sha256:5ca31c80049b9985'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 En 2016, en el video musical de Mayday para «Tough», aparecía un hombre de mediana edad construyendo un cohete en un descampado. Lo trataban como un loco que soñaba despierto y, al final, se ponía a la espalda un cohete casero y volaba hacia el cielo. La mayoría de los taiwaneses conoció por primera vez a Wu Jong-shinn no a través de una institución estatal, sino por ese video musical: aquel “tío de los cohetes”[^1].

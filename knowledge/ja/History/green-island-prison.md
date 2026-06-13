@@ -24,10 +24,14 @@ lastVerified: 2026-05-15
 lastHumanReview: false
 featured: false
 translatedFrom: History/綠島監獄.md
-sourceCommitSha: 6c2f8ea8d
-sourceContentHash: sha256:21d8b7fd3400d252
-sourceBodyHash: sha256:8737f67632ce39fd
-translatedAt: 2026-05-28T05:08:34+08:00
+sourceCommitSha: bd0134b2
+sourceContentHash: sha256:63c92f0dce6f2dff
+sourceBodyHash: sha256:cad7f5c77e571b29
+image: '/article-images/history/green-island-memorial-park-2016.webp'
+imageCredit: 'Naplee12 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Human_Rights_Memorial_Park_Lyudao.jpg'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 ## 三十秒でわかる：緑島――記憶が層をなす孤島
@@ -50,9 +54,15 @@ translatedAt: 2026-05-28T05:08:34+08:00
 
 流麻溝は、新生訓導処時代の政治犯たちの共通する戸籍所在地「流麻溝十五号」[^22]でした。この島で唯一の淡水源は、政治犯たちが労働し、衣類を洗った場所であると同時に、秘密の情報をやり取りし、地元の人々とさりげなく交わる場でもあり、数え切れないほどの知られざる物語を宿していました。また、つばめ洞（燕子洞）近くの墓地は、政治被害者たちが内々で「第十三中隊」[^23]と呼んでおり、病気・自殺・虐待によって命を落とし、遺族が引き取ることができなかった多くの被害者が眠っています。彼らの魂は、仲間たちと永遠に共に在ると信じられています。
 
+![新生訓導処第三大隊の展示空間。壁面に政治犯のモノクロ写真と文書が並ぶ](/article-images/history/green-island-xinsheng-exhibition-2016.webp)
+_白色テロ緑島記念園區・新生訓導処第三大隊の展示区。壁面に収監された政治犯の写真が展示されている、2016 年撮影。Photo: Outlookxp. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E7%B6%A0%E5%B3%B6%E4%BA%BA%E6%AC%8A%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80%E6%96%B0%E7%94%9F%E8%A8%93%E5%B0%8E%E8%99%95%E7%AC%AC%E4%B8%89%E5%A4%A7%E9%9A%8A%E5%B1%95%E7%A4%BA%E5%8D%80.jpg)._
+
 ### 緑洲山荘：高牆に囲まれた殺気と反抗の意志
 
 1970年、台東の泰源監獄で政治犯たちが武装蜂起を試みた「泰源事件」[^3]が発生しました。事件の失敗後、政府は政治犯の厳密な管理を強化するため、緑島に「緑洲山荘」と呼ばれる国防部緑島感訓監獄を急遽建設しました[^4]。この監獄は高壁に囲まれた八卦楼（八角形）型の設計で知られ、十字放射型の建築構造は管理と監視を容易にし、政治犯の自由を極限まで圧縮することを目的としていました[^5]。柏楊、施明德、陳映真など、多くの重要な政治犯がここに収監されました[^6]。緑洲山荘の壁には「堅定反共」「苦海無辺」などの愛国的なスローガンが描かれており、その閉鎖的な本質と強烈な対比をなしていました[^12]。
+
+![緑島人權文化園區のそびえ立つ高壁。政治犯が外界と隔絶されていた歳月を象徴する](/article-images/history/green-island-prison-walls-2003.webp)
+_白色テロ緑島記念園區（旧国防部緑島感訓監獄「緑洲山荘」）の高壁、2003 年撮影。Photo: lienyuan lee. [CC BY 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E9%AB%98%E7%89%86_Walls_-_panoramio.jpg)._
 
 ### 崇德新村：大哥の故郷と現代の監獄の日常
 
@@ -80,6 +90,14 @@ translatedAt: 2026-05-28T05:08:34+08:00
 - [台湾白色恐怖](/history/台灣白色恐怖) ―― 38年間の戒厳令下の政治事件の全貌。緑島はその収監と思想改造の中枢であった
 - [戒厳時期](/history/戒厳時期) ―― 1949年から1987年までの法的枠組み
 - [台湾轉型正義](/history/台灣轉型正義) ―― 判決の撤回と加害者追及という未完の課題
+
+## 画像出典
+
+本記事では 3 枚の CC ライセンス画像を使用し、すべて `public/article-images/history/` にキャッシュして、元サーバーへのホットリンクを避けています：
+
+- [緑島人權紀念公園の旧監獄建築](https://commons.wikimedia.org/wiki/File:Human_Rights_Memorial_Park_Lyudao.jpg) — Photo: Naplee12, 2016, CC BY-SA 4.0
+- [新生訓導処第三大隊の展示区](https://commons.wikimedia.org/wiki/File:%E7%B6%A0%E5%B3%B6%E4%BA%BA%E6%AC%8A%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80%E6%96%B0%E7%94%9F%E8%A8%93%E5%B0%8E%E8%99%95%E7%AC%AC%E4%B8%89%E5%A4%A7%E9%9A%8A%E5%B1%95%E7%A4%BA%E5%8D%80.jpg) — Photo: Outlookxp, 2016, CC BY-SA 4.0
+- [白色テロ緑島記念園區の高壁](https://commons.wikimedia.org/wiki/File:%E9%AB%98%E7%89%86_Walls_-_panoramio.jpg) — Photo: lienyuan lee, 2003, CC BY 3.0
 
 ## 参考文献
 

@@ -22,11 +22,12 @@ tags:
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: true
+image: '/article-images/food/taiwan-food-overview-raohe-night-market-2023.webp'
 translatedFrom: 'Food/台灣美食總覽.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:a85e988c90e94e31'
-sourceBodyHash: 'sha256:08f30e675ba550e9'
-translatedAt: '2026-05-28T05:08:34+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:ca3079f9c00d31cf'
+sourceBodyHash: 'sha256:c5fac90142ae7a6b'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 # Panorama de la gastronomía taiwanesa: ningún plato es puramente taiwanés, y cada plato es lo más taiwanés que hay

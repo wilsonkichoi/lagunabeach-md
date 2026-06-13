@@ -30,10 +30,10 @@ lastVerified: 2026-05-21
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/寶藏巖.md'
-sourceCommitSha: '20a4ac337'
-sourceContentHash: 'sha256:34c40d44d4f457e7'
-sourceBodyHash: 'sha256:e2bebc0edf0593c1'
-translatedAt: '2026-05-23T05:06:37+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:e34125e4b520b62c'
+sourceBodyHash: 'sha256:6490dd989b255fd9'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 # 宝岩（宝蔵巖）：30年間取り壊し続けられた違法建築集落が、台北で最もクールなアート村になったまで

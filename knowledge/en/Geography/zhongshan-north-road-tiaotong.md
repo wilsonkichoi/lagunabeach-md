@@ -29,10 +29,10 @@ lastVerified: 2026-05-21
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/中山北路條通.md'
-sourceCommitSha: '20a4ac33'
-sourceContentHash: 'sha256:b588a53aa70524ed'
-sourceBodyHash: 'sha256:c3fdba51ee1eb327'
-translatedAt: '2026-06-12T16:39:07Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:09cf41707223de25'
+sourceBodyHash: 'sha256:1cbd8f5ebc585b28'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 # Zhongshan North Road Tiaotong: A Road the Japanese Built to Reach a Shrine, Ultimately Taken Back by Japanese Firms

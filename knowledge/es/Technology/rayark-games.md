@@ -26,11 +26,12 @@ readingTime: 20
 lastVerified: '2026-05-26'
 lastHumanReview: false
 featured: false
+image: '/article-images/technology/rayark-cafe-2021.webp'
 translatedFrom: 'Technology/雷亞遊戲.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:d307bb82f3b9e301'
-sourceBodyHash: 'sha256:c5aec6ca99b3567c'
-translatedAt: '2026-05-28T05:08:34+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:efb74dfc78d9c93c'
+sourceBodyHash: 'sha256:28ef520886f893e3'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 > **Panorama en 30 segundos:** En septiembre de 2011, seis jóvenes formados en la Facultad de Ingeniería Eléctrica e Informática de la Universidad Nacional de Taiwán fundaron Rayark Games en Jinshan North Road, Taipéi, con un capital de 30 millones y un equipo de 16 personas. En enero de 2012, Cytus llegó a iOS y en un mes alcanzó el primer lugar en los rankings de 14 países. Luego, Deemo entró en el ranking Oricon de Japón, Implosion ganó el premio al mejor juego iOS de 2015 y VOEZ fue juego de lanzamiento de Nintendo Switch. Catorce años después, Rayark había lanzado más de diez juegos y acumulado más de 130 millones de descargas globales, pero la palabra clave asociada a la empresa ya había pasado de “genialidad” a “lástima”. Tras sostenerse con dificultad durante ocho años, Sdorica -sunset- entró oficialmente en modo mantenimiento en febrero de 2026; la animación de Implosion seguía sin entregarse en 2026 desde su financiamiento en Kickstarter en 2015; y, tras el incidente del código Morse de ICE en 2020, Rayark modificó el juego para ajustarse al mercado chino. La estética hizo que el mundo los viera, y también los hizo tropezar en cada terreno que no era musical.

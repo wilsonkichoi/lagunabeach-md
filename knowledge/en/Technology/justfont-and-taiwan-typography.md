@@ -23,10 +23,10 @@ lastVerified: 2026-06-12
 lastHumanReview: false
 featured: true
 translatedFrom: 'Technology/justfont與台灣字體發展.md'
-sourceCommitSha: 'ef8fab38e'
-sourceContentHash: 'sha256:a585a80f27b0c71d'
-sourceBodyHash: 'sha256:6deb9bb9be119b89'
-translatedAt: '2026-06-13T01:49:53+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:4b06ed2980a5f57a'
+sourceBodyHash: 'sha256:adbe918308216cc3'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 > **30-second overview:** On the morning of September 8, 2015, justfont’s Jin Xuan typeface launched a crowdfunding campaign on flyingV, broke through its NT$1.5 million target in 76 minutes, and ultimately drew NT$25.93 million from 7,667 backers. This piece begins with the founding of DynaComware in 1987 and follows how an industry read daily by all of Taiwan collapsed, how a community of readers was taught into being, and how the people who make type came into view: Lin Hsia, who began by painting Buddhist images; Chang Chieh-kuan, who cast lead type on Taiyuan Road for half a century; Wang Shui-he, who entered the trade at fourteen painting signs; and the open-source typefaces, Lanyang Ming, and independent designer ecosystem that grew after Jin Xuan.

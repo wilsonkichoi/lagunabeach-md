@@ -31,10 +31,10 @@ lastVerified: '2026-05-21'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/大龍峒.md'
-sourceCommitSha: '20a4ac337'
-sourceContentHash: 'sha256:2d241cf14a32c31c'
-sourceBodyHash: 'sha256:a8ccdeedc763960a'
-translatedAt: '2026-05-23T05:06:37+08:00'
+sourceCommitSha: 31a05c44
+sourceContentHash: 'sha256:c079976dbbfa6288'
+sourceBodyHash: 'sha256:f620f505d46f863a'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 # 다룽둥: 보안궁의 향, 공묘의 종, 위안산의 청천백일, 세 시대의 타이베이 신앙

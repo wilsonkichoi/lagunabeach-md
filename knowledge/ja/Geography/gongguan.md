@@ -33,10 +33,10 @@ lastVerified: '2026-05-21'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/公館.md'
-sourceCommitSha: '20a4ac337'
-sourceContentHash: 'sha256:8c674665d432e2f8'
-sourceBodyHash: 'sha256:269fe229b33b29a3'
-translatedAt: '2026-05-23T05:06:37+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:d4a87d0d4d9ecb17'
+sourceBodyHash: 'sha256:18162eee72c09bc5'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 # 公館：日本帝国の研究室、戒厳期の地下サロン、台湾大学生のフライドチキンカツ、500メートルに重なる三つの世紀

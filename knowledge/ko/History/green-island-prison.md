@@ -23,11 +23,15 @@ readingTime: 20
 lastVerified: 2026-05-15
 lastHumanReview: false
 featured: false
+image: '/article-images/history/green-island-memorial-park-2016.webp'
+imageCredit: 'Naplee12 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Human_Rights_Memorial_Park_Lyudao.jpg'
 translatedFrom: 'History/綠島監獄.md'
-sourceCommitSha: '6c2f8ea8d'
-sourceContentHash: 'sha256:21d8b7fd3400d252'
-sourceBodyHash: 'sha256:8737f67632ce39fd'
-translatedAt: '2026-06-07T02:26:08+08:00'
+sourceCommitSha: bd0134b2
+sourceContentHash: 'sha256:63c92f0dce6f2dff'
+sourceBodyHash: 'sha256:cad7f5c77e571b29'
+translatedAt: '2026-06-14T00:35:00+08:00'
 ---
 
 ## 30초 개요: 녹도, 기억이 겹겹이 쌓인 외로운 섬
@@ -50,9 +54,15 @@ translatedAt: '2026-06-07T02:26:08+08:00'
 
 류마거우(流麻溝)는 신생훈도처 시기 정치범들의 공동 호적 주소인 '류마거우 15호'[^22]였다. 이 섬의 유일한 담수원은 정치범들의 노동과 빨래 장소일 뿐 아니라 비밀 메시지를 전달하고 지역 주민과 짧은 시간 만나는 장소이기도 했으며, 수많은 알려지지 않은 이야기를 품고 있다. 옹자둥(燕子洞) 인근의 공묘는 정치 피해자들이 사적으로 '제13중대(第十三中隊)'[^23]라 불렀으며, 질병, 자살, 학대로 사망하고 가족이 시신을 인수할 수 없었던 수많은 피해자들이 묻혀 있었다. 그들의 혼백은 영원히 동료 수감자들과 함께 있다고 여겨졌다.
 
+![신생훈도처 제3대대 전시 공간, 벽면에 정치범의 흑백 사진과 문서가 줄지어 걸려 있다](/article-images/history/green-island-xinsheng-exhibition-2016.webp)
+_백색테러 녹도 기념 단지 신생훈도처 제3대대 전시 구역, 벽면에 수감 정치범들의 사진이 전시되어 있다, 2016년 촬영. Photo: Outlookxp. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E7%B6%A0%E5%B3%B6%E4%BA%BA%E6%AC%8A%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80%E6%96%B0%E7%94%9F%E8%A8%93%E5%B0%8E%E8%99%95%E7%AC%AC%E4%B8%89%E5%A4%A7%E9%9A%8A%E5%B1%95%E7%A4%BA%E5%8D%80.jpg)._
+
 ### 녹저우산장: 고벽 내부의 숙살과 저항의 의지
 
 1970년, 타이둥 타이위안 감옥에서 정치범들이 무장 탈취를 시도한 '타이위안 사건(泰源事件)'[^3]이 발생했다. 사건 실패 후 정부는 정치범에 대한 엄격한 통제를 강화하기 위해 녹도에 '녹저우산장(綠洲山莊)'이라 불리는 국방부 녹도 감옥을 급히 건설했다[^4]. 이 감옥은 높은 담장과 팔괘루(八卦樓) 형태의 설계로 유명했는데, 십자 방사형 건축 구조는 관리와 감시를 용이하게 하여 정치범의 자유를 극한으로 압축하는 데 목적이 있었다[^5]. 보양(柏楊), 스밍더(施明德), 천잉전(陳映真) 등 많은 중요한 정치범들이 이곳에 수감되었다[^6]. 녹저우산장의 벽에는 '확고한 반공', '고해무변(苦海無邊)' 등의 애국 슬로건이 그려져 있었는데, 이는 폐쇄적인 본질과 강렬한 대조를 이루었다[^12].
+
+![녹도 인권문화 단지의 높이 솟은 담장, 정치범이 외부와 격리되어 보낸 세월을 상징한다](/article-images/history/green-island-prison-walls-2003.webp)
+_백색테러 녹도 기념 단지(구 국방부 녹도 감옥 '녹저우산장')의 고벽, 2003년 촬영. Photo: lienyuan lee. [CC BY 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E9%AB%98%E7%89%86_Walls_-_panoramio.jpg)._
 
 ### 숭덕신촌: 대고의 고향과 현대 감옥의 일상
 
@@ -80,6 +90,14 @@ translatedAt: '2026-06-07T02:26:08+08:00'
 - [타이완 백색테러](/history/台灣白色恐怖) — 38년 계엄의 정치 사건 전반, 녹도는 구금과 사상 개조의 중추
 - [계엄 시기](/history/戒嚴時期) — 1949-1987년의 법적 그릇
 - [타이완 전환정의](/history/台灣轉型正義) — 판결 철회와 가해자 문책의 미완의 과업
+
+## 이미지 출처
+
+본 글은 CC 라이선스 이미지 3장을 사용했으며, 모두 `public/article-images/history/`에 캐시해 원본 서버에 대한 핫링크를 피한다:
+
+- [녹도 인권 기념 공원의 옛 감옥 건물](https://commons.wikimedia.org/wiki/File:Human_Rights_Memorial_Park_Lyudao.jpg) — Photo: Naplee12, 2016, CC BY-SA 4.0
+- [신생훈도처 제3대대 전시 구역](https://commons.wikimedia.org/wiki/File:%E7%B6%A0%E5%B3%B6%E4%BA%BA%E6%AC%8A%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80%E6%96%B0%E7%94%9F%E8%A8%93%E5%B0%8E%E8%99%95%E7%AC%AC%E4%B8%89%E5%A4%A7%E9%9A%8A%E5%B1%95%E7%A4%BA%E5%8D%80.jpg) — Photo: Outlookxp, 2016, CC BY-SA 4.0
+- [백색테러 녹도 기념 단지의 고벽](https://commons.wikimedia.org/wiki/File:%E9%AB%98%E7%89%86_Walls_-_panoramio.jpg) — Photo: lienyuan lee, 2003, CC BY 3.0
 
 ## 참고 문헌
 
