@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T15:09:09.035Z",
+  "lastUpdated": "2026-06-13T22:11:01.607Z",
   "organs": [
     {
       "id": "heart",
@@ -10,9 +10,9 @@
       "score": 90,
       "trend": "up",
       "metrics": {
-        "articlesLast7Days": 45,
-        "articlesLast30Days": 168,
-        "totalArticles": 795
+        "articlesLast7Days": 54,
+        "articlesLast30Days": 177,
+        "totalArticles": 796
       }
     },
     {
@@ -26,14 +26,14 @@
       "version": "v2-2026-05-16",
       "metrics": {
         "humanReviewedCount": 209,
-        "totalArticles": 795,
+        "totalArticles": 796,
         "humanReviewedPercent": 26.3,
         "v2Status": "漂移 — 多維度退化中",
         "v2Components": {
           "review_coverage": 27.6,
           "plugin_pass_rate": 70,
           "plugin_health": 50,
-          "citation_density": 90.5,
+          "citation_density": 90.6,
           "tool_freshness": 80,
           "drift_velocity": 90,
           "external_rulers": 3.1
@@ -113,12 +113,12 @@
       "trend": "up",
       "metrics": {
         "languageCoverage": {
-          "zh-TW": 795,
-          "en": 797,
-          "ja": 793,
-          "ko": 794,
-          "es": 793,
-          "fr": 794
+          "zh-TW": 796,
+          "en": 799,
+          "ja": 795,
+          "ko": 796,
+          "es": 795,
+          "fr": 796
         },
         "translationPct": 93,
         "langHealthDetails": {
@@ -137,7 +137,7 @@
               "pct": 100
             },
             "articles": {
-              "count": 797,
+              "count": 799,
               "pct": 100
             },
             "score": 100
@@ -157,7 +157,7 @@
               "pct": 0
             },
             "articles": {
-              "count": 793,
+              "count": 795,
               "pct": 100
             },
             "score": 80
@@ -177,7 +177,7 @@
               "pct": 100
             },
             "articles": {
-              "count": 794,
+              "count": 796,
               "pct": 100
             },
             "score": 100
@@ -197,7 +197,7 @@
               "pct": 100
             },
             "articles": {
-              "count": 793,
+              "count": 795,
               "pct": 100
             },
             "score": 100
@@ -217,7 +217,7 @@
               "pct": 25
             },
             "articles": {
-              "count": 794,
+              "count": 796,
               "pct": 100
             },
             "score": 85

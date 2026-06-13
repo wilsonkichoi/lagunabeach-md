@@ -1,12 +1,12 @@
 {
   "categories": {
     "About": 30,
-    "Art": 187,
-    "Culture": 305,
+    "Art": 191,
+    "Culture": 306,
     "Economy": 271,
     "Food": 275,
     "Geography": 315,
-    "History": 221,
+    "History": 225,
     "Lifestyle": 140,
     "Music": 166,
     "Nature": 185,
@@ -356,6 +356,10 @@
     {
       "date": "2026-06-13",
       "count": 3
+    },
+    {
+      "date": "2026-06-14",
+      "count": 2
     }
   ],
   "updated": "2026-06-13"

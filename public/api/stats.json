@@ -1,24 +1,24 @@
 {
-  "totalArticles": 4778,
+  "totalArticles": 4789,
   "totalCategories": 20,
   "estimatedContributors": 61,
-  "totalTags": 6127,
+  "totalTags": 6137,
   "categories": [
     {
       "name": "es",
-      "count": 795
+      "count": 797
     },
     {
       "name": "ko",
-      "count": 796
+      "count": 798
     },
     {
       "name": "fr",
-      "count": 796
+      "count": 798
     },
     {
       "name": "ja",
-      "count": 795
+      "count": 797
     },
     {
       "name": "History",
@@ -34,11 +34,11 @@
     },
     {
       "name": "en",
-      "count": 799
+      "count": 801
     },
     {
       "name": "Culture",
-      "count": 61
+      "count": 62
     },
     {
       "name": "People",
@@ -127,6 +127,10 @@
       "count": 23
     },
     {
+      "name": "民主化",
+      "count": 23
+    },
+    {
       "name": "文化",
       "count": 23
     },
@@ -151,10 +155,6 @@
       "count": 22
     },
     {
-      "name": "民主化",
-      "count": 22
-    },
-    {
       "name": "體育",
       "count": 22
     },
@@ -168,13 +168,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4778,
+    "zh-TW": 4789,
     "en": 0
   },
-  "lastUpdated": "2026-06-13T15:09:00.924Z",
-  "stars": 1035,
+  "lastUpdated": "2026-06-13T22:10:53.005Z",
+  "stars": 1038,
   "forks": 150,
-  "zhPages": 795,
-  "enPages": 799,
-  "totalPages": 795
+  "zhPages": 796,
+  "enPages": 801,
+  "totalPages": 796
 }

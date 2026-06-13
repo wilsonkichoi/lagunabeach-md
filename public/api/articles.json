@@ -141,6 +141,35 @@
     "path": "ko/People/jeremy-lin.md"
   },
   {
+    "title": "'범람과 범록 너머의 네 자: 한 조각 논에서 한 장의 건강보험카드까지, 자신의 정치를 넘어 살아남은 타이완의 정책들'",
+    "description": "한 독자가 범람과 범록이 식탁에서 서로 욕하는 장면에 지쳐, 타이완에 진정으로 좋았던 일을 기억하고 싶어 했다. 그래서 우리는 지난 70년의 열한 가지 정책을 골랐다. 권위주의가 농지를 강제 징수한 토지개혁, 계엄 해제, 전민건강보험부터 여전히 논쟁 중인 동성혼과 전향적 인프라까지, 일부러 범람과 범록의 자로 재지 않고 민생, 민주, 민권, 주권이라는 네 자로 재보았다. 결론은 조금 직관에 어긋난다. 자신의 당파적 출신을 넘어 살아남은 정책은, 태어난 날 대개 가장 격렬하게 다투어진 바로 그 정책이었다.",
+    "category": "ko",
+    "tags": [
+      "타이완 역사",
+      "정책",
+      "민주화",
+      "초당파",
+      "전환기 정의",
+      "정책과 제도"
+    ],
+    "url": "https://taiwan.md/ko/history/bipartisan-good-policy",
+    "readingTime": 114,
+    "featured": false,
+    "date": "2026-06-13",
+    "path": "ko/History/bipartisan-good-policy.md"
+  },
+  {
+    "title": "'보이지 않는 국가: 한 미국 감독이 7년 동안 셔터를 눌러, 세계가 보지 않기로 한 섬을 찍었다'",
+    "description": "2025년 6월 타이완 극장가에서 한 미국인이 만든 다큐멘터리가 3,700만 신타이완달러를 넘기며 타이완 다큐멘터리 영화사 흥행 3위에 올랐다. 바네사 호프는 7년 동안, 다섯 차례 차이잉원을 밀착 인터뷰하며 유엔에서 축출되고, 수교국이 22개국에서 12개국으로 줄었으며, 올림픽에서는 오직 '중화 타이베이'라고만 불릴 수 있는 섬을 카메라 앞으로 밀어냈다. 그러나 가장 큰 의문을 받은 것은 타이완을 '보이게' 하려는 이 영화가 정작 누구를 프레임 밖에 남겨두었는가였다. 보인다는 것은 언제나 하나의 행위이지, 하나의 지위가 아니다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/art/invisible-nation",
+    "readingTime": 89,
+    "featured": true,
+    "date": "2026-06-13",
+    "path": "ko/Art/invisible-nation.md"
+  },
+  {
     "title": "'사과소년: 세 명의 남부 청년이 대만어로 외지인의 외로움을 노래하다, 이십 년 후 세대의 목소리가 되다'",
     "description": "'2005년, 타이난 바닥에서 록 음악을 들으며 자란 세 명의 남자가 대만어로 노래를 쓰기로 결심했다. 목표는 조부모도 끄덕일 수 있는 노래를 만드는 것이었다. 어려운 점: 세 명 중 강강만이 어릴 때부터 대만어를 구사했다. 《해구미》에서 《소음아파트》까지, 네 장의 대만어 앨범, 세 차례 금음상(金音獎) 최우수 록, 두 차례 플라잉V 펀딩 기록 경신. 사과소년은 타지에서 일하는 노동자의 외로움을 온 세대의 공통 언어로 노래했다.'",
     "category": "ko",
@@ -1201,7 +1230,18 @@
   },
   {
     "title": "小虎隊",
-    "description": "1988年從華視選秀節目中誕生的小虎隊，由吳奇隆、陳志朋、蘇有朋組成，憑藉陽光活力形象與勵志舞曲，成為台灣第一個男子偶像團體，開啟華語流行音樂的青春偶像時代，並成為兩岸三地共同的青春記憶。",
+    "description": "1988年に華視（CTS）のオーディション番組から誕生した小虎隊は、吳奇隆、陳志朋、蘇有朋の3人で構成され、陽光で活力あるイメージとアップテンポなダンス曲により、台湾初の男性アイドルグループとして華々しくデビューしました。華語ポップミュージックにおける青春アイドルの時代を切り開き、台湾・香港・中国の3地域に共通する青春の記憶となりました。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/music/little-tigers-taiwan-boy-band",
+    "readingTime": 12,
+    "featured": false,
+    "date": "2026-03-24T23:00:00Z",
+    "path": "ja/Music/little-tigers-taiwan-boy-band.md"
+  },
+  {
+    "title": "小虎隊：買來的旋律，填上自己的青春",
+    "description": "1988 年華視一個選秀節目要找三個男生陪小貓隊唱跳，結果挑出一組翻唱日本歌、模仿日本少年隊的偶像團體。從五天賣二十萬張，到一路被粉絲從台北追到高雄，再到 1991 年開過海峽。零件幾乎全是進口的，台灣卻把它記成最堅固的一代青春，而最紅的三個身體後來都過了海峽。",
     "category": "Music",
     "tags": [
       "台灣流行音樂",
@@ -1211,21 +1251,10 @@
       "青春文化"
     ],
     "url": "https://taiwan.md/music/%E5%B0%8F%E8%99%8E%E9%9A%8A",
-    "readingTime": 8,
+    "readingTime": 40,
     "featured": false,
     "date": "2026-03-24",
     "path": "Music/小虎隊.md"
-  },
-  {
-    "title": "小虎隊",
-    "description": "1988年に華視（CTS）のオーディション番組から誕生した小虎隊は、吳奇隆、陳志朋、蘇有朋の3人で構成され、陽光で活力あるイメージとアップテンポなダンス曲により、台湾初の男性アイドルグループとして華々しくデビューしました。華語ポップミュージックにおける青春アイドルの時代を切り開き、台湾・香港・中国の3地域に共通する青春の記憶となりました。",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/music/little-tigers-taiwan-boy-band",
-    "readingTime": 12,
-    "featured": false,
-    "date": "2026-03-24T23:00:00Z",
-    "path": "ja/Music/little-tigers-taiwan-boy-band.md"
   },
   {
     "title": "小綠人：從交通號誌到國家符號的25年傳奇",
@@ -5657,7 +5686,7 @@
       "都市空間"
     ],
     "url": "https://taiwan.md/ja/art/graffiti-and-street-art-in-taiwan",
-    "readingTime": 11,
+    "readingTime": 14,
     "featured": false,
     "date": "2026-06-01",
     "path": "ja/Art/graffiti-and-street-art-in-taiwan.md"
@@ -9341,6 +9370,23 @@
     "path": "Culture/台灣廟會與陣頭文化.md"
   },
   {
+    "title": "台灣廣告史：賣掉的東西忘了，那首廣告歌還會哼",
+    "description": "1968 年大同電鍋的廣告歌在電視上響起，半世紀後台灣人還能接「大同大同國貨好」，卻沒人記得它原本是三洋的曲子。從日治《臺灣日日新報》的平面廣告，到只有三台的戒嚴年代把全島注意力綁在同一頻道，再到 2016 年數位廣告金額超越電視——台灣最被記得的廣告，賣的商品常被忘記，留下的卻是一整個時代的聲音。",
+    "category": "Culture",
+    "tags": [
+      "台灣廣告",
+      "廣告史",
+      "大同電鍋",
+      "吳念真",
+      "集體記憶"
+    ],
+    "url": "https://taiwan.md/culture/%E5%8F%B0%E7%81%A3%E5%BB%A3%E5%91%8A%E5%8F%B2",
+    "readingTime": 54,
+    "featured": false,
+    "date": "2026-06-14",
+    "path": "Culture/台灣廣告史.md"
+  },
+  {
     "title": "台灣影視配樂：從替畫面鋪情緒，到替一座島挖出自己的聲音",
     "description": "2001 年坎城放完《千禧曼波》，外國觀眾追問「Lim Giong 是誰」。台灣影視配樂常被講成規格愈來愈國際級——雪梨交響樂團、奧斯卡、坎城。但它真正的成熟不在技術升級，而在作曲家從哪裡取材：從 1980 年代模仿好萊塢的管弦，轉身鑽回月琴、歌仔戲、嗩吶喪葬樂與一首平埔族採集來的老調。在地的聲音，反而讓這座島被世界認得。",
     "category": "Music",
@@ -11336,17 +11382,6 @@
   },
   {
     "title": "呂冠緯",
-    "description": "台大醫學系畢業、棄醫從教的均一教育平台董事長兼執行長，用 AI 適性學習讓 528 萬台灣孩子按自己步調前進，真正把「教育平權」從口號變日常。",
-    "category": "People",
-    "tags": [],
-    "url": "https://taiwan.md/people/%E5%91%82%E5%86%A0%E7%B7%AF",
-    "readingTime": 7,
-    "featured": false,
-    "date": "2026-04-05",
-    "path": "People/呂冠緯.md"
-  },
-  {
-    "title": "呂冠緯",
     "description": "台大医学部を卒業し、医師の道を捨てて教育の道を選んだ均一教育プラットフォームの董事長兼CEO。AI適性学習を通じて台湾の528万人の子どもたちが自分のペースで学べるようにし、「教育の機会均等」をスローガンから日常に変えた人物です。",
     "category": "ja",
     "tags": [],
@@ -11355,6 +11390,17 @@
     "featured": false,
     "date": "2026-04-05",
     "path": "ja/People/lu-guan-wei-junyiacademy-founder.md"
+  },
+  {
+    "title": "呂冠緯：考過醫師執照卻沒披上白袍，他賭一件比救人更難證明的事",
+    "description": "他考過醫師執照卻沒披上白袍，接下方新舟的均一教育平台，要用線上自學抹平台灣的教育落差。但全球研究幾乎一面倒：這種工具最幫得到本來就不缺的孩子。十二年過去，他賭的事至今沒有獨立證據能證明成了，而他面對「無法證明」的方式，比他放棄了什麼更值得記得。",
+    "category": "People",
+    "tags": [],
+    "url": "https://taiwan.md/people/%E5%91%82%E5%86%A0%E7%B7%AF",
+    "readingTime": 60,
+    "featured": false,
+    "date": "2026-04-05",
+    "path": "People/呂冠緯.md"
   },
   {
     "title": "呉百福（安藤百福）：嘉義朴子から世界の食卓へ、台湾の遺産と日本の包装が生んだグローバルな伝説",
@@ -12072,6 +12118,17 @@
     "featured": false,
     "date": "2026-03-23",
     "path": "People/沈聖博.md"
+  },
+  {
+    "title": "見えない国：ある米国人監督が七年間シャッターを押し、世界が見ないと決めた島を撮った",
+    "description": "2025 年 6 月の台湾の映画館で、米国人が撮った一本のドキュメンタリーが興行収入 3,700 万台湾ドルを突破し、台湾ドキュメンタリー映画史上第 3 位に入りました。ヴァネッサ・ホープは七年をかけ、蔡英文に五回密着インタビューを行い、国連から排除され、外交関係を持つ国が 22 から 12 に減り、五輪では「チャイニーズ・タイペイ」としか呼ばれない島をカメラの前に押し出しました。しかし最も問われたのは、台湾を「見える」ようにするはずのこの作品が、誰をフレームの外に残したのかという点でした。見ることは、いつも地位ではなく行為なのです。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/art/invisible-nation",
+    "readingTime": 81,
+    "featured": true,
+    "date": "2026-06-13",
+    "path": "ja/Art/invisible-nation.md"
   },
   {
     "title": "言語的多様性と母語文化",
@@ -13759,6 +13816,24 @@
     "featured": false,
     "date": "2026-04-18",
     "path": "ja/People/aljenljeng-tjaluvie-abao.md"
+  },
+  {
+    "title": "青と緑を越える四つの物差し：一枚の田から一枚の健保カードまで、台湾で自らの政治を越えて生き残った政策",
+    "description": "ある読者は、青と緑が食卓で罵り合う光景にうんざりし、本当に台湾にとってよかったことを記憶したいと考えました。そこで私たちは、過去七十年の十一の政策を取り上げました。権威主義体制が農地を強制徴収した土地改革、戒厳令解除、全民健康保険から、今なお議論が続く同性婚と前瞻基礎建設までです。あえて青と緑の物差しでは測らず、民生、民主、民権、主権という四つの物差しで見直しました。結論は少し直感に反します。自らの党派的出自を越えて生き残った政策は、生まれたその日にこそ、最も激しく争われていたことが多いのです。",
+    "category": "ja",
+    "tags": [
+      "台湾史",
+      "政策",
+      "民主化",
+      "党派横断",
+      "移行期正義",
+      "政策と制度"
+    ],
+    "url": "https://taiwan.md/ja/history/bipartisan-good-policy",
+    "readingTime": 103,
+    "featured": false,
+    "date": "2026-06-13",
+    "path": "ja/History/bipartisan-good-policy.md"
   },
   {
     "title": "侯孝賢",
@@ -17865,18 +17940,19 @@
     "path": "ja/Culture/wretch.md"
   },
   {
-    "title": "無名小站：從學生宿舍到台灣網路記憶的守護者",
-    "description": "一個被「撿破爛」起家的學生專案，如何成為影響整整一代台灣人的社群平台？",
+    "title": "無名小站：撿來的電腦，賣掉的青春，和一場沒人送葬的消失",
+    "description": "1999 年交大宿舍，六個資工系學生用系上報廢的設備拼出一個叫「無名小卒」的 BBS。它長成全台最大的部落格、台灣創作者經濟的子宮，2008 年甚至爬到 Yahoo 頭上成為第一大網站。然後 Yahoo 把它買走，2013 年 12 月 26 日那晚連同一代人的相簿一起刪掉，如今多數人只撈得回打不開的空相簿。它被記成青春，但那個青春從頭就放在別人關得掉的伺服器上。",
     "category": "Culture",
     "tags": [
       "網路歷史",
       "社群媒體",
       "BBS",
       "部落格",
-      "Yahoo併購"
+      "Yahoo併購",
+      "數位保存"
     ],
     "url": "https://taiwan.md/culture/%E7%84%A1%E5%90%8D%E5%B0%8F%E7%AB%99",
-    "readingTime": 12,
+    "readingTime": 48,
     "featured": false,
     "date": "2026-03-23",
     "path": "Culture/無名小站.md"
@@ -19822,7 +19898,7 @@
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/history/green-island-prison",
-    "readingTime": 25,
+    "readingTime": 28,
     "featured": false,
     "date": "2026-05-15",
     "path": "ja/History/green-island-prison.md"
@@ -28639,7 +28715,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/food/portuguese-egg-tart-in-taiwan",
-    "readingTime": 40,
+    "readingTime": 46,
     "featured": false,
     "date": "2026-06-01",
     "path": "en/Food/portuguese-egg-tart-in-taiwan.md"
@@ -30491,6 +30567,17 @@
     "path": "en/Nature/formosan-sambar-deer.md"
   },
   {
+    "title": "Four Measures Beyond Blue and Green: From a Plot of Land to a National Health Insurance Card, the Taiwan Policies That Outlived Their Own Politics",
+    "description": "A reader, tired of blue-green bickering at the dinner table, wanted to remember the things that truly helped Taiwan. So we found eleven policies from the past seventy years, from land reform that coercively expropriated farmland under authoritarian rule, the lifting of martial law, and National Health Insurance, to same-sex marriage and the Forward-looking Infrastructure Development Program, both still contested. We deliberately set aside the blue-green yardstick and used four measures instead: livelihood, democracy, civil rights, and sovereignty. The conclusion is a little counterintuitive: policies that outlive their own partisan origins are often the ones that were most fiercely contested on the day they were born.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/history/bipartisan-good-policy",
+    "readingTime": 244,
+    "featured": false,
+    "date": "2026-06-13",
+    "path": "en/History/bipartisan-good-policy.md"
+  },
+  {
     "title": "From Deserts Chang to Anpu — Two Names, One Question",
     "description": "She wrote 'Baby' at 13, was banned from China at 32 over a flag, and killed her own stage name at 34. Chiao An-pu used two lives to answer a question every Taiwanese person is asking: which side are you on?",
     "category": "en",
@@ -30728,7 +30815,7 @@
       "espace urbain"
     ],
     "url": "https://taiwan.md/fr/art/graffiti-and-street-art-in-taiwan",
-    "readingTime": 29,
+    "readingTime": 34,
     "featured": false,
     "date": "2026-06-01",
     "path": "fr/Art/graffiti-and-street-art-in-taiwan.md"
@@ -30744,7 +30831,7 @@
       "espacio urbano"
     ],
     "url": "https://taiwan.md/es/art/graffiti-and-street-art-in-taiwan",
-    "readingTime": 27,
+    "readingTime": 32,
     "featured": false,
     "date": "2026-06-01",
     "path": "es/Art/graffiti-and-street-art-in-taiwan.md"
@@ -30755,7 +30842,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/history/green-island-prison",
-    "readingTime": 60,
+    "readingTime": 65,
     "featured": false,
     "date": "2026-05-15",
     "path": "en/History/green-island-prison.md"
@@ -33011,6 +33098,17 @@
     "featured": false,
     "date": "2026-05-07",
     "path": "es/Lifestyle/taiwan-hairstyles.md"
+  },
+  {
+    "title": "Invisible Nation: An American Director Spent Seven Years Pressing the Shutter, Filming a Taiwan the World Decided Not to See",
+    "description": "In Taiwan theaters in June 2025, a documentary made by an American grossed more than NT$37 million and became the third-highest-grossing documentary in Taiwan''s film history. Vanessa Hope spent seven years and conducted five close-range interviews with Tsai Ing-wen, pushing before the camera a Taiwan removed from the United Nations, whose diplomatic allies fell from 22 to 12, and which can compete in the Olympics only as \"Chinese Taipei.\" But the sharpest question about this film, made to let Taiwan \"be seen,\" is whom it itself leaves outside the frame: seeing has never been a status, but an act.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/art/invisible-nation",
+    "readingTime": 167,
+    "featured": true,
+    "date": "2026-06-13",
+    "path": "en/Art/invisible-nation.md"
   },
   {
     "title": "Islam in Taiwan: From Quanzhou Guo-clan Ancestors to the Faith Mosaic of 300,000 Migrant Workers",
@@ -36504,6 +36602,17 @@
     "path": "fr/Music/guoyue-chinese-instruments.md"
   },
   {
+    "title": "La nación invisible: una directora estadounidense apretó el obturador durante siete años para filmar una isla que el mundo decidió no mirar",
+    "description": "En junio de 2025, en los cines de Taiwán, un documental filmado por una estadounidense superó los 37 millones de dólares taiwaneses de taquilla y llegó al tercer lugar histórico entre los documentales. Vanessa Hope dedicó siete años y cinco entrevistas de acceso cercano con Tsai Ing-wen a poner frente a la cámara a una isla expulsada de la ONU, cuyos aliados diplomáticos cayeron de 22 a 12, y que en los Juegos Olímpicos sólo puede llamarse «Taipéi Chino». Pero lo más cuestionado de esta película que quiere hacer que Taiwán «sea visto» es a quién dejó ella misma fuera del encuadre: ver nunca es un estatus, sino una acción.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/art/invisible-nation",
+    "readingTime": 179,
+    "featured": true,
+    "date": "2026-06-13",
+    "path": "es/Art/invisible-nation.md"
+  },
+  {
     "title": "La naissance d'un enseignant : quarante ans de réforme et d'effondrement du système de formation des enseignants à Taïwan",
     "description": "En 1994, Taïwan a ouvert la formation des enseignants à toutes les universités, mettant fin à un monopole de cinquante ans. Trente ans plus tard, le bilan est sévère : le nombre d'universités pédagogiques spécialisées est passé de 9 à 3, les admissions en formation n'atteignent plus les quotas, et le taux de réussite au concours d'enseignement a chuté à 52 %. Une réforme bien intentionnée a creusé l'écart entre les futurs enseignants et les réalités du terrain.",
     "category": "fr",
@@ -36670,7 +36779,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/history/green-island-prison",
-    "readingTime": 67,
+    "readingTime": 73,
     "featured": false,
     "date": "2026-05-15",
     "path": "fr/History/green-island-prison.md"
@@ -37202,6 +37311,17 @@
     "featured": false,
     "date": "2026-03-18",
     "path": "es/History/taiwan-strait-crises-and-cross-strait-relations.md"
+  },
+  {
+    "title": "Las cuatro medidas más allá del azul y el verde: de una parcela a una tarjeta del seguro de salud, las políticas de Taiwán que sobrevivieron a su propia política",
+    "description": "Un lector, cansado de los insultos entre azules y verdes en la mesa familiar, quería recordar las cosas que de verdad fueron buenas para Taiwán. Así que buscamos once políticas de los últimos setenta años: desde la reforma agraria que expropió tierras bajo el autoritarismo, el levantamiento de la ley marcial y el Seguro Nacional de Salud, hasta el matrimonio igualitario y el plan de infraestructura prospectiva, que todavía generan disputa. Deliberadamente no usamos la vara azul-verde, sino cuatro medidas: medios de vida, democracia, derechos civiles y soberanía. La conclusión es algo contraintuitiva: las políticas que sobreviven a su propio origen partidario suelen haber nacido el día en que más se discutía por ellas.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/history/bipartisan-good-policy",
+    "readingTime": 263,
+    "featured": false,
+    "date": "2026-06-13",
+    "path": "es/History/bipartisan-good-policy.md"
   },
   {
     "title": "Las dos caras de la calle Shengli: del golpe blindado al 'gran aparcamiento' en la memoria de Hukou",
@@ -37846,6 +37966,17 @@
     "featured": true,
     "date": "2026-05-07",
     "path": "fr/Society/paraguay-taiwan.md"
+  },
+  {
+    "title": "Le pays invisible : une réalisatrice américaine a déclenché pendant sept ans pour filmer une île que le monde a décidé de ne pas voir",
+    "description": "En juin 2025, dans les cinémas de Taïwan, un documentaire tourné par une Américaine a dépassé 37 millions de dollars taïwanais de recettes et s'est hissé au troisième rang de l'histoire du documentaire dans l'île. Vanessa Hope a consacré sept ans au film, avec cinq entretiens au plus près de Tsai Ing-wen, pour placer devant la caméra une île exclue de l'ONU, passée de 22 à 12 alliés diplomatiques, et contrainte de concourir aux Jeux olympiques sous le nom de « Taipei chinois ». Mais ce qui a été le plus contesté, dans ce film censé rendre Taïwan « visible », c'est aussi la question de savoir qui il laisse lui-même hors champ : voir n'a jamais été un statut, c'est toujours un geste.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/art/invisible-nation",
+    "readingTime": 183,
+    "featured": true,
+    "date": "2026-06-13",
+    "path": "fr/Art/invisible-nation.md"
   },
   {
     "title": "Le paysage sonore de Taïwan",
@@ -43686,7 +43817,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/history/green-island-prison",
-    "readingTime": 67,
+    "readingTime": 72,
     "featured": false,
     "date": "2026-05-15",
     "path": "es/History/green-island-prison.md"
@@ -44219,6 +44350,17 @@
     "featured": false,
     "date": "2026-03-21",
     "path": "fr/Economy/taiwanese-companies-quanta-computer.md"
+  },
+  {
+    "title": "Quatre critères au-delà du bleu et du vert : d’un champ à une carte d’assurance maladie, ces politiques taïwanaises qui ont survécu à leur propre politique",
+    "description": "Un lecteur, lassé des invectives bleu-vert à table, voulait se souvenir de ce qui avait réellement été bénéfique pour Taïwan. Nous avons donc retenu onze politiques sur soixante-dix ans, de la réforme agraire menée par réquisition autoritaire des terres agricoles à la levée de la loi martiale et à l’assurance maladie universelle, jusqu’au mariage pour tous et au plan d’infrastructures prospectives, encore débattus. Nous avons délibérément renoncé au critère bleu-vert pour leur substituer quatre critères : conditions de vie, démocratie, droits civiques et souveraineté. La conclusion est quelque peu contre-intuitive : les politiques qui survivent à leur origine partisane sont souvent celles qui, le jour de leur naissance, ont suscité les querelles les plus vives.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/history/bipartisan-good-policy",
+    "readingTime": 278,
+    "featured": false,
+    "date": "2026-06-13",
+    "path": "fr/History/bipartisan-good-policy.md"
   },
   {
     "title": "Quels sont les zoos de Taïwan : le plus ancien n'est pas à Muzha, le plus grand n'est pas qu'un zoo",
@@ -47495,7 +47637,7 @@
       "Urban Space"
     ],
     "url": "https://taiwan.md/en/art/graffiti-and-street-art-in-taiwan",
-    "readingTime": 25,
+    "readingTime": 30,
     "featured": false,
     "date": "2026-06-01",
     "path": "en/Art/graffiti-and-street-art-in-taiwan.md"
@@ -49855,7 +49997,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/food/portuguese-egg-tart-in-taiwan",
-    "readingTime": 45,
+    "readingTime": 51,
     "featured": false,
     "date": "2026-06-01",
     "path": "es/Food/portuguese-egg-tart-in-taiwan.md"
@@ -49866,7 +50008,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/food/portuguese-egg-tart-in-taiwan",
-    "readingTime": 47,
+    "readingTime": 53,
     "featured": false,
     "date": "2026-06-01",
     "path": "fr/Food/portuguese-egg-tart-in-taiwan.md"
@@ -54946,7 +55088,7 @@
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/history/green-island-prison",
-    "readingTime": 28,
+    "readingTime": 31,
     "featured": false,
     "date": "2026-05-15",
     "path": "ko/History/green-island-prison.md"
@@ -60335,7 +60477,7 @@
       "소비 심리"
     ],
     "url": "https://taiwan.md/ko/food/portuguese-egg-tart-in-taiwan",
-    "readingTime": 22,
+    "readingTime": 25,
     "featured": false,
     "date": "2026-06-01",
     "path": "ko/Food/portuguese-egg-tart-in-taiwan.md"
@@ -63042,7 +63184,7 @@
       "도시 공간"
     ],
     "url": "https://taiwan.md/ko/art/graffiti-and-street-art-in-taiwan",
-    "readingTime": 12,
+    "readingTime": 15,
     "featured": false,
     "date": "2026-06-01",
     "path": "ko/Art/graffiti-and-street-art-in-taiwan.md"
@@ -64734,7 +64876,7 @@
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/food/portuguese-egg-tart-in-taiwan",
-    "readingTime": 20,
+    "readingTime": 23,
     "featured": false,
     "date": "2026-06-01",
     "path": "ja/Food/portuguese-egg-tart-in-taiwan.md"
