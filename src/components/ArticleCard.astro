@@ -477,12 +477,19 @@ const classes = ['article-card', densityClass, extraClass]
     opacity: 0.55;
   }
   @media (max-width: 768px) {
+    /* 手機改直向堆疊：圖上文下（縮圖移到卡片最頂、滿版橫幅，維持 16:10）— 2026-06-13 哲宇 */
+    .article-card.is-detailed {
+      flex-direction: column;
+    }
     .article-card.is-detailed .article-card-thumbwrap {
-      width: 96px;
-      height: 96px;
+      order: -1;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 10;
+      align-self: stretch;
     }
     .article-card.is-detailed .article-card-thumb-ph {
-      font-size: 24px;
+      font-size: 36px;
     }
   }
   .article-card.is-detailed .article-card-body {
