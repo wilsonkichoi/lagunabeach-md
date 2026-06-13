@@ -1019,17 +1019,22 @@ Stage 1 spawn 研究 agent 時，**必須先判斷需不需要直接落檔**：
 - AI 生成圖片（暫時禁用，紀實 portrait 永遠禁用）
 - GIF / HEIC / BMP / TIFF（須先轉 JPG 才入庫）
 
-**授權檢查 SOP**（每張圖入庫前必跑）：
+**🔧 影像後處理 SSOT — `image-ingest.mjs`**（2026-06-13 儀器化，REFLEXES #15 + #30）：下載 / magic-byte 格式驗 / EXIF 清除 / 縮放上限 / **WebP 轉檔** / size budget 壓縮 / 命名規範 / aspect 護欄 / attribution stub 一條龍，取代手跑 curl + sips。sharp-based（Astro 已帶，cross-platform）。
 
 ```bash
-# Step 1: WebFetch 圖片頁面確認 license badge + 取 hi-res URL + caption + credit
-# 對 Wikimedia Commons / Flickr，逐字引用「License」段落
-# 對 NASA，預設 PD 但 WebFetch 確認該圖頁面有「Public domain」標示
+# ingest 一張（下載→驗→清 EXIF→縮放→轉 WebP→壓到 budget→命名→cache→印 md/§圖片來源/授權矩陣 row）
+node scripts/tools/image-ingest.mjs ingest --src <URL|path> --cat <Category> \
+  --name <subject>-<topic>-<year> --role hero|inline [--format webp|jpg|png] \
+  --alt "具體 alt" --credit "..." --license "..." --source-url "https://commons.wikimedia.org/wiki/File:..."
 
-# Step 2: 落 metadata 進 reports/research/YYYY-MM/{slug}.md §媒體授權矩陣
+# check 檢驗 gate（格式白名單 / aspect / size budget / EXIF 殘留）— pre-commit / CI 可掛
+node scripts/tools/image-ingest.mjs check public/article-images/{cat}/<name>.webp --role hero
 
-# Step 3: 確認 attribution 完整（攝影者 / 拍攝日期 / source URL / license type）
+# audit 全站體檢（格式分佈 / 超標 / EXIF 洩漏 / WebP 遷移面）
+node scripts/tools/image-ingest.mjs audit [--cat <Category>]
 ```
+
+**授權仍是 human 判斷，tool 不查授權**：研究階段（Step 1.9）WebFetch File 頁逐字引用 license + 落 §媒體授權矩陣；REFLEXES #31 主 session 重驗每張 license（agent / manifest 的 license claim 是線索不是事實），確認後才把 `--credit/--license/--source-url` 交 tool 入庫。tool 只負責「驗證過的圖 → 乾淨入庫」。
 
 **格式規範**：
 
@@ -1037,7 +1042,7 @@ Stage 1 spawn 研究 agent 時，**必須先判斷需不需要直接落檔**：
 ✅ JPG (.jpg) — 預設：人像 / 風景 / 紀實照。sRGB / quality 80-90 / 無 EXIF GPS
                 hero < 600KB / inline < 400KB
 ✅ PNG (.png) — 插圖 / 圖表 / 透明背景 logo / 螢幕截圖。8-bit RGBA / < 800KB
-✅ WEBP (.webp) — 未來預設（Astro Image 自動轉換時）
+✅ WEBP (.webp) — **2026-06-13 起新媒體預設**（`image-ingest --format webp` source-level 轉檔；Astro passthrough 直送，瀏覽器全支援。既有 jpg/png 待全站遷移 roadmap）
 ✅ SVG (.svg) — vector logo / 簡單插圖。< 50KB / 無外部 reference / 文字 outline
 ❌ GIF / HEIC / BMP / TIFF — 禁用
 ```
@@ -1063,7 +1068,7 @@ public/article-images/history/twenty-eight-incident-monument-2025.jpg
 | 1:1 方形            | 接近方形 1:1 ± 10%                 | 1600×1600            | hero 也接受（如 EMU 1692×1691） |
 | **絕對禁止 hero**   | 9:16 portrait（高 > 寬 1.5x 以上） | —                    | Astro 一定切到頭                |
 
-強制檢查：每張圖 fetch 時 `bash scripts/tools/check-aspect.sh {filename}` 看尺寸。Hero aspect 必過 0.9 ≤ ratio ≤ 2.0；inline 必過 0.75 ≤ ratio ≤ 2.5。不過 → **換圖**（不要強塞）。
+強制檢查：`image-ingest ingest` 入庫時自動報 aspect（亦可 `image-ingest check <file> --role hero` 或舊 `check-aspect.sh` 單跑）。Hero aspect 必過 0.9 ≤ ratio ≤ 2.0；inline 必過 0.75 ≤ ratio ≤ 2.5。不過 → **換圖**（不要強塞，tool 不自動裁切，裁切是編輯判斷）。
 
 #### Step 1.9.3: transcript 素材
 
