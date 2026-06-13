@@ -116,8 +116,17 @@ function knowledgePathToUrl(p) {
 function main() {
   let log = '';
   try {
+    // `-z` = NUL-separated raw paths (immune to git's core.quotepath octal-escaping
+    // of non-ASCII filenames). `-c core.quotepath=false` is belt-and-suspenders.
+    // ROOT CAUSE of the 2026-06-14 /latest collapse: a `--numstat` rewrite (without
+    // -z) was parsed with a `knowledge/.+\.md` regex; it worked locally only because
+    // this dev's git config had core.quotepath=false, but CI's default is TRUE →
+    // every CJK-named article path came back octal-escaped ("knowledge/People/\\350…")
+    // → regex missed them → CJK articles got no date → /latest showed only ASCII-slug
+    // articles. Build scripts MUST be invariant to local git config: use -z and/or
+    // pin core.quotepath. Never trust a git-text parser that "works on my machine".
     log = execSync(
-      'git log --full-history -z --name-only --format="COMMIT|%H|%aI|%s" -- knowledge/',
+      'git -c core.quotepath=false log --full-history -z --name-only --format="COMMIT|%H|%aI|%s" -- knowledge/',
       { encoding: 'utf-8', maxBuffer: 256 * 1024 * 1024 },
     );
   } catch (e) {

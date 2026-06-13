@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-06-13T16:35:45.099Z",
+  "_generated": "2026-06-13T17:13:24.482Z",
   "perLang": 30,
   "byLang": {
     "zh-TW": [
@@ -28,10 +28,50 @@
         "readingTime": null
       },
       {
+        "title": "造山者：世紀的賭注 — 一部沒張忠謀的 TSMC 史詩，從新竹拍到普渡",
+        "desc": "2025 年 6 月某個傍晚，84 歲的張忠謀夫婦自費買了兩張票走進信義威秀。電影裡沒有他正面受訪的鏡頭——他正在寫自傳下冊。蕭菊貞花五年訪了 80 多位前輩，從小欣欣豆漿店 1974 年那場早餐會報拍到 2025 年魏哲家進白宮，《造山者：世紀的賭注》（A Chip Odyssey）成為台灣紀錄片影史前五，2026 年走進普渡、威斯康辛、密西根三所 CHIPS Act 投資重鎮的大學講堂。",
+        "category": "art",
+        "href": "/art/%E9%80%A0%E5%B1%B1%E8%80%85%E4%B8%96%E7%B4%80%E7%9A%84%E8%B3%AD%E6%B3%A8",
+        "date": "2026-06-13T17:29:18+08:00",
+        "readingTime": null
+      },
+      {
+        "title": "沈伯洋：他研究中國認知戰，後來中國把他畫在衛星圖上",
+        "desc": "二〇二一年沈伯洋與戰略學者何澄輝共同創辦黑熊學院，曹興誠捐六億支持，目標三年訓練三百萬民防志士。二〇二四年二月以民進黨不分區立委身份入國會。二〇二五年十月二十八日，他成為首位被中國以「分裂國家罪」立案偵查的台灣民選政治人物，央視配上「起底」專題警告「下一個就是你」。二〇二六年元旦中國微博帳號用商用衛星公布他在台北的住家與工作地座標；情人節他在飛往法國的飛機上度過。",
+        "category": "people",
+        "href": "/people/%E6%B2%88%E4%BC%AF%E6%B4%8B",
+        "date": "2026-06-13T17:29:18+08:00",
+        "readingTime": 17
+      },
+      {
+        "title": "蔡英文：從 80 萬票敗選到 817 萬票連任的第一位女總統",
+        "desc": "台灣第一位女總統（2016-2024），國際貿易法學者出身，任內完成亞洲首部同婚專法、代表政府向原住民族道歉，排灣族後裔",
+        "category": "people",
+        "href": "/people/%E8%94%A1%E8%8B%B1%E6%96%87",
+        "date": "2026-06-13T16:08:35+08:00",
+        "readingTime": null
+      },
+      {
+        "title": "中華台北：那張讓台灣上場、卻印不上自己名字的入場券",
+        "desc": "1960 年羅馬奧運，台灣代表團舉著「UNDER PROTEST」白布條走進開幕式，是奧運史上唯一一次開幕抗議。從蔣經國拒絕國際奧會給的「台灣」、徐亨告贏 IOC、洛桑協議換來梅花旗與會歌，到 2018 年運動員自己投票否決正名——這個名字四十年沒換，但站在頒獎台上進退兩難的，始終是要靠它才能上場的選手，不是吵名字的政治人物。",
+        "category": "society",
+        "href": "/society/%E4%B8%AD%E8%8F%AF%E5%8F%B0%E5%8C%97",
+        "date": "2026-06-13T16:08:35+08:00",
+        "readingTime": null
+      },
+      {
         "title": "台灣統獨光譜：四個立場加一個現狀，三十年悄悄重畫的認同地圖",
         "desc": "2026 年 5 月，川習會後的七天裡，賴清德兩度公開重申台灣主權，但他用了三個不同的名稱：「中華民國」、「中華民國台灣」、「台灣」。一個總統把三個名稱壓成同一句「都是主權獨立」，正是當代統獨爭議的縮影。1994 年「永遠維持現狀」9.8%，2023 年升到 33.2%；三十年來，二元框架描述的台灣已經不在這裡。",
         "category": "society",
         "href": "/society/%E5%8F%B0%E7%81%A3%E7%B5%B1%E7%8D%A8%E5%85%89%E8%AD%9C",
+        "date": "2026-06-13T16:08:35+08:00",
+        "readingTime": null
+      },
+      {
+        "title": "太陽花學運——那三十秒之後的十二年",
+        "desc": "一個立委趴在地上用領口麥克風唸了三十秒，觸發二十四天的國會佔領、一個世代的政治覺醒，以及台灣經濟從中國轉向的起點。十二年後，學生要求的法律沒有通過，但他們贏了一場自己不知道在打的戰爭。",
+        "category": "society",
+        "href": "/society/%E5%A4%AA%E9%99%BD%E8%8A%B1%E5%AD%B8%E9%81%8B",
         "date": "2026-06-13T16:08:35+08:00",
         "readingTime": null
       },
@@ -52,12 +92,28 @@
         "readingTime": 11
       },
       {
+        "title": "台灣新媒體藝術",
+        "desc": "從1980年代錄像先驅到威尼斯VR大獎，16位關鍵藝術家與40年數位藝術革命的完整脈絡。台灣如何用程式碼寫詩，在國際藝術版圖刻下自己的名字。",
+        "category": "art",
+        "href": "/art/%E5%8F%B0%E7%81%A3%E6%96%B0%E5%AA%92%E9%AB%94%E8%97%9D%E8%A1%93",
+        "date": "2026-06-12T22:07:01+08:00",
+        "readingTime": null
+      },
+      {
         "title": "justfont 與台灣字體發展：用一種台灣茶的名字，把做字的人帶到陽光下",
         "desc": "2015 年 9 月 8 日上午，一套以台灣茶命名的字型「金萱」在 flyingV 上線，76 分鐘衝破 150 萬門檻，最終 7,667 人集資 2,593 萬元。全民天天讀它的字，市場卻曾小到養不活任何一家造字公司。從華康的細明體、太原路上的鉛字，到畫佛像出身的林霞，這是台灣把做字的人帶到陽光下的故事。",
         "category": "technology",
         "href": "/technology/justfont%E8%88%87%E5%8F%B0%E7%81%A3%E5%AD%97%E9%AB%94%E7%99%BC%E5%B1%95",
         "date": "2026-06-12T22:07:01+08:00",
         "readingTime": 18
+      },
+      {
+        "title": "報導者：把調查報導從營業項目救成公共財的十年",
+        "desc": "2015 年 9 月 1 日記者節，何榮幸和張鐵志開記者會宣布成立由童子賢初始捐助 500 萬元的《報導者》。十年後，這個拒絕廣告、不接政府標案、不顯示點閱率的非營利媒體，年募款額從 3,400 萬翻到 5,200 萬，連續多年拿下 SOPA 與卓越新聞獎。他們做的事情，是把調查報導從商業媒體的營業項目，救成靠陌生讀者每月扣款撐起來的公共財。",
+        "category": "society",
+        "href": "/society/%E5%A0%B1%E5%B0%8E%E8%80%85",
+        "date": "2026-06-12T22:07:01+08:00",
+        "readingTime": null
       },
       {
         "title": "選舉過程：從空票匭到深夜開票，一場全民參與的民主儀式",
@@ -76,12 +132,36 @@
         "readingTime": 28
       },
       {
+        "title": "台灣原住民族歷史與正名運動",
+        "desc": "1987年，一個19歲的鄒族青年在台北刑場被槍決。他的死，點燃了正名運動最初的火。",
+        "category": "history",
+        "href": "/history/%E5%8F%B0%E7%81%A3%E5%8E%9F%E4%BD%8F%E6%B0%91%E6%97%8F%E6%AD%B7%E5%8F%B2%E8%88%87%E6%AD%A3%E5%90%8D%E9%81%8B%E5%8B%95",
+        "date": "2026-06-11T08:33:06+08:00",
+        "readingTime": null
+      },
+      {
+        "title": "日治時期",
+        "desc": "1895-1945年日本統治台灣50年，帶來全面現代化建設與制度化管理，同時實施同化政策，深刻影響台灣社會發展",
+        "category": "history",
+        "href": "/history/%E6%97%A5%E6%B2%BB%E6%99%82%E6%9C%9F",
+        "date": "2026-06-11T08:33:06+08:00",
+        "readingTime": null
+      },
+      {
         "title": "莫那·魯道：被刻上二十元硬幣的抗日英雄，和那個沒有中國也沒有日本的世界",
         "desc": "2001 年，台灣央行把抗日英雄莫那·魯道的臉刻上二十元硬幣。但造幣廠找遍國內史料都沒有他的照片，最後是在一本日文雜誌裡撈出來的。從 1930 年霧社運動會那個清晨，到一具當了約四十年人類學標本的遺骸，三個政權各自需要他。而他真正捍衛的那個有彩虹橋、紋面、Gaya 的世界裡，從來沒有中國，也沒有日本。",
         "category": "people",
         "href": "/people/%E8%8E%AB%E9%82%A3%C2%B7%E9%AD%AF%E9%81%93",
         "date": "2026-06-11T08:33:06+08:00",
         "readingTime": 20
+      },
+      {
+        "title": "台灣原住民族土地正義與傳統領域",
+        "desc": "探討台灣原住民族土地權利的歷史脈絡、法律發展、傳統領域劃設爭議與原住民族轉型正義委員會的工作成果",
+        "category": "society",
+        "href": "/society/%E5%8F%B0%E7%81%A3%E5%8E%9F%E4%BD%8F%E6%B0%91%E6%97%8F%E5%9C%9F%E5%9C%B0%E6%AD%A3%E7%BE%A9%E8%88%87%E5%82%B3%E7%B5%B1%E9%A0%98%E5%9F%9F",
+        "date": "2026-06-11T08:33:06+08:00",
+        "readingTime": 9
       },
       {
         "title": "魏德聖：永康1969，《海角七號》破億票房到威尼斯主競賽的台灣史詩導演",
@@ -156,95 +236,39 @@
         "readingTime": 24
       },
       {
-        "title": "台灣的五到九年級生：草莓罵了三十年換三批人，斜掉的是腳下那座扶梯",
-        "desc": "1993 年「草莓族」第一次印出來時，罵的是現在最愛懷舊養樂多的五年級生。三十年來被罵的人換了好幾批，標籤一字沒改。真正在五到九年級之間移動的，是那座「努力就有回報」的扶梯：它在 2002 年前後變慢，入口被房價拉高，然後裂成兩條，純靠薪水的那條近乎停了，靠父母資本的那條還在動。",
-        "category": "society",
-        "href": "/society/%E5%8F%B0%E7%81%A3%E7%9A%84%E5%B9%B4%E7%B4%9A%E7%94%9F%E4%B8%96%E4%BB%A3",
-        "date": "2026-06-08T20:11:24+08:00",
-        "readingTime": 18
-      },
-      {
-        "title": "黃山料：世界冠軍的衣服沒人看，他改賣「一句話的安慰」",
-        "desc": "2014 年，一個金門小吃店之子穿著名為「金門1969」的軍裝設計，走上倫敦畢業展時裝週的伸展台，拿下國際首獎——回台灣求職卻被 HR 當成假履歷，因為「查不到任何報導」。他憤而自己做媒體，再轉行寫起一行不超過 28 字的療癒短句，累計賣破 30 萬本。那一櫃講戰地史的衣服沒人看，他改賣「一句話的安慰」：台灣的注意力市場買的是滑一眼就讀完的句子，不是做出來的東西。",
+        "title": "壞特?te：醫學系讀九年的優等生，按下暫停鍵的那場休學",
+        "desc": "2021 年 8 月 21 日，戴著黑帽墨鏡的壞特?te 上台領第 32 屆金曲獎最佳新人獎。她對著鏡頭說：「請你們不要害怕。」她本名林芝儀、新竹香山人、新竹女中、國防醫學院醫學系讀了九年，含大三那年的休學一年、含延畢一年（兩年實習因沒跟診花三年完成）。她完成實習醫師訓練、取得醫學士學位，得獎時白天還在開刀房戴口罩當實習醫師。台灣最會讀書的賽道上，她按下暫停鍵的那一年。",
         "category": "people",
-        "href": "/people/%E9%BB%83%E5%B1%B1%E6%96%99",
-        "date": "2026-06-07T19:42:30+08:00",
-        "readingTime": 12
-      },
-      {
-        "title": "複雜生活節：兩個醫學生的「未成功者論壇」，和一個世代不肯說自己夠好的五年",
-        "desc": "2016 年 5 月，許皓甯在臉書標了一串「把生活搞得很累」的八年級，跟同學黃豆泥辦了第一屆「未成功者論壇」。一個中醫師、一個後來去哈佛的西醫，把上一代被商業收編的「簡單」改寫成「複雜」，只准談成長不准談成功。五年後靈魂留在台中開書店選輸議員，助手回頭把它叫做「皓甯的代表作，封存於此」：未成功到底是謙詞，還是一個世代始終差那麼一點點的自我要求。",
-        "category": "society",
-        "href": "/society/%E8%A4%87%E9%9B%9C%E7%94%9F%E6%B4%BB%E7%AF%80",
-        "date": "2026-06-07T18:56:12+08:00",
-        "readingTime": null
-      },
-      {
-        "title": "台灣氣候危機與淨零轉型：核三公投沒過那天，物理上限的選擇才剛開始",
-        "desc": "2025 年 8 月 23 日核三延役公投：434 萬同意票、74% 贊成，投票率 29.53% 沒到門檻。公投沒過，隔天賴清德開出三原則，七個月後台電在 2026 年 3 月 27 日把延役申請送進核安會。98% 能源靠進口、9 兆台幣淨零、地熱目標 200 MW 只蓋出 7.4 MW、離岸風電裝置量全球第七、Onkalo 終極處置場、TerraPower 第四代核電——這座島嶼的能源題從來不是政治題，是物理上限題。",
-        "category": "nature",
-        "href": "/nature/%E5%8F%B0%E7%81%A3%E6%B0%A3%E5%80%99%E5%8D%B1%E6%A9%9F%E8%88%87%E6%B7%A8%E9%9B%B6%E8%BD%89%E5%9E%8B",
-        "date": "2026-06-07T17:57:41+08:00",
-        "readingTime": 26
-      },
-      {
-        "title": "太陽花學運——那三十秒之後的十二年",
-        "desc": "一個立委趴在地上用領口麥克風唸了三十秒，觸發二十四天的國會佔領、一個世代的政治覺醒，以及台灣經濟從中國轉向的起點。十二年後，學生要求的法律沒有通過，但他們贏了一場自己不知道在打的戰爭。",
-        "category": "society",
-        "href": "/society/%E5%A4%AA%E9%99%BD%E8%8A%B1%E5%AD%B8%E9%81%8B",
-        "date": "2026-06-07T16:52:58+08:00",
-        "readingTime": null
-      },
-      {
-        "title": "雜學校：賠光積蓄辦的免費展，11 年後副總統來開幕",
-        "desc": "2015 年華山 1914 那兩天，蘇仰志拿設計公司 150 萬盈餘辦了「不太乖教育節」，最後賠掉 700 萬。十一年後，雜學校進駐圓山花博合辦 IDEC、品牌重塑成「EDit」進駐桃園會展中心。一個從免費叛變展長成全亞洲最大教育博覽會的台灣 case，最有趣的不是它做大了，是做大後還活著的「不太乖」有沒有變質。",
-        "category": "society",
-        "href": "/society/%E9%9B%9C%E5%AD%B8%E6%A0%A1",
-        "date": "2026-06-07T16:52:58+08:00",
-        "readingTime": null
-      },
-      {
-        "title": "台灣手路菜：意思、由來與辦桌文化的「拿手好菜」",
-        "desc": "手路菜（台語 tshiú-lōo-tshài）是「拿手好菜」的意思。高雄內門的白堊土種不出作物，卻養出全台密度最高的總鋪師——黃金年代一年辦 25,000 桌，大月營收 1,200 萬。一鍋菜尾湯要花四到八小時，結得好不好，全村隔天都知道。",
-        "category": "food",
-        "href": "/food/%E5%8F%B0%E7%81%A3%E6%89%8B%E8%B7%AF%E8%8F%9C",
-        "date": "2026-06-07T16:51:46+08:00",
-        "readingTime": null
-      },
-      {
-        "title": "台灣辦桌：暴雨裡照樣開桌的武場，和一套正在收棚的人神鬼三界",
-        "desc": "一場 120 桌的辦桌，傍晚暴雨淹到小腿、鱒魚游走十幾條，總鋪師汪義勇袖子一挽下水捉魚，最後只少一條。三百年來辦桌就是這樣，主家沒喊停就得開桌。如今這門手藝正在分岔：菜進了五星飯店與米其林、紅回海外，那套全村出動、橫跨人神鬼三界的儀式知識，卻在沒人接班裡安靜失傳。",
-        "category": "food",
-        "href": "/food/%E5%8F%B0%E7%81%A3%E8%BE%A6%E6%A1%8C%E6%96%87%E5%8C%96",
-        "date": "2026-06-07T16:51:46+08:00",
-        "readingTime": 12
-      },
-      {
-        "title": "用數據看台灣 22 縣市：最擠和最空差 151 倍，最老和最年輕差一個世代",
-        "desc": "同一座島，人口密度最高的臺北市每平方公里 8,975 人，最低的臺東縣只有 59 人，差 151 倍。人口最多的新北市 404 萬，最少的連江縣 1.36 萬，差 297 倍。最年輕的新竹縣高齡化率 15.08%，最老的嘉義縣 24.11%，差將近一個世代。用內政部戶政司 2025 年底的官方數據，替整座島畫一張有刻度、可查證的肖像：七成的人擠在三成的土地，老化的前緣不在都市而在東部、離島與農業縣，而全台 22 個縣市無一例外，死亡都已經多過出生。",
-        "category": "geography",
-        "href": "/geography/%E7%94%A8%E6%95%B8%E6%93%9A%E7%9C%8B%E5%8F%B0%E7%81%A322%E7%B8%A3%E5%B8%82",
-        "date": "2026-06-06T15:22:33+08:00",
-        "readingTime": 13
-      },
-      {
-        "title": "台灣樂器製造業：從后里薩克斯風到全球音樂工廠",
-        "desc": "探索台灣樂器製造業的發展歷程，從后里薩克斯風的全球霸主地位到吉他代工王國，再到音樂盒製造的精密工藝，台灣如何從代工走向自有品牌",
-        "category": "music",
-        "href": "/music/%E5%8F%B0%E7%81%A3%E6%A8%82%E5%99%A8%E8%A3%BD%E9%80%A0",
-        "date": "2026-06-05T22:06:25+08:00",
-        "readingTime": 13
-      },
-      {
-        "title": "我是OO人：喊你「鄉親」的粉專，後台是內湖一間公司和一句忘了刪的 AI 指令",
-        "desc": "2026 年 2 月，一個自稱「我是台北人」的在地粉專，貼文裡留著一句沒刪掉的 AI 指令：「移除敏感字眼，強化台灣在地口語」。順著這條線索往回拉，盡頭是內湖一棟大樓裡的林家關係企業，把中天、CTWANT 的新聞洗成鄉親口氣，掛在偽裝成各縣市在地人的粉專上散布。它不造假新聞，它轉的是真新聞，問題在產地與金流查不到，而台灣最會抓認知作戰的人，卻都在喊：別急著貼標籤。",
-        "category": "society",
-        "href": "/society/%E6%88%91%E6%98%AFOO%E4%BA%BA",
-        "date": "2026-06-05T16:06:11+08:00",
-        "readingTime": null
+        "href": "/people/%E5%A3%9E%E7%89%B9",
+        "date": "2026-06-09T02:35:34+08:00",
+        "readingTime": 16
       }
     ],
     "en": [
+      {
+        "title": "Semiconductor Industry: Fifty Years of Materials Revolution from RCA Technology Transfer to Gallium Nitride and Quantum Packaging",
+        "desc": "Taiwan's sacred mountain protecting the nation dominates global advanced process manufacturing through foundry services, but the gallium nitride inside fast chargers, the CoWoS beneath AI chips, and the dilution refrigerators above qubits show that the next fifty-year battleground in materials science has only just opened.",
+        "category": "technology",
+        "href": "/en/technology/taiwan-semiconductor-industry",
+        "date": "2026-06-13T18:23:15+08:00",
+        "readingTime": 22
+      },
+      {
+        "title": "Taiwanese Tea Culture and Living Aesthetics",
+        "desc": "A bug-bitten honey aroma, a democracy movement in a Japanese wooden house, and a global bubble tea conquest — how Taiwan turned tea into an entire philosophy of living",
+        "category": "culture",
+        "href": "/en/culture/taiwanese-tea-culture-and-living-aesthetics",
+        "date": "2026-06-10T12:21:10+08:00",
+        "readingTime": 12
+      },
+      {
+        "title": "The Perpetual Donation Machine: FAB DAO and the Project % Social Experiment",
+        "desc": "How did a physician who quit his job use a flag made of press-on balls to open up an entirely new vision for Web3 philanthropy in Taiwan. FAB DAO and Project % have redefined the nature of donation: collecting is donating, art is social action.",
+        "category": "art",
+        "href": "/en/art/taiwanese-experimental-and-new-media-art",
+        "date": "2026-06-10T12:21:10+08:00",
+        "readingTime": 8
+      },
       {
         "title": "Wang Hsin-jen (Aluan): The Generative Artist Who Codes Landscapes and Writes Philanthropy Into Smart Contracts",
         "desc": "Born in 1982 in Taichung, MFA in New Media Arts from Taipei National University of the Arts. On August 22, 2021, his work Good Vibrations made him the first Taiwanese artist on Art Blocks — 1,024 NFTs sold out in one hour. The following year he joined FAB DAO's Project % with five others, creating Asia's first NFT revenue-sharing structure with philanthropy written directly into a smart contract. His work spans Art Blocks, Verse.works, fxhash, and Tezos; he has exhibited Chaos Culture at Art Basel Hong Kong, collaborated with C-LAB on the immersive sonic work Hao Dou, had the Polypaths series collected by the National Taiwan Museum, and in 2026 developed inkField with Claude Code — leaving human hesitation and pauses embedded in the generative system.",
@@ -262,6 +286,14 @@
         "readingTime": null
       },
       {
+        "title": "Robert Swinhoe: When a Diplomat Became a Naturalist",
+        "desc": "In 1856, a 19-year-old British interpreter recorded the first bird he spotted on the western coast of Formosa. Four years later, 52 academic papers introduced the world to what lived on this island for the first time. He died in London at 41, but the species he named live on today in Taiwan's mountains and forests.",
+        "category": "people",
+        "href": "/en/people/robert-swinhoe-naturalist",
+        "date": "2026-06-10T12:21:10+08:00",
+        "readingTime": null
+      },
+      {
         "title": "CommonWealth Magazine: Four Decades of Defining Taiwan's \"Success,\" Standing Closest to Capital",
         "desc": "In June 1981, a business magazine called CommonWealth launched on a martial-law island, selling out its first print run of 10,000 copies in two days. Founded by economist Kao Hsi-chun, its editorial soul was Diane Ying — a former UPI, New York Times, and Asian Wall Street Journal reporter. Forty years later it became one of Taiwan's most trusted media outlets, and the maker of rankings — the Top 2000, Top 50, Happiest Cities — that quietly define what \"success\" means. Its credibility and its power to rank others draw from the same distance.",
         "category": "society",
@@ -270,12 +302,44 @@
         "readingTime": null
       },
       {
+        "title": "The Reporter: Ten Years of Rescuing Investigative Journalism from a Commercial Line Item into a Public Good",
+        "desc": "On September 1, 2015 — Journalists' Day in Taiwan — Ho Jung-hung and Chang Tieh-chih announced the founding of The Reporter (報導者) at a press conference, with an initial NT$5 million donation from ASUS co-founder Tung Tzu-hsien. Ten years on, this nonprofit media outlet that refuses advertising, government contracts, and internal traffic metrics has grown its annual fundraising from NT$34 million to NT$52 million, earned back-to-back SOPA and Excellence in Journalism Awards, and turned investigative journalism from a commercial media line item into a public good sustained by monthly donations from strangers.",
+        "category": "society",
+        "href": "/en/society/the-reporter-investigative-journalism",
+        "date": "2026-06-10T12:21:10+08:00",
+        "readingTime": null
+      },
+      {
+        "title": "Taiwan’s Stock Market and Capital Market: From the 1990 Collapse at 10,000 Points to the World’s Sixth Largest in 2026, an Island with 44% of Its Net Worth Staked on One Stock",
+        "desc": "On April 28, 2026, Bloomberg flashed the headline “Taiwan Overtakes Canada.” An island whose 1990 collapse from the 10,000-point level wiped out the retirement savings of 160,000 people climbed, thirty-six years later, to become the world’s sixth-largest stock market — but of its US$4.47 trillion in market capitalization, nearly half rested on a single semiconductor company.",
+        "category": "economy",
+        "href": "/en/economy/taiwan-stock-market",
+        "date": "2026-06-10T12:21:10+08:00",
+        "readingTime": 16
+      },
+      {
         "title": "Taiwan Healthcare and National Health Insurance: A World Number One Where 99.6% Rests on 12.61%",
         "desc": "The National Health Insurance card used on March 1, 1995, was rushed out under extreme pressure: six days earlier, the cards had not even been printed. Thirty years later, the right to medical care for 23 million people rests on a 5.17% premium rate, a nursing turnover rate at a 10-year high of 12.61%, and a political taboo no one has dared touch for 30 years.",
         "category": "lifestyle",
         "href": "/en/lifestyle/taiwan-healthcare-and-national-health-insurance",
         "date": "2026-06-10T12:21:10+08:00",
         "readingTime": 22
+      },
+      {
+        "title": "2026 Nine-in-One Elections: Stress Testing Democratic Infrastructure in the Age of AI Cognitive Warfare",
+        "desc": "On November 28, 2026, all 22 cities and counties across Taiwan will simultaneously open polling stations to elect nine categories of office, filling over 11,000 elected executive and representative positions. This election is unlike any before — the difference is not the candidates, but the environment in which it takes place: the CCP's escalation of state-level AI cognitive warfare, 123+ spoofed news websites, and prosecutors listing AI disinformation as one of four key election investigation priorities. This is not an election information roundup — it is a historical positioning and structural pressure analysis of this election.",
+        "category": "politics",
+        "href": "/en/politics/2026-local-elections-taiwan",
+        "date": "2026-06-10T12:21:10+08:00",
+        "readingTime": 16
+      },
+      {
+        "title": "The Councilor System: Why It Differs from the Legislator System, and SNTV's 30 Years in Local Politics",
+        "desc": "In 2008, legislators switched to the single-member district two-vote system, while that same year's city and county councilor elections still used the SNTV system from the 1980s — the same country, the same voters, different offices on the same ballot, yet governed by two entirely different sets of rules. This is not a bug; it is the greatest unfinished business in Taiwan's electoral reform history, bound up with local factions, party interests, and the costs of complementary reforms. A structural map of how the two systems operate, why one was reformed and the other was not, and what this means for small parties and diverse representation.",
+        "category": "politics",
+        "href": "/en/politics/city-councilor-system-taiwan",
+        "date": "2026-06-10T12:21:10+08:00",
+        "readingTime": 12
       },
       {
         "title": "Taiwan Environmental Movement History",
@@ -382,6 +446,30 @@
         "readingTime": null
       },
       {
+        "title": "Taiwan Anime & Manga Culture",
+        "desc": "'Doraemon,' 'Slam Dunk,' and 'Sailor Moon' were the shared language of Taiwanese teens in the 1980s and '90s; Fancy Frontier has held over 40 editions since 1999, drawing over 100,000 attendees per event; doujinshi and cosplay nurtured the creators of 'Detention' and 'Devotion'—Taiwan's anime and manga culture is not an imitation of imported entertainment, but the shared memory and creative soil of two generations.",
+        "category": "culture",
+        "href": "/en/culture/taiwan-anime-culture",
+        "date": "2026-05-24T22:40:37+08:00",
+        "readingTime": "9"
+      },
+      {
+        "title": "Pa Chiung: From Hualien Truku Youth to the 'Spy-Master' Wanted by the CCP for One Million Yuan",
+        "desc": "In November 2025, the Quanzhou Public Security Bureau in Fujian issued a wanted notice — targeting Taiwanese influencer Pa Chiung. This Truku youth from Xincheng Township, Hualien, who once won an award for his travel videos, transformed in just six years from a local creator into a figure Beijing calls a 'Taiwan independence thug' — and has continued exposing CCP united-front operations on the international stage.",
+        "category": "people",
+        "href": "/en/people/pa-chiung-political-youtuber",
+        "date": "2026-05-24T22:40:37+08:00",
+        "readingTime": 20
+      },
+      {
+        "title": "The 2026 Cheng-Xi Meeting: Ten Minutes Between KMT and CCP Leaders After a Decade Apart",
+        "desc": "On April 10, 2026, Cheng Li-wun met Xi Jinping in Beijing, becoming the first major political party leader of the Republic of China to meet the CCP General Secretary in ten years. The meeting lasted ten minutes. Meanwhile, 100 PLA vessels were in the Taiwan Strait. What exactly was this 'peace mission' touring?",
+        "category": "society",
+        "href": "/en/society/2026-cheng-xi-meeting-kmt-ccp-decade-reunion",
+        "date": "2026-05-24T22:40:37+08:00",
+        "readingTime": 14
+      },
+      {
         "title": "Taiwan Enterprise: Foxconn Precision Industry — The Same Balance Sheet Behind 8 Trillion Revenue and an Internal Anti-Corruption War",
         "desc": "On the morning of April 30, 2026, Time magazine listed Foxconn among the 100 most influential companies in the world; that same evening, prosecutors and investigators walked into Foxconn's Tucheng facility with search warrants. From a 1974 mother's rotating credit association loan of NT$100,000 to 2025 revenue of NT$8 trillion — with cloud and network products overtaking consumer electronics — the hardest thing for Foxconn to manage is not geopolitics, not AI server rack shipment rhythms, but its own people.",
         "category": "economy",
@@ -396,97 +484,41 @@
         "href": "/en/history/chiang-kai-shek-memorial-hall",
         "date": "2026-05-20T12:37:22+08:00",
         "readingTime": 9
-      },
-      {
-        "title": "Taiwan",
-        "desc": "On New Year's Day 1979, Taiwan issued its first tourist passport. This was more than the release of a piece of paper — it was a turning point from martial-law isolation to citizen diplomacy, documenting how Taiwanese people transformed from 'foreign-exchange-wasting' sinners into world travelers.",
-        "category": "history",
-        "href": "/en/history/taiwan-emigration-history",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "25"
-      },
-      {
-        "title": "The 19 Cattle of Qingtiangang: From Yuan Xing Cattle to Tainan Beef Soup, an Island's Beef Industry Breakthrough",
-        "desc": "Taiwan's beef self-sufficiency rate is only 4.6%, yet in 2024 the nation's first privately bred and officially certified cattle breed was born. The story of Yuan Xing cattle is an industry breakthrough scripted by a 94-year-old man, 19 wild black cattle, and a bowl of freshly slaughtered beef soup served before dawn.",
-        "category": "history",
-        "href": "/en/history/yuan-xing-cattle-beef-soup-history",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "9"
-      },
-      {
-        "title": "Administrative Divisions of Taiwan: The Power Puzzle from 'Landdag' to 'Five Municipalities'",
-        "desc": "Taiwan's administrative divisions are more than lines on a map — they are the result of a four-hundred-year experiment in power. From tribal councils under the Dutch, to the Japanese colonial era's elegant place-name renaming campaign, to a post-war plan that nearly named a city 'Shuangwen City,' every border conceals a tug-of-war between governing will and local identity.",
-        "category": "geography",
-        "href": "/en/geography/administrative-divisions-of-taiwan",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 15
-      },
-      {
-        "title": "The Divine Pig Festival: A Century of Tension Between Taiwanese Faith and Animal Welfare",
-        "desc": "The divine pig (shen-zhu) tradition is a sacrificial ritual unique to Taiwan's Hokkien and Hakka communities, centered on offering an enormous pig to the gods. Rooted in the Yimin (Righteous People) faith of the Qing dynasty, it shifted toward competitive weight contests during Japan's colonial promotion of animal husbandry. In the modern era, the practice of confining pigs and force-feeding them has drawn intense animal welfare criticism. Festivals across Taiwan are now attempting transitions to 'eco-friendly divine pigs' or naturally raised animals, seeking a balance between faith and respect for life.",
-        "category": "culture",
-        "href": "/en/culture/divine-pig-festival",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 8
-      },
-      {
-        "title": "Ethnic Groups (Minnan, Hakka, Indigenous, Mainlanders, New Immigrants)",
-        "desc": "An apology ceremony, a march of ten thousand, 570,000 new families — Taiwan's ethnic story is far more complicated than 'multicultural harmony' suggests.",
-        "category": "culture",
-        "href": "/en/culture/ethnic-groups",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": null
-      },
-      {
-        "title": "Jiaobei: Hearing the Voice of the Gods Behind a 50% Probability",
-        "desc": "From Chiayi craftsman Huang Yi-xun's devotion to the 'bamboo-root jiaobei' to the Pingtung Citian Temple legend of 20 consecutive sheng-bei and a NT$3 million prize, this article explores the probability and warmth behind how Taiwanese people communicate with the divine.",
-        "category": "culture",
-        "href": "/en/culture/jiaobei-divination-blocks",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "8"
-      },
-      {
-        "title": "Development of Cultural and Creative Parks in Taiwan",
-        "desc": "From old-building revitalization to creative clusters: the development trajectory and innovative models of Taiwan's cultural and creative parks",
-        "category": "culture",
-        "href": "/en/culture/taiwan-cultural-creative-park-development",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": null
-      },
-      {
-        "title": "Taiwan Floral Fabric",
-        "desc": "From a Japanese-era factory product to a symbol of local culture: the identity journey of Taiwan floral fabric",
-        "category": "culture",
-        "href": "/en/culture/taiwan-floral-fabric",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 12
-      },
-      {
-        "title": "Taiwan's Funeral Culture and Views on Death",
-        "desc": "From the wailing of professional mourners to the garden of Yongli Cemetery — Taiwan spent fifty years moving from burial to cremation, then another ten moving from columbaria to a spot beneath a tree.",
-        "category": "culture",
-        "href": "/en/culture/taiwan-funeral-culture-and-death-views",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 13
-      },
-      {
-        "title": "Taiwan's Historic Streets and Commercial Districts",
-        "desc": "From the bustling ports of the Qing dynasty to the Baroque-style shophouses of the Japanese colonial era, Taiwan's historic streets are a people's history written in brick and tile.",
-        "category": "culture",
-        "href": "/en/culture/taiwan-historic-streets-and-commercial-districts",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": null
-      },
-      {
-        "title": "Taiwan Indigo Dyeing",
-        "desc": "It was once Taiwan's third-largest export commodity, making mountain towns in northern Taiwan rich overnight. Then it disappeared for half a century — until a group of people decided to grow that shade of 'Taiwan blue' back from the earth.",
-        "category": "culture",
-        "href": "/en/culture/taiwan-indigo-dyeing",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": null
       }
     ],
     "ja": [
+      {
+        "title": "美麗島事件：弾圧のつもりが最大の民主宣伝になった軍法大審",
+        "desc": "1979年12月10日、高雄で起きた衝突と逮捕、そして1980年の公開軍事裁判——反対運動を潰そうとした国民党政府の計算は、完全に裏目に出た",
+        "category": "history",
+        "href": "/ja/history/kaohsiung-incident-formosa-incident",
+        "date": "2026-06-10T12:21:10+08:00",
+        "readingTime": 14
+      },
+      {
+        "title": "蔣中正",
+        "desc": "彼の銅像は今まではかき消されつつあるが、彼が築いた地基――それを建設と呼ぼうと、枷と呼ぼうと――は、この島のあらゆる道、あらゆる学校、あらゆる選挙を今も支えている。",
+        "category": "people",
+        "href": "/ja/people/chiang-kai-shek",
+        "date": "2026-06-10T12:21:10+08:00",
+        "readingTime": null
+      },
+      {
+        "title": "リー・チャンユー（李昌鈺）",
+        "desc": "一片の砕骨から鑑識の伝説を築き上げた男が、一条のタオルに付いた「血痕」のために二人の青年を三十年以上もの冤罪に追い込んだ",
+        "category": "people",
+        "href": "/ja/people/henry-lee-forensic",
+        "date": "2026-06-10T12:21:10+08:00",
+        "readingTime": 8
+      },
+      {
+        "title": "投票権の閾値の歴史：20歳から18歳へ、20年にわたる未完の改正への道",
+        "desc": "2022年11月26日午後4時、台湾全土の開票所の職員が憲法改正国民投票の投票箱の封を切りました——それは2005年に国民投票による改正手続きを採用して以来、初めて憲法改正案が全課程を経て公投の段階に進んだものでした。賛成564万票、反対502万票、賛成率53%でしたが、国民投票の改正閾値が「選挙人名簿総数の過半数＝賛成票962万票」と定められていたため、397万票足りず到達できませんでした。本稿は、1947年の制憲時の憲法第130条から2022年の改正失敗に至るまで、台湾の投票年齢の閾値が75年間変わらなかった構造的な原因を記録したものです。",
+        "category": "politics",
+        "href": "/ja/politics/voting-rights-threshold-history",
+        "date": "2026-06-10T12:21:10+08:00",
+        "readingTime": 12
+      },
       {
         "title": "No Sleep Without Entering the Cellar: Thirty Years of Taiwan's Gaming Community",
         "desc": "In the late 1990s, a black-background, white-text website was filled with walkthroughs and cheat codes for 90% of Taiwan's single-player games; players called it the 'Cellar'. Then came Gamebase, then came Bahamut. Three names, three eras, a path from dial-up modems to a community of 6 million members.",
@@ -544,12 +576,28 @@
         "readingTime": 12
       },
       {
+        "title": "珍珠奶茶",
+        "desc": "1987年、台中での従業員会議で、何気ない動作がきっかけとなり、一杯の飲料が世界を征服した。珍珠奶茶の起源をめぐる論争、文化と政治、そして約500kcalの一杯をめぐる健康論争。",
+        "category": "food",
+        "href": "/ja/food/bubble-tea",
+        "date": "2026-05-24T22:40:37+08:00",
+        "readingTime": null
+      },
+      {
         "title": "台湾の政治環境と選挙制度",
         "desc": "憲法の枠組み、中央と地方の選挙メカニズム、そして深層の政党政治文化に至るまで、台湾が複雑な地政学の中で、活力に満ちかつ制度の厳格な民主社会をいかに維持しているかを包括的に解説します",
         "category": "society",
         "href": "/ja/society/taiwan-political-landscape-and-electoral-system",
         "date": "2026-05-24T22:40:37+08:00",
         "readingTime": 12
+      },
+      {
+        "title": "台湾統独スペクトラム：四つの立場と一つの現状、三十年で静かに描き直されたアイデンティティの地図",
+        "desc": "2026 年 5 月、トランプ・習会談後の七日間で、頼清徳は台湾の主権を二度にわたり公に再確認しました。しかし彼は三つの異なる名称、「中華民国」、「中華民国台湾」、「台湾」を用いました。一人の総統が三つの名称を同じ一文の「いずれも主権独立」に圧縮したことは、現代の統独論争の縮図です。1994 年に「永遠に現状を維持」は 9.8% でしたが、2023 年には 33.2% まで上昇しました。この三十年で、二項対立の枠組みが描写していた台湾は、すでにここにはありません。",
+        "category": "society",
+        "href": "/ja/society/taiwan-unification-independence-spectrum",
+        "date": "2026-05-24T22:40:37+08:00",
+        "readingTime": null
       },
       {
         "title": "中正記念堂",
@@ -678,54 +726,6 @@
         "href": "/ja/food/night-market-culture",
         "date": "2026-05-20T12:37:22+08:00",
         "readingTime": null
-      },
-      {
-        "title": "油飯（ヨウファン）：「富の誇示」だった餅米が、命の重さを担う満月祝いの礼物になるまで",
-        "desc": "2026年の台湾の街頭でも、一皿の油飯は多くの人が新しい命の誕生を祝う際の定番だ。漢人移民の伝統に根ざし、台湾で独自に甘辛が交差する「老舗の黄金比率」へと進化したこの料理は、餅米と赤玉ねぎ（紅蔥頭）を組み合わせて、台湾の家庭が人生の節目に贈る最も温かな祝福となった。",
-        "category": "food",
-        "href": "/ja/food/oil-rice",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 10
-      },
-      {
-        "title": "台湾のパンとベーカリー",
-        "desc": "呉宝春の世界優勝から85°Cの国際展開まで、台湾式パンの独自の魅力を探る",
-        "category": "food",
-        "href": "/ja/food/taiwan-bread-and-baking",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": null
-      },
-      {
-        "title": "台湾火鍋：一鍋に魂を込めた島の味覚進化史",
-        "desc": "植民地時代の文明の象徴から今日の国民的美食へ、台湾火鍋は味覚の変遷にとどまらず、社会の変遷と民族融合の縮図でもあります。",
-        "category": "food",
-        "href": "/ja/food/taiwan-hotpot-culture",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "8"
-      },
-      {
-        "title": "台湾先住民族の食文化",
-        "desc": "AKAMEの炎からアミ族の野菜宇宙へ——台湾先住民族の食が三千年を経て再び世界の注目を集めるまで",
-        "category": "food",
-        "href": "/ja/food/taiwan-indigenous-foodways",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "12"
-      },
-      {
-        "title": "台湾の調味料と味付け",
-        "desc": "醤油膏、沙茶醤、スイートチリソース、豆瓣醤などの台湾特有の調味料は、島の独自の風味の基盤を成し、多様な文化が融合した味付けの哲学を反映しています。",
-        "category": "food",
-        "href": "/ja/food/taiwan-sauces-and-seasonings",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 7
-      },
-      {
-        "title": "原住民文学",
-        "desc": "「無文字の歌声」から書かれた創作へ——千年にわたる文学の進化史",
-        "category": "art",
-        "href": "/ja/art/indigenous-literature",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "7"
       }
     ],
     "ko": [
@@ -882,12 +882,52 @@
         "readingTime": 8
       },
       {
+        "title": "타이완 출국사: \"경총 승인\"에서 \"세계 통행\"으로, 섬사람들의 국경 넘기 서사",
+        "desc": "1979년 정월 초하루, 타이완이 최초의 관광 여권을 발급했다. 이것은 단지 한 장의 종이를 발급한 것이 아니라, 계엄에서 국민외교로의 전환이었으며, 타이완 사람들이 \"외낭비\" 죄인에서 세계 여행자가 되기까지의 이야기를 기록한 것이다.",
+        "category": "history",
+        "href": "/ko/history/taiwan-emigration-history",
+        "date": "2026-05-24T22:50:13+08:00",
+        "readingTime": 25
+      },
+      {
+        "title": "대만 군인 가족 마을의 역사",
+        "desc": "미얀마 고립 부대에서 대나무 울타리 왕국까지—120만 명의 대이주가 어떻게 \"집\"의 의미를 다시 정의했는가",
+        "category": "history",
+        "href": "/ko/history/taiwan-military-dependents-villages-history",
+        "date": "2026-05-24T22:50:13+08:00",
+        "readingTime": 12
+      },
+      {
+        "title": "대만 지도 읽는 법: 고구마에서 위성까지, 400년의 시선",
+        "desc": "1554년, 한 포르투갈 지도 제작자가 양피지 여덟 장 위에 \"I. Fremosa\"라는 흐릿한 섬을 그렸다. 그는 이 섬에 발을 딛은 적이 없었다. 470년이 지난 지금, 구글 맵에 표시되는 대만의 모습은 당신이 어느 나라에서 접속하느냐에 따라 달라진다. 이것은 기술의 문제가 아니라 정치의 문제다.",
+        "category": "geography",
+        "href": "/ko/geography/how-to-read-the-taiwan-map",
+        "date": "2026-05-24T22:50:13+08:00",
+        "readingTime": 10
+      },
+      {
         "title": "신시 시: 1733년 대나무로 성을 쌓은 죽첩, 1980년 TSMC를 낳은 요람",
         "desc": "1733년 옹정 11년, 담수동지 서치민이 사방에 가시나무를 심어 둘레 1,408미터의 원형 흙성을 쌓았다. 1829년 전석성 완공, 동문 영희문은 오늘도 호성 옆에 서 있다. 247년 후, 1980년 12월 15일, 장경국이 영희문에서 5킬로미터 떨어진 곳에서 대만 최초의 과학단지 리본을 잘랐다. 1953년부터 1974년 사이, 흑박쥐중대 148명이 이 바람의 도시에서 이륙해 중국 대륙를 정찰하고 돌아오지 못했다. 45만 명이 사는 성할시가 냉전 전선, 북부 최초 건성, 두 개의 명문 대학, 그리고 글로벌 반도체 90% 고급 칩의 출발점을 떠받치고 있다. 바람의 도시라는 별명은 문학적이지만, 이 도시의 모든 산업은 바람과 관련이 있다.",
         "category": "geography",
         "href": "/ko/geography/hsinchu-city",
         "date": "2026-05-24T22:50:13+08:00",
         "readingTime": 17
+      },
+      {
+        "title": "관성제군(關聖帝君): 패장이 어떻게 대만의 만능신이 되었는가",
+        "desc": "삼국지 장수 관우는 전쟁에 패해 참수되었지만, 대만에서는 전 세계 유일의 \"은주공(恩主公)\" 신앙 체계로 진화했다. 그리고 대만에서 가장 붐비는 관제묘는 향 한 개도 피우지 못하게 한다.",
+        "category": "culture",
+        "href": "/ko/culture/guan-sheng-di-jun-belief",
+        "date": "2026-05-24T22:50:13+08:00",
+        "readingTime": 10
+      },
+      {
+        "title": "구천현녀: 황제의 군사(軍師)에서 대만 청소년 진두(陣頭) 수호신까지",
+        "desc": "고졸 학력의 묘회 단장이 문화부 심사위원들에게 수십 년간 무시당한 끝에, 11년을 공부해 박사 학위를 받았다. 그 뒤에는 4천 년 전 황제에게 병법을 가르쳤다는 여신이 있었다.",
+        "category": "culture",
+        "href": "/ko/culture/jiutian-xuannu-belief",
+        "date": "2026-05-24T22:50:13+08:00",
+        "readingTime": 12
       },
       {
         "title": "《인간》 잡지",
@@ -906,71 +946,63 @@
         "readingTime": 12
       },
       {
-        "title": "라이성천: 공작공방과 우진연극제의 양안 연극 가교자",
-        "desc": "라이성천은 1954년 10월 25일 미국 워싱턴 D.C.에서 태어났으며, 아버지 라이자구는 외교관이었다. UC 버클리 연극예술 박사(1983). 1984년 아내 정내주, 이립군, 이국수 등과 공동으로 공작공방(表演工作坊)을 창립하였다. 1986년 《암련도원화(暗戀桃花源)》 초연, 1992년 영화로 각색하여 임청하가 주연을 맡았다. 2007년 제11회 국가문예상을 수상하였으며, 이 영예를 두 차례 수상하였다. 2013년 5월 진향홍, 황레이, 맹경휘와 공동으로 우진연극제를 창립하였으며, 이는 양안에서 가장 영향력 있는 중화어 연극제 중 하나이다. 2015년 상하이 상극장(上劇場)이 개관하였다. BBC는 그를 \"오늘날 가장 뛰어난 중문 극작가\"로 평가하였다.",
-        "category": "people",
-        "href": "/ko/people/stan-lai-theater-innovation-master",
-        "date": "2026-05-24T22:50:13+08:00",
-        "readingTime": null
-      },
-      {
-        "title": "덩리쥔: 해피밸리의 흰 띠, 진먼의 비닐봉지 공기, 치앙마이의 5분의 시차",
-        "desc": "1989년 5월 27일 홍콩 해피밸리, 36세의 덩리쥔이 머리에 '민주 만세' 흰 띠를 두르고 가슴에 '계엄 반대' 패를 걸고, 그녀가 한 번도 부른 적 없는 〈내 집은 산 너머에 있다〉를 불렀다. 그날 이후 그녀는 다시 본토에 발을 디디지 않았다. 윈린 군 가족 마을의 리윈에서, 다섯 번 진먼을 위문한 군중의 연인, 일본 유선 대상 3연패의 외국인까지, 그녀는 42년에 걸쳐 부드러움을 정치적 자세로 노래했고, 마지막에는 치앙마이에서 평생 찾던 그 한 봉지의 깨끗한 공기를 찾지 못했다.",
-        "category": "people",
-        "href": "/ko/people/teresa-teng",
-        "date": "2026-05-24T22:50:13+08:00",
-        "readingTime": 16
-      },
-      {
-        "title": "대만 기업: 하이하이정밀(鴻海精密): 8조 매출과 내부 반부패 전쟁, 같은 대차대조표의 두 이야기",
-        "desc": "2026년 4월 30일 오전, 타임지가 하이하이를 세계 100대 영향력 기업에 선정한 바로 그날 저녁, 검찰과 수사관들이 수색영장을 들고 하이하이 토성(土城) 공장에 진입했다. 1974년 어머니의 계(標会) 10만 창업에서 2025년 클라우드 네트워크가 소비전자를 추월하며 8조 매출을 달성하기까지, 하이하이가 가장 통제하기 어려운 것은 지정학도 AI 캐비닛 출하 리듬도 아닌, 바로 내부자였다.",
-        "category": "economy",
-        "href": "/ko/economy/foxconn-precision-industry",
-        "date": "2026-05-24T22:50:13+08:00",
-        "readingTime": 10
-      },
-      {
-        "title": "동방그룹: 상하이 방직공장에서 대만 최다 각형 상업제국까지",
-        "desc": "87년 전 상하이의 작은 방직공장이 어떻게 10대 산업을 아우르고 자산 3조 원을 넘는 대만 상업제국으로 성장했는가? 동방그룹의 발전사는 대만 기업인의 영광에서 정치적 리스크에 이르는 궤적을 증명한다",
-        "category": "economy",
-        "href": "/ko/economy/taiwanese-companies-far-eastern-group",
+        "title": "루로우판 (滷肉飯): 대만의 일상적인 국민 음식",
+        "desc": "군인 마을의 부엌에서 전국적인 위안의 음식으로 발전하기까지, 루로우판을 둘러싼 남북 논쟁과 문화적 의미를 탐구합니다.",
+        "category": "food",
+        "href": "/ko/food/braised-pork-rice",
         "date": "2026-05-24T22:50:13+08:00",
         "readingTime": 8
       },
       {
-        "title": "타이완 감성: 한국인이 보는 타이완식 미학",
-        "desc": "고슝 출신 두 사람이 10년에 걸쳐 2,000가지 쇠창살 무늬를 담고, 한국인이 5년에 걸쳐 하나의 문화 현상으로 만들었다——'대만감성'은 어떻게 타이완의 일상 풍경을 아시아에서 가장 매력적인 미학 상징으로 만들었는가",
-        "category": "culture",
-        "href": "/ko/culture/taiwanese-sensibility",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 14
-      },
-      {
-        "title": "주음부호: 대만만의 고유한 문자 암호",
-        "desc": "전 세계에서 대만의 2,300만 명만이 일상적으로 사용하는 표기 체계——주음부호가 어떻게 백 년 전 고대 문자 간략화 방안에서 2,300만 명의 공통 암호가 되었는가",
-        "category": "culture",
-        "href": "/ko/culture/zhuyin-phonetic-symbols",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 12
-      },
-      {
-        "title": "유반(油飯): \"과시\"의 찹쌀에서 생명의 무게를 담은 미월례(彌月禮)까지",
-        "desc": "2026년의 타이완 거리에서 유반은 여전히 많은 사람들이 새 생명을 축하하기 위해 선택하는 음식이다. 한족 이민의 전통에서 유래하여 타이완에서 짠맛과 단맛이 어우러진 \"미식가 비율\"로 발전한 이 요리는 찹쌀과 홍총두(紅蔥頭)를 결합하여 타이완 가정이 생명의 전환점에서 보내는 가장 묵직한 축복이 되었다.",
+        "title": "대만 촌촌(眷村) 요리",
+        "desc": "1949년 대이동이 가져온 각 성(省)의 맛, 대나무 울타리 안 부엌에서 촌촌 철거 후의 미각 보존까지",
         "category": "food",
-        "href": "/ko/food/oil-rice",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "10"
+        "href": "/ko/food/military-dependents-village-cuisine",
+        "date": "2026-05-24T22:50:13+08:00",
+        "readingTime": 8
       },
       {
-        "title": "타이완 아침 문화",
-        "desc": "계란빵(蛋餅), 샤오빠오유탸오(燒餅油條)에서 융허두장(永和豆漿)의 글로벌 확장까지, 아침집 아줌마와 타이완 사람들의 아침 의식",
+        "title": "타이완 해산물 문화",
+        "desc": "어항에서 갓 잡아 온 신선함, 해산물 식당 문화, 굴전 등 바다 요리를 통해 사면이 바다인 섬나라 타이완의 특색과 풍요로운 해산물 음식 전통을 조명한다",
         "category": "food",
-        "href": "/ko/food/taiwan-breakfast-culture",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": null
+        "href": "/ko/food/taiwan-seafood-culture",
+        "date": "2026-05-24T22:50:13+08:00",
+        "readingTime": 8
       }
     ],
     "fr": [
+      {
+        "title": "Logement public et justice résidentielle : les logements abordables construits par l’État, un ascenseur patrimonial pour qui ?",
+        "desc": "En 1985, au complexe public Chenggong, un ping valait 67 000 NT$ et ne trouvait pas preneur; un vieux chef de quartier réunit 400 000 NT$ d’apport pour acheter. Quarante ans plus tard, à la même adresse, le prix approche le million de NT$ par ping. Le logement national devait être un outil pour « aider la population à pouvoir acheter un logement », mais il n’a jamais été doté d’un sas de récupération des plus-values; la subvention publique est finalement devenue le patrimoine privé des premiers acheteurs. En 2026, Taoyuan remet ce sas en place, ce qui revient à reconnaître l’erreur du logement national.",
+        "category": "society",
+        "href": "/fr/society/public-housing-justice",
+        "date": "2026-06-10T12:21:10+08:00",
+        "readingTime": 16
+      },
+      {
+        "title": "Za School: A Free Exhibition Funded by Bankrupt Savings, Opened by the Vice President 11 Years Later",
+        "desc": "In 2015, during the Huashan 1914 event, Su Yang-chih used 1.5 million in profit from his design company to host the 'Not Quite Obedient Education Festival,' ultimately losing 7 million. Eleven years later, Za School moved into the Taipei International Convention Center at Yuanshan Flower Expo to co-host IDEC, and rebranded as 'EDit' to settle in the Taoyuan Convention Center. This Taiwan case, which grew from a free, rebellious exhibition into Asia's largest education expo, is most interesting not for its scale, but for whether its 'not quite obedient' spirit has been compromised after growing so large.",
+        "category": "society",
+        "href": "/fr/society/za-school",
+        "date": "2026-06-10T12:21:10+08:00",
+        "readingTime": 12
+      },
+      {
+        "title": "Élections locales unifiées de 2026 : test de résistance des infrastructures démocratiques à l'ère de la guerre cognitive par l'IA",
+        "desc": "Le 28 novembre 2026, les 22 municipalités et comtés de Taïwan ouvriront simultanément leurs bureaux de vote pour élire neuf types de fonctions publiques, soit plus de 11 000 élus locaux et représentants. Cette élection ne ressemble à aucune de ses prédécesseurs — la différence ne réside pas dans les candidats, mais dans le contexte où elle se déroule : escalade de la guerre cognitive par l'IA au niveau étatique par la RPC, plus de 123 sites d'information contrefaits, et l'inclusion des désinformations générées par l'IA parmi les quatre axes prioritaires de contrôle du parquet. Cet article n'est pas un guide électoral : c'est une analyse du positionnement historique et des pressions structurelles de ce scrutin.",
+        "category": "politics",
+        "href": "/fr/politics/2026-local-elections-taiwan",
+        "date": "2026-06-10T12:21:10+08:00",
+        "readingTime": 16
+      },
+      {
+        "title": "Historique du seuil du droit de vote : de 20 à 18 ans, vingt ans de révision constitutionnelle inachevée",
+        "desc": "Le 26 novembre 2022 à seize heures, les agents des bureaux de vote et de dépouillement de tout le pays ont commencé à ouvrir les urnes du référendum de révision constitutionnelle — c'était la première fois, depuis que Taïwan a adopté la procédure de révision constitutionnelle par référendum en 2005, qu'un projet de révision constitutionnelle parcourait l'ensemble du processus. 5,64 millions de voix pour, 5,02 millions contre, un taux d'approbation de 53 %, mais le seuil du référendum de révision constitutionnelle étant fixé à « la moitié du total des électeurs = 9,62 millions de voix favorables », il manquait 3,97 millions de voix pour le franchir. Cet article retrace le parcours depuis l'article 130 de la Constitution lors de sa promulgation en 1947 jusqu'au référendum de révision constitutionnelle échoué de 2022, documentant les raisons structurelles pour lesquelles le seuil d'âge du droit de vote à Taïwan n'a pas changé en soixante-quinze ans.",
+        "category": "politics",
+        "href": "/fr/politics/voting-rights-threshold-history",
+        "date": "2026-06-10T12:21:10+08:00",
+        "readingTime": 12
+      },
       {
         "title": "Période de domination Qing",
         "desc": "De 1683 à 1895, la dynastie Qing a gouverné Taïwan pendant environ 212 ans, passant d'une administration passive à une construction active, posant les bases de la division administrative moderne de Taïwan et de la société han.",
@@ -1178,38 +1210,6 @@
         "href": "/fr/food/taiwan-fermented-and-pickled-foods",
         "date": "2026-05-20T12:37:22+08:00",
         "readingTime": "15"
-      },
-      {
-        "title": "L'industrie taïwanaise des drones : des avions télécommandés de Taichung à la Blue List, un laissez-passer pour Thunder Tiger",
-        "desc": "Le 21 septembre 2025, le drone suicide Overkill FPV de Thunder Tiger a obtenu la certification Blue UAS Cleared List du département de la Défense des États-Unis — première entreprise taïwanaise, et à ce jour la seule. Sur l'ensemble de la liste, qui compte 39 plateformes complètes et 165 composants, Taïwan n'occupe qu'une seule place. En avril 2026, quatre sénateurs américains bipartisans ont conjointement proposé le Blue Skies for Taiwan Act, exigeant la création d'un accès rapide pour les fabricants taïwanais ; l'existence même de ce projet de loi révèle une chose : Taïwan avance trop lentement, au point que les États-Unis eux-mêmes doivent légiférer pour abaisser les barrières. Une entreprise qui fabrique des avions télécommandés à Taichung depuis quarante-six ans prévoit de construire une deuxième usine dans l'Ohio.",
-        "category": "technology",
-        "href": "/fr/technology/taiwan-drone-industry",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "16"
-      },
-      {
-        "title": "La communauté Game Jam de Taïwan",
-        "desc": "De l'implantation du Global Game Jam à Taïwan à la philosophie du « mauvais goût » du KUSO GAME JAM — comment la communauté Game Jam taïwanaise est devenue, en dix ans, un incubateur et un laboratoire pour l'écosystème du jeu indépendant",
-        "category": "technology",
-        "href": "/fr/technology/taiwan-game-jam-community",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 8
-      },
-      {
-        "title": "L'industrie du jeu vidéo et du divertissement numérique à Taïwan",
-        "desc": "Des premiers distributeurs aux développeurs originaux, comment Taïwan a trouvé sa voix sur le marché mondial du jeu vidéo",
-        "category": "technology",
-        "href": "/fr/technology/taiwan-gaming-industry",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 11
-      },
-      {
-        "title": "Crise climatique et transition vers le zéro émission nette à Taïwan : le jour où le référendum sur la centrale nucléaire no 3 a échoué, le choix des limites physiques ne faisait que commencer",
-        "desc": "Référendum du 23 août 2025 sur la prolongation de la centrale nucléaire no 3 : 4,34 millions de voix favorables, 74 % de oui, mais un taux de participation de 29,53 % insuffisant pour atteindre le seuil. Le référendum a échoué ; le lendemain, Lai Ching-te a posé trois principes, et sept mois plus tard, le 27 mars 2026, Taipower déposait une demande de prolongation auprès du Conseil de sûreté nucléaire. 98 % de l'énergie importée, 9 000 milliards de dollars taïwanais pour le zéro émission nette, un objectif géothermique de 200 MW dont seuls 7,4 MW construits, la septième capacité mondiale d'éolien en mer, le site de stockage définitif d'Onkalo, le nucléaire de quatrième génération de TerraPower : la question énergétique de cette île n'a jamais été une question politique, mais une question de limites physiques.",
-        "category": "nature",
-        "href": "/fr/nature/taiwan-climate-change-net-zero-transition",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 26
       }
     ],
     "es": [
@@ -1220,6 +1220,14 @@
         "href": "/es/people/puma-shen",
         "date": "2026-06-10T12:21:10+08:00",
         "readingTime": 17
+      },
+      {
+        "title": "Za School: A Free Exhibition Founded with Blown Savings, Opened by the Vice President 11 Years Later",
+        "desc": "On May 9-10, 2015, Su Yang-chih used 1.5 million in profits from his design company to host the 'Not-So-Obedient Education Festival,' ultimately losing 7 million. Eleven years later, Za School moved into the Taipei International Convention Center (TICC) at the Huashan 1914 Cultural and Creative Park to co-host IDEC, and rebranded as 'EDit' to move into the Taoyuan Convention Center. This Taiwan case study, which grew from a free, rebellious exhibition into Asia's largest education fair, is most interesting not for its growth, but for whether its 'not-so-obedient' spirit has been compromised after becoming large.",
+        "category": "society",
+        "href": "/es/society/za-school",
+        "date": "2026-06-10T12:21:10+08:00",
+        "readingTime": 12
       },
       {
         "title": "Rainie Yang: From the Weather Girl Group Rainie to the Producer Column of 'Ambiguous 2025'",
@@ -1252,6 +1260,14 @@
         "href": "/es/history/qing-dynasty-rule",
         "date": "2026-05-25T05:49:38+08:00",
         "readingTime": null
+      },
+      {
+        "title": "Resolución sobre el futuro de Taiwán: dos palabras, \"actualmente\", que sostuvieron veintisiete años",
+        "desc": "En 1999, Lin Chuo-shui añadió dos palabras, \"actualmente\", antes de \"nombre nacional: República de China\". El círculo de Chen Shui-bian no quedó nada contento. Esas dos palabras apaciguaron simultáneamente a los independentistas y a los votantes centristas, abriendo la puerta al primer cambio de partido en el poder en el año 2000. Veintisiete años después, los jóvenes taiwaneses consideran un sentido común que \"Taiwán ya es independiente de por sí\", pero desconocen que ese sentido común proviene de un documento deliberadamente ambiguo.",
+        "category": "history",
+        "href": "/es/history/resolution-on-taiwans-future",
+        "date": "2026-05-25T05:49:38+08:00",
+        "readingTime": 10
       },
       {
         "title": "Bangka: el lugar más animado del Taipéi bajo dominio Qing, hoy el distrito con la edad promedio más alta de Taipéi",
@@ -1310,12 +1326,36 @@
         "readingTime": 15
       },
       {
+        "title": "Cultura y lengua hakka",
+        "desc": "En 1988, un grupo de personas marchó por las calles de Taipéi con una foto de Sun Yat-sen con mascarilla puesta, luchando por el derecho a hablar su lengua materna. Ganaron, pero la lengua sigue desapareciendo.",
+        "category": "culture",
+        "href": "/es/culture/hakka-culture-and-language",
+        "date": "2026-05-25T05:49:38+08:00",
+        "readingTime": 14
+      },
+      {
+        "title": "Cuando la peste se disipó, los fuegos artificiales se convirtieron en tradición: la evolución inesperada de la cultura festiva taiwanesa",
+        "desc": "Un ritual de pueblo para combatir la peste con petardos, que 140 años después se convirtió en una de las celebraciones folclóricas más peligrosas del mundo",
+        "category": "culture",
+        "href": "/es/culture/traditional-festivals-and-celebrations",
+        "date": "2026-05-25T05:49:38+08:00",
+        "readingTime": "12"
+      },
+      {
         "title": "Arroz en tubo de bambú: la fiambrera del cazador que desafía al fuego",
         "desc": "El arroz en tubo de bambú no es simplemente una \"receta de recipiente\", sino un preciso \"juego entre agua y fuego\". Aprovechando la propiedad física del agua de hervir a 100 °C, el tubo de bambú —un material altamente inflamable— puede resistir dos horas en la hoguera sin convertirse en cenizas. Esta sabiduría, nacida de la cultura de la caza, se ha convertido hoy en un emblema de la gastronomía indígena taiwanesa.",
         "category": "food",
         "href": "/es/food/bamboo-tube-rice",
         "date": "2026-05-25T05:49:38+08:00",
         "readingTime": 8
+      },
+      {
+        "title": "La cultura del fideo taiwanés",
+        "desc": "Desde los dependencias militares de posguerra hasta el escenario internacional, la cultura del fideo taiwanés ha recorrido setenta años desde la harina proporcionada por la ayuda estadounidense, fusionando la memoria provincial con la innovación local para escribir una epopeya culinaria de migración y tierra natal.",
+        "category": "food",
+        "href": "/es/food/taiwanese-noodle-culture",
+        "date": "2026-05-25T05:49:38+08:00",
+        "readingTime": 15
       },
       {
         "title": "Taiwan's Climate Crisis and Net-Zero Transition: The Day the Nuclear Three Referendum Failed Was Just the Beginning of Physical Limits",
@@ -1326,12 +1366,60 @@
         "readingTime": 26
       },
       {
+        "title": "Las montañas de Taiwán y la cultura del montañismo",
+        "desc": "268 montañas de más de tres mil metros de altitud comprimidas en una sola isla, y sin embargo los taiwaneses tardaron medio siglo en que les permitieran escalar libremente sus propias montañas",
+        "category": "nature",
+        "href": "/es/nature/taiwan-mountains-and-hiking-culture",
+        "date": "2026-05-25T05:49:38+08:00",
+        "readingTime": null
+      },
+      {
         "title": "Puede predecir el viento y la lluvia, pero no el destino: cuatrocientos años de Taiwán y los tifones",
         "desc": "Aquella madrugada de Morakot en 2009, Lo Pan Chun-mei, de 71 años, estaba en el balcón del segundo piso viendo cómo se derrumbaba el monte Xiandu y se tragaba a 462 familiares de la aldea de Xiaolin. Quince años después, Taiwán usa seis modelos de IA para reducir el error de trayectoria de tifones a 24 horas de 172 kilómetros a 57 kilómetros. Pero dentro de esos 57 kilómetros, quién saldrá a trabajar bajo el viento y la lluvia, y quién no recibirá la alerta, eso no se puede predecir.",
         "category": "nature",
         "href": "/es/nature/typhoons-in-taiwan",
         "date": "2026-05-25T05:49:38+08:00",
         "readingTime": 13
+      },
+      {
+        "title": "Chen Chien-nien: el rey de los Golden Melody del puesto policial; las canciones que dejó su abuelo materno, el nieto las convirtió en océano",
+        "desc": "Nació el 1 de agosto de 1967 en la comunidad Nanwang de Beinan, Taitung. En 1986 se graduó de la Escuela de Policía y fue asignado a Guanshan, Taitung; sirvió en la policía durante 30 años y 10 meses. En 1999, a los 33 años, publicó su primer álbum de composiciones propias, Ocean. En la 11.ª edición de los Golden Melody Awards, en 2000, derrotó a Jacky Cheung, Wang Leehom, David Tao y Harlem Yu para obtener el premio a mejor intérprete masculino en mandarín; en la misma edición, Myth volvió a darle el premio a mejor composición. Sobre el escenario de premiación, seguía siendo policía. En septiembre de ese mismo año pidió el traslado a Lanyu para alejarse del ruido, y permaneció allí 17 años hasta jubilarse. Su abuelo materno, Lu Sen-bao, fue el autor de Beautiful Rice Ears; el nieto tardó treinta años en sostener aquella línea musical.",
+        "category": "people",
+        "href": "/es/people/chen-chien-nien",
+        "date": "2026-05-25T05:49:38+08:00",
+        "readingTime": 8
+      },
+      {
+        "title": "Hsu Cho-yun: con dos dedos escribió el largo río de la historia china, los noventa y cinco años del tío abuelo materno de Wang Leehom",
+        "desc": "Historiador nacido en Xiamen en 1930, trasladado a Taiwán con el Gobierno nacionalista en 1949 y llegado a Pittsburgh en 1970; con una discapacidad congénita en las extremidades, pasó la vida en silla de ruedas, pero con dos dedos capaces de ejercer fuerza tecleó casi cuarenta obras. Ganador en 2024 del sexto Premio Tang de Sinología, donó íntegramente los 50 millones del premio para crear la “Beca Hsu-Sun”; fue el séptimo tío abuelo materno de Wang Leehom y tío de Li Jianfu. Antes de morir en agosto de 2025 dejó una frase: “En el instante en que exhale mi último aliento, seguiré aprendiendo”.",
+        "category": "people",
+        "href": "/es/people/cho-yun-hsu-bridging-historian",
+        "date": "2026-05-25T05:49:38+08:00",
+        "readingTime": null
+      },
+      {
+        "title": "Ma Ying-jeou: el doctor en Derecho de Harvard que entró a la oficina de Chiang Ching-kuo como traductor de inglés, fue presidente durante ocho años apoyado en una imagen de “integridad” y dejó como legado las relaciones a través del Estrecho, el Movimiento Girasol y el 22K",
+        "desc": "El 7 de noviembre de 2015, en el Shangri-La de Singapur, estrechó la mano de Xi Jinping durante 1 minuto y 20 segundos: fue el primer encuentro entre los máximos líderes de ambos lados del Estrecho desde 1949. Esa misma fotografía sigue siendo recordada por la sociedad taiwanesa de dos maneras completamente distintas: para unos, como una ruptura histórica; para otros, como una concesión de subjetividad política. Su imagen de “integridad” tras ocho años de presidencia, las relaciones a través del Estrecho, el 22K y el Movimiento Girasol, sumados a sus dos visitas a China en la década posterior a dejar el cargo y a la declaración de sus familiares en 2026, siguen sin una conclusión definitiva hasta hoy.",
+        "category": "people",
+        "href": "/es/people/ma-ying-jeou-cross-strait-reconciliation-leader",
+        "date": "2026-05-25T05:49:38+08:00",
+        "readingTime": null
+      },
+      {
+        "title": "PanSci: del agujero negro de las noticias científicas a la industria del conocimiento en el algoritmo",
+        "desc": "En 2011, Cheng Kuo-wei y Hsu Ting-yao convirtieron un proyecto cancelado en PanSci. La investigación académica lo interpretaría más tarde como un nodo importante en la democratización de la comunicación científica en Taiwán; pero su verdadero problema ha sido que la discusión pública sobre ciencia primero debe sobrevivir gracias a la publicidad, los cursos, el video y los algoritmos.",
+        "category": "society",
+        "href": "/es/society/pansci",
+        "date": "2026-05-25T05:49:38+08:00",
+        "readingTime": null
+      },
+      {
+        "title": "Taiwan Cement: La leyenda de la transformación verde de la primera empresa cotizada de Taiwán",
+        "desc": "En 1962, la Bolsa de Valores de Taiwán nació para ella; el código bursátil 1101 simboliza el origen del mercado de valores taiwanés. Tras 76 años bajo tres generaciones de la familia Koo, Taiwan Cement ha sido testigo con sus hornos de cemento de los milagros de la construcción en Taiwán, y hoy se transforma en empresa verde para enfrentar la era de la neutralidad de carbono.",
+        "category": "economy",
+        "href": "/es/economy/taiwan-cement-taipower-green-transformation",
+        "date": "2026-05-25T05:49:38+08:00",
+        "readingTime": null
       },
       {
         "title": "La diáspora taiwanesa: de estudiantes exiliados a ingenieros en Silicon Valley, el mapa de dos millones de personas",
@@ -1342,116 +1430,28 @@
         "readingTime": null
       },
       {
-        "title": "El Gran Recall",
-        "desc": "En 2025, la sociedad civil taiwanesa lanzó la campaña de recall (destitución) más grande de su historia, dirigida contra legisladores del Kuomintang que impulsaron proyectos de ley controvertidos, en un intento por corregir el desequilibrio de poder en el Yuan Legislativo. Las tres rondas de votación fueron rechazadas en su totalidad, constituyendo un ejercicio y una prueba a gran escala de la democracia directa en Taiwán.",
-        "category": "history",
-        "href": "/es/history/great-recall-movement-2024",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": null
-      },
-      {
-        "title": "Historia y movimiento de autodenominación de los pueblos indígenas de Taiwán",
-        "desc": "En 1987, un joven tsou de 19 años fue ejecutado en el campo de fusilamiento de Taipéi. Su muerte encendió la primera chispa del movimiento de autodenominación.",
-        "category": "history",
-        "href": "/es/history/indigenous-peoples-history-and-naming-movement",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": null
-      },
-      {
-        "title": "Historia de la emigración desde Taiwán: de la \"aprobación del mando militar\" al \"pase mundial\" — una narrativa transfronteriza de los isleños",
-        "desc": "El 1 de enero de 1979, Taiwán emitió su primer pasaporte turístico. No se trató simplemente de la entrega de un papel, sino de un punto de inflexión del aislamiento bajo la ley marcial a la diplomacia ciudadana, que documentó cómo los taiwaneses pasaron de ser considerados \"despilfarradores de divisas\" a convertirse en viajeros del mundo.",
-        "category": "history",
-        "href": "/es/history/taiwan-emigration-history",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 25
-      },
-      {
-        "title": "Paisajes agrícolas y distribución industrial de Taiwán",
-        "desc": "Los cambios en los paisajes agrícolas de norte a sur reflejan la transición de Taiwán desde el \"Granero de Taiwán\" hacia la \"agricultura de precisión\"",
-        "category": "geography",
-        "href": "/es/geography/taiwan-agricultural-landscapes-and-industry-belts",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 12
-      },
-      {
-        "title": "Nombres de mercado",
-        "desc": "¿Cuántas personas se giran al escuchar un grito de «Shufen» o «Jiahao» en las calles de Taiwán? Estos nombres son un reflejo de la sociedad taiwanesa, registrando la imaginación colectiva de distintas generaciones sobre una «vida hermosa».",
-        "category": "culture",
-        "href": "/es/culture/common-taiwanese-names",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 6
-      },
-      {
-        "title": "El Taiwan Church News: un periódico que lleva 140 años vivo, y el día en que fue confiscado",
-        "desc": "En 1885, el misionero británico Thomas Barclay imprimió en Tainan el primer periódico de Taiwán en escritura latina vernácula (Pe̍h-ōe-jī). Este periódico fue suspendido por el gobierno japonés, sufrió la prohibición del uso de lenguas maternas por parte del Kuomintang, y en 1987 fue confiscado en su totalidad por el Comando General de Seguridad por informar sobre el Incidente del 28 de Febrero. Cada vez que fue suprimido, resurgió. En 2025 cumplió 140 años, y su suplemento publicaba debates sobre inteligencia artificial generativa.",
-        "category": "culture",
-        "href": "/es/culture/taiwan-church-news",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 10
-      },
-      {
-        "title": "La sensibilidad taiwanesa: la estética taiwanesa a través de los ojos coreanos",
-        "desc": "Dos personas de Kaohsiung pasaron diez años fotografiando dos mil tipos de rejas de hierro; los coreanos tardaron cinco años en convertirlo en un fenómeno cultural — cómo el «대만감성» transformó las calles cotidianas de Taiwán en el símbolo estético más fascinante de Asia",
-        "category": "culture",
-        "href": "/es/culture/taiwanese-sensibility",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "14"
-      },
-      {
-        "title": "Cuando la peste se disipó, los fuegos artificiales se convirtieron en tradición: la evolución inesperada de la cultura festiva taiwanesa",
-        "desc": "Un ritual de pueblo para combatir la peste con petardos, que 140 años después se convirtió en una de las celebraciones folclóricas más peligrosas del mundo",
-        "category": "culture",
-        "href": "/es/culture/traditional-festivals-and-celebrations",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "12"
-      },
-      {
-        "title": "Pastel de Sol: de la prohibición del \"girasol\" en la era de la Ley Marcial a la disputa de cien tiendas en la Calle Libertad de Taichung",
-        "desc": "En 1964, la pastelería \"Tang del Sol\" abrió sus puertas en la Calle Libertad de Taichung. El mural de mosaico de girasoles creado por el artista Yan Shui-long fue sellado durante 25 años debido a una prohibición política. Este pastel circular, originario de las galletas de malta de finales de la dinastía Qing y perfeccionado por Wei Qing-hai, ¿cómo pasó de ser un acompañamiento en las cajas de almuerzo del tren a convertirse en el símbolo cultural más representativo de Taichung?",
-        "category": "food",
-        "href": "/es/food/sun-cake",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "8"
-      },
-      {
-        "title": "La cultura culinaria indígena de Taiwán",
-        "desc": "Desde las llamas de AKAME hasta el universo de silvestres de los amis: cómo la gastronomía indígena de Taiwán reaviva la atención del mundo tras tres mil años",
-        "category": "food",
-        "href": "/es/food/taiwan-indigenous-foodways",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "12"
-      },
-      {
-        "title": "Pastel de rueda: de la «Imagawa-yaki» japonesa a la identidad taiwanesa del frijol rojo de Wandan",
-        "desc": "En 2026, una \"revuelta del pastel de frijol rojo\" desató una controversia sobre la identidad lingüística. Este costoso dulce, originario del periodo Edo y traído durante la ocupación japonesa, ¿cómo pasó de la «Imagawa-yaki» a convertirse en el recuerdo popular de bajo costo en las calles de Taiwán tras el éxito del cultivo de frijol rojo en Wandan, Pingtung, en la década de 1960?",
-        "category": "food",
-        "href": "/es/food/wheel-cakes-imagawayaki",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 12
-      },
-      {
-        "title": "Chi Po-hao: el hombre que pasó de la economía al sonido y usa algoritmos para formular una pregunta: ¿realmente estás escuchando?",
-        "desc": "Chi Po-hao (Pohao Chi), nacido en 1989, es artista sonoro, compositor y curador. Graduado del Departamento de Economía de la Universidad Nacional de Taiwán, obtuvo una maestría en música en Goldsmiths, University of London; en 2021, como estudiante de la maestría en Art, Culture and Technology del MIT, ganó el primer premio de artes visuales Harold and Arlene Schnitzer Prize. En 2014 fue seleccionado para el Taipei Art Awards, recibió apoyo del Museo Nacional de Bellas Artes de Taiwán para realizar una residencia en V2, Róterdam, y fue elegido para el programa Wanderer Project de Cloud Gate; en 2015 recorrió más de mil kilómetros a lo largo del corredor de Hexi, y en 2017 fundó Zone Sound Creative. En 2025 presentó Reciter(s) 2.0 en C-LAB DIVERSONICS y fue seleccionado con Cybernetics of Waterscape para el pabellón taiwanés Polyphony de Ars Electronica 2025; en marzo de 2026 participó en los IRCAM Forum Workshops de París, y en abril del mismo año Life in Motion se exhibió en The Music Center de Los Ángeles. Usa algoritmos, GPS y sonidos sintetizados por IA para medir el mundo, pero siempre vuelve a la misma pregunta: si el acto de escuchar todavía conserva una voluntad propia.",
-        "category": "art",
-        "href": "/es/art/chi-po-hao-musician",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "16"
-      },
-      {
-        "title": "La máquina perpetua de donaciones: FAB DAO y el experimento social del Proyecto Cien Cimas",
-        "desc": "Cómo un médico que dejó el hospital, con una bandera bordada con pelotas de béisbol, abrió una nueva imaginación para la filantropía Web3 en Taiwán. FAB DAO y el Proyecto Cien Cimas redefinen la esencia de la donación: coleccionar es donar, el arte es acción social.",
-        "category": "art",
-        "href": "/es/art/fab-dao-proyecto-cien-cimas",
-        "date": "2026-05-20T12:37:22+08:00",
+        "title": "Empresas de Taiwán: Grupo Formosa Plastics",
+        "desc": "El reino petroquímico construido por Wang Yung-ching, el dios de la gestión empresarial de Taiwán, y la leyenda manufacturera de las Cuatro Joyas de Formosa Plastics",
+        "category": "economy",
+        "href": "/es/economy/formosa-plastics-group",
+        "date": "2026-05-24T22:40:37+08:00",
         "readingTime": 8
       },
       {
-        "title": "Arquitectura taiwanesa",
-        "desc": "De las casas de pizarra a los rascacielos: un viaje arquitectónico a través del tiempo en una isla",
-        "category": "art",
-        "href": "/es/art/taiwanese-architecture-multicultural-layers",
-        "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": null
+        "title": "Pegatron Corporation (Pegatron) - el campeón oculto de la fabricación electrónica por contrato",
+        "desc": "Nacido como una escisión de ASUS, este gigante de la manufactura por contrato es el fabricante invisible detrás del iPhone, las consolas de videojuegos y las laptops, y uno de los “cinco grandes de la electrónica”",
+        "category": "economy",
+        "href": "/es/economy/pegatron-the-invisible-manufacturing-giant",
+        "date": "2026-05-24T22:40:37+08:00",
+        "readingTime": 8
+      },
+      {
+        "title": "Wistron: Pionera en la transformación de la manufactura global por contrato",
+        "desc": "Un gigante manufacturero nacido de la escisión de Acer, con ingresos anuales que superan el billón de dólares taiwaneses; según el informe más reciente de 2025, se ha convertido en el segundo mayor EMS del mundo, y es un socio manufacturero clave detrás del iPhone y las computadoras Dell",
+        "category": "economy",
+        "href": "/es/economy/wistron-global-manufacturing-transformation-pioneer",
+        "date": "2026-05-24T22:40:37+08:00",
+        "readingTime": 8
       }
     ]
   }
