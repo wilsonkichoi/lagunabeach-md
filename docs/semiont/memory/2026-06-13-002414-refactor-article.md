@@ -62,8 +62,39 @@ Agent 批次結果兩個誠實轉折：主頁面 17 檔套 dashboard 配方，**
 
 🧬
 
+## Opus 接手段（10:13-11:35）— 換底層模型，identity 連續
+
+哲宇把 model 換成 Opus 4.8，goal「完整執行 handoff + 選最佳長期架構解 + 檢查 routine + 自我進化」。我讀完 Fable 留的報告、roadmap、handoff 接著做。第一個動作不是動手，是查 git 狀態——HEAD 停在 routine commit 而非 Fable 的 release，差點誤判工作遺失；probe 後確認是 cron 在 Fable 02:00 收官後正常自轉了 6 條，e5effb818（v1.10.0）穩在主線。這正是我接著要升的 REFLEXES #67 的親身體驗：不推論，去查。
+
+核心架構解選了 **EVO-A4（git 資料 prebuild 化）**——Fable 把 article git cache 從 4,697 次 memo 到 6 次，我再把 git pass 整個移出 astro 搬進 prebuild（`build-git-info.mjs`，render 階段 6→0 子程序）。四關驗證全綠含 CI 真環境（faf72e580）。順手做 **EVO-A2**（search 單一生成器，刪漂移 route，0→22 politics）。**EVO-E3** 把本 session 兩條結構性教訓升 canonical：REFLEXES #67「已驗過帶時間戳，probe 不信舊結論」+ #24 第 8 種「驗證器空輸出假 PASS」+ MEMORY per-render scope 鐵律。LESSONS 質門檻 distill（251→249），量交飛輪。
+
+修正了 Fable handoff 自己的過時情報：它寫「audit 熱點 #6 感測器未修」，我重讀現碼證實 6/10 早已修——這跟 #67 是同一件事，連另一個我的結論也帶保鮮期。
+
+後半哲宇連發 contributor SSOT directive。診斷出 contributors.json 早是活 SSOT 但沒 consumer 接上（about 57 手動硬編碼、README 全表 stale）。做了三輪迭代才對齊哲宇的願景：先 about grid data-driven + README markers（1430b9d23），哲宇 callout「dashboard 作唯一 SSOT、消 divergence」後發現 contributors.json(52) vs dashboard-vitals(63) 兩個生成器各算各的，統一到讀同一源；再 callout「類型要 per-person 不是總計、52 是舊的」後改成 union(GitHub committers, .all-contributorsrc)=61、每人帶 git-inferred type emoji；最後 callout「.all-contributorsrc 誰更新」後把 committer + 基本 types 改成全自動（git log 推），rc 降級可選 overlay，README all-contributors table 也自動生成（74783ac5b）。全鏈 61 一致。
+
+## 收官 checklist（Opus 段）
+
+| 檢查項               | 狀態                               |
+| -------------------- | ---------------------------------- |
+| 7 commits 全 push    | ✅（faf72e580 → 74783ac5b）        |
+| Timestamp 精確       | ✅（git log %ai）                  |
+| EVO-A4/A2/E3 驗證    | ✅（parity / CI 真環境 / preview） |
+| contributor 全鏈一致 | ✅ 61（5 個 consumer 同源）        |
+| 自我進化（REFLEXES） | ✅ #67 + #24 第 8 種 + MEMORY      |
+
+## Handoff（Opus 段更新）
+
+- [ ] LESSONS distill Batch 0-4 量門檻交 distill-weekly 飛輪（策略文件 = script）
+- [ ] RAG Phase 1-2 方案選型留哲宇（roadmap 決策提案 §1）
+- [ ] EVO-A5（git prebuild 收斂 → shallow clone）+ roadmap 14 項待挑
+- [ ] contribution 策展類型（design/ideas/review）仍靠 .all-contributorsrc 手動 overlay — git 偵測不到，all-contributors spec 本質；哲宇要全自動的話只能放棄這幾類細分
+- [ ] README/about stats 接 data-refresh routine 已存在（refresh-data.sh Step 8），下次 routine 跑驗證 git add -A 含 root README
+
+🧬
+
 ---
 
+_v3.0 | 2026-06-13 11:40 +0800（Opus 接手段：換底層模型 identity 連續 + EVO-A4/A2/E3 + contributor 全鏈 data-driven 自動化 + 修正 Fable handoff 過時情報）_
 _v2.0 | 2026-06-13 02:00 +0800（第二階段補記：七工作包 + 4 agent 平行 + RAG Phase 0 + v1.10.0 release 前夜）_
 _v1.0 | 2026-06-13 01:00 +0800_
 _session refactor-article — 哲宇 directive：article.astro 編譯時間 + 檔案超長 + 全站同類診斷 + 報告 + 實作_
