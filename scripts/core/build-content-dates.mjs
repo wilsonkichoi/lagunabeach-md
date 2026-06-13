@@ -166,6 +166,57 @@ function main() {
     }
   }
 
+  // 2026-06-14: a translated article's freshness IS its zh source's content
+  // freshness — a pure re-translation (lang-sync / 平行翻譯 / 榨模型 batch) is not a
+  // content event. We DERIVE rather than FILTER: filtering translation commits
+  // would leave a translated file (whose every commit is a translation) with NO
+  // date → foreign /latest collapse. Inheriting the zh date instead dissolves the
+  // historical 1329-on-2026-05-01 + 805-on-05-02 sitemap floods (translated files
+  // were all dated on their sync day) while keeping every translation dated and
+  // making foreign /latest mirror real zh content recency.
+  let derived = 0;
+  for (const url of Object.keys(dates)) {
+    const m = url.match(/^\/([a-z]{2})\/(.+)$/);
+    if (m && NON_DEFAULT_LANGS.has(m[1])) {
+      const zhUrl = '/' + m[2];
+      if (dates[zhUrl] && dates[url] !== dates[zhUrl]) {
+        dates[url] = dates[zhUrl];
+        derived++;
+      }
+    }
+  }
+
+  // 2026-06-14: proactive anomaly guard (report §Part3.4). A single day with an
+  // implausible article count = a batch op leaked through the cosmetic filters
+  // (the media flood + the 1329-on-05-01 translation flood both looked like this).
+  // A near-empty result = a parser/env regression (the core.quotepath /latest
+  // collapse). Warn LOUDLY in the build log so the next pollution source or
+  // regression announces itself, instead of waiting for a human to spot /latest.
+  const FLOOD = 120;
+  const MIN_EXPECTED = 3000;
+  const byDay = {};
+  for (const v of Object.values(dates)) {
+    const d = (v || '').slice(0, 10);
+    if (d) byDay[d] = (byDay[d] || 0) + 1;
+  }
+  const floods = Object.entries(byDay)
+    .filter(([, n]) => n >= FLOOD)
+    .sort((a, b) => b[1] - a[1]);
+  if (floods.length) {
+    console.warn(
+      `[content-dates] ⚠️  ANOMALY: ${floods.length} day(s) ≥${FLOOD} articles (batch-op leak? add to COSMETIC/derive): ` +
+        floods
+          .slice(0, 5)
+          .map(([d, n]) => `${d}=${n}`)
+          .join(' '),
+    );
+  }
+  if (Object.keys(dates).length < MIN_EXPECTED) {
+    console.warn(
+      `[content-dates] ⚠️  ANOMALY: only ${Object.keys(dates).length} dated URLs (expected >${MIN_EXPECTED}) — parser/env regression? (e.g. core.quotepath octal-escaping CJK paths)`,
+    );
+  }
+
   mkdirSync(dirname(OUT), { recursive: true });
   writeFileSync(
     OUT,
@@ -176,7 +227,7 @@ function main() {
     }),
   );
   console.log(
-    `[content-dates] ${Object.keys(dates).length} URL dates (skipped ${skipped} cosmetic file-touches) → src/data/content-dates.json`,
+    `[content-dates] ${Object.keys(dates).length} URL dates (skipped ${skipped} cosmetic; ${derived} translated inherited zh date) → src/data/content-dates.json`,
   );
 }
 
