@@ -622,17 +622,33 @@ async function main() {
     );
   }
 
-  // Count unique git contributors
+  // Contributor count — single SSOT = contributors.json (GitHub /contributors
+  // API, filter bot). 2026-06-13: this was an independent `git log %aN | sort -u`
+  // (counted 63 incl. bots + unmatched-email authors), diverging from
+  // contributors.json's 52 — the number the about grid, README, and dashboard
+  // leaderboard all show. Read the same SSOT so every surface agrees; fall back
+  // to the git count if the JSON isn't ready (run-p race: contributors.json is
+  // git-tracked, so a prior build's copy is present and close enough).
   let contributors = 0;
   try {
-    const authorList = execSync('git log --format="%aN" | sort -u', {
-      cwd: PROJECT_ROOT,
-      encoding: 'utf8',
-      stdio: ['pipe', 'pipe', 'pipe'],
-    });
-    contributors = authorList.trim().split('\n').filter(Boolean).length;
+    const cj = JSON.parse(
+      fs.readFileSync(path.join(OUTPUT_DIR, 'contributors.json'), 'utf8'),
+    );
+    if (cj?.totals?.contributors > 0) contributors = cj.totals.contributors;
   } catch {
-    contributors = 0;
+    /* fall through to git distinct count */
+  }
+  if (!contributors) {
+    try {
+      const authorList = execSync('git log --format="%aN" | sort -u', {
+        cwd: PROJECT_ROOT,
+        encoding: 'utf8',
+        stdio: ['pipe', 'pipe', 'pipe'],
+      });
+      contributors = authorList.trim().split('\n').filter(Boolean).length;
+    } catch {
+      contributors = 0;
+    }
   }
 
   const vitals = {

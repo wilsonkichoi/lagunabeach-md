@@ -93,10 +93,15 @@ async function fetchContributors() {
     all.push(...batch);
     if (batch.length < 100) break;
   }
-  // 過濾 bot 類
+  // 過濾 bot 類。除了 type='Bot' / [bot] suffix，還要擋「User-typed bots」——
+  // 用 User account 跑的機器人（如 astrobot-houston = Astro 的 Houston AI），
+  // GitHub API 標 type='User' 會漏掉，明確列入 KNOWN_BOTS。
+  const KNOWN_BOTS = new Set(['claude', 'astrobot-houston']);
   return all.filter(
     (c) =>
-      c.login !== 'claude' && c.type !== 'Bot' && !c.login.endsWith('[bot]'),
+      !KNOWN_BOTS.has(c.login.toLowerCase()) &&
+      c.type !== 'Bot' &&
+      !c.login.endsWith('[bot]'),
   );
 }
 
@@ -238,6 +243,105 @@ function aggregateByLogin(contributors, emailStats) {
 
 // ─── Step 3: 輸出 ───────────────────────────────────────────────────────────
 
+// all-contributors emoji key (https://allcontributors.org/docs/en/emoji-key) —
+// the same standard the README ALL-CONTRIBUTORS table uses, so about + README
+// show identical per-person badges.
+const ALL_CONTRIB_EMOJI = {
+  code: '💻',
+  content: '🖋️',
+  design: '🎨',
+  ideas: '🤔',
+  translation: '🌍',
+  review: '👀',
+  bug: '🐛',
+  tool: '🔧',
+  security: '🛡️',
+  doc: '📖',
+  projectManagement: '📆',
+  infra: '🚇',
+  maintenance: '🚧',
+  test: '⚠️',
+  question: '💬',
+  blog: '📝',
+};
+
+function readAllContributorsRc() {
+  try {
+    return (
+      JSON.parse(
+        fs.readFileSync(path.join(PROJECT_ROOT, '.all-contributorsrc'), 'utf8'),
+      ).contributors || []
+    );
+  } catch {
+    return [];
+  }
+}
+
+// Full contributor SSOT = UNION of GitHub /contributors committers AND
+// .all-contributorsrc. 2026-06-13 (哲宇 callout): GitHub API alone (52) omits
+// the 10 non-code contributors (ideas / translation / bug / review) that only
+// live in .all-contributorsrc; .all-contributorsrc alone misses 5 newer
+// committers. Union = 62, each carrying per-person contribution-type emoji
+// (the about grid stamps these under each avatar, all-contributors style).
+// Auto-infer base types from a committer's git-log breakdown — so a brand-new
+// committer who's never in .all-contributorsrc still gets the right badges, and
+// the count + base types stay correct even if nobody ever touches the rc file.
+// .all-contributorsrc then only needs to ADD the curated types git can't detect
+// (design / ideas / review / bug / doc / security…); it's an optional overlay,
+// not a hard dependency. This is what makes the whole pipeline auto + SSOT:
+// committers and base types are derived; only judgment-call types are manual.
+function gitInferredTypes(author) {
+  const b = author.breakdown || {};
+  const t = [];
+  if (b.system > 0) t.push('code'); // touched scripts/src/config
+  if (b.content > 0) t.push('content'); // touched knowledge/*.md
+  if (b.translation > 0) t.push('translation'); // touched knowledge/{lang}/
+  return t.length ? t : ['code'];
+}
+const TYPE_ORDER = Object.keys(ALL_CONTRIB_EMOJI);
+
+function buildAllContributors(authors) {
+  const rc = readAllContributorsRc();
+  const rcByLogin = new Map(rc.map((c) => [c.login.toLowerCase(), c]));
+  const toEmoji = (types) =>
+    [...new Set(types)]
+      .sort((x, y) => TYPE_ORDER.indexOf(x) - TYPE_ORDER.indexOf(y))
+      .map((t) => ALL_CONTRIB_EMOJI[t])
+      .filter(Boolean);
+  const seen = new Set();
+  const out = [];
+  // GitHub committers first (newest-commit ordering). Types = git-inferred base
+  // ∪ .all-contributorsrc curated overlay.
+  for (const a of authors) {
+    const key = a.login.toLowerCase();
+    seen.add(key);
+    const rcEntry = rcByLogin.get(key);
+    out.push({
+      login: a.login,
+      name: rcEntry?.name || a.login, // display name (README table), fallback login
+      avatarUrl: a.avatarUrl,
+      profileUrl: a.profileUrl,
+      types: toEmoji([
+        ...gitInferredTypes(a),
+        ...(rcEntry?.contributions || []),
+      ]),
+    });
+  }
+  // .all-contributorsrc-only (non-committer contributors: ideas / bug reports /
+  // translation suggestions that never produced a commit — purely manual).
+  for (const c of rc) {
+    if (seen.has(c.login.toLowerCase())) continue;
+    out.push({
+      login: c.login,
+      name: c.name || c.login,
+      avatarUrl: c.avatar_url,
+      profileUrl: c.profile || `https://github.com/${c.login}`,
+      types: toEmoji(c.contributions || []),
+    });
+  }
+  return out;
+}
+
 function buildPayload(authors) {
   const now = Date.now();
   const DAY = 86400 * 1000;
@@ -264,19 +368,19 @@ function buildPayload(authors) {
     )
     .slice(0, 10);
 
+  // Full list = union(GitHub committers, .all-contributorsrc), each with
+  // per-person contribution-type emoji. totals.contributors counts the union
+  // (62) — was authors.length (52), which dropped the non-code contributors.
+  const allContributors = buildAllContributors(authors);
   return {
     lastUpdated: new Date().toISOString(),
-    totals: { contributors: authors.length, activeWindow: 'last 30d' },
+    totals: { contributors: allContributors.length, activeWindow: 'last 30d' },
     leaderboard: authors.slice(0, 20),
-    // 2026-06-13: 完整名單（login + avatar + url，輕量 3 欄），給 about 頁
-    // contributor grid 做 data-driven .map()，取代 57 個手動硬編碼 card
-    // （本 generator 原始動機「45 手動 card 易過時」終於兌現）。SSOT = 此處
-    // GitHub /contributors API，每次 prebuild 刷新；about 永遠最新、零手維。
-    allContributors: authors.map((a) => ({
-      login: a.login,
-      avatarUrl: a.avatarUrl,
-      profileUrl: a.profileUrl,
-    })),
+    // 完整名單（union GitHub committers + .all-contributorsrc 非 code 貢獻者），
+    // 每人帶 per-person contribution-type emoji（all-contributors 標準）。about
+    // grid 用它做 data-driven 渲染，取代 57 個手動硬編碼 card + 修正只算 committer
+    // 漏掉非 code 貢獻者的數字。SSOT = .all-contributorsrc ∪ GitHub /contributors API。
+    allContributors,
     topContent: authors.filter((a) => a.primaryArea === 'content').slice(0, 5),
     topSystem: authors.filter((a) => a.primaryArea === 'system').slice(0, 5),
     topTranslation: authors

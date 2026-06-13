@@ -83,6 +83,50 @@ else:
     print("✅ README stats table regenerated")
 PYEOF
 
+# 2b. Regenerate the README all-contributors table from contributors.json.
+# 2026-06-13: this used to be hand-maintained .all-contributorsrc (no bot — the
+# rc file sat a month stale). Now both the table and about's grid read the same
+# auto-generated SSOT (committers + git-inferred types ∪ rc curated overlay), so
+# README stays in sync without anyone running the all-contributors CLI.
+python3 - <<'PYEOF'
+import json, re
+
+try:
+    ac = json.load(open("public/api/contributors.json")).get("allContributors", [])
+except Exception:
+    ac = []
+
+if ac:
+    cells = [
+        f'<td align="center"><a href="{c["profileUrl"]}"><img src="{c["avatarUrl"]}" '
+        f'width="100px;" alt=""/><br /><sub><b>{c.get("name", c["login"])}</b></sub></a>'
+        f'<br />{" ".join(c.get("types", []))}</td>'
+        for c in ac
+    ]
+    rows = [
+        "  <tr>\n    " + "\n    ".join(cells[i : i + 7]) + "\n  </tr>"
+        for i in range(0, len(cells), 7)
+    ]
+    table = "<table>\n" + "\n".join(rows) + "\n</table>"
+    block = (
+        "<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->\n"
+        + table
+        + "\n<!-- ALL-CONTRIBUTORS-LIST:END -->"
+    )
+    readme = open("README.md").read()
+    if "<!-- ALL-CONTRIBUTORS-LIST:START" in readme:
+        readme = re.sub(
+            r"<!-- ALL-CONTRIBUTORS-LIST:START.*?ALL-CONTRIBUTORS-LIST:END -->",
+            block,
+            readme,
+            flags=re.S,
+        )
+        open("README.md", "w").write(readme)
+        print(f"✅ README all-contributors table regenerated ({len(ac)} people)")
+    else:
+        print("⚠️  README has no ALL-CONTRIBUTORS markers — skipping")
+PYEOF
+
 # 3. Update about page stats via i18n (NOT the template!)
 # Round stars to nearest 100
 if [ "$STARS" -ge 1000 ]; then

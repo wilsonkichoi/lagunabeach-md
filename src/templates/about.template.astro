@@ -10,19 +10,32 @@ import { getLangFromUrl, useTranslations } from '../i18n/utils';
 // 刻意 import JSON 而非 sed 改本檔 — update-stats.sh 註解記載 sed 改本 grid
 // 曾破壞鄰近 Sponsors/Contact section 三次，data-driven 一勞永逸避開。
 import contributorsData from '../../public/api/contributors.json';
+// 2026-06-13 data-driven 統一（哲宇 directive：dashboard 生成器產唯一 SSOT，
+// consumer 頁面延伸）。stats.json + contributors.json 都是 prebuild 生成的
+// dashboard 資料層；about 直接 import 取數，不再靠 update-stats.sh sed 改 i18n
+// string。contributor 數全站單一來源 contributors.json（dashboard-vitals 已改讀它）。
+import statsData from '../../public/api/stats.json';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
-const allContributors =
-  (
-    contributorsData as {
-      allContributors?: Array<{
-        login: string;
-        avatarUrl: string;
-        profileUrl: string;
-      }>;
-    }
-  ).allContributors || [];
+const _c = contributorsData as {
+  allContributors?: Array<{
+    login: string;
+    avatarUrl: string;
+    profileUrl: string;
+    types?: string[];
+  }>;
+  totals?: { contributors?: number };
+};
+const _s = statsData as {
+  stars?: number;
+  totalPages?: number;
+  estimatedContributors?: number;
+};
+const allContributors = _c.allContributors || [];
+const contributorCount = _c.totals?.contributors || allContributors.length;
+const totalArticles = _s.totalPages || 0;
+const starCount = _s.stars || 0;
 ---
 
 <Layout
@@ -83,7 +96,7 @@ const allContributors =
 
         <div class="project-stats">
           <div class="stat-item">
-            <span class="stat-number">{t('about.stats.pages.number')}</span>
+            <span class="stat-number">{totalArticles}+</span>
             <span class="stat-label">{t('about.stats.pages.label')}</span>
           </div>
           <div class="stat-item">
@@ -91,13 +104,11 @@ const allContributors =
             <span class="stat-label">{t('about.stats.countries.label')}</span>
           </div>
           <div class="stat-item">
-            <span class="stat-number">{t('about.stats.stars.number')}</span>
+            <span class="stat-number">{starCount}+</span>
             <span class="stat-label">{t('about.stats.stars.label')}</span>
           </div>
           <div class="stat-item">
-            <span class="stat-number"
-              >{t('about.stats.contributors.number')}</span
-            >
+            <span class="stat-number">{contributorCount}+</span>
             <span class="stat-label">{t('about.stats.contributors.label')}</span
             >
           </div>
@@ -682,6 +693,9 @@ const allContributors =
                     loading="lazy"
                   />
                   <span class="contributor-name">{c.login}</span>
+                  {c.types && c.types.length > 0 && (
+                    <span class="contributor-types">{c.types.join(' ')}</span>
+                  )}
                 </a>
               ))
             }
@@ -1859,6 +1873,16 @@ const allContributors =
   .contributors-desc {
     color: #64748b;
     margin-bottom: 1.5rem;
+  }
+
+  /* 2026-06-13 data-driven per-person 貢獻類型 emoji（contributors.json
+     allContributors[].types，從 .all-contributorsrc ∪ GitHub API SSOT）。
+     標在每個 avatar 名字下，all-contributors 標準 — 跟 README table 同源。 */
+  .contributor-types {
+    font-size: 0.85rem;
+    line-height: 1.3;
+    margin-top: 0.15rem;
+    letter-spacing: 0.05em;
   }
 
   .contributors-grid {
