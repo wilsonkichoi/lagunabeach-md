@@ -268,6 +268,15 @@ function buildPayload(authors) {
     lastUpdated: new Date().toISOString(),
     totals: { contributors: authors.length, activeWindow: 'last 30d' },
     leaderboard: authors.slice(0, 20),
+    // 2026-06-13: 完整名單（login + avatar + url，輕量 3 欄），給 about 頁
+    // contributor grid 做 data-driven .map()，取代 57 個手動硬編碼 card
+    // （本 generator 原始動機「45 手動 card 易過時」終於兌現）。SSOT = 此處
+    // GitHub /contributors API，每次 prebuild 刷新；about 永遠最新、零手維。
+    allContributors: authors.map((a) => ({
+      login: a.login,
+      avatarUrl: a.avatarUrl,
+      profileUrl: a.profileUrl,
+    })),
     topContent: authors.filter((a) => a.primaryArea === 'content').slice(0, 5),
     topSystem: authors.filter((a) => a.primaryArea === 'system').slice(0, 5),
     topTranslation: authors

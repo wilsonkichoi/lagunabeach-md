@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T22:11:05.811Z",
+  "lastUpdated": "2026-06-13T02:50:40.706Z",
   "totals": {
     "contributors": 52,
     "activeWindow": "last 30d"
@@ -7,16 +7,16 @@
   "leaderboard": [
     {
       "login": "frank890417",
-      "commits": 4005,
+      "commits": 4016,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4727572?v=4",
       "profileUrl": "https://github.com/frank890417",
       "firstCommitAt": "2026-03-17 16:05:41 +0800",
-      "lastCommitAt": "2026-06-13 02:57:48 +0800",
+      "lastCommitAt": "2026-06-13 10:44:33 +0800",
       "primaryArea": "system",
       "breakdown": {
         "content": 825,
-        "system": 2701,
-        "translation": 760
+        "system": 2712,
+        "translation": 761
       }
     },
     {
@@ -286,6 +286,268 @@
       }
     }
   ],
+  "allContributors": [
+    {
+      "login": "frank890417",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4727572?v=4",
+      "profileUrl": "https://github.com/frank890417"
+    },
+    {
+      "login": "idlccp1984",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/271929436?v=4",
+      "profileUrl": "https://github.com/idlccp1984"
+    },
+    {
+      "login": "Link1515",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/88765055?v=4",
+      "profileUrl": "https://github.com/Link1515"
+    },
+    {
+      "login": "dreamline2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4657845?v=4",
+      "profileUrl": "https://github.com/dreamline2"
+    },
+    {
+      "login": "YenTingWu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/57777349?v=4",
+      "profileUrl": "https://github.com/YenTingWu"
+    },
+    {
+      "login": "Zaious",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/128442444?v=4",
+      "profileUrl": "https://github.com/Zaious"
+    },
+    {
+      "login": "fredchu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1243384?v=4",
+      "profileUrl": "https://github.com/fredchu"
+    },
+    {
+      "login": "AgendaLu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43836432?v=4",
+      "profileUrl": "https://github.com/AgendaLu"
+    },
+    {
+      "login": "eryet",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48248414?v=4",
+      "profileUrl": "https://github.com/eryet"
+    },
+    {
+      "login": "bugnimusic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/260387338?v=4",
+      "profileUrl": "https://github.com/bugnimusic"
+    },
+    {
+      "login": "BrianHuang813",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66238110?v=4",
+      "profileUrl": "https://github.com/BrianHuang813"
+    },
+    {
+      "login": "p3nchan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5032148?v=4",
+      "profileUrl": "https://github.com/p3nchan"
+    },
+    {
+      "login": "weilinlai719",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/173038591?v=4",
+      "profileUrl": "https://github.com/weilinlai719"
+    },
+    {
+      "login": "iigmir",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11061770?v=4",
+      "profileUrl": "https://github.com/iigmir"
+    },
+    {
+      "login": "hansai-art",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/132933660?v=4",
+      "profileUrl": "https://github.com/hansai-art"
+    },
+    {
+      "login": "vaiskalivuan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/270533697?v=4",
+      "profileUrl": "https://github.com/vaiskalivuan"
+    },
+    {
+      "login": "ceruleanstring",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/265435204?v=4",
+      "profileUrl": "https://github.com/ceruleanstring"
+    },
+    {
+      "login": "tboydar",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/169805?v=4",
+      "profileUrl": "https://github.com/tboydar"
+    },
+    {
+      "login": "gn00295120",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30173341?v=4",
+      "profileUrl": "https://github.com/gn00295120"
+    },
+    {
+      "login": "r000tmnt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/62630285?v=4",
+      "profileUrl": "https://github.com/r000tmnt"
+    },
+    {
+      "login": "Ray0907",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/29456968?v=4",
+      "profileUrl": "https://github.com/Ray0907"
+    },
+    {
+      "login": "jessejs0202",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/247524286?v=4",
+      "profileUrl": "https://github.com/jessejs0202"
+    },
+    {
+      "login": "siansiansu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33391637?v=4",
+      "profileUrl": "https://github.com/siansiansu"
+    },
+    {
+      "login": "Lisa123wang",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/103297468?v=4",
+      "profileUrl": "https://github.com/Lisa123wang"
+    },
+    {
+      "login": "Johnwang860424",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43649946?v=4",
+      "profileUrl": "https://github.com/Johnwang860424"
+    },
+    {
+      "login": "jekyll530",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/150101610?v=4",
+      "profileUrl": "https://github.com/jekyll530"
+    },
+    {
+      "login": "f312213213",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/71749524?v=4",
+      "profileUrl": "https://github.com/f312213213"
+    },
+    {
+      "login": "Yo0GuitarIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/118150842?v=4",
+      "profileUrl": "https://github.com/Yo0GuitarIT"
+    },
+    {
+      "login": "expectingshadowland-maker",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/276374199?v=4",
+      "profileUrl": "https://github.com/expectingshadowland-maker"
+    },
+    {
+      "login": "astrobot-houston",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/108291165?v=4",
+      "profileUrl": "https://github.com/astrobot-houston"
+    },
+    {
+      "login": "jacky1822",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/94786796?v=4",
+      "profileUrl": "https://github.com/jacky1822"
+    },
+    {
+      "login": "k66inthesky",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/45890492?v=4",
+      "profileUrl": "https://github.com/k66inthesky"
+    },
+    {
+      "login": "kevinyay945",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17717808?v=4",
+      "profileUrl": "https://github.com/kevinyay945"
+    },
+    {
+      "login": "littlecabin-co",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/269660511?v=4",
+      "profileUrl": "https://github.com/littlecabin-co"
+    },
+    {
+      "login": "luofreddy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/85281073?v=4",
+      "profileUrl": "https://github.com/luofreddy"
+    },
+    {
+      "login": "number053",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/269151044?v=4",
+      "profileUrl": "https://github.com/number053"
+    },
+    {
+      "login": "ro9er117911",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/127029993?v=4",
+      "profileUrl": "https://github.com/ro9er117911"
+    },
+    {
+      "login": "sageotomo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/271172009?v=4",
+      "profileUrl": "https://github.com/sageotomo"
+    },
+    {
+      "login": "Rushyuheng",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15012940?v=4",
+      "profileUrl": "https://github.com/Rushyuheng"
+    },
+    {
+      "login": "yuweichen1008",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12914366?v=4",
+      "profileUrl": "https://github.com/yuweichen1008"
+    },
+    {
+      "login": "x1001000",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6036508?v=4",
+      "profileUrl": "https://github.com/x1001000"
+    },
+    {
+      "login": "simanglam",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/90334583?v=4",
+      "profileUrl": "https://github.com/simanglam"
+    },
+    {
+      "login": "assanges",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4113063?v=4",
+      "profileUrl": "https://github.com/assanges"
+    },
+    {
+      "login": "RayHsu1117",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/105488123?v=4",
+      "profileUrl": "https://github.com/RayHsu1117"
+    },
+    {
+      "login": "TWjohnwang",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/108091299?v=4",
+      "profileUrl": "https://github.com/TWjohnwang"
+    },
+    {
+      "login": "howieyoung",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12218074?v=4",
+      "profileUrl": "https://github.com/howieyoung"
+    },
+    {
+      "login": "chenyi-wu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66383520?v=4",
+      "profileUrl": "https://github.com/chenyi-wu"
+    },
+    {
+      "login": "joe32140",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6942982?v=4",
+      "profileUrl": "https://github.com/joe32140"
+    },
+    {
+      "login": "chipohao",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/61603468?v=4",
+      "profileUrl": "https://github.com/chipohao"
+    },
+    {
+      "login": "brianhu-tw",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9028425?v=4",
+      "profileUrl": "https://github.com/brianhu-tw"
+    },
+    {
+      "login": "AndyWang505",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/71600455?v=4",
+      "profileUrl": "https://github.com/AndyWang505"
+    },
+    {
+      "login": "Aaron2464",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/31269964?v=4",
+      "profileUrl": "https://github.com/Aaron2464"
+    }
+  ],
   "topContent": [
     {
       "login": "idlccp1984",
@@ -361,16 +623,16 @@
   "topSystem": [
     {
       "login": "frank890417",
-      "commits": 4005,
+      "commits": 4016,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4727572?v=4",
       "profileUrl": "https://github.com/frank890417",
       "firstCommitAt": "2026-03-17 16:05:41 +0800",
-      "lastCommitAt": "2026-06-13 02:57:48 +0800",
+      "lastCommitAt": "2026-06-13 10:44:33 +0800",
       "primaryArea": "system",
       "breakdown": {
         "content": 825,
-        "system": 2701,
-        "translation": 760
+        "system": 2712,
+        "translation": 761
       }
     },
     {
