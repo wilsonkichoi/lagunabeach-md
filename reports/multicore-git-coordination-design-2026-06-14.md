@@ -233,7 +233,26 @@ push 前硬閘（這是 B/C 從空白到有的關鍵）：
 
 ---
 
+## 9. 實作完成紀錄（2026-06-14 /goal — §8 完整 ship）
+
+哲宇 `/goal` directive「完整做完 §8，每步 進化＋檢查＋驗證＋紀錄，然後 finale」。全 ship：
+
+| §8 step | 產出                                                                                      | 驗證                                                                                               | commit      |
+| ------- | ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ----------- |
+| 0+1     | `check-parallel-actor.sh` + `verify-commit-scope.sh` + `worktree-gc.sh`                   | 三支跑通；worktree-gc 對 49 worktree 全判「保留」（皆有 unpushed/locked）— 安全檢查生效            | d318b9fc8   |
+| 2       | deploy 時長校準                                                                           | 實測 success≈350s / cancelled 151-312s / 5-8 取消（62%）→ pre-push 門檻定 245s（per #66 不憑想像） | —           |
+| 3       | BECOME 鐵律 5 三階段改寫 + REFLEXES #68 umbrella + index + #6 back-ref + DNA gene map row | 散落七處原則統合，薄殼守住                                                                         | a1724effe   |
+| 4       | `.husky/pre-push` 誕生 + `.husky/pre-commit` parallel-actor 快檢                          | negative test：skip/gh-unavail/no-deploy 路徑全 exit 0；首次 live push 靜默通過（clean=quiet）     | a1724effe   |
+| 5       | path-filter                                                                               | **選配未採用**（哲宇拍板保留 cancel-in-progress + pre-push 查 CI）                                 | —           |
+| 6       | LESSONS 三條標 resolved_by + finale                                                       | 本節 + /twmd-finale                                                                                | (本 commit) |
+
+**活體驗證（這個 session 親身撞到碰撞，鐵律當場接住三次）**：(1) commit 報告時工作目錄有 24+ 別 session dirty 檔 → stage-only-mine + scope verify 擋下；(2) push 報告 v2 時 sibling 的 `呂冠緯 Stage 0-1`（中間產物）疊上我的 push 範圍 → 偵測到，held；(3) 同刻 in-flight content deploy → 不為 report 取消，held。三次都是設計的防線在真實多核心下生效。這條 vc++ 進 cross-session-git-index-pollution（活體 instance）。
+
+**殘餘（誠實標註）**：(a) pre-push 是 local advisory，`--no-verify` 仍可繞 — 真隔離靠 worktree；(b) pre-commit 的 parallel-actor 檢查刻意只警告不擋（hard-block 會打斷 routine commit）；(c) lint-staged stash race 本質未根除（靠 worktree 隔離 + post-commit verify 繞過，非改 lint-staged 內部）；(d) 49 個 stale worktree 因有 unpushed/locked 暫不可 gc，待各自工作落地後 `worktree-gc.sh --apply`；(e) LESSONS 三條 in-place 標 resolved_by，正式 §未消化→§已消化 sweep 留 /twmd-distill（兩 §未消化 section 結構問題需哲宇拍板合併）。
+
+---
+
+_v1.0 | 2026-06-14-020335-manual — §8 完整 ship（§9 紀錄）。三工具 + canonical 統合 + pre-push hook 全 land + 活體三證。_
 _v0.2 | 2026-06-14-020335-manual — 加 §5.0 worktree-ff-push 脊椎（解哲宇主要卡點「worktree 是否一定走 PR」，dry-run 實證 ff 直接落 main）+ 開工階段升 worktree-default + §8 加 worktree 垃圾清理 step 0。_
 _v0.1 | 2026-06-14-020335-manual（Opus 4.8, 1M context）— 設計階段。哲宇 directive 觸發，三決策鎖定（§4）。_
 _前身：[session-scope-proposal-2026-04-11.md](session-scope-proposal-2026-04-11.md)（commit 面四層架構）。本檔接續 push + CI 面，並把散落七處的原則統合到 BECOME §行動鐵律 5。_
-_下一步：見 §8 實作計畫。等哲宇給 go 再動認知層 canonical + 裝 hook。_
