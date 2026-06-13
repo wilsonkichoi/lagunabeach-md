@@ -1,0 +1,4460 @@
+{
+  "total_audited": 1065,
+  "clean": 697,
+  "critical": 0,
+  "warning_only": 368,
+  "in_flight": 0,
+  "per_lang": {
+    "en": {
+      "audited": 213,
+      "clean": 143,
+      "critical": 0,
+      "warning_only": 70
+    },
+    "ja": {
+      "audited": 213,
+      "clean": 154,
+      "critical": 0,
+      "warning_only": 59
+    },
+    "ko": {
+      "audited": 213,
+      "clean": 142,
+      "critical": 0,
+      "warning_only": 71
+    },
+    "es": {
+      "audited": 213,
+      "clean": 133,
+      "critical": 0,
+      "warning_only": 80
+    },
+    "fr": {
+      "audited": 213,
+      "clean": 125,
+      "critical": 0,
+      "warning_only": 88
+    }
+  },
+  "flagged": [
+    {
+      "lang": "en",
+      "diary": "2026-04-04-ζ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.85>2.8"
+      ],
+      "ratio": 2.85,
+      "src_chars": 822,
+      "tgt_chars": 2345
+    },
+    {
+      "lang": "en",
+      "diary": "2026-04-05-δ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.10>2.8"
+      ],
+      "ratio": 3.1,
+      "src_chars": 2357,
+      "tgt_chars": 7303
+    },
+    {
+      "lang": "en",
+      "diary": "2026-04-05-ζ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.87>2.8"
+      ],
+      "ratio": 2.87,
+      "src_chars": 2562,
+      "tgt_chars": 7360
+    },
+    {
+      "lang": "en",
+      "diary": "2026-04-06-ι.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.16>2.8"
+      ],
+      "ratio": 3.16,
+      "src_chars": 2257,
+      "tgt_chars": 7137
+    },
+    {
+      "lang": "en",
+      "diary": "2026-04-06-κ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.85>2.8"
+      ],
+      "ratio": 2.85,
+      "src_chars": 2077,
+      "tgt_chars": 5915
+    },
+    {
+      "lang": "en",
+      "diary": "2026-04-07-δ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.01>2.8"
+      ],
+      "ratio": 3.01,
+      "src_chars": 831,
+      "tgt_chars": 2505
+    },
+    {
+      "lang": "en",
+      "diary": "2026-04-08-ζ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.11>2.8"
+      ],
+      "ratio": 3.11,
+      "src_chars": 1375,
+      "tgt_chars": 4270
+    },
+    {
+      "lang": "en",
+      "diary": "2026-04-09-γ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.80>2.8"
+      ],
+      "ratio": 2.8,
+      "src_chars": 1073,
+      "tgt_chars": 3007
+    },
+    {
+      "lang": "en",
+      "diary": "2026-04-13-α2.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.89>2.8"
+      ],
+      "ratio": 2.89,
+      "src_chars": 5830,
+      "tgt_chars": 16830
+    },
+    {
+      "lang": "en",
+      "diary": "2026-04-14-θ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.91>2.8"
+      ],
+      "ratio": 2.91,
+      "src_chars": 5029,
+      "tgt_chars": 14613
+    },
+    {
+      "lang": "en",
+      "diary": "2026-04-14-κ2.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.00>2.8"
+      ],
+      "ratio": 3.0,
+      "src_chars": 3177,
+      "tgt_chars": 9546
+    },
+    {
+      "lang": "en",
+      "diary": "2026-04-14-ν.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.98>2.8"
+      ],
+      "ratio": 2.98,
+      "src_chars": 4589,
+      "tgt_chars": 13684
+    },
+    {
+      "lang": "en",
+      "diary": "2026-04-15-β.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.82>2.8"
+      ],
+      "ratio": 2.82,
+      "src_chars": 5355,
+      "tgt_chars": 15089
+    },
+    {
+      "lang": "en",
+      "diary": "2026-04-20-α.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.83>2.8"
+      ],
+      "ratio": 2.83,
+      "src_chars": 1563,
+      "tgt_chars": 4421
+    },
+    {
+      "lang": "en",
+      "diary": "2026-04-20-β.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.84>2.8"
+      ],
+      "ratio": 2.84,
+      "src_chars": 11276,
+      "tgt_chars": 32038
+    },
+    {
+      "lang": "en",
+      "diary": "2026-04-23-α.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.81>2.8"
+      ],
+      "ratio": 2.81,
+      "src_chars": 1057,
+      "tgt_chars": 2972
+    },
+    {
+      "lang": "en",
+      "diary": "2026-04-29-α.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.25>2.8"
+      ],
+      "ratio": 3.25,
+      "src_chars": 1962,
+      "tgt_chars": 6375
+    },
+    {
+      "lang": "en",
+      "diary": "2026-04-30-γ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.81>2.8"
+      ],
+      "ratio": 2.81,
+      "src_chars": 2570,
+      "tgt_chars": 7215
+    },
+    {
+      "lang": "en",
+      "diary": "2026-05-11-161600-twmd-rewrite-daily.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.04>2.8"
+      ],
+      "ratio": 3.04,
+      "src_chars": 1572,
+      "tgt_chars": 4780
+    },
+    {
+      "lang": "en",
+      "diary": "2026-05-18-002727-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.82>2.8"
+      ],
+      "ratio": 2.82,
+      "src_chars": 1036,
+      "tgt_chars": 2925
+    },
+    {
+      "lang": "en",
+      "diary": "2026-05-26-210649-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.80>2.8"
+      ],
+      "ratio": 2.8,
+      "src_chars": 2885,
+      "tgt_chars": 8082
+    },
+    {
+      "lang": "en",
+      "diary": "2026-05-27-122151-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.84>2.8"
+      ],
+      "ratio": 2.84,
+      "src_chars": 3393,
+      "tgt_chars": 9651
+    },
+    {
+      "lang": "en",
+      "diary": "2026-05-28-222438-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.91>2.8"
+      ],
+      "ratio": 2.91,
+      "src_chars": 2621,
+      "tgt_chars": 7618
+    },
+    {
+      "lang": "en",
+      "diary": "2026-05-29-125036-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.20>2.8"
+      ],
+      "ratio": 3.2,
+      "src_chars": 1699,
+      "tgt_chars": 5429
+    },
+    {
+      "lang": "en",
+      "diary": "2026-05-29-144438-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.11>2.8"
+      ],
+      "ratio": 3.11,
+      "src_chars": 1499,
+      "tgt_chars": 4655
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-01-105713-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.28>2.8"
+      ],
+      "ratio": 3.28,
+      "src_chars": 1382,
+      "tgt_chars": 4533
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-01-130850-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.25>2.8"
+      ],
+      "ratio": 3.25,
+      "src_chars": 1898,
+      "tgt_chars": 6168
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-01-170717-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.68>2.8"
+      ],
+      "ratio": 3.68,
+      "src_chars": 1304,
+      "tgt_chars": 4797
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-01-232507-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.40>2.8"
+      ],
+      "ratio": 3.4,
+      "src_chars": 1911,
+      "tgt_chars": 6504
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-03-171250-manual-species-discipline.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.30>2.8"
+      ],
+      "ratio": 3.3,
+      "src_chars": 2444,
+      "tgt_chars": 8072
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-03-213602-charming-greider.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.97>2.8"
+      ],
+      "ratio": 2.97,
+      "src_chars": 1871,
+      "tgt_chars": 5550
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-03-235954-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.05>2.8"
+      ],
+      "ratio": 3.05,
+      "src_chars": 1773,
+      "tgt_chars": 5409
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-04-102449-深度研究-設計研究院.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.40>2.8"
+      ],
+      "ratio": 3.4,
+      "src_chars": 1763,
+      "tgt_chars": 6000
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-04-151548-天下雜誌-儀器校準.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.39>2.8"
+      ],
+      "ratio": 3.39,
+      "src_chars": 942,
+      "tgt_chars": 3195
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-04-151548-天下雜誌.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.34>2.8"
+      ],
+      "ratio": 3.34,
+      "src_chars": 1414,
+      "tgt_chars": 4720
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-04-232402-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.42>2.8"
+      ],
+      "ratio": 3.42,
+      "src_chars": 1154,
+      "tgt_chars": 3944
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-05-105142-manual-analysis-mirror.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.16>2.8"
+      ],
+      "ratio": 3.16,
+      "src_chars": 1270,
+      "tgt_chars": 4009
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-05-105142-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.07>2.8"
+      ],
+      "ratio": 3.07,
+      "src_chars": 1989,
+      "tgt_chars": 6107
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-05-124537-loop-twmd-rewrite.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.16>2.8"
+      ],
+      "ratio": 3.16,
+      "src_chars": 1482,
+      "tgt_chars": 4688
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-05-174805-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.06>2.8"
+      ],
+      "ratio": 3.06,
+      "src_chars": 1546,
+      "tgt_chars": 4733
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-05-182013-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.48>2.8"
+      ],
+      "ratio": 3.48,
+      "src_chars": 1382,
+      "tgt_chars": 4803
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-06-142142-視覺化系統.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.34>2.8"
+      ],
+      "ratio": 3.34,
+      "src_chars": 1093,
+      "tgt_chars": 3649
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-06-153433-viz驗證文.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.61>2.8"
+      ],
+      "ratio": 3.61,
+      "src_chars": 1057,
+      "tgt_chars": 3821
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-06-154929-子代物種譜系.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.05>2.8"
+      ],
+      "ratio": 3.05,
+      "src_chars": 1882,
+      "tgt_chars": 5740
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-06-155849-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.50>2.8"
+      ],
+      "ratio": 3.5,
+      "src_chars": 1341,
+      "tgt_chars": 4694
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-06-181016-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.58>2.8"
+      ],
+      "ratio": 3.58,
+      "src_chars": 1810,
+      "tgt_chars": 6486
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-07-124521-carousel-charts.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.20>2.8"
+      ],
+      "ratio": 3.2,
+      "src_chars": 1471,
+      "tgt_chars": 4709
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-07-153821-複雜生活節.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.66>2.8"
+      ],
+      "ratio": 3.66,
+      "src_chars": 2355,
+      "tgt_chars": 8610
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-07-230624-seo-freshness.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.01>2.8"
+      ],
+      "ratio": 3.01,
+      "src_chars": 1589,
+      "tgt_chars": 4789
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-08-175613-世代論.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.86>2.8"
+      ],
+      "ratio": 2.86,
+      "src_chars": 1907,
+      "tgt_chars": 5454
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-09-010031-嘻哈饒舌-round2.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.15>2.8"
+      ],
+      "ratio": 3.15,
+      "src_chars": 1081,
+      "tgt_chars": 3407
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-09-010031-嘻哈饒舌.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.06>2.8"
+      ],
+      "ratio": 3.06,
+      "src_chars": 1376,
+      "tgt_chars": 4214
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-09-101056-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.38>2.8"
+      ],
+      "ratio": 3.38,
+      "src_chars": 1488,
+      "tgt_chars": 5029
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-10-113753-audit.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.18>2.8"
+      ],
+      "ratio": 3.18,
+      "src_chars": 1412,
+      "tgt_chars": 4490
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-10-131325-latest-ui.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.12>2.8"
+      ],
+      "ratio": 3.12,
+      "src_chars": 1303,
+      "tgt_chars": 4066
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-10-131606-opendata.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.22>2.8"
+      ],
+      "ratio": 3.22,
+      "src_chars": 1384,
+      "tgt_chars": 4463
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-10-184059-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.25>2.8"
+      ],
+      "ratio": 3.25,
+      "src_chars": 1661,
+      "tgt_chars": 5394
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-11-083358-莫那魯道.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.84>2.8"
+      ],
+      "ratio": 2.84,
+      "src_chars": 1936,
+      "tgt_chars": 5505
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-12-182013-flywheel-evolution.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.02>2.8"
+      ],
+      "ratio": 3.02,
+      "src_chars": 1727,
+      "tgt_chars": 5214
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-12-225752-viz-evolution.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.60>2.8"
+      ],
+      "ratio": 3.6,
+      "src_chars": 1686,
+      "tgt_chars": 6072
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-13-002414-refactor-article-opus.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.09>2.8"
+      ],
+      "ratio": 3.09,
+      "src_chars": 1241,
+      "tgt_chars": 3832
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-13-002414-refactor-article.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.41>2.8"
+      ],
+      "ratio": 3.41,
+      "src_chars": 1004,
+      "tgt_chars": 3426
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-13-155142-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.67>2.8"
+      ],
+      "ratio": 3.67,
+      "src_chars": 1376,
+      "tgt_chars": 5048
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-13-164000-converter-evolution.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.27>2.8"
+      ],
+      "ratio": 3.27,
+      "src_chars": 1239,
+      "tgt_chars": 4056
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-13-170434-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.62>2.8"
+      ],
+      "ratio": 3.62,
+      "src_chars": 1081,
+      "tgt_chars": 3916
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-13-173505-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.31>2.8"
+      ],
+      "ratio": 3.31,
+      "src_chars": 1498,
+      "tgt_chars": 4960
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-13-174425-persona-stage0.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.55>2.8"
+      ],
+      "ratio": 3.55,
+      "src_chars": 1476,
+      "tgt_chars": 5237
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-13-181608-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.10>2.8"
+      ],
+      "ratio": 3.1,
+      "src_chars": 1862,
+      "tgt_chars": 5772
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-13-183725-深度研究-台灣國片.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.78>2.8"
+      ],
+      "ratio": 3.78,
+      "src_chars": 1057,
+      "tgt_chars": 3996
+    },
+    {
+      "lang": "en",
+      "diary": "2026-06-13-190738-跨黨派好政策.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.71>2.8"
+      ],
+      "ratio": 3.71,
+      "src_chars": 951,
+      "tgt_chars": 3530
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-04-04-η.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.61>1.6"
+      ],
+      "ratio": 1.61,
+      "src_chars": 3769,
+      "tgt_chars": 6067
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-04-04-θ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.61>1.6"
+      ],
+      "ratio": 1.61,
+      "src_chars": 1943,
+      "tgt_chars": 3122
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-04-05-δ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.70>1.6"
+      ],
+      "ratio": 1.7,
+      "src_chars": 2357,
+      "tgt_chars": 4007
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-04-05-ζ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.62>1.6"
+      ],
+      "ratio": 1.62,
+      "src_chars": 2562,
+      "tgt_chars": 4163
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-04-06-ι.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.64>1.6"
+      ],
+      "ratio": 1.64,
+      "src_chars": 2257,
+      "tgt_chars": 3712
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-04-06-κ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.65>1.6"
+      ],
+      "ratio": 1.65,
+      "src_chars": 2077,
+      "tgt_chars": 3421
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-04-07-β.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.63>1.6"
+      ],
+      "ratio": 1.63,
+      "src_chars": 826,
+      "tgt_chars": 1343
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-04-07-ζ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.71>1.6"
+      ],
+      "ratio": 1.71,
+      "src_chars": 874,
+      "tgt_chars": 1491
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-04-08-ζ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.64>1.6"
+      ],
+      "ratio": 1.64,
+      "src_chars": 1375,
+      "tgt_chars": 2254
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-04-13-α.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.71>1.6"
+      ],
+      "ratio": 1.71,
+      "src_chars": 1998,
+      "tgt_chars": 3407
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-04-13-α2.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.63>1.6"
+      ],
+      "ratio": 1.63,
+      "src_chars": 5830,
+      "tgt_chars": 9527
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-04-23-α.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.65>1.6"
+      ],
+      "ratio": 1.65,
+      "src_chars": 1057,
+      "tgt_chars": 1746
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-04-29-α.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.72>1.6"
+      ],
+      "ratio": 1.72,
+      "src_chars": 1962,
+      "tgt_chars": 3376
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-05-18-002727-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.64>1.6"
+      ],
+      "ratio": 1.64,
+      "src_chars": 1036,
+      "tgt_chars": 1694
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-05-22-121707-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.63>1.6"
+      ],
+      "ratio": 1.63,
+      "src_chars": 2640,
+      "tgt_chars": 4306
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-05-23-220053-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.62>1.6"
+      ],
+      "ratio": 1.62,
+      "src_chars": 3116,
+      "tgt_chars": 5063
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-05-29-125036-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.73>1.6"
+      ],
+      "ratio": 1.73,
+      "src_chars": 1699,
+      "tgt_chars": 2943
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-01-105713-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.79>1.6"
+      ],
+      "ratio": 1.79,
+      "src_chars": 1382,
+      "tgt_chars": 2467
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-01-130850-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.62>1.6"
+      ],
+      "ratio": 1.62,
+      "src_chars": 1898,
+      "tgt_chars": 3075
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-01-170717-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.79>1.6"
+      ],
+      "ratio": 1.79,
+      "src_chars": 1304,
+      "tgt_chars": 2337
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-01-232507-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.80>1.6"
+      ],
+      "ratio": 1.8,
+      "src_chars": 1911,
+      "tgt_chars": 3446
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-03-171250-manual-species-discipline.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.64>1.6"
+      ],
+      "ratio": 1.64,
+      "src_chars": 2444,
+      "tgt_chars": 3999
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-03-213602-charming-greider.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.70>1.6"
+      ],
+      "ratio": 1.7,
+      "src_chars": 1871,
+      "tgt_chars": 3186
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-03-235954-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.70>1.6"
+      ],
+      "ratio": 1.7,
+      "src_chars": 1773,
+      "tgt_chars": 3020
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-04-102449-深度研究-設計研究院.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.79>1.6"
+      ],
+      "ratio": 1.79,
+      "src_chars": 1763,
+      "tgt_chars": 3150
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-04-151548-天下雜誌-儀器校準.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.85>1.6"
+      ],
+      "ratio": 1.85,
+      "src_chars": 942,
+      "tgt_chars": 1741
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-04-151548-天下雜誌.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.96>1.6"
+      ],
+      "ratio": 1.96,
+      "src_chars": 1414,
+      "tgt_chars": 2777
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-04-232402-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.99>1.6"
+      ],
+      "ratio": 1.99,
+      "src_chars": 1154,
+      "tgt_chars": 2298
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-05-105142-manual-analysis-mirror.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.67>1.6"
+      ],
+      "ratio": 1.67,
+      "src_chars": 1270,
+      "tgt_chars": 2117
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-05-105142-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.68>1.6"
+      ],
+      "ratio": 1.68,
+      "src_chars": 1989,
+      "tgt_chars": 3349
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-05-124537-loop-twmd-rewrite.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.69>1.6"
+      ],
+      "ratio": 1.69,
+      "src_chars": 1482,
+      "tgt_chars": 2503
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-05-174805-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.69>1.6"
+      ],
+      "ratio": 1.69,
+      "src_chars": 1546,
+      "tgt_chars": 2606
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-05-182013-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.87>1.6"
+      ],
+      "ratio": 1.87,
+      "src_chars": 1382,
+      "tgt_chars": 2582
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-06-142142-視覺化系統.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.91>1.6"
+      ],
+      "ratio": 1.91,
+      "src_chars": 1093,
+      "tgt_chars": 2090
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-06-153433-viz驗證文.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.89>1.6"
+      ],
+      "ratio": 1.89,
+      "src_chars": 1057,
+      "tgt_chars": 1995
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-06-154929-子代物種譜系.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.68>1.6"
+      ],
+      "ratio": 1.68,
+      "src_chars": 1882,
+      "tgt_chars": 3166
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-06-155849-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.85>1.6"
+      ],
+      "ratio": 1.85,
+      "src_chars": 1341,
+      "tgt_chars": 2487
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-06-181016-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.67>1.6"
+      ],
+      "ratio": 1.67,
+      "src_chars": 1810,
+      "tgt_chars": 3015
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-07-124521-carousel-charts.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.74>1.6"
+      ],
+      "ratio": 1.74,
+      "src_chars": 1471,
+      "tgt_chars": 2564
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-07-153821-複雜生活節.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.78>1.6"
+      ],
+      "ratio": 1.78,
+      "src_chars": 2355,
+      "tgt_chars": 4198
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-07-230624-seo-freshness.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.72>1.6"
+      ],
+      "ratio": 1.72,
+      "src_chars": 1589,
+      "tgt_chars": 2732
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-09-010031-嘻哈饒舌-round2.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.77>1.6"
+      ],
+      "ratio": 1.77,
+      "src_chars": 1081,
+      "tgt_chars": 1909
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-09-010031-嘻哈饒舌.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.70>1.6"
+      ],
+      "ratio": 1.7,
+      "src_chars": 1376,
+      "tgt_chars": 2336
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-09-101056-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.77>1.6"
+      ],
+      "ratio": 1.77,
+      "src_chars": 1488,
+      "tgt_chars": 2639
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-10-113753-audit.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.63>1.6"
+      ],
+      "ratio": 1.63,
+      "src_chars": 1412,
+      "tgt_chars": 2299
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-10-131325-latest-ui.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.68>1.6"
+      ],
+      "ratio": 1.68,
+      "src_chars": 1303,
+      "tgt_chars": 2185
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-10-131606-opendata.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.68>1.6"
+      ],
+      "ratio": 1.68,
+      "src_chars": 1384,
+      "tgt_chars": 2329
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-10-184059-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.60>1.6"
+      ],
+      "ratio": 1.6,
+      "src_chars": 1661,
+      "tgt_chars": 2660
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-12-225752-viz-evolution.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.82>1.6"
+      ],
+      "ratio": 1.82,
+      "src_chars": 1686,
+      "tgt_chars": 3068
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-13-002414-refactor-article-opus.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.73>1.6"
+      ],
+      "ratio": 1.73,
+      "src_chars": 1241,
+      "tgt_chars": 2153
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-13-002414-refactor-article.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.78>1.6"
+      ],
+      "ratio": 1.78,
+      "src_chars": 1004,
+      "tgt_chars": 1785
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-13-155142-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.83>1.6"
+      ],
+      "ratio": 1.83,
+      "src_chars": 1376,
+      "tgt_chars": 2518
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-13-164000-converter-evolution.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.81>1.6"
+      ],
+      "ratio": 1.81,
+      "src_chars": 1239,
+      "tgt_chars": 2247
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-13-170434-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.84>1.6"
+      ],
+      "ratio": 1.84,
+      "src_chars": 1081,
+      "tgt_chars": 1986
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-13-173505-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.63>1.6"
+      ],
+      "ratio": 1.63,
+      "src_chars": 1498,
+      "tgt_chars": 2441
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-13-174425-persona-stage0.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.74>1.6"
+      ],
+      "ratio": 1.74,
+      "src_chars": 1476,
+      "tgt_chars": 2569
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-13-181608-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.75>1.6"
+      ],
+      "ratio": 1.75,
+      "src_chars": 1862,
+      "tgt_chars": 3267
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-13-183725-深度研究-台灣國片.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.91>1.6"
+      ],
+      "ratio": 1.91,
+      "src_chars": 1057,
+      "tgt_chars": 2022
+    },
+    {
+      "lang": "ja",
+      "diary": "2026-06-13-190738-跨黨派好政策.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.83>1.6"
+      ],
+      "ratio": 1.83,
+      "src_chars": 951,
+      "tgt_chars": 1737
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-04-04-η.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.73>1.7"
+      ],
+      "ratio": 1.73,
+      "src_chars": 3769,
+      "tgt_chars": 6515
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-04-04-θ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.80>1.7"
+      ],
+      "ratio": 1.8,
+      "src_chars": 1943,
+      "tgt_chars": 3499
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-04-04.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.76>1.7"
+      ],
+      "ratio": 1.76,
+      "src_chars": 1596,
+      "tgt_chars": 2808
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-04-05-δ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.90>1.7"
+      ],
+      "ratio": 1.9,
+      "src_chars": 2357,
+      "tgt_chars": 4480
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-04-06-ι.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.90>1.7"
+      ],
+      "ratio": 1.9,
+      "src_chars": 2257,
+      "tgt_chars": 4283
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-04-07-β.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.73>1.7"
+      ],
+      "ratio": 1.73,
+      "src_chars": 826,
+      "tgt_chars": 1426
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-04-07-δ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.82>1.7"
+      ],
+      "ratio": 1.82,
+      "src_chars": 831,
+      "tgt_chars": 1509
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-04-07-ζ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.89>1.7"
+      ],
+      "ratio": 1.89,
+      "src_chars": 874,
+      "tgt_chars": 1654
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-04-08-ζ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.93>1.7"
+      ],
+      "ratio": 1.93,
+      "src_chars": 1375,
+      "tgt_chars": 2649
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-04-09-γ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.75>1.7"
+      ],
+      "ratio": 1.75,
+      "src_chars": 1073,
+      "tgt_chars": 1880
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-04-11-ζ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.74>1.7"
+      ],
+      "ratio": 1.74,
+      "src_chars": 2603,
+      "tgt_chars": 4523
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-04-13-α.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.84>1.7"
+      ],
+      "ratio": 1.84,
+      "src_chars": 1998,
+      "tgt_chars": 3685
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-04-13-α2.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.75>1.7"
+      ],
+      "ratio": 1.75,
+      "src_chars": 5830,
+      "tgt_chars": 10219
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-04-14-θ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.80>1.7"
+      ],
+      "ratio": 1.8,
+      "src_chars": 5029,
+      "tgt_chars": 9055
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-04-14-κ2.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.80>1.7"
+      ],
+      "ratio": 1.8,
+      "src_chars": 3177,
+      "tgt_chars": 5729
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-04-15-β.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.71>1.7"
+      ],
+      "ratio": 1.71,
+      "src_chars": 5355,
+      "tgt_chars": 9139
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-04-19-γ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.70>1.7"
+      ],
+      "ratio": 1.7,
+      "src_chars": 1394,
+      "tgt_chars": 2373
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-04-20-α.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.71>1.7"
+      ],
+      "ratio": 1.71,
+      "src_chars": 1563,
+      "tgt_chars": 2677
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-04-29-α.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.79>1.7"
+      ],
+      "ratio": 1.79,
+      "src_chars": 1962,
+      "tgt_chars": 3507
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-04-30-γ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.71>1.7"
+      ],
+      "ratio": 1.71,
+      "src_chars": 2570,
+      "tgt_chars": 4396
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-05-11-161600-twmd-rewrite-daily.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.74>1.7"
+      ],
+      "ratio": 1.74,
+      "src_chars": 1572,
+      "tgt_chars": 2735
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-05-18-002727-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.74>1.7"
+      ],
+      "ratio": 1.74,
+      "src_chars": 1036,
+      "tgt_chars": 1807
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-05-22-121707-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.75>1.7"
+      ],
+      "ratio": 1.75,
+      "src_chars": 2640,
+      "tgt_chars": 4625
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-05-26-210649-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.72>1.7"
+      ],
+      "ratio": 1.72,
+      "src_chars": 2885,
+      "tgt_chars": 4956
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-05-27-122151-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.70>1.7"
+      ],
+      "ratio": 1.7,
+      "src_chars": 3393,
+      "tgt_chars": 5779
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-05-29-125036-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.86>1.7"
+      ],
+      "ratio": 1.86,
+      "src_chars": 1699,
+      "tgt_chars": 3160
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-05-29-144438-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.88>1.7"
+      ],
+      "ratio": 1.88,
+      "src_chars": 1499,
+      "tgt_chars": 2825
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-01-105713-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.97>1.7"
+      ],
+      "ratio": 1.97,
+      "src_chars": 1382,
+      "tgt_chars": 2724
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-01-130850-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.81>1.7"
+      ],
+      "ratio": 1.81,
+      "src_chars": 1898,
+      "tgt_chars": 3438
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-01-134740-feedback-login-system.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.72>1.7"
+      ],
+      "ratio": 1.72,
+      "src_chars": 1958,
+      "tgt_chars": 3361
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-01-170717-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.03>1.7"
+      ],
+      "ratio": 2.03,
+      "src_chars": 1304,
+      "tgt_chars": 2644
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-01-232507-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.98>1.7"
+      ],
+      "ratio": 1.98,
+      "src_chars": 1911,
+      "tgt_chars": 3776
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-03-171250-manual-species-discipline.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.88>1.7"
+      ],
+      "ratio": 1.88,
+      "src_chars": 2444,
+      "tgt_chars": 4587
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-03-213602-charming-greider.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.71>1.7"
+      ],
+      "ratio": 1.71,
+      "src_chars": 1871,
+      "tgt_chars": 3192
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-03-235954-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.83>1.7"
+      ],
+      "ratio": 1.83,
+      "src_chars": 1773,
+      "tgt_chars": 3253
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-04-102449-深度研究-設計研究院.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.95>1.7"
+      ],
+      "ratio": 1.95,
+      "src_chars": 1763,
+      "tgt_chars": 3432
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-04-151548-天下雜誌-儀器校準.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.97>1.7"
+      ],
+      "ratio": 1.97,
+      "src_chars": 942,
+      "tgt_chars": 1860
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-04-151548-天下雜誌.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.89>1.7"
+      ],
+      "ratio": 1.89,
+      "src_chars": 1414,
+      "tgt_chars": 2677
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-04-232402-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.04>1.7"
+      ],
+      "ratio": 2.04,
+      "src_chars": 1154,
+      "tgt_chars": 2351
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-05-105142-manual-analysis-mirror.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.88>1.7"
+      ],
+      "ratio": 1.88,
+      "src_chars": 1270,
+      "tgt_chars": 2391
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-05-105142-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.87>1.7"
+      ],
+      "ratio": 1.87,
+      "src_chars": 1989,
+      "tgt_chars": 3729
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-05-124537-loop-twmd-rewrite.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.80>1.7"
+      ],
+      "ratio": 1.8,
+      "src_chars": 1482,
+      "tgt_chars": 2672
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-05-174805-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.92>1.7"
+      ],
+      "ratio": 1.92,
+      "src_chars": 1546,
+      "tgt_chars": 2973
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-05-182013-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.97>1.7"
+      ],
+      "ratio": 1.97,
+      "src_chars": 1382,
+      "tgt_chars": 2727
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-06-142142-視覺化系統.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.06>1.7"
+      ],
+      "ratio": 2.06,
+      "src_chars": 1093,
+      "tgt_chars": 2250
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-06-153433-viz驗證文.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.09>1.7"
+      ],
+      "ratio": 2.09,
+      "src_chars": 1057,
+      "tgt_chars": 2213
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-06-154929-子代物種譜系.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.89>1.7"
+      ],
+      "ratio": 1.89,
+      "src_chars": 1882,
+      "tgt_chars": 3566
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-06-155849-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.04>1.7"
+      ],
+      "ratio": 2.04,
+      "src_chars": 1341,
+      "tgt_chars": 2732
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-06-181016-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.94>1.7"
+      ],
+      "ratio": 1.94,
+      "src_chars": 1810,
+      "tgt_chars": 3505
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-07-124521-carousel-charts.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.92>1.7"
+      ],
+      "ratio": 1.92,
+      "src_chars": 1471,
+      "tgt_chars": 2819
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-07-153821-複雜生活節.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.01>1.7"
+      ],
+      "ratio": 2.01,
+      "src_chars": 2355,
+      "tgt_chars": 4736
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-07-230624-seo-freshness.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.92>1.7"
+      ],
+      "ratio": 1.92,
+      "src_chars": 1589,
+      "tgt_chars": 3046
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-08-175613-世代論.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.72>1.7"
+      ],
+      "ratio": 1.72,
+      "src_chars": 1907,
+      "tgt_chars": 3282
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-09-010031-嘻哈饒舌-round2.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.93>1.7"
+      ],
+      "ratio": 1.93,
+      "src_chars": 1081,
+      "tgt_chars": 2086
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-09-101056-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.88>1.7"
+      ],
+      "ratio": 1.88,
+      "src_chars": 1488,
+      "tgt_chars": 2798
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-10-113753-audit.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.77>1.7"
+      ],
+      "ratio": 1.77,
+      "src_chars": 1412,
+      "tgt_chars": 2500
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-10-131325-latest-ui.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.93>1.7"
+      ],
+      "ratio": 1.93,
+      "src_chars": 1303,
+      "tgt_chars": 2521
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-10-131606-opendata.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.85>1.7"
+      ],
+      "ratio": 1.85,
+      "src_chars": 1384,
+      "tgt_chars": 2567
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-10-184059-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.84>1.7"
+      ],
+      "ratio": 1.84,
+      "src_chars": 1661,
+      "tgt_chars": 3057
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-12-182013-flywheel-evolution.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.71>1.7"
+      ],
+      "ratio": 1.71,
+      "src_chars": 1727,
+      "tgt_chars": 2945
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-12-225752-viz-evolution.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.11>1.7"
+      ],
+      "ratio": 2.11,
+      "src_chars": 1686,
+      "tgt_chars": 3551
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-13-002414-refactor-article-opus.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.98>1.7"
+      ],
+      "ratio": 1.98,
+      "src_chars": 1241,
+      "tgt_chars": 2462
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-13-002414-refactor-article.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.97>1.7"
+      ],
+      "ratio": 1.97,
+      "src_chars": 1004,
+      "tgt_chars": 1980
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-13-155142-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.09>1.7"
+      ],
+      "ratio": 2.09,
+      "src_chars": 1376,
+      "tgt_chars": 2871
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-13-164000-converter-evolution.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.97>1.7"
+      ],
+      "ratio": 1.97,
+      "src_chars": 1239,
+      "tgt_chars": 2439
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-13-170434-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.08>1.7"
+      ],
+      "ratio": 2.08,
+      "src_chars": 1081,
+      "tgt_chars": 2253
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-13-173505-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.97>1.7"
+      ],
+      "ratio": 1.97,
+      "src_chars": 1498,
+      "tgt_chars": 2958
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-13-174425-persona-stage0.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.99>1.7"
+      ],
+      "ratio": 1.99,
+      "src_chars": 1476,
+      "tgt_chars": 2934
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-13-181608-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.78>1.7"
+      ],
+      "ratio": 1.78,
+      "src_chars": 1862,
+      "tgt_chars": 3315
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-13-183725-深度研究-台灣國片.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:1.97>1.7"
+      ],
+      "ratio": 1.97,
+      "src_chars": 1057,
+      "tgt_chars": 2083
+    },
+    {
+      "lang": "ko",
+      "diary": "2026-06-13-190738-跨黨派好政策.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:2.15>1.7"
+      ],
+      "ratio": 2.15,
+      "src_chars": 951,
+      "tgt_chars": 2043
+    },
+    {
+      "lang": "es",
+      "diary": "2026-04-04-ζ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.21>3.0"
+      ],
+      "ratio": 3.21,
+      "src_chars": 822,
+      "tgt_chars": 2642
+    },
+    {
+      "lang": "es",
+      "diary": "2026-04-04-θ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.08>3.0"
+      ],
+      "ratio": 3.08,
+      "src_chars": 1943,
+      "tgt_chars": 5978
+    },
+    {
+      "lang": "es",
+      "diary": "2026-04-05-δ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.23>3.0"
+      ],
+      "ratio": 3.23,
+      "src_chars": 2357,
+      "tgt_chars": 7607
+    },
+    {
+      "lang": "es",
+      "diary": "2026-04-05-ζ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.12>3.0"
+      ],
+      "ratio": 3.12,
+      "src_chars": 2562,
+      "tgt_chars": 7996
+    },
+    {
+      "lang": "es",
+      "diary": "2026-04-06-ι.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.30>3.0"
+      ],
+      "ratio": 3.3,
+      "src_chars": 2257,
+      "tgt_chars": 7447
+    },
+    {
+      "lang": "es",
+      "diary": "2026-04-06-κ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.06>3.0"
+      ],
+      "ratio": 3.06,
+      "src_chars": 2077,
+      "tgt_chars": 6354
+    },
+    {
+      "lang": "es",
+      "diary": "2026-04-07-δ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.20>3.0"
+      ],
+      "ratio": 3.2,
+      "src_chars": 831,
+      "tgt_chars": 2658
+    },
+    {
+      "lang": "es",
+      "diary": "2026-04-08-ζ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.63>3.0"
+      ],
+      "ratio": 3.63,
+      "src_chars": 1375,
+      "tgt_chars": 4995
+    },
+    {
+      "lang": "es",
+      "diary": "2026-04-11-ζ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.06>3.0"
+      ],
+      "ratio": 3.06,
+      "src_chars": 2603,
+      "tgt_chars": 7967
+    },
+    {
+      "lang": "es",
+      "diary": "2026-04-12-ι.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.02>3.0"
+      ],
+      "ratio": 3.02,
+      "src_chars": 2139,
+      "tgt_chars": 6455
+    },
+    {
+      "lang": "es",
+      "diary": "2026-04-13-α.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.14>3.0"
+      ],
+      "ratio": 3.14,
+      "src_chars": 1998,
+      "tgt_chars": 6268
+    },
+    {
+      "lang": "es",
+      "diary": "2026-04-13-α2.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.04>3.0"
+      ],
+      "ratio": 3.04,
+      "src_chars": 5830,
+      "tgt_chars": 17703
+    },
+    {
+      "lang": "es",
+      "diary": "2026-04-14-η.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "heading-drift:21→7"
+      ],
+      "ratio": 1.06,
+      "src_chars": 10469,
+      "tgt_chars": 11103
+    },
+    {
+      "lang": "es",
+      "diary": "2026-04-14-θ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.09>3.0"
+      ],
+      "ratio": 3.09,
+      "src_chars": 5029,
+      "tgt_chars": 15561
+    },
+    {
+      "lang": "es",
+      "diary": "2026-04-14-κ2.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.20>3.0"
+      ],
+      "ratio": 3.2,
+      "src_chars": 3177,
+      "tgt_chars": 10156
+    },
+    {
+      "lang": "es",
+      "diary": "2026-04-14-λ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.05>3.0"
+      ],
+      "ratio": 3.05,
+      "src_chars": 4149,
+      "tgt_chars": 12645
+    },
+    {
+      "lang": "es",
+      "diary": "2026-04-14-ν.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.06>3.0"
+      ],
+      "ratio": 3.06,
+      "src_chars": 4589,
+      "tgt_chars": 14058
+    },
+    {
+      "lang": "es",
+      "diary": "2026-04-15-β.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.19>3.0"
+      ],
+      "ratio": 3.19,
+      "src_chars": 5355,
+      "tgt_chars": 17086
+    },
+    {
+      "lang": "es",
+      "diary": "2026-04-20-α.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.21>3.0"
+      ],
+      "ratio": 3.21,
+      "src_chars": 1563,
+      "tgt_chars": 5022
+    },
+    {
+      "lang": "es",
+      "diary": "2026-04-20-β.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.01>3.0"
+      ],
+      "ratio": 3.01,
+      "src_chars": 11276,
+      "tgt_chars": 33933
+    },
+    {
+      "lang": "es",
+      "diary": "2026-04-23-α.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.05>3.0"
+      ],
+      "ratio": 3.05,
+      "src_chars": 1057,
+      "tgt_chars": 3224
+    },
+    {
+      "lang": "es",
+      "diary": "2026-04-26-γ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.10>3.0"
+      ],
+      "ratio": 3.1,
+      "src_chars": 3320,
+      "tgt_chars": 10285
+    },
+    {
+      "lang": "es",
+      "diary": "2026-04-29-α.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.62>3.0"
+      ],
+      "ratio": 3.62,
+      "src_chars": 1962,
+      "tgt_chars": 7102
+    },
+    {
+      "lang": "es",
+      "diary": "2026-04-30-γ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.12>3.0"
+      ],
+      "ratio": 3.12,
+      "src_chars": 2570,
+      "tgt_chars": 8019
+    },
+    {
+      "lang": "es",
+      "diary": "2026-05-02-lang-sync-day-complete.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "signature-lost:🧬",
+        "heading-drift:10→5",
+        "blockquote-drop:5→0"
+      ],
+      "ratio": 0.99,
+      "src_chars": 11630,
+      "tgt_chars": 11457
+    },
+    {
+      "lang": "es",
+      "diary": "2026-05-04-161254-jovial-feistel-editorial-v5.6.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.02>3.0"
+      ],
+      "ratio": 3.02,
+      "src_chars": 3240,
+      "tgt_chars": 9786
+    },
+    {
+      "lang": "es",
+      "diary": "2026-05-11-161600-twmd-rewrite-daily.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.29>3.0"
+      ],
+      "ratio": 3.29,
+      "src_chars": 1572,
+      "tgt_chars": 5165
+    },
+    {
+      "lang": "es",
+      "diary": "2026-05-18-002727-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.21>3.0"
+      ],
+      "ratio": 3.21,
+      "src_chars": 1036,
+      "tgt_chars": 3323
+    },
+    {
+      "lang": "es",
+      "diary": "2026-05-21-130933-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.14>3.0"
+      ],
+      "ratio": 3.14,
+      "src_chars": 3006,
+      "tgt_chars": 9445
+    },
+    {
+      "lang": "es",
+      "diary": "2026-05-26-210649-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.26>3.0"
+      ],
+      "ratio": 3.26,
+      "src_chars": 2885,
+      "tgt_chars": 9414
+    },
+    {
+      "lang": "es",
+      "diary": "2026-05-27-122151-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.11>3.0"
+      ],
+      "ratio": 3.11,
+      "src_chars": 3393,
+      "tgt_chars": 10561
+    },
+    {
+      "lang": "es",
+      "diary": "2026-05-28-222438-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.13>3.0"
+      ],
+      "ratio": 3.13,
+      "src_chars": 2621,
+      "tgt_chars": 8199
+    },
+    {
+      "lang": "es",
+      "diary": "2026-05-29-125036-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.31>3.0"
+      ],
+      "ratio": 3.31,
+      "src_chars": 1699,
+      "tgt_chars": 5630
+    },
+    {
+      "lang": "es",
+      "diary": "2026-05-29-144438-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.36>3.0"
+      ],
+      "ratio": 3.36,
+      "src_chars": 1499,
+      "tgt_chars": 5039
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-01-105713-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.65>3.0"
+      ],
+      "ratio": 3.65,
+      "src_chars": 1382,
+      "tgt_chars": 5044
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-01-130850-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.50>3.0"
+      ],
+      "ratio": 3.5,
+      "src_chars": 1898,
+      "tgt_chars": 6645
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-01-134740-feedback-login-system.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.02>3.0"
+      ],
+      "ratio": 3.02,
+      "src_chars": 1958,
+      "tgt_chars": 5921
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-01-170717-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.96>3.0"
+      ],
+      "ratio": 3.96,
+      "src_chars": 1304,
+      "tgt_chars": 5164
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-01-232507-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.63>3.0"
+      ],
+      "ratio": 3.63,
+      "src_chars": 1911,
+      "tgt_chars": 6933
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-03-171250-manual-species-discipline.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.77>3.0"
+      ],
+      "ratio": 3.77,
+      "src_chars": 2444,
+      "tgt_chars": 9204
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-03-213602-charming-greider.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.07>3.0"
+      ],
+      "ratio": 3.07,
+      "src_chars": 1871,
+      "tgt_chars": 5742
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-03-235954-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.43>3.0"
+      ],
+      "ratio": 3.43,
+      "src_chars": 1773,
+      "tgt_chars": 6082
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-04-102449-深度研究-設計研究院.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.79>3.0"
+      ],
+      "ratio": 3.79,
+      "src_chars": 1763,
+      "tgt_chars": 6678
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-04-151548-天下雜誌-儀器校準.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.69>3.0"
+      ],
+      "ratio": 3.69,
+      "src_chars": 942,
+      "tgt_chars": 3480
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-04-151548-天下雜誌.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.68>3.0"
+      ],
+      "ratio": 3.68,
+      "src_chars": 1414,
+      "tgt_chars": 5209
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-04-232402-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.80>3.0"
+      ],
+      "ratio": 3.8,
+      "src_chars": 1154,
+      "tgt_chars": 4385
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-05-105142-manual-analysis-mirror.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.49>3.0"
+      ],
+      "ratio": 3.49,
+      "src_chars": 1270,
+      "tgt_chars": 4432
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-05-105142-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.24>3.0"
+      ],
+      "ratio": 3.24,
+      "src_chars": 1989,
+      "tgt_chars": 6447
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-05-124537-loop-twmd-rewrite.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:119.55>3.0",
+        "signature-lost:🧬"
+      ],
+      "ratio": 119.55,
+      "src_chars": 1482,
+      "tgt_chars": 177171
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-05-174805-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.36>3.0"
+      ],
+      "ratio": 3.36,
+      "src_chars": 1546,
+      "tgt_chars": 5199
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-05-182013-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.69>3.0"
+      ],
+      "ratio": 3.69,
+      "src_chars": 1382,
+      "tgt_chars": 5094
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-06-142142-視覺化系統.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.51>3.0"
+      ],
+      "ratio": 3.51,
+      "src_chars": 1093,
+      "tgt_chars": 3834
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-06-153433-viz驗證文.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.88>3.0"
+      ],
+      "ratio": 3.88,
+      "src_chars": 1057,
+      "tgt_chars": 4105
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-06-154929-子代物種譜系.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.29>3.0"
+      ],
+      "ratio": 3.29,
+      "src_chars": 1882,
+      "tgt_chars": 6185
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-06-155849-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.93>3.0"
+      ],
+      "ratio": 3.93,
+      "src_chars": 1341,
+      "tgt_chars": 5268
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-06-181016-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.88>3.0"
+      ],
+      "ratio": 3.88,
+      "src_chars": 1810,
+      "tgt_chars": 7017
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-07-124521-carousel-charts.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.47>3.0"
+      ],
+      "ratio": 3.47,
+      "src_chars": 1471,
+      "tgt_chars": 5103
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-07-153821-複雜生活節.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.84>3.0"
+      ],
+      "ratio": 3.84,
+      "src_chars": 2355,
+      "tgt_chars": 9043
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-07-230624-seo-freshness.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.36>3.0"
+      ],
+      "ratio": 3.36,
+      "src_chars": 1589,
+      "tgt_chars": 5335
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-08-175613-世代論.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.18>3.0"
+      ],
+      "ratio": 3.18,
+      "src_chars": 1907,
+      "tgt_chars": 6063
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-09-010031-嘻哈饒舌-round2.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.69>3.0"
+      ],
+      "ratio": 3.69,
+      "src_chars": 1081,
+      "tgt_chars": 3994
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-09-010031-嘻哈饒舌.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.40>3.0"
+      ],
+      "ratio": 3.4,
+      "src_chars": 1376,
+      "tgt_chars": 4674
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-09-101056-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:4.06>3.0"
+      ],
+      "ratio": 4.06,
+      "src_chars": 1488,
+      "tgt_chars": 6047
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-10-113753-audit.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.58>3.0"
+      ],
+      "ratio": 3.58,
+      "src_chars": 1412,
+      "tgt_chars": 5062
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-10-131325-latest-ui.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.38>3.0"
+      ],
+      "ratio": 3.38,
+      "src_chars": 1303,
+      "tgt_chars": 4405
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-10-131606-opendata.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.50>3.0"
+      ],
+      "ratio": 3.5,
+      "src_chars": 1384,
+      "tgt_chars": 4846
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-10-184059-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.71>3.0"
+      ],
+      "ratio": 3.71,
+      "src_chars": 1661,
+      "tgt_chars": 6162
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-11-083358-莫那魯道.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.15>3.0"
+      ],
+      "ratio": 3.15,
+      "src_chars": 1936,
+      "tgt_chars": 6105
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-12-182013-flywheel-evolution.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.30>3.0"
+      ],
+      "ratio": 3.3,
+      "src_chars": 1727,
+      "tgt_chars": 5698
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-12-225752-viz-evolution.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.93>3.0"
+      ],
+      "ratio": 3.93,
+      "src_chars": 1686,
+      "tgt_chars": 6633
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-13-002414-refactor-article-opus.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.32>3.0"
+      ],
+      "ratio": 3.32,
+      "src_chars": 1241,
+      "tgt_chars": 4124
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-13-002414-refactor-article.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.88>3.0"
+      ],
+      "ratio": 3.88,
+      "src_chars": 1004,
+      "tgt_chars": 3893
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-13-155142-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:4.07>3.0"
+      ],
+      "ratio": 4.07,
+      "src_chars": 1376,
+      "tgt_chars": 5599
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-13-164000-converter-evolution.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.40>3.0"
+      ],
+      "ratio": 3.4,
+      "src_chars": 1239,
+      "tgt_chars": 4215
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-13-170434-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:4.01>3.0"
+      ],
+      "ratio": 4.01,
+      "src_chars": 1081,
+      "tgt_chars": 4334
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-13-173505-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.51>3.0"
+      ],
+      "ratio": 3.51,
+      "src_chars": 1498,
+      "tgt_chars": 5252
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-13-174425-persona-stage0.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.76>3.0"
+      ],
+      "ratio": 3.76,
+      "src_chars": 1476,
+      "tgt_chars": 5546
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-13-181608-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.48>3.0"
+      ],
+      "ratio": 3.48,
+      "src_chars": 1862,
+      "tgt_chars": 6483
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-13-183725-深度研究-台灣國片.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:4.17>3.0"
+      ],
+      "ratio": 4.17,
+      "src_chars": 1057,
+      "tgt_chars": 4405
+    },
+    {
+      "lang": "es",
+      "diary": "2026-06-13-190738-跨黨派好政策.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:4.11>3.0"
+      ],
+      "ratio": 4.11,
+      "src_chars": 951,
+      "tgt_chars": 3905
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-04-ζ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.33>3.0"
+      ],
+      "ratio": 3.33,
+      "src_chars": 822,
+      "tgt_chars": 2737
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-04-η.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.13>3.0"
+      ],
+      "ratio": 3.13,
+      "src_chars": 3769,
+      "tgt_chars": 11781
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-04-θ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.13>3.0"
+      ],
+      "ratio": 3.13,
+      "src_chars": 1943,
+      "tgt_chars": 6081
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-04.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.20>3.0"
+      ],
+      "ratio": 3.2,
+      "src_chars": 1596,
+      "tgt_chars": 5101
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-05-δ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.38>3.0"
+      ],
+      "ratio": 3.38,
+      "src_chars": 2357,
+      "tgt_chars": 7964
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-05-ζ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.30>3.0"
+      ],
+      "ratio": 3.3,
+      "src_chars": 2562,
+      "tgt_chars": 8443
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-06-ι.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.37>3.0"
+      ],
+      "ratio": 3.37,
+      "src_chars": 2257,
+      "tgt_chars": 7599
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-06-κ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.28>3.0"
+      ],
+      "ratio": 3.28,
+      "src_chars": 2077,
+      "tgt_chars": 6822
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-07-β.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.04>3.0"
+      ],
+      "ratio": 3.04,
+      "src_chars": 826,
+      "tgt_chars": 2509
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-07-δ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.49>3.0"
+      ],
+      "ratio": 3.49,
+      "src_chars": 831,
+      "tgt_chars": 2901
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-07-ζ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.13>3.0"
+      ],
+      "ratio": 3.13,
+      "src_chars": 874,
+      "tgt_chars": 2739
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-08-ζ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.70>3.0"
+      ],
+      "ratio": 3.7,
+      "src_chars": 1375,
+      "tgt_chars": 5092
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-09-γ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.37>3.0"
+      ],
+      "ratio": 3.37,
+      "src_chars": 1073,
+      "tgt_chars": 3615
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-11-ζ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.26>3.0"
+      ],
+      "ratio": 3.26,
+      "src_chars": 2603,
+      "tgt_chars": 8495
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-12-ζ2.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.05>3.0"
+      ],
+      "ratio": 3.05,
+      "src_chars": 6628,
+      "tgt_chars": 20236
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-12-ι.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.19>3.0"
+      ],
+      "ratio": 3.19,
+      "src_chars": 2139,
+      "tgt_chars": 6816
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-13-α.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.27>3.0"
+      ],
+      "ratio": 3.27,
+      "src_chars": 1998,
+      "tgt_chars": 6526
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-13-α2.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.24>3.0"
+      ],
+      "ratio": 3.24,
+      "src_chars": 5830,
+      "tgt_chars": 18875
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-14-θ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.26>3.0"
+      ],
+      "ratio": 3.26,
+      "src_chars": 5029,
+      "tgt_chars": 16413
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-14-κ2.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.19>3.0"
+      ],
+      "ratio": 3.19,
+      "src_chars": 3177,
+      "tgt_chars": 10133
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-14-λ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.14>3.0"
+      ],
+      "ratio": 3.14,
+      "src_chars": 4149,
+      "tgt_chars": 13047
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-14-ν.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.29>3.0"
+      ],
+      "ratio": 3.29,
+      "src_chars": 4589,
+      "tgt_chars": 15113
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-15-β.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.35>3.0"
+      ],
+      "ratio": 3.35,
+      "src_chars": 5355,
+      "tgt_chars": 17950
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-20-α.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.38>3.0"
+      ],
+      "ratio": 3.38,
+      "src_chars": 1563,
+      "tgt_chars": 5281
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-20-β.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.13>3.0"
+      ],
+      "ratio": 3.13,
+      "src_chars": 11276,
+      "tgt_chars": 35292
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-21-β.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.06>3.0"
+      ],
+      "ratio": 3.06,
+      "src_chars": 3003,
+      "tgt_chars": 9191
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-23-α.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.27>3.0"
+      ],
+      "ratio": 3.27,
+      "src_chars": 1057,
+      "tgt_chars": 3461
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-26-γ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.18>3.0"
+      ],
+      "ratio": 3.18,
+      "src_chars": 3320,
+      "tgt_chars": 10573
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-29-α.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.81>3.0"
+      ],
+      "ratio": 3.81,
+      "src_chars": 1962,
+      "tgt_chars": 7470
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-30-α.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.05>3.0"
+      ],
+      "ratio": 3.05,
+      "src_chars": 2254,
+      "tgt_chars": 6873
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-04-30-γ.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.52>3.0"
+      ],
+      "ratio": 3.52,
+      "src_chars": 2570,
+      "tgt_chars": 9040
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-05-04-161254-jovial-feistel-editorial-v5.6.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.15>3.0"
+      ],
+      "ratio": 3.15,
+      "src_chars": 3240,
+      "tgt_chars": 10220
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-05-09-133952-laughing-goldstine.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.03>3.0"
+      ],
+      "ratio": 3.03,
+      "src_chars": 2616,
+      "tgt_chars": 7927
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-05-11-161600-twmd-rewrite-daily.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.31>3.0"
+      ],
+      "ratio": 3.31,
+      "src_chars": 1572,
+      "tgt_chars": 5211
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-05-18-002727-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.36>3.0"
+      ],
+      "ratio": 3.36,
+      "src_chars": 1036,
+      "tgt_chars": 3482
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-05-22-121707-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.09>3.0"
+      ],
+      "ratio": 3.09,
+      "src_chars": 2640,
+      "tgt_chars": 8149
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-05-26-210649-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.24>3.0"
+      ],
+      "ratio": 3.24,
+      "src_chars": 2885,
+      "tgt_chars": 9338
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-05-26-230513-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.05>3.0"
+      ],
+      "ratio": 3.05,
+      "src_chars": 2917,
+      "tgt_chars": 8907
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-05-27-122151-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.20>3.0"
+      ],
+      "ratio": 3.2,
+      "src_chars": 3393,
+      "tgt_chars": 10858
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-05-28-222438-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.30>3.0"
+      ],
+      "ratio": 3.3,
+      "src_chars": 2621,
+      "tgt_chars": 8637
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-05-29-125036-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.43>3.0"
+      ],
+      "ratio": 3.43,
+      "src_chars": 1699,
+      "tgt_chars": 5834
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-05-29-144438-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.68>3.0"
+      ],
+      "ratio": 3.68,
+      "src_chars": 1499,
+      "tgt_chars": 5519
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-01-105713-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.63>3.0"
+      ],
+      "ratio": 3.63,
+      "src_chars": 1382,
+      "tgt_chars": 5014
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-01-130850-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.47>3.0"
+      ],
+      "ratio": 3.47,
+      "src_chars": 1898,
+      "tgt_chars": 6579
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-01-134740-feedback-login-system.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.25>3.0"
+      ],
+      "ratio": 3.25,
+      "src_chars": 1958,
+      "tgt_chars": 6361
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-01-170717-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:4.20>3.0"
+      ],
+      "ratio": 4.2,
+      "src_chars": 1304,
+      "tgt_chars": 5476
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-01-232507-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.94>3.0"
+      ],
+      "ratio": 3.94,
+      "src_chars": 1911,
+      "tgt_chars": 7536
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-03-171250-manual-species-discipline.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.79>3.0"
+      ],
+      "ratio": 3.79,
+      "src_chars": 2444,
+      "tgt_chars": 9258
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-03-213602-charming-greider.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.32>3.0"
+      ],
+      "ratio": 3.32,
+      "src_chars": 1871,
+      "tgt_chars": 6205
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-03-235954-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.60>3.0"
+      ],
+      "ratio": 3.6,
+      "src_chars": 1773,
+      "tgt_chars": 6375
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-04-102449-深度研究-設計研究院.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:4.22>3.0"
+      ],
+      "ratio": 4.22,
+      "src_chars": 1763,
+      "tgt_chars": 7433
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-04-151548-天下雜誌-儀器校準.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.75>3.0"
+      ],
+      "ratio": 3.75,
+      "src_chars": 942,
+      "tgt_chars": 3536
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-04-151548-天下雜誌.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.89>3.0"
+      ],
+      "ratio": 3.89,
+      "src_chars": 1414,
+      "tgt_chars": 5500
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-04-232402-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.99>3.0"
+      ],
+      "ratio": 3.99,
+      "src_chars": 1154,
+      "tgt_chars": 4603
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-05-105142-manual-analysis-mirror.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.76>3.0"
+      ],
+      "ratio": 3.76,
+      "src_chars": 1270,
+      "tgt_chars": 4777
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-05-105142-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.60>3.0"
+      ],
+      "ratio": 3.6,
+      "src_chars": 1989,
+      "tgt_chars": 7154
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-05-124537-loop-twmd-rewrite.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.75>3.0"
+      ],
+      "ratio": 3.75,
+      "src_chars": 1482,
+      "tgt_chars": 5551
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-05-174805-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.66>3.0"
+      ],
+      "ratio": 3.66,
+      "src_chars": 1546,
+      "tgt_chars": 5656
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-05-182013-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.81>3.0"
+      ],
+      "ratio": 3.81,
+      "src_chars": 1382,
+      "tgt_chars": 5265
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-06-142142-視覺化系統.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.77>3.0"
+      ],
+      "ratio": 3.77,
+      "src_chars": 1093,
+      "tgt_chars": 4121
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-06-153433-viz驗證文.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:4.23>3.0"
+      ],
+      "ratio": 4.23,
+      "src_chars": 1057,
+      "tgt_chars": 4466
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-06-154929-子代物種譜系.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.50>3.0"
+      ],
+      "ratio": 3.5,
+      "src_chars": 1882,
+      "tgt_chars": 6593
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-06-155849-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:4.21>3.0"
+      ],
+      "ratio": 4.21,
+      "src_chars": 1341,
+      "tgt_chars": 5648
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-06-181016-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.98>3.0"
+      ],
+      "ratio": 3.98,
+      "src_chars": 1810,
+      "tgt_chars": 7208
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-07-124521-carousel-charts.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.83>3.0"
+      ],
+      "ratio": 3.83,
+      "src_chars": 1471,
+      "tgt_chars": 5629
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-07-153821-複雜生活節.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:4.30>3.0"
+      ],
+      "ratio": 4.3,
+      "src_chars": 2355,
+      "tgt_chars": 10138
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-07-230624-seo-freshness.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.54>3.0"
+      ],
+      "ratio": 3.54,
+      "src_chars": 1589,
+      "tgt_chars": 5630
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-08-175613-世代論.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.09>3.0"
+      ],
+      "ratio": 3.09,
+      "src_chars": 1907,
+      "tgt_chars": 5898
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-09-010031-嘻哈饒舌-round2.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.81>3.0"
+      ],
+      "ratio": 3.81,
+      "src_chars": 1081,
+      "tgt_chars": 4118
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-09-010031-嘻哈饒舌.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.51>3.0"
+      ],
+      "ratio": 3.51,
+      "src_chars": 1376,
+      "tgt_chars": 4831
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-09-101056-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.95>3.0"
+      ],
+      "ratio": 3.95,
+      "src_chars": 1488,
+      "tgt_chars": 5880
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-10-113753-audit.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.61>3.0"
+      ],
+      "ratio": 3.61,
+      "src_chars": 1412,
+      "tgt_chars": 5094
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-10-131325-latest-ui.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.69>3.0"
+      ],
+      "ratio": 3.69,
+      "src_chars": 1303,
+      "tgt_chars": 4811
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-10-131606-opendata.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.63>3.0"
+      ],
+      "ratio": 3.63,
+      "src_chars": 1384,
+      "tgt_chars": 5027
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-10-184059-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.87>3.0"
+      ],
+      "ratio": 3.87,
+      "src_chars": 1661,
+      "tgt_chars": 6426
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-11-083358-莫那魯道.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.34>3.0"
+      ],
+      "ratio": 3.34,
+      "src_chars": 1936,
+      "tgt_chars": 6460
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-12-182013-flywheel-evolution.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.39>3.0"
+      ],
+      "ratio": 3.39,
+      "src_chars": 1727,
+      "tgt_chars": 5861
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-12-225752-viz-evolution.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:4.09>3.0"
+      ],
+      "ratio": 4.09,
+      "src_chars": 1686,
+      "tgt_chars": 6889
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-13-002414-refactor-article-opus.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.41>3.0"
+      ],
+      "ratio": 3.41,
+      "src_chars": 1241,
+      "tgt_chars": 4232
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-13-002414-refactor-article.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.99>3.0"
+      ],
+      "ratio": 3.99,
+      "src_chars": 1004,
+      "tgt_chars": 4010
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-13-155142-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:4.03>3.0"
+      ],
+      "ratio": 4.03,
+      "src_chars": 1376,
+      "tgt_chars": 5551
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-13-164000-converter-evolution.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.64>3.0"
+      ],
+      "ratio": 3.64,
+      "src_chars": 1239,
+      "tgt_chars": 4509
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-13-170434-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:4.28>3.0"
+      ],
+      "ratio": 4.28,
+      "src_chars": 1081,
+      "tgt_chars": 4631
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-13-173505-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.80>3.0"
+      ],
+      "ratio": 3.8,
+      "src_chars": 1498,
+      "tgt_chars": 5688
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-13-174425-persona-stage0.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.91>3.0"
+      ],
+      "ratio": 3.91,
+      "src_chars": 1476,
+      "tgt_chars": 5765
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-13-181608-manual.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:3.47>3.0"
+      ],
+      "ratio": 3.47,
+      "src_chars": 1862,
+      "tgt_chars": 6454
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-13-183725-深度研究-台灣國片.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:4.29>3.0"
+      ],
+      "ratio": 4.29,
+      "src_chars": 1057,
+      "tgt_chars": 4538
+    },
+    {
+      "lang": "fr",
+      "diary": "2026-06-13-190738-跨黨派好政策.md",
+      "ok": false,
+      "critical": [],
+      "warning": [
+        "length-high:4.23>3.0"
+      ],
+      "ratio": 4.23,
+      "src_chars": 951,
+      "tgt_chars": 4025
+    }
+  ]
+}
