@@ -117,7 +117,7 @@ function main() {
   let log = '';
   try {
     log = execSync(
-      'git log --full-history -z --name-only --format="COMMIT|%H|%aI|%s" -- knowledge/',
+      'git log --full-history --numstat --format="COMMIT|%H|%aI|%s" -- knowledge/',
       { encoding: 'utf-8', maxBuffer: 256 * 1024 * 1024 },
     );
   } catch (e) {
@@ -131,31 +131,62 @@ function main() {
   }
 
   const dates = {}; // url -> ISO (newest non-cosmetic wins; log is newest-first)
+  let skipped = 0; // cosmetic-commit file-touches
+  let skippedPassive = 0; // passive reverse-link (Stage 5.2 雙向延伸閱讀) touches
+
+  // Passive cross-link heuristic (2026-06-14): writing main article A links to
+  // B/C/D and REWRITE Stage 5.2 adds a reverse 延伸閱讀 line into B/C/D — a 1-line
+  // touch that shouldn't reset B/C/D's /latest freshness. A file-touch is
+  // "passive" when it's tiny (≤ PASSIVE_MAX changed lines) AND rides in a commit
+  // that has a clearly-bigger main article (≥ MAIN_MIN) — i.e. relative size, so
+  // a standalone small heal (no big sibling) still counts as its own edit.
+  const PASSIVE_MAX = 5;
+  const MAIN_MIN = 20;
+
   let curDate = '';
   let cosmetic = false;
-  let skipped = 0;
+  let bucket = []; // {path, size} numstat rows for the current commit
 
-  for (let token of log.split('\0')) {
-    token = token.replace(/^\n+/, '').trim();
-    if (!token) continue;
-    if (token.startsWith('COMMIT|')) {
-      const parts = token.split('|');
+  const flush = () => {
+    if (!bucket.length) return;
+    const maxSize = Math.max(...bucket.map((f) => f.size));
+    for (const f of bucket) {
+      if (cosmetic) {
+        skipped++;
+        continue;
+      }
+      if (f.size <= PASSIVE_MAX && maxSize >= MAIN_MIN) {
+        skippedPassive++;
+        continue;
+      }
+      const url = knowledgePathToUrl(f.path);
+      if (!url) continue;
+      if (!dates[url]) dates[url] = curDate;
+    }
+    bucket = [];
+  };
+
+  for (const line of log.split('\n')) {
+    if (line.startsWith('COMMIT|')) {
+      flush();
+      const parts = line.split('|');
       curDate = parts[2] || '';
       const subject = parts.slice(3).join('|');
       cosmetic =
         COSMETIC.test(subject) ||
         SPORE_POINTER.test(subject) ||
         MEDIA_ONLY.test(subject);
-    } else if (token.startsWith('knowledge/') && token.endsWith('.md')) {
-      if (cosmetic) {
-        skipped++;
-        continue;
+    } else {
+      // numstat row: "<added>\t<removed>\t<path>" (binary = "-\t-\tpath")
+      const m = line.match(/^(\d+|-)\t(\d+|-)\t(knowledge\/.+\.md)$/);
+      if (m) {
+        const added = m[1] === '-' ? 0 : parseInt(m[1], 10);
+        const removed = m[2] === '-' ? 0 : parseInt(m[2], 10);
+        bucket.push({ path: m[3], size: added + removed });
       }
-      const url = knowledgePathToUrl(token);
-      if (!url) continue;
-      if (!dates[url]) dates[url] = curDate;
     }
   }
+  flush();
 
   mkdirSync(dirname(OUT), { recursive: true });
   writeFileSync(
@@ -167,7 +198,7 @@ function main() {
     }),
   );
   console.log(
-    `[content-dates] ${Object.keys(dates).length} URL dates (skipped ${skipped} cosmetic file-touches) → src/data/content-dates.json`,
+    `[content-dates] ${Object.keys(dates).length} URL dates (skipped ${skipped} cosmetic + ${skippedPassive} passive cross-link touches) → src/data/content-dates.json`,
   );
 }
 
