@@ -1,12 +1,12 @@
 ---
 title: 'REFLEXES'
-description: '跨 session 程序記憶 catalog — 60 條 #N 反射，LESSONS-INBOX distill 後的 instinct 層，候選 MANIFESTO promotion 來源'
+description: '跨 session 程序記憶 catalog — 70 條 #N 反射，LESSONS-INBOX distill 後的 instinct 層，候選 MANIFESTO promotion 來源'
 type: 'cognitive-organ'
 status: 'canonical'
 apoptosis: 'never'
-current_version: 'v4.3'
-last_updated: 2026-05-24
-last_session: '2026-05-24-040000-twmd-self-evolve-weekly'
+current_version: 'v4.6'
+last_updated: 2026-06-14
+last_session: '2026-06-14-040000-twmd-self-evolve-weekly'
 sister_docs:
   - 'DNA.md'
   - 'LESSONS-INBOX.md'
