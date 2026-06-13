@@ -65,4 +65,45 @@
 - ~~twmd CLI v1~~（0fd911db3）
 - ~~6/10 audit 五熱點~~（驗明全數已落地）
 
+---
+
+## Opus 接手段更新（2026-06-13，哲宇「完整執行 handoff + 選最佳長期架構解 + 自我進化」）
+
+### 已收割（Opus 段）
+
+- ~~**EVO-A4** git 資料 prebuild 化~~（`faf72e580`）：astro render 階段 git 子程序 6→0，
+  搬進 `build-git-info.mjs`（一次 git log 涵蓋全 6 語言）。四關驗證全綠（parity 5,274
+  byte-identical / graceful fallback / prebuild 重產 / **CI 真環境 success 122s**）。
+  報告 [git-info-prebuild-2026-06-13.md](git-info-prebuild-2026-06-13.md)。
+- ~~**EVO-A2** search 單一生成器~~（`2f3b8de5d`）：刪漂移的 runtime route
+  `search-index.json.ts`（缺 politics、只 zh+en），fallback 改由同一次掃描衍生。實證 0→22
+  politics entries。
+- ~~**EVO-E3** 審計方法論進 REFLEXES~~（`d770be2b0`）：新 #67「已驗過帶時間戳，probe 不信
+  舊結論」+ #24 第 8 種「驗證器空輸出假 PASS」+ MEMORY per-render scope 鐵律。
+- **EVO-E1** LESSONS distill：質門檻（本 session structural 教訓）已升 canonical + distill 2
+  條（251→249）。**量門檻全量 sweep 正式交 distill-weekly 飛輪**（Fable 策略文件
+  [lessons-distill-strategy-2026-06-13.md](lessons-distill-strategy-2026-06-13.md) = 6 批 script）。
+
+### 新增
+
+| ID     | 項目                                                                                                                                                                                                                                                                            | 價值                           | Effort | 自主權 |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ | ------ | ------ |
+| EVO-A5 | **prebuild git 用法收斂 → CI shallow clone**：build-git-info / build-content-dates / restore-mtime 三個 prebuild step 各跑一次 `git log -- knowledge/`（重複全量掃描）→ 合併成一次 + 評估 incremental，為 shallow clone 鋪路（A4 讓 astro 零 git，但 prebuild 仍釘 full clone） | checkout 27s→5s + 三步掃描合一 | 中     | ✅     |
+
+### 🔒 給哲宇的決策提案（handoff 的需拍板項）
+
+1. **EVO-D1 RAG Phase 1-2 方案選型**（Fable 研究報告 [rag-design-research](research/2026-06/rag-design-research-2026-06-13.md)）：
+   主推雙層 RAG — AI 層用 multilingual-e5-small（Microsoft，384d int8）CI 增量 embedding。
+   **主權濾網建議**：避開 bge-m3（北京智源）/ Qwen3（阿里）的語意空間意識形態指紋，主推
+   e5 / 升級路線 EmbeddingGemma（Google）。MVP ~1.5-2 人日。**等哲宇選 embedding backend 方向**。
+2. **fr 搜尋 shard 686/787 docs**：babel frontmatter 撇號 bug（memory `project_babel_frontmatter_apostrophe`），
+   ~100 檔 js-yaml 斷裂。>50 檔屬 §自主權邊界。**建議**：spawn 獨立 session 批次修（非本 session
+   範圍）。影響面：fr OG + search index 各漏 ~100 篇。
+3. **dist 1.7G vs GitHub Pages 1GB 軟上限**：媒體 540M（og 271M + article-images 197M +
+   carousel 72M）+ 六語 HTML ~990M。**建議**：(a) EVO-B2 HTML 重量戰役（inline SVG → sprite）
+   (b) 評估 og-images CDN 外移。**等哲宇定方向**（涉及 deploy 架構）。
+4. **EVO-A1 雙讀路徑統一方向**（架構審計 DUAL-1 🔴）：全走投影層 vs 投影層降級 manifest。
+   A4 已消除 contributors 這條直讀源，但 wrappers/RSS/search 仍直讀 knowledge/。**等哲宇定
+   架構方向**後才動（影響 ~4,758 頁主路徑）。
+
 _作者：Taiwan.md 🧬 session 2026-06-13-002414-refactor-article_
