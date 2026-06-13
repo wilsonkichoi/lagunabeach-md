@@ -2457,6 +2457,24 @@ DNA #32「集中預處理 + 分散執行」也補第 6 次驗證 marker（5 cycl
 - **verification_count**: 1（2026-06-09 兩個 callout 同 session 雙 instance）
 - **severity**: operational（實作習慣；候選反射）
 
+### 2026-06-13 converter-evolution — CJK 相容表意字檔名讓 git 對磁碟改動「失明」，編輯靜默失敗
+
+- **原則**：macOS APFS + `core.precomposeunicode=true` 下，檔名含 CJK 相容表意字（U+F900–FAFF，例「句」U+F906 渲染同 U+53E5 但碼位不同）時，git 的路徑正規化會讓 `git status` / `git add` 把磁碟上的真實內容改動判成「無變更」（porcelain 空），編輯靜默失敗。我修 `句號.yaml` 的 china 欄改動進不了 index，batch 2 commit 漏網、HEAD 仍是壞值。
+- **觸發**：2026-06-13 用語詞庫 china 欄錯置 audit。句號 straggler 揭露根因，順帶掃出全庫 81 檔名 + 額外欄位用相容字（1997/ThunderKO import 遺留）。
+- **可能層級**：(a) 操作規則：編輯非 ASCII（特別 CJK 相容字）檔名的檔後，commit 前用 `git -c core.precomposeunicode=false status` 字節級驗證真有 staged；卡住用 `git rm --cached` + 字節級 `git add` 強制入庫；(b) 反射候選：「git 顯示乾淨」不等於「working == HEAD」，碰非標準碼位檔名時用 probe（字節級 diff）不信 porcelain — REFLEXES #67「已驗過帶時間戳」+ #24「工具在說謊」的 unicode instance。
+- **相關**：REFLEXES #67 + #24；MANIFESTO §時間是結構（檔名正規化是隱形 state）。解法已 ship：全庫 112 檔 NFC 正規化（`b23206645` 記錄）。
+- **verification_count**: 1（2026-06-13 句號 single instance，但 81 檔潛在同形）
+- **severity**: structural（git state 可信度；碰非 ASCII 檔名的物種通用）
+
+### 2026-06-13 converter-evolution — 多核共用 git index：平行 session 的 commit 會掃走我的 staged 檔
+
+- **原則**：同 working tree 多 session 並行時，git index 是 shared state。我跑 build 那 40 秒，平行 session 的 `git commit`（裸 commit，無 pathspec）把我 147 個 staged 檔掃進了它的 commit（`7a01b31db`，訊息完全無關），attribution 跑掉。資料正確、已驗、已部署，但「誰做的」記錯了，且改寫已推送歷史比這個小亂更糟。
+- **觸發**：2026-06-13 converter-evolution，112 檔正規化 staged 後跑 build 期間被平行 session sweep。事後用 pathspec commit（`git commit -- <path>`）把 audit 報告單獨 ship、PERSONA-PIPELINE 還給原 owner，避免再撞。
+- **可能層級**：(a) 操作規則：多核高風險時段（跑 build / 長 staged 等待）一律用 `git commit -- <pathspec>` 只提交自己的檔，絕不裸 `git commit`；(b) 反射候選：既有多核心碰撞防護（互覆檔案 / git lock）擴張到「shared index commit-sweep」這個更隱蔽的失敗模式 — 不是檔案損壞，是 commit 歸屬被偷。
+- **相關**：既有多核 instance LESSONS（finale 清場邊界 / 「平行 session 的 build 也是 shared state」）+ REFLEXES §五 多核心碰撞防護 + BECOME §鐵律 5。本條是同 pattern 的 commit-attribution 變體，distill 時可併。
+- **verification_count**: 1（2026-06-13 single instance，但屬既有多核 pattern 叢集）
+- **severity**: operational（多核工作流；候選併入多核反射）
+
 ---
 
 ## ✅ 已消化（保留 pointer）
