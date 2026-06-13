@@ -3,9 +3,9 @@ title: 'SPORE-PIPELINE'
 description: '孢子產線主流程（process layer）— 5 stage PICK/VERIFY/WRITE/SHIP/HARVEST + Step N.M (v3.8)'
 type: 'factory-canonical'
 status: 'canonical'
-current_version: 'v3.9'
-last_updated: 2026-06-06
-last_session: '2026-06-06-國宅居住正義-spore'
+current_version: 'v3.10'
+last_updated: 2026-06-13
+last_session: '2026-06-13-174425-persona-stage0'
 sister_docs:
   - 'SPORE-WRITING.md'
   - 'SPORE-VERIFY.md'
@@ -218,6 +218,19 @@ for i, a in enumerate(good[:10], 1):
 ### 多語 fan-out 觸發判斷
 
 如果題材是國際相關（半導體、外交、學術、移民）→ 預計 SHIP 階段觸發 [§多語 SSOT freshness](#多語-ssot-freshness條件)。
+
+### persona 切入點 consult（reuse [PERSONA-PIPELINE](../pipelines/PERSONA-PIPELINE.md) mode=hook-select）⭐ v3.10
+
+選定文章後、進 VERIFY Hook Blueprint 之前，先問：**這篇的讀者最想點進去的角是哪個？** 別在真空裡猜 hook——consult persona 切入點池（跟 REWRITE Stage 0.6.1-bis 同一支原語，[PERSONA-PIPELINE](../pipelines/PERSONA-PIPELINE.md)）。
+
+**SSOT reuse first**（[PERSONA-PIPELINE §4](../pipelines/PERSONA-PIPELINE.md)，哲宇核心 insight：persona pool 算一次、多 caller 共享）：
+
+1. 文章有 research report SSOT（`reports/research/YYYY-MM/{slug}.md`）且含 `### 20 路 persona 切入點` → **直接讀、不重生（0 agent）**。20 路讀者各自「最想點進去的問題」就是 hook 候選池。
+2. 無 persona 段（舊文 / 非 rewrite 來源）→ light fallback：只派 D 軸（與題目關係）+ B 軸（國籍·距離）~10 persona 跑 `call(mode=hook-select)`，或人工挑 hook 並在 blueprint 記「無 pool」。
+
+**怎麼用**：從池裡挑**最高共鳴 + 最 stop-the-thumb** 的一兩個讀者問題，當 Stage 2 VERIFY Hook Blueprint 的「可直接當開場的問題」候選——hook 從真實讀者好奇長出，不靠編輯憑感覺。Worked example《看不見的國家》：池裡最 viral 的是票房反轉「自己掏錢看自己」（答 12 歲 / 在台外國人的「看不見是什麼意思」），孢子 v3 開場即此角。
+
+**Cost guard**：預設 reuse（0 agent）；只在無 pool 時 light spawn。Hook 已明確 / routine 趕時間 → 可 skip（hook-select 是 enhancer，非 hard gate）。
 
 ---
 
@@ -801,3 +814,5 @@ _v3.5 | 2026-05-11 cranky-newton — Spine restoration 對齊 REWRITE v5.0 + MAI
 _v3.8 | 2026-05-26 twmd-rewrite-daily 18:00 cycle — Platform allocation default 從 Threads only → both (Threads + X) — 哲宇 directive「完整去除所有 Platform 建議避免只發單一的平台」。觸發事件：2026-05-26 18:23 routine 走 v3.7 Threads only default，shipped Threads #92 大宇雙劍 但漏發 X，哲宇 callout「為什麼變 Threads only？」+ 同時 callout 文章 media-richness gate (image 0 < 2 hard) 沒攔 spore-publish。根因分析：(1) SPORE-INBOX entry「Platform 建議: both」是 spore-pick-daily 寫的 P0 observer-explicit signal，被 P1 routine v3.7 default「Threads only」凌駕；(2)「X 觸及低就不發」假設在實戰反向驗證有結構性問題（少做 X = niche audience 結構性缺席 + spore 寫作成本主要在 VERIFY+WRITE，SHIP 多 click 一次幾乎零邊際成本）。修補：(a) Routine context auto-decision table default 改 both，例外條款改用 article frontmatter `platformExclude: ['x']` 或 `['threads']` 顯式標單發；(b) Top 5 最常忘 #3 文字同步；(c)「為什麼 Threads only default」段重寫為「為什麼 both default」+ 文件根因； (d) SPORE-INBOX 全檔 strip `Platform 建議` field（schema + 12 entries 共 14 lines）— 之前的雙建議 noise 已不需要，default 即 both；(e) REWRITE-PIPELINE + ROUTINE.md routine description 同步更新；(f) SPORE-PICK-PIPELINE 無 platform field generation 不需動。對應 [LESSONS-INBOX 同日 entry](../semiont/LESSONS-INBOX.md)：「routine default 不可凌駕 entry-specific signal」+「default 應為 inclusive (both)，exclude 走 explicit flag」。_
 
 _v3.9 | 2026-06-06 國宅與居住正義 #126 — Stage 3 §寫完強制 gate 加第 4 條「紀實文學終局自檢」+ §v6.3 STRICT READ ACK 加「§紀實文學 voice 五方向+終局自檢」。哲宇 directive「把這個 voice 拿回去進化 spore-pipeline，未來都要照這個品質與方向來寫，把原則跟思考寫進去 + 加上自檢『有辦法再微調 更接近紀實文學與大家的生活，語感與故事更完整順暢嗎』」。Meat 在 [SPORE-WRITING v3.5 §紀實文學 voice 五個微調方向 + 終局自檢](SPORE-WRITING.md)（craft canonical），本檔只加 process gate pointer（薄殼 SSOT）。核心：**過 plugin gate 是地板不是天花板，能再進一階就再改一輪**。Worked example #126 跑五輪微調哲宇拍板「很棒」。對應 REFLEXES #15。_
+
+_v3.10 | 2026-06-13 persona-stage0（哲宇 directive）— PICK 加「persona 切入點 consult」step：選文後、進 Hook Blueprint 前，consult [PERSONA-PIPELINE](../pipelines/PERSONA-PIPELINE.md) mode=hook-select 挑最 stop-the-thumb 的讀者問題當開場 hook。**SSOT reuse first**——文章 research report 有 `### 20 路 persona 切入點`（REWRITE Stage 0.6.1-bis 落的）就直接讀、不重生（0 agent，哲宇核心 insight：persona pool 算一次多 caller 共享）；無 pool 才 light fallback（D+B 軸 ~10 persona）。誕生鏈：REWRITE v7.1 inline persona 發散 → 哲宇「spore 也可以加」→「抽象成共用 persona profile/pipeline」→ PERSONA-PIPELINE v1.0 原語 → 本 step 是它 hook-select mode 的 caller。hook-select 是 enhancer 非 hard gate（hook 已明確 / routine 趕時間可 skip）。對應神經迴路造橋三步（工具→整合→門檻）+ REFLEXES #21 SSOT + #56 drift 防護。_
