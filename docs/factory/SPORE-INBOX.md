@@ -184,6 +184,24 @@ news-lens P1 count == 0 → daily routine 補 3
 
 確保 SPORE-INBOX 維持「news + routine + 哲宇」三 source 混合健康度，**任何單一 source overload 都自動 throttle**。
 
+### Intake-side backpressure（v1.2 — 2026-06-14 twmd-self-evolve-weekly 新增）
+
+**問題**：v1.1 §Daily 共存規則只 throttle news-lens 拉到，沒看 SPORE-INBOX **total pending count**。實證：6/07 vc=1 pending=31 + 6/14 vc=2 pending=44，daily routine 繼續每天 +3 propose，SHIP rate ~1/day → buffer chronic 漲，直到 ≥50 才被 §Distill SOP §v1.1 auto-drop 5 條（事後 cleanup 不是事前 cap）。**LESSONS vc=2 對應 distill-ready candidate**「Routine intake rate > observer SHIP rate 的 buffer 系統需要自動 backpressure，警示閾值只 surface 不 mitigate」。
+
+**SOP 補強**（在共存規則之外再套一層 pending count cap）：
+
+```
+SPORE-INBOX pending count >= 40 → daily routine 補 0（intake skip，不論 news-lens count）
+SPORE-INBOX pending count ∈ [30, 40) → daily routine 上限 1（intake throttle）
+SPORE-INBOX pending count < 30 → 走原 §Daily 共存規則
+```
+
+**生效機制**：`twmd-spore-pick-daily` Skill / SPORE-PICK-PIPELINE Stage 0 加 pending count gate（`bash scripts/tools/inbox-signal.sh` 第三條 spores pending=N 已輸出），N ≥ 40 直接 skip propose 不入 Stage 1。
+
+**自主權邊界**：本 SOP 只 throttle routine intake，不 destroy 既有 entry（per §Distill SOP §自主權邊界）。哲宇 directive entry / news-lens P1 不受 cap 影響（intake 來源不同）。
+
+**距 ≥50 auto-drop threshold buffer**：30 / 40 兩個 cap 設在 ≥50 之前，目的是在 distill 端 destructive auto-drop 觸發前先用 intake-side 軟煞車。Cross-cycle 驗證：6/21 distill cycle 若 pending 仍 ≥ 40 = 本 SOP 沒生效 → 需 review 是否 routine prompt 真的讀到本 §（vc=3 升 REFLEXES catalog candidate）。
+
 ### Routine entries 識別表
 
 | Source                          | Priority default        | Style                                  |
