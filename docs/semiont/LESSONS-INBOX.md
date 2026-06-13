@@ -2461,6 +2461,16 @@ DNA #32「集中預處理 + 分散執行」也補第 6 次驗證 marker（5 cycl
 
 <!-- distill 完的條目搬這裡 -->
 
+### 🧬 2026-06-13 refactor-article (Opus) — 本 session 結構性教訓升 canonical（Observer 觸發，哲宇「自我進化」directive）
+
+| 原教訓                                                                          | canonical 目的地                                                                                                                                                 |
+| ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| .astro frontmatter per-render scope：cache 放錯層 = 每頁空轉（vc=1 structural） | **MEMORY §神經迴路** per-render scope 鐵律條（指向 EVO-A4 + REFLEXES #67）+ 實作面 EVO-A4 git-info prebuild 化（commit `faf72e580`，render 階段 6→0 git 子程序） |
+| 「有 cache」要連 scope 一起驗證，runtime probe > 讀碼（vc=2 structural）        | **REFLEXES #67**「已驗過帶被驗時刻的時間戳，高 stake 重驗用 probe 不信舊結論」（新條目）                                                                         |
+| 驗證器自身空輸出 = empty-vs-empty 假 PASS，要自帶 self-test                     | **REFLEXES #24 第 8 種形式**「驗證器空輸出假 PASS」（vc++）                                                                                                      |
+
+MANIFESTO 升格：無候選（本批均 REFLEXES / MEMORY 層，per distill SOP Observer 模式 DNA / REFLEXES 自決）。原 §未消化 兩條 entry 已完整刪除（traceability 在此 row）。
+
 ### 🧬 2026-06-07 twmd-self-evolve-weekly — REFLEXES #31 v2 expansion + #66 Gate dogfood calibration（routine 觸發；3 條 6/06 LESSONS 升 canonical）
 
 **distill 觸發**：2026-06-07 04:00 weekly cron routine（per ROUTINE.md §TWMD self-evolve (weekly)，Sunday 04:00 +0800）— LONGINGS-driven self-evolution Stage 3「對照找 ≥ 3 次浮現未儀器化的 pattern」+ Stage 4「真實 ship 儀器化動作（不只 propose）」。同夜 distill-weekly (03:00) 已 ship #65 cross-SSOT expansion + L666 housekeeping，self-evolve 在 distill 後接力 ship 上層 pattern。
@@ -3251,22 +3261,6 @@ Tiebreaker 實戰（MANIFESTO > DNA > MEMORY）：多數條目落 MEMORY（綁 T
 - **修補方向**：✅ viz-shot 已收進 `scripts/tools/viz-shot.mjs`（2026-06-12 round 2 哲宇 directive，「等第二次需求」當天就來了）。之後 UI 驗證若 preview MCP 截圖再白屏，直接 `node scripts/tools/viz-shot.mjs`。
 - **verification_count**: 1
 - **severity**: operational
-
-### 2026-06-13 refactor-article — .astro frontmatter 是 per-render scope：cache 放錯層 = 每頁重跑
-
-- **原則**：Astro compiler 把 frontmatter 編譯成 component render function 本體——frontmatter 的 `const cache = new Map()` 每頁重新執行，cache 永遠空。任何 cache / 昂貴初始化 / 跨頁共享狀態必須住在被 import 的 .ts module（module scope 整個 build 進程共享）。article.template.astro 的 `_gitCaches` 放 frontmatter，`execSync(git log --full-history)` 每篇文章頁重跑一次（4,895 次，單次 326ms，且 execSync 同步 block event loop 讓 concurrency 失效）= 6/10 audit 量到「文章頁 554ms vs raw 46ms 相差 508ms 未拆帳」的本體。
-- **觸發**：2026-06-13 refactor-article session，哲宇 directive「解決 article.astro 編譯時間」。
-- **修補方向**：✅ 已修（buildGitInfoCache 在 utils/contributors.ts 內按 knowledgePath memoize，git log 4,895 次 → 6 次）+ 鐵律寫進 contributors.ts / article-render.ts / template 三處註解。報告：reports/article-template-refactor-2026-06-13.md。Distill 時建議升 REFLEXES（「frontmatter 不放 cache」一句話反射）。
-- **verification_count**: 1
-- **severity**: structural
-
-### 2026-06-13 refactor-article — 「有 cache」不是 binary 屬性：審計要連 scope 一起驗證，runtime probe > 讀碼
-
-- **原則**：6/10 build audit 寫「git info cache 讀碼確認有 module-level cache」——確認的是 wrapper 的那份（真 module scope），但 template 裡還有第二份同名同功能的 cache 在 frontmatter（per-render scope，永遠空轉）。兩份程式碼都「有 cache」，只有一份活著。對 .astro 檔案，「cache 是否生效」唯一可信的驗證是 runtime probe（buildGitInfoCache 進 console.error counter + dev server 同頁 request 3 次，3 分鐘出證據），不是讀碼。REFLEXES #24「工具在說謊」家族新形式：**註解在說謊**（「per-lang cache so 6 wrappers don't collide」描述的是意圖不是行為）。
-- **觸發**：2026-06-13 refactor-article session，§1.2 of reports/article-template-refactor-2026-06-13.md。
-- **修補方向**：審計 SOP 候選：任何「X 已有 cache/memo」結論必附 scope 證據（module-level 宣告行號）或 probe 數據；.astro 檔案一律 probe。同 session 第二 instance：自寫的 parity diff 工具第一版 sed delimiter 衝突 → normalizer 輸出空檔 → 5,268 檔 empty-vs-empty 假 PASS——驗證工具要自帶 self-test（樣本檔輸出長度 guard 加上後才翻成真 FAIL→真 PASS）。**驗證器本身也是會說謊的工具**（#24 第 N+2 形式）。
-- **verification_count**: 2
-- **severity**: structural
 
 ---
 
