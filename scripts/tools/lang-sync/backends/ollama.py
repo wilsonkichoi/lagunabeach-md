@@ -52,10 +52,10 @@ class OllamaBackend(TranslationBackend):
     def __init__(self, model: str = None, host: str = None, **config):
         super().__init__(**config)
         # host + model are env-overridable so the same backend targets a REMOTE
-        # sovereignty-safe GPU node (e.g. the RTX 5090 over an SSH tunnel) without
-        # a code change: `OLLAMA_HOST=http://localhost:11500 OLLAMA_MODEL=gemma4:26b`.
-        # Wire a node via scripts/tools/lang-sync/remote-ollama.sh connect <node>.
-        # See docs/pipelines/REMOTE-GPU-PIPELINE.md.
+        # sovereignty-safe GPU node from the fleet without a code change:
+        #   eval "$(bash scripts/tools/lang-sync/fleet-endpoint.sh --export)"
+        # The fleet (~/Projects/muse-bot/fleet) owns node selection + connection;
+        # this just reads OLLAMA_HOST/OLLAMA_MODEL. See REMOTE-GPU-PIPELINE.md.
         self.host = host or os.environ.get("OLLAMA_HOST", "http://localhost:11434")
         model = model or os.environ.get("OLLAMA_MODEL")
         if model:

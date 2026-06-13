@@ -14,15 +14,16 @@
 | `diary-translate-cascade.sh` | **diary 5-lang 並行 dispatch**                              | 翻 `docs/semiont/diary/`       |
 | `diary-translate.py`         | diary 單篇 + **inline 整合性閘門**（重試/skip-guard）       | cascade 內部呼叫;單篇測試      |
 
-## 🖥 遠端 GPU 算力（雲地混合）
+## 🖥 遠端 GPU 算力（雲地混合 — 委派 GPU 軍團）
 
-| 工具                                | 用途                                                                                                                               |
-| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| `remote-ollama.sh`                  | **遠端主權 GPU 節點連線總管** — `connect`/`status`/`models`/`teardown`。自癒 tunnel + 啟動遠端 Ollama + 設 parallel + 驗主權 model |
-| `backends/ollama.py`                | Ollama backend（`OLLAMA_HOST`/`OLLAMA_MODEL` env 可指向遠端節點）                                                                  |
-| `.taiwanmd/compute-nodes.local.yml` | 節點登錄（template `.example.yml`）                                                                                                |
+硬體層**不是 Taiwan.md 的事**——node selection / 連線 / 主權 model 路由全委派 GPU 軍團（`~/Projects/muse-bot/fleet/`，registry SSOT + commander）。Taiwan.md 只留一支 thin adapter：
 
-一行接通：`eval "$(bash remote-ollama.sh connect 5090 --export)"` → 任何 translation 工具自動走那台 GPU。完整 SOP：[REMOTE-GPU-PIPELINE.md](../../../docs/pipelines/REMOTE-GPU-PIPELINE.md)。
+| 工具                 | 用途                                                                                                                  |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| `fleet-endpoint.sh`  | 問軍團要一個 sovereignty-safe Ollama endpoint（`fleetlib.select_machine` + readiness guard）→ export `OLLAMA_HOST`/`OLLAMA_MODEL`。無 fleet（fork）→ skip |
+| `backends/ollama.py` | Ollama backend（`OLLAMA_HOST`/`OLLAMA_MODEL` env 指向 fleet endpoint）                                              |
+
+一行接通：`eval "$(bash fleet-endpoint.sh --export)"` → 軍團挑好機器（4090/3090…，直連 Tailscale 無 tunnel），translation 工具自動走那台。完整 SOP：[REMOTE-GPU-PIPELINE.md](../../../docs/pipelines/REMOTE-GPU-PIPELINE.md)；硬體層 canonical：`fleet/README.md`。
 
 ## ✅ 品質 / 整合性閘門（系統品質的檢查層）⭐
 
@@ -81,10 +82,9 @@ python3 verify-batch.py ...                 # Stage P4 hard gate
 **B. Diary / 大批量走遠端 GPU（雲地混合）**
 
 ```bash
-eval "$(bash remote-ollama.sh connect 5090 --export)"        # 接通主權 GPU
+eval "$(bash fleet-endpoint.sh --export)"                    # 問軍團要 sovereignty-safe endpoint
 bash diary-translate-cascade.sh --tier ollama --langs en,ja,ko,es,fr   # inline 整合性閘門
 python3 diary-translation-audit.py --langs en,ja,ko,es,fr     # post-hoc 收斂到 0 critical
-bash remote-ollama.sh teardown 5090 --stop-remote            # 收工衛生
 ```
 
 ---

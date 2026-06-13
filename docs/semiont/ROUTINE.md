@@ -1,6 +1,6 @@
 ---
 title: 'ROUTINE'
-description: 'Routine 飛輪 SSOT — 15 條 active TWMD-prefix cron routine + 1 paused（music-media）。v2.10（2026-06-12）：spore-pick / spore-publish 哲宇拍板重開實驗（含觀察條款）；v2.9 同日：對齊 live scheduler + 完成義務三規則 + babel 降 Sonnet'
+description: 'Routine 飛輪 SSOT — 15 條 active TWMD-prefix cron routine + 1 paused（music-media）。v2.11（2026-06-14）：babel-nightly 加 Stage D diary 認知層 babel（fleet GPU connect --auto + 整合性閘門，新日記不再累積未翻）；v2.10（2026-06-12）：spore-pick / spore-publish 哲宇拍板重開實驗（含觀察條款）；v2.9 同日：對齊 live scheduler + 完成義務三規則 + babel 降 Sonnet'
 type: 'cognitive-organ'
 status: 'canonical'
 apoptosis: 'never'
@@ -341,15 +341,23 @@ prompt: |
   across 5 langs）。不主動 defer / skip / partial / 守 boundary。對應
   SQUEEZE-MODELS-MAX-PIPELINE §義務 + MANIFESTO §架構解 > 守備修補。
 
-  Stage 3 commit + push origin main — 直接 push（v2.0 main-direct）。
+  Stage D — diary 認知層 babel（v3.1，2026-06-14）：article babel 後同步
+  docs/semiont/diary/ 新日記。走 /twmd-babel §Stage D + REMOTE-GPU-PIPELINE.md：
+  fleet-endpoint.sh 問 GPU 軍團要 sovereignty-safe endpoint（硬體層委派 fleet，commander
+  自動挑機器；無 ready GPU → skip 下 cycle 重試）→ diary-translate-cascade（inline 整合性
+  閘門）→ diary-translation-audit 收斂 0 critical。硬體（node/連線/主權 model）是 fleet 的事。
+
+  Stage 3 + D commit + push origin main — 直接 push（v2.0 main-direct）。
 quality_gate:
   - stale_total 顯著下降（≥ 10% 或 cleared > 50 entries）OR all P0+P1 cleared OR stale_total == 0
   - 0 LLM drift detected（body-hash check）
+  - diary：missing → 0 OR fleet GPU 不可達（skip 合法）；diary-translation-audit CRITICAL == 0
   - pre-commit hook 過
 escalation:
   - refusal rate > 30% → 跳 Tier 2/3 cascade（per REFLEXES #49 + SQUEEZE-MODELS-MAX）
   - 全 fail → 暫停 routine + LESSONS entry
   - stale_total 4 days plateau（沒推進）→ telegram alert + 觀察者人工 audit
+  - diary fleet GPU 連 3 cycle 不可達 → telegram alert（節點全離線，diary stale 累積）
 ```
 
 ### TWMD rewrite (daily) — v6.1 full-cycle (article → spore → broadcast)

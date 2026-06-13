@@ -70,6 +70,25 @@ Routine cron `30 0 * * *`（每天 00:30，2026-05-28 shift 從 05:00 → 00:30 
 
 ---
 
+## Stage D — diary 認知層 babel（v3.1，2026-06-14 新增）
+
+article babel（Stage 1-3）跑完後，**同步認知層日記**（`docs/semiont/diary/`）。新日記每天被 session / routine 寫出，不接進飛輪就持續累積未翻。硬體層委派 GPU 軍團，走 [REMOTE-GPU-PIPELINE.md](../../../docs/pipelines/REMOTE-GPU-PIPELINE.md)：
+
+```bash
+# 1. 問軍團要 sovereignty-safe endpoint（fleet 自己挑機器；無 ready GPU → skip 下 cycle 重試）
+eval "$(bash scripts/tools/lang-sync/fleet-endpoint.sh --export)" || { echo "no fleet GPU — skip diary sweep"; }
+# 2. 缺口 → cascade（inline 整合性閘門：截斷自動重譯）
+python3 scripts/tools/lang-sync/diary-translate.py --status --langs en,ja,ko,es,fr
+bash scripts/tools/lang-sync/diary-translate-cascade.sh --tier ollama --langs en,ja,ko,es,fr
+# 3. post-hoc audit 收斂到 0 critical（HARD GATE）
+python3 scripts/tools/lang-sync/diary-translation-audit.py --langs en,ja,ko,es,fr
+# 4. commit + push（同 Stage 3 main-direct）
+```
+
+**鐵律**：硬體（node selection / 連線 / 主權 model）是 fleet 的事，Taiwan.md 只管翻譯 + 閘門；diary 義務同 article — 推 missing → 0；整合性 audit CRITICAL > 0 不算完。GPU 不可達不是 fail，是 skip + 下 cycle 重試（cloud free tier 對 diary 也會 refuse/截斷，不當 fallback）。
+
+---
+
 ## Tier 0a Sonnet patch agent prompt template
 
 ```

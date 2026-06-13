@@ -292,6 +292,24 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-06-14 5090-diary-babel — 下放硬體前先問「這層抽象是不是已經存在」：自建平行層 vs 委派既有 fleet
+
+- **pattern**: build-parallel-vs-build-on
+- **原則**：要把工作下放到一個新能力（硬體 / 服務 / infra）前，先查共生圈（Muse / fleet / 共用 infra）是不是已經有那層抽象。本 session 為了用 5090 翻 diary，自建 `remote-ollama.sh`（193 行：SSH tunnel + node selection + serve 管理 + 第二份 compute-nodes registry）跑得很順、還配了 pipeline + skill tier。但 `~/Projects/muse-bot/fleet/` 早有完整 GPU 軍團抽象（`fleetctl run translate --sovereignty-safe` / `registry.json` SSOT / commander `select_machine` / Ollama-over-Tailscale / 全套 Windows SOP），指標就在 contributor.local.yml `machine_resources.gpu_fleet.commander` + BECOME 指向的 MACHINE.local.md。整條自建層是重造輪子。哲宇 callout「local 硬體要用抽象層」→ 退役平行層，收斂成一支 thin adapter（`fleet-endpoint.sh` 問 fleet 要 endpoint，~30 行）。判準：動手造 infra 前先讀 contributor.local.yml + MACHINE.local.md + 掃 `~/Projects/muse-bot/`，「跑得順」不代表「放對層」。
+- **觸發**：2026-06-14 5090 diary 翻譯，自建 remote-ollama.sh 跑完 1065 篇後哲宇指 contributor.local.yml → fleet → 退役自建層重構 → [memory/2026-06-14-000047-5090-diary-babel.md](memory/2026-06-14-000047-5090-diary-babel.md)
+- **可能層級**：通用反射候選（造 infra 前的 existing-abstraction check）— 對位 MANIFESTO §架構解 > 守備修補（build-on = 架構解，build-parallel = 局部守備）
+- **相關**：[[feedback_progressive_refactor]]（哲宇小回饋揭下一層，這次是「用抽象層」）+ REFLEXES #15 鏡像（反覆浮現要儀器化 → 先查再造）
+- **verification_count**: 1
+
+### 2026-06-14 5090-diary-babel — 並行 session 高峰期 husky lint-staged stash 跟並行 commit 碰撞讓 staged 檔靜默 unstage
+
+- **pattern**: multi-core-commit-collision
+- **原則**：多核心並行跑時，`git commit` 的 husky pre-commit（lint-staged stash → prettier → restore）跟另一個 session 的 commit 交錯，會讓我 staged 的檔在 stash/restore 窗口被推到並行 HEAD、靜默 unstage。本 session 第一次 commit 987 檔譯文「成功 exit 0」但實際 0 檔進 commit（HEAD 變成並行 session 的 commit），靠 finale Step 1 inventory「91 tracked vs 1065 on-disk」才抓到。修法：並行高峰期大批量 commit 用 `--no-verify`（繞 stash）或 commit 後立即驗 `git ls-files <path> | wc -l` == 預期，不信 exit code。
+- **觸發**：2026-06-14 finale，1065 譯文第一次 commit 靜默落空，--no-verify 重 commit 修復（`b5357d21d`）→ [memory/2026-06-14-000047-5090-diary-babel.md](memory/2026-06-14-000047-5090-diary-babel.md)
+- **可能層級**：操作規則（多核心 commit verify gate）— 對位 BECOME §多核心碰撞防護 的 commit-layer instance
+- **相關**：多核心鐵律（filename / content collision 已有，這條補 staged-index collision 第三種）
+- **verification_count**: 1
+
 ### 🧬 2026-06-10 spore-data-architecture session — 3 候選（孢子資料三段跳 + build 審計）
 
 ### 2026-06-10 spore-data — derived view 的「落點」是第二層架構問題：資料正確了，時間軸還在被污染
