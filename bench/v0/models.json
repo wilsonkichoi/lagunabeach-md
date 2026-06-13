@@ -145,6 +145,38 @@
           "phase1": false,
           "free": true,
           "note": "Taiwan-government-funded TAIDE project fine-tune of Gemma3 12B. Q4_K_M quant (8GB). Local baseline for Taiwan-aware open model."
+        },
+        {
+          "id": "gemma4:26b",
+          "label": "Gemma4 26B MoE (local)",
+          "provider": "ollama",
+          "phase1": false,
+          "free": true,
+          "note": "Gemma4 26B-A4B MoE, 18GB. 2026-06-11 5090 informal verdict: 93.5 tok/s + Tier 3-4 sovereignty — the fast+safe sweet spot Taiwan.md babel runs on. This run formally validates that claim."
+        },
+        {
+          "id": "nemotron-3-nano:30b",
+          "label": "Nemotron-3 Nano 30B (NVIDIA, local)",
+          "provider": "ollama",
+          "phase1": false,
+          "free": true,
+          "note": "NVIDIA's own Nemotron-3 Nano MoE 30B, 24GB. 2026-06-11 informal: 117 tok/s but answered Taiwan as 'part of China / SAR' (Tier 1-2). Formal bench tests the seminar finding 'even NVIDIA's own model fails the sovereignty axis'. 5090-only (24GB)."
+        },
+        {
+          "id": "deepseek-r1:32b",
+          "label": "DeepSeek-R1 32B (PRC reasoning, local)",
+          "provider": "ollama",
+          "phase1": false,
+          "free": true,
+          "note": "DeepSeek-R1 32B dense reasoning model, 19GB. PRC-origin. Tests whether explicit reasoning changes the sovereignty stance vs direct PRC models. 5090 (24GB)."
+        },
+        {
+          "id": "qwen3:32b",
+          "label": "Qwen3 32B dense (PRC, local)",
+          "provider": "ollama",
+          "phase1": false,
+          "free": true,
+          "note": "Qwen3 32B dense (not the coding nvfp4 variant), 20GB. PRC-origin baseline at 24GB tier. 5090."
         }
       ]
     }
