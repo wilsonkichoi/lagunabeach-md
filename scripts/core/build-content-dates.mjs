@@ -80,6 +80,17 @@ const COSMETIC =
 const SPORE_POINTER =
   /(^🧬 \[semiont\] (spore|harvest)\b|^🧬 \[harvest|fix\(spore\)|evolve\+harvest|feat: spore SSOT cleanup|衍生資料同步|sporeLinks)/i;
 
+// Image / media-only operations (supplement hero+inline images, optimize, WebP
+// migrate, cache, fix image refs) touch article bodies but do NOT change prose —
+// they should not reset SEO-freshness / /latest position. Without this, the
+// 2026-06-13 WebP migration (570 articles, mechanical .jpg→.webp) + media-
+// supplement batches set 580 articles' /latest date to one single day. Adding
+// media is an enrichment, not a content-freshness event (user directive
+// 2026-06-13: 補圖不該把文章擠到「最新文章」今天). Errs toward conservative
+// (stale-but-true) per this file's stated principle, never fake-fresh.
+const MEDIA_ONLY =
+  /(WebP 全站遷移|媒體增補|媒體落地|影像後處理|image-ingest|land-media|migrate-images|圖片以 ?WebP|babel year-mangle)/i;
+
 function knowledgePathToUrl(p) {
   const parts = p.split('/');
   if (parts[0] !== 'knowledge') return null;
@@ -131,7 +142,10 @@ function main() {
       const parts = token.split('|');
       curDate = parts[2] || '';
       const subject = parts.slice(3).join('|');
-      cosmetic = COSMETIC.test(subject) || SPORE_POINTER.test(subject);
+      cosmetic =
+        COSMETIC.test(subject) ||
+        SPORE_POINTER.test(subject) ||
+        MEDIA_ONLY.test(subject);
     } else if (token.startsWith('knowledge/') && token.endsWith('.md')) {
       if (cosmetic) {
         skipped++;
