@@ -3282,6 +3282,30 @@ Tiebreaker 實戰（MANIFESTO > DNA > MEMORY）：多數條目落 MEMORY（綁 T
 - **verification_count**: 1
 - **severity**: operational
 
+### 2026-06-13 跨黨派好政策 — 媒體 ingest 一律走 Wikimedia Special:FilePath，不收 agent 給的 upload hash-path
+
+- **原則**：媒體查找 agent 驗證得了「Commons 檔案頁存在 + 授權乾淨」，但它給的 `upload.wikimedia.org/.../4/4b/檔名.jpg` 直連路徑是**猜的**（hash 前綴是檔名 MD5，agent 算不出來）——5 個給了 3 個 404。改用 canonical redirect `https://commons.wikimedia.org/wiki/Special:FilePath/{確切檔名}` 100% 命中。REFLEXES #31「agent claim 是線索不是事實」延伸到媒體 URL 層：跟 agent 要**確切檔名**，直連自己用 Special:FilePath 組。
+- **觸發**：2026-06-13 跨黨派好政策 Stage 4，image-ingest 8 張媒體。
+- **修補方向**：image-ingest.mjs 可加 hint「Wikimedia 來源優先 Special:FilePath」；或媒體 agent prompt 鐵律「只給確切檔名不給 hash-path」。
+- **verification_count**: 1
+- **severity**: operational
+
+### 2026-06-13 跨黨派好政策 — Agent 越詳盡的「全綠」自報告，越要 adversarial 重驗（self-report polish ≠ correctness）
+
+- **原則**：Stage 2 writer 交了 12 點紅線逐條 ✅ 的 compliance table，極具說服力、幾乎讓我直接信。派 2 個 adversarial verifier（prompted to refute）後抓出 6 個真缺陷：4 句引語縮略/截斷演說體當直引/「一刻」誤植成「一天」/標點，+ 2 個壞 URL（[^17] 拼湊的 CNA 流水號實際指向中國防疫報導、[^22] focustaiwan.tw/politics 籠統無 1996 數據）。報告的**完整度與正確度無關**——完整的自我報告只是完整，不是正確。REFLEXES #31 第 N 次驗證，校準：把「越自信的全綠報告越要查」放進 Stage 3 working memory，別被 compliance table 的 polish 鬆手。
+- **觸發**：2026-06-13 跨黨派好政策 Stage 3，writer self-report vs 2 verifier。
+- **修補方向**：REWRITE Stage 3.5 既有「sub-agent claim 必重驗」，補一句「writer 附帶的 compliance/自檢報告本身是 claim，其詳盡度反而是 adversarial 重驗的觸發訊號」。
+- **verification_count**: 1
+- **severity**: structural
+
+### 2026-06-13 跨黨派好政策 — 政治敏感題的 integrity 來自 OWN subjectivity 而非藏
+
+- **原則**：20 persona 發散裡，政治學者 persona 問得最狠——「四把尺權重誰定？為什麼是這四個？能把政策從政治脈絡剝離嗎？」一開始想繞過去、假裝四把尺很客觀；改成在開場就承認「這四把尺是讀者 lov3ngine 提的、帶價值取向、且全篇是後見之明」之後，文章反而站得更穩。**藏起來的主觀會被一句話戳破，攤開來的主觀沒人能戳**（因為你先說了）。persona 發散在政治/爭議題的真正價值，是把領域專家的攻擊面提前攤開，逼出方法論誠實。
+- **觸發**：2026-06-13 跨黨派好政策 Stage 0 persona 發散 + §自主權邊界政治立場題。
+- **修補方向**：REWRITE Step 0.6.1-bis persona 軸 D「反方立場/領域專家」在政治/爭議類題加重；§觀點成型 對政治題加一條「方法論誠實 own」自檢。
+- **verification_count**: 1
+- **severity**: structural
+
 ---
 
 ## ❌ 已歸檔（過時 / 撤回）
