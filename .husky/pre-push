@@ -31,6 +31,7 @@ if [ "${TWMD_SKIP_PREPUSH_WAIT:-0}" = "1" ]; then
   echo "🧬 pre-push: TWMD_SKIP_PREPUSH_WAIT=1，跳過 in-flight CI 等待"
 elif command -v gh >/dev/null 2>&1; then
   THRESH=245                              # success≈350s 的 70%（校準 2026-06-14, REFLEXES #66）
+  STUCK=900                               # >2.5× 典型 350s = zombie/stuck run，不等（讓 cancel-in-progress 殺）
   MAXWAIT="${TWMD_PREPUSH_MAXWAIT:-120}"  # 等待上限，避免無限卡 routine
   WAITED=0
   while :; do
@@ -40,6 +41,10 @@ elif command -v gh >/dev/null 2>&1; then
     elapsed=$(( $(date -u +%s) - start_epoch ))
     if [ "$start_epoch" -eq 0 ] || [ "$elapsed" -lt "$THRESH" ]; then
       echo "🧬 pre-push: in-flight deploy 還早（${elapsed}s<${THRESH}s）— 直接 push，cancel-in-progress 接手 latest-wins"
+      break
+    fi
+    if [ "$elapsed" -gt "$STUCK" ]; then
+      echo "🧬 pre-push: in-flight run 已跑 ${elapsed}s（>${STUCK}s = stuck/zombie，非近完成）— 直接 push 讓 cancel-in-progress 殺殭屍"
       break
     fi
     if [ "$WAITED" -ge "$MAXWAIT" ]; then
