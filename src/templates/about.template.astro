@@ -11,10 +11,12 @@ import { getLangFromUrl, useTranslations } from '../i18n/utils';
 // 曾破壞鄰近 Sponsors/Contact section 三次，data-driven 一勞永逸避開。
 import contributorsData from '../../public/api/contributors.json';
 // 2026-06-13 data-driven 統一（哲宇 directive：dashboard 生成器產唯一 SSOT，
-// consumer 頁面延伸）。stats.json + contributors.json 都是 prebuild 生成的
-// dashboard 資料層；about 直接 import 取數，不再靠 update-stats.sh sed 改 i18n
-// string。contributor 數全站單一來源 contributors.json（dashboard-vitals 已改讀它）。
-import statsData from '../../public/api/stats.json';
+// consumer 頁面延伸）。about hero 三個數字全吃 dashboard 資料層的 tracked JSON：
+// dashboard-vitals.json（totalArticles + stars + contributors，generate-dashboard-data
+// 產，stars soft-fail preserve 永不 None）+ contributors.json（per-person 名單 + totals）。
+// 不再 import stats.json — 它由 update-stats.sh 的 gh CLI 產，CI 無 auth 時 set -e 中止
+// 留 None，about hero 顯示「0+」的 regression 根因（2026-06-13 修）。
+import vitalsData from '../../public/api/dashboard-vitals.json';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -27,15 +29,16 @@ const _c = contributorsData as {
   }>;
   totals?: { contributors?: number };
 };
-const _s = statsData as {
+const _v = vitalsData as {
+  totalArticles?: number;
   stars?: number;
-  totalPages?: number;
-  estimatedContributors?: number;
+  contributors?: number;
 };
 const allContributors = _c.allContributors || [];
-const contributorCount = _c.totals?.contributors || allContributors.length;
-const totalArticles = _s.totalPages || 0;
-const starCount = _s.stars || 0;
+const contributorCount =
+  _c.totals?.contributors || _v.contributors || allContributors.length;
+const totalArticles = _v.totalArticles || 0;
+const starCount = _v.stars || 0;
 ---
 
 <Layout

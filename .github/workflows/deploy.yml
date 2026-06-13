@@ -189,6 +189,11 @@ jobs:
           PUBLIC_SUPABASE_URL: ${{ vars.PUBLIC_SUPABASE_URL }}
           PUBLIC_SUPABASE_ANON_KEY: ${{ vars.PUBLIC_SUPABASE_ANON_KEY }}
           PUBLIC_FEEDBACK_PROVIDERS: ${{ vars.PUBLIC_FEEDBACK_PROVIDERS }}
+          # Lets prebuild generators (contributors + dashboard stars/forks) call the
+          # GitHub API authenticated (5000 req/hr) instead of the 60/hr anonymous cap.
+          # Without it, the stats fetch was rate-limited and stars went None → about
+          # hero showed "0+" (2026-06-13 regression root-cause fix).
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

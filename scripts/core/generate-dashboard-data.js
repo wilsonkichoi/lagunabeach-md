@@ -8,12 +8,49 @@
 
 import fs from 'fs';
 import path from 'path';
+import https from 'https';
 import { fileURLToPath } from 'url';
 import { execSync } from 'child_process';
 import { LANGUAGES } from '../../src/config/languages.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+const GH_TOKEN = process.env.GH_TOKEN || process.env.GITHUB_TOKEN || '';
+
+// GitHub repo stats (stars/forks) for the dashboard-vitals SSOT. https + token
+// (匿名也能跑，rate-limited). 2026-06-13: was scattered in update-stats.sh via
+// the `gh` CLI (no auth in CI → set -e abort → stats.json went None → about
+// showed 0+). Folding it into the dashboard SSOT generator with soft-fail
+// preserve makes stars/forks as reliable as the contributor count.
+function fetchRepoStats() {
+  return new Promise((resolve) => {
+    const opts = {
+      hostname: 'api.github.com',
+      path: '/repos/frank890417/taiwan-md',
+      headers: {
+        'User-Agent': 'taiwan-md-dashboard/1.0',
+        Accept: 'application/vnd.github+json',
+      },
+    };
+    if (GH_TOKEN) opts.headers.Authorization = `Bearer ${GH_TOKEN}`;
+    https
+      .get(opts, (res) => {
+        let data = '';
+        res.on('data', (c) => (data += c));
+        res.on('end', () => {
+          try {
+            const j = JSON.parse(data);
+            if (typeof j.stargazers_count === 'number')
+              resolve({ stars: j.stargazers_count, forks: j.forks_count ?? 0 });
+            else resolve(null);
+          } catch {
+            resolve(null);
+          }
+        });
+      })
+      .on('error', () => resolve(null));
+  });
+}
 
 // Path configuration
 const PROJECT_ROOT = path.join(__dirname, '../..');
@@ -651,10 +688,26 @@ async function main() {
     }
   }
 
+  // Stars/forks — soft-fail preserve the git-tracked value so a rate-limited
+  // anonymous CI fetch never zeroes them out (the about-page 0+ regression).
+  let repoStats = await fetchRepoStats();
+  if (!repoStats) {
+    try {
+      const prev = JSON.parse(
+        fs.readFileSync(path.join(OUTPUT_DIR, 'dashboard-vitals.json'), 'utf8'),
+      );
+      repoStats = { stars: prev.stars ?? 0, forks: prev.forks ?? 0 };
+    } catch {
+      repoStats = { stars: 0, forks: 0 };
+    }
+  }
+
   const vitals = {
     lastUpdated: now.toISOString(),
     totalArticles: articles.length,
     contributors,
+    stars: repoStats.stars,
+    forks: repoStats.forks,
     articlesLast7Days,
     articlesLast30Days,
     humanReviewedPercent:

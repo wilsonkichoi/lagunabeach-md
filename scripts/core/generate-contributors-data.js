@@ -416,7 +416,7 @@ function writeFallback(errorMsg) {
     // 保留上一筆好的資料；只更新 staleness 旗標。
     existing.lastError = errorMsg;
     existing.lastErrorAt = new Date().toISOString();
-    fs.writeFileSync(OUTPUT_PATH, JSON.stringify(existing, null, 2), 'utf8');
+    fs.writeFileSync(OUTPUT_PATH, serializeContributors(existing), 'utf8');
     console.warn(
       `⚠️  保留上次成功的 leaderboard（${existing.leaderboard.length} 筆），` +
         `加 lastError 旗標。Dashboard 仍會顯示資料，只是 lastUpdated 不會推進。`,
@@ -438,7 +438,24 @@ function writeFallback(errorMsg) {
     error: errorMsg,
   };
   fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
-  fs.writeFileSync(OUTPUT_PATH, JSON.stringify(payload, null, 2), 'utf8');
+  fs.writeFileSync(OUTPUT_PATH, serializeContributors(payload), 'utf8');
+}
+
+// Indent normally, but keep each contributor's `types` emoji array on one line.
+// Matches the committed style so prebuild diffs show only real value changes —
+// not array-reflow noise (61 arrays × ~9 lines each) that would spam every
+// routine auto-commit. The emoji are quoted and comma-free, so split(',') is safe.
+function serializeContributors(obj) {
+  return JSON.stringify(obj, null, 2).replace(
+    /"types": \[\s*([\s\S]*?)\s*\]/g,
+    (_, inner) => {
+      const items = inner
+        .split(',')
+        .map((s) => s.trim())
+        .filter(Boolean);
+      return `"types": [${items.join(', ')}]`;
+    },
+  );
 }
 
 async function main() {
@@ -463,7 +480,7 @@ async function main() {
   const payload = buildPayload(authors);
 
   fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
-  fs.writeFileSync(OUTPUT_PATH, JSON.stringify(payload, null, 2), 'utf8');
+  fs.writeFileSync(OUTPUT_PATH, serializeContributors(payload), 'utf8');
 
   console.log(
     `   ✅ contributors.json — ${payload.totals.contributors} total / ` +
