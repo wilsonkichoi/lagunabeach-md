@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T06:10:36.185789",
+  "lastUpdated": "2026-06-13T08:17:18.175860",
   "sourcesUsed": ["ga", "searchConsole24h", "cloudflare24h", "sense-cache"],
   "ga": {
     "label": "2026-05-16 to 2026-06-13",
@@ -7,21 +7,21 @@
     "endDate": "2026-06-13",
     "days": 28,
     "totals": {
-      "activeUsers": 29725,
-      "newUsers": 28966,
-      "avgEngagementSeconds": 134.7,
-      "events": 173433,
-      "screenPageViews": 49708,
-      "engagementRate": 0.2934,
-      "bounceRate": 0.7066
+      "activeUsers": 29774,
+      "newUsers": 29025,
+      "avgEngagementSeconds": 134.9,
+      "events": 173767,
+      "screenPageViews": 49804,
+      "engagementRate": 0.2929,
+      "bounceRate": 0.7071
     },
     "topPages": [
       {
         "path": "/",
         "title": "開源台灣知識庫",
-        "views": 8333,
-        "users": 5461,
-        "events": 42754
+        "views": 8339,
+        "users": 5465,
+        "events": 42799
       },
       {
         "path": "/art/臺灣漫遊錄/",
@@ -40,44 +40,44 @@
       {
         "path": "/technology/雷亞遊戲/",
         "title": "雷亞遊戲：以美學立國的音樂帝國，與它十四年的裂縫",
-        "views": 1362,
-        "users": 1101,
-        "events": 4449
+        "views": 1363,
+        "users": 1102,
+        "events": 4454
       },
       {
         "path": "/society/我是OO人/",
         "title": "我是OO人：喊你「鄉親」的粉專，後台是內湖一間公司和一句忘了刪的 AI 指令",
-        "views": 1215,
+        "views": 1216,
         "users": 1015,
-        "events": 3946
+        "events": 3948
       },
       {
         "path": "/about/",
         "title": "關於 Taiwan.md",
-        "views": 765,
+        "views": 769,
         "users": 491,
-        "events": 2161
+        "events": 2176
       },
       {
         "path": "/semiont/",
         "title": "認知層 — Taiwan.md Semiont",
-        "views": 651,
+        "views": 655,
         "users": 341,
-        "events": 1637
+        "events": 1646
       },
       {
         "path": "/en/",
         "title": "Open-Source Taiwan Knowledge Base",
-        "views": 579,
-        "users": 444,
-        "events": 3306
+        "views": 580,
+        "users": 445,
+        "events": 3310
       },
       {
         "path": "/terminology/converter/",
         "title": "台灣用語轉換器：中國用語一鍵轉台灣說法",
-        "views": 576,
-        "users": 192,
-        "events": 1400
+        "views": 577,
+        "users": 193,
+        "events": 1403
       },
       {
         "path": "/taiwan-shape/",
@@ -96,9 +96,16 @@
       {
         "path": "/map/",
         "title": "台灣地圖 Map",
-        "views": 480,
-        "users": 222,
-        "events": 1064
+        "views": 481,
+        "users": 223,
+        "events": 1067
+      },
+      {
+        "path": "/people/黃山料/",
+        "title": "黃山料：世界冠軍的衣服沒人看，他改賣「一句話的安慰」",
+        "views": 461,
+        "users": 407,
+        "events": 1710
       },
       {
         "path": "/data/",
@@ -106,13 +113,6 @@
         "views": 460,
         "users": 312,
         "events": 1341
-      },
-      {
-        "path": "/people/黃山料/",
-        "title": "黃山料：世界冠軍的衣服沒人看，他改賣「一句話的安慰」",
-        "views": 460,
-        "users": 406,
-        "events": 1707
       },
       {
         "path": "/technology/大宇雙劍/",
@@ -124,16 +124,16 @@
       {
         "path": "/contribute/",
         "title": "我想貢獻 — Taiwan.md",
-        "views": 402,
+        "views": 403,
         "users": 254,
-        "events": 1217
+        "events": 1219
       },
       {
         "path": "/history/",
         "title": "歷史 - Taiwan.md",
-        "views": 393,
-        "users": 292,
-        "events": 1091
+        "views": 394,
+        "users": 293,
+        "events": 1093
       },
       {
         "path": "/latest/",
@@ -161,9 +161,9 @@
       {
         "path": "/society/我是OO人/",
         "title": "我是OO人：喊你「鄉親」的粉專，後台是內湖一間公司和一句忘了刪的 AI 指令",
-        "views": 1062,
+        "views": 1063,
         "users": 898,
-        "events": 3472
+        "events": 3474
       },
       {
         "path": "/music/台灣嘻哈與饒舌發展/",
@@ -175,9 +175,9 @@
       {
         "path": "/people/黃山料/",
         "title": "黃山料：世界冠軍的衣服沒人看，他改賣「一句話的安慰」",
-        "views": 460,
-        "users": 406,
-        "events": 1707
+        "views": 461,
+        "users": 407,
+        "events": 1710
       },
       {
         "path": "/technology/Computex/",
@@ -222,18 +222,18 @@
         "events": 157
       },
       {
+        "path": "/society/台灣邦交國與國際外交/",
+        "title": "台灣邦交國與國際外交：12 個邦交、113 個館處、177 國免簽（2026）",
+        "views": 47,
+        "users": 40,
+        "events": 167
+      },
+      {
         "path": "/people/阿神/",
         "title": "阿神",
         "views": 45,
         "users": 41,
         "events": 146
-      },
-      {
-        "path": "/society/台灣邦交國與國際外交/",
-        "title": "台灣邦交國與國際外交：12 個邦交、113 個館處、177 國免簽（2026）",
-        "views": 45,
-        "users": 39,
-        "events": 159
       },
       {
         "path": "/geography/用數據看台灣22縣市/",
@@ -264,25 +264,25 @@
         "events": 116
       },
       {
+        "path": "/society/天下雜誌/",
+        "title": "天下雜誌：替台灣的「成功」排了四十年名次，站在離資本最近的地方",
+        "views": 32,
+        "users": 19,
+        "events": 105
+      },
+      {
+        "path": "/technology/雷亞遊戲/",
+        "title": "雷亞遊戲：以美學立國的音樂帝國，與它十四年的裂縫",
+        "views": 32,
+        "users": 23,
+        "events": 101
+      },
+      {
         "path": "/food/台灣米食文化/",
         "title": "台灣米食文化",
         "views": 31,
         "users": 1,
         "events": 72
-      },
-      {
-        "path": "/society/天下雜誌/",
-        "title": "天下雜誌：替台灣的「成功」排了四十年名次，站在離資本最近的地方",
-        "views": 31,
-        "users": 19,
-        "events": 103
-      },
-      {
-        "path": "/technology/雷亞遊戲/",
-        "title": "雷亞遊戲：以美學立國的音樂帝國，與它十四年的裂縫",
-        "views": 31,
-        "users": 22,
-        "events": 96
       },
       {
         "path": "/culture/無名小站/",
@@ -301,17 +301,17 @@
     ],
     "byLang": {
       "zh-TW": {
-        "views": 37275,
-        "users": 27927,
-        "sessions": 33718,
+        "views": 37345,
+        "users": 27980,
+        "sessions": 33783,
         "avgEngagementSeconds": 131.7,
         "pageCount": 402
       },
       "en": {
-        "views": 2874,
-        "users": 2374,
-        "sessions": 2711,
-        "avgEngagementSeconds": 85.6,
+        "views": 2877,
+        "users": 2377,
+        "sessions": 2715,
+        "avgEngagementSeconds": 85.5,
         "pageCount": 86
       },
       "ja": {
@@ -1583,362 +1583,262 @@
     ]
   },
   "cloudflare7d": {
-    "label": "2026-06-05 to 2026-06-12 (7d)",
-    "startDate": "2026-06-05",
-    "endDate": "2026-06-12",
-    "days": 7,
+    "label": "2026-06-12 to 2026-06-13 (1d)",
+    "startDate": "2026-06-12",
+    "endDate": "2026-06-13",
+    "days": 1,
     "summary": {
-      "requests": 429151,
-      "pageViews": 121033,
-      "uniques": 88949,
-      "cachedRequests": 71779,
-      "threats": 1854,
-      "bytes": 48357709762
+      "requests": 41711,
+      "pageViews": 12962,
+      "uniques": 9593,
+      "cachedRequests": 3825,
+      "threats": 14,
+      "bytes": 4060733874
     },
     "statusBreakdown": [
       {
         "status": 200,
-        "count": 307019
+        "count": 29483
       },
       {
         "status": 301,
-        "count": 42271
+        "count": 5372
       },
       {
         "status": 404,
-        "count": 30072
+        "count": 3600
       },
       {
         "status": 204,
-        "count": 25813
-      },
-      {
-        "status": 403,
-        "count": 17972
+        "count": 2726
       },
       {
         "status": 304,
-        "count": 2814
+        "count": 203
       },
       {
         "status": 206,
-        "count": 2199
+        "count": 181
       },
       {
         "status": 499,
-        "count": 697
+        "count": 108
+      },
+      {
+        "status": 403,
+        "count": 14
       },
       {
         "status": 405,
-        "count": 134
-      },
-      {
-        "status": 202,
-        "count": 94
+        "count": 14
       },
       {
         "status": 503,
-        "count": 38
-      },
-      {
-        "status": 522,
-        "count": 18
-      },
-      {
-        "status": 400,
-        "count": 7
-      },
-      {
-        "status": 500,
-        "count": 3
+        "count": 10
       }
     ],
-    "fourOhFourRate": 7.01,
+    "fourOhFourRate": 8.63,
     "traffic": {
       "topCountries": [
         {
-          "country": "Taiwan",
-          "code": "TW",
-          "requests": 141251
-        },
-        {
           "country": "United States",
           "code": "US",
-          "requests": 127827
+          "requests": 14190
+        },
+        {
+          "country": "Taiwan",
+          "code": "TW",
+          "requests": 10502
         },
         {
           "country": "Singapore",
           "code": "SG",
-          "requests": 40134
+          "requests": 5003
         },
         {
           "country": "China",
           "code": "CN",
-          "requests": 27726
+          "requests": 3416
         },
         {
           "country": "Japan",
           "code": "JP",
-          "requests": 10885
-        },
-        {
-          "country": "France",
-          "code": "FR",
-          "requests": 10630
-        },
-        {
-          "country": "Germany",
-          "code": "DE",
-          "requests": 5617
-        },
-        {
-          "country": "Canada",
-          "code": "CA",
-          "requests": 5341
+          "requests": 1203
         },
         {
           "country": "Vietnam",
           "code": "VN",
-          "requests": 5070
+          "requests": 699
         },
         {
-          "country": "Malaysia",
-          "code": "MY",
-          "requests": 4472
+          "country": "South Korea",
+          "code": "KR",
+          "requests": 626
+        },
+        {
+          "country": "France",
+          "code": "FR",
+          "requests": 625
+        },
+        {
+          "country": "Canada",
+          "code": "CA",
+          "requests": 617
+        },
+        {
+          "country": "Hong Kong",
+          "code": "HK",
+          "requests": 610
         }
       ]
     },
     "dailyBreakdown": [
       {
+        "date": "2026-06-13",
+        "requests": 322,
+        "pageViews": 112,
+        "cachedRequests": 21,
+        "threats": 0,
+        "bytes": 28529745,
+        "uniques": 166,
+        "status200": 237,
+        "status404": 26,
+        "status4xx": 27,
+        "status5xx": 0
+      },
+      {
         "date": "2026-06-12",
-        "requests": 38319,
-        "pageViews": 11764,
-        "cachedRequests": 3654,
+        "requests": 41389,
+        "pageViews": 12850,
+        "cachedRequests": 3804,
         "threats": 14,
-        "bytes": 3789161273,
-        "uniques": 8825,
-        "status200": 27145,
-        "status404": 3340,
-        "status4xx": 3473,
-        "status5xx": 7
-      },
-      {
-        "date": "2026-06-11",
-        "requests": 47042,
-        "pageViews": 14711,
-        "cachedRequests": 3934,
-        "threats": 494,
-        "bytes": 4149753625,
-        "uniques": 7902,
-        "status200": 30138,
-        "status404": 4604,
-        "status4xx": 9121,
-        "status5xx": 9
-      },
-      {
-        "date": "2026-06-10",
-        "requests": 62184,
-        "pageViews": 13996,
-        "cachedRequests": 7565,
-        "threats": 945,
-        "bytes": 5983513320,
-        "uniques": 11062,
-        "status200": 36547,
-        "status404": 4392,
-        "status4xx": 13808,
-        "status5xx": 22
-      },
-      {
-        "date": "2026-06-09",
-        "requests": 53841,
-        "pageViews": 15896,
-        "cachedRequests": 6181,
-        "threats": 29,
-        "bytes": 6850777862,
-        "uniques": 11995,
-        "status200": 37470,
-        "status404": 5883,
-        "status4xx": 6014,
-        "status5xx": 8
-      },
-      {
-        "date": "2026-06-08",
-        "requests": 50931,
-        "pageViews": 15857,
-        "cachedRequests": 6709,
-        "threats": 333,
-        "bytes": 5884290084,
-        "uniques": 12400,
-        "status200": 35088,
-        "status404": 3853,
-        "status4xx": 8194,
-        "status5xx": 6
-      },
-      {
-        "date": "2026-06-07",
-        "requests": 49679,
-        "pageViews": 14020,
-        "cachedRequests": 9772,
-        "threats": 11,
-        "bytes": 6484259839,
-        "uniques": 10359,
-        "status200": 38481,
-        "status404": 2794,
-        "status4xx": 2894,
-        "status5xx": 3
-      },
-      {
-        "date": "2026-06-06",
-        "requests": 53019,
-        "pageViews": 14456,
-        "cachedRequests": 12203,
-        "threats": 13,
-        "bytes": 6614892495,
-        "uniques": 11176,
-        "status200": 42131,
-        "status404": 2729,
-        "status4xx": 2802,
-        "status5xx": 3
-      },
-      {
-        "date": "2026-06-05",
-        "requests": 74136,
-        "pageViews": 20333,
-        "cachedRequests": 21761,
-        "threats": 15,
-        "bytes": 8601061264,
-        "uniques": 15230,
-        "status200": 60019,
-        "status404": 2477,
-        "status4xx": 2576,
-        "status5xx": 1
+        "bytes": 4032204129,
+        "uniques": 9427,
+        "status200": 29246,
+        "status404": 3574,
+        "status4xx": 3709,
+        "status5xx": 10
       }
     ],
     "aiCrawlers": {
-      "detectedRequests": 89650,
-      "http200": 61349,
-      "allowedRequests": 89650,
-      "unsuccessfulRequests": 28301,
+      "detectedRequests": 13823,
+      "http200": 9742,
+      "allowedRequests": 13823,
+      "unsuccessfulRequests": 4081,
       "topCrawler": {
-        "name": "ChatGPT-User",
-        "requests": 11576,
-        "http200": 11283,
-        "category": "OpenAI"
+        "name": "Amazonbot",
+        "requests": 2470,
+        "http200": 1488,
+        "category": "Amazon"
       },
       "crawlers": [
         {
-          "name": "ChatGPT-User",
-          "requests": 11576,
-          "http200": 11283,
-          "category": "OpenAI"
-        },
-        {
-          "name": "BingBot",
-          "requests": 10881,
-          "http200": 7296,
-          "category": "Microsoft"
-        },
-        {
-          "name": "FacebookBot",
-          "requests": 9444,
-          "http200": 8542,
-          "category": "Meta"
-        },
-        {
-          "name": "Googlebot",
-          "requests": 8879,
-          "http200": 6029,
-          "category": "Google"
-        },
-        {
-          "name": "PetalBot",
-          "requests": 8823,
-          "http200": 6147,
-          "category": "Huawei"
-        },
-        {
           "name": "Amazonbot",
-          "requests": 8533,
-          "http200": 5082,
+          "requests": 2470,
+          "http200": 1488,
           "category": "Amazon"
         },
         {
+          "name": "ChatGPT-User",
+          "requests": 1750,
+          "http200": 1688,
+          "category": "OpenAI"
+        },
+        {
+          "name": "PetalBot",
+          "requests": 1488,
+          "http200": 858,
+          "category": "Huawei"
+        },
+        {
+          "name": "Applebot",
+          "requests": 1458,
+          "http200": 964,
+          "category": "Apple"
+        },
+        {
+          "name": "BingBot",
+          "requests": 1381,
+          "http200": 918,
+          "category": "Microsoft"
+        },
+        {
+          "name": "Googlebot",
+          "requests": 1276,
+          "http200": 856,
+          "category": "Google"
+        },
+        {
+          "name": "FacebookBot",
+          "requests": 1201,
+          "http200": 1114,
+          "category": "Meta"
+        },
+        {
           "name": "Bytespider",
-          "requests": 6203,
-          "http200": 4162,
+          "requests": 956,
+          "http200": 858,
           "category": "ByteDance"
         },
         {
           "name": "OAI-SearchBot",
-          "requests": 5185,
-          "http200": 1632,
+          "requests": 767,
+          "http200": 239,
           "category": "OpenAI"
-        },
-        {
-          "name": "Applebot",
-          "requests": 5167,
-          "http200": 3402,
-          "category": "Apple"
-        },
-        {
-          "name": "ClaudeBot",
-          "requests": 4755,
-          "http200": 1957,
-          "category": "Anthropic"
         },
         {
           "name": "Meta-ExternalAgent",
-          "requests": 3649,
-          "http200": 1449,
+          "requests": 271,
+          "http200": 137,
           "category": "Meta"
         },
         {
-          "name": "PerplexityBot",
-          "requests": 2103,
-          "http200": 1370,
-          "category": "Perplexity"
-        },
-        {
-          "name": "CCBot",
-          "requests": 2088,
-          "http200": 1589,
-          "category": "CommonCrawl"
-        },
-        {
           "name": "YandexBot",
-          "requests": 1595,
-          "http200": 947,
+          "requests": 253,
+          "http200": 152,
           "category": "Yandex"
         },
         {
+          "name": "CCBot",
+          "requests": 201,
+          "http200": 200,
+          "category": "CommonCrawl"
+        },
+        {
+          "name": "PerplexityBot",
+          "requests": 200,
+          "http200": 162,
+          "category": "Perplexity"
+        },
+        {
           "name": "GPTBot",
-          "requests": 615,
-          "http200": 346,
+          "requests": 55,
+          "http200": 31,
           "category": "OpenAI"
         },
         {
+          "name": "ClaudeBot",
+          "requests": 29,
+          "http200": 26,
+          "category": "Anthropic"
+        },
+        {
           "name": "Perplexity-User",
-          "requests": 82,
-          "http200": 75,
+          "requests": 27,
+          "http200": 26,
           "category": "Perplexity"
         },
         {
           "name": "DuckDuckBot",
-          "requests": 37,
-          "http200": 24,
+          "requests": 12,
+          "http200": 8,
           "category": "DuckDuckGo"
         },
         {
           "name": "Claude-Web",
-          "requests": 11,
+          "requests": 9,
           "http200": 3,
           "category": "Anthropic"
-        },
-        {
-          "name": "Google-Extended",
-          "requests": 10,
-          "http200": 5,
-          "category": "Google"
         },
         {
           "name": "cohere-ai",
@@ -1947,8 +1847,14 @@
           "category": "Cohere"
         },
         {
+          "name": "Google-Extended",
+          "requests": 6,
+          "http200": 5,
+          "category": "Google"
+        },
+        {
           "name": "anthropic-ai",
-          "requests": 4,
+          "requests": 3,
           "http200": 2,
           "category": "Anthropic"
         },
@@ -1960,133 +1866,133 @@
         }
       ],
       "period": {
-        "start": "2026-06-05T22:10:09Z",
-        "end": "2026-06-12T22:10:09Z",
-        "days": 7,
-        "daysFetched": 7,
+        "start": "2026-06-12T00:17:05Z",
+        "end": "2026-06-13T00:17:05Z",
+        "days": 1,
+        "daysFetched": 1,
         "daysFailed": 0
       },
       "perLanguage": {
-        "days": 3,
-        "daysFetched": 3,
+        "days": 1,
+        "daysFetched": 1,
         "rowsTruncated": true,
         "byLanguage": {
           "en": {
-            "requests": 4478,
+            "requests": 1522,
             "topCrawlers": [
               {
                 "name": "ChatGPT-User",
-                "requests": 2456
-              },
-              {
-                "name": "YandexBot",
-                "requests": 324
-              },
-              {
-                "name": "Amazonbot",
-                "requests": 309
-              }
-            ]
-          },
-          "ja": {
-            "requests": 1115,
-            "topCrawlers": [
-              {
-                "name": "PetalBot",
-                "requests": 180
-              },
-              {
-                "name": "Amazonbot",
-                "requests": 165
-              },
-              {
-                "name": "OAI-SearchBot",
-                "requests": 159
-              }
-            ]
-          },
-          "ko": {
-            "requests": 1288,
-            "topCrawlers": [
-              {
-                "name": "BingBot",
-                "requests": 183
+                "requests": 840
               },
               {
                 "name": "Amazonbot",
                 "requests": 179
               },
               {
+                "name": "Googlebot",
+                "requests": 109
+              }
+            ]
+          },
+          "ja": {
+            "requests": 401,
+            "topCrawlers": [
+              {
+                "name": "Amazonbot",
+                "requests": 103
+              },
+              {
+                "name": "Applebot",
+                "requests": 70
+              },
+              {
                 "name": "OAI-SearchBot",
-                "requests": 177
+                "requests": 58
+              }
+            ]
+          },
+          "ko": {
+            "requests": 454,
+            "topCrawlers": [
+              {
+                "name": "Amazonbot",
+                "requests": 117
+              },
+              {
+                "name": "PetalBot",
+                "requests": 70
+              },
+              {
+                "name": "BingBot",
+                "requests": 60
               }
             ]
           },
           "es": {
-            "requests": 1938,
+            "requests": 538,
             "topCrawlers": [
               {
-                "name": "ClaudeBot",
-                "requests": 828
-              },
-              {
                 "name": "Amazonbot",
-                "requests": 216
+                "requests": 144
               },
               {
                 "name": "PetalBot",
-                "requests": 191
+                "requests": 114
+              },
+              {
+                "name": "Applebot",
+                "requests": 66
               }
             ]
           },
           "fr": {
-            "requests": 1954,
+            "requests": 592,
             "topCrawlers": [
               {
-                "name": "ClaudeBot",
-                "requests": 741
+                "name": "Amazonbot",
+                "requests": 133
               },
               {
                 "name": "PetalBot",
-                "requests": 264
+                "requests": 130
               },
               {
-                "name": "BingBot",
-                "requests": 201
+                "name": "Applebot",
+                "requests": 103
               }
             ]
           },
           "zh-TW": {
-            "requests": 5997,
+            "requests": 1966,
             "topCrawlers": [
               {
                 "name": "ChatGPT-User",
-                "requests": 1804
+                "requests": 618
               },
               {
                 "name": "FacebookBot",
-                "requests": 1395
+                "requests": 507
               },
               {
-                "name": "ClaudeBot",
-                "requests": 587
+                "name": "BingBot",
+                "requests": 180
               }
             ]
           },
           "non-article": {
-            "requests": 6617,
+            "requests": 2216,
             "topCrawlers": [
               {
-                "name": "Bytespider",
-                "requests": 2140
-              },
-              {
                 "name": "FacebookBot",
-                "requests": 1724
+                "requests": 602
               },
               {
-                "name": "Googlebot",
-                "requests": 1004
+                "name": "Bytespider",
+                "requests": 555
+              },
+              {
+                "name": "Applebot",
+                "requests": 359
               }
             ]
           }
