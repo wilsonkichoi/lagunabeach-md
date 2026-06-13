@@ -29,6 +29,7 @@ Output:
 import argparse
 import json
 import os
+import re
 import subprocess
 import sys
 import time
@@ -40,7 +41,11 @@ REPO = Path(__file__).resolve().parent.parent.parent.parent
 DIARY_ZH = REPO / "docs/semiont/diary"
 CREDS = Path.home() / ".config/taiwan-md/credentials"
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
-OLLAMA_API_URL = "http://localhost:11434/api/chat"
+# OLLAMA endpoint + model are env-overridable so the cascade can target a remote
+# Ollama (e.g. the RTX 5090 box over an SSH tunnel) without editing this file.
+#   OLLAMA_API_URL  default local Mac Ollama; set to tunnel/Tailscale endpoint for 5090
+#   OLLAMA_MODEL    default below; for the 5090 use a sovereignty-safe model (gemma4:26b)
+OLLAMA_API_URL = os.environ.get("OLLAMA_API_URL", "http://localhost:11434/api/chat")
 
 LANG_NAMES = {
     "en": "English",
@@ -53,7 +58,7 @@ LANG_NAMES = {
 TIER_MODELS = {
     "owl": "openrouter/owl-alpha",
     "hy3": "tencent/hy3-preview:free",
-    "ollama": "qwen3.6:35b-a3b-coding-nvfp4",
+    "ollama": os.environ.get("OLLAMA_MODEL", "qwen3.6:35b-a3b-coding-nvfp4"),
 }
 
 
@@ -169,7 +174,7 @@ Target language: {target_name}"""
     return system, source
 
 
-def call_openrouter(model: str, system: str, user: str, timeout: int = 300, max_key_retry: int = 3) -> dict:
+def call_openrouter(model: str, system: str, user: str, timeout: int = 300, max_key_retry: int = 3, temperature: float = 0.3) -> dict:
     """Returns {ok, output, error, latency_ms, model_used, key_id}.
 
     Rotates across available keys on 429. Marks rate-limited keys with cool-down.
@@ -181,7 +186,7 @@ def call_openrouter(model: str, system: str, user: str, timeout: int = 300, max_
             {"role": "system", "content": system},
             {"role": "user", "content": user},
         ],
-        "temperature": 0.3,
+        "temperature": temperature,
     }
     body = json.dumps(payload).encode("utf-8")
 
@@ -235,7 +240,7 @@ def call_openrouter(model: str, system: str, user: str, timeout: int = 300, max_
     return {"ok": False, "error": f"all keys rate-limited or exhausted: {last_err}", "latency_ms": 0}
 
 
-def call_ollama(model: str, system: str, user: str, timeout: int = 600) -> dict:
+def call_ollama(model: str, system: str, user: str, timeout: int = 600, temperature: float = 0.3) -> dict:
     """Returns {ok, output, error, latency_ms}."""
     payload = {
         "model": model,
@@ -244,7 +249,7 @@ def call_ollama(model: str, system: str, user: str, timeout: int = 600) -> dict:
             {"role": "user", "content": user},
         ],
         "stream": False,
-        "options": {"temperature": 0.3, "num_ctx": 32768},
+        "options": {"temperature": temperature, "num_ctx": 32768},
     }
     body = json.dumps(payload).encode("utf-8")
     req = urllib.request.Request(OLLAMA_API_URL, data=body, headers={"Content-Type": "application/json"})
@@ -262,32 +267,44 @@ def call_ollama(model: str, system: str, user: str, timeout: int = 600) -> dict:
         return {"ok": False, "error": str(e), "latency_ms": latency}
 
 
-def translate_one(diary_filename: str, lang: str, tier: str) -> dict:
-    """Translate one diary to one lang via specified tier."""
-    src_path = DIARY_ZH / diary_filename
-    if not src_path.exists():
-        return {"ok": False, "error": f"source not found: {diary_filename}"}
-    out_dir = DIARY_ZH / lang
-    out_dir.mkdir(exist_ok=True)
-    out_path = out_dir / diary_filename
+# ── Inline integrity gate ─────────────────────────────────────────────────────
+# The size>=1024 byte guard cannot catch the silent failure modes of bulk local
+# LLM translation: a long diary truncated to 2KB still passes. These checks
+# mirror the CRITICAL tier of diary-translation-audit.py and run on the mandatory
+# path — as an integrity-aware skip-guard AND a post-generation gate with retry.
+# (REFLEXES #15: 反覆浮現要儀器化 / flywheel diary: 把比對排進必經路徑而非依賴警覺.)
+_REFUSAL_RE = re.compile(
+    r"\b(I cannot|I can't|I'm unable|I am unable|cannot translate|as an AI|"
+    r"I apologize|unable to (?:provide|assist|translate))\b|无法给到|抱歉，我",
+    re.I,
+)
+_FOOTER_RE = re.compile(r"^_[^_].*_\s*$", re.M)
+_LEN_LO = {"en": 0.7, "es": 0.8, "fr": 0.8, "ja": 0.45, "ko": 0.5}
 
-    if out_path.exists() and out_path.stat().st_size >= 1024:
-        return {"ok": True, "skipped": True, "reason": "already translated"}
 
-    source = src_path.read_text(encoding="utf-8")
-    system, user = build_prompt(lang, source)
-    model = TIER_MODELS[tier]
+def _ends_clean(t: str) -> bool:
+    tail = t.rstrip()
+    return bool(tail) and (tail[-1] in '.!?。！？」』）)"”_*`>-:🧬' or tail.endswith("---"))
 
-    if tier == "ollama":
-        result = call_ollama(model, system, user)
-    else:
-        result = call_openrouter(model, system, user)
 
-    if not result.get("ok"):
-        return result
+def diary_integrity(src: str, out: str, lang: str) -> tuple[bool, str]:
+    """Return (ok, reason). Critical-only — truncation / refusal / content loss."""
+    if len(out) < 800 and _REFUSAL_RE.search(out):
+        return False, "refusal-stub"
+    ratio = len(out) / max(len(src), 1)
+    if ratio < _LEN_LO.get(lang, 0.45):
+        return False, f"length-low:{ratio:.2f}"
+    if len(_FOOTER_RE.findall(src)) >= 1 and len(_FOOTER_RE.findall(out)) == 0:
+        return False, "footer-dropped"
+    if _ends_clean(src) and not _ends_clean(out):
+        return False, "truncation"
+    if out.count("```") % 2 != 0:
+        return False, "fence-odd"
+    return True, "ok"
 
-    # Strip code fence wrapping if model added one
-    output = result["output"].strip()
+
+def _strip_fence(output: str) -> str:
+    output = output.strip()
     if output.startswith("```"):
         lines = output.split("\n")
         if lines[0].startswith("```"):
@@ -295,9 +312,54 @@ def translate_one(diary_filename: str, lang: str, tier: str) -> dict:
         if lines and lines[-1].strip() == "```":
             lines = lines[:-1]
         output = "\n".join(lines)
+    return output
 
-    out_path.write_text(output + "\n", encoding="utf-8")
-    return {"ok": True, "out_path": str(out_path.relative_to(REPO)), "size": len(output), "tier": tier, **result}
+
+def translate_one(diary_filename: str, lang: str, tier: str, max_attempts: int = 3) -> dict:
+    """Translate one diary to one lang via specified tier, gated on integrity.
+
+    Existing truncated/refused output is re-translated (not skipped); new output
+    is retried with escalating temperature until it passes the integrity gate or
+    attempts exhaust. On persistent failure the file is NOT written (left absent
+    so a later pass / cloud fallback retries) rather than shipping broken text."""
+    src_path = DIARY_ZH / diary_filename
+    if not src_path.exists():
+        return {"ok": False, "error": f"source not found: {diary_filename}"}
+    out_dir = DIARY_ZH / lang
+    out_dir.mkdir(exist_ok=True)
+    out_path = out_dir / diary_filename
+    source = src_path.read_text(encoding="utf-8")
+
+    # integrity-aware skip: keep the existing translation only if it PASSES the
+    # gate (a previously-shipped truncated file fails here → gets re-translated)
+    if out_path.exists() and out_path.stat().st_size >= 1024:
+        ok, _ = diary_integrity(source, out_path.read_text(encoding="utf-8", errors="replace"), lang)
+        if ok:
+            return {"ok": True, "skipped": True, "reason": "already translated"}
+
+    system, user = build_prompt(lang, source)
+    model = TIER_MODELS[tier]
+
+    last_reason = "no attempt"
+    for attempt in range(max_attempts):
+        temp = 0.3 + 0.2 * attempt  # escalate to escape early-stop truncation
+        if tier == "ollama":
+            result = call_ollama(model, system, user, temperature=temp)
+        else:
+            result = call_openrouter(model, system, user, temperature=temp)
+        if not result.get("ok"):
+            last_reason = result.get("error", "call failed")
+            continue
+        output = _strip_fence(result["output"])
+        ok, reason = diary_integrity(source, output, lang)
+        if ok:
+            out_path.write_text(output + "\n", encoding="utf-8")
+            return {"ok": True, "out_path": str(out_path.relative_to(REPO)),
+                    "size": len(output), "tier": tier, "attempts": attempt + 1, **result}
+        last_reason = f"integrity:{reason}"
+
+    # all attempts failed the gate — do NOT write broken output
+    return {"ok": False, "error": f"integrity-fail x{max_attempts}: {last_reason}"}
 
 
 def collect_diaries(top: int | None = None) -> list[str]:
