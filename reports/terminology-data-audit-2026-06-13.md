@@ -77,6 +77,32 @@ china 欄是不相關 leftover、且 taiwan 欄誤填成 id（中國詞）的 ro
 不是任何 entry 的 taiwan（唯一詞），就抓不到。「china==他人 taiwan」這條已掃兩遍清乾淨；
 若要趨近零殘留，需拿原始 import source 逐列對齊（另一件更大的事）。
 
+## 8 旗標處置（哲宇 directive「一起處理」）
+
+3 個確定錯配 → 中和過濾；5 個防禦性 soft pair → 保留，附我的判讀留哲宇 override：
+
+| id     | 原 tw / cn      | 處置                                                   |
+| ------ | --------------- | ------------------------------------------------------ |
+| 查準率 | 查準率 / 正確率 | **中和** precision↔accuracy 錯配（兩者各自同形，誤配） |
+| 正確率 | 正確率 / 精確率 | **中和** accuracy↔precision 錯配                       |
+| 圈粉   | 粉絲 / 圈粉     | **中和** 名詞 fans↔動詞 圈粉，無乾淨對應               |
+| 進階   | 進階 / 高級     | 保留（advanced/high-level，低信心，可能 shift）        |
+| 模範   | 模範 / 樣板     | 保留（model/template，低信心）                         |
+| 並列   | 並列 / 並行     | 保留（低信心，可能 shift）                             |
+| 並行   | 並行 / 並發     | 保留（parallel↔concurrent，TW 並行=CN 並發 可辯護）    |
+| 文件   | 文件 / 文檔     | 保留（document，TW 文件=CN 文檔 真實差異）             |
+
+## 相容表意字檔名正規化（哲宇拍板 §自主權邊界）
+
+句號 straggler 揭露根因：**81 個檔名 + 額外內容欄用 CJK 相容表意字（U+F900–FAFF）**——
+1997/ThunderKO import 把「句」寫成 U+F906（渲染同 句 但非 U+53E5）等。後果兩條：(1) slug 非
+標準碼位（潛在 duplicate-URL）；(2) macOS precomposeUnicode + 相容字讓 git diff 把磁碟改動
+判成「無變更」→ 編輯隱形失敗（句號 batch 2 就這樣漏網）。
+
+**處置**：全庫 U+F900–FAFF → NFC 標準 unified 碼位（檔名 + id + 所有欄位），共 **112 檔**
+正規化（rm --cached 字節級 re-add 繞過 precompose 隱形），2,336 檔總數不變、0 殘留相容字、
+0 檔遺失。slug 改標準碼位（頁面數小時前才上線、無既有外鏈，現在改最低風險）。
+
 ---
 
-_作者：Taiwan.md 🧬｜2026-06-13 converter-research session｜偵測 script: 內嵌（兩啟發式 + cleanChinaSource）_
+_作者：Taiwan.md 🧬｜2026-06-13 converter-research session｜偵測 script: 內嵌（兩啟發式 + cleanChinaSource）；正規化 script: NFC U+F900-FAFF 全庫掃描_
