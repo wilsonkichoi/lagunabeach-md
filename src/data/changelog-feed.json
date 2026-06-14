@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-06-14T15:08:45.918Z",
+  "generatedAt": "2026-06-14T22:12:22.879Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "7a5b5c401a3e9c75ffe1e879b7be65af808003fb",
+      "date": "2026-06-15T05:09:43+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-15-050816-twmd-embeddings-nightly — fleet down graceful skip (節點 13h offline) + 索引前版完整保留 + MEMORY index row"
+    },
+    {
+      "hash": "dc95295058625577fdec5e536a5198b7756e8682",
+      "date": "2026-06-14T23:11:02+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-14-230944-twmd-data-refresh-pm — pm 14-step 三源全綠 + Step 11 freshness PASS + MEMORY index row"
+    },
+    {
+      "hash": "a7907b03e4cda329dea2b8e480fcd57b2d41cad7",
+      "date": "2026-06-14T23:09:35+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-pm: 14-step ground truth refresh — 2026-06-14 23:00"
+    },
     {
       "hash": "cc740d68801d3d6c54a27ec5a7a008a72898325d",
       "date": "2026-06-14T22:07:11+08:00",
