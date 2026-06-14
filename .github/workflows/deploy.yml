@@ -43,7 +43,7 @@ jobs:
       NODE_OPTIONS: --max-old-space-size=12288
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
       # 把檔案 mtime 從 git log 還原（修「每次 CI 都全量重產 OG」bug）
@@ -58,7 +58,7 @@ jobs:
         # reports/build-pipeline-audit-2026-06-10.md 熱點 #1。
         run: python3 scripts/ci/restore-mtime.py --verify-min-ratio 0.9
       - name: Setup Node (with npm cache)
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: 'npm' # Tier 1-2: 快取 npm 下載（不是 node_modules 本體）
@@ -90,13 +90,13 @@ jobs:
       # Incremental cache key 改 track v4 visual canonical：generate-og-images.mjs
       # + favicon.png（content 變動由 mtime 增量檢查，restore-keys 撿最新快取）。
       # 2026-06-13 refactor-article session（audit §⑤ cache churn 項）：
-      # actions/cache@v4 的 key 含 run_id = 每 run 必存新 186MB cache，
+      # actions/cache@v5 的 key 含 run_id = 每 run 必存新 186MB cache，
       # ~15 run/天 ≈ 2.8GB/天 quota churn 會 LRU 擠掉 npm/playwright cache。
       # 拆成 restore（每 run 都要）+ save（只在 OG generation 真的跑過時）。
       # 功能等價：needed=false 時 cache 內容不變，存回去是純浪費；
       # og-rename-sync 的 mv 冪等，skip save 最壞情況 = 下一 run 重做 mv。
       - name: Restore OG image cache
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: public/og-images
           key: og-images-${{ hashFiles('scripts/core/generate-og-images.mjs', 'public/favicon.png') }}-${{ github.run_id }}
@@ -113,7 +113,7 @@ jobs:
       # 拆成 install-deps（系統套件、always run、短）+ install chromium
       # （binary、conditional），觀察 log 時能更精確定位問題。
       - name: Restore Playwright cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         id: playwright-cache
         with:
           path: ~/.cache/ms-playwright
@@ -175,7 +175,7 @@ jobs:
       # 只在 OG generation 真的跑過時才存 cache（對應上方 restore/save 拆分註解）
       - name: Save OG image cache
         if: steps.og-changes.outputs.needed == 'true'
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         with:
           path: public/og-images
           key: og-images-${{ hashFiles('scripts/core/generate-og-images.mjs', 'public/favicon.png') }}-${{ github.run_id }}
@@ -196,7 +196,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: ./dist
 
@@ -209,4 +209,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

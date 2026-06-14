@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
@@ -47,7 +47,7 @@ jobs:
           # workflow false-classified every fork PR as `pr_type=engineering`
           # then SKIPPED review entirely. Fall back to the merge ref's two
           # parents (HEAD^1 = base, HEAD^2 = fork's PR head) which
-          # actions/checkout@v4 fetched as part of the synthetic merge commit.
+          # actions/checkout@v5 fetched as part of the synthetic merge commit.
           FILES=$(git diff --name-only --diff-filter=ACMR \
             "${{ github.event.pull_request.base.sha }}...${{ github.event.pull_request.head.sha }}" \
             2>/dev/null)
@@ -114,7 +114,7 @@ jobs:
       - name: Label PR type
         if: steps.files.outputs.pr_type == 'mixed'
         continue-on-error: true
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             await github.rest.issues.addLabels({
@@ -162,7 +162,7 @@ jobs:
 
       - name: Comment review result
         if: steps.files.outputs.pr_type == 'content' || steps.files.outputs.pr_type == 'mixed'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             const result = `${{ steps.review.outputs.result }}`;
@@ -202,7 +202,7 @@ jobs:
       - name: Label result
         if: steps.files.outputs.pr_type == 'content' || steps.files.outputs.pr_type == 'mixed'
         continue-on-error: true
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             const status = '${{ steps.review.outputs.status }}';
