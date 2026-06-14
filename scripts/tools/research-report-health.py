@@ -36,6 +36,9 @@ EN_HINTS = (
     "japantimes", "koreaherald", "scmp.com",
     # 2026-06-12 justfont EVOLVE 補：科技/設計題常見英文媒體與國際組織（原漏）
     "qz.com", "appleinsider", "goldthread", "atypi.org", "en.morisawa", "blog.adobe",
+    # 2026-06-14 造山者 EVOLVE 補：紀錄片/半導體/外交題常見英文媒體・智庫・學術・英文官方頻道（原漏）
+    "cinemaescapist", "aparc.fsi", "hoover.org", "fpri.org", "sagepub", "gasiantimes",
+    "jsis.washington", "taiwanplus", "/english/", "larb.org", "fsi.stanford",
 )
 # 一手 = 官方 / 政府 / 學術原始來源
 # 註：.org.tw 多為財團法人 / 官方機構 / 協會官網（tdri.org.tw / goldenpin.org.tw /
@@ -82,7 +85,10 @@ URL_RE = re.compile(r"https?://[^\s\)\]\>\"'，。、；]+")
 # ── Stage 0 觀點成型 exit gate 三件套（v7.3 — 哲宇 anti-drift 儀器化）─────────
 # 抓「persona-only」drift：跑了 persona 但跳過 0.6.1 六核心問題 + 0.6.4 ≥20 探索搜尋。
 VIEWPOINT_RE = re.compile(r"##+\s*.*觀點成型")
-PERSONA_RE = re.compile(r"##+\s*.*(20\s*路\s*persona|persona\s*切入點)", re.IGNORECASE)
+# 2026-06-14 p0-legion 校準（REFLEXES #66 gate dogfood）：原 regex 只認「20 路 persona」相鄰
+# 或「persona 切入點」，漏掉 pipeline 自己的詞彙「入射角」（REWRITE Step 0.6.1-bis「撐開研究入射角」）
+# + 合成報告常用的 `**personaAngles（20 路原文）**` bold marker。三者皆 legit persona section。
+PERSONA_RE = re.compile(r"(##+\s*.*(20\s*路\s*persona|persona\s*(切入點|入射角))|personaAngles)", re.IGNORECASE)
 FRONTMATTER_VP_RE = re.compile(r"^viewpoint_formed:\s*true", re.MULTILINE)
 # 六核心問題落檔結構標記（記憶/多元面貌/想法感受/歷史脈絡/社會關聯/類型 → §觀點成型 sub-sections）
 SIXQ_MARKERS = (
