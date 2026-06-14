@@ -107,6 +107,7 @@ async function main() {
           href: href(lang, catSlug, slug),
           date,
           readingTime: fm.readingTime || null,
+          image: fm.image || '', // cover for the full article-card rail (2026-06-14)
         });
       }
     }

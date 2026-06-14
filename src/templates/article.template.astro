@@ -21,6 +21,7 @@ import ArticleHero from '../components/ArticleHero.astro';
 import TableOfContents from '../components/TableOfContents.astro';
 import ArticleSidebar from '../components/ArticleSidebar.astro';
 import RelatedArticleCard from '../components/RelatedArticleCard.astro';
+import EventTracker from '../components/EventTracker.astro';
 import Perspectives from '../components/Perspectives.astro';
 import SporeFootprint from '../components/SporeFootprint.astro';
 import DiaryTeaser from '../components/DiaryTeaser.astro';
@@ -157,17 +158,18 @@ const categoryConfigs = getCategoryConfigs(t);
 const categoryInfo = categoryConfigs[category as CategoryKey];
 if (!categoryInfo) throw new Error(`Unknown category: ${category}`);
 
-// ── Related articles (semantic neighbours, up to 3) ──────────────────────────
+// ── Related articles (semantic neighbours) ───────────────────────────────────
 // 2026-06-14 RAG Phase 1：getRelatedArticles 改讀 bge-m3 語意鄰居（跨 category、
 // 依意思而非同類）— src/data/related/{lang}.json 離線預算、烘進 HTML、零瀏覽器
 // 模型；語意索引缺檔時自動 fallback 回同 category。Tier 1.4 shared cache 不變。
+// 預抓 8 篇當備用（資料層 TOP_K=8）；前端響應式呈現 4/3/3（桌機/平板/手機）。
 let relatedArticles: any[] = [];
 try {
   relatedArticles = await getRelatedArticles(
     lang,
     category as string,
     slug as string,
-    3,
+    8,
   );
 } catch {}
 
@@ -188,6 +190,23 @@ const otherCategories = categories
   .filter((cat) => cat !== category)
   .slice(0, 3)
   .map((cat) => ({ key: cat, ...categoryConfigs[cat as CategoryKey] }));
+
+// Localized category meta (name/color/icon) for the client-side 站上最新 rail —
+// lets the injected cards render the SAME full RelatedArticleCard look (badge +
+// cover + desc) instead of text-only blocks, without a per-item server render.
+const latestCatMeta = Object.fromEntries(
+  categories.map((c) => {
+    const cfg = categoryConfigs[c as CategoryKey];
+    return [
+      c,
+      {
+        name: cfg?.name ?? c,
+        color: cfg?.color ?? '#475569',
+        icon: cfg?.icon ?? '📄',
+      },
+    ];
+  }),
+);
 
 // ── Markdown → HTML ─────────────────────────────────────────────────────────
 // Pipeline 本體（17 tw-* 模組 renderer / 腳註 / wikilink / 延伸閱讀 split）住在
@@ -663,7 +682,10 @@ const encodedTitle = encodeURIComponent(title);
     <!-- ── Related articles ───────────────────────────────────────── -->
     {
       relatedArticles.length > 0 && (
-        <section class="mt-8 bg-white px-8 py-20 max-[640px]:px-4 max-[640px]:py-14">
+        <section
+          data-ga-view="related_articles"
+          class="mt-8 bg-white px-8 py-20 max-[640px]:px-4 max-[640px]:py-14"
+        >
           <div class="mx-auto max-w-[var(--container-article)]">
             <div class="mb-12 text-center">
               <p class="mb-[0.6rem] font-['Inter',system-ui,sans-serif] text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#9aa89e]">
@@ -673,8 +695,8 @@ const encodedTitle = encodeURIComponent(title);
                 {t('article.relatedReads')}
               </h2>
             </div>
-            <div class="grid grid-cols-[repeat(auto-fill,minmax(280px,1fr))] gap-6">
-              {relatedArticles.map((article) => {
+            <div class="grid gap-6 grid-cols-1 min-[640px]:grid-cols-3 min-[1024px]:grid-cols-4 [&>*:nth-child(4)]:hidden min-[1024px]:[&>*:nth-child(4)]:flex">
+              {relatedArticles.slice(0, 4).map((article) => {
                 // Semantic neighbours can be cross-category — each card must use
                 // the RELATED article's own category for its href + badge, not the
                 // current page's (else nature/食物 neighbours get /history/ links →
@@ -699,6 +721,8 @@ const encodedTitle = encodeURIComponent(title);
             <div class="mt-10 text-center">
               <a
                 href={`${langUrlPrefix}/${category}`}
+                data-ga-section="article_related"
+                data-ga-label="view_all_category"
                 class="inline-flex items-center gap-2 rounded-full border-[1.5px] px-6 py-[0.65rem] font-['Inter',system-ui,sans-serif] text-[0.88rem] font-medium no-underline transition-all duration-200 hover:bg-black/[0.04]"
                 style={`color:${categoryInfo.color}; border-color:${categoryInfo.color}30;`}
               >
@@ -729,8 +753,11 @@ const encodedTitle = encodeURIComponent(title);
     <aside
       id="latest-rail"
       data-nosnippet
+      data-ga-view="latest_rail"
       data-lang={lang}
       data-slug={slug}
+      data-cat-meta={JSON.stringify(latestCatMeta)}
+      data-min-label={t('latest.minRead')}
       aria-label={t('latest.railHeading')}
       hidden
       class="border-t border-[rgba(26,60,52,0.08)] bg-white px-8 py-16 max-[640px]:px-4 max-[640px]:py-12"
@@ -750,7 +777,7 @@ const encodedTitle = encodeURIComponent(title);
         </div>
         <div
           id="latest-rail-cards"
-          class="grid grid-cols-[repeat(auto-fill,minmax(220px,1fr))] gap-4"
+          class="grid gap-6 grid-cols-1 min-[640px]:grid-cols-3 min-[1024px]:grid-cols-4 [&>*:nth-child(4)]:hidden min-[1024px]:[&>*:nth-child(4)]:flex"
         >
         </div>
         <div class="mt-8 text-center">
@@ -774,38 +801,15 @@ const encodedTitle = encodeURIComponent(title);
         var slug = rail.getAttribute('data-slug') || '';
         var box = document.getElementById('latest-rail-cards');
         if (!box) return;
-        var ICONS = {
-          history: '📜',
-          geography: '🗺️',
-          culture: '🎭',
-          food: '🍜',
-          art: '🎨',
-          music: '🎵',
-          technology: '💻',
-          nature: '🌿',
-          people: '👥',
-          society: '⚖️',
-          economy: '📈',
-          lifestyle: '🏠',
-          politics: '🗳️',
-        };
-        var COLORS = {
-          history: '#92400e',
-          geography: '#065f46',
-          culture: '#7c3aed',
-          food: '#ea580c',
-          art: '#be185d',
-          music: '#0891b2',
-          technology: '#1d4ed8',
-          nature: '#15803d',
-          people: '#c2410c',
-          society: '#475569',
-          economy: '#b91c1c',
-          lifestyle: '#65a30d',
-          politics: '#7c3aed',
-        };
+        // Localized category meta (name/color/icon) injected server-side so the
+        // cards match the full RelatedArticleCard look used by 你可能也想讀.
+        var META = {};
+        try {
+          META = JSON.parse(rail.getAttribute('data-cat-meta') || '{}');
+        } catch (_) {}
+        var MIN = rail.getAttribute('data-min-label') || 'min';
         function esc(s) {
-          return String(s).replace(/[&<>"]/g, function (c) {
+          return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
             return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
           });
         }
@@ -824,25 +828,66 @@ const encodedTitle = encodeURIComponent(title);
             if (!list.length) return;
             box.innerHTML = list
               .map(function (a) {
-                var ic = ICONS[a.category] || '📄';
-                var col = COLORS[a.category] || '#475569';
+                var m = META[a.category] || {
+                  name: a.category,
+                  color: '#475569',
+                  icon: '📄',
+                };
+                var col = m.color || '#475569';
                 var dt = new Date(a.date);
                 var day = dt.getMonth() + 1 + '/' + dt.getDate();
+                // cover: real image if present, else category-tinted gradient + icon
+                var cover = a.image
+                  ? '<div class="relative h-40 overflow-hidden bg-[#e8efec] bg-cover bg-center" style="background-image:url(\'' +
+                    esc(a.image) +
+                    '\')" aria-hidden="true"><div class="absolute inset-0 bg-gradient-to-b from-transparent from-40% to-[rgba(10,22,19,0.35)]"></div></div>'
+                  : '<div class="relative flex h-40 items-center justify-center overflow-hidden" style="background:linear-gradient(135deg,' +
+                    col +
+                    '22,' +
+                    col +
+                    '44)" aria-hidden="true"><span class="text-[2.8rem] leading-none opacity-75" style="color:' +
+                    col +
+                    '">' +
+                    (m.icon || '📄') +
+                    '</span></div>';
+                var readMeta = a.readingTime
+                  ? '<span class="font-mono">' + a.readingTime + ' ' + esc(MIN) + '</span>'
+                  : '';
                 return (
                   '<a href="' +
                   a.href +
-                  '" data-ga-section="article_latest_rail" ' +
-                  'class="group flex flex-col gap-2 rounded-2xl border border-[rgba(26,60,52,0.08)] bg-white p-5 no-underline shadow-[0_2px_8px_rgba(26,60,52,0.04)] transition-all hover:-translate-y-1 hover:shadow-[0_12px_28px_rgba(26,60,52,0.1)]">' +
-                  '<span class="inline-flex items-center gap-1.5 text-[0.72rem] font-semibold" style="color:' +
+                  '" data-ga-section="article_latest_rail" aria-label="' +
+                  esc(a.title) +
+                  '" class="group flex flex-col overflow-hidden rounded-2xl border border-[rgba(26,60,52,0.07)] bg-white text-inherit no-underline shadow-[0_2px_12px_rgba(26,60,52,0.05)] transition-all duration-[250ms] hover:-translate-y-[5px] hover:shadow-[0_12px_40px_rgba(26,60,52,0.12)]">' +
+                  cover +
+                  '<div class="flex flex-1 flex-col gap-2 px-6 pb-6 pt-5">' +
+                  '<span class="inline-flex items-center gap-2 self-start">' +
+                  '<span class="inline-block rounded-full border border-solid px-[0.65rem] py-[0.22rem] font-[\'Inter\',system-ui,sans-serif] text-[0.68rem] font-semibold uppercase tracking-[0.14em]" style="color:' +
                   col +
-                  '">' +
-                  ic +
-                  ' <span class="font-mono text-[#94a3b8]">' +
+                  ';background:' +
+                  col +
+                  '14;border-color:' +
+                  col +
+                  '28">' +
+                  esc(m.name) +
+                  '</span>' +
+                  '<span class="font-mono text-[0.72rem] text-[#94a3b8]">' +
                   day +
                   '</span></span>' +
-                  '<span class="line-clamp-3 font-[\'Noto_Serif_TC\',serif] text-[0.98rem] font-semibold leading-[1.4] text-[#1a3c34] transition-colors group-hover:text-[#065f46]">' +
+                  '<h3 class="m-0 font-[\'Noto_Serif_TC\',serif] text-base font-semibold leading-[1.45] text-[#1a3c34] transition-colors group-hover:text-[#006d77]">' +
                   esc(a.title) +
-                  '</span></a>'
+                  '</h3>' +
+                  (a.desc
+                    ? '<p class="m-0 line-clamp-2 font-[\'Inter\',system-ui,sans-serif] text-[0.8rem] leading-relaxed text-[#7a8b7e]">' +
+                      esc(a.desc) +
+                      '</p>'
+                    : '') +
+                  '<span class="mt-auto inline-flex items-center gap-[0.3rem] pt-1 font-[\'Inter\',system-ui,sans-serif] text-[0.78rem] font-semibold" style="color:' +
+                  col +
+                  '">' +
+                  readMeta +
+                  '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>' +
+                  '</span></div></a>'
                 );
               })
               .join('');
@@ -860,6 +905,8 @@ const encodedTitle = encodeURIComponent(title);
             class="inline-flex cursor-pointer items-center gap-[0.6rem] rounded-full border-[1.5px] border-[rgba(26,60,52,0.2)] bg-white px-7 py-3 font-['Inter',system-ui,sans-serif] text-[0.88rem] font-medium text-[#1a3c34] transition-all duration-200 hover:border-[#1a3c34] hover:bg-[#1a3c34] hover:text-[#f8f1e9]"
             id="randomBtn"
             type="button"
+            data-ga-section="article_random"
+            data-ga-label="random_explore"
           >
             <svg
               width="16"
@@ -884,7 +931,10 @@ const encodedTitle = encodeURIComponent(title);
     }
 
     <!-- ── Explore other categories ──────────────────────────────── -->
-    <section class="bg-[#f8f1e9] px-8 py-20 max-[640px]:px-4 max-[640px]:py-14">
+    <section
+      data-ga-view="explore_categories"
+      class="bg-[#f8f1e9] px-8 py-20 max-[640px]:px-4 max-[640px]:py-14"
+    >
       <div class="mx-auto max-w-[var(--container-article)]">
         <div class="mb-12 text-center">
           <p
@@ -945,6 +995,18 @@ const encodedTitle = encodeURIComponent(title);
       </div>
     </section>
   </main>
+
+  {/* Tag the markdown-rendered footnote section as a tracked landmark, then
+      mount the site-wide engagement tracker (scroll depth + section_view +
+      time) so we can see how far readers get — esp. 延伸閱讀 / footnotes. */}
+  <script is:inline>
+    (function () {
+      var fn = document.querySelector('.prose .footnotes');
+      if (fn && !fn.hasAttribute('data-ga-view'))
+        fn.setAttribute('data-ga-view', 'footnotes');
+    })();
+  </script>
+  <EventTracker pageType="article" />
 </Layout>
 
 <!-- Screenshot mode (?shot=1) 的 JS toggle + CSS 已搬到 src/layouts/Layout.astro
