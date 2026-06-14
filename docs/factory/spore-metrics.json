@@ -4359,6 +4359,18 @@
       "comments": 0,
       "shares": 0,
       "source": "frontmatter-seed-2026-06-10"
+    },
+    {
+      "spore": 136,
+      "dPlus": 1,
+      "at": "2026-06-14 11:18",
+      "batch": "batch-2026-06-14-manual",
+      "views": 80000,
+      "likes": 4464,
+      "reposts": null,
+      "comments": null,
+      "shares": null,
+      "source": "harvest"
     }
   ]
 }
