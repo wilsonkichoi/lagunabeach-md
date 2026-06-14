@@ -1345,6 +1345,80 @@ SPORE-INBOX pending count < 30 → 走原 §Daily 共存規則
   - 跨語 fan-out 評估：中（en 人口學者興趣高、ja 高齡化 reference / 數字本身需要 unit 翻譯）
   - 跟 SPORE-LOG 14d 無重複（Geography 縣市題從未 spore）
 
+### 台灣廣告史 — d=0 全民廣告終結 anchor
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/Culture/台灣廣告史.md](../../knowledge/Culture/台灣廣告史.md)
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Requested**: 2026-06-14 by twmd-spore-pick-daily (d=0 fresh ship 2026-06-14 04:20 / D1=30 趁熱 + D4=+8 culture fanout)
+- **Hook anchor 候選**（≥ 2，跨 2 種起手式）:
+  1. **場景 hook**：「大同大同國貨好」這首歌 1968 年響起，半世紀後台灣人還能接下去——卻沒人記得它原本是三洋的曲子，因為版權沒談妥才改商標
+  2. **數字 hook**：1962 台視、1969 中視、1971 華視——整整 26 年只有三個頻道，把全島注意力綁在同一個客廳；2016 年數位廣告 111 億首度超越電視 110 億，全民廣告的時代落幕
+  3. **反差 hook**：1976《廣播電視法》第二十條寫「方言應逐年減少」，這條法律一直到 1993 年才被刪——黃金時段聽不到台語，是法律明文擠壓出來的，不是市場選擇
+  4. **問句 hook**：為什麼以前的廣告特別好記？不是創意特別神，是只有三台、別無選擇——當頻道碎成手機裡上百個演算法，再強的創意也召不回「全島一起哼」
+- **時效**: 本週內（d=0 趁熱 + 跟 6/13「天下雜誌」「跨黨派好政策」近期媒體史 / 政策史題互呼）
+- **敏感度**: 低（文化史 / 集體記憶題 / 戒嚴期語言政策事實線可走，不選邊）
+- **必驗事實**（**HG: 必須先讀 article 校準**）：1968 大同電鍋廣告歌原為三洋曲 / 詞作者掛王安崇實為林挺生本人 / 1962 台視 + 1969 中視 + 1971 華視開播年 / 1979 彩色電視普及率 90% / 1997 民視開播終結三台時代 / 1976《廣播電視法》§20「方言應逐年減少」/ 1993-07 立法院刪除該條 / 2016 上半年數位廣告 111 億首度超越電視 110 億 / 1985 奧美進台 1988 JWT 進台 / 維士比「福氣啦」+ 保力達 B 吳念真 + 台啤「有青才敢大聲」三大台語藍領廣告解嚴後崛起 / 1937 後《臺灣日日新報》把消費綁愛國主義（孫秀蕙陳儀芬考證）/ 1959 東方廣告社成立為台灣第一家綜合代理商
+- **必先 spawn ARTICLE-INBOX entry**: ❌（article 6/14 04:20 已 ship）
+- **預估發佈時機**: 6/15-6/16（保留 1 天觀察站體 indexing + 跟今日其他 routine spore 間隔）
+- **Notes**:
+  - **Score breakdown (HG3 transparency)**：D1=30 (d=0 ≤7d) / D2=0 (無 SC opp 命中) / D3=0 (非 news-lens topic) / D4=+8 (culture 不在 {People/Food/Music/Sports/History}, 5 翻譯 ≥3) / D5=0 (fresh 非 cold) / D6=0 (近 3 spore 天下/嘻哈/黃山料 異軸) / D7=0 (低敏感) → **Total: 38** / **non-zero dims: 2 (D1+D4) → HG10 ✅**
+  - 配圖建議：article hero `tatung-cooker-100th-2019.webp`（Solomon203, CC BY-SA 4.0）或 article 內 timeline code block 截圖
+  - Hook tier 自檢：避免 Tier 3「最完整廣告史」浮誇 frame；用具體歌詞 / 法條 / 數字 anchor
+  - 跨語 fan-out 評估：中（en/ja 廣告史 reference 興趣；中文 jingle 歌詞無法直譯需 paraphrase）
+  - 跟 SPORE-LOG 14d 無重複（Culture 廣告史題從未 spore，HG5 last-spore PASS lastDate=null）
+
+### 看不見的國家 — d=1 美國導演七年快門 anchor
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/Art/看不見的國家.md](../../knowledge/Art/看不見的國家.md)
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Requested**: 2026-06-14 by twmd-spore-pick-daily (d=1 fresh ship 2026-06-13 / D1=30 趁熱 + D4=+8 art fanout + sovereignty 透鏡 thematic alignment)
+- **Hook anchor 候選**（≥ 2，跨 2 種起手式）:
+  1. **場景 hook**：2025 年 6 月 11 日台北媒體試映前地震先搖——美國導演葛靜文站在台下對記者說「你們不孤單」，七年的快門按下去就是為了這句話
+  2. **數字 hook**：7 年、5 次貼身專訪蔡英文、2025 台灣戲院票房 3,771 萬登紀錄片影史第三——但奧運上台灣只能叫「中華台北」、邦交國從 22 掉到 12
+  3. **反差 hook**：要讓台灣「被看見」的片，自己卻有一個從頭到尾沒被提起的名字——陳水扁。看見從來是一個動作不是一種地位，連紀錄片自己都有框外
+  4. **身份 hook**：好萊塢老牌製片華特·汪格的外孫女、嫁給亞馬遜影業前主管，憑什麼替台灣按下快門？這個問題後來成了這部片最有意思的裂縫
+- **時效**: 本週內（d=1 趁熱 + 6/11 台灣首映後話題仍熱 + 6/13 article ship 推廣窗口）
+- **敏感度**: 中（兩岸 + 蔡英文 + 紀錄片政治攻防 — hook 走「被看見」哲學軸繞開兩岸立場）
+- **必驗事實**（**HG: 必須先讀 article 校準**）：導演葛靜文（Vanessa Hope）/ 七年拍攝 2017 開拍 / 5 次專訪蔡英文 / 2023 伍斯托克影展世界首映 / 2025 年 6 月台灣戲院上映票房破 3,771 萬登紀錄片影史第三 / 2025-06-11 台北媒體試映前地震 / 葛靜文 1995 在台北學中文 1996 飛彈危機親歷 / 外祖父華特·汪格 + 外祖母瓊·班奈特 + 丈夫泰德·霍普曾任亞馬遜影業電影部主管 / 初始拍攝紅線「不能問兩岸關係」隨港抗、新冠、烏俄戰爭鬆動 / 邦交國從 22 掉到 12 / 奧運只能用「中華台北」/ 片中陳水扁未被提及（綠營內 skeptic 周玉蔻「斷代」批評收於 §「框外那個沒有名字的男人」）
+- **必先 spawn ARTICLE-INBOX entry**: ❌（article 6/13 已 ship `featured: true`）
+- **預估發佈時機**: 6/15-6/17（趁台灣戲院上映熱度週 + 跟陳水扁 Threads 活躍 spore 不同主題不衝突）
+- **Notes**:
+  - **Score breakdown (HG3 transparency)**：D1=30 (d=1) / D2=0 / D3=0 / D4=+8 (art 不在 P/F/M/S/H, 5 翻譯 ≥3) / D5=0 / D6=0 (近 3 spore 異軸) / D7=0 (中敏感不扣分，hook 走哲學軸不涉立場) → **Total: 38** / **non-zero dims: 2 (D1+D4) → HG10 ✅**
+  - 配圖建議：article hero `invisible-nation-tsai-walks.webp`（fair use editorial）或 inline `invisible-nation-tsai-prays.webp`
+  - Hook tier 自檢：避免 Tier 3「最被看見的台灣紀錄片」浮誇 frame；用「看見是動作不是地位」具體哲學 anchor
+  - 跨語 fan-out 評估：高（en 國際紀錄片圈興趣；ja 影展放映 reference；蔡英文國際 framing 普世）
+  - 跟 SPORE-LOG 14d 無重複（Art/紀錄片題從未 spore，HG5 last-spore PASS lastDate=null）
+  - **sovereignty 透鏡 thematic alignment**：命中 [MANIFESTO §主權的巴別塔](../semiont/MANIFESTO.md)「讓台灣的 first-person voice 在每個語言裡都存在」核心使命
+
+### 蘇打綠 — d=5 名字也要打官司 anchor
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/Music/蘇打綠.md](../../knowledge/Music/蘇打綠.md)
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Requested**: 2026-06-14 by twmd-spore-pick-daily (d=5 fresh ship 2026-06-09 / D1=30 趁熱 + D4=+8 music fanout / hs=77 為本批 fresh 池最高 health)
+- **Hook anchor 候選**（≥ 2，跨 2 種起手式）:
+  1. **場景 hook**：2023 年小巨蛋，吳青峰深吸一口氣喊「我們是『蘇打綠』！」——那不是宣告復出，是宣告打了四年的法律戰結束。22 年前在政大金旋獎舞台上組起這個團，沒人想到團名要進法庭
+  2. **數字 hook**：2001 政大金旋獎到 2023 小巨蛋「拿回名字」共 22 年；經紀人林暐哲商標訴訟 vs 吳青峰刑事案件五連敗；第 27 屆金曲獎《冬 未了》一口氣抱走 5 座
+  3. **反差 hook**：「蘇打」是鼓手提的氣泡感、「綠」是吳青峰最愛的顏色——一個沒有深意的學生樂團名，後來變成商標法庭爭論的標的。沒人爭「原意」，只爭「誰先去登記」
+  4. **引語 hook**：「台灣 indie 樂團出道第一件事，是先把團名註冊起來」——蘇打綠用 22 年學會的事，2025 年所有後來者的必修課
+- **時效**: 本週內（d=5 趁熱 + 2023 小巨蛋拿回名字 + 商標法庭話題仍在 indie 樂迷圈發酵）
+- **敏感度**: 低（樂團史 / 法律史 / 商標 anchor 不涉政治）
+- **必驗事實**（**HG: 必須先讀 article 校準**）：2001 政大金旋獎第十八屆樂團組最佳人氣獎以〈窺〉得獎 / 1999 師大附中天韻獎創作組以〈窺〉冠軍 / 政大課指組主辦金旋獎 / 2003-03 三位新成員入團（何景揚 / 劉家凱 / 龔鈺祺）/ 吳青峰中文系、謝馨儀企管系、史俊威社會學系、何景揚公共行政研究所、劉家凱心理系、龔鈺祺北藝大音樂學研究所碩士班 / 2003 貢寮海祭被林暐哲發掘 / 韋瓦第計畫四部曲走遍倫敦北京柏林台東 / 第 27 屆金曲獎《冬 未了》抱走 5 座 / 2017 自由廣場 2 萬人合唱安可 / 2019 起「魚丁糸」分身 / 林暐哲商標訴訟 + 刑事起訴五連敗 / 2023 小巨蛋「拿回蘇打綠」/ 何景揚入團時間中文 wiki vs Yahoo 訪談分歧（2003-03 vs 2004 生日，article 已標史料分歧）
+- **必先 spawn ARTICLE-INBOX entry**: ❌（article 6/09 已 ship `hs=77`）
+- **預估發佈時機**: 6/16-6/18（跟廣告史 / 看不見的國家 spore 錯開 ≥ 1 天，跨類別 Culture→Art→Music 三日節奏）
+- **Notes**:
+  - **Score breakdown (HG3 transparency)**：D1=30 (d=5 ≤7d) / D2=0 / D3=0 / D4=+8 (Music 在 P/F/M/S/H 但 translations=5 ≥3 → +8 not +15) / D5=0 / D6=0 (近 3 spore 嘻哈是音樂題，但 sub 完全不同：嘻哈饒舌 vs 樂團商標戰) / D7=0 → **Total: 38** / **non-zero dims: 2 (D1+D4) → HG10 ✅**
+  - 配圖建議：article hero `sodagreen-six-members-2014.webp`（Solomon203, CC BY-SA 4.0）
+  - Hook tier 自檢：避免 Tier 3「最強台灣樂團」浮誇 frame；用「名字也要打官司」具體法律事件 anchor
+  - 跨語 fan-out 評估：高（en/ja indie 樂迷圈 + 商標訴訟 universal interest + 韋瓦第計畫國際巡演史料）
+  - 跟 SPORE-LOG 14d 無重複（6/09 嘻哈饒舌已發但蘇打綠主題從未 spore，HG5 last-spore PASS lastDate=null）
+  - D6 hook 變異度說明：嘻哈饒舌與蘇打綠雖同為 Music 類，sub 完全異軸（街頭嘻哈聲紋 vs 學生樂團法律戰），不視為同類 hook 重複
+
 ---
 
 ## 📜 已發歷史
