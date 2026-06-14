@@ -157,8 +157,10 @@ const categoryConfigs = getCategoryConfigs(t);
 const categoryInfo = categoryConfigs[category as CategoryKey];
 if (!categoryInfo) throw new Error(`Unknown category: ${category}`);
 
-// ── Related articles (same category, up to 3) ────────────────────────────────
-// Tier 1.4 shared cache via articles-index.ts — module-level cache 跨整個 build。
+// ── Related articles (semantic neighbours, up to 3) ──────────────────────────
+// 2026-06-14 RAG Phase 1：getRelatedArticles 改讀 bge-m3 語意鄰居（跨 category、
+// 依意思而非同類）— src/data/related/{lang}.json 離線預算、烘進 HTML、零瀏覽器
+// 模型；語意索引缺檔時自動 fallback 回同 category。Tier 1.4 shared cache 不變。
 let relatedArticles: any[] = [];
 try {
   relatedArticles = await getRelatedArticles(
@@ -668,23 +670,31 @@ const encodedTitle = encodeURIComponent(title);
                 {t('article.furtherReading')}
               </p>
               <h2 class="font-['Inter',serif] text-[clamp(1.5rem,3vw,2rem)] font-bold leading-[1.25] text-[#1a3c34]">
-                {t('article.moreInCategory')}
+                {t('article.relatedReads')}
               </h2>
             </div>
             <div class="grid grid-cols-[repeat(auto-fill,minmax(280px,1fr))] gap-6">
-              {relatedArticles.map((article) => (
-                <RelatedArticleCard
-                  title={article.title}
-                  slug={article.slug}
-                  lang={lang}
-                  category={category}
-                  categoryName={categoryInfo.name}
-                  categoryColor={categoryInfo.color}
-                  categoryIcon={categoryInfo.icon}
-                  description={article.description}
-                  coverImage={article.image || undefined}
-                />
-              ))}
+              {relatedArticles.map((article) => {
+                // Semantic neighbours can be cross-category — each card must use
+                // the RELATED article's own category for its href + badge, not the
+                // current page's (else nature/食物 neighbours get /history/ links →
+                // 404). Falls back to the current category if config is missing.
+                const relCat =
+                  categoryConfigs[article.category as CategoryKey] ?? categoryInfo;
+                return (
+                  <RelatedArticleCard
+                    title={article.title}
+                    slug={article.slug}
+                    lang={lang}
+                    category={article.category}
+                    categoryName={relCat.name}
+                    categoryColor={relCat.color}
+                    categoryIcon={relCat.icon}
+                    description={article.description}
+                    coverImage={article.image || undefined}
+                  />
+                );
+              })}
             </div>
             <div class="mt-10 text-center">
               <a
