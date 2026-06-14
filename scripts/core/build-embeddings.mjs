@@ -36,7 +36,7 @@ const CATEGORY_MAP = {
 const EMBED_HOST = (process.env.EMBED_HOST || 'http://localhost:11434').replace(/\/$/, '');
 const EMBED_MODEL = process.env.EMBED_MODEL || 'bge-m3:latest';
 const DIM = 1024; // bge-m3
-const TOP_K = 6;
+const TOP_K = 8; // pre-fetch 8 neighbours as backup; frontend shows 4/3/3 (desktop/tablet/mobile)
 
 const args = process.argv.slice(2);
 const langArg = (args[args.indexOf('--langs') + 1] || 'all');
@@ -118,8 +118,13 @@ async function run() {
   console.log(`🧬 build-embeddings — model=${EMBED_MODEL} host=${EMBED_HOST} langs=${LANGS.join(',')}`);
   const outRag = resolve(process.cwd(), 'public/api/rag');
   const outRel = resolve(process.cwd(), 'public/api/related');
+  // Slim related (slug-only neighbours) — committed build-input read by
+  // src/utils/articles-index.ts getRelatedArticles. ~0.9MB across langs vs the
+  // ~5MB full public/api/related (gitignored fleet output kept for debug/AI).
+  const outRelSlim = resolve(process.cwd(), 'src/data/related');
   await mkdir(outRag, { recursive: true });
   await mkdir(outRel, { recursive: true });
+  await mkdir(outRelSlim, { recursive: true });
   const manifest = { schema: 'rag-v1', model: EMBED_MODEL, dim: DIM, quant: 'i8-unit',
     builtAt: new Date().toISOString().replace(/\.\d+Z$/, 'Z'), langs: {}, source: 'fleet-bge-m3-bootstrap' };
 
@@ -157,6 +162,12 @@ async function run() {
     await writeFile(join(langDir, 'meta.json'), JSON.stringify(meta));
     await writeFile(join(langDir, 'vectors-i8.bin'), Buffer.from(flat.buffer));
     await writeFile(join(outRel, `${lang}.json`), JSON.stringify(related));
+    // slim: neighbour slugs only (page resolves summaries from the index).
+    // Keep all TOP_K (8) — frontend renders 4/3/3, extras are backup if some
+    // neighbour was deleted / is the current slug and gets filtered at render.
+    const slim = {};
+    for (const [k, arr] of Object.entries(related)) slim[k] = arr.map((r) => r.slug);
+    await writeFile(join(outRelSlim, `${lang}.json`), JSON.stringify(slim));
     manifest.langs[lang] = { count: vecs.length, failed: fail, bytes: flat.byteLength };
     console.log(`  ✅ ${lang}: ${vecs.length} vecs (${fail} fail), related+shard written, ${((Date.now() - t0) / 1000).toFixed(0)}s`);
   }

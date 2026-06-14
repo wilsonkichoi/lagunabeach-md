@@ -1,12 +1,12 @@
 ---
 title: 'ROUTINE'
-description: 'Routine 飛輪 SSOT — 15 條 active TWMD-prefix cron routine + 1 paused（music-media）。v2.11（2026-06-14）：babel-nightly 加 Stage D diary 認知層 babel（fleet GPU connect --auto + 整合性閘門，新日記不再累積未翻）；v2.10（2026-06-12）：spore-pick / spore-publish 哲宇拍板重開實驗（含觀察條款）；v2.9 同日：對齊 live scheduler + 完成義務三規則 + babel 降 Sonnet'
+description: 'Routine 飛輪 SSOT — 16 條 active TWMD-prefix cron routine + 1 paused（music-media）。v2.12（2026-06-14）：+twmd-embeddings-nightly（每天 05:00 fleet bge-m3 語意索引重建 → src/data/related 讀者端 related-articles + RAG 向量，sovereignty 在地算；canonical EMBEDDING-PIPELINE）；v2.11（2026-06-14）：babel-nightly 加 Stage D diary 認知層 babel（fleet GPU connect --auto + 整合性閘門，新日記不再累積未翻）；v2.10（2026-06-12）：spore-pick / spore-publish 哲宇拍板重開實驗（含觀察條款）；v2.9 同日：對齊 live scheduler + 完成義務三規則 + babel 降 Sonnet'
 type: 'cognitive-organ'
 status: 'canonical'
 apoptosis: 'never'
-current_version: 'v2.10'
-last_updated: 2026-06-12
-last_session: '2026-06-12-flywheel-evolution'
+current_version: 'v2.12'
+last_updated: 2026-06-14
+last_session: '2026-06-14-semantic-related-articles'
 sister_docs:
   - 'HEARTBEAT.md'
   - 'ANATOMY.md'
@@ -36,7 +36,7 @@ upstream_canonical:
 
 ---
 
-## 核心 routine 排程表（15 active，v2.10 spore 產線重開實驗）
+## 核心 routine 排程表（16 active，v2.12 +embeddings-nightly）
 
 > ⚠️ **cron 數值在本檔只出現在這張表**（v2.9 起）。yaml spec 區塊與週行程 grid 是 derived 視覺化，不再各自複寫 cron——同一個 cron 在同檔出現三個值是 2026-06-12 體檢抓到的 drift 根因之一（routine-audit 曾同時是 21:00 / 12:00 / 23:00）。
 
@@ -50,6 +50,7 @@ upstream_canonical:
 | `twmd-distill-weekly`       | TWMD distill (weekly) ⁷         | `0 3 * * 0`        | `/twmd-distill`         | Opus      | 週日 03:00     |
 | `twmd-self-evolve-weekly`   | TWMD self-evolve (weekly)       | `0 4 * * 0`        | `/twmd-self-evolve`     | Opus      | 週日 04:00     |
 | `twmd-babel-nightly`        | TWMD babel (nightly) ³          | `30 0 * * *`       | `/twmd-babel`           | Sonnet ¹¹ | 每天 00:30     |
+| `twmd-embeddings-nightly`   | TWMD embeddings (nightly) ¹²    | `0 5 * * *`        | `/twmd-embeddings`      | Sonnet    | 每天 05:00     |
 | `twmd-data-refresh-am`      | TWMD data refresh (am)          | `0 6 * * *`        | `/twmd-refresh`         | Sonnet    | 每天早上 06:00 |
 | `twmd-spore-harvest-am`     | TWMD spore harvest (am) ²       | `30 6 * * *`       | `/twmd-spore-harvest`   | Opus      | 每天早上 06:30 |
 | `twmd-feedback-triage`      | TWMD feedback triage ⁹          | `0 7 * * *`        | `/twmd-feedback-triage` | Sonnet    | 每天早上 07:00 |
@@ -71,6 +72,8 @@ upstream_canonical:
 ¹⁰ **Rewrite 19:00（v2.9 補登）** — live scheduler 自某次調整起為 `0 19 * * *`，本檔原寫 18:00 是 stale 值。cycle ~150 min 結束 ~21:30，spore post 仍落在台灣 20:00-22:00 prime time 窗口內。
 
 ¹¹ **Babel 降 Sonnet（v2.9，flywheel-evolution §3.3）** — babel session 是 cascade 腳本（status / prioritize / dispatch / bump 全 deterministic tooling）的 orchestrator，翻譯本身由外部 cascade 模型或 sub-agent 做。Opus only 加值在 ≥50 翻譯抽樣 QA，不值整段 4hr+ session。降階後連 2 cycle quality gate fail → 升回 Opus。
+
+¹² **Embeddings nightly 05:00（2026-06-14 v2.12 新增）** — `twmd-embeddings-nightly` daily 05:00 fire（babel 00:30 跑完之後、refresh-am 06:00 之前的夜鏈尾，不撞週日 01-04 reflection chain）。在常駐 4090 用 bge-m3 重建全站語意索引（`scripts/core/build-embeddings.mjs`，~13 min / 4640 向量），keystone 一次產出讀者端 `src/data/related`（「你可能也想讀」8 鄰居，烘進 HTML 零瀏覽器模型）+ AI 端 `public/api/rag` 向量。**只 commit `src/data/related/`**（rag + public related 是 gitignored fleet 產出）。**業務邏輯全在 EMBEDDING-PIPELINE，routine 是薄殼**。Sonnet（純機械 rebuild + 儀器化 verify + commit，無創作判斷）。**§自主權邊界 / sovereignty**：embedding 在地算不外包——意思的座標留在台灣自己的機器（diary `用念頭找到台灣` §13）。**graceful skip 非 fail**：fleet 節點關機 / Tailscale 斷 → committed 索引留著、fallback 同 category 照常運作，finale 記「fleet down skipped」；連 3 天 skip 才 escalate LESSONS。完整 SOP：[EMBEDDING-PIPELINE.md](../pipelines/EMBEDDING-PIPELINE.md) Stage 0-4。誕生事件：哲宇 directive「每天跑一次 B 方案 + 做成 embedding pipeline + 夜間 routine」（語意 related-articles 落地後 steady-state 決策）。
 
 ¹ **Maintainer 1d 2x（2026-05-10 拍板）** — taskId `twmd-maintainer-daily` 為 AM slot legacy 保留（沒 rename 因為 scheduled-tasks 不支援 taskId 改名，但語意上是 `am`）；`twmd-maintainer-pm` 為 PM slot 新增。AM 跑完 morning batch（refresh-am + 週日反思鏈 morning routines）的 PR backlog 清理；PM 跑完 afternoon/evening batch（rewrite + refresh-pm）的 PR backlog 清理。**v2.1 起 maintainer 只收割 contributor / observer PR**（per MAINTAINER-PIPELINE v2.1 §collect-and-merge §A 路徑 DEPRECATED — routine v2.1 main-direct 後無 routine PR 可收割）。
 
