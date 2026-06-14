@@ -589,6 +589,7 @@ memory/
 | 2026-06-14 | 025107-廣告史 (manual) | 台灣廣告史 Fresh S 級深度文 ship — 10-agent fan-out 全 pipeline（4 persona+1 探索+5 研究 §A-§E 103 搜尋+fresh Opus writer+媒體深掃）/ 5535 字 56 腳註 3 tw-\* / 核心矛盾＝商業失敗記憶成功 + 老三台 1962-1994 注意力壟斷造記憶 thesis。`f7484ebea` | clean fact-pack 餵對事實，writer 仍憑記憶重打 9 處腳註 URL 掛錯來源（成品總驗 3.6.1 改回）→ prompt 要明令逐字複製 §7 | [→](memory/2026-06-14-025107-廣告史.md) |
 | 2026-06-14 | 013028-manual | 無名小站 EVOLVE A→S：20-persona + 4-agent 115 搜尋 + 6 證偽全文重寫，「電源」物件母題當 spine，數位保存反差（Archive 45GB vs BnF 37TB），media-poor 2 CC 圖 + 雙向 cross-link。`45f5bf83e` | writer self-grep「腳註全引用」≠「引用對源」，footnote 綁錯源只有 adversarial 對源 Ctrl-F 抓得到（同日廣告史同 pattern，vc=2）| [→](memory/2026-06-14-013028-manual.md) |
 | 2026-06-14 | 125055-manual | Portaly 三筆匿名一次性贊助（NT$100/500/2,000）走既有 pipeline 落 SSOT + regen，NT$3,400→6,000 / 4→7人 / 🌿1→2。`cc56472ac` | 金錢欄位逐字驗完整 email body 不靠 snippet；四月造的 Portaly pipeline 複利幾分鐘收 | [→](memory/2026-06-14-125055-manual.md) |
+| 2026-06-14 | 132118-manual | tw-versus 手機成對小卡修（renderer 內嵌側別標籤 + 卡片分組，桌機不變，全站共用 `b29977072`）+ 無名小站 子宮→搖籃 + 2→5 真實時代圖（哲宇選不湊 logo 保 S 級）+ spore #138/#139「電源開關」雙平台 ship `919072b78` | Chrome MCP content-block 讓 JS pre-ship block_count 失準→截圖才是段落結構權威驗證；Pitfall 6 dialogStillOpen stale 二驗（盲信 = triple-ship）；哲宇授權內容 OK 即 auto-post | [→](memory/2026-06-14-132118-manual.md) |
 
 ## 神經迴路（永不過期的教訓）
 
