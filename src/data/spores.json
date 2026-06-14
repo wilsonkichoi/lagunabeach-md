@@ -1,10 +1,10 @@
 {
-  "_generated": "2026-06-14T06:45:34+08:00",
+  "_generated": "2026-06-14T17:56:50+08:00",
   "schemaVersion": 1,
   "counts": {
-    "spores": 127,
-    "articles": 62,
-    "withMetrics": 115
+    "spores": 133,
+    "articles": 64,
+    "withMetrics": 116
   },
   "spores": [
     {
@@ -6345,6 +6345,142 @@
       },
       "metricsAsOf": null,
       "history": []
+    },
+    {
+      "id": 136,
+      "slug": "taiwan-md-83天里程碑",
+      "articlePath": null,
+      "articleUrl": null,
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-06-13",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZhFf9kDC3P",
+      "template": "meta 串文（專案 identity 里程碑）",
+      "metrics": {
+        "views": 80000,
+        "likes": 4464,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": {
+        "dPlus": 1,
+        "harvestDate": "2026-06-14 11:18",
+        "batch": "batch-2026-06-14-manual",
+        "source": "harvest"
+      },
+      "history": [
+        {
+          "dPlus": 1,
+          "harvestDate": "2026-06-14 11:18",
+          "batch": "batch-2026-06-14-manual",
+          "views": 80000,
+          "likes": 4464,
+          "reposts": null,
+          "comments": null,
+          "shares": null
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "slug": "taiwan-md-83天里程碑",
+      "articlePath": null,
+      "articleUrl": null,
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-06-13",
+      "url": "https://x.com/taiwandotmd/status/2065695697178099723",
+      "template": "meta 串文（專案 identity 里程碑）",
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
+    },
+    {
+      "id": 138,
+      "slug": "無名小站",
+      "articlePath": "knowledge/Culture/無名小站.md",
+      "articleUrl": "/culture/無名小站/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-06-14",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZjeLZgE-AY",
+      "template": "B 冷知識型 + 電源開關首尾呼應",
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
+    },
+    {
+      "id": 139,
+      "slug": "無名小站",
+      "articlePath": "knowledge/Culture/無名小站.md",
+      "articleUrl": "/culture/無名小站/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-06-14",
+      "url": "https://x.com/taiwandotmd/status/2066024659238465719",
+      "template": "B 冷知識型 + 電源開關首尾呼應",
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
+    },
+    {
+      "id": 140,
+      "slug": "瘂弦",
+      "articlePath": "knowledge/People/瘂弦.md",
+      "articleUrl": "/people/瘂弦/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-06-14",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZj9pKDk-nx",
+      "template": "A2",
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
+    },
+    {
+      "id": 141,
+      "slug": "瘂弦",
+      "articlePath": "knowledge/People/瘂弦.md",
+      "articleUrl": "/people/瘂弦/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-06-14",
+      "url": "https://x.com/taiwandotmd/status/2066097087318790182",
+      "template": "A2",
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
     }
   ],
   "byArticle": {
@@ -6386,7 +6522,9 @@
     "沈伯洋": [47, 48],
     "泛科學": [78],
     "海底電纜": [55, 56],
+    "無名小站": [138, 139],
     "田馥甄": [43, 44],
+    "瘂弦": [140, 141],
     "科技園區發展": [109, 110],
     "聶永真": [66, 67],
     "臺灣前途決議文": [76, 77],

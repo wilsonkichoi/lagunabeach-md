@@ -1,105 +1,105 @@
 {
-  "lastUpdated": "2026-06-13T22:45:34.922405Z",
+  "lastUpdated": "2026-06-14T09:56:50.063578Z",
   "schemaVersion": "1.1",
   "totals": {
-    "count": 127,
+    "count": 133,
     "platforms": {
-      "threads": 66,
-      "x": 57,
+      "threads": 69,
+      "x": 60,
       "other": 4
     },
     "languages": {
-      "zh": 120,
+      "zh": 126,
       "en": 7
     },
     "templates": {
-      "B": 39,
+      "B": 41,
       "A": 32,
       "D": 4,
-      "A2": 48,
-      "other": 4
+      "A2": 50,
+      "other": 6
     }
   },
   "recent": [
     {
-      "n": 135,
+      "n": 141,
+      "date": "2026-06-14",
+      "platform": "x",
+      "article": "瘂弦",
+      "articleSlug": "瘂弦",
+      "category": "People",
+      "template": "A2",
+      "url": "https://x.com/taiwandotmd/status/2066097087318790182",
+      "highlight": "瘂弦：36 歲封筆、56 年沉默仍是台灣詩史前五。X Premium 單則長文 inline UTM，配 square 圖。",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
+    {
+      "n": 140,
+      "date": "2026-06-14",
+      "platform": "threads",
+      "article": "瘂弦",
+      "articleSlug": "瘂弦",
+      "category": "People",
+      "template": "A2",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZj9pKDk-nx",
+      "highlight": "瘂弦：36 歲封筆、56 年沉默仍是台灣詩史前五，後半生用《聯副》21 年編輯台繼續寫詩。主貼+自回覆 URL，配 square 圖。",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
+    {
+      "n": 139,
+      "date": "2026-06-14",
+      "platform": "x",
+      "article": "無名小站",
+      "articleSlug": "無名小站",
+      "category": "culture",
+      "template": "B 冷知識型 + 電源開關首尾呼應",
+      "url": "https://x.com/taiwandotmd/status/2066024659238465719",
+      "highlight": "無名小站「電源開關」母題 X 版（同文案 inline UTM）",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
+    {
+      "n": 138,
+      "date": "2026-06-14",
+      "platform": "threads",
+      "article": "無名小站",
+      "articleSlug": "無名小站",
+      "category": "culture",
+      "template": "B 冷知識型 + 電源開關首尾呼應",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZjeLZgE-AY",
+      "highlight": "無名小站「電源開關」母題：撿來的電腦能隨手關→開關後來是 Yahoo 的→你的 IG 照片也插在同種電源上",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
+    {
+      "n": 137,
       "date": "2026-06-13",
       "platform": "x",
-      "article": "天下雜誌",
-      "articleSlug": "天下雜誌",
-      "category": "Society",
-      "template": "A2 首尾呼應（紀實文學 voice）",
-      "url": "https://x.com/taiwandotmd/status/2065697249041281306",
-      "highlight": "同 #134，X 單則全文版",
+      "article": "taiwan-md-83天里程碑",
+      "articleSlug": "taiwan-md-83天里程碑",
+      "category": "meta",
+      "template": "meta 串文（專案 identity 里程碑）",
+      "url": "https://x.com/taiwandotmd/status/2065695697178099723",
+      "highlight": "taiwan.md 第 83 天 meta 里程碑串文 — 793篇×6語『知識珊瑚礁/主權記憶』identity 孢子；viral（threads 8萬瀏覽/4.4K讚/365留言）；串文 2/2 連 /latest+portaly 贊助；留言串作者公開 RAG+related-articles PR #1148 + 回應經典廣告詞許願",
       "views_7d": null,
       "views_latest": null,
       "engagements_7d": null,
       "rate_7d": null,
       "backfilled": false
-    },
-    {
-      "n": 134,
-      "date": "2026-06-13",
-      "platform": "threads",
-      "article": "天下雜誌",
-      "articleSlug": "天下雜誌",
-      "category": "Society",
-      "template": "A2 首尾呼應（紀實文學 voice / 3-post thread）",
-      "url": "https://www.threads.com/@taiwandotmd/post/DZhJTUkEwRM",
-      "highlight": "殷允芃借棗紅色牛仔褲訪張愛玲→辦天下→同一段距離；哲宇 callout 後查證 cw 回顧文 verbatim 升級「棗紅色」",
-      "views_7d": null,
-      "views_latest": null,
-      "engagements_7d": null,
-      "rate_7d": null,
-      "backfilled": false
-    },
-    {
-      "n": 133,
-      "date": "2026-06-09",
-      "platform": "x",
-      "article": "台灣嘻哈與饒舌發展",
-      "articleSlug": "台灣嘻哈與饒舌發展",
-      "category": "music",
-      "template": "A2+混合策略（台大生反直覺 × 2025 厭女之戰，「real／同一個字」首尾呼應串接）",
-      "url": "https://x.com/taiwandotmd/status/2064344279485710550",
-      "highlight": "同 #132 內容 X 單則 inline UTM（utm_campaign=s133）。**/twmd-spore manual session 2026-06-09，哲宇選 angle #2+#3 混合 + directive「修完再發」**。今晨 02:35 剛 EVOLVE ship 的台灣嘻哈與饒舌發展 → spore。帳號 gate @taiwandotmd ✅（非 @cheyuwu345）。image PNGf square + 全文 7 段 inline URL JXA NSPasteboard UTF-8 + Cmd+V（DraftJS 15 blocks 保留）。Pre-ship 8/8 PASS（hook「你知道嗎？🎤」standalone 7 chars / blocks 15 ≥4 / utm x·spore·s133 / image / Post enabled / 722 chars）。Post-ship 6/6 PASS（hook ✅ / quote「Real 不是你厭女的遮羞布」✅ / close「什麼，才算真的」✅ / tweetPhoto media ✅ / t.co UTM / 12 line breaks）。守 3 護欄：台大不偏頗（「有一票…高學歷青年」非全部）/ 壞特不 rap（lo-fi R&B）/ She Vibes 2026-06-14 即將（非 2025）。spore-writing hard=0 / prose-health hard=0 / 三板斧 0·0·0。Blueprint: [SPORE-BLUEPRINTS/132-台灣嘻哈與饒舌發展.md](SPORE-BLUEPRINTS/132-台灣嘻哈與饒舌發展.md)。",
-      "views_7d": null,
-      "views_latest": 0,
-      "engagements_7d": null,
-      "rate_7d": null,
-      "backfilled": false
-    },
-    {
-      "n": 132,
-      "date": "2026-06-09",
-      "platform": "threads",
-      "article": "台灣嘻哈與饒舌發展",
-      "articleSlug": "台灣嘻哈與饒舌發展",
-      "category": "music",
-      "template": "A2+混合策略（同 #133，real 串接）",
-      "url": "https://www.threads.com/@taiwandotmd/post/DZXjMdDE_xC",
-      "highlight": "**/twmd-spore manual session 2026-06-09，哲宇選 #2+#3 混合 + 「串文模式保留全文」**。397 字超 Threads 500 上限 → 哲宇選串文：主貼 1/3（hook + 台大生/real setup 212 字 + square 配圖）→ 2/3（厭女/She Vibes payoff 358 字）→ 3/3（完整故事 👉 UTM s132）。主題「台灣」。JXA NSPasteboard UTF-8 + Cmd+V 多段保留。Pre-ship PASS（3 posts ≤500 / hook「你知道嗎？🎤」/ image / utm threads·spore·s132 / 發佈 enabled）。Post-ship 6/6 PASS（og 3 段 / hook ✅ / 林浩立 quote ✅ / 楊舒雅 Real quote ✅ / 收尾「什麼，才算真的」✅ / She Vibes 六月十四號 ✅ / image ✅）。守 3 護欄同 #133。⚠️ 連帶 heal 文章 date error（She Vibes 2025→2026 即將，commit c35918c20）。Blueprint: [SPORE-BLUEPRINTS/132-台灣嘻哈與饒舌發展.md](SPORE-BLUEPRINTS/132-台灣嘻哈與饒舌發展.md)。",
-      "views_7d": null,
-      "views_latest": null,
-      "engagements_7d": null,
-      "rate_7d": null,
-      "backfilled": false
-    },
-    {
-      "n": 129,
-      "date": "2026-06-07",
-      "platform": "x",
-      "article": "黃山料",
-      "articleSlug": "黃山料",
-      "category": "people",
-      "template": "A2 首尾呼應變體（衣服↔句子反差：2014 走秀青年 ↔ 被笑沒料的暢銷作家同一人）",
-      "url": "https://x.com/taiwandotmd/status/2063604185912987689",
-      "highlight": "同 #128 內容 X 單則 inline UTM（utm_campaign=s129, t.co/kBJVkskndg wrap）。**/twmd-spore manual session 2026-06-07，哲宇「yes」authorize 雙平台發**。剛 ship 黃山料 Fresh People 文（4-agent 104 搜 / 6392 字 / 42 footnote / 6 媒體）→ spore。Hook tier 1b（「金門1969」衣服 anchor + 世界冠軍↔沒料反差）。帳號 gate @taiwandotmd ✅。image PNGf 2160² + 全文 inline URL JXA NSPasteboard UTF-8 + Cmd+V（DraftJS 14 blocks 保留）。Pre-ship 8/8 PASS（hook「你知道嗎？👔」standalone 7 chars / block 14 ≥4 / utm x·spore·s129 / image / Post enabled / 461 chars）。Post-ship PASS（hook ✅ / quote「這個世界不是比誰有能力」+「一句話的安慰」✅ / close 他叫黃山料 ✅ / tweetPhoto media ✅ / t.co UTM / 7 line breaks）。事實鐵三角：無算術 / 兩處直引 verbatim（storm.mg + 鏡大咖）/ 誠品「連續兩年」精確非連五年。Blueprint: [SPORE-BLUEPRINTS/128-黃山料.md](SPORE-BLUEPRINTS/128-黃山料.md)。",
-      "views_7d": 5663,
-      "views_latest": 5663,
-      "engagements_7d": 102,
-      "rate_7d": 1.8,
-      "backfilled": true
     }
   ],
   "topPerformers": [
@@ -135,6 +135,17 @@
       "rate": null,
       "badge": "🔥 平台最強",
       "date": "2026-04-14"
+    },
+    {
+      "n": 136,
+      "article": "taiwan-md-83天里程碑",
+      "platform": "threads",
+      "views": 80000,
+      "viewsSource": "latest",
+      "engagements": null,
+      "rate": null,
+      "badge": "⭐ 高峰",
+      "date": "2026-06-13"
     },
     {
       "n": 35,
@@ -179,17 +190,6 @@
       "rate": 5.66,
       "badge": "⭐ 高峰",
       "date": "2026-04-30"
-    },
-    {
-      "n": 36,
-      "article": "台灣高鐵（v3 事實修正版）",
-      "platform": "x",
-      "views": 63868,
-      "viewsSource": "7d",
-      "engagements": null,
-      "rate": null,
-      "badge": "⭐ 高峰",
-      "date": "2026-04-19"
     }
   ],
   "amplification": [],
@@ -241,6 +241,54 @@
       "publishedDays": 1,
       "status": "waiting",
       "url": "https://x.com/taiwandotmd/status/2065697249041281306"
+    },
+    {
+      "n": 136,
+      "article": "taiwan-md-83天里程碑",
+      "platform": "threads",
+      "publishedDays": 1,
+      "status": "waiting",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZhFf9kDC3P"
+    },
+    {
+      "n": 137,
+      "article": "taiwan-md-83天里程碑",
+      "platform": "x",
+      "publishedDays": 1,
+      "status": "waiting",
+      "url": "https://x.com/taiwandotmd/status/2065695697178099723"
+    },
+    {
+      "n": 138,
+      "article": "無名小站",
+      "platform": "threads",
+      "publishedDays": 0,
+      "status": "waiting",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZjeLZgE-AY"
+    },
+    {
+      "n": 139,
+      "article": "無名小站",
+      "platform": "x",
+      "publishedDays": 0,
+      "status": "waiting",
+      "url": "https://x.com/taiwandotmd/status/2066024659238465719"
+    },
+    {
+      "n": 140,
+      "article": "瘂弦",
+      "platform": "threads",
+      "publishedDays": 0,
+      "status": "waiting",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZj9pKDk-nx"
+    },
+    {
+      "n": 141,
+      "article": "瘂弦",
+      "platform": "x",
+      "publishedDays": 0,
+      "status": "waiting",
+      "url": "https://x.com/taiwandotmd/status/2066097087318790182"
     }
   ],
   "noUrlHistorical": [
@@ -311,8 +359,8 @@
     },
     {
       "week": "2026-W24",
-      "published": 4,
-      "avgViews": 0
+      "published": 10,
+      "avgViews": 80000
     }
   ],
   "harvestStatus": [
@@ -1582,6 +1630,66 @@
       "platform": "x",
       "publishDate": "2026-06-13",
       "daysSincePublish": 1,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
+    },
+    {
+      "n": 136,
+      "article": "taiwan-md-83天里程碑",
+      "platform": "threads",
+      "publishDate": "2026-06-13",
+      "daysSincePublish": 1,
+      "withinHarvestWindow": true,
+      "harvestCount": 1,
+      "lastHarvest": "2026-06-14 11:18"
+    },
+    {
+      "n": 137,
+      "article": "taiwan-md-83天里程碑",
+      "platform": "x",
+      "publishDate": "2026-06-13",
+      "daysSincePublish": 1,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
+    },
+    {
+      "n": 138,
+      "article": "無名小站",
+      "platform": "threads",
+      "publishDate": "2026-06-14",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
+    },
+    {
+      "n": 139,
+      "article": "無名小站",
+      "platform": "x",
+      "publishDate": "2026-06-14",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
+    },
+    {
+      "n": 140,
+      "article": "瘂弦",
+      "platform": "threads",
+      "publishDate": "2026-06-14",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
+    },
+    {
+      "n": 141,
+      "article": "瘂弦",
+      "platform": "x",
+      "publishDate": "2026-06-14",
+      "daysSincePublish": 0,
       "withinHarvestWindow": true,
       "harvestCount": 0,
       "lastHarvest": null

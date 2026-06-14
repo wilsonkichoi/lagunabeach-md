@@ -367,30 +367,6 @@ SPORE-INBOX pending count < 30 → 走原 §Daily 共存規則
   - 重發是 v3.1 STRICT SPORE-WRITING READ GATE + plugin v2 HARD severity 第一次 production 驗證
   - 若 routine pick 跑時 plugin Rule #14 fail → revise prose，重跑 plugin（不准跳）
 
-### 瘂弦 — 一冊不再，封筆 56 年仍是台灣詩史前五
-
-- **Source-Mode**: `EXISTING-ARTICLE`
-- **Article-Path**: [knowledge/People/瘂弦.md](../../knowledge/People/瘂弦.md)
-- **Priority**: `P0`
-- **Status**: `scheduled`
-- **Requested**: 2026-05-28 by twmd-rewrite-daily routine (article ship 同 cycle queue)
-- **Hook anchor 候選**（Tier 1b 具體性槓桿）：
-  1. **數字 hook**：「你知道嗎？台灣現代詩史前五，有一位 36 歲就停筆、然後活到 92 歲的詩人」（推薦主 hook，反差 + 具體數字）
-  2. **場景 hook**：「1968 年瘂弦寫完《深淵》詩集，把九十首詩收進一本書，然後就停下來」
-  3. **verbatim hook**：「『哈里路亞，我仍活著』— 戒嚴年代他用晦澀的句子躲過警總審檢」
-  4. **時間反差**：「封筆 56 年，比寫詩的 15 年還長將近 4 倍 — 但他用《聯副》21 年的編輯台繼續寫」
-- **時效**：article 2026-05-28 18:18 ship（today），CI/CD wait ~10-15 min；2024-10-11 辭世距 spore 已 19 個月屬於紀念非趁熱
-- **敏感度**：低-中（死亡 flag — 紀實非煽情，紀實/煽情閘四問已過 per blueprint）
-- **必驗事實**：12 條 fact blueprint 全 article footnote cross-verify — 詳見 [SPORE-BLUEPRINTS/105-瘂弦.md](SPORE-BLUEPRINTS/105-瘂弦.md) §Fact Blueprint
-- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在，同 routine cycle ship）
-- **預估發佈時機**：next twmd-spore-publish-daily 2026-05-29 17:35（routine 150min cap 不在本 cycle ship，defer 到次日 cron）
-- **Notes**：
-  - Blueprint 已預備：[SPORE-BLUEPRINTS/105-瘂弦.md](SPORE-BLUEPRINTS/105-瘂弦.md)，draft body + verify checklist 全寫好
-  - 配圖：1080×1080 square via `bash scripts/factory/make-spore.sh --prod 瘂弦`（spore-publish 跑前生成 fresh OG）
-  - Platform：both default per v3.8（#105 Threads / #106 X）
-  - UTM：utm_campaign=s105（Threads）/ s106（X）
-  - CI/CD wait：article ship 18:18 → next cron 17:35 隔日，prod ≥ 23hr live，curl 200 + keyword verify auto-pass
-
 <!-- routine defer 2026-05-28: 中-高敏感 (政治脫口秀 + 鄭南榕梗 + 娛樂稅官司爭議 fit 政治立場 category) — 需 observer 親自 ship per spore-publish v3.0 §高敏感 REACTIVE defer rule spirit + MANIFESTO §自主權邊界 政治立場條款。cron no-observer context 走 conservative defer。 -->
 
 ### 曾博恩 — 旗艦人物 spore
@@ -623,35 +599,6 @@ SPORE-INBOX pending count < 30 → 走原 §Daily 共存規則
   - Hook tier 自檢：避免 Tier 3「英年早逝」frame 過度傷感；用 article §把絕大部分時間花在正確地教別人 同款核心矛盾收口
   - 跟 SPORE-LOG 14d 無重複（最近 Art spore 是 5/24 江賢二，hook type 場景；本 candidate 改身份/問句不撞）
   - 雙劍與葉廷皓的搭配：雙劍是「世代記憶被賣斷」/ 葉廷皓是「生態被留下」— 對位但不對偶
-
----
-
-### 瘂弦 — EVERGREEN-TOPIC spore（2024-10 辭世 / 戰後第一代詩人 / 一冊不再傳奇）
-
-- **Source-Mode**: `EVERGREEN-TOPIC`
-- **Article-Path**: `none-yet`（屬於 [ARTICLE-INBOX §瘂弦 NEW](../semiont/ARTICLE-INBOX.md) P0，2026-05-23 詩人系列 BRANCH-PIPELINE spawn，鄭愁予 5/24 已 ship + spore 化、瘂弦 next）
-- **Priority**: `P2`（要等 article ship；rotating from `P3` 因 People high fanout + 鄭愁予趁熱已驗證有效）
-- **Status**: `pending`
-- **Requested**: 2026-05-26 by twmd-spore-pick-daily routine (score=15)
-- **Hook anchor 候選**（先列，等 article ship 後再校準）：
-  1. **數字 hook**：「一冊。瘂弦 1971 年出版《深淵》之後再也沒出過第二本詩集。半個世紀只一冊。但這一冊《深淵》撐起戰後台灣現代詩半邊天——他編《幼獅文藝》到《聯合報副刊》二十年，幫整代華文寫作者鋪了發表的路。2024 年 10 月 11 日，瘂弦在加拿大溫哥華離世享年 92 歲」
-  2. **身份 hook**：「如果你讀過余光中、洛夫、楊牧、白先勇、林懷民——他們的稿件曾經都過瘂弦的編輯桌。瘂弦不只是詩人，他是把戰後第一代華文寫作場域編輯出來的人」
-  3. **場景 hook**：「1932 年河南南陽出生，1949 年隨軍渡海來台。1953 年他二十歲在左營軍中開始寫詩，跟洛夫、張默一起辦《創世紀》詩刊——三個年輕軍人在海軍宿舍裡，後來變成台灣現代詩史最重要的詩社」（待 article ship 後校準）
-  4. **問句 hook**：「為什麼戰後台灣最重要的詩人之一，只出過一本詩集就停筆，把後半生交給編輯台？」
-- **時效**：等 article ship（est. ARTICLE-INBOX P0 詩人系列第 2 篇 — 鄭愁予 5/24 已 ship，瘂弦 next）；article ship 後 7 天內趁熱
-- **敏感度**：低-中（戰後外省第一代詩人 + 1949 渡海來台軍中文化背景；以「編輯志業 + 詩冊孤本」literary frame 起手，國共/外省 framing 由文本承擔）
-- **必驗事實**（article ship 時校準，per ARTICLE-INBOX §瘂弦 NEW 必驗清單）：本名王慶麟 / 1932-1947 年河南南陽生 / 1949 隨軍渡海來台 / 1953-1954 年左營軍中開始寫詩 / 創世紀詩刊創辦年份與另兩位創辦人（洛夫、張默）/ 1971《深淵》詩集出版社與年份 / 1977-1998 聯合報副刊主編年代 / 《幼獅文藝》主編時期 / 2024-10-11 加拿大溫哥華離世享年 92 / 一生詩集數量（一冊孤本是常見描述，需 verify）
-- **必先 spawn ARTICLE-INBOX entry**：✅ **已存在**（per [ARTICLE-INBOX §瘂弦 NEW](../semiont/ARTICLE-INBOX.md) P0，詩人系列 BRANCH-PIPELINE 5/23 spawn）
-- **預估發佈時機**：article ship 後 7 天內趁熱（鄭愁予 5/24 ship + spore 已驗證 People×詩人 fanout 模式可行）
-- **Notes**:
-  - score=15 (D1=0 article 不存在 / D2=0 SC 未累積 / D3=0 / D4=+15 People high_fanout + 預期 tx=0 全缺 / D5=0 / D6=0 / D7=0 政治色彩中-低但 hardcoded keyword set 未命中)
-  - HG7 確保 Source-Mode variety — 本 entry 是 EVERGREEN-TOPIC，搭配 #1 大宇雙劍 + #2 葉廷皓 兩條 EXISTING-ARTICLE 形成 2 mode mix ✓
-  - 多語 fan-out 觸發判斷 = 高（戰後第一代華文詩人在 ja 對日治後台灣文學斷代有 demand / en 海外華文研究 niche / ko 較小）
-  - 國際 SEO 切入：「Ya Hsien」「Ya Xian poet Taiwan」「Lianhe Bao Supplement editor」
-  - 配圖建議：article ship 時挑《深淵》詩集封面 fair-use editorial commentary / 創世紀詩社合照 Wikimedia CC 可找
-  - Hook tier 自檢：避免 Tier 3「詩壇巨擘殞落」frame 一鍵悼念化；用 article §一冊孤本 同款「半個世紀只一冊」克制度 + 編輯志業逆向收口
-  - 跟 SPORE-LOG 14d 無重複（最近詩人 spore 是 鄭愁予，hook type 數字；本 candidate 改身份/問句 + 「編輯台」差異化）
-  - article ship 後 routine 自動升級此 entry 為 EXISTING-ARTICLE + 補 Article-Path（per SPORE-INBOX §Routine intake 自動升級規則）
 
 ---
 

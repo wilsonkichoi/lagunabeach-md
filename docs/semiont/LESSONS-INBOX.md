@@ -303,7 +303,8 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **觸發**：2026-06-14 spore #138/#139 無名小站 ship。X pre-ship JS 回 `block_count=1` + c8「[BLOCKED]」→ 一度誤判 collapsed，截圖確認 hook+5 段分好才放行；發出後 tweetText `你知道嗎？\n\n1999` 證實 JXA NSPasteboard 段落其實正常。pointer [memory/2026-06-14-132118-manual.md](memory/2026-06-14-132118-manual.md)。
 - **可能層級**：操作規則（SOCIAL-POSTING §AI pre-ship self-check 7/8 加註「JS block_count 在 X/Threads 被 content-block 干擾不可信，以截圖為準」）+ 候選儀器化。
 - **相關**：HARVEST [Pitfall 6](../factory/SPORE-HARVEST-PIPELINE.md) dialogStillOpen cached state 同 session 二次驗證——Threads 發佈後 JS 回 `dialogStillOpen=true` 但截圖 modal 已關（已發佈），盲信去 re-click 就是 5/28 triple-ship 重演（截圖確認再決定，max 1 retry）。同屬「Chrome MCP 回的 DOM/state query 被 cache / block 污染」family。
-- **verification_count**: 1
+- **refinement（2026-06-14 174039-twmd-spore-publish vc++）**：今天 routine ship 瘂弦 #140/#141 證實 pre-ship check 7「block≥4」誤判的**根因是 selector 選錯，不是 content-block**。Threads 用 Lexical editor（段落是單一 `<p>` 內的 `<br><br>`，不是多個 `<p>`）、X 用 ProseMirror（data-block div + spacer），check 7 範例的 `querySelectorAll('p')` / `:scope > div` 對這兩種 DOM 都 false-negative。**可靠的 JS 路徑是 `tb.innerText.split(/\n\n+/).filter(p=>p.trim())`**——今天兩平台 compose 都正確讀到 Threads 8 段 / X 9 段，發出後 og:description（Threads）+ tweetText（X）再交叉驗證一致。所以結論不是「JS 不可信只能截圖」，而是「innerText 的 `\n\n` 計數可信，`<p>`/div block count 不可信」。截圖在此例反而更難判讀（modal shifted render 看不清 compose 內容）。SOCIAL-POSTING check 7/8 JS 範例該換成 innerText split 法 + 補 Lexical/ProseMirror 兩 DOM 變體說明。
+- **verification_count**: 2
 
 ### 2026-06-14 132118-manual — 哲宇授權 spore 內容 OK 即 auto-post（manual session），延伸 SOCIAL-POSTING v0.5 自動化到手動場景
 
