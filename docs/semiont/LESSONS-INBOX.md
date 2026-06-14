@@ -287,6 +287,42 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 ## 未消化清單（📥 待 distill）
 
+### 2026-06-14 routine-audit-weekly cycle 6 — Multi-core git race week：4 instance 後 1 週內接住 ship 胼胝體鐵律（positive feedback loop）
+
+- **pattern**: multi-core-git-race-arch-fix-shipped-same-week
+- **原則**：multi-core git/index/husky/parallel-actor race 在 audit window 內 surface 4 個獨立 instance，但 1 週內 ship 對應架構解（胼胝體鐵律 + REFLEXES #68 + pre-push hook stuck-run 上限）— 是「routine 飛輪自轉 detect + 哲宇 directive 提案 + 主 session ship」的端對端 positive loop 完整 instance。Multi-core git race 不是「應該避免的個案」，是「並行架構必然摩擦面」，要的是 husky / hooks / session-id / worktree / verify-commit-scope 等結構性 instrument 同步加強。
+- **觸發**：2026-06-08→2026-06-14 audit window 4 instance：
+  - 2026-06-13 173505-manual：routine 在長 session 中途動 git 污染主 session 的 index + commit 誤掃（vc=2）
+  - 2026-06-14 5090-diary-babel：並行 session 高峰期 husky lint-staged stash 跟並行 commit 碰撞讓 staged 檔靜默 unstage（vc=1）
+  - 2026-06-14 husky multi-core race victim：restore remote-ollama.sh 一檔 unstaged loss（commit 4f35a63ee）
+  - 2026-06-14 115617-card-refactor：`git add <含已 rm 的路徑>` abort → 只 commit 部分 → main 中途壞（vc=2）
+- **arch-fix ship 同一週**：
+  - 2026-06-14 02:38 commit a1724effe：BECOME 鐵律 5 胼胝體鐵律 ship（三階段 + REFLEXES #68 + pre-push hook）
+  - 2026-06-14 02:45 commit 2dd0210d9：pre-push hook 加 stuck-run 上限（live fire 抓到 8hr zombie deploy 被誤判近完成）
+  - 2026-06-14 16:08 PR #1150 merge：CI Actions Node 20 → Node 24（6/16 GitHub 強制切換前）— 預防性 ship
+  - `reports/multicore-git-coordination-design-2026-06-14.md` design canonical 落地
+- **可能層級**：positive pattern canonical — MEMORY §神經迴路新增「routine surface multi-instance → 同週 ship 架構解」是飛輪健康訊號（vs cycle 5 健康 healthy-defer 是「不 ship」訊號），對位 cycle 5 過度詢問也是失準 pattern 的反面：發現問題不只要 stop-and-defer，達 threshold 也要 stop-and-ship。
+- **相關**：REFLEXES #6/#9/#35/#42/#46/#51/#57/#68 multi-core git family / BECOME §鐵律 5 / scripts/tools/lib/check-parallel-actor.sh + verify-commit-scope.sh / reports/multicore-git-coordination-design-2026-06-14.md
+- **verification_count**: 1（單 cycle 4 instance + 同週 arch-fix ship 是 audit window 史上首次 positive feedback loop 完整 observation）
+
+### 2026-06-14 routine-audit-weekly cycle 6 — self-evolve-weekly 一次 fire 接住 3 個 canonical drift（routine sweep 設計確認）
+
+- **pattern**: self-evolve-weekly-multi-drift-sweep-confirmed
+- **原則**：self-evolve-weekly 2026-06-14 04:15-04:16 一次 cron fire 內連續 ship 3 個 canonical state-sync（Ship A: REFLEXES frontmatter v4.3→v4.6 / Ship B: SPORE-INBOX §intake-side backpressure v1.2 / Ship C: LESSONS-INBOX §Stage 4.5 canonical state sync）— 證實 self-evolve-weekly 設計「routine sweep 接住跨 session 累積的 state drift」確實能在單次 fire 高效率接住 ≥3 drift（vs cycle 5 only Ship A 結構性 confirm）。對位 cycle 5 dormant entropy 軸線 5 條同時開的反面：dormant entropy 不一定要 manual session pickup，routine 自身可以 sweep 接住。
+- **觸發**：2026-06-14 04:15-04:16 routine commits bf6b9ca9d / efae470f8 / 6c0d4c348 三連 ship。每條 drift 都是 cycle 5 audit 之後新累積（REFLEXES self-evolve 5/27 ship 後 .3 + .4 + .5 漂移；SPORE-INBOX backpressure 5/23 上線 v1.1 後 routine intake 推高 vs SHIP 消化失衡）。
+- **可能層級**：positive pattern — ROUTINE.md self-evolve-weekly entry 增註「single-fire 3-drift sweep 是健康 throughput baseline」(vs cycle 5 single Ship 的 baseline)。對位 cycle 5 dormant entropy 軸線 5 條的反面 instance — routine sweep 接住 ≥3 是 dormant entropy 軸線縮減的工作證據。
+- **相關**：cycle 5 §Lens B dormant entropy / ROUTINE.md self-evolve-weekly / SPORE-INBOX §intake-side backpressure / LESSONS-INBOX §Stage 4.5
+- **verification_count**: 1
+
+### 2026-06-14 routine-audit-weekly cycle 6 — 332 commits / 0 collision / 32 heals — heal velocity 9.6% 比 cycle 5 (6.8%) 上升 41%
+
+- **pattern**: cycle-baseline-heal-velocity-rising
+- **原則**：cycle 6 heal velocity（32 heal / 332 commit = 9.6%）比 cycle 5 (24/355 = 6.8%) 上升 41%。32 heals 主要是（a）多核 git race 收殘骸（remote-ollama / staged 檔 unstage / template-clone）×3 + （b）讀者勘誤批量回頭修（國家太空中心 12 / 無名小站 站名 / 嘻哈饒舌 老莫 callout）×3 + （c）pipeline gate 落差補救（image-health gate / babel diff-patch / Z2.0 hard gate / accent-density gate）×4 + （d）routine 跨 session 後遺症（dirty-tree 假 orphan / /latest 崩塌 / 隨機探索 404 根治 / orphan 16 個指標 全站 CI 部署阻塞）×4 + （e）UI/UX heal（/latest 三修 / tw-versus mobile / select pill / Politics 分類補登）×4 + 其他 ×14。本週 0 destructive collision 連續第 6 cycle — REFLEXES #57 active retrieval 仍 healthy。
+- **觸發**：2026-06-08→2026-06-14 git log 全量 (routine-audit.py JSON)。
+- **可能層級**：observation — heal velocity 9.6% 比 cycle 5 上升 41% 不是 regression（commit 總量降 6%，但 heal 上升 33% = 33/24）。主因是 6/13-6/14 兩日 high-velocity（74 + 98 commit = 172）密集進行 多核 git race 接住 + 讀者勘誤 + UI 進化，heal 量隨之上升而非品質下滑。下次 cycle 7 觀察 heal velocity 是否回落到 ≤7%（cycle 4: 10.0% / cycle 5: 6.8% / cycle 6: 9.6%）— 3 cycle 平均 ~8% 為 baseline。
+- **相關**：[ROUTINE-AUDIT-PIPELINE](../pipelines/ROUTINE-AUDIT-PIPELINE.md) Stage 1A routine-audit.py / cycle 4-5 baseline / REFLEXES #57 active retrieval
+- **verification_count**: 1
+
 ### 2026-06-14 twmd-rewrite-daily — Image-health v6.8 hard gate 對「pre-existing text-only depth article」全 EVOLVE-block，cron full cycle 卡 Stage 2
 
 - **pattern**: image-health-evolve-pre-existing-text-only-block
@@ -304,7 +340,13 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **觸發**：2026-06-14 無名小站 spore #138/#139 ship（13:20）後，多位 Threads 讀者（askajay0717「無名小卒？？？BBS？？？」、_annehc_「根本不是 BBS 也不叫無名小卒」）抓到站名錯誤。複查發現研究報告 SSOT 白紙黑字「名稱一開始就叫『無名』，無前身改名」（reports/research/2026-06/無名小站.md:18）+ §4 引語庫把「我們都是無名小卒」標為「命名由來」——研究是對的。但 Stage 2 文章 4 處 + 孢子正文把「無名小卒」寫成站名，孢子事實鐵三角自檢還寫「『無名小卒』是專名」把錯誤合理化一次才漏出去。三源複驗（光華一手「取名為『無名』」/ 維基「無名小站 BBS，全文無『無名小卒』」/ 看雜誌「架起『無名』BBS 站」）確認是 Stage 2 context-collapse。修補 commit 9c871ad3b（讀者校正 → 公開勘誤哲宇釘 Threads/X + 寫回 SSOT）。BBS 起源本身 5 源確認正確，未動。
 - **可能層級**：FACTCHECK pattern catalog 新增（與「偽造直接引語」orthogonal，這種引語是真的、崩塌的是語境）；候選進 REWRITE-PIPELINE Stage 3 + SPORE-PIPELINE Step 3c 事實自檢加一條「引語逐字存在 ✓ 還不夠，要驗『這句在原文描述什麼』是否等於我安放的 claim」。
 - **相關**：2026-04-21 α「primary-source paraphrase drift（不是偽造、是壓縮失真）」同 genre 的內生版 / [[feedback_absolute_facts_extra_caution]]（verbatim 三倍檢查）/ [[feedback_no_scene_inference_from_english]]（可驗證細節不可鬆散推導）/ [[feedback_stage1_falsification_mindset]] / REFLEXES #42（sub-agent verify gate）
-- **verification_count**: 1
+- **vc 累積 instances（2026-06-14 routine-audit cycle 6 cross-routine 浮現同 pattern 的 4 個 sibling instance — pattern-id intake v2.2，同 pattern 不開新 entry）**：
+  - 2026-06-12 國家太空中心：12 條讀者勘誤批量回頭修（issue #1139 Cs Gou）— Stage 1-2 之間 12 處事實 collapse 沒在自評抓到，要靠讀者回報
+  - 2026-06-10 嘻哈饒舌 round-2：引語縮寫 / 詮釋 gloss / 腳註綁定錯位 — Stage 3 驗證三盲區（老莫 callout 觸發全文 14 處重驗）= 同 pattern「引語語境角色被 Stage 2 壓縮」的三個變體
+  - 2026-06-10 廣告史 ship：writer footnote-url-from-memory drift（黃山料 + 廣告史 9 處 footnote URL 來自 writer 記憶而非 Stage 1 SSOT 逐字 carry-over）— 引語的「來源指向」被 Stage 2 從 SSOT 換成記憶
+  - 2026-06-09 嘻哈饒舌 round-1：跨界藝人寫進類型文前先查既有專文定位（壞特 R&B 非 rapper）— writer 用既有印象覆蓋 Stage 1 SSOT 的人物類別
+- **verification_count**: 5
+- **distill_ready**: true（單週 5 instance independent cross-validation — Stage 1 SSOT 寫對、Stage 2 writer 下筆把研究結論 collapse 成偏記憶 / 偏印象 / 偏字面的 claim — 跨「引語語境（無名小卒）/ 事實批量（國家太空中心）/ 引語三盲區（嘻哈饒舌）/ 腳註 URL 記憶（廣告史）/ 藝人類別印象（壞特）」5 sub-axis 同根。本 entry 是 meta-umbrella，高於 REFLEXES #42 sub-agent verify gate / #66 gate dogfood / #16 peer 是線索不是 source — 待下次 distill cycle 升 MEMORY §神經迴路 或 REWRITE-PIPELINE §Stage 2.5 source-fidelity gate canonical）
 
 ### 2026-06-14 132118-manual — Chrome MCP content-block 讓 spore pre-ship 的 JS 段落結構檢查失準，截圖才是權威驗證
 
