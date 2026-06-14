@@ -10,6 +10,7 @@ import BrandMark from '../components/BrandMark.astro';
 import ReaderSettings from '../components/ReaderSettings.astro';
 import FeedbackWidget from '../components/FeedbackWidget.astro';
 import HeadInlineScripts from '../components/HeadInlineScripts.astro';
+import EventTracker from '../components/EventTracker.astro';
 
 import type { Lang } from '../config/languages';
 
@@ -52,6 +53,13 @@ interface Props {
    * Pass feedback={false} to opt a surface out (e.g. embed/raw views).
    */
   feedback?: boolean;
+  /**
+   * GA4 page_type dimension for the engagement tracker (EventTracker is mounted
+   * once here for EVERY page). Optional — when omitted it's derived from the
+   * URL + category/slug props, so every surface gets a sensible page_type with
+   * zero per-page wiring. Pass explicitly to override (e.g. pageType="home").
+   */
+  pageType?: string;
 }
 
 const { lang = 'zh-TW' } = Astro.props;
@@ -72,6 +80,7 @@ const {
   noindex,
   readerSettings = false,
   feedback = true,
+  pageType: pageTypeProp,
 } = Astro.props;
 
 // Search index now loaded via /api/search-index.json (fetch API)
@@ -87,6 +96,21 @@ const isEn = lang === 'en';
 const categorySlug =
   propCategorySlug?.toLowerCase() || category?.toLowerCase() || '';
 const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
+
+// ── page_type for the engagement tracker (EventTracker, mounted once below) ──
+// Explicit prop wins; else derived: an article sets `slug`, a category hub sets
+// `category` (no slug); everything else maps to its first URL segment (lang
+// prefix stripped) so /about → about, /dashboard → dashboard, / → home.
+const pageType =
+  pageTypeProp ||
+  (slug
+    ? 'article'
+    : category
+      ? 'category'
+      : currentPath
+            .replace(/^\/(en|ja|ko|es|fr)(?=\/|$)/, '')
+            .split('/')
+            .filter(Boolean)[0] || 'home');
 const isHome = currentPath === '/' || currentPath === '/en';
 // Feedback widget page-kind (v2): drives context-aware category set + inline
 // text-selection annotation on articles. Derived from page type + path.
@@ -987,6 +1011,12 @@ const jfClass = [
       回到 visible tab 後 native smooth scroll 完全正常。教訓 commit 在
       global.css 的 comment 裡，避免下次 contributor 重蹈覆轍。
     -->
+
+    <!-- Site-wide GA4 engagement tracker (scroll_depth / section_view /
+         content_click / time_milestone, all carrying page_type) — mounted once
+         here so EVERY page is covered. Landmarks via data-ga-view, CTAs via
+         data-ga-section. 2026-06-14 cross-page rollout. -->
+    <EventTracker pageType={pageType} />
   </body>
 </html>
 

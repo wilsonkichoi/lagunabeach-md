@@ -21,7 +21,6 @@ import ArticleHero from '../components/ArticleHero.astro';
 import TableOfContents from '../components/TableOfContents.astro';
 import ArticleSidebar from '../components/ArticleSidebar.astro';
 import RelatedArticleCard from '../components/RelatedArticleCard.astro';
-import EventTracker from '../components/EventTracker.astro';
 import Perspectives from '../components/Perspectives.astro';
 import SporeFootprint from '../components/SporeFootprint.astro';
 import DiaryTeaser from '../components/DiaryTeaser.astro';
@@ -996,9 +995,9 @@ const encodedTitle = encodeURIComponent(title);
     </section>
   </main>
 
-  {/* Tag the markdown-rendered footnote section as a tracked landmark, then
-      mount the site-wide engagement tracker (scroll depth + section_view +
-      time) so we can see how far readers get — esp. 延伸閱讀 / footnotes. */}
+  {/* Tag the markdown-rendered footnote section as a tracked landmark so the
+      site-wide EventTracker (mounted in Layout) observes it — lets us see how
+      far readers get, esp. 延伸閱讀 / footnotes. */}
   <script is:inline>
     (function () {
       var fn = document.querySelector('.prose .footnotes');
@@ -1006,7 +1005,6 @@ const encodedTitle = encodeURIComponent(title);
         fn.setAttribute('data-ga-view', 'footnotes');
     })();
   </script>
-  <EventTracker pageType="article" />
 </Layout>
 
 <!-- Screenshot mode (?shot=1) 的 JS toggle + CSS 已搬到 src/layouts/Layout.astro
