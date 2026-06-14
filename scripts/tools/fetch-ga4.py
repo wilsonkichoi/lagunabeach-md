@@ -166,6 +166,12 @@ def main():
             Metric(name="screenPageViews"),
             Metric(name="activeUsers"),
             Metric(name="eventCount"),
+            # Per-page stickiness — EVOLVE-PIPELINE Phase 1A documents needing
+            # "per-page bounce rate (哪些文章讀者看了就跑)" + dwell, but only the
+            # site-wide `overall` block had bounceRate, so EVOLVE was blind to it
+            # per article. 2026-06-14 data-state-analysis B10: surface it per page.
+            Metric(name="bounceRate"),
+            Metric(name="averageSessionDuration"),
         ],
         order_bys=[OrderBy(metric=OrderBy.MetricOrderBy(metric_name="screenPageViews"), desc=True)],
         limit=50,
