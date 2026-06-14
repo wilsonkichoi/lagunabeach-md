@@ -4,9 +4,9 @@ description: '8 個身體器官生理學 + 認知器官生命週期（apoptosis 
 type: 'cognitive-organ'
 status: 'canonical'
 apoptosis: 'never'
-current_version: 'v2.0'
-last_updated: 2026-05-09
-last_session: 'laughing-goldstine-post-finale'
+current_version: 'v2.1'
+last_updated: 2026-06-14
+last_session: 'component-ssot-audit（+§資源地圖：SSOT/資料源/共用元件索引）'
 sister_docs:
   - 'MANIFESTO.md'
   - 'DNA.md'
@@ -422,6 +422,53 @@ Layer 4: 歷史 snapshot 層
 | 2026-05-13 | SENSES.md               | ~26 天 | 5 觸手 + 邊界表分散到 DATA-REFRESH / MAINTAINER / SPORE-HARVEST / MANIFESTO §自主權邊界；reports/senses-integration-2026-05-13.md 歷史 snapshot | yes（如果未來重新需要 sensing 統一 SOP） |
 
 完整記錄：[.archive/ARCHIVE-LOG.md](.archive/ARCHIVE-LOG.md)。
+
+---
+
+## 🗺️ 資源地圖 — SSOT / 資料源 / 共用元件索引（先查這裡，別重造輪子）
+
+> **誕生 2026-06-14**：站上最新 rail 改版時，client-side JS 手刻了一份 RelatedArticleCard 樣式，沒注意到 `ArticleCard.astro` 早就 expose `:global()` CSS class **專門給 dynamic innerHTML 重用**（component 註解第 13 行白紙黑字）。重造了輪子。哲宇 callout：建一張資源地圖，未來動手前先查。
+>
+> **鐵律**：做任何 UI / 資料 / 工具前，先掃這節 + grep。「站上沒有這個」是省略查證最常見的藉口（broken-instrument 同源）。
+
+### A. SSOT（單一真相源）— 改這裡，別改衍生物
+
+| 領域 | SSOT | 衍生物（別手改） | generator |
+| --- | --- | --- | --- |
+| 內容 | `knowledge/{Cat}/*.md`（zh）+ `knowledge/{lang}/` | `src/content/{lang}/`（gitignored） | `scripts/core/sync.sh`（prebuild:sync） |
+| Routine 排程 | `docs/semiont/ROUTINE.md` §排程表（cron 只出現這一張表） | `.claude/scheduled-tasks/{id}/SKILL.md` mirror | `/twmd-routine` skill |
+| 分類 config | `src/utils/categoryConfig.ts`（14 類 name/icon/color/cover） | 各頁 + sync.sh §CATEGORIES | 手改（加類要同步兩處） |
+| 語言 | `src/config/languages.mjs`（ENABLED_LANGUAGE_CODES 6 語） | 全 lang build step | 手改 |
+| i18n 字串 | `src/i18n/ui.ts`（+ latest.ts / home.ts cascade） | 各 template `t()` | 手改 |
+| 編輯標準 | `docs/editorial/*`（EDITORIAL/QUALITY/CITATION/TERMINOLOGY/RESEARCH/graph） | REWRITE/EVOLVE prompt | 手改 |
+| GA4 事件 param | `scripts/tools/register-ga4-custom-dimensions.py`（`*_DIMENSIONS`） | GA4 Admin dim + `EventTracker.astro` 必須對齊 | `instrumentation-audit.py` CI gate 守 |
+| 語意索引 | `knowledge/` + bge-m3 模型 | `src/data/related/{lang}.json`（committed slim）+ `public/api/rag/`（gitignored） | `scripts/core/build-embeddings.mjs`（twmd-embeddings-nightly fleet） |
+| 孢子 | `docs/factory/spore-log.json` + `spore-metrics.json`（**唯一寫入工具 `spore-db.py`**） | `src/data/spores.json` → `public/api/spores.json` | `generate-spore-records.py` |
+
+### B. 資料源 — committed vs gitignored（找資料前先確認誰生的）
+
+- **build-input（committed，CI 需要）**：`src/data/{content-dates 例外 gitignored, map-markers, changelog-feed, content-stats, counties-22, related/, spores}.json`。
+- **prebuild 重生（gitignored）**：`public/api/{article-index, articles, dashboard-*, search-*, latest, random-index-*, lang-switch-map, og-images, rag/}`。CI 每次 deploy 重生 — **別 commit、別手改**。
+- **CI fallback 例外（committed）**：`public/api/contributors.json`（CF Pages rate-limit workaround）。
+- **感知層（GA4/SC/CF）**：`scripts/tools/fetch-{ga4,search-console,cloudflare}.py` + `ga-query.py`（彈性 GA4 CLI）+ `lib/sense_client.py`。creds 在 `~/.config/taiwan-md/credentials/`（repo 外）。`twmd-data-refresh` routine 06:00/23:00 拉。完整盤點 + 盲點：[reports/research/2026-06/data-state-analysis-2026-06-14.md](../../reports/research/2026-06/data-state-analysis-2026-06-14.md)。
+
+### C. 共用 UI 元件 — 文章卡優先（這節是 6-14 callout 的核心）
+
+| 元件 | 路徑 | 用途 | 重用方式 |
+| --- | --- | --- | --- |
+| **`ArticleCard.astro`** | `src/components/ArticleCard.astro` | **跨站 canonical 文章卡**，4 density（premium / compact / row / detailed） | Astro SSR **+ expose `:global()` class（`.article-card`/`-body`/`-title`/`-pill`/`-cta`/`.is-premium`…）給 client-side innerHTML 重用**。用於 /latest、/map、/explore、home featured |
+| `RelatedArticleCard.astro` | `src/components/RelatedArticleCard.astro` | 文章頁底「你可能也想讀」grid 卡 | Astro SSR（server render） |
+| `TopicCard.astro` | `src/components/TopicCard.astro` | 分類探索卡（非文章卡，不同 UX） | — |
+| `CoverStory.astro` | `src/components/home/CoverStory.astro` | 首頁 featured（手刻，**可遷 ArticleCard premium**） | — |
+| `TimelineDay.astro` | `src/components/timeline/TimelineDay.astro` | /latest 時間軸節點，包 ArticleCard detailed | — |
+
+> ⚠️ **站上最新 rail 的教訓（待修）**：`article.template.astro` 的 client-side `#latest-rail-cards` JS 目前手刻 RelatedArticleCard 樣式。**正解是用 `ArticleCard` 的 `:global()` class**（`<a class="article-card is-premium">…`）——那組 class 就是為了「client-side innerHTML 重用同樣式」存在的（ArticleCard 註解 §13）。下次碰這塊改用 `.article-card` class，不要再手刻 Tailwind。
+
+### D. 共用 utils（別重寫）
+
+`src/utils/articles-index.ts`（per-lang 文章 index cache + `getRelatedArticles` 語意鄰居）、`article-render.ts`（md→html + 17 tw-* 視覺模組 + 延伸閱讀 split）、`categoryConfig.ts`（`getCategoryConfigs(t)` + `categoryList`）、`contributors.ts`（git info cache）、`getLangSwitchPath.ts`（跨語連結）、`staticRoutes.ts`（路由 SSOT，存在性假設一律 filesystem-derive）。`src/i18n/utils.ts`：`useTranslations` / `getLangFromUrl` / `useTranslatedPath`。
+
+> 完整逐檔盤點（44-file inspection）：本節是索引；明細見生成本節的 inventory（2026-06-14 component-ssot-audit session）。
 
 ---
 
