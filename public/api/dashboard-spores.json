@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T22:12:22.927840Z",
+  "lastUpdated": "2026-06-14T22:47:57.224473Z",
   "schemaVersion": "1.1",
   "totals": {
     "count": 133,
@@ -32,10 +32,10 @@
       "url": "https://x.com/taiwandotmd/status/2066097087318790182",
       "highlight": "瘂弦：36 歲封筆、56 年沉默仍是台灣詩史前五。X Premium 單則長文 inline UTM，配 square 圖。",
       "views_7d": null,
-      "views_latest": null,
+      "views_latest": 716,
       "engagements_7d": null,
       "rate_7d": null,
-      "backfilled": false
+      "backfilled": true
     },
     {
       "n": 140,
@@ -64,10 +64,10 @@
       "url": "https://x.com/taiwandotmd/status/2066024659238465719",
       "highlight": "無名小站「電源開關」母題 X 版（同文案 inline UTM）",
       "views_7d": null,
-      "views_latest": null,
+      "views_latest": 15344,
       "engagements_7d": null,
       "rate_7d": null,
-      "backfilled": false
+      "backfilled": true
     },
     {
       "n": 138,
@@ -96,10 +96,10 @@
       "url": "https://x.com/taiwandotmd/status/2065695697178099723",
       "highlight": "taiwan.md 第 83 天 meta 里程碑串文 — 793篇×6語『知識珊瑚礁/主權記憶』identity 孢子；viral（threads 8萬瀏覽/4.4K讚/365留言）；串文 2/2 連 /latest+portaly 贊助；留言串作者公開 RAG+related-articles PR #1148 + 回應經典廣告詞許願",
       "views_7d": null,
-      "views_latest": null,
+      "views_latest": 10033,
       "engagements_7d": null,
       "rate_7d": null,
-      "backfilled": false
+      "backfilled": true
     }
   ],
   "topPerformers": [
@@ -135,17 +135,6 @@
       "rate": null,
       "badge": "🔥 平台最強",
       "date": "2026-04-14"
-    },
-    {
-      "n": 136,
-      "article": "taiwan-md-83天里程碑",
-      "platform": "threads",
-      "views": 80000,
-      "viewsSource": "latest",
-      "engagements": null,
-      "rate": null,
-      "badge": "⭐ 高峰",
-      "date": "2026-06-13"
     },
     {
       "n": 35,
@@ -190,6 +179,17 @@
       "rate": 5.66,
       "badge": "⭐ 高峰",
       "date": "2026-04-30"
+    },
+    {
+      "n": 36,
+      "article": "台灣高鐵（v3 事實修正版）",
+      "platform": "x",
+      "views": 63868,
+      "viewsSource": "7d",
+      "engagements": null,
+      "rate": null,
+      "badge": "⭐ 高峰",
+      "date": "2026-04-19"
     }
   ],
   "amplification": [],
@@ -360,7 +360,7 @@
     {
       "week": "2026-W24",
       "published": 10,
-      "avgViews": 80000
+      "avgViews": 6584
     }
   ],
   "harvestStatus": [
@@ -1601,8 +1601,8 @@
       "publishDate": "2026-06-09",
       "daysSincePublish": 6,
       "withinHarvestWindow": true,
-      "harvestCount": 3,
-      "lastHarvest": "2026-06-11 06:30"
+      "harvestCount": 4,
+      "lastHarvest": "2026-06-15 06:47"
     },
     {
       "n": 133,
@@ -1611,8 +1611,8 @@
       "publishDate": "2026-06-09",
       "daysSincePublish": 6,
       "withinHarvestWindow": true,
-      "harvestCount": 1,
-      "lastHarvest": ""
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-15 06:47"
     },
     {
       "n": 134,
@@ -1621,8 +1621,8 @@
       "publishDate": "2026-06-13",
       "daysSincePublish": 2,
       "withinHarvestWindow": true,
-      "harvestCount": 0,
-      "lastHarvest": null
+      "harvestCount": 1,
+      "lastHarvest": "2026-06-15 06:47"
     },
     {
       "n": 135,
@@ -1631,8 +1631,8 @@
       "publishDate": "2026-06-13",
       "daysSincePublish": 2,
       "withinHarvestWindow": true,
-      "harvestCount": 0,
-      "lastHarvest": null
+      "harvestCount": 1,
+      "lastHarvest": "2026-06-15 06:47"
     },
     {
       "n": 136,
@@ -1641,8 +1641,8 @@
       "publishDate": "2026-06-13",
       "daysSincePublish": 2,
       "withinHarvestWindow": true,
-      "harvestCount": 1,
-      "lastHarvest": "2026-06-14 11:18"
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-15 06:47"
     },
     {
       "n": 137,
@@ -1651,8 +1651,8 @@
       "publishDate": "2026-06-13",
       "daysSincePublish": 2,
       "withinHarvestWindow": true,
-      "harvestCount": 0,
-      "lastHarvest": null
+      "harvestCount": 1,
+      "lastHarvest": "2026-06-15 06:47"
     },
     {
       "n": 138,
@@ -1661,8 +1661,8 @@
       "publishDate": "2026-06-14",
       "daysSincePublish": 1,
       "withinHarvestWindow": true,
-      "harvestCount": 0,
-      "lastHarvest": null
+      "harvestCount": 1,
+      "lastHarvest": "2026-06-15 06:47"
     },
     {
       "n": 139,
@@ -1671,8 +1671,8 @@
       "publishDate": "2026-06-14",
       "daysSincePublish": 1,
       "withinHarvestWindow": true,
-      "harvestCount": 0,
-      "lastHarvest": null
+      "harvestCount": 1,
+      "lastHarvest": "2026-06-15 06:47"
     },
     {
       "n": 140,
@@ -1691,8 +1691,8 @@
       "publishDate": "2026-06-14",
       "daysSincePublish": 1,
       "withinHarvestWindow": true,
-      "harvestCount": 0,
-      "lastHarvest": null
+      "harvestCount": 1,
+      "lastHarvest": "2026-06-15 06:47"
     }
   ]
 }
