@@ -143,10 +143,13 @@ function renderTwModule(lang: string, raw: string): string {
     // line1: 左標題 | 右標題；其餘列: 左 | 右
     const [head, ...rows] = lines;
     const [lt = '', rt = ''] = head.split('|').map((s) => s.trim());
+    // 每格內嵌側別標籤（桌機隱藏、手機顯示）—— 兩欄收摺成單欄時配對識別不丟失
+    const tagA = `<span class="tw-versus-tag">${_esc(lt)}</span>`;
+    const tagB = `<span class="tw-versus-tag">${_esc(rt)}</span>`;
     const body = rows
       .map((r) => {
         const [l = '', rr = ''] = r.split('|').map((s) => s.trim());
-        return `<div class="tw-versus-row"><div class="tw-versus-cell">${_esc(l)}</div><div class="tw-versus-cell">${_esc(rr)}</div></div>`;
+        return `<div class="tw-versus-row"><div class="tw-versus-cell">${tagA}${_esc(l)}</div><div class="tw-versus-cell">${tagB}${_esc(rr)}</div></div>`;
       })
       .join('');
     return (

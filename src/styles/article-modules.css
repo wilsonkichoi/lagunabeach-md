@@ -289,6 +289,10 @@
 .tw-versus-cell:last-child {
   box-shadow: inset -3px 0 0 -1px var(--tw-cool);
 }
+/* 側別標籤：桌機隱藏（表頭已標欄位），手機顯示（見 RWD 收摺） */
+.tw-versus-tag {
+  display: none;
+}
 
 /* ════════════════════════════ 4. 比例條 .tw-bars ════════════════════════════ */
 .tw-bars {
@@ -1140,11 +1144,49 @@
 
 /* ════════════════════════════ RWD ════════════════════════════ */
 @media (max-width: 560px) {
+  /* 對比卡：手機收摺成「成對小卡」——每組左右各自帶標籤、卡片邊框框住配對，
+     避免兩欄壓成單欄後變成一串看不出誰對誰的清單 */
+  .tw-versus-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65em;
+    padding: 0.7em var(--space-4) 0.9em;
+  }
   .tw-versus-row {
     grid-template-columns: 1fr;
+    gap: 0;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--color-border);
+  }
+  /* 取消桌機隔列上色，手機改用卡片邊框分組 */
+  .tw-versus-row:nth-child(even) .tw-versus-cell {
+    background: var(--color-surface);
+  }
+  .tw-versus-cell {
+    padding: 0.6em 0.85em;
+  }
+  .tw-versus-cell:first-child {
+    box-shadow: inset 3px 0 0 -1px var(--tw-warm);
+    background: var(--color-bg-soft);
   }
   .tw-versus-cell:last-child {
     box-shadow: inset 3px 0 0 -1px var(--tw-cool);
+  }
+  .tw-versus-tag {
+    display: block;
+    font-family: var(--font-title);
+    font-size: 0.72rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 0.2em;
+  }
+  .tw-versus-cell:first-child .tw-versus-tag {
+    color: var(--tw-warm);
+  }
+  .tw-versus-cell:last-child .tw-versus-tag {
+    color: var(--tw-cool);
   }
   .tw-bars-row {
     grid-template-columns: 1fr auto;
