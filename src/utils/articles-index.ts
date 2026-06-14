@@ -185,7 +185,7 @@ function getBySlugIndex(
  * (cross-category, meaning-based) from the pre-computed index; falls back to
  * same-category proximity when the semantic index is absent or the article is
  * not indexed. Return shape is unchanged (ArticleSummary[]) so callers and the
- * RelatedArticleCard component need no changes.
+ * shared ArticleCard (premium) need no changes.
  */
 export async function getRelatedArticles(
   lang: string,

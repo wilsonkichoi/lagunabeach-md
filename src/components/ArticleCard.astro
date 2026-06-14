@@ -2,16 +2,22 @@
 /**
  * ArticleCard — shared article card component.
  *
- * 跨站共用的「文章卡」元件，三種 density mode：
- * - `premium` (~RelatedArticleCard 替代品) — cover image + category badge + title + desc + CTA arrow
+ * 跨站共用的「文章卡」元件，四種 density mode：
+ * - `premium` — **canonical 文章卡（2026-06-14 進化）**：cover（無圖時分類色漸層 +
+ *   icon）+ 分類 badge（+ 選用更新日）+ serif 標題 + desc + 閱讀時間/閱讀全文 CTA。
+ *   站上最新 rail（client template-clone）+ 你可能也想讀 grid 共用同一份；以此樣式為準。
  * - `compact` (default) — 緊湊 sidebar list 用：dot + title + 1-2 line desc + meta
  * - `row`              — 極簡單列：分類 pill + serif 標題 + 1 行描述 + 右側日期（borderless）
  * - `detailed`         — 時序列（/latest）卡片：框 + pill + 更新日 + serif 標題 + 完整描述 + tags + 引用/閱讀時間 footer
  *
  * 設計目標：
- * 1. Astro 靜態 render 用（其他頁面文章列表）
- * 2. 同時 expose `:global()` CSS classes 讓 dynamic innerHTML 也能用同樣樣式
- *    （map.template.astro 場景：JS 動態生成 marker article 卡片）
+ * 1. Astro 靜態 render（文章列表 / 你可能也想讀 grid / /latest / explore）
+ * 2. **client-side 重用 = template-clone**：把一份 server-render 的 <ArticleCard>
+ *    放進 <template>，JS clone + 填 slot（站上最新 rail 場景）。重用「真元件」而非
+ *    手刻 innerHTML 字串 —— 這是 2026-06-14 哲宇 directive「拿來共用才有意義」的正解。
+ * 3. `<style is:global>` 仍保留：map.template.astro 的 sidebar 仍用 innerHTML 組
+ *    `.article-card`（compact）字串（最後一個 :global 消費者，待 map 改 template-clone
+ *    後可全 scope）。新工作一律走 template-clone，勿再手刻 class 字串。
  *
  * CSS classes exposed for dynamic use:
  * - `.article-card`              — base card container
@@ -103,12 +109,26 @@ const classes = ['article-card', densityClass, extraClass]
   {...dataAttrs}
 >
   {
-    density === 'premium' && coverImage && (
+    density === 'premium' && (
       <div
         class="article-card-hero"
-        style={`background-image: url('${coverImage}'); background-color: ${categoryColor};`}
+        style={
+          coverImage
+            ? `background-image: url('${coverImage}');`
+            : `background: linear-gradient(135deg, ${categoryColor}22, ${categoryColor}44);`
+        }
         aria-hidden="true"
-      />
+      >
+        {!coverImage && categoryIcon && (
+          <span
+            class="article-card-hero-icon"
+            style={`color: ${categoryColor};`}
+          >
+            {categoryIcon}
+          </span>
+        )}
+        {coverImage && <span class="article-card-hero-overlay" />}
+      </div>
     )
   }
   {
@@ -150,13 +170,18 @@ const classes = ['article-card', densityClass, extraClass]
       )
     }
     {
-      density === 'premium' && categoryLabel && (
-        <span
-          class="article-card-badge"
-          style={`color: ${categoryColor}; background: ${categoryColor}14; border-color: ${categoryColor}28;`}
-        >
-          {categoryLabel}
-        </span>
+      density === 'premium' && (categoryLabel || date) && (
+        <div class="article-card-premrow">
+          {categoryLabel && (
+            <span
+              class="article-card-badge"
+              style={`color: ${categoryColor}; background: ${categoryColor}14; border-color: ${categoryColor}28;`}
+            >
+              {categoryLabel}
+            </span>
+          )}
+          {date && <span class="article-card-premdate">{date}</span>}
+        </div>
       )
     }
 
@@ -177,7 +202,19 @@ const classes = ['article-card', densityClass, extraClass]
     {
       density === 'premium' && (
         <span class="article-card-cta" style={`color: ${categoryColor};`}>
-          閱讀全文 →
+          <span class="article-card-cta-label">{readingTime || '閱讀全文'}</span>
+          <svg
+            class="article-card-cta-arrow"
+            width="12"
+            height="12"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            aria-hidden="true"
+          >
+            <polyline points="9 18 15 12 9 6" />
+          </svg>
         </span>
       )
     }
@@ -345,38 +382,109 @@ const classes = ['article-card', densityClass, extraClass]
     color: #16a34a;
   }
 
-  /* === Premium variant — with cover image hero === */
+  /* === Premium variant — cover hero + (badge·date) + serif title + desc +
+     reading-time CTA。2026-06-14 進化為 canonical 文章卡樣式：站上最新 rail
+     (template-clone) + 你可能也想讀 grid 共用同一個元件，不再各自手刻。=== */
   .article-card.is-premium {
     flex-direction: column;
+    /* base .article-card is align-items:flex-start (for compact dot / row pill);
+       premium is a flex column → must reset to stretch so the hero (cover OR
+       gradient fallback) + body fill the full card width. 2026-06-14 fix. */
+    align-items: stretch;
     padding: 0;
     overflow: hidden;
     gap: 0;
+    border-radius: 16px;
+    border-color: rgba(26, 60, 52, 0.07);
+    box-shadow: 0 2px 12px rgba(26, 60, 52, 0.05);
+    transition:
+      transform 0.25s,
+      box-shadow 0.25s;
+  }
+  .article-card.is-premium:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(26, 60, 52, 0.12);
+    border-color: rgba(26, 60, 52, 0.07);
+    background: white;
   }
   .article-card.is-premium .article-card-hero {
-    height: 140px;
+    position: relative;
+    height: 160px;
     background-size: cover;
     background-position: center;
+    background-color: #e8efec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .article-card.is-premium .article-card-hero-icon {
+    font-size: 2.8rem;
+    line-height: 1;
+    opacity: 0.75;
+  }
+  .article-card.is-premium .article-card-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to bottom,
+      transparent 40%,
+      rgba(10, 22, 19, 0.35)
+    );
   }
   .article-card.is-premium .article-card-body {
-    padding: 14px 16px 16px;
+    padding: 20px 24px 24px;
+    gap: 8px;
+  }
+  .article-card.is-premium .article-card-premrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    align-self: flex-start;
+  }
+  .article-card.is-premium .article-card-badge {
+    display: inline-block;
+    padding: 0.22rem 0.65rem;
+    border-radius: 9999px;
+    font-size: 0.68rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    border: 1px solid transparent;
+    margin: 0;
+  }
+  .article-card.is-premium .article-card-premdate {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.72rem;
+    color: #94a3b8;
+    font-variant-numeric: tabular-nums;
   }
   .article-card.is-premium .article-card-title {
+    font-family: 'Noto Serif TC', serif;
     font-size: 1rem;
+    font-weight: 600;
+    color: #1a3c34;
+    line-height: 1.45;
     -webkit-line-clamp: 2;
+    transition: color 0.16s;
+  }
+  .article-card.is-premium:hover .article-card-title {
+    color: #006d77;
   }
   .article-card.is-premium .article-card-desc {
-    font-size: 0.82rem;
-    -webkit-line-clamp: 3;
+    font-size: 0.8rem;
+    color: #7a8b7e;
+    line-height: 1.5;
+    -webkit-line-clamp: 4;
   }
-  .article-card-badge {
-    display: inline-block;
-    align-self: flex-start;
-    padding: 2px 10px;
-    border-radius: 12px;
-    font-size: 0.7rem;
+  .article-card.is-premium .article-card-cta {
+    margin-top: auto;
+    padding-top: 4px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.78rem;
     font-weight: 600;
-    border: 1px solid transparent;
-    margin-bottom: 6px;
+    font-variant-numeric: tabular-nums;
   }
 
   /* === Row variant — 時序列 (/latest)：pill + serif title + 1-line desc + date === */
