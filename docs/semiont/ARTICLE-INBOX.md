@@ -158,6 +158,94 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 ## 📥 Pending（待開發）
 
+<!-- ═══ 哲宇 2026-06-14 directive — P0 rewrite batch（6 篇 EVOLVE，最優先）═══ -->
+
+### 報導者 EVOLVE — 非營利調查報導的台灣樣本
+
+- **Type**: `EVOLVE`
+- **Category**: Society
+- **Path** (EVOLVE only): knowledge/Society/報導者.md
+- **Priority**: `P0`
+- **Status**: `pending`
+- **Requested**: 2026-06-14 by 哲宇 directive（最優先 rewrite batch）
+- **Notes**:
+  - 事實鐵三角：創辦年份 / 創辦人（何榮幸）/ 基金會結構 / 重大調查案（如石化、移工、廢墟少年）逐一查證
+  - 中立框架：媒體立場敏感，寫「做了什麼調查 + 獲獎」不評政治傾向
+  - EVOLVE 方向：補足深度 + 腳註密度（Stage 0 萃取現有 + 補新查證）
+- **Reference**: 哲宇 directive 2026-06-14
+
+### 台灣網路社群遷徙史 EVOLVE — BBS 到 Threads 的數位棲地遷徙
+
+- **Type**: `EVOLVE`
+- **Category**: Technology
+- **Path** (EVOLVE only): knowledge/Technology/台灣網路社群遷徙史.md
+- **Priority**: `P0`
+- **Status**: `pending`
+- **Requested**: 2026-06-14 by 哲宇 directive（最優先 rewrite batch）
+- **Notes**:
+  - 事實鐵三角：各平台起訖年份（BBS/PTT/無名小站/FB/Dcard/Threads）+ 關站時間點逐一查
+  - 跟既有 `無名小站` SC striking-distance（1,178 曝光 pos 8.6）+ Threads 遷徙當代節點呼應
+  - EVOLVE 方向：時序軸 + 平台更替的「為什麼搬」敘事
+- **Reference**: 哲宇 directive 2026-06-14
+
+### 台灣流行音樂 EVOLVE — 從群星會到串流時代的島嶼聲音
+
+- **Type**: `EVOLVE`
+- **Category**: Music
+- **Path** (EVOLVE only): knowledge/Music/台灣流行音樂.md
+- **Priority**: `P0`
+- **Status**: `pending`
+- **Requested**: 2026-06-14 by 哲宇 directive（最優先 rewrite batch）
+- **Notes**:
+  - 事實鐵三角：年代分期、代表人物/專輯、金曲獎里程碑逐一查（避免主觀「最重要」）
+  - 注意跟既有 `流行音樂與金曲獎.md` 分工，避免重疊（一個是總覽史、一個是獎項）
+  - EVOLVE 方向：總覽通史 → 補足每個年代的聲音轉折 + 腳註
+- **Reference**: 哲宇 directive 2026-06-14
+
+### 造山者 EVOLVE — 《造山者：世紀的賭注》半導體紀錄片
+
+- **Type**: `EVOLVE`
+- **Category**: Art
+- **Path** (EVOLVE only): knowledge/Art/造山者世紀的賭注.md
+- **Priority**: `P0`
+- **Status**: `pending`
+- **Requested**: 2026-06-14 by 哲宇 directive（最優先 rewrite batch）
+- **Notes**:
+  - 事實鐵三角：紀錄片上映年份 / 導演 / 製作方 / 受訪人物逐一查（勿與半導體產業文混淆主軸）
+  - cross-link：[台灣半導體產業] / [TASA] / Technology 科技自主群
+  - EVOLVE 方向：以「紀錄片作為文本」切入，補史實對照
+- **Reference**: 哲宇 directive 2026-06-14
+
+### 沈伯洋 EVOLVE — 認知作戰研究者與黑熊學院
+
+- **Type**: `EVOLVE`
+- **Category**: People
+- **Path** (EVOLVE only): knowledge/People/沈伯洋.md
+- **Priority**: `P0`
+- **Status**: `pending`
+- **Requested**: 2026-06-14 by 哲宇 directive（最優先 rewrite batch）
+- **Notes**:
+  - ⚠️ **高政治敏感**（現任立委 / 兩岸 / 認知作戰 / 黑熊學院）— 事實鐵三角從嚴 + 政治立場中立呈現，寫「做了什麼研究/教育」不評統獨
+  - 必驗：學經歷、黑熊學院創辦時間/角色、立委屆次、研究領域（不可從英文摘要推任何具體細節）
+  - EVOLVE 方向：補足生平時序 + 認知作戰研究的具體著作/行動
+- **Reference**: 哲宇 directive 2026-06-14
+
+### 蔡英文 EVOLVE — 台灣首位女性總統的兩任八年
+
+- **Type**: `EVOLVE`
+- **Category**: People
+- **Path** (EVOLVE only): knowledge/People/蔡英文.md
+- **Priority**: `P0`
+- **Status**: `pending`
+- **Requested**: 2026-06-14 by 哲宇 directive（最優先 rewrite batch）
+- **Notes**:
+  - ⚠️ **高政治敏感**（前總統 / 兩岸 / 政黨）— 事實鐵三角從嚴 + 中立框架，政策寫「做了什麼 + 結果」不評好壞
+  - 必驗：任期（2016-2024）、重大政策時間點（年改/同婚/疫情/兩岸）、選舉數據逐一查
+  - EVOLVE 方向：八年任期時序 + 國際定位，補腳註密度
+- **Reference**: 哲宇 directive 2026-06-14
+
+<!-- ═══ /哲宇 2026-06-14 P0 batch ═══ -->
+
 ### 視覺模組 v2.0 進真實文 EVOLVE batch — tiles/pyramid/stack 各找原生宿主
 
 - **Type**: `EVOLVE`
