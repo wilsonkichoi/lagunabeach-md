@@ -165,14 +165,16 @@ BECOME_TAIWANMD.md Step 5 新增：
 - **Type**: `EVOLVE`
 - **Category**: Society
 - **Path** (EVOLVE only): knowledge/Society/報導者.md
-- **Priority**: `P0`
-- **Status**: `pending`
+- **Priority**: `P0` → **prose ship 2026-06-14 (twmd-rewrite-daily)** / **媒體補完待 P1**
+- **Status**: `prose-shipped-pending-media`
 - **Requested**: 2026-06-14 by 哲宇 directive（最優先 rewrite batch）
 - **Notes**:
-  - 事實鐵三角：創辦年份 / 創辦人（何榮幸）/ 基金會結構 / 重大調查案（如石化、移工、廢墟少年）逐一查證
-  - 中立框架：媒體立場敏感，寫「做了什麼調查 + 獲獎」不評政治傾向
-  - EVOLVE 方向：補足深度 + 腳註密度（Stage 0 萃取現有 + 補新查證）
-- **Reference**: 哲宇 directive 2026-06-14
+  - **2026-06-14 prose ship 完成**：8509 char / 60 footnote / 11 場景式 H2 / Stage 0-1 SSOT (commit 99bc9e6ef) + Stage 2-3 fresh Opus writer + 文體紀律 (對位 1 / 破折號 2 / 0 編年體 stub)
+  - **媒體 gap 待補（pre-existing，pre-v6.8）**：原版 0 image, EVOLVE 維持 text-only ship；image-health hard=1 (length-scaled ≥6 for 7000 字)；SSOT §F 記 Wikimedia 404 / 無 Flickr / 無 TED — 後續走 Chrome MCP rendered-DOM scrape 報導者官方文章頁 fair-use editorial commentary（hero 1 + scene-mid 2-3 + 官方 YouTube embed 1）
+  - **SPORE defer**：image hard → 自動 spore-publish 失格（per pipeline v6.8）；待媒體補完後重跑 SPORE chain
+  - 事實鐵三角：創辦年份 / 創辦人（何榮幸）/ 基金會結構 / 重大調查案 — 已查證完整 SSOT §3-§8
+  - 中立框架：寫「做了什麼調查 + 獲獎」不評政治傾向 — 已落實（童子賢民進黨智庫副董 = 輿論質疑無事實佐證，不寫）
+- **Reference**: 哲宇 directive 2026-06-14 + LESSONS-INBOX 2026-06-14 image-health-evolve-pre-existing-text-only-block + research/2026-06/報導者-evolve-20260614.md
 
 ### 台灣網路社群遷徙史 EVOLVE — BBS 到 Threads 的數位棲地遷徙
 

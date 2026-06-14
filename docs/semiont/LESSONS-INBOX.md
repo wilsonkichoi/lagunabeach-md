@@ -287,6 +287,16 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 ## 未消化清單（📥 待 distill）
 
+### 2026-06-14 twmd-rewrite-daily — Image-health v6.8 hard gate 對「pre-existing text-only depth article」全 EVOLVE-block，cron full cycle 卡 Stage 2
+
+- **pattern**: image-health-evolve-pre-existing-text-only-block
+- **原則**：v6.8 image-health 把 depth article media count 升為 length-scaled HARD（6900 字 → ≥6 圖），但對 v6.8 前已 ship 的 text-only depth article（如報導者，2026-04-29 原版 36 footnote / 0 image）做 EVOLVE 時，整個 cycle 在 Stage 2 article-health gate 卡住 — 即使 EVOLVE 提供巨大 prose value（人頭 anchor 4→8000 + 2025-2026 軌跡擴張 + 8500 char / 60 footnote / 場景式 H2 11 節），且 image gap 是 pre-existing 不是 regression。pipeline 的「rewrite-stage-4 hard=0 warn=0」嚴格 gate 沒有「pre-existing gap defer」這條 escape，cron mode 變成「prose 寫完了但卡在 image 沒辦法 ship」。
+- **觸發**：2026-06-14 twmd-rewrite-daily 18:xx 跑報導者 EVOLVE 全 cycle。Stage 0-1 SSOT 早上已 ship（commit 99bc9e6ef）；Stage 2 fresh Opus writer 寫出 8509 char depth article PASS 所有 format/wikilink/word-count/punct/chronicle/viz 等 gate，唯獨 image-health hard=1（pre-existing text-only）。SSOT §F 明記 Wikimedia Commons 404 / 無 Flickr / 何榮幸無 TED Talk → 媒體只能走 Chrome MCP rendered-DOM 對報導者官方文章頁 fair-use editorial commentary。cron context 沒時間做 Chrome MCP 全流程（~20-30 min wall clock + 下載 + webp + 授權標註 + 配 caption + 重跑 article-health），且本 routine 已 burning tokens 接近上限。
+- **本次處置**：ship 純 prose EVOLVE（接受 image-health hard fail），LESSONS 立此 entry，ARTICLE-INBOX append「報導者 — 媒體補完」P1 entry 給後續 EVOLVE。SPORE chain 自動 defer（per pipeline §6.8 image hard → spore-publish 失格）。
+- **可能層級**：(a) REWRITE-PIPELINE 加「EVOLVE 模式 image-health pre-existing exception」條款（pre-v6.8 ship 過的 text-only article EVOLVE 時，image hard 降 WARN + ARTICLE-INBOX append media follow-up；prose ship 不阻擋）；(b) 或加 article-health.py `--ignore=image-health` flag 給 cron mode 在已偵測 pre-existing 時 graceful skip；(c) 或 routine prompt 補「image hard 時 prose ship + SPORE defer 是合法分支」明文化決策樹。
+- **相關**：[[image_media_toolchain]]（圖像後處理基礎設施）+ REWRITE-PIPELINE v6.8 §媒體完整度低標 + REFLEXES #15（規則要能執行才算規則 — 嚴格 gate 對 pre-existing gap 沒分流 = 規則卡 cron 但無 escape valve）+ MANIFESTO §架構解 vs 守備修補（這條候選架構解：pre-existing exception 條款）。
+- **verification_count**: 1
+
 ### 2026-06-14 154636-無名小卒勘誤 — Stage 1 研究查對了站名，Stage 2 下筆把「命名由來引語」壓成「字面站名」，孢子自檢還合理化成「專名」
 
 - **pattern**: stage2-quote-context-collapse
