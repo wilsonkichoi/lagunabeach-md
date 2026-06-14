@@ -287,6 +287,11 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 ## 未消化清單（📥 待 distill）
 
+### 2026-06-14 103403-semantic-related — instrument 對監看目標的路徑寫死，目標改名 → watcher 靜默全盲（broken-instrument #59 變體）
+
+- **watcher 把被監看檔的路徑 hardcode → rename/move 後 watcher 掃空但不 fail-loud，反而把活的東西誤報成死的**：`HomeEventTracker.astro` → `EventTracker.astro` 改名後，`instrumentation-audit.py` 的 `TRACKER_FILES` 仍指舊路徑 → audit 掃到 0 event、把全部還在 fire 的 GA4 dim（section/depth_pct/label...）誤報「在 SSOT 但沒 event fire，可能已死」。同時 `register-ga4-custom-dimensions.py` 沒跟上新 param `page_type` → GA4 custom dim 不註冊 → 每個 event 的 page_type silent (not set)。兩個都是「改 code」與「改監看/註冊 SSOT」兩條分離流程的漂移，**漂移端是靜默的**（audit 印 warn 不印 error、GA4 dim 空值沒人看）。這是 **REFLEXES #59 broken-instrument-blindspot** 的變體（不是「表面同/語意反」，是「instrument 對自己目標的引用會在 refactor 時悄悄脫鉤」）+ **#69 self-report-needs-external-ruler**（watcher 自報「全綠/全死」前要先確認自己掃的是不是還活著的目標）。**架構解候選**：watcher 對 target 路徑的引用要嘛 glob-derive（掃 `src/components/*EventTracker*.astro`）要嘛在 target 不存在時 fail-loud 升 error 而非 warn（`tracker not found` 現在只印 stderr 不阻斷）。vc=1（本 session 首次，但與 #59 同 family 可併入加 vc）。
+- **rename 一個被 instrument 監看的東西 = 同 commit 要 grep 反向引用**：改 tracker / 工具 / 資料檔的檔名或路徑時，先 `grep -rn "<old-name>"` 找所有把它寫死的 watcher / audit / CI gate / SSOT，同 commit 一起更新。否則 immune layer 在你看不見的地方變瞎。
+
 ### 🧬 2026-06-10 opendata session — 3 候選（Twinkle Hub pilot + /opendata 策展頁 + 部署解封）
 
 - **Alpha 外部 API 的整合鐵律「靜態指標、不 runtime 依賴」實證**：Twinkle Hub 兩個月兩次 contract 大改（裸 POST→session 握手、40→21 工具、twtools 整組下架）+ alpha rate limit 無預告出現（query_rows 首發 429）。文章引用一律寫成靜態 metadata（dataset_id + data.gov.tw 持久 URL + verified 日期），查詢層當可掉的加值。薄包裝（twinkle-hub-verify.py）隔離 contract 變動 + 429 退避 4 段。任何 alpha 依賴都該長這樣
@@ -456,6 +461,7 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **Stage 3 re-verify 延伸**：writer agent 自報 gates 全過，主 session 抽查抓到 [^17] 誠品年榜掛錯 URL（指到創媒體訪談）+ 下載書封看圖前差點 cache 一張無關成人漫畫封面（錯 ID）。引語要查、footnote 來源 URL 也要查、圖看過再 cache。
 - **可能層級**：通用反射（established practice 不問 = don't-keep-asking 精緻化）+ REWRITE Stage 3 補強（re-verify 範圍含 footnote URL + 圖內容）
 - **相關**：REFLEXES #31（自評會騙人，連今日辦桌／nuclear／carousel 同 pattern）；標題抽象原則已升 EDITORIAL v6.9 不另進 inbox
+- **+instance (2026-06-14 廣告史)**：fresh Opus writer 拿到 research §7 specific 一手 URL，仍憑記憶重打 9 處腳註掛錯來源（孫大偉 managertoday view/54819→應 355、葉明桂/范可欽 gvm 首頁→應 article/68573 與 /7585、許舜英引語掛中興 brain 頁→應壹週刊 douban）。成品總驗 Stage 3.6.1 逐條改回一手具體頁。根因細化：writer 不是查不到，是「fact-pack 餵對事實、URL 憑印象重打」→ REWRITE Stage 2 writer prompt 應明令「腳註 URL 逐字從 research §7 複製，禁憑記憶重打」。vc 累積中（黃山料 [^17] + 廣告史 9 處）。
 
 ### 2026-06-07 carousel-charts — 視覺自檢「全綠」≠ 過人眼（自評會騙人擴張到視覺，REFLEXES #31）
 

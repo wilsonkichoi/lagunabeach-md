@@ -121,9 +121,71 @@ export function getArticlesIndex(
   return entry;
 }
 
+/* ───────────────────────────────────────────────────────────────────────────
+ * Semantic related articles (RAG Phase 1, 2026-06-14)
+ *
+ * src/data/related/{lang}.json maps `${cat}/${slug}` → up to 5 nearest-neighbour
+ * `${cat}/${slug}` strings, pre-computed offline from bge-m3 embeddings on the
+ * GPU fleet (scripts/core/build-embeddings.mjs → slimmed to slug-only). The
+ * reader gets cross-topic semantic neighbours (e.g. a 戒嚴 article surfaces a
+ * 白色恐怖 piece in a different category) instead of same-category proximity —
+ * with ZERO browser model: the links are baked into the article HTML at build.
+ *
+ * Graceful degrade: if the file is absent (CI build without a fleet rebuild) or
+ * the article isn't in the map, getRelatedArticles falls back to the original
+ * same-category behaviour. Architecture: reports/research/2026-06/
+ * p0-compute-experiments-2026-06-14.md + rag-design-research-2026-06-13.md.
+ * ──────────────────────────────────────────────────────────────────────────*/
+
+const _semanticRelated = new Map<string, Promise<Record<string, string[]>>>();
+function loadSemanticRelated(
+  lang: string,
+): Promise<Record<string, string[]>> {
+  let entry = _semanticRelated.get(lang);
+  if (!entry) {
+    entry = readFile(
+      resolve(process.cwd(), 'src/data/related', `${lang}.json`),
+      'utf-8',
+    )
+      .then((raw) => {
+        try {
+          return JSON.parse(raw) as Record<string, string[]>;
+        } catch {
+          return {};
+        }
+      })
+      .catch(() => ({})); // no semantic index → category fallback
+    _semanticRelated.set(lang, entry);
+  }
+  return entry;
+}
+
+// Flat `${cat}/${slug}` → ArticleSummary lookup, memoised per lang. Lets the
+// semantic neighbour slugs resolve back to full summaries for the card render.
+const _bySlug = new Map<string, Promise<Map<string, ArticleSummary>>>();
+function getBySlugIndex(
+  lang: string,
+): Promise<Map<string, ArticleSummary>> {
+  let entry = _bySlug.get(lang);
+  if (!entry) {
+    entry = getArticlesIndex(lang).then((index) => {
+      const flat = new Map<string, ArticleSummary>();
+      for (const [cat, articles] of index) {
+        for (const a of articles) flat.set(`${cat}/${a.slug}`, a);
+      }
+      return flat;
+    });
+    _bySlug.set(lang, entry);
+  }
+  return entry;
+}
+
 /**
- * Convenience: related articles in same category (excluding current slug),
- * limited to N entries.
+ * Related articles for the article-page footer. Prefers semantic neighbours
+ * (cross-category, meaning-based) from the pre-computed index; falls back to
+ * same-category proximity when the semantic index is absent or the article is
+ * not indexed. Return shape is unchanged (ArticleSummary[]) so callers and the
+ * RelatedArticleCard component need no changes.
  */
 export async function getRelatedArticles(
   lang: string,
@@ -132,6 +194,22 @@ export async function getRelatedArticles(
   limit = 3,
 ): Promise<ArticleSummary[]> {
   const index = await getArticlesIndex(lang);
+
+  // Semantic first.
+  const semantic = await loadSemanticRelated(lang);
+  const neighbours = semantic[`${category}/${excludeSlug}`];
+  if (neighbours && neighbours.length) {
+    const bySlug = await getBySlugIndex(lang);
+    const out: ArticleSummary[] = [];
+    for (const key of neighbours) {
+      const art = bySlug.get(key);
+      if (art && art.slug !== excludeSlug) out.push(art);
+      if (out.length >= limit) break;
+    }
+    if (out.length) return out;
+  }
+
+  // Fallback: same-category proximity (original behaviour).
   const inCategory = index.get(category) ?? [];
   return inCategory.filter((a) => a.slug !== excludeSlug).slice(0, limit);
 }
