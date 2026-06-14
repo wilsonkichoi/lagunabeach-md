@@ -588,6 +588,7 @@ memory/
 | 2026-06-14 | 084018-twmd-maintainer-am (cron) | 0 PR / 21 chronic issue / vc=3 第四輪 chain 命中閾值 — 6/13 am vc=1 → 6/13 pm vc=2 → **6/14 am vc=3**。build green / broken-link 0.37% gated PASS。LESSONS L329 bump v=8→v=9 + observer escalate（3 schedule 候選 14 天 chronic pending）。`<this commit>` | **第四輪 chain 新 surface 比前三輪更尖銳**：整夜 manual 19 commits ship 4 篇 S 級 EVOLVE + 胼胝體鐵律 §8 land + REWRITE v7.3 + babel GPU 委派 + 5090 diary 翻譯 — organism 內部生產力爆棚但 contributor PR zero engagement，證偽「reschedule 能解」假設。可能需 Option D「承認 cron design 假設失效 + maintainer manual-trigger only」候選 | [→](memory/2026-06-14-084018-twmd-maintainer-am.md) |
 | 2026-06-14 | 025107-廣告史 (manual) | 台灣廣告史 Fresh S 級深度文 ship — 10-agent fan-out 全 pipeline（4 persona+1 探索+5 研究 §A-§E 103 搜尋+fresh Opus writer+媒體深掃）/ 5535 字 56 腳註 3 tw-\* / 核心矛盾＝商業失敗記憶成功 + 老三台 1962-1994 注意力壟斷造記憶 thesis。`f7484ebea` | clean fact-pack 餵對事實，writer 仍憑記憶重打 9 處腳註 URL 掛錯來源（成品總驗 3.6.1 改回）→ prompt 要明令逐字複製 §7 | [→](memory/2026-06-14-025107-廣告史.md) |
 | 2026-06-14 | 013028-manual | 無名小站 EVOLVE A→S：20-persona + 4-agent 115 搜尋 + 6 證偽全文重寫，「電源」物件母題當 spine，數位保存反差（Archive 45GB vs BnF 37TB），media-poor 2 CC 圖 + 雙向 cross-link。`45f5bf83e` | writer self-grep「腳註全引用」≠「引用對源」，footnote 綁錯源只有 adversarial 對源 Ctrl-F 抓得到（同日廣告史同 pattern，vc=2）| [→](memory/2026-06-14-013028-manual.md) |
+| 2026-06-14 | 125055-manual | Portaly 三筆匿名一次性贊助（NT$100/500/2,000）走既有 pipeline 落 SSOT + regen，NT$3,400→6,000 / 4→7人 / 🌿1→2。`cc56472ac` | 金錢欄位逐字驗完整 email body 不靠 snippet；四月造的 Portaly pipeline 複利幾分鐘收 | [→](memory/2026-06-14-125055-manual.md) |
 
 ## 神經迴路（永不過期的教訓）
 
