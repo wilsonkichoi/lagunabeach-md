@@ -287,6 +287,24 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 ## 未消化清單（📥 待 distill）
 
+### 2026-06-14 132118-manual — Chrome MCP content-block 讓 spore pre-ship 的 JS 段落結構檢查失準，截圖才是權威驗證
+
+- **pattern**: chrome-mcp-content-block-js-verify-unreliable
+- **原則**：透過 Chrome MCP 在 X / Threads compose 上跑 JS 讀 `block_count`（`:scope > div` 計數）/ `firstElementChild.textContent` 驗段落結構，會撞平台 content-protection 回 `[BLOCKED: Cookie/query string data]` + block 計數誤報 collapsed。段落結構的權威驗證是**截圖（視覺）**，不是 JS check——pipeline 自己也寫「真正 verify 是 Cmd+V 進 compose 看顯示效果」。SOCIAL-POSTING pre-ship check 7（block≥4）/ 8（hook 第一行≤15）的 JS 路徑在這兩平台不可靠，要 fallback 視覺確認。
+- **觸發**：2026-06-14 spore #138/#139 無名小站 ship。X pre-ship JS 回 `block_count=1` + c8「[BLOCKED]」→ 一度誤判 collapsed，截圖確認 hook+5 段分好才放行；發出後 tweetText `你知道嗎？\n\n1999` 證實 JXA NSPasteboard 段落其實正常。pointer [memory/2026-06-14-132118-manual.md](memory/2026-06-14-132118-manual.md)。
+- **可能層級**：操作規則（SOCIAL-POSTING §AI pre-ship self-check 7/8 加註「JS block_count 在 X/Threads 被 content-block 干擾不可信，以截圖為準」）+ 候選儀器化。
+- **相關**：HARVEST [Pitfall 6](../factory/SPORE-HARVEST-PIPELINE.md) dialogStillOpen cached state 同 session 二次驗證——Threads 發佈後 JS 回 `dialogStillOpen=true` 但截圖 modal 已關（已發佈），盲信去 re-click 就是 5/28 triple-ship 重演（截圖確認再決定，max 1 retry）。同屬「Chrome MCP 回的 DOM/state query 被 cache / block 污染」family。
+- **verification_count**: 1
+
+### 2026-06-14 132118-manual — 哲宇授權 spore 內容 OK 即 auto-post（manual session），延伸 SOCIAL-POSTING v0.5 自動化到手動場景
+
+- **pattern**: spore-autopost-manual-session-authorized
+- **原則**：哲宇 directive「你讀 pipeline 自動發，未來不要再問我了，我一邊在審核 內容有說 ok 就代表後續你可以自動發」。manual session 不再 per-spore confirm 發文——content OK（觀察者已看過 / 沒反對 surfaced 的 事實查核表+body）即綠燈，AI 跑完 pre-ship 8-check + click 發佈 + post-ship verify 全自動。superseded REFLEXES #26 v2「human clicks 發佈」for spores。
+- **觸發**：2026-06-14 spore #138/#139 ship 時哲宇 AskUserQuestion 回此 directive。已落 auto-memory feedback。
+- **可能層級**：MANIFESTO §自主權邊界「對外輸出層 spore Post」措辭更新（defer 哲宇拍板）——跟 SOCIAL-POSTING v0.5 changelog「routine 例外條款待 distill 後明文進 MANIFESTO canonical」同一條 thread，本次把 scope 從 routine 擴到 manual，vc++。
+- **相關**：[[feedback_spore_autopost_after_content_ok]] + SOCIAL-POSTING-PIPELINE v0.5 §安全與治理 + MANIFESTO §自主權邊界。
+- **verification_count**: 2
+
 ### 2026-06-14 115617-card-refactor — `git add <含已 rm 的路徑>` abort → 只 commit 部分 → main 中途壞（vc=2）+ template-clone 是 client 重用元件正解
 
 - **含刪除的 commit：`git add file1 file2 deleted-file` 撞到已 `git rm` 的路徑 → 整個 `git add` abort（pathspec did not match）→ 只有先前 staged 的 deletion 進 commit，其他改動沒 stage → push 出一個「刪了檔但沒帶上取代它的 migration」的 commit，origin/main 中途 build 壞**（CI 在那個 commit 會紅，下一個 commit 修好；CF Pages 服務上一個成功 build 故無 production 影響，但留壞 commit + 浪費一次 CI）。**vc=2**：今天兩次——HomeEventTracker 刪除（rename）+ RelatedArticleCard 退役。**修補**：(a) 含刪除的 batch 用 `git add -A` 或 `git commit -a`，別把已 rm 的檔列進 `git add`；(b) 或 deletion 已 staged 就讓它 ride，`git add` 只列「還沒 staged 的存活檔」；(c) commit 後立即 `git show --stat HEAD` 驗檔數對不對（這次就是這樣抓到的，但已 push）。跟 entry 2458「shared index commit-sweep」同 family（git 操作的隱蔽失敗模式）但不同 mode：那個是平行 session 偷 attribution，這個是 add abort 漏 stage。
