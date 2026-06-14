@@ -590,6 +590,7 @@ memory/
 | 2026-06-14 | 013028-manual | 無名小站 EVOLVE A→S：20-persona + 4-agent 115 搜尋 + 6 證偽全文重寫，「電源」物件母題當 spine，數位保存反差（Archive 45GB vs BnF 37TB），media-poor 2 CC 圖 + 雙向 cross-link。`45f5bf83e` | writer self-grep「腳註全引用」≠「引用對源」，footnote 綁錯源只有 adversarial 對源 Ctrl-F 抓得到（同日廣告史同 pattern，vc=2）| [→](memory/2026-06-14-013028-manual.md) |
 | 2026-06-14 | 125055-manual | Portaly 三筆匿名一次性贊助（NT$100/500/2,000）走既有 pipeline 落 SSOT + regen，NT$3,400→6,000 / 4→7人 / 🌿1→2。`cc56472ac` | 金錢欄位逐字驗完整 email body 不靠 snippet；四月造的 Portaly pipeline 複利幾分鐘收 | [→](memory/2026-06-14-125055-manual.md) |
 | 2026-06-14 | 132118-manual | tw-versus 手機成對小卡修（全站共用 `b29977072`）+ 無名小站 搖籃 + 2→5 圖 + spore #138/#139「電源開關」雙平台 ship `919072b78` | Chrome MCP 的 JS query 被 content-block/cache 污染，狀態以截圖為權威 | [→](memory/2026-06-14-132118-manual.md) |
+| 2026-06-14 | 154636-無名小卒勘誤 | 讀者抓無名小站「無名小卒」站名幻覺；三源查證（光華/維基/看雜誌）正名「無名」。研究 SSOT 本查對，Stage 2 下筆把命名由來引語壓成站名（孢子自檢還合理化成「專名」）；文章 4 處＋孢子 #138 修＋公開勘誤 `9c871ad3b`，附帶 CI Node20→24 PR #1150 | 引語逐字存在≠語境角色對（stage2-quote-context-collapse）；反方 claim 也要 falsify（讀者「不是 BBS」才錯）| [→](memory/2026-06-14-154636-無名小卒勘誤.md) |
 
 ## 神經迴路（永不過期的教訓）
 
