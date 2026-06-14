@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T22:11:01.607Z",
+  "lastUpdated": "2026-06-14T15:08:55.501Z",
   "organs": [
     {
       "id": "heart",
@@ -10,9 +10,9 @@
       "score": 90,
       "trend": "up",
       "metrics": {
-        "articlesLast7Days": 54,
-        "articlesLast30Days": 177,
-        "totalArticles": 796
+        "articlesLast7Days": 56,
+        "articlesLast30Days": 181,
+        "totalArticles": 797
       }
     },
     {
@@ -26,17 +26,17 @@
       "version": "v2-2026-05-16",
       "metrics": {
         "humanReviewedCount": 209,
-        "totalArticles": 796,
-        "humanReviewedPercent": 26.3,
+        "totalArticles": 797,
+        "humanReviewedPercent": 26.2,
         "v2Status": "漂移 — 多維度退化中",
         "v2Components": {
-          "review_coverage": 27.6,
-          "plugin_pass_rate": 70,
+          "review_coverage": 27.5,
+          "plugin_pass_rate": 69.9,
           "plugin_health": 50,
           "citation_density": 90.6,
           "tool_freshness": 80,
           "drift_velocity": 90,
-          "external_rulers": 3.1
+          "external_rulers": 3.3
         }
       }
     },
@@ -46,7 +46,7 @@
       "nameZh": "遺傳密碼",
       "metaphor": "品質基因",
       "emoji": "🧬",
-      "score": 95,
+      "score": 80,
       "trend": "up",
       "metrics": {
         "editorialLastModified": "2026-06-07T11:21:29.000Z"
@@ -83,10 +83,10 @@
       "score": 100,
       "trend": "up",
       "metrics": {
-        "recentContributors": 8,
-        "recentSpores": 22,
+        "recentContributors": 7,
+        "recentSpores": 28,
         "topPerformerCount": 5,
-        "topPerformerAvgViews": 153428,
+        "topPerformerAvgViews": 155495,
         "hasBlockbuster": true
       }
     },
@@ -113,7 +113,7 @@
       "trend": "up",
       "metrics": {
         "languageCoverage": {
-          "zh-TW": 796,
+          "zh-TW": 797,
           "en": 799,
           "ja": 795,
           "ko": 796,

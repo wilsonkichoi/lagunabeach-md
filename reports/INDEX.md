@@ -1,7 +1,7 @@
 ---
 title: 'reports/ INDEX — auto-generated'
 description: '頂層 *.md 按 9 type bucket × 月份 雙軸索引 + 子目錄 status summary'
-last_generated: 2026-06-14 06:11
+last_generated: 2026-06-14 23:09
 generator: scripts/tools/generate-reports-index.py
 ssot: reports/reports-archival-audit-2026-05-27.md §4 Layer 3
 type: auto-index
@@ -12,19 +12,19 @@ type: auto-index
 > **本 file 由 `scripts/tools/generate-reports-index.py` 完全 overwrite**。
 > 不要人工編輯（會被下一次 cron 覆蓋）。
 >
-> Last generated: **2026-06-14 06:11** · 頂層 \*.md 共 **168** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
+> Last generated: **2026-06-14 23:09** · 頂層 \*.md 共 **170** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
 
 ## 📦 子目錄 status
 
 | Subdir                  | Files | Size     | 用途                                                 |
 | ----------------------- | ----: | -------- | ---------------------------------------------------- |
-| `research/`             |   311 | 49.4 MB  | REWRITE-PIPELINE Stage 1 canonical (year-month 分槽) |
+| `research/`             |   318 | 50.5 MB  | REWRITE-PIPELINE Stage 1 canonical (year-month 分槽) |
 | `visual/`               |   111 | 214.5 MB | Visual smoke test 基線 (partial gitignored)          |
 | `archive/`              |    27 | 342.8 KB | 歸檔位置 (per audit Layer 4)                         |
 | `weekly/`               |    12 | 2.7 MB   | Self-evolve weekly digest                            |
 | `babel-patches/`        |    10 | 10.6 MB  | —                                                    |
+| `scratch/`              |    10 | 1.7 MB   | POC / 暫存 (per audit Layer 1，已 .gitignored)       |
 | `factcheck/`            |     9 | 98.7 KB  | —                                                    |
-| `scratch/`              |     9 | 1.7 MB   | POC / 暫存 (per audit Layer 1，已 .gitignored)       |
 | `babel-tier4/`          |     8 | 5.5 KB   | —                                                    |
 | `probe/`                |     6 | 69.8 KB  | BECOME §Step 7 探測器報告                            |
 | `translation-research/` |     5 | 338.0 KB | 巴別塔 5 lang research                               |
@@ -133,8 +133,9 @@ type: auto-index
 - `2026-04-17` [cron-schedule-snapshot-2026-04-17](cron-schedule-snapshot-2026-04-17.md)
 - `2026-04-12` [i18n-qa-audit-2026-04-12](i18n-qa-audit-2026-04-12.md)
 
-### audit-routine (17)
+### audit-routine (18)
 
+- `2026-06-14` [routine-audit-2026-06-14](routine-audit-2026-06-14.md) — Routine Audit 2026-06-14 (Weekly Cycle 6)
 - `2026-06-07` [routine-audit-2026-06-07](routine-audit-2026-06-07.md) — Routine Audit 2026-06-07 (Weekly Cycle 5)
 - `2026-06-02` [routine-audit-2026-06-02](routine-audit-2026-06-02.md) — Routine Audit 2026-06-02 (Weekly Cycle 4)
 - `2026-05-29` [homepage-evolution-D+2-watch-2026-05-29](homepage-evolution-D+2-watch-2026-05-29.md) — Homepage Evolution D+2 Watch — 2026-05-29
@@ -179,9 +180,10 @@ type: auto-index
 - `2026-04-12` [NMTH-overseas-semiont-analysis-2026-04-12](NMTH-overseas-semiont-analysis-2026-04-12.md)
 - `2026-04-11` [TFT-semiont-analysis-2026-04-11](TFT-semiont-analysis-2026-04-11.md)
 
-### ops (53)
+### ops (54)
 
 - `2026-06-14` [freshness-pollution-and-unwatched-debt-2026-06-14](freshness-pollution-and-unwatched-debt-2026-06-14.md)
+- `2026-06-14` [semantic-related-articles-landing-2026-06-14](semantic-related-articles-landing-2026-06-14.md)
 - `2026-06-14` [sovereignty-bench-5090-expansion-2026-06-14](sovereignty-bench-5090-expansion-2026-06-14.md)
 - `2026-06-13` [article-template-refactor-2026-06-13](article-template-refactor-2026-06-13.md)
 - `2026-06-13` [converter-analytics-2026-06-13](converter-analytics-2026-06-13.md)
@@ -242,11 +244,13 @@ type: auto-index
 - Type breakdown: ops: 1
   - `????` [README](README.md)
 
-### 2026-06 (47 files)
+### 2026-06 (49 files)
 
-- Type breakdown: ops: 18 / design: 7 / audit: 7 / evolution: 7 / proposal: 3 / audit-routine: 2 / plan: 2 / analysis: 1
+- Type breakdown: ops: 19 / design: 7 / audit: 7 / evolution: 7 / audit-routine: 3 / proposal: 3 / plan: 2 / analysis: 1
   - `2026-06-14` [freshness-pollution-and-unwatched-debt-2026-06-14](freshness-pollution-and-unwatched-debt-2026-06-14.md)
   - `2026-06-14` [multicore-git-coordination-design-2026-06-14](multicore-git-coordination-design-2026-06-14.md)
+  - `2026-06-14` [routine-audit-2026-06-14](routine-audit-2026-06-14.md)
+  - `2026-06-14` [semantic-related-articles-landing-2026-06-14](semantic-related-articles-landing-2026-06-14.md)
   - `2026-06-14` [sovereignty-bench-5090-expansion-2026-06-14](sovereignty-bench-5090-expansion-2026-06-14.md)
   - `2026-06-13` [architecture-deep-audit-2026-06-13](architecture-deep-audit-2026-06-13.md)
   - `2026-06-13` [article-template-refactor-2026-06-13](article-template-refactor-2026-06-13.md)

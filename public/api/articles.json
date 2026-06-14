@@ -17724,8 +17724,8 @@
     "path": "ja/History/hukou-camp-shengli-road-memory.md"
   },
   {
-    "title": "報導者：把調查報導從營業項目救成公共財的十年",
-    "description": "2015 年 9 月 1 日記者節，何榮幸和張鐵志開記者會宣布成立由童子賢初始捐助 500 萬元的《報導者》。十年後，這個拒絕廣告、不接政府標案、不顯示點閱率的非營利媒體，年募款額從 3,400 萬翻到 5,200 萬，連續多年拿下 SOPA 與卓越新聞獎。他們做的事情，是把調查報導從商業媒體的營業項目，救成靠陌生讀者每月扣款撐起來的公共財。",
+    "title": "報導者：燒錢的速度，永遠跑在募款前面",
+    "description": "從 4 位定期定額捐款者到每月 8,000 位，從《血淚漁場》三部曲到 2026 統戰專題，《報導者》十年燒掉的成本——八個月臥底、跨三國採訪、比對多年違規紀錄——正好是演算法時代最沒人想付錢看的東西。這座島嶼的公民社會用陌生人每月扣款的方式，把調查報導從商業媒體的營業項目，救成一塊一直在養、卻越燒越快的公共財。",
     "category": "Society",
     "tags": [
       "媒體",
@@ -17736,7 +17736,7 @@
       "何榮幸"
     ],
     "url": "https://taiwan.md/society/%E5%A0%B1%E5%B0%8E%E8%80%85",
-    "readingTime": 33,
+    "readingTime": 57,
     "featured": true,
     "date": "2026-04-29",
     "path": "Society/報導者.md"
@@ -17941,7 +17941,7 @@
   },
   {
     "title": "無名小站：撿來的電腦，賣掉的青春，和一場沒人送葬的消失",
-    "description": "1999 年交大宿舍，六個資工系學生用系上報廢的設備拼出一個叫「無名小卒」的 BBS。它長成全台最大的部落格、台灣創作者經濟的子宮，2008 年甚至爬到 Yahoo 頭上成為第一大網站。然後 Yahoo 把它買走，2013 年 12 月 26 日那晚連同一代人的相簿一起刪掉，如今多數人只撈得回打不開的空相簿。它被記成青春，但那個青春從頭就放在別人關得掉的伺服器上。",
+    "description": "1999 年交大宿舍，六個資工系學生用系上報廢的設備拼出一個叫「無名」的 BBS。它長成全台最大的部落格、台灣第一代創作者的搖籃，2008 年甚至爬到 Yahoo 頭上成為第一大網站。然後 Yahoo 把它買走，2013 年 12 月 26 日那晚連同一代人的相簿一起刪掉，如今多數人只撈得回打不開的空相簿。它被記成青春，但那個青春從頭就放在別人關得掉的伺服器上。",
     "category": "Culture",
     "tags": [
       "網路歷史",
@@ -17952,9 +17952,9 @@
       "數位保存"
     ],
     "url": "https://taiwan.md/culture/%E7%84%A1%E5%90%8D%E5%B0%8F%E7%AB%99",
-    "readingTime": 48,
+    "readingTime": 50,
     "featured": false,
-    "date": "2026-03-23",
+    "date": "2026-06-14",
     "path": "Culture/無名小站.md"
   },
   {
@@ -19318,7 +19318,7 @@
     "url": "https://taiwan.md/people/%E7%98%82%E5%BC%A6",
     "readingTime": 38,
     "featured": true,
-    "date": "2026-05-28",
+    "date": "2026-06-14",
     "path": "People/瘂弦.md"
   },
   {
@@ -22489,6 +22489,24 @@
     "featured": false,
     "date": "2026-05-07",
     "path": "ja/Art/yingge-ceramics-museum.md"
+  },
+  {
+    "title": "彎彎：給了全台灣上班族一張臉，卻在十二天內差點弄丟自己",
+    "description": "2004年，胡家瑋以「彎彎」之名在無名小站發跡，憑藉MSN大頭貼成為台灣首位千萬身價插畫家。從「可不可以不要上班」的圖文天后到2014年新婚十二天的外遇風暴，她用簡筆光頭人定義了一個時代的集體情緒，也親身示範了人設崩解後的安靜生存。",
+    "category": "People",
+    "tags": [
+      "插畫",
+      "圖文創作",
+      "MSN時代",
+      "網路文化",
+      "彎彎",
+      "胡家瑋"
+    ],
+    "url": "https://taiwan.md/people/%E5%BD%8E%E5%BD%8E",
+    "readingTime": 14,
+    "featured": false,
+    "date": "2026-06-14",
+    "path": "People/彎彎.md"
   },
   {
     "title": "A Century of Change in Taiwanese Watercolor Painting: A Hundred Years of Accumulation from Ishikawa Kinichiro to Chien Chung-wei",

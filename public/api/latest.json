@@ -1,15 +1,70 @@
 {
-  "_generated": "2026-06-13T22:11:05.070Z",
+  "_generated": "2026-06-14T15:09:04.014Z",
   "perLang": 30,
   "byLang": {
     "zh-TW": [
+      {
+        "title": "彎彎：給了全台灣上班族一張臉，卻在十二天內差點弄丟自己",
+        "desc": "2004年，胡家瑋以「彎彎」之名在無名小站發跡，憑藉MSN大頭貼成為台灣首位千萬身價插畫家。從「可不可以不要上班」的圖文天后到2014年新婚十二天的外遇風暴，她用簡筆光頭人定義了一個時代的集體情緒，也親身示範了人設崩解後的安靜生存。",
+        "category": "people",
+        "href": "/people/%E5%BD%8E%E5%BD%8E",
+        "date": "2026-06-14T22:05:19+08:00",
+        "readingTime": 15,
+        "image": ""
+      },
+      {
+        "title": "瘂弦：寫完《深淵》就封筆，後半生在聯副成詩史一頁",
+        "desc": "1968 年瘂弦 36 歲，把九十首詩編成一本《深淵》之後就停筆。從 1977 到 1998 年他主編《聯合報》副刊 21 年，把編輯台變成台灣戰後最重要的文學公共空間。2024 年 10 月 11 日他在加拿大溫哥華辭世，享耆壽 92 歲——封筆 56 年的沉默比千冊詩集更長，「哈里路亞，我仍活著」副歌成為戒嚴年代晦澀躲過警總審檢的詩史記號。",
+        "category": "people",
+        "href": "/people/%E7%98%82%E5%BC%A6",
+        "date": "2026-06-14T18:02:17+08:00",
+        "readingTime": null,
+        "image": "/article-images/people/yaxian-portrait-2012.webp"
+      },
+      {
+        "title": "無名小站：撿來的電腦，賣掉的青春，和一場沒人送葬的消失",
+        "desc": "1999 年交大宿舍，六個資工系學生用系上報廢的設備拼出一個叫「無名」的 BBS。它長成全台最大的部落格、台灣第一代創作者的搖籃，2008 年甚至爬到 Yahoo 頭上成為第一大網站。然後 Yahoo 把它買走，2013 年 12 月 26 日那晚連同一代人的相簿一起刪掉，如今多數人只撈得回打不開的空相簿。它被記成青春，但那個青春從頭就放在別人關得掉的伺服器上。",
+        "category": "culture",
+        "href": "/culture/%E7%84%A1%E5%90%8D%E5%B0%8F%E7%AB%99",
+        "date": "2026-06-14T15:39:00+08:00",
+        "readingTime": null,
+        "image": "/article-images/culture/wretch-downtime-notice-2005.webp"
+      },
+      {
+        "title": "台灣YouTuber產業與文化：從蔡阿嘎到奇軒，一個島嶼的數位文化進化史",
+        "desc": "一個從魔術起家的創作者如何成為台灣首位千萬訂閱YouTuber？這背後是台灣網路影音文化從本土娛樂進化為國際輸出的完整故事",
+        "category": "culture",
+        "href": "/culture/%E5%8F%B0%E7%81%A3YouTuber%E7%94%A2%E6%A5%AD%E8%88%87%E6%96%87%E5%8C%96",
+        "date": "2026-06-14T09:33:24+08:00",
+        "readingTime": null,
+        "image": ""
+      },
+      {
+        "title": "Facebook：從「偷菜」狂潮到數位民主的雙面刃，定義台灣社交二十年的藍色座標",
+        "desc": "2009 年《開心農場》引爆台灣偷菜狂熱；2014 年它成為太陽花學運的動員神經。Facebook 在台灣走過「基礎設施」與「認知戰場」兩個身份，2025 年的審查爭議讓它又多了一個稱號：FB 難民的出發點。",
+        "category": "technology",
+        "href": "/technology/Facebook",
+        "date": "2026-06-14T09:33:24+08:00",
+        "readingTime": 28,
+        "image": ""
+      },
+      {
+        "title": "台灣網路社群三十年——從 BBS 到 Threads 的遷徙史",
+        "desc": "台灣人每五年集體搬家一次，每次都丟掉上一代的記憶",
+        "category": "technology",
+        "href": "/technology/%E5%8F%B0%E7%81%A3%E7%B6%B2%E8%B7%AF%E7%A4%BE%E7%BE%A4%E9%81%B7%E5%BE%99%E5%8F%B2",
+        "date": "2026-06-14T09:33:24+08:00",
+        "readingTime": 9,
+        "image": ""
+      },
       {
         "title": "台灣廣告史：賣掉的東西忘了，那首廣告歌還會哼",
         "desc": "1968 年大同電鍋的廣告歌在電視上響起，半世紀後台灣人還能接「大同大同國貨好」，卻沒人記得它原本是三洋的曲子。從日治《臺灣日日新報》的平面廣告，到只有三台的戒嚴年代把全島注意力綁在同一頻道，再到 2016 年數位廣告金額超越電視——台灣最被記得的廣告，賣的商品常被忘記，留下的卻是一整個時代的聲音。",
         "category": "culture",
         "href": "/culture/%E5%8F%B0%E7%81%A3%E5%BB%A3%E5%91%8A%E5%8F%B2",
         "date": "2026-06-14T04:20:37+08:00",
-        "readingTime": 14
+        "readingTime": 14,
+        "image": "/article-images/culture/tatung-cooker-100th-2019.webp"
       },
       {
         "title": "全聯福利中心：從黑臭福利社到台灣零售之王的逆襲",
@@ -17,7 +72,8 @@
         "category": "economy",
         "href": "/economy/%E5%85%A8%E8%81%AF%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83",
         "date": "2026-06-14T04:20:37+08:00",
-        "readingTime": 8
+        "readingTime": 8,
+        "image": ""
       },
       {
         "title": "黃金旋律的傳承：台灣流行音樂的歷史與文化地位",
@@ -25,7 +81,8 @@
         "category": "music",
         "href": "/music/%E5%8F%B0%E7%81%A3%E6%B5%81%E8%A1%8C%E9%9F%B3%E6%A8%82",
         "date": "2026-06-14T03:00:47+08:00",
-        "readingTime": 11
+        "readingTime": 11,
+        "image": ""
       },
       {
         "title": "小虎隊：買來的旋律，填上自己的青春",
@@ -33,15 +90,8 @@
         "category": "music",
         "href": "/music/%E5%B0%8F%E8%99%8E%E9%9A%8A",
         "date": "2026-06-14T03:00:47+08:00",
-        "readingTime": 16
-      },
-      {
-        "title": "無名小站：撿來的電腦，賣掉的青春，和一場沒人送葬的消失",
-        "desc": "1999 年交大宿舍，六個資工系學生用系上報廢的設備拼出一個叫「無名小卒」的 BBS。它長成全台最大的部落格、台灣創作者經濟的子宮，2008 年甚至爬到 Yahoo 頭上成為第一大網站。然後 Yahoo 把它買走，2013 年 12 月 26 日那晚連同一代人的相簿一起刪掉，如今多數人只撈得回打不開的空相簿。它被記成青春，但那個青春從頭就放在別人關得掉的伺服器上。",
-        "category": "culture",
-        "href": "/culture/%E7%84%A1%E5%90%8D%E5%B0%8F%E7%AB%99",
-        "date": "2026-06-14T02:56:40+08:00",
-        "readingTime": null
+        "readingTime": 16,
+        "image": "/article-images/music/little-tigers-xiaoyaoyou-album.webp"
       },
       {
         "title": "呂冠緯：考過醫師執照卻沒披上白袍，他賭一件比救人更難證明的事",
@@ -49,7 +99,8 @@
         "category": "people",
         "href": "/people/%E5%91%82%E5%86%A0%E7%B7%AF",
         "date": "2026-06-14T02:52:02+08:00",
-        "readingTime": 18
+        "readingTime": 18,
+        "image": "/article-images/people/lu-guan-wei-portrait-2020.webp"
       },
       {
         "title": "嚴長壽：郵件室小弟到觀光教父，然後他把一切都丟了",
@@ -57,7 +108,8 @@
         "category": "people",
         "href": "/people/%E5%9A%B4%E9%95%B7%E5%A3%BD",
         "date": "2026-06-14T02:52:02+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "葉丙成",
@@ -65,7 +117,8 @@
         "category": "people",
         "href": "/people/%E8%91%89%E4%B8%99%E6%88%90",
         "date": "2026-06-14T02:52:02+08:00",
-        "readingTime": 5
+        "readingTime": 5,
+        "image": ""
       },
       {
         "title": "黃國珍",
@@ -73,7 +126,8 @@
         "category": "people",
         "href": "/people/%E9%BB%83%E5%9C%8B%E7%8F%8D",
         "date": "2026-06-14T02:52:02+08:00",
-        "readingTime": 5
+        "readingTime": 5,
+        "image": ""
       },
       {
         "title": "藍綠之外的四把尺：從一塊田到一張健保卡，台灣那些活過自己政治的政策",
@@ -81,7 +135,8 @@
         "category": "history",
         "href": "/history/%E8%B7%A8%E9%BB%A8%E6%B4%BE%E7%9A%84%E5%A5%BD%E6%94%BF%E7%AD%96",
         "date": "2026-06-13T20:50:35+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": "/article-images/history/cross-party-freeway-no1-2015.webp"
       },
       {
         "title": "台灣國片：銀幕旁那個說話的人，和一部死了又活的電影史",
@@ -89,7 +144,8 @@
         "category": "art",
         "href": "/art/%E5%8F%B0%E7%81%A3%E9%9B%BB%E5%BD%B1",
         "date": "2026-06-13T18:36:06+08:00",
-        "readingTime": 18
+        "readingTime": 18,
+        "image": "/article-images/art/tsai-ming-liang-lee-kang-sheng.webp"
       },
       {
         "title": "看不見的國家：一個美國導演按了七年快門，拍一個世界決定不看的島嶼",
@@ -97,7 +153,8 @@
         "category": "art",
         "href": "/art/%E7%9C%8B%E4%B8%8D%E8%A6%8B%E7%9A%84%E5%9C%8B%E5%AE%B6",
         "date": "2026-06-13T17:29:18+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": "/article-images/art/invisible-nation-tsai-walks.webp"
       },
       {
         "title": "造山者：世紀的賭注 — 一部沒張忠謀的 TSMC 史詩，從新竹拍到普渡",
@@ -105,7 +162,8 @@
         "category": "art",
         "href": "/art/%E9%80%A0%E5%B1%B1%E8%80%85%E4%B8%96%E7%B4%80%E7%9A%84%E8%B3%AD%E6%B3%A8",
         "date": "2026-06-13T17:29:18+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "沈伯洋：他研究中國認知戰，後來中國把他畫在衛星圖上",
@@ -113,7 +171,8 @@
         "category": "people",
         "href": "/people/%E6%B2%88%E4%BC%AF%E6%B4%8B",
         "date": "2026-06-13T17:29:18+08:00",
-        "readingTime": 17
+        "readingTime": 17,
+        "image": ""
       },
       {
         "title": "蔡英文：從 80 萬票敗選到 817 萬票連任的第一位女總統",
@@ -121,7 +180,8 @@
         "category": "people",
         "href": "/people/%E8%94%A1%E8%8B%B1%E6%96%87",
         "date": "2026-06-13T16:08:35+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "中華台北：那張讓台灣上場、卻印不上自己名字的入場券",
@@ -129,7 +189,8 @@
         "category": "society",
         "href": "/society/%E4%B8%AD%E8%8F%AF%E5%8F%B0%E5%8C%97",
         "date": "2026-06-13T16:08:35+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": "/article-images/society/under-protest-rome-1960.webp"
       },
       {
         "title": "台灣統獨光譜：四個立場加一個現狀，三十年悄悄重畫的認同地圖",
@@ -137,7 +198,8 @@
         "category": "society",
         "href": "/society/%E5%8F%B0%E7%81%A3%E7%B5%B1%E7%8D%A8%E5%85%89%E8%AD%9C",
         "date": "2026-06-13T16:08:35+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "太陽花學運——那三十秒之後的十二年",
@@ -145,7 +207,8 @@
         "category": "society",
         "href": "/society/%E5%A4%AA%E9%99%BD%E8%8A%B1%E5%AD%B8%E9%81%8B",
         "date": "2026-06-13T16:08:35+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "天下雜誌：替台灣的「成功」排了四十年名次，站在離資本最近的地方",
@@ -153,7 +216,8 @@
         "category": "society",
         "href": "/society/%E5%A4%A9%E4%B8%8B%E9%9B%9C%E8%AA%8C",
         "date": "2026-06-13T15:43:50+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": "/article-images/society/diane-ying-magsaysay.webp"
       },
       {
         "title": "視覺化模組型錄：十七種看見台灣數據的方法",
@@ -161,7 +225,8 @@
         "category": "society",
         "href": "/society/%E8%A6%96%E8%A6%BA%E5%8C%96%E6%A8%A1%E7%B5%84%E5%9E%8B%E9%8C%84",
         "date": "2026-06-12T23:48:22+08:00",
-        "readingTime": 11
+        "readingTime": 11,
+        "image": "/article-images/society/taipei-skyline-housing-2026.webp"
       },
       {
         "title": "台灣新媒體藝術",
@@ -169,7 +234,8 @@
         "category": "art",
         "href": "/art/%E5%8F%B0%E7%81%A3%E6%96%B0%E5%AA%92%E9%AB%94%E8%97%9D%E8%A1%93",
         "date": "2026-06-12T22:07:01+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "justfont 與台灣字體發展：用一種台灣茶的名字，把做字的人帶到陽光下",
@@ -177,15 +243,17 @@
         "category": "technology",
         "href": "/technology/justfont%E8%88%87%E5%8F%B0%E7%81%A3%E5%AD%97%E9%AB%94%E7%99%BC%E5%B1%95",
         "date": "2026-06-12T22:07:01+08:00",
-        "readingTime": 18
+        "readingTime": 18,
+        "image": "/article-images/technology/justfont-jinxuan-flyingv-cover-2015.webp"
       },
       {
-        "title": "報導者：把調查報導從營業項目救成公共財的十年",
-        "desc": "2015 年 9 月 1 日記者節，何榮幸和張鐵志開記者會宣布成立由童子賢初始捐助 500 萬元的《報導者》。十年後，這個拒絕廣告、不接政府標案、不顯示點閱率的非營利媒體，年募款額從 3,400 萬翻到 5,200 萬，連續多年拿下 SOPA 與卓越新聞獎。他們做的事情，是把調查報導從商業媒體的營業項目，救成靠陌生讀者每月扣款撐起來的公共財。",
+        "title": "報導者：燒錢的速度，永遠跑在募款前面",
+        "desc": "從 4 位定期定額捐款者到每月 8,000 位，從《血淚漁場》三部曲到 2026 統戰專題，《報導者》十年燒掉的成本——八個月臥底、跨三國採訪、比對多年違規紀錄——正好是演算法時代最沒人想付錢看的東西。這座島嶼的公民社會用陌生人每月扣款的方式，把調查報導從商業媒體的營業項目，救成一塊一直在養、卻越燒越快的公共財。",
         "category": "society",
         "href": "/society/%E5%A0%B1%E5%B0%8E%E8%80%85",
         "date": "2026-06-12T22:07:01+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "選舉過程：從空票匭到深夜開票，一場全民參與的民主儀式",
@@ -193,7 +261,8 @@
         "category": "politics",
         "href": "/politics/%E9%81%B8%E8%88%89%E9%81%8E%E7%A8%8B",
         "date": "2026-06-12T18:42:49+08:00",
-        "readingTime": 10
+        "readingTime": 10,
+        "image": ""
       },
       {
         "title": "國家太空中心：花三十二年，替一個還沒湊齊名字的國家湊齊一個太空署",
@@ -201,47 +270,8 @@
         "category": "technology",
         "href": "/technology/%E5%9C%8B%E5%AE%B6%E5%A4%AA%E7%A9%BA%E4%B8%AD%E5%BF%83",
         "date": "2026-06-12T15:06:49+08:00",
-        "readingTime": 28
-      },
-      {
-        "title": "台灣原住民族歷史與正名運動",
-        "desc": "1987年，一個19歲的鄒族青年在台北刑場被槍決。他的死，點燃了正名運動最初的火。",
-        "category": "history",
-        "href": "/history/%E5%8F%B0%E7%81%A3%E5%8E%9F%E4%BD%8F%E6%B0%91%E6%97%8F%E6%AD%B7%E5%8F%B2%E8%88%87%E6%AD%A3%E5%90%8D%E9%81%8B%E5%8B%95",
-        "date": "2026-06-11T08:33:06+08:00",
-        "readingTime": null
-      },
-      {
-        "title": "日治時期",
-        "desc": "1895-1945年日本統治台灣50年，帶來全面現代化建設與制度化管理，同時實施同化政策，深刻影響台灣社會發展",
-        "category": "history",
-        "href": "/history/%E6%97%A5%E6%B2%BB%E6%99%82%E6%9C%9F",
-        "date": "2026-06-11T08:33:06+08:00",
-        "readingTime": null
-      },
-      {
-        "title": "莫那·魯道：被刻上二十元硬幣的抗日英雄，和那個沒有中國也沒有日本的世界",
-        "desc": "2001 年，台灣央行把抗日英雄莫那·魯道的臉刻上二十元硬幣。但造幣廠找遍國內史料都沒有他的照片，最後是在一本日文雜誌裡撈出來的。從 1930 年霧社運動會那個清晨，到一具當了約四十年人類學標本的遺骸，三個政權各自需要他。而他真正捍衛的那個有彩虹橋、紋面、Gaya 的世界裡，從來沒有中國，也沒有日本。",
-        "category": "people",
-        "href": "/people/%E8%8E%AB%E9%82%A3%C2%B7%E9%AD%AF%E9%81%93",
-        "date": "2026-06-11T08:33:06+08:00",
-        "readingTime": 20
-      },
-      {
-        "title": "台灣原住民族土地正義與傳統領域",
-        "desc": "探討台灣原住民族土地權利的歷史脈絡、法律發展、傳統領域劃設爭議與原住民族轉型正義委員會的工作成果",
-        "category": "society",
-        "href": "/society/%E5%8F%B0%E7%81%A3%E5%8E%9F%E4%BD%8F%E6%B0%91%E6%97%8F%E5%9C%9F%E5%9C%B0%E6%AD%A3%E7%BE%A9%E8%88%87%E5%82%B3%E7%B5%B1%E9%A0%98%E5%9F%9F",
-        "date": "2026-06-11T08:33:06+08:00",
-        "readingTime": 9
-      },
-      {
-        "title": "魏德聖：永康1969，《海角七號》破億票房到威尼斯主競賽的台灣史詩導演",
-        "desc": "1969/8/16生於台南縣永康鄉（今台南市永康區）。遠東工專電機科。2008年《海角七號》票房5.3億（台灣電影紀錄）。2011年《賽德克·巴萊》入圍第68屆威尼斯影展主競賽單元角逐金獅獎，獲第48屆金馬獎最佳劇情片。正籌備《台灣三部曲》史詩計畫。",
-        "category": "people",
-        "href": "/people/%E9%AD%8F%E5%BE%B7%E8%81%96",
-        "date": "2026-06-11T08:22:31+08:00",
-        "readingTime": 7
+        "readingTime": 28,
+        "image": "/article-images/technology/formosat8-tasa-banner.webp"
       }
     ],
     "en": [
@@ -251,7 +281,8 @@
         "category": "technology",
         "href": "/en/technology/taiwan-semiconductor-industry",
         "date": "2026-06-13T18:23:15+08:00",
-        "readingTime": 22
+        "readingTime": 22,
+        "image": ""
       },
       {
         "title": "Taiwanese Tea Culture and Living Aesthetics",
@@ -259,7 +290,8 @@
         "category": "culture",
         "href": "/en/culture/taiwanese-tea-culture-and-living-aesthetics",
         "date": "2026-06-10T12:21:10+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "The Perpetual Donation Machine: FAB DAO and the Project % Social Experiment",
@@ -267,7 +299,8 @@
         "category": "art",
         "href": "/en/art/taiwanese-experimental-and-new-media-art",
         "date": "2026-06-10T12:21:10+08:00",
-        "readingTime": 8
+        "readingTime": 8,
+        "image": ""
       },
       {
         "title": "Wang Hsin-jen (Aluan): The Generative Artist Who Codes Landscapes and Writes Philanthropy Into Smart Contracts",
@@ -275,7 +308,8 @@
         "category": "art",
         "href": "/en/art/wang-hsin-jen-artist",
         "date": "2026-06-10T12:21:10+08:00",
-        "readingTime": 15
+        "readingTime": 15,
+        "image": ""
       },
       {
         "title": "Jensen Huang",
@@ -283,7 +317,8 @@
         "category": "people",
         "href": "/en/people/jensen-huang",
         "date": "2026-06-10T12:21:10+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "Robert Swinhoe: When a Diplomat Became a Naturalist",
@@ -291,7 +326,8 @@
         "category": "people",
         "href": "/en/people/robert-swinhoe-naturalist",
         "date": "2026-06-10T12:21:10+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "CommonWealth Magazine: Four Decades of Defining Taiwan's \"Success,\" Standing Closest to Capital",
@@ -299,7 +335,8 @@
         "category": "society",
         "href": "/en/society/commonwealth-magazine",
         "date": "2026-06-10T12:21:10+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": "/article-images/society/diane-ying-magsaysay.webp"
       },
       {
         "title": "The Reporter: Ten Years of Rescuing Investigative Journalism from a Commercial Line Item into a Public Good",
@@ -307,7 +344,8 @@
         "category": "society",
         "href": "/en/society/the-reporter-investigative-journalism",
         "date": "2026-06-10T12:21:10+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "Taiwan’s Stock Market and Capital Market: From the 1990 Collapse at 10,000 Points to the World’s Sixth Largest in 2026, an Island with 44% of Its Net Worth Staked on One Stock",
@@ -315,7 +353,8 @@
         "category": "economy",
         "href": "/en/economy/taiwan-stock-market",
         "date": "2026-06-10T12:21:10+08:00",
-        "readingTime": 16
+        "readingTime": 16,
+        "image": ""
       },
       {
         "title": "Taiwan Healthcare and National Health Insurance: A World Number One Where 99.6% Rests on 12.61%",
@@ -323,7 +362,8 @@
         "category": "lifestyle",
         "href": "/en/lifestyle/taiwan-healthcare-and-national-health-insurance",
         "date": "2026-06-10T12:21:10+08:00",
-        "readingTime": 22
+        "readingTime": 22,
+        "image": ""
       },
       {
         "title": "2026 Nine-in-One Elections: Stress Testing Democratic Infrastructure in the Age of AI Cognitive Warfare",
@@ -331,7 +371,8 @@
         "category": "politics",
         "href": "/en/politics/2026-local-elections-taiwan",
         "date": "2026-06-10T12:21:10+08:00",
-        "readingTime": 16
+        "readingTime": 16,
+        "image": ""
       },
       {
         "title": "The Councilor System: Why It Differs from the Legislator System, and SNTV's 30 Years in Local Politics",
@@ -339,7 +380,8 @@
         "category": "politics",
         "href": "/en/politics/city-councilor-system-taiwan",
         "date": "2026-06-10T12:21:10+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "Taiwan Environmental Movement History",
@@ -347,7 +389,8 @@
         "category": "nature",
         "href": "/en/nature/taiwan-environmental-movement-history",
         "date": "2026-06-09T11:27:50+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "Cheng Li-wen",
@@ -355,7 +398,8 @@
         "category": "people",
         "href": "/en/people/cheng-li-wun",
         "date": "2026-06-09T11:27:50+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "Postwar Economic Development",
@@ -363,7 +407,8 @@
         "category": "history",
         "href": "/en/history/postwar-economic-development",
         "date": "2026-06-04T16:38:54+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "Taiwan Agricultural Landscapes and Industry Belts",
@@ -371,7 +416,8 @@
         "category": "geography",
         "href": "/en/geography/taiwan-agricultural-landscapes-and-industry-belts",
         "date": "2026-06-04T16:38:54+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "Urban Character and Regional Culture",
@@ -379,7 +425,8 @@
         "category": "culture",
         "href": "/en/culture/urban-character-and-regional-culture",
         "date": "2026-06-04T16:38:54+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "The Evolution of Taiwanese Hokkien Songs: From \"Old Man's Music\" to Indie Darling",
@@ -387,7 +434,8 @@
         "category": "music",
         "href": "/en/music/taiwanese-hokkien-song-evolution",
         "date": "2026-06-04T16:38:54+08:00",
-        "readingTime": 14
+        "readingTime": 14,
+        "image": ""
       },
       {
         "title": "Taiwan's Political Landscape and Electoral System",
@@ -395,7 +443,8 @@
         "category": "society",
         "href": "/en/society/taiwan-political-landscape-and-electoral-system",
         "date": "2026-06-04T16:38:54+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "When Plague Became Fireworks: The Accidental Evolution of Taiwan's Festival Culture",
@@ -403,7 +452,8 @@
         "category": "culture",
         "href": "/en/culture/traditional-festivals-and-celebrations",
         "date": "2026-05-25T07:57:59+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "Chiayi Turkey Rice: A City's Identity in a NT$30 Bowl",
@@ -411,7 +461,8 @@
         "category": "food",
         "href": "/en/food/chiayi-turkey-rice",
         "date": "2026-05-25T07:57:59+08:00",
-        "readingTime": 8
+        "readingTime": 8,
+        "image": ""
       },
       {
         "title": "Night Market Culture",
@@ -419,7 +470,8 @@
         "category": "food",
         "href": "/en/food/night-market-culture",
         "date": "2026-05-25T07:57:59+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/TWShiLinNightMarketRichy2.jpg/960px-TWShiLinNightMarketRichy2.jpg"
       },
       {
         "title": "Lin Hwai-min",
@@ -427,7 +479,8 @@
         "category": "people",
         "href": "/en/people/lin-hwai-min",
         "date": "2026-05-25T07:57:59+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "Taiwan Mahjong: Grandma Won't Teach You, but Celebrity Mahjong Will",
@@ -435,7 +488,8 @@
         "category": "lifestyle",
         "href": "/en/lifestyle/taiwan-mahjong-and-celebrity-shortage",
         "date": "2026-05-25T07:57:59+08:00",
-        "readingTime": 9
+        "readingTime": 9,
+        "image": ""
       },
       {
         "title": "Poisoned Potatoes: Beyond the 200 ppm — There's 30 ppm, 14 Days, and 15 Years of Food-Safety Scars",
@@ -443,7 +497,8 @@
         "category": "society",
         "href": "/en/society/poisoned-potato-cognitive-warfare-taiwan",
         "date": "2026-05-24T22:41:32+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": "/article-images/society/du-mali-maine-potato-1940.webp"
       },
       {
         "title": "Taiwan Anime & Manga Culture",
@@ -451,7 +506,8 @@
         "category": "culture",
         "href": "/en/culture/taiwan-anime-culture",
         "date": "2026-05-24T22:40:37+08:00",
-        "readingTime": "9"
+        "readingTime": "9",
+        "image": ""
       },
       {
         "title": "Pa Chiung: From Hualien Truku Youth to the 'Spy-Master' Wanted by the CCP for One Million Yuan",
@@ -459,7 +515,8 @@
         "category": "people",
         "href": "/en/people/pa-chiung-political-youtuber",
         "date": "2026-05-24T22:40:37+08:00",
-        "readingTime": 20
+        "readingTime": 20,
+        "image": ""
       },
       {
         "title": "The 2026 Cheng-Xi Meeting: Ten Minutes Between KMT and CCP Leaders After a Decade Apart",
@@ -467,7 +524,8 @@
         "category": "society",
         "href": "/en/society/2026-cheng-xi-meeting-kmt-ccp-decade-reunion",
         "date": "2026-05-24T22:40:37+08:00",
-        "readingTime": 14
+        "readingTime": 14,
+        "image": ""
       },
       {
         "title": "Taiwan Enterprise: Foxconn Precision Industry — The Same Balance Sheet Behind 8 Trillion Revenue and an Internal Anti-Corruption War",
@@ -475,7 +533,8 @@
         "category": "economy",
         "href": "/en/economy/foxconn-precision-industry",
         "date": "2026-05-24T22:40:37+08:00",
-        "readingTime": 10
+        "readingTime": 10,
+        "image": ""
       },
       {
         "title": "Chiang Kai-shek Memorial Hall",
@@ -483,7 +542,8 @@
         "category": "history",
         "href": "/en/history/chiang-kai-shek-memorial-hall",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 9
+        "readingTime": 9,
+        "image": ""
       }
     ],
     "ja": [
@@ -493,7 +553,8 @@
         "category": "history",
         "href": "/ja/history/kaohsiung-incident-formosa-incident",
         "date": "2026-06-10T12:21:10+08:00",
-        "readingTime": 14
+        "readingTime": 14,
+        "image": ""
       },
       {
         "title": "蔣中正",
@@ -501,7 +562,8 @@
         "category": "people",
         "href": "/ja/people/chiang-kai-shek",
         "date": "2026-06-10T12:21:10+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "リー・チャンユー（李昌鈺）",
@@ -509,7 +571,8 @@
         "category": "people",
         "href": "/ja/people/henry-lee-forensic",
         "date": "2026-06-10T12:21:10+08:00",
-        "readingTime": 8
+        "readingTime": 8,
+        "image": ""
       },
       {
         "title": "投票権の閾値の歴史：20歳から18歳へ、20年にわたる未完の改正への道",
@@ -517,7 +580,8 @@
         "category": "politics",
         "href": "/ja/politics/voting-rights-threshold-history",
         "date": "2026-06-10T12:21:10+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "No Sleep Without Entering the Cellar: Thirty Years of Taiwan's Gaming Community",
@@ -525,7 +589,8 @@
         "category": "technology",
         "href": "/ja/technology/into-the-cellar-taiwan-game-podcast",
         "date": "2026-06-09T11:27:50+08:00",
-        "readingTime": 10
+        "readingTime": 10,
+        "image": ""
       },
       {
         "title": "National Cultural Memory Bank: Memory Curation and Cultural Co-creation in the Digital Age",
@@ -533,7 +598,8 @@
         "category": "technology",
         "href": "/ja/technology/national-cultural-memory-bank",
         "date": "2026-06-09T11:27:50+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "台湾環境運動史",
@@ -541,7 +607,8 @@
         "category": "nature",
         "href": "/ja/nature/taiwan-environmental-movement-history",
         "date": "2026-06-09T11:27:50+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "Cheng Li-wen",
@@ -549,7 +616,8 @@
         "category": "people",
         "href": "/ja/people/cheng-li-wun",
         "date": "2026-06-09T11:27:50+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "Chinese Taipei: The Ticket That Lets Taiwan Play, But Won't Print Its Own Name",
@@ -557,7 +625,8 @@
         "category": "society",
         "href": "/ja/society/chinese-taipei",
         "date": "2026-06-09T11:27:50+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "新竹市：1733年に竹を植えて築かれた竹塹、1980年に台積電を生んだ揺籃",
@@ -565,7 +634,8 @@
         "category": "geography",
         "href": "/ja/geography/hsinchu-city",
         "date": "2026-05-24T22:40:37+08:00",
-        "readingTime": 17
+        "readingTime": 17,
+        "image": ""
       },
       {
         "title": "『人間』誌",
@@ -573,7 +643,8 @@
         "category": "culture",
         "href": "/ja/culture/renjian-magazine",
         "date": "2026-05-24T22:40:37+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "珍珠奶茶",
@@ -581,7 +652,8 @@
         "category": "food",
         "href": "/ja/food/bubble-tea",
         "date": "2026-05-24T22:40:37+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Classic_bubble_tea.jpg"
       },
       {
         "title": "台湾の政治環境と選挙制度",
@@ -589,7 +661,8 @@
         "category": "society",
         "href": "/ja/society/taiwan-political-landscape-and-electoral-system",
         "date": "2026-05-24T22:40:37+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "台湾統独スペクトラム：四つの立場と一つの現状、三十年で静かに描き直されたアイデンティティの地図",
@@ -597,7 +670,8 @@
         "category": "society",
         "href": "/ja/society/taiwan-unification-independence-spectrum",
         "date": "2026-05-24T22:40:37+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "中正記念堂",
@@ -605,7 +679,8 @@
         "category": "history",
         "href": "/ja/history/chiang-kai-shek-memorial-hall",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "9"
+        "readingTime": "9",
+        "image": ""
       },
       {
         "title": "台湾原住民族の歴史と正名運動",
@@ -613,7 +688,8 @@
         "category": "history",
         "href": "/ja/history/indigenous-peoples-history-and-naming-movement",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "三人の外国人が見た乙未（いつび）の役：写真師のアルバム、記者の手帳、牧師の日記",
@@ -621,7 +697,8 @@
         "category": "history",
         "href": "/ja/history/three-foreigners-witness-1895-taiwan",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "清水断崖（せいすいだんがい）：プレート衝突が刻んだ絶美の傷跡と生命の強さ",
@@ -629,7 +706,8 @@
         "category": "geography",
         "href": "/ja/geography/qingshui-cliff",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 15
+        "readingTime": 15,
+        "image": ""
       },
       {
         "title": "菜市場名",
@@ -637,7 +715,8 @@
         "category": "culture",
         "href": "/ja/culture/common-taiwanese-names",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "6"
+        "readingTime": "6",
+        "image": ""
       },
       {
         "title": "関聖帝君：敗軍の将軍はいかにして台湾の万能の神となったか",
@@ -645,7 +724,8 @@
         "category": "culture",
         "href": "/ja/culture/guan-sheng-di-jun-belief",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "10"
+        "readingTime": "10",
+        "image": ""
       },
       {
         "title": "客家文化と言語",
@@ -653,7 +733,8 @@
         "category": "culture",
         "href": "/ja/culture/hakka-culture-and-language",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "14"
+        "readingTime": "14",
+        "image": ""
       },
       {
         "title": "「占い竹筊（せんばい）」：50%の確率の向こう側で、神様の声を聞く",
@@ -661,7 +742,8 @@
         "category": "culture",
         "href": "/ja/culture/jiaobei-divination-blocks",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "8"
+        "readingTime": "8",
+        "image": ""
       },
       {
         "title": "九天玄女：黄帝の軍師から台湾陣頭少年たちの守護神へ",
@@ -669,7 +751,8 @@
         "category": "culture",
         "href": "/ja/culture/jiutian-xuannu-belief",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "12"
+        "readingTime": "12",
+        "image": ""
       },
       {
         "title": "台湾のアニメ・マンガ文化",
@@ -677,7 +760,8 @@
         "category": "culture",
         "href": "/ja/culture/taiwan-anime-culture",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 9
+        "readingTime": 9,
+        "image": ""
       },
       {
         "title": "台湾の老街文化と商業街区",
@@ -685,7 +769,8 @@
         "category": "culture",
         "href": "/ja/culture/taiwan-historic-streets-and-commercial-districts",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "紙傘：雨具から芸術へ、台湾客家文化の百年の栄光を支える",
@@ -693,7 +778,8 @@
         "category": "culture",
         "href": "/ja/culture/taiwan-paper-umbrella",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 10
+        "readingTime": 10,
+        "image": ""
       },
       {
         "title": "疫病が消えた後、花火は伝統になった：台湾の祝祭文化の予想外の進化",
@@ -701,7 +787,8 @@
         "category": "culture",
         "href": "/ja/culture/traditional-festivals-and-celebrations",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "12"
+        "readingTime": "12",
+        "image": ""
       },
       {
         "title": "嘉義の火鶏肉飯：三十元の都市の身分証",
@@ -709,7 +796,8 @@
         "category": "food",
         "href": "/ja/food/chiayi-turkey-rice",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 8
+        "readingTime": 8,
+        "image": ""
       },
       {
         "title": "黒松サイダーとサルサパリラ：嘲笑された「三流商品」からコーラの覇主を撃退する百年の伝説",
@@ -717,7 +805,8 @@
         "category": "food",
         "href": "/ja/food/heysong-soft-drinks",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "12"
+        "readingTime": "12",
+        "image": ""
       },
       {
         "title": "夜市文化",
@@ -725,7 +814,8 @@
         "category": "food",
         "href": "/ja/food/night-market-culture",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       }
     ],
     "ko": [
@@ -735,7 +825,8 @@
         "category": "people",
         "href": "/ko/people/puma-shen",
         "date": "2026-06-10T12:21:10+08:00",
-        "readingTime": 17
+        "readingTime": 17,
+        "image": ""
       },
       {
         "title": "Keelungshi: The 1,000 British Soldiers Hauled into the Tunnels to Mine Copper, and a Golden Mountain That Hasn't Been Washed Clean Yet",
@@ -743,7 +834,8 @@
         "category": "geography",
         "href": "/ko/geography/jinguashi",
         "date": "2026-06-09T11:27:50+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "Nantou County: The Only County Not Bordering the Sea, Where the Epicenter of the 921 Earthquake Lies at Its Center",
@@ -751,7 +843,8 @@
         "category": "geography",
         "href": "/ko/geography/nantou-county",
         "date": "2026-06-09T11:27:50+08:00",
-        "readingTime": 16
+        "readingTime": 16,
+        "image": ""
       },
       {
         "title": "Penghu County: Two Rejections of Casinos, the Chrysanthemum Island Chose Not Poverty",
@@ -759,7 +852,8 @@
         "category": "geography",
         "href": "/ko/geography/penghu-county",
         "date": "2026-06-09T11:27:50+08:00",
-        "readingTime": 15
+        "readingTime": 15,
+        "image": ""
       },
       {
         "title": "Taoyuan City: Taiwan's Import and Export Hub, Home to the Most Hakka People and Migrant Workers, All on This Plateau",
@@ -767,7 +861,8 @@
         "category": "geography",
         "href": "/ko/geography/taoyuan-city",
         "date": "2026-06-09T11:27:50+08:00",
-        "readingTime": 10
+        "readingTime": 10,
+        "image": ""
       },
       {
         "title": "Chongshan North Road Tōdōri: The Road to the Shrine Paved by the Japanese Was Ultimately Reclaimed by Japanese Businesses",
@@ -775,7 +870,8 @@
         "category": "geography",
         "href": "/ko/geography/zhongshan-north-road-tiaotong",
         "date": "2026-06-09T11:27:50+08:00",
-        "readingTime": 24
+        "readingTime": 24,
+        "image": ""
       },
       {
         "title": "Undersea Cables: The Silicon Shield Visible Above, The Lifeline Invisible Below",
@@ -783,7 +879,8 @@
         "category": "technology",
         "href": "/ko/technology/submarine-cables-taiwan-lifeline",
         "date": "2026-06-09T11:27:50+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "Complex Life Festival: Two Medical Students' 'Unsuccessful People's Forum' and a Generation's Five-Year Refusal to Admit They Are Good Enough",
@@ -791,7 +888,8 @@
         "category": "society",
         "href": "/ko/society/complex-life-festival",
         "date": "2026-06-09T11:27:50+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "손윤쉐안: 어둠 속에서 대만을 밝힌 엔지니어 총리",
@@ -799,7 +897,8 @@
         "category": "people",
         "href": "/ko/people/sun-yun-suan",
         "date": "2026-05-25T08:04:52+08:00",
-        "readingTime": 8
+        "readingTime": 8,
+        "image": ""
       },
       {
         "title": "대만 산업 전환 및 업그레이드: 제조 대국에서 혁신 강국으로",
@@ -807,7 +906,8 @@
         "category": "economy",
         "href": "/ko/economy/industrial-transformation-from-manufacturing-to-innovation",
         "date": "2026-05-25T08:04:52+08:00",
-        "readingTime": "15"
+        "readingTime": "15",
+        "image": ""
       },
       {
         "title": "타이완 커피 산업",
@@ -815,7 +915,8 @@
         "category": "food",
         "href": "/ko/food/taiwan-coffee-industry",
         "date": "2026-05-24T22:51:42+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "타이완 두유와 아침식당",
@@ -823,7 +924,8 @@
         "category": "food",
         "href": "/ko/food/taiwan-soy-milk-and-breakfast-shops",
         "date": "2026-05-24T22:51:42+08:00",
-        "readingTime": 10
+        "readingTime": 10,
+        "image": ""
       },
       {
         "title": "대만 문학사",
@@ -831,7 +933,8 @@
         "category": "art",
         "href": "/ko/art/history-of-taiwanese-literature",
         "date": "2026-05-24T22:51:42+08:00",
-        "readingTime": 13
+        "readingTime": 13,
+        "image": ""
       },
       {
         "title": "타이완 뉴미디어 아트",
@@ -839,7 +942,8 @@
         "category": "art",
         "href": "/ko/art/taiwan-new-media-art",
         "date": "2026-05-24T22:51:42+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "대우쌍검: 그 오후 당신은 DOS 창에서 울었다",
@@ -847,7 +951,8 @@
         "category": "technology",
         "href": "/ko/technology/softstar-twin-classics",
         "date": "2026-05-24T22:51:42+08:00",
-        "readingTime": "16"
+        "readingTime": "16",
+        "image": ""
       },
       {
         "title": "제리 양: 영어 단어 하나만 아는 소년에서 글로벌 포털 시대를 연 \"야후\"의 아버지로",
@@ -855,7 +960,8 @@
         "category": "people",
         "href": "/ko/people/jerry-yang-yahoo-cofounder",
         "date": "2026-05-24T22:51:42+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "룽잉타이: 다랴오 1952, 『야화집』에서 타이완 초대 문화부 장관이 된 공공 지식인",
@@ -863,7 +969,8 @@
         "category": "people",
         "href": "/ko/people/lung-ying-tai",
         "date": "2026-05-24T22:51:42+08:00",
-        "readingTime": 7
+        "readingTime": 7,
+        "image": ""
       },
       {
         "title": "대만 기업: 푸본금융지주",
@@ -871,7 +978,8 @@
         "category": "economy",
         "href": "/ko/economy/taiwan-enterprise-fubon-financial",
         "date": "2026-05-24T22:51:42+08:00",
-        "readingTime": 15
+        "readingTime": 15,
+        "image": ""
       },
       {
         "title": "위스톤(Wistron) - 글로벌 위탁생산의 변혁 선봉",
@@ -879,7 +987,8 @@
         "category": "economy",
         "href": "/ko/economy/wistron-global-manufacturing-transformation-pioneer",
         "date": "2026-05-24T22:51:42+08:00",
-        "readingTime": 8
+        "readingTime": 8,
+        "image": ""
       },
       {
         "title": "타이완 출국사: \"경총 승인\"에서 \"세계 통행\"으로, 섬사람들의 국경 넘기 서사",
@@ -887,7 +996,8 @@
         "category": "history",
         "href": "/ko/history/taiwan-emigration-history",
         "date": "2026-05-24T22:50:13+08:00",
-        "readingTime": 25
+        "readingTime": 25,
+        "image": ""
       },
       {
         "title": "대만 군인 가족 마을의 역사",
@@ -895,7 +1005,8 @@
         "category": "history",
         "href": "/ko/history/taiwan-military-dependents-villages-history",
         "date": "2026-05-24T22:50:13+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "대만 지도 읽는 법: 고구마에서 위성까지, 400년의 시선",
@@ -903,7 +1014,8 @@
         "category": "geography",
         "href": "/ko/geography/how-to-read-the-taiwan-map",
         "date": "2026-05-24T22:50:13+08:00",
-        "readingTime": 10
+        "readingTime": 10,
+        "image": ""
       },
       {
         "title": "신시 시: 1733년 대나무로 성을 쌓은 죽첩, 1980년 TSMC를 낳은 요람",
@@ -911,7 +1023,8 @@
         "category": "geography",
         "href": "/ko/geography/hsinchu-city",
         "date": "2026-05-24T22:50:13+08:00",
-        "readingTime": 17
+        "readingTime": 17,
+        "image": ""
       },
       {
         "title": "관성제군(關聖帝君): 패장이 어떻게 대만의 만능신이 되었는가",
@@ -919,7 +1032,8 @@
         "category": "culture",
         "href": "/ko/culture/guan-sheng-di-jun-belief",
         "date": "2026-05-24T22:50:13+08:00",
-        "readingTime": 10
+        "readingTime": 10,
+        "image": ""
       },
       {
         "title": "구천현녀: 황제의 군사(軍師)에서 대만 청소년 진두(陣頭) 수호신까지",
@@ -927,7 +1041,8 @@
         "category": "culture",
         "href": "/ko/culture/jiutian-xuannu-belief",
         "date": "2026-05-24T22:50:13+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "《인간》 잡지",
@@ -935,7 +1050,8 @@
         "category": "culture",
         "href": "/ko/culture/renjian-magazine",
         "date": "2026-05-24T22:50:13+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "대만 화포(台灣花布)",
@@ -943,7 +1059,8 @@
         "category": "culture",
         "href": "/ko/culture/taiwan-floral-fabric",
         "date": "2026-05-24T22:50:13+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "루로우판 (滷肉飯): 대만의 일상적인 국민 음식",
@@ -951,7 +1068,8 @@
         "category": "food",
         "href": "/ko/food/braised-pork-rice",
         "date": "2026-05-24T22:50:13+08:00",
-        "readingTime": 8
+        "readingTime": 8,
+        "image": "/images/food/braised-pork-rice.jpg"
       },
       {
         "title": "대만 촌촌(眷村) 요리",
@@ -959,7 +1077,8 @@
         "category": "food",
         "href": "/ko/food/military-dependents-village-cuisine",
         "date": "2026-05-24T22:50:13+08:00",
-        "readingTime": 8
+        "readingTime": 8,
+        "image": ""
       },
       {
         "title": "타이완 해산물 문화",
@@ -967,7 +1086,8 @@
         "category": "food",
         "href": "/ko/food/taiwan-seafood-culture",
         "date": "2026-05-24T22:50:13+08:00",
-        "readingTime": 8
+        "readingTime": 8,
+        "image": ""
       }
     ],
     "fr": [
@@ -977,7 +1097,8 @@
         "category": "society",
         "href": "/fr/society/public-housing-justice",
         "date": "2026-06-10T12:21:10+08:00",
-        "readingTime": 16
+        "readingTime": 16,
+        "image": "/article-images/society/taipei-skyline-housing-2026.webp"
       },
       {
         "title": "Za School: A Free Exhibition Funded by Bankrupt Savings, Opened by the Vice President 11 Years Later",
@@ -985,7 +1106,8 @@
         "category": "society",
         "href": "/fr/society/za-school",
         "date": "2026-06-10T12:21:10+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "Élections locales unifiées de 2026 : test de résistance des infrastructures démocratiques à l'ère de la guerre cognitive par l'IA",
@@ -993,7 +1115,8 @@
         "category": "politics",
         "href": "/fr/politics/2026-local-elections-taiwan",
         "date": "2026-06-10T12:21:10+08:00",
-        "readingTime": 16
+        "readingTime": 16,
+        "image": ""
       },
       {
         "title": "Historique du seuil du droit de vote : de 20 à 18 ans, vingt ans de révision constitutionnelle inachevée",
@@ -1001,7 +1124,8 @@
         "category": "politics",
         "href": "/fr/politics/voting-rights-threshold-history",
         "date": "2026-06-10T12:21:10+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "Période de domination Qing",
@@ -1009,7 +1133,8 @@
         "category": "history",
         "href": "/fr/history/qing-dynasty-rule",
         "date": "2026-05-25T07:49:49+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "Hsinchu : la cité de bambou de Zhuqian plantée en 1733, berceau de TSMC en 1980",
@@ -1017,7 +1142,8 @@
         "category": "geography",
         "href": "/fr/geography/hsinchu-city",
         "date": "2026-05-25T07:49:49+08:00",
-        "readingTime": 17
+        "readingTime": 17,
+        "image": ""
       },
       {
         "title": "Les cinq grands reliefs et la structure géographique de Taïwan : d'une île de montagnes à de plaines",
@@ -1025,7 +1151,8 @@
         "category": "geography",
         "href": "/fr/geography/taiwan-five-major-landforms-and-geographic-structure",
         "date": "2026-05-25T07:49:49+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "Les parcs scientifiques de Taïwan : le pari d'une rizière qui est devenu l'artère vitale du monde, mais aussi son talon d'Achille",
@@ -1033,7 +1160,8 @@
         "category": "technology",
         "href": "/fr/technology/science-park-development",
         "date": "2026-05-25T07:48:04+08:00",
-        "readingTime": 18
+        "readingTime": 18,
+        "image": ""
       },
       {
         "title": "Keelung : le port le plus proche de Taipei, celui que Taipei voit le moins",
@@ -1041,7 +1169,8 @@
         "category": "geography",
         "href": "/fr/geography/keelung-city",
         "date": "2026-05-25T07:47:04+08:00",
-        "readingTime": 14
+        "readingTime": 14,
+        "image": ""
       },
       {
         "title": "traditional-festivals-and-celebrations",
@@ -1049,7 +1178,8 @@
         "category": "culture",
         "href": "/fr/culture/traditional-festivals-and-celebrations",
         "date": "2026-05-25T07:47:04+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "L'économie des marchés de nuit : un miracle commercial sans marque",
@@ -1057,7 +1187,8 @@
         "category": "economy",
         "href": "/fr/economy/night-market-economics",
         "date": "2026-05-25T07:47:04+08:00",
-        "readingTime": 8
+        "readingTime": 8,
+        "image": ""
       },
       {
         "title": "La culture des sources thermales",
@@ -1065,7 +1196,8 @@
         "category": "lifestyle",
         "href": "/fr/lifestyle/hot-spring-culture",
         "date": "2026-05-25T07:47:04+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "taiwan-parks-and-everyday-leisure",
@@ -1073,7 +1205,8 @@
         "category": "lifestyle",
         "href": "/fr/lifestyle/taiwan-parks-and-everyday-leisure",
         "date": "2026-05-25T07:47:04+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "Pouvoir prévoir le vent et la pluie, mais pas le destin : quatre siècles de Taïwan face aux typhons",
@@ -1081,7 +1214,8 @@
         "category": "nature",
         "href": "/fr/nature/typhoons-in-taiwan",
         "date": "2026-05-25T05:48:02+08:00",
-        "readingTime": 13
+        "readingTime": 13,
+        "image": ""
       },
       {
         "title": "La guerre sino-française : huit mois à Keelung et Tamsui",
@@ -1089,7 +1223,8 @@
         "category": "history",
         "href": "/fr/history/sino-french-war-in-taiwan",
         "date": "2026-05-25T05:47:24+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "Taipei : trois temps dans une même ville, le temple Longshan de 1738 face au 101 de 2004",
@@ -1097,7 +1232,8 @@
         "category": "geography",
         "href": "/fr/geography/taipei-city",
         "date": "2026-05-25T05:47:24+08:00",
-        "readingTime": 18
+        "readingTime": 18,
+        "image": ""
       },
       {
         "title": "Chen Shui-bian",
@@ -1105,7 +1241,8 @@
         "category": "people",
         "href": "/fr/people/chen-shui-bian-controversial-president",
         "date": "2026-05-25T05:45:14+08:00",
-        "readingTime": 18
+        "readingTime": 18,
+        "image": ""
       },
       {
         "title": "Pommes de terre toxiques : au-delà de 200 ppm, il y a aussi 30 ppm, 14 jours et 15 ans de cicatrices de sécurité alimentaire",
@@ -1113,7 +1250,8 @@
         "category": "society",
         "href": "/fr/society/poisoned-potato-cognitive-warfare-taiwan",
         "date": "2026-05-25T05:44:43+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "La facture taïwanaise : le bout de papier de 1951 qui a transformé tout un peuple en inspecteurs fiscaux",
@@ -1121,7 +1259,8 @@
         "category": "economy",
         "href": "/fr/economy/taiwan-uniform-invoice",
         "date": "2026-05-24T22:43:13+08:00",
-        "readingTime": 18
+        "readingTime": 18,
+        "image": ""
       },
       {
         "title": "Comté de Penghu : deux refus du casino, l'île aux Chrysanthèmes n'a pas choisi la pauvreté",
@@ -1129,7 +1268,8 @@
         "category": "geography",
         "href": "/fr/geography/penghu-county",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 15
+        "readingTime": 15,
+        "image": ""
       },
       {
         "title": "Pensée archipélagique : replacer Taïwan sur la carte du monde malais",
@@ -1137,7 +1277,8 @@
         "category": "culture",
         "href": "/fr/culture/archipelago-thinking",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "Prénoms courants à Taïwan",
@@ -1145,7 +1286,8 @@
         "category": "culture",
         "href": "/fr/culture/common-taiwanese-names",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "6"
+        "readingTime": "6",
+        "image": ""
       },
       {
         "title": "Développement des parcs culturels et créatifs de Taïwan",
@@ -1153,7 +1295,8 @@
         "category": "culture",
         "href": "/fr/culture/taiwan-cultural-creative-park-development",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "La culture des rues historiques de Taïwan et ses quartiers commerciaux",
@@ -1161,7 +1304,8 @@
         "category": "culture",
         "href": "/fr/culture/taiwan-historic-streets-and-commercial-districts",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "Mythes autochtones taïwanais : des récits oraux de la création au déluge",
@@ -1169,7 +1313,8 @@
         "category": "culture",
         "href": "/fr/culture/taiwan-indigenous-mythology",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "8"
+        "readingTime": "8",
+        "image": ""
       },
       {
         "title": "L'ombrelle en papier : de l'objet utilitaire à l'art, un siècle de splendeur de la culture hakka taïwanaise",
@@ -1177,7 +1322,8 @@
         "category": "culture",
         "href": "/fr/culture/taiwan-paper-umbrella",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "10"
+        "readingTime": "10",
+        "image": ""
       },
       {
         "title": "Le riz au dinde de Chiayi : une carte d'identité urbaine à trente yuans",
@@ -1185,7 +1331,8 @@
         "category": "food",
         "href": "/fr/food/chiayi-turkey-rice",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "8"
+        "readingTime": "8",
+        "image": ""
       },
       {
         "title": "You fan : du glutineux « ostentatoire » au cadeau de naissance qui porte le poids de la vie",
@@ -1193,7 +1340,8 @@
         "category": "food",
         "href": "/fr/food/oil-rice",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": 10
+        "readingTime": 10,
+        "image": ""
       },
       {
         "title": "Gâteau à l'ananas : des collations électorales au « lingot d'or » taïwanais d'une valeur de production de 25 milliards de dollars NT",
@@ -1201,7 +1349,8 @@
         "category": "food",
         "href": "/fr/food/pineapple-cake",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "8"
+        "readingTime": "8",
+        "image": ""
       },
       {
         "title": "Les aliments fermentés et la culture de la salaison à Taïwan",
@@ -1209,7 +1358,8 @@
         "category": "food",
         "href": "/fr/food/taiwan-fermented-and-pickled-foods",
         "date": "2026-05-20T12:37:22+08:00",
-        "readingTime": "15"
+        "readingTime": "15",
+        "image": ""
       }
     ],
     "es": [
@@ -1219,7 +1369,8 @@
         "category": "people",
         "href": "/es/people/puma-shen",
         "date": "2026-06-10T12:21:10+08:00",
-        "readingTime": 17
+        "readingTime": 17,
+        "image": ""
       },
       {
         "title": "Za School: A Free Exhibition Founded with Blown Savings, Opened by the Vice President 11 Years Later",
@@ -1227,7 +1378,8 @@
         "category": "society",
         "href": "/es/society/za-school",
         "date": "2026-06-10T12:21:10+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "Rainie Yang: From the Weather Girl Group Rainie to the Producer Column of 'Ambiguous 2025'",
@@ -1235,7 +1387,8 @@
         "category": "people",
         "href": "/es/people/rainie-yang",
         "date": "2026-06-09T11:27:50+08:00",
-        "readingTime": 22
+        "readingTime": 22,
+        "image": ""
       },
       {
         "title": "Chinese Taipei: The Ticket That Lets Taiwan Enter, But Won't Print Its Own Name",
@@ -1243,7 +1396,8 @@
         "category": "society",
         "href": "/es/society/chinese-taipei",
         "date": "2026-06-09T11:27:50+08:00",
-        "readingTime": 12
+        "readingTime": 12,
+        "image": ""
       },
       {
         "title": "Era prehistórica y pueblos indígenas: de la cultura Changbin (20.000-30.000 años) al punto de partida de la expansión austronesia",
@@ -1251,7 +1405,8 @@
         "category": "history",
         "href": "/es/history/prehistoric-era-and-indigenous-peoples",
         "date": "2026-05-25T05:49:38+08:00",
-        "readingTime": 7
+        "readingTime": 7,
+        "image": ""
       },
       {
         "title": "El período de gobierno Qing",
@@ -1259,7 +1414,8 @@
         "category": "history",
         "href": "/es/history/qing-dynasty-rule",
         "date": "2026-05-25T05:49:38+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "Resolución sobre el futuro de Taiwán: dos palabras, \"actualmente\", que sostuvieron veintisiete años",
@@ -1267,7 +1423,8 @@
         "category": "history",
         "href": "/es/history/resolution-on-taiwans-future",
         "date": "2026-05-25T05:49:38+08:00",
-        "readingTime": 10
+        "readingTime": 10,
+        "image": ""
       },
       {
         "title": "Bangka: el lugar más animado del Taipéi bajo dominio Qing, hoy el distrito con la edad promedio más alta de Taipéi",
@@ -1275,7 +1432,8 @@
         "category": "geography",
         "href": "/es/geography/bangka",
         "date": "2026-05-25T05:49:38+08:00",
-        "readingTime": 22
+        "readingTime": 22,
+        "image": ""
       },
       {
         "title": "Ciudad de Hsinchu: la muralla de bambú de Zhúqiàn plantada en 1733, cuna de TSMC nacida en 1980",
@@ -1283,7 +1441,8 @@
         "category": "geography",
         "href": "/es/geography/hsinchu-city",
         "date": "2026-05-25T05:49:38+08:00",
-        "readingTime": 17
+        "readingTime": 17,
+        "image": ""
       },
       {
         "title": "Condado de Hsinchu: 235 años de fe en los Yi-min y el ingreso per cápita más alto de Taiwán, conviviendo junto al mismo río Touqian",
@@ -1291,7 +1450,8 @@
         "category": "geography",
         "href": "/es/geography/hsinchu-county",
         "date": "2026-05-25T05:49:38+08:00",
-        "readingTime": 17
+        "readingTime": 17,
+        "image": ""
       },
       {
         "title": "Ciudad de Taichung: en 1887 casi fue capital; recién en 2010 se convirtió en la segunda mayor municipalidad especial",
@@ -1299,7 +1459,8 @@
         "category": "geography",
         "href": "/es/geography/taichung-city",
         "date": "2026-05-25T05:49:38+08:00",
-        "readingTime": 16
+        "readingTime": 16,
+        "image": ""
       },
       {
         "title": "Condado de Taitung: dos islas periféricas, una encarceló presos políticos durante treinta y seis años, la otra almacenó residuos nucleares durante cuarenta y dos años",
@@ -1307,7 +1468,8 @@
         "category": "geography",
         "href": "/es/geography/taitung-county",
         "date": "2026-05-25T05:49:38+08:00",
-        "readingTime": 15
+        "readingTime": 15,
+        "image": ""
       },
       {
         "title": "Ximending: la calle de entretenimiento que los japoneses construyeron en 1896 y que, 130 años después, sigue siendo la calle más joven de Taipéi",
@@ -1315,7 +1477,8 @@
         "category": "geography",
         "href": "/es/geography/ximending",
         "date": "2026-05-25T05:49:38+08:00",
-        "readingTime": 22
+        "readingTime": 22,
+        "image": ""
       },
       {
         "title": "Condado de Yilan: eligió dos veces su propio destino, y la llanura de Lanyang nunca volvió atrás",
@@ -1323,7 +1486,8 @@
         "category": "geography",
         "href": "/es/geography/yilan-county",
         "date": "2026-05-25T05:49:38+08:00",
-        "readingTime": 15
+        "readingTime": 15,
+        "image": ""
       },
       {
         "title": "Cultura y lengua hakka",
@@ -1331,7 +1495,8 @@
         "category": "culture",
         "href": "/es/culture/hakka-culture-and-language",
         "date": "2026-05-25T05:49:38+08:00",
-        "readingTime": 14
+        "readingTime": 14,
+        "image": ""
       },
       {
         "title": "Cuando la peste se disipó, los fuegos artificiales se convirtieron en tradición: la evolución inesperada de la cultura festiva taiwanesa",
@@ -1339,7 +1504,8 @@
         "category": "culture",
         "href": "/es/culture/traditional-festivals-and-celebrations",
         "date": "2026-05-25T05:49:38+08:00",
-        "readingTime": "12"
+        "readingTime": "12",
+        "image": ""
       },
       {
         "title": "Arroz en tubo de bambú: la fiambrera del cazador que desafía al fuego",
@@ -1347,7 +1513,8 @@
         "category": "food",
         "href": "/es/food/bamboo-tube-rice",
         "date": "2026-05-25T05:49:38+08:00",
-        "readingTime": 8
+        "readingTime": 8,
+        "image": ""
       },
       {
         "title": "La cultura del fideo taiwanés",
@@ -1355,7 +1522,8 @@
         "category": "food",
         "href": "/es/food/taiwanese-noodle-culture",
         "date": "2026-05-25T05:49:38+08:00",
-        "readingTime": 15
+        "readingTime": 15,
+        "image": ""
       },
       {
         "title": "Taiwan's Climate Crisis and Net-Zero Transition: The Day the Nuclear Three Referendum Failed Was Just the Beginning of Physical Limits",
@@ -1363,7 +1531,8 @@
         "category": "nature",
         "href": "/es/nature/taiwan-climate-change-net-zero-transition",
         "date": "2026-05-25T05:49:38+08:00",
-        "readingTime": 26
+        "readingTime": 26,
+        "image": "/article-images/nature/maanshan-nuclear-plant-nan-wan-2014.webp"
       },
       {
         "title": "Las montañas de Taiwán y la cultura del montañismo",
@@ -1371,7 +1540,8 @@
         "category": "nature",
         "href": "/es/nature/taiwan-mountains-and-hiking-culture",
         "date": "2026-05-25T05:49:38+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "Puede predecir el viento y la lluvia, pero no el destino: cuatrocientos años de Taiwán y los tifones",
@@ -1379,7 +1549,8 @@
         "category": "nature",
         "href": "/es/nature/typhoons-in-taiwan",
         "date": "2026-05-25T05:49:38+08:00",
-        "readingTime": 13
+        "readingTime": 13,
+        "image": ""
       },
       {
         "title": "Chen Chien-nien: el rey de los Golden Melody del puesto policial; las canciones que dejó su abuelo materno, el nieto las convirtió en océano",
@@ -1387,7 +1558,8 @@
         "category": "people",
         "href": "/es/people/chen-chien-nien",
         "date": "2026-05-25T05:49:38+08:00",
-        "readingTime": 8
+        "readingTime": 8,
+        "image": ""
       },
       {
         "title": "Hsu Cho-yun: con dos dedos escribió el largo río de la historia china, los noventa y cinco años del tío abuelo materno de Wang Leehom",
@@ -1395,7 +1567,8 @@
         "category": "people",
         "href": "/es/people/cho-yun-hsu-bridging-historian",
         "date": "2026-05-25T05:49:38+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "Ma Ying-jeou: el doctor en Derecho de Harvard que entró a la oficina de Chiang Ching-kuo como traductor de inglés, fue presidente durante ocho años apoyado en una imagen de “integridad” y dejó como legado las relaciones a través del Estrecho, el Movimiento Girasol y el 22K",
@@ -1403,7 +1576,8 @@
         "category": "people",
         "href": "/es/people/ma-ying-jeou-cross-strait-reconciliation-leader",
         "date": "2026-05-25T05:49:38+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "PanSci: del agujero negro de las noticias científicas a la industria del conocimiento en el algoritmo",
@@ -1411,7 +1585,8 @@
         "category": "society",
         "href": "/es/society/pansci",
         "date": "2026-05-25T05:49:38+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "Taiwan Cement: La leyenda de la transformación verde de la primera empresa cotizada de Taiwán",
@@ -1419,7 +1594,8 @@
         "category": "economy",
         "href": "/es/economy/taiwan-cement-taipower-green-transformation",
         "date": "2026-05-25T05:49:38+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "La diáspora taiwanesa: de estudiantes exiliados a ingenieros en Silicon Valley, el mapa de dos millones de personas",
@@ -1427,7 +1603,8 @@
         "category": "society",
         "href": "/es/society/taiwanese-overseas-and-diaspora",
         "date": "2026-05-24T22:40:37+08:00",
-        "readingTime": null
+        "readingTime": null,
+        "image": ""
       },
       {
         "title": "Empresas de Taiwán: Grupo Formosa Plastics",
@@ -1435,7 +1612,8 @@
         "category": "economy",
         "href": "/es/economy/formosa-plastics-group",
         "date": "2026-05-24T22:40:37+08:00",
-        "readingTime": 8
+        "readingTime": 8,
+        "image": ""
       },
       {
         "title": "Pegatron Corporation (Pegatron) - el campeón oculto de la fabricación electrónica por contrato",
@@ -1443,7 +1621,8 @@
         "category": "economy",
         "href": "/es/economy/pegatron-the-invisible-manufacturing-giant",
         "date": "2026-05-24T22:40:37+08:00",
-        "readingTime": 8
+        "readingTime": 8,
+        "image": ""
       },
       {
         "title": "Wistron: Pionera en la transformación de la manufactura global por contrato",
@@ -1451,7 +1630,8 @@
         "category": "economy",
         "href": "/es/economy/wistron-global-manufacturing-transformation-pioneer",
         "date": "2026-05-24T22:40:37+08:00",
-        "readingTime": 8
+        "readingTime": 8,
+        "image": ""
       }
     ]
   }

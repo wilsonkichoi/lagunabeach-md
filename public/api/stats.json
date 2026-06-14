@@ -1,8 +1,8 @@
 {
-  "totalArticles": 4789,
+  "totalArticles": 4790,
   "totalCategories": 20,
   "estimatedContributors": 61,
-  "totalTags": 6137,
+  "totalTags": 6141,
   "categories": [
     {
       "name": "es",
@@ -42,7 +42,7 @@
     },
     {
       "name": "People",
-      "count": 227
+      "count": 228
     },
     {
       "name": "Music",
@@ -168,13 +168,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4789,
+    "zh-TW": 4790,
     "en": 0
   },
-  "lastUpdated": "2026-06-13T22:10:53.005Z",
-  "stars": 1038,
+  "lastUpdated": "2026-06-14T15:08:46.898Z",
+  "stars": 1046,
   "forks": 150,
-  "zhPages": 796,
+  "zhPages": 797,
   "enPages": 801,
-  "totalPages": 796
+  "totalPages": 797
 }

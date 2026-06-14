@@ -1,8 +1,8 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-06-12T22:11:05Z",
-  "total": 795,
-  "flagged": 321,
+  "timestamp": "2026-06-14T15:08:47Z",
+  "total": 799,
+  "flagged": 322,
   "files": [
     {
       "file": "music/拍謝少年.md",
@@ -33,11 +33,6 @@
       "file": "music/濁水溪公社.md",
       "score": 4,
       "reasons": "未人工審核; 塑膠句1個; 破折號12個"
-    },
-    {
-      "file": "music/小虎隊.md",
-      "score": 10,
-      "reasons": "年份僅0個; 未人工審核; 塑膠句1個; 後段清單堆砌50%; 稀薄段落×2"
     },
     {
       "file": "music/台灣聲音地景.md",
@@ -192,7 +187,7 @@
     {
       "file": "technology/台灣網路社群遷徙史.md",
       "score": 6,
-      "reasons": "未人工審核; 後段清單堆砌35%; 稀薄段落×1; 品質衰退前26%後16%; 無腳註"
+      "reasons": "未人工審核; 後段清單堆砌37%; 稀薄段落×1; 品質衰退前26%後16%; 無腳註"
     },
     {
       "file": "technology/IG.md",
@@ -246,8 +241,8 @@
     },
     {
       "file": "art/台灣電影.md",
-      "score": 8,
-      "reasons": "空洞詞5個; 未人工審核; 塑膠句3個; 破折號6個; 稀薄段落×2; 無腳註"
+      "score": 5,
+      "reasons": "空洞詞5個; 未人工審核; 破折號40個"
     },
     {
       "file": "art/台灣散文.md",
@@ -481,8 +476,8 @@
     },
     {
       "file": "society/報導者.md",
-      "score": 6,
-      "reasons": "空洞詞10個; 未人工審核; 塑膠句2個; 破折號11個"
+      "score": 7,
+      "reasons": "無URL來源; 空洞詞6個; 未人工審核; 塑膠句3個"
     },
     {
       "file": "society/醫療法.md",
@@ -875,6 +870,11 @@
       "reasons": "年份僅0個; 僅2個URL; 未人工審核; 稀薄段落×3"
     },
     {
+      "file": "people/呂冠緯.md",
+      "score": 6,
+      "reasons": "空洞詞7個; 未人工審核; 塑膠句1個; 破折號32個"
+    },
+    {
       "file": "people/李登輝.md",
       "score": 4,
       "reasons": "未人工審核; 連續bullet4行; 塑膠句2個; 稀薄段落×1"
@@ -1020,6 +1020,11 @@
       "reasons": "未人工審核; 塑膠句3個; 稀薄段落×6"
     },
     {
+      "file": "people/彎彎.md",
+      "score": 4,
+      "reasons": "未人工審核; 塑膠句1個; 教科書開場"
+    },
+    {
       "file": "people/Ray.md",
       "score": 6,
       "reasons": "年份2個; 未人工審核; 後段清單堆砌50%; 稀薄段落×1"
@@ -1133,11 +1138,6 @@
       "file": "food/糖蔥.md",
       "score": 7,
       "reasons": "未人工審核; 連續bullet4行; 塑膠句1個; 套路結尾; 稀薄段落×5"
-    },
-    {
-      "file": "food/蛋撻.md",
-      "score": 4,
-      "reasons": "未人工審核; 塑膠句1個; 稀薄段落×2"
     },
     {
       "file": "food/台灣米食文化.md",
@@ -1273,6 +1273,11 @@
       "file": "history/湖口營區與勝利路記憶.md",
       "score": 4,
       "reasons": "未人工審核; 後段清單堆砌41%"
+    },
+    {
+      "file": "history/跨黨派的好政策.md",
+      "score": 7,
+      "reasons": "空洞詞14個; 未人工審核; 塑膠句1個; 破折號10個; 稀薄段落×1"
     },
     {
       "file": "history/心戰.md",

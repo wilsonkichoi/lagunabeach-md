@@ -1,48 +1,48 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-14T06:10:51+08:00",
-    "zhCommitHead": "f7484ebea",
-    "totalZh": 798,
+    "lastUpdated": "2026-06-14T23:08:44+08:00",
+    "zhCommitHead": "cc740d688",
+    "totalZh": 799,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
-        "total_zh": 798,
-        "fresh": 695,
-        "stale": 92,
-        "metadata_stale": 10,
-        "missing": 1,
+        "total_zh": 799,
+        "fresh": 691,
+        "stale": 95,
+        "metadata_stale": 11,
+        "missing": 2,
         "orphan": 0
       },
       "ja": {
-        "total_zh": 798,
-        "fresh": 700,
-        "stale": 87,
-        "metadata_stale": 10,
-        "missing": 1,
+        "total_zh": 799,
+        "fresh": 696,
+        "stale": 90,
+        "metadata_stale": 11,
+        "missing": 2,
         "orphan": 0
       },
       "ko": {
-        "total_zh": 798,
-        "fresh": 698,
-        "stale": 89,
-        "metadata_stale": 10,
-        "missing": 1,
+        "total_zh": 799,
+        "fresh": 694,
+        "stale": 92,
+        "metadata_stale": 11,
+        "missing": 2,
         "orphan": 0
       },
       "es": {
-        "total_zh": 798,
-        "fresh": 693,
-        "stale": 94,
-        "metadata_stale": 10,
-        "missing": 1,
+        "total_zh": 799,
+        "fresh": 689,
+        "stale": 97,
+        "metadata_stale": 11,
+        "missing": 2,
         "orphan": 0
       },
       "fr": {
-        "total_zh": 798,
-        "fresh": 693,
-        "stale": 94,
-        "metadata_stale": 10,
-        "missing": 1,
+        "total_zh": 799,
+        "fresh": 689,
+        "stale": 97,
+        "metadata_stale": 11,
+        "missing": 2,
         "orphan": 0
       }
     },
@@ -7577,10 +7577,10 @@
     },
     "Technology/Facebook.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:b95e3374b854ce1d",
-        "bodyHash": "sha256:491bf14e00bda07d"
+        "lastCommit": "ac86475b",
+        "lastModified": "2026-06-14T09:33:24+08:00",
+        "contentHash": "sha256:79e35442d2cf14fd",
+        "bodyHash": "sha256:5ed7f28c852729fe"
       },
       "translations": {
         "en": {
@@ -7594,8 +7594,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 22,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ja": {
           "path": "ja/Technology/facebook-in-taiwan.md",
@@ -7608,8 +7610,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 22,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ko": {
           "path": "ko/Technology/facebook-in-taiwan.md",
@@ -7622,8 +7626,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 22,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "es": {
           "path": "es/Technology/facebook-in-taiwan.md",
@@ -7636,8 +7642,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 22,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "fr": {
           "path": "fr/Technology/facebook-in-taiwan.md",
@@ -7650,8 +7658,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 22,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         }
       }
     },
@@ -8247,9 +8257,9 @@
     },
     "Technology/台灣網路社群遷徙史.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:c3630708a8986b72",
+        "lastCommit": "ac86475b",
+        "lastModified": "2026-06-14T09:33:24+08:00",
+        "contentHash": "sha256:c14069aedbd05adc",
         "bodyHash": "sha256:0385d481b5950305"
       },
       "translations": {
@@ -8264,8 +8274,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ja": {
           "path": "ja/Technology/taiwan-online-community-migration.md",
@@ -8278,8 +8290,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ko": {
           "path": "ko/Technology/taiwan-online-community-migration.md",
@@ -8292,8 +8306,10 @@
           "translationLastModified": "2026-05-24T22:50:13+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "es": {
           "path": "es/Technology/taiwan-online-community-migration.md",
@@ -8306,8 +8322,10 @@
           "translationLastModified": "2026-05-20T12:37:22+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "fr": {
           "path": "fr/Technology/taiwan-online-community-migration.md",
@@ -8320,8 +8338,10 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         }
       }
     },
@@ -18777,10 +18797,10 @@
     },
     "Society/報導者.md": {
       "zh": {
-        "lastCommit": "ef8fab38",
-        "lastModified": "2026-06-12T22:07:01+08:00",
-        "contentHash": "sha256:0330eda01672cda0",
-        "bodyHash": "sha256:5d81679e10b063a1"
+        "lastCommit": "916beed3",
+        "lastModified": "2026-06-14T19:34:31+08:00",
+        "contentHash": "sha256:1cf8ccb819c660be",
+        "bodyHash": "sha256:f8d8d9bf047f289b"
       },
       "translations": {
         "en": {
@@ -18794,8 +18814,8 @@
           "translationLastModified": "2026-06-13T02:54:43+08:00",
           "inferred": false,
           "footnoteDefs": 36,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (60→36)"
         },
         "ja": {
           "path": "ja/Society/the-reporter-investigative-journalism.md",
@@ -18808,8 +18828,8 @@
           "translationLastModified": "2026-06-13T02:54:43+08:00",
           "inferred": false,
           "footnoteDefs": 36,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (60→36)"
         },
         "ko": {
           "path": "ko/Society/the-reporter-investigative-journalism.md",
@@ -18822,8 +18842,8 @@
           "translationLastModified": "2026-06-13T02:54:43+08:00",
           "inferred": false,
           "footnoteDefs": 36,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (60→36)"
         },
         "es": {
           "path": "es/Society/the-reporter-investigative-journalism.md",
@@ -18836,8 +18856,8 @@
           "translationLastModified": "2026-06-13T02:54:43+08:00",
           "inferred": false,
           "footnoteDefs": 36,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (60→36)"
         },
         "fr": {
           "path": "fr/Society/the-reporter-investigative-journalism.md",
@@ -18850,8 +18870,8 @@
           "translationLastModified": "2026-06-13T02:54:43+08:00",
           "inferred": false,
           "footnoteDefs": 36,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (60→36)"
         }
       }
     },
@@ -39673,8 +39693,8 @@
     },
     "People/瘂弦.md": {
       "zh": {
-        "lastCommit": "31a05c44",
-        "lastModified": "2026-06-13T17:54:04+08:00",
+        "lastCommit": "4d39a7d2",
+        "lastModified": "2026-06-14T18:02:17+08:00",
         "contentHash": "sha256:e294ff8cf9b9ac0a",
         "bodyHash": "sha256:dd3ab574ead8013b"
       },
@@ -39692,8 +39712,8 @@
           "footnoteDefs": 18,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -3"
+          "commitsBehind": 2,
+          "diffSummary": "+12 -3"
         },
         "ja": {
           "path": "ja/People/ya-hsien-poet.md",
@@ -39708,8 +39728,8 @@
           "footnoteDefs": 18,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -3"
+          "commitsBehind": 2,
+          "diffSummary": "+12 -3"
         },
         "ko": {
           "path": "ko/People/ya-hsien-poet.md",
@@ -39724,8 +39744,8 @@
           "footnoteDefs": 18,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -3"
+          "commitsBehind": 2,
+          "diffSummary": "+12 -3"
         },
         "es": {
           "path": "es/People/ya-hsien-poet.md",
@@ -39740,8 +39760,8 @@
           "footnoteDefs": 18,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -3"
+          "commitsBehind": 2,
+          "diffSummary": "+12 -3"
         },
         "fr": {
           "path": "fr/People/ya-hsien-poet.md",
@@ -39756,8 +39776,8 @@
           "footnoteDefs": 18,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -3"
+          "commitsBehind": 2,
+          "diffSummary": "+12 -3"
         }
       }
     },
@@ -41608,6 +41628,31 @@
           "footnoteDefs": 1,
           "status": "fresh",
           "reason": "same-commit"
+        }
+      }
+    },
+    "People/彎彎.md": {
+      "zh": {
+        "lastCommit": "a7d5f9ca",
+        "lastModified": "2026-06-14T22:05:19+08:00",
+        "contentHash": "sha256:cf1bca245612a9d1",
+        "bodyHash": "sha256:dba3b3d2b4b28f4b"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
         }
       }
     },
@@ -61135,10 +61180,10 @@
     },
     "Culture/無名小站.md": {
       "zh": {
-        "lastCommit": "45f5bf83",
-        "lastModified": "2026-06-14T02:56:40+08:00",
-        "contentHash": "sha256:1624c636d7ad6c95",
-        "bodyHash": "sha256:9a528801f097d889"
+        "lastCommit": "9c871ad3",
+        "lastModified": "2026-06-14T15:39:00+08:00",
+        "contentHash": "sha256:374cf68002e5c922",
+        "bodyHash": "sha256:74e768331f7f3a8b"
       },
       "translations": {
         "en": {
@@ -63490,10 +63535,10 @@
     },
     "Culture/台灣YouTuber產業與文化.md": {
       "zh": {
-        "lastCommit": "cea9f708",
-        "lastModified": "2026-05-11T21:46:18+08:00",
-        "contentHash": "sha256:d6ed68b20962bf16",
-        "bodyHash": "sha256:77a417d3b5938b17"
+        "lastCommit": "ac86475b",
+        "lastModified": "2026-06-14T09:33:24+08:00",
+        "contentHash": "sha256:32b847d857685cef",
+        "bodyHash": "sha256:d7dfc5eea7475116"
       },
       "translations": {
         "en": {
@@ -63507,8 +63552,10 @@
           "translationLastModified": "2026-05-12T12:42:44+08:00",
           "inferred": false,
           "footnoteDefs": 16,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ja": {
           "path": "ja/Culture/taiwan-youtuber-industry.md",
@@ -63521,8 +63568,10 @@
           "translationLastModified": "2026-05-12T12:42:44+08:00",
           "inferred": false,
           "footnoteDefs": 16,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ko": {
           "path": "ko/Culture/taiwan-youtuber-industry.md",
@@ -63535,8 +63584,10 @@
           "translationLastModified": "2026-05-12T12:42:44+08:00",
           "inferred": false,
           "footnoteDefs": 16,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "es": {
           "path": "es/Culture/taiwan-youtuber-industry.md",
@@ -63549,8 +63600,10 @@
           "translationLastModified": "2026-05-12T12:42:44+08:00",
           "inferred": false,
           "footnoteDefs": 16,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "fr": {
           "path": "fr/Culture/taiwan-youtuber-industry.md",
@@ -63563,8 +63616,10 @@
           "translationLastModified": "2026-05-12T12:42:44+08:00",
           "inferred": false,
           "footnoteDefs": 16,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         }
       }
     },

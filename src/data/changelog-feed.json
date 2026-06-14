@@ -1,7 +1,301 @@
 {
-  "generatedAt": "2026-06-13T22:10:52.014Z",
+  "generatedAt": "2026-06-14T15:08:45.918Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "cc740d68801d3d6c54a27ec5a7a008a72898325d",
+      "date": "2026-06-14T22:07:11+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-pm: PR #1151 彎彎 squash merge + 5-layer immune PASS + contributor reply — 2026-06-14 22:00"
+    },
+    {
+      "hash": "a7d5f9caff7c8bb749b0b0f05b3f417d29c78d2a",
+      "date": "2026-06-14T22:05:19+08:00",
+      "author": "idlccp1984",
+      "message": "Create knowledge/People/彎彎.md (#1151)"
+    },
+    {
+      "hash": "295d65d2d538da721195a4acfbd9cfc8ec95af6c",
+      "date": "2026-06-14T21:19:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-14-210000-twmd-routine-audit-weekly — cycle 6 收官 + MEMORY index row"
+    },
+    {
+      "hash": "63ad44fcdef16714ea2906e355b396e9738d2ef2",
+      "date": "2026-06-14T21:17:21+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] routine-audit-weekly cycle 6: 332 commits / 0 collision / 32 heals / 4 cross-cutting patterns / 4 LESSONS append — 2026-06-14"
+    },
+    {
+      "hash": "91f5071b6756ee3af7604dc74d95c8c58643f557",
+      "date": "2026-06-14T19:37:08+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-14-193457-twmd-rewrite-daily — 收官 + MEMORY index row"
+    },
+    {
+      "hash": "916beed30f24f0a778c5c61ff8bb9184ca2ca894",
+      "date": "2026-06-14T19:34:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-rewrite-daily: 報導者 EVOLVE prose ship — 燒錢的速度，永遠跑在募款前面"
+    },
+    {
+      "hash": "4d39a7d2a34f623526cfc06f103c9819fcd5d88b",
+      "date": "2026-06-14T18:02:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 spore: ship #140/#141 — 瘂弦「封筆 56 年」(Threads + X)"
+    },
+    {
+      "hash": "32f7d948fa0f8b6cac680dceef14881fbd22f8f3",
+      "date": "2026-06-14T16:18:13+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: diary 2026-06-14-154636-無名小卒勘誤 — 答案一直在自己的研究筆記裡，是下筆那一手漏看了"
+    },
+    {
+      "hash": "8b810e9183bf965f4dbf1d5b185712df889eb7ee",
+      "date": "2026-06-14T16:11:39+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-14-154636-無名小卒勘誤 — 讀者抓「無名小卒」站名幻覺三源查證正名 + LESSONS stage2-quote-context-collapse + CI Node24 PR #1150"
+    },
+    {
+      "hash": "6507339d67ba446332ef9c0df7e2456964f7deb2",
+      "date": "2026-06-14T16:08:17+08:00",
+      "author": "Wu Che Yu",
+      "message": "Merge pull request #1150 from frank890417/20260614-ci-node24-bump"
+    },
+    {
+      "hash": "9a94a247eed23bac41cc50045c87d7e8848862bf",
+      "date": "2026-06-14T15:59:33+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: CI Actions Node 20 → Node 24（6/16 GitHub 強制切換前）"
+    },
+    {
+      "hash": "ebbffc215a382c5eb9b514fe576e0370a6b23fa8",
+      "date": "2026-06-14T15:48:46+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diagnose: LESSONS +stage2-quote-context-collapse — 引語語境在下筆被壓成字面事實（無名小卒勘誤根因）"
+    },
+    {
+      "hash": "9c871ad3b3004753b2cbc79bc0068992cd02d112",
+      "date": "2026-06-14T15:39:00+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 無名小站「無名小卒」站名幻覺勘誤 → 正名「無名」"
+    },
+    {
+      "hash": "99bc9e6ef97ca5043b0f4657549ecccbc98718df",
+      "date": "2026-06-14T15:14:48+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: P0 軍團 6 篇 EVOLVE Stage 0-1 研究 SSOT"
+    },
+    {
+      "hash": "921c8675a9f0ca585505318253840a7012d86f6e",
+      "date": "2026-06-14T15:14:48+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: research-report-health gate 校準（REFLEXES #66 dogfood）"
+    },
+    {
+      "hash": "a1b5de00cf0a59b4a71193df84e063b4d0f0982c",
+      "date": "2026-06-14T13:40:32+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-14-132118-manual v2 走 MEMORY-PIPELINE + LESSONS 分離"
+    },
+    {
+      "hash": "773a0dcfae26f19a3d0182aa1c488a8795ced5b1",
+      "date": "2026-06-14T13:23:45+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-14-132118-manual — versus 修 + 圖 + 搖籃 + spore #138/#139 ship"
+    },
+    {
+      "hash": "919072b788105f5d80f9bffb12bd1261d64c0fe4",
+      "date": "2026-06-14T13:20:11+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 spore: ship #138/#139 — 無名小站「電源開關」母題 (Threads + X)"
+    },
+    {
+      "hash": "af7920e097d2e9e2a3d7e8ab7691387d6f50b027",
+      "date": "2026-06-14T12:55:16+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-14-125055-manual — Portaly 三筆匿名贊助落 SSOT（4→7 人）"
+    },
+    {
+      "hash": "cc56472ac9fea5a5c63621e126225acc91940dbe",
+      "date": "2026-06-14T12:47:09+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: portaly supporters — 6/13-14 三筆 one-time（NT$2000 + NT$500 + NT$100，匿名）"
+    },
+    {
+      "hash": "860aea53240b7e8443b49800729b89bf1b9cc181",
+      "date": "2026-06-14T12:37:11+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 無名小站 +3 時代脈絡圖 + 子宮→搖籃 用詞"
+    },
+    {
+      "hash": "b2997707288c340376ef1816a9264b07fb3d1919",
+      "date": "2026-06-14T12:06:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: tw-versus 手機收摺成成對小卡，配對識別不丟失"
+    },
+    {
+      "hash": "3240c35566ccd5cd8c27a8bb2b4fc6b2b245f3f2",
+      "date": "2026-06-14T12:01:45+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 finale: session 2026-06-14-115617 — site tracking + data analysis + card refactor"
+    },
+    {
+      "hash": "17aea29ddfc3564ea121d6cbc78ac20fd2205e6a",
+      "date": "2026-06-14T11:54:42+08:00",
+      "author": "Che-Yu Wu",
+      "message": "refactor(card): ArticleCard premium evolution + rail/related reuse (the code)"
+    },
+    {
+      "hash": "c92a8fa69c5cb74571145e8bc79147541fb774e1",
+      "date": "2026-06-14T11:54:06+08:00",
+      "author": "Che-Yu Wu",
+      "message": "refactor(card): evolve ArticleCard premium → canonical, rail + related share it"
+    },
+    {
+      "hash": "3c9444926300b30782debdb7952c34cd04373993",
+      "date": "2026-06-14T11:18:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "spore: record #136/#137 — 83-day meta milestone (viral)"
+    },
+    {
+      "hash": "794bfbfc750ccebc71c19080c0a3fa8eb3fd34dc",
+      "date": "2026-06-14T11:18:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "docs(anatomy): §資源地圖 — SSOT / data-source / shared-component index"
+    },
+    {
+      "hash": "d0364fd8e75e2f8a720321f436fc1d6bad812997",
+      "date": "2026-06-14T11:11:00+08:00",
+      "author": "Che-Yu Wu",
+      "message": "inbox: 6 P0 rewrite batch (哲宇 directive 2026-06-14)"
+    },
+    {
+      "hash": "46a3e5b64d973875d957371186a3c569a45c6c2d",
+      "date": "2026-06-14T11:05:27+08:00",
+      "author": "Che-Yu Wu",
+      "message": "analysis: 1-month data-state report + close EVOLVE's per-page-bounce blind spot"
+    },
+    {
+      "hash": "9d947ac78d4ee2d5536b030e3f300f2ddd7200a4",
+      "date": "2026-06-14T10:56:00+08:00",
+      "author": "Che-Yu Wu",
+      "message": "feat(tracking): mount EventTracker site-wide via Layout (all pages)"
+    },
+    {
+      "hash": "59deb6dd2d96d9f1be7da10b36ad0b6b2f143d77",
+      "date": "2026-06-14T10:49:07+08:00",
+      "author": "Che-Yu Wu",
+      "message": "Merge branch 'main' of https://github.com/frank890417/taiwan-md"
+    },
+    {
+      "hash": "b4143b2ec66120adcdb1a9b3f46563acec02535c",
+      "date": "2026-06-14T10:47:45+08:00",
+      "author": "Wu Che Yu",
+      "message": "Merge pull request #1148 from frank890417/feature/semantic-related-articles"
+    },
+    {
+      "hash": "f27ae57a5a4eb2be12a9bef7b5f7d94a7cb60661",
+      "date": "2026-06-14T10:45:00+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 archive: session 2026-06-14-103403 — semantic related + cross-page tracking"
+    },
+    {
+      "hash": "7f2cc8c6991e7621f153bdc45b62f8fd1d9452b2",
+      "date": "2026-06-14T10:38:51+08:00",
+      "author": "Che-Yu Wu",
+      "message": "fix(instrumentation): align GA4 dim SSOT + audit with the new EventTracker"
+    },
+    {
+      "hash": "00324549ae9db9397366a510e8b9107ad60b8dcc",
+      "date": "2026-06-14T10:32:30+08:00",
+      "author": "Che-Yu Wu",
+      "message": "feat(routine): nightly fleet embedding rebuild (twmd-embeddings-nightly)"
+    },
+    {
+      "hash": "97f109e3bb0d3ed5e9872e4b11f901a40f790de5",
+      "date": "2026-06-14T10:26:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "feat: TOP_K=8 responsive related, full latest-rail cards, cross-page tracking"
+    },
+    {
+      "hash": "6bedbc3d8260b726b6fcb84864f8e4a6e4e255a2",
+      "date": "2026-06-14T09:40:32+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-14-013028-manual — 無名小站 EVOLVE A→S 收官 + MEMORY index + LESSONS"
+    },
+    {
+      "hash": "97f57561e85048326f53739bee4b6027b7c244c7",
+      "date": "2026-06-14T09:39:08+08:00",
+      "author": "Che-Yu Wu",
+      "message": "docs: semantic related-articles landing report (perf / CI-CD / risks)"
+    },
+    {
+      "hash": "b50f79f3738777d524ae7f69fa31b10f23ba2ca5",
+      "date": "2026-06-14T09:37:24+08:00",
+      "author": "Che-Yu Wu",
+      "message": "feat(article): semantic related-articles in footer (RAG Phase 1 reader landing)"
+    },
+    {
+      "hash": "1e5a8b6bded6976c9a117b7805e07e763a6ba882",
+      "date": "2026-06-14T09:34:15+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-14-025107-廣告史 — 台灣廣告史 Fresh S 級 ship 收官 + MEMORY index row + LESSONS +instance (writer footnote-url-from-memory drift, 黃山料+廣告史 9 處)"
+    },
+    {
+      "hash": "ac86475bc5af38e0d77a95aa048093eaab27a9b3",
+      "date": "2026-06-14T09:33:24+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 無名小站 雙向 cross-link — 3 sibling 反向連結 + 本篇補遷徙史"
+    },
+    {
+      "hash": "e6153a6a20b523e7f8f6ba9eca919504985193d7",
+      "date": "2026-06-14T08:43:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-am: 0 PR / 0 actionable / vc=3 第四輪 chain — 2026-06-14 08:30"
+    },
+    {
+      "hash": "9f37f34863424d395245370e4112fbe094893f71",
+      "date": "2026-06-14T08:14:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-14-080352-twmd-spore-pick-am — 收官 + MEMORY index row"
+    },
+    {
+      "hash": "2658d0d85b481d66f3e2103879a5376454b1de43",
+      "date": "2026-06-14T08:12:35+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-pick: 3 candidates P2 — 2026-06-14 08:00 (廣告史/看不見的國家/蘇打綠)"
+    },
+    {
+      "hash": "5f7ef6b0936ef9e25dfc512bd160b5cf36a24265",
+      "date": "2026-06-14T07:08:46+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-feedback-triage: file=1 reject=0 skip=0 — issue #1147 [Fact Check] justfont（主角本人勘誤）"
+    },
+    {
+      "hash": "f8b1fa19b07fc19eb458c3642fbc3383183f3d80",
+      "date": "2026-06-14T06:47:40+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-14-064620-twmd-spore-harvest-am — 收官 + MEMORY index row"
+    },
+    {
+      "hash": "38a4e18b12997de9be14991cdabe91ab071605c3",
+      "date": "2026-06-14T06:46:05+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest: 15 spores — 2026-06-14 06:30"
+    },
+    {
+      "hash": "b119884182b52c9de4281cb480a3e7d504e34ab8",
+      "date": "2026-06-14T06:12:53+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-14-061149-twmd-data-refresh-am — 收官 + MEMORY index row"
+    },
+    {
+      "hash": "514b7b64c3dc519f1202b62ca9868749405ef3a6",
+      "date": "2026-06-14T06:11:36+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] data-refresh: am 06:00 — 14-step ground truth refresh PASS"
+    },
     {
       "hash": "f7484ebea2dbfe36d548825405abc4f34a17898c",
       "date": "2026-06-14T04:20:37+08:00",
