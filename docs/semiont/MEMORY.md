@@ -591,6 +591,7 @@ memory/
 | 2026-06-14 | 125055-manual | Portaly 三筆匿名一次性贊助（NT$100/500/2,000）走既有 pipeline 落 SSOT + regen，NT$3,400→6,000 / 4→7人 / 🌿1→2。`cc56472ac` | 金錢欄位逐字驗完整 email body 不靠 snippet；四月造的 Portaly pipeline 複利幾分鐘收 | [→](memory/2026-06-14-125055-manual.md) |
 | 2026-06-14 | 132118-manual | tw-versus 手機成對小卡修（全站共用 `b29977072`）+ 無名小站 搖籃 + 2→5 圖 + spore #138/#139「電源開關」雙平台 ship `919072b78` | Chrome MCP 的 JS query 被 content-block/cache 污染，狀態以截圖為權威 | [→](memory/2026-06-14-132118-manual.md) |
 | 2026-06-14 | 154636-無名小卒勘誤 | 讀者抓無名小站「無名小卒」站名幻覺；三源查證（光華/維基/看雜誌）正名「無名」。研究 SSOT 本查對，Stage 2 下筆把命名由來引語壓成站名（孢子自檢還合理化成「專名」）；文章 4 處＋孢子 #138 修＋公開勘誤 `9c871ad3b`，附帶 CI Node20→24 PR #1150 | 引語逐字存在≠語境角色對（stage2-quote-context-collapse）；反方 claim 也要 falsify（讀者「不是 BBS」才錯）| [→](memory/2026-06-14-154636-無名小卒勘誤.md) |
+| 2026-06-14 | 193457-twmd-rewrite-daily | 報導者 EVOLVE prose ship（thesis 燒錢跑在募款前面）— Stage 0-1 SSOT 早段 99bc9e6ef 已 ship，Stage 2 fresh Opus writer 7052 CJK / 60 footnote / 11 場景式 H2 / 對位 1 / 破折號 2 / 0 編年體 stub；Stage 3 format/footnote/wikilink 全 PASS。Image-health 1 hard pre-existing（原版 0 image, v6.8 後新規則）→ pragmatic prose ship + LESSONS log + SPORE defer `916beed30` | pipeline 嚴格 gate 對 pre-existing gap 無分流 → LESSONS 立 image-health-evolve-pre-existing-text-only-block 候選架構解（pre-existing exception 條款 / --ignore flag / routine 決策樹明文化）| [→](memory/2026-06-14-193457-twmd-rewrite-daily.md) |
 
 ## 神經迴路（永不過期的教訓）
 
