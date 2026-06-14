@@ -457,6 +457,14 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **可能層級**：通用反射（established practice 不問 = don't-keep-asking 精緻化）+ REWRITE Stage 3 補強（re-verify 範圍含 footnote URL + 圖內容）
 - **相關**：REFLEXES #31（自評會騙人，連今日辦桌／nuclear／carousel 同 pattern）；標題抽象原則已升 EDITORIAL v6.9 不另進 inbox
 - **+instance (2026-06-14 廣告史)**：fresh Opus writer 拿到 research §7 specific 一手 URL，仍憑記憶重打 9 處腳註掛錯來源（孫大偉 managertoday view/54819→應 355、葉明桂/范可欽 gvm 首頁→應 article/68573 與 /7585、許舜英引語掛中興 brain 頁→應壹週刊 douban）。成品總驗 Stage 3.6.1 逐條改回一手具體頁。根因細化：writer 不是查不到，是「fact-pack 餵對事實、URL 憑印象重打」→ REWRITE Stage 2 writer prompt 應明令「腳註 URL 逐字從 research §7 複製，禁憑記憶重打」。vc 累積中（黃山料 [^17] + 廣告史 9 處）。
+- **+instance (2026-06-14 無名小站，vc→3)**：新維度——writer 不只「憑記憶重打」，是挑了 **plausible-but-wrong 源 ID**：`[^16]` 用 bnext/2772（2006 那篇）冒充 2008 百大（應 9375）、`[^23]` 拿 2025 復活 URL 當 2013 關站源、`[^18]` 彎彎掛「無名奇蹟」Guid（應彎彎專篇 56a77c78）。且 writer 自報「33 腳註全被引用」grep **屬實但看不到綁錯源**（引用了 ≠ 引用對源 — self-grep 抓得到前者抓不到後者）。補強：Stage 3 必須獨立對源 Ctrl-F，writer/orchestrator self-grep 不足以抓 binding error；`footnote-url` plugin 已驗 https/格式但驗不到「URL 真的指向支撐該腳註的那篇」，這層仍需 verifier fan-out 對源。三 session 同日同 pattern（黃山料/廣告史/無名小站）→ 反覆浮現要儀器化（REFLEXES #15）：是否做 footnote-source-binding 抽樣驗？
+
+### 2026-06-14 無名小站 — media-poor 題材 image-health stage-4 HARD 跟反射 2「記錄邊界」的張力
+
+- **觀察**：無名小站（defunct website，2013 關站）EVOLVE 時，Commons 只有 2 張真的在主題上的 CC 圖（2005 停機公告截圖 hero + 2010 Fun Party 創作者照），第 3 張是會重現文章批判物化的「Wretch Girls」正妹照（拒用）。image-health rewrite-stage-4 HARD 用 length-scaled 門檻（prose-CJK/1200 ≈ 5 媒體），且 **5 個 tw-\* viz 模組不被算進 image 數**。結果：commit-time gate 只 WARN（可 ship），stage-4 self-check 達不到。
+- **張力**：反射 2「找不到 PD/CC 圖時記錄邊界不放空」vs image-health HARD「depth 要 5 媒體」。media-rich 題材（設研院 5 / 陳建年 8）門檻合理，但 defunct/abstract 題材 CC 視覺本就稀缺，硬湊 = 要嘛用傷文章的圖、要嘛 hotlink 版權不明截圖，兩者都比誠實邊界差。
+- **可能層級**：(a) image-health 對 media-poor 題材 documented exemption（research report 標 media-poor + 已盡力 N 張 → 降 WARN）；(b) viz 模組部分計入媒體完整度（viz-health 已驗語法，媒體節奏給 partial credit）；(c) 維持現狀靠 commit-time WARN + 人工判斷。**留哲宇拍板要不要動 gate**。
+- **相關**：反射 2（媒體記錄邊界）；黑冠麻鷺 media-poor 0.57 仍 viral 先例；image-health length-scaled v6.8。
 
 ### 2026-06-07 carousel-charts — 視覺自檢「全綠」≠ 過人眼（自評會騙人擴張到視覺，REFLEXES #31）
 
