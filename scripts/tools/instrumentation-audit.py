@@ -44,7 +44,7 @@ REGISTER_SCRIPT = REPO / "scripts" / "tools" / "register-ga4-custom-dimensions.p
 
 # tracker 原始檔 — 任何 _fire() / gtag('event', ...) 埋點的檔案都要列在這
 TRACKER_FILES = [
-    REPO / "src" / "components" / "home" / "HomeEventTracker.astro",
+    REPO / "src" / "components" / "EventTracker.astro",
     REPO / "src" / "layouts" / "Layout.astro",
     REPO / "src" / "pages" / "404.astro",
 ]
@@ -112,11 +112,16 @@ def parse_fired_events(files):
     # 兩種呼叫起點：_fire(  /  gtag('event',  /  gtag("event",
     call_re = re.compile(r"(_fire\s*\(|gtag\s*\(\s*['\"]event['\"]\s*,)")
     str_re = re.compile(r"""['"]([A-Za-z0-9_]+)['"]""")
+    # wrapper-injected params：`params.X = ...`（如 EventTracker._fire 把 page_type
+    # 注進每一個 event）— call-site object literal 看不到，但每個 event 都帶。
+    inject_re = re.compile(r"params\.(\w+)\s*=(?!=)")
+    injected = set()
     for f in files:
         if not f.exists():
             print(f"⚠️  tracker not found: {f}", file=sys.stderr)
             continue
         text = f.read_text()
+        injected.update(inject_re.findall(text))
         for m in call_re.finditer(text):
             call_start = m.start()
             brace = text.find("{", m.end())
@@ -131,6 +136,9 @@ def parse_fired_events(files):
             keys = set(_top_level_keys(obj))
             for name in names:
                 events.setdefault(name, set()).update(keys)
+    # apply wrapper-injected params to every fired event
+    for name in events:
+        events[name].update(injected)
     return events
 
 

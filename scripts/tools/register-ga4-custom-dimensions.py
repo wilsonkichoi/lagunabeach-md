@@ -52,12 +52,15 @@ SEARCH_DIMENSIONS = [
     ("click_position", "Clicked Result Position", "點擊結果在列表中的位置（1-based）"),
 ]
 
-# ── homepage events（2026-05-27 Wave 1+2+3 改版上線，HomeEventTracker.astro）──
-# param 名以 HomeEventTracker.astro 實際 _fire() 送的為準（SSOT 對齊用）。
-HOMEPAGE_DIMENSIONS = [
-    ("section", "Homepage Section", "section_view / click 發生在哪個 section"),
-    ("label", "Homepage Click Label", "click 子項 label（reader_door first/search/random...）"),
-    ("link_url", "Homepage Click URL", "homepage_click 點擊的目的地 URL（2026-05-29 補）"),
+# ── engagement events（2026-05-27 Wave 1+2+3 homepage 上線；2026-06-14 改 EventTracker
+#    跨頁共用 generic events scroll_depth / section_view / content_click /
+#    outbound_click / time_milestone，全帶 page_type；homepage_* 事件改名）──
+# param 名以 src/components/EventTracker.astro 實際 _fire() 送的為準（SSOT 對齊用）。
+ENGAGEMENT_DIMENSIONS = [
+    ("page_type", "Page Type", "事件發生在哪種頁型 home/article/category/latest...（2026-06-14 跨頁追蹤）"),
+    ("section", "Engagement Section", "section_view / content_click 發生在哪個 landmark（related_articles/latest_rail/footnotes...）"),
+    ("label", "Click Label", "content_click 子項 label（view_all_category/random_explore...）"),
+    ("link_url", "Click URL", "content_click / outbound_click 點擊的目的地 URL"),
     ("page_lang", "Page Language", "事件發生的語言介面 zh-TW/en/ja/ko/es/fr"),
     ("seconds", "Time Milestone Seconds", "time_milestone 階段 30/60/180/600"),
     ("elapsed_ms", "Elapsed MS", "section 第一次進 viewport 距 page load 的毫秒"),
@@ -87,7 +90,7 @@ CONVERTER_DIMENSIONS = [
 ]
 
 DIMENSIONS = (
-    SEARCH_DIMENSIONS + HOMEPAGE_DIMENSIONS + PAGE_DIMENSIONS + CONVERTER_DIMENSIONS
+    SEARCH_DIMENSIONS + ENGAGEMENT_DIMENSIONS + PAGE_DIMENSIONS + CONVERTER_DIMENSIONS
 )
 
 # ── 廢棄維度（archive 而非刪除，GA4 archive 可重建）──────────────────────────
