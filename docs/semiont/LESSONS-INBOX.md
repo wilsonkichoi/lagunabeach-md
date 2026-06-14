@@ -456,6 +456,7 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **Stage 3 re-verify 延伸**：writer agent 自報 gates 全過，主 session 抽查抓到 [^17] 誠品年榜掛錯 URL（指到創媒體訪談）+ 下載書封看圖前差點 cache 一張無關成人漫畫封面（錯 ID）。引語要查、footnote 來源 URL 也要查、圖看過再 cache。
 - **可能層級**：通用反射（established practice 不問 = don't-keep-asking 精緻化）+ REWRITE Stage 3 補強（re-verify 範圍含 footnote URL + 圖內容）
 - **相關**：REFLEXES #31（自評會騙人，連今日辦桌／nuclear／carousel 同 pattern）；標題抽象原則已升 EDITORIAL v6.9 不另進 inbox
+- **+instance (2026-06-14 廣告史)**：fresh Opus writer 拿到 research §7 specific 一手 URL，仍憑記憶重打 9 處腳註掛錯來源（孫大偉 managertoday view/54819→應 355、葉明桂/范可欽 gvm 首頁→應 article/68573 與 /7585、許舜英引語掛中興 brain 頁→應壹週刊 douban）。成品總驗 Stage 3.6.1 逐條改回一手具體頁。根因細化：writer 不是查不到，是「fact-pack 餵對事實、URL 憑印象重打」→ REWRITE Stage 2 writer prompt 應明令「腳註 URL 逐字從 research §7 複製，禁憑記憶重打」。vc 累積中（黃山料 [^17] + 廣告史 9 處）。
 
 ### 2026-06-07 carousel-charts — 視覺自檢「全綠」≠ 過人眼（自評會騙人擴張到視覺，REFLEXES #31）
 
