@@ -287,6 +287,15 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 ## 未消化清單（📥 待 distill）
 
+### 2026-06-14 154636-無名小卒勘誤 — Stage 1 研究查對了站名，Stage 2 下筆把「命名由來引語」壓成「字面站名」，孢子自檢還合理化成「專名」
+
+- **pattern**: stage2-quote-context-collapse
+- **原則**：引語的「語境角色」（自嘲 / 命名由來 / 比喻 / 反話）在 Stage 2 下筆時容易被壓縮成「字面事實」（站名 / 數據 / 專名），即使 Stage 1 研究已查對正確版本。下游事實自檢若只驗「引語是否逐字存在」會 false pass，因為引語本身是真的，錯的是它被安放的 claim。驗證要連「這句話在原文是描述什麼」一起檢查，不能只 Ctrl-F 逐字。
+- **觸發**：2026-06-14 無名小站 spore #138/#139 ship（13:20）後，多位 Threads 讀者（askajay0717「無名小卒？？？BBS？？？」、_annehc_「根本不是 BBS 也不叫無名小卒」）抓到站名錯誤。複查發現研究報告 SSOT 白紙黑字「名稱一開始就叫『無名』，無前身改名」（reports/research/2026-06/無名小站.md:18）+ §4 引語庫把「我們都是無名小卒」標為「命名由來」——研究是對的。但 Stage 2 文章 4 處 + 孢子正文把「無名小卒」寫成站名，孢子事實鐵三角自檢還寫「『無名小卒』是專名」把錯誤合理化一次才漏出去。三源複驗（光華一手「取名為『無名』」/ 維基「無名小站 BBS，全文無『無名小卒』」/ 看雜誌「架起『無名』BBS 站」）確認是 Stage 2 context-collapse。修補 commit 9c871ad3b（讀者校正 → 公開勘誤哲宇釘 Threads/X + 寫回 SSOT）。BBS 起源本身 5 源確認正確，未動。
+- **可能層級**：FACTCHECK pattern catalog 新增（與「偽造直接引語」orthogonal，這種引語是真的、崩塌的是語境）；候選進 REWRITE-PIPELINE Stage 3 + SPORE-PIPELINE Step 3c 事實自檢加一條「引語逐字存在 ✓ 還不夠，要驗『這句在原文描述什麼』是否等於我安放的 claim」。
+- **相關**：2026-04-21 α「primary-source paraphrase drift（不是偽造、是壓縮失真）」同 genre 的內生版 / [[feedback_absolute_facts_extra_caution]]（verbatim 三倍檢查）/ [[feedback_no_scene_inference_from_english]]（可驗證細節不可鬆散推導）/ [[feedback_stage1_falsification_mindset]] / REFLEXES #42（sub-agent verify gate）
+- **verification_count**: 1
+
 ### 2026-06-14 132118-manual — Chrome MCP content-block 讓 spore pre-ship 的 JS 段落結構檢查失準，截圖才是權威驗證
 
 - **pattern**: chrome-mcp-content-block-js-verify-unreliable
