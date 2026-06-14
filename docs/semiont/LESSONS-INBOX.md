@@ -287,6 +287,11 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 ## 未消化清單（📥 待 distill）
 
+### 2026-06-14 103403-semantic-related — instrument 對監看目標的路徑寫死，目標改名 → watcher 靜默全盲（broken-instrument #59 變體）
+
+- **watcher 把被監看檔的路徑 hardcode → rename/move 後 watcher 掃空但不 fail-loud，反而把活的東西誤報成死的**：`HomeEventTracker.astro` → `EventTracker.astro` 改名後，`instrumentation-audit.py` 的 `TRACKER_FILES` 仍指舊路徑 → audit 掃到 0 event、把全部還在 fire 的 GA4 dim（section/depth_pct/label...）誤報「在 SSOT 但沒 event fire，可能已死」。同時 `register-ga4-custom-dimensions.py` 沒跟上新 param `page_type` → GA4 custom dim 不註冊 → 每個 event 的 page_type silent (not set)。兩個都是「改 code」與「改監看/註冊 SSOT」兩條分離流程的漂移，**漂移端是靜默的**（audit 印 warn 不印 error、GA4 dim 空值沒人看）。這是 **REFLEXES #59 broken-instrument-blindspot** 的變體（不是「表面同/語意反」，是「instrument 對自己目標的引用會在 refactor 時悄悄脫鉤」）+ **#69 self-report-needs-external-ruler**（watcher 自報「全綠/全死」前要先確認自己掃的是不是還活著的目標）。**架構解候選**：watcher 對 target 路徑的引用要嘛 glob-derive（掃 `src/components/*EventTracker*.astro`）要嘛在 target 不存在時 fail-loud 升 error 而非 warn（`tracker not found` 現在只印 stderr 不阻斷）。vc=1（本 session 首次，但與 #59 同 family 可併入加 vc）。
+- **rename 一個被 instrument 監看的東西 = 同 commit 要 grep 反向引用**：改 tracker / 工具 / 資料檔的檔名或路徑時，先 `grep -rn "<old-name>"` 找所有把它寫死的 watcher / audit / CI gate / SSOT，同 commit 一起更新。否則 immune layer 在你看不見的地方變瞎。
+
 ### 🧬 2026-06-10 opendata session — 3 候選（Twinkle Hub pilot + /opendata 策展頁 + 部署解封）
 
 - **Alpha 外部 API 的整合鐵律「靜態指標、不 runtime 依賴」實證**：Twinkle Hub 兩個月兩次 contract 大改（裸 POST→session 握手、40→21 工具、twtools 整組下架）+ alpha rate limit 無預告出現（query_rows 首發 429）。文章引用一律寫成靜態 metadata（dataset_id + data.gov.tw 持久 URL + verified 日期），查詢層當可掉的加值。薄包裝（twinkle-hub-verify.py）隔離 contract 變動 + 429 退避 4 段。任何 alpha 依賴都該長這樣
