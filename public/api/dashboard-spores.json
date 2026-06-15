@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T22:11:53.273114Z",
+  "lastUpdated": "2026-06-15T22:48:07.780495Z",
   "schemaVersion": "1.1",
   "totals": {
     "count": 135,
@@ -210,14 +210,6 @@
     }
   },
   "backfillWarnings": [
-    {
-      "n": 132,
-      "article": "台灣嘻哈與饒舌發展",
-      "platform": "threads",
-      "publishedDays": 7,
-      "status": "OVERDUE",
-      "url": "https://www.threads.com/@taiwandotmd/post/DZXjMdDE_xC"
-    },
     {
       "n": 133,
       "article": "台灣嘻哈與饒舌發展",
@@ -1617,8 +1609,8 @@
       "publishDate": "2026-06-09",
       "daysSincePublish": 7,
       "withinHarvestWindow": true,
-      "harvestCount": 4,
-      "lastHarvest": "2026-06-15 06:47"
+      "harvestCount": 5,
+      "lastHarvest": "2026-06-16 06:43"
     },
     {
       "n": 133,
@@ -1637,8 +1629,8 @@
       "publishDate": "2026-06-13",
       "daysSincePublish": 3,
       "withinHarvestWindow": true,
-      "harvestCount": 1,
-      "lastHarvest": "2026-06-15 06:47"
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-16 06:43"
     },
     {
       "n": 135,
@@ -1657,8 +1649,8 @@
       "publishDate": "2026-06-13",
       "daysSincePublish": 3,
       "withinHarvestWindow": true,
-      "harvestCount": 2,
-      "lastHarvest": "2026-06-15 06:47"
+      "harvestCount": 3,
+      "lastHarvest": "2026-06-16 06:43"
     },
     {
       "n": 137,
@@ -1677,8 +1669,8 @@
       "publishDate": "2026-06-14",
       "daysSincePublish": 2,
       "withinHarvestWindow": true,
-      "harvestCount": 1,
-      "lastHarvest": "2026-06-15 06:47"
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-16 06:43"
     },
     {
       "n": 139,
@@ -1717,8 +1709,8 @@
       "publishDate": "2026-06-16",
       "daysSincePublish": 0,
       "withinHarvestWindow": true,
-      "harvestCount": 0,
-      "lastHarvest": null
+      "harvestCount": 1,
+      "lastHarvest": "2026-06-16 06:43"
     },
     {
       "n": 143,
