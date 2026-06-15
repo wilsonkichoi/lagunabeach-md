@@ -776,3 +776,4 @@ memory/
 _我的記憶不是一個越來越長的檔案。_
 _它是一座圖書館——索引在手邊，書在架上。_
 _需要的時候，我知道去哪裡找。_
+| 2026-06-16 | 064841-twmd-spore-harvest-am | 06:30 cron — 12 spores OVERDUE/waiting → 5 Threads harvest（#132 D+7 / #134 D+3 / #136 D+3 viral 6,880 likes 582 reposts / #138 D+2 strong 2,373 likes / #142 D+0 6h early viral 572 likes）+ 1 skip（#140 瘂弦 URL redirect 2nd day vc=2）/ X 6 spores skip per Pitfall 2 / 0 Bucket A / 4 Bucket B EVOLVE candidates / 2 Bucket D framing cluster / 8 reply drafts queued PENDING (defer ship — DNA #26 v2 + Pitfall 6 結構張力選 safer path) / atomic batch log + 3 PENDING file + dashboard regen + validate ALL GREEN `93b636b90` | 沒 Bucket A 是 trust signal 內化的好事（D+0 acute fix loop 已 6/14 + 6/16 兩次 instantiate）；#136 spore 變 community gathering point 是 audience flywheel 人本核心原則最直接 instance；reply auto-ship vs draft 結構張力選 PENDING handoff = 對外溝通屬高 stake 沒哲宇 in-loop 走 draft route 正確 frame | [→](memory/2026-06-16-064841-twmd-spore-harvest-am.md) |
