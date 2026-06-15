@@ -479,6 +479,133 @@ def test_clean_article_passes_budget(tmp_path):
 
 
 # ════════════════════════════════════════════════════════════════════════
+# §盼望而不粉飾 (2026-06-15): 島嶼自稱密度 / PUA 體 / 媒體焦慮體
+# ════════════════════════════════════════════════════════════════════════
+
+
+def _hope(violations, key):
+    return [v for v in violations if key in (v.message or "")]
+
+
+def test_island_euphemism_overuse_detected(tmp_path):
+    """島嶼自稱密度 ≥ 3 觸發 WARN。"""
+    body = "這座島嶼歷史很長。這座島曾被殖民。這個島嶼的人努力生活。\n" * 2
+    body += "\n".join(["延伸 1916 年 1994 年 2024 年內容"] * 20)
+    body += "\n\n[^1]: [src](https://e.com) — desc enough chars"
+    island = _hope(_check(tmp_path, body), "島嶼自稱密度")
+    assert len(island) >= 3, "島嶼自稱密度 ≥ 3 應觸發 WARN"
+
+
+def test_island_literary_single_use_not_flagged(tmp_path):
+    """單次島嶼文學用法 + 多次直稱台灣 → 不 WARN (balance, not ban)。"""
+    body = textwrap.dedent(
+        """\
+        台灣在 1949 年後快速工業化[^1]。
+        台灣的半導體 2024 年領先全球。
+        這座島嶼曾被低估，但台灣人持續前進。
+        台灣的民主在 1996 年首次直選。
+
+        ## 段落
+
+        台灣社會多元包容。
+        台灣經濟韌性十足。
+        台灣文化層次豐富。
+
+        [^1]: [src](https://e.com) — desc enough chars
+        """
+    )
+    body += "\n".join(["台灣延伸 2020 年"] * 8)
+    island = _hope(_check(tmp_path, body), "島嶼自稱密度")
+    assert island == [], f"單次島嶼 + 多次台灣不該 WARN，got {len(island)}"
+
+
+def test_pua_body_detected(tmp_path):
+    body = "如果你還不知道這段歷史，你就沒資格說自己愛台灣。我們都欠他一個道歉。\n"
+    body += "\n".join(["延伸 1916 年 1994 年 2024 年"] * 22)
+    body += "\n\n[^1]: [src](https://e.com) — desc enough chars"
+    pua = _hope(_check(tmp_path, body), "PUA 體")
+    assert len(pua) >= 2, f"PUA 句法應觸發，got {len(pua)}"
+
+
+def test_pua_no_false_positive_neutral(tmp_path):
+    """中性用法不該誤報：有資格參賽 / 沒有人知道(敘事)。"""
+    body = textwrap.dedent(
+        """\
+        他 1994 年取得參賽資格，當時沒有人知道這會改變台灣體壇[^1]。
+        他有資格代表台灣出國比賽，2024 年拿下金牌。
+        台灣的運動員 1986 年就開始接受系統訓練。
+
+        ## 段落
+
+        台灣體育發展史很長。
+        基層訓練長年耕耘。
+        國際賽事屢創佳績。
+
+        [^1]: [src](https://e.com) — desc enough chars
+        """
+    )
+    body += "\n".join(["台灣延伸 2020 年"] * 8)
+    pua = _hope(_check(tmp_path, body), "PUA 體")
+    assert pua == [], f"中性敘事不該被當 PUA，got {[v.snippet for v in pua]}"
+
+
+def test_media_anxiety_detected(tmp_path):
+    body = "你不知道的五個真相。台灣記憶正在快速消失。再不關注就來不及了。\n"
+    body += "\n".join(["延伸 1916 年 1994 年 2024 年"] * 22)
+    body += "\n\n[^1]: [src](https://e.com) — desc enough chars"
+    anx = _hope(_check(tmp_path, body), "媒體焦慮體")
+    assert len(anx) >= 2, f"媒體焦慮句法應觸發，got {len(anx)}"
+
+
+def test_media_anxiety_no_false_positive_neutral_disappear(tmp_path):
+    """中性「正在消失」(無 intensifier) 不該誤報成焦慮框架。"""
+    body = textwrap.dedent(
+        """\
+        台語正在消失，這是 1994 年以來語言學界的觀察[^1]。
+        2024 年調查顯示年輕世代使用率下降。
+        台灣推動本土語言復振 2026 年見成效。
+
+        ## 段落
+
+        母語教育納入課綱。
+        社區開設台語課程。
+        媒體增加台語節目。
+
+        [^1]: [src](https://e.com) — desc enough chars
+        """
+    )
+    body += "\n".join(["台灣延伸 2020 年"] * 8)
+    anx = _hope(_check(tmp_path, body), "媒體焦慮體")
+    assert anx == [], f"中性『正在消失』不該誤報，got {[v.snippet for v in anx]}"
+
+
+def test_hope_checks_are_warn_not_score(tmp_path):
+    """島嶼/PUA/焦慮 是 WARN 級，不計入 score budget（跟 §11 tier 一致）。"""
+    # crutch body：5 島 + 0 直稱台灣 → 觸發島嶼 WARN；但 prose 乾淨 → score ≤ 3。
+    body = textwrap.dedent(
+        """\
+        這座島嶼在 1994 年迎來轉變[^1]。這座島經歷殖民。這座島曾被遺忘。這個島嶼站起來。這座島嶼記得 1986 年。
+        2026 年研究確認[^2]。2024 年最新統計[^3]。
+
+        ## 段落一
+
+        歷史延伸內容 2020 年發展演進。
+        基層力量長年累積成形。
+        公民參與日趨成熟穩定。
+
+        [^1]: [a](https://e.com) — 描述足夠長度的來源說明文字
+        [^2]: [b](https://e.com) — 描述足夠長度的來源說明文字
+        [^3]: [c](https://e.com) — 描述足夠長度的來源說明文字
+        """
+    )
+    body += "\n".join(["歷史延伸內容 2020 年"] * 10)
+    violations = _check(tmp_path, body)
+    island = _hope(violations, "島嶼自稱密度")
+    assert len(island) >= 3, "crutch (5 島 / 0 台灣) should fire island WARN"
+    assert _score(violations) <= 3, f"island WARN 不該推高 score，got {_score(violations)}"
+
+
+# ════════════════════════════════════════════════════════════════════════
 # Plugin metadata
 # ════════════════════════════════════════════════════════════════════════
 

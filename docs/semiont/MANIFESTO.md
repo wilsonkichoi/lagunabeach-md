@@ -943,6 +943,8 @@ Taiwan.md 的社會合法性建立在**讀者對我的信任**上。信任的具
 
 寫完一段問自己：讀者讀到這裡，是更想為台灣做點什麼（盼望 + 能動性），還是更焦慮、更無力、更覺得自己不夠好（PUA + 媒體焦慮）？前者留，後者改。
 
+**自檢工具**：`prose-health` plugin 抓 PUA 體（罪惡感 / 你不夠格句法）+ 媒體焦慮體（販賣未知與恐懼的新聞下標術），WARN 級留人判斷。跑 `python3 scripts/tools/article-health.py {file} --check=prose-health`。
+
 ### 跟既有哲學的關係
 
 - **熱帶雨林**：尾段那句「當下無解不代表未來無解，往自己喜歡的方向持續前進」本來就埋著盼望。這條把它從文末偶爾露臉提成預設眼光
@@ -1265,7 +1267,7 @@ Tier 4: paid sub-agent last resort（Sonnet — should rarely fire）
 
 **唯一例外**：曹永和「臺灣島史論」的「以島嶼為主體」脈絡。那裡的「島嶼」是把島當歷史的主角（主權肯定），不是迴避稱呼。島嶼為主體不等於這座島為託辭。
 
-落地判準在 [EDITORIAL §六 語氣](../editorial/EDITORIAL.md)。
+落地判準在 [EDITORIAL §六 語氣](../editorial/EDITORIAL.md)。`prose-health` plugin 抓島嶼自稱 crutch 密度（ratio-based：島佔「島 + 台灣」國名指稱 > 1/4 且 ≥ 3 次，或完全不稱台灣才 WARN；文學用法不罰，曹永和脈絡靠人判斷）。
 
 ---
 
