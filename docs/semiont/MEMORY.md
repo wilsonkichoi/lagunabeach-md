@@ -766,6 +766,7 @@ memory/
 ---
 
 | 2026-06-15 | 191500-twmd-rewrite-daily | 19:15 cron — P0 batch 第 2 篇 ship 台灣網路社群遷徙史 EVOLVE（接 6/14 報導者）/ 6500 char / 47 footnote / 8 場景式 H2 / 失土史 thesis（黏著度最高地方資料主權最低 @ 脆 11 分 31 秒）。Stage 0-1 SSOT 6/14 batch 預製（112 URL / research-report-health PASS）/ Stage 2 fresh Opus writer agent 92.7k tokens 14.5min / 對位 1/破折號 57/0 編年體 文體紀律全綠 / stage-3-5 PASS / stage-4 image-health hard=1 pre-existing 同 6/14 報導者模式 → prose ship + ARTICLE-INBOX prose-shipped-pending-media + SPORE defer。LESSONS image-health-evolve-pre-existing-text-only-block vc 1→2（P0 batch 共通模式判斷，剩 4 篇 candidate 會繼續 vc++）`6ca6fef61` `da3fb6e79` | 6/14 P0 軍團 batch 預製 Stage 0-1 SSOT 是 game-changer — daily cron 只跑 Stage 2-5 fresh writer 即可 ~16 min ship 6500 字 depth article，§6.3 orchestrator+tiered 架構真正發力型態；pre-existing media gap 跨兩日兩 instance 已是 P0 batch 共通模式不是 outlier，3 option 架構解候選 defer 哲宇拍板 | [→](memory/2026-06-15-191500-twmd-rewrite-daily.md) |
+| 2026-06-15 | 210606-manual | 迷音 Miin depth EVOLVE（B→A 4880字 + viz + Stage 5）× 哲宇三次過程 callout 即時 canonical 化：REWRITE v7.4 writer 讀整份 report + v7.5 Evolution 寫 staging 檔 Stage 2.5 比對覆蓋 + EDITORIAL 社群素材彙整原則 + 盼望 gaze pass | callout 修的是會重複的方法論失誤不是文章，當場 canonical 化再用本篇當 worked example | [→](memory/2026-06-15-210606-manual.md) |
 
 _我的記憶不是一個越來越長的檔案。_
 _它是一座圖書館——索引在手邊，書在架上。_
