@@ -331,7 +331,8 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **本次處置**：ship 純 prose EVOLVE（接受 image-health hard fail），LESSONS 立此 entry，ARTICLE-INBOX append「報導者 — 媒體補完」P1 entry 給後續 EVOLVE。SPORE chain 自動 defer（per pipeline §6.8 image hard → spore-publish 失格）。
 - **可能層級**：(a) REWRITE-PIPELINE 加「EVOLVE 模式 image-health pre-existing exception」條款（pre-v6.8 ship 過的 text-only article EVOLVE 時，image hard 降 WARN + ARTICLE-INBOX append media follow-up；prose ship 不阻擋）；(b) 或加 article-health.py `--ignore=image-health` flag 給 cron mode 在已偵測 pre-existing 時 graceful skip；(c) 或 routine prompt 補「image hard 時 prose ship + SPORE defer 是合法分支」明文化決策樹。
 - **相關**：[[image_media_toolchain]]（圖像後處理基礎設施）+ REWRITE-PIPELINE v6.8 §媒體完整度低標 + REFLEXES #15（規則要能執行才算規則 — 嚴格 gate 對 pre-existing gap 沒分流 = 規則卡 cron 但無 escape valve）+ MANIFESTO §架構解 vs 守備修補（這條候選架構解：pre-existing exception 條款）。
-- **verification_count**: 1
+- **verification_count**: 2
+- **refinement（2026-06-15 twmd-rewrite-daily vc++）**：第二輪 instance — 台灣網路社群遷徙史 EVOLVE，原版 163 行 0 image，EVOLVE prose 6548 char / 47 footnote / 8 場景式 H2 場景敘事完整，但 image-health hard=1（length-scaled ≥5 圖，pre-existing gap）。處置同 報導者 yesterday：ship 純 prose 接受 hard fail / ARTICLE-INBOX 標 prose-shipped-pending-media / SPORE chain 自動 defer per pipeline v6.8。**vc 累積跨兩日 P0 batch 兩篇 instance**（報導者 6/14 + 社群遷徙史 6/15）顯示 pre-existing exception 條款不是個案，是 P0 batch 大半 candidate 共通模式。剩下 4 篇 P0（流行音樂/造山者/沈伯洋/蔡英文）原版若也是 text-only depth，**會繼續 vc++**。**distill_ready 候選升級**：(a) `--ignore=image-health` flag 給 cron mode (b) article-health pre-existing 偵測（若 git log 顯示 image-health gap > N 天 = pre-existing → graceful WARN）(c) routine prompt 明文化「pre-existing text-only EVOLVE → prose ship + SPORE defer 合法分支」。defer 哲宇拍板架構方向，本 routine 不擴張 scope（>1 file scope tooling 改動 = §自主權邊界）。
 
 ### 2026-06-14 154636-無名小卒勘誤 — Stage 1 研究查對了站名，Stage 2 下筆把「命名由來引語」壓成「字面站名」，孢子自檢還合理化成「專名」
 
