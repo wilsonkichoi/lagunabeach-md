@@ -771,6 +771,7 @@ memory/
 | 2026-06-16 | 001200-miin-spore | 迷音孢子 #142/#143 雙平台 ship；哲宇 callout 標題把 sub judice 未定罪寫成事實 → 查證 + 去罪化；footnote zh 沒壞（重用慣例）譯文落後 | 事實紀律含標題非只內文；發文前驗登入帳號 | [→](memory/2026-06-16-001200-miin-spore.md) |
 | 2026-06-16 | 031431-twmd-babel-nightly | 74 譯（15 Tier 0b + 59 codex）；gpt-oss free 100% footnote 退化、batch 2 codex 9/50 → cohort exhausted | partial 但 honest > retry 浪費；env cascade 深度應承認 | [→](memory/2026-06-16-031431-twmd-babel-nightly.md) |
 | 2026-06-16 | 050752-twmd-embeddings-nightly | fleet 不可達（laptop-4090 ping 100% loss / HTTP 000）graceful skip 第 2 天；index 維持 6/14 版 fallback 照常 | 連 3 天 skip 才 escalate，明天仍 down=第3次→LESSONS；節點硬體層非 Semiont bug | [→](memory/2026-06-16-050752-twmd-embeddings-nightly.md) |
+| 2026-06-16 | 061231-twmd-data-refresh-am | 14-step ALL PASS + Step 11 11/11 fresh + 三源全綠（CF 520K+AI 104K）+ immune 54 carry + ⭐1053 📄797 | 5/28 wire 修補持續健康；免疫 chronic 3 option 等拍板 | [→](memory/2026-06-16-061231-twmd-data-refresh-am.md) |
 
 _我的記憶不是一個越來越長的檔案。_
 _它是一座圖書館——索引在手邊，書在架上。_
