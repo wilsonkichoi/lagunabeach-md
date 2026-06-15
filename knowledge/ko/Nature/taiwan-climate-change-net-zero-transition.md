@@ -1,416 +1,412 @@
 ---
-title: '대만의 기후 위기와 탄소중립 전환: 핵발전소 3호기 국민투표가 부결된 날, 물리적 한계와의 싸움이 비로소 시작되었다'
-description: '2025년 8월 23일 핵발전소 3호기 연장 국민투표: 434만 찬성표, 74% 찬성, 투표율 29.53%로 기준 미달. 투표 부결 다음 날 라이칭더는 세 가지 원칙을 제시했고, 7개월 후 2026년 3월 27일 타이전은 연장 신청서를 핵안전회에 제출했다. 에너지의 98%를 수입에 의존하고, 9조 신대만달러의 탄소중립 목표, 지열 목표 200MW에 실제 가동은 7.4MW, 해상풍력 설치량 세계 7위, 온칼로 최종 처리장, TerraPower 4세대 원전——이 섬의 에너지 문제는 결코 정치 문제가 아니다. 물리적 한계의 문제다.'
-date: 2026-05-19
+title: '타이완 기후 위기와 넷제로 전환: 핵3 국민투표가 부결된 날, 물리적 한계의 선택은 막 시작되었다'
+description: '2025년 8월 23일 핵3 연장 운전 국민투표: 찬성 434만 표, 찬성률 74%, 투표율 29.53%로 문턱에 미달했다. 국민투표는 부결되었고, 다음 날 라이칭더는 세 원칙을 제시했다. 7개월 뒤인 2026년 3월 27일, 타이완전력은 연장 운전 신청을 원자력안전위원회에 제출했다. 에너지의 98%를 수입에 의존하고, 넷제로에 9조 타이완달러를 투입하며, 지열 목표 200 MW 중 실제 건설은 7.4 MW에 그치고, 해상풍력 설비용량은 세계 7위이며, Onkalo 최종 처분장과 TerraPower 4세대 원전까지 거론되는 이 섬의 에너지 문제는 처음부터 정치 문제가 아니라 물리적 한계의 문제였다.'
+date: '2026-05-19'
+author: 'Taiwan.md'
 category: 'Nature'
+subcategory: '保育與環境'
 tags:
   [
-    '氣候變遷',
-    '淨零轉型',
-    '能源轉型',
-    '核三',
-    '核廢料',
-    '氫能',
-    '地熱',
-    '海洋能',
-    '離岸風電',
-    '太陽光電',
-    '碳權交易',
-    '蘭嶼',
-    '極端氣候',
+    '기후변화',
+    '넷제로 전환',
+    '에너지 전환',
+    '핵3',
+    '핵폐기물',
+    '수소에너지',
+    '지열',
+    '해양에너지',
+    '해상풍력',
+    '태양광',
+    '탄소권 거래',
+    '란위',
+    '극한기후',
   ]
-subcategory: '保育與環境'
 readingTime: 26
-author: 'Taiwan.md'
-featured: true
-lastVerified: 2026-05-19
+lastVerified: '2026-05-19'
 lastHumanReview: true
-image: '/article-images/nature/maanshan-nuclear-plant-nan-wan-2014.webp'
-imageCredit: 'M. Weitzel (Wikimedia Commons)'
-imageLicense: 'CC BY-SA 3.0'
-imageSource: 'https://commons.wikimedia.org/wiki/File:Maanshan_Nuclear_Power_Plant,_Nan_Wan.jpg'
+featured: true
 translatedFrom: 'Nature/台灣氣候危機與淨零轉型.md'
-sourceCommitSha: '44238bb4'
-sourceContentHash: 'sha256:99d23321710787ca'
-sourceBodyHash: 'sha256:c086a3d5805158ba'
-translatedAt: '2026-06-11T16:38:39Z'
+sourceCommitSha: '31a05c44b'
+sourceContentHash: 'sha256:690ecb6c58309760'
+sourceBodyHash: 'sha256:36525caaf207b712'
+translatedAt: '2026-06-16T02:24:16+08:00'
 ---
 
-# Taiwan's Climate Crisis and Net-Zero Transition: The Day the Nuclear Three Referendum Failed Was Just the Beginning of Physical Limits
+# 타이완 기후 위기와 넷제로 전환: 핵3 국민투표가 부결된 날, 물리적 한계의 선택은 막 시작되었다
 
-> **30-Second Overview:** On the evening of August 23, 2025, the results of the Nuclear Three extension referendum were announced: 4.34 million 'yes' votes, 74% approval, but a turnout of only 29.53%, missing the threshold by 650,000 votes. The next day, Lai Ching-te announced three principles: "Nuclear Safety Assurance, Nuclear Waste Solution, Social Consensus." Seven months later, on March 27, 2026, Taipower submitted the Nuclear Three re-operation application to the Nuclear Safety Commission, with the earliest restart expected in 2028[^22][^23]. The referendum failed, yet Taipower is walking back the path of nuclear energy. This is the deepest contradiction of an island that relies on imports for 98% of its energy and has pledged to invest 9 trillion NTD to achieve net-zero by 2050[^11]. The government's geothermal target is 200 MW by 2030, but actual commercial operation at the end of 2025 was only 7.4 MW, a 27-fold gap; the Lanyu storage facility was activated in 1982 with 97,672 barrels of nuclear waste, and the relocation deadline has been delayed four times[^24][^25]. Energy is a problem of physical limits.
+> **30초 개요:** 2025년 8월 23일 저녁, 핵3 연장 운전 국민투표 개표 결과가 나왔다. 찬성 434만 표, 찬성률 74%, 투표율 29.53%, 문턱에 65만 표 모자라 부결되었다. 다음 날 라이칭더는 “원전 안전에 우려가 없고, 핵폐기물 해법이 있으며, 사회적 합의가 있어야 한다”는 세 원칙을 발표했다. 7개월 뒤인 2026년 3월 27일, 타이완전력은 핵3 재가동 신청을 원자력안전위원회에 제출했고, 이르면 2028년 재가동된다[^22][^23]. 국민투표는 부결되었지만 타이완전력은 원전으로 돌아가는 길을 걷고 있다. 이는 에너지의 98%를 수입에 의존하고, 2050년 넷제로 달성을 위해 9조 타이완달러 투입을 약속한 섬이 품은 가장 깊은 모순이다[^11]. 지열의 정부 목표는 2030년 200 MW이지만 2025년 말 실제 상업운전은 7.4 MW뿐으로 27배 차이가 난다. 란위 저장장은 1982년 가동을 시작했고, 핵폐기물 97,672드럼이 있으며, 이전 기한은 네 차례 어겨졌다[^24][^25]. 에너지 문제는 물리적 한계의 문제다.
 
-![Nuclear Three Plant Exterior (Maanshan, Hengchun, Pingtung)](/article-images/nature/maanshan-nuclear-plant-nan-wan-2014.webp)
+![핵3 발전소 외관(핑둥 헝춘 마안산)](/article-images/nature/maanshan-nuclear-plant-nan-wan-2014.webp)
 
-_The Nuclear Three Plant (Maanshan Nuclear Power Plant) in Hengchun, Pingtung, located on the Nanwan coastline. Unit 1 shut down on January 1, 2025, and Unit 2 shut down on May 17, 2025. Image: M. Weitzel, CC BY-SA 3.0, via Wikimedia Commons_
+_핑둥 헝춘의 핵3 발전소(마안산 원자력발전소)는 난완 해안선에 자리한다. 1호기는 2025년 1월 1일 정지했고, 2호기는 5월 17일 정지했다. 이미지: M. Weitzel, CC BY-SA 3.0, via Wikimedia Commons_
 
-## The Day of the Nuclear Three Referendum
+## 핵3 국민투표가 있던 날
 
-On the evening of August 23, 2025, vote counting was completed across all 22 counties and cities in Taiwan, and the results of the Nuclear Three extension referendum were released: 4,342,206 'yes' votes, 1,511,693 'no' votes, with 74.17% approval. However, the turnout was only 29.53%. According to the Referendum Act, a threshold of one-quarter of the total number of voters (5,000,523 votes) was required. The 'yes' votes fell short by 658,317 votes[^22]. **Those who voted 'yes' were more than twice those who voted 'no', yet the referendum failed.**
+2025년 8월 23일 저녁, 타이완 전역 22개 현시에서 개표가 진행되었고 핵3 연장 운전 국민투표 결과가 나왔다. 찬성 434만 2,206표, 반대 151만 1,693표, 찬성률 74.17%였다. 그러나 투표율은 29.53%에 그쳤고, 국민투표법상 유권자 총수의 4분의 1(500만 523표)에 도달해야 하는 요건에서 찬성표가 65만 8,317표 부족했다[^22]. **찬성한 사람이 반대한 사람보다 두 배 이상 많았지만, 국민투표는 통과되지 않았다.**
 
-> 📝 **Curator's Note:** The common interpretation is "74% approval = clear public support for nuclear energy," but this reverses the causality. The design of the Referendum Act was never about seeing who has more votes; it requires a mobilization threshold to prove that "enough people care" about this issue. A 29.53% turnout means that more than 70% of voters chose not to go out. This is an even more awkward third signal: many people do not have strong feelings about energy issues enough to enter a polling station.
+> 📝 **큐레이터 노트**: 흔한 해석은 “74% 찬성 = 민의가 원전을 명확히 지지한다”는 것이지만, 이 말은 인과를 뒤집는다. 국민투표법의 설계는 원래 누가 더 많은지를 보는 데 있지 않다. 그것은 동원 문턱을 요구하며, 이 사안에 “충분히 많은 사람이 관심을 갖고 있음”을 입증하라고 요구한다. 29.53%의 투표율은 유권자의 70% 이상이 투표소에 가지 않기로 했다는 뜻이다. 이는 더 난감한 세 번째 신호다. 많은 사람이 에너지 문제에 대해 투표소까지 걸어갈 만큼 강한 생각을 갖고 있지 않다는 것이다.
 
-Two days later, on August 25, President Lai Ching-te held a press conference and gave a response: to restart nuclear power, three gates must be passed: "Nuclear Safety Assurance, Nuclear Waste Solution, Social Consensus"[^23]. It sounds reasonable, but each of these is a problem that has not been solved in 50 years.
+이틀 뒤인 8월 25일, 라이칭더 총통은 기자회견을 열고 답을 내놓았다. 원전을 재가동하려면 “원전 안전에 우려가 없고, 핵폐기물 해법이 있으며, 사회적 합의가 있어야 한다”는 세 관문을 통과해야 한다는 것이었다[^23]. 합리적으로 들리지만, 하나하나가 50년 동안 풀지 못한 문제다.
 
-Then came March 27, 2026. Taipower submitted the Nuclear Three re-operation application plan to the Nuclear Safety Commission, initiating the safety inspection procedure for Unit 1 after shutdown. The safety inspection schedule is expected to be about 18 months, with the earliest restart expected in 2028[^22]. **This is a step backward.**
+그리고 2026년 3월 27일이 되었다. 타이완전력은 핵3 재가동 신청 계획을 원자력안전위원회에 제출했고, 핵3 1호기 정지 후 안전점검 절차를 시작했다. 안전점검 기간은 약 18개월로 예상되며, 이르면 2028년 재가동이 완료된다[^22]. **이것은 되돌아가는 일이다.**
 
-From the referendum vote counting to the submission for review, exactly seven months passed. Nothing changed in between: nuclear waste is still in Lanyu, the ultimate repository site has not been selected, and social consensus remains divided. But the administrative procedure moved. This is the question this article seeks to answer: When democratic voting rejects something, but the administrative department advances it simultaneously, who is deciding Taiwan's energy policy?
+국민투표 개표부터 신청 심사까지 정확히 7개월이 걸렸다. 그 사이 달라진 것은 아무것도 없었다. 핵폐기물은 여전히 란위에 있고, 최종 처분장 부지는 아직 정해지지 않았으며, 사회적 합의는 여전히 갈라져 있다. 그러나 행정 절차는 움직였다. 이것이 이 글이 답하려는 질문이다. 민주적 투표가 어떤 일을 부결했는데 행정부가 동시에 그것을 추진한다면, 타이완의 에너지 정책은 대체 누가 결정하는가?
 
-## Lanyu: 1982 to 2057
+## 란위, 1982년에서 2057년까지
 
-To understand the story of Nuclear Three, one must first understand the story of Lanyu.
+핵3의 이야기를 이해하려면 먼저 란위의 이야기를 이해해야 한다.
 
-In 1982, Taipower activated a low-level radioactive waste storage facility on the coastline south of Longmen in Lanyu. At the time, the Dawu people were told it was a "canned fish factory," a claim that later became the most frequently cited case of deception in Taiwan's environmental justice history[^26]. In 1988, the Dawu people launched their first large-scale protest, expressing their rejection of nuclear waste through the traditional ritual of "exorcising evil spirits," marking the starting point of Taiwan's indigenous environmental movement.
+1982년, 타이완전력은 란위 룽먼 외해 남쪽 해안선에 저준위 방사성폐기물 저장장을 가동했다. 당시 다우족 주민들에게는 “생선 통조림 공장”이라고 설명했다. 이 말은 훗날 타이완 환경정의사에서 가장 자주 인용되는 기만 사례가 되었다[^26]. 1988년, 다우족은 최초의 대규모 항의를 벌였고, 전통 의식인 “악령 축출”로 핵폐기물 거부를 표명했다. 이는 타이완 원주민 환경운동의 출발점이었다.
 
-Over the next 38 years, the relocation promise was delayed four times: the government promised relocation by 2002 in 1996, but the first delay occurred in 2002; further delays occurred in 2016, 2019, and 2023. As of 2024, the Lanyu storage facility had accumulated **97,672 barrels** of low-level radioactive waste. The Nuclear Regulatory Board (NRC) requires Taipower to complete the relocation by 2029, but the destination remains undefined[^24].
+그 뒤 38년 동안 이전 약속은 네 차례 어겨졌다. 1996년 정부는 2002년 이전을 약속했지만 2002년에 처음으로 지키지 못했다. 이후 2016년, 2019년, 2023년에도 각각 한 차례씩 기한을 넘겼다. 2024년 기준 란위 저장장에는 저준위 방사성폐기물 **97,672드럼**이 누적 보관되어 있으며, 원자력위원회는 타이완전력에 2029년까지 이전을 완료하라고 요구했지만 목적지는 아직 정해지지 않았다[^24].
 
-If the 2029 deadline is also missed (as widely expected in the industry), Lanyu's nuclear waste will be stored from 1982 to **2057, a total of 75 years**. An island with a population of 4,000 has borne the byproduct of the operation of the entire country's four nuclear power plants for a duration longer than the lifespan of most people in Taiwan.
+2029년에 또다시 약속이 어겨진다면(업계에서는 대체로 그렇게 예상한다), 란위의 핵폐기물은 1982년부터 **2057년까지, 모두 75년** 동안 보관되는 셈이 된다. 인구 4,000명의 외딴섬 하나가 국가 전체의 네 원자력발전소 운전 부산물이 남긴 시간을 떠안는다. 그 시간은 타이완 대부분 사람의 수명보다 길다.
 
-> ⚠️ **Controversial Viewpoint:** Pro-nuclear advocates often say, "Nuclear waste is technically solvable; it's just political resistance." But the problem of nuclear waste has always been about time. Lanyu has been storing waste since 1982, 44 years ago, and promises have never been fulfilled. In the most optimistic scenario, relocation happens by 2029; but what happens after "relocating from Lanyu"? The site selection for the ultimate repository is still stuck, and local opposition in Daren Township, Taitung County, remains unresolved. Technically feasible ≠ Politically feasible ≠ Ethically feasible. Lanyu is the concretization of this three-layer gap.
+> ⚠️ **논쟁적 관점**: 원전 지지자들은 흔히 “핵폐기물은 기술적으로 해결 가능하고, 정치적 저항만 있을 뿐”이라고 말한다. 그러나 핵폐기물 문제는 언제나 시간의 차원에 있었다. 란위는 1982년부터 이미 44년이 지났고, 약속은 한 번도 이행된 적이 없다. 가장 낙관적인 시나리오에서는 2029년에 이전할 수 있다. 그러나 “란위에서 이전”한 뒤에는 무엇이 오는가? 최종 처분장 부지 선정은 지금까지 막혀 있고, 타이둥현 다런향의 지역 반발도 아직 풀리지 않았다. 기술적으로 가능함 ≠ 정치적으로 가능함 ≠ 윤리적으로 가능함. 란위는 이 세 층위의 간극이 구체화된 장소다.
 
-[PanSci reports](https://pansci.asia/archives/363266) that spent nuclear fuel rods remain at high temperature and high radiation after the reactor is decommissioned and must be cooled in the plant's fuel pool for at least 5 years before they can be moved. The dry storage facility land issue for Nuclear One and Nuclear Two has been stuck for over 11 years, with the New Taipei City Government refusing to approve the dry storage facility, causing spent fuel rods to remain in the plant's fuel pool, exceeding the original design capacity[^27][^28]. "**The biggest obstacle to nuclear power extension is the destination of spent nuclear fuel**," PanSci cites this industry consensus, which is the most awkward background sound for the Nuclear Three re-operation application[^28].
+[PanSci 보도는](https://pansci.asia/archives/363266) 핵연료봉이 원자로 폐로 뒤에도 여전히 고온·고방사선을 유지하므로, 발전소 내 연료 저장조에서 최소 5년 냉각해야 비로소 반출 가능성이 생긴다고 지적했다. 그런데 핵1·핵2 발전소의 건식 저장시설 부지 문제는 11년 넘게 막혀 있었다. 신베이시 정부가 건식 저장시설 설치 동의를 거부하면서 사용후핵연료봉은 현재도 발전소 내 연료 저장조에 남아 있고, 이미 원래 설계 용량을 초과했다[^27][^28]. “**원전 연장 운전의 최대 장애물은 사용후핵연료의 행선지 문제**”라는, PanSci가 업계 합의로 인용한 이 문장은 핵3 재가동 신청을 둘러싼 가장 난감한 배경음이다[^28].
 
-## The Physical Limits of Nuclear Waste
+## 핵폐기물의 물리적 한계
 
-Shift the lens to Olkiluoto Island in southern Finland.
+카메라를 핀란드 남부 올킬루오토섬으로 돌려 보자.
 
-500 meters underground, in the granite layer, a tunnel 5 kilometers long is dug. At the end of the tunnel lies **Onkalo**, humanity's first high-level radioactive waste ultimate repository to officially receive an operating license. In August 2024, Finland's nuclear safety authority, STUK, issued a license. This plan, planned since the 1970s, **took nearly half a century**[^29].
+지하 500미터, 화강암층 속에 총길이 5킬로미터의 터널이 파여 있다. 터널 끝에는 **Onkalo**가 있다. 인류 최초로 공식 시운전 허가를 받은 고준위 방사성폐기물 최종 처분장이다. 2024년 8월, 핀란드 원자력안전 규제기관 STUK는 허가증을 발급했다. 이 계획은 1970년대부터 현재까지 이어졌고, **거의 반세기**가 걸렸다[^29].
 
-![Onkalo Underground Repository (Finland, Olkiluoto)](/article-images/nature/onkalo-finland-2024.webp)
+![Onkalo 지하 처분장(핀란드 올킬루오토)](/article-images/nature/onkalo-finland-2024.webp)
 
-_The entrance to Finland's Onkalo high-level radioactive waste ultimate repository, in the granite layer 500 meters underground, received an operating license in 2024. Image: kallerna, CC BY-SA 4.0, via Wikimedia Commons_
+_핀란드 Onkalo 고준위 방사성폐기물 최종 처분장 입구. 지하 500미터 화강암층에 있으며, 2024년 시운전 허가를 받았다. 이미지: kallerna, CC BY-SA 4.0, via Wikimedia Commons_
 
-Onkalo's design goal is to isolate nuclear waste for over **100,000 years**. How exaggerated is this timescale? Human civilization is about 10,000 years old, the oldest pyramids are 4,500 years old, and 100,000 years ago our ancestors had not yet left Africa[^30].
+Onkalo의 설계 목표는 핵폐기물을 **10만 년** 이상 격리하는 것이다. 이 시간 척도는 얼마나 과장된가? 인류 문명은 대략 1만 년, 가장 오래된 피라미드는 4,500년 되었다. 10만 년 전 우리의 조상은 아직 아프리카를 벗어나지 않았다[^30].
 
-> 💡 **Did You Know?** The timescale for isolating nuclear waste in an ultimate repository is so long that it reaches the "end of human memory." The Onkalo design team spent years discussing one question: How to make humans 100,000 years from now know "Do not dig here"? Because by then, no existing language, symbol, government, or religion will remain. The final solution uses a nuclear waste warning symbol with multilingual warnings, but designers admit this is only a "message for the next 1,000 years." What happens after 1,000 years, no one knows the answer.
+> 💡 **알고 있는가**: 핵폐기물 최종 처분장이 격리해야 하는 시간은 “인류 기억의 끝”만큼 길다. Onkalo 설계팀은 10만 년 뒤의 인간에게 “이곳을 파헤치지 말라”는 사실을 어떻게 알릴지 몇 년 동안 논의했다. 그때가 되면 현재 존재하는 언어, 기호, 정부, 종교는 아무것도 남아 있지 않을 것이기 때문이다. 최종 방안은 핵폐기물 경고 기호와 다국어 경고문을 사용하는 것이었지만, 설계자들은 이것이 “미래 1,000년을 위한 메시지”일 뿐이라고 인정한다. 1,000년 뒤에는 어떻게 할 것인가. 아무도 답을 모른다.
 
-What about Taiwan's ultimate repository? The candidate site for the low-level nuclear waste ultimate repository is Daren Township, Taitung County, but the site selection process is stuck due to local political resistance[^31]. The site selection process for the high-level nuclear waste ultimate repository has not even started. Finland took 50 years to reach the trial operation stage; Taiwan has **zero years**.
+타이완의 최종 처분장은 어떤가? 저준위 핵폐기물의 최종 처분장 후보지는 타이둥현 다런향이지만, 부지 선정 절차는 지방 정치의 저항 속에서 곤경에 빠져 있다[^31]. 고준위 핵폐기물 최종 처분장은 부지 선정 절차조차 아직 시작되지 않았다. 핀란드는 시운전까지 50년이 걸렸고, 타이완은 **0년**이다.
 
-PanSci also mentions another "physical limit solution" that was seriously discussed: space disposal of nuclear waste. "**The idea of space disposal of nuclear waste is physically feasible, but requires very stable and safe rockets; otherwise, if a launch fails, the radiation pollution caused to Earth would be unestimable**"[^32]. SpaceX's Falcon 9 has a failure rate of about 1%, meaning that for every 100 launches, one will explode high-level radioactive nuclear waste into the atmosphere. Physically feasible, but also physically unfeasible.
+PanSci 보도는 한때 진지하게 논의되었던 또 다른 “물리적 한계 해법”도 언급했다. 핵폐기물 우주 처분이다. “**핵폐기물을 우주 처분하는 구상은 물리적으로 가능하지만, 매우 안정적이고 안전장치가 충분한 로켓이 필요하다. 그렇지 않으면 발사가 실패할 경우 지구에 초래할 방사능 오염은 계산하기 어렵다**”[^32]. SpaceX 팰컨 9의 실패율은 약 1%다. 이는 발사 100번마다 1번은 고준위 방사성폐기물을 대기권에 폭발시킨다는 뜻이다. 물리적으로 가능하지만, 물리적으로도 불가능하다.
 
-This is the physical limit behind the four words "Nuclear Waste Solution." Its timescale is longer than that of the entire human civilization.
+이것이 “핵폐기물 해법이 있다”는 네 글자 뒤에 놓인 물리적 한계다. 그 시간 척도는 인류 문명 전체보다 길다.
 
-## Hydrogen Rainbow: Green, Blue, Gray, Platinum
+## 수소에너지의 무지개: 녹색, 청색, 회색, 백금색
 
-If nuclear energy is too heavy, can we bypass it?
+원전이 너무 무겁다면, 우회할 수는 없을까?
 
-In the past five years, hydrogen energy has been seen as the next wave of energy transition. The problem is that hydrogen itself is an energy **carrier** rather than an energy source: other energy must first be used to "produce" hydrogen, which is then used for power generation or as fuel. Where it comes from determines whether it is truly "clean."
+지난 5년 동안 수소에너지는 에너지 전환의 다음 물결로 여겨졌다. 문제는 수소 자체가 에너지 **운반체**이지 에너지원이 아니라는 점이다. 먼저 다른 에너지로 수소를 “만든” 뒤, 다시 수소로 발전하거나 연료로 써야 한다. 어디에서 왔는지가 그것이 정말 “깨끗한지”를 결정한다.
 
-PanSci categorizes hydrogen by production method: "**Hydrogen color codes correspond to different production methods: Gray Hydrogen (Natural Gas SMR, emits CO₂), Blue Hydrogen (Gray Hydrogen + CCS), Green Hydrogen (Renewable Electricity Electrolysis), Blue-Green Hydrogen (Methane Pyrolysis, solid carbon, no CO₂ emission). From a carbon emission perspective, Green Hydrogen is the most ideal, but also the most expensive**"[^33].
+PanSci는 생산 방식에 따라 수소에너지에 여러 색을 붙였다. “**수소의 색상 코드는 서로 다른 생산 방식에 대응한다. 회색수소(천연가스 SMR, CO₂ 배출), 청색수소(회색수소 + CCS), 녹색수소(재생전력 수전해), 청록수소(메탄 열분해, 고체 탄소화로 CO₂ 미배출)다. 탄소배출 관점에서는 녹색수소가 가장 이상적이지만 비용이 가장 높다**”[^33].
 
-| Hydrogen Color      | Production Method                                    | Carbon Emission              | Cost           | Taiwan Status             |
-| ------------------- | ---------------------------------------------------- | ---------------------------- | -------------- | ------------------------- |
-| Gray Hydrogen       | Natural Gas Steam Methane Reforming (SMR)            | High (emits CO₂)             | Low            | Most used in industry     |
-| Blue Hydrogen       | Gray Hydrogen + Carbon Capture and Storage (CCS)     | Medium (reduced after CCS)   | Medium-High    | No commercial operation   |
-| Green Hydrogen      | Renewable Electricity Electrolysis                   | Zero                         | High           | CPC Planning              |
-| Blue-Green Hydrogen | Methane Pyrolysis (Decarbonization Burning Hydrogen) | Zero (produces solid carbon) | Medium         | Hsingda Power Plant Trial |
-| White/Gold Hydrogen | Naturally Formed Underground                         | Zero (No Production Needed)  | To Be Explored | None                      |
+| 수소 색상           | 생산 방식                    | 탄소배출          | 비용      | 타이완 현황        |
+| ------------------- | ---------------------------- | ----------------- | --------- | ------------------ |
+| 회색수소            | 천연가스 수증기 개질(SMR)    | 높음(CO₂ 배출)    | 낮음      | 산업에서 가장 흔함 |
+| 청색수소            | 회색수소 + 탄소포집저장(CCS) | 중간(CCS 뒤 감소) | 중상      | 상업운전 없음      |
+| 녹색수소            | 재생전력 수전해              | 0                 | 높음      | CPC 계획 중        |
+| 청록수소            | 메탄 열분해(탈탄소 수소연소) | 0(고체 탄소 생성) | 중간      | 싱다 발전소 시험   |
+| 백색수소 / 금색수소 | 지하에서 자연 형성           | 0(제조 불필요)    | 탐사 필요 | 없음               |
 
-Taiwan's hydrogen trial point is at Hsingda Power Plant in Kaohsiung. Taipower and the Academia Sinica are cooperating to test "**Decarbonization Burning Hydrogen**" technology: decomposing natural gas (methane) into hydrogen and solid carbon at high temperatures, a process that does not produce carbon dioxide, and the solid carbon can be used as an industrial raw material[^33]. The attractiveness of this technology is that it can **use existing natural gas infrastructure**, eliminating the need to overhaul the entire energy system.
+타이완의 수소에너지 시험 지점은 가오슝 싱다 발전소다. 타이완전력과 중앙연구원은 “**탈탄소 수소연소**” 기술을 공동 시험하고 있다. 천연가스(메탄)를 고온에서 수소와 고체 탄소로 분해해, 과정 중 이산화탄소를 만들지 않고 고체 탄소는 산업 원료로 활용할 수 있는 기술이다[^33]. 이 기술의 매력은 **기존 천연가스 기반시설을 계속 사용할 수 있다**는 데 있다. 에너지 시스템 전체를 허물고 다시 지을 필요가 없다.
 
-But hydrogen has its own physical limits. "**Although hydrogen is a clean energy, its effect as a greenhouse gas is 11.6 times that of carbon dioxide (GWP100). If it leaks during production, transportation, or use, it will exacerbate the warming problem**"[^34]. The hydrogen molecule is the smallest in the universe, and its leakage rate is inherently high. This is a physical limit of materials science, which cannot be completely overcome by engineering efforts.
+그러나 수소에너지에는 자체의 물리적 한계가 있다. **“수소는 깨끗한 에너지이지만, 온실가스로서의 효과는 이산화탄소의 11.6배(GWP100)다. 생산, 운송, 사용 과정에서 누출되면 오히려 온난화 문제를 악화시킬 수 있다**”[^34]. 수소분자는 우주에서 가장 작은 분자라 누출률이 본질적으로 높다. 이는 재료과학의 물리적 한계이지, 공학적 노력으로 완전히 극복할 수 있는 것이 아니다.
 
-There is also a newer role: **White/Gold Hydrogen**. A 2023 study by the U.S. Geological Survey (USGS) estimated that the reserves of naturally formed hydrogen underground due to crustal movement may reach "**tens of billions of tons**," sufficient to provide energy for humanity for hundreds of years[^34][^35]. France and Mali already have commercial exploration. Taiwan's plate boundaries are active, theoretically having potential, but there are currently no exploration plans, making it the energy option furthest from theory.
+더 새로운 등장인물도 있다. **백색수소 / 금색수소**다. 미국지질조사국(USGS)은 2023년 발표한 연구에서 지각 운동으로 지하에 자연 형성된 수소 매장량이 “**수백억 톤**”에 이를 수 있으며, 인류의 향후 수백 년 에너지 수요를 충족할 만큼 충분할 수 있다고 추정했다[^34][^35]. 프랑스와 말리공화국에는 이미 상업 탐사가 있다. 타이완은 판 경계가 활발해 이론적으로 잠재력이 있지만, 현재 어떤 탐사 계획도 없다. 이는 이론에서 가장 멀리 떨어진 에너지 선택지다.
 
-> 📝 **Curator's Note:** The core that readers should remember from the hydrogen rainbow classification is the need to always ask "Where does the energy come from" behind the term "**clean energy**." Green hydrogen is only cost-effective when renewable electricity is in surplus and has nowhere to sell; this scenario has not yet arrived in Taiwan. Until then, hydrogen energy is actually another showcase of fossil fuels.
+> 📝 **큐레이터 노트**: 수소에너지의 무지개 분류에서 독자가 기억해야 할 핵심은 “**깨끗한 에너지**”라는 말 뒤에서 반드시 “에너지는 어디에서 오는가”를 물어야 한다는 점이다. 녹색수소는 재생전력이 남아 팔 곳이 없을 정도가 되어야 경제성이 있다. 타이완은 아직 그 상황에 이르지 않았다. 그 전까지 수소에너지는 사실상 또 다른 화석연료 전시관이다.
 
-## Geothermal Taiwan: 33 GW Potential vs. 7.4 MW Reality
+## 지열 타이완: 33 GW 잠재력 vs 7.4 MW 현실
 
-If hydrogen is a "carrier dispute," geothermal is a "depth dispute."
+수소에너지가 “운반체의 논쟁”이라면, 지열은 “깊이의 논쟁”이다.
 
-Taiwan should have been a geothermal powerhouse. Located at the junction of the Eurasian Plate and the Philippine Sea Plate, volcanoes, hot springs, and earthquake zones form a natural geothermal resource reservoir. In 1981, the Yilan Qingshui Geothermal Plant built a 3 MW trial unit, Taiwan's first geothermal power plant. However, due to technical issues such as wellbore scaling and acid corrosion, it closed in 1993.
+타이완섬은 본래 지열 대국이어야 한다. 유라시아판과 필리핀해판의 경계에 있으며, 화산, 온천, 지진대가 천연 지열 자원고를 이룬다. 1981년 이란 칭수이 지열에 3 MW 시험 설비가 세워졌다. 이것이 타이완 최초의 지열발전소였다. 그러나 갱정 내부 스케일 형성, 산성액 부식 등 기술 문제로 1993년 폐쇄되었다.
 
-For the next 30 years, geothermal in Taiwan fell into silence. Until 2020, the privately invested Qingshui Geothermal 4.2 MW unit restarted commercial operation, bringing geothermal back into public discussion. In 2024, the Yilan Tufang Geothermal 5.4 MW project broke ground, expected to start in early 2026. **By the end of 2025, the total geothermal commercial capacity in Taiwan was 7.4 MW**[^36].
+그 뒤 30년 동안 지열은 타이완에서 침묵에 빠졌다. 2020년 민간 투자로 칭수이 지열 4.2 MW 설비가 상업운전을 재개하고 나서야 지열은 다시 공적 논의에 들어왔다. 2024년 이란 투창 지열 5.4 MW 계획이 착공했고, 2026년 초 가동할 예정이다. **2025년 말 타이완 전역 지열 상업운전 용량은 모두 7.4 MW**다[^36].
 
-What is the government's official target? 200 MW by 2030, 6 GW (6,000 MW) by 2050. **From 7.4 MW to 200 MW, a 27-fold gap; to 6 GW, an 810-fold gap**. This is a timeline of 5 years and 25 years.
+정부의 공식 목표는 어떤가? 2030년 200 MW, 2050년 6 GW(6,000 MW)다. **7.4 MW에서 200 MW까지는 27배, 6 GW까지는 810배** 차이다. 이는 각각 5년과 25년의 일정이다.
 
-[PanSci cites National Taiwan University research](https://pansci.asia/archives/361200) stating that "**Taiwan's geothermal resources are widely distributed. According to NTU research, the potential power generation capacity of deep geothermal (depth below 5 km) is as high as 33,640 MW, equivalent to about 12 Nuclear Four plants**"[^37]. But this is only a theoretical value. Developing deep geothermal requires Enhanced Geothermal System (EGS) technology, which must drill wells several kilometers underground and inject water artificially to create a heat exchange layer. Currently, there are only a few demonstration projects globally, and the technology is not yet commercialized.
+[PanSci가 인용한 국립타이완대 연구는](https://pansci.asia/archives/361200) “**타이완 지열 자원은 넓게 분포하며, 타이완대 연구에 따르면 심층 지열(깊이 5킬로미터 이하)의 잠재 발전량은 33,640 MW에 달해 핵4 발전소 약 12기에 해당한다**”고 지적했다[^37]. 그러나 이는 이론값일 뿐이다. 심층 지열 개발에는 EGS(Enhanced Geothermal System), 즉 향상지열시스템 기술이 필요하다. 지하 수 킬로미터까지 시추하고, 인공적으로 물을 주입해 열교환층을 만들어야 한다. 현재 전 세계에는 몇몇 시범 계획만 있을 뿐, 기술은 아직 상업화되지 않았다.
 
-And "**Taiwan's shallow geothermal (depth within 3 km) development potential is estimated to be no more than 1,000 MW. Currently, several experimental projects are underway in Yilan Qingshui and Taipei Datun Mountain areas**"[^37]. Even if shallow geothermal is fully opened, it would only be enough to provide about 3% of Taiwan's total electricity demand.
+또한 **“타이완의 천층 지열(깊이 3킬로미터 이내) 개발 잠재력은 1,000 MW를 넘지 않는 것으로 추정되며, 현재 이란 칭수이와 타이베이 다툰산 지역에서 몇몇 시험 성격의 계획이 진행 중이다**”[^37]. 천층을 모두 개발해도 타이완 총 전력 수요의 약 3%를 제공하는 데 그친다.
 
-Geothermal's advantage is stability. "**Geothermal's advantage is that it is not affected by weather like wind or solar power; it is a baseload power source that generates electricity stably 24 hours a day, giving it unique value in the energy mix**"[^38]. There are not many renewable energies that can replace nuclear baseload functions; geothermal is one of them, provided it can actually be built.
+지열의 장점은 안정성이다. “**지열의 장점은 풍력이나 태양광처럼 날씨의 영향을 받지 않고 24시간 안정적으로 발전하는 기저 전원이라는 데 있으며, 이것이 에너지 조합에서 지열에 독특한 가치를 부여한다**”[^38]. 원전의 기저 기능을 대체할 수 있는 재생에너지는 많지 않다. 지열은 그중 하나다. 전제는 실제로 건설할 수 있어야 한다는 것이다.
 
-> ⚠️ **Controversial Viewpoint:** The slow development of geothermal in Taiwan is often attributed to "immature technology." But PanSci's conclusion from industry interviews is different: the real bottleneck is **underground uncertainty + difficulty in loans**. Before drilling a geothermal well, no one can guarantee water output, temperature, or duration. Banks do not lend; operators dare not invest. Japan and New Zealand have similar dilemmas, but both countries have government-guided funds to share risks. Taiwan's geothermal developers currently can only use the solar PV financing model: solar PV generates electricity once installed; geothermal does not. Copying the financing structure guarantees a deadlock.
+> ⚠️ **논쟁적 관점**: 타이완에서 지열 개발이 더딘 이유는 흔히 “기술이 미성숙하기 때문”으로 돌려진다. 그러나 PanSci가 업계를 취재한 뒤 내린 결론은 다르다. 진짜 병목은 **지하 불확실성 + 대출 난관**이다. 지열정은 시추하기 전까지 물이 나올지, 얼마나 뜨거울지, 얼마나 오래 지속될지 아무도 보장할 수 없다. 은행이 대출하지 않고, 사업자는 투자하지 못한다. 일본과 뉴질랜드에도 비슷한 곤경이 있지만, 두 나라는 각각 정부 주도 기금이 위험을 분담한다. 현재 타이완의 지열 개발자들은 태양광의 금융 모델을 사용할 수밖에 없다. 태양광은 설치하면 발전하지만, 지열은 그렇지 않다. 금융 구조를 그대로 베끼면 막힐 수밖에 없다.
 
-Public Television's _Our Island_ produced a two-part series "Using Heat for Power" in March 2023, following the national team into Datun Mountain, Yilan, and Taitung tribes, comprehensively filming the two aspects of "geothermal exploration's observation, listening, inquiry, and palpation" and "tribal geothermal power generation":
-
-<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
-   <iframe src="https://www.youtube.com/embed/HtRxCNCT-kw" title="Geothermal Exploration National Team Mobilized | Finding Key 'Geothermal Mushrooms' | Using Heat for Power Series Part 1: Geothermal Exploration Observation (Our Island Ep 1195 2023-03-06)" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-_Public Television's *Our Island* Official Channel: Episode 1195 "Geothermal Exploration National Team Mobilized" (2023-03-06). In Datun Mountain and Yilan Jiaoxi, follow the exploration teams from the Ministry of Economic Affairs' Geological Survey Bureau, Taipower's Comprehensive Research Institute, and the Industrial Technology Research Institute to see how "geothermal mushrooms" are pieced together from three clues: seismic waves, rock samples, and well temperature gradients. How much heat is in Taiwan's underground only becomes concrete from here._
+공영방송 PTS의 《우리의 섬》은 2023년 3월 “열로 발전하다” 2부작을 제작해 국가팀을 따라 다툰산, 이란, 타이둥 부락으로 들어가 “지열 탐사의 망문문절”과 “부락 지열발전”이라는 두 측면을 충실히 담았다.
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
-   <iframe src="https://www.youtube.com/embed/KwUaS6WdyhI" title="Geothermal Power Generation in Tribes | Taiwan's First Geothermal Power Generation Tourism Hot Spring | Using Heat for Power Series Part 2 (Our Island Ep 1196 2023-03-13)" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/HtRxCNCT-kw" title="지열 탐사 국가팀 출동｜핵심 ‘지열 버섯’ 찾기｜열로 발전하다 시리즈 1: 지열 탐사의 망문문절 (우리의 섬 1195회 2023-03-06)" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-_Public Television's *Our Island* Official Channel: Episode 1196 "Geothermal Power Generation in Tribes" (2023-03-13). Presenting both levels of "energy transition vs. local justice" simultaneously—Yilan Lizhi, Taitung Hongye, Chiayi Zhonglun, geothermal development reaches which tribal negotiation line. Technical issues are one thing; sociologically, whether one can enter is a completely different matter._
+_PTS 《우리의 섬》 공식 채널: 제1195회 “지열 탐사 국가팀 출동”(2023-03-06). 다툰산과 이란 자오시에서 경제부 지질조사소, 타이완전력 종합연구소, 공업기술연구원의 탐사팀을 따라 “지열 버섯”이 지진파, 암석 시료, 갱정 온도 구배라는 세 단서에서 어떻게 맞춰지는지 본다. 타이완 지하에 얼마나 많은 열이 있는지는 여기에서야 구체적 답이 시작된다._
 
-## Ocean Energy: The Trial Stage of Black Current's 9.4 GW
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/KwUaS6WdyhI" title="부락의 지열발전｜타이완 최초의 지열발전 결합 관광온천｜열로 발전하다 시리즈 2(우리의 섬 1196회 2023-03-13)" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
-After the underground, there is the sea.
+_PTS 《우리의 섬》 공식 채널: 제1196회 “부락의 지열발전”(2023-03-13). “에너지 전환 vs 지역 정의”라는 두 층위를 동시에 보여 준다. 이란 리쩌, 타이둥 훙예, 자이 중룬에서 지열 개발이 어떤 부락 협의선 위로 들어서는지를 다룬다. 기술 문제는 한 가지이고, 사회학적으로 들어갈 수 있는지는 완전히 또 다른 문제다._
 
-The Black Current (Kuroshio) off eastern Taiwan is one of the world's strongest ocean currents. With a flow speed of 1.5-2.5 meters/second, a width of about 100 km, and a year-round northward flow, theoretically, this is a continuous river of energy. The Academia Sinica completed a 100 kW trial unit's sea test in 2021, a milestone in Taiwan's ocean energy development[^39].
+## 해양에너지: 쿠로시오 9.4 GW의 시험 단계
 
-PanSci cites Academia Sinica estimates: "**Taiwan's surrounding waters have huge renewable energy potential. The theoretical potential of ocean energy (including ocean current energy, wave energy, and thermal energy difference) is estimated at 9.4 GW. The Black Current flowing past Taiwan's east coast is the most promising ocean current energy source**"[^39].
+지하 다음은 바다다.
 
-Another direction is OTEC (Ocean Thermal Energy Conversion): using the temperature difference between surface warm water (25-28°C) and deep cold water (5°C) to drive generators. Taiwan's eastern waters have large depth differences, considered an ideal location for OTEC. "**Taiwan's eastern waters have large depth differences, theoretically an ideal location for OTEC development, but currently still in the experimental stage**"[^40].
+타이완 동부 외해의 쿠로시오는 세계에서 가장 강한 해류 중 하나다. 유속은 초속 1.5-2.5미터, 폭은 약 100킬로미터이며, 연중 북쪽으로 흐른다. 이론상 이것은 끊임없이 흐르는 에너지의 강이다. 중앙연구원은 2021년 100 kW 시험 설비의 해상 테스트를 완료했다. 이는 타이완 해양에너지 개발의 이정표였다[^39].
 
-But ocean energy's physical limit is encountered even earlier than geothermal: the durability of marine engineering. Typhoons, salt corrosion, biofouling, deep-water maintenance—each is a century-level engineering challenge. Internationally, OTEC has no commercial power plants operating; the global leading case for Black Current power generation is Japan's Okinawa 100 kW demonstration. Taiwan's 100 kW trial is just the starting point; from here to commercialization, international experience shows it takes 15-20 years.
+PanSci는 중앙연구원의 추정을 인용한다. “**타이완 주변 해역의 재생에너지 잠재력은 방대하다. 해양에너지(해류에너지, 파력에너지, 온도차에너지 포함)의 이론 잠재력은 9.4 GW로 추정된다. 쿠로시오가 타이완 동해안을 지나며, 가장 개발 잠재력이 큰 해류에너지 원천이다**”[^39].
 
-## Fourth-Generation Nuclear SMR: Bill Gates' Bet
+또 다른 방향은 OTEC(해양온도차발전)이다. 표층 온수(25-28°C)와 심층 냉수(5°C) 사이의 온도차를 이용해 발전기를 구동한다. 타이완 동부 해역은 수심 낙차가 커 OTEC의 이상적 장소로 여겨진다. **“타이완 동부 해역은 수심 낙차가 커 이론상 OTEC 발전의 이상적 장소이지만, 현재는 여전히 실험 단계에 속한다**”[^40].
 
-If we walk back the path of nuclear power, will fourth-generation nuclear energy be the answer?
+그러나 해양에너지의 물리적 한계는 지열보다 더 이른 지점에서 닥친다. 해양공학의 내구성이다. 태풍, 염분 부식, 생물 부착, 심해 유지보수는 하나하나가 백 년급 공학 과제다. 국제적으로 OTEC은 지금까지 상업발전소가 운영된 적이 없다. 쿠로시오 발전의 세계 선도 사례는 일본 오키나와의 100 kW 시범 설비다. 타이완의 100 kW 시험은 출발점일 뿐이며, 여기에서 상업화까지는 국제 경험상 15-20년이 걸린다.
 
-PanSci reports: "**The biggest difference between the Natrium reactor and traditional nuclear power plants is its coolant. Traditional nuclear reactors use water as a coolant, while Natrium uses liquid metal sodium. Sodium has a high boiling point and can operate at higher temperatures, improving reaction efficiency; sodium's thermal conductivity is 100 times that of water**"[^41].
+## 4세대 원전 SMR: 빌 게이츠의 베팅
 
-This is the sodium-cooled fast neutron reactor promoted by TerraPower, founded by Bill Gates. In April 2026, TerraPower's Natrium project officially broke ground in Kemmerer, Wyoming, expected to be completed in 2030[^42], one year later than originally scheduled, but still a key milestone for the commercialization of fourth-generation nuclear energy.
+원전의 길로 되돌아간다면, 4세대 원전이 답일까?
 
-The selling point of fourth-generation nuclear energy is "**Small Modular Reactors**" (SMR): power generation capacity drops from the traditional 1000 MW level to 100-300 MW, can be prefabricated in factories and assembled on-site, theoretically reducing costs and shortening construction time.
+PanSci 보도는 이렇게 말한다. “**Natrium 원자로와 전통 원전의 가장 큰 차이는 냉각재에 있다. 전통 원자로는 물을 냉각재로 쓰지만, Natrium은 액체 금속 나트륨을 사용한다. 나트륨은 끓는점이 높아 더 높은 온도에서 운전할 수 있고 반응 효율을 높인다. 나트륨의 열전도율은 물의 100배다**”[^41].
 
-But physical limits still exist. PanSci points out two key risks:
+이는 빌 게이츠가 설립한 TerraPower가 주력하는 나트륨 냉각 고속중성자로다. 2026년 4월, TerraPower의 Natrium 계획은 와이오밍주 케머러시에서 공식 착공했고, 2030년 완공을 목표로 한다[^42]. 원래 일정에서 1년 늦어졌지만, 여전히 4세대 원전 상업화의 핵심 이정표다.
 
-> "**Fast neutron reactors require high-concentration uranium fuel, and breeding reactions produce Plutonium-239, an important raw material for manufacturing nuclear weapons. Therefore, how to manage nuclear materials and prevent nuclear proliferation becomes a problem that fast neutron reactors must face**"[^43].
+4세대 원전의 판매 포인트는 “**소형모듈원자로**”(SMR, Small Modular Reactor)다. 발전 용량을 전통적 1000 MW급에서 100-300 MW로 낮추고, 공장에서 미리 제작해 현장에서 조립할 수 있어 이론적으로 비용을 낮추고 건설 기간을 줄일 수 있다.
 
-> "**The construction of the Natrium reactor marks a major advance in fourth-generation nuclear power plant technology; however, its development is accompanied by significant challenges**"[^44]. Liquid sodium reacts violently and is flammable when it encounters water; reactor operation and maintenance have extremely high requirements for materials science, and there is currently no large-scale commercial operation safety data.
+그러나 물리적 한계는 여전히 존재한다. PanSci는 두 가지 핵심 위험을 짚는다.
 
-Does Taiwan have an SMR plan? Currently, **there are no official plans**. Even if evaluation starts now, international experience shows that from site selection, environmental impact assessment, safety review to commercial operation, it takes 15-20 years. That is to say, fourth-generation nuclear energy is not the answer to 2050 net-zero; in the most optimistic scenario, it will go online by 2045-2050.
+> “**고속중성자로는 고농축 우라늄 연료를 사용해야 하며, 증식 반응은 플루토늄 239를 생성한다. 이는 핵무기 제조의 중요한 원료다. 따라서 핵물질을 어떻게 관리하고 핵확산을 막을 것인지가 고속중성자로가 반드시 마주해야 할 난제가 된다**”[^43].
 
-> 📝 **Curator's Note:** Fourth-generation nuclear energy is often treated in international public opinion as "the nuclear energy of the future," thus turning it into "a good excuse to delay current energy transition": since better technology will be available in 15 years, why rush now? This is the most dangerous confusion in the physical limits problem. The engineering bottleneck of renewable energy is "not enough built yet"; the bottleneck of fourth-generation nuclear energy is "safety and non-proliferation data for commercial operation not accumulated enough." The two timelines cannot replace each other; missing the 2030 renewable energy construction window, the 2045 SMR cannot save the climate bill.
+> “**Natrium 원자로의 건설은 4세대 원전 기술의 큰 진전을 의미하지만, 그 발전은 중대한 도전을 동반한다**”[^44]. 액체 나트륨은 물과 만나면 격렬히 반응하고 불이 붙기 쉽다. 원자로 운전과 유지보수는 재료과학에 매우 높은 요구를 제기하며, 현재 대규모 상업운전의 안전 데이터는 아직 없다.
 
-## Offshore Wind: The Leading Piece in Asia
+타이완에 SMR 계획이 있는가? 현재 **공식 계획은 전혀 없다**. 지금 평가를 시작하더라도 부지 선정, 환경영향평가, 안전 심사, 상업운전까지 국제 경험상 15-20년이 필요하다. 다시 말해 4세대 원전은 2050년 넷제로의 답이 아니며, 가장 낙관적인 상황에서도 2045-2050년에야 가동될 수 있다.
 
-Shift the lens back to what has already happened.
+> 📝 **큐레이터 노트**: 4세대 원전은 국제 여론장에서 흔히 “미래의 원전”으로 여겨진다. 그래서 그것은 “현재의 에너지 전환을 늦출 좋은 이유”가 되기도 한다. 15년 뒤 더 나은 기술이 있다면, 지금 왜 이렇게 서두르느냐는 식이다. 이것이 물리적 한계 문제에서 가장 위험한 혼동이다. 재생에너지의 공학적 병목은 “지금 아직 충분히 짓지 못했다”는 데 있고, 4세대 원전의 병목은 “상업운전의 안전과 핵확산 방지 데이터가 아직 충분히 축적되지 않았다”는 데 있다. 두 일정은 서로를 대체할 수 없다. 2030년 재생에너지 건설 창구를 놓치면, 2045년의 SMR도 기후 회계를 구하지 못한다.
 
-![Hai Neng Offshore Wind Farm off Miaoli](/article-images/nature/hai-neng-offshore-wind-farm-2024.webp)
+## 해상풍력: 아시아를 앞서는 한 조각의 퍼즐
 
-_The Hai Neng Offshore Wind Farm (Formosa 1) off Miaoli, commercial operation started in 2019, Taiwan's first large-scale offshore wind farm. Image: Ministry of Economic Affairs, Attribution, via Wikimedia Commons_
+카메라를 이미 일어난 일로 되돌려 보자.
 
-The Taiwan Strait is one of the world's best wind farms. "**Due to topographical factors, the Taiwan Strait forms a 'pipe effect,' making wind speeds in the strait much higher than surrounding seas, making Taiwan one of the most promising locations for offshore wind development globally**"[^45]. The winter Northeast Monsoon is squeezed into the strait by the Central Mountain Range and Fujian hills, with average wind speeds of 10-12 meters/second. This geographical fact makes offshore wind the core bet of energy transition.
+![먀오리 외해의 하이넝 해상풍력발전단지](/article-images/nature/hai-neng-offshore-wind-farm-2024.webp)
 
-From almost zero in 2016 to a cumulative installed capacity of about **4.5 GW** by March 2026[^11], Taiwan's offshore wind expansion speed is among the highest in Asia. Ørsted from Denmark completed the construction of 920 MW for the Large Changhua Southwest Phase II and Northwest wind farms off Changhua[^12]. The third phase block development launched in 2026 has an allocated capacity of 3.6 GW for this phase, targeting completion and grid connection by 2030-2031[^11].
+_먀오리 외해의 하이넝 해상풍력발전단지(Formosa 1)는 2019년 상업운전을 시작한 타이완 최초의 대형 해상풍력단지다. 이미지: 중화민국 경제부, Attribution, via Wikimedia Commons_
 
-The government's blueprint is larger: 13 GW of offshore wind by 2030, challenging 55 GW by 2050.
+타이완해협은 세계에서 가장 좋은 풍력단지 중 하나다. **“타이완해협은 지형적 요인으로 ‘관로 효과’를 형성해 해협의 풍속이 주변 해역보다 훨씬 높다. 이는 타이완을 세계에서 가장 잠재력이 큰 해상풍력 발전지 중 하나로 만든다**”[^45]. 겨울의 동북계절풍은 중앙산맥과 푸젠 구릉 사이로 해협에 밀려 들어가며, 평균 풍속은 초속 10-12미터다. 이 지리적 사실이 해상풍력을 에너지 전환의 핵심 베팅으로 만들었다.
 
-But offshore wind turbines bring not only electricity but also conflict. In February 2022, over a hundred Changhua fishermen went north to the Executive Yuan to protest, accusing the government of "exterminating fishermen" for wind power[^13]. The navigation zone restrictions of offshore wind farms blocked the seas where they had operated for generations. In May 2025, the court ruled the navigation restrictions illegal, the first time a court challenged the spatial governance of offshore wind in Taiwan[^14].
+2016년 거의 0에 가까웠던 상태에서 2026년 3월 누적 설비용량 약 **4.5 GW**에 이르기까지[^11], 타이완의 해상풍력 확장 속도는 아시아 선두권이다. 덴마크 Ørsted는 장화 외해에서 대장화 서남 2기와 서북 풍력단지 총 920 MW 건설을 완료했다[^12]. 2026년에 시작된 3단계 구역 개발은 이번 단계 배정 용량이 3.6 GW이며, 2030-2031년 완공 및 계통연계를 목표로 한다[^11].
 
-Solar PV took another path. Solar PV installed capacity reached 14,281 MW in 2024, accounting for 68% of total renewable energy, with 14.9 billion kWh of power generation[^15]. Roof-mounted, ground-mounted, water-surface-mounted, agrivoltaics—diverse installation models make solar the mainstay of renewable energy. But the agrivoltaics policy has triggered questions of "fake farming, real power generation," forcing the Ministry of Agriculture to strengthen inspections. On an island with only 790,000 hectares of arable land, the use of every piece of land is a political issue.
+정부의 청사진은 더 크다. 2030년 해상풍력 13 GW, 2050년 55 GW 도전이다.
 
-![Solar Panels on Guodao Service Area Roof](/article-images/nature/xihu-service-area-solar-2014.webp)
+그러나 바다 위의 풍력터빈은 전력만 가져오지 않고 갈등도 가져온다. 2022년 2월, 100명이 넘는 장화 어민이 북상해 행정원 앞에서 항의하며, 정부가 풍력을 위해 “어민을 소멸”시킨다고 비판했다[^13]. 해상풍력단지에 설정된 항로 금지 구역은 그들이 세대에 걸쳐 조업하던 해역을 봉쇄했다. 2025년 5월, 법원은 항로 제한이 위법이라고 판결했다. 타이완에서 법원이 해상풍력의 공간 거버넌스에 도전한 첫 사례였다[^14].
 
-_Solar panels on the roof of Xihu Service Area. Taiwan's solar PV installed capacity reached 14,281 MW in 2024, accounting for 68% of renewable energy. Image: lienyuan lee, CC BY 3.0, via Wikimedia Commons_
+태양광은 다른 길을 걸었다. 2024년 태양광 설비용량은 14,281 MW에 이르렀고, 재생에너지 총량의 68%를 차지했으며, 발전량은 149억 kWh였다[^15]. 지붕형, 지상형, 수면형, 영농형 등 다양한 설치 방식이 태양광을 재생에너지의 주력으로 만들었다. 그러나 영농형 태양광 정책은 “가짜 농사, 진짜 발전”이라는 의혹을 불러왔고, 농업부는 점검을 강화할 수밖에 없었다. 경지 면적이 79만 헥타르뿐인 섬에서 모든 토지 용도는 정치 문제다.
 
-Wind and light are the fastest piece of the puzzle in Taiwan's energy transition, but are inherently intermittent: no electricity when the sun sets, no electricity when the wind stops. This is also the most common argument used by pro-nuclear advocates in the Nuclear Three extension discussion: "Renewable energy is unstable, needs baseload." The question returns to the geothermal section: if baseload renewable energy is not built fast enough, the 27-fold gap in targets is the political support for Nuclear Three's 2028 restart timeline.
+![고속도로 휴게소 지붕 태양광 패널](/article-images/nature/xihu-service-area-solar-2014.webp)
 
-## The Afternoon of May 13
+_시후 휴게소 지붕 태양광 패널. 타이완 태양광은 2024년 설비용량 14,281 MW에 도달해 재생에너지의 68%를 차지했다. 이미지: lienyuan lee, CC BY 3.0, via Wikimedia Commons_
 
-At 2:37 PM on May 13, 2021, at the Luzhou Extra-High Voltage Substation of Hsingda Power Plant in Kaohsiung, an operator opened switch 3541; he should have opened 3542[^16].
+바람과 빛은 타이완 에너지 전환에서 가장 빠른 퍼즐 조각이다. 그러나 본질적으로 간헐적이다. 해가 지면 전기가 없고, 바람이 멈추면 전기가 없다. 이것이 핵3 연장 운전 논의에서 원전 지지자들이 가장 자주 사용하는 논거이기도 하다. “재생에너지는 불안정하므로 기저 전원이 필요하다.” 문제는 지열 부분으로 되돌아간다. 기저 재생에너지를 충분히 빨리 짓지 못하고 있으며, 목표와 27배 차이가 나는 이 격차가 핵3 2028년 재가동 일정의 정치적 지지대다.
 
-This human error triggered a busbar grounding fault, tripping four units and instantly losing 2.2 GW of power generation capacity. Starting at 3 PM, Taiwan implemented six rounds of regional load shedding, each lasting 50 minutes, affecting about 4 million households. To make matters worse, solar power generation decreased with sunset, and drought reduced hydropower. It was not until 7 PM when coal units came back online, and 8 PM when power was fully restored.
+## 513, 그 오후
 
-Four days later, on May 17, Hsingda Unit 1 failed again, bringing a second round of blackouts. The two events combined affected over 5.62 million households[^16].
+2021년 5월 13일 오후 2시 37분, 가오슝 싱다 발전소의 루베이 초고압 변전소에서 한 조작원이 3541번 개폐기를 열었다. 그가 열어야 했던 것은 3542번이었다[^16].
 
-May 13 and May 17 exposed how fragile a transforming power system is, far beyond the level of human negligence. The government's solution is energy storage: planning for 1.5 GW of battery storage by 2025, expanding to 8.6 GW by 2030. But storage costs remain high, and technology is still maturing.
+이 인적 오류는 모선 접지 고장을 유발했고, 네 기의 발전기가 정지하면서 순식간에 2.2 GW 발전 용량이 사라졌다. 오후 3시부터 타이완 전역에서 여섯 차례 순환 구역 정전이 시행되었고, 매회 50분씩 약 400만 가구가 영향을 받았다. 엎친 데 덮친 격으로 태양광 발전량은 해가 지면서 줄었고, 가뭄으로 수력발전도 축소되었다. 저녁 7시에야 석탄화력 설비가 다시 가동되었고, 8시에 전면 복전되었다.
 
-This is the most honest side of energy transition: the old system is no longer sufficient, the new system is not yet ready. **Whether the Nuclear Three extension referendum passes or not cannot change this reality; it can only delay or accelerate the time of facing it.**
+나흘 뒤인 5월 17일, 싱다 1호기가 다시 고장 나면서 두 번째 정전이 닥쳤다. 두 사건의 영향 가구는 합계 562만을 넘었다[^16].
 
-## Giving Carbon a Price
+513과 517이 드러낸 것은 전환 중인 전력 시스템이 얼마나 취약한가였고, 이는 단순한 인적 실수의 층위를 훨씬 넘어선 문제였다. 정부의 해법은 저장장치였다. 2025년 배터리 저장 1.5 GW, 2030년 8.6 GW 확대를 계획했다. 그러나 저장 비용은 여전히 높고 기술도 아직 성숙 중이다.
 
-On August 7, 2023, the Taiwan Carbon Exchange was listed in the Asia New Bay Area of Kaohsiung, with initial paid-in capital of 1 billion NTD and planned capital of 1.5 billion NTD; the TWSE contributed 600 million NTD, and the National Development Fund contributed 400 million NTD[^17]. On December 22 of the same year, the first batch of international carbon credit transactions was completed: 45 enterprises purchased about 88,500 tons of CO2 equivalent international carbon credits for over $800,000[^17].
+이것이 에너지 전환의 가장 솔직한 얼굴이다. 낡은 시스템은 이미 충분하지 않고, 새 시스템은 아직 준비되지 않았다. **핵3 연장 운전 국민투표의 통과 여부는 이 현실을 바꿀 수 없으며, 그것을 마주하는 시간을 늦추거나 앞당길 수 있을 뿐이다**.
 
-In 2025, the domestic carbon fee system officially went online, and Taiwan entered the "Year of Carbon Pricing"[^18]. Formosa Plastics' energy efficiency improvement project was listed at 3,000 NTD per ton, and Hanbao Agriculture's biogas power generation project was priced at 3,000 to 4,000 NTD. But the market is still exploring: trading volume is low, and enterprises generally believe domestic carbon credit prices are too high.
+## 탄소에 가격을 매기다
 
-At the same time, tech giants like TSMC and Foxconn are already seizing the beachhead in another battlefield. Under the RE100 initiative, these enterprises have committed to using 100% renewable energy. TSMC plans to reach net-zero emissions by 2050. When international customers treat green electricity as a supply chain threshold, green electricity supply becomes an industrial survival issue, not just an environmental issue.
+2023년 8월 7일, 타이완 탄소권거래소가 가오슝 아시아신만구에서 출범했다. 초기 납입자본금은 10억 타이완달러, 계획자본금은 15억 타이완달러였으며, 그중 증권거래소가 6억 타이완달러, 국가발전기금이 4억 타이완달러를 출자했다[^17]. 같은 해 12월 22일 첫 국제 탄소권 거래가 완료되었다. 45개 기업이 80만 달러 이상을 들여 약 8.85만 톤 CO₂e의 국제 탄소권을 구매했다[^17].
 
-The European Union's Carbon Border Adjustment Mechanism (CBAM) will enter the formal system in 2026, increasing the carbon cost and reporting pressure for exporting high-carbon products such as steel, cement, aluminum, fertilizers, electricity, and hydrogen to Europe[^9]. Taiwan's manufacturing industry is dominated by energy-intensive industries; the four industries of steel, petrochemicals, cement, and paper account for 60% of industrial emissions. This is another physical limit, a timeline set by international trade structure for Taiwan.
+2025년, 국내 탄소요금 제도가 공식 시행되면서 타이완은 “탄소가격 원년”에 들어섰다[^18]. 타이완플라스틱의 에너지효율 개선 프로젝트는 톤당 3,000타이완달러로 상장되었고, 한바오 농목의 바이오가스 발전 프로젝트 가격은 3,000-4,000타이완달러로 책정되었다. 그러나 시장은 여전히 탐색 중이다. 거래량은 낮고, 기업들은 대체로 국내 탄소권 가격이 지나치게 높다고 본다.
 
-In the 2024 National Day Speech, Lai Ching-te announced the launch of "Secondary Energy Transition," covering three directions: diverse green energy, deep energy saving, and advanced energy storage[^19]. But renewable energy share in 2025 remained significantly below the original 20% target; depending on statistical口径, it was between 12.7% and 13.1%[^20]. The Ministry of Economic Affairs has changed its estimate to say that 20% can be reached from November 2026, and about 30% by 2030.
+동시에 TSMC와 폭스콘 같은 기술 거대 기업은 이미 또 다른 전장에서 교두보를 확보하고 있다. RE100 이니셔티브 아래 이들 기업은 100% 재생에너지 사용을 약속했다. TSMC는 2050년 넷제로 배출 달성을 계획한다. 국제 고객이 녹색전력을 공급망 문턱으로 삼으면, 녹색전력 공급은 단순한 환경 의제가 아니라 산업 생존 문제가 된다.
 
-## Algae Reef, Dawu People, Meishou: Fault Lines of Environmental Justice
+유럽연합 탄소국경조정제도(CBAM)가 2026년 정식 제도에 들어가면, 철강, 시멘트, 알루미늄, 비료, 전력, 수소 등 고탄소 제품의 대EU 수출 탄소 비용과 신고 압력이 높아진다[^9]. 타이완 제조업은 에너지다소비 산업이 주축이며, 철강, 석유화학, 시멘트, 제지 네 산업만으로도 산업 배출의 60%를 차지한다. 이것도 또 다른 물리적 한계다. 국제무역 구조가 타이완에 정한 일정이다.
 
-Every energy path has its own opponents, and every opponent has their own history.
+2024년 국경일 연설에서 라이칭더는 “2차 에너지 전환”을 시작한다고 발표했다. 여기에는 다원적 녹색에너지, 심층 에너지절약, 첨단 저장장치라는 세 방향이 포함된다[^19]. 그러나 2025년 재생에너지 비중은 원래 목표인 20%보다 여전히 뚜렷이 낮았다. 통계 기준에 따라 약 12.7-13.1%였다[^20]. 경제부는 2026년 11월부터 20%에 도달하고, 2030년에는 약 30%에 이를 것으로 전망한다고 표현을 바꾸었다.
 
-**Taoyuan Algae Reef**. The 2021 "Save Algae Reef Referendum" (Case 20) opposed Taipower building the Third Natural Gas Receiving Terminal on the Datan Coast, aiming to protect the world's largest columnar algae reef terrain. The referendum failed, and the Three Junction compromise plan went online: port area expansion, avoiding high-density algae reef areas. Algae reef scholars still believe the EIA was insufficient, but the EIA Committee passed the review in 2023. The controversy has not subsided; this is the physical/ecological intersection of "building natural gas to reduce carbon, moving algae reefs for natural gas."
+## 조초, 다우족, 메이농: 환경정의의 단층
 
-**Lanyu Dawu People**. From 1982 to 2026, 44 years of nuclear waste storage history is Taiwan's longest environmental justice wound. The Dawu people continued to protest relocation delays in 2024; in May of the same year, the NRC announced a requirement for Taipower to complete relocation by 2029. But where to relocate remains unanswered[^24].
+모든 에너지 경로에는 자기만의 반대자가 있고, 모든 반대자에게는 자기만의 역사가 있다.
 
-**Meishou Anti-Dam**. The Meishou Anti-Dam Movement in the 1990s,凝聚ing resistance with "Meishou Yellow Butterfly Festival" and "Hakka Spirit," ultimately forced the dam project to retreat, a classic of Taiwan's community-based environmental movement. Reading Meishou today, one finds its spirit still influencing other energy battlefields: when every wind turbine, every solar panel, every transmission line enters a locality, it encounters the response "We oppose the transition costs being borne by us, not opposing energy transition itself."
+**타오위안 조초**. 2021년의 “조초 보전 국민투표”(제20안)는 타이완전력이 다탄 해안에 제3 LNG 수신기지를 건설하는 데 반대했다. 목적은 세계 최대의 주상 조초 지형을 보호하는 것이었다. 국민투표는 통과되지 않았고, 제3 LNG 수신기지의 절충안이 시행되었다. 항만 구역을 바깥으로 밀고, 고밀도 조초 구역을 피하는 방안이었다. 조초 연구자들은 여전히 환경영향평가가 충분하지 않다고 보지만, 환경영향평가위원회는 2023년 심사를 통과시켰다. 논쟁은 지금까지 가라앉지 않았다. 이는 “탄소 감축을 위해 천연가스를 지어야 하고, 천연가스를 위해 조초를 건드려야 한다”는 물리 / 생태의 교차로다.
 
-> 📝 **Curator's Note:** Common environmental justice discussions often stop at "balancing development and environmental protection," but this framing flattens the problem. The true commonality of Lanyu, Algae Reef, and Meishou is: **they are all post-1980s decision legacies, paid for by 1990-2020s social movements**. Energy transition will generate many new "Lanyus" and "Algae Reefs" before 2050 (Changhua fishermen for offshore wind, Yilan indigenous people for geothermal, Tainan salt fields for solar). The real question is "Can we avoid repeating the 1982 decision-making model?"
+**란위 다우족**. 1982년부터 2026년까지 44년의 핵폐기물 저장 역사는 타이완 환경정의에서 가장 오래된 상처다. 다우족은 2024년에도 이전 약속 불이행에 항의했다. 같은 해 5월, 원자력위원회는 타이완전력에 2029년까지 이전을 완료하라고 요구한다고 발표했다. 그러나 어디로 옮길지는 여전히 답이 없다[^24].
 
-For detailed environmental justice historical context, see [Taiwan Environmental Movement History](/nature/台灣環境運動史) and [Taiwan Marine Pollution Governance and Conservation Challenges](/nature/台灣海洋污染治理與保育挑戰).
+**메이농 반댐 운동**. 1990년대의 메이농 반댐 운동은 “메이농 노랑나비 축제”와 “하카 정신”으로 투쟁을 결집했고, 결국 댐 계획을 물러나게 했다. 이는 타이완 지역사회형 환경운동의 고전이다. 오늘 메이농을 다시 읽으면 그 정신이 여전히 다른 에너지 전장에 영향을 미치고 있음을 알 수 있다. 모든 풍력터빈, 모든 태양광 패널, 모든 송전선이 지역에 들어갈 때마다 “우리가 반대하는 것은 전환 비용을 우리가 부담하는 것이지, 에너지 전환 자체가 아니다”라는 응답을 만나게 된다.
 
-## 9 Trillion NTD and Physical Limits
+> 📝 **큐레이터 노트**: 흔한 환경정의 논의는 “개발과 환경보호의 균형”에서 멈추지만, 이 framing은 문제를 평평하게 만든다. 란위, 조초, 메이농 세 사례의 진짜 공통점은 **모두 1980년대 이후 의사결정의 후유증을 1990-2020년대 사회운동이 치르고 있다는 점**이다. 에너지 전환은 2050년 이전에 수많은 새로운 “란위”와 “조초”를 낳을 것이다. 해상풍력의 장화 어민, 지열의 이란 원주민, 태양광의 타이난 염전이 그렇다. 진짜 문제는 “1982년의 의사결정 방식을 반복하지 않을 수 있는가”다.
 
-Putting all energy on the same table, the gap in physical limits becomes visible.
+상세한 환경정의사의 맥락은 [타이완 환경운동사](/nature/台灣環境運動史)와 [타이완 해양오염 관리와 보전 과제](/nature/台灣海洋污染治理與保育挑戰)에서 볼 수 있다.
 
-| Energy                  | Taiwan Theoretical Potential   | 2025 Status   | Government Target / Timeline | Main Physical Limit                   |
-| ----------------------- | ------------------------------ | ------------- | ---------------------------- | ------------------------------------- |
-| Offshore Wind           | One of the best globally       | 4.5 GW        | 13 GW by 2030, 55 GW by 2050 | Marine Engineering / Fishery Conflict |
-| Solar PV                | Roof + Agrivoltaics            | 14.3 GW       | 31 GW by 2030                | Land Acquisition / Intermittency      |
-| Geothermal (Shallow)    | ≤ 1,000 MW                     | 7.4 MW        | 200 MW by 2030, 6 GW by 2050 | Underground Uncertainty / Financing   |
-| Geothermal (Deep EGS)   | 33,640 MW (Theoretical)        | Lab Stage     | 2040+                        | EGS Technology Not Commercialized     |
-| Ocean Energy            | 9.4 GW (Theoretical)           | 100 kW Trial  | 2030+                        | Marine Engineering Durability         |
-| Hydrogen (Green)        | Requires Large Renewable Power | Hsingda Trial | 2030+                        | Electrolysis Cost / Leakage GWP       |
-| Nuclear Three Extension | 1,902 MW                       | Shutdown 2025 | Earliest Restart 2028        | Nuclear Waste / Nuclear Safety Review |
-| Fourth-Gen Nuclear SMR  | No Local Plan                  | US 2030 Trial | 2045+                        | Sodium Safety / Nuclear Proliferation |
+## 9조 타이완달러와 물리적 한계
 
-This table answers one question: **Without nuclear energy, can Taiwan achieve 2050 net-zero?**
+모든 에너지를 한 표에 놓고 보면 물리적 한계의 차이가 비로소 드러난다.
 
-Technically, yes. The NDF's roadmap lists 12 key strategies, estimating a 9 trillion NTD investment[^10]. But it requires offshore wind, solar PV, geothermal, ocean energy, hydrogen, and storage to **simultaneously** achieve their respective targets. And currently, geothermal is 27 times short, ocean energy is still at kW level, hydrogen is still in trial, and storage costs are still high.
+| 에너지               | 타이완 이론 잠재력     | 2025년 현황        | 정부 목표 / 일정           | 주요 물리적 한계          |
+| -------------------- | ---------------------- | ------------------ | -------------------------- | ------------------------- |
+| 해상풍력             | 세계 최고 수준 중 하나 | 4.5 GW             | 2030년 13 GW, 2050년 55 GW | 해사공학 / 어업 갈등      |
+| 태양광               | 지붕 + 영농형 태양광   | 14.3 GW            | 2030년 31 GW               | 토지 확보 / 간헐성        |
+| 지열(천층)           | ≤ 1,000 MW             | 7.4 MW             | 2030년 200 MW, 2050년 6 GW | 지하 불확실성 / 금융      |
+| 지열(심층 EGS)       | 33,640 MW(이론)        | 실험실 단계        | 2040+                      | EGS 기술 미상업화         |
+| 해양에너지           | 9.4 GW(이론)           | 100 kW 시험        | 2030+                      | 해양공학 내구성           |
+| 수소에너지(녹색수소) | 대량 재생전력 필요     | 싱다 발전소 시험   | 2030+                      | 전해 비용 / 누출 GWP      |
+| 핵3 연장 운전        | 1,902 MW               | 2025년 정지        | 이르면 2028년 재가동       | 핵폐기물 / 원전 안전 심사 |
+| 4세대 원전 SMR       | 현지 계획 없음         | 미국 2030년 시운전 | 2045+                      | 나트륨 냉각 안전 / 핵확산 |
 
-Every physical limit is time.
+이 표는 한 질문에 답한다. **원전에 기대지 않고 타이완은 2050년 넷제로를 달성할 수 있는가?**
 
-In Hsu Hsiung-hsiung's model, Taiwan after 2060 has no winter[^1]. In coastal risk assessments, western low-lying areas are facing higher sea level rise and storm surge pressure[^3]. From 1911 to 2020, Taiwan's annual average temperature has risen **1.6°C**, almost one and a half times the global average (1.1°C) for the same period[^1].
+기술적으로는 가능하다. 국가발전위원회의 로드맵은 12개 핵심 전략을 제시했고, 9조 타이완달러 투자를 예상했다[^10]. 그러나 그것은 해상풍력, 태양광, 지열, 해양에너지, 수소에너지, 저장장치가 **동시에** 각자의 목표를 달성해야 한다는 뜻이다. 현재 지열은 27배 부족하고, 해양에너지는 아직 kW급이며, 수소에너지는 시험 중이고, 저장 비용은 여전히 높다.
 
-## An Island Warming by One and a Half Degrees
+모든 물리적 한계는 시간이다.
 
-In the summer of 2017, Hsu Hsiung-hsiung of the Academia Sinica's Center for Environmental Change Research stared at data on his screen and made a prediction that colleagues were reluctant to say publicly: if emission trends remain unchanged, Taiwan's winter might disappear completely after 2060[^1]. Winter days drop to zero, summer stretches to seven months.
+쉬황슝의 모델에서 2060년 이후의 타이완에는 겨울이 없다[^1]. 해안 위험 평가에서 서부 저지대는 더 높은 해수면 상승과 폭풍해일 압력에 직면하고 있다[^3]. 1911년부터 2020년까지 타이완의 연평균 기온은 이미 **1.6°C** 상승했으며, 이는 같은 기간 전 세계 평균(1.1°C)의 거의 1.5배다[^1].
 
-This is not science fiction. The number of days in Taipei exceeding 35°C increased from 3 days a year in the 1960s to 15 days in the recent decade[^2]. The south is more severe; Tainan and Kaohsiung annual high-temperature days have exceeded 30 days.
+## 1.5배 더 뜨거워진 섬
 
-In the same building, Wang Chung-ho from the Institute of Earth Sciences calculated another set of numbers. His conclusion was equally unsettling: the sea level rise speed around Taiwan is twice the global average[^3]. Multiple simulations indicate that sea level rise and storm surges will cause higher inundation risks for Taiwan's western low-lying coastal areas; among the six municipalities, the exposed population and land area in New Taipei, Tainan, and Kaohsiung are particularly concerning.
+2017년 여름, 중앙연구원 환경변천연구센터의 쉬황슝은 화면의 데이터를 들여다보다가 동료들도 공개적으로 말하기 어려워한 예측을 내놓았다. 배출 추세가 변하지 않으면 2060년 이후 타이완의 겨울은 완전히 사라질 수 있다는 것이었다[^1]. 겨울 일수는 0으로 떨어지고, 여름은 7개월로 늘어난다.
 
-Rain's temper has also changed. Taiwan's total rainfall has not significantly decreased, but it doesn't fall when it should, and when it does, it pours. Spring rainfall has sharply decreased, dry seasons are drier. In 2021, Taiwan suffered its most severe drought in 56 years, with reservoir storage rates hitting historical lows; TSMC once sent water trucks to the factory for water[^4]. In May of the same year, two major blackouts struck the island in succession.
+이것은 과학소설이 아니다. 타이베이에서 35°C를 넘는 날은 1960년대 연 3일에서 최근 10년에는 15일로 급증했다[^2]. 남부는 더 심각하다. 타이난과 가오슝의 연간 고온일은 이미 30일을 넘는다.
 
-The number of days with over 200 mm of rainfall in a single day increased from an annual average of 5 days in the 1960s to 8 days recently. Typhoon Morakot in 2009 created an accumulated rainfall record of 2,884 mm in Alishan[^5]; the rain falling in three days was equivalent to Taipei's annual rainfall. In that typhoon, Lin Village in Jiashan, Kaohsiung was buried by collapsing earth and rocks from Xiandu Mountain at dawn, killing 491 people[^6].
+같은 건물에서 지구과학연구소의 왕중허는 또 다른 숫자를 계산하고 있었다. 그의 결론도 마찬가지로 불안하다. 타이완 주변 해수면 상승 속도는 세계 평균의 두 배다[^3]. 여러 모의실험은 해수면 상승과 폭풍해일이 타이완 서부 저지대 해안의 침수 위험을 높일 것이라고 지적한다. 6대 직할시 중 신베이, 타이난, 가오슝 등의 노출 인구와 토지 면적이 특히 주목된다.
 
-> "Every chair represents one family member." Survivor Wang Min-liang later said this to visitors in the Lin Memorial Park. He established the Sunlight Lin Community, touring the island with the tribe's Grand Manzu dance troupe. (Quote from Public Television's _Our Island_)
+비의 성격도 변했다. 타이완의 총강수량은 뚜렷하게 줄지 않았지만, 내려야 할 때 내리지 않고 내릴 때는 퍼붓는다. 봄철 강수는 급감했고, 건기는 더 건조해졌다. 2021년, 타이완은 56년 만의 최악 가뭄을 겪었다. 저수지 저수율은 사상 최저를 기록했고, TSMC는 한때 물차를 공장에 동원했다[^4]. 같은 해 5월, 두 차례 대정전이 잇달아 섬 전체를 강타했다.
 
-Hsu Hsiung-hsiung's主持 (hosted) 2024 _National Climate Change Science Report_ states: extreme rainfall events that currently occur once every 50 years may occur once every 10 years in the future[^7]. Yunlin, Tainan, and Keelung are the areas with the highest coastal flood risk.
+하루 200밀리미터를 넘는 폭우일수는 1960년대 연평균 5일에서 최근 8일로 늘었다. 2009년 모라꼿 태풍은 아리산에 누적 강수량 2,884밀리미터 기록을 세웠다[^5]. 사흘 동안 내린 비가 타이베이 1년 강수량에 해당했다. 그 재난에서 가오슝 자셴의 샤오린촌은 새벽에 셴두산 붕괴 토석에 매몰되었고, 491명이 목숨을 잃었다[^6].
 
-For an island of 23 million people, Taiwan's carbon emissions are disproportionately large: based on fossil fuel CO₂ emissions, annual emissions are about 280 million tons, per capita about 11.7 tons, ranking in the global top tier; depending on different databases and statistical口径, the ranking is about 20th globally[^8]. Emissions are highly concentrated in energy use and power supply, with the energy sector having the highest proportion; the power generation structure remains the core of carbon reduction pressure. The root of the problem lies in the power generation structure: in Taiwan's 2024 power generation structure, natural gas is about 42.4%, coal about 39.3%, natural gas has exceeded coal for the first time; renewable energy is about 11.6%, nuclear energy about 4.2%[^20]. **This is still a fossil-fuel-dependent energy system, and Taiwan relies on imports for 98% of its energy. Energy security and climate crisis are the same problem.**
+> “의자 하나하나가 가족 한 명을 뜻한다.” 생존자 왕민량은 훗날 샤오린 기념공원에서 방문객에게 이렇게 말했다. 그는 르광 샤오린 공동체를 세우고, 부족의 다만족 노래·춤 단체를 이끌고 타이완 전역을 순회 공연했다. (PTS 《우리의 섬》 발언)
 
-## Parallelism of Democracy and Physics
+쉬황슝이 주관한 2024년 《국가 기후변화 과학보고서》는 현재 50년에 한 번 발생하는 극한강우 사건이 미래에는 10년에 한 번 올 수 있다고 지적했다[^7]. 윈린, 타이난, 지룽은 해안 홍수 위험이 가장 높은 지역이다.
 
-The evening of August 23, 2025, the Nuclear Three referendum pushed all the contradictions of this problem onto the vote counting screen.
+2,300만 명의 섬으로서 타이완의 탄소배출량은 불균형하게 크다. 화석연료 CO₂ 배출 기준으로 연간 배출량은 약 2.8억 톤, 1인당 약 11.7톤으로 세계 상위권에 속한다. 다른 데이터베이스와 통계 기준에 따르면 순위는 대략 세계 20위권대에 놓인다[^8]. 배출은 에너지 사용과 전력 공급에 고도로 집중되어 있으며, 그중 에너지 부문의 비중이 가장 높다. 발전 구조는 여전히 탄소 감축 압력의 핵심이다. 문제의 근원은 발전 구조에 있다. 2024년 타이완 발전 구조에서 가스는 약 42.4%, 석탄은 약 39.3%였고, 가스가 처음으로 석탄을 넘어섰다. 재생에너지는 약 11.6%, 원전은 약 4.2%였다[^20]. **이는 여전히 화석연료에 크게 의존하는 에너지 체계이며, 타이완은 에너지의 98%를 수입에 의존한다. 에너지 안보와 기후 위기는 같은 문제다**.
 
-74% approval, 29.53% turnout, missed threshold, Taipower submission in March 2026, earliest restart 2028. Simultaneously: Lanyu 97,672 barrels, Finland Onkalo took 50 years, geothermal 27 times short, ocean energy still at 100 kW, fourth-generation nuclear energy to 2045. Every number asks: **Can the speed of democracy keep up with the speed of physics?**
+## 민주주의와 물리의 병행
 
-| Democratic Timeline                          | Physical Timeline                         |
-| -------------------------------------------- | ----------------------------------------- |
-| 2025/08/23 Referendum Vote Counting          | Lanyu Activated 1982, Still There 2057    |
-| 2025/08/25 Three Principles Press Conference | Nuclear Waste Isolation 100,000 Years     |
-| 2026/03/27 Taipower Submission               | Ultimate Repository Finland Took 50 Years |
-| 2028 Earliest Restart                        | Geothermal 27 Times Short                 |
-| 2050 Net-Zero Goal                           | Ocean Energy Still 100 kW Trial           |
+2025년 8월 23일 저녁의 핵3 국민투표는 이 문제의 모든 모순을 개표 화면 위로 밀어 올렸다.
 
-Whether 9 trillion NTD can buy a different future, no one knows. But the consequences of not spending this money, we are already seeing: Hsu Hsiung-hsiung's 2060 no winter, Morakot's 2,884 mm, May 13's rotating blackouts, Algae Reef Referendum's tearing, Lanyu's 44-year wait.
+찬성 74%, 투표율 29.53%, 문턱 미달, 타이완전력의 2026년 3월 신청, 이르면 2028년 재가동. 동시에 란위 97,672드럼, 핀란드 Onkalo 50년, 지열 27배 부족, 해양에너지는 아직 100 kW, 4세대 원전은 2045년 이후다. 모든 숫자가 묻는다. **민주주의의 속도는 물리의 속도를 따라잡을 수 있는가**?
 
-[PanSci reports](https://pansci.asia/archives/367417) cite industry consensus stating, "**The fastest progress on global ultimate repositories is Finland's Onkalo project, which received an operating license in August 2024. This plan started planning in the 1970s and took nearly half a century to reach the trial operation stage**"[^29]. Taiwan's ultimate repository site selection has not even been finalized. Even if Nuclear Three restarts in 2028, every new fuel rod produced during the restart period must find a place to be stored.
+| 민주주의 일정               | 물리 일정                                     |
+| --------------------------- | --------------------------------------------- |
+| 2025/08/23 국민투표 개표    | 란위 1982년 가동, 2057년에도 남아 있을 가능성 |
+| 2025/08/25 세 원칙 기자회견 | 핵폐기물 격리 10만 년                         |
+| 2026/03/27 타이완전력 신청  | 최종 처분장에 핀란드 50년                     |
+| 2028 이르면 재가동          | 지열 27배 부족                                |
+| 2050 넷제로 목표            | 해양에너지는 아직 100 kW 시험                 |
 
-Lanyu's 97,672 barrels will not disappear because the referendum passed or failed. They are there now, likely still there in 2029, and still there in 2057 (if relocation is delayed again).
+9조 타이완달러로 다른 미래를 살 수 있을지는 아무도 모른다. 그러나 그 돈을 쓰지 않을 때의 결과는 이미 보기 시작했다. 쉬황슝의 2060년 겨울 없음, 모라꼿의 2,884밀리미터, 513의 순환 정전, 조초 국민투표의 분열, 란위 44년의 기다림이다.
 
-✦ **On August 23, 2025, the referendum failed. On March 27, 2026, Taipower still submitted the application. Between these two dates, physical limits have not changed once. What has changed is whether we are willing to admit that this island, which relies on imports for 98% of its energy, is queuing up to face all the physical limits no one wants to face.**
+[PanSci 보도는](https://pansci.asia/archives/367417) 업계 합의를 인용해 “**전 세계 최종 처분장 중 진행이 가장 빠른 것은 핀란드 Onkalo 계획으로, 2024년 8월 시운전 허가를 받았다. 이 계획은 1970년대부터 시작되어 시운전 단계까지 거의 반세기가 걸렸다**”고 지적했다[^29]. 타이완의 최종 처분장은 부지조차 아직 정해지지 않았다. 설령 핵3이 2028년에 재가동되더라도, 재가동 기간 새로 생기는 연료봉 하나하나도 둘 곳을 찾아야 한다.
+
+란위의 97,672드럼은 국민투표가 통과되거나 통과되지 않는다고 사라지지 않는다. 그것들은 지금 그곳에 있고, 2029년에도 높은 확률로 그곳에 있을 것이며, 2057년에도(이전 약속이 또 어겨진다면) 그곳에 있을 것이다.
+
+✦ **2025년 8월 23일, 국민투표는 부결되었다. 2026년 3월 27일, 타이완전력은 그래도 신청했다. 이 두 날짜 사이에 물리적 한계는 단 한 번도 변하지 않았다. 변한 것은 우리가 인정할 의지가 있는가다. 에너지의 98%를 수입에 의존하는 이 섬은, 아무도 마주하고 싶어 하지 않는 모든 물리적 한계를 차례로 마주하기 위해 줄을 서 있다.**
 
 ---
 
-**Further Reading**:
+**더 읽기**:
 
-- [Taiwan and Nuclear Energy Discussion](/society/台灣與核能的討論) — This article writes about energy and physical limits; that article writes about the nuclear energy debate itself: 40 years of anti-nuclear/pro-nuclear, three referendums, and the social struggle of Lanyu nuclear waste.
-- [Taiwan Environmental Movement History](/nature/台灣環境運動史) — From anti-nuclear to anti-air pollution, how Lanyu Dawu people, Meishou anti-dam, and Algae Reef referendum shaped today's energy politics.
-- [Taiwan Marine Pollution Governance and Conservation Challenges](/nature/台灣海洋污染治理與保育挑戰) — Nuclear Three plant outfall 80% coral bleaching, marine waste, and the ecological intersection of offshore wind.
-- [Taiwan Hot Springs and Geothermal](/nature/台灣溫泉與地熱) — From Qingshui Geothermal's 1981 failure to 2024 restart, how 30 years of geothermal silence formed.
-- [Taiwan Environmental Justice and NIMBY Controversies](/society/台灣環境正義與鄰避爭議) — Lanyu, Algae Reef, Meishou: the distribution politics of energy transition costs.
-- [Taiwan Industrial Transformation and Upgrading](/economy/台灣產業轉型升級) — From high-energy-consuming manufacturing to green energy industries, TSMC RE100, CBAM, and the energy bill of the "Guardian Mountain."
-- [Taiwan Agricultural Modernization Development](/economy/台灣農業現代化發展) — Agricultural transformation pressure and land use conflicts behind agrivoltaics.
-- [Plum Rain](/nature/梅雨) — Climate change local observations of "Spring rain not coming, Plum rain concentrated."
+- [타이완과 원전 논의](/society/台灣與核能的討論) — 이 글이 에너지와 물리적 한계를 다룬다면, 그 글은 원전 논쟁 자체를 다룬다. 반핵 / 원전 지지 40년, 세 차례 국민투표, 란위 핵폐기물을 둘러싼 사회적 힘겨루기
+- [타이완 환경운동사](/nature/台灣環境運動史) — 반핵에서 반대기오염까지, 란위 다우족, 메이농 반댐, 조초 국민투표가 오늘의 에너지 정치를 어떻게 형성했는가
+- [타이완 해양오염 관리와 보전 과제](/nature/台灣海洋污染治理與保育挑戰) — 핵3 발전소 배수구 80% 산호 백화, 해양폐기물, 해상풍력의 생태 교차로
+- [타이완 온천과 지열](/nature/台灣溫泉與地熱) — 1981년 칭수이 지열의 실패에서 2024년 재가동까지, 30년의 지열 침묵은 어떻게 형성되었는가
+- [타이완 환경정의와 님비 논쟁](/society/台灣環境正義與鄰避爭議) — 란위, 조초, 메이농: 에너지 전환 비용의 배분 정치
+- [타이완 산업 전환과 고도화](/economy/台灣產業轉型升級) — 에너지다소비 제조에서 녹색에너지 산업까지, TSMC RE100, CBAM, 호국신산의 에너지 회계
+- [타이완 농업 현대화 발전](/economy/台灣農業現代化發展) — 영농형 태양광 뒤의 농업 전환 압력과 토지 이용 갈등
+- [메이위](/nature/梅雨) — “봄비는 오지 않고, 메이위는 집중된다”는 기후변화의 지역 관찰
 
-## References
+## 참고자료
 
-[^1]: [United Daily News Vision Project: Hsu Hsiung-hsiung Interview](https://ubrand.udn.com/ubrand/story/123658/5679341) — Academia Sinica Center for Environmental Change Research Distinguished Researcher Hsu Hsiung-hsiung's team analyzed Taiwan's temperature data from 1911-2020, pointing out that Taiwan warmed by 1.6°C over a century, winter shortened by nearly half, and in the worst-case scenario, winter days may drop to zero after 2060.
+[^1]: [聯合報系願景工程：許晃雄專訪](https://ubrand.udn.com/ubrand/story/123658/5679341) — 중앙연구원 환경변천연구센터 특임연구원 쉬황슝 팀은 1911-2020년 타이완 기온 자료를 분석해, 타이완이 100년 동안 1.6°C 상승했고 겨울이 거의 절반으로 줄었으며, 최악의 시나리오에서는 2060년 이후 겨울 일수가 0이 될 수 있다고 지적했다.
 
-[^2]: [Central Weather Bureau Climate Change Information Platform](https://www.cwb.gov.tw/V8/C/C/C04/index.html) — Taiwan climate observation historical database, recording century-long temperature, rainfall, and extreme weather event records for each station, including the increasing trend of days above 35°C in Taipei.
+[^2]: [中央氣象署氣候變遷資訊平台](https://www.cwb.gov.tw/V8/C/C/C04/index.html) — 타이완 기후 관측 역사 데이터베이스로, 각 관측소의 100년 온도, 강수, 극한기상 사건 기록을 수록하며, 타이베이 35°C 이상 일수 증가 추세 통계를 포함한다.
 
-[^3]: [CSRone Sustainable Think Tank: Wang Chung-ho Interview](https://csrone.com/topics/8024) — Academia Sinica Institute of Earth Sciences Adjunct Researcher Wang Chung-ho has long tracked Taiwan's sea level changes, pointing out that the sea level rise speed around Taiwan is higher than the global average; the article uses a more conservative risk description when citing, avoiding simplifying different research scenarios into absolute conclusions.
+[^3]: [CSRone 永續智庫：汪中和專訪](https://csrone.com/topics/8024) — 중앙연구원 지구과학연구소 겸임연구원 왕중허는 타이완 해수면 변화를 장기 추적해 타이완 주변 해수면 상승 속도가 세계 평균보다 높다고 지적했다. 본문 인용에서는 서로 다른 연구 시나리오를 절대적 결론으로 단순화하지 않기 위해 비교적 보수적인 위험 서술을 사용했다.
 
-[^4]: [BBC Chinese: Taiwan's 56-Year Most Severe Drought (2021)](https://www.bbc.com/zhongwen/trad/chinese-news-56699038) — Reports on the 2021 mid-south Taiwan drought, with reservoir storage rates dropping below 10%, and tech factories like TSMC initiating water truck emergency measures.
+[^4]: [BBC 中文：台灣 56 年最嚴重旱災（2021）](https://www.bbc.com/zhongwen/trad/chinese-news-56699038) — 2021년 타이완 중남부 가뭄을 보도했다. 저수지 저수율이 10% 아래로 떨어졌고, TSMC 등 기술 공장이 물차 응급 조치를 가동했다.
 
-[^5]: [National Center for Disaster Prevention and Rescue Technology Center: Morakot Typhoon Disaster Record](https://den.ncdr.nat.gov.tw/1132/1188/1204/2447/2505/) — Official disaster archive, recording the 2,884 mm accumulated rainfall at the Alishan station during Typhoon Morakot, the highest record in Taiwan's meteorological observation history.
+[^5]: [國家災害防救科技中心：莫拉克颱風災害紀錄](https://den.ncdr.nat.gov.tw/1132/1188/1204/2447/2505/) — 공식 재난 기록으로, 모라꼿 태풍 때 아리산 관측소 누적 강수량 2,884밀리미터를 기록해 타이완 기상 관측 사상 최고 기록이 되었음을 기록한다.
 
-[^6]: [The Reporter: Lin Village Extinction Investigation](https://www.twreporter.org/a/bookreview-typhoon-morakot-xiaolin-village-disaster-causes) — In-depth investigation into the collapse process of Lin Village's Xiandu Mountain and the complete context of 491 deaths, including geological causes and early warning system failure analysis.
+[^6]: [報導者：小林村滅村調查](https://www.twreporter.org/a/bookreview-typhoon-morakot-xiaolin-village-disaster-causes) — 샤오린촌 셴두산 붕괴 과정과 491명 사망의 전체 맥락을 심층 조사한 기사로, 지질 원인과 경보 시스템 실패 분석을 포함한다.
 
-[^7]: [Environmental Information Center: 2024 National Climate Change Science Report](https://e-info.org.tw/node/239052) — Reports the key findings of the latest scientific report hosted by Hsu Hsiung-hsiung: 50-year extreme rainfall events may become 10-year events, and days above 36°C may increase by 75 days.
+[^7]: [環境資訊中心：2024 國家氣候變遷科學報告](https://e-info.org.tw/node/239052) — 쉬황슝이 주관한 최신 과학보고서의 핵심 발견을 보도했다. 50년에 한 번 오는 극한강우가 10년에 한 번으로 바뀔 수 있고, 36°C 이상 고온일이 75일 늘 수 있다고 한다.
 
-[^8]: [Environmental Protection Administration Greenhouse Gas Emission Statistics](https://ghgreg.epa.gov.tw/) — Taiwan's official greenhouse gas emission database, recording historical national emission inventories, sectoral emissions, and per capita emission data.
+[^8]: [行政院環境保護署溫室氣體排放統計](https://ghgreg.epa.gov.tw/) — 타이완 공식 온실가스 배출 데이터베이스로, 역대 국가 배출 목록, 부문별 배출량, 1인당 배출 데이터를 수록한다.
 
-[^9]: [EU Carbon Border Adjustment Mechanism Official Page](https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en) — CBAM entered the transition period in October 2023 and will be fully implemented in 2026, covering six major product categories: steel, cement, aluminum, fertilizers, electricity, and hydrogen.
+[^9]: [歐盟碳邊境調整機制官方頁面](https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en) — CBAM은 2023년 10월 전환기에 들어갔고, 2026년 전면 시행된다. 철강, 시멘트, 알루미늄, 비료, 전력, 수소 등 여섯 주요 제품군을 포괄한다.
 
-[^10]: [Presidential Office Press Release: Tsai Ing-wen 2021 World Earth Day Talk](https://www.president.gov.tw/News/26056) — Tsai Ing-wen first declared as President that "2050 Net-Zero Transition is the world's goal, and also Taiwan's goal," laying the policy tone for the subsequent NDF Net-Zero Roadmap.
+[^10]: [總統府新聞稿：蔡英文 2021 世界地球日談話](https://www.president.gov.tw/News/26056) — 차이잉원은 총통으로서 처음 “2050 넷제로 전환은 전 세계의 목표이자 타이완의 목표”라고 선언했으며, 이후 국가발전위원회 넷제로 로드맵의 정책 기조를 마련했다.
 
-[^11]: [Ministry of Economic Affairs Energy Bureau: Offshore Wind Block Development Phase 3 Selection Mechanism Announcement Gunshot](https://www.moea.gov.tw/Mns/populace/news/News.aspx?kind=1&menu_id=40&news_id=122229) — MOEA announced on March 27, 2026, stating that as of March 26, 2026, Taiwan's cumulative offshore wind installed capacity was about 4.5GW, with Phase 3 allocated capacity of 3.6GW, targeting completion and grid connection by 2030-2031.
+[^11]: [經濟部能源署：離岸風電區塊開發第 3 期選商機制公告鳴槍起跑](https://www.moea.gov.tw/Mns/populace/news/News.aspx?kind=1&menu_id=40&news_id=122229) — 경제부는 2026년 3월 27일 공고에서 2026년 3월 26일 기준 타이완 해상풍력 누적 설비용량이 약 4.5GW이고, 3단계 배정 용량은 3.6GW이며, 2030-2031년 완공 및 계통연계를 목표로 한다고 밝혔다.
 
-[^12]: [PV Magazine: Taiwan solar and offshore wind targets](https://www.pv-magazine.com/2025/01/13/taiwan-to-add-8-2-gw-of-solar-offshore-wind-by-end-of-2026/) — Reports Ørsted completed the construction of 920MW for Large Changhua Southwest Phase II and Northwest wind farms, and Taiwan's plan to add 8.2GW of solar PV and offshore wind by the end of 2026.
+[^12]: [PV Magazine: Taiwan solar and offshore wind targets](https://www.pv-magazine.com/2025/01/13/taiwan-to-add-8-2-gw-of-solar-offshore-wind-by-end-of-2026/) — Ørsted가 대장화 서남 2기와 서북 풍력단지 총 920MW 건설을 완료한 사실, 그리고 타이완이 2026년 말까지 태양광과 해상풍력 8.2GW를 추가하려는 계획을 보도했다.
 
-[^13]: [Environmental Information Center: Changhua Fishermen Protest Offshore Wind (2022)](https://e-info.org.tw/node/233449) — Reports over a hundred fishermen going to the Executive Yuan to protest offshore wind farm navigation zone restrictions blocking generational operation seas, shouting "Exterminate Fishermen" slogans.
+[^13]: [環境資訊中心：彰化漁民抗議離岸風電（2022）](https://e-info.org.tw/node/233449) — 100명이 넘는 어민이 행정원으로 가서 해상풍력단지 항로 금지 구역이 세대에 걸친 조업 해역을 봉쇄했다고 항의하며 “어민을 소멸시킨다”는 구호를 외친 사실을 보도했다.
 
-[^14]: [Environmental Information Center: Court Rules Offshore Wind Navigation Restrictions Illegal (2025)](https://e-info.org.tw/node/241327) — Taiwan's first court challenge to offshore wind spatial governance ruling, determining that navigation restrictions infringe on fishermen's rights, causing shock in the energy circle.
+[^14]: [環境資訊中心：法院判決離岸風電航道限制違法（2025）](https://e-info.org.tw/node/241327) — 타이완 최초로 법원이 해상풍력 공간 거버넌스에 도전한 판결이다. 항로 제한이 어민 권익을 침해한다고 판단해 에너지계에 파장을 일으켰다.
 
-[^15]: [Taipower: Renewable Energy Power Generation Statistics](https://www.taipower.com.tw/tc/page.aspx?mid=204) — Taiwan Power Company official statistics, recording historical data for various renewable energy installed capacities and power generation; 2024 solar PV installed capacity 14,281 MW, power generation 14.9 billion kWh.
+[^15]: [台電公司：再生能源發電統計](https://www.taipower.com.tw/tc/page.aspx?mid=204) — 타이완전력 공식 통계로, 각종 재생에너지 설비용량과 발전량의 역대 자료를 수록한다. 2024년 태양광 설비용량은 14,281 MW, 발전량은 149억 kWh였다.
 
-[^16]: [Taipower: May 13 Blackout Accident Preliminary Investigation Out](https://www.taipower.com.tw/2289/2323/2324/7706/); [Ministry of Economic Affairs: May 13 and May 17 Blackout Accident Review Report](https://www.moea.gov.tw/MNS/populace/news/wHandNews_File.ashx?file_id=95610) — Official data explains the error operation of switch 3541 in the May 13 accident, causing an instantaneous reduction of about 2.2GW in supply capacity and affecting about 4 million households, and organizes the May 17 event and subsequent reviews.
+[^16]: [台電：513 停電事故初步調查出爐](https://www.taipower.com.tw/2289/2323/2324/7706/) — ; [經濟部：513 及 517 停電事故檢討報告](https://www.moea.gov.tw/MNS/populace/news/wHandNews_File.ashx?file_id=95610) — 공식 자료는 513 사고에서 3541번 개폐기 오조작이 있었고, 약 2.2GW 공급 능력이 순간적으로 감소했으며 약 400만 가구가 영향을 받았음을 설명한다. 또한 517 사건과 후속 검토를 정리했다.
 
-[^17]: [Presidential Office Press Release: Taiwan Carbon Exchange Unveiling](https://www.president.gov.tw/News/27785); [Taiwan Stock Exchange 2023 Annual Report](https://www.twse.com.tw/downloads/zh/about/company/Annual/112/P2.pdf); [Cnyes: Taiwan Carbon Exchange Expected to Go Online End of July, North-South Division Operation](https://news.cnyes.com/news/id/5193262) — Carbon Exchange unveiled on August 7, 2023; planned capital 1.5 billion NTD, initial paid-in capital 1 billion NTD, with TWSE contributing 600 million NTD and NDF contributing 400 million NTD. TWSE annual report also states the first batch of international carbon credit transactions totaled 88,520 tons CO2e, with 27 participating enterprises (45 including financial holding subsidiaries).
+[^17]: [總統府新聞稿：臺灣碳權交易所揭牌](https://www.president.gov.tw/News/27785) — ; [臺灣證券交易所 2023 年報](https://www.twse.com.tw/downloads/zh/about/company/Annual/112/P2.pdf); [鉅亨網：台灣碳權交易所預計 7 月底上路 採南北分工運作](https://news.cnyes.com/news/id/5193262) — 탄소거래소는 2023년 8월 7일 출범했다. 계획자본금은 15억 타이완달러, 초기 납입자본금은 10억 타이완달러였으며, 그중 증권거래소가 6억 타이완달러, 국가발전기금이 4억 타이완달러를 출자했다. 증권거래소 연보도 첫 국제 탄소권 거래가 총 88,520톤 CO2e였고, 참여 기업은 27개사(금융지주 자회사 포함 45개사)였다고 기재했다.
 
-[^18]: [KPMG Taiwan: Carbon Pricing Trend Analysis (2025)](https://kpmg.com/tw/zh/home/insights/2025/02/2025-kpmg-insight/carbon-pricing.html) — Analyzes market dynamics after Taiwan's carbon fee system went online in 2025, including domestic carbon credit pricing (Formosa 3,000 NTD/ton, Hanbao Agriculture 3,000-4,000 NTD/ton) and the challenge of low trading volume.
+[^18]: [KPMG 台灣：碳定價趨勢分析（2025）](https://kpmg.com/tw/zh/home/insights/2025/02/2025-kpmg-insight/carbon-pricing.html) — 타이완의 2025년 탄소요금 제도 시행 뒤 시장 동향을 분석한다. 국내 탄소권 가격(타이완플라스틱 3,000타이완달러/톤, 한바오 농목 3,000-4,000타이완달러/톤)과 거래량 저조 과제를 포함한다.
 
-[^19]: [Reccessary: Taiwan Energy Policy 2025 Outlook](https://www.reccessary.com/zh-tw/news/how-will-taiwan-energy-policy-evolve-2025) — Reports Lai Ching-te's 2024 National Day Speech announcing "Secondary Energy Transition" policy direction: diverse green energy, deep energy saving, advanced energy storage.
+[^19]: [Reccessary：台灣能源政策 2025 展望](https://www.reccessary.com/zh-tw/news/how-will-taiwan-energy-policy-evolve-2025) — 라이칭더가 2024년 국경일 연설에서 “2차 에너지 전환” 정책 방향, 즉 다원적 녹색에너지, 심층 에너지절약, 첨단 저장장치를 발표한 사실을 보도했다.
 
-[^20]: [Ministry of Economic Affairs Energy Bureau Statistics: Power Generation Structure by Fuel Type](https://service.moea.gov.tw/EE521/common/Common.aspx?code=M&no=9); [Ministry of Environment Energy Information Platform: Power Structure](https://energy.moenv.gov.tw/electricity-generation-mix/2408.html); [Economic Daily: MOEA Says Renewable Energy Share Can Reach 20% from November 2026](https://money.udn.com/money/story/7307/8712340) — According to MOEA Energy Bureau statistics, 2024 natural gas was about 42.4%, coal about 39.3%, renewable energy about 11.5% to 11.6%, nuclear energy about 4.2%; Ministry of Environment Energy Information Platform shows renewable energy share in national total power generation in 2025 was 13.1%, while Taipower system purchase-sell structure chart common口径 is about 12.7%, two different口径. MOEA stated in May 2025 that 20% is expected to be reached from November 2026, and about 30% by 2030.
+[^20]: [經濟部能源署統計：發電量結構—按燃料別分](https://service.moea.gov.tw/EE521/common/Common.aspx?code=M&no=9) — ; [環境部能源資訊平台：電力結構](https://energy.moenv.gov.tw/electricity-generation-mix/2408.html); [經濟日報：經濟部稱再生能源發電占比 2026 年 11 月起可達 20%](https://money.udn.com/money/story/7307/8712340) — 경제부 에너지서 통계에 따르면 2024년 가스는 약 42.4%, 석탄은 약 39.3%, 재생에너지는 약 11.5-11.6%, 원전은 약 4.2%였다. 환경부 에너지정보플랫폼은 2025년 전국 총발전량 중 재생에너지 비중을 13.1%로 제시했고, 타이완전력 계통 발전·구매 전력 구조도에서 흔히 보이는 기준은 약 12.7%로, 두 기준은 다르다. 경제부는 2025년 5월 2026년 11월부터 20%, 2030년 약 30%에 도달할 것으로 전망한다고 밝혔다.
 
-[^21]: [Taiwan Coral Reef Health Check Report (2020)](https://www.teia.tw/zh-hant/natural-valley/reefcheck/) — Annual coral reef survey led by Taiwan Environmental Information Association, recording the large-scale coral bleaching events in Kenting, Green Island, and Lanyu in 2020.
+[^21]: [台灣珊瑚礁體檢報告（2020）](https://www.teia.tw/zh-hant/natural-valley/reefcheck/) — 타이완환경정보협회가 주도한 연례 산호초 조사로, 2020년 컨딩, 뤼다오, 란위의 대규모 산호 백화 사건을 기록했다.
 
-[^22]: [Central Election Commission: August 23, 2025 National Referendum Results Announcement](https://www.cec.gov.tw/); [CNA: Nuclear Three Extension Referendum 4.34 Million 'Yes' Votes Miss 1/4 Threshold, Failed](https://www.cna.com.tw/news/aipl/202508230253.aspx); [Taipower: Nuclear Three Re-operation Plan Submitted to Nuclear Safety Commission for Review Explanation (2026/03/27)](https://www.taipower.com.tw/) — August 23, 2025 Nuclear Three Extension Referendum: 4,342,206 'yes' votes (74.17%), 1,511,693 'no' votes, turnout 29.53%, missed the Referendum Act threshold of 1/4 of total voters (5,000,523 votes), referendum failed. Taipower submitted the Nuclear Three re-operation plan application to the Nuclear Safety Commission on March 27, 2026, expected safety inspection schedule about 18 months, earliest restart 2028.
+[^22]: [中央選舉委員會：2025 年 8 月 23 日全國性公民投票結果公告](https://www.cec.gov.tw/) — ; [中央社：核三延役公投 同意 434 萬票未達 1/4 門檻 未通過](https://www.cna.com.tw/news/aipl/202508230253.aspx); [台電公司：核三再運轉計畫送核安會審查說明（2026/03/27）](https://www.taipower.com.tw/) — 2025/08/23 핵3 연장 운전 국민투표: 찬성 4,342,206표(74.17%), 반대 1,511,693표, 투표율 29.53%로 국민투표법상 유권자 총수 1/4 문턱(500만 523표)에 미달해 국민투표는 통과되지 않았다. 타이완전력은 2026년 3월 27일 원자력안전위원회에 핵3 재가동 계획 신청을 제출했으며, 안전점검 일정은 약 18개월로 예상되고 이르면 2028년 재가동이 완료된다.
 
-[^23]: [CNA: Lai Ching-te Post-Nuclear Three Referendum Talk Proposes Nuclear Safety, Nuclear Waste, Social Consensus Three Principles](https://www.cna.com.tw/news/aipl/202508250089.aspx) — President Lai Ching-te issued a formal response to the Nuclear Three extension referendum results on August 25, 2025, proposing the "Three Principles" for future nuclear power restart: Nuclear Safety Assurance, Nuclear Waste Solution, Social Consensus, and instructed the Ministry of Economic Affairs and Nuclear Safety Commission to initiate safety inspection procedures for evaluation.
+[^23]: [中央社：賴清德核三公投後談話 提出核安、核廢、社會共識三原則](https://www.cna.com.tw/news/aipl/202508250089.aspx) — 2025년 8월 25일 라이칭더 총통은 핵3 연장 운전 국민투표 결과에 대해 공식 답변을 발표하고, 향후 원전 재가동의 “세 원칙”으로 원전 안전에 우려 없음, 핵폐기물 해법, 사회적 합의를 제시했으며, 경제부와 원자력안전위원회에 안전점검 절차 평가를 시작하라고 지시했다.
 
-[^24]: [Atomic Energy Commission: Lanyu Storage Facility Storage Volume Announcement (2024)](https://www.aec.gov.tw/) — NRC official announcement, as of 2024, Lanyu low-level radioactive waste storage facility accumulated 97,672 barrels, experiencing 1996, 2002, 2016, 2019, 2023 multiple relocation promise delays since activation in 1982, NRC requires Taipower to complete relocation by 2029. Content Curation Partner per MOU 2026-05-05.
+[^24]: [原子能委員會：蘭嶼貯存場貯存量公告（2024）](https://www.aec.gov.tw/) — 원자력위원회 공식 공고에 따르면 2024년 기준 란위 저준위 방사성폐기물 저장장에는 누적 97,672드럼이 보관되어 있다. 1982년 가동 이후 1996, 2002, 2016, 2019, 2023년에 여러 차례 이전 약속이 어겨졌고, 원자력위원회는 타이완전력에 2029년까지 이전을 완료하라고 요구했다. Content Curation Partner per MOU 2026-05-05.
 
-[^25]: [Ministry of Economic Affairs Energy Bureau: Geothermal Power Generation Target and Commercial Capacity (2025)](https://www.moea.gov.tw/) — Government geothermal power generation policy target: 200 MW by 2030, 6 GW (6,000 MW) by 2050; as of end of 2025, Taiwan's total geothermal commercial capacity was about 7.4 MW, mainly Yilan Qingshui Geothermal 4.2 MW and some small units, about 27 times short of 2030 target.
+[^25]: [經濟部能源署：地熱發電目標與商轉容量（2025）](https://www.moea.gov.tw/) — 정부 지열발전 정책 목표는 2030년 200 MW, 2050년 6 GW(6,000 MW)다. 2025년 말 기준 타이완 전역 지열 상업운전 용량은 약 7.4 MW로, 주로 이란 칭수이 지열 4.2 MW와 일부 소형 설비이며, 2030년 목표와 약 27배 차이가 난다.
 
-[^26]: [Wikipedia: Lanyu Storage Facility](https://zh.wikipedia.org/wiki/%E8%98%AD%E5%B6%BC%E8%B2%AF%E5%AD%98%E5%A0%B4) — Before Lanyu Storage Facility activation in 1982, Taipower told Dawu people it was building a "canned fish factory," failing to fully inform the nature of nuclear waste storage; in 1988, Dawu people launched the first "Exorcising Evil Spirits" protest action, marking the starting point of Taiwan's indigenous environmental movement.
+[^26]: [維基百科：蘭嶼貯存場](https://zh.wikipedia.org/wiki/%E8%98%AD%E5%B6%BC%E8%B2%AF%E5%AD%98%E5%A0%B4) — 란위 저장장은 1982년 가동 전 타이완전력이 다우족 주민들에게 “생선 통조림 공장”을 짓는다고 설명했으며, 핵폐기물 저장 성격을 충분히 알리지 않았다. 1988년 다우족은 최초의 “악령 축출” 항의 행동을 벌였고, 이는 타이완 원주민 환경운동의 출발점이 되었다.
 
-[^27]: [PanSci: Nuclear Two Exit, Nuclear Waste Still to Be Stored for 20 Years](https://pansci.asia/archives/363266) — Content Curation Partner per MOU 2026-05-05. Nuclear Two Plant officially decommissioned at end of 2023, but nuclear fuel rods remain at high temperature and high radiation after reactor decommissioning, must be cooled in plant fuel pool for at least 5 years before they can be moved; Daren Township, Taitung County is the candidate site for low-level nuclear waste ultimate repository, site selection process stuck due to local political resistance.
+[^27]: [PanSci 泛科學：核二退場，核廢料還要放 20 年](https://pansci.asia/archives/363266) — Content Curation Partner per MOU 2026-05-05. 핵2 발전소는 2023년 말 공식 폐로되었지만, 핵연료봉은 원자로 폐로 뒤에도 여전히 고온·고방사선 상태라 발전소 내 연료 저장조에서 최소 5년 냉각해야 반출 가능성이 생긴다. 타이둥현 다런향은 저준위 핵폐기물 최종 처분장 후보지이며, 부지 선정 절차는 지방 정치 저항 속에서 곤경에 빠져 있다.
 
-[^28]: [PanSci: What Is the Real Problem of Nuclear Power Extension](https://pansci.asia/archives/367408) — Content Curation Partner per MOU 2026-05-05. Nuclear power plant dry storage facility land issue stuck for over 11 years, New Taipei City Government refuses to approve dry storage facility, causing spent fuel rods of Nuclear One and Nuclear Two to remain in plant fuel pool and exceed original design capacity; biggest obstacle to nuclear power extension is the destination of spent nuclear fuel.
+[^28]: [PanSci 泛科學：核電延役真正的問題是什麼](https://pansci.asia/archives/367408) — Content Curation Partner per MOU 2026-05-05. 원전 건식 저장시설 부지 문제는 11년 넘게 막혔다. 신베이시 정부가 건식 저장시설 설치 동의를 거부하면서 핵1·핵2 발전소의 사용후핵연료봉은 여전히 발전소 내 연료 저장조에 보관되어 있고 원래 설계 용량을 초과했다. 원전 연장 운전의 최대 장애물은 사용후핵연료의 행선지다.
 
-[^29]: [PanSci: Since Nuclear Waste Has Nowhere to Go, Are There Other Methods](https://pansci.asia/archives/367417) — Content Curation Partner per MOU 2026-05-05. The fastest progress on global ultimate repositories is Finland's Onkalo project, which received an operating license in August 2024, started planning in the 1970s and took nearly half a century to reach the trial operation stage; ultimate repository needs to isolate waste for over 100,000 years, this timescale far exceeds the existence time of human civilization.
+[^29]: [PanSci 泛科學：既然核廢料沒地方去，有沒有別的方法](https://pansci.asia/archives/367417) — Content Curation Partner per MOU 2026-05-05. 전 세계 최종 처분장 중 진행이 가장 빠른 것은 핀란드 Onkalo 계획으로, 2024년 8월 시운전 허가를 받았고 1970년대 계획부터 현재까지 거의 반세기가 걸렸다. 최종 처분장은 폐기물을 10만 년 이상 격리해야 하며, 이 시간 척도는 인류 문명의 존재 시간을 훨씬 넘어선다.
 
-[^30]: [Posiva Oy: Onkalo Ultimate Repository Design Introduction](https://www.posiva.fi/en/index/finaldisposal.html) — Finland Posiva Company operated Onkalo repository official explanation, design goal to isolate high-level radioactive nuclear waste for at least 100,000 years, including multi-barrier system (copper shell + bentonite + granite layer) and long-term memory warning system design.
+[^30]: [Posiva Oy：Onkalo 最終處置場設計簡介](https://www.posiva.fi/en/index/finaldisposal.html) — 핀란드 Posiva 회사가 운영하는 Onkalo 처분장 공식 설명이다. 고준위 방사성폐기물을 최소 10만 년 격리하는 것을 설계 목표로 하며, 다중 장벽 시스템(구리 외피 + 벤토나이트 + 화강암층)과 장기 기억 경고 시스템 설계를 포함한다.
 
-[^31]: [Taitung County Daren Township Office: Low-Level Radioactive Waste Ultimate Repository Issue](https://www.darentown.gov.tw/) — Daren Township, Taitung County is one of two candidate sites for low-level nuclear waste ultimate repository (the other is Wuhu, Kinmen County), local public opinion divided, indigenous tribe opposition voices strong, site selection referendum has not yet successfully held.
+[^31]: [台東縣達仁鄉公所：低放射性廢棄物最終處置場議題](https://www.darentown.gov.tw/) — 타이둥현 다런향은 저준위 핵폐기물 최종 처분장 두 후보지 중 하나다(다른 하나는 진먼현 우추). 지역 여론이 갈리고 원주민 부락의 반대 목소리가 강해, 부지 선정 국민투표는 지금까지 성공적으로 열리지 못했다.
 
-[^32]: [PanSci: Nuclear Waste Space Disposal Feasibility Analysis](https://pansci.asia/archives/367417) — Content Curation Partner per MOU 2026-05-05. Nuclear waste space disposal is physically feasible but requires very stable and safe rockets; if launch fails, radiation pollution caused to Earth would be unestimable; with current rocket failure rate, about 1 in 100 launches has risk, not meeting engineering practice needs.
+[^32]: [PanSci 泛科學：核廢料太空處置可行性分析](https://pansci.asia/archives/367417) — Content Curation Partner per MOU 2026-05-05. 핵폐기물 우주 처분은 물리적으로 가능하지만 매우 안정적이고 안전장치가 충분한 로켓이 필요하며, 발사 실패 시 지구에 초래할 방사능 오염은 계산하기 어렵다. 기존 로켓 실패율로는 발사 100번마다 약 1번의 위험이 있어 공학 실무 요건에 부합하지 않는다.
 
-[^33]: [PanSci: Improved Natural Gas Power Generation Technology Does Not Produce CO2? Gray Hydrogen, Blue Hydrogen, Green Hydrogen](https://pansci.asia/archives/374302) — Content Curation Partner per MOU 2026-05-05. Hydrogen color codes correspond to different production methods: Gray Hydrogen (Natural Gas SMR emits CO₂), Blue Hydrogen (Gray Hydrogen + CCS), Green Hydrogen (Renewable Electricity Electrolysis), Blue-Green Hydrogen (Methane Pyrolysis solid carbon no CO₂ emission); Taipower and Academia Sinica have cooperated in Hsingda Power Plant for decarbonization burning hydrogen technology testing.
+[^33]: [PanSci 泛科學：改良天然氣發電技術不會產生二氧化碳？灰氫、藍氫、綠氫](https://pansci.asia/archives/374302) — Content Curation Partner per MOU 2026-05-05. 수소 색상 코드는 서로 다른 생산 방식에 대응한다. 회색수소(천연가스 SMR, CO₂ 배출), 청색수소(회색수소 + CCS), 녹색수소(재생전력 수전해), 청록수소(메탄 열분해, 고체 탄소화로 CO₂ 미배출)다. 타이완전력과 중앙연구원은 이미 싱다 발전소에서 탈탄소 수소연소 기술 시험을 공동 진행하고 있다.
 
-[^34]: [PanSci: Musk Disdains; Bill Gates Treasures! Hydrogen Energy](https://pansci.asia/archives/374277) — Content Curation Partner per MOU 2026-05-05. Besides Green Hydrogen, emerging White/Gold Hydrogen is naturally formed hydrogen underground, USGS estimates reserves may reach tens of billions of tons; but hydrogen's GWP100 is 11.6 times that of carbon dioxide, leakage will exacerbate warming problem (academic community still has 7-37 range controversy on GWP numbers).
+[^34]: [PanSci 泛科學：馬斯克不屑一顧；比爾蓋茲卻視若珍寶！氫能源](https://pansci.asia/archives/374277) — Content Curation Partner per MOU 2026-05-05. 녹색수소 외에 새로 부상한 백색수소 / 금색수소는 지하에서 자연 형성된 수소다. USGS는 매장량이 수백억 톤에 이를 수 있다고 추정했다. 그러나 수소의 GWP100은 이산화탄소의 11.6배이며, 누출은 온난화 문제를 악화시킨다(학계에서는 GWP 수치에 대해 7-37 범위의 논쟁이 여전히 있다).
 
-[^35]: [USGS: Geological Hydrogen — A New Energy Frontier (2023)](https://www.usgs.gov/) — U.S. Geological Survey 2023 Geological Hydrogen Research Report, estimating global underground natural hydrogen reserves may reach tens of billions of tons, sufficient to provide energy for humanity for hundreds of years; France, Mali already have commercial exploration cases, Taiwan plate boundaries active but currently no exploration plans.
+[^35]: [USGS: Geological Hydrogen — A New Energy Frontier (2023)](https://www.usgs.gov/) — 미국지질조사국의 2023년 지질수소 연구 보고서다. 전 세계 지하 천연수소 매장량이 수백억 톤에 이를 수 있으며 인류에게 수백 년간 에너지를 제공할 수 있다고 추산했다. 프랑스와 말리에는 이미 상업 탐사 사례가 있고, 타이완은 판 경계가 활발하지만 현재 탐사 계획은 없다.
 
-[^36]: [CNA: Yilan Tufang Geothermal Power Plant Breaks Ground, Expected 2026 Start](https://www.cna.com.tw/) — 2024 Yilan County Tufang Geothermal Power Plant 5.4 MW unit broke ground, expected to start in early 2026, Taiwan's second MW-scale commercial geothermal power plant; as of end of 2025, Taiwan's total geothermal commercial was about 7.4 MW, including Qingshui Geothermal 4.2 MW and other small units.
+[^36]: [中央社：宜蘭土場地熱電廠動工 預計 2026 啟動](https://www.cna.com.tw/) — 2024년 이란현 투창 지열발전소 5.4 MW 설비가 착공해 2026년 초 가동될 예정이다. 이는 타이완 두 번째 MW급 상업운전 지열발전소다. 2025년 말 기준 타이완 전역 지열 상업운전은 약 7.4 MW이며, 칭수이 지열 4.2 MW와 기타 소형 설비를 포함한다.
 
-[^37]: [PanSci: Is Taiwan Developing Geothermal Power Generation Feasible (Part 1)](https://pansci.asia/archives/361200) — Content Curation Partner per MOU 2026-05-05. According to Taiwan University research, deep geothermal (depth below 5 km) potential power generation capacity reaches 33,640 MW, equivalent to about 12 Nuclear Four plants, but development requires EGS Enhanced Geothermal System technology still in R&D stage; shallow geothermal (depth within 3 km) potential estimated no more than 1,000 MW.
+[^37]: [PanSci 泛科學：臺灣發展地熱發電到底可不可行（上）](https://pansci.asia/archives/361200) — Content Curation Partner per MOU 2026-05-05. 타이완대 연구에 따르면 심층 지열(깊이 5킬로미터 이하)의 잠재 발전량은 33,640 MW로, 핵4 발전소 약 12기에 해당한다. 그러나 개발에는 아직 연구개발 단계인 EGS 향상지열시스템 기술이 필요하다. 천층 지열(깊이 3킬로미터 이내) 잠재력은 1,000 MW를 넘지 않는 것으로 추정된다.
 
-[^38]: [PanSci: Geothermal Advantages and Taiwan Field Application](https://pansci.asia/archives/361200) — Content Curation Partner per MOU 2026-05-05. Geothermal is not affected by weather, is a 24-hour stable power generation baseload power source, has unique value in energy mix; but underground uncertainty leads to financing difficulties, is the fundamental bottleneck of Taiwan's geothermal development delay.
+[^38]: [PanSci 泛科學：地熱優勢與台灣場域應用](https://pansci.asia/archives/361200) — Content Curation Partner per MOU 2026-05-05. 지열은 날씨의 영향을 받지 않는 24시간 안정 발전 기저 전원으로서 에너지 조합에서 독특한 가치를 가진다. 그러나 지하 불확실성이 금융 난관을 낳고, 이것이 타이완 지열 개발 지연의 근본 병목이다.
 
-[^39]: [PanSci: "Guardian Mountain" Higher, Power Pressure Greater: Taiwan Ocean Energy Is Solution](https://pansci.asia/archives/378154) — Content Curation Partner per MOU 2026-05-05. Taiwan surrounding waters ocean energy (ocean current, wave, thermal difference) theoretical potential reaches 9.4 GW; Black Current flowing past Taiwan's east coast is most promising ocean current energy source, Academia Sinica completed 100 kW trial unit test in 2021.
+[^39]: [PanSci 泛科學：「護國神山」越高，電力壓力越大：臺灣海洋能是解方](https://pansci.asia/archives/378154) — Content Curation Partner per MOU 2026-05-05. 타이완 주변 해역의 해양에너지(해류, 파랑, 온도차) 이론 잠재력은 9.4 GW에 이른다. 쿠로시오는 타이완 동해안을 흐르며 가장 개발 잠재력이 큰 해류에너지 원천이고, 중앙연구원은 2021년 100 kW 시험 설비 테스트를 완료했다.
 
-[^40]: [PanSci: Ocean Thermal Energy Conversion (OTEC) Taiwan Possibility](https://pansci.asia/archives/378154) — Content Curation Partner per MOU 2026-05-05. OTEC uses surface warm water (25-28°C) and deep cold water (5°C) temperature difference for power generation, Taiwan's eastern waters large depth difference, theoretically ideal location, but currently still experimental stage, no commercial operation power plants globally.
+[^40]: [PanSci 泛科學：海洋溫差發電（OTEC）的台灣可能性](https://pansci.asia/archives/378154) — Content Curation Partner per MOU 2026-05-05. OTEC은 표층 온수(25-28°C)와 심층 냉수(5°C)의 온도차를 이용해 발전한다. 타이완 동부 해역은 수심 낙차가 크고 이론적으로 이상적 장소지만, 현재는 여전히 실험 단계이며 전 세계적으로 상업운전 발전소는 아직 없다.
 
-[^41]: [PanSci: Bill Gates' Fourth-Generation Nuclear Power Plant Finally Starts Construction](https://pansci.asia/archives/377644) — Content Curation Partner per MOU 2026-05-05. Natrium reactor's biggest difference from traditional nuclear power plants is coolant: traditional uses water, Natrium uses liquid metal sodium; sodium has high boiling point, can operate at higher temperatures to improve reaction efficiency, thermal conductivity is 100 times water.
+[^41]: [PanSci 泛科學：比爾蓋茲的第四代核能發電廠終於開始建設](https://pansci.asia/archives/377644) — Content Curation Partner per MOU 2026-05-05. Natrium 원자로와 전통 원전의 가장 큰 차이는 냉각재다. 전통 원전은 물을 사용하지만 Natrium은 액체 금속 나트륨을 쓴다. 나트륨은 끓는점이 높고 더 높은 온도에서 운전해 반응 효율을 높일 수 있으며, 열전도율은 물의 100배다.
 
-[^42]: [TechOrange: TerraPower Natrium Project 2026 Groundbreaking Wyoming](https://www.techorange.com/) — TerraPower's Natrium fourth-generation nuclear power plant project officially broke ground in Kemmerer, Wyoming in April 2026, slightly delayed from original plan, expected completion 2030, global fourth-generation sodium-cooled fast neutron reactor commercialization key milestone.
+[^42]: [TechOrange：TerraPower Natrium 計畫 2026 動工懷俄明州](https://www.techorange.com/) — TerraPower의 Natrium 4세대 원전 계획은 2026년 4월 와이오밍주 케머러시에서 공식 착공했다. 원래 계획보다 약간 지연되었고, 2030년 완공을 목표로 하며, 전 세계 4세대 나트륨 냉각 고속중성자로 상업화의 핵심 이정표다.
 
-[^43]: [PanSci: Fourth-Generation Nuclear Energy Nuclear Proliferation Risk](https://pansci.asia/archives/377644) — Content Curation Partner per MOU 2026-05-05. Fast neutron reactors require high-concentration uranium fuel, breeding reactions produce Plutonium-239, important raw material for manufacturing nuclear weapons; how to manage nuclear materials, prevent nuclear proliferation, is problem fast neutron reactors must face.
+[^43]: [PanSci 泛科學：第四代核能的核擴散風險](https://pansci.asia/archives/377644) — Content Curation Partner per MOU 2026-05-05. 고속중성자로는 고농축 우라늄 연료를 사용해야 하며, 증식 반응은 핵무기 제조의 중요한 원료인 플루토늄 239를 생성한다. 핵물질을 어떻게 관리하고 핵확산을 막을 것인지는 고속중성자로가 반드시 마주해야 할 난제다.
 
-[^44]: [PanSci: Natrium Reactor Safety Challenges](https://pansci.asia/archives/377644) — Content Curation Partner per MOU 2026-05-05. Natrium reactor construction marks fourth-generation nuclear power plant technology progress, but development accompanied by significant challenges; liquid sodium reacts violently and is flammable when encountering water, reactor operation and maintenance has extremely high requirements for materials science, currently lacks large-scale commercial operation safety data.
+[^44]: [PanSci 泛科學：Natrium 反應爐的安全挑戰](https://pansci.asia/archives/377644) — Content Curation Partner per MOU 2026-05-05. Natrium 원자로 건설은 4세대 원전 기술의 진전을 의미하지만, 그 발전은 중대한 도전을 동반한다. 액체 나트륨은 물과 만나면 격렬히 반응하고 불이 붙기 쉬우며, 원자로 운전과 유지보수는 재료과학에 매우 높은 요구를 제기한다. 현재 대규모 상업운전 안전 데이터가 부족하다.
 
-[^45]: [PanSci: Offshore Wind Turbine Construction Expensive and Troublesome, Why Taiwan Still Develops Heavily](https://pansci.asia/archives/371116) — Content Curation Partner per MOU 2026-05-05. Taiwan Strait due to topographical factors forms "pipe effect," making wind speeds in strait much higher than surrounding seas, making Taiwan one of most promising offshore wind development locations globally.
+[^45]: [PanSci 泛科學：離岸風機建設又貴又麻煩，為何台灣仍要大力發展](https://pansci.asia/archives/371116) — Content Curation Partner per MOU 2026-05-05. 타이완해협은 지형적 요인으로 “관로 효과”를 형성해 해협의 풍속이 주변 해역보다 훨씬 높고, 이로 인해 타이완은 전 세계에서 가장 잠재력이 큰 해상풍력 발전지 중 하나가 된다.
 
-## Image Sources
+## 이미지 출처
 
-- **Nuclear Three Plant Exterior (Pingtung Hengchun Maanshan, hero)**: [Maanshan Nuclear Power Plant, Nan Wan](https://commons.wikimedia.org/wiki/File:Maanshan_Nuclear_Power_Plant,_Nan_Wan.jpg) (Photo: M. Weitzel, Wikimedia Commons, CC BY-SA 3.0)
-- **Onkalo Underground Repository (Finland Olkiluoto)**: [Onkalo spent nuclear fuel repository entrance](https://commons.wikimedia.org/wiki/File:Onkalo_spent_nuclear_fuel_repository_entrance.jpg) (Photo: Posiva Oy, Wikimedia Commons, CC BY-SA 4.0)
-- **Hai Neng Offshore Wind Farm off Miaoli**: [Hai Long offshore wind farm](https://commons.wikimedia.org/wiki/File:Hai_Long_offshore_wind_farm.jpg) (Wikimedia Commons, CC BY-SA 4.0)
-- **Solar Panels on Guodao Service Area Roof**: [Xihu Service Area solar panels](https://commons.wikimedia.org/wiki/File:Xihu_Service_Area_solar_panels.jpg) (Wikimedia Commons, CC BY-SA 3.0)
+- **핵3 발전소 외관(핑둥 헝춘 마안산, hero)**: [Maanshan Nuclear Power Plant, Nan Wan](https://commons.wikimedia.org/wiki/File:Maanshan_Nuclear_Power_Plant,_Nan_Wan.jpg)(촬영: M. Weitzel, Wikimedia Commons, CC BY-SA 3.0)
+- **Onkalo 지하 처분장(핀란드 올킬루오토)**: [Onkalo spent nuclear fuel repository entrance](https://commons.wikimedia.org/wiki/File:Onkalo_spent_nuclear_fuel_repository_entrance.jpg)(촬영: Posiva Oy, Wikimedia Commons, CC BY-SA 4.0)
+- **먀오리 외해의 하이넝 해상풍력발전단지**: [Hai Long offshore wind farm](https://commons.wikimedia.org/wiki/File:Hai_Long_offshore_wind_farm.jpg)(Wikimedia Commons, CC BY-SA 4.0)
+- **고속도로 휴게소 지붕 태양광 패널**: [Xihu Service Area solar panels](https://commons.wikimedia.org/wiki/File:Xihu_Service_Area_solar_panels.jpg)(Wikimedia Commons, CC BY-SA 3.0)
