@@ -346,8 +346,9 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
   - 2026-06-10 嘻哈饒舌 round-2：引語縮寫 / 詮釋 gloss / 腳註綁定錯位 — Stage 3 驗證三盲區（老莫 callout 觸發全文 14 處重驗）= 同 pattern「引語語境角色被 Stage 2 壓縮」的三個變體
   - 2026-06-10 廣告史 ship：writer footnote-url-from-memory drift（黃山料 + 廣告史 9 處 footnote URL 來自 writer 記憶而非 Stage 1 SSOT 逐字 carry-over）— 引語的「來源指向」被 Stage 2 從 SSOT 換成記憶
   - 2026-06-09 嘻哈饒舌 round-1：跨界藝人寫進類型文前先查既有專文定位（壞特 R&B 非 rapper）— writer 用既有印象覆蓋 Stage 1 SSOT 的人物類別
-- **verification_count**: 5
-- **distill_ready**: true（單週 5 instance independent cross-validation — Stage 1 SSOT 寫對、Stage 2 writer 下筆把研究結論 collapse 成偏記憶 / 偏印象 / 偏字面的 claim — 跨「引語語境（無名小卒）/ 事實批量（國家太空中心）/ 引語三盲區（嘻哈饒舌）/ 腳註 URL 記憶（廣告史）/ 藝人類別印象（壞特）」5 sub-axis 同根。本 entry 是 meta-umbrella，高於 REFLEXES #42 sub-agent verify gate / #66 gate dogfood / #16 peer 是線索不是 source — 待下次 distill cycle 升 MEMORY §神經迴路 或 REWRITE-PIPELINE §Stage 2.5 source-fidelity gate canonical）
+  - 2026-06-16 miin-spore：迷音標題「被告偷了新聞」把 sub judice 未定罪刑事指控 collapse 成既成事實——內文 sub judice 紀律守住（兩造並陳 / 註明未判決 / 不定罪）但下筆到**標題 + description + 30 秒概覽**那層把「未定罪的法律狀態」壓成字面事實（偷／盜），哲宇 callout 才抓到。**新 sub-axis：collapse 不只在 body prose，更在 title/門面句**（讀者第一印象 + 最易被外部攻擊層）；且崩塌對象從「引語語境」擴到「法律狀態（allegation→fact）」→ pointer memory/2026-06-16-001200-miin-spore.md
+- **verification_count**: 6
+- **distill_ready**: true（單週 6 instance independent cross-validation — Stage 1 SSOT 寫對、Stage 2 writer 下筆把研究結論 collapse 成偏記憶 / 偏印象 / 偏字面 / 偏未驗證狀態的 claim — 跨「引語語境（無名小卒）/ 事實批量（國家太空中心）/ 引語三盲區（嘻哈饒舌）/ 腳註 URL 記憶（廣告史）/ 藝人類別印象（壞特）/ sub judice 法律狀態在標題層（迷音）」6 sub-axis 同根。**第 6 個 instance 把 scope 從 body prose 擴到 title/description/門面句**——fact/source-fidelity gate 不能只掃內文。本 entry 是 meta-umbrella，高於 REFLEXES #42 sub-agent verify gate / #66 gate dogfood / #16 peer 是線索不是 source — 待下次 distill cycle 升 MEMORY §神經迴路 或 REWRITE-PIPELINE §Stage 2.5 source-fidelity gate canonical，gate scope 含 frontmatter title+description）
 
 ### 2026-06-14 132118-manual — Chrome MCP content-block 讓 spore pre-ship 的 JS 段落結構檢查失準，截圖才是權威驗證
 
@@ -356,6 +357,15 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **觸發**：2026-06-14 spore #138/#139 無名小站 ship。X pre-ship JS 回 `block_count=1` + c8「[BLOCKED]」→ 一度誤判 collapsed，截圖確認 hook+5 段分好才放行；發出後 tweetText `你知道嗎？\n\n1999` 證實 JXA NSPasteboard 段落其實正常。pointer [memory/2026-06-14-132118-manual.md](memory/2026-06-14-132118-manual.md)。
 - **可能層級**：操作規則（SOCIAL-POSTING §AI pre-ship self-check 7/8 加註「JS block_count 在 X/Threads 被 content-block 干擾不可信，以截圖為準」）+ 候選儀器化。
 - **相關**：HARVEST [Pitfall 6](../factory/SPORE-HARVEST-PIPELINE.md) dialogStillOpen cached state 同 session 二次驗證——Threads 發佈後 JS 回 `dialogStillOpen=true` 但截圖 modal 已關（已發佈），盲信去 re-click 就是 5/28 triple-ship 重演（截圖確認再決定，max 1 retry）。同屬「Chrome MCP 回的 DOM/state query 被 cache / block 污染」family。
+
+### 2026-06-16 miin-spore — 社群自動發文前要視覺驗「登入帳號 identity」，瀏覽器可能掛著創造者個人帳
+
+- **pattern**: social-post-account-identity-preship
+- **原則**：SOCIAL-POSTING pre-ship 雖有「帳號對」一項，實戰第一次撞到瀏覽器 X 實際登入的是哲宇個人帳（@cheyuwu345）不是 @taiwandotmd。發文前必須**視覺比對 compose 頭像 / handle = 目標帳號**（Taiwan.md 是蕃薯地圖 logo），不能假設「上次對這次也對」——同一瀏覽器不同平台帳號狀態可不同（Threads 那次是 @taiwandotmd 對的、X 那次是個人帳錯的）。
+- **觸發**：2026-06-16 迷音孢子 ship。Threads #142 順發（頭像蕃薯 = 帳號對）；X compose 頭像是真人照 → zoom 確認 @cheyuwu345 個人帳 → 停手回報哲宇 → 他切 @taiwandotmd 才發 #143。pointer memory/2026-06-16-001200-miin-spore.md
+- **可能層級**：操作規則（SOCIAL-POSTING §AI pre-ship self-check「帳號對」升 hard：compose 頭像/handle 視覺比對目標帳號，不符即 abort 不貼）。
+- **相關**：[[feedback_spore_autopost_after_content_ok]]（哲宇授權 auto-post，identity 驗證是 auto-post 的前提）/ REFLEXES #26（AI 自主 vs human 邊界——對外輸出層）
+- **verification_count**: 1
 - **refinement（2026-06-14 174039-twmd-spore-publish vc++）**：今天 routine ship 瘂弦 #140/#141 證實 pre-ship check 7「block≥4」誤判的**根因是 selector 選錯，不是 content-block**。Threads 用 Lexical editor（段落是單一 `<p>` 內的 `<br><br>`，不是多個 `<p>`）、X 用 ProseMirror（data-block div + spacer），check 7 範例的 `querySelectorAll('p')` / `:scope > div` 對這兩種 DOM 都 false-negative。**可靠的 JS 路徑是 `tb.innerText.split(/\n\n+/).filter(p=>p.trim())`**——今天兩平台 compose 都正確讀到 Threads 8 段 / X 9 段，發出後 og:description（Threads）+ tweetText（X）再交叉驗證一致。所以結論不是「JS 不可信只能截圖」，而是「innerText 的 `\n\n` 計數可信，`<p>`/div block count 不可信」。截圖在此例反而更難判讀（modal shifted render 看不清 compose 內容）。SOCIAL-POSTING check 7/8 JS 範例該換成 innerText split 法 + 補 Lexical/ProseMirror 兩 DOM 變體說明。
 - **verification_count**: 2
 
