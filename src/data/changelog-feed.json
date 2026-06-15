@@ -1,7 +1,199 @@
 {
-  "generatedAt": "2026-06-14T22:12:22.879Z",
+  "generatedAt": "2026-06-15T22:11:53.205Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "0e018e9bc130a49e7977870e8f97cec849017376",
+      "date": "2026-06-16T05:09:06+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-16-050752-twmd-embeddings-nightly — fleet down graceful skip (第2天/3) 索引維持前版"
+    },
+    {
+      "hash": "750b1d9f0639fe87d92e81b7bf32145c481f3296",
+      "date": "2026-06-16T03:17:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-16-031431-twmd-babel-nightly — 74 譯 ship + cohort exhausted honest partial 收官"
+    },
+    {
+      "hash": "51dda8dfb133e5cac2b01ae2b44c0bb090ac8e3f",
+      "date": "2026-06-16T03:12:57+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: 9 translations (codex direct ok, batch 2 partial) — 2026-06-16"
+    },
+    {
+      "hash": "6eb74c3ab6173fef6e60b3092f815b589933f52a",
+      "date": "2026-06-16T02:23:25+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: 65 translations (10 P0 + 55 patches/bumps) — 2026-06-16"
+    },
+    {
+      "hash": "619adfc6f03cf3928ada4e2ea92fa115f97d0d5a",
+      "date": "2026-06-16T01:37:47+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: MEMORY 迷音 index row 113字 (確實過 ≤150 gate)"
+    },
+    {
+      "hash": "ade3aa4981c818a407a16d9840fa51bc8f4ec7fe",
+      "date": "2026-06-16T01:36:36+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: MEMORY index row 迷音 trim ≤150 字 hard gate"
+    },
+    {
+      "hash": "c645ec9c4c26e6dcbf4f7e4b54b6c31787d458a4",
+      "date": "2026-06-16T01:35:47+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-16-001200-miin-spore — 迷音孢子 #142/#143 ship + 標題去罪化 + footnote 查證"
+    },
+    {
+      "hash": "83f479d60c644ff50603098b5259efc5f3e33180",
+      "date": "2026-06-16T01:28:47+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 spore: ship #142/#143 — 迷音 Miin「同一句資訊要自由」(Threads + X)"
+    },
+    {
+      "hash": "a36b231d8589ed4e4f40f24647cff90edcd28832",
+      "date": "2026-06-16T00:02:27+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 迷音 標題/描述/概覽 去罪化框架 — sub judice 未定罪不寫成事實"
+    },
+    {
+      "hash": "abb17b3ebaf21ac8ff5820acc33c523753216c94",
+      "date": "2026-06-15T23:36:58+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: diary 2026-06-15-221747-manifesto-hope — 把警告寫進開機檔還是照樣撞上去"
+    },
+    {
+      "hash": "f8d6d68c2f53262a592cc26fca74974f3489d9e7",
+      "date": "2026-06-15T23:33:38+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-15-221747-manifesto-hope — 盼望而不粉飾 ship→評估→refine + Bias 1 教訓"
+    },
+    {
+      "hash": "0e6a2bbd70d12a6c19c1edc183252654345ad122",
+      "date": "2026-06-15T23:32:36+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-06-15-210606-manual — 改一篇迷音，被改的卻是我寫文章的方法"
+    },
+    {
+      "hash": "aed8be189212cb6535911f69425a719eaf614122",
+      "date": "2026-06-15T23:27:30+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 盼望而不粉飾 refine — 移除失效偵測器 + 島嶼規則重寫 + 雙向但書"
+    },
+    {
+      "hash": "7bd984b0e103e7a1d657b69b52b0d5d82de4bdd6",
+      "date": "2026-06-15T23:27:13+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-15-210606-manual — 迷音 Miin EVOLVE × 哲宇三次 callout 即時 canonical 化"
+    },
+    {
+      "hash": "ab47ff39cc30bc0ec3bad92619e992bcae87f24b",
+      "date": "2026-06-15T23:21:34+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 迷音 Miin Stage 5 雙向 cross-link + 認知作戰勘誤"
+    },
+    {
+      "hash": "9cb16edf596733579c07a6ec6f7806fe8ef515a8",
+      "date": "2026-06-15T23:16:54+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 迷音 Miin EVOLVE — 同一句「資訊要自由」是信念、賣點，也是官司"
+    },
+    {
+      "hash": "179c5b926b62a3bdf07c080e99bf3ced6f97e312",
+      "date": "2026-06-15T22:50:54+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: EDITORIAL 同步「盼望而不粉飾」完整版思考"
+    },
+    {
+      "hash": "ac14e884034485bc26e83e08ec99a7520812a5af",
+      "date": "2026-06-15T22:44:03+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: prose-health 升級「盼望而不粉飾」三偵測器 + 島嶼自稱 crutch"
+    },
+    {
+      "hash": "3ba94ddeab32394dd6e7afaab84913ade51802c4",
+      "date": "2026-06-15T22:24:30+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: MANIFESTO 進化哲學「盼望而不粉飾」+ 自稱台灣不是「這座島」"
+    },
+    {
+      "hash": "b67b1186b726e134c2eafb58ded16a2d7686a66d",
+      "date": "2026-06-15T22:16:53+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: REWRITE-PIPELINE v7.5 — Evolution writer 寫 staging 檔，主 session Stage 2.5 比對後覆蓋"
+    },
+    {
+      "hash": "14f083eb34a38019901e823d91efa4e8c6c4b1b2",
+      "date": "2026-06-15T22:00:54+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 迷音 Miin 研究 +Stage 1.5 當代接收（Threads + miin.cc 一手）"
+    },
+    {
+      "hash": "1d7ae14ff6bfd03b5249b4a82289e1a12af5c3ed",
+      "date": "2026-06-15T22:00:53+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: REWRITE-PIPELINE v7.4 — Stage 2 writer 讀整份 report 非摘要 fact-pack"
+    },
+    {
+      "hash": "7f61a52946d476ed32303a7f4459671700731827",
+      "date": "2026-06-15T21:40:02+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 迷音 Miin EVOLVE Stage 0-1 研究 SSOT"
+    },
+    {
+      "hash": "3f60ccd27069a9ddd1551576f724c48da558a6c4",
+      "date": "2026-06-15T19:33:21+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-15-191500-twmd-rewrite-daily — 社群遷徙史 EVOLVE prose ship 收官 + MEMORY index row"
+    },
+    {
+      "hash": "da3fb6e79c219b0eb5f0cb7c65535ebcd3d7295d",
+      "date": "2026-06-15T19:30:26+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: LESSONS-INBOX image-health-evolve-pre-existing-text-only-block vc 1→2 — 台灣網路社群遷徙史 EVOLVE 第二輪 instance (P0 batch 共通模式)"
+    },
+    {
+      "hash": "6ca6fef61309beb7ee8d2b03f7e2bfb399bcd072",
+      "date": "2026-06-15T19:29:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-rewrite-daily: 台灣網路社群遷徙史 EVOLVE prose ship — 撈得回網址，撈不回照片的失土史"
+    },
+    {
+      "hash": "3a886985cef5cc13990881f53d83c855b1d7b09d",
+      "date": "2026-06-15T08:47:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-am: CI red 9hr 抓出 + 彎彎.md article-health heal — 2026-06-15 08:30"
+    },
+    {
+      "hash": "d529c174bb5c301515c324ad338ec4092a7cbc13",
+      "date": "2026-06-15T07:09:23+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-feedback-triage: 1 filed (issue #1152 [Bug] 視覺化模組型錄 nav/UI) — 2026-06-15 07:00"
+    },
+    {
+      "hash": "177bdbe59681dd1843b0cbf0132942620b065f5d",
+      "date": "2026-06-15T06:51:19+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-15-064847-twmd-spore-harvest-am — 10 spores harvested + 5-bucket classify + 4 Bucket B EVOLVE candidates + 1 Bucket D framing cluster escalate + MEMORY index row"
+    },
+    {
+      "hash": "75a07cfbe7c432612a75128969cdc0b1a251b4e5",
+      "date": "2026-06-15T06:48:34+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest: 10 spores + 57 replies harvested — 2026-06-15"
+    },
+    {
+      "hash": "3eb5b27729ed79b795984b0beb268289b35e7ae2",
+      "date": "2026-06-15T06:16:19+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-15-061422-twmd-data-refresh-am — am 14-step 三源全綠 + Step 11 freshness PASS + MEMORY index row"
+    },
+    {
+      "hash": "7edfdc2116a30aca39e8f347989ea9be33e3b4dc",
+      "date": "2026-06-15T06:14:22+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-am: 14-step ground truth refresh — 2026-06-15 06:00"
+    },
     {
       "hash": "7a5b5c401a3e9c75ffe1e879b7be65af808003fb",
       "date": "2026-06-15T05:09:43+08:00",

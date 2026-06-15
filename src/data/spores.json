@@ -1,9 +1,9 @@
 {
-  "_generated": "2026-06-15T06:47:57+08:00",
+  "_generated": "2026-06-16T06:11:13+08:00",
   "schemaVersion": 1,
   "counts": {
-    "spores": 133,
-    "articles": 64,
+    "spores": 135,
+    "articles": 65,
     "withMetrics": 122
   },
   "spores": [
@@ -6608,6 +6608,46 @@
           "shares": 2
         }
       ]
+    },
+    {
+      "id": 142,
+      "slug": "迷音Miin",
+      "articlePath": "knowledge/Technology/迷音Miin.md",
+      "articleUrl": "/technology/迷音Miin/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-06-16",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZnPRd1k-F4",
+      "template": "A2 首尾呼應（「資訊要自由」motif）",
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
+    },
+    {
+      "id": 143,
+      "slug": "迷音Miin",
+      "articlePath": "knowledge/Technology/迷音Miin.md",
+      "articleUrl": "/technology/迷音Miin/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-06-16",
+      "url": "https://x.com/taiwandotmd/status/2066559522156748815",
+      "template": "A2 首尾呼應（「資訊要自由」motif）",
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
     }
   ],
   "byArticle": {
@@ -6663,6 +6703,7 @@
     "認知作戰": [41, 42],
     "謝德慶": [39, 40],
     "賈永婕": [57, 58],
+    "迷音Miin": [142, 143],
     "鄭愁予": [86],
     "鄭麗文": [22],
     "開放文化基金會": [117, 118],

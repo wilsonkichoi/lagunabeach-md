@@ -104,23 +104,6 @@
     "path": "fr/History/formosa-historical-name.md"
   },
   {
-    "title": "'국민주택과 주거 정의: 정부가 지은 저렴한 집은 결국 누구의 자산 엘리베이터가 되었는가'",
-    "description": "1985년 성공국민주택은 평당 6.7만 타이완달러에도 찾는 사람이 없었고, 한 원로 리장은 40만 타이완달러의 계약금을 마련해 한 채를 샀다. 40년 뒤 같은 주소는 평당 100만 타이완달러에 육박한다. 국민주택은 본래 '사람들이 집을 살 수 있게 돕는' 도구였지만, 시세차익을 회수하는 문은 끝내 달지 않았다. 공공 보조는 결국 먼저 산 사람의 사적 자산이 되었다. 2026년 타오위안은 그 문을 다시 달았다. 이는 국민주택의 오류를 인정한 것이나 다름없다.",
-    "category": "ko",
-    "tags": [
-      "국민주택",
-      "주거 정의",
-      "주택 정책",
-      "세대 정의",
-      "부담 가능한 주택"
-    ],
-    "url": "https://taiwan.md/ko/society/public-housing-justice",
-    "readingTime": 100,
-    "featured": false,
-    "date": "2026-06-06",
-    "path": "ko/Society/public-housing-justice.md"
-  },
-  {
     "title": "'린슈하오: 15일 만에 두 차례 방출에서 TPBL 더블 MVP로 은퇴하기까지의 농구 인생'",
     "description": "'고등학교 주 챔피언십 우승에도 장학금 한 장 받지 못하고, 드래프트에서 아무도 선택하지 않고, 15일 만에 두 차례 방출당한 후—그는 전 세계에 '린사니티'를 알렸다'",
     "category": "ko",
@@ -326,6 +309,17 @@
     "featured": true,
     "date": "2026-04-24",
     "path": "ko/People/daptoper-roblox-youtuber.md"
+  },
+  {
+    "title": "\"나는 OO 사람\": 당신을 \"향친\"이라 부르는 팬페이지, 그 뒤에는 네이후의 한 회사와 지우지 않은 AI 지시문 한 줄이 있었다",
+    "description": "2026년 2월, '나는 타이베이 사람'이라고 자칭한 지역 팬페이지가 게시물에 지우지 않은 AI 지시문 한 줄을 남겼다. '민감한 표현을 제거하고, 타이완 현지 구어를 강화할 것.' 이 단서를 거슬러 올라가면 끝에는 네이후의 한 건물에 있는 린 일가 관계 기업이 있었다. 이들은 중톈, CTWANT의 뉴스를 향친의 말투로 세탁해 각 현·시의 현지 주민인 척하는 팬페이지에 걸어 퍼뜨렸다. 그것은 가짜 뉴스를 만들지 않는다. 옮기는 것은 진짜 뉴스다. 문제는 생산지와 자금 흐름을 확인할 수 없다는 데 있으며, 타이완에서 인지전을 가장 잘 추적하는 이들조차 모두 이렇게 말하고 있다. 성급하게 딱지를 붙이지 말라.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/society/i-am-from",
+    "readingTime": 68,
+    "featured": false,
+    "date": "2026-06-05",
+    "path": "ko/Society/i-am-from.md"
   },
   {
     "title": "\"수초혜: 「충충충」의 그림자 아래, 법률과 디테일로 신베이를 기획하는 큐레이터\"",
@@ -657,12 +651,12 @@
     "path": "ja/Politics/2026-local-elections-taiwan.md"
   },
   {
-    "title": "44 South Village: A Military Dependents' Village for an Arsenal, Now a Cultural and Creative Park Beside Taipei 101",
-    "description": "At the end of November 1948, the machinery of Qingdao's Combined Logistics 44th Arsenal was loaded in six batches onto the Taikang and shipped to Keelung. In December, factory workers and their dependents arrived next and moved into the former Japanese army Xingya warehouses in Sanzhangli, east of Taipei, where Shandong speech echoed through storerooms with no walls. The following year, they built their own dependents' housing south of the factory compound. This became the first military dependents' village established in Taiwan by the Republic of China government. Field-grade and general officers lived in the West Village, company-grade officers in the East Village, and Shandong technicians without military status in the South Village. In 1980, the arsenal moved to Sanxia and was renamed Factory 206. The West Village was demolished and became Zhongtuo Public Housing, while the East Village was relocated to Zhongzhen Public Housing near Youth Park. Only the South Village remained, because its residents were technicians and did not fall under the Ministry of National Defense's military dependents' village reconstruction regulations. In 1998, all residents moved into World Trade New Village. In 1999, a fire destroyed part of the housing. In 2001, a cultural-heritage dispute ended with the decision to preserve four buildings. On October 25, 2003, the Xinyi Assembly Hall and Military Dependents' Village Cultural Park opened, facing the Taipei 101 then under construction.",
+    "title": "44 South Village: An Arsenal Dependents’ Village, Now a Cultural and Creative Park Beside Taipei 101",
+    "description": "In late November 1948, machinery from the Combined Logistics 44th Arsenal in Qingdao was loaded in six batches onto the Taikang and shipped to Keelung. In December, factory workers and their families arrived and moved into the former Japanese Army Xingya warehouses at Sanzhangli on Taipei’s eastern edge; Shandong dialect echoed through warehouse rooms with no walls. The following year, they built their own dependents’ housing south of the factory compound — Taiwan’s first military dependents’ village established by the Republic of China government. Field- and general-grade officers lived in West Village, company-grade officers in East Village, and Shandong technicians without military status in South Village. In 1980, the arsenal moved to Sanxia and was renamed Factory 206; West Village was demolished and became Zhongtuo public housing, while East Village residents were relocated to Zhongzhen public housing near Youth Park. Only South Village remained, because its residents were technicians and were not covered by the Ministry of National Defense dependents’ housing redevelopment regulations. In 1998, all residents moved into World Trade New Village; in 1999, a fire destroyed part of the housing; in 2001, a cultural-heritage dispute was settled with a decision to preserve four buildings; and on October 25, 2003, the Xinyi Public Assembly Hall and Military Dependents’ Village Cultural Park opened — facing the Taipei 101 then under construction.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/geography/44-south-village",
-    "readingTime": 186,
+    "readingTime": 184,
     "featured": false,
     "date": "2026-05-21",
     "path": "en/Geography/44-south-village.md"
@@ -1094,12 +1088,12 @@
     "path": "Geography/士林.md"
   },
   {
-    "title": "士林：ケタガラン族の土地、漳泉械闘の廟、そして現在は毎晩台北で最も混み合う夜市",
-    "description": "夜七時半、士林夜市の入口では韓国人観光客が大鶏排を掲げて自撮りをし、その隣、大南路 84 号の慈諴宮は 1796 年、嘉慶元年から建ち続け、2026 年に 230 年を迎えます。1859 年、咸豊九年、漳州人はこの通りから泉州人に焼き出され、1860 庚申年、潘永清は下樹林に大東路、大南路、大西路、大北路という四本の方正な街路を引き、廟をその正中央に置きました。1909 年に日本人が廟の向かいに市場を建て、1955 年に陽明戯院が文林路に落成し、1992 年に豪大大鶏排が台中で考案され、1999 年に士林へ進出しました。2002 年には戦後に増築された仮設屋根が撤去され、2011 年に新市場が開業し、地下フードコートでは朝から晩まで二交代で人が入れ替わります。廟は今も元の場所にありますが、その足元では毎日、二つの街が交代で立ち上がっています。",
+    "title": "士林：ケタガラン族の土地、漳州・泉州械闘の廟、そして今は毎晩台北で最も混雑する夜市",
+    "description": "午後7時半、士林夜市の入口では韓国人観光客が大鶏排を掲げて自撮りをし、その隣、大南路84号の慈諴宮は1796年の嘉慶元年から立ち続け、2026年に230歳を迎えます。1859年の咸豊9年、漳州人はこの通りから泉州人に焼き出され、1860年の庚申年、潘永清は下樹林に大東路・大南路・大西路・大北路という四本の整然とした街路を引き、廟をその真ん中に置きました。1909年、日本人は廟の向かいに市場を建て、1955年には陽明戯院が文林路に落成し、1992年に豪大大鶏排が台中で発明され、1999年に士林へ進出しました。2002年に戦後増築された屋根付き部分が撤去され、2011年に新市場が開業し、地下フード街は朝から晩まで二交代で人が入れ替わります。廟はいまも元の場所にありますが、その足元では毎日二つの都市が交代で現れます。",
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/geography/shilin",
-    "readingTime": 82,
+    "readingTime": 81,
     "featured": false,
     "date": "2026-05-21",
     "path": "ja/Geography/shilin.md"
@@ -2721,6 +2715,23 @@
     "path": "ja/History/taiwan-emigration-history.md"
   },
   {
+    "title": "台湾広告史：売られた商品は忘れても、あのCMソングはいまも口ずさめます",
+    "description": "1968 年、大同電鍋のCMソングがテレビで流れ、半世紀後も台湾の人々は「大同大同國貨好」と続けられます。しかし、それがもともと三洋の曲だったことを覚えている人はほとんどいません。日本統治時代の『臺灣日日新報』の紙面広告から、テレビ局が三局しかなかった戒厳令期に島全体の注意を同じチャンネルへ縛りつけた時代、そして 2016 年にデジタル広告費がテレビを超えた時代まで、台湾で最も記憶されている広告は、売っていた商品が忘れられがちで、残ったのは一つの時代全体の音でした。",
+    "category": "ja",
+    "tags": [
+      "台湾広告",
+      "広告史",
+      "大同電鍋",
+      "呉念真",
+      "集合的記憶"
+    ],
+    "url": "https://taiwan.md/ja/culture/taiwan-advertising-history",
+    "readingTime": 74,
+    "featured": false,
+    "date": "2026-06-14",
+    "path": "ja/Culture/taiwan-advertising-history.md"
+  },
+  {
     "title": "台湾民歌運動",
     "description": "「自分の歌を歌おう」から華語音楽シーン全体の変革へ——1970年代、若者たちの文化革命",
     "category": "ja",
@@ -3244,12 +3255,12 @@
     "path": "ja/Art/taiwanese-cinema.md"
   },
   {
-    "title": "台湾科学園区：一枚の水田に賭け、世界の生命線を生み出し、同時に急所となりました",
-    "description": "1979 年、新竹金山面で、IBM から台湾へ戻った技術者・何宜慈は、一面の水田の上にアジア初の科学園区を築きました。四十五年後、竹科、南科、中科の年商は 5.8 兆を突破し、世界最先端の半導体チップがこの三つの園区で量産されています。しかし、この島にとって最強のお守りは、同時に最も脆弱な急所でもあります。ひとたびの干ばつ、一度の停電、一枚の地政学カードが、世界のサプライチェーン全体を息をのませる状態に追い込み得るのです。",
+    "title": "台湾科学園区：一面の水田に賭け、世界の生命線を生み出し、同時に急所にもなりました",
+    "description": "1979 年、新竹金山面で、IBM から台湾へ戻った技術者の何宜慈が、一面の水田の上にアジア初の科学園区を建設しました。四十五年後、竹科、南科、中科の年間売上高は 5.8 兆を突破し、世界最先端の半導体チップがこの三つの園区で量産されています。しかし、この島にとって最強の護符は、同時に最も脆弱な急所でもあります。一度の干ばつ、一度の停電、一枚の地政学上のカードが、世界のサプライチェーン全体に息をのませるのです。",
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/technology/science-park-development",
-    "readingTime": 62,
+    "readingTime": 64,
     "featured": true,
     "date": "2026-03-25",
     "path": "ja/Technology/science-park-development.md"
@@ -4563,12 +4574,12 @@
     "path": "ja/Geography/climate.md"
   },
   {
-    "title": "台湾の気候危機とネットゼロ転換：第三原発の住民投票が不成立となった日に、物理的上限をめぐる選択は始まったばかりです",
-    "description": "2025 年 8 月 23 日の第三原発運転延長住民投票：賛成 434 万票、賛成率 74%、投票率 29.53% で成立要件に届きませんでした。住民投票は不成立となり、翌日、頼清徳は三原則を示し、7 か月後の 2026 年 3 月 27 日、台湾電力は運転延長申請を核能安全委員会に提出しました。エネルギーの 98% を輸入に依存し、ネットゼロに 9 兆台湾ドルを投じ、地熱目標 200 MW に対して実績は 7.4 MW、洋上風力の設備容量は世界第 7 位、Onkalo 最終処分場、TerraPower の第 4 世代原子力。この島のエネルギー問題は、もともと政治問題ではなく、物理的上限の問題です。",
+    "title": "台湾の気候危機とネットゼロ移行：第三原発の住民投票が不成立となった日、物理的上限をめぐる選択は始まったばかりです",
+    "description": "2025 年 8 月 23 日の第三原発運転延長住民投票：賛成 434 万票、賛成率 74%、投票率は 29.53% で成立要件に届きませんでした。住民投票は不成立となり、翌日に頼清徳は三原則を示し、7 か月後の 2026 年 3 月 27 日、台湾電力は運転延長申請を核安会へ提出しました。エネルギーの 98% を輸入に依存し、9 兆台湾ドルのネットゼロ、地熱目標 200 MW に対して実績 7.4 MW、洋上風力の設備容量は世界 7 位、Onkalo 最終処分場、TerraPower の第 4 世代原子力発電――この島のエネルギー問題は、最初から政治問題ではなく、物理的上限の問題です。",
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/nature/taiwan-climate-change-net-zero-transition",
-    "readingTime": 115,
+    "readingTime": 116,
     "featured": true,
     "date": "2026-05-19",
     "path": "ja/Nature/taiwan-climate-change-net-zero-transition.md"
@@ -6175,15 +6186,7 @@
     "title": "台灣人工智慧實驗室 (Taiwan AI Labs)",
     "description": "由「PTT之父」杜奕瑾2017年3月創立的非營利AI研究機構。開源模型：TAIDE（繁體中文大型語言模型）、TAME、FedGPT，超過600億token繁體中文語料。專注智慧醫療、認知戰防制。COVID社交距離App（去中心化藍牙）。",
     "category": "Technology",
-    "tags": [
-      "人工智慧",
-      "智慧醫療",
-      "杜奕瑾",
-      "科技創新",
-      "資訊戰防制",
-      "TAIDE",
-      "PTT"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/technology/%E5%8F%B0%E7%81%A3%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E5%AF%A6%E9%A9%97%E5%AE%A4",
     "readingTime": 9,
     "featured": true,
@@ -9247,21 +9250,13 @@
     "path": "Culture/台灣綜藝.md"
   },
   {
-    "title": "台灣網路社群三十年——從 BBS 到 Threads 的遷徙史",
-    "description": "台灣人每五年集體搬家一次，每次都丟掉上一代的記憶",
+    "title": "台灣網路社群三十年——撈得回網址，撈不回照片的失土史",
+    "description": "從美麗之島 BBS 到脆，台灣人每隔幾年集體搬家一次，每次都把上一代的記憶留在關掉的電源開關後面。三十年遷徙史看似平台演化線，骨子裡卻是「土地是誰的」的失土史——黏著度最高的地方，資料主權最低。",
     "category": "Technology",
-    "tags": [
-      "BBS",
-      "無名小站",
-      "Facebook",
-      "LINE",
-      "Threads",
-      "網路文化",
-      "社群平台"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/technology/%E5%8F%B0%E7%81%A3%E7%B6%B2%E8%B7%AF%E7%A4%BE%E7%BE%A4%E9%81%B7%E5%BE%99%E5%8F%B2",
-    "readingTime": 22,
-    "featured": false,
+    "readingTime": 59,
+    "featured": true,
     "date": "2026-03-29",
     "path": "Technology/台灣網路社群遷徙史.md"
   },
@@ -9951,8 +9946,8 @@
     "path": "Geography/四四南村.md"
   },
   {
-    "title": "四四南村：兵工廠の眷村、いまは101そばの文創パーク",
-    "description": "1948年11月末、青島の聯勤第四十四兵工廠の機械は六回に分けて「太康輪」に積み込まれ、基隆へ運ばれました。12月に続いて到着した工員とその家族は、台北東部の三張犁にあった日本軍の興雅倉庫に入り、壁のない倉庫の中に山東語が響きました。翌年、彼らは工場区域の南側に自力で眷舎を建てました。これが中華民国政府が台湾で建設した最初の眷村です。将校級は西村、尉官級は東村、軍職を持たない山東出身の技工は南村に住みました。1980年、兵工廠は三峡へ移転して206廠に改名され、西村は取り壊されて忠駝国宅となり、東村は青年公園の忠貞国宅へ移されました。南村だけが残りました。住民が技工であり、国防部の眷改条例の適用対象ではなかったためです。1998年、住民は全員世貿新城へ移り、1999年の火災で一部の家屋が焼失し、2001年の文化資産をめぐる論争の末に4棟の保存が決まりました。2003年10月25日、「信義公民会館暨眷村文化公園」が開館しました。その正面には、建設中の台北101がありました。",
+    "title": "四四南村：兵器工場の眷村、現在は台北101そばの文創園区",
+    "description": "1948年11月末、青島の聯勤第四十四兵工廠の機械は6回に分けて「太康輪」に積み込まれ、基隆へ運ばれました。12月に続いて到着した工員と家族は、台北東部・三張犁にあった日本軍の興雅倉庫に入り、壁のない倉庫の中に山東方言が響きました。翌年、彼らは工場区域の南側に自力で眷舎を建てました。これが中華民国政府が台湾で設けた最初の眷村です。将校級は西村、尉官級は東村、軍職を持たない山東出身の技工は南村に住みました。1980年、兵器工場は三峡へ移転して206廠に改称され、西村は取り壊されて忠駝国宅となり、東村は青年公園の忠貞国宅へ移されました。南村だけが残りました。住民が技工であり、国防部の眷村改建条例の適用対象ではなかったためです。1998年、住民は全員、世貿新城へ移り、1999年の火災で一部の家屋が焼失しました。2001年、文化資産をめぐる論争の末に4棟の保存が決まり、2003年10月25日、「信義公民会館暨眷村文化公園」が開館しました。建設中の台北101に向き合う場所でした。",
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/geography/44-south-village",
@@ -13998,12 +13993,12 @@
     "path": "ja/Food/hakka-food-culture.md"
   },
   {
-    "title": "屏東県：国家の運命の転換はここで起きたが、台北はほとんど記憶してこなかった",
-    "description": "1874 年 5 月 22 日、日本陸軍中佐の佐久間左馬太が 150 人を率いて石門峡谷に入り、パイワン族の頭目アルク父子が戦死しました。この戦いによって清朝は台湾統治政策を転換し、沈葆楨が来台して恒春県を設置し、1883 年には鵝鑾鼻灯台が建てられました。78 万人が屏東県 33 郷鎮市に分散して暮らし、5 つの原住民族と客家六堆の 6 郷鎮が共住しています。2009 年の午前 4 時半、林辺の水門は持ちこたえられなくなりました。台湾を変えた歴史はこの半島から二度始まりましたが、首都が覚えているのは墾丁春吶だけです。",
+    "title": "屏東県：国家の運命の転機はここで起きましたが、台北はほとんど覚えていません",
+    "description": "1874 年 5 月 22 日、日本陸軍中佐の佐久間左馬太が 150 人を率いて石門峡谷に入り、パイワン族（排湾族）の頭目アルク父子が戦死しました。この戦闘は清朝の台湾統治政策を転換させ、沈葆楨が恒春県を設置し、1883 年には鵝鑾鼻灯台が建設されました。78 万人が屏東県 33 郷鎮市に暮らし、5 つの原住民族と客家六堆の 6 郷鎮が共住しています。2009 年の早朝 4 時半、林辺の水門は持ちこたえられなくなりました。台湾を変えた歴史はこの半島から二度始まりましたが、首都が覚えているのは墾丁の春吶だけです。",
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/geography/pingtung-county",
-    "readingTime": 77,
+    "readingTime": 78,
     "featured": false,
     "date": "2026-05-18",
     "path": "ja/Geography/pingtung-county.md"
@@ -14337,12 +14332,12 @@
     "path": "Geography/牯嶺街.md"
   },
   {
-    "title": "牯嶺街：日本人が残した古書街、楊徳昌の少年、国府の宮殿",
-    "description": "土曜午後、牯嶺街5巷の突き当たりにある赤レンガ劇場の前では学生が列をつくり、その傍らには1955年に建てられた国立歴史博物館と、1921年に改制された台北植物園の蓮池があります。この1.2キロメートルの通りは、1922年には佐久間町と呼ばれ、1947年に江西省廬山に由来する牯嶺街へ改名されました。1945年の戦後、日本人が撤退時に残した書物が路上に並べられ、台湾初の古書街となり、1960年代の最盛期には200軒を超える露店がありました。1973年4月に光華橋が開通すると、露店は整理されて光華陸橋下へ移されました。1961年6月15日、この通りで16歳の茅武がボーイスカウトナイフで15歳の劉敏を殺害し、1991年に楊徳昌が237分の映画にしました。書物街は取り壊され、書店露店は移り、学生は別の場所で本を買うようになりました。残っているのは、日本統治期の赤レンガ警察分局旧庁舎、戦後の中国宮殿式博物館、そして1921年から同じ場所にある蓮池です。",
+    "title": "牯嶺街：日本人が残した書店街、楊徳昌の少年、国民政府の宮殿",
+    "description": "土曜午後、牯嶺街 5 巷の奥にある赤レンガ劇場の前には学生が列をつくり、その隣には 1955 年に建てられた国立歴史博物館と、1921 年に改制された台北植物園の蓮池があります。この 1.2 キロメートルの通りは、1922 年には佐久間町と呼ばれ、1947 年に江西省廬山に由来する牯嶺街へ改名されました。1945 年の戦後、日本人の撤退で残された本が路上に並べられ、台湾初の古書街となり、1960 年代の最盛期には 200 軒以上の露店がありました。1973 年 4 月に光華橋が開通すると、露店は整理されて光華陸橋の下へ移されました。1961 年 6 月 15 日、この通りで 16 歳の茅武がボーイスカウトナイフで 15 歳の劉敏を殺害し、1991 年に楊徳昌が 237 分の映画にしました。書店街は取り壊され、書籍露店は移転し、学生たちは別の場所へ本を買いに行くようになりました。残っているのは、日本統治時代の赤レンガ警察分局旧庁舎、戦後の中国宮殿式博物館、そして 1921 年から同じ場所にある蓮池です。",
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/geography/guling-street",
-    "readingTime": 75,
+    "readingTime": 79,
     "featured": false,
     "date": "2026-05-21",
     "path": "ja/Geography/guling-street.md"
@@ -15372,20 +15367,21 @@
     "path": "ja/About/origin-story.md"
   },
   {
-    "title": "迷音 Miin",
-    "description": "PTT 創辦人杜奕瑾打造的 AI 新聞聚合平台，用演算法偵測假訊息與協同操作帳號。裴洛西訪台期間，Miin 數據顯示推特上每四個相關帳號就有一個涉及認知操作。但 2025 年，平台因 AI 爬蟲抓取新聞被指控侵權，揭開了 AI 聚合與新聞版權之間的灰色地帶。",
+    "title": "迷音 Miin：同一句「資訊要自由」，讓杜奕瑾蓋了 PTT，也讓他走進著作權官司",
+    "description": "1995 年他用「資訊要自由」在台大宿舍架起 PTT，2017 回台做了一套抓認知作戰協同帳號的 AI，又為了打假訊息聚合別人的新聞被提告——同一句信念，是他的武器，也成了官司案由；而台灣剛好站在這道全世界都還沒解開的題目最前面。",
     "category": "Technology",
     "tags": [
       "AI",
       "假訊息",
+      "認知作戰",
       "數位韌性",
       "杜奕瑾",
-      "認知作戰"
+      "著作權"
     ],
     "url": "https://taiwan.md/technology/%E8%BF%B7%E9%9F%B3Miin",
-    "readingTime": 8,
+    "readingTime": 41,
     "featured": false,
-    "date": "2026-04-01",
+    "date": "2026-06-16",
     "path": "Technology/迷音Miin.md"
   },
   {
@@ -18577,14 +18573,7 @@
     "title": "黄金の旋律の継承：台湾ポピュラー音楽の歴史と文化的地位",
     "description": "民歌音楽運動から周杰倫現象まで、台湾ポピュラー音楽が華語音楽の地図をどのように形づくってきたかを探ります",
     "category": "ja",
-    "tags": [
-      "台湾ポピュラー音楽",
-      "民歌運動",
-      "金曲賞",
-      "周杰倫",
-      "インディペンデント音楽",
-      "音楽産業"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ja/music/golden-melodies-legacy-taiwan-pop-music",
     "readingTime": 28,
     "featured": true,
@@ -19342,14 +19331,7 @@
     "title": "群島思考：台湾をマレー世界の地図に戻す",
     "description": "台湾は中華世界の辺境にある孤島だけではありません。マレー世界の北東端であり、オーストロネシア語族の原郷であり、太平洋への拡散の起点でもあります。地図を南へ 30 度回転させると、完全に成立していながら見落とされてきた、もう一つの座標系が見えてきます。",
     "category": "ja",
-    "tags": [
-      "群島",
-      "オーストロネシア語族",
-      "Nusantara",
-      "台湾島史",
-      "先住民族",
-      "文化地理"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ja/culture/archipelago-thinking",
     "readingTime": 65,
     "featured": true,
@@ -19636,11 +19618,11 @@
   },
   {
     "title": "嘉義市：皇帝から嘉義の名を賜りながら、最も見過ごされやすい省轄市となった都市",
-    "description": "清の乾隆 52 年の詔書により「諸羅」は「嘉義」へ改名されました。台湾で唯一、皇帝自らが名を与えた城です。1908 年、日本人はこの城の南西 3.3 キロメートルの水田に、世界初の北回帰線標塔を建てました。1931 年、嘉義農林の漢人・原住民・日本人からなる混成チームは甲子園で準優勝しました。1947 年 3 月 25 日、画家の陳澄波は駅前で縛られ銃殺され、遺体は街頭に三日間放置されました。現在の嘉義市は人口 26 万人、面積 60 平方キロメートルで、高鉄駅はなく、嘉義県に完全に囲まれており、台湾の中規模都市の標本です。",
+    "description": "清の乾隆52年の詔書により「諸羅」は「嘉義」へ改名され、台湾で唯一、皇帝が自ら名を賜った城となりました。1908年、日本人はこの城の南西3.3キロの水田に、世界初の北回帰線標塔を建てました。1931年、嘉義農林の三民族混成チームは甲子園で準優勝しました。1947年3月25日、画家の陳澄波は駅前で縛られて銃殺され、遺体は路上に三日間置かれました。現在の嘉義市は人口26万人、面積60平方キロ、高鉄駅を持たず、嘉義県に完全に囲まれた、台湾の中規模都市の標本です。",
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/geography/chiayi-city",
-    "readingTime": 68,
+    "readingTime": 67,
     "featured": false,
     "date": "2026-05-18",
     "path": "ja/Geography/chiayi-city.md"
@@ -19985,6 +19967,17 @@
     "path": "Art/臺灣漫遊錄.md"
   },
   {
+    "title": "艋舺：清朝統治下の台北で最もにぎわった場所、いまは台北で平均年齢が最も高い区",
+    "description": "艋舺龍山寺は、1738 年に泉州三邑出身者が資金を出し合って建立してから 2026 年で 288 年となり、清朝の台北府より 137 年早く存在していました。1853 年の頂下郊拼という械闘は同安人を大稲埕へ押し出し、北台湾の 2 世紀にわたる分岐を植え付けました。日本統治時代後に萬華へ改称され、1990 年に区が設置され、2010 年に鈕承澤が映画『艋舺』を撮りました。高齢化指数は現在 320.78% で市内最高です。この台北最古の街では、朝 6 時、廟埕の最初の線香がいまも燃えています。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/geography/bangka",
+    "readingTime": 81,
+    "featured": false,
+    "date": "2026-05-21",
+    "path": "ja/Geography/bangka.md"
+  },
+  {
     "title": "艋舺：清領台北最熱鬧的地方，現在是台北平均年齡最老的區",
     "description": "艋舺龍山寺 1738 年由泉州三邑人合資建廟到 2026 年 288 歲，比清廷的台北府早 137 年。1853 年的頂下郊拼一場械鬥把同安人推到了大稻埕，種下了北台灣兩個世紀的分岔。日治後改名萬華、1990 設區、2010 鈕承澤拍了《艋舺》，老化指數現在 320.78% 全市最高。這座台北最早的街，凌晨六點廟埕的第一炷香還在燒。",
     "category": "Geography",
@@ -19994,17 +19987,6 @@
     "featured": false,
     "date": "2026-05-21",
     "path": "Geography/艋舺.md"
-  },
-  {
-    "title": "艋舺：清領期の台北で最もにぎわった場所は、現在では台北で平均年齢が最も高い区です",
-    "description": "艋舺龍山寺は、1738 年に泉州三邑の人々が資金を出し合って建立してから、2026 年で 288 歳になります。清朝の台北府より 137 年早い存在です。1853 年の頂下郊拼という武力衝突は、同安人を大稲埕へ押し出し、北台湾の 2 世紀にわたる分岐を生みました。日本統治後に萬華へ改称され、1990 年に区が設置され、2010 年には鈕承澤が映画『艋舺』を撮りました。老化指数はいま 320.78% で、市内最高です。この台北で最も早く成立した街では、朝 6 時、廟埕の最初の線香がまだ燃えています。",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/geography/bangka",
-    "readingTime": 77,
-    "featured": false,
-    "date": "2026-05-21",
-    "path": "ja/Geography/bangka.md"
   },
   {
     "title": "認知作戰：台灣資訊戰場的 AI 工業化階段",
@@ -22491,8 +22473,26 @@
     "path": "ja/Art/yingge-ceramics-museum.md"
   },
   {
+    "title": "彎彎：台湾中の会社員に一つの顔を与え、十二日間で自分自身を失いかけた人物",
+    "description": "2004 年、胡家瑋は「彎彎」の名で無名小站から頭角を現し、MSN のプロフィール画像によって台湾初の資産価値 1000 万元級イラストレーターとなりました。『可不可以不要上班』の図文の女王から、2014 年の結婚 12 日目の不倫騒動まで、彼女は簡筆の坊主頭キャラクターで一時代の集団感情を定義し、また自ら、キャラクター像が崩壊した後の静かな生存を示しました。",
+    "category": "ja",
+    "tags": [
+      "イラスト",
+      "図文創作",
+      "MSN時代",
+      "ネット文化",
+      "彎彎",
+      "胡家瑋"
+    ],
+    "url": "https://taiwan.md/ja/people/wanwan-taiwan-blog-cartoonist",
+    "readingTime": 22,
+    "featured": false,
+    "date": "2026-06-14",
+    "path": "ja/People/wanwan-taiwan-blog-cartoonist.md"
+  },
+  {
     "title": "彎彎：給了全台灣上班族一張臉，卻在十二天內差點弄丟自己",
-    "description": "2004年，胡家瑋以「彎彎」之名在無名小站發跡，憑藉MSN大頭貼成為台灣首位千萬身價插畫家。從「可不可以不要上班」的圖文天后到2014年新婚十二天的外遇風暴，她用簡筆光頭人定義了一個時代的集體情緒，也親身示範了人設崩解後的安靜生存。",
+    "description": "2004 年，胡家瑋以「彎彎」之名在無名小站發跡，憑 MSN 大頭貼成為台灣首位千萬身價插畫家。從《可不可以不要上班》的圖文天后到 2014 年新婚十二天的外遇風暴，她用簡筆光頭人定義了一個時代的集體情緒，也親身示範了人設崩解後的安靜生存。",
     "category": "People",
     "tags": [
       "插畫",
@@ -22503,7 +22503,7 @@
       "胡家瑋"
     ],
     "url": "https://taiwan.md/people/%E5%BD%8E%E5%BD%8E",
-    "readingTime": 14,
+    "readingTime": 16,
     "featured": false,
     "date": "2026-06-14",
     "path": "People/彎彎.md"
@@ -23255,14 +23255,7 @@
     "title": "Archipelago Thinking: Placing Taiwan Back on the Map of the Malay World",
     "description": "Taiwan is not only an isolated island on the margins of China; it is also the northeastern edge of the Malay world, the homeland of Austronesian languages, and the starting point of Pacific dispersal. Rotate the map 30 degrees southward, and you will see another coordinate system that is entirely valid yet long overlooked.",
     "category": "en",
-    "tags": [
-      "Archipelago",
-      "Austronesian Languages",
-      "Nusantara",
-      "Taiwan Island History",
-      "Indigenous Peoples",
-      "Cultural Geography"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/culture/archipelago-thinking",
     "readingTime": 140,
     "featured": true,
@@ -23738,11 +23731,11 @@
   },
   {
     "title": "Bangka: el lugar más animado del Taipéi bajo dominio Qing, hoy el distrito con la edad promedio más alta de Taipéi",
-    "description": "El Templo Longshan de Bangka fue construido en 1738 con aportes conjuntos de personas de las tres comarcas de Quanzhou; en 2026 cumple 288 años, 137 años más antiguo que la prefectura de Taipéi creada por la corte Qing. En 1853, el enfrentamiento armado Dingxia Jiao empujó a los tong’aneses hacia Dadaocheng y sembró dos siglos de bifurcación en el norte de Taiwán. Tras el dominio japonés fue rebautizado como Wanhua, en 1990 se constituyó como distrito, en 2010 Doze Niu filmó Monga, y su índice de envejecimiento, hoy de 320.78%, es el más alto de la ciudad. En esta, la calle más temprana de Taipéi, el primer incienso del atrio del templo aún arde a las seis de la mañana.",
+    "description": "El templo Longshan de Bangka fue construido en 1738 con fondos reunidos por inmigrantes de las tres comarcas de Quanzhou; en 2026 cumple 288 años, 137 años más que la prefectura de Taipéi establecida por la corte Qing. La riña de Ting-hsia Chiao de 1853 empujó a los tong'aneses hacia Dadaocheng y sembró dos siglos de bifurcación en el norte de Taiwán. Tras el periodo colonial japonés pasó a llamarse Wanhua, en 1990 se estableció como distrito y en 2010 Doze Niu filmó Monga; su índice de envejecimiento es ahora de 320.78%, el más alto de toda la ciudad. En esta, la calle más antigua de Taipéi, la primera varilla de incienso del atrio del templo aún arde a las seis de la mañana.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/geography/bangka",
-    "readingTime": 228,
+    "readingTime": 225,
     "featured": false,
     "date": "2026-05-21",
     "path": "es/Geography/bangka.md"
@@ -23840,12 +23833,12 @@
     "path": "en/Geography/beida-special-district-sanxia.md"
   },
   {
-    "title": "Beitou Hot Spring Street: From 1697 Sulfur Mining to the 2026 Hot Spring Museum, One Mountain Spring and Four Generations of Residents",
-    "description": "In 1697, Yu Yonghe came to these mountains to mine sulfur and exchanged cloth with the Ketagalan people for sulfur-bearing soil; in 1896, Osaka native Hirata Gengo built Taiwan's first hot-spring inn, Tengu-an, at today's No. 234 Guangming Road; in 1913, the red-brick public bathhouse designed by Moriyama Matsunosuke opened; in 1923, Crown Prince Hirohito came to bathe there once; in 1967, one photograph in Time magazine enraged Chiang Kai-shek; after Mayor Lee Teng-hui abolished legalized prostitution in 1979, the hostess restaurants went dark; in 1998, the abandoned red-brick bathhouse became a museum. The same smoking mountain spring was discovered by outsiders three times and adapted to by four generations of residents.",
+    "title": "Beitou Hot Spring Street: From Sulfur Mining in 1697 to the Hot Spring Museum in 2026, the Same Mountain Spring Through Four Generations of Residents",
+    "description": "In 1697, Yu Yonghe came to these mountains to mine sulfur and traded cloth with the Ketagalan people for sulfurous soil; in 1896, Osaka native Hirata Gengo built Taiwan's first hot spring inn, Tenguan, at what is now No. 234, Guangming Road; in 1913, the red-brick public bathhouse designed by Moriyama Matsunosuke opened; in 1923, Crown Prince Hirohito came for a bath; in 1967, a photograph in Time magazine enraged Chiang Kai-shek; after Mayor Lee Teng-hui abolished the licensed hostess system in 1979, the wine houses went dark; in 1998, the abandoned red-brick bathhouse became a museum. The same steaming mountain spring was discovered by outsiders three times and adapted to by four generations of residents.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/geography/beitou-hot-spring-street",
-    "readingTime": 247,
+    "readingTime": 249,
     "featured": false,
     "date": "2026-05-21",
     "path": "en/Geography/beitou-hot-spring-street.md"
@@ -24246,12 +24239,12 @@
     "path": "es/Technology/submarine-cables-taiwan-lifeline.md"
   },
   {
-    "title": "Calle de las aguas termales de Beitou: de la extracción de azufre en 1697 al museo del baño en 2026, el mismo manantial de montaña y cuatro generaciones de habitantes",
-    "description": "En 1697, Yu Yonghe llegó a estas montañas para extraer azufre e intercambió tierra sulfurosa con el pueblo ketagalan; en 1896, el osaqueño Hirata Gengo construyó en el actual número 234 de Guangming Road el Tengu-an, el primer hotel de aguas termales de Taiwán; en 1913 se inauguró el baño público de ladrillo rojo diseñado por Moriyama Matsunosuke; en 1923 el príncipe heredero Hirohito vino a bañarse una vez; en 1967 una fotografía de la revista Time enfureció a Chiang Kai-shek; en 1979, tras la abolición de la prostitución por el alcalde Lee Teng-hui, los salones de entretenimiento apagaron sus luces; en 1998 el baño de ladrillo rojo abandonado se convirtió en museo. El mismo manantial humeante de montaña fue descubierto tres veces por forasteros y adaptado por cuatro generaciones de habitantes.",
+    "title": "Calle de aguas termales de Beitou: de la extracción de azufre en 1697 al Museo de Aguas Termales en 2026, la misma fuente de montaña pasó por cuatro generaciones de habitantes",
+    "description": "En 1697, Yu Yonghe llegó a estas montañas para extraer azufre e intercambiar tierra sulfurosa con el pueblo ketagalan; en 1896, Hirata Gengo, de Osaka, construyó en el actual número 234 de Guangming Road el Tenguan, primer hotel de aguas termales de Taiwán; en 1913 abrió el baño público de ladrillo rojo diseñado por Moriyama Matsunosuke; en 1923, el príncipe heredero Hirohito vino a bañarse una vez; en 1967, una fotografía de la revista Time enfureció a Chiang Kai-shek; en 1979, tras la abolición de la prostitución por el alcalde Lee Teng-hui, los salones de acompañantes apagaron sus luces; en 1998, el baño público de ladrillo rojo abandonado se convirtió en museo. La misma fuente de montaña humeante fue descubierta tres veces por forasteros y adaptada por cuatro generaciones de habitantes.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/geography/beitou-hot-spring-street",
-    "readingTime": 270,
+    "readingTime": 266,
     "featured": false,
     "date": "2026-05-21",
     "path": "es/Geography/beitou-hot-spring-street.md"
@@ -25640,8 +25633,8 @@
     "path": "fr/Geography/chiayi-city.md"
   },
   {
-    "title": "Chiayi City: Named Chiayi by an Emperor, Yet Now the Provincial City Most Easily Passed Over",
-    "description": "In the 52nd year of the Qing Qianlong reign, an imperial edict renamed 'Zhuluo' as 'Chiayi,' making it the only city in Taiwan personally named by an emperor. In 1908, in a rice field 3.3 kilometers southwest of this city, the Japanese erected the world's first Tropic of Cancer marker tower. In 1931, Chiayi Agriculture and Forestry's mixed team of three ethnic groups reached the Koshien final and finished runner-up. On March 25, 1947, the painter Chen Cheng-po was tied up and executed by firing squad in front of the railway station; his body was left in the street for three days. Today Chiayi City has 260,000 people and 60 square kilometers, no high-speed rail station, and is completely surrounded by Chiayi County. It is a specimen of Taiwan's mid-sized cities.",
+    "title": "Chiayi City: Named by an Emperor, Yet the Provincial City Most Easily Overlooked",
+    "description": "In the 52nd year of the Qing Qianlong reign, an imperial edict renamed “Zhuluo” as “Chiayi,” making it the only city in Taiwan personally named by an emperor. In 1908, in rice paddies 3.3 kilometers southwest of the city, the Japanese erected the world’s first Tropic of Cancer monument. In 1931, Chiayi Agriculture and Forestry’s mixed squad of three ethnic groups reached the Koshien runner-up position. On March 25, 1947, the painter Chen Cheng-po was bound and executed by firing squad in front of the train station; his body was left in the street for three days. Today Chiayi City has 260,000 people and 60 square kilometers, no high-speed rail station, and is entirely surrounded by Chiayi County. It is a specimen of Taiwan’s mid-sized cities.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/geography/chiayi-city",
@@ -25931,17 +25924,6 @@
     "featured": false,
     "date": "2026-05-03",
     "path": "en/People/cho-jung-tai.md"
-  },
-  {
-    "title": "Chongshan North Road Tōdōri: The Road to the Shrine Paved by the Japanese Was Ultimately Reclaimed by Japanese Businesses",
-    "description": "On April 17, 1923, 19-year-old Japanese Crown Prince Hirohito took a carriage from Taipei Station, traveling along a 15-meter-wide road to the Taiwan Shrine in Yuanshan. This road was named the Chishiki Street (Imperial Envoy Street). In 1941, it was expanded into a 40-meter-wide, five-lane avenue. In 1945, it was renamed 'Chongshan North Road' to commemorate Sun Yat-sen. In 1951, during the Korean War, the US military stationed troops, and Section 3 of Chongshan North Road became an 'American Concession.' In 1972, after the ROC severed diplomatic ties with Japan, Japanese businesses did not leave; in 1979, the US military left, and in the 1980s, Japanese businesses took over the Tōdōri alleys. The road to the shrine paved by the Japanese was ultimately taken back by Japanese trading companies.",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/geography/zhongshan-north-road-tiaotong",
-    "readingTime": 223,
-    "featured": false,
-    "date": "2026-05-21",
-    "path": "ko/Geography/zhongshan-north-road-tiaotong.md"
   },
   {
     "title": "Chou Hui : la voix féminine qui chante « Promesse » depuis 25 ans, du personnage de manga au Taipei Arena",
@@ -26622,17 +26604,6 @@
     "path": "es/Technology/computex-taipei.md"
   },
   {
-    "title": "Computex: Three Major International Computer Shows Have Closed Two, The Remaining One Grew in Taipei",
-    "description": "In June 2026, Jensen Huang stood on the stage in Taipei and said 'It's good to be home,' with the backdrop featuring images of meat zong (sticky rice dumplings) and pork knuckles. From a small exhibition for SME exporters next to Songshan Airport in 1981, Computex has grown into a pilgrimage site for global AI giants every year. Germany's CeBIT and the US's COMDEX have both closed down, but this 45-year-old Taipei computer show continues to grow larger because it is held on the island where nearly 90% of the world's AI servers are actually assembled.",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/technology/computex-taipei",
-    "readingTime": 150,
-    "featured": false,
-    "date": "2026-06-01",
-    "path": "ja/Technology/computex-taipei.md"
-  },
-  {
     "title": "Computex: Two of the Three Major International Computer Shows Have Folded, the Remaining One Grows in Taipei",
     "description": "In June 2026, Jensen Huang took the stage in Taipei and said, “It’s great to be home,” while the backdrop displayed images of rice dumplings and pork knuckles. Starting in 1981 as a small export exhibition for SMEs beside Songshan Airport, Computex has become the pilgrimage site for global AI giants each May‑June. While Germany’s CeBIT and the United States’ COMDEX have shut down, this 45‑year‑old Taipei computer show continues to expand because it is held on the island where nearly ninety percent of AI servers are actually assembled.",
     "category": "en",
@@ -26642,6 +26613,17 @@
     "featured": true,
     "date": "2026-06-01",
     "path": "en/Technology/computex-taipei.md"
+  },
+  {
+    "title": "Computex：三大国際コンピュータ見本市のうち二つは幕を閉じ、残る一つは台北で育ちました",
+    "description": "2026 年 6 月、黄仁勲は台北の舞台に立ち、「家に帰ってきたようで本当にうれしい」と語りました。背面パネルに印されていたのは肉粽と豚足でした。Computex は 1981 年、松山空港のそばで開かれた中小企業向けの輸出見本市から、世界の AI 巨大企業が毎年巡礼する場所へと成長しました。ドイツの CeBIT、米国の COMDEX はいずれも幕を閉じましたが、この 45 歳の台北国際コンピュータ見本市はさらに規模を拡大しています。なぜなら、世界の AI サーバーの 9 割近くが実際に組み立てられている島で開催されているからです。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/technology/computex-taipei",
+    "readingTime": 75,
+    "featured": true,
+    "date": "2026-06-01",
+    "path": "ja/Technology/computex-taipei.md"
   },
   {
     "title": "Computex：三大國際電腦展收了兩個，剩下的那個長在台北",
@@ -26688,12 +26670,12 @@
     "path": "fr/Geography/hualien-county.md"
   },
   {
-    "title": "Comté de Kinmen : ces 56 heures de 1949 qui ont décidé du destin de Kinmen pour 75 ans",
-    "description": "Kinmen n'est qu'à 1,8 km de Jiaoyu, à Xiamen, au point le plus proche, et à 358 km de Taipei. En 1387, le marquis de Jiangxia, Zhou Dexing, y construisit une cité de garnison en reprenant l'idée de « solide comme une forteresse d'or, tenant majestueusement la porte de la mer ». Le 25 octobre 1949 à deux heures du matin, trois régiments communistes, soit 9 086 hommes, débarquèrent sur la plage de Guningtou ; l'armée nationaliste les repoussa après 56 heures de combats acharnés. Pendant 44 jours à partir du 23 août 1958 à 17 h 30, 474 910 obus tombèrent sur cette île de 151 km² ; le bombardement les jours impairs et non les jours pairs se poursuivit ensuite pendant 21 ans. Aujourd'hui, 145 000 personnes sont enregistrées à Kinmen, et à quatre heures du matin, il part du quai de Shuitou plus de bateaux vers Xiamen que d'avions vers Taipei. L'arrière-petit-fils de Ye Huacheng a attendu 67 ans pour demander des excuses.",
+    "title": "Comté de Kinmen : ces 56 heures de 1949 qui ont déterminé 75 ans de destin",
+    "description": "Kinmen se trouve à seulement 1,8 km de l'île de Jiaoyu, à Xiamen, au point le plus proche, et à 358 km de Taipei. En 1387, le marquis de Jiangxia, Chou Te-hsing, y construisit une cité de garnison, dont le nom reprenait l'idée de « solide comme l'or et le bouillon, gardant majestueusement la porte de la mer ». Le 25 octobre 1949 à deux heures du matin, trois régiments communistes, soit 9 086 hommes, débarquèrent sur la plage de Guningtou ; l'armée nationaliste les repoussa après 56 heures de combats acharnés. Pendant les 44 jours qui suivirent le 23 août 1958 à 17 h 30, 474 910 obus tombèrent sur une île de 151 km² ; ensuite, la règle du bombardement les jours impairs et de la pause les jours pairs dura encore 21 ans. Aujourd'hui, 145 000 personnes sont enregistrées à Kinmen, et à quatre heures du matin, les bateaux du quai de Shuitou vers Xiamen sont plus nombreux que les avions pour Taipei. L'arrière-petit-fils de Yeh Hua-cheng a attendu 67 ans pour demander des excuses.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/geography/kinmen-county",
-    "readingTime": 236,
+    "readingTime": 239,
     "featured": false,
     "date": "2026-05-18",
     "path": "fr/Geography/kinmen-county.md"
@@ -26875,12 +26857,12 @@
     "path": "es/Geography/hualien-county.md"
   },
   {
-    "title": "Condado de Kinmen: Aquellas 56 horas de 1949 que decidieron el destino de Kinmen durante 75 años",
-    "description": "Kinmen se encuentra a solo 1,8 km de la isla de Jiao Yu en Xiamen, y a 358 km de Taipéi. En 1387, el marqués de Jiangxia Zhou Dexing construyó aquí una ciudadela tomando el significado de \"fuerte como el oro fundido, guardián imponente de la puerta del mar\". El 25 de octubre de 1949, a las dos de la madrugada, tres regimientos del Ejército Popular de Liberación con 9.086 soldados desembarcaron en la playa de Guningtou; las fuerzas nacionalistas los rechazaron tras 56 horas de combate. Del 23 de agosto de 1958, a las cinco y tarde de la tarde, durante 44 días cayeron 474.910 proyectiles sobre la isla de 151 km²; después, la política de \"disparar los días impares, no disparar los pares\" continuó durante 21 años más. Hoy 145.000 personas están registradas en Kinmen, y a las cuatro de la madrugada los barcos que salen del muelle de Shuitou hacia Xiamen superan en número a los aviones que vuelan a Taipéi. El bisnieto de Ye Huacheng lleva 67 años esperando una disculpa.",
+    "title": "Condado de Kinmen: las 56 horas de 1949 que decidieron 75 años de destino para Kinmen",
+    "description": "Kinmen está a apenas 1,8 km de Jiaoyu, en Xiamen, en su punto más cercano, y a 358 km de Taipéi. En 1387, Zhou Dexing, marqués de Jiangxia, construyó aquí una ciudad fortificada cuyo nombre tomó el sentido de «sólida como metal y muralla hirviente, imponente guardiana de la puerta del mar». A las dos de la madrugada del 25 de octubre de 1949, tres regimientos comunistas, 9.086 hombres, desembarcaron en la playa de Guningtou; el Ejército Nacionalista los repelió tras 56 horas de combate feroz. Durante los 44 días iniciados a las cinco y media de la tarde del 23 de agosto de 1958, 474.910 proyectiles cayeron sobre una isla de 151 km²; después, el bombardeo en días impares y pausa en días pares continuó otros 21 años. Hoy hay 145.000 personas registradas en Kinmen, y a las cuatro de la madrugada salen más barcos desde el muelle de Shuitou hacia Xiamen que aviones hacia Taipéi. El bisnieto de Yeh Hua-cheng esperó 67 años para pedir una disculpa.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/geography/kinmen-county",
-    "readingTime": 237,
+    "readingTime": 232,
     "featured": false,
     "date": "2026-05-18",
     "path": "es/Geography/kinmen-county.md"
@@ -27551,34 +27533,34 @@
     "path": "es/Geography/dadaocheng.md"
   },
   {
-    "title": "Dalongdong : l'encens du temple Bao'an, la cloche du temple de Confucius, le ciel bleu au soleil blanc de Yuanshan, trois époques de croyance taipeïote",
-    "description": "Des amas coquilliers de Yuanshan, vieux de 5 300 ans, au premier temple Bao'an édifié sommairement en 1742 par des originaires de Tong'an ; de la réussite de Chen Weiying au concours provincial en 1859, qui valut au quartier la formule « un bachelier tous les cinq pas, un licencié tous les dix pas », à la reconstruction en 1925, par souscription des notables locaux, du temple de Confucius démoli par les Japonais ; du sanctuaire shinto détruit par un avion en 1944 au Grand Hôtel de Yuanshan, bâtiment de 14 étages de style palatial chinois élevé sur le même site par Yang Cho-cheng en 1973. Trois espaces de croyance se juxtaposent sur l'axe de 1,5 km qui relie Dalongdong à Yuanshan, mais aucun ne correspond à la version des brochures touristiques : le temple Bao'an est le premier site taïwanais primé par le prix UNESCO Asie-Pacifique du patrimoine, restauré à partir de 1995 par Liao Wuzhi, qui refusa les subventions publiques et finança 260 millions de dollars taïwanais ; le temple de Confucius doit son terrain de plus de 3 000 ping aux dons de la famille Chen Yueji et de Koo Hsien-jung, afin que Confucius ne reste pas sans demeure ; le Grand Hôtel de Yuanshan, toits rouges et avant-toits jaunes, a reçu 111 chefs d'État. Les oncles et tantes qui pratiquent le tai-chi dans Dalong Street foulent la tranche temporelle la plus concentrée de Taipei.",
+    "title": "Dalongdong : l’encens du Baoan Temple, la cloche du temple de Confucius, le ciel bleu au soleil blanc de Yuanshan, trois époques de croyance à Taipei",
+    "description": "Du dépôt coquillier de Yuanshan vieux de 5 300 ans au Baoan Temple bâti sommairement en 1742 par des migrants de Tong’an ; de la réussite de Chen Wei-ying aux examens impériaux en 1859, dans un lieu célébré comme ayant « un licencié tous les cinq pas, un lauréat provincial tous les dix pas », à la reconstruction en 1925, par souscription de notables locaux, du temple de Confucius détruit par les Japonais ; du sanctuaire shinto percuté par un avion en 1944 au Grand Hotel de Yuanshan, palais chinois de 14 étages érigé sur le site par Yang Cho-cheng en 1973. Trois espaces de croyance s’alignent sur l’axe de 1,5 km qui va de Dalongdong à Yuanshan, mais aucun ne correspond à la version des guides touristiques : le Baoan Temple est le premier site taïwanais distingué par le Prix UNESCO Asie-Pacifique du patrimoine, après une restauration de 260 millions de dollars taïwanais financée par Liao Wu-chih, qui refusa en 1995 les subventions publiques ; le temple de Confucius doit son terrain de plus de 3 000 ping à la famille Chen Yueji et à Koo Hsien-jung, soucieux que Confucius ne reste pas sans foyer ; le Grand Hotel de Yuanshan, avec ses tuiles rouges et ses avant-toits jaunes, a accueilli 111 chefs d’État. Les hommes et femmes d’âge mûr qui pratiquent le tai-chi sur Dalong Street marchent sur la coupe temporelle la plus condensée de Taipei.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/geography/dalongdong",
-    "readingTime": 261,
+    "readingTime": 265,
     "featured": false,
     "date": "2026-05-21",
     "path": "fr/Geography/dalongdong.md"
   },
   {
-    "title": "Dalongdong: el incienso del Templo Bao'an, la campana del Templo de Confucio y el cielo azul con sol blanco de Yuanshan, tres épocas de fe en Taipéi",
-    "description": "Desde el conchero de Yuanshan, de hace 5.300 años, hasta la construcción rudimentaria del Templo Bao'an por inmigrantes de Tong'an en 1742; desde el ascenso de Chen Weiying en los exámenes imperiales en 1859, celebrado como “un xiucai cada cinco pasos y un juren cada diez”, hasta la reconstrucción del Templo de Confucio en 1925 mediante fondos reunidos por notables locales tras su demolición por los japoneses; desde la destrucción del santuario por un avión en 1944 hasta el Grand Hotel de Yuanshan, de 14 pisos y estilo palaciego chino, levantado por Yang Cho-cheng en el mismo sitio en 1973. Tres espacios de fe conviven sobre el eje de 1,5 kilómetros que va de Dalongdong a Yuanshan, pero ninguno corresponde a la versión de folleto turístico: el Templo Bao'an fue la primera obra de Taiwán en recibir el Premio UNESCO Asia-Pacífico al Patrimonio, tras una restauración de 260 millones costeada por Liao Wuzhi, quien en 1995 rechazó subsidios gubernamentales; el Templo de Confucio existe porque la familia Chen Yueji y Koo Hsien-jung donaron más de 3.000 ping de terreno para que Confucio no quedara sin casa; y el Grand Hotel de Yuanshan es el edificio de tejas rojas y aleros amarillos que ha recibido a 111 jefes de Estado. Los tíos y tías que practican taichí en la calle Dalong pisan el corte temporal más condensado de Taipéi.",
+    "title": "Dalongdong: el incienso del templo Baoan, la campana del templo de Confucio y el Cielo Azul con Sol Blanco de Yuanshan, tres épocas de fe en Taipéi",
+    "description": "Desde el conchero de Yuanshan, de hace 5.300 años, hasta la construcción inicial del templo Baoan por inmigrantes de Tong’an en 1742; desde el éxito de Chen Wei-ying en el examen provincial de 1859, que dio lugar al dicho «un xiucai cada cinco pasos, un juren cada diez», hasta la reconstrucción del templo de Confucio demolido por los japoneses, financiada por notables locales en 1925; desde el santuario sintoísta destruido por el choque de un avión en 1944 hasta el Grand Hotel de Yuanshan, de 14 pisos y estilo palaciego chino, levantado por Yang Cho-cheng en el mismo solar en 1973. Tres espacios de fe se alinean en el eje de 1,5 kilómetros entre Dalongdong y Yuanshan, pero ninguno corresponde a la versión de las guías turísticas: el templo Baoan fue la primera obra de Taiwán en recibir el Premio del Patrimonio Asia-Pacífico de la UNESCO, tras la restauración de 1995 en la que Liao Wu-chih rechazó subsidios públicos y gastó 260 millones de dólares taiwaneses de fondos propios; el templo de Confucio existe porque la familia Chen Yueji y Koo Hsien-jung donaron más de 3.000 ping de terreno para que Confucio no quedara sin hogar; el Grand Hotel de Yuanshan es el edificio de tejas rojas y aleros amarillos que ha recibido a 111 jefes de Estado. Los tíos y tías que practican taichí en la calle Dalong pisan el corte temporal más concentrado de Taipéi.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/geography/dalongdong",
-    "readingTime": 259,
+    "readingTime": 260,
     "featured": false,
     "date": "2026-05-21",
     "path": "es/Geography/dalongdong.md"
   },
   {
-    "title": "Dalongdong: The Incense of Baoan Temple, the Bell of the Confucius Temple, and Yuanshan's Blue Sky with a White Sun: Three Eras of Taipei Faith",
-    "description": "From the 5,300-year-old Yuanshan shell midden to the rudimentary Baoan Temple built by Tong'an immigrants in 1742; from Chen Weiying passing the provincial examination in 1859 and the saying 'a xiucai every five steps, a juren every ten' to local gentry raising funds in 1925 to rebuild the Confucius Temple demolished by the Japanese; from the shrine being destroyed by an airplane crash in 1944 to Yang Cho-cheng erecting the 14-story Chinese palace-style Grand Hotel on the original site in 1973. Three spaces of faith stand side by side along the 1.5-kilometer axis from Dalongdong to Yuanshan, but none is the guidebook version: Baoan Temple is Taiwan's first UNESCO Asia-Pacific Heritage Award winner, restored by Liao Wuzhi in 1995 after he refused government subsidies and spent NT$260 million of private funds; the Confucius Temple exists because the Chen Yueji family and Koo Hsien-jung donated more than 3,000 ping of land so Confucius would not be homeless; the Grand Hotel is the red-tiled, yellow-eaved building that has received 111 heads of state. The uncles and aunties practicing tai chi on Dalong Street are standing on Taipei's most compressed slice of time.",
+    "title": "Dalongdong: The Incense of Baoan Temple, the Bell of the Confucius Temple, and the Blue Sky with a White Sun at Yuanshan, Three Eras of Taipei Faith",
+    "description": "From the 5,300-year-old Yuanshan shell midden to the rudimentary Baoan Temple built by Tong'an migrants in 1742; from Chen Wei-ying's 1859 provincial degree and the saying 'a xiucai every five steps, a juren every ten' to the 1925 fundraising campaign by local gentry to rebuild the Confucius Temple demolished by the Japanese; from the 1944 crash that destroyed the shrine to the 14-story Chinese palace-style Grand Hotel that Yang Cho-cheng built on the original site in 1973. Three spaces of faith stand side by side along the 1.5-kilometer axis from Dalongdong to Yuanshan, but none matches the tourist-brochure version: Baoan Temple is Taiwan's first UNESCO Asia-Pacific Heritage Award site, restored after Liao Wu-chih refused government subsidies in 1995 and spent NT$260 million of temple funds; the Confucius Temple stands on more than 3,000 ping of land donated by the Chen Yueji family and Koo Hsien-jung so that Confucius would not be left homeless; the Grand Hotel is the red-tiled, yellow-eaved building that has received 111 heads of state. The uncles and aunties practicing tai chi on Dalong Street are standing on Taipei's most compressed slice of time.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/geography/dalongdong",
-    "readingTime": 244,
+    "readingTime": 246,
     "featured": false,
     "date": "2026-05-21",
     "path": "en/Geography/dalongdong.md"
@@ -30790,37 +30772,37 @@
     "path": "en/Economy/giant-manufacturing-taiwan-bicycle-empire.md"
   },
   {
-    "title": "Gongguan : laboratoire de l’Empire japonais, salon clandestin sous la loi martiale, escalope de poulet frit des étudiants de NTU, trois siècles en 500 mètres",
-    "description": "En 1928, les Japonais construisirent dans la banlieue sud de Taipei la sixième université impériale, l’Université impériale de Taihoku ; à l’extérieur de son portail, les secteurs de Wenzhou Street, Qingtian Street et Yongkang Street formaient le quartier des logements de professeurs. Après la guerre, en 1949, ces logements furent attribués à des intellectuels venus de Chine continentale ; la petite maison du 1-1, ruelle 16, lane 18, Wenzhou Street devint le salon de Yin Haiguang, assigné à résidence ; Wistaria Tea House, lane 16, section 3, Xinsheng South Road, passa d’une résidence de fonction du directeur général des douanes à un salon de jeunes intellectuels dangwai ; le 25 Wenzhou Street fut le cabinet de travail où Tai Jingnong écrivit jusqu’en 1990 ; entre 1972 et 1975, l’incident du département de philosophie de NTU impliqua treize professeurs. En 1999, l’ouverture de la ligne Xindian du métro transforma le rond-point de Gongguan en distributeur de repas pour les étudiants de NTU. Le laboratoire de l’Empire japonais, le salon clandestin de la période de loi martiale, l’escalope de poulet frit des étudiants contemporains : trois siècles empilés dans 500 mètres.",
+    "title": "Gongguan : laboratoire de l'Empire japonais, salon clandestin sous la loi martiale, escalopes de poulet frit des étudiants de NTU, trois siècles en 500 mètres",
+    "description": "En 1928, les Japonais construisirent dans la banlieue sud de Taipei la sixième université impériale de l'Empire, l'Université impériale de Taipei ; les environs des rues Wenzhou, Qingtian et Yongkang, devant le portail, formaient le quartier des logements de professeurs. Après la guerre, en 1949, ces logements furent attribués à des intellectuels venus de Chine continentale ; la petite maison du 1-1, ruelle 16, allée 18, rue Wenzhou, devint le salon de Yin Hai-kuang, assigné à résidence ; Wistaria Tea House, dans l'allée 16, section 3 de la route Xinsheng Sud, passa de résidence officielle de l'administration des douanes à salon de jeunes intellectuels dangwai ; le 25 rue Wenzhou fut le cabinet de travail où Tai Ching-nung écrivit jusqu'en 1990 ; entre 1972 et 1975, l'affaire du département de philosophie de NTU impliqua 13 professeurs. En 1999, l'ouverture de la ligne Xindian du métro transforma le rond-point de Gongguan en distributeur de repas pour les étudiants de NTU. Le laboratoire de l'Empire japonais, les salons clandestins de la loi martiale et les escalopes de poulet frit des étudiants contemporains superposent trois siècles dans 500 mètres.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/geography/gongguan",
-    "readingTime": 288,
+    "readingTime": 290,
     "featured": false,
     "date": "2026-05-21",
     "path": "fr/Geography/gongguan.md"
   },
   {
-    "title": "Gongguan: Imperial Japan's Laboratory, the Martial-Law Underground Salon, and NTU Students' Fried Chicken Cutlets, Three Centuries within 500 Meters",
-    "description": "In 1928, the Japanese built the empire's sixth university, Taihoku Imperial University, in Taipei's southern outskirts; outside its gate, the area around Wenzhou Street, Qingtian Street, and Yongkang Street became a district of professors' residences. After the war, in 1949, the dormitories were taken over for mainlander scholars; the small house at No. 1-1, Lane 16, Alley 18, Wenzhou Street became the living room of Yin Haiguang under house arrest, Wistaria Tea House on Lane 16, Section 3, Xinsheng South Road went from a Customs Administration official residence to a dangwai literary-youth salon, No. 25 Wenzhou Street was the study where Tai Jingnong wrote until 1990, and the 1972-75 NTU Philosophy Department Incident on campus implicated 13 professors. In 1999, the MRT Xindian Line opened, and the Gongguan traffic circle became an eating ATM for NTU students. Imperial Japan's laboratories, the martial-law underground salons, and contemporary students' fried chicken cutlets: three centuries are stacked inside 500 meters.",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/geography/gongguan",
-    "readingTime": 271,
-    "featured": false,
-    "date": "2026-05-21",
-    "path": "en/Geography/gongguan.md"
-  },
-  {
-    "title": "Gongguan: laboratorio del Imperio japonés, salón clandestino del periodo de ley marcial y pollo frito de los estudiantes de la NTU; tres siglos en 500 metros",
-    "description": "En 1928, los japoneses construyeron en las afueras meridionales de Taipéi la sexta universidad imperial, la Universidad Imperial de Taipéi; fuera de su puerta, las zonas de las calles Wenzhou, Qingtian y Yongkang formaban el barrio de residencias de profesores. Después de la guerra, en 1949, esas residencias fueron asignadas a académicos llegados de China continental: la pequeña casa del número 1-1, callejón 16, carril 18 de la calle Wenzhou se convirtió en la sala de estar de Yin Haiguang bajo arresto domiciliario; Wistaria Tea House, en el carril 16, sección 3 de la avenida Xinsheng Sur, pasó de residencia oficial de la Dirección de Aduanas a salón de jóvenes intelectuales del movimiento dangwai; el número 25 de la calle Wenzhou fue el estudio donde Tai Jingnong escribió hasta 1990; y entre 1972 y 1975, el Incidente del Departamento de Filosofía de la NTU involucró a 13 profesores. En 1999, con la apertura de la línea Xindian del metro, la rotonda de Gongguan se convirtió en el cajero automático gastronómico de los estudiantes de la NTU. El laboratorio del Imperio japonés, los salones clandestinos del periodo de ley marcial y el pollo frito de los estudiantes contemporáneos: tres siglos superpuestos en 500 metros.",
+    "title": "Gongguan: el laboratorio del Imperio japonés, los salones clandestinos de la ley marcial y las chuletas de pollo frito de los estudiantes de la NTU: tres siglos en 500 metros",
+    "description": "En 1928, los japoneses construyeron en los suburbios del sur de Taipéi la sexta universidad imperial del imperio, la Universidad Imperial de Taipéi; fuera de su puerta, las zonas de las calles Wenzhou, Qingtian y Yongkang fueron áreas de residencias para profesores. Tras la guerra, en 1949, esas viviendas fueron asignadas a académicos llegados de China continental; la pequeña casa del n.º 1-1, callejón 16, carril 18 de la calle Wenzhou, se convirtió en la sala de estar de Yin Hai-kuang bajo arresto domiciliario; Wistaria Tea House, en el carril 16, sección 3 de la calle Xinsheng Sur, pasó de residencia oficial de la Dirección General de Aduanas a salón cultural de jóvenes dangwai; el n.º 25 de la calle Wenzhou fue el estudio donde Tai Jing-nong escribió hasta 1990; y el incidente del Departamento de Filosofía de la Universidad Nacional de Taiwán, entre 1972 y 1975, implicó a 13 profesores. En 1999 abrió la línea Xindian del MRT, y la rotonda de Gongguan se convirtió en el cajero automático gastronómico de los estudiantes de la NTU. El laboratorio del Imperio japonés, los salones clandestinos de la ley marcial y las chuletas de pollo frito de los estudiantes contemporáneos: tres siglos superpuestos en 500 metros.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/geography/gongguan",
-    "readingTime": 287,
+    "readingTime": 284,
     "featured": false,
     "date": "2026-05-21",
     "path": "es/Geography/gongguan.md"
+  },
+  {
+    "title": "Gongguan: The Japanese Empire's Laboratory, Martial-Law-Era Underground Salons, and NTU Students' Fried Chicken Cutlets: Three Centuries in 500 Meters",
+    "description": "In 1928, the Japanese built the empire's sixth university, Taihoku Imperial University, on Taipei's southern outskirts; outside its gate, the area around Wenzhou Street, Qingtian Street, and Yongkang Street became a faculty housing district. After the war, in 1949, the dormitories were taken over for postwar Chinese migrant scholars; the small house at 1-1, Alley 16, Lane 18, Wenzhou Street became the living room of Yin Hai-kuang under house arrest; Wistaria Tea House in Lane 16, Section 3, Xinsheng South Road went from a Customs Administration official residence to a dangwai youth-culture salon; 25 Wenzhou Street was Tai Jingnong's study, where he wrote until 1990; and the 1972-75 NTU Department of Philosophy Incident implicated 13 professors on campus. In 1999, the MRT Xindian line opened, and Gongguan Circle became the dinner ATM for NTU students. The Japanese Empire's laboratory, martial-law-era underground salons, and contemporary students' fried chicken cutlets: three centuries layered into 500 meters.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/geography/gongguan",
+    "readingTime": 268,
+    "featured": false,
+    "date": "2026-05-21",
+    "path": "en/Geography/gongguan.md"
   },
   {
     "title": "Graffiti de rue à Taïwan : des hors-la-loi de la nuit aux lumières urbaines de Ximending",
@@ -31394,6 +31376,17 @@
     "path": "fr/Art/history-of-taiwanese-literature.md"
   },
   {
+    "title": "Histoire de la publicité à Taïwan : on oublie ce qui a été vendu, mais on fredonne encore le jingle",
+    "description": "En 1968, le jingle du cuiseur à riz électrique Tatung retentit à la télévision ; un demi-siècle plus tard, les Taïwanais peuvent encore enchaîner avec « Tatung Tatung, les produits nationaux sont bons », mais presque personne ne se souvient qu’il s’agissait à l’origine d’une mélodie de Sanyo. Des annonces imprimées du Taiwan Nichi Nichi Shinpō sous la domination japonaise, à l’époque de la loi martiale où les trois seules chaînes liaient l’attention de toute l’île au même canal, jusqu’à 2016, lorsque les dépenses de publicité numérique dépassèrent celles de la télévision : à Taïwan, les publicités dont on se souvient le mieux font souvent oublier le produit vendu, mais laissent derrière elles le son de toute une époque.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/culture/taiwan-advertising-history",
+    "readingTime": 180,
+    "featured": false,
+    "date": "2026-06-14",
+    "path": "fr/Culture/taiwan-advertising-history.md"
+  },
+  {
     "title": "Histoire de la télévision taïwanaise : de la trinité des chaînes à la révolution douce de la Q-Series",
     "description": "De l'ouverture de TTV en 1962 à la Q-Series en 2016, l'industrie télévisuelle de Taïwan a traversé 54 ans de transformation — du monopole du parti, de l'armée et de l'État vers l'essor d'un audiovisuel public. Comment une plateforme sans publicité a-t-elle réussi à raconter des histoires que tout le monde voulait entendre ?",
     "category": "fr",
@@ -31521,6 +31514,17 @@
     "featured": true,
     "date": "2026-03-24",
     "path": "es/Art/history-of-taiwanese-literature.md"
+  },
+  {
+    "title": "Historia de la publicidad en Taiwán: se olvida lo vendido, pero aún se tararea la canción publicitaria",
+    "description": "En 1968, la canción publicitaria de la olla eléctrica Tatung sonó en televisión; medio siglo después, la gente en Taiwán todavía puede continuar con “Tatung, Tatung, los productos nacionales son buenos”, aunque casi nadie recuerda que originalmente era una melodía de Sanyo. Desde los anuncios impresos de Taiwan Nichi Nichi Shimpo durante el periodo japonés, pasando por la época de la ley marcial en que sólo tres canales concentraban la atención de toda la isla en la misma señal, hasta 2016, cuando la inversión en publicidad digital superó a la televisiva: los anuncios más recordados de Taiwán suelen dejar en el olvido el producto que vendían, pero conservan el sonido de toda una época.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/culture/taiwan-advertising-history",
+    "readingTime": 175,
+    "featured": false,
+    "date": "2026-06-14",
+    "path": "es/Culture/taiwan-advertising-history.md"
   },
   {
     "title": "Historia de los militares dependientes de Taiwán",
@@ -32770,17 +32774,6 @@
     "path": "ko/People/hur-plus-band.md"
   },
   {
-    "title": "I Am a Local: The 'Fellow Townsman' Fan Page's Backend is an Neihu Company and an AI Instruction That Forgot to Delete",
-    "description": "In February 2026, a local fan page calling itself 'I Am a Taipei Person' left an unremoved AI instruction in its post: 'Remove sensitive words, strengthen local Taiwanese colloquialisms.' Following this clue backwards leads to a Lin family enterprise in a building in Neihu, which uses AI to rewrite news from CTWANT and other media into a 'fellow townsman' tone, then distributes it in bulk on fan pages disguised as locals from various counties and cities. It doesn't fabricate news; it transforms real news. The problem lies in the untraceable origin and cash flow, yet Taiwan's most capable experts in cognitive warfare are calling for caution against hasty labeling.",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/society/i-am-from",
-    "readingTime": 135,
-    "featured": false,
-    "date": "2026-06-05",
-    "path": "es/Society/i-am-from.md"
-  },
-  {
     "title": "I Am a Local: The 'Fellow Townsman' Fanpage's Backend is a Neihu Company and a Forgotten AI Prompt",
     "description": "In February 2026, a local fanpage calling itself 'I Am a Taipei Person' left an unremoved AI instruction in its post: 'Remove sensitive words, strengthen Taiwanese local colloquialism.' Following this clue leads back to a Lin family-related enterprise in a building in Neihu, which uses AI to rewrite news from CTWANT and other media into a 'fellow townsman' tone, then distributes it in bulk across fanpages disguised as local entities from various counties and cities. It does not fabricate news; it repurposes real news. The problem lies in the unverifiable origin and capital flow. Meanwhile, Taiwan's most adept experts in cognitive warfare are urging caution against hasty labeling.",
     "category": "ja",
@@ -32790,17 +32783,6 @@
     "featured": false,
     "date": "2026-06-05",
     "path": "ja/Society/i-am-from.md"
-  },
-  {
-    "title": "I Am From OO: The 'Fellow Townsman' Fan Page's Backend Is a Neihu Company and a Forgotten AI Prompt",
-    "description": "In February 2026, a local fan page calling itself 'I Am From Taipei' left an unremoved AI instruction in its post: 'Remove sensitive words, strengthen Taiwan local colloquialism.' Following this clue backwards leads to a Lin family-related enterprise in a building in Neihu, which turns news from CTV and CTWANT into 'fellow townsman' tone, distributing it via fan pages disguised as locals from various counties and cities. It doesn't fake news; it repurposes real news. The problem is the origin and financial flow are untraceable, yet Taiwan's most adept observers of cognitive warfare are urging: Don't rush to put labels on it.",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/society/i-am-from",
-    "readingTime": 134,
-    "featured": false,
-    "date": "2026-06-05",
-    "path": "ko/Society/i-am-from.md"
   },
   {
     "title": "I Am From OO: The 'Fellow Townsman' Fan Page's Backend Is a Neihu Company and an AI Prompt That Was Forgotten to Be Deleted",
@@ -33331,12 +33313,12 @@
     "path": "fr/People/jay-chou.md"
   },
   {
-    "title": "Je suis de OO : la page qui vous salue « compatriote » est gérée par une société de Neihu et une instruction IA oubliée",
-    "description": "En février 2026, une page locale se présentant comme « Je suis de Taipei » a laissé, dans l’une de ses publications, une instruction IA non supprimée : « Supprimer les termes sensibles, renforcer le langage local taïwanais ». En suivant cette piste, on aboutit à une société liée à la famille Lin, installée dans un immeuble de Neihu, qui transforme les nouvelles de CTWANT et de Zhongtian en style « compatriote » et les diffuse via des pages se faisant passer pour des habitants de diverses villes. Elle ne fabrique pas de fausses nouvelles, elle retransmet de vraies nouvelles, mais l’origine et les flux financiers restent introuvables, et les meilleurs spécialistes taïwanais de la guerre cognitive s’exclament : ne vous précipitez pas pour poser des étiquettes.",
+    "title": "Je suis OO : la page qui vous appelle « compatriote », gérée depuis une société à Neihu et une instruction IA oubliée",
+    "description": "En février 2026, une page locale se présentant comme « Je suis de Taipei » a publié, dans l’une de ses publications, une instruction IA non supprimée : « Supprimer les mots sensibles, renforcer le parler local taïwanais ». En suivant cette piste, on aboutit à une société liée à la famille Lin, installée dans un immeuble de Neihu, qui transforme les informations de CTWANT et de Zhongtian en style « compatriote » et les diffuse via des pages se faisant passer pour des habitants de chaque ville ou comté. Il ne s’agit pas de fake news ; les articles sont réels, mais leur provenance et leurs flux financiers restent invisibles, et les meilleurs spécialistes taïwanais de la guerre cognitive s’exclament : ne vous précipitez pas pour les étiqueter.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/society/i-am-from",
-    "readingTime": 87,
+    "readingTime": 77,
     "featured": false,
     "date": "2026-06-05",
     "path": "fr/Society/i-am-from.md"
@@ -33997,26 +33979,10 @@
     "path": "fr/People/kao-chun-ming.md"
   },
   {
-    "title": "Kaohsiung City: In 1979, the Year It Became a Special Municipality, Eight Kaohsiung People Were Held in a Taipei Prison",
-    "description": "On July 1, 1979, Kaohsiung was upgraded to become Taiwan's second special municipality. On December 10, Human Rights Day, a speech organized by Formosa Magazine at the Dagangpu Roundabout turned into a clash under tear gas. Eight people were sentenced. On February 28, 1980, a bloodshed occurred at Lin Yi-hsiung's home on Xinyi Road in Taipei. In the same year, 1979, Kaohsiung received administrative honor and swallowed the heaviest political repression in postwar Taiwan. Its 2.71 million people are spread across 38 districts: the Cijin sandbar, Bunun communities in Namaxia, China Steel smokestacks, and Weiwuying's aluminum-alloy roof all share the same city. Over 45 years, this city has stitched its wounds into a shape of its own.",
+    "title": "Kaohsiung City: In 1979, the Year It Became a Direct-Controlled Municipality, Eight Kaohsiung People Were Imprisoned in Taipei",
+    "description": "On July 1, 1979, Kaohsiung was upgraded into Taiwan’s second direct-controlled municipality. On December 10, Human Rights Day, a Formosa Magazine speech at Dagangpu traffic circle turned into a clash under tear gas. Eight people were sentenced. On February 28, 1980, a massacre was reported at Lin Yi-hsiung’s home on Xinyi Road in Taipei. In the same year, 1979, Kaohsiung gained administrative glory and swallowed the heaviest political repression in postwar Taiwan. Its 2.71 million people are spread across 38 districts: the sandbar of Cijin, Bunun communities in Namasia, China Steel smokestacks, and Weiwuying’s aluminum-alloy roof all share one city. Over 45 years, this city stitched its wounds into a shape of its own.",
     "category": "en",
-    "tags": [
-      "Kaohsiung",
-      "Kaohsiung City",
-      "Southern Taiwan",
-      "Special Municipality",
-      "Port of Kaohsiung",
-      "Formosa Incident",
-      "Love River",
-      "China Steel",
-      "Weiwuying",
-      "Liuhe Night Market",
-      "Dome of Light",
-      "Meinong",
-      "Namaxia",
-      "Typhoon Morakot Disaster",
-      "22 Counties and Cities Series"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/geography/kaohsiung-city",
     "readingTime": 245,
     "featured": false,
@@ -34112,12 +34078,12 @@
     "path": "en/People/kevin-lin-ultramarathon-desert-pioneer.md"
   },
   {
-    "title": "Kinmen County: The 56 Hours in 1949 That Determined Kinmen's Fate for 75 Years",
-    "description": "Kinmen is only 1.8 kilometers from Jiaoyu, Xiamen, at its nearest point, and 358 kilometers from Taipei. In 1387, the Marquis of Jiangxia Zhou Dexing built a garrison city here, taking its name from the phrase 'as impregnable as walls of metal and a moat of boiling water, a mighty guard at the sea gate.' At 2 a.m. on October 25, 1949, three Communist regiments, 9,086 men, landed on the beaches of Guningtou; Nationalist forces repelled them after 56 hours of fierce fighting. In the 44 days beginning at 5:30 p.m. on August 23, 1958, 474,910 artillery shells fell on an island of 151 square kilometers, followed by 21 more years of shelling on odd-numbered days and no shelling on even-numbered days. Today, 145,000 people are registered in Kinmen, and at 4 a.m. more boats leave Shuitou Pier for Xiamen than planes fly to Taipei. Yeh Hua-cheng's great-grandson has waited 67 years for an apology.",
+    "title": "Kinmen County: The 56 Hours in 1949 That Determined Kinmen’s Fate for 75 Years",
+    "description": "Kinmen is only 1.8 kilometers from Jiaoyu off Xiamen at its closest point, and 358 kilometers from Taipei. In 1387, the Marquis of Jiangxia, Zhou Dexing, built a fortified garrison here, taking the meaning of “solid as metal and moat, a mighty guard at the sea gate.” At 2 a.m. on October 25, 1949, three Communist regiments, 9,086 men, landed on the beaches of Guningtou; Taiwan’s armed forces fought for 56 hours and repelled them. During the 44 days beginning at 5:30 p.m. on August 23, 1958, 474,910 artillery shells fell on an island of 151 square kilometers, followed by 21 more years of shelling on odd-numbered days and silence on even-numbered days. Today, 145,000 people are registered in Kinmen, and at Shuitou Pier at 4 a.m. there are more boats to Xiamen than flights to Taipei. Yeh Hua-cheng’s great-grandson waited 67 years for an apology.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/geography/kinmen-county",
-    "readingTime": 215,
+    "readingTime": 211,
     "featured": false,
     "date": "2026-05-18",
     "path": "en/Geography/kinmen-county.md"
@@ -34653,14 +34619,7 @@
     "title": "L'héritage des mélodies d'or : histoire et statut culturel de la musique pop taïwanaise",
     "description": "Du mouvement de la chanson folk au phénomène Jay Chou, explorer comment la musique pop taïwanaise a façonné le paysage de la musique sinophone",
     "category": "fr",
-    "tags": [
-      "musique pop taïwanaise",
-      "mouvement de la chanson folk",
-      "Golden Melody Awards",
-      "Jay Chou",
-      "musique indépendante",
-      "industrie musicale"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/fr/music/golden-melodies-legacy-taiwan-pop-music",
     "readingTime": 81,
     "featured": true,
@@ -36260,14 +36219,7 @@
     "title": "La herencia de las melodías doradas: historia y lugar cultural de la música pop taiwanesa",
     "description": "Del movimiento de la canción folk al fenómeno Jay Chou: cómo la música pop taiwanesa moldeó el panorama de la música en chino",
     "category": "es",
-    "tags": [
-      "música pop taiwanesa",
-      "movimiento de la canción folk",
-      "Premios Golden Melody",
-      "Jay Chou",
-      "música independiente",
-      "industria musical"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/es/music/golden-melodies-legacy-taiwan-pop-music",
     "readingTime": 74,
     "featured": true,
@@ -40222,12 +40174,12 @@
     "path": "en/Culture/loanwords-and-language-contact-in-taiwan.md"
   },
   {
-    "title": "Logement public et justice résidentielle : les logements abordables construits par l’État, un ascenseur patrimonial pour qui ?",
-    "description": "En 1985, au complexe public Chenggong, un ping valait 67 000 NT$ et ne trouvait pas preneur; un vieux chef de quartier réunit 400 000 NT$ d’apport pour acheter. Quarante ans plus tard, à la même adresse, le prix approche le million de NT$ par ping. Le logement national devait être un outil pour « aider la population à pouvoir acheter un logement », mais il n’a jamais été doté d’un sas de récupération des plus-values; la subvention publique est finalement devenue le patrimoine privé des premiers acheteurs. En 2026, Taoyuan remet ce sas en place, ce qui revient à reconnaître l’erreur du logement national.",
+    "title": "Logement national et justice résidentielle : ces logements bon marché construits par l'État, et l'ascenseur patrimonial qu'ils ont finalement créé",
+    "description": "En 1985, les logements de Chenggong, à 67 000 dollars taïwanais le ping, ne trouvaient pas preneur ; un ancien chef de quartier réunit 400 000 dollars taïwanais d'apport initial pour en acheter un. Quarante ans plus tard, à la même adresse, le prix approche le million par ping. Le logement national devait être un outil pour « aider la population à pouvoir acheter un logement », mais il n'a jamais été doté d'un sas de récupération de la plus-value : la subvention publique est finalement devenue le patrimoine privé de ceux qui avaient acheté tôt. En 2026, Taoyuan remet ce sas en place, ce qui revient à reconnaître l'erreur du logement national.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/society/public-housing-justice",
-    "readingTime": 232,
+    "readingTime": 249,
     "featured": false,
     "date": "2026-06-06",
     "path": "fr/Society/public-housing-justice.md"
@@ -40445,6 +40397,17 @@
     "featured": false,
     "date": "2026-03-24",
     "path": "es/Society/taiwan-disaster-volunteer-culture.md"
+  },
+  {
+    "title": "Los tiao-tong de la calle Zhongshan Norte: la ruta hacia el santuario que trazaron los japoneses y que al final volvió a manos de empresas japonesas",
+    "description": "El 17 de abril de 1923, Hirohito, príncipe heredero de Japón de 19 años, salió en carruaje de la estación de Taipéi y recorrió una vía de 15 metros de ancho rumbo al Santuario de Taiwán en Yuanshan: se llamaba Calzada de los Enviados Imperiales. En 1941 fue ampliada a una avenida de 40 metros y cinco carriles. En 1945 pasó a llamarse «calle Zhongshan Norte» en memoria de Sun Yat-sen. En 1951, durante la Guerra de Corea, las fuerzas estadounidenses se instalaron allí, y el tramo tres de la calle Zhongshan Norte se convirtió en una «concesión estadounidense». En 1972, tras la ruptura diplomática entre la República de China (Taiwán) y Japón, las empresas japonesas no se marcharon; en 1979 se fueron las fuerzas estadounidenses; en los años 1980, las empresas japonesas tomaron el relevo de los tiao-tong. La ruta hacia el santuario que trazaron los japoneses, al final, volvió a manos de las compañías japonesas.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/geography/zhongshan-north-road-tiaotong",
+    "readingTime": 248,
+    "featured": false,
+    "date": "2026-05-21",
+    "path": "es/Geography/zhongshan-north-road-tiaotong.md"
   },
   {
     "title": "Los Tigres Pequeños",
@@ -43294,14 +43257,7 @@
     "title": "Pensamiento archipelágico: devolver Taiwán al mapa del mundo malayo",
     "description": "Taiwán no es una isla aislada en la periferia china; también es el extremo nororiental del mundo malayo, la patria originaria de la familia lingüística austronesia y el punto de partida de la expansión por el Pacífico. Si giras el mapa 30 grados hacia el sur, verás otro sistema de coordenadas plenamente válido, pero omitido.",
     "category": "es",
-    "tags": [
-      "archipiélagos",
-      "familia austronesia",
-      "Nusantara",
-      "historia insular de Taiwán",
-      "pueblos indígenas",
-      "geografía cultural"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/es/culture/archipelago-thinking",
     "readingTime": 147,
     "featured": true,
@@ -43312,14 +43268,7 @@
     "title": "Pensée archipélagique : replacer Taïwan sur la carte du monde malais",
     "description": "Taïwan n'est pas seulement une île isolée aux marges du monde chinois : c'est aussi l'extrémité nord-est du monde malais, le foyer originel des langues austronésiennes et le point de départ de leur diffusion dans le Pacifique. Faites pivoter la carte de 30 degrés vers le sud, et vous verrez apparaître un autre système de coordonnées, parfaitement cohérent mais longtemps omis.",
     "category": "fr",
-    "tags": [
-      "archipel",
-      "langues austronésiennes",
-      "Nusantara",
-      "histoire insulaire de Taïwan",
-      "peuples autochtones",
-      "géographie culturelle"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/fr/culture/archipelago-thinking",
     "readingTime": 153,
     "featured": true,
@@ -44927,12 +44876,12 @@
     "path": "es/People/tsao-hsing-cheng-from-chip-tycoon-to-anti-china-defender.md"
   },
   {
-    "title": "Rue des sources chaudes de Beitou : de l'extraction du soufre en 1697 au musée des bains en 2026, la même source de montagne et quatre générations d'habitants",
-    "description": "En 1697, Yu Yonghe vint dans ces montagnes extraire du soufre et échangea de la terre sulfurée avec les Ketagalan ; en 1896, l'Osakien Hirata Gengo construisit au 234 de l'actuelle Guangming Road le Tengu-an, premier hôtel thermal de Taïwan ; en 1913 ouvrit le bain public en briques rouges conçu par Moriyama Matsunosuke ; en 1923, le prince héritier Hirohito y prit un bain ; en 1967, une photographie du magazine Time mit Chiang Kai-shek hors de lui ; en 1979, après l'abolition de la prostitution par le maire Lee Teng-hui, les maisons de divertissement éteignirent leurs lumières ; en 1998, le bain public en briques rouges abandonné devint un musée. La même source de montagne fumante fut découverte trois fois par des arrivants extérieurs, et quatre générations d'habitants s'y adaptèrent.",
+    "title": "Rue thermale de Beitou : de l'extraction du soufre en 1697 au musée des bains en 2026, une même source de montagne pour quatre générations d'habitants",
+    "description": "En 1697, Yu Yonghe vint dans ces montagnes extraire du soufre et échanger des terres sulfureuses avec les Ketagalan ; en 1896, Hirata Gengo, originaire d'Osaka, construisit au 234 de l'actuelle Guangming Road le premier hôtel thermal de Taïwan, le Tengu-an ; en 1913 ouvrit le bain public de briques rouges conçu par Moriyama Matsunosuke ; en 1923, le prince héritier Hirohito vint s'y baigner une fois ; en 1967, une photographie du magazine Time mit Tchang Kaï-chek hors de lui ; en 1979, après l'abolition de la prostitution par le maire Lee Teng-hui, les cabarets éteignirent leurs lumières ; en 1998, le bain public de briques rouges abandonné devint un musée. La même source de montagne fumante a été découverte trois fois par des personnes venues d'ailleurs, et adaptée par quatre générations d'habitants.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/geography/beitou-hot-spring-street",
-    "readingTime": 276,
+    "readingTime": 268,
     "featured": false,
     "date": "2026-05-21",
     "path": "fr/Geography/beitou-hot-spring-street.md"
@@ -45278,34 +45227,34 @@
     "path": "es/People/shih-ming-te.md"
   },
   {
-    "title": "Shilin : terre ketagalan, temple des affrontements Zhangzhou-Quanzhou, et aujourd’hui le marché de nuit le plus dense de Taipei",
-    "description": "À 19 h 30, au carrefour du marché de nuit de Shilin, des touristes coréens se prennent en selfie avec une grande escalope de poulet frit ; à côté, au no 84 de Danan Road, le temple Cixian est là depuis 1796, première année de Jiaqing, et atteint 230 ans en 2026. En 1859, neuvième année de Xianfeng, les gens de Zhangzhou furent chassés de cette rue incendiée par ceux de Quanzhou ; en 1860, année gengshen, Pan Yongqing traça à Xiashulin quatre rues régulières, Dadong Road, Danan Road, Daxi Road et Dabei Road, et plaça le temple exactement au centre. En 1909, les Japonais construisirent un marché en face du temple ; en 1955, le cinéma Yangming fut achevé sur Wenlin Road ; en 1992, Hot-Star Large Fried Chicken fut inventé à Taichung ; en 1999, il arriva à Shilin. En 2002, les auvents ajoutés après-guerre furent démolis ; en 2011, le nouveau marché ouvrit ; l’aire de restauration souterraine fonctionne du matin au soir avec deux équipes successives. Le temple est toujours au même endroit, mais à ses pieds deux villes se relaient chaque jour.",
+    "title": "Shilin : terre des Ketagalan, temple des affrontements Zhangzhou-Quanzhou, aujourd'hui le marché de nuit le plus dense de Taipei",
+    "description": "À 19 h 30, au carrefour du marché de nuit de Shilin, des touristes coréens se prennent en selfie avec une grande escalope de poulet frit à la main, tandis qu'à côté, au 84, Danan Road, le temple Cixian, fondé en 1796, première année de l'ère Jiaqing, atteint 230 ans en 2026. En 1859, neuvième année de l'ère Xianfeng, les Zhangzhou furent chassés de cette rue par le feu des Quanzhou ; en 1860, année gengshen, Pan Yongqing traça à Xiashulin quatre rues orthogonales, Dadong Road, Danan Road, Daxi Road et Dabei Road, et plaça le temple exactement au centre. En 1909, les Japonais construisirent un marché en face du temple ; en 1955, le cinéma Yangming fut inauguré sur Wenlin Road ; en 1992, Hot-Star Large Fried Chicken fut inventé à Taichung, avant de s'installer à Shilin en 1999. En 2002, les extensions d'après-guerre furent démolies ; en 2011, le nouveau marché ouvrit, et l'aire alimentaire souterraine commença à fonctionner en deux équipes, du matin au soir. Le temple est toujours au même endroit, mais à ses pieds deux villes se relaient chaque jour.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/geography/shilin",
-    "readingTime": 227,
+    "readingTime": 226,
     "featured": false,
     "date": "2026-05-21",
     "path": "fr/Geography/shilin.md"
   },
   {
-    "title": "Shilin: Ketagalan Land, Temple of Zhang-Quan Clan Wars, Now Taipei's Most Crowded Night Market Every Evening",
-    "description": "At 7:30 p.m., Korean tourists at the Shilin Night Market intersection take selfies with oversized chicken cutlets, while Cixian Temple at No. 84 Da Nan Road—standing since the first year of the Jiaqing reign in 1796—turns 230 in 2026. In 1859, the ninth year of the Xianfeng reign, Quanzhou settlers burned the Zhangzhou settlers out of this street. In 1860, the Gengshen year, Pan Yongqing laid out four orderly streets—Da Dong Road, Da Nan Road, Da Xi Road, and Da Bei Road—in the Xiashulin area, placing the temple at the exact center. In 1909, the Japanese built a market across from the temple; in 1955, Yangming Theater opened on Wenlin Road; in 1992, Hot-Star Large Chicken Cutlet was invented in Taichung; in 1999, it moved into Shilin. In 2002, post-war makeshift stalls were demolished; in 2011, the new market opened, with the underground food court running two shifts daily from morning to night. The temple remains in its original location, but two different cities take turns at its feet every day.",
+    "title": "Shilin: Ketagalan Land, a Temple from the Zhangzhou-Quanzhou Feuds, and Now Taipei's Most Crowded Night Market Every Night",
+    "description": "At 7:30 p.m., Korean tourists at the entrance to Shilin Night Market hold up giant fried chicken cutlets for selfies, while beside them Cixian Temple at No. 84 Danan Road has stood from 1796, the first year of the Jiaqing reign, to 2026, when it turns 230. In 1859, the ninth year of the Xianfeng reign, Zhangzhou people were burned out of this street by Quanzhou people. In 1860, the gengshen year, Pan Yongqing laid out four squared-off streets in Xiashulin: Dadong Road, Danan Road, Daxi Road, and Dabei Road, placing the temple at the exact center. In 1909, the Japanese built a market opposite the temple; in 1955, Yangming Theater was completed on Wenlin Road; in 1992, Hot-Star Large Fried Chicken was invented in Taichung and entered Shilin in 1999. The postwar-added sheds were demolished in 2002; the new market opened in 2011; the underground food court has two shifts of people from morning to night. The temple is still in its original place, but at its feet two cities take turns every day.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/geography/shilin",
-    "readingTime": 211,
+    "readingTime": 214,
     "featured": false,
     "date": "2026-05-21",
     "path": "en/Geography/shilin.md"
   },
   {
-    "title": "Shilin: tierra del pueblo ketagalan, templo de las luchas armadas Zhangzhou-Quanzhou, y hoy cada noche el mercado nocturno más concurrido de Taipéi",
-    "description": "A las siete y media de la noche, turistas coreanos se toman selfis con enormes filetes de pollo frito en la entrada del mercado nocturno de Shilin, mientras al lado, en el número 84 de Danan Road, el templo Cixian ha permanecido allí desde 1796, primer año de Jiaqing, y cumple 230 años en 2026. En 1859, noveno año de Xianfeng, los habitantes de Zhangzhou fueron expulsados de esta calle incendiada por los de Quanzhou; en 1860, año gengshen, Pan Yongqing trazó en Xiashulin cuatro calles rectangulares, Dadong Road, Danan Road, Daxi Road y Dabei Road, y colocó el templo justo en el centro. En 1909 los japoneses construyeron un mercado frente al templo; en 1955 se inauguró el cine Yangming en Wenlin Road; en 1992 se inventó en Taichung el gran filete de pollo frito Hot-Star, que llegó a Shilin en 1999. En 2002 se demolieron los cobertizos añadidos después de la guerra; en 2011 abrió el nuevo mercado; la zona gastronómica subterránea rota dos turnos de personas desde la mañana hasta la noche. El templo sigue en el mismo sitio, pero a sus pies se alternan cada día dos ciudades.",
+    "title": "Shilin: tierra de los ketagalanes, templo de las luchas Zhangzhou-Quanzhou, y hoy cada noche el mercado nocturno más concurrido de Taipéi",
+    "description": "A las siete y media de la noche, turistas coreanos en la entrada del mercado nocturno de Shilin se toman selfies sosteniendo enormes filetes de pollo frito, mientras al lado, en el número 84 de Danan Road, el templo Cixian, fundado en 1796, primer año de Jiaqing, cumple 230 años en 2026. En 1859, noveno año de Xianfeng, los zhangzhou fueron expulsados de esta calle por los quanzhou, que la incendiaron. En 1860, año gengshen, Pan Yongqing trazó en Xiashulin cuatro calles rectangulares, Dadong Road, Danan Road, Daxi Road y Dabei Road, y puso el templo en el centro exacto. En 1909 los japoneses construyeron un mercado frente al templo; en 1955 se inauguró el cine Yangming en Wenlin Road; en 1992 se inventó Hot-Star Large Fried Chicken en Taichung, y en 1999 llegó a Shilin. En 2002 se demolieron las cubiertas añadidas después de la guerra; en 2011 abrió el nuevo mercado, y el patio de comidas subterráneo empezó a funcionar con dos turnos de gente de la mañana a la noche. El templo sigue en su lugar original, pero a sus pies se alternan cada día dos ciudades.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/geography/shilin",
-    "readingTime": 232,
+    "readingTime": 223,
     "featured": false,
     "date": "2026-05-21",
     "path": "es/Geography/shilin.md"
@@ -45685,6 +45634,17 @@
     "featured": true,
     "date": "2026-03-19",
     "path": "en/Food/taiwan-soy-milk-and-breakfast-shops.md"
+  },
+  {
+    "title": "Soy OO: la página que te llama “compañero” tiene como backend una empresa en Neihu y una instrucción de IA que se olvidó borrar",
+    "description": "En febrero de 2026, una página local que se autodenominaba “Soy de Taipéi” dejó una instrucción de IA sin eliminar: «Eliminar palabras sensibles, reforzar el lenguaje local de Taiwán». Siguiendo esa pista, el rastro lleva a una empresa familiar Lin ubicada en un edificio de Neihu, que reescribe las noticias de CTWANT y Zhongtian con tono de “compañero” y las publica en páginas que fingen ser locales de distintos municipios. No falsifica noticias, solo redistribuye noticias reales; el problema radica en que el origen y el flujo de dinero son imposibles de rastrear, y los expertos taiwaneses más hábiles en detectar operaciones de cognición advierten: no etiquetes apresuradamente.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/society/i-am-from",
+    "readingTime": 93,
+    "featured": false,
+    "date": "2026-06-05",
+    "path": "es/Society/i-am-from.md"
   },
   {
     "title": "Sport stacking : d'un gadget internet à 1,915 seconde à une légende asiatique de 43 médailles d'or",
@@ -46466,6 +46426,17 @@
     "path": "en/Geography/taitung-county.md"
   },
   {
+    "title": "Taiwan Advertising History: The Product Is Forgotten, But We Still Hum the Jingle",
+    "description": "In 1968, the Tatung electric cooker's jingle sounded on television. Half a century later, people in Taiwan can still continue with 'Tatung, Tatung, domestic goods are good,' yet almost no one remembers that the melody was originally Sanyo's. From the print advertisements of the Japanese colonial-era Taiwan Nichinichi Shinpō, to the martial-law decades when only three television stations bound the whole country's attention to the same channels, and then to 2016, when digital advertising spending surpassed television, Taiwan's most remembered advertisements often leave the products they sold forgotten, while preserving the sound of an entire era.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/culture/taiwan-advertising-history",
+    "readingTime": 165,
+    "featured": false,
+    "date": "2026-06-14",
+    "path": "en/Culture/taiwan-advertising-history.md"
+  },
+  {
     "title": "Taiwan Agricultural Landscapes and Industry Belts",
     "description": "The shift in agricultural landscapes from north to south traces Taiwan''s transformation from the \"Taiwanese Granary\" to \"precision agriculture.\"",
     "category": "en",
@@ -46505,15 +46476,7 @@
     "title": "Taiwan AI Labs",
     "description": "A non-profit AI research organization founded in March 2017 by Ethan Tu, known as the 'Father of PTT.' Open-source models: TAIDE (Traditional Chinese large language model), TAME, and FedGPT, with a corpus of over 60 billion Traditional Chinese tokens. Focus areas: smart healthcare and cognitive warfare defense. COVID-19 social distancing app (decentralized Bluetooth).",
     "category": "en",
-    "tags": [
-      "人工智慧",
-      "智慧醫療",
-      "杜奕瑾",
-      "科技創新",
-      "資訊戰防制",
-      "TAIDE",
-      "PTT"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/technology/taiwan-ai-labs",
     "readingTime": 24,
     "featured": true,
@@ -48121,13 +48084,13 @@
     "path": "en/Geography/climate.md"
   },
   {
-    "title": "Taiwan's Climate Crisis and Net-Zero Transition: The Day the Nuclear Three Referendum Failed Was Just the Beginning of Choosing Physical Limits",
-    "description": "August 23, 2025 Nuclear Three Extension Referendum: 4.34 million yes votes, 74% approval, 29.53% turnout missed the threshold. The referendum failed, and the next day Lai Ching-te announced three principles. Seven months later, on March 27, 2026, Taipower submitted the extension application to the NAC. 98% energy reliance on imports, 9 trillion NTD for net-zero, geothermal target of 200 MW with only 7.4 MW built, offshore wind capacity ranks seventh globally, Onkalo ultimate repository, TerraPower fourth-generation nuclear power—this island's energy problem has never been a political one, but a question of physical limits.",
+    "title": "Taiwan’s Climate Crisis and Net-Zero Transition: On the Day the Maanshan Nuclear Plant Referendum Failed, the Choices Set by Physical Limits Had Only Just Begun",
+    "description": "The August 23, 2025 referendum on extending the Maanshan Nuclear Power Plant: 4.34 million yes votes, 74% in favor, but turnout of 29.53% fell short of the threshold. The referendum failed; the next day Lai Ching-te set out three principles, and seven months later, on March 27, 2026, Taipower submitted its life-extension application to the Nuclear Safety Commission. With 98% of energy imported, NT$9 trillion for net zero, a geothermal target of 200 MW but only 7.4 MW built, the world’s seventh-largest installed offshore wind capacity, the Onkalo final repository, and TerraPower’s fourth-generation nuclear power, Taiwan’s energy question has never been a political question. It is a question of physical limits.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/nature/taiwan-climate-change-net-zero-transition",
-    "readingTime": 237,
-    "featured": false,
+    "readingTime": 258,
+    "featured": true,
     "date": "2026-05-19",
     "path": "en/Nature/taiwan-climate-change-net-zero-transition.md"
   },
@@ -50758,14 +50721,7 @@
     "title": "The Legacy of Golden Melodies: The History and Cultural Position of Taiwanese Popular Music",
     "description": "From the folk music movement to the Jay Chou phenomenon, exploring how Taiwanese popular music shaped the Mandopop landscape",
     "category": "en",
-    "tags": [
-      "Taiwanese Popular Music",
-      "Folk Music Movement",
-      "Golden Melody Awards",
-      "Jay Chou",
-      "Independent Music",
-      "Music Industry"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/music/golden-melodies-legacy-taiwan-pop-music",
     "readingTime": 72,
     "featured": true,
@@ -51093,15 +51049,15 @@
     "path": "fr/People/hebe-tien-singer.md"
   },
   {
-    "title": "Tiaotong de la avenida Zhongshan Norte: el camino al santuario que trazaron los japoneses y que al final recuperaron las empresas japonesas",
-    "description": "El 17 de abril de 1923, el príncipe heredero japonés Hirohito, de 19 años, salió de la estación de Taipéi en carruaje y recorrió una vía de 15 metros de ancho rumbo al Santuario de Taiwán en Yuanshan; esa vía se llamaba camino Chokushi. En 1941 fue ampliada a una avenida de cinco carriles y 40 metros. En 1945 fue rebautizada como «avenida Zhongshan Norte» en memoria de Sun Yat-sen. En 1951, durante la Guerra de Corea, las fuerzas estadounidenses se instalaron en Taiwán y el tramo 3 de Zhongshan Norte se convirtió en una «concesión estadounidense». En 1972, tras la ruptura diplomática entre la República de China (Taiwán) y Japón, las empresas japonesas no se fueron; en 1979 se fueron las tropas estadounidenses; en los años 1980, las empresas japonesas tomaron el relevo en los tiaotong. El camino al santuario que habían trazado los japoneses terminó siendo recuperado por las casas comerciales japonesas.",
-    "category": "es",
+    "title": "Tiaotong de Zhongshan Nord : la route vers le sanctuaire tracée par les Japonais a finalement été reprise par les maisons de commerce japonaises",
+    "description": "Le 17 avril 1923, le prince héritier japonais Hirohito, âgé de 19 ans, quitta la gare de Taipei en calèche et emprunta une route large de 15 mètres vers le sanctuaire de Taïwan à Yuanshan : elle s'appelait la voie de l'émissaire impérial. En 1941, elle fut élargie en boulevard à cinq voies de 40 mètres. En 1945, elle fut rebaptisée « Zhongshan Nord » en mémoire de Sun Yat-sen. En 1951, avec la guerre de Corée, les forces américaines s'installèrent et la section 3 de Zhongshan Nord devint une « concession américaine ». En 1972, après la rupture diplomatique entre la République de Chine et le Japon, les entreprises japonaises ne partirent pas ; en 1979, les forces américaines partirent ; dans les années 1980, les entreprises japonaises reprirent les tiaotong. La route vers le sanctuaire tracée par les Japonais a finalement été reprise par les maisons de commerce japonaises.",
+    "category": "fr",
     "tags": [],
-    "url": "https://taiwan.md/es/geography/zhongshan-north-road-tiaotong",
-    "readingTime": 242,
+    "url": "https://taiwan.md/fr/geography/zhongshan-north-road-tiaotong",
+    "readingTime": 241,
     "featured": false,
     "date": "2026-05-21",
-    "path": "es/Geography/zhongshan-north-road-tiaotong.md"
+    "path": "fr/Geography/zhongshan-north-road-tiaotong.md"
   },
   {
     "title": "Tierra baldía digital: cómo sobrevivió 12 años una plataforma en línea de crítica de arte sin modelo de negocio",
@@ -51461,19 +51417,19 @@
     "path": "fr/Society/migrant-workers-in-taiwan.md"
   },
   {
-    "title": "Treasure Hill : le village de constructions illégales promis à la démolition pendant 30 ans devenu le village d’artistes le plus cool de Taipei",
-    "description": "En juillet 1980, le gouvernement municipal de Taipei classe cette colline comme terrain réservé au parc no 297, plaçant plus de 200 foyers construits illégalement dans l’état d’« attente de démolition ». Des démolitions effectives ont lieu en 1993, 1994 et 2001, mais après l’affaire de Kangle Li en 1997, la municipalité s’oriente vers une « préservation sur site », et le village d’artistes international ouvre le 2 octobre 2010. Trente années de décisions de démolition se transforment finalement en un village de « cohabitation entre art et résidence » ayant accueilli plus de 500 artistes venus de plus de 40 pays — un temple Guanyin rénové pour la première fois en 1791, un groupe de personnes ayant construit elles-mêmes leur logement dans les années 1960, plus de 20 foyers d’habitants d’origine restés sur place, et des créateurs internationaux en résidence renouvelés tous les trois mois, vivant ensemble sur une petite colline de 46 mètres de haut.",
+    "title": "Treasure Hill : le village informel menacé de démolition pendant 30 ans devenu le village d’artistes le plus singulier de Taipei",
+    "description": "En juillet 1980, la municipalité de Taipei a classé cette colline comme site réservé au parc no 297, plaçant plus de 200 foyers construits sans permis dans un état d’« attente de démolition ». Des démolitions effectives ont eu lieu en 1993, 1994 et 2001, mais après l’affaire de Kangleli en 1997, la municipalité s’est orientée vers une « conservation sur place » ; le village international d’artistes a ouvert le 2 octobre 2010. Trente ans de décisions de démolition ont finalement donné naissance à un village d’« art et habitat en symbiose » ayant accueilli plus de 500 artistes venus de plus de 40 pays : un temple de Guanyin rénové pour la première fois en 1791, des habitants qui avaient bâti eux-mêmes leurs maisons dans les années 1960, plus de vingt foyers d’origine restés sur place, et des créateurs internationaux en résidence renouvelés tous les trois mois, cohabitant sur une petite colline de 46 mètres de haut.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/geography/treasure-hill",
-    "readingTime": 259,
+    "readingTime": 266,
     "featured": false,
     "date": "2026-05-21",
     "path": "fr/Geography/treasure-hill.md"
   },
   {
-    "title": "Treasure Hill: el asentamiento informal que intentaron demoler durante 30 años y que terminó convertido en la aldea artística más cool de Taipéi",
-    "description": "En julio de 1980, el Gobierno de la Ciudad de Taipéi declaró esta colina como terreno reservado para el Parque n.º 297, y más de 200 viviendas ilegales pasaron a quedar en estado de “esperar la demolición”. Hubo demoliciones efectivas en 1993, 1994 y 2001, pero después del caso Kangle Li de 1997, el gobierno municipal giró hacia la “preservación in situ”, y el 2 de octubre de 2010 se inauguró la aldea artística internacional. Treinta años de sentencias y órdenes de desalojo terminaron transformándose en un asentamiento de “convivencia entre arte y residencia” por el que han pasado más de 500 artistas de más de 40 países: un templo de Guanyin de 1791, un grupo de personas que construyeron sus propias casas en la década de 1960, más de 20 hogares de residentes originales que permanecieron, y creadores internacionales en residencia que se renuevan cada tres meses, todos viviendo en una pequeña colina de 46 metros de altura.",
+    "title": "Treasure Hill: el asentamiento informal que pasó 30 años bajo amenaza de demolición y terminó convertido en la aldea artística más cool de Taipéi",
+    "description": "En julio de 1980, el Gobierno de la Ciudad de Taipéi designó esta loma como terreno previsto para el parque n.º 297, y más de 200 hogares en construcciones ilegales quedaron en estado de «esperar la demolición». Hubo demoliciones efectivas en 1993, 1994 y 2001, pero después del incidente de Kangle Village en 1997 el municipio giró hacia la «preservación in situ», y el 2 de octubre de 2010 se inauguró la aldea artística internacional. Treinta años de dictámenes de desalojo y demolición terminaron convertidos en un asentamiento de «convivencia entre arte y residencia» que ha recibido a más de 500 artistas de más de 40 países: un templo de Guanyin de 1791, un grupo de personas que construyeron sus propias casas en la década de 1960, más de 20 hogares originarios que permanecieron allí y creadores internacionales en residencia que cambian cada tres meses, todos compartiendo una pequeña loma de 46 metros de altura.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/geography/treasure-hill",
@@ -51483,12 +51439,12 @@
     "path": "es/Geography/treasure-hill.md"
   },
   {
-    "title": "Treasure Hill: The Illegal Hillside Settlement Taipei Tried to Demolish for 30 Years, Until It Became the City’s Coolest Artist Village",
-    "description": "In July 1980, the Taipei City Government designated this hill as the planned site of Park No. 297, placing more than 200 illegal buildings in a state of waiting to be demolished. Actual demolitions took place in 1993, 1994, and 2001, but after the 1997 Kangle Borough incident, the city shifted toward in-situ preservation, and Treasure Hill Artist Village opened on October 2, 2010. Thirty years of demolition orders ultimately became an 'art-residence symbiosis' settlement that has hosted more than 500 artists from over 40 countries: a Guanyin temple first renovated in 1791, a group of people who built their own homes in the 1960s, more than 20 original households who stayed, and a rotating cohort of international resident artists every three months, all living on the same 46-meter-high hill.",
+    "title": "Treasure Hill: The Informal Settlement Slated for Demolition for 30 Years That Became Taipei’s Coolest Artist Village",
+    "description": "In July 1980, the Taipei City Government designated this hilltop as the planned site of Park No. 297, putting more than 200 illegal structures into a state of “waiting to be demolished.” Actual demolitions took place in 1993, 1994, and 2001, but after the 1997 Kangle Li incident, the city shifted toward “in-situ preservation,” and the international artist village opened on October 2, 2010. Thirty years of demolition rulings ultimately became an “art-residence symbiosis” settlement that has hosted more than 500 artists from over 40 countries: a Guanyin temple first renovated in 1791, a group of people who built their own homes in the 1960s, more than 20 original households that stayed, and a rotating cohort of international resident artists every three months, all living together on a small 46-meter-high hill.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/geography/treasure-hill",
-    "readingTime": 237,
+    "readingTime": 241,
     "featured": false,
     "date": "2026-05-21",
     "path": "en/Geography/treasure-hill.md"
@@ -52207,12 +52163,12 @@
     "path": "en/Society/visualization-module-catalog.md"
   },
   {
-    "title": "Vivienda nacional y justicia habitacional: las casas baratas construidas por el gobierno, ¿la escalera patrimonial de quién terminaron alimentando?",
-    "description": "En 1985, en la vivienda nacional Chenggong, a 67.000 dólares taiwaneses por ping nadie quería comprar; un viejo jefe de barrio juntó 400.000 dólares taiwaneses para el pago inicial y compró una unidad. Cuarenta años después, la misma dirección se acerca al millón por ping. La vivienda nacional nació como una herramienta para “ayudar a la gente a poder comprar casa”, pero nunca incorporó una compuerta para recuperar la valorización; el subsidio público terminó convertido en patrimonio privado de quienes compraron temprano. En 2026, Taoyuan volvió a instalar esa compuerta: en la práctica, es una admisión de error de la vivienda nacional.",
+    "title": "Vivienda pública nacional y justicia habitacional: las viviendas baratas construidas por el gobierno, y la escalera de activos que terminaron creando",
+    "description": "En 1985, las viviendas públicas nacionales Chenggong costaban 67.000 dólares taiwaneses por ping y aun así nadie las quería; un antiguo jefe de barrio reunió 400.000 dólares taiwaneses para el pago inicial y compró una unidad. Cuarenta años después, la misma dirección se acerca al millón por ping. La vivienda pública nacional debía ser una herramienta para «ayudar a la gente a comprar una casa», pero nunca incorporó una compuerta para recuperar la plusvalía: el subsidio público terminó convertido en patrimonio privado de quienes compraron primero. En 2026, Taoyuan volvió a instalar esa compuerta, lo que equivale a admitir el error de la política de vivienda pública nacional.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/society/public-housing-justice",
-    "readingTime": 229,
+    "readingTime": 225,
     "featured": false,
     "date": "2026-06-06",
     "path": "es/Society/public-housing-justice.md"
@@ -52320,6 +52276,28 @@
     "featured": false,
     "date": "2026-04-29",
     "path": "es/Society/mainlanders-in-taiwan.md"
+  },
+  {
+    "title": "Wan Wan : elle a donné un visage aux employés de bureau de tout Taïwan, mais a failli se perdre elle-même en douze jours",
+    "description": "En 2004, Hu Chia-wei s'est fait connaître sous le nom de « Wan Wan » sur Wretch.cc, avant de devenir, grâce aux avatars MSN, la première illustratrice taïwanaise valorisée à plusieurs dizaines de millions de dollars taïwanais. De reine du récit illustré avec « Peut-on ne pas aller travailler ? » à la tempête adultérine de 2014, douze jours après son mariage, elle a défini l'émotion collective d'une époque avec ses petits personnages chauves au trait simple, tout en montrant, par sa propre trajectoire, comment survivre discrètement après l'effondrement d'un personnage public.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/people/wanwan-taiwan-blog-cartoonist",
+    "readingTime": 56,
+    "featured": false,
+    "date": "2026-06-14",
+    "path": "fr/People/wanwan-taiwan-blog-cartoonist.md"
+  },
+  {
+    "title": "Wan Wan: dio un rostro a los oficinistas de todo Taiwán, pero estuvo a punto de perderse a sí misma en doce días",
+    "description": "En 2004, Hu Chia-wei irrumpió en Wretch bajo el nombre de “Wan Wan” y, gracias a sus avatares de MSN, se convirtió en la primera ilustradora de Taiwán valorada en decenas de millones. Desde la reina de la creación gráfica y textual de ¿Podría no ir a trabajar? hasta el escándalo de infidelidad de 2014, apenas doce días después de casarse, definió con sus sencillas figuras calvas las emociones colectivas de una época y también mostró, en carne propia, una forma silenciosa de sobrevivir tras el derrumbe de una imagen pública.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/people/wanwan-taiwan-blog-cartoonist",
+    "readingTime": 52,
+    "featured": false,
+    "date": "2026-06-14",
+    "path": "es/People/wanwan-taiwan-blog-cartoonist.md"
   },
   {
     "title": "Wang Chi-lin and Lee Yang (The Lin-Yang Duo)",
@@ -52525,6 +52503,17 @@
     "featured": false,
     "date": "2026-04-27",
     "path": "en/Lifestyle/wang-a-piau-pog-cards.md"
+  },
+  {
+    "title": "Wanwan: She Gave Taiwan's Office Workers a Face, Then Nearly Lost Herself in Twelve Days",
+    "description": "In 2004, Hu Chia-wei rose to prominence on Wretch under the name Wanwan, becoming Taiwan's first illustrator valued in the tens of millions through MSN display pictures. From the illustrated-writing diva behind Can I Not Go to Work? to the 2014 infidelity scandal twelve days after her wedding, she used simple bald-headed figures to define a generation's collective emotions, and personally demonstrated the quiet survival that follows the collapse of a public persona.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/people/wanwan-taiwan-blog-cartoonist",
+    "readingTime": 49,
+    "featured": false,
+    "date": "2026-06-14",
+    "path": "en/People/wanwan-taiwan-blog-cartoonist.md"
   },
   {
     "title": "Wei Te-sheng : né à Yongkang en 1969, du succès au box-office de *Cape No. 7* à la compétition officielle de Venise",
@@ -53278,12 +53267,12 @@
     "path": "es/People/xu-wen-long-chimei-founder-violin-entrepreneur.md"
   },
   {
-    "title": "Ya Hsien : après avoir achevé Le Gouffre, il cessa d’écrire ; sa seconde vie au supplément littéraire du United Daily News devint une page d’histoire poétique",
-    "description": "En 1968, Ya Hsien avait 36 ans : après avoir réuni quatre-vingt-dix poèmes dans Le Gouffre, il cessa d’écrire. De 1977 à 1998, il dirigea pendant 21 ans le supplément littéraire du United Daily News, transformant la rédaction en l’un des plus importants espaces publics de la littérature taïwanaise d’après-guerre. Le 11 octobre 2024, il est mort à Vancouver, au Canada, à l’âge vénérable de 92 ans : son silence de 56 ans après l’abandon de l’écriture fut plus long que mille recueils, et le refrain « Alléluia, je suis encore vivant » devint un marqueur de l’histoire poétique de l’époque de la loi martiale, dont l’obscurité échappa à l’examen du Commandement général de la garnison.",
+    "title": "Ya Hsien : après avoir écrit L'Abîme, il posa la plume ; la seconde moitié de sa vie fit de la page littéraire de l'United Daily News une page d'histoire poétique",
+    "description": "En 1968, Ya Hsien avait 36 ans lorsqu'il réunit quatre-vingt-dix poèmes dans L'Abîme, puis cessa d'écrire. De 1977 à 1998, il dirigea pendant 21 ans le supplément littéraire de l'United Daily News, transformant la table de rédaction en l'un des espaces publics littéraires les plus importants de Taïwan après-guerre. Le 11 octobre 2024, il s'est éteint à Vancouver, au Canada, à l'âge vénérable de 92 ans : son silence de 56 ans après avoir posé la plume fut plus long que mille recueils de poésie, et le refrain « Alléluia, je suis encore vivant » devint un marqueur d'histoire poétique de l'époque de la loi martiale, dont l'obscurité échappa à l'examen du Commandement général de la garnison.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/people/ya-hsien-poet",
-    "readingTime": 122,
+    "readingTime": 127,
     "featured": true,
     "date": "2026-05-28",
     "path": "fr/People/ya-hsien-poet.md"
@@ -53300,12 +53289,12 @@
     "path": "en/People/ya-hsien-poet.md"
   },
   {
-    "title": "Ya Hsien: dejó de escribir tras terminar Abismo y convirtió su segunda mitad de vida en una página de la historia poética desde el suplemento literario de United Daily News",
-    "description": "En 1968, a los 36 años, Ya Hsien reunió noventa poemas en un volumen, Abismo, y luego dejó de escribir. Entre 1977 y 1998 dirigió durante 21 años el suplemento literario de United Daily News, transformando la mesa editorial en el espacio público literario más importante del Taiwán de posguerra. El 11 de octubre de 2024 falleció en Vancouver, Canadá, a la avanzada edad de 92 años: su silencio de 56 años desde que dejó la pluma fue más largo que mil poemarios, y el estribillo «Aleluya, sigo vivo» se convirtió en una marca de la historia poética que, por su oscuridad, logró eludir la censura del Comando General de Guarnición durante la era de la ley marcial.",
+    "title": "Ya Hsien: escribió 《El abismo》 y dejó la pluma; su segunda mitad de vida en el suplemento literario de United Daily News se volvió una página de la historia poética",
+    "description": "En 1968, a los 36 años, Ya Hsien reunió noventa poemas en 《El abismo》 y luego dejó de escribir. De 1977 a 1998 dirigió durante 21 años el suplemento literario de United Daily News, transformando la mesa editorial en el espacio público literario más importante del Taiwán de posguerra. El 11 de octubre de 2024 murió en Vancouver, Canadá, a los 92 años: su silencio de 56 años tras dejar la pluma fue más largo que mil poemarios, y el estribillo «Aleluya, sigo vivo» se convirtió en una marca de la historia poética de la era de la ley marcial, cuya oscuridad logró eludir la censura del Comando General de Guarnición.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/people/ya-hsien-poet",
-    "readingTime": 111,
+    "readingTime": 127,
     "featured": true,
     "date": "2026-05-28",
     "path": "es/People/ya-hsien-poet.md"
@@ -54184,17 +54173,6 @@
     "path": "en/People/zhong-lihe-nativeland-eternal-seeker.md"
   },
   {
-    "title": "Zhongshan North Road Tiaotong : la route que les Japonais avaient tracée pour aller au sanctuaire, reprise finalement par les sociétés japonaises",
-    "description": "Le 17 avril 1923, le prince héritier japonais Hirohito, âgé de 19 ans, quitta la gare de Taipei en empruntant une route de 15 mètres de large en direction du sanctuaire de Taiwan à Yuanshan. Cette route s'appelait Chokushi Kaidō. En 1941, elle fut élargie en une avenue à cinq voies de 40 mètres. En 1945, elle fut renommée Zhongshan North Road en mémoire de Sun Yat-sen. En 1951, avec l'arrivée des forces américaines durant la guerre de Corée, le troisième tronçon devint la concession américaine. En 1972, malgré la rupture des relations sino-japonaises, les entreprises japonaises ne partirent pas ; en 1979, les forces américaines se retirèrent ; dans les années 1980, les sociétés japonaises reprirent le quartier de Tiaotong. La route que les Japonais avaient tracée pour aller au sanctuaire fut finalement reprise par les sociétés japonaises.",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/geography/zhongshan-north-road-tiaotong",
-    "readingTime": 236,
-    "featured": false,
-    "date": "2026-05-21",
-    "path": "fr/Geography/zhongshan-north-road-tiaotong.md"
-  },
-  {
     "title": "Zhongshan North Road Tiaotong: A Road the Japanese Built to Reach a Shrine, Ultimately Taken Back by Japanese Firms",
     "description": "On April 17, 1923, 19-year-old Japanese Crown Prince Hirohito rode by carriage from Taihoku Station along a 15-meter-wide road toward Taiwan Shrine at Yuanshan. The road was called Chokushi Kaido. In 1941, it was widened into a 40-meter, five-lane boulevard. In 1945 it was renamed Zhongshan North Road to commemorate Sun Yat-sen. In 1951, after the Korean War brought U.S. forces to Taiwan, Section 3 of Zhongshan North Road became an 'American concession.' In 1972, after Taiwan and Japan severed diplomatic relations, Japanese firms did not leave; in 1979, U.S. forces left; in the 1980s, Japanese firms took over Tiaotong. A road the Japanese built to reach a shrine was ultimately taken back by Japanese trading houses.",
     "category": "en",
@@ -54903,6 +54881,23 @@
     "path": "ko/History/kmt-government-relocation-and-postwar-reconstruction.md"
   },
   {
+    "title": "국민주택과 주거 정의: 정부가 지은 저렴한 주택은 결국 누구의 자산 사다리를 키웠나",
+    "description": "1985년 성공 국민주택은 한 평 6.7만 위안이어도 원하는 사람이 없었고, 노년의 이장은 40만 위안의 계약금을 마련해 한 채를 샀다. 40년 뒤 같은 주소는 한 평 100만 위안에 가까워졌다. 국민주택은 본래 “사람들이 집을 살 수 있게 돕는” 도구였지만, 시세차익을 회수하는 문은 한 번도 달리지 않았다. 공공 보조금은 결국 먼저 산 사람의 사적 자산이 되었다. 2026년 타오위안은 그 문을 다시 달았고, 이는 국민주택을 대신해 잘못을 인정한 셈이다.",
+    "category": "ko",
+    "tags": [
+      "국민주택",
+      "주거 정의",
+      "주택 정책",
+      "세대 정의",
+      "부담 가능한 주택"
+    ],
+    "url": "https://taiwan.md/ko/society/public-housing-justice",
+    "readingTime": 101,
+    "featured": false,
+    "date": "2026-06-06",
+    "path": "ko/Society/public-housing-justice.md"
+  },
+  {
     "title": "국제 이주노동자: 87만 명의 \"거대한 거실\"과 바다를 넘는 생존의 줄다리기",
     "description": "2026년 3월 기준, 대만에 체류하는 이주노동자는 87만 3천 명에 달하며, 실종·이탈자를 포함하면 총수가 100만 명에 근접하여 대만 상주인구의 5% 이상을 차지한다. 본 기사는 인도네시아, 베트남, 필리핀, 태국 4개국의 노동력 특성을 심층 분석하고, 이주노동자 대행진이 제기한 \"근무 연한 폐지\" 요구를 검토하며, 2026년 인도 이주노동자 도입 계획을 둘러싼 여론의 불야, 야당의 감시, 그리고 정부의 \"조건부\" 도입 입장을 균형 있게 조명한다.",
     "category": "ko",
@@ -54917,16 +54912,9 @@
     "title": "군도적 사고: 타이완을 말레이 세계의 지도 위에 되돌려 놓기",
     "description": "타이완은 중화 세계 변방의 고립된 섬만이 아니라, 말레이 세계의 동북단이자 오스트로네시아어족의 원향이며 태평양 확산의 출발점이기도 하다. 지도를 남쪽으로 30도 돌리면, 완전히 성립하지만 누락되어 온 또 하나의 좌표계를 보게 된다.",
     "category": "ko",
-    "tags": [
-      "군도",
-      "오스트로네시아어족",
-      "누산타라",
-      "타이완 섬 역사",
-      "원주민",
-      "문화지리"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ko/culture/archipelago-thinking",
-    "readingTime": 72,
+    "readingTime": 73,
     "featured": true,
     "date": "2026-05-17",
     "path": "ko/Culture/archipelago-thinking.md"
@@ -55495,17 +55483,6 @@
     "featured": false,
     "date": "2026-05-18",
     "path": "ko/Economy/tech-park-peripheral-business-ecosystem.md"
-  },
-  {
-    "title": "대만 과학단지: 논 한복판의 도박, 세계의 생명줄이자 급소가 되다",
-    "description": "1979년 신주 진산몐에서 IBM을 떠나 대만으로 돌아온 엔지니어 허이츠가 논 위에 아시아 최초의 과학단지를 세웠다. 45년 뒤, 신주과학단지·남부과학단지·중부과학단지의 연 매출은 5.8조 대만달러를 돌파했고, 세계 최첨단 칩은 이 세 단지에서 양산되고 있다. 그러나 이 섬의 가장 강한 부적은 동시에 가장 취약한 급소이기도 하다. 한 차례 가뭄, 한 번의 정전, 한 장의 지정학 카드만으로도 전 세계 공급망은 숨을 죽인다.",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/technology/science-park-development",
-    "readingTime": 70,
-    "featured": true,
-    "date": "2026-03-25",
-    "path": "ko/Technology/science-park-development.md"
   },
   {
     "title": "대만 교사의 생활지도 딜레마: 회초리가 사라진 이후 입도 열지 못하는 이십 년",
@@ -57574,17 +57551,6 @@
     "featured": true,
     "date": "2026-03-31",
     "path": "ko/Geography/climate.md"
-  },
-  {
-    "title": "대만의 기후 위기와 탄소중립 전환: 핵발전소 3호기 국민투표가 부결된 날, 물리적 한계와의 싸움이 비로소 시작되었다",
-    "description": "2025년 8월 23일 핵발전소 3호기 연장 국민투표: 434만 찬성표, 74% 찬성, 투표율 29.53%로 기준 미달. 투표 부결 다음 날 라이칭더는 세 가지 원칙을 제시했고, 7개월 후 2026년 3월 27일 타이전은 연장 신청서를 핵안전회에 제출했다. 에너지의 98%를 수입에 의존하고, 9조 신대만달러의 탄소중립 목표, 지열 목표 200MW에 실제 가동은 7.4MW, 해상풍력 설치량 세계 7위, 온칼로 최종 처리장, TerraPower 4세대 원전——이 섬의 에너지 문제는 결코 정치 문제가 아니다. 물리적 한계의 문제다.",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/nature/taiwan-climate-change-net-zero-transition",
-    "readingTime": 246,
-    "featured": true,
-    "date": "2026-05-19",
-    "path": "ko/Nature/taiwan-climate-change-net-zero-transition.md"
   },
   {
     "title": "대만의 다도와 생활 미학",
@@ -59849,8 +59815,8 @@
     "path": "ko/Art/tehching-hsieh-performance-artist.md"
   },
   {
-    "title": "스린: 케타갈란족의 땅, 장저우·취안저우 무장 충돌의 사원, 그리고 오늘날 매일 밤 타이베이에서 가장 붐비는 야시장",
-    "description": "저녁 7시 반, 스린 야시장 입구에서 한국 관광객이 커다란 닭튀김을 들고 셀카를 찍는다. 그 옆 다난로 84호의 츠셴궁은 1796년 가경 원년부터 2026년까지 230년을 지켜 왔다. 1859년 함풍 9년, 장저우 사람들은 이 거리에서 취안저우 사람들에게 불타 쫓겨났고, 1860년 경신년에 판융칭은 샤수린에 다둥로, 다난로, 다시로, 다베이로 네 개의 반듯한 거리를 긋고 사원을 정중앙에 두었다. 1909년 일본인은 사원 맞은편에 시장을 세웠고, 1955년 양밍극장이 원린로에 준공되었으며, 1992년 하오다다 지파이는 타이중에서 발명되어 1999년 스린에 들어왔다. 2002년 전후 증축된 가설 지붕을 철거했고, 2011년 새 시장이 문을 열었으며, 지하 먹거리 거리는 아침부터 밤까지 두 조의 사람들이 번갈아 사용한다. 사원은 여전히 원래 자리에 있지만, 그 발밑에서는 매일 두 도시가 교대로 열린다.",
+    "title": "스린: 케타갈란족의 땅, 장저우·취안저우 무력 충돌의 사원, 그리고 지금은 매일 밤 타이베이에서 가장 붐비는 야시장",
+    "description": "저녁 7시 30분, 스린 야시장 길목에서 한국 관광객들이 대형 지파이를 들고 셀카를 찍고, 그 옆 다난로 84호의 츠셴궁은 1796년 가경 원년부터 2026년까지 230년을 서 있다. 1859년 함풍 9년 장저우 사람들이 이 거리에서 취안저우 사람들에게 불타 쫓겨났고, 1860년 경신년에 반영청은 샤수린에 다둥로, 다난로, 다시로, 다베이로 네 갈래의 반듯한 거리를 긋고 사원을 정중앙에 두었다. 1909년 일본인은 사원 맞은편에 시장을 세웠고, 1955년 양밍극장이 원린로에 준공되었으며, 1992년 하오다다 지파이는 타이중에서 발명되어 1999년 스린에 들어왔다. 2002년 전후에 증축된 가설 지붕이 철거되고, 2011년 새 시장이 개장했으며, 지하 먹거리 거리는 아침부터 밤까지 두 부류의 사람을 번갈아 받는다. 사원은 여전히 원래 자리에 있지만, 그 발밑에서는 매일 두 도시가 교대로 돌아간다.",
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/geography/shilin",
@@ -60116,8 +60082,8 @@
     "path": "ko/Lifestyle/taiwan-recycling-and-circular-living-culture.md"
   },
   {
-    "title": "쓰쓰난촌: 병기공장의 군인 가족촌, 지금은 101 옆 문화창의 단지",
-    "description": "1948년 11월 말, 칭다오 연근 제44병기공장의 기계는 여섯 차례에 나뉘어 「타이캉호」에 실려 지룽으로 운송되었다. 12월 뒤이어 도착한 공장 노동자와 가족들은 타이베이 동쪽 싼장리의 일본군 싱야 창고에 들어가 살았고, 벽이 없는 창고 안에는 산둥 말이 울려 퍼졌다. 이듬해 그들은 공장 구역 남쪽에 스스로 관사를 지었다. 이것이 중화민국 정부가 대만에 세운 첫 번째 군인 가족촌이었다. 장교급은 서촌에, 위관급은 동촌에, 군직이 없는 산둥 기술공은 남촌에 살았다. 1980년 병기공장이 싼샤로 이전해 206공장으로 이름을 바꾸자, 서촌은 철거되어 중퉈 국민주택이 되었고, 동촌은 칭녠공원 인근 중전 국민주택으로 분산 이주했다. 남은 것은 남촌뿐이었다. 주민이 기술공이어서 국방부 군인 가족촌 개건 조례의 적용을 받지 않았기 때문이다. 1998년 주민 전원이 스마오신청으로 이주했고, 1999년 화재로 일부 가옥이 소실되었다. 2001년 문화자산 보존 논쟁 끝에 4동 보존이 확정되었고, 2003년 10월 25일 「신이 시민회관 및 군인 가족촌 문화공원」이 개관했다. 당시 건설 중이던 타이베이 101을 마주한 자리였다.",
+    "title": "쓰쓰난춘: 병공창의 군인 가족촌, 지금은 101 옆 문화창의 단지",
+    "description": "1948년 11월 말, 칭다오 연근 제44병공창의 기계가 여섯 차례로 나뉘어 「타이캉호」에 실려 지룽으로 옮겨졌다. 12월에 뒤이어 도착한 공장 노동자와 가족은 타이베이 동쪽 싼장리의 일본군 싱야 창고에 들어가 살았고, 산둥 말이 벽 없는 창고 안에 울려 퍼졌다. 이듬해 그들은 공장 구역 남쪽에 스스로 관사를 지었다. 이것이 중화민국 정부가 타이완에 세운 첫 번째 쥐안춘, 곧 군인 가족촌이었다. 장교급은 서촌, 위관급은 동촌, 군직이 없는 산둥 기술공은 남촌에 살았다. 1980년 병공창은 싼샤로 이전해 206창으로 이름을 바꾸었고, 서촌은 철거되어 중퉈 국민주택이 되었으며, 동촌은 청년공원 인근 중전 국민주택으로 이산했다. 남촌만 남았다. 주민이 기술공이어서 국방부의 군인 가족촌 개조 조례 적용 대상이 아니었기 때문이다. 1998년 주민 전원이 스마오신청으로 이주했고, 1999년 화재로 일부 가옥이 소실되었으며, 2001년 문화자산 논쟁 끝에 4개 동 보존이 결정되었다. 2003년 10월 25일 「신이 시민회관 및 군인 가족촌 문화공원」이 개관했다. 당시 건설 중이던 타이베이 101을 마주한 자리였다.",
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/geography/44-south-village",
@@ -60297,8 +60263,8 @@
     "path": "ko/Lifestyle/nightlife-and-ktv-culture.md"
   },
   {
-    "title": "야셴: 《심연》을 쓴 뒤 절필하고, 후반생은 《연합보》 부간에서 시사의 한 페이지가 되다",
-    "description": "1968년, 서른여섯 살의 야셴은 아흔 편의 시를 한 권의 《심연》으로 엮은 뒤 펜을 놓았다. 1977년부터 1998년까지 그는 21년 동안 《연합보》 부간을 주편하며 편집부를 전후 타이완에서 가장 중요한 문학적 공공 공간으로 만들었다. 2024년 10월 11일 그는 캐나다 밴쿠버에서 별세했으며 향년 92세였다. 절필 56년의 침묵은 천 권의 시집보다 길었고, “할렐루야, 나는 아직 살아 있다”라는 후렴은 계엄 시대의 난해함이 경총의 검열을 피해 지나간 시사적 표지가 되었다.",
+    "title": "야셴: 《심연》을 쓴 뒤 절필하고, 후반생에는 《연합보》 부간에서 시사의 한 페이지가 되다",
+    "description": "1968년, 36세의 야셴은 아흔 편의 시를 한 권의 《심연》으로 엮은 뒤 붓을 놓았다. 1977년부터 1998년까지 그는 21년 동안 《연합보》 부간을 주편하며 편집 데스크를 타이완 전후 가장 중요한 문학 공공 공간으로 만들었다. 2024년 10월 11일 캐나다 밴쿠버에서 별세했으며 향년 92세였다. 절필 56년의 침묵은 천 권의 시집보다 길었고, “할렐루야, 나는 아직 살아 있다”라는 후렴은 계엄 시기 난해함으로 경비총사령부의 검열을 비켜 간 시사의 표지가 되었다.",
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/people/ya-hsien-poet",
@@ -60701,6 +60667,17 @@
     "featured": false,
     "date": "2026-03-22",
     "path": "ko/Lifestyle/hot-spring-culture.md"
+  },
+  {
+    "title": "완완: 전 타이완 직장인에게 하나의 얼굴을 주었지만, 12일 만에 자신을 거의 잃을 뻔하다",
+    "description": "2004년 후자웨이는 '완완'이라는 이름으로 우밍샤오잔에서 두각을 나타냈고, MSN 프로필 이미지로 타이완 최초의 수천만 타이완달러 가치 일러스트레이터가 되었다. 《출근하지 않으면 안 될까》의 글·그림 천후에서 2014년 신혼 12일 만의 불륜 파문에 이르기까지, 그는 간단한 선으로 그린 민머리 캐릭터로 한 시대의 집단 정서를 규정했고, 페르소나가 붕괴한 뒤에도 조용히 살아남는 방식을 몸소 보여주었다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/people/wanwan-taiwan-blog-cartoonist",
+    "readingTime": 24,
+    "featured": false,
+    "date": "2026-06-14",
+    "path": "ko/People/wanwan-taiwan-blog-cartoonist.md"
   },
   {
     "title": "완자(肉圓): 수해의 구약삼지에서 세 손가락 자국으로 이어진 생존의 기술",
@@ -61536,12 +61513,12 @@
     "path": "ko/Food/chiayi-turkey-rice.md"
   },
   {
-    "title": "자이시: 황제가 ‘자이’라는 이름을 하사했으나 가장 쉽게 지나쳐지는 성할시가 된 도시",
-    "description": "청 건륭 52년 조서로 ‘주뤄’를 ‘자이’로 개명한, 대만에서 유일하게 황제가 직접 이름을 하사한 도시. 1908년 일본인은 이 도시 서남쪽 3.3킬로미터 떨어진 논 한가운데에 세계 최초의 북회귀선 표지탑을 세웠다. 1931년 자이농림의 한인·원주민·일본인 혼성팀은 고시엔 준우승을 차지했다. 1947년 3월 25일, 화가 천청보는 기차역 앞에 묶인 채 총살되었고, 시신은 거리 위에 사흘 동안 방치되었다. 오늘날 자이시는 인구 26만 명, 면적 60제곱킬로미터로, 고속철도역이 없고 자이현에 완전히 둘러싸인 대만 중형 도시의 표본이다.",
+    "title": "자이시: 황제가 자이라는 이름을 하사했으나 가장 쉽게 지나쳐지는 성할시가 된 도시",
+    "description": "청 건륭 52년 조서로 「주뤄」가 「자이」로 개명되면서, 타이완에서 유일하게 황제가 직접 이름을 하사한 도시가 되었다. 1908년 일본인은 이 도시 서남쪽 3.3킬로미터 떨어진 논 한가운데 세계 최초의 북회귀선 표지를 세웠다. 1931년 자이농림의 한인·원주민·일본인 혼성팀은 고시엔에 진출해 준우승을 차지했다. 1947년 3월 25일, 화가 천청보는 기차역 앞에 묶인 채 총살되었고, 그의 시신은 거리 위에 사흘 동안 놓여 있었다. 오늘날 자이시는 인구 26만 명, 면적 60제곱킬로미터로, 고속철도역이 없고 자이현에 완전히 둘러싸여 있으며, 타이완 중형 도시의 표본이다.",
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/geography/chiayi-city",
-    "readingTime": 80,
+    "readingTime": 82,
     "featured": false,
     "date": "2026-05-18",
     "path": "ko/Geography/chiayi-city.md"
@@ -62300,6 +62277,17 @@
     "featured": false,
     "date": "2026-03-20",
     "path": "ko/Economy/taiwan-companies-china-steel.md"
+  },
+  {
+    "title": "중산베이루 조통: 일본인이 신사로 가기 위해 닦은 길은 결국 일본 상사가 다시 접수했다",
+    "description": "1923년 4월 17일, 19세의 일본 황태자 히로히토는 타이베이역에서 마차를 타고 폭 15미터의 길을 지나 위안산 타이완 신사로 향했다. 이 길은 칙사 가도라 불렸다. 1941년에는 폭 40미터의 5차선 대로로 확장되었다. 1945년 쑨원을 기념해 「중산베이루」로 개명되었다. 1951년 한국전쟁으로 미군이 주둔하면서 중산베이루 3단은 「미국 조계」가 되었다. 1972년 중일 단교 때 일본 상사는 떠나지 않았고, 1979년 미군은 떠났으며, 1980년대에는 일본 상사가 조통을 접수했다. 일본인이 신사로 가기 위해 닦은 길은 결국 일본 상사가 다시 접수했다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/geography/zhongshan-north-road-tiaotong",
+    "readingTime": 99,
+    "featured": false,
+    "date": "2026-05-21",
+    "path": "ko/Geography/zhongshan-north-road-tiaotong.md"
   },
   {
     "title": "중선회 제도: 행정·입법 이중 견제의 반직관적 설계",
@@ -63263,6 +63251,34 @@
     "path": "ko/Food/taiwan-pastry-culture.md"
   },
   {
+    "title": "타이완 과학단지: 논 한 평의 도박이 세계의 생명선을 만들고, 동시에 치명적 약점이 되다",
+    "description": "1979년 신주 진산몐에서, IBM에서 타이완으로 돌아온 엔지니어 허이츠가 논 위에 아시아 최초의 과학단지를 세웠다. 45년 뒤 주커, 난커, 중커의 연 매출은 5.8조 타이완달러를 돌파했고, 세계 최첨단 칩은 이 세 단지에서 양산된다. 그러나 이 섬의 가장 강력한 부적은 동시에 가장 취약한 급소이기도 하다. 한 번의 가뭄, 한 번의 정전, 한 장의 지정학 카드만으로도 전 세계 공급망은 숨을 죽이게 된다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/technology/science-park-development",
+    "readingTime": 69,
+    "featured": true,
+    "date": "2026-03-25",
+    "path": "ko/Technology/science-park-development.md"
+  },
+  {
+    "title": "타이완 광고사: 팔아넘긴 물건은 잊혀도, 그 광고 노래는 아직 흥얼거린다",
+    "description": "1968년 다퉁 전기밥솥의 광고 노래가 텔레비전에서 흘러나왔고, 반세기가 지난 뒤에도 타이완 사람들은 여전히 “大同大同國貨好”를 이어 부를 수 있지만, 그것이 원래 산요의 곡이었다는 사실을 기억하는 이는 거의 없다. 일본 통치기 《臺灣日日新報》의 지면 광고에서, 방송사가 세 곳뿐이던 계엄 시대가 섬 전체의 주의를 같은 채널에 묶어 두었던 시기를 거쳐, 2016년 디지털 광고 금액이 텔레비전을 넘어선 순간까지, 타이완에서 가장 오래 기억되는 광고는 팔던 상품은 자주 잊히고, 남는 것은 한 시대 전체의 소리이다.",
+    "category": "ko",
+    "tags": [
+      "타이완 광고",
+      "광고사",
+      "다퉁 전기밥솥",
+      "우녠전",
+      "집단 기억"
+    ],
+    "url": "https://taiwan.md/ko/culture/taiwan-advertising-history",
+    "readingTime": 80,
+    "featured": false,
+    "date": "2026-06-14",
+    "path": "ko/Culture/taiwan-advertising-history.md"
+  },
+  {
     "title": "타이완 국방과 군사 현대화",
     "description": "2025년 10월, 라이칭더는 후커우에서 M1A2T 전차대대 창설식을 주재했다. 같은 달, 전 참모총장 리시밍은 쓴웃음을 지으며 말했다. “전차도 비대칭 무기라면, 비대칭 무기가 아닌 것이 무엇이겠는가.” 이것은 한 섬이 두 가지 국방 논리 사이에서 끌려가는 이야기이다.",
     "category": "ko",
@@ -63272,6 +63288,17 @@
     "featured": false,
     "date": "2026-04-10",
     "path": "ko/Society/national-defense-modernization.md"
+  },
+  {
+    "title": "타이완 기후 위기와 넷제로 전환: 핵3 국민투표가 부결된 날, 물리적 한계의 선택은 막 시작되었다",
+    "description": "2025년 8월 23일 핵3 연장 운전 국민투표: 찬성 434만 표, 찬성률 74%, 투표율 29.53%로 문턱에 미달했다. 국민투표는 부결되었고, 다음 날 라이칭더는 세 원칙을 제시했다. 7개월 뒤인 2026년 3월 27일, 타이완전력은 연장 운전 신청을 원자력안전위원회에 제출했다. 에너지의 98%를 수입에 의존하고, 넷제로에 9조 타이완달러를 투입하며, 지열 목표 200 MW 중 실제 건설은 7.4 MW에 그치고, 해상풍력 설비용량은 세계 7위이며, Onkalo 최종 처분장과 TerraPower 4세대 원전까지 거론되는 이 섬의 에너지 문제는 처음부터 정치 문제가 아니라 물리적 한계의 문제였다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/nature/taiwan-climate-change-net-zero-transition",
+    "readingTime": 122,
+    "featured": true,
+    "date": "2026-05-19",
+    "path": "ko/Nature/taiwan-climate-change-net-zero-transition.md"
   },
   {
     "title": "타이완 뉴미디어 아트",
@@ -64684,14 +64711,7 @@
     "title": "황금 선율의 계승: 타이완 대중음악의 역사와 문화적 위상",
     "description": "민가 음악운동에서 주걸륜 현상까지, 타이완 대중음악이 어떻게 중국어권 음악 지형을 형성했는지 탐구한다",
     "category": "ko",
-    "tags": [
-      "타이완 대중음악",
-      "민가운동",
-      "금곡장",
-      "주걸륜",
-      "인디 음악",
-      "음악 산업"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ko/music/golden-melodies-legacy-taiwan-pop-music",
     "readingTime": 31,
     "featured": true,

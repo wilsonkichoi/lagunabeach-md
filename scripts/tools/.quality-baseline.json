@@ -1,6 +1,6 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-06-14T22:12:24Z",
+  "timestamp": "2026-06-15T22:11:55Z",
   "total": 799,
   "flagged": 322,
   "files": [
@@ -186,8 +186,8 @@
     },
     {
       "file": "technology/台灣網路社群遷徙史.md",
-      "score": 6,
-      "reasons": "未人工審核; 後段清單堆砌37%; 稀薄段落×1; 品質衰退前26%後16%; 無腳註"
+      "score": 5,
+      "reasons": "未人工審核; 塑膠句1個; 破折號56個"
     },
     {
       "file": "technology/IG.md",

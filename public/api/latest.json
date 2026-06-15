@@ -1,11 +1,56 @@
 {
-  "_generated": "2026-06-14T22:12:40.081Z",
+  "_generated": "2026-06-15T22:12:05.243Z",
   "perLang": 30,
   "byLang": {
     "zh-TW": [
       {
+        "title": "迷音 Miin：同一句「資訊要自由」，讓杜奕瑾蓋了 PTT，也讓他走進著作權官司",
+        "desc": "1995 年他用「資訊要自由」在台大宿舍架起 PTT，2017 回台做了一套抓認知作戰協同帳號的 AI，又為了打假訊息聚合別人的新聞被提告——同一句信念，是他的武器，也成了官司案由；而台灣剛好站在這道全世界都還沒解開的題目最前面。",
+        "category": "technology",
+        "href": "/technology/%E8%BF%B7%E9%9F%B3Miin",
+        "date": "2026-06-16T01:28:47+08:00",
+        "readingTime": null,
+        "image": "/article-images/technology/miin-homepage-2026.webp"
+      },
+      {
+        "title": "台灣人工智慧實驗室 (Taiwan AI Labs)",
+        "desc": "由「PTT之父」杜奕瑾2017年3月創立的非營利AI研究機構。開源模型：TAIDE（繁體中文大型語言模型）、TAME、FedGPT，超過600億token繁體中文語料。專注智慧醫療、認知戰防制。COVID社交距離App（去中心化藍牙）。",
+        "category": "technology",
+        "href": "/technology/%E5%8F%B0%E7%81%A3%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E5%AF%A6%E9%A9%97%E5%AE%A4",
+        "date": "2026-06-15T23:21:34+08:00",
+        "readingTime": 8,
+        "image": ""
+      },
+      {
+        "title": "台灣網路社群三十年——撈得回網址，撈不回照片的失土史",
+        "desc": "從美麗之島 BBS 到脆，台灣人每隔幾年集體搬家一次，每次都把上一代的記憶留在關掉的電源開關後面。三十年遷徙史看似平台演化線，骨子裡卻是「土地是誰的」的失土史——黏著度最高的地方，資料主權最低。",
+        "category": "technology",
+        "href": "/technology/%E5%8F%B0%E7%81%A3%E7%B6%B2%E8%B7%AF%E7%A4%BE%E7%BE%A4%E9%81%B7%E5%BE%99%E5%8F%B2",
+        "date": "2026-06-15T23:21:34+08:00",
+        "readingTime": 25,
+        "image": ""
+      },
+      {
+        "title": "杜奕瑾",
+        "desc": "用一台 486 電腦架起台灣最大論壇、在微軟帶領 Cortana 問世，然後放棄高薪回台做非營利 AI——PTT 創世神的三十年數位史",
+        "category": "people",
+        "href": "/people/%E6%9D%9C%E5%A5%95%E7%91%BE",
+        "date": "2026-06-15T23:21:34+08:00",
+        "readingTime": 9,
+        "image": ""
+      },
+      {
+        "title": "認知作戰：台灣資訊戰場的 AI 工業化階段",
+        "desc": "2024 年 12 月《中國統戰紀錄片》衝破 200 萬觀看，2025 年第四季 1076 個中共官媒帳號在抖音發布 56 萬支影片、透過臉部辨識識別 57 位台灣人士，2025 年 10 月沈伯洋被重慶公安以「分裂國家罪」立案。認知作戰進入 AI 工業化與「以台批台」的新階段，但「認知作戰」這個詞本身也在台灣內部承受被濫用的張力。",
+        "category": "society",
+        "href": "/society/%E8%AA%8D%E7%9F%A5%E4%BD%9C%E6%88%B0",
+        "date": "2026-06-15T23:21:34+08:00",
+        "readingTime": 28,
+        "image": ""
+      },
+      {
         "title": "彎彎：給了全台灣上班族一張臉，卻在十二天內差點弄丟自己",
-        "desc": "2004年，胡家瑋以「彎彎」之名在無名小站發跡，憑藉MSN大頭貼成為台灣首位千萬身價插畫家。從「可不可以不要上班」的圖文天后到2014年新婚十二天的外遇風暴，她用簡筆光頭人定義了一個時代的集體情緒，也親身示範了人設崩解後的安靜生存。",
+        "desc": "2004 年，胡家瑋以「彎彎」之名在無名小站發跡，憑 MSN 大頭貼成為台灣首位千萬身價插畫家。從《可不可以不要上班》的圖文天后到 2014 年新婚十二天的外遇風暴，她用簡筆光頭人定義了一個時代的集體情緒，也親身示範了人設崩解後的安靜生存。",
         "category": "people",
         "href": "/people/%E5%BD%8E%E5%BD%8E",
         "date": "2026-06-14T22:05:19+08:00",
@@ -46,15 +91,6 @@
         "href": "/technology/Facebook",
         "date": "2026-06-14T09:33:24+08:00",
         "readingTime": 28,
-        "image": ""
-      },
-      {
-        "title": "台灣網路社群三十年——從 BBS 到 Threads 的遷徙史",
-        "desc": "台灣人每五年集體搬家一次，每次都丟掉上一代的記憶",
-        "category": "technology",
-        "href": "/technology/%E5%8F%B0%E7%81%A3%E7%B6%B2%E8%B7%AF%E7%A4%BE%E7%BE%A4%E9%81%B7%E5%BE%99%E5%8F%B2",
-        "date": "2026-06-14T09:33:24+08:00",
-        "readingTime": 9,
         "image": ""
       },
       {
@@ -236,42 +272,6 @@
         "date": "2026-06-12T22:07:01+08:00",
         "readingTime": null,
         "image": ""
-      },
-      {
-        "title": "justfont 與台灣字體發展：用一種台灣茶的名字，把做字的人帶到陽光下",
-        "desc": "2015 年 9 月 8 日上午，一套以台灣茶命名的字型「金萱」在 flyingV 上線，76 分鐘衝破 150 萬門檻，最終 7,667 人集資 2,593 萬元。全民天天讀它的字，市場卻曾小到養不活任何一家造字公司。從華康的細明體、太原路上的鉛字，到畫佛像出身的林霞，這是台灣把做字的人帶到陽光下的故事。",
-        "category": "technology",
-        "href": "/technology/justfont%E8%88%87%E5%8F%B0%E7%81%A3%E5%AD%97%E9%AB%94%E7%99%BC%E5%B1%95",
-        "date": "2026-06-12T22:07:01+08:00",
-        "readingTime": 18,
-        "image": "/article-images/technology/justfont-jinxuan-flyingv-cover-2015.webp"
-      },
-      {
-        "title": "報導者：燒錢的速度，永遠跑在募款前面",
-        "desc": "從 4 位定期定額捐款者到每月 8,000 位，從《血淚漁場》三部曲到 2026 統戰專題，《報導者》十年燒掉的成本——八個月臥底、跨三國採訪、比對多年違規紀錄——正好是演算法時代最沒人想付錢看的東西。這座島嶼的公民社會用陌生人每月扣款的方式，把調查報導從商業媒體的營業項目，救成一塊一直在養、卻越燒越快的公共財。",
-        "category": "society",
-        "href": "/society/%E5%A0%B1%E5%B0%8E%E8%80%85",
-        "date": "2026-06-12T22:07:01+08:00",
-        "readingTime": null,
-        "image": ""
-      },
-      {
-        "title": "選舉過程：從空票匭到深夜開票，一場全民參與的民主儀式",
-        "desc": "台灣選舉以其極高透明度的「手工開票」聞名國際。從投票前展示空票箱的儀式感，到開票時每一張選票都被高舉、唱名的過程，這不只是選出領導者，更是建立社會信任的基石。",
-        "category": "politics",
-        "href": "/politics/%E9%81%B8%E8%88%89%E9%81%8E%E7%A8%8B",
-        "date": "2026-06-12T18:42:49+08:00",
-        "readingTime": 10,
-        "image": ""
-      },
-      {
-        "title": "國家太空中心：花三十二年，替一個還沒湊齊名字的國家湊齊一個太空署",
-        "desc": "1991 年它叫「籌備處」，沒有名字、沒有火箭、沒有自己的地。三十二年後它把 Taiwan 放回名字裡，現在新竹的操控中心 24 小時追著九顆衛星的心跳；0403 花蓮地震那天，它在震後六分鐘重設任務、三小時取像。它正在補上最後一塊零件——一枚自己的入軌火箭，還有一個已經核定、最快 2028 上路的月球任務。",
-        "category": "technology",
-        "href": "/technology/%E5%9C%8B%E5%AE%B6%E5%A4%AA%E7%A9%BA%E4%B8%AD%E5%BF%83",
-        "date": "2026-06-12T15:06:49+08:00",
-        "readingTime": 28,
-        "image": "/article-images/technology/formosat8-tasa-banner.webp"
       }
     ],
     "en": [
@@ -865,8 +865,8 @@
         "image": ""
       },
       {
-        "title": "Chongshan North Road Tōdōri: The Road to the Shrine Paved by the Japanese Was Ultimately Reclaimed by Japanese Businesses",
-        "desc": "On April 17, 1923, 19-year-old Japanese Crown Prince Hirohito took a carriage from Taipei Station, traveling along a 15-meter-wide road to the Taiwan Shrine in Yuanshan. This road was named the Chishiki Street (Imperial Envoy Street). In 1941, it was expanded into a 40-meter-wide, five-lane avenue. In 1945, it was renamed 'Chongshan North Road' to commemorate Sun Yat-sen. In 1951, during the Korean War, the US military stationed troops, and Section 3 of Chongshan North Road became an 'American Concession.' In 1972, after the ROC severed diplomatic ties with Japan, Japanese businesses did not leave; in 1979, the US military left, and in the 1980s, Japanese businesses took over the Tōdōri alleys. The road to the shrine paved by the Japanese was ultimately taken back by Japanese trading companies.",
+        "title": "중산베이루 조통: 일본인이 신사로 가기 위해 닦은 길은 결국 일본 상사가 다시 접수했다",
+        "desc": "1923년 4월 17일, 19세의 일본 황태자 히로히토는 타이베이역에서 마차를 타고 폭 15미터의 길을 지나 위안산 타이완 신사로 향했다. 이 길은 칙사 가도라 불렸다. 1941년에는 폭 40미터의 5차선 대로로 확장되었다. 1945년 쑨원을 기념해 「중산베이루」로 개명되었다. 1951년 한국전쟁으로 미군이 주둔하면서 중산베이루 3단은 「미국 조계」가 되었다. 1972년 중일 단교 때 일본 상사는 떠나지 않았고, 1979년 미군은 떠났으며, 1980년대에는 일본 상사가 조통을 접수했다. 일본인이 신사로 가기 위해 닦은 길은 결국 일본 상사가 다시 접수했다.",
         "category": "geography",
         "href": "/ko/geography/zhongshan-north-road-tiaotong",
         "date": "2026-06-09T11:27:50+08:00",
@@ -1092,13 +1092,13 @@
     ],
     "fr": [
       {
-        "title": "Logement public et justice résidentielle : les logements abordables construits par l’État, un ascenseur patrimonial pour qui ?",
-        "desc": "En 1985, au complexe public Chenggong, un ping valait 67 000 NT$ et ne trouvait pas preneur; un vieux chef de quartier réunit 400 000 NT$ d’apport pour acheter. Quarante ans plus tard, à la même adresse, le prix approche le million de NT$ par ping. Le logement national devait être un outil pour « aider la population à pouvoir acheter un logement », mais il n’a jamais été doté d’un sas de récupération des plus-values; la subvention publique est finalement devenue le patrimoine privé des premiers acheteurs. En 2026, Taoyuan remet ce sas en place, ce qui revient à reconnaître l’erreur du logement national.",
+        "title": "Logement national et justice résidentielle : ces logements bon marché construits par l'État, et l'ascenseur patrimonial qu'ils ont finalement créé",
+        "desc": "En 1985, les logements de Chenggong, à 67 000 dollars taïwanais le ping, ne trouvaient pas preneur ; un ancien chef de quartier réunit 400 000 dollars taïwanais d'apport initial pour en acheter un. Quarante ans plus tard, à la même adresse, le prix approche le million par ping. Le logement national devait être un outil pour « aider la population à pouvoir acheter un logement », mais il n'a jamais été doté d'un sas de récupération de la plus-value : la subvention publique est finalement devenue le patrimoine privé de ceux qui avaient acheté tôt. En 2026, Taoyuan remet ce sas en place, ce qui revient à reconnaître l'erreur du logement national.",
         "category": "society",
         "href": "/fr/society/public-housing-justice",
         "date": "2026-06-10T12:21:10+08:00",
         "readingTime": 16,
-        "image": "/article-images/society/taipei-skyline-housing-2026.webp"
+        "image": ""
       },
       {
         "title": "Za School: A Free Exhibition Funded by Bankrupt Savings, Opened by the Vice President 11 Years Later",
@@ -1428,7 +1428,7 @@
       },
       {
         "title": "Bangka: el lugar más animado del Taipéi bajo dominio Qing, hoy el distrito con la edad promedio más alta de Taipéi",
-        "desc": "El Templo Longshan de Bangka fue construido en 1738 con aportes conjuntos de personas de las tres comarcas de Quanzhou; en 2026 cumple 288 años, 137 años más antiguo que la prefectura de Taipéi creada por la corte Qing. En 1853, el enfrentamiento armado Dingxia Jiao empujó a los tong’aneses hacia Dadaocheng y sembró dos siglos de bifurcación en el norte de Taiwán. Tras el dominio japonés fue rebautizado como Wanhua, en 1990 se constituyó como distrito, en 2010 Doze Niu filmó Monga, y su índice de envejecimiento, hoy de 320.78%, es el más alto de la ciudad. En esta, la calle más temprana de Taipéi, el primer incienso del atrio del templo aún arde a las seis de la mañana.",
+        "desc": "El templo Longshan de Bangka fue construido en 1738 con fondos reunidos por inmigrantes de las tres comarcas de Quanzhou; en 2026 cumple 288 años, 137 años más que la prefectura de Taipéi establecida por la corte Qing. La riña de Ting-hsia Chiao de 1853 empujó a los tong'aneses hacia Dadaocheng y sembró dos siglos de bifurcación en el norte de Taiwán. Tras el periodo colonial japonés pasó a llamarse Wanhua, en 1990 se estableció como distrito y en 2010 Doze Niu filmó Monga; su índice de envejecimiento es ahora de 320.78%, el más alto de toda la ciudad. En esta, la calle más antigua de Taipéi, la primera varilla de incienso del atrio del templo aún arde a las seis de la mañana.",
         "category": "geography",
         "href": "/es/geography/bangka",
         "date": "2026-05-25T05:49:38+08:00",

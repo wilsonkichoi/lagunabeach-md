@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T22:12:32.040Z",
+  "lastUpdated": "2026-06-15T22:12:03.050Z",
   "organs": [
     {
       "id": "heart",
@@ -10,7 +10,7 @@
       "score": 90,
       "trend": "up",
       "metrics": {
-        "articlesLast7Days": 56,
+        "articlesLast7Days": 49,
         "articlesLast30Days": 181,
         "totalArticles": 797
       }
@@ -21,22 +21,22 @@
       "nameZh": "免疫系統",
       "metaphor": "品質防禦",
       "emoji": "🛡️",
-      "score": 55,
+      "score": 54,
       "trend": "up",
       "version": "v2-2026-05-16",
       "metrics": {
-        "humanReviewedCount": 209,
+        "humanReviewedCount": 208,
         "totalArticles": 797,
-        "humanReviewedPercent": 26.2,
+        "humanReviewedPercent": 26.1,
         "v2Status": "漂移 — 多維度退化中",
         "v2Components": {
-          "review_coverage": 27.5,
-          "plugin_pass_rate": 69.9,
-          "plugin_health": 50,
-          "citation_density": 90.6,
+          "review_coverage": 27.4,
+          "plugin_pass_rate": 70,
+          "plugin_health": 45.8,
+          "citation_density": 90.7,
           "tool_freshness": 80,
           "drift_velocity": 90,
-          "external_rulers": 3.3
+          "external_rulers": 3.8
         }
       }
     },
@@ -46,10 +46,10 @@
       "nameZh": "遺傳密碼",
       "metaphor": "品質基因",
       "emoji": "🧬",
-      "score": 80,
+      "score": 95,
       "trend": "up",
       "metrics": {
-        "editorialLastModified": "2026-06-07T11:21:29.000Z"
+        "editorialLastModified": "2026-06-15T15:27:30.000Z"
       }
     },
     {
@@ -83,10 +83,10 @@
       "score": 100,
       "trend": "up",
       "metrics": {
-        "recentContributors": 7,
-        "recentSpores": 28,
+        "recentContributors": 6,
+        "recentSpores": 12,
         "topPerformerCount": 5,
-        "topPerformerAvgViews": 155495,
+        "topPerformerAvgViews": 153428,
         "hasBlockbuster": true
       }
     },
@@ -114,11 +114,11 @@
       "metrics": {
         "languageCoverage": {
           "zh-TW": 797,
-          "en": 799,
-          "ja": 795,
-          "ko": 796,
-          "es": 795,
-          "fr": 796
+          "en": 801,
+          "ja": 797,
+          "ko": 798,
+          "es": 797,
+          "fr": 798
         },
         "translationPct": 93,
         "langHealthDetails": {
@@ -137,8 +137,8 @@
               "pct": 100
             },
             "articles": {
-              "count": 799,
-              "pct": 100
+              "count": 801,
+              "pct": 101
             },
             "score": 100
           },
@@ -157,7 +157,7 @@
               "pct": 0
             },
             "articles": {
-              "count": 795,
+              "count": 797,
               "pct": 100
             },
             "score": 80
@@ -177,7 +177,7 @@
               "pct": 100
             },
             "articles": {
-              "count": 796,
+              "count": 798,
               "pct": 100
             },
             "score": 100
@@ -197,7 +197,7 @@
               "pct": 100
             },
             "articles": {
-              "count": 795,
+              "count": 797,
               "pct": 100
             },
             "score": 100
@@ -217,7 +217,7 @@
               "pct": 25
             },
             "articles": {
-              "count": 796,
+              "count": 798,
               "pct": 100
             },
             "score": 85
