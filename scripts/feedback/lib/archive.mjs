@@ -11,7 +11,13 @@
  *   - archiveRelPath(row)              → docs/feedback/archive/YYYY-MM/{id}.md
  *   - buildArchiveRecord(row, note)    → 初始 markdown（含 frontmatter + 內容 + 空溝通紀錄）
  *   - mergeComments(content, comments) → 把 issue 新留言 append 進 §溝通紀錄（去重）
+ *
+ * ⚠️ source_url / body / quote / correct_info 是讀者欄位,可能夾帶 OAuth token / JWT
+ *    （登入讀者貼網址列的 Supabase auth fragment）。落 git 前都過 scrubSecrets()
+ *    （同 classify.mjs issue body 第二道 PII 閘）。觸發 2026-06-16 feedback 8f2f8908。
  */
+
+import { scrubSecrets } from './classify.mjs';
 
 function fm(v) {
   if (v === null || v === undefined || v === '') return '';
@@ -44,7 +50,7 @@ export function buildArchiveRecord(row, note) {
     `page_kind: '${fm(row.page_kind)}'`,
     `article_slug: "${fm(row.article_slug)}"`,
     `lang: '${fm(row.lang)}'`,
-    `source_url: "${fm(row.source_url)}"`,
+    `source_url: "${fm(scrubSecrets(row.source_url))}"`,
     `issue_url: "${fm(row.issue_url)}"`,
     `issue_number: ${row.issue_number || 'null'}`,
     '---',
@@ -52,16 +58,16 @@ export function buildArchiveRecord(row, note) {
 
   const parts = [front, '', `# Feedback — ${row.type} · ${target}`, ''];
   parts.push(`**回報者**：${who}`, `**時間**：${row.created_at || ''}`, '');
-  parts.push('**回報內容**', row.body || '', '');
+  parts.push('**回報內容**', scrubSecrets(row.body) || '', '');
   if (row.quote) {
     parts.push(
       '**選取的原文**',
-      `> ${String(row.quote).replace(/\n/g, '\n> ')}`,
+      `> ${scrubSecrets(String(row.quote)).replace(/\n/g, '\n> ')}`,
       '',
     );
   }
   if (row.correct_info) {
-    parts.push('**正確資訊 + 來源**', row.correct_info, '');
+    parts.push('**正確資訊 + 來源**', scrubSecrets(row.correct_info), '');
   }
   if (note || row.triage_note) {
     parts.push('**系統初判**', note || row.triage_note, '');

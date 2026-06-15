@@ -6,12 +6,46 @@
  *  - buildIssue(row)      → { title, labels, body }（對齊既有 issue template;不含 email）
  *  - dedupeKey(row)       → 穩定字串,用來在 batch 內 + 對既有 issue 去重
  *  - isDuplicate(row, existingIssues) → boolean
+ *  - scrubSecrets(str)    → 移除任何讀者欄位裡夾帶的 OAuth token / JWT / email（PII 第二道閘）
  *
  * 鐵律：issue body 只放 display_name,**永遠不放 email**（public issue 不洩 PII）。
  *       讀者文字 verbatim 引用,triage 不替讀者改寫對錯（那是維護者人類 gate 的事）。
+ *
+ * ⚠️ source_url 也是 PII 載體：登入讀者貼網址列時,Supabase OAuth implicit flow 會把
+ *    access_token / refresh_token / provider_token（JWT payload 內含 email）塞進 URL
+ *    hash fragment。原本「不放 email」只擋明文 email,擋不住 base64 編進 token 的 email +
+ *    活的憑證。所有讀者提供的欄位（source_url / body / quote / correct_info）進 issue/archive
+ *    前都必須過 scrubSecrets()。觸發：2026-06-16 feedback id 8f2f8908 把 OAuth callback URL
+ *    寫進 public issue #1160（已刪除 + re-file）。
  */
 
 const TYPES = new Set(['content', 'bug', 'newtopic', 'idea']);
+
+// ── secret / PII scrubbing ─────────────────────────────────────────────────────
+// 任何讀者欄位進 public issue / git archive 前都要過這一層（PII 第二道閘）。
+const JWT_RE = /eyJ[A-Za-z0-9_-]{6,}\.[A-Za-z0-9_-]{6,}\.[A-Za-z0-9_-]{6,}/g;
+const GOOGLE_TOK_RE = /ya29\.[A-Za-z0-9._-]{10,}/g;
+const TOKEN_PARAM_RE =
+  /\b(access_token|refresh_token|provider_token|id_token|provider_refresh_token)=([^&\s"'#]+)/gi;
+const EMAIL_RE = /[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/g;
+
+export function scrubSecrets(str) {
+  if (str === null || str === undefined) return str;
+  let s = String(str);
+  // 1) URL hash fragment 帶 token → 整段 fragment 砍掉(對 bug 回報無用)
+  s = s.replace(
+    /#[^\s)"']*(?:access_token|refresh_token|provider_token|id_token)[^\s)"']*/gi,
+    '',
+  );
+  // 2) 殘留的 token query param → 留 key 砍 value
+  s = s.replace(TOKEN_PARAM_RE, '$1=[REDACTED]');
+  // 3) 裸 JWT / Google token blob
+  s = s.replace(JWT_RE, '[REDACTED-JWT]');
+  s = s.replace(GOOGLE_TOK_RE, '[REDACTED-TOKEN]');
+  // 4) 明文 email(PII)
+  s = s.replace(EMAIL_RE, '[REDACTED-EMAIL]');
+  return s.trimEnd();
+}
 
 // ── spam ─────────────────────────────────────────────────────────────────────
 const SPAM_KEYWORDS = [
@@ -100,12 +134,14 @@ function provenance(row) {
 }
 
 function truncate(s, n) {
-  s = (s || '').trim().replace(/\s+/g, ' ');
+  s = scrubSecrets(s || '')
+    .trim()
+    .replace(/\s+/g, ' ');
   return s.length > n ? s.slice(0, n - 1) + '…' : s;
 }
 
 function articleRef(row) {
-  if (row.source_url) return row.source_url;
+  if (row.source_url) return scrubSecrets(row.source_url);
   if (row.article_title) return row.article_title;
   return row.article_slug || '(unknown)';
 }
@@ -120,8 +156,8 @@ export function buildIssue(row) {
       title: `[Bug] ${truncate(row.body, 60)}`,
       labels: ['bug', 'from-feedback'],
       body:
-        `**問題描述 / Description**\n${row.body}\n\n` +
-        `**問題頁面 URL**\n${row.source_url || '(n/a)'}` +
+        `**問題描述 / Description**\n${scrubSecrets(row.body)}\n\n` +
+        `**問題頁面 URL**\n${scrubSecrets(row.source_url) || '(n/a)'}` +
         provenance(row),
     };
   }
@@ -133,8 +169,10 @@ export function buildIssue(row) {
       labels: ['content', 'from-feedback'],
       body:
         `**分類 / Category**\n${row.category || '(未分類)'}\n\n` +
-        `**主題提案 / Proposal**\n${row.body}` +
-        (row.correct_info ? `\n\n**參考 / Notes**\n${row.correct_info}` : '') +
+        `**主題提案 / Proposal**\n${scrubSecrets(row.body)}` +
+        (row.correct_info
+          ? `\n\n**參考 / Notes**\n${scrubSecrets(row.correct_info)}`
+          : '') +
         provenance(row),
     };
   }
@@ -144,13 +182,13 @@ export function buildIssue(row) {
       type,
       title: `[Idea] ${truncate(row.body, 55)}`,
       labels: ['enhancement', 'from-feedback'],
-      body: `**想法 / Idea**\n${row.body}` + provenance(row),
+      body: `**想法 / Idea**\n${scrubSecrets(row.body)}` + provenance(row),
     };
   }
 
   // content（勘誤）→ 對齊 fact-correction.yml。有 quote = 讀者選文段標註。
   const quoteBlock = row.quote
-    ? `**讀者選取的原文 / Selected passage**\n> ${String(row.quote).replace(/\n/g, '\n> ')}\n\n🔗 直接定位：${row.source_url}\n\n`
+    ? `**讀者選取的原文 / Selected passage**\n> ${scrubSecrets(String(row.quote)).replace(/\n/g, '\n> ')}\n\n🔗 直接定位：${scrubSecrets(row.source_url)}\n\n`
     : '';
   return {
     type,
@@ -159,9 +197,9 @@ export function buildIssue(row) {
     body:
       `**哪篇文章 / Which article?**\n${articleRef(row)}\n\n` +
       quoteBlock +
-      `**哪裡有誤 / What's wrong?**\n${row.body}` +
+      `**哪裡有誤 / What's wrong?**\n${scrubSecrets(row.body)}` +
       (row.correct_info
-        ? `\n\n**正確資訊 + 來源 / Correct info + source**\n${row.correct_info}`
+        ? `\n\n**正確資訊 + 來源 / Correct info + source**\n${scrubSecrets(row.correct_info)}`
         : '') +
       provenance(row),
   };

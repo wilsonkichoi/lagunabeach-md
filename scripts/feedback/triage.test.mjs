@@ -15,6 +15,7 @@ import {
   isDuplicate,
   triageBatch,
   triageNoteFor,
+  scrubSecrets,
   BATCH_CLUSTER_THRESHOLD,
 } from './lib/classify.mjs';
 
@@ -83,6 +84,43 @@ test('issue body carries display_name + feedback id but NEVER email', () => {
       /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}/i,
       `email leaked in issue for ${row.id}`,
     );
+  }
+});
+
+// 2026-06-16 regression: feedback 8f2f8908 把 Supabase OAuth callback URL（含 access_token
+// JWT[內含 email] + provider_token + refresh_token）寫進 public issue #1160（已刪除）。
+// source_url 是登入讀者的網址列 capture,implicit flow 把活憑證塞進 hash fragment。
+// 「不放 email」明文閘擋不住 base64 編進 token 的 email → 需 scrubSecrets 第二道閘。
+test('scrubSecrets strips OAuth tokens / JWT / email from a Supabase auth callback URL', () => {
+  // 完全合成值,不含任何真實憑證/email（否則 test 本身就是 PII 載體,= 它要防的 bug）。
+  const toxic =
+    'https://taiwan.md/people/#access_token=eyJSAMPLE.eyJzdWIiOiJ4In0.eyJzaWci&expires_at=9999999999&provider_token=ya29.FAKEPROVIDER&refresh_token=FAKEREFRESH123&token_type=bearer';
+  const out = scrubSecrets(toxic);
+  assert.equal(out, 'https://taiwan.md/people/');
+  for (const leak of ['access_token', 'eyJ', 'ya29', 'FAKEREFRESH123']) {
+    assert.ok(!out.includes(leak), `scrubSecrets leaked ${leak}`);
+  }
+  // 明文 email 也要 redact
+  assert.match(scrubSecrets('mail reader@example.com'), /\[REDACTED-EMAIL\]/);
+});
+
+test('buildIssue scrubs a token-bearing source_url before it reaches issue body', () => {
+  const iss = buildIssue({
+    id: 'tok-1',
+    type: 'bug',
+    body: 'Ray 標示錯人了',
+    display_name: 'tester',
+    created_at: '2026-06-16T00:00:00Z',
+    source_url:
+      'https://taiwan.md/people/#access_token=eyJabc.eyJdef.sig&refresh_token=secret123&provider_token=ya29.LEAK',
+  });
+  for (const leak of [
+    'access_token',
+    'eyJabc',
+    'refresh_token=secret123',
+    'ya29.LEAK',
+  ]) {
+    assert.ok(!iss.body.includes(leak), `issue body leaked ${leak}`);
   }
 });
 
