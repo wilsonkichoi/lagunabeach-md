@@ -1,18 +1,26 @@
 ---
 title: 'The Legacy of Golden Melodies: The History and Cultural Position of Taiwanese Popular Music'
-description: "From the folk music movement to the Jay Chou phenomenon, exploring how Taiwanese popular music shaped the Mandopop landscape"
+description: 'From the folk music movement to the Jay Chou phenomenon, exploring how Taiwanese popular music shaped the Mandopop landscape'
 date: 2026-03-19
 author: 'Taiwan.md'
 category: 'Music'
 subcategory: '獨立與搖滾'
-tags: ['Taiwanese Popular Music', 'Folk Music Movement', 'Golden Melody Awards', 'Jay Chou', 'Independent Music', 'Music Industry']
+tags:
+  [
+    'Taiwanese Popular Music',
+    'Folk Music Movement',
+    'Golden Melody Awards',
+    'Jay Chou',
+    'Independent Music',
+    'Music Industry',
+  ]
 readingTime: 11
 lastVerified: 2026-03-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Music/台灣流行音樂.md'
-sourceCommitSha: 'f712b7242'
-sourceContentHash: 'sha256:5f9f96509c12cb27'
+sourceCommitSha: '40517470'
+sourceContentHash: 'sha256:f0d4e57308cc2c0f'
 sourceBodyHash: 'sha256:53757b341f1d1bcf'
 translatedAt: '2026-05-20T05:08:27+08:00'
 ---
@@ -67,7 +75,7 @@ Under the management of brothers Tuan Chung-tan and Tuan Chung-i, Rock Records e
 
 ### The Golden Age of Singer-Songwriters
 
-**Lo Ta-yu** was one of the most influential singer-songwriters of the 1980s. His album *Zhi Hu Zhe Ye* opened the path for critically minded singer-songwriters. Classics such as "Love Song 1980," "Childhood," and "The Story of Time" were not only moving in melody, but also contained profound social observation and humanistic reflection.
+**Lo Ta-yu** was one of the most influential singer-songwriters of the 1980s. His album _Zhi Hu Zhe Ye_ opened the path for critically minded singer-songwriters. Classics such as "Love Song 1980," "Childhood," and "The Story of Time" were not only moving in melody, but also contained profound social observation and humanistic reflection.
 
 **Jonathan Lee** is known for his delicate writing about emotion. Works such as "True Hero," "I Am a Little Bird," and "The Price of Love" displayed the lyrical tradition of Taiwanese popular music. He was also an outstanding producer who produced classic albums for many singers.
 
@@ -95,13 +103,13 @@ Female singers such as **Sylvia Chang**, **Tarcy Su**, and **Winnie Hsin** also 
 
 In the 1990s, many experimental music types appeared in Taiwan. **Wu Bai & China Blue** opened a new path with Taiwanese-language rock; works such as "Love You Ten Thousand Years" combined Taiwan's local languages with rock music and displayed a strong local character.
 
-**Black List Studio**'s album *Songs of Madness*, with its sharp social critique and innovative musical form, established an important benchmark for alternative music in Taiwan.
+**Black List Studio**'s album _Songs of Madness_, with its sharp social critique and innovative musical form, established an important benchmark for alternative music in Taiwan.
 
 ## The 2000s: The Jay Chou Phenomenon and the Mandopop Revolution
 
 ### Jay Chou's Musical Innovation
 
-In 2000, Jay Chou released his self-titled debut album *Jay*, fusing elements of R&B, hip-hop, and Chinese-style music to open a new face for Mandopop through a hybrid style.[^2]
+In 2000, Jay Chou released his self-titled debut album _Jay_, fusing elements of R&B, hip-hop, and Chinese-style music to open a new face for Mandopop through a hybrid style.[^2]
 
 The rapid-fire rap of "Nunchucks," the classical Chinese sentiment of "Lady," and the nationalist color of "Dragon Fist" show how Jay Chou's music preserved the lyrical tradition of Mandopop while injecting an entirely new musical language.
 
@@ -113,7 +121,7 @@ This "neoclassical" musical style became popular not only in Taiwan but also inf
 
 ### The Integration of Idol Dramas and Popular Music
 
-In the 2000s, the rise of Taiwanese idol dramas promoted the development of popular music. Theme songs from idol dramas such as *Meteor Garden*, *Lavender*, and *The Prince Who Turns into a Frog* often became pop hits.
+In the 2000s, the rise of Taiwanese idol dramas promoted the development of popular music. Theme songs from idol dramas such as _Meteor Garden_, _Lavender_, and _The Prince Who Turns into a Frog_ often became pop hits.
 
 Idol groups such as F4 and 5566 achieved enormous success across Asia through the promotion of idol dramas, demonstrating the soft power of Taiwanese popular culture.
 
@@ -197,17 +205,23 @@ Fifty years after the folk music movement, Taiwan remains one of the most active
 
 ## Further Reading
 
-- [Tom Chang](/people/張雨生) — From the 350,000-copy idol success of *Thinking of You Everyday*, to a 73-minute live band experiment, to shaping A-Mei into a diva behind the scenes; a contradictory epitome of Taiwanese popular music's golden age
-- [A-Mei](/people/張惠妹) — *Bad Boy* sold 1.38 million copies, the highest-selling album in Taiwan's history; an Indigenous representative at the peak of the 1990s popular music industry
+- [Tom Chang](/people/張雨生) — From the 350,000-copy idol success of _Thinking of You Everyday_, to a 73-minute live band experiment, to shaping A-Mei into a diva behind the scenes; a contradictory epitome of Taiwanese popular music's golden age
+- [A-Mei](/people/張惠妹) — _Bad Boy_ sold 1.38 million copies, the highest-selling album in Taiwan's history; an Indigenous representative at the peak of the 1990s popular music industry
 - [Stefanie Sun](/people/孫燕姿/) — Born in Singapore, she debuted in 2000 with "Cloudy Day," won the year's sales championship, and beat Jay Chou by one vote to win the Golden Melody Award for Best New Artist; the protagonist of the 2023 AI cover phenomenon
 - [Teresa Teng](/people/鄧麗君) — The Asian godmother of Cold War-era Chinese-language popular music, three-time winner of Japan's All Japan Cable Broadcasting Awards grand prize, wearer of an "Oppose Military Rule" sign at Happy Valley in 1989, and the soldiers' sweetheart who performed five times for troops in Kinmen
 
 ## References
 
-[^1]: [Ma Shifang, *Underground Nostalgia Blues*, China Times Publishing, 2006](https://www.books.com.tw/products/0010980346) — The book discusses the academic controversy around the title "Father of Folk Music" and is an important reference for research on Taiwanese folk music
-[^2]: [Bureau of Audiovisual and Music Industry Development, Ministry of Culture, *A History of the Development of Taiwanese Popular Music*](https://www.bamid.gov.tw/) — An official compilation of historical materials on Taiwan's popular music industry
+[^1]: [Ma Shifang, _Underground Nostalgia Blues_, China Times Publishing, 2006](https://www.books.com.tw/products/0010980346) — The book discusses the academic controversy around the title "Father of Folk Music" and is an important reference for research on Taiwanese folk music
+
+[^2]: [Bureau of Audiovisual and Music Industry Development, Ministry of Culture, _A History of the Development of Taiwanese Popular Music_](https://www.bamid.gov.tw/) — An official compilation of historical materials on Taiwan's popular music industry
+
 [^4]: [Music Workers Association of Taiwan — Wikipedia](https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E8%8F%AF%E9%9F%B3%E6%A8%82%E4%BA%BA%E4%BA%A4%E6%B5%81%E5%8D%94%E6%9C%83) — An important organization in Taiwan's music industry, promoting exchange among musicians and copyright-related affairs
-[^6]: [*Taiwan Music Yearbook*, National Center for Traditional Arts](https://taiwanmusicyearbook.ncfta.gov.tw/) — Annual statistics on the current state of Taiwan's music industry and records of major events
+
+[^6]: [_Taiwan Music Yearbook_, National Center for Traditional Arts](https://taiwanmusicyearbook.ncfta.gov.tw/) — Annual statistics on the current state of Taiwan's music industry and records of major events
+
 [^7]: [Yuan Yongxing — Wikipedia](https://zh.wikipedia.org/zh-tw/%E8%A2%81%E6%B0%B8%E8%88%88) — Veteran broadcaster and music critic, author of works related to Taiwanese independent music and winner of the Golden Bell Awards
-[^8]: [Taiwan Creative Content Agency, *Popular Music Industry Survey Report*](https://taicca.tw/) — Annual survey of the scale, revenue, and international exports of Taiwan's popular music industry
+
+[^8]: [Taiwan Creative Content Agency, _Popular Music Industry Survey Report_](https://taicca.tw/) — Annual survey of the scale, revenue, and international exports of Taiwan's popular music industry
+
 [^11]: [IFPI Taiwan Market Reports](https://www.ifpi.org/) — Annual Taiwan market reports from the International Federation of the Phonographic Industry, including physical and streaming sales data

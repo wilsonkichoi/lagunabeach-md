@@ -20,8 +20,8 @@ lastVerified: 2026-05-07
 lastHumanReview: true
 featured: true
 translatedFrom: 'Technology/台灣人工智慧實驗室.md'
-sourceCommitSha: 'dbb8d44cb'
-sourceContentHash: 'sha256:c9c56e989b7928f9'
+sourceCommitSha: 'ab47ff39'
+sourceContentHash: 'sha256:04b7d67d84ccc6da'
 sourceBodyHash: 'sha256:f134440a7453a1a5'
 translatedAt: '2026-05-22T05:08:46+08:00'
 ---

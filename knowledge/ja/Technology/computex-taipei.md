@@ -1,269 +1,270 @@
 ---
-title: 'Computex: Three Major International Computer Shows Have Closed Two, The Remaining One Grew in Taipei'
-description: "In June 2026, Jensen Huang stood on the stage in Taipei and said 'It's good to be home,' with the backdrop featuring images of meat zong (sticky rice dumplings) and pork knuckles. From a small exhibition for SME exporters next to Songshan Airport in 1981, Computex has grown into a pilgrimage site for global AI giants every year. Germany's CeBIT and the US's COMDEX have both closed down, but this 45-year-old Taipei computer show continues to grow larger because it is held on the island where nearly 90% of the world's AI servers are actually assembled."
+title: 'Computex：三大国際コンピュータ見本市のうち二つは幕を閉じ、残る一つは台北で育ちました'
+description: '2026 年 6 月、黄仁勲は台北の舞台に立ち、「家に帰ってきたようで本当にうれしい」と語りました。背面パネルに印されていたのは肉粽と豚足でした。Computex は 1981 年、松山空港のそばで開かれた中小企業向けの輸出見本市から、世界の AI 巨大企業が毎年巡礼する場所へと成長しました。ドイツの CeBIT、米国の COMDEX はいずれも幕を閉じましたが、この 45 歳の台北国際コンピュータ見本市はさらに規模を拡大しています。なぜなら、世界の AI サーバーの 9 割近くが実際に組み立てられている島で開催されているからです。'
 date: 2026-06-01
+author: 'Taiwan.md'
+category: 'Technology'
+subcategory: '半導體與硬體'
 tags:
   [
     'Computex',
-    'Taipei International Computer Exhibition',
-    'Jensen Huang',
+    '台北国際コンピュータ見本市',
+    '黄仁勲',
     'NVIDIA',
-    'AI Servers',
-    'Semiconductors',
-    'Stan Shih',
-    'Supply Chain',
+    'AIサーバー',
+    '半導体',
+    '施振栄',
+    'サプライチェーン',
     'CeBIT',
     'AI Together',
   ]
-subcategory: 'Semiconductors and Hardware'
-author: 'Taiwan.md'
-category: 'Technology'
 readingTime: 21
 lastVerified: 2026-06-04
 lastHumanReview: false
+featured: true
 translatedFrom: 'Technology/Computex.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:d37367135548def0'
-translatedAt: '2026-06-10T16:41:16Z'
-sourceBodyHash: 'sha256:bb5555703c8ada78'
+sourceCommitSha: '31a05c44b'
+sourceContentHash: 'sha256:4a673b61d3e24bb9'
+sourceBodyHash: 'sha256:9b3f0ed2efd5fc46'
+translatedAt: '2026-06-16T00:44:26+08:00'
 ---
 
-# Computex: Three Major International Computer Shows Have Closed Two, The Remaining One Grew in Taipei
+# Computex：三大国際コンピュータ見本市のうち二つは幕を閉じ、残る一つは台北で育ちました
 
-> **30-Second Overview:** Computex, the Taipei International Computer Exhibition, is turning 45 this year. It started in 1981 as an export exhibition for small and medium-sized enterprises next to Songshan Airport and has grown into a stage that global AI giants must attend every late May and early June. The two major competitors held during the same period, Germany's CeBIT and the US's COMDEX, have both closed down, leaving only Computex to grow larger and larger. The theme for 2026 is "AI Together." Jensen Huang took the stage in Taipei, and his first words were "It's good to be home." Why do global tech industry leaders fly to Taipei every late May? The answer lies in a cold, hard number: research institutions estimate that nearly 90% of the world's AI servers are assembled on this island.
+> **30 秒で概観：** Computex 台北国際コンピュータ見本市は今年で 45 歳です。1981 年、松山空港のそばで中小企業向けに開かれた輸出見本市から、世界の AI 巨大企業が毎年 5 月末から 6 月初めに必ず訪れる舞台へと成長しました。同時期の二大ライバルであるドイツの CeBIT と米国の COMDEX はいずれも幕を閉じ、残った Computex だけがますます規模を拡大しています。2026 年のテーマは「AI Together」です。黄仁勲（こう・じんくん／ジェンスン・フアン）は台北の舞台に立ち、第一声で「家に帰ってきたようで本当にうれしい」と語りました。なぜ世界のテクノロジー産業は毎年 5 月末に台北へ飛んでくるのでしょうか。答えは、ある冷徹な数字の中にあります。研究機関の推計では、世界の AI サーバーの 9 割近くが、この島で組み立てられています。
 
-## Good to Be Home
+## 家に帰ってきたようで本当にうれしい
 
-On the morning of June 1, 2026, in Taipei, Jensen Huang took the stage, and his first words were "It's good to be home" [^1].
+2026 年 6 月 1 日午前、台北。黄仁勲は舞台に立ち、第一声で「家に帰ってきたようで本当にうれしい」と語りました[^1]。
 
-On the large presentation screen behind him, instead of chip model numbers, were the names of Taiwanese snack shops like Wang Ji Fu Cheng Meat Zong and Fu Ba Wang Pork Knuckles [^1]. A Tainan native who moved to the US at age nine and later founded the world's most valuable company in California [^2] returned to Taipei, calling it "home" and "the starting point of all this" [^1].
+彼の背後にあった大きなプレゼンテーション用パネルに並んでいたのは、チップの型番ではありませんでした。王記府城肉粽、富霸王豬腳といった台湾の軽食店の名前でした[^1]。9 歳で米国へ移住し、のちにカリフォルニアで世界最高時価総額の企業を創業した台南出身の少年[^2]が台北に戻り、ここを「家」と呼び、「すべての始まり」と呼んだのです[^1]。
 
-During that speech, he unveiled the next-generation computing chip codenamed Vera Rubin, announcing it was "in full production," and showcased a chip called N1X, describing it as the "world's most amazing chip"; he spoke of "the arrival of useful AI" and "the arrival of agentic AI" [^1]. But what the audience remembers most might still be the backdrop featuring meat zong and pork knuckles.
+その講演で彼は、コードネーム Vera Rubin の次世代コンピューティングチップを披露し、「すでに全面量産に入った」と発表しました。さらに N1X というチップも示し、それを「世界で最も驚くべきチップ」と形容しました。彼は「有用な AI はすでに到来した」と語り、「エージェント AI の到来」について語りました[^1]。しかし会場の記憶に最も強く残ったのは、おそらく肉粽と豚足を載せたあの背面パネルでした。
 
-The exhibition he stood at is called COMPUTEX, the Taipei International Computer Exhibition. It is 45 years old. And he was not the only one flocking to Taipei that week: AMD's Lisa Su, Intel's Chris Lattner, and Qualcomm's Cristiano Amon, the CEOs of the world's four tech giants, took the stage together for speeches. Huang Chih-fang, Chairman of the Taipei External Trade Development Council (TAITRA), calculated that the market capitalization of the companies belonging to the nearly 30 speakers across these four keynote speeches and forums exceeds ten trillion US dollars [^3].
+彼が立っていた展示会は COMPUTEX、台北国際コンピュータ見本市です。今年で 45 歳になります。そしてその週に台北へ押し寄せたのは彼だけではありませんでした。AMD の蘇姿豊（そ・しほう／リサ・スー）、Intel の陳立武（ちん・りつぶ／リップブー・タン）、Qualcomm の Cristiano Amon も集まり、世界のテクノロジー大手 4 社の CEO が同じ舞台で講演しました。中華民国対外貿易発展協会（TAITRA）董事長の黄志芳は、4 つの基調講演とフォーラムに登壇した約 30 人の所属企業だけで、時価総額の合計が 10 兆米ドルを超えると試算しました[^3]。
 
-> **📝 Curator's Note**
-> A question worth pausing to think about: Why do the world's most valuable tech companies choose Taipei, and a computer show that started next to Songshan Airport in 1981, to announce their most critical products? The common explanation is the "Jensen Huang effect," a Taiwanese-American star CEO bringing global attention to Taiwan. But this explanation reverses cause and effect. What Huang Huang returned to was a place that was already impossible to bypass. To understand this, we must start from that small, unheralded exhibition 45 years ago.
+> **📝 キュレーター・ノート**
+> 立ち止まって考える価値のある問いがあります。世界で最も時価総額の高いテクノロジー企業のいくつかは、なぜ台北を選び、なぜ 1981 年に松山空港のそばから始まったコンピュータ見本市で、自社の最も重要な製品を発表するのでしょうか。一般的な説明は「黄仁勲旋風」です。台湾系のスター CEO が世界の視線を台湾へもたらした、というものです。しかしこの説明は因果を逆にしています。黄仁勲が戻ってきたのは、もともと避けて通れない場所でした。このことを理解するには、45 年前、誰にも期待されていなかった小さな展示会から見ていく必要があります。
 
-## The Export Exhibition Next to Songshan Airport
+## 松山空港そばの輸出見本市
 
-In 1981, Taiwan's personal computer industry was just budding. The first exhibition that year had a simple name: "Taipei Computer Exhibition." It was held at the TAITRA Exhibition Hall next to Songshan Airport, organized by the Taipei Computer Industry Association [^4][^5].
+1981 年、台湾のパーソナルコンピュータ産業はようやく芽吹いたばかりでした。その年の第 1 回展示会の名前は素朴で、「台北市電脳展」と呼ばれていました。会場は松山空港そばの外貿協会展示館で、主催は台北市電脳商業同業公会でした[^4][^5]。
 
-Its initial function was very practical: to provide a booth for Taiwan's emerging small and medium-sized computer enterprises, allowing them to display motherboards and components to foreign buyers coming to Taiwan for procurement [^5]. It was an era of "Taiwanese money flooding the streets"; the electronic parts culture of Guanghua Shopping District was about to spill over into an export business, and this exhibition was the annual gathering point for that business.
+最初の役割はきわめて実務的でした。台湾で頭角を現し始めたコンピュータ関連の中小企業にブースを与え、マザーボードや部品を並べ、台湾へ買い付けに来た外国のバイヤーに売るための場だったのです[^5]。それは「台湾銭淹脚目」、つまり金が足元まであふれると形容された時代でした。光華商場の電子部品文化が輸出生意へと広がり始めており、この展示会はそのビジネスの年次集結点でした。
 
-In the second edition, there were only 40 exhibiting companies [^4]. No one would have imagined that over forty years later, this number would become 1,500 companies and 6,000 booths [^6].
+第 2 回の出展企業はわずか 40 社でした[^4]。40 年余り後に、この数字が 1500 社、6000 ブースになるとは、誰も想像していませんでした[^6]。
 
-## The Year Stan Shih Changed the Name
+## 施振栄が名前を変えた年
 
-![Stan Shih accepting interviews from multiple media outlets at the 2014 Taipei IT Month event, wearing a dark suit, surrounded by a row of microphones and cameras, with the IT Month exhibition hall in the background](/article-images/technology/stan-shih-taipei-it-month-2014.webp)
-_Acer founder Stan Shih. In 1984, he officially renamed the "Taipei Computer Exhibition" to COMPUTEX TAIPEI, putting up a sign面向 the world for this exhibition; the photo is from his interview at the 2014 Taipei IT Month. Photo: Tony Tseng, 2014-12-05. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stan_Shih_at_Taipei_IT_Month_20141205a.jpg)._
+![施振栄が 2014 年の台北資訊月イベントで複数メディアの共同取材を受けている。濃色のスーツを着用し、前方にはマイクとカメラが並び、背景には資訊月の展示会場が見える](/article-images/technology/stan-shih-taipei-it-month-2014.webp)
+_Acer 創業者の施振栄（し・しんえい／スタン・シー）。1984 年、彼は「台北市電脳展」を COMPUTEX TAIPEI と正式に名づけ、この展示会に世界へ向けた看板を掲げました。写真は 2014 年、台北資訊月で取材を受ける様子です。Photo: Tony Tseng, 2014-12-05. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stan_Shih_at_Taipei_IT_Month_20141205a.jpg)._
 
-1984 was a turning point. According to Wikipedia and multiple reports, Stan Shih (who later became the founder of Acer), then Chairman of the Taipei Computer Industry Association, made the decision to officially rename the exhibition's English name to "COMPUTEX TAIPEI" [^4][^5]. This naming action by a local engineer put up a sign面向 the world for an exhibition that was originally only for Taiwanese companies.
+1984 年は転換点でした。ウィキペディアや複数の報道によれば、当時の台北市電脳商業同業公会理事長だった施振栄、のちの Acer 創業者が、この展示会の英語名を「COMPUTEX TAIPEI」と正式に決めました[^4][^5]。一人の地元エンジニアによる命名が、もともと台湾企業向けだった展示会に、世界へ向けた看板を掲げたのです。
 
-The following year, starting from the fifth edition in 1985, the semi-official Foreign Trade Development Council (TAITRA) joined as a co-organizer, and the Chinese name was also changed to "Taipei International Computer Exhibition" [^4]. From then on, it had two engines: one was a private association that understood the industry and was close to manufacturers' needs, and the other was a trade promotion agency with resources that could push the exhibition internationally. With both engines turning together, the exhibition began to climb.
+翌 1985 年、第 5 回から半官半民の中華民国対外貿易発展協会（外貿協会、TAITRA）が主催に加わり、中国語名も「台北国際電脳展」に改められました[^4]。以後、この展示会は二つのエンジンを持つようになります。一つは産業を理解し、企業の需要に密着した民間公会。もう一つは資源を持ち、展示会を国際化できる貿易振興機関です。二つのエンジンが同時に回り始め、展示会は上昇していきました。
 
-By 1989, it was already the largest computer exhibition in Asia and ranked third in the world, trailing only Germany's CeBIT in Hanover and the US's COMDEX [^4]. This was the golden age of Taiwan's PC contract manufacturing; brands like ASUS, Gigabyte, and MSI, which would later become global brands, all walked out from the booths of this exhibition.
+1989 年には、アジア最大のコンピュータ見本市となり、世界ではドイツ・ハノーバーの CeBIT と米国の COMDEX に次ぐ第 3 位に位置づけられました[^4]。それは台湾の PC 受託製造の黄金時代でした。ASUS、GIGABYTE、MSI といった後の世界ブランドは、いずれもこの展示会のブースから歩み出した企業です。
 
-> **💡 Did You Know**
-> Computex's venues were not "moved" out; they "grew" out. From the Songshan Airport venue in 1981 to the fixed World Trade Center venue on Xinyi Road in 1986, and then successively adding the Taipei International Convention Center, World Trade Center Hall 2 and Hall 3, and from 2008 onwards, incorporating Nangang Exhibition Hall Hall 1 and later Hall 2 [^4]. It continuously expanded its exhibition space outward, like a tree growing branches, without changing pots.
+> **💡 ご存じですか**
+> Computex の会場は「移転」したのではなく、「成長」してきました。1981 年の松山空港館から、1986 年には信義路の世界貿易センター展示館に定着し、さらに台北国際会議センター、世貿二館、三館が加わり、2008 年からは南港展覧館一館、その後二館も組み込まれました[^4]。展示会場を外へ外へと拡張していく様子は、枝を次々と伸ばす木のようで、鉢を替えたことはありません。
 
-## Three Major Computer Shows, Two Died
+## 三大コンピュータ見本市のうち二つは消えました
 
-Entering the new millennium, the scale of the world's three major computer shows began to tilt.
+2000 年代に入ると、世界三大コンピュータ見本市の均衡は傾き始めました。
 
-The first to fall was the US's COMDEX. In 2003, as COMDEX declined, the Computex organizing committee officially incorporated Taipei World Trade Center Hall 3 into the exhibition area, and this year it officially climbed to "the world's second largest computer show, behind only CeBIT," and established the scale of four halls opening simultaneously in 2004 [^4][^5].
+最初に倒れたのは米国の COMDEX です。2003 年、COMDEX の衰退に伴い、Computex 主催者は台北世界貿易センター三館を正式に展示エリアへ組み込みました。この年、Computex は「CeBIT に次ぐ世界第 2 位」のコンピュータ見本市へと正式に上り詰め、2004 年には 4 会場同時開催の規模を確立しました[^4][^5]。
 
-![The bustling crowd inside the CeBIT 2005 exhibition hall in Hanover, Germany, with wide aisles lined with booths from various IT companies on both sides, high ceilings, and numerous billboards, presenting the scale of the world's largest computer exhibition at that time](/article-images/technology/cebit-hannover-2005.webp)
-_The CeBIT 2005 exhibition hall in Hanover, Germany. During the peak of the internet bubble, it once reached 850,000 visitors, making it the undisputed world's number one; it announced its end in 2018. Photo: Florian K, 2005-03-16. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cebit_Hannover_2004.JPG)._
+![ドイツ・ハノーバーの CeBIT 2005 会場内。広い展示館の通路の両側に各情報企業のブースが並び、高い天井の下に看板が立ち並ぶ。当時の世界最大のコンピュータ見本市の規模を示している](/article-images/technology/cebit-hannover-2005.webp)
+_ドイツ・ハノーバーの CeBIT 2005 年会場。インターネット・バブルの最盛期には来場者数が 85 万人に達し、名実ともに世界最大でした。2018 年に歴史に幕を下ろすことが発表されました。Photo: Florian K, 2005-03-16. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cebit_Hannover_2004.JPG)._
 
-The one that lasted longer was Germany's CeBIT. CeBIT broke away from the long-history Hanover Industrial Fair in 1986; during the peak of the internet bubble, it once reached 850,000 visitors, making it the undisputed world's number one [^7]. But as prosperity peaks, decline follows; the number of visitors and exhibitors declined year by year, and the market was eaten away piece by piece by January's CES, February's MWC, June's Computex, and September's IFA. In November 2018, the organizer announced that CeBIT had entered history [^7].
+比較的長く持ちこたえたのはドイツの CeBIT でした。CeBIT は 1986 年、長い歴史を持つハノーバー工業見本市から独立しました。インターネット・バブルの全盛期には来場者数が一時 85 万人に達し、まぎれもない世界一でした[^7]。しかし頂点を極めた後は衰退し、来場者数も出展者数も年々減少しました。市場は 1 月の CES、2 月の MWC、6 月の Computex、9 月の IFA に少しずつ分食されました。2018 年 11 月、主催者は CeBIT の終了を発表しました[^7]。
 
-The Central News Agency, reporting on CeBIT's closure, pointed out in the news: "The Taipei International Computer Exhibition (Computex) in June every year has geographical advantages for Asian manufacturers seeking orders, and its scale continues to expand" [^7].
+CeBIT の幕引きを報じた中央社は、記事の中で一つの重要な点を指摘しました。「毎年 6 月の台北国際コンピュータ見本市（Computex）は、受注を望むアジア企業にとって地の利があり、規模を拡大し続けている」と述べたのです[^7]。
 
-"Geographical advantages" are the key to this entire story.
+「地の利」。この言葉こそが、全体の鍵です。
 
-The three major computer shows: COMDEX closed in 2003, CeBIT closed in 2018, and the remaining one grew in Taipei. Why did it survive?
+三大コンピュータ見本市のうち、COMDEX は 2003 年に幕を閉じ、CeBIT は 2018 年に幕を閉じました。残った一つは、台北で育った Computex でした。なぜ生き残ったのは Computex だったのでしょうか。
 
-> **📝 Curator's Note**
-> The common online saying is "Jensen Huang made Computex great again." But this saying reverses the timeline. COMDEX and CeBIT died in the era before the AI wave, while Computex had been expanding continuously before that. What does an exhibition follow? It follows orders, and orders follow manufacturing. German and US exhibitions are held in places of "demand": buyers, media, press conferences; the Taipei exhibition is held in places of "supply," where things are actually made. When an industry enters a stage where "who can make it" is scarcer than "who can think of it," exhibitions held on the manufacturing side win. Exhibitions do not grow out of thin air; they grow where things are actually made.
+> **📝 キュレーター・ノート**
+> ネット上でよく見られる説明は「黄仁勲が Computex を再び偉大にした」というものです。しかしこの説明は時系列を逆にしています。COMDEX と CeBIT は、AI ブームがまだ存在しなかった時代にすでに消えていました。一方で Computex は、その前から拡大を続けていました。展示会は何についていくのでしょうか。受注についていきます。そして受注は製造についていきます。ドイツと米国の展示会は「需要」の場所で開かれていました。買い手、メディア、発表会の場所です。台北の展示会は「供給」の場所、つまり物が実際に作られる場所で開かれていました。ある産業において「誰が思いつくか」よりも「誰が作れるか」のほうが希少になる段階に入ると、製造側で開かれる展示会が勝ちます。展示会は何もないところから大きくなるのではありません。物が実際に作られる場所で育つのです。
 
-## The 6,000 Booths No One Filmed
+## 誰も撮らない 6000 のブース
 
-![The exterior of Nangang Exhibition Hall Hall 1, a glass curtain wall building with a large COMPUTEX TAIPEI exhibition sign hanging high, with crowds of visitors wearing ID badges gathering at the entrance preparing to enter; this is the main venue of the Taipei International Computer Exhibition in recent years](/article-images/technology/computex-nangang-exterior-2016.webp)
-_Taipei Nangang Exhibition Hall, the main venue of COMPUTEX in recent years. Every late May and early June, it is packed with buyers from over a hundred countries. Photo: NVIDIA Taiwan, 2016-05-31. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Computex_Taipei_at_Taipei_Nangang_Exhibition_Center_20160531.jpg)._
+![南港展覧館一館の外観。ガラスカーテンウォールの建物に COMPUTEX TAIPEI の大型展示看板が掲げられ、入口には入場を待つ来場者が集まり、識別証を下げている。近年の台北国際コンピュータ見本市の主会場である](/article-images/technology/computex-nangang-exterior-2016.webp)
+_台北南港展覧館、近年の COMPUTEX の主会場です。毎年 5 月末から 6 月初めにかけて、ここには 100 を超える国・地域から調達バイヤーが集まります。Photo: NVIDIA Taiwan, 2016-05-31. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Computex_Taipei_at_Taipei_Nangang_Exhibition_Center_20160531.jpg)._
 
-Media lenses always focus on the stage of keynote speeches, on those few CEOs. But Computex's true body is those 6,000 booths [^6].
+メディアのカメラはいつも基調講演の舞台に向き、数人の CEO を映します。しかし Computex の本当の身体は、6000 のブースです[^6]。
 
-The vast majority of booths do not belong to any brand you can name. They are small and medium-sized enterprises making cases, cooling solutions, power supplies, and connectors. No one writes reports about them, but without them, an AI server cannot be assembled. Since the export exhibition next to Songshan Airport in 1981, these "unfilmed" small and medium-sized enterprises have always been the backbone of this exhibition. For example, Kinsus and Sunon, makers of cold plates and quick connectors, whose names are unknown to the general public, are essential cooling components in NVIDIA's scalding hot AI cabinets.
+ほとんどのブースは、誰もが名前を言えるブランドのものではありません。筐体を作る企業、冷却を担う企業、電源供給装置を作る企業、コネクターを作る中小企業です。彼らについて記事が一本書かれることはほとんどありません。しかし彼らがいなければ、AI サーバーは一台も組み上がりません。1981 年、松山空港そばの輸出見本市から始まって以来、こうした「誰にも撮られない」中小企業は、常にこの展示会の骨格でした。たとえば水冷板とクイックコネクターを手がける奇鋐や双鴻は、一般にはほとんど知られていない名前ですが、NVIDIA の高熱を発する AI ラックには欠かせない冷却の一環です。
 
-This is exactly what makes Computex different from other tech exhibitions. It is essentially a B2B procurement site; foreign buyers come here to place orders. The exhibition is held on the island with the densest supply chain; buyers can walk through a few booths to assemble the parts of a machine. This efficiency is something Silicon Valley's press conferences cannot provide.
+これこそが、Computex と他のテクノロジー展示会が最も異なる点です。本質的に、これは B2B の調達現場です。外国のバイヤーはここへ発注しに来ます。展示会はサプライチェーンが最も密集する島で開かれます。バイヤーは数ブース歩くだけで、一台の機械に必要な部品をそろえられます。この効率は、シリコンバレーの発表会では提供できません。
 
-## The Decade of "PC is Dead"
+## 「PC は死んだ」と言われた 10 年
 
-However, Computex's path has not been smooth.
+とはいえ、Computex も順風満帆だったわけではありません。
 
-In 2012, global PC shipments declined for the first time, and this exhibition, which started with PCs, went downhill [^5]. The saying "PC is dead" began to circulate, as smartphones took away consumers' attention entirely. In 2014, even PC leader Lenovo was absent, and people began to question whether Computex had degenerated into a self-indulgent event for Taiwanese local brands. In 2015, an article circulating in the cross-strait tech circles had the title directly written as "Declining Computex, a game almost self-entertaining" [^5].
+2012 年、世界の PC 出荷台数が初めて減少し、PC から始まったこの展示会も下降しました[^5]。「PC は死んだ」という論調が広がり、スマートフォンが消費者の注意を丸ごと奪っていきました。2014 年には、PC 首位の Lenovo さえ欠席し、Computex は台湾地場ブランドの内輪受けに落ちたのではないかと疑う声が出始めました。2015 年には、中台テクノロジー圏で流通したある文章が、見出しに直接「没落する ComputeX、ほとんど自己満足のゲーム」と書きました[^5]。
 
-That was also the most awkward era for Computex's image. In its early years, it was famous for its halls full of showgirls; in 2018, it attracted criticism from foreign media for objectifying women and having marketing concepts stuck in the last century. The following year, the External Trade Development Council stepped in, encouraging manufacturers to use more creative marketing; although not explicitly banned, the showgirls on the exhibition floor noticeably decreased [^8].
+それは Computex のイメージが最も居心地の悪い時代でもありました。初期には会場いっぱいのショーガールで知られていましたが、2018 年には海外メディアから女性を物化している、マーケティング感覚が前世紀にとどまっていると批判されました。翌年、外貿協会は企業に対し、より創造的なマーケティングへの転換を促しました。明確に禁止したわけではありませんでしたが、会場のショーガールは目に見えて減りました[^8]。
 
-Crisis forced transformation. In 2016, Computex established a new startup exhibition, InnoVEX, extending the exhibition's reach from mature PC hardware to artificial intelligence, IoT, and startup teams [^6]. The exhibition's official positioning also quietly changed from "Computer Exhibition" to "Global Leading AIoT and Startup Industry Exhibition" [^4]. In 2020, the pandemic interrupted the physical exhibition, and the organizer moved it online, getting through the hardest year [^4].
+危機は転換を迫りました。2016 年、Computex はスタートアップ特別展 InnoVEX を設け、成熟した PC ハードウェアから、人工知能、IoT、スタートアップチームへと展示会の触角を伸ばしました[^6]。展示会の公式な位置づけも、「コンピュータ見本市」から「世界をリードする AIoT とスタートアップ産業展」へと静かに書き換えられました[^4]。2020 年にはパンデミックが実体展示を中断させ、主催者はオンラインへ移行し、最も厳しい一年を乗り切りました[^4]。
 
-No one knew that this transformation, done to survive, exactly paved the beach for the tsunami three years later.
+誰も知りませんでした。生き残るために行ったこの転換が、3 年後の大波に備えて砂浜を整えていたのだということを。
 
-## The Year Jensen Huang Returned
+## 黄仁勲が戻ってきた年
 
-![Jensen Huang giving a speech on the stage at Computex Taipei, wearing his signature dark top, with a large projection screen behind him and an audience of focused listeners seated below; this is one of the scenes of him returning to the Taipei Computer Exhibition to deliver keynote speeches multiple times](/article-images/technology/computex-jensen-huang-2016.webp)
-_Jensen Huang at Computex Taipei in 2016. Since 2023, he has returned to this exhibition almost every year to announce NVIDIA's latest AI chips. Photo: NVIDIA Taiwan, 2016-05-31. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jensen_Huang_at_Computex_Taipei_20160531c.jpg)._
+![黄仁勲が Computex Taipei の舞台で講演している。おなじみの濃色の上着を着用し、背後には大型投影スクリーンがあり、客席は熱心に聞き入る聴衆で埋まっている。台北コンピュータ見本市で何度も基調講演を行ってきた場面の一つである](/article-images/technology/computex-jensen-huang-2016.webp)
+_黄仁勲が 2016 年に Computex Taipei で講演する様子です。2023 年以降、彼はほぼ毎年この展示会に戻り、NVIDIA の最新 AI チップを発表しています。Photo: NVIDIA Taiwan, 2016-05-31. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jensen_Huang_at_Computex_Taipei_20160531c.jpg)._
 
-On May 29, 2023, Jensen Huang took the stage at Computex, delivering his first physical keynote speech after the pandemic, and his first public speech in nearly four years [^9]. He brought the Grace Hopper super chip, announced its official mass production, and presented a DGX GH200 supercomputer that can connect 256 chips using NVLink, achieving computing power of one exaflop; Google, Meta, and Microsoft were the first customers [^9]. His main theme was only one sentence: bringing generative AI into every data center.
+2023 年 5 月 29 日、黄仁勲は Computex の舞台に立ちました。パンデミック後初の対面式基調講演であり、彼にとって約 4 年ぶりの公開講演でした[^9]。彼は Grace Hopper スーパー・チップを持ち込み、正式量産を発表しました。さらに、256 個のチップを NVLink でつなぎ、計算能力が 1 exaflop に達する DGX GH200 スーパーコンピュータを披露しました。Google、Meta、Microsoft が最初の顧客でした[^9]。彼の主軸は一言に集約されていました。生成 AI をすべてのデータセンターへ持ち込む、ということです。
 
-The wave of generative AI thus pulled Computex out of the shadow of "PC is dead."
+生成 AI の波は、こうして Computex を「PC は死んだ」という影からすくい上げました。
 
-> **✦** A computer show that has been held for forty years and has been predicted to die for nearly ten years relies not on its own strength, but on the world suddenly needing the place where it is located.
+> **✦** 40 年続き、10 年近く不振をささやかれていたコンピュータ見本市を支えたのは、それ自身が突然強くなったからではありません。世界が突然、その展示会がある場所を必要としたからです。
 
-In 2024, the most tech giant CEOs in history gathered in Taipei. The opening keynote speech that year was delivered by AMD's Lisa Su, with Qualcomm, Intel, MediaTek, and Supermicro CEOs taking the stage in succession, while Jensen Huang co-hosted a dialogue with ARM's CEO [^3]. Beyond the speeches, Huang Huang also held a personal speech at the NTU General Gymnasium that year, with the theme of how AI drives a new round of global industrial revolution. At the end, he thanked Taiwan, saying a sentence that was later repeatedly quoted: "Taiwan is the unsung hero, but the pillar of the world." He also said: "Without Taiwan, NVIDIA's vision is just an unrealizable dream" [^10].
+2024 年には、史上最多のテクノロジー大手 CEO が台北に集まりました。その年の開幕基調講演は AMD の蘇姿豊が担当し、Qualcomm、Intel、MediaTek、Supermicro の CEO が続いて登壇しました。黄仁勲は ARM CEO と同じ舞台で対談しました[^3]。講演のほかに、黄仁勲はその年、台湾大学総合体育館で個人講演を行い、AI がどのように世界の新たな産業革命を牽引するかをテーマに語りました。最後に台湾へ感謝し、後に何度も引用される言葉を残しました。「台湾は無名の英雄ですが、世界の支柱です」。さらに彼は、「台湾がなければ、NVIDIA のビジョンは実現できない夢にすぎません」と述べました[^10]。
 
 <div
   class="video-embed"
   style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;"
 >
-   <iframe
+  <iframe
     src="https://www.youtube.com/embed/pKXDVsWZmUU"
     title="NVIDIA CEO Jensen Huang Keynote at COMPUTEX 2024"
     style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
     loading="lazy"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen
-   ></iframe>
+  ></iframe>
 </div>
 
-_NVIDIA Official Channel: Full version of Jensen Huang's 2024 COMPUTEX keynote speech. He compared generative AI to an "AI factory," with the audience filled with Taiwanese manufacturers from the global supply chain._
+_NVIDIA 公式チャンネル：黄仁勲による 2024 年 COMPUTEX 基調講演の完全版です。彼は生成 AI を「AI 工場」にたとえ、客席には世界のサプライチェーンに連なる台湾企業がぎっしり座っていました。_
 
-Those days, he accompanied 92-year-old Morris Chang and Lite-On's Lin Baili to stroll through Ningxia Night Market, devouring oyster omelets and tofu pudding, with the scenes spreading across Taiwan [^11]. Two years later, in 2026, he appeared at the night market again, this time bringing his parents, paying for tofu pudding for the queuing people, and smilingly saying "I'm treating, sorry sorry, I brought my dad and mom" [^12]. A globally most powerful tech CEO treats Taipei's night market as his own backyard.
+その数日間、彼は 92 歳の張忠謀（ちょう・ちゅうぼう／モリス・チャン）、Quanta の林百里（りん・ひゃくり／バリー・ラム）とともに寧夏夜市を歩き、牡蠣オムレツと豆花を味わいました。その映像は台湾全土に広まりました[^11]。2 年後の 2026 年、彼は再び夜市に姿を見せました。今度は両親を連れ、列に並ぶ人々に自腹で豆花をおごり、「私のおごりですよ。すみません、すみません。父と母を連れてきました」と笑いました[^12]。世界で最も権力を持つテクノロジー CEO の一人が、台北の夜市、つまりナイトマーケットを自宅の裏庭のように扱っているのです。
 
-By 2025, Computex had become entirely the主场 of AI. The theme that year was "AI NEXT." Jensen Huang spoke at the Taipei Music Center, which could hold 5,000 people, with seats full, announcing the next-generation GB300 chip, and collaborating with Foxconn, the National Science and Technology Council, and TSMC to build Taiwan's AI infrastructure [^13].
+2025 年には、Computex は完全に AI の主戦場になっていました。その年のテーマは「AI NEXT」でした。黄仁勲は 5000 人を収容できる台北流行音楽センターで講演し、満席の会場で次世代 GB300 チップを発表しました。また Foxconn、国家科学及技術委員会、TSMC と協力し、台湾のために AI インフラを構築すると発表しました[^13]。
 
-## Taipei This Year: AI Together
+## 今年の台北：AI Together
 
-Thus, we arrive at 2026.
+そして 2026 年を迎えました。
 
-Huang Chih-fang, Chairman of the External Trade Development Council, described this year's Computex as "the first time adopting a dual-exhibition area model; in addition to Nangang Exhibition Hall Hall 1 and Hall 2, it returns to World Trade Center Hall 1, becoming the largest exhibition in history" [^14]. 33 countries, 1,500 companies, 6,000 booths, the exhibition period from June 2nd to 5th, estimated to attract 40,000 international buyers [^6][^15].
+外貿協会董事長の黄志芳は、今年の Computex について「初めて二つの展示エリア方式を採用し、南港展覧館一館・二館に加え、さらに世界貿易センター一館へ戻ることで、史上最大規模の展示会となる」と表現しました[^14]。33 カ国、1500 社、6000 ブース。会期は 6 月 2 日から 5 日までで、4 万人の国際バイヤーを集めると見込まれました[^6][^15]。
 
-This year's theme is "AI Together." Huang Chih-fang said this not only represents the new intersection of humans and AI, but "symbolizes Taiwan joining hands with the global tech industry to jointly create a new chapter of future AI civilization" [^14]. The exhibition revolves around three main axes: AI and Computing, Robotics and Mobility, and Next-Generation Technology [^6].
+今年のテーマは「AI Together」です。黄志芳は、これは人類と AI の新たな交点を表すだけでなく、「台湾が世界のテクノロジー産業と手を携え、未来の AI 文明の新たな章をともに築くことを象徴している」と述べました[^14]。展示会は三つの主軸、AI とコンピューティング、ロボットとモビリティ、次世代テクノロジーを中心に構成されました[^6]。
 
-The most notable new focus is robotics. This year, three special zones were specially planned in the returned World Trade Center Hall 1: the AI Robotics Zone, the Electronic Paper Industry Zone, and the Tech Application and Experience Hall, focusing on "Physical AI" and the "embodied intelligence" of robots [^14]. In the past few years, AI was still living in the servers of data centers; this year, it is growing limbs and entering the physical world.
+最も注目すべき新たな重点はロボットです。今年は、復帰した世界貿易センター一館に三つの特別エリアが設けられました。AI ロボットエリア、電子ペーパー産業エリア、テクノロジー応用・体験館です。焦点は「フィジカル AI」と、ロボットの「身体化された知能」に置かれました[^14]。過去数年、AI はまだデータセンターのサーバーの中に生きていました。今年、それは手足を伸ばし、実体世界へ歩み出そうとしています。
 
-After the opening, this newly established AI Robotics Zone became the focus of World Trade Center Hall 1: over 180 companies gathered, assembling a complete supply chain from sensors, motors, reducers to system integration, demonstrating in real-time dynamic displays how robots enter industrial automation, logistics, and healthcare [^23]. The most representative is Hiwin Technologies, which started with precision transmission components; this company crossed over to exhibit for the first time, presenting dual-arm logistics robots, humanoid robot core modules, and smart grippers, backed by its self-made ball screws, harmonic reducers, and actuator modules [^22]. A Taiwanese company that previously supplied precision parts for machine tools and semiconductor equipment connected the same mechanical skills to the body of "Physical AI" in NVIDIA's mouth. External Trade Development Council Chairman Huang Chih-fang said he expects Taiwan to "further leap from a global tech manufacturing hub to a 'Global AI Solutions Center'" [^23]. Foxconn, Pegatron, and other original contract manufacturers of AI servers also showcased robots on the exhibition floor [^16].
+開幕後、この新設の AI ロボットエリアは世界貿易センター一館の焦点となりました。180 社を超える企業が集まり、センサー、モーター、減速機からシステムインテグレーションまでの完全な産業チェーンを形成し、実機の動きによって、ロボットがどのように工業自動化、物流、医療・介護へ入っていくかを示しました[^23]。最も象徴的だったのは、精密伝動部品から出発した HIWIN Technologies です。同社は初めて分野を越えて出展し、双腕物流ロボット、ヒューマノイドロボットの中核モジュール、スマートグリッパーを披露しました。その背後にあるのは、自社製のボールねじ、ハーモニック減速機、アクチュエーションモジュールです[^22]。かつて工作機械と半導体装置に精密部品を供給していた台湾企業が、同じ機械技術を、NVIDIA が語る「フィジカル AI」の身体へ接続したのです。外貿協会董事長の黄志芳は、台湾が「世界のテクノロジー製造の重鎮から、さらに『世界の AI ソリューションセンター』へ飛躍する」ことを期待すると述べました[^23]。Foxconn や Pegatron といった、もともと AI サーバーを組み立てていた受託製造企業も、会場でロボットを披露しました[^16]。
 
-The main stage remained star-studded. Jensen Huang spoke first on June 1st, presenting the mass-produced Vera Rubin chip; Qualcomm's Cristiano Amon spoke at the opening ceremony on the same day; AMD's Lisa Su and Intel's Chris Lattner led respectively; Marvell and NXP CEOs also each had speeches on AI infrastructure and Physical AI [^3][^17]. In the exhibition hall, because GPU computing power stacks higher and higher, and air cooling has reached physical limits, liquid cooling became the standard equipment on the booths of major contract manufacturers for the first time [^16].
+主舞台は相変わらず華やかでした。黄仁勲は 6 月 1 日に先陣を切って講演し、すでに量産された Vera Rubin チップを披露しました。同日、Qualcomm の Cristiano Amon も開幕講演を行いました。AMD の蘇姿豊、Intel の陳立武がそれぞれ陣頭に立ち、Marvell と NXP の CEO も、AI インフラ、フィジカル AI をテーマに講演しました[^3][^17]。会場では、GPU の計算能力がますます高まり、空冷が物理的な限界に達したため、液冷が初めて各大手受託製造企業のブースで標準装備となりました[^16]。
 
 <div
   class="video-embed"
   style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;"
 >
-   <iframe
+  <iframe
     src="https://www.youtube.com/embed/wSp6AiNIrsY"
     title="NVIDIA GTC Taipei 2026 Keynote | Full Replay"
     style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
     loading="lazy"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen
-   ></iframe>
+  ></iframe>
 </div>
 
-_NVIDIA Official Channel: Full version of Jensen Huang's 2026 GTC Taipei keynote speech. It was this speech where he said "It's good to be home," presented the fully mass-produced Vera Rubin, and the backdrop featured Taipei's meat zong and pork knuckle shop names._
+_NVIDIA 公式チャンネル：黄仁勲による 2026 年 GTC Taipei 基調講演の完全版です。この講演で彼は「家に帰ってきたようで本当にうれしい」と語り、全面量産に入った Vera Rubin を披露しました。背面パネルに印されていたのは、台北の肉粽と豚足店の名前でした。_
 
-> **📝 Curator's Note**
-> Note Jensen Huang's backdrop with meat zong and pork knuckles this year, and his sentence "Taipei is the starting point of all this." A tech CEO presenting chips, with the background featuring night market snacks. This image tells the world that the chip he is talking about, from design to becoming a usable machine, every step cannot be separated from this island. The pork knuckles on the backdrop, and the 6,000 booths below the stage making cooling solutions and power supplies, are telling the same story.
+> **📝 キュレーター・ノート**
+> 今年、黄仁勲の背後にあった肉粽と豚足のパネル、そして彼の「台北こそがこのすべての始まりです」という言葉に注目してください。一人のテクノロジー CEO がチップを発表し、その背景には夜市の軽食が置かれています。この画面は世界に向けて語っています。彼が語ろうとしているこのチップは、設計から使える機械になるまでの一歩一歩で、この島から離れられないのだ、と。背面パネルの豚足と、客席の下に広がる冷却や電源を担う 6000 のブースは、同じことを語っています。
 
-## 90% of Servers, 3% Gross Margin
+## 9 割のサーバー、3 パーセントの粗利
 
-Pulling the lens back from the stage, we see Computex's true confidence, and its hidden worries.
+カメラを舞台から引くと、Computex の本当の底力と、その懸念が見えてきます。
 
-![The exterior of TSMC's factory in Hsinchu Science Park, a beige large-scale cleanroom building complex, is the main production base for advanced chips globally](/article-images/technology/tsmc-fab-hsinchu-2009.webp)
-_TSMC factory in Hsinchu Science Park. For an NVIDIA AI chip to become a server that can operate in a data center, the first process happens here—over 90% of the world's most advanced chips are produced by TSMC. Photo: Arusanov, 2009, Public Domain. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tsmc_factory_hsinchu.JPG)._
+![新竹科学園区にある TSMC 工場の外観。ベージュ色の大型クリーンルーム工場群で、世界の先端チップの主要生産拠点である](/article-images/technology/tsmc-fab-hsinchu-2009.webp)
+_新竹科学園区の TSMC 工場です。一つの AI チップが一台のサーバーになる最初の工程はここにあります。世界の最先端チップの 9 割超は TSMC が生産しています。Photo: Arusanov, 2009，公有領域. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tsmc_factory_hsinchu.JPG)._
 
-For an NVIDIA AI chip to become a server that can operate in a data center, almost every process in between is completed in Taiwan. Chips rely on TSMC for production, with over 90% of the world's most advanced chips coming from its hands; chip packaging relies on TSMC's CoWoS advanced packaging, this process now being the throat of the entire AI computing power supply shortage [^18]. Server assembly relies on contract manufacturers like Foxconn, Quanta, and Wistron; just Foxconn alone accounts for about 40% of the global AI server contract manufacturing market share [^19]. Power supplies rely on Delta Electronics, accounting for about half of the global server power supply market; cooling, connectors, and cases are almost monopolized by Taiwanese companies [^18]. Research institutions estimate that nearly 90% of the world's AI servers are assembled and shipped by Taiwanese companies [^18].
+NVIDIA の AI チップが、データセンターで稼働できるサーバーになるまでの工程は、ほぼすべて台湾で完了します。チップは TSMC によって生産され、世界の最先端チップの 9 割超が同社から生まれます。チップのパッケージングには TSMC の CoWoS 先端パッケージングが使われ、この工程はいまや AI 計算能力の供給不足における喉元となっています[^18]。サーバーの組み立ては Foxconn、Quanta、Wistron といった受託製造企業が担い、Foxconn 一社だけで世界の AI サーバー受託製造シェアは約 4 割に達します[^19]。電源は Delta Electronics が担い、世界のサーバー電源シェアは約半分です。冷却、コネクター、筐体も、ほぼ台湾企業が引き受けています[^18]。研究機関の推計では、世界の AI サーバーの 9 割近くが台湾企業によって組み立てられ、出荷されています[^18]。
 
-This is Computex's geographical advantage. The design end is in the US, the manufacturing end is in Taiwan, and every late May and early June, the design end flies to the place where the manufacturing end shakes hands, which is this exhibition.
+これが Computex の地の利です。設計側は米国にあり、製造側は台湾にあります。そして毎年 5 月末から 6 月初めにかけて、設計側が製造側へ飛んできて握手をする場所が、この展示会なのです。
 
-But under the halo of this "home court," there is a shadow very familiar to Taiwanese people. The gross margin of contract assembly has long been only 3 to 5 percentage points; the industry self-mockingly calls it "gross margin of three to four" or "Mao Shan Dao Shi" (Taoist priests) [^19]. On the same supply chain, TSMC's gross margin exceeds 50%, NVIDIA's exceeds 70%. Taiwan earns the hard money of assembling parts, while the upstream few foreign companies hold core intellectual property and design tools. The world's most watched AI exhibition is held in Taipei, but Taiwan stands in a position on the value chain that is "irreplaceable, but not necessarily taking the largest piece."
+しかしこの「主場」の光の下には、台湾の人々にとって見慣れた影があります。組み立て受託製造の粗利率は長年 3 から 5 パーセントにとどまり、業界では自嘲的に「粗利三、四」や、それと同音に近い「茅山道士」と呼ばれてきました[^19]。同じサプライチェーン上で、TSMC の粗利率は 5 割を超え、NVIDIA は 7 割を超えます。台湾が稼いでいるのは、部品を組み上げる苦労の対価です。中核的な知的財産と設計ツールを握っているのは、依然として上流の数社の外資企業です。世界で最も注目される AI 展示会は台北で開かれていますが、台湾はバリューチェーン上で「代替不可能だが、必ずしも最大の取り分を得ているわけではない」位置に立っています。
 
-> **⚠️ Controversy and Hidden Worries**
-> This position is also weighed down by two heavier stones. One is geopolitics: the past "Silicon Shield" theory believed that Taiwan's irreplaceability in semiconductors was a deterrent against military invasion, but since 2025, international think tanks have started to reverse talk about "the Silicon Shield is turning into a target" [^20]. The other is energy: here is a counter-intuitive number worth remembering. According to The Reporter's investigation, in 2025, Taiwan's data center electricity consumption only accounted for about 0.5% of the national total; the true electricity-consuming大户 is the semiconductor manufacturing industry, consuming nearly 15% of the national total [^21]. In other words, what truly supports Taiwan's AI home court status are those wafer fabs operating day and night, carving out chips, and their huge appetite for electricity; the servers in the exhibition hall are just the end of this power chain. As for the loudly shouted "de-Sinicization" supply chain slogan, the reality is that contract manufacturers like Compal have factories open simultaneously in Taiwan, China, Vietnam, Thailand, India, Mexico, and the US, representing a "China Plus N" distributed layout, and have not truly withdrawn from China [^15].
+> **⚠️ 論争と懸念**
+> この位置には、さらに重い二つの石がのしかかっています。一つは地政学です。かつて「シリコンシールド」という見方は、台湾の半導体の代替不可能性が台湾への武力行使を抑止する盾になると考えていました。しかし 2025 年以降、国際シンクタンクは逆に「シリコンシールドは標的になりつつある」と論じ始めています[^20]。もう一つはエネルギーです。ここには直感に反する、覚えておくべき数字があります。『報導者』の調査によれば、2025 年時点で台湾のデータセンターの電力消費は全国の約 0.5% にすぎません。本当に電力を大量に使っているのは半導体製造業で、全国の約 15% を消費しています[^21]。言い換えれば、台湾の AI 主場としての地位を実際に支えているのは、日夜稼働してチップを刻み出す半導体工場であり、それらの巨大な電力需要です。展示会場に並ぶサーバーは、この長い電力チェーンの末端にすぎません。さらに、声高に唱えられる「脱中国化」サプライチェーンのスローガンについても、現実には Compal のような受託製造企業は、台湾、中国、ベトナム、タイ、インド、メキシコ、米国に同時に工場を持っています。これは「中国プラス N」の分散配置であり、中国から本当に撤退したわけではありません[^15]。
 
-The halo and the shadow are two sides of the same thing. Taiwan is the home court of Computex precisely because it has made "manufacturing," a task outsourced by many advanced countries, irreplaceable; and the price of being irreplaceable is betting the entire island's electricity, geopolitical risks, and industrial focus on this supply chain.
+光と影は、同じ事柄の両面です。台湾が Computex の主場であるのは、多くの先進国が外部委託してきた「製造」という仕事を、代替不可能な水準までやり遂げたからです。そして代替不可能であることの代償は、この島全体の電力、地政学的リスク、産業の重心を、このサプライチェーンに賭けることです。
 
-## Taipei is the Starting Point of All This
+## 台北こそがこのすべての始まりです
 
-In 1984, Stan Shih changed the "Taipei Computer Exhibition" to an English name面向 the world; at that time, Taiwan was still a small island contracting motherboard production for international giants.
+1984 年、施振栄は「台北市電脳展」に世界へ向けた英語名を与えました。そのころの台湾は、国際大手企業のためにマザーボードを受託製造する小さな島でした。
 
-Forty-two years later, in 2026, Jensen Huang stands on the same exhibition, with meat zong and pork knuckles behind him, saying "It's good to be home," saying "Taipei is the starting point of all this" [^1]. In these forty-two years, COMDEX closed, CeBIT closed, and computer exhibitions around the world closed one by one; only this exhibition, which grew next to Songshan Airport, grew larger and larger.
+42 年後の 2026 年、黄仁勲は同じ展示会の舞台に立ち、背後に肉粽と豚足を掲げて、「家に帰ってきたようで本当にうれしい」と語り、「台北こそがこのすべての始まりです」と述べました[^1]。その間の 42 年で、COMDEX は消え、CeBIT も消えました。世界中のコンピュータ見本市が一つずつ扉を閉じる中で、松山空港のそばから育ったこの展示会だけが、ますます大きくなりました。
 
-It did not become smarter than others; it just grew in the right place. Exhibitions follow orders, orders follow manufacturing, and manufacturing stayed on this island. The next time you see news about "Jensen Huang coming to Taiwan," you can read it this way: that is the global computing infrastructure returning every year to the place where it is truly assembled, for a pilgrimage.
+Computex が他より賢くなったわけではありません。正しい場所で育っただけです。展示会は受注についていき、受注は製造についていきます。そして製造は、この島に残りました。次に「黄仁勲が台湾に来た」というニュースを見たときは、こう読むことができます。それは世界のコンピューティング基盤が、毎年、自分が本当に組み立てられている場所へ戻り、巡礼しているのだ、と。
 
-**Further Reading**:
+**関連読書**：
 
-- [Semiconductor Industry: 50 Years of Material Revolution from RCA Technology Transfer to Gallium Nitride and Quantum Packaging](/technology/半導體產業) — The material science battlefield behind TSMC and CoWoS advanced packaging, supporting Computex's home court status
-- [Taiwan Artificial Intelligence Development and Future Strategy](/technology/台灣人工智慧發展與未來策略) — From hardware supply chain to AI applications, Taiwan's position and choices in this wave
-- [Taiwan Robotics Industry](/technology/台灣機器人產業) — The foundation of Taiwan's robotics supply chain, the focus of Computex 2026's "Physical AI" and embodied intelligence
-- [Taiwan Electric Vehicle Industry Chain Development](/technology/台灣電動車產業鏈發展) — How the same batch of electronic contract manufacturers extended from assembling computers to assembling cars and robots
+- [半導体産業：RCA 技術移転から窒化ガリウムと量子パッケージングまでの 50 年の材料革命](/technology/半導體產業) — Computex の主場としての地位を支える TSMC と CoWoS 先端パッケージング、その背後にある材料科学の戦場
+- [台湾の人工知能発展と未来戦略](/technology/台灣人工智慧發展與未來策略) — ハードウェア・サプライチェーンから AI 応用まで、この波の中で台湾が占める位置と選択
+- [台湾ロボット産業](/technology/台灣機器人產業) — Computex 2026 が主軸に据えた「フィジカル AI」と身体化された知能、台湾ロボット・サプライチェーンの基盤
+- [台湾電気自動車産業チェーンの発展](/technology/台灣電動車產業鏈發展) — 同じ電子受託製造企業群が、コンピュータの組み立てから自動車、ロボットの組み立てへどう広がっているか
 
-## Image Sources
+## 画像出典
 
-This article uses 6 Wikimedia Commons public domain / CC licensed images, all cached in `public/article-images/technology/` to avoid hotlinking to the source server; plus embedded 2 NVIDIA Official Channel YouTube videos (Jensen Huang 2024, 2026 keynote speeches):
+本稿では Wikimedia Commons のパブリックドメイン / CC ライセンス画像 6 点を使用しています。すべて `public/article-images/technology/` にキャッシュし、元サーバーへのホットリンクを避けています。加えて、NVIDIA 公式チャンネルの YouTube 動画 2 本（黄仁勲の 2024 年、2026 年基調講演）を埋め込んでいます。
 
-- [Computex Taipei sign inside Taipei Nangang Exhibition Center](https://commons.wikimedia.org/wiki/File:Computex_Taipei_sign_inside_of_Taipei_Nangang_Exhibition_Center_20110531.jpg) — Photo: Masaru Kamikura, 2011-05-31, CC BY 2.0 (hero image: COMPUTEX exhibition hall and sign inside Nangang Exhibition Hall)
-- [Stan Shih at Taipei IT Month 2014](https://commons.wikimedia.org/wiki/File:Stan_Shih_at_Taipei_IT_Month_20141205a.jpg) — Photo: Tony Tseng, 2014-12-05, CC BY 2.0 (Stan Shih interview at Taipei IT Month 2014)
-- [CeBIT Hannover 2005](https://commons.wikimedia.org/wiki/File:Cebit_Hannover_2004.JPG) — Photo: Florian K, 2005-03-16, CC BY-SA 3.0 (German CeBIT 2005 exhibition hall crowd, world's largest computer exhibition, discontinued in 2018)
-- [TSMC factory Hsinchu](https://commons.wikimedia.org/wiki/File:Tsmc_factory_hsinchu.JPG) — Photo: Arusanov, 2009, Public Domain (PD) (TSMC factory in Hsinchu Science Park)
-- [Computex Taipei at Taipei Nangang Exhibition Center](https://commons.wikimedia.org/wiki/File:Computex_Taipei_at_Taipei_Nangang_Exhibition_Center_20160531.jpg) — Photo: NVIDIA Taiwan, 2016-05-31, CC BY 2.0 (Nangang Exhibition Hall main venue exterior)
-- [Jensen Huang at Computex Taipei](https://commons.wikimedia.org/wiki/File:Jensen_Huang_at_Computex_Taipei_20160531c.jpg) — Photo: NVIDIA Taiwan, 2016-05-31, CC BY 2.0 (Jensen Huang speech on Computex stage)
+- [Computex Taipei sign inside Taipei Nangang Exhibition Center](https://commons.wikimedia.org/wiki/File:Computex_Taipei_sign_inside_of_Taipei_Nangang_Exhibition_Center_20110531.jpg) — Photo: Masaru Kamikura, 2011-05-31, CC BY 2.0（ヒーロー画像：南港展覧館内の COMPUTEX 会場と看板）
+- [Stan Shih at Taipei IT Month 2014](https://commons.wikimedia.org/wiki/File:Stan_Shih_at_Taipei_IT_Month_20141205a.jpg) — Photo: Tony Tseng, 2014-12-05, CC BY 2.0（施振栄が 2014 年に台北資訊月で取材を受ける様子）
+- [CeBIT Hannover 2005](https://commons.wikimedia.org/wiki/File:Cebit_Hannover_2004.JPG) — Photo: Florian K, 2005-03-16, CC BY-SA 3.0（ドイツ CeBIT 2005 会場の人波。世界最大のコンピュータ見本市で、2018 年に終了）
+- [TSMC factory Hsinchu](https://commons.wikimedia.org/wiki/File:Tsmc_factory_hsinchu.JPG) — Photo: Arusanov, 2009, パブリックドメイン（PD）（新竹科学園区の TSMC 工場）
+- [Computex Taipei at Taipei Nangang Exhibition Center](https://commons.wikimedia.org/wiki/File:Computex_Taipei_at_Taipei_Nangang_Exhibition_Center_20160531.jpg) — Photo: NVIDIA Taiwan, 2016-05-31, CC BY 2.0（南港展覧館主会場の外観）
+- [Jensen Huang at Computex Taipei](https://commons.wikimedia.org/wiki/File:Jensen_Huang_at_Computex_Taipei_20160531c.jpg) — Photo: NVIDIA Taiwan, 2016-05-31, CC BY 2.0（黄仁勲が Computex の舞台で講演する様子）
 
-## References
+## 参考資料
 
-[^1]: [United Daily News: Jensen Huang GTC Taipei 2026 keynote "Good to be home" (2026)](https://udn.com/news/story/7240/9537914) — Reports on Jensen Huang's GTC Taipei keynote speech during Computex on June 1, 2026, including verbatim quotes "Good to be home," "Useful AI is here," "Agentic AI is here," product announcements for Vera Rubin/Vera CPU/N1X, and the backdrop listing Taiwanese catering businesses like Wang Ji Fu Cheng Meat Zong and Fu Ba Wang Pork Knuckles.
+[^1]: [聯合報：黃仁勳 GTC Taipei 2026 keynote「回到家真好」（2026）](https://udn.com/news/story/7240/9537914) — 黄仁勲が 2026 年 6 月 1 日、Computex 期間中の GTC Taipei 基調講演で述べた内容を報じています。「家に帰ってきたようで本当にうれしい」「有用な AI はすでに到来した」「エージェント AI の到来」という逐語発言、Vera Rubin/Vera CPU/N1X の製品発表、背面パネルに王記府城肉粽、富霸王豬腳など台湾の飲食業者名が並んでいたことを含みます。
 
-[^2]: [Wikipedia: Jensen Huang](https://zh.wikipedia.org/zh-tw/%E9%BB%83%E4%BB%81%E5%8B%B3) — Records Jensen Huang's birth in 1963, growth in Tainan, move to the US at age nine in 1973, Oregon State University and Stanford EE degrees, and the 1993 co-founding of NVIDIA with Chris Malachowsky and Curtis Priem.
+[^2]: [維基百科：黃仁勳](https://zh.wikipedia.org/zh-tw/%E9%BB%83%E4%BB%81%E5%8B%B3) — 黄仁勲の 1963 年生まれ、台南での成長、1973 年に 9 歳で米国へ移住したこと、オレゴン州立大学とスタンフォード大学電気工学での学歴、1993 年にクリス・マラコウスキー、カーティス・プリームとともに NVIDIA を共同創業した経歴を収録しています。
 
-[^3]: [Business Today: COMPUTEX 2026 Four CEOs on Stage, Enterprise Market Cap Exceeds Ten Trillion USD (2026)](https://www.businesstoday.com.tw/article/category/183009/post/202605260033/) — Reports on the four CEO keynote speeches in 2026 by Jensen Huang (NVIDIA), Lisa Su (AMD), Chris Lattner (Intel), and Cristiano Amon (Qualcomm), and External Trade Development Council Chairman Huang Chih-fang's verbatim statement "The combined market capitalization of the companies belonging to the four CEOs and nearly 30 forum speakers exceeds ten trillion US dollars," "This wave of AI momentum is real."
+[^3]: [今周刊：COMPUTEX 2026 四大 CEO 同台、企業市值逾十兆美元（2026）](https://www.businesstoday.com.tw/article/category/183009/post/202605260033/) — 2026 年に黄仁勲（NVIDIA）、蘇姿豊（AMD）、陳立武（Intel）、Cristiano Amon（Qualcomm）が行った 4 つの CEO 基調講演、および外貿協会董事長の黄志芳による「4 人の CEO とフォーラム登壇者約 30 人の所属企業の時価総額合計は 10 兆米ドル超」「この AI の勢いは本物だ」という逐語発言を報じています。
 
-[^4]: [Wikipedia: Taipei International Computer Exhibition](https://zh.wikipedia.org/zh-tw/%E5%8F%B0%E5%8C%97%E5%9C%8B%E9%9A%9B%E9%9B%BB%E8%85%A6%E5%B1%95%E8%A6%BD%E6%9C%83) — Records Computex's complete history since the first edition in 1981 "Taipei Computer Exhibition": 1984 renaming, 1985 External Trade Development Council joining and renaming to "Taipei International Computer Exhibition," annual scale numbers, world ranking changes, venue expansion timeline, and InnoVEX establishment.
+[^4]: [維基百科：台北國際電腦展覽會](https://zh.wikipedia.org/zh-tw/%E5%8F%B0%E5%8C%97%E5%9C%8B%E9%9A%9B%E9%9B%BB%E8%85%A6%E5%B1%95%E8%A6%BD%E6%9C%83) — Computex について、1981 年の第 1 回「台北市電脳展」以来の沿革を収録しています。1984 年の改名、1985 年の外貿協会参加と「台北国際電脳展」への改称、歴年の規模数値、世界ランキングの変遷、会場拡張のタイムライン、InnoVEX の設立を含みます。
 
-[^5]: [Jiemian News: Taipei Computer Exhibition Forty Years (Computex History Review)](https://www.jiemian.com/article/3180048.html) — Details Computex's complete context and annual scale numbers from 1981 export exhibition, 1984 Stan Shih renaming, 1985 External Trade Development Council becoming organizer, 1989 becoming Asia's largest, to 2003 jumping to world's second, and downhill after 2012 PC shipment decline.
+[^5]: [界面新聞：台北電腦展四十年（Computex 歷史回顧）](https://www.jiemian.com/article/3180048.html) — Computex が 1981 年の輸出見本市、1984 年の施振栄による正式命名、1985 年の外貿協会主催参加、1989 年のアジア最大化、2003 年の世界第 2 位への上昇を経て、2012 年の PC 出荷減少後に下降した流れを、年ごとの規模数値とともに詳述しています。
 
-[^6]: [Economic Daily News: COMPUTEX 2026 Scale Hits New High (2026)](https://money.udn.com/money/story/5612/9525595) — Reports on 2026 exhibition period June 2-5, four exhibition halls, 33 countries, 1,500 companies, 6,000 booths, three main axes (AI and Computing / Robotics and Mobility / Next-Generation Technology), and World Trade Center Hall 1 adding AI Robotics Zone, Electronic Paper Zone, TechXperience, and InnoVEX 23 countries nearly 500 startups creating 11-year high.
+[^6]: [經濟日報：COMPUTEX 2026 規模創新高（2026）](https://money.udn.com/money/story/5612/9525595) — 2026 年の会期が 6 月 2 日から 5 日であること、4 会場、33 カ国、1500 社、6000 ブース、三大主軸（AI とコンピューティング／ロボットとモビリティ／次世代テクノロジー）を報じています。世界貿易センター一館に新設された AI ロボットエリア、電子ペーパーエリア、TechXperience、および InnoVEX が 23 カ国・約 500 社のスタートアップで 11 年ぶりの新高水準となったことも含みます。
 
-[^7]: [Central News Agency: German CeBIT Computer Exhibition Enters History (2018)](https://www.cna.com.tw/news/firstnews/201811295002.aspx) — Reports on German Hanover CeBIT announcing discontinuation in November 2018, analyzing reasons for decline in visitors and exhibitors, market being eaten by CES/MWC/Computex/IFA, and pointing out "Taipei International Computer Exhibition in June every year has geographical advantages for Asian order-seeking manufacturers, scale continues to expand."
+[^7]: [中央社：德國 CeBIT 電腦展走入歷史（2018）](https://www.cna.com.tw/news/firstnews/201811295002.aspx) — ドイツ・ハノーバーの CeBIT が 2018 年 11 月に終了を発表したことを報じています。来場者数と出展者数の減少、市場が CES／MWC／Computex／IFA に分食された原因を分析し、「毎年 6 月の台北国際コンピュータ見本市は、アジアの受注企業にとって地の利があり、規模を拡大し続けている」と指摘しています。
 
-[^8]: [TechNews: Computex 2019 InnoVEX and Showgirl Transformation](https://technews.tw/2019/05/02/computex-2019-innovex/) — Reports on Computex Innovation and Startup Exhibition Area InnoVEX established in 2016, focusing on AI and IoT positioning, and contrasting 2018 foreign media criticism of showgirl culture with 2019 External Trade Development Council's transformation direction of "encouraging creative marketing but not mandatory."
+[^8]: [科技新報：Computex 2019 InnoVEX 與 show girl 轉型](https://technews.tw/2019/05/02/computex-2019-innovex/) — Computex のイノベーション・スタートアップ展示エリア InnoVEX が 2016 年に設立され、AI と IoT に焦点を当てる位置づけを報じています。2018 年の海外メディアによるショーガール文化批判と、2019 年の外貿協会による「創造的マーケティングを奨励するが強制はしない」という転換方針とも対照できます。
 
-[^9]: [NVIDIA Blog: Jensen Huang Computex 2023 Keynote](https://blogs.nvidia.com/blog/computex-keynote-generative-ai/) — NVIDIA official blog, recording Jensen Huang's May 29, 2023 Computex speech, the first physical keynote after the pandemic, announcing Grace Hopper super chip mass production, DGX GH200 supercomputer (NVLink connecting 256 chips, 1 exaflop), main theme being bringing generative AI into every data center.
+[^9]: [NVIDIA Blog：Jensen Huang Computex 2023 Keynote](https://blogs.nvidia.com/blog/computex-keynote-generative-ai/) — NVIDIA 公式ブログです。黄仁勲が 2023 年 5 月 29 日に Computex でパンデミック後初の対面基調講演を行い、Grace Hopper スーパー・チップの量産、DGX GH200 スーパーコンピュータ（NVLink で 256 チップを接続、1 exaflop）を発表し、生成 AI をすべてのデータセンターへ持ち込むことを主軸にしたことを記録しています。
 
-[^10]: [Economic Daily News: Jensen Huang NTU Speech "Taiwan is the Unsung Hero" (2024)](https://money.udn.com/money/story/5612/8009818) — Reports on Jensen Huang's June 2, 2024 evening speech at NTU General Gymnasium, verbatim recording "Taiwan is the unsung hero, but the pillar of the world," "Without Taiwan, NVIDIA's vision is just an unrealizable dream," "You are the backbone of the AI industry's innovation, no matter how big the storms, you remain steady as a rock."
+[^10]: [經濟日報：黃仁勳台大演講「台灣是無名的英雄」（2024）](https://money.udn.com/money/story/5612/8009818) — 黄仁勲が 2024 年 6 月 2 日夜、台湾大学総合体育館で行った講演を報じています。「台湾は無名の英雄ですが、世界の支柱です」「台湾がなければ、NVIDIA のビジョンは実現できない夢にすぎません」「皆さんは AI 産業革新の後ろ盾であり、どれほど大きな波風に直面しても、常に盤石です」という発言を逐語的に収録しています。
 
-[^11]: [United Daily News: Jensen Huang Accompanies Morris Chang, Lin Baili to Stroll Ningxia Night Market (2024)](https://udn.com/news/story/7193/7999299) — Reports on Jensen Huang accompanying 92-year-old Morris Chang couple and Lite-On's Lin Baili to dine at Zou Ji Shi Pu on May 29, 2024, then to Ningxia Night Market, tasting oyster omelets and tofu pudding details.
+[^11]: [聯合報：黃仁勳偕張忠謀、林百里逛寧夏夜市（2024）](https://udn.com/news/story/7193/7999299) — 黄仁勲が 2024 年 5 月 29 日、92 歳の張忠謀夫妻、Quanta の林百里とともに鄒記食舖で食事をした後、寧夏夜市を訪れ、牡蠣オムレツと豆花を味わった行程の詳細を報じています。
 
-[^12]: [EBC News: Jensen Huang Brings Parents to Ningxia Night Market to Treat Tofu Pudding (2026)](https://news.ebc.net.tw/news/business/553385) — Reports on Jensen Huang bringing parents to Ningxia Night Market tofu pudding shop during his May 25, 2026 Taiwan visit, paying for tofu pudding for queuing people, verbatim recording "I'm treating, sorry sorry, I brought my dad and mom, won't eat too long, everyone please treat me."
+[^12]: [東森新聞：黃仁勳帶父母逛寧夏夜市請吃豆花（2026）](https://news.ebc.net.tw/news/business/553385) — 黄仁勲が 2026 年 5 月 25 日の台湾訪問中に両親を連れて寧夏夜市そばの豆花店を訪れ、列に並ぶ人々に自腹で豆花をおごったことを報じています。「私のおごりですよ。すみません、すみません。父と母を連れてきました。あまり長くは食べません。皆さん、私におごらせてください」という発言を逐語的に収録しています。
 
-[^13]: [TechNews: Computex 2025 Jensen Huang Keynote Highlights (2025)](https://finance.technews.tw/2025/05/19/computex-2025-nvidia-brief/) — Reports on 2025 Computex theme "AI NEXT," Jensen Huang speaking at Taipei Music Center, announcing GB300, collaborating with Foxconn/NSTC/TSMC to build Taiwan AI infrastructure, and NVIDIA Taiwan office settling in Beitou Shilin planning.
+[^13]: [科技新報：Computex 2025 黃仁勳 keynote 重點（2025）](https://finance.technews.tw/2025/05/19/computex-2025-nvidia-brief/) — 2025 年の Computex の主軸「AI NEXT」、黄仁勲が台北流行音楽センターで行った講演、GB300 の発表、Foxconn／国家科学及技術委員会／TSMC と協力して台湾の AI インフラを構築する計画、NVIDIA 台湾オフィスを北投士林に置く構想を報じています。
 
-[^14]: [United Daily News: Huang Chih-fang Discusses COMPUTEX 2026 Dual Exhibition Areas and AI Together (2026)](https://udn.com/news/story/7240/9536845) — Records External Trade Development Council Chairman Huang Chih-fang's verbatim statement "First time adopting dual exhibition area model, in addition to Nangang Exhibition Hall Hall 1 and Hall 2, returns to World Trade Center Hall 1, becoming largest exhibition in history," "AI Together symbolizes Taiwan joining hands with global tech industry to jointly create new chapter of future AI civilization," and World Trade Center Hall 1 AI Robotics Zone, Electronic Paper Zone, TechXperience three zones and Physical AI, embodied intelligence planning.
+[^14]: [聯合報：黃志芳談 COMPUTEX 2026 雙展區與 AI Together（2026）](https://udn.com/news/story/7240/9536845) — 外貿協会董事長の黄志芳による「初めて二つの展示エリア方式を採用し、南港展覧館一館・二館に加え、さらに世界貿易センター一館へ戻ることで、史上最大規模の展示会となる」「AI Together は、台湾が世界のテクノロジー産業と手を携え、未来の AI 文明の新たな章をともに築くことを象徴している」という逐語発言、および世界貿易センター一館の AI ロボットエリア、電子ペーパーエリア、TechXperience の三大エリアとフィジカル AI、身体化された知能の計画を収録しています。
 
-[^15]: [TechNews: AI Server Production Capacity Relocation and Taiwanese Companies' Multi-Location Layout (2025)](https://technews.tw/2025/06/09/ai-server-manufacturing-location-relocation/) — Reports on Taiwanese AI server contract manufacturers' global production capacity layout, including Wistron's 70% capacity in Mexico, Wistron and Quanta setting up factories in US, and Compal simultaneously setting up factories in Taiwan, China, Vietnam, Thailand, India, Mexico, US "China Plus N" distributed strategy.
+[^15]: [科技新報：AI 伺服器產能外移與台廠多地布局（2025）](https://technews.tw/2025/06/09/ai-server-manufacturing-location-relocation/) — 台湾の AI サーバー受託製造企業の世界的な生産能力配置を報じています。Wiwynn の生産能力の 70% がメキシコにあること、Wistron と Quanta が米国に工場を設けること、Compal が台湾、中国、ベトナム、タイ、インド、メキシコ、米国などに同時に工場を持つ「中国プラス N」の分散戦略を含みます。
 
-[^16]: [Industrial Times: COMPUTEX 2026 Taiwanese Companies' Booths and Liquid Cooling Becomes Standard (2026)](https://www.ctee.com.tw/news/20260525700049-439901) — Reports on 2026 Foxconn exhibiting Vera Rubin NVL72 computing cabinet and robots with largest booth, Quanta and Wistron booth scales, and due to GPU computing power rising, air cooling reaching physical limits, liquid cooling becoming standard exhibit for major contract manufacturers, supply chain extending from assembling AI servers to assembling AI robots.
+[^16]: [工商時報：COMPUTEX 2026 台廠攤位與液冷成標配（2026）](https://www.ctee.com.tw/news/20260525700049-439901) — 2026 年に Foxconn が最大規模のブースで Vera Rubin NVL72 コンピューティングラックとロボットを展示したこと、Quanta と Wistron のブース規模、GPU 計算能力の上昇によって空冷が物理限界に達し、液冷が大手受託製造企業の標準的な展示品となったこと、サプライチェーンが AI サーバーの組み立てから AI ロボットの組み立てへ広がっていることを報じています。
 
-[^17]: [Industrial Times: COMPUTEX 2026 Largest in History, Estimated to Attract 40,000 International Buyers (2026)](https://www.ctee.com.tw/news/20260531700013-430105) — Reports on 2026 Computex being largest in history, including exhibition period, scale numbers, and estimated 40,000 international buyers, and Marvell, NXP (NXP) etc. CEOs' speech arrangements on AI infrastructure, Physical AI themes.
+[^17]: [工商時報：COMPUTEX 2026 史上最大、估吸引 4 萬國際買主（2026）](https://www.ctee.com.tw/news/20260531700013-430105) — 2026 年の Computex が史上最大規模であることを報じています。会期、規模数値、4 万人の国際バイヤーを見込むこと、Marvell、NXP などの CEO が AI インフラ、フィジカル AI をテーマに行う講演予定を含みます。
 
-[^18]: [EE Times Taiwan: Taiwanese Contract Manufacturing Accounts for Nearly 90% of Global AI Server Shipments (2024)](https://www.eettaiwan.com/20240118nt21-ai-server/) — Cites research institutions estimating Taiwanese companies (Quanta, Wistron, Wistron, Inventec, Foxconn etc.) contract manufacturing accounts for nearly 90% of global AI server shipments, and explains TSMC producing over 90% of world's most advanced chips, CoWoS advanced packaging being AI computing power bottleneck supply chain positioning.
+[^18]: [EE Times Taiwan：台灣代工佔全球 AI 伺服器出貨近九成（2024）](https://www.eettaiwan.com/20240118nt21-ai-server/) — 研究機関の推計として、台湾企業（Quanta、Wistron、Wiwynn、Inventec、Foxconn など）の受託製造が世界の AI サーバー出荷の 9 割近くを占めると引用しています。また、TSMC が世界の最先端チップの 9 割超を生産し、CoWoS 先端パッケージングが AI 計算能力のボトルネックとなっているサプライチェーン上の位置づけを説明しています。
 
-[^19]: [Cnyes: Foxconn AI Server Contract Manufacturing Market Share and Gross Margin Analysis](https://news.cnyes.com/news/id/6213008) — Reports on Foxconn's global AI server contract manufacturing market share of about 40%, ranking first globally, and explains electronic contract manufacturing industry "gross margin of three to four," "Mao Shan Dao Shi" low gross margin structure, contrasting TSMC and NVIDIA upstream high gross margins.
+[^19]: [鉅亨網：鴻海 AI 伺服器代工市占與代工毛利分析](https://news.cnyes.com/news/id/6213008) — Foxconn が世界の AI サーバー受託製造で約 4 割のシェアを持ち、世界首位であることを報じています。また、電子受託製造業の「粗利三、四」「茅山道士」と呼ばれる低粗利構造を説明し、上流の TSMC と NVIDIA の高粗利率と対比しています。
 
-[^20]: [Lawfare: Taiwan's Silicon Shield Is Turning Into a Target (2025)](https://www.lawfaremedia.org/article/taiwan-s-silicon-shield-is-turning-into-a-target) — US legal-political media Lawfare's analysis, discussing "Silicon Shield" concept reversal since 2025: Taiwan semiconductors' irreplaceability, turning from deterrent barrier to targeted strategic target.
+[^20]: [Lawfare：Taiwan's Silicon Shield Is Turning Into a Target（2025）](https://www.lawfaremedia.org/article/taiwan-s-silicon-shield-is-turning-into-a-target) — 米国の法政メディア Lawfare による分析です。2025 年以降、「シリコンシールド」概念が反転し、台湾半導体の代替不可能性が武力行使を抑止する盾から、狙われる戦略的標的へ変わりつつあると論じています。
 
-[^21]: [The Reporter: Data Center Electricity Consumption and Taiwan Energy Test (2025)](https://www.twreporter.org/a/data-center-electricity-demand) — In-depth investigation on Taiwan data center electricity consumption status, including 2025 data center electricity consumption accounting for about 0.5% of national total, semiconductor manufacturing industry accounting for about 15% of national total counter-intuitive comparison, Taiwan Power Company suspending Taoyuan north 5MW+ data center electricity applications from 2024, and nuclear power zero after Nuclear Power Plant 3 shutdown energy structure analysis.
+[^21]: [報導者：資料中心用電與台灣能源考驗（2025）](https://www.twreporter.org/a/data-center-electricity-demand) — 台湾のデータセンター電力消費の現状に関する詳細調査です。2025 年時点でデータセンターの電力消費が全国の約 0.5%、半導体製造業が全国の約 15% を占めるという直感に反する対比、台湾電力が 2024 年から桃園以北で 5MW 以上のデータセンター用電申請を一時停止したこと、第三原子力発電所停止後に原子力発電がゼロになるエネルギー構造分析を含みます。
 
-[^22]: [Industrial Times: Hiwin Debuts at COMPUTEX to Build Physical AI (2026)](https://www.chinatimes.com/realtimenews/20260603001106-260410) — Reports on precision transmission giant Hiwin Technologies (2049) crossing over to exhibit at COMPUTEX 2026 for the first time, exhibiting dual-arm logistics robots, humanoid robot core modules, smart grippers and PLP semiconductor smart equipment solutions at World Trade Center Hall 1 AI Robotics Zone, integrating self-made ball screws, harmonic reducers, motors, drivers and control technology to build linear and rotary actuator modules.
+[^22]: [工商時報：上銀首登 COMPUTEX 打造 Physical AI（2026）](https://www.chinatimes.com/realtimenews/20260603001106-260410) — 精密伝動大手の HIWIN Technologies（2049）が 2026 年に初めて分野を越えて COMPUTEX に出展し、世界貿易センター一館の AI ロボットエリアで双腕物流ロボット、ヒューマノイドロボット中核モジュール、スマートグリッパー、PLP 半導体スマート装置ソリューションを展示したことを報じています。その背後には、自社製のボールねじ、ハーモニック減速機、モーター、ドライバー、制御技術を統合して作るリニアおよび回転アクチュエーションモジュールがあります。
 
-[^23]: [COMPUTEX TAIPEI Official: 2026 Returns to World Trade Center, First Sets Up AI Robotics Exhibition Area](https://www.computextaipei.com.tw/zh-tw/news/B02F1CE581650BDA/list-info.html) — External Trade Development Council official news, recording COMPUTEX 2026 returning to Taipei World Trade Center Hall 1, first setting up AI Robotics Exhibition Area, World Trade Center area gathering over 180 exhibitors "complete supply chain from sensors, motors, reducers to system integration" and on-site real-machine dynamic display, and Chairman Huang Chih-fang "further leap from global tech manufacturing hub to 'Global AI Solutions Center'" verbatim statement.
+[^23]: [COMPUTEX TAIPEI 官方：2026 重返世貿、首設 AI 機器人展區](https://www.computextaipei.com.tw/zh-tw/news/B02F1CE581650BDA/list-info.html) — 外貿協会の公式ニュースです。COMPUTEX 2026 が台北世界貿易センター一館へ戻り、初めて AI ロボット展示エリアを設けたこと、世界貿易センターエリアに 180 社超の出展者が集まり、「センサー、モーター、減速機からシステムインテグレーションまでの完全な産業チェーン」を形成し、現場で実機を動的に展示したこと、董事長の黄志芳による「世界のテクノロジー製造の重鎮から、さらに『世界の AI ソリューションセンター』へ飛躍する」という逐語発言を記録しています。

@@ -21,8 +21,8 @@ readingTime: 28
 lastVerified: 2026-04-23
 lastHumanReview: false
 translatedFrom: 'Society/認知作戰.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:380deba2111b675e'
+sourceCommitSha: 'ab47ff39'
+sourceContentHash: 'sha256:63574f6b87e6dc7a'
 sourceBodyHash: 'sha256:53132f584b9b6657'
 translatedAt: '2026-04-30T22:33:56+08:00'
 sporeLinks:

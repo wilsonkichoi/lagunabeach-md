@@ -20,11 +20,12 @@ readingTime: 18
 lastVerified: 2026-05-29
 lastHumanReview: false
 featured: true
+image: '/article-images/technology/hsinchu-science-park-tsmc-fab5-2010.webp'
 translatedFrom: 'Technology/科技園區發展.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:1d77734f34a7a5f8'
-sourceBodyHash: 'sha256:e01e7169a98c4aba'
-translatedAt: '2026-06-02T00:39:59+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:af69e6f051c9c55a'
+sourceBodyHash: 'sha256:87c841c432ba710a'
+translatedAt: '2026-06-14T16:37:40Z'
 ---
 
 # Taiwan Science Parks: A Bet on a Rice Field That Became the World’s Lifeline, and Its Chokepoint

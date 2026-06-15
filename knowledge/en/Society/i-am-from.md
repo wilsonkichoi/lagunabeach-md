@@ -27,11 +27,12 @@ sporeLinks:
     platform: 'x'
     date: '2026-06-05'
     url: 'https://x.com/taiwandotmd/status/2062839725648703638'
+image: '/article-images/society/woo-fanpage.webp'
 translatedFrom: 'Society/我是OO人.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:cdc34bf666aa8587'
-sourceBodyHash: 'sha256:d2136eb2eef002a6'
-translatedAt: '2026-06-10T16:43:34Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:a7c71b7402009bc6'
+sourceBodyHash: 'sha256:5b34ca12ffeca314'
+translatedAt: '2026-06-14T16:37:40Z'
 ---
 
 > **30-Second Overview:** You have likely followed at least one local fan page like "I Am From Kaohsiung" or "I Am From Taichung," which reposts night market news and weather updates, feeling like "us locals." In February 2026, someone caught an uncleaned AI prompt in a post on the "I Am From Taipei" fan page. Following this thread back leads to a building on Jihu Road in Neihu, Taipei, and a group of related enterprises run by the Lin family. They use AI to rewrite news from pro-China media into a "fellow townsman" tone, then distribute it in bulk on fan pages disguised as local residents of various counties and cities. The most ironic part is that it hardly fabricates news, so the ruler of "verifying truth" cannot measure it.

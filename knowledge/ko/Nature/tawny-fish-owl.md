@@ -22,7 +22,7 @@ lastVerified: 2026-05-12
 lastHumanReview: false
 featured: false
 translatedFrom: 'Nature/黃魚鴞.md'
-sourceCommitSha: 'dd39065b'
+sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:e7ee784435375331'
 sourceBodyHash: 'sha256:88027a3e0b96dfe3'
 translatedAt: '2026-05-12T11:51:04+08:00'

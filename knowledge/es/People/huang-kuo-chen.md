@@ -17,8 +17,8 @@ tags:
 readingTime: 5
 lastVerified: 2026-03-20
 translatedFrom: 'People/黃國珍.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:6e868b8f8667e118'
+sourceCommitSha: 'df2e7558'
+sourceContentHash: 'sha256:4ca80675bb1a1122'
 sourceBodyHash: 'sha256:2b34fd0038a36214'
 translatedAt: '2026-05-01T22:19:10+08:00'
 ---

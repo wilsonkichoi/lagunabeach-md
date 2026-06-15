@@ -20,8 +20,8 @@ readingTime: 12
 lastVerified: 2026-04-24
 lastHumanReview: false
 translatedFrom: 'Art/造山者世紀的賭注.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:48d568156f2d8bb9'
+sourceCommitSha: '21f2ddb4'
+sourceContentHash: 'sha256:164d630ee152f4e8'
 sourceBodyHash: 'sha256:dae45d5a23a409e0'
 translatedAt: '2026-06-11T16:38:27Z'
 ---

@@ -1,20 +1,28 @@
 ---
-title: "La herencia de las melodías doradas: historia y lugar cultural de la música pop taiwanesa"
-description: "Del movimiento de la canción folk al fenómeno Jay Chou: cómo la música pop taiwanesa moldeó el panorama de la música en chino"
+title: 'La herencia de las melodías doradas: historia y lugar cultural de la música pop taiwanesa'
+description: 'Del movimiento de la canción folk al fenómeno Jay Chou: cómo la música pop taiwanesa moldeó el panorama de la música en chino'
 date: 2026-03-19
-author: "Taiwan.md"
-category: "Music"
-subcategory: "獨立與搖滾"
-tags: ["música pop taiwanesa", "movimiento de la canción folk", "Premios Golden Melody", "Jay Chou", "música independiente", "industria musical"]
+author: 'Taiwan.md'
+category: 'Music'
+subcategory: '獨立與搖滾'
+tags:
+  [
+    'música pop taiwanesa',
+    'movimiento de la canción folk',
+    'Premios Golden Melody',
+    'Jay Chou',
+    'música independiente',
+    'industria musical',
+  ]
 readingTime: 11
 lastVerified: 2026-03-19
 lastHumanReview: false
 featured: true
-translatedFrom: "Music/台灣流行音樂.md"
-sourceCommitSha: "f712b7242"
-sourceContentHash: "sha256:5f9f96509c12cb27"
-sourceBodyHash: "sha256:53757b341f1d1bcf"
-translatedAt: "2026-05-20T05:08:32+08:00"
+translatedFrom: 'Music/台灣流行音樂.md'
+sourceCommitSha: '40517470'
+sourceContentHash: 'sha256:f0d4e57308cc2c0f'
+sourceBodyHash: 'sha256:53757b341f1d1bcf'
+translatedAt: '2026-05-20T05:08:32+08:00'
 ---
 
 # La herencia de las melodías doradas: historia y lugar cultural de la música pop taiwanesa
@@ -205,9 +213,15 @@ Cincuenta años después del movimiento folk, Taiwán sigue siendo uno de los ca
 ## Referencias
 
 [^1]: [Ma Shifang, 《地下鄉愁藍調》, China Times Publishing, 2006](https://www.books.com.tw/products/0010980346) — El libro analiza la controversia académica en torno al apelativo “padre de la canción folk” y es una referencia importante para el estudio de la canción folk taiwanesa
+
 [^2]: [Bureau of Audiovisual and Music Industry Development, Ministerio de Cultura, 《台灣流行音樂發展史》](https://www.bamid.gov.tw/) — Compilación oficial de materiales históricos sobre la industria de la música pop taiwanesa
+
 [^4]: [Asociación de Intercambio de Músicos Chinos — Wikipedia](https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E8%8F%AF%E9%9F%B3%E6%A8%82%E4%BA%BA%E4%BA%A4%E6%B5%81%E5%8D%94%E6%9C%83) — Organización importante de la industria musical taiwanesa, dedicada a promover el intercambio entre músicos y los asuntos de derechos de autor
+
 [^6]: [《台灣音樂年鑑》, National Center for Traditional Arts](https://taiwanmusicyearbook.ncfta.gov.tw/) — Estadísticas anuales sobre la situación de la industria musical taiwanesa y registro de acontecimientos importantes
+
 [^7]: [Yuan Yongxing — Wikipedia](https://zh.wikipedia.org/zh-tw/%E8%A2%81%E6%B0%B8%E8%88%88) — Veterano locutor de radio y crítico musical, autor de obras sobre la música independiente taiwanesa y ganador de los Golden Bell Awards
+
 [^8]: [Taiwan Creative Content Agency, 《流行音樂產業調查報告》](https://taicca.tw/) — Encuesta anual sobre escala, ingresos y exportación internacional de la industria de la música pop taiwanesa
+
 [^11]: [IFPI Taiwan Market Reports](https://www.ifpi.org/) — Informe anual de la Federación Internacional de la Industria Fonográfica sobre el mercado taiwanés, con datos de ventas físicas y de streaming

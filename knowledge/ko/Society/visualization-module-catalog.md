@@ -15,7 +15,7 @@ featured: false
 lastVerified: '2026-06-12'
 lastHumanReview: false
 translatedFrom: 'Society/視覺化模組型錄.md'
-sourceCommitSha: '6d8ae34b3'
+sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:38fecc11c893b25a'
 sourceBodyHash: 'sha256:09331c2942b129a6'
 translatedAt: '2026-06-13T00:46:25+08:00'

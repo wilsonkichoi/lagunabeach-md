@@ -21,7 +21,7 @@ lastHumanReview: false
 image: '/article-images/society/du-mali-maine-potato-1940.webp'
 imageAlt: 'Potato harvest season in Aroostook County, Maine, 1940 (US Farm Security Administration; schools did not open until potatoes were harvested) — the real face of American potatoes before they reach Taiwan'
 translatedFrom: 'Society/毒馬鈴薯認知作戰.md'
-sourceCommitSha: '4b6d28c5'
+sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:441da61b4d105152'
 sourceBodyHash: 'sha256:001afbff1a12f651'
 translatedAt: '2026-06-12T16:39:07Z'

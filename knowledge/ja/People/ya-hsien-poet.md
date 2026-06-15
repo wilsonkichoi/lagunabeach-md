@@ -20,10 +20,19 @@ lastVerified: 2026-05-28
 lastHumanReview: false
 featured: true
 translatedFrom: 'People/瘂弦.md'
-sourceCommitSha: 'e70936dd9'
-sourceContentHash: 'sha256:07b153459b5b921e'
-sourceBodyHash: 'sha256:6597d0fd8fb4ea67'
-translatedAt: '2026-05-29T00:39:33+08:00'
+sourceCommitSha: '4d39a7d2'
+sourceContentHash: 'sha256:e294ff8cf9b9ac0a'
+sourceBodyHash: 'sha256:dd3ab574ead8013b'
+translatedAt: '2026-06-14T16:37:40Z'
+sporeLinks:
+  - id: 140
+    platform: 'threads'
+    date: '2026-06-14'
+    url: 'https://www.threads.com/@taiwandotmd/post/DZj9pKDk-nx'
+  - id: 141
+    platform: 'x'
+    date: '2026-06-14'
+    url: 'https://x.com/taiwandotmd/status/2066097087318790182'
 ---
 
 # 瘂弦：『深淵』を書き終えて筆を断ち、後半生は「聯副」で詩史の一頁となりました

@@ -5,16 +5,25 @@ date: 2026-05-17
 author: 'Taiwan.md'
 category: 'Culture'
 subcategory: '文化地理'
-tags: ['군도', '오스트로네시아어족', '누산타라', '타이완 섬 역사', '원주민', '문화지리']
+tags:
+  [
+    '군도',
+    '오스트로네시아어족',
+    '누산타라',
+    '타이완 섬 역사',
+    '원주민',
+    '문화지리',
+  ]
 lastVerified: 2026-05-17
 lastHumanReview: false
 featured: true
 translatedFrom: 'Culture/群島思維.md'
-sourceCommitSha: 'd6222fa5b'
-sourceContentHash: 'sha256:85cc96b2204c89cc'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:75c25926a0cdd0a8'
 sourceBodyHash: 'sha256:02638f04673a14f6'
 translatedAt: '2026-05-17T05:06:52+08:00'
 ---
+
 > **30초 개관:** 타이완 지도를 펼치면, 많은 사람은 중국 대륙 가장자리에 놓인 작은 섬 하나를 본다. 그러나 지도를 시계 방향으로 30도 돌리고 다시 남쪽으로 확장하면, 똑같이 성립하는 또 하나의 지도를 보게 된다. 타이완은 동시에 말레이 세계(Nusantara)의 동북단, 오스트로네시아어족 4억 인구의 언어적 원향, 태평양 확산사의 출발점이다. 화롄 펑톈에서 채취된 옥결 하나는 3500년 전 이미 필리핀 바탄섬, 루손, 베트남, 태국의 고고 유적에 나타나 있었다. 언어학자 Robert Blust는 어휘 다양성으로부터 오스트로네시아어족의 10대 분파 가운데 9개가 모두 타이완에 있음을 추산했다. 란위의 타오족이 쓰는 말은 바탄 Ivatan 사람들과 60%가 통한다. 이 글이 하려는 일은, 누락되어 온 또 하나의 지도를 되돌려 놓아 두 장의 지도가 함께 진짜 타이완을 보이게 하는 것이다.
 
 Google 지도를 열고 타이완을 남쪽으로 30도 돌려 보라. 바시 해협이 아래를 향하게 하고, 중앙산맥의 능선이 루손섬 북단을 가리키게 하며, 화롄의 타이루거와 필리핀의 바탄 제도가 일직선으로 놓이게 해 보라.
@@ -81,7 +90,7 @@ Blust만이 이렇게 주장한 것은 아니다. 고고학자 Peter Bellwood도
 
 “군도적 사고”를 이해하려면 먼저 한 단어를 이해해야 한다. **Nusantara**.
 
-이 단어는 두 어근으로 이루어져 있다. **Nusa**는 고대 자바어에서 유래하며 “섬”을 뜻한다. 더 거슬러 올라가면 원시 말레이폴리네시아어 *nusa에서 왔다. 이는 오스트로네시아어족 조상들의 단어다. 다시 말해, 타이완 원주민 언어에도 동원어로 존재하는 “섬”이라는 개념이 모든 오스트로네시아어 속에 살아 있다. **Antara**는 산스크리트어 차용어로 “사이”, “매개”를 뜻한다. 합치면 Nusantara는 **“사이의 섬들”, “안팎 사이에 흩어진 군도”**가 된다[^13].
+이 단어는 두 어근으로 이루어져 있다. **Nusa**는 고대 자바어에서 유래하며 “섬”을 뜻한다. 더 거슬러 올라가면 원시 말레이폴리네시아어 \*nusa에서 왔다. 이는 오스트로네시아어족 조상들의 단어다. 다시 말해, 타이완 원주민 언어에도 동원어로 존재하는 “섬”이라는 개념이 모든 오스트로네시아어 속에 살아 있다. **Antara**는 산스크리트어 차용어로 “사이”, “매개”를 뜻한다. 합치면 Nusantara는 **“사이의 섬들”, “안팎 사이에 흩어진 군도”**가 된다[^13].
 
 이 단어는 14세기 자바의 고문헌 《Pararaton》과 《Nagarakretagama》에 처음 등장한다. 1336년, 동자바 **마자파힛 제국**의 재상 **Gajah Mada**는 즉위 의례에서 유명한 “**Palapa 서약**”(Sumpah Palapa)을 발표했다. “Nusantara 전체를 정복하기 전에는 향신료가 들어간 음식을 먹지 않겠다”는 맹세였다[^14].
 
@@ -237,23 +246,23 @@ Blust만이 이렇게 주장한 것은 아니다. 고고학자 Peter Bellwood도
 
 [^4]: [해외로 수출된 “타이완 옥”](https://scitechvista.nat.gov.tw/Article/C000003/detail?ID=3255f20d-b29a-476b-9c3f-d3630ea41eca) — 과학기술대관원 전문 글로, 화롄 즈야간(Cigan) 유적에서 출토된 선사 옥기 공방군과 제작 공예를 상세히 설명한다.
 
-[^5]: Bellwood, Peter, & Dizon, Eusebio. (2005). [The Batanes Archaeological Project and the "Out of Taiwan" Hypothesis for Austronesian Dispersal](https://www.airitilibrary.com/Article/Detail/18151701-200506-201208310020-201208310020-1-33). *Journal of Austronesian Studies*, 1(1), 1-33. — 2002-2005년 오스트레일리아국립대학, 필리핀국립박물관, 필리핀대학이 공동 수행한 고고학 계획의 성과.
+[^5]: Bellwood, Peter, & Dizon, Eusebio. (2005). [The Batanes Archaeological Project and the "Out of Taiwan" Hypothesis for Austronesian Dispersal](https://www.airitilibrary.com/Article/Detail/18151701-200506-201208310020-201208310020-1-33). _Journal of Austronesian Studies_, 1(1), 1-33. — 2002-2005년 오스트레일리아국립대학, 필리핀국립박물관, 필리핀대학이 공동 수행한 고고학 계획의 성과.
 
 [^6]: [Lapita culture - Wikipedia](https://en.wikipedia.org/wiki/Lapita_culture) — 라피타 토기와 루손 Nagsabaran 유적 토기의 높은 유사성은 “타이완 출발설”의 물질문화 증거 가운데 하나다.
 
 [^7]: [Lapita culture | Polynesia, Melanesia, Micronesia](https://www.britannica.com/topic/Lapita-culture) — Britannica의 라피타 문화(기원전 1600년부터 기원전 500년까지) 확산 경로 종합 항목.
 
-[^8]: Blust, Robert. (1984). [The Austronesian Homeland: A Linguistic Perspective](https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/8ecf4de6-7b99-40aa-b5fe-0d829b68998c/content). *Asian Perspectives*, 26(1), 45-67. — Blust가 오스트로네시아어족 “타이완 출발 가설”의 언어학적 기반을 세운 선구적 논문.
+[^8]: Blust, Robert. (1984). [The Austronesian Homeland: A Linguistic Perspective](https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/8ecf4de6-7b99-40aa-b5fe-0d829b68998c/content). _Asian Perspectives_, 26(1), 45-67. — Blust가 오스트로네시아어족 “타이완 출발 가설”의 언어학적 기반을 세운 선구적 논문.
 
 [^9]: [An Interview with Professor Robert Blust: "Austronesian Expansion Out of Taiwan is One of the Greatest Chapters in Human History"](https://taiwaninsight.org/2022/02/23/an-interview-with-professor-robert-blust-austronesian-expansion-out-of-taiwan-is-one-of-the-greatest-chapters-in-human-history/) — Taiwan Insight 2022년 인터뷰로, Blust가 오스트로네시아 10대 분파 가운데 9개가 타이완에 있다는 논증 논리를 직접 설명한다.
 
-[^10]: Bellwood, Peter. (2017). *First Islanders: Prehistory and Human Migration in Island Southeast Asia*. Wiley-Blackwell. — Bellwood가 고고 물질문화의 관점에서 “타이완 출발설”을 체계적으로 논증한 대표 저작.
+[^10]: Bellwood, Peter. (2017). _First Islanders: Prehistory and Human Migration in Island Southeast Asia_. Wiley-Blackwell. — Bellwood가 고고 물질문화의 관점에서 “타이완 출발설”을 체계적으로 논증한 대표 저작.
 
-[^11]: Gray, R. D., Drummond, A. J., & Greenhill, S. J. (2009). [Language Phylogenies Reveal Expansion Pulses and Pauses in Pacific Settlement](https://pmc.ncbi.nlm.nih.gov/articles/PMC2835747/). *Science*, 323(5913), 479-483. — 베이지안 계통발생법으로 400종 오스트로네시아어를 분석해 타이완에서의 확산 시점을 약 5230년 전으로 측정했다.
+[^11]: Gray, R. D., Drummond, A. J., & Greenhill, S. J. (2009). [Language Phylogenies Reveal Expansion Pulses and Pauses in Pacific Settlement](https://pmc.ncbi.nlm.nih.gov/articles/PMC2835747/). _Science_, 323(5913), 479-483. — 베이지안 계통발생법으로 400종 오스트로네시아어를 분석해 타이완에서의 확산 시점을 약 5230년 전으로 측정했다.
 
 [^12]: [식물 DNA가 역사를 기록하다! 닥나무가 말하는 오스트로네시아어족 이주사](https://research.sinica.edu.tw/paper-mulberry-dna-austronesian-history-chung-kuo-fang/) — 중앙연구원 〈연구에 물음〉 인터뷰로, 중궈팡 연구팀이 닥나무 DNA를 통해 생물지리학 관점에서 “타이완 출발설”을 뒷받침한 연구를 소개한다.
 
-[^13]: [Nusantara (term) - Wikipedia](https://en.wikipedia.org/wiki/Nusantara_(term)) — Nusantara의 어원에 대한 완전한 고증: 고대 자바어 *nusa*(섬) + 산스크리트어 차용어 *antara*(사이).
+[^13]: [Nusantara (term) - Wikipedia](<https://en.wikipedia.org/wiki/Nusantara_(term)>) — Nusantara의 어원에 대한 완전한 고증: 고대 자바어 _nusa_(섬) + 산스크리트어 차용어 _antara_(사이).
 
 [^14]: [Majapahit - Wikipedia](https://en.wikipedia.org/wiki/Majapahit) — 14세기 동자바 마자파힛 제국 항목으로, 1336년 Gajah Mada의 “Palapa 서약” 역사적 배경을 포함한다.
 
@@ -273,7 +282,7 @@ Blust만이 이렇게 주장한 것은 아니다. 고고학자 Peter Bellwood도
 
 [^22]: 웨이웨핑, 〈오키나와 경험—지식인과 민중의 관계〉, 정원치가 〈Hermeneutics of Nusantara 편집실 노트〉, 《디지털 황원》 제34호에서 인용.
 
-[^23]: Anderson, Benedict. (2016). *A Life Beyond Boundaries: A Memoir*. Verso. — 베네딕트 앤더슨의 자서전으로, “비교를 담론 전략으로”라는 방법론적 주장을 제시했으며, 정원치가 NML 제34호에서 인용했다.
+[^23]: Anderson, Benedict. (2016). _A Life Beyond Boundaries: A Memoir_. Verso. — 베네딕트 앤더슨의 자서전으로, “비교를 담론 전략으로”라는 방법론적 주장을 제시했으며, 정원치가 NML 제34호에서 인용했다.
 
 [^24]: [타이완의 오스트로네시아 민족 외교](https://www.iia.ndhu.edu.tw/%E5%8F%B0%E7%81%A3%E7%9A%84%E5%8D%97%E5%B3%B6%E6%B0%91%E6%97%8F%E5%A4%96%E4%BA%A4/) — 국립둥화대학 원주민족국제사무센터가 타이완이 1993년부터 태평양도서국포럼(PIF)에 참여해 온 과정을 소개한다.
 

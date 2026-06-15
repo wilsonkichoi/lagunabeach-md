@@ -1,48 +1,48 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-15T06:12:21+08:00",
-    "zhCommitHead": "7a5b5c401",
+    "lastUpdated": "2026-06-16T02:22:15+08:00",
+    "zhCommitHead": "619adfc6f",
     "totalZh": 799,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
         "total_zh": 799,
-        "fresh": 705,
-        "stale": 92,
+        "fresh": 713,
+        "stale": 86,
         "metadata_stale": 0,
-        "missing": 2,
+        "missing": 0,
         "orphan": 0
       },
       "ja": {
         "total_zh": 799,
-        "fresh": 709,
-        "stale": 88,
+        "fresh": 717,
+        "stale": 82,
         "metadata_stale": 0,
-        "missing": 2,
+        "missing": 0,
         "orphan": 0
       },
       "ko": {
         "total_zh": 799,
-        "fresh": 705,
-        "stale": 92,
+        "fresh": 713,
+        "stale": 86,
         "metadata_stale": 0,
-        "missing": 2,
+        "missing": 0,
         "orphan": 0
       },
       "es": {
         "total_zh": 799,
-        "fresh": 700,
-        "stale": 97,
+        "fresh": 708,
+        "stale": 91,
         "metadata_stale": 0,
-        "missing": 2,
+        "missing": 0,
         "orphan": 0
       },
       "fr": {
         "total_zh": 799,
-        "fresh": 700,
-        "stale": 97,
+        "fresh": 708,
+        "stale": 91,
         "metadata_stale": 0,
-        "missing": 2,
+        "missing": 0,
         "orphan": 0
       }
     },
@@ -7147,10 +7147,10 @@
     },
     "Technology/迷音Miin.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:86e79dfbeda52398",
-        "bodyHash": "sha256:82deaf21752f91fe"
+        "lastCommit": "83f479d6",
+        "lastModified": "2026-06-16T01:28:47+08:00",
+        "contentHash": "sha256:aee5ba49019fb762",
+        "bodyHash": "sha256:183d8e607cc534cd"
       },
       "translations": {
         "en": {
@@ -7164,8 +7164,8 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 6,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (19→6)"
         },
         "ja": {
           "path": "ja/Technology/miin-music-app.md",
@@ -7178,8 +7178,8 @@
           "translationLastModified": "2026-05-20T12:37:22+08:00",
           "inferred": false,
           "footnoteDefs": 6,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (19→6)"
         },
         "ko": {
           "path": "ko/Technology/miin-music-app.md",
@@ -7192,8 +7192,8 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 6,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (19→6)"
         },
         "es": {
           "path": "es/Technology/miin-music-app.md",
@@ -7206,8 +7206,8 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 6,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (19→6)"
         },
         "fr": {
           "path": "fr/Technology/miin-music-app.md",
@@ -7220,8 +7220,8 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 6,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (19→6)"
         }
       }
     },
@@ -7670,34 +7670,30 @@
         "ja": {
           "path": "ja/Technology/science-park-development.md",
           "translatedFrom": "Technology/科技園區發展.md",
-          "sourceCommitSha": "dd39065b",
-          "sourceContentHash": "sha256:1d77734f34a7a5f8",
-          "sourceBodyHash": "sha256:e01e7169a98c4aba",
-          "translatedAt": "2026-06-02T00:39:59+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:af69e6f051c9c55a",
+          "sourceBodyHash": "sha256:87c841c432ba710a",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 24,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+7 -7"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/Technology/science-park-development.md",
           "translatedFrom": "Technology/科技園區發展.md",
-          "sourceCommitSha": "dd39065b",
-          "sourceContentHash": "sha256:1d77734f34a7a5f8",
-          "sourceBodyHash": "sha256:e01e7169a98c4aba",
-          "translatedAt": "2026-06-02T00:39:59+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:af69e6f051c9c55a",
+          "sourceBodyHash": "sha256:87c841c432ba710a",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 24,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+7 -7"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/Technology/science-park-development.md",
@@ -8235,10 +8231,10 @@
     },
     "Technology/台灣網路社群遷徙史.md": {
       "zh": {
-        "lastCommit": "ac86475b",
-        "lastModified": "2026-06-14T09:33:24+08:00",
-        "contentHash": "sha256:c14069aedbd05adc",
-        "bodyHash": "sha256:0385d481b5950305"
+        "lastCommit": "ab47ff39",
+        "lastModified": "2026-06-15T23:21:34+08:00",
+        "contentHash": "sha256:0b6b7572d1c9802f",
+        "bodyHash": "sha256:dd603353dcdb0e7a"
       },
       "translations": {
         "en": {
@@ -8252,8 +8248,8 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (47→0)"
         },
         "ja": {
           "path": "ja/Technology/taiwan-online-community-migration.md",
@@ -8266,8 +8262,8 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (47→0)"
         },
         "ko": {
           "path": "ko/Technology/taiwan-online-community-migration.md",
@@ -8280,8 +8276,8 @@
           "translationLastModified": "2026-05-24T22:50:13+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (47→0)"
         },
         "es": {
           "path": "es/Technology/taiwan-online-community-migration.md",
@@ -8294,8 +8290,8 @@
           "translationLastModified": "2026-05-20T12:37:22+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (47→0)"
         },
         "fr": {
           "path": "fr/Technology/taiwan-online-community-migration.md",
@@ -8308,8 +8304,8 @@
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (47→0)"
         }
       }
     },
@@ -8565,17 +8561,17 @@
     },
     "Technology/台灣人工智慧實驗室.md": {
       "zh": {
-        "lastCommit": "dbb8d44c",
-        "lastModified": "2026-05-19T15:11:43+08:00",
-        "contentHash": "sha256:c9c56e989b7928f9",
+        "lastCommit": "ab47ff39",
+        "lastModified": "2026-06-15T23:21:34+08:00",
+        "contentHash": "sha256:04b7d67d84ccc6da",
         "bodyHash": "sha256:f134440a7453a1a5"
       },
       "translations": {
         "en": {
           "path": "en/Technology/taiwan-ai-labs.md",
           "translatedFrom": "Technology/台灣人工智慧實驗室.md",
-          "sourceCommitSha": "dbb8d44cb",
-          "sourceContentHash": "sha256:c9c56e989b7928f9",
+          "sourceCommitSha": "ab47ff39",
+          "sourceContentHash": "sha256:04b7d67d84ccc6da",
           "sourceBodyHash": "sha256:f134440a7453a1a5",
           "translatedAt": "2026-05-20T05:08:27+08:00",
           "translationLastCommit": "f59e6468",
@@ -8588,8 +8584,8 @@
         "ja": {
           "path": "ja/Technology/taiwan-ai-labs.md",
           "translatedFrom": "Technology/台灣人工智慧實驗室.md",
-          "sourceCommitSha": "dbb8d44cb",
-          "sourceContentHash": "sha256:c9c56e989b7928f9",
+          "sourceCommitSha": "ab47ff39",
+          "sourceContentHash": "sha256:04b7d67d84ccc6da",
           "sourceBodyHash": "sha256:f134440a7453a1a5",
           "translatedAt": "2026-05-22T05:08:46+08:00",
           "translationLastCommit": "1dd167b3",
@@ -8602,8 +8598,8 @@
         "ko": {
           "path": "ko/Technology/taiwan-ai-labs.md",
           "translatedFrom": "Technology/台灣人工智慧實驗室.md",
-          "sourceCommitSha": "dbb8d44cb",
-          "sourceContentHash": "sha256:c9c56e989b7928f9",
+          "sourceCommitSha": "ab47ff39",
+          "sourceContentHash": "sha256:04b7d67d84ccc6da",
           "sourceBodyHash": "sha256:f134440a7453a1a5",
           "translatedAt": "2026-05-22T05:08:46+08:00",
           "translationLastCommit": "1dd167b3",
@@ -8616,8 +8612,8 @@
         "es": {
           "path": "es/Technology/taiwan-ai-labs.md",
           "translatedFrom": "Technology/台灣人工智慧實驗室.md",
-          "sourceCommitSha": "dbb8d44cb",
-          "sourceContentHash": "sha256:c9c56e989b7928f9",
+          "sourceCommitSha": "ab47ff39",
+          "sourceContentHash": "sha256:04b7d67d84ccc6da",
           "sourceBodyHash": "sha256:f134440a7453a1a5",
           "translatedAt": "2026-05-22T05:08:47+08:00",
           "translationLastCommit": "1dd167b3",
@@ -8630,8 +8626,8 @@
         "fr": {
           "path": "fr/Technology/taiwan-ai-labs.md",
           "translatedFrom": "Technology/台灣人工智慧實驗室.md",
-          "sourceCommitSha": "dbb8d44cb",
-          "sourceContentHash": "sha256:c9c56e989b7928f9",
+          "sourceCommitSha": "ab47ff39",
+          "sourceContentHash": "sha256:04b7d67d84ccc6da",
           "sourceBodyHash": "sha256:f134440a7453a1a5",
           "translatedAt": "2026-05-22T05:08:47+08:00",
           "translationLastCommit": "1dd167b3",
@@ -9230,18 +9226,16 @@
         "ja": {
           "path": "ja/Technology/computex-taipei.md",
           "translatedFrom": "Technology/Computex.md",
-          "sourceCommitSha": "dd39065b",
-          "sourceContentHash": "sha256:d37367135548def0",
-          "sourceBodyHash": "sha256:bb5555703c8ada78",
-          "translatedAt": "2026-06-10T16:41:16Z",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:4a673b61d3e24bb9",
+          "sourceBodyHash": "sha256:9b3f0ed2efd5fc46",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 23,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+6 -6"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/Technology/computex-taipei.md",
@@ -19862,50 +19856,44 @@
         "ko": {
           "path": "ko/Society/public-housing-justice.md",
           "translatedFrom": "Society/國宅與居住正義.md",
-          "sourceCommitSha": "dd39065b",
-          "sourceContentHash": "sha256:1b571a2f0b3e267b",
-          "sourceBodyHash": "sha256:81a883992eb755dc",
-          "translatedAt": "2026-06-11T16:38:39Z",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:bd9b1e07ed885b16",
+          "sourceBodyHash": "sha256:547ee1d3b342a025",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 27,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+8 -8"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/Society/public-housing-justice.md",
           "translatedFrom": "Society/國宅與居住正義.md",
-          "sourceCommitSha": "dd39065b",
-          "sourceContentHash": "sha256:1b571a2f0b3e267b",
-          "sourceBodyHash": "sha256:81a883992eb755dc",
-          "translatedAt": "2026-06-11T16:38:50Z",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:bd9b1e07ed885b16",
+          "sourceBodyHash": "sha256:547ee1d3b342a025",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 27,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+8 -8"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/Society/public-housing-justice.md",
           "translatedFrom": "Society/國宅與居住正義.md",
-          "sourceCommitSha": "dd39065b",
-          "sourceContentHash": "sha256:1b571a2f0b3e267b",
-          "sourceBodyHash": "sha256:81a883992eb755dc",
-          "translatedAt": "2026-06-11T16:39:06Z",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:bd9b1e07ed885b16",
+          "sourceBodyHash": "sha256:547ee1d3b342a025",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 27,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+8 -8"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -20448,18 +20436,16 @@
         "ko": {
           "path": "ko/Society/i-am-from.md",
           "translatedFrom": "Society/我是OO人.md",
-          "sourceCommitSha": "dd39065b",
-          "sourceContentHash": "sha256:cdc34bf666aa8587",
-          "sourceBodyHash": "sha256:d2136eb2eef002a6",
-          "translatedAt": "2026-06-10T16:42:09Z",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:a7c71b7402009bc6",
+          "sourceBodyHash": "sha256:5b34ca12ffeca314",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 23,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+7 -7"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/Society/i-am-from.md",
@@ -22527,17 +22513,17 @@
     },
     "Society/認知作戰.md": {
       "zh": {
-        "lastCommit": "dd39065b",
-        "lastModified": "2026-06-10T17:45:23+08:00",
-        "contentHash": "sha256:380deba2111b675e",
+        "lastCommit": "ab47ff39",
+        "lastModified": "2026-06-15T23:21:34+08:00",
+        "contentHash": "sha256:63574f6b87e6dc7a",
         "bodyHash": "sha256:53132f584b9b6657"
       },
       "translations": {
         "en": {
           "path": "en/Society/cognitive-warfare-against-taiwan.md",
           "translatedFrom": "Society/認知作戰.md",
-          "sourceCommitSha": "dd39065b",
-          "sourceContentHash": "sha256:380deba2111b675e",
+          "sourceCommitSha": "ab47ff39",
+          "sourceContentHash": "sha256:63574f6b87e6dc7a",
           "sourceBodyHash": "sha256:53132f584b9b6657",
           "translatedAt": "2026-04-30T22:33:56+08:00",
           "translationLastCommit": "00b2431a",
@@ -22550,8 +22536,8 @@
         "ja": {
           "path": "ja/Society/cognitive-warfare-against-taiwan.md",
           "translatedFrom": "Society/認知作戰.md",
-          "sourceCommitSha": "dd39065b",
-          "sourceContentHash": "sha256:380deba2111b675e",
+          "sourceCommitSha": "ab47ff39",
+          "sourceContentHash": "sha256:63574f6b87e6dc7a",
           "sourceBodyHash": "sha256:53132f584b9b6657",
           "translatedAt": "2026-05-01T14:48:26+08:00",
           "translationLastCommit": "00b2431a",
@@ -22564,8 +22550,8 @@
         "ko": {
           "path": "ko/Society/cognitive-warfare-against-taiwan.md",
           "translatedFrom": "Society/認知作戰.md",
-          "sourceCommitSha": "dd39065b",
-          "sourceContentHash": "sha256:380deba2111b675e",
+          "sourceCommitSha": "ab47ff39",
+          "sourceContentHash": "sha256:63574f6b87e6dc7a",
           "sourceBodyHash": "sha256:53132f584b9b6657",
           "translatedAt": "2026-06-07T00:37:31+08:00",
           "translationLastCommit": "00b2431a",
@@ -22578,8 +22564,8 @@
         "es": {
           "path": "es/Society/cognitive-warfare-against-taiwan.md",
           "translatedFrom": "Society/認知作戰.md",
-          "sourceCommitSha": "dd39065b",
-          "sourceContentHash": "sha256:380deba2111b675e",
+          "sourceCommitSha": "ab47ff39",
+          "sourceContentHash": "sha256:63574f6b87e6dc7a",
           "sourceBodyHash": "sha256:53132f584b9b6657",
           "translatedAt": "2026-06-07T00:37:31+08:00",
           "translationLastCommit": "00b2431a",
@@ -22592,8 +22578,8 @@
         "fr": {
           "path": "fr/Society/cognitive-warfare-against-taiwan.md",
           "translatedFrom": "Society/認知作戰.md",
-          "sourceCommitSha": "dd39065b",
-          "sourceContentHash": "sha256:380deba2111b675e",
+          "sourceCommitSha": "ab47ff39",
+          "sourceContentHash": "sha256:63574f6b87e6dc7a",
           "sourceBodyHash": "sha256:53132f584b9b6657",
           "translatedAt": "2026-06-07T00:37:31+08:00",
           "translationLastCommit": "00b2431a",
@@ -34417,17 +34403,17 @@
     },
     "People/杜奕瑾.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:c0f750e52c0448dd",
+        "lastCommit": "ab47ff39",
+        "lastModified": "2026-06-15T23:21:34+08:00",
+        "contentHash": "sha256:61081ca7c646947e",
         "bodyHash": "sha256:f186e67ce03f9679"
       },
       "translations": {
         "en": {
           "path": "en/People/ethan-tu.md",
           "translatedFrom": "People/杜奕瑾.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:c0f750e52c0448dd",
+          "sourceCommitSha": "ab47ff39",
+          "sourceContentHash": "sha256:61081ca7c646947e",
           "sourceBodyHash": "sha256:f186e67ce03f9679",
           "translatedAt": "2026-04-14T12:25:09+08:00",
           "translationLastCommit": "04a9c0df",
@@ -34440,8 +34426,8 @@
         "ja": {
           "path": "ja/People/ethan-tu.md",
           "translatedFrom": "People/杜奕瑾.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:c0f750e52c0448dd",
+          "sourceCommitSha": "ab47ff39",
+          "sourceContentHash": "sha256:61081ca7c646947e",
           "sourceBodyHash": "sha256:f186e67ce03f9679",
           "translatedAt": "2026-05-01T18:09:43+08:00",
           "translationLastCommit": "04a9c0df",
@@ -34454,8 +34440,8 @@
         "ko": {
           "path": "ko/People/ethan-tu.md",
           "translatedFrom": "People/杜奕瑾.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:c0f750e52c0448dd",
+          "sourceCommitSha": "ab47ff39",
+          "sourceContentHash": "sha256:61081ca7c646947e",
           "sourceBodyHash": "sha256:f186e67ce03f9679",
           "translatedAt": "2026-04-14T19:24:35+08:00",
           "translationLastCommit": "04a9c0df",
@@ -34468,8 +34454,8 @@
         "es": {
           "path": "es/People/ethan-tu.md",
           "translatedFrom": "People/杜奕瑾.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:c0f750e52c0448dd",
+          "sourceCommitSha": "ab47ff39",
+          "sourceContentHash": "sha256:61081ca7c646947e",
           "sourceBodyHash": "sha256:f186e67ce03f9679",
           "translatedAt": "2026-05-01T22:19:10+08:00",
           "translationLastCommit": "04a9c0df",
@@ -34482,8 +34468,8 @@
         "fr": {
           "path": "fr/People/ethan-tu.md",
           "translatedFrom": "People/杜奕瑾.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:c0f750e52c0448dd",
+          "sourceCommitSha": "ab47ff39",
+          "sourceContentHash": "sha256:61081ca7c646947e",
           "sourceBodyHash": "sha256:f186e67ce03f9679",
           "translatedAt": "2026-04-14T19:15:40+08:00",
           "translationLastCommit": "04a9c0df",
@@ -39624,50 +39610,44 @@
         "ko": {
           "path": "ko/People/ya-hsien-poet.md",
           "translatedFrom": "People/瘂弦.md",
-          "sourceCommitSha": "e70936dd9",
-          "sourceContentHash": "sha256:07b153459b5b921e",
-          "sourceBodyHash": "sha256:6597d0fd8fb4ea67",
-          "translatedAt": "2026-05-29T00:39:33+08:00",
+          "sourceCommitSha": "4d39a7d2a",
+          "sourceContentHash": "sha256:e294ff8cf9b9ac0a",
+          "sourceBodyHash": "sha256:dd3ab574ead8013b",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 18,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 2,
-          "diffSummary": "+12 -3"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/People/ya-hsien-poet.md",
           "translatedFrom": "People/瘂弦.md",
-          "sourceCommitSha": "e70936dd9",
-          "sourceContentHash": "sha256:07b153459b5b921e",
-          "sourceBodyHash": "sha256:6597d0fd8fb4ea67",
-          "translatedAt": "2026-05-29T00:39:33+08:00",
+          "sourceCommitSha": "4d39a7d2a",
+          "sourceContentHash": "sha256:e294ff8cf9b9ac0a",
+          "sourceBodyHash": "sha256:dd3ab574ead8013b",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 18,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 2,
-          "diffSummary": "+12 -3"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/People/ya-hsien-poet.md",
           "translatedFrom": "People/瘂弦.md",
-          "sourceCommitSha": "e70936dd9",
-          "sourceContentHash": "sha256:07b153459b5b921e",
-          "sourceBodyHash": "sha256:6597d0fd8fb4ea67",
-          "translatedAt": "2026-05-29T00:39:34+08:00",
+          "sourceCommitSha": "4d39a7d2a",
+          "sourceContentHash": "sha256:e294ff8cf9b9ac0a",
+          "sourceBodyHash": "sha256:dd3ab574ead8013b",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 18,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 2,
-          "diffSummary": "+12 -3"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -41523,26 +41503,81 @@
     },
     "People/彎彎.md": {
       "zh": {
-        "lastCommit": "a7d5f9ca",
-        "lastModified": "2026-06-14T22:05:19+08:00",
-        "contentHash": "sha256:cf1bca245612a9d1",
-        "bodyHash": "sha256:dba3b3d2b4b28f4b"
+        "lastCommit": "3a886985",
+        "lastModified": "2026-06-15T08:47:17+08:00",
+        "contentHash": "sha256:f35eb28f8060b6fb",
+        "bodyHash": "sha256:7e022b5d41253912"
       },
       "translations": {
         "en": {
-          "status": "missing"
+          "path": "en/People/wanwan-taiwan-blog-cartoonist.md",
+          "translatedFrom": "People/彎彎.md",
+          "sourceCommitSha": "3a886985c",
+          "sourceContentHash": "sha256:f35eb28f8060b6fb",
+          "sourceBodyHash": "sha256:7e022b5d41253912",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 24,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
-          "status": "missing"
+          "path": "ja/People/wanwan-taiwan-blog-cartoonist.md",
+          "translatedFrom": "People/彎彎.md",
+          "sourceCommitSha": "3a886985c",
+          "sourceContentHash": "sha256:f35eb28f8060b6fb",
+          "sourceBodyHash": "sha256:7e022b5d41253912",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 24,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
-          "status": "missing"
+          "path": "ko/People/wanwan-taiwan-blog-cartoonist.md",
+          "translatedFrom": "People/彎彎.md",
+          "sourceCommitSha": "3a886985c",
+          "sourceContentHash": "sha256:f35eb28f8060b6fb",
+          "sourceBodyHash": "sha256:7e022b5d41253912",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 24,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
-          "status": "missing"
+          "path": "es/People/wanwan-taiwan-blog-cartoonist.md",
+          "translatedFrom": "People/彎彎.md",
+          "sourceCommitSha": "3a886985c",
+          "sourceContentHash": "sha256:f35eb28f8060b6fb",
+          "sourceBodyHash": "sha256:7e022b5d41253912",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 24,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/People/wanwan-taiwan-blog-cartoonist.md",
+          "translatedFrom": "People/彎彎.md",
+          "sourceCommitSha": "3a886985c",
+          "sourceContentHash": "sha256:f35eb28f8060b6fb",
+          "sourceBodyHash": "sha256:7e022b5d41253912",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 24,
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -55363,18 +55398,16 @@
         "ja": {
           "path": "ja/Geography/guling-street.md",
           "translatedFrom": "Geography/牯嶺街.md",
-          "sourceCommitSha": "20a4ac337",
-          "sourceContentHash": "sha256:60a94b0bc50deac1",
-          "sourceBodyHash": "sha256:cddbd35e35cf2d2e",
-          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:333ceed2a40fb5ff",
+          "sourceBodyHash": "sha256:3ec0507273818a67",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 34,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+6 -6"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/Geography/guling-street.md",
@@ -55757,18 +55790,16 @@
         "en": {
           "path": "en/Geography/gongguan.md",
           "translatedFrom": "Geography/公館.md",
-          "sourceCommitSha": "20a4ac337",
-          "sourceContentHash": "sha256:8c674665d432e2f8",
-          "sourceBodyHash": "sha256:269fe229b33b29a3",
-          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:d4a87d0d4d9ecb17",
+          "sourceBodyHash": "sha256:18162eee72c09bc5",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 19,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+8 -8"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/Geography/gongguan.md",
@@ -55801,34 +55832,30 @@
         "es": {
           "path": "es/Geography/gongguan.md",
           "translatedFrom": "Geography/公館.md",
-          "sourceCommitSha": "20a4ac337",
-          "sourceContentHash": "sha256:8c674665d432e2f8",
-          "sourceBodyHash": "sha256:269fe229b33b29a3",
-          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:d4a87d0d4d9ecb17",
+          "sourceBodyHash": "sha256:18162eee72c09bc5",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 19,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+8 -8"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/Geography/gongguan.md",
           "translatedFrom": "Geography/公館.md",
-          "sourceCommitSha": "20a4ac337",
-          "sourceContentHash": "sha256:8c674665d432e2f8",
-          "sourceBodyHash": "sha256:269fe229b33b29a3",
-          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:d4a87d0d4d9ecb17",
+          "sourceBodyHash": "sha256:18162eee72c09bc5",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 19,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+8 -8"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -56353,18 +56380,16 @@
         "en": {
           "path": "en/Geography/beitou-hot-spring-street.md",
           "translatedFrom": "Geography/北投溫泉街.md",
-          "sourceCommitSha": "20a4ac337",
-          "sourceContentHash": "sha256:1f142c7ded5634b0",
-          "sourceBodyHash": "sha256:03a51dfb5a6b4eb8",
-          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:fb76ac27fc6cd3ba",
+          "sourceBodyHash": "sha256:a32189fb31dd0c7d",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 29,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+7 -7"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/Geography/beitou-hot-spring-street.md",
@@ -56397,34 +56422,30 @@
         "es": {
           "path": "es/Geography/beitou-hot-spring-street.md",
           "translatedFrom": "Geography/北投溫泉街.md",
-          "sourceCommitSha": "20a4ac337",
-          "sourceContentHash": "sha256:1f142c7ded5634b0",
-          "sourceBodyHash": "sha256:03a51dfb5a6b4eb8",
-          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:fb76ac27fc6cd3ba",
+          "sourceBodyHash": "sha256:a32189fb31dd0c7d",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 29,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+7 -7"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/Geography/beitou-hot-spring-street.md",
           "translatedFrom": "Geography/北投溫泉街.md",
-          "sourceCommitSha": "20a4ac337",
-          "sourceContentHash": "sha256:1f142c7ded5634b0",
-          "sourceBodyHash": "sha256:03a51dfb5a6b4eb8",
-          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:fb76ac27fc6cd3ba",
+          "sourceBodyHash": "sha256:a32189fb31dd0c7d",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 29,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+7 -7"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -56519,18 +56540,16 @@
         "en": {
           "path": "en/Geography/treasure-hill.md",
           "translatedFrom": "Geography/寶藏巖.md",
-          "sourceCommitSha": "20a4ac337",
-          "sourceContentHash": "sha256:34c40d44d4f457e7",
-          "sourceBodyHash": "sha256:e2bebc0edf0593c1",
-          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:e34125e4b520b62c",
+          "sourceBodyHash": "sha256:6490dd989b255fd9",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 23,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+7 -7"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/Geography/treasure-hill.md",
@@ -56563,34 +56582,30 @@
         "es": {
           "path": "es/Geography/treasure-hill.md",
           "translatedFrom": "Geography/寶藏巖.md",
-          "sourceCommitSha": "20a4ac337",
-          "sourceContentHash": "sha256:34c40d44d4f457e7",
-          "sourceBodyHash": "sha256:e2bebc0edf0593c1",
-          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:e34125e4b520b62c",
+          "sourceBodyHash": "sha256:6490dd989b255fd9",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 23,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+7 -7"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/Geography/treasure-hill.md",
           "translatedFrom": "Geography/寶藏巖.md",
-          "sourceCommitSha": "20a4ac337",
-          "sourceContentHash": "sha256:34c40d44d4f457e7",
-          "sourceBodyHash": "sha256:e2bebc0edf0593c1",
-          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:e34125e4b520b62c",
+          "sourceBodyHash": "sha256:6490dd989b255fd9",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 23,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+7 -7"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -56951,18 +56966,16 @@
         "ja": {
           "path": "ja/Geography/bangka.md",
           "translatedFrom": "Geography/艋舺.md",
-          "sourceCommitSha": "20a4ac33",
-          "sourceContentHash": "sha256:e384b40a3b9c1bf5",
-          "sourceBodyHash": "sha256:2adb8850a99b6a49",
-          "translatedAt": "2026-05-25T21:07:04Z",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:c05a8c5cb2792eea",
+          "sourceBodyHash": "sha256:da886e84510f3d63",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 32,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+6 -6"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/Geography/bangka.md",
@@ -57621,18 +57634,16 @@
         "ja": {
           "path": "ja/Geography/pingtung-county.md",
           "translatedFrom": "Geography/屏東縣.md",
-          "sourceCommitSha": "544200ea",
-          "sourceContentHash": "sha256:807afcb0261734eb",
-          "sourceBodyHash": "sha256:5eba748f96308539",
-          "translatedAt": "2026-05-25T21:07:04Z",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:74a76153ce0680fe",
+          "sourceBodyHash": "sha256:f6d31ce0f8b471cc",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 27,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+6 -6"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/Geography/pingtung-county.md",
@@ -57893,50 +57904,44 @@
         "ko": {
           "path": "ko/Geography/zhongshan-north-road-tiaotong.md",
           "translatedFrom": "Geography/中山北路條通.md",
-          "sourceCommitSha": "20a4ac337",
-          "sourceContentHash": "sha256:03b39214d0690b3e",
-          "sourceBodyHash": "",
-          "translatedAt": "2026-06-09T03:00:45+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:09cf41707223de25",
+          "sourceBodyHash": "sha256:1cbd8f5ebc585b28",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 28,
-          "status": "stale",
-          "reason": "zh-moved-forward",
-          "commitsBehind": 1,
-          "diffSummary": "+7 -7"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/Geography/zhongshan-north-road-tiaotong.md",
           "translatedFrom": "Geography/中山北路條通.md",
-          "sourceCommitSha": "20a4ac337",
-          "sourceContentHash": "sha256:b588a53aa70524ed",
-          "sourceBodyHash": "sha256:c3fdba51ee1eb327",
-          "translatedAt": "2026-06-13T01:49:53+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:09cf41707223de25",
+          "sourceBodyHash": "sha256:1cbd8f5ebc585b28",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 28,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+7 -7"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/Geography/zhongshan-north-road-tiaotong.md",
           "translatedFrom": "Geography/中山北路條通.md",
-          "sourceCommitSha": "20a4ac337",
-          "sourceContentHash": "sha256:b588a53aa70524ed",
-          "sourceBodyHash": "sha256:c3fdba51ee1eb327",
-          "translatedAt": "2026-06-13T01:49:53+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:09cf41707223de25",
+          "sourceBodyHash": "sha256:1cbd8f5ebc585b28",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 28,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+7 -7"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -58281,50 +58286,44 @@
         "en": {
           "path": "en/Geography/chiayi-city.md",
           "translatedFrom": "Geography/嘉義市.md",
-          "sourceCommitSha": "bcffb45b4",
-          "sourceContentHash": "sha256:da364f836aee9919",
-          "sourceBodyHash": "sha256:a0d7b96dd180c602",
-          "translatedAt": "2026-05-24T05:06:32+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:ae83f3951e0a47fc",
+          "sourceBodyHash": "sha256:d3fc69c2026ce4f3",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 32,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+6 -6"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/Geography/chiayi-city.md",
           "translatedFrom": "Geography/嘉義市.md",
-          "sourceCommitSha": "bcffb45b4",
-          "sourceContentHash": "sha256:da364f836aee9919",
-          "sourceBodyHash": "sha256:a0d7b96dd180c602",
-          "translatedAt": "2026-05-24T05:06:32+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:ae83f3951e0a47fc",
+          "sourceBodyHash": "sha256:d3fc69c2026ce4f3",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 32,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+6 -6"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/Geography/chiayi-city.md",
           "translatedFrom": "Geography/嘉義市.md",
-          "sourceCommitSha": "bcffb45b4",
-          "sourceContentHash": "sha256:da364f836aee9919",
-          "sourceBodyHash": "sha256:a0d7b96dd180c602",
-          "translatedAt": "2026-05-24T05:06:32+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:ae83f3951e0a47fc",
+          "sourceBodyHash": "sha256:d3fc69c2026ce4f3",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 32,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+6 -6"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/Geography/chiayi-city.md",
@@ -58451,18 +58450,16 @@
         "en": {
           "path": "en/Geography/dalongdong.md",
           "translatedFrom": "Geography/大龍峒.md",
-          "sourceCommitSha": "20a4ac337",
-          "sourceContentHash": "sha256:2d241cf14a32c31c",
-          "sourceBodyHash": "sha256:a8ccdeedc763960a",
-          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:c079976dbbfa6288",
+          "sourceBodyHash": "sha256:f620f505d46f863a",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 45,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+7 -7"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/Geography/dalongdong.md",
@@ -58495,34 +58492,30 @@
         "es": {
           "path": "es/Geography/dalongdong.md",
           "translatedFrom": "Geography/大龍峒.md",
-          "sourceCommitSha": "20a4ac337",
-          "sourceContentHash": "sha256:2d241cf14a32c31c",
-          "sourceBodyHash": "sha256:a8ccdeedc763960a",
-          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:c079976dbbfa6288",
+          "sourceBodyHash": "sha256:f620f505d46f863a",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 45,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+7 -7"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/Geography/dalongdong.md",
           "translatedFrom": "Geography/大龍峒.md",
-          "sourceCommitSha": "20a4ac337",
-          "sourceContentHash": "sha256:2d241cf14a32c31c",
-          "sourceBodyHash": "sha256:a8ccdeedc763960a",
-          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:c079976dbbfa6288",
+          "sourceBodyHash": "sha256:f620f505d46f863a",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 45,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+7 -7"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -58777,18 +58770,16 @@
         "en": {
           "path": "en/Geography/kinmen-county.md",
           "translatedFrom": "Geography/金門縣.md",
-          "sourceCommitSha": "544200eab",
-          "sourceContentHash": "sha256:138cb030102543d9",
-          "sourceBodyHash": "sha256:7fa7312e98b0f732",
-          "translatedAt": "2026-05-26T05:10:57+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:f3604bda54fbb678",
+          "sourceBodyHash": "sha256:0b92146b9814b26a",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 27,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+7 -7"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/Geography/kinmen-county.md",
@@ -58821,34 +58812,30 @@
         "es": {
           "path": "es/Geography/kinmen-county.md",
           "translatedFrom": "Geography/金門縣.md",
-          "sourceCommitSha": "544200eab",
-          "sourceContentHash": "sha256:138cb030102543d9",
-          "sourceBodyHash": "sha256:7fa7312e98b0f732",
-          "translatedAt": "2026-05-26T05:10:57+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:f3604bda54fbb678",
+          "sourceBodyHash": "sha256:0b92146b9814b26a",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 27,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+7 -7"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/Geography/kinmen-county.md",
           "translatedFrom": "Geography/金門縣.md",
-          "sourceCommitSha": "544200eab",
-          "sourceContentHash": "sha256:138cb030102543d9",
-          "sourceBodyHash": "sha256:7fa7312e98b0f732",
-          "translatedAt": "2026-05-26T05:10:58+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:f3604bda54fbb678",
+          "sourceBodyHash": "sha256:0b92146b9814b26a",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 27,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+7 -7"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -59203,50 +59190,44 @@
         "en": {
           "path": "en/Geography/44-south-village.md",
           "translatedFrom": "Geography/四四南村.md",
-          "sourceCommitSha": "20a4ac337",
-          "sourceContentHash": "sha256:57f04d13463f00b4",
-          "sourceBodyHash": "sha256:1c7f0374da6219da",
-          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:48350666b07ad604",
+          "sourceBodyHash": "sha256:d1d5c9161c22bb16",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 21,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+6 -6"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/Geography/44-south-village.md",
           "translatedFrom": "Geography/四四南村.md",
-          "sourceCommitSha": "20a4ac337",
-          "sourceContentHash": "sha256:57f04d13463f00b4",
-          "sourceBodyHash": "sha256:1c7f0374da6219da",
-          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:48350666b07ad604",
+          "sourceBodyHash": "sha256:d1d5c9161c22bb16",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 21,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+6 -6"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/Geography/44-south-village.md",
           "translatedFrom": "Geography/四四南村.md",
-          "sourceCommitSha": "20a4ac337",
-          "sourceContentHash": "sha256:57f04d13463f00b4",
-          "sourceBodyHash": "sha256:1c7f0374da6219da",
-          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:48350666b07ad604",
+          "sourceBodyHash": "sha256:d1d5c9161c22bb16",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 21,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+6 -6"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/Geography/44-south-village.md",
@@ -59293,50 +59274,44 @@
         "en": {
           "path": "en/Geography/shilin.md",
           "translatedFrom": "Geography/士林.md",
-          "sourceCommitSha": "20a4ac337",
-          "sourceContentHash": "sha256:0c8f8c0da18a6937",
-          "sourceBodyHash": "sha256:69960ec7a7b5ee93",
-          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:5b2be7a2e0aa64aa",
+          "sourceBodyHash": "sha256:18f3978bd2f84e6f",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 24,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+6 -6"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/Geography/shilin.md",
           "translatedFrom": "Geography/士林.md",
-          "sourceCommitSha": "20a4ac337",
-          "sourceContentHash": "sha256:0c8f8c0da18a6937",
-          "sourceBodyHash": "sha256:69960ec7a7b5ee93",
-          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:5b2be7a2e0aa64aa",
+          "sourceBodyHash": "sha256:18f3978bd2f84e6f",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 24,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+6 -6"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/Geography/shilin.md",
           "translatedFrom": "Geography/士林.md",
-          "sourceCommitSha": "20a4ac337",
-          "sourceContentHash": "sha256:0c8f8c0da18a6937",
-          "sourceBodyHash": "sha256:69960ec7a7b5ee93",
-          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "sourceCommitSha": "31a05c44b",
+          "sourceContentHash": "sha256:5b2be7a2e0aa64aa",
+          "sourceBodyHash": "sha256:18f3978bd2f84e6f",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
           "translationLastCommit": "31a05c44",
           "translationLastModified": "2026-06-13T17:54:04+08:00",
           "inferred": false,
           "footnoteDefs": 24,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+6 -6"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/Geography/shilin.md",
@@ -61877,19 +61852,74 @@
       },
       "translations": {
         "en": {
-          "status": "missing"
+          "path": "en/Culture/taiwan-advertising-history.md",
+          "translatedFrom": "Culture/台灣廣告史.md",
+          "sourceCommitSha": "f7484ebea",
+          "sourceContentHash": "sha256:faa63331d7b3eae1",
+          "sourceBodyHash": "sha256:296b2f47a01a03eb",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 56,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
-          "status": "missing"
+          "path": "ja/Culture/taiwan-advertising-history.md",
+          "translatedFrom": "Culture/台灣廣告史.md",
+          "sourceCommitSha": "f7484ebea",
+          "sourceContentHash": "sha256:faa63331d7b3eae1",
+          "sourceBodyHash": "sha256:296b2f47a01a03eb",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 56,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
-          "status": "missing"
+          "path": "ko/Culture/taiwan-advertising-history.md",
+          "translatedFrom": "Culture/台灣廣告史.md",
+          "sourceCommitSha": "f7484ebea",
+          "sourceContentHash": "sha256:faa63331d7b3eae1",
+          "sourceBodyHash": "sha256:296b2f47a01a03eb",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 56,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
-          "status": "missing"
+          "path": "es/Culture/taiwan-advertising-history.md",
+          "translatedFrom": "Culture/台灣廣告史.md",
+          "sourceCommitSha": "f7484ebea",
+          "sourceContentHash": "sha256:faa63331d7b3eae1",
+          "sourceBodyHash": "sha256:296b2f47a01a03eb",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 56,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/Culture/taiwan-advertising-history.md",
+          "translatedFrom": "Culture/台灣廣告史.md",
+          "sourceCommitSha": "f7484ebea",
+          "sourceContentHash": "sha256:faa63331d7b3eae1",
+          "sourceBodyHash": "sha256:296b2f47a01a03eb",
+          "translatedAt": "2026-06-16T00:44:26+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 56,
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },

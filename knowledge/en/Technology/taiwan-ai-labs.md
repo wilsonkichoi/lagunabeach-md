@@ -5,14 +5,15 @@ date: 2026-03-19
 author: 'idlccp02'
 category: 'Technology'
 subcategory: '人工智慧'
-tags: ['人工智慧', '智慧醫療', '杜奕瑾', '科技創新', '資訊戰防制', 'TAIDE', 'PTT']
+tags:
+  ['人工智慧', '智慧醫療', '杜奕瑾', '科技創新', '資訊戰防制', 'TAIDE', 'PTT']
 readingTime: 8
 lastVerified: 2026-05-07
 lastHumanReview: true
 featured: true
 translatedFrom: 'Technology/台灣人工智慧實驗室.md'
-sourceCommitSha: 'dbb8d44cb'
-sourceContentHash: 'sha256:c9c56e989b7928f9'
+sourceCommitSha: 'ab47ff39'
+sourceContentHash: 'sha256:04b7d67d84ccc6da'
 sourceBodyHash: 'sha256:f134440a7453a1a5'
 translatedAt: '2026-05-20T05:08:27+08:00'
 ---

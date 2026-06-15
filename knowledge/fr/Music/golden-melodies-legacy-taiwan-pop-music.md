@@ -1,18 +1,26 @@
 ---
 title: "L'héritage des mélodies d'or : histoire et statut culturel de la musique pop taïwanaise"
-description: "Du mouvement de la chanson folk au phénomène Jay Chou, explorer comment la musique pop taïwanaise a façonné le paysage de la musique sinophone"
-date: "2026-03-19"
+description: 'Du mouvement de la chanson folk au phénomène Jay Chou, explorer comment la musique pop taïwanaise a façonné le paysage de la musique sinophone'
+date: '2026-03-19'
 author: 'Taiwan.md'
 category: 'Music'
 subcategory: '獨立與搖滾'
-tags: ['musique pop taïwanaise', 'mouvement de la chanson folk', "Golden Melody Awards", 'Jay Chou', 'musique indépendante', 'industrie musicale']
+tags:
+  [
+    'musique pop taïwanaise',
+    'mouvement de la chanson folk',
+    'Golden Melody Awards',
+    'Jay Chou',
+    'musique indépendante',
+    'industrie musicale',
+  ]
 readingTime: 11
-lastVerified: "2026-03-19"
+lastVerified: '2026-03-19'
 lastHumanReview: false
 featured: true
 translatedFrom: 'Music/台灣流行音樂.md'
-sourceCommitSha: 'f712b7242'
-sourceContentHash: 'sha256:5f9f96509c12cb27'
+sourceCommitSha: '40517470'
+sourceContentHash: 'sha256:f0d4e57308cc2c0f'
 sourceBodyHash: 'sha256:53757b341f1d1bcf'
 translatedAt: '2026-05-20T05:08:34+08:00'
 ---
@@ -204,10 +212,16 @@ Cinquante ans après le mouvement de la chanson folk, Taïwan demeure l'un des e
 
 ## Références
 
-[^1]: [Ma Shifang, *Underground Nostalgia Blues*, China Times Publishing, 2006](https://www.books.com.tw/products/0010980346) — L'ouvrage discute la controverse académique autour de l'appellation « père de la chanson folk » et constitue une référence importante pour les études sur la chanson folk taïwanaise
-[^2]: [Bureau of Audiovisual and Music Industry Development, ministère de la Culture, *Histoire du développement de la musique pop taïwanaise*](https://www.bamid.gov.tw/) — Compilation officielle de matériaux historiques sur l'industrie de la musique pop taïwanaise
+[^1]: [Ma Shifang, _Underground Nostalgia Blues_, China Times Publishing, 2006](https://www.books.com.tw/products/0010980346) — L'ouvrage discute la controverse académique autour de l'appellation « père de la chanson folk » et constitue une référence importante pour les études sur la chanson folk taïwanaise
+
+[^2]: [Bureau of Audiovisual and Music Industry Development, ministère de la Culture, _Histoire du développement de la musique pop taïwanaise_](https://www.bamid.gov.tw/) — Compilation officielle de matériaux historiques sur l'industrie de la musique pop taïwanaise
+
 [^4]: [Music Workers Association of Taiwan — Wikipédia](https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E8%8F%AF%E9%9F%B3%E6%A8%82%E4%BA%BA%E4%BA%A4%E6%B5%81%E5%8D%94%E6%9C%83) — Organisation importante de l'industrie musicale taïwanaise, favorisant les échanges entre musiciens et les affaires liées aux droits d'auteur
-[^6]: [*Annuaire de la musique de Taïwan*, National Center for Traditional Arts](https://taiwanmusicyearbook.ncfta.gov.tw/) — Statistiques annuelles sur la situation de l'industrie musicale taïwanaise et archives des événements importants
+
+[^6]: [_Annuaire de la musique de Taïwan_, National Center for Traditional Arts](https://taiwanmusicyearbook.ncfta.gov.tw/) — Statistiques annuelles sur la situation de l'industrie musicale taïwanaise et archives des événements importants
+
 [^7]: [Yuan Yongxing — Wikipédia](https://zh.wikipedia.org/zh-tw/%E8%A2%81%E6%B0%B8%E8%88%88) — Animateur radio et critique musical chevronné, auteur d'ouvrages sur la musique indépendante taïwanaise, lauréat des Golden Bell Awards
-[^8]: [Taiwan Creative Content Agency, *Rapport d'enquête sur l'industrie de la musique populaire*](https://taicca.tw/) — Enquête annuelle sur la taille, les revenus et les exportations internationales de l'industrie de la musique pop taïwanaise
+
+[^8]: [Taiwan Creative Content Agency, _Rapport d'enquête sur l'industrie de la musique populaire_](https://taicca.tw/) — Enquête annuelle sur la taille, les revenus et les exportations internationales de l'industrie de la musique pop taïwanaise
+
 [^11]: [IFPI Taiwan Market Reports](https://www.ifpi.org/) — Rapports annuels de la Fédération internationale de l'industrie phonographique sur le marché taïwanais, données de ventes physiques et de streaming

@@ -26,7 +26,7 @@ lastVerified: 2026-05-07
 lastHumanReview: false
 featured: true
 translatedFrom: 'Society/巴拉圭與台灣.md'
-sourceCommitSha: '6f3aff5ed'
+sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:2883551ecafd55b9'
 sourceBodyHash: 'sha256:a482ae599cab265e'
 translatedAt: '2026-05-09T11:09:57+08:00'
