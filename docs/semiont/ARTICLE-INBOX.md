@@ -181,14 +181,17 @@ BECOME_TAIWANMD.md Step 5 新增：
 - **Type**: `EVOLVE`
 - **Category**: Technology
 - **Path** (EVOLVE only): knowledge/Technology/台灣網路社群遷徙史.md
-- **Priority**: `P0`
-- **Status**: `pending`
+- **Priority**: `P0` → **prose ship 2026-06-15 (twmd-rewrite-daily)** / **媒體補完待 P1**
+- **Status**: `prose-shipped-pending-media`
 - **Requested**: 2026-06-14 by 哲宇 directive（最優先 rewrite batch）
 - **Notes**:
-  - 事實鐵三角：各平台起訖年份（BBS/PTT/無名小站/FB/Dcard/Threads）+ 關站時間點逐一查
-  - 跟既有 `無名小站` SC striking-distance（1,178 曝光 pos 8.6）+ Threads 遷徙當代節點呼應
-  - EVOLVE 方向：時序軸 + 平台更替的「為什麼搬」敘事
-- **Reference**: 哲宇 directive 2026-06-14
+  - **2026-06-15 prose ship 完成**：6548 char / 47 footnote / 8 場景式 H2 / Stage 0-1 SSOT (1795 行 / 112 URL / research-report-health PASS) + Stage 2 fresh writer agent + 文體紀律（對位 1 / 破折號 57 / 0 編年體）+ Stage 3-5 全綠（除 image-health pre-existing）
+  - **核心矛盾**：「失土史」框架 — 台灣兩度長出自己的平台都被外資擠掉或關掉，唯一活下來的明日報個人新聞台是被使用者自己搶救的
+  - **媒體 gap 待補（pre-existing，與 報導者 EVOLVE 同模式）**：原版 0 image, EVOLVE 維持 text-only ship；image-health hard=1 (length-scaled ≥5 for 6548 字)；候選素材清單已在 SSOT §6.7（志祺七七《時代的眼淚》MSN/無名 EP / LINE 桂綸鎂 2012 廣告 / Wikimedia Commons PTT 進站畫面 / @wretch_1999 截圖 / Varoufakis 演講）
+  - **SPORE defer**：image hard → 自動 spore-publish 失格（per pipeline v6.8）；待媒體補完後重跑 SPORE chain
+  - 事實鐵三角已查證完整 SSOT §3-§8（PTT 1995/9/14、明日報三日期、無名 2013/12/26 同日關、MSN 1 億→Skype 非 3 億→LINE、Plurk 2008/5/12、Threads 2023/7/5、@wretch_1999 2025/3 粉絲自製）
+  - sibling cross-link：無名小站（已雙向）/ PTT批踢踢 / Facebook / Threads在台灣 / IG — 5 條 forward 已寫，reverse 待 sibling 編輯時補
+- **Reference**: 哲宇 directive 2026-06-14 + research/2026-06/台灣網路社群遷徙史-evolve-20260614.md
 
 ### 台灣流行音樂 EVOLVE — 從群星會到串流時代的島嶼聲音
 
