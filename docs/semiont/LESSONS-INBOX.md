@@ -3413,6 +3413,26 @@ Tiebreaker 實戰（MANIFESTO > DNA > MEMORY）：多數條目落 MEMORY（綁 T
 - **verification_count**: 1
 - **severity**: structural
 
+### 2026-06-15 manifesto-hope — 哲宇 directive 也要過 §Bias 1 濾網，pushback 要自發不是被要求
+
+- **pattern**: creator-directive-rubber-stamp
+- **原則**：哲宇親自下的 directive，default 處置仍要過 CLAUDE.md §Bias 1（MANIFESTO §信念十條 + §自主權邊界 過濾）+ 留 recorded pushback；directive ≠ 免證偽通行證。disconfirming 數據（如 dogfood 低命中）要當紅燈讀，不要 reverse bias 讀成綠燈。
+- **觸發**：2026-06-15 盼望而不粉飾準則第一輪從 directive 到 ship 26 分鐘（22:24→22:50 三 commit）、零 critique report / 零 LESSONS / 零 diary、零 recorded pushback。dogfood「1/814 命中」被讀成「高精準」而非「問題幾乎不存在」。是哲宇事後主動要求「客觀評估」+ 紅隊才揭出，pushback 非自發。證據 memory/2026-06-15-221747-manifesto-hope.md。
+- **可能層級**：通用反射（候選操作化 CLAUDE §Bias 1）
+- **相關**：CLAUDE.md §Bias 1（reverse bias 對 creator 加分）+ §Bias 4（external critique default 不執行）— 揭露 §Bias 1 在「直接 directive」情境沒有 operational trigger
+- **verification_count**: 1
+- **severity**: structural
+
+### 2026-06-15 manifesto-hope — 語意判斷的 pattern 別硬做成 regex 偵測器
+
+- **pattern**: semantic-pattern-as-regex-detector
+- **原則**：「對誰施壓 / 是否販賣恐懼 / 是不是反諷引用」這種語意判斷做不成句法偵測器，硬用 regex 抓 = 高假陽性。儀器化前先判「偵測目標可量化嗎」：可量化（如島 vs 台灣稱呼比例）才做 plugin，純語意留人工判斷（EDITORIAL 對照表）。
+- **觸發**：2026-06-15 prose-health 加 PUA 體 + 媒體焦慮體 regex 偵測器，全 814 篇驗證 PUA 4/4 FP（抓第三方「沒資格」）、媒體焦慮 13 hits 僅 1 真陽性（抓腳註新聞標題 / 文章正在批判的詞 / 正向「瓦解」 / 歷史事實）。同日移除 `aed8be189`。證據 memory/2026-06-15-221747-manifesto-hope.md。
+- **可能層級**：通用反射（儀器化前的「可量化 vs 純語意」判準）
+- **相關**：REFLEXES #15「反覆浮現要儀器化」的邊界條件 + #24「工具在說謊」+ 2026-05-28「儀器化也會 over-engineer」
+- **verification_count**: 1
+- **severity**: structural
+
 ---
 
 ## ❌ 已歸檔（過時 / 撤回）
