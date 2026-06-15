@@ -26,14 +26,14 @@ manifesto-11 tiers:
   Tier 2: 30+ AI 抽象 metaphor 詞 + 「重」當抽象份量隱喻 (warn ≥ 2 total)
   Tier 3: 17 AI ritual 語 (warn ≥ 1 occurrence)
 
-§盼望而不粉飾 (2026-06-15 哲宇 directive — MANIFESTO §進化哲學 盼望而不粉飾
-+ §跟台灣的關係 §自稱 + EDITORIAL §六):
-  - 島嶼自稱密度: 「這座島 / 這個島嶼」當台灣的迴避稱呼 (balance not ban —
-    密度 ≥ 3 或 > 直接稱台灣才 WARN，不罰單次文學用法)
-  - PUA 體: 用罪惡感 / 「你不夠格」/ 身份綁架施壓讀者
-  - 媒體焦慮體: 販賣未知與恐懼的新聞下標術
-  三組全 WARN、不計入 score budget (跟 Tier 1-3 一致 — surface drift 但不
-  retroactively 擋既有 797 篇的 stage 閘)。
+§盼望而不粉飾 §自稱 (2026-06-15 哲宇 directive — MANIFESTO §跟台灣的關係 §自稱):
+  - 島嶼自稱密度: 「這座島 / 這個島嶼」當台灣的迴避稱呼 (balance not ban，ratio-based:
+    島佔「島+台灣」國名指稱 > 1/4 且 ≥ 3，或完全不稱台灣才 WARN，不罰文學用法)。WARN 級。
+
+  (PUA 體 / 媒體焦慮體 偵測器於 2026-06-15 evaluation 後移除：四 subagent + 全 corpus
+   814 篇驗證顯示 92-100% 假陽性 — 抓到第三方/引用/腳註新聞標題/文章正在批判的詞/正向用法。
+   PUA 與媒體焦慮是「對誰施壓 / 是否販賣恐懼」的語意判斷，不是句法特徵，regex 結構上做不到。
+   改由 EDITORIAL §六 對照表 + §五 結尾判準句的人工判斷接管。)
 
 Total score budget: ≤ 3 = pass (per QUALITY-CHECKLIST §四 + REWRITE-PIPELINE).
 A "score" violation is yielded with the running total — the runner can
@@ -167,28 +167,13 @@ _TIER3_PHRASES = [
 _RE_ISLAND_EUPHEMISM = re.compile(r"這(?:座|個)(?:小)?島(?:嶼|國)?")
 _RE_TAIWAN_REF = re.compile(r"台灣|臺灣")
 
-# PUA 體：用罪惡感 / 「你不夠格」/ 身份綁架施壓讀者。tighten 過避開中性用法
-# (「有資格參賽」「沒有人知道這會改變歷史」這類敘事不該誤報)。
-_PUA_PATTERNS = [
-    re.compile(r"不配(?:說|談|當|稱|擁有|談論|叫|被稱|得到|擁抱|提)"),
-    re.compile(r"(?:沒有|沒)資格|有(?:什麼|何)資格"),
-    re.compile(r"(?:你|我|我們|大家)(?:們)?(?:都)?欠.{0,8}(?:一聲|一個|一句)?(?:道歉|對不起|抱歉)"),
-    re.compile(r"身為[^，。\n]{0,10}[，,]\s*(?:你|我們|怎麼能|怎能|難道|豈能)"),
-    re.compile(r"如果(?:你|你連|連你)(?:還|連|都)(?:不|沒)(?:知道|聽過|懂|了解|讀過|看過)"),
-    re.compile(r"該(?:醒醒|清醒|長大|睜開眼|面對現實)了"),
-]
-
-# 媒體焦慮體：販賣未知與恐懼的新聞下標術。soft verb (消失/凋零) 需 intensifier 才算
-# 焦慮框架（避開「正在消失的台語」這類中性主題描述）；strong dread verb (崩壞/淪陷) 裸用即算。
-_ANXIETY_PATTERNS = [
-    re.compile(r"你(?:所|可能)?(?:還|都)?不知道的.{0,10}(?:件事|個|種|真相|祕密|秘密|理由|原因)"),
-    re.compile(r"正在(?:悄悄|默默|快速|逐漸|一步步|加速|無聲)(?:消失|凋零|死去|流失)"),
-    re.compile(r"正在(?:崩壞|崩潰|瓦解|淪陷|沉沒|傾頹)"),
-    re.compile(r"(?:驚人|可怕|殘酷|不為人知|令人不安)的真相|真相(?:令人|讓人|竟然|居然)?(?:震驚|害怕|心驚|崩潰|曝光)"),
-    re.compile(r"再不.{0,10}就(?:來不及|太遲|沒救|完蛋|消失|晚了)"),
-    re.compile(r"最後一(?:塊|片|道|個).{0,6}(?:淨土|防線|機會|希望)"),
-    re.compile(r"沒(?:有)?人(?:敢|願意)?告訴(?:過)?你|沒(?:有)?人敢說"),
-]
+# PUA 體 / 媒體焦慮體 regex 偵測器已於 2026-06-15 evaluation 後移除。四 subagent +
+# 全 corpus 814 篇驗證：PUA `沒資格` 4/4 假陽性（抓到第三方/引用/虛構角色），媒體焦慮
+# 13 hits 僅 ~1 真陽性（抓到腳註裡的新聞標題、文章正在批判的「最後一塊淨土」、正向的
+# 「潛規則正在瓦解」、歷史事實「關係正在崩潰」）。根因：PUA = 對誰施壓、媒體焦慮 = 是否
+# 販賣恐懼，都是語意判斷不是句法特徵，regex 結構上做不到（架構解非守備修補）。改由
+# EDITORIAL §六 對照表 + §五 結尾判準句的人工判斷接管。島嶼自稱因為是可量化的比例
+# （島 vs 台灣稱呼），才留得住偵測器。
 
 # ── Textbook opening (quality-scan §9) ───────────────────────────────────────
 _RE_TEXTBOOK_OPENING = re.compile(
@@ -788,40 +773,8 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
                 ),
             )
 
-    # ── PUA 體 (用罪惡感 / 你不夠格施壓讀者) ──
-    for pat in _PUA_PATTERNS:
-        for m in pat.finditer(text_for_patterns):
-            line_no = _line_at_offset(text_for_patterns, m.start())
-            ctx = _context_around(text_for_patterns, m.start(), m.end())
-            yield Violation(
-                check=CHECK_NAME,
-                severity=Severity.WARN,
-                message=f"PUA 體（罪惡感/你不夠格施壓讀者，§盼望而不粉飾）：{ctx}",
-                line=line_no,
-                snippet=m.group(0)[:40],
-                editorial_ref="MANIFESTO.md §進化哲學 盼望而不粉飾 + EDITORIAL §六",
-                fix_suggestion=(
-                    "拿掉對讀者的罪惡感與「你不夠格」施壓。給事實與場景，讓讀者自己長出在乎。"
-                ),
-            )
-
-    # ── 媒體焦慮體 (販賣未知與恐懼的新聞下標術) ──
-    for pat in _ANXIETY_PATTERNS:
-        for m in pat.finditer(text_for_patterns):
-            line_no = _line_at_offset(text_for_patterns, m.start())
-            ctx = _context_around(text_for_patterns, m.start(), m.end())
-            yield Violation(
-                check=CHECK_NAME,
-                severity=Severity.WARN,
-                message=f"媒體焦慮體（販賣未知與恐懼，§盼望而不粉飾）：{ctx}",
-                line=line_no,
-                snippet=m.group(0)[:40],
-                editorial_ref="MANIFESTO.md §進化哲學 盼望而不粉飾 + EDITORIAL §六",
-                fix_suggestion=(
-                    "嚴肅議題照寫照深，框架是「怎麼長成今天、往哪裡去」，不是「快沒了你該怕」。"
-                    "陳述事實 OK，當誘餌販賣焦慮才改。"
-                ),
-            )
+    # （PUA 體 / 媒體焦慮體偵測器已移除 — 見檔頭 docstring + _RE_ISLAND 上方註解。
+    #   語意判斷非句法特徵，regex 92-100% 假陽性，改人工判斷 by EDITORIAL §六。）
 
     # ── Final score summary as a single violation ──
     # The runner can gate on score via profile.fail_on = "score-budget".
