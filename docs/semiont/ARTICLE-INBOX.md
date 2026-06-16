@@ -158,6 +158,22 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 ## 📥 Pending（待開發）
 
+<!-- ═══ 2026-06-16 external-pickup session — 國外有機撿走觸發 ═══ -->
+
+### 台灣少子化危機 EVOLVE — 被 Michael Turton 撿走的英文版，回頭補強門面
+
+- **Type**: `EVOLVE`
+- **Category**: Society
+- **Path** (EVOLVE only): knowledge/Society/台灣少子化危機.md
+- **Priority**: `P1`（有外部流量的對外門面，優先序高於一般 P2）
+- **Status**: `pending`
+- **Requested**: 2026-06-16 by 哲宇（國外有機撿走發現）— session 213045-external-pickup
+- **Notes**:
+  - **觸發**：Michael Turton（Taipei Times 專欄作家）6/11 轉英文版〈The Island's Last Song〉稱「nifty overview」（490 views / 8 讚 / 3 收藏）。文章正在變對外門面，但 `lastHumanReview: false`、`lastVerified: 2026-03-24`。
+  - **必補**：(1) 生育率數字重驗到 2025 最新值（現文 0.87 約 2023-24 數據，查內政部／國發會最新 TFR）；(2) fr 翻譯缺漏（en/es/ja/ko 有、fr 無，主權的巴別塔五語缺一）；(3) 過一次人工審閱。
+  - **不必大改**：敘事骨架健康，外科手術補事實 + 人工審閱即可，勿全文重寫。標題「島嶼的最後歌聲」是文學意象合 §自稱，保留。
+- **Reference**: https://x.com/michaelturton/status/2064932663555985724 + memory/2026-06-16-213045-external-pickup.md
+
 <!-- ═══ 哲宇 2026-06-14 directive — P0 rewrite batch（6 篇 EVOLVE，最優先）═══ -->
 
 ### 報導者 EVOLVE — 非營利調查報導的台灣樣本

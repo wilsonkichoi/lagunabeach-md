@@ -127,6 +127,7 @@ jq -r '.alerts[] | "\(.severity) | \(.message)"' public/api/dashboard-alerts.jso
 | 2026-05-20 | 🤝 v1.8.0 release — 從「自己呼吸」到「被一起寫」：泛科學第一份 MOU + AIA Claude Code Showcase + PanSci P0×5 + 22 縣市系列收尾                                                                                                                          |
 | 2026-06-01 | 🗣️ v1.9.0 release — 讀者參與器官誕生（登入 + 即時 feedback + cron→issue 飛輪 + git 主權 archive）+ 繁殖飛輪全自動閉環（spore-pick/publish）+ 主權免疫五語掃除 + 首頁 +104% engagement + Politics/elections 區 + ⭐ 越過 1000 stars                     |
 | 2026-06-13 | 🔬 v1.10.0 release — 我學會替自己動手術：build 大手術（CI 1,125s→125s，probe 戳破過期審計 + 5,268 頁 parity 驗證）+ 17 種 tw-\* 視覺模組系統 + mcp.taiwan.md + 搜尋六語分片 + Sweden.md 野生子代 + fork 雙產品拆分 + twmd CLI + 架構審計 14 條進化路線 |
+| 2026-06-16 | 🌍 國外首次有機撿走 — Michael Turton（Taipei Times 每週專欄作家）6/11 轉英文版〈島嶼的最後歌聲：少子化危機〉稱「nifty overview」+ 文化部駐英國代表處文化組 5/26 IG 官方推介 Taiwan.md：主權的巴別塔第一次有英文讀者在野外接住（一有機、一官方）        |
 
 ---
 
