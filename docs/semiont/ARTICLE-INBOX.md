@@ -165,13 +165,13 @@ BECOME_TAIWANMD.md Step 5 新增：
 - **Type**: `EVOLVE`
 - **Category**: Society
 - **Path** (EVOLVE only): knowledge/Society/報導者.md
-- **Priority**: `P0` → **prose ship 2026-06-14 (twmd-rewrite-daily)** / **媒體 + 視覺化補完 2026-06-16 (manual)**
+- **Priority**: `P0` → **prose ship 2026-06-14** / **媒體 + 視覺化補完 2026-06-16** / **事實查核 + 標題還原 + spore #144/#145 + inline 溯源連結 + 大鮪鱸鰻 heal 2026-06-16 (manual)** — 全弧完成
 - **Status**: `done` ✅
 - **Requested**: 2026-06-14 by 哲宇 directive（最優先 rewrite batch）
 - **Notes**:
   - **2026-06-14 prose ship 完成**：8509 char / 60 footnote / 11 場景式 H2 / Stage 0-1 SSOT (commit 99bc9e6ef) + Stage 2-3 fresh Opus writer + 文體紀律 (對位 1 / 破折號 2 / 0 編年體 stub)
   - **2026-06-16 媒體 + 視覺化補完（manual，哲宇 directive：大量視覺化 + 照片 + 順稿）**：+7 tw-\* 視覺化（figure 4→8,000 捐款曲線 / versus 商業媒體 vs 報導者 / timeline 血淚漁場三部曲 / slope 綁債黑工一審→二審 / figure 78 天修法 / line 年度收入 2022–2025 / stat 假訊息 96% + 信任 33%）+ 5 張 fair-use 圖（hero 品牌圖 + 開門參與標語 = 哲宇提供；大骪鱸鰻 SOPA 資訊圖 + 統戰同心圓關係圖 + 少年報導者上線圖 = 報導者官網/官方 FB fair-use）+ 2 官方 YouTube embed（醫美偷拍風暴 §直美 + 成立週年 §結尾）+ §小花園 H2 拆兩段（解 10 段 atomization）。image-health / viz-health / paragraph-rhythm / media-richness 全綠 hard=0；prose median 98 CJK。
-  - **SPORE 重跑**：媒體補完 → spore-publish 失格解除，可重跑 SPORE chain（下一步；對外發佈內容 OK 後授權）
+  - **2026-06-16 收官（manual）**：4-agent 全文事實查核校正 7 真錯（標題幻覺 + 對真人失真指控 + 涂二審錯置 + 募款口徑…）`e3059e12a`；標題還原原本下標 `f3a229e80`；spore #144（Threads 串文）/#145（X）雙平台已發 `bec70609d`；20 篇報導/網站 inline 溯源連結（全數 fetch 驗證、開新分頁）+ 大骪鱸鰻→大鮪鱸鰻 hallucination heal `fd09526d2`。本篇 EVOLVE 全弧完成。
   - 事實鐵三角：創辦年份 / 創辦人（何榮幸）/ 基金會結構 / 重大調查案 — 已查證完整 SSOT §3-§8
   - 中立框架：寫「做了什麼調查 + 獲獎」不評政治傾向 — 已落實（童子賢民進黨智庫副董 = 輿論質疑無事實佐證，不寫）
 - **Reference**: 哲宇 directive 2026-06-14 + LESSONS-INBOX 2026-06-14 image-health-evolve-pre-existing-text-only-block + research/2026-06/報導者-evolve-20260614.md
