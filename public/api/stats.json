@@ -1,8 +1,8 @@
 {
-  "totalArticles": 4800,
+  "totalArticles": 4804,
   "totalCategories": 20,
   "estimatedContributors": 61,
-  "totalTags": 6111,
+  "totalTags": 6125,
   "categories": [
     {
       "name": "es",
@@ -22,7 +22,7 @@
     },
     {
       "name": "History",
-      "count": 45
+      "count": 46
     },
     {
       "name": "Politics",
@@ -42,7 +42,7 @@
     },
     {
       "name": "People",
-      "count": 228
+      "count": 230
     },
     {
       "name": "Music",
@@ -50,7 +50,7 @@
     },
     {
       "name": "Food",
-      "count": 55
+      "count": 56
     },
     {
       "name": "Geography",
@@ -168,13 +168,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4800,
+    "zh-TW": 4804,
     "en": 0
   },
-  "lastUpdated": "2026-06-15T22:11:54.307Z",
+  "lastUpdated": "2026-06-16T12:18:17.308Z",
   "stars": 1053,
   "forks": 151,
-  "zhPages": 797,
+  "zhPages": 801,
   "enPages": 803,
-  "totalPages": 797
+  "totalPages": 801
 }

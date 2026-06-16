@@ -1,48 +1,48 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-16T06:11:52+08:00",
-    "zhCommitHead": "0e018e9bc",
-    "totalZh": 799,
+    "lastUpdated": "2026-06-16T20:18:13+08:00",
+    "zhCommitHead": "4454862fd",
+    "totalZh": 803,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
-        "total_zh": 799,
-        "fresh": 715,
-        "stale": 84,
-        "metadata_stale": 0,
-        "missing": 0,
-        "orphan": 0
-      },
-      "ja": {
-        "total_zh": 799,
-        "fresh": 718,
-        "stale": 81,
-        "metadata_stale": 0,
-        "missing": 0,
-        "orphan": 0
-      },
-      "ko": {
-        "total_zh": 799,
+        "total_zh": 803,
         "fresh": 714,
         "stale": 85,
         "metadata_stale": 0,
-        "missing": 0,
+        "missing": 4,
+        "orphan": 0
+      },
+      "ja": {
+        "total_zh": 803,
+        "fresh": 717,
+        "stale": 82,
+        "metadata_stale": 0,
+        "missing": 4,
+        "orphan": 0
+      },
+      "ko": {
+        "total_zh": 803,
+        "fresh": 713,
+        "stale": 86,
+        "metadata_stale": 0,
+        "missing": 4,
         "orphan": 0
       },
       "es": {
-        "total_zh": 799,
-        "fresh": 711,
-        "stale": 88,
-        "metadata_stale": 0,
-        "missing": 0,
-        "orphan": 0
-      },
-      "fr": {
-        "total_zh": 799,
+        "total_zh": 803,
         "fresh": 710,
         "stale": 89,
         "metadata_stale": 0,
-        "missing": 0,
+        "missing": 4,
+        "orphan": 0
+      },
+      "fr": {
+        "total_zh": 803,
+        "fresh": 709,
+        "stale": 90,
+        "metadata_stale": 0,
+        "missing": 4,
         "orphan": 0
       }
     },
@@ -12459,10 +12459,10 @@
     },
     "Art/造山者世紀的賭注.md": {
       "zh": {
-        "lastCommit": "21f2ddb4",
-        "lastModified": "2026-06-13T17:29:18+08:00",
-        "contentHash": "sha256:164d630ee152f4e8",
-        "bodyHash": "sha256:dae45d5a23a409e0"
+        "lastCommit": "349e7b4f",
+        "lastModified": "2026-06-16T19:35:33+08:00",
+        "contentHash": "sha256:6be45e1cb9e9d665",
+        "bodyHash": "sha256:e381e9da7e6b89c3"
       },
       "translations": {
         "en": {
@@ -12476,8 +12476,8 @@
           "translationLastModified": "2026-06-16T02:23:25+08:00",
           "inferred": false,
           "footnoteDefs": 22,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (49→22)"
         },
         "ja": {
           "path": "ja/Art/mountain-makers-tsmc-documentary.md",
@@ -12490,8 +12490,8 @@
           "translationLastModified": "2026-06-16T02:23:25+08:00",
           "inferred": false,
           "footnoteDefs": 22,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (49→22)"
         },
         "ko": {
           "path": "ko/Art/mountain-makers-tsmc-documentary.md",
@@ -12504,8 +12504,8 @@
           "translationLastModified": "2026-06-16T02:23:25+08:00",
           "inferred": false,
           "footnoteDefs": 22,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (49→22)"
         },
         "es": {
           "path": "es/Art/mountain-makers-tsmc-documentary.md",
@@ -12518,8 +12518,8 @@
           "translationLastModified": "2026-06-16T02:23:25+08:00",
           "inferred": false,
           "footnoteDefs": 22,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (49→22)"
         },
         "fr": {
           "path": "fr/Art/mountain-makers-tsmc-documentary.md",
@@ -12532,8 +12532,8 @@
           "translationLastModified": "2026-06-16T02:23:25+08:00",
           "inferred": false,
           "footnoteDefs": 22,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (49→22)"
         }
       }
     },
@@ -18749,10 +18749,10 @@
     },
     "Society/報導者.md": {
       "zh": {
-        "lastCommit": "916beed3",
-        "lastModified": "2026-06-14T19:34:31+08:00",
-        "contentHash": "sha256:1cf8ccb819c660be",
-        "bodyHash": "sha256:f8d8d9bf047f289b"
+        "lastCommit": "fd09526d",
+        "lastModified": "2026-06-16T18:52:59+08:00",
+        "contentHash": "sha256:c9f5767205c4ec79",
+        "bodyHash": "sha256:ca526dda99de158c"
       },
       "translations": {
         "en": {
@@ -31761,6 +31761,31 @@
         }
       }
     },
+    "People/劉銘傳.md": {
+      "zh": {
+        "lastCommit": "c109869a",
+        "lastModified": "2026-06-16T17:42:08+08:00",
+        "contentHash": "sha256:b08d77d5c87852a1",
+        "bodyHash": "sha256:65e36904f67e17ed"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
     "People/張志祺.md": {
       "zh": {
         "lastCommit": "4b6d28c5",
@@ -37131,6 +37156,31 @@
         }
       }
     },
+    "People/邵友濂.md": {
+      "zh": {
+        "lastCommit": "c109869a",
+        "lastModified": "2026-06-16T17:42:08+08:00",
+        "contentHash": "sha256:4246082bf9759556",
+        "bodyHash": "sha256:92194eb97c902d4f"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
     "People/施明德.md": {
       "zh": {
         "lastCommit": "0f8fae0a",
@@ -40734,8 +40784,8 @@
           "sourceContentHash": "sha256:a7528e9b7062bef0",
           "sourceBodyHash": "sha256:9f3cbb43337753f0",
           "translatedAt": "2026-04-14T19:25:23+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "bdb619bd",
+          "translationLastModified": "2026-06-16T09:42:19+09:00",
           "inferred": false,
           "footnoteDefs": 13,
           "status": "fresh",
@@ -48321,6 +48371,31 @@
         }
       }
     },
+    "Food/棺材板.md": {
+      "zh": {
+        "lastCommit": "b7f6ebf9",
+        "lastModified": "2026-06-16T08:48:11+08:00",
+        "contentHash": "sha256:2019e39a8477f086",
+        "bodyHash": "sha256:d70608d1aa149287"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
     "Food/台灣美食總覽.md": {
       "zh": {
         "lastCommit": "31a05c44",
@@ -53158,6 +53233,31 @@
           "reason": "body-drift",
           "commitsBehind": 1,
           "diffSummary": "+3 -3"
+        }
+      }
+    },
+    "History/八仙塵爆.md": {
+      "zh": {
+        "lastCommit": "c109869a",
+        "lastModified": "2026-06-16T17:42:08+08:00",
+        "contentHash": "sha256:ac5c1781df041450",
+        "bodyHash": "sha256:e34f355be551f8dd"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
         }
       }
     },

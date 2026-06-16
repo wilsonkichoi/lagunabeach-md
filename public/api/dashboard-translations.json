@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T22:12:03.050Z",
+  "lastUpdated": "2026-06-16T12:18:31.043Z",
   "languages": [
     "zh-TW",
     "en",
@@ -10,72 +10,72 @@
   ],
   "summary": {
     "zh-TW": {
-      "total": 797,
+      "total": 801,
       "percentage": 100,
-      "fresh": 797,
+      "fresh": 801,
       "stale": 0,
       "missing": 0,
       "deficit": 0
     },
     "en": {
       "total": 799,
-      "percentage": 100,
-      "fresh": 715,
-      "metadataStale": 0,
-      "stale": 84,
-      "missing": 0,
-      "orphan": 0,
-      "deficit": 0,
-      "freshPct": 89.5,
-      "bodyFreshPct": 89.5
-    },
-    "ja": {
-      "total": 799,
-      "percentage": 100,
-      "fresh": 718,
-      "metadataStale": 0,
-      "stale": 81,
-      "missing": 0,
-      "orphan": 0,
-      "deficit": 0,
-      "freshPct": 89.9,
-      "bodyFreshPct": 89.9
-    },
-    "ko": {
-      "total": 799,
-      "percentage": 100,
+      "percentage": 99.5,
       "fresh": 714,
       "metadataStale": 0,
       "stale": 85,
-      "missing": 0,
+      "missing": 4,
       "orphan": 0,
-      "deficit": 0,
-      "freshPct": 89.4,
-      "bodyFreshPct": 89.4
+      "deficit": 4,
+      "freshPct": 88.9,
+      "bodyFreshPct": 88.9
+    },
+    "ja": {
+      "total": 799,
+      "percentage": 99.5,
+      "fresh": 717,
+      "metadataStale": 0,
+      "stale": 82,
+      "missing": 4,
+      "orphan": 0,
+      "deficit": 4,
+      "freshPct": 89.3,
+      "bodyFreshPct": 89.3
+    },
+    "ko": {
+      "total": 799,
+      "percentage": 99.5,
+      "fresh": 713,
+      "metadataStale": 0,
+      "stale": 86,
+      "missing": 4,
+      "orphan": 0,
+      "deficit": 4,
+      "freshPct": 88.8,
+      "bodyFreshPct": 88.8
     },
     "es": {
       "total": 799,
-      "percentage": 100,
-      "fresh": 711,
-      "metadataStale": 0,
-      "stale": 88,
-      "missing": 0,
-      "orphan": 0,
-      "deficit": 0,
-      "freshPct": 89,
-      "bodyFreshPct": 89
-    },
-    "fr": {
-      "total": 799,
-      "percentage": 100,
+      "percentage": 99.5,
       "fresh": 710,
       "metadataStale": 0,
       "stale": 89,
-      "missing": 0,
+      "missing": 4,
       "orphan": 0,
-      "deficit": 0,
-      "freshPct": 88.9,
-      "bodyFreshPct": 88.9
+      "deficit": 4,
+      "freshPct": 88.4,
+      "bodyFreshPct": 88.4
+    },
+    "fr": {
+      "total": 799,
+      "percentage": 99.5,
+      "fresh": 709,
+      "metadataStale": 0,
+      "stale": 90,
+      "missing": 4,
+      "orphan": 0,
+      "deficit": 4,
+      "freshPct": 88.3,
+      "bodyFreshPct": 88.3
     }
   },
   "matrix": {
@@ -121,36 +121,36 @@
       "zh-TW": 38,
       "en": {
         "count": 38,
-        "fresh": 34,
-        "stale": 4,
+        "fresh": 33,
+        "stale": 5,
         "missing": 0,
         "deficit": 0
       },
       "ja": {
         "count": 38,
-        "fresh": 34,
-        "stale": 4,
+        "fresh": 33,
+        "stale": 5,
         "missing": 0,
         "deficit": 0
       },
       "ko": {
         "count": 38,
-        "fresh": 34,
-        "stale": 4,
+        "fresh": 33,
+        "stale": 5,
         "missing": 0,
         "deficit": 0
       },
       "es": {
         "count": 38,
-        "fresh": 34,
-        "stale": 4,
+        "fresh": 33,
+        "stale": 5,
         "missing": 0,
         "deficit": 0
       },
       "fr": {
         "count": 38,
-        "fresh": 34,
-        "stale": 4,
+        "fresh": 33,
+        "stale": 5,
         "missing": 0,
         "deficit": 0
       }
@@ -232,41 +232,41 @@
       }
     },
     "food": {
-      "zh-TW": 55,
+      "zh-TW": 56,
       "en": {
         "count": 55,
         "fresh": 52,
         "stale": 3,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       },
       "ja": {
         "count": 55,
         "fresh": 52,
         "stale": 3,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       },
       "ko": {
         "count": 55,
         "fresh": 52,
         "stale": 3,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       },
       "es": {
         "count": 55,
         "fresh": 52,
         "stale": 3,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       },
       "fr": {
         "count": 55,
         "fresh": 52,
         "stale": 3,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       }
     },
     "geography": {
@@ -308,41 +308,41 @@
       }
     },
     "history": {
-      "zh-TW": 45,
+      "zh-TW": 46,
       "en": {
         "count": 45,
         "fresh": 43,
         "stale": 2,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       },
       "ja": {
         "count": 45,
         "fresh": 43,
         "stale": 2,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       },
       "ko": {
         "count": 45,
         "fresh": 43,
         "stale": 2,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       },
       "es": {
         "count": 45,
         "fresh": 43,
         "stale": 2,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       },
       "fr": {
         "count": 45,
         "fresh": 43,
         "stale": 2,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       }
     },
     "lifestyle": {
@@ -460,41 +460,41 @@
       }
     },
     "people": {
-      "zh-TW": 228,
+      "zh-TW": 230,
       "en": {
         "count": 228,
         "fresh": 208,
         "stale": 20,
-        "missing": 0,
-        "deficit": 0
+        "missing": 2,
+        "deficit": 2
       },
       "ja": {
         "count": 228,
         "fresh": 208,
         "stale": 20,
-        "missing": 0,
-        "deficit": 0
+        "missing": 2,
+        "deficit": 2
       },
       "ko": {
         "count": 228,
         "fresh": 208,
         "stale": 20,
-        "missing": 0,
-        "deficit": 0
+        "missing": 2,
+        "deficit": 2
       },
       "es": {
         "count": 228,
         "fresh": 208,
         "stale": 20,
-        "missing": 0,
-        "deficit": 0
+        "missing": 2,
+        "deficit": 2
       },
       "fr": {
         "count": 228,
         "fresh": 208,
         "stale": 20,
-        "missing": 0,
-        "deficit": 0
+        "missing": 2,
+        "deficit": 2
       }
     },
     "politics": {
@@ -612,7 +612,38 @@
       }
     }
   },
-  "missing": {},
+  "missing": {
+    "en": [
+      "Food/棺材板：從晦氣名稱到台南和洋混血的珍饈.md",
+      "History/八仙塵爆：那一夜，彩色派對燒出的台灣傷痕.md",
+      "People/劉銘傳：點亮台灣第一盞電燈，在權力與爭議中奔跑的現代化先驅.md",
+      "People/邵友濂：在劉銘傳光環後的守成者，與台北省會的真正定錨.md"
+    ],
+    "ja": [
+      "Food/棺材板：從晦氣名稱到台南和洋混血的珍饈.md",
+      "History/八仙塵爆：那一夜，彩色派對燒出的台灣傷痕.md",
+      "People/劉銘傳：點亮台灣第一盞電燈，在權力與爭議中奔跑的現代化先驅.md",
+      "People/邵友濂：在劉銘傳光環後的守成者，與台北省會的真正定錨.md"
+    ],
+    "ko": [
+      "Food/棺材板：從晦氣名稱到台南和洋混血的珍饈.md",
+      "History/八仙塵爆：那一夜，彩色派對燒出的台灣傷痕.md",
+      "People/劉銘傳：點亮台灣第一盞電燈，在權力與爭議中奔跑的現代化先驅.md",
+      "People/邵友濂：在劉銘傳光環後的守成者，與台北省會的真正定錨.md"
+    ],
+    "es": [
+      "Food/棺材板：從晦氣名稱到台南和洋混血的珍饈.md",
+      "History/八仙塵爆：那一夜，彩色派對燒出的台灣傷痕.md",
+      "People/劉銘傳：點亮台灣第一盞電燈，在權力與爭議中奔跑的現代化先驅.md",
+      "People/邵友濂：在劉銘傳光環後的守成者，與台北省會的真正定錨.md"
+    ],
+    "fr": [
+      "Food/棺材板：從晦氣名稱到台南和洋混血的珍饈.md",
+      "History/八仙塵爆：那一夜，彩色派對燒出的台灣傷痕.md",
+      "People/劉銘傳：點亮台灣第一盞電燈，在權力與爭議中奔跑的現代化先驅.md",
+      "People/邵友濂：在劉銘傳光環後的守成者，與台北省會的真正定錨.md"
+    ]
+  },
   "statusSource": "translation-status.json",
   "orphans": {
     "en": [],

@@ -1,7 +1,169 @@
 {
-  "generatedAt": "2026-06-15T22:11:53.205Z",
+  "generatedAt": "2026-06-16T12:18:14.780Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "4454862fd2ce6f485335141b1ad413d2401fe6ed",
+      "date": "2026-06-16T19:41:46+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-16-190716-routine-rewrite — 造山者 EVOLVE 全弧 + spore blueprint defer broadcast + MEMORY index row"
+    },
+    {
+      "hash": "07ab13b10018d86b517633ee8e2690f761f49c6c",
+      "date": "2026-06-16T19:38:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] spore: draft #146/#147 — 造山者 EVOLVE 改名史孢子 (broadcast deferred)"
+    },
+    {
+      "hash": "349e7b4fa3943ae3972ac5eeff2abacb6319a9c8",
+      "date": "2026-06-16T19:35:33+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] rewrite: 造山者：世紀的賭注 EVOLVE — 一部把片名磨掉一個字才能說出口的台灣半導體史詩"
+    },
+    {
+      "hash": "c248f99fad52b064843c93991d6ba559a0149f5b",
+      "date": "2026-06-16T19:00:42+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 報導者 全弧 graduate + 大鮪鱸鰻 instance 升 fact-check meta-umbrella vc 7→8"
+    },
+    {
+      "hash": "bf11be918e1bfcbbb72f0a6176f8504eaefd8a1c",
+      "date": "2026-06-16T18:56:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 健康閘門放行假指控 — gate 驗結構不驗事實，同一天兩次幻覺"
+    },
+    {
+      "hash": "fd09526d212e567b63b20b32d17284fa71d93b6b",
+      "date": "2026-06-16T18:52:59+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] enrich: 報導者 內文 20 篇報導/網站加 inline 溯源連結 + 大鮪鱸鰻 hallucination heal"
+    },
+    {
+      "hash": "e1f2e01ec331b1ca4765be009ff98f1a66aab6e7",
+      "date": "2026-06-16T18:33:51+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 報導者 session finale 延伸 — +標題還原 / CI heal / spore #144-145 雙平台 / 統戰標題 fidelity"
+    },
+    {
+      "hash": "6103dedf484667751eb6e473666c3ba503824893",
+      "date": "2026-06-16T18:18:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 報導者 統戰專題標題 fidelity — 「」→〈〉、『網紅』→「網紅」對齊 twreporter 原標"
+    },
+    {
+      "hash": "bec70609d03308c75e8fa7e88015e907de0daebd",
+      "date": "2026-06-16T18:14:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 spore: ship #144/#145 — 報導者「把調查報導救成公共財」(Threads + X)"
+    },
+    {
+      "hash": "c109869a05a0e70dc90929bcc4ad41408114acab",
+      "date": "2026-06-16T17:42:08+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 修復線上 CI red — 3 篇 idlccp1984 新文 hard gate 補正"
+    },
+    {
+      "hash": "f3a229e80152e25cf3d77fffefe526bfd822fac4",
+      "date": "2026-06-16T17:17:04+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 報導者 標題還原為原本下標（哲宇 preference）"
+    },
+    {
+      "hash": "1f5da7f7488bfac4ec896c65e9b8cad05f906e18",
+      "date": "2026-06-16T17:12:09+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-16-170840-報導者-media-factcheck"
+    },
+    {
+      "hash": "e3059e12ab50f3af52a299999ee5a62f3475e243",
+      "date": "2026-06-16T17:07:33+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 報導者 4-agent 事實查核校正 + 散文 polish"
+    },
+    {
+      "hash": "0707af6e1f6b93a5747561e73e51e45ca5bb9324",
+      "date": "2026-06-16T16:41:56+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 報導者 媒體 + 視覺化補完 — 7 tw-* viz + 5 fair-use 圖 + 2 官方影片 + §小花園拆段"
+    },
+    {
+      "hash": "b2c5d96b15fa10bb36d9f6ae9ef8011c6bb4c3fb",
+      "date": "2026-06-16T08:50:19+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-16-084040-twmd-maintainer-am — 1 issue + 5 PR merge + 2 heal + footnote tool revert"
+    },
+    {
+      "hash": "b7f6ebf9ba74f2311c88296d572aca011ade59ee",
+      "date": "2026-06-16T08:48:11+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] heal: 棺材板 title typo 珍饙→珍饈 + missing subcategory"
+    },
+    {
+      "hash": "add09ca3e032f3d8d7bb7e72037635a1a9b7a1c5",
+      "date": "2026-06-16T08:41:43+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] heal: People Hub Ray 數位與媒體 fix #1161 — 從《後菜鳥的燦爛時代》hallucination → 對齊 Ray.md YouTuber 內容"
+    },
+    {
+      "hash": "bb829f455285f0ddd8ccea1971d294211903e43a",
+      "date": "2026-06-16T08:44:54+08:00",
+      "author": "idlccp1984",
+      "message": "Create 棺材板.md (#1159)"
+    },
+    {
+      "hash": "9187cbf79f926af56dd63fc229baba1ea0c043c3",
+      "date": "2026-06-16T08:44:50+08:00",
+      "author": "idlccp1984",
+      "message": "Create 邵友濂.md (#1157)"
+    },
+    {
+      "hash": "b6ba72df2572de213d6e6bc353bb323f9a5f7360",
+      "date": "2026-06-16T08:44:42+08:00",
+      "author": "idlccp1984",
+      "message": "Create 八仙塵爆.md (#1156)"
+    },
+    {
+      "hash": "858e3a0c8e8b49d4162d5248a5fdd39bfdbe3fe5",
+      "date": "2026-06-16T08:44:37+08:00",
+      "author": "idlccp1984",
+      "message": "Create 劉銘傳.md (#1155)"
+    },
+    {
+      "hash": "bdb619bda519db8aa109f75c41c9afd16bd4555c",
+      "date": "2026-06-16T09:42:19+09:00",
+      "author": "Wilson Chen",
+      "message": "docs(ko): fortify Steve Chen footnotes with canonical link format (#1154)"
+    },
+    {
+      "hash": "a083d2290465c36f4d30ddcd88aea03243251776",
+      "date": "2026-06-16T07:18:34+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-feedback-triage: file=1 issue #1161 + HG2 PII 破口修補 — 2026-06-16"
+    },
+    {
+      "hash": "0df21896ba83aeafef032d2053f81ff7764e60c4",
+      "date": "2026-06-16T06:50:20+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-16-064841-twmd-spore-harvest-am — 5 spores + 60+ replies + 0 Bucket A + 8 reply drafts deferred PENDING + MEMORY index row"
+    },
+    {
+      "hash": "93b636b90ad89f78deefb08ce6ff092f86c41df5",
+      "date": "2026-06-16T06:48:27+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest-am: 5 spores + 60+ replies harvested — 2026-06-16"
+    },
+    {
+      "hash": "3a81fa92176f3b9d8cd124e1bbb4a86fa3c1aa12",
+      "date": "2026-06-16T06:15:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-16-061231-twmd-data-refresh-am — am 14-step 三源全綠 + Step 11 freshness PASS + MEMORY index row"
+    },
+    {
+      "hash": "52185837d6f6390a38bb3ae0a8ebda06ebb70ed9",
+      "date": "2026-06-16T06:15:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-am: 14-step ground truth refresh — 2026-06-16 06:00"
+    },
     {
       "hash": "0e018e9bc130a49e7977870e8f97cec849017376",
       "date": "2026-06-16T05:09:06+08:00",

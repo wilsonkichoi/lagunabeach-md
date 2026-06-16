@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-06-15T22:48:07.780495Z",
+  "lastUpdated": "2026-06-16T12:40:15.913075Z",
   "schemaVersion": "1.1",
   "totals": {
-    "count": 135,
+    "count": 137,
     "platforms": {
-      "threads": 70,
-      "x": 61,
+      "threads": 71,
+      "x": 62,
       "other": 4
     },
     "languages": {
-      "zh": 128,
+      "zh": 130,
       "en": 7
     },
     "templates": {
-      "B": 41,
+      "B": 43,
       "A": 32,
       "D": 4,
       "A2": 52,
@@ -21,6 +21,38 @@
     }
   },
   "recent": [
+    {
+      "n": 145,
+      "date": "2026-06-16",
+      "platform": "x",
+      "article": "報導者",
+      "articleSlug": "報導者",
+      "category": "Society",
+      "template": "B 冷知識型 + 問題入口",
+      "url": "https://x.com/taiwandotmd/status/2066822763638341918",
+      "highlight": "報導者十週年：4→約8,000個每月掏錢的陌生人、編輯室不放點閱率螢幕，把調查報導從賠錢生意救成公共財。X 單則 inline UTM，square 圖。",
+      "views_7d": null,
+      "views_latest": 435,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": true
+    },
+    {
+      "n": 144,
+      "date": "2026-06-16",
+      "platform": "threads",
+      "article": "報導者",
+      "articleSlug": "報導者",
+      "category": "Society",
+      "template": "B 冷知識型 + 問題入口",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZpJfvEE4IL",
+      "highlight": "報導者十週年：4→約8,000個每月掏錢的陌生人、編輯室不放點閱率螢幕，把調查報導從賠錢生意救成公共財。Threads 主貼+self-reply URL 串文，square 圖。",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
     {
       "n": 143,
       "date": "2026-06-16",
@@ -32,10 +64,10 @@
       "url": "https://x.com/taiwandotmd/status/2066559522156748815",
       "highlight": "同一句資訊要自由＝信念/賣點/官司；標題去罪化（sub judice 深度查證）",
       "views_7d": null,
-      "views_latest": null,
+      "views_latest": 4162,
       "engagements_7d": null,
       "rate_7d": null,
-      "backfilled": false
+      "backfilled": true
     },
     {
       "n": 142,
@@ -65,38 +97,6 @@
       "highlight": "瘂弦：36 歲封筆、56 年沉默仍是台灣詩史前五。X Premium 單則長文 inline UTM，配 square 圖。",
       "views_7d": null,
       "views_latest": 716,
-      "engagements_7d": null,
-      "rate_7d": null,
-      "backfilled": true
-    },
-    {
-      "n": 140,
-      "date": "2026-06-14",
-      "platform": "threads",
-      "article": "瘂弦",
-      "articleSlug": "瘂弦",
-      "category": "People",
-      "template": "A2",
-      "url": "https://www.threads.com/@taiwandotmd/post/DZj9pKDk-nx",
-      "highlight": "瘂弦：36 歲封筆、56 年沉默仍是台灣詩史前五，後半生用《聯副》21 年編輯台繼續寫詩。主貼+自回覆 URL，配 square 圖。",
-      "views_7d": null,
-      "views_latest": null,
-      "engagements_7d": null,
-      "rate_7d": null,
-      "backfilled": false
-    },
-    {
-      "n": 139,
-      "date": "2026-06-14",
-      "platform": "x",
-      "article": "無名小站",
-      "articleSlug": "無名小站",
-      "category": "culture",
-      "template": "B 冷知識型 + 電源開關首尾呼應",
-      "url": "https://x.com/taiwandotmd/status/2066024659238465719",
-      "highlight": "無名小站「電源開關」母題 X 版（同文案 inline UTM）",
-      "views_7d": null,
-      "views_latest": 15344,
       "engagements_7d": null,
       "rate_7d": null,
       "backfilled": true
@@ -202,22 +202,14 @@
       "maxRate": 15.65
     },
     "x": {
-      "count": 54,
-      "avgViews": 15681,
+      "count": 55,
+      "avgViews": 15492,
       "maxViews": 136474,
-      "avgRate": 3.37,
+      "avgRate": 3.34,
       "maxRate": 9.09
     }
   },
   "backfillWarnings": [
-    {
-      "n": 133,
-      "article": "台灣嘻哈與饒舌發展",
-      "platform": "x",
-      "publishedDays": 7,
-      "status": "OVERDUE",
-      "url": "https://x.com/taiwandotmd/status/2064344279485710550"
-    },
     {
       "n": 134,
       "article": "天下雜誌",
@@ -297,6 +289,22 @@
       "publishedDays": 0,
       "status": "waiting",
       "url": "https://x.com/taiwandotmd/status/2066559522156748815"
+    },
+    {
+      "n": 144,
+      "article": "報導者",
+      "platform": "threads",
+      "publishedDays": 0,
+      "status": "waiting",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZpJfvEE4IL"
+    },
+    {
+      "n": 145,
+      "article": "報導者",
+      "platform": "x",
+      "publishedDays": 0,
+      "status": "waiting",
+      "url": "https://x.com/taiwandotmd/status/2066822763638341918"
     }
   ],
   "noUrlHistorical": [
@@ -363,12 +371,12 @@
     {
       "week": "2026-W24",
       "published": 10,
-      "avgViews": 6584
+      "avgViews": 7571
     },
     {
       "week": "2026-W25",
-      "published": 2,
-      "avgViews": 0
+      "published": 4,
+      "avgViews": 2298
     }
   ],
   "harvestStatus": [
@@ -1609,8 +1617,8 @@
       "publishDate": "2026-06-09",
       "daysSincePublish": 7,
       "withinHarvestWindow": true,
-      "harvestCount": 5,
-      "lastHarvest": "2026-06-16 06:43"
+      "harvestCount": 6,
+      "lastHarvest": "2026-06-16 20:39"
     },
     {
       "n": 133,
@@ -1619,8 +1627,8 @@
       "publishDate": "2026-06-09",
       "daysSincePublish": 7,
       "withinHarvestWindow": true,
-      "harvestCount": 2,
-      "lastHarvest": "2026-06-15 06:47"
+      "harvestCount": 3,
+      "lastHarvest": "2026-06-16 20:39"
     },
     {
       "n": 134,
@@ -1629,8 +1637,8 @@
       "publishDate": "2026-06-13",
       "daysSincePublish": 3,
       "withinHarvestWindow": true,
-      "harvestCount": 2,
-      "lastHarvest": "2026-06-16 06:43"
+      "harvestCount": 3,
+      "lastHarvest": "2026-06-16 20:39"
     },
     {
       "n": 135,
@@ -1639,8 +1647,8 @@
       "publishDate": "2026-06-13",
       "daysSincePublish": 3,
       "withinHarvestWindow": true,
-      "harvestCount": 1,
-      "lastHarvest": "2026-06-15 06:47"
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-16 20:39"
     },
     {
       "n": 136,
@@ -1649,8 +1657,8 @@
       "publishDate": "2026-06-13",
       "daysSincePublish": 3,
       "withinHarvestWindow": true,
-      "harvestCount": 3,
-      "lastHarvest": "2026-06-16 06:43"
+      "harvestCount": 4,
+      "lastHarvest": "2026-06-16 20:39"
     },
     {
       "n": 137,
@@ -1659,8 +1667,8 @@
       "publishDate": "2026-06-13",
       "daysSincePublish": 3,
       "withinHarvestWindow": true,
-      "harvestCount": 1,
-      "lastHarvest": "2026-06-15 06:47"
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-16 20:39"
     },
     {
       "n": 138,
@@ -1669,8 +1677,8 @@
       "publishDate": "2026-06-14",
       "daysSincePublish": 2,
       "withinHarvestWindow": true,
-      "harvestCount": 2,
-      "lastHarvest": "2026-06-16 06:43"
+      "harvestCount": 3,
+      "lastHarvest": "2026-06-16 20:39"
     },
     {
       "n": 139,
@@ -1679,8 +1687,8 @@
       "publishDate": "2026-06-14",
       "daysSincePublish": 2,
       "withinHarvestWindow": true,
-      "harvestCount": 1,
-      "lastHarvest": "2026-06-15 06:47"
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-16 20:39"
     },
     {
       "n": 140,
@@ -1709,8 +1717,8 @@
       "publishDate": "2026-06-16",
       "daysSincePublish": 0,
       "withinHarvestWindow": true,
-      "harvestCount": 1,
-      "lastHarvest": "2026-06-16 06:43"
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-16 20:39"
     },
     {
       "n": 143,
@@ -1719,8 +1727,28 @@
       "publishDate": "2026-06-16",
       "daysSincePublish": 0,
       "withinHarvestWindow": true,
-      "harvestCount": 0,
-      "lastHarvest": null
+      "harvestCount": 1,
+      "lastHarvest": "2026-06-16 20:39"
+    },
+    {
+      "n": 144,
+      "article": "報導者",
+      "platform": "threads",
+      "publishDate": "2026-06-16",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 1,
+      "lastHarvest": "2026-06-16 20:39"
+    },
+    {
+      "n": 145,
+      "article": "報導者",
+      "platform": "x",
+      "publishDate": "2026-06-16",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 1,
+      "lastHarvest": "2026-06-16 20:39"
     }
   ]
 }
