@@ -165,13 +165,13 @@ BECOME_TAIWANMD.md Step 5 新增：
 - **Type**: `EVOLVE`
 - **Category**: Society
 - **Path** (EVOLVE only): knowledge/Society/報導者.md
-- **Priority**: `P0` → **prose ship 2026-06-14 (twmd-rewrite-daily)** / **媒體補完待 P1**
-- **Status**: `prose-shipped-pending-media`
+- **Priority**: `P0` → **prose ship 2026-06-14 (twmd-rewrite-daily)** / **媒體 + 視覺化補完 2026-06-16 (manual)**
+- **Status**: `done` ✅
 - **Requested**: 2026-06-14 by 哲宇 directive（最優先 rewrite batch）
 - **Notes**:
   - **2026-06-14 prose ship 完成**：8509 char / 60 footnote / 11 場景式 H2 / Stage 0-1 SSOT (commit 99bc9e6ef) + Stage 2-3 fresh Opus writer + 文體紀律 (對位 1 / 破折號 2 / 0 編年體 stub)
-  - **媒體 gap 待補（pre-existing，pre-v6.8）**：原版 0 image, EVOLVE 維持 text-only ship；image-health hard=1 (length-scaled ≥6 for 7000 字)；SSOT §F 記 Wikimedia 404 / 無 Flickr / 無 TED — 後續走 Chrome MCP rendered-DOM scrape 報導者官方文章頁 fair-use editorial commentary（hero 1 + scene-mid 2-3 + 官方 YouTube embed 1）
-  - **SPORE defer**：image hard → 自動 spore-publish 失格（per pipeline v6.8）；待媒體補完後重跑 SPORE chain
+  - **2026-06-16 媒體 + 視覺化補完（manual，哲宇 directive：大量視覺化 + 照片 + 順稿）**：+7 tw-\* 視覺化（figure 4→8,000 捐款曲線 / versus 商業媒體 vs 報導者 / timeline 血淚漁場三部曲 / slope 綁債黑工一審→二審 / figure 78 天修法 / line 年度收入 2022–2025 / stat 假訊息 96% + 信任 33%）+ 5 張 fair-use 圖（hero 品牌圖 + 開門參與標語 = 哲宇提供；大骪鱸鰻 SOPA 資訊圖 + 統戰同心圓關係圖 + 少年報導者上線圖 = 報導者官網/官方 FB fair-use）+ 2 官方 YouTube embed（醫美偷拍風暴 §直美 + 成立週年 §結尾）+ §小花園 H2 拆兩段（解 10 段 atomization）。image-health / viz-health / paragraph-rhythm / media-richness 全綠 hard=0；prose median 98 CJK。
+  - **SPORE 重跑**：媒體補完 → spore-publish 失格解除，可重跑 SPORE chain（下一步；對外發佈內容 OK 後授權）
   - 事實鐵三角：創辦年份 / 創辦人（何榮幸）/ 基金會結構 / 重大調查案 — 已查證完整 SSOT §3-§8
   - 中立框架：寫「做了什麼調查 + 獲獎」不評政治傾向 — 已落實（童子賢民進黨智庫副董 = 輿論質疑無事實佐證，不寫）
 - **Reference**: 哲宇 directive 2026-06-14 + LESSONS-INBOX 2026-06-14 image-health-evolve-pre-existing-text-only-block + research/2026-06/報導者-evolve-20260614.md
