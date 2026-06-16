@@ -1,8 +1,8 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-06-16T12:18:18Z",
-  "total": 803,
-  "flagged": 322,
+  "timestamp": "2026-06-16T15:09:26Z",
+  "total": 805,
+  "flagged": 323,
   "files": [
     {
       "file": "music/拍謝少年.md",
@@ -253,6 +253,11 @@
       "file": "art/鶯歌陶瓷博物館.md",
       "score": 4,
       "reasons": "未人工審核; 塑膠句2個; 稀薄段落×6"
+    },
+    {
+      "file": "art/紙風車劇團.md",
+      "score": 7,
+      "reasons": "未人工審核; 連續bullet4行; 塑膠句3個; 稀薄段落×3; 無腳註"
     },
     {
       "file": "art/紀柏豪.md",

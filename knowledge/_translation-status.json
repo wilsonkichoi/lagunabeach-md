@@ -1,48 +1,48 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-16T20:18:13+08:00",
-    "zhCommitHead": "4454862fd",
-    "totalZh": 803,
+    "lastUpdated": "2026-06-16T23:09:23+08:00",
+    "zhCommitHead": "f75441258",
+    "totalZh": 805,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
-        "total_zh": 803,
-        "fresh": 714,
+        "total_zh": 805,
+        "fresh": 713,
         "stale": 85,
-        "metadata_stale": 0,
-        "missing": 4,
+        "metadata_stale": 1,
+        "missing": 6,
         "orphan": 0
       },
       "ja": {
-        "total_zh": 803,
-        "fresh": 717,
+        "total_zh": 805,
+        "fresh": 716,
         "stale": 82,
-        "metadata_stale": 0,
-        "missing": 4,
+        "metadata_stale": 1,
+        "missing": 6,
         "orphan": 0
       },
       "ko": {
-        "total_zh": 803,
-        "fresh": 713,
+        "total_zh": 805,
+        "fresh": 712,
         "stale": 86,
-        "metadata_stale": 0,
-        "missing": 4,
+        "metadata_stale": 1,
+        "missing": 6,
         "orphan": 0
       },
       "es": {
-        "total_zh": 803,
-        "fresh": 710,
+        "total_zh": 805,
+        "fresh": 709,
         "stale": 89,
-        "metadata_stale": 0,
-        "missing": 4,
+        "metadata_stale": 1,
+        "missing": 6,
         "orphan": 0
       },
       "fr": {
-        "total_zh": 803,
-        "fresh": 709,
+        "total_zh": 805,
+        "fresh": 708,
         "stale": 90,
-        "metadata_stale": 0,
-        "missing": 4,
+        "metadata_stale": 1,
+        "missing": 6,
         "orphan": 0
       }
     },
@@ -12217,6 +12217,31 @@
         }
       }
     },
+    "Art/紙風車劇團.md": {
+      "zh": {
+        "lastCommit": "088a688b",
+        "lastModified": "2026-06-16T22:08:28+08:00",
+        "contentHash": "sha256:dac39dc01ba71011",
+        "bodyHash": "sha256:dece40987a4bedea"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
     "Art/紀柏豪.md": {
       "zh": {
         "lastCommit": "893f9e9c",
@@ -13744,6 +13769,31 @@
           "footnoteDefs": 0,
           "status": "fresh",
           "reason": "same-commit"
+        }
+      }
+    },
+    "Art/首映創意.md": {
+      "zh": {
+        "lastCommit": "088a688b",
+        "lastModified": "2026-06-16T22:08:28+08:00",
+        "contentHash": "sha256:24d3c436839c65a5",
+        "bodyHash": "sha256:952b491f965877b0"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
         }
       }
     },
@@ -39613,8 +39663,8 @@
     },
     "People/瘂弦.md": {
       "zh": {
-        "lastCommit": "4d39a7d2",
-        "lastModified": "2026-06-14T18:02:17+08:00",
+        "lastCommit": "88f47159",
+        "lastModified": "2026-06-16T20:51:17+08:00",
         "contentHash": "sha256:e294ff8cf9b9ac0a",
         "bodyHash": "sha256:dd3ab574ead8013b"
       },
@@ -39630,8 +39680,10 @@
           "translationLastModified": "2026-06-16T02:23:25+08:00",
           "inferred": false,
           "footnoteDefs": 18,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+0 -9"
         },
         "ja": {
           "path": "ja/People/ya-hsien-poet.md",
@@ -39644,8 +39696,10 @@
           "translationLastModified": "2026-06-16T02:23:25+08:00",
           "inferred": false,
           "footnoteDefs": 18,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+0 -9"
         },
         "ko": {
           "path": "ko/People/ya-hsien-poet.md",
@@ -39658,8 +39712,10 @@
           "translationLastModified": "2026-06-16T02:23:25+08:00",
           "inferred": false,
           "footnoteDefs": 18,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+0 -9"
         },
         "es": {
           "path": "es/People/ya-hsien-poet.md",
@@ -39672,8 +39728,10 @@
           "translationLastModified": "2026-06-16T02:23:25+08:00",
           "inferred": false,
           "footnoteDefs": 18,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+0 -9"
         },
         "fr": {
           "path": "fr/People/ya-hsien-poet.md",
@@ -39686,8 +39744,10 @@
           "translationLastModified": "2026-06-16T02:23:25+08:00",
           "inferred": false,
           "footnoteDefs": 18,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+0 -9"
         }
       }
     },

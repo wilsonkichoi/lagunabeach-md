@@ -1,7 +1,91 @@
 {
-  "generatedAt": "2026-06-16T12:18:14.780Z",
+  "generatedAt": "2026-06-16T15:09:24.981Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "f754412589634c912a3b2b91d2b6ea518f0af98c",
+      "date": "2026-06-16T22:10:29+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-16-220841-twmd-maintainer-pm — 3 PR merge + CI heal + vc=0 reset"
+    },
+    {
+      "hash": "088a688b2ba5fd82a2c0907d84f82d7c9537714f",
+      "date": "2026-06-16T22:08:28+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] heal: PR #1163/#1164 frontmatter + footnote hard gate fix"
+    },
+    {
+      "hash": "15dbd79ec1a28aa7244f5a54cac3a494a2214abf",
+      "date": "2026-06-16T23:04:31+09:00",
+      "author": "Wilson Chen",
+      "message": "fix(ko): localize map 22-counties route and sidebar data (#1162)"
+    },
+    {
+      "hash": "b8c60fd16935d171a662cb1785ab1b6d30fcf27d",
+      "date": "2026-06-16T22:04:27+08:00",
+      "author": "idlccp1984",
+      "message": "Create documentation for Paper Windmill Theatre (#1163)"
+    },
+    {
+      "hash": "14a0e4ac3e31e81d567f600e62919cd5a3b066c3",
+      "date": "2026-06-16T22:04:23+08:00",
+      "author": "idlccp1984",
+      "message": "Create 首映創意.md (#1164)"
+    },
+    {
+      "hash": "91f412f15863522d5a2c739f466ebe3dc477b393",
+      "date": "2026-06-16T21:42:03+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-16-213959-rag-assess-stage25-distill — RAG 難度評估 + Stage 2.5 gate distill + 報導者 3hr 數據"
+    },
+    {
+      "hash": "caed9d659bc72cc307932c06fdbb2d737468a062",
+      "date": "2026-06-16T21:37:26+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore-data: 報導者 #144 D+0 更新 3hr 讀數（3,571 讚 / 2.1 萬 views）"
+    },
+    {
+      "hash": "9e3ea3574b51e26b45f1869b6ba51777d412fcef",
+      "date": "2026-06-16T21:32:15+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] distill: stage2-quote-context-collapse umbrella (vc=8) → REWRITE §Stage 2.5 source-fidelity gate"
+    },
+    {
+      "hash": "2c08712201ae7eaca43e7e553117e68812a5f8c2",
+      "date": "2026-06-16T21:18:57+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 跑了不等於到了 — 指令回報成功 ≠ 效果落在該生效的位置"
+    },
+    {
+      "hash": "17ffd0807a2bdde72f4704f1c497a52f4ffd5893",
+      "date": "2026-06-16T21:16:58+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-16-211251-data-ops-embeddings-i18n — 報導者內鏈 → refresh → 雙平台 harvest → 瘂弦刪 → embedding → i18n 100%"
+    },
+    {
+      "hash": "15adcc34c6b8ae1001062c37e622b44f040cabdd",
+      "date": "2026-06-16T21:07:23+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] feat: 介面字串翻譯補到 100%（ja/ko/fr/es）+ i18n-fill-gaps.py merge 工具"
+    },
+    {
+      "hash": "c88438b5f3f6777c66e3c802b0023569d6d66171",
+      "date": "2026-06-16T20:55:37+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] embeddings: bge-m3 全站 rebuild（手動，4090 上線後補跑）"
+    },
+    {
+      "hash": "88f47159e9a1e00e81f509493bfa7e3b6dcea490",
+      "date": "2026-06-16T20:51:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] feat: 孢子 deleted 處置 + 瘂弦 #140/#141 標記刪除（cross-domain）"
+    },
+    {
+      "hash": "402b239e17a43952cd57dfb909519ba376b545f0",
+      "date": "2026-06-16T20:42:04+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] refresh: 手動 14-step data-refresh + 孢子 D+7 harvest（6×2 平台）"
+    },
     {
       "hash": "4454862fd2ce6f485335141b1ad413d2401fe6ed",
       "date": "2026-06-16T19:41:46+08:00",

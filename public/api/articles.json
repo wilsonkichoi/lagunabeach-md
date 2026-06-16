@@ -14716,6 +14716,24 @@
     "path": "ja/Nature/typhoons-in-taiwan.md"
   },
   {
+    "title": "首映創意：從郭台強的動畫夢到台南巷弄裡的《八戒》",
+    "description": "曾由郭台強投資的「首映創意」開啟了台灣原創動畫的曙光，卻在市場現實下轉向；與之共生的 studio2 則在台南堅持二十年，最終以《八戒》奪下金馬，寫下台灣動畫從代工到原創的血淚史。",
+    "category": "Art",
+    "tags": [
+      "動畫產業",
+      "首映創意",
+      "邱立偉",
+      "姆姆抱抱",
+      "八戒",
+      "數位內容"
+    ],
+    "url": "https://taiwan.md/art/%E9%A6%96%E6%98%A0%E5%89%B5%E6%84%8F",
+    "readingTime": 11,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "Art/首映創意.md"
+  },
+  {
     "title": "原住民文学",
     "description": "「無文字の歌声」から書かれた創作へ——千年にわたる文学の進化史",
     "category": "ja",
@@ -15259,6 +15277,17 @@
     "featured": false,
     "date": "2026-04-20",
     "path": "Culture/神豬.md"
+  },
+  {
+    "title": "紙風車劇團：吹動台灣夢想的唐吉訶德，一場跨越三十年的藝術長征",
+    "description": "從 1992 年的劇場狂想，到走遍 368 鄉鎮的「新文化運動」，紙風車劇團以「有風就動，沒風自己動」的精神，為台灣孩子點亮藝術的第一哩路。歷經八里大火與疫情重創，創辦人李永豐帶領團隊在憂鬱與債務中浴火重生，用巨大的《雨馬》與在地故事，編織出屬於這座島嶼的集體記憶。",
+    "category": "Art",
+    "tags": [],
+    "url": "https://taiwan.md/art/%E7%B4%99%E9%A2%A8%E8%BB%8A%E5%8A%87%E5%9C%98",
+    "readingTime": 26,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "Art/紙風車劇團.md"
   },
   {
     "title": "紙傘：雨具から芸術へ、台湾客家文化の百年の栄光を支える",
@@ -19353,7 +19382,7 @@
     "url": "https://taiwan.md/people/%E7%98%82%E5%BC%A6",
     "readingTime": 38,
     "featured": true,
-    "date": "2026-06-14",
+    "date": "2026-05-28",
     "path": "People/瘂弦.md"
   },
   {

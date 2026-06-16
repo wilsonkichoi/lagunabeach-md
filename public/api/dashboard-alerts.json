@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T12:18:33.288Z",
+  "lastUpdated": "2026-06-16T15:09:36.091Z",
   "generator": "scripts/core/generate-dashboard-alerts.mjs",
   "note": "derived 警報層 — CONSCIOUSNESS §警報 的機械接管 (audit 2026-06-10 A-3)",
   "count": 3,
@@ -13,13 +13,13 @@
     {
       "id": "lessons-backlog",
       "severity": "yellow",
-      "message": "LESSONS-INBOX 未消化 262 條 > 200（distill 產能訊號）",
+      "message": "LESSONS-INBOX 未消化 261 條 > 200（distill 產能訊號）",
       "source": "LESSONS-INBOX.md"
     },
     {
       "id": "memory-index-rows",
       "severity": "yellow",
-      "message": "MEMORY.md 索引 514 rows > 80 蒸餾觸發線（design 2026-04-14 未實作）",
+      "message": "MEMORY.md 索引 518 rows > 80 蒸餾觸發線（design 2026-04-14 未實作）",
       "source": "MEMORY.md"
     }
   ]

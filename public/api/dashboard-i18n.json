@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-16T13:05:57Z",
-  "max_total": 2076,
+  "generated": "2026-06-16T15:09:25Z",
+  "max_total": 2083,
   "modules": [
     {
       "name": "home",
@@ -82,10 +82,10 @@
     {
       "name": "map",
       "langs": {
-        "zh-TW": 448,
-        "en": 448,
+        "zh-TW": 455,
+        "en": 455,
         "ja": 448,
-        "ko": 448,
+        "ko": 455,
         "fr": 448,
         "es": 448
       }
@@ -136,11 +136,11 @@
     }
   ],
   "lang_totals": {
-    "zh-TW": { "keys": 2076, "coverage_pct": 100.0 },
-    "en": { "keys": 2076, "coverage_pct": 100.0 },
-    "ja": { "keys": 2077, "coverage_pct": 100.05 },
-    "ko": { "keys": 2077, "coverage_pct": 100.05 },
-    "fr": { "keys": 2076, "coverage_pct": 100.0 },
-    "es": { "keys": 2077, "coverage_pct": 100.05 }
+    "zh-TW": { "keys": 2083, "coverage_pct": 100.0 },
+    "en": { "keys": 2083, "coverage_pct": 100.0 },
+    "ja": { "keys": 2077, "coverage_pct": 99.71 },
+    "ko": { "keys": 2084, "coverage_pct": 100.05 },
+    "fr": { "keys": 2076, "coverage_pct": 99.66 },
+    "es": { "keys": 2077, "coverage_pct": 99.71 }
   }
 }

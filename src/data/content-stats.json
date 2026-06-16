@@ -1,7 +1,7 @@
 {
   "categories": {
     "About": 30,
-    "Art": 191,
+    "Art": 193,
     "Culture": 310,
     "Economy": 271,
     "Food": 276,
@@ -363,7 +363,7 @@
     },
     {
       "date": "2026-06-16",
-      "count": 5
+      "count": 7
     }
   ],
   "updated": "2026-06-16"

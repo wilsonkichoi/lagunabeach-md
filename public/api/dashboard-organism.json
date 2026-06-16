@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T12:18:31.043Z",
+  "lastUpdated": "2026-06-16T15:09:34.750Z",
   "organs": [
     {
       "id": "heart",
@@ -10,9 +10,9 @@
       "score": 90,
       "trend": "up",
       "metrics": {
-        "articlesLast7Days": 52,
-        "articlesLast30Days": 183,
-        "totalArticles": 801
+        "articlesLast7Days": 54,
+        "articlesLast30Days": 185,
+        "totalArticles": 803
       }
     },
     {
@@ -26,11 +26,11 @@
       "version": "v2-2026-05-16",
       "metrics": {
         "humanReviewedCount": 208,
-        "totalArticles": 801,
-        "humanReviewedPercent": 26,
+        "totalArticles": 803,
+        "humanReviewedPercent": 25.9,
         "v2Status": "漂移 — 多維度退化中",
         "v2Components": {
-          "review_coverage": 27.3,
+          "review_coverage": 27.2,
           "plugin_pass_rate": 70,
           "plugin_health": 45.8,
           "citation_density": 90.7,
@@ -84,7 +84,7 @@
       "trend": "up",
       "metrics": {
         "recentContributors": 6,
-        "recentSpores": 14,
+        "recentSpores": 12,
         "topPerformerCount": 5,
         "topPerformerAvgViews": 153428,
         "hasBlockbuster": true
@@ -113,7 +113,7 @@
       "trend": "up",
       "metrics": {
         "languageCoverage": {
-          "zh-TW": 801,
+          "zh-TW": 803,
           "en": 801,
           "ja": 797,
           "ko": 798,
@@ -158,7 +158,7 @@
             },
             "articles": {
               "count": 797,
-              "pct": 100
+              "pct": 99
             },
             "score": 80
           },
@@ -178,7 +178,7 @@
             },
             "articles": {
               "count": 798,
-              "pct": 100
+              "pct": 99
             },
             "score": 100
           },
@@ -198,7 +198,7 @@
             },
             "articles": {
               "count": 797,
-              "pct": 100
+              "pct": 99
             },
             "score": 100
           },
@@ -218,7 +218,7 @@
             },
             "articles": {
               "count": 798,
-              "pct": 100
+              "pct": 99
             },
             "score": 85
           }

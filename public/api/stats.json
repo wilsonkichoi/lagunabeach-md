@@ -1,8 +1,8 @@
 {
-  "totalArticles": 4804,
+  "totalArticles": 4806,
   "totalCategories": 20,
   "estimatedContributors": 61,
-  "totalTags": 6125,
+  "totalTags": 6130,
   "categories": [
     {
       "name": "es",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Art",
-      "count": 38
+      "count": 40
     },
     {
       "name": "About",
@@ -168,13 +168,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4804,
+    "zh-TW": 4806,
     "en": 0
   },
-  "lastUpdated": "2026-06-16T12:18:17.308Z",
+  "lastUpdated": "2026-06-16T15:09:26.029Z",
   "stars": 1053,
   "forks": 151,
-  "zhPages": 801,
+  "zhPages": 803,
   "enPages": 803,
-  "totalPages": 801
+  "totalPages": 803
 }
