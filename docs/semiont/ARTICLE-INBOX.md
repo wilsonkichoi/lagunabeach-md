@@ -166,12 +166,12 @@ BECOME_TAIWANMD.md Step 5 新增：
 - **Category**: Society
 - **Path** (EVOLVE only): knowledge/Society/台灣少子化危機.md
 - **Priority**: `P1`（有外部流量的對外門面，優先序高於一般 P2）
-- **Status**: `pending`
+- **Status**: `prose-shipped-pending-media+rebabel`（zh ship `80abaab10` 2026-06-17）
 - **Requested**: 2026-06-16 by 哲宇（國外有機撿走發現）— session 213045-external-pickup
 - **Notes**:
-  - **觸發**：Michael Turton（Taipei Times 專欄作家）6/11 轉英文版〈The Island's Last Song〉稱「nifty overview」（490 views / 8 讚 / 3 收藏）。文章正在變對外門面，但 `lastHumanReview: false`、`lastVerified: 2026-03-24`。
-  - **必補**：(1) 生育率數字重驗到 2025 最新值（現文 0.87 約 2023-24 數據，查內政部／國發會最新 TFR）；(2) fr 翻譯缺漏（en/es/ja/ko 有、fr 無，主權的巴別塔五語缺一）；(3) 過一次人工審閱。
-  - **不必大改**：敘事骨架健康，外科手術補事實 + 人工審閱即可，勿全文重寫。標題「島嶼的最後歌聲」是文學意象合 §自稱，保留。
+  - **觸發**：Michael Turton（Taipei Times 專欄作家）6/11 轉英文版〈The Island's Last Song〉稱「nifty overview」（490 views / 8 讚 / 3 收藏）。
+  - **2026-06-17 prose EVOLVE 全弧 ship（`80abaab10`）**：去虛構（移除「採訪 50 位」+ 4 合成人名 + 無法查證的東山國小開場 + 溫在弘 misquote）→ 改用 4 源查證的新威國小 + 真實學者逐字引語；資料全面更新 2025（TFR 0.695 / 2024 龍年 −715 破 48 年慣例 / 不婚 not 不生 / 無已開發國家救回 TFR / 移工 83 萬）。4-agent 研究 fan-out（~100 搜尋 + 內政部一手 PDF）+ Stage 2.5/3.6 adversarial verifier 抓 5 真錯已修。9,996 CJK / 73 腳註 / 7 tw-\* viz / 反方 6 聲音。research SSOT `reports/research/2026-06/台灣少子化危機.md`。**修正原假設「不必大改」** — fabricated 素材 + 2024-25 數據反轉，實為近全文重寫。
+  - **剩餘（pending）**：(1) **🔴 re-babel 5 語最優先** — zh 大改後 en/ja/ko/es 全 stale（**en 是 Turton 連結的版本，仍含舊虛構內容**），fr 缺；babel-nightly 00:30 會偵測 body-hash drift 重譯，但 en 是對外門面，建議哲宇決定要不要 expedite `/twmd-babel`。(2) image-health hard（0 圖；舊文本就無圖、非 commit/ci gate）— 補 hero + scene 圖走 REWRITE Step 4.3。(3) 人工審閱（`lastHumanReview` 仍 false）。
 - **Reference**: https://x.com/michaelturton/status/2064932663555985724 + memory/2026-06-16-213045-external-pickup.md
 
 <!-- ═══ 哲宇 2026-06-14 directive — P0 rewrite batch（6 篇 EVOLVE，最優先）═══ -->
