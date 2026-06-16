@@ -12,7 +12,7 @@ lastVerified: '2026-03-22'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:cddfbcb9ade43ff2'
 sourceBodyHash: 'sha256:0f8dee8662286dcf'
-translatedAt: '2026-04-14T09:20:00+08:00'
+translatedAt: '2026-06-16T17:10:38Z'
 ---
 
 # 대만 극장과 공연 예술: 작은 섬이 세계 무대를 흔든 이야기

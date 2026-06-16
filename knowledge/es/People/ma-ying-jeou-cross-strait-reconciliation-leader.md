@@ -19,10 +19,10 @@ lastVerified: 2026-05-22
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/馬英九.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:638d3a0f5fb85b4f'
-sourceBodyHash: 'sha256:054579b8b6abb208'
-translatedAt: '2026-05-28T05:08:34+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:7ebf03343b7d94a6'
+sourceBodyHash: 'sha256:3ba24a255fbd26bc'
+translatedAt: '2026-06-16T16:54:57Z'
 ---
 
 # Ma Ying-jeou: el doctor en Derecho de Harvard que entró a la oficina de Chiang Ching-kuo como traductor de inglés, fue presidente durante ocho años apoyado en una imagen de “integridad” y dejó como legado las relaciones a través del Estrecho, el Movimiento Girasol y el 22K

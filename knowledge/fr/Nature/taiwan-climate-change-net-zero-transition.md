@@ -26,10 +26,10 @@ lastVerified: 2026-05-19
 lastHumanReview: true
 featured: true
 translatedFrom: 'Nature/台灣氣候危機與淨零轉型.md'
-sourceCommitSha: '44238bb4'
-sourceContentHash: 'sha256:99d23321710787ca'
-sourceBodyHash: 'sha256:c086a3d5805158ba'
-translatedAt: '2026-05-26T05:10:58+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:690ecb6c58309760'
+sourceBodyHash: 'sha256:36525caaf207b712'
+translatedAt: '2026-06-16T17:05:54Z'
 ---
 
 # Crise climatique et transition vers le zéro émission nette à Taïwan : le jour où le référendum sur la centrale nucléaire no 3 a échoué, le choix des limites physiques ne faisait que commencer

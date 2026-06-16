@@ -23,10 +23,10 @@ lastVerified: '2026-05-16'
 lastHumanReview: true
 featured: true
 translatedFrom: 'People/唐鳳.md'
-sourceCommitSha: '09e1370d'
-sourceContentHash: 'sha256:4fe29b98574a3feb'
-sourceBodyHash: 'sha256:6a5330c17c122b19'
-translatedAt: '2026-05-16T05:07:56+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:6543b35dfb15923b'
+sourceBodyHash: 'sha256:f574bc1058bd407e'
+translatedAt: '2026-06-16T17:13:36Z'
 ---
 
 # Audrey Tang : chacune de ses décisions célèbres a consisté à refuser l’étiquette de « génie »

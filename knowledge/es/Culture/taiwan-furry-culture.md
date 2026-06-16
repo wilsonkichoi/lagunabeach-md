@@ -13,7 +13,7 @@ translatedFrom: 'Culture/台灣獸迷文化.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:fb754fde867da6b6'
 sourceBodyHash: 'sha256:b8b517c948537006'
-translatedAt: '2026-05-02T01:17:17+08:00'
+translatedAt: '2026-06-16T17:19:04Z'
 ---
 
 > **Resumen en 30 segundos:** Los furries son una comunidad de entusiastas de los personajes zoomorfos antropomórficos. La cultura furry en Taiwán germinó en la década de 1990, cuando usuarios de BBS comenzaron a debatir sobre _El Rey León_. Tras dos décadas de desarrollo underground, en 2015 se celebró la primera convención formal, con apenas unas 50 personas. Diez años después, en 2025, Infurnity atrajo en un solo evento a 3.251 asistentes, 689 fursuits en escena y recaudó 961.500 dólares taiwaneses para caridad[^1]. En 2020, Taiwán incluso fundó la "Asociación Taiwanesa de Intercambio Cultural Furry" (TFIA), aprobada oficialmente por el Ministerio del Interior[^2]. Esto no es una rareza de nicho: es un ecosistema cultural completo, con organización, economía propia y compromiso social.

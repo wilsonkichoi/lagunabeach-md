@@ -23,10 +23,10 @@ lastVerified: 2026-05-20
 lastHumanReview: false
 featured: false
 translatedFrom: 'Economy/台灣前50大企業.md'
-sourceCommitSha: '9c2bf6ef'
-sourceContentHash: 'sha256:2559cf50531f733b'
-sourceBodyHash: 'sha256:6dff77bc3fd9be7a'
-translatedAt: '2026-05-20T05:08:29+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:fd16d89c1109096c'
+sourceBodyHash: 'sha256:645f8f42e79639a7'
+translatedAt: '2026-06-16T16:55:14Z'
 ---
 
 > **30 秒概覽：** 2026 年 5 月 19 日盤後，台積電市值 57.18 兆元，一家公司占了台灣加權指數 31.51%、占台股總市值約四成、占全球晶圓代工七成一。它後面的 49 個位子，由 12 家金控、11 家半導體、6 家電子代工和 5 家傳產老兵分掉。所謂電金傳產三足鼎立，實際上由電子業一條腿撐起半個身體；AI 浪潮 2024 年起把廣達、緯創、緯穎、鴻勁從中段班拉上來，又疊高了集中度。閱讀 50 大這張表，等於閱讀一張台灣經濟的身體結構圖：脊椎在哪、單點故障在哪、隱藏在表外的內臟在哪。

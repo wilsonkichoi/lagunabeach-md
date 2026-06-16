@@ -26,10 +26,10 @@ lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/新竹縣.md'
-sourceCommitSha: 'bcffb45b4'
-sourceContentHash: 'sha256:d364dc7cecbd8556'
-sourceBodyHash: 'sha256:1609d19d6b7ce06f'
-translatedAt: '2026-06-07T00:37:31+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:499e7dcb301a6ddb'
+sourceBodyHash: 'sha256:8df9daddb901affe'
+translatedAt: '2026-06-16T17:05:54Z'
 ---
 
 # Le comté de Hsinchu : 235 ans de culte des Yimin et le revenu par habitant le plus élevé de Taïwan, le long de la même rivière Touqian

@@ -17,7 +17,7 @@ translatedFrom: 'Culture/台灣獸迷文化.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:fb754fde867da6b6'
 sourceBodyHash: 'sha256:b8b517c948537006'
-translatedAt: '2026-05-01T13:19:11+08:00'
+translatedAt: '2026-06-16T17:19:04Z'
 ---
 
 > **30-second overview:** The furry fandom (獸迷) is a community of enthusiasts passionate about anthropomorphic animal characters. Taiwan's furry culture traces its roots to the 1990s, when a group of newly-online young people on BBS boards found one another through their love of _The Lion King_. After two decades of underground development, the first official convention was held in 2015 — drawing around 50 people. By 2025, Infurnity (獸無限) attracted 3,251 attendees and 689 fursuits in a single event, with NT$961,500 raised for charity[^1]. In 2020, Taiwan even established the Interior Ministry-registered "Taiwan Furry Information Association"[^2]. This is not a niche curiosity — it is a complete cultural ecosystem with organization, an economic system, and genuine social contribution.

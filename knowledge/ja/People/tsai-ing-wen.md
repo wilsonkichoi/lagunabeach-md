@@ -16,10 +16,10 @@ rationale:
   whos_pushing_back: '主要反対陣営——深藍／進歩派／中国PRC（いずれもproseで事件記述またはinternal hedge承認あり）／深緑／民衆党（proseには完全不在、whats_excludedの通り範疇外）。'
   which_framing: 'Taiwan.md自選のnarrative devices：「二つの署名」対位（先住民謝罪＋同婚法）／「敗選→再選」反転弧／「演説が苦手でもhold the room」人物特質フレーム。既存の学術的枠組みを引用したものではない。'
 translatedFrom: People/蔡英文.md
-sourceCommitSha: '1712d109'
-sourceContentHash: 'sha256:fadbb54905eb75f0'
-sourceBodyHash: 'sha256:251dc48eab49a71a'
-translatedAt: '2026-06-12T16:38:55Z'
+sourceCommitSha: 'e6c58721'
+sourceContentHash: 'sha256:b09e2036d35d54e7'
+sourceBodyHash: 'sha256:fc825bead5669dc1'
+translatedAt: '2026-06-16T17:15:00Z'
 ---
 
 # 蔡英文
@@ -109,6 +109,7 @@ translatedAt: '2026-06-12T16:38:55Z'
 - [ひまわり学生運動](/society/ひまわり学生運動) —— 2014 年に台湾の政治地図を変えた社会運動
 - [馬英九](/people/馬英九) —— 蔡英文が 2010 年 4 月 25 日に ECFA をめぐって討論し、2016 年に政権を引き継いだ相手。就任後は兩岸の枠組みをほぼ全面的に転換した
 - [周子瑜](/people/周子瑜) —— 二〇一六年前夜の九〇秒間の謝罪動画が、蔡英文の勝利演説「誰も自分のアイデンティティのために謝罪する必要はない」のきっかけとなった
+- [見えない国家](/art/看不見的國家) —— アメリカ人監督グ・ジンウェンが7年間蔡英文に密着撮影したドキュメンタリー。2025年に台湾で興行収入3,700万元を突破し、ドキュメンタリー映画史第3位を記録
 - [想想論壇](/society/想想論壇) —— 蔡英文が 2012 年の敗選後に設立した小英教育基金会が運営する論評プラットフォーム。2025 年 10 月、退任から 5 ヶ月後に改版再始動
 
 ## 参考文献

@@ -13,7 +13,7 @@ translatedFrom: "Culture/台灣外來語與語言接觸.md"
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:eec4f271a84a1f94'
 sourceBodyHash: 'sha256:8e1b986c4cf0a1f3'
-translatedAt: "2026-04-14T12:33:49+08:00"
+translatedAt: '2026-06-16T17:19:04Z'
 ---
 
 > **En 30 secondes :** Le phénomène des « mots étrangers » que les Taïwanais reprochent souvent à leur langue ? Taïwan est en réalité le laboratoire d'intégration linguistique le plus fructueux du monde. Du « bento » de l'ère japonaise au « OK » de la mondialisation, en passant par le controversé « shipin » (视频) du mandarin continental, cette île porte en elle cinq couches d'histoire du contact linguistique. TikTok a déclenché les « polices du chinois continental », mais la linguistique nous rappelle ceci : chaque emprunt est la trace d'une relation.

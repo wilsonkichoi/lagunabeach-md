@@ -1,6 +1,6 @@
 ---
 title: 'Au Sow Yee: The Malaysian Curator Who Brought the "Archipelago" into Taiwan’s Art World'
-description: "In 2003 she left Kuala Lumpur for Taipei to study at Taipei National University of the Arts, thinking she was only passing through; fourteen years later, in Taipei, she began replacing the Cold War name “Southeast Asia” with “Nusantara,” or “archipelago,” bringing the Malay world’s self-naming into Taiwan’s curatorial discourse. From the fictional-place trilogy The Mengkerang Project and The Kris Project entering the Singapore Art Museum collection, to her 2024 collaboration with Chen Yow-Ruu interviewing stateless children in Malaysia, she once said in an NML interview: “It is precisely because of my ‘absence’ that I could make this work.”"
+description: 'In 2003 she left Kuala Lumpur for Taipei to study at Taipei National University of the Arts, thinking she was only passing through; fourteen years later, in Taipei, she began replacing the Cold War name “Southeast Asia” with “Nusantara,” or “archipelago,” bringing the Malay world’s self-naming into Taiwan’s curatorial discourse. From the fictional-place trilogy The Mengkerang Project and The Kris Project entering the Singapore Art Museum collection, to her 2024 collaboration with Chen Yow-Ruu interviewing stateless children in Malaysia, she once said in an NML interview: “It is precisely because of my ‘absence’ that I could make this work.”'
 date: '2026-05-17'
 author: 'Taiwan.md'
 category: 'People'
@@ -23,10 +23,10 @@ lastVerified: '2026-05-17'
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/區秀詒.md'
-sourceCommitSha: '0feffb185'
-sourceContentHash: 'sha256:b1aa515783a15d29'
-sourceBodyHash: 'sha256:2cc088ef644c214e'
-translatedAt: '2026-05-17T05:06:52+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:4e807297f5dfcc70'
+sourceBodyHash: 'sha256:9bd8f0aa157f38ef'
+translatedAt: '2026-06-16T16:59:03Z'
 ---
 
 # Au Sow Yee: The Malaysian Curator Who Brought the "Archipelago" into Taiwan’s Art World

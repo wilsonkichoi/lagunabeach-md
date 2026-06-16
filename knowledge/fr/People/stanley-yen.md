@@ -19,10 +19,10 @@ readingTime: 12
 featured: false
 lastVerified: 2026-04-06
 translatedFrom: "People/嚴長壽.md"
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:bf2c8c297d2e1acd'
-sourceBodyHash: 'sha256:c4adf4d38cbc289a'
-translatedAt: "2026-04-14T19:14:57+08:00"
+sourceCommitSha: 'df2e7558'
+sourceContentHash: 'sha256:259b129f305ff5f9'
+sourceBodyHash: 'sha256:366255e36a4fa0f5'
+translatedAt: '2026-06-16T17:13:36Z'
 ---
 
 # Yen Chang-shou : du garçon de bureau au parrain du tourisme, puis il a tout abandonné
@@ -145,6 +145,7 @@ Les rangées de bottes de caoutchouc sont toujours là, devant les salles de cla
 - La carte culturelle des 16 peuples autochtones de Taïwan — le cœur de la philosophie éducative de Junyi : les cultures des peuples autochtones ne sont pas à « sauver », elles méritent d'être respectées
 - La culture du café à Taïwan — quand Yen Chang-shou imposait un service d'excellence au Rebar, les Taïwanais buvaient encore du café instantané
 - Teach For Taiwan — un autre programme éducatif qu'il a contribué à faire naître, par lequel quatre cents jeunes ont rejoint des salles de classe dans des régions reculées
+- Lü Kuan-wei — président de la plateforme Junyi Academy ; le nom « Junyi » est emprunté à l’école Junyi de Taitung fondée par Stanley Yen lui-même
 
 ## Références
 

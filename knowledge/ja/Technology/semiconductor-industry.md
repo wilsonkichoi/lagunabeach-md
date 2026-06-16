@@ -23,10 +23,10 @@ lastVerified: '2026-05-19'
 lastHumanReview: 'true'
 featured: 'true'
 translatedFrom: 'Technology/半導體產業.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:1f5e02f4a237b0ed'
-sourceBodyHash: 'sha256:c57a5c2dd34021cd'
-translatedAt: '2026-06-02T00:40:00+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:353dd1410e58546f'
+sourceBodyHash: 'sha256:b4789b1cdfeb8d09'
+translatedAt: '2026-06-16T16:55:14Z'
 ---
 
 # 半導体産業：RCA 技術移転から窒化ガリウムと量子封裝への50年の材料革命

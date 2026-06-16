@@ -12,10 +12,10 @@ featured: true
 lastVerified: 2026-03-24
 lastHumanReview: false
 translatedFrom: "Culture/傳統節慶與慶典.md"
-sourceCommitSha: "a05d2431"
-sourceContentHash: "sha256:3bac2c2faa70bd6e"
+sourceCommitSha: 'a05d2431'
+sourceContentHash: 'sha256:3bac2c2faa70bd6e'
 sourceBodyHash: 'sha256:325c4509ad66d26d'
-translatedAt: "2026-04-14T12:33:38+08:00"
+translatedAt: '2026-06-16T17:13:36Z'
 ---
 
 # Quand l'épidémie s'éteint, les feux d'artifice deviennent tradition : l'évolution inattendue des fêtes à Taïwan

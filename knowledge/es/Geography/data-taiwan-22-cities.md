@@ -23,10 +23,10 @@ lastVerified: '2026-06-06'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/用數據看台灣22縣市.md'
-sourceCommitSha: 'b8a3f5b09'
-sourceContentHash: 'sha256:1de0246e9f412d01'
-sourceBodyHash: 'sha256:e8bd2eff54f70ff9'
-translatedAt: '2026-06-07T00:37:31+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:d4d60849e9ff119e'
+sourceBodyHash: 'sha256:7464b15b7c6d840e'
+translatedAt: '2026-06-16T17:05:07Z'
 ---
 
 # Ver Taiwán a través de los datos de sus 22 condados y ciudades: entre lo más denso y lo más vacío hay una diferencia de 151 veces; entre lo más viejo y lo más joven, casi una generación

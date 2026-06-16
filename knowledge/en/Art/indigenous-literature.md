@@ -18,7 +18,7 @@ translatedFrom: 'Art/原住民文學.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:c3ce92b18e6d1aeb'
 sourceBodyHash: 'sha256:621573191262d79d'
-translatedAt: '2026-04-14T12:25:09+08:00'
+translatedAt: '2026-06-16T17:10:15Z'
 ---
 
 # Indigenous Literature of Taiwan

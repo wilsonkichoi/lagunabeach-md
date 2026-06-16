@@ -28,10 +28,19 @@ lastVerified: '2026-05-26'
 lastHumanReview: 'false'
 featured: 'true'
 translatedFrom: 'People/尹衍樑.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:232e75e6f0a55e9d'
-sourceBodyHash: 'sha256:72b70b205da94b86'
-translatedAt: '2026-05-28T05:08:33+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:ca0ab51cac71e4a7'
+sourceBodyHash: 'sha256:bf303e93b6c06618'
+translatedAt: '2026-06-16T17:03:25Z'
+sporeLinks:
+  - id: 95
+    platform: 'threads'
+    date: '2026-05-26'
+    url: 'https://www.threads.com/@taiwandotmd/post/DYzmiFqE0mC'
+  - id: 96
+    platform: 'x'
+    date: '2026-05-26'
+    url: 'https://x.com/taiwandotmd/status/2059290686671982831'
 ---
 
 # Samuel Yin: The Science Prize He Built Is Worth More Than a Nobel

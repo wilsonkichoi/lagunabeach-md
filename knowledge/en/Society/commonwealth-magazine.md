@@ -22,11 +22,20 @@ image: '/article-images/society/diane-ying-magsaysay.webp'
 imageCredit: 'Ramon Magsaysay Award Foundation'
 imageLicense: 'Fair use editorial commentary'
 imageSource: 'https://rmaward.asia/rmawardees/ying-diane-yun-peng/'
+sporeLinks:
+  - id: 134
+    platform: 'threads'
+    date: '2026-06-13'
+    url: 'https://www.threads.com/@taiwandotmd/post/DZhJTUkEwRM'
+  - id: 135
+    platform: 'x'
+    date: '2026-06-13'
+    url: 'https://x.com/taiwandotmd/status/2065697249041281306'
 translatedFrom: 'Society/天下雜誌.md'
-sourceCommitSha: '066cab5db'
-sourceContentHash: 'sha256:2beb304e3dcd92aa'
-sourceBodyHash: 'sha256:d56e6832b599d478'
-translatedAt: '2026-06-06T12:29:48+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:c08065304af9db33'
+sourceBodyHash: 'sha256:6cd75de33ed1027c'
+translatedAt: '2026-06-16T17:15:54Z'
 ---
 
 > **30-second overview:** On June 1, 1981, a business magazine called CommonWealth launched in Taiwan, still under martial law and recently expelled from the international stage. Its first edition of 10,000 copies sold out in two days[^1]. The driving force was economist Kao Hsi-chun, who gathered Wang Li-hsing, Chang Tso-chin, and Diane Ying under the banner of "scholars serving the nation"[^2]; Ying — a reporter who had worked at the Philadelphia Inquirer, UPI, the New York Times, and the Asian Wall Street Journal — became the magazine's editorial soul, and the person who held it together after the 1986 split[^3]. Over four decades, it grew from a magazine that "made economics readable" into Taiwan's foremost maker of business and governance rankings: the Top 2000, Top 50, Benchmark Enterprises, Happiest Cities — names that quietly define what "success" means for an entire society. It is one of Taiwan's most trusted media outlets per the Reuters Institute[^4], a recipient of the Ramon Magsaysay Award and the SOPA Lifetime Achievement Award. Yet the position that makes it most trusted is precisely where it stands closest to capital and power. Its credibility, and its power to rank others, come from the same distance.
@@ -35,7 +44,7 @@ translatedAt: '2026-06-06T12:29:48+08:00'
 
 Diane Ying once said, with a laugh tinged with bitterness: "To ruin someone, make them start a magazine."[^5]
 
-The person who said this had interviewed Eileen Chang in Cambridge in 1968. She was a struggling student then, borrowing jeans to sit in Chang's room for a three-hour conversation. "After me, no one ever interviewed Eileen Chang one-on-one again — but she agreed to meet me, and we talked for three hours. She must have found the interview acceptable, because we stayed in touch for over a decade, and when I later founded CommonWealth Magazine, she even sent a congratulatory card."[^6] Diane Ying had interviewed people across the world — from semiconductor pioneer Morris Chang to literary giant Eileen Chang — and ultimately found that the hardest subject to cover was the magazine she had taken on herself.
+The person who said this had interviewed Eileen Chang in Cambridge in 1968. She was a struggling student then, borrowing a pair of dark-red jeans to sit in Chang's room[^41] for a three-hour conversation. "After me, no one ever interviewed Eileen Chang one-on-one again — but she agreed to meet me, and we talked for three hours. She must have found the interview acceptable, because we stayed in touch for over a decade, and when I later founded CommonWealth Magazine, she even sent a congratulatory card."[^6] Diane Ying had interviewed people across the world — from semiconductor pioneer Morris Chang to literary giant Eileen Chang — and ultimately found that the hardest subject to cover was the magazine she had taken on herself.
 
 The actual invitation to start the magazine came from Kao Hsi-chun.
 
@@ -176,7 +185,7 @@ For that contradiction, Diane Ying left her own answer: she put the shares in tr
 
 Next time you see "CommonWealth Top 2000" or "Happiest City Ranking" scrolling across a news ticker, you might pause and think one layer deeper: who made this ranking, with what method, and for whom. Then one layer more: how close a distance did a magazine have to stand at to earn that "most trusted" status — and how hard did it have to work to hold that distance, to avoid trading the trust away.
 
-Diane Ying once borrowed a pair of jeans to visit Eileen Chang in Cambridge, and they stayed in touch for over a decade; when CommonWealth launched, Chang sent a congratulatory card. That was a magazine at its beginning — a reporter, a person she cared about, and a simple, clean distance between them. Forty years on, this magazine has learned to measure, and to hold, the far more complicated distance between itself and Taiwan's capital. It is still walking that path.
+Diane Ying once borrowed a pair of dark-red jeans to visit Eileen Chang in Cambridge, and they stayed in touch for over a decade; when she founded CommonWealth, Chang sent a congratulatory card. That was a magazine at its beginning — a reporter, a person she cared about, and a simple, clean distance between them. Forty years on, this magazine has learned to measure, and to hold, the far more complicated distance between itself and Taiwan's capital. It is still walking that path.
 
 **Further Reading:**
 
@@ -279,3 +288,5 @@ Embedded videos (YouTube iframe, [CommonWealth Magazine video channel @cwvideo](
 [^39]: [Diane Ying — Ramon Magsaysay Award](https://rmaward.asia/rmawardees/ying-diane-yun-peng/) — Diane Ying's 1987 Ramon Magsaysay Award acceptance speech, verbatim: "Journalism, perhaps, is the best profession in the world, because a journalist is paid to learn, and life itself is a process of ceaseless learning."
 
 [^40]: [SOPA Lifetime Achievement Award 2021](https://2024.sopawards.com/the-sopa-awards/sopa-lifetime-achievement-award-2021/) — Diane Ying received the 2021 SOPA Lifetime Achievement Award; jury described CommonWealth as Taiwan's "well respected and highly trusted media organization."
+
+[^41]: [Exclusive interview with Eileen Chang — a swan song in the Chinese-speaking world (CommonWealth Magazine)](https://www.cw.com.tw/article/5070847) — CommonWealth's retrospective records verbatim: "Her connection with CommonWealth began when founder Diane Ying, then a struggling student abroad, interviewed her wearing a borrowed pair of dark-red jeans" (confirmed via hcbooks transcript; Diane Ying's own essay "Interviewing Ms. Eileen Chang" does not describe her own clothing — this detail comes from CommonWealth's retrospective).

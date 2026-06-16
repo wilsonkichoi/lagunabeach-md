@@ -25,10 +25,10 @@ rationale:
   whos_pushing_back: "Principaux camps d'opposition — Bleu foncé / Progressistes / Chine RPC (tous décrits comme événements ou hedges internes dans la prose) / Vert foncé / Parti populaire taïwanais (totalement absent de la prose, per whats_excluded hors périmètre)."
   which_framing: 'Dispositifs narratifs choisis par Taiwan.md : opposition « Les deux signatures » (excuses autochtones + loi sur le mariage) / arc renversement « défaite → réélection » / trait de caractère « mauvaise oratrice mais tient la salle ».'
 translatedFrom: 'People/蔡英文.md'
-sourceCommitSha: '1712d109'
-sourceContentHash: 'sha256:fadbb54905eb75f0'
-sourceBodyHash: 'sha256:251dc48eab49a71a'
-translatedAt: '2026-05-25T21:07:36Z'
+sourceCommitSha: 'e6c58721'
+sourceContentHash: 'sha256:b09e2036d35d54e7'
+sourceBodyHash: 'sha256:fc825bead5669dc1'
+translatedAt: '2026-06-16T17:13:36Z'
 ---
 
 # Tsai Ing-wen
@@ -118,6 +118,7 @@ Tsai Ing-wen prouva en huit ans une chose : une femme politique de type universi
 - [Mouvement du Tournesol](/society/太陽花學運) — Le mouvement social de 2014 qui transforma la carte politique de Taïwan
 - [Ma Ying-jeou](/people/馬英九) — Tsai Ing-wen débat avec lui le 25 avril 2010 sur l'ECFA, lui succède en 2016 et opère un quasi-retournement complet sur le cadre bilatéral du détroit hérité de son prédécesseur
 - [Chou Tzu-yu](/people/周子瑜) — Les 90 secondes de vidéo d'excuses la veille de l'élection de 2016, qui déclenchèrent la réplique de Tsai Ing-wen dans son discours de victoire : « personne ne devrait s'excuser pour son identité »
+- [Invisible Nation](/art/看不見的國家) — documentaire de la réalisatrice américaine Joyce Keng, tourné aux côtés de Tsai Ing-wen pendant sept ans ; sorti à Taïwan en 2025, il a dépassé 37 millions de dollars taïwanais au box-office et se classe troisième de l’histoire du documentaire à Taïwan
 - [Think Forum](/society/想想論壇) — plateforme d'opinion de la Fondation Small Light créée par Tsai après sa défaite électorale de 2012, relancée en octobre 2025, cinq mois après son départ
 
 ## Références

@@ -13,7 +13,7 @@ lastVerified: 2026-03-28
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:97939516b3de2749'
 sourceBodyHash: 'sha256:8d0abd22f69dd0b4'
-translatedAt: '2026-04-14T09:20:00+08:00'
+translatedAt: '2026-06-16T17:10:38Z'
 ---
 
 # 대만 건축: 문화 교차의 입체 서사시

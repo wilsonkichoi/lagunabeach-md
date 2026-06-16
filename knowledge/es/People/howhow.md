@@ -20,10 +20,10 @@ lastVerified: 2026-06-05
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/Howhow.md'
-sourceCommitSha: 'aeb8b0e48'
-sourceContentHash: 'sha256:d627e5d3ae6e33dc'
-sourceBodyHash: 'sha256:b4269ae42baf9103'
-translatedAt: '2026-06-06T00:51:19+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:e3c09bf20faac318'
+sourceBodyHash: 'sha256:636421c60d5f3730'
+translatedAt: '2026-06-16T16:54:57Z'
 ---
 
 > **Panorama en 30 segundos:** Chen Tzu-hao (Howhow) hizo una de las cosas más contraintuitivas en la historia de YouTube en Taiwán. Mientras otros buscaban todas las formas posibles de ocultar el contenido patrocinado, él escribió en letras enormes «¡Entramos directo al tema patrocinado!» y convirtió lo más incómodo para un creador en su propia marca. Solo, escribiendo guiones, dirigiendo, actuando y editando, sostuvo el canal HowFun, con 1,54 millones de suscriptores y 760 millones de visualizaciones. Pero aquí hay tres capas de contradicción que quizá no esperabas: su elogiado «contenido patrocinado honesto» es precisamente el mecanismo engañoso que la academia describe como «publicidad que no parece publicidad»; su «equipo de una sola persona» es una etiqueta que otros le pusieron, mientras él detesta la soledad y siempre quiso tener equipo; y los videos largos de alto costo en los que insiste caen justo en la pista más castigada por los videos cortos. Este texto trata sobre cómo un creador conserva su propio ritmo, y sobre cómo esa insistencia se está volviendo más cara.

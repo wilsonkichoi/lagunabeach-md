@@ -20,10 +20,10 @@ lastVerified: '2026-05-10'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Technology/台灣無人機產業.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:9165b111d87b4581'
-sourceBodyHash: 'sha256:88f1bf8039ff02f6'
-translatedAt: '2026-05-10T22:52:30+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:de2ace5a9d645535'
+sourceBodyHash: 'sha256:0efd20b7166e441a'
+translatedAt: '2026-06-16T17:15:00Z'
 ---
 
 > **30秒概要：** 台湾のドローン産業は、地政学によって駆動される急成長を迎えている。国防部は500億元（新台湾ドル）で約5万機の軍用ドローンを調達する計画を策定し、行政院の1.25兆特別予算においてもドローンは中核プロジェクトの一つである。雷虎科技は米国のブルーUAS認証を取得した初の台湾企業となった。農薬散布から戦場偵察まで、台湾のドローン産業は「受託製造」から「国防の自律」へと移行し、半導体に次ぐ次世代の戦略産業を目指している。

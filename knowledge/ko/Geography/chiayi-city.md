@@ -23,10 +23,10 @@ lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/嘉義市.md'
-sourceCommitSha: '31a05c44b'
+sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:ae83f3951e0a47fc'
 sourceBodyHash: 'sha256:d3fc69c2026ce4f3'
-translatedAt: '2026-06-16T00:44:26+08:00'
+translatedAt: '2026-06-16T16:38:41Z'
 ---
 
 # 자이시: 황제가 자이라는 이름을 하사했으나 가장 쉽게 지나쳐지는 성할시가 된 도시

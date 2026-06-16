@@ -29,10 +29,10 @@ lastVerified: 2026-05-21
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/大稻埕.md'
-sourceCommitSha: '20a4ac337'
-sourceContentHash: 'sha256:12edbb84c3a27210'
-sourceBodyHash: 'sha256:379e0b6a6e071045'
-translatedAt: '2026-05-26T05:10:57+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:1aab357813ec41e3'
+sourceBodyHash: 'sha256:4f2293becc2b45da'
+translatedAt: '2026-06-16T17:03:25Z'
 ---
 
 # Dadaocheng: 800 Meters, Three Centuries, from Formosa Tea to the First Shot of February 28

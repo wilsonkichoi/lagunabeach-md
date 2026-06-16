@@ -25,10 +25,10 @@ lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/台中市.md'
-sourceCommitSha: 'bcffb45b'
-sourceContentHash: 'sha256:cb652161e5b2ee7d'
-sourceBodyHash: 'sha256:280d9f956e7a6a86'
-translatedAt: '2026-05-25T21:07:07Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:c76a9448141070d4'
+sourceBodyHash: 'sha256:3689cbfc4a7bdf30'
+translatedAt: '2026-06-16T17:14:05Z'
 ---
 
 # 타이중시: 1887년에 수도가 될 뻔했고, 2010년에야 두 번째로 큰 직할시가 되다

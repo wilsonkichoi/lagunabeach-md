@@ -14,7 +14,7 @@ translatedFrom: 'Culture/噗浪Plurk.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:96026947f084b369'
 sourceBodyHash: 'sha256:147f1c5986f4274b'
-translatedAt: '2026-05-01T14:11:02+08:00'
+translatedAt: '2026-06-16T17:19:04Z'
 ---
 
 > **30-second overview:** Plurk is a microblogging platform co-founded in 2008 by Malaysian-Chinese Alvin Woon, which found its largest user base in Taiwan.[^1] Its most distinctive design is the horizontal-scrolling "river" timeline, and a social environment that relies entirely on no algorithmic curation — what you see depends on who you follow, not on what the platform wants you to see. After being permanently blocked from Google's ad network in 2016 due to adult content on the platform, Plurk launched a "Plurk Coins" paid membership system and turned profitable with user support.[^2] By 2026, when new platforms like Threads sparked a microblogging craze, many people were surprised to discover — Plurk isn't just still around, it's healthier than ever.

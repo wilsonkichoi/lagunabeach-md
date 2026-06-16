@@ -1,20 +1,37 @@
 ---
-title: "Ciudad de Kaohsiung: en 1979, el año en que fue elevada a municipio especial, ocho kaohsiungueses estaban presos en una cárcel de Taipéi"
-description: "El 1 de julio de 1979, Kaohsiung fue elevada a segundo municipio especial de Taiwán. El 10 de diciembre, Día Mundial de los Derechos Humanos, el acto de la revista Formosa en la rotonda de Dagangpu terminó convertido en un enfrentamiento bajo gases lacrimógenos. Ocho personas fueron condenadas y, el 28 de febrero de 1980, se conoció la masacre ocurrida en la casa de Lin Yi-hsiung, en la calle Xinyi de Taipéi. En ese mismo 1979, Kaohsiung obtuvo gloria administrativa y también tragó la represión política más dura del Taiwán de posguerra. 2,71 millones de personas repartidas en 38 distritos; la barra arenosa de Cijin, las comunidades bunun de Namasia, las chimeneas de China Steel y el techo de aleación de aluminio de Weiwuying conviven en una misma ciudad. Esta ciudad tardó 45 años en coser sus heridas hasta darles una forma propia."
+title: 'Ciudad de Kaohsiung: en 1979, el año en que fue elevada a municipio especial, ocho kaohsiungueses estaban presos en una cárcel de Taipéi'
+description: 'El 1 de julio de 1979, Kaohsiung fue elevada a segundo municipio especial de Taiwán. El 10 de diciembre, Día Mundial de los Derechos Humanos, el acto de la revista Formosa en la rotonda de Dagangpu terminó convertido en un enfrentamiento bajo gases lacrimógenos. Ocho personas fueron condenadas y, el 28 de febrero de 1980, se conoció la masacre ocurrida en la casa de Lin Yi-hsiung, en la calle Xinyi de Taipéi. En ese mismo 1979, Kaohsiung obtuvo gloria administrativa y también tragó la represión política más dura del Taiwán de posguerra. 2,71 millones de personas repartidas en 38 distritos; la barra arenosa de Cijin, las comunidades bunun de Namasia, las chimeneas de China Steel y el techo de aleación de aluminio de Weiwuying conviven en una misma ciudad. Esta ciudad tardó 45 años en coser sus heridas hasta darles una forma propia.'
 date: 2026-05-18
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
-tags: ["Kaohsiung", "Ciudad de Kaohsiung", "sur", "municipio especial", "puerto de Kaohsiung", "Incidente de Formosa", "río Amor", "China Steel", "Weiwuying", "Mercado nocturno de Liuhe", "Cúpula de Luz", "Meinong", "Namasia", "tifón Morakot", "serie de 22 condados y ciudades"]
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
+tags:
+  [
+    'Kaohsiung',
+    'Ciudad de Kaohsiung',
+    'sur',
+    'municipio especial',
+    'puerto de Kaohsiung',
+    'Incidente de Formosa',
+    'río Amor',
+    'China Steel',
+    'Weiwuying',
+    'Mercado nocturno de Liuhe',
+    'Cúpula de Luz',
+    'Meinong',
+    'Namasia',
+    'tifón Morakot',
+    'serie de 22 condados y ciudades',
+  ]
 readingTime: 18
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/高雄市.md"
-sourceCommitSha: "544200eab"
-sourceContentHash: "sha256:832a9cde39691707"
-sourceBodyHash: "sha256:6169f035919618ee"
-translatedAt: "2026-05-19T05:08:07+08:00"
+translatedFrom: 'Geography/高雄市.md'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:3c13d7fb85f1eb0e'
+sourceBodyHash: 'sha256:f95a74cad7a8af57'
+translatedAt: '2026-06-16T17:04:27Z'
 ---
 
 # Ciudad de Kaohsiung: en 1979, el año en que fue elevada a municipio especial, ocho kaohsiungueses estaban presos en una cárcel de Taipéi
@@ -158,7 +175,7 @@ Desde ese día, “ciudad de Kaohsiung” designa una ciudad que se extiende des
 Cada distrito tiene una historia distinta. El distrito de Cijin tiene 28.000 habitantes y es una barra arenosa de 11,3 kilómetros de largo; el ferry es el transporte principal de entrada y salida. El distrito de Maolin tiene 1.867 habitantes y es el menos poblado de Kaohsiung; sus principales residentes son rukai, y la altitud sube de 200 metros a más de 1.000 metros. El distrito de Fengshan tiene 355.183 habitantes, es el más poblado de Kaohsiung, fue la sede del antiguo condado de Kaohsiung y, tras la fusión de 2010, se convirtió en el segundo distrito individual más poblado del país[^18]. La población de estos tres distritos difiere por un factor de 190, pero administrativamente todos se llaman “distrito tal de la ciudad de Kaohsiung”.
 
 ![Isla Cijin vista desde el monte Cihou. Barra arenosa de 11,3 kilómetros, con 28.000 habitantes, sin puente hacia la isla principal (el túnel bajo el puerto es para vehículos); el ferry de Gushan es el transporte principal.](/article-images/geography/kaohsiung-03.webp)
-_Vista aérea del distrito de Cijin. Photo: Wikimedia Commons contributor, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:Cijin_Island,_Kaohsiung_(52831825604).jpg)._
+_Vista aérea del distrito de Cijin. Photo: Wikimedia Commons contributor, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:Cijin_Island,_Kaohsiung_(52831825604).jpg).\_
 
 ### Los tres distritos de montaña: rukai, bunun, kanakanavu, hla’alua
 
@@ -294,7 +311,7 @@ Scene §puerto pesquero de Qianzhen: [Port of Kaohsiung first harbor commercial 
 
 Scene §estación Formosa Boulevard: [Dome of Light at Formosa Boulevard Station 2024](https://commons.wikimedia.org/wiki/File:Dome_of_Light_at_Formosa_Boulevard_Station_20240919.jpg), Cúpula de Luz de la estación Formosa Boulevard. CC BY-SA.
 
-Scene §38 distritos: [Cijin Island, Kaohsiung](https://commons.wikimedia.org/wiki/File:Cijin_Island,_Kaohsiung_(52831825604).jpg), vista aérea de la barra arenosa de Cijin. CC BY-SA.
+Scene §38 distritos: [Cijin Island, Kaohsiung](<https://commons.wikimedia.org/wiki/File:Cijin_Island,_Kaohsiung_(52831825604).jpg>), vista aérea de la barra arenosa de Cijin. CC BY-SA.
 
 Scene §río Amor: [Kaohsiung Love River](https://commons.wikimedia.org/wiki/File:Kaohsiung-Love-River.jpg), ribera turística del río Amor tras su saneamiento. CC BY-SA.
 

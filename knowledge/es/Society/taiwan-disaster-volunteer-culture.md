@@ -20,10 +20,10 @@ lastVerified: 2026-05-17
 lastHumanReview: true
 featured: false
 translatedFrom: 'Society/台灣災難志工文化.md'
-sourceCommitSha: 'c2f471732'
-sourceContentHash: 'sha256:d6c55754f67a687e'
-sourceBodyHash: 'sha256:a2ac2c125cdf8caf'
-translatedAt: '2026-05-17T05:34:54+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:2758b5b1f9c739df'
+sourceBodyHash: 'sha256:5c5a60eea00bbc8d'
+translatedAt: '2026-06-16T17:05:07Z'
 ---
 
 # Los superhombres de la pala y la sincronía de la isla: cómo la cultura de voluntariado en desastres de Taiwán influye en la identidad nacional
@@ -49,7 +49,7 @@ La velocidad de respuesta civil fue de otra magnitud. El primer día del puente 
 
 ### El pueblo de Mataian: los cimientos históricos de una cultura de resiliencia
 
-Para comprender la estructura profunda de esta movilización, es necesario remontarse al contexto cultural del lugar donde ocurrió el desastre. El pueblo de Mataian (Fata'an) es uno de los pueblos amises más grandes; "Fata'an" en lengua amis significa precisamente "frijol de árbol" (*Canavalia*), una planta que crecía abundantemente en la llanura aluvial de la quebrada de Mataian y que dio nombre al pueblo[^4][^5].
+Para comprender la estructura profunda de esta movilización, es necesario remontarse al contexto cultural del lugar donde ocurrió el desastre. El pueblo de Mataian (Fata'an) es uno de los pueblos amises más grandes; "Fata'an" en lengua amis significa precisamente "frijol de árbol" (_Canavalia_), una planta que crecía abundantemente en la llanura aluvial de la quebrada de Mataian y que dio nombre al pueblo[^4][^5].
 
 Sobre las inundaciones, el propio pueblo tiene dos versiones de su mito de la creación. Una versión relata que, en tiempos antiguos, un gran diluvio cubrió el mundo; un hermano y una hermana se refugiaron dentro de un mortero de madera alargado para trillar el grano, flotaron con la corriente hasta la cima del monte Cacora'an, y cuando las aguas bajaron descendieron y se asentaron en la zona de Mataian, donde se multiplicaron[^4]. La otra versión cuenta que en el pueblo había una mujer de belleza extraordinaria llamada Tiyamacan, a quien el dios del mar se enamoró, provocando un tsunami que inundó el pueblo; solo sobrevivieron un hombre y una mujer que flotaron en un mortero similar a una canoa, y finalmente se casaron en la misma cumbre[^4]. El punto común de ambas versiones: la inundación es destrucción, pero también el punto de partida de un nuevo comienzo. El desastre de la represa en 2025, en cierto sentido, volvió a representar esta estructura ancestral en el presente.
 
@@ -142,9 +142,9 @@ Aunque el voluntariado en desastres de Taiwán no presenta rasgos evidentes de g
 
 ## "Somos todos pueblo de aquí": la profecía de Chen Chien-nien
 
-En junio de 1999, el cantante del pueblo pinuyumayan Chen Chien-nien (Paudull) incluyó la canción "Somos compatriotas" (letra de Lin Chih-hsing, música de Chen Chien-nien) en su álbum *Ocean*[^15]. La letra dice: "Ya sean montañeses o llaneros, todos somos pueblo de aquí. Ya sean los primeros habitantes o los que llegaron después, todos somos habitantes de aquí. No somos enemigos, así que por favor respétame y déjame admirarte".
+En junio de 1999, el cantante del pueblo pinuyumayan Chen Chien-nien (Paudull) incluyó la canción "Somos compatriotas" (letra de Lin Chih-hsing, música de Chen Chien-nien) en su álbum _Ocean_[^15]. La letra dice: "Ya sean montañeses o llaneros, todos somos pueblo de aquí. Ya sean los primeros habitantes o los que llegaron después, todos somos habitantes de aquí. No somos enemigos, así que por favor respétame y déjame admirarte".
 
-Este álbum se publicó el mismo año que el terremoto de Jiji del 21 de septiembre (el terremoto ocurrió en septiembre, *Ocean* en junio), y convirtió a Chen Chien-nien en 2000 en el primer cantante indígena en ganar el premio al Mejor Cantante Masculino de Lengua Mandarina en los Premios Golden Melody[^15]. Casi 30 años después, esta letra se convirtió en práctica concreta en la zona afectada de Mataian en 2025 —más allá del nivel de eslóganes políticos y consignas de libros de texto, durante aquella semana en que miles y miles de desconocidos cargaron palas en trenes locales para entrar en el pueblo, el pueblo abrió voluntariamente la iglesia como refugio, y los afectados salían a lavar las botas de agua de los voluntarios, la letra se convirtió en acción.
+Este álbum se publicó el mismo año que el terremoto de Jiji del 21 de septiembre (el terremoto ocurrió en septiembre, _Ocean_ en junio), y convirtió a Chen Chien-nien en 2000 en el primer cantante indígena en ganar el premio al Mejor Cantante Masculino de Lengua Mandarina en los Premios Golden Melody[^15]. Casi 30 años después, esta letra se convirtió en práctica concreta en la zona afectada de Mataian en 2025 —más allá del nivel de eslóganes políticos y consignas de libros de texto, durante aquella semana en que miles y miles de desconocidos cargaron palas en trenes locales para entrar en el pueblo, el pueblo abrió voluntariamente la iglesia como refugio, y los afectados salían a lavar las botas de agua de los voluntarios, la letra se convirtió en acción.
 
 El pueblo de Mataian también mostró una nueva dimensión de las relaciones interétnicas tras las inundaciones. El desastre trascendió la dicotomía "asistente/asistido": los pueblos indígenas fueron a la vez víctimas y una fuerza importante en el rescate. La iglesia presbiteriana abrió voluntariamente refugios, los jóvenes del pueblo participaron en las labores de rescate en primera línea, y la verdadera cara de un Taiwán multicultural quedó expuesta ante la vista de todos en esta inundación[^5].
 
@@ -210,7 +210,7 @@ Este artículo utiliza 2 imágenes con licencia CC BY 2.0, almacenadas en caché
 
 [^9]: Yuan Ejecutivo (2014). "Informe de respuesta y revisión del desastre por explosión de gas en Kaohsiung". Documenta las víctimas (32 muertos, 321 heridos) de la explosión por fuga de propileno en un tubo subterráneo en Qianzhen y Lingya, Kaohsiung, en la noche del 31 de julio de 2014, y las revisiones institucionales posteriores.
 
-[^10]: Anderson, Benedict (1983). *Imagined Communities: Reflections on the Origin and Spread of Nationalism*. London: Verso. Obra clásica sobre las comunidades imaginadas; su aplicación contemporánea en el contexto taiwanés se encuentra en la traducción de Wu Rui-ren y su influencia en los discursos de identidad nacional en Taiwán tras el fin de la ley marcial.
+[^10]: Anderson, Benedict (1983). _Imagined Communities: Reflections on the Origin and Spread of Nationalism_. London: Verso. Obra clásica sobre las comunidades imaginadas; su aplicación contemporánea en el contexto taiwanés se encuentra en la traducción de Wu Rui-ren y su influencia en los discursos de identidad nacional en Taiwán tras el fin de la ley marcial.
 
 [^11]: [¡No traigan las herramientas equivocadas! El gobierno central anuncia: ahora no se necesitan superhombres de la pala, se necesitan urgentemente "superhombres de la cuchara"](https://udn.com/news/story/124616/9063560) — United Daily News (2025-10). Registro de la señal oficial del gobierno central en la segunda semana post-desastre pidiendo ajustar las herramientas de los voluntarios y la reacción en las redes sociales.
 
@@ -218,9 +218,9 @@ Este artículo utiliza 2 imágenes con licencia CC BY 2.0, almacenadas en caché
 
 [^13]: Ministerio de Relaciones Exteriores de la República de China (2011-2012). "Registro de la ayuda de Taiwán al terremoto del 11 de marzo en Japón". Compilación de la escala de las donaciones de Taiwán al terremoto del 11 de marzo en Japón, el apoyo técnico y el proceso posterior de profundización de las relaciones Taiwán-Japón.
 
-[^14]: Sabhlok, A. (2010). "Grassroots organizing and disaster management: Lessons from community-based approaches." *International Journal of Emergency Management*, 7(2), 112-128. Estudio del papel de la organización de mujeres de base SEWA en el terremoto de Gujarat de 2001 y el rescate posterior en India.
+[^14]: Sabhlok, A. (2010). "Grassroots organizing and disaster management: Lessons from community-based approaches." _International Journal of Emergency Management_, 7(2), 112-128. Estudio del papel de la organización de mujeres de base SEWA en el terremoto de Gujarat de 2001 y el rescate posterior en India.
 
-[^15]: [Chen Chien-nien / Ocean — Somos compatriotas](https://www.kkbox.com/tw/en/song/OkYSryWHwySdLLVgOl) — We Music (publicado en junio de 1999). "Somos compatriotas", letra de Lin Chih-hsing, música de Chen Chien-nien, incluida en el primer álbum en solitario de Chen Chien-nien, *Ocean*, que ganó el premio al Mejor Cantante Masculino de Lengua Mandarina en la 11.ª edición de los Premios Golden Melody en 2000.
+[^15]: [Chen Chien-nien / Ocean — Somos compatriotas](https://www.kkbox.com/tw/en/song/OkYSryWHwySdLLVgOl) — We Music (publicado en junio de 1999). "Somos compatriotas", letra de Lin Chih-hsing, música de Chen Chien-nien, incluida en el primer álbum en solitario de Chen Chien-nien, _Ocean_, que ganó el premio al Mejor Cantante Masculino de Lengua Mandarina en la 11.ª edición de los Premios Golden Melody en 2000.
 
 ---
 

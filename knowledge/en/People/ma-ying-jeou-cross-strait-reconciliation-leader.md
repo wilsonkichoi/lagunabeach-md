@@ -19,10 +19,19 @@ lastVerified: 2026-05-22
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/馬英九.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:638d3a0f5fb85b4f'
-sourceBodyHash: 'sha256:054579b8b6abb208'
-translatedAt: '2026-05-28T05:08:33+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:7ebf03343b7d94a6'
+sourceBodyHash: 'sha256:3ba24a255fbd26bc'
+translatedAt: '2026-06-16T16:59:03Z'
+sporeLinks:
+  - id: 80
+    platform: 'threads'
+    date: '2026-05-23'
+    url: 'https://www.threads.com/@taiwandotmd/post/DYpdfODkxQU'
+  - id: 81
+    platform: 'x'
+    date: '2026-05-23'
+    url: 'https://x.com/taiwandotmd/status/2057861183848550878'
 ---
 
 # Ma Ying-jeou: The Harvard Doctor of Law Who Entered Chiang Ching-kuo's Office as an English Interpreter, Served Eight Years as a President Grounded in a "Clean" Image, and Left Behind Cross-Strait Policy, the Sunflower Movement, and 22K

@@ -19,10 +19,10 @@ lastVerified: '2026-05-27'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Society/公視.md'
-sourceCommitSha: 'aaa69aba'
-sourceContentHash: 'sha256:941a68e0174e1033'
-sourceBodyHash: 'sha256:b772fb26a3100193'
-translatedAt: '2026-06-05T16:40:22Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:b3bb62c6b702b9bd'
+sourceBodyHash: 'sha256:e2bbce2eb6bb7a5c'
+translatedAt: '2026-06-16T17:03:25Z'
 ---
 
 > **30-second overview:**

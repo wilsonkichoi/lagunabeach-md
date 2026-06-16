@@ -13,7 +13,7 @@ lastVerified: 2026-03-29
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:36ecabdcaffefea4'
 sourceBodyHash: 'sha256:561ea7184d1651ca'
-translatedAt: "2026-04-14T12:33:38+08:00"
+translatedAt: '2026-06-16T17:13:36Z'
 ---
 
 # Carte culturelle des 16 peuples autochtones de Taïwan

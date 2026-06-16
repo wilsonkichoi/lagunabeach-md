@@ -20,10 +20,10 @@ lastVerified: 2026-04-28
 lastHumanReview: true
 featured: false
 translatedFrom: 'People/沈伯洋.md'
-sourceCommitSha: 'dd39065b2'
-sourceContentHash: 'sha256:264471f17f1dd86d'
-sourceBodyHash: 'sha256:ff76539057c18498'
-translatedAt: '2026-06-11T00:44:03+08:00'
+sourceCommitSha: '21f2ddb4'
+sourceContentHash: 'sha256:b4d9dc8d1282cabf'
+sourceBodyHash: 'sha256:7c55d791874ec123'
+translatedAt: '2026-06-16T17:13:49Z'
 ---
 
 # Puma Shen: He Studied China's Cognitive Warfare; Then China Put Him on a Satellite Map
@@ -205,6 +205,7 @@ In late April 2026, he cut his hair and prepared to fight another election. But 
 - [Cognitive Warfare](/society/認知作戰) — The full framework of the CCP's information warfare against Taiwan; Puma Shen is one of its principal researchers
 - [Pa Chiung](/people/八炯) — A Taiwanese YouTuber likewise targeted by the CCP, with a maximum RMB 250,000 bounty announced by China in November 2025
 - [Lai Ching-te](/people/賴清德) — Also listed among "diehard Taiwan independence separatists"; publicly supported Puma Shen in November 2025
+- [Invisible Nation](/art/看不見的國家) — The documentary closes with Taiwanese attending a civil defense class; Kuma Academy is the real-world version of that closing scene.
 - [Taiwan's Defense and Military Modernization](/society/台灣國防與軍事現代化) — The complementary relationship between Kuma Academy's civil defense education and all-out national defense
 
 ## References

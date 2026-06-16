@@ -28,10 +28,10 @@ lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/高雄市.md'
-sourceCommitSha: '31a05c44b'
+sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:3c13d7fb85f1eb0e'
 sourceBodyHash: 'sha256:f95a74cad7a8af57'
-translatedAt: '2026-06-16T02:24:16+08:00'
+translatedAt: '2026-06-16T17:03:25Z'
 ---
 
 # Kaohsiung City: In 1979, the Year It Became a Direct-Controlled Municipality, Eight Kaohsiung People Were Imprisoned in Taipei

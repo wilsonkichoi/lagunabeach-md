@@ -17,10 +17,10 @@ lastVerified: 2026-05-11
 lastHumanReview: true
 featured: true
 translatedFrom: 'Society/國立臺灣歷史博物館.md'
-sourceCommitSha: '01d9d0e73'
-sourceContentHash: 'sha256:eb6b4bd405418dc3'
-sourceBodyHash: 'sha256:c80fac2abcdaa967'
-translatedAt: '2026-05-12T11:51:05+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:0a19013fbe675c85'
+sourceBodyHash: 'sha256:16078470c5f07551'
+translatedAt: '2026-06-16T16:54:51Z'
 ---
 
 > **Aperçu en 30 secondes :** Le 29 octobre 2011, après treize années de préparation, le Musée national de l’histoire de Taïwan a ouvert ses portes dans le district d’Annan, à Tainan. Il a donné une forme bâtie à l’« historiographie de l’île de Taïwan » proposée par Ts’ao Yung-ho en 1990 : l’exposition permanente « Cette terre, ces peuples — l’histoire de Taïwan » comprend huit grandes sections, depuis l’arrivée des peuples austronésiens jusqu’à la section contemporaine « Vous aussi, vous écrivez l’histoire ». Le musée rend publiques 140 000 pièces de collection sous la Licence gouvernementale d’ouverture des données, version 1.0 (équivalente à CC BY 4.0). Après son élévation en 2021 au rang d’institution de troisième niveau, son directeur Chang Lung-chih l’a défini comme une « plateforme d’action pour l’écriture et la création collectives par toute la population »[^13]. Quand ce musée national rencontre, à l’ère de l’IA, une base de connaissances open source portée par une communauté, la mémoire collective prend une seconde forme curatoriale.

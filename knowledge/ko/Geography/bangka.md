@@ -30,10 +30,10 @@ lastVerified: '2026-05-21'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/艋舺.md'
-sourceCommitSha: '20a4ac33'
-sourceContentHash: 'sha256:e384b40a3b9c1bf5'
-sourceBodyHash: 'sha256:2adb8850a99b6a49'
-translatedAt: '2026-05-25T21:07:07Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:c05a8c5cb2792eea'
+sourceBodyHash: 'sha256:da886e84510f3d63'
+translatedAt: '2026-06-16T16:55:29Z'
 ---
 
 # 멍자: 청대 타이베이에서 가장 번화했던 곳, 지금은 타이베이에서 평균연령이 가장 높은 구

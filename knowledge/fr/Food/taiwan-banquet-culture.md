@@ -21,10 +21,10 @@ lastVerified: 2026-06-07
 lastHumanReview: false
 featured: false
 translatedFrom: 'Food/台灣辦桌文化.md'
-sourceCommitSha: 'b0e441faa'
-sourceContentHash: 'sha256:6c62955e72fc8718'
-sourceBodyHash: 'sha256:6086cefc9be2fccc'
-translatedAt: '2026-06-12T03:51:14+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:0689f4ef37606e24'
+sourceBodyHash: 'sha256:ad9bd62c3f44776c'
+translatedAt: '2026-06-16T16:54:51Z'
 ---
 
 # Les banquets de Taïwan : le _pān-toh_ qui ouvre sous l'orage, et un savoir rituel en train de plier le chapiteau

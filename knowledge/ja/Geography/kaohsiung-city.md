@@ -1,20 +1,37 @@
 ---
-title: "高雄市：1979年に直轄市へ昇格したその年、台北の監獄には八人の高雄人が収監されていました"
-description: "1979年7月1日、高雄は台湾で二番目の直轄市へ昇格しました。12月10日の世界人権デー、美麗島雑誌社が大港埔ロータリーで行った演説は、催涙ガス下の衝突へと変わりました。八人が有罪判決を受け、1980年2月28日には林義雄の台北市信義路の自宅で血の惨事が伝えられました。同じ1979年に、高雄は行政上の栄誉を得ると同時に、戦後台湾で最も重い政治的弾圧をのみ込みました。271万人が38区に散らばり、旗津の砂州、那瑪夏のブヌン族集落、中鋼の煙突、衛武営のアルミ合金屋根が一つの市の中で共存しています。この都市は45年をかけて、傷口を自らの形へと縫い合わせてきました。"
+title: '高雄市：1979年に直轄市へ昇格したその年、台北の監獄には八人の高雄人が収監されていました'
+description: '1979年7月1日、高雄は台湾で二番目の直轄市へ昇格しました。12月10日の世界人権デー、美麗島雑誌社が大港埔ロータリーで行った演説は、催涙ガス下の衝突へと変わりました。八人が有罪判決を受け、1980年2月28日には林義雄の台北市信義路の自宅で血の惨事が伝えられました。同じ1979年に、高雄は行政上の栄誉を得ると同時に、戦後台湾で最も重い政治的弾圧をのみ込みました。271万人が38区に散らばり、旗津の砂州、那瑪夏のブヌン族集落、中鋼の煙突、衛武営のアルミ合金屋根が一つの市の中で共存しています。この都市は45年をかけて、傷口を自らの形へと縫い合わせてきました。'
 date: 2026-05-18
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
-tags: ["高雄", "高雄市", "南部", "直轄市", "高雄港", "美麗島事件", "愛河", "中鋼", "衛武営", "六合夜市", "光のドーム", "美濃", "那瑪夏", "八八水害", "22県市シリーズ"]
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
+tags:
+  [
+    '高雄',
+    '高雄市',
+    '南部',
+    '直轄市',
+    '高雄港',
+    '美麗島事件',
+    '愛河',
+    '中鋼',
+    '衛武営',
+    '六合夜市',
+    '光のドーム',
+    '美濃',
+    '那瑪夏',
+    '八八水害',
+    '22県市シリーズ',
+  ]
 readingTime: 18
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/高雄市.md"
-sourceCommitSha: "544200eab"
-sourceContentHash: "sha256:832a9cde39691707"
-sourceBodyHash: "sha256:6169f035919618ee"
-translatedAt: "2026-05-19T05:08:06+08:00"
+translatedFrom: 'Geography/高雄市.md'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:3c13d7fb85f1eb0e'
+sourceBodyHash: 'sha256:f95a74cad7a8af57'
+translatedAt: '2026-06-16T17:04:12Z'
 ---
 
 # 高雄市：1979年に直轄市へ昇格したその年、台北の監獄には八人の高雄人が収監されていました
@@ -158,7 +175,7 @@ _美麗島駅光のドーム、2024-09-19。Photo: Wikimedia Commons contributor
 それぞれの区の物語は異なります。旗津区は28,000人、長さ11.3キロメートルの砂州で、フェリーが出入りの主な交通です。茂林区は1,867人で、高雄市で人口が最も少ない区です。主な住民はルカイ族で、標高は200メートルから1,000メートル以上へ上がります。鳳山区は355,183人で、高雄市で人口が最も多い区です。元は高雄県の県治所在地で、2010年の合併後、単一区としては全国第二の人口を持つ区になりました[^18]。三つの区の人口差は190倍ありますが、行政上はいずれも「高雄市某某区」と呼ばれます。
 
 ![旗津島を旗后山から遠望します。長さ11.3キロメートルの砂州に28,000人が暮らし、本島へ通じる橋はありません（過港トンネルは車両用です）。鼓山フェリーが主な交通です。](/article-images/geography/kaohsiung-03.webp)
-_旗津区の俯瞰。Photo: Wikimedia Commons contributor, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:Cijin_Island,_Kaohsiung_(52831825604).jpg)._
+_旗津区の俯瞰。Photo: Wikimedia Commons contributor, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:Cijin_Island,_Kaohsiung_(52831825604).jpg).\_
 
 ### 山地三区：ルカイ、ブヌン、カナカナブ、ラアロア
 
@@ -294,7 +311,7 @@ Scene §前鎮漁港：[Port of Kaohsiung first harbor commercial area 2021](htt
 
 Scene §美麗島駅：[Dome of Light at Formosa Boulevard Station 2024](https://commons.wikimedia.org/wiki/File:Dome_of_Light_at_Formosa_Boulevard_Station_20240919.jpg)、美麗島駅光のドーム。CC BY-SA。
 
-Scene §38区：[Cijin Island, Kaohsiung](https://commons.wikimedia.org/wiki/File:Cijin_Island,_Kaohsiung_(52831825604).jpg)、旗津砂州の俯瞰。CC BY-SA。
+Scene §38区：[Cijin Island, Kaohsiung](<https://commons.wikimedia.org/wiki/File:Cijin_Island,_Kaohsiung_(52831825604).jpg>)、旗津砂州の俯瞰。CC BY-SA。
 
 Scene §愛河：[Kaohsiung Love River](https://commons.wikimedia.org/wiki/File:Kaohsiung-Love-River.jpg)、愛河整治後の観光河岸。CC BY-SA。
 

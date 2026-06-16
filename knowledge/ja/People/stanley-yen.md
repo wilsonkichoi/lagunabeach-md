@@ -19,10 +19,10 @@ lastVerified: '2026-04-06'
 lastHumanReview: true
 featured: false
 translatedFrom: 'People/嚴長壽.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:bf2c8c297d2e1acd'
-sourceBodyHash: 'sha256:c4adf4d38cbc289a'
-translatedAt: '2026-05-01T22:19:01+08:00'
+sourceCommitSha: 'df2e7558'
+sourceContentHash: 'sha256:259b129f305ff5f9'
+sourceBodyHash: 'sha256:366255e36a4fa0f5'
+translatedAt: '2026-06-16T17:15:00Z'
 category: People
 ---
 
@@ -146,6 +146,7 @@ category: People
 - [台湾原住民族16族文化マップ](/culture/台灣原住民族16族文化地圖) —— 均一学校の核心理念：原住民文化は「救う」必要があるものではなく、尊重される必要があるもの
 - [台湾コーヒー文化](/lifestyle/台灣咖啡文化) —— 厳長寿が亜都でプレミアムサービスを推進していた時代、台湾人はまだインスタントコーヒーを飲んでいた
 - [Teach For Taiwan（台湾のために教える）](/society/為台灣而教TFT) —— 厳長寿が生み出したもう一つの教育プロジェクト。劉安婷が400人の若者を率いて過疎地の教室へ
+- [呂冠緯](/people/呂冠緯) —— 均一教育プラットフォーム理事長。「均一」という名前は、まさに厳長寿が創設した台東均一中小学から借りたもの
 
 ## 参考資料
 

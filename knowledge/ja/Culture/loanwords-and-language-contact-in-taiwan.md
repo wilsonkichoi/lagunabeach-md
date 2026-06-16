@@ -13,7 +13,7 @@ translatedFrom: Culture/台灣外來語與語言接觸.md
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:eec4f271a84a1f94'
 sourceBodyHash: 'sha256:8e1b986c4cf0a1f3'
-translatedAt: 2026-05-01T18:02:56+08:00
+translatedAt: '2026-06-16T17:19:04Z'
 ---
 
 > **30秒概要：** 台湾人が最も頻繁に問題視する「外来語」の現象だが、実は台湾自身が世界で最も成功した外来語融合の実験場なのである。

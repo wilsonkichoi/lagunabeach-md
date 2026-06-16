@@ -25,10 +25,10 @@ lastVerified: 2026-05-09
 lastHumanReview: false
 featured: false
 translatedFrom: 'Nature/颱風.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:fb28c7a415f87d9c'
-sourceBodyHash: 'sha256:c57123f891fb2cee'
-translatedAt: '2026-06-10T16:45:50Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:b0a47a120aff0621'
+sourceBodyHash: 'sha256:b8ebcfc4e0a96ce7'
+translatedAt: '2026-06-16T17:05:54Z'
 ---
 
 # Pouvoir prévoir le vent et la pluie, mais pas le destin : quatre siècles de Taïwan face aux typhons

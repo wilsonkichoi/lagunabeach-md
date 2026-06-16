@@ -1,6 +1,6 @@
 ---
 title: "Les Supermen à pelle et la synchronisation insulaire : comment la culture taïwanaise du bénévolat en cas de catastrophe façonne l'identité nationale"
-description: "En partant des « Supermen à pelle » de la crue de Mataian en 2025, cet article retrace la culture du bénévolat en cas de catastrophe accumulée à Taïwan depuis le séisme de Jiji du 21 septembre 1999, le mythe de la crue fondatrice de la tribu de Mataian et la résilience communautaire, le modèle Tzu Chi et les trois postes de commandement en moins de 500 mètres à Guangfu, et examine le moment où la chanson *Nous sommes compatriotes* de Chen Chien-nian est devenue un acte concret lors de cette inondation."
+description: 'En partant des « Supermen à pelle » de la crue de Mataian en 2025, cet article retrace la culture du bénévolat en cas de catastrophe accumulée à Taïwan depuis le séisme de Jiji du 21 septembre 1999, le mythe de la crue fondatrice de la tribu de Mataian et la résilience communautaire, le modèle Tzu Chi et les trois postes de commandement en moins de 500 mètres à Guangfu, et examine le moment où la chanson *Nous sommes compatriotes* de Chen Chien-nian est devenue un acte concret lors de cette inondation.'
 date: 2026-03-24
 author: 'Taiwan.md Contributors'
 category: 'Society'
@@ -20,10 +20,10 @@ lastVerified: 2026-05-17
 lastHumanReview: true
 featured: false
 translatedFrom: 'Society/台灣災難志工文化.md'
-sourceCommitSha: 'c2f471732'
-sourceContentHash: 'sha256:d6c55754f67a687e'
-sourceBodyHash: 'sha256:a2ac2c125cdf8caf'
-translatedAt: '2026-05-17T05:34:56+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:2758b5b1f9c739df'
+sourceBodyHash: 'sha256:5c5a60eea00bbc8d'
+translatedAt: '2026-06-16T17:05:54Z'
 ---
 
 # Les Supermen à pelle et la synchronisation insulaire : comment la culture taïwanaise du bénévolat en cas de catastrophe façonne l'identité nationale
@@ -61,7 +61,7 @@ L'organisation sociale de la tribu de Mataian fait écho à cette structure de r
 
 ### 1999 : le séisme de Jiji et la naissance de la mobilisation civile
 
-Le 21 septembre 1999 à 1 h 47 du matin, le séisme de Jiji de magnitude 7,3 sur l'échelle de Richter a transformé la gestion des catastrophes à Taïwan. Cette catastrophe, qui a causé 2 415 morts, a conduit à l'adoption en 2000 de la *Loi sur la prévention et la protection contre les catastrophes*, et a donné naissance à la forme embryonnaire de la mobilisation civile contemporaine de secours en cas de catastrophe à Taïwan[^6].
+Le 21 septembre 1999 à 1 h 47 du matin, le séisme de Jiji de magnitude 7,3 sur l'échelle de Richter a transformé la gestion des catastrophes à Taïwan. Cette catastrophe, qui a causé 2 415 morts, a conduit à l'adoption en 2000 de la _Loi sur la prévention et la protection contre les catastrophes_, et a donné naissance à la forme embryonnaire de la mobilisation civile contemporaine de secours en cas de catastrophe à Taïwan[^6].
 
 La Fondation Tzu Chi a démontré une capacité organisationnelle remarquable lors du séisme de 921. Dans les heures suivant le séisme, Tzu Chi a mobilisé l'achat d'urgence de 1 600 sacs mortuaires et de draps blancs pour couvrir les corps ; des bénévoles ont apporté des ustensiles de cuisine et ont fourni en permanence des repas chauds au bord des routes et dans les salles de classe pour réconfort des survivants[^7]. Cette capacité à « être sur place dès la première heure » ne tombait pas du ciel : après le typhon Herb en 1996, Tzu Chi avait commencé à promouvoir la « communautarisation des bénévoles », enracinant les capacités de secours dans des antennes locales dans chaque canton et village — former les troupes en temps de paix, les déployer en temps de crise[^7]. Les uniformes de bénévoles « ciel bleu, nuages blancs » sont depuis devenus le symbole visuel le plus reconnaissable des scènes de catastrophe à Taïwan.
 
@@ -142,13 +142,13 @@ Le bénévolat en cas de catastrophe à Taïwan, bien qu'il ne présente pas de 
 
 ## « Nous sommes tous les peuples de cet endroit » : la prophétie de Chen Chien-nian
 
-En juin 1999, l'artiste Puyuma Chen Chien-nian (Paudull) a inclus la chanson *Nous sommes compatrioles* (我們是同胞, paroles de Lin Zhi-hsing, musique de Chen Chien-nian) dans son album *Ocean* (海洋)[^15]. Les paroles disent : « Montagnards ou gens de plaine, nous sommes tous les peuples de cet endroit. Premiers habitants ou venus plus tard, nous sommes tous les résidents de cet endroit. Nous ne sommes pas des ennemis, alors je te demande de me respecter, et laisse-moi t'admirer. »
+En juin 1999, l'artiste Puyuma Chen Chien-nian (Paudull) a inclus la chanson _Nous sommes compatrioles_ (我們是同胞, paroles de Lin Zhi-hsing, musique de Chen Chien-nian) dans son album _Ocean_ (海洋)[^15]. Les paroles disent : « Montagnards ou gens de plaine, nous sommes tous les peuples de cet endroit. Premiers habitants ou venus plus tard, nous sommes tous les résidents de cet endroit. Nous ne sommes pas des ennemis, alors je te demande de me respecter, et laisse-moi t'admirer. »
 
-Cet album est sorti la même année que le séisme de Jiji du 21 septembre (le séisme a eu lieu en septembre, *Ocean* en juin), faisant de Chen Chien-nian en 2000 le premier artiste autochtone à remporter le prix du meilleur interprète masculin en langue nationale aux Golden Melody Awards[^15]. Près de 30 ans plus tard, ces paroles sont devenues une réalité concrète dans la zone sinistrée de Mataian en 2025 — au-delà des slogans politiques et des formules scolaires, lorsque des milliers d'étrangers ont pris des pelles et des trains pour se rendre dans la tribu, que la tribu autochtone a ouvert activement les églises comme refuges, et que les sinistrés sont sortis pour laver les bottes des bénévoles cette semaine-là, ces paroles sont devenues des actes.
+Cet album est sorti la même année que le séisme de Jiji du 21 septembre (le séisme a eu lieu en septembre, _Ocean_ en juin), faisant de Chen Chien-nian en 2000 le premier artiste autochtone à remporter le prix du meilleur interprète masculin en langue nationale aux Golden Melody Awards[^15]. Près de 30 ans plus tard, ces paroles sont devenues une réalité concrète dans la zone sinistrée de Mataian en 2025 — au-delà des slogans politiques et des formules scolaires, lorsque des milliers d'étrangers ont pris des pelles et des trains pour se rendre dans la tribu, que la tribu autochtone a ouvert activement les églises comme refuges, et que les sinistrés sont sortis pour laver les bottes des bénévoles cette semaine-là, ces paroles sont devenues des actes.
 
 La tribu de Mataian a également présenté une nouvelle dimension des relations interethniques après l'inondation. La catastrophe a transcendé la dualité « aidants/aidés » — la tribu autochtone était à la fois victime et force de secours importante. L'Église presbytérienne a ouvert activement des refuges, les jeunes de la tribu ont participé aux opérations de secours de première ligne, et le visage réel d'un Taïwan multiculturel a été déployé par cette inondation[^5].
 
-> ✦ **Note du commissaire** : Chen Chien-nian a publié *Nous sommes compatriotes* en 1999, trois mois avant le séisme de 921. Une chanson sur la coexistence entre Autochtones et Han est devenue, 26 ans plus tard, une scène réelle lors d'une inondation. C'est l'un des rares moments où la musique populaire dialogue directement avec la réalité politique et sociale contemporaine.
+> ✦ **Note du commissaire** : Chen Chien-nian a publié _Nous sommes compatriotes_ en 1999, trois mois avant le séisme de 921. Une chanson sur la coexistence entre Autochtones et Han est devenue, 26 ans plus tard, une scène réelle lors d'une inondation. C'est l'un des rares moments où la musique populaire dialogue directement avec la réalité politique et sociale contemporaine.
 
 ## La démocratie de catastrophe à l'ère numérique
 
@@ -200,17 +200,17 @@ Cet article utilise 2 images sous licence CC BY 2.0, mises en cache dans `public
 
 [^4]: [Tribu de Mataian](https://zh.wikipedia.org/zh-tw/%E9%A6%AC%E5%A4%AA%E9%9E%8D%E9%83%A8%E8%90%BD) — Wikipédia. Détails sur la signification de Fata'an en langue Amis, les deux versions du mythe de la création et l'étendue géographique de la tribu.
 
-[^5]: [Entre transmission et transformation — Exposition de retour d'objets culturels de la tribu Amis de Mataian](https://research.sinica.edu.tw/fataan/) — Académie sinique, *Yan Zhi You Wu* (2025). Synthèse académique du système d'organisation par âge, du système de leadership et de la structure d'autonomie tribale contemporaine de la tribu de Mataian.
+[^5]: [Entre transmission et transformation — Exposition de retour d'objets culturels de la tribu Amis de Mataian](https://research.sinica.edu.tw/fataan/) — Académie sinique, _Yan Zhi You Wu_ (2025). Synthèse académique du système d'organisation par âge, du système de leadership et de la structure d'autonomie tribale contemporaine de la tribu de Mataian.
 
-[^6]: [Séisme du 21 septembre](https://zh.wikipedia.org/wiki/921%E5%A4%A7%E5%9C%B0%E9%9C%87) — Wikipédia. Synthèse du séisme de Jiji du 21 septembre 1999 à 1 h 47 du matin (magnitude 7,3), des victimes, de la reconstruction post-séisme et du contexte législatif de la *Loi sur la prévention et la protection contre les catastrophes*.
+[^6]: [Séisme du 21 septembre](https://zh.wikipedia.org/wiki/921%E5%A4%A7%E5%9C%B0%E9%9C%87) — Wikipédia. Synthèse du séisme de Jiji du 21 septembre 1999 à 1 h 47 du matin (magnitude 7,3), des victimes, de la reconstruction post-séisme et du contexte législatif de la _Loi sur la prévention et la protection contre les catastrophes_.
 
 [^7]: [Chronique de l'aide de Tzu Chi lors du séisme de 921](https://www.tzuchi.org.tw/921/index.htm) — Fondation Tzu Chi (mises à jour successives depuis 1999). Documente l'achat d'urgence de 1 600 sacs mortuaires, la promotion de la « communautarisation des bénévoles » après le typhon Herb, et la mobilisation de 100 000 bénévoles après le séisme de 921.
 
 [^8]: [Du séisme du 11 mars au Japon à l'intégration et au soutien des ONG après les grandes catastrophes](https://rightplus.org/2016/) — Right Plus (2016). Retour sur le processus de maturation de l'intégration des ONG taïwanaises après le typhon Morakot, à travers l'expérience du 11 mars, incluant le cas du secours au village de Xiaolin.
 
-[^9]: Yuan exécutif (2014). *Rapport sur la réponse d'urgence et le bilan de l'explosion de Kaohsiung*. Documente l'explosion par fuite de propylène de canalisations souterraines à Kaohsiung dans la nuit du 31 juillet 2014 (32 morts, 321 blessés) et les réformes institutionnelles subséquentes.
+[^9]: Yuan exécutif (2014). _Rapport sur la réponse d'urgence et le bilan de l'explosion de Kaohsiung_. Documente l'explosion par fuite de propylène de canalisations souterraines à Kaohsiung dans la nuit du 31 juillet 2014 (32 morts, 321 blessés) et les réformes institutionnelles subséquentes.
 
-[^10]: Anderson, Benedict (1983). *Imagined Communities: Reflections on the Origin and Spread of Nationalism*. London : Verso. Théorie classique de la communauté imaginée ; pour l'application dans le contexte taïwanais, voir la traduction de Wu Rui-ren et son influence sur le discours national taïwanais après la levée de la loi martiale.
+[^10]: Anderson, Benedict (1983). _Imagined Communities: Reflections on the Origin and Spread of Nationalism_. London : Verso. Théorie classique de la communauté imaginée ; pour l'application dans le contexte taïwanais, voir la traduction de Wu Rui-ren et son influence sur le discours national taïwanais après la levée de la loi martiale.
 
 [^11]: [N'apportez pas les mauvais outils ! Le gouvernement annonce : les Supermen à pelle ne sont plus nécessaires, nous avons désespérément besoin de « Supermen à cuillère »](https://udn.com/news/story/124616/9063560) — United Daily News (2025-10). Signal officiel du gouvernement central appelant à réorienter les outils des bénévoles la deuxième semaine après la catastrophe et réactions sur les réseaux sociaux.
 
@@ -218,9 +218,9 @@ Cet article utilise 2 images sous licence CC BY 2.0, mises en cache dans `public
 
 [^13]: Ministère des Affaires étrangères de la République de Chine (2011-2012). « Chronique de l'aide taïwanaise au séisme du 11 mars au Japon ». Synthèse de l'ampleur des dons, du soutien technique et du processus d'approfondissement des relations Taïwan-Japon après le séisme du 11 mars.
 
-[^14]: Sabhlok, A. (2010). « Grassroots organizing and disaster management: Lessons from community-based approaches. » *International Journal of Emergency Management*, 7(2), 112-128. Étude du rôle de l'organisation féminine grassroots SEWA dans le séisme du Gujarat de 2001 et les secours subséquents.
+[^14]: Sabhlok, A. (2010). « Grassroots organizing and disaster management: Lessons from community-based approaches. » _International Journal of Emergency Management_, 7(2), 112-128. Étude du rôle de l'organisation féminine grassroots SEWA dans le séisme du Gujarat de 2001 et les secours subséquents.
 
-[^15]: [Chen Chien-nian / Ocean — Nous sommes compatriotes](https://www.kkbox.com/tw/en/song/OkYSryWHwySdLLVgOl) — Taiwan Colors Music / We Music (sorti en juin 1999). *Nous sommes compatriotes*, paroles de Lin Zhi-hsing, musique de Chen Chien-nian, incluse dans le premier album solo de Chen Chien-nian, *Ocean*, qui a remporté le prix du meilleur interprète masculin en langue nationale lors de la 11e cérémonie des Golden Melody Awards en 2000.
+[^15]: [Chen Chien-nian / Ocean — Nous sommes compatriotes](https://www.kkbox.com/tw/en/song/OkYSryWHwySdLLVgOl) — Taiwan Colors Music / We Music (sorti en juin 1999). _Nous sommes compatriotes_, paroles de Lin Zhi-hsing, musique de Chen Chien-nian, incluse dans le premier album solo de Chen Chien-nian, _Ocean_, qui a remporté le prix du meilleur interprète masculin en langue nationale lors de la 11e cérémonie des Golden Melody Awards en 2000.
 
 ---
 

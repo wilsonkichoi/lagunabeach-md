@@ -20,20 +20,11 @@ lastVerified: '2026-05-28'
 lastHumanReview: 'false'
 featured: 'true'
 image: '/article-images/people/yaxian-portrait-2012.webp'
-sporeLinks:
-  - id: 140
-    platform: 'threads'
-    date: '2026-06-14'
-    url: 'https://www.threads.com/@taiwandotmd/post/DZj9pKDk-nx'
-  - id: 141
-    platform: 'x'
-    date: '2026-06-14'
-    url: 'https://x.com/taiwandotmd/status/2066097087318790182'
 translatedFrom: 'People/瘂弦.md'
-sourceCommitSha: '4d39a7d2'
+sourceCommitSha: '88f47159'
 sourceContentHash: 'sha256:e294ff8cf9b9ac0a'
 sourceBodyHash: 'sha256:dd3ab574ead8013b'
-translatedAt: '2026-06-14T16:37:40Z'
+translatedAt: '2026-06-16T17:15:54Z'
 ---
 
 # Ya Hsien: After Writing Abyss, He Stopped Writing; in the United Daily News Supplement, His Later Life Became a Page in Poetry History

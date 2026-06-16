@@ -10,10 +10,10 @@ lastVerified: 2026-05-11
 lastHumanReview: false
 featured: false
 translatedFrom: 'Culture/台灣YouTuber產業與文化.md'
-sourceCommitSha: 'cea9f7087'
-sourceContentHash: 'sha256:d6ed68b20962bf16'
-sourceBodyHash: 'sha256:77a417d3b5938b17'
-translatedAt: '2026-05-12T11:51:04+08:00'
+sourceCommitSha: 'ac86475b'
+sourceContentHash: 'sha256:32b847d857685cef'
+sourceBodyHash: 'sha256:d7dfc5eea7475116'
+translatedAt: '2026-06-16T17:14:05Z'
 ---
 
 > **30초 개요:** 2024년 3월, 대만의 마술 YouTuber 「Chi Hsuan Tricking」이 대만 최초의 천만 구독 창작자가 되었다. 이는 대만 YouTube 문화가 2008년 차이아가(蔡阿嘎)의 애대만 시사 영상에서 출발해 국제 경쟁력을 갖춘 콘텐츠 수출 플랫폼으로 진화했음을 보여주는 사건이다. 대만에서 YouTube는 인터넷 이용자의 95% 이상에 도달하며, 쇼츠(Shorts) 시청 시간이 차지하는 비중은 이미 75%를 넘어섰다. 창작자들은 순수 동영상 제작에서 브랜드화와 다각적 수익화로 전환하는 시기를 지나고 있다.
@@ -76,6 +76,7 @@ AI 기술이 창작의 진입 장벽을 낮추면서, 대만 창작자들은 「
 **더 읽을거리**:
 
 - [팬사이언스(泛科學)](/society/泛科學) — 과학 대중화 글에서 짧은 동영상, YouTube MCN, 지식 창작자 서비스로 나아간 사례를 통해 지식형 창작자가 알고리즘과 상업화에 어떻게 대응하는지를 보완해 보여준다.
+- [우밍샤오잔(無名小站)](/culture/無名小站) — 대만 1세대 아마추어 창작자(완완, 주바다오, 정메이 앨범)의 요람. YouTuber가 등장하기 전의 창작자 경제는 바로 여기서 자라났다.
 
 ## 참고 자료
 

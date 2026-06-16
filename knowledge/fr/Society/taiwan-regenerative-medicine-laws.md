@@ -21,10 +21,10 @@ lastVerified: 2026-05-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Society/台灣再生醫療雙法沿革從業人員告白.md'
-sourceCommitSha: '49e065a4'
-sourceContentHash: 'sha256:0f033d635b472973'
-sourceBodyHash: 'sha256:06cd641264af37d8'
-translatedAt: '2026-06-06T00:00:00Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:067149f437c5a573'
+sourceBodyHash: 'sha256:dcdc7781d0e5eb30'
+translatedAt: '2026-06-16T17:05:54Z'
 ---
 
 ![Katalin Karikó et Drew Weissman recevant ensemble la médaille Life Science en 2022, posant devant un panneau, Karikó vêtue d’un tailleur rouge et Weissman d’un costume sombre](/article-images/society/kariko-weissman-life-science-2022.webp)

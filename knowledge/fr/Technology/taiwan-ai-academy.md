@@ -1,20 +1,29 @@
 ---
-title: "L’École taïwanaise d’intelligence artificielle : cet appel resté inachevé, et dix mille ingénieurs en IA"
-description: "Le 27 mars 2020, Chen Shengwei appela avec gravité la rédactrice en chef du magazine CommonWealth : il voulait lancer un cours de programmation gratuit pour toute la population. Deux jours plus tard, il chuta en rollers ; treize jours après, il mourut, à 44 ans. Au moment de sa disparition, l’École taïwanaise d’intelligence artificielle (AIA), qu’il avait fondée en 2018, avait déjà formé plus de 6 000 personnes. À la même période, le Conseil national du développement annonçait, avec sa stratégie « petit pays, grande stratégie IA », 16 milliards de dollars taïwanais sur cinq ans ; lui créa son école grâce à 180 millions de dollars taïwanais levés auprès de six entreprises, dont Formosa Plastics, Chi Mei et Inventec. Huit ans plus tard, les anciens élèves dépassent les dix mille. L’AIA est, dans la montée en gamme industrielle de Taïwan, la pièce du puzzle la moins typiquement taïwanaise."
+title: 'L’École taïwanaise d’intelligence artificielle : cet appel resté inachevé, et dix mille ingénieurs en IA'
+description: 'Le 27 mars 2020, Chen Shengwei appela avec gravité la rédactrice en chef du magazine CommonWealth : il voulait lancer un cours de programmation gratuit pour toute la population. Deux jours plus tard, il chuta en rollers ; treize jours après, il mourut, à 44 ans. Au moment de sa disparition, l’École taïwanaise d’intelligence artificielle (AIA), qu’il avait fondée en 2018, avait déjà formé plus de 6 000 personnes. À la même période, le Conseil national du développement annonçait, avec sa stratégie « petit pays, grande stratégie IA », 16 milliards de dollars taïwanais sur cinq ans ; lui créa son école grâce à 180 millions de dollars taïwanais levés auprès de six entreprises, dont Formosa Plastics, Chi Mei et Inventec. Huit ans plus tard, les anciens élèves dépassent les dix mille. L’AIA est, dans la montée en gamme industrielle de Taïwan, la pièce du puzzle la moins typiquement taïwanaise.'
 date: 2026-05-18
-author: "Taiwan.md"
-category: "Technology"
-subcategory: "人工智慧"
-tags: ["intelligence artificielle", "éducation", "Chen Shengwei", "AIA", "industrie technologique taïwanaise", "Academia Sinica", "politique de l’IA"]
+author: 'Taiwan.md'
+category: 'Technology'
+subcategory: '人工智慧'
+tags:
+  [
+    'intelligence artificielle',
+    'éducation',
+    'Chen Shengwei',
+    'AIA',
+    'industrie technologique taïwanaise',
+    'Academia Sinica',
+    'politique de l’IA',
+  ]
 readingTime: 18
 lastVerified: 2026-05-18
 lastHumanReview: true
 featured: true
-translatedFrom: "Technology/台灣人工智慧學校.md"
-sourceCommitSha: "96945e450"
-sourceContentHash: "sha256:5beed3bcd5362b88"
-sourceBodyHash: "sha256:de487b6c8ffd4407"
-translatedAt: "2026-05-18T20:48:56+08:00"
+translatedFrom: 'Technology/台灣人工智慧學校.md'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:4e403df024cd43dc'
+sourceBodyHash: 'sha256:04e9009c16ede3cb'
+translatedAt: '2026-06-16T16:54:51Z'
 ---
 
 # L’École taïwanaise d’intelligence artificielle : cet appel resté inachevé, et dix mille ingénieurs en IA

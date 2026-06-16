@@ -21,7 +21,7 @@ translatedFrom: 'Culture/台灣華語的演化.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:2b37211d946c848c'
 sourceBodyHash: 'sha256:0b62bbb2f4c7cd6b'
-translatedAt: '2026-04-14T12:34:13+08:00'
+translatedAt: '2026-06-16T17:19:04Z'
 ---
 
 > **En 30 secondes :** Pourquoi le chinois parlé à Taïwan a-t-il cette forme particulière ? Ce n'est pas le résultat d'une politique planifiée, mais le produit naturel de quatre siècles de vie insulaire, déposé couche après couche comme des strates géologiques. Des toponymes hérités des colons hollandais aux emprunts japonais infiltrés sur cinquante ans, de la divergence lexicale de 1949 jusqu'aux tensions linguistiques de l'ère numérique — chaque couche porte l'empreinte d'une vie réelle, et non d'une posture politique.

@@ -25,10 +25,10 @@ sporeLinks:
     date: '2026-06-04'
     url: 'https://x.com/taiwandotmd/status/2062529681283522655'
 translatedFrom: 'Society/中華台北.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:2b2c4d3c765d642b'
-sourceBodyHash: 'sha256:554fc5a28e8c0743'
-translatedAt: '2026-06-10T16:43:34Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:139126ed14d761b3'
+sourceBodyHash: 'sha256:67435314dcab3a3a'
+translatedAt: '2026-06-16T16:59:03Z'
 ---
 
 # Chinese Taipei: The Ticket That Lets Taiwan Compete but Can’t Print Its Own Name
@@ -188,6 +188,7 @@ The ticket that lets **Taiwan** step onto the field still cannot bear its own na
 - [Taiwan’s Diplomatic Allies and International Diplomacy](/society/台灣邦交國與國際外交) — How the “Olympic model” extends beyond sport to Taiwan’s formal diplomatic arena.
 - [Chi‑cheng Jì](/people/紀政) — From the 1968 “Flying Antelope” bronze to the 2018 name‑change referendum initiator, a complete arc.
 - [Yang Chuan‑kuang](/people/楊傳廣) — The 1960 Rome decathlon silver medalist who won Taiwan’s first Olympic medal under the “Formosa” name.
+- [The Invisible Country](/art/看不見的國家) — In this documentary, Chi Cheng holds up her 1968 Olympic bronze medal and asks back, “Is ‘Chinese Taipei’ the name of a country?”
 
 ## Image Credits
 

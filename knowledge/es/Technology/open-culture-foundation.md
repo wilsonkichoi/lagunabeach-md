@@ -20,10 +20,10 @@ lastVerified: 2026-06-04
 lastHumanReview: false
 featured: false
 translatedFrom: 'Technology/開放文化基金會.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:37f0be012505ad0e'
-sourceBodyHash: 'sha256:b03ef22e9c42b62e'
-translatedAt: '2026-06-07T00:37:31+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:e2396069534b4e28'
+sourceBodyHash: 'sha256:429230fac9b89ba1'
+translatedAt: '2026-06-16T17:04:27Z'
 ---
 
 # Fundación Cultura Abierta: ayudar al grupo más ingobernable de Taiwán a hacer lo más aburrido

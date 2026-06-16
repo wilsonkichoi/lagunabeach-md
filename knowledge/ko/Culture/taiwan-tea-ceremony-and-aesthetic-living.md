@@ -13,7 +13,7 @@ translatedFrom: 'Culture/台灣茶道與生活美學.md'
 sourceCommitSha: 'e564525c'
 sourceContentHash: 'sha256:741b3d02ada8cbbb'
 sourceBodyHash: 'sha256:31e39ab99f97ad00'
-translatedAt: '2026-04-14T07:46:34+08:00'
+translatedAt: '2026-06-16T17:19:04Z'
 ---
 
 # 대만의 다도와 생활 미학

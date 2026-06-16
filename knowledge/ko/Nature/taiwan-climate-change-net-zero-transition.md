@@ -26,10 +26,10 @@ lastVerified: '2026-05-19'
 lastHumanReview: true
 featured: true
 translatedFrom: 'Nature/台灣氣候危機與淨零轉型.md'
-sourceCommitSha: '31a05c44b'
+sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:690ecb6c58309760'
 sourceBodyHash: 'sha256:36525caaf207b712'
-translatedAt: '2026-06-16T02:24:16+08:00'
+translatedAt: '2026-06-16T16:55:29Z'
 ---
 
 # 타이완 기후 위기와 넷제로 전환: 핵3 국민투표가 부결된 날, 물리적 한계의 선택은 막 시작되었다

@@ -21,10 +21,10 @@ lastVerified: 2026-05-29
 lastHumanReview: false
 featured: true
 translatedFrom: 'Technology/科技園區發展.md'
-sourceCommitSha: '31a05c44b'
+sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:af69e6f051c9c55a'
 sourceBodyHash: 'sha256:87c841c432ba710a'
-translatedAt: '2026-06-16T00:44:26+08:00'
+translatedAt: '2026-06-16T16:38:41Z'
 ---
 
 # 타이완 과학단지: 논 한 평의 도박이 세계의 생명선을 만들고, 동시에 치명적 약점이 되다

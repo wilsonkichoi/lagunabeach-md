@@ -30,10 +30,10 @@ lastVerified: '2026-05-21'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/艋舺.md'
-sourceCommitSha: '31a05c44b'
+sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:c05a8c5cb2792eea'
 sourceBodyHash: 'sha256:da886e84510f3d63'
-translatedAt: '2026-06-16T02:24:16+08:00'
+translatedAt: '2026-06-16T17:04:27Z'
 ---
 
 # Bangka: el lugar más animado del Taipéi bajo dominio Qing, hoy el distrito con la edad promedio más alta de Taipéi

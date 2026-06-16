@@ -19,10 +19,10 @@ readingTime: 12
 lastVerified: 2026-06-07
 lastHumanReview: false
 translatedFrom: 'People/黃山料.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:dba98b3ec5b142b0'
-translatedAt: '2026-06-10T16:45:50Z'
-sourceBodyHash: 'sha256:a1dcff0ad13c1e91'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:7ecc75e3d3f02f0a'
+translatedAt: '2026-06-16T16:54:51Z'
+sourceBodyHash: 'sha256:0d3c13e2c5763c28'
 ---
 
 # Huang Shanliao: No One Looked at the Champion's Clothes, So He Started Selling "One-Sentence Comfort"

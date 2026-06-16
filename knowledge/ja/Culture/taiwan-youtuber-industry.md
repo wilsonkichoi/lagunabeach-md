@@ -10,10 +10,10 @@ lastVerified: 2026-05-11
 lastHumanReview: false
 featured: false
 translatedFrom: 'Culture/台灣YouTuber產業與文化.md'
-sourceCommitSha: 'cea9f7087'
-sourceContentHash: 'sha256:d6ed68b20962bf16'
-sourceBodyHash: 'sha256:77a417d3b5938b17'
-translatedAt: '2026-05-12T11:51:04+08:00'
+sourceCommitSha: 'ac86475b'
+sourceContentHash: 'sha256:32b847d857685cef'
+sourceBodyHash: 'sha256:d7dfc5eea7475116'
+translatedAt: '2026-06-16T17:15:00Z'
 ---
 
 > **30秒概観：** 2024年3月、台湾のマジック系YouTuber「Chi Hsuan Tricking」が台湾初の登録者数1,000万人クリエイターとなりました。これは、台湾のYouTube文化が、2008年の蔡阿嘎による台湾愛をテーマにした時事動画から、国際競争力を備えたコンテンツ輸出プラットフォームへ進化したことを示しています。台湾におけるYouTubeの到達率はネット利用者の95％を超え、ショート動画（Shorts）の視聴時間比率はすでに75％を突破しています。クリエイターは、純粋な動画制作から、ブランド化と多元的な収益化へ向かう転換期にあります。
@@ -76,6 +76,7 @@ AI技術が創作の参入障壁を下げるにつれて、台湾のクリエイ
 **関連読書**：
 
 - [パン・サイエンス（泛科學）](/society/泛科學) — 科学普及記事からショート動画、YouTube MCN、知識系クリエイター支援へと展開した事例であり、知識型クリエイターがアルゴリズムと商業化にどのように向き合うのかを補足します。
+- [無名小站](/culture/無名小站) — 台湾第一世代の素人クリエイター（彎彎、九把刀、ビューティーアルバム）の揺りかご。YouTuberが登場する前のクリエイター・エコノミーは、ここから育った。
 
 ## 参考資料
 

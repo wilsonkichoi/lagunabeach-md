@@ -20,10 +20,10 @@ lastVerified: 2026-05-19
 lastHumanReview: true
 featured: true
 translatedFrom: 'Technology/台灣人工智慧發展與未來策略.md'
-sourceCommitSha: '89026b10'
-sourceContentHash: 'sha256:d7e4d2422c367c4b'
-sourceBodyHash: 'sha256:5c4408b02aa462ff'
-translatedAt: '2026-05-25T21:07:36Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:ea05ddc3465f02eb'
+sourceBodyHash: 'sha256:c1a908bbd971d40d'
+translatedAt: '2026-06-16T16:54:51Z'
 ---
 
 # Développement de l’intelligence artificielle à Taïwan et stratégies d’avenir : le ticket matériel est acquis, où se jouera la prochaine bataille ?

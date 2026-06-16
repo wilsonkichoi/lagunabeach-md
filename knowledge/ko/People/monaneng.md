@@ -10,10 +10,10 @@ lastVerified: 2026-06-03
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/莫那能.md'
-sourceCommitSha: 'd99a231b5'
-sourceContentHash: 'sha256:7457dd9d76d393b5'
-sourceBodyHash: 'sha256:9f6cfc94d06126bd'
-translatedAt: '2026-06-03T21:58:47+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:f5aebb543340d143'
+sourceBodyHash: 'sha256:2f3617098391a7c1'
+translatedAt: '2026-06-16T16:38:41Z'
 ---
 
 # 모나넝: 두 종류의 맹목, 한 권의 시집

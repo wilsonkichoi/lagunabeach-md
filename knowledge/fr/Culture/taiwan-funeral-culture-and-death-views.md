@@ -21,7 +21,7 @@ translatedFrom: 'Culture/台灣殯葬文化與生死觀.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:c4dd3375c0cfa0a5'
 sourceBodyHash: 'sha256:a20df4f3c36414b3'
-translatedAt: '2026-04-14T12:34:01+08:00'
+translatedAt: '2026-06-16T17:19:04Z'
 ---
 
 > **En 30 secondes :** En 2009, le maître bouddhiste Shengyan s'éteint et laisse un testament d'une sobriété saisissante : « Pas de faire-part, pas de tombe, pas de stèle. » Ses cendres sont enfouies sous un arbre, sans inscription. Cette année-là, le taux de crémation à Taïwan frôle déjà 90 % — et en 2024, il atteint 98,7 %, laissant l'inhumation presque anecdotique. Des cortèges funèbres rythmés par des danseuses sur camion-podium aux familles qui répandent silencieusement des cendres dans le jardin de Yong-Ai Yuan : la manière dont Taïwan affronte la mort se réinvente à la vitesse d'une génération.

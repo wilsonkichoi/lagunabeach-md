@@ -18,10 +18,10 @@ lastVerified: 2026-04-30
 lastHumanReview: false
 featured: false
 translatedFrom: Nature/黑冠麻鷺.md
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:105878c02485b2e2'
-sourceBodyHash: 'sha256:4ff81a4c7e98c835'
-translatedAt: 2026-06-07T02:26:08+08:00
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:4926f151d268c5db'
+sourceBodyHash: 'sha256:215f7a81312f6fac'
+translatedAt: '2026-06-16T17:12:11Z'
 ---
 
 # La garza nocturna de capirote negro: especie soñada de los observadores de aves, el gran pájaro torpe del campus

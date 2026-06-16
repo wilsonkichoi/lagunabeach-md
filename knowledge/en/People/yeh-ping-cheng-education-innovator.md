@@ -16,10 +16,10 @@ category: 'People'
 lastVerified: 2026-03-20
 lastHumanReview: false
 translatedFrom: 'People/葉丙成.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:0759e160a613377d'
-sourceBodyHash: 'sha256:08a335a9af5d60e0'
-translatedAt: '2026-05-01T13:19:11+08:00'
+sourceCommitSha: 'df2e7558'
+sourceContentHash: 'sha256:340bb6abbf6b93a5'
+sourceBodyHash: 'sha256:f85ae58b5cc5815d'
+translatedAt: '2026-06-16T17:13:49Z'
 ---
 
 # Yeh Ping-cheng: From a Probability Course to a Gamified Education Revolution
@@ -51,7 +51,7 @@ His core argument has never changed: Taiwan's education system trains students' 
 **Further Reading:**
 
 - Huang Kuo-chen (黃國珍) — another educational innovator driving reading literacy education in Taiwan
-- Lu Kuan-wei (呂冠緯) — founder of Junyi Academy, Taiwan's version of Khan Academy
+- Lu Kuan-wei (呂冠緯) — chairman of Junyi Academy who left medicine for education to build Taiwan's version of Khan Academy
 - Yen Chang-shou (嚴長壽) — social entrepreneur who shifted from tourism to rural education
 - Audrey Tang (唐鳳) — the intersection of digital governance and educational innovation
 

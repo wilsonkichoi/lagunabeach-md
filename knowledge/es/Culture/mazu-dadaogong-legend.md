@@ -20,7 +20,7 @@ translatedFrom: 'Culture/媽祖與大道公的傳說.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:e0f0df37674e0a42'
 sourceBodyHash: 'sha256:0cf1fac1d7c9b8b4'
-translatedAt: '2026-05-01T22:19:10+08:00'
+translatedAt: '2026-06-16T17:19:04Z'
 ---
 
 > **Resumen de 30 segundos**: Cada 15 del tercer mes del calendario lunar, día del cumpleaños de Baosheng Dadi, siempre sopla viento, y cada 23 del mismo mes, día del cumpleaños de Mazu, siempre llueve. Los taiwaneses han registrado esta regularidad meteorológica de milenios mediante el refrán «Viento de Dadaogong, lluvia de la señora Mazu». Sin embargo, la leyenda popular cuenta que esto se debe a una historia de amor inconclusa entre dos deidades.

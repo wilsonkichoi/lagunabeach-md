@@ -23,10 +23,10 @@ lastVerified: '2026-06-06'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/用數據看台灣22縣市.md'
-sourceCommitSha: 'b8a3f5b09'
-sourceContentHash: 'sha256:1de0246e9f412d01'
-sourceBodyHash: 'sha256:e8bd2eff54f70ff9'
-translatedAt: '2026-06-07T00:37:31+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:d4d60849e9ff119e'
+sourceBodyHash: 'sha256:7464b15b7c6d840e'
+translatedAt: '2026-06-16T17:05:54Z'
 ---
 
 # Taïwan en données, 22 villes et comtés : entre le plus dense et le plus vide, un écart de 151 fois ; entre le plus âgé et le plus jeune, près d'une génération

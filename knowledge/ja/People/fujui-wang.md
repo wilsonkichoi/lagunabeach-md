@@ -24,10 +24,10 @@ imageCredit: '就在藝術空間 Project Fulfill Art Space'
 imageLicense: "Fair use (editorial commentary on artist's work)"
 imageSource: 'https://www.projectfulfill.com/wang-fujui-295793111929790.html'
 translatedFrom: 'People/王福瑞.md'
-sourceCommitSha: 'ce7f10f8'
-sourceContentHash: 'sha256:e925472bcb9697b7'
-sourceBodyHash: 'sha256:27c1ee49559d0d55'
-translatedAt: '2026-05-09T14:30:48Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:59c2d496972724a5'
+sourceBodyHash: 'sha256:4ab6cbf6e5c250a3'
+translatedAt: '2026-06-16T17:15:00Z'
 ---
 
 # 王福瑞：200部のコピー雑誌から12チャンネルスピーカーへの三十年

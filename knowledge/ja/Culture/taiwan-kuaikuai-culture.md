@@ -13,7 +13,7 @@ translatedFrom: Culture/台灣乖乖文化.md
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:b95317cbf18e6ec7'
 sourceBodyHash: 'sha256:2856e1a6d3a978a3'
-translatedAt: 2026-05-01T18:02:56+08:00
+translatedAt: '2026-06-16T17:10:30Z'
 ---
 
 > **30秒でわかる概要**：台湾では、病院の精密機器から銀行のATMまで、機械がある場所には緑色の「乖乖（グァイグァイ）」が置かれていることがあります。この独特な文化は1990年代末期に始まり、エンジニアたちは「乖乖」の音が機械を「おとなしく（乖乖）動かす」と信じています。今ではBBCがこの台湾の奇観を特集記事で取り上げるほどです。

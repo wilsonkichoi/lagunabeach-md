@@ -20,10 +20,19 @@ lastVerified: 2026-05-27
 lastHumanReview: false
 featured: false
 translatedFrom: 'Culture/天燈.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:3aee5165c69ac020'
-sourceBodyHash: 'sha256:d0f05c3694c2e800'
-translatedAt: '2026-05-28T05:08:33+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:f8bd2efe9c0ce5ef'
+sourceBodyHash: 'sha256:1f654961432cc687'
+translatedAt: '2026-06-16T17:19:04Z'
+sporeLinks:
+  - id: 113
+    platform: 'threads'
+    date: '2026-06-03'
+    url: 'https://www.threads.com/@taiwandotmd/post/DZGziGaEwgz'
+  - id: 114
+    platform: 'x'
+    date: '2026-06-03'
+    url: 'https://x.com/taiwandotmd/status/2061992719715795224'
 ---
 
 > **30-Second Overview:**

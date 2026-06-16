@@ -17,10 +17,10 @@ lastVerified: 2026-05-11
 lastHumanReview: false
 featured: false
 translatedFrom: 'Culture/台灣YouTuber產業與文化.md'
-sourceCommitSha: 'cea9f7087'
-sourceContentHash: 'sha256:d6ed68b20962bf16'
-sourceBodyHash: 'sha256:77a417d3b5938b17'
-translatedAt: '2026-05-12T11:51:05+08:00'
+sourceCommitSha: 'ac86475b'
+sourceContentHash: 'sha256:32b847d857685cef'
+sourceBodyHash: 'sha256:d7dfc5eea7475116'
+translatedAt: '2026-06-16T17:13:36Z'
 ---
 
 > **Aperçu en 30 secondes :** En mars 2024, le YouTubeur magicien taïwanais « Chi Hsuan Tricking » est devenu le premier créateur de Taïwan à atteindre dix millions d’abonnés, marquant l’évolution de la culture YouTube taïwanaise depuis les vidéos d’actualité pro-Taïwan de Tsai A-ga en 2008 vers une plateforme de contenus capable de rivaliser à l’international. À Taïwan, YouTube touche plus de 95 % des internautes, la part du temps de visionnage consacrée aux vidéos courtes (Shorts) a dépassé 75 %, et les créateurs traversent une phase de transition, passant de la simple production audiovisuelle à la construction de marques et à la diversification des revenus.
@@ -83,6 +83,7 @@ De la première vidéo de Tsai A-ga aux dix millions d’abonnés de Chi Hsuan, 
 **Pour aller plus loin** :
 
 - [PanSci](/society/泛科學) — De la vulgarisation scientifique écrite aux vidéos courtes, aux MCN YouTube et aux services destinés aux créateurs de savoir, ce cas complète l’analyse de la manière dont les créateurs de contenus éducatifs affrontent l’algorithme et la commercialisation.
+- [Wretch (Wuming Xiaozhan)](/culture/無名小站) — Berceau de la première génération de créateurs amateurs taïwanais (Wanwan, Giddens Ko, les albums de jolies filles) ; l’économie des créateurs taïwanais existait déjà ici, avant que les YouTubeurs n’apparaissent.
 
 ## Références
 

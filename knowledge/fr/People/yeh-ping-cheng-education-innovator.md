@@ -18,10 +18,10 @@ readingTime: 5
 featured: false
 translatedFrom: 'People/葉丙成.md'
 lastVerified: 2026-03-20
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:0759e160a613377d'
-sourceBodyHash: 'sha256:08a335a9af5d60e0'
-translatedAt: '2026-04-14T19:16:43+08:00'
+sourceCommitSha: 'df2e7558'
+sourceContentHash: 'sha256:340bb6abbf6b93a5'
+sourceBodyHash: 'sha256:f85ae58b5cc5815d'
+translatedAt: '2026-06-16T17:13:36Z'
 ---
 
 # Yeh Ping-cheng : d'un cours de probabilités à une révolution pédagogique par le jeu
@@ -53,7 +53,7 @@ Son message de fond n'a pas varié : le système éducatif taïwanais a formé d
 **Pour aller plus loin :**
 
 - Huang Kuo-chen — autre innovateur en pédagogie de la lecture et de la compréhension à Taïwan
-- Lü Kuan-wei — fondateur de la plateforme Junyi Academy, le Khan Academy taïwanais
+- Lü Kuan-wei — président de la plateforme Junyi Academy, ancien médecin qui a quitté la médecine pour bâtir le Khan Academy taïwanais
 - Yan Chang-shou — entrepreneur social passé du tourisme à l'éducation en milieu rural
 - Audrey Tang — point de convergence entre gouvernance numérique et innovation éducative
 

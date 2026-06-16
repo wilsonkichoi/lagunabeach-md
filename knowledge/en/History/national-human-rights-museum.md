@@ -25,10 +25,15 @@ lastVerified: 2026-05-26
 lastHumanReview: false
 featured: true
 translatedFrom: 'History/國家人權博物館.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:2f06c4f836b83834'
-sourceBodyHash: 'sha256:a49e0a9584cc26cc'
-translatedAt: '2026-05-28T05:08:33+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:c2fe08a62433be18'
+sourceBodyHash: 'sha256:8de971f3c7942edf'
+translatedAt: '2026-06-16T16:59:03Z'
+sporeLinks:
+  - id: 93
+    platform: 'threads'
+    date: '2026-05-26'
+    url: 'https://www.threads.com/@taiwandotmd/post/DYzG-R1k5Ze'
 ---
 
 # National Human Rights Museum: The Names Not Written on the Tearful Monument

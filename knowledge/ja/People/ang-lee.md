@@ -11,10 +11,10 @@ lastVerified: 2026-06-01
 lastHumanReview: false
 featured: true
 translatedFrom: 'People/李安.md'
-sourceCommitSha: 'fa062cc11'
-sourceContentHash: 'sha256:888c0b142f4be560'
-sourceBodyHash: 'sha256:f652650265de5726'
-translatedAt: '2026-06-02T00:39:59+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:5e0878a68a9e472e'
+sourceBodyHash: 'sha256:b22fe95649d7be32'
+translatedAt: '2026-06-16T17:05:15Z'
 ---
 
 # 李安：二つのアカデミー賞の背後にいた、父にきちんと別れを告げられなかった息子

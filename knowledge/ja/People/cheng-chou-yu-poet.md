@@ -20,10 +20,10 @@ lastVerified: 2026-05-24
 lastHumanReview: false
 featured: true
 translatedFrom: 'People/鄭愁予.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:086f24d0c1633e3e'
-sourceBodyHash: 'sha256:f40f6f8b3d6781ad'
-translatedAt: '2026-05-26T05:10:57+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:7c0bf67bc5769db3'
+sourceBodyHash: 'sha256:84e6ff9ee9820120'
+translatedAt: '2026-06-16T17:05:15Z'
 ---
 
 # 鄭愁予：〈錯誤〉を書いた流浪の詩人、最後に金門へ籍を移す

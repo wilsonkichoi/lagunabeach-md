@@ -23,10 +23,10 @@ lastVerified: 2026-05-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Society/台灣流浪動物文化.md'
-sourceCommitSha: '89026b10'
-sourceContentHash: 'sha256:559d8bd5f905e8f0'
-sourceBodyHash: 'sha256:a5a01661de129b91'
-translatedAt: '2026-05-25T21:07:07Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:6b2ce60c50966bdc'
+sourceBodyHash: 'sha256:6f79d66a90a09b62'
+translatedAt: '2026-06-16T16:55:29Z'
 ---
 
 # 대만 유랑동물 문화: 《십이야》에서 삵의 죽음까지, 동물보호와 야생동물보전의 트롤리 딜레마

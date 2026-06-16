@@ -29,10 +29,10 @@ lastVerified: '2026-05-21'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/四四南村.md'
-sourceCommitSha: '31a05c44b'
+sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:48350666b07ad604'
 sourceBodyHash: 'sha256:d1d5c9161c22bb16'
-translatedAt: '2026-06-16T00:44:26+08:00'
+translatedAt: '2026-06-16T16:55:29Z'
 ---
 
 # 쓰쓰난춘: 병공창의 군인 가족촌, 지금은 101 옆 문화창의 단지

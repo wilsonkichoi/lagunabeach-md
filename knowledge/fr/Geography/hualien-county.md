@@ -27,10 +27,10 @@ lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/花蓮縣.md'
-sourceCommitSha: 'bcffb45b4'
-sourceContentHash: 'sha256:2fdd2c2e1633896e'
-sourceBodyHash: 'sha256:551e83d1fdbb1fc4'
-translatedAt: '2026-06-07T00:37:31+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:d7da2390cfed253e'
+sourceBodyHash: 'sha256:4e86fa147bee5767'
+translatedAt: '2026-06-16T17:05:54Z'
 ---
 
 # Comté de Hualien : les Sakizaya dissimulés pendant 129 ans, Taroko retrouvé par la rectification du nom, puis de nouveau éloigné par le 0403

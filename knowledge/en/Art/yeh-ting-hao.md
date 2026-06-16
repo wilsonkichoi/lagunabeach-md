@@ -28,10 +28,10 @@ lastVerified: 2026-05-22
 lastHumanReview: false
 featured: false
 translatedFrom: 'Art/葉廷皓.md'
-sourceCommitSha: '43bf36374'
-sourceContentHash: 'sha256:e5384b49d3042d4c'
-sourceBodyHash: 'sha256:68638d0c9d2b3a31'
-translatedAt: '2026-05-23T05:06:37+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:63b47718f8145b2c'
+sourceBodyHash: 'sha256:04f5859af8f97035'
+translatedAt: '2026-06-16T16:59:03Z'
 ---
 
 ## Yeh Ting-Hao: The Audiovisual Artist Who Forced Accidents Out of "Incorrect" Uses of Technology, Leaving Behind an Entire Ecosystem at 43

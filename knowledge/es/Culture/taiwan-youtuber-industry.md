@@ -11,10 +11,10 @@ lastVerified: 2026-05-11
 lastHumanReview: false
 featured: false
 translatedFrom: 'Culture/台灣YouTuber產業與文化.md'
-sourceCommitSha: 'cea9f7087'
-sourceContentHash: 'sha256:d6ed68b20962bf16'
-sourceBodyHash: 'sha256:77a417d3b5938b17'
-translatedAt: '2026-05-12T11:51:05+08:00'
+sourceCommitSha: 'ac86475b'
+sourceContentHash: 'sha256:32b847d857685cef'
+sourceBodyHash: 'sha256:d7dfc5eea7475116'
+translatedAt: '2026-06-16T17:14:11Z'
 ---
 
 > **Resumen en 30 segundos:** En marzo de 2024, el YouTuber taiwanés de magia “Chi Hsuan Tricking” se convirtió en el primer creador de Taiwán en alcanzar diez millones de suscriptores, lo que marcó la evolución de la cultura de YouTube en Taiwán: desde los videos de actualidad patriótica de Tsai Aga en 2008 hasta una plataforma de contenidos con competitividad internacional. YouTube llega a más del 95% de los usuarios de internet en Taiwán; el tiempo de visualización de videos cortos (Shorts) ya supera el 75%, y los creadores atraviesan una etapa de transición desde la producción puramente audiovisual hacia la construcción de marca y la monetización diversificada.
@@ -77,6 +77,7 @@ Desde el primer video de Tsai Aga hasta los diez millones de suscriptores de Chi
 **Lecturas complementarias**:
 
 - [PanSci](/society/泛科學) — Desde los artículos de divulgación científica hacia los videos cortos, las MCN de YouTube y los servicios para creadores de conocimiento, ofrece un caso complementario sobre cómo los creadores de contenidos de conocimiento enfrentan los algoritmos y la comercialización.
+- [Wretch (無名小站)](/culture/無名小站) — La cuna de la primera generación de creadores amateur taiwaneses (Wan Wan, Giddens Ko, el álbum de chicas guapas); antes de que aparecieran los YouTubers, la economía del creador en Taiwán ya brotaba de allí.
 
 ## Referencias
 

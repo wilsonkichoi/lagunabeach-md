@@ -20,10 +20,10 @@ lastVerified: 2026-06-09
 lastHumanReview: true
 featured: false
 translatedFrom: 'Music/蘇打綠.md'
-sourceCommitSha: '73443b2a4'
-sourceContentHash: 'sha256:5156eab09e028ec3'
-sourceBodyHash: 'sha256:fbb2b0f8546f4d0c'
-translatedAt: '2026-06-13T01:49:53+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:56aa1dd40081a13d'
+sourceBodyHash: 'sha256:383422f11b195e61'
+translatedAt: '2026-06-16T17:04:27Z'
 ---
 
 # Sodagreen: tardaron veinte años en descubrir que también tendrían que litigar por su propio nombre

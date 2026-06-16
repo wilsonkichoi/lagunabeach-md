@@ -21,10 +21,10 @@ lastVerified: '2026-05-12'
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/聶永真.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:669edb7f4c118cc5'
-sourceBodyHash: 'sha256:389438b7aa71a102'
-translatedAt: '2026-05-24T05:06:32+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:af655ef71174b4b7'
+sourceBodyHash: 'sha256:8bdb4d64fdb3b5e7'
+translatedAt: '2026-06-16T17:03:25Z'
 ---
 
 > **30-second overview:** Aaron Nieh (born 1977) is the first Taiwanese designer admitted to the Alliance Graphique Internationale (AGI), and has won the Golden Melody Award for Best Album Packaging three times. He has designed music covers for Yoga Lin, Sodagreen, Jolin Tsai, and Hebe Tien, as well as book covers for Rye Field, China Times Publishing, INK, and Linking Publishing; the 4 a.m. New York Times advertisement during the 2014 Sunflower Movement and the 2020 “Taiwan Can Help” New York Times crowdfunding campaign both came from him; Tsai Ing-wen’s 2016 campaign identity “Light Up Taiwan” and the main visuals for two presidential inaugurations were also handled by him and his studio. Aaron Nieh Workshop established a second base in Kaohsiung’s Pier-2 warehouse district in 2024, and beginning that same year consecutively won identity-system projects for Taipower, CPC, the Tourism Administration, and the Ministry of Economic Affairs. On the day Taipower’s new logo went online in 2026, a controversy over “political patronage” erupted, to which he responded with a five-point statement. The line he has repeatedly emphasized, “before he was designer Aaron Nieh, he was citizen Aaron Nieh,” has, from 2014 to the present, been reread again and again from different positions.

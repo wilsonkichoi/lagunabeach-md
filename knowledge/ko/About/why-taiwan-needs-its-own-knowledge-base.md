@@ -10,7 +10,7 @@ translatedFrom: 'About/為什麼台灣需要自己的知識庫.md'
 sourceCommitSha: 'a05d2431'
 sourceContentHash: 'sha256:62ec81a90f901dec'
 sourceBodyHash: 'sha256:352de879384e19e9'
-translatedAt: '2026-04-14T11:06:19+08:00'
+translatedAt: '2026-06-16T17:10:38Z'
 ---
 
 # 왜 대만은 자체 지식 기반이 필요한가

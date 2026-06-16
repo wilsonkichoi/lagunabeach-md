@@ -10,10 +10,10 @@ lastVerified: 2026-05-11
 lastHumanReview: true
 featured: true
 translatedFrom: 'Society/國立臺灣歷史博物館.md'
-sourceCommitSha: '01d9d0e73'
-sourceContentHash: 'sha256:eb6b4bd405418dc3'
-sourceBodyHash: 'sha256:c80fac2abcdaa967'
-translatedAt: '2026-05-12T11:51:04+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:0a19013fbe675c85'
+sourceBodyHash: 'sha256:16078470c5f07551'
+translatedAt: '2026-06-16T16:55:14Z'
 ---
 
 > **30 秒概観：** 2011 年 10 月 29 日、13 年をかけて準備された国立台湾歴史博物館が台南市安南区に開館しました。同館は、曹永和が 1990 年に提示した「台湾島史観」を実体のある展示空間にしました。常設展「斯土斯民——台湾の物語」は八つの展示区で構成され、オーストロネシア語族の到来から現代の「あなたも歴史を書く人」までを扱います。館側は《政府資料開放授権条款 1.0 版》（CC BY 4.0 と同等）により 14 万件の館蔵品を公開し、2021 年に三級機関へ昇格した後、館長の張隆志は博物館を「全民共筆共創の行動プラットフォーム」と位置づけました[^13]。この国家級博物館が AI 時代のコミュニティ駆動型オープンソース知識ベースと出会うとき、集合的記憶には第二のキュレーションの形が生まれます。

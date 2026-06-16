@@ -20,10 +20,10 @@ lastVerified: 2026-05-28
 lastHumanReview: false
 featured: true
 translatedFrom: 'People/瘂弦.md'
-sourceCommitSha: '4d39a7d2a'
+sourceCommitSha: '88f47159'
 sourceContentHash: 'sha256:e294ff8cf9b9ac0a'
 sourceBodyHash: 'sha256:dd3ab574ead8013b'
-translatedAt: '2026-06-16T00:44:26+08:00'
+translatedAt: '2026-06-16T17:10:37Z'
 ---
 
 # Ya Hsien: escribió 《El abismo》 y dejó la pluma; su segunda mitad de vida en el suplemento literario de United Daily News se volvió una página de la historia poética

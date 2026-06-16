@@ -19,7 +19,7 @@ translatedFrom: Culture/台灣諧音禁忌文化.md
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:d88f480a1e1f7ae0'
 sourceBodyHash: 'sha256:ab7935ab2e6c6ed8'
-translatedAt: 2026-05-01T22:19:10+08:00
+translatedAt: '2026-06-16T17:19:04Z'
 ---
 
 > **Resumen en 30 segundos**: En Taiwán, la homofonía entre "四" (sì, cuatro) y "死" (sǐ, muerte) hace que toda la sociedad evite colectivamente este número: los ascensores saltan del piso 3 al 5, y en los restaurantes, al preguntar cuántos comensales hay, se dice "3+1" en lugar de "cuatro". Al mismo tiempo, las connotaciones auspiciosas hacen que la matrícula 8888 se subaste por 890 000 dólares taiwaneses, y las cantidades de los sobres rojos de boda siguen un complejo sistema numérico.

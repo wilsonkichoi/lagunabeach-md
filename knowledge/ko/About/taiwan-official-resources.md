@@ -11,7 +11,7 @@ translatedFrom: 'About/台灣官方網站資源.md'
 sourceCommitSha: '84e04168'
 sourceContentHash: 'sha256:08b967bc1d90e0f6'
 sourceBodyHash: 'sha256:637002941419ff56'
-translatedAt: '2026-04-14T11:06:19+08:00'
+translatedAt: '2026-06-16T17:10:38Z'
 ---
 
 # 대만 공식 웹사이트 자원

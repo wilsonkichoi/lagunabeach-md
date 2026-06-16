@@ -11,10 +11,10 @@ featured: false
 lastVerified: 2026-05-22
 lastHumanReview: false
 translatedFrom: People/馬英九.md
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:638d3a0f5fb85b4f'
-sourceBodyHash: 'sha256:054579b8b6abb208'
-translatedAt: 2026-05-28T05:08:34+08:00
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:7ebf03343b7d94a6'
+sourceBodyHash: 'sha256:3ba24a255fbd26bc'
+translatedAt: '2026-06-16T16:55:14Z'
 ---
 
 # マ英九：ハーバード法学博士が蔣経国事務所の英語通訳に就任し、「清廉」のイメージで八年間大統領を務め、両岸関係・太陽花・22Kを遺した人物

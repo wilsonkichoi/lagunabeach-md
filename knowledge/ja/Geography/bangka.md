@@ -30,10 +30,10 @@ lastVerified: 2026-05-21
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/艋舺.md'
-sourceCommitSha: '31a05c44b'
+sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:c05a8c5cb2792eea'
 sourceBodyHash: 'sha256:da886e84510f3d63'
-translatedAt: '2026-06-16T00:44:26+08:00'
+translatedAt: '2026-06-16T17:04:12Z'
 ---
 
 # 艋舺：清朝統治下の台北で最もにぎわった場所、いまは台北で平均年齢が最も高い区

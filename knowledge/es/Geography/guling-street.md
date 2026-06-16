@@ -29,10 +29,10 @@ lastVerified: '2026-05-21'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/牯嶺街.md'
-sourceCommitSha: '20a4ac337'
-sourceContentHash: 'sha256:60a94b0bc50deac1'
-sourceBodyHash: 'sha256:cddbd35e35cf2d2e'
-translatedAt: '2026-05-23T05:06:38+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:333ceed2a40fb5ff'
+sourceBodyHash: 'sha256:3ec0507273818a67'
+translatedAt: '2026-06-16T17:05:07Z'
 ---
 
 # Calle Guling: la calle de libros que dejaron los japoneses, el adolescente de Edward Yang y los palacios del Gobierno nacionalista

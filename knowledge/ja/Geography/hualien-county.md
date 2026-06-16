@@ -27,10 +27,10 @@ lastVerified: '2026-05-18'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/花蓮縣.md'
-sourceCommitSha: 'bcffb45b4'
-sourceContentHash: 'sha256:2fdd2c2e1633896e'
-sourceBodyHash: 'sha256:551e83d1fdbb1fc4'
-translatedAt: '2026-05-24T05:06:32+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:d7da2390cfed253e'
+sourceBodyHash: 'sha256:4e86fa147bee5767'
+translatedAt: '2026-06-16T17:04:12Z'
 ---
 
 # 花蓮県：129年間身を隠したサキザヤ族、正名で取り戻したタロコ、0403が再び遠ざけました

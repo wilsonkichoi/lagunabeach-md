@@ -18,10 +18,10 @@ lastVerified: 2026-06-04
 lastHumanReview: false
 featured: false
 translatedFrom: 'Society/中華台北.md'
-sourceCommitSha: 'dd39065b2'
-sourceContentHash: 'sha256:2b2c4d3c765d642b'
-sourceBodyHash: 'sha256:554fc5a28e8c0743'
-translatedAt: '2026-06-12T03:51:14+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:139126ed14d761b3'
+sourceBodyHash: 'sha256:67435314dcab3a3a'
+translatedAt: '2026-06-16T16:54:51Z'
 ---
 
 # Taipei chinois : ce laissez-passer qui permet à Taïwan de jouer, mais sans jamais imposer son nom
@@ -187,6 +187,7 @@ Et ce laissez-passer permet toujours à Taïwan de monter sur scène, mais n'imp
 - [Les alliés diplomatiques de Taïwan et les relations internationales](/society/台灣邦交國與國際外交) — Au-delà du « modèle olympique », le même dilemme du nom auquel Taïwan fait face sur la scène diplomatique formelle
 - [Chi Cheng](/people/紀政) — L'arc complet de la « gazelle bondissante » : médaille de bronze à Mexico 1968, architecte du système en 1981, initiatrice du référendum de 2018
 - [Yang Chuan-kwang](/people/楊傳廣) — L'homme de fer d'Asie, qui remporta la première médaille olympique de Taïwan sous le nom de « Formose » à Rome en 1960
+- [Le pays invisible](/art/看不見的國家) — Dans ce documentaire, Chi Cheng brandit sa médaille de bronze des JO de 1968 et demande : « Chinese Taipei est-il un nom de pays ? »
 
 ## Sources des images
 

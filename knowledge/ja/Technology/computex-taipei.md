@@ -23,10 +23,10 @@ lastVerified: 2026-06-04
 lastHumanReview: false
 featured: true
 translatedFrom: 'Technology/Computex.md'
-sourceCommitSha: '31a05c44b'
+sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:4a673b61d3e24bb9'
 sourceBodyHash: 'sha256:9b3f0ed2efd5fc46'
-translatedAt: '2026-06-16T00:44:26+08:00'
+translatedAt: '2026-06-16T17:04:12Z'
 ---
 
 # Computex：三大国際コンピュータ見本市のうち二つは幕を閉じ、残る一つは台北で育ちました

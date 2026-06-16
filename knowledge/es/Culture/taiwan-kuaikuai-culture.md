@@ -19,7 +19,7 @@ translatedFrom: 'Culture/台灣乖乖文化.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:b95317cbf18e6ec7'
 sourceBodyHash: 'sha256:2856e1a6d3a978a3'
-translatedAt: '2026-05-01T22:19:10+08:00'
+translatedAt: '2026-06-16T17:10:37Z'
 ---
 
 > **Resumen en 30 segundos**: En Taiwán, desde los instrumentos de precisión en hospitales hasta los cajeros automáticos de los bancos, donde haya una máquina es probable que se encuentre un paquete verde de Kuaikuai. Esta cultura única comenzó a finales de la década de 1990, cuando los ingenieros creyeron que la homofonía de "Kuaikuai" (乖乖, que significa "portarse bien") podía hacer que los equipos "funcionaran sin problemas". Hoy en día, incluso la BBC ha dedicado un artículo completo a este fenómeno taiwanés.

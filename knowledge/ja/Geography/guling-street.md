@@ -29,10 +29,10 @@ lastVerified: 2026-05-21
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/牯嶺街.md'
-sourceCommitSha: '31a05c44b'
+sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:333ceed2a40fb5ff'
 sourceBodyHash: 'sha256:3ec0507273818a67'
-translatedAt: '2026-06-16T00:44:26+08:00'
+translatedAt: '2026-06-16T17:04:12Z'
 ---
 
 # 牯嶺街：日本人が残した書店街、楊徳昌の少年、国民政府の宮殿

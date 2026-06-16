@@ -30,10 +30,10 @@ lastVerified: '2026-05-21'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/艋舺.md'
-sourceCommitSha: '20a4ac337'
-sourceContentHash: 'sha256:e384b40a3b9c1bf5'
-sourceBodyHash: 'sha256:2adb8850a99b6a49'
-translatedAt: '2026-05-26T05:10:58+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:c05a8c5cb2792eea'
+sourceBodyHash: 'sha256:da886e84510f3d63'
+translatedAt: '2026-06-16T17:05:54Z'
 ---
 
 # Bangka : le lieu le plus animé du Taipei sous les Qing est aujourd'hui le district dont l'âge moyen est le plus élevé à Taipei

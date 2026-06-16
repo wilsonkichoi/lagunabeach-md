@@ -21,7 +21,7 @@ translatedFrom: 'Culture/台灣原住民語言復振運動.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:9c408bfc603af1d1'
 sourceBodyHash: 'sha256:f60b7a2b3f864e75'
-translatedAt: '2026-05-01T22:19:10+08:00'
+translatedAt: '2026-06-16T17:19:04Z'
 ---
 
 # El movimiento de revitalización de las lenguas indígenas de Taiwán

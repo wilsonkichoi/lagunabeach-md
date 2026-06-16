@@ -22,10 +22,10 @@ lastVerified: 2026-06-04
 lastHumanReview: false
 featured: true
 translatedFrom: 'Lifestyle/台灣醫療與全民健保.md'
-sourceCommitSha: '7678a430b'
-sourceContentHash: 'sha256:424d9acf698d8930'
-sourceBodyHash: 'sha256:fe6262a360432251'
-translatedAt: '2026-06-11T00:44:03+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:5cbfd8399802ed3e'
+sourceBodyHash: 'sha256:3076adea6a4c366b'
+translatedAt: '2026-06-16T17:04:27Z'
 ---
 
 # Sistema de salud y Seguro Nacional de Salud de Taiwán: el número uno del mundo con un 99.6% sostenido sobre un 12.61%

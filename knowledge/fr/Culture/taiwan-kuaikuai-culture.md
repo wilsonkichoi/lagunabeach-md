@@ -19,7 +19,7 @@ translatedFrom: 'Culture/台灣乖乖文化.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:b95317cbf18e6ec7'
 sourceBodyHash: 'sha256:2856e1a6d3a978a3'
-translatedAt: '2026-04-14T12:33:38+08:00'
+translatedAt: '2026-06-16T17:13:36Z'
 ---
 
 > **En 30 secondes** : À Taïwan, des salles serveurs aux distributeurs automatiques de billets en passant par les appareils médicaux de précision, partout où une machine tourne, vous risquez de trouver un paquet de Guai Guai à l'emballage vert. Cette tradition singulière remonte à la fin des années 1990 : des ingénieurs ont commencé à croire que le nom du snack — qui signifie « être sage » ou « bien se comporter » — pouvait inciter leurs équipements à rester stables. Depuis, même la BBC lui a consacré un article.

@@ -28,10 +28,10 @@ lastVerified: '2026-05-21'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/西門町.md'
-sourceCommitSha: '20a4ac337'
-sourceContentHash: 'sha256:1aff728fe300b0bd'
-sourceBodyHash: 'sha256:2e82b412c0365ee8'
-translatedAt: '2026-05-26T05:10:57+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:f49241fb54f742a7'
+sourceBodyHash: 'sha256:d239bfa01292d203'
+translatedAt: '2026-06-16T17:05:07Z'
 ---
 
 # Ximending: la calle de entretenimiento que los japoneses construyeron en 1896 y que, 130 años después, sigue siendo la calle más joven de Taipéi

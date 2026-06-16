@@ -24,10 +24,10 @@ lastVerified: 2026-05-17
 lastHumanReview: false
 featured: false
 translatedFrom: Geography/基隆市.md
-sourceCommitSha: 544200ea
-sourceContentHash: sha256:681e1686934c97b4
-sourceBodyHash: sha256:980f24f74f02d9c0
-translatedAt: 2026-05-26T21:07:27Z
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:d96d5a768e497ec1'
+sourceBodyHash: 'sha256:a875e0cc381f5fed'
+translatedAt: '2026-06-16T17:04:27Z'
 ---
 
 # Keelung: el puerto más cercano a Taipéi, el más invisible para Taipéi

@@ -28,10 +28,10 @@ lastVerified: 2026-05-21
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/西門町.md'
-sourceCommitSha: '20a4ac33'
-sourceContentHash: 'sha256:1aff728fe300b0bd'
-sourceBodyHash: 'sha256:2e82b412c0365ee8'
-translatedAt: '2026-05-25T21:07:07Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:f49241fb54f742a7'
+sourceBodyHash: 'sha256:d239bfa01292d203'
+translatedAt: '2026-06-16T16:55:29Z'
 ---
 
 # 시먼딩: 일본인이 1896년에 만든 유흥가, 130년 뒤에도 타이베이에서 가장 젊은 거리

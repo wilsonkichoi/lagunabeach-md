@@ -21,10 +21,10 @@ lastVerified: 2026-05-29
 lastHumanReview: false
 featured: true
 translatedFrom: 'Technology/科技園區發展.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:1d77734f34a7a5f8'
-sourceBodyHash: 'sha256:e01e7169a98c4aba'
-translatedAt: '2026-06-02T00:40:00+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:af69e6f051c9c55a'
+sourceBodyHash: 'sha256:87c841c432ba710a'
+translatedAt: '2026-06-16T16:40:09Z'
 ---
 
 # Les parcs scientifiques de Taïwan : le pari d'une rizière qui est devenu l'artère vitale du monde, mais aussi son talon d'Achille

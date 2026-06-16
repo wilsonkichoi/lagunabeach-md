@@ -11,10 +11,10 @@ lastVerified: 2026-04-30
 lastHumanReview: false
 featured: false
 translatedFrom: Nature/黑冠麻鷺.md
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:105878c02485b2e2'
-sourceBodyHash: 'sha256:4ff81a4c7e98c835'
-translatedAt: 2026-05-01T20:54:10+08:00
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:4926f151d268c5db'
+sourceBodyHash: 'sha256:215f7a81312f6fac'
+translatedAt: '2026-06-16T17:14:05Z'
 ---
 
 # 검은관논병아리: 조류 관찰가의 환상종, 캠퍼스 속 얼간이 새

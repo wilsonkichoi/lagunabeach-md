@@ -20,10 +20,10 @@ lastVerified: 2026-05-19
 lastHumanReview: true
 featured: true
 translatedFrom: 'Technology/台灣人工智慧發展與未來策略.md'
-sourceCommitSha: '89026b10'
-sourceContentHash: 'sha256:d7e4d2422c367c4b'
-sourceBodyHash: 'sha256:5c4408b02aa462ff'
-translatedAt: '2026-05-26T21:07:27Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:ea05ddc3465f02eb'
+sourceBodyHash: 'sha256:c1a908bbd971d40d'
+translatedAt: '2026-06-16T16:54:57Z'
 ---
 
 # Desarrollo de la inteligencia artificial en Taiwán y estrategia futura: ya obtuvo el boleto de entrada del hardware, ¿dónde será la próxima batalla?

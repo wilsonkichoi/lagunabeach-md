@@ -14,7 +14,7 @@ translatedFrom: 'About/台灣官方網站資源.md'
 sourceCommitSha: '84e04168'
 sourceContentHash: 'sha256:08b967bc1d90e0f6'
 sourceBodyHash: 'sha256:637002941419ff56'
-translatedAt: '2026-05-02T08:50:00+08:00'
+translatedAt: '2026-06-16T17:10:37Z'
 ---
 
 # Recursos web oficiales de Taiwán

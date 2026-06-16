@@ -13,7 +13,7 @@ translatedFrom: "Art/台灣劇場與表演藝術.md"
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:cddfbcb9ade43ff2'
 sourceBodyHash: 'sha256:0f8dee8662286dcf'
-translatedAt: "2026-04-14T19:13:26+08:00"
+translatedAt: '2026-06-16T17:13:36Z'
 ---
 
 # Le théâtre et les arts de la scène à Taïwan : comment une petite île a ébranlé les scènes du monde

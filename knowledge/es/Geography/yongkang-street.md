@@ -28,10 +28,10 @@ lastVerified: 2026-05-21
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/永康街.md'
-sourceCommitSha: '20a4ac337'
-sourceContentHash: 'sha256:487b25e8723770a3'
-sourceBodyHash: 'sha256:6a885fd47c57b5c2'
-translatedAt: '2026-05-23T05:06:38+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:97d1cb2148bf09ca'
+sourceBodyHash: 'sha256:457045b9eebdff05'
+translatedAt: '2026-06-16T17:05:07Z'
 ---
 
 # Calle Yongkang: donde vivieron profesores japoneses, llegaron refugiados de China continental y hoy es el Taipéi de turistas japoneses y coreanos

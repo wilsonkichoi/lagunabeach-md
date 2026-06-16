@@ -10,10 +10,10 @@ readingTime: 28
 lastVerified: 2026-05-02
 lastHumanReview: false
 translatedFrom: 'Technology/Facebook.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:b95e3374b854ce1d'
-sourceBodyHash: 'sha256:491bf14e00bda07d'
-translatedAt: '2026-05-02T13:31:21+08:00'
+sourceCommitSha: 'ac86475b'
+sourceContentHash: 'sha256:79e35442d2cf14fd'
+sourceBodyHash: 'sha256:5ed7f28c852729fe'
+translatedAt: '2026-06-16T17:13:49Z'
 ---
 
 > **30-Second Overview:**
@@ -74,6 +74,7 @@ Facebook's story is a microcosm of Taiwan's 20-year digital transformation: it t
 - [IG: From a Photographer's Filter to Taiwanese "脆" Anxiety](/technology/IG) — Another Meta platform central to Taiwan, occupying a different use case from Facebook: Facebook is "keeping in touch with elders," IG is "for yourself," and Threads is "the big argument plaza."
 - [Threads in Taiwan](/technology/Threads在台灣) — Why do Taiwanese people call Threads "脆"? From the Facebook refugee wave to "脆" claiming the number-one global traffic spot, the unique position of Taiwanese users within the Meta ecosystem.
 - [A History of Taiwan's Online Community Migration](/technology/台灣網路社群遷徙史) — From BBS, Wretch (無名小站), Plurk to Facebook, IG, and Threads — understanding why Facebook rose in Taiwan and why it is now declining requires this complete migration map.
+- [Wretch (無名小站)](/culture/無名小站) — The local platform Facebook eventually overtook and replaced in Taiwan. In 2008, Wretch was still ahead of Yahoo as Taiwan's number one; from 2009, Facebook came from behind through the stickiness of its News Feed.
 
 ## References
 

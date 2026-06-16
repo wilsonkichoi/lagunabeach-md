@@ -1,6 +1,6 @@
 ---
 title: 'Au Sow Yee: la curadora malasia que llevó el “archipiélago” al círculo artístico de Taiwán'
-description: "En 2003 llegó de Kuala Lumpur a Taipéi para estudiar en la Universidad Nacional de las Artes de Taipéi, pensando que solo sería una transeúnte; catorce años después, en Taipéi, empezó a usar “archipiélago” (Nusantara) en lugar de “Sudeste Asiático”, una denominación de la Guerra Fría, e introdujo en el discurso curatorial taiwanés la autodenominación del mundo malayo. Desde la trilogía del topónimo ficticio Mengkerang y la incorporación de Kris Project a la colección del Museo de Arte de Singapur, hasta las entrevistas de 2024 con Chen Yow-Ruu a niños apátridas de Malasia, en una entrevista con NML dijo una frase: “Precisamente por mi ‘ausencia’ pude hacer esta obra.”"
+description: 'En 2003 llegó de Kuala Lumpur a Taipéi para estudiar en la Universidad Nacional de las Artes de Taipéi, pensando que solo sería una transeúnte; catorce años después, en Taipéi, empezó a usar “archipiélago” (Nusantara) en lugar de “Sudeste Asiático”, una denominación de la Guerra Fría, e introdujo en el discurso curatorial taiwanés la autodenominación del mundo malayo. Desde la trilogía del topónimo ficticio Mengkerang y la incorporación de Kris Project a la colección del Museo de Arte de Singapur, hasta las entrevistas de 2024 con Chen Yow-Ruu a niños apátridas de Malasia, en una entrevista con NML dijo una frase: “Precisamente por mi ‘ausencia’ pude hacer esta obra.”'
 date: 2026-05-17
 author: 'Taiwan.md'
 category: 'People'
@@ -23,10 +23,10 @@ lastVerified: 2026-05-17
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/區秀詒.md'
-sourceCommitSha: '0feffb185'
-sourceContentHash: 'sha256:b1aa515783a15d29'
-sourceBodyHash: 'sha256:2cc088ef644c214e'
-translatedAt: '2026-05-17T05:06:52+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:4e807297f5dfcc70'
+sourceBodyHash: 'sha256:9bd8f0aa157f38ef'
+translatedAt: '2026-06-16T16:54:57Z'
 ---
 
 # Au Sow Yee: la curadora malasia que llevó el “archipiélago” al círculo artístico de Taiwán

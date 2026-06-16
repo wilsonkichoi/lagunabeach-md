@@ -22,7 +22,7 @@ translatedFrom: Culture/台灣殯葬文化與生死觀.md
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:c4dd3375c0cfa0a5'
 sourceBodyHash: 'sha256:a20df4f3c36414b3'
-translatedAt: 2026-05-01T22:19:10+08:00
+translatedAt: '2026-06-16T17:19:04Z'
 ---
 
 > **Panorama en 30 segundos:** En 2009, el maestro Shengyan falleció. Su testamento solo decía: "no publicar obituario, no construir tumba, no erigir estela". Sus cenizas fueron depositadas junto a un árbol, sin nombre. Ese año, la tasa de cremación en Taiwán ya se acercaba al 90 %, y en 2024 se disparó al 98,7 %, de modo que casi nadie practica ya el entierro en tierra. Desde los cortejos fúnebres con bailarinas sobre plataformas electrónicas hasta las familias que esparcen cenizas en silencio en el Jardín Yongai — la forma en que los taiwaneses enfrentan la muerte está cambiando a la velocidad de una generación.

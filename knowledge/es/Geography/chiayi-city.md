@@ -23,10 +23,10 @@ lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/嘉義市.md'
-sourceCommitSha: 'bcffb45b4'
-sourceContentHash: 'sha256:da364f836aee9919'
-sourceBodyHash: 'sha256:a0d7b96dd180c602'
-translatedAt: '2026-05-24T05:06:33+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:ae83f3951e0a47fc'
+sourceBodyHash: 'sha256:d3fc69c2026ce4f3'
+translatedAt: '2026-06-16T16:40:32Z'
 ---
 
 # Ciudad de Chiayi: nombrada Chiayi por un emperador, pero convertida en la ciudad provincial más fácil de pasar por alto

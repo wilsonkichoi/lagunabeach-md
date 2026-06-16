@@ -27,9 +27,10 @@ readingTime: 16
 lastVerified: 2026-05-18
 lastHumanReview: false
 translatedFrom: 'Geography/南投縣.md'
-sourceCommitSha: 'bcffb45b4'
-sourceContentHash: 'sha256:7a6074e368afe122'
-translatedAt: '2026-06-09T03:10:22+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:c80f3accc7342bb8'
+translatedAt: '2026-06-16T17:05:51Z'
+sourceBodyHash: 'sha256:9116715a2d516221'
 ---
 
 # Nantou County: The Only County Not Bordering the Sea, Where the Epicenter of the 921 Earthquake Lies at Its Center

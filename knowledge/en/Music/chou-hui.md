@@ -33,10 +33,19 @@ lastVerified: 2026-05-28
 lastHumanReview: false
 featured: false
 translatedFrom: 'Music/周蕙.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:50a2dc8af252fba1'
-sourceBodyHash: 'sha256:74e33914371a886e'
-translatedAt: '2026-05-29T00:39:33+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:66dc613367972f4b'
+sourceBodyHash: 'sha256:f32176a5dd84a470'
+translatedAt: '2026-06-16T16:59:03Z'
+sporeLinks:
+  - id: 103
+    platform: 'threads'
+    date: '2026-05-28'
+    url: 'https://www.threads.com/@taiwandotmd/post/DY4u5UzAVcT'
+  - id: 104
+    platform: 'x'
+    date: '2026-05-28'
+    url: 'https://x.com/taiwandotmd/status/2060010924015321462'
 ---
 
 # Where Chou: The Voice Behind 'Agreement' for 25 Years, From Cartoon Doll to Taipei Arena Marathon

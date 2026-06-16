@@ -5,7 +5,8 @@ date: '2026-03-24'
 author: 'Taiwan.md Contributors'
 category: 'Society'
 subcategory: '社會韌性'
-tags: [
+tags:
+  [
     '災害ボランティア',
     '社会レジリエンス',
     '花蓮水害',
@@ -19,10 +20,10 @@ lastVerified: '2026-05-17'
 lastHumanReview: true
 featured: false
 translatedFrom: 'Society/台灣災難志工文化.md'
-sourceCommitSha: 'c2f471732'
-sourceContentHash: 'sha256:d6c55754f67a687e'
-sourceBodyHash: 'sha256:a2ac2c125cdf8caf'
-translatedAt: '2026-05-17T05:34:50+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:2758b5b1f9c739df'
+sourceBodyHash: 'sha256:5c5a60eea00bbc8d'
+translatedAt: '2026-06-16T17:05:15Z'
 ---
 
 # シャベル超人と島嶼の同時性：台湾の災害ボランティア文化が国族アイデンティティに与える影響

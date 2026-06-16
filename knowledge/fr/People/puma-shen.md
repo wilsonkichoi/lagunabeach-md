@@ -20,10 +20,10 @@ lastVerified: 2026-04-28
 lastHumanReview: true
 featured: false
 translatedFrom: 'People/沈伯洋.md'
-sourceCommitSha: 'dd39065b2'
-sourceContentHash: 'sha256:264471f17f1dd86d'
-sourceBodyHash: 'sha256:ff76539057c18498'
-translatedAt: '2026-06-11T00:44:03+08:00'
+sourceCommitSha: '21f2ddb4'
+sourceContentHash: 'sha256:b4d9dc8d1282cabf'
+sourceBodyHash: 'sha256:7c55d791874ec123'
+translatedAt: '2026-06-16T17:13:36Z'
 ---
 
 # Puma Shen : il étudiait la guerre cognitive chinoise, puis la Chine l'a placé sur une image satellite
@@ -206,6 +206,7 @@ Fin avril 2026, il a coupé ses cheveux et se prépare à mener une autre campag
 - [Pa Chiung](/people/八炯) — YouTuber taïwanais lui aussi ciblé par le PCC, visé en novembre 2025 par une prime chinoise pouvant atteindre 250 000 yuans
 - [Lai Ching-te](/people/賴清德) — lui aussi inscrit sur la liste des « irréductibles indépendantistes taïwanais », il a publiquement soutenu Puma Shen en novembre 2025
 - [Défense et modernisation militaire de Taïwan](/society/台灣國防與軍事現代化) — la relation complémentaire entre l'éducation de défense civile de l'Académie Kuma et la défense nationale pour tous
+- [Invisible Nation](/art/看不見的國家) — le documentaire se conclut sur des Taïwanais suivant un cours de défense civile ; l’Académie Kuma est la version réelle du cours qui ferme le film
 
 ## Références
 

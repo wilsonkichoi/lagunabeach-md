@@ -28,10 +28,10 @@ lastVerified: 2026-05-22
 lastHumanReview: false
 featured: false
 translatedFrom: 'Art/葉廷皓.md'
-sourceCommitSha: '43bf36374'
-sourceContentHash: 'sha256:e5384b49d3042d4c'
-sourceBodyHash: 'sha256:68638d0c9d2b3a31'
-translatedAt: '2026-05-23T05:06:37+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:63b47718f8145b2c'
+sourceBodyHash: 'sha256:04f5859af8f97035'
+translatedAt: '2026-06-16T16:55:14Z'
 ---
 
 ## 葉廷皓：テクノロジーの「正しくない」使い方から予期せぬ音像を引き出したアーティスト、43歳でひとつの生態系を遺しました

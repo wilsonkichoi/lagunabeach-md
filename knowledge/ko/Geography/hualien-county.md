@@ -27,10 +27,10 @@ lastVerified: '2026-05-18'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/花蓮縣.md'
-sourceCommitSha: 'bcffb45b4'
-sourceContentHash: 'sha256:2fdd2c2e1633896e'
-sourceBodyHash: 'sha256:551e83d1fdbb1fc4'
-translatedAt: '2026-05-24T05:06:32+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:d7da2390cfed253e'
+sourceBodyHash: 'sha256:4e86fa147bee5767'
+translatedAt: '2026-06-16T16:55:29Z'
 ---
 
 # 화롄현: 129년 숨어 지낸 사키자야족, 정명으로 되찾은 타로코, 그리고 0403이 다시 멀어지게 한 것

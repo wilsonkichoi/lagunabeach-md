@@ -23,7 +23,7 @@ translatedFrom: Art/台灣傳統藝術.md
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:8199dcc4edeb2fce'
 sourceBodyHash: 'sha256:de7228ea44ad062e'
-translatedAt: 2026-05-01T20:54:23+08:00
+translatedAt: '2026-06-16T17:10:37Z'
 ---
 
 # Artes tradicionales de Taiwán: el improbable ascenso de un arte rural a imperio cultural

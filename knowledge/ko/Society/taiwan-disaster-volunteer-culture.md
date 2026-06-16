@@ -20,10 +20,10 @@ lastVerified: 2026-05-17
 lastHumanReview: true
 featured: false
 translatedFrom: 'Society/台灣災難志工文化.md'
-sourceCommitSha: 'c2f471732'
-sourceContentHash: 'sha256:d6c55754f67a687e'
-sourceBodyHash: 'sha256:a2ac2c125cdf8caf'
-translatedAt: '2026-05-17T05:34:52+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:2758b5b1f9c739df'
+sourceBodyHash: 'sha256:5c5a60eea00bbc8d'
+translatedAt: '2026-06-16T17:05:51Z'
 ---
 
 # 삽 초인과 섬의 동시성: 대만 재난 자원봉사 문화가 국가 정체성에 미치는 영향

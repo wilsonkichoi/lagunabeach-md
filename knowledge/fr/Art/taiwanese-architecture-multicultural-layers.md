@@ -20,7 +20,7 @@ lastVerified: 2026-03-28
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:97939516b3de2749'
 sourceBodyHash: 'sha256:8d0abd22f69dd0b4'
-translatedAt: '2026-04-14T19:13:26+08:00'
+translatedAt: '2026-06-16T17:13:36Z'
 ---
 
 # L'architecture de Taïwan : un poème en volumes au carrefour des civilisations

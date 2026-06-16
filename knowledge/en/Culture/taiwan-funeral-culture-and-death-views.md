@@ -3,7 +3,7 @@ translatedFrom: 'Culture/台灣殯葬文化與生死觀.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:c4dd3375c0cfa0a5'
 sourceBodyHash: 'sha256:a20df4f3c36414b3'
-translatedAt: '2026-05-01T13:44:02+08:00'
+translatedAt: '2026-06-16T17:19:04Z'
 title: "Taiwan's Funeral Culture and Views on Death"
 description: 'From the wailing of professional mourners to the garden of Yongli Cemetery — Taiwan spent fifty years moving from burial to cremation, then another ten moving from columbaria to a spot beneath a tree.'
 date: 2026-04-08
@@ -24,6 +24,7 @@ readingTime: 13
 lastVerified: 2026-04-08
 lastHumanReview: false
 ---
+
 > **30-Second Overview:** In 2009, Master Shengyan passed away. His will said simply: "No death notices, no burial mound, no gravestone." His ashes were planted beneath a tree at Jinshan Environmental Life Park, without a name inscribed. That year, Taiwan's cremation rate was already approaching 90% — and by 2024 it had surged to 98.7%, with almost no one choosing burial anymore. From the pole-dancing atop electric flower cars in funeral processions to families quietly scattering ashes at Yongli Park — Taiwan's way of facing death is turning over at the pace of one generation.
 
 On February 3, 2009, Master Shengyan passed away in Taipei at the age of seventy-nine. His will was unusually brief: no death notices, no Buddhist services, no burial mound, no gravestone, no funeral banner, no memorial tablet[^1]. His ashes were planted in the ground at Jinshan Environmental Life Park, with a tree planted above them, no name inscribed. A religious leader who had influenced millions of followers chose to disappear like a fallen leaf.

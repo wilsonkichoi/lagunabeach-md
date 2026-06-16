@@ -23,10 +23,10 @@ lastVerified: 2026-05-15
 lastHumanReview: false
 featured: false
 translatedFrom: 'Culture/台灣傳統工藝與無形文化資產.md'
-sourceCommitSha: 'feea3c672'
-sourceContentHash: 'sha256:19adecc5b23d1f55'
-sourceBodyHash: 'sha256:a71a28be452b9b79'
-translatedAt: '2026-05-16T05:07:55+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:0c2424c76c2aa5da'
+sourceBodyHash: 'sha256:d61ffe9dcb3401b5'
+translatedAt: '2026-06-16T16:55:14Z'
 ---
 
 # 台湾の伝統工芸と無形文化遺産：制度上の承認は来たが、徒弟はいなくなった

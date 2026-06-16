@@ -24,7 +24,7 @@ translatedFrom: 'Art/台灣傳統藝術.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:8199dcc4edeb2fce'
 sourceBodyHash: 'sha256:de7228ea44ad062e'
-translatedAt: '2026-04-14T12:25:09+08:00'
+translatedAt: '2026-06-16T17:10:15Z'
 ---
 
 # Taiwan Traditional Arts: From Village Performances to Cultural Empire

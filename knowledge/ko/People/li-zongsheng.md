@@ -12,10 +12,10 @@ lastVerified: 2026-06-05
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/李宗盛.md'
-sourceCommitSha: '2935adb6e'
-sourceContentHash: 'sha256:dd76655b4450da89'
-sourceBodyHash: 'sha256:b2c3ecbe58621633'
-translatedAt: '2026-06-06T00:51:19+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:7e1d920b41b8d459'
+sourceBodyHash: 'sha256:ab5e69cc7c8739be'
+translatedAt: '2026-06-16T17:05:51Z'
 ---
 
 # 리쭝성: 평이한 말로 타인의 마음을 다 써내려가고, 《산언덕》에서야 비로소 자신을 말하다

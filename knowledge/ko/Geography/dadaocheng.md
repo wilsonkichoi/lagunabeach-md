@@ -29,10 +29,10 @@ lastVerified: '2026-05-21'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/大稻埕.md'
-sourceCommitSha: '20a4ac33'
-sourceContentHash: 'sha256:12edbb84c3a27210'
-sourceBodyHash: 'sha256:379e0b6a6e071045'
-translatedAt: '2026-05-25T21:07:07Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:1aab357813ec41e3'
+sourceBodyHash: 'sha256:4f2293becc2b45da'
+translatedAt: '2026-06-16T16:55:29Z'
 ---
 
 # 다다오청: 800미터에 담긴 세 세기, Formosa Tea에서 2·28의 첫 총성까지

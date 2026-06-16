@@ -14,10 +14,10 @@ featured: true
 lastVerified: '2026-04-12'
 lastHumanReview: false
 translatedFrom: 'Society/太陽花學運.md'
-sourceCommitSha: '1844f59c5'
-sourceContentHash: 'sha256:4b20ee6c7caeca19'
-sourceBodyHash: 'sha256:db9bd643c9240d48'
-translatedAt: '2026-06-12T00:52:58+08:00'
+sourceCommitSha: 'e6c58721'
+sourceContentHash: 'sha256:f622a7c42dce34d6'
+sourceBodyHash: 'sha256:2558980b3f59cb6f'
+translatedAt: '2026-06-16T17:13:49Z'
 ---
 
 > **30‑second overview:** On 17 March 2014, KMT legislator Zhang Ching‑chung lay on the floor and used a lapel microphone to announce, in thirty seconds, that the Cross‑Strait Service Trade Agreement (CSSTA) was “treated as already reviewed.” Overnight, more than two hundred students broke through the Legislative Yuan’s security, set up a 24‑hour live stream with an iPad, bypassing all television stations. After twenty‑four days the students withdrew; the CSSTA was not rejected—it was abandoned by history. Twelve years later, the numbers tell the whole story: Taiwan’s dependence on trade with China fell from 42 % to 31.5 %. They won a war they didn’t even know they were fighting.
@@ -165,6 +165,7 @@ Those thirty seconds, Zhang Ching‑chung probably never imagined he was resha
 - [Complex Life Festival](/society/複雜生活節) — The fourth “exit‑and‑seed” outlet of 3‑1‑8: a non‑electoral, non‑coding, non‑recruiting forum for disaffected eighth‑graders
 - [Taiwan and Eswatini](/society/台灣與史瓦帝尼) — Ten years after 3‑1‑8, President Lai’s diplomatic narrative of “sovereign state” in bilateral talks
 - [Nie Yong‑zhen](/people/聶永真) — Designer of the 4 am “Democracy at 4 am” New York Times front‑page ad, documenting how the movement entered the international visual arena
+- [Invisible Nation](/art/看不見的國家) — Vanessa Hope's documentary places the Sunflower Movement as a pivotal frame within Taiwan's 400-year arc of democracy.
 
 ## References
 

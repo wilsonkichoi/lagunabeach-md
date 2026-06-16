@@ -13,7 +13,7 @@ translatedFrom: 'Art/台灣現代詩.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:76772688d61c205f'
 sourceBodyHash: 'sha256:444e69e75502ca5e'
-translatedAt: '2026-04-14T19:13:49+08:00'
+translatedAt: '2026-06-16T17:13:36Z'
 ---
 
 # La poésie moderne de Taïwan : une prophétie locale inattendue

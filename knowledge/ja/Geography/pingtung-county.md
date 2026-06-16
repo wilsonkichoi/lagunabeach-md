@@ -27,10 +27,10 @@ lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/屏東縣.md'
-sourceCommitSha: '31a05c44b'
+sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:74a76153ce0680fe'
 sourceBodyHash: 'sha256:f6d31ce0f8b471cc'
-translatedAt: '2026-06-16T00:44:26+08:00'
+translatedAt: '2026-06-16T17:04:12Z'
 ---
 
 # 屏東県：国家の運命の転機はここで起きましたが、台北はほとんど覚えていません

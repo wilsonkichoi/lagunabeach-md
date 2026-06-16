@@ -22,10 +22,10 @@ lastVerified: '2026-06-07'
 lastHumanReview: 'false'
 featured: 'false'
 translatedFrom: 'Society/台灣與核能的討論.md'
-sourceCommitSha: '7678a430b'
-sourceContentHash: 'sha256:3c2b41ea5e35d05a'
-sourceBodyHash: 'sha256:b926b1c1f3149aa8'
-translatedAt: '2026-06-11T00:44:03+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:644a9c58c9027809'
+sourceBodyHash: 'sha256:9d34f10c11b5b667'
+translatedAt: '2026-06-16T16:55:29Z'
 ---
 
 # 타이완과 원자력 논의: 탈핵은 한때 민주화 운동의 공통 언어였으나, 기후 위기가 모든 진영의 판을 다시 짰다

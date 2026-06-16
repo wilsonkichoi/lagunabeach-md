@@ -30,10 +30,10 @@ sporeLinks:
     date: '2026-06-01'
     url: 'https://x.com/taiwandotmd/status/2061379958304584103'
 translatedFrom: 'Technology/Computex.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:d37367135548def0'
-sourceBodyHash: 'sha256:bb5555703c8ada78'
-translatedAt: '2026-06-10T16:43:34Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:4a673b61d3e24bb9'
+sourceBodyHash: 'sha256:9b3f0ed2efd5fc46'
+translatedAt: '2026-06-16T17:03:25Z'
 ---
 
 # Computex: Two of the Three Major International Computer Shows Have Folded, the Remaining One Grows in Taipei

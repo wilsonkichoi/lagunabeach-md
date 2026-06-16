@@ -14,7 +14,7 @@ lastVerified: 2026-03-22
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:dc5814dcedc92ae0'
 sourceBodyHash: 'sha256:c74e16d96ce01c6c'
-translatedAt: '2026-04-14T19:14:02+08:00'
+translatedAt: '2026-06-16T17:13:36Z'
 ---
 
 # Le Musée d'Art Contemporain Jin-Ma Bin-Guan — D'une gare de départ à un refuge pour l'art

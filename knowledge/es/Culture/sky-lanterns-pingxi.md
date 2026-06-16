@@ -20,10 +20,10 @@ lastVerified: 2026-05-27
 lastHumanReview: false
 featured: false
 translatedFrom: 'Culture/天燈.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:3aee5165c69ac020'
-sourceBodyHash: 'sha256:d0f05c3694c2e800'
-translatedAt: '2026-05-28T05:08:34+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:f8bd2efe9c0ce5ef'
+sourceBodyHash: 'sha256:1f654961432cc687'
+translatedAt: '2026-06-16T17:19:04Z'
 ---
 
 > **Resumen en 30 segundos:**

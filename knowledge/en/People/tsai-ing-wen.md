@@ -13,10 +13,10 @@ rationale:
   whos_pushing_back: 'Main opposition camps — deep-Blue / progressives / China PRC (all have event descriptions or internal hedge acknowledges in prose) / deep-Green / TPP (completely absent in prose, per whats_excluded out of scope).'
   which_framing: 'Taiwan.md self-selected narrative devices: "Two Signatures" counterpoint (Indigenous apology + same-sex marriage law) / "defeat→re-election" reversal arc / "not skilled at speeches but holds the room" character framing. Not citing existing academic frameworks.'
 translatedFrom: People/蔡英文.md
-sourceCommitSha: '1712d109'
-sourceContentHash: 'sha256:fadbb54905eb75f0'
-sourceBodyHash: 'sha256:251dc48eab49a71a'
-translatedAt: '2026-05-25T21:06:51Z'
+sourceCommitSha: 'e6c58721'
+sourceContentHash: 'sha256:b09e2036d35d54e7'
+sourceBodyHash: 'sha256:fc825bead5669dc1'
+translatedAt: '2026-06-16T17:13:49Z'
 ---
 
 # Tsai Ing-wen
@@ -107,6 +107,7 @@ Tsai Ing-wen spent eight years proving one thing: a scholar-type politician who 
 - [Ma Ying-jeou](/people/馬英九) — Tsai Ing-wen debated him on ECFA on April 25, 2010; she took power from him in 2016; the cross-Strait framework she followed after taking office shifted almost entirely away from his
 - [Chou Tzu-yu](/people/周子瑜) — The 90-second apology video on the eve of the 2016 election that prompted Tsai's victory speech line, "No one should have to apologize for their identity"
 - [Thinking Taiwan](/society/想想論壇) — The commentary platform under the Hsiao-Ying Education Foundation established by Tsai after her 2012 defeat; relaunched in October 2025, five months after her retirement
+- [Invisible Nation](/art/看不見的國家) — American director Vanessa Hope's documentary, shot in close proximity to Tsai over seven years; in 2025 it took in more than NT$37 million at the Taiwan box office, the third-highest grossing documentary in Taiwan's history.
 
 ## References
 

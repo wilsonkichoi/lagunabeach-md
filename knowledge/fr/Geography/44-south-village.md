@@ -29,10 +29,10 @@ lastVerified: 2026-05-21
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/四四南村.md'
-sourceCommitSha: '20a4ac337'
-sourceContentHash: 'sha256:57f04d13463f00b4'
-sourceBodyHash: 'sha256:1c7f0374da6219da'
-translatedAt: '2026-05-23T05:06:38+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:48350666b07ad604'
+sourceBodyHash: 'sha256:d1d5c9161c22bb16'
+translatedAt: '2026-06-16T17:05:54Z'
 ---
 
 # Si Si Nan Cun : le village militaire de l’arsenal devenu parc culturel et créatif près de Taipei 101

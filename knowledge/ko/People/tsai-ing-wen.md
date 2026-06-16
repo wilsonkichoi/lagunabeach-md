@@ -13,10 +13,10 @@ rationale:
   whos_pushing_back: '주요 반대 진영 — 심청 / 진보파 / 중국 PRC (prose 모두 사건 서술 또는 내부 hedge) / 심록 / 민중당 (prose 완전 부재, per whats_excluded 범위 외).'
   which_framing: 'Taiwan.md 자체 선택 서사 장치: "두 개의 서명" 대위 (원주민 사과+동성결혼 법) / "패배→재선" 반전호 / "연설 못하지만 hold the room" 인물 특성 frame. 기존 학계 프레임 인용이 아님.'
 translatedFrom: People/蔡英文.md
-sourceCommitSha: '1712d109'
-sourceContentHash: 'sha256:fadbb54905eb75f0'
-sourceBodyHash: 'sha256:251dc48eab49a71a'
-translatedAt: '2026-06-13T00:00:00Z'
+sourceCommitSha: 'e6c58721'
+sourceContentHash: 'sha256:b09e2036d35d54e7'
+sourceBodyHash: 'sha256:fc825bead5669dc1'
+translatedAt: '2026-06-16T17:14:05Z'
 ---
 
 # 채잉웬(蔡英文)
@@ -106,6 +106,7 @@ translatedAt: '2026-06-13T00:00:00Z'
 - [태양화 학운](/society/太陽花學運) — 2014년 타이완 정치 지도를 바꾼 사회 운동
 - [마잉주(馬英九)](/people/馬英九) — 채잉웬은 2010년 4월 25일 그와 ECFA 논쟁을 벌였고, 2016년 그로부터 정권을 이어받았으며, 취임 후 양안 정책은 그의 프레임과 거의 전면적으로 전환되었다
 - [저우쯔위(周子瑜)](/people/周子瑜) — 2016년 대선 전야의 90초 사과 영상은 채잉웬의 당선 감사문 "누구도 자신의 정체성을 위해 사과할 필요가 없다"의 계기가 된 사건
+- [보이지 않는 국가](/art/看不見的國家) — 미국 감독 진 차이가 차이잉원을 7년간 밀착 촬영한 다큐멘터리. 2025년 대만 박스오피스 3,700만 NTD를 돌파해 다큐멘터리 영화사 3위에 올랐다
 - [상상 포럼(想想論壇)](/society/想想論壇) — 채잉웬이 2012년 패선 후 설립한 샤오잉교육기금회 산하 논평 플랫폼. 2025년 10월 퇴임 5개월 후 개편 재가동
 
 ## 참고 자료

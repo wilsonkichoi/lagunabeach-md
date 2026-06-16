@@ -15,7 +15,7 @@ translatedFrom: Art/台灣傳統藝術.md
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:8199dcc4edeb2fce'
 sourceBodyHash: 'sha256:de7228ea44ad062e'
-translatedAt: 2026-05-01T18:02:56+08:00
+translatedAt: '2026-06-16T17:10:30Z'
 ---
 
 # 台湾の伝統芸術：田舎の小さな芝居から文化帝国への奇跡的な逆転

@@ -12,7 +12,7 @@ lastVerified: '2026-03-24'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:c3ce92b18e6d1aeb'
 sourceBodyHash: 'sha256:621573191262d79d'
-translatedAt: '2026-04-14T09:20:00+08:00'
+translatedAt: '2026-06-16T17:10:38Z'
 ---
 
 # 원주민 문학

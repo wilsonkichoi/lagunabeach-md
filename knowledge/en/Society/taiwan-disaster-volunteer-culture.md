@@ -20,10 +20,10 @@ lastVerified: '2026-05-17'
 lastHumanReview: true
 featured: false
 translatedFrom: 'Society/台灣災難志工文化.md'
-sourceCommitSha: 'c2f471732'
-sourceContentHash: 'sha256:d6c55754f67a687e'
-sourceBodyHash: 'sha256:a2ac2c125cdf8caf'
-translatedAt: '2026-05-17T05:34:48+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:2758b5b1f9c739df'
+sourceBodyHash: 'sha256:5c5a60eea00bbc8d'
+translatedAt: '2026-06-16T17:03:25Z'
 ---
 
 # Shovel Supermen and Island Synchronicity: How Taiwan's Disaster Volunteer Culture Shapes National Identity
@@ -142,9 +142,9 @@ Although Taiwan's disaster volunteers do not have obvious gender or class charac
 
 ## "We Are All People of This Place": Chen Chien-nian's Prophecy
 
-In June 1999, Puyuma (卑南族) singer Chen Chien-nian (陳建年, Paudull) released the album *Ocean* (海洋), which included the song "We Are Compatriots" (我們是同胞) (lyrics by Lin Chih-hsing, music by Chen Chien-nian)[^15]. The lyrics sing: "Mountain people or plains people, we are all people of this place. First-comers or later-comers, we are all residents of this place. We are not enemies, so please respect me, and let me appreciate you."
+In June 1999, Puyuma (卑南族) singer Chen Chien-nian (陳建年, Paudull) released the album _Ocean_ (海洋), which included the song "We Are Compatriots" (我們是同胞) (lyrics by Lin Chih-hsing, music by Chen Chien-nian)[^15]. The lyrics sing: "Mountain people or plains people, we are all people of this place. First-comers or later-comers, we are all residents of this place. We are not enemies, so please respect me, and let me appreciate you."
 
-The album was released in the same year as the 921 Chi-Chi earthquake (the earthquake was in September, *Ocean* in June), making Chen the first Indigenous singer to win the Golden Melody Award for Best Male Mandarin Vocalist in 2000[^15]. Nearly 30 years later, these lyrics became concrete practice in the 2025 Mataian disaster zone — setting aside political slogans and textbook rhetoric, during that week when hundreds of thousands of strangers carried shovels on electric commuter trains into the tribe, when the Indigenous tribe proactively opened church shelters, when disaster-affected residents came out to wash volunteers' rain boots, these lyrics became action.
+The album was released in the same year as the 921 Chi-Chi earthquake (the earthquake was in September, _Ocean_ in June), making Chen the first Indigenous singer to win the Golden Melody Award for Best Male Mandarin Vocalist in 2000[^15]. Nearly 30 years later, these lyrics became concrete practice in the 2025 Mataian disaster zone — setting aside political slogans and textbook rhetoric, during that week when hundreds of thousands of strangers carried shovels on electric commuter trains into the tribe, when the Indigenous tribe proactively opened church shelters, when disaster-affected residents came out to wash volunteers' rain boots, these lyrics became action.
 
 The Fata'an tribe also presented a new dimension of ethnic relations after the flood. The disaster transcended the binary of "aid giver" and "aid recipient" — the Indigenous tribe was both a disaster victim and a significant force in relief efforts. The Presbyterian Church proactively opened shelters, and tribal youth participated in frontline rescue work; the true face of multicultural Taiwan was laid bare in this flood[^5].
 
@@ -200,7 +200,7 @@ This article uses 2 CC BY 2.0-licensed images, cached in `public/article-images/
 
 [^4]: [Mataian Tribe](https://zh.wikipedia.org/zh-tw/%E9%A6%AC%E5%A4%AA%E9%9E%8D%E9%83%A8%E8%90%BD) — Wikipedia. Details the meaning of Fata'an in the Amis language, two versions of the creation myth, and the tribe's geographical range.
 
-[^5]: [Concerned with Inheritance and Transformation — Fata'an Tribe Artifacts Return Home for Exhibition](https://research.sinica.edu.tw/fataan/) — Academia Sinica, *Research Highlights* (2025). Academic compilation of the Fata'an tribe's age-grade system, leadership system, and contemporary tribal self-governance structures.
+[^5]: [Concerned with Inheritance and Transformation — Fata'an Tribe Artifacts Return Home for Exhibition](https://research.sinica.edu.tw/fataan/) — Academia Sinica, _Research Highlights_ (2025). Academic compilation of the Fata'an tribe's age-grade system, leadership system, and contemporary tribal self-governance structures.
 
 [^6]: [921 Earthquake](https://zh.wikipedia.org/wiki/921%E5%A4%A7%E5%9C%B0%E9%9C%87) — Wikipedia. Compiles the magnitude, casualties, post-disaster reconstruction, and legislative context of the Disaster Prevention and Protection Act for the 921 Chi-Chi earthquake at 1:47 AM on September 21, 1999.
 
@@ -210,7 +210,7 @@ This article uses 2 CC BY 2.0-licensed images, cached in `public/article-images/
 
 [^9]: Executive Yuan (2014). "Kaohsiung Gas Explosion Incident Disaster Response and Review Report." Documents the casualties (32 dead, 321 injured) from the propylene leak and explosion in underground pipelines in Cianjhen and Lingya, Kaohsiung, late at night on July 31, 2014, and subsequent institutional reviews.
 
-[^10]: Anderson, Benedict (1983). *Imagined Communities: Reflections on the Origin and Spread of Nationalism*. London: Verso. The classic treatise on imagined communities; for its contemporary application in the Taiwanese context, see the Chinese translation by Wu Rui-ren and its influence on post-martial-law Taiwanese national discourse.
+[^10]: Anderson, Benedict (1983). _Imagined Communities: Reflections on the Origin and Spread of Nationalism_. London: Verso. The classic treatise on imagined communities; for its contemporary application in the Taiwanese context, see the Chinese translation by Wu Rui-ren and its influence on post-martial-law Taiwanese national discourse.
 
 [^11]: [Don't Bring the Wrong Tools! Central Government Announces: Shovel Supermen No Longer Needed, "Spoon Supermen" Urgently Needed](https://udn.com/news/story/124616/9063560) — United Daily News (2025-10). Official signal in the second week after the disaster calling for a shift in volunteer tools and the social media response.
 
@@ -218,9 +218,9 @@ This article uses 2 CC BY 2.0-licensed images, cached in `public/article-images/
 
 [^13]: Ministry of Foreign Affairs, Republic of China (Taiwan) (2011–2012). "Taiwan-Japan 311 Earthquake Disaster Relief Record." Compiles the scale of Taiwan's donations to Japan's 311 earthquake relief, technical support, and the subsequent deepening of Taiwan-Japan relations.
 
-[^14]: Sabhlok, A. (2010). "Grassroots organizing and disaster management: Lessons from community-based approaches." *International Journal of Emergency Management*, 7(2), 112-128. Research on the role of the grassroots women's organization SEWA in the 2001 Gujarat earthquake and subsequent relief efforts in India.
+[^14]: Sabhlok, A. (2010). "Grassroots organizing and disaster management: Lessons from community-based approaches." _International Journal of Emergency Management_, 7(2), 112-128. Research on the role of the grassroots women's organization SEWA in the 2001 Gujarat earthquake and subsequent relief efforts in India.
 
-[^15]: [Chen Chien-nian / Ocean — "We Are Compatriots"](https://www.kkbox.com/tw/en/song/OkYSryWHwySdLLVgOl) — Taiwan Colors Music / We Music (released June 1999). "We Are Compatriots" — lyrics by Lin Chih-hsing, music by Chen Chien-nian — included in Chen's debut solo album *Ocean*, which won Best Male Mandarin Vocalist at the 11th Golden Melody Awards in 2000.
+[^15]: [Chen Chien-nian / Ocean — "We Are Compatriots"](https://www.kkbox.com/tw/en/song/OkYSryWHwySdLLVgOl) — Taiwan Colors Music / We Music (released June 1999). "We Are Compatriots" — lyrics by Lin Chih-hsing, music by Chen Chien-nian — included in Chen's debut solo album _Ocean_, which won Best Male Mandarin Vocalist at the 11th Golden Melody Awards in 2000.
 
 ---
 

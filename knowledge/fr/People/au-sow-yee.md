@@ -23,10 +23,10 @@ lastVerified: 2026-05-17
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/區秀詒.md'
-sourceCommitSha: '0feffb185'
-sourceContentHash: 'sha256:b1aa515783a15d29'
-sourceBodyHash: 'sha256:2cc088ef644c214e'
-translatedAt: '2026-05-17T05:06:52+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:4e807297f5dfcc70'
+sourceBodyHash: 'sha256:9bd8f0aa157f38ef'
+translatedAt: '2026-06-16T16:54:51Z'
 ---
 
 # Au Sow Yee : la curatrice malaisienne qui a fait entrer l'« archipel » dans le milieu artistique taïwanais

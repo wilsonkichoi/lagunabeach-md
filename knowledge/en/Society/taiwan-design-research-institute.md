@@ -18,10 +18,10 @@ lastVerified: 2026-06-04
 lastHumanReview: false
 featured: false
 translatedFrom: 'Society/台灣設計研究院.md'
-sourceCommitSha: '4294a3887'
-sourceContentHash: 'sha256:247f4a7c6681be37'
-sourceBodyHash: 'sha256:b4d9a104f71baf5c'
-translatedAt: '2026-06-06T00:51:18+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:dc9a16af37eefe47'
+sourceBodyHash: 'sha256:f7df18837078b48f'
+translatedAt: '2026-06-16T17:03:25Z'
 ---
 
 Xizhi’s health‑center waiting area now looks hardly like a health center. The fluorescent lights, plastic chairs, and tightly packed medication windows have disappeared, replaced by a set of modular “building‑block” installations—one each for “new‑town,” “new‑city,” and “rural” typologies. New Taipei City Health Bureau spent thirteen months, starting from pilot sites in Xizhi and Yingge[^1]. You probably didn’t notice it. When you go for a vaccine, blood‑pressure check, or to pick up chronic‑illness medication, the flow is a bit smoother, the wait less irritating, and then you leave.

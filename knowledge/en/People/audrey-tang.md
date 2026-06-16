@@ -23,10 +23,10 @@ lastVerified: 2026-05-16
 lastHumanReview: true
 featured: true
 translatedFrom: 'People/唐鳳.md'
-sourceCommitSha: '09e1370d'
-sourceContentHash: 'sha256:4fe29b98574a3feb'
-sourceBodyHash: 'sha256:6a5330c17c122b19'
-translatedAt: '2026-05-16T05:07:54+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:6543b35dfb15923b'
+sourceBodyHash: 'sha256:f574bc1058bd407e'
+translatedAt: '2026-06-16T17:11:47Z'
 ---
 
 # Audrey Tang: Every Famous Decision She Has Made Has Been a Refusal of the Label “Genius”

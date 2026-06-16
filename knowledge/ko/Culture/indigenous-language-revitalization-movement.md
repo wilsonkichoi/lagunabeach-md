@@ -13,7 +13,7 @@ lastVerified: 2026-03-29
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:9c408bfc603af1d1'
 sourceBodyHash: 'sha256:f60b7a2b3f864e75'
-translatedAt: '2026-04-14T07:35:59+08:00'
+translatedAt: '2026-06-16T17:19:04Z'
 ---
 
 # 대만 원주민 언어 부흥 운동

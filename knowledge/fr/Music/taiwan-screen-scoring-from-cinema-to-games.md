@@ -23,10 +23,10 @@ lastVerified: 2026-06-01
 lastHumanReview: false
 featured: false
 translatedFrom: 'Music/台灣影視配樂.md'
-sourceCommitSha: '6dc4c2256'
-sourceContentHash: 'sha256:3625936b38b19970'
-sourceBodyHash: 'sha256:33232b27723c1c1a'
-translatedAt: '2026-06-02T00:40:00+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:d7854f820ae13e37'
+sourceBodyHash: 'sha256:5340a77820daae23'
+translatedAt: '2026-06-16T16:54:51Z'
 ---
 
 > **Aperçu en 30 secondes :** Les musiques taïwanaises pour le cinéma et l’audiovisuel sont souvent décrites comme ayant atteint des « standards de plus en plus internationaux », à l’image de Ricky Ho traversant les mers pour enregistrer Seediq Bale avec un orchestre symphonique de 60 musiciens à Sydney[^1], ou de la musique de Tan Dun pour Tigre et Dragon récompensée aux Oscars[^2]. Pourtant, ce qui rend cette trajectoire réellement émouvante ne se situe pas dans l’échelle des moyens. De la grammaire orchestrale académique des années 1980 à Lim Giong introduisant le silence électronique dans le cinéma de Hou Hsiao-hsien[^3], de Lin Sheng-xiang composant pour un film en noir et blanc avec un yueqin acheté 2 000 dollars taïwanais[^4] à Ko Chih-hao transportant sur grand écran l’opéra taïwanais, le nanguan et le beiguan des parvis de temples de Dadaocheng[^5], jusqu’à Chang Wei-fan intégrant dans un jeu d’horreur la lamentation funéraire taïwanaise « si-so-mi »[^6], le chemin parcouru par les compositeurs taïwanais est celui d’un passage progressif : de la mise en émotion des images à l’excavation de la voix propre de cette île. Le son a des strates géologiques ; les compositeurs sont ceux qui creusent.

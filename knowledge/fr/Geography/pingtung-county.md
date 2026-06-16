@@ -27,10 +27,10 @@ lastVerified: '2026-05-18'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/屏東縣.md'
-sourceCommitSha: '544200eab'
-sourceContentHash: 'sha256:807afcb0261734eb'
-sourceBodyHash: 'sha256:5eba748f96308539'
-translatedAt: '2026-05-26T05:10:58+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:74a76153ce0680fe'
+sourceBodyHash: 'sha256:f6d31ce0f8b471cc'
+translatedAt: '2026-06-16T16:40:09Z'
 ---
 
 # Comté de Pingtung : le destin national a basculé ici, et Taipei ne s’en est presque jamais souvenu

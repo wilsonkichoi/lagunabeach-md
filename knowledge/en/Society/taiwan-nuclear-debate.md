@@ -23,10 +23,10 @@ lastVerified: 2026-06-07
 lastHumanReview: false
 featured: false
 translatedFrom: 'Society/台灣與核能的討論.md'
-sourceCommitSha: '7678a430b'
-sourceContentHash: 'sha256:3c2b41ea5e35d05a'
-sourceBodyHash: 'sha256:b926b1c1f3149aa8'
-translatedAt: '2026-06-11T00:44:03+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:644a9c58c9027809'
+sourceBodyHash: 'sha256:9d34f10c11b5b667'
+translatedAt: '2026-06-16T16:59:03Z'
 ---
 
 # Taiwan and the Nuclear Debate: Anti-Nuclear Politics Was Once the Shared Language of the Democracy Movement, but the Climate Crisis Has Reshuffled Every Side

@@ -19,10 +19,10 @@ featured: false
 lastVerified: 2026-04-06
 lastHumanReview: true
 translatedFrom: People/嚴長壽.md
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:bf2c8c297d2e1acd'
-sourceBodyHash: 'sha256:c4adf4d38cbc289a'
-translatedAt: 2026-05-01T20:54:23+08:00
+sourceCommitSha: 'df2e7558'
+sourceContentHash: 'sha256:259b129f305ff5f9'
+sourceBodyHash: 'sha256:366255e36a4fa0f5'
+translatedAt: '2026-06-16T17:14:11Z'
 category: People
 ---
 
@@ -146,6 +146,7 @@ Aquellas botas de lluvia largas frente a las aulas siguen ahí. El arroz sigue p
 - [Mapa cultural de los 16 pueblos indígenas de Taiwán](/culture/台灣原住原住民族16族文化地圖) — El principio central de la escuela Junyi: la cultura indígena no necesita ser "rescatada", necesita ser respetada.
 - [La cultura del café en Taiwán](/lifestyle/台灣咖啡文化) — Cuando Yen impulsaba el servicio de calidad en Landis, los taiwaneses todavía tomaban café instantáneo.
 - [Teach For Taiwan (TFT)](/society/為台灣而教TFT) — Otro proyecto educativo impulsado por Yen, liderado por Liu An-ting, que llevó a cuatrocientos jóvenes a las aulas rurales.
+- [Lu Kuan-wei](/people/呂冠緯) — Presidente de la plataforma educativa Junyi Academy; el nombre «Junyi» está tomado precisamente de la Escuela Junyi de Taitung fundada por Stanley Yen.
 
 ## Referencias
 

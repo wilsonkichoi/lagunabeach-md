@@ -22,10 +22,10 @@ lastVerified: 2026-05-11
 lastHumanReview: false
 featured: false
 translatedFrom: 'History/台灣鐵道史.md'
-sourceCommitSha: 'e80959fac'
-sourceContentHash: 'sha256:f3c79eac666977a4'
-sourceBodyHash: 'sha256:89258b655778eed4'
-translatedAt: '2026-05-12T11:51:05+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:045bcc00442a33a7'
+sourceBodyHash: 'sha256:e1c11d2761783f3b'
+translatedAt: '2026-06-16T16:54:57Z'
 ---
 
 # Historia ferroviaria de Taiwán

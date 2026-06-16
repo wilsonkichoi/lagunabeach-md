@@ -12,7 +12,7 @@ translatedFrom: 'Culture/台灣乖乖文化.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:b95317cbf18e6ec7'
 sourceBodyHash: 'sha256:2856e1a6d3a978a3'
-translatedAt: '2026-04-14T07:25:04+08:00'
+translatedAt: '2026-06-16T17:10:38Z'
 ---
 
 > **30초 요약**: 대만에서는 병원의 정밀 의료기기부터 은행 ATM까지, 기계가 있는 곳이면 어디서든 초록색 콰이콰이(乖乖) 과자 한 봉지를 발견할 수 있다. 1990년대 말 시작된 이 독특한 문화는 엔지니어들이 '콰이콰이'라는 이름의 어감이 기기를 '얌전히(콰이콰이) 작동'하게 해준다고 믿는 데서 비롯됐다. 오늘날에는 BBC까지 이 대만의 기묘한 현상을 특집 기사로 다룰 정도다.

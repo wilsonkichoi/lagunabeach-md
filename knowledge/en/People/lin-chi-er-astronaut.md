@@ -21,11 +21,20 @@ image: '/article-images/people/lindgren-emu-2014.webp'
 imageCredit: 'NASA/Bill Stafford'
 imageLicense: 'Public domain (NASA)'
 imageSource: 'https://commons.wikimedia.org/wiki/File:Kjell_Lindgren_in_EMU_(cropped).jpg'
+sporeLinks:
+  - id: 49
+    platform: 'threads'
+    date: '2026-04-28'
+    url: 'https://www.threads.com/@taiwandotmd/post/DXrDdODk37l'
+  - id: 50
+    platform: 'x'
+    date: '2026-04-28'
+    url: 'https://x.com/taiwandotmd/status/2049079839244828881'
 translatedFrom: 'People/林琪兒.md'
-sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:ed644880c93bcac8'
-sourceBodyHash: 'sha256:4fd6e96bb27bc80b'
-translatedAt: '2026-05-16T22:19:17Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:386b664532b04d0d'
+sourceBodyHash: 'sha256:85e505009fb05c24'
+translatedAt: '2026-06-16T17:15:54Z'
 ---
 
 > **30-second overview:** Kjell N. Lindgren was born in Taipei on January 23, 1973. His father was a U.S. Air Force officer stationed at Ching Chuan Kang Air Base in Taichung; his mother, Zhang Chuyun, was born in Wuhan and came to Taiwan as a child with the Nationalist government. He left Taiwan at age two and a half, spending his childhood in England and Virginia. After graduating from the Air Force Academy, a misdiagnosis of asthma during flight training ended his pilot ambitions. He pivoted to medicine, and eleven years later a NASA physical reversed the diagnosis. In 2009, he was selected as one of nine astronauts from 3,565 applicants in NASA's 20th class. He grew red romaine lettuce on the Space Station, played a plastic bagpipe inside the module in tribute to a fallen friend, and commanded SpaceX Crew-4 "Freedom," accumulating 312 days 5 hours 11 minutes in orbit. In April 2026, he returned to Taiwan under the "Freedom 250" program and said at the Presidential Office: "My NASA astronaut career began in Taiwan."

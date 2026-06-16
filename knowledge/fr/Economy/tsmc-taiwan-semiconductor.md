@@ -16,10 +16,10 @@ imageCredit: 'Tseng Cheng-Hsun via Wikimedia Commons'
 imageLicense: 'CC BY 2.0'
 imageSource: 'https://commons.wikimedia.org/wiki/File:TSMC_fabs_in_Hsinchu_01.jpg'
 translatedFrom: 'Economy/台灣企業：台積電.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:abfac62a4f11b024'
-sourceBodyHash: 'sha256:c307a1be6d5f1271'
-translatedAt: '2026-05-13T09:30:29+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:4ff65a51b539a939'
+sourceBodyHash: 'sha256:6bdb1c40d1477a30'
+translatedAt: '2026-06-16T16:54:51Z'
 ---
 
 # Entreprises taïwanaises : TSMC

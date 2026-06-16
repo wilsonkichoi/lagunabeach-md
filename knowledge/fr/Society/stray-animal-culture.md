@@ -23,10 +23,10 @@ lastVerified: 2026-05-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Society/台灣流浪動物文化.md'
-sourceCommitSha: '89026b10'
-sourceContentHash: 'sha256:559d8bd5f905e8f0'
-sourceBodyHash: 'sha256:a5a01661de129b91'
-translatedAt: '2026-05-25T21:07:36Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:6b2ce60c50966bdc'
+sourceBodyHash: 'sha256:6f79d66a90a09b62'
+translatedAt: '2026-06-16T16:54:51Z'
 ---
 
 # Culture des animaux errants à Taïwan : de Douze nuits à la mort du chat-léopard, le dilemme du tramway entre protection animale et conservation de la faune

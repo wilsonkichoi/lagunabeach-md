@@ -20,10 +20,10 @@ lastVerified: 2026-06-05
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/Howhow.md'
-sourceCommitSha: 'aeb8b0e48'
-sourceContentHash: 'sha256:d627e5d3ae6e33dc'
-sourceBodyHash: 'sha256:b4269ae42baf9103'
-translatedAt: '2026-06-06T00:51:19+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:e3c09bf20faac318'
+sourceBodyHash: 'sha256:636421c60d5f3730'
+translatedAt: '2026-06-16T16:55:14Z'
 ---
 
 > **30 秒概観：** 陳孜昊（ちん・しこう／チェン・ズーハオ、Howhow）は、台湾 YouTube 史上で最も直感に反することをしました。ほかの人があらゆる手段でタイアップを隠そうとするなか、彼は大きな字幕で「直接業配主題に入る！」と書き、クリエイターにとって最も気まずいものを看板に変えました。彼は一人で脚本、演出、出演、編集を担い、154 万登録、7.6 億回視聴の HowFun チャンネルを支えています。しかしここには、想像しにくい三層の矛盾があります。称賛される彼の「誠実なタイアップ」は、まさに学界が「広告らしくない広告」と呼ぶ欺瞞の仕組みです。彼の「一人チーム」は他人が貼ったラベルであり、本人は孤独を嫌い、ずっとチームを求めていました。そして彼がこだわる高コストの長尺動画は、ちょうどショート動画に最も強く圧迫される競争路線にあります。この記事は、一人のクリエイターがいかに自分のリズムを守るか、そしてそのこだわりがいかに高くつくものになりつつあるかを扱います。

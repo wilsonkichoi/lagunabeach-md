@@ -25,10 +25,10 @@ lastVerified: 2026-05-22
 lastHumanReview: false
 featured: true
 translatedFrom: 'Technology/台灣BIM與營建科技.md'
-sourceCommitSha: '43bf36374'
-sourceContentHash: 'sha256:eb74ed8e8bb7aa41'
-sourceBodyHash: 'sha256:76d8e776ea9fdea0'
-translatedAt: '2026-05-23T05:06:37+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:5500ed1d9d4e0f85'
+sourceBodyHash: 'sha256:6207b1decb9dcfc4'
+translatedAt: '2026-06-16T16:55:14Z'
 ---
 
 # 台湾のBIMと建設テクノロジー：政府が12年推進した「因案制宜」が、18ヶ月のprotocolによって書き換えられた

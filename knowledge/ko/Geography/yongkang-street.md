@@ -28,10 +28,10 @@ lastVerified: 2026-05-21
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/永康街.md'
-sourceCommitSha: '20a4ac337'
-sourceContentHash: 'sha256:487b25e8723770a3'
-sourceBodyHash: 'sha256:6a885fd47c57b5c2'
-translatedAt: '2026-05-23T05:06:37+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:97d1cb2148bf09ca'
+sourceBodyHash: 'sha256:457045b9eebdff05'
+translatedAt: '2026-06-16T16:55:29Z'
 ---
 
 # 융캉제: 일본 교수들이 살았고, 외성인들이 피난해 왔으며, 지금은 일본·한국 관광객의 타이베이가 된 거리

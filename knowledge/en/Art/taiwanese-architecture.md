@@ -15,7 +15,7 @@ translatedFrom: 'Art/台灣建築.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:97939516b3de2749'
 sourceBodyHash: 'sha256:8d0abd22f69dd0b4'
-translatedAt: '2026-05-01T13:44:02+08:00'
+translatedAt: '2026-06-16T17:10:15Z'
 ---
 
 # Taiwanese Architecture: A Layered Poem of Cultural Convergence

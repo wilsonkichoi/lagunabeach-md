@@ -21,10 +21,10 @@ lastVerified: 2026-04-23
 lastHumanReview: false
 featured: false
 translatedFrom: 'Technology/大宇雙劍.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:8e80804c9910ac1a'
-sourceBodyHash: 'sha256:c6e2238f1a2c15d5'
-translatedAt: '2026-05-29T00:35:00+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:99d1ed1be7085b4c'
+sourceBodyHash: 'sha256:6aa8eb64a1458368'
+translatedAt: '2026-06-16T16:54:51Z'
 ---
 
 > **En 30 secondes :** En 1990, des étudiants se penchaient sur des manuels techniques au Guanghua Computer Market, partageant un seul ordinateur à tour de rôle, pour créer le premier RPG d'arts martiaux en chinois, Xuan-Yuan Sword. Cinq ans plus tard, un jeune homme de 26 ans a inscrit sa peine de cœur dans la fin de The Legend of Sword and Fairy, et dix mille exemplaires se sont vendus le premier jour. Ces deux jeux ont fini par être appelés les « Deux Épées de Softstar », traversant trente ans, engendrant séries télévisées et films, avec des ventes cumulées dépassant un million d'exemplaires. En septembre 2024, Softstar a vendu la propriété intellectuelle des deux épées pour 500 millions de dollars taïwanais ; en juin 2025, la PI de Xuan-Yuan Sword a été revendue par HuanDong à Chengdu Xingyue Chenshi ; le 3 novembre 2025, Softstar a été renommée « Star Fusion Group », les semi-conducteurs représentant 65 % de son activité. Mais pour toute une génération de joueurs, cet après-midi où tu as pleuré pour la première fois devant une fenêtre DOS, ça ne se vend pas.

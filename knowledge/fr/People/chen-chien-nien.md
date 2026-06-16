@@ -21,10 +21,10 @@ lastVerified: '2026-05-17'
 lastHumanReview: 'false'
 featured: 'false'
 translatedFrom: 'People/陳建年.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:cac2669b66f68dc6'
-sourceBodyHash: 'sha256:7b2313f41ac13889'
-translatedAt: '2026-05-24T05:06:33+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:54be9af22ce56bb4'
+sourceBodyHash: 'sha256:7ce406dfced8a432'
+translatedAt: '2026-06-16T16:54:51Z'
 ---
 
 # Chen Chien-nien : le roi des Golden Melody Awards du poste de police, le petit-fils qui fit de la chanson laissée par son grand-père maternel un océan

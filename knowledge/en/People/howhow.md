@@ -20,10 +20,10 @@ lastVerified: 2026-06-05
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/Howhow.md'
-sourceCommitSha: 'aeb8b0e48'
-sourceContentHash: 'sha256:d627e5d3ae6e33dc'
-sourceBodyHash: 'sha256:b4269ae42baf9103'
-translatedAt: '2026-06-06T00:51:18+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:e3c09bf20faac318'
+sourceBodyHash: 'sha256:636421c60d5f3730'
+translatedAt: '2026-06-16T16:59:03Z'
 ---
 
 > **30-second Overview:** Chen Tzu-hao (Howhow) did one of the most counterintuitive things in Taiwan YouTube history. While everyone else tried every way possible to hide sponsored content, he put up a giant subtitle reading “straight into the sponsored-content topic!” and turned the thing creators found most awkward into his signature. By writing scripts, directing, acting, and editing alone, he sustained the HowFun channel, with 1.54 million subscribers and 760 million views. But there are three layers of contradiction here that you may not have expected: the “honest sponsored content” for which he is praised is precisely the deceptive mechanism academics describe as “advertising that does not look like advertising”; his “one-person team” is a label imposed by others, while he himself dislikes loneliness and has always wanted a team; and the high-cost long-form videos he insists on making sit exactly in the lane most fiercely pressured by short-form video. This article is about how a creator preserves his own rhythm, and how that insistence is becoming expensive.

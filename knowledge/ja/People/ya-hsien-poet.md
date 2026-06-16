@@ -20,10 +20,10 @@ lastVerified: 2026-05-28
 lastHumanReview: false
 featured: true
 translatedFrom: 'People/瘂弦.md'
-sourceCommitSha: '4d39a7d2'
+sourceCommitSha: '88f47159'
 sourceContentHash: 'sha256:e294ff8cf9b9ac0a'
 sourceBodyHash: 'sha256:dd3ab574ead8013b'
-translatedAt: '2026-06-14T16:37:40Z'
+translatedAt: '2026-06-16T17:10:30Z'
 sporeLinks:
   - id: 140
     platform: 'threads'

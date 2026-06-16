@@ -28,10 +28,10 @@ lastVerified: 2026-05-21
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/西門町.md'
-sourceCommitSha: '20a4ac33'
-sourceContentHash: 'sha256:1aff728fe300b0bd'
-sourceBodyHash: 'sha256:2e82b412c0365ee8'
-translatedAt: '2026-05-25T21:07:04Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:f49241fb54f742a7'
+sourceBodyHash: 'sha256:d239bfa01292d203'
+translatedAt: '2026-06-16T17:04:12Z'
 ---
 
 # 西門町：日本人が 1896 年につくった娯楽街は、130 年後も台北で最も若い街です

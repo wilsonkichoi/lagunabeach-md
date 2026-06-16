@@ -1,20 +1,29 @@
 ---
-title: "Escuela Taiwanesa de Inteligencia Artificial: la llamada inconclusa y diez mil ingenieros de IA"
-description: "El 27 de marzo de 2020, Chen Sheng-wei llamó con seriedad al editor jefe de CommonWealth Magazine: quería crear una especie de curso gratuito de programación para toda la ciudadanía. Dos días después cayó mientras patinaba en línea; 13 días más tarde murió. Tenía 44 años. Al momento de su muerte, la Escuela Taiwanesa de Inteligencia Artificial (AIA), que él había fundado en 2018, ya había formado a más de 6.000 personas. En el mismo período, el Consejo Nacional de Desarrollo proclamaba una “gran estrategia de IA para un país pequeño” con 16.000 millones de dólares taiwaneses en cinco años; él, en cambio, levantó 180 millones de financiamiento privado de seis empresas, entre ellas Formosa Plastics, Chi Mei e Inventec, y abrió su propia escuela. Ocho años después, los exalumnos superaron los diez mil. AIA es una pieza del rompecabezas de la modernización industrial de Taiwán que se parece muy poco a Taiwán."
+title: 'Escuela Taiwanesa de Inteligencia Artificial: la llamada inconclusa y diez mil ingenieros de IA'
+description: 'El 27 de marzo de 2020, Chen Sheng-wei llamó con seriedad al editor jefe de CommonWealth Magazine: quería crear una especie de curso gratuito de programación para toda la ciudadanía. Dos días después cayó mientras patinaba en línea; 13 días más tarde murió. Tenía 44 años. Al momento de su muerte, la Escuela Taiwanesa de Inteligencia Artificial (AIA), que él había fundado en 2018, ya había formado a más de 6.000 personas. En el mismo período, el Consejo Nacional de Desarrollo proclamaba una “gran estrategia de IA para un país pequeño” con 16.000 millones de dólares taiwaneses en cinco años; él, en cambio, levantó 180 millones de financiamiento privado de seis empresas, entre ellas Formosa Plastics, Chi Mei e Inventec, y abrió su propia escuela. Ocho años después, los exalumnos superaron los diez mil. AIA es una pieza del rompecabezas de la modernización industrial de Taiwán que se parece muy poco a Taiwán.'
 date: 2026-05-18
-author: "Taiwan.md"
-category: "Technology"
-subcategory: "人工智慧"
-tags: ["inteligencia artificial", "educación", "Chen Sheng-wei", "AIA", "industria tecnológica de Taiwán", "Academia Sinica", "política de IA"]
+author: 'Taiwan.md'
+category: 'Technology'
+subcategory: '人工智慧'
+tags:
+  [
+    'inteligencia artificial',
+    'educación',
+    'Chen Sheng-wei',
+    'AIA',
+    'industria tecnológica de Taiwán',
+    'Academia Sinica',
+    'política de IA',
+  ]
 readingTime: 18
 lastVerified: 2026-05-18
 lastHumanReview: true
 featured: true
-translatedFrom: "Technology/台灣人工智慧學校.md"
-sourceCommitSha: "96945e450"
-sourceContentHash: "sha256:5beed3bcd5362b88"
-sourceBodyHash: "sha256:de487b6c8ffd4407"
-translatedAt: "2026-05-18T20:48:56+08:00"
+translatedFrom: 'Technology/台灣人工智慧學校.md'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:4e403df024cd43dc'
+sourceBodyHash: 'sha256:04e9009c16ede3cb'
+translatedAt: '2026-06-16T16:54:57Z'
 ---
 
 # Escuela Taiwanesa de Inteligencia Artificial: la llamada inconclusa y diez mil ingenieros de IA

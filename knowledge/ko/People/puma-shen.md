@@ -20,10 +20,10 @@ lastVerified: '2026-04-28'
 lastHumanReview: true
 featured: false
 translatedFrom: 'People/沈伯洋.md'
-sourceCommitSha: 'dd39065b2'
-sourceContentHash: 'sha256:264471f17f1dd86d'
-sourceBodyHash: 'sha256:ff76539057c18498'
-translatedAt: '2026-06-11T00:44:03+08:00'
+sourceCommitSha: '21f2ddb4'
+sourceContentHash: 'sha256:b4d9dc8d1282cabf'
+sourceBodyHash: 'sha256:7c55d791874ec123'
+translatedAt: '2026-06-16T17:14:05Z'
 ---
 
 # 선보양: 그는 중국의 인지전을 연구했고, 훗날 중국은 그를 위성지도 위에 표시했다
@@ -206,6 +206,7 @@ translatedAt: '2026-06-11T00:44:03+08:00'
 - [바중](/people/八炯) — 마찬가지로 중국공산당의 표적이 된 타이완 YouTuber. 2025년 11월 중국공산당으로부터 최고 인민폐 25만 위안의 현상금이 걸렸다
 - [라이칭더](/people/賴清德) — 같은 “완고한 타이완 독립분자” 명단에 오른 인물로, 2025년 11월 선보양을 공개 지지했다
 - [타이완 국방과 군사 현대화](/society/台灣國防與軍事現代化) — 헤이슝학원의 민방위 교육과 전민 국방의 보완 관계
+- [보이지 않는 국가](/art/看不見的國家) — 다큐멘터리는 타이완인이 민방위 수업을 듣는 장면으로 끝나며, 헤이슝학원이 바로 그 마지막 수업의 실사판이다
 
 ## 참고자료
 

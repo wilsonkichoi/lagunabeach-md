@@ -25,10 +25,10 @@ lastVerified: 2026-05-22
 lastHumanReview: false
 featured: true
 translatedFrom: 'Technology/台灣BIM與營建科技.md'
-sourceCommitSha: '43bf36374'
-sourceContentHash: 'sha256:eb74ed8e8bb7aa41'
-sourceBodyHash: 'sha256:76d8e776ea9fdea0'
-translatedAt: '2026-05-23T05:06:38+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:5500ed1d9d4e0f85'
+sourceBodyHash: 'sha256:6207b1decb9dcfc4'
+translatedAt: '2026-06-16T16:54:51Z'
 ---
 
 # BIM et technologie de construction à Taïwan : douze ans de politique gouvernementale au cas par cas, réécrits par un protocole de dix-huit mois

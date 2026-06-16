@@ -26,10 +26,10 @@ lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/新竹縣.md'
-sourceCommitSha: 'bcffb45b'
-sourceContentHash: 'sha256:d364dc7cecbd8556'
-sourceBodyHash: 'sha256:1609d19d6b7ce06f'
-translatedAt: '2026-05-25T21:07:07Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:499e7dcb301a6ddb'
+sourceBodyHash: 'sha256:8df9daddb901affe'
+translatedAt: '2026-06-16T17:05:51Z'
 ---
 
 # 신주현: 235년의 의민 신앙과 대만 최고 1인당 소득이 같은 터우첸강에 살다

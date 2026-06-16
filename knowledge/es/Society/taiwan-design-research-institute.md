@@ -20,10 +20,10 @@ lastVerified: 2026-06-04
 lastHumanReview: false
 featured: false
 translatedFrom: 'Society/台灣設計研究院.md'
-sourceCommitSha: '4294a3887'
-sourceContentHash: 'sha256:247f4a7c6681be37'
-sourceBodyHash: 'sha256:b4d9a104f71baf5c'
-translatedAt: '2026-06-06T00:51:19+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:dc9a16af37eefe47'
+sourceBodyHash: 'sha256:f7df18837078b48f'
+translatedAt: '2026-06-16T17:04:27Z'
 ---
 
 La sala de espera del centro de salud de Xizhi ya no se parece mucho a un centro de salud. Desaparecieron los tubos fluorescentes, las sillas de plástico y las ventanillas de entrega de medicamentos alineadas una junto a otra. En su lugar apareció un sistema modular que puede montarse y desmontarse como bloques de construcción, con una versión urbana, una de ciudad nueva y una de municipio rural. La Oficina de Salud de Nuevo Taipéi dedicó trece meses al proyecto, comenzando por dos puntos piloto en Xizhi y Yingge[^1]. Probablemente no te enteraste. Fuiste a vacunarte, a tomarte la presión o a recoger medicamentos para una enfermedad crónica; la circulación era un poco más fluida que antes, la espera un poco menos irritante, y luego te fuiste.

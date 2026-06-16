@@ -22,7 +22,7 @@ lastVerified: '2026-03-24'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:8199dcc4edeb2fce'
 sourceBodyHash: 'sha256:de7228ea44ad062e'
-translatedAt: '2026-04-14T09:20:00+08:00'
+translatedAt: '2026-06-16T17:10:38Z'
 ---
 
 # 대만 전통 예술: 시골 소극장에서 문화 제국으로의 역전 신화

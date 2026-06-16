@@ -30,10 +30,10 @@ imageCredit: 'M. Weitzel (Wikimedia Commons)'
 imageLicense: 'CC BY-SA 3.0'
 imageSource: 'https://commons.wikimedia.org/wiki/File:Maanshan_Nuclear_Power_Plant,_Nan_Wan.jpg'
 translatedFrom: 'Nature/台灣氣候危機與淨零轉型.md'
-sourceCommitSha: '44238bb4'
-sourceContentHash: 'sha256:99d23321710787ca'
-sourceBodyHash: 'sha256:c086a3d5805158ba'
-translatedAt: '2026-06-11T16:38:50Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:690ecb6c58309760'
+sourceBodyHash: 'sha256:36525caaf207b712'
+translatedAt: '2026-06-16T17:05:07Z'
 ---
 
 # Taiwan's Climate Crisis and Net-Zero Transition: The Day the Nuclear Three Referendum Failed Was Just the Beginning of Physical Limits

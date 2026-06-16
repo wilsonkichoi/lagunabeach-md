@@ -20,10 +20,10 @@ lastVerified: 2026-04-28
 lastHumanReview: true
 featured: false
 translatedFrom: 'People/沈伯洋.md'
-sourceCommitSha: 'dd39065b2'
-sourceContentHash: 'sha256:264471f17f1dd86d'
-sourceBodyHash: 'sha256:ff76539057c18498'
-translatedAt: '2026-06-11T00:44:03+08:00'
+sourceCommitSha: '21f2ddb4'
+sourceContentHash: 'sha256:b4d9dc8d1282cabf'
+sourceBodyHash: 'sha256:7c55d791874ec123'
+translatedAt: '2026-06-16T17:15:00Z'
 ---
 
 # 沈伯洋：彼は中国の認知戦を研究し、のちに中国は彼を衛星画像上に描き込んだ
@@ -206,6 +206,7 @@ translatedAt: '2026-06-11T00:44:03+08:00'
 - [八炯](/people/八炯) — 同じく中国共産党に狙われた台湾のYouTuber。2025年11月、中国共産党から最高25万元の懸賞対象にされました
 - [頼清徳](/people/賴清德) — 同じく「台湾独立頑固分子」リストに載せられ、2025年11月に沈伯洋への支持を公表しました
 - [台湾の国防と軍事現代化](/society/台灣國防與軍事現代化) — 黒熊学院の民間防衛教育と全民国防の補完関係
+- [見えない国家](/art/看不見的國家) — ドキュメンタリーは台湾人が民間防衛講座を受ける場面で締めくくられる。黒熊学院がまさにその最終シーンの現実版
 
 ## 参考資料
 

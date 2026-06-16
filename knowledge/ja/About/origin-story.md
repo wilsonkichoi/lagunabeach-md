@@ -9,10 +9,10 @@ featured: true
 lastVerified: 2026-03-19
 lastHumanReview: false
 translatedFrom: About/緣起故事.md
-sourceCommitSha: 818f3cc1
-sourceContentHash: sha256:90a44cb111462766
+sourceCommitSha: '818f3cc1'
+sourceContentHash: 'sha256:90a44cb111462766'
 sourceBodyHash: 'sha256:0005a5514ea5f5fb'
-translatedAt: 2026-05-01T18:02:56+08:00
+translatedAt: '2026-06-16T17:10:30Z'
 category: About
 ---
 

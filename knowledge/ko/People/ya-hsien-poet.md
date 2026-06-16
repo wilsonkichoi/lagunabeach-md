@@ -20,10 +20,10 @@ lastVerified: 2026-05-28
 lastHumanReview: false
 featured: true
 translatedFrom: 'People/瘂弦.md'
-sourceCommitSha: '4d39a7d2a'
+sourceCommitSha: '88f47159'
 sourceContentHash: 'sha256:e294ff8cf9b9ac0a'
 sourceBodyHash: 'sha256:dd3ab574ead8013b'
-translatedAt: '2026-06-16T00:44:26+08:00'
+translatedAt: '2026-06-16T17:10:38Z'
 ---
 
 # 야셴: 《심연》을 쓴 뒤 절필하고, 후반생에는 《연합보》 부간에서 시사의 한 페이지가 되다

@@ -18,10 +18,10 @@ readingTime: 5
 lastVerified: 2026-03-20
 lastHumanReview: false
 translatedFrom: 'People/葉丙成.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:0759e160a613377d'
-sourceBodyHash: 'sha256:08a335a9af5d60e0'
-translatedAt: '2026-05-01T22:19:10+08:00'
+sourceCommitSha: 'df2e7558'
+sourceContentHash: 'sha256:340bb6abbf6b93a5'
+sourceBodyHash: 'sha256:f85ae58b5cc5815d'
+translatedAt: '2026-06-16T17:12:22Z'
 ---
 
 # Yeh Ping-cheng: de la clase de probabilidad a la revolución de la educación lúdica
@@ -53,7 +53,7 @@ Su tesis central no ha cambiado: la educación taiwanesa entrena a los estudiant
 **Lecturas complementarias**:
 
 - [Huang Kuo-chen](/people/黃國珍) — Otro innovador educativo impulsor de la enseñanza de competencias lectoras en Taiwán
-- [Lu Kuan-wei](/people/呂冠緯) — Fundador de la plataforma educativa Junyi Academy, la versión taiwanesa de Khan Academy
+- [Lu Kuan-wei](/people/呂冠緯) — Presidente de la plataforma educativa Junyi Academy, dejó la medicina por la educación para crear la versión taiwanesa de Khan Academy
 - [Yen Chang-shou](/people/嚴長壽) — Empresario social que pasó del sector turístico a la educación rural
 - [Audrey Tang](/people/唐鳳) — Punto de encuentro entre gobernanza digital e innovación educativa
 

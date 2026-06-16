@@ -23,10 +23,10 @@ lastVerified: 2026-05-22
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/許倬雲.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:b128007e07e1536d'
-sourceBodyHash: 'sha256:6a51eda75b8ff9c7'
-translatedAt: '2026-05-28T05:08:34+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:f504463086a8f46e'
+sourceBodyHash: 'sha256:df920362587637e7'
+translatedAt: '2026-06-16T17:05:07Z'
 ---
 
 # Hsu Cho-yun: con dos dedos escribió el largo río de la historia china, los noventa y cinco años del tío abuelo materno de Wang Leehom

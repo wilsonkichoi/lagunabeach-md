@@ -29,10 +29,10 @@ lastVerified: 2026-05-21
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/四四南村.md'
-sourceCommitSha: '31a05c44b'
+sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:48350666b07ad604'
 sourceBodyHash: 'sha256:d1d5c9161c22bb16'
-translatedAt: '2026-06-16T00:44:26+08:00'
+translatedAt: '2026-06-16T17:04:12Z'
 ---
 
 # 四四南村：兵器工場の眷村、現在は台北101そばの文創園区

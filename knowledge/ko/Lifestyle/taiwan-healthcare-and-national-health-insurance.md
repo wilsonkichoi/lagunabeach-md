@@ -22,10 +22,10 @@ lastVerified: 2026-06-04
 lastHumanReview: false
 featured: true
 translatedFrom: 'Lifestyle/台灣醫療與全民健保.md'
-sourceCommitSha: '7678a430b'
-sourceContentHash: 'sha256:424d9acf698d8930'
-sourceBodyHash: 'sha256:fe6262a360432251'
-translatedAt: '2026-06-11T00:44:03+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:5cbfd8399802ed3e'
+sourceBodyHash: 'sha256:3076adea6a4c366b'
+translatedAt: '2026-06-16T16:38:41Z'
 ---
 
 # 타이완 의료와 국민건강보험: 99.6%가 12.61% 위에 버티는 세계 1위

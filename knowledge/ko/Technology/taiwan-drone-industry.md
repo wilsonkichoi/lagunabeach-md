@@ -20,10 +20,10 @@ lastVerified: '2026-05-10'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Technology/台灣無人機產業.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:9165b111d87b4581'
-sourceBodyHash: 'sha256:88f1bf8039ff02f6'
-translatedAt: '2026-05-10T22:52:30+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:de2ace5a9d645535'
+sourceBodyHash: 'sha256:0efd20b7166e441a'
+translatedAt: '2026-06-16T17:14:05Z'
 ---
 
 > **30초 개요:** 대만 드론 산업은 지정학이 촉발한 폭발적 성장을 경험하고 있다. 국방부는 약 5,000억 신만달러 규모로 근 5만 대의 군용 드론을 조달할 계획을 수립했으며, 행정원 1.25조 신만달러 특별 예산에서 드론은 핵심 과제 중 하나다. 레이후 테크놀로지가 미국 블루 리스트(Blue UAS) 인증을 통과한 최초의 대만 기업이 되었다. 농경지 약살포에서 전장 정찰까지, 대만의 드론 산업은 '주조(代工)'에서 '국방 자주'로 나아가며 반도체 이후 다음 전략 산업이 되고자 한다.

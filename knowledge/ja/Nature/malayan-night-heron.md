@@ -1,9 +1,9 @@
 ---
 translatedFrom: 'Nature/黑冠麻鷺.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:105878c02485b2e2'
-sourceBodyHash: 'sha256:4ff81a4c7e98c835'
-translatedAt: '2026-05-01T14:48:26+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:4926f151d268c5db'
+sourceBodyHash: 'sha256:215f7a81312f6fac'
+translatedAt: '2026-06-16T17:15:00Z'
 title: 'マレーゴイサギ：バードウォッチャーの夢の鳥、キャンパスの「大きなおバカ鳥」'
 description: '1985年から1992年の台湾野鳥学会の4,000件の鳥類記録の中で、マレーゴイサギはわずか25件しかなく、図鑑の「稀少留鳥」だった。30年後、台湾大学のヤシ並木や大安森林公園で毎日見られるようになった。一般的な説明は「人を怖がらなくなった」だが、台湾大学・袁孝維研究室が2010年から行った標識調査は別の答えを示す——台湾の都市の密林化したキャンパスと農薬を使わない芝生が、この鳥の本来の低地森林の生態的地位をちょうど再現していた。鳥は変わらず、土地が変わったのだ。'
 category: 'Nature'

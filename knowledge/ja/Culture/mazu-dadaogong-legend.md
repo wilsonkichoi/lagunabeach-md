@@ -13,7 +13,7 @@ translatedFrom: 'Culture/媽祖與大道公的傳說.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:e0f0df37674e0a42'
 sourceBodyHash: 'sha256:0cf1fac1d7c9b8b4'
-translatedAt: '2026-05-01T18:02:56+08:00'
+translatedAt: '2026-06-16T17:19:04Z'
 ---
 
 > **30秒でわかる概要**：毎年旧暦3月15日の保生大帝の誕生日には必ず風が吹き、3月23日の媽祖の誕生日には必ず雨が降る。台湾人は「大道公風、媽祖婆雨」ということわざで、千年にわたる気象の法則を記録してきた。しかし民間伝承では、これは二人の神の間に未完の恋の物語があるからだという。

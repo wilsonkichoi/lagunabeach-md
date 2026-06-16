@@ -19,10 +19,10 @@ lastVerified: '2026-06-05'
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/李宗盛.md'
-sourceCommitSha: '2935adb6e'
-sourceContentHash: 'sha256:dd76655b4450da89'
-sourceBodyHash: 'sha256:b2c3ecbe58621633'
-translatedAt: '2026-06-06T00:51:18+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:7e1d920b41b8d459'
+sourceBodyHash: 'sha256:ab5e69cc7c8739be'
+translatedAt: '2026-06-16T17:03:25Z'
 ---
 
 # Jonathan Lee: After Writing Others' Innermost Thoughts in Plain Speech, Only in Hill Did He Finally Speak of Himself

@@ -13,7 +13,7 @@ lastVerified: 2026-04-05
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:a0a6e4b6f985e523'
 sourceBodyHash: 'sha256:0cbd55ce25cb1102'
-translatedAt: '2026-04-14T07:25:04+08:00'
+translatedAt: '2026-06-16T17:10:38Z'
 ---
 
 # Dcard

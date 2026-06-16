@@ -27,10 +27,10 @@ imageCredit: '玄史生 / Wikimedia Commons'
 imageLicense: 'CC0 1.0'
 imageSource: 'https://commons.wikimedia.org/wiki/File:The_End_of_Ghost_Festival_Party_at_Dongsha_Tzufu_Temple_20170919a.jpg'
 translatedFrom: 'Food/台灣辦桌文化.md'
-sourceCommitSha: 'b0e441fa'
-sourceContentHash: 'sha256:6c62955e72fc8718'
-sourceBodyHash: 'sha256:6086cefc9be2fccc'
-translatedAt: '2026-06-11T16:38:50Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:0689f4ef37606e24'
+sourceBodyHash: 'sha256:ad9bd62c3f44776c'
+translatedAt: '2026-06-16T17:05:07Z'
 ---
 
 # Taiwanese Bando: The Martial Field That Sets Tables in the Rain, and a Human-Ghost-Divinity Trinity Fading Away

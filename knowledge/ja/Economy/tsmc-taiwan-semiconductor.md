@@ -19,10 +19,10 @@ author: 'Taiwan.md'
 featured: true
 lastVerified: 2026-05-09
 translatedFrom: 'Economy/台灣企業：台積電.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:abfac62a4f11b024'
-sourceBodyHash: 'sha256:c307a1be6d5f1271'
-translatedAt: '2026-05-13T09:30:28+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:4ff65a51b539a939'
+sourceBodyHash: 'sha256:6bdb1c40d1477a30'
+translatedAt: '2026-06-16T16:55:14Z'
 lastHumanReview: false
 readingTime: 14
 image: '/article-images/economy/tsmc-fabs-hsinchu-2020.webp'

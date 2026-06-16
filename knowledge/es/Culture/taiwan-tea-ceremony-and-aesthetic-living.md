@@ -21,7 +21,7 @@ translatedFrom: 'Culture/台灣茶道與生活美學.md'
 sourceCommitSha: 'e564525c'
 sourceContentHash: 'sha256:741b3d02ada8cbbb'
 sourceBodyHash: 'sha256:31e39ab99f97ad00'
-translatedAt: '2026-05-01T22:19:10+08:00'
+translatedAt: '2026-06-16T17:19:04Z'
 ---
 
 # La ceremonia del té taiwanesa y la estética de la vida cotidiana

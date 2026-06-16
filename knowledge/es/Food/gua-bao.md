@@ -18,10 +18,10 @@ lastVerified: '2026-05-16'
 lastHumanReview: false
 featured: true
 translatedFrom: 'Food/刈包.md'
-sourceCommitSha: 'e82155381'
-sourceContentHash: 'sha256:047469f3e40c9dc2'
-sourceBodyHash: 'sha256:94722ea3fb057b13'
-translatedAt: '2026-05-16T05:07:56+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:6fe952ad9ad0a5fa'
+sourceBodyHash: 'sha256:6b2255cbc29cf54c'
+translatedAt: '2026-06-16T16:54:57Z'
 ---
 
 ![Gua bao de Yuanfang Gua Bao, en la calle Huaxi: una masa semicircular doblada que envuelve panceta de cerdo estofada, hojas de mostaza encurtidas, maní molido y cilantro; uno de los gua bao tradicionales más representativos de Taipéi](/article-images/food/gua-bao-yuanfang-2023.webp)

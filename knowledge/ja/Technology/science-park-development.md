@@ -21,10 +21,10 @@ lastVerified: '2026-05-29'
 lastHumanReview: 'false'
 featured: 'true'
 translatedFrom: 'Technology/科技園區發展.md'
-sourceCommitSha: '31a05c44b'
+sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:af69e6f051c9c55a'
 sourceBodyHash: 'sha256:87c841c432ba710a'
-translatedAt: '2026-06-16T00:44:26+08:00'
+translatedAt: '2026-06-16T16:38:30Z'
 ---
 
 # 台湾科学園区：一面の水田に賭け、世界の生命線を生み出し、同時に急所にもなりました

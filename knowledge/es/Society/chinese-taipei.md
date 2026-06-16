@@ -18,10 +18,10 @@ readingTime: 12
 lastVerified: 2026-06-04
 lastHumanReview: false
 translatedFrom: 'Society/中華台北.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:2b2c4d3c765d642b'
-sourceBodyHash: 'sha256:554fc5a28e8c0743'
-translatedAt: '2026-06-10T16:45:00+00:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:139126ed14d761b3'
+sourceBodyHash: 'sha256:67435314dcab3a3a'
+translatedAt: '2026-06-16T16:54:57Z'
 ---
 
 # Chinese Taipei: The Ticket That Lets Taiwan Enter, But Won't Print Its Own Name

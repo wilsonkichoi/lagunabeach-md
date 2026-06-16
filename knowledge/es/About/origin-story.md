@@ -12,7 +12,7 @@ translatedFrom: About/緣起故事.md
 sourceCommitSha: 818f3cc1
 sourceContentHash: sha256:90a44cb111462766
 sourceBodyHash: 'sha256:0005a5514ea5f5fb'
-translatedAt: 2026-05-02T02:50:57+08:00
+translatedAt: '2026-06-16T17:10:37Z'
 category: About
 ---
 

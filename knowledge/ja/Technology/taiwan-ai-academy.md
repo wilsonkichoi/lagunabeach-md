@@ -5,16 +5,25 @@ date: 2026-05-18
 author: 'Taiwan.md'
 category: 'Technology'
 subcategory: '人工智慧'
-tags: ['人工知能', '教育', '陳昇瑋', 'AIA', '台湾テック産業', '中央研究院', 'AI政策']
+tags:
+  [
+    '人工知能',
+    '教育',
+    '陳昇瑋',
+    'AIA',
+    '台湾テック産業',
+    '中央研究院',
+    'AI政策',
+  ]
 readingTime: 18
 lastVerified: 2026-05-18
 lastHumanReview: true
 featured: true
 translatedFrom: 'Technology/台灣人工智慧學校.md'
-sourceCommitSha: '96945e450'
-sourceContentHash: 'sha256:5beed3bcd5362b88'
-sourceBodyHash: 'sha256:de487b6c8ffd4407'
-translatedAt: '2026-05-18T20:48:56+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:4e403df024cd43dc'
+sourceBodyHash: 'sha256:04e9009c16ede3cb'
+translatedAt: '2026-06-16T16:55:14Z'
 ---
 
 # 台湾人工知能学校：未完の電話と1万人のAIエンジニア

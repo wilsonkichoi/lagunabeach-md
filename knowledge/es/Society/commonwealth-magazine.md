@@ -18,11 +18,20 @@ tags:
 lastVerified: 2026-06-04
 lastHumanReview: false
 featured: true
+sporeLinks:
+  - id: 134
+    platform: 'threads'
+    date: '2026-06-13'
+    url: 'https://www.threads.com/@taiwandotmd/post/DZhJTUkEwRM'
+  - id: 135
+    platform: 'x'
+    date: '2026-06-13'
+    url: 'https://x.com/taiwandotmd/status/2065697249041281306'
 translatedFrom: 'Society/天下雜誌.md'
-sourceCommitSha: '066cab5db'
-sourceContentHash: 'sha256:2beb304e3dcd92aa'
-sourceBodyHash: 'sha256:d56e6832b599d478'
-translatedAt: '2026-06-07T00:37:31+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:c08065304af9db33'
+sourceBodyHash: 'sha256:6cd75de33ed1027c'
+translatedAt: '2026-06-16T17:15:43Z'
 ---
 
 > **Panorama en 30 segundos:** El 1 de junio de 1981, una revista económico-financiera llamada CommonWealth nació en un Taiwán bajo ley marcial y recién expulsado del escenario internacional; su primera tirada de diez mil ejemplares se agotó en dos días[^1]. El impulsor fue el economista Kao Hsi-chun, quien, con la idea de que «los intelectuales sirven al país», convocó a Wang Li-hsing, Chang Tso-chin y Diane Ying para fundarla juntos[^2]. Ying, que había sido reportera de United Press International, The New York Times y The Asian Wall Street Journal, fue su alma editorial y, más tarde, la persona que sostuvo la revista después de la separación de 1986[^3]. En cuarenta años pasó de ser una revista que «convertía la economía en historias comprensibles para todos» a convertirse en la productora de rankings del mundo empresarial y de la gobernanza local de Taiwán: las 2.000 empresas principales, las 50 grandes, las empresas de referencia, las ciudades felices. Esas posiciones fueron definiendo en silencio qué significa «tener éxito» para la sociedad taiwanesa. Es uno de los medios más confiables de Taiwán según el informe de Reuters[^4], y ha recibido tanto el Premio Ramon Magsaysay como el premio de trayectoria de SOPA. Pero el lugar desde el cual es más confiable es, precisamente, el lugar donde está más cerca del capital y del poder. Esa credibilidad, y ese poder de clasificar a otros, provienen de la misma distancia.
@@ -31,7 +40,7 @@ translatedAt: '2026-06-07T00:37:31+08:00'
 
 Diane Ying dijo alguna vez una frase entre amarga y risueña: «Si quieres perjudicar a alguien, haz que funde una revista»[^5].
 
-Quien dijo eso había entrevistado a Eileen Chang en Cambridge en 1968. Entonces era una estudiante pobre en el extranjero; se sentó en la habitación de Chang usando unos jeans prestados y conversaron durante tres horas. «Después de mí, nadie volvió a entrevistar a Eileen Chang en exclusiva, pero ella aceptó mi entrevista, y hablamos durante tres horas. Supongo que aprobó bastante esa entrevista. Después mantuvimos el contacto durante más de diez años; incluso cuando fundé CommonWealth Magazine, me envió una tarjeta de felicitación»[^6]. Ying entrevistó a personas de todo el mundo, desde Morris Chang, del sector taiwanés de semiconductores, hasta Eileen Chang en el mundo literario. Al final descubrió que el objeto más difícil de entrevistar era la revista que ella misma tendría que cargar sobre los hombros.
+Quien dijo eso había entrevistado a Eileen Chang en Cambridge en 1968. Entonces era una estudiante pobre en el extranjero; se sentó en la habitación de Chang usando unos jeans rojo granate prestados[^41] y conversaron durante tres horas. «Después de mí, nadie volvió a entrevistar a Eileen Chang en exclusiva, pero ella aceptó mi entrevista, y hablamos durante tres horas. Supongo que aprobó bastante esa entrevista. Después mantuvimos el contacto durante más de diez años; incluso cuando fundé CommonWealth Magazine, me envió una tarjeta de felicitación»[^6]. Ying entrevistó a personas de todo el mundo, desde Morris Chang, del sector taiwanés de semiconductores, hasta Eileen Chang en el mundo literario. Al final descubrió que el objeto más difícil de entrevistar era la revista que ella misma tendría que cargar sobre los hombros.
 
 Quien en realidad abrió la invitación para crear esa revista fue Kao Hsi-chun.
 
@@ -172,7 +181,7 @@ Diane Ying dejó su propia respuesta a esa contradicción: entregar las acciones
 
 La próxima vez que veas en el estante de una tienda de conveniencia o en el cintillo de noticias «las 2.000 principales de CommonWealth» o «ranking de ciudades felices», quizá puedas pensar un nivel más: quién ordenó esa clasificación, con qué método y para quién. Y luego pensar otro nivel más: cuánto acercamiento hace falta para que una revista sea «la más confiable», y cuánto esfuerzo hace falta para cuidar esa distancia sin perder la confianza.
 
-Diane Ying fue a entrevistar a Eileen Chang usando unos jeans prestados; después mantuvieron contacto durante más de diez años, y el día en que fundó la revista recibió una tarjeta de felicitación de Chang. Ese era el aspecto inicial de una revista: una periodista, y la distancia pura entre ella y una persona que le importaba. Cuarenta años después, esta revista aprendió a medir y preservar una distancia mucho más compleja entre ella y el capital taiwanés. Todavía no ha terminado de recorrerla.
+Diane Ying fue a entrevistar a Eileen Chang usando unos jeans rojo granate prestados; mantuvieron contacto durante más de diez años, y al fundar CommonWealth recibió una tarjeta de felicitación de Chang. Ese era el aspecto inicial de una revista: una periodista, y la distancia pura entre ella y una persona que le importaba. Cuarenta años después, esta revista aprendió a medir y preservar una distancia mucho más compleja entre ella y el capital taiwanés. Todavía no ha terminado de recorrerla.
 
 **Lecturas relacionadas**:
 
@@ -275,3 +284,5 @@ Videos insertados (iframe de YouTube, [canal oficial de video de CommonWealth Ma
 [^39]: [Diane Ying — Ramon Magsaysay Award](https://rmaward.asia/rmawardees/ying-diane-yun-peng/) — Discurso de aceptación de Diane Ying en el Premio Ramon Magsaysay de 1987, con la frase inglesa literal: «Journalism, perhaps, is the best profession in the world…».
 
 [^40]: [SOPA Lifetime Achievement Award 2021](https://2024.sopawards.com/the-sopa-awards/sopa-lifetime-achievement-award-2021/) — Diane Ying recibió en 2021 el premio de trayectoria de SOPA; el jurado describió a CommonWealth como una «well respected and highly trusted media organization» de Taiwán.
+
+[^41]: [Entrevista exclusiva a Eileen Chang, un eco irrepetible en el mundo sinófono (CommonWealth Magazine)](https://www.cw.com.tw/article/5070847) — Artículo retrospectivo de CommonWealth que recoge literalmente: «Su vínculo con CommonWealth se remonta a cuando la fundadora Diane Ying era aún una estudiante pobre en el extranjero y la entrevistó usando unos jeans rojo granate prestados» (verificado palabra por palabra mediante el espejo de hcbooks; Diane Ying en su propio texto «Entrevista con la señora Eileen Chang» no describe su atuendo — este detalle proviene del artículo retrospectivo de CommonWealth).

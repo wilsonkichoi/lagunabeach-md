@@ -28,10 +28,10 @@ lastVerified: '2026-05-18'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/南投縣.md'
-sourceCommitSha: 'bcffb45b4'
-sourceContentHash: 'sha256:1098d0ed515ecdff'
-sourceBodyHash: 'sha256:8c4994ea1a8d0681'
-translatedAt: '2026-05-26T05:10:57+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:c80f3accc7342bb8'
+sourceBodyHash: 'sha256:9116715a2d516221'
+translatedAt: '2026-06-16T17:03:25Z'
 ---
 
 # Nantou County: The Only Landlocked County, with the 921 Earthquake Epicenter at Its Center

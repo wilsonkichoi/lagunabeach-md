@@ -13,7 +13,7 @@ translatedFrom: 'Culture/台灣乖乖文化.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:b95317cbf18e6ec7'
 sourceBodyHash: 'sha256:2856e1a6d3a978a3'
-translatedAt: '2026-04-14T12:25:09+08:00'
+translatedAt: '2026-06-16T17:10:15Z'
 ---
 
 > **30-Second Overview**: In Taiwan, from hospital precision instruments to bank ATMs, you'll likely find a packet of green Kuai Kuai snacks anywhere there's machinery. This unique culture began in the late 1990s when engineers believed the homophone "kuai kuai" (meaning "behave well") would make equipment "behave properly." Even the BBC has written about this Taiwanese phenomenon.

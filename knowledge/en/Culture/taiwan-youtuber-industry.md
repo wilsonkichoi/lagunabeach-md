@@ -11,10 +11,10 @@ lastVerified: 2026-05-11
 lastHumanReview: false
 featured: false
 translatedFrom: 'Culture/台灣YouTuber產業與文化.md'
-sourceCommitSha: 'cea9f7087'
-sourceContentHash: 'sha256:d6ed68b20962bf16'
-sourceBodyHash: 'sha256:77a417d3b5938b17'
-translatedAt: '2026-05-12T11:51:04+08:00'
+sourceCommitSha: 'ac86475b'
+sourceContentHash: 'sha256:32b847d857685cef'
+sourceBodyHash: 'sha256:d7dfc5eea7475116'
+translatedAt: '2026-06-16T17:13:49Z'
 ---
 
 > **30-second overview:** In March 2024, the Taiwanese magic YouTuber “Chi Hsuan Tricking” became the first creator in Taiwan to reach ten million subscribers, marking the evolution of Taiwanese YouTube culture from Tsai A-ga’s 2008 pro-Taiwan current-affairs videos into an internationally competitive content-export platform. YouTube reaches more than 95% of internet users in Taiwan, while short-form video, or Shorts, now accounts for more than 75% of viewing time. Creators are entering a period of transition from pure video production toward branding and diversified monetization.
@@ -77,6 +77,7 @@ From Tsai A-ga’s first video to Chi Hsuan’s ten million subscribers, Taiwane
 **Further reading**:
 
 - [PanSci](/society/泛科學) — From popular-science articles to short-form video, YouTube MCNs, and services for knowledge creators, this case helps explain how knowledge-based creators respond to algorithms and commercialization.
+- [Wretch (無名小站)](/culture/無名小站) — The cradle of Taiwan's first generation of amateur creators (Wan Wan, Giddens Ko, the Pretty Girls Album). The creator economy that existed before YouTubers grew out of this platform.
 
 ## References
 

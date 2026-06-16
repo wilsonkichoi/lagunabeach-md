@@ -21,7 +21,7 @@ translatedFrom: 'About/台灣官方網站資源重寫.md'
 sourceCommitSha: 'a05d2431'
 sourceContentHash: 'sha256:73ee4c24e755afd6'
 sourceBodyHash: 'sha256:7e5da6fad0f6882b'
-translatedAt: '2026-05-02T02:50:56+08:00'
+translatedAt: '2026-06-16T17:13:36Z'
 ---
 
 # Ressources officielles de Taïwan : 30 ans d'un miracle, de 25 sites web à une puissance de l'e-gouvernement

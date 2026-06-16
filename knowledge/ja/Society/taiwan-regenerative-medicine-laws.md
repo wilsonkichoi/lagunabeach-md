@@ -21,10 +21,10 @@ lastVerified: 2026-05-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Society/台灣再生醫療雙法沿革從業人員告白.md'
-sourceCommitSha: '49e065a4'
-sourceContentHash: 'sha256:0f033d635b472973'
-sourceBodyHash: 'sha256:06cd641264af37d8'
-translatedAt: '2026-06-05T16:41:14Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:067149f437c5a573'
+sourceBodyHash: 'sha256:dcdc7781d0e5eb30'
+translatedAt: '2026-06-16T17:05:15Z'
 ---
 
 ![カタリン・カリコーとドリュー・ワイスマンが2022年に Life Science メダルを共同受賞し、バックパネルの前で撮影された写真。カリコーは赤いスーツ、ワイスマンは濃色のスーツを着用しています](/article-images/society/kariko-weissman-life-science-2022.webp)

@@ -13,7 +13,7 @@ lastVerified: 2026-03-24
 sourceCommitSha: 'a05d2431'
 sourceContentHash: 'sha256:3bac2c2faa70bd6e'
 sourceBodyHash: 'sha256:325c4509ad66d26d'
-translatedAt: '2026-04-14T07:25:04+08:00'
+translatedAt: '2026-06-16T17:10:38Z'
 ---
 
 # 역병이 사라지자 불꽃이 전통이 되었다: 대만 축제 문화의 예상치 못한 진화

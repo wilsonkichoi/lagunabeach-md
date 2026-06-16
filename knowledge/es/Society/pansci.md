@@ -19,10 +19,10 @@ lastVerified: 2026-05-07
 lastHumanReview: false
 featured: false
 translatedFrom: 'Society/泛科學.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:b3bb240ec7dc60f9'
-sourceBodyHash: 'sha256:eb3a67c8a9337ec9'
-translatedAt: '2026-06-06T00:00:00Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:fc2836e9d3ebf9e7'
+sourceBodyHash: 'sha256:498dc3f8b99093f6'
+translatedAt: '2026-06-16T17:05:07Z'
 ---
 
 > **Resumen en 30 segundos:** PanSci es un sitio web y comunidad científica de Taiwán fundado en 2011. Surgió de un proyecto cancelado de la Taiwan Digital Culture Association; en sus primeros años se sostuvo gracias a que Cheng Kuo-wei y Hsu Ting-yao visitaban a blogueros científicos, solicitaban colaboraciones y gestionaban la comunidad. Para 2013 ya contaba con más de 80 blogueros científicos y más de 2.780 artículos. Los estudios posteriores de comunicación situaron a PanSci dentro de la democratización de la comunicación científica en Taiwán, la participación pública en redes sociales y la comparación entre sitios de divulgación científica de ambos lados del estrecho. Para la década de 2020, PanSci había conectado artículos, PanSci School, Science Student, video, proyectos publicitarios, comercio electrónico y una MCN de YouTube en una red de servicios de conocimiento. Su tensión central es muy clara: para que la ciencia permanezca en la discusión pública, la plataforma primero debe sobrevivir entre proyectos comerciales y algoritmos.

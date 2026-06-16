@@ -25,10 +25,10 @@ lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/台中市.md'
-sourceCommitSha: 'bcffb45b4'
-sourceContentHash: 'sha256:cb652161e5b2ee7d'
-sourceBodyHash: 'sha256:280d9f956e7a6a86'
-translatedAt: '2026-05-26T05:10:57+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:c76a9448141070d4'
+sourceBodyHash: 'sha256:3689cbfc4a7bdf30'
+translatedAt: '2026-06-16T17:12:11Z'
 ---
 
 # Ciudad de Taichung: en 1887 casi fue capital; recién en 2010 se convirtió en la segunda mayor municipalidad especial

@@ -13,7 +13,7 @@ translatedFrom: 'Culture/台灣原住民族16族文化地圖.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:36ecabdcaffefea4'
 sourceBodyHash: 'sha256:561ea7184d1651ca'
-translatedAt: '2026-04-14T07:25:04+08:00'
+translatedAt: '2026-06-16T17:10:38Z'
 ---
 
 # 대만 원주민족 16부족 문화 지도

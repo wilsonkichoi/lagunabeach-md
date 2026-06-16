@@ -1,31 +1,31 @@
 ---
-title: "Désert numérique : comment une plateforme de critique d’art en ligne sans modèle économique a survécu 12 ans"
-description: "En novembre 2011, Cheng Wen-chi a lancé à Taipei, au sein d’une ancienne institution médiatique appelée ET@T, un projet d’écriture en ligne sans édition papier, sans publicité et sans abonnement. Douze ans plus tard, il avait accumulé 56 numéros thématiques, 384 articles, 31 épisodes de podcast et 10 volumes de Nusantara Archive. Parmi les plateformes chinoises de critique d’art de la même période réunissant les trois conditions « sans matrice de presse imprimée + sans espace physique + pilotée par un rédacteur en chef individuel », aucun autre cas n’a survécu aussi longtemps. Sa tenue dans le temps repose sur l’assemblage minutieux de trois couches de quiet infrastructure : une institution-mère assumant les coûts de base, des projets publics complétant les contenus de certains numéros, et douze années de travail éditorial individuel comblant le gap restant."
+title: 'Désert numérique : comment une plateforme de critique d’art en ligne sans modèle économique a survécu 12 ans'
+description: 'En novembre 2011, Cheng Wen-chi a lancé à Taipei, au sein d’une ancienne institution médiatique appelée ET@T, un projet d’écriture en ligne sans édition papier, sans publicité et sans abonnement. Douze ans plus tard, il avait accumulé 56 numéros thématiques, 384 articles, 31 épisodes de podcast et 10 volumes de Nusantara Archive. Parmi les plateformes chinoises de critique d’art de la même période réunissant les trois conditions « sans matrice de presse imprimée + sans espace physique + pilotée par un rédacteur en chef individuel », aucun autre cas n’a survécu aussi longtemps. Sa tenue dans le temps repose sur l’assemblage minutieux de trois couches de quiet infrastructure : une institution-mère assumant les coûts de base, des projets publics complétant les contenus de certains numéros, et douze années de travail éditorial individuel comblant le gap restant.'
 date: 2026-05-17
-author: "Taiwan.md"
-category: "Art"
-subcategory: "藝評平台 / 媒體研究"
+author: 'Taiwan.md'
+category: 'Art'
+subcategory: '藝評平台 / 媒體研究'
 tags:
   [
-    "Désert numérique",
-    "No Mans Land",
-    "Cheng Wen-chi",
-    "art contemporain",
-    "plateforme de critique d’art",
-    "Base de données des archipels",
-    "Nusantara Archive",
-    "perspective du Sud",
-    "ET@T",
-    "Fondation d’art numérique",
+    'Désert numérique',
+    'No Mans Land',
+    'Cheng Wen-chi',
+    'art contemporain',
+    'plateforme de critique d’art',
+    'Base de données des archipels',
+    'Nusantara Archive',
+    'perspective du Sud',
+    'ET@T',
+    'Fondation d’art numérique',
   ]
 lastVerified: 2026-05-17
 lastHumanReview: false
 featured: false
-translatedFrom: "Art/數位荒原.md"
-sourceCommitSha: '9474d19e'
-sourceContentHash: 'sha256:da8b0b990b776ac0'
-sourceBodyHash: 'sha256:3c2d99bafbdc6120'
-translatedAt: "2026-05-17T05:06:52+08:00"
+translatedFrom: 'Art/數位荒原.md'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:94e9b57891092909'
+sourceBodyHash: 'sha256:15f9472d4c0b19f9'
+translatedAt: '2026-06-16T16:54:51Z'
 ---
 
 # Désert numérique : comment une plateforme de critique d’art en ligne sans modèle économique a survécu 12 ans

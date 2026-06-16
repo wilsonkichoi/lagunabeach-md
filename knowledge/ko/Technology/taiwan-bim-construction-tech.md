@@ -24,9 +24,10 @@ readingTime: 22
 lastVerified: 2026-05-22
 lastHumanReview: false
 translatedFrom: 'Technology/台灣BIM與營建科技.md'
-sourceCommitSha: '43bf36374'
-sourceContentHash: 'sha256:db3430322016dbca'
-translatedAt: '2026-06-09T02:55:46+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:5500ed1d9d4e0f85'
+translatedAt: '2026-06-16T16:55:29Z'
+sourceBodyHash: 'sha256:6207b1decb9dcfc4'
 ---
 
 # Taiwan's BIM and Construction Tech: Twelve Years of Case-by-Case Government Push Rewritten by an 18-Month Protocol

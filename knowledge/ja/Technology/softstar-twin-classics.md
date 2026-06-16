@@ -21,10 +21,10 @@ lastVerified: '2026-04-23'
 lastHumanReview: 'false'
 featured: 'false'
 translatedFrom: 'Technology/大宇雙劍.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:8e80804c9910ac1a'
-sourceBodyHash: 'sha256:c6e2238f1a2c15d5'
-translatedAt: '2026-05-29T00:35:00+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:99d1ed1be7085b4c'
+sourceBodyHash: 'sha256:6aa8eb64a1458368'
+translatedAt: '2026-06-16T16:55:14Z'
 ---
 
 > **30秒概要：** 1990年、大学生たちが光華商場で技術マニュアルを探し、一台のコンピューターを順番に使いながら、初の中国語武侠 RPG『軒轅剣』を作り上げた。5年後、26歳の若者が失恋の想いを『仙剣奇侠伝』のエンディングに書き込み、初日に1万本を売り切らせた。この二つのゲームは後に「大宇ダブルソード」と呼ばれ、30年にわたってテレビドラマや映画が派生し、累計売上は100万本を超えた。2024年9月、大宇は5億台湾ドルでダブルソードの IP を売却した。2025年6月には軒轅剣 IP が歡動から成都の星閲辰石に譲渡され、2025年11月3日、大宇本体は「光聚晶電聯合」に社名変更し、半導体の比率が65%を占めるに至った。しかし一世代のプレイヤーにとって、DOS のウィンドウの前で初めて泣いたあの午後は、売り渡されることのないものである。

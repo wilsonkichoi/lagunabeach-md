@@ -23,10 +23,10 @@ lastVerified: 2026-06-01
 lastHumanReview: false
 featured: false
 translatedFrom: 'Music/台灣影視配樂.md'
-sourceCommitSha: '6dc4c2256'
-sourceContentHash: 'sha256:3625936b38b19970'
-sourceBodyHash: 'sha256:33232b27723c1c1a'
-translatedAt: '2026-06-02T00:40:00+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:d7854f820ae13e37'
+sourceBodyHash: 'sha256:5340a77820daae23'
+translatedAt: '2026-06-16T16:54:57Z'
 ---
 
 > **Panorama en 30 segundos:** La música para cine y audiovisual de Taiwán suele describirse como una historia de “especificaciones cada vez más internacionales”: Ricky Ho cruzando el mar hasta Sídney para grabar _Seediq Bale_ con una orquesta sinfónica de 60 músicos[^1], o _Crouching Tiger, Hidden Dragon_ de Tan Dun ganando el Oscar[^2]. Pero lo verdaderamente conmovedor de esta trayectoria no está en la escala. Desde el lenguaje orquestal académico de los años ochenta, pasando por Lim Giong llevando el vacío electrónico al cine de Hou Hsiao-hsien[^3], Lin Sheng-xiang componiendo para una película en blanco y negro con un yueqin comprado por 2.000 dólares taiwaneses[^4], Ko Chih-hao trasladando al gran formato la ópera gezaixi y la música nanguan y beiguan de los templos de Dadaocheng[^5], hasta Chang Wei-fan incorporando a un videojuego de terror el “xi-so-mi” de la música fúnebre taiwanesa[^6], el camino de los compositores taiwaneses ha ido de cubrir la imagen con emoción a excavar, poco a poco, el sonido propio de esta isla. El sonido tiene estratos; los compositores son quienes excavan hacia abajo.

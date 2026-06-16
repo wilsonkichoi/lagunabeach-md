@@ -26,10 +26,10 @@ lastVerified: '2026-05-18'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/台東縣.md'
-sourceCommitSha: 'bcffb45b4'
-sourceContentHash: 'sha256:09d74741a8b046c2'
-sourceBodyHash: 'sha256:822633727580b0f7'
-translatedAt: '2026-05-26T05:10:57+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:a245e10d3b26ade5'
+sourceBodyHash: 'sha256:78f221a15e8e14f3'
+translatedAt: '2026-06-16T17:05:07Z'
 ---
 
 # Condado de Taitung: dos islas periféricas, una encarceló presos políticos durante treinta y seis años, la otra almacenó residuos nucleares durante cuarenta y dos años

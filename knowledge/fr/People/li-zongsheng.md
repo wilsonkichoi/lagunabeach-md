@@ -19,10 +19,10 @@ lastVerified: 2026-06-05
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/李宗盛.md'
-sourceCommitSha: '2935adb6e'
-sourceContentHash: 'sha256:dd76655b4450da89'
-sourceBodyHash: 'sha256:b2c3ecbe58621633'
-translatedAt: '2026-06-06T00:51:20+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:7e1d920b41b8d459'
+sourceBodyHash: 'sha256:ab5e69cc7c8739be'
+translatedAt: '2026-06-16T17:05:54Z'
 ---
 
 # Lee Tsung-sheng : écrire les pensées des autres en langage ordinaire, jusqu'à ce que « La Colline » dise enfin les siennes

@@ -19,7 +19,7 @@ translatedFrom: 'Culture/媽祖與大道公的傳說.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:e0f0df37674e0a42'
 sourceBodyHash: 'sha256:0cf1fac1d7c9b8b4'
-translatedAt: '2026-04-14T12:25:09+08:00'
+translatedAt: '2026-06-16T17:19:04Z'
 ---
 
 > **30-second overview**: Every year on the 15th day of the third lunar month (Baosheng Dadi's birthday), strong winds blow. On the 23rd day (Mazu's birthday), heavy rains fall. Taiwanese use the proverb "Dadaogong Wind, Mazu Rain" to record a thousand-year weather pattern. But folk legend says this happens because of an unfinished love story between two deities.

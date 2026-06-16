@@ -20,10 +20,10 @@ lastVerified: 2026-05-23
 lastHumanReview: false
 featured: true
 translatedFrom: 'Art/臺灣漫遊錄.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:04cc7caa03e151f7'
-sourceBodyHash: 'sha256:1999959e3ea909b4'
-translatedAt: '2026-05-24T05:06:32+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:1be78dcd03c2e2ba'
+sourceBodyHash: 'sha256:f65ef91c0cd14c9b'
+translatedAt: '2026-06-16T17:04:12Z'
 ---
 
 ![楊双子が 2024 年 11 月 20 日、ニューヨークの全米図書賞授賞式で、濃色の上着を着てトロフィーの横に静かな表情で立っている](/article-images/art/taiwan-travelogue-yang-shuang-zi-nba-2024.webp)

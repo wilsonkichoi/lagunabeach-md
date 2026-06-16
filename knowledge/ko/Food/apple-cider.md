@@ -22,10 +22,10 @@ lastVerified: 2026-05-11
 lastHumanReview: false
 featured: false
 translatedFrom: 'Food/蘋果西打.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:d5c03b3e99b6070e'
-sourceBodyHash: 'sha256:9492c1f3797c0e5c'
-translatedAt: '2026-05-12T11:51:04+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:843fecc188f1e99a'
+sourceBodyHash: 'sha256:e2ac1f8b1495c588'
+translatedAt: '2026-06-16T16:55:29Z'
 ---
 
 > **30초 개요:** 1965년 필리핀 사업가 리훙뤄가 미국 셰스니스(CosCo) 회사에서 「애플 시드라」(Apple Sidra)의 상표와 제조법을 사들여 타오위안 핑전에 공장을 세웠다. 60년 동안 이 황금빛 탄산음료는 러차오점, 반줘, KTV 룸의 고정 멤버가 되었고, 바다를 건너온 한국 아이돌 규현이 타이난 두샤오웨에서 우연히 마시기도 했다. 그러나 이 상표는 첫 30년 동안 진정한 의미에서 대만의 것이 아니었다. 1979년 궈타이신탁, 1985년 훙위안, 1995년 쑨유잉의 사재 80만 달러 매입까지 세 차례 손바뀜을 겪었다. 2018년과 2023년 두 차례 침전물 식품 안전 사건 이후, 대서양음료는 2024년 가오슝 후네이의 7,222평 토지를 처분해 9억 6,000만 위안을 확보했고, 세후순이익 4억 9,300만 위안과 EPS 8.71위안을 떠받쳤다. 그러나 2025년에는 다시 총경리 교체설이 불거졌다. 60년의 대만 맛은 KTV 룸 안의 그 한 잔, 로제 와인에 애플 시드라를 섞은 술보다 훨씬 복잡하다.

@@ -28,10 +28,10 @@ lastVerified: 2026-05-21
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/永康街.md'
-sourceCommitSha: '20a4ac337'
-sourceContentHash: 'sha256:487b25e8723770a3'
-sourceBodyHash: 'sha256:6a885fd47c57b5c2'
-translatedAt: '2026-05-23T05:06:37+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:97d1cb2148bf09ca'
+sourceBodyHash: 'sha256:457045b9eebdff05'
+translatedAt: '2026-06-16T17:04:12Z'
 ---
 
 # 永康街：日本人教授が住み、外省人が避難して来て、いまは日韓観光客の台北

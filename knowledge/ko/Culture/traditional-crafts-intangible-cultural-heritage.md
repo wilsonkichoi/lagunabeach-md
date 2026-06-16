@@ -23,10 +23,10 @@ lastVerified: '2026-05-15'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Culture/台灣傳統工藝與無形文化資產.md'
-sourceCommitSha: 'feea3c672'
-sourceContentHash: 'sha256:19adecc5b23d1f55'
-sourceBodyHash: 'sha256:a71a28be452b9b79'
-translatedAt: '2026-05-16T05:07:55+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:0c2424c76c2aa5da'
+sourceBodyHash: 'sha256:d61ffe9dcb3401b5'
+translatedAt: '2026-06-16T16:55:29Z'
 ---
 
 # 대만 전통공예와 무형문화자산: 제도적 인정은 왔지만, 도제는 사라졌다

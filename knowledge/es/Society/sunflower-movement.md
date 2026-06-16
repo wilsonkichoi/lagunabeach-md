@@ -14,10 +14,10 @@ featured: true
 lastVerified: 2026-04-12
 lastHumanReview: false
 translatedFrom: 'Society/太陽花學運.md'
-sourceCommitSha: '1844f59c5'
-sourceContentHash: 'sha256:4b20ee6c7caeca19'
-sourceBodyHash: 'sha256:db9bd643c9240d48'
-translatedAt: '2026-06-12T00:53:42+08:00'
+sourceCommitSha: 'e6c58721'
+sourceContentHash: 'sha256:f622a7c42dce34d6'
+sourceBodyHash: 'sha256:2558980b3f59cb6f'
+translatedAt: '2026-06-16T17:14:11Z'
 ---
 
 > **Resumen de 30 segundos:** el 17 de marzo de 2014, el legislador del Kuomintang Zhang Qingzhong (張慶忠) se tumbó en el suelo y, usando un micrófono de solapa, anunció en treinta segundos que el Acuerdo de Comercio Transfronterizo (服貿) “se consideraba revisado”. Durante la noche, más de doscientos estudiantes escalaron el muro del Yuan Legislativo, montaron una transmisión en directo de veinticuatro horas con un iPad, eludiendo a todas las cadenas de televisión. Veinticuatro días después los estudiantes se retiraron; el acuerdo no fue rechazado—fue abandonado por la historia. Doce años después, los números lo explican todo: la dependencia de Taiwán del comercio con China pasó del 42 % al 31,5 %. Ganaron una guerra que ni siquiera sabían que estaban librando.
@@ -165,6 +165,7 @@ Aquellos treinta segundos, Zhang Qingzhong probablemente no imaginó que no esta
 - [Festival de vida compleja](/society/複雜生活節) — La cuarta salida del “Sembrar fuera” del 318: sin elecciones, sin codificación, sin reclutamiento, reuniendo a cientos de “no exitosos” cada año
 - [Taiwán y Esuatini](/society/台灣與史瓦帝尼) — Declaraciones externas diez años después del Sunflower, cuando Lai Ching‑te reforzó los lazos diplomáticos: el significado concreto de “estado soberano”
 - [聶永真](/people/聶永真) — El diseñador detrás del anuncio de madrugada “Democracy at 4 am” del _New York Times_, registro del diseño que llevó al movimiento a la vista internacional
+- [La nación invisible](/art/看不見的國家) — El documental de Vanessa Hope sitúa el Movimiento Sunflower como uno de los hitos clave del arco de cuatrocientos años de democracia taiwanesa.
 
 ## Referencias
 

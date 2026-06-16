@@ -26,10 +26,10 @@ lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/宜蘭縣.md'
-sourceCommitSha: 'bcffb45b'
-sourceContentHash: 'sha256:1f27a031ba2b15bd'
-sourceBodyHash: 'sha256:1cab1d2f39c6a420'
-translatedAt: '2026-05-25T21:07:36Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:334a9bc575e37be7'
+sourceBodyHash: 'sha256:9fcd1f01c87f0494'
+translatedAt: '2026-06-16T17:05:54Z'
 ---
 
 # Comté de Yilan : deux fois il a choisi son propre destin, et la plaine de Lanyang n’est jamais revenue en arrière

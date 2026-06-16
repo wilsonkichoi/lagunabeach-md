@@ -19,7 +19,7 @@ translatedFrom: 'Culture/台灣外來語與語言接觸.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:eec4f271a84a1f94'
 sourceBodyHash: 'sha256:8e1b986c4cf0a1f3'
-translatedAt: '2026-04-14T12:25:09+08:00'
+translatedAt: '2026-06-16T17:19:04Z'
 ---
 
 > **30-second overview:** Taiwan's most criticized phenomenon of "foreign language invasion" reveals an ironic truth: Taiwan itself is the world's most successful laboratory for integrating foreign languages.

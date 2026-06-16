@@ -20,10 +20,10 @@ lastVerified: 2026-05-19
 lastHumanReview: true
 featured: true
 translatedFrom: 'Technology/台灣人工智慧發展與未來策略.md'
-sourceCommitSha: '89026b10'
-sourceContentHash: 'sha256:d7e4d2422c367c4b'
-sourceBodyHash: 'sha256:5c4408b02aa462ff'
-translatedAt: '2026-05-25T21:07:07Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:ea05ddc3465f02eb'
+sourceBodyHash: 'sha256:c1a908bbd971d40d'
+translatedAt: '2026-06-16T16:55:29Z'
 ---
 
 # 대만 인공지능 발전과 미래 전략: 하드웨어 입장권은 얻었다, 다음 전장은 어디인가

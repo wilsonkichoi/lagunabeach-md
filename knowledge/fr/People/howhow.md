@@ -20,10 +20,10 @@ lastVerified: '2026-06-05'
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/Howhow.md'
-sourceCommitSha: 'aeb8b0e48'
-sourceContentHash: 'sha256:d627e5d3ae6e33dc'
-sourceBodyHash: 'sha256:b4269ae42baf9103'
-translatedAt: '2026-06-06T00:51:20+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:e3c09bf20faac318'
+sourceBodyHash: 'sha256:636421c60d5f3730'
+translatedAt: '2026-06-16T16:54:51Z'
 ---
 
 > **Aperçu en 30 secondes :** Chen Tzu-hao (Howhow) a fait l’une des choses les plus contre-intuitives de l’histoire de YouTube à Taïwan. Tandis que les autres s’ingéniaient à dissimuler les placements de produit, lui a affiché en grands caractères : « Passons directement au placement de produit ! », transformant ce que les créateurs trouvent le plus embarrassant en marque de fabrique. Seul, comme scénariste, réalisateur, acteur et monteur, il a porté la chaîne HowFun jusqu’à 1,54 million d’abonnés et 760 millions de vues. Mais cette histoire recèle trois contradictions auxquelles vous n’avez peut-être pas pensé : son « placement de produit honnête », salué par le public, correspond précisément au mécanisme trompeur que la recherche décrit comme une publicité qui ne ressemble pas à une publicité ; son « équipe d’une seule personne » est une étiquette collée par les autres, alors que lui-même déteste la solitude et a toujours voulu une équipe ; et les vidéos longues à coût élevé auxquelles il tient se situent justement sur la voie la plus durement compressée par les vidéos courtes. Cet article raconte comment un créateur tient son propre rythme, au moment même où cette persévérance devient de plus en plus chère.

@@ -23,10 +23,10 @@ lastVerified: 2026-05-22
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/許倬雲.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:b128007e07e1536d'
-sourceBodyHash: 'sha256:6a51eda75b8ff9c7'
-translatedAt: '2026-05-28T05:08:33+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:f504463086a8f46e'
+sourceBodyHash: 'sha256:df920362587637e7'
+translatedAt: '2026-06-16T17:03:25Z'
 ---
 
 # Hsu Cho-yun: Writing the Long River of Chinese History with Two Fingers, Wang Leehom's Great-Uncle's Ninety-Five Years

@@ -21,10 +21,10 @@ lastVerified: 2026-05-12
 lastHumanReview: false
 featured: false
 translatedFrom: People/聶永真.md
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:669edb7f4c118cc5'
-sourceBodyHash: 'sha256:389438b7aa71a102'
-translatedAt: 2026-05-24T05:06:33+08:00
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:af655ef71174b4b7'
+sourceBodyHash: 'sha256:8bdb4d64fdb3b5e7'
+translatedAt: '2026-06-16T17:05:54Z'
 ---
 
 > **En 30 secondes :** Nieh Yung-jen (né en 1977) est le premier designer taïwanais admis à l'Alliance Graphique Internationale (AGI). Trois fois lauréat du Golden Melody Award pour la meilleure pochette d'album, il a conçu des couvertures musicales pour Yoga Lin, Sodagreen, Jolin Tsai et Hebe Tien, ainsi que des couvertures d'ouvrages pour des maisons d'édition comme Rye Field, China Times, INK et Linking. La publicité « Democracy at 4am » dans le New York Times à l'aube du Mouvement du Tournesol en 2014 et la campagne « Taiwan Can Help » contre Tedros en 2020 sont toutes deux issues de son atelier. Le visuel de campagne présidentielle « Light Up Taiwan » de Tsai Ing-wen en 2016 et les visuels des deux cérémonies d'investiture présidentielle ont également été réalisés par son studio. En 2024, Aaron Nieh Workshop a ouvert un deuxième site au Pier-2 Art Center de Kaohsiung, puis a remporté consécutivement les appels d'offres pour les systèmes d'identité de Taipower, CPC Corporation, l'Administration du Tourisme et le Ministère de l'Économie. Le 8 mai 2026, le lancement du nouveau logo de Taipower a déclenché une controverse de « favoritisme politique », à laquelle il a répondu par une déclaration en cinq points. La phrase qu'il répète sans cesse — « Avant d'être le designer Nieh Yung-jen, je suis le citoyen Nieh Yung-jen » —, de 2014 à aujourd'hui, continue d'être relue dans des contextes différents.

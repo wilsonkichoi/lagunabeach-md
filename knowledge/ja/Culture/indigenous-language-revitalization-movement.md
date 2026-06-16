@@ -14,7 +14,7 @@ translatedFrom: Culture/台灣原住民語言復振運動.md
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:9c408bfc603af1d1'
 sourceBodyHash: 'sha256:f60b7a2b3f864e75'
-translatedAt: 2026-05-01T18:02:56+08:00
+translatedAt: '2026-06-16T17:19:04Z'
 ---
 
 # 台湾原住民言語の復興運動

@@ -1,20 +1,37 @@
 ---
-title: "가오슝시: 1979년 직할시로 승격되던 그해, 타이베이의 감옥에는 가오슝 사람 여덟 명이 갇혀 있었다"
-description: "1979년 7월 1일 가오슝은 타이완의 두 번째 직할시로 승격되었고, 12월 10일 세계 인권의 날에는 메이리다오 잡지사가 다강푸 로터리에서 연설을 열려던 일이 최루탄 아래의 충돌로 변했다. 여덟 명이 형을 선고받았고, 1980년 2월 28일 린이슝의 타이베이 신이로 자택에서는 참극이 전해졌다. 같은 1979년에 가오슝은 행정적 영예를 얻었고, 전후 타이완에서 가장 무거운 정치적 탄압도 삼켰다. 271만 명은 38개 구에 흩어져 있고, 치진 사주, 나마샤 부눈족 부락, 중국강철의 굴뚝, 웨이우잉의 알루미늄 합금 지붕이 한 도시에 함께 산다. 이 도시는 45년에 걸쳐 상처를 자기만의 형태로 꿰매 왔다."
-date: "2026-05-18"
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
-tags: ["가오슝", "가오슝시", "남부", "직할시", "가오슝항", "메이리다오 사건", "아이허", "중국강철", "웨이우잉", "류허 야시장", "빛의 돔", "메이눙", "나마샤", "88 수해", "22개 현시 시리즈"]
+title: '가오슝시: 1979년 직할시로 승격되던 그해, 타이베이의 감옥에는 가오슝 사람 여덟 명이 갇혀 있었다'
+description: '1979년 7월 1일 가오슝은 타이완의 두 번째 직할시로 승격되었고, 12월 10일 세계 인권의 날에는 메이리다오 잡지사가 다강푸 로터리에서 연설을 열려던 일이 최루탄 아래의 충돌로 변했다. 여덟 명이 형을 선고받았고, 1980년 2월 28일 린이슝의 타이베이 신이로 자택에서는 참극이 전해졌다. 같은 1979년에 가오슝은 행정적 영예를 얻었고, 전후 타이완에서 가장 무거운 정치적 탄압도 삼켰다. 271만 명은 38개 구에 흩어져 있고, 치진 사주, 나마샤 부눈족 부락, 중국강철의 굴뚝, 웨이우잉의 알루미늄 합금 지붕이 한 도시에 함께 산다. 이 도시는 45년에 걸쳐 상처를 자기만의 형태로 꿰매 왔다.'
+date: '2026-05-18'
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
+tags:
+  [
+    '가오슝',
+    '가오슝시',
+    '남부',
+    '직할시',
+    '가오슝항',
+    '메이리다오 사건',
+    '아이허',
+    '중국강철',
+    '웨이우잉',
+    '류허 야시장',
+    '빛의 돔',
+    '메이눙',
+    '나마샤',
+    '88 수해',
+    '22개 현시 시리즈',
+  ]
 readingTime: 18
-lastVerified: "2026-05-18"
+lastVerified: '2026-05-18'
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/高雄市.md"
-sourceCommitSha: "544200eab"
-sourceContentHash: "sha256:832a9cde39691707"
-sourceBodyHash: "sha256:6169f035919618ee"
-translatedAt: "2026-05-19T05:08:07+08:00"
+translatedFrom: 'Geography/高雄市.md'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:3c13d7fb85f1eb0e'
+sourceBodyHash: 'sha256:f95a74cad7a8af57'
+translatedAt: '2026-06-16T16:55:29Z'
 ---
 
 # 가오슝시: 1979년 직할시로 승격되던 그해, 타이베이의 감옥에는 가오슝 사람 여덟 명이 갇혀 있었다
@@ -158,7 +175,7 @@ _메이리다오역 빛의 돔, 2024-09-19. Photo: Wikimedia Commons contributor
 각 구의 이야기는 모두 다르다. 치진구 2만 8천 명은 길이 11.3킬로미터의 사주에 살며, 페리가 주요 출입 교통수단이다. 마오린구 1,867명은 가오슝시에서 인구가 가장 적은 구이고, 주요 주민은 루카이족이며, 해발은 200미터에서 1,000미터 이상까지 올라간다. 펑산구 35만 5,183명은 가오슝시에서 인구가 가장 많은 구이고, 원래 가오슝현 현청 소재지였으며, 2010년 합병 뒤 단일 구로서는 전국 인구 2위가 되었다[^18]. 세 구의 인구 차이는 190배지만, 행정상으로는 모두 “가오슝시 어느 구”라고 불린다.
 
 ![치허우산에서 바라본 치진섬. 길이 11.3킬로미터 사주에 2만 8천 명이 살고, 본섬과 연결되는 다리는 없다. 과항터널은 차량용이며, 구산 페리가 주요 교통수단이다.](/article-images/geography/kaohsiung-03.webp)
-_치진구 조감. Photo: Wikimedia Commons contributor, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:Cijin_Island,_Kaohsiung_(52831825604).jpg)._
+_치진구 조감. Photo: Wikimedia Commons contributor, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:Cijin_Island,_Kaohsiung_(52831825604).jpg).\_
 
 ### 산지 세 구: 루카이, 부눈, 카나카나부, 흘라알루아
 
@@ -294,7 +311,7 @@ Scene §첸전 어항: [Port of Kaohsiung first harbor commercial area 2021](htt
 
 Scene §메이리다오역: [Dome of Light at Formosa Boulevard Station 2024](https://commons.wikimedia.org/wiki/File:Dome_of_Light_at_Formosa_Boulevard_Station_20240919.jpg), 메이리다오역 빛의 돔. CC BY-SA.
 
-Scene §38개 구: [Cijin Island, Kaohsiung](https://commons.wikimedia.org/wiki/File:Cijin_Island,_Kaohsiung_(52831825604).jpg), 치진 사주 조감. CC BY-SA.
+Scene §38개 구: [Cijin Island, Kaohsiung](<https://commons.wikimedia.org/wiki/File:Cijin_Island,_Kaohsiung_(52831825604).jpg>), 치진 사주 조감. CC BY-SA.
 
 Scene §아이허: [Kaohsiung Love River](https://commons.wikimedia.org/wiki/File:Kaohsiung-Love-River.jpg), 아이허 정비 후 관광 하안. CC BY-SA.
 

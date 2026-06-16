@@ -9,7 +9,7 @@ translatedFrom: Art/金馬賓館當代美術館.md
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:dc5814dcedc92ae0'
 sourceBodyHash: 'sha256:c74e16d96ce01c6c'
-translatedAt: 2026-05-01T22:19:10+08:00
+translatedAt: '2026-06-16T17:10:37Z'
 category: Art
 ---
 

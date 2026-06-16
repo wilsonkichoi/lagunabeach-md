@@ -18,10 +18,10 @@ lastVerified: 2026-06-04
 lastHumanReview: false
 featured: false
 translatedFrom: Society/中華台北.md
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:2b2c4d3c765d642b'
-sourceBodyHash: 'sha256:554fc5a28e8c0743'
-translatedAt: '2026-06-10T16:42:09Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:139126ed14d761b3'
+sourceBodyHash: 'sha256:67435314dcab3a3a'
+translatedAt: '2026-06-16T16:55:29Z'
 ---
 
 # 중화 타이베이: 타이완을 무대에 올려주지만 자기 이름은 새길 수 없는 입장권
@@ -187,6 +187,7 @@ _화시(華視) 뉴스 2022년 보도: 위팅팅이 「China」가 수놓아진 
 - [타이완의 수교국과 국제 외교](/society/台灣邦交國與國際外交) — 「올림픽 위원회 모델」 확산 바깥에서, 타이완이 공식 외교 무대에서 마주하는 같은 이름의 딜레마
 - [지정](/people/紀政) — 도약하는 영양이 1968년 멕시코 동메달, 1981년 체제 건설 주역에서 2018년 정명 발기인이 되기까지의 궤적 전체
 - [양촨광](/people/楊傳廣) — 1960년 로마에서 「포르모사」라는 이름으로 타이완 첫 올림픽 메달을 딴 아시아의 철인
+- [보이지 않는 나라](/art/看不見的國家) — 지정이 이 다큐멘터리에서 1968년 올림픽 동메달을 꺼내 들며 「중화 타이베이가 국가 이름인가」라고 되묻는다
 
 ## 이미지 출처
 

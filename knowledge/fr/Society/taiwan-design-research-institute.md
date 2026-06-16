@@ -20,10 +20,10 @@ lastVerified: 2026-06-04
 lastHumanReview: false
 featured: false
 translatedFrom: 'Society/台灣設計研究院.md'
-sourceCommitSha: '4294a3887'
-sourceContentHash: 'sha256:247f4a7c6681be37'
-sourceBodyHash: 'sha256:b4d9a104f71baf5c'
-translatedAt: '2026-06-07T00:37:31+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:dc9a16af37eefe47'
+sourceBodyHash: 'sha256:f7df18837078b48f'
+translatedAt: '2026-06-16T16:40:09Z'
 ---
 
 La salle d'attente du centre de santé de Xizhi ne ressemble plus vraiment à un centre de santé. Les tubes fluorescents, les chaises en plastique et les guichets de retrait de médicaments serrés les uns contre les autres ont disparu, remplacés par un ensemble de modules démontables et assemblables comme des briques : une version urbaine, une version pour villes nouvelles et une version pour bourgs et cantons. Le bureau de la santé publique du Nouveau Taipei y a consacré treize mois, en commençant par deux sites pilotes, Xizhi et Yingge[^1]. Vous n'avez probablement jamais prêté attention à cette histoire. Vous allez vous faire vacciner, prendre votre tension, récupérer des médicaments pour une maladie chronique ; le parcours est un peu plus fluide qu'avant, l'attente un peu moins irritante, puis vous partez.

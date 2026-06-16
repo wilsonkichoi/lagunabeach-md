@@ -28,10 +28,10 @@ lastVerified: '2026-05-26'
 lastHumanReview: 'false'
 featured: 'true'
 translatedFrom: 'People/尹衍樑.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:232e75e6f0a55e9d'
-sourceBodyHash: 'sha256:72b70b205da94b86'
-translatedAt: '2026-05-28T05:08:34+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:ca0ab51cac71e4a7'
+sourceBodyHash: 'sha256:bf303e93b6c06618'
+translatedAt: '2026-06-16T17:05:07Z'
 ---
 
 # Samuel Yin: el premio científico que construyó vale más que el Nobel

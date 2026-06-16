@@ -25,10 +25,10 @@ lastVerified: '2026-05-18'
 lastHumanReview: true
 featured: false
 translatedFrom: 'Geography/台中市.md'
-sourceCommitSha: 'bcffb45b'
-sourceContentHash: 'sha256:cb652161e5b2ee7d'
-sourceBodyHash: 'sha256:280d9f956e7a6a86'
-translatedAt: '2026-05-25T21:07:04Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:c76a9448141070d4'
+sourceBodyHash: 'sha256:3689cbfc4a7bdf30'
+translatedAt: '2026-06-16T17:15:00Z'
 ---
 
 # 台中市：1887年に首都になりかけ、2010年にようやく第2の直轄市となった都市

@@ -25,10 +25,10 @@ lastVerified: 2026-05-09
 lastHumanReview: false
 featured: false
 translatedFrom: 'Nature/颱風.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:fb28c7a415f87d9c'
-sourceBodyHash: 'sha256:c57123f891fb2cee'
-translatedAt: '2026-06-10T16:42:09Z'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:b0a47a120aff0621'
+sourceBodyHash: 'sha256:b8ebcfc4e0a96ce7'
+translatedAt: '2026-06-16T17:05:51Z'
 ---
 
 # 비바람은 예측할 수 있어도 운명은 예측할 수 없다: 타이완과 태풍의 400년

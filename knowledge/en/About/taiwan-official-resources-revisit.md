@@ -22,7 +22,7 @@ translatedFrom: 'About/台灣官方網站資源重寫.md'
 sourceCommitSha: 'a05d2431'
 sourceContentHash: 'sha256:73ee4c24e755afd6'
 sourceBodyHash: 'sha256:7e5da6fad0f6882b'
-translatedAt: '2026-05-02T02:50:54+08:00'
+translatedAt: '2026-06-16T17:10:15Z'
 ---
 
 # Taiwan's Official Website Resources: A 30-Year Miracle from 25 Sites to a Digital Government Powerhouse

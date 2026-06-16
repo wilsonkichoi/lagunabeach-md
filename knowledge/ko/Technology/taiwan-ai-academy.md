@@ -5,16 +5,25 @@ date: 2026-05-18
 author: 'Taiwan.md'
 category: 'Technology'
 subcategory: '人工智慧'
-tags: ['인공지능', '교육', '천성웨이', 'AIA', '대만 기술산업', '중앙연구원', 'AI 정책']
+tags:
+  [
+    '인공지능',
+    '교육',
+    '천성웨이',
+    'AIA',
+    '대만 기술산업',
+    '중앙연구원',
+    'AI 정책',
+  ]
 readingTime: 18
 lastVerified: 2026-05-18
 lastHumanReview: true
 featured: true
 translatedFrom: 'Technology/台灣人工智慧學校.md'
-sourceCommitSha: '96945e450'
-sourceContentHash: 'sha256:5beed3bcd5362b88'
-sourceBodyHash: 'sha256:de487b6c8ffd4407'
-translatedAt: '2026-05-18T20:48:56+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:4e403df024cd43dc'
+sourceBodyHash: 'sha256:04e9009c16ede3cb'
+translatedAt: '2026-06-16T16:55:29Z'
 ---
 
 # 대만 인공지능학교: 끝내지 못한 전화 한 통과 1만 명의 AI 엔지니어

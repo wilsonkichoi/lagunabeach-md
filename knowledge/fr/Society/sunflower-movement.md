@@ -16,10 +16,10 @@ featured: true
 lastVerified: 2026-04-12
 lastHumanReview: false
 translatedFrom: 'Society/太陽花學運.md'
-sourceCommitSha: '1844f59c5'
-sourceContentHash: 'sha256:4b20ee6c7caeca19'
-sourceBodyHash: 'sha256:db9bd643c9240d48'
-translatedAt: '2026-06-12T00:53:05+08:00'
+sourceCommitSha: 'e6c58721'
+sourceContentHash: 'sha256:f622a7c42dce34d6'
+sourceBodyHash: 'sha256:2558980b3f59cb6f'
+translatedAt: '2026-06-16T17:13:36Z'
 ---
 
 > **En 30 secondes :** Le 17 mars 2014, le législateur du Kuomintang Chang Ching-chung, plaqué au sol, a lu dans un micro-cravate pendant trente secondes que l'accord de commerce des services « était réputé examiné ». Dans la nuit, plus de deux cents étudiants ont escaladé les murs du Yuan législatif et installé un iPad en direct vingt-quatre heures sur vingt-quatre, contournant toutes les chaînes de télévision. Vingt-quatre jours plus tard, les étudiants se sont retirés. L'accord n'a pas été rejeté — il a été abandonné par l'histoire. Les chiffres douze ans plus tard parlent d'eux-mêmes : la dépendance commerciale de Taïwan vis-à-vis de la Chine est passée de 42 % à 31,5 %. Ils ont gagné une guerre dont ils ignoraient qu'ils la menaient.
@@ -166,6 +166,7 @@ Ces trente secondes, Chang Ching-chung n'imaginait probablement pas qu'il était
 - [Za School](/society/雜學校) — Une autre prolongation de l'énergie extra-institutionnelle après le mouvement du 18 mars : le cas taïwanais de la traduction de la rébellion de rue en carnaval éducatif
 - [Complex Life Festival](/society/複雜生活節) — La quatrième voie de sortie du « sortir pour semencer » du 18 mars : ni élection, ni programmation, ni recrutement, rassembler chaque année les milléniaux désorientés par les bas salaires dans un « forum des non-réussis » de deux à trois cents personnes
 - [Taïwan et Eswatini](/society/台灣與史瓦帝尼) — Dix ans après le mouvement du 18 mars, la visite de Lai Ching-te en Eswatini pour consolider les relations diplomatiques : le scénario concret des quatre mots « État souverain »
+- [Invisible Nation](/art/看不見的國家) — le documentaire de Joyce Keng place le mouvement des Tournesols comme un moment-clé dans l’arc des quatre siècles de la démocratie taïwanaise
 - [Nie Yongzhen](/people/聶永真) — Le graphiste qui conçut la publicité « Democracy at 4am » en pleine page du _New York Times_ à quatre heures du matin en 2014, comment le mouvement étudiant entra dans la scène internationale vue du côté du design
 
 ## Références

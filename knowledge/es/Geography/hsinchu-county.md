@@ -26,10 +26,10 @@ lastVerified: 2025-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: Geography/新竹縣.md
-sourceCommitSha: bcffb45b4
-sourceContentHash: sha256:d364dc7cecbd8556
-sourceBodyHash: sha256:1609d19d6b7ce06f
-translatedAt: 2026-05-26T05:10:57+08:00
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:499e7dcb301a6ddb'
+sourceBodyHash: 'sha256:8df9daddb901affe'
+translatedAt: '2026-06-16T17:05:07Z'
 ---
 
 # Condado de Hsinchu: 235 años de fe en los Yi-min y el ingreso per cápita más alto de Taiwán, conviviendo junto al mismo río Touqian

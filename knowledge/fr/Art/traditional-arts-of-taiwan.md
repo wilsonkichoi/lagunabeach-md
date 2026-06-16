@@ -13,7 +13,7 @@ translatedFrom: "Art/台灣傳統藝術.md"
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:8199dcc4edeb2fce'
 sourceBodyHash: 'sha256:de7228ea44ad062e'
-translatedAt: "2026-04-14T19:13:26+08:00"
+translatedAt: '2026-06-16T17:13:36Z'
 ---
 
 # Les arts traditionnels de Taïwan : l'improbable renaissance d'un théâtre de village en empire culturel

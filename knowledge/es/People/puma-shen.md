@@ -20,10 +20,10 @@ lastVerified: 2026-04-28
 lastHumanReview: true
 featured: false
 translatedFrom: 'People/沈伯洋.md'
-sourceCommitSha: 'dd39065b2'
-sourceContentHash: 'sha256:264471f17f1dd86d'
-sourceBodyHash: 'sha256:ff76539057c18498'
-translatedAt: '2026-06-11T00:44:03+08:00'
+sourceCommitSha: '21f2ddb4'
+sourceContentHash: 'sha256:b4d9dc8d1282cabf'
+sourceBodyHash: 'sha256:7c55d791874ec123'
+translatedAt: '2026-06-16T17:14:11Z'
 ---
 
 # Puma Shen: estudió la guerra cognitiva de China y luego China lo dibujó en un mapa satelital
@@ -206,6 +206,7 @@ A fines de abril de 2026 se cortó el cabello y se preparó para otra contienda 
 - [Pa Chiung](/people/八炯) — YouTuber taiwanés también señalado por el PCCh; en noviembre de 2025 fue objeto de una recompensa china de hasta 250.000 yuanes
 - [Lai Ching-te](/people/賴清德) — también incluido en la lista de “partidarios recalcitrantes de la independencia de Taiwán”; en noviembre de 2025 expresó públicamente su apoyo a Puma Shen
 - [Defensa nacional y modernización militar de Taiwán](/society/台灣國防與軍事現代化) — la educación de defensa civil de la Academia Kuma y su relación complementaria con la defensa nacional de toda la ciudadanía
+- [La nación invisible](/art/看不見的國家) — el documental cierra con taiwaneses asistiendo a una clase de defensa civil; la Academia Kuma es precisamente la versión real de esa clase final.
 
 ## Referencias
 

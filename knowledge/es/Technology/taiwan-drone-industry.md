@@ -20,10 +20,10 @@ lastVerified: '2026-05-10'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Technology/台灣無人機產業.md'
-sourceCommitSha: 'dd39065b'
-sourceContentHash: 'sha256:9165b111d87b4581'
-sourceBodyHash: 'sha256:88f1bf8039ff02f6'
-translatedAt: '2026-05-10T22:52:31+08:00'
+sourceCommitSha: '31a05c44'
+sourceContentHash: 'sha256:de2ace5a9d645535'
+sourceBodyHash: 'sha256:0efd20b7166e441a'
+translatedAt: '2026-06-16T17:12:11Z'
 ---
 
 > **Panorama en 30 segundos:** La industria taiwanesa de drones atraviesa un auge impulsado por la geopolítica. El Ministerio de Defensa planea una adquisición de casi 50 000 drones militares por 50 000 millones de dólares taiwaneses, y los drones son uno de los ejes centrales del presupuesto especial de 1,25 billones del Yuan Ejecutivo. Thunder Tiger se convirtió en la primera empresa taiwanesa en obtener la certificación Blue UAS del Departamento de Defensa estadounidense. De la fumigación agrícola al reconocimiento en el campo de batalla, la industria taiwanesa de drones pasa del "fabricante por encargo" a la "autonomía defensiva", intentando convertirse en la siguiente industria estratégica después de los semiconductores.
