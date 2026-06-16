@@ -1,10 +1,10 @@
 {
-  "_generated": "2026-06-16T20:40:15+08:00",
+  "_generated": "2026-06-16T20:49:25+08:00",
   "schemaVersion": 1,
   "counts": {
-    "spores": 137,
-    "articles": 66,
-    "withMetrics": 126
+    "spores": 135,
+    "articles": 65,
+    "withMetrics": 125
   },
   "spores": [
     {
@@ -6674,62 +6674,6 @@
       ]
     },
     {
-      "id": 140,
-      "slug": "瘂弦",
-      "articlePath": "knowledge/People/瘂弦.md",
-      "articleUrl": "/people/瘂弦/",
-      "lang": "zh",
-      "platform": "threads",
-      "date": "2026-06-14",
-      "url": "https://www.threads.com/@taiwandotmd/post/DZj9pKDk-nx",
-      "template": "A2",
-      "metrics": {
-        "views": null,
-        "likes": null,
-        "reposts": null,
-        "comments": null,
-        "shares": null
-      },
-      "metricsAsOf": null,
-      "history": []
-    },
-    {
-      "id": 141,
-      "slug": "瘂弦",
-      "articlePath": "knowledge/People/瘂弦.md",
-      "articleUrl": "/people/瘂弦/",
-      "lang": "zh",
-      "platform": "x",
-      "date": "2026-06-14",
-      "url": "https://x.com/taiwandotmd/status/2066097087318790182",
-      "template": "A2",
-      "metrics": {
-        "views": 716,
-        "likes": 20,
-        "reposts": 1,
-        "comments": 0,
-        "shares": 2
-      },
-      "metricsAsOf": {
-        "dPlus": 1,
-        "harvestDate": "2026-06-15 06:47",
-        "batch": "batch-2026-06-15-10-spores",
-        "source": "harvest"
-      },
-      "history": [
-        {
-          "dPlus": 1,
-          "harvestDate": "2026-06-15 06:47",
-          "batch": "batch-2026-06-15-10-spores",
-          "views": 716,
-          "likes": 20,
-          "reposts": 1,
-          "comments": 0,
-          "shares": 2
-        }
-      ]
-    },
-    {
       "id": 142,
       "slug": "迷音Miin",
       "articlePath": "knowledge/Technology/迷音Miin.md",
@@ -6926,7 +6870,6 @@
     "海底電纜": [55, 56],
     "無名小站": [138, 139],
     "田馥甄": [43, 44],
-    "瘂弦": [140, 141],
     "科技園區發展": [109, 110],
     "聶永真": [66, 67],
     "臺灣前途決議文": [76, 77],

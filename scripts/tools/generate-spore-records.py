@@ -110,7 +110,8 @@ def _event_sort_key(e):
 
 
 def build_records():
-    log = json.loads(LOG_PATH.read_text(encoding="utf-8"))["spores"]
+    log = [s for s in json.loads(LOG_PATH.read_text(encoding="utf-8"))["spores"]
+           if not s.get("deleted")]  # 已刪除孢子排除於衍生記錄層（spore-log SSOT 仍保留供溯源）
     all_events = json.loads(METRICS_PATH.read_text(encoding="utf-8"))["events"]
     lookup = _article_lookup()
 

@@ -86,6 +86,8 @@ def parse_publication_table():
     data = json.loads(SPORE_LOG_JSON.read_text(encoding="utf-8"))
     rows = []
     for s in data.get("spores", []):
+        if s.get("deleted"):  # 已刪除孢子不寫進文章 sporeLinks（避免死連結）
+            continue
         rows.append({
             "n": s["id"],
             "date": s.get("date") or "",

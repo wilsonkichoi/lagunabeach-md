@@ -1,22 +1,22 @@
 {
-  "lastUpdated": "2026-06-16T12:40:15.913075Z",
+  "lastUpdated": "2026-06-16T12:49:25.940521Z",
   "schemaVersion": "1.1",
   "totals": {
-    "count": 137,
+    "count": 135,
     "platforms": {
-      "threads": 71,
-      "x": 62,
+      "threads": 70,
+      "x": 61,
       "other": 4
     },
     "languages": {
-      "zh": 130,
+      "zh": 128,
       "en": 7
     },
     "templates": {
       "B": 43,
       "A": 32,
       "D": 4,
-      "A2": 52,
+      "A2": 50,
       "other": 6
     }
   },
@@ -86,17 +86,17 @@
       "backfilled": false
     },
     {
-      "n": 141,
+      "n": 139,
       "date": "2026-06-14",
       "platform": "x",
-      "article": "瘂弦",
-      "articleSlug": "瘂弦",
-      "category": "People",
-      "template": "A2",
-      "url": "https://x.com/taiwandotmd/status/2066097087318790182",
-      "highlight": "瘂弦：36 歲封筆、56 年沉默仍是台灣詩史前五。X Premium 單則長文 inline UTM，配 square 圖。",
+      "article": "無名小站",
+      "articleSlug": "無名小站",
+      "category": "culture",
+      "template": "B 冷知識型 + 電源開關首尾呼應",
+      "url": "https://x.com/taiwandotmd/status/2066024659238465719",
+      "highlight": "無名小站「電源開關」母題 X 版（同文案 inline UTM）",
       "views_7d": null,
-      "views_latest": 716,
+      "views_latest": 20001,
       "engagements_7d": null,
       "rate_7d": null,
       "backfilled": true
@@ -259,22 +259,6 @@
       "url": "https://x.com/taiwandotmd/status/2066024659238465719"
     },
     {
-      "n": 140,
-      "article": "瘂弦",
-      "platform": "threads",
-      "publishedDays": 2,
-      "status": "waiting",
-      "url": "https://www.threads.com/@taiwandotmd/post/DZj9pKDk-nx"
-    },
-    {
-      "n": 141,
-      "article": "瘂弦",
-      "platform": "x",
-      "publishedDays": 2,
-      "status": "waiting",
-      "url": "https://x.com/taiwandotmd/status/2066097087318790182"
-    },
-    {
       "n": 142,
       "article": "迷音Miin",
       "platform": "threads",
@@ -370,8 +354,8 @@
     },
     {
       "week": "2026-W24",
-      "published": 10,
-      "avgViews": 7571
+      "published": 8,
+      "avgViews": 9285
     },
     {
       "week": "2026-W25",
@@ -1689,26 +1673,6 @@
       "withinHarvestWindow": true,
       "harvestCount": 2,
       "lastHarvest": "2026-06-16 20:39"
-    },
-    {
-      "n": 140,
-      "article": "瘂弦",
-      "platform": "threads",
-      "publishDate": "2026-06-14",
-      "daysSincePublish": 2,
-      "withinHarvestWindow": true,
-      "harvestCount": 0,
-      "lastHarvest": null
-    },
-    {
-      "n": 141,
-      "article": "瘂弦",
-      "platform": "x",
-      "publishDate": "2026-06-14",
-      "daysSincePublish": 2,
-      "withinHarvestWindow": true,
-      "harvestCount": 1,
-      "lastHarvest": "2026-06-15 06:47"
     },
     {
       "n": 142,

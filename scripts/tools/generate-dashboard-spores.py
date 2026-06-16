@@ -785,6 +785,8 @@ def load_publishes_json():
     data = json.loads(SPORE_LOG_JSON.read_text(encoding="utf-8"))
     entries = []
     for s in data["spores"]:
+        if s.get("deleted"):  # 已刪除孢子不進 dashboard（spore-log SSOT 仍保留）
+            continue
         entries.append({
             "n": s["id"],
             "date": s.get("date"),

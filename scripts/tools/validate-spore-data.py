@@ -208,8 +208,8 @@ def check_derived():
     except json.JSONDecodeError as e:
         return [f"❌ spores.json unparseable: {e}"], warnings
 
-    n_log = len(json.loads(LOG_JSON.read_text(encoding="utf-8"))["spores"]) \
-        if LOG_JSON.exists() else 0
+    n_log = len([s for s in json.loads(LOG_JSON.read_text(encoding="utf-8"))["spores"]
+                 if not s.get("deleted")]) if LOG_JSON.exists() else 0
     n_rec = len(records.get("spores", []))
     if n_log and n_rec != n_log:
         warnings.append(f"⚠️  spores.json {n_rec} records vs spore-log {n_log} — regen")
