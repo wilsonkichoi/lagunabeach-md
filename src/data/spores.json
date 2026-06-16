@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-06-16T20:49:25+08:00",
+  "_generated": "2026-06-16T21:36:27+08:00",
   "schemaVersion": 1,
   "counts": {
     "spores": 135,
@@ -6766,28 +6766,28 @@
       "url": "https://www.threads.com/@taiwandotmd/post/DZpJfvEE4IL",
       "template": "B 冷知識型 + 問題入口",
       "metrics": {
-        "views": null,
-        "likes": 2411,
-        "reposts": 160,
-        "comments": 14,
-        "shares": 34
+        "views": 21000,
+        "likes": 3571,
+        "reposts": 234,
+        "comments": 23,
+        "shares": 49
       },
       "metricsAsOf": {
         "dPlus": 0,
-        "harvestDate": "2026-06-16 20:39",
+        "harvestDate": "2026-06-16 21:36",
         "batch": "batch-2026-06-16-pm-6-spores",
         "source": "harvest"
       },
       "history": [
         {
           "dPlus": 0,
-          "harvestDate": "2026-06-16 20:39",
+          "harvestDate": "2026-06-16 21:36",
           "batch": "batch-2026-06-16-pm-6-spores",
-          "views": null,
-          "likes": 2411,
-          "reposts": 160,
-          "comments": 14,
-          "shares": 34
+          "views": 21000,
+          "likes": 3571,
+          "reposts": 234,
+          "comments": 23,
+          "shares": 49
         }
       ]
     },

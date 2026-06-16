@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T12:49:25.940521Z",
+  "lastUpdated": "2026-06-16T13:36:27.264717Z",
   "schemaVersion": "1.1",
   "totals": {
     "count": 135,
@@ -48,10 +48,10 @@
       "url": "https://www.threads.com/@taiwandotmd/post/DZpJfvEE4IL",
       "highlight": "報導者十週年：4→約8,000個每月掏錢的陌生人、編輯室不放點閱率螢幕，把調查報導從賠錢生意救成公共財。Threads 主貼+self-reply URL 串文，square 圖。",
       "views_7d": null,
-      "views_latest": null,
+      "views_latest": 21000,
       "engagements_7d": null,
       "rate_7d": null,
-      "backfilled": false
+      "backfilled": true
     },
     {
       "n": 143,
@@ -360,7 +360,7 @@
     {
       "week": "2026-W25",
       "published": 4,
-      "avgViews": 2298
+      "avgViews": 8532
     }
   ],
   "harvestStatus": [
@@ -1702,7 +1702,7 @@
       "daysSincePublish": 0,
       "withinHarvestWindow": true,
       "harvestCount": 1,
-      "lastHarvest": "2026-06-16 20:39"
+      "lastHarvest": "2026-06-16 21:36"
     },
     {
       "n": 145,

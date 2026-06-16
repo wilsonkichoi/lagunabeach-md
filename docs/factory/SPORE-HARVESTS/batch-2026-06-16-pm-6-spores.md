@@ -17,7 +17,7 @@ source: 'chrome_mcp (Threads + X)'
 
 | #   | Slug        | Platform | D+N | Views  | Likes | Replies | Reposts | Shares |
 | --- | ----------- | -------- | --- | ------ | ----- | ------- | ------- | ------ |
-| 144 | 報導者      | Threads  | D+0 | n/a    | 2,411 | 14      | 160     | 34     |
+| 144 | 報導者      | Threads  | D+0 | 21,000 | 3,571 | 23      | 234     | 49     |
 | 145 | 報導者      | X        | D+0 | 435    | 42    | 0       | 8       | 2      |
 | 142 | 迷音 Miin   | Threads  | D+0 | n/a    | 1,700 | 20      | 196     | 118    |
 | 143 | 迷音 Miin   | X        | D+0 | 4,162  | 190   | 4       | 49      | 14     |
@@ -32,7 +32,7 @@ source: 'chrome_mcp (Threads + X)'
 
 ## 觀察（metrics-only，非 flywheel 完整分類）
 
-- **報導者 #144 D+0 在 Threads 兩小時 2,411 讚**，是這批 D+0 表現最強的（迷音 #142 同齡 1,700）。Threads 仍是本帳號 zh 受眾的主場：報導者 Threads 2,411 vs X 42（~57×）。
+- **報導者 #144 D+0 在 Threads 三小時衝到 3,571 讚 / 2.1 萬次瀏覽 / 234 轉發**（harvest 2hr 時 2,411，1hr 又長千餘；哲宇 21:xx 截圖更新），是這批最強、且超過近期 viral 以外所有 spore（無名 #138 D+2 為 2,377）。Threads 仍是本帳號 zh 受眾的主場：報導者 Threads 3,571 vs X 42。
 - **83 天里程碑 #136/#137 仍是 viral 天花板**：Threads 6,757 讚 / X 10,153 views。
 - **無名小站 #139 X 端 20,001 views** 是本批 X 最高，呼應它 Threads 端 2,377 讚的強勢。
 - 天下雜誌 #134/#135 兩平台都偏低（D+3 仍個位數百），紀實文學 voice 受眾較窄。
