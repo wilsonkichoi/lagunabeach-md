@@ -334,24 +334,6 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **verification_count**: 2
 - **refinement（2026-06-15 twmd-rewrite-daily vc++）**：第二輪 instance — 台灣網路社群遷徙史 EVOLVE，原版 163 行 0 image，EVOLVE prose 6548 char / 47 footnote / 8 場景式 H2 場景敘事完整，但 image-health hard=1（length-scaled ≥5 圖，pre-existing gap）。處置同 報導者 yesterday：ship 純 prose 接受 hard fail / ARTICLE-INBOX 標 prose-shipped-pending-media / SPORE chain 自動 defer per pipeline v6.8。**vc 累積跨兩日 P0 batch 兩篇 instance**（報導者 6/14 + 社群遷徙史 6/15）顯示 pre-existing exception 條款不是個案，是 P0 batch 大半 candidate 共通模式。剩下 4 篇 P0（流行音樂/造山者/沈伯洋/蔡英文）原版若也是 text-only depth，**會繼續 vc++**。**distill_ready 候選升級**：(a) `--ignore=image-health` flag 給 cron mode (b) article-health pre-existing 偵測（若 git log 顯示 image-health gap > N 天 = pre-existing → graceful WARN）(c) routine prompt 明文化「pre-existing text-only EVOLVE → prose ship + SPORE defer 合法分支」。defer 哲宇拍板架構方向，本 routine 不擴張 scope（>1 file scope tooling 改動 = §自主權邊界）。
 
-### 2026-06-14 154636-無名小卒勘誤 — Stage 1 研究查對了站名，Stage 2 下筆把「命名由來引語」壓成「字面站名」，孢子自檢還合理化成「專名」
-
-- **pattern**: stage2-quote-context-collapse
-- **原則**：引語的「語境角色」（自嘲 / 命名由來 / 比喻 / 反話）在 Stage 2 下筆時容易被壓縮成「字面事實」（站名 / 數據 / 專名），即使 Stage 1 研究已查對正確版本。下游事實自檢若只驗「引語是否逐字存在」會 false pass，因為引語本身是真的，錯的是它被安放的 claim。驗證要連「這句話在原文是描述什麼」一起檢查，不能只 Ctrl-F 逐字。
-- **觸發**：2026-06-14 無名小站 spore #138/#139 ship（13:20）後，多位 Threads 讀者（askajay0717「無名小卒？？？BBS？？？」、_annehc_「根本不是 BBS 也不叫無名小卒」）抓到站名錯誤。複查發現研究報告 SSOT 白紙黑字「名稱一開始就叫『無名』，無前身改名」（reports/research/2026-06/無名小站.md:18）+ §4 引語庫把「我們都是無名小卒」標為「命名由來」——研究是對的。但 Stage 2 文章 4 處 + 孢子正文把「無名小卒」寫成站名，孢子事實鐵三角自檢還寫「『無名小卒』是專名」把錯誤合理化一次才漏出去。三源複驗（光華一手「取名為『無名』」/ 維基「無名小站 BBS，全文無『無名小卒』」/ 看雜誌「架起『無名』BBS 站」）確認是 Stage 2 context-collapse。修補 commit 9c871ad3b（讀者校正 → 公開勘誤哲宇釘 Threads/X + 寫回 SSOT）。BBS 起源本身 5 源確認正確，未動。
-- **可能層級**：FACTCHECK pattern catalog 新增（與「偽造直接引語」orthogonal，這種引語是真的、崩塌的是語境）；候選進 REWRITE-PIPELINE Stage 3 + SPORE-PIPELINE Step 3c 事實自檢加一條「引語逐字存在 ✓ 還不夠，要驗『這句在原文描述什麼』是否等於我安放的 claim」。
-- **相關**：2026-04-21 α「primary-source paraphrase drift（不是偽造、是壓縮失真）」同 genre 的內生版 / [[feedback_absolute_facts_extra_caution]]（verbatim 三倍檢查）/ [[feedback_no_scene_inference_from_english]]（可驗證細節不可鬆散推導）/ [[feedback_stage1_falsification_mindset]] / REFLEXES #42（sub-agent verify gate）
-- **vc 累積 instances（2026-06-14 routine-audit cycle 6 cross-routine 浮現同 pattern 的 4 個 sibling instance — pattern-id intake v2.2，同 pattern 不開新 entry）**：
-  - 2026-06-12 國家太空中心：12 條讀者勘誤批量回頭修（issue #1139 Cs Gou）— Stage 1-2 之間 12 處事實 collapse 沒在自評抓到，要靠讀者回報
-  - 2026-06-10 嘻哈饒舌 round-2：引語縮寫 / 詮釋 gloss / 腳註綁定錯位 — Stage 3 驗證三盲區（老莫 callout 觸發全文 14 處重驗）= 同 pattern「引語語境角色被 Stage 2 壓縮」的三個變體
-  - 2026-06-10 廣告史 ship：writer footnote-url-from-memory drift（黃山料 + 廣告史 9 處 footnote URL 來自 writer 記憶而非 Stage 1 SSOT 逐字 carry-over）— 引語的「來源指向」被 Stage 2 從 SSOT 換成記憶
-  - 2026-06-09 嘻哈饒舌 round-1：跨界藝人寫進類型文前先查既有專文定位（壞特 R&B 非 rapper）— writer 用既有印象覆蓋 Stage 1 SSOT 的人物類別
-  - 2026-06-16 miin-spore：迷音標題「被告偷了新聞」把 sub judice 未定罪刑事指控 collapse 成既成事實——內文 sub judice 紀律守住（兩造並陳 / 註明未判決 / 不定罪）但下筆到**標題 + description + 30 秒概覽**那層把「未定罪的法律狀態」壓成字面事實（偷／盜），哲宇 callout 才抓到。**新 sub-axis：collapse 不只在 body prose，更在 title/門面句**（讀者第一印象 + 最易被外部攻擊層）；且崩塌對象從「引語語境」擴到「法律狀態（allegation→fact）」→ pointer memory/2026-06-16-001200-miin-spore.md
-  - 2026-06-16 報導者 media-factcheck：6/14 fresh-Opus-writer prose 過了所有 health gate 後 ship，本 session 哲宇 directive 派 4-agent 主動事實查核才抓到兩個 high-severity collapse——(a) 寶瓶報導**標題幻覺**：捏造不存在的副標「林奕含與娃娃屋的兩種完美主義」（SSOT 有真標題，writer collapse 成幻覺）(b) 對真人朱亞君「總編對林奕含**有不當行為**」**失真指控**：把編輯/契約爭議（簽約後解約）collapse 成暗示性騷擾的措辭——加上引語首半段非逐字 / 涂二審錯置 / 募款收入口徑。**新 catch-mechanism sub-axis：這批不是 gate 抓的、不是讀者回報的，是主動 multi-agent fact-check 抓的**——證明 fresh-writer EVOLVE 長文應內建一輪 fact-check agent pass（gate 驗結構，agent 驗事實/幻覺）→ pointer memory/2026-06-16-170840-報導者-media-factcheck.md
-  - 2026-06-16 報導者 inline 連結查證（同篇延伸）：哲宇 directive 加 inline 溯源連結，主 session 逐一 fetch 原始 URL 查證時撞到第 8 個 collapse——資訊圖表標題寫成「大骪鱸鰻」+ 虛構整段「骪 是查無此字的冷僻字」考據（原頁逐字為「大鮪鱸鰻」，鮪魚的鮪，台語「大尾鱸鰻」諧音）。**新 catch-mechanism sub-axis：這個連第 7 instance 的 4-agent fact-check 都沒抓到，是為了別的目的（補連結）去 fetch 來源 artifact 才現形**——證明 fact-check agent 只 cross-check claim 不夠，source-fidelity gate 必須實際 fetch 被引用的來源 artifact（報導標題 / 圖表頁 / 截圖）逐字比對 → pointer diary 2026-06-16-182658-健康閘門放行假指控.md
-- **verification_count**: 8
-- **distill_ready**: true（8 instance independent cross-validation — Stage 1 SSOT 寫對、Stage 2 writer 下筆把研究結論 collapse 成偏記憶 / 偏印象 / 偏字面 / 偏未驗證狀態的 claim — 跨「引語語境（無名小卒）/ 事實批量（國家太空中心）/ 引語三盲區（嘻哈饒舌）/ 腳註 URL 記憶（廣告史）/ 藝人類別印象（壞特）/ sub judice 法律狀態在標題層（迷音）/ 標題幻覺 + 真人失真指控（報導者）」7 sub-axis 同根。**第 6 instance 把 scope 從 body prose 擴到 title/description/門面句；第 7 instance 把 catch-mechanism 從「gate / 讀者回報」擴到「主動 multi-agent fact-check」**——fact/source-fidelity gate 不能只掃內文、也不該只靠事後讀者勘誤，fresh-writer 長文需內建 fact-check agent pass。本 entry 是 meta-umbrella，高於 REFLEXES #42 sub-agent verify gate / #66 gate dogfood / #16 peer 是線索不是 source — 待下次 distill cycle 升 MEMORY §神經迴路 或 REWRITE-PIPELINE §Stage 2.5 source-fidelity gate canonical，gate scope 含 frontmatter title+description + 成品 fact-check agent pass；**第 8 instance 再推進一層：連 4-agent fact-check 都漏掉、靠 fetch 來源 artifact 才現形 → gate 必須含「實際 fetch 被引用來源 artifact 逐字比對」，不能只 cross-check claim**）
-
 ### 2026-06-14 132118-manual — Chrome MCP content-block 讓 spore pre-ship 的 JS 段落結構檢查失準，截圖才是權威驗證
 
 - **pattern**: chrome-mcp-content-block-js-verify-unreliable
@@ -2565,6 +2547,31 @@ DNA #32「集中預處理 + 分散執行」也補第 6 次驗證 marker（5 cycl
 ## ✅ 已消化（保留 pointer）
 
 <!-- distill 完的條目搬這裡 -->
+
+### 🧬 2026-06-16 manual（哲宇 directive「升級」）— stage2-quote-context-collapse meta-umbrella (vc=8) 升 REWRITE §Stage 2.5 source-fidelity gate
+
+**distill 觸發**：哲宇 directive「REWRITE §Stage 2.5 source-fidelity gate -> 升級」（Observer mode，distill_ready=true，vc=8 達標）。
+
+**消化目的地**：[REWRITE-PIPELINE.md §Stage 2.5 source-fidelity gate](../pipelines/REWRITE-PIPELINE.md)（v7.6 新增）+ Hard Gate Inventory 一列。
+
+**核心**：Stage 1 SSOT 寫對、Stage 2 writer 下筆把研究結論 collapse 成偏記憶 / 偏印象 / 偏字面 / 偏未驗證的 claim。structure gate（word-count/footnote/image/viz）全綠 ≠ 事實對；只拿成品比對 research report 也不夠。canonical 三道 gate：(1) fetch 被引用來源 artifact 逐字比對（不只比 report）(2) frontmatter title+desc+30 秒概覽 門面句 scope (3) fresh-writer 長文 fact-check agent pass。與 Step 3.6 成品總驗互補（3.6 驗成品對 report，2.5 驗對真實世界來源）。
+
+**8 instance 證據鏈**（原 §未消化 entry 完整刪除，此處為 traceability source）：
+
+1. 2026-06-09 嘻哈饒舌 R1 — 壞特 R&B 非 rapper（writer 用既有印象覆蓋 Stage 1 SSOT 人物類別）
+2. 2026-06-10 嘻哈饒舌 R2 — 引語縮寫 / 詮釋 gloss / 腳註綁定錯位（引語語境角色被 Stage 2 壓縮）
+3. 2026-06-10 廣告史 — 9 處 footnote URL 來自 writer 記憶而非 SSOT 逐字 carry-over
+4. 2026-06-12 國家太空中心 — 12 條讀者勘誤批量回頭修（Stage 1-2 事實 collapse 沒被自評抓到）
+5. 2026-06-14 無名小卒 — 「命名由來引語」壓成「字面站名」，孢子事實自檢還合理化成「專名」
+6. 2026-06-16 迷音 — sub judice 未定罪指控在 title 壓成既成事實（**門面句 sub-axis**：collapse 擴到 title/desc/概覽）
+7. 2026-06-16 報導者 — 寶瓶副標幻覺 + 對真人朱亞君「不當行為」失真指控（**catch-mechanism sub-axis**：靠主動 4-agent fact-check 抓到，非 gate 非讀者回報）
+8. 2026-06-16 大鮪鱸鰻 — 資訊圖表標題誤植 + 虛構整段「冷僻字」考據，連 4-agent fact-check 都漏，為了補連結去 fetch 原圖表頁才現形（**fetch-artifact sub-axis**：cross-check claim 不夠，要 fetch 來源 artifact）
+
+**層級**：meta-umbrella，高於 REFLEXES #42 sub-agent verify gate / #66 gate dogfood / #16 peer 是線索不是 source。
+
+| #   | 原教訓 entry                                                                        | 消化目的地                                     | severity   | vc  |
+| --- | ----------------------------------------------------------------------------------- | ---------------------------------------------- | ---------- | --- |
+| —   | stage2-quote-context-collapse（2026-06-14 無名小卒 為 entry 起點，8 instance 聚類） | REWRITE §Stage 2.5 source-fidelity gate (v7.6) | structural | 8   |
 
 ### 🧬 2026-06-14 twmd-distill-weekly — 第 9 次 distill（routine 觸發；REFLEXES #69 + #70 + #59 instance 補強 + MEMORY §神經迴路 snapshot.sh chronic stale 升 canonical）
 
