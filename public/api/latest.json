@@ -1,8 +1,17 @@
 {
-  "_generated": "2026-06-16T15:09:36.908Z",
+  "_generated": "2026-06-16T22:11:29.225Z",
   "perLang": 30,
   "byLang": {
     "zh-TW": [
+      {
+        "title": "島嶼的最後歌聲：龍年都救不動的 0.695",
+        "desc": "2024 是龍年，台灣人理應搶生求吉利，這一年卻比前一年還少了 715 個嬰兒，48 年來第一次龍年的魔法失效。隔年生育率崩到 0.695。但真正的密碼從來不是台灣人不生（婚後逾七成生兩胎以上），而是不婚；政府卻對著「不敢生」發了十年的錢，全世界也沒有一個國家把生育率買回來過。",
+        "category": "society",
+        "href": "/society/%E5%8F%B0%E7%81%A3%E5%B0%91%E5%AD%90%E5%8C%96%E5%8D%B1%E6%A9%9F",
+        "date": "2026-06-17T00:53:41+08:00",
+        "readingTime": null,
+        "image": ""
+      },
       {
         "title": "紙風車劇團：吹動台灣夢想的唐吉訶德，一場跨越三十年的藝術長征",
         "desc": "從 1992 年的劇場狂想，到走遍 368 鄉鎮的「新文化運動」，紙風車劇團以「有風就動，沒風自己動」的精神，為台灣孩子點亮藝術的第一哩路。歷經八里大火與疫情重創，創辦人李永豐帶領團隊在憂鬱與債務中浴火重生，用巨大的《雨馬》與在地故事，編織出屬於這座島嶼的集體記憶。",
@@ -263,15 +272,6 @@
         "date": "2026-06-13T17:29:18+08:00",
         "readingTime": null,
         "image": "/article-images/technology/hsinchu-science-park-main-gate-2025.webp"
-      },
-      {
-        "title": "沈伯洋：他研究中國認知戰，後來中國把他畫在衛星圖上",
-        "desc": "二〇二一年沈伯洋與戰略學者何澄輝共同創辦黑熊學院，曹興誠捐六億支持，目標三年訓練三百萬民防志士。二〇二四年二月以民進黨不分區立委身份入國會。二〇二五年十月二十八日，他成為首位被中國以「分裂國家罪」立案偵查的台灣民選政治人物，央視配上「起底」專題警告「下一個就是你」。二〇二六年元旦中國微博帳號用商用衛星公布他在台北的住家與工作地座標；情人節他在飛往法國的飛機上度過。",
-        "category": "people",
-        "href": "/people/%E6%B2%88%E4%BC%AF%E6%B4%8B",
-        "date": "2026-06-13T17:29:18+08:00",
-        "readingTime": 17,
-        "image": ""
       }
     ],
     "en": [
@@ -339,8 +339,8 @@
         "image": "/article-images/society/diane-ying-magsaysay.webp"
       },
       {
-        "title": "The Reporter: Ten Years of Rescuing Investigative Journalism from a Commercial Line Item into a Public Good",
-        "desc": "On September 1, 2015 — Journalists' Day in Taiwan — Ho Jung-hung and Chang Tieh-chih announced the founding of The Reporter (報導者) at a press conference, with an initial NT$5 million donation from ASUS co-founder Tung Tzu-hsien. Ten years on, this nonprofit media outlet that refuses advertising, government contracts, and internal traffic metrics has grown its annual fundraising from NT$34 million to NT$52 million, earned back-to-back SOPA and Excellence in Journalism Awards, and turned investigative journalism from a commercial media line item into a public good sustained by monthly donations from strangers.",
+        "title": "The Reporter: Ten Years of Turning Investigative Journalism from a Line of Business into a Public Good",
+        "desc": "From 4 recurring donors to 8,000 each month, from the Blood-Stained Fishing Grounds trilogy to the 2026 united-front special report, the costs The Reporter has burned through over a decade--eight months undercover, reporting across three countries, comparing years of violation records--are exactly the things people least want to pay to read in the algorithmic age. Taiwan's civil society, through monthly deductions from strangers' accounts, has rescued investigative journalism from a line of business in commercial media and turned it into a public good that is constantly being sustained, even as it burns through resources ever faster.",
         "category": "society",
         "href": "/en/society/the-reporter-investigative-journalism",
         "date": "2026-06-10T12:21:10+08:00",

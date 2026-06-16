@@ -1,24 +1,24 @@
 {
-  "totalArticles": 4806,
+  "totalArticles": 4836,
   "totalCategories": 20,
   "estimatedContributors": 61,
-  "totalTags": 6130,
+  "totalTags": 6077,
   "categories": [
     {
       "name": "es",
-      "count": 799
+      "count": 805
     },
     {
       "name": "ko",
-      "count": 800
+      "count": 806
     },
     {
       "name": "fr",
-      "count": 800
+      "count": 806
     },
     {
       "name": "ja",
-      "count": 799
+      "count": 805
     },
     {
       "name": "History",
@@ -34,7 +34,7 @@
     },
     {
       "name": "en",
-      "count": 803
+      "count": 809
     },
     {
       "name": "Culture",
@@ -135,10 +135,6 @@
       "count": 23
     },
     {
-      "name": "高雄",
-      "count": 23
-    },
-    {
       "name": "音樂",
       "count": 23
     },
@@ -165,16 +161,20 @@
     {
       "name": "半導體",
       "count": 22
+    },
+    {
+      "name": "高雄",
+      "count": 22
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4806,
+    "zh-TW": 4836,
     "en": 0
   },
-  "lastUpdated": "2026-06-16T15:09:26.029Z",
+  "lastUpdated": "2026-06-16T22:11:17.732Z",
   "stars": 1053,
-  "forks": 151,
+  "forks": 152,
   "zhPages": 803,
-  "enPages": 803,
+  "enPages": 809,
   "totalPages": 803
 }

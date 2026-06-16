@@ -1,8 +1,8 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-06-16T15:09:26Z",
+  "timestamp": "2026-06-16T22:11:18Z",
   "total": 805,
-  "flagged": 323,
+  "flagged": 322,
   "files": [
     {
       "file": "music/拍謝少年.md",
@@ -443,11 +443,6 @@
       "file": "society/為台灣而教TFT.md",
       "score": 4,
       "reasons": "塑膠句3個; 破折號15個"
-    },
-    {
-      "file": "society/台灣少子化危機.md",
-      "score": 16,
-      "reasons": "年份僅1個; 空洞詞6個; 未人工審核; 連續bullet4行; 塑膠句2個; 破折號6個; 套路結尾; 後段清單堆砌53%; 稀薄段落×4; 品質衰退前13%後7%; 無腳註"
     },
     {
       "file": "society/台灣與核能的討論.md",

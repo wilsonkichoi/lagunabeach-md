@@ -1,7 +1,61 @@
 {
-  "generatedAt": "2026-06-16T15:09:24.981Z",
+  "generatedAt": "2026-06-16T22:11:16.632Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "1f35bd35b96d3cc527f0d5b75e5fecb57e79ae93",
+      "date": "2026-06-17T05:20:03+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-17-051913-twmd-embeddings-nightly — bge-m3 全站 rebuild 4690 向量 6 語 0 fail + verify PASS"
+    },
+    {
+      "hash": "d474c977e64660f60ec2637df3d2d22c12d12bbe",
+      "date": "2026-06-17T05:18:54+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] embeddings: nightly bge-m3 rebuild — 2026-06-17 05:18"
+    },
+    {
+      "hash": "724a3fba654972c6cab7a92a20f42977962d2ef0",
+      "date": "2026-06-17T02:52:59+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-17-005029-twmd-babel-nightly — 五語 100% sync 首達 + Tier 5 Sonnet rescue + tool fix"
+    },
+    {
+      "hash": "252df15546348d54511589c6b43f3a695afd21fb",
+      "date": "2026-06-17T02:50:01+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: stale=0 across 5 langs — 45 Tier-5 Sonnet retranslations + 4 wikilink heal + diff-patch tool fix"
+    },
+    {
+      "hash": "740160f9b6dfff39489897e1217547f1ab7e0cad",
+      "date": "2026-06-17T01:21:28+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: 591 translations shipped — P0 cascade (30) + Tier 0a patches (614) + 0b bumps (60) — 2026-06-17"
+    },
+    {
+      "hash": "4cb04e561880be5ab91741bee844c64616968c0d",
+      "date": "2026-06-17T00:55:49+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: ARTICLE-INBOX 少子化 EVOLVE prose-shipped — 剩 re-babel(en 最優先) + 圖 + 人工審閱"
+    },
+    {
+      "hash": "80abaab103e3c64f12e6fcd7f34634e59fa1185c",
+      "date": "2026-06-17T00:53:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 台灣少子化危機 EVOLVE — 連龍年都救不動的 0.695"
+    },
+    {
+      "hash": "affdcfc6bf813d4275ebc856a33d054d67ce5089",
+      "date": "2026-06-16T23:11:46+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-16-231014-twmd-data-refresh-pm — 14-step ALL PASS + Step 11 11/11 fresh + 三源全綠"
+    },
+    {
+      "hash": "a4a289e930cf3b13727006e6f299aa64266b05a7",
+      "date": "2026-06-16T23:10:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] refresh: pm 14-step data refresh — 三源全綠 + Step 11 11/11 fresh + immune 54 carry"
+    },
     {
       "hash": "f754412589634c912a3b2b91d2b6ea518f0af98c",
       "date": "2026-06-16T22:10:29+08:00",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T15:09:34.750Z",
+  "lastUpdated": "2026-06-16T22:11:26.711Z",
   "organs": [
     {
       "id": "heart",
@@ -10,8 +10,8 @@
       "score": 90,
       "trend": "up",
       "metrics": {
-        "articlesLast7Days": 54,
-        "articlesLast30Days": 185,
+        "articlesLast7Days": 55,
+        "articlesLast30Days": 186,
         "totalArticles": 803
       }
     },
@@ -114,11 +114,11 @@
       "metrics": {
         "languageCoverage": {
           "zh-TW": 803,
-          "en": 801,
-          "ja": 797,
-          "ko": 798,
-          "es": 797,
-          "fr": 798
+          "en": 807,
+          "ja": 803,
+          "ko": 804,
+          "es": 803,
+          "fr": 804
         },
         "translationPct": 93,
         "langHealthDetails": {
@@ -137,7 +137,7 @@
               "pct": 100
             },
             "articles": {
-              "count": 801,
+              "count": 807,
               "pct": 100
             },
             "score": 100
@@ -157,8 +157,8 @@
               "pct": 0
             },
             "articles": {
-              "count": 797,
-              "pct": 99
+              "count": 803,
+              "pct": 100
             },
             "score": 80
           },
@@ -177,8 +177,8 @@
               "pct": 100
             },
             "articles": {
-              "count": 798,
-              "pct": 99
+              "count": 804,
+              "pct": 100
             },
             "score": 100
           },
@@ -197,8 +197,8 @@
               "pct": 100
             },
             "articles": {
-              "count": 797,
-              "pct": 99
+              "count": 803,
+              "pct": 100
             },
             "score": 100
           },
@@ -217,8 +217,8 @@
               "pct": 25
             },
             "articles": {
-              "count": 798,
-              "pct": 99
+              "count": 804,
+              "pct": 100
             },
             "score": 85
           }

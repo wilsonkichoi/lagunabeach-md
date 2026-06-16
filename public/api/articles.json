@@ -87,9 +87,9 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/society/commonwealth-magazine",
-    "readingTime": 185,
+    "readingTime": 187,
     "featured": true,
-    "date": "2026-06-04",
+    "date": "2026-06-13",
     "path": "es/Society/commonwealth-magazine.md"
   },
   {
@@ -102,6 +102,24 @@
     "featured": true,
     "date": "2026-04-12",
     "path": "fr/History/formosa-historical-name.md"
+  },
+  {
+    "title": "'더 리포터': 탐사보도를 영업 항목에서 공공재로 구해낸 10년",
+    "description": "정기 정액 기부자 4명에서 매월 8,000명으로, 《피눈물 어장》 3부작에서 2026년 통일전선 특집까지, 《더 리포터》가 10년 동안 태워 넣은 비용, 곧 8개월 잠입, 3개국을 넘나든 취재, 여러 해의 위반 기록 대조는 알고리즘 시대에 사람들이 가장 돈을 내고 보려 하지 않는 것들이다. 이 섬의 시민사회는 낯선 이들이 매달 자동이체하는 방식으로, 탐사보도를 상업 미디어의 영업 항목에서 계속 길러야 하지만 점점 더 빨리 타들어 가는 공공재로 구해냈다.",
+    "category": "ko",
+    "tags": [
+      "미디어",
+      "탐사보도",
+      "비영리",
+      "언론자유",
+      "시민사회",
+      "허룽싱"
+    ],
+    "url": "https://taiwan.md/ko/society/the-reporter-investigative-journalism",
+    "readingTime": 100,
+    "featured": true,
+    "date": "2026-04-29",
+    "path": "ko/Society/the-reporter-investigative-journalism.md"
   },
   {
     "title": "'린슈하오: 15일 만에 두 차례 방출에서 TPBL 더블 MVP로 은퇴하기까지의 농구 인생'",
@@ -162,6 +180,17 @@
     "featured": true,
     "date": "2026-04-27",
     "path": "ko/Music/sorry-youth-band.md"
+  },
+  {
+    "title": "'소우렴: 유영전의 후광 뒤에서 수성을 맡은 인물, 그리고 타이베이 성도(省會)의 실제 정착'",
+    "description": "그는 역사 속에서 '신정(新政)을 끝낸' 죄인으로 기록되어야 하는가, 아니면 청대 타이완에서 가장 실무적인 재정의 문지기였는가? 유영전이 대규모 토목사업을 벌인 뒤를 이어, 소우렴은 극도로 궁핍한 재정 속에서 타이베이에서 신주까지의 철도를 완성하고 타이완의 성도(省會)를 공식적으로 타이베이에 정착시켰다. 또한 후대에 풀기 어려운 논쟁 하나를 남겼다. 수성이란 과연 퇴보인가, 아니면 현실에 더 가까운 또 다른 형태의 통치인가.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/people/shao-you-lian",
+    "readingTime": 20,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "ko/People/shao-you-lian.md"
   },
   {
     "title": "'신생태 예술환경: 1992년 융푸루의 400핑 노옥, 지원 구조보다 앞서 달린 7년'",
@@ -236,24 +265,6 @@
     "featured": true,
     "date": "2026-03-17",
     "path": "ko/People/ang-lee.md"
-  },
-  {
-    "title": "'조사 보도를 영업 항목에서 공공재로 구해낸 10년'",
-    "description": "'2015년 9월 1일 기자절, 허룽싱과 장티에즈가 기자회견을 열어 통즈셴의 초기 기부금 500만 위안으로 설립된 《보도자(報導者)》를 발표했다. 10년 후, 광고를 거부하고 정부 입찰을 받지 않으며 조회수를 표시하지 않는 이 비영리 미디어의 연간 모금액은 3,400만 위안에서 5,200만 위안으로 증가했으며, 수년 연속 SOPA와 탁월 뉴스상을 수상했다. 그들이 해낸 일은 조사 보도를 상업 미디어의 영업 항목에서, 낯선 독자들의 월정액 결제로 유지되는 공공재로 구해낸 것이다.'",
-    "category": "ko",
-    "tags": [
-      "미디어",
-      "조사 보도",
-      "비영리",
-      "언론 자유",
-      "시민사회",
-      "허룽싱"
-    ],
-    "url": "https://taiwan.md/ko/society/the-reporter-investigative-journalism",
-    "readingTime": 51,
-    "featured": true,
-    "date": "2026-04-29",
-    "path": "ko/Society/the-reporter-investigative-journalism.md"
   },
   {
     "title": "'쩡보언: 웃음의 지점은 계산했지만, 사회는 계산하지 못했다'",
@@ -469,7 +480,7 @@
     "url": "https://taiwan.md/ja/society/commonwealth-magazine",
     "readingTime": 77,
     "featured": true,
-    "date": "2026-06-04",
+    "date": "2026-06-13",
     "path": "ja/Society/commonwealth-magazine.md"
   },
   {
@@ -482,6 +493,24 @@
     "featured": true,
     "date": "2026-05-23",
     "path": "ja/Art/taiwan-travelogue.md"
+  },
+  {
+    "title": "『報導者』：調査報道を営業品目から公共財へ救い出した十年",
+    "description": "4人の定期定額寄付者から毎月8,000人へ、『血涙の漁場』三部作から2026年の統一戦線工作特集まで、『報導者』が十年で投じてきたコスト――8か月の潜入、三か国にまたがる取材、長年の違反記録の照合――は、まさにアルゴリズム時代に最も誰もお金を払って読みたがらないものです。この島の市民社会は、見知らぬ人々が毎月引き落としで支える方式によって、調査報道を商業メディアの営業品目から、育て続けられながらも燃焼速度を増す公共財へと救い出しました。",
+    "category": "ja",
+    "tags": [
+      "メディア",
+      "調査報道",
+      "非営利",
+      "報道の自由",
+      "市民社会",
+      "何栄幸"
+    ],
+    "url": "https://taiwan.md/ja/society/the-reporter-investigative-journalism",
+    "readingTime": 88,
+    "featured": true,
+    "date": "2026-04-29",
+    "path": "ja/Society/the-reporter-investigative-journalism.md"
   },
   {
     "title": "140년을 살아온 신문, 그리고 압수당하던 날: 타이완 교회공보",
@@ -853,6 +882,23 @@
     "featured": false,
     "date": "2026-03-17",
     "path": "Society/人權與性別平等.md"
+  },
+  {
+    "title": "八仙粉塵爆発：あの夜、カラー・パーティーが焼きつけた台湾の傷痕",
+    "description": "2015 年 6 月 27 日、八仙楽園のカラー・パーティーで粉塵のフラッシュ燃焼による粉塵爆発事故が発生し、国際社会に衝撃を与えました。この事故は台湾史上、921 大地震以後で最も深刻な集団死傷事件となり、499 人が熱傷を負い、15 人が死亡しました。台湾の救急医療体制を根本から変え、大規模イベントの安全法規の改革も促しました。",
+    "category": "ja",
+    "tags": [
+      "八仙粉塵爆発",
+      "公共安全事故",
+      "医療の奇跡",
+      "法的責任",
+      "台湾史"
+    ],
+    "url": "https://taiwan.md/ja/history/eight-immortals-dust-explosion",
+    "readingTime": 23,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "ja/History/eight-immortals-dust-explosion.md"
   },
   {
     "title": "八仙塵爆：那一夜，彩色派對燒出的台灣傷痕",
@@ -1240,17 +1286,6 @@
     "path": "ja/Geography/dalongdong.md"
   },
   {
-    "title": "小虎隊",
-    "description": "1988年に華視（CTS）のオーディション番組から誕生した小虎隊は、吳奇隆、陳志朋、蘇有朋の3人で構成され、陽光で活力あるイメージとアップテンポなダンス曲により、台湾初の男性アイドルグループとして華々しくデビューしました。華語ポップミュージックにおける青春アイドルの時代を切り開き、台湾・香港・中国の3地域に共通する青春の記憶となりました。",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/music/little-tigers-taiwan-boy-band",
-    "readingTime": 12,
-    "featured": false,
-    "date": "2026-03-24T23:00:00Z",
-    "path": "ja/Music/little-tigers-taiwan-boy-band.md"
-  },
-  {
     "title": "小虎隊：買來的旋律，填上自己的青春",
     "description": "1988 年華視一個選秀節目要找三個男生陪小貓隊唱跳，結果挑出一組翻唱日本歌、模仿日本少年隊的偶像團體。從五天賣二十萬張，到一路被粉絲從台北追到高雄，再到 1991 年開過海峽。零件幾乎全是進口的，台灣卻把它記成最堅固的一代青春，而最紅的三個身體後來都過了海峽。",
     "category": "Music",
@@ -1266,6 +1301,17 @@
     "featured": false,
     "date": "2026-03-24",
     "path": "Music/小虎隊.md"
+  },
+  {
+    "title": "小虎隊：買ってきた旋律に、自分たちの青春を書き込む",
+    "description": "1988年、華視のオーディション番組が小貓隊の相手役として男性メンバー3人を探した結果、日本の少年隊を模倣し日本の楽曲をカバーするアイドルグループが選び出された。5日で20万枚を売り、ファンが台北から高雄まで追いかけ回し、1991年には海峡を越えた。部品はほぼすべて輸入品だったのに、台湾はそれを一世代でもっとも堅固な青春として記憶した。そしてもっとも有名だった3つの身体は、のちにすべて海峡を越えた。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/music/little-tigers-taiwan-boy-band",
+    "readingTime": 57,
+    "featured": false,
+    "date": "2026-03-24",
+    "path": "ja/Music/little-tigers-taiwan-boy-band.md"
   },
   {
     "title": "小綠人：從交通號誌到國家符號的25年傳奇",
@@ -2600,15 +2646,7 @@
     "title": "台湾人工知能学校：未完の電話と1万人のAIエンジニア",
     "description": "2020年3月27日、陳昇瑋は天下雑誌の編集長に慎重に電話をかけました。彼は無料の全民向けプログラミング講座を開きたいと考えていました。2日後、彼はインラインスケートで転倒し、13日後に亡くなりました。44歳でした。彼が亡くなった時、自ら2018年に創設した台湾人工知能学校（AIA）はすでに6,000人超を訓練していました。同時期、国家発展委員会の「AI小国大戦略」は5年で160億を掲げましたが、彼は台塑、奇美、英業達など6社から民間資金1.8億を集め、自ら学校を開きました。8年後、卒業生は1万人を超えました。AIAは台湾の産業高度化において、最も台湾らしくないピースです。",
     "category": "ja",
-    "tags": [
-      "人工知能",
-      "教育",
-      "陳昇瑋",
-      "AIA",
-      "台湾テック産業",
-      "中央研究院",
-      "AI政策"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ja/technology/taiwan-ai-academy",
     "readingTime": 62,
     "featured": true,
@@ -3261,12 +3299,12 @@
     "path": "ja/Art/taiwanese-architecture-multicultural-layers.md"
   },
   {
-    "title": "台湾映画：小さな島が世界の映画言語をどう変えたか",
-    "description": "年間20本以下の映画しか制作しない台湾が、いかにして3人の世界的監督を育て、ハリウッドを凌ぐ深遠な芸術的影響を生み出したのか？",
+    "title": "台湾映画：スクリーンの横で語った人と、死んでは生き返った映画史",
+    "description": "1930 年の映画館では、弁士がスクリーンの横に立ち、台湾語でサイレント映画に即興の語りを添えていました。九十年後、『海角七号』は五つの言語を同時にスクリーンへ呼び戻しました。台湾語映画はかつて世界第三位の劇映画生産地でありながら締めつけられ、ニューシネマがヴェネチアで金獅子賞を獲得していた時期、映画館での台湾映画の興行シェアはわずか 0.36% まで落ち込みました。台湾映画は、悪いものから良いものへ一直線に進んだ歴史ではありません。何度も死を宣告され、そのたびに生き返ってきた歴史です。",
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/art/taiwanese-cinema",
-    "readingTime": 29,
+    "readingTime": 103,
     "featured": true,
     "date": "2026-03-23",
     "path": "ja/Art/taiwanese-cinema.md"
@@ -4011,7 +4049,7 @@
       "社会的影響"
     ],
     "url": "https://taiwan.md/ja/culture/taiwan-youtuber-industry",
-    "readingTime": 18,
+    "readingTime": 19,
     "featured": false,
     "date": "2026-03-23",
     "path": "ja/Culture/taiwan-youtuber-industry.md"
@@ -4283,6 +4321,17 @@
     "featured": false,
     "date": "2026-04-25",
     "path": "ja/Society/taiwan-zoos.md"
+  },
+  {
+    "title": "台湾ネットコミュニティ三十年——URLは戻せても、写真は戻せない失土の歴史",
+    "description": "美麗之島 BBS から Threads まで、台湾人は数年ごとに集団で引っ越しを繰り返し、そのたびに前世代の記憶を切られた電源スイッチの向こう側に置き去りにしてきた。三十年の移住史はプラットフォーム進化の一本線に見えるが、その骨格は「土地は誰のものか」という失土の歴史である——粘着度が最も高い場所が、データ主権の最も低い場所だった。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/technology/taiwan-online-community-migration",
+    "readingTime": 77,
+    "featured": true,
+    "date": "2026-03-29",
+    "path": "ja/Technology/taiwan-online-community-migration.md"
   },
   {
     "title": "台湾の人工知能発展と未来戦略：ハードウェアの入場券は手に入れた、次の戦いはどこにあるのか",
@@ -5820,17 +5869,6 @@
     "featured": false,
     "date": "2026-04-08",
     "path": "ja/Technology/taiwan-drone-industry.md"
-  },
-  {
-    "title": "台湾のネットコミュニティ30年——BBSからThreadsへの移住史",
-    "description": "台湾人は5年ごとに集団で引っ越しをし、そのたびに前の世代の記憶を失っていく",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/technology/taiwan-online-community-migration",
-    "readingTime": 29,
-    "featured": false,
-    "date": "2026-03-29",
-    "path": "ja/Technology/taiwan-online-community-migration.md"
   },
   {
     "title": "台湾のバイク文化",
@@ -11393,17 +11431,6 @@
     "path": "ja/People/annette-lu.md"
   },
   {
-    "title": "呂冠緯",
-    "description": "台大医学部を卒業し、医師の道を捨てて教育の道を選んだ均一教育プラットフォームの董事長兼CEO。AI適性学習を通じて台湾の528万人の子どもたちが自分のペースで学べるようにし、「教育の機会均等」をスローガンから日常に変えた人物です。",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/people/lu-guan-wei-junyiacademy-founder",
-    "readingTime": 10,
-    "featured": false,
-    "date": "2026-04-05",
-    "path": "ja/People/lu-guan-wei-junyiacademy-founder.md"
-  },
-  {
     "title": "呂冠緯：考過醫師執照卻沒披上白袍，他賭一件比救人更難證明的事",
     "description": "他考過醫師執照卻沒披上白袍，接下方新舟的均一教育平台，要用線上自學抹平台灣的教育落差。但全球研究幾乎一面倒：這種工具最幫得到本來就不缺的孩子。十二年過去，他賭的事至今沒有獨立證據能證明成了，而他面對「無法證明」的方式，比他放棄了什麼更值得記得。",
     "category": "People",
@@ -11413,6 +11440,17 @@
     "featured": false,
     "date": "2026-04-05",
     "path": "People/呂冠緯.md"
+  },
+  {
+    "title": "呂冠緯：医師免許を取りながら白衣を着なかった彼が、人を救うより証明が難しい一事に賭けた",
+    "description": "彼は医師免許を取りながら白衣を着なかった。方新舟が立ち上げた均一教育プラットフォームを引き継ぎ、オンライン自学で台湾の教育格差を埋めようとした。だが世界の研究はほぼ一方向を指す。この種のツールが最も役立つのは、もともと不足していない子どもたちだ、と。十二年が経ったいまも、彼が賭けた事の成立を証明する独立の証拠はない。「証明できない」と向き合う彼のやり方こそ、彼が何を手放したかよりも記憶に値する。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/people/lu-guan-wei-junyiacademy-founder",
+    "readingTime": 79,
+    "featured": false,
+    "date": "2026-04-05",
+    "path": "ja/People/lu-guan-wei-junyiacademy-founder.md"
   },
   {
     "title": "呉百福（安藤百福）：嘉義朴子から世界の食卓へ、台湾の遺産と日本の包装が生んだグローバルな伝説",
@@ -13072,7 +13110,7 @@
     "url": "https://taiwan.md/ja/people/lin-chi-er-astronaut",
     "readingTime": 67,
     "featured": false,
-    "date": "2026-04-24",
+    "date": "2026-04-28",
     "path": "ja/People/lin-chi-er-astronaut.md"
   },
   {
@@ -13513,6 +13551,17 @@
     "featured": false,
     "date": "2026-06-16",
     "path": "People/邵友濂.md"
+  },
+  {
+    "title": "邵友濂：劉銘伝の光の後にいた守成者と、台北省会を真に定着させた人物",
+    "description": "彼は歴史に「新政を終わらせた」罪人として記されるべき人物なのでしょうか。それとも、清代台湾で最も現実的な財政の番人だったのでしょうか。劉銘伝の大規模建設の後を受け、邵友濂は極度に逼迫した財政のなかで台北から新竹までの鉄道を完成させ、台湾の省会を正式に台北へ定着させました。そして後世に、守成とは退歩なのか、それとも現実により即した別種の統治なのかという、解きにくい問いを残しました。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/people/shao-you-lian",
+    "readingTime": 17,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "ja/People/shao-you-lian.md"
   },
   {
     "title": "金牛角：飛行機での偶然の出会いと漢餅の魂を宿した台湾式クロワッサン",
@@ -14734,6 +14783,17 @@
     "path": "Art/首映創意.md"
   },
   {
+    "title": "首映創意：郭台強のアニメーションの夢から台南の路地に生まれた『八戒』まで",
+    "description": "かつて郭台強が投資した「首映創意」は、台湾オリジナル・アニメーションの曙光を開きましたが、市場の現実のなかで方向転換を余儀なくされました。これと共生してきた studio2 は台南で二十年にわたり歩み続け、最終的に『八戒』で金馬賞を獲得し、台湾アニメーションが下請け制作からオリジナルへ至る血涙の歴史を刻みました。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/art/first-image-creative",
+    "readingTime": 16,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "ja/Art/first-image-creative.md"
+  },
+  {
     "title": "原住民文学",
     "description": "「無文字の歌声」から書かれた創作へ——千年にわたる文学の進化史",
     "category": "ja",
@@ -14896,18 +14956,20 @@
     "path": "Nature/台灣國家公園.md"
   },
   {
-    "title": "島嶼的最後歌聲：台灣少子化危機深度觀察",
-    "description": "當全世界最不想生孩子的地方，同時也是最愛孩子的地方——台灣0.87的生育率數字背後，是整個社會結構的系統性崩解",
+    "title": "島嶼的最後歌聲：龍年都救不動的 0.695",
+    "description": "2024 是龍年，台灣人理應搶生求吉利，這一年卻比前一年還少了 715 個嬰兒，48 年來第一次龍年的魔法失效。隔年生育率崩到 0.695。但真正的密碼從來不是台灣人不生（婚後逾七成生兩胎以上），而是不婚；政府卻對著「不敢生」發了十年的錢，全世界也沒有一個國家把生育率買回來過。",
     "category": "Society",
     "tags": [
       "少子化",
-      "人口危機",
+      "人口",
       "生育率",
-      "社會變遷",
+      "不婚",
+      "高齡化",
+      "人口政策",
       "世代"
     ],
     "url": "https://taiwan.md/society/%E5%8F%B0%E7%81%A3%E5%B0%91%E5%AD%90%E5%8C%96%E5%8D%B1%E6%A9%9F",
-    "readingTime": 19,
+    "readingTime": 59,
     "featured": false,
     "date": "2026-03-24",
     "path": "Society/台灣少子化危機.md"
@@ -14930,18 +14992,20 @@
     "path": "ja/Nature/island-summits-and-seas-taiwan-national-parks-ecology-and-landscapes.md"
   },
   {
-    "title": "島の最後の歌声：台湾少子化危機の深度観察",
-    "description": "世界で最も子供を産みたくない場所であり、同時に最も子供を愛する場所でもある——台湾の0.87という出生率の数字の背後には、社会構造全体のシステム的崩壊がある",
+    "title": "島の最後の歌声：辰年でも救えなかった0.695",
+    "description": "2024年は辰年であり、台湾では縁起を担いで出産が増えるはずでした。しかし、この年の新生児は前年より715人少なく、48年ぶりに辰年の魔法が効きませんでした。翌年、出生率は0.695まで崩落しました。けれども本当の鍵は、台湾の人々が子どもを産まないことではありません（結婚後は7割超が2人以上を産んでいます）。問題は未婚です。それにもかかわらず、政府は「産む勇気がない」人に向けて10年間お金を配り続けました。世界を見ても、出生率をお金で買い戻した国は一つもありません。",
     "category": "ja",
     "tags": [
       "少子化",
-      "人口危機",
-      "生育率",
-      "社會變遷",
+      "人口",
+      "出生率",
+      "未婚",
+      "高齢化",
+      "人口政策",
       "世代"
     ],
     "url": "https://taiwan.md/ja/society/taiwan-low-birth-rate-crisis",
-    "readingTime": 27,
+    "readingTime": 82,
     "featured": false,
     "date": "2026-03-24",
     "path": "ja/Society/taiwan-low-birth-rate-crisis.md"
@@ -15279,6 +15343,17 @@
     "path": "Culture/神豬.md"
   },
   {
+    "title": "紙風車劇団：台湾の夢を吹き動かすドン・キホーテ、三十年を越える芸術の長征",
+    "description": "1992 年の劇場的な夢想から、368 郷鎮を巡る「新文化運動」まで、紙風車劇団は「風があれば動き、風がなければ自ら動く」という精神で、台湾の子どもたちに芸術への第一歩を照らしてきました。八里の大火と感染症流行による打撃を経て、創設者の李永豊がチームを率い、憂鬱と債務の中から再生を果たし、巨大な《雨馬》と地域の物語によって、この島に属する集合的記憶を編み上げています。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/art/paper-windmill-theater",
+    "readingTime": 33,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "ja/Art/paper-windmill-theater.md"
+  },
+  {
     "title": "紙風車劇團：吹動台灣夢想的唐吉訶德，一場跨越三十年的藝術長征",
     "description": "從 1992 年的劇場狂想，到走遍 368 鄉鎮的「新文化運動」，紙風車劇團以「有風就動，沒風自己動」的精神，為台灣孩子點亮藝術的第一哩路。歷經八里大火與疫情重創，創辦人李永豐帶領團隊在憂鬱與債務中浴火重生，用巨大的《雨馬》與在地故事，編織出屬於這座島嶼的集體記憶。",
     "category": "Art",
@@ -15442,18 +15517,19 @@
     "path": "Technology/迷音Miin.md"
   },
   {
-    "title": "迷音（Miin）",
-    "description": "PTTの創設者である杜奕瑾（zh only — convert to plain text + Chinese parenthesis）が開発したAIニュース集約プラットフォームで、アルゴリズムを用いて偽情報と協調操作アカウントを検出する。ペロシ下院議長の台湾訪問期間中、Miinのデータはツイッター上の関連アカウントの4つに1つが認知操作に関与していることを示した。しかし2025年、プラットフォームはAIクローラーによるニュースの収集で著作権侵害の疑いを指摘され、AI集約とニュースの著作権との間の灰色領域が浮き彫りになった。",
+    "title": "迷音 Miin：同じ「情報は自由であるべき」という一言が、杜奕瑾に PTT を作らせ、著作権訴訟へも向かわせました",
+    "description": "1995 年、彼は「情報は自由であるべき」という信念で台大の学生寮に PTT を立ち上げ、2017 年に台湾へ戻ると認知作戦の協調アカウントを検出する AI を作り、さらに偽情報対策のために他社のニュースを集約して提訴されました。同じ信念は彼の武器であり、訴訟の理由にもなりました。そして台湾は、世界がまだ解けていないこの問いの最前線に立っています。",
     "category": "ja",
     "tags": [
       "AI",
       "偽情報",
-      "デジタルレジリエンス",
+      "認知作戦",
+      "デジタル・レジリエンス",
       "杜奕瑾",
-      "認知戦"
+      "著作権"
     ],
     "url": "https://taiwan.md/ja/technology/miin-music-app",
-    "readingTime": 12,
+    "readingTime": 57,
     "featured": false,
     "date": "2026-04-01",
     "path": "ja/Technology/miin-music-app.md"
@@ -15615,23 +15691,7 @@
     "title": "高雄市：1979年に直轄市へ昇格したその年、台北の監獄には八人の高雄人が収監されていました",
     "description": "1979年7月1日、高雄は台湾で二番目の直轄市へ昇格しました。12月10日の世界人権デー、美麗島雑誌社が大港埔ロータリーで行った演説は、催涙ガス下の衝突へと変わりました。八人が有罪判決を受け、1980年2月28日には林義雄の台北市信義路の自宅で血の惨事が伝えられました。同じ1979年に、高雄は行政上の栄誉を得ると同時に、戦後台湾で最も重い政治的弾圧をのみ込みました。271万人が38区に散らばり、旗津の砂州、那瑪夏のブヌン族集落、中鋼の煙突、衛武営のアルミ合金屋根が一つの市の中で共存しています。この都市は45年をかけて、傷口を自らの形へと縫い合わせてきました。",
     "category": "ja",
-    "tags": [
-      "高雄",
-      "高雄市",
-      "南部",
-      "直轄市",
-      "高雄港",
-      "美麗島事件",
-      "愛河",
-      "中鋼",
-      "衛武営",
-      "六合夜市",
-      "光のドーム",
-      "美濃",
-      "那瑪夏",
-      "八八水害",
-      "22県市シリーズ"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ja/geography/kaohsiung-city",
     "readingTime": 89,
     "featured": false,
@@ -16805,6 +16865,17 @@
     "path": "Art/造山者世紀的賭注.md"
   },
   {
+    "title": "造山者：世紀の賭け — タイトルから一文字を削り取らねば口にできなかった台湾半導体叙事詩",
+    "description": "2025 年 6 月 13 日に公開されたドキュメンタリー『造山者（A Chip Odyssey）』は、台湾半導体の取り替えのきかない叙事詩を語る。だが当初のタイトルは『シリコン・シールド（矽盾）』だった。蕭菊貞は五年をかけ 80 人以上を取材し、この産業の「憂患の中に生まれた」姿を撮ろうとしたが、タイトルからは最も鋭い一文字を削り落とすことになった——この島は自らの最強の切り札を誇るときでさえ、対岸がどう聞くかをまず推し量らねばならない。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/art/mountain-makers-tsmc-documentary",
+    "readingTime": 79,
+    "featured": true,
+    "date": "2026-06-16",
+    "path": "ja/Art/mountain-makers-tsmc-documentary.md"
+  },
+  {
     "title": "連江県：台湾から最も遠い県であり、冷戦に最も近い県です",
     "description": "南竿の山頂から眺めると、福州市街はわずか 16 キロ先にあります。台北は 200 キロ先にあり、連江県の県治は共産党軍の側にあります。1617 年、沈有容は東莒山下で倭寇 69 人を生け捕りにし、1956 年に国軍はこの 5 つの島を戦地政務区域に変え、1992 年に金門・馬祖は台湾本島より 5 年遅れて戒厳を解除しました。現在ここには 13,646 人が暮らし、馬祖語の喪失率は 94%、2012 年に全国で唯一可決されたカジノ住民投票はいまなお進展していません。藍眼涙は年間 20 万人の観光客を呼びますが、地元の人びとは灯火管制を記憶しています。28.8 平方キロの一つの県が、台湾の冷戦史を自らの身に圧縮しています。",
     "category": "ja",
@@ -17795,24 +17866,6 @@
     "path": "Society/報導者.md"
   },
   {
-    "title": "報導者（ザ・リポーター）：調査報道を営業項目から公共財へと救い出した10年",
-    "description": "2015年9月1日の記者の日に、何榮幸（ホー・ロンシン）と張鐵志（チャン・ティエジー）は記者会見を開き、童子賢（トン・ズーシエン）の初期寄付500万台湾元で設立された《報導者》の発足を発表しました。10年後、広告を拒否し、政府の入札案件を受けず、アクセス数も表示しないこの非営利メディアは、年間の募金額を3,400万から5,200万台湾元に伸ばし、連続してSOPA賞と卓越新聞賞を受賞しています。彼らが取り組んできたことは、調査報道を商業メディアの「営業項目」から、見知らぬ読者の月々の支払いによって支えられる「公共財」へと救い出すことでした。",
-    "category": "ja",
-    "tags": [
-      "メディア",
-      "調査報道",
-      "非営利",
-      "報道の自由",
-      "市民社会",
-      "何榮幸"
-    ],
-    "url": "https://taiwan.md/ja/society/the-reporter-investigative-journalism",
-    "readingTime": 47,
-    "featured": true,
-    "date": "2026-04-29",
-    "path": "ja/Society/the-reporter-investigative-journalism.md"
-  },
-  {
     "title": "尊：『黄毛豚』から二つのチャンネルで百万登録へ、27歳の清流が背負う孤独の重み",
     "description": "2018年1月、19歳の朱玉恩は台湾で最年少の百万登録YouTuberになりました。8年後、彼は27歳となり、第二チャンネルも百万登録を突破し、初めての家を購入し、恋人はエンジニアの蘿倫です。ファンが贈った『清流』という称号の背後には、兄の汚名を背負い、ファンの期待するキャラクターを背負い、自分自身の孤独を背負う、一つの台湾的な事例があります。",
     "category": "ja",
@@ -17949,6 +18002,24 @@
     "path": "Food/棺材板.md"
   },
   {
+    "title": "棺材板：縁起の悪い名前から台南の和洋折衷の珍味へ",
+    "description": "1940年代末、台南の沙卡里巴に「雞肝板」と呼ばれる軽食が登場し、その独特な形から「棺材板」と冗談めかして呼ばれるようになりました。許六一氏が考案したこの料理は、カリッと揚げたトーストで鶏レバーとクリーム状のルーを包むもので、戦後の物資不足下における栄養補給であっただけでなく、CNNにも取り上げられ、台南の「和洋折衷」食文化を示す国際的な名刺となりました。",
+    "category": "ja",
+    "tags": [
+      "台南の軽食",
+      "棺材板",
+      "許六一",
+      "沙卡里巴",
+      "雞肝板",
+      "CNN報道"
+    ],
+    "url": "https://taiwan.md/ja/food/coffin-bread",
+    "readingTime": 13,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "ja/Food/coffin-bread.md"
+  },
+  {
     "title": "植劇場：一個做筆電的人，如何種下台劇復興的種子",
     "description": "2016年，科技業大老闆童子賢掏出資金，讓王小棣帶著台灣最頂尖的導演們做一件反商業邏輯的事：不拍大片，只帶新人。",
     "category": "Art",
@@ -17994,18 +18065,12 @@
     "path": "ja/Lifestyle/hot-spring-culture.md"
   },
   {
-    "title": "無名小站：学生寮から台湾のネット記憶の守護者へ",
-    "description": "「ガタガタの寄せ集め」から始まった学生プロジェクトが、台湾の一世代にわたる人々に影響を与えたソーシャルプラットフォームへと成長するまでの物語。",
+    "title": "無名小站：拾ってきたパソコン、売り渡された青春、そして誰も弔わなかった消滅",
+    "description": "1999 年、交通大学の学生寮で資工系の六人が、学科で廃棄された機材を寄せ集めて「無名」という BBS を立ち上げた。それは台湾最大のブログへと育ち、台湾第一世代クリエイターの揺りかごとなり、2008 年には Yahoo を抜いて全台第一の Web サイトにまで上り詰めた。そして Yahoo に買収され、2013 年 12 月 26 日の夜、一世代分のアルバムごと削除された。今日、多くの人が Wayback Machine から拾えるのは、開かない空のアルバムだけである。それは「青春」として記憶されているが、その青春は最初から、他人がいつでも電源を切れるサーバーの上に置かれていた。",
     "category": "ja",
-    "tags": [
-      "網路歷史",
-      "社群媒體",
-      "BBS",
-      "部落格",
-      "Yahoo併購"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ja/culture/wretch",
-    "readingTime": 17,
+    "readingTime": 65,
     "featured": false,
     "date": "2026-03-23",
     "path": "ja/Culture/wretch.md"
@@ -19488,7 +19553,7 @@
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/people/yeh-ping-cheng-education-innovator",
-    "readingTime": 8,
+    "readingTime": 9,
     "featured": false,
     "date": "2026-03-20",
     "path": "ja/People/yeh-ping-cheng-education-innovator.md"
@@ -20276,6 +20341,24 @@
     "path": "ja/People/liu-an-ting-teach-for-taiwan.md"
   },
   {
+    "title": "劉銘伝：台湾初の電灯をともし、権力と論争の中を駆け抜けた近代化の先駆者",
+    "description": "塩の密売者の子から台湾初代巡撫へ。劉銘伝は台湾での六年間に鉄道と郵政を推進しただけでなく、台北城内に大清帝国初の電灯をともしました。しかし、その「基隆撤退・滬尾支援」という戦略判断と、性急な理蕃・清賦政策もまた、歴史の流れの中に深い論争と影を残しました。",
+    "category": "ja",
+    "tags": [
+      "劉銘伝",
+      "台湾史",
+      "台北城",
+      "近代化",
+      "清仏戦争",
+      "電力建設"
+    ],
+    "url": "https://taiwan.md/ja/people/liu-mingchuan",
+    "readingTime": 16,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "ja/People/liu-mingchuan.md"
+  },
+  {
     "title": "劉銘傳：點亮台灣第一盞電燈，在權力與爭議中奔跑的現代化先驅",
     "description": "從鹽梟之子到台灣首任巡撫，劉銘傳在台六年不僅推動了鐵路與郵政，更在台北城內點亮大清帝國第一盞電燈。然而，其「撤基援滬」的戰略決策與急躁的理蕃、清賦政策，也在歷史長河中留下了深刻的辯論與陰影。",
     "category": "People",
@@ -20630,7 +20713,7 @@
       "先住民族"
     ],
     "url": "https://taiwan.md/ja/people/tsai-ing-wen",
-    "readingTime": 26,
+    "readingTime": 27,
     "featured": false,
     "date": "2026-03-17",
     "path": "ja/People/tsai-ing-wen.md"
@@ -23341,7 +23424,7 @@
     "url": "https://taiwan.md/en/food/apple-cider",
     "readingTime": 150,
     "featured": false,
-    "date": "2026-05-11",
+    "date": "2026-05-12",
     "path": "en/Food/apple-cider.md"
   },
   {
@@ -25896,7 +25979,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/society/chinese-taipei",
-    "readingTime": 112,
+    "readingTime": 113,
     "featured": false,
     "date": "2026-06-04",
     "path": "en/Society/chinese-taipei.md"
@@ -25918,7 +26001,7 @@
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/society/chinese-taipei",
-    "readingTime": 162,
+    "readingTime": 163,
     "featured": false,
     "date": "2026-06-04",
     "path": "ja/Society/chinese-taipei.md"
@@ -26330,6 +26413,17 @@
     "path": "People/Cicada.md"
   },
   {
+    "title": "Cine nacional de Taiwán: la persona que hablaba junto a la pantalla y una historia del cine que murió y volvió a vivir",
+    "description": "En una sala de cine de 1930, el benshi estaba de pie junto a la pantalla e improvisaba en taiwanés los diálogos de las películas mudas; noventa años después, Cape No. 7 hizo que cinco lenguas volvieran juntas a la pantalla. El cine en taiwanés llegó a convertir a Taiwán en el tercer mayor productor mundial de largometrajes de ficción, pero fue asfixiado; en los años en que el Nuevo Cine ganaba el León de Oro en Venecia, la taquilla del cine nacional en las salas había caído hasta apenas 0,36%. El cine nacional no es una línea recta que va de malo a bueno: es una historia declarada muerta una y otra vez, y que una y otra vez volvió a vivir.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/art/taiwanese-cinema",
+    "readingTime": 224,
+    "featured": true,
+    "date": "2026-03-23",
+    "path": "es/Art/taiwanese-cinema.md"
+  },
+  {
     "title": "Ciudad de Chiayi: nombrada Chiayi por un emperador, pero convertida en la ciudad provincial más fácil de pasar por alto",
     "description": "En el año 52 del reinado Qianlong de la dinastía Qing, un edicto cambió el nombre de “Zhuluo” a “Chiayi”: la única ciudad de todo Taiwán cuyo nombre fue otorgado personalmente por un emperador. En 1908, los japoneses levantaron en los arrozales, 3.3 kilómetros al suroeste de esta ciudad, el primer monumento del mundo al trópico de Cáncer. En 1931, el equipo heterogéneo de tres grupos étnicos de la Escuela Agrícola y Forestal de Chiayi llegó al subcampeonato en Koshien. El 25 de marzo de 1947, el pintor Chen Cheng-po fue atado y fusilado frente a la estación de tren; su cadáver permaneció tres días en la calle. Hoy, la Ciudad de Chiayi tiene 260,000 habitantes y 60 kilómetros cuadrados, no cuenta con estación de tren de alta velocidad, está completamente rodeada por el Condado de Chiayi y es un espécimen de ciudad mediana taiwanesa.",
     "category": "es",
@@ -26355,23 +26449,7 @@
     "title": "Ciudad de Kaohsiung: en 1979, el año en que fue elevada a municipio especial, ocho kaohsiungueses estaban presos en una cárcel de Taipéi",
     "description": "El 1 de julio de 1979, Kaohsiung fue elevada a segundo municipio especial de Taiwán. El 10 de diciembre, Día Mundial de los Derechos Humanos, el acto de la revista Formosa en la rotonda de Dagangpu terminó convertido en un enfrentamiento bajo gases lacrimógenos. Ocho personas fueron condenadas y, el 28 de febrero de 1980, se conoció la masacre ocurrida en la casa de Lin Yi-hsiung, en la calle Xinyi de Taipéi. En ese mismo 1979, Kaohsiung obtuvo gloria administrativa y también tragó la represión política más dura del Taiwán de posguerra. 2,71 millones de personas repartidas en 38 distritos; la barra arenosa de Cijin, las comunidades bunun de Namasia, las chimeneas de China Steel y el techo de aleación de aluminio de Weiwuying conviven en una misma ciudad. Esta ciudad tardó 45 años en coser sus heridas hasta darles una forma propia.",
     "category": "es",
-    "tags": [
-      "Kaohsiung",
-      "Ciudad de Kaohsiung",
-      "sur",
-      "municipio especial",
-      "puerto de Kaohsiung",
-      "Incidente de Formosa",
-      "río Amor",
-      "China Steel",
-      "Weiwuying",
-      "Mercado nocturno de Liuhe",
-      "Cúpula de Luz",
-      "Meinong",
-      "Namasia",
-      "tifón Morakot",
-      "serie de 22 condados y ciudades"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/es/geography/kaohsiung-city",
     "readingTime": 269,
     "featured": false,
@@ -26495,6 +26573,17 @@
     "path": "es/Food/military-dependents-village-cuisine.md"
   },
   {
+    "title": "Coffin Bread: From an Inauspicious Name to Tainan's Japanese-Western Hybrid Delicacy",
+    "description": "In the late 1940s, a snack called \"chicken liver toast\" appeared in Tainan''s Shakariba. Because of its distinctive shape, it was jokingly called \"coffin bread.\" Invented by Hsu Liu-yi, the dish wraps chicken liver and cream batter in deep-fried toast. It was not only a nutritional supplement amid postwar material scarcity, but also later featured by CNN, becoming an international calling card for Tainan''s Japanese-Western hybrid food culture.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/food/coffin-bread",
+    "readingTime": 30,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "en/Food/coffin-bread.md"
+  },
+  {
     "title": "Cognitive Warfare: Taiwan's Information Battlefield Enters the AI-Industrialization Phase",
     "description": "In December 2024, the \"China United Front Documentary\" broke 2 million views. In Q4 2025, 1,076 CCP state-media accounts on Douyin posted 560,000 videos and identified 57 Taiwanese figures via facial recognition. In October 2025, Puma Shen was placed under criminal investigation by Chongqing police for \"secession.\" Cognitive warfare has entered a new phase of AI industrialization and \"using Taiwanese to attack Taiwan\" — but the very term \"cognitive warfare\" is itself under tension as it gets overused inside Taiwan.",
     "category": "en",
@@ -26571,7 +26660,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/society/commonwealth-magazine",
-    "readingTime": 190,
+    "readingTime": 192,
     "featured": true,
     "date": "2026-06-04",
     "path": "fr/Society/commonwealth-magazine.md"
@@ -26582,9 +26671,9 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/society/commonwealth-magazine",
-    "readingTime": 161,
+    "readingTime": 163,
     "featured": true,
-    "date": "2026-06-04",
+    "date": "2026-06-13",
     "path": "en/Society/commonwealth-magazine.md"
   },
   {
@@ -26640,6 +26729,17 @@
     "featured": false,
     "date": "2026-03-20",
     "path": "fr/Economy/compal-electronics-global-odm-leader.md"
+  },
+  {
+    "title": "Compañía de Teatro Paper Windmill: el Don Quijote que impulsa los sueños de Taiwán, una larga marcha artística de más de treinta años",
+    "description": "Desde el delirio teatral de 1992 hasta el “nuevo movimiento cultural” que recorrió 368 municipios y distritos, la Compañía de Teatro Paper Windmill, con el espíritu de “moverse con el viento y, si no hay viento, moverse por cuenta propia”, ha iluminado para la niñez taiwanesa la primera milla hacia el arte. Tras el gran incendio de Bali y el duro golpe de la pandemia, el fundador Lee Yung-feng condujo al equipo hacia un renacimiento entre la depresión y las deudas; con el enorme Rain Horse y relatos locales, tejió una memoria colectiva propia de esta isla.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/art/paper-windmill-theater",
+    "readingTime": 71,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "es/Art/paper-windmill-theater.md"
   },
   {
     "title": "Complex Life Festival: Two Medical Students' 'Unsuccessful People's Forum' and a Generation's Five-Year Refusal to Admit They Are Good Enough",
@@ -28913,17 +29013,6 @@
     "path": "es/Technology/ai-development-in-taiwan.md"
   },
   {
-    "title": "El cine taiwanés: cómo una isla pequeña transformó el lenguaje cinematográfico mundial",
-    "description": "Taiwán, que produce menos de 20 películas al año, logró formar a tres directores de clase mundial y generar un impacto artístico más profundo que el de Hollywood. ¿Cómo fue posible?",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/art/taiwanese-cinema",
-    "readingTime": 77,
-    "featured": true,
-    "date": "2026-03-23",
-    "path": "es/Art/taiwanese-cinema.md"
-  },
-  {
     "title": "El clima de Taiwán",
     "description": "La precipitación anual es 2.5 veces el promedio mundial, sin embargo Taiwán figura entre los 20 países con mayor escasez de agua del planeta — el clima de Taiwán nunca es lo que uno imagina",
     "category": "es",
@@ -29488,12 +29577,12 @@
     "path": "es/Lifestyle/taiwan-high-speed-rail.md"
   },
   {
-    "title": "El último canto de la isla: observación profunda de la crisis de baja natalidad en Taiwán",
-    "description": "Cuando el lugar del mundo donde menos se quiere tener hijos es también el lugar que más los ama: detrás de la tasa de natalidad de 0,87 en Taiwán se encuentra el colapso sistémico de toda la estructura social",
+    "title": "El último canto de la isla: el 0.695 que ni el Año del Dragón pudo rescatar",
+    "description": "2024 fue Año del Dragón, y se suponía que en Taiwán la gente se apresuraría a tener hijos por buen augurio; sin embargo, ese año nacieron 715 bebés menos que el año anterior, y por primera vez en 48 años falló la magia del Dragón. Al año siguiente, la tasa de fecundidad se desplomó a 0.695. Pero la clave real nunca fue que la población taiwanesa no quisiera tener hijos (más de siete de cada diez matrimonios tienen dos o más), sino que no se casa; aun así, el gobierno lleva diez años repartiendo dinero ante el problema equivocado, el de «no atreverse a tener hijos», y en ningún país del mundo se ha logrado comprar de vuelta la tasa de fecundidad.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/society/taiwan-low-birth-rate-crisis",
-    "readingTime": 74,
+    "readingTime": 211,
     "featured": false,
     "date": "2026-03-24",
     "path": "es/Society/taiwan-low-birth-rate-crisis.md"
@@ -30058,15 +30147,7 @@
     "title": "Escuela Taiwanesa de Inteligencia Artificial: la llamada inconclusa y diez mil ingenieros de IA",
     "description": "El 27 de marzo de 2020, Chen Sheng-wei llamó con seriedad al editor jefe de CommonWealth Magazine: quería crear una especie de curso gratuito de programación para toda la ciudadanía. Dos días después cayó mientras patinaba en línea; 13 días más tarde murió. Tenía 44 años. Al momento de su muerte, la Escuela Taiwanesa de Inteligencia Artificial (AIA), que él había fundado en 2018, ya había formado a más de 6.000 personas. En el mismo período, el Consejo Nacional de Desarrollo proclamaba una “gran estrategia de IA para un país pequeño” con 16.000 millones de dólares taiwaneses en cinco años; él, en cambio, levantó 180 millones de financiamiento privado de seis empresas, entre ellas Formosa Plastics, Chi Mei e Inventec, y abrió su propia escuela. Ocho años después, los exalumnos superaron los diez mil. AIA es una pieza del rompecabezas de la modernización industrial de Taiwán que se parece muy poco a Taiwán.",
     "category": "es",
-    "tags": [
-      "inteligencia artificial",
-      "educación",
-      "Chen Sheng-wei",
-      "AIA",
-      "industria tecnológica de Taiwán",
-      "Academia Sinica",
-      "política de IA"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/es/technology/taiwan-ai-academy",
     "readingTime": 172,
     "featured": true,
@@ -30241,6 +30322,28 @@
     "path": "es/Music/taiwanese-hokkien-song-evolution.md"
   },
   {
+    "title": "Explosión de polvo de Formosa Fun Coast: la noche en que una fiesta de colores quemó una herida en Taiwán",
+    "description": "El 27 de junio de 2015, una fiesta de colores en Formosa Fun Coast provocó una explosión de polvo por ignición súbita que conmocionó al mundo. El accidente, el episodio con víctimas masivas más grave en la historia de Taiwán después del terremoto del 21 de septiembre de 1999, causó 499 personas con quemaduras y escaldaduras y 15 muertes; transformó por completo el sistema de emergencias médicas de Taiwán e impulsó la reforma de las normas de seguridad para eventos multitudinarios.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/history/eight-immortals-dust-explosion",
+    "readingTime": 63,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "es/History/eight-immortals-dust-explosion.md"
+  },
+  {
+    "title": "Explosion de poussière de Ba Xian : cette nuit-là, la fête colorée qui brûla une cicatrice dans Taïwan",
+    "description": "Le 27 juin 2015, la Color Party du parc aquatique Formosa Fun Coast provoqua un accident d'explosion de poussière qui stupéfia le monde, à la suite de l'embrasement éclair de poudres en suspension. Cet événement, le plus grave accident collectif de l'histoire de Taïwan après le séisme du 21 septembre 1999, fit 499 brûlés et 15 morts, transforma en profondeur le système taïwanais de médecine d'urgence et accéléra la réforme des règles de sécurité applicables aux grands rassemblements.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/history/eight-immortals-dust-explosion",
+    "readingTime": 63,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "fr/History/eight-immortals-dust-explosion.md"
+  },
+  {
     "title": "Extintor — El nombre encontrado junto a la piscina, cantado durante veinticinco años",
     "description": "En el año 2000, tres estudiantes de secundaria de Kaohsiung encontraron un extintor junto a la piscina y lo adoptaron como nombre de banda. Veinticinco años después, cantan punk en taiwanés como la voz de la era del Movimiento Sunflower, trasladan su sello a el sur, y en el escenario del Festival Daigou dedican siete minutos a decir al público: está bien estar decepcionado, pero no te conviertas en la clase de persona que odias.",
     "category": "es",
@@ -30268,7 +30371,7 @@
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/technology/facebook-in-taiwan",
-    "readingTime": 28,
+    "readingTime": 29,
     "featured": false,
     "date": "2026-05-01",
     "path": "ko/Technology/facebook-in-taiwan.md"
@@ -30279,7 +30382,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/technology/facebook-in-taiwan",
-    "readingTime": 54,
+    "readingTime": 55,
     "featured": false,
     "date": "2026-05-01",
     "path": "fr/Technology/facebook-in-taiwan.md"
@@ -30290,7 +30393,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/technology/facebook-in-taiwan",
-    "readingTime": 54,
+    "readingTime": 55,
     "featured": false,
     "date": "2026-05-01",
     "path": "es/Technology/facebook-in-taiwan.md"
@@ -30308,7 +30411,7 @@
       "假訊息"
     ],
     "url": "https://taiwan.md/en/technology/facebook-in-taiwan",
-    "readingTime": 54,
+    "readingTime": 55,
     "featured": false,
     "date": "2026-05-01",
     "path": "en/Technology/facebook-in-taiwan.md"
@@ -30542,6 +30645,28 @@
     "featured": true,
     "date": "2026-04-14",
     "path": "fr/Music/fire-ex.md"
+  },
+  {
+    "title": "First Image Creative : du rêve d’animation de Kuo Tai-chiang à 《Pigsy》 dans les ruelles de Tainan",
+    "description": "Autrefois financé par Kuo Tai-chiang, First Image Creative a ouvert une lueur d’espoir pour l’animation originale taïwanaise, avant de se réorienter sous la pression des réalités du marché ; studio2, qui s’est développé en symbiose avec elle, a tenu bon vingt ans à Tainan et a finalement remporté le Golden Horse avec 《Pigsy》, écrivant l’histoire douloureuse du passage de l’animation taïwanaise de la sous-traitance à la création originale.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/art/first-image-creative",
+    "readingTime": 37,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "fr/Art/first-image-creative.md"
+  },
+  {
+    "title": "First Image Creative: From Kuo Tai-chiang's Animation Dream to Pigsy in Tainan's Alleyways",
+    "description": "First Image Creative, once funded by Kuo Tai-chiang, opened a dawn for Taiwan's original animation, only to pivot under market realities; studio2, which grew in symbiosis with it, persisted in Tainan for twenty years and ultimately won a Golden Horse Award with Pigsy, writing a hard-earned history of Taiwan animation's move from subcontracting to originality.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/art/first-image-creative",
+    "readingTime": 34,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "en/Art/first-image-creative.md"
   },
   {
     "title": "Fish Stick : un nom de rue, un son de post-hardcore qui cogne",
@@ -33154,7 +33279,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/culture/taiwan-youtuber-industry",
-    "readingTime": 45,
+    "readingTime": 46,
     "featured": false,
     "date": "2026-03-23",
     "path": "fr/Culture/taiwan-youtuber-industry.md"
@@ -34505,15 +34630,7 @@
     "title": "L’École taïwanaise d’intelligence artificielle : cet appel resté inachevé, et dix mille ingénieurs en IA",
     "description": "Le 27 mars 2020, Chen Shengwei appela avec gravité la rédactrice en chef du magazine CommonWealth : il voulait lancer un cours de programmation gratuit pour toute la population. Deux jours plus tard, il chuta en rollers ; treize jours après, il mourut, à 44 ans. Au moment de sa disparition, l’École taïwanaise d’intelligence artificielle (AIA), qu’il avait fondée en 2018, avait déjà formé plus de 6 000 personnes. À la même période, le Conseil national du développement annonçait, avec sa stratégie « petit pays, grande stratégie IA », 16 milliards de dollars taïwanais sur cinq ans ; lui créa son école grâce à 180 millions de dollars taïwanais levés auprès de six entreprises, dont Formosa Plastics, Chi Mei et Inventec. Huit ans plus tard, les anciens élèves dépassent les dix mille. L’AIA est, dans la montée en gamme industrielle de Taïwan, la pièce du puzzle la moins typiquement taïwanaise.",
     "category": "fr",
-    "tags": [
-      "intelligence artificielle",
-      "éducation",
-      "Chen Shengwei",
-      "AIA",
-      "industrie technologique taïwanaise",
-      "Academia Sinica",
-      "politique de l’IA"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/fr/technology/taiwan-ai-academy",
     "readingTime": 177,
     "featured": true,
@@ -36431,7 +36548,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/culture/taiwan-youtuber-industry",
-    "readingTime": 45,
+    "readingTime": 46,
     "featured": false,
     "date": "2026-03-23",
     "path": "es/Culture/taiwan-youtuber-industry.md"
@@ -37526,12 +37643,12 @@
     "path": "fr/Culture/christianity-in-taiwan.md"
   },
   {
-    "title": "Le cinéma taïwanais : comment une île a transformé le langage du film mondial",
-    "description": "Avec moins de 20 films produits par an, comment Taïwan a-t-il pu former quatre cinéastes de classe mondiale et exercer une influence artistique dépassant celle de bien des grandes industries cinématographiques ?",
+    "title": "Le cinéma national taïwanais : la personne qui parlait à côté de l’écran, et une histoire du cinéma déclarée morte puis revenue à la vie",
+    "description": "En 1930, dans les salles, le benshi se tenait à côté de l’écran et improvisait en taïwanais les dialogues des films muets ; quatre-vingt-dix ans plus tard, Cape No. 7 faisait revenir cinq langues ensemble sur l’écran. Le cinéma en taïwanais fut autrefois le troisième producteur mondial de films de fiction, avant d’être étouffé ; les années où le Nouveau cinéma taïwanais remportait le Lion d’or à Venise, la part du box-office des films nationaux en salle était pourtant tombée à seulement 0,36 %. L’histoire du cinéma national taïwanais n’est pas une ligne droite allant du mauvais au bon : c’est une histoire où il a été proclamé mort, puis ressuscité, à répétition.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/art/taiwanese-cinema",
-    "readingTime": 76,
+    "readingTime": 233,
     "featured": true,
     "date": "2026-03-23",
     "path": "fr/Art/taiwanese-cinema.md"
@@ -37563,6 +37680,17 @@
     "featured": false,
     "date": "2026-04-20",
     "path": "fr/Culture/divine-pig-festival.md"
+  },
+  {
+    "title": "Le coffin bread : d’un nom de mauvais augure à un mets hybride sino-occidental de Tainan",
+    "description": "À la fin des années 1940, dans le Sakariba de Tainan, apparut un en-cas appelé « planche au foie de poulet », bientôt surnommé « coffin bread » en raison de sa forme singulière. Inventé par M. Hsu Liu-yi, ce plat composé de pain de mie frit enveloppant du foie de poulet et une pâte crémeuse fut non seulement un apport nutritif dans la pénurie de l’après-guerre, mais aussi, après avoir été présenté par CNN, une carte de visite internationale de la culture culinaire « hybride sino-occidentale » de Tainan.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/food/coffin-bread",
+    "readingTime": 35,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "fr/Food/coffin-bread.md"
   },
   {
     "title": "Le comté de Hsinchu : 235 ans de culte des Yimin et le revenu par habitant le plus élevé de Taïwan, le long de la même rivière Touqian",
@@ -37604,18 +37732,12 @@
     "path": "fr/Food/golden-croissant.md"
   },
   {
-    "title": "Le dernier chant de l'île : la crise de la dénatalité à Taïwan",
-    "description": "Là où l'on désire le moins avoir des enfants se trouve aussi le pays qui les aime le plus — derrière le taux de fécondité de 0,87, c'est tout l'édifice social de Taïwan qui s'effrite",
+    "title": "Le dernier chant de l'île : le 0,695 que même l'année du Dragon n'a pas sauvé",
+    "description": "2024 était l'année du Dragon : les Taïwanais auraient dû se hâter d'avoir des enfants pour porter chance. Cette année-là a pourtant compté 715 bébés de moins que l'année précédente : pour la première fois en 48 ans, la magie du Dragon n'a pas opéré. L'année suivante, le taux de fécondité s'est effondré à 0,695. Mais le vrai code n'a jamais été que les Taïwanais ne font pas d'enfants (après le mariage, plus de sept couples sur dix en ont deux ou plus), mais qu'ils ne se marient pas ; or l'État a versé de l'argent pendant dix ans à ceux qui « n'osent pas enfanter », alors qu'aucun pays au monde n'a jamais racheté son taux de fécondité à coups de subventions.",
     "category": "fr",
-    "tags": [
-      "dénatalité",
-      "crise démographique",
-      "taux de fécondité",
-      "mutations sociales",
-      "générations"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/fr/society/low-birth-rate-crisis-new",
-    "readingTime": 78,
+    "readingTime": 226,
     "featured": false,
     "date": "2026-03-24",
     "path": "fr/Society/low-birth-rate-crisis-new.md"
@@ -37904,7 +38026,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/society/sunflower-movement",
-    "readingTime": 97,
+    "readingTime": 98,
     "featured": true,
     "date": "2026-04-12",
     "path": "fr/Society/sunflower-movement.md"
@@ -39057,14 +39179,14 @@
     "path": "fr/Culture/loanwords-and-language-contact-in-taiwan.md"
   },
   {
-    "title": "Les Façonneurs de Montagnes : le Pari du Siècle — une épopée TSMC sans Zhang Zhong-mou, filmée de Hsinchu à Purdue",
-    "description": "Un soir de juin 2025, le couple de 84 ans de Zhang Zhong-mou achète deux billets pour le cinéma Vieshow à Xinyi. Le film ne montre aucun entretien en face à face avec lui — il rédige le deuxième volume de ses mémoires. Audrey Tang a passé cinq ans à interroger plus de 80 pionniers, depuis la réunion du petit magasin de lait de soja Xin Xin en 1974 jusqu’à la visite de Wei Che-chia à la Maison-Blanche en 2025. « Les Façonneurs de Montagnes : le Pari du Siècle » (A Chip Odyssey) se classe parmi les cinq meilleurs documentaires taïwanais de l’histoire, et en 2026 il est projeté dans les amphithéâtres de Purdue, du Wisconsin et du Michigan, trois pôles d’investissement du CHIPS Act.",
+    "title": "Les Façonneurs de montagnes : le pari du siècle — une épopée taïwanaise des semi-conducteurs qui a dû limer un mot de son titre avant de pouvoir être prononcée",
+    "description": "Sorti le 13 juin 2025, le documentaire Les Façonneurs de montagnes (A Chip Odyssey) raconte l’épopée irremplaçable des semi-conducteurs taïwanais. Mais son titre originel était Bouclier de silicium. Hsiao Chu-chen a passé cinq ans et interrogé plus de 80 personnes pour saisir l’esprit d’une industrie « née dans l’adversité » — pour finir par limer le mot le plus tranchant du titre. Quand ce pays se vante de sa carte stratégique la plus forte, il doit d’abord soupeser comment l’autre rive l’entendra.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/art/mountain-makers-tsmc-documentary",
-    "readingTime": 65,
+    "readingTime": 215,
     "featured": true,
-    "date": "2026-04-24",
+    "date": "2026-06-16",
     "path": "fr/Art/mountain-makers-tsmc-documentary.md"
   },
   {
@@ -39791,7 +39913,7 @@
     "url": "https://taiwan.md/en/people/lin-chi-er-astronaut",
     "readingTime": 117,
     "featured": false,
-    "date": "2026-04-24",
+    "date": "2026-04-28",
     "path": "en/People/lin-chi-er-astronaut.md"
   },
   {
@@ -40161,32 +40283,37 @@
     "path": "fr/Art/postwar-taiwanese-literature.md"
   },
   {
-    "title": "Little Tigers (小虎隊)",
-    "description": "Nés en 1988 d'un concours de talents sur la chaîne CTV, les Little Tigers — composés de Wu Qilong, Chen Zhipeng et Su Youpeng — ont conquis la jeunesse taïwanaise et sino-ophone grâce à leur énergie solaire et leurs chansons entraînantes. Premier boys band systématiquement produit de Taïwan, ils ont inauguré l'ère des idoles pop dans la musique mandophone et gravé leur empreinte dans la mémoire collective des deux rives du détroit.",
+    "title": "Little Tigers : des mélodies achetées, une jeunesse à soi",
+    "description": "En 1988, une émission de télé-crochet de CTS cherchait trois garçons pour chanter et danser aux côtés des Little Cats. Elle finit par sélectionner un groupe d’idoles reprenant des chansons japonaises et imitant Shonentai, le boys band japonais. De deux cent mille exemplaires vendus en cinq jours aux fans qui les suivirent de Taipei à Kaohsiung, jusqu’au passage du détroit en 1991 : presque toutes les pièces étaient importées, mais Taïwan en a gardé le souvenir comme l’une des jeunesses les plus solides d’une génération, tandis que les trois corps les plus célèbres ont ensuite tous traversé le détroit.",
     "category": "fr",
-    "tags": [
-      "pop taïwanais",
-      "boys band",
-      "Little Tigers",
-      "musique des années 80",
-      "culture de la jeunesse"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/fr/music/little-tigers-taiwan-boy-band",
-    "readingTime": 29,
+    "readingTime": 146,
     "featured": false,
-    "date": "2026-03-24T23:00:00Z",
+    "date": "2026-03-24",
     "path": "fr/Music/little-tigers-taiwan-boy-band.md"
   },
   {
-    "title": "Little Tigers: Taiwan's First Idol Boy Band",
-    "description": "Little Tigers, born from a 1988 CTV talent show, comprised of Wu Qi-long, Chen Zhi-peng, and Su You-peng, became Taiwan's first systematically produced male idol group through their sunshine-filled, energetic image and uplifting dance songs — ushering in the era of youth idols in Mandopop, and becoming a shared youthful memory across the Taiwan Strait and Hong Kong.",
+    "title": "Little Tigers: Bought Melodies, Their Own Youth",
+    "description": "In 1988, a CTS talent show wanted three boys to sing and dance alongside the Kitten Team. What it found was an idol group that covered Japanese songs and modeled itself on Japan's Shonentai. From selling 200,000 copies in five days, to fans chasing them all the way from Taipei to Kaohsiung, to crossing the Strait in 1991: almost every part was imported, yet Taiwan remembers them as one of the sturdiest emblems of a generation's youth. The three bodies at the height of that fame later all crossed the Strait.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/music/little-tigers-taiwan-boy-band",
-    "readingTime": 26,
+    "readingTime": 132,
     "featured": false,
-    "date": "2026-03-24T23:00:00Z",
+    "date": "2026-03-24",
     "path": "en/Music/little-tigers-taiwan-boy-band.md"
+  },
+  {
+    "title": "Little Tigers: melodías compradas, juventud propia",
+    "description": "En 1988, un concurso de CTS buscaba a tres chicos para cantar y bailar junto a Little Kitten Team; terminó eligiendo a un grupo idol que versionaba canciones japonesas e imitaba a Shonentai, la boy band japonesa. De vender 200.000 copias en cinco días, a ser seguido por fans de Taipéi a Kaohsiung, hasta cruzar el estrecho en 1991. Casi todas las piezas eran importadas, pero Taiwán lo recuerda como la juventud más sólida de una generación; y los tres cuerpos más famosos acabaron cruzando también el estrecho.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/music/little-tigers-taiwan-boy-band",
+    "readingTime": 142,
+    "featured": false,
+    "date": "2026-03-24",
+    "path": "es/Music/little-tigers-taiwan-boy-band.md"
   },
   {
     "title": "Liu An-ting",
@@ -40220,6 +40347,39 @@
     "featured": true,
     "date": "2026-04-12",
     "path": "fr/People/liu-an-ting-teach-for-taiwan.md"
+  },
+  {
+    "title": "Liu Ming-chuan : allumer la première lampe électrique de Taïwan, un pionnier de la modernisation lancé entre pouvoir et controverses",
+    "description": "Du fils d'un contrebandier de sel au premier gouverneur de Taïwan, Liu Ming-chuan, durant ses six années sur l'île, ne se contenta pas de promouvoir le chemin de fer et la poste : il fit aussi briller, dans l'enceinte de Taipei, la première lampe électrique de l'Empire des Qing. Pourtant, sa décision stratégique de « quitter Keelung pour secourir Huwei » ainsi que ses politiques précipitées d'administration des peuples autochtones et de révision fiscale laissèrent aussi, dans le long cours de l'histoire, de profonds débats et des zones d'ombre.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/people/liu-mingchuan",
+    "readingTime": 41,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "fr/People/liu-mingchuan.md"
+  },
+  {
+    "title": "Liu Ming-chuan: el pionero de la modernización que encendió la primera luz eléctrica de Taiwán y avanzó entre el poder y la controversia",
+    "description": "De hijo de un contrabandista de sal a primer gobernador provincial de Taiwán, Liu Ming-chuan no solo impulsó el ferrocarril y el correo durante sus seis años en la isla, sino que también encendió en la ciudad amurallada de Taipéi la primera luz eléctrica del Gran Imperio Qing. Sin embargo, su decisión estratégica de \"abandonar Keelung para auxiliar Hobe\" y sus políticas apresuradas de administración indígena y reforma fiscal dejaron, en el largo curso de la historia, debates profundos y sombras persistentes.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/people/liu-mingchuan",
+    "readingTime": 40,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "es/People/liu-mingchuan.md"
+  },
+  {
+    "title": "Liu Ming-chuan: Lighting Taiwan's First Electric Lamp, a Modernizing Pioneer Running Through Power and Controversy",
+    "description": "From the son of a salt smuggler to Taiwan's first governor, Liu Ming-chuan spent six years in Taiwan not only promoting railways and postal services, but also lighting the Qing Empire's first electric lamp inside Taipei City. Yet his strategic decision to abandon Keelung and reinforce Huwei, along with his impatient policies toward Indigenous administration and land-tax reform, also left deep debates and shadows in the long course of history.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/people/liu-mingchuan",
+    "readingTime": 36,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "en/People/liu-mingchuan.md"
   },
   {
     "title": "Lo Ta-yu: de médico radiólogo a álbum debut en 1982 con *Zhī Hū Zhě Yě* y nuevo disco en 2025",
@@ -40408,14 +40568,14 @@
     "path": "es/Geography/taiwan-five-major-landforms-and-geographic-structure.md"
   },
   {
-    "title": "Los constructores de montañas: la apuesta de un siglo — Una épica de TSMC sin Morris Chang, filmada desde Hsinchu hasta Purdue",
-    "description": "En una tarde de junio de 2025, Morris Chang, de 84 años, y su esposa compraron de su bolsillo dos entradas y entraron al cine Vieshow de Xinyi. En la película no hay ninguna entrevista frontal con él: está escribiendo el segundo volumen de su autobiografía. Hsiao Chiu-chen dedicó cinco años a entrevistar a más de 80 pioneros, desde el desayunar de 1974 en la tienda de soja Xinxin hasta la visita de C.C. Wei a la Casa Blanca en 2025. Los constructores de montañas: la apuesta de un siglo (A Chip Odyssey) se convirtió en uno de los cinco documentales más taquilleros de la historia del cine documental taiwanés, y en 2026 llegó a las aulas de Purdue, Wisconsin y Michigan, tres universidades clave de la inversión del CHIPS Act.",
+    "title": "Los constructores de montañas: la apuesta del siglo — una epopeya taiwanesa de los semiconductores que tuvo que lijar una palabra de su título antes de poder pronunciarlo",
+    "description": "Estrenado el 13 de junio de 2025, el documental Los constructores de montañas (A Chip Odyssey) narra la epopeya irreemplazable de los semiconductores de Taiwán. Pero su título original era Escudo de silicio. Hsiao Chu-chen dedicó cinco años y entrevistó a más de 80 personas para captar el espíritu de una industria \"nacida en la adversidad\", solo para lijar la palabra más afilada del título: cuando este país presume de su carta estratégica más fuerte, primero tiene que sopesar cómo la oirá la otra orilla.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/art/mountain-makers-tsmc-documentary",
-    "readingTime": 76,
+    "readingTime": 210,
     "featured": true,
-    "date": "2026-04-24",
+    "date": "2026-06-16",
     "path": "es/Art/mountain-makers-tsmc-documentary.md"
   },
   {
@@ -40503,17 +40663,6 @@
     "path": "es/Geography/zhongshan-north-road-tiaotong.md"
   },
   {
-    "title": "Los Tigres Pequeños",
-    "description": "Formado en 1988 a partir de un programa de talentos de CTS (華視), el grupo Los Tigres Pequeños (小虎隊) estaba compuesto por 吳奇隆, 陳志朋 y 蘇有朋. Gracias a su imagen radiante y llena de energía, junto con sus canciones de baile motivadoras, se convirtió en el primer grupo de ídolos masculinos de 台灣, inaugurando la era de los ídolos juveniles en la música pop en mandarín (華語流行音樂) y convirtiéndose en un recuerdo compartido de la juventud en las tres regiones a ambos lados del Estrecho.",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/music/little-tigers-taiwan-boy-band",
-    "readingTime": 10,
-    "featured": false,
-    "date": "2026-03-24T23:00:00Z",
-    "path": "es/Music/little-tigers-taiwan-boy-band.md"
-  },
-  {
     "title": "Loutres de Taïwan : survie insulaire de la loutre d'Eurasie à Kinmen et disparition silencieuse sur l'île principale",
     "description": "La loutre d''Eurasie (_Lutra lutra_) sur l''île principale de Taïwan n''a pas fait l''objet d''observations fiables en milieu naturel depuis les années 1980, et l''état de sa population reste incertain et très préoccupant. Celle de l''archipel de Kinmen, surnommée « loutre de zone de guerre », fait face à une pression multiple : fragmentation de l''habitat, mortalité routière et pollution par les microplastiques.",
     "category": "fr",
@@ -40523,39 +40672,6 @@
     "featured": false,
     "date": "2026-04-25",
     "path": "fr/Nature/eurasian-otter-in-taiwan.md"
-  },
-  {
-    "title": "Lu Guan-Wei",
-    "description": "A National Taiwan University medical school graduate who left medicine to teach, Lu Guan-Wei is the chairman and CEO of Junyi Academy. Using AI-powered adaptive learning, he has enabled 5.28 million children across Taiwan to learn at their own pace — turning 'educational equity' from a slogan into everyday reality.",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/people/lu-guan-wei-junyiacademy-founder",
-    "readingTime": 20,
-    "featured": false,
-    "date": "2026-04-05",
-    "path": "en/People/lu-guan-wei-junyiacademy-founder.md"
-  },
-  {
-    "title": "Lu Guanwei",
-    "description": "Graduado de la Facultad de Medicina de la Universidad Nacional de Taiwán, dejó la medicina para dedicarse a la educación como presidente y director ejecutivo de Junyi Academy. Con aprendizaje adaptativo basado en IA, permite que 5,28 millones de niños taiwaneses avancen a su propio ritmo, convirtiendo la 'equidad educativa' de eslogan en realidad cotidiana.",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/people/lu-guan-wei-junyiacademy-founder",
-    "readingTime": 23,
-    "featured": false,
-    "date": "2026-04-05",
-    "path": "es/People/lu-guan-wei-junyiacademy-founder.md"
-  },
-  {
-    "title": "Lu Guanwei",
-    "description": "Diplômé de la faculté de médecine de l'Université nationale de Taiwan (NTU), il a renoncé à la médecine pour se consacrer à l'éducation en tant que président et directeur général de la plateforme éducative Junyi Academy. Grâce à l'apprentissage adaptatif par IA, il permet à 5,28 millions d'enfants à Taïwan d'avancer à leur propre rythme, transformant véritablement l'« équité éducative » d'un slogan en réalité quotidienne.",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/people/lu-guan-wei-junyiacademy-founder",
-    "readingTime": 25,
-    "featured": false,
-    "date": "2026-04-05",
-    "path": "fr/People/lu-guan-wei-junyiacademy-founder.md"
   },
   {
     "title": "Lu Hsiu-yan : des 10 000 flacons d'air de Guguan à la thèse de l'achat d'armes comme assurance à Washington, la reine invaincue",
@@ -40596,6 +40712,39 @@
     "featured": false,
     "date": "2026-05-03",
     "path": "es/People/lu-hsiu-yan.md"
+  },
+  {
+    "title": "Lu Kuan-wei : il a obtenu son diplôme de médecin mais n'a jamais enfilé la blouse blanche, pariant sur une chose plus difficile à prouver que sauver des vies",
+    "description": "Il a obtenu son diplôme de médecin mais n'a jamais enfilé la blouse blanche. À la place, il a repris la plateforme éducative Junyi Academy, fondée par Fang Hsin-chou, espérant utiliser l'apprentissage autonome en ligne pour combler le fossé éducatif de Taïwan. Mais la recherche mondiale pointe presque unanimement dans la direction opposée : ce type d'outils aide d'abord les enfants qui ne manquent déjà de rien. Douze ans plus tard, aucune preuve indépendante n'atteste que son pari a réussi. La façon dont il fait face à cette impossibilité de prouver mérite d'être retenue plus que ce à quoi il a renoncé.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/people/lu-guan-wei-junyiacademy-founder",
+    "readingTime": 202,
+    "featured": false,
+    "date": "2026-04-05",
+    "path": "fr/People/lu-guan-wei-junyiacademy-founder.md"
+  },
+  {
+    "title": "Lu Kuan-wei: aprobó el examen médico pero nunca se puso la bata blanca, y apostó por algo más difícil de demostrar que salvar vidas",
+    "description": "Aprobó el examen de licenciatura médica, pero nunca se puso la bata blanca. Tomó las riendas de la plataforma educativa Junyi Academy, fundada por Fang Hsin-chou, con la idea de usar el aprendizaje autodidacta en línea para cerrar la brecha educativa de Taiwán. Pero la investigación global apunta casi unánimemente en sentido contrario: estas herramientas ayudan más a los niños que ya no carecen de nada. Doce años después, sigue sin haber pruebas independientes de que su apuesta haya salido bien. Cómo enfrenta esa imposibilidad de demostrarlo merece más ser recordado que aquello a lo que renunció.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/people/lu-guan-wei-junyiacademy-founder",
+    "readingTime": 189,
+    "featured": false,
+    "date": "2026-04-05",
+    "path": "es/People/lu-guan-wei-junyiacademy-founder.md"
+  },
+  {
+    "title": "Lu Kuan-wei: He Passed the Medical Licensing Exam but Never Put on a White Coat, Betting Instead on Something Harder to Prove Than Saving Lives",
+    "description": "He passed the medical licensing exam but never put on a white coat. Instead, he took over the Junyi Academy platform founded by Fang Hsin-chou, hoping to use online self-directed learning to narrow Taiwan's educational divide. But global research points almost unanimously in the other direction: these tools help most the children who already have what they need. Twelve years later, there is still no independent evidence proving that his wager has paid off. How he faces that inability to prove success is more worth remembering than what he gave up.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/people/lu-guan-wei-junyiacademy-founder",
+    "readingTime": 179,
+    "featured": false,
+    "date": "2026-04-05",
+    "path": "en/People/lu-guan-wei-junyiacademy-founder.md"
   },
   {
     "title": "Lu Yen-hsun : des quarts de finale de Wimbledon à cinq éditions olympiques, le joueur de tennis taïwanais allé le plus loin",
@@ -40706,7 +40855,7 @@
     "url": "https://taiwan.md/en/people/ma-ying-jeou-cross-strait-reconciliation-leader",
     "readingTime": 211,
     "featured": false,
-    "date": "2026-03-30",
+    "date": "2026-05-23",
     "path": "en/People/ma-ying-jeou-cross-strait-reconciliation-leader.md"
   },
   {
@@ -41209,37 +41358,37 @@
     "path": "en/Society/migrant-workers-in-taiwan.md"
   },
   {
-    "title": "Miin",
-    "description": "The AI news aggregation platform built by PTT founder Ethan Tu uses algorithms to detect disinformation and coordinated account operations. During Pelosi's Taiwan visit, Miin data showed that one in every four related accounts on Twitter was involved in cognitive operations. But in 2025, the platform was accused of copyright infringement after its AI crawler scraped news articles without authorization, exposing the gray zone between AI aggregation and news copyright.",
-    "category": "en",
+    "title": "Miin : la même idée, « l’information doit être libre », a conduit Ethan Tu à créer PTT, puis devant les tribunaux pour droit d’auteur",
+    "description": "En 1995, il a lancé PTT depuis une chambre d’étudiant de l’Université nationale de Taïwan au nom de l’idée que « l’information doit être libre » ; en 2017, revenu à Taïwan, il a créé une IA pour repérer les comptes coordonnés de guerre cognitive ; puis, pour lutter contre la désinformation, il a été poursuivi pour avoir agrégé les articles d’autrui. La même conviction est son arme, mais aussi le fondement de l’affaire judiciaire ; et Taïwan se trouve précisément à l’avant-garde d’un problème que le monde entier n’a pas encore résolu.",
+    "category": "fr",
     "tags": [],
-    "url": "https://taiwan.md/en/technology/miin-music-app",
-    "readingTime": 23,
+    "url": "https://taiwan.md/fr/technology/miin-music-app",
+    "readingTime": 138,
     "featured": false,
     "date": "2026-04-01",
-    "path": "en/Technology/miin-music-app.md"
+    "path": "fr/Technology/miin-music-app.md"
   },
   {
-    "title": "Miin",
-    "description": "Plataforma de agregación de noticias con IA creada por el fundador de PTT (批踢踢), que utiliza algoritmos para detectar desinformación y cuentas de manipulación coordinada. Durante la visita de Pelosi a Taiwán, los datos de Miin revelaron que una de cada cuatro cuentas relacionadas en Twitter estaba implicada en operaciones de influencia cognitiva. Pero en 2025, la plataforma fue acusada de infracción de derechos de autor por el rastreo de noticias mediante IA, exponiendo la zona gris entre la agregación automatizada y los derechos de la prensa.",
+    "title": "Miin: la misma frase, «la información debe ser libre», llevó a Ethan Tu a construir PTT y también a un litigio por derechos de autor",
+    "description": "En 1995 usó «la información debe ser libre» para levantar PTT en una residencia de la Universidad Nacional de Taiwán; en 2017 volvió a Taiwán y creó una IA para detectar cuentas coordinadas en operaciones cognitivas; luego fue denunciado por agregar noticias ajenas para combatir la desinformación. La misma convicción fue su arma y también se convirtió en el fundamento de una causa judicial; y Taiwán está justo en la primera línea de un problema que el mundo todavía no sabe resolver.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/technology/miin-music-app",
-    "readingTime": 27,
+    "readingTime": 125,
     "featured": false,
     "date": "2026-04-01",
     "path": "es/Technology/miin-music-app.md"
   },
   {
-    "title": "Miin : la plateforme qui traque les armées de faux comptes",
-    "description": "Conçue par le fondateur de PTT, Tu Yi-chin, Miin est une plateforme d'agrégation d'actualités propulsée par l'IA, capable de détecter les campagnes de manipulation coordonnées. Lors de la visite de Nancy Pelosi à Taïwan, ses données ont révélé qu'un compte sur quatre liés à l'événement sur Twitter était impliqué dans des opérations d'influence. Mais fin 2025, la plateforme s'est retrouvée accusée de violation de droits d'auteur après que ses robots d'indexation ont aspiré des centaines d'articles — exposant une zone grise juridique entre agrégation par IA et propriété intellectuelle de la presse.",
-    "category": "fr",
+    "title": "Miin: The Same Claim That “Information Wants to Be Free” Led Ethan Tu to Build PTT, and Also into a Copyright Lawsuit",
+    "description": "In 1995, he used “information wants to be free” to set up PTT in an NTU dormitory; in 2017, he returned to Taiwan to build an AI system for identifying coordinated cognitive-warfare accounts; and, in the name of fighting disinformation, he was sued for aggregating other outlets’ news. The same conviction became both his weapon and the basis of a lawsuit, while Taiwan happens to stand at the front edge of a problem the world still has not solved.",
+    "category": "en",
     "tags": [],
-    "url": "https://taiwan.md/fr/technology/miin-music-app",
-    "readingTime": 25,
+    "url": "https://taiwan.md/en/technology/miin-music-app",
+    "readingTime": 120,
     "featured": false,
     "date": "2026-04-01",
-    "path": "fr/Technology/miin-music-app.md"
+    "path": "en/Technology/miin-music-app.md"
   },
   {
     "title": "Ming Hua Yuan : fondé à Tainan en 1929, l'empire de l'opéra taïwanais sur quatre générations de la famille Chen",
@@ -41674,14 +41823,14 @@
     "path": "fr/People/tsmc-morris-chang.md"
   },
   {
-    "title": "Mountain Makers: A Century's Bet — A TSMC Epic Without Morris Chang, From Hsinchu to Purdue",
-    "description": "One evening in June 2025, 84-year-old Morris Chang and his wife bought two tickets and walked into Hsinchu Vieshow Cinema. The film contained no formal interview with him — he was busy writing the second volume of his memoir. Director Hsiao Chu-chen spent five years interviewing more than 80 pioneers, shooting from a 1974 breakfast meeting at a small Hsinchu soy milk shop all the way to CC Wei's 2025 White House visit. A Chip Odyssey became one of Taiwan's top five highest-grossing documentaries and in 2026 entered university lecture halls at Purdue, Wisconsin, and Michigan — all CHIPS Act investment hubs.",
+    "title": "Mountain Makers: A Century's Gamble — A Taiwanese Semiconductor Epic That Had to Sand One Word Off Its Title Before It Could Be Spoken",
+    "description": "Released on June 13, 2025, the documentary A Chip Odyssey tells the irreplaceable epic of Taiwan''s semiconductor industry. But its original title was Silicon Shield. Hsiao Chu-chen spent five years and interviewed more than 80 people to capture this industry''s story of being \"born of adversity,\" only to sand the sharpest word off the title: when this country boasts of its strongest strategic card, it first has to weigh how the other side will hear it.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/art/mountain-makers-tsmc-documentary",
-    "readingTime": 63,
+    "readingTime": 193,
     "featured": true,
-    "date": "2026-04-24",
+    "date": "2026-06-16",
     "path": "en/Art/mountain-makers-tsmc-documentary.md"
   },
   {
@@ -41742,7 +41891,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/society/sunflower-movement",
-    "readingTime": 77,
+    "readingTime": 78,
     "featured": true,
     "date": "2026-04-12",
     "path": "es/Society/sunflower-movement.md"
@@ -42911,6 +43060,17 @@
     "path": "en/Nature/palakaw.md"
   },
   {
+    "title": "Pan ataúd: de nombre ominoso a exquisitez híbrida japonesa-occidental de Tainan",
+    "description": "A fines de la década de 1940, en Shakaliba, Tainan, apareció un bocadillo llamado «tabla de hígado de pollo» que, por su forma singular, recibió en broma el nombre de «pan ataúd». Este plato, inventado por el señor Hsu Liu-yi, envuelve hígado de pollo y una masa cremosa en pan de molde frito y crujiente: no solo fue un suplemento nutritivo en la escasez material de la posguerra, sino que también llegó a aparecer en un reportaje de CNN y se convirtió en una carta de presentación internacional de la cultura culinaria híbrida japonesa-occidental de Tainan.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/food/coffin-bread",
+    "readingTime": 33,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "es/Food/coffin-bread.md"
+  },
+  {
     "title": "Pan de manzana: en una isla sin manzanas, alimentar la ilusión de la modernización",
     "description": "Esto no es solo un trozo de pan, sino también un experimento de modernización en el Taiwán de la década de 1960, bajo el trasfondo de la ayuda estadounidense, tejido con harina, símbolos y resiliencia para sobrevivir. El mayor retirado Liu Zheji, mediante la metáfora lujosa de la «manzana» y la tecnología japonesa de deshidratación, transformó una ración militar originalmente árida en una memoria nacional que atraviesa generaciones, revelando cómo la sociedad taiwanesa de posguerra utilizó sustitutos para llenar la brecha entre la realidad y sus aspiraciones.",
     "category": "es",
@@ -43003,6 +43163,28 @@
     "featured": false,
     "date": "2026-05-07",
     "path": "ja/Society/pansci.md"
+  },
+  {
+    "title": "Paper Windmill Theater : le Don Quichotte qui fait tourner les rêves de Taïwan, une longue marche artistique de plus de trente ans",
+    "description": "De la fantaisie théâtrale de 1992 au « nouveau mouvement culturel » qui a parcouru les 368 communes et districts, Paper Windmill Theater, fidèle à l'esprit « bouger quand il y a du vent, créer soi-même le vent quand il n'y en a pas », a ouvert aux enfants de Taïwan le premier kilomètre de l'accès à l'art. Après l'incendie de Bali et le choc de la pandémie, son fondateur Lee Yung-feng a mené l'équipe vers une renaissance au milieu de la dépression et des dettes, tissant, avec l'immense Rain Horse et des récits locaux, une mémoire collective propre à cette île.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/art/paper-windmill-theater",
+    "readingTime": 74,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "fr/Art/paper-windmill-theater.md"
+  },
+  {
+    "title": "Paper Windmill Theater: The Don Quixote That Set Taiwan’s Dreams in Motion, an Artistic Long March Spanning Three Decades",
+    "description": "From its theatrical reverie in 1992 to a “New Cultural Movement” that traveled across 368 townships and districts, Paper Windmill Theater has embodied the spirit of “moving when there is wind, and making its own wind when there is none,” lighting the first mile of art for Taiwan’s children. After the Bali fire and the devastation of the pandemic, founder Lee Yong-feng led the troupe through depression and debt toward rebirth, weaving Taiwan’s collective memory through the giant Rain Horse and local stories.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/art/paper-windmill-theater",
+    "readingTime": 66,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "en/Art/paper-windmill-theater.md"
   },
   {
     "title": "Paraguay and Taiwan: South America's Only Diplomatic Ally, a Sixty-Nine-Year Pragmatic Partnership",
@@ -43839,6 +44021,17 @@
     "path": "en/History/prehistoric-era-and-indigenous-peoples.md"
   },
   {
+    "title": "Premier Creative: del sueño animado de Gou Tai-chiang a Pigsy en los callejones de Tainan",
+    "description": "Premier Creative, en su día financiada por Gou Tai-chiang, abrió un primer resplandor para la animación original de Taiwán, pero terminó reorientándose ante la realidad del mercado; studio2, que creció en simbiosis con ella, persistió durante veinte años en Tainan y finalmente ganó el Caballo de Oro con Pigsy, escribiendo una historia de sangre, sudor y lágrimas de la animación taiwanesa, desde la subcontratación hasta la creación original.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/art/first-image-creative",
+    "readingTime": 36,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "es/Art/first-image-creative.md"
+  },
+  {
     "title": "Prénoms courants à Taïwan",
     "description": "Si vous criez « Shu Fen » ou « Jia Hao » dans une rue de Taïwan, combien de personnes se retourneront ? Ces prénoms sont le miroir de la société taïwanaise, témoignant de l'imaginaire collectif de chaque génération quant à ce qu'est une « belle vie ».",
     "category": "fr",
@@ -44149,7 +44342,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/people/puma-shen",
-    "readingTime": 209,
+    "readingTime": 210,
     "featured": false,
     "date": "2026-04-27",
     "path": "es/People/puma-shen.md"
@@ -45217,8 +45410,41 @@
     "url": "https://taiwan.md/en/technology/taiwan-semiconductor-industry",
     "readingTime": 194,
     "featured": true,
-    "date": "2026-03-17",
+    "date": "2026-05-25",
     "path": "en/Technology/taiwan-semiconductor-industry.md"
+  },
+  {
+    "title": "Shao You-lian : le gestionnaire de consolidation après l'aura de Liu Ming-chuan, et le véritable ancrage de Taipei comme capitale provinciale",
+    "description": "Fut-il le coupable que l'histoire a marqué comme celui qui mit fin aux « nouvelles politiques », ou le gardien des finances le plus pragmatique du Taïwan des Qing ? Après les grands chantiers lancés par Liu Ming-chuan, Shao You-lian acheva, dans un contexte budgétaire extrêmement contraint, la voie ferrée de Taipei à Hsinchu, ancra officiellement la capitale provinciale de Taïwan à Taipei, et laissa à la postérité un débat difficile à trancher : consolider l'existant relève-t-il du recul, ou d'une autre forme de gouvernement plus proche du réel ?",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/people/shao-you-lian",
+    "readingTime": 52,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "fr/People/shao-you-lian.md"
+  },
+  {
+    "title": "Shao You-lian: el administrador conservador tras el brillo de Liu Ming-chuan y el verdadero anclaje de Taipéi como capital provincial",
+    "description": "¿Fue el culpable que la historia marcó como quien “puso fin a las Nuevas Políticas”, o el guardián fiscal más pragmático del Taiwán de la dinastía Qing? Tras las grandes obras emprendidas por Liu Ming-chuan, Shao You-lian completó, en medio de una hacienda extremadamente restringida, el ferrocarril de Taipéi a Hsinchu, fijó oficialmente la capital provincial de Taiwán en Taipéi y dejó a las generaciones posteriores un debate difícil de resolver: ¿conservar lo existente es retroceder, o es otra forma de gobierno más cercana a la realidad?",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/people/shao-you-lian",
+    "readingTime": 51,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "es/People/shao-you-lian.md"
+  },
+  {
+    "title": "Shao You-lian: The Conservator in Liu Ming-chuan's Shadow, and the True Anchoring of Taipei as Provincial Capital",
+    "description": "Was he the culprit whom history marked as having “ended the New Policies,” or the most pragmatic fiscal gatekeeper of Qing-era Taiwan? Taking over after Liu Ming-chuan's ambitious building program, Shao You-lian completed the railway from Taipei to Hsinchu amid extreme fiscal constraint, formally anchored Taiwan's provincial capital in Taipei, and left later generations with a difficult debate: is consolidation a step backward, or another form of governance closer to reality?",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/people/shao-you-lian",
+    "readingTime": 47,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "en/People/shao-you-lian.md"
   },
   {
     "title": "Shen Sheng-Bo",
@@ -45518,7 +45744,7 @@
     "url": "https://taiwan.md/en/culture/sky-lanterns-pingxi",
     "readingTime": 127,
     "featured": false,
-    "date": "2026-05-27",
+    "date": "2026-06-03",
     "path": "en/Culture/sky-lanterns-pingxi.md"
   },
   {
@@ -45862,7 +46088,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/people/stanley-yen",
-    "readingTime": 79,
+    "readingTime": 80,
     "featured": false,
     "date": "2026-04-06",
     "path": "es/People/stanley-yen.md"
@@ -45873,7 +46099,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/people/stanley-yen",
-    "readingTime": 69,
+    "readingTime": 70,
     "featured": false,
     "date": "2026-04-06",
     "path": "en/People/stanley-yen.md"
@@ -46180,7 +46406,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/society/sunflower-movement",
-    "readingTime": 78,
+    "readingTime": 79,
     "featured": true,
     "date": "2026-04-12",
     "path": "en/Society/sunflower-movement.md"
@@ -46473,7 +46699,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/society/chinese-taipei",
-    "readingTime": 178,
+    "readingTime": 179,
     "featured": false,
     "date": "2026-06-04",
     "path": "fr/Society/chinese-taipei.md"
@@ -46550,15 +46776,7 @@
     "title": "Taiwan AI Academy: The Unfinished Phone Call and Ten Thousand AI Engineers",
     "description": "On March 27, 2020, Chen Sheng-wei solemnly called the editor-in-chief of CommonWealth Magazine: he wanted to create a free programming course for the public. Two days later, he fell while inline skating; 13 days after that, he died at age 44. When he passed away, Taiwan AI Academy (AIA), which he had founded in 2018, had already trained more than 6,000 people. At the same time, the National Development Council’s “AI Small Country, Big Strategy” called for NT$16 billion over five years; Chen built his own school with NT$180 million in private fundraising from six companies, including Formosa Plastics, Chimei, and Inventec. Eight years later, alumni exceeded 10,000. AIA is the most un-Taiwan-like piece of Taiwan’s industrial upgrading puzzle.",
     "category": "en",
-    "tags": [
-      "Artificial Intelligence",
-      "Education",
-      "Chen Sheng-wei",
-      "AIA",
-      "Taiwan Tech Industry",
-      "Academia Sinica",
-      "AI Policy"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/technology/taiwan-ai-academy",
     "readingTime": 149,
     "featured": true,
@@ -49303,7 +49521,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/culture/taiwan-youtuber-industry",
-    "readingTime": 40,
+    "readingTime": 41,
     "featured": false,
     "date": "2026-03-23",
     "path": "en/Culture/taiwan-youtuber-industry.md"
@@ -49416,12 +49634,12 @@
     "path": "en/Food/taiwan-breakfast-culture.md"
   },
   {
-    "title": "Taiwanese Cinema: How a Small Island Changed Global Film Language",
-    "description": "How did Taiwan, producing fewer than 20 films annually, nurture world-class directors who created more profound artistic impact than major studios?",
+    "title": "Taiwanese Cinema: The Person Speaking Beside the Screen, and a Film History That Died and Came Back to Life",
+    "description": "In a 1930 theater, a benshi stood beside the screen and improvised dialogue for silent films in Taiwanese; ninety years later, Cape No. 7 brought five languages back onto the screen together. Taiwanese-language cinema was once the world's third-largest producer of narrative films, yet it was strangled. In the years when New Cinema won the Golden Lion in Venice, domestic films' box-office share in Taiwan fell to just 0.36%. Taiwanese cinema is not a straight line from bad to good, but a history repeatedly declared dead and repeatedly revived.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/art/taiwanese-cinema",
-    "readingTime": 70,
+    "readingTime": 213,
     "featured": true,
     "date": "2026-03-23",
     "path": "en/Art/taiwanese-cinema.md"
@@ -50684,6 +50902,17 @@
     "path": "en/Economy/tech-park-peripheral-business-ecosystem.md"
   },
   {
+    "title": "The Eight Immortals Dust Explosion: The Taiwan Wound Burned Into That Night’s Color Party",
+    "description": "On June 27, 2015, a color party at Formosa Fun Coast triggered an internationally shocking dust-explosion disaster after colored powder flash-ignited. The incident, Taiwan’s deadliest mass-casualty event since the 921 earthquake, left 499 people with burn injuries and 15 dead, fundamentally reshaped Taiwan’s emergency medical system, and drove reforms to safety regulations for large-scale events.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/history/eight-immortals-dust-explosion",
+    "readingTime": 56,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "en/History/eight-immortals-dust-explosion.md"
+  },
+  {
     "title": "The Evolution of Taiwan Mandarin — Four Hundred Years of Linguistic Stratigraphy",
     "description": "How many layers of history are hidden in a single bento? Follow the journey of this word and explore the language that has naturally grown on this island over four centuries.",
     "category": "en",
@@ -50789,12 +51018,12 @@
     "path": "en/History/great-recall-movement-2024.md"
   },
   {
-    "title": "The Island's Last Song: An In-Depth Look at Taiwan's Low Birth Rate Crisis",
-    "description": "When the place in the world least inclined to have children is also the place that loves children most — behind Taiwan's 0.87 fertility rate lies the systemic collapse of an entire social structure.",
+    "title": "The Island's Last Song: The 0.695 Even the Year of the Dragon Could Not Save",
+    "description": "2024 was the Year of the Dragon, when people in Taiwan should have been rushing to have auspicious babies. Yet that year saw 715 fewer babies than the previous year: for the first time in 48 years, the dragon-year magic failed. The following year, the fertility rate collapsed to 0.695. But the real key was never that Taiwanese people do not have children: more than 70% of married couples have two or more. It is non-marriage. Yet the government has spent a decade handing money to people it assumed were 'afraid to have children,' and no country in the world has ever bought its fertility rate back.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/society/taiwan-low-birth-rate-crisis",
-    "readingTime": 68,
+    "readingTime": 196,
     "featured": false,
     "date": "2026-03-24",
     "path": "en/Society/taiwan-low-birth-rate-crisis.md"
@@ -50842,28 +51071,6 @@
     "featured": false,
     "date": "2026-04-25",
     "path": "en/Society/mingjian-incinerator.md"
-  },
-  {
-    "title": "The Mountain Maker: A Century's Bet — A TSMC Epic Without Morris Chang, Filmed from Hsinchu to Purdue",
-    "description": "On the evening of June 2025, 84-year-old Morris Chang and his wife bought two tickets with their own money to enter Shin Yi Wovie Cinema. There were no shots of him giving a formal interview in the film—he was writing the second volume of his autobiography. Hsiao Ju-chen spent five years interviewing over 80 senior figures, from the breakfast briefing at the 1974 Little Hsin Hsin Soy Milk Shop to Tsao Ming-chien entering the White House in 2025. 'The Mountain Maker: A Century's Bet' (A Chip Odyssey) became one of the top five in the history of Taiwanese documentary cinema. In 2026, it entered the lecture halls of three universities in CHIPS Act investment hubs: Purdue, Wisconsin, and Michigan.",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/art/mountain-makers-tsmc-documentary",
-    "readingTime": 67,
-    "featured": false,
-    "date": "2026-04-24",
-    "path": "ko/Art/mountain-makers-tsmc-documentary.md"
-  },
-  {
-    "title": "The Mountain Maker: A Century's Bet — A TSMC Epic Without Tsing-Mao Morris, Filmed from Hsinchu to Purdue",
-    "description": "On an evening in June 2025, 84-year-old Morris Tseng and his wife bought two tickets with their own money to enter the Shin-Yi Wovie Cinema. The film contains no footage of him giving a formal interview—he is currently writing the second volume of his autobiography. Hsiao Ju-cheng spent five years interviewing over 80 senior figures, from a breakfast briefing at the 1974 Hsin-Hsin Hsin Soy Milk Shop to Tsai Ming-kai entering the White House in 2025. 'The Mountain Maker: A Century's Bet' has become one of the top five documentaries in Taiwan's film history, and in 2026, it entered the lecture halls of three universities in CHIPS Act investment hubs: Purdue, Wisconsin, and Michigan.",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/art/mountain-makers-tsmc-documentary",
-    "readingTime": 66,
-    "featured": false,
-    "date": "2026-04-24",
-    "path": "ja/Art/mountain-makers-tsmc-documentary.md"
   },
   {
     "title": "The Mystical Pricing Algorithm of Taiwan Buffet Aunties",
@@ -50921,34 +51128,34 @@
     "path": "en/Society/remote-area-schools-education-act.md"
   },
   {
-    "title": "The Reporter : dix ans pour sauver le journalisme d'investigation, d'activité commerciale à bien public",
-    "description": "Le 1er septembre 2015, jour de la Fête des journalistes, Ho Jung-hsing et Tieh Chih-chih tiennent une conférence de presse pour annoncer la fondation de The Reporter, financée initialement par cinq millions de dollars taïwanais de Tzu-hsien Tung. Dix ans plus tard, ce média à but non lucratif — qui refuse la publicité, n'accepte pas de contrats gouvernementaux et n'affiche pas les taux de clics — a vu son budget annuel de dons passer de 34 millions à 52 millions de dollars taïwanais, remportant pendant plusieurs années consécutives les prix SOPA et les Excellence in Journalism Awards. Leur accomplissement : avoir sauvé le journalisme d'investigation, autrefois simple ligne budgétaire des médias commerciaux, pour en faire un bien public financé par les prélèvements mensuels de lecteurs inconnus.",
+    "title": "The Reporter : dix ans pour faire du journalisme d'enquête, d'une activité commerciale, un bien public",
+    "description": "De 4 donateurs mensuels réguliers à 8 000 par mois, de la trilogie « Les pêcheries de sang et de larmes » au dossier 2026 sur le front uni, les coûts que The Reporter a brûlés en dix ans - huit mois d'infiltration, des reportages dans trois pays, la comparaison de dossiers d'infractions sur plusieurs années - correspondent précisément à ce que l'ère algorithmique donne le moins envie de payer pour lire. La société civile de cette île, par des prélèvements mensuels effectués par des inconnus, a sauvé le journalisme d'enquête d'une ligne d'activité des médias commerciaux pour en faire un bien public sans cesse entretenu, mais dont le coût brûle toujours plus vite.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/society/the-reporter-investigative-journalism",
-    "readingTime": 123,
+    "readingTime": 233,
     "featured": true,
     "date": "2026-04-29",
     "path": "fr/Society/the-reporter-investigative-journalism.md"
   },
   {
-    "title": "The Reporter: diez años rescatando el periodismo de investigación de un rubro comercial para convertirlo en bien público",
-    "description": "El 1 de septiembre de 2015, Día del Periodista, Ho Jung-hsing y Tieh Chih-cheng anunciaron en conferencia de prensa la fundación de The Reporter, un medio de periodismo de investigación sin fines de lucro financiado inicialmente con 5 millones de dólares taiwaneses por Tzu-hsien Tung. Diez años después, este medio que rechaza la publicidad, no acepta contratos gubernamentales y no muestra cifras de clics pasó de recaudar 34 millones a 52 millones de dólares taiwaneses anuales, y ganó durante varios años consecutivos los premios SOPA y los Premios a la Excelencia Periodística. Lo que hicieron fue rescatar el periodismo de investigación de ser un rubro comercial de los medios corporativos para convertirlo en un bien público sostenido por donaciones mensuales de lectores desconocidos.",
+    "title": "The Reporter: diez años rescatando el periodismo de investigación de una línea de negocio para convertirlo en bien público",
+    "description": "De 4 donantes periódicos a 8.000 al mes; de la trilogía Campos pesqueros de sangre y lágrimas al especial de 2026 sobre el frente unido: los costos que The Reporter quemó en diez años —ocho meses de infiltración, entrevistas en tres países, comparación de años de registros de infracciones— son precisamente aquello que menos gente quiere pagar por leer en la era del algoritmo. La sociedad civil de esta isla, mediante cargos mensuales a desconocidos, rescató el periodismo de investigación de una línea de negocio de los medios comerciales y lo convirtió en un bien público que se sigue sosteniendo, aunque arde cada vez más rápido.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/society/the-reporter-investigative-journalism",
-    "readingTime": 123,
+    "readingTime": 221,
     "featured": true,
     "date": "2026-04-29",
     "path": "es/Society/the-reporter-investigative-journalism.md"
   },
   {
-    "title": "The Reporter: Ten Years of Rescuing Investigative Journalism from a Commercial Line Item into a Public Good",
-    "description": "On September 1, 2015 — Journalists' Day in Taiwan — Ho Jung-hung and Chang Tieh-chih announced the founding of The Reporter (報導者) at a press conference, with an initial NT$5 million donation from ASUS co-founder Tung Tzu-hsien. Ten years on, this nonprofit media outlet that refuses advertising, government contracts, and internal traffic metrics has grown its annual fundraising from NT$34 million to NT$52 million, earned back-to-back SOPA and Excellence in Journalism Awards, and turned investigative journalism from a commercial media line item into a public good sustained by monthly donations from strangers.",
+    "title": "The Reporter: Ten Years of Turning Investigative Journalism from a Line of Business into a Public Good",
+    "description": "From 4 recurring donors to 8,000 each month, from the Blood-Stained Fishing Grounds trilogy to the 2026 united-front special report, the costs The Reporter has burned through over a decade--eight months undercover, reporting across three countries, comparing years of violation records--are exactly the things people least want to pay to read in the algorithmic age. Taiwan's civil society, through monthly deductions from strangers' accounts, has rescued investigative journalism from a line of business in commercial media and turned it into a public good that is constantly being sustained, even as it burns through resources ever faster.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/society/the-reporter-investigative-journalism",
-    "readingTime": 103,
+    "readingTime": 206,
     "featured": true,
     "date": "2026-04-29",
     "path": "en/Society/the-reporter-investigative-journalism.md"
@@ -51042,13 +51249,13 @@
     "path": "en/Society/thinking-taiwan-forum.md"
   },
   {
-    "title": "Thirty Years of Platform Hopping: How Taiwan Keeps Moving — and Forgetting",
-    "description": "Every five years, Taiwan collectively packs up and moves to a new platform. Every time, they leave a generation of memories behind.",
+    "title": "Thirty Years of Taiwan Online Communities — A History of Lost Ground, Where the URLs Survive but the Photos Don't",
+    "description": "From the Formosa BBS to Threads, Taiwanese users have collectively moved house every few years, leaving the previous generation's memories behind every shut-off switch. The thirty-year migration looks like a clean evolutionary line, but underneath it is a history of lost ground — the platforms with the highest engagement have the lowest data sovereignty.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/technology/taiwan-online-community-migration",
-    "readingTime": 60,
-    "featured": false,
+    "readingTime": 156,
+    "featured": true,
     "date": "2026-03-29",
     "path": "en/Technology/taiwan-online-community-migration.md"
   },
@@ -51158,7 +51365,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/art/no-mans-land-art-platform",
-    "readingTime": 152,
+    "readingTime": 153,
     "featured": false,
     "date": "2026-05-17",
     "path": "es/Art/no-mans-land-art-platform.md"
@@ -51543,32 +51750,24 @@
     "path": "en/Geography/treasure-hill.md"
   },
   {
-    "title": "Treinta años de las comunidades en línea en Taiwán: historia de la migración de BBS a Threads",
-    "description": "Los taiwaneses se mudan colectivamente cada cinco años, y cada vez abandonan la memoria de la generación anterior",
+    "title": "Treinta años de comunidades en línea taiwanesas — Una historia de tierra perdida, donde las URL se recuperan pero las fotos no",
+    "description": "Del BBS Bella Isla a Threads, los taiwaneses se mudan colectivamente cada pocos años, dejando atrás los recuerdos de la generación anterior detrás de cada interruptor apagado. La migración de tres décadas parece una línea evolutiva pulcra, pero su esqueleto es una historia de tierra perdida: los lugares con mayor adherencia son los de menor soberanía sobre los datos.",
     "category": "es",
-    "tags": [
-      "BBS",
-      "無名小站",
-      "Facebook",
-      "LINE",
-      "Threads",
-      "網路文化",
-      "社群平台"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/es/technology/taiwan-online-community-migration",
-    "readingTime": 70,
-    "featured": false,
+    "readingTime": 179,
+    "featured": true,
     "date": "2026-03-29",
     "path": "es/Technology/taiwan-online-community-migration.md"
   },
   {
-    "title": "Trente ans de communautés en ligne à Taïwan — Des BBS à Threads, une histoire de migration",
-    "description": "Les Taïwanais déménagent collectivement tous les cinq ans, et à chaque fois, ils perdent la mémoire de la génération précédente",
+    "title": "Trente ans de communautés en ligne taïwanaises — Une histoire de territoires perdus, où les URL reviennent mais pas les photos",
+    "description": "Du BBS « Belle Île » à Threads, les Taïwanais déménagent collectivement tous les quelques années, laissant à chaque fois la mémoire de la génération précédente derrière un interrupteur éteint. Ces trente ans de migrations ressemblent à une ligne d'évolution propre, mais leur ossature est une histoire de territoires perdus : les endroits où l'adhérence est la plus forte sont ceux où la souveraineté sur les données est la plus faible.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/technology/taiwan-online-community-migration",
-    "readingTime": 71,
-    "featured": false,
+    "readingTime": 183,
+    "featured": true,
     "date": "2026-03-29",
     "path": "fr/Technology/taiwan-online-community-migration.md"
   },
@@ -51633,7 +51832,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/people/tsai-ing-wen",
-    "readingTime": 70,
+    "readingTime": 72,
     "featured": false,
     "date": "2026-03-17",
     "path": "fr/People/tsai-ing-wen.md"
@@ -51644,7 +51843,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/people/tsai-ing-wen",
-    "readingTime": 58,
+    "readingTime": 59,
     "featured": false,
     "date": "2026-03-17",
     "path": "es/People/tsai-ing-wen.md"
@@ -51663,7 +51862,7 @@
       "原住民族"
     ],
     "url": "https://taiwan.md/en/people/tsai-ing-wen",
-    "readingTime": 64,
+    "readingTime": 65,
     "featured": false,
     "date": "2026-03-17",
     "path": "en/People/tsai-ing-wen.md"
@@ -52199,23 +52398,7 @@
     "title": "Ville de Kaohsiung : en 1979, l’année de son élévation au rang de municipalité spéciale, huit habitants de Kaohsiung étaient enfermés dans une prison de Taipei",
     "description": "Le 1er juillet 1979, Kaohsiung devint la deuxième municipalité spéciale de Taïwan ; le 10 décembre, Journée mondiale des droits de l’homme, le meeting de la revue Formosa au rond-point de Dagangpu se transforma en affrontement sous les gaz lacrymogènes. Huit personnes furent condamnées ; le 28 février 1980, un massacre eut lieu au domicile de Lin Yi-hsiung, rue Xinyi à Taipei. Cette même année 1979, Kaohsiung reçut une gloire administrative et avala aussi la répression politique la plus lourde du Taïwan d’après-guerre. Ses 2,71 millions d’habitants sont dispersés dans 38 districts ; le cordon sableux de Cijin, les villages bunun de Namaxia, les cheminées de China Steel et le toit d’aluminium de Weiwuying cohabitent dans une même ville, qui a passé 45 ans à recoudre ses blessures jusqu’à leur donner sa propre forme.",
     "category": "fr",
-    "tags": [
-      "Kaohsiung",
-      "Ville de Kaohsiung",
-      "Sud",
-      "Municipalité spéciale",
-      "Port de Kaohsiung",
-      "Incident de Formosa",
-      "Rivière de l’Amour",
-      "China Steel",
-      "Weiwuying",
-      "Marché de nuit de Liuhe",
-      "Dôme de Lumière",
-      "Meinong",
-      "Namaxia",
-      "Catastrophe du 8 août",
-      "Série des 22 villes et comtés"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/fr/geography/kaohsiung-city",
     "readingTime": 264,
     "featured": false,
@@ -52759,7 +52942,7 @@
     "url": "https://taiwan.md/en/music/chou-hui",
     "readingTime": 189,
     "featured": false,
-    "date": "2026-05-19",
+    "date": "2026-05-28",
     "path": "en/Music/chou-hui.md"
   },
   {
@@ -52923,40 +53106,34 @@
     "path": "en/History/withdrawal-from-united-nations.md"
   },
   {
-    "title": "Wretch.cc : du dortoir universitaire aux archives d'une génération connectée",
-    "description": "Comment un projet étudiant né de pièces de récupération est devenu la plateforme sociale qui a façonné toute une génération taïwanaise ?",
+    "title": "Wretch : des ordinateurs récupérés, une jeunesse vendue, et une disparition que personne n’a accompagnée",
+    "description": "En 1999, dans un dortoir de l’Université Chiao Tung, six étudiants en informatique assemblent avec du matériel réformé du département un BBS appelé « Wretch ». Il devient la plus grande plateforme de blogs de Taïwan, le berceau de la première génération de créateurs taïwanais, et dépasse même Yahoo en 2008 pour devenir le premier site du pays. Puis Yahoo le rachète et, dans la nuit du 26 décembre 2013, le supprime avec les albums photo de toute une génération. Aujourd’hui, la plupart des gens ne récupèrent que des albums vides impossibles à ouvrir. On s’en souvient comme d’une jeunesse, mais cette jeunesse était dès le départ posée sur des serveurs que quelqu’un d’autre pouvait éteindre.",
     "category": "fr",
-    "tags": [
-      "histoire dinternet",
-      "réseaux sociaux",
-      "BBS",
-      "blog",
-      "rachat par Yahoo"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/fr/culture/wretch",
-    "readingTime": 37,
+    "readingTime": 158,
     "featured": false,
     "date": "2026-03-23",
     "path": "fr/Culture/wretch.md"
   },
   {
-    "title": "Wretch.cc: De un dormitorio universitario a guardián de la memoria digital taiwanesa",
-    "description": "¿Cómo un proyecto estudiantil nacido de «recolectar chatarra» se convirtió en la plataforma social que marcó a toda una generación de taiwaneses?",
+    "title": "Wretch: computadoras rescatadas, juventud vendida y una desaparición sin funeral",
+    "description": "En 1999, en un dormitorio de la Universidad Chiao Tung, seis estudiantes de informática armaron con equipos descartados del departamento un BBS llamado «Wretch». Creció hasta convertirse en la mayor plataforma de blogs de Taiwán, en la cuna de la primera generación de creadores taiwaneses, y en 2008 incluso superó a Yahoo para convertirse en el sitio web número uno del país. Luego Yahoo lo compró y, la noche del 26 de diciembre de 2013, lo borró junto con los álbumes de toda una generación. Hoy, la mayoría sólo logra recuperar álbumes vacíos que ya no se abren. Se lo recuerda como juventud, pero esa juventud estuvo desde el principio en servidores que otros podían apagar.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/culture/wretch",
-    "readingTime": 41,
+    "readingTime": 150,
     "featured": false,
     "date": "2026-03-23",
     "path": "es/Culture/wretch.md"
   },
   {
-    "title": "Wretch.cc: From Dorm Room \"Scavenging\" to Taiwan Digital Memory Keeper",
-    "description": "How a student project built with \"scavenged\" equipment became the social platform that defined an entire generation of Taiwanese internet users",
+    "title": "Wretch: Picked‑up Computers, Sold‑off Youth, and a Disappearance No One Mourned",
+    "description": "In 1999 at NCTU dorms, six computer‑science students cobbled together a BBS called “Wretch” from the department’s discarded equipment. It grew into Taiwan’s largest blog platform and the cradle of the first generation of creators; in March 2008 it even topped Yahoo to become the top site in Taiwan. Then Yahoo bought it, and on the night of 26 December 2013 it was deleted along with a generation’s photo albums; today most people can only retrieve empty, unopenable albums. It is remembered as youth, yet that youth was from the start stored on a server whose power could be turned off by someone else.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/culture/wretch",
-    "readingTime": 34,
+    "readingTime": 104,
     "featured": false,
     "date": "2026-03-23",
     "path": "en/Culture/wretch.md"
@@ -53378,7 +53555,7 @@
     "url": "https://taiwan.md/en/people/ya-hsien-poet",
     "readingTime": 118,
     "featured": true,
-    "date": "2026-06-14",
+    "date": "2026-05-28",
     "path": "en/People/ya-hsien-poet.md"
   },
   {
@@ -54455,23 +54632,7 @@
     "title": "가오슝시: 1979년 직할시로 승격되던 그해, 타이베이의 감옥에는 가오슝 사람 여덟 명이 갇혀 있었다",
     "description": "1979년 7월 1일 가오슝은 타이완의 두 번째 직할시로 승격되었고, 12월 10일 세계 인권의 날에는 메이리다오 잡지사가 다강푸 로터리에서 연설을 열려던 일이 최루탄 아래의 충돌로 변했다. 여덟 명이 형을 선고받았고, 1980년 2월 28일 린이슝의 타이베이 신이로 자택에서는 참극이 전해졌다. 같은 1979년에 가오슝은 행정적 영예를 얻었고, 전후 타이완에서 가장 무거운 정치적 탄압도 삼켰다. 271만 명은 38개 구에 흩어져 있고, 치진 사주, 나마샤 부눈족 부락, 중국강철의 굴뚝, 웨이우잉의 알루미늄 합금 지붕이 한 도시에 함께 산다. 이 도시는 45년에 걸쳐 상처를 자기만의 형태로 꿰매 왔다.",
     "category": "ko",
-    "tags": [
-      "가오슝",
-      "가오슝시",
-      "남부",
-      "직할시",
-      "가오슝항",
-      "메이리다오 사건",
-      "아이허",
-      "중국강철",
-      "웨이우잉",
-      "류허 야시장",
-      "빛의 돔",
-      "메이눙",
-      "나마샤",
-      "88 수해",
-      "22개 현시 시리즈"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ko/geography/kaohsiung-city",
     "readingTime": 106,
     "featured": false,
@@ -54759,6 +54920,24 @@
     "featured": false,
     "date": "2026-03-26",
     "path": "ko/Culture/guan-sheng-di-jun-belief.md"
+  },
+  {
+    "title": "관차이반: 불길한 이름에서 타이난의 일본식·서양식 혼합 진미로",
+    "description": "1940년대 말 타이난 사카리바에 「지간반」이라는 간식이 등장했으며, 독특한 외형 때문에 「관차이반」이라는 별명으로 불렸다. 쉬류이 선생이 발명한 이 요리는 바삭하게 튀긴 토스트 안에 닭간과 버터 루를 채운 음식으로, 전후 물자 부족 속의 영양 보급원이었을 뿐 아니라 CNN 보도에도 소개되어 타이난의 「일본식·서양식 혼합」 음식 문화를 대표하는 국제적 명함이 되었다.",
+    "category": "ko",
+    "tags": [
+      "타이난 간식",
+      "관차이반",
+      "쉬류이",
+      "사카리바",
+      "지간반",
+      "CNN 보도"
+    ],
+    "url": "https://taiwan.md/ko/food/coffin-bread",
+    "readingTime": 15,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "ko/Food/coffin-bread.md"
   },
   {
     "title": "교공밴드(交工樂隊)",
@@ -56478,17 +56657,6 @@
     "path": "ko/Music/taiwan-screen-scoring-from-cinema-to-games.md"
   },
   {
-    "title": "대만 영화: 작은 섬이 어떻게 세계 영화 언어를 바꿨는가",
-    "description": "연간 20편도 안 되는 영화를 만드는 대만이 어떻게 세 명의 세계적 감독을 배출하고 할리우드보다 깊은 예술적 영향력을 창출했는가?",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/art/taiwanese-cinema",
-    "readingTime": 32,
-    "featured": true,
-    "date": "2026-03-23",
-    "path": "ko/Art/taiwanese-cinema.md"
-  },
-  {
     "title": "대만 예술교육과 대학 제도의 발전",
     "description": "사범계 체제에서 전문 예술대학에 이르기까지, 대만 예술교육의 제도 변혁과 인재 양성",
     "category": "ko",
@@ -56504,17 +56672,6 @@
     "featured": true,
     "date": "2026-03-19",
     "path": "ko/Art/taiwanese-art-education-and-academic-development.md"
-  },
-  {
-    "title": "대만 온라인 커뮤니티 30년——BBS에서 Threads로의 이주사",
-    "description": "대만인들은 5년마다 한 번씩 집단적으로 이사하며, 그때마다 이전 세대의 기억을 잃어버린다",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/technology/taiwan-online-community-migration",
-    "readingTime": 33,
-    "featured": false,
-    "date": "2026-03-29",
-    "path": "ko/Technology/taiwan-online-community-migration.md"
   },
   {
     "title": "대만 왕나방",
@@ -56783,20 +56940,23 @@
     "title": "대만 인공지능학교: 끝내지 못한 전화 한 통과 1만 명의 AI 엔지니어",
     "description": "2020년 3월 27일, 천성웨이는 천하잡지 편집장에게 신중하게 전화를 걸었다. 그는 무료 국민 프로그래밍 수업을 열고 싶어 했다. 이틀 뒤 그는 인라인스케이트를 타다 넘어졌고, 13일 뒤 44세로 사망했다. 그가 세상을 떠났을 때, 2018년 자신이 설립한 대만 인공지능학교(AIA)는 이미 6,000명 이상을 훈련시킨 상태였다. 같은 시기 국가발전위원회는 “AI 소국 대전략”을 내세우며 5년 160억을 외쳤지만, 그는 대만플라스틱, 치메이, 인벤텍 등 여섯 기업으로부터 민간 자금 1억 8,000만을 모아 스스로 학교를 세웠다. 8년 뒤 동문은 1만 명을 넘어섰다. AIA는 대만 산업 고도화의 퍼즐 가운데, 가장 대만답지 않은 조각이다.",
     "category": "ko",
-    "tags": [
-      "인공지능",
-      "교육",
-      "천성웨이",
-      "AIA",
-      "대만 기술산업",
-      "중앙연구원",
-      "AI 정책"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ko/technology/taiwan-ai-academy",
     "readingTime": 72,
     "featured": true,
     "date": "2026-05-18",
     "path": "ko/Technology/taiwan-ai-academy.md"
+  },
+  {
+    "title": "대만 인터넷 커뮤니티 30년——URL은 되찾아도 사진은 못 되찾는 실토(失土)의 역사",
+    "description": "메이리즈다오(美麗之島) BBS에서 Threads까지, 대만인은 몇 년에 한 번씩 집단으로 이사를 거듭하며, 매번 이전 세대의 기억을 꺼진 전원 스위치 뒤편에 두고 왔다. 30년의 이주사는 깔끔한 플랫폼 진화선처럼 보이지만, 그 뼈대는 「이 땅은 누구의 것인가」를 묻는 실토의 역사이다——점착도가 가장 높은 곳이, 데이터 주권은 가장 낮았다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/technology/taiwan-online-community-migration",
+    "readingTime": 85,
+    "featured": true,
+    "date": "2026-03-29",
+    "path": "ko/Technology/taiwan-online-community-migration.md"
   },
   {
     "title": "대만 일렉트로닉 음악과 파티 문화: 언더그라운드 레이브에서 무대 위로",
@@ -58584,17 +58744,6 @@
     "path": "ko/History/rover-incident-and-tauketok.md"
   },
   {
-    "title": "루관위",
-    "description": "대만 대의학과를 졸업하고 의사의 길을 버리고 교육에 뛰어든 준원교육플랫폼 이사장 겸 대표이사. AI 적응형 학습으로 528만 명의 대만 아이들이 자신의 속도대로 나아가게 하며, '교육 평등'을 구호가 아닌 일상으로 만든 인물.",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/people/lu-guan-wei-junyiacademy-founder",
-    "readingTime": 11,
-    "featured": false,
-    "date": "2026-04-05",
-    "path": "ko/People/lu-guan-wei-junyiacademy-founder.md"
-  },
-  {
     "title": "루관중: 버스에 치인 삼관왕",
     "description": "2003년 타이난 출신 청년이 야식을 사러 나갔다가 버스에 다리를 치였다. 병상에서 무료함을 달래려 기타를 잡은 것이 22년 뒤 대만 역사상 최연소 삼관왕으로 이어진다—금곡상, 금종상, 금마상 모두 한 자루 기타와 한 번 부러진 다리로 걸어온 길.",
     "category": "ko",
@@ -58673,6 +58822,17 @@
     "path": "ko/Geography/tadian-mountain.md"
   },
   {
+    "title": "뤼관웨이: 의사 면허를 땄지만 흰 가운을 입지 않은 그는 사람을 살리는 일보다 증명하기 더 어려운 일에 걸었다",
+    "description": "그는 의사 면허를 땄지만 흰 가운을 입지 않았고, 팡신저우의 쥔이 교육 플랫폼을 이어받아 온라인 자기주도학습으로 타이완의 교육 격차를 메우려 했다. 그러나 전 세계 연구는 거의 한쪽을 가리킨다. 이런 도구는 애초에 부족하지 않은 아이들에게 가장 도움이 된다는 것이다. 12년이 지난 지금, 그가 건 일은 여전히 성공했다는 독립적 증거가 없다. 그리고 그가 '증명할 수 없음'을 대하는 방식은 그가 무엇을 포기했는가보다 더 기억할 만하다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/people/lu-guan-wei-junyiacademy-founder",
+    "readingTime": 92,
+    "featured": false,
+    "date": "2026-04-05",
+    "path": "ko/People/lu-guan-wei-junyiacademy-founder.md"
+  },
+  {
     "title": "뤼슈렌",
     "description": "내란범에서 부총통까지: 중화권 최초 여성 부총통의 전설적인 삶",
     "category": "ko",
@@ -58688,6 +58848,17 @@
     "featured": false,
     "date": "2026-03-22",
     "path": "ko/People/annette-lu.md"
+  },
+  {
+    "title": "류명전: 타이완 최초의 전등을 밝힌, 권력과 논쟁 속을 달린 근대화 선구자",
+    "description": "염전 밀매업자의 아들에서 타이완 초대 순무에 이르기까지, 류명전은 타이완에서 보낸 6년 동안 철도와 우편 제도를 추진했을 뿐 아니라 타이베이 성 안에 대청제국 최초의 전등을 밝혔다. 그러나 그의 ‘기륭 철수와 호미 지원’이라는 전략적 결정, 그리고 조급했던 원주민 통치와 토지세 정비 정책 역시 역사의 긴 흐름 속에 깊은 논쟁과 그림자를 남겼다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/people/liu-mingchuan",
+    "readingTime": 18,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "ko/People/liu-mingchuan.md"
   },
   {
     "title": "류안팅",
@@ -59171,23 +59342,6 @@
     "path": "ko/People/monaneng.md"
   },
   {
-    "title": "무명소잔(無名小站): 기숙사에서 태어나 대만 인터넷 세대의 청춘을 품다",
-    "description": "\"고물 줍기\"로 시작한 대학생 프로젝트가 어떻게 한 세대 전체의 삶을 바꾼 소셜 플랫폼이 되었는가",
-    "category": "ko",
-    "tags": [
-      "인터넷 역사",
-      "소셜 미디어",
-      "BBS",
-      "블로그",
-      "Yahoo 인수"
-    ],
-    "url": "https://taiwan.md/ko/culture/wretch",
-    "readingTime": 18,
-    "featured": false,
-    "date": "2026-03-23",
-    "path": "ko/Culture/wretch.md"
-  },
-  {
     "title": "미디어텍 (MediaTek) — 짝퉁폰의 왕에서 퀄컴을 누른 칩 제국으로",
     "description": "산자이폰의 왕이라 비웃음받던 회사가 스마트폰 칩 시장 점유율 퀄컴의 1.5배를 달성하기까지",
     "category": "ko",
@@ -59217,18 +59371,19 @@
     "path": "ko/History/formosa-incident.md"
   },
   {
-    "title": "미인 Miin",
-    "description": "PTT 창립자 두이진이 만든 AI 뉴스 집계 플랫폼으로, 알고리즘을 통해 가짜 뉴스와 조직적 계정 조작을 탐지한다. 펠로시 대만 방문 당시 Miin 데이터에 따르면 트위터의 관련 계정 4개 중 1개가 인지전에 가담한 것으로 나타났다. 그러나 2025년, AI 크롤러가 뉴스를 무단 수집한다는 저작권 침해 주장이 제기되면서 AI 집계와 언론 저작권 사이의 회색지대가 수면 위로 떠올랐다.",
+    "title": "미인 Miin: 같은 “정보는 자유로워야 한다”라는 말이 두이진에게 PTT를 만들게 했고, 저작권 소송으로도 이끌었다",
+    "description": "1995년 그는 “정보는 자유로워야 한다”라는 믿음으로 타이완대 기숙사에 PTT를 세웠고, 2017년 타이완으로 돌아와 인지전을 수행하는 협동 계정을 잡아내는 AI를 만들었으며, 다시 허위정보에 맞서겠다며 타인의 뉴스를 집합했다가 고소당했다. 같은 신념은 그의 무기였고, 동시에 소송의 이유가 되었다. 그리고 타이완은 마침 전 세계가 아직 풀지 못한 이 문제의 최전선에 서 있다.",
     "category": "ko",
     "tags": [
       "AI",
-      "가짜 뉴스",
-      "디지털 회복력",
+      "허위정보",
+      "인지전",
+      "디지털 회복탄력성",
       "두이진",
-      "인지전"
+      "저작권"
     ],
     "url": "https://taiwan.md/ko/technology/miin-music-app",
-    "readingTime": 11,
+    "readingTime": 62,
     "featured": false,
     "date": "2026-04-01",
     "path": "ko/Technology/miin-music-app.md"
@@ -59302,6 +59457,17 @@
     "featured": false,
     "date": "2026-05-08",
     "path": "ko/Nature/palakaw.md"
+  },
+  {
+    "title": "바셴 분진 폭발: 그날 밤, 컬러 파티가 타이완에 남긴 상흔",
+    "description": "2015년 6월 27일, 바셴 놀이공원의 컬러 파티에서 분진 순간 발화로 국제적 충격을 일으킨 분진 폭발 사고가 발생했다. 타이완 역사상 921 대지진 이후 가장 심각한 집단 사상 사건인 이 사고는 499명의 화상 환자와 15명의 사망자를 낳았고, 타이완의 응급의료 체계를 근본적으로 바꾸었으며 대형 행사 안전 법규의 혁신도 촉진했다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/history/eight-immortals-dust-explosion",
+    "readingTime": 24,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "ko/History/eight-immortals-dust-explosion.md"
   },
   {
     "title": "바오장옌: 30년 동안 철거 대상이었던 무허가 취락이 마침내 타이베이에서 가장 멋진 예술촌이 되다",
@@ -59620,6 +59786,17 @@
     "path": "ko/People/ricky-hsiao-singer.md"
   },
   {
+    "title": "샤오후두이: 사 온 선율에, 자신의 청춘을 채우다",
+    "description": "1988년 화시의 한 오디션 프로그램은 샤오마오두이와 함께 노래하고 춤출 남학생 세 명을 찾으려 했다. 그 결과 일본 노래를 번안하고 일본 쇼넨타이를 모방한 아이돌 그룹이 선발되었다. 닷새 만에 20만 장을 팔고, 팬들이 타이베이에서 가오슝까지 줄곧 따라붙었으며, 1991년에는 해협을 건넜다. 부품은 거의 모두 수입품이었지만, 타이완은 그것을 한 세대의 가장 단단한 청춘으로 기억했다. 그리고 가장 유명했던 세 몸은 훗날 모두 해협을 건넜다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/music/little-tigers-taiwan-boy-band",
+    "readingTime": 64,
+    "featured": false,
+    "date": "2026-03-24",
+    "path": "ko/Music/little-tigers-taiwan-boy-band.md"
+  },
+  {
     "title": "서가윤: 호스피스 간호사에서 골든 멜로디 여왕까지, 오디션 우승을 창작의 주제로 바꾼 사람",
     "description": "2008년 서가윤은 간호 일을 그만두고 가족에게 숨기고 《슈퍼 스타 빛나는 무대》 3기에 지원했으며, 기차표를 사서 타이중으로 돌아갈 뻔했다. 〈백마를 타고〉는 가극(歌仔戲)을 오디션 무대에 가져왔고, 2018년 《심리학》으로 골든 멜로디 여왕과 최우수 중국어 앨범을 동시에 수상했다. 이후 《주다》와 〈함께 있지 않으면 헤어지지 않는다〉에 이르러, 그녀는 평가받던 인생을 서서히 자신의 문제로 바꾸어 써 내려갔다.",
     "category": "ko",
@@ -59640,6 +59817,17 @@
     "featured": false,
     "date": "2026-05-03",
     "path": "ko/People/hsu-chiao-hsin.md"
+  },
+  {
+    "title": "서우잉창이: 궈타이창의 애니메이션 꿈에서 타이난 골목의 《팔계》까지",
+    "description": "한때 궈타이창이 투자한 ‘서우잉창이’는 타이완 창작 애니메이션의 서광을 열었으나 시장 현실 속에서 방향을 전환했다. 그와 공생하던 studio2는 타이난에서 20년을 버텼고, 마침내 《팔계》로 금마장을 거머쥐며 타이완 애니메이션이 하청에서 창작으로 나아간 피와 눈물의 역사를 써냈다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/art/first-image-creative",
+    "readingTime": 18,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "ko/Art/first-image-creative.md"
   },
   {
     "title": "서희원: 천진난만한 미소녀에서 \"이사일중상\"의 강렬한 여왕으로",
@@ -59688,7 +59876,7 @@
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/people/puma-shen",
-    "readingTime": 91,
+    "readingTime": 92,
     "featured": false,
     "date": "2026-04-27",
     "path": "ko/People/puma-shen.md"
@@ -59738,18 +59926,20 @@
     "path": "ko/People/shen-wencheng.md"
   },
   {
-    "title": "섬의 마지막 노래: 대만 저출생 위기 심층 분석",
-    "description": "세상에서 아이를 가장 원하지 않는 곳이 동시에 아이를 가장 사랑하는 곳이기도 한 대만—출산율 0.87이라는 숫자 이면의 사회 구조적 붕괴",
+    "title": "섬의 마지막 노랫소리: 용의 해도 구하지 못한 0.695",
+    "description": "2024년은 용의 해였으므로 타이완인들은 길상을 바라고 출산을 서둘렀어야 했다. 그러나 그해 신생아는 전년보다 오히려 715명 줄었고, 48년 만에 처음으로 용의 해의 마법이 효력을 잃었다. 이듬해 출산율은 0.695까지 무너졌다. 그러나 진짜 암호는 애초에 타이완인들이 아이를 낳지 않는다는 데 있지 않다. 혼인 후 70% 이상은 둘째 이상을 낳는다. 문제는 비혼이다. 그런데 정부는 10년 동안 ‘낳을 엄두를 내지 못하는’ 사람들을 향해 돈을 뿌렸고, 세계 어디에도 출산율을 돈으로 되사온 국가는 없다.",
     "category": "ko",
     "tags": [
-      "저출생",
-      "인구 위기",
+      "저출산",
+      "인구",
       "출산율",
-      "사회 변화",
+      "비혼",
+      "고령화",
+      "인구정책",
       "세대"
     ],
     "url": "https://taiwan.md/ko/society/taiwan-low-birth-rate-crisis",
-    "readingTime": 29,
+    "readingTime": 91,
     "featured": false,
     "date": "2026-03-24",
     "path": "ko/Society/taiwan-low-birth-rate-crisis.md"
@@ -59828,23 +60018,6 @@
     "featured": true,
     "date": "2026-04-14",
     "path": "ko/Music/fire-ex.md"
-  },
-  {
-    "title": "소호대(小虎隊)",
-    "description": "1988년 화시(華視) 오디션 프로그램에서 탄생한 소호대는 오기룡(吳奇隆), 진지붕(陳志朋), 소우붕(蘇有朋)으로 구성되었으며, 밝고 활기찬 이미지와 고무적인 댄스곡으로 대만 최초의 남자 아이돌 그룹이 되어 중화권 대중음악의 청춘 아이돌 시대를 열었고, 양안삼지(兩岸三地) 공통의 청춘 기억이 되었다.",
-    "category": "ko",
-    "tags": [
-      "대만 대중음악",
-      "아이돌 그룹",
-      "소호대",
-      "80년대 음악",
-      "청춘 문화"
-    ],
-    "url": "https://taiwan.md/ko/music/little-tigers-taiwan-boy-band",
-    "readingTime": 13,
-    "featured": false,
-    "date": "2026-03-24T23:00:00Z",
-    "path": "ko/Music/little-tigers-taiwan-boy-band.md"
   },
   {
     "title": "손燕姿: 1표 차이로 주걸륜을 꺾고, AI가 1000곡의 목소리를 복제했지만 그녀는 \"나 자신으로 충분하다\"고 말했다",
@@ -60937,6 +61110,17 @@
     "featured": true,
     "date": "2026-03-19",
     "path": "ko/People/tai-yu-wu.md"
+  },
+  {
+    "title": "우밍샤오잔(無名小站): 주워 온 컴퓨터, 팔려나간 청춘, 그리고 아무도 장송하지 않은 소멸",
+    "description": "1999년 자오퉁대학(交通大學) 기숙사에서 정보공학과 학생 여섯 명이 학과 폐기 장비를 그러모아 「우밍(無名)」이라는 BBS를 만들었다. 이는 대만 최대의 블로그 플랫폼이자 대만 1세대 크리에이터의 요람으로 성장했고, 2008년에는 야후를 제치고 대만 1위 웹사이트가 되었다. 그러나 야후가 인수했고, 2013년 12월 26일 밤 한 세대의 사진첩과 함께 삭제되었다. 오늘날 대부분은 열리지 않는 빈 사진첩만 건져낼 수 있다. 사람들은 그것을 청춘으로 기억하지만, 그 청춘은 처음부터 다른 사람이 끌 수 있는 서버 위에 놓여 있었다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/culture/wretch",
+    "readingTime": 72,
+    "featured": false,
+    "date": "2026-03-23",
+    "path": "ko/Culture/wretch.md"
   },
   {
     "title": "우밍이 — 복안(複眼)으로 세계를 보는 작가",
@@ -62188,6 +62372,17 @@
     "path": "ko/People/jamie-lin-ai-industry-pioneer.md"
   },
   {
+    "title": "조산자(造山者): 세기의 도박 — 제목에서 한 글자를 깎아내야 비로소 입에 올릴 수 있었던 타이완 반도체 서사시",
+    "description": "2025년 6월 13일 개봉한 다큐멘터리 《조산자(A Chip Odyssey)》는 타이완 반도체의 대체 불가능한 서사시를 이야기한다. 그러나 원래 제목은 《실리콘 실드(矽盾)》였다. 샤오쥐전(蕭菊貞)은 이 산업의 \"우환 속에서 태어난\" 모습을 담아내기 위해 5년 동안 80여 명을 인터뷰했지만, 제목에서는 가장 날카로운 한 글자를 깎아내야 했다 — 이 섬은 자신의 가장 강력한 카드를 자랑할 때조차도, 건너편이 어떻게 들을지를 먼저 가늠해야 한다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/art/mountain-makers-tsmc-documentary",
+    "readingTime": 94,
+    "featured": true,
+    "date": "2026-06-16",
+    "path": "ko/Art/mountain-makers-tsmc-documentary.md"
+  },
+  {
     "title": "조자강: 난릉극방의 계몽에서 과할머니 앞치마 아래 항복하지 않는 영혼까지",
     "description": "1984년, 조자강은 「연간 무료」라는 광고를 보고 난릉극방에 입단하며 극장, 영화·TV, 아동 예술을 아우르는 전설적인 경력을 시작했다. 그는 「과할머니(水果奶奶)」라는 캐릭터로 수많은 아이들의 어린 시절을 따뜻하게 감싸주었지만, 현실에서는 「만약아동극단(如果兒童劇團)」을 설립하고 수천만 원의 부채를 지며, 팬데믹과 재정 위기 속에서도 「절대 항복하지 않는」 강인한 정신을 보여주었다. 이것은 한 공연자가 30년의 세월을 바쳐 대만 아이들의 꿈을 지켜낸 깊고도 진지한 실천이다.",
     "category": "ko",
@@ -62248,6 +62443,17 @@
     "featured": false,
     "date": "2026-04-21",
     "path": "ko/Culture/taiwan-paper-umbrella.md"
+  },
+  {
+    "title": "종이풍차극단: 타이완의 꿈을 움직인 돈키호테, 30년을 가로지른 예술의 장정",
+    "description": "1992년의 극장적 광상에서 368개 향진을 두루 찾은 ‘신문화운동’에 이르기까지, 종이풍차극단은 ‘바람이 있으면 움직이고, 바람이 없으면 스스로 움직인다’는 정신으로 타이완 어린이들에게 예술의 첫걸음을 밝혀 주었다. 바리 대화재와 팬데믹의 큰 타격을 겪은 뒤에도 창립자 리융펑은 우울과 부채 속에서 팀을 이끌고 재기했으며, 거대한 《비의 말》과 지역 이야기를 통해 이 섬의 집단기억을 엮어 냈다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/art/paper-windmill-theater",
+    "readingTime": 35,
+    "featured": false,
+    "date": "2026-06-16",
+    "path": "ko/Art/paper-windmill-theater.md"
   },
   {
     "title": "종지위안: 6회 올림픽, 2013년 세계 챔피언, 한 걸음 모자란 올림픽 메달",
@@ -62942,9 +63148,9 @@
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/society/commonwealth-magazine",
-    "readingTime": 79,
+    "readingTime": 80,
     "featured": true,
-    "date": "2026-06-04",
+    "date": "2026-06-13",
     "path": "ko/Society/commonwealth-magazine.md"
   },
   {
@@ -63381,6 +63587,17 @@
     "featured": false,
     "date": "2026-04-10",
     "path": "ko/Society/national-defense-modernization.md"
+  },
+  {
+    "title": "타이완 국산 영화: 스크린 옆에서 말하던 사람, 그리고 죽었다가 되살아난 영화사",
+    "description": "1930년 극장에서 변사는 스크린 옆에 서서 무성영화에 타이완어로 즉흥 해설을 붙였다. 90년 뒤 《하이자오 7번지》는 다섯 가지 언어를 함께 스크린으로 되돌려 놓았다. 타이완어 영화는 한때 세계 3위의 극영화 생산국을 이루었지만 억눌려 죽었다. 신영화가 베네치아에서 황금사자상을 받던 시절, 극장 안의 국산 영화 흥행 점유율은 0.36%까지 떨어졌다. 국산 영화의 역사는 나쁨에서 좋음으로 나아간 직선이 아니라, 반복해서 사망 선고를 받고 다시 살아난 역사이다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/art/taiwanese-cinema",
+    "readingTime": 114,
+    "featured": true,
+    "date": "2026-03-23",
+    "path": "ko/Art/taiwanese-cinema.md"
   },
   {
     "title": "타이완 기후 위기와 넷제로 전환: 핵3 국민투표가 부결된 날, 물리적 한계의 선택은 막 시작되었다",
@@ -64053,7 +64270,7 @@
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/society/sunflower-movement",
-    "readingTime": 36,
+    "readingTime": 37,
     "featured": true,
     "date": "2026-04-12",
     "path": "ko/Society/sunflower-movement.md"
@@ -65198,9 +65415,7 @@
     "title": "シャベル超人と島嶼の同時性：台湾の災害ボランティア文化が国族アイデンティティに与える影響",
     "description": "2025年の馬太鞍洪水における「シャベル超人」を切り口に、台湾の1999年921集集大地震以来蓄積されてきた災害ボランティア文化、馬太鞍部落の洪水創世神話とコミュニティレジリエンス、慈濟（じさい）モデルと光復現場500メートルに三つあった前線指揮所のマルチヘッド構造を振り返り、陳建年（チェン・チェンニェン）の〈我々は同胞〉がこの洪水の中で具体的な行動になった瞬間を考察する。",
     "category": "ja",
-    "tags": [
-      "["
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ja/society/taiwan-disaster-volunteer-culture",
     "readingTime": 51,
     "featured": false,
