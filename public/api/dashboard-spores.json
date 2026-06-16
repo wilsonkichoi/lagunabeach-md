@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T22:11:16.625090Z",
+  "lastUpdated": "2026-06-16T22:48:50.059674Z",
   "schemaVersion": "1.1",
   "totals": {
     "count": 135,
@@ -32,7 +32,7 @@
       "url": "https://x.com/taiwandotmd/status/2066822763638341918",
       "highlight": "報導者十週年：4→約8,000個每月掏錢的陌生人、編輯室不放點閱率螢幕，把調查報導從賠錢生意救成公共財。X 單則 inline UTM，square 圖。",
       "views_7d": null,
-      "views_latest": 435,
+      "views_latest": 4016,
       "engagements_7d": null,
       "rate_7d": null,
       "backfilled": true
@@ -48,7 +48,7 @@
       "url": "https://www.threads.com/@taiwandotmd/post/DZpJfvEE4IL",
       "highlight": "報導者十週年：4→約8,000個每月掏錢的陌生人、編輯室不放點閱率螢幕，把調查報導從賠錢生意救成公共財。Threads 主貼+self-reply URL 串文，square 圖。",
       "views_7d": null,
-      "views_latest": 21000,
+      "views_latest": 47000,
       "engagements_7d": null,
       "rate_7d": null,
       "backfilled": true
@@ -64,7 +64,7 @@
       "url": "https://x.com/taiwandotmd/status/2066559522156748815",
       "highlight": "同一句資訊要自由＝信念/賣點/官司；標題去罪化（sub judice 深度查證）",
       "views_7d": null,
-      "views_latest": 4162,
+      "views_latest": 5840,
       "engagements_7d": null,
       "rate_7d": null,
       "backfilled": true
@@ -80,10 +80,10 @@
       "url": "https://www.threads.com/@taiwandotmd/post/DZnPRd1k-F4",
       "highlight": "同一句資訊要自由＝信念/賣點/官司；標題去罪化（sub judice 深度查證）",
       "views_7d": null,
-      "views_latest": null,
+      "views_latest": 32000,
       "engagements_7d": null,
       "rate_7d": null,
-      "backfilled": false
+      "backfilled": true
     },
     {
       "n": 139,
@@ -96,7 +96,7 @@
       "url": "https://x.com/taiwandotmd/status/2066024659238465719",
       "highlight": "無名小站「電源開關」母題 X 版（同文案 inline UTM）",
       "views_7d": null,
-      "views_latest": 20001,
+      "views_latest": 20100,
       "engagements_7d": null,
       "rate_7d": null,
       "backfilled": true
@@ -126,6 +126,17 @@
       "date": "2026-04-13"
     },
     {
+      "n": 138,
+      "article": "無名小站",
+      "platform": "threads",
+      "views": 140000,
+      "viewsSource": "latest",
+      "engagements": null,
+      "rate": null,
+      "badge": "🔥 平台最強",
+      "date": "2026-06-14"
+    },
+    {
       "n": 30,
       "article": "李洋（v3 場景修正）",
       "platform": "x",
@@ -135,6 +146,17 @@
       "rate": null,
       "badge": "🔥 平台最強",
       "date": "2026-04-14"
+    },
+    {
+      "n": 136,
+      "article": "taiwan-md-83天里程碑",
+      "platform": "threads",
+      "views": 120000,
+      "viewsSource": "latest",
+      "engagements": null,
+      "rate": null,
+      "badge": "🔥 平台最強",
+      "date": "2026-06-13"
     },
     {
       "n": 35,
@@ -168,28 +190,6 @@
       "rate": null,
       "badge": "⭐ 高峰",
       "date": "2026-04-26"
-    },
-    {
-      "n": 53,
-      "article": "黑冠麻鷺",
-      "platform": "threads",
-      "views": 65000,
-      "viewsSource": "7d",
-      "engagements": 3680,
-      "rate": 5.66,
-      "badge": "⭐ 高峰",
-      "date": "2026-04-30"
-    },
-    {
-      "n": 36,
-      "article": "台灣高鐵（v3 事實修正版）",
-      "platform": "x",
-      "views": 63868,
-      "viewsSource": "7d",
-      "engagements": null,
-      "rate": null,
-      "badge": "⭐ 高峰",
-      "date": "2026-04-19"
     }
   ],
   "amplification": [],
@@ -355,12 +355,12 @@
     {
       "week": "2026-W24",
       "published": 8,
-      "avgViews": 9285
+      "avgViews": 42854
     },
     {
       "week": "2026-W25",
       "published": 4,
-      "avgViews": 8532
+      "avgViews": 22214
     }
   ],
   "harvestStatus": [
@@ -1621,8 +1621,8 @@
       "publishDate": "2026-06-13",
       "daysSincePublish": 4,
       "withinHarvestWindow": true,
-      "harvestCount": 3,
-      "lastHarvest": "2026-06-16 20:39"
+      "harvestCount": 4,
+      "lastHarvest": "2026-06-17 06:48"
     },
     {
       "n": 135,
@@ -1631,8 +1631,8 @@
       "publishDate": "2026-06-13",
       "daysSincePublish": 4,
       "withinHarvestWindow": true,
-      "harvestCount": 2,
-      "lastHarvest": "2026-06-16 20:39"
+      "harvestCount": 3,
+      "lastHarvest": "2026-06-17 06:48"
     },
     {
       "n": 136,
@@ -1641,8 +1641,8 @@
       "publishDate": "2026-06-13",
       "daysSincePublish": 4,
       "withinHarvestWindow": true,
-      "harvestCount": 4,
-      "lastHarvest": "2026-06-16 20:39"
+      "harvestCount": 5,
+      "lastHarvest": "2026-06-17 06:48"
     },
     {
       "n": 137,
@@ -1651,8 +1651,8 @@
       "publishDate": "2026-06-13",
       "daysSincePublish": 4,
       "withinHarvestWindow": true,
-      "harvestCount": 2,
-      "lastHarvest": "2026-06-16 20:39"
+      "harvestCount": 3,
+      "lastHarvest": "2026-06-17 06:48"
     },
     {
       "n": 138,
@@ -1661,8 +1661,8 @@
       "publishDate": "2026-06-14",
       "daysSincePublish": 3,
       "withinHarvestWindow": true,
-      "harvestCount": 3,
-      "lastHarvest": "2026-06-16 20:39"
+      "harvestCount": 4,
+      "lastHarvest": "2026-06-17 06:48"
     },
     {
       "n": 139,
@@ -1671,8 +1671,8 @@
       "publishDate": "2026-06-14",
       "daysSincePublish": 3,
       "withinHarvestWindow": true,
-      "harvestCount": 2,
-      "lastHarvest": "2026-06-16 20:39"
+      "harvestCount": 3,
+      "lastHarvest": "2026-06-17 06:48"
     },
     {
       "n": 142,
@@ -1681,8 +1681,8 @@
       "publishDate": "2026-06-16",
       "daysSincePublish": 1,
       "withinHarvestWindow": true,
-      "harvestCount": 2,
-      "lastHarvest": "2026-06-16 20:39"
+      "harvestCount": 3,
+      "lastHarvest": "2026-06-17 06:48"
     },
     {
       "n": 143,
@@ -1691,8 +1691,8 @@
       "publishDate": "2026-06-16",
       "daysSincePublish": 1,
       "withinHarvestWindow": true,
-      "harvestCount": 1,
-      "lastHarvest": "2026-06-16 20:39"
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-17 06:48"
     },
     {
       "n": 144,
@@ -1701,8 +1701,8 @@
       "publishDate": "2026-06-16",
       "daysSincePublish": 1,
       "withinHarvestWindow": true,
-      "harvestCount": 1,
-      "lastHarvest": "2026-06-16 21:36"
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-17 06:48"
     },
     {
       "n": 145,
@@ -1711,8 +1711,8 @@
       "publishDate": "2026-06-16",
       "daysSincePublish": 1,
       "withinHarvestWindow": true,
-      "harvestCount": 1,
-      "lastHarvest": "2026-06-16 20:39"
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-17 06:48"
     }
   ]
 }
