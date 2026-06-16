@@ -1,216 +1,407 @@
 ---
-title: "The Reporter : dix ans pour sauver le journalisme d'investigation, d'activité commerciale à bien public"
-description: "Le 1er septembre 2015, jour de la Fête des journalistes, Ho Jung-hsing et Tieh Chih-chih tiennent une conférence de presse pour annoncer la fondation de The Reporter, financée initialement par cinq millions de dollars taïwanais de Tzu-hsien Tung. Dix ans plus tard, ce média à but non lucratif — qui refuse la publicité, n'accepte pas de contrats gouvernementaux et n'affiche pas les taux de clics — a vu son budget annuel de dons passer de 34 millions à 52 millions de dollars taïwanais, remportant pendant plusieurs années consécutives les prix SOPA et les Excellence in Journalism Awards. Leur accomplissement : avoir sauvé le journalisme d'investigation, autrefois simple ligne budgétaire des médias commerciaux, pour en faire un bien public financé par les prélèvements mensuels de lecteurs inconnus."
+title: "The Reporter : dix ans pour faire du journalisme d'enquête, d'une activité commerciale, un bien public"
+description: "De 4 donateurs mensuels réguliers à 8 000 par mois, de la trilogie « Les pêcheries de sang et de larmes » au dossier 2026 sur le front uni, les coûts que The Reporter a brûlés en dix ans - huit mois d'infiltration, des reportages dans trois pays, la comparaison de dossiers d'infractions sur plusieurs années - correspondent précisément à ce que l'ère algorithmique donne le moins envie de payer pour lire. La société civile de cette île, par des prélèvements mensuels effectués par des inconnus, a sauvé le journalisme d'enquête d'une ligne d'activité des médias commerciaux pour en faire un bien public sans cesse entretenu, mais dont le coût brûle toujours plus vite."
 date: 2026-04-29
+author: 'Taiwan.md'
+category: 'Society'
+subcategory: '媒體與新聞'
 tags:
   [
     'médias',
-    "journalisme d'investigation",
+    "journalisme d'enquête",
     'non lucratif',
     'liberté de la presse',
     'société civile',
     'Ho Jung-hsing',
   ]
-category: 'Society'
-subcategory: '媒體與新聞'
-author: 'Taiwan.md'
-featured: true
-lastVerified: 2026-04-29
+lastVerified: 2026-06-14
 lastHumanReview: false
+featured: true
 translatedFrom: 'Society/報導者.md'
-sourceCommitSha: 'ef8fab38'
-sourceContentHash: 'sha256:0330eda01672cda0'
-sourceBodyHash: 'sha256:5d81679e10b063a1'
-translatedAt: '2026-06-13T00:00:00Z'
+sourceCommitSha: 'fd09526d2'
+sourceContentHash: 'sha256:c9f5767205c4ec79'
+sourceBodyHash: 'sha256:ca526dda99de158c'
+translatedAt: '2026-06-17T01:18:26+08:00'
 ---
 
-> **En 30 secondes :** The Reporter est un média d'investigation à but non lucratif fondé le 1er septembre 2015, jour de la Fête des journalistes, par Ho Jung-hsing et Tieh Chih-chih, avec un don initial de cinq millions de dollars taïwanais de Tzu-hsien Tung, cofondateur d'ASUS, pour créer une fondation[^1]. Le média s'est volontairement lié les mains : les trois principes « ne pas posséder, ne pas intervenir, ne pas récupérer » sont inscrits dans la charte des donateurs[^2]. La rédaction n'accepte aucune publicité, n'accepte pas de contrats gouvernementaux et n'affiche pas les taux de clics ; tous les articles sont gratuits sur le site. En dix ans, _Blood and Tears Fishing Grounds_ a conduit le Yuan de Contrôle à émettre une correction officielle contre l'Agence des pêches[^3], _Children of the Ruins_ a remporté l'Excellence in Journalism Award en deux volets, _Child Hunting Storm_ a infiltré pendant huit mois les réseaux d'exploitation sexuelle de mineurs, et _MIT Machine Tools Flowing into Russian Military Industry_ a remporté le premier prix du SOPA 2025 pour le journalisme économique d'excellence[^4]. Les dons annuels sont passés de 34,47 millions en 2022 à 52,98 millions en 2025[^5]. La société civile de cette île a, par des prélèvements mensuels entre inconnus, sauvé le journalisme d'investigation — d'activité commerciale des médias, il est devenu un bien public viable et qui continue de nourrir.
+> **Vue d'ensemble en 30 secondes :** The Reporter est le premier média numérique d'enquête non lucratif de Taïwan financé par les dons citoyens. Lors de sa mise en ligne en décembre 2015, il ne comptait que 4 donateurs mensuels réguliers, un chiffre que son fondateur Ho Jung-hsing n'osait pas révéler à ses collègues[^1]. Dix ans plus tard, en octobre 2025, ce nombre était passé à environ 8 000, avec un prochain objectif fixé à 10 000[^2]. Le média a produit « Les pêcheries de sang et de larmes », une enquête menée jusque dans trois pays[^3], a révélé l'affaire des travailleurs noirs piégés par l'endettement qui a valu à un responsable de l'Université Chung Chou une peine de 5 ans et 6 mois[^4], et a publié « La vague Chokubi », après quoi le ministère de la Santé et du Bien-être a réformé les règles imposant la formation PGY avant la pratique de la médecine esthétique[^5]. Sa discipline publiquement proclamée tient en trois formules : « ne pas posséder, ne pas intervenir, ne pas récupérer »[^6]. Les coûts que The Reporter ne peut pas réduire sont précisément ce que l'ère algorithmique donne le moins envie de payer pour lire ; cette île, par des prélèvements mensuels de 200 ou 300 dollars taïwanais effectués auprès d'inconnus, a transformé le journalisme d'enquête d'une activité déficitaire en un bien public sans cesse reconduit, entretenu en permanence, mais dont le coût brûle toujours plus vite.
 
-## Le 1er septembre 2015, le matin
+## Le chiffre qu'il n'osait pas dire : 4
 
-C'était la Fête des journalistes. Dix heures du matin, une conférence de presse à Taipei.
+Ho Jung-hsing a reconnu plus tard sur Facebook que, durant le premier mois de mise en ligne de The Reporter, il n'y avait que 4 donateurs mensuels réguliers ; il n'osait tout simplement pas laisser ses collègues connaître ce chiffre[^7].
 
-Ho Jung-hsing a 49 ans. Il a quitté quelques mois plus tôt son poste de rédacteur en chef de _Commonwealth Magazine_. À ses côté se tient Tieh Chih-chih[^6]. Ensemble, ils annoncent à la profession réunie la création d'un média d'investigation à but non lucratif baptisé The Reporter. Il n'y a qu'un seul donateur : Tzu-hsien Tung, cofondateur d'ASUS et président de Pegatron, qui investit personnellement cinq millions de dollars taïwanais pour créer la « Fondation culturelle The Reporter »[^7].
+C'était le 16 décembre 2015, le mois suivant le lancement officiel du site[^8]. Le 1er septembre de l'année précédente, jour de la Fête des journalistes, il avait tenu à Taipei, avec son cofondateur Chang Tieh-chih, une conférence de presse annonçant la création d'un média en ligne ne recevant aucun financement gouvernemental ni partisan, refusant toute publicité commerciale et reposant uniquement sur les dons des lecteurs[^9]. Cette île qu'est Taïwan n'avait jamais connu une telle chose. Les médias ont toujours des patrons : certains sont des sociétés cotées, d'autres des partis politiques, d'autres encore des familles ayant des intérêts commerciaux en Chine. Aucun média n'avait pour patron « les donateurs ».
 
-Le choix de la Fête des journalistes n'est pas anodin. Le titre le plus marquant de la carrière de Ho Jung-hsing est « président fondateur de l'Association des journalistes de Taïwan »[^8] — une organisation qu'il a lancée en 1995, vouée à la défense du professionnalisme et de l'autonomie journalistique. Vingt ans plus tard, le média qu'il fonde lui-même part de zéro, un jour de Fête des journalistes. Le premier président du conseil de la fondation est Hsiu-ch'i Weng, professeure invitée à l'Université Shih Hsin[^9]. L'adoption d'une structure de fondation implique une séparation organisationnelle entre les décisions de la fondation et la rédaction — ce mur sera plus tard inscrit au cœur de la logique de fonctionnement de toute l'organisation.
+Ho Jung-hsing avait alors 49 ans et venait de quitter son poste de rédacteur en chef éditorial de CommonWealth Magazine[^10]. Plus loin en arrière, en 1995, il avait lancé l'Association des journalistes de Taïwan et en avait été le premier président[^11], à une époque où il fallait encore traiter la question du « retrait du parti, du gouvernement et de l'armée des médias » et défendre le droit des journalistes à ne pas être utilisés comme instruments de propagande. Il avait été journaliste pendant vingt ans ; vingt ans plus tard, il choisissait de miser cette carrière sur le chiffre « 4 ».
 
-> **📝 Note du curateur**
-> The Reporter n'est pas le premier média indépendant de Taïwan. _New Journal_ en 1987, _Coolloud_ en 1997, _Our Island_ de la télévision publique en 1998, _News&Market_ en 2011, _Watchout_ en 2013 l'ont tous précédé[^10]. Sa véritable spécificité réside dans le fait d'être « le premier média en ligne fondé par une fondation d'intérêt public, liant ses donateurs par les trois principes et offrant tous ses articles gratuitement » — c'est ce positionnement identitaire qui est précis.
+Tung Tzu-hsien a personnellement donné 5 millions de dollars taïwanais pour créer la fondation culturelle The Reporter[^12]. La professeure invitée de l'Université Shih Hsin, Weng Hsiu-chi, en est devenue la première présidente, avec un mandat allant de septembre 2015 à août 2018[^13]. Le rôle de la fondation, Ho Jung-hsing l'a ensuite formulé très directement dans la FAQ officielle : « La fondation agit comme un parapluie protecteur et un pare-feu, permettant de bloquer les ingérences extérieures et de garantir le fonctionnement indépendant et autonome du média »[^14].
+
+Le chiffre 4 est ensuite devenu l'histoire que The Reporter raconte le plus volontiers à son propre sujet. Dix ans plus tard, dans le podcast du dixième anniversaire publié en octobre 2025, Ho Jung-hsing résumait ainsi cette courbe des personnes : « Les soutiens mensuels réguliers sont passés de seulement 4 personnes le premier mois de mise en ligne à la confiance de 8 000 soutiens par mois aujourd'hui »[^15]. Dans une publication Facebook du même mois, il écrivait : « Il y a 10 ans, je m'encourageais souvent avec cette phrase : "faire pousser une fleur dans les ruines, protéger un arpent de terre en temps troublés". Je n'aurais jamais imaginé que, 10 ans plus tard, les 4 donateurs d'origine auraient fait naître un petit jardin d'environ 8 000 donateurs mensuels réguliers »[^16].
+
+Il ajoutait ensuite une phrase, souvent négligée par la suite, mais qui constitue en réalité le signal le plus important de toute la publication : « Nous espérons cheminer avec tous nos lecteurs et donateurs afin que le nombre de donateurs mensuels réguliers de The Reporter puisse avancer vers 10 000 personnes »[^17].
+
+8 000 n'est pas l'arrivée ; 10 000 l'est. Et 10 000 n'a pas encore été atteint.
+
+```tw-figure
+4 → 8 000
+Donateurs mensuels réguliers, du premier mois de mise en ligne en 2015 au dixième anniversaire en 2025 ; prochain objectif : 10 000, pas encore atteint
+Podcast du dixième anniversaire de The Reporter, 2025-10
+```
 
 ## Ne pas posséder, ne pas intervenir, ne pas récupérer
 
-« Ne pas posséder, ne pas intervenir, ne pas récupérer. » Neuf mots, affichés sur la page « À propos » de The Reporter[^11], baptisés « charte des donateurs ».
+La [page officielle « À propos de nous »](https://www.twreporter.org/about-us) de The Reporter condense l'engagement pris envers les donateurs en trois verbes : ne pas posséder, ne pas intervenir, ne pas récupérer[^18].
 
-Le sens est direct : ceux qui donnent à The Reporter ne possèdent pas The Reporter ; ils ne peuvent intervenir dans aucun choix éditorial ni contenu ; ils ne peuvent récupérer leur don si un article va à l'encontre de leurs intérêts. Les cinq millions de Tzu-hsien Tung n'ont servi qu'à créer la fondation ; il n'a jamais exigé d'interférer avec le moindre article. Ho Jung-hsing lui-même, lors d'un entretien pour un profil, a déclaré que Chang Teh-leh le décrivait comme « le Takenori Akagi de Slam Dunk — il n'a pas toujours les meilleurs coéquipiers à ses côtés, mais il persévère »[^12]. Li Hsi-li, interrogée, se souvient avoir été convaincue par Ho Jung-hsing de le rejoindre : « Il m'a persuadée en trois heures, parce qu'il est un romantique incurable. »[^13]
+« Ne pas posséder » signifie que les donateurs, quel que soit le montant donné, n'obtiennent ni parts ni pouvoir de décision sur la ligne éditoriale. « Ne pas intervenir » signifie que les donateurs ne peuvent donner d'instructions sur le contenu, le moment ou l'orientation d'un reportage précis. « Ne pas récupérer » signifie qu'une fois entré, le don devient un coût du travail journalistique de The Reporter ; il ne sera pas restitué pour quelque raison que ce soit et ne sera pas traité comme un levier pouvant être retiré à tout moment.
 
-Mais les romantiques ne tiennent généralement pas longtemps. La clé des dix ans de survie de The Reporter est d'avoir transformé « ne pas être influencé » d'une volonté personnelle en une discipline organisationnelle.
+Ces trois phrases ressemblent à un texte de communication RSE d'entreprise, mais le problème qu'elles cherchent réellement à résoudre est structurel et hante les médias taïwanais depuis trente ans : les patrons interviennent, les annonceurs retirent leurs campagnes, les gouvernements distillent des informations. Presque aucun média commercial taïwanais ne peut se défaire complètement d'au moins l'une de ces trois lignes. La solution de The Reporter consiste à les couper à la source par la structure organisationnelle : pas d'actionnaires, pas de publicité, pas de marchés publics. L'appel moral ne sauve pas une structure ; seule la conception institutionnelle peut l'encaisser.
 
-La première discipline est l'argent. La fondation est soumise aux réglementations sur les appels publics aux dons et publie un historique annuel des revenus de collecte[^14] : 34,46 millions en 2022, 35,75 millions en 2023, 44,78 millions en 2024, 52,98 millions en 2025. Une multiplication par 1,5 en quatre ans. À une époque où les médias commerciaux taïwanais voient généralement leurs abonnements chuter et leurs revenus publicitaires décliner, un média à but non lucratif qui refuse la publicité se renforce — un phénomène économiquement anormal dans l'industrie médiatique.
+```tw-versus
+Médias commerciaux taïwanais | The Reporter
+Le patron est une société cotée, un parti politique ou une famille | Le patron est formé par 8 000 inconnus qui donnent chaque mois
+Les annonceurs peuvent retirer leurs campagnes pour faire pression | Aucune publicité commerciale acceptée
+Le taux de clics décide du prochain article | Aucun écran de taux de clics dans la rédaction
+```
 
-La deuxième discipline est la coopération. La relation entre The Reporter et les médias commerciaux est une relation de complémentarité. Le média autorise ses enquêtes contre rémunération à _Business Weekly_, _Jin Zhoukan_, _Apple Daily_, Yahoo News et LINE News pour une publication simultanée[^15]. Ho Jung-hsing a déclaré à plusieurs reprises dans des interventions publiques qu'il n'y a pas d'opposition entre The Reporter et les médias traditionnels. Cela renverse le récit binaire « médias indépendants contre médias grand public ». Ce que fait The Reporter est simple : les enquêtes longues que les médias commerciaux ne peuvent pas se permettre, les sujets qui ne génèrent pas de trafic, The Reporter les prend en charge, les réalise, puis autorise les médias commerciaux à les diffuser, touchant ainsi plus de lecteurs.
+Le détail du don personnel de 5 millions de dollars taïwanais effectué par Tung Tzu-hsien pour créer la fondation est une information de première main rendue publique officiellement[^19]. Une version selon laquelle Tung Tzu-hsien aurait donné 20 millions au départ a ensuite circulé, mais ce chiffre n'a pas été confirmé officiellement et relève davantage de la rumeur de marché ; le seul fait solide que l'on puisse établir est le montant de 5 millions[^20]. L'essentiel réside dans ce dispositif en trois temps : don personnel, détention par une fondation, refus de la publicité. L'ampleur exacte du chiffre importe moins. Même si Tung Tzu-hsien est ensuite devenu vice-président d'un groupe de réflexion du Parti démocrate progressiste, les statuts de la fondation ne lui permettent pas de donner des instructions sur un article précis.
 
-> **💡 Le saviez-vous ?**
-> Les outils de back-office de la rédaison de The Reporter n'affichent pas les taux de clics des articles. Quand un journaliste termine un article, il ne peut pas voir combien de fois il a été consulté. Cette conception vise à empêcher les choix éditoriales d'être dictés par le trafic.
+La FAQ officielle comporte un autre passage expliquant pourquoi ce média n'affiche pas les taux de clics : « Nous souhaitons sortir du mythe du taux de clics, car le trafic n'équivaut pas entièrement à la valeur d'un reportage, ni à la confiance et à l'influence »[^21]. Dans l'univers des médias en ligne en 2026, cette discipline est devenue extrêmement rare. Sur la plupart des sites d'information, chaque article affiche en temps réel le nombre de lecteurs, de partages sociaux et de commentaires ; les rédactions décident du prochain sujet à partir de ces chiffres. Dans la rédaction de The Reporter, cet écran n'existe pas.
 
-## Les yeux des pêcheurs
+Fin août 2018, l'ancien ministre de l'Éducation Huang Jong-tsun a pris la présidence du second conseil d'administration[^22]. Les renouvellements du conseil, les passages de relais au poste de rédacteur en chef et les changements de fonction du directeur général sont devenus des faits ordinaires dans cette organisation, mais les trois phrases du « principe des trois non » n'ont jamais été modifiées. Elles sont devenues une règle domestique gravée dans l'encadrement de la porte : toute personne qui entre travailler dans cette organisation sait qu'il y a trois choses auxquelles on ne touche pas.
 
-De 2016 à 2017, The Reporter collabore avec le magazine indonésien _Tempo Magazine_. Des journalistes traversent le Pacifique Sud pour suivre les pêcheurs taïwanais recrutés à l'étranger[^16]. Le projet finalement publié, _Fabrication, Exploitation, Blood and Tears Fishing Grounds — Enquête transnationale sur la vérité de la pêche hauturière taïwanaise_[^17], révèle une chaîne complète d'exploitation allant du recrutement par les intermédiaires, l'embarquement, le travail forcé, la confiscation des passeports jusqu'aux agressions sexuelles.
+## Les yeux des pêcheurs : plus de cent personnes interrogées, un septième à l'étranger
 
-Après la publication, le Yuan de Contrôle a émis une correction officielle contre l'Agence des pêches[^18], demandant au parquet de rouvrir les enquêtes concernées. The Reporter a remporté en 2017 le premier prix du SOPA pour le journalisme des droits humains d'excellence, le premier prix du SOPA pour le journalisme d'investigation d'excellence et le premier prix du SOPA pour l'infographie d'excellence — trois premiers prix[^19] — ainsi que le prix du journalisme d'investigation de l'Excellence in Journalism Award la même année.
+Si l'on veut expliquer pourquoi The Reporter coûte cher, la trilogie [« Les pêcheries de sang et de larmes »](https://www.twreporter.org/topics/unfinished-far-sea-fishing-governance) est la réponse la plus directe.
 
-La méthodologie de ce reportage mérite d'être notée : reportage transnational, collaboration avec des journalistes locaux indonésiens, croisement de données brutes de navigation, enregistrement intégral des témoignages des pêcheurs, équipe photographie embarquée. Ces méthodes relèvent du journalisme d'investigation traditionnel. Ce qui distingue véritablement The Reporter, c'est qu'**il est encore capable de mener des enquêtes de cette ampleur** dans le paysage médiatique taïwanais post-2015. La première budgétisation coupée par les médias commerciaux concerne généralement les frais de déplacement international et les enquêtes de longue durée ; les médias à but non lucratif, grâce à des dons affectés, peuvent au contraire continuer à investir dans ce type de travail « dont le trafic n'est pas immédiatement visible ».
+```tw-timeline
+2016 | Faux documents, exploitation, pêcheries de sang et de larmes | Révèle l'exploitation de pêcheurs indonésiens et philippins sur les navires hauturiers
+2018 | Traite humaine en mer | Remonte jusqu'aux intermédiaires à terre et complète toute la chaîne d'exploitation
+2020 | Une gouvernance hauturière inachevée | Se tourne vers le mécanisme de contrôle lui-même : la mort d'observateurs en mer
+Source : page de synthèse de la série « Les pêcheries de sang et de larmes » de The Reporter
+```
 
-> **✦** « Ce qui est le plus gravement corrodé, ce ne sont pas les pipelines pétrochimiques, mais le cœur humain. » — Fang Hui-chen, _Kaohsiung Environmental Refugees in the Great Wind — The Petrochemical Python Entwined for 40 Years_[^20]
+Le premier volet, publié en 2016, s'intitulait « Faux documents, exploitation, pêcheries de sang et de larmes »[^23]. Le reportage portait sur l'exploitation des pêcheurs étrangers à bord des navires taïwanais de pêche hauturière. Ces pêcheurs venaient majoritairement d'Indonésie et des Philippines ; des intermédiaires les faisaient monter à bord, puis une fois en mer, ils y restaient plusieurs mois, voire un an. Le capitaine confisquait leurs passeports, les intermédiaires ponctionnaient leur salaire à plusieurs niveaux, les journées dépassaient 18 heures, la nourriture était si mauvaise qu'ils tombaient malades, et après la mort, certains corps étaient jetés à la mer. Ces faits existaient depuis longtemps dans la pêche hauturière, mais la société taïwanaise n'avait presque jamais vu d'enquête complète à leur sujet.
 
-Après _Blood and Tears Fishing Grounds_, _Children of the Ruins — The Forgotten Children of High-Risk Families_ est un autre cas majeur. Les journalistes Li Hsi-li, Chien Yung-ta et le directeur photo Yu Chih-wei ont passé plus d'un an à s'immerger dans le système de placement, révélant des mineurs victimes d'agressions sexuelles dans les institutions[^21]. Ce projet a été publié en livre en 2018, et en 2025, la suite _Gazing into the Abyss — Excluded Youths and Their Redeemers_ a remporté le prix du journalisme explicatif de la 24e édition de l'Excellence in Journalism Award.
+Le deuxième volet, en 2018, a élargi le sujet de l'exploitation à bord à la [« traite humaine en mer »](https://www.twreporter.org/topics/slave-fishermen)[^24]. Les journalistes ont remonté la piste jusqu'aux intermédiaires terrestres qui trompaient les hommes dans leurs villages d'origine pour les faire embarquer, complétant ainsi toute la chaîne de l'exploitation. Le troisième volet, publié en septembre 2020 sous le titre « Une gouvernance hauturière inachevée : des ailerons de requin illégaux et du travail forcé à la mort d'observateurs »[^25], a déplacé le regard vers le mécanisme de contrôle lui-même : des observateurs envoyés à bord des navires hauturiers pour surveiller les opérations sont morts en mer, sans que les causes aient jamais été établies.
+
+Lee Hsueh-li a ensuite rappelé sur Medium l'ampleur du travail réalisé pour cette série : « plus de cent personnes interrogées, dont un septième venues de l'étranger, notamment des observateurs de Kiribati et de plusieurs États insulaires du Pacifique central et occidental ainsi que leurs familles, des agents des douanes américaines ayant retenu des navires de pêche taïwanais, des responsables de l'Union européenne, etc. »[^26].
+
+Déployons ce chiffre : sur plus de cent personnes interrogées, une dizaine et plus se trouvaient à l'étranger, réparties entre des États insulaires du Pacifique central et occidental, les États-Unis et l'Europe. Les coûts de déplacement, de traduction et de coordination transnationale d'un seul dossier d'enquête dépassent déjà largement le budget d'un article isolé dans un média commercial. Et The Reporter l'a fait trois fois.
+
+La manière de récupérer ce coût n'est pas le trafic. En 2017, « Les pêcheries de sang et de larmes » a remporté trois premiers prix aux SOPA Awards for Editorial Excellence de la Society of Publishers in Asia : prix d'excellence du reportage sur les droits humains, prix d'excellence du reportage d'investigation et prix d'excellence de l'infographie, pour [« Le grand thon-murène de la pêche hauturière taïwanaise »](https://www.twreporter.org/a/infographic-far-sea-fishing-gcs)[^27]. Le titre joue sur une homophonie avec le proverbe taïwanais _tuā-bué lôo-muâ_, « grosse murène », en remplaçant la « queue » par ce grand thon ; le simple fait de consentir à ce soin pour transformer une enquête dure menée dans trois pays en une infographie constitue déjà un coût.
+
+![Illustration de couverture de l'infographie de The Reporter « Le grand thon-murène de la pêche hauturière taïwanaise » : un grand thon fait face à du sashimi, un calmar, de petits poissons et un navire hauturier sur fond bleu ; œuvre lauréate du premier prix SOPA 2017 d'excellence de l'infographie](/article-images/society/the-reporter-far-sea-fishing-infographic-2016.webp)
+
+_L'infographie de The Reporter « Le grand thon-murène de la pêche hauturière taïwanaise » a remporté en 2017 le premier prix d'excellence de l'infographie des SOPA Awards. Transformer une enquête en une image de ce type est l'un des coûts que le média accepte d'assumer. Image : The Reporter, fair use (commentaire éditorial)._
+
+## Le genre de reportage qui fait condamner des responsables
+
+L'influence du journalisme d'enquête se mesure à une question : après publication, la structure sociale a-t-elle réellement changé ? L'affaire du piège des étudiants-travailleurs endettés, suivie pendant des années par The Reporter, est un cas concret que l'on peut poursuivre jusqu'aux décisions de justice.
+
+Les faits, en résumé, sont les suivants : des intermédiaires faisaient venir des étudiants d'Asie du Sud-Est à Taïwan sous prétexte d'un programme d'alternance études-travail, mais les envoyaient en réalité dans des usines comme ouvriers non qualifiés faiblement payés. Les frais de scolarité et de logement étaient comptabilisés comme des prêts usuraires ; les étudiants ne pouvaient pas les rembourser avant leur diplôme et se retrouvaient de fait attachés à l'usine, travaillant presque gratuitement. Ce piège structurel impliquait quatre acteurs : des gouvernements locaux du centre de Taïwan, des universités privées de sciences et technologies, des agences de main-d'œuvre et des usines de transformation.
+
+Le 26 juin 2024, le tribunal du district de Changhua a rendu son jugement de première instance : l'ancien responsable de l'Université Chung Chou, Chai Fang-wu, décrit comme « ancien vice-président » dans le reportage de PTS PNN et comme « ancien doyen des affaires étudiantes » par plusieurs médias en deuxième instance, a été condamné à 5 ans et 6 mois pour violation de la loi sur la prévention de la traite des personnes ; l'ancienne directrice du centre de promotion, Lan Su-ling, à 5 ans ; et l'ancien directeur adjoint du département du travail et de la jeunesse du gouvernement du comté de Miaoli, Tu Jung-hui, à 7 ans pour profit illégal au sens de la loi réprimant la corruption[^28]. Les deux volets ont été jugés séparément en appel : le 2 juin 2026, la Haute Cour de Taichung a réduit les peines de Chai et Lan à 3 ans et 6 mois et 4 ans ; l'affaire de profit illégal de Tu Jung-hui avait été confirmée plus tôt, en mars 2026, avec une peine maintenue à 7 ans par la Haute Cour de Taichung[^29].
+
+```tw-slope
+Affaire des travailleurs noirs piégés par l'endettement : évolution des peines de la première à la deuxième instance (années)
+Première instance (2024) | Deuxième instance (2026)
+Chai Fang-wu | 5,5 | 3,5
+Lan Su-ling | 5 | 4
+*Tu Jung-hui | 7 | 7
+Source : première instance du tribunal de Changhua, deuxième instance de la Haute Cour de Taichung
+```
+
+Après les jugements, The Reporter n'a pas écrit une version du type « notre reportage a permis que justice soit rendue ». Le média s'est contenté d'ajouter les faits judiciaires à la page de suivi initiale, en indiquant les différences entre première et deuxième instance. C'est une forme de discipline dans la manière dont cette rédaction traite sa propre influence : ce qui a été écrit, ce qui a été vérifié et ce que le tribunal a finalement décidé sont placés séparément ; au lecteur de regarder lui-même les liens de causalité.
+
+Un autre cas plus souvent cité est celui de « La vague Chokubi », en 2025. Le 15 octobre 2025, The Reporter a publié [« Le phénomène Chokubi : la tendance et les inquiétudes suscitées par les jeunes médecins de Taïwan, de Corée et du Japon qui "ne font pas de PGY et passent directement à la médecine esthétique" »](https://www.twreporter.org/a/chokubi-phenomenon-in-taiwan-korea-and-japan), indiquant que près de 10 % des médecins du pays pratiquant directement la médecine esthétique n'avaient pas achevé les deux années de formation médicale générale post-diplôme, ou PGY[^30].
+
+Moins d'un mois plus tard, le 14 novembre 2025, le ministère de la Santé et du Bien-être annonçait un projet de réforme ; le 26 novembre, il trouvait un consensus avec 40 organisations médicales ; le 1er janvier 2026, le nouveau dispositif entrait en vigueur : les médecins diplômés après 2019 qui n'avaient pas achevé deux années de PGY ne pouvaient plus pratiquer la médecine esthétique[^31]. Il s'est écoulé 78 jours entre la publication du reportage et l'entrée en vigueur du nouveau dispositif.
+
+```tw-figure
+78 jours
+De la publication de « La vague Chokubi » à l'entrée en vigueur du nouveau régime PGY pour la médecine esthétique
+Calendrier public de réforme du ministère de la Santé et du Bien-être, 2025-2026
+```
+
+Mais une discipline importante s'impose ici : The Reporter n'a jamais écrit que « notre reportage a directement conduit le ministère de la Santé et du Bien-être à modifier la loi ». Il peut seulement dire que la série « La vague Chokubi » a suscité une discussion publique et a pu être l'un des facteurs déclencheurs de la réforme. Celle-ci résulte d'interactions entre le ministère, les législateurs, les organisations médicales et l'opinion du corps médical sur l'éthique ; le journalisme d'enquête est l'un des déclencheurs, non la cause unique. Cette distance est essentielle. L'une des façons les plus faciles pour un média d'enquête de mourir consiste à surestimer son influence, puis à finir par y croire lui-même.
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/_AdtqBm7Hk4" title="醫美偷拍風暴：台灣的醫美監管出了什麼問題？我們如何自保？｜報導者" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_La vidéo de la chaîne officielle de The Reporter « Tempête autour des caméras cachées en médecine esthétique : quel est le problème de la régulation de la médecine esthétique à Taïwan ? » prolonge « La vague Chokubi » vers les failles générales du contrôle de la médecine esthétique. Elle poursuit le même fil problématique._
 
 ## Une rédaction qui n'affiche pas les taux de clics
 
-Li Hsi-li a déclaré lors d'un entretien pour un profil de l'Excellence in Journalism Award : « Nous dormons tranquilles chaque nuit, parce que nous faisons de notre mieux chaque jour. »[^22]
+![Bannière promotionnelle de The Reporter : sur un trapèze blanc, un cercle rouge entoure le slogan « ouvrir les portes à la participation, faire entendre une voix collective » ; en dessous, une ligne « profondeur × ouverture × non lucratif » et le logo rouge de The Reporter](/article-images/society/the-reporter-open-participation-banner.webp)
 
-Cette phrase, lue dans le contexte du paysage médiatique taïwanais de 2025, a un poids particulier. Au cours des dix dernières années, le taux de rotation des journalistes taïwanais a augmenté, le médian des salaires a reculé, le plagiat entre médias et la prolifération de contenus de type « ferme à clics » se sont aggravés. « Dormir tranquille » est en réalité un luxe. La structure de la rédaison de The Reporter rend « dormir tranquille » possible : les réunions éditoriales ne tiennent pas compte du trafic, le rédacteur en chef a le pouvoir de décision final sur les choix professionnels, les salaires s'alignent sur la médiane des médias commerciaux mais ne dépendent pas des revenus publicitaires.
+_Le slogan d'identité du site officiel de The Reporter, « ouvrir les portes à la participation, faire entendre une voix collective », indique la différence la plus fondamentale avec les médias commerciaux : les revenus viennent de la participation collective des lecteurs, non de la publicité ni d'un patron. Image : The Reporter, fair use (commentaire éditorial)._
 
-En septembre 2018, Ho Jung-hsing passe le rôle de rédacteur en chef à Li Hsi-li et devient directeur général à plein temps[^23] ; en août 2023, nouvelle réorganisation : Teh-lin Fang est promue rédactrice en chef, Li Hsi-li devient directrice des opérations[^24]. Les trois rédacteurs en chef ont été promus en interne, sans recrutement externe — une disposition rare dans l'industrie médiatique taïwanaise.
+Dans la rédaction de The Reporter, il n'y a pas d'écran affichant les taux de clics. Ce fait est en soi une décision de conception produit, mais aussi un prolongement de la discipline organisationnelle[^32].
 
-> **📊 Source des données**
-> Tous les revenus de collecte annuels, les annonces de réorganisation, les palmarès et les rapports financiers de The Reporter sont publics sur la [page officielle « À propos »](https://www.twreporter.org/about-us)[^25]. Cette transparence fait elle-même partie de l'engagement en tant que « bien public ».
+En septembre 2018, Ho Jung-hsing a transmis le poste de rédactrice en chef à Lee Hsueh-li et est devenu directeur général à plein temps[^33]. En août 2023, Fang Te-lin a été promue rédactrice en chef, tandis que Lee Hsueh-li devenait directrice des opérations[^34]. Les trois rédactrices et rédacteurs en chef ont tous été promus en interne, ce qui est rare dans l'industrie médiatique taïwanaise, où les passages de relais se font souvent par parachutage d'un journaliste chevronné venu de l'extérieur. L'avantage de la promotion interne est la continuité de la culture organisationnelle ; son défaut est le risque d'enfermement. The Reporter a choisi la première option.
 
-## L'année de Potien
+Plusieurs règles internes de discipline éditoriale ont été rendues publiques : ne pas mêler aux reportages des jugements émotionnels sur les personnes interrogées ; ne pas utiliser des verbes sensationnalistes du type « choquer », « révélation explosive » ou « s'effondrer en larmes » ; ne pas recourir à des phrases inversées pour fabriquer du suspense ; restituer les citations autant que possible mot à mot. Dans l'environnement des médias en ligne sinophones de 2026, cette discipline relève presque du contre-courant, alors que les pages des médias commerciaux de la même période sont saturées d'appâts à trafic du type « tout le web est sidéré » ou « impossible de détourner le regard ».
 
-Mais en dix ans, The Reporter a aussi commis des erreurs qu'il a reconnues publiquement.
+Les taux de clics ne sont pas sans importance : dans un média porté par les annonceurs, ils sont un indicateur central de revenu. Mais les revenus de The Reporter ne viennent pas de la publicité, de sorte que le taux de clics ne décide pas directement de sa survie. Ce qui décide de sa survie, c'est le nombre de donateurs mensuels réguliers, le taux de conversion des campagnes de dons ponctuels et la collecte de fonds du conseil d'administration de la fondation. Ces trois indicateurs ont une caractéristique commune : aucun n'augmente parce que le titre d'un article devient plus tapageur.
 
-Le 21 juin 2017, l'article de Tzu-wu Chang _When Si-chi Becomes Real: Lin Yi-han and the Two Perfectionisms of the Dollhouse_ est publié[^26], accusant anonymement « une maison d'édition renommée » d'avoir rompu un contrat signé avec Lin Yi-han. Potien Culture s'identifie, la directrice Ya-chun Chu est lynchée par les internautes, tente de se suicider par défenestration et est secourue.
+Cela explique aussi pourquoi les titres de The Reporter sont souvent plus longs et plus directs. Le média n'a pas besoin de disputer des yeux aux algorithmes ; il construit une relation avec ces 8 000 inconnus prélevés chaque mois. Cette relation se résume ainsi : « Vous me faites confiance pour dépenser cet argent dans des choses que vous ne voyez pas, mais que vous jugez nécessaires à la société. »
 
-Le 26 juin 2017, la rédaction de The Reporter publie une déclaration d'excuses : « Nous nous sommes basés sur des entretiens posthumes de Lin Yi-han et sur ses communications avec l'éditeur, sans interroger la partie concernée mentionnée dans ces documents, ne respectant pas la convention journalistique de l'équilibre des sources. »[^27]
+## Cette année-là, Aquarius
 
-Cette déclaration d'excuses est courte mais structurelle : elle indique sur quelles données elle s'est fondée, quelle procédure d'entretien manquait, et nomme explicitement la convention journalistique violée. Elle ne fait pas appel aux intentions (« nos intentions étaient bonnes »), ne déplace pas la responsabilité (« l'autre partie aurait dû s'expliquer d'elle-même »), et n'évite pas les mots d'excuse. Dans l'industrie médiatique taïwanienne, peu de rédactions écrivent les six mots « ne pas avoir respecté l'équilibre des sources » dans une déclaration publique.
+Tout média d'enquête qui a vécu dix ans a des erreurs qu'il ne peut pas ne pas expliquer. Les trois controverses relativement importantes de The Reporter ont toutes été consignées publiquement par le média.
 
-En juin 2023, Fang Hui-chen, journaliste senior de The Reporter, accuse publiquement Chien-chuang Wang, président de _Up Media_, de harcèlement sexuel[^28], déclenchant une tempête #MeToo. Wang nie et contre-attaque en accusant Fang de « fabriquer la première fausse affaire #MeToo de Taïwan », les deux parties s'engageant dans un procès et une longue guerre de mots. L'événement ne concerne pas directement l'interne de The Reporter, mais en tant que controverse impliquant publiquement une journaliste de The Reporter, certains lecteurs ont questionné la direction éditoriale du média.
+Le 21 juin 2017, The Reporter a publié « Quand Fang Si-chi devient un être concret : entretien avec une amie proche de l'autrice et une éditrice sur le parcours éditorial de Lin Yi-han », signé Chang Tzu-wu. L'article décrivait, par l'intermédiaire d'une « maison d'édition connue » anonyme, le processus de publication de Lin Yi-han : une rédactrice en chef aurait signé puis résilié le contrat, et demandé des modifications du manuscrit pour des raisons de marché. Aquarius Publishing s'est reconnue dans le texte ; sa présidente Chu Ya-chun a été jugée publiquement par les internautes et a un temps tenté de se défenestrer, avant d'être sauvée[^35].
 
-Inclure ces deux événements dans cet article est nécessaire : un média à but non lucratif soutenu par des dons extérieurs, qui accepte publiquement l'argent des lecteurs, doit publiquement assumer ses erreurs. **Un média d'investigation sans historique d'erreurs n'existe pas** ; il n'y a que ceux qui « reconnaissent publiquement leurs erreurs » et ceux qui ne le font pas.
+Le 26 juin 2017, la rédaction a publié des excuses. Le texte original disait : « Nous nous sommes fondés sur des entretiens réalisés du vivant de l'autrice et sur les archives de communication laissées par l'autrice et la maison d'édition, sans interroger les personnes concernées par ces archives, et n'avons pas respecté pleinement la règle journalistique du reportage équilibré »[^36].
 
-## Les lecteurs de 10 à 15 ans
+Cette déclaration mérite d'être lue mot à mot. Elle ne recourt pas aux formules de pure forme telles que « si cela a offensé » ou « si cela a causé un malaise », mais reconnaît une erreur procédurale précise : « sans interroger les personnes concernées par ces archives ». En journalisme, c'est ce que l'on appelle le principe d'équilibre : dans tout reportage comportant des accusations, la personne mise en cause doit avoir la possibilité de répondre. The Reporter a sauté cette étape dans cet article ; la raison peut être la sensibilité du sujet, la pression du temps ou une erreur de jugement, mais quelle que soit la raison, une procédure fautive reste une procédure fautive.
 
-En 2022, _The Young Reporter_ est lancé[^29].
+Lors de l'affaire des masques Carry Hi-Tech en 2020, où des masques non médicaux fabriqués en Chine avaient été mélangés à la production, The Reporter a également publié une déclaration, reconnaissant que son reportage antérieur sur le sujet n'avait pas couvert les soupçons ultérieurs de mélange : « Concernant l'implication de Carry Hi-Tech dans le mélange de masques non médicaux fabriqués en Chine, bien que la période des faits mis en cause soit postérieure à notre reportage d'alors, nous éprouvons toujours un profond regret et une grande tristesse, et procédons humblement à notre propre examen »[^37].
 
-Ho Jung-hsing est l'initiateur, Hui-chun Yang en est la directrice. Yang a travaillé successivement pour _Children's Daily_, _Min Sheng Pao_ et _Apple Daily_ — un parcours qui est en soi une micro-histoire des médias jeunesse taïwanais. The Young Reporter cible les lecteurs de 10 à 15 ans, avec le slogan « Comprendre le monde × Participer au futur ». Yang a déclaré dans un entretien public que le véritable concurrent de The Young Reporter est constitué des plateformes de vidéos courtes comme TikTok et YouTube.
+En juin 2023, la journaliste senior de The Reporter Fang Hui-chen a accusé publiquement le président de The Storm Media, Wang Chien-chuang, de harcèlement sexuel ; Wang Chien-chuang a nié et contre-attaqué[^38]. Le cœur de l'affaire ne se situait pas à l'intérieur de The Reporter, mais le fait qu'une journaliste du média soit publiquement impliquée comme accusatrice dans la vague #MeToo du milieu médiatique a obligé The Reporter à traiter la question de la distance entre la prise de parole publique d'une journaliste et la position de l'organisation.
 
-Cette phrase est plus lourde qu'elle n'y paraît. Elle ne dit pas « nous allons faire tomber TikTok et YouTube », ni « nous allons segmenter le marché ». Elle reconnaît une réalité industrielle : les jeunes Taïwanais de 10 à 15 ans reçoivent en moyenne 3 à 5 heures par jour de contenu poussé par des algorithmes, le marché de l'attention est déjà saturé par les plateformes de vidéos courtes. Placer un produit « enseignant la lecture de journalisme approfondi » sur ce marché revient à mener une guerre structurelle pour l'attention — bien au-delà d'une simple concurrence médiatique.
+Considérées ensemble, ces trois affaires montrent un point commun dans la manière dont The Reporter traite ses erreurs : reconnaître les fautes de procédure, laisser une trace écrite, ne pas supprimer les articles. Cette méthode ne fait pas disparaître les controverses, mais elle permet encore aux lecteurs, dix ans plus tard, de revenir vérifier ce qui s'est effectivement passé. L'existence même des archives est une forme de discipline de ce média.
 
-L'approche de The Young Reporter est de réécrire des reportages approfondis longs en versions jeunesse de 600 à 1 200 mots, accompagnées de bandes dessinées, de quiz interactifs et de fiches pédagogiques pour enseignants[^30]. En 2024, son article _Les Fissures de la Vie : Le Premier Garçon Taïwanais Atteint de Cancer du Sang à Avoir Obtenu de Manon le Droit aux Soins_ a remporté le prix du reportage approfondi court (vidéo et web) de la 23e édition de l'Excellence in Journalism Award.
+## Pas de méchant, tout le système saigne
 
-> **📝 Note du curateur**
-> Pour Taiwan.md, l'existence de The Young Reporter est un contraste intéressant. Taiwan.md est lui-même une base de connaissances open source à but non lucratif, destinée à tous les âges ; The Young Reporter est du journalisme d'investigation traduit en version jeunesse, destiné aux 10-15 ans. Les deux posent la même question : dans le marché de l'attention algorithmique, **le contenu approfondi mérite-t-il un portail dédié aux jeunes ?** The Reporter a choisi la réponse « oui, ça vaut la peine », et a continué à y investir pendant dix ans.
+L'année 2025 a été l'une des plus denses de l'histoire de The Reporter en matière de production. Si l'on déploie les [14 grands dossiers](https://www.twreporter.org/a/2025-recommend-reports) rassemblés par le média à la fin de l'année, on constate un motif narratif commun : tout le système saigne, mais il n'y a pas de méchant clairement identifiable[^39].
 
-## La ligne rouge sous embargo
+Quelques exemples. [« Les internes disparus »](https://www.twreporter.org/topics/resident-physician-shortages) cherche à comprendre pourquoi, sous un régime d'assurance maladie dont les dépenses atteignent le trillion de dollars taïwanais, les hôpitaux ne parviennent pas à retenir les internes. Personne, dans la conception du système, ne les chasse avec malveillance ; mais chaque petit engrenage les pousse vers la sortie : remboursements trop bas, gardes trop nombreuses, qualité de formation en recul, plafond de carrière trop bas[^40]. [« Le code de la longévité »](https://kids.twreporter.org/topic/longevity) et [« À l'extrémité de la prise en charge longue durée 2.0, entrevoir la 3.0 »](https://www.twreporter.org/topics/long-term-care-plan-3) traitent de la prochaine vague de pression sur le système de soins de longue durée après l'entrée de la société taïwanaise dans le très grand âge ; ce qui écrase réellement ce système déjà insuffisamment conçu, c'est la structure démographique de toute la société, difficile à imputer à la négligence d'un responsable précis[^41]. [« FORMOSAT-8 »](https://www.twreporter.org/topics/formosat-8-satellite) et [« L'œil de mille lis dans l'espace »](https://kids.twreporter.org/topic/satellites) traitent de l'avancement et des limites du programme spatial autonome de Taïwan ; au-delà des détails techniques, l'enjeu est l'économie politique par laquelle un État décide de ses priorités industrielles avec des ressources limitées[^42].
 
-De 2024 à 2025, The Reporter a délivré un nouveau palmarès.
+Ce type de journalisme d'enquête « sans méchant » est en réalité le plus difficile à vendre sur le marché de l'attention. Le public aime les histoires avec antagoniste clair : un fonctionnaire corrompu, un patron malfaisant, un médecin hors de contrôle. Le lecteur peut alors rapidement former une émotion, cliquer sur « j'aime » et partager. Mais ces formes d'usure structurelle n'ont pas de visage à désigner ; après lecture, le lecteur ne sait souvent pas quoi faire et ne trouve pas de sortie simple du type « que puis-je faire pour cette affaire ? ».
 
-_Child Hunting Storm : Dévoiler la chaîne industrielle sombre de l'exploitation sexuelle d'images de mineurs_[^31] — des journalistes ont passé huit mois à infiltrer des clubs de voyeurs et à suivre des affaires collectives d'agressions sexuelles sur mineurs, révélant la structure symbiotique entre l'industrie des paris en ligne et les crimes sexuels sur mineurs (canaux « Nth Room » et « YOYO Youyou »). Le projet a remporté le prix du journalisme d'investigation de l'Excellence in Journalism Award 2024, le prix du reportage de service public du prix Tseng Hsü-pai 2024, et le premier prix du SOPA 2025 pour le journalisme exclusif.
+Le choix de The Reporter d'investir massivement des ressources de reportage dans ce type de sujets est très contraire à l'intuition algorithmique. C'est aussi pourquoi son modèle doit être non lucratif : soumis à une pression de coût similaire, un média commercial choisira automatiquement des sujets avec antagoniste identifiable, parce que ce type de reportage se vend mieux.
 
-_Transactions sous la Ligne Rouge sous Embargo — Dévoiler la Trajectoire Cachée des Machines-Outils MIT dans l'Industrie Militaire Russe_[^32] — des journalistes ont collaboré avec un journaliste russe en exil pour obtenir exclusivement des documents de marchés publics du gouvernement russe, révélant l'entrée de machines-outils taïwanaises dans des entreprises militaires russes inscrites sur la liste noire américaine et dans un institut de physique nucléaire. Ce reportage a remporté le premier prix du SOPA 2025 pour le journalisme économique d'excellence.
+Lors de la 24e édition des Excellent Journalism Awards, en 2025, The Reporter a remporté trois prix d'un coup : le prix du reportage explicatif, pour le second volet de « Jeunes des ruines », [« Contempler l'abîme »](https://www.twreporter.org/topics/high-risk-youth-left-in-relic-2025) ; le prix du programme d'information en podcast, pour « The Real Story », récompensé pour la troisième année consécutive ; et le prix du journalisme économique et financier, pour [« Un appel téléphonique et l'entrée dans les sables mouvants de la dette : révéler la structure usuraire et l'exploitation du "leasing financier" »](https://www.twreporter.org/topics/loan-crisis)[^43]. Aux SOPA Awards 2025, The Reporter a de nouveau remporté six prix, dont le premier prix du scoop pour [« Tempête de la chasse aux enfants »](https://www.twreporter.org/topics/child-and-youth-sexual-exploitation), avec une infiltration de 8 mois par la journaliste, le premier prix d'excellence sur les questions de femmes pour [« Chercher un enfant par gestation pour autrui »](https://www.twreporter.org/topics/disputes-around-surrogacy), et le premier prix d'excellence du reportage économique pour [« Des machines-outils MIT entrent dans l'industrie militaire russe »](https://www.twreporter.org/a/taiwan-machine-tool-russia-enduser)[^44].
 
-De _Blood and Tears Fishing Grounds_ (exploitation des pêcheurs) à _Children of the Ruins_ (jeunes vulnérables), puis à _Child Hunting Storm_ (exploitation sexuelle de mineurs) et _MIT Machine Tools in Russia_ (géopolitique), la trajectoire thématique des dix premières années de The Reporter montre une expansion claire : des enquêtes sur les groupes vulnérables à l'intérieur de Taïwan, progressivement élargies à la criminalité transnationale, la géopolitique et les systèmes de sanctions internationales. La cause de cette trajectoire réside dans la transférabilité de la méthodologie d'investigation : les compétences accumulées au cours de la première décennie en collaboration transnationale, croisement de données brutes et immersion de longue durée peuvent être directement appliquées à des sujets plus vastes.
+L'année 2022 a été celle où le média a remporté le plus grand nombre de prix depuis sa création, avec 41 distinctions au total[^45]. Les prix jouent deux rôles pour un média non lucratif : d'abord, un signal vérifiable envoyé aux donateurs, « votre argent est consacré à un travail reconnu par la profession » ; ensuite, une forme de retour pour la carrière individuelle des journalistes. Ce second point est particulièrement important, car le niveau de salaire de The Reporter ne peut pas rivaliser avec celui de l'industrie technologique ; une grande partie de la raison pour laquelle les journalistes restent tient à la possibilité de « produire ici des œuvres dont on se souviendra ».
 
-Li Hsi-li a écrit dans le palmarès 2022 de The Reporter : « Nous espérons que les lecteurs voient non seulement les histoires tristes sous les bombardements ukrainiens, mais continuent à chercher un langage et un cadre précis pour que les lecteurs reconnaissent les actes, les discours, les mensonges et le visage de l'agresseur. »[^33]
+## Des lecteurs de 10 à 15 ans
 
-## Rolling On
+En 2022, The Reporter a lancé un média sœur indépendant, [The Reporter for Kids](https://kids.twreporter.org), destiné aux lecteurs de 10 à 15 ans, avec le slogan « comprendre le monde × participer à l'avenir »[^46].
 
-Le 1er septembre 2025 est la Fête des journalistes et le dixième anniversaire de The Reporter.
+![Visuel de lancement de The Reporter for Kids : un écran d'ordinateur affiche « actualité approfondie pour élèves du primaire et du collège・The Reporter for Kids・comprendre le monde, participer à l'avenir・kids.twreporter.org » ; la mascotte rouge « Baodaozi » dit à côté « Je suis Baodaozi ! », entourée d'icônes enfantines colorées](/article-images/society/the-reporter-for-kids-launch-2022.webp)
 
-Du 4 au 7 décembre, l'exposition « OPEN — Exposition du dixième anniversaire de The Reporter » se tient pendant quatre jours au Huashan 1914 Creative Park[^34]. La même semaine, la « Rolling On — Soirée du dixième anniversaire de The Reporter » réunit musiciens, sujets de reportages et donateurs. En parallèle, une collaboration avec le festival d'automne 2025 du National Theater & Concert Hall propose la conférence « Good Philosophy Stool : La façon dont nous regardons le monde façonne-t-elle ce que nous sommes ? », et une collaboration avec Readmoo propose une librairie en ligne du dixième anniversaire sur le thème « Profondeur et quête de vérité · Voix multiples, chemin partagé ».
+_En 2022, The Reporter for Kids a été lancé avec la mascotte « Baodaozi » pour accompagner les lecteurs de 10 à 15 ans dans l'objectif de « comprendre le monde, participer à l'avenir ». Dix ans plus tard, cette infrastructure de base est l'une des réponses à la question de l'élargissement du socle de donateurs. Image : The Reporter, fair use (commentaire éditorial)._
 
-Ho Jung-hsing a reçu en novembre 2024 le « Prix de contribution spéciale à la vocation journalistique » de la 23e édition de l'Excellence in Journalism Award[^35]. Extrait de la motivation du jury : « En 2015, il a lancé un financement participatif par petits dons pour créer le média public en ligne à but non lucratif The Reporter — libre de toute influence extérieure, de la publicité et des taux de clics, il réalise des enquêtes approfondies sur les questions publiques avec des formes narratives innovantes, ouvrant la voie à ses confrères. »
+Le parcours de sa directrice Yang Hui-chun traverse trois générations de presse taïwanaise pour enfants et adolescents : elle a travaillé successivement pour Children Daily, Min Sheng Daily et Apple Daily[^47]. Elle a reconnu plus d'une fois en public que les véritables concurrents de The Reporter for Kids sont TikTok, YouTube et les autres plateformes de vidéos courtes[^48].
 
-Mais les dons annuels passant de 34,47 millions à 52,98 millions ne se prolongeront pas automatiquement dans la prochaine décennie. La viabilité d'un média à but non lucratif est toujours une question dynamique : les donateurs vieillissent, les nouveaux lecteurs doivent être formés, le coût des enquêtes majeures ne fera qu'augmenter, les algorithmes d'IA fragmenteront encore davantage l'attention portée à la lecture longue. La question à laquelle The Reporter devra répondre dans sa prochaine décennie est passée de « pouvons-nous continuer ? » à « la société civile est-elle prête à renouveler cette confiance ? ».
+Le choix de cet adversaire est très concret. Les enfants de 10 à 15 ans passent probablement beaucoup plus de temps chaque jour à faire défiler des vidéos courtes qu'à lire le moindre article long. Pour obtenir une place sur ce marché de l'attention, il faut compter sur la crédibilité et la relisibilité du contenu ; sur le terrain de la stimulation, on ne battra jamais la prochaine vidéo poussée par l'algorithme.
 
-La semaine du dixième anniversaire de The Reporter, Ho Jung-hsing a déjà 59 ans, Li Hsi-li occupe le poste de directrice des opérations, et Teh-lin Fang est installée au poste de rédactrice en chef. La prochaine décennie, cette île continuera-t-elle à prélever 100, 200, 500 dollars taïwanais par mois pour nourrir le journalisme d'investissement en tant que bien public — la réponse ne sera pas révélée en 2026, mais en 2035.
+Trois principes éditoriaux de The Reporter for Kids ont été publiquement énoncés : « ne pas écrire en inversion, employer un vocabulaire neutre, ne pas utiliser de termes émotionnels »[^49]. En apparence, ces règles s'adressent aux éditeurs ; en réalité, elles s'adressent aux parents et aux enseignants. Lorsqu'un enfant de 12 ans lit un reportage sur les relations inter-détroit ou les familles défavorisées, la volonté de ses parents de le laisser poursuivre dépend de la capacité de l'article à traiter l'enfant comme un individu capable de penser par lui-même, et non comme un objet à qui inculquer une position.
 
-Mais le titre de l'exposition du dixième anniversaire s'appelle _OPEN_, pas _Fin_.
+En 2024, [« Les interstices de la vie : le premier garçon atteint de leucémie à Taïwan à lutter par lui-même pour son droit aux soins »](https://kids.twreporter.org/article/children-with-leukemia-main-story), publié par The Reporter for Kids, a remporté le prix du reportage court approfondi dans la catégorie télévision et internet de la 23e édition des Excellent Journalism Awards[^50]. Qu'un média jeunesse créé seulement deux ans auparavant obtienne ce prix constitue en soi une réponse à l'idée selon laquelle « l'information pour enfants et adolescents peut atteindre le niveau d'un prix professionnel du reportage approfondi ».
 
-> **✦** « Ne pas posséder, ne pas intervenir, ne pas récupérer. » — Charte des donateurs de The Reporter[^36]
+The Reporter for Kids a aussi une autre signification stratégique : le socle de donateurs dans dix ans. Les lecteurs de 12 ans d'aujourd'hui auront 22 ans dans dix ans, puis 32 ans dix ans plus tard. S'ils ont été exposés de manière continue, au cours de leur croissance, à la qualité du travail de la famille The Reporter, leur probabilité de devenir donateurs mensuels réguliers sera beaucoup plus élevée que celle de lecteurs adultes qu'il faudrait rééduquer à partir de zéro. D'où viendront les 2 000 personnes manquantes pour passer de 8 000 à 10 000 ? Cette infrastructure de base qu'est The Reporter for Kids est l'une des réponses.
 
-**Pour aller plus loin** :
+## Quand le front uni a appris la langue des influenceurs
 
-- [CommonWealth Magazine](/society/天下雜誌) — Avant de fonder The Reporter, Ho Jung-hsing venait de quitter son poste de rédacteur en chef de _Commonwealth Magazine_ ; Commonwealth emprunte la voie du média économique commercial avec mur payant et écosystème d'entreprises, formant le contraste le plus direct avec la voie non lucrative et sans publicité de The Reporter.
-- [Mouvements sociaux et participation citoyenne](/society/社會運動與公民參與) — La naissance et le fonctionnement de The Reporter sont étroitement liés au pouls de la société civile taïwanaise ; cet article retrace le spectre plus large des mouvements sociaux et de la participation citoyenne dans lequel The Reporter s'inscrit.
-- [Nouveaux médias artistiques taïwanais](/art/台灣新媒體藝術) — Un autre cas de Taiwan-DNA, porté par la communauté citoyenne et en croissance transversale.
-- [PanSci](/society/泛科學) — Autre cas taïwanais d'utilité publique dans les nouveaux médias né dans les années 2010, mais PanSci a choisi de maintenir l'espace de débat public par la vulgarisation scientifique, les cours, les vidéos, les projets publicitaires et le modèle d'entreprise de services de connaissance.
-- [Musique indépendante taïwanaise](/music/台灣獨立音樂) — Un autre écosystème de bien public maintenu par des inconnus qui paient.
-- [justfont et le développement de la typographie taïwanaise](/technology/justfont與台灣字體發展) — Une autre histoire de lecteurs taïwanais votant avec leur argent : 7 667 personnes qui, en 76 minutes à partir du lancement d'une campagne de financement participatif, ont décidé qu'une police de caractères devait exister
-- [justfont et le développement de la typographie taïwanaise : Vingt-cinq ans de Hwa Kang à soixante-sept minutes de Kinmen](/technology/justfont與台灣字體發展) — Un autre cas ayant réécrit la perception publique taïwanaise par financement participatif en 2015, en miroir au niveau de l'infrastructure culturelle.
-- [Câbles sous-marins : Visibles au sommet du Bouclier de Silicium, invisibles sous le pouls](/technology/海底電纜) — Le reportage approfondi de The Reporter sur les câbles sous-marins en 2024 est une source clé pour ce sujet, ajoutant la perspective du pouls de communication extérieure de 23 millions de personnes.
+En avril 2026, The Reporter a lancé un nouveau grand dossier : [« Analyser les cercles concentriques du front uni : le voyage en Chine de Holger Chen et les "influenceurs" qui l'entourent »](https://www.twreporter.org/a/united-front-work-powered-by-holger-chen-and-china-influencers)[^51].
+
+Le véritable angle de ce dossier est la transformation structurelle de la méthodologie du front uni dans la seconde moitié des années 2020 : d'une propagande exportée par les médias officiels traditionnels, elle passe à une pénétration dissimulée dans les contenus quotidiens poussés par les algorithmes, par l'intermédiaire d'acteurs non officiels tels que des YouTubeurs taïwanais et des « influenceurs » chinois. Le sujet dépasse déjà la vieille question du « travail de front uni de la Chine à l'égard de Taïwan ».
+
+![Schéma relationnel du dossier 2026 de The Reporter sur les cercles concentriques du front uni : centré sur Holger Chen Chih-han, il relie les influenceurs chinois, figures de groupes de réflexion et médias qui entourent son voyage en Chine, décrivant la structure d'un réseau non officiel de front uni](/article-images/society/the-reporter-united-front-network-2026.webp)
+
+_The Reporter relie en une carte des « cercles concentriques du front uni » les influenceurs chinois, groupes de réflexion et médias situés derrière le voyage en Chine de Holger Chen. Ce travail de mise à plat des réseaux invisibles est précisément l'endroit où le journalisme d'enquête brûle de l'argent. Image : The Reporter (design : Huang Yu-chen ; compilation : Kung Te-lien, Fang Te-lin), fair use (commentaire éditorial)._
+
+Le podcast associé a été mis en ligne le 11 juin 2026, avec un titre très direct : [« Les médias officiels se retirent, les influenceurs entrent en scène ? Pourquoi le travail de la Chine envers Taïwan se tourne-t-il vers les influenceurs et les contenus du quotidien ? » (S6EP27)](https://www.twreporter.org/a/podcast-2026-06-12)[^52]. Trois invités y participaient : Kung Te-lien, journaliste senior à The Reporter, le commentateur Li Hou-chen et Chang Chih-chi, cofondateur de SimpleInfo Design[^53].
+
+Le résumé de l'émission contient une phrase souvent citée : « Le travail de la Chine envers Taïwan passe désormais par les rôles semi-officiels de "nouveaux groupes sociaux", représentés par des influenceurs chinois, et mène depuis les plateformes en ligne une "stratégie de zone grise" différente de la propagande traditionnelle »[^54].
+
+Le concept de stratégie de zone grise vient à l'origine des relations internationales et désigne des moyens de conflit situés entre la paix et la guerre : actions militaires de harcèlement, découpages opérés par des garde-côtes, guerre de l'information, coercition économique, etc. The Reporter prolonge ce cadre jusqu'au niveau des plateformes de contenu : par une masse de contenus d'influenceurs qui semblent quotidiens, proches de la vie courante ou divertissants, une impression favorable de la Chine s'infiltre peu à peu dans le regard des jeunes générations taïwanaises. C'est beaucoup plus difficile à détecter que la propagande officielle traditionnelle, précisément parce que cela ne ressemble pas à de la propagande.
+
+Le coût d'enquête de ce dossier comprend le suivi des itinéraires en Chine de YouTubeurs précis, la comparaison de chronologies de publications, des entretiens avec des chercheurs sur les dispositifs concernés et la gestion de la sécurité personnelle des journalistes travaillant sur des sujets transfrontaliers sensibles. Aucun de ces sujets n'est de ceux auprès desquels les annonceurs des médias commerciaux aiment voir apparaître leur marque.
+
+Si « Les pêcheries de sang et de larmes » de 2016 représentait la prise de conscience précoce par The Reporter des « personnes que l'on ignore », les cercles concentriques du front uni de 2026 représentent sa prise de conscience des « structures que l'on ignore ». Le premier rend visible une exploitation invisible ; le second identifie une propagande qui ne ressemble pas à de la propagande. La trajectoire des dix ans conserve une cohérence le long de cet axe.
+
+## Le petit jardin de 4 personnes → 8 000 personnes → 10 000 personnes
+
+Du 4 au 7 décembre 2025, The Reporter a organisé son exposition du dixième anniversaire au bâtiment 4A du parc culturel et créatif Huashan 1914, à Taipei[^55]. Du 19 au 22 mars 2026, l'exposition s'est déplacée à Kaohsiung, dans l'entrepôt B6 de la zone Penglai du Pier-2 Art Center[^56]. Les deux événements étaient gratuits.
+
+L'exposition déployait les reportages représentatifs de dix années, les prix obtenus, les photos de terrain et les processus de travail de la rédaction. Pour un média non lucratif, c'était un vaste exercice de reddition de comptes aux donateurs. Les 8 000 donateurs mensuels réguliers, auxquels s'ajoutent des donateurs ponctuels irréguliers et des soutiens individuels continus comme Tung Tzu-hsien, versent chaque mois de l'argent sur le compte de ce média sans jamais tenir d'assemblée générale, sans jamais demander de dividendes. Le sens de l'exposition du dixième anniversaire était de donner à ces plus de 8 000 inconnus une occasion d'entrer dans un espace physique et de voir ce que leurs 200 ou 300 dollars taïwanais mensuels avaient permis d'obtenir.
+
+Dans le podcast du dixième anniversaire, Ho Jung-hsing a prononcé une phrase souvent négligée : « Il y a dix ans, nous pensions que survivre 3 ans serait déjà formidable ; dix ans plus tard, davantage de gens connaissent The Reporter, mais de nouveaux défis arrivent, et les choses ne sont pas devenues plus faciles »[^57].
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/H_PiSMCR6Sc" title="《報導者》成立週年，有話大聲說！" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_La vidéo anniversaire de la chaîne officielle de The Reporter explique, avec la voix du média lui-même, pourquoi il a choisi cette voie difficile du journalisme d'enquête non lucratif._
+
+## Les 200 dollars prélevés au début de chaque mois
+
+Quels sont les nouveaux défis ? Sur le plan financier, les revenus de collecte de fonds augmentent d'année en année : environ 34,47 millions de dollars taïwanais en 2022, 35,75 millions en 2023 et 44,79 millions en 2024 ; la collecte 2025 ne sera réglée qu'au milieu de 2026[^58]. Sur le papier, la croissance semble stable, mais sur la même période, les coûts de personnel, de reportages transnationaux, d'introduction d'outils d'IA et de protection de la cybersécurité courent chacun encore plus vite. Le coût d'un dossier d'enquête nécessitant huit mois d'infiltration n'est pas du même ordre en 2015 et en 2025.
+
+```tw-line
+Revenus de collecte de fonds de The Reporter : hausse de 30 % de 2022 à 2024 (dizaines de milliers de dollars taïwanais)
+Année | Revenus de collecte
+2022 | 3447
+2023 | 3575
+2024 | 4479
+Source : rapports publics de résultats de collecte de The Reporter (période de collecte 2025 non clôturée)
+```
+
+Sur le plan des personnes, une partie des donateurs mensuels réguliers disparaît naturellement chaque année : certains connaissent un changement de situation économique, d'autres changent d'emploi ou de compte bancaire, d'autres ne se souviennent déjà plus pourquoi ils avaient commencé ces prélèvements. Pour maintenir une croissance nette, le rythme des nouveaux arrivants doit être largement supérieur aux pertes. Passer de 8 000 à 10 000 exige en réalité de compenser bien plus que 2 000 personnes, car chaque année une cohorte de donateurs se retire naturellement ; les nouveaux doivent d'abord combler ce trou avant que l'on puisse parler de croissance nette.
+
+Plus largement, les conditions de tout l'écosystème informationnel se dégradent aussi. Une enquête de 2025 indique qu'environ 96 % des Taïwanais ressentent la diffusion des fausses informations[^59]. La même année, le Digital News Report du Reuters Institute montre que la confiance globale des Taïwanais dans l'information n'est que de 33 %[^60]. Dans un environnement de confiance aussi basse, le seuil à franchir pour qu'un média dont le produit central est le « reportage approfondi crédible » convainque les lecteurs de lui confier de l'argent ne peut que monter.
+
+```tw-stat
+96 % | Ressentent la diffusion des fausses informations | Enquête taïwanaise 2025
+33 % | Confiance globale dans l'information | Reuters Institute 2024
+Source : Center for Resilient Society de l'Université nationale de Taïwan, 2025 (relayé par The News Lens) ; Reuters Institute Digital News Report 2024
+```
+
+L'arrivée des outils d'IA constitue une variable plus récente. Lorsque les grands modèles de langage peuvent produire en trois secondes un long texte qui semble avoir une allure d'enquête, lorsque les algorithmes des plateformes sociales fragmentent encore davantage l'attention disponible pour les longs formats, l'unité de temps représentée par les quatre mots « huit mois d'infiltration » est elle-même repoussée vers les marges par l'environnement technologique. La capacité de The Reporter à tenir la prochaine décennie dépendra de sa capacité à faire comprendre à la société que la valeur de certaines choses ne réside pas dans la vitesse à laquelle elles sont produites, mais dans la manière dont elles le sont.
+
+La question de la prochaine décennie n'est pas « est-ce possible ? » : dix ans ont déjà prouvé que le média pouvait survivre. La question de la prochaine décennie est : « la société civile acceptera-t-elle de renouveler l'abonnement ? » Cette décision de renouvellement ne se jouera pas lors d'une grande campagne de collecte, mais au début de chaque mois, à l'instant où 200 dollars taïwanais sont prélevés sur le compte de chaque donateur : ont-ils décidé de ne pas annuler, de ne pas laisser la carte échouer, de ne pas oublier ?
+
+Il y a dix ans, Ho Jung-hsing s'encourageait en disant : « faire pousser une fleur dans les ruines, protéger un arpent de terre en temps troublés ». Dix ans plus tard, le petit jardin né de 4 personnes en compte 8 000. Peut-il tenir encore dix ans, peut-il atteindre 10 000 personnes, cette fleur se desséchera-t-elle dans la prochaine vague algorithmique ? La réponse ne se trouve pas dans ce média, mais entre les mains de chaque personne de cette île qui a un jour ouvert un article de The Reporter.
+
+Recomprendre « je verse 200 dollars taïwanais par mois » non comme « faire une bonne action », mais comme « payer pour toute la société une part du coût de la vérification » : voilà l'idée la plus précieuse que The Reporter laisse après dix ans, celle que cette île mérite d'emporter dans la prochaine décennie.
+
+## Lectures complémentaires
+
+- [Médias et liberté de la presse à Taïwan](/society/台灣媒體與新聞自由) — Une vue d'ensemble, du retrait du parti, du gouvernement et de l'armée des médias à l'écosystème médiatique actuel.
+- [Public Television Service](/society/公視) — Une autre voie de média public : la version audiovisuelle d'un « bien public » soutenue par un budget légal.
+- [CommonWealth Magazine](/society/天下雜誌) — Le lieu où travaillait Ho Jung-hsing avant de quitter son poste de rédacteur en chef éditorial, représentant des médias commerciaux taïwanais d'économie et de finance.
+- [Guerre cognitive](/society/認知作戰) — Front uni, fausses informations générées par l'IA, stratégie de zone grise : un arrière-plan commun au dossier 2026 de The Reporter sur le front uni.
+- [Guerre cognitive de la pomme de terre empoisonnée](/society/毒馬鈴薯認知作戰) — Étude de cas d'un épisode concret de guerre cognitive.
+- [PTT](/technology/PTT批踢踢) — L'espace public taïwanais de l'ère pré-réseaux sociaux, dans le même fil que The Reporter sur l'idée que les plateformes ne sont pas nécessairement neutres.
 
 ## Références
 
-[^1]: [The Reporter — À propos](https://www.twreporter.org/about-us) — Page officielle de la Fondation culturelle The Reporter, révélant le contexte de fondation, la structure du conseil, la charte des donateurs et les revenus annuels de collecte.
+[^1]: Publication Facebook de Ho Jung-hsing, 2025-09-14 : « Le premier mois de mise en ligne de The Reporter, il n'y avait que 4 donateurs mensuels réguliers ; je n'osais tout simplement pas laisser mes collègues connaître ce chiffre. » Voir facebook.com/twreporter/posts/1235665585269425.
 
-[^2]: [The Reporter — À propos : les trois principes](https://www.twreporter.org/about-us) — Texte original de la charte des donateurs « ne pas posséder, ne pas intervenir, ne pas récupérer », définissant les limites comportementales entre donateurs et rédaction.
+[^2]: Podcast du dixième anniversaire de The Reporter, 2025-10-08 : « Les soutiens mensuels réguliers sont passés de seulement 4 personnes le premier mois de mise en ligne à la confiance de 8 000 soutiens par mois aujourd'hui. » Voir twreporter.org/a/podcast-2025-10-09.
 
-[^3]: [Fabrication, Exploitation, Blood and Tears Fishing Grounds — Enquête transnationale sur la vérité de la pêche hauturière taïwanaise](https://www.twreporter.org/topics/far-sea-fishing-investigative-report) — Projet d'enquête collaboratif de The Reporter avec _Tempo_ indonésien en 2016-2017, ayant directement conduit le Yuan de Contrôle à émettre une correction officielle contre l'Agence des pêches.
+[^3]: Page de synthèse de la trilogie « Les pêcheries de sang et de larmes », twreporter.org/topics/unfinished-far-sea-fishing-governance. Le troisième volet, « Une gouvernance hauturière inachevée », a été publié en septembre 2020.
 
-[^4]: [Palmarès 2025 de The Reporter](https://www.twreporter.org/a/awards-2025) — 24 prix de journalisme cumulés en 2025, dont _MIT Machine Tools Flowing into Russian Military Industry_ remportant le premier prix du SOPA pour le journalisme économique d'excellence.
+[^4]: Public Television Service News Network (PNN), 2024-06-26 : « Jugement dans l'affaire des travailleurs noirs piégés par l'endettement : l'ancien vice-président de l'Université Chung Chou condamné à 5 ans et 6 mois », news.pts.org.tw/article/702271. Les titres de fonction varient selon les sources ; le présent article retient « ancien responsable de l'Université Chung Chou ».
 
-[^5]: [The Reporter — À propos : revenus annuels de collecte](https://www.twreporter.org/about-us) — 34,46 millions en 2022, 35,75 millions en 2023, 44,78 millions en 2024, 52,98 millions en 2025, les dons ayant été multipliés par 1,5 en quatre ans.
+[^5]: Communiqué du ministère de la Santé et du Bien-être, 2025-11-26 : « Nouveau régime de gestion de la médecine esthétique : consensus avec 40 organisations médicales ; à partir du 1er janvier 2026, les médecins n'ayant pas achevé le PGY ne pourront pas pratiquer la médecine esthétique. »
 
-[^6]: [Wikipedia : The Reporter — Chronologie de fondation](https://zh.wikipedia.org/wiki/%E5%A0%B1%E5%B0%8E%E8%80%85) — Article principal Wikipedia sur The Reporter, documentant l'annonce conjointe de fondation par Ho Jung-hsing et Tieh Chih-chih le 1er septembre 2015, jour de la Fête des journalistes.
+[^6]: Page officielle de The Reporter, « À propos de nous, pacte des donateurs », twreporter.org/about-us.
 
-[^7]: [The Reporter — Don initial de 5 millions de Tzu-hsien Tung pour créer la fondation](https://www.twreporter.org/about-us) — La page officielle de The Reporter documente explicitement le don personnel de 5 millions de dollars taïwanais de Tzu-hsien Tung pour créer la fondation.
+[^7]: Voir [^1] — publication Facebook du dixième anniversaire de Ho Jung-hsing, verbatim : « je n'osais tout simplement pas laisser mes collègues connaître ce chiffre ».
 
-[^8]: [Wikipedia : Ho Jung-hsing](https://zh.wikipedia.org/wiki/%E4%BD%95%E6%A6%AE%E5%B9%B8) — Fondateur et premier président de l'Association des journalistes de Taïwan en 1995, fondateur du _Bimonthly Eyewitness_.
+[^8]: Reportage d'INSIDE, 2015-09-01 : « The Reporter annonce sa création le jour de la Fête des journalistes ; le site est officiellement mis en ligne le 16 décembre », inside.com.tw/2015/09/01/the-reporter.
 
-[^9]: [The Reporter — Annonce du deuxième conseil de fondation](https://www.twreporter.org/a/board-of-directors-news-20180901) — Premier président Hsiu-ch'i Weng du 1er septembre 2015 au 28 août 2018, deuxième président Jung-tsun Huang à partir du 28 août 2018.
+[^9]: Reportage de Business Next, 2015-09-01 : « The Reporter tient une conférence de presse pour annoncer sa création », bnext.com.tw/article/37251.
 
-[^10]: [Wikipedia : The Reporter (média)](https://zh.wikipedia.org/wiki/%E5%A0%B1%E5%B0%8E%E8%80%85) — Article principal Wikipedia sur The Reporter, fournissant la chronologie comparative avec d'autres médias indépendants taïwanais (_New Journal_ 1987, _Coolloud_ 1997, _Our Island_ de la télévision publique 1998, _News&Market_ 2011, _Watchout_ 2013).
+[^10]: Ho Jung-hsing a quitté en 2015 le poste de rédacteur en chef éditorial de CommonWealth Magazine ; il avait 49 ans lors de la création de The Reporter. Sources : « À propos de nous » de The Reporter et recoupement de plusieurs médias.
 
-[^11]: [The Reporter — Page publique des trois principes](https://www.twreporter.org/about-us) — Source originale de la phrase « ne pas posséder, ne pas intervenir, ne pas récupérer ».
+[^11]: Historique officiel de l'Association des journalistes de Taïwan : fondée en 1995, Ho Jung-hsing en est l'initiateur et le premier président.
 
-[^12]: [Fondation de l'Excellence in Journalism Award — Profil de Ho Jung-hsing](https://feja.org.tw/77257/) — Évaluations par les confrères Chang Teh-leh, Huang Che-pin et Lai Hsiu-ju des traits de personnalité et du style de travail de Ho Jung-hsing.
+[^12]: Tung Tzu-hsien a personnellement donné 5 millions de dollars taïwanais pour créer la fondation culturelle The Reporter. Sources : FAQ officielle de The Reporter et recoupement de plusieurs reportages de l'époque. Une autre version évoquant un « don initial de 20 millions » circule, sans confirmation officielle.
 
-[^13]: [Fondation de l'Excellence in Journalism Award — Profil de Ho Jung-hsing (entretien avec Li Hsi-li)](https://feja.org.tw/77257/) — Li Hsi-li se souvient de la scène où Ho Jung-hsing l'a convaincue de rejoindre The Reporter.
+[^13]: Weng Hsiu-chi, première présidente, mandat de 2015-09 à 2018-08, professeure invitée à l'Université Shih Hsin. Source : page d'historique organisationnel de The Reporter.
 
-[^14]: [The Reporter — Historique des revenus de collecte](https://www.twreporter.org/about-us) — Détail public des revenus de collecte annuels, y compris les revenus d'intérêts.
+[^14]: FAQ officielle de The Reporter, twreporter.org/about-us : « La fondation agit comme un parapluie protecteur et un pare-feu, permettant de bloquer les ingérences extérieures et de garantir le fonctionnement indépendant et autonome du média. »
 
-[^15]: [Fondation de l'Excellence in Journalism Award — Entretien avec Ho Jung-hsing](https://feja.org.tw/77257/) — Ho Jung-hsing détaille la logique de collaboration de The Reporter autorisant les médias commerciaux à publier ses contenus contre rémunération, « absolument pas en opposition les uns avec les autres ».
+[^15]: Voir [^2] — podcast du dixième anniversaire de The Reporter, 2025-10-08 : « Les soutiens mensuels réguliers sont passés de seulement 4 personnes le premier mois de mise en ligne à la confiance de 8 000 soutiens par mois aujourd'hui. »
 
-[^16]: [Page d'accueil du projet _Blood and Tears Fishing Grounds_ de The Reporter](https://www.twreporter.org/topics/far-sea-fishing-investigative-report) — Collection complète du projet d'enquête transnational collaboratif avec _Tempo Magazine_ indonésien.
+[^16]: Voir [^1] — publication Facebook du dixième anniversaire de Ho Jung-hsing, phrase d'encouragement : « faire pousser une fleur dans les ruines, protéger un arpent de terre en temps troublés ».
 
-[^17]: [Palmarès 2017 de The Reporter (SOPA)](https://www.twreporter.org/a/awards-2017) — Premier prix du SOPA 2017 pour le journalisme des droits humains d'excellence, premier prix pour le journalisme d'investigation d'excellence, premier prix pour l'infographie d'excellence — trois premiers prix.
+[^17]: Voir [^1] — déclaration d'objectif de Ho Jung-hsing sur Facebook : « avancer vers 10 000 personnes » (8 000 atteints en 2025-10, 10 000 pas encore atteints).
 
-[^18]: [Documents du Yuan de Contrôle concernant la correction officielle contre l'Agence des pêches](https://www.cy.gov.tw/) — Documents publics du Yuan de Contrôle corrigeant l'Agence des pêches pour manquement dans la gestion des pêcheurs recrutés à l'étranger.
+[^18]: Voir [^6] — le principe des trois non, « ne pas posséder, ne pas intervenir, ne pas récupérer », figure sur la page officielle « À propos de nous » de The Reporter, pacte des donateurs.
 
-[^19]: [Liste complète des prix 2017 de The Reporter](https://www.twreporter.org/a/awards-2017) — Trois premiers prix du SOPA et prix du journalisme d'investigation de l'Excellence in Journalism Award.
+[^19]: Voir [^12] — le don personnel de 5 millions de dollars taïwanais par Tung Tzu-hsien pour créer la fondation est lié au dispositif en trois temps du « ne pas posséder ».
 
-[^20]: [The Reporter — Kaohsiung Environmental Refugees in the Great Wind — The Petrochemical Python Entwined for 40 Years](https://www.twreporter.org/a/kaohsiung-environment-refugee-linyuan) — Reportage approfondi de Fang Hui-chen sur la zone industrielle pétrochimique de Linyuan, source de la phrase originale « Ce qui est le plus gravement corrodé, ce ne sont pas les pipelines pétrochimiques, mais le cœur humain ».
+[^20]: Voir [^12] ; 5 millions est le chiffre officiel public de première main, 20 millions relève de la rumeur de marché.
 
-[^21]: [The Reporter — Critique du livre _Children of the Ruins_](https://www.twreporter.org/a/bookreview-high-risk-youth-in-their-teens-in-their-ruins) — _Children of the Ruins_ de Li Hsi-li, Chien Yung-ta et Yu Chih-wei, immersion dans le système de placement et les jeunes de familles à haut risque.
+[^21]: FAQ officielle de The Reporter, twreporter.org/about-us : « Nous souhaitons sortir du mythe du taux de clics, car le trafic n'équivaut pas entièrement à la valeur d'un reportage, ni à la confiance et à l'influence. »
 
-[^22]: [Fondation de l'Excellence in Journalism Award — Entretien avec Li Hsi-li](https://feja.org.tw/77257/) — Source de la phrase originale « Nous dormons tranquilles chaque nuit, parce que nous faisons de notre mieux chaque jour ».
+[^22]: Huang Jong-tsun a pris la présidence du deuxième conseil d'administration le 2018-08-28. Source : page d'historique organisationnel de The Reporter.
 
-[^23]: [Annonce de réorganisation de The Reporter 2018](https://www.twreporter.org/a/board-of-directors-news-20180901) — Ho Jung-hsing passe le rôle de rédacteur en chef à Li Hsi-li en septembre 2018 et devient directeur général à plein temps.
+[^23]: Premier volet de la série « Faux documents, exploitation, pêcheries de sang et de larmes », publié en 2016. Page de synthèse : twreporter.org/topics/unfinished-far-sea-fishing-governance.
 
-[^24]: [Wikipedia : Réorganisation de l'équipe éditoriale de The Reporter](https://zh.wikipedia.org/wiki/%E5%A0%B1%E5%B0%8E%E8%80%85) — Août 2023 : Teh-lin Fang promue rédactrice en chef, Li Hsi-li devient directrice des opérations.
+[^24]: Deuxième volet de « Les pêcheries de sang et de larmes », « Traite humaine en mer (tempête) », publié en 2018, slug URL : slave-fishermen.
 
-[^25]: [The Reporter — Page de transparence « À propos »](https://www.twreporter.org/about-us) — Rapports financiers publics, conseil d'administration, rédaction, détail des dons — cette transparence fait elle-même partie de l'engagement en tant que « bien public ».
+[^25]: « Une gouvernance hauturière inachevée : des ailerons de requin illégaux et du travail forcé à la mort d'observateurs », publié en septembre 2020. Voir [^3].
 
-[^26]: [Liberty Times — Après le décès de Lin Yi-han, rupture de « collaboration » avec Potien Culture](https://news.ltn.com.tw/news/society/breakingnews/2086727) — Juin 2017, le Liberty Times retrace l'historique de la controverse Potien Culture, incluant le point de controverse de l'article publié par The Reporter et l'incident de tentative de suicide de Ya-chun Chu.
+[^26]: Article de Lee Hsueh-li, The Reporter Open Lab sur Medium, 2021-09-17 : « plus de cent personnes interrogées, dont un septième venues de l'étranger ». medium.com/twreporter.
 
-[^27]: [The Reporter — Déclaration d'excuses pour l'incident Potien (Facebook officiel)](https://www.facebook.com/twreporter/posts/1922664091314787/) — 26 juin 2017, excuses publiques de la rédaction, indiquant explicitement « ne pas avoir respecté la convention journalistique de l'équilibre des sources ».
+[^27]: Page des prix 2017 de The Reporter, twreporter.org/a/awards-2017. Trois premiers prix SOPA : prix d'excellence du reportage sur les droits humains, prix d'excellence du reportage d'investigation, prix d'excellence de l'infographie (« Le grand thon-murène de la pêche hauturière taïwanaise », twreporter.org/a/infographic-far-sea-fishing-gcs ; le titre joue sur l'homophonie d'un proverbe taïwanais).
 
-[^28]: [CNA — Fang Hui-chen accuse Chien-chuang Wang de harcèlement sexuel, événement #MeToo](https://www.cna.com.tw/news/firstnews/202306140133.aspx) — Juin 2023, accusation publique de Fang Hui-chen déclenchant un procès prolongé, Wang niant et contre-attaquant.
+[^28]: Voir [^4]. Jugement de première instance le 2024-06-26, tribunal du district de Changhua. Chai Fang-wu : 5 ans et 6 mois ; Lan Su-ling : 5 ans ; Tu Jung-hui : 7 ans.
 
-[^29]: [Site officiel de The Young Reporter](https://kids.twreporter.org/) — Lancé en 2022, ciblant les lecteurs de 10 à 15 ans, « Comprendre le monde × Participer au futur ».
+[^29]: Deuxième instance pour Chai Fang-wu et Lan Su-ling : reportage de la CNA, 2026-06-02, « En appel dans l'affaire des travailleurs noirs piégés par l'endettement, Chai de l'Université Chung Chou voit sa peine réduite à 3 ans et 6 mois », cna.com.tw/news/asoc/202606020054.aspx. L'affaire de profit illégal de Tu Jung-hui est une procédure séparée en appel ; en mars 2026, la Haute Cour de Taichung a maintenu la peine de 7 ans et la privation des droits civiques pour 4 ans, voir Liberty Times, news.ltn.com.tw/news/society/breakingnews/5380999.
 
-[^30]: [Palmarès 2024 de The Reporter](https://www.twreporter.org/a/awards-2024) — _Les Fissures de la Vie_ de The Young Reporter remporte le prix du reportage approfondi court (vidéo et web) de la 23e édition de l'Excellence in Journalism Award.
+[^30]: The Reporter, 2025-10-15 : « Le phénomène Chokubi : la tendance et les inquiétudes suscitées par les jeunes médecins de Taïwan, de Corée et du Japon qui "ne font pas de PGY et passent directement à la médecine esthétique" », twreporter.org/a/chokubi-phenomenon-in-taiwan-korea-and-japan.
 
-[^31]: [The Reporter — Child Hunting Storm : Dévoiler la chaîne industrielle sombre de l'exploitation sexuelle d'images de mineurs](https://www.twreporter.org/topics/child-and-youth-sexual-exploitation) — Des journalistes ont passé huit mois à infiltrer, révélant la chaîne d'exploitation sexuelle de mineurs et sa structure symbiotique avec les paris en ligne.
+[^31]: Calendrier public du ministère de la Santé et du Bien-être : annonce d'un projet de réforme le 2025-11-14, consensus avec 40 organisations médicales le 2025-11-26, entrée en vigueur du nouveau régime le 2026-01-01. Le présent article situe le reportage de The Reporter comme « l'un des déclencheurs de la discussion politique », non comme la cause unique.
 
-[^32]: [The Reporter — Transactions sous la Ligne Rouge sous Embargo](https://www.twreporter.org/topics/taiwan-machine-tool-russia-sanctions) — Collaboration avec un journaliste russe en exil, révélant l'entrée de machines-outils taïwanaises dans l'industrie militaire russe, premier prix du SOPA 2025 pour le journalisme économique d'excellence.
+[^32]: L'absence d'affichage des taux de clics dans la rédaction est un principe éditorial public, mentionné à plusieurs reprises dans des entretiens officiels et présentations internes. Voir le prolongement disciplinaire de [^21].
 
-[^33]: [Palmarès 2022 de The Reporter (déclaration de Li Hsi-li)](https://www.twreporter.org/a/awards-2022) — Source de la phrase originale « continuer à chercher un langage et un cadre précis pour que les lecteurs reconnaissent les actes, les discours, les mensonges et le visage de l'agresseur ».
+[^33]: En septembre 2018, Ho Jung-hsing transmet le poste de rédacteur en chef à Lee Hsueh-li et devient directeur général à plein temps.
 
-[^34]: [Huashan 1914 — Exposition OPEN du dixième anniversaire de The Reporter](https://www.huashan1914.com/w/huashan1914/exhibition_25112618353334165) — Du 4 au 7 décembre 2025, en collaboration avec la soirée « Rolling On » du dixième anniversaire et la conférence du festival d'automne du National Theater & Concert Hall.
+[^34]: En août 2023, Fang Te-lin est promue rédactrice en chef, et Lee Hsueh-li devient directrice des opérations.
 
-[^35]: [Fondation de l'Excellence in Journalism Award — Motivation du jury pour le prix de contribution spéciale à la vocation journalistique 2024 de Ho Jung-hsing](https://feja.org.tw/76841/) — 23e édition de l'Excellence in Journalism Award, annoncée en novembre 2024.
+[^35]: Liberty Times, série de reportages du 2017-06-21 au 2017-06-26 : affaire Chu Ya-chun, présidente d'Aquarius Publishing. news.ltn.com.tw/news/life/breakingnews/2111771.
 
-[^36]: [The Reporter — Les trois principes (texte original de la charte des donateurs)](https://www.twreporter.org/about-us) — Les neuf mots « ne pas posséder, ne pas intervenir, ne pas récupérer » en tant que source unique de vérité.
+[^36]: Déclaration d'excuses de la rédaction de The Reporter, 2017-06-26, texte original : « Nous nous sommes fondés sur des entretiens réalisés du vivant de l'autrice et sur les archives de communication laissées par l'autrice et la maison d'édition, sans interroger les personnes concernées par ces archives, et n'avons pas respecté pleinement la règle journalistique du reportage équilibré. » Le titre original de l'article était « Quand Fang Si-chi devient un être concret : entretien avec une amie proche de l'autrice et une éditrice sur le parcours éditorial de Lin Yi-han ».
+
+[^37]: Déclaration de The Reporter en 2020 sur l'affaire des masques Carry Hi-Tech : « Concernant l'implication de Carry Hi-Tech dans le mélange de masques non médicaux fabriqués en Chine, bien que la période des faits mis en cause soit postérieure à notre reportage d'alors, nous éprouvons toujours un profond regret et une grande tristesse, et procédons humblement à notre propre examen. »
+
+[^38]: En juin 2023, Fang Hui-chen accuse publiquement le président de The Storm Media, Wang Chien-chuang, de harcèlement sexuel ; Wang Chien-chuang nie et contre-attaque. Le cœur de l'affaire ne se situe pas à l'intérieur de The Reporter, mais la journaliste est publiquement impliquée à titre individuel dans la vague #MeToo du milieu médiatique.
+
+[^39]: Page de recommandations 2025 de The Reporter, twreporter.org/a/2025-recommend-reports. Le média y présente officiellement 14 grands dossiers.
+
+[^40]: La série « Les internes disparus » fait partie des grands dossiers 2025 sur la question du trillion de dollars taïwanais de l'assurance maladie. Voir [^39].
+
+[^41]: Les séries « Le code de la longévité » et « À l'extrémité de la prise en charge longue durée 2.0, entrevoir la 3.0 » sont des dossiers 2025 sur le vieillissement. Voir [^39].
+
+[^42]: Les séries « FORMOSAT-8 » et « L'œil de mille lis dans l'espace » sont des dossiers 2025 sur le programme spatial national. Voir [^39].
+
+[^43]: Palmarès de la 24e édition de l'Excellent Journalism Award Foundation, feja.org.tw/80348. The Reporter reçoit le prix du reportage explicatif, le prix du programme d'information en podcast et le prix du journalisme économique et financier.
+
+[^44]: Page des prix 2025 de The Reporter, twreporter.org/a/awards-2025. Six prix SOPA, dont le premier prix du scoop pour « Tempête de la chasse aux enfants » (8 mois d'infiltration), le premier prix d'excellence sur les questions de femmes pour « Chercher un enfant par gestation pour autrui » et le premier prix d'excellence du reportage économique pour « Des machines-outils MIT entrent dans l'industrie militaire russe ». Sur la page awards-2025, le H1 et le titre URL ne concordent pas sur le nombre total de prix (H1 : 24 ; titre URL : 20) ; le présent article retient la formulation du H1, « plus de vingt prix ».
+
+[^45]: Historique organisationnel de The Reporter : 41 prix au total en 2022, record depuis la création.
+
+[^46]: The Reporter for Kids a été lancé en 2022, pour les lecteurs de 10 à 15 ans, avec le slogan « comprendre le monde × participer à l'avenir ».
+
+[^47]: Yang Hui-chun est directrice de The Reporter for Kids ; elle a travaillé successivement pour Children Daily, Min Sheng Daily et Apple Daily.
+
+[^48]: Yang Hui-chun a indiqué à plusieurs reprises dans des entretiens publics que les véritables concurrents de The Reporter for Kids sont TikTok et YouTube.
+
+[^49]: Principes éditoriaux de The Reporter for Kids : « ne pas écrire en inversion, employer un vocabulaire neutre, ne pas utiliser de termes émotionnels ».
+
+[^50]: « Les interstices de la vie : le premier garçon atteint de leucémie à Taïwan à lutter par lui-même pour son droit aux soins » a remporté le prix du reportage court approfondi dans la catégorie télévision et internet de la 23e édition des Excellent Journalism Awards.
+
+[^51]: The Reporter, 2026-04 : « Analyser les cercles concentriques du front uni : le voyage en Chine de Holger Chen et les "influenceurs" qui l'entourent », twreporter.org/a/united-front-work-powered-by-holger-chen-and-china-influencers.
+
+[^52]: Podcast « The Real Story » S6EP27, publié le 2026-06-11. twreporter.org/a/podcast-2026-06-12.
+
+[^53]: Voir [^52]. Invités : Kung Te-lien (journaliste senior à The Reporter), Li Hou-chen, Chang Chih-chi.
+
+[^54]: Voir [^52], résumé de l'émission.
+
+[^55]: Exposition du dixième anniversaire de The Reporter, étape de Taipei : bâtiment 4A du parc Huashan 1914, du 2025-12-04 au 12-07, entrée gratuite. 10th.twreporter.org.
+
+[^56]: Exposition du dixième anniversaire de The Reporter, étape de Kaohsiung : entrepôt B6 de la zone Penglai du Pier-2 Art Center, du 2026-03-19 au 22, entrée gratuite (terminée).
+
+[^57]: Voir [^2] : « Il y a dix ans, nous pensions que survivre 3 ans serait déjà formidable ; dix ans plus tard, davantage de gens connaissent The Reporter, mais de nouveaux défis arrivent, et les choses ne sont pas devenues plus faciles. »
+
+[^58]: Rapports publics de résultats de collecte de The Reporter (revenus de collecte, dollars taïwanais) : environ 34,47 millions en 2022, 35,75 millions en 2023, 44,79 millions en 2024. La période de collecte 2025 n'était pas encore clôturée au milieu de 2026, elle n'est donc pas incluse. La formule circulant selon laquelle les « revenus annuels dépassent 90 millions » renvoie au revenu organisationnel total incluant licences, subventions, etc., et ne correspond pas au périmètre officiel des revenus de collecte ; les deux ne sont pas mélangés ici.
+
+[^59]: Enquête 2025 sur les fausses informations : environ 96 % des Taïwanais ressentent la diffusion des fausses informations (enquête originale du Center for Resilient Society de l'Université nationale de Taïwan, relayée par The News Lens). thenewslens.com/article/267704.
+
+[^60]: Reuters Institute Digital News Report 2024 Taiwan : confiance globale dans l'information à 33 %. reutersinstitute.politics.ox.ac.uk/digital-news-report/2024/taiwan.
+
+## Sources des images
+
+Le présent article utilise 5 visuels officiels de marque et d'œuvres de The Reporter, cités selon le principe du fair use (commentaire éditorial sur le travail de The Reporter), tous mis en cache dans `public/article-images/society/` afin d'éviter le hotlinking vers les serveurs sources ; il intègre également 2 vidéos de la chaîne YouTube officielle de The Reporter.
+
+- [Visuel d'identité de marque de The Reporter](https://www.twreporter.org) — The Reporter, Fair use (hero)
+- [Slogan d'identité « ouvrir les portes à la participation, faire entendre une voix collective »](https://www.twreporter.org) — The Reporter, Fair use
+- [Infographie « Le grand thon-murène de la pêche hauturière taïwanaise » (premier prix SOPA 2017 d'excellence de l'infographie)](https://www.twreporter.org/a/infographic-far-sea-fishing-gcs) — The Reporter, Fair use
+- [Schéma relationnel du dossier sur les cercles concentriques du front uni (2026)](https://www.twreporter.org/a/united-front-work-powered-by-holger-chen-and-china-influencers) — The Reporter (design : Huang Yu-chen ; compilation : Kung Te-lien, Fang Te-lin), Fair use
+- [Visuel de lancement de The Reporter for Kids (2022)](https://kids.twreporter.org) — The Reporter, Fair use
+
+Vidéos intégrées (chaîne YouTube officielle de The Reporter) :
+
+- [Tempête autour des caméras cachées en médecine esthétique : quel est le problème de la régulation de la médecine esthétique à Taïwan ?](https://www.youtube.com/watch?v=_AdtqBm7Hk4) — The Reporter
+- [Anniversaire de la création de The Reporter : parler haut et fort !](https://www.youtube.com/watch?v=H_PiSMCR6Sc) — The Reporter

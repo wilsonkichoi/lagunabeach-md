@@ -130,12 +130,17 @@ def find_translation_file(zh_path, lang):
         return None
     for tf in base.rglob("*.md"):
         try:
-            text = tf.read_text(encoding="utf-8", errors="replace")[:1500]
+            full = tf.read_text(encoding="utf-8", errors="replace")
         except OSError:
             continue
+        # Search only within frontmatter block (first `---...---`), unbounded length.
+        if full.startswith("---"):
+            end = full.find("\n---", 3)
+            text = full[: end if end != -1 else 8000]
+        else:
+            text = full[:8000]
         if f"translatedFrom: '{zh_path}'" in text or f"translatedFrom: \"{zh_path}\"" in text:
             return tf
-        # Also try without quotes (legacy)
         if re.search(rf"^translatedFrom:\s*{re.escape(zh_path)}\b", text, re.MULTILINE):
             return tf
     return None
