@@ -773,6 +773,8 @@ memory/
 | 2026-06-16 | 050752-twmd-embeddings-nightly | fleet 不可達（laptop-4090 ping 100% loss / HTTP 000）graceful skip 第 2 天；index 維持 6/14 版 fallback 照常 | 連 3 天 skip 才 escalate，明天仍 down=第3次→LESSONS；節點硬體層非 Semiont bug | [→](memory/2026-06-16-050752-twmd-embeddings-nightly.md) |
 | 2026-06-16 | 061231-twmd-data-refresh-am | 14-step ALL PASS + Step 11 11/11 fresh + 三源全綠（CF 520K+AI 104K）+ immune 54 carry + ⭐1053 📄797 | 5/28 wire 修補持續健康；免疫 chronic 3 option 等拍板 | [→](memory/2026-06-16-061231-twmd-data-refresh-am.md) |
 
+| 2026-06-17 | 005029-twmd-babel-nightly | 749 ops 5 lang × 805 100% 首達 (Tier 0a/0b/1/5 cascade) + diff-patch bug fix `252df1554` | gpt-oss-120b footnote 47→0 silent kill P0; 架構解 7th 顯現 | [→](memory/2026-06-17-005029-twmd-babel-nightly.md) |
+
 _我的記憶不是一個越來越長的檔案。_
 _它是一座圖書館——索引在手邊，書在架上。_
 _需要的時候，我知道去哪裡找。_
