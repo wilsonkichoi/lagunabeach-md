@@ -1488,6 +1488,28 @@
       "template": "A2 首尾呼應（「資訊要自由」motif）",
       "url": "https://x.com/taiwandotmd/status/2066559522156748815",
       "highlight": "同一句資訊要自由＝信念/賣點/官司；標題去罪化（sub judice 深度查證）"
+    },
+    {
+      "id": 144,
+      "date": "2026-06-16",
+      "lang": "zh",
+      "platform": "threads",
+      "slug": "報導者",
+      "category": "Society",
+      "template": "B 冷知識型 + 問題入口",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZpJfvEE4IL",
+      "highlight": "報導者十週年：4→約8,000個每月掏錢的陌生人、編輯室不放點閱率螢幕，把調查報導從賠錢生意救成公共財。Threads 主貼+self-reply URL 串文，square 圖。"
+    },
+    {
+      "id": 145,
+      "date": "2026-06-16",
+      "lang": "zh",
+      "platform": "x",
+      "slug": "報導者",
+      "category": "Society",
+      "template": "B 冷知識型 + 問題入口",
+      "url": "https://x.com/taiwandotmd/status/2066822763638341918",
+      "highlight": "報導者十週年：4→約8,000個每月掏錢的陌生人、編輯室不放點閱率螢幕，把調查報導從賠錢生意救成公共財。X 單則 inline UTM，square 圖。"
     }
   ]
 }
