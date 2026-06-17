@@ -26,11 +26,19 @@
  *     instead of shelling out. Same Map<absPath, GitInfo> interface, so the
  *     template + wrappers are untouched.
  *
- * INVARIANT (parity-critical): the contributor de-dup order, lastModified =
- *   newest commit date, and revisionCount semantics MUST byte-match the old
- *   in-astro buildGitInfoCache, or 4,758 article sidebars change. The git log
- *   ordering (newest-first) + push-on-first-sighting logic below is copied
- *   verbatim from the previous contributors.ts implementation.
+ * INVARIANT (parity-critical): lastModified = newest commit date and
+ *   revisionCount semantics MUST byte-match the old in-astro buildGitInfoCache.
+ *   The git log ordering (newest-first) + push-on-first-sighting logic below is
+ *   copied verbatim from the previous contributors.ts implementation.
+ *
+ * CONTRIBUTOR ORDER (2026-06-18): a final stable pass demotes the maintainer
+ *   (the repo OWNER — derived from origin, so forks demote their own owner) to
+ *   the BACK of each article's contributor list. A maintainer's footprint is
+ *   dominated by merges + routine heals, so newest-first sighting otherwise
+ *   surfaces them ahead of the person who actually wrote the piece. Real
+ *   contributor shows first, maintainer attribution kept but last. The
+ *   non-maintainer contributors keep their newest-first order (magnitude
+ *   reordering was considered and declined). See demoteMaintainer().
  *
  * mailmap: uses %aN/%aE (mailmap-aware) so .mailmap consolidates author
  *   variants — identical to the old code.
@@ -87,6 +95,61 @@ function resolveContributor(authorName, authorEmail) {
       : authorName || profile?.name || login,
     login,
   };
+}
+
+// ── Maintainer demotion ──────────────────────────────────────────────────────
+// WHY a maintainer is special (not just "CheYu asked"): whoever runs the repo
+// merges nearly every community PR and authors the routine frontmatter/footnote
+// heals + babel re-syncs site-wide. Their git footprint is dominated by
+// *maintenance*, so commit recency/presence is a poor authorship proxy for them
+// specifically — a newest-first list bills the merger ahead of the person who
+// actually wrote the piece. So we stable-partition the maintainer to the BACK
+// of each article's contributor list; everyone else keeps their newest-first
+// order. A sole-authored article (length 1) is left untouched, so the
+// maintainer is still credited when they are the only author.
+//
+// FORK-FRIENDLY: the maintainer is the GitHub repo owner (parsed from the origin
+// remote), so a fork (Japan.md, Ukraine.md, …) demotes *its* owner with zero
+// edits — not a hardcoded login. Falls back to DEFAULT_MAINTAINER when origin is
+// unreadable (e.g. a shallow CI checkout without a remote).
+//
+// CONSIDERED + DECLINED — reordering the *non-maintainer* contributors by diff
+// size. It would need a --numstat git pass (fragile -z parsing that risks the
+// revisionCount/lastModified parity invariant) to reorder only ~300
+// multi-contributor articles, where most co-authors have a single commit
+// anyway. Newest-first among co-authors is simple, robust, and matches prior
+// site behavior. Revisit only if magnitude ordering proves worth the risk.
+const DEFAULT_MAINTAINER = 'frank890417';
+
+function deriveMaintainerKeys() {
+  let owner = '';
+  try {
+    const url = execSync('git remote get-url origin', {
+      encoding: 'utf-8',
+    }).trim();
+    // https://github.com/OWNER/repo(.git)  or  git@github.com:OWNER/repo.git
+    owner = url.match(/[/:]([^/]+)\/[^/]+?(?:\.git)?$/)?.[1] || '';
+  } catch {
+    /* no remote (shallow CI) — fall back to DEFAULT_MAINTAINER below */
+  }
+  return new Set([contributorKey(owner || DEFAULT_MAINTAINER)]);
+}
+
+const MAINTAINER_KEYS = deriveMaintainerKeys();
+
+function isMaintainer(contributor) {
+  return (
+    MAINTAINER_KEYS.has(contributorKey(contributor.login || '')) ||
+    MAINTAINER_KEYS.has(contributorKey(contributor.name || ''))
+  );
+}
+
+function demoteMaintainer(contributors) {
+  if (contributors.length < 2) return contributors;
+  const others = contributors.filter((c) => !isMaintainer(c));
+  if (others.length === contributors.length) return contributors; // no maintainer
+  if (others.length === 0) return contributors; // maintainer-only, nothing to do
+  return [...others, ...contributors.filter(isMaintainer)];
 }
 
 // ── ONE git pass over knowledge/ (covers all 6 languages) ────────────────────
@@ -146,6 +209,12 @@ function main() {
         entry.contributors.push(currentContributor);
       }
     }
+  }
+
+  // Final stable pass: demote the maintainer to the back of each list so the
+  // article's actual author is surfaced first (see demoteMaintainer above).
+  for (const key in files) {
+    files[key].contributors = demoteMaintainer(files[key].contributors);
   }
 
   mkdirSync(dirname(OUT), { recursive: true });
