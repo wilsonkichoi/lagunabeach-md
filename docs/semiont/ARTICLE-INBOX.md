@@ -286,15 +286,14 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 - **Type**: `NEW`
 - **Category**: Culture
+- **Path**: knowledge/Culture/台灣人小時候的英文名字.md
 - **Priority**: `P1`
-- **Status**: `pending`
+- **Status**: `prose-shipped-pending-media+rebabel+reverse-cross-link`（zh ship 2026-06-17 twmd-rewrite-daily routine）
 - **Requested**: 2026-06-12 by 哲宇（goal directive）
 - **Notes**:
-  - 敏感度低、共鳴極高的身份題：幾乎每個台灣人都有一個兒美班 / 國小外師隨手指派的英文名字，長大後在護照、職場、星巴克之間跟它談判
-  - 切角候選：命名權在誰手上（老師 / 父母 / 自己）、改名潮（成年後改回拼音或取新名）、與香港/韓國/日本的對照、護照外文姓名拼音制度（WG vs 漢語拼音 vs 通用拼音之亂）
-  - 必驗事實：外交部護照外文姓名規定、常見英文名統計（如有來源）
-  - 潛在陷阱：避免寫成趣聞清單——核心張力是「殖民語言教育 × 自我命名權」
-- **Reference**: 哲宇 goal notes
+  - **2026-06-17 prose EVOLVE 全弧 ship（twmd-rewrite-daily 18:00 routine）**：5847 CJK / 38 footnote / 8 場景式 H2 / 8 viz / 7 callouts。Stage 0 + Stage 1 雙 gate PASS（99 query / 68 distinct sources / 18 en / 16 一手 / 6 opposition / 55 信度標記）。Falsification-first 抓 8 處錯：「翻書指派」物理動作（first-person 證據薄）→ 改「即興指派」/「Sesame Workshop 1987 親自設計」（時間壓縮 — 1999 才出 ESL 線）/「2019 修法變更次數無限制」（公務員記憶誤，真實是「國語→國家語言」）/「2020 後 Kevin→拼音改名潮」（無 trend，改寫成「加簽護照別名 NT$1,300」）/ 韓國 hagwon 系統性指派（無證據）/ 星巴克全民日常（限都市年輕族群）/「Mary/Kevin top hits 統計」（無 N=1200）/「1988《英文名字大全》ISBN」（改用 1992《英文姓名寶鑑》）。三波命名史 viz：創氏改名 / 1946 漢化 / 兒美班三欄並列。research SSOT `reports/research/2026-06/台灣人小時候的英文名字.md`。
+  - **剩餘（pending）**：(1) **🔴 image-health hard=1**（0 圖；length-scaled target 5；非 commit gate）— 補 hero + scene 圖（候選 anchor 見 §圖片來源 placeholder：兒美班教室、芝麻街 1987 NO CHINESE 廣告、外交部拼音對照表、Kolas Yotaka 2024 身分證新聞照、Kwangfu vs Guangfu 路牌）走 REWRITE Step 4.3。(2) **🟡 babel** — zh ship 後 babel-nightly 00:50 會自動 propagate（en/ja/ko/es/fr）。(3) **🟡 Stage 5.2 reverse cross-link** — 補 4 條 sibling（外來語 / 原住民語言復振 / 蔣為文 / 台灣感性）的延伸閱讀。(4) **🟡 Stage 3.6 fan-out** — cron budget defer；A 級大眾文可主動原子重驗 + 順稿 + 視覺同步。(5) **🟡 quote-fidelity 2 warn** — L103 朗文 quote 全形/半形冒號 + L206 漢化字典 quote 用 ⋯⋯ 省略合併（acceptable per ⋯⋯ 標示省略，但 plugin 不認）。(6) 人工審閱（`lastHumanReview` 仍 false）。
+- **Reference**: 哲宇 goal notes + reports/research/2026-06/台灣人小時候的英文名字.md + reports/research/2026-06/台灣人小時候的英文名字-section-A.md
 
 ### 台灣各大技術 Conference NEW — 從 COSCUP 到 g0v，開源島嶼的年度遷徙
 
