@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T22:19:40.277479Z",
+  "lastUpdated": "2026-06-17T22:44:25.686914Z",
   "schemaVersion": "1.1",
   "totals": {
     "count": 135,
@@ -32,7 +32,7 @@
       "url": "https://x.com/taiwandotmd/status/2066822763638341918",
       "highlight": "報導者十週年：4→約8,000個每月掏錢的陌生人、編輯室不放點閱率螢幕，把調查報導從賠錢生意救成公共財。X 單則 inline UTM，square 圖。",
       "views_7d": null,
-      "views_latest": 4016,
+      "views_latest": 10400,
       "engagements_7d": null,
       "rate_7d": null,
       "backfilled": true
@@ -48,7 +48,7 @@
       "url": "https://www.threads.com/@taiwandotmd/post/DZpJfvEE4IL",
       "highlight": "報導者十週年：4→約8,000個每月掏錢的陌生人、編輯室不放點閱率螢幕，把調查報導從賠錢生意救成公共財。Threads 主貼+self-reply URL 串文，square 圖。",
       "views_7d": null,
-      "views_latest": 47000,
+      "views_latest": 86000,
       "engagements_7d": null,
       "rate_7d": null,
       "backfilled": true
@@ -64,7 +64,7 @@
       "url": "https://x.com/taiwandotmd/status/2066559522156748815",
       "highlight": "同一句資訊要自由＝信念/賣點/官司；標題去罪化（sub judice 深度查證）",
       "views_7d": null,
-      "views_latest": 5840,
+      "views_latest": 13800,
       "engagements_7d": null,
       "rate_7d": null,
       "backfilled": true
@@ -80,7 +80,7 @@
       "url": "https://www.threads.com/@taiwandotmd/post/DZnPRd1k-F4",
       "highlight": "同一句資訊要自由＝信念/賣點/官司；標題去罪化（sub judice 深度查證）",
       "views_7d": null,
-      "views_latest": 32000,
+      "views_latest": 34000,
       "engagements_7d": null,
       "rate_7d": null,
       "backfilled": true
@@ -96,7 +96,7 @@
       "url": "https://x.com/taiwandotmd/status/2066024659238465719",
       "highlight": "無名小站「電源開關」母題 X 版（同文案 inline UTM）",
       "views_7d": null,
-      "views_latest": 20100,
+      "views_latest": 20200,
       "engagements_7d": null,
       "rate_7d": null,
       "backfilled": true
@@ -164,6 +164,18 @@
       "url": "https://www.threads.com/@taiwandotmd/post/DZhFf9kDC3P"
     },
     {
+      "n": 144,
+      "article": "報導者",
+      "platform": "threads",
+      "views": 86000,
+      "viewsSource": "latest",
+      "engagements": null,
+      "rate": null,
+      "badge": "⭐ 高峰",
+      "date": "2026-06-16",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZpJfvEE4IL"
+    },
+    {
       "n": 35,
       "article": "台灣高鐵（v3 事實修正版）",
       "platform": "threads",
@@ -186,18 +198,6 @@
       "badge": "⭐ 高峰",
       "date": "2026-04-30",
       "url": "https://x.com/taiwandotmd/status/2049854898108522575"
-    },
-    {
-      "n": 45,
-      "article": "壞特",
-      "platform": "threads",
-      "views": 65400,
-      "viewsSource": "7d",
-      "engagements": null,
-      "rate": null,
-      "badge": "⭐ 高峰",
-      "date": "2026-04-26",
-      "url": "https://www.threads.com/@taiwandotmd/post/DXlcWdykVgv"
     }
   ],
   "amplification": [],
@@ -363,12 +363,12 @@
     {
       "week": "2026-W24",
       "published": 8,
-      "avgViews": 42854
+      "avgViews": 42877
     },
     {
       "week": "2026-W25",
       "published": 4,
-      "avgViews": 22214
+      "avgViews": 36050
     }
   ],
   "harvestStatus": [
@@ -1629,8 +1629,8 @@
       "publishDate": "2026-06-13",
       "daysSincePublish": 5,
       "withinHarvestWindow": true,
-      "harvestCount": 4,
-      "lastHarvest": "2026-06-17 06:48"
+      "harvestCount": 5,
+      "lastHarvest": "2026-06-18 06:30"
     },
     {
       "n": 135,
@@ -1639,8 +1639,8 @@
       "publishDate": "2026-06-13",
       "daysSincePublish": 5,
       "withinHarvestWindow": true,
-      "harvestCount": 3,
-      "lastHarvest": "2026-06-17 06:48"
+      "harvestCount": 4,
+      "lastHarvest": "2026-06-18 06:30"
     },
     {
       "n": 136,
@@ -1649,8 +1649,8 @@
       "publishDate": "2026-06-13",
       "daysSincePublish": 5,
       "withinHarvestWindow": true,
-      "harvestCount": 5,
-      "lastHarvest": "2026-06-17 06:48"
+      "harvestCount": 6,
+      "lastHarvest": "2026-06-18 06:30"
     },
     {
       "n": 137,
@@ -1659,8 +1659,8 @@
       "publishDate": "2026-06-13",
       "daysSincePublish": 5,
       "withinHarvestWindow": true,
-      "harvestCount": 3,
-      "lastHarvest": "2026-06-17 06:48"
+      "harvestCount": 4,
+      "lastHarvest": "2026-06-18 06:30"
     },
     {
       "n": 138,
@@ -1669,8 +1669,8 @@
       "publishDate": "2026-06-14",
       "daysSincePublish": 4,
       "withinHarvestWindow": true,
-      "harvestCount": 4,
-      "lastHarvest": "2026-06-17 06:48"
+      "harvestCount": 5,
+      "lastHarvest": "2026-06-18 06:30"
     },
     {
       "n": 139,
@@ -1679,8 +1679,8 @@
       "publishDate": "2026-06-14",
       "daysSincePublish": 4,
       "withinHarvestWindow": true,
-      "harvestCount": 3,
-      "lastHarvest": "2026-06-17 06:48"
+      "harvestCount": 4,
+      "lastHarvest": "2026-06-18 06:30"
     },
     {
       "n": 142,
@@ -1689,8 +1689,8 @@
       "publishDate": "2026-06-16",
       "daysSincePublish": 2,
       "withinHarvestWindow": true,
-      "harvestCount": 3,
-      "lastHarvest": "2026-06-17 06:48"
+      "harvestCount": 4,
+      "lastHarvest": "2026-06-18 06:30"
     },
     {
       "n": 143,
@@ -1699,8 +1699,8 @@
       "publishDate": "2026-06-16",
       "daysSincePublish": 2,
       "withinHarvestWindow": true,
-      "harvestCount": 2,
-      "lastHarvest": "2026-06-17 06:48"
+      "harvestCount": 3,
+      "lastHarvest": "2026-06-18 06:30"
     },
     {
       "n": 144,
@@ -1709,8 +1709,8 @@
       "publishDate": "2026-06-16",
       "daysSincePublish": 2,
       "withinHarvestWindow": true,
-      "harvestCount": 2,
-      "lastHarvest": "2026-06-17 06:48"
+      "harvestCount": 3,
+      "lastHarvest": "2026-06-18 06:30"
     },
     {
       "n": 145,
@@ -1719,8 +1719,8 @@
       "publishDate": "2026-06-16",
       "daysSincePublish": 2,
       "withinHarvestWindow": true,
-      "harvestCount": 2,
-      "lastHarvest": "2026-06-17 06:48"
+      "harvestCount": 3,
+      "lastHarvest": "2026-06-18 06:30"
     }
   ]
 }
