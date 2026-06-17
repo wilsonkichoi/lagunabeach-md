@@ -1,48 +1,48 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-17T23:09:20+08:00",
-    "zhCommitHead": "8249f9190",
+    "lastUpdated": "2026-06-18T00:47:53+08:00",
+    "zhCommitHead": "882200027",
     "totalZh": 806,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
         "total_zh": 806,
-        "fresh": 805,
+        "fresh": 806,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 1,
+        "missing": 0,
         "orphan": 0
       },
       "ja": {
         "total_zh": 806,
-        "fresh": 805,
+        "fresh": 806,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 1,
+        "missing": 0,
         "orphan": 0
       },
       "ko": {
         "total_zh": 806,
-        "fresh": 805,
+        "fresh": 806,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 1,
+        "missing": 0,
         "orphan": 0
       },
       "es": {
         "total_zh": 806,
-        "fresh": 805,
+        "fresh": 806,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 1,
+        "missing": 0,
         "orphan": 0
       },
       "fr": {
         "total_zh": 806,
-        "fresh": 805,
+        "fresh": 806,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 1,
+        "missing": 0,
         "orphan": 0
       }
     },
@@ -63104,19 +63104,74 @@
       },
       "translations": {
         "en": {
-          "status": "missing"
+          "path": "en/Culture/taiwanese-childhood-english-names.md",
+          "translatedFrom": "Culture/台灣人小時候的英文名字.md",
+          "sourceCommitSha": "cfce444ae",
+          "sourceContentHash": "sha256:5ec68902a1c50e0d",
+          "sourceBodyHash": "sha256:efeadcec0add04bc",
+          "translatedAt": "2026-06-18T00:36:09+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 38,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
-          "status": "missing"
+          "path": "ja/Culture/taiwanese-childhood-english-names.md",
+          "translatedFrom": "Culture/台灣人小時候的英文名字.md",
+          "sourceCommitSha": "cfce444ae",
+          "sourceContentHash": "sha256:5ec68902a1c50e0d",
+          "sourceBodyHash": "sha256:efeadcec0add04bc",
+          "translatedAt": "2026-06-18T00:36:09+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 38,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
-          "status": "missing"
+          "path": "ko/Culture/taiwanese-childhood-english-names.md",
+          "translatedFrom": "Culture/台灣人小時候的英文名字.md",
+          "sourceCommitSha": "cfce444ae",
+          "sourceContentHash": "sha256:5ec68902a1c50e0d",
+          "sourceBodyHash": "sha256:efeadcec0add04bc",
+          "translatedAt": "2026-06-18T00:36:09+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 38,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
-          "status": "missing"
+          "path": "es/Culture/taiwanese-childhood-english-names.md",
+          "translatedFrom": "Culture/台灣人小時候的英文名字.md",
+          "sourceCommitSha": "cfce444ae",
+          "sourceContentHash": "sha256:5ec68902a1c50e0d",
+          "sourceBodyHash": "sha256:efeadcec0add04bc",
+          "translatedAt": "2026-06-18T00:36:09+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 38,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/Culture/taiwanese-childhood-english-names.md",
+          "translatedFrom": "Culture/台灣人小時候的英文名字.md",
+          "sourceCommitSha": "cfce444ae",
+          "sourceContentHash": "sha256:5ec68902a1c50e0d",
+          "sourceBodyHash": "sha256:efeadcec0add04bc",
+          "translatedAt": "2026-06-18T00:36:10+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 38,
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },

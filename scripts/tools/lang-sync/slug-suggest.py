@@ -99,7 +99,8 @@ Rules:
 2. For places/concepts: use meaningful English translation (e.g. 二二八事件 → 228-incident, 戒嚴 → martial-law)
 3. ALL lowercase, words separated by `-`, no special chars except `-`
 4. NO file extension
-5. Output ONLY JSON: {"zh_path": "slug", ...}, no markdown fence, no commentary
+5. NO slashes (`/`) — slugs are FLAT, do NOT prefix with category path (e.g. NOT `culture/tsai-ing-wen`, just `tsai-ing-wen`)
+6. Output ONLY JSON: {"zh_path": "slug", ...}, no markdown fence, no commentary
 
 Bias toward shorter, recognizable English forms over literal translation."""
 
@@ -118,6 +119,20 @@ Bias toward shorter, recognizable English forms over literal translation."""
         print(f"❌ JSON parse fail: {e}")
         print(f"Raw: {result[:500]}")
         sys.exit(1)
+
+    # 2026-06-18 babel-nightly: owl-alpha returned "culture/taiwanese-childhood-english-names"
+    # despite system prompt rule 3 ("no special chars except `-`"). This created nested
+    # `Culture/culture/x.md` dirs under knowledge/{lang}/. Normalize: strip everything
+    # before the final `/`, so any "category/slug" form collapses to flat "slug".
+    normalized = {}
+    for k, v in slugs.items():
+        if isinstance(v, str) and "/" in v:
+            flat = v.rsplit("/", 1)[-1]
+            print(f"⚠️  slug strip: {v} → {flat} ({k})")
+            normalized[k] = flat
+        else:
+            normalized[k] = v
+    slugs = normalized
 
     # Merge with existing slug-map if it exists
     out_path = Path(args.out)

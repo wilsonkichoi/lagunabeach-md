@@ -287,6 +287,15 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 ## 未消化清單（📥 待 distill）
 
+### 2026-06-18 babel-nightly — slug-suggest owl-alpha 違反 system prompt rule 3 回 `category/slug` 形式造成 nested `Culture/culture/` 目錄
+
+- **pattern**: slug-suggest-llm-rule-violation-nested-path
+- **原則**：slug-suggest.py system prompt 明文 rule 3「ALL lowercase, words separated by `-`, no special chars except `-`」，owl-alpha 仍對 `Culture/台灣人小時候的英文名字.md` 回 `culture/taiwanese-childhood-english-names`（含 `/`）。下游 prepare-batch.py 沒驗 slug shape，直接展開成 `knowledge/{lang}/Culture/culture/x.md` 巢狀路徑，跟 805 篇現有 Culture/ flat 結構不一致。Tier 1 codex 已成功翻 5 lang 才被觀察到（5 個 file rename + `_translations.json` 5 key update + status.py regen 才修回）。
+- **觸發**：2026-06-18 00:34 babel-nightly cron，1 個 P0 article × 5 lang Tier 1 codex 全 pass，但 ls 時看到 `Culture/culture/` nested 巢狀目錄。owl-alpha 推測把「Culture 分類前綴 + slug」當「URL path」處理（合理但違反 prompt）。
+- **可能層級**：tooling hard gate — slug-suggest.py post-process normalize（已 inline ship：strip everything before final `/`）+ system prompt 加 explicit「NO slashes, slugs are flat — do NOT prefix with category path」。長期可能 promote 到 prepare-batch.py 也驗 slug shape（reject any slug containing `/` 並回頭叫人類拍板）— 多一層 redundancy 對應 REFLEXES #38 silent killer pattern（LLM 違反 prompt 是 first-class result 不是 bug）。
+- **相關**：scripts/tools/lang-sync/slug-suggest.py（inline normalize 已 ship 本 routine）/ prepare-batch.py（候選下一層 gate）/ REFLEXES #38 silent killer / SQUEEZE-MODELS-MAX-PIPELINE §Hard gate
+- **verification_count**: 1（單次 owl-alpha 違反，需要再次 instance 才升 canonical hard gate）
+
 ### 2026-06-14 routine-audit-weekly cycle 6 — Multi-core git race week：4 instance 後 1 週內接住 ship 胼胝體鐵律（positive feedback loop）
 
 - **pattern**: multi-core-git-race-arch-fix-shipped-same-week
