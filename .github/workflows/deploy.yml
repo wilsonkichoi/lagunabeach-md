@@ -121,6 +121,17 @@ jobs:
           # → 切 runner 架構時會 restore 錯架構的 browser cache 且 cache-hit=true 跳過安裝
           # → 找不到對應架構的 chrome-headless-shell。2026-06-01 ARM→x86 hotfix 暴露此 latent bug。
           key: playwright-${{ runner.os }}-${{ runner.arch }}-${{ hashFiles('package-lock.json') }}
+      # ── apt hygiene (2026-06-18, run 27723873289 post-mortem) ──────────
+      # The runner's pre-installed azure-cli source (packages.microsoft.com)
+      # intermittently 403s / "no longer signed", which fails `apt-get update`
+      # inside `playwright install-deps` and breaks the whole build. Playwright's
+      # system deps come from the ubuntu archive, NOT this source, so removing
+      # any apt source referencing packages.microsoft.com is safe and un-breaks
+      # `apt-get update`. Tolerant of the source being absent (|| true).
+      - name: Remove broken Microsoft apt source
+        run: |
+          sudo grep -rl packages.microsoft.com /etc/apt/sources.list.d/ 2>/dev/null \
+            | sudo xargs -r rm -f || true
       - name: Install Playwright system deps (always)
         timeout-minutes: 5
         run: npx --no-install playwright install-deps chromium

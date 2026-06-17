@@ -60,6 +60,14 @@ jobs:
         with:
           path: ~/.cache/ms-playwright
           key: playwright-${{ runner.os }}-${{ runner.arch }}-${{ hashFiles('package-lock.json') }}
+      # apt hygiene: strip the runner's azure-cli source (packages.microsoft.com)
+      # which intermittently 403s and breaks `apt-get update` inside
+      # `playwright install-deps`. Safe — Playwright deps come from the ubuntu
+      # archive. See deploy.yml for the full post-mortem (run 27723873289).
+      - name: Remove broken Microsoft apt source
+        run: |
+          sudo grep -rl packages.microsoft.com /etc/apt/sources.list.d/ 2>/dev/null \
+            | sudo xargs -r rm -f || true
       - name: Install Playwright system deps (always)
         timeout-minutes: 5
         run: npx --no-install playwright install-deps chromium
