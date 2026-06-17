@@ -68,8 +68,10 @@ jobs:
         run: |
           sudo grep -rl packages.microsoft.com /etc/apt/sources.list.d/ 2>/dev/null \
             | sudo xargs -r rm -f || true
+      # timeout 10 (was 5): azure.archive.ubuntu.com mirror occasionally crawls
+      # → CJK/emoji font download blows the 5-min budget (see deploy.yml).
       - name: Install Playwright system deps (always)
-        timeout-minutes: 5
+        timeout-minutes: 10
         run: npx --no-install playwright install-deps chromium
       - name: Install Playwright Chromium binary
         if: steps.playwright-cache.outputs.cache-hit != 'true'

@@ -121,54 +121,58 @@ jobs:
           # → 切 runner 架構時會 restore 錯架構的 browser cache 且 cache-hit=true 跳過安裝
           # → 找不到對應架構的 chrome-headless-shell。2026-06-01 ARM→x86 hotfix 暴露此 latent bug。
           key: playwright-${{ runner.os }}-${{ runner.arch }}-${{ hashFiles('package-lock.json') }}
-      # ── apt hygiene (2026-06-18, run 27723873289 post-mortem) ──────────
-      # The runner's pre-installed azure-cli source (packages.microsoft.com)
-      # intermittently 403s / "no longer signed", which fails `apt-get update`
-      # inside `playwright install-deps` and breaks the whole build. Playwright's
-      # system deps come from the ubuntu archive, NOT this source, so removing
-      # any apt source referencing packages.microsoft.com is safe and un-breaks
-      # `apt-get update`. Tolerant of the source being absent (|| true).
-      - name: Remove broken Microsoft apt source
-        run: |
-          sudo grep -rl packages.microsoft.com /etc/apt/sources.list.d/ 2>/dev/null \
-            | sudo xargs -r rm -f || true
-      - name: Install Playwright system deps (always)
-        timeout-minutes: 5
-        run: npx --no-install playwright install-deps chromium
-      - name: Install Playwright Chromium binary
-        if: steps.playwright-cache.outputs.cache-hit != 'true'
-        timeout-minutes: 5
-        run: npx --no-install playwright install chromium
-      # 2026-05-03 cross-lang-baseline post-mortem: PR #797 rename 902 lang files
-      # 到 en canonical slug (per URL convention 2026-04-12)。OG cache file 用 lang
-      # URL slug 為 path → outputPath 變 → 全 cache miss → 重 render ~4500 images
-      # = 40 min build slowdown (5/2 build 21 min → 5/3 build 60 min timeout)。
-      # Fix: OG generation 前先掃 git log rename history，把對應 cache file 從
-      # 舊 slug path mv 到新 slug path。原本要重 render 的 ~900 file 只要 mv 即可。
+      # ── OG image regeneration is the ONLY consumer of Playwright in this build.
+      # So DETECT whether anything OG-relevant changed FIRST, then gate the (slow,
+      # occasionally flaky) Playwright install on it. Builds that touch no OG
+      # content/template skip apt + fonts + browser binary entirely — immune to
+      # runner apt/mirror hiccups, and faster. 2026-06-18 (哲宇)：both of that
+      # day's CI breaks were inside this install, on builds (memory / diary / code)
+      # that needed no OG regen at all. ──
+
+      # Cache prep (git-only, no Playwright): mv OG cache for renamed articles so a
+      # rename is a cache hit, not a ~900-image re-render.
       - name: Sync OG cache for renamed articles
         timeout-minutes: 2
         run: node scripts/tools/og-rename-sync.mjs --since '30 days ago'
-      # OG generation skip optimization (2026-05-03 v4)：detect if any content
-      # / template change since last commit; if not, the cache is already correct
-      # and we skip Playwright launch entirely. v4 不再依賴 dev server，但 launch
-      # Playwright + setContent 仍有 ~1-2s overhead，能省則省。
+
+      # v4 canonical: generate-og-images.mjs (template inline) + favicon.png;
+      # md / diary content by git diff. No OG-relevant change → every Playwright
+      # step below is skipped via this step's `needed` output.
       - name: Detect OG-relevant changes
         id: og-changes
         run: |
-          # v4 visual canonical: scripts/core/generate-og-images.mjs (template inline)
-          # + public/favicon.png (embedded base64). md content 變動由 mtime 增量檢查，
-          # 不是 cache miss 觸發。
           CHANGED=$(git diff --name-only HEAD~1 HEAD -- 'knowledge/**/*.md' \
             'docs/semiont/diary/*.md' \
             'scripts/core/generate-og-images.mjs' \
             'public/favicon.png' 2>/dev/null | head -1)
           if [ -n "$CHANGED" ]; then
             echo "needed=true" >> $GITHUB_OUTPUT
-            echo "✓ Content/template change detected — running OG generation"
+            echo "✓ OG-relevant change — installing Playwright + regenerating OG images"
           else
             echo "needed=false" >> $GITHUB_OUTPUT
-            echo "⏭️  No OG-relevant change — skipping Playwright launch"
+            echo "⏭️  No OG-relevant change — skipping Playwright install entirely"
           fi
+
+      # apt hygiene (only when we actually install): the runner's pre-installed
+      # azure-cli source (packages.microsoft.com) intermittently 403s / "no longer
+      # signed", failing apt-get update inside install-deps. PW deps come from the
+      # ubuntu archive, so removing it is safe. 2026-06-18 run 27723873289.
+      - name: Remove broken Microsoft apt source
+        if: steps.og-changes.outputs.needed == 'true'
+        run: |
+          sudo grep -rl packages.microsoft.com /etc/apt/sources.list.d/ 2>/dev/null \
+            | sudo xargs -r rm -f || true
+      # timeout 10 (was 5): azure.archive.ubuntu.com mirror occasionally crawls →
+      # CJK/emoji fonts blow a 5-min budget (run 27724128010). Fonts are load-
+      # bearing for OG CJK rendering, so wait them out. Normal speed <1 min.
+      - name: Install Playwright system deps
+        if: steps.og-changes.outputs.needed == 'true'
+        timeout-minutes: 10
+        run: npx --no-install playwright install-deps chromium
+      - name: Install Playwright Chromium binary
+        if: steps.og-changes.outputs.needed == 'true' && steps.playwright-cache.outputs.cache-hit != 'true'
+        timeout-minutes: 5
+        run: npx --no-install playwright install chromium
       - name: Generate OG images (v4 inline-HTML batch)
         if: steps.og-changes.outputs.needed == 'true'
         # 4-core ubuntu-latest free runner: OG_WORKERS=4 (default) optimal.
