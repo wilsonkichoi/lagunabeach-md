@@ -1219,15 +1219,32 @@ function renderSpores(s) {
       .slice(0, 8)
       .map((p) => {
         const articleClean = (p.article || '').replace(/^[🌋🔥⭐\s]+/, '');
+        const url = p.url || '';
+        // Whole row opens the spore post in a new tab; the title is also a real
+        // anchor so keyboard / middle-click work (the row handler ignores clicks
+        // that land on the anchor to avoid opening twice).
+        const articleCell = url
+          ? '<a href="' +
+            url +
+            '" target="_blank" rel="noopener noreferrer">' +
+            articleClean +
+            '</a>'
+          : articleClean;
         return (
-          '<tr>' +
+          '<tr' +
+          (url
+            ? ' class="spore-row-link" data-url="' +
+              url +
+              '" style="cursor:pointer"'
+            : '') +
+          '>' +
           '<td class="spore-badge">' +
           (p.badge || '') +
           ' #' +
           p.n +
           '</td>' +
           '<td>' +
-          articleClean +
+          articleCell +
           '</td>' +
           '<td><span class="platform-' +
           (p.platform || 'other') +
@@ -1264,6 +1281,13 @@ function renderSpores(s) {
       '</tr></thead><tbody>' +
       (rows || '<tr><td colspan="6">—</td></tr>') +
       '</tbody></table>';
+    top.querySelectorAll('tr.spore-row-link').forEach((tr) => {
+      tr.addEventListener('click', (e) => {
+        if (e.target.closest('a')) return; // anchor handles its own click
+        const u = tr.getAttribute('data-url');
+        if (u) window.open(u, '_blank', 'noopener');
+      });
+    });
   }
 
   // 2.3 Amplification horizontal bars

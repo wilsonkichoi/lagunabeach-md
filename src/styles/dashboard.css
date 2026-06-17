@@ -1141,6 +1141,20 @@
 .spore-badge {
   font-weight: 600;
 }
+/* Clickable performer rows → open the spore post in a new tab */
+.spore-table tr.spore-row-link {
+  transition: background 0.14s;
+}
+.spore-table tr.spore-row-link:hover {
+  background: var(--bg-elevated, #f6faf7);
+}
+.spore-table tr.spore-row-link td a {
+  color: inherit;
+  text-decoration: none;
+}
+.spore-table tr.spore-row-link:hover td a {
+  text-decoration: underline;
+}
 .platform-threads {
   display: inline-block;
   padding: 1px 7px;

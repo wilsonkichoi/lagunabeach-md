@@ -590,6 +590,8 @@ def compute_top_performers(entries, n=5):
             "rate": e["rate_7d"],
             "badge": badge,
             "date": e["date"],
+            # post permalink so the dashboard row can open the spore in a new tab
+            "url": e.get("url"),
         })
     return out
 

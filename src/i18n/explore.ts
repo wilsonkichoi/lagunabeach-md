@@ -57,6 +57,9 @@ export const exploreUI = {
     'explore.featured.viewAll': 'View all featured →',
     'explore.featured.citations': 'citations',
     'explore.featured.minRead': 'min read',
+    'explore.popular.heading': 'Popular now',
+    'explore.popular.subtitle': 'Most-read articles over the past 7 days.',
+    'explore.popular.views': 'views',
 
     // More ways to explore
     'explore.more.heading': 'More ways to explore',
@@ -118,6 +121,9 @@ export const exploreUI = {
     'explore.featured.viewAll': '注目記事をすべて見る →',
     'explore.featured.citations': '引用',
     'explore.featured.minRead': '分',
+    'explore.popular.heading': '人気の記事',
+    'explore.popular.subtitle': '過去7日間で最も読まれた記事。',
+    'explore.popular.views': '閲覧',
 
     'explore.more.heading': 'もっと探す方法',
     'explore.more.graph.title': '知識グラフ',
@@ -176,6 +182,9 @@ export const exploreUI = {
     'explore.featured.viewAll': '추천 기사 전체 보기 →',
     'explore.featured.citations': '인용',
     'explore.featured.minRead': '분',
+    'explore.popular.heading': '인기 기사',
+    'explore.popular.subtitle': '지난 7일간 가장 많이 읽힌 기사.',
+    'explore.popular.views': '조회',
 
     'explore.more.heading': '더 많은 탐색 방법',
     'explore.more.graph.title': '지식 그래프',
@@ -232,6 +241,9 @@ export const exploreUI = {
     'explore.featured.viewAll': '看完整精選 →',
     'explore.featured.citations': '引用',
     'explore.featured.minRead': '分鐘',
+    'explore.popular.heading': '熱門文章',
+    'explore.popular.subtitle': '近 7 天最多人讀的文章。',
+    'explore.popular.views': '瀏覽',
 
     'explore.more.heading': '其他探索方式',
     'explore.more.graph.title': '知識圖譜',
@@ -290,6 +302,10 @@ export const exploreUI = {
     'explore.featured.viewAll': 'Ver todos los destacados →',
     'explore.featured.citations': 'citas',
     'explore.featured.minRead': 'min',
+    'explore.popular.heading': 'Lo más leído',
+    'explore.popular.subtitle':
+      'Los artículos más leídos en los últimos 7 días.',
+    'explore.popular.views': 'vistas',
 
     'explore.more.heading': 'Más formas de explorar',
     'explore.more.graph.title': 'Grafo de conocimiento',
@@ -351,6 +367,10 @@ export const exploreUI = {
     'explore.featured.viewAll': 'Voir tous les articles en avant →',
     'explore.featured.citations': 'citations',
     'explore.featured.minRead': 'min',
+    'explore.popular.heading': 'Les plus lus',
+    'explore.popular.subtitle':
+      'Les articles les plus lus ces 7 derniers jours.',
+    'explore.popular.views': 'vues',
 
     'explore.more.heading': 'Autres façons d’explorer',
     'explore.more.graph.title': 'Graphe de connaissances',

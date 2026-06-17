@@ -20,6 +20,7 @@
 import Layout from '../layouts/Layout.astro';
 import PageHero from '../components/PageHero.astro';
 import CategoryGrid from '../components/CategoryGrid.astro';
+import ArticleCard from '../components/ArticleCard.astro';
 import { useTranslations, getLangFromUrl } from '../i18n/utils';
 import { getLatestArticles } from '../utils/articles-index';
 import { getCategoryConfigs, categoryList } from '../utils/categoryConfig';
@@ -29,7 +30,7 @@ import {
   DEFAULT_LANGUAGE,
 } from '../config/languages';
 import matter from 'gray-matter';
-import { readFileSync, readdirSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { resolve, join, basename } from 'node:path';
 
 const lang = getLangFromUrl(Astro.url);
@@ -100,7 +101,21 @@ interface PickArticle {
   category: string;
   categoryLabel: string;
   categoryEmoji: string;
+  categoryColor: string;
+  coverImage?: string;
   featured: boolean;
+}
+
+// OG image as article thumbnail — mirror SEO.astro: per-article OG lives at
+// /og-images/[lang]/[cat]/[slug].jpg (default lang drops the prefix). existsSync
+// guards articles without an OG shot yet → undefined → ArticleCard falls back to
+// its category-color placeholder. URL is percent-encoded, disk check uses raw UTF-8.
+function ogThumb(catSlug: string, slug: string): string | undefined {
+  const base = isZh ? `/og-images/${catSlug}` : `/og-images/${lang}/${catSlug}`;
+  const disk = resolve(process.cwd(), 'public', `${base.slice(1)}/${slug}.jpg`);
+  return existsSync(disk)
+    ? `${base}/${encodeURIComponent(slug)}.jpg`
+    : undefined;
 }
 
 const categoryFolders: Array<[string, string, string]> = [
@@ -143,6 +158,8 @@ for (const [slug, folder, emoji] of categoryFolders) {
             category: slug,
             categoryLabel: t(`categoryConfig.${slug}` as any),
             categoryEmoji: emoji,
+            categoryColor: exploreCats[slug]?.color || '#16a34a',
+            coverImage: ogThumb(slug, basename(file, '.md')),
             featured: !!data.featured,
           });
         }
@@ -175,6 +192,85 @@ if (featuredPicks.length < 8) {
     featuredPicks.push(p);
   }
 }
+
+// ── Popular articles (GA, past 7 days) — read prebuilt analytics, map each
+// hot path to an ArticleCard. Lang-filtered to the current /explore locale;
+// empty (e.g. a local build with no GA refresh) → section hides itself. ──
+interface PopularArticle {
+  title: string;
+  href: string;
+  description: string;
+  categoryLabel: string;
+  categoryColor: string;
+  categoryEmoji: string;
+  coverImage?: string;
+  readingTime: number;
+  footnotes: number;
+  views: number;
+}
+
+const slugToFolder = new Map(categoryFolders.map(([s, f]) => [s, f]));
+const slugToEmoji = new Map(categoryFolders.map(([s, , e]) => [s, e]));
+const nonDefaultLangSet = new Set(
+  LANGUAGES.filter((l) => l.enabled && l.code !== DEFAULT_LANGUAGE.code).map(
+    (l) => l.code,
+  ),
+);
+
+const popularArticles: PopularArticle[] = [];
+try {
+  const aPath = resolve(process.cwd(), 'public/api/dashboard-analytics.json');
+  const analytics = JSON.parse(readFileSync(aPath, 'utf-8'));
+  const hot = (analytics?.ga?.topArticles7d || []) as Array<{
+    path?: string;
+    title?: string;
+    views?: number;
+  }>;
+  for (const item of hot) {
+    if (popularArticles.length >= 8) break;
+    const segs = (item.path || '').replace(/^\/+|\/+$/g, '').split('/');
+    // Lang gate: zh-TW articles have no lang prefix; others start with the code.
+    const hasLangPrefix = nonDefaultLangSet.has(segs[0]);
+    const itemLang = hasLangPrefix ? segs[0] : DEFAULT_LANGUAGE.code;
+    if (itemLang !== lang) continue;
+    const catSlug = hasLangPrefix ? segs[1] : segs[0];
+    const rawSlug = hasLangPrefix ? segs[2] : segs[1];
+    if (!catSlug || !rawSlug || !categoryList.includes(catSlug)) continue;
+    const slug = decodeURIComponent(rawSlug);
+    const folder = slugToFolder.get(catSlug);
+    if (!folder) continue;
+    const dir = isZh
+      ? resolve(process.cwd(), 'knowledge', folder)
+      : resolve(process.cwd(), 'knowledge', lang, folder);
+    let data: any;
+    let footnotes = 0;
+    try {
+      const raw = readFileSync(join(dir, `${slug}.md`), 'utf-8');
+      const parsed = matter(raw);
+      data = parsed.data;
+      footnotes = (raw.match(/^\[\^\d+\]:/gm) || []).length;
+    } catch {
+      continue; // GA path no longer maps to a live article in this language
+    }
+    popularArticles.push({
+      title: data.title || slug,
+      href: `${langUrlPrefix}/${catSlug}/${encodeURIComponent(slug)}`,
+      description: data.description || '',
+      categoryLabel: t(`categoryConfig.${catSlug}` as any),
+      categoryColor: exploreCats[catSlug]?.color || '#16a34a',
+      categoryEmoji: slugToEmoji.get(catSlug) || '',
+      coverImage: ogThumb(catSlug, slug),
+      readingTime: data.readingTime || 10,
+      footnotes,
+      views: item.views || 0,
+    });
+  }
+} catch {
+  // No analytics JSON — section stays empty, hides itself.
+}
+
+const popularViewsLabel = t('explore.popular.views' as any);
+const minReadLabel = t('explore.featured.minRead' as any);
 
 // ── Hot search chips: pull six terms from i18n (per-language) ──
 const hotSearchTerms = [
@@ -407,61 +503,62 @@ const routedCats = categoryList;
           </p>
         </div>
 
-        <div class="grid grid-cols-2 gap-5 max-[900px]:grid-cols-2 max-[600px]:grid-cols-1 max-[600px]:gap-4">
-          {featuredPicks.map((p) => (
-            <a
+        <div class="mx-auto flex max-w-[860px] flex-col gap-4">
+          {featuredPicks.map((p, i) => (
+            <ArticleCard
+              density="detailed"
+              imageSide="left"
               href={p.href}
-              class="group flex flex-col rounded-2xl border border-[#e2e8f0] bg-white p-6 no-underline shadow-[0_2px_8px_rgba(15,23,42,0.04)] transition-all hover:-translate-y-1 hover:border-[#10b981] hover:shadow-[0_12px_32px_rgba(15,23,42,0.10)] max-[480px]:p-5"
-            >
-              <div class="mb-3 flex items-center gap-2">
-                <span class="text-[1.1rem]">{p.categoryEmoji}</span>
-                <span class="text-[0.78rem] font-semibold uppercase tracking-[0.08em] text-[#10b981]">
-                  {p.categoryLabel}
-                </span>
-              </div>
-              <h3 class="mb-2 line-clamp-2 font-['Noto_Serif_TC',serif] text-[1.15rem] font-bold leading-[1.4] text-[#1a1a2e] transition-colors group-hover:text-[#065f46] max-[480px]:text-[1.05rem]">
-                {p.title}
-              </h3>
-              {p.description && (
-                <p class="mb-4 line-clamp-2 text-[0.9rem] leading-[1.55] text-[#64748b]">
-                  {p.description}
-                </p>
-              )}
-              <div class="mt-auto flex items-center justify-between border-t border-[#f1f5f9] pt-3 text-[0.78rem] text-[#94a3b8]">
-                <span class="flex items-center gap-1.5">
-                  <svg
-                    width="13"
-                    height="13"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                    <polyline points="14 2 14 8 20 8" />
-                  </svg>
-                  {p.footnotes} {t('explore.featured.citations')}
-                </span>
-                <span class="flex items-center gap-1.5">
-                  <svg
-                    width="13"
-                    height="13"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <circle cx="12" cy="12" r="10" />
-                    <polyline points="12 6 12 12 16 14" />
-                  </svg>
-                  {p.readingTime} {t('explore.featured.minRead')}
-                </span>
-              </div>
-            </a>
+              title={p.title}
+              description={p.description}
+              categoryLabel={p.categoryLabel}
+              categoryColor={p.categoryColor}
+              categoryIcon={p.categoryEmoji}
+              readingTime={`${p.readingTime} ${minReadLabel}`}
+              footnotes={p.footnotes}
+              coverImage={p.coverImage}
+              imageLoading={i < 2 ? 'eager' : 'lazy'}
+              openIn="same-tab"
+              dataAttrs={{ 'data-ga-section': 'explore_featured' }}
+            />
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  <!-- ====== POPULAR (GA 7d) ====== -->
+  {
+    popularArticles.length > 0 && (
+      <section class="mx-auto my-16 max-w-[var(--container-wide)] px-8 max-[768px]:my-10 max-[768px]:px-4">
+        <div class="mb-8 text-center">
+          <h2 class="hero-title mb-2 text-[2rem] font-black -tracking-[0.02em] text-[#1a1a2e] max-[768px]:text-[1.6rem]">
+            🔥 {t('explore.popular.heading')}
+          </h2>
+          <p class="mx-auto max-w-[640px] text-[1.05rem] leading-[1.6] text-[#64748b] max-[480px]:text-[0.95rem]">
+            {t('explore.popular.subtitle')}
+          </p>
+        </div>
+
+        <div class="mx-auto flex max-w-[860px] flex-col gap-4">
+          {popularArticles.map((p, i) => (
+            <ArticleCard
+              density="detailed"
+              imageSide="left"
+              href={p.href}
+              title={p.title}
+              description={p.description}
+              categoryLabel={p.categoryLabel}
+              categoryColor={p.categoryColor}
+              categoryIcon={p.categoryEmoji}
+              date={`${p.views.toLocaleString()} ${popularViewsLabel}`}
+              readingTime={`${p.readingTime} ${minReadLabel}`}
+              footnotes={p.footnotes}
+              coverImage={p.coverImage}
+              imageLoading={i < 2 ? 'eager' : 'lazy'}
+              openIn="same-tab"
+              dataAttrs={{ 'data-ga-section': 'explore_popular' }}
+            />
           ))}
         </div>
       </section>

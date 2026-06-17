@@ -65,6 +65,8 @@ export interface Props {
   imageLoading?: 'eager' | 'lazy';
   /** 卡片密度 */
   density?: 'premium' | 'compact' | 'row' | 'detailed';
+  /** detailed 變體縮圖擺左或右（左圖右文用 'left'）。預設 'right' 保留 /latest 既有版面 */
+  imageSide?: 'left' | 'right';
   /** Click 行為：'new-tab' 預設另開分頁 / 'same-tab' 同分頁 */
   openIn?: 'new-tab' | 'same-tab';
   /** 額外 class（給特定 mode 客製化用，e.g. route-stop-card / latest-row）*/
@@ -87,6 +89,7 @@ const {
   coverImage,
   imageLoading = 'lazy',
   density = 'compact',
+  imageSide = 'right',
   openIn = 'new-tab',
   extraClass = '',
   dataAttrs = {},
@@ -96,7 +99,10 @@ const target = openIn === 'new-tab' ? '_blank' : '_self';
 const rel = openIn === 'new-tab' ? 'noopener noreferrer' : undefined;
 const Tag = href ? 'a' : 'div';
 const densityClass = `is-${density}`;
-const classes = ['article-card', densityClass, extraClass]
+// 左圖右文：detailed 變體把縮圖移到文字左側（其他變體不受影響）
+const imgSideClass =
+  density === 'detailed' && imageSide === 'left' ? 'is-img-left' : '';
+const classes = ['article-card', densityClass, imgSideClass, extraClass]
   .filter(Boolean)
   .join(' ');
 ---
@@ -202,7 +208,9 @@ const classes = ['article-card', densityClass, extraClass]
     {
       density === 'premium' && (
         <span class="article-card-cta" style={`color: ${categoryColor};`}>
-          <span class="article-card-cta-label">{readingTime || '閱讀全文'}</span>
+          <span class="article-card-cta-label">
+            {readingTime || '閱讀全文'}
+          </span>
           <svg
             class="article-card-cta-arrow"
             width="12"
@@ -583,6 +591,10 @@ const classes = ['article-card', densityClass, extraClass]
   .article-card.is-detailed .article-card-thumb-ph {
     font-size: 30px;
     opacity: 0.55;
+  }
+  /* 左圖右文：縮圖移到文字左側（desktop）。手機仍走下方 column 規則（圖上文下）。 */
+  .article-card.is-detailed.is-img-left .article-card-thumbwrap {
+    order: -1;
   }
   @media (max-width: 768px) {
     /* 手機改直向堆疊：圖上文下（縮圖移到卡片最頂、滿版橫幅，維持 16:10）— 2026-06-13 哲宇 */
