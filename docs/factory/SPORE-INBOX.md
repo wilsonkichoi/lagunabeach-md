@@ -287,6 +287,36 @@ SPORE-INBOX pending count < 30 → 走原 §Daily 共存規則
 - **預估發佈時機**: 與 5/24 前輪間隔已過 14 天排除窗，Stage 1 PICK 可抽
 - **Notes**: 哲宇連兩次點名江賢二（5/24 + 6/12），人物本身是他關注的訊號
 
+### 台灣人小時候的英文名字 — READY (cron 2026-06-17 article ship 同 cycle，#148/#149 blueprint 完成，DEFER 社群 post 等下次 cycle / 觀察者 manual)
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/Culture/台灣人小時候的英文名字.md](../../knowledge/Culture/台灣人小時候的英文名字.md)
+- **Priority**: `P1`（高共感題 — 99% 台灣人都有「英文名是誰取的」共同經驗 + Hook tier 1b「加州海關 So your name is Chia-hao, not Kevin?」黃金 anchor）
+- **Status**: `pending-publish`（blueprint draft READY，pre-ship verify 待哲宇 review，配圖 dep article hero 補完）
+- **Requested**: 2026-06-17 by `twmd-rewrite-daily` cron 18:00 fire — cycle 已超 ~150 min wall-clock boundary
+- **Blueprint 位置**: [SPORE-BLUEPRINTS/148-台灣人小時候的英文名字.md](SPORE-BLUEPRINTS/148-台灣人小時候的英文名字.md)
+- **Hook anchor**（blueprint 已 lock）:
+  - 共感問句開場：「你還記得你的英文名字是誰取的嗎？」
+  - 時間 anchor：1987 芝麻街美語「NO CHINESE, ENGLISH PLEASE」
+  - 學術 backing：Barešová & Pikhart 2020 N=76
+  - Kicker：加州海關「So your name is Chia-hao, not Kevin?」（aithley.com 黃金 quote）
+- **時效**: 無強時效（evergreen Culture 主題，prime time 任何 20-22 點可發）
+- **敏感度**: 低（無政治 / 無爭議；命名權普世共感）
+- **必驗事實**:
+  - 何嘉仁 1983 / 吉的堡 1986 / 長頸鹿 1986 / 芝麻街 1987 三源 ✓
+  - Barešová & Pikhart 2020 MDPI Social Sciences 9(4)/60 N=76 ✓
+  - aithley.com「So your name is Chia-hao, not Kevin?」逐字 ✓
+  - 「NO CHINESE, ENGLISH PLEASE」天下 5072615 逐字 ✓
+- **預估發佈時機**: (a) article 補完 hero 後跑 make-spore.sh 自動配圖 → 哲宇 review → ship Threads + X；OR (b) 哲宇 directive 直接 ship draft（next routine cycle / manual）
+- **Notes**:
+  - cron defer broadcast 理由：cycle wall-clock 已超 150 min boundary（per §SPORE-PIPELINE boundary rule + 6/16 造山者 07ab13b10 precedent）
+  - SPORE-PIPELINE 前置 hard gate 要求完整 Read 4 個 canonical（~3000+ 行）+ AI pre/post-ship verify 5+6 條 — cron 剩餘預算不足
+  - 配圖 dep：article image-health hard=1（0 圖），article 補 hero 後 make-spore.sh 才有 base 可用
+  - Bias 4 + §自主權邊界 「對外溝通」default 哲宇 in-loop
+  - blueprint 已校準 SPORE-WRITING 自檢（朋友 tone「你還記得」/ 0 對位句型 / 0 破折號 / 逐字 Ctrl-F ✓ quote / UTM 雙 URL 已 encode）
+
+<!-- routine 2026-06-17 ~20:30 twmd-rewrite-daily defer rationale: cycle wall-clock 已耗 ~150 min boundary (article BECOME 全 mode self-test + research 4 agent fan-out 99 query + Stage 2 fresh Opus writer + Stage 3 plugin gate + commit + push) → 超 SPORE chain 安全執行視窗. Blueprint READY, pre-ship review 待哲宇. -->
+
 ### 台灣的年級生世代 — READY (cron 2026-06-08 article ship 同 cycle，#130/#131 blueprint 完成，DEFER 社群 post 等下次 cycle / 觀察者 manual)
 
 - **Source-Mode**: `EXISTING-ARTICLE`
