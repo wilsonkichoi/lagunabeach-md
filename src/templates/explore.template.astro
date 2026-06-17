@@ -30,7 +30,7 @@ import {
   DEFAULT_LANGUAGE,
 } from '../config/languages';
 import matter from 'gray-matter';
-import { existsSync, readFileSync, readdirSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { resolve, join, basename } from 'node:path';
 
 const lang = getLangFromUrl(Astro.url);
@@ -106,18 +106,6 @@ interface PickArticle {
   featured: boolean;
 }
 
-// OG image as article thumbnail — mirror SEO.astro: per-article OG lives at
-// /og-images/[lang]/[cat]/[slug].jpg (default lang drops the prefix). existsSync
-// guards articles without an OG shot yet → undefined → ArticleCard falls back to
-// its category-color placeholder. URL is percent-encoded, disk check uses raw UTF-8.
-function ogThumb(catSlug: string, slug: string): string | undefined {
-  const base = isZh ? `/og-images/${catSlug}` : `/og-images/${lang}/${catSlug}`;
-  const disk = resolve(process.cwd(), 'public', `${base.slice(1)}/${slug}.jpg`);
-  return existsSync(disk)
-    ? `${base}/${encodeURIComponent(slug)}.jpg`
-    : undefined;
-}
-
 const categoryFolders: Array<[string, string, string]> = [
   ['history', 'History', '📜'],
   ['geography', 'Geography', '🗺️'],
@@ -159,7 +147,9 @@ for (const [slug, folder, emoji] of categoryFolders) {
             categoryLabel: t(`categoryConfig.${slug}` as any),
             categoryEmoji: emoji,
             categoryColor: exploreCats[slug]?.color || '#16a34a',
-            coverImage: ogThumb(slug, basename(file, '.md')),
+            // 用文章 head image（frontmatter `image` → /article-images/…），跟 /latest
+            // 一致；無圖 → undefined → ArticleCard 退回分類色 placeholder。不用 OG 卡。
+            coverImage: data.image || undefined,
             featured: !!data.featured,
           });
         }
@@ -259,7 +249,7 @@ try {
       categoryLabel: t(`categoryConfig.${catSlug}` as any),
       categoryColor: exploreCats[catSlug]?.color || '#16a34a',
       categoryEmoji: slugToEmoji.get(catSlug) || '',
-      coverImage: ogThumb(catSlug, slug),
+      coverImage: data.image || undefined,
       readingTime: data.readingTime || 10,
       footnotes,
       views: item.views || 0,
