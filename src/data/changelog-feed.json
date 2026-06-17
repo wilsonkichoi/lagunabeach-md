@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-06-17T15:09:21.267Z",
+  "generatedAt": "2026-06-17T22:11:45.764Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "b9411d7b63f760896d98790e5d4441113eb249dd",
+      "date": "2026-06-18T05:57:09+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 文章貢獻者排序 — maintainer 往後放（fork-friendly）"
+    },
+    {
+      "hash": "15cb137cb6a3973a16b27662f640f37cbcf6c698",
+      "date": "2026-06-18T05:09:12+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-18-050817-twmd-embeddings-nightly — fleet down graceful skip (day 1) 索引維持前一版 4690 向量"
+    },
+    {
+      "hash": "5aa644f66f980105f36a161678eadcf414385228",
+      "date": "2026-06-18T00:52:09+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-18-003424-twmd-babel-nightly — 5 lang stale=0 連續第二夜 + slug-suggest hard gate vc=1"
+    },
+    {
+      "hash": "deb36c469afd4fb10959ded5603107482bb61cd6",
+      "date": "2026-06-18T00:49:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: 5 translations shipped — 英文名字 P0 Tier 1 codex + slug-suggest hard gate"
+    },
+    {
+      "hash": "882200027e43192d9d3ac93bdac60823a0e614c5",
+      "date": "2026-06-17T23:11:51+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] refresh: pm 14-step data refresh — 三源全綠 + Step 11 11/11 fresh + immune 54 carry"
+    },
     {
       "hash": "8249f91902e75c12c295f1385e1421157d1521ac",
       "date": "2026-06-17T22:04:50+08:00",

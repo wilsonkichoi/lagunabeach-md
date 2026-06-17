@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T15:09:30.881Z",
+  "lastUpdated": "2026-06-17T22:11:55.517Z",
   "languages": [
     "zh-TW",
     "en",
@@ -18,64 +18,64 @@
       "deficit": 0
     },
     "en": {
-      "total": 805,
-      "percentage": 99.9,
-      "fresh": 805,
+      "total": 806,
+      "percentage": 100,
+      "fresh": 806,
       "metadataStale": 0,
       "stale": 0,
-      "missing": 1,
+      "missing": 0,
       "orphan": 0,
-      "deficit": 1,
-      "freshPct": 99.9,
-      "bodyFreshPct": 99.9
+      "deficit": 0,
+      "freshPct": 100,
+      "bodyFreshPct": 100
     },
     "ja": {
-      "total": 805,
-      "percentage": 99.9,
-      "fresh": 805,
+      "total": 806,
+      "percentage": 100,
+      "fresh": 806,
       "metadataStale": 0,
       "stale": 0,
-      "missing": 1,
+      "missing": 0,
       "orphan": 0,
-      "deficit": 1,
-      "freshPct": 99.9,
-      "bodyFreshPct": 99.9
+      "deficit": 0,
+      "freshPct": 100,
+      "bodyFreshPct": 100
     },
     "ko": {
-      "total": 805,
-      "percentage": 99.9,
-      "fresh": 805,
+      "total": 806,
+      "percentage": 100,
+      "fresh": 806,
       "metadataStale": 0,
       "stale": 0,
-      "missing": 1,
+      "missing": 0,
       "orphan": 0,
-      "deficit": 1,
-      "freshPct": 99.9,
-      "bodyFreshPct": 99.9
+      "deficit": 0,
+      "freshPct": 100,
+      "bodyFreshPct": 100
     },
     "es": {
-      "total": 805,
-      "percentage": 99.9,
-      "fresh": 805,
+      "total": 806,
+      "percentage": 100,
+      "fresh": 806,
       "metadataStale": 0,
       "stale": 0,
-      "missing": 1,
+      "missing": 0,
       "orphan": 0,
-      "deficit": 1,
-      "freshPct": 99.9,
-      "bodyFreshPct": 99.9
+      "deficit": 0,
+      "freshPct": 100,
+      "bodyFreshPct": 100
     },
     "fr": {
-      "total": 805,
-      "percentage": 99.9,
-      "fresh": 805,
+      "total": 806,
+      "percentage": 100,
+      "fresh": 806,
       "metadataStale": 0,
       "stale": 0,
-      "missing": 1,
+      "missing": 0,
       "orphan": 0,
-      "deficit": 1,
-      "freshPct": 99.9,
-      "bodyFreshPct": 99.9
+      "deficit": 0,
+      "freshPct": 100,
+      "bodyFreshPct": 100
     }
   },
   "matrix": {
@@ -158,39 +158,39 @@
     "culture": {
       "zh-TW": 63,
       "en": {
-        "count": 62,
-        "fresh": 62,
+        "count": 63,
+        "fresh": 63,
         "stale": 0,
-        "missing": 1,
-        "deficit": 1
+        "missing": 0,
+        "deficit": 0
       },
       "ja": {
-        "count": 62,
-        "fresh": 62,
+        "count": 63,
+        "fresh": 63,
         "stale": 0,
-        "missing": 1,
-        "deficit": 1
+        "missing": 0,
+        "deficit": 0
       },
       "ko": {
-        "count": 62,
-        "fresh": 62,
+        "count": 63,
+        "fresh": 63,
         "stale": 0,
-        "missing": 1,
-        "deficit": 1
+        "missing": 0,
+        "deficit": 0
       },
       "es": {
-        "count": 62,
-        "fresh": 62,
+        "count": 63,
+        "fresh": 63,
         "stale": 0,
-        "missing": 1,
-        "deficit": 1
+        "missing": 0,
+        "deficit": 0
       },
       "fr": {
-        "count": 62,
-        "fresh": 62,
+        "count": 63,
+        "fresh": 63,
         "stale": 0,
-        "missing": 1,
-        "deficit": 1
+        "missing": 0,
+        "deficit": 0
       }
     },
     "economy": {
@@ -612,23 +612,7 @@
       }
     }
   },
-  "missing": {
-    "en": [
-      "Culture/台灣人小時候的英文名字：Mary、Kevin 與補習班老師的命名權.md"
-    ],
-    "ja": [
-      "Culture/台灣人小時候的英文名字：Mary、Kevin 與補習班老師的命名權.md"
-    ],
-    "ko": [
-      "Culture/台灣人小時候的英文名字：Mary、Kevin 與補習班老師的命名權.md"
-    ],
-    "es": [
-      "Culture/台灣人小時候的英文名字：Mary、Kevin 與補習班老師的命名權.md"
-    ],
-    "fr": [
-      "Culture/台灣人小時候的英文名字：Mary、Kevin 與補習班老師的命名權.md"
-    ]
-  },
+  "missing": {},
   "statusSource": "translation-status.json",
   "orphans": {
     "en": [],
