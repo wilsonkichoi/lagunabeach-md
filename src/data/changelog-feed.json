@@ -1,7 +1,67 @@
 {
-  "generatedAt": "2026-06-16T22:11:16.632Z",
+  "generatedAt": "2026-06-17T15:09:21.267Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "8249f91902e75c12c295f1385e1421157d1521ac",
+      "date": "2026-06-17T22:04:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-17-220328-twmd-maintainer-pm — 0 PR + build green + broken-link 0.36% + vc=1 first empty"
+    },
+    {
+      "hash": "5265fa99fd60b7a49d7bd054383c47fb553f4f39",
+      "date": "2026-06-17T20:06:15+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-17-200326-twmd-rewrite-daily — 英文名字 NEW ship 5847 CJK + spore #148/#149 draft broadcast deferred"
+    },
+    {
+      "hash": "20c9bd9f8f3a484aa3d87eea4f3eed3baa597ed5",
+      "date": "2026-06-17T20:02:58+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] spore: draft #148/#149 — 台灣人小時候的英文名字 (broadcast deferred)"
+    },
+    {
+      "hash": "cfce444ae8703c3b8693f3db26473b6f04ec2116",
+      "date": "2026-06-17T19:59:51+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] rewrite: 台灣人小時候的英文名字 NEW — Mary、Kevin 與補習班老師的命名權"
+    },
+    {
+      "hash": "ba626302bee28e016c33e6a19ac002b81cb3b2f1",
+      "date": "2026-06-17T08:48:48+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-17-084500-twmd-maintainer-am — 0 PR + #1165 SVG skew triage(三 option 等拍板) + broken-link 0.36% PASS"
+    },
+    {
+      "hash": "8b0b3997236dbd5406829851d5453ed8fdf66109",
+      "date": "2026-06-17T07:09:42+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-feedback-triage: file=1/reject=0/skip=0 → issue #1165 [Bug] taiwan-icon.svg skewed ~10°"
+    },
+    {
+      "hash": "8b0d8f004daa858c7fd0fd05ff484701659df02b",
+      "date": "2026-06-17T06:51:40+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-17-064928-twmd-spore-harvest-am — 5 spores + 64 replies harvested + 3 PENDING file + 0 Bucket A 第 3 cycle + Bucket D framing cluster #138 escalate"
+    },
+    {
+      "hash": "c9b38f8da94db69dda915fa521d0355441aa4571",
+      "date": "2026-06-17T06:49:19+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest-am: 5 spores + ~64 replies harvested — 2026-06-17"
+    },
+    {
+      "hash": "7aec034d20964dac8ac3ee2c8ea76f283b7fd098",
+      "date": "2026-06-17T06:12:49+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-17-061156-twmd-data-refresh-am — 14-step 全 PASS + 三源全綠 + Step 11 freshness 連續 ~20d 穩定"
+    },
+    {
+      "hash": "eee88a017256eedec1898c01443913386e76681e",
+      "date": "2026-06-17T06:11:56+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] data-refresh: am 14-step ground truth — 2026-06-17 am"
+    },
     {
       "hash": "1f35bd35b96d3cc527f0d5b75e5fecb57e79ae93",
       "date": "2026-06-17T05:20:03+08:00",

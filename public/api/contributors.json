@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T22:11:20.463Z",
+  "lastUpdated": "2026-06-17T15:09:25.013Z",
   "totals": {
     "contributors": 61,
     "activeWindow": "last 30d"
@@ -7,15 +7,15 @@
   "leaderboard": [
     {
       "login": "frank890417",
-      "commits": 4241,
+      "commits": 4251,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4727572?v=4",
       "profileUrl": "https://github.com/frank890417",
       "firstCommitAt": "2026-03-17 16:05:41 +0800",
-      "lastCommitAt": "2026-06-17 05:20:03 +0800",
+      "lastCommitAt": "2026-06-17 22:04:50 +0800",
       "primaryArea": "system",
       "breakdown": {
-        "content": 867,
-        "system": 2884,
+        "content": 869,
+        "system": 2894,
         "translation": 777
       }
     },
@@ -790,15 +790,15 @@
   "topSystem": [
     {
       "login": "frank890417",
-      "commits": 4241,
+      "commits": 4251,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4727572?v=4",
       "profileUrl": "https://github.com/frank890417",
       "firstCommitAt": "2026-03-17 16:05:41 +0800",
-      "lastCommitAt": "2026-06-17 05:20:03 +0800",
+      "lastCommitAt": "2026-06-17 22:04:50 +0800",
       "primaryArea": "system",
       "breakdown": {
-        "content": 867,
-        "system": 2884,
+        "content": 869,
+        "system": 2894,
         "translation": 777
       }
     },
@@ -932,21 +932,6 @@
     }
   ],
   "weeklyActive": 3,
-  "monthlyActive": 5,
-  "recentlyJoined": [
-    {
-      "login": "k66inthesky",
-      "commits": 1,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/45890492?v=4",
-      "profileUrl": "https://github.com/k66inthesky",
-      "firstCommitAt": "2026-05-18 22:11:13 +0800",
-      "lastCommitAt": "2026-05-18 22:11:13 +0800",
-      "primaryArea": "content",
-      "breakdown": {
-        "content": 1,
-        "system": 0,
-        "translation": 0
-      }
-    }
-  ]
+  "monthlyActive": 4,
+  "recentlyJoined": []
 }

@@ -1,5 +1,5 @@
 {
-  "totalArticles": 4836,
+  "totalArticles": 4837,
   "totalCategories": 20,
   "estimatedContributors": 61,
   "totalTags": 6077,
@@ -38,7 +38,7 @@
     },
     {
       "name": "Culture",
-      "count": 62
+      "count": 63
     },
     {
       "name": "People",
@@ -168,13 +168,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4836,
+    "zh-TW": 4837,
     "en": 0
   },
-  "lastUpdated": "2026-06-16T22:11:17.732Z",
-  "stars": 1053,
+  "lastUpdated": "2026-06-17T15:09:22.324Z",
+  "stars": 1054,
   "forks": 152,
-  "zhPages": 803,
+  "zhPages": 804,
   "enPages": 809,
-  "totalPages": 803
+  "totalPages": 804
 }
