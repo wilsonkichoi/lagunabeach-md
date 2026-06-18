@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T15:09:11.598Z",
+  "lastUpdated": "2026-06-18T22:11:35.156Z",
   "organs": [
     {
       "id": "heart",
@@ -21,7 +21,7 @@
       "nameZh": "免疫系統",
       "metaphor": "品質防禦",
       "emoji": "🛡️",
-      "score": 54,
+      "score": 52,
       "trend": "up",
       "version": "v2-2026-05-16",
       "metrics": {
@@ -34,7 +34,7 @@
           "plugin_pass_rate": 70,
           "plugin_health": 45.8,
           "citation_density": 90.8,
-          "tool_freshness": 80,
+          "tool_freshness": 60,
           "drift_velocity": 90,
           "external_rulers": 3.7
         }
@@ -114,11 +114,11 @@
       "metrics": {
         "languageCoverage": {
           "zh-TW": 805,
-          "en": 808,
-          "ja": 804,
-          "ko": 805,
-          "es": 804,
-          "fr": 805
+          "en": 809,
+          "ja": 805,
+          "ko": 806,
+          "es": 805,
+          "fr": 806
         },
         "translationPct": 93,
         "langHealthDetails": {
@@ -137,7 +137,7 @@
               "pct": 100
             },
             "articles": {
-              "count": 808,
+              "count": 809,
               "pct": 100
             },
             "score": 100
@@ -157,7 +157,7 @@
               "pct": 0
             },
             "articles": {
-              "count": 804,
+              "count": 805,
               "pct": 100
             },
             "score": 80
@@ -177,7 +177,7 @@
               "pct": 100
             },
             "articles": {
-              "count": 805,
+              "count": 806,
               "pct": 100
             },
             "score": 100
@@ -197,7 +197,7 @@
               "pct": 100
             },
             "articles": {
-              "count": 804,
+              "count": 805,
               "pct": 100
             },
             "score": 100
@@ -217,7 +217,7 @@
               "pct": 25
             },
             "articles": {
-              "count": 805,
+              "count": 806,
               "pct": 100
             },
             "score": 85
