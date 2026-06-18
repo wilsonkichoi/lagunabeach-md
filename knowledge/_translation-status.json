@@ -1,48 +1,48 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-18T06:11:44+08:00",
-    "zhCommitHead": "b9411d7b6",
-    "totalZh": 806,
+    "lastUpdated": "2026-06-18T23:08:58+08:00",
+    "zhCommitHead": "4217a3d5c",
+    "totalZh": 807,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
-        "total_zh": 806,
+        "total_zh": 807,
         "fresh": 806,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 0,
+        "missing": 1,
         "orphan": 0
       },
       "ja": {
-        "total_zh": 806,
+        "total_zh": 807,
         "fresh": 806,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 0,
+        "missing": 1,
         "orphan": 0
       },
       "ko": {
-        "total_zh": 806,
+        "total_zh": 807,
         "fresh": 806,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 0,
+        "missing": 1,
         "orphan": 0
       },
       "es": {
-        "total_zh": 806,
+        "total_zh": 807,
         "fresh": 806,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 0,
+        "missing": 1,
         "orphan": 0
       },
       "fr": {
-        "total_zh": 806,
+        "total_zh": 807,
         "fresh": 806,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 0,
+        "missing": 1,
         "orphan": 0
       }
     },
@@ -2532,6 +2532,31 @@
           "footnoteDefs": 5,
           "status": "fresh",
           "reason": "same-commit"
+        }
+      }
+    },
+    "Music/大象體操.md": {
+      "zh": {
+        "lastCommit": "72b757ba",
+        "lastModified": "2026-06-18T19:53:52+08:00",
+        "contentHash": "sha256:b924c3fdcb2a3347",
+        "bodyHash": "sha256:d8ddf05669c2e6c6"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
         }
       }
     },

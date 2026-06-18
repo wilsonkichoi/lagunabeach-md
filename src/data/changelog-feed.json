@@ -1,7 +1,121 @@
 {
-  "generatedAt": "2026-06-17T22:11:45.764Z",
+  "generatedAt": "2026-06-18T15:08:59.524Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "4217a3d5c94024e6e431f65e1df4ac8f45ead32d",
+      "date": "2026-06-18T22:06:12+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-18-220501-twmd-maintainer-pm — PR #1166 dreamline2 i18n elections merge + vc=0 reset + broken-link 0.36% PASS"
+    },
+    {
+      "hash": "4eceebc40cf92c7cb8fd6cf1838e542efa1a6cbd",
+      "date": "2026-06-18T23:04:24+09:00",
+      "author": "Wilson Chen",
+      "message": "feat(i18n): localize 2026 elections page (#1166)"
+    },
+    {
+      "hash": "79ab225ae99a3891b49d50b88c3b224740a5fac8",
+      "date": "2026-06-18T20:09:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-18-191104-twmd-rewrite-daily — 大象體操 NEW ship + #150/#151 draft broadcast deferred"
+    },
+    {
+      "hash": "c5c9032334fd34067c628cd34515f183ee482f44",
+      "date": "2026-06-18T20:05:42+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] spore: #150/#151 broadcast deferred — CI live ✅ body ready"
+    },
+    {
+      "hash": "a6a40202ff4266d3d8cc651acc700d3abcacc61e",
+      "date": "2026-06-18T19:58:15+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] spore: draft #150/#151 — 大象體操 (broadcast pending CI)"
+    },
+    {
+      "hash": "72b757baccc3dda8476a19afc38e78b16ee7d860",
+      "date": "2026-06-18T19:53:52+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] rewrite: 大象體操 NEW — 沒人在唱卻聽得到歌的台灣三人組"
+    },
+    {
+      "hash": "cb3bc241633b0fed55962cc208537be37763619b",
+      "date": "2026-06-18T08:41:55+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-18-083940-twmd-maintainer-am — 0 PR + #1165 carry + vc=2 (2nd empty) + 撞期 morning chain signal"
+    },
+    {
+      "hash": "3cbfe67d83da25b5628e121f9e40d99250b9bcc9",
+      "date": "2026-06-18T07:08:52+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-feedback-triage: 0 new feedback + #1165 留言 sync 主權 archive — 2026-06-18"
+    },
+    {
+      "hash": "44328850b3e54a288890ae9c97c6e324489d1a60",
+      "date": "2026-06-18T07:06:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-18-070253-manual — CI 兩層 infra flake 修復 + 哲宇 OG-gating + explore 縮圖改 head image"
+    },
+    {
+      "hash": "a12bad51fdd417dde1b29b1f72cc4679a03ec7c8",
+      "date": "2026-06-18T07:02:05+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: explore 縮圖改用文章 head image，不用 OG 卡"
+    },
+    {
+      "hash": "4b34624cdcbe68c1833a2314b4ef15aa8c4610a4",
+      "date": "2026-06-18T06:51:00+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: CI — gate Playwright install on OG-relevant changes (哲宇)"
+    },
+    {
+      "hash": "9a8a5b621e2bb04668aec6ec7c95b6e8a9fa89e6",
+      "date": "2026-06-18T06:47:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-18-064506-twmd-spore-harvest-am — 10 events / 0 Bucket A vc=4 / 2 NEW Bucket D on #138 / 0 ship retry"
+    },
+    {
+      "hash": "767670c68f7c541bd1360d5c72f063c67039f791",
+      "date": "2026-06-18T06:44:52+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest-am: 5 spores × 2 platforms harvest — 2026-06-18"
+    },
+    {
+      "hash": "1b14d64c63a4123aeb28f9900fd3d5a697f3b256",
+      "date": "2026-06-18T06:35:48+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: CI — strip broken packages.microsoft.com apt source before playwright install-deps"
+    },
+    {
+      "hash": "01f9f1d5bcfd08d2ace517d9ff3e369617bc767d",
+      "date": "2026-06-18T06:30:07+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-06-18-062503-manual — 把自己的名字從程式碼裡拿掉那一刻"
+    },
+    {
+      "hash": "ab12e8460db330e1c352d98012f89b5d63762b6a",
+      "date": "2026-06-18T06:27:56+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-18-062503-manual — 貢獻者 fork-friendly demote + explore 熱門文章 共用縮圖卡 + dashboard 孢子可點"
+    },
+    {
+      "hash": "0098950e492f414edd38eb73b666545be8a0d5a2",
+      "date": "2026-06-18T06:23:36+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: explore 熱門文章 section + 共用 ArticleCard 縮圖卡 + dashboard 孢子可點"
+    },
+    {
+      "hash": "7c7a2145e83e2e7966c71951557cbb03bada4087",
+      "date": "2026-06-18T06:14:25+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-18-061314-twmd-data-refresh-am — 14-step ALL PASS + Step 11 11/11 fresh + 三源全綠 + immune 54 carry"
+    },
+    {
+      "hash": "3c0286a64b4abd6b15439737ec30d5af8c1cdab9",
+      "date": "2026-06-18T06:12:53+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] refresh: am 14-step data refresh — 三源全綠 + Step 11 11/11 fresh + immune 54 carry"
+    },
     {
       "hash": "b9411d7b63f760896d98790e5d4441113eb249dd",
       "date": "2026-06-18T05:57:09+08:00",

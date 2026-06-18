@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T22:11:49.556Z",
+  "lastUpdated": "2026-06-18T15:09:04.341Z",
   "totals": {
     "contributors": 61,
     "activeWindow": "last 30d"
@@ -7,16 +7,16 @@
   "leaderboard": [
     {
       "login": "frank890417",
-      "commits": 4255,
+      "commits": 4274,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4727572?v=4",
       "profileUrl": "https://github.com/frank890417",
       "firstCommitAt": "2026-03-17 16:05:41 +0800",
-      "lastCommitAt": "2026-06-18 05:57:09 +0800",
+      "lastCommitAt": "2026-06-18 22:06:12 +0800",
       "primaryArea": "system",
       "breakdown": {
-        "content": 869,
-        "system": 2899,
-        "translation": 779
+        "content": 871,
+        "system": 2916,
+        "translation": 780
       }
     },
     {
@@ -49,15 +49,15 @@
     },
     {
       "login": "dreamline2",
-      "commits": 40,
+      "commits": 41,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4657845?v=4",
       "profileUrl": "https://github.com/dreamline2",
       "firstCommitAt": "2026-04-03 17:23:59 +0900",
-      "lastCommitAt": "2026-06-16 23:04:31 +0900",
+      "lastCommitAt": "2026-06-18 23:04:24 +0900",
       "primaryArea": "translation",
       "breakdown": {
         "content": 7,
-        "system": 20,
+        "system": 21,
         "translation": 22
       }
     },
@@ -790,16 +790,16 @@
   "topSystem": [
     {
       "login": "frank890417",
-      "commits": 4255,
+      "commits": 4274,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4727572?v=4",
       "profileUrl": "https://github.com/frank890417",
       "firstCommitAt": "2026-03-17 16:05:41 +0800",
-      "lastCommitAt": "2026-06-18 05:57:09 +0800",
+      "lastCommitAt": "2026-06-18 22:06:12 +0800",
       "primaryArea": "system",
       "breakdown": {
-        "content": 869,
-        "system": 2899,
-        "translation": 779
+        "content": 871,
+        "system": 2916,
+        "translation": 780
       }
     },
     {
@@ -876,15 +876,15 @@
     },
     {
       "login": "dreamline2",
-      "commits": 40,
+      "commits": 41,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4657845?v=4",
       "profileUrl": "https://github.com/dreamline2",
       "firstCommitAt": "2026-04-03 17:23:59 +0900",
-      "lastCommitAt": "2026-06-16 23:04:31 +0900",
+      "lastCommitAt": "2026-06-18 23:04:24 +0900",
       "primaryArea": "translation",
       "breakdown": {
         "content": 7,
-        "system": 20,
+        "system": 21,
         "translation": 22
       }
     },

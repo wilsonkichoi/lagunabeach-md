@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T22:11:56.847Z",
+  "lastUpdated": "2026-06-18T15:09:13.182Z",
   "generator": "scripts/core/generate-dashboard-alerts.mjs",
   "note": "derived 警報層 — CONSCIOUSNESS §警報 的機械接管 (audit 2026-06-10 A-3)",
   "count": 3,
@@ -19,7 +19,7 @@
     {
       "id": "memory-index-rows",
       "severity": "yellow",
-      "message": "MEMORY.md 索引 528 rows > 80 蒸餾觸發線（design 2026-04-14 未實作）",
+      "message": "MEMORY.md 索引 535 rows > 80 蒸餾觸發線（design 2026-04-14 未實作）",
       "source": "MEMORY.md"
     }
   ]

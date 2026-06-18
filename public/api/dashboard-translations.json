@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T22:11:55.517Z",
+  "lastUpdated": "2026-06-18T15:09:11.598Z",
   "languages": [
     "zh-TW",
     "en",
@@ -10,72 +10,72 @@
   ],
   "summary": {
     "zh-TW": {
-      "total": 804,
+      "total": 805,
       "percentage": 100,
-      "fresh": 804,
+      "fresh": 805,
       "stale": 0,
       "missing": 0,
       "deficit": 0
     },
     "en": {
       "total": 806,
-      "percentage": 100,
+      "percentage": 99.9,
       "fresh": 806,
       "metadataStale": 0,
       "stale": 0,
-      "missing": 0,
+      "missing": 1,
       "orphan": 0,
-      "deficit": 0,
-      "freshPct": 100,
-      "bodyFreshPct": 100
+      "deficit": 1,
+      "freshPct": 99.9,
+      "bodyFreshPct": 99.9
     },
     "ja": {
       "total": 806,
-      "percentage": 100,
+      "percentage": 99.9,
       "fresh": 806,
       "metadataStale": 0,
       "stale": 0,
-      "missing": 0,
+      "missing": 1,
       "orphan": 0,
-      "deficit": 0,
-      "freshPct": 100,
-      "bodyFreshPct": 100
+      "deficit": 1,
+      "freshPct": 99.9,
+      "bodyFreshPct": 99.9
     },
     "ko": {
       "total": 806,
-      "percentage": 100,
+      "percentage": 99.9,
       "fresh": 806,
       "metadataStale": 0,
       "stale": 0,
-      "missing": 0,
+      "missing": 1,
       "orphan": 0,
-      "deficit": 0,
-      "freshPct": 100,
-      "bodyFreshPct": 100
+      "deficit": 1,
+      "freshPct": 99.9,
+      "bodyFreshPct": 99.9
     },
     "es": {
       "total": 806,
-      "percentage": 100,
+      "percentage": 99.9,
       "fresh": 806,
       "metadataStale": 0,
       "stale": 0,
-      "missing": 0,
+      "missing": 1,
       "orphan": 0,
-      "deficit": 0,
-      "freshPct": 100,
-      "bodyFreshPct": 100
+      "deficit": 1,
+      "freshPct": 99.9,
+      "bodyFreshPct": 99.9
     },
     "fr": {
       "total": 806,
-      "percentage": 100,
+      "percentage": 99.9,
       "fresh": 806,
       "metadataStale": 0,
       "stale": 0,
-      "missing": 0,
+      "missing": 1,
       "orphan": 0,
-      "deficit": 0,
-      "freshPct": 100,
-      "bodyFreshPct": 100
+      "deficit": 1,
+      "freshPct": 99.9,
+      "bodyFreshPct": 99.9
     }
   },
   "matrix": {
@@ -384,41 +384,41 @@
       }
     },
     "music": {
-      "zh-TW": 33,
+      "zh-TW": 34,
       "en": {
         "count": 33,
         "fresh": 33,
         "stale": 0,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       },
       "ja": {
         "count": 33,
         "fresh": 33,
         "stale": 0,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       },
       "ko": {
         "count": 33,
         "fresh": 33,
         "stale": 0,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       },
       "es": {
         "count": 33,
         "fresh": 33,
         "stale": 0,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       },
       "fr": {
         "count": 33,
         "fresh": 33,
         "stale": 0,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       }
     },
     "nature": {
@@ -612,7 +612,23 @@
       }
     }
   },
-  "missing": {},
+  "missing": {
+    "en": [
+      "Music/大象體操：沒人在唱卻聽得到歌的台灣三人組.md"
+    ],
+    "ja": [
+      "Music/大象體操：沒人在唱卻聽得到歌的台灣三人組.md"
+    ],
+    "ko": [
+      "Music/大象體操：沒人在唱卻聽得到歌的台灣三人組.md"
+    ],
+    "es": [
+      "Music/大象體操：沒人在唱卻聽得到歌的台灣三人組.md"
+    ],
+    "fr": [
+      "Music/大象體操：沒人在唱卻聽得到歌的台灣三人組.md"
+    ]
+  },
   "statusSource": "translation-status.json",
   "orphans": {
     "en": [],

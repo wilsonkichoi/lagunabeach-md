@@ -1,5 +1,5 @@
 {
-  "totalArticles": 4842,
+  "totalArticles": 4843,
   "totalCategories": 20,
   "estimatedContributors": 61,
   "totalTags": 6077,
@@ -46,7 +46,7 @@
     },
     {
       "name": "Music",
-      "count": 33
+      "count": 34
     },
     {
       "name": "Food",
@@ -168,13 +168,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4842,
+    "zh-TW": 4843,
     "en": 0
   },
-  "lastUpdated": "2026-06-17T22:11:46.841Z",
-  "stars": 1056,
-  "forks": 153,
-  "zhPages": 804,
+  "lastUpdated": "2026-06-18T15:09:01.014Z",
+  "stars": 1057,
+  "forks": 154,
+  "zhPages": 805,
   "enPages": 810,
-  "totalPages": 804
+  "totalPages": 805
 }
