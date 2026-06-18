@@ -1,48 +1,48 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-18T23:08:58+08:00",
-    "zhCommitHead": "4217a3d5c",
+    "lastUpdated": "2026-06-19T00:43:53+08:00",
+    "zhCommitHead": "4d844f8c6",
     "totalZh": 807,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
         "total_zh": 807,
-        "fresh": 806,
+        "fresh": 807,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 1,
+        "missing": 0,
         "orphan": 0
       },
       "ja": {
         "total_zh": 807,
-        "fresh": 806,
+        "fresh": 807,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 1,
+        "missing": 0,
         "orphan": 0
       },
       "ko": {
         "total_zh": 807,
-        "fresh": 806,
+        "fresh": 807,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 1,
+        "missing": 0,
         "orphan": 0
       },
       "es": {
         "total_zh": 807,
-        "fresh": 806,
+        "fresh": 807,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 1,
+        "missing": 0,
         "orphan": 0
       },
       "fr": {
         "total_zh": 807,
-        "fresh": 806,
+        "fresh": 807,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 1,
+        "missing": 0,
         "orphan": 0
       }
     },
@@ -2544,19 +2544,74 @@
       },
       "translations": {
         "en": {
-          "status": "missing"
+          "path": "en/Music/elephant-gymnastics.md",
+          "translatedFrom": "Music/大象體操.md",
+          "sourceCommitSha": "72b757bac",
+          "sourceContentHash": "sha256:b924c3fdcb2a3347",
+          "sourceBodyHash": "sha256:d8ddf05669c2e6c6",
+          "translatedAt": "2026-06-19T00:37:17+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 56,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
-          "status": "missing"
+          "path": "ja/Music/elephant-gymnastics.md",
+          "translatedFrom": "Music/大象體操.md",
+          "sourceCommitSha": "72b757bac",
+          "sourceContentHash": "sha256:b924c3fdcb2a3347",
+          "sourceBodyHash": "sha256:d8ddf05669c2e6c6",
+          "translatedAt": "2026-06-19T00:37:17+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 56,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
-          "status": "missing"
+          "path": "ko/Music/elephant-gymnastics.md",
+          "translatedFrom": "Music/大象體操.md",
+          "sourceCommitSha": "72b757bac",
+          "sourceContentHash": "sha256:b924c3fdcb2a3347",
+          "sourceBodyHash": "sha256:d8ddf05669c2e6c6",
+          "translatedAt": "2026-06-19T00:37:17+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 56,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
-          "status": "missing"
+          "path": "es/Music/elephant-gymnastics.md",
+          "translatedFrom": "Music/大象體操.md",
+          "sourceCommitSha": "72b757bac",
+          "sourceContentHash": "sha256:b924c3fdcb2a3347",
+          "sourceBodyHash": "sha256:d8ddf05669c2e6c6",
+          "translatedAt": "2026-06-19T00:37:18+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 56,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/Music/elephant-gymnastics.md",
+          "translatedFrom": "Music/大象體操.md",
+          "sourceCommitSha": "72b757bac",
+          "sourceContentHash": "sha256:b924c3fdcb2a3347",
+          "sourceBodyHash": "sha256:d8ddf05669c2e6c6",
+          "translatedAt": "2026-06-19T00:37:18+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "footnoteDefs": 56,
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
