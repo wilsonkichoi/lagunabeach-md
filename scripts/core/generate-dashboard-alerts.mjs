@@ -150,6 +150,35 @@ if (existsSync(memoryPath)) {
   }
 }
 
+// ── 6.5 ARTICLE-INBOX 幽靈 entry（status=done/dropped 卻沒搬走 = 完成歸檔鐵律漂移）─
+// 誕生 2026-06-19-inbox-distill：手動 distill 才發現 16 幽靈累積。深查 + 安全清除工具
+// scripts/tools/inbox-audit.py；每-boot 便宜訊號 inbox-signal.sh 的 👻 ghost line。
+// 閾值 ≥3 yellow / ≥8 red：遠在「累積到 16」之前就喊（完成歸檔鐵律本要求 ship 同 session 清）。
+const inboxPath = 'docs/semiont/ARTICLE-INBOX.md';
+if (existsSync(inboxPath)) {
+  const text = readFileSync(inboxPath, 'utf8');
+  const pIdx = text.search(/^## .*Pending/m);
+  const pending = pIdx >= 0 ? text.slice(pIdx) : text;
+  const ghosts = (pending.match(/^\s*-\s*\*\*Status\*\*.*/gm) || []).filter(
+    (l) => /done|dropped|已完成|✅/.test(l) && !/pending/.test(l),
+  ).length;
+  if (ghosts >= 8) {
+    addAlert(
+      'inbox-ghosts',
+      'red',
+      `ARTICLE-INBOX ${ghosts} 條 status=done 沒搬走 ≥ 8（完成歸檔鐵律結構性漂移；inbox-audit.py --apply-safe 清）`,
+      'ARTICLE-INBOX.md',
+    );
+  } else if (ghosts >= 3) {
+    addAlert(
+      'inbox-ghosts',
+      'yellow',
+      `ARTICLE-INBOX ${ghosts} 條 status=done 沒搬走（完成歸檔鐵律漂移；inbox-audit.py --apply-safe 清）`,
+      'ARTICLE-INBOX.md',
+    );
+  }
+}
+
 // ── 7. Dashboard JSON staleness（> 36h 沒更新 = refresh 飛輪斷）────────
 const vitals = readJson('public/api/dashboard-vitals.json');
 if (vitals?.lastUpdated) {
