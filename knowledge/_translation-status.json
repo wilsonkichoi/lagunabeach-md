@@ -1,48 +1,48 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-19T10:30:05+08:00",
-    "zhCommitHead": "3c5b0ac67",
-    "totalZh": 810,
+    "lastUpdated": "2026-06-19T11:09:54+08:00",
+    "zhCommitHead": "c673392aa",
+    "totalZh": 811,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
-        "total_zh": 810,
-        "fresh": 807,
-        "stale": 0,
+        "total_zh": 811,
+        "fresh": 805,
+        "stale": 2,
         "metadata_stale": 0,
-        "missing": 3,
+        "missing": 4,
         "orphan": 0
       },
       "ja": {
-        "total_zh": 810,
-        "fresh": 807,
-        "stale": 0,
+        "total_zh": 811,
+        "fresh": 805,
+        "stale": 2,
         "metadata_stale": 0,
-        "missing": 3,
+        "missing": 4,
         "orphan": 0
       },
       "ko": {
-        "total_zh": 810,
-        "fresh": 807,
-        "stale": 0,
+        "total_zh": 811,
+        "fresh": 805,
+        "stale": 2,
         "metadata_stale": 0,
-        "missing": 3,
+        "missing": 4,
         "orphan": 0
       },
       "es": {
-        "total_zh": 810,
-        "fresh": 807,
-        "stale": 0,
+        "total_zh": 811,
+        "fresh": 805,
+        "stale": 2,
         "metadata_stale": 0,
-        "missing": 3,
+        "missing": 4,
         "orphan": 0
       },
       "fr": {
-        "total_zh": 810,
-        "fresh": 807,
-        "stale": 0,
+        "total_zh": 811,
+        "fresh": 805,
+        "stale": 2,
         "metadata_stale": 0,
-        "missing": 3,
+        "missing": 4,
         "orphan": 0
       }
     },
@@ -8217,9 +8217,9 @@
     },
     "Technology/台灣網路社群遷徙史.md": {
       "zh": {
-        "lastCommit": "ab47ff39",
-        "lastModified": "2026-06-15T23:21:34+08:00",
-        "contentHash": "sha256:0b6b7572d1c9802f",
+        "lastCommit": "c673392a",
+        "lastModified": "2026-06-19T11:09:34+08:00",
+        "contentHash": "sha256:8fad47b5fb5b0ee9",
         "bodyHash": "sha256:dd603353dcdb0e7a"
       },
       "translations": {
@@ -8234,8 +8234,10 @@
           "translationLastModified": "2026-06-17T02:50:01+08:00",
           "inferred": false,
           "footnoteDefs": 47,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+6 -6"
         },
         "ja": {
           "path": "ja/Technology/taiwan-online-community-migration.md",
@@ -8248,8 +8250,10 @@
           "translationLastModified": "2026-06-17T02:50:01+08:00",
           "inferred": false,
           "footnoteDefs": 47,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+6 -6"
         },
         "ko": {
           "path": "ko/Technology/taiwan-online-community-migration.md",
@@ -8262,8 +8266,10 @@
           "translationLastModified": "2026-06-17T02:50:01+08:00",
           "inferred": false,
           "footnoteDefs": 47,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+6 -6"
         },
         "es": {
           "path": "es/Technology/taiwan-online-community-migration.md",
@@ -8276,8 +8282,10 @@
           "translationLastModified": "2026-06-17T02:50:01+08:00",
           "inferred": false,
           "footnoteDefs": 47,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+6 -6"
         },
         "fr": {
           "path": "fr/Technology/taiwan-online-community-migration.md",
@@ -8290,8 +8298,10 @@
           "translationLastModified": "2026-06-17T02:50:01+08:00",
           "inferred": false,
           "footnoteDefs": 47,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+6 -6"
         }
       }
     },
@@ -10217,10 +10227,10 @@
     },
     "Technology/justfont與台灣字體發展.md": {
       "zh": {
-        "lastCommit": "31a05c44",
-        "lastModified": "2026-06-13T17:54:04+08:00",
-        "contentHash": "sha256:4b06ed2980a5f57a",
-        "bodyHash": "sha256:adbe918308216cc3"
+        "lastCommit": "c673392a",
+        "lastModified": "2026-06-19T11:09:34+08:00",
+        "contentHash": "sha256:1463e5ff242b3b05",
+        "bodyHash": "sha256:0d5ea03d7cea15ec"
       },
       "translations": {
         "en": {
@@ -10230,12 +10240,14 @@
           "sourceContentHash": "sha256:4b06ed2980a5f57a",
           "sourceBodyHash": "sha256:adbe918308216cc3",
           "translatedAt": "2026-06-14T00:35:00+08:00",
-          "translationLastCommit": "db354518",
-          "translationLastModified": "2026-06-14T00:56:30+08:00",
+          "translationLastCommit": "c673392a",
+          "translationLastModified": "2026-06-19T11:09:34+08:00",
           "inferred": false,
           "footnoteDefs": 65,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         },
         "ja": {
           "path": "ja/Technology/justfont-and-taiwan-typography.md",
@@ -10244,12 +10256,14 @@
           "sourceContentHash": "sha256:4b06ed2980a5f57a",
           "sourceBodyHash": "sha256:adbe918308216cc3",
           "translatedAt": "2026-06-14T00:35:00+08:00",
-          "translationLastCommit": "db354518",
-          "translationLastModified": "2026-06-14T00:56:30+08:00",
+          "translationLastCommit": "c673392a",
+          "translationLastModified": "2026-06-19T11:09:34+08:00",
           "inferred": false,
           "footnoteDefs": 65,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         },
         "ko": {
           "path": "ko/Technology/justfont-and-taiwan-typography.md",
@@ -10258,12 +10272,14 @@
           "sourceContentHash": "sha256:4b06ed2980a5f57a",
           "sourceBodyHash": "sha256:adbe918308216cc3",
           "translatedAt": "2026-06-14T00:35:00+08:00",
-          "translationLastCommit": "db354518",
-          "translationLastModified": "2026-06-14T00:56:30+08:00",
+          "translationLastCommit": "c673392a",
+          "translationLastModified": "2026-06-19T11:09:34+08:00",
           "inferred": false,
           "footnoteDefs": 65,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         },
         "es": {
           "path": "es/Technology/justfont-and-taiwan-typography.md",
@@ -10272,12 +10288,14 @@
           "sourceContentHash": "sha256:4b06ed2980a5f57a",
           "sourceBodyHash": "sha256:adbe918308216cc3",
           "translatedAt": "2026-06-14T00:35:00+08:00",
-          "translationLastCommit": "db354518",
-          "translationLastModified": "2026-06-14T00:56:30+08:00",
+          "translationLastCommit": "c673392a",
+          "translationLastModified": "2026-06-19T11:09:34+08:00",
           "inferred": false,
           "footnoteDefs": 65,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         },
         "fr": {
           "path": "fr/Technology/justfont-and-taiwan-typography.md",
@@ -10286,12 +10304,14 @@
           "sourceContentHash": "sha256:4b06ed2980a5f57a",
           "sourceBodyHash": "sha256:adbe918308216cc3",
           "translatedAt": "2026-06-14T00:35:00+08:00",
-          "translationLastCommit": "db354518",
-          "translationLastModified": "2026-06-14T00:56:30+08:00",
+          "translationLastCommit": "c673392a",
+          "translationLastModified": "2026-06-19T11:09:34+08:00",
           "inferred": false,
           "footnoteDefs": 65,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         }
       }
     },
@@ -23655,6 +23675,31 @@
         }
       }
     },
+    "About/文章如何誕生.md": {
+      "zh": {
+        "lastCommit": "",
+        "lastModified": "",
+        "contentHash": "sha256:6b2b58dc5f2e5c7e",
+        "bodyHash": "sha256:94e246d8ffddee69"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
     "About/緣起故事.md": {
       "zh": {
         "lastCommit": "818f3cc1",
@@ -23977,8 +24022,8 @@
     },
     "About/視覺化模組型錄.md": {
       "zh": {
-        "lastCommit": "",
-        "lastModified": "",
+        "lastCommit": "e98d3ac5",
+        "lastModified": "2026-06-19T10:36:17+08:00",
         "contentHash": "sha256:38fecc11c893b25a",
         "bodyHash": "sha256:09331c2942b129a6"
       },
@@ -23990,12 +24035,12 @@
           "sourceContentHash": "sha256:38fecc11c893b25a",
           "sourceBodyHash": "sha256:09331c2942b129a6",
           "translatedAt": "2026-06-13T00:46:21+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "e98d3ac5",
+          "translationLastModified": "2026-06-19T10:36:17+08:00",
           "inferred": false,
           "footnoteDefs": 5,
           "status": "fresh",
-          "reason": "same-commit"
+          "reason": "hash-match-sha-lost"
         },
         "ja": {
           "path": "ja/About/visualization-module-catalog.md",
@@ -24004,12 +24049,12 @@
           "sourceContentHash": "sha256:38fecc11c893b25a",
           "sourceBodyHash": "sha256:09331c2942b129a6",
           "translatedAt": "2026-06-13T00:46:24+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "e98d3ac5",
+          "translationLastModified": "2026-06-19T10:36:17+08:00",
           "inferred": false,
           "footnoteDefs": 5,
           "status": "fresh",
-          "reason": "same-commit"
+          "reason": "hash-match-sha-lost"
         },
         "ko": {
           "path": "ko/About/visualization-module-catalog.md",
@@ -24018,12 +24063,12 @@
           "sourceContentHash": "sha256:38fecc11c893b25a",
           "sourceBodyHash": "sha256:09331c2942b129a6",
           "translatedAt": "2026-06-13T00:46:25+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "e98d3ac5",
+          "translationLastModified": "2026-06-19T10:36:17+08:00",
           "inferred": false,
           "footnoteDefs": 5,
           "status": "fresh",
-          "reason": "same-commit"
+          "reason": "hash-match-sha-lost"
         },
         "es": {
           "path": "es/About/visualization-module-catalog.md",
@@ -24032,12 +24077,12 @@
           "sourceContentHash": "sha256:38fecc11c893b25a",
           "sourceBodyHash": "sha256:09331c2942b129a6",
           "translatedAt": "2026-06-13T00:46:25+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "e98d3ac5",
+          "translationLastModified": "2026-06-19T10:36:17+08:00",
           "inferred": false,
           "footnoteDefs": 5,
           "status": "fresh",
-          "reason": "same-commit"
+          "reason": "hash-match-sha-lost"
         },
         "fr": {
           "path": "fr/About/visualization-module-catalog.md",
@@ -24046,12 +24091,12 @@
           "sourceContentHash": "sha256:38fecc11c893b25a",
           "sourceBodyHash": "sha256:09331c2942b129a6",
           "translatedAt": "2026-06-13T00:46:25+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "e98d3ac5",
+          "translationLastModified": "2026-06-19T10:36:17+08:00",
           "inferred": false,
           "footnoteDefs": 5,
           "status": "fresh",
-          "reason": "same-commit"
+          "reason": "hash-match-sha-lost"
         }
       }
     },
@@ -24784,14 +24829,14 @@
       },
       "translations": {
         "en": {
-          "path": "en/Nature/taiwan-mei-yu-season.md",
+          "path": "en/Nature/meiyu-stagnant-front.md",
           "translatedFrom": "Nature/梅雨.md",
           "sourceCommitSha": "4b6d28c5",
           "sourceContentHash": "sha256:08c48a6ddad4519e",
           "sourceBodyHash": "sha256:31c92fd7633ce35e",
-          "translatedAt": "2026-06-12T16:39:07Z",
-          "translationLastCommit": "e8126e8f",
-          "translationLastModified": "2026-06-13T02:54:43+08:00",
+          "translatedAt": "2026-06-19T11:05:01+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
           "inferred": false,
           "footnoteDefs": 19,
           "status": "fresh",
