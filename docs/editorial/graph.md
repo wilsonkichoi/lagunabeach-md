@@ -22,7 +22,7 @@ related:
 
 # graph.md — 視覺化編輯指南
 
-> **🖼️ 活範例（17 模組實際渲染長相）**：[視覺化模組型錄](/society/視覺化模組型錄)（`knowledge/Society/視覺化模組型錄.md`）。本檔講「何時用 / 怎麼做 / 語法」，型錄頁讓你直接看到「長什麼樣」，兩者互為搭檔。
+> **🖼️ 活範例（17 模組實際渲染長相）**：[視覺化模組型錄](/about/視覺化模組型錄)（`knowledge/About/視覺化模組型錄.md`）。本檔講「何時用 / 怎麼做 / 語法」，型錄頁讓你直接看到「長什麼樣」，兩者互為搭檔。
 >
 > 文章內「資料視覺化／視覺對比」的 canonical。寫文走 [REWRITE-PIPELINE](../pipelines/REWRITE-PIPELINE.md) Stage 2「視覺化思考」+ Stage 4「視覺化檢查」時讀本檔。
 >

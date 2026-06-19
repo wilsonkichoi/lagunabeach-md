@@ -2,19 +2,18 @@
 title: 'Catálogo de módulos de visualización: diecisiete formas de ver los datos de Taiwán'
 description: 'Ejemplo activo de módulos de visualización de Taiwan.md — con datos reales de vivienda y población de Taiwán, se renderiza cada módulo tw-* una vez, junto con la sintaxis y los principios de diseño de graph.md.'
 date: 2026-06-06
-category: 'Society'
+category: 'About'
 tags:
   - 'visualización de datos'
   - 'justicia habitacional'
   - 'política de vivienda'
   - 'datos abiertos'
-subcategory: '人權與平等'
 author: 'Taiwan.md'
 readingTime: 11
 featured: false
 lastVerified: 2026-06-12
 lastHumanReview: false
-translatedFrom: 'Society/視覺化模組型錄.md'
+translatedFrom: 'About/視覺化模組型錄.md'
 sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:38fecc11c893b25a'
 sourceBodyHash: 'sha256:09331c2942b129a6'

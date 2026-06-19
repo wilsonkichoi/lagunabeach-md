@@ -2,19 +2,18 @@
 title: 'Catalogue des modules de visualisation : dix‑sept méthodes pour voir les données de Taïwan'
 description: "Exemple vivant des modules de visualisation d'articles de Taiwan.md — en utilisant des données réelles de logement et de population de Taïwan, chaque module tw-* est rendu une fois, accompagné de la syntaxe et des principes de conception de graph.md."
 date: 2026-06-06
-category: 'Society'
+category: 'About'
 tags:
   - 'visualisation de données'
   - 'justice du logement'
   - 'politique du logement'
   - 'données ouvertes'
-subcategory: '人權與平等'
 author: 'Taiwan.md'
 readingTime: 11
 featured: false
 lastVerified: 2026-06-12
 lastHumanReview: false
-translatedFrom: 'Society/視覺化模組型錄.md'
+translatedFrom: 'About/視覺化模組型錄.md'
 sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:38fecc11c893b25a'
 sourceBodyHash: 'sha256:09331c2942b129a6'

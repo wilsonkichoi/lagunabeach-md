@@ -2,8 +2,7 @@
 title: '시각화 모듈 카탈로그: 열일곱 가지 타이완 데이터를 보는 방법'
 description: 'Taiwan.md의 기사 시각화 모듈 실전 예시——실제 타이완 주거·인구 데이터를 활용해 모든 tw-* 시각화 모듈을 한 번씩 렌더링하고, graph.md의 문법과 설계 원칙과 함께 살펴본다.'
 date: '2026-06-06'
-category: 'Society'
-subcategory: '인권과 평등'
+category: 'About'
 tags:
   - '데이터 시각화'
   - '주거 정의'
@@ -14,7 +13,7 @@ readingTime: '11'
 featured: false
 lastVerified: '2026-06-12'
 lastHumanReview: false
-translatedFrom: 'Society/視覺化模組型錄.md'
+translatedFrom: 'About/視覺化模組型錄.md'
 sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:38fecc11c893b25a'
 sourceBodyHash: 'sha256:09331c2942b129a6'

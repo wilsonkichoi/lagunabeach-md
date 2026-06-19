@@ -318,6 +318,21 @@ export default defineConfig({
       '/ja/economy/taiwan-startup-ecosystem-overview/',
     '/ko/technology/taiwan-startup-ecosystem':
       '/ko/economy/taiwan-startup-ecosystem-overview/',
+    // 2026-06-19 #1152 (回報者 菜國人): 視覺化模組型錄 是 meta / about-the-site
+    // 頁（tw-* 視覺模組的 live demo，與 docs/editorial/graph.md 互為搭檔），
+    // 不是 Society 主題。Recategorize Society → About。6 lang redirects 讓
+    // 已被索引的 /society/... URL 不 404。
+    '/society/視覺化模組型錄': '/about/視覺化模組型錄/',
+    '/en/society/visualization-module-catalog':
+      '/en/about/visualization-module-catalog/',
+    '/es/society/visualization-module-catalog':
+      '/es/about/visualization-module-catalog/',
+    '/fr/society/visualization-module-catalog':
+      '/fr/about/visualization-module-catalog/',
+    '/ja/society/visualization-module-catalog':
+      '/ja/about/visualization-module-catalog/',
+    '/ko/society/visualization-module-catalog':
+      '/ko/about/visualization-module-catalog/',
   },
   // 2026-05-04: build perf tuning. Page render is 93% of build time
   // (363s render / 391s wall, baseline 4,331 pages). concurrency 1 → 4

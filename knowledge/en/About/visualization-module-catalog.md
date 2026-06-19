@@ -2,19 +2,18 @@
 title: 'Visualization Module Catalog: Seventeen Ways to See Taiwan Data'
 description: "Taiwan.md's live examples of visualization modules—using real Taiwan housing and population data to render each tw-* visualization module once, together with the syntax and design principles from graph.md."
 date: '2026-06-06'
-category: 'Society'
+category: 'About'
 tags:
   - 'Data Visualization'
   - 'Housing Justice'
   - 'Housing Policy'
   - 'Open Data'
-subcategory: '人權與平等'
 author: 'Taiwan.md'
 readingTime: '11'
 featured: false
 lastVerified: '2026-06-12'
 lastHumanReview: false
-translatedFrom: 'Society/視覺化模組型錄.md'
+translatedFrom: 'About/視覺化模組型錄.md'
 sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:38fecc11c893b25a'
 sourceBodyHash: 'sha256:09331c2942b129a6'

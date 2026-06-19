@@ -2,19 +2,18 @@
 title: '視覚化モジュールカタログ：台湾データを見る十七の方法'
 description: 'Taiwan.md の記事における視覚化モジュールの実例——実際の台湾の居住・人口データを用いて、すべての tw-* 視覚モジュールを一度ずつレンダリングし、graph.md の構文と設計原則と合わせて確認します。'
 date: '2026-06-06'
-category: 'Society'
+category: 'About'
 tags:
   - 'データ可視化'
   - '居住正義'
   - '住宅政策'
   - 'オープンデータ'
-subcategory: '人権と平等'
 author: 'Taiwan.md'
 readingTime: '11'
 featured: false
 lastVerified: '2026-06-12'
 lastHumanReview: false
-translatedFrom: 'Society/視覺化模組型錄.md'
+translatedFrom: 'About/視覺化模組型錄.md'
 sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:38fecc11c893b25a'
 sourceBodyHash: 'sha256:09331c2942b129a6'
