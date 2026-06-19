@@ -30,6 +30,12 @@ if [[ -f "$ARTICLE" ]]; then
   ARTICLE_PENDING=$(awk '/^## 📥 Pending/,/^## 🚧 In-Progress/' "$ARTICLE" | grep -cE "^### " || echo 0)
   ARTICLE_INPROG=$(awk '/^## 🚧 In-Progress/,EOF' "$ARTICLE" | grep -cE "^### " || echo 0)
   echo "📝 articles | pending $ARTICLE_PENDING 條 / in-progress $ARTICLE_INPROG 條（寫文 / auto-heartbeat 時讀 §P0/P1）"
+  # 👻 ghost early-warning：§Pending 裡 status=done/dropped 卻沒搬走的幽靈（完成歸檔鐵律漂移）
+  # 深查 + 安全清除：scripts/tools/inbox-audit.py（誕生 2026-06-19-inbox-distill）
+  ARTICLE_GHOST=$(awk '/^## 📥 Pending/{p=1} p && /^[[:space:]]*-[[:space:]]*\*\*Status\*\*/ && /done|dropped|已完成|✅/ && !/pending/{c++} END{print c+0}' "$ARTICLE")
+  if [[ "${ARTICLE_GHOST:-0}" -gt 0 ]]; then
+    echo "👻 inbox ghost | ${ARTICLE_GHOST} 條 status=done 卻沒搬走 — 跑 scripts/tools/inbox-audit.py --apply-safe 清"
+  fi
 fi
 
 # SPORE-INBOX §Pending count (2026-05-21 新增 — intake layer for 繁殖系統)

@@ -145,14 +145,17 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 ## Distill SOP（容量管理）
 
-**觸發**：pending ≥ 30 條 / 或每月第一次心跳 / 觀察者說「review inbox」
+**觸發**：pending ≥ 30 條 / 或每月第一次心跳 / 觀察者說「review inbox」/ BECOME boot 出現 `👻 inbox ghost` 訊號（inbox-signal.sh）
 
-**步驟**：
+**步驟**（2026-06-19 儀器化 — [`scripts/tools/inbox-audit.py`](../../scripts/tools/inbox-audit.py) 接管「查現況」）：
 
-1. 讀全部 pending
-2. 分類：重複合併 / 過時 drop / 重新排優先序
-3. 已 done 的條目確認已搬到 [ARTICLE-DONE-LOG.md](ARTICLE-DONE-LOG.md)（不要在 INBOX 留 done entry）
-4. 觀察者最終 review 後 commit
+1. **跑 `python3 scripts/tools/inbox-audit.py`** — 自動對每個 pending entry 交叉比對 `knowledge/`（文章是否存在）+ ARTICLE-DONE-LOG（是否已歸檔），分類成 🔴 DECLARED-DONE / 🟠 STALE-NEW / 🟣 PARTIAL-SHIP / 🟡 EVOLVE-PENDING / ✅ GENUINE-PENDING / ⚪ SERIES + 🔁 DUP
+2. **`inbox-audit.py --apply-safe`** 自動移除 🔴 DECLARED-DONE（status 自宣完成＝最安全訊號，帶 line-conservation 保證）。其餘類別**一律留人工判斷**（κ 5-PR 教訓：curation 不批次自決）
+3. 人工 review 🟠 STALE-NEW（NEW 但文章已存在，⚠fuzzy 要確認 scope）/ 🔁 DUP / ⚪ SERIES（整批是否 ship 完）→ 決定移除 / 合併 / 重排優先序
+4. 移除的 entry 若 ship 當下漏記 → 補登 [ARTICLE-DONE-LOG.md](ARTICLE-DONE-LOG.md)（避免重複開發）
+5. 觀察者最終 review 後 commit（多檔/長任務先開 [`scripts/tools/semiont-worktree.sh`](../../scripts/tools/semiont-worktree.sh)` new`，它會 symlink node_modules 讓 husky prettier 跑得動 — raw `git worktree add` 不會，會 ENOENT）
+
+> **為什麼儀器化**：2026-06-19 手動 distill 才發現 inbox 漂移 16 幽靈（完成歸檔鐵律靠 session 自律、無結構強制 → 累積）。`inbox-audit.py` 把 4 小時的人工 cross-check 變一條指令；`inbox-signal.sh` 的 `👻 ghost` line 讓每次 BECOME boot 看得到幽靈累積，不等到 16 條才發現。誕生 session：`2026-06-19-123909-inbox-distill`。
 
 ---
 

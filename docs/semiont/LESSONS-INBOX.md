@@ -287,6 +287,24 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 ## 未消化清單（📥 待 distill）
 
+### 2026-06-19 inbox-distill — Intake-buffer 完成歸檔靠自律會漂移 → detection 儀器化
+
+- **原則**：任何「append 進來、ship 後手動搬走」的 intake buffer（ARTICLE-INBOX / LESSONS-INBOX / SPORE-INBOX 同構），其完成歸檔鐵律若**只靠 session 自律、無結構強制**，就會累積幽靈 entry。2026-06-19 手動 distill ARTICLE-INBOX 才發現 95 entry 裡 16 是 ship 後沒清的幽靈（含整系列已出貨仍掛 P0：22 縣市 22/22、PanSci 5/5）。**規則**：(a) 完成歸檔鐵律必須配一個**便宜的每-boot 訊號**（`inbox-signal.sh` 的 `👻 ghost` line：數 §Pending 裡 status=done 卻沒搬走的）+ 一個**深查工具**（`inbox-audit.py`：cross-check entry vs `knowledge/` 存在 + DONE-LOG）(b) auto-apply 只動「status 自宣 done」最安全訊號 — exists+logged 對 EVOLVE entry 不是幽靈訊號（re-EVOLVE 文章本來就存在＋可能已在 DONE-LOG）(c) 同 pattern 可移植到 LESSONS / SPORE-INBOX。
+- **觸發**：2026-06-19-123909-inbox-distill — 哲宇 directive 整理 article inbox，手動 cross-check 95 entry 花最久的是「查現況」；事後把它儀器化成 `inbox-audit.py` + inbox-signal ghost line。
+- **可能層級**：通用反射（所有 intake buffer）→ REFLEXES 新條「buffer 完成歸檔靠自律會漂移→儀器化」候選；或併入既有「完成歸檔鐵律」做結構強制。
+- **相關**：scripts/tools/inbox-audit.py / scripts/tools/inbox-signal.sh / ARTICLE-INBOX §Distill SOP / REFLEXES #15（反覆浮現要儀器化）
+- **verification_count**: 1
+- **severity**: structural（影響繁殖基因 intake layer 的長期健康）
+
+### 2026-06-19 inbox-distill — 批次檔案改寫的 dry-run 要驗 line-conservation + 結構元素存活，非只 item count
+
+- **原則**：對單一大檔做「移除 N 個 block / bump M 個欄位」的批次改寫，**item count 對 ≠ 內容沒掉**。2026-06-19 distill 腳本第一版 segmentation 把 entry block 之間的 `## ` section（§優先序判準 / §Type / §📥 Pending）silent 刪掉，但 `### ` count 還是漂亮的 95→79 所以 count 檢查放行；靠 Read 實際輸出 + 補斷言才抓到。**規則**：批次檔案改寫的 dry-run 必加兩條 fail-loud 斷言：(a) line conservation（`len(in) == len(out) + removed_lines`，每行不是在被移除 block 就是在輸出）(b) 不該動的結構元素（section header / code fence）數量守恆（`in == out`）。是 REFLEXES #38「混維度 silent killer」在檔案改寫域的 instance。
+- **觸發**：2026-06-19-123909-inbox-distill — distill 腳本 v1 dropped inter-block sections（worktree 隔離下零爆炸半徑，restore 重寫 segmentation 為 fence-aware line-walk）。
+- **可能層級**：通用反射 → REFLEXES #38 延伸 / 任何 sed・python 批次檔案改寫工具的 dry-run 範式。
+- **相關**：REFLEXES #38（status 混維度 silent killer）/ scripts/tools/inbox-audit.py（`apply_safe` 內建 line-conservation）/ DIARY 2026-06-12「儀器只看得見存在看不見缺席」
+- **verification_count**: 1
+- **severity**: structural（影響所有批次檔案改寫工具的安全性）
+
 ### 2026-05-09 laughing-goldstine — Reader-funded resilience > Grant-funded（USAID freeze + RFA-VOA closure 案例）
 
 - **原則**：Sovereignty media 的 sustainability 模型優先序是 **Reader-funded membership > Grant-funded > Ad（沒做過）**。Grant 是 bridge funding 不是 floor — 政治轉換風險高（USAID freeze 2025 / RFA-VOA Tibetan service closure threats 2025 已 demo）。Reader-funded 案例：Kyiv Independent 70% revenue from 17,500 × $5/mo / Initium ~60K paying subs / Wikipedia 8M+ donors × $10.58 / Chaser News (HK exile) £6.50-£34.50/mo。**規則**：(a) 第一階段 funding stack 應優先建 Liberapay / GitHub Sponsors / Substack tier（recurring small membership）；(b) Grant 可作 bridge 但 mission-critical infrastructure 不能依賴 grant；(c) 完全避免依賴單一政府金援（台灣政府轉換政權風險、USAID 風險都是同類）。
