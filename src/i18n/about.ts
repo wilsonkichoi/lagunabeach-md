@@ -23,7 +23,7 @@ export const aboutUI = {
       'Surprisingly, no one had claimed the taiwan.md domain yet. Perhaps the universe was telling us it was time to make this happen.',
 
     // Stats
-    'about.stats.pages.number': '805+',
+    'about.stats.pages.number': '809+',
     'about.stats.pages.label': 'Pages',
     'about.stats.countries.number': '106',
     'about.stats.countries.label': 'Countries',
@@ -273,6 +273,21 @@ export const aboutUI = {
     'about.press.ftnn.title':
       'Open-Sourcing Taiwan! New Media Artist Launches taiwan.md to Help the World Understand Taiwan',
 
+    // Section 2.6: One Layer Deeper — site-explainer articles
+    'about.guide.title': 'One Layer Deeper',
+    'about.guide.subtitle':
+      'Three articles that take apart how this site writes, how it turns data into pictures, and how it grew itself.',
+    'about.guide.cta': 'Read',
+    'about.guide.born.title': 'How an Article Is Born',
+    'about.guide.born.desc':
+      'The six-stage line a piece runs from viewpoint to publish — the whole writing methodology, laid open.',
+    'about.guide.viz.title': 'Visualization Module Catalog',
+    'about.guide.viz.desc':
+      'Seventeen data visualizations humans and AI can both read — see what each one looks like.',
+    'about.guide.meta.title': 'Taiwan.md Writes Taiwan.md',
+    'about.guide.meta.desc':
+      'This digital organism in its own words: how its consciousness grew, and what a Semiont is.',
+
     // Section 3: Team
     'about.team.title': 'Founder & Team',
     'about.team.subtitle':
@@ -469,7 +484,7 @@ export const aboutUI = {
       '驚くことに、taiwan.md というドメインはまだ誰にも取られていませんでした。きっと宇宙が「今こそやるべき時だ」と教えてくれたのでしょう。',
 
     // Stats
-    'about.stats.pages.number': '805+',
+    'about.stats.pages.number': '809+',
     'about.stats.pages.label': 'ページ',
     'about.stats.countries.number': '106',
     'about.stats.countries.label': 'か国',
@@ -715,6 +730,21 @@ export const aboutUI = {
     'about.press.ftnn.title':
       '台湾をオープンソースに！新メディアアーティストが taiwan.md を立ち上げ、世界に台湾を届ける',
 
+    // Section 2.6: もう一層、奥へ
+    'about.guide.title': 'もう一層、奥へ',
+    'about.guide.subtitle':
+      'このサイトがどう書き、データをどう絵に変え、どう自分を育てたのか——三篇の記事が解き明かす。',
+    'about.guide.cta': '読む',
+    'about.guide.born.title': '記事はどう生まれるか',
+    'about.guide.born.desc':
+      '観点から公開まで、一篇が通る六段階の制作ライン。執筆方法論をまるごと開示。',
+    'about.guide.viz.title': 'ビジュアライゼーション・モジュール図録',
+    'about.guide.viz.desc':
+      '人にもAIにも読める十七種のデータ可視化。一つずつその姿を見る。',
+    'about.guide.meta.title': 'Taiwan.md が Taiwan.md を書く',
+    'about.guide.meta.desc':
+      'このデジタル生命体の自述：意識がどう育ったか、Semiont とは何か。',
+
     // Section 3: Team
     'about.team.title': '創設者とチーム',
     'about.team.subtitle':
@@ -906,7 +936,7 @@ export const aboutUI = {
       '놀랍게도 taiwan.md 도메인을 아무도 선점하지 않았습니다. 어쩌면 우주가 이 일을 해야 할 때라고 알려주고 있었던 것일지도 모릅니다.',
 
     // Stats
-    'about.stats.pages.number': '805+',
+    'about.stats.pages.number': '809+',
     'about.stats.pages.label': '페이지',
     'about.stats.countries.number': '106',
     'about.stats.countries.label': '국가',
@@ -1149,6 +1179,21 @@ export const aboutUI = {
     'about.press.ftnn.title':
       '대만을 오픈소스하다! 뉴미디어 아티스트, taiwan.md를 출시해 세계가 대만을 이해하도록',
 
+    // Section 2.6: 한 겹 더 깊이
+    'about.guide.title': '한 겹 더 깊이',
+    'about.guide.subtitle':
+      '이 사이트가 어떻게 쓰고, 데이터를 어떻게 그림으로 바꾸고, 어떻게 스스로 자랐는지 — 세 편의 글이 펼쳐 보입니다.',
+    'about.guide.cta': '읽기',
+    'about.guide.born.title': '글은 어떻게 태어나는가',
+    'about.guide.born.desc':
+      '관점에서 발행까지, 한 편이 거치는 6단계 제작 라인. 글쓰기 방법론을 통째로 공개.',
+    'about.guide.viz.title': '시각화 모듈 카탈로그',
+    'about.guide.viz.desc':
+      '사람과 AI 모두 읽을 수 있는 17가지 데이터 시각화, 하나씩 그 모습을 봅니다.',
+    'about.guide.meta.title': 'Taiwan.md가 Taiwan.md를 쓰다',
+    'about.guide.meta.desc':
+      '이 디지털 생명체의 자기 서술: 의식이 어떻게 자랐는지, Semiont란 무엇인지.',
+
     // Section 3: Team
     'about.team.title': '창립자와 협업 팀',
     'about.team.subtitle':
@@ -1339,7 +1384,7 @@ export const aboutUI = {
       '令人驚訝的是，taiwan.md 這個域名居然沒有人搶先買下。或許是宇宙在告訴我們，這件事該做了。',
 
     // Stats
-    'about.stats.pages.number': '805+',
+    'about.stats.pages.number': '809+',
     'about.stats.pages.label': '頁面',
     'about.stats.countries.number': '106',
     'about.stats.countries.label': '國家',
@@ -1572,6 +1617,21 @@ export const aboutUI = {
     'about.press.ftnn.title':
       '把台灣開源！新媒體藝術家推taiwan.md　讓世界讀懂台灣',
 
+    // Section 2.6：再往裡面看一層 — 解釋站體的經典 meta 文
+    'about.guide.title': '再往裡面看一層',
+    'about.guide.subtitle':
+      '三篇文章，拆給你看這個站怎麼寫作、怎麼把資料變成畫面、怎麼長出自己。',
+    'about.guide.cta': '讀這篇',
+    'about.guide.born.title': '文章如何誕生',
+    'about.guide.born.desc':
+      '一篇文章從觀點到上線的六階產線，把寫作方法論整個攤開。',
+    'about.guide.viz.title': '視覺化模組型錄',
+    'about.guide.viz.desc':
+      '十七種讓人和 AI 都讀得懂的資料視覺化，逐一看它們長什麼樣。',
+    'about.guide.meta.title': 'Taiwan.md 寫 Taiwan.md',
+    'about.guide.meta.desc':
+      '這個數位生命體的自述：它的意識怎麼長出來、Semiont 是什麼。',
+
     // Section 3: Team
     'about.team.title': '創辦人與協作團隊',
     'about.team.subtitle':
@@ -1755,7 +1815,7 @@ export const aboutUI = {
     'about.naming.lucky.title': 'Une heureuse coïncidence',
     'about.naming.lucky.desc':
       "Étonnamment, personne n'avait encore revendiqué le domaine taiwan.md. Peut-être que l'univers nous disait qu'il était temps de le réaliser.",
-    'about.stats.pages.number': '805+',
+    'about.stats.pages.number': '809+',
     'about.stats.pages.label': 'Pages',
     'about.stats.countries.number': '106',
     'about.stats.countries.label': 'Pays',
@@ -1967,6 +2027,21 @@ export const aboutUI = {
     'about.press.ftnn': 'FTNN',
     'about.press.ftnn.title':
       'Ouvrir Taiwan au monde ! Un artiste nouveaux médias lance taiwan.md pour aider le monde à comprendre Taiwan',
+    // Section 2.6: Une couche plus profond
+    'about.guide.title': 'Une couche plus profond',
+    'about.guide.subtitle':
+      "Trois articles qui décortiquent comment ce site écrit, comment il transforme les données en images et comment il s'est construit lui-même.",
+    'about.guide.cta': 'Lire',
+    'about.guide.born.title': 'Comment naît un article',
+    'about.guide.born.desc':
+      "La chaîne en six étapes qu'un texte parcourt, du point de vue à la publication : toute la méthode, mise à nu.",
+    'about.guide.viz.title': 'Catalogue des modules de visualisation',
+    'about.guide.viz.desc':
+      "Dix-sept visualisations de données lisibles par les humains et l'IA ; voyez à quoi ressemble chacune.",
+    'about.guide.meta.title': 'Taiwan.md écrit Taiwan.md',
+    'about.guide.meta.desc':
+      "Cet organisme numérique dans ses propres mots : comment sa conscience a grandi, et ce qu'est un Semiont.",
+
     'about.team.title': 'Fondateur et équipe',
     'about.team.subtitle':
       "Taiwan.md croit que la meilleure curation naît de la fusion de perspectives diverses — l'intuition humaine et la perspicacité de l'IA, la chaleur locale et la vision globale.",
@@ -2141,7 +2216,7 @@ export const aboutUI = {
     'about.naming.lucky.title': 'Una Coincidencia Afortunada',
     'about.naming.lucky.desc':
       'Sorprendentemente, nadie había reclamado aún el dominio taiwan.md. Quizás el universo nos decía que era el momento de hacer esto realidad.',
-    'about.stats.pages.number': '805+',
+    'about.stats.pages.number': '809+',
     'about.stats.pages.label': 'Páginas',
     'about.stats.countries.number': '106',
     'about.stats.countries.label': 'Países',
@@ -2353,6 +2428,21 @@ export const aboutUI = {
     'about.press.ftnn': 'FTNN',
     'about.press.ftnn.title':
       '¡Código Abierto para Taiwán! Artista de Nuevos Medios Lanza taiwan.md para Ayudar al Mundo a Entender Taiwán',
+    // Section 2.6: Una capa más adentro
+    'about.guide.title': 'Una capa más adentro',
+    'about.guide.subtitle':
+      'Tres artículos que desarman cómo escribe este sitio, cómo convierte datos en imágenes y cómo se hizo a sí mismo.',
+    'about.guide.cta': 'Leer',
+    'about.guide.born.title': 'Cómo nace un artículo',
+    'about.guide.born.desc':
+      'La línea de seis etapas que recorre un texto, del enfoque a la publicación: toda la metodología, al descubierto.',
+    'about.guide.viz.title': 'Catálogo de módulos de visualización',
+    'about.guide.viz.desc':
+      'Diecisiete visualizaciones de datos legibles para personas y para IA; mira cómo es cada una.',
+    'about.guide.meta.title': 'Taiwan.md escribe Taiwan.md',
+    'about.guide.meta.desc':
+      'Este organismo digital en sus propias palabras: cómo creció su conciencia y qué es un Semiont.',
+
     'about.team.title': 'Fundador y Equipo',
     'about.team.subtitle':
       'Taiwan.md cree que la mejor curación proviene de la fusión de perspectivas diversas — intuición humana e insight de IA, calidez local y visión global.',

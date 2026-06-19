@@ -39,6 +39,30 @@ const contributorCount =
   _c.totals?.contributors || _v.contributors || allContributors.length;
 const totalArticles = _v.totalArticles || 0;
 const starCount = _v.stars || 0;
+
+// Section 2.6「再往裡面看一層」— 把解釋這個站怎麼運作的三篇經典 meta 文聚一起。
+// 文案走正式 i18n（about.ts 的 about.guide.*，6 語齊全）；icon 與連結語言中性，留在本檔。
+// 連結指向 zh-TW canonical：三篇翻完五語後可改走 useTranslatedPath 指向各語版。
+const siteGuideCards = [
+  {
+    icon: '📝',
+    href: '/about/文章如何誕生',
+    title: t('about.guide.born.title'),
+    desc: t('about.guide.born.desc'),
+  },
+  {
+    icon: '📊',
+    href: '/about/視覺化模組型錄',
+    title: t('about.guide.viz.title'),
+    desc: t('about.guide.viz.desc'),
+  },
+  {
+    icon: '🧬',
+    href: '/about/taiwan-md',
+    title: t('about.guide.meta.title'),
+    desc: t('about.guide.meta.desc'),
+  },
+];
 ---
 
 <Layout
@@ -583,6 +607,26 @@ const starCount = _v.stars || 0;
                 : '即時監測生命徵象、健康分數、翻譯覆蓋率與成長時間軸。'
             }
           </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2.6: 再往裡面看一層 — 解釋這個站的經典 meta 文 -->
+    <section class="site-guide-section px-4 py-16" id="site-guide">
+      <div class="section-inner">
+        <h2 class="section-title">{t('about.guide.title')}</h2>
+        <p class="section-subtitle">{t('about.guide.subtitle')}</p>
+        <div class="guide-grid">
+          {
+            siteGuideCards.map((card) => (
+              <a href={card.href} class="guide-card">
+                <span class="guide-icon">{card.icon}</span>
+                <h3 class="guide-card-title">{card.title}</h3>
+                <p class="guide-card-desc">{card.desc}</p>
+                <span class="guide-card-cta">{t('about.guide.cta')} →</span>
+              </a>
+            ))
+          }
         </div>
       </div>
     </section>
@@ -1565,6 +1609,72 @@ const starCount = _v.stars || 0;
     .trait-label {
       min-width: auto;
     }
+  }
+
+  /* ===== Section 2.6: 再往裡面看一層（site-guide）===== */
+  .site-guide-section {
+    background: linear-gradient(135deg, #f8fafc, #f0fdf4);
+  }
+
+  .guide-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    .guide-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .guide-card {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 1.75rem;
+    text-decoration: none;
+    color: inherit;
+    transition:
+      transform 0.2s,
+      box-shadow 0.2s,
+      border-color 0.2s;
+  }
+
+  .guide-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(30, 64, 175, 0.1);
+    border-color: #1e40af;
+  }
+
+  .guide-icon {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .guide-card-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 0.6rem;
+    line-height: 1.4;
+  }
+
+  .guide-card-desc {
+    font-size: 0.95rem;
+    color: #4b5563;
+    line-height: 1.7;
+    margin: 0 0 1.25rem;
+    flex: 1;
+  }
+
+  .guide-card-cta {
+    font-weight: 600;
+    color: #1e40af;
+    font-size: 0.95rem;
   }
 
   /* ===== Section 3: 創辦人 ===== */
