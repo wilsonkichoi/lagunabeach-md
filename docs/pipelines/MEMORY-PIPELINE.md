@@ -319,6 +319,8 @@ Memory file 寫完後，要在 [MEMORY.md](../semiont/MEMORY.md) §心跳日誌 
 
 **Hard gate**：摘要欄 + 關鍵教訓欄合計 ≤ 150 字。需要細節 → 點 link 進 memory file。
 
+> **自動化把關（2026-06-19 新增）**：收官 commit 前跑 [`scripts/tools/memory-index-lint.py`](../../scripts/tools/memory-index-lint.py)——只 hard-fail 最新一列（剛寫的），歷史層超標只 warn 不回頭改。husky pre-commit 只驗 frontmatter 不驗 row 長度，這把尺缺自動化（2026-06-19 distill 收官手寫 row 估三次都超標 138→189→286 才補的，REFLEXES #69 self-report 長度估算也需外部尺）。可 wire 進 husky。
+
 **寫法**：
 
 - 摘要欄：一句話講主成就 / 主轉折（≤ 100 字），不展開 phase / commit hash / 多事件並列
