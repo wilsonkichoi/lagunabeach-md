@@ -59,6 +59,15 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 🗂️ Distill 回填 batch — 2026-06-19 inbox distill（4 篇 ship 當下漏記 DONE-LOG，補登 + 從 INBOX 移除）
+
+> 出貨當下沒 append 本檔的幽靈條目（status=done 卻留在 ARTICLE-INBOX），2026-06-19 inbox distill 一併補登 + 從 INBOX 移除。文章早已存在 `knowledge/`，本 batch 補的是可追溯性（避免未來 session 重複開發）。session `2026-06-19-123909-inbox-distill`。
+
+- **大象體操**（Music）— [knowledge/Music/大象體操.md](../../knowledge/Music/大象體操.md)｜2026-06-18 `twmd-rewrite-daily` NEW ship `72b757bac`｜5604 CJK / 56 footnote / 11 場景式 H2 / 7 媒體｜「沒人在唱卻聽得到歌的台灣三人組」（math rock）
+- **Howhow（陳孜昊）**（People）— [knowledge/People/Howhow.md](../../knowledge/People/Howhow.md)｜2026-06-05 loop `/twmd-rewrite` EVOLVE（PR #1058 base）｜「一人團隊」的標籤 vs 他其實一直想要團隊
+- **尊（朱玉恩）**（People）— [knowledge/People/尊.md](../../knowledge/People/尊.md)｜2026-06-02 `twmd-rewrite-daily` EVOLVE（PR #834 base）｜高曝光 + 文章太短 SC signal，補 2025/11 新家節點 30 歲分水嶺 layer
+- **魚條**（People／後硬核樂團）— [knowledge/People/魚條.md](../../knowledge/People/魚條.md)｜2026-04-27 ship｜「名字像路邊小吃、聲音是要打人的後硬核」（中正高中三人組 / 2019《治本》）
+
 ### 台灣流行音樂 EVOLVE — 2026-06-19 manual /loop iteration #1（哲宇 P0 batch 非政治篇 / chronicle stub → 自由籌碼策展通史 / multi-agent orchestration v6.3 全跑）
 
 - **Article**: [knowledge/Music/台灣流行音樂.md](../../knowledge/Music/台灣流行音樂.md)
