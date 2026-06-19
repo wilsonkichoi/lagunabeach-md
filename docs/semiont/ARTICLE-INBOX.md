@@ -209,20 +209,6 @@ BECOME_TAIWANMD.md Step 5 新增：
   - sibling cross-link：無名小站（已雙向）/ PTT批踢踢 / Facebook / Threads在台灣 / IG — 5 條 forward 已寫，reverse 待 sibling 編輯時補
 - **Reference**: 哲宇 directive 2026-06-14 + research/2026-06/台灣網路社群遷徙史-evolve-20260614.md
 
-### 台灣流行音樂 EVOLVE — 從群星會到串流時代的島嶼聲音
-
-- **Type**: `EVOLVE`
-- **Category**: Music
-- **Path** (EVOLVE only): knowledge/Music/台灣流行音樂.md
-- **Priority**: `P0`
-- **Status**: `pending`
-- **Requested**: 2026-06-14 by 哲宇 directive（最優先 rewrite batch）
-- **Notes**:
-  - 事實鐵三角：年代分期、代表人物/專輯、金曲獎里程碑逐一查（避免主觀「最重要」）
-  - 注意跟既有 `流行音樂與金曲獎.md` 分工，避免重疊（一個是總覽史、一個是獎項）
-  - EVOLVE 方向：總覽通史 → 補足每個年代的聲音轉折 + 腳註
-- **Reference**: 哲宇 directive 2026-06-14
-
 ### 造山者 EVOLVE — 《造山者：世紀的賭注》半導體紀錄片
 
 - **Type**: `EVOLVE`

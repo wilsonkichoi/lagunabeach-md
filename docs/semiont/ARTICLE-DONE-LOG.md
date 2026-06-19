@@ -59,6 +59,18 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 台灣流行音樂 EVOLVE — 2026-06-19 manual /loop iteration #1（哲宇 P0 batch 非政治篇 / chronicle stub → 自由籌碼策展通史 / multi-agent orchestration v6.3 全跑）
+
+- **Article**: [knowledge/Music/台灣流行音樂.md](../../knowledge/Music/台灣流行音樂.md)
+- **Pipeline**: REWRITE-PIPELINE v7.6 — EVOLVE 模式（Evolution，舊文 chronicle stub 15007 bytes 年代式小標題 + LIST-DUMP + 斷號腳註 → 非編年體三幕脊椎）
+- **核心矛盾**：輸掉市場的島，靠「能唱別人不能唱的」留下最後的籌碼（C 製作中心/最小市場 → A 自由終局 → B 誰的聲音算數全程低音）
+- **Hook**：〈龍的傳人〉換過三個主人（1978 為斷交而寫 → 1983 侯德健赴陸遭台禁 → 今被中國當血緣民族主義符號）首尾呼應
+- **品質**：5943 CJK / 58 footnote / 8 場景式 H2 / 5 tw-\* viz / 7 媒體（3 CC/PD 圖 + 4 官方 iframe）/ rewrite-stage-3-5 + rewrite-stage-4 hard=0 warn=0 / prose-health score 3 / chronicle-lead 0
+- **Research**: [reports/research/2026-06/台灣流行音樂.md](../../reports/research/2026-06/台灣流行音樂.md)（Stage 0 gate + Stage 1 depth gate 全過 / 122 搜尋 / 51 distinct 來源 / 5 en / 6 一手 / §9 audit）
+- **falsification 收穫**：王菲 framing 證偽（香港養成非台灣）/ 女歌手「崛起」偽命題（鄧麗君 1967、鳳飛飛 1971 已天后）/ 李竺芯「台語首度」非「母語首度」（原民語 2017/2020 先例）/ Stage 3.6 抓林強〈向前走〉第 2 屆→**第 3 屆 1992** 更正（SSOT 同錯）/ 東風破青花瓷不在首張 / 可樂瓶未砸破 / TAICCA 288 億口徑陷阱
+- **multi-agent**：4 persona Sonnet + 1 viewpoint Opus + 4 research Sonnet fan-out + 1 fresh Opus writer（staging）+ 1 Sonnet Stage 3.6 adversarial verifier
+- **待續**：翻譯走巴別塔（babel-nightly 自動偵測 body-hash drift 重譯）/ Stage 5 reverse cross-link 5 siblings 待補 / lastHumanReview false
+
 ### justfont 與台灣字體發展 EVOLVE — 2026-06-12 flywheel-evolution session 完成（用一種台灣茶的名字，把做字的人帶到陽光下）
 
 - **Article**: [knowledge/Technology/justfont與台灣字體發展.md](../../knowledge/Technology/justfont與台灣字體發展.md)
