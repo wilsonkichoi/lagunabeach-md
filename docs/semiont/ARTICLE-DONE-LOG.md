@@ -59,6 +59,21 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 台灣體育發展與奧運 NEW — 2026-06-19 twmd-rewrite-daily routine 完成（一個叫「中華台北」的隊伍 / Fresh / Issue #915）
+
+- **Article**: [knowledge/Society/台灣體育發展與奧運.md](../../knowledge/Society/台灣體育發展與奧運.md)
+- **Pipeline**: REWRITE-PIPELINE v7.6 — Fresh NEW（核心矛盾「2300 萬人的小島用一個沒有國名的代號站上奧運卻打出歷史最佳成績」，五場景式 H2：進不去的「台灣」/ 為一首歌重填詞 / 16 年長夜與 15 分鐘雙金 / 升的不是國旗 / 棒球與「中華台北」的縫隙）
+- **Research SSOT**: reports/research/2026-06/台灣體育與奧運.md（Stage 0 探索 12 query + Stage 1 fan-out 52 query / 51 distinct sources / 5 EN / 10 一手 / `research-report-health.py` PASS）
+- **規格**: 4860 CJK / 55 footnote / 4 圖（楊傳廣 1960 hero + 中華台北會旗 + 會徽 + 楊傳廣 inline）/ rewrite-stage-3-5 + rewrite-stage-4 hard=0 warn=0
+- **Falsification 收穫（10 處）**: 楊傳廣 8334 分（不是 8392）/ 蔡溫義 抓 125kg（不是 132.5）/ 嘉農決賽 0:4（不是 2:5）/ 楊勇緯 2024 巴黎 NO MEDAL（8 強止步）/ 李孟遠定向飛靶（不是 10m 空氣手槍）/ 陳念琴 拳擊 66kg（不是 75kg）/ 國訓中心 1976/11 正式成立（1975 是籌備）/ 體育署 2013 降編（不是升格）/ 紅葉少棒對手是關西明星隊不是和歌山世界冠軍 + 13 人 5 虛報 9 冒名 / CPBL 首場兄弟 3:4 統一（不是兄弟贏）
+- **High-value 新發現**: 楊傳廣銀牌 2025/4 文化部指定首件體育類國寶 / 張星賢 1932+1936 日本代表團（首位參加奧運的台灣人 / 比劉長春更早報到）/ 麟洋配 = 奧運史首對同組合男雙連霸 / NHK 2020 東京「台湾です」+ 排タ群首次把 Taiwan 排在 China 前面 / France 2 2024 巴黎「中華台北，就是我們所熟知的台灣」
+- **multi-agent**: 1 主 session Stage 0 觀點 + 2 Sonnet research fan-out（27 + 25 query）+ 1 fresh Opus writer（staging → 主 session Stage 2.5 覆蓋 canonical）
+- **政治處置**: §自主權邊界 — 「中華台北」框架描述為結構性事實（妥協史），不評統獨；林郁婷拳擊金不寫「跨性別」framing；2018 東奧正名公投僅敘事不評論
+- **Spore**: blueprint #154/#155 落檔（broadcast deferred — Chrome MCP image upload structural blocker 連續第 4 次 cycle，next maintainer/manual session ship）
+- **待續**: Stage 3.6 fan-out 被 cron budget 跳過（主 session falsification 已抓 10 處）/ image-health 媒體量 advisory（4 < 5，target 6 per length-scaled）/ 翻譯巴別塔（babel-nightly 00:30 auto）/ Issue #915 close 留 maintainer gate / lastHumanReview false
+- **commit**: `6aa840307` (article) + `b6469dd35` (spore blueprint)
+- **Session memory**: [memory/2026-06-19-190938-twmd-rewrite-daily.md](memory/2026-06-19-190938-twmd-rewrite-daily.md)
+
 ### 羅大佑 EVOLVE — 2026-06-19 manual /loop iteration #2（3/19 早批 attribution audit batch 第 4 篇 / 短 bio 1789→~5100 CJK depth / 「漂泊者唱失根」策展）
 
 - **Article**: [knowledge/People/羅大佑.md](../../knowledge/People/羅大佑.md)

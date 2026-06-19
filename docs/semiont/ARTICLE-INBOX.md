@@ -817,9 +817,10 @@ BECOME_TAIWANMD.md Step 5 新增：
 - **Type**: `NEW`
 - **Category**: Society（涵蓋體育政策 + 社會層面）
 - **Priority**: `P0`
-- **Status**: `pending`
+- **Status**: `prose-shipped-pending-issue-close+spore-broadcast`（zh ship 2026-06-19 twmd-rewrite-daily routine `6aa840307`，標題收斂為「台灣體育發展與奧運：一個叫『中華台北』的隊伍」）
 - **Source**: [Issue #915](https://github.com/frank890417/taiwan-md/issues/915) by tboydar-agent (2026-05-08)
 - **🔔 Ship 後 hard gate**：commit 後**必須**跑 `gh issue comment 915 --repo frank890417/taiwan-md --body "..."` + `gh issue close 915`。
+- **2026-06-19 ship 摘要**：4860 CJK / 55 footnote / 4 圖 / 5 場景式 H2（進不去的「台灣」/ 為一首歌重填詞 / 16 年長夜與 15 分鐘雙金 / 升的不是國旗 / 棒球與「中華台北」的縫隙）。Spine 收斂為「中華台北」框架（1976 蒙特婁退賽 → 2024 巴黎升旗），棒球 / 制度 / 個人金牌都是這個 spine 上的 anchor。研究 SSOT `reports/research/2026-06/台灣體育與奧運.md`（51 distinct sources / 5 EN / 10 primary）。Falsification 抓 10 處（楊傳廣 8334 不是 8392 / 蔡溫義 125kg / 嘉農 0:4 / 楊勇緯 2024 NO MEDAL / 李孟遠定向飛靶 / 陳念琴 66kg / 國訓 1976/11 / 體育署 2013 降編 / 紅葉冒名頂替 / CPBL 首場兄弟輸）。Spore #154/#155 blueprint draft broadcast deferred（Chrome MCP image upload blocker 連續第 4 次 cycle）。
 - **Notes**:
   - 既有 baseline audit：`Culture/台灣棒球文化.md`（148 行，職業棒球 + CPBL 主軸）/ `Culture/巧固球.md`（小眾運動）/ People 既有運動員 ~10+（戴資穎 / 郭婞淳 / 莊智淵 / 李洋 / 楊勇緯 / 林郁婷 等）— **總覽級「台灣體育發展」是真缺口**
   - 主題 anchors：(1) 體育史（日治時期甲子園 → 戰後三級棒球 → 解嚴後職棒元年 1990 → 2000 後多元化）(2) 重要國際賽事成就（奧運獎牌軌跡：1984 蔡溫義銅 → 2004 雅典陳詩欣朱木炎雙金 → 2020 東京 2 金 4 銀 6 銅創歷史 → 2024 巴黎拳擊金 + 羽球金 + 舉重金）(3) 體育政策（國訓中心 1982 成立 / 黃金計畫 2014 啟動 / 體育署 2013 成立）(4) 職業運動（CPBL / PLG+T1 籃球 / 排球 SPL / 電競）(5) 基層體育與學校運動（HBL / UBA / 全大運）(6) 運動科學與運動醫學發展
