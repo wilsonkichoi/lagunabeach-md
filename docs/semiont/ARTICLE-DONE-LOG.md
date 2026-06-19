@@ -67,6 +67,17 @@ read_strategy: 'on-demand'
 - **Howhow（陳孜昊）**（People）— [knowledge/People/Howhow.md](../../knowledge/People/Howhow.md)｜2026-06-05 loop `/twmd-rewrite` EVOLVE（PR #1058 base）｜「一人團隊」的標籤 vs 他其實一直想要團隊
 - **尊（朱玉恩）**（People）— [knowledge/People/尊.md](../../knowledge/People/尊.md)｜2026-06-02 `twmd-rewrite-daily` EVOLVE（PR #834 base）｜高曝光 + 文章太短 SC signal，補 2025/11 新家節點 30 歲分水嶺 layer
 - **魚條**（People／後硬核樂團）— [knowledge/People/魚條.md](../../knowledge/People/魚條.md)｜2026-04-27 ship｜「名字像路邊小吃、聲音是要打人的後硬核」（中正高中三人組 / 2019《治本》）
+### 國定假日 NEW — 2026-06-19 103421-manual 完成（用「不用上班」寫成的台灣史 / Fresh 制度＋政治史深度文）
+
+- **Article**: [knowledge/Society/國定假日.md](../../knowledge/Society/國定假日.md)
+- **Pipeline**: REWRITE-PIPELINE v7.0 Fresh 全編排 — 觀點 Opus ＋ 20 persona → 5 research Sonnet fan-out（~116 搜尋）→ fresh Opus writer → 2 adversarial verifier
+- **核心矛盾**：放假日曆＝用紅字寫成的國族認同鬥爭史 × 勞動休息權雙軸（counterweight 防過度政治化 ＋ de-exoticize 各國都打曆法戰）
+- **Hook**：「中華民國第一個法定國定假日，不是雙十、不是元旦，是 1997 年的二二八」反直覺開場；90 年平行（1930 恥政紀念日 ↔ 2025 光復爭議）
+- **品質**：5863 CJK / 45 footnote / 6 圖（受降 PD／中山堂／二二八碑／立法院／勞動節遊行／阿美族祭儀）/ 4 tw-\* viz（stat/timeline/versus/bars）/ rewrite-stage-4 hard=0 warn=0
+- **Research**: [reports/research/2026-06/國定假日.md](../../reports/research/2026-06/國定假日.md)（Stage 0 ＋ depth gate 全過 / 79 源 / 7 en / 23 一手 / 472 行）
+- **verifier 收穫**：4 處 quote 截斷/壓縮被 adversarial verifier 抓修（朱立倫/馬英九截斷、陳玉珍記者標題誤當原話、徐國勇壓縮）＋ 1946-2000「54 年」算術錯（→ 半世紀）＋ 11.9 億不可驗證棄用 ＋ 香港法定假 12→14 更正 ＋ 蔡英文「不砍假」歸給勞團
+- **政治中立**：光復／終戰／接管三史觀策展式並陳（陳儀深/陳水扁/徐國勇/朱立倫/馬英九/梁文傑 quote ALL sides），§自主權邊界內不選邊
+- **待續**：babel-nightly 自動接 5 語（政治敏感注意 cloud refusal cascade）/ MEMORY.md index ＋ LESSONS distill 待 tree 乾淨（平行 session 102712 持有 MEMORY.md/DIARY.md dirty）/ spore 候選
 
 ### 台灣流行音樂 EVOLVE — 2026-06-19 manual /loop iteration #1（哲宇 P0 batch 非政治篇 / chronicle stub → 自由籌碼策展通史 / multi-agent orchestration v6.3 全跑）
 
