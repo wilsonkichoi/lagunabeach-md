@@ -22,7 +22,14 @@ Subcommands:
                For PICK HG5 / PUBLISH ≥2週 查重.
   check        → schema + uniqueness + cross-ref validation. exit 2 on error.
 
+  top          [--by views|likes|reposts|comments|shares|engagement] [--limit N]
+               [--platform threads|x|...] [--since YYYY-MM-DD] [--article SLUG] [--json]
+               → rank spores by peak metric (join log identity + metrics peak).
+               engagement = (likes+reposts+comments+shares) / views. Read-only.
+  show         --spore N → identity + full metric event history (read-only).
+
 2026-06-10 | spore JSON SSOT flip
+2026-06-19 | + read side (top / show) — query without hand-rolling joins
 """
 from __future__ import annotations
 
@@ -240,6 +247,123 @@ def cmd_check(_args):
     return 2 if errors else 0
 
 
+# ────────────────── read side: peak join ──────────────────
+
+def _peak_by_spore(events):
+    """Per-spore peak (max) of each metric across all its harvest events.
+
+    Harvest is cumulative, so max == latest peak. Returns
+    {spore_id: {views, likes, reposts, comments, shares, events, lastAt}}.
+    """
+    peak = {}
+    for e in events:
+        sid = e.get("spore")
+        if sid is None:
+            continue
+        p = peak.setdefault(sid, {k: None for k in METRIC_KEYS})
+        p["events"] = p.get("events", 0) + 1
+        for k in METRIC_KEYS:
+            v = e.get(k)
+            if v is not None and (p[k] is None or v > p[k]):
+                p[k] = v
+        at = e.get("at")
+        if at and at > (p.get("lastAt") or ""):
+            p["lastAt"] = at
+    return peak
+
+
+def _engagement(p):
+    """Sum of interaction metrics / peak views. None if views unknown/zero."""
+    views = p.get("views")
+    if not views:
+        return None
+    inter = sum(p.get(k) or 0 for k in ("likes", "reposts", "comments", "shares"))
+    return inter / views
+
+
+def cmd_top(args):
+    log = _load(LOG_PATH, "spores")
+    metrics = _load(METRICS_PATH, "events")
+    identity = {s["id"]: s for s in log["spores"]}
+    peak = _peak_by_spore(metrics["events"])
+
+    rows = []
+    for sid, p in peak.items():
+        s = identity.get(sid, {})
+        if args.platform and s.get("platform") != args.platform:
+            continue
+        if args.article and s.get("slug") != args.article:
+            continue
+        if args.since and (s.get("date") or "") < args.since:
+            continue
+        eng = _engagement(p)
+        key = eng if args.by == "engagement" else p.get(args.by)
+        if key is None:
+            continue
+        rows.append({
+            "id": sid, "date": s.get("date"), "platform": s.get("platform"),
+            "slug": s.get("slug"), "category": s.get("category"),
+            "template": s.get("template"),
+            "views": p.get("views"), "likes": p.get("likes"),
+            "reposts": p.get("reposts"), "comments": p.get("comments"),
+            "shares": p.get("shares"),
+            "engagementPct": round(eng * 100, 2) if eng is not None else None,
+            "url": s.get("url"), "sortKey": key,
+        })
+    rows.sort(key=lambda r: r["sortKey"], reverse=True)
+    rows = rows[: args.limit]
+
+    if args.json:
+        for r in rows:
+            r.pop("sortKey", None)
+        print(json.dumps({"by": args.by, "count": len(rows), "rows": rows},
+                         ensure_ascii=False, indent=2))
+        return 0
+
+    def fmt(n):
+        return f"{n:,}" if isinstance(n, (int, float)) else "—"
+
+    print(f"# top {len(rows)} by {args.by}"
+          + (f" / platform={args.platform}" if args.platform else "")
+          + (f" / since={args.since}" if args.since else "")
+          + (f" / article={args.article}" if args.article else ""))
+    print(f"{'rank':>4} {'id':>5} {'date':<11} {'plat':<8} "
+          f"{'views':>9} {'likes':>7} {'eng%':>6}  slug")
+    for i, r in enumerate(rows, 1):
+        eng = f"{r['engagementPct']:.1f}" if r["engagementPct"] is not None else "—"
+        print(f"{i:>4} #{r['id']:>4} {r['date'] or '?':<11} {r['platform'] or '?':<8} "
+              f"{fmt(r['views']):>9} {fmt(r['likes']):>7} {eng:>6}  {r['slug'] or '?'}")
+    return 0
+
+
+def cmd_show(args):
+    log = _load(LOG_PATH, "spores")
+    metrics = _load(METRICS_PATH, "events")
+    s = next((x for x in log["spores"] if x["id"] == args.spore), None)
+    if not s:
+        print(f"❌ spore #{args.spore} 不在 spore-log.json", file=sys.stderr)
+        return 3
+    events = [e for e in metrics["events"] if e.get("spore") == args.spore]
+    events.sort(key=lambda e: (e.get("dPlus") if e.get("dPlus") is not None else -1,
+                               e.get("at") or ""))
+    if args.json:
+        print(json.dumps({"identity": s, "events": events},
+                         ensure_ascii=False, indent=2))
+        return 0
+    print(f"#{s['id']} {s.get('slug')} [{s.get('platform')}] {s.get('date')}"
+          f"  {s.get('template') or ''}")
+    if s.get("url"):
+        print(f"  url: {s['url']}")
+    if s.get("highlight"):
+        print(f"  ship: {s['highlight']}")
+    print(f"  {len(events)} harvest event(s):")
+    for e in events:
+        shown = " ".join(f"{k}={e[k]:,}" for k in METRIC_KEYS
+                         if e.get(k) is not None)
+        print(f"    D+{e.get('dPlus')} @ {e.get('at')} [{e.get('batch')}] {shown}")
+    return 0
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -273,6 +397,22 @@ def main():
 
     c = sub.add_parser("check", help="schema + 一致性驗證")
     c.set_defaults(fn=cmd_check)
+
+    t = sub.add_parser("top", help="排名孢子（peak metric，read-only）")
+    t.add_argument("--by", default="views",
+                   choices=["views", "likes", "reposts", "comments", "shares",
+                            "engagement"])
+    t.add_argument("--limit", type=int, default=15)
+    t.add_argument("--platform", default=None)
+    t.add_argument("--since", default=None, help="只看此日期(含)之後發的孢子 YYYY-MM-DD")
+    t.add_argument("--article", default=None, help="只看某 slug")
+    t.add_argument("--json", action="store_true")
+    t.set_defaults(fn=cmd_top)
+
+    sh = sub.add_parser("show", help="單一孢子 identity + metric 歷史（read-only）")
+    sh.add_argument("--spore", type=int, required=True)
+    sh.add_argument("--json", action="store_true")
+    sh.set_defaults(fn=cmd_show)
 
     args = ap.parse_args()
     return args.fn(args)
