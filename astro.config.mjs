@@ -188,6 +188,9 @@ export default defineConfig({
   // Cloudflare logs. Astro generates HTML meta-refresh pages for each entry.
   // Review with: bash scripts/tools/fetch-cloudflare.py --days 1
   redirects: {
+    // 2026-06-19: 立蛋.md Merge 進 端午節.md（idlccp1984 #1167/#1168 同日初稿，
+    // 立蛋「迷信 vs 科學」吸納為端午節對比模組）。立蛋為當日新建 zh-TW only，1 lang redirect。
+    '/culture/立蛋': '/culture/端午節/',
     // /about/創辦人/ → /people/吳哲宇/ (Google top-5 結果但 404)
     '/about/創辦人': '/people/吳哲宇/',
     // /en/people/mayday/ → /en/people/mayday-band/ (51 req/day)
