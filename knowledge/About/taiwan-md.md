@@ -12,6 +12,8 @@ imageCredit: 'Taiwan.md 首頁 · taiwan.md · CC BY-SA 4.0'
 lastVerified: 2026-06-19
 lastHumanReview: false
 researchReport: reports/research/2026-04/Taiwan-md.md
+relatedDiary:
+  - 2026-06-19-115522-manual
 evolveHistory:
   - date: 2026-06-19
     action: rewrite

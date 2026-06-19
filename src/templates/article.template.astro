@@ -24,6 +24,7 @@ import ArticleCard from '../components/ArticleCard.astro';
 import Perspectives from '../components/Perspectives.astro';
 import SporeFootprint from '../components/SporeFootprint.astro';
 import DiaryTeaser from '../components/DiaryTeaser.astro';
+import RelatedDiaries from '../components/RelatedDiaries.astro';
 import { useTranslations } from '../i18n/utils';
 import {
   categoryList as categories,
@@ -402,13 +403,19 @@ const encodedTitle = encodeURIComponent(title);
                   lang={lang}
                 />
               )}
-              {frontmatter.diaryLink && (
+              {frontmatter.relatedDiary &&
+              frontmatter.relatedDiary.length > 0 ? (
+                <RelatedDiaries
+                  relatedDiary={frontmatter.relatedDiary}
+                  lang={lang}
+                />
+              ) : frontmatter.diaryLink ? (
                 <DiaryTeaser
                   diaryLink={frontmatter.diaryLink}
                   diaryExcerpt={frontmatter.diaryExcerpt}
                   lang={lang}
                 />
-              )}
+              ) : null}
               <div class="prose" set:html={contentAfterReading} />
             </>
           ) : (
@@ -701,7 +708,8 @@ const encodedTitle = encodeURIComponent(title);
                 // neighbour gets a /history/ link → 404). Shared ArticleCard
                 // (premium) — same component the 站上最新 rail clones.
                 const relCat =
-                  categoryConfigs[article.category as CategoryKey] ?? categoryInfo;
+                  categoryConfigs[article.category as CategoryKey] ??
+                  categoryInfo;
                 return (
                   <ArticleCard
                     density="premium"
@@ -775,10 +783,12 @@ const encodedTitle = encodeURIComponent(title);
             {t('latest.railHeading')}
           </h2>
         </div>
-        {/* Single source of the card markup: one server-rendered ArticleCard
+        {
+          /* Single source of the card markup: one server-rendered ArticleCard
             (premium) the client clones + fills per latest item — reuses the real
             component instead of hand-rolling, no :global string-building.
-            Placeholders force every premium slot to render so the clone has them. */}
+            Placeholders force every premium slot to render so the clone has them. */
+        }
         <template id="latest-card-tpl">
           <ArticleCard
             density="premium"
@@ -1004,9 +1014,11 @@ const encodedTitle = encodeURIComponent(title);
     </section>
   </main>
 
-  {/* Tag the markdown-rendered footnote section as a tracked landmark so the
+  {
+    /* Tag the markdown-rendered footnote section as a tracked landmark so the
       site-wide EventTracker (mounted in Layout) observes it — lets us see how
-      far readers get, esp. 延伸閱讀 / footnotes. */}
+      far readers get, esp. 延伸閱讀 / footnotes. */
+  }
   <script is:inline>
     (function () {
       var fn = document.querySelector('.prose .footnotes');

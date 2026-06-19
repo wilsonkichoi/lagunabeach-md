@@ -22,6 +22,22 @@ const baseContentSchema = z.object({
   relatedTopics: z.array(z.string()).optional().default([]),
   sources: z.array(z.string()).optional().default([]),
   subcategory: z.string().optional().default(''),
+  // 相關日記：寫這篇文章時 Semiont 的反芻日記（讓讀者看見「寫的時候在想什麼」）。
+  // 每筆給日記 slug（檔名去 .md，希臘字母 transliterate，對應 /semiont/diary/{slug}），
+  // title / 摘要 / 日期由 RelatedDiaries.astro build-time 從日記檔自動 resolve。
+  // 物件形式 { slug, excerpt } 可覆寫摘要。array 版，取代舊的單篇 diaryLink / diaryExcerpt。
+  relatedDiary: z
+    .array(
+      z.union([
+        z.string(),
+        z.object({ slug: z.string(), excerpt: z.string().optional() }),
+      ]),
+    )
+    .optional()
+    .default([]),
+  // 舊：單篇日記 teaser（DiaryTeaser）。relatedDiary 為其後繼，新文章用 relatedDiary。
+  diaryLink: z.string().optional(),
+  diaryExcerpt: z.string().optional(),
 });
 
 // 中文內容 collection

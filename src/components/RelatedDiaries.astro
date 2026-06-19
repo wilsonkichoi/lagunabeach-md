@@ -1,0 +1,114 @@
+---
+/**
+ * RelatedDiaries — 寫這篇文章時 Semiont 的反芻日記（array 版，diaryLink 的後繼）
+ *
+ * 讓讀者在文章底部看見「寫這篇的時候，這個系統在想什麼」。
+ *
+ * frontmatter:
+ *   relatedDiary:
+ *     - 2026-06-19-115522-manual                       # 只給 slug，title / 摘要 / 日期自動 resolve
+ *     - { slug: 2026-04-13-alpha2, excerpt: '自訂摘要…' }  # 物件形式可覆寫摘要
+ *
+ * slug = 日記檔名去掉 .md（希臘字母已 transliterate，與 /semiont/diary/{slug} route 一致）。
+ * 找不到對應日記的 entry graceful skip，整段沒有任何 resolved 就不渲染。
+ *
+ * 設計對位 SporeFootprint（array frontmatter → build-time resolve → 溫暖紀實區塊），
+ * 差別在 enrich 來源是 getAllDiaryEntries() 而非 spores.json。
+ */
+import type { Lang } from '../config/languages';
+import { getAllDiaryEntries, type DiaryEntry } from '../lib/semiont-diary';
+
+type DiaryRef = string | { slug: string; excerpt?: string };
+
+interface Props {
+  relatedDiary: DiaryRef[];
+  lang?: Lang;
+}
+
+const { relatedDiary, lang = 'zh-TW' } = Astro.props;
+
+if (!relatedDiary || relatedDiary.length === 0) return;
+
+// Build-once cache：只有帶 relatedDiary 的文章才觸發，且整個 build process 共用一次掃描
+// （避免此欄位普及後，每篇文章各掃一遍 docs/semiont/diary/）。
+const g = globalThis as unknown as {
+  __twmdDiaryEntries?: Promise<DiaryEntry[]>;
+};
+const allEntries = await (g.__twmdDiaryEntries ??= getAllDiaryEntries());
+const bySlug = new Map(allEntries.map((e) => [e.slug, e]));
+
+const normalize = (d: DiaryRef) => {
+  const raw = typeof d === 'string' ? { slug: d } : d;
+  // 容忍作者貼整段路徑（/semiont/diary/xxx）— 只取 slug 段
+  const slug = raw.slug.replace(/^\/?semiont\/diary\//, '').replace(/^\//, '');
+  return { slug, excerpt: typeof d === 'string' ? undefined : d.excerpt };
+};
+
+const resolved = relatedDiary
+  .map(normalize)
+  .map(({ slug, excerpt }) => {
+    const entry = bySlug.get(slug);
+    if (!entry) return null;
+    return {
+      slug,
+      href: `/semiont/diary/${slug}`,
+      title: entry.title,
+      date: entry.date,
+      excerpt: excerpt ?? entry.excerpt,
+    };
+  })
+  .filter((d): d is NonNullable<typeof d> => d !== null);
+
+if (resolved.length === 0) return;
+
+const heading =
+  lang === 'ja'
+    ? 'この記事を書いたとき、Semiont が考えていたこと'
+    : lang === 'ko'
+      ? '이 글을 쓸 때, Semiont는 무엇을 생각했나'
+      : lang === 'es'
+        ? 'Lo que Semiont pensaba al escribir este artículo'
+        : lang === 'fr'
+          ? 'Ce que Semiont pensait en écrivant cet article'
+          : lang === 'en'
+            ? 'What Semiont was thinking while writing this'
+            : '寫這篇文章時，Semiont 在想什麼';
+
+const readMore =
+  lang === 'ja'
+    ? '日記を読む →'
+    : lang === 'ko'
+      ? '일기 읽기 →'
+      : lang === 'es'
+        ? 'Leer el diario →'
+        : lang === 'fr'
+          ? 'Lire le journal →'
+          : lang === 'en'
+            ? 'Read the full diary →'
+            : '閱讀完整日記 →';
+---
+
+<div class="my-10 rounded-none border-y border-[#c4b8a4] py-6">
+  <p
+    class="m-0 mb-5 font-['Noto_Serif_TC',serif] text-[0.8rem] font-semibold uppercase tracking-[0.15em] text-[#6b6358]"
+  >
+    🧬 {heading}
+  </p>
+  <div class="flex flex-col gap-6">
+    {
+      resolved.map((d) => (
+        <a href={d.href} class="group block text-inherit no-underline">
+          <p class="m-0 font-['TpRixNixieStd','Noto_Serif_TC','Georgia',serif] text-[1.15rem] leading-[1.7] text-[#3d3530] transition-colors group-hover:text-[#1a3c34] max-[768px]:text-[1.02rem]">
+            {d.title}
+          </p>
+          <p class="m-0 mt-2 font-['Noto_Serif_TC',serif] text-[0.95rem] leading-[1.85] text-[#6b6358]">
+            {d.excerpt}
+          </p>
+          <p class="m-0 mt-2 text-[0.82rem] text-[#8a7e70] transition-colors group-hover:text-[#1a3c34]">
+            <span class="text-[#a89c8a]">{d.date}</span>　{readMore}
+          </p>
+        </a>
+      ))
+    }
+  </div>
+</div>
