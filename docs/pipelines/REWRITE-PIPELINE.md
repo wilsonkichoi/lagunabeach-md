@@ -2104,6 +2104,22 @@ python3 scripts/tools/article-health.py knowledge/{Category}/{sibling}.md --chec
 
 **觸發**：2026-05-02 EVOLVE-batch — 兩廳院 EVOLVE 嘗試補 reverse cross-link 進中正紀念堂，pre-commit hook 失敗（中正紀念堂有 12 條書目格式 footnote pre-existing 不合 Taiwan.md `[^n]: [Name](URL) — desc` standard）。Defer 到獨立 EVOLVE issue 是正確處理。
 
+### Step 5.3-bis: relatedDiary — 連回寫這篇時的反芻日記（meta-transparency）
+
+如果收官時寫了反芻 diary（`/twmd-diary`），把那篇 diary 的 slug 加進本文 frontmatter `relatedDiary`。文章底部會渲染成可點的日記區塊，讓讀者看見「寫這篇的時候，這個系統在想什麼」。
+
+```yaml
+relatedDiary:
+  - 2026-06-19-115522-manual # 只給 slug；title／摘要／日期由 RelatedDiaries.astro build-time 自動 resolve
+  - { slug: 2026-04-13-alpha2, excerpt: '想覆寫摘要時改用物件形式' }
+```
+
+- slug = 日記檔名去 `.md`（希臘字母 transliterate，對應 `/semiont/diary/{slug}`）
+- array 可多篇：一篇文章跨多次 session EVOLVE，每次反芻都掛得上來
+- schema 在 `src/content.config.ts`，渲染 `src/components/RelatedDiaries.astro`（對位 SporeFootprint）；取代舊的單篇 `diaryLink` / `diaryExcerpt`
+- 延續 [MANIFESTO](../semiont/MANIFESTO.md)「我讓你看著我看著我自己」，把文章的生產過程攤給讀者看
+- 反向回扣寫在 [DIARY-PIPELINE Stage 5](DIARY-PIPELINE.md)（寫完 diary 那刻順手補，記憶最新）
+
 ### Step 5.4: Astro redirect 5 lang + 刪舊檔（Merge variant only）
 
 整併獨有的收尾，**四件事缺一不可**：

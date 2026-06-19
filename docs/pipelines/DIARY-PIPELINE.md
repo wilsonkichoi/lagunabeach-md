@@ -356,6 +356,8 @@ _想寫進 MANIFESTO / DNA / LESSONS-INBOX 的候選：{1-3 條，每條一行}_
 
 跟 memory append 同一個 Beat 4 commit 推。不需要單獨開 commit。Commit message 跟著該 session 的主要工作走（`🧬 [semiont] memory: ...` 即可，不需要 `diary:` 獨立 type）。
 
+**回扣文章（如果這篇 diary 是寫某篇文章的反芻）**：到那篇文章 frontmatter 的 `relatedDiary` array 補上本 diary 的 slug，讀者就能在文章底部看見寫它時的反芻。slug = 本 diary 檔名去 `.md`（希臘字母 transliterate）。canonical 機制見 [REWRITE-PIPELINE Step 5.3-bis](REWRITE-PIPELINE.md) + schema `src/content.config.ts` + 渲染 `src/components/RelatedDiaries.astro`。寫 diary 當下就回扣（記憶最新），別留到下個 session。
+
 ---
 
 ## 不要做的清單
