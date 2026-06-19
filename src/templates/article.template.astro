@@ -419,7 +419,23 @@ const encodedTitle = encodeURIComponent(title);
               <div class="prose" set:html={contentAfterReading} />
             </>
           ) : (
-            <div class="prose" set:html={processedContent} />
+            <>
+              <div class="prose" set:html={processedContent} />
+              {/* 無 SSODT split 的文章（多數 About / 短文）footer 也要能掛日記 */}
+              {frontmatter.relatedDiary &&
+              frontmatter.relatedDiary.length > 0 ? (
+                <RelatedDiaries
+                  relatedDiary={frontmatter.relatedDiary}
+                  lang={lang}
+                />
+              ) : frontmatter.diaryLink ? (
+                <DiaryTeaser
+                  diaryLink={frontmatter.diaryLink}
+                  diaryExcerpt={frontmatter.diaryExcerpt}
+                  lang={lang}
+                />
+              ) : null}
+            </>
           )
         }
 
