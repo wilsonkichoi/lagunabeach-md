@@ -59,6 +59,17 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 羅大佑 EVOLVE — 2026-06-19 manual /loop iteration #2（3/19 早批 attribution audit batch 第 4 篇 / 短 bio 1789→~5100 CJK depth / 「漂泊者唱失根」策展）
+
+- **Article**: [knowledge/People/羅大佑.md](../../knowledge/People/羅大佑.md)
+- **Pipeline**: REWRITE-PIPELINE v7.6 — EVOLVE（短 bio stub → 非編年體 depth；核心矛盾「他唱盡台灣失根與『我是誰』，自己卻是那道題最徹底的漂泊者」，A 放射科診斷視角開篇 → B 台北/紐約/香港/北京 29 年搬 19 次 → C 70 歲倖存者）
+- **Research SSOT**: reports/research/2026-06/羅大佑.md（Stage 0 + Stage 1 depth gate 全過 / 81 搜尋 / 45 distinct 來源 / 9 en 含 Cambridge China Quarterly peer-reviewed）
+- **規格**: ~5100 CJK / 30 footnote / 8 場景式 H2 / 1 tw-timeline 漂泊地圖 / 4 媒體（3 CC 圖：2011 hero + 2021 金曲 + 縱貫線；1 滾石官方〈鹿港小鎮〉iframe oEmbed 驗）/ rewrite-stage-3-5 + rewrite-stage-4 hard=0 warn=0 / prose-health 2
+- **attribution audit 收穫**：鄉愁四韻 詞=余光中 / 滄海一聲笑=黃霑（羅只唱非作者）/ 皇后大道東·似是故人來 詞=林夕 / 明天會更好 曲羅+7 人詞 / 滾滾紅塵 三毛=編劇 / 童年·光陰的故事 1981 張艾嘉首發（非 1982）/ 你的樣子 1988《愛人同志》（非 1984《家》）/ 棄醫「練唱」非「練吉他」
+- **multi-agent**: 2 persona + viewpoint Opus（24 探索）+ 2 research Sonnet（57 搜尋）+ fresh Opus writer（staging）+ media iframe agent（**oEmbed 主 session 驗：5 候選 3 個 Lo Ta-yu-Topic 假頻道剔除，只留 2 滾石官方**）
+- **政治**: 2025 林夕罷免之爭 omit（§自主權邊界 + 舊 bio whats_excluded 非政治 framing）
+- **待續**: 翻譯巴別塔 / Stage 5 reverse cross-link（台灣流行音樂 ↔ 羅大佑）/ Stage 3.6 fan-out 被 /loop 重 fire 中斷（attribution 已於 Stage 1 adversarial 深驗 + 主 session 自查關鍵 atom）/ lastHumanReview false
+
 ### 🗂️ Distill 回填 batch — 2026-06-19 inbox distill（4 篇 ship 當下漏記 DONE-LOG，補登 + 從 INBOX 移除）
 
 > 出貨當下沒 append 本檔的幽靈條目（status=done 卻留在 ARTICLE-INBOX），2026-06-19 inbox distill 一併補登 + 從 INBOX 移除。文章早已存在 `knowledge/`，本 batch 補的是可追溯性（避免未來 session 重複開發）。session `2026-06-19-123909-inbox-distill`。
@@ -67,6 +78,7 @@ read_strategy: 'on-demand'
 - **Howhow（陳孜昊）**（People）— [knowledge/People/Howhow.md](../../knowledge/People/Howhow.md)｜2026-06-05 loop `/twmd-rewrite` EVOLVE（PR #1058 base）｜「一人團隊」的標籤 vs 他其實一直想要團隊
 - **尊（朱玉恩）**（People）— [knowledge/People/尊.md](../../knowledge/People/尊.md)｜2026-06-02 `twmd-rewrite-daily` EVOLVE（PR #834 base）｜高曝光 + 文章太短 SC signal，補 2025/11 新家節點 30 歲分水嶺 layer
 - **魚條**（People／後硬核樂團）— [knowledge/People/魚條.md](../../knowledge/People/魚條.md)｜2026-04-27 ship｜「名字像路邊小吃、聲音是要打人的後硬核」（中正高中三人組 / 2019《治本》）
+
 ### 國定假日 NEW — 2026-06-19 103421-manual 完成（用「不用上班」寫成的台灣史 / Fresh 制度＋政治史深度文）
 
 - **Article**: [knowledge/Society/國定假日.md](../../knowledge/Society/國定假日.md)
