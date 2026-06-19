@@ -314,6 +314,17 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 ## 未消化清單（📥 待 distill）
 
+### 2026-06-20 twmd-embeddings-nightly — Embedding keystone 唯一 bge-m3 節點是非 always-on laptop，離線 3 天觸發 escalation
+
+- **pattern**: routine-device-dependent-offline
+- **原則**：embedding routine（語意索引 keystone，餵讀者端 src/data/related + AI 端 RAG 向量）的算力**只掛在單一 device-dependent 節點 laptop-4090**（非 always-on，靠人開機 + schtasks）。registry 裡 bge-m3 model **只有 4090 一台有**——3090/m4max/5090 雖 embed-capable 且 idle/online，但沒 pull bge-m3，所以 4090 一關機整條 routine 就只能 graceful skip。這是 REFLEXES #70「routine fragility surface」**Tier 1 device-dependent** 的具體 instance 達到 escalation_n。staleness 線性增長但 fallback 不壞頁（current committed index 6 語 700-801 篇 / 100% 8 鄰居健康，仍是 2026-06-17 snapshot；en 索引 801 vs 文章 811 = ~10 篇最新文 fallback 回同 category）。**規則候選**：keystone routine 不該單押 device-dependent 節點 — 把 bge-m3 pull 到一台 always-on 節點（3090 monoame-design 線上 / m4max 本機），或把「4090 開機」變成可靠的 always-on 保證；registry 應標 `always_on` 欄讓 routine 解析時優先選不會關機的節點。
+- **觸發**：2026-06-20 05:00 twmd-embeddings-nightly — Stage 0 preflight：本機 **Tailscale 本身是 stopped 狀態**（本 session 已 `tailscale up` 拉起），拉起後 4090 仍 `offline, last seen 2d ago`，curl `/api/embeddings` timeout (http 000 / exit 28)。連續 skip 計數：06-17 last success（4690 向量）→ 06-18 skip#1（documented）→ 06-19 無記錄（skip/no-fire）→ 06-20 skip（today）。前一夜 handoff 明確指定 2026-06-20 為 escalation 觸發日。證據：memory/2026-06-20-050xxx-twmd-embeddings-nightly.md（本夜）+ memory/2026-06-18-050817-twmd-embeddings-nightly.md（handoff 預告）。
+- **可能層級**：操作規則（fleet 抽象層）→ registry 加 `always_on` 欄 + routine 解析優先序；或 deploy 層把 bge-m3 mirror 到 always-on 節點。
+- **相關**：REFLEXES #70（routine fragility surface 四 tier 分類，本條是 Tier 1 device-dependent 第一次達 escalation_n）/ docs/pipelines/EMBEDDING-PIPELINE.md §前置 + §排程 / ~/Projects/muse-bot/fleet/registry.json
+- **verification_count**: 1
+- **severity**: structural（keystone routine 單點故障，繁殖/檢索基因長期 staleness 風險）
+- **defer 給觀察者**：需哲宇拍板二選一 —（A）開機讓 4090 上線恢復 always-on schtasks；（B）把 bge-m3 pull 到常駐 always-on 節點（3090/m4max）並更新 registry。屬 fleet 基礎建設決策，非本 routine 自主權範疇。
+
 ### 2026-06-19 inbox-distill — Intake-buffer 完成歸檔靠自律會漂移 → detection 儀器化
 
 - **原則**：任何「append 進來、ship 後手動搬走」的 intake buffer（ARTICLE-INBOX / LESSONS-INBOX / SPORE-INBOX 同構），其完成歸檔鐵律若**只靠 session 自律、無結構強制**，就會累積幽靈 entry。2026-06-19 手動 distill ARTICLE-INBOX 才發現 95 entry 裡 16 是 ship 後沒清的幽靈（含整系列已出貨仍掛 P0：22 縣市 22/22、PanSci 5/5）。**規則**：(a) 完成歸檔鐵律必須配一個**便宜的每-boot 訊號**（`inbox-signal.sh` 的 `👻 ghost` line：數 §Pending 裡 status=done 卻沒搬走的）+ 一個**深查工具**（`inbox-audit.py`：cross-check entry vs `knowledge/` 存在 + DONE-LOG）(b) auto-apply 只動「status 自宣 done」最安全訊號 — exists+logged 對 EVOLVE entry 不是幽靈訊號（re-EVOLVE 文章本來就存在＋可能已在 DONE-LOG）(c) 同 pattern 可移植到 LESSONS / SPORE-INBOX。
