@@ -15,6 +15,25 @@ function parseCommitMessage(message) {
     .split('\n')[0];
 }
 
+// #1143: map changed files → zh-TW source articles (kept in sync with the
+// same logic in src/lib/commits.ts). knowledge/{Cap-Category}/{slug}.md →
+// /{category-lower}/{slug}; lowercase lang dirs + _*.json excluded by [A-Z].
+const ARTICLE_RE = /^knowledge\/([A-Z][A-Za-z]*)\/([^/]+)\.md$/;
+function filesToArticles(files) {
+  const seen = new Set();
+  const out = [];
+  for (const file of files) {
+    const m = ARTICLE_RE.exec(file);
+    if (!m) continue;
+    const url = `/${m[1].toLowerCase()}/${m[2]}`;
+    if (seen.has(url)) continue;
+    seen.add(url);
+    out.push({ url, name: m[2] });
+    if (out.length >= 4) break;
+  }
+  return out;
+}
+
 function dedupeAndTrim(commits, limit) {
   const seen = new Set();
 
@@ -24,6 +43,7 @@ function dedupeAndTrim(commits, limit) {
       date: commit.date,
       author: commit.author || '',
       message: parseCommitMessage(commit.message),
+      articles: commit.articles || [],
     }))
     .filter((commit) => {
       if (!commit.hash || !commit.date || !commit.message) return false;
@@ -36,11 +56,13 @@ function dedupeAndTrim(commits, limit) {
 
 function getCommitsFromGit(limit) {
   try {
+    // --name-only appends changed files after each %x1e-delimited meta line.
     const raw = execSync(
-      `git log -n ${Math.max(limit, 1)} --date=iso-strict --pretty=format:%H%x1f%aI%x1f%an%x1f%s`,
+      `git log -n ${Math.max(limit, 1)} --date=iso-strict --name-only --pretty=format:%x1e%H%x1f%aI%x1f%an%x1f%s`,
       {
         cwd: PROJECT_ROOT,
         encoding: 'utf8',
+        maxBuffer: 64 * 1024 * 1024,
         stdio: ['ignore', 'pipe', 'ignore'],
       },
     ).trim();
@@ -48,11 +70,19 @@ function getCommitsFromGit(limit) {
     if (!raw) return [];
 
     return raw
-      .split('\n')
-      .map((line) => {
-        const [hash, date, author, message] = line.split('\x1f');
+      .split('\x1e')
+      .map((block) => {
+        const lines = block.split('\n');
+        const [hash, date, author, message] = (lines[0] || '').split('\x1f');
         if (!hash || !date || !message) return null;
-        return { hash, date, author, message };
+        const files = lines.slice(1).filter(Boolean);
+        return {
+          hash,
+          date,
+          author,
+          message,
+          articles: filesToArticles(files),
+        };
       })
       .filter(Boolean);
   } catch {

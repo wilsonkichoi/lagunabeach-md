@@ -142,6 +142,17 @@ function formatDate(dateStr: string) {
                       >
                         {commit.hash.slice(0, 7)}
                       </a>
+                      {commit.articles &&
+                        commit.articles.length > 0 &&
+                        commit.articles.map((article) => (
+                          <a
+                            href={article.url}
+                            class="inline-flex items-center gap-1 rounded-md bg-[#0f766e]/10 px-2 py-0.5 font-medium text-[#0f766e] no-underline hover:bg-[#0f766e]/20 hover:underline"
+                            title={article.name}
+                          >
+                            📄 {article.name}
+                          </a>
+                        ))}
                     </div>
                   </div>
                 </article>
@@ -196,6 +207,17 @@ function formatDate(dateStr: string) {
                   >
                     {commit.hash.slice(0, 7)}
                   </a>
+                  {commit.articles &&
+                    commit.articles.length > 0 &&
+                    commit.articles.map((article) => (
+                      <a
+                        href={article.url}
+                        class="inline-flex items-center gap-1 rounded-md bg-[#0f766e]/10 px-2 py-0.5 font-medium text-[#0f766e] no-underline hover:bg-[#0f766e]/20 hover:underline"
+                        title={article.name}
+                      >
+                        📄 {article.name}
+                      </a>
+                    ))}
                 </div>
               </div>
             </article>

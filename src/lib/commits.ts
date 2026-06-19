@@ -3,11 +3,20 @@ import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import type { Lang } from '../types';
 
+export interface ChangelogArticle {
+  url: string;
+  name: string;
+}
+
 export interface Commit {
   hash: string;
   date: string;
   message: string;
   author?: string;
+  /** #1143: zh-TW source articles this commit touched, so readers can jump
+   *  straight to the changed page instead of a GitHub commit diff. Empty for
+   *  non-article commits (memory / routine / infra). */
+  articles?: ChangelogArticle[];
 }
 
 export interface CommitFeed {
@@ -30,6 +39,28 @@ function parseCommitMessage(message: string): string {
   return message.trim().split('\n')[0];
 }
 
+// #1143: map a commit's changed files → the zh-TW source articles it touched.
+//   knowledge/{Capitalized-Category}/{slug}.md  →  /{category-lower}/{slug}
+// The [A-Z] anchor naturally excludes lowercase lang dirs (en/ja/ko/es/fr)
+// and _*.json, so only zh-TW source-article changes produce a link.
+const ARTICLE_RE = /^knowledge\/([A-Z][A-Za-z]*)\/([^/]+)\.md$/;
+const MAX_ARTICLES_PER_COMMIT = 4;
+
+function filesToArticles(files: string[]): ChangelogArticle[] {
+  const seen = new Set<string>();
+  const out: ChangelogArticle[] = [];
+  for (const file of files) {
+    const m = ARTICLE_RE.exec(file);
+    if (!m) continue;
+    const url = `/${m[1].toLowerCase()}/${m[2]}`;
+    if (seen.has(url)) continue;
+    seen.add(url);
+    out.push({ url, name: m[2] });
+    if (out.length >= MAX_ARTICLES_PER_COMMIT) break;
+  }
+  return out;
+}
+
 function dedupeAndTrim(commits: Commit[], limit: number): Commit[] {
   const seen = new Set<string>();
 
@@ -49,11 +80,14 @@ function dedupeAndTrim(commits: Commit[], limit: number): Commit[] {
 
 function getCommitsFromGit(limit = 100): Commit[] {
   try {
+    // %x1e (RS) starts each commit record; %x1f (US) separates meta fields;
+    // --name-only appends changed files (one per line) after the meta line.
     const raw = execSync(
-      `git log -n ${Math.max(limit, 1)} --date=iso-strict --pretty=format:%H%x1f%aI%x1f%an%x1f%s`,
+      `git log -n ${Math.max(limit, 1)} --date=iso-strict --name-only --pretty=format:%x1e%H%x1f%aI%x1f%an%x1f%s`,
       {
         cwd: PROJECT_ROOT,
         encoding: 'utf8',
+        maxBuffer: 64 * 1024 * 1024,
         stdio: ['ignore', 'pipe', 'ignore'],
       },
     ).trim();
@@ -61,11 +95,19 @@ function getCommitsFromGit(limit = 100): Commit[] {
     if (!raw) return [];
 
     return raw
-      .split('\n')
-      .map((line) => {
-        const [hash, date, author, message] = line.split('\x1f');
+      .split('\x1e')
+      .map((block) => {
+        const lines = block.split('\n');
+        const [hash, date, author, message] = (lines[0] || '').split('\x1f');
         if (!hash || !date || !message) return null;
-        return { hash, date, author, message };
+        const files = lines.slice(1).filter(Boolean);
+        return {
+          hash,
+          date,
+          author,
+          message,
+          articles: filesToArticles(files),
+        };
       })
       .filter(Boolean) as Commit[];
   } catch {
@@ -87,6 +129,7 @@ function getCommitsFromCache(limit = 100): Commit[] {
           date: commit.date,
           author: commit.author,
           message: commit.message,
+          articles: commit.articles,
         };
       })
       .filter(Boolean)
