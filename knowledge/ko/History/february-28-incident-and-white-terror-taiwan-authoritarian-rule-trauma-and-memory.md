@@ -10,7 +10,7 @@ featured: true
 lastVerified: 2026-03-31
 author: 'Taiwan.md Translation Team'
 translatedFrom: 'History/二二八事件.md'
-sourceCommitSha: '6c2f8ea8'
+sourceCommitSha: '9bddcff6'
 sourceContentHash: 'sha256:4d3c97207d94073d'
 sourceBodyHash: 'sha256:1db38e403d646d80'
 translatedAt: '2026-05-29T00:35:00+08:00'
@@ -196,6 +196,7 @@ translatedAt: '2026-05-29T00:35:00+08:00'
 - [계엄 시기](/history/戒嚴時期) — 1949년부터 38년간의 법적 용기(容器), 1947년 진압의 연장선
 - [타이완 백색공포](/history/台灣白色恐怖) — 계엄 38년의 정치적 사건들
 - [타이완 전환정의](/history/台灣轉型正義) — 판결 취소와 가해자 책임 추궁 사이의 긴장
+- [국정 공휴일](/society/國定假日) — 2·28이 1997년 어떻게 중화민국 최초의 법정 국정 공휴일이 되었는가
 
 ## 참고 자료
 

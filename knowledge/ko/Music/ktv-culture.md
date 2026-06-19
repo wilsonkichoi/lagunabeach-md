@@ -20,8 +20,8 @@ lastVerified: 2026-03-19
 lastHumanReview: true
 featured: true
 translatedFrom: 'Music/台灣KTV文化.md'
-sourceCommitSha: '0f8fae0ae'
-sourceContentHash: 'sha256:f8fc5fbf087fa0bc'
+sourceCommitSha: 'db263367'
+sourceContentHash: 'sha256:ca4313d4abe8702e'
 sourceBodyHash: 'sha256:8fefb63f4d82855d'
 translatedAt: '2026-06-07T02:26:08+08:00'
 ---

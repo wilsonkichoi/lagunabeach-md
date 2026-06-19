@@ -2,25 +2,25 @@
 title: "Culture KTV à Taïwan : de Holiday et Cashbox à l'ère du social en cabine"
 description: "Explorer le développement de la culture KTV à Taïwan, depuis l'introduction du karaoké japonais jusqu'à la localisation en cabines, la période de concurrence entre Holiday et Cashbox, comment le classement des chansons devient un indicateur de la culture pop, et les défis de la transformation industrielle après la pandémie"
 date: 2026-03-19
-category: "Music"
+category: 'Music'
 tags:
-  - "Culture KTV"
-  - "Karaoké"
-  - "Holiday"
-  - "Cashbox"
-  - "Culture des cabines"
-  - "Musique pop"
-  - "Culture sociale"
-subcategory: "音樂產業"
-author: "Taiwan.md"
+  - 'Culture KTV'
+  - 'Karaoké'
+  - 'Holiday'
+  - 'Cashbox'
+  - 'Culture des cabines'
+  - 'Musique pop'
+  - 'Culture sociale'
+subcategory: '音樂產業'
+author: 'Taiwan.md'
 featured: true
 lastVerified: 2026-03-19
 lastHumanReview: true
 readingTime: 12
 translatedFrom: Music/台灣KTV文化.md
-sourceCommitSha: 0f8fae0ae
-sourceContentHash: sha256:f8fc5fbf087fa0bc
-sourceBodyHash: sha256:8fefb63f4d82855d
+sourceCommitSha: 'db263367'
+sourceContentHash: 'sha256:ca4313d4abe8702e'
+sourceBodyHash: 'sha256:8fefb63f4d82855d'
 translatedAt: 2026-05-18T05:08:09+08:00
 ---
 
@@ -205,7 +205,11 @@ Le divertissement numérique et la pandémie ont imposé des ajustements, mais l
 ## Références
 
 [^1]: [Wikipedia « Holiday »](https://zh.wikipedia.org/wiki/好樂迪) — Holiday fondée en 1993 à Taïwan, chaîne KTV locale, fondateur Lu Yen‑hsien, réseau national à son apogée
+
 [^2]: [Wikipedia « Cashbox »](https://zh.wikipedia.org/wiki/錢櫃) — Cashbox, marque taïwanaise, première boutique 1989 sur Linsen North Road, fondateur Liu Ying, positionnement haut de gamme
+
 [^3]: [Association nationale des entreprises de divertissement de la République de Chine](http://www.entertainment.org.tw/) — Statistiques fin des années 1990 : plus de 200 000 cabines, plus de 100 000 employés, chiffre d’affaires > 50 milliards NT$
+
 [^4]: [« L’impact du classement KTV sur l’industrie de la musique pop », NCCU Communication School, 2017](http://comm.nccu.edu.tw/) — Analyse basée sur les données de consommation réelle, influence sur les stratégies de production et de promotion des maisons de disques taïwanaises
+
 [^5]: [« Stratégies de transformation de l’industrie KTV en période de pandémie », Business Weekly, 2021](https://www.businessweekly.com.tw/) — Analyse des impacts du COVID‑19 sur le secteur KTV taïwanais et des réponses des exploitants

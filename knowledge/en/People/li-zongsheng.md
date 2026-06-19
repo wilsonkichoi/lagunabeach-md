@@ -19,9 +19,9 @@ lastVerified: '2026-06-05'
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/李宗盛.md'
-sourceCommitSha: '31a05c44'
-sourceContentHash: 'sha256:7e1d920b41b8d459'
-sourceBodyHash: 'sha256:ab5e69cc7c8739be'
+sourceCommitSha: 'db263367'
+sourceContentHash: 'sha256:1c035df4dee1c3d3'
+sourceBodyHash: 'sha256:e6fee31313863c50'
 translatedAt: '2026-06-16T17:03:25Z'
 ---
 
@@ -148,6 +148,7 @@ After writing the best songs for others for thirty years, he still ultimately pu
 - [A-Mei](/people/張惠妹) — A diva-level voice from the same golden age of Rock Records, and another path in Taiwanese women pop singers
 - [Taiwan Folk Music Movement](/music/台灣民歌運動) — The train Lee caught in the 1970s, and the soil of the Wood Guitar choir and Golden Melody folk awards
 - [The Evolution of Taiwan Mandarin](/culture/台灣華語的演化) — Why "plain speech in song" moves people has to do with how Taiwan Mandarin became an everyday language
+- [Huang Da-wei](/people/黃大煒) — A singer-songwriter and all-around musician of the same generation, who carved his own path with a husky voice; he and Jonathan Lee represent two different ways of finding a road for Mandarin love songs
 
 ## Image Sources
 

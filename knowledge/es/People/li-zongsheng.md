@@ -19,7 +19,7 @@ lastVerified: 2026-06-05
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/李宗盛.md'
-sourceCommitSha: '31a05c44'
+sourceCommitSha: 'db263367'
 sourceContentHash: 'sha256:7e1d920b41b8d459'
 sourceBodyHash: 'sha256:ab5e69cc7c8739be'
 translatedAt: '2026-06-16T17:05:07Z'
@@ -148,6 +148,7 @@ Después de escribir durante treinta años las mejores canciones para otros, al 
 - [A-mei](/people/張惠妹) — Voz de diva de la misma edad dorada de Rock Records, otra ruta de la voz femenina popular de Taiwán
 - [Movimiento de la canción folk de Taiwán](/music/台灣民歌運動) — El tren al que Lee se subió en los años setenta: el grupo Mu Chi Ta y el suelo de los Premios Chin Yun
 - [La evolución del mandarín taiwanés](/culture/台灣華語的演化) — La razón por la que el “lenguaje llano convertido en canción” conmueve está ligada a cómo el mandarín taiwanés se volvió habla cotidiana
+- [Huang Ta-wei](/people/黃大煒) — Cantautor y músico integral de la misma generación, que con una voz ronca creó un estilo propio; junto a Jonathan Lee, dos maneras distintas de abrir camino a la balada en mandarín
 
 ## Fuentes de imagen
 

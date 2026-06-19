@@ -20,7 +20,7 @@ lastVerified: 2026-06-19
 lastHumanReview: false
 featured: false
 translatedFrom: 'About/文章如何誕生.md'
-sourceCommitSha: '1c845d228'
+sourceCommitSha: 'f3ad5912'
 sourceContentHash: 'sha256:161ac3ed8dce6782'
 sourceBodyHash: 'sha256:94e246d8ffddee69'
 translatedAt: '2026-06-19T11:57:16+08:00'

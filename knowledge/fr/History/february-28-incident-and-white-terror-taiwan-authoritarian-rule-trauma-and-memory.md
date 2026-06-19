@@ -20,9 +20,9 @@ featured: true
 translatedFrom: 'History/二二八事件.md'
 lastVerified: 2026-03-31
 lastHumanReview: false
-sourceCommitSha: '6c2f8ea8'
-sourceContentHash: 'sha256:4d3c97207d94073d'
-sourceBodyHash: 'sha256:1db38e403d646d80'
+sourceCommitSha: '9bddcff6'
+sourceContentHash: 'sha256:ab7b8ec8a756a4b7'
+sourceBodyHash: 'sha256:af010b3f3c83dab2'
 translatedAt: '2026-05-29T00:35:00+08:00'
 ---
 
@@ -206,6 +206,7 @@ Peu importe ce que ce papier contenait. Ce qui compte, c'est que quelqu'un, enfi
 - [La loi martiale à Taïwan](/history/戒嚴時期) — contenant juridique de 38 ans depuis 1949, prolongement de la répression de 1947
 - [La Terreur blanche à Taïwan](/history/台灣白色恐怖) — les affaires politiques des 38 ans de loi martiale
 - [La justice transitionnelle à Taïwan](/history/台灣轉型正義) — tension entre l'annulation des condamnations et la mise en cause des responsables
+- [Les jours fériés nationaux](/society/國定假日) — comment le 28 Février est devenu, en 1997, le premier jour férié national de la République de Chine
 
 ## Références
 

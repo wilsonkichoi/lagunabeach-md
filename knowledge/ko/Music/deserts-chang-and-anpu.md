@@ -11,7 +11,7 @@ readingTime: 15min
 lastVerified: 2026-04-13
 lastHumanReview: '2026-04-13'
 translatedFrom: 'Music/張懸與安溥.md'
-sourceCommitSha: 'dd39065b'
+sourceCommitSha: 'f803d0b6'
 sourceContentHash: 'sha256:27ef434e8d6b0605'
 sourceBodyHash: 'sha256:5705b435f269e6ca'
 translatedAt: '2026-05-02T02:50:56+08:00'

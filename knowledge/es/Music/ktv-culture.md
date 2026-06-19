@@ -5,14 +5,23 @@ date: 2026-03-19
 author: 'Taiwan.md'
 category: 'Music'
 subcategory: '音樂產業'
-tags: ['cultura KTV', 'karaoke', 'Holiday', 'Cashbox', 'cultura de cabinas', 'música pop', 'cultura social']
+tags:
+  [
+    'cultura KTV',
+    'karaoke',
+    'Holiday',
+    'Cashbox',
+    'cultura de cabinas',
+    'música pop',
+    'cultura social',
+  ]
 readingTime: 12
 lastVerified: 2026-03-19
 lastHumanReview: true
 featured: true
 translatedFrom: 'Music/台灣KTV文化.md'
-sourceCommitSha: '0f8fae0ae'
-sourceContentHash: 'sha256:f8fc5fbf087fa0bc'
+sourceCommitSha: 'db263367'
+sourceContentHash: 'sha256:ca4313d4abe8702e'
 sourceBodyHash: 'sha256:8fefb63f4d82855d'
 translatedAt: '2026-05-18T05:08:09+08:00'
 ---
@@ -202,7 +211,11 @@ El entretenimiento digital trae competencia, la pandemia trajo una purga, pero l
 ## Referencias
 
 [^1]: [Wikipedia: Holiday](https://zh.wikipedia.org/wiki/好樂迪) — Holiday fue fundada en Taiwán en 1993 como marca local de KTV en cadena, fundada por Lu Yen-hsien, con locales en todo el país durante su apogeo
+
 [^2]: [Wikipedia: Cashbox](https://zh.wikipedia.org/wiki/錢櫃) — Cashbox es una marca local taiwanesa que abrió su primera tienda en la calle Linsen del Norte en 1989, fundada por Liu Ying, reconocida por su línea de alta gama y productos de calidad
+
 [^3]: [Federación Nacional de Asociaciones de la Industria del Entretenimiento de la República de China](http://www.entertainment.org.tw/) — Estadísticas de la industria del KTV en Taiwán a finales de la década de 1990: más de 200.000 cabinas en todo el país, más de 100.000 empleados, facturación anual superior a 50.000 millones de dólares taiwaneses
+
 [^4]: ["El impacto de las listas de canciones más solicitadas en KTV sobre la industria de la música popular", Facultad de Comunicación de la Universidad Nacional Chengchi, 2017](http://comm.nccu.edu.tw/) — Basado en datos reales de consumo de solicitud de canciones, analiza cómo los datos de las listas influyen en las estrategias de producción y decisiones de promoción de las discográficas taiwanesas
+
 [^5]: ["Estrategias de transformación de la industria del KTV bajo la pandemia", Business Weekly, 2021](https://www.businessweekly.com.tw/) — Análisis del impacto de la pandemia de COVID-19 en la industria del KTV en Taiwán y las estrategias de transformación de los operadores

@@ -20,8 +20,8 @@ lastVerified: 2026-05-09
 lastHumanReview: false
 featured: false
 translatedFrom: 'Society/颱風假.md'
-sourceCommitSha: 'ef195fa9d'
-sourceContentHash: 'sha256:f8e9398a49c104f4'
+sourceCommitSha: '9bddcff6'
+sourceContentHash: 'sha256:d909a68892279cea'
 sourceBodyHash: 'sha256:8d3f66b5c4593a14'
 translatedAt: '2026-05-12T21:49:55+08:00'
 ---

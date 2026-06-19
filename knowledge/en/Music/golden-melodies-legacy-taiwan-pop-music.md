@@ -1,227 +1,384 @@
 ---
-title: 'The Legacy of Golden Melodies: The History and Cultural Position of Taiwanese Popular Music'
-description: 'From the folk music movement to the Jay Chou phenomenon, exploring how Taiwanese popular music shaped the Mandopop landscape'
-date: 2026-03-19
+title: 'Taiwanese Pop Music: The Island That Made Wedding Clothes for the World, Left in the End with Songs Others Cannot Sing'
+description: 'In 1997, Taiwan was Asia''s second-largest record market, and 80 percent of all Mandopop songs were produced here. By 2005, output value had fallen to one-quarter of its former size, the market had been overtaken by China, and even Jay Chou at his peak sold only 300,000 copies per album. When songs elsewhere can be silenced over one lyric, one flag, or one taboo, this island that lost the battle of scale turned the very question of "whether something can be sung" into its last and hardest bargaining chip.'
+date: 2026-06-19
 author: 'Taiwan.md'
 category: 'Music'
-subcategory: '獨立與搖滾'
+subcategory: '流行音樂'
 tags:
   [
-    'Taiwanese Popular Music',
-    'Folk Music Movement',
-    'Golden Melody Awards',
+    'Taiwanese pop music',
+    'Mandopop',
+    'Mandopop',
+    'record industry',
+    'music censorship',
+    'banned songs',
+    'Descendants of the Dragon',
+    'Hou Dejian',
+    'Teresa Teng',
+    'A-mei',
     'Jay Chou',
-    'Independent Music',
-    'Music Industry',
+    'Lim Giong',
+    'Siri Lee',
+    'Panai',
+    'Golden Melody Awards',
+    'Taiwanese-language songs',
+    'campus folk movement',
+    'westward expansion to China',
+    'freedom of speech',
+    'cultural sovereignty',
   ]
-readingTime: 11
-lastVerified: 2026-03-19
+lastVerified: 2026-06-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Music/台灣流行音樂.md'
-sourceCommitSha: '40517470'
-sourceContentHash: 'sha256:f0d4e57308cc2c0f'
-sourceBodyHash: 'sha256:53757b341f1d1bcf'
-translatedAt: '2026-05-20T05:08:27+08:00'
+sourceCommitSha: 'c8dec04f6'
+sourceContentHash: 'sha256:f830411f12a4bd7a'
+sourceBodyHash: 'sha256:3b1df2792ce61782'
+translatedAt: '2026-06-20T01:01:36+08:00'
 ---
 
-# The Legacy of Golden Melodies: The History and Cultural Position of Taiwanese Popular Music
+# Taiwanese Pop Music: The Island That Made Wedding Clothes for the World, Left in the End with Songs Others Cannot Sing
 
-## 30-Second Overview
-
-Taiwanese popular music began with the folk music movement of the 1970s, passed through the golden age of the record industry in the 1980s, and entered a new wave of Mandopop after 2000 under the influence of Jay Chou. It has long held an important place in the Chinese-language music landscape. From "Formosa" to "Descendants of the Dragon," from the Little Tigers to Mayday, these songs recorded changes in island society while also shaping musical tastes across the Chinese-speaking world.
-
-The establishment of the Golden Melody Awards, the development of the independent music scene, and innovation in the digital music era have allowed Taiwanese popular music to continue playing a major role in the global Chinese-language market.
-
-**Keywords**: folk music movement, record industry, Jay Chou effect, Golden Melody Awards, independent music, Mandopop
-
-## Why It Matters
-
-The importance of Taiwanese popular music lies in both its commercial achievements and its cultural influence. During the authoritarian era, the folk music movement gave young people a space to speak in their own voices; during the years of economic takeoff, popular music became a cultural symbol Taiwan exported abroad; in the age of globalization, Taiwanese musicians have continued to sustain the vitality of Mandopop through innovation.
-
-From the perspective of the music industry, Taiwan was once the most important music production and distribution center in the Chinese-speaking world. Record companies such as Rock Records, UFO Records, and HIM International Music cultivated countless stars in Chinese-language pop. The professional division of labor among producers, lyricists, composers, and arrangers established the production standards for Mandopop.
-
-From the perspective of cultural identity, Taiwanese popular music has recorded the collective memory of this island. Whether "Descendants of the Dragon" in its search for cultural roots, or "Island's Sunrise" in its deep affection for the land, these songs have always been closely tied to the historical pulse of Taiwan.
-
-## The Folk Music Movement: The Voice of Youth
-
-### From Western Songs to Local Creation
-
-In the early 1970s, Taiwanese popular music consisted mainly of covers of Western songs and lacked local originality. In 1975, Yang Xian set Yu Kwang-chung's poem "Four Rhymes of Nostalgia" to music and held the "Modern Folk Song Creation Concert" at Zhongshan Hall; this is regarded as the starting point of Taiwan's folk music movement.
-
-That concert advanced the slogan "sing our own songs," encouraging young people to create music that belonged to Taiwan. Soon afterward, musicians such as Kimbo Hu and Li Shuangze joined the creation of folk songs, injecting localized vitality into Taiwanese popular music.
-
-### Folk Restaurants and Campus Singing Culture
-
-Beginning in 1976, many folk restaurants appeared in Taipei, such as the Wooden Boat Folk Restaurant and Tianxia Folk Restaurant. They became major venues for folk singers to perform and exchange ideas. These restaurants cultivated many musical talents and also formed a distinctive musical-cultural atmosphere.
-
-Campus singing contests were another channel for discovering talent. Many later well-known singers, including Chyi Yu, Michelle Pan, and Yin Cheng-yang, first emerged through campus singing competitions.
-
-### Representative Figures and Works of the Folk Music Movement
-
-**Li Shuangze** was one of the important promoters of the folk music movement; Yang Xian and Kimbo Hu are also regarded as key figures, while the label "Father of Folk Music" is not an established academic consensus[^1]. His "Formosa" became a classic work of the folk music movement, and the lyric "Formosa, Formosa, our homeland" deeply touched Taiwanese emotions.
-
-**Kimbo Hu**, as an Indigenous musician, incorporated elements of Indigenous traditional music into folk songwriting. Works such as "The Child on the Ox's Back" displayed the multicultural character of Taiwanese music.
-
-**Hou Dejian**'s "Descendants of the Dragon" became one of the most influential Chinese-language songs of the 1980s. Its lyric "In the ancient East there is a dragon, and its name is China" awakened a sense of cultural identity among Chinese communities.
-
-## The 1980s: The Golden Age of the Record Industry
-
-### The Rise of Record Companies
-
-In the 1980s, Taiwan's record industry entered a period of rapid development. Companies such as Rock Records, UFO Records, and Warner Music were established one after another, building a music industry chain. These record companies not only signed and trained artists, but also built professional systems for lyric and music writing, arrangement and production, publicity, and distribution.
-
-Under the management of brothers Tuan Chung-tan and Tuan Chung-i, Rock Records established its brand position in Chinese-language music. From Lo Ta-yu and Jonathan Lee to Zhao Chuan and Wakin Chau, Rock signed multiple singers who later became classics.
-
-### The Golden Age of Singer-Songwriters
-
-**Lo Ta-yu** was one of the most influential singer-songwriters of the 1980s. His album _Zhi Hu Zhe Ye_ opened the path for critically minded singer-songwriters. Classics such as "Love Song 1980," "Childhood," and "The Story of Time" were not only moving in melody, but also contained profound social observation and humanistic reflection.
-
-**Jonathan Lee** is known for his delicate writing about emotion. Works such as "True Hero," "I Am a Little Bird," and "The Price of Love" displayed the lyrical tradition of Taiwanese popular music. He was also an outstanding producer who produced classic albums for many singers.
-
-Singers such as **Wakin Chau**, **Zhao Chuan**, and **Tom Chang** each enriched the face of Taiwanese popular music through different musical styles.
-
-### The Rise of Idol Groups
-
-In the late 1980s, the emergence of the Little Tigers pioneered the idol-group model in Mandopop. The trio of Alec Su, Chen Zhipeng, and Nicky Wu, with their youthful and energetic image and dynamic musical style, sparked a wave of teenage fandom.
-
-The Little Tigers' successful model was later imitated by many idol groups, and idol groups became a stable genre in Taiwanese popular music thereafter.
-
-## The 1990s: Diversification and Women's Voices
-
-In the 1990s, Taiwanese popular music showed a clear trend toward diversification: the rise of large numbers of female singers, the emergence of Taiwanese-language rock, and the budding of experimental music genres together formed the colorful face of the decade.
-
-### The Rise of Female Singers
-
-In the 1990s, many outstanding female singers appeared in Taiwanese popular music. **A-Mei**, with her powerful voice and Indigenous musical background, became one of the most representative female singers of the 1990s. Works such as "Sisters" and "Listen to the Sea" displayed new vitality in Taiwanese popular music.
-
-Although **Faye Wong** came from Beijing, her musical development in Taiwan had an important influence on the formation of her style. Her collaborations with Taiwanese musicians created a distinctive "Faye Wong-style" musical idiom.
-
-Female singers such as **Sylvia Chang**, **Tarcy Su**, and **Winnie Hsin** also enriched the women's voices of Taiwanese popular music through their differing musical characteristics.
-
-### The Budding of Alternative Music
-
-In the 1990s, many experimental music types appeared in Taiwan. **Wu Bai & China Blue** opened a new path with Taiwanese-language rock; works such as "Love You Ten Thousand Years" combined Taiwan's local languages with rock music and displayed a strong local character.
-
-**Black List Studio**'s album _Songs of Madness_, with its sharp social critique and innovative musical form, established an important benchmark for alternative music in Taiwan.
-
-## The 2000s: The Jay Chou Phenomenon and the Mandopop Revolution
-
-### Jay Chou's Musical Innovation
-
-In 2000, Jay Chou released his self-titled debut album _Jay_, fusing elements of R&B, hip-hop, and Chinese-style music to open a new face for Mandopop through a hybrid style.[^2]
-
-The rapid-fire rap of "Nunchucks," the classical Chinese sentiment of "Lady," and the nationalist color of "Dragon Fist" show how Jay Chou's music preserved the lyrical tradition of Mandopop while injecting an entirely new musical language.
-
-### Vincent Fang and Chinese-Style Lyrics
-
-Lyricist Vincent Fang's collaboration with Jay Chou created a new trend in "Chinese-style" lyrics. Works such as "East Wind Breaks," "Hair Like Snow," and "Blue and White Porcelain" combined the imagery of classical poetry with modern popular music, creating a distinctive musical aesthetic.
-
-This "neoclassical" musical style became popular not only in Taiwan but also influenced the entire Chinese-language music world, leading many singers to attempt similar kinds of musical creation.
-
-### The Integration of Idol Dramas and Popular Music
-
-In the 2000s, the rise of Taiwanese idol dramas promoted the development of popular music. Theme songs from idol dramas such as _Meteor Garden_, _Lavender_, and _The Prince Who Turns into a Frog_ often became pop hits.
-
-Idol groups such as F4 and 5566 achieved enormous success across Asia through the promotion of idol dramas, demonstrating the soft power of Taiwanese popular culture.
-
-## The Golden Melody Awards: The Highest Hall of Chinese-Language Music
-
-### The Establishment and Meaning of the Golden Melody Awards
-
-In 1990, the Government Information Office of the Executive Yuan established the "Golden Melody Awards" to recognize outstanding Chinese-language musical works and musicians. The establishment of the Golden Melody Awards not only raised the production quality of Chinese-language music, but also created professional standards for musical evaluation.
-
-The Golden Melody Awards are divided into popular music and traditional and art music categories, covering every aspect of Chinese-language music. Awards such as Best Mandarin Male Singer, Best Mandarin Female Singer, and Best Mandarin Album became the most authoritative honors in the Chinese-language music world.
-
-### The Impact of the Golden Melody Awards on the Music Industry
-
-The Golden Melody Awards' selection process is rigorous, considering not only commercial performance but also the artistic value and innovation of the music. This evaluation standard encourages musicians to find a balance between commerce and art, driving improvements in the quality of Chinese-language music.
-
-Many musicians affirmed by the Golden Melody Awards are often able to gain better opportunities in the commercial market, forming a positive cycle.
-
-## The Flourishing of the Independent Music Scene
-
-### The Definition and Characteristics of Independent Music
-
-After the 2000s, Taiwan's independent music scene expanded rapidly. Independent music, or indie music, refers to music that does not rely on major record companies and is independently created, produced, and released by musicians themselves.
-
-Taiwanese independent music has a strong innovative spirit and experimental character, with diverse styles ranging from folk, rock, and electronic music to experimental music.
-
-### Important Independent Labels and Musicians
-
-**Taiwan Colors Music** is a well-known independent music label in Taiwan, focused on promoting music with Taiwanese local characteristics. From Indigenous music and Hakka music to Taiwanese-language rock, Taiwan Colors Music's catalog demonstrates the diversity of Taiwanese music.
-
-Independent labels such as **A Good Day Records**, **Team Ear Music**, and **InFusion Music** have also each cultivated different musical fields, expanding the landscape of Taiwanese independent music.
-
-Musicians such as **Mayday**, **Sodagreen**, **Crowd Lu**, and **Waa Wei** later signed with mainstream record companies, but all began in the independent music scene and have retained a strong degree of creative autonomy.
-
-### The Rise of Live House Culture
-
-Taipei live houses such as Riverside Music Cafe, Witch House, and Kafka by the Sea became important venues for independent musicians to perform and exchange ideas. These venues not only provided stages for musicians, but also cultivated a listening culture among music lovers.
-
-Annual music festivals such as the Hohaiyan Rock Festival and Spring Scream provided large stages for independent music and promoted the development of Taiwan's music festival culture.
-
-## Musical Innovation in the Digital Age
-
-### The Rise of Digital Music Platforms
-
-After the 2010s, with the development of internet technology, Taiwan's music industry faced digital transformation. Digital music platforms such as Spotify, Apple Music, and KKBOX changed how music was disseminated and also influenced models of music creation and marketing.
-
-Many independent musicians began releasing music directly through digital platforms, lowering barriers to entry and encouraging greater diversity in musical creation.
-
-### Social Media and Music Marketing
-
-Social platforms such as YouTube, Instagram, and TikTok are now among the main channels for music promotion. Many songs have become sudden hits through viral spread on social media, changing traditional models of music marketing.
-
-New-generation musicians such as **Accusefive**, **Constant & Change**, and **Chih Siou** are adept at using social media to interact with fans, building new relationships between musicians and listeners.
-
-### Cross-Disciplinary Collaboration and Musical Innovation
-
-Contemporary Taiwanese musicians are increasingly attempting cross-disciplinary collaborations with creators in fields such as visual art, dance, and literature, expanding the expressive boundaries of music.
-
-Musicians such as **Summer Lei**, **Lin Sheng-xiang**, and **Panai** combine music with social issues, displaying music's capacity for social concern.
-
-## The International Influence of Taiwanese Popular Music
-
-### An Important Export Site for Chinese-Language Music
-
-Taiwan has long been an important production and export center for Mandopop. Many singers from China, Hong Kong, Malaysia, and Singapore have gone to Taiwan to develop their careers or collaborate with Taiwanese musicians.
-
-The professional standards of Taiwanese music producers and the advanced level of recording technology have held a leading position in the Chinese-language music world.
-
-### The Display of Cultural Soft Power
-
-Taiwanese popular music is one marker of Taiwan's cultural soft power. From the Little Tigers' success in Asia to Jay Chou's influence across the global Chinese-speaking market, these achievements demonstrate Taiwan's capacity for cultural creativity.
-
-In recent years, the government has supported the international development of the music industry through institutions such as the Taiwan Creative Content Agency, hoping to expand the influence of Taiwanese music in the global market.
+> **30-second overview:** In 1997, Taiwan was Asia's second-largest and the world's 13th-largest record market; 80 percent of the world's Mandopop songs were written, arranged, and recorded here. Eight years later, the market had shrunk to one-quarter of its former size, the production center had moved to China and South Korea, and even Jay Chou at his peak sold only 300,000 copies per album, less than one-third of the million-copy standard of the golden age. Taiwan lost the contest of scale. But when a song elsewhere can be deleted because of one mention of "Tiananmen," one national flag, or one taboo, this island still holds something no one else can take away: freedom. This is a story about "whose voice counts," from 898 songs banned under martial law to the first Taiwanese-language album to win the Golden Melody Award for Album of the Year in 2025.
 
 ---
 
-The development of Taiwanese popular music reflects the cultural changes and innovative vitality of this island society. From the youthful passion of the folk music movement, to the commercial success of popular music, and then to the diverse innovation of independent music, Taiwanese popular music has always moved forward through both inheritance and breakthrough.
+The day Hou Dejian wrote "Descendants of the Dragon" was December 16, 1978.
 
-In the new era of globalization and digitization, Taiwanese popular music faces new challenges and opportunities. With its accumulated musical culture and professional production standards, Taiwanese popular music still has its place in the Chinese-language music landscape and continues to export new voices.
+That night, the United States announced that it would establish diplomatic relations with the People's Republic of China and sever relations with the Republic of China. A Taiwanese young man in his early twenties sat down and turned the long-standing grief and anger of Chinese people being manipulated by foreign powers into a song[^1]. The chorus he originally wrote was "surrounded on all sides by the sword of slaves." The record company thought it was too sharp and asked him to change it to "the sword of foreigners." He refused. The final version became "the sword of appeasement"[^2].
 
-Fifty years after the folk music movement, Taiwan remains one of the most active fields of musical creation in the Chinese-speaking world, and that spirit of "using one's own words to speak of one's own affairs" has never truly left the stage.
+The song later changed owners three times. First, it was a song of grief born from diplomatic severance. James Soong, then director-general of the Government Information Office, thought the lyrics were not stirring enough, so he wrote another version praising national self-strengthening and patient endurance, and used it at speeches[^3]. In 1983, Hou Dejian himself went to China. The song was banned in Taiwan and was not unbanned until after the lifting of martial law[^4]. Later still, the lines "black eyes, black hair, yellow skin" were taken up by China as a symbol of blood-based nationalism, singing a different story altogether[^5].
 
-## Further Reading
+The meaning of a melody has never been decided by the person who wrote it. It is decided by whoever holds power at the moment. The entire history of Taiwanese pop music is, more or less, a repeated verification of this sentence. It was once the factory that made wedding clothes for the world. Later, it could not even hold on to its own market. In the end, it found that what remained in its hands were the songs other people could not sing.
 
-- [Tom Chang](/people/張雨生) — From the 350,000-copy idol success of _Thinking of You Everyday_, to a 73-minute live band experiment, to shaping A-Mei into a diva behind the scenes; a contradictory epitome of Taiwanese popular music's golden age
-- [A-Mei](/people/張惠妹) — _Bad Boy_ sold 1.38 million copies, the highest-selling album in Taiwan's history; an Indigenous representative at the peak of the 1990s popular music industry
-- [Stefanie Sun](/people/孫燕姿/) — Born in Singapore, she debuted in 2000 with "Cloudy Day," won the year's sales championship, and beat Jay Chou by one vote to win the Golden Melody Award for Best New Artist; the protagonist of the 2023 AI cover phenomenon
-- [Teresa Teng](/people/鄧麗君) — The Asian godmother of Cold War-era Chinese-language popular music, three-time winner of Japan's All Japan Cable Broadcasting Awards grand prize, wearer of an "Oppose Military Rule" sign at Happy Valley in 1989, and the soldiers' sweetheart who performed five times for troops in Kinmen
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/pvVqV7thPVM" title="李建復【龍的傳人】Official Lyric Video" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_Lee Chien-fu's original recording of "Descendants of the Dragon." Official Rock Records channel. A song written for a diplomatic break later changed owners three times; that sentence is a miniature of the whole history of Taiwanese pop music._
+
+## The Island That Made Wedding Clothes for the World
+
+Start with scale. Only then can one understand why freedom became the "last" bargaining chip.
+
+From the 1980s onward, the entire Mandopop industry chain was highly concentrated in Taiwan: lyricists, composers, arrangers, producers, and recording studios were all here. Singers from Taiwan, Hong Kong, China, Singapore, and Malaysia flew to Taipei to record, then took the finished product home for release. One Jonathan Lee alone held in his hands the signature works of Wakin Chau, Chief Chao, Sandy Lam, and Karen Mok[^6]. This is not Taiwanese self-flattery: systematic industry observation in the British _Financial Times_ orbit and academic journals have both called Taiwan the "epicentre" of Mandopop[^7]. The Bureau of Audiovisual and Music Industry Development under Taiwan's Ministry of Economic Affairs has its own figure: Taiwanese companies once held an 80 percent share of the Mandopop market[^8].
+
+> 💡 **Do you know how Aaron Kwok became famous?** One of Hong Kong's "Four Heavenly Kings" first exploded in popularity after shooting a motorcycle commercial in Taiwan. A Taiwanese record company seized the moment and released his record, after which he became famous back in Hong Kong and across the entire Sinophone world. In that era, Taiwan was a "manufacturing machine" for Mandopop stars: people you thought of as Hong Kong stars often had a whole team of Taiwanese lyricists, composers, and producers standing behind them.
+
+It was an era when selling a million copies was ordinary. Jacky Cheung's 1993 album _The Goodbye Kiss_ sold 1.36 million copies in Taiwan; the description at the time was that, on average, one in every 20 Taiwanese people had bought it[^9]. A-mei's _Bad Boy_ sold 1.38 million copies in Taiwan in 1997, and remains the best-selling studio album in Taiwan's history[^10].
+
+![Teresa Teng photographed in the United States in the early 1980s, the Asian diva of Taiwanese pop music's golden age](/article-images/music/teresa-teng-1980s.webp)
+
+_Teresa Teng, the diva whose songs were sung even across the Strait in the saying "listen to old Deng by day, little Deng by night," was the emblem Taiwan exported across Asia in the million-copy era. Photo: Unknown, early 1980s. Public domain (published in the United States, 1978-1989, with no copyright notice)._
+
+```tw-figure
+NT$12.3 billion → NT$3.15 billion
+Total output value of Taiwan's record market, 1997 to 2005, shrinking to less than one-quarter in eight years
+Taiwan Panorama, "The Future of Pop Music"; Mirror Media
+```
+
+Then it collapsed.
+
+_Taiwan Panorama_ put it this way: "Taiwan's total record market output value rapidly shrank from NT$12.3 billion in 1997 to NT$3.15 billion in 2005"[^11]. _Mirror Media_ added the coordinates: "Taiwan in 1997 was once second in the Asian record market, behind only Japan, and 13th in the world record market"[^12]. The chain of causes is clear: CD burners became widespread in 1998, Napster and pirated MP3s went online in 1999, and physical record sales "fell like an avalanche" in 2001[^13]. Piracy became so severe that IFPI's Taiwan sales chart was suspended for a time in 1999.
+
+The cruelest comparison was not at the moment of collapse, but ten years later. When the market had only one-quarter left, even the sales figures for kings and queens of pop shrank with it. Taiwan's golden age had seen albums routinely sell a million copies. By Jay Chou's generation, even the peak was only 300,000.
+
+```tw-bars
+One album's ceiling: golden age vs. millennial peak (10,000 copies, Taiwan sales)
+A-mei, Bad Boy, 1997 | 138 | Highest-selling studio album in history
+Jacky Cheung, The Goodbye Kiss, 1993 | 136 | One copy for every 20 people
+*Jay Chou peak, 2005 | 30 | Top millennial artist, already halved and halved again
+Sources: Wikipedia album entries, Taiwan Panorama
+```
+
+> 📝 **Curator's note**
+> The common account often writes this period as "piracy killed the record industry." Piracy was certainly the fuse, but it cannot explain one thing: why did Taiwan not, like South Korea, grow an even larger industry after the collapse of physical records?
+>
+> The real structure was this: Taiwan clung for too long to its position as the "leader of the Mandopop world," put all its chips on the growing Chinese market, and missed the train that turned music into global cultural export. South Korea increased its culture budget from US$14 million to US$84 million between 1998 and 2001, a full fivefold increase[^14]. In 2018, Korean pop music ranked seventh globally, while Taiwan did not even make the top ten[^15]. Both were small markets. South Korea went outward to fight for the world; Taiwan looked inward and waited for China. That difference in thought decided the next twenty years.
+
+## Host and Guest Reversed: How the Center Moved Away
+
+A production center does not disappear on its own. It is pulled away by another, larger field of gravity.
+
+By 2018, China's record market had become the world's seventh-largest and Asia's second-largest according to IFPI certification[^16]. More important than the ranking was the transfer of discursive power. Veteran music figure Shao Yide described the present as if "there seem to be two Mandopop worlds. One is above the rivers and lakes... internet 'divine songs' produced in batches and distributed by algorithms; the other is in the hall... high-quality music refined through industrialization"[^17]. Chinese platforms used immense traffic and capital to pull the center of the whole industry over. Taiwan went from being the center "everyone flew to for recording" to being a supplier that had to go to someone else's home field to make money.
+
+Here one must be very careful about a statistical trap. The Taiwan Creative Content Agency (TAICCA) announced that Taiwan's total pop music output value in 2023 was NT$28.8 billion, higher than the NT$12.3 billion in 1997[^18]. At first glance this looks like "market recovery, surpassing the peak," but the two figures cannot be compared at all. The NT$12.3 billion in 1997 was **pure physical record sales**. The NT$28.8 billion in 2023 was the **broad industry**, including live performances (ticket sales alone were NT$6.7 billion), copyright, and digital streaming[^19].
+
+```tw-versus
+1997 NT$12.3 billion | 2023 NT$28.8 billion
+Pure physical record sales | Broad industry including live performance, copyright, streaming
+Money spent buying CDs in record stores | Concert box office alone accounted for NT$6.7 billion
+This is market "scale" | This is a multiplication of industry "dimensions"
+```
+
+In other words, Taiwan's music industry did regain some blood in the streaming era through concerts and copyright, but physical records, once its lifeline, did not come back. To describe NT$28.8 billion as "a market larger than 1997" is to compare apples and oranges. The honest version is: Taiwan lost the market in which it had once led all of Asia, and that fact has not been reversed.
+
+Since scale cannot return, what gives Taiwan a place in Mandopop? The answer is hidden in the songs that other places do not dare sing, cannot sing.
+
+## We, Too, Were Once the Side Doing the Banning
+
+To talk about Taiwan's "freedom," one first has to acknowledge an unflattering fact: Taiwan itself was once the one holding the red pen and deleting songs.
+
+During the martial-law period, Taiwan Garrison Command reviewed songs together with the Ministry of the Interior, Ministry of Education, Ministry of National Defense, and other agencies. A cumulative total of 898 songs were banned[^20]. The most banned singer was Taiwanese-language king Wen Hsia, who had 99 songs on the blacklist[^21]. The reasons for bans sound almost absurd today: "When Will You Return?" was suspected of alluding to Japanese militarism because of the characters _ri jun_; "Olive Tree" was banned for eight years because it sang of "wandering" and homesickness; "Not Coming Home Today" was read as alluding to China through the word "home," violating the policy of counterattack[^22]. "Mother, I Am Brave and Strong Too," composed by Teng Yu-hsien, was banned for 33 years[^23].
+
+```tw-stat
+898 songs | Cumulative number of songs banned during martial law | Joint review by Taiwan Garrison Command and other agencies
+99 songs | Number of Wen Hsia's songs banned | The highest total in Taiwan
+33 years | Length of the ban on "Mother, I Am Brave and Strong Too" | Composed by Teng Yu-hsien
+```
+
+This censorship system had a clear legal basis and a clear exit timeline. The 1973 Publication Act and the 1976 Radio and Television Act were its basis; songs had to be submitted for review before release. Song censorship did not effectively end until 1990, with formal announcement in 1991[^24]. The clause in the Radio and Television Act limiting programming in so-called dialects was not deleted by the Legislative Yuan until July 14, 1993[^25]. The lifting of martial law itself took place on July 15, 1987[^26].
+
+> ⚠️ **This is the most important premise for understanding Taiwan's freedom**
+> Taiwan's freedom of speech was won step by step. From the lifting of martial law to the end of censorship to the deletion of language restrictions, the process took nearly forty years. In between, people were banned, blacklisted, and forced into exile over a song.
+>
+> Precisely because Taiwan paid this price, it is especially clear today about what "cannot sing" feels like. It once stood on the side holding the red pen. This is not to negate today's freedom; quite the opposite. Only by knowing how freedom was obtained can one know how heavy it is, and avoid treating it as a given.
+
+## Able to Sing What Others Cannot
+
+Put Taiwan's past, when it was once the censor, beside its present, and the contrast appears.
+
+Today, across the Strait, a different and denser system of prior review is in use. China's National Radio and Television Administration (NRTA) conducts prior review of lyrics, albums, and performances. In 2021 it introduced a KTV blacklist, removing songs with content such as "endangering national unity"[^27]. Independent musician Li Zhi had his works removed from all platforms in 2019 because of "The Square," a song about June Fourth[^28]. Jolin Tsai's "Womxnly," which speaks for gender equality, was banned in China. Even Mayday was once required to change the lyric "Tibet" to the homophonous "heart" in order to pass review and filing procedures[^29].
+
+This is why "freedom" has become Taiwan's last and hardest bargaining chip: some songs really can only be sung in Taiwan.
+
+```tw-timeline
+1978 | Written for a diplomatic break | Hou Dejian composes "Descendants of the Dragon," lamenting Chinese people manipulated by foreign powers
+1983 | Banned in Taiwan | Hou Dejian goes to China; the song is banned in Taiwan, then unbanned after martial law is lifted in 1987
+Today | Appropriated by China | "Black eyes, black hair, yellow skin" becomes a symbol of blood-based nationalism
+```
+
+And freedom has weight. Its weight comes from those who chose to sing, then paid the price.
+
+A-mei sang the national anthem at the presidential inauguration in 2000 and was subsequently blacklisted by China for nearly four years; concerts, advertisements, and endorsements were all halted until the ban was lifted in 2004[^30]. Deserts Chang, also known as Anpu, accepted a Republic of China flag handed to her by a fan at a 2013 concert in Manchester, England, and said, "This is the flag of my hometown." As a result, three scheduled Beijing performances were all canceled[^31]. Crowd Lu and Chou Tzu-yu have also both been drawn into storms after being reported. And Teresa Teng, the diva whose songs were sung even in China in the saying "listen to old Deng by day, little Deng by night," sang on the stage of Hong Kong's 1989 "Democratic Songs for China" concert under a sign opposing military rule, and never held a concert in China before her death[^32].
+
+![Television broadcast cameras outside the 32nd Golden Melody Awards; the Golden Melody Awards are the most iconic awards in Mandopop](/article-images/music/golden-melody-awards-2021.webp)
+
+_The Golden Melody Awards are the most iconic stage in Mandopop, and it was here that Panai mentioned Tiananmen. Photo: Solomon203, 2021. [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:SET_News_and_CTI_News_cameras_at_GMA_20210821.jpg)._
+
+> 💡 **Did you know? What best illustrates this is one night at the 2024 Golden Melody Awards.** Indigenous singer Panai, on the stage of the 35th Golden Melody Awards, reminded everyone that the Tiananmen incident had also just reached its 35th anniversary, and said let's not forget[^33]. China immediately deleted her works from its platforms. Panai's response afterward pierced through the meaning of the entire event: she said Beijing's actions instead highlighted how precious Taiwan's freedom is[^34]. Being blacklisted instead became the best proof that "here, one can sing."
+
+At that Golden Melody Awards, Lai Ching-te said in his remarks that music is life, and music is also unfettered freedom[^35]. The line sounds ceremonial, but placed in the context of Panai being deleted, A-mei being blacklisted, and Deserts Chang being canceled, it is an island that lost the market taking inventory of the only household property it still has left.
+
+The other side of freedom is daring to speak. During the 2014 Sunflower Movement, Fire EX. and students from Taipei National University of the Arts wrote "Island's Sunrise" for the crowds occupying the Legislative Yuan. At the end of March, 500,000 people sang it together on Ketagalan Boulevard[^58]. The band released the song's rights free of charge for noncommercial use, and the following year it won Song of the Year at the 26th Golden Melody Awards. That a song filled with political demands, born from street protest, could take the crown at Taiwan's highest music hall is unimaginable across the Strait.
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/-w24iJG28qI" title="滅火器 Fire EX. - 12 島嶼天光 Island's Sunrise" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_Fire EX.'s official "Island's Sunrise." Official Fire EX. channel. Written for the Sunflower Movement, sung by 500,000 people on Ketagalan Boulevard, and winner of Song of the Year at the 26th Golden Melody Awards._
+
+## To Make Money, You Have to Go to China
+
+But it would be dishonest to speak too romantically about "freedom." Freedom has a cost, and that cost is incurred every day.
+
+Market gravity is real. In 2023, about 120 Taiwanese bands and singers performed in China, the highest number since 2018[^36]. For many musicians, westward expansion to China is a livelihood issue, not a political statement. One manager told _The Reporter_ bluntly: "In Taiwan you can only keep yourself from starving; only by going to China can you really make money, then bring the money back to Taiwan to make music"[^37].
+
+A new generation of musicians tries to find balance in between. Band vocalist Li Yang-hsuan said, "I would define the Chinese market as a bonus. If our main income all depends on that place, we will be tied down and unable to get away"[^38]. But balance is hard to maintain. Creator Chang Chia-hsiang lamented: "We are increasingly like event PR companies"[^39]. Among Taiwanese bands touring China, some choose silence on sensitive issues. A band manager who had supported Hong Kong and whose works were consequently removed told English-language media that he did not think this counted as self-censorship; it was simply "to ensure the safety of myself and my colleagues"[^40].
+
+> 📝 **Curator's note**
+> This is the real dilemma of Taiwanese musicians, and it has no clean answer. On one side is "not starving in Taiwan, but not making money"; on the other is "making money in China, but having to keep your mouth shut." To scold those who choose to go west as "bootlickers," or to exalt those who insist on not going as "heroes," is too cheap, because the person making that judgment does not have to pay the rent.
+>
+> The sentence "freedom is Taiwan's last bargaining chip" is true, but it has never been a free chip. Opposite it always stands a larger market, hand extended. What is precious about Taiwan is not that everyone chooses freedom. It is that here, the choice itself is still allowed.
+
+## "Singing Our Own Songs" Actually Meant Mandarin
+
+After speaking so much about "freedom," one must loop back and add a bass line that runs from beginning to end: inside Taiwan, there has always been another struggle over "whose voice counts." Whether one can sing outward is one matter. In whose language one can sing is another.
+
+During martial law, what was suppressed was not only politics, but also mother tongues. Between 1951 and 1963, a series of Mandarin promotion policies required schools to strictly prohibit so-called dialects[^41]. Article 20 of the Radio and Television Act (1976) stated in black and white: "Domestic broadcast language on radio stations shall primarily be Mandarin, and dialects shall be reduced year by year"[^42]. In 1972, three television stations were required to broadcast "no more than two Taiwanese-language songs per day"[^43]. Scholar Chen Pei-feng's observation is that Taiwanese-language songs long struggled to survive under the contempt of intellectual elites and state power.
+
+This gives the famous campus folk movement of the 1970s an irony that few people point out.
+
+In 1975, Yang Hsien held the "Modern Folk Song Composition Concert" at Zhongshan Hall in Taipei, setting nine poems by Yu Kwang-chung to music and singing them, all in Mandarin[^44]. The following year at Tamkang University, during a Western folk concert, Lee Shuang-tse threw out the famous line: "Why are you spending twenty dollars to listen to Chinese people sing foreign songs?" (As for the Coca-Cola bottle in his hand, according to Tao Ching-ying's recollection, it was "brought offstage intact" and was not smashed; the "bottle-smashing" was later embellishment)[^45].
+
+"Sing our own songs" became the slogan of an entire generation. But that "our own," when sung, was overwhelmingly Mandarin. _Business Today_'s retrospective puts it directly: "The folk song movement was actually a Mandarin song movement; Taiwanese-language songs were as rare as phoenix feathers and unicorn horns"[^46]. At the Golden Rhythm Awards, an important stage for folk songs, Chien Shang-jen's "First Month Tune" was almost the only Taiwanese-language entry.
+
+> 📝 **Curator's note**
+> The historical position of the folk song movement is beyond doubt. It did indeed allow Taiwan's young people to begin writing their own songs and move beyond the stage of covering Western and Japanese songs. But if one romanticizes it as the moment "Taiwan recovered its own voice," one misses the most crucial layer: the "self" recovered was a Mandarin-speaking self.
+>
+> The Taiwanese-speaking communities that truly lived on this land and formed a majority of the population remained marginal in this movement. The moving power and blind spot of the slogan "sing our own songs" are precisely the same thing: it proves that even in a posture of resistance, Mandarin hegemony remained the unquestioned default.
+
+## From Third-Rate Songs to Album of the Year
+
+The reversal of mother tongues has been a process of returning again and again after collision. No movement can settle it once and for all.
+
+In 1989, Blacklist Studio released _Songs of Madness_, regarded as the starting point of the "New Taiwanese Song Movement." Its members included Wang Ming-hui, Chen Ming-chang, Chen Chu-hui, and Will Lin[^47]. On December 7, 1990, Lim Giong released "Marching Forward." It sold 400,000 copies and won Song of the Year at the 3rd Golden Melody Awards in 1992, proving that Taiwanese could sing not only sorrowful old songs, but also rock, urban brightness, and youth[^48]. In 1998, Wu Bai's _Lonely Tree, Lonely Bird_ won Best Pop Vocal Album at the Golden Melody Awards and was described as a representative work of the "ten-year revival of the New Taiwanese Song Movement"[^49].
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/gD14iiXq7Xw" title="林強 Lin Chung【向前走 Marching forward】Official Music Video" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_Lim Giong's official MV for "Marching Forward." Official Rock Records channel. In 1990, it used Taiwanese to sing urban brightness and forward momentum, proving that Taiwanese could sing more than sorrow._
+
+Institutions gradually caught up. In 2005, at the 16th Golden Melody Awards, awards were established for Best Taiwanese, Hakka, and Indigenous-language Album[^50]. In 2017, at the 28th Golden Melody Awards, the language-neutral Album of the Year award was established[^51].
+
+Then came 2025. At the 36th Golden Melody Awards, Siri Lee's Taiwanese-language album _Suí_ won three awards in one sweep: Album of the Year, Best Taiwanese Female Singer, and Best Taiwanese Album[^52]. The Album of the Year trophy carried special weight: this was the **first time** a Taiwanese-language album had won the highest language-neutral honor[^53].
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/ehl-pc0syCU" title="李竺芯Siri Lee - 水Suí Official Lyrics Video" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_Siri Lee's official "Suí." Official Siri Lee channel. In 2025, this Taiwanese-language album won the Golden Melody Award for Album of the Year, the first time Taiwanese stood atop the highest language-neutral honor._
+
+> ⚠️ **A point that must be stated accurately**
+> What Siri Lee achieved was "the first Taiwanese-language album to win Album of the Year," not "the first mother-tongue album" or "the first non-Mandarin album." Before her, Indigenous-language albums by Sangpuy in 2017 and ABAO, also known as Aljenljeng, in Paiwan in 2020 had already won Album of the Year[^54]. To state the achievement too broadly would instead erase the path Indigenous musicians had already walked. The honest version is: the reversal of mother tongues in the highest hall of the Golden Melody Awards has been a relay, baton by baton. Indigenous languages arrived first; Taiwanese arrived later. Each baton was a recalculation of "whose voice counts."
+
+From "no more than two Taiwanese-language songs a day" in 1972 to a Taiwanese-language album winning Album of the Year in 2025, half a century lies in between, along with an entire turn in language, power, and dignity.
+
+It is also worth puncturing two widespread claims that in fact do not stand.
+
+The first is the idea that "Taiwanese female singers rose in the 1990s." This is a mistaken historical view. Teresa Teng debuted in 1967, won the Golden Bell Award for Best Female Singer in 1980, and was the diva of all Asia. Fong Fei-fei debuted in 1971; Teresa Teng in the 1970s and Fong Fei-fei in the early 1980s were two successive generations of divas who defined the Mandarin music scene[^55]. Tsai Chin became famous in 1979 with "Just Like Your Tenderness." They were already mainstream divas. Female singers did not only "rise" in the 1990s.
+
+The second myth, about Indigenous singers, is more subtle. A-mei is Puyuma, Chang Chen-yue is Amis, and Chen Chien-nien is Puyuma. Their success is often attributed to the idea that "Indigenous people are naturally good singers." Online, there is even a saying: "Attaching the label 'I am Indigenous' is almost equivalent to hanging up a guarantee that 'the singing is excellent'"[^56]. But the perspective of Golden Melody Awards judges was exactly the opposite. _Taiwan Panorama_ quoted judges discussing wins by Chen Chien-nien and Samingad: "It had nothing to do with the fact that they are Indigenous; instead, we saw the originality of the music"[^57]. Reducing a person's talent to bloodline is another form of refusing to treat a person as a person, even when it wears the mask of praise.
+
+## Freedom Is the Only Thing Not Taken Away After Losing Everything
+
+Return to Hou Dejian that night.
+
+"Descendants of the Dragon" changed owners three times. Each time it changed hands, it was because someone held power greater than the singer's: the record company, the Government Information Office, the other side of the Strait. Who decides the meaning of a song has always been a question of power, not of music.
+
+Over forty years, Taiwanese pop music has lived out both sides of this truth. It was once the one holding the red pen, banning 898 songs. Later, it put down the red pen and paid forty years of cost in exchange for "not censoring." It was once the factory that wrote songs for the whole world. Later, it even lost its own market to the other side of the Strait. It failed, unlike South Korea, to produce a BTS outward toward the world, and watched helplessly as the center moved away.
+
+In terms of scale, Taiwan has long since ceased to be the largest market in the Sinophone world. That fact will not be reversed. But when a song about June Fourth disappears from every platform across the Strait, when saying "Tiananmen, don't forget" causes a singer to be deleted, when "Tibet" has to be changed into "heart" before it can be heard, the thing Taiwan holds that cannot be lost begins to show its weight.
+
+In 2025, Siri Lee used a Taiwanese-language album to turn songs once dismissed as "songs sung by third-rate people" into Album of the Year. From Wen Hsia's 99 banned songs to this Album of the Year trophy, what happened in between was how an island spent half a century taking the matter of "whether something can be sung" back into its own hands, word by word.
+
+What remains is not scale. It is freedom, the only thing not taken away after everything else was lost. And the most moving part of freedom has never been that it lets people win. It is that it lets people **sing what others cannot sing**.
+
+---
+
+**Further Reading**:
+
+- [Taiwan's Folk Song Movement: Whose Songs Were "Singing Our Own Songs"?](/music/台灣民歌運動)
+- [The Evolution of Taiwanese-Language Songs: From a Banned Mother Tongue to Album of the Year](/music/台灣台語歌曲演進)
+- [Pop Music and the Golden Melody Awards: Whose Voice Counts, and Who Decides?](/music/流行音樂與金曲獎)
+- [Taiwan's Music Industry and the Streaming Era: Regaining Blood After the Collapse of Physical Records](/music/台灣音樂產業與串流時代)
+- [Teresa Teng: The Diva Who Sang Across Taiwan, Hong Kong, and China, Yet Never Performed in China Before Her Death](/people/鄧麗君)
+
+## Image Sources
+
+This article uses three public-domain / CC-licensed images, all cached under `public/article-images/music/` to avoid hotlinking source servers. Videos are all standard YouTube embeds from official channels:
+
+- [Sunflower Movement crowd (hero)](https://commons.wikimedia.org/wiki/File:Taiwan%27s_Sunflower_Movement_Look_At_All_These_People!.jpg) — Photo: tomscy2000, 2014, CC BY 2.0
+- [Teresa Teng, 1980s portrait](https://commons.wikimedia.org/wiki/File:Teresa_Teng_US.jpg) — Photo: Unknown, early 1980s, Public domain (published in the United States, 1978-1989, with no copyright notice)
+- [Television broadcast cameras at the 32nd Golden Melody Awards](https://commons.wikimedia.org/wiki/File:SET_News_and_CTI_News_cameras_at_GMA_20210821.jpg) — Photo: Solomon203, 2021, CC BY-SA 4.0
+- Videos: Lee Chien-fu, "Descendants of the Dragon" / Lim Giong, "Marching Forward" (official Rock Records); Fire EX., "Island's Sunrise" (official Fire EX.); Siri Lee, "Suí" (official Siri Lee)
 
 ## References
 
-[^1]: [Ma Shifang, _Underground Nostalgia Blues_, China Times Publishing, 2006](https://www.books.com.tw/products/0010980346) — The book discusses the academic controversy around the title "Father of Folk Music" and is an important reference for research on Taiwanese folk music
+[^1]: [Wikipedia: Descendants of the Dragon](https://zh.wikipedia.org/zh-tw/龍的傳人) — Records the background of "Descendants of the Dragon," written by Hou Dejian on the night of December 16, 1978, when the United States severed relations with the Republic of China and established relations with the People's Republic of China; the motivation was to lament Chinese people's long history of being manipulated by foreign powers.
 
-[^2]: [Bureau of Audiovisual and Music Industry Development, Ministry of Culture, _A History of the Development of Taiwanese Popular Music_](https://www.bamid.gov.tw/) — An official compilation of historical materials on Taiwan's popular music industry
+[^2]: [Wikipedia: Descendants of the Dragon](https://zh.wikipedia.org/zh-tw/龍的傳人) — Details the sequence of lyric revisions in the chorus, from the original "the sword of slaves" to the record company's proposed "the sword of foreigners" (which Hou Dejian rejected), and finally to the settled version, "the sword of appeasement."
 
-[^4]: [Music Workers Association of Taiwan — Wikipedia](https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E8%8F%AF%E9%9F%B3%E6%A8%82%E4%BA%BA%E4%BA%A4%E6%B5%81%E5%8D%94%E6%9C%83) — An important organization in Taiwan's music industry, promoting exchange among musicians and copyright-related affairs
+[^3]: [Wikipedia: Descendants of the Dragon](https://zh.wikipedia.org/zh-tw/龍的傳人) — Records that James Soong, then director-general of the Government Information Office, wrote another version beginning "the bell of self-strengthening awakens the national soul..." for official speeches, while insisting that Hou's own version be banned from performance.
 
-[^6]: [_Taiwan Music Yearbook_, National Center for Traditional Arts](https://taiwanmusicyearbook.ncfta.gov.tw/) — Annual statistics on the current state of Taiwan's music industry and records of major events
+[^4]: [Wikipedia: Hou Dejian](https://zh.wikipedia.org/zh-tw/侯德健) — Records the full sequence in which Hou Dejian went to China in June 1983, after which "Descendants of the Dragon" was banned in Taiwan and was unbanned after martial law was lifted in 1987.
 
-[^7]: [Yuan Yongxing — Wikipedia](https://zh.wikipedia.org/zh-tw/%E8%A2%81%E6%B0%B8%E8%88%88) — Veteran broadcaster and music critic, author of works related to Taiwanese independent music and winner of the Golden Bell Awards
+[^5]: [The News Lens: When "Descendants of the Dragon" Became a Symbol of Blood-Based Nationalism](https://www.thenewslens.com/article/126311) — Political scientist Chen Fang-yu's 2019 analysis of how the lyrics "black eyes, black hair, yellow skin" in "Descendants of the Dragon" were appropriated by China into a discourse of blood-based ethnic nationalism.
 
-[^8]: [Taiwan Creative Content Agency, _Popular Music Industry Survey Report_](https://taicca.tw/) — Annual survey of the scale, revenue, and international exports of Taiwan's popular music industry
+[^6]: [Wikipedia: Rock Records](https://zh.wikipedia.org/wiki/滾石唱片) — Records the industrial ecology of Taiwan as the Mandopop production center in the 1980s, and the history of producers such as Jonathan Lee creating signature works for singers across regions.
 
-[^11]: [IFPI Taiwan Market Reports](https://www.ifpi.org/) — Annual Taiwan market reports from the International Federation of the Phonographic Industry, including physical and streaming sales data
+[^7]: [Taiwan Insight: Taiwan as the creative heart of Mandopop](https://taiwaninsight.org/2018/09/24/) — The academic platform Taiwan Insight (Koh 2018) analyzes the formation of Taiwan as the "epicentre" of Mandopop, and notes that its roots lay "firmly in the soils of political dissent and a yearning for free expression."
+
+[^8]: [Bureau of Audiovisual and Music Industry Development, Ministry of Economic Affairs press release](https://www.bamid.gov.tw/News_Content.aspx?n=3645&s=124890) — Official data stating that Taiwanese companies once held an 80 percent share of the Mandopop market, along with industry statistics such as a 2011 total output value of NT$10.292 billion.
+
+[^9]: [Wikipedia: The Goodbye Kiss](https://zh.wikipedia.org/zh-tw/吻別) — Records that Jacky Cheung's 1993 album _The Goodbye Kiss_ sold 1.36 million copies in Taiwan, the market description that "one in every 20 people bought one copy," and total sales data across Asia.
+
+[^10]: [Wikipedia: Bad Boy (A-mei album)](<https://zh.wikipedia.org/zh-hant/Bad_Boy_(張惠妹專輯)>) — States that A-mei's 1997 album _Bad Boy_ sold 1.38 million copies in Taiwan, making it the best-selling studio album in Taiwan's history, with Asian sales of about 6 million copies.
+
+[^11]: [_Taiwan Panorama_, "The Future of Pop Music"](https://www.taiwan-panorama.com/Articles/Details?Guid=bffd9904-4bf3-4c08-ab91-4333ec55cd34) — The official publication states verbatim that "Taiwan's total record market rapidly shrank from an output value of NT$12.3 billion in 1997 to NT$3.15 billion in 2005," and that Jay Chou's peak sales were about 300,000 copies.
+
+[^12]: [_Mirror Media_ / READr record market feature](https://www.mirrormedia.mg/story/20240207READr001) — Gives the market coordinates that "Taiwan in 1997 was once second in the Asian record market (behind only Japan) and 13th in the world record market."
+
+[^13]: [Vocus: The Avalanche of Taiwan's Record Industry](https://vocus.cc/article/64be0ec7fd89780001801889) — Summarizes the chain of collapse: CD burners becoming widespread in 1998, Napster and pirated MP3s in 1999, and physical record sales "falling like an avalanche" in 2001.
+
+[^14]: [Atlantic Council: Surfing the Hallyu wave](https://www.atlanticcouncil.org/) — States that South Korea's culture budget increased from US$14 million to US$84 million from 1998 to 2001, a fivefold increase, and compares per capita cultural spending in South Korea and Taiwan (US$145 vs. US$37).
+
+[^15]: [Korean music industry statistics](https://gitnux.org/korean-music-industry-statistics/) — Statistics showing that Korean pop music ranked seventh globally in 2018, that K-pop's global output value was about US$7.1 billion in 2023, and the contrast that Taiwan was not in the top ten.
+
+[^16]: [Linking Vision: Two Mandopop Worlds](https://www.linking.vision/archives/17153) — States that China's record market in 2018 was seventh globally and second in Asia according to IFPI, and analyzes the "host-guest reversal" in which Chinese platforms came to dominate the Mandopop industry.
+
+[^17]: [Linking Vision: Interview with Shao Yide](https://www.linking.vision/archives/17153) — Records veteran music figure Shao Yide's verbatim remark that "there seem to be two Mandopop worlds. One is above the rivers and lakes... internet 'divine songs' produced in batches and distributed by algorithms; the other is in the hall... high-quality music refined through industrialization."
+
+[^18]: [Taiwan Creative Content Agency (TAICCA) industry survey](https://research.taicca.tw/article/9810da1d) — Officially states that Taiwan's pop music total output value in 2023 was NT$28.836 billion, up 19.79 percent year over year, under a broad industry definition including performance, copyright, and digital.
+
+[^19]: [Taiwan Creative Content Agency (TAICCA) industry survey](https://research.taicca.tw/article/9810da1d) — States that in 2023 there were 7,134 live performances, up 31 percent year over year, with ticket sales of NT$6.717 billion, up 131 percent, illustrating the share of live performance within the broad NT$28.8 billion output value.
+
+[^20]: [Central News Agency: The Silenced Martial-Law Years](https://www.cna.com.tw/news/amov/201707150035.aspx) — States that during martial law, Taiwan Garrison Command and other agencies cumulatively banned 898 songs, that Wen Hsia had the most bans with 99 songs, and cases such as "Olive Tree" being banned for eight years.
+
+[^21]: [Central News Agency: The Silenced Martial-Law Years](https://www.cna.com.tw/news/amov/201707150035.aspx) — Same source, explicitly listing Taiwanese-language king Wen Hsia as having 99 songs banned, the highest number for any singer in Taiwan.
+
+[^22]: [StoryStudio: A Complete Review of Taiwan's History of Banned Songs](https://storystudio.tw/article/gushi/完整回顧，臺灣禁歌史) — Details the banning reasons for "When Will You Return?" over the suspected allusion in _ri jun_, "Olive Tree" for homesickness and wandering, and "Not Coming Home Today" for the word "home" allegedly alluding to China and violating the counterattack policy.
+
+[^23]: [Central News Agency: The Silenced Martial-Law Years](https://www.cna.com.tw/news/amov/201707150035.aspx) — Records that "Mother, I Am Brave and Strong Too," composed by Teng Yu-hsien, was banned for 33 years.
+
+[^24]: [StoryStudio: A Complete Review of Taiwan's History of Banned Songs](https://storystudio.tw/article/gushi/完整回顧，臺灣禁歌史) — States that the legal basis for song censorship was the 1973 Publication Act and the 1976 Radio and Television Act, that songs had to be reviewed before release, that review effectively ended in 1990, and that this was formally announced in 1991.
+
+[^25]: [Taiwan Peace Foundation: The Abolition of Language Restrictions in the Radio and Television Act](https://www.twpeace.org.tw/wordpress/?p=2070) — Records that the clause restricting dialect programming in the Radio and Television Act was deleted by the Legislative Yuan on July 14, 1993.
+
+[^26]: [Central News Agency: 30th Anniversary of the Lifting of Martial Law](https://www.cna.com.tw/news/amov/201707150035.aspx) — States the historical date on which Taiwan lifted martial law: July 15, 1987.
+
+[^27]: [Variety: China karaoke songs ban](https://variety.com/2021/music/news/china-karaoke-songs-ban-1235040772/) — States that China's NRTA conducts prior review of lyrics, albums, and performances, and describes the KTV blacklist that took effect on October 1, 2021, banning content that "endangers national unity" and other categories.
+
+[^28]: [Central News Agency: Li Zhi Removed from All Platforms](https://www.cna.com.tw/news/acn/201904120238.aspx) — Reports that Chinese independent musician Li Zhi's works were removed from all platforms in 2019 because of "The Square," a work about June Fourth.
+
+[^29]: [Taiwan Insight: The Fear Factor](https://taiwaninsight.org/2021/07/01/the-fear-factor-in-cross-strait-pop/) — Analyzes three censorship mechanisms China applies to Taiwanese pop music, including Mayday being required to change the lyric "Tibet" to the homophonous "heart" for filing approval, and Jolin Tsai's LGBTQ-themed "Womxnly" being banned in China.
+
+[^30]: [SETN: The A-mei Blacklisting Incident](https://www.setn.com/News.aspx?NewsID=118793) — Reports that after A-mei sang the national anthem at the 2000 presidential inauguration, she was blacklisted by China for about four years, with the ban lifted in 2004.
+
+[^31]: [Public Television Service News: Deserts Chang Flag Incident](https://news.pts.org.tw/article/256365) — Reports that Deserts Chang accepted a Republic of China flag at a 2013 concert in Manchester, England, called it "the flag of my hometown," and subsequently had three Beijing performances canceled.
+
+[^32]: [Epoch Times: Teresa Teng and Democratic Songs for China](https://www.epochtimes.com/b5/9/12/15/n2755023.htm) — Records that Teresa Teng sang at the 1989 "Democratic Songs for China" concert at Happy Valley Racecourse in Hong Kong under a sign opposing military rule, and that she never performed in China before her death.
+
+[^33]: [Taipei Times: Panai at Golden Melody Awards](https://www.taipeitimes.com/News/front/archives/2024/07/01/2003820140) — Reports that Indigenous singer Panai said onstage at the 35th Golden Melody Awards in 2024, "The Tiananmen Square incident is also exactly 35 years old, let's not forget," after which her works were removed in China.
+
+[^34]: [Taipei Times: Panai at Golden Melody Awards](https://www.taipeitimes.com/News/front/archives/2024/07/01/2003820140) — Reports Panai's later response that "Beijing's actions further underscore the precious freedom in Taiwan," saying China's move instead highlighted the preciousness of Taiwan's freedom.
+
+[^35]: [Taipei Times: Panai at Golden Melody Awards](https://www.taipeitimes.com/News/front/archives/2024/07/01/2003820140) — Records President Lai Ching-te's remark at the 35th Golden Melody Awards: "Music is life, and music is also unfettered freedom."
+
+[^36]: [_The Reporter_: Echoing Red Chorus](https://www.twreporter.org/a/echoing-red-chorus-china-market-taiwan-musicians) — In-depth report stating that about 120 Taiwanese bands and singers performed in China in 2023, the highest level since 2018, and interviewing multiple musicians about the dilemma of going west.
+
+[^37]: [_The Reporter_: Echoing Red Chorus](https://www.twreporter.org/a/echoing-red-chorus-china-market-taiwan-musicians) — Records a music manager's verbatim interview remark: "In Taiwan you can only keep yourself from starving; only by going to China can you really make money, then bring the money back to Taiwan to make music."
+
+[^38]: [_The Reporter_: Echoing Red Chorus](https://www.twreporter.org/a/echoing-red-chorus-china-market-taiwan-musicians) — Records musician Li Yang-hsuan's verbatim remark: "I would define the Chinese market as a bonus. If our main income all depends on that place, we will be tied down and unable to get away."
+
+[^39]: [_The Reporter_: Echoing Red Chorus](https://www.twreporter.org/a/echoing-red-chorus-china-market-taiwan-musicians) — Records creator Chang Chia-hsiang's verbatim lament, "We are increasingly like event PR companies," reflecting how touring in China dilutes creative energy.
+
+[^40]: [Domino Theory: Taiwan's younger musicians and China](https://dominotheory.com/younger-generation-taiwan-musicians-china/) — Records the verbatim statement of a band manager whose band's pro-Hong Kong work was removed: "I don't believe this is self-censoring, this is to ensure the safety of myself and my colleagues."
+
+[^41]: [Lee Hsiao-feng: Mandarin Policy and Taiwan's Languages](https://www.jimlee.org.tw/article_detail.php?SN=8729) — Scholar Lee Hsiao-feng summarizes a series of Mandarin promotion policies, including the 1951 strict prohibition of dialects, 1952 strengthening of Mandarin, and 1963 language guidelines.
+
+[^42]: [Wikisource: Radio and Television Act (enacted in ROC year 64, promulgated in ROC year 65)](<https://zh.wikisource.org/zh-hant/廣播電視法_(民國64年立法65年公布)>) — Primary legal text; Article 20 states, "Domestic broadcast language on radio stations shall primarily be Mandarin, and dialects shall be reduced year by year."
+
+[^43]: [Wikipedia: Mandarin policy](https://zh.wikipedia.org/wiki/國語政策) — Cites the 1972 broadcasting regulation requiring three television stations to broadcast "no more than two Taiwanese-language songs per day."
+
+[^44]: [_Business Today_: The Folk Song Movement Was Actually a Mandarin Song Movement](https://www.businesstoday.com.tw/article/category/183027/post/202503280027/) — States the historical fact that Yang Hsien's June 1975 "Modern Folk Song Composition Concert" at Zhongshan Hall set nine poems by Yu Kwang-chung to music, all in Mandarin.
+
+[^45]: [_Business Today_: The Folk Song Movement Was Actually a Mandarin Song Movement](https://www.businesstoday.com.tw/article/category/183027/post/202503280027/) — Records Lee Shuang-tse's famous 1976 Tamkang line, "Why are you spending twenty dollars to listen to Chinese people sing foreign songs?", and Tao Ching-ying's confirmation that the Coca-Cola bottle was "brought offstage intact," with the "bottle-smashing" being later embellishment.
+
+[^46]: [_Business Today_: The Folk Song Movement Was Actually a Mandarin Song Movement](https://www.businesstoday.com.tw/article/category/183027/post/202503280027/) — States verbatim that "the folk song movement was actually a Mandarin song movement; Taiwanese-language songs were as rare as phoenix feathers and unicorn horns," and notes that Chien Shang-jen's "First Month Tune" was the only Taiwanese-language entry in the Golden Rhythm Awards.
+
+[^47]: [Fount Media: The New Taiwanese Song Movement](https://www.fountmedia.io/article/100382) — States that Blacklist Studio's 1989 _Songs of Madness_ was the starting point of the New Taiwanese Song Movement, with members including Wang Ming-hui, Chen Ming-chang, Chen Chu-hui, and Will Lin.
+
+[^48]: [United Daily News: Lim Giong's "Marching Forward"](https://time.udn.com/udntime/story/122834/7791726) — States that Lim Giong's "Marching Forward" was released on December 7, 1990, sold 400,000 copies, and won Song of the Year at the 3rd Golden Melody Awards in 1992, proving the rock and urban possibilities of Taiwanese-language song.
+
+[^49]: [Fount Media: The New Taiwanese Song Movement](https://www.fountmedia.io/article/100382) — States that Wu Bai's _Lonely Tree, Lonely Bird_ won Best Pop Vocal Album at the 10th Golden Melody Awards in 1998 and represented the "ten-year revival of the New Taiwanese Song Movement."
+
+[^50]: [Wikipedia: Golden Melody Award for Best Taiwanese Album](<https://zh.wikipedia.org/zh-tw/最佳台語專輯獎_(金曲獎)>) — Records the institutional development in which the Golden Melody Awards established Best Taiwanese, Hakka, and Indigenous-language Album awards at the 16th awards in 2005.
+
+[^51]: [Wikipedia: Golden Melody Award for Album of the Year winners](<https://zh.wikipedia.org/zh-tw/年度專輯獎_(金曲獎)>) — Records that Album of the Year was established at the 28th awards in 2017, and lists winners including Sangpuy (2017), ABAO (2020), and Siri Lee (2025) by language.
+
+[^52]: [Central News Agency: Siri Lee's _Suí_ Wins Three Awards](https://www.cna.com.tw/news/amov/202506285004.aspx) — Reports that Siri Lee's Taiwanese-language album _Suí_ won Album of the Year, Best Taiwanese Female Singer, and Best Taiwanese Album at the 36th Golden Melody Awards.
+
+[^53]: [Bella: Siri Lee's Album of the Year Is the First Awarded to a Taiwanese-Language Album](https://www.bella.tw/articles/music/52469/) — Records that Siri Lee's _Suí_ was the first Taiwanese-language album to receive the Album of the Year award.
+
+[^54]: [Wikipedia: Golden Melody Award for Album of the Year winners](<https://zh.wikipedia.org/zh-tw/年度專輯獎_(金曲獎)>) — The winners list confirms that Sangpuy's Indigenous-language album (2017) and ABAO's Paiwan album (2020) had already won Album of the Year before Siri Lee, making Siri Lee's win a "first for Taiwanese," not a "first for mother tongues."
+
+[^55]: [Wikipedia: Fong Fei-fei](https://zh.wikipedia.org/zh-tw/鳳飛飛) — States that Fong Fei-fei recorded her first song in September 1971 and released her first album in 1972, and that she stood alongside Teresa Teng in the 1970s and was a Mandarin pop diva in the early 1980s, confirming that female singers did not only rise in the 1990s.
+
+[^56]: [DailyView: The Label of Indigenous Singers](https://dailyview.tw/daily/580) — Records the stereotype that "attaching the label 'I am Indigenous' is almost equivalent to hanging up a guarantee that 'the singing is excellent,'" reducing talent to bloodline.
+
+[^57]: [_Taiwan Panorama_: Golden Melody Awards and Indigenous Musicians](https://www.taiwan-panorama.com/Articles/Details?Guid=bffd9904-4bf3-4c08-ab91-4333ec55cd34) — Quotes Golden Melody Awards judges discussing Chen Chien-nien and Samingad's wins: "It had nothing to do with the fact that they are Indigenous; instead, we saw the originality of the music."
+
+[^58]: [Wikipedia: Island's Sunrise](https://zh.wikipedia.org/zh-tw/島嶼天光) — Records that Fire EX. and Taipei National University of the Arts students created "Island's Sunrise" for the 2014 Sunflower Movement, that 500,000 people sang it together on Ketagalan Boulevard, that the band released the rights free of charge for noncommercial use, and that it won Song of the Year at the 26th Golden Melody Awards.

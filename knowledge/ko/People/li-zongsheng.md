@@ -12,7 +12,7 @@ lastVerified: 2026-06-05
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/李宗盛.md'
-sourceCommitSha: '31a05c44'
+sourceCommitSha: 'db263367'
 sourceContentHash: 'sha256:7e1d920b41b8d459'
 sourceBodyHash: 'sha256:ab5e69cc7c8739be'
 translatedAt: '2026-06-16T17:05:51Z'
@@ -141,6 +141,7 @@ _“리 기타”(Lee Guitars) 한 대. 가스통을 들던 손에서, 나무를
 - [장후이메이](/people/張惠妹) — 록 레코드 황금시대에 속한 디바급 목소리이자, 타이완 여성 팝 보컬의 또 다른 경로
 - [타이완 민가 운동](/music/台灣民歌運動) — 리쭝성이 1970년대에 올라탄 그 흐름, 무지타 합창단과 진윈장의 토양
 - [타이완 화어의 진화](/culture/台灣華語的演化) — “평이한 말이 노래로 들어가는 일”이 사람을 움직인 까닭은 타이완 화어가 어떻게 일상 언어가 되었는가와 관련이 있다
+- [황다웨이](/people/黃大煒) — 같은 세대의 창작형 보컬리스트이자 전방위 음악인, 허스키한 목소리로 독자적 영역을 구축했으며, 리쭝성과는 화어 발라드의 길을 찾는 두 가지 다른 방식이다
 
 ## 이미지 출처
 

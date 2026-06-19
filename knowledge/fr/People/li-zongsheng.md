@@ -19,9 +19,9 @@ lastVerified: 2026-06-05
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/李宗盛.md'
-sourceCommitSha: '31a05c44'
-sourceContentHash: 'sha256:7e1d920b41b8d459'
-sourceBodyHash: 'sha256:ab5e69cc7c8739be'
+sourceCommitSha: 'db263367'
+sourceContentHash: 'sha256:1c035df4dee1c3d3'
+sourceBodyHash: 'sha256:e6fee31313863c50'
 translatedAt: '2026-06-16T17:05:54Z'
 ---
 
@@ -148,6 +148,7 @@ Après avoir écrit pendant trente ans les meilleures chansons des autres, il fi
 - [A-Mei](/people/張惠妹) — une voix de diva de la même grande époque de Rock Records, autre trajectoire de la voix féminine pop taïwanaise
 - [Le mouvement folk taïwanais](/music/台灣民歌運動) — le train des années 1970 dans lequel Lee Tsung-sheng est monté, le terreau du groupe 木吉他 et du prix Golden Melody folk
 - [L'évolution du mandarin taïwanais](/culture/台灣華語的演化) — si l'entrée du langage ordinaire dans la chanson touche si fortement, c'est aussi lié à la manière dont le mandarin taïwanais est devenu une langue du quotidien
+- [Huang Ta-wei](/people/黃大煒) — auteur-compositeur-interprète et musicien complet de la même génération, qui s'est forgé son propre style avec une voix rauque ; lui et Lee Tsung-sheng représentent deux façons différentes d'ouvrir une voie à la ballade sentimentale en mandarin
 
 ## Sources des images
 

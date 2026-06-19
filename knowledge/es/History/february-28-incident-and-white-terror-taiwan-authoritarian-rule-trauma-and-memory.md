@@ -19,7 +19,7 @@ featured: true
 lastVerified: 2026-03-31
 lastHumanReview: false
 translatedFrom: 'History/二二八事件.md'
-sourceCommitSha: '6c2f8ea8'
+sourceCommitSha: '9bddcff6'
 sourceContentHash: 'sha256:4d3c97207d94073d'
 sourceBodyHash: 'sha256:1db38e403d646d80'
 translatedAt: '2026-05-29T00:35:00+08:00'
@@ -205,6 +205,7 @@ Lo que diga ese papel no es lo importante. Lo importante es que, por fin, alguie
 - [Era de la ley marcial](/history/戒嚴時期) — El contenedor legal de 38 años desde 1949, prolongación de la represión de 1947
 - [Terror Blanco en Taiwán](/history/台灣白色恐怖) — Los casos políticos de los 38 años de ley marcial
 - [Justicia transicional en Taiwán](/history/台灣轉型正義) — La pugna entre la revocación de sentencias y la exigencia de responsabilidades a los perpetradores
+- [Días festivos nacionales](/society/國定假日) — Cómo el 228 se convirtió en 1997 en el primer día festivo nacional oficial de la República de China
 
 ## Referencias
 
