@@ -210,7 +210,7 @@ export function getMapRoutes(
           lat: 24.055,
           lng: 120.437,
           note: t('map.stops.lukang.note'),
-          link: '/culture/鹿港',
+          link: '/culture/台灣老街文化與商業街區',
         },
         {
           id: 'presidentialOffice',
@@ -266,7 +266,7 @@ export function getMapRoutes(
           lat: 24.055,
           lng: 120.437,
           note: t('map.stops.lukangOldStreet.note'),
-          link: '/culture/鹿港',
+          link: '/culture/台灣老街文化與商業街區',
         },
         {
           id: 'anpingOldStreet',
