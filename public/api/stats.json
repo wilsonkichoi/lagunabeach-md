@@ -1,24 +1,28 @@
 {
-  "totalArticles": 4860,
+  "totalArticles": 4885,
   "totalCategories": 20,
   "estimatedContributors": 61,
-  "totalTags": 6086,
+  "totalTags": 6069,
   "categories": [
     {
       "name": "es",
-      "count": 808
+      "count": 813
     },
     {
       "name": "ko",
-      "count": 809
+      "count": 814
     },
     {
       "name": "fr",
-      "count": 809
+      "count": 814
     },
     {
       "name": "ja",
-      "count": 808
+      "count": 813
+    },
+    {
+      "name": "en",
+      "count": 818
     },
     {
       "name": "History",
@@ -31,10 +35,6 @@
     {
       "name": "Society",
       "count": 86
-    },
-    {
-      "name": "en",
-      "count": 813
     },
     {
       "name": "About",
@@ -139,10 +139,6 @@
       "count": 23
     },
     {
-      "name": "音樂",
-      "count": 23
-    },
-    {
       "name": "YouTuber",
       "count": 22
     },
@@ -165,16 +161,20 @@
     {
       "name": "高雄",
       "count": 22
+    },
+    {
+      "name": "AI",
+      "count": 21
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4860,
+    "zh-TW": 4885,
     "en": 0
   },
-  "lastUpdated": "2026-06-19T15:09:18.286Z",
-  "stars": 1057,
-  "forks": 154,
+  "lastUpdated": "2026-06-19T22:11:23.053Z",
+  "stars": 1059,
+  "forks": 155,
   "zhPages": 811,
-  "enPages": 813,
+  "enPages": 818,
   "totalPages": 811
 }

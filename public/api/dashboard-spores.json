@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T15:09:17.254392Z",
+  "lastUpdated": "2026-06-19T22:11:22.227435Z",
   "schemaVersion": "1.1",
   "totals": {
     "count": 137,
@@ -222,39 +222,39 @@
       "n": 134,
       "article": "天下雜誌",
       "platform": "threads",
-      "publishedDays": 6,
-      "status": "waiting",
+      "publishedDays": 7,
+      "status": "OVERDUE",
       "url": "https://www.threads.com/@taiwandotmd/post/DZhJTUkEwRM"
     },
     {
       "n": 135,
       "article": "天下雜誌",
       "platform": "x",
-      "publishedDays": 6,
-      "status": "waiting",
+      "publishedDays": 7,
+      "status": "OVERDUE",
       "url": "https://x.com/taiwandotmd/status/2065697249041281306"
     },
     {
       "n": 136,
       "article": "taiwan-md-83天里程碑",
       "platform": "threads",
-      "publishedDays": 6,
-      "status": "waiting",
+      "publishedDays": 7,
+      "status": "OVERDUE",
       "url": "https://www.threads.com/@taiwandotmd/post/DZhFf9kDC3P"
     },
     {
       "n": 137,
       "article": "taiwan-md-83天里程碑",
       "platform": "x",
-      "publishedDays": 6,
-      "status": "waiting",
+      "publishedDays": 7,
+      "status": "OVERDUE",
       "url": "https://x.com/taiwandotmd/status/2065695697178099723"
     },
     {
       "n": 138,
       "article": "無名小站",
       "platform": "threads",
-      "publishedDays": 5,
+      "publishedDays": 6,
       "status": "waiting",
       "url": "https://www.threads.com/@taiwandotmd/post/DZjeLZgE-AY"
     },
@@ -262,7 +262,7 @@
       "n": 139,
       "article": "無名小站",
       "platform": "x",
-      "publishedDays": 5,
+      "publishedDays": 6,
       "status": "waiting",
       "url": "https://x.com/taiwandotmd/status/2066024659238465719"
     },
@@ -270,7 +270,7 @@
       "n": 142,
       "article": "迷音Miin",
       "platform": "threads",
-      "publishedDays": 3,
+      "publishedDays": 4,
       "status": "waiting",
       "url": "https://www.threads.com/@taiwandotmd/post/DZnPRd1k-F4"
     },
@@ -278,7 +278,7 @@
       "n": 143,
       "article": "迷音Miin",
       "platform": "x",
-      "publishedDays": 3,
+      "publishedDays": 4,
       "status": "waiting",
       "url": "https://x.com/taiwandotmd/status/2066559522156748815"
     },
@@ -286,7 +286,7 @@
       "n": 144,
       "article": "報導者",
       "platform": "threads",
-      "publishedDays": 3,
+      "publishedDays": 4,
       "status": "waiting",
       "url": "https://www.threads.com/@taiwandotmd/post/DZpJfvEE4IL"
     },
@@ -294,7 +294,7 @@
       "n": 145,
       "article": "報導者",
       "platform": "x",
-      "publishedDays": 3,
+      "publishedDays": 4,
       "status": "waiting",
       "url": "https://x.com/taiwandotmd/status/2066822763638341918"
     },
@@ -302,7 +302,7 @@
       "n": 146,
       "article": "端午節",
       "platform": "threads",
-      "publishedDays": 0,
+      "publishedDays": 1,
       "status": "waiting",
       "url": "https://www.threads.com/@taiwandotmd/post/DZw5BYDE_fT"
     },
@@ -310,7 +310,7 @@
       "n": 147,
       "article": "端午節",
       "platform": "x",
-      "publishedDays": 0,
+      "publishedDays": 1,
       "status": "waiting",
       "url": "https://x.com/taiwandotmd/status/2067914171996614897"
     }
@@ -320,28 +320,28 @@
       "n": 1,
       "article": "數位身分證與個資爭議",
       "platform": "threads",
-      "publishedDays": 87,
+      "publishedDays": 88,
       "status": "NO_URL"
     },
     {
       "n": 2,
       "article": "齊柏林",
       "platform": "threads",
-      "publishedDays": 87,
+      "publishedDays": 88,
       "status": "NO_URL"
     },
     {
       "n": 3,
       "article": "林書豪",
       "platform": "threads",
-      "publishedDays": 76,
+      "publishedDays": 77,
       "status": "NO_URL"
     },
     {
       "n": 12,
       "article": "台灣民主轉型",
       "platform": "threads",
-      "publishedDays": 73,
+      "publishedDays": 74,
       "status": "NO_URL"
     }
   ],
@@ -393,7 +393,7 @@
       "article": "數位身分證與個資爭議",
       "platform": "threads",
       "publishDate": "2026-03-24",
-      "daysSincePublish": 87,
+      "daysSincePublish": 88,
       "withinHarvestWindow": false,
       "harvestCount": 0,
       "lastHarvest": null
@@ -403,7 +403,7 @@
       "article": "齊柏林",
       "platform": "threads",
       "publishDate": "2026-03-24",
-      "daysSincePublish": 87,
+      "daysSincePublish": 88,
       "withinHarvestWindow": false,
       "harvestCount": 0,
       "lastHarvest": null
@@ -413,7 +413,7 @@
       "article": "林書豪",
       "platform": "threads",
       "publishDate": "2026-04-04",
-      "daysSincePublish": 76,
+      "daysSincePublish": 77,
       "withinHarvestWindow": false,
       "harvestCount": 0,
       "lastHarvest": null
@@ -423,7 +423,7 @@
       "article": "台灣國樂",
       "platform": "threads",
       "publishDate": "2026-04-04",
-      "daysSincePublish": 76,
+      "daysSincePublish": 77,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-04-18 20:30 GMT+8"
@@ -433,7 +433,7 @@
       "article": "台灣國樂",
       "platform": "x",
       "publishDate": "2026-04-04",
-      "daysSincePublish": 76,
+      "daysSincePublish": 77,
       "withinHarvestWindow": false,
       "harvestCount": 1,
       "lastHarvest": "2026-05-08"
@@ -443,7 +443,7 @@
       "article": "台灣宗教與寺廟文化",
       "platform": "threads",
       "publishDate": "2026-04-06",
-      "daysSincePublish": 74,
+      "daysSincePublish": 75,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-04-18 20:30 GMT+8"
@@ -453,7 +453,7 @@
       "article": "台灣宗教與寺廟文化",
       "platform": "x",
       "publishDate": "2026-04-06",
-      "daysSincePublish": 74,
+      "daysSincePublish": 75,
       "withinHarvestWindow": false,
       "harvestCount": 1,
       "lastHarvest": "2026-05-08"
@@ -463,7 +463,7 @@
       "article": "嚴長壽",
       "platform": "threads",
       "publishDate": "2026-04-06",
-      "daysSincePublish": 74,
+      "daysSincePublish": 75,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-04-18 20:30 GMT+8"
@@ -473,7 +473,7 @@
       "article": "嚴長壽",
       "platform": "x",
       "publishDate": "2026-04-06",
-      "daysSincePublish": 74,
+      "daysSincePublish": 75,
       "withinHarvestWindow": false,
       "harvestCount": 1,
       "lastHarvest": "2026-05-08"
@@ -483,7 +483,7 @@
       "article": "台灣民主轉型",
       "platform": "threads",
       "publishDate": "2026-04-07",
-      "daysSincePublish": 73,
+      "daysSincePublish": 74,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-04-18 20:30 GMT+8"
@@ -493,7 +493,7 @@
       "article": "台灣民主轉型",
       "platform": "x",
       "publishDate": "2026-04-07",
-      "daysSincePublish": 73,
+      "daysSincePublish": 74,
       "withinHarvestWindow": false,
       "harvestCount": 1,
       "lastHarvest": "2026-05-08"
@@ -503,7 +503,7 @@
       "article": "台灣民主轉型",
       "platform": "threads",
       "publishDate": "2026-04-07",
-      "daysSincePublish": 73,
+      "daysSincePublish": 74,
       "withinHarvestWindow": false,
       "harvestCount": 0,
       "lastHarvest": null
@@ -513,7 +513,7 @@
       "article": "台海危機與兩岸關係發展",
       "platform": "threads",
       "publishDate": "2026-04-08",
-      "daysSincePublish": 72,
+      "daysSincePublish": 73,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-04-18 20:30 GMT+8"
@@ -523,7 +523,7 @@
       "article": "台海危機與兩岸關係發展",
       "platform": "x",
       "publishDate": "2026-04-08",
-      "daysSincePublish": 72,
+      "daysSincePublish": 73,
       "withinHarvestWindow": false,
       "harvestCount": 1,
       "lastHarvest": "2026-05-08"
@@ -533,7 +533,7 @@
       "article": "台灣感性",
       "platform": "threads",
       "publishDate": "2026-04-08",
-      "daysSincePublish": 72,
+      "daysSincePublish": 73,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-04-18 20:30 GMT+8"
@@ -543,7 +543,7 @@
       "article": "台灣感性",
       "platform": "x",
       "publishDate": "2026-04-08",
-      "daysSincePublish": 72,
+      "daysSincePublish": 73,
       "withinHarvestWindow": false,
       "harvestCount": 1,
       "lastHarvest": "2026-05-08"
@@ -553,7 +553,7 @@
       "article": "台灣國防與軍事現代化",
       "platform": null,
       "publishDate": "2026-04-10",
-      "daysSincePublish": 70,
+      "daysSincePublish": 71,
       "withinHarvestWindow": false,
       "harvestCount": 0,
       "lastHarvest": null
@@ -563,7 +563,7 @@
       "article": "台灣國防與軍事現代化",
       "platform": null,
       "publishDate": "2026-04-10",
-      "daysSincePublish": 70,
+      "daysSincePublish": 71,
       "withinHarvestWindow": false,
       "harvestCount": 0,
       "lastHarvest": null
@@ -573,7 +573,7 @@
       "article": "台灣動物用藥爭議",
       "platform": null,
       "publishDate": "2026-04-10",
-      "daysSincePublish": 70,
+      "daysSincePublish": 71,
       "withinHarvestWindow": false,
       "harvestCount": 0,
       "lastHarvest": null
@@ -583,7 +583,7 @@
       "article": "台灣動物用藥爭議",
       "platform": null,
       "publishDate": "2026-04-10",
-      "daysSincePublish": 70,
+      "daysSincePublish": 71,
       "withinHarvestWindow": false,
       "harvestCount": 0,
       "lastHarvest": null
@@ -593,7 +593,7 @@
       "article": "2026鄭習會與國共十年再會",
       "platform": "threads",
       "publishDate": "2026-04-11",
-      "daysSincePublish": 69,
+      "daysSincePublish": 70,
       "withinHarvestWindow": false,
       "harvestCount": 1,
       "lastHarvest": "2026-05-08"
@@ -603,7 +603,7 @@
       "article": "鄭麗文",
       "platform": "threads",
       "publishDate": "2026-04-11",
-      "daysSincePublish": 69,
+      "daysSincePublish": 70,
       "withinHarvestWindow": false,
       "harvestCount": 1,
       "lastHarvest": "2026-05-08"
@@ -613,7 +613,7 @@
       "article": "鄭麗文",
       "platform": "x",
       "publishDate": "2026-04-11",
-      "daysSincePublish": 69,
+      "daysSincePublish": 70,
       "withinHarvestWindow": false,
       "harvestCount": 1,
       "lastHarvest": "2026-05-08"
@@ -623,7 +623,7 @@
       "article": "韓國瑜",
       "platform": "threads",
       "publishDate": "2026-04-13",
-      "daysSincePublish": 67,
+      "daysSincePublish": 68,
       "withinHarvestWindow": false,
       "harvestCount": 1,
       "lastHarvest": "2026-05-08"
@@ -633,7 +633,7 @@
       "article": "張懸與安溥",
       "platform": "threads",
       "publishDate": "2026-04-13",
-      "daysSincePublish": 67,
+      "daysSincePublish": 68,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-05-08"
@@ -643,7 +643,7 @@
       "article": "韓國瑜",
       "platform": "x",
       "publishDate": "2026-04-13",
-      "daysSincePublish": 67,
+      "daysSincePublish": 68,
       "withinHarvestWindow": false,
       "harvestCount": 1,
       "lastHarvest": "2026-05-08"
@@ -653,7 +653,7 @@
       "article": "張懸與安溥",
       "platform": "x",
       "publishDate": "2026-04-13",
-      "daysSincePublish": 67,
+      "daysSincePublish": 68,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-05-08"
@@ -663,7 +663,7 @@
       "article": "李洋（⚠️ 已撤回）",
       "platform": "threads",
       "publishDate": "2026-04-14",
-      "daysSincePublish": 66,
+      "daysSincePublish": 67,
       "withinHarvestWindow": false,
       "harvestCount": 0,
       "lastHarvest": null
@@ -673,7 +673,7 @@
       "article": "🌋 李洋（v2，留言更正）",
       "platform": "threads",
       "publishDate": "2026-04-14",
-      "daysSincePublish": 66,
+      "daysSincePublish": 67,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-05-08"
@@ -683,7 +683,7 @@
       "article": "李洋（v3 場景修正）",
       "platform": "x",
       "publishDate": "2026-04-14",
-      "daysSincePublish": 66,
+      "daysSincePublish": 67,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-05-08"
@@ -693,7 +693,7 @@
       "article": "Cicada（inline 連結實驗）",
       "platform": "threads",
       "publishDate": "2026-04-18",
-      "daysSincePublish": 62,
+      "daysSincePublish": 63,
       "withinHarvestWindow": false,
       "harvestCount": 4,
       "lastHarvest": "2026-05-08"
@@ -703,7 +703,7 @@
       "article": "Cicada（inline 連結實驗）",
       "platform": "x",
       "publishDate": "2026-04-18",
-      "daysSincePublish": 62,
+      "daysSincePublish": 63,
       "withinHarvestWindow": false,
       "harvestCount": 4,
       "lastHarvest": "2026-05-08"
@@ -713,7 +713,7 @@
       "article": "草東沒有派對（v2.1 首例）",
       "platform": "threads",
       "publishDate": "2026-04-18",
-      "daysSincePublish": 62,
+      "daysSincePublish": 63,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-05-08"
@@ -723,7 +723,7 @@
       "article": "草東沒有派對（v2.1 首例）",
       "platform": "x",
       "publishDate": "2026-04-18",
-      "daysSincePublish": 62,
+      "daysSincePublish": 63,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-05-08"
@@ -733,7 +733,7 @@
       "article": "台灣高鐵（v3 事實修正版）",
       "platform": "threads",
       "publishDate": "2026-04-19",
-      "daysSincePublish": 61,
+      "daysSincePublish": 62,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-05-08"
@@ -743,7 +743,7 @@
       "article": "台灣高鐵（v3 事實修正版）",
       "platform": "x",
       "publishDate": "2026-04-19",
-      "daysSincePublish": 61,
+      "daysSincePublish": 62,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-05-08"
@@ -753,7 +753,7 @@
       "article": "Portaly 首兩筆贊助感謝（站方 announcement）",
       "platform": "threads",
       "publishDate": "2026-04-20",
-      "daysSincePublish": 60,
+      "daysSincePublish": 61,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-05-08"
@@ -763,7 +763,7 @@
       "article": "Portaly 首兩筆贊助感謝（站方 announcement）",
       "platform": "x",
       "publishDate": "2026-04-20",
-      "daysSincePublish": 60,
+      "daysSincePublish": 61,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-05-08"
@@ -773,7 +773,7 @@
       "article": "謝德慶",
       "platform": "threads",
       "publishDate": "2026-04-20",
-      "daysSincePublish": 60,
+      "daysSincePublish": 61,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-05-08"
@@ -783,7 +783,7 @@
       "article": "謝德慶",
       "platform": "x",
       "publishDate": "2026-04-20",
-      "daysSincePublish": 60,
+      "daysSincePublish": 61,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-05-08"
@@ -793,7 +793,7 @@
       "article": "認知作戰",
       "platform": "threads",
       "publishDate": "2026-04-23",
-      "daysSincePublish": 57,
+      "daysSincePublish": 58,
       "withinHarvestWindow": false,
       "harvestCount": 5,
       "lastHarvest": "2026-05-08"
@@ -803,7 +803,7 @@
       "article": "認知作戰",
       "platform": "x",
       "publishDate": "2026-04-23",
-      "daysSincePublish": 57,
+      "daysSincePublish": 58,
       "withinHarvestWindow": false,
       "harvestCount": 6,
       "lastHarvest": "2026-05-08"
@@ -813,7 +813,7 @@
       "article": "田馥甄",
       "platform": "threads",
       "publishDate": "2026-04-26",
-      "daysSincePublish": 54,
+      "daysSincePublish": 55,
       "withinHarvestWindow": false,
       "harvestCount": 4,
       "lastHarvest": "2026-05-08"
@@ -823,7 +823,7 @@
       "article": "田馥甄",
       "platform": "x",
       "publishDate": "2026-04-26",
-      "daysSincePublish": 54,
+      "daysSincePublish": 55,
       "withinHarvestWindow": false,
       "harvestCount": 4,
       "lastHarvest": "2026-05-08"
@@ -833,7 +833,7 @@
       "article": "壞特",
       "platform": "threads",
       "publishDate": "2026-04-26",
-      "daysSincePublish": 54,
+      "daysSincePublish": 55,
       "withinHarvestWindow": false,
       "harvestCount": 4,
       "lastHarvest": "2026-05-08"
@@ -843,7 +843,7 @@
       "article": "壞特",
       "platform": "x",
       "publishDate": "2026-04-26",
-      "daysSincePublish": 54,
+      "daysSincePublish": 55,
       "withinHarvestWindow": false,
       "harvestCount": 4,
       "lastHarvest": "2026-05-08"
@@ -853,7 +853,7 @@
       "article": "沈伯洋",
       "platform": "threads",
       "publishDate": "2026-04-28",
-      "daysSincePublish": 52,
+      "daysSincePublish": 53,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-05-08 21:30"
@@ -863,7 +863,7 @@
       "article": "沈伯洋",
       "platform": "x",
       "publishDate": "2026-04-28",
-      "daysSincePublish": 52,
+      "daysSincePublish": 53,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-05-08 21:30"
@@ -873,7 +873,7 @@
       "article": "林琪兒",
       "platform": "threads",
       "publishDate": "2026-04-28",
-      "daysSincePublish": 52,
+      "daysSincePublish": 53,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-05-08 21:30"
@@ -883,7 +883,7 @@
       "article": "林琪兒",
       "platform": "x",
       "publishDate": "2026-04-28",
-      "daysSincePublish": 52,
+      "daysSincePublish": 53,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-05-08 21:30"
@@ -893,7 +893,7 @@
       "article": "台灣邦交國與國際外交",
       "platform": "threads",
       "publishDate": "2026-04-29",
-      "daysSincePublish": 51,
+      "daysSincePublish": 52,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-05-08 21:30"
@@ -903,7 +903,7 @@
       "article": "台灣邦交國與國際外交",
       "platform": "x",
       "publishDate": "2026-04-29",
-      "daysSincePublish": 51,
+      "daysSincePublish": 52,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-05-08 21:30"
@@ -913,7 +913,7 @@
       "article": "黑冠麻鷺",
       "platform": "threads",
       "publishDate": "2026-04-30",
-      "daysSincePublish": 50,
+      "daysSincePublish": 51,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-05-08 21:30"
@@ -923,7 +923,7 @@
       "article": "黑冠麻鷺",
       "platform": "x",
       "publishDate": "2026-04-30",
-      "daysSincePublish": 50,
+      "daysSincePublish": 51,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-05-08 21:30"
@@ -933,7 +933,7 @@
       "article": "海底電纜",
       "platform": "threads",
       "publishDate": "2026-04-30",
-      "daysSincePublish": 50,
+      "daysSincePublish": 51,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-05-08 21:30"
@@ -943,7 +943,7 @@
       "article": "海底電纜",
       "platform": "x",
       "publishDate": "2026-04-30",
-      "daysSincePublish": 50,
+      "daysSincePublish": 51,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-05-08 21:30"
@@ -953,7 +953,7 @@
       "article": "賈永婕",
       "platform": "threads",
       "publishDate": "2026-05-02",
-      "daysSincePublish": 48,
+      "daysSincePublish": 49,
       "withinHarvestWindow": false,
       "harvestCount": 5,
       "lastHarvest": "2026-05-09 10:53"
@@ -963,7 +963,7 @@
       "article": "賈永婕",
       "platform": "x",
       "publishDate": "2026-05-02",
-      "daysSincePublish": 48,
+      "daysSincePublish": 49,
       "withinHarvestWindow": false,
       "harvestCount": 4,
       "lastHarvest": "2026-05-09 10:53"
@@ -973,7 +973,7 @@
       "article": "黃魚鴞",
       "platform": "threads",
       "publishDate": "2026-05-04",
-      "daysSincePublish": 46,
+      "daysSincePublish": 47,
       "withinHarvestWindow": false,
       "harvestCount": 4,
       "lastHarvest": "2026-05-12"
@@ -983,7 +983,7 @@
       "article": "黃魚鴞",
       "platform": "x",
       "publishDate": "2026-05-04",
-      "daysSincePublish": 46,
+      "daysSincePublish": 47,
       "withinHarvestWindow": false,
       "harvestCount": 4,
       "lastHarvest": "2026-05-12"
@@ -993,7 +993,7 @@
       "article": "台灣與史瓦帝尼",
       "platform": "threads",
       "publishDate": "2026-05-05",
-      "daysSincePublish": 45,
+      "daysSincePublish": 46,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-05-12"
@@ -1003,7 +1003,7 @@
       "article": "台灣與史瓦帝尼",
       "platform": "x",
       "publishDate": "2026-05-05",
-      "daysSincePublish": 45,
+      "daysSincePublish": 46,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-05-12"
@@ -1013,7 +1013,7 @@
       "article": "寶島聯播網訪談",
       "platform": "threads",
       "publishDate": "2026-05-05",
-      "daysSincePublish": 45,
+      "daysSincePublish": 46,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-05-12"
@@ -1023,7 +1023,7 @@
       "article": "寶島聯播網訪談",
       "platform": "x",
       "publishDate": "2026-05-05",
-      "daysSincePublish": 45,
+      "daysSincePublish": 46,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-05-12"
@@ -1033,7 +1033,7 @@
       "article": "寶島聯播網訪談（自述版）",
       "platform": "x",
       "publishDate": "2026-05-05",
-      "daysSincePublish": 45,
+      "daysSincePublish": 46,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-05-12"
@@ -1043,7 +1043,7 @@
       "article": "聶永真",
       "platform": "threads",
       "publishDate": "2026-05-08",
-      "daysSincePublish": 42,
+      "daysSincePublish": 43,
       "withinHarvestWindow": false,
       "harvestCount": 6,
       "lastHarvest": "2026-05-16 07:00"
@@ -1053,7 +1053,7 @@
       "article": "聶永真",
       "platform": "x",
       "publishDate": "2026-05-08",
-      "daysSincePublish": 42,
+      "daysSincePublish": 43,
       "withinHarvestWindow": false,
       "harvestCount": 6,
       "lastHarvest": "2026-05-16 07:00"
@@ -1063,7 +1063,7 @@
       "article": "台灣企業：台積電",
       "platform": "threads",
       "publishDate": "2026-05-09",
-      "daysSincePublish": 41,
+      "daysSincePublish": 42,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-05-16 07:00"
@@ -1073,7 +1073,7 @@
       "article": "台灣企業：台積電",
       "platform": "x",
       "publishDate": "2026-05-09",
-      "daysSincePublish": 41,
+      "daysSincePublish": 42,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-05-16 07:00"
@@ -1083,7 +1083,7 @@
       "article": "台灣無人機產業",
       "platform": "threads",
       "publishDate": "2026-05-10",
-      "daysSincePublish": 40,
+      "daysSincePublish": 41,
       "withinHarvestWindow": false,
       "harvestCount": 6,
       "lastHarvest": "2026-05-18 07:00"
@@ -1093,7 +1093,7 @@
       "article": "台灣無人機產業【未發布】",
       "platform": "x",
       "publishDate": "2026-05-10",
-      "daysSincePublish": 40,
+      "daysSincePublish": 41,
       "withinHarvestWindow": false,
       "harvestCount": 0,
       "lastHarvest": null
@@ -1103,7 +1103,7 @@
       "article": "蘋果西打",
       "platform": "threads",
       "publishDate": "2026-05-12",
-      "daysSincePublish": 38,
+      "daysSincePublish": 39,
       "withinHarvestWindow": false,
       "harvestCount": 6,
       "lastHarvest": "2026-05-19 07:00"
@@ -1113,7 +1113,7 @@
       "article": "蘋果西打",
       "platform": "x",
       "publishDate": "2026-05-12",
-      "daysSincePublish": 38,
+      "daysSincePublish": 39,
       "withinHarvestWindow": false,
       "harvestCount": 6,
       "lastHarvest": "2026-05-19 07:00"
@@ -1123,7 +1123,7 @@
       "article": "陳建年",
       "platform": "threads",
       "publishDate": "2026-05-17",
-      "daysSincePublish": 33,
+      "daysSincePublish": 34,
       "withinHarvestWindow": false,
       "harvestCount": 7,
       "lastHarvest": "2026-05-24 07:00"
@@ -1133,7 +1133,7 @@
       "article": "陳建年",
       "platform": "x",
       "publishDate": "2026-05-17",
-      "daysSincePublish": 33,
+      "daysSincePublish": 34,
       "withinHarvestWindow": false,
       "harvestCount": 6,
       "lastHarvest": "2026-05-24 07:00"
@@ -1143,7 +1143,7 @@
       "article": "臺灣前途決議文",
       "platform": "threads",
       "publishDate": "2026-05-17",
-      "daysSincePublish": 33,
+      "daysSincePublish": 34,
       "withinHarvestWindow": false,
       "harvestCount": 7,
       "lastHarvest": "2026-05-24 07:00"
@@ -1153,7 +1153,7 @@
       "article": "臺灣前途決議文",
       "platform": "x",
       "publishDate": "2026-05-17",
-      "daysSincePublish": 33,
+      "daysSincePublish": 34,
       "withinHarvestWindow": false,
       "harvestCount": 6,
       "lastHarvest": "2026-05-24 07:00"
@@ -1163,7 +1163,7 @@
       "article": "泛科學",
       "platform": "threads",
       "publishDate": "2026-05-20",
-      "daysSincePublish": 30,
+      "daysSincePublish": 31,
       "withinHarvestWindow": false,
       "harvestCount": 6,
       "lastHarvest": "2026-05-27 07:00"
@@ -1173,7 +1173,7 @@
       "article": "馬英九",
       "platform": "threads",
       "publishDate": "2026-05-23",
-      "daysSincePublish": 27,
+      "daysSincePublish": 28,
       "withinHarvestWindow": false,
       "harvestCount": 9,
       "lastHarvest": "2026-06-02 06:30"
@@ -1183,7 +1183,7 @@
       "article": "馬英九",
       "platform": "x",
       "publishDate": "2026-05-23",
-      "daysSincePublish": 27,
+      "daysSincePublish": 28,
       "withinHarvestWindow": false,
       "harvestCount": 5,
       "lastHarvest": "2026-06-13 06:38"
@@ -1193,7 +1193,7 @@
       "article": "許倬雲",
       "platform": "threads",
       "publishDate": "2026-05-23",
-      "daysSincePublish": 27,
+      "daysSincePublish": 28,
       "withinHarvestWindow": false,
       "harvestCount": 9,
       "lastHarvest": "2026-06-02 06:30"
@@ -1203,7 +1203,7 @@
       "article": "許倬雲",
       "platform": "x",
       "publishDate": "2026-05-23",
-      "daysSincePublish": 27,
+      "daysSincePublish": 28,
       "withinHarvestWindow": false,
       "harvestCount": 5,
       "lastHarvest": "2026-06-13 06:38"
@@ -1213,7 +1213,7 @@
       "article": "臺灣漫遊錄",
       "platform": "threads",
       "publishDate": "2026-05-23",
-      "daysSincePublish": 27,
+      "daysSincePublish": 28,
       "withinHarvestWindow": false,
       "harvestCount": 8,
       "lastHarvest": "2026-06-02 06:30"
@@ -1223,7 +1223,7 @@
       "article": "臺灣漫遊錄",
       "platform": "x",
       "publishDate": "2026-05-23",
-      "daysSincePublish": 27,
+      "daysSincePublish": 28,
       "withinHarvestWindow": false,
       "harvestCount": 4,
       "lastHarvest": "2026-06-13 06:38"
@@ -1233,7 +1233,7 @@
       "article": "鄭愁予",
       "platform": "threads",
       "publishDate": "2026-05-24",
-      "daysSincePublish": 26,
+      "daysSincePublish": 27,
       "withinHarvestWindow": false,
       "harvestCount": 8,
       "lastHarvest": "2026-06-02 06:30"
@@ -1243,7 +1243,7 @@
       "article": "半導體產業",
       "platform": "threads",
       "publishDate": "2026-05-25",
-      "daysSincePublish": 25,
+      "daysSincePublish": 26,
       "withinHarvestWindow": false,
       "harvestCount": 7,
       "lastHarvest": "2026-06-02 06:30"
@@ -1253,7 +1253,7 @@
       "article": "半導體產業",
       "platform": "x",
       "publishDate": "2026-05-25",
-      "daysSincePublish": 25,
+      "daysSincePublish": 26,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-06-13 06:38"
@@ -1263,7 +1263,7 @@
       "article": "雷亞遊戲",
       "platform": "threads",
       "publishDate": "2026-05-25",
-      "daysSincePublish": 25,
+      "daysSincePublish": 26,
       "withinHarvestWindow": false,
       "harvestCount": 7,
       "lastHarvest": "2026-06-02 06:30"
@@ -1273,7 +1273,7 @@
       "article": "雷亞遊戲",
       "platform": "x",
       "publishDate": "2026-05-25",
-      "daysSincePublish": 25,
+      "daysSincePublish": 26,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-06-13 06:38"
@@ -1283,7 +1283,7 @@
       "article": "江賢二",
       "platform": "threads",
       "publishDate": "2026-05-25",
-      "daysSincePublish": 25,
+      "daysSincePublish": 26,
       "withinHarvestWindow": false,
       "harvestCount": 7,
       "lastHarvest": "2026-06-02 06:30"
@@ -1293,7 +1293,7 @@
       "article": "大宇雙劍",
       "platform": "threads",
       "publishDate": "2026-05-26",
-      "daysSincePublish": 24,
+      "daysSincePublish": 25,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-06-02 06:30"
@@ -1303,7 +1303,7 @@
       "article": "國家人權博物館",
       "platform": "threads",
       "publishDate": "2026-05-26",
-      "daysSincePublish": 24,
+      "daysSincePublish": 25,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-06-02 06:30"
@@ -1313,7 +1313,7 @@
       "article": "大宇雙劍",
       "platform": "x",
       "publishDate": "2026-05-26",
-      "daysSincePublish": 24,
+      "daysSincePublish": 25,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-06-13 06:38"
@@ -1323,7 +1323,7 @@
       "article": "尹衍樑",
       "platform": "threads",
       "publishDate": "2026-05-26",
-      "daysSincePublish": 24,
+      "daysSincePublish": 25,
       "withinHarvestWindow": false,
       "harvestCount": 6,
       "lastHarvest": "2026-06-02 06:30"
@@ -1333,7 +1333,7 @@
       "article": "尹衍樑",
       "platform": "x",
       "publishDate": "2026-05-26",
-      "daysSincePublish": 24,
+      "daysSincePublish": 25,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-06-13 06:38"
@@ -1343,7 +1343,7 @@
       "article": "台灣美食總覽",
       "platform": "threads",
       "publishDate": "2026-05-27",
-      "daysSincePublish": 23,
+      "daysSincePublish": 24,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-06-13 06:38"
@@ -1353,7 +1353,7 @@
       "article": "台灣美食總覽",
       "platform": "x",
       "publishDate": "2026-05-27",
-      "daysSincePublish": 23,
+      "daysSincePublish": 24,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-06-13 06:38"
@@ -1363,7 +1363,7 @@
       "article": "portaly-五月公開信",
       "platform": "threads",
       "publishDate": "2026-05-27",
-      "daysSincePublish": 23,
+      "daysSincePublish": 24,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-06-13 06:38"
@@ -1373,7 +1373,7 @@
       "article": "portaly-五月公開信",
       "platform": "x",
       "publishDate": "2026-05-27",
-      "daysSincePublish": 23,
+      "daysSincePublish": 24,
       "withinHarvestWindow": false,
       "harvestCount": 1,
       "lastHarvest": "2026-06-13 06:38"
@@ -1383,7 +1383,7 @@
       "article": "落日飛車",
       "platform": "threads",
       "publishDate": "2026-05-27",
-      "daysSincePublish": 23,
+      "daysSincePublish": 24,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-06-13 06:38"
@@ -1393,7 +1393,7 @@
       "article": "落日飛車",
       "platform": "x",
       "publishDate": "2026-05-27",
-      "daysSincePublish": 23,
+      "daysSincePublish": 24,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-06-13 06:38"
@@ -1403,7 +1403,7 @@
       "article": "周蕙",
       "platform": "threads",
       "publishDate": "2026-05-28",
-      "daysSincePublish": 22,
+      "daysSincePublish": 23,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-06-13 06:38"
@@ -1413,7 +1413,7 @@
       "article": "周蕙",
       "platform": "x",
       "publishDate": "2026-05-28",
-      "daysSincePublish": 22,
+      "daysSincePublish": 23,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-06-13 06:38"
@@ -1423,7 +1423,7 @@
       "article": "科技園區發展",
       "platform": "threads",
       "publishDate": "2026-05-29",
-      "daysSincePublish": 21,
+      "daysSincePublish": 22,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-06-14 06:30"
@@ -1433,7 +1433,7 @@
       "article": "科技園區發展",
       "platform": "x",
       "publishDate": "2026-05-29",
-      "daysSincePublish": 21,
+      "daysSincePublish": 22,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-06-14 06:30"
@@ -1443,7 +1443,7 @@
       "article": "Computex",
       "platform": "threads",
       "publishDate": "2026-06-01",
-      "daysSincePublish": 18,
+      "daysSincePublish": 19,
       "withinHarvestWindow": false,
       "harvestCount": 1,
       "lastHarvest": "2026-06-14 06:30"
@@ -1453,7 +1453,7 @@
       "article": "Computex",
       "platform": "x",
       "publishDate": "2026-06-01",
-      "daysSincePublish": 18,
+      "daysSincePublish": 19,
       "withinHarvestWindow": false,
       "harvestCount": 1,
       "lastHarvest": "2026-06-14 06:30"
@@ -1463,7 +1463,7 @@
       "article": "天燈",
       "platform": "threads",
       "publishDate": "2026-06-03",
-      "daysSincePublish": 16,
+      "daysSincePublish": 17,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-06-11 06:30"
@@ -1473,7 +1473,7 @@
       "article": "天燈",
       "platform": "x",
       "publishDate": "2026-06-03",
-      "daysSincePublish": 16,
+      "daysSincePublish": 17,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-06-14 06:30"
@@ -1483,7 +1483,7 @@
       "article": "颱風",
       "platform": "threads",
       "publishDate": "2026-06-03",
-      "daysSincePublish": 16,
+      "daysSincePublish": 17,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-06-11 06:30"
@@ -1493,7 +1493,7 @@
       "article": "颱風",
       "platform": "x",
       "publishDate": "2026-06-03",
-      "daysSincePublish": 16,
+      "daysSincePublish": 17,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-06-14 06:30"
@@ -1503,7 +1503,7 @@
       "article": "開放文化基金會",
       "platform": "threads",
       "publishDate": "2026-06-03",
-      "daysSincePublish": 16,
+      "daysSincePublish": 17,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-06-11 06:30"
@@ -1513,7 +1513,7 @@
       "article": "開放文化基金會",
       "platform": "x",
       "publishDate": "2026-06-03",
-      "daysSincePublish": 16,
+      "daysSincePublish": 17,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-06-14 06:30"
@@ -1523,7 +1523,7 @@
       "article": "中華台北",
       "platform": "threads",
       "publishDate": "2026-06-04",
-      "daysSincePublish": 15,
+      "daysSincePublish": 16,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-06-11 06:30"
@@ -1533,7 +1533,7 @@
       "article": "中華台北",
       "platform": "x",
       "publishDate": "2026-06-04",
-      "daysSincePublish": 15,
+      "daysSincePublish": 16,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-06-14 06:30"
@@ -1543,7 +1543,7 @@
       "article": "國家太空中心",
       "platform": "threads",
       "publishDate": "2026-06-04",
-      "daysSincePublish": 15,
+      "daysSincePublish": 16,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-06-11 06:30"
@@ -1553,7 +1553,7 @@
       "article": "國家太空中心",
       "platform": "x",
       "publishDate": "2026-06-04",
-      "daysSincePublish": 15,
+      "daysSincePublish": 16,
       "withinHarvestWindow": false,
       "harvestCount": 1,
       "lastHarvest": "2026-06-14 06:30"
@@ -1563,7 +1563,7 @@
       "article": "我是OO人",
       "platform": "threads",
       "publishDate": "2026-06-05",
-      "daysSincePublish": 14,
+      "daysSincePublish": 15,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-06-14 06:30"
@@ -1573,7 +1573,7 @@
       "article": "我是OO人",
       "platform": "x",
       "publishDate": "2026-06-05",
-      "daysSincePublish": 14,
+      "daysSincePublish": 15,
       "withinHarvestWindow": false,
       "harvestCount": 1,
       "lastHarvest": "2026-06-14 06:30"
@@ -1583,7 +1583,7 @@
       "article": "國宅與居住正義",
       "platform": "threads",
       "publishDate": "2026-06-06",
-      "daysSincePublish": 13,
+      "daysSincePublish": 14,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-06-14 06:30"
@@ -1593,7 +1593,7 @@
       "article": "國宅與居住正義",
       "platform": "x",
       "publishDate": "2026-06-06",
-      "daysSincePublish": 13,
+      "daysSincePublish": 14,
       "withinHarvestWindow": false,
       "harvestCount": 1,
       "lastHarvest": "2026-06-14 06:30"
@@ -1603,7 +1603,7 @@
       "article": "黃山料",
       "platform": "threads",
       "publishDate": "2026-06-07",
-      "daysSincePublish": 12,
+      "daysSincePublish": 13,
       "withinHarvestWindow": false,
       "harvestCount": 4,
       "lastHarvest": "2026-06-14 06:30"
@@ -1613,7 +1613,7 @@
       "article": "黃山料",
       "platform": "x",
       "publishDate": "2026-06-07",
-      "daysSincePublish": 12,
+      "daysSincePublish": 13,
       "withinHarvestWindow": false,
       "harvestCount": 2,
       "lastHarvest": "2026-06-14 06:30"
@@ -1623,7 +1623,7 @@
       "article": "台灣嘻哈與饒舌發展",
       "platform": "threads",
       "publishDate": "2026-06-09",
-      "daysSincePublish": 10,
+      "daysSincePublish": 11,
       "withinHarvestWindow": false,
       "harvestCount": 6,
       "lastHarvest": "2026-06-16 20:39"
@@ -1633,7 +1633,7 @@
       "article": "台灣嘻哈與饒舌發展",
       "platform": "x",
       "publishDate": "2026-06-09",
-      "daysSincePublish": 10,
+      "daysSincePublish": 11,
       "withinHarvestWindow": false,
       "harvestCount": 3,
       "lastHarvest": "2026-06-16 20:39"
@@ -1643,7 +1643,7 @@
       "article": "天下雜誌",
       "platform": "threads",
       "publishDate": "2026-06-13",
-      "daysSincePublish": 6,
+      "daysSincePublish": 7,
       "withinHarvestWindow": true,
       "harvestCount": 5,
       "lastHarvest": "2026-06-18 06:30"
@@ -1653,7 +1653,7 @@
       "article": "天下雜誌",
       "platform": "x",
       "publishDate": "2026-06-13",
-      "daysSincePublish": 6,
+      "daysSincePublish": 7,
       "withinHarvestWindow": true,
       "harvestCount": 4,
       "lastHarvest": "2026-06-18 06:30"
@@ -1663,7 +1663,7 @@
       "article": "taiwan-md-83天里程碑",
       "platform": "threads",
       "publishDate": "2026-06-13",
-      "daysSincePublish": 6,
+      "daysSincePublish": 7,
       "withinHarvestWindow": true,
       "harvestCount": 6,
       "lastHarvest": "2026-06-18 06:30"
@@ -1673,7 +1673,7 @@
       "article": "taiwan-md-83天里程碑",
       "platform": "x",
       "publishDate": "2026-06-13",
-      "daysSincePublish": 6,
+      "daysSincePublish": 7,
       "withinHarvestWindow": true,
       "harvestCount": 4,
       "lastHarvest": "2026-06-18 06:30"
@@ -1683,7 +1683,7 @@
       "article": "無名小站",
       "platform": "threads",
       "publishDate": "2026-06-14",
-      "daysSincePublish": 5,
+      "daysSincePublish": 6,
       "withinHarvestWindow": true,
       "harvestCount": 5,
       "lastHarvest": "2026-06-18 06:30"
@@ -1693,7 +1693,7 @@
       "article": "無名小站",
       "platform": "x",
       "publishDate": "2026-06-14",
-      "daysSincePublish": 5,
+      "daysSincePublish": 6,
       "withinHarvestWindow": true,
       "harvestCount": 4,
       "lastHarvest": "2026-06-18 06:30"
@@ -1703,7 +1703,7 @@
       "article": "迷音Miin",
       "platform": "threads",
       "publishDate": "2026-06-16",
-      "daysSincePublish": 3,
+      "daysSincePublish": 4,
       "withinHarvestWindow": true,
       "harvestCount": 4,
       "lastHarvest": "2026-06-18 06:30"
@@ -1713,7 +1713,7 @@
       "article": "迷音Miin",
       "platform": "x",
       "publishDate": "2026-06-16",
-      "daysSincePublish": 3,
+      "daysSincePublish": 4,
       "withinHarvestWindow": true,
       "harvestCount": 3,
       "lastHarvest": "2026-06-18 06:30"
@@ -1723,7 +1723,7 @@
       "article": "報導者",
       "platform": "threads",
       "publishDate": "2026-06-16",
-      "daysSincePublish": 3,
+      "daysSincePublish": 4,
       "withinHarvestWindow": true,
       "harvestCount": 3,
       "lastHarvest": "2026-06-18 06:30"
@@ -1733,7 +1733,7 @@
       "article": "報導者",
       "platform": "x",
       "publishDate": "2026-06-16",
-      "daysSincePublish": 3,
+      "daysSincePublish": 4,
       "withinHarvestWindow": true,
       "harvestCount": 3,
       "lastHarvest": "2026-06-18 06:30"
@@ -1743,7 +1743,7 @@
       "article": "端午節",
       "platform": "threads",
       "publishDate": "2026-06-19",
-      "daysSincePublish": 0,
+      "daysSincePublish": 1,
       "withinHarvestWindow": true,
       "harvestCount": 0,
       "lastHarvest": null
@@ -1753,7 +1753,7 @@
       "article": "端午節",
       "platform": "x",
       "publishDate": "2026-06-19",
-      "daysSincePublish": 0,
+      "daysSincePublish": 1,
       "withinHarvestWindow": true,
       "harvestCount": 0,
       "lastHarvest": null

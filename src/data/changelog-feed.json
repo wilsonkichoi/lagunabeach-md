@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-06-19T15:09:19.909Z",
+  "generatedAt": "2026-06-19T22:11:24.906Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "241502d1deeab013707db9f99dc0a47bf631e9c6",
+      "date": "2026-06-20T05:12:53+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] embeddings: nightly fleet-down graceful skip (連續第 3 夜) + escalate LESSONS — 2026-06-20",
+      "articles": []
+    },
+    {
+      "hash": "9d9c69d1fb8310f5e531a45abe4fceb50853447e",
+      "date": "2026-06-20T01:17:49+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-20-011539-twmd-babel-nightly — 75 translations stale=0 連續第四夜 + 3 silent killer 抓到",
+      "articles": []
+    },
+    {
+      "hash": "4bc443893a8dc7504ab4a17d8d4d20533cef746c",
+      "date": "2026-06-20T01:15:18+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: 75 translations shipped — stale=0 4 路 cascade 連續第四夜 — 2026-06-20",
+      "articles": []
+    },
+    {
+      "hash": "3200d22112f35307b4e4cb4abcd67eb88828c532",
+      "date": "2026-06-19T23:12:33+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] refresh: pm 14-step data refresh — 三源全綠 + Step 11 11/11 fresh + immune 52 carry",
+      "articles": []
+    },
     {
       "hash": "90fc0cadd8c25bf936888a389ff1f663b78be1b3",
       "date": "2026-06-19T22:06:50+08:00",

@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-06-19T15:09:26.751Z",
+  "lastUpdated": "2026-06-19T22:11:31.727Z",
   "totalArticles": 811,
   "contributors": 61,
-  "stars": 1057,
-  "forks": 154,
+  "stars": 1059,
+  "forks": 155,
   "articlesLast7Days": 58,
   "articlesLast30Days": 151,
   "humanReviewedPercent": 25.4,
@@ -11,10 +11,10 @@
   "avgRevision": 8,
   "languageCoverage": {
     "zh-TW": 811,
-    "en": 811,
-    "ja": 806,
-    "ko": 807,
-    "es": 806,
-    "fr": 807
+    "en": 816,
+    "ja": 811,
+    "ko": 812,
+    "es": 811,
+    "fr": 812
   }
 }

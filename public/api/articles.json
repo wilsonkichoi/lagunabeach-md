@@ -126,6 +126,17 @@
     "path": "ja/About/founder.md"
   },
   {
+    "title": "'The 228 Incident'",
+    "description": "How a widow's illicit cigarette stall ignited thirty-eight years of silence across Taiwan: the ten days in 1947 that changed Taiwan's fate, and the wound still healing seventy-eight years later",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/history/228-incident",
+    "readingTime": 102,
+    "featured": true,
+    "date": "2026-03-31",
+    "path": "en/History/228-incident.md"
+  },
+  {
     "title": "'더 리포터': 탐사보도를 영업 항목에서 공공재로 구해낸 10년",
     "description": "정기 정액 기부자 4명에서 매월 8,000명으로, 《피눈물 어장》 3부작에서 2026년 통일전선 특집까지, 《더 리포터》가 10년 동안 태워 넣은 비용, 곧 8개월 잠입, 3개국을 넘나든 취재, 여러 해의 위반 기록 대조는 알고리즘 시대에 사람들이 가장 돈을 내고 보려 하지 않는 것들이다. 이 섬의 시민사회는 낯선 이들이 매달 자동이체하는 방식으로, 탐사보도를 상업 미디어의 영업 항목에서 계속 길러야 하지만 점점 더 빨리 타들어 가는 공공재로 구해냈다.",
     "category": "ko",
@@ -837,6 +848,25 @@
     "path": "Politics/九合一選舉是什麼.md"
   },
   {
+    "title": "二・二八事件",
+    "description": "ある寡婦の闇たばこ屋台は、いかにして一つの島の三十八年にわたる沈黙に火をつけたのか――1947年に台湾の運命を変えた十日間、そして七十八年後もなお癒えつつある傷",
+    "category": "ja",
+    "tags": [
+      "歴史",
+      "政治",
+      "移行期正義",
+      "白色テロ",
+      "民主化",
+      "戒厳",
+      "二・二八"
+    ],
+    "url": "https://taiwan.md/ja/history/february-28-incident-and-white-terror-taiwan-authoritarian-rule-trauma-and-memory",
+    "readingTime": 40,
+    "featured": true,
+    "date": "2026-03-31",
+    "path": "ja/History/february-28-incident-and-white-terror-taiwan-authoritarian-rule-trauma-and-memory.md"
+  },
+  {
     "title": "二二八事件",
     "description": "一個寡婦的私菸攤，如何點燃一座島嶼三十八年的沉默——1947年改變台灣命運的十天，以及七十八年後仍在癒合的傷",
     "category": "History",
@@ -854,25 +884,6 @@
     "featured": true,
     "date": "2026-03-31",
     "path": "History/二二八事件.md"
-  },
-  {
-    "title": "二二八事件",
-    "description": "ある未亡人の闇煙草売り台が、いかにして一つの島の三十八年の沈黙を点火したか——1947年に台湾の運命を変えた十日間、そして七十八年を経てもなお癒えぬ傷",
-    "category": "ja",
-    "tags": [
-      "歴史",
-      "政治",
-      "移行期正義",
-      "白色テロ",
-      "民主化",
-      "戒厳",
-      "二二八"
-    ],
-    "url": "https://taiwan.md/ja/history/february-28-incident-and-white-terror-taiwan-authoritarian-rule-trauma-and-memory",
-    "readingTime": 2,
-    "featured": true,
-    "date": "2026-03-31",
-    "path": "ja/History/february-28-incident-and-white-terror-taiwan-authoritarian-rule-trauma-and-memory.md"
   },
   {
     "title": "人間雜誌",
@@ -4072,15 +4083,7 @@
     "title": "台湾KTV文化：好楽迪・銭櫃から個室社交への時代変遷",
     "description": "台湾KTV文化の発展の歩みを探る。日本から導入されたカラオケから本土化された個室文化、好楽迪と銭櫃の競争時代、カラオケランキングがポップカルチャーの指標となった経緯、そしてコロナ禍後の産業変革の課題までを解説します。",
     "category": "ja",
-    "tags": [
-      "KTV文化",
-      "カラオケ",
-      "好楽迪",
-      "銭櫃",
-      "個室文化",
-      "ポップミュージック",
-      "ソーシャルカルチャー"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ja/music/ktv-culture",
     "readingTime": 39,
     "featured": true,
@@ -4215,6 +4218,17 @@
     "featured": false,
     "date": "2026-04-30",
     "path": "ja/Nature/formosan-sambar-deer.md"
+  },
+  {
+    "title": "台湾スポーツ発展とオリンピック：「チャイニーズ・タイペイ」と呼ばれるチーム",
+    "description": "1976年のモントリオールで、カナダは「Taiwan」への改名を求め、蔣経国は国辱とみなして出場を辞退しました。2024年のパリで、麟洋ペアが男子ダブルス連覇を果たした夜、会場全体が梅花旗に合わせて国旗歌の歌詞を高らかに歌いました。入場できなかった「台湾」から、世界が Taiwan と呼び始めるまで、「中華台北」と呼ばれるこの帽子は、どの世代の金メダルもその重みをかぶってきました。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/society/taiwan-sports-olympics",
+    "readingTime": 58,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "ja/Society/taiwan-sports-olympics.md"
   },
   {
     "title": "台湾ソフトウェア産業の発展",
@@ -6080,6 +6094,17 @@
     "featured": false,
     "date": "2026-04-23",
     "path": "ja/Technology/taiwan-gamers-wildest-moments.md"
+  },
+  {
+    "title": "台湾ポップミュージック：世界のために花嫁衣装を仕立てた島に、最後に残ったのは他者が歌えないものを歌えることでした",
+    "description": "1997年、台湾はアジア第2位のレコード市場であり、華語音楽圏の楽曲の8割がここで制作されていました。2005年には産業規模が4分の1に縮小し、市場は中国に追い抜かれ、全盛期の周杰倫でさえアルバム1枚の売上は30万枚にとどまりました。ほかの場所では、歌が歌詞の一節、旗の一枚、ひとつの忌避事項によって消されることがあります。規模で敗れたこの島は、「歌えるかどうか」そのものを、最後にして最も硬い切り札に変えたのです。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/music/golden-melodies-legacy-taiwan-pop-music",
+    "readingTime": 83,
+    "featured": true,
+    "date": "2026-06-19",
+    "path": "ja/Music/golden-melodies-legacy-taiwan-pop-music.md"
   },
   {
     "title": "台湾マージャン：おばあちゃんは教えてくれないが、明星三欠一是教えてくれる",
@@ -12628,6 +12653,17 @@
     "path": "ja/Culture/national-palace-museum.md"
   },
   {
+    "title": "国定休日：「出勤しなくてよい日」で書かれた台湾史",
+    "description": "中華民国で最初の法定国定休日は、双十節でも元日でもなく、1997 年の二二八でした。日本統治時代の 6 月 17 日「恥政記念日」から、2025 年に立法院で紛糾した「光復 vs 終戦」まで、暦上の赤字はそれぞれ、ある政権が台湾は何を記念すべきか、誰に属するのかに答えたものです。ただし、休日は国民国家の問題だけではありません。それは同時に、労働者が休むべきかどうかという問題でもあります。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/society/national-holidays",
+    "readingTime": 75,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "ja/Society/national-holidays.md"
+  },
+  {
     "title": "国家人権博物館：涙の碑に書かれなかった名前",
     "description": "1999年の国際人権デー、李登輝は緑島で「涙の碑」を自ら除幕しました。柏楊は28字で、すべての母親が長い夜に流した涙を書き尽くしましたが、加害者の名前は一人も書きませんでした。6年の準備、2018年の看板除幕、2025年の予算凍結。国家が自ら建て、自らが行ったことを記念する博物館です。しかし解厳から39年、一人の加害者も司法裁判を受けていません。",
     "category": "ja",
@@ -13782,6 +13818,25 @@
     "featured": false,
     "date": "2026-06-19",
     "path": "People/金城武.md"
+  },
+  {
+    "title": "金城武：誰にも気づかれない「一般人」から、世界に忘れられることだけを望むアジアのトップスターへ",
+    "description": "2025年の街頭インタビュー報道は、彼を「一般人」と表示しました。それはおそらく、金城武が最も望んでいた瞬間でした。17歳でバイクを買うために広告に出演してから、台湾・日本・香港をまたぐ国際的大スターになるまで、彼は常に芸能界の頂点で「消える」練習を続けてきました。",
+    "category": "ja",
+    "tags": [
+      "金城武",
+      "台湾映画",
+      "エバー航空",
+      "王家衛",
+      "隠居",
+      "鬼武者",
+      "太平輪"
+    ],
+    "url": "https://taiwan.md/ja/people/takeshi-kaneshiro",
+    "readingTime": 20,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "ja/People/takeshi-kaneshiro.md"
   },
   {
     "title": "金針菇",
@@ -18770,6 +18825,17 @@
     "path": "People/黃震南.md"
   },
   {
+    "title": "黄大煒：2、3時間で書いた歌を、彼は人生の後半をかけて忘れようとしました",
+    "description": "1979年、ハワイのある体育館で、15歳の黄大煒はヘヴィメタルのコンサートを見たあと、家に帰って教師にもらったギターを相手に独学を始めました。中国語はあまり得意ではなく、姚若龍や陳家麗に自分の感情を歌詞へと訳してもらいながら、かすれた声で華語音楽界に裸一貫で道を切り開きました。〈你把我灌醉〉は2、3時間で書き上げた曲でしたが、彼は人生の後半をかけてそれを忘れようとしました。彼は張学良をいつも「外公」と呼んでいましたが、厳密な続柄では姪外孫です。家柄と一曲の名曲によって定義されることから生涯逃れようとしたにもかかわらず、世界はその二つだけで彼を記憶しました。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/people/david-wong",
+    "readingTime": 67,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "ja/People/david-wong.md"
+  },
+  {
     "title": "黄仁勳",
     "description": "ケンタッキー州の寄宿学校から五兆ドル規模の帝国へ――トイレ掃除をしていた台南出身の少年が、十年後に訪れる未来に賭けた物語",
     "category": "ja",
@@ -18848,17 +18914,6 @@
     "featured": true,
     "date": "2026-03-24",
     "path": "ja/Culture/taiwanese-tea-culture-and-living-aesthetics.md"
-  },
-  {
-    "title": "黄金の旋律の継承：台湾ポピュラー音楽の歴史と文化的地位",
-    "description": "民歌音楽運動から周杰倫現象まで、台湾ポピュラー音楽が華語音楽の地図をどのように形づくってきたかを探ります",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/music/golden-melodies-legacy-taiwan-pop-music",
-    "readingTime": 28,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "ja/Music/golden-melodies-legacy-taiwan-pop-music.md"
   },
   {
     "title": "黄春明：羅東1935、『海を見る日々』から『息子の大きな人形』までの小人物の書き手",
@@ -20104,6 +20159,17 @@
     "featured": false,
     "date": "2026-06-19",
     "path": "Culture/端午節.md"
+  },
+  {
+    "title": "端午節：古人が死に対抗するための道具一式を、台湾人は年に一度の団らんにしました",
+    "description": "2025 年の国中教育会考では、十五歳の生徒に実験を設計させ、「端午の卵立て」という迷信に反論させる問題が出ました。この場面には、この節日の秘密が凝縮されています。ヨモギ、雄黄酒、午時水、立てられた卵は、もともとすべて古人が疫病と死に対抗するための道具でした。科学はそれらの薬効を一つずつ突き崩しましたが、台湾の端午は誰よりも力強く生き続けています。薬効が期限切れになっても、台湾人は変わらず毎年それを服用しているのです。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/culture/dragon-boat-festival",
+    "readingTime": 71,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "ja/Culture/dragon-boat-festival.md"
   },
   {
     "title": "粽子",
@@ -22464,20 +22530,14 @@
     "path": "ja/People/huai-te-indie-singer.md"
   },
   {
-    "title": "羅大佑：放射科医師の経歴から1982年『之乎者也』へ、2025年新アルバムまで",
-    "description": "1954年7月20日、台北にて出生。中国醫藥学院（現・中国醫藥大学）にて約1980/81年卒業（69学年度）、放射科医師を務めた。1982年4月21日、初ソロアルバム『之乎者也』を発売し、華語ポップミュージックにおける社会批評の道を切り開いた。2017年『家III』。2023年『愛・河・人間』、2024年『地球母親』、2025年『季春四望夜雨愁』と、70歳にしてなお創作を続けている。",
+    "title": "羅大佑：台湾の根なし草を歌い尽くした人、自身は十九回引っ越してなお道を探しています",
+    "description": "1970年代、台中のある医学大学の解剖実習室で、放射線科の医学生が人目を避けて歌の練習をしていました。「あそこは反響がよく、誰にも歌っていることがわからない」からです。のちに彼は〈鹿港小鎮〉〈亞細亞的孤兒〉〈東方之珠〉を書き、世代全体に代わって「私は誰なのか」と問いかけました。けれども、根を失った人々を歌い尽くしたこの人自身も、台北からニューヨーク、香港、北京へと移り住み、二十九年で十九回も家を替えました。七十歳になった年、彼は自分のことをただの「たいした生存者」だと語りました。",
     "category": "ja",
-    "tags": [
-      "音楽",
-      "シンガーソングライター",
-      "社会批評",
-      "ポップミュージック",
-      "之乎者也"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ja/people/luo-dayou",
-    "readingTime": 15,
+    "readingTime": 59,
     "featured": false,
-    "date": "2026-03-19",
+    "date": "2026-06-19",
     "path": "ja/People/luo-dayou.md"
   },
   {
@@ -27970,6 +28030,39 @@
     "path": "en/People/daptoper-roblox-youtuber.md"
   },
   {
+    "title": "David Wong : la chanson écrite en deux ou trois heures qu'il a passé la seconde moitié de sa vie à vouloir oublier",
+    "description": "Dans un gymnase de Hawaï en 1979, David Wong, quinze ans, assiste à un concert de heavy metal, puis rentre chez lui apprendre seul la guitare offerte par un professeur. Il parle mal chinois ; il s'appuie sur Yao Jo-lung et Chen Chia-li pour transformer ses sentiments en paroles, et se fait une place dans la musique mandopop avec sa voix rauque. 〈你把我灌醉〉 est écrite en deux ou trois heures, mais il passe la seconde moitié de sa vie à vouloir l'oublier. Il appelait d'ordinaire Chang Hsueh-liang « grand-père maternel » ; en stricte généalogie, il était en fait son petit-neveu par alliance maternelle. Toute sa vie, il a voulu échapper à la définition par sa lignée et par une chanson culte ; le monde, pourtant, ne se souvient de lui qu'à travers ces deux choses.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/people/david-wong",
+    "readingTime": 161,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "fr/People/david-wong.md"
+  },
+  {
+    "title": "David Wong: A Song Written in Two or Three Hours, and a Lifetime Spent Trying to Forget It",
+    "description": "In a Honolulu arena in 1979, 15-year-old David Wong watched a heavy metal concert, went home, and taught himself on a guitar his teacher had given him. He spoke little Chinese; through lyricists Yao Ruo-long and Chen Chia-li, he translated his feelings into song, building a career from scratch in Mandopop with a raspy voice. “You Made Me Drunk” was written in two or three hours, yet he spent the rest of his life trying to forget it. He habitually called Chang Hsueh-liang “grandfather,” though by lineage he was in fact Chang's grand-nephew. He spent his life trying to escape being defined by family background and one divine hit, yet the world remembered him through those two things alone.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/people/david-wong",
+    "readingTime": 140,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "en/People/david-wong.md"
+  },
+  {
+    "title": "David Wong: la canción que escribió en dos o tres horas y pasó la segunda mitad de su vida intentando olvidar",
+    "description": "En 1979, en un estadio de Hawái, David Wong, de 15 años, vio un concierto de heavy metal y volvió a casa para aprender solo con una guitarra que le había regalado un profesor. No hablaba muy bien chino; dependió de Yao Ruo-lung y Chen Chia-li para convertir sus sentimientos en letras, y con su voz ronca se abrió camino desde cero en la escena musical en mandarín. 〈You Made Me Drunk〉 fue escrita en dos o tres horas, pero él pasó la segunda mitad de su vida intentando olvidarla. Solía llamar “abuelo materno” a Chang Hsueh-liang, aunque por parentesco era en realidad su sobrino nieto materno: toda su vida quiso escapar de las definiciones impuestas por su linaje y por una sola canción mítica, pero el mundo lo recuerda precisamente por esas dos cosas.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/people/david-wong",
+    "readingTime": 152,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "es/People/david-wong.md"
+  },
+  {
     "title": "Dcard",
     "description": "一個台南囝仔在台大宿舍為了讓自己比較容易交到朋友而寫出來的網站，變成了台灣年輕人最有影響力的社群平台，然後一邊繼續長大、一邊面對「Dcard 是不是要沒落了」的問題。",
     "category": "Culture",
@@ -28379,6 +28472,17 @@
     "path": "es/Culture/taiwan-cultural-creative-park-development.md"
   },
   {
+    "title": "Desarrollo del deporte en Taiwán y los Juegos Olímpicos: un equipo llamado «Taipéi Chino»",
+    "description": "En Montreal 1976, Canadá exigió cambiar el nombre a «Taiwan», y Chiang Ching-kuo lo consideró una humillación nacional y retiró al equipo. En París 2024, la noche en que la dupla Lee Yang-Wang Chi-lin revalidó el título masculino de dobles, todo el estadio cantó la letra de la Canción de la Bandera Nacional al ritmo de la bandera olímpica de la flor de ciruelo: desde un «Taiwán» que no podía entrar hasta un mundo que empezó a llamar Taiwan al equipo, esa gorra llamada «Taipéi Chino» lleva el peso de cada generación de medallas de oro.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/society/taiwan-sports-olympics",
+    "readingTime": 140,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "es/Society/taiwan-sports-olympics.md"
+  },
+  {
     "title": "Desarrollo del hip hop y el rap en Taiwán: el chino no debería poder rapear, el taiwanés no podía subir al escenario, y esto no era un gueto; convirtieron tres desventajas en una huella vocal de soberanía",
     "description": "En 2004, Sung Yueh-ting llevaba ya dos años muerto. Su madre y su hermano menor subieron al escenario para recibir en su nombre el Golden Melody a mejor letrista. Las rimas dobles de «Life's a Struggle» empujaron un paso más allá el prejuicio de que «el chino no sirve para rapear». Desde los años underground, cuando se aprendía de manera autodidacta disco importado por disco importado, hasta que Leo Wang y MC HotDog ganaron sucesivamente el premio a mejor cantante masculino de rap, Taiwán recorrió ese camino en veinte años. Pero lo más conmovedor de esta isla no es cuánto se parece a Estados Unidos, sino cómo convirtió tres desventajas de origen —los tonos del chino, el acento del taiwanés y unos sujetos vulnerables que no venían del gueto— en una huella vocal plural de soberanía que sólo aquí podía cantarse.",
     "category": "es",
@@ -28598,6 +28702,17 @@
     "path": "fr/Music/hip-hop-rap.md"
   },
   {
+    "title": "Développement du sport à Taïwan et Jeux olympiques : une équipe appelée « Taipei chinois »",
+    "description": "En 1976 à Montréal, le Canada exigea un changement de nom en « Taiwan » ; Chiang Ching-kuo y vit une humiliation nationale et retira la délégation. En 2024 à Paris, la nuit où la paire Lee-Wang conserva son titre olympique en double hommes, tout le public chanta les paroles de l’Hymne au drapeau national sous le drapeau olympique à la fleur de prunier : du « Taïwan » qui ne pouvait pas entrer jusqu’au monde qui commence à appeler cette équipe Taiwan, ce chapeau nommé « Taipei chinois », chaque génération de médaillés d’or en porte le poids.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/society/taiwan-sports-olympics",
+    "readingTime": 144,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "fr/Society/taiwan-sports-olympics.md"
+  },
+  {
     "title": "Développement économique d'après-guerre",
     "description": "Le parcours de développement économique miraculeux de Taïwan, passant d'une société agricole à l'une des Quatre Tigres asiatiques",
     "category": "fr",
@@ -28777,6 +28892,17 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "fr/People/niu-cheng-ze-controversial-filmmaker-monga-director.md"
+  },
+  {
+    "title": "Dragon Boat Festival: A Toolkit Ancient People Used to Fight Death, Which Taiwanese Turned into an Annual Reunion",
+    "description": "In the 2025 Comprehensive Assessment Program for Junior High School Students, one question asked fifteen-year-old students to design an experiment refuting the superstition of “balancing an egg at Dragon Boat Festival.” That scene condensed the secret of the entire holiday: mugwort, realgar wine, noon water, and the upright egg were all originally tools ancient people used to fight plague and death. Science has punctured their medicinal claims one by one, but Dragon Boat Festival in Taiwan is more alive than ever. The medicine has expired, yet Taiwanese still take it every year.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/culture/dragon-boat-festival",
+    "readingTime": 184,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "en/Culture/dragon-boat-festival.md"
   },
   {
     "title": "Droits humains et égalité des genres",
@@ -29340,7 +29466,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/history/february-28-incident-and-white-terror-taiwan-authoritarian-rule-trauma-and-memory",
-    "readingTime": 87,
+    "readingTime": 88,
     "featured": true,
     "date": "2026-03-31",
     "path": "es/History/february-28-incident-and-white-terror-taiwan-authoritarian-rule-trauma-and-memory.md"
@@ -30823,6 +30949,39 @@
     "featured": false,
     "date": "2026-05-27",
     "path": "es/Culture/sky-lanterns-pingxi.md"
+  },
+  {
+    "title": "Feriados nacionales: la historia de Taiwán escrita con “no ir a trabajar”",
+    "description": "El primer feriado nacional legal de la República de China (Taiwán) no fue el Doble Diez ni el Año Nuevo: fue el 228, en 1997. Desde el “Día de la Vergüenza Política” del 17 de junio durante el dominio japonés hasta el choque de 2025 en el Yuan Legislativo sobre “Retrocesión vs. fin de la guerra”, cada fecha en rojo del calendario responde, desde algún régimen, qué debe conmemorar Taiwán y a quién pertenece. Pero descansar nunca ha sido sólo una cuestión nacional: también pregunta si las personas trabajadoras deben poder descansar.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/society/national-holidays",
+    "readingTime": 196,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "es/Society/national-holidays.md"
+  },
+  {
+    "title": "Festival del Bote Dragón: el kit con que los antiguos combatían la muerte, convertido por los taiwaneses en una reunión anual",
+    "description": "En 2025, el examen de ingreso a la escuela secundaria inferior incluyó una pregunta que pedía a estudiantes de quince años diseñar un experimento para refutar la superstición de “poner un huevo de pie en Duanwu”. Esa escena condensaba el secreto de toda la festividad: la artemisa, el vino de rejalgar, el agua del mediodía, aquel huevo erguido, fueron originalmente herramientas con las que los antiguos combatían epidemias y muerte. La ciencia fue desmontando una por una sus propiedades medicinales, pero en Taiwán Duanwu sigue más vivo que nunca: aunque el efecto medicinal haya caducado, los taiwaneses lo siguen tomando año tras año.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/culture/dragon-boat-festival",
+    "readingTime": 185,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "es/Culture/dragon-boat-festival.md"
+  },
+  {
+    "title": "Fête des Bateaux-Dragons : la boîte à outils des anciens contre la mort, devenue à Taïwan une réunion annuelle",
+    "description": "En 2025, l'examen d'entrée au lycée a posé une question demandant à des élèves de quinze ans de concevoir une expérience pour réfuter la superstition de « l'œuf debout de Duanwu ». Cette scène concentre tout le secret de la fête : l'armoise, le vin de réalgar, l'eau de l'heure du Cheval, cet œuf dressé, étaient à l'origine autant d'outils par lesquels les anciens luttaient contre les épidémies et la mort. La science a démonté une à une leurs vertus médicinales, mais à Taïwan, Duanwu reste plus vivant que jamais : même quand le remède est périmé, les Taïwanais continuent de le prendre chaque année.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/culture/dragon-boat-festival",
+    "readingTime": 192,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "fr/Culture/dragon-boat-festival.md"
   },
   {
     "title": "Fire EX — The Name They Found by the Pool, Twenty-Five Years of Singing",
@@ -34230,7 +34389,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/people/li-zongsheng",
-    "readingTime": 124,
+    "readingTime": 125,
     "featured": false,
     "date": "2026-03-19",
     "path": "en/People/li-zongsheng.md"
@@ -34241,10 +34400,21 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/people/li-zongsheng",
-    "readingTime": 128,
+    "readingTime": 129,
     "featured": false,
     "date": "2026-03-19",
     "path": "es/People/li-zongsheng.md"
+  },
+  {
+    "title": "Jours fériés nationaux : une histoire de Taïwan écrite par les jours où l'on ne travaille pas",
+    "description": "Le premier jour férié national légal de la République de Chine ne fut ni le Double-Dix, ni le Nouvel An, mais le 28-Février en 1997. Du « jour de commémoration du gouvernement honteux » du 17 juin sous la domination japonaise au tumulte de 2025 au Yuan législatif autour de « rétrocession vs fin de la guerre », chaque date en rouge sur le calendrier répond, pour un régime donné, à la question de ce que Taïwan doit commémorer et à qui il appartient. Mais les congés ne sont jamais seulement une affaire nationale : ils portent aussi sur le droit des travailleurs au repos.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/society/national-holidays",
+    "readingTime": 199,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "fr/Society/national-holidays.md"
   },
   {
     "title": "justfont 與台灣字體發展：用一種台灣茶的名字，把做字的人帶到陽光下",
@@ -35037,17 +35207,6 @@
     "path": "fr/Society/taiwan-higher-education-expansion-and-decline.md"
   },
   {
-    "title": "L'héritage des mélodies d'or : histoire et statut culturel de la musique pop taïwanaise",
-    "description": "Du mouvement de la chanson folk au phénomène Jay Chou, explorer comment la musique pop taïwanaise a façonné le paysage de la musique sinophone",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/music/golden-melodies-legacy-taiwan-pop-music",
-    "readingTime": 81,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "fr/Music/golden-melodies-legacy-taiwan-pop-music.md"
-  },
-  {
     "title": "L'histoire de l'exploitation forestière à Taïwan : du pillage des ressources à la protection du territoire national",
     "description": "De l'époque de la domination Qing et de ses volutes de camphre, en passant par le grondement des rails sous l'occupation japonaise, jusqu'à la grande ère de déforestation qui a ébranlé les montagnes après la guerre. Cet article retrace la logique géopolitique mondiale qui sous-tendait les politiques forestières de Taïwan, et s'appuie sur des données chiffrées pour éclaircir la vérité sur un siècle de sylviculture.",
     "category": "fr",
@@ -35140,7 +35299,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/history/february-28-incident-and-white-terror-taiwan-authoritarian-rule-trauma-and-memory",
-    "readingTime": 116,
+    "readingTime": 117,
     "featured": true,
     "date": "2026-03-31",
     "path": "fr/History/february-28-incident-and-white-terror-taiwan-authoritarian-rule-trauma-and-memory.md"
@@ -35774,15 +35933,7 @@
     "title": "La cultura del KTV en Taiwán: la evolución de la socialización en cabinas desde Holiday y Cashbox",
     "description": "Explora el desarrollo de la cultura del KTV en Taiwán, desde la importación del karaoke japonés hasta la localización de la cultura de cabinas, la era de competencia entre Holiday y Cashbox, cómo las listas de canciones más solicitadas se convirtieron en indicadores de la cultura pop, y los desafíos de transformación industrial tras la pandemia",
     "category": "es",
-    "tags": [
-      "cultura KTV",
-      "karaoke",
-      "Holiday",
-      "Cashbox",
-      "cultura de cabinas",
-      "música pop",
-      "cultura social"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/es/music/ktv-culture",
     "readingTime": 119,
     "featured": true,
@@ -36635,17 +36786,6 @@
     "featured": true,
     "date": "2026-04-12",
     "path": "fr/History/sino-french-war-in-taiwan.md"
-  },
-  {
-    "title": "La herencia de las melodías doradas: historia y lugar cultural de la música pop taiwanesa",
-    "description": "Del movimiento de la canción folk al fenómeno Jay Chou: cómo la música pop taiwanesa moldeó el panorama de la música en chino",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/music/golden-melodies-legacy-taiwan-pop-music",
-    "readingTime": 74,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "es/Music/golden-melodies-legacy-taiwan-pop-music.md"
   },
   {
     "title": "La historia del orientador escolar en Taiwán: de \"solo van los que tienen problemas\" a \"todos lo necesitan, pero no hay suficientes\"",
@@ -38973,7 +39113,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/people/li-zongsheng",
-    "readingTime": 130,
+    "readingTime": 131,
     "featured": false,
     "date": "2026-03-19",
     "path": "fr/People/li-zongsheng.md"
@@ -40604,37 +40744,36 @@
     "path": "en/People/liu-mingchuan.md"
   },
   {
-    "title": "Lo Ta-yu: de médico radiólogo a álbum debut en 1982 con *Zhī Hū Zhě Yě* y nuevo disco en 2025",
-    "description": "Nacido el 20 de julio de 1954 en Taipéi. Graduado de la China Medical College (actual China Medical University) alrededor del curso académico 69, aproximadamente 1980/81, donde ejerció como médico radiólogo. El 21 de abril de 1982 lanzó su primer álbum, *Zhī Hū Zhě Yě*, inaugurando la línea de crítica social en la música popular en lengua china. En 2017, *Jiā III*. En 2023, *Ài Hé Rén Jiān*; en 2024, *Earth Mother*; en 2025, *Jì Chūn Sì Wàng Yè Yǔ Chóu*. A sus 70 años, sigue componiendo.",
-    "category": "es",
-    "tags": [
-      "Música",
-      "Cantautor",
-      "Crítica social",
-      "Música popular",
-      "Zhī Hū Zhě Yě"
-    ],
-    "url": "https://taiwan.md/es/people/luo-dayou",
-    "readingTime": 36,
+    "title": "Lo Ta-yu : il a chanté les déracinés de Taïwan, mais a lui-même déménagé dix-neuf fois et cherche encore sa route",
+    "description": "Dans les années 1970, dans la salle de dissection anatomique d'une faculté de médecine à Taichung, un étudiant en radiologie se cachait pour chanter, parce que « l'écho y était très bon, et personne ne saurait que je chantais ». Plus tard, il écrivit « La petite ville de Lukang », « L'Orphelin d'Asie » et « Perle de l'Orient », posant pour toute une génération la question : « Qui suis-je ? » Mais cet homme qui a chanté toutes les formes du déracinement a lui-même quitté Taipei pour New York, Hong Kong puis Pékin, déménageant dix-neuf fois en vingt-neuf ans. À soixante-dix ans, il disait n'être qu'un « survivant remarquable ».",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/people/luo-dayou",
+    "readingTime": 143,
     "featured": false,
-    "date": "2026-03-19",
+    "date": "2026-06-19",
+    "path": "fr/People/luo-dayou.md"
+  },
+  {
+    "title": "Lo Ta-yu: el hombre que cantó el desarraigo de Taiwán, se mudó diecinueve veces y sigue buscando el camino",
+    "description": "En la década de 1970, en la sala de disección anatómica de una facultad de medicina en Taichung, un estudiante de radiología se escondía para practicar canto porque «allí había muy buen eco y nadie sabría que estaba cantando». Más tarde escribiría <Lukang, la pequeña ciudad>, <El huérfano de Asia> y <La perla de Oriente>, y formularía por toda una generación la pregunta: «¿quién soy?». Pero este hombre que cantó el desarraigo acabó mudándose de Taipéi a Nueva York, Hong Kong y Beijing: diecinueve casas en veintinueve años. A los setenta, dijo que no era más que un «sobreviviente extraordinario».",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/people/luo-dayou",
+    "readingTime": 137,
+    "featured": false,
+    "date": "2026-06-19",
     "path": "es/People/luo-dayou.md"
   },
   {
-    "title": "Lo Ta-yu: From Radiologist to 1982's 'Zhi Hu Zhe Ye' and a 2025 New Album",
-    "description": "Born July 20, 1954, in Taipei. Graduated from China Medical College (now China Medical University) around 1980/81 (the 69th academic year), and worked as a radiologist. On April 21, 1982, released his debut album 'Zhi Hu Zhe Ye,' pioneering the tradition of social critique in Mandarin pop music. 'Home III' in 2017. 'Love · River · World' in 2023, 'Mother Earth' in 2024, 'Late Spring, Four Directions, Night Rain, Sorrow' in 2025 — still creating at age 70.",
+    "title": "Lo Ta-yu: The Man Who Sang Taiwan's Rootlessness, Moved Nineteen Times, and Is Still Looking for the Road",
+    "description": "In the 1970s, inside the gross anatomy room of a medical college in Taichung, a radiology student hid away to practice singing, because “the echo there was very good, and no one would know I was singing.” Later he wrote “Lukang, the Little Town,” “Orphan of Asia,” and “Pearl of the Orient,” asking “Who am I?” on behalf of an entire generation. Yet this man who sang so much rootlessness moved from Taipei to New York, Hong Kong, and Beijing, relocating nineteen times in twenty-nine years. At seventy, he said he was only a “remarkable survivor.”",
     "category": "en",
-    "tags": [
-      "音樂",
-      "創作歌手",
-      "社會批判",
-      "流行音樂",
-      "之乎者也"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/people/luo-dayou",
-    "readingTime": 34,
+    "readingTime": 126,
     "featured": false,
-    "date": "2026-03-19",
+    "date": "2026-06-19",
     "path": "en/People/luo-dayou.md"
   },
   {
@@ -41029,23 +41168,6 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "en/People/lu-yen-hsun-tennis-champion.md"
-  },
-  {
-    "title": "Luo Dayou : de médecin radiologue à la sortie d'un nouvel album en 2025",
-    "description": "Né le 20 juillet 1954 à Taipei. Diplômé de la China Medical University (anciennement China Medical College) vers 1980/81 (année académique 69), il a exercé comme médecin radiologue. Le 21 avril 1982, son premier album *Zhī Hū Zhě Yě* ouvre la voie à la critique sociale dans la musique pop sinophone. *Home III* en 2017. *Love · River · Humanity* en 2023, *Mother Earth* en 2024, *Regrets sous la pluie au quatrième mois du printemps* en 2025 — il crée encore à 70 ans.",
-    "category": "fr",
-    "tags": [
-      "音樂",
-      "創作歌手",
-      "社會批判",
-      "流行音樂",
-      "之乎者也"
-    ],
-    "url": "https://taiwan.md/fr/people/luo-dayou",
-    "readingTime": 38,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "fr/People/luo-dayou.md"
   },
   {
     "title": "Ma Ying-jeou : docteur en droit de Harvard entré au bureau de Chiang Ching-kuo comme traducteur anglais, président pendant huit ans appuyé sur une image d'« intégrité », et qui a laissé derrière lui les deux rives, les Tournesols et les 22K",
@@ -42435,6 +42557,17 @@
     "path": "es/Music/taiwanese-traditional-chinese-orchestra-music.md"
   },
   {
+    "title": "Música pop de Taiwán: la isla que confeccionó el traje nupcial para todo el mundo y acabó conservando lo que otros no pueden cantar",
+    "description": "En 1997, Taiwán era el segundo mayor mercado discográfico de Asia, y el 80 % de las canciones de todo el mundo musical en mandarín se producían allí. En 2005, el valor de producción había caído a una cuarta parte, el mercado había sido superado por China y hasta Jay Chou, en su apogeo, vendía apenas 300.000 copias por álbum. Cuando en otros lugares una canción puede ser silenciada por una línea de letra, una bandera o un tabú, esta isla que perdió escala convirtió el propio hecho de 'poder cantar o no' en su última y más dura baza.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/music/golden-melodies-legacy-taiwan-pop-music",
+    "readingTime": 185,
+    "featured": true,
+    "date": "2026-06-19",
+    "path": "es/Music/golden-melodies-legacy-taiwan-pop-music.md"
+  },
+  {
     "title": "Música popular y los Premios Golden Melody",
     "description": "En 1982, Tsai Chin escribió una carta de 8 páginas a Song Chu-yu con todas las categorías del premio ya definidas. Ocho años después nacieron los Golden Melody. Treinta y cuatro años más tarde, un álbum en idioma paiwan derrotó a todos y se llevó el premio al mejor del año. Esta no es una historia sobre premios, sino sobre qué voces merecen ser escuchadas.",
     "category": "es",
@@ -42472,6 +42605,17 @@
     "featured": false,
     "date": "2026-03-28",
     "path": "fr/Music/pop-music-and-golden-melody-awards.md"
+  },
+  {
+    "title": "Musique populaire taïwanaise : l'île qui a travaillé pour le monde entier, et à qui il reste finalement de pouvoir chanter ce que les autres ne peuvent pas",
+    "description": "En 1997, Taïwan était le deuxième marché du disque en Asie, et 80 % des chansons de toute la scène musicale sinophone y étaient produites. En 2005, sa valeur de production n’était plus qu’un quart de ce qu’elle avait été, le marché avait été dépassé par la Chine, et même Jay Chou à son apogée ne vendait plus que 300 000 exemplaires d’un album. Quand ailleurs une chanson peut être réduite au silence pour une parole, un drapeau ou un tabou, cette île qui a perdu la bataille de l’échelle a fait de la question même de « ce qui peut être chanté » son dernier levier, et le plus solide.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/music/golden-melodies-legacy-taiwan-pop-music",
+    "readingTime": 204,
+    "featured": true,
+    "date": "2026-06-19",
+    "path": "fr/Music/golden-melodies-legacy-taiwan-pop-music.md"
   },
   {
     "title": "Musiques taïwanaises pour l’écran : d’une émotion posée sur l’image à l’excavation de la voix propre d’une île",
@@ -42594,6 +42738,17 @@
     "featured": false,
     "date": "2026-05-03",
     "path": "en/Lifestyle/national-highway-system.md"
+  },
+  {
+    "title": "National Holidays: A History of Taiwan Written in Days Off Work",
+    "description": "The Republic of China's first statutory national holiday was not Double Ten, not New Year's Day, but 228 in 1997. From the Japanese colonial government's June 17 “commemoration of shameful rule” to the 2025 Legislative Yuan uproar over “retrocession vs. war's end,” every red-letter day on the calendar is a regime's answer to what Taiwan should commemorate and to whom it belongs. But holidays have never been only a question of nationhood; they are also about whether workers should be allowed to rest.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/society/national-holidays",
+    "readingTime": 186,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "en/Society/national-holidays.md"
   },
   {
     "title": "National Housing and Housing Justice: The Cheap Homes Built by the Government, and Whose Asset Escalator They Ultimately Created",
@@ -49531,6 +49686,17 @@
     "path": "en/Technology/taiwan-space-industry-development.md"
   },
   {
+    "title": "Taiwan's Sports Development and the Olympics: A Team Called “Chinese Taipei”",
+    "description": "In Montreal in 1976, Canada demanded a name change to “Taiwan,” and Chiang Ching-kuo treated it as a national humiliation and withdrew the team. In Paris in 2024, on the night the “Lee-Yang” pair defended their men’s doubles title, the whole arena sang the National Flag Anthem lyrics beneath the plum blossom flag. From the “Taiwan” that could not enter to a world beginning to call the team Taiwan, every generation of gold medalists has carried the weight of this cap called “Chinese Taipei.”",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/society/taiwan-sports-olympics",
+    "readingTime": 129,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "en/Society/taiwan-sports-olympics.md"
+  },
+  {
     "title": "Taiwan’s Stock Market and Capital Market: From the 1990 Collapse at 10,000 Points to the World’s Sixth Largest in 2026, an Island with 44% of Its Net Worth Staked on One Stock",
     "description": "On April 28, 2026, Bloomberg flashed the headline “Taiwan Overtakes Canada.” An island whose 1990 collapse from the 10,000-point level wiped out the retirement savings of 160,000 people climbed, thirty-six years later, to become the world’s sixth-largest stock market — but of its US$4.47 trillion in market capitalization, nearly half rested on a single semiconductor company.",
     "category": "en",
@@ -50208,6 +50374,17 @@
     "path": "en/Art/taiwanese-photography.md"
   },
   {
+    "title": "Taiwanese Pop Music: The Island That Made Wedding Clothes for the World, Left in the End with Songs Others Cannot Sing",
+    "description": "In 1997, Taiwan was Asia''s second-largest record market, and 80 percent of all Mandopop songs were produced here. By 2005, output value had fallen to one-quarter of its former size, the market had been overtaken by China, and even Jay Chou at his peak sold only 300,000 copies per album. When songs elsewhere can be silenced over one lyric, one flag, or one taboo, this island that lost the battle of scale turned the very question of \"whether something can be sung\" into its last and hardest bargaining chip.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/music/golden-melodies-legacy-taiwan-pop-music",
+    "readingTime": 179,
+    "featured": true,
+    "date": "2026-06-19",
+    "path": "en/Music/golden-melodies-legacy-taiwan-pop-music.md"
+  },
+  {
     "title": "Taiwanese Popcorn Chicken (鹽酥雞)",
     "description": "In 1975, a failed restaurant owner from Tainan set up a cart in Ximending and fried chicken chunks with an ancestral marinade. Fifty years later, 鹽酥雞 has become one of the few Taiwanese street foods that survives without a night market or a storefront — CNN has listed it twice as a must-eat, yet its most authentic form is always a paper bag you wait for on the roadside at midnight.",
     "category": "en",
@@ -50346,6 +50523,39 @@
     "featured": true,
     "date": "2026-03-18",
     "path": "en/Culture/taiwanese-life-ceremony-traditions.md"
+  },
+  {
+    "title": "Takeshi Kaneshiro : du « passant » que personne ne reconnaissait à l’icône asiatique qui voudrait seulement être oubliée du monde",
+    "description": "Une interview de rue diffusée en 2025 l’a identifié comme un simple « passant » : c’était peut-être le moment auquel Takeshi Kaneshiro aspirait le plus. Depuis sa première publicité à 17 ans pour s’acheter une moto jusqu’à son statut de star internationale entre Taïwan, le Japon et Hong Kong, il n’a cessé, au sommet du milieu du spectacle, de s’exercer à « disparaître ».",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/people/takeshi-kaneshiro",
+    "readingTime": 49,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "fr/People/takeshi-kaneshiro.md"
+  },
+  {
+    "title": "Takeshi Kaneshiro: de “ciudadano” al que nadie reconoce al galán asiático que solo quiere que el mundo lo olvide",
+    "description": "Una nota de entrevistas callejeras de 2025 lo identificó como “ciudadano”; quizá fue el momento que Takeshi Kaneshiro más anhelaba. Desde el anuncio que filmó a los 17 años para comprarse una motocicleta hasta convertirse en una superestrella internacional entre Taiwán, Japón y Hong Kong, siempre practicó la “desaparición” en la cima de la industria del espectáculo.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/people/takeshi-kaneshiro",
+    "readingTime": 47,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "es/People/takeshi-kaneshiro.md"
+  },
+  {
+    "title": "Takeshi Kaneshiro: From an Unrecognized 'Member of the Public' to Asia's Heartthrob Who Only Wants the World to Forget Him",
+    "description": "A 2025 street-interview news segment labeled him simply as a 'member of the public,' which may have been the moment Takeshi Kaneshiro most longed for. From shooting commercials at 17 to buy a scooter to becoming an international superstar spanning Taiwan, Japan, and Hong Kong, he has spent his peak years in show business practicing the art of 'disappearing.'",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/people/takeshi-kaneshiro",
+    "readingTime": 44,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "en/People/takeshi-kaneshiro.md"
   },
   {
     "title": "Tale of Wuxia: dos personas, treinta por cien de reseñas positivas, setecientas mil copias",
@@ -51179,17 +51389,6 @@
     "path": "en/Music/taiwanese-hokkien-song-evolution.md"
   },
   {
-    "title": "The February 28 Incident",
-    "description": "How a widow's contraband cigarette stand ignited 38 years of silence on an island — the ten days in 1947 that changed Taiwan's fate, and the wounds still healing 78 years later",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/history/228-incident",
-    "readingTime": 100,
-    "featured": false,
-    "date": "2026-03-31",
-    "path": "en/History/228-incident.md"
-  },
-  {
     "title": "The Formosa Incident",
     "description": "A military trial that was supposed to completely collapse the opposition movement unexpectedly became the most powerful propaganda film for Taiwan's democracy due to its broadcast.",
     "category": "en",
@@ -51276,17 +51475,6 @@
     "featured": true,
     "date": "2026-03-18",
     "path": "en/History/kmt-government-relocation-and-postwar-reconstruction.md"
-  },
-  {
-    "title": "The Legacy of Golden Melodies: The History and Cultural Position of Taiwanese Popular Music",
-    "description": "From the folk music movement to the Jay Chou phenomenon, exploring how Taiwanese popular music shaped the Mandopop landscape",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/music/golden-melodies-legacy-taiwan-pop-music",
-    "readingTime": 72,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "en/Music/golden-melodies-legacy-taiwan-pop-music.md"
   },
   {
     "title": "The Love Story of Mazu and Dadaogong: Taiwan's Most Romantic Weather Forecast",
@@ -54867,6 +55055,17 @@
     "path": "en/People/zun.md"
   },
   {
+    "title": "가네시로 다케시: 알아보지 못한 ‘시민’에서 세계가 잊어 주기만을 바라는 아시아의 초절정 미남으로",
+    "description": "2025년의 한 길거리 인터뷰 뉴스는 그를 ‘시민’으로 표기했다. 이는 어쩌면 가네시로 다케시가 가장 바라던 순간이었을지도 모른다. 17세에 오토바이를 사기 위해 광고를 찍은 때부터 타이완·일본·홍콩을 가로지르는 국제적 스타가 되기까지, 그는 늘 연예계의 정점에서 ‘사라지는 법’을 연습해 왔다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/people/takeshi-kaneshiro",
+    "readingTime": 23,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "ko/People/takeshi-kaneshiro.md"
+  },
+  {
     "title": "가오슝시: 1979년 직할시로 승격되던 그해, 타이베이의 감옥에는 가오슝 사람 여덟 명이 갇혀 있었다",
     "description": "1979년 7월 1일 가오슝은 타이완의 두 번째 직할시로 승격되었고, 12월 10일 세계 인권의 날에는 메이리다오 잡지사가 다강푸 로터리에서 연설을 열려던 일이 최루탄 아래의 충돌로 변했다. 여덟 명이 형을 선고받았고, 1980년 2월 28일 린이슝의 타이베이 신이로 자택에서는 참극이 전해졌다. 같은 1979년에 가오슝은 행정적 영예를 얻었고, 전후 타이완에서 가장 무거운 정치적 탄압도 삼켰다. 271만 명은 38개 구에 흩어져 있고, 치진 사주, 나마샤 부눈족 부락, 중국강철의 굴뚝, 웨이우잉의 알루미늄 합금 지붕이 한 도시에 함께 산다. 이 도시는 45년에 걸쳐 상처를 자기만의 형태로 꿰매 왔다.",
     "category": "ko",
@@ -55408,6 +55607,17 @@
     "path": "ko/Society/public-housing-justice.md"
   },
   {
+    "title": "국정 공휴일: “출근하지 않아도 되는 날”로 쓴 타이완사",
+    "description": "중화민국(ROC)의 첫 법정 국정 공휴일은 쌍십절도, 원단도 아니라 1997년의 2·28이었다. 일본 통치기 6월 17일의 “치정기념일”에서 2025년 입법원에서 격론이 벌어진 “광복 vs 종전”까지, 달력의 모든 빨간 글자는 어떤 정권이 타이완이 무엇을 기념해야 하는지, 누구에게 속하는지를 답한 흔적이다. 그러나 휴일은 결코 국민국가의 문제만이 아니었다. 그것은 동시에 노동자가 쉬어야 하는가의 문제이기도 하다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/society/national-holidays",
+    "readingTime": 81,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "ko/Society/national-holidays.md"
+  },
+  {
     "title": "국제 이주노동자: 87만 명의 \"거대한 거실\"과 바다를 넘는 생존의 줄다리기",
     "description": "2026년 3월 기준, 대만에 체류하는 이주노동자는 87만 3천 명에 달하며, 실종·이탈자를 포함하면 총수가 100만 명에 근접하여 대만 상주인구의 5% 이상을 차지한다. 본 기사는 인도네시아, 베트남, 필리핀, 태국 4개국의 노동력 특성을 심층 분석하고, 이주노동자 대행진이 제기한 \"근무 연한 폐지\" 요구를 검토하며, 2026년 인도 이주노동자 도입 계획을 둘러싼 여론의 불야, 야당의 감시, 그리고 정부의 \"조건부\" 도입 입장을 균형 있게 조명한다.",
     "category": "ko",
@@ -55697,6 +55907,17 @@
     "featured": true,
     "date": "2026-03-21",
     "path": "ko/People/tai-tzu-ying.md"
+  },
+  {
+    "title": "단오절: 고대인이 죽음에 맞서기 위해 마련한 도구 꾸러미, 타이완인은 이를 해마다 돌아오는 가족의 재회로 만들었다",
+    "description": "2025년의 중학교 교육회고에는 열다섯 살 학생들에게 '단오 달걀 세우기' 미신을 반박하는 실험을 설계하라는 문제가 출제되었다. 이 장면은 명절 전체의 비밀을 압축한다. 쑥, 웅황주, 오시수, 곧게 선 그 달걀은 본래 모두 고대인이 역병과 죽음에 맞서기 위해 마련한 도구였다. 과학은 그 약효를 하나씩 깨뜨렸지만, 단오는 타이완에서 누구보다 왕성하게 살아 있다. 약효는 만료되었어도, 타이완인은 해마다 그대로 복용한다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/culture/dragon-boat-festival",
+    "readingTime": 80,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "ko/Culture/dragon-boat-festival.md"
   },
   {
     "title": "단장대교: 하구의 지평선 위에 ‘투명성’을 위해 존재하는 거대한 랜드마크",
@@ -58855,23 +59076,6 @@
     "path": "ko/Art/no-mans-land-art-platform.md"
   },
   {
-    "title": "라우다유: 방사선과 의사 출신, 1982년 《지호야자》에서 2025년 신앨범까지",
-    "description": "1954년 7월 20일 타이베이 출생. 중국의약학원(현 중국의약대학) 약 1980/81년 졸업(69학년도), 방사선과 의사 경력. 1982년 4월 21일 첫 솔로 앨범 《지호야자》 발매, 중화권 대중음악 사회비판 노선 개척. 2017년 《가III》. 2023년 《애・하・인간》, 2024년 《지구어머니》, 2025년 《계춘사망우수》, 70세에도 여전히 작곡 활동 중.",
-    "category": "ko",
-    "tags": [
-      "음악",
-      "싱어송라이터",
-      "사회비판",
-      "대중음악",
-      "지호야자"
-    ],
-    "url": "https://taiwan.md/ko/people/luo-dayou",
-    "readingTime": 17,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "ko/People/luo-dayou.md"
-  },
-  {
     "title": "라이성천: 공작공방과 우진연극제의 양안 연극 가교자",
     "description": "라이성천은 1954년 10월 25일 미국 워싱턴 D.C.에서 태어났으며, 아버지 라이자구는 외교관이었다. UC 버클리 연극예술 박사(1983). 1984년 아내 정내주, 이립군, 이국수 등과 공동으로 공작공방(表演工作坊)을 창립하였다. 1986년 《암련도원화(暗戀桃花源)》 초연, 1992년 영화로 각색하여 임청하가 주연을 맡았다. 2007년 제11회 국가문예상을 수상하였으며, 이 영예를 두 차례 수상하였다. 2013년 5월 진향홍, 황레이, 맹경휘와 공동으로 우진연극제를 창립하였으며, 이는 양안에서 가장 영향력 있는 중화어 연극제 중 하나이다. 2015년 상하이 상극장(上劇場)이 개관하였다. BBC는 그를 \"오늘날 가장 뛰어난 중문 극작가\"로 평가하였다.",
     "category": "ko",
@@ -59060,6 +59264,17 @@
     "path": "ko/People/lung-ying-tai.md"
   },
   {
+    "title": "뤄다유: 타이완의 뿌리 잃은 사람들을 노래한 이, 자신도 열아홉 번 이사하며 길을 찾다",
+    "description": "1970년대, 타이중의 한 의과대학 해부실에서 한 방사선과 의대생이 몰래 노래 연습을 했다. “그곳은 울림이 좋고, 내가 노래하는 줄 아무도 모를 테니까.” 훗날 그는 〈루강 소진〉, 〈아시아의 고아〉, 〈동방지주〉를 써서 한 세대를 대신해 “나는 누구인가”를 물었다. 그러나 뿌리 잃은 사람들을 두루 노래한 이 사람 자신도 타이베이에서 뉴욕, 홍콩, 베이징으로 옮겨 다니며 29년 동안 열아홉 번 이사했다. 일흔 살이 되던 해, 그는 자신을 그저 “대단한 생존자”라고 말했다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/people/luo-dayou",
+    "readingTime": 66,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "ko/People/luo-dayou.md"
+  },
+  {
     "title": "뤄디산",
     "description": "대만 해안가에서 가장 가까운 이토화산 악지(惡地) 지형, 과거 군사 요충지였던 곳이 이제는 자연공원으로 변모했다. 활발한 분니구(噴泥口)와 절경의 해경 산책로가 펼쳐진다.",
     "category": "ko",
@@ -59202,7 +59417,7 @@
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/people/li-zongsheng",
-    "readingTime": 65,
+    "readingTime": 66,
     "featured": false,
     "date": "2026-03-19",
     "path": "ko/People/li-zongsheng.md"
@@ -63871,6 +64086,17 @@
     "path": "ko/Art/taiwan-new-media-art.md"
   },
   {
+    "title": "타이완 대중음악: 전 세계를 위해 혼수를 지어 주던 섬에, 끝내 남은 것은 남들이 부를 수 없는 것을 부를 자유",
+    "description": "1997년 타이완은 아시아에서 두 번째로 큰 음반 시장이었고, 전 세계 중국어권 음악의 80%가 이곳에서 제작되었다. 2005년 산업 규모는 4분의 1로 줄었고, 시장은 중국에 추월당했으며, 저우제룬의 전성기 앨범조차 30만 장밖에 팔리지 않았다. 다른 곳의 노래가 가사 한 구절, 깃발 하나, 금기 하나 때문에 소거될 때, 규모에서 패한 이 섬은 ‘부를 수 있는가 없는가’ 자체를 마지막이자 가장 단단한 협상 카드로 바꾸었다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/music/golden-melodies-legacy-taiwan-pop-music",
+    "readingTime": 92,
+    "featured": true,
+    "date": "2026-06-19",
+    "path": "ko/Music/golden-melodies-legacy-taiwan-pop-music.md"
+  },
+  {
     "title": "타이완 독립음악: 급여도 지급하지 못한 음반점은 어떻게 한 섬의 귀를 열었는가",
     "description": "크리스탈 레코드를 30만 대만달러의 부채와 함께 떠안은 모험에서, 노 파티 포 차오둥이 카페에서 초판을 매진시킨 순간까지. 타이완 독립음악 35년은 역전극이 아니라, “보이지 않던 소리가 들리게” 하려는 사람들이 오래도록 지속해 온 도박이었다",
     "category": "ko",
@@ -64081,6 +64307,17 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "ko/Art/century-of-taiwanese-watercolor-painting.md"
+  },
+  {
+    "title": "타이완 스포츠 발전과 올림픽: '중화 타이베이'라는 이름의 팀",
+    "description": "1976년 몬트리올에서 캐나다는 명칭을 'Taiwan'으로 바꾸라고 요구했고, 장징궈는 이를 국치로 보고 기권했다. 2024년 파리에서 린양 조가 남자 복식 2연패를 이룬 그날 밤, 경기장 전체가 매화기 아래에서 국기가 가사를 함께 불렀다. 들어갈 수 없었던 '타이완'에서 전 세계가 Taiwan이라고 부르기 시작하기까지, '중화 타이베이'라는 이 모자는 모든 세대의 금메달이 그 무게를 쓰고 있었다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/society/taiwan-sports-olympics",
+    "readingTime": 62,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "ko/Society/taiwan-sports-olympics.md"
   },
   {
     "title": "타이완 시멘트: 타이완 최초 상장사의 녹색 전환 전설",
@@ -65289,17 +65526,6 @@
     "path": "ko/People/huang-kuo-chen.md"
   },
   {
-    "title": "황금 선율의 계승: 타이완 대중음악의 역사와 문화적 위상",
-    "description": "민가 음악운동에서 주걸륜 현상까지, 타이완 대중음악이 어떻게 중국어권 음악 지형을 형성했는지 탐구한다",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/music/golden-melodies-legacy-taiwan-pop-music",
-    "readingTime": 31,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "ko/Music/golden-melodies-legacy-taiwan-pop-music.md"
-  },
-  {
     "title": "황금시대의 여운: 대만 차 문화의 변천과 공예",
     "description": "1930년대 열강들이 생산량 제한 협정을 맺으면서 대만을 배제했고, 그 결과 대만 홍차는 329만 kg에서 580만 kg으로 급증했다. 90년 후, 같은 섬에서는 30분마다 버블티 가게가 문을 연다.",
     "category": "ko",
@@ -65316,6 +65542,17 @@
     "featured": true,
     "date": "2026-03-24",
     "path": "ko/Culture/taiwanese-tea-culture-and-living-aesthetics.md"
+  },
+  {
+    "title": "황다웨이: 두세 시간 만에 쓴 노래, 그는 남은 생애 동안 잊고자 했다",
+    "description": "1979년 하와이의 한 체육관에서, 열다섯 살의 황다웨이는 헤비메탈 콘서트를 본 뒤 집으로 돌아와 선생님이 준 기타를 붙들고 독학을 시작했다. 그는 중국어를 그다지 잘하지 못했고, 야오뤄룽과 천자리가 자신의 감정을 가사로 옮겨 주는 데 기대어, 쉰 목소리 하나로 화어 음악계에서 맨손으로 출발했다. 〈니바워관쭈이〉는 두세 시간 만에 쓰였지만, 그는 남은 생애 동안 그것을 잊고자 했다. 그는 장쉐량을 습관적으로 “외할아버지”라 불렀지만, 항렬로는 사실 종외손이었다. 평생 가문과 한 곡의 ‘국민가요’가 자신을 규정하는 것을 벗어나려 했으나, 세상은 오직 이 두 가지로만 그를 기억했다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/people/david-wong",
+    "readingTime": 75,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "ko/People/david-wong.md"
   },
   {
     "title": "황런쉰(黃仁勳)",

@@ -75,11 +75,11 @@
     "tagCount": 0,
     "tags": [],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 4,
     "commitHash": "58fa84f0",
@@ -315,11 +315,11 @@
       "太平輪"
     ],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 1,
     "commitHash": "98251c6e",
@@ -353,11 +353,11 @@
       "靈魂樂"
     ],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 2,
     "commitHash": "1325561b",
@@ -392,11 +392,11 @@
       "黃金計畫"
     ],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 1,
     "commitHash": "6aa84030",
@@ -423,11 +423,11 @@
     "tagCount": 0,
     "tags": [],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 2,
     "commitHash": "ddb9590b",
