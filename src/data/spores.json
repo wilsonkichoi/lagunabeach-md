@@ -1,9 +1,9 @@
 {
-  "_generated": "2026-06-18T06:44:25+08:00",
+  "_generated": "2026-06-19T23:08:45+08:00",
   "schemaVersion": 1,
   "counts": {
-    "spores": 135,
-    "articles": 65,
+    "spores": 137,
+    "articles": 66,
     "withMetrics": 125
   },
   "spores": [
@@ -7026,6 +7026,46 @@
           "shares": 31
         }
       ]
+    },
+    {
+      "id": 146,
+      "slug": "端午節",
+      "articlePath": "knowledge/Culture/端午節.md",
+      "articleUrl": "/culture/端午節/",
+      "lang": "zh",
+      "platform": "threads",
+      "date": "2026-06-19",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZw5BYDE_fT",
+      "template": "B 冷知識型",
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
+    },
+    {
+      "id": 147,
+      "slug": "端午節",
+      "articlePath": "knowledge/Culture/端午節.md",
+      "articleUrl": "/culture/端午節/",
+      "lang": "zh",
+      "platform": "x",
+      "date": "2026-06-19",
+      "url": "https://x.com/taiwandotmd/status/2067914171996614897",
+      "template": "B 冷知識型",
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "reposts": null,
+        "comments": null,
+        "shares": null
+      },
+      "metricsAsOf": null,
+      "history": []
     }
   ],
   "byArticle": {
@@ -7071,6 +7111,7 @@
     "無名小站": [138, 139],
     "田馥甄": [43, 44],
     "科技園區發展": [109, 110],
+    "端午節": [146, 147],
     "聶永真": [66, 67],
     "臺灣前途決議文": [76, 77],
     "臺灣漫遊錄": [84, 85],

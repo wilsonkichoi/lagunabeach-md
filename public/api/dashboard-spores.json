@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-06-18T22:11:25.686782Z",
+  "lastUpdated": "2026-06-19T15:09:17.254392Z",
   "schemaVersion": "1.1",
   "totals": {
-    "count": 135,
+    "count": 137,
     "platforms": {
-      "threads": 70,
-      "x": 61,
+      "threads": 71,
+      "x": 62,
       "other": 4
     },
     "languages": {
-      "zh": 128,
+      "zh": 130,
       "en": 7
     },
     "templates": {
-      "B": 43,
+      "B": 45,
       "A": 32,
       "D": 4,
       "A2": 50,
@@ -21,6 +21,38 @@
     }
   },
   "recent": [
+    {
+      "n": 147,
+      "date": "2026-06-19",
+      "platform": "x",
+      "article": "端午節",
+      "articleSlug": "端午節",
+      "category": "culture",
+      "template": "B 冷知識型",
+      "url": "https://x.com/taiwandotmd/status/2067914171996614897",
+      "highlight": "端午節 depth EVOLVE 首發孢子 — 會考立蛋 hook + 藥效過期anchor",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
+    {
+      "n": 146,
+      "date": "2026-06-19",
+      "platform": "threads",
+      "article": "端午節",
+      "articleSlug": "端午節",
+      "category": "culture",
+      "template": "B 冷知識型",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZw5BYDE_fT",
+      "highlight": "端午節 depth EVOLVE 首發孢子 — 2025會考反駁立蛋 hook + 藥效過期anchor",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
     {
       "n": 145,
       "date": "2026-06-16",
@@ -65,38 +97,6 @@
       "highlight": "同一句資訊要自由＝信念/賣點/官司；標題去罪化（sub judice 深度查證）",
       "views_7d": null,
       "views_latest": 13800,
-      "engagements_7d": null,
-      "rate_7d": null,
-      "backfilled": true
-    },
-    {
-      "n": 142,
-      "date": "2026-06-16",
-      "platform": "threads",
-      "article": "迷音Miin",
-      "articleSlug": "迷音Miin",
-      "category": "technology",
-      "template": "A2 首尾呼應（「資訊要自由」motif）",
-      "url": "https://www.threads.com/@taiwandotmd/post/DZnPRd1k-F4",
-      "highlight": "同一句資訊要自由＝信念/賣點/官司；標題去罪化（sub judice 深度查證）",
-      "views_7d": null,
-      "views_latest": 34000,
-      "engagements_7d": null,
-      "rate_7d": null,
-      "backfilled": true
-    },
-    {
-      "n": 139,
-      "date": "2026-06-14",
-      "platform": "x",
-      "article": "無名小站",
-      "articleSlug": "無名小站",
-      "category": "culture",
-      "template": "B 冷知識型 + 電源開關首尾呼應",
-      "url": "https://x.com/taiwandotmd/status/2066024659238465719",
-      "highlight": "無名小站「電源開關」母題 X 版（同文案 inline UTM）",
-      "views_7d": null,
-      "views_latest": 20200,
       "engagements_7d": null,
       "rate_7d": null,
       "backfilled": true
@@ -297,6 +297,22 @@
       "publishedDays": 3,
       "status": "waiting",
       "url": "https://x.com/taiwandotmd/status/2066822763638341918"
+    },
+    {
+      "n": 146,
+      "article": "端午節",
+      "platform": "threads",
+      "publishedDays": 0,
+      "status": "waiting",
+      "url": "https://www.threads.com/@taiwandotmd/post/DZw5BYDE_fT"
+    },
+    {
+      "n": 147,
+      "article": "端午節",
+      "platform": "x",
+      "publishedDays": 0,
+      "status": "waiting",
+      "url": "https://x.com/taiwandotmd/status/2067914171996614897"
     }
   ],
   "noUrlHistorical": [
@@ -367,7 +383,7 @@
     },
     {
       "week": "2026-W25",
-      "published": 4,
+      "published": 6,
       "avgViews": 36050
     }
   ],
@@ -1721,6 +1737,26 @@
       "withinHarvestWindow": true,
       "harvestCount": 3,
       "lastHarvest": "2026-06-18 06:30"
+    },
+    {
+      "n": 146,
+      "article": "端午節",
+      "platform": "threads",
+      "publishDate": "2026-06-19",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
+    },
+    {
+      "n": 147,
+      "article": "端午節",
+      "platform": "x",
+      "publishDate": "2026-06-19",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
     }
   ]
 }

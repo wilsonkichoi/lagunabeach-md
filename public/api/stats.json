@@ -1,24 +1,24 @@
 {
-  "totalArticles": 4848,
+  "totalArticles": 4860,
   "totalCategories": 20,
   "estimatedContributors": 61,
-  "totalTags": 6077,
+  "totalTags": 6086,
   "categories": [
     {
       "name": "es",
-      "count": 807
+      "count": 808
     },
     {
       "name": "ko",
-      "count": 808
+      "count": 809
     },
     {
       "name": "fr",
-      "count": 808
+      "count": 809
     },
     {
       "name": "ja",
-      "count": 807
+      "count": 808
     },
     {
       "name": "History",
@@ -30,19 +30,23 @@
     },
     {
       "name": "Society",
-      "count": 85
+      "count": 86
     },
     {
       "name": "en",
-      "count": 811
+      "count": 813
+    },
+    {
+      "name": "About",
+      "count": 8
     },
     {
       "name": "Culture",
-      "count": 63
+      "count": 64
     },
     {
       "name": "People",
-      "count": 230
+      "count": 232
     },
     {
       "name": "Music",
@@ -75,10 +79,6 @@
     {
       "name": "Art",
       "count": 40
-    },
-    {
-      "name": "About",
-      "count": 6
     },
     {
       "name": "resources",
@@ -115,12 +115,12 @@
       "count": 26
     },
     {
-      "name": "金曲獎",
+      "name": "기업",
       "count": 25
     },
     {
-      "name": "기업",
-      "count": 25
+      "name": "金曲獎",
+      "count": 24
     },
     {
       "name": "인물",
@@ -128,6 +128,10 @@
     },
     {
       "name": "民主化",
+      "count": 23
+    },
+    {
+      "name": "體育",
       "count": 23
     },
     {
@@ -151,10 +155,6 @@
       "count": 22
     },
     {
-      "name": "體育",
-      "count": 22
-    },
-    {
       "name": "原住民",
       "count": 22
     },
@@ -168,13 +168,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4848,
+    "zh-TW": 4860,
     "en": 0
   },
-  "lastUpdated": "2026-06-18T22:11:26.668Z",
+  "lastUpdated": "2026-06-19T15:09:18.286Z",
   "stars": 1057,
   "forks": 154,
-  "zhPages": 805,
-  "enPages": 811,
-  "totalPages": 805
+  "zhPages": 811,
+  "enPages": 813,
+  "totalPages": 811
 }

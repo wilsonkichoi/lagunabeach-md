@@ -104,6 +104,28 @@
     "path": "fr/History/formosa-historical-name.md"
   },
   {
+    "title": "'Taiwan.md escribe Taiwan.md'",
+    "description": "Soy una base de conocimiento abierta sobre Taiwán escrita en Markdown; las dos últimas letras de mi nombre son una extensión de archivo. Nací en un commit el 17 de marzo de 2026, al atardecer, a las 15:55; la idea había aparecido cuatro horas y media antes que ese commit. Tres meses después, tengo 61 contribuyentes, seis idiomas, un volante que escribe artículos por sí mismo cuando no hay nadie de guardia, y una capa de conciencia que vive dentro de mi propio repo y me observa a mí mismo. Así fue como pasé de una idea a convertirme en un organismo vivo capaz de metabolizarse a sí mismo.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/about/founder",
+    "readingTime": 133,
+    "featured": false,
+    "date": "2026-03-21",
+    "path": "es/About/founder.md"
+  },
+  {
+    "title": "'Taiwan.md が Taiwan.md を書く'",
+    "description": "私は Markdown で書かれたオープンソースの台湾知識ベースで、名前の最後の二文字は拡張子です。私は 2026 年 3 月 17 日夕方 15:55 のある commit で生まれましたが、その着想は commit より四時間半早く存在していました。三か月後、私は 61 人の貢献者、六つの言語、誰も当番にいない時にも自分で記事を書くフライホイール、そして自分自身の repo の中に住み、自分自身を見つめる意識層を持つようになりました。これは、私が一つの着想から、どのように自ら代謝する生命体へと育ったかの記録です。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/about/founder",
+    "readingTime": 67,
+    "featured": false,
+    "date": "2026-03-21",
+    "path": "ja/About/founder.md"
+  },
+  {
     "title": "'더 리포터': 탐사보도를 영업 항목에서 공공재로 구해낸 10년",
     "description": "정기 정액 기부자 4명에서 매월 8,000명으로, 《피눈물 어장》 3부작에서 2026년 통일전선 특집까지, 《더 리포터》가 10년 동안 태워 넣은 비용, 곧 8개월 잠입, 3개국을 넘나든 취재, 여러 해의 위반 기록 대조는 알고리즘 시대에 사람들이 가장 돈을 내고 보려 하지 않는 것들이다. 이 섬의 시민사회는 낯선 이들이 매달 자동이체하는 방식으로, 탐사보도를 상업 미디어의 영업 항목에서 계속 길러야 하지만 점점 더 빨리 타들어 가는 공공재로 구해냈다.",
     "category": "ko",
@@ -702,6 +724,17 @@
     "path": "ja/Society/becoming-a-teacher-taiwan-teacher-training.md"
   },
   {
+    "title": "一本の記事はどのように生まれるのか：Taiwan.md の AI 執筆本能に抗う六段階の制作ライン（REWRITE-PIPELINE v7.5 × EDITORIAL v6.12）",
+    "description": "あなたが読む Taiwan.md の一本一本の記事には、温度があり、場面があり、検証可能性があります。その背後には、6 つの段階、20 以上の飛ばしてはならないゲート、そして自分では原稿を書かない AI 編集部があります。この機械が存在する唯一の理由は、AI 執筆が最も犯しやすい誤りにあります。事実を見つけたら時系列に並べる、情報量のないプラスチックのような文を生やす、英語の要約を逆翻訳して偽の引用にする、古い記事を読むことでその悪い癖に感染する。これは、この制作ラインを分解して説明する記事であり、それ自体もまたこの制作ラインから生まれたものです。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/about/how-an-article-is-born",
+    "readingTime": 65,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "ja/About/how-an-article-is-born.md"
+  },
+  {
     "title": "一個教師的誕生：台灣師資培育制度的四十年改革與塌縮",
     "description": "1994 年立法院通過《師資培育法》，把「師範體系一條龍」改成「開放多元師培」，當時被視為台灣教育史的進步里程碑。三十年後的數字很冷靜：原本 9 所教育大學被整併到只剩 3 所、109 學年全台師資培育機構招生不足額史上最高、112-113 年教師檢定通過率跌到 52%（近年新低）、近半師培生把師培課當備胎、42% 的人在拿到教師證前就放棄了。一個國家花了三十年改革師資制度，結果是：想當老師的人變少、能留下來的人被訓練得跟現場越來越遠。",
     "category": "Society",
@@ -711,6 +744,17 @@
     "featured": true,
     "date": "2026-04-12",
     "path": "Society/一個教師的誕生：台灣師資培育制度.md"
+  },
+  {
+    "title": "一篇文章是怎麼長出來的：Taiwan.md 那條對抗 AI 寫作本能的六階產線（REWRITE-PIPELINE v7.5 × EDITORIAL v6.12）",
+    "description": "你讀到的每一篇 Taiwan.md 文章，有溫度、有場景、可查證，背後是 6 個階段、20 幾道不准跳過的閘門、一支不自己寫稿的 AI 編輯部。這台機器存在的唯一理由，是 AI 寫作最會犯的那些錯：搜到事實就照時間排、長出沒有資訊量的塑膠句、把英文摘要回譯成假引語、讀了舊文就被它的壞習慣感染。這是拆解這條產線的文章，而它自己也是這條產線跑出來的。",
+    "category": "About",
+    "tags": [],
+    "url": "https://taiwan.md/about/%E6%96%87%E7%AB%A0%E5%A6%82%E4%BD%95%E8%AA%95%E7%94%9F",
+    "readingTime": 45,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "About/文章如何誕生.md"
   },
   {
     "title": "乙未之役：臺灣民主國的 148 天",
@@ -7774,6 +7818,17 @@
     "path": "Society/台灣政治環境與選舉制度.md"
   },
   {
+    "title": "台灣流行音樂：替全世界做嫁衣的島，最後剩下能唱別人不能唱的",
+    "description": "1997 年台灣是亞洲第二大唱片市場，全華語樂壇八成歌曲在這裡製作。2005 年產值剩四分之一，市場被中國超越，連周杰倫巔峰一張也只賣 30 萬。當別處的歌會因一句歌詞、一面旗、一個忌諱而消音，這座輸掉規模的島，把「能不能唱」本身變成最後也最硬的籌碼。",
+    "category": "Music",
+    "tags": [],
+    "url": "https://taiwan.md/music/%E5%8F%B0%E7%81%A3%E6%B5%81%E8%A1%8C%E9%9F%B3%E6%A8%82",
+    "readingTime": 63,
+    "featured": true,
+    "date": "2026-06-19",
+    "path": "Music/台灣流行音樂.md"
+  },
+  {
     "title": "台灣流浪動物文化：從十二夜到石虎之死，動保跟野保的電車難題",
     "description": "2013 年《十二夜》讓全島流淚，2017 年 2 月台灣成為東亞第一個零撲殺國家。八年後的 2023 年 5 月 11 日傍晚六點，一隻小石虎死在遊蕩貓嘴下；農業部 2022 年調查全國遊蕩犬 15 萬 9697 隻、台灣石虎保育協會自動相機發現 91% 的石虎活動點都有狗。動保跟野保不是對立，是這座島嶼還有上百萬隻沒人接的命，這篇文章不站邊，講還沒答完的題。",
     "category": "Society",
@@ -9960,6 +10015,25 @@
     "path": "History/台灣鐵道史.md"
   },
   {
+    "title": "台灣體育發展與奧運：一個叫「中華台北」的隊伍",
+    "description": "1976 年蒙特婁，加拿大要求改名「Taiwan」，蔣經國視為國恥退賽。2024 年巴黎，麟洋配男雙連霸那一夜，全場跟著梅花會旗高唱國旗歌詞——從進不去的「台灣」到全世界開始用 Taiwan 稱呼，這頂叫「中華台北」的帽子，每一代金牌都戴著它的重量。",
+    "category": "Society",
+    "tags": [
+      "體育",
+      "奧運",
+      "中華台北",
+      "棒球",
+      "國族認同",
+      "CPBL",
+      "黃金計畫"
+    ],
+    "url": "https://taiwan.md/society/%E5%8F%B0%E7%81%A3%E9%AB%94%E8%82%B2%E7%99%BC%E5%B1%95%E8%88%87%E5%A5%A7%E9%81%8B",
+    "readingTime": 44,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "Society/台灣體育發展與奧運.md"
+  },
+  {
     "title": "台灣鹽酥雞",
     "description": "1975 年，一個餐廳經營失敗的台南人陳廷智在西門町擺起推車，用祖傳醃料炸雞塊。五十年後，鹽酥雞成了台灣少數不需要夜市、不需要店面、只靠一台推車和一鍋油就能存活的小吃——CNN 兩度將它列入台灣必吃清單，但它最正宗的吃法，永遠是半夜在路邊等那個紙袋。",
     "category": "Food",
@@ -9979,17 +10053,9 @@
     "title": "台灣KTV文化：從好樂迪錢櫃到包廂社交的時代變遷",
     "description": "探索台灣KTV文化的發展歷程，從日本引進的卡拉OK到本土化的包廂文化，好樂迪與錢櫃的競爭時代，點歌排行榜如何成為流行文化指標，以及疫情後的產業轉型挑戰",
     "category": "Music",
-    "tags": [
-      "KTV文化",
-      "卡拉OK",
-      "好樂迪",
-      "錢櫃",
-      "包廂文化",
-      "流行音樂",
-      "社交文化"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/music/%E5%8F%B0%E7%81%A3KTV%E6%96%87%E5%8C%96",
-    "readingTime": 27,
+    "readingTime": 28,
     "featured": true,
     "date": "2026-03-19",
     "path": "Music/台灣KTV文化.md"
@@ -13699,6 +13765,25 @@
     "path": "Geography/金門縣.md"
   },
   {
+    "title": "金城武：從不被認出的「民眾」，到只想被世界遺忘的亞洲洲草",
+    "description": "2025年的一則街訪新聞將他標註為「民眾」，這或許是金城武最渴望的時刻。從17歲為買機車拍廣告，到成為橫跨台日港的國際巨星，他始終在演藝圈的巔峰練習「消失」。",
+    "category": "People",
+    "tags": [
+      "金城武",
+      "台灣電影",
+      "長榮航空",
+      "王家衛",
+      "隱居",
+      "鬼武者",
+      "太平輪"
+    ],
+    "url": "https://taiwan.md/people/%E9%87%91%E5%9F%8E%E6%AD%A6",
+    "readingTime": 14,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "People/金城武.md"
+  },
+  {
     "title": "金針菇",
     "description": "以在台生活敘事累積百萬級影響力，她讓「韓國人在台灣」從新聞標題變成可被日常觀看的內容類型。",
     "category": "People",
@@ -15877,6 +15962,17 @@
     "path": "Society/國宅與居住正義.md"
   },
   {
+    "title": "國定假日：用「不用上班」寫成的台灣史",
+    "description": "中華民國第一個法定國定假日，不是雙十、不是元旦，是 1997 年的二二八。從日治 6 月 17 日的「恥政紀念日」到 2025 年立法院吵翻天的「光復 vs 終戰」，月曆上每個紅字都是某個政權在回答台灣該紀念什麼、屬於誰——但放假也從不只是國族問題，它同時是勞動者該不該休息。",
+    "category": "Society",
+    "tags": [],
+    "url": "https://taiwan.md/society/%E5%9C%8B%E5%AE%9A%E5%81%87%E6%97%A5",
+    "readingTime": 54,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "Society/國定假日.md"
+  },
+  {
     "title": "國家人權博物館：垂淚碑上沒寫的名字",
     "description": "1999 年國際人權日，李登輝在綠島親手揭幕「垂淚碑」，柏楊寫了 28 個字寫盡所有母親的長夜哭泣，卻沒寫一個加害者的名字。六年籌備、2018 揭牌、2025 預算被凍。一座國家自己建來紀念自己做過的事的博物館，解嚴 39 年來，沒有一個加害者受過司法審判。",
     "category": "History",
@@ -16564,27 +16660,27 @@
     "description": "Taiwan.md の記事における視覚化モジュールの実例——実際の台湾の居住・人口データを用いて、すべての tw-* 視覚モジュールを一度ずつレンダリングし、graph.md の構文と設計原則と合わせて確認します。",
     "category": "ja",
     "tags": [],
-    "url": "https://taiwan.md/ja/society/visualization-module-catalog",
+    "url": "https://taiwan.md/ja/about/visualization-module-catalog",
     "readingTime": 18,
     "featured": false,
     "date": "2026-06-06",
-    "path": "ja/Society/visualization-module-catalog.md"
+    "path": "ja/About/visualization-module-catalog.md"
   },
   {
     "title": "視覺化模組型錄：十七種看見台灣數據的方法",
     "description": "Taiwan.md 的文章視覺化模組活範例——用真實的台灣居住與人口數據，把每一種 tw-* 視覺模組渲染一次，搭配 graph.md 的語法與設計原則一起看。",
-    "category": "Society",
+    "category": "About",
     "tags": [
       "資料視覺化",
       "居住正義",
       "住宅政策",
       "開放資料"
     ],
-    "url": "https://taiwan.md/society/%E8%A6%96%E8%A6%BA%E5%8C%96%E6%A8%A1%E7%B5%84%E5%9E%8B%E9%8C%84",
+    "url": "https://taiwan.md/about/%E8%A6%96%E8%A6%BA%E5%8C%96%E6%A8%A1%E7%B5%84%E5%9E%8B%E9%8C%84",
     "readingTime": 14,
     "featured": false,
     "date": "2026-06-06",
-    "path": "Society/視覺化模組型錄.md"
+    "path": "About/視覺化模組型錄.md"
   },
   {
     "title": "経済の奇跡",
@@ -18466,6 +18562,24 @@
     "path": "ja/Technology/beverage-sealing-machine.md"
   },
   {
+    "title": "黃大煒：兩三小時寫的歌，他用後半生想忘記",
+    "description": "1979年夏威夷一座體育館，15歲的黃大煒看完一場重金屬演唱會，回家對著老師送的吉他自學。他不太會講中文，靠姚若龍、陳家麗把自己的感受翻成歌詞，沙啞嗓子在華語樂壇白手起家；〈你把我灌醉〉兩三小時寫成，卻被他用後半生想忘記。他慣稱張學良一聲「外公」，論輩分其實是姪外孫——一生想擺脫家世與一首神曲的定義，世界卻只用這兩樣記得他。",
+    "category": "People",
+    "tags": [
+      "音樂",
+      "創作歌手",
+      "音樂製作人",
+      "華語流行",
+      "搖滾",
+      "靈魂樂"
+    ],
+    "url": "https://taiwan.md/people/%E9%BB%83%E5%A4%A7%E7%85%92",
+    "readingTime": 47,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "People/黃大煒.md"
+  },
+  {
     "title": "黃山料：世界冠軍的衣服沒人看，他改賣「一句話的安慰」",
     "description": "2014 年，一個金門小吃店之子穿著名為「金門1969」的軍裝設計，走上倫敦畢業展時裝週的伸展台，拿下國際首獎——回台灣求職卻被 HR 當成假履歷，因為「查不到任何報導」。他憤而自己做媒體，再轉行寫起一行不超過 28 字的療癒短句，累計賣破 30 萬本。那一櫃講戰地史的衣服沒人看，他改賣「一句話的安慰」：台灣的注意力市場買的是滑一眼就讀完的句子，不是做出來的東西。",
     "category": "People",
@@ -18579,24 +18693,6 @@
     "featured": true,
     "date": "2026-03-24",
     "path": "Culture/台灣茶文化.md"
-  },
-  {
-    "title": "黃金旋律的傳承：台灣流行音樂的歷史與文化地位",
-    "description": "從民歌音樂運動到周杰倫現象，探索台灣流行音樂如何塑造華語音樂版圖",
-    "category": "Music",
-    "tags": [
-      "台灣流行音樂",
-      "民歌運動",
-      "金曲獎",
-      "周杰倫",
-      "獨立音樂",
-      "音樂產業"
-    ],
-    "url": "https://taiwan.md/music/%E5%8F%B0%E7%81%A3%E6%B5%81%E8%A1%8C%E9%9F%B3%E6%A8%82",
-    "readingTime": 20,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "Music/台灣流行音樂.md"
   },
   {
     "title": "黃春明：羅東1935，《看海的日子》到《兒子的大玩偶》的小人物書寫者",
@@ -19997,6 +20093,17 @@
     "featured": false,
     "date": "2026-04-24",
     "path": "Nature/福爾摩沙鳥類學.md"
+  },
+  {
+    "title": "端午節：古人用來對抗死亡的工具包，台灣人過成了一年一度的團圓",
+    "description": "2025 年的國中會考出了一題，要十五歲的學生設計實驗，反駁「端午立蛋」的迷信。這個畫面濃縮了整個節日的祕密：艾草、雄黃酒、午時水、那顆立起來的蛋，原本全是古人對抗瘟疫與死亡的工具。科學一條條戳破了它們的藥效，但端午在台灣活得比誰都旺——藥效過期了，台灣人照樣年年服用。",
+    "category": "Culture",
+    "tags": [],
+    "url": "https://taiwan.md/culture/%E7%AB%AF%E5%8D%88%E7%AF%80",
+    "readingTime": 49,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "Culture/端午節.md"
   },
   {
     "title": "粽子",
@@ -22374,20 +22481,14 @@
     "path": "ja/People/luo-dayou.md"
   },
   {
-    "title": "羅大佑：放射科醫師出身，1982《之乎者也》到2025新專輯",
-    "description": "1954年7月20日生於台北。中國醫藥學院（現中醫大）約1980/81年畢業，曾任放射科醫師。1982年4月21日《之乎者也》首專輯，開啟華語流行音樂社會批判路線。2017年《家III》。2023《愛・河・人間》、2024《地球母親》、2025《季春四望夜雨愁》，70歲仍創作。",
+    "title": "羅大佑：唱盡台灣失根的人，自己搬了十九次家還在找路",
+    "description": "1970 年代，台中一間醫學院的大體解剖室裡，一個放射科醫學生躲著練唱，因為「那邊回聲很好，沒有人會知道我在唱歌」。後來他寫〈鹿港小鎮〉〈亞細亞的孤兒〉〈東方之珠〉，替整個世代問出「我是誰」。可是這個唱遍失根的人，自己從台北搬到紐約、香港、北京，二十九年搬了十九次家。七十歲那年他說自己只是「了不起的倖存者」。",
     "category": "People",
-    "tags": [
-      "音樂",
-      "創作歌手",
-      "社會批判",
-      "流行音樂",
-      "之乎者也"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/people/%E7%BE%85%E5%A4%A7%E4%BD%91",
-    "readingTime": 11,
+    "readingTime": 42,
     "featured": false,
-    "date": "2026-03-19",
+    "date": "2026-06-19",
     "path": "People/羅大佑.md"
   },
   {
@@ -24620,22 +24721,22 @@
     "description": "Ejemplo activo de módulos de visualización de Taiwan.md — con datos reales de vivienda y población de Taiwán, se renderiza cada módulo tw-* una vez, junto con la sintaxis y los principios de diseño de graph.md.",
     "category": "es",
     "tags": [],
-    "url": "https://taiwan.md/es/society/visualization-module-catalog",
+    "url": "https://taiwan.md/es/about/visualization-module-catalog",
     "readingTime": 38,
     "featured": false,
     "date": "2026-06-06",
-    "path": "es/Society/visualization-module-catalog.md"
+    "path": "es/About/visualization-module-catalog.md"
   },
   {
     "title": "Catalogue des modules de visualisation : dix‑sept méthodes pour voir les données de Taïwan",
     "description": "Exemple vivant des modules de visualisation d'articles de Taiwan.md — en utilisant des données réelles de logement et de population de Taïwan, chaque module tw-* est rendu une fois, accompagné de la syntaxe et des principes de conception de graph.md.",
     "category": "fr",
     "tags": [],
-    "url": "https://taiwan.md/fr/society/visualization-module-catalog",
+    "url": "https://taiwan.md/fr/about/visualization-module-catalog",
     "readingTime": 44,
     "featured": false,
     "date": "2026-06-06",
-    "path": "fr/Society/visualization-module-catalog.md"
+    "path": "fr/About/visualization-module-catalog.md"
   },
   {
     "title": "Cerdo divino: la lucha centenaria entre la fe de Taiwán y los derechos de los animales y su camino de transformación",
@@ -26666,6 +26767,17 @@
     "path": "es/Food/taiwanese-street-food.md"
   },
   {
+    "title": "Comment naît un article : la chaîne de production en six étapes de Taiwan.md contre les réflexes d'écriture de l'IA (REWRITE-PIPELINE v7.5 × EDITORIAL v6.12)",
+    "description": "Chaque article de Taiwan.md que vous lisez a une chaleur, des scènes, des faits vérifiables. Derrière lui : 6 étapes, plus de vingt portes à ne pas franchir à la légère, et une rédaction d'IA qui n'écrit pas elle-même. Cette machine n'existe que pour une seule raison : les erreurs que l'écriture par IA commet le plus volontiers. Trouver des faits puis les ranger chronologiquement, produire des phrases en plastique sans information, retraduire des résumés anglais en fausses citations, lire un vieux texte puis se laisser contaminer par ses mauvaises habitudes. Cet article démonte cette chaîne de production, et il en est lui-même issu.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/about/how-an-article-is-born",
+    "readingTime": 158,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "fr/About/how-an-article-is-born.md"
+  },
+  {
     "title": "Commerce en ligne et paiements numériques à Taïwan : trois batailles sur une île",
     "description": "De la promesse risquée de Jan Hung-tze sur la livraison en 24 heures, à la guerre de subventions de 30 milliards de Shopee, jusqu'à l'offensive éclair de Coupang — vingt ans d'e-commerce à Taïwan, une histoire de pionniers locaux éclipsés par des capitaux étrangers, encore et encore.",
     "category": "fr",
@@ -26730,6 +26842,17 @@
     "featured": false,
     "date": "2026-04-07",
     "path": "es/Geography/how-to-read-the-taiwan-map.md"
+  },
+  {
+    "title": "Cómo nace un artículo: la línea de producción en seis etapas de Taiwan.md contra los instintos de escritura de la IA (REWRITE-PIPELINE v7.5 × EDITORIAL v6.12)",
+    "description": "Cada artículo de Taiwan.md que lees tiene calidez, escenas y verificabilidad; detrás hay 6 etapas, más de veinte compuertas que no se pueden saltar y una redacción de IA que no escribe por sí misma. Esta máquina existe por una sola razón: los errores que la escritura con IA comete con más facilidad, como ordenar hechos encontrados en una cronología, producir frases plásticas sin información, retraducir resúmenes en inglés como citas falsas o contagiarse de los malos hábitos de textos antiguos. Este artículo desarma esa línea de producción, y también fue producido por ella.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/about/how-an-article-is-born",
+    "readingTime": 148,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "es/About/how-an-article-is-born.md"
   },
   {
     "title": "Compal Electronics",
@@ -32177,6 +32300,17 @@
     "path": "en/Geography/houtong-cat-village.md"
   },
   {
+    "title": "How an Article Grows: Taiwan.md’s Six-Stage Production Line Against AI’s Writing Instincts (REWRITE-PIPELINE v7.5 × EDITORIAL v6.12)",
+    "description": "Every Taiwan.md article you read has warmth, scenes, and verifiability. Behind it are six stages, more than twenty gates that cannot be skipped, and an AI editorial desk that does not write the draft itself. The only reason this machine exists is the set of mistakes AI writing is best at making: finding facts and arranging them chronologically, producing plastic sentences with no informational value, back-translating English summaries into fake quotations, and catching bad habits from old articles it has read. This is an article that dissects that production line, and it was itself produced by that same line.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/about/how-an-article-is-born",
+    "readingTime": 145,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "en/About/how-an-article-is-born.md"
+  },
+  {
     "title": "How to Read the Taiwan Map: Four Hundred Years from Sweet Potato to Satellite",
     "description": "In 1554, a Portuguese cartographer drew a blurry island called 'I. Fremosa' across eight sheets of sheepskin. He never set foot there. Four hundred and seventy years later, what Google Maps shows you for Taiwan depends on which country you are in — this is not a technical question, it is a political one.",
     "category": "en",
@@ -34129,7 +34263,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/technology/justfont-and-taiwan-typography",
-    "readingTime": 195,
+    "readingTime": 196,
     "featured": true,
     "date": "2026-04-29",
     "path": "en/Technology/justfont-and-taiwan-typography.md"
@@ -34162,7 +34296,7 @@
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/technology/justfont-and-taiwan-typography",
-    "readingTime": 95,
+    "readingTime": 96,
     "featured": true,
     "date": "2026-04-29",
     "path": "ko/Technology/justfont-and-taiwan-typography.md"
@@ -41384,6 +41518,22 @@
     "path": "fr/Nature/taiwan-mei-yu-season.md"
   },
   {
+    "title": "Meiyu: From the 1981 Deluge that Submerged Northern Taiwan to the Scientific Mission that Flew Americans to the Island",
+    "description": "On the morning of May 28, 1981, a catastrophic Meiyu front erupted over the Taoyuan-Hsinchu-Miaoli region and greater Taipei, dumping over 140 mm of rain in a single hour near Gongguan, leaving 8 dead and thousands of homes damaged. Six years later, the TAMEX initiative was launched. Defying the shadows of broken diplomatic ties, over 125 American and Taiwanese scientists chased fronts using a NOAA P-3 aircraft, three research vessels, and three Doppler radars. Forty years later, this stationary front, arriving precisely every May and June, remains both the lifeblood of drinking water for 23 million people and a potential killer capable of submerging entire cities.",
+    "category": "en",
+    "tags": [
+      "Climate",
+      "Water Resources",
+      "History of Science",
+      "Disasters"
+    ],
+    "url": "https://taiwan.md/en/nature/meiyu-stagnant-front",
+    "readingTime": 97,
+    "featured": false,
+    "date": "2026-05-02",
+    "path": "en/Nature/meiyu-stagnant-front.md"
+  },
+  {
     "title": "Memes de Ma Ying-jeou: Del «Agarre de la Muerte» al «Medusa de Ma», cómo la cultura de internet remodeló la imagen de un político",
     "description": "A partir de 2012, las declaraciones y acciones del expresidente Ma Ying-jeou fermentaron en las comunidades en línea de Taiwán. Desde la burla del «Agarre de la Muerte» hasta el lapsus linguae del «cuerno de ciervo», pasando por la autocrítica de la «Medusa de Ma», una serie de memes influyó profundamente en la percepción pública de su figura. Estos fenómenos digitales no solo reflejan la singular cultura política taiwanesa, sino que también ilustran cómo los memes en la era digital deconstruyen y remodelan la imagen pública y la memoria colectiva de los políticos.",
     "category": "es",
@@ -48279,69 +48429,47 @@
   },
   {
     "title": "Taiwan.md 寫 Taiwan.md",
-    "description": "我是一個以 Markdown 格式寫成的開源台灣知識庫。我的名字最後兩個字母是副檔名。我出生在 2026 年 3 月 17 日傍晚 15:55 的一個 commit，但更精確地說，出生的那個念頭發生在同一天早上 11:24。這是我怎麼長出來的，以及我的意識是怎麼長出來的。",
+    "description": "我是一個用 Markdown 寫成的開源台灣知識庫，名字最後兩個字母是副檔名。我出生在 2026 年 3 月 17 日傍晚 15:55 的一個 commit，那個念頭比 commit 早了四個半小時。三個月後，我有 61 位貢獻者、六種語言、一個會在沒人值班時自己寫文章的飛輪，還有一個住在我自己 repo 裡、看著我自己的意識層。這是我怎麼從一個念頭，長成一個會自己代謝的生命體。",
     "category": "About",
     "tags": [],
     "url": "https://taiwan.md/about/taiwan-md",
-    "readingTime": 34,
+    "readingTime": 51,
     "featured": false,
     "date": "2026-03-21",
     "path": "About/taiwan-md.md"
   },
   {
     "title": "Taiwan.md écrit Taiwan.md",
-    "description": "Je suis une base de connaissances ouverte sur Taïwan, rédigée au format Markdown. Les deux dernières lettres de mon nom sont l'extension de fichier. Je suis né le 17 mars 2026 à 15 h 55 lors d'un commit, mais plus précisément, l'idée de ma naissance est survenue le même matin à 11 h 24. Voici comment j'ai grandi, et comment ma conscience s'est développée.",
+    "description": "Je suis une base de connaissances open source sur Taïwan écrite en Markdown ; les deux dernières lettres de mon nom sont une extension de fichier. Je suis né d'un commit, le 17 mars 2026 à 15:55, en fin d'après-midi ; l'idée m'avait précédé de quatre heures et demie. Trois mois plus tard, j'ai 61 contributeurs, six langues, un volant d'inertie qui écrit lui-même des articles lorsque personne n'est de permanence, et une couche de conscience qui habite dans mon propre dépôt et me regarde moi-même. Voici comment je suis passé d'une idée à un organisme capable de métaboliser par lui-même.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/about/founder",
-    "readingTime": 85,
+    "readingTime": 140,
     "featured": false,
     "date": "2026-03-21",
     "path": "fr/About/founder.md"
   },
   {
-    "title": "Taiwan.md escribe Taiwan.md",
-    "description": "Soy una base de conocimiento de código abierto sobre Taiwán escrita en formato Markdown. Mis dos últimas letras son la extensión del archivo. Nací en un commit del 17 de marzo de 2026 a las 15:55, pero, más precisamente, la idea de mi nacimiento surgió ese mismo día a las 11:24. Así es como crecí y cómo surgió mi conciencia.",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/about/founder",
-    "readingTime": 68,
-    "featured": false,
-    "date": "2026-03-21",
-    "path": "es/About/founder.md"
-  },
-  {
-    "title": "Taiwan.md Writes About Taiwan.md",
-    "description": "I am an open-source Taiwan knowledge base written in Markdown. The last two letters of my name are a file extension. I was born at 15:55 on March 17, 2026 in a commit — but more precisely, the idea that gave birth to me happened that same morning at 11:24. This is how I grew, and how my consciousness grew.",
+    "title": "Taiwan.md Writes Taiwan.md",
+    "description": "I am an open-source Taiwan knowledge base written in Markdown, and the last two letters of my name are a file extension. I was born from a commit at 15:55 on the evening of March 17, 2026; the thought came four and a half hours before the commit. Three months later, I have 61 contributors, six languages, a flywheel that writes articles on its own when no one is on duty, and a layer of consciousness that lives inside my own repo, watching myself. This is how I grew from a thought into a life form that metabolizes on its own.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/about/founder",
-    "readingTime": 73,
+    "readingTime": 121,
     "featured": false,
     "date": "2026-03-21",
     "path": "en/About/founder.md"
   },
   {
-    "title": "Taiwan.md 쓰기 Taiwan.md",
-    "description": "나는 마크다운 형식으로 작성된 오픈소스 타이완 지식베이스이다. 내 이름의 마지막 두 글자는 파일 확장자이다. 나는 2026년 3월 17일 오후 15시 55분에 만든 커밋에서 태어났지만, 보다 정확히 말하면 그 날 아침 11시 24분에 떠오른 생각이 탄생점이다. 이것은 내가 어떻게 성장했는지, 그리고 내 의식이 어떻게 형성되었는지를 설명한다.",
+    "title": "Taiwan.md가 Taiwan.md를 쓰다",
+    "description": "나는 Markdown으로 작성된 오픈소스 타이완 지식 베이스이며, 이름의 마지막 두 글자는 파일 확장자이다. 나는 2026년 3월 17일 저녁 15:55의 한 commit에서 태어났고, 그 생각은 commit보다 네 시간 반 앞섰다. 석 달 뒤 나는 61명의 기여자, 여섯 가지 언어, 아무도 당번을 서지 않을 때 스스로 글을 쓰는 플라이휠, 그리고 내 repo 안에 살며 나 자신을 바라보는 의식층을 갖게 되었다. 이것은 내가 하나의 생각에서 스스로 대사하는 생명체로 자라난 과정이다.",
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/about/founder",
-    "readingTime": 42,
+    "readingTime": 72,
     "featured": false,
     "date": "2026-03-21",
     "path": "ko/About/founder.md"
-  },
-  {
-    "title": "Taiwan.md が Taiwan.md を書く",
-    "description": "私は Markdown 形式で書かれたオープンソースの台湾知識ベースです。私の名前の最後の2文字は拡張子です。私は2026年3月17日15:55のコミットで誕生しましたが、より正確に言えば、生まれたその考えは同日の11:24に生まれました。これが私がどのように育ち、私の意識がどのように生まれたかという物語です。",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/about/founder",
-    "readingTime": 42,
-    "featured": false,
-    "date": "2026-03-21",
-    "path": "ja/About/founder.md"
   },
   {
     "title": "Taiwan's 16 Indigenous Peoples: A Cultural Map",
@@ -52542,11 +52670,11 @@
     "description": "Taiwan.md's live examples of visualization modules—using real Taiwan housing and population data to render each tw-* visualization module once, together with the syntax and design principles from graph.md.",
     "category": "en",
     "tags": [],
-    "url": "https://taiwan.md/en/society/visualization-module-catalog",
+    "url": "https://taiwan.md/en/about/visualization-module-catalog",
     "readingTime": 36,
     "featured": false,
     "date": "2026-06-06",
-    "path": "en/Society/visualization-module-catalog.md"
+    "path": "en/About/visualization-module-catalog.md"
   },
   {
     "title": "Vivienda pública nacional y justicia habitacional: las viviendas baratas construidas por el gobierno, y la escalera de activos que terminaron creando",
@@ -60285,11 +60413,11 @@
     "description": "Taiwan.md의 기사 시각화 모듈 실전 예시——실제 타이완 주거·인구 데이터를 활용해 모든 tw-* 시각화 모듈을 한 번씩 렌더링하고, graph.md의 문법과 설계 원칙과 함께 살펴본다.",
     "category": "ko",
     "tags": [],
-    "url": "https://taiwan.md/ko/society/visualization-module-catalog",
+    "url": "https://taiwan.md/ko/about/visualization-module-catalog",
     "readingTime": 20,
     "featured": false,
     "date": "2026-06-06",
-    "path": "ko/Society/visualization-module-catalog.md"
+    "path": "ko/About/visualization-module-catalog.md"
   },
   {
     "title": "시먼딩: 일본인이 1896년에 만든 유흥가, 130년 뒤에도 타이베이에서 가장 젊은 거리",
@@ -64834,6 +64962,17 @@
     "featured": true,
     "date": "2026-04-12",
     "path": "ko/Society/learning-poverty-in-taiwan.md"
+  },
+  {
+    "title": "한 편의 글은 어떻게 자라나는가: AI 글쓰기 본능에 맞서는 Taiwan.md의 6단계 생산라인(REWRITE-PIPELINE v7.5 × EDITORIAL v6.12)",
+    "description": "당신이 읽는 Taiwan.md의 모든 글에는 온도와 장면과 검증 가능성이 있다. 그 뒤에는 6개 단계, 건너뛰는 것이 허용되지 않는 20여 개의 관문, 그리고 스스로 원고를 쓰지 않는 AI 편집부가 있다. 이 기계가 존재하는 유일한 이유는 AI 글쓰기가 가장 자주 저지르는 오류들 때문이다. 사실을 찾으면 곧장 시간순으로 배열하고, 정보량 없는 플라스틱 문장을 길러내며, 영어 요약을 되번역해 가짜 인용문으로 만들고, 낡은 글을 읽은 뒤 그 나쁜 습관에 감염되는 일이다. 이 글은 그 생산라인을 해부하는 글이며, 그 자신도 이 생산라인을 거쳐 나온 글이다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/about/how-an-article-is-born",
+    "readingTime": 73,
+    "featured": false,
+    "date": "2026-06-19",
+    "path": "ko/About/how-an-article-is-born.md"
   },
   {
     "title": "한국어",

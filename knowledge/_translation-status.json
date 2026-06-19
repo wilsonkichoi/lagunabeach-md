@@ -1,47 +1,47 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-19T12:31:03+08:00",
-    "zhCommitHead": "178a93d67",
+    "lastUpdated": "2026-06-19T23:09:16+08:00",
+    "zhCommitHead": "90fc0cadd",
     "totalZh": 813,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
         "total_zh": 813,
-        "fresh": 802,
-        "stale": 4,
-        "metadata_stale": 2,
+        "fresh": 798,
+        "stale": 6,
+        "metadata_stale": 4,
         "missing": 5,
         "orphan": 0
       },
       "ja": {
         "total_zh": 813,
-        "fresh": 802,
-        "stale": 4,
-        "metadata_stale": 2,
+        "fresh": 798,
+        "stale": 6,
+        "metadata_stale": 4,
         "missing": 5,
         "orphan": 0
       },
       "ko": {
         "total_zh": 813,
-        "fresh": 802,
-        "stale": 4,
-        "metadata_stale": 2,
+        "fresh": 798,
+        "stale": 6,
+        "metadata_stale": 4,
         "missing": 5,
         "orphan": 0
       },
       "es": {
         "total_zh": 813,
-        "fresh": 802,
-        "stale": 4,
-        "metadata_stale": 2,
+        "fresh": 798,
+        "stale": 6,
+        "metadata_stale": 4,
         "missing": 5,
         "orphan": 0
       },
       "fr": {
         "total_zh": 813,
-        "fresh": 802,
-        "stale": 4,
-        "metadata_stale": 2,
+        "fresh": 798,
+        "stale": 6,
+        "metadata_stale": 4,
         "missing": 5,
         "orphan": 0
       }
@@ -21455,6 +21455,31 @@
         }
       }
     },
+    "Society/台灣體育發展與奧運.md": {
+      "zh": {
+        "lastCommit": "6aa84030",
+        "lastModified": "2026-06-19T19:40:32+08:00",
+        "contentHash": "sha256:00819cac3b7e14cf",
+        "bodyHash": "sha256:1b9fd837f0295a74"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
     "Society/台灣補習班文化.md": {
       "zh": {
         "lastCommit": "4b6d28c5",
@@ -22977,9 +23002,9 @@
     },
     "Society/颱風假.md": {
       "zh": {
-        "lastCommit": "ef195fa9",
-        "lastModified": "2026-05-09T23:11:43+08:00",
-        "contentHash": "sha256:f8e9398a49c104f4",
+        "lastCommit": "9bddcff6",
+        "lastModified": "2026-06-19T12:36:10+08:00",
+        "contentHash": "sha256:d909a68892279cea",
         "bodyHash": "sha256:8d3f66b5c4593a14"
       },
       "translations": {
@@ -22994,8 +23019,10 @@
           "translationLastModified": "2026-05-12T22:47:09+08:00",
           "inferred": false,
           "footnoteDefs": 20,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ja": {
           "path": "ja/Society/typhoon-day.md",
@@ -23008,8 +23035,10 @@
           "translationLastModified": "2026-05-12T22:47:09+08:00",
           "inferred": false,
           "footnoteDefs": 20,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ko": {
           "path": "ko/Society/typhoon-day.md",
@@ -23022,8 +23051,10 @@
           "translationLastModified": "2026-05-12T22:47:09+08:00",
           "inferred": false,
           "footnoteDefs": 20,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "es": {
           "path": "es/Society/typhoon-day.md",
@@ -23036,8 +23067,10 @@
           "translationLastModified": "2026-05-12T22:47:09+08:00",
           "inferred": false,
           "footnoteDefs": 20,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "fr": {
           "path": "fr/Society/typhoon-day.md",
@@ -23050,8 +23083,10 @@
           "translationLastModified": "2026-05-12T22:47:09+08:00",
           "inferred": false,
           "footnoteDefs": 20,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         }
       }
     },
@@ -23137,10 +23172,10 @@
     },
     "Society/國定假日.md": {
       "zh": {
-        "lastCommit": "",
-        "lastModified": "",
-        "contentHash": "sha256:4abfe44927bc561c",
-        "bodyHash": "sha256:f2d34f2e28f66b54"
+        "lastCommit": "ddb9590b",
+        "lastModified": "2026-06-19T12:56:05+08:00",
+        "contentHash": "sha256:322c4c022d4678f9",
+        "bodyHash": "sha256:68d627d331e8bf54"
       },
       "translations": {
         "en": {
@@ -23722,8 +23757,8 @@
     },
     "About/文章如何誕生.md": {
       "zh": {
-        "lastCommit": "1c845d22",
-        "lastModified": "2026-06-19T11:41:11+08:00",
+        "lastCommit": "f3ad5912",
+        "lastModified": "2026-06-19T12:47:44+08:00",
         "contentHash": "sha256:161ac3ed8dce6782",
         "bodyHash": "sha256:94e246d8ffddee69"
       },
@@ -23735,12 +23770,14 @@
           "sourceContentHash": "sha256:161ac3ed8dce6782",
           "sourceBodyHash": "sha256:94e246d8ffddee69",
           "translatedAt": "2026-06-19T11:57:16+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "fa9db680",
+          "translationLastModified": "2026-06-19T12:31:45+08:00",
           "inferred": false,
           "footnoteDefs": 13,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -0"
         },
         "ja": {
           "path": "ja/About/how-an-article-is-born.md",
@@ -23749,12 +23786,14 @@
           "sourceContentHash": "sha256:161ac3ed8dce6782",
           "sourceBodyHash": "sha256:94e246d8ffddee69",
           "translatedAt": "2026-06-19T11:57:16+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "fa9db680",
+          "translationLastModified": "2026-06-19T12:31:45+08:00",
           "inferred": false,
           "footnoteDefs": 13,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -0"
         },
         "ko": {
           "path": "ko/About/how-an-article-is-born.md",
@@ -23763,12 +23802,14 @@
           "sourceContentHash": "sha256:161ac3ed8dce6782",
           "sourceBodyHash": "sha256:94e246d8ffddee69",
           "translatedAt": "2026-06-19T11:57:16+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "fa9db680",
+          "translationLastModified": "2026-06-19T12:31:45+08:00",
           "inferred": false,
           "footnoteDefs": 13,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -0"
         },
         "es": {
           "path": "es/About/how-an-article-is-born.md",
@@ -23777,12 +23818,14 @@
           "sourceContentHash": "sha256:161ac3ed8dce6782",
           "sourceBodyHash": "sha256:94e246d8ffddee69",
           "translatedAt": "2026-06-19T11:57:16+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "fa9db680",
+          "translationLastModified": "2026-06-19T12:31:45+08:00",
           "inferred": false,
           "footnoteDefs": 13,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -0"
         },
         "fr": {
           "path": "fr/About/how-an-article-is-born.md",
@@ -23791,12 +23834,14 @@
           "sourceContentHash": "sha256:161ac3ed8dce6782",
           "sourceBodyHash": "sha256:94e246d8ffddee69",
           "translatedAt": "2026-06-19T11:57:16+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "fa9db680",
+          "translationLastModified": "2026-06-19T12:31:45+08:00",
           "inferred": false,
           "footnoteDefs": 13,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+2 -0"
         }
       }
     },
@@ -23975,8 +24020,8 @@
           "sourceContentHash": "sha256:8102987729966ad2",
           "sourceBodyHash": "sha256:530088fbc265e8e5",
           "translatedAt": "2026-06-19T12:24:22+08:00",
-          "translationLastCommit": "995f1458",
-          "translationLastModified": "2026-06-12T05:24:32+08:00",
+          "translationLastCommit": "fa9db680",
+          "translationLastModified": "2026-06-19T12:31:45+08:00",
           "inferred": false,
           "footnoteDefs": 20,
           "status": "fresh",
@@ -23989,8 +24034,8 @@
           "sourceContentHash": "sha256:8102987729966ad2",
           "sourceBodyHash": "sha256:530088fbc265e8e5",
           "translatedAt": "2026-06-19T12:19:41+08:00",
-          "translationLastCommit": "995f1458",
-          "translationLastModified": "2026-06-12T05:24:32+08:00",
+          "translationLastCommit": "fa9db680",
+          "translationLastModified": "2026-06-19T12:31:45+08:00",
           "inferred": false,
           "footnoteDefs": 20,
           "status": "fresh",
@@ -24003,8 +24048,8 @@
           "sourceContentHash": "sha256:8102987729966ad2",
           "sourceBodyHash": "sha256:530088fbc265e8e5",
           "translatedAt": "2026-06-19T11:57:16+08:00",
-          "translationLastCommit": "995f1458",
-          "translationLastModified": "2026-06-12T05:24:32+08:00",
+          "translationLastCommit": "fa9db680",
+          "translationLastModified": "2026-06-19T12:31:45+08:00",
           "inferred": false,
           "footnoteDefs": 20,
           "status": "fresh",
@@ -24017,8 +24062,8 @@
           "sourceContentHash": "sha256:8102987729966ad2",
           "sourceBodyHash": "sha256:530088fbc265e8e5",
           "translatedAt": "2026-06-19T11:57:16+08:00",
-          "translationLastCommit": "995f1458",
-          "translationLastModified": "2026-06-12T05:24:32+08:00",
+          "translationLastCommit": "fa9db680",
+          "translationLastModified": "2026-06-19T12:31:45+08:00",
           "inferred": false,
           "footnoteDefs": 20,
           "status": "fresh",
@@ -24031,8 +24076,8 @@
           "sourceContentHash": "sha256:8102987729966ad2",
           "sourceBodyHash": "sha256:530088fbc265e8e5",
           "translatedAt": "2026-06-19T11:57:16+08:00",
-          "translationLastCommit": "995f1458",
-          "translationLastModified": "2026-06-12T05:24:32+08:00",
+          "translationLastCommit": "fa9db680",
+          "translationLastModified": "2026-06-19T12:31:45+08:00",
           "inferred": false,
           "footnoteDefs": 20,
           "status": "fresh",
@@ -30922,10 +30967,10 @@
     },
     "People/羅大佑.md": {
       "zh": {
-        "lastCommit": "0f8fae0a",
-        "lastModified": "2026-05-17T18:46:40+08:00",
-        "contentHash": "sha256:9d02cb7215580616",
-        "bodyHash": "sha256:b12e0e1ef31c163f"
+        "lastCommit": "3419f7d4",
+        "lastModified": "2026-06-19T16:39:55+08:00",
+        "contentHash": "sha256:733eb9b135a1d6a7",
+        "bodyHash": "sha256:b5b5fdbc29ca31a4"
       },
       "translations": {
         "en": {
@@ -30939,8 +30984,8 @@
           "translationLastModified": "2026-05-24T08:42:27+08:00",
           "inferred": false,
           "footnoteDefs": 5,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (30→5)"
         },
         "ja": {
           "path": "ja/People/luo-dayou.md",
@@ -30953,8 +30998,8 @@
           "translationLastModified": "2026-05-24T08:42:27+08:00",
           "inferred": false,
           "footnoteDefs": 5,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (30→5)"
         },
         "ko": {
           "path": "ko/People/luo-dayou.md",
@@ -30967,8 +31012,8 @@
           "translationLastModified": "2026-05-24T08:42:27+08:00",
           "inferred": false,
           "footnoteDefs": 5,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (30→5)"
         },
         "es": {
           "path": "es/People/luo-dayou.md",
@@ -30981,8 +31026,8 @@
           "translationLastModified": "2026-05-24T08:42:27+08:00",
           "inferred": false,
           "footnoteDefs": 5,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (30→5)"
         },
         "fr": {
           "path": "fr/People/luo-dayou.md",
@@ -30995,8 +31040,8 @@
           "translationLastModified": "2026-05-24T08:42:27+08:00",
           "inferred": false,
           "footnoteDefs": 5,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "footnote-loss (30→5)"
         }
       }
     },
@@ -44477,8 +44522,8 @@
     },
     "People/黃大煒.md": {
       "zh": {
-        "lastCommit": "db263367",
-        "lastModified": "2026-06-19T12:04:13+08:00",
+        "lastCommit": "1325561b",
+        "lastModified": "2026-06-19T12:37:06+08:00",
         "contentHash": "sha256:327453fbf8e22708",
         "bodyHash": "sha256:527a7c63e3b18690"
       },
@@ -52182,10 +52227,10 @@
     },
     "History/二二八事件.md": {
       "zh": {
-        "lastCommit": "6c2f8ea8",
-        "lastModified": "2026-05-26T15:58:37+08:00",
-        "contentHash": "sha256:4d3c97207d94073d",
-        "bodyHash": "sha256:1db38e403d646d80"
+        "lastCommit": "9bddcff6",
+        "lastModified": "2026-06-19T12:36:10+08:00",
+        "contentHash": "sha256:ab7b8ec8a756a4b7",
+        "bodyHash": "sha256:af010b3f3c83dab2"
       },
       "translations": {
         "en": {
@@ -52199,8 +52244,10 @@
           "translationLastModified": "2026-06-01T11:21:51+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ja": {
           "path": "ja/History/february-28-incident-and-white-terror-taiwan-authoritarian-rule-trauma-and-memory.md",
@@ -52213,8 +52260,10 @@
           "translationLastModified": "2026-06-01T11:21:51+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ko": {
           "path": "ko/History/february-28-incident-and-white-terror-taiwan-authoritarian-rule-trauma-and-memory.md",
@@ -52227,8 +52276,10 @@
           "translationLastModified": "2026-06-01T11:21:51+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "es": {
           "path": "es/History/february-28-incident-and-white-terror-taiwan-authoritarian-rule-trauma-and-memory.md",
@@ -52241,8 +52292,10 @@
           "translationLastModified": "2026-06-01T11:21:51+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "fr": {
           "path": "fr/History/february-28-incident-and-white-terror-taiwan-authoritarian-rule-trauma-and-memory.md",
@@ -52255,8 +52308,10 @@
           "translationLastModified": "2026-06-01T11:21:51+08:00",
           "inferred": false,
           "footnoteDefs": 0,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         }
       }
     },
@@ -61382,10 +61437,10 @@
     },
     "Culture/端午節.md": {
       "zh": {
-        "lastCommit": "98251c6e",
-        "lastModified": "2026-06-19T08:48:11+08:00",
-        "contentHash": "sha256:0664754e6a3e5009",
-        "bodyHash": "sha256:53e6d9d69aa114b8"
+        "lastCommit": "58fa84f0",
+        "lastModified": "2026-06-19T18:26:26+08:00",
+        "contentHash": "sha256:aac6019521f0bc32",
+        "bodyHash": "sha256:5410e4f9f881b327"
       },
       "translations": {
         "en": {
@@ -64122,31 +64177,6 @@
           "footnoteDefs": 0,
           "status": "fresh",
           "reason": "same-commit"
-        }
-      }
-    },
-    "Culture/立蛋.md": {
-      "zh": {
-        "lastCommit": "98251c6e",
-        "lastModified": "2026-06-19T08:48:11+08:00",
-        "contentHash": "sha256:b1700d40e407579a",
-        "bodyHash": "sha256:e64ac597f800c8b0"
-      },
-      "translations": {
-        "en": {
-          "status": "missing"
-        },
-        "ja": {
-          "status": "missing"
-        },
-        "ko": {
-          "status": "missing"
-        },
-        "es": {
-          "status": "missing"
-        },
-        "fr": {
-          "status": "missing"
         }
       }
     },

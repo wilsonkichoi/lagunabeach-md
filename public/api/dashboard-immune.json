@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-19T06:11:35.120553",
+  "lastUpdated": "2026-06-19T23:09:26.717262",
   "schemaVersion": "v2-2026-05-16",
   "featureFlag": "IMMUNE_V2",
   "immuneScore": 52,
   "status": "漂移 — 多維度退化中",
   "components": {
-    "review_coverage": 27.2,
+    "review_coverage": 26.8,
     "plugin_pass_rate": 70.0,
     "plugin_health": 45.8,
     "citation_density": 90.8,
@@ -24,15 +24,15 @@
   },
   "tierBreakdown": {
     "T1": {
-      "total": 361,
-      "reviewed": 105,
-      "pct": 29.1,
+      "total": 364,
+      "reviewed": 104,
+      "pct": 28.6,
       "weight": 3.0
     },
     "T2": {
-      "total": 351,
+      "total": 354,
       "reviewed": 84,
-      "pct": 23.9,
+      "pct": 23.7,
       "weight": 1.5
     },
     "T3": {
@@ -43,8 +43,8 @@
     }
   },
   "pluginPassDetail": {
-    "total_files": 807,
-    "hard_pass_files": 807,
+    "total_files": 813,
+    "hard_pass_files": 813,
     "hard_pass_pct": 100.0,
     "warn_pass_files": 0,
     "warn_pass_pct": 0.0,
@@ -52,13 +52,13 @@
   },
   "citationDetail": {
     "grades": {
-      "A": 629,
+      "A": 635,
       "B": 11,
       "C": 152,
       "D": 4,
       "F": 9
     },
-    "files_with_grade": 805
+    "files_with_grade": 811
   },
   "freshnessDetail": {
     "editorial_days_old": 4,
@@ -67,7 +67,7 @@
     "source": "git log %ai (not fs mtime — worktree-safe)"
   },
   "driftDetail": {
-    "new_articles_7d": 13,
+    "new_articles_7d": 19,
     "rate_per_article": 1.0,
     "note": "v1 heuristic — longitudinal tracking pending (B-line meta-health)"
   },
@@ -206,7 +206,7 @@
   },
   "externalRulersDetail": {
     "ruledArticles": 30,
-    "totalArticles": 805,
+    "totalArticles": 811,
     "rulerSources": {
       "factcheckReports": true,
       "readerErrataCommits90d": true,
