@@ -11,12 +11,7 @@ if [ -n "${_twmd_actor% }" ]; then
   echo "   bash scripts/tools/lib/verify-commit-scope.sh --head <預期檔數>（防 cross-session 污染 / phantom-delete）"
 fi
 
-# bunx lint-staged (fallback to npx if bun not installed)
-if command -v bunx &>/dev/null; then
-  bunx lint-staged
-else
-  npx lint-staged
-fi
+bunx lint-staged
 
 # Validate frontmatter on staged .md files in knowledge/
 node scripts/core/test-frontmatter.mjs --staged
