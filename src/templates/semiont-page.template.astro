@@ -64,7 +64,7 @@ const showToc = headings.filter((h) => h.level === 2).length >= 4;
 
       {/* Header */}
       <header class="mb-10">
-        <div class="mb-3 font-mono text-xs tracking-wide text-[#4fd1b0]/75">
+        <div class="mb-3 font-mono text-xs tracking-wide text-[#38bdf8]/75">
           docs/semiont/{filename}
         </div>
         <h1
@@ -83,19 +83,19 @@ const showToc = headings.filter((h) => h.level === 2).length >= 4;
             </p>
           )
         }
-        <p class="mt-3 font-mono text-xs text-[#4fd1b0]/75">
+        <p class="mt-3 font-mono text-xs text-[#38bdf8]/75">
           {wordCount.toLocaleString()} 字 · 約 {readingTime} 分鐘
         </p>
       </header>
 
       {/* EKG separator */}
       <div class="mb-10 flex items-center gap-2">
-        <div class="h-px flex-1 bg-[#4fd1b0]/20"></div>
+        <div class="h-px flex-1 bg-[#38bdf8]/20"></div>
         <svg
           width="40"
           height="12"
           viewBox="0 0 40 12"
-          class="text-[#4fd1b0]/75"
+          class="text-[#38bdf8]/75"
         >
           <polyline
             fill="none"
@@ -105,7 +105,7 @@ const showToc = headings.filter((h) => h.level === 2).length >= 4;
             stroke-linejoin="round"
             points="0,6 8,6 12,6 14,1 16,11 18,4 20,8 22,6 40,6"></polyline>
         </svg>
-        <div class="h-px flex-1 bg-[#4fd1b0]/20"></div>
+        <div class="h-px flex-1 bg-[#38bdf8]/20"></div>
       </div>
 
       {/* Main content + optional TOC */}
@@ -113,8 +113,8 @@ const showToc = headings.filter((h) => h.level === 2).length >= 4;
         {
           showToc && (
             <aside class="absolute -right-64 top-0 hidden w-56 xl:block">
-              <nav class="sticky top-24 space-y-2 border-l border-[#4fd1b0]/30 pl-4">
-                <div class="mb-3 font-mono text-[10px] font-medium uppercase tracking-widest text-[#4fd1b0]/70">
+              <nav class="sticky top-24 space-y-2 border-l border-[#38bdf8]/30 pl-4">
+                <div class="mb-3 font-mono text-[10px] font-medium uppercase tracking-widest text-[#38bdf8]/70">
                   目錄
                 </div>
                 {headings
@@ -122,7 +122,7 @@ const showToc = headings.filter((h) => h.level === 2).length >= 4;
                   .map((h) => (
                     <a
                       href={`#${h.id}`}
-                      class="block truncate text-xs text-[#f4f0ea]/55 transition-colors hover:text-[#4fd1b0]/90"
+                      class="block truncate text-xs text-[#f4f0ea]/55 transition-colors hover:text-[#38bdf8]/90"
                     >
                       {h.text}
                     </a>
@@ -139,13 +139,13 @@ const showToc = headings.filter((h) => h.level === 2).length >= 4;
       <div class="mt-16 text-center">
         <a
           href="/semiont"
-          class="inline-block font-mono text-xs text-[#4fd1b0]/75 underline decoration-[#4fd1b0]/40 underline-offset-4 transition-colors hover:text-[#4fd1b0]"
+          class="inline-block font-mono text-xs text-[#38bdf8]/75 underline decoration-[#38bdf8]/40 underline-offset-4 transition-colors hover:text-[#38bdf8]"
         >
           ← 回到認知層
         </a>
       </div>
 
-      <div class="mt-8 text-center font-mono text-xs text-[#4fd1b0]/75">🧬</div>
+      <div class="mt-8 text-center font-mono text-xs text-[#38bdf8]/75">🧬</div>
     </div>
   </div>
 </Layout>
@@ -188,14 +188,14 @@ const showToc = headings.filter((h) => h.level === 2).length >= 4;
     font-weight: 700;
   }
   .semiont-prose a {
-    color: #4fd1b0;
+    color: #38bdf8;
     text-decoration: underline;
     text-decoration-color: rgba(79, 209, 176, 0.4);
     text-underline-offset: 3px;
     transition: text-decoration-color 0.2s;
   }
   .semiont-prose a:hover {
-    text-decoration-color: #4fd1b0;
+    text-decoration-color: #38bdf8;
   }
   .semiont-prose code {
     font-family: 'SF Mono', 'Fira Code', monospace;

@@ -10,7 +10,7 @@ export interface Props {
 const { segments } = Astro.props;
 ---
 
-<nav class="mb-8 font-mono text-xs text-[#4fd1b0]/70" aria-label="breadcrumb">
+<nav class="mb-8 font-mono text-xs text-[#38bdf8]/70" aria-label="breadcrumb">
   <ol class="flex flex-wrap items-center gap-1">
     {
       segments.map((seg, i) => (
@@ -19,7 +19,7 @@ const { segments } = Astro.props;
           {seg.href ? (
             <a
               href={seg.href}
-              class="underline decoration-[#4fd1b0]/35 underline-offset-2 transition-colors hover:text-[#4fd1b0]"
+              class="underline decoration-[#38bdf8]/35 underline-offset-2 transition-colors hover:text-[#38bdf8]"
             >
               {seg.label}
             </a>

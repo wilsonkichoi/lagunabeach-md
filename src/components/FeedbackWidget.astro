@@ -51,7 +51,7 @@ const url =
 
 <style is:global>
   #twmd-feedback {
-    --twmd-fb-accent: #1a3c34;
+    --twmd-fb-accent: #0e3a5c;
     --twmd-fb-accent2: #2563eb;
   }
   .twmd-fb-fab {
@@ -327,7 +327,7 @@ const url =
     /* pill 掛在 document.body（見 selection.ts），不在 #twmd-feedback scope 內，
        所以 --twmd-fb-accent 不會 cascade 過來 → 一定要給 literal fallback，
        否則 background 變 transparent，白字落在文章米色底上＝看起來半透明。 */
-    background: var(--twmd-fb-accent, #1a3c34);
+    background: var(--twmd-fb-accent, #0e3a5c);
     color: #fff;
     font-size: 0.8rem;
     font-weight: 600;

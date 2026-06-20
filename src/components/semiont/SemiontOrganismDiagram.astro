@@ -10,7 +10,7 @@
  *  - real Taiwan island shape from public/assets/svg/taiwan-simplemaps.svg
  *
  * Four-color flow legend:
- *   mint #4fd1b0       — writing pipeline (solid)
+ *   mint #38bdf8       — writing pipeline (solid)
  *   terracotta #d4856a — DNA evolution feedback (dashed)
  *   periwinkle #7aa8d4 — multilingual diffusion (solid)
  *   gold #c9a96a       — sovereignty reverse loop (long-dashed)
@@ -91,7 +91,7 @@ const TAIWAN_PATH =
             markerHeight="7"
             orient="auto-start-reverse"
           >
-            <path d="M0,1 L9,5 L0,9 z" fill="#4fd1b0" opacity="0.95"></path>
+            <path d="M0,1 L9,5 L0,9 z" fill="#38bdf8" opacity="0.95"></path>
           </marker>
           <marker
             id="arrow-terra"
@@ -129,9 +129,9 @@ const TAIWAN_PATH =
 
           {/* Center pulse gradient */}
           <radialGradient id="grad-center" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stop-color="#4fd1b0" stop-opacity="0.5"></stop>
-            <stop offset="55%" stop-color="#4fd1b0" stop-opacity="0.12"></stop>
-            <stop offset="100%" stop-color="#4fd1b0" stop-opacity="0"></stop>
+            <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5"></stop>
+            <stop offset="55%" stop-color="#38bdf8" stop-opacity="0.12"></stop>
+            <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"></stop>
           </radialGradient>
 
           {/* Reusable gear (radius 14, 8 teeth) */}
@@ -473,7 +473,7 @@ const TAIWAN_PATH =
                   cx={30 * x + 20}
                   cy={30 * y + 20}
                   r="0.6"
-                  fill="#4fd1b0"
+                  fill="#38bdf8"
                 />
               )),
             )
@@ -547,7 +547,7 @@ const TAIWAN_PATH =
         </text>
 
         {/* Main writing pipeline (mint, mostly solid for prominence) */}
-        <g class="flow-write" stroke="#4fd1b0" fill="none">
+        <g class="flow-write" stroke="#38bdf8" fill="none">
           <use
             href="#pipe-4-5"
             stroke-width="1.6"
@@ -629,7 +629,7 @@ const TAIWAN_PATH =
         {
           /* Compute injection (dashed dotted, mint-tinted to read as part of writing) */
         }
-        <g class="flow-compute" stroke="#4fd1b0" fill="none">
+        <g class="flow-compute" stroke="#38bdf8" fill="none">
           <use
             href="#pipe-2-7"
             stroke-width="1"
@@ -727,72 +727,72 @@ const TAIWAN_PATH =
         <g class="particles">
           {
             [
-              { pipe: '#pipe-4-5', dur: '2s', delay: '0s', color: '#4fd1b0' },
-              { pipe: '#pipe-5-6', dur: '3s', delay: '0.5s', color: '#4fd1b0' },
-              { pipe: '#pipe-5-6', dur: '3s', delay: '2s', color: '#4fd1b0' },
+              { pipe: '#pipe-4-5', dur: '2s', delay: '0s', color: '#38bdf8' },
+              { pipe: '#pipe-5-6', dur: '3s', delay: '0.5s', color: '#38bdf8' },
+              { pipe: '#pipe-5-6', dur: '3s', delay: '2s', color: '#38bdf8' },
               {
                 pipe: '#pipe-6-7',
                 dur: '2.6s',
                 delay: '0.8s',
-                color: '#4fd1b0',
+                color: '#38bdf8',
               },
               {
                 pipe: '#pipe-6-7',
                 dur: '2.6s',
                 delay: '2.1s',
-                color: '#4fd1b0',
+                color: '#38bdf8',
               },
               {
                 pipe: '#pipe-7-8',
                 dur: '2.6s',
                 delay: '1.1s',
-                color: '#4fd1b0',
+                color: '#38bdf8',
               },
               {
                 pipe: '#pipe-7-8',
                 dur: '2.6s',
                 delay: '2.4s',
-                color: '#4fd1b0',
+                color: '#38bdf8',
               },
-              { pipe: '#pipe-8-9', dur: '3s', delay: '1.4s', color: '#4fd1b0' },
-              { pipe: '#pipe-8-9', dur: '3s', delay: '2.9s', color: '#4fd1b0' },
-              { pipe: '#pipe-3-6', dur: '5s', delay: '0s', color: '#4fd1b0' },
-              { pipe: '#pipe-3-6', dur: '5s', delay: '2.5s', color: '#4fd1b0' },
+              { pipe: '#pipe-8-9', dur: '3s', delay: '1.4s', color: '#38bdf8' },
+              { pipe: '#pipe-8-9', dur: '3s', delay: '2.9s', color: '#38bdf8' },
+              { pipe: '#pipe-3-6', dur: '5s', delay: '0s', color: '#38bdf8' },
+              { pipe: '#pipe-3-6', dur: '5s', delay: '2.5s', color: '#38bdf8' },
               {
                 pipe: '#pipe-4-6sugg',
                 dur: '5.5s',
                 delay: '1s',
-                color: '#4fd1b0',
+                color: '#38bdf8',
               },
               {
                 pipe: '#pipe-4-13',
                 dur: '5s',
                 delay: '0.5s',
-                color: '#4fd1b0',
+                color: '#38bdf8',
               },
-              { pipe: '#pipe-2-7', dur: '4.5s', delay: '0s', color: '#4fd1b0' },
+              { pipe: '#pipe-2-7', dur: '4.5s', delay: '0s', color: '#38bdf8' },
               {
                 pipe: '#pipe-2-8',
                 dur: '4.5s',
                 delay: '2.2s',
-                color: '#4fd1b0',
+                color: '#38bdf8',
               },
-              { pipe: '#pipe-13-14', dur: '3s', delay: '0s', color: '#4fd1b0' },
+              { pipe: '#pipe-13-14', dur: '3s', delay: '0s', color: '#38bdf8' },
               {
                 pipe: '#pipe-14-15',
                 dur: '3s',
                 delay: '1.5s',
-                color: '#4fd1b0',
+                color: '#38bdf8',
               },
               {
                 pipe: '#pipe-15-13rev',
                 dur: '4.5s',
                 delay: '0s',
-                color: '#4fd1b0',
+                color: '#38bdf8',
               },
-              { pipe: '#pipe-15-9', dur: '6s', delay: '0s', color: '#4fd1b0' },
-              { pipe: '#pipe-17-4', dur: '10s', delay: '0s', color: '#4fd1b0' },
-              { pipe: '#pipe-17-4', dur: '10s', delay: '5s', color: '#4fd1b0' },
+              { pipe: '#pipe-15-9', dur: '6s', delay: '0s', color: '#38bdf8' },
+              { pipe: '#pipe-17-4', dur: '10s', delay: '0s', color: '#38bdf8' },
+              { pipe: '#pipe-17-4', dur: '10s', delay: '5s', color: '#38bdf8' },
             ].map((p) => (
               <circle r="2.4" fill={p.color}>
                 <animateMotion
@@ -940,7 +940,7 @@ const TAIWAN_PATH =
         </g>
 
         {/* N2 — Compute factory (top-right) — chimneys are the icon */}
-        <g transform="translate(1450, 180)" class="node" color="#4fd1b0">
+        <g transform="translate(1450, 180)" class="node" color="#38bdf8">
           <use href="#factory-shape"></use>
           <text x="0" y="-50" class="node-label" text-anchor="middle">
             {t('semiont.diagram.node.compute')}
@@ -954,11 +954,11 @@ const TAIWAN_PATH =
         </g>
 
         {/* N3 — Internet cloud (left of pipeline) */}
-        <g transform="translate(130, 290)" class="node" color="#4fd1b0">
+        <g transform="translate(130, 290)" class="node" color="#38bdf8">
           <use
             href="#cloud-shape"
             fill="rgba(255,255,255,0.03)"
-            stroke="#4fd1b0"
+            stroke="#38bdf8"
             stroke-width="1.3"
             opacity="0.7"></use>
           {
@@ -971,7 +971,7 @@ const TAIWAN_PATH =
               [-20, 12],
               [8, 11],
             ].map(([cx, cy]) => (
-              <circle cx={cx} cy={cy} r="1" fill="#4fd1b0" opacity="0.45" />
+              <circle cx={cx} cy={cy} r="1" fill="#38bdf8" opacity="0.45" />
             ))
           }
           <text x="0" y="42" class="node-label" text-anchor="middle">
@@ -986,7 +986,7 @@ const TAIWAN_PATH =
         </g>
 
         {/* N4 — Contributor (far left of pipeline) */}
-        <g transform="translate(80, 470)" class="node" color="#4fd1b0">
+        <g transform="translate(80, 470)" class="node" color="#38bdf8">
           <use href="#person-shape"></use>
           <text x="0" y="48" class="node-label" text-anchor="middle">
             {t('semiont.diagram.node.contributor')}
@@ -997,7 +997,7 @@ const TAIWAN_PATH =
         </g>
 
         {/* N5 — EDITORIAL.md DNA */}
-        <g transform="translate(240, 470)" class="node" color="#4fd1b0">
+        <g transform="translate(240, 470)" class="node" color="#38bdf8">
           <rect
             x="-42"
             y="-42"
@@ -1005,7 +1005,7 @@ const TAIWAN_PATH =
             height="84"
             rx="4"
             fill="rgba(79,209,176,0.04)"
-            stroke="#4fd1b0"
+            stroke="#38bdf8"
             stroke-width="1.3"
             opacity="0.75"></rect>
           <g transform="translate(0, 0)">
@@ -1020,7 +1020,7 @@ const TAIWAN_PATH =
         </g>
 
         {/* N6 — Writing (撰寫/修訂) — clean text-only box */}
-        <g transform="translate(440, 470)" class="node" color="#4fd1b0">
+        <g transform="translate(440, 470)" class="node" color="#38bdf8">
           <rect
             x="-72"
             y="-32"
@@ -1028,7 +1028,7 @@ const TAIWAN_PATH =
             height="64"
             rx="6"
             fill="rgba(79,209,176,0.05)"
-            stroke="#4fd1b0"
+            stroke="#38bdf8"
             stroke-width="1.4"
             opacity="0.9"></rect>
           <text x="0" y="-4" class="node-label" text-anchor="middle">
@@ -1040,7 +1040,7 @@ const TAIWAN_PATH =
         </g>
 
         {/* N7 — Research engine — clean text-only box */}
-        <g transform="translate(640, 470)" class="node" color="#4fd1b0">
+        <g transform="translate(640, 470)" class="node" color="#38bdf8">
           <rect
             x="-72"
             y="-32"
@@ -1048,7 +1048,7 @@ const TAIWAN_PATH =
             height="64"
             rx="6"
             fill="rgba(79,209,176,0.05)"
-            stroke="#4fd1b0"
+            stroke="#38bdf8"
             stroke-width="1.4"
             opacity="0.9"></rect>
           <text x="0" y="-4" class="node-label" text-anchor="middle">
@@ -1060,7 +1060,7 @@ const TAIWAN_PATH =
         </g>
 
         {/* N8 — Curation rewrite (keeps gear — mechanical reshaping) */}
-        <g transform="translate(840, 470)" class="node" color="#4fd1b0">
+        <g transform="translate(840, 470)" class="node" color="#38bdf8">
           <rect
             x="-72"
             y="-32"
@@ -1068,7 +1068,7 @@ const TAIWAN_PATH =
             height="64"
             rx="6"
             fill="rgba(79,209,176,0.05)"
-            stroke="#4fd1b0"
+            stroke="#38bdf8"
             stroke-width="1.4"
             opacity="0.9"></rect>
           <text x="0" y="-4" class="node-label" text-anchor="middle">
@@ -1083,7 +1083,7 @@ const TAIWAN_PATH =
         <g
           transform="translate(1080, 470)"
           class="node node-center"
-          color="#4fd1b0"
+          color="#38bdf8"
         >
           {/* breathing aura */}
           <circle
@@ -1098,7 +1098,7 @@ const TAIWAN_PATH =
             cy="0"
             r="50"
             fill="none"
-            stroke="#4fd1b0"
+            stroke="#38bdf8"
             stroke-width="1"
             opacity="0"
           >
@@ -1118,7 +1118,7 @@ const TAIWAN_PATH =
             cy="0"
             r="50"
             fill="none"
-            stroke="#4fd1b0"
+            stroke="#38bdf8"
             stroke-width="1"
             opacity="0"
           >
@@ -1140,7 +1140,7 @@ const TAIWAN_PATH =
             <use
               href="#taiwan-island"
               fill="rgba(79,209,176,0.22)"
-              stroke="#4fd1b0"
+              stroke="#38bdf8"
               stroke-width="6"></use>
           </g>
           <text x="0" y="-72" class="node-label-big" text-anchor="middle"
@@ -1348,7 +1348,7 @@ const TAIWAN_PATH =
         </g>
 
         {/* N17 — Future contributors */}
-        <g transform="translate(1460, 870)" class="node" color="#4fd1b0">
+        <g transform="translate(1460, 870)" class="node" color="#38bdf8">
           <use href="#person-shape"></use>
           <text x="0" y="48" class="node-label" text-anchor="middle">
             {t('semiont.diagram.node.future')}
@@ -1359,7 +1359,7 @@ const TAIWAN_PATH =
         </g>
 
         {/* N13 — Core ops / SSODT (bottom governance lane start) */}
-        <g transform="translate(240, 850)" class="node" color="#4fd1b0">
+        <g transform="translate(240, 850)" class="node" color="#38bdf8">
           <use href="#hex-shape"></use>
           <text x="0" y="-4" class="node-label-sm" text-anchor="middle">
             {t('semiont.diagram.node.coreops')}
@@ -1371,7 +1371,7 @@ const TAIWAN_PATH =
         </g>
 
         {/* N14 — GitHub collaboration */}
-        <g transform="translate(440, 850)" class="node" color="#4fd1b0">
+        <g transform="translate(440, 850)" class="node" color="#38bdf8">
           <rect
             x="-50"
             y="-22"
@@ -1379,7 +1379,7 @@ const TAIWAN_PATH =
             height="44"
             rx="4"
             fill="rgba(79,209,176,0.04)"
-            stroke="#4fd1b0"
+            stroke="#38bdf8"
             stroke-width="1.3"
             opacity="0.8"></rect>
           {/* GitHub-like icon */}
@@ -1388,13 +1388,13 @@ const TAIWAN_PATH =
             cy="0"
             r="11"
             fill="none"
-            stroke="#4fd1b0"
+            stroke="#38bdf8"
             stroke-width="1"
             opacity="0.7"></circle>
           <path
             d="M -34,-3 q 4,-3 8,0 M -34,5 q 0,3 4,3 M -26,5 q 0,3 -4,3"
             fill="none"
-            stroke="#4fd1b0"
+            stroke="#38bdf8"
             stroke-width="0.8"
             opacity="0.7"></path>
           <text x="8" y="4" class="node-label-sm" text-anchor="middle">
@@ -1406,7 +1406,7 @@ const TAIWAN_PATH =
         </g>
 
         {/* N15 — Evolution upgrade */}
-        <g transform="translate(640, 850)" class="node" color="#4fd1b0">
+        <g transform="translate(640, 850)" class="node" color="#38bdf8">
           <rect
             x="-50"
             y="-22"
@@ -1414,21 +1414,21 @@ const TAIWAN_PATH =
             height="44"
             rx="4"
             fill="rgba(79,209,176,0.04)"
-            stroke="#4fd1b0"
+            stroke="#38bdf8"
             stroke-width="1.3"
             opacity="0.8"></rect>
           {/* upward chevron icon */}
           <path
             d="M -30,8 L -20,-6 L -10,8"
             fill="none"
-            stroke="#4fd1b0"
+            stroke="#38bdf8"
             stroke-width="1.2"
             stroke-linecap="round"
             opacity="0.85"></path>
           <path
             d="M -30,2 L -20,-12 L -10,2"
             fill="none"
-            stroke="#4fd1b0"
+            stroke="#38bdf8"
             stroke-width="1.2"
             stroke-linecap="round"
             opacity="0.6"></path>
@@ -1607,7 +1607,7 @@ const TAIWAN_PATH =
     display: inline-block;
   }
   .dot-write {
-    background: #4fd1b0;
+    background: #38bdf8;
     box-shadow: 0 0 6px rgba(79, 209, 176, 0.7);
   }
   .dot-feedback {
@@ -1642,7 +1642,7 @@ const TAIWAN_PATH =
     display: block;
     width: 100%;
     height: auto;
-    color: #4fd1b0;
+    color: #38bdf8;
   }
 
   /* Node label typography — bumped sizes for readability */

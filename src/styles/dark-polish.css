@@ -202,8 +202,8 @@
   color: var(--color-bg);
 }
 
-/* ArticleHero — `bg-[#1a3c34]` dark-teal hero band → body bg. */
-:root[data-theme='dark'] main.article-page section[class*='bg-[#1a3c34]'] {
+/* ArticleHero — `bg-[#0e3a5c]` dark-teal hero band → body bg. */
+:root[data-theme='dark'] main.article-page section[class*='bg-[#0e3a5c]'] {
   background-color: var(--color-bg);
 }
 
@@ -211,7 +211,7 @@
  * Article template overrides (zh-TW + en + ja + ko + es + fr).
  *
  * src/templates/article.template.astro uses Tailwind arbitrary values
- * (bg-[#f8f1e9] cream / text-[#1a3c34] dark teal / etc) extensively
+ * (bg-[#f8f1e9] cream / text-[#0e3a5c] dark teal / etc) extensively
  * because tokenization predates the dark-mode work. Refactoring all
  * occurrences across 6 language pages is a large change; instead we
  * override at the class-attribute level so the template stays untouched.
@@ -235,12 +235,12 @@
   background-color: var(--color-surface);
 }
 
-/* Dark-teal text (#1a3c34) inside article-page → light ink. Excludes
+/* Dark-teal text (#0e3a5c) inside article-page → light ink. Excludes
  * elements that ALSO sit on a dark-teal background (the edit/share CTAs
  * keep their cream-on-teal contrast). */
 :root[data-theme='dark']
   main.article-page
-  [class*='text-[#1a3c34]']:not([class*='bg-[#1a3c34]']) {
+  [class*='text-[#0e3a5c]']:not([class*='bg-[#0e3a5c]']) {
   color: var(--color-ink);
 }
 
@@ -284,13 +284,13 @@
   color: var(--color-ink);
 }
 
-/* Cyan-teal accent (#006d77 — used for source links, TOC active state,
+/* Cyan-teal accent (#0369a1 — used for source links, TOC active state,
  * "share", category accents) → use the dark accent token so links pop
  * against the near-black background. */
-:root[data-theme='dark'] main.article-page [class*='text-[#006d77]'] {
+:root[data-theme='dark'] main.article-page [class*='text-[#0369a1]'] {
   color: var(--color-accent);
 }
-:root[data-theme='dark'] main.article-page [class*='border-l-[#006d77]'] {
+:root[data-theme='dark'] main.article-page [class*='border-l-[#0369a1]'] {
   border-left-color: var(--color-accent);
 }
 :root[data-theme='dark'] main.article-page [class*='bg-[rgba(0,109,119'] {
@@ -330,7 +330,7 @@
 }
 
 /* TOC active state — TableOfContents.astro hard-codes light-mode teal
- * (#006d77 border + rgba(0,109,119,0.06) bg + #006d77 text) in arbitrary
+ * (#0369a1 border + rgba(0,109,119,0.06) bg + #0369a1 text) in arbitrary
  * Tailwind variants `[&.active]:...`. These wash out against the dark
  * (#050505) page background — the active chapter becomes indistinguishable
  * from inactive ones. Override the three properties with accent-derived

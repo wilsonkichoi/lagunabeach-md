@@ -75,7 +75,7 @@ const platformName = (p: string) =>
           href={s.url}
           target="_blank"
           rel="noopener noreferrer"
-          class="group flex items-baseline gap-3 py-1.5 text-inherit no-underline transition-colors hover:text-[#1a3c34]"
+          class="group flex items-baseline gap-3 py-1.5 text-inherit no-underline transition-colors hover:text-[#0e3a5c]"
         >
           <span class="font-['Georgia','Noto_Serif_TC',serif] text-[0.95rem] font-semibold text-[#3d3530]">
             {platformName(s.platform)}
@@ -86,7 +86,7 @@ const platformName = (p: string) =>
             {s.views != null ? `${s.views.toLocaleString()} 次閱讀` : ''}
             {s.likes ? `${s.views != null ? ' · ' : ''}${s.likes} 個共鳴` : ''}
           </span>
-          <span class="text-[0.7rem] text-[#c4b8a8] transition-colors group-hover:text-[#1a3c34]">
+          <span class="text-[0.7rem] text-[#c4b8a8] transition-colors group-hover:text-[#0e3a5c]">
             ↗
           </span>
         </a>

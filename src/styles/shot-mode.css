@@ -17,7 +17,7 @@
 
 html[data-shot='1'],
 html[data-shot='1'] body {
-  background: #1a3c34 !important;
+  background: #0e3a5c !important;
 }
 
 html[data-shot='1'] #header-container,
@@ -32,7 +32,7 @@ html[data-shot='1'] main.article-page > *:not(section:first-of-type) {
 
 html[data-shot='1'] main.article-page {
   min-height: 100vh !important;
-  background: #1a3c34 !important;
+  background: #0e3a5c !important;
   position: relative !important;
 }
 
@@ -212,7 +212,7 @@ html[data-shot='1'][data-diary='1'] .diary-entry-page .diary-entry-inner {
   padding: 18vh 6vw 8vh !important;
 }
 
-/* Hero header — 標題大字、深色配 #f4f0ea / accent #4fd1b0 */
+/* Hero header — 標題大字、深色配 #f4f0ea / accent #38bdf8 */
 html[data-shot='1'][data-diary='1'] .diary-entry-hero {
   margin-bottom: 0 !important;
 }

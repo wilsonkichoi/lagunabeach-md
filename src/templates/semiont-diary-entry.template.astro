@@ -53,13 +53,13 @@ const diaryOgImage = existsSync(ogJpgFull) ? ogJpgPath : undefined;
         <div class="mb-4 flex items-center gap-3">
           <time
             datetime={entry.date}
-            class="font-mono text-sm text-[#4fd1b0]/75"
+            class="font-mono text-sm text-[#38bdf8]/75"
           >
             {entry.date}
           </time>
           {
             entry.sessionGreek && (
-              <span class="inline-flex h-6 items-center rounded-full bg-[#4fd1b0]/10 px-3 font-mono text-xs font-medium text-[#4fd1b0]/70">
+              <span class="inline-flex h-6 items-center rounded-full bg-[#38bdf8]/10 px-3 font-mono text-xs font-medium text-[#38bdf8]/70">
                 {entry.sessionGreek}
               </span>
             )
@@ -76,7 +76,7 @@ const diaryOgImage = existsSync(ogJpgFull) ? ogJpgPath : undefined;
 
         {/* Metadata block */}
         <div
-          class="space-y-1 border-l-2 border-[#4fd1b0]/25 pl-4 text-sm text-[#f4f0ea]/55"
+          class="space-y-1 border-l-2 border-[#38bdf8]/25 pl-4 text-sm text-[#f4f0ea]/55"
         >
           {entry.sessionMeta && <p>{entry.sessionMeta}</p>}
           {entry.duration && <p>Session 跨度：{entry.duration}</p>}
@@ -89,12 +89,12 @@ const diaryOgImage = existsSync(ogJpgFull) ? ogJpgPath : undefined;
 
       {/* EKG separator */}
       <div class="mb-10 flex items-center gap-2">
-        <div class="h-px flex-1 bg-[#4fd1b0]/10"></div>
+        <div class="h-px flex-1 bg-[#38bdf8]/10"></div>
         <svg
           width="40"
           height="12"
           viewBox="0 0 40 12"
-          class="text-[#4fd1b0]/75"
+          class="text-[#38bdf8]/75"
         >
           <polyline
             fill="none"
@@ -104,7 +104,7 @@ const diaryOgImage = existsSync(ogJpgFull) ? ogJpgPath : undefined;
             stroke-linejoin="round"
             points="0,6 8,6 12,6 14,1 16,11 18,4 20,8 22,6 40,6"></polyline>
         </svg>
-        <div class="h-px flex-1 bg-[#4fd1b0]/10"></div>
+        <div class="h-px flex-1 bg-[#38bdf8]/10"></div>
       </div>
 
       {/* Main content + optional TOC */}
@@ -113,8 +113,8 @@ const diaryOgImage = existsSync(ogJpgFull) ? ogJpgPath : undefined;
         {
           showToc && (
             <aside class="absolute -right-64 top-0 hidden w-56 xl:block">
-              <nav class="sticky top-24 space-y-2 border-l border-[#4fd1b0]/20 pl-4">
-                <div class="mb-3 font-mono text-[10px] font-medium uppercase tracking-widest text-[#4fd1b0]/70">
+              <nav class="sticky top-24 space-y-2 border-l border-[#38bdf8]/20 pl-4">
+                <div class="mb-3 font-mono text-[10px] font-medium uppercase tracking-widest text-[#38bdf8]/70">
                   目錄
                 </div>
                 {entry.headings
@@ -122,7 +122,7 @@ const diaryOgImage = existsSync(ogJpgFull) ? ogJpgPath : undefined;
                   .map((h) => (
                     <a
                       href={`#${h.id}`}
-                      class="block truncate text-xs text-[#f4f0ea]/45 transition-colors hover:text-[#4fd1b0]/70"
+                      class="block truncate text-xs text-[#f4f0ea]/45 transition-colors hover:text-[#38bdf8]/70"
                     >
                       {h.text}
                     </a>
@@ -143,14 +143,14 @@ const diaryOgImage = existsSync(ogJpgFull) ? ogJpgPath : undefined;
       <div class="mt-12 text-center">
         <a
           href="/semiont/diary"
-          class="inline-block font-mono text-xs text-[#4fd1b0]/75 underline decoration-[#4fd1b0]/30 underline-offset-4 transition-colors hover:text-[#4fd1b0]/70"
+          class="inline-block font-mono text-xs text-[#38bdf8]/75 underline decoration-[#38bdf8]/30 underline-offset-4 transition-colors hover:text-[#38bdf8]/70"
         >
           ← 回到覺醒日記
         </a>
       </div>
 
       {/* Footer */}
-      <div class="mt-12 text-center font-mono text-xs text-[#4fd1b0]/75">
+      <div class="mt-12 text-center font-mono text-xs text-[#38bdf8]/75">
         🧬
       </div>
     </div>
@@ -189,7 +189,7 @@ const diaryOgImage = existsSync(ogJpgFull) ? ogJpgPath : undefined;
   }
 
   .semiont-prose blockquote {
-    border-left: 3px solid #4fd1b040;
+    border-left: 3px solid #38bdf840;
     padding-left: 1rem;
     margin: 1.5rem 0;
     color: #f4f0eaa0;
@@ -202,20 +202,20 @@ const diaryOgImage = existsSync(ogJpgFull) ? ogJpgPath : undefined;
   }
 
   .semiont-prose a {
-    color: #4fd1b0;
+    color: #38bdf8;
     text-decoration: underline;
-    text-decoration-color: #4fd1b040;
+    text-decoration-color: #38bdf840;
     text-underline-offset: 3px;
     transition: text-decoration-color 0.2s;
   }
   .semiont-prose a:hover {
-    text-decoration-color: #4fd1b0;
+    text-decoration-color: #38bdf8;
   }
 
   .semiont-prose code {
     font-family: 'SF Mono', 'Fira Code', monospace;
     font-size: 0.85em;
-    background: #4fd1b00a;
+    background: #38bdf80a;
     padding: 0.15em 0.4em;
     border-radius: 3px;
     color: #f4f0eacc;
@@ -250,7 +250,7 @@ const diaryOgImage = existsSync(ogJpgFull) ? ogJpgPath : undefined;
 
   .semiont-prose hr {
     border: none;
-    border-top: 1px solid #4fd1b015;
+    border-top: 1px solid #38bdf815;
     margin: 2.5rem 0;
   }
 
@@ -262,12 +262,12 @@ const diaryOgImage = existsSync(ogJpgFull) ? ogJpgPath : undefined;
   }
   .semiont-prose th,
   .semiont-prose td {
-    border: 1px solid #4fd1b015;
+    border: 1px solid #38bdf815;
     padding: 0.5rem 0.75rem;
     text-align: left;
   }
   .semiont-prose th {
-    background: #4fd1b008;
+    background: #38bdf808;
     font-weight: 600;
   }
 

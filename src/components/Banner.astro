@@ -11,14 +11,14 @@ const { enLink, hasEn } = await getLangSwitchPath(currentPath);
   ─────────────────────────────────────────
   - Converted to Tailwind atomic utilities in HTML
   - Removed scoped <style> block entirely
-  - Teal brand colors (#007864, #4fd1b0, #7ee8ca) are component-local
-    one-offs, kept as arbitrary values: bg-[#007864] / text-[#4fd1b0]
+  - Teal brand colors (#0284c7, #38bdf8, #7dd3fc) are component-local
+    one-offs, kept as arbitrary values: bg-[#0284c7] / text-[#38bdf8]
   - Later phase may promote these to tokens if the color system picks
     up a "lang-banner teal" brand identity
 -->
 <div
   id="lang-banner"
-  class="relative z-50 hidden items-center justify-center gap-4 bg-[#007864] px-4 py-[0.6rem] text-center text-[0.85rem] leading-snug text-white [&_a]:font-semibold [&_a]:text-[#4fd1b0] [&_a]:underline [&_a:hover]:text-[#7ee8ca]"
+  class="relative z-50 hidden items-center justify-center gap-4 bg-[#0284c7] px-4 py-[0.6rem] text-center text-[0.85rem] leading-snug text-white [&_a]:font-semibold [&_a]:text-[#38bdf8] [&_a]:underline [&_a:hover]:text-[#7dd3fc]"
 >
   {
     hasEn && (

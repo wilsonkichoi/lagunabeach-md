@@ -311,7 +311,7 @@ const encodedTitle = encodeURIComponent(title);
                   <p class="m-0 font-['Inter',system-ui,sans-serif] text-[0.7rem] font-semibold uppercase tracking-[0.12em] text-[#8B5CF6]">
                     Experimental · {t('article.lifeTree.experimental')}
                   </p>
-                  <p class="m-0 mt-0.5 font-['Noto_Serif_TC',serif] text-[0.95rem] font-medium text-[#1a3c34]">
+                  <p class="m-0 mt-0.5 font-['Noto_Serif_TC',serif] text-[0.95rem] font-medium text-[#0e3a5c]">
                     {t('article.lifeTree.protagonistTree')
                       .replace('{name}', frontmatter.lifeTree.protagonist)
                       .replace(
@@ -434,7 +434,7 @@ const encodedTitle = encodeURIComponent(title);
         {
           frontmatter.source && frontmatter.source.length > 0 && (
             <div class="my-12 rounded-2xl border border-[rgba(26,60,52,0.08)] bg-[rgba(26,60,52,0.03)] p-8">
-              <h3 class="mb-4 font-['Inter',system-ui,sans-serif] text-[0.85rem] font-semibold uppercase tracking-[0.1em] text-[#1a3c34]">
+              <h3 class="mb-4 font-['Inter',system-ui,sans-serif] text-[0.85rem] font-semibold uppercase tracking-[0.1em] text-[#0e3a5c]">
                 {t('article.sources')}
               </h3>
               <ul class="m-0 flex list-none flex-col gap-2 p-0">
@@ -444,7 +444,7 @@ const encodedTitle = encodeURIComponent(title);
                       href={url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      class="break-all text-[0.82rem] text-[#006d77] no-underline hover:underline"
+                      class="break-all text-[0.82rem] text-[#0369a1] no-underline hover:underline"
                     >
                       {url}
                     </a>
@@ -492,7 +492,7 @@ const encodedTitle = encodeURIComponent(title);
             href={`https://github.com/wilsonkichoi/lagunabeach-md/edit/main/knowledge/${categoryMapping[category as string]}/${slug}.md`}
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-flex items-center gap-[0.45rem] rounded-full bg-[#1a3c34] px-[1.1rem] py-[0.55rem] font-['Inter',system-ui,sans-serif] text-[0.82rem] font-medium text-[#f8f1e9] no-underline transition-all duration-200 hover:bg-[#243d36]"
+            class="inline-flex items-center gap-[0.45rem] rounded-full bg-[#0e3a5c] px-[1.1rem] py-[0.55rem] font-['Inter',system-ui,sans-serif] text-[0.82rem] font-medium text-[#f8f1e9] no-underline transition-all duration-200 hover:bg-[#243d36]"
           >
             <svg
               width="15"
@@ -512,7 +512,7 @@ const encodedTitle = encodeURIComponent(title);
             href={`https://github.com/frank890417/taiwan-md/issues/new?title=${encodeURIComponent(`Feedback: ${title}`)}`}
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-flex items-center gap-[0.45rem] rounded-full border border-[rgba(26,60,52,0.2)] bg-transparent px-[1.1rem] py-[0.55rem] font-['Inter',system-ui,sans-serif] text-[0.82rem] font-medium text-[#1a3c34] no-underline transition-all duration-200 hover:bg-[rgba(26,60,52,0.05)]"
+            class="inline-flex items-center gap-[0.45rem] rounded-full border border-[rgba(26,60,52,0.2)] bg-transparent px-[1.1rem] py-[0.55rem] font-['Inter',system-ui,sans-serif] text-[0.82rem] font-medium text-[#0e3a5c] no-underline transition-all duration-200 hover:bg-[rgba(26,60,52,0.05)]"
           >
             <svg
               width="15"
@@ -558,7 +558,7 @@ const encodedTitle = encodeURIComponent(title);
               href={`https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}`}
               target="_blank"
               rel="noopener noreferrer"
-              class="no-external-icon inline-flex h-[34px] w-[34px] cursor-pointer items-center justify-center rounded-full border-none bg-[rgba(26,60,52,0.06)] text-[#1a3c34] no-underline transition-[background,color] duration-200 hover:bg-[#1a3c34] hover:text-[#f8f1e9]"
+              class="no-external-icon inline-flex h-[34px] w-[34px] cursor-pointer items-center justify-center rounded-full border-none bg-[rgba(26,60,52,0.06)] text-[#0e3a5c] no-underline transition-[background,color] duration-200 hover:bg-[#0e3a5c] hover:text-[#f8f1e9]"
               aria-label={t('article.sidebar.shareX')}
             >
               <svg
@@ -575,7 +575,7 @@ const encodedTitle = encodeURIComponent(title);
               href={`https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`}
               target="_blank"
               rel="noopener noreferrer"
-              class="no-external-icon inline-flex h-[34px] w-[34px] cursor-pointer items-center justify-center rounded-full border-none bg-[rgba(26,60,52,0.06)] text-[#1a3c34] no-underline transition-[background,color] duration-200 hover:bg-[#1a3c34] hover:text-[#f8f1e9]"
+              class="no-external-icon inline-flex h-[34px] w-[34px] cursor-pointer items-center justify-center rounded-full border-none bg-[rgba(26,60,52,0.06)] text-[#0e3a5c] no-underline transition-[background,color] duration-200 hover:bg-[#0e3a5c] hover:text-[#f8f1e9]"
               aria-label={t('article.sidebar.shareFacebook')}
             >
               <svg
@@ -592,7 +592,7 @@ const encodedTitle = encodeURIComponent(title);
               href={`https://social-plugins.line.me/lineit/share?url=${encodedUrl}`}
               target="_blank"
               rel="noopener noreferrer"
-              class="no-external-icon inline-flex h-[34px] w-[34px] cursor-pointer items-center justify-center rounded-full border-none bg-[rgba(26,60,52,0.06)] text-[#1a3c34] no-underline transition-[background,color] duration-200 hover:bg-[#1a3c34] hover:text-[#f8f1e9]"
+              class="no-external-icon inline-flex h-[34px] w-[34px] cursor-pointer items-center justify-center rounded-full border-none bg-[rgba(26,60,52,0.06)] text-[#0e3a5c] no-underline transition-[background,color] duration-200 hover:bg-[#0e3a5c] hover:text-[#f8f1e9]"
               aria-label={t('article.sidebar.shareLine')}
             >
               <svg
@@ -606,7 +606,7 @@ const encodedTitle = encodeURIComponent(title);
               >
             </a>
             <button
-              class="copy-btn-bottom inline-flex h-[34px] w-[34px] cursor-pointer items-center justify-center rounded-full border-none bg-[rgba(26,60,52,0.06)] text-[#1a3c34] no-underline transition-[background,color] duration-200 hover:bg-[#1a3c34] hover:text-[#f8f1e9]"
+              class="copy-btn-bottom inline-flex h-[34px] w-[34px] cursor-pointer items-center justify-center rounded-full border-none bg-[rgba(26,60,52,0.06)] text-[#0e3a5c] no-underline transition-[background,color] duration-200 hover:bg-[#0e3a5c] hover:text-[#f8f1e9]"
               type="button"
               aria-label={t('article.copyLink')}
             >
@@ -648,7 +648,7 @@ const encodedTitle = encodeURIComponent(title);
           </a>
           <a
             href="/"
-            class="inline-flex items-center justify-center gap-[0.45rem] rounded-full border border-[rgba(26,60,52,0.2)] bg-transparent px-5 py-[0.55rem] font-['Inter',system-ui,sans-serif] text-[0.82rem] font-medium text-[#1a3c34] no-underline transition-all duration-200 hover:bg-[rgba(26,60,52,0.06)]"
+            class="inline-flex items-center justify-center gap-[0.45rem] rounded-full border border-[rgba(26,60,52,0.2)] bg-transparent px-5 py-[0.55rem] font-['Inter',system-ui,sans-serif] text-[0.82rem] font-medium text-[#0e3a5c] no-underline transition-all duration-200 hover:bg-[rgba(26,60,52,0.06)]"
           >
             <svg
               width="14"
@@ -704,7 +704,7 @@ const encodedTitle = encodeURIComponent(title);
               <p class="mb-[0.6rem] font-['Inter',system-ui,sans-serif] text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#9aa89e]">
                 {t('article.furtherReading')}
               </p>
-              <h2 class="font-['Inter',serif] text-[clamp(1.5rem,3vw,2rem)] font-bold leading-[1.25] text-[#1a3c34]">
+              <h2 class="font-['Inter',serif] text-[clamp(1.5rem,3vw,2rem)] font-bold leading-[1.25] text-[#0e3a5c]">
                 {t('article.relatedReads')}
               </h2>
             </div>
@@ -785,7 +785,7 @@ const encodedTitle = encodeURIComponent(title);
             {t('latest.eyebrow')}
           </p>
           <h2
-            class="font-['Inter',serif] text-[clamp(1.4rem,3vw,1.9rem)] font-bold leading-[1.25] text-[#1a3c34]"
+            class="font-['Inter',serif] text-[clamp(1.4rem,3vw,1.9rem)] font-bold leading-[1.25] text-[#0e3a5c]"
           >
             {t('latest.railHeading')}
           </h2>
@@ -927,7 +927,7 @@ const encodedTitle = encodeURIComponent(title);
       hasRandomPool && (
         <div class="flex justify-center bg-[#f8f1e9] px-8 py-10">
           <button
-            class="inline-flex cursor-pointer items-center gap-[0.6rem] rounded-full border-[1.5px] border-[rgba(26,60,52,0.2)] bg-white px-7 py-3 font-['Inter',system-ui,sans-serif] text-[0.88rem] font-medium text-[#1a3c34] transition-all duration-200 hover:border-[#1a3c34] hover:bg-[#1a3c34] hover:text-[#f8f1e9]"
+            class="inline-flex cursor-pointer items-center gap-[0.6rem] rounded-full border-[1.5px] border-[rgba(26,60,52,0.2)] bg-white px-7 py-3 font-['Inter',system-ui,sans-serif] text-[0.88rem] font-medium text-[#0e3a5c] transition-all duration-200 hover:border-[#0e3a5c] hover:bg-[#0e3a5c] hover:text-[#f8f1e9]"
             id="randomBtn"
             type="button"
             data-ga-section="article_random"
@@ -968,7 +968,7 @@ const encodedTitle = encodeURIComponent(title);
             {t('article.exploreTaiwan')}
           </p>
           <h2
-            class="font-['Inter',serif] text-[clamp(1.5rem,3vw,2rem)] font-bold leading-[1.25] text-[#1a3c34]"
+            class="font-['Inter',serif] text-[clamp(1.5rem,3vw,2rem)] font-bold leading-[1.25] text-[#0e3a5c]"
           >
             {t('article.moreAspects')}
           </h2>
@@ -1151,7 +1151,7 @@ const encodedTitle = encodeURIComponent(title);
   .prose :global(h1) {
     font-size: clamp(1.6rem, 3vw, 2.1rem);
     font-weight: 700;
-    color: #1a3c34;
+    color: #0e3a5c;
     margin: 2.5rem 0 1rem;
     line-height: 1.25;
     letter-spacing: 0.01em;
@@ -1159,7 +1159,7 @@ const encodedTitle = encodeURIComponent(title);
   .prose :global(h2) {
     font-size: clamp(1.3rem, 2.5vw, 1.65rem);
     font-weight: 700;
-    color: #1a3c34;
+    color: #0e3a5c;
     margin: 2.5rem 0 0.85rem;
     padding-bottom: 0.5rem;
     border-bottom: 1.5px solid rgba(26, 60, 52, 0.12);
@@ -1168,7 +1168,7 @@ const encodedTitle = encodeURIComponent(title);
   .prose :global(h3) {
     font-size: clamp(1.05rem, 2vw, 1.25rem);
     font-weight: 600;
-    color: #1a3c34;
+    color: #0e3a5c;
     margin: 1.75rem 0 0.65rem;
     padding-left: 0.85rem;
     border-left: 3px solid var(--catColor);
@@ -1187,7 +1187,7 @@ const encodedTitle = encodeURIComponent(title);
   }
 
   .prose :global(a) {
-    color: #006d77;
+    color: #0369a1;
     text-decoration: underline;
     text-decoration-color: rgba(0, 109, 119, 0.35);
     text-underline-offset: 3px;
@@ -1201,7 +1201,7 @@ const encodedTitle = encodeURIComponent(title);
     transition: text-decoration-color 0.2s;
   }
   .prose :global(a:hover) {
-    text-decoration-color: #006d77;
+    text-decoration-color: #0369a1;
   }
 
   .prose :global(ul) {
@@ -1237,20 +1237,20 @@ const encodedTitle = encodeURIComponent(title);
 
   .prose :global(strong) {
     font-weight: 700;
-    color: #1a3c34;
+    color: #0e3a5c;
   }
 
   .prose :global(code) {
     font-family: 'Courier New', monospace;
     font-size: 0.88em;
     background: rgba(26, 60, 52, 0.06);
-    color: #1a3c34;
+    color: #0e3a5c;
     padding: 0.15em 0.45em;
     border-radius: 4px;
   }
 
   .prose :global(pre) {
-    background: #1a3c34;
+    background: #0e3a5c;
     color: #f8f1e9;
     padding: 1.5rem;
     border-radius: 12px;
@@ -1308,7 +1308,7 @@ const encodedTitle = encodeURIComponent(title);
   }
   .prose :global(table:not(.tw-heatmap-table) th) {
     background: rgba(26, 60, 52, 0.05);
-    color: #1a3c34;
+    color: #0e3a5c;
     font-weight: 600;
     text-align: left;
     padding: 0.75rem 1rem;

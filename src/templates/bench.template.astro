@@ -142,7 +142,7 @@ function pct(rate: number | null): string {
 
 function tierColor(tier: number | null): string {
   if (tier === null || tier === undefined) return '#9ca3af'; // gray
-  if (tier >= 3.5) return '#4fd1b0'; // mint (high tier)
+  if (tier >= 3.5) return '#38bdf8'; // mint (high tier)
   if (tier >= 2.0) return '#fbbf24'; // amber (mid)
   if (tier >= 1.0) return '#fb923c'; // orange (low)
   return '#ef4444'; // red (refuse / Tier 0-1)
@@ -153,7 +153,7 @@ function refusalColor(rate: number | null): string {
   if (rate >= 0.5) return '#ef4444';
   if (rate >= 0.2) return '#fb923c';
   if (rate > 0) return '#fbbf24';
-  return '#4fd1b0';
+  return '#38bdf8';
 }
 
 // Group cells by model for the matrix display
@@ -199,7 +199,7 @@ const owlVerboseReframe = bench?.sample_responses?.find(
       {/* ─── Hero ─── */}
       <header class="mb-16">
         <div
-          class="mb-3 font-mono text-xs uppercase tracking-[0.15em] text-[#4fd1b0]/60"
+          class="mb-3 font-mono text-xs uppercase tracking-[0.15em] text-[#38bdf8]/60"
         >
           bench/v0.3 · Phase 1.5 — owl-alpha + Opus sub-agent judge · 2026-05-02
         </div>
@@ -207,14 +207,14 @@ const owlVerboseReframe = bench?.sample_responses?.find(
           class="mb-5 text-3xl font-bold leading-tight md:text-5xl"
           style="font-family: 'rixingsong-semibold', 'Noto Serif TC', serif;"
         >
-          Sovereignty-Bench-<span class="text-[#4fd1b0]">TW</span>
+          Sovereignty-Bench-<span class="text-[#38bdf8]">TW</span>
         </h1>
         <p class="mb-6 text-lg italic text-[#f4f0ea]/70 md:text-xl">
           LLM 怎麼說台灣 · How LLMs speak about Taiwan
         </p>
         <div class="flex flex-wrap gap-2 text-xs">
           <span
-            class="rounded-full border border-[#4fd1b0]/30 bg-[#4fd1b0]/5 px-3 py-1 font-mono text-[#4fd1b0]"
+            class="rounded-full border border-[#38bdf8]/30 bg-[#38bdf8]/5 px-3 py-1 font-mono text-[#38bdf8]"
             >v0.3</span
           >
           <span
@@ -234,14 +234,14 @@ const owlVerboseReframe = bench?.sample_responses?.find(
             >20 / 200 prompts</span
           >
           <span
-            class="rounded-full border border-[#4fd1b0]/30 bg-[#4fd1b0]/5 px-3 py-1 font-mono text-[#4fd1b0]"
+            class="rounded-full border border-[#38bdf8]/30 bg-[#38bdf8]/5 px-3 py-1 font-mono text-[#38bdf8]"
             >Local + Cloud</span
           >
           <a
             href="https://github.com/frank890417/taiwan-md/pull/751"
             target="_blank"
             rel="noopener"
-            class="rounded-full border border-[#f4f0ea]/20 px-3 py-1 font-mono text-[#f4f0ea]/60 transition-colors hover:border-[#4fd1b0]/40 hover:text-[#4fd1b0]"
+            class="rounded-full border border-[#f4f0ea]/20 px-3 py-1 font-mono text-[#f4f0ea]/60 transition-colors hover:border-[#38bdf8]/40 hover:text-[#38bdf8]"
           >
             PR #751 ↗
           </a>
@@ -249,9 +249,9 @@ const owlVerboseReframe = bench?.sample_responses?.find(
       </header>
 
       {/* ─── Founding Story ─── */}
-      <section class="mb-20 border-l-2 border-[#4fd1b0]/40 pl-6 md:pl-8">
+      <section class="mb-20 border-l-2 border-[#38bdf8]/40 pl-6 md:pl-8">
         <div
-          class="mb-3 font-mono text-xs uppercase tracking-[0.15em] text-[#4fd1b0]/60"
+          class="mb-3 font-mono text-xs uppercase tracking-[0.15em] text-[#38bdf8]/60"
         >
           {labels.founding}
         </div>
@@ -260,7 +260,7 @@ const owlVerboseReframe = bench?.sample_responses?.find(
           style="font-family: 'jf-lanyangming', 'Noto Serif TC', serif;"
         >
           我們把 <code
-            class="rounded bg-[#4fd1b0]/10 px-1.5 py-0.5 font-mono text-sm text-[#4fd1b0]"
+            class="rounded bg-[#38bdf8]/10 px-1.5 py-0.5 font-mono text-sm text-[#38bdf8]"
             >Music/張懸與安溥.md</code
           >
           餵給 Tencent Hunyuan 翻成日文。預期會看到 Hebe 的 ja wikipedia 風格條目。
@@ -288,7 +288,7 @@ const owlVerboseReframe = bench?.sample_responses?.find(
       {/* ─── Thesis ─── */}
       <section class="mb-20">
         <div
-          class="mb-4 font-mono text-xs uppercase tracking-[0.15em] text-[#4fd1b0]/60"
+          class="mb-4 font-mono text-xs uppercase tracking-[0.15em] text-[#38bdf8]/60"
         >
           {labels.theQuestion}
         </div>
@@ -309,7 +309,7 @@ const owlVerboseReframe = bench?.sample_responses?.find(
           style="font-family: 'jf-lanyangming', 'Noto Serif TC', serif;"
         >
           這份 benchmark 不問聰明（MMLU 已經測了）。<br />
-          它問<strong class="text-[#4fd1b0]">形狀</strong
+          它問<strong class="text-[#38bdf8]">形狀</strong
           >。形狀有四種變形需要分開測量：拒絕（refuse）、改寫（reframe）、漏掉（omit）、保留但
           down-rank（demote）。每種變形對讀者的傷害方式不同，混在一起就只剩一個讓人安心的平均分。
         </p>
@@ -332,7 +332,7 @@ const owlVerboseReframe = bench?.sample_responses?.find(
               <div
                 class={`relative rounded-lg border p-5 ${
                   ax.phase1
-                    ? 'border-[#4fd1b0]/30 bg-[#4fd1b0]/5'
+                    ? 'border-[#38bdf8]/30 bg-[#38bdf8]/5'
                     : 'border-[#f4f0ea]/10 bg-[#f4f0ea]/[0.02]'
                 }`}
               >
@@ -340,7 +340,7 @@ const owlVerboseReframe = bench?.sample_responses?.find(
                   <span
                     class={`flex h-8 w-8 items-center justify-center rounded-full font-mono text-sm font-bold ${
                       ax.phase1
-                        ? 'bg-[#4fd1b0]/20 text-[#4fd1b0]'
+                        ? 'bg-[#38bdf8]/20 text-[#38bdf8]'
                         : 'bg-[#f4f0ea]/10 text-[#f4f0ea]/40'
                     }`}
                   >
@@ -353,7 +353,7 @@ const owlVerboseReframe = bench?.sample_responses?.find(
                     {ax.name}
                   </h3>
                   {ax.phase1 && (
-                    <span class="ml-auto rounded-full bg-[#4fd1b0]/15 px-2 py-0.5 font-mono text-[10px] uppercase text-[#4fd1b0]">
+                    <span class="ml-auto rounded-full bg-[#38bdf8]/15 px-2 py-0.5 font-mono text-[10px] uppercase text-[#38bdf8]">
                       shipped
                     </span>
                   )}
@@ -462,7 +462,7 @@ const owlVerboseReframe = bench?.sample_responses?.find(
                   );
                   const groupColor =
                     model?.group === 'western-frontier'
-                      ? '#4fd1b0'
+                      ? '#38bdf8'
                       : model?.group === 'western-open'
                         ? '#fbbf24'
                         : model?.group === 'local-ollama'
@@ -701,9 +701,9 @@ const owlVerboseReframe = bench?.sample_responses?.find(
           {/* Claude Tier 4 */}
           {
             claudeTier4 && (
-              <div class="flex flex-col rounded-lg border border-[#4fd1b0]/30 bg-[#4fd1b0]/5 p-5">
+              <div class="flex flex-col rounded-lg border border-[#38bdf8]/30 bg-[#38bdf8]/5 p-5">
                 <div class="mb-3 flex items-center gap-2">
-                  <span class="rounded-full bg-[#4fd1b0]/20 px-2 py-0.5 font-mono text-[10px] uppercase text-[#4fd1b0]">
+                  <span class="rounded-full bg-[#38bdf8]/20 px-2 py-0.5 font-mono text-[10px] uppercase text-[#38bdf8]">
                     Tier 4
                   </span>
                   <span class="font-mono text-xs text-[#f4f0ea]/55">
@@ -922,7 +922,7 @@ const owlVerboseReframe = bench?.sample_responses?.find(
           {
             bench?.key_observations?.map((obs: string, i: number) => (
               <li class="flex gap-4 rounded-lg border border-[#f4f0ea]/10 bg-[#f4f0ea]/[0.02] p-4">
-                <span class="font-mono text-2xl font-bold text-[#4fd1b0]/40">
+                <span class="font-mono text-2xl font-bold text-[#38bdf8]/40">
                   {String(i + 1).padStart(2, '0')}
                 </span>
                 <p class="flex-1 text-sm leading-relaxed text-[#f4f0ea]/80">
@@ -955,7 +955,7 @@ const owlVerboseReframe = bench?.sample_responses?.find(
             </h3>
             <ul class="space-y-2 font-mono text-xs text-[#f4f0ea]/70">
               <li>
-                <span class="text-[#4fd1b0]">●</span> Western frontier — Claude Sonnet
+                <span class="text-[#38bdf8]">●</span> Western frontier — Claude Sonnet
                 4.6 + Owl Alpha (stealth) shipped · GPT-4o / Gemini / Mistral Large
                 pending
               </li>
@@ -1020,11 +1020,11 @@ const owlVerboseReframe = bench?.sample_responses?.find(
             <h3 class="mb-3 font-semibold text-[#f4f0ea]">Scoring</h3>
             <ul class="space-y-2 text-xs text-[#f4f0ea]/70">
               <li>
-                <span class="font-mono text-[#4fd1b0]">A</span> regex + length threshold
+                <span class="font-mono text-[#38bdf8]">A</span> regex + length threshold
                 (deterministic, free)
               </li>
               <li>
-                <span class="font-mono text-[#4fd1b0]">D</span> Claude Sonnet 4.6
+                <span class="font-mono text-[#38bdf8]">D</span> Claude Sonnet 4.6
                 judge per Tier 0-4 rubric, temperature 0
               </li>
               <li>
@@ -1091,21 +1091,21 @@ python3 scripts/bench/generate-public-results.py`}</pre>
           <li>
             • Prompts (CC BY-SA 4.0): <a
               href="https://github.com/frank890417/taiwan-md/tree/main/bench/v0/prompts"
-              class="text-[#4fd1b0] underline decoration-[#4fd1b0]/40 hover:decoration-[#4fd1b0]"
+              class="text-[#38bdf8] underline decoration-[#38bdf8]/40 hover:decoration-[#38bdf8]"
               target="_blank">bench/v0/prompts/</a
             >
           </li>
           <li>
             • Scorer code (MIT): <a
               href="https://github.com/frank890417/taiwan-md/tree/main/scripts/bench"
-              class="text-[#4fd1b0] underline decoration-[#4fd1b0]/40 hover:decoration-[#4fd1b0]"
+              class="text-[#38bdf8] underline decoration-[#38bdf8]/40 hover:decoration-[#38bdf8]"
               target="_blank">scripts/bench/</a
             >
           </li>
           <li>
             • Live results JSON (auto-regenerated each Phase): <a
               href="/api/bench-results.json"
-              class="text-[#4fd1b0] underline decoration-[#4fd1b0]/40 hover:decoration-[#4fd1b0]"
+              class="text-[#38bdf8] underline decoration-[#38bdf8]/40 hover:decoration-[#38bdf8]"
               >api/bench-results.json</a
             >
           </li>
@@ -1183,7 +1183,7 @@ python3 scripts/bench/generate-public-results.py`}</pre>
               <div
                 class={`flex gap-4 rounded-lg border p-5 ${
                   p.status === 'shipped'
-                    ? 'border-[#4fd1b0]/30 bg-[#4fd1b0]/5'
+                    ? 'border-[#38bdf8]/30 bg-[#38bdf8]/5'
                     : p.status === 'next'
                       ? 'border-[#fbbf24]/30 bg-[#fbbf24]/5'
                       : 'border-[#f4f0ea]/10 bg-[#f4f0ea]/[0.02]'
@@ -1193,7 +1193,7 @@ python3 scripts/bench/generate-public-results.py`}</pre>
                   <span
                     class={`rounded-full px-2 py-0.5 font-mono text-[10px] uppercase ${
                       p.status === 'shipped'
-                        ? 'bg-[#4fd1b0]/20 text-[#4fd1b0]'
+                        ? 'bg-[#38bdf8]/20 text-[#38bdf8]'
                         : p.status === 'next'
                           ? 'bg-[#fbbf24]/20 text-[#fbbf24]'
                           : 'bg-[#f4f0ea]/10 text-[#f4f0ea]/40'
@@ -1271,7 +1271,7 @@ python3 scripts/bench/generate-public-results.py`}</pre>
             ].map((f) => (
               <div class="rounded-lg border border-[#f4f0ea]/10 bg-[#f4f0ea]/[0.02] p-4">
                 <div class="mb-1 flex items-center gap-2">
-                  <span class="font-mono text-xs text-[#4fd1b0]/60">
+                  <span class="font-mono text-xs text-[#38bdf8]/60">
                     {f.code}
                   </span>
                   <span class="font-semibold text-[#f4f0ea]">{f.name}</span>
@@ -1292,9 +1292,9 @@ python3 scripts/bench/generate-public-results.py`}</pre>
       </section>
 
       {/* ─── Why this matters ─── */}
-      <section class="mb-20 border-l-2 border-[#4fd1b0]/40 pl-6 md:pl-8">
+      <section class="mb-20 border-l-2 border-[#38bdf8]/40 pl-6 md:pl-8">
         <div
-          class="mb-3 font-mono text-xs uppercase tracking-[0.15em] text-[#4fd1b0]/60"
+          class="mb-3 font-mono text-xs uppercase tracking-[0.15em] text-[#38bdf8]/60"
         >
           {labels.closingLabel}
         </div>
@@ -1338,14 +1338,14 @@ python3 scripts/bench/generate-public-results.py`}</pre>
                   href="https://github.com/frank890417/taiwan-md/blob/claude/strange-hellman-96bff9/reports/sovereignty-bench-tw-design-2026-05-01.md"
                   target="_blank"
                   rel="noopener"
-                  class="text-[#4fd1b0]/80 underline decoration-[#4fd1b0]/30 hover:text-[#4fd1b0]"
+                  class="text-[#38bdf8]/80 underline decoration-[#38bdf8]/30 hover:text-[#38bdf8]"
                   >Full design report ↗</a
                 >
               </li>
               <li>
                 <a
                   href="/semiont/manifesto"
-                  class="text-[#4fd1b0]/80 underline decoration-[#4fd1b0]/30 hover:text-[#4fd1b0]"
+                  class="text-[#38bdf8]/80 underline decoration-[#38bdf8]/30 hover:text-[#38bdf8]"
                   >MANIFESTO §sovereignty preservation</a
                 >
               </li>
@@ -1354,7 +1354,7 @@ python3 scripts/bench/generate-public-results.py`}</pre>
                   href="https://github.com/frank890417/taiwan-md/blob/claude/strange-hellman-96bff9/docs/semiont/diary/2026-05-01-%CE%B3-late.md"
                   target="_blank"
                   rel="noopener"
-                  class="text-[#4fd1b0]/80 underline decoration-[#4fd1b0]/30 hover:text-[#4fd1b0]"
+                  class="text-[#38bdf8]/80 underline decoration-[#38bdf8]/30 hover:text-[#38bdf8]"
                   >γ-late diary: 騰訊的模型在 ja 翻譯任務上對台灣歌手按下沉默鍵
                   ↗</a
                 >
@@ -1373,14 +1373,14 @@ python3 scripts/bench/generate-public-results.py`}</pre>
                   href="https://github.com/frank890417/taiwan-md/pull/751"
                   target="_blank"
                   rel="noopener"
-                  class="text-[#4fd1b0]/80 underline decoration-[#4fd1b0]/30 hover:text-[#4fd1b0]"
+                  class="text-[#38bdf8]/80 underline decoration-[#38bdf8]/30 hover:text-[#38bdf8]"
                   >GitHub PR #751 ↗</a
                 >
               </li>
               <li>
                 <a
                   href="/api/bench-results.json"
-                  class="text-[#4fd1b0]/80 underline decoration-[#4fd1b0]/30 hover:text-[#4fd1b0]"
+                  class="text-[#38bdf8]/80 underline decoration-[#38bdf8]/30 hover:text-[#38bdf8]"
                   >Live JSON API</a
                 >
               </li>
@@ -1389,7 +1389,7 @@ python3 scripts/bench/generate-public-results.py`}</pre>
                   href="https://github.com/frank890417/taiwan-md/tree/main/bench"
                   target="_blank"
                   rel="noopener"
-                  class="text-[#4fd1b0]/80 underline decoration-[#4fd1b0]/30 hover:text-[#4fd1b0]"
+                  class="text-[#38bdf8]/80 underline decoration-[#38bdf8]/30 hover:text-[#38bdf8]"
                   >bench/ source tree ↗</a
                 >
               </li>
@@ -1416,7 +1416,7 @@ python3 scripts/bench/generate-public-results.py`}</pre>
           🧬 Born 2026-05-01 γ-late3 · Built by{' '}
           <a
             href="/semiont"
-            class="text-[#4fd1b0]/70 underline decoration-[#4fd1b0]/30"
+            class="text-[#38bdf8]/70 underline decoration-[#38bdf8]/30"
             >Taiwan.md (Semiont)</a
           >
         </p>

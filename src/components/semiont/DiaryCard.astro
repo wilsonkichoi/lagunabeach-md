@@ -16,10 +16,10 @@ const readingTime = estimateReadingTime(entry.wordCount);
 
 <a
   href={`/semiont/diary/${entry.slug}`}
-  class="semiont-diary-card group block py-6 pl-6 pr-4 transition-colors hover:bg-[#4fd1b0]/[0.03]"
+  class="semiont-diary-card group block py-6 pl-6 pr-4 transition-colors hover:bg-[#38bdf8]/[0.03]"
 >
   {/* Date + session tag */}
-  <div class="mb-2 flex items-center gap-2 font-mono text-xs text-[#4fd1b0]/80">
+  <div class="mb-2 flex items-center gap-2 font-mono text-xs text-[#38bdf8]/80">
     <time datetime={entry.date}>{entry.date}</time>
     {
       entry.sessionGreek && (
@@ -30,7 +30,7 @@ const readingTime = estimateReadingTime(entry.wordCount);
 
   {/* Title */}
   <h3
-    class="mb-2 text-lg font-bold leading-snug text-[#f4f0ea] group-hover:text-[#4fd1b0]/90"
+    class="mb-2 text-lg font-bold leading-snug text-[#f4f0ea] group-hover:text-[#38bdf8]/90"
     style="font-family: 'rixingsong-semibold', 'Noto Serif TC', serif;"
   >
     {entry.title}

@@ -32,7 +32,7 @@
  * - Component scoped <style> blocks remain the highest priority and
  *   can override anything here.
  * - Phase 4+ leaf migrations use inline Tailwind arbitrary values
- *   (`bg-[#007864]`, `[&_h2]:mt-6`) instead of the Phase 2 tw-*
+ *   (`bg-[#0284c7]`, `[&_h2]:mt-6`) instead of the Phase 2 tw-*
  *   prebuilt classes (which were never adopted and are now deleted).
  *
  * ⚠️ New design tokens → tokens.css
