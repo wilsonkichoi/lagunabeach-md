@@ -1,18 +1,18 @@
 export const homeUI = {
   en: {
-    'hero.stat.history.number': '400+',
-    'hero.stat.history.label': 'years of history',
-    'hero.stat.species.number': '59,000+',
-    'hero.stat.species.label': 'species',
-    'hero.stat.democracy.number': "Asia's first",
-    'hero.stat.democracy.label': 'democracy',
-    'hero.stat.chips.number': '90%',
-    'hero.stat.chips.label': 'global advanced chips',
-    'home.hero.subtitle': 'Curating the Deep Narratives of an Island',
+    'hero.stat.history.number': '100+',
+    'hero.stat.history.label': 'years as artists colony',
+    'hero.stat.species.number': '7',
+    'hero.stat.species.label': 'miles of coastline',
+    'hero.stat.democracy.number': '20,000+',
+    'hero.stat.democracy.label': 'residents',
+    'hero.stat.chips.number': '30+',
+    'hero.stat.chips.label': 'public beaches & coves',
+    'home.hero.subtitle': 'Curating the Deep Narratives of a Coastal City',
     'home.hero.description':
-      'The open-source, AI-friendly knowledge base about Taiwan',
+      'The open-source, AI-friendly knowledge base about Laguna Beach, California',
     'home.hero.highlight':
-      'Built from diverse perspectives, for the world to discover Taiwan',
+      'Built from local knowledge, for visitors and residents to discover Laguna Beach',
     'home.hero.cta.explore': 'Start Exploring',
     'home.hero.transparency':
       '⚠️ Some articles on this site are AI-assisted drafts. All content is continuously reviewed and improved by the community. Found an error?',
@@ -112,10 +112,10 @@ export const homeUI = {
     'home.readingPath.footer.totalLabel': 'Total',
     'home.readingPath.footer.minutesUnit': 'minutes',
     'home.readingPath.footer.domainsLabel': 'domains',
-    'home.readingPath.footer.getToKnow': 'Get to know Taiwan',
-    'home.meta.title': 'Open-Source Taiwan Knowledge Base',
+    'home.readingPath.footer.getToKnow': 'Get to know Laguna Beach',
+    'home.meta.title': 'Open-Source Laguna Beach Knowledge Base',
     'home.meta.description':
-      'Open-source, AI-friendly comprehensive knowledge base about Taiwan. 750+ pages of in-depth content covering history, culture, food, music, technology and 12 major topics, co-edited by the community to introduce the real Taiwan to the world.',
+      'Open-source, AI-friendly knowledge base about Laguna Beach, California. In-depth articles covering history, art, nature, food, beaches, trails, events, and neighborhoods.',
     'home.miniGraph.heading': '🕸️ Knowledge Graph',
     'home.miniGraph.subtitle':
       "Every article is connected — click to explore Taiwan's knowledge network",

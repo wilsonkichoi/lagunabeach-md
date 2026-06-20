@@ -44,7 +44,8 @@ const recentCommits = await fetchRecentCommits();
 // isZh: gate for Chinese-vs-English narrative (zh has bespoke 中文 prose, the
 // other 5 langs all share the same English hall narrative).
 const isZh = lang === 'zh-TW';
-const langUrlPrefix = isZh ? '' : `/${lang}`;
+const isDefault = lang === 'en';
+const langUrlPrefix = isDefault ? '' : `/${lang}`;
 
 // ── Exhibition: scan A-grade articles for pick cards ──
 interface PickArticle {
@@ -58,24 +59,20 @@ interface PickArticle {
 
 const categoryFolders: Record<string, string> = {
   history: 'History',
-  geography: 'Geography',
-  culture: 'Culture',
+  'art-galleries': 'Art & Galleries',
+  'nature-marine-life': 'Nature & Marine Life',
   food: 'Food',
-  art: 'Art',
-  music: 'Music',
-  technology: 'Technology',
-  nature: 'Nature',
-  people: 'People',
-  society: 'Society',
-  economy: 'Economy',
-  lifestyle: 'Lifestyle',
+  beaches: 'Beaches',
+  trails: 'Trails',
+  'events-festivals': 'Events & Festivals',
+  neighborhoods: 'Neighborhoods',
 };
 
 const topPicks: Record<string, PickArticle[]> = {};
 
 for (const [slug, folder] of Object.entries(categoryFolders)) {
-  // Lang-aware folder: zh reads knowledge/{Cat}/, others knowledge/{lang}/{Cat}/
-  const dir = isZh
+  // Lang-aware folder: default lang reads knowledge/{Cat}/, others knowledge/{lang}/{Cat}/
+  const dir = isDefault
     ? resolve(process.cwd(), 'knowledge', folder)
     : resolve(process.cwd(), 'knowledge', lang, folder);
   const picks: PickArticle[] = [];
@@ -112,10 +109,10 @@ for (const [slug, folder] of Object.entries(categoryFolders)) {
 
 // ── Hall-level dedup: remove near-duplicate titles across categories in same hall ──
 const hallGroups: Record<string, string[]> = {
-  hall1: ['geography', 'nature', 'lifestyle'],
-  hall2: ['history', 'culture', 'society'],
-  hall3: ['people', 'art', 'music'],
-  hall4: ['technology', 'economy', 'food'],
+  hall1: ['beaches', 'nature-marine-life'],
+  hall2: ['history', 'art-galleries'],
+  hall3: ['trails', 'neighborhoods'],
+  hall4: ['events-festivals', 'food'],
 };
 
 for (const cats of Object.values(hallGroups)) {
@@ -239,7 +236,7 @@ const readingPathFooterItems = [
           >{t('home.features.cta.graph')}</a
         >
         <a
-          href="https://github.com/frank890417/taiwan-md/tree/main/knowledge"
+          href="https://github.com/wilsonkichoi/lagunabeach-md/tree/main/knowledge"
           target="_blank"
           rel="noopener noreferrer"
           data-ga-section="feature_cta"
