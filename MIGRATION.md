@@ -2,7 +2,97 @@
 
 Fork of [frank890417/taiwan-md](https://github.com/frank890417/taiwan-md) following the [country-md-starter](https://github.com/frank890417/taiwan-md/blob/main/docs/fork/COUNTRY-MD-STARTER.md) Path A pattern, with intent to grow into Path B (Semiont system) over time.
 
-## Core Principles
+---
+
+## READ FIRST: Rules and Anti-Patterns
+
+These rules exist because they were all violated in the first migration session. Each violation cost significant time to fix. DO NOT skip this section.
+
+### Rule 1: Chinese comments ≠ Taiwan-specific code
+
+The upstream codebase is written by a Chinese-speaking developer. All comments, error messages, and documentation are in Chinese. They describe UNIVERSAL infrastructure: quality gates, credential detection, build optimization, SEO hreflang filtering, parallel actor safety, etc.
+
+**WRONG:** "This code is in Chinese, it must be Taiwan-specific. Remove it."
+**RIGHT:** "This code is in Chinese. It does X. Is X specific to Taiwan content/identity, or is it universal infrastructure?" If universal, keep it. Add English comment next to it if needed.
+
+**Test:** If removing the code would break the build, quality gates, SEO, or developer experience for ANY fork (Japan.md, Sweden.md, etc.), it's universal. Keep it.
+
+### Rule 2: Never remove packages, scripts, or dependencies
+
+In Phase 1, all devDependencies (playwright, sharp, pixelmatch, opencc-js) and 38 npm scripts were stripped from package.json because they "weren't needed yet" or "might fail." Every single one referenced files that still exist in the repo. They are all universal infrastructure.
+
+**WRONG:** Remove a script from package.json because it errors without Taiwan data.
+**RIGHT:** Add `|| true` to make the script non-fatal. The script still exists, the infrastructure stays intact, it will work once the data is provided.
+
+**WRONG:** Remove a dependency because it's not used "right now."
+**RIGHT:** Keep it. If it's in the upstream package.json, it's there for a reason. Something uses it.
+
+**WRONG:** `bunx` not found, so rewrite the hook to use `npx` with fallback logic.
+**RIGHT:** Install bun. `curl -fsSL https://bun.com/install | bash`.
+
+### Rule 3: Never rewrite a file from scratch
+
+In Phase 1:
+- `astro.config.mjs` was reduced from 413 lines to 99 (stripped hreflang SEO filter, sitemap i18n, build perf tuning, redirects system)
+- `scripts/core/sync.sh` was rewritten from scratch (lost frontmatter fixing, image health check, all comments)
+- `.husky/pre-commit` was gutted to 3 lines (stripped credential detection, scope pollution warning, language registry sync, frontmatter auto-fix, article health gate)
+
+All of these deletions removed universal infrastructure and had to be manually restored.
+
+**WRONG:** "I'll rewrite this file clean for our needs."
+**RIGHT:** Restore the original (`git show upstream/main:path/to/file > path/to/file`), then make ONLY the necessary changes. A good adaptation changes 5-20 lines in a 400-line file.
+
+### Rule 4: Know what IS and ISN'T Taiwan-specific
+
+**Taiwan-specific (correct to change):**
+- Content in `knowledge/` (articles about Taiwan)
+- Branding strings: "Taiwan.md" -> "LagunaBeach.md"
+- Domain: `taiwan.md` -> `lagunabeach.md`
+- Repository: `frank890417/taiwan-md` -> `wilsonkichoi/lagunabeach-md`
+- Category names: Taiwan's 14 categories -> LB's 8 categories
+- Statistics: "400+ years", "59,000 species", "90% chips"
+- Social handles: `@taiwandotmd` -> `@lagunabeachmd`
+- Hero/page narrative prose about Taiwan's history, geography, politics
+
+**NOT Taiwan-specific (do not remove):**
+- Pre-commit quality checks (ALL of them: credential detection, frontmatter validation, narrative scope, language registry sync, hardcoded lang detection)
+- Build scripts in scripts/core/ and scripts/tools/ (article-health, dashboard, contributors, OG images, embeddings, map markers, changelog)
+- All devDependencies (playwright, sharp, opencc-js, pixelmatch, husky, lint-staged, npm-run-all2)
+- CJK bigram tokenizer in search (we have zh-TW enabled as a language)
+- i18n infrastructure (multilingual routing, language switcher, fallback chains)
+- Comments written in Chinese (they explain the code logic)
+- Semiont docs, skills, routines (dormant, will grow into them)
+- The `postbuild` smoke tests and internal link verification
+- The `postinstall` sync hook
+- Visual regression testing infrastructure
+
+### Rule 5: Minimal change principle
+
+For each upstream file, ask: **"What is the MINIMUM edit to make this work for LagunaBeach.md?"**
+
+The answer is almost always one of these mechanical substitutions:
+1. Swap a CATEGORY_MAPPING/CATEGORIES array (Taiwan's 14 -> LB's 8)
+2. Change `lang === 'zh-TW'` to `lang === 'en'` where it means "is this the default language?"
+3. Change `taiwan.md` domain to `lagunabeach.md`
+4. Change `frank890417/taiwan-md` to `wilsonkichoi/lagunabeach-md`
+5. Change branding text "Taiwan.md" to "LagunaBeach.md"
+6. Change Taiwan statistics/narrative to LB equivalents
+
+**Everything else stays untouched.** If you're deleting more than 20 lines from a file, stop and ask yourself why.
+
+### Rule 6: Verify before calling something "unnecessary"
+
+Before removing ANY code, function, script, or dependency:
+1. `grep -r "functionName" src/` - is it referenced somewhere?
+2. Does the file it references still exist in the repo?
+3. Would removing it break the build, quality gates, or developer workflow?
+4. Would another fork (Japan.md, Sweden.md) need this same code?
+
+If ANY answer is yes: keep it.
+
+---
+
+## Core Architecture
 
 ### Shadow Translation Pattern
 - Upstream Chinese files stay UNTOUCHED in the repo
@@ -22,7 +112,7 @@ git remote -v
 ### Default Language
 - English is default (no URL prefix, content at `knowledge/{Category}/`)
 - zh-TW is secondary (URL prefix `/zh-TW/`, content at `knowledge/zh-TW/{Category}/`)
-- All `lang === 'zh-TW'` checks in upstream code are replaced with `lang === 'en'` for "is this the default language?" logic
+- All `lang === 'zh-TW'` checks in upstream code changed to `lang === 'en'` for "is this the default language?" logic
 
 ### Category Structure
 8 categories (vs Taiwan's 14):
@@ -40,6 +130,23 @@ knowledge/
 
 Slug mapping (used in URLs and src/content/):
 - `history`, `art-galleries`, `nature-marine-life`, `food`, `beaches`, `trails`, `events-festivals`, `neighborhoods`
+
+### Files Changed from Upstream (CATEGORY_MAPPING locations)
+
+These files contain hardcoded category arrays that MUST match the 8 LB categories:
+
+| File | What was changed |
+|------|-----------------|
+| `scripts/core/sync.sh` | CATEGORIES array, default lang `en`, slugify function |
+| `scripts/core/build-search-index.mjs` | CATEGORY_MAP, legacy dedup fix |
+| `src/utils/categoryConfig.ts` | 8 LB categories with colors/icons (this one is a full rewrite, justified because category definitions ARE content-identity) |
+| `src/utils/category-static-paths.ts` | CATEGORY_MAPPING, default lang check |
+| `src/pages/[category]/[slug].astro` | CATEGORY_MAPPING, lang='en' |
+| `src/templates/article.template.astro` | categoryMapping, lang checks, GitHub edit link |
+| `src/templates/home.template.astro` | categoryFolders, hallGroups, isDefault logic |
+| `src/components/CategoryGrid.astro` | Dynamic from categoryConfig (not hardcoded) |
+| `src/components/Header.astro` | categoryList array, isEnActive logic, langOptions order, dropdown bg color |
+| `src/components/home/HomeEnHalls.astro` | Full rewrite with LB narrative (justified: this is pure content prose) |
 
 ---
 
@@ -61,10 +168,9 @@ Slug mapping (used in URLs and src/content/):
 - Updated `src/config/languages.mjs/.ts`: English default + zh-TW enabled
 - Updated `scripts/core/sync.sh`: 8 LB categories, slugify with sed, `en` as default
 - Updated `astro.config.mjs`: site URL only (kept all other infrastructure intact)
-- Updated CATEGORY_MAPPING in: `[category]/[slug].astro`, `category-static-paths.ts`, `categoryConfig.ts`, `article.template.astro`, `build-search-index.mjs`
-- Updated `CategoryGrid.astro`: dynamic from categoryConfig instead of hardcoded
+- Updated CATEGORY_MAPPING in all files listed above
 - Fixed duplicate ID bug in search index (when DEFAULT_LANGUAGE.code === 'en')
-- Simplified `.husky/pre-commit`: bunx with $HOME/.bun/bin PATH, kept ALL quality checks
+- Updated `.husky/pre-commit`: PATH for $HOME/.bun/bin, kept ALL quality checks
 - Updated `package.json`: name/description/version only, all scripts retained with `|| true` for failing ones
 - Updated `public/CNAME`: lagunabeach.md
 
@@ -74,13 +180,15 @@ Slug mapping (used in URLs and src/content/):
 - Color palette: systematic swap from Taiwan green to ocean blue (12 color mappings across 52+ files, including hex and rgba values)
 - Branding: LagunaBeach.md throughout (title, BrandMark, hero, footer, SEO, structured data)
 - SEO.astro: all metadata, JSON-LD, keywords, social links localized
-- Header: English active by default, 8 LB categories in dropdown, nav links to own repo
+- Header: English active by default, 8 LB categories in dropdown, nav links to own repo, dropdown bg ocean blue
 - Footer: own repo/social links, "Built with love in Laguna Beach"
 - Banner: only shows on non-default lang paths (not on English root)
-- HomeEnHalls: full rewrite (511 lines) with LB narrative (4 halls: Coast, Story, Land, Life)
-- CoverStory: LB timeline (Acjachemen, 1904 painters, 1918 Art Association, 1933 Pageant, 1993 firestorm, today, LagunaBeach.md)
-- i18n/home.ts: all English strings localized (hero, stats, cover, features, etc.)
-- Remaining: i18n strings in secondary pages (contribute, data, about templates) still have Taiwan content in non-English languages. These pages render but have stale prose. Fix as those pages are adapted.
+- HomeEnHalls: full rewrite with LB narrative (4 halls: Coast, Story, Land, Life)
+- CoverStory: LB timeline (Acjachemen, 1904 painters, 1918 Art Association, 1933 Pageant, 1993 firestorm, today)
+- i18n/home.ts: all English strings localized
+- All `frank890417/taiwan-md` refs -> `wilsonkichoi/lagunabeach-md`
+- All `taiwan.md` domain refs -> `lagunabeach.md`
+- Remaining: i18n strings in secondary pages (contribute, data, about, taiwanShape) still have Taiwan content. These pages render but have stale prose. Fix as those pages are adapted.
 
 ### Phase 3: Infrastructure Adaptation ⬜ NOT STARTED
 
@@ -90,7 +198,7 @@ Tasks:
 - [ ] Adapt `scripts/core/generate-map-markers.js` for English place names, LB geocode data
 - [ ] Update map page: D3 projection centered on ~33.54N, 117.78W, mode toggles for LB
 - [ ] Knowledge graph: center node "LagunaBeach.md", 8 category nodes
-- [ ] Re-enable prebuild scripts one by one: map markers, dashboard-data, contributors-data
+- [ ] Re-enable prebuild scripts one by one (remove `|| true` as each one works): map markers, dashboard-data, contributors-data
 - [ ] OG images: static fallback for now (no Playwright pipeline needed yet)
 - [ ] RSS + sitemap: verify single-language output with correct URLs
 - [ ] Explore page: verify search works with English content
@@ -98,8 +206,8 @@ Tasks:
 ### Phase 4: Shadow Translation ⬜ NOT STARTED
 
 Tasks:
-- [ ] `docs/editorial/EDITORIAL.en.md` - extract universal writing principles
-- [ ] `BECOME_LAGUNABEACH.md` - AI identity boot file
+- [ ] `docs/editorial/EDITORIAL.en.md` - extract universal writing principles, rewrite with English/LB examples
+- [ ] `BECOME_LAGUNABEACH.md` - AI identity boot file (new file, 200-300 lines)
 - [ ] `docs/semiont/MANIFESTO.en.md` - shadow translate for comprehension
 - [ ] `docs/semiont/ROUTINE.en.md` - shadow translate for future adoption
 - [ ] Document shadow-translation convention in CLAUDE.md
@@ -110,98 +218,17 @@ Tasks:
 - [ ] Review all 38 `.claude/skills/twmd-*/SKILL.md` - categorize as reusable vs Taiwan-specific
 - [ ] Create 3 LB skills: `lb-write`, `lb-rewrite`, `lb-sync`
 - [ ] Adapt `scripts/tools/article-health.py` for English content
-- [ ] Adapt `scripts/core/build-embeddings.mjs` for local RTX 4090
+- [ ] Adapt `scripts/core/build-embeddings.mjs` for local RTX 4090 (bge-m3 works for English)
 - [ ] Create minimal `ROUTINE.md` (2-3 inactive routines documented)
 - [ ] Test upstream merge: `git fetch upstream && git merge upstream/main --no-commit` then abort
 - [ ] Verify `.gitattributes` protects correctly
 
 ---
 
-## Files Changed from Upstream (CATEGORY_MAPPING locations)
-
-These files contain hardcoded category arrays that MUST match the 8 LB categories:
-
-| File | What was changed |
-|------|-----------------|
-| `scripts/core/sync.sh` | CATEGORIES array, default lang `en`, slugify function |
-| `scripts/core/build-search-index.mjs` | CATEGORY_MAP, legacy dedup fix |
-| `src/utils/categoryConfig.ts` | Full rewrite (8 LB categories with colors/icons) |
-| `src/utils/category-static-paths.ts` | CATEGORY_MAPPING, default lang check |
-| `src/pages/[category]/[slug].astro` | CATEGORY_MAPPING, lang='en' |
-| `src/templates/article.template.astro` | categoryMapping, lang checks, GitHub edit link |
-| `src/templates/home.template.astro` | categoryFolders, hallGroups, isDefault logic |
-| `src/components/CategoryGrid.astro` | Dynamic from categoryConfig (not hardcoded) |
-| `src/components/Header.astro` | categoryList array, isEnActive logic, langOptions order |
-| `src/components/home/HomeEnHalls.astro` | Full rewrite with LB narrative |
-
----
-
-## MISTAKES MADE (read this before touching the codebase)
-
-### Anti-Patterns: Rules for Future Sessions
-
-#### 1. NEVER strip code because comments are in Chinese
-
-Chinese comments ≠ Taiwan-specific code. The codebase is written by a Chinese-speaking developer. Comments explain universal infrastructure (quality gates, credential detection, parallel actor safety, etc.). If the comment is in Chinese, keep it. Add English translation next to it if needed.
-
-**Rule:** If removing code, the reason must be "this code references Taiwan-specific DATA or IDENTITY" (e.g., Taiwan category names, Taiwan social links, Taiwan domain). Never "it's written in Chinese."
-
-#### 2. NEVER remove packages/scripts because they "might fail"
-
-In Phase 1, all devDependencies (playwright, sharp, pixelmatch, opencc-js) and 38 npm scripts were stripped from package.json because they "weren't needed yet." They all reference files that still exist in the repo. The scripts are universal infrastructure.
-
-**Rule:** If a script might fail due to missing data, add `|| true` to make it non-fatal. Never remove it from package.json. Install missing packages rather than removing dependencies.
-
-#### 3. NEVER rewrite a file from scratch when adapting
-
-The `astro.config.mjs` was reduced from 413 to 99 lines. The `sync.sh` was rewritten from scratch. The pre-commit hook was gutted to 3 lines. All of these stripped universal infrastructure (hreflang SEO filter, sitemap i18n, build performance tuning, quality gates).
-
-**Rule:** Restore the original file first (`git show upstream/main:path/to/file > path/to/file`), then make ONLY the changes that are necessary. A good adaptation changes 5-20 lines in a 400-line file, not rewrites it to 99 lines.
-
-#### 4. NEVER assume "Taiwan-specific" without verifying
-
-Things that ARE Taiwan-specific (correct to change):
-- Content in `knowledge/` (articles about Taiwan)
-- Taiwan.md branding (site name, domain, social handles)
-- Taiwan category names (History, Geography, Culture, etc. -> LB categories)
-- Taiwan statistics (400+ years, 59000 species)
-- SPORE-LOG URL enforcement (their social media publishing workflow)
-- Parallel actor detection process names (babel-handoff, lang-sync)
-
-Things that are NOT Taiwan-specific (incorrect to remove):
-- Pre-commit quality checks (credential detection, frontmatter validation, scope detection)
-- Build scripts (article-health, dashboard, contributors, OG images)
-- Dependencies (playwright, sharp, opencc-js, pixelmatch)
-- CJK bigram tokenizer (still useful for zh-TW content)
-- i18n infrastructure (we have zh-TW enabled)
-- Comments in Chinese (they explain the code)
-
-#### 5. Minimal change principle
-
-For each file, ask: "What is the MINIMUM edit to make this work for LagunaBeach.md?"
-
-Usually the answer is one of:
-- Change a CATEGORY_MAPPING array (swap Taiwan's 14 categories for LB's 8)
-- Change `lang === 'zh-TW'` to `lang === 'en'` for "is default language?" checks
-- Change `taiwan.md` domain to `lagunabeach.md`
-- Change `frank890417/taiwan-md` repo to `wilsonkichoi/lagunabeach-md`
-- Change branding strings (Taiwan.md -> LagunaBeach.md)
-
-Everything else stays.
-
-#### 6. Install missing tools, don't work around them
-
-When `bunx` wasn't found, the correct fix was `curl -fsSL https://bun.com/install | bash`, not rewriting the hook to use npx with a fallback. When a Python script fails, install the dependency, don't remove the script.
-
----
-
-## Working Directory
-
-The fork lives at: `/Users/wchoi/src/lagunabeach-md-fork`
-The old standalone (archived): `/Users/wchoi/src/lagunabeach-md` (points to lagunabeach-md-v0)
-
 ## Key Facts
 
+- Working directory: `/Users/wchoi/src/lagunabeach-md-fork`
+- Old standalone (archived): `/Users/wchoi/src/lagunabeach-md` (points to lagunabeach-md-v0)
 - User has RTX 4090 (for embeddings when ready)
 - User is native Chinese speaker (can validate translations)
 - bun is installed at ~/.bun/bin/bun
