@@ -95,6 +95,41 @@ Before removing ANY code, function, script, or dependency:
 
 If ANY answer is yes: keep it.
 
+### Rule 7: Don't replicate upstream's visual approach when the context is different
+
+In Phase 3, multiple iterations tried to replicate Taiwan.md's D3+TopoJSON SVG map (which works for an island nation) for a small coastal city. Hand-drawn neighborhood polygons produced ugly gaps and misalignment. The correct answer: use Leaflet+OpenStreetMap tiles. A real map with streets, terrain, and coastline.
+
+**WRONG:** "Taiwan.md uses D3+SVG for maps, so we should too."
+**RIGHT:** "Taiwan.md is an island. A self-contained SVG works. Laguna Beach is a coastal city bordering other cities. It needs a real tile map with geographic context."
+
+**Test:** If the upstream approach looks ugly or confusing when applied to your content, the approach itself is content-specific, not universal infrastructure.
+
+### Rule 8: Before removing/hiding HTML elements, grep for JS references
+
+In Phase 3, the marker count badge (`#totalMarkers`) was hidden but JS still referenced `document.getElementById('totalMarkers').textContent = ...`. The null error silently broke the entire filter-to-sidebar-cards chain. No console error was visible to the user; the filters just "didn't work."
+
+**WRONG:** Remove/hide a DOM element because it looks unnecessary.
+**RIGHT:** `grep -n "elementId" src/templates/*.astro` before removing. If JS references it, either keep it or null-guard the reference.
+
+### Rule 9: Filter data-filter values must match actual data field values
+
+In Phase 3, filter buttons had `data-filter="Coastal"` / `"Cultural"` / `"Nature"` but markers had `region: "The Village"` / `"South Laguna"`. The filter UI looked correct but matched zero markers.
+
+**WRONG:** Name filter values by abstract categories.
+**RIGHT:** Filter `data-filter` values must exactly match the `region`/`category` strings in the marker JSON data.
+
+### Rule 10: Rename Taiwan references immediately, not later
+
+Left `drawTaiwanMap` function name across multiple iterations until user pointed it out. Find-and-replace all Taiwan function/variable names at the start of adaptation, not incrementally.
+
+### Rule 11: Spawned agents must use the exact same model as the main session
+
+In Phase 3, agents were spawned without specifying the model, causing them to use Opus 4.7 instead of Opus 4.6 (the main session's model). The `model: "opus"` parameter alone is insufficient if multiple Opus versions exist. Specify the exact model explicitly.
+
+**WRONG:** `Agent({ prompt: "..." })` — inherits wrong model version.
+**WRONG:** `Agent({ prompt: "...", model: "opus" })` — may resolve to a different Opus version.
+**RIGHT:** Verify which model the main session uses and ensure agents match exactly. If the session is Opus 4.6, agents must also run Opus 4.6.
+
 ---
 
 ## Core Architecture
