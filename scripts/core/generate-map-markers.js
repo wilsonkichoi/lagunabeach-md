@@ -7,16 +7,16 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-console.log('🗺️ Taiwan.md Map Marker Generation Script');
+console.log('🗺️ LagunaBeach.md Map Marker Generation Script');
 
 // 讀取 geocode 對照表
 const geocodeData = JSON.parse(
   fs.readFileSync(
-    path.join(__dirname, '../../src/data/taiwan-geocode.json'),
+    path.join(__dirname, '../../src/data/laguna-beach-geocode.json'),
     'utf8',
   ),
 );
-const { cities, landmarks } = geocodeData;
+const { neighborhoods, landmarks } = geocodeData;
 
 // 解析 frontmatter
 function parseFrontmatter(content) {
@@ -36,75 +36,30 @@ function parseFrontmatter(content) {
   return fm;
 }
 
-// 從檔名推測分類
+// Infer category from filename (English)
 function inferCategoryFromFilename(filename) {
-  if (
-    filename.includes('半導體') ||
-    filename.includes('科技') ||
-    filename.includes('數位') ||
-    filename.includes('AI')
-  )
-    return 'technology';
-  if (
-    filename.includes('水果') ||
-    filename.includes('茶') ||
-    filename.includes('美食') ||
-    filename.includes('小吃')
-  )
+  const f = filename.toLowerCase();
+  if (f.includes('beach') || f.includes('cove') || f.includes('shore'))
+    return 'beaches';
+  if (f.includes('trail') || f.includes('hike') || f.includes('park'))
+    return 'trails';
+  if (f.includes('art') || f.includes('gallery') || f.includes('museum'))
+    return 'art-galleries';
+  if (f.includes('food') || f.includes('restaurant') || f.includes('dining'))
     return 'food';
-  if (
-    filename.includes('海岸') ||
-    filename.includes('地形') ||
-    filename.includes('地理') ||
-    filename.includes('河流')
-  )
-    return 'geography';
-  if (
-    filename.includes('選舉') ||
-    filename.includes('政治') ||
-    filename.includes('民主') ||
-    filename.includes('社會')
-  )
-    return 'society';
-  if (
-    filename.includes('城市') ||
-    filename.includes('生活') ||
-    filename.includes('都市')
-  )
-    return 'lifestyle';
-  if (filename.includes('醫療') || filename.includes('健保')) return 'society';
-  if (
-    filename.includes('經濟') ||
-    filename.includes('企業') ||
-    filename.includes('產業')
-  )
-    return 'economy';
-  if (
-    filename.includes('文化') ||
-    filename.includes('廟') ||
-    filename.includes('原住民')
-  )
-    return 'culture';
-  if (
-    filename.includes('歷史') ||
-    filename.includes('戰爭') ||
-    filename.includes('殖民')
-  )
+  if (f.includes('history') || f.includes('founding') || f.includes('fire'))
     return 'history';
+  if (f.includes('marine') || f.includes('tide') || f.includes('nature'))
+    return 'nature-marine-life';
+  if (f.includes('festival') || f.includes('pageant') || f.includes('event'))
+    return 'events-festivals';
   if (
-    filename.includes('藝術') ||
-    filename.includes('電影') ||
-    filename.includes('攝影')
+    f.includes('neighborhood') ||
+    f.includes('village') ||
+    f.includes('downtown')
   )
-    return 'art';
-  if (filename.includes('音樂') || filename.includes('歌')) return 'music';
-  if (
-    filename.includes('棒球') ||
-    filename.includes('運動') ||
-    filename.includes('麟洋')
-  )
-    return 'lifestyle';
-  return 'culture'; // 預設
+    return 'neighborhoods';
+  return 'history';
 }
 
 /** knowledge/ 底下第一層若為語系目錄則略過，避免把 ja/en 誤當分類 */
@@ -118,14 +73,13 @@ function getArticleLang(filePath) {
   if (first === 'ja') return 'ja';
   if (first === 'ko') return 'ko';
   if (first === 'zh-TW') return 'zh-TW';
-  // 根目錄分類、es 等 → 側欄與 zh-TW 同池（站內僅 zh/en/ja/ko 地圖頁）
-  return 'zh-TW';
+  return 'en';
 }
 
 function buildArticleLink(filePath, category) {
   const lang = getArticleLang(filePath);
   const slug = encodeURIComponent(path.basename(filePath, '.md'));
-  if (lang === 'zh-TW') return `/${category}/${slug}`;
+  if (lang === 'en') return `/${category}/${slug}`;
   return `/${lang}/${category}/${slug}`;
 }
 
@@ -152,45 +106,24 @@ function getCategoryFromPath(filePath) {
       // 從 frontmatter 或檔名推測
       return inferCategoryFromFilename(path.basename(filePath, '.md'));
     }
-    // 轉成小寫英文
     const categoryMap = {
-      Food: 'food',
       History: 'history',
-      Nature: 'nature',
-      Culture: 'culture',
-      Technology: 'technology',
-      Economy: 'economy',
-      Lifestyle: 'lifestyle',
-      Art: 'art',
-      Music: 'music',
-      Geography: 'geography',
-      Society: 'society',
-      People: 'people',
+      'Art & Galleries': 'art-galleries',
+      'Nature & Marine Life': 'nature-marine-life',
+      Food: 'food',
+      Beaches: 'beaches',
+      Trails: 'trails',
+      'Events & Festivals': 'events-festivals',
+      Neighborhoods: 'neighborhoods',
     };
-    return categoryMap[category] || category.toLowerCase();
+    return (
+      categoryMap[category] || category.toLowerCase().replace(/[& ]+/g, '-')
+    );
   }
 
-  // 如果在根目錄，從檔名推測
+  // Root-level files: infer from filename
   const filename = path.basename(filePath, '.md');
-  if (
-    filename.includes('夜市') ||
-    filename.includes('美食') ||
-    filename.includes('小吃')
-  )
-    return 'food';
-  if (filename.includes('歷史') || filename.includes('古蹟')) return 'history';
-  if (filename.includes('自然') || filename.includes('國家公園'))
-    return 'nature';
-  if (filename.includes('文化') || filename.includes('廟宇')) return 'culture';
-  if (filename.includes('科技') || filename.includes('產業'))
-    return 'technology';
-  if (filename.includes('經濟')) return 'economy';
-  if (filename.includes('生活')) return 'lifestyle';
-  if (filename.includes('藝術')) return 'art';
-  if (filename.includes('音樂')) return 'music';
-  if (filename.includes('地理')) return 'geography';
-
-  return 'culture'; // 預設
+  return inferCategoryFromFilename(filename);
 }
 
 // 地點匹配和評分
@@ -226,77 +159,25 @@ function matchLocations(title, content) {
     }
   }
 
-  // 縣市匹配（較低優先級）
-  for (const [cityName, cityData] of Object.entries(cities)) {
+  // Neighborhood matching (lower priority than landmarks)
+  for (const [name, data] of Object.entries(neighborhoods)) {
     let score = 0;
-    let matchCount = 0;
+    const pattern = new RegExp(
+      name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'),
+      'gi',
+    );
 
-    // 對「台X」系列城市，使用完整名稱匹配（包含市/縣）避免誤匹配
-    // 例如「台北」要匹配「台北市」「台北」但不能匹配「台灣」中的「台」
-    const fullNamePatterns = {
-      台北: [
-        /台北(?:市|車站|捷運|101|故宮|大學|盆地|港|松山|信義|大安|中山|萬華|士林|北投|內湖|南港|文山)/g,
-        /台北(?![灣海商幣股積語諺裔僑])/g,
-        /臺北/g,
-      ],
-      台中: [
-        /台中(?:市|車站|捷運|歌劇院|國家|大學|盆地|港|公園)/g,
-        /台中(?![灣海商幣股積語諺裔僑])/g,
-        /臺中/g,
-      ],
-      台南: [
-        /台南(?:市|車站|府城|孔廟|安平|赤崁|大學|運河)/g,
-        /台南(?![灣海商幣股積語諺裔僑])/g,
-        /臺南/g,
-      ],
-      台東: [
-        /台東(?:市|車站|大學|縱谷|海岸|池上|知本|鹿野|蘭嶼)/g,
-        /台東(?![灣海商幣股積語諺裔僑])/g,
-        /臺東/g,
-      ],
-    };
+    if (titleLower.includes(name.toLowerCase())) score += 50;
+    const contentMatches = (content.match(pattern) || []).length;
+    score += contentMatches * 10;
 
-    if (fullNamePatterns[cityName]) {
-      // 台X 系列：優先用精確模式（有後綴的）
-      const precisePattern = fullNamePatterns[cityName][0];
-      const preciseMatches = (content.match(precisePattern) || []).length;
-      const preciseTitleMatches = (title.match(precisePattern) || []).length;
-
-      // 寬鬆模式（排除台灣等）
-      const loosePattern = fullNamePatterns[cityName][1];
-      const looseMatches = (content.match(loosePattern) || []).length;
-      const looseTitleMatches = (title.match(loosePattern) || []).length;
-
-      // 臺X 變體
-      const variantPattern = fullNamePatterns[cityName][2];
-      const variantMatches = (content.match(variantPattern) || []).length;
-
-      if (preciseTitleMatches > 0 || looseTitleMatches > 0) score += 50;
-
-      // 精確匹配（帶後綴）計分更高
-      score += preciseMatches * 15;
-      // 寬鬆匹配計分較低（因為可能有誤匹配）
-      score += looseMatches * 5;
-      score += variantMatches * 10;
-
-      matchCount = preciseMatches + looseMatches + variantMatches;
-    } else {
-      // 非台X系列：直接匹配
-      const cityPattern = new RegExp(cityName, 'g');
-
-      if (title.includes(cityName)) score += 50;
-      matchCount = (content.match(cityPattern) || []).length;
-      score += matchCount * 10;
-    }
-
-    // 提高門檻：至少在文章中出現 3 次，或在標題中出現
-    if (score >= 30 && matchCount >= 2) {
+    if (score >= 30 && contentMatches >= 2) {
       matches.push({
-        name: cityName,
-        type: 'city',
-        score: score,
-        city: cityName,
-        ...cityData,
+        name,
+        type: 'neighborhood',
+        score,
+        city: name,
+        ...data,
       });
     }
   }
@@ -375,15 +256,13 @@ function generateMarkers() {
       const frontmatter = parseFrontmatter(content);
 
       const title = frontmatter.title || path.basename(filePath, '.md');
-      const description =
-        frontmatter.description || frontmatter.desc || '探索台灣的文化與故事';
+      const description = frontmatter.description || frontmatter.desc || '';
       const category = getCategoryFromPath(filePath);
 
       // 檢查是否有明確的 geo 欄位
       let locations = [];
 
       if (frontmatter.geo) {
-        // 解析 geo 欄位（假設格式如 "台北,25.033,121.565" 或只是 "台北"）
         const geoData = frontmatter.geo.split(',');
         if (geoData.length >= 3) {
           locations.push({
@@ -392,17 +271,25 @@ function generateMarkers() {
             lat: parseFloat(geoData[1]),
             lng: parseFloat(geoData[2]),
             city: geoData[0].trim(),
-            score: 1000, // 最高優先級
+            score: 1000,
           });
         } else if (geoData.length === 1) {
-          const cityName = geoData[0].trim();
-          if (cities[cityName]) {
+          const placeName = geoData[0].trim();
+          if (neighborhoods[placeName]) {
             locations.push({
-              name: cityName,
+              name: placeName,
               type: 'manual',
-              city: cityName,
+              city: placeName,
               score: 1000,
-              ...cities[cityName],
+              ...neighborhoods[placeName],
+            });
+          } else if (landmarks[placeName]) {
+            locations.push({
+              name: placeName,
+              type: 'manual',
+              city: placeName,
+              score: 1000,
+              ...landmarks[placeName],
             });
           }
         }
@@ -433,10 +320,17 @@ function generateMarkers() {
           location.city,
         );
 
-        // 確保region有值，如果沒有從cities查找
-        let region = location.region;
-        if (!region && location.city && cities[location.city]) {
-          region = cities[location.city].region;
+        let region = getNeighborhood(location.lat, location.lng);
+
+        function getNeighborhood(lat, lng) {
+          if (lat > 33.548 && lng < -117.775) return 'North Laguna';
+          if (lat > 33.548 && lng >= -117.775) return 'Top of the World';
+          if (lat >= 33.535 && lat <= 33.548 && lng >= -117.775)
+            return 'Laguna Canyon';
+          if (lat >= 33.535 && lat <= 33.548 && lng < -117.775)
+            return 'The Village';
+          if (lat < 33.515) return 'South Laguna';
+          return 'The Village';
         }
 
         const marker = {

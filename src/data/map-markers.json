@@ -1,1 +1,85 @@
-[]
+[
+  {
+    "title": "Laguna Art Museum",
+    "lat": 33.543,
+    "lng": -117.786,
+    "category": "art-galleries",
+    "region": "The Village",
+    "link": "/art-galleries/laguna-art-museum",
+    "lang": "en",
+    "desc": "The oldest art museum in Orange County, focused exclusively on California art from the plein air era to contemporary."
+  },
+  {
+    "title": "Thousand Steps Beach",
+    "lat": 33.508,
+    "lng": -117.757,
+    "category": "beaches",
+    "region": "South Laguna",
+    "link": "/beaches/thousand-steps-beach",
+    "lang": "en",
+    "desc": "A secluded beach at the base of a long staircase in South Laguna, known for its dramatic cliffs and tide pools."
+  },
+  {
+    "title": "Victoria Beach",
+    "lat": 33.516381,
+    "lng": -117.771689,
+    "category": "beaches",
+    "region": "The Village",
+    "link": "/beaches/victoria-beach",
+    "lang": "en",
+    "desc": "A secluded beach known for its distinctive 1926 stone tower and rocky tide pool areas."
+  },
+  {
+    "title": "Pageant of the Masters",
+    "lat": 33.535004,
+    "lng": -117.778847,
+    "category": "events-festivals",
+    "region": "The Village",
+    "link": "/events-festivals/pageant-of-the-masters",
+    "lang": "en",
+    "desc": "A live performance where volunteers recreate famous paintings and sculptures using real people, running annually since 1933."
+  },
+  {
+    "title": "South Laguna",
+    "lat": 33.51,
+    "lng": -117.76,
+    "category": "neighborhoods",
+    "region": "South Laguna",
+    "link": "/neighborhoods/south-laguna",
+    "lang": "en",
+    "desc": "The quieter southern stretch of Laguna Beach, home to hidden beaches and residential hillside neighborhoods.",
+    "city": "South Laguna"
+  },
+  {
+    "title": "The Village",
+    "lat": 33.542,
+    "lng": -117.786,
+    "category": "neighborhoods",
+    "region": "The Village",
+    "link": "/neighborhoods/the-village",
+    "lang": "en",
+    "desc": "Laguna Beach's walkable downtown core, centered on Pacific Coast Highway and Forest Avenue.",
+    "city": "Village"
+  },
+  {
+    "title": "Laguna Coast Wilderness Park",
+    "lat": 33.555,
+    "lng": -117.755,
+    "category": "trails",
+    "region": "Top of the World",
+    "link": "/trails/laguna-coast-wilderness-park",
+    "lang": "en",
+    "desc": "A 7,000-acre protected open space surrounding Laguna Beach with 40+ miles of trails through coastal sage scrub and oak woodland."
+  },
+  {
+    "title": "Top of the World",
+    "lat": 33.558,
+    "lng": -117.77,
+    "category": "trails",
+    "region": "Top of the World",
+    "link": "/trails/top-of-the-world",
+    "lang": "en",
+    "desc": "A panoramic viewpoint and trailhead offering 360-degree views from the Pacific Ocean to the Santa Ana Mountains.",
+    "city": "Top of the World"
+  }
+]

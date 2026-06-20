@@ -14,22 +14,17 @@ import { resolve, join, relative } from 'node:path';
 import { LANGUAGES } from '../../src/config/languages.mjs';
 
 const DIST = resolve(process.cwd(), 'dist');
-const MIN_TOTAL_PAGES = 300;
-const MIN_ARTICLES_PER_CATEGORY = 3;
+const MIN_TOTAL_PAGES = 30;
+const MIN_ARTICLES_PER_CATEGORY = 1;
 const CATEGORIES = [
   'history',
-  'geography',
-  'culture',
+  'art-galleries',
+  'nature-marine-life',
   'food',
-  'art',
-  'music',
-  'technology',
-  'nature',
-  'people',
-  'politics',
-  'society',
-  'economy',
-  'lifestyle',
+  'beaches',
+  'trails',
+  'events-festivals',
+  'neighborhoods',
 ];
 
 // i18n route smoke (audit 2026-06-10 D-8): REFLEXES #19 要求大型 refactor 後
@@ -115,7 +110,7 @@ for (const cat of CATEGORIES) {
 
 // ── 4. Spot-check: random article pages should have real content ──
 
-const SAMPLE_CATEGORIES = ['history', 'people', 'culture'];
+const SAMPLE_CATEGORIES = ['history', 'food', 'beaches'];
 for (const cat of SAMPLE_CATEGORIES) {
   const catDir = join(DIST, cat);
   try {
@@ -136,15 +131,15 @@ for (const cat of SAMPLE_CATEGORIES) {
 
 // ── 5. i18n route smoke (audit 2026-06-10 D-8) ──
 
-const zhArticlePages = await countHtml(join(DIST, 'people')); // proxy for zh depth
+const defaultArticlePages = await countHtml(join(DIST, 'history'));
 for (const lang of LANG_ROUTES) {
   const langDir = join(DIST, lang);
   try {
     const langPages = await countHtml(langDir);
     const zhTotalProxy = totalPages; // includes all langs; use floor heuristic instead
-    if (langPages < 100) {
+    if (langPages < 5) {
       errors.push(
-        `/${lang}/ has only ${langPages} HTML pages (< 100 collapse floor) — getStaticPaths or sync likely broke for this language`,
+        `/${lang}/ has only ${langPages} HTML pages (< 5 collapse floor) — getStaticPaths or sync likely broke for this language`,
       );
       continue;
     }

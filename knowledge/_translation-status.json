@@ -1,15 +1,9 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-20T02:54:08-07:00",
-    "zhCommitHead": "0456a44be",
+    "lastUpdated": "2026-06-20T05:53:33-07:00",
+    "zhCommitHead": "b2a74377c",
     "totalZh": 15,
-    "activeLanguages": [
-      "en",
-      "ja",
-      "ko",
-      "es",
-      "fr"
-    ],
+    "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
         "total_zh": 15,

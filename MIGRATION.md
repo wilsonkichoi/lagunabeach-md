@@ -33,6 +33,7 @@ In Phase 1, all devDependencies (playwright, sharp, pixelmatch, opencc-js) and 3
 ### Rule 3: Never rewrite a file from scratch
 
 In Phase 1:
+
 - `astro.config.mjs` was reduced from 413 lines to 99 (stripped hreflang SEO filter, sitemap i18n, build perf tuning, redirects system)
 - `scripts/core/sync.sh` was rewritten from scratch (lost frontmatter fixing, image health check, all comments)
 - `.husky/pre-commit` was gutted to 3 lines (stripped credential detection, scope pollution warning, language registry sync, frontmatter auto-fix, article health gate)
@@ -45,6 +46,7 @@ All of these deletions removed universal infrastructure and had to be manually r
 ### Rule 4: Know what IS and ISN'T Taiwan-specific
 
 **Taiwan-specific (correct to change):**
+
 - Content in `knowledge/` (articles about Taiwan)
 - Branding strings: "Taiwan.md" -> "LagunaBeach.md"
 - Domain: `taiwan.md` -> `lagunabeach.md`
@@ -55,6 +57,7 @@ All of these deletions removed universal infrastructure and had to be manually r
 - Hero/page narrative prose about Taiwan's history, geography, politics
 
 **NOT Taiwan-specific (do not remove):**
+
 - Pre-commit quality checks (ALL of them: credential detection, frontmatter validation, narrative scope, language registry sync, hardcoded lang detection)
 - Build scripts in scripts/core/ and scripts/tools/ (article-health, dashboard, contributors, OG images, embeddings, map markers, changelog)
 - All devDependencies (playwright, sharp, opencc-js, pixelmatch, husky, lint-staged, npm-run-all2)
@@ -71,6 +74,7 @@ All of these deletions removed universal infrastructure and had to be manually r
 For each upstream file, ask: **"What is the MINIMUM edit to make this work for LagunaBeach.md?"**
 
 The answer is almost always one of these mechanical substitutions:
+
 1. Swap a CATEGORY_MAPPING/CATEGORIES array (Taiwan's 14 -> LB's 8)
 2. Change `lang === 'zh-TW'` to `lang === 'en'` where it means "is this the default language?"
 3. Change `taiwan.md` domain to `lagunabeach.md`
@@ -83,6 +87,7 @@ The answer is almost always one of these mechanical substitutions:
 ### Rule 6: Verify before calling something "unnecessary"
 
 Before removing ANY code, function, script, or dependency:
+
 1. `grep -r "functionName" src/` - is it referenced somewhere?
 2. Does the file it references still exist in the repo?
 3. Would removing it break the build, quality gates, or developer workflow?
@@ -95,6 +100,7 @@ If ANY answer is yes: keep it.
 ## Core Architecture
 
 ### Shadow Translation Pattern
+
 - Upstream Chinese files stay UNTOUCHED in the repo
 - Create `.en.md` alongside for English versions when needed
 - `.gitattributes` protects `CLAUDE.md` and `knowledge/**` with `merge=ours`
@@ -103,6 +109,7 @@ If ANY answer is yes: keep it.
 - Shadow `.en.md` files never conflict (upstream never creates them)
 
 ### Upstream Remote
+
 ```bash
 git remote -v
 # origin    git@github.com:wilsonkichoi/lagunabeach-md.git
@@ -110,12 +117,15 @@ git remote -v
 ```
 
 ### Default Language
+
 - English is default (no URL prefix, content at `knowledge/{Category}/`)
 - zh-TW is secondary (URL prefix `/zh-TW/`, content at `knowledge/zh-TW/{Category}/`)
 - All `lang === 'zh-TW'` checks in upstream code changed to `lang === 'en'` for "is this the default language?" logic
 
 ### Category Structure
+
 8 categories (vs Taiwan's 14):
+
 ```
 knowledge/
 ├── History/
@@ -129,24 +139,25 @@ knowledge/
 ```
 
 Slug mapping (used in URLs and src/content/):
+
 - `history`, `art-galleries`, `nature-marine-life`, `food`, `beaches`, `trails`, `events-festivals`, `neighborhoods`
 
 ### Files Changed from Upstream (CATEGORY_MAPPING locations)
 
 These files contain hardcoded category arrays that MUST match the 8 LB categories:
 
-| File | What was changed |
-|------|-----------------|
-| `scripts/core/sync.sh` | CATEGORIES array, default lang `en`, slugify function |
-| `scripts/core/build-search-index.mjs` | CATEGORY_MAP, legacy dedup fix |
-| `src/utils/categoryConfig.ts` | 8 LB categories with colors/icons (this one is a full rewrite, justified because category definitions ARE content-identity) |
-| `src/utils/category-static-paths.ts` | CATEGORY_MAPPING, default lang check |
-| `src/pages/[category]/[slug].astro` | CATEGORY_MAPPING, lang='en' |
-| `src/templates/article.template.astro` | categoryMapping, lang checks, GitHub edit link |
-| `src/templates/home.template.astro` | categoryFolders, hallGroups, isDefault logic |
-| `src/components/CategoryGrid.astro` | Dynamic from categoryConfig (not hardcoded) |
-| `src/components/Header.astro` | categoryList array, isEnActive logic, langOptions order, dropdown bg color |
-| `src/components/home/HomeEnHalls.astro` | Full rewrite with LB narrative (justified: this is pure content prose) |
+| File                                    | What was changed                                                                                                            |
+| --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| `scripts/core/sync.sh`                  | CATEGORIES array, default lang `en`, slugify function                                                                       |
+| `scripts/core/build-search-index.mjs`   | CATEGORY_MAP, legacy dedup fix                                                                                              |
+| `src/utils/categoryConfig.ts`           | 8 LB categories with colors/icons (this one is a full rewrite, justified because category definitions ARE content-identity) |
+| `src/utils/category-static-paths.ts`    | CATEGORY_MAPPING, default lang check                                                                                        |
+| `src/pages/[category]/[slug].astro`     | CATEGORY_MAPPING, lang='en'                                                                                                 |
+| `src/templates/article.template.astro`  | categoryMapping, lang checks, GitHub edit link                                                                              |
+| `src/templates/home.template.astro`     | categoryFolders, hallGroups, isDefault logic                                                                                |
+| `src/components/CategoryGrid.astro`     | Dynamic from categoryConfig (not hardcoded)                                                                                 |
+| `src/components/Header.astro`           | categoryList array, isEnActive logic, langOptions order, dropdown bg color                                                  |
+| `src/components/home/HomeEnHalls.astro` | Full rewrite with LB narrative (justified: this is pure content prose)                                                      |
 
 ---
 
@@ -163,7 +174,7 @@ These files contain hardcoded category arrays that MUST match the 8 LB categorie
 
 - Forked taiwan-md, renamed to lagunabeach-md
 - Set up upstream remote
-- Created `.gitattributes` (merge=ours for CLAUDE.md and knowledge/**)
+- Created `.gitattributes` (merge=ours for CLAUDE.md and knowledge/\*\*)
 - Cleared Taiwan content from knowledge/, added 8 LB category dirs with 15 articles
 - Updated `src/config/languages.mjs/.ts`: English default + zh-TW enabled
 - Updated `scripts/core/sync.sh`: 8 LB categories, slugify with sed, `en` as default
@@ -190,22 +201,39 @@ These files contain hardcoded category arrays that MUST match the 8 LB categorie
 - All `taiwan.md` domain refs -> `lagunabeach.md`
 - Remaining: i18n strings in secondary pages (contribute, data, about, taiwanShape) still have Taiwan content. These pages render but have stale prose. Fix as those pages are adapted.
 
-### Phase 3: Infrastructure Adaptation ⬜ NOT STARTED
+### Phase 3: Infrastructure Adaptation ✅ COMPLETE
 
-Tasks:
-- [ ] Acquire Laguna Beach TopoJSON (Overpass Turbo: `relation["name"="Laguna Beach"]["boundary"="administrative"]; out geom;`)
-- [ ] Create `src/data/laguna-beach-geocode.json` (landmarks with lat/lng)
-- [ ] Adapt `scripts/core/generate-map-markers.js` for English place names, LB geocode data
-- [ ] Update map page: D3 projection centered on ~33.54N, 117.78W, mode toggles for LB
-- [ ] Knowledge graph: center node "LagunaBeach.md", 8 category nodes
-- [ ] Re-enable prebuild scripts one by one (remove `|| true` as each one works): map markers, dashboard-data, contributors-data
-- [ ] OG images: static fallback for now (no Playwright pipeline needed yet)
-- [ ] RSS + sitemap: verify single-language output with correct URLs
-- [ ] Explore page: verify search works with English content
+- Acquired Laguna Beach + 5 neighboring city boundaries via Overpass Turbo API
+- Created `src/data/laguna-beach-geocode.json` (7 neighborhoods + 16 landmarks with lat/lng)
+- Adapted `scripts/core/generate-map-markers.js` for English place names, neighborhood assignment by coordinates
+- Map page: replaced D3+TopoJSON SVG with Leaflet.js + OpenStreetMap tiles (real map with streets, terrain, coastline)
+- Map sidebar: neighborhood filter (North Laguna, Village, South Laguna, Top of the World, Canyon) + category filter, both update markers AND article cards
+- Knowledge graph: center node "LagunaBeach.md", 8 category nodes, English UI
+- All prebuild scripts pass natively (removed all `|| true` guards from package.json)
+- OG images: existing pipeline works (no-op when no images need generation)
+- RSS feed: 8 LB categories, English language, correct URLs verified
+- Sitemap: working with hreflang, correct lagunabeach.md domain
+- Explore/search: 15 articles indexed, MiniSearch working
+- Post-build smoke test: LB categories, adjusted thresholds
+- Internal links verifier: CDPATH shell fix
+- Favicon: replaced Taiwan island with "LB" blue circle
+- BrandMark: text-only (removed Taiwan island image)
+- Map routes: Taiwan routes removed (Night Markets, National Parks, etc.)
+- Taiwan sidebar content removed (22 Counties Deep Dive panel, county cards)
+- About page: "Why LagunaBeach.md?" (i18n updated)
+- Explore page: "Explore LagunaBeach.md" branding
+
+Remaining known stale content (not blocking, documented for Phase 5+):
+
+- `/about` team/timeline/origin story still has Taiwan.md narrative
+- `/data`, `/soundscape`, `/contribute`, `/mcp`, `/resources` pages still have Taiwan content
+- Footer category links still reference Taiwan's 12 categories
+- These pages need full content rewrites with LB-specific material, not mechanical substitution
 
 ### Phase 4: Shadow Translation ⬜ NOT STARTED
 
 Tasks:
+
 - [ ] `docs/editorial/EDITORIAL.en.md` - extract universal writing principles, rewrite with English/LB examples
 - [ ] `BECOME_LAGUNABEACH.md` - AI identity boot file (new file, 200-300 lines)
 - [ ] `docs/semiont/MANIFESTO.en.md` - shadow translate for comprehension
@@ -215,6 +243,7 @@ Tasks:
 ### Phase 5: Path B Preparation (Semiont Scaffolds) ⬜ NOT STARTED
 
 Tasks:
+
 - [ ] Review all 38 `.claude/skills/twmd-*/SKILL.md` - categorize as reusable vs Taiwan-specific
 - [ ] Create 3 LB skills: `lb-write`, `lb-rewrite`, `lb-sync`
 - [ ] Adapt `scripts/tools/article-health.py` for English content

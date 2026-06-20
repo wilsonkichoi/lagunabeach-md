@@ -37,23 +37,14 @@ const {
 
 const Tag = href ? 'a' : 'span';
 const fontSize = `${size}rem`;
-const iconSize = `${size * 1.08}rem`; // icon roughly matches x-height
 ---
 
 <Tag
   href={href}
   aria-label={href ? ariaLabel : undefined}
   class:list={['brand-mark', `brand-mark--${variant}`, extraClass]}
-  style={`--brand-size: ${fontSize}; --brand-icon-size: ${iconSize};`}
+  style={`--brand-size: ${fontSize};`}
 >
-  <img
-    src="/favicon.png"
-    alt=""
-    class="brand-icon"
-    width="24"
-    height="24"
-    aria-hidden="true"
-  />
   <span class="brand-text">LagunaBeach<span class="brand-dot">.md</span> </span>
 </Tag>
 
@@ -68,11 +59,6 @@ const iconSize = `${size * 1.08}rem`; // icon roughly matches x-height
     font-size: var(--brand-size, 1.3rem);
     line-height: 1;
     flex-shrink: 0;
-  }
-  .brand-icon {
-    width: var(--brand-icon-size, 1.4rem);
-    height: var(--brand-icon-size, 1.4rem);
-    vertical-align: middle;
   }
   .brand-dot {
     font-family: 'Noto Sans TC', sans-serif;

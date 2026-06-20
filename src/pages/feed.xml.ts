@@ -2,24 +2,18 @@ import { readdir, readFile } from 'fs/promises';
 import { resolve, join, basename } from 'path';
 import matter from 'gray-matter';
 
-// RSS Feed generation for Taiwan.md
 export async function GET() {
   const siteUrl = 'https://lagunabeach.md';
 
-  // Category mapping to folder names
   const categoryMapping: Record<string, string> = {
     history: 'History',
-    geography: 'Geography',
-    culture: 'Culture',
+    'art-galleries': 'Art & Galleries',
+    'nature-marine-life': 'Nature & Marine Life',
     food: 'Food',
-    art: 'Art',
-    music: 'Music',
-    technology: 'Technology',
-    nature: 'Nature',
-    people: 'People',
-    society: 'Society',
-    economy: 'Economy',
-    lifestyle: 'Lifestyle',
+    beaches: 'Beaches',
+    trails: 'Trails',
+    'events-festivals': 'Events & Festivals',
+    neighborhoods: 'Neighborhoods',
   };
 
   const allArticles: any[] = [];
@@ -78,20 +72,13 @@ export async function GET() {
   const rssXml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Taiwan.md - 台灣知識庫</title>
-    <description>讓全世界完整認識台灣 - 開源台灣知識庫，蒐集關於台灣的政治、經濟、文化、歷史、地理等各方面知識。</description>
+    <title>LagunaBeach.md</title>
+    <description>Open-source knowledge base about Laguna Beach, California</description>
     <link>${siteUrl}</link>
-    <language>zh-TW</language>
+    <language>en</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
     <pubDate>${new Date().toUTCString()}</pubDate>
-    <managingEditor>taiwanmd@monoame.com (Taiwan.md)</managingEditor>
-    <webMaster>taiwanmd@monoame.com (Taiwan.md)</webMaster>
     <atom:link href="${siteUrl}/feed.xml" rel="self" type="application/rss+xml" />
-    <image>
-      <url>${siteUrl}/images/taiwan-social.jpg</url>
-      <title>Taiwan.md - 台灣知識庫</title>
-      <link>${siteUrl}</link>
-    </image>
 ${latestArticles
   .map(
     (article) => `    <item>

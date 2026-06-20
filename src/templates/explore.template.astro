@@ -64,20 +64,16 @@ try {
   contributors = Number(v.contributors) || 61;
   articlesLast30Days = Number(v.articlesLast30Days) || 0;
 } catch {
-  // Fallback — count zh-TW articles directly
+  // Fallback — count articles directly
   const folders = [
     'History',
-    'Geography',
-    'Culture',
+    'Art & Galleries',
+    'Nature & Marine Life',
     'Food',
-    'Art',
-    'Music',
-    'Technology',
-    'Nature',
-    'People',
-    'Society',
-    'Economy',
-    'Lifestyle',
+    'Beaches',
+    'Trails',
+    'Events & Festivals',
+    'Neighborhoods',
   ];
   for (const f of folders) {
     try {

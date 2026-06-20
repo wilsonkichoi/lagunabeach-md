@@ -1,17 +1,17 @@
 export const mapUI = {
   en: {
     // Meta
-    'map.meta.title': 'Taiwan Map',
-    'map.meta.description': 'Explore Taiwan.md through a map-first lens',
+    'map.meta.title': 'Laguna Beach Map',
+    'map.meta.description': 'Explore LagunaBeach.md through a map-first lens',
 
     // Hero Section
     'map.hero.kicker': 'Map View',
-    'map.hero.title': 'Taiwan Map',
+    'map.hero.title': 'Laguna Beach Map',
     'map.hero.subtitle':
-      "Explore Taiwan's culture, cuisine, nature, and history through an interactive map.",
+      "Explore Laguna Beach's beaches, trails, art, and history through an interactive map.",
 
     // Controls - Region Filter
-    'map.controls.region.title': 'Region Filter',
+    'map.controls.region.title': 'Neighborhood Filter',
     'map.controls.region.all': 'All',
     'map.controls.region.north': 'North',
     'map.controls.region.central': 'Central',
@@ -37,7 +37,7 @@ export const mapUI = {
     'map.route.normal-mode': 'Normal Mode',
 
     // Sidebar - Default
-    'map.sidebar.default.title': '📍 Explore Taiwan Articles',
+    'map.sidebar.default.title': '📍 Explore Articles',
     'map.sidebar.default.hint':
       'Click on counties or markers on the map to explore articles',
 
@@ -806,7 +806,7 @@ export const mapUI = {
     'map.route.normal-mode': '通常モード',
 
     // Sidebar - Default
-    'map.sidebar.default.title': '📍 台湾の記事を探索',
+    'map.sidebar.default.title': '📍 記事を探索',
     'map.sidebar.default.hint':
       'マップ上の県市やマーカーをクリックして記事を探索しよう',
 
@@ -1506,7 +1506,7 @@ export const mapUI = {
     'map.route.normal-mode': '일반 모드',
 
     // Sidebar - Default
-    'map.sidebar.default.title': '📍 대만 기사 탐색',
+    'map.sidebar.default.title': '📍 기사 탐색',
     'map.sidebar.default.hint':
       '지도에서 시/군이나 마커를 클릭하여 기사를 탐색하세요',
 
@@ -2214,7 +2214,7 @@ export const mapUI = {
     'map.route.normal-mode': '一般模式',
 
     // Sidebar - Default
-    'map.sidebar.default.title': '📍 探索台灣文章',
+    'map.sidebar.default.title': '📍 探索文章',
     'map.sidebar.default.hint': '點擊地圖上的縣市或標記來探索文章',
 
     // Sidebar - County
@@ -2879,7 +2879,7 @@ export const mapUI = {
     'map.controls.category.geography': '🗺️ Géographie',
     'map.route.title': '🗺️ Parcours Sélectionnés',
     'map.route.normal-mode': 'Mode Normal',
-    'map.sidebar.default.title': '📍 Explorer les Articles sur Taïwan',
+    'map.sidebar.default.title': '📍 Explorer les Articles',
     'map.sidebar.default.hint':
       'Cliquez sur les comtés ou les marqueurs de la carte pour explorer les articles',
     'map.sidebar.county.clear': '✕ Effacer la Sélection',
@@ -3616,7 +3616,7 @@ export const mapUI = {
     'map.controls.category.geography': '🗺️ Geografía',
     'map.route.title': '🗺️ Rutas Curadas',
     'map.route.normal-mode': 'Modo Normal',
-    'map.sidebar.default.title': '📍 Explora Artículos de Taiwán',
+    'map.sidebar.default.title': '📍 Explora Artículos',
     'map.sidebar.default.hint':
       'Haz clic en los condados o marcadores del mapa para explorar artículos',
     'map.sidebar.county.clear': '✕ Limpiar Selección',

@@ -1,26 +1,26 @@
 export const aboutUI = {
   en: {
     // Meta
-    'about.meta.title': 'About Taiwan.md',
+    'about.meta.title': 'About LagunaBeach.md',
     'about.meta.description':
       'The origin story of Taiwan.md, founder introduction, and contact information',
 
     // Section 1: Naming
-    'about.naming.title': 'Why Taiwan.md?',
+    'about.naming.title': 'Why LagunaBeach.md?',
     'about.naming.subtitle':
-      'A perfect coincidence from technical format to cultural symbol',
+      'An open knowledge base in the most AI-friendly format',
     'about.naming.tech.icon': '📝',
     'about.naming.tech.title': 'Technical Level',
     'about.naming.tech.desc.html':
-      ', the most universal document format in the programming world. Using the most AI-friendly format to let the world know Taiwan.',
+      ', the most universal document format in the programming world. Using the most AI-friendly format to share Laguna Beach with the world.',
     'about.naming.symbol.icon': '🌍',
     'about.naming.symbol.title': 'Symbolic Level',
     'about.naming.symbol.desc.html':
-      " happens to be Moldova's country-code top-level domain. Taiwan + Markdown = connecting the world through open-source spirit.",
+      " happens to be Moldova's country-code top-level domain. Laguna Beach + Markdown = connecting community knowledge through open source.",
     'about.naming.lucky.icon': '✨',
-    'about.naming.lucky.title': 'A Lucky Coincidence',
+    'about.naming.lucky.title': 'Built on Taiwan.md',
     'about.naming.lucky.desc':
-      'Surprisingly, no one had claimed the taiwan.md domain yet. Perhaps the universe was telling us it was time to make this happen.',
+      'Forked from the taiwan-md open-source knowledge base framework, adapted for Laguna Beach, California.',
 
     // Stats
     'about.stats.pages.number': '9+',

@@ -3,15 +3,7 @@
   "total_en": 0,
   "coverage_en": 0.0,
   "categories": {
-    "Events & Festivals": {
-      "zh": 2,
-      "en": 0
-    },
-    "Food": {
-      "zh": 1,
-      "en": 0
-    },
-    "Art & Galleries": {
+    "Nature & Marine Life": {
       "zh": 2,
       "en": 0
     },
@@ -19,11 +11,23 @@
       "zh": 2,
       "en": 0
     },
+    "root": {
+      "zh": 1,
+      "en": 0
+    },
+    "Events & Festivals": {
+      "zh": 2,
+      "en": 0
+    },
+    "Art & Galleries": {
+      "zh": 2,
+      "en": 0
+    },
     "Trails": {
       "zh": 2,
       "en": 0
     },
-    "Nature & Marine Life": {
+    "Beaches": {
       "zh": 2,
       "en": 0
     },
@@ -31,12 +35,8 @@
       "zh": 2,
       "en": 0
     },
-    "root": {
+    "Food": {
       "zh": 1,
-      "en": 0
-    },
-    "Beaches": {
-      "zh": 2,
       "en": 0
     }
   },

@@ -14,19 +14,21 @@
 export const exploreUI = {
   en: {
     // Meta
-    'explore.meta.title': 'Explore Taiwan.md — Browse the open knowledge base',
+    'explore.meta.title':
+      'Explore LagunaBeach.md — Browse the open knowledge base',
     'explore.meta.description':
-      'Browse 685+ curated articles about Taiwan: history, geography, culture, food, art, music, technology, nature, people, society, economy, and lifestyle. Search, discover, and explore.',
+      'Browse 685+ curated articles about Laguna Beach: history, art, nature, food, beaches, trails, events, and neighborhoods. Search, discover, and explore.',
 
     // Hero
     'explore.hero.eyebrow': 'KNOWLEDGE HUB',
-    'explore.hero.title': 'Explore Taiwan.md',
+    'explore.hero.title': 'Explore LagunaBeach.md',
     'explore.hero.subtitle':
-      'Curated long-form narratives about Taiwan — search, discover, or browse by category.',
+      'Curated long-form narratives about Laguna Beach — search, discover, or browse by category.',
 
     // Search section
     'explore.search.heading': 'Search the database',
-    'explore.search.placeholder': 'Search Taiwan — people, places, events…',
+    'explore.search.placeholder':
+      'Search Laguna Beach — people, places, events…',
     'explore.search.button': 'Search',
     'explore.search.random': 'Random discovery',
     'explore.search.randomSubtitle':
@@ -78,7 +80,7 @@ export const exploreUI = {
     // CTA footer
     'explore.cta.heading': "Can't find what you're looking for?",
     'explore.cta.body':
-      'Taiwan.md is open-source — anyone can contribute an article, fix a fact, or translate a page.',
+      'LagunaBeach.md is open-source — anyone can contribute an article, fix a fact, or translate a page.',
     'explore.cta.contribute': 'Contribute an article',
     'explore.cta.github': 'View on GitHub',
   },

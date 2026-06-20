@@ -1,0 +1,121 @@
+{
+  "neighborhoods": {
+    "Downtown": {
+      "lat": 33.5427,
+      "lng": -117.7854,
+      "area": "central"
+    },
+    "North Laguna": {
+      "lat": 33.556,
+      "lng": -117.79,
+      "area": "north"
+    },
+    "South Laguna": {
+      "lat": 33.51,
+      "lng": -117.76,
+      "area": "south"
+    },
+    "Laguna Canyon": {
+      "lat": 33.55,
+      "lng": -117.765,
+      "area": "inland"
+    },
+    "Top of the World": {
+      "lat": 33.558,
+      "lng": -117.77,
+      "area": "inland"
+    },
+    "Temple Hills": {
+      "lat": 33.535,
+      "lng": -117.775,
+      "area": "central"
+    },
+    "Village": {
+      "lat": 33.542,
+      "lng": -117.786,
+      "area": "central"
+    }
+  },
+  "landmarks": {
+    "Main Beach": {
+      "lat": 33.5425,
+      "lng": -117.7873,
+      "type": "beach"
+    },
+    "Thousand Steps Beach": {
+      "lat": 33.508,
+      "lng": -117.757,
+      "type": "beach"
+    },
+    "Victoria Beach": {
+      "lat": 33.522,
+      "lng": -117.768,
+      "type": "beach"
+    },
+    "Crystal Cove": {
+      "lat": 33.57,
+      "lng": -117.81,
+      "type": "beach"
+    },
+    "Crescent Bay": {
+      "lat": 33.553,
+      "lng": -117.795,
+      "type": "beach"
+    },
+    "Laguna Art Museum": {
+      "lat": 33.543,
+      "lng": -117.786,
+      "type": "cultural"
+    },
+    "Festival of Arts": {
+      "lat": 33.5395,
+      "lng": -117.78,
+      "type": "cultural"
+    },
+    "Pageant of the Masters": {
+      "lat": 33.5395,
+      "lng": -117.78,
+      "type": "cultural"
+    },
+    "Heisler Park": {
+      "lat": 33.548,
+      "lng": -117.791,
+      "type": "park"
+    },
+    "Laguna Coast Wilderness Park": {
+      "lat": 33.555,
+      "lng": -117.755,
+      "type": "nature"
+    },
+    "Alta Laguna Park": {
+      "lat": 33.56,
+      "lng": -117.77,
+      "type": "park"
+    },
+    "Aliso Beach": {
+      "lat": 33.515,
+      "lng": -117.762,
+      "type": "beach"
+    },
+    "Hotel Laguna": {
+      "lat": 33.5425,
+      "lng": -117.787,
+      "type": "historic"
+    },
+    "Montage Laguna Beach": {
+      "lat": 33.516,
+      "lng": -117.761,
+      "type": "landmark"
+    },
+    "Pacific Marine Mammal Center": {
+      "lat": 33.547,
+      "lng": -117.765,
+      "type": "nature"
+    },
+    "Treasure Island Park": {
+      "lat": 33.517,
+      "lng": -117.762,
+      "type": "park"
+    }
+  }
+}

@@ -1,7 +1,84 @@
 {
-  "generatedAt": "2026-06-20T09:54:14.229Z",
+  "generatedAt": "2026-06-20T12:53:42.757Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "b2a74377c7708d6e1808f9514dcc2635fd2acc84",
+      "date": "2026-06-20T03:50:03-07:00",
+      "author": "Wilson Choi",
+      "message": "docs: restructure MIGRATION.md - rules at top, impossible to skip",
+      "articles": []
+    },
+    {
+      "hash": "8c94fc6b336c91dc288abaee10d143787b9c6a66",
+      "date": "2026-06-20T03:42:06-07:00",
+      "author": "Wilson Choi",
+      "message": "docs: add MIGRATION.md with phases, rules, and anti-patterns for future sessions",
+      "articles": []
+    },
+    {
+      "hash": "4ead017ccbcaa71b6040456509cf6dce68765a81",
+      "date": "2026-06-20T03:32:56-07:00",
+      "author": "Wilson Choi",
+      "message": "fix: dropdown menu background from dark green to ocean dark blue",
+      "articles": []
+    },
+    {
+      "hash": "6259b9c7c2004de9b1d69f7d0a47873e313438b8",
+      "date": "2026-06-20T03:30:19-07:00",
+      "author": "Wilson Choi",
+      "message": "feat: Phase 2 complete - full localization pass",
+      "articles": []
+    },
+    {
+      "hash": "90aa513fc1945083cbb842f890207e3db20ee151",
+      "date": "2026-06-20T03:20:35-07:00",
+      "author": "Wilson Choi",
+      "message": "feat: Phase 2 - swap color palette from Taiwan green to ocean blue",
+      "articles": []
+    },
+    {
+      "hash": "986ad74bb50d2528b427b21a1fbf1afb402bf1ab",
+      "date": "2026-06-20T03:17:53-07:00",
+      "author": "Wilson Choi",
+      "message": "fix: language switcher shows English as active for default (unprefixed) URLs",
+      "articles": []
+    },
+    {
+      "hash": "18c3367cc3f082a5a2903645055bb6be749acd70",
+      "date": "2026-06-20T03:13:29-07:00",
+      "author": "Wilson Choi",
+      "message": "feat: Phase 2 cont. - home page localization (hero, stats, meta, links)",
+      "articles": []
+    },
+    {
+      "hash": "3e1368d002b5b1837ece840e1083ed3a97df89d3",
+      "date": "2026-06-20T03:09:55-07:00",
+      "author": "Wilson Choi",
+      "message": "feat: Phase 2 localization - LagunaBeach.md branding and typography",
+      "articles": []
+    },
+    {
+      "hash": "9c71d07955f64dc278825d578e695ad3b7bb02e1",
+      "date": "2026-06-20T03:03:10-07:00",
+      "author": "Wilson Choi",
+      "message": "fix: restore astro.config.mjs and sync.sh to near-upstream state",
+      "articles": []
+    },
+    {
+      "hash": "76deebd74c5c2529b5dc7fed8aba0e4ec4aae556",
+      "date": "2026-06-20T02:56:26-07:00",
+      "author": "Wilson Choi",
+      "message": "fix: use bunx directly (bun now installed)",
+      "articles": []
+    },
+    {
+      "hash": "8e1f4385d4863c14fc98af830519be1cf6523c7a",
+      "date": "2026-06-20T02:55:02-07:00",
+      "author": "Wilson Choi",
+      "message": "fix: restore full upstream scripts and pre-commit hook",
+      "articles": []
+    },
     {
       "hash": "0456a44be48e71792452a44ad6654835b2628a2a",
       "date": "2026-06-20T02:40:05-07:00",
