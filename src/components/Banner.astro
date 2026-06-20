@@ -36,9 +36,11 @@ const { enLink, hasEn } = await getLangSwitchPath(currentPath);
 <script is:inline>
   (function () {
     if (localStorage.getItem('lang-banner-dismissed')) return;
-    var lang = navigator.language || navigator.userLanguage || '';
-    if (lang.startsWith('zh')) return;
-    if (window.location.pathname.startsWith('/en')) return;
+    // Show banner only on non-default-language paths (e.g. /zh-TW/*)
+    // Default language (English) has no prefix, so root / never shows banner
+    var path = window.location.pathname;
+    var isNonDefault = path.startsWith('/zh-TW') || path.startsWith('/ja') || path.startsWith('/ko') || path.startsWith('/fr') || path.startsWith('/es');
+    if (!isNonDefault) return;
     var b = document.getElementById('lang-banner');
     if (b) b.style.display = 'flex';
   })();

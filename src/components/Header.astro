@@ -49,13 +49,23 @@ type LangOption = {
   isActive: boolean;
 };
 const isLangActive = (prefix: string) => currentPath.startsWith(`/${prefix}`);
-const isZhActive =
-  !isLangActive('en') &&
+// English is default (no prefix), so it's active when no other lang prefix found
+const isEnActive =
+  !isLangActive('zh-TW') &&
   !isLangActive('ja') &&
   !isLangActive('ko') &&
   !isLangActive('fr') &&
   !isLangActive('es');
+const isZhActive = isLangActive('zh-TW');
 const langOptions: LangOption[] = [
+  {
+    code: 'en',
+    nativeName: 'English',
+    short: 'EN',
+    link: enLink,
+    has: hasEn,
+    isActive: isEnActive,
+  },
   {
     code: 'zh-TW',
     nativeName: '中文',
@@ -63,14 +73,6 @@ const langOptions: LangOption[] = [
     link: zhLink,
     has: hasZh,
     isActive: isZhActive,
-  },
-  {
-    code: 'en',
-    nativeName: 'English',
-    short: 'EN',
-    link: enLink,
-    has: hasEn,
-    isActive: isLangActive('en'),
   },
   {
     code: 'ja',
