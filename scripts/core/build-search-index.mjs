@@ -168,7 +168,8 @@ for (const [lang, docs] of docsByLang) {
   );
 }
 
-// Legacy combined index (back-compat: old clients fetch this URL)
+// Legacy combined default+en（back-compat：舊 client / 快取 HTML 仍 fetch 這個 URL）
+// Use Set to avoid duplicate IDs when DEFAULT_LANGUAGE.code === 'en'
 const legacyLangs = new Set([DEFAULT_LANGUAGE.code, 'en']);
 const legacyDocs = [...legacyLangs].flatMap(
   (lang) => docsByLang.get(lang) || [],
