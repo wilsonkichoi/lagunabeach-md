@@ -158,7 +158,7 @@ try {
               <li>{t('contribute.paths.medium.github')}</li>
             </ul>
             <a
-              href={`mailto:taiwanmd@monoame.com?subject=Taiwan.md ${lang === 'en' ? 'Content Contribution' : '內容貢獻'}`}
+              href={`mailto:hello@lagunabeach.md?subject=LagunaBeach.md ${lang === 'en' ? 'Content Contribution' : '內容貢獻'}`}
               class="path-btn secondary"
               >{t('contribute.paths.medium.button')}</a
             >
@@ -690,8 +690,8 @@ try {
       <p class="support-desc">
         {
           lang === 'en'
-            ? 'If our writing helps you understand Taiwan a little better, consider backing the coral reef. Donations go to AI compute, translation, and community events — plus domain fees and the small miscellaneous IT costs that keep this alive (the servers mostly live on GitHub, so that line item stays low). Every amount helps this digital sovereignty project breathe another day.'
-            : '如果這裡的文字讓你對台灣多理解了一點，歡迎回頭灌溉這座珊瑚礁。贊助款項會用於購買 AI 算力、翻譯與社群活動，還有網域費用以及各種零星的資訊服務支出（伺服器大部分都架在 GitHub 上，這塊成本壓得很低）——每一份支持，都讓這座數位主權計畫多呼吸一天。'
+            ? 'If our writing helps you discover Laguna Beach a little better, consider supporting the project. Donations go to hosting, AI compute, and community events. Every amount helps this open knowledge project breathe another day.'
+            : '如果這裡的文字讓你對拉古納海灘多了解了一點，歡迎支持這個專案。贊助款項用於主機、AI 算力與社群活動。每一份支持，都讓這個開源知識計畫多呼吸一天。'
         }
       </p>
 
@@ -706,13 +706,7 @@ try {
                 received from <strong>{supporterStats.supporter_count}</strong>{' '}
                 supporter
                 {supporterStats.supporter_count > 1 ? 's' : ''} ·{' '}
-                <a
-                  href={
-                    lang === 'en' ? '/en/about#sponsors' : '/about#sponsors'
-                  }
-                >
-                  see who →
-                </a>
+                <a href={'/about#sponsors'}>see who →</a>
               </>
             ) : (
               <>
@@ -742,7 +736,7 @@ try {
             }
           </p>
           <a
-            href="https://portaly.cc/taiwanmd/support"
+            href="https://github.com/sponsors/wilsonkichoi"
             target="_blank"
             rel="noopener noreferrer"
             class="support-cta"
@@ -764,7 +758,7 @@ try {
             }
           </p>
           <a
-            href="https://portaly.cc/taiwanmd/support"
+            href="https://github.com/sponsors/wilsonkichoi"
             target="_blank"
             rel="noopener noreferrer"
             class="support-cta"
@@ -817,19 +811,19 @@ try {
         {
           lang === 'en'
             ? '🖥️ CLI — Explore from Your Terminal'
-            : '🖥️ CLI — 從終端機探索台灣'
+            : '🖥️ CLI — 從終端機探索拉古納海灘'
         }
       </h2>
       <p class="cli-desc">
         {
           lang === 'en'
-            ? 'Search, read, audit, and explore 900+ Taiwan articles without leaving your terminal. Built for AI agents, contributors, and maintainers. Now with Claude Desktop / Cursor MCP integration.'
-            : '不離開終端機，搜尋、閱讀、審計、探索 900+ 篇台灣知識文章。為 AI agents、貢獻者、維護者設計。v0.6 新增 Claude Desktop / Cursor MCP 整合。'
+            ? 'Search, read, audit, and explore 15+ Laguna Beach articles without leaving your terminal. Built for AI agents, contributors, and maintainers. Now with Claude Desktop / Cursor MCP integration.'
+            : '不離開終端機，搜尋、閱讀、審計、探索 15+ 篇拉古納海灘知識文章。為 AI agents、貢獻者、維護者設計。v0.6 新增 Claude Desktop / Cursor MCP 整合。'
         }
       </p>
 
       <div class="cli-install">
-        <code>npx taiwanmd@latest search 珍珠奶茶</code>
+        <code>npx lagunabeachmd search "tide pools"</code>
       </div>
 
       <div class="cli-grid">
@@ -837,9 +831,9 @@ try {
           <div class="cli-card-icon">🔍</div>
           <h3>{lang === 'en' ? 'Search & Read' : '搜尋 & 閱讀'}</h3>
           <div class="cli-commands">
-            <code>taiwanmd search 珍珠奶茶</code>
-            <code>taiwanmd read 珍珠奶茶 --en</code>
-            <code>taiwanmd explore</code>
+            <code>lagunabeachmd search "tide pools"</code>
+            <code>lagunabeachmd read "tide pools"</code>
+            <code>lagunabeachmd explore</code>
           </div>
           <p>
             {
@@ -854,15 +848,15 @@ try {
           <div class="cli-card-icon">🎮</div>
           <h3>{lang === 'en' ? 'Discover & Play' : '探索 & 玩'}</h3>
           <div class="cli-commands">
-            <code>taiwanmd today</code>
-            <code>taiwanmd quiz</code>
-            <code>taiwanmd random</code>
+            <code>lagunabeachmd today</code>
+            <code>lagunabeachmd quiz</code>
+            <code>lagunabeachmd random</code>
           </div>
           <p>
             {
               lang === 'en'
-                ? 'Daily picks, 5-question quiz, random discovery. Learn Taiwan every day.'
-                : '每日精選、5 題問答、隨機探索。每天認識台灣一點。'
+                ? 'Daily picks, 5-question quiz, random discovery. Discover Laguna Beach every day.'
+                : '每日精選、5 題問答、隨機探索。每天認識拉古納海灘一點。'
             }
           </p>
         </div>
@@ -871,9 +865,9 @@ try {
           <div class="cli-card-icon">🤖</div>
           <h3>{lang === 'en' ? 'AI-Native' : 'AI 原生'}</h3>
           <div class="cli-commands">
-            <code>taiwanmd rag "半導體" | llm</code>
-            <code>taiwanmd cite "珍珠奶茶"</code>
-            <code>taiwanmd mcp install</code>
+            <code>lagunabeachmd rag "pageant" | llm</code>
+            <code>lagunabeachmd cite "tide pools"</code>
+            <code>lagunabeachmd mcp install</code>
           </div>
           <p>
             {
@@ -888,9 +882,9 @@ try {
           <div class="cli-card-icon">✏️</div>
           <h3>{lang === 'en' ? 'Contribute & Audit' : '貢獻 & 審計'}</h3>
           <div class="cli-commands">
-            <code>taiwanmd contribute 新主題</code>
-            <code>taiwanmd audit 珍珠奶茶</code>
-            <code>taiwanmd inbox</code>
+            <code>lagunabeachmd contribute "new topic"</code>
+            <code>lagunabeachmd audit "tide pools"</code>
+            <code>lagunabeachmd inbox</code>
           </div>
           <p>
             {
@@ -905,9 +899,9 @@ try {
           <div class="cli-card-icon">🧬</div>
           <h3>{lang === 'en' ? 'Organism Introspection' : '生命體內觀'}</h3>
           <div class="cli-commands">
-            <code>taiwanmd organs</code>
-            <code>taiwanmd sense</code>
-            <code>taiwanmd supporters</code>
+            <code>lagunabeachmd organs</code>
+            <code>lagunabeachmd sense</code>
+            <code>lagunabeachmd supporters</code>
           </div>
           <p>
             {
@@ -921,7 +915,7 @@ try {
 
       <div class="cli-footer">
         <a
-          href="https://www.npmjs.com/package/taiwanmd"
+          href="https://github.com/wilsonkichoi/lagunabeach-md"
           target="_blank"
           class="cli-link"
         >
@@ -964,7 +958,7 @@ try {
 >
   const copyTextMap = {
     'translate-prompt':
-      '讀取 https://raw.githubusercontent.com/wilsonkichoi/lagunabeach-md/main/docs/prompts/TRANSLATE_PROMPT.md 的完整內容，然後按照裡面的指示引導我翻譯一篇 Taiwan.md 文章。',
+      '讀取 https://raw.githubusercontent.com/wilsonkichoi/lagunabeach-md/main/docs/prompts/TRANSLATE_PROMPT.md 的完整內容，然後按照裡面的指示引導我翻譯一篇 LagunaBeach.md 文章。',
     'one-line-command':
       'bash <(curl -s https://raw.githubusercontent.com/wilsonkichoi/lagunabeach-md/main/scripts/tools/translate.sh)',
   };

@@ -3,12 +3,12 @@ export const changelogUI = {
     // Meta
     'changelog.meta.title': 'Update History',
     'changelog.meta.description':
-      'Real-time update history of Taiwan.md — track every content addition and site improvement.',
+      'Real-time update history of LagunaBeach.md — track every content addition and site improvement.',
 
     // Header
     'changelog.header.title': 'Update History',
     'changelog.header.subtitle':
-      'Track every content addition and site improvement on Taiwan.md',
+      'Track every content addition and site improvement on LagunaBeach.md',
     'changelog.header.meta.updates': 'updates',
     'changelog.header.meta.synced': 'Auto-synced from',
 
@@ -28,12 +28,12 @@ export const changelogUI = {
     // Meta
     'changelog.meta.title': 'サイト更新履歴',
     'changelog.meta.description':
-      'Taiwan.md のリアルタイム更新履歴、すべてのコンテンツ追加とサイト改善を追跡します。',
+      'LagunaBeach.md のリアルタイム更新履歴、すべてのコンテンツ追加とサイト改善を追跡します。',
 
     // Header
     'changelog.header.title': 'サイト更新履歴',
     'changelog.header.subtitle':
-      'Taiwan.md のすべてのコンテンツ追加とサイト改善を追跡',
+      'LagunaBeach.md のすべてのコンテンツ追加とサイト改善を追跡',
     'changelog.header.meta.updates': '件の更新履歴',
     'changelog.header.meta.synced': '自動同期元：',
 
@@ -53,12 +53,12 @@ export const changelogUI = {
     // Meta
     'changelog.meta.title': '사이트 업데이트 기록',
     'changelog.meta.description':
-      'Taiwan.md의 실시간 업데이트 기록, 모든 콘텐츠 추가와 사이트 개선 사항을 추적합니다.',
+      'LagunaBeach.md의 실시간 업데이트 기록, 모든 콘텐츠 추가와 사이트 개선 사항을 추적합니다.',
 
     // Header
     'changelog.header.title': '사이트 업데이트 기록',
     'changelog.header.subtitle':
-      'Taiwan.md의 모든 콘텐츠 추가와 사이트 개선 사항을 추적합니다',
+      'LagunaBeach.md의 모든 콘텐츠 추가와 사이트 개선 사항을 추적합니다',
     'changelog.header.meta.updates': '건 업데이트 기록',
     'changelog.header.meta.synced': '자동 동기화 출처:',
 
@@ -78,11 +78,12 @@ export const changelogUI = {
     // Meta
     'changelog.meta.title': '網站更新紀錄',
     'changelog.meta.description':
-      'Taiwan.md 的即時更新歷史，追蹤每一次內容新增與網站改進。',
+      'LagunaBeach.md 的即時更新歷史，追蹤每一次內容新增與網站改進。',
 
     // Header
     'changelog.header.title': '網站更新紀錄',
-    'changelog.header.subtitle': '追蹤 Taiwan.md 的每一次內容新增與網站改進',
+    'changelog.header.subtitle':
+      '追蹤 LagunaBeach.md 的每一次內容新增與網站改進',
     'changelog.header.meta.updates': '筆更新紀錄',
     'changelog.header.meta.synced': '自動同步自',
 
@@ -101,10 +102,10 @@ export const changelogUI = {
   es: {
     'changelog.meta.title': 'Historial de actualizaciones',
     'changelog.meta.description':
-      'Historial de actualizaciones en tiempo real de Taiwan.md — sigue cada adición de contenido y mejora del sitio.',
+      'Historial de actualizaciones en tiempo real de LagunaBeach.md — sigue cada adición de contenido y mejora del sitio.',
     'changelog.header.title': 'Historial de actualizaciones',
     'changelog.header.subtitle':
-      'Sigue cada adición de contenido y mejora del sitio en Taiwan.md',
+      'Sigue cada adición de contenido y mejora del sitio en LagunaBeach.md',
     'changelog.header.meta.updates': 'actualizaciones',
     'changelog.header.meta.synced': 'Sincronizado automáticamente desde',
     'changelog.day.updates': 'actualizaciones',
@@ -117,10 +118,10 @@ export const changelogUI = {
   fr: {
     'changelog.meta.title': 'Historique des mises à jour',
     'changelog.meta.description':
-      'Historique des mises à jour en temps réel de Taiwan.md — suivez chaque ajout de contenu et amélioration du site.',
+      'Historique des mises à jour en temps réel de LagunaBeach.md — suivez chaque ajout de contenu et amélioration du site.',
     'changelog.header.title': 'Historique des mises à jour',
     'changelog.header.subtitle':
-      'Suivez chaque ajout de contenu et amélioration du site sur Taiwan.md',
+      'Suivez chaque ajout de contenu et amélioration du site sur LagunaBeach.md',
     'changelog.header.meta.updates': 'mises à jour',
     'changelog.header.meta.synced': 'Synchronisé automatiquement depuis',
     'changelog.day.updates': 'mises à jour',

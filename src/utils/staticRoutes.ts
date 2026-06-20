@@ -146,7 +146,7 @@ export function resolveStaticHref(
   lang: Lang | 'zh-TW',
   basePath: string,
 ): string {
-  if (lang === 'zh-TW') return basePath;
+  if (lang === 'en') return basePath;
   if (staticPageExists(lang, basePath)) {
     return basePath === '/' ? `/${lang}` : `/${lang}${basePath}`;
   }

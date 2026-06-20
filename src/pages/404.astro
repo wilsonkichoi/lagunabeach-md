@@ -31,21 +31,22 @@ try {
 // i18n strings embedded for client-side use
 const i18n: Record<string, Record<string, string>> = {
   'zh-TW': {
-    'generic.title': '這個頁面不存在',
-    'generic.desc': '可能是連結過期、文章被移動，或是網址打錯了。',
-    'untranslated.title': '這篇文章尚未翻譯',
+    'generic.title': 'Page Not Found',
+    'generic.desc':
+      'The link may have expired, the article may have been moved, or the URL was mistyped.',
+    'untranslated.title': 'This Article Has Not Been Translated Yet',
     'untranslated.desc.prefix': '「',
     'untranslated.desc.suffix': '」尚未有中文版本。',
-    'untranslated.view': '查看其他語言版本：',
-    'untranslated.contribute': '想幫忙翻譯？',
-    back: '← 回首頁',
-    'search.placeholder': '搜尋 Taiwan.md…',
+    'untranslated.view': 'View in other languages:',
+    'untranslated.contribute': 'Want to help translate?',
+    back: '← Home',
+    'search.placeholder': 'Search LagunaBeach.md…',
     'search.label': '搜尋',
-    'search.prompt': '試試搜尋你要找的內容：',
-    explore: '或者探索這些主題：',
-    'bug.title': '🐛 這是個 Bug 嗎？',
-    'bug.desc': '如果你覺得這個頁面應該存在，歡迎回報讓我們修復：',
-    'bug.btn': '📋 回報失效連結 (GitHub Issue)',
+    'search.prompt': 'Try searching for what you need:',
+    explore: 'Or explore these topics:',
+    'bug.title': '🐛 Is this a bug?',
+    'bug.desc': 'If you think this page should exist, please report it:',
+    'bug.btn': '📋 Report Broken Link (GitHub Issue)',
     'lang.zh-TW': '中文',
     'lang.en': 'English',
     'lang.ja': '日本語',
@@ -71,7 +72,7 @@ const i18n: Record<string, Record<string, string>> = {
     'untranslated.view': 'View in other languages:',
     'untranslated.contribute': 'Want to help translate?',
     back: '\u2190 Home',
-    'search.placeholder': 'Search Taiwan.md\u2026',
+    'search.placeholder': 'Search LagunaBeach.md\u2026',
     'search.label': 'Search',
     'search.prompt': 'Try searching for what you need:',
     explore: 'Or explore these topics:',
@@ -83,15 +84,15 @@ const i18n: Record<string, Record<string, string>> = {
     'lang.ja': 'Japanese',
     'lang.ko': 'Korean',
     'cat.history': '📜 History',
-    'cat.culture': '🎭 Culture',
+    'cat.art-galleries': '🎨 Art & Galleries',
     'cat.food': '🧋 Food',
-    'cat.art': '🎨 Art',
-    'cat.music': '🎵 Music',
-    'cat.technology': '💻 Technology',
-    'cat.nature': '🌿 Nature',
-    'cat.people': '👥 People',
-    'cat.economy': '📈 Economy',
-    'cat.society': '⚖️ Society',
+    'cat.nature-marine-life': '🌿 Nature & Marine Life',
+    'cat.beaches': '🏖️ Beaches',
+    'cat.trails': '🥾 Trails',
+    'cat.events-festivals': '🎭 Events & Festivals',
+    'cat.neighborhoods': '🏘️ Neighborhoods',
+    // removed
+    // removed
   },
   ja: {
     'generic.title': 'このページは存在しません',
@@ -103,7 +104,7 @@ const i18n: Record<string, Record<string, string>> = {
     'untranslated.view': '他の言語で見る：',
     'untranslated.contribute': '翻訳を手伝ってください！',
     back: '← ホーム',
-    'search.placeholder': 'Taiwan.mdを検索…',
+    'search.placeholder': 'LagunaBeach.mdを検索…',
     'search.label': '検索',
     'search.prompt': 'お探しの内容を検索してみてください：',
     explore: 'またはこれらのトピックを探索：',
@@ -135,7 +136,7 @@ const i18n: Record<string, Record<string, string>> = {
     'untranslated.view': '다른 언어로 보기:',
     'untranslated.contribute': '번역을 도와주시겠습니까?',
     back: '← 홈',
-    'search.placeholder': 'Taiwan.md 검색…',
+    'search.placeholder': 'LagunaBeach.md 검색…',
     'search.label': '검색',
     'search.prompt': '찾고 있는 내용을 검색해 보세요:',
     explore: '또는 이 주제들을 탐색하세요:',
@@ -161,15 +162,13 @@ const i18n: Record<string, Record<string, string>> = {
 
 const categories = [
   'history',
-  'culture',
+  'art-galleries',
+  'nature-marine-life',
   'food',
-  'art',
-  'music',
-  'technology',
-  'nature',
-  'people',
-  'economy',
-  'society',
+  'beaches',
+  'trails',
+  'events-festivals',
+  'neighborhoods',
 ];
 ---
 
@@ -185,7 +184,7 @@ const categories = [
     utility strings directly in the <script> block — no CSS hook
     needed
 -->
-<Layout title="404 | Taiwan.md">
+<Layout title="404 | LagunaBeach.md">
   <main
     class="error-page flex min-h-[80vh] items-center justify-center px-[var(--space-page-x)] py-8 opacity-0 transition-opacity duration-150"
   >
@@ -200,10 +199,11 @@ const categories = [
         class="my-2 font-[var(--font-editorial)] text-[1.5rem] font-bold"
         data-i18n="generic.title"
       >
-        這個頁面不存在
+        Page Not Found
       </p>
       <p class="mb-8 leading-[1.6] text-[#666]" data-i18n="generic.desc">
-        可能是連結過期、文章被移動，或是網址打錯了。
+        The link may have expired, the article may have been moved, or the URL
+        was mistyped.
       </p>
 
       <div
@@ -213,7 +213,7 @@ const categories = [
           href="/"
           class="inline-flex items-center rounded-lg bg-[#1a1a2e] px-5 py-[0.6rem] text-[0.95rem] font-semibold text-white no-underline transition-all duration-200 hover:bg-[#2d2d4a]"
           id="back-link"
-          data-i18n-text="back">← 回首頁</a
+          data-i18n-text="back">← Home</a
         >
         <a
           href="/graph"
@@ -224,7 +224,7 @@ const categories = [
 
       <div class="mb-10">
         <p class="mb-3 text-[0.9rem] text-[#888]" data-i18n="search.prompt">
-          試試搜尋你要找的內容：
+          Try searching for what you need:
         </p>
         <form
           action="https://www.google.com/search"
@@ -232,19 +232,19 @@ const categories = [
           target="_blank"
           class="search-form flex justify-center gap-2 max-[640px]:flex-col max-[640px]:items-center"
         >
-          <input type="hidden" name="q" value="site:taiwan.md" />
+          <input type="hidden" name="q" value="site:lagunabeach.md" />
           <input
             type="text"
             name="q"
-            placeholder="搜尋 Taiwan.md…"
+            placeholder="Search LagunaBeach.md…"
             class="w-[280px] rounded-lg border-2 border-[#e0e0e0] px-4 py-2 text-[0.95rem] outline-none transition-colors duration-200 focus:border-[#1a1a2e] max-[640px]:w-full"
-            aria-label="搜尋 Taiwan.md"
+            aria-label="搜尋 LagunaBeach.md"
             data-i18n-placeholder="search.placeholder"
           />
           <button
             type="submit"
             class="inline-flex cursor-pointer items-center rounded-lg border-none bg-[#1a1a2e] px-5 py-[0.6rem] text-[0.95rem] font-semibold text-white no-underline transition-all duration-200 hover:bg-[#2d2d4a]"
-            data-i18n-text="search.label">搜尋</button
+            data-i18n-text="search.label">Search</button
           >
         </form>
       </div>
@@ -253,10 +253,10 @@ const categories = [
         class="mb-10 rounded-xl border border-[#fcd34d] bg-[#fef3c7] px-6 py-5"
       >
         <p class="m-0 mb-[0.4rem] text-base font-bold" data-i18n="bug.title">
-          🐛 這是個 Bug 嗎？
+          🐛 Is this a bug?
         </p>
         <p class="m-0 mb-4 text-[0.88rem] text-[#666]" data-i18n="bug.desc">
-          如果你覺得這個頁面應該存在，歡迎回報讓我們修復：
+          If you think this page should exist, please report it:
         </p>
         <a
           href={`https://github.com/wilsonkichoi/lagunabeach-md/issues/new?template=broken-link.yml&title=404:+${encodeURIComponent('[填入你看到的網址]')}&labels=bug,broken-link`}
@@ -266,7 +266,7 @@ const categories = [
           id="report-link"
           data-i18n-text="bug.btn"
         >
-          📋 回報失效連結 (GitHub Issue)
+          📋 Report Broken Link (GitHub Issue)
         </a>
       </div>
 
@@ -274,7 +274,7 @@ const categories = [
         class="[&_a:hover]:bg-[#1a1a2e] [&_a:hover]:text-white [&_a]:rounded-[20px] [&_a]:bg-[#f5f5f5] [&_a]:px-3 [&_a]:py-[0.35rem] [&_a]:text-[0.85rem] [&_a]:text-[#333] [&_a]:no-underline [&_a]:transition-all [&_a]:duration-200"
       >
         <p class="mb-3 text-[0.9rem] text-[#888]" data-i18n="explore">
-          或者探索這些主題：
+          Or explore these topics:
         </p>
         <div
           class="category-chips flex flex-wrap justify-center gap-2"
@@ -307,13 +307,13 @@ const categories = [
         id="untranslated-title"
         data-i18n="untranslated.title"
       >
-        這篇文章尚未翻譯
+        This Article Has Not Been Translated Yet
       </p>
       <p class="mb-8 leading-[1.6] text-[#666]" id="untranslated-desc"></p>
 
       <div class="my-6" id="lang-links">
         <p class="mb-3 text-[0.9rem] text-[#888]" data-i18n="untranslated.view">
-          查看其他語言版本：
+          View in other languages:
         </p>
         <div class="flex flex-wrap justify-center gap-2" id="lang-chips"></div>
       </div>
@@ -326,7 +326,7 @@ const categories = [
           id="contribute-text"
           data-i18n="untranslated.contribute"
         >
-          想幫忙翻譯？
+          Want to help translate?
         </p>
         <a
           href="https://github.com/wilsonkichoi/lagunabeach-md/blob/main/CONTRIBUTING.md"
@@ -345,7 +345,7 @@ const categories = [
           href="/"
           class="inline-flex items-center rounded-lg bg-[#f0f0f0] px-5 py-[0.6rem] text-[0.95rem] font-semibold text-[#333] no-underline transition-all duration-200 hover:bg-[#e0e0e0]"
           id="back-link-2"
-          data-i18n-text="back">← 回首頁</a
+          data-i18n-text="back">← Home</a
         >
       </div>
 
@@ -353,7 +353,7 @@ const categories = [
         class="mt-8 [&_a:hover]:bg-[#1a1a2e] [&_a:hover]:text-white [&_a]:rounded-[20px] [&_a]:bg-[#f5f5f5] [&_a]:px-3 [&_a]:py-[0.35rem] [&_a]:text-[0.85rem] [&_a]:text-[#333] [&_a]:no-underline [&_a]:transition-all [&_a]:duration-200"
       >
         <p class="mb-3 text-[0.9rem] text-[#888]" data-i18n="explore">
-          或者探索這些主題：
+          Or explore these topics:
         </p>
         <div class="flex flex-wrap justify-center gap-2" id="category-chips-2">
           {
@@ -381,7 +381,7 @@ const categories = [
     // Detect language from URL
     // 2026-04-25 β7: 用 LANGUAGES_REGISTRY-derive 清單取代 hardcoded ['en','ja','ko']
     // 修復「進 fr/es 404 後切其他語言會路由疊加」的 cascade bug
-    let lang = 'zh-TW';
+    let lang = 'en';
     let pathWithoutLang = pathname;
     for (const prefix of nonDefaultLangCodes) {
       if (pathname.startsWith(`/${prefix}/`) || pathname === `/${prefix}`) {
@@ -392,7 +392,7 @@ const categories = [
     }
 
     const strings = i18n[lang] || i18n['zh-TW'];
-    const langPrefix = lang === 'zh-TW' ? '' : `/${lang}`;
+    const langPrefix = lang === 'en' ? '' : `/${lang}`;
     const homeHref = langPrefix || '/';
 
     // Localize all i18n elements

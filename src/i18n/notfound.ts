@@ -11,7 +11,7 @@ export const notFoundUI = {
     'notfound.untranslated.view': 'View in other languages:',
     'notfound.untranslated.contribute': 'Want to help translate this article?',
     'notfound.back': '\u2190 Home',
-    'notfound.search.placeholder': 'Search Taiwan.md\u2026',
+    'notfound.search.placeholder': 'Search LagunaBeach.md\u2026',
     'notfound.search.label': 'Search',
     'notfound.search.prompt': 'Try searching for what you need:',
     'notfound.explore': 'Or explore these topics:',
@@ -47,7 +47,7 @@ export const notFoundUI = {
       '\u67E5\u770B\u5176\u4ED6\u8A9E\u8A00\u7248\u672C\uFF1A',
     'notfound.untranslated.contribute': '\u60F3\u5E6B\u5FD9\u7FFB\u8B6F\uFF1F',
     'notfound.back': '\u2190 \u56DE\u9996\u9801',
-    'notfound.search.placeholder': '\u641C\u5C0B Taiwan.md\u2026',
+    'notfound.search.placeholder': '\u641C\u5C0B LagunaBeach.md\u2026',
     'notfound.search.label': '\u641C\u5C0B',
     'notfound.search.prompt':
       '\u8A66\u8A66\u641C\u5C0B\u4F60\u8981\u627E\u7684\u5167\u5BB9\uFF1A',
@@ -88,7 +88,7 @@ export const notFoundUI = {
     'notfound.untranslated.contribute':
       '\u7FFB\u8A33\u3092\u624B\u4F1D\u3063\u3066\u304F\u3060\u3055\u3044\uFF01',
     'notfound.back': '\u2190 \u30DB\u30FC\u30E0',
-    'notfound.search.placeholder': 'Taiwan.md\u3092\u691C\u7D22\u2026',
+    'notfound.search.placeholder': 'LagunaBeach.md\u3092\u691C\u7D22\u2026',
     'notfound.search.label': '\u691C\u7D22',
     'notfound.search.prompt':
       '\u304A\u63A2\u3057\u306E\u5185\u5BB9\u3092\u691C\u7D22\u3057\u3066\u307F\u3066\u304F\u3060\u3055\u3044\uFF1A',
@@ -131,7 +131,7 @@ export const notFoundUI = {
     'notfound.untranslated.contribute':
       '\uBC88\uC5ED\uC744 \uB3C4\uC640\uC8FC\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?',
     'notfound.back': '\u2190 \uD648',
-    'notfound.search.placeholder': 'Taiwan.md \uAC80\uC0C9\u2026',
+    'notfound.search.placeholder': 'LagunaBeach.md \uAC80\uC0C9\u2026',
     'notfound.search.label': '\uAC80\uC0C9',
     'notfound.search.prompt':
       '\uCC3E\uACE0 \uC788\uB294 \uB0B4\uC6A9\uC744 \uAC80\uC0C9\uD574 \uBCF4\uC138\uC694:',
@@ -170,7 +170,7 @@ export const notFoundUI = {
     'notfound.untranslated.contribute':
       'Vous souhaitez aider à traduire cet article ?',
     'notfound.back': '← Accueil',
-    'notfound.search.placeholder': 'Rechercher sur Taiwan.md…',
+    'notfound.search.placeholder': 'Rechercher sur LagunaBeach.md…',
     'notfound.search.label': 'Rechercher',
     'notfound.search.prompt':
       'Essayez de rechercher ce dont vous avez besoin :',
@@ -205,7 +205,7 @@ export const notFoundUI = {
     'notfound.untranslated.contribute':
       '¿Quieres ayudar a traducir este artículo?',
     'notfound.back': '← Inicio',
-    'notfound.search.placeholder': 'Buscar en Taiwan.md…',
+    'notfound.search.placeholder': 'Buscar en LagunaBeach.md…',
     'notfound.search.label': 'Buscar',
     'notfound.search.prompt': 'Intenta buscar lo que necesitas:',
     'notfound.explore': 'O explora estos temas:',

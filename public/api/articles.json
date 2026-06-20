@@ -17,6 +17,22 @@
     "path": "History/founding-and-early-history.md"
   },
   {
+    "title": "How an Article Is Born: The Editorial Pipeline Behind LagunaBeach.md",
+    "description": "Every article on LagunaBeach.md runs through a six-stage process: find the tension, research deeply, write the ending first, verify every claim, add visuals, and connect to the knowledge graph. This is how that pipeline works.",
+    "category": "About",
+    "tags": [
+      "about",
+      "meta",
+      "editorial",
+      "writing"
+    ],
+    "url": "https://taiwan.md/about/how-an-article-is-born",
+    "readingTime": 18,
+    "featured": false,
+    "date": "2026-06-20",
+    "path": "About/how-an-article-is-born.md"
+  },
+  {
     "title": "INBOX",
     "description": "",
     "category": "INBOX.md",
@@ -60,6 +76,22 @@
     "featured": false,
     "date": "2026-06-19",
     "path": "Trails/laguna-coast-wilderness-park.md"
+  },
+  {
+    "title": "LagunaBeach.md: How This Project Works",
+    "description": "An open-source knowledge base about Laguna Beach, California. Forked from Taiwan.md, built on Astro, curated by humans and AI together. This is how the system works under the hood.",
+    "category": "About",
+    "tags": [
+      "about",
+      "meta",
+      "open-source",
+      "infrastructure"
+    ],
+    "url": "https://taiwan.md/about/lagunabeach-md",
+    "readingTime": 17,
+    "featured": false,
+    "date": "2026-06-20",
+    "path": "About/lagunabeach-md.md"
   },
   {
     "title": "Pageant of the Masters",
@@ -242,6 +274,22 @@
     "featured": false,
     "date": "2026-06-19",
     "path": "Beaches/victoria-beach.md"
+  },
+  {
+    "title": "Visualization Catalog: How LagunaBeach.md Turns Data Into Pictures",
+    "description": "The visual modules available for LagunaBeach.md articles — from single-stat callouts to comparison tables and timelines. Each module renders as semantic HTML that both humans and AI crawlers can read.",
+    "category": "About",
+    "tags": [
+      "about",
+      "meta",
+      "data-visualization",
+      "editorial"
+    ],
+    "url": "https://taiwan.md/about/visualization-catalog",
+    "readingTime": 9,
+    "featured": false,
+    "date": "2026-06-20",
+    "path": "About/visualization-catalog.md"
   },
   {
     "title": "Whale Watching",

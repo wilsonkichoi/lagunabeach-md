@@ -55,9 +55,9 @@ interface Props {
 const { category, hubContent, articles, topPicks, lang } = Astro.props;
 
 // ── Lang-derived URL prefix (for cross-page links) ────────────────────────────
-// zh-TW: '' (root URL convention)
-// non-zh: '/{lang}' prefix
-const langUrlPrefix = lang === 'zh-TW' ? '' : `/${lang}`;
+// en: '' (default language, root URL convention)
+// non-en: '/{lang}' prefix
+const langUrlPrefix = lang === 'en' ? '' : `/${lang}`;
 
 // Compute unique tags for filter
 const allTagsSet = new Set();

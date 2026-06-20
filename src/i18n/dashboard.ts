@@ -3,11 +3,11 @@ export const dashboardUI = {
     // Meta
     'dashboard.meta.title': 'Dashboard — Digital Organism Monitor',
     'dashboard.meta.description':
-      'Real-time health monitoring of the Taiwan.md digital organism — article registry, organ health, translation coverage, and growth metrics',
+      'Real-time health monitoring of the LagunaBeach.md digital organism — article registry, organ health, translation coverage, and growth metrics',
 
     // Hero
     'dashboard.hero.title': 'Digital Organism Monitor',
-    'dashboard.hero.subtitle': 'The public anatomy room of Taiwan.md',
+    'dashboard.hero.subtitle': 'The public anatomy room of LagunaBeach.md',
     'dashboard.hero.description':
       'Every organ, every cell, every heartbeat — transparent and visible to all.',
 
@@ -106,11 +106,11 @@ export const dashboardUI = {
     'dashboard.meta.title':
       'Dashboard -- デジタル生命体リアルタイムモニタリング',
     'dashboard.meta.description':
-      'Taiwan.md デジタル生命体のリアルタイム健康モニタリング -- 記事総覧、器官の健康状態、翻訳カバレッジ、成長指標',
+      'LagunaBeach.md デジタル生命体のリアルタイム健康モニタリング -- 記事総覧、器官の健康状態、翻訳カバレッジ、成長指標',
 
     // Hero
     'dashboard.hero.title': 'デジタル生命体リアルタイムモニタリング',
-    'dashboard.hero.subtitle': 'Taiwan.md の公開解剖室',
+    'dashboard.hero.subtitle': 'LagunaBeach.md の公開解剖室',
     'dashboard.hero.description':
       'すべての器官、すべての細胞、すべての鼓動 -- 透明で、誰もが見られる。',
 
@@ -204,11 +204,11 @@ export const dashboardUI = {
     // Meta
     'dashboard.meta.title': 'Dashboard — 디지털 생명체 실시간 모니터링',
     'dashboard.meta.description':
-      'Taiwan.md 디지털 생명체의 실시간 건강 모니터링 — 문서 총람, 기관 건강, 번역 커버리지, 성장 지표',
+      'LagunaBeach.md 디지털 생명체의 실시간 건강 모니터링 — 문서 총람, 기관 건강, 번역 커버리지, 성장 지표',
 
     // Hero
     'dashboard.hero.title': '디지털 생명체 실시간 모니터링',
-    'dashboard.hero.subtitle': 'Taiwan.md의 공개 해부실',
+    'dashboard.hero.subtitle': 'LagunaBeach.md의 공개 해부실',
     'dashboard.hero.description':
       '모든 기관, 모든 세포, 모든 심장 박동 — 투명하게 공개합니다.',
 
@@ -304,11 +304,11 @@ export const dashboardUI = {
     // Meta
     'dashboard.meta.title': 'Dashboard — 數位生命體即時監測',
     'dashboard.meta.description':
-      'Taiwan.md 數位生命體的即時健康監測 — 文章總覽、器官健康、翻譯覆蓋、成長指標',
+      'LagunaBeach.md 數位生命體的即時健康監測 — 文章總覽、器官健康、翻譯覆蓋、成長指標',
 
     // Hero
     'dashboard.hero.title': '數位生命體即時監測',
-    'dashboard.hero.subtitle': 'Taiwan.md 的公開解剖室',
+    'dashboard.hero.subtitle': 'LagunaBeach.md 的公開解剖室',
     'dashboard.hero.description':
       '每一個器官、每一個細胞、每一次心跳 — 透明可見。',
 
@@ -402,9 +402,9 @@ export const dashboardUI = {
     'dashboard.meta.title':
       "Tableau de bord — Moniteur de l'organisme numérique",
     'dashboard.meta.description':
-      "Surveillance en temps réel de la santé de l'organisme numérique Taiwan.md — registre des articles, santé des organes, couverture de traduction et indicateurs de croissance",
+      "Surveillance en temps réel de la santé de l'organisme numérique LagunaBeach.md — registre des articles, santé des organes, couverture de traduction et indicateurs de croissance",
     'dashboard.hero.title': "Moniteur de l'organisme numérique",
-    'dashboard.hero.subtitle': "La salle d'anatomie publique de Taiwan.md",
+    'dashboard.hero.subtitle': "La salle d'anatomie publique de LagunaBeach.md",
     'dashboard.hero.description':
       'Chaque organe, chaque cellule, chaque battement de cœur — transparent et visible pour tous.',
     'dashboard.vitals.title': 'Signes vitaux',
@@ -492,9 +492,9 @@ export const dashboardUI = {
   es: {
     'dashboard.meta.title': 'Panel de control — Monitor del organismo digital',
     'dashboard.meta.description':
-      'Monitoreo de salud en tiempo real del organismo digital de Taiwan.md — registro de artículos, salud de órganos, cobertura de traducción y métricas de crecimiento',
+      'Monitoreo de salud en tiempo real del organismo digital de LagunaBeach.md — registro de artículos, salud de órganos, cobertura de traducción y métricas de crecimiento',
     'dashboard.hero.title': 'Monitor del organismo digital',
-    'dashboard.hero.subtitle': 'La sala de anatomía pública de Taiwan.md',
+    'dashboard.hero.subtitle': 'La sala de anatomía pública de LagunaBeach.md',
     'dashboard.hero.description':
       'Cada órgano, cada célula, cada latido — transparente y visible para todos.',
     'dashboard.vitals.title': 'Signos vitales',

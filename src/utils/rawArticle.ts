@@ -30,7 +30,7 @@ export const CATEGORY_TO_FOLDER: Record<string, string> = {
 
 /** Root-relative dir for a given language: '' = zh-TW, 'en' / 'ja' / etc. */
 function langDir(lang: string): string {
-  return lang === 'zh-TW' ? '' : lang;
+  return lang === 'en' ? '' : lang;
 }
 
 export async function getRawPaths(lang: string) {

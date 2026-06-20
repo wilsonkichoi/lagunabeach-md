@@ -27,20 +27,15 @@ function getGitInfo(filePath: string) {
 
 export async function getStaticPaths() {
   const CATEGORY_MAPPING: Record<string, string> = {
-    about: 'About',
     history: 'History',
-    geography: 'Geography',
-    culture: 'Culture',
+    'art-galleries': 'Art & Galleries',
+    'nature-marine-life': 'Nature & Marine Life',
     food: 'Food',
-    art: 'Art',
-    music: 'Music',
-    technology: 'Technology',
-    nature: 'Nature',
-    people: 'People',
-    society: 'Society',
-    economy: 'Economy',
-    lifestyle: 'Lifestyle',
-    politics: 'Politics',
+    beaches: 'Beaches',
+    trails: 'Trails',
+    'events-festivals': 'Events & Festivals',
+    neighborhoods: 'Neighborhoods',
+    about: 'About',
   };
 
   const safeMatter = (fileContent: string) => {

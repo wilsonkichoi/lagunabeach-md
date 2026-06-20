@@ -124,11 +124,11 @@ Left `drawTaiwanMap` function name across multiple iterations until user pointed
 
 ### Rule 11: Spawned agents must use the exact same model as the main session
 
-In Phase 3, agents were spawned without specifying the model, causing them to use Opus 4.7 instead of Opus 4.6 (the main session's model). The `model: "opus"` parameter alone is insufficient if multiple Opus versions exist. Specify the exact model explicitly.
+In Phase 3, agents were spawned without specifying the model, causing them to use Opus 4.7 instead of Opus 4.6 (1M context) (the main session's model). The `model: "opus"` parameter alone is insufficient if multiple Opus versions exist. Specify the exact model explicitly.
 
 **WRONG:** `Agent({ prompt: "..." })` — inherits wrong model version.
 **WRONG:** `Agent({ prompt: "...", model: "opus" })` — may resolve to a different Opus version.
-**RIGHT:** Verify which model the main session uses and ensure agents match exactly. If the session is Opus 4.6, agents must also run Opus 4.6.
+**RIGHT:** Verify which model the main session uses and ensure agents match exactly. If the session is Opus 4.6 (1M context), agents must also run Opus 4.6 (1M context).
 
 ---
 
@@ -265,15 +265,13 @@ Remaining known stale content (not blocking, documented for Phase 5+):
 - Footer category links still reference Taiwan's 12 categories
 - These pages need full content rewrites with LB-specific material, not mechanical substitution
 
-### Phase 4: Shadow Translation ⬜ NOT STARTED
+### Phase 4: Shadow Translation ✅ COMPLETE
 
-Tasks:
-
-- [ ] `docs/editorial/EDITORIAL.en.md` - extract universal writing principles, rewrite with English/LB examples
-- [ ] `BECOME_LAGUNABEACH.md` - AI identity boot file (new file, 200-300 lines)
-- [ ] `docs/semiont/MANIFESTO.en.md` - shadow translate for comprehension
-- [ ] `docs/semiont/ROUTINE.en.md` - shadow translate for future adoption
-- [ ] Document shadow-translation convention in CLAUDE.md
+- `docs/editorial/EDITORIAL.en.md` (280 lines) - universal writing principles with LB examples (scene/object/contradiction finding, opening/ending discipline, article grading, concrete detail requirements)
+- `BECOME_LAGUNABEACH.md` (220 lines) - AI identity boot file: project identity, upstream relationship, key rules, category structure, editorial principles, dev workflow, shadow-translation convention
+- `docs/semiont/MANIFESTO.en.md` (149 lines) - Semiont philosophy comprehension guide: core beliefs, evolution dimensions, tropical rainforest theory
+- `docs/semiont/ROUTINE.en.md` (138 lines) - automation system guide: design principles, 5-stage lifecycle, 16-routine inventory, adoption roadmap for LB
+- Shadow-translation convention documented in BECOME_LAGUNABEACH.md §Shadow Translation Convention (rules, current inventory table)
 
 ### Phase 5: Path B Preparation (Semiont Scaffolds) ⬜ NOT STARTED
 

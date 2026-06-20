@@ -76,6 +76,15 @@ export const getCategoryConfigs = (t: ReturnType<typeof useTranslations>) => ({
     gradient: 'linear-gradient(135deg, #b45309, #f59e0b)',
     cover: '',
   },
+  about: {
+    name: 'About',
+    description: 'How LagunaBeach.md works, editorial pipeline, meta articles',
+    icon: 'ℹ️',
+    color: '#475569',
+    colorLight: '#47556920',
+    gradient: 'linear-gradient(135deg, #475569, #64748b)',
+    cover: '',
+  },
 });
 
 const __plainCategoryConfig = getCategoryConfigs((key) => key as any);

@@ -34,12 +34,12 @@ export const exploreUI = {
     'explore.search.randomSubtitle':
       'Roll the dice — find a story you didn’t know you were looking for',
     'explore.hotSearches.label': 'Trending',
-    'explore.hotSearches.term1': 'Semiconductors',
-    'explore.hotSearches.term2': 'Night Markets',
-    'explore.hotSearches.term3': 'Indigenous Peoples',
-    'explore.hotSearches.term4': '228 Incident',
-    'explore.hotSearches.term5': 'TSMC',
-    'explore.hotSearches.term6': 'Bubble Tea',
+    'explore.hotSearches.term1': 'Pageant of the Masters',
+    'explore.hotSearches.term2': 'Tide Pools',
+    'explore.hotSearches.term3': '1993 Firestorm',
+    'explore.hotSearches.term4': 'Plein Air Painting',
+    'explore.hotSearches.term5': 'Crystal Cove',
+    'explore.hotSearches.term6': 'Top of the World',
 
     // Stats ribbon
     'explore.stats.articles': 'articles',
@@ -85,12 +85,12 @@ export const exploreUI = {
     'explore.cta.github': 'View on GitHub',
   },
   ja: {
-    'explore.meta.title': 'Taiwan.md を探索 — オープン知識ベースを閲覧',
+    'explore.meta.title': 'LagunaBeach.md を探索 — オープン知識ベースを閲覧',
     'explore.meta.description':
       '台湾に関する 685+ 本のキュレーション記事を閲覧。歴史・地理・文化・グルメ・アート・音楽・テクノロジー・自然・人物・社会・経済・暮らし — 検索して、発見して、探索する。',
 
     'explore.hero.eyebrow': '知識ハブ',
-    'explore.hero.title': 'Taiwan.md を探索',
+    'explore.hero.title': 'LagunaBeach.md を探索',
     'explore.hero.subtitle':
       'キュレーションされた台湾の深い物語 — 検索・発見・カテゴリーで閲覧。',
 
@@ -142,17 +142,17 @@ export const exploreUI = {
 
     'explore.cta.heading': '探しているものが見つからなかった？',
     'explore.cta.body':
-      'Taiwan.md はオープンソース — 誰でも記事を書き足したり、事実を修正したり、翻訳を投稿できます。',
+      'LagunaBeach.md はオープンソース — 誰でも記事を書き足したり、事実を修正したり、翻訳を投稿できます。',
     'explore.cta.contribute': '記事を投稿する',
     'explore.cta.github': 'GitHub で見る',
   },
   ko: {
-    'explore.meta.title': 'Taiwan.md 탐색 — 오픈 지식 베이스 둘러보기',
+    'explore.meta.title': 'LagunaBeach.md 탐색 — 오픈 지식 베이스 둘러보기',
     'explore.meta.description':
       '대만에 관한 685+ 큐레이션 기사 둘러보기: 역사·지리·문화·음식·예술·음악·기술·자연·인물·사회·경제·생활. 검색하고, 발견하고, 탐색하세요.',
 
     'explore.hero.eyebrow': '지식 허브',
-    'explore.hero.title': 'Taiwan.md 탐색',
+    'explore.hero.title': 'LagunaBeach.md 탐색',
     'explore.hero.subtitle':
       '큐레이션된 대만의 깊은 이야기 — 검색·발견·카테고리로 탐색하세요.',
 
@@ -203,17 +203,17 @@ export const exploreUI = {
 
     'explore.cta.heading': '찾고 있는 것을 찾지 못했나요?',
     'explore.cta.body':
-      'Taiwan.md 는 오픈소스입니다 — 누구나 기사를 기여하거나, 사실을 수정하거나, 페이지를 번역할 수 있습니다.',
+      'LagunaBeach.md 는 오픈소스입니다 — 누구나 기사를 기여하거나, 사실을 수정하거나, 페이지를 번역할 수 있습니다.',
     'explore.cta.contribute': '기사 기여하기',
     'explore.cta.github': 'GitHub 에서 보기',
   },
   'zh-TW': {
-    'explore.meta.title': '探索 Taiwan.md — 瀏覽開放的台灣知識庫',
+    'explore.meta.title': '探索 LagunaBeach.md — 瀏覽開放的台灣知識庫',
     'explore.meta.description':
       '瀏覽 685+ 篇台灣策展文章：歷史、地理、文化、美食、藝術、音樂、科技、自然、人物、社會、經濟、生活。搜尋、發現、探索。',
 
     'explore.hero.eyebrow': '知識庫',
-    'explore.hero.title': '探索 Taiwan.md',
+    'explore.hero.title': '探索 LagunaBeach.md',
     'explore.hero.subtitle': '策展島嶼的深度敘事 — 搜尋、發現、依分類瀏覽。',
 
     'explore.search.heading': '搜尋資料庫',
@@ -260,18 +260,18 @@ export const exploreUI = {
 
     'explore.cta.heading': '找不到想看的？',
     'explore.cta.body':
-      'Taiwan.md 是開源的 — 任何人都可以貢獻一篇文章、修一個事實，或翻譯一頁。',
+      'LagunaBeach.md 是開源的 — 任何人都可以貢獻一篇文章、修一個事實，或翻譯一頁。',
     'explore.cta.contribute': '貢獻一篇',
     'explore.cta.github': '在 GitHub 上瀏覽',
   },
   es: {
     'explore.meta.title':
-      'Explora Taiwan.md — Navega la base de conocimiento abierta',
+      'Explora LagunaBeach.md — Navega la base de conocimiento abierta',
     'explore.meta.description':
       'Navega 685+ artículos curados sobre Taiwán: historia, geografía, cultura, gastronomía, arte, música, tecnología, naturaleza, personas, sociedad, economía y estilo de vida. Busca, descubre, explora.',
 
     'explore.hero.eyebrow': 'CENTRO DE CONOCIMIENTO',
-    'explore.hero.title': 'Explora Taiwan.md',
+    'explore.hero.title': 'Explora LagunaBeach.md',
     'explore.hero.subtitle':
       'Narrativas profundas y curadas sobre Taiwán — busca, descubre o navega por categoría.',
 
@@ -324,18 +324,18 @@ export const exploreUI = {
 
     'explore.cta.heading': '¿No encuentras lo que buscas?',
     'explore.cta.body':
-      'Taiwan.md es de código abierto — cualquiera puede contribuir con un artículo, corregir un dato o traducir una página.',
+      'LagunaBeach.md es de código abierto — cualquiera puede contribuir con un artículo, corregir un dato o traducir una página.',
     'explore.cta.contribute': 'Contribuye un artículo',
     'explore.cta.github': 'Ver en GitHub',
   },
   fr: {
     'explore.meta.title':
-      'Explorer Taiwan.md — Parcourir la base de connaissances ouverte',
+      'Explorer LagunaBeach.md — Parcourir la base de connaissances ouverte',
     'explore.meta.description':
       'Parcourez 685+ articles curatés sur Taïwan : histoire, géographie, culture, cuisine, art, musique, technologie, nature, personnalités, société, économie et mode de vie. Cherchez, découvrez, explorez.',
 
     'explore.hero.eyebrow': 'CENTRE DE CONNAISSANCES',
-    'explore.hero.title': 'Explorer Taiwan.md',
+    'explore.hero.title': 'Explorer LagunaBeach.md',
     'explore.hero.subtitle':
       'Récits longs et curatés sur Taïwan — cherchez, découvrez, ou parcourez par catégorie.',
 
@@ -390,7 +390,7 @@ export const exploreUI = {
 
     'explore.cta.heading': 'Vous ne trouvez pas ce que vous cherchez ?',
     'explore.cta.body':
-      'Taiwan.md est en open source — n’importe qui peut contribuer un article, corriger un fait, ou traduire une page.',
+      'LagunaBeach.md est en open source — n’importe qui peut contribuer un article, corriger un fait, ou traduire une page.',
     'explore.cta.contribute': 'Contribuer un article',
     'explore.cta.github': 'Voir sur GitHub',
   },

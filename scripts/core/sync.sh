@@ -39,6 +39,7 @@ readonly CATEGORIES=(
   "Trails"
   "Events & Festivals"
   "Neighborhoods"
+  "About"
 )
 
 # Enabled lang codes 從 SSOT 讀取

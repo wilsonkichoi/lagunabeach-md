@@ -55,13 +55,13 @@ const exploreLatestDay = (d: string) => {
 // ── Stats ribbon: read fresh vitals from prebuilt JSON if available,
 // fall back to live count of knowledge/{Cat}/ ──
 let totalArticles = 0;
-let contributors = 61;
+let contributors = 1;
 let articlesLast30Days = 0;
 try {
   const vitalsPath = resolve(process.cwd(), 'public/api/dashboard-vitals.json');
   const v = JSON.parse(readFileSync(vitalsPath, 'utf-8'));
   totalArticles = Number(v.totalArticles) || 0;
-  contributors = Number(v.contributors) || 61;
+  contributors = Number(v.contributors) || 1;
   articlesLast30Days = Number(v.articlesLast30Days) || 0;
 } catch {
   // Fallback — count articles directly

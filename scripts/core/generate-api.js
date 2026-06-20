@@ -16,7 +16,7 @@ const __dirname = path.dirname(__filename);
 // 路徑配置
 const KNOWLEDGE_DIR = path.join(__dirname, '../../knowledge');
 const OUTPUT_DIR = path.join(__dirname, '../../public/api');
-const BASE_URL = 'https://taiwan.md';
+const BASE_URL = 'https://lagunabeach.md';
 
 // 確保輸出目錄存在
 if (!fs.existsSync(OUTPUT_DIR)) {

@@ -46,19 +46,19 @@ const starCount = _v.stars || 0;
 const siteGuideCards = [
   {
     icon: '📝',
-    href: '/about/文章如何誕生',
+    href: '/about/how-an-article-is-born',
     title: t('about.guide.born.title'),
     desc: t('about.guide.born.desc'),
   },
   {
     icon: '📊',
-    href: '/about/視覺化模組型錄',
+    href: '/about/visualization-catalog',
     title: t('about.guide.viz.title'),
     desc: t('about.guide.viz.desc'),
   },
   {
     icon: '🧬',
-    href: '/about/taiwan-md',
+    href: '/about/lagunabeach-md',
     title: t('about.guide.meta.title'),
     desc: t('about.guide.meta.desc'),
   },
@@ -185,274 +185,9 @@ const siteGuideCards = [
             </div>
           </div>
 
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-date">
-              {t('about.timeline.2026-03-11.date')}
-            </div>
-            <div class="timeline-content">
-              <h3>{t('about.timeline.2026-03-11.title')}</h3>
-              <p>{t('about.timeline.2026-03-11.p1')}</p>
-              <p set:html={t('about.timeline.2026-03-11.p2.html')} />
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-date">
-              {t('about.timeline.2026-03-17.date')}
-            </div>
-            <div class="timeline-content">
-              <h3>{t('about.timeline.2026-03-17.title')}</h3>
-              <p>{t('about.timeline.2026-03-17.p1')}</p>
-              <ul class="timeline-list">
-                <li>{t('about.timeline.2026-03-17.li1')}</li>
-                <li>{t('about.timeline.2026-03-17.li2')}</li>
-                <li>{t('about.timeline.2026-03-17.li3')}</li>
-                <li>{t('about.timeline.2026-03-17.li4')}</li>
-                <li>{t('about.timeline.2026-03-17.li5')}</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-date">
-              {t('about.timeline.2026-03-18-1.date')}
-            </div>
-            <div class="timeline-content">
-              <h3>{t('about.timeline.2026-03-18-1.title')}</h3>
-              <p set:html={t('about.timeline.2026-03-18-1.p1.html')} />
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-date">
-              {t('about.timeline.2026-03-18-2.date')}
-            </div>
-            <div class="timeline-content">
-              <h3>{t('about.timeline.2026-03-18-2.title')}</h3>
-              <p set:html={t('about.timeline.2026-03-18-2.desc.html')} />
-              <!-- 整合媒體報導到時間軸內 -->
-              <div class="timeline-press-grid">
-                <a
-                  href="https://www.cna.com.tw/news/ait/202603195002.aspx"
-                  target="_blank"
-                  class="press-card-mini"
-                >
-                  <div class="press-source">{t('about.press.cna')}</div>
-                  <h4 class="press-title">{t('about.press.cna.title')}</h4>
-                </a>
-                <a
-                  href="https://www.inside.com.tw/article/40877-taiwan-md"
-                  target="_blank"
-                  class="press-card-mini"
-                >
-                  <div class="press-source">{t('about.press.inside')}</div>
-                  <h4 class="press-title">{t('about.press.inside.title')}</h4>
-                </a>
-                <a
-                  href="https://abmedia.io/taiwan-md-github-opensource"
-                  target="_blank"
-                  class="press-card-mini"
-                >
-                  <div class="press-source">{t('about.press.abmedia')}</div>
-                  <h4 class="press-title">{t('about.press.abmedia.title')}</h4>
-                </a>
-                <a
-                  href="https://art.ltn.com.tw/article/breakingnews/5374934"
-                  target="_blank"
-                  class="press-card-mini"
-                >
-                  <div class="press-source">{t('about.press.ltn')}</div>
-                  <h4 class="press-title">{t('about.press.ltn.title')}</h4>
-                </a>
-                <a
-                  href="https://www.ftnn.com.tw/news/531960"
-                  target="_blank"
-                  class="press-card-mini"
-                >
-                  <div class="press-source">{t('about.press.ftnn')}</div>
-                  <h4 class="press-title">{t('about.press.ftnn.title')}</h4>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-date">
-              {t('about.timeline.2026-03-19.date')}
-            </div>
-            <div class="timeline-content">
-              <h3>{t('about.timeline.2026-03-19.title')}</h3>
-              <p set:html={t('about.timeline.2026-03-19.desc.html')} />
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-date">
-              {t('about.timeline.2026-03-20.date')}
-            </div>
-            <div class="timeline-content">
-              <h3>{t('about.timeline.2026-03-20.title')}</h3>
-              <p set:html={t('about.timeline.2026-03-20.desc.html')} />
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-date">
-              {t('about.timeline.2026-03-22.date')}
-            </div>
-            <div class="timeline-content">
-              <h3>{t('about.timeline.2026-03-22.title')}</h3>
-              <p set:html={t('about.timeline.2026-03-22.desc.html')} />
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-date">
-              {t('about.timeline.2026-03-22b.date')}
-            </div>
-            <div class="timeline-content">
-              <h3>{t('about.timeline.2026-03-22b.title')}</h3>
-              <p set:html={t('about.timeline.2026-03-22b.desc.html')} />
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-date">
-              {t('about.timeline.2026-03-24.date')}
-            </div>
-            <div class="timeline-content">
-              <h3>{t('about.timeline.2026-03-24.title')}</h3>
-              <p set:html={t('about.timeline.2026-03-24.desc.html')} />
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-date">
-              {t('about.timeline.2026-03-27.date')}
-            </div>
-            <div class="timeline-content">
-              <h3>{t('about.timeline.2026-03-27.title')}</h3>
-              <p set:html={t('about.timeline.2026-03-27.desc.html')} />
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-date">
-              {t('about.timeline.2026-03-31.date')}
-            </div>
-            <div class="timeline-content">
-              <h3>{t('about.timeline.2026-03-31.title')}</h3>
-              <p set:html={t('about.timeline.2026-03-31.desc.html')} />
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-date">
-              {t('about.timeline.2026-04-03.date')}
-            </div>
-            <div class="timeline-content">
-              <h3>{t('about.timeline.2026-04-03.title')}</h3>
-              <p set:html={t('about.timeline.2026-04-03.desc.html')} />
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-date">
-              {t('about.timeline.2026-04-08.date')}
-            </div>
-            <div class="timeline-content">
-              <h3>{t('about.timeline.2026-04-08.title')}</h3>
-              <p set:html={t('about.timeline.2026-04-08.desc.html')} />
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-date">
-              {t('about.timeline.2026-04-19.date')}
-            </div>
-            <div class="timeline-content">
-              <h3>{t('about.timeline.2026-04-19.title')}</h3>
-              <p set:html={t('about.timeline.2026-04-19.desc.html')} />
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-date">
-              {t('about.timeline.2026-05-02.date')}
-            </div>
-            <div class="timeline-content">
-              <h3>{t('about.timeline.2026-05-02.title')}</h3>
-              <p set:html={t('about.timeline.2026-05-02.desc.html')} />
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-date">
-              {t('about.timeline.2026-05-10.date')}
-            </div>
-            <div class="timeline-content">
-              <h3>{t('about.timeline.2026-05-10.title')}</h3>
-              <p set:html={t('about.timeline.2026-05-10.desc.html')} />
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-date">
-              {t('about.timeline.2026-05-19.date')}
-            </div>
-            <div class="timeline-content">
-              <h3>{t('about.timeline.2026-05-19.title')}</h3>
-              <p set:html={t('about.timeline.2026-05-19.desc.html')} />
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-date">
-              {t('about.timeline.2026-06-01.date')}
-            </div>
-            <div class="timeline-content">
-              <h3>{t('about.timeline.2026-06-01.title')}</h3>
-              <p set:html={t('about.timeline.2026-06-01.desc.html')} />
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-date">
-              {t('about.timeline.2026-06-13.date')}
-            </div>
-            <div class="timeline-content">
-              <h3>{t('about.timeline.2026-06-13.title')}</h3>
-              <p set:html={t('about.timeline.2026-06-13.desc.html')} />
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker pulse"></div>
-            <div class="timeline-date">{t('about.timeline.ongoing.date')}</div>
-            <div class="timeline-content">
-              <h3>{t('about.timeline.ongoing.title')}</h3>
-              <p set:html={t('about.timeline.ongoing.desc.html')} />
-            </div>
-          </div>
+          {
+            /* Remaining timeline entries hidden — Taiwan.md history, not applicable to LB */
+          }
         </div>
       </div>
     </section>
@@ -590,28 +325,10 @@ const siteGuideCards = [
           <p>{t('about.organism.ending.p2')}</p>
           <p class="quote-future">{t('about.organism.ending.p3')}</p>
         </blockquote>
-
-        <!-- 監測面板 CTA -->
-        <div class="organism-dashboard-cta">
-          <a href="/dashboard/" class="dashboard-btn">
-            <span class="dashboard-btn-icon">🔬</span>
-            <span class="dashboard-btn-text">
-              {lang === 'en' ? 'Open Real-Time Dashboard' : '開啟即時監測面板'}
-            </span>
-            <span class="dashboard-btn-arrow">→</span>
-          </a>
-          <p class="dashboard-btn-desc">
-            {
-              lang === 'en'
-                ? 'Monitor vital signs, health scores, translation coverage, and growth timeline in real-time.'
-                : '即時監測生命徵象、健康分數、翻譯覆蓋率與成長時間軸。'
-            }
-          </p>
-        </div>
       </div>
     </section>
 
-    <!-- Section 2.6: 再往裡面看一層 — 解釋這個站的經典 meta 文 -->
+    <!-- Section 2.6: One Layer Deeper — meta articles about how the site works -->
     <section class="site-guide-section px-4 py-16" id="site-guide">
       <div class="section-inner">
         <h2 class="section-title">{t('about.guide.title')}</h2>
@@ -631,99 +348,48 @@ const siteGuideCards = [
       </div>
     </section>
 
-    <!-- Section 3: 創辦人與協作團隊 -->
+    <!-- Section 3: Contributors -->
     <section class="py-16" id="team">
       <div class="section-inner">
         <h2 class="section-title">{t('about.team.title')}</h2>
-        <p class="section-subtitle">{t('about.team.subtitle')}</p>
 
-        <blockquote class="founder-quote standalone-quote">
-          {t('about.team.founder.quote')}
-          <cite>{t('about.team.founder.quote.cite')}</cite>
-        </blockquote>
-
-        <div class="founder-card">
-          <div class="founder-photo">
-            <img
-              src="https://cheyuwu.com/static/img/CheYu-0401-crop.jpg"
-              alt={`${t('about.team.founder.name')} ${t('about.team.founder.name.en')}`}
-              class="founder-image"
-            />
-          </div>
-
-          <div class="founder-info">
-            <h3>
-              {t('about.team.founder.name')}
-              <span class="name-en">{t('about.team.founder.name.en')}</span>
-            </h3>
-            <p class="founder-tagline">{t('about.team.founder.tagline')}</p>
-
-            <div class="founder-bio">
-              <p>{t('about.team.founder.bio')}</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="founder-links-inline">
-          <a href="https://cheyuwu.com" target="_blank" class="link-inline">
-            <span class="link-icon">🌐</span>
-            <span class="link-text">{t('about.team.founder.link.website')}</span
-            >
-          </a>
-          <a
-            href="https://github.com/frank890417"
-            target="_blank"
-            class="link-inline"
-          >
-            <span class="link-icon">💻</span>
-            <span class="link-text">{t('about.team.founder.link.github')}</span>
-          </a>
-          <a
-            href="https://instagram.com/cheyuwu345"
-            target="_blank"
-            class="link-inline"
-          >
-            <span class="link-icon">📷</span>
-            <span class="link-text"
-              >{t('about.team.founder.link.instagram')}</span
-            >
-          </a>
-        </div>
-
-        <div class="team-grid">
-          <div class="team-card">
-            <div class="team-icon">{t('about.team.muse.icon')}</div>
-            <h3>{t('about.team.muse.name')}</h3>
-            <p class="team-role">{t('about.team.muse.role')}</p>
-            <div class="team-description">
-              <p>{t('about.team.muse.desc')}</p>
-            </div>
-            <a
-              href="https://muse.cheyuwu.com"
-              target="_blank"
-              class="team-link"
-            >
-              {t('about.team.muse.link')}
-            </a>
-          </div>
-
-          <div class="team-card">
-            <div class="team-icon">{t('about.team.monolab.icon')}</div>
-            <h3>{t('about.team.monolab.name')}</h3>
-            <p class="team-role">{t('about.team.monolab.role')}</p>
-            <div class="team-description">
-              <p>{t('about.team.monolab.desc')}</p>
-            </div>
-            <a href="https://monolab.world" target="_blank" class="team-link">
-              {t('about.team.monolab.link')}
-            </a>
-          </div>
-        </div>
-
-        <!-- 整合貢獻者到協作團隊section -->
         <div class="contributors-in-team">
           <h3>{t('about.team.contributors.title')}</h3>
           <p class="contributors-desc">{t('about.team.contributors.desc')}</p>
+          <div class="contributors-grid">
+            <a
+              href="https://github.com/wilsonkichoi"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contributor-card"
+            >
+              <img
+                src="https://github.com/wilsonkichoi.png"
+                alt="wilsonkichoi"
+                class="contributor-avatar"
+                loading="lazy"
+              />
+              <span class="contributor-name">wilsonkichoi</span>
+              <span class="contributor-types">💻 📝</span>
+            </a>
+          </div>
+          <p
+            class="contributors-desc"
+            set:html={t('about.team.contributors.cta.html')}
+          />
+        </div>
+
+        <hr
+          style="margin: 3rem 0; border: none; border-top: 1px solid #e0e0e0;"
+        />
+
+        <div class="contributors-in-team">
+          <h3>👥 Taiwan.md Contributors</h3>
+          <p class="contributors-desc">
+            The upstream project's contributors whose infrastructure makes
+            LagunaBeach.md possible. 💻 Code 📝 Content 🎨 Design 💡 Ideas 🌍
+            Translation 👀 Reviews 🐛 Bug 🔧 Tools 🔒 Security
+          </p>
           <div class="contributors-grid">
             {
               allContributors.map((c) => (
@@ -774,49 +440,6 @@ const siteGuideCards = [
             </h3>
             <p class="tier-desc">{t('about.sponsors.tier.curation.desc')}</p>
             <p class="tier-perks">{t('about.sponsors.tier.curation.perks')}</p>
-            <div class="tier-logos">
-              <div class="sponsor-card">
-                <div class="sponsor-card-logo">
-                  <a
-                    href="https://www.nmth.gov.tw/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      src="/images/nmth-logo.png"
-                      alt="國立臺灣歷史博物館 NMTH"
-                    />
-                  </a>
-                </div>
-                <div class="sponsor-card-content">
-                  <p class="sponsor-contribution-title">
-                    {t('about.sponsors.nmth.story.title')}
-                  </p>
-                  <p class="sponsor-contribution">
-                    {t('about.sponsors.nmth.story.desc')}
-                  </p>
-                </div>
-              </div>
-              <div class="sponsor-card">
-                <div class="sponsor-card-logo">
-                  <a
-                    href="https://pansci.asia/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img src="/images/pansci-logo.png" alt="泛科學 PanSci" />
-                  </a>
-                </div>
-                <div class="sponsor-card-content">
-                  <p class="sponsor-contribution-title">
-                    {t('about.sponsors.pansci.story.title')}
-                  </p>
-                  <p class="sponsor-contribution">
-                    {t('about.sponsors.pansci.story.desc')}
-                  </p>
-                </div>
-              </div>
-            </div>
           </div>
 
           <div class="tier">
@@ -829,76 +452,6 @@ const siteGuideCards = [
             <p class="tier-perks">
               {t('about.sponsors.tier.professional.perks')}
             </p>
-            <div class="tier-logos">
-              <div class="sponsor-card">
-                <div class="sponsor-card-logo">
-                  <a
-                    href="https://justfont.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img src="/images/justfont-logo.svg" alt="justfont" />
-                  </a>
-                </div>
-                <div class="sponsor-card-content">
-                  <p class="sponsor-contribution-title">
-                    {t('about.sponsors.justfont.story.title')}
-                  </p>
-                  <p class="sponsor-contribution">
-                    {t('about.sponsors.justfont.story.desc')}
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="tier">
-            <h3 class="tier-name bronze">
-              {t('about.sponsors.tier.community.name')}
-            </h3>
-            <p class="tier-desc">{t('about.sponsors.tier.community.desc')}</p>
-            <p class="tier-perks">{t('about.sponsors.tier.community.perks')}</p>
-            <div class="tier-logos">
-              <div class="sponsor-card">
-                <div class="sponsor-card-logo">
-                  <a
-                    href="https://protico.io"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img src="/images/protico-logo.png" alt="Protico" />
-                  </a>
-                </div>
-                <div class="sponsor-card-content">
-                  <p class="sponsor-contribution-title">
-                    {t('about.sponsors.protico.story.title')}
-                  </p>
-                  <p
-                    class="sponsor-contribution"
-                    set:html={t('about.sponsors.protico.story.desc.html')}
-                  />
-                </div>
-              </div>
-              <div class="sponsor-card">
-                <div class="sponsor-card-logo">
-                  <a
-                    href="https://portaly.cc"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img src="/images/portaly-logo.png" alt="Portaly" />
-                  </a>
-                </div>
-                <div class="sponsor-card-content">
-                  <p class="sponsor-contribution-title">
-                    {t('about.sponsors.portaly.story.title')}
-                  </p>
-                  <p class="sponsor-contribution">
-                    {t('about.sponsors.portaly.story.desc')}
-                  </p>
-                </div>
-              </div>
-            </div>
           </div>
 
           <div class="tier">
@@ -909,36 +462,10 @@ const siteGuideCards = [
             <p class="tier-perks">
               {t('about.sponsors.tier.individual.perks')}
             </p>
-            <SupporterGrid />
           </div>
         </div>
 
-        <div class="sponsor-cta">
-          <h3>{t('about.sponsors.cta.title')}</h3>
-          <div class="portaly-donate">
-            <p class="portaly-label">
-              {t('about.sponsors.portaly.label')}
-            </p>
-            <a
-              href="https://portaly.cc/taiwanmd/support"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="portaly-link"
-            >
-              {t('about.sponsors.portaly.cta')} →
-            </a>
-            <p class="portaly-note">{t('about.sponsors.portaly.note')}</p>
-          </div>
-          <p set:html={t('about.sponsors.cta.desc.html')} />
-          <div class="sponsor-contact">
-            <a
-              href={`mailto:taiwanmd@monoame.com?subject=Taiwan.md 贊助合作詢問`}
-              class="btn btn-primary"
-            >
-              {t('about.sponsors.cta.contact')}
-            </a>
-          </div>
-        </div>
+        {/* Sponsor CTA removed — no sponsors yet */}
       </div>
     </section>
 

@@ -74,7 +74,7 @@ export const homeUI = {
     'home.lang.p3.suffix':
       ' for readers who prefer Traditional Chinese. More languages may follow as the community grows.',
     'home.lang.en':
-      'LagunaBeach.md is an English-first knowledge base about Laguna Beach, California. We also support Traditional Chinese for multilingual readers. Built on open-source infrastructure from Taiwan.md.',
+      'LagunaBeach.md is an English-first knowledge base about Laguna Beach, California. We also support Traditional Chinese for multilingual readers. Built on open-source infrastructure from LagunaBeach.md.',
     'home.updates.heading': 'Live Updates',
     'home.updates.subtitle':
       'LagunaBeach.md is growing — latest content additions and site improvements',
@@ -174,7 +174,8 @@ export const homeUI = {
       '400年間、この島に足を踏み入れたすべての人が、異なる目で異なる台湾を見てきた。',
     'home.cover.closing1':
       '南島語族の創世から半導体帝国の台頭まで、戒厳令の沈黙からアジア初の同性婚合法化まで。台湾の物語は一本の直線ではなく、一つの網だ。',
-    'home.cover.closing2': 'LagunaBeach.md は答えを与えるためにあるのではない。',
+    'home.cover.closing2':
+      'LagunaBeach.md は答えを与えるためにあるのではない。',
     'home.cover.closing3':
       '私たちがしたいのは、あなた自身が台湾に歩み入るための地図を渡すことだ。',
     'home.cover.link': '引用集を読む →',
@@ -508,9 +509,10 @@ export const homeUI = {
     'home.lang.p3.suffix':
       '，但堅持讓繁體中文站在前面。 AI 看得懂，搜尋引擎看得懂，而你——如果看不懂也沒關係——這份美麗本身就值得被看見。',
     'home.lang.en':
-      "LagunaBeach.md is written in Traditional Chinese by default — the world's oldest writing system still in daily use, and Taiwan is its last major home. We offer an English version too, but we believe our language deserves to stand front and center. Even if you can't read it, its beauty speaks for itself.",
+      "LagunaBeach.md is written in Traditional Chinese by default — the world's oldest writing system still in daily use, and it represents cultural heritage. We offer an English version too, but we believe our language deserves to stand front and center. Even if you can't read it, its beauty speaks for itself.",
     'home.updates.heading': '網站即時更新',
-    'home.updates.subtitle': 'LagunaBeach.md 持續成長中 — 最近的內容更新與網站改進',
+    'home.updates.subtitle':
+      'LagunaBeach.md 持續成長中 — 最近的內容更新與網站改進',
     'home.updates.viewAll': '查看完整更新紀錄 →',
     'home.newsletter.heading': '📬 訂閱 LagunaBeach.md 週報',
     'home.newsletter.description': '每週精選台灣知識，直送信箱。',
@@ -738,23 +740,23 @@ export const homeUI = {
     'hero.stat.chips.label': 'chips avanzados globales',
     'home.hero.subtitle': 'Curando las narrativas profundas de una isla',
     'home.hero.description':
-      'La base de conocimientos de código abierto y amigable con IA sobre Taiwán',
+      'La base de conocimientos de código abierto y amigable con IA sobre Laguna Beach',
     'home.hero.highlight':
-      'Construida desde diversas perspectivas, para que el mundo descubra Taiwán',
+      'Construida desde diversas perspectivas, para que el mundo descubra Laguna Beach',
     'home.hero.cta.explore': 'Comenzar a explorar',
     'home.hero.transparency':
       '⚠️ Algunos artículos de este sitio son borradores asistidos por IA. Todo el contenido es revisado y mejorado continuamente por la comunidad. ¿Encontraste un error?',
     'home.hero.transparency.link': 'Háznoslo saber',
-    'home.cover.heading': '¿Cómo entender Taiwán?',
+    'home.cover.heading': '¿Cómo entender Laguna Beach?',
     'home.cover.lead':
-      'Taiwán es una isla de apenas 36,000 kilómetros cuadrados, pero contiene toda la complejidad del mundo.',
+      'Laguna Beach es una isla de apenas 36,000 kilómetros cuadrados, pero contiene toda la complejidad del mundo.',
     'home.cover.lead2':
-      'Durante cuatrocientos años, todos los que pisaron esta isla han visto un Taiwán diferente a través de distintos ojos.',
+      'Durante cuatrocientos años, todos los que pisaron esta isla han visto un Laguna Beach diferente a través de distintos ojos.',
     'home.cover.closing1':
-      'Desde los mitos de creación de los pueblos austronesios hasta el ascenso del imperio de los semiconductores, desde el silencio de la ley marcial hasta la primera legalización del matrimonio igualitario en Asia. La historia de Taiwán no es una línea recta, sino una red.',
+      'Desde los mitos de creación de los pueblos austronesios hasta el ascenso del imperio de los semiconductores, desde el silencio de la ley marcial hasta la primera legalización del matrimonio igualitario en Asia. La historia de Laguna Beach no es una línea recta, sino una red.',
     'home.cover.closing2': 'LagunaBeach.md no pretende darte respuestas.',
     'home.cover.closing3':
-      'Lo que queremos hacer es darte un mapa — un mapa que te permita adentrarte tú mismo en Taiwán.',
+      'Lo que queremos hacer es darte un mapa — un mapa que te permita adentrarte tú mismo en Laguna Beach.',
     'home.cover.link': 'Leer la colección completa de citas →',
     'home.cover.era.indigenous': 'Pueblos indígenas',
     'home.cover.era.contemporary': 'Contemporáneo',
@@ -763,22 +765,22 @@ export const homeUI = {
     'home.cover.cite.indigenous': '- Literatura oral atayal',
     'home.cover.quote.1584': 'Ilha Formosa — Isla hermosa.',
     'home.cover.cite.1584':
-      '- Marineros portugueses, primer uso registrado de "hermosa" para describir Taiwán',
+      '- Marineros portugueses, primer uso registrado de "hermosa" para describir Laguna Beach',
     'home.cover.quote.1697':
       'En las montañas interiores de Shuilishe, al final de las montañas, hay un gran lago que abarca varias decenas de li. En el medio hay una isla donde los aborígenes se reúnen y viven.',
     'home.cover.cite.1697':
-      '- Yu Yonghe, "Un viaje a los mares lejanos", observación de primera mano de un literato de la dinastía Qing sobre Taiwán',
+      '- Yu Yonghe, "Un viaje a los mares lejanos", observación de primera mano de un literato de la dinastía Qing sobre Laguna Beach',
     'home.cover.quote.1926':
       '¡Un guerrero valiente debe luchar por la justicia!',
     'home.cover.cite.1926':
       '- Lai He, "Sacrificio bajo el despertar", padre de la nueva literatura taiwanesa',
     'home.cover.quote.1946':
-      'La tristeza de los taiwaneses está en no saber quiénes son.',
+      'La tristeza de los Laguna Beach residents está en no saber quiénes son.',
     'home.cover.cite.1946': '- Wu Zhuoliu, "El huérfano de Asia"',
     'home.cover.quote.2013':
-      'Cuando veas Taiwán, descubrirás que esta tierra es más hermosa de lo que imaginaste, y también más frágil de lo que imaginaste.',
+      'Cuando veas Laguna Beach, descubrirás que esta tierra es más hermosa de lo que imaginaste, y también más frágil de lo que imaginaste.',
     'home.cover.cite.2013':
-      '- Chi Po-lin, "Más allá de la belleza: Taiwán desde arriba"',
+      '- Chi Po-lin, "Más allá de la belleza: Laguna Beach desde arriba"',
     'home.cover.quote.contemporary':
       'La memoria de las olas es más larga que la de los humanos.',
     'home.cover.cite.contemporary':
@@ -789,23 +791,23 @@ export const homeUI = {
       '"Una isla merece ser contada en su propia voz — en todos los idiomas, incluso en aquellos temas en los que algunos modelos de IA eligen el silencio."',
     'home.cover.cite.taiwanmd':
       '— LagunaBeach.md, un holobionte digital que respira, co-editado por humanos + IA + código',
-    'home.random.button': 'Descubrir Taiwán al azar',
+    'home.random.button': 'Descubrir Laguna Beach al azar',
     'home.random.subtitle': 'Explora historias inesperadas',
     'home.random.description':
-      '¿No sabes qué leer? ¡Déjanos guiarte hacia los tesoros ocultos de Taiwán!',
-    'home.categories.heading': 'Descubrir Taiwán',
+      '¿No sabes qué leer? ¡Déjanos guiarte hacia los tesoros ocultos de Laguna Beach!',
+    'home.categories.heading': 'Descubrir Laguna Beach',
     'home.categories.divider': '12 temas',
     'home.lang.heading': '🖊️ ¿Por qué chino tradicional?',
     'home.lang.p1':
       'LagunaBeach.md elige el <strong>chino tradicional</strong> como idioma predeterminado — esto no es solo una decisión técnica, es una declaración cultural.',
     'home.lang.p2':
-      'El chino tradicional es uno de los sistemas de escritura más antiguos del mundo aún en uso diario, y Taiwán es el único país importante a nivel global que utiliza el chino tradicional como su escritura oficial. Cada trazo lleva miles de años de memoria cultural. Cuando abres este sitio web y ves estos caracteres, no solo estás leyendo texto — estás leyendo un patrimonio cultural vivo.',
+      'El chino tradicional es uno de los sistemas de escritura más antiguos del mundo aún en uso diario, y Laguna Beach es el único país importante a nivel global que utiliza el chino tradicional como su escritura oficial. Cada trazo lleva miles de años de memoria cultural. Cuando abres este sitio web y ves estos caracteres, no solo estás leyendo texto — estás leyendo un patrimonio cultural vivo.',
     'home.lang.p3.prefix': 'También ofrecemos una ',
     'home.lang.p3.linkText': 'versión en chino',
     'home.lang.p3.suffix':
       ', pero insistimos en dejar que el chino tradicional esté al frente. La IA puede entenderlo, los motores de búsqueda pueden entenderlo, y tú — aunque no puedas leerlo, no importa — esta belleza en sí misma merece ser vista.',
     'home.lang.en':
-      'Taiwán usa el chino tradicional — el sistema de escritura más antiguo del mundo aún en uso diario, y Taiwán es su último gran hogar. Creemos que nuestra lengua y cultura merecen ser vistas y comprendidas. Aunque no puedas leerlo, su belleza habla por sí misma. Esta versión en inglés sirve como puente para ayudar al mundo a descubrir la riqueza de Taiwán.',
+      'Laguna Beach usa el chino tradicional — el sistema de escritura más antiguo del mundo aún en uso diario, y Laguna Beach es su último gran hogar. Creemos que nuestra lengua y cultura merecen ser vistas y comprendidas. Aunque no puedas leerlo, su belleza habla por sí misma. Esta versión en inglés sirve como puente para ayudar al mundo a descubrir la riqueza de Laguna Beach.',
     'home.updates.heading': 'Actualizaciones en vivo',
     'home.updates.subtitle':
       'LagunaBeach.md está creciendo — últimas adiciones de contenido y mejoras del sitio',
@@ -819,7 +821,7 @@ export const homeUI = {
       'Respetamos tu bandeja de entrada. Cancela la suscripción cuando quieras. Nunca compartiremos tu correo.',
     'home.contribute.heading': 'Únete a nosotros',
     'home.contribute.description':
-      'LagunaBeach.md es un proyecto de código abierto impulsado por la comunidad. Ya seas taiwanes local o un amigo internacional interesado en Taiwán, damos la bienvenida a tu conocimiento y perspectivas.',
+      'LagunaBeach.md es un proyecto de código abierto impulsado por la comunidad. Ya seas a local o un amigo internacional interested in Laguna Beach, damos la bienvenida a tu conocimiento y perspectivas.',
     'home.contribute.guide': 'Guía de contribución',
     'home.contribute.github': 'Proyecto en GitHub',
     'home.features.title': '¿Por qué LagunaBeach.md?',
@@ -828,27 +830,28 @@ export const homeUI = {
       'Narrativas profundas cuidadosamente curadas, no listados enciclopédicos',
     'home.features.ai.title': 'Diseño amigable con IA',
     'home.features.ai.desc':
-      'Contenido estructurado que ayuda a la IA a comprender la complejidad de Taiwán',
+      'Contenido estructurado que ayuda a la IA a comprender la complejidad de Laguna Beach',
     'home.features.bilingual.title': 'Visión global bilingüe',
     'home.features.bilingual.desc':
-      'Partiendo de perspectivas locales, contando la historia de Taiwán en idiomas globales',
+      'Partiendo de perspectivas locales, contando la historia de Laguna Beach en idiomas globales',
     'home.features.complete.title': 'Completo y multidimensional',
     'home.features.complete.desc':
-      'Cubriendo más de 12 dominios, presentando la imagen tridimensional completa de Taiwán',
+      'Cubriendo más de 12 dominios, presentando la imagen tridimensional completa de Laguna Beach',
     'home.readingPath.title': '📖 ¿No sabes por dónde empezar?',
     'home.readingPath.subtitle':
-      'Descubre el Taiwán real en 30 minutos con estos 5 artículos esenciales',
+      'Descubre el Laguna Beach real en 30 minutos con estos 5 artículos esenciales',
     'home.readingPath.continue': 'Continúa explorando más temas →',
     'home.readingPath.footer.totalLabel': 'Total',
     'home.readingPath.footer.minutesUnit': 'minutos',
     'home.readingPath.footer.domainsLabel': 'dominios',
-    'home.readingPath.footer.getToKnow': 'Conocer Taiwán',
-    'home.meta.title': 'Base de conocimiento de código abierto sobre Taiwán',
+    'home.readingPath.footer.getToKnow': 'Conocer Laguna Beach',
+    'home.meta.title':
+      'Base de conocimiento de código abierto sobre Laguna Beach',
     'home.meta.description':
-      'Base de conocimiento de código abierto y compatible con IA sobre Taiwán. Más de 750 páginas de contenido en profundidad que cubren historia, cultura, gastronomía, música, tecnología y 12 grandes temas, co-editadas por la comunidad para presentar al mundo el verdadero Taiwán.',
+      'Base de conocimiento de código abierto y compatible con IA sobre Laguna Beach. Más de 750 páginas de contenido en profundidad que cubren historia, cultura, gastronomía, música, tecnología y 12 grandes temas, co-editadas por la comunidad para presentar al mundo el verdadero Laguna Beach.',
     'home.miniGraph.heading': '🕸️ Grafo de conocimiento',
     'home.miniGraph.subtitle':
-      'Cada artículo está conectado — haz clic para explorar la red de conocimiento de Taiwán',
+      'Cada artículo está conectado — haz clic para explorar la red de conocimiento de Laguna Beach',
     'home.features.cta.graph':
       '🔗 Grafo de conocimiento — Explorar conexiones entre artículos',
     'home.features.cta.ssot': '📂 Explorar datos fuente SSOT ↗',

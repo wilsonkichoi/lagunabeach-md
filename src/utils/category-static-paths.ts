@@ -24,6 +24,7 @@ const CATEGORY_MAPPING: Record<string, string> = {
   trails: 'Trails',
   'events-festivals': 'Events & Festivals',
   neighborhoods: 'Neighborhoods',
+  about: 'About',
 };
 
 const CATEGORY_LIST = Object.keys(CATEGORY_MAPPING);
