@@ -1,48 +1,48 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-20T05:53:33-07:00",
-    "zhCommitHead": "b2a74377c",
-    "totalZh": 15,
+    "lastUpdated": "2026-06-20T07:49:45-07:00",
+    "zhCommitHead": "2c22a11a4",
+    "totalZh": 18,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
-        "total_zh": 15,
+        "total_zh": 18,
         "fresh": 0,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 15,
+        "missing": 18,
         "orphan": 0
       },
       "ja": {
-        "total_zh": 15,
+        "total_zh": 18,
         "fresh": 0,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 15,
+        "missing": 18,
         "orphan": 0
       },
       "ko": {
-        "total_zh": 15,
+        "total_zh": 18,
         "fresh": 0,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 15,
+        "missing": 18,
         "orphan": 0
       },
       "es": {
-        "total_zh": 15,
+        "total_zh": 18,
         "fresh": 0,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 15,
+        "missing": 18,
         "orphan": 0
       },
       "fr": {
-        "total_zh": 15,
+        "total_zh": 18,
         "fresh": 0,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 15,
+        "missing": 18,
         "orphan": 0
       }
     },
@@ -236,6 +236,81 @@
         "lastModified": "2026-06-20T02:36:05-07:00",
         "contentHash": "sha256:41c445c379bf7e93",
         "bodyHash": "sha256:17cefc70390b95e2"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
+    "About/lagunabeach-md.md": {
+      "zh": {
+        "lastCommit": "",
+        "lastModified": "",
+        "contentHash": "sha256:90c9bfb5418d3194",
+        "bodyHash": "sha256:add1ec74e5422e85"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
+    "About/how-an-article-is-born.md": {
+      "zh": {
+        "lastCommit": "",
+        "lastModified": "",
+        "contentHash": "sha256:cf9bef295cb94620",
+        "bodyHash": "sha256:7eb7fea54dde4747"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
+    "About/visualization-catalog.md": {
+      "zh": {
+        "lastCommit": "",
+        "lastModified": "",
+        "contentHash": "sha256:9228c023a164c671",
+        "bodyHash": "sha256:5d953e462aecf903"
       },
       "translations": {
         "en": {

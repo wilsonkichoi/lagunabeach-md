@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T12:53:42.314Z",
+  "lastUpdated": "2026-06-20T14:49:51.939Z",
   "generator": "scripts/core/generate-dashboard-alerts.mjs",
   "note": "derived 警報層 — CONSCIOUSNESS §警報 的機械接管 (audit 2026-06-10 A-3)",
   "count": 5,
@@ -13,7 +13,7 @@
     {
       "id": "organ-immune",
       "severity": "red",
-      "message": "🛡️ 免疫系統 器官分數 17 < 50，需要干預",
+      "message": "🛡️ 免疫系統 器官分數 20 < 50，需要干預",
       "source": "dashboard-organism.json"
     },
     {
@@ -25,7 +25,7 @@
     {
       "id": "immune-status",
       "severity": "red",
-      "message": "免疫 v3=17：🔴 危險 — 結構性免疫不足",
+      "message": "免疫 v3=20：🔴 危險 — 結構性免疫不足",
       "source": "dashboard-immune.json"
     },
     {

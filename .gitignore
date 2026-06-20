@@ -48,6 +48,9 @@ cloudflare-token*
 # macOS-specific files
 .DS_Store
 
+# Playwright test output
+test-results/
+
 # Obsidian workspace metadata
 .obsidian/
 

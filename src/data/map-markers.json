@@ -21,8 +21,8 @@
   },
   {
     "title": "Victoria Beach",
-    "lat": 33.516381,
-    "lng": -117.771689,
+    "lat": 33.514163,
+    "lng": -117.769892,
     "category": "beaches",
     "region": "The Village",
     "link": "/beaches/victoria-beach",
@@ -31,8 +31,8 @@
   },
   {
     "title": "Pageant of the Masters",
-    "lat": 33.535004,
-    "lng": -117.778847,
+    "lat": 33.533649,
+    "lng": -117.774496,
     "category": "events-festivals",
     "region": "The Village",
     "link": "/events-festivals/pageant-of-the-masters",

@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-06-20T05:53:41.264086",
+  "lastUpdated": "2026-06-20T07:49:51.149625",
   "schemaVersion": "v2-2026-05-16",
   "featureFlag": "IMMUNE_V2",
-  "immuneScore": 17,
+  "immuneScore": 20,
   "status": "🔴 危險 — 結構性免疫不足",
   "components": {
     "review_coverage": 0.0,
-    "plugin_pass_rate": 0.0,
+    "plugin_pass_rate": 11.7,
     "plugin_health": 45.8,
-    "citation_density": 0.0,
+    "citation_density": 4.4,
     "tool_freshness": 60,
     "drift_velocity": 90.0,
     "external_rulers": 0.0
@@ -30,7 +30,7 @@
       "weight": 3.0
     },
     "T2": {
-      "total": 12,
+      "total": 15,
       "reviewed": 0,
       "pct": 0.0,
       "weight": 1.5
@@ -43,9 +43,9 @@
     }
   },
   "pluginPassDetail": {
-    "total_files": 15,
-    "hard_pass_files": 0,
-    "hard_pass_pct": 0.0,
+    "total_files": 18,
+    "hard_pass_files": 3,
+    "hard_pass_pct": 16.7,
     "warn_pass_files": 0,
     "warn_pass_pct": 0.0,
     "weight_formula": "hard×0.7 + warn×0.3"
@@ -55,10 +55,10 @@
       "A": 0,
       "B": 0,
       "C": 0,
-      "D": 0,
-      "F": 15
+      "D": 2,
+      "F": 16
     },
-    "files_with_grade": 15
+    "files_with_grade": 18
   },
   "freshnessDetail": {
     "editorial_days_old": 5,
@@ -206,7 +206,7 @@
   },
   "externalRulersDetail": {
     "ruledArticles": 0,
-    "totalArticles": 15,
+    "totalArticles": 18,
     "rulerSources": {
       "factcheckReports": true,
       "readerErrataCommits90d": true,

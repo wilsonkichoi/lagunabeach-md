@@ -1,12 +1,16 @@
 {
-  "totalArticles": 16,
-  "totalCategories": 9,
+  "totalArticles": 19,
+  "totalCategories": 10,
   "estimatedContributors": 61,
-  "totalTags": 50,
+  "totalTags": 57,
   "categories": [
     {
       "name": "History",
       "count": 2
+    },
+    {
+      "name": "About",
+      "count": 3
     },
     {
       "name": "INBOX.md",
@@ -51,6 +55,14 @@
       "count": 4
     },
     {
+      "name": "about",
+      "count": 3
+    },
+    {
+      "name": "meta",
+      "count": 3
+    },
+    {
       "name": "south-laguna",
       "count": 3
     },
@@ -64,6 +76,10 @@
     },
     {
       "name": "artists-colony",
+      "count": 2
+    },
+    {
+      "name": "editorial",
       "count": 2
     },
     {
@@ -107,30 +123,18 @@
       "count": 1
     },
     {
-      "name": "museum",
-      "count": 1
-    },
-    {
-      "name": "california-art",
-      "count": 1
-    },
-    {
-      "name": "wilderness",
-      "count": 1
-    },
-    {
-      "name": "greenbelt",
+      "name": "writing",
       "count": 1
     }
   ],
   "languageDistribution": {
-    "zh-TW": 16,
+    "zh-TW": 19,
     "en": 0
   },
-  "lastUpdated": "2026-06-20T12:53:36.472Z",
-  "stars": 1059,
+  "lastUpdated": "2026-06-20T14:49:48.855Z",
+  "stars": 1060,
   "forks": 156,
-  "zhPages": 9,
+  "zhPages": 12,
   "enPages": 0,
-  "totalPages": 9
+  "totalPages": 12
 }

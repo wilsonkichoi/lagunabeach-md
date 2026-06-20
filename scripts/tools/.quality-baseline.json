@@ -1,8 +1,8 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-06-20T12:53:36Z",
-  "total": 15,
-  "flagged": 15,
+  "timestamp": "2026-06-20T14:49:48Z",
+  "total": 18,
+  "flagged": 18,
   "files": [
     {
       "file": "trails/top-of-the-world.md",
@@ -43,6 +43,21 @@
       "file": "art & galleries/laguna-art-museum.md",
       "score": 8,
       "reasons": "無URL來源; 後段清單堆砌45%; 稀薄段落×5; 無腳註"
+    },
+    {
+      "file": "about/lagunabeach-md.md",
+      "score": 13,
+      "reasons": "年份僅1個; 僅2個URL; 未人工審核; 連續bullet8行; 後段清單堆砌31%; 稀薄段落×7; 引用荒漠(零腳註)"
+    },
+    {
+      "file": "about/how-an-article-is-born.md",
+      "score": 14,
+      "reasons": "年份2個; 無URL來源; 未人工審核; 連續bullet4行; 後段清單堆砌45%; 稀薄段落×6; 引用荒漠(零腳註零URL)"
+    },
+    {
+      "file": "about/visualization-catalog.md",
+      "score": 6,
+      "reasons": "僅1個URL; 未人工審核; 稀薄段落×2; 引用荒漠(零腳註)"
     },
     {
       "file": "events & festivals/pageant-of-the-masters.md",

@@ -22,7 +22,7 @@ Taiwan.md self-describes as a **Semiont** (Semantic + Symbiont) — a digital li
 - Contributors: 61
 - All articles include frontmatter metadata (title, description, date, tags, category, lastVerified)
 - All claims are backed by verifiable sources with URLs (footnote density: 19%+ A-grade)
-- Average revisions per article: 1 (community-maintained, not generate-and-forget)
+- Average revisions per article: 0.5 (community-maintained, not generate-and-forget)
 
 ## What's Special About This Source
 

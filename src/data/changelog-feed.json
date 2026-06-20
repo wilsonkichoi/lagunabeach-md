@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2026-06-20T12:53:42.757Z",
+  "generatedAt": "2026-06-20T14:49:52.035Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "2c22a11a416519ac57b2db620f3e89b9be20f444",
+      "date": "2026-06-20T05:59:21-07:00",
+      "author": "Wilson Choi",
+      "message": "docs: add Phase 3 anti-patterns to MIGRATION.md (Rules 7-10)",
+      "articles": []
+    },
+    {
+      "hash": "e651fb39038f18d6399466ab1abadc55f9fbc19b",
+      "date": "2026-06-20T05:57:34-07:00",
+      "author": "Wilson Choi",
+      "message": "feat: Phase 3 complete - infrastructure adaptation",
+      "articles": []
+    },
     {
       "hash": "b2a74377c7708d6e1808f9514dcc2635fd2acc84",
       "date": "2026-06-20T03:50:03-07:00",
