@@ -72,7 +72,7 @@ const {
 // override; falls back to git date → publish date. Same source as the sitemap
 // <lastmod> so visible/structured dates stay consistent (a Google requirement).
 const _seoUrlPath =
-  lang === 'zh-TW' ? `/${category}/${slug}/` : `/${lang}/${category}/${slug}/`;
+  lang === 'en' ? `/${category}/${slug}/` : `/${lang}/${category}/${slug}/`;
 const _toISO = (v: unknown): string | undefined =>
   v instanceof Date ? v.toISOString() : typeof v === 'string' ? v : undefined;
 const seoDatePublished = _toISO(frontmatter.date);
@@ -86,8 +86,8 @@ const seoDateModified =
 // ── Lang-derived helpers ─────────────────────────────────────────────────────
 // langPath: '' for zh-TW (SSOT root), else '{lang}/' for non-default langs.
 // Used for: knowledge folder path, github edit URL, taiwan.md article URL.
-const langPath = lang === 'zh-TW' ? '' : `${lang}/`;
-const langUrlPrefix = lang === 'zh-TW' ? '' : `/${lang}`;
+const langPath = lang === 'en' ? '' : `${lang}/`;
+const langUrlPrefix = lang === 'en' ? '' : `/${lang}`;
 
 // Per-lang prose font (wired into <style define:vars> below as --prose-font).
 // zh-TW uses jf-jinxuanlatte (justfont 金萱拿鐵) to match site body cascade
@@ -105,23 +105,14 @@ const proseFont = proseFontMap[lang] ?? proseFontMap['zh-TW'];
 
 // ── Category → folder mapping ─────────────────────────────────────────────────
 const categoryMapping: Record<string, string> = {
-  about: 'About',
   history: 'History',
-  geography: 'Geography',
-  culture: 'Culture',
+  'art-galleries': 'Art & Galleries',
+  'nature-marine-life': 'Nature & Marine Life',
   food: 'Food',
-  art: 'Art',
-  music: 'Music',
-  technology: 'Technology',
-  nature: 'Nature',
-  people: 'People',
-  society: 'Society',
-  economy: 'Economy',
-  lifestyle: 'Lifestyle',
-  // 2026-06-13 補：先前漏 politics → ~67 篇 politics 頁 render-time git 查找
-  // 靜默跳過、走 props fallback（輸出相同，但路徑不一致）。wrapper 的
-  // CATEGORY_MAPPING 一直有 politics，兩張表應同步。
-  politics: 'Politics',
+  beaches: 'Beaches',
+  trails: 'Trails',
+  'events-festivals': 'Events & Festivals',
+  neighborhoods: 'Neighborhoods',
 };
 
 // ── Git info ─────────────────────────────────────────────────────────────────
@@ -129,7 +120,7 @@ const categoryMapping: Record<string, string> = {
 // 整個 build 每語言只跑一次 git log。cache 不能放這裡 — frontmatter 是
 // per-render scope，放這裡 = 每頁重跑 git log 子程序（2026-06-13 修掉的 bug）。
 function getGitInfoForLang(lang: Lang, filePath: string): GitInfo {
-  const knowledgeBase = lang === 'zh-TW' ? 'knowledge/' : `knowledge/${lang}/`;
+  const knowledgeBase = lang === 'en' ? 'knowledge/' : `knowledge/${lang}/`;
   return buildGitInfoCache(knowledgeBase).get(filePath) || emptyGitInfo();
 }
 
@@ -138,7 +129,7 @@ const _renderFilePath = (() => {
   const folderName = categoryMapping[category as string];
   if (!folderName) return '';
   const knowledgeRoot =
-    lang === 'zh-TW'
+    lang === 'en'
       ? resolve(process.cwd(), 'knowledge', folderName)
       : resolve(process.cwd(), 'knowledge', lang, folderName);
   return join(knowledgeRoot, slug + '.md').normalize('NFC');
@@ -498,7 +489,7 @@ const encodedTitle = encodeURIComponent(title);
         <!-- Contribution row -->
         <div class="my-8 flex flex-wrap gap-3">
           <a
-            href={`https://github.com/frank890417/taiwan-md/edit/main/knowledge/${langPath}${categoryMapping[category as string]}/${slug}.md`}
+            href={`https://github.com/wilsonkichoi/lagunabeach-md/edit/main/knowledge/${categoryMapping[category as string]}/${slug}.md`}
             target="_blank"
             rel="noopener noreferrer"
             class="inline-flex items-center gap-[0.45rem] rounded-full bg-[#1a3c34] px-[1.1rem] py-[0.55rem] font-['Inter',system-ui,sans-serif] text-[0.82rem] font-medium text-[#f8f1e9] no-underline transition-all duration-200 hover:bg-[#243d36]"

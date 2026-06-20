@@ -15,32 +15,20 @@ const translatePath = useTranslatedPath(lang);
 
 const categoryConfigs = getCategoryConfigs(t);
 
-// Count articles dynamically from knowledge/ directory
 function countArticles(categorySlug: string): number {
-  const categoryMap: Record<string, string> = {
-    history: 'History',
-    geography: 'Geography',
-    culture: 'Culture',
-    food: 'Food',
-    art: 'Art',
-    music: 'Music',
-    technology: 'Technology',
-    nature: 'Nature',
-    people: 'People',
-    society: 'Society',
-    economy: 'Economy',
-    lifestyle: 'Lifestyle',
-  };
-  const dirName = categoryMap[categorySlug] || categorySlug;
+  const config = categoryConfigs[categorySlug as keyof typeof categoryConfigs];
+  if (!config) return 0;
+  const dirName = config.name;
   const dirPath = path.join(
     process.cwd(),
     'knowledge',
-    lang === defaultLang ? '/' : lang,
+    lang === defaultLang ? '' : lang,
     dirName,
   );
   try {
     const files = fs.readdirSync(dirPath);
-    return files.filter((f) => f.endsWith('.md') && !f.startsWith('_')).length;
+    return files.filter((f: string) => f.endsWith('.md') && !f.startsWith('_'))
+      .length;
   } catch {
     return 0;
   }
@@ -57,116 +45,15 @@ function countArticles(categorySlug: string): number {
 // onerror → nextElementSibling display:flex, so visual UX stays identical.
 // If we want category covers back, place real images at /images/categories/{slug}.jpg
 // and re-add cover fields; don't resurrect the phantom wiki/ hash names.
-const categories = [
-  {
-    name: categoryConfigs['history'].name,
-    slug: 'history',
-    description: categoryConfigs['history'].description,
-    icon: '📜',
-    gradient: 'linear-gradient(135deg, #f59e0b, #ea580c)',
-    headerHeight: 200,
-    mobileHeaderHeight: 112,
-  },
-  {
-    name: categoryConfigs['geography'].name,
-    slug: 'geography',
-    description: categoryConfigs['geography'].description,
-    icon: '🗺️',
-    gradient: 'linear-gradient(135deg, #10b981, #0d9488)',
-    headerHeight: 110,
-    mobileHeaderHeight: 112,
-  },
-  {
-    name: categoryConfigs['culture'].name,
-    slug: 'culture',
-    description: categoryConfigs['culture'].description,
-    icon: '🎭',
-    gradient: 'linear-gradient(135deg, #8b5cf6, #7c3aed)',
-    headerHeight: 160,
-    mobileHeaderHeight: 112,
-  },
-  {
-    name: categoryConfigs['food'].name,
-    slug: 'food',
-    description: categoryConfigs['food'].description,
-    icon: '🍜',
-    gradient: 'linear-gradient(135deg, #f43f5e, #db2777)',
-    headerHeight: 185,
-    mobileHeaderHeight: 112,
-  },
-  {
-    name: categoryConfigs['art'].name,
-    slug: 'art',
-    description: categoryConfigs['art'].description,
-    icon: '🎨',
-    gradient: 'linear-gradient(135deg, #06b6d4, #2563eb)',
-    headerHeight: 105,
-    mobileHeaderHeight: 112,
-  },
-  {
-    name: categoryConfigs['music'].name,
-    slug: 'music',
-    description: categoryConfigs['music'].description,
-    icon: '🎵',
-    gradient: 'linear-gradient(135deg, #6366f1, #9333ea)',
-    headerHeight: 165,
-    mobileHeaderHeight: 112,
-  },
-  {
-    name: categoryConfigs['technology'].name,
-    slug: 'technology',
-    description: categoryConfigs['technology'].description,
-    icon: '💻',
-    gradient: 'linear-gradient(135deg, #64748b, #4b5563)',
-    headerHeight: 115,
-    mobileHeaderHeight: 112,
-  },
-  {
-    name: categoryConfigs['nature'].name,
-    slug: 'nature',
-    description: categoryConfigs['nature'].description,
-    icon: '🌿',
-    gradient: 'linear-gradient(135deg, #22c55e, #059669)',
-    headerHeight: 195,
-    mobileHeaderHeight: 112,
-  },
-  {
-    name: categoryConfigs['people'].name,
-    slug: 'people',
-    description: categoryConfigs['people'].description,
-    icon: '👥',
-    gradient: 'linear-gradient(135deg, #f97316, #dc2626)',
-    headerHeight: 175,
-    mobileHeaderHeight: 112,
-  },
-  {
-    name: categoryConfigs['society'].name,
-    slug: 'society',
-    description: categoryConfigs['society'].description,
-    icon: '🏛️',
-    gradient: 'linear-gradient(135deg, #3b82f6, #4f46e5)',
-    headerHeight: 108,
-    mobileHeaderHeight: 112,
-  },
-  {
-    name: categoryConfigs['economy'].name,
-    slug: 'economy',
-    description: categoryConfigs['economy'].description,
-    icon: '📊',
-    gradient: 'linear-gradient(135deg, #eab308, #d97706)',
-    headerHeight: 150,
-    mobileHeaderHeight: 112,
-  },
-  {
-    name: categoryConfigs['lifestyle'].name,
-    slug: 'lifestyle',
-    description: categoryConfigs['lifestyle'].description,
-    icon: '🏠',
-    gradient: 'linear-gradient(135deg, #14b8a6, #0891b2)',
-    headerHeight: 155,
-    mobileHeaderHeight: 112,
-  },
-];
+const categories = Object.entries(categoryConfigs).map(([slug, config]) => ({
+  name: config.name,
+  slug,
+  description: config.description,
+  icon: config.icon,
+  gradient: config.gradient,
+  headerHeight: 160,
+  mobileHeaderHeight: 112,
+}));
 ---
 
 <!--

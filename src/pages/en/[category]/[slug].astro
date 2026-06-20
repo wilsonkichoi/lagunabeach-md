@@ -86,7 +86,9 @@ export async function getStaticPaths() {
     }
   }
   if (paths.length === 0) {
-    throw new Error('[en getStaticPaths] Generated 0 paths.');
+    console.log(
+      '[en getStaticPaths] Generated 0 paths — no knowledge/en/ content (expected for LB fork).',
+    );
   }
   return paths;
 }

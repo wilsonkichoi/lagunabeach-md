@@ -31,20 +31,14 @@ function getGitInfo(filePath: string) {
 // 所以 CATEGORY_MAPPING 必須 inline 進 getStaticPaths body。
 export async function getStaticPaths() {
   const CATEGORY_MAPPING: Record<string, string> = {
-    about: 'About',
     history: 'History',
-    geography: 'Geography',
-    culture: 'Culture',
+    'art-galleries': 'Art & Galleries',
+    'nature-marine-life': 'Nature & Marine Life',
     food: 'Food',
-    art: 'Art',
-    music: 'Music',
-    technology: 'Technology',
-    nature: 'Nature',
-    people: 'People',
-    society: 'Society',
-    economy: 'Economy',
-    lifestyle: 'Lifestyle',
-    politics: 'Politics',
+    beaches: 'Beaches',
+    trails: 'Trails',
+    'events-festivals': 'Events & Festivals',
+    neighborhoods: 'Neighborhoods',
   };
 
   const safeMatter = (fileContent: string) => {
@@ -79,7 +73,7 @@ export async function getStaticPaths() {
             description: frontmatter.description || '',
             content,
             frontmatter,
-            lang: 'zh-TW',
+            lang: 'en',
             contributors: gitInfo.contributors,
             lastModified: gitInfo.lastModified,
           },
@@ -92,11 +86,9 @@ export async function getStaticPaths() {
       );
     }
   }
-  if (paths.length === 0) {
-    throw new Error(
-      '[zh getStaticPaths] Generated 0 paths — all categories failed.',
-    );
-  }
+  console.log(
+    `[default getStaticPaths] Generated ${paths.length} article paths`,
+  );
   return paths;
 }
 

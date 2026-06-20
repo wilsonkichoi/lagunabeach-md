@@ -17,18 +17,13 @@ import matter from 'gray-matter';
 
 const CATEGORY_MAPPING: Record<string, string> = {
   history: 'History',
-  geography: 'Geography',
-  culture: 'Culture',
+  'art-galleries': 'Art & Galleries',
+  'nature-marine-life': 'Nature & Marine Life',
   food: 'Food',
-  art: 'Art',
-  music: 'Music',
-  technology: 'Technology',
-  nature: 'Nature',
-  people: 'People',
-  society: 'Society',
-  economy: 'Economy',
-  lifestyle: 'Lifestyle',
-  politics: 'Politics',
+  beaches: 'Beaches',
+  trails: 'Trails',
+  'events-festivals': 'Events & Festivals',
+  neighborhoods: 'Neighborhoods',
 };
 
 const CATEGORY_LIST = Object.keys(CATEGORY_MAPPING);
@@ -116,7 +111,7 @@ export async function getCategoryHubStaticPaths(lang: string) {
     const articles: ArticleSummary[] = [];
 
     const folderPath =
-      lang === 'zh-TW'
+      lang === 'en'
         ? resolve(process.cwd(), 'knowledge', folderName)
         : resolve(process.cwd(), 'knowledge', lang, folderName);
 
@@ -153,7 +148,7 @@ export async function getCategoryHubStaticPaths(lang: string) {
     } catch (err) {
       // Lang folder missing (e.g., en/Music) is OK — skip silently.
       // Only log if zh-TW because that's SSOT.
-      if (lang === 'zh-TW') {
+      if (lang === 'en') {
         console.error(
           `[category-hub-static-paths] Error loading "${category}" for ${lang}:`,
           (err as Error).message,

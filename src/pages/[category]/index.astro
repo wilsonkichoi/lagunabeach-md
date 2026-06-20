@@ -7,7 +7,7 @@ import CategoryHubTemplate from '../../templates/category-hub.template.astro';
 import { getCategoryHubStaticPaths } from '../../utils/category-static-paths';
 
 export async function getStaticPaths() {
-  return await getCategoryHubStaticPaths('zh-TW');
+  return await getCategoryHubStaticPaths('en');
 }
 
 // Force Astro bundler to wrap props access inside createComponent

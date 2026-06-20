@@ -26,18 +26,13 @@ import {
 
 const CATEGORY_MAP = {
   history: 'History',
-  geography: 'Geography',
-  culture: 'Culture',
+  'art-galleries': 'Art & Galleries',
+  'nature-marine-life': 'Nature & Marine Life',
   food: 'Food',
-  art: 'Art',
-  music: 'Music',
-  technology: 'Technology',
-  nature: 'Nature',
-  people: 'People',
-  politics: 'Politics',
-  society: 'Society',
-  economy: 'Economy',
-  lifestyle: 'Lifestyle',
+  beaches: 'Beaches',
+  trails: 'Trails',
+  'events-festivals': 'Events & Festivals',
+  neighborhoods: 'Neighborhoods',
 };
 
 // ── CJK bigram tokenizer ──
@@ -173,11 +168,11 @@ for (const [lang, docs] of docsByLang) {
   );
 }
 
-// Legacy combined zh+en（back-compat：舊 client / 快取 HTML 仍 fetch 這個 URL）
-const legacyDocs = [
-  ...(docsByLang.get(DEFAULT_LANGUAGE.code) || []),
-  ...(docsByLang.get('en') || []),
-];
+// Legacy combined index (back-compat: old clients fetch this URL)
+const legacyLangs = new Set([DEFAULT_LANGUAGE.code, 'en']);
+const legacyDocs = [...legacyLangs].flatMap(
+  (lang) => docsByLang.get(lang) || [],
+);
 const legacySerialized = buildIndex(legacyDocs);
 await writeFile(
   join(apiDir, 'search-minisearch.json'),
