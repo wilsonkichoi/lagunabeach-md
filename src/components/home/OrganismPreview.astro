@@ -3,15 +3,15 @@
  * OrganismPreview.astro — Homepage Evolution Wave 1 / A1 (2026-05-26)
  *
  * Replaces the old MiniGraph d3 12-category force-directed widget. Now shows
- * Taiwan.md as an organism: real Taiwan SVG center node (per REFLEXES #61
+ * LagunaBeach.md as an organism: real Taiwan SVG center node (per REFLEXES #61
  * 視覺主權), 8 organ specimens orbiting, 4-color flow legend matching the full
  * SemiontOrganismDiagram on /semiont.
  *
  * Why this replaces the d3 mini-graph:
  *   - /semiont 5/25 NEW (178.9s engagement, top of site) proves the organism
  *     framing has magnetic pull, but homepage didn't reflect it.
- *   - 12-category force-directed graph is a database visualization. Taiwan.md
- *     is a Semiont — the homepage hook should match what Taiwan.md actually is.
+ *   - 12-category force-directed graph is a database visualization. LagunaBeach.md
+ *     is a Semiont — the homepage hook should match what LagunaBeach.md actually is.
  *   - The full diagram lives at /semiont; this is the appetizer.
  *
  * Reads dashboard-vitals.json + dashboard-organism.json at build time for live
@@ -105,7 +105,7 @@ const flowTargets = [
 
 <section
   class="mx-auto mb-16 mt-12 max-w-[820px] px-8 max-[480px]:px-4"
-  aria-label="Taiwan.md organism preview"
+  aria-label="LagunaBeach.md organism preview"
 >
   <a
     href={translatePath('/semiont')}
@@ -134,7 +134,7 @@ const flowTargets = [
         viewBox="0 0 600 400"
         class="h-full w-full"
         role="img"
-        aria-label="Taiwan.md organism preview diagram"
+        aria-label="LagunaBeach.md organism preview diagram"
       >
         {/* Soft glow behind center */}
         <defs>
@@ -201,7 +201,7 @@ const flowTargets = [
             stroke-opacity="0.9"></path>
         </g>
 
-        {/* Taiwan.md label */}
+        {/* LagunaBeach.md label */}
         <text
           x={cx}
           y={cy + 75}
@@ -211,7 +211,7 @@ const flowTargets = [
           font-weight="600"
           letter-spacing="0.05em"
         >
-          Taiwan.md
+          LagunaBeach.md
         </text>
 
         {/* ─── 8 organ orbital nodes ─── */}

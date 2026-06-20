@@ -31,13 +31,13 @@ interface Props {
   categorySlug?: string;
 }
 
-const { lang = 'zh-TW' } = Astro.props;
+const { lang = 'en' } = Astro.props;
 const {
   title,
   description = lang === 'zh-TW'
-    ? `開源、AI-friendly 的台灣完整知識庫。${_liveArticleCount}+ 頁深度內容涵蓋歷史、文化、美食、音樂、科技等 12 大主題，由社群共同編撰，讓全世界認識真正的台灣。`
-    : `The open-source, AI-friendly knowledge base about Taiwan. ${_liveArticleCount}+ pages covering history, culture, food, music, technology and more — written by the community, for the world.`,
-  image = '/images/taiwan-social.jpg',
+    ? `開源、AI-friendly 的拉古納海灘知識庫。${_liveArticleCount}+ 頁深度內容涵蓋歷史、藝術、美食、海灘、步道等 8 大主題。`
+    : `The open-source, AI-friendly knowledge base about Laguna Beach, California. ${_liveArticleCount}+ articles covering history, art, nature, food, beaches, trails, events and neighborhoods.`,
+  image = '/images/laguna-social.jpg',
   url = Astro.url.href,
   type = 'website',
   datePublished,
@@ -49,8 +49,8 @@ const {
   categorySlug,
 } = Astro.props;
 
-const fullTitle = `${title} | Taiwan.md`;
-const siteUrl = 'https://taiwan.md';
+const fullTitle = `${title} | LagunaBeach.md`;
+const siteUrl = 'https://lagunabeach.md';
 
 // OG image strategy (2026-04-22 β):
 //   - Article pages: per-article OG at /og-images/[lang]/[cat]/[slug].jpg
@@ -64,7 +64,7 @@ if (
   type === 'article' &&
   categorySlug &&
   slug &&
-  image === '/images/taiwan-social.jpg'
+  image === '/images/laguna-social.jpg'
 ) {
   const isDefaultLang = lang === 'zh-TW';
   const pathPrefix = isDefaultLang
@@ -84,7 +84,7 @@ if (
   if (existsSync(jpgFull)) {
     finalImage = `${urlBase}.jpg`;
   }
-  // else: finalImage 維持 /images/taiwan-social.jpg 預設值
+  // else: finalImage 維持 /images/laguna-social.jpg 預設值
 }
 
 const fullImageUrl = new URL(finalImage, siteUrl).href;
@@ -127,16 +127,16 @@ const generateJSONLD = () => {
       description: description,
       author: {
         '@type': 'Organization',
-        name: 'Taiwan.md',
+        name: 'LagunaBeach.md',
         url: siteUrl,
       },
       publisher: {
         '@type': 'Organization',
-        name: 'Taiwan.md',
+        name: 'LagunaBeach.md',
         url: siteUrl,
         logo: {
           '@type': 'ImageObject',
-          url: `${siteUrl}/images/taiwan-social.jpg`,
+          url: `${siteUrl}/images/laguna-social.jpg`,
           width: 1200,
           height: 630,
         },
@@ -166,21 +166,21 @@ const generateJSONLD = () => {
     '@type': 'WebSite',
     name:
       lang === 'zh-TW'
-        ? 'Taiwan.md - 台灣知識庫'
-        : 'Taiwan.md — Knowledge Base',
+        ? 'LagunaBeach.md - 拉古納海灘知識庫'
+        : 'LagunaBeach.md — Knowledge Base',
     description:
       lang === 'zh-TW'
-        ? '讓全世界完整認識台灣 - 開源台灣知識庫，蒐集關於台灣的政治、經濟、文化、歷史、地理等各方面知識。'
-        : 'Open-source, AI-friendly knowledge base about Taiwan — politics, economy, culture, history, geography, and more.',
+        ? '開源拉古納海灘知識庫，涵蓋歷史、藝術、自然、美食、海灘、步道、節慶、社區等各方面知識。'
+        : 'Open-source, AI-friendly knowledge base about Laguna Beach, California — history, art, nature, food, beaches, trails, events, and neighborhoods.',
     url: siteUrl,
     inLanguage: lang,
     publisher: {
       '@type': 'Organization',
-      name: 'Taiwan.md',
+      name: 'LagunaBeach.md',
       url: siteUrl,
       logo: {
         '@type': 'ImageObject',
-        url: `${siteUrl}/images/taiwan-social.jpg`,
+        url: `${siteUrl}/images/laguna-social.jpg`,
         width: 1200,
         height: 630,
       },
@@ -196,9 +196,9 @@ const generateJSONLD = () => {
       'query-input': 'required name=search_term_string',
     },
     sameAs: [
-      'https://github.com/frank890417/taiwan-md',
-      'https://x.com/taiwandotmd',
-      'https://www.instagram.com/taiwandotmd',
+      'https://github.com/wilsonkichoi/lagunabeach-md',
+      'https://x.com/lagunabeachmd',
+      'https://www.instagram.com/lagunabeachmd',
     ],
   };
 };
@@ -215,48 +215,43 @@ const jsonLD = generateJSONLD();
 const organizationLD = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  name: 'Taiwan.md',
-  alternateName: ['台灣 .md', 'taiwan.md'],
+  name: 'LagunaBeach.md',
+  alternateName: ['Laguna Beach MD', 'lagunabeach.md'],
   url: siteUrl,
-  logo: `${siteUrl}/images/taiwan-social.jpg`,
+  logo: `${siteUrl}/images/laguna-social.jpg`,
   description:
     lang === 'zh-TW'
-      ? '開源、AI-friendly 的台灣知識庫 — 一個會呼吸的數位生命體，752+ 篇深度策展文章、6 種語言、社群共編。'
-      : 'Open-source, AI-friendly knowledge base about Taiwan — a digital organism with 752+ curated articles in 6 languages, co-edited by the community.',
+      ? '開源、AI-friendly 的拉古納海灘知識庫，涵蓋歷史、藝術、自然、海灘等 8 大主題。'
+      : 'Open-source, AI-friendly knowledge base about Laguna Beach, California — curated articles covering history, art, nature, food, beaches, trails, events, and neighborhoods.',
   slogan:
     lang === 'zh-TW'
-      ? '策展島嶼的深度敘事'
-      : 'Curating the deep narratives of an island',
-  foundingDate: '2024-03-17',
+      ? '策展海灘城市的深度敘事'
+      : 'Curating the deep narratives of a coastal city',
+  foundingDate: '2026-06-19',
   inLanguage: ENABLED_LANGUAGE_CODES,
   knowsAbout: [
-    'Taiwan history',
-    'Taiwan culture',
-    'Taiwan geography',
-    'Taiwan politics',
-    'Taiwan economy',
-    'Taiwan society',
-    'Taiwanese food',
-    'Taiwan music',
-    'Taiwan art',
-    'Taiwanese people',
-    'Taiwan nature',
-    'Taiwan technology',
-    'Taiwan lifestyle',
-    'Semiconductor industry',
-    'Cross-strait relations',
-    'Taiwanese democracy',
-    'Indigenous Taiwanese peoples',
+    'Laguna Beach history',
+    'Laguna Beach art',
+    'Laguna Beach nature',
+    'Laguna Beach food',
+    'Laguna Beach beaches',
+    'Laguna Beach trails',
+    'Laguna Beach events',
+    'Laguna Beach neighborhoods',
+    'Plein air painting',
+    'Pageant of the Masters',
+    'Orange County California',
+    'Southern California coastal ecology',
   ],
   sameAs: [
-    'https://github.com/frank890417/taiwan-md',
-    'https://x.com/taiwandotmd',
-    'https://www.instagram.com/taiwandotmd',
-    'https://www.threads.com/@taiwandotmd',
+    'https://github.com/wilsonkichoi/lagunabeach-md',
+    'https://x.com/lagunabeachmd',
+    'https://www.instagram.com/lagunabeachmd',
+    'https://www.threads.com/@lagunabeachmd',
   ],
   contactPoint: {
     '@type': 'ContactPoint',
-    email: 'taiwanmd@monoame.com',
+    email: 'hello@lagunabeach.md',
     contactType: 'Customer Support',
   },
 };
@@ -267,7 +262,7 @@ const organizationLD = {
 const websiteLD = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'Taiwan.md',
+  name: 'LagunaBeach.md',
   url: siteUrl,
   inLanguage: ENABLED_LANGUAGE_CODES,
   potentialAction: {
@@ -280,7 +275,7 @@ const websiteLD = {
   },
   publisher: {
     '@type': 'Organization',
-    name: 'Taiwan.md',
+    name: 'LagunaBeach.md',
     url: siteUrl,
   },
 };
@@ -326,14 +321,14 @@ const homepageCollectionLD = isHomepage
       isPartOf: {
         '@type': 'WebSite',
         '@id': siteUrl,
-        name: 'Taiwan.md',
+        name: 'LagunaBeach.md',
       },
       mainEntity: {
         '@type': 'ItemList',
         name:
           lang === 'zh-TW'
-            ? 'Taiwan.md 知識策展 12 大主題'
-            : 'Taiwan.md 12 curated knowledge domains',
+            ? 'LagunaBeach.md 知識策展 8 大主題'
+            : 'LagunaBeach.md 8 curated knowledge domains',
         numberOfItems: HOMEPAGE_CATEGORY_HUBS.length,
         itemListElement: HOMEPAGE_CATEGORY_HUBS.map((slug, i) => {
           // For non-default langs, hub URL has lang prefix
@@ -356,13 +351,13 @@ const homepageCollectionLD = isHomepage
 // Dynamic keywords (zh-TW gets Chinese keywords; all other langs get English)
 const baseKeywords =
   lang === 'zh-TW'
-    ? '台灣, Taiwan, 台灣知識庫, 台灣歷史, 台灣文化, 台灣政治, 台灣經濟'
-    : 'Taiwan, knowledge base, Taiwan history, Taiwan culture, Taiwan politics, Taiwan economy';
+    ? '拉古納海灘, Laguna Beach, 知識庫, 歷史, 藝術, 自然, 海灘'
+    : 'Laguna Beach, knowledge base, Laguna Beach history, Laguna Beach art, Laguna Beach beaches, Orange County';
 
 const categoryKeywords = category
   ? lang === 'zh-TW'
-    ? [`台灣${category}`, `${category}台灣`]
-    : [`Taiwan ${category}`, `${category} Taiwan`]
+    ? [`拉古納海灘${category}`, `${category}拉古納海灘`]
+    : [`Laguna Beach ${category}`, `${category} Laguna Beach`]
   : [];
 
 const dynamicKeywords = [
@@ -401,7 +396,7 @@ const generateBreadcrumbLD = () => {
     {
       '@type': 'ListItem',
       position: 1,
-      name: 'Taiwan.md',
+      name: 'LagunaBeach.md',
       item: `${siteUrl}${localePrefix || ''}`,
     },
   ];
@@ -473,7 +468,7 @@ const breadcrumbLD = generateBreadcrumbLD();
 <!-- Basic Meta Tags -->
 <meta name="description" content={description} />
 <meta name="keywords" content={dynamicKeywords} />
-<meta name="author" content="Taiwan.md" />
+<meta name="author" content="LagunaBeach.md" />
 <meta name="generator" content="Astro" />
 <meta name="theme-color" content="#004d40" />
 <meta name="format-detection" content="telephone=no" />
@@ -494,8 +489,8 @@ const breadcrumbLD = generateBreadcrumbLD();
   rel="alternate"
   type="application/rss+xml"
   title={lang === 'en'
-    ? 'Taiwan.md RSS Feed (English)'
-    : 'Taiwan.md RSS 動態消息'}
+    ? 'LagunaBeach.md RSS Feed (English)'
+    : 'LagunaBeach.md RSS 動態消息'}
   href={`${siteUrl}/feed.xml`}
 />
 
@@ -561,13 +556,13 @@ const breadcrumbLD = generateBreadcrumbLD();
 <meta property="og:image:type" content="image/jpeg" />
 <meta
   property="og:image:alt"
-  content={`${title} - ${lang === 'zh-TW' ? 'Taiwan.md 台灣知識庫' : 'Taiwan.md — Knowledge Base'}`}
+  content={`${title} - ${lang === 'zh-TW' ? 'LagunaBeach.md 拉古納海灘知識庫' : 'LagunaBeach.md — Knowledge Base'}`}
 />
 <meta
   property="og:site_name"
   content={lang === 'zh-TW'
-    ? 'Taiwan.md — 台灣知識庫'
-    : 'Taiwan.md — Knowledge Base'}
+    ? 'LagunaBeach.md — 拉古納海灘知識庫'
+    : 'LagunaBeach.md — Knowledge Base'}
 />
 <meta
   property="og:locale"
@@ -602,15 +597,15 @@ const breadcrumbLD = generateBreadcrumbLD();
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@cheyuwu345" />
-<meta name="twitter:creator" content="@cheyuwu345" />
+<meta name="twitter:site" content="@lagunabeachmd" />
+<meta name="twitter:creator" content="@lagunabeachmd" />
 <meta name="twitter:url" content={url} />
 <meta name="twitter:title" content={fullTitle} />
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={fullImageUrl} />
 <meta
   name="twitter:image:alt"
-  content={`${title} - ${lang === 'zh-TW' ? 'Taiwan.md 台灣知識庫' : 'Taiwan.md — Knowledge Base'}`}
+  content={`${title} - ${lang === 'zh-TW' ? 'LagunaBeach.md 拉古納海灘知識庫' : 'LagunaBeach.md — Knowledge Base'}`}
 />
 
 <!-- Additional SEO -->

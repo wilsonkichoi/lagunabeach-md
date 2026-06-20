@@ -1,180 +1,136 @@
 {
-  "totalArticles": 4885,
-  "totalCategories": 20,
+  "totalArticles": 16,
+  "totalCategories": 9,
   "estimatedContributors": 61,
-  "totalTags": 6069,
+  "totalTags": 50,
   "categories": [
     {
-      "name": "es",
-      "count": 813
-    },
-    {
-      "name": "ko",
-      "count": 814
-    },
-    {
-      "name": "fr",
-      "count": 814
-    },
-    {
-      "name": "ja",
-      "count": 813
-    },
-    {
-      "name": "en",
-      "count": 818
-    },
-    {
       "name": "History",
-      "count": 46
+      "count": 2
     },
     {
-      "name": "Politics",
-      "count": 11
+      "name": "INBOX.md",
+      "count": 1
     },
     {
-      "name": "Society",
-      "count": 86
+      "name": "Art & Galleries",
+      "count": 2
     },
     {
-      "name": "About",
-      "count": 8
+      "name": "Trails",
+      "count": 2
     },
     {
-      "name": "Culture",
-      "count": 64
+      "name": "Events & Festivals",
+      "count": 2
     },
     {
-      "name": "People",
-      "count": 232
-    },
-    {
-      "name": "Music",
-      "count": 34
+      "name": "Neighborhoods",
+      "count": 2
     },
     {
       "name": "Food",
-      "count": 56
+      "count": 1
     },
     {
-      "name": "Geography",
-      "count": 63
+      "name": "Beaches",
+      "count": 2
     },
     {
-      "name": "Economy",
-      "count": 54
-    },
-    {
-      "name": "Technology",
-      "count": 52
-    },
-    {
-      "name": "Lifestyle",
-      "count": 28
-    },
-    {
-      "name": "Nature",
-      "count": 37
-    },
-    {
-      "name": "Art",
-      "count": 40
-    },
-    {
-      "name": "resources",
+      "name": "Nature & Marine Life",
       "count": 2
     }
   ],
   "topTags": [
     {
-      "name": "Economy",
-      "count": 75
+      "name": "history",
+      "count": 4
     },
     {
-      "name": "企業",
-      "count": 60
+      "name": "art",
+      "count": 4
     },
     {
-      "name": "人物",
-      "count": 59
+      "name": "south-laguna",
+      "count": 3
     },
     {
-      "name": "科技與企業",
-      "count": 42
+      "name": "beaches",
+      "count": 3
     },
     {
-      "name": "文學",
-      "count": 34
+      "name": "tide-pools",
+      "count": 3
     },
     {
-      "name": "ODM",
-      "count": 27
+      "name": "artists-colony",
+      "count": 2
     },
     {
-      "name": "客家",
-      "count": 26
+      "name": "plein-air",
+      "count": 2
     },
     {
-      "name": "기업",
-      "count": 25
+      "name": "trails",
+      "count": 2
     },
     {
-      "name": "金曲獎",
-      "count": 24
+      "name": "hiking",
+      "count": 2
     },
     {
-      "name": "인물",
-      "count": 23
+      "name": "festival",
+      "count": 2
     },
     {
-      "name": "民主化",
-      "count": 23
+      "name": "summer",
+      "count": 2
     },
     {
-      "name": "體育",
-      "count": 23
+      "name": "neighborhoods",
+      "count": 2
     },
     {
-      "name": "文化",
-      "count": 23
+      "name": "marine-life",
+      "count": 2
     },
     {
-      "name": "YouTuber",
-      "count": 22
+      "name": "founding",
+      "count": 1
     },
     {
-      "name": "政治",
-      "count": 22
+      "name": "acjachemen",
+      "count": 1
     },
     {
-      "name": "歷史",
-      "count": 22
+      "name": "incorporation",
+      "count": 1
     },
     {
-      "name": "原住民",
-      "count": 22
+      "name": "museum",
+      "count": 1
     },
     {
-      "name": "半導體",
-      "count": 22
+      "name": "california-art",
+      "count": 1
     },
     {
-      "name": "高雄",
-      "count": 22
+      "name": "wilderness",
+      "count": 1
     },
     {
-      "name": "AI",
-      "count": 21
+      "name": "greenbelt",
+      "count": 1
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4885,
+    "zh-TW": 16,
     "en": 0
   },
-  "lastUpdated": "2026-06-19T22:11:23.053Z",
+  "lastUpdated": "2026-06-20T09:54:11.364Z",
   "stars": 1059,
-  "forks": 155,
-  "zhPages": 811,
-  "enPages": 818,
-  "totalPages": 811
+  "forks": 156,
+  "zhPages": 9,
+  "enPages": 0,
+  "totalPages": 9
 }

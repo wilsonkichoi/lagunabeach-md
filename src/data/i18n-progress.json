@@ -1,83 +1,43 @@
 {
-  "total_zh": 4067,
-  "total_en": 818,
-  "coverage_en": 20.1,
+  "total_zh": 16,
+  "total_en": 0,
+  "coverage_en": 0.0,
   "categories": {
-    "fr": {
-      "zh": 814,
+    "Events & Festivals": {
+      "zh": 2,
       "en": 0
     },
     "Food": {
-      "zh": 56,
-      "en": 57
-    },
-    "ko": {
-      "zh": 814,
+      "zh": 1,
       "en": 0
     },
-    "People": {
-      "zh": 232,
-      "en": 233
-    },
-    "es": {
-      "zh": 813,
+    "Art & Galleries": {
+      "zh": 2,
       "en": 0
     },
-    "ja": {
-      "zh": 813,
+    "Neighborhoods": {
+      "zh": 2,
       "en": 0
     },
-    "Culture": {
-      "zh": 64,
-      "en": 66
+    "Trails": {
+      "zh": 2,
+      "en": 0
     },
-    "Art": {
-      "zh": 40,
-      "en": 41
-    },
-    "Nature": {
-      "zh": 37,
-      "en": 38
-    },
-    "Economy": {
-      "zh": 54,
-      "en": 55
-    },
-    "Technology": {
-      "zh": 52,
-      "en": 51
+    "Nature & Marine Life": {
+      "zh": 2,
+      "en": 0
     },
     "History": {
-      "zh": 46,
-      "en": 46
-    },
-    "Geography": {
-      "zh": 63,
-      "en": 61
-    },
-    "Politics": {
-      "zh": 11,
-      "en": 11
-    },
-    "Music": {
-      "zh": 34,
-      "en": 34
-    },
-    "Society": {
-      "zh": 86,
-      "en": 87
-    },
-    "About": {
-      "zh": 8,
-      "en": 8
-    },
-    "Lifestyle": {
-      "zh": 28,
-      "en": 28
-    },
-    "resources": {
       "zh": 2,
-      "en": 2
+      "en": 0
+    },
+    "root": {
+      "zh": 1,
+      "en": 0
+    },
+    "Beaches": {
+      "zh": 2,
+      "en": 0
     }
   },
   "updated": "2026-06-20"

@@ -83,7 +83,7 @@ export async function renderRawMarkdown(absPath: string, lang: string) {
     `# Source: knowledge/${relFromKnowledge}`,
     `# Language: ${lang}`,
     `# License: CC BY-SA 4.0  ·  Editable on GitHub: ${sourceUrl}`,
-    `# Plain-text view of Taiwan.md — no JS, no CSS, no images. The source markdown is the SSOT.`,
+    `# Plain-text view of LagunaBeach.md — no JS, no CSS, no images. The source markdown is the SSOT.`,
     '',
     '',
   ].join('\n');

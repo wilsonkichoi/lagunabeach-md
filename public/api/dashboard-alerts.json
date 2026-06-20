@@ -1,19 +1,37 @@
 {
-  "lastUpdated": "2026-06-19T22:11:33.041Z",
+  "lastUpdated": "2026-06-20T09:54:13.605Z",
   "generator": "scripts/core/generate-dashboard-alerts.mjs",
   "note": "derived 警報層 — CONSCIOUSNESS §警報 的機械接管 (audit 2026-06-10 A-3)",
-  "count": 2,
+  "count": 5,
   "alerts": [
     {
+      "id": "organ-heart",
+      "severity": "red",
+      "message": "🫀 心臟 器官分數 30 < 50，需要干預",
+      "source": "dashboard-organism.json"
+    },
+    {
+      "id": "organ-immune",
+      "severity": "red",
+      "message": "🛡️ 免疫系統 器官分數 17 < 50，需要干預",
+      "source": "dashboard-organism.json"
+    },
+    {
+      "id": "organ-translation",
+      "severity": "red",
+      "message": "🌐 語言器官 器官分數 0 < 50，需要干預",
+      "source": "dashboard-organism.json"
+    },
+    {
       "id": "immune-status",
-      "severity": "yellow",
-      "message": "免疫 v3=52：漂移 — 多維度退化中",
+      "severity": "red",
+      "message": "免疫 v3=17：🔴 危險 — 結構性免疫不足",
       "source": "dashboard-immune.json"
     },
     {
       "id": "memory-index-rows",
       "severity": "yellow",
-      "message": "MEMORY.md 索引 555 rows > 80 蒸餾觸發線（design 2026-04-14 未實作）",
+      "message": "MEMORY.md 索引 559 rows > 80 蒸餾觸發線（design 2026-04-14 未實作）",
       "source": "MEMORY.md"
     }
   ]

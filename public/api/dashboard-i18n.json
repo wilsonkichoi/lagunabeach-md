@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-19T22:11:22Z",
+  "generated": "2026-06-20T09:54:12Z",
   "max_total": 2092,
   "modules": [
     {
@@ -136,8 +136,8 @@
     }
   ],
   "lang_totals": {
-    "zh-TW": { "keys": 2092, "coverage_pct": 100.0 },
-    "en": { "keys": 2092, "coverage_pct": 100.0 },
+    "zh-TW": { "keys": 2092, "coverage_pct": 100.00 },
+    "en": { "keys": 2092, "coverage_pct": 100.00 },
     "ja": { "keys": 2086, "coverage_pct": 99.71 },
     "ko": { "keys": 2093, "coverage_pct": 100.05 },
     "fr": { "keys": 2085, "coverage_pct": 99.67 },

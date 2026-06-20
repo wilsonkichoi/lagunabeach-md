@@ -7,7 +7,7 @@ const baseContentSchema = z.object({
   description: z.string(),
   date: z.coerce.date(),
   tags: z.array(z.string()).default([]),
-  author: z.string().optional().default('Taiwan.md Contributors'),
+  author: z.string().optional().default('LagunaBeach.md Contributors'),
   difficulty: z
     .enum(['beginner', 'intermediate', 'advanced'])
     .optional()

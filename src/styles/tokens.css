@@ -46,13 +46,14 @@
   --shadow-soft: 0 8px 30px rgba(15, 23, 42, 0.06);
   --shadow-card: 0 16px 40px rgba(15, 23, 42, 0.08);
 
-  /* === Taiwan Typography System === */
-  --font-title: 'Noto Serif TC', 'Source Han Serif TC', 'PMingLiU', serif;
+  /* === Typography System === */
+  /* Original (Taiwan.md): Noto Serif TC, jf-jinxuanlatte, jf-lanyangming */
+  --font-title: 'Georgia', 'Noto Serif TC', 'Source Han Serif TC', serif;
   --font-reading:
-    'jf-jinxuanlatte', 'Noto Sans TC', 'Source Han Sans TC', sans-serif;
+    'Inter', 'Noto Sans TC', 'Source Han Sans TC', sans-serif;
   --font-interface:
-    'Noto Sans TC', 'Source Han Sans TC', 'PingFang TC', sans-serif;
-  --font-quote: 'jf-lanyangming', 'Noto Serif TC', serif;
+    'Inter', 'Noto Sans TC', 'PingFang TC', sans-serif;
+  --font-quote: 'Georgia', 'Noto Serif TC', serif;
   /* Legacy compatibility alias — still used in 4 files */
   --font-editorial: var(--font-title);
 

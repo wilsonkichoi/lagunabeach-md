@@ -1,20 +1,14 @@
 {
   "categories": {
-    "About": 40,
-    "Art": 201,
-    "Culture": 320,
-    "Economy": 271,
-    "Food": 280,
-    "Geography": 315,
-    "History": 230,
-    "Lifestyle": 140,
-    "Music": 171,
-    "Nature": 185,
-    "People": 1160,
-    "Politics": 55,
-    "Society": 430,
-    "Technology": 259,
-    "resources": 10
+    "Art & Galleries": 2,
+    "Beaches": 2,
+    "Events & Festivals": 2,
+    "Food": 1,
+    "History": 2,
+    "root": 1,
+    "Nature & Marine Life": 2,
+    "Neighborhoods": 2,
+    "Trails": 2
   },
   "dailyGrowth": [
     {
@@ -379,8 +373,8 @@
     },
     {
       "date": "2026-06-20",
-      "count": 1
+      "count": 2
     }
   ],
-  "updated": "2026-06-19"
+  "updated": "2026-06-20"
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T22:11:31.727Z",
+  "lastUpdated": "2026-06-20T09:54:13.081Z",
   "organs": [
     {
       "id": "heart",
@@ -7,12 +7,12 @@
       "nameZh": "心臟",
       "metaphor": "內容引擎",
       "emoji": "🫀",
-      "score": 90,
-      "trend": "up",
+      "score": 30,
+      "trend": "down",
       "metrics": {
-        "articlesLast7Days": 58,
-        "articlesLast30Days": 151,
-        "totalArticles": 811
+        "articlesLast7Days": 0,
+        "articlesLast30Days": 0,
+        "totalArticles": 3
       }
     },
     {
@@ -21,22 +21,22 @@
       "nameZh": "免疫系統",
       "metaphor": "品質防禦",
       "emoji": "🛡️",
-      "score": 52,
-      "trend": "up",
+      "score": 17,
+      "trend": "stable",
       "version": "v2-2026-05-16",
       "metrics": {
-        "humanReviewedCount": 206,
-        "totalArticles": 811,
-        "humanReviewedPercent": 25.4,
-        "v2Status": "漂移 — 多維度退化中",
+        "humanReviewedCount": 0,
+        "totalArticles": 3,
+        "humanReviewedPercent": 0,
+        "v2Status": "🔴 危險 — 結構性免疫不足",
         "v2Components": {
-          "review_coverage": 26.8,
-          "plugin_pass_rate": 70,
+          "review_coverage": 0,
+          "plugin_pass_rate": 0,
           "plugin_health": 45.8,
-          "citation_density": 90.8,
+          "citation_density": 0,
           "tool_freshness": 60,
           "drift_velocity": 90,
-          "external_rulers": 3.7
+          "external_rulers": 0
         }
       }
     },
@@ -83,10 +83,10 @@
       "score": 100,
       "trend": "up",
       "metrics": {
-        "recentContributors": 5,
+        "recentContributors": 6,
         "recentSpores": 14,
         "topPerformerCount": 5,
-        "topPerformerAvgViews": 177295,
+        "topPerformerAvgViews": 180068,
         "hasBlockbuster": true
       }
     },
@@ -109,47 +109,22 @@
       "nameZh": "語言器官",
       "metaphor": "多語言複製",
       "emoji": "🌐",
-      "score": 93,
-      "trend": "up",
+      "score": 0,
+      "trend": "stable",
       "metrics": {
         "languageCoverage": {
-          "zh-TW": 811,
-          "en": 816,
-          "ja": 811,
-          "ko": 812,
-          "es": 811,
-          "fr": 812
+          "zh-TW": 0
         },
-        "translationPct": 93,
+        "translationPct": 0,
         "langHealthDetails": {
-          "en": {
+          "zh-TW": {
             "ui": {
-              "pct": 100
+              "pct": 0
             },
             "pages": {
-              "filled": 8,
+              "filled": 0,
               "total": 8,
-              "pct": 100
-            },
-            "hubs": {
-              "filled": 12,
-              "total": 12,
-              "pct": 100
-            },
-            "articles": {
-              "count": 816,
-              "pct": 101
-            },
-            "score": 100
-          },
-          "ja": {
-            "ui": {
-              "pct": 100
-            },
-            "pages": {
-              "filled": 8,
-              "total": 8,
-              "pct": 100
+              "pct": 0
             },
             "hubs": {
               "filled": 0,
@@ -157,70 +132,10 @@
               "pct": 0
             },
             "articles": {
-              "count": 811,
-              "pct": 100
+              "count": 0,
+              "pct": 0
             },
-            "score": 80
-          },
-          "ko": {
-            "ui": {
-              "pct": 100
-            },
-            "pages": {
-              "filled": 8,
-              "total": 8,
-              "pct": 100
-            },
-            "hubs": {
-              "filled": 12,
-              "total": 12,
-              "pct": 100
-            },
-            "articles": {
-              "count": 812,
-              "pct": 100
-            },
-            "score": 100
-          },
-          "es": {
-            "ui": {
-              "pct": 100
-            },
-            "pages": {
-              "filled": 8,
-              "total": 8,
-              "pct": 100
-            },
-            "hubs": {
-              "filled": 12,
-              "total": 12,
-              "pct": 100
-            },
-            "articles": {
-              "count": 811,
-              "pct": 100
-            },
-            "score": 100
-          },
-          "fr": {
-            "ui": {
-              "pct": 100
-            },
-            "pages": {
-              "filled": 8,
-              "total": 8,
-              "pct": 100
-            },
-            "hubs": {
-              "filled": 3,
-              "total": 12,
-              "pct": 25
-            },
-            "articles": {
-              "count": 812,
-              "pct": 100
-            },
-            "score": 85
+            "score": 0
           }
         }
       }
