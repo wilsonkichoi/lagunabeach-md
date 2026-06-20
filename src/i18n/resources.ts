@@ -113,7 +113,7 @@ export const resourcesUI = {
 
     // CTA & Links
     'resources.projects.cta.html':
-      'Know a great project? <a href="https://github.com/frank890417/taiwan-md/issues" target="_blank" rel="noopener noreferrer">Submit a recommendation on GitHub</a>!',
+      'Know a great project? <a href="https://github.com/wilsonkichoi/lagunabeach-md/issues" target="_blank" rel="noopener noreferrer">Submit a recommendation on GitHub</a>!',
     'resources.projects.github.link': 'GitHub',
     'resources.backToHome': '← Back to Home',
 
@@ -321,7 +321,7 @@ export const resourcesUI = {
     'resources.footer.lastUpdated': 'Last updated: March 2026',
     'resources.footer.report': 'Report broken links',
     'resources.footer.reportUrl':
-      'https://github.com/frank890417/taiwan-md/issues',
+      'https://github.com/wilsonkichoi/lagunabeach-md/issues',
     'resources.footer.stats.total': '200+',
 
     // Site names
@@ -616,7 +616,7 @@ export const resourcesUI = {
 
     // CTA & Links
     'resources.projects.cta.html':
-      'おすすめのプロジェクトはありますか？ <a href="https://github.com/frank890417/taiwan-md/issues" target="_blank" rel="noopener noreferrer">GitHub Issue</a> で推薦を投稿してください！',
+      'おすすめのプロジェクトはありますか？ <a href="https://github.com/wilsonkichoi/lagunabeach-md/issues" target="_blank" rel="noopener noreferrer">GitHub Issue</a> で推薦を投稿してください！',
     'resources.projects.github.link': 'GitHub',
     'resources.backToHome': '← ホームに戻る',
 
@@ -824,7 +824,7 @@ export const resourcesUI = {
     'resources.footer.lastUpdated': '最終更新：2026年3月',
     'resources.footer.report': 'リンク切れを報告',
     'resources.footer.reportUrl':
-      'https://github.com/frank890417/taiwan-md/issues',
+      'https://github.com/wilsonkichoi/lagunabeach-md/issues',
     'resources.footer.stats.total': '200+',
 
     // Site names
@@ -1118,7 +1118,7 @@ export const resourcesUI = {
 
     // CTA & Links
     'resources.projects.cta.html':
-      '추천할 프로젝트가 있나요? <a href="https://github.com/frank890417/taiwan-md/issues" target="_blank" rel="noopener noreferrer">GitHub Issue</a>로 제출해 주세요!',
+      '추천할 프로젝트가 있나요? <a href="https://github.com/wilsonkichoi/lagunabeach-md/issues" target="_blank" rel="noopener noreferrer">GitHub Issue</a>로 제출해 주세요!',
     'resources.projects.github.link': 'GitHub',
     'resources.backToHome': '← 홈으로 돌아가기',
 
@@ -1326,7 +1326,7 @@ export const resourcesUI = {
     'resources.footer.lastUpdated': '최종 업데이트: 2026년 3월',
     'resources.footer.report': '끊어진 링크 신고',
     'resources.footer.reportUrl':
-      'https://github.com/frank890417/taiwan-md/issues',
+      'https://github.com/wilsonkichoi/lagunabeach-md/issues',
     'resources.footer.stats.total': '200+',
 
     // Site names
@@ -1618,7 +1618,7 @@ export const resourcesUI = {
 
     // CTA & Links
     'resources.projects.cta.html':
-      '有推薦的專案嗎？歡迎透過 <a href="https://github.com/frank890417/taiwan-md/issues" target="_blank" rel="noopener noreferrer">GitHub Issue</a> 提交推薦！',
+      '有推薦的專案嗎？歡迎透過 <a href="https://github.com/wilsonkichoi/lagunabeach-md/issues" target="_blank" rel="noopener noreferrer">GitHub Issue</a> 提交推薦！',
     'resources.projects.github.link': 'GitHub',
     'resources.backToHome': '← 返回首頁',
 
@@ -1825,7 +1825,7 @@ export const resourcesUI = {
     'resources.footer.lastUpdated': '最後更新：2026 年 3 月',
     'resources.footer.report': '回報失效連結',
     'resources.footer.reportUrl':
-      'https://github.com/frank890417/taiwan-md/issues',
+      'https://github.com/wilsonkichoi/lagunabeach-md/issues',
     'resources.footer.stats.total': '200+',
 
     // Site names
@@ -2099,7 +2099,7 @@ export const resourcesUI = {
       'Fábricas ilegales en tierras agrícolas reportadas por ciudadanos — protegiendo la tierra agrícola de Taiwán',
     'resources.projects.civictech.disfactory.tech': 'Vue.js / Django',
     'resources.projects.cta.html':
-      '¿Conoces un gran proyecto? <a href="https://github.com/frank890417/taiwan-md/issues" target="_blank" rel="noopener noreferrer">¡Envía una recomendación en GitHub</a>!',
+      '¿Conoces un gran proyecto? <a href="https://github.com/wilsonkichoi/lagunabeach-md/issues" target="_blank" rel="noopener noreferrer">¡Envía una recomendación en GitHub</a>!',
     'resources.projects.github.link': 'GitHub',
     'resources.backToHome': '← Volver al inicio',
     'resources.mindmap.root.label': '🇹🇼 Recursos de Taiwán',
@@ -2273,7 +2273,7 @@ export const resourcesUI = {
     'resources.footer.lastUpdated': 'Última actualización: marzo de 2026',
     'resources.footer.report': 'Reportar enlaces rotos',
     'resources.footer.reportUrl':
-      'https://github.com/frank890417/taiwan-md/issues',
+      'https://github.com/wilsonkichoi/lagunabeach-md/issues',
     'resources.footer.stats.total': '200+',
     'resources.site.president': 'Oficina de la Presidencia',
     'resources.site.executiveYuan': 'Yuan Ejecutivo',
@@ -2532,7 +2532,7 @@ export const resourcesUI = {
       "Signalement citoyen d'usines illégales sur des terres agricoles — protection des terres agricoles de Taïwan",
     'resources.projects.civictech.disfactory.tech': 'Vue.js / Django',
     'resources.projects.cta.html':
-      'Vous connaissez un projet génial ? <a href="https://github.com/frank890417/taiwan-md/issues" target="_blank" rel="noopener noreferrer">Soumettez une recommandation sur GitHub</a> !',
+      'Vous connaissez un projet génial ? <a href="https://github.com/wilsonkichoi/lagunabeach-md/issues" target="_blank" rel="noopener noreferrer">Soumettez une recommandation sur GitHub</a> !',
     'resources.projects.github.link': 'GitHub',
     'resources.backToHome': "← Retour à l'accueil",
     'resources.mindmap.root.label': '🇹🇼 Ressources de Taïwan',
@@ -2706,7 +2706,7 @@ export const resourcesUI = {
     'resources.footer.lastUpdated': 'Dernière mise à jour : mars 2026',
     'resources.footer.report': 'Signaler des liens brisés',
     'resources.footer.reportUrl':
-      'https://github.com/frank890417/taiwan-md/issues',
+      'https://github.com/wilsonkichoi/lagunabeach-md/issues',
     'resources.footer.stats.total': '200+',
     'resources.site.president': 'Bureau de la Présidence',
     'resources.site.executiveYuan': 'Yuan exécutif',

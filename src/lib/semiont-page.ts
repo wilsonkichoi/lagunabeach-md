@@ -76,7 +76,7 @@ function createRenderer(): marked.Renderer {
         } else if (!githubPath.includes('/')) {
           githubPath = 'docs/semiont/' + githubPath;
         }
-        resolvedHref = `https://github.com/frank890417/taiwan-md/blob/main/${githubPath}`;
+        resolvedHref = `https://github.com/wilsonkichoi/lagunabeach-md/blob/main/${githubPath}`;
         // Also make it open in new tab
         return `<a href="${resolvedHref}"${titleAttr} target="_blank" rel="noopener noreferrer">${text}</a>`;
       }

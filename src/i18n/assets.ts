@@ -48,13 +48,13 @@ export const assetsUI = {
     // Usage section
     'assets.usage.title': '📝 How to Use',
     'assets.usage.code': `<!-- Embed directly -->
-<img src="https://taiwan.md/assets/svg/taiwan-icon-wiki.svg" alt="Taiwan" width="200">
+<img src="https://lagunabeach.md/assets/svg/taiwan-icon-wiki.svg" alt="Taiwan" width="200">
 
 <!-- As CSS background -->
-background-image: url('https://taiwan.md/assets/svg/taiwan-icon-wiki.svg');
+background-image: url('https://lagunabeach.md/assets/svg/taiwan-icon-wiki.svg');
 
 <!-- In Markdown -->
-![Taiwan](https://taiwan.md/assets/svg/taiwan-icon-wiki.svg)`,
+![Taiwan](https://lagunabeach.md/assets/svg/taiwan-icon-wiki.svg)`,
 
     // License section
     'assets.license.title': '📄 License & Attribution',
@@ -126,13 +126,13 @@ background-image: url('https://taiwan.md/assets/svg/taiwan-icon-wiki.svg');
     // Usage section
     'assets.usage.title': '📝 使い方',
     'assets.usage.code': `<!-- 直接埋め込み -->
-<img src="https://taiwan.md/assets/svg/taiwan-icon-wiki.svg" alt="Taiwan" width="200">
+<img src="https://lagunabeach.md/assets/svg/taiwan-icon-wiki.svg" alt="Taiwan" width="200">
 
 <!-- CSS背景として使用 -->
-background-image: url('https://taiwan.md/assets/svg/taiwan-icon-wiki.svg');
+background-image: url('https://lagunabeach.md/assets/svg/taiwan-icon-wiki.svg');
 
 <!-- Markdownで参照 -->
-![Taiwan](https://taiwan.md/assets/svg/taiwan-icon-wiki.svg)`,
+![Taiwan](https://lagunabeach.md/assets/svg/taiwan-icon-wiki.svg)`,
 
     // License section
     'assets.license.title': '📄 ライセンスと出典',
@@ -202,13 +202,13 @@ background-image: url('https://taiwan.md/assets/svg/taiwan-icon-wiki.svg');
     // Usage section
     'assets.usage.title': '📝 사용 방법',
     'assets.usage.code': `<!-- 직접 삽입 -->
-<img src="https://taiwan.md/assets/svg/taiwan-icon-wiki.svg" alt="Taiwan" width="200">
+<img src="https://lagunabeach.md/assets/svg/taiwan-icon-wiki.svg" alt="Taiwan" width="200">
 
 <!-- CSS 배경으로 사용 -->
-background-image: url('https://taiwan.md/assets/svg/taiwan-icon-wiki.svg');
+background-image: url('https://lagunabeach.md/assets/svg/taiwan-icon-wiki.svg');
 
 <!-- Markdown에서 참조 -->
-![Taiwan](https://taiwan.md/assets/svg/taiwan-icon-wiki.svg)`,
+![Taiwan](https://lagunabeach.md/assets/svg/taiwan-icon-wiki.svg)`,
 
     // License section
     'assets.license.title': '📄 라이선스 및 출처',
@@ -276,13 +276,13 @@ background-image: url('https://taiwan.md/assets/svg/taiwan-icon-wiki.svg');
     // Usage section
     'assets.usage.title': '📝 使用方式',
     'assets.usage.code': `<!-- 直接嵌入 -->
-<img src="https://taiwan.md/assets/svg/taiwan-icon-wiki.svg" alt="Taiwan" width="200">
+<img src="https://lagunabeach.md/assets/svg/taiwan-icon-wiki.svg" alt="Taiwan" width="200">
 
 <!-- 作為 CSS 背景 -->
-background-image: url('https://taiwan.md/assets/svg/taiwan-icon-wiki.svg');
+background-image: url('https://lagunabeach.md/assets/svg/taiwan-icon-wiki.svg');
 
 <!-- 在 Markdown 中引用 -->
-![Taiwan](https://taiwan.md/assets/svg/taiwan-icon-wiki.svg)`,
+![Taiwan](https://lagunabeach.md/assets/svg/taiwan-icon-wiki.svg)`,
 
     // License section
     'assets.license.title': '📄 授權與來源',
@@ -339,7 +339,7 @@ background-image: url('https://taiwan.md/assets/svg/taiwan-icon-wiki.svg');
     'assets.btn.copy': 'Copier le code SVG',
     'assets.usage.title': "📝 Mode d'emploi",
     'assets.usage.code':
-      '`<!-- Intégrer directement -->\n<img src="https://taiwan.md/assets/svg/taiwan-icon-wiki.svg" alt="Taiwan" width="200">\n<!-- En arrière-plan CSS -->\nbackground-image: url(\'https://taiwan.md/assets/svg/taiwan-icon-wiki.svg\');\n<!-- En Markdown -->\n![Taiwan](https://taiwan.md/assets/svg/taiwan-icon-wiki.svg)`',
+      '`<!-- Intégrer directement -->\n<img src="https://lagunabeach.md/assets/svg/taiwan-icon-wiki.svg" alt="Taiwan" width="200">\n<!-- En arrière-plan CSS -->\nbackground-image: url(\'https://lagunabeach.md/assets/svg/taiwan-icon-wiki.svg\');\n<!-- En Markdown -->\n![Taiwan](https://lagunabeach.md/assets/svg/taiwan-icon-wiki.svg)`',
     'assets.license.title': '📄 Licence et attribution',
     'assets.license.intro.html':
       'Tous les fichiers SVG sont publiés sous licence <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>. Libres d\'utilisation, de modification et d\'usage commercial — il suffit de mentionner la source.',
@@ -389,7 +389,7 @@ background-image: url('https://taiwan.md/assets/svg/taiwan-icon-wiki.svg');
     'assets.btn.copy': 'Copiar código SVG',
     'assets.usage.title': '📝 Cómo usar',
     'assets.usage.code':
-      '`<!-- Incrustar directamente -->\n<img src="https://taiwan.md/assets/svg/taiwan-icon-wiki.svg" alt="Taiwan" width="200">\n<!-- Como fondo CSS -->\nbackground-image: url(\'https://taiwan.md/assets/svg/taiwan-icon-wiki.svg\');\n<!-- En Markdown -->\n![Taiwan](https://taiwan.md/assets/svg/taiwan-icon-wiki.svg)`',
+      '`<!-- Incrustar directamente -->\n<img src="https://lagunabeach.md/assets/svg/taiwan-icon-wiki.svg" alt="Taiwan" width="200">\n<!-- Como fondo CSS -->\nbackground-image: url(\'https://lagunabeach.md/assets/svg/taiwan-icon-wiki.svg\');\n<!-- En Markdown -->\n![Taiwan](https://lagunabeach.md/assets/svg/taiwan-icon-wiki.svg)`',
     'assets.license.title': '📄 Licencia y atribución',
     'assets.license.intro.html':
       'Todos los archivos SVG se publican bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>. Uso, modificación y uso comercial libres — solo se requiere atribución.',

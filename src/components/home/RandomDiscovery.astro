@@ -128,7 +128,7 @@ const routedCats = categoryList;
               // Routed-category gate: the URL's category segment
               // (second-to-last) must be a real routed category. Excludes
               // resources/* + categoryless strays that 404. See verify note.
-              var s = a.url.replace('https://taiwan.md', '').split('/');
+              var s = a.url.replace('https://lagunabeach.md', '').split('/');
               var urlCat = s.length >= 2 ? s[s.length - 2].toLowerCase() : '';
               return routedCats.indexOf(urlCat) !== -1;
             })
@@ -141,7 +141,7 @@ const routedCats = categoryList;
               // 404ing (the reported "surprise me" bug). generate-api.js now
               // emits canonical URLs; this stays as defense in depth for the
               // CDN cache-transition window after deploy. See Issue #575.
-              var segs = a.url.replace('https://taiwan.md', '').split('/');
+              var segs = a.url.replace('https://lagunabeach.md', '').split('/');
               if (segs.length >= 2) {
                 segs[segs.length - 2] = segs[segs.length - 2].toLowerCase();
               }

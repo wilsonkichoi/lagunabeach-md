@@ -327,13 +327,13 @@ const municipalityFiles = [
           <h3>{t('taiwanShape.svg.usageHeading')}</h3>
           <div class="code-block">
             <pre><code>{`<!-- HTML -->
-<img src="https://taiwan.md/assets/svg/taiwan-icon-wiki.svg" alt="Taiwan" width="200">
+<img src="https://lagunabeach.md/assets/svg/taiwan-icon-wiki.svg" alt="Taiwan" width="200">
 
 /* CSS */
-background-image: url('https://taiwan.md/assets/svg/taiwan-icon-wiki.svg');
+background-image: url('https://lagunabeach.md/assets/svg/taiwan-icon-wiki.svg');
 
 <!-- Markdown -->
-![Taiwan](https://taiwan.md/assets/svg/taiwan-icon-wiki.svg)`}</code></pre>
+![Taiwan](https://lagunabeach.md/assets/svg/taiwan-icon-wiki.svg)`}</code></pre>
           </div>
           <p class="license-note">{t('taiwanShape.svg.licenseNote')}</p>
         </div>
@@ -460,7 +460,7 @@ background-image: url('https://taiwan.md/assets/svg/taiwan-icon-wiki.svg');
 import * as d3 from 'd3';
 import * as topojson from 'topojson-client';
 
-const topo = await d3.json('https://taiwan.md/assets/geo/taiwan-country.topo.json');
+const topo = await d3.json('https://lagunabeach.md/assets/geo/taiwan-country.topo.json');
 const counties = topojson.feature(topo, topo.objects.map);
 
 const projection = d3.geoMercator()
@@ -509,7 +509,7 @@ import * as topojson from 'topojson-client';
 const map = L.map('map').setView([24, 121], 7);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
-fetch('https://taiwan.md/assets/geo/taiwan-country.topo.json')
+fetch('https://lagunabeach.md/assets/geo/taiwan-country.topo.json')
   .then(r => r.json())
   .then(topo => {
     const geojson = topojson.feature(topo, topo.objects.map);

@@ -4,7 +4,7 @@ import matter from 'gray-matter';
 
 // RSS Feed generation for Taiwan.md
 export async function GET() {
-  const siteUrl = 'https://taiwan.md';
+  const siteUrl = 'https://lagunabeach.md';
 
   // Category mapping to folder names
   const categoryMapping: Record<string, string> = {

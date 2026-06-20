@@ -245,22 +245,22 @@ html[data-shot='1'][data-diary='1'] .diary-entry-hero > div:first-child {
 
 html[data-shot='1'][data-diary='1'] .diary-entry-hero time {
   font-size: 1.05rem !important;
-  color: rgba(79, 209, 176, 0.85) !important;
+  color: rgba(56, 189, 248, 0.85) !important;
 }
 
 html[data-shot='1'][data-diary='1'] .diary-entry-hero > div:first-child span {
   font-size: 0.9rem !important;
   height: auto !important;
   padding: 0.25rem 0.85rem !important;
-  background: rgba(79, 209, 176, 0.15) !important;
-  color: rgba(79, 209, 176, 0.85) !important;
+  background: rgba(56, 189, 248, 0.15) !important;
+  color: rgba(56, 189, 248, 0.85) !important;
 }
 
 /* Metadata block（觸發 / Session 跨度 / 字數）— line-clamp 2 避溢出 */
 html[data-shot='1'][data-diary='1'] .diary-entry-hero > div:last-child {
   font-size: 1rem !important;
   color: rgba(244, 240, 234, 0.65) !important;
-  border-color: rgba(79, 209, 176, 0.4) !important;
+  border-color: rgba(56, 189, 248, 0.4) !important;
   max-width: min(900px, 80%) !important;
 }
 

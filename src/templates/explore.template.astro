@@ -656,7 +656,7 @@ const routedCats = categoryList;
         {t('explore.cta.contribute')}
       </a>
       <a
-        href="https://github.com/frank890417/taiwan-md"
+        href="https://github.com/wilsonkichoi/lagunabeach-md"
         target="_blank"
         rel="noopener"
         class="rounded-full border-2 border-[#065f46] bg-white px-6 py-3 text-[0.95rem] font-semibold text-[#065f46] no-underline transition-all hover:-translate-y-px hover:bg-[#f0f9ff] hover:shadow-[0_6px_18px_rgba(6,95,70,0.15)]"
@@ -747,7 +747,7 @@ const routedCats = categoryList;
             // Routed-category gate: URL's category segment (second-to-last)
             // must be a real routed category — excludes resources/* +
             // categoryless strays that 404. Mirrors RandomDiscovery.astro.
-            var s = a.url.replace('https://taiwan.md', '').split('/');
+            var s = a.url.replace('https://lagunabeach.md', '').split('/');
             var urlCat = s.length >= 2 ? s[s.length - 2].toLowerCase() : '';
             return routedCats.indexOf(urlCat) !== -1;
           });
@@ -757,7 +757,7 @@ const routedCats = categoryList;
           // so non-default-lang picks don't 404 on case-sensitive prod.
           // Mirrors RandomDiscovery.astro; generate-api.js now emits canonical
           // URLs, this is defense in depth for the CDN cache window.
-          var segs = pick.url.replace('https://taiwan.md', '').split('/');
+          var segs = pick.url.replace('https://lagunabeach.md', '').split('/');
           if (segs.length >= 2) {
             segs[segs.length - 2] = segs[segs.length - 2].toLowerCase();
           }

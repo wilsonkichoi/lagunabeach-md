@@ -42,7 +42,7 @@ const {
 const t = useTranslations(lang);
 const translatePath = useTranslatedPath(lang);
 const langPrefix = translatePath(lang);
-const articleUrl = `https://taiwan.md${langPrefix}/${category}/${slug}`;
+const articleUrl = `https://lagunabeach.md${langPrefix}/${category}/${slug}`;
 const encodedUrl = encodeURIComponent(articleUrl);
 const encodedTitle = encodeURIComponent(title);
 
@@ -239,7 +239,7 @@ const normalizedContributors = contributors.map((contributor) =>
             </>
           </svg>
           <a
-            href={`https://github.com/frank890417/taiwan-md/commit/${commitHash}`}
+            href={`https://github.com/wilsonkichoi/lagunabeach-md/commit/${commitHash}`}
             target="_blank"
             rel="noopener noreferrer"
             class="text-inherit no-underline transition-colors duration-150 hover:text-[#0e3a5c] hover:underline"

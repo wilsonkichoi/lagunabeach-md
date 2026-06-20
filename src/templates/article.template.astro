@@ -220,7 +220,7 @@ const estimatedReadingTime =
   frontmatter.readingTime ||
   Math.max(1, Math.round(content.replace(/\s+/g, ' ').length / 500));
 
-const articleUrl = `https://taiwan.md${langUrlPrefix}/${category}/${slug}`;
+const articleUrl = `https://lagunabeach.md${langUrlPrefix}/${category}/${slug}`;
 const encodedUrl = encodeURIComponent(articleUrl);
 const encodedTitle = encodeURIComponent(title);
 
@@ -509,7 +509,7 @@ const encodedTitle = encodeURIComponent(title);
             {t('article.editPage')}
           </a>
           <a
-            href={`https://github.com/frank890417/taiwan-md/issues/new?title=${encodeURIComponent(`Feedback: ${title}`)}`}
+            href={`https://github.com/wilsonkichoi/lagunabeach-md/issues/new?title=${encodeURIComponent(`Feedback: ${title}`)}`}
             target="_blank"
             rel="noopener noreferrer"
             class="inline-flex items-center gap-[0.45rem] rounded-full border border-[rgba(26,60,52,0.2)] bg-transparent px-[1.1rem] py-[0.55rem] font-['Inter',system-ui,sans-serif] text-[0.82rem] font-medium text-[#0e3a5c] no-underline transition-all duration-200 hover:bg-[rgba(26,60,52,0.05)]"

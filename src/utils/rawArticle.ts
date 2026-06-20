@@ -76,7 +76,7 @@ export async function renderRawMarkdown(absPath: string, lang: string) {
   const content = await readFile(absPath, 'utf-8');
   const relFromKnowledge = absPath.split('/knowledge/')[1] ?? '';
   const sourceUrl = relFromKnowledge
-    ? `https://github.com/frank890417/taiwan-md/blob/main/knowledge/${relFromKnowledge}`
+    ? `https://github.com/wilsonkichoi/lagunabeach-md/blob/main/knowledge/${relFromKnowledge}`
     : '';
 
   const header = [

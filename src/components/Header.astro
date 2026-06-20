@@ -170,71 +170,14 @@ const navConfig = [
 });
 
 const categoryList = [
-  {
-    path: navHref('/history'),
-    label: t('categoryConfig.history'),
-    emoji: '📜',
-  },
-  {
-    path: navHref('/geography'),
-    label: t('categoryConfig.geography'),
-    emoji: '🗺️',
-  },
-  {
-    path: navHref('/culture'),
-    label: t('categoryConfig.culture'),
-    emoji: '🎭',
-  },
-  {
-    path: navHref('/food'),
-    label: t('categoryConfig.food'),
-    emoji: '🍜',
-  },
-  {
-    path: navHref('/art'),
-    label: t('categoryConfig.art'),
-    emoji: '🎨',
-  },
-  {
-    path: navHref('/music'),
-    label: t('categoryConfig.music'),
-    emoji: '🎵',
-  },
-  {
-    path: navHref('/technology'),
-    label: t('categoryConfig.technology'),
-    emoji: '💻',
-  },
-  {
-    path: navHref('/nature'),
-    label: t('categoryConfig.nature'),
-    emoji: '🌿',
-  },
-  {
-    path: navHref('/people'),
-    label: t('categoryConfig.people'),
-    emoji: '👥',
-  },
-  {
-    path: navHref('/society'),
-    label: t('categoryConfig.society'),
-    emoji: '🏛️',
-  },
-  {
-    path: navHref('/economy'),
-    label: t('categoryConfig.economy'),
-    emoji: '📊',
-  },
-  {
-    path: navHref('/lifestyle'),
-    label: t('categoryConfig.lifestyle'),
-    emoji: '🏠',
-  },
-  {
-    path: navHref('/politics'),
-    label: t('categoryConfig.politics'),
-    emoji: '🗳️',
-  },
+  { path: navHref('/history'), label: 'History', emoji: '📜' },
+  { path: navHref('/art-galleries'), label: 'Art & Galleries', emoji: '🎨' },
+  { path: navHref('/nature-marine-life'), label: 'Nature & Marine Life', emoji: '🌊' },
+  { path: navHref('/food'), label: 'Food', emoji: '🍽️' },
+  { path: navHref('/beaches'), label: 'Beaches', emoji: '🏖️' },
+  { path: navHref('/trails'), label: 'Trails', emoji: '🥾' },
+  { path: navHref('/events-festivals'), label: 'Events & Festivals', emoji: '🎭' },
+  { path: navHref('/neighborhoods'), label: 'Neighborhoods', emoji: '🏘️' },
 ];
 ---
 
@@ -390,7 +333,7 @@ const categoryList = [
                         </a>
                         <div class="dropdown-divider" />
                         <a
-                          href={navHref('/taiwan-shape')}
+                          href={navHref('/map')}
                           class="dropdown-item"
                         >
                           {t('nav.data.shape')} 🗺️
@@ -554,7 +497,7 @@ const categoryList = [
                           🖥️ {t('nav.contribute.cli')}
                         </a>
                         <a
-                          href="https://github.com/frank890417/taiwan-md"
+                          href="https://github.com/wilsonkichoi/lagunabeach-md"
                           target="_blank"
                           class="dropdown-item"
                         >
@@ -606,7 +549,7 @@ const categoryList = [
 
         <!-- GitHub -->
         <a
-          href="https://github.com/frank890417/taiwan-md"
+          href="https://github.com/wilsonkichoi/lagunabeach-md"
           target="_blank"
           class="gh-link"
           aria-label="GitHub"
@@ -751,7 +694,7 @@ const categoryList = [
                 {item.path === '/map' && (
                   <div class="mobile-sub-links open">
                     <a
-                      href={navHref('/taiwan-shape')}
+                      href={navHref('/map')}
                       class="nav-link nav-sub-link"
                       onclick="document.querySelector('.nav-mobile').classList.remove('open')"
                     >
@@ -793,7 +736,7 @@ const categoryList = [
           })
         }
         <a
-          href="https://github.com/frank890417/taiwan-md"
+          href="https://github.com/wilsonkichoi/lagunabeach-md"
           target="_blank"
           class="nav-link"
           onclick="document.querySelector('.nav-mobile').classList.remove('open')"
@@ -1184,7 +1127,7 @@ const categoryList = [
       color 0.15s;
   }
   .dropdown-item:hover {
-    background: rgba(79, 209, 176, 0.18);
+    background: rgba(56, 189, 248, 0.18);
     color: #ffffff;
   }
   .scrolled .dropdown-item {
@@ -1307,7 +1250,7 @@ const categoryList = [
   .lang-btn.active {
     background: var(--lang-active-bg);
     color: var(--lang-active-color);
-    box-shadow: 0 2px 8px rgba(79, 209, 176, 0.3);
+    box-shadow: 0 2px 8px rgba(56, 189, 248, 0.3);
   }
 
   /* 2026-04-24 β3: Lang dropdown — replaces button row to scale to 5+ langs.
@@ -1758,7 +1701,7 @@ const categoryList = [
     .nav-mobile .nav-link.active {
       color: #ffffff;
       font-weight: 600;
-      background: rgba(79, 209, 176, 0.15);
+      background: rgba(56, 189, 248, 0.15);
       margin: 0 -1rem;
       padding-left: 1rem;
       padding-right: 1rem;

@@ -17,70 +17,69 @@ export const homeUI = {
     'home.hero.transparency':
       '⚠️ Some articles on this site are AI-assisted drafts. All content is continuously reviewed and improved by the community. Found an error?',
     'home.hero.transparency.link': 'Let us know',
-    'home.cover.heading': 'How to Understand Taiwan?',
+    'home.cover.heading': 'How to Know Laguna Beach?',
     'home.cover.lead':
-      "Taiwan is an island of just 36,000 square kilometers, yet it contains all the world's complexity.",
+      'Seven miles of coastline, compressed between the Pacific and the hills. A city built by painters, defended by residents, shaped by fire and tide.',
     'home.cover.lead2':
-      'For four hundred years, everyone who set foot on this island has seen a different Taiwan through different eyes.',
+      'For over a century, everyone who arrived here saw something different: a canvas, a refuge, a paradise, a home worth protecting.',
     'home.cover.closing1':
-      "From the creation myths of Austronesian peoples to the rise of the semiconductor empire, from the silence of martial law to Asia's first legalization of same-sex marriage. Taiwan's story is not a straight line, but a web.",
-    'home.cover.closing2': "Taiwan.md doesn't aim to give you answers.",
+      "From Acjachemen seasonal camps to plein air colonies, from the 1993 firestorm to today's marine protected areas. Laguna's story is layers, not a line.",
+    'home.cover.closing2': "LagunaBeach.md doesn't aim to give you answers.",
     'home.cover.closing3':
-      'What we want to do is give you a map - a map that lets you walk into Taiwan yourself.',
-    'home.cover.link': 'Read the complete collection of quotes →',
-    'home.cover.era.indigenous': 'Indigenous Peoples',
-    'home.cover.era.contemporary': 'Contemporary',
+      'What we want is to give you the depth — so you can walk these trails and beaches knowing what came before.',
+    'home.cover.link': 'Explore the full timeline →',
+    'home.cover.era.indigenous': 'Acjachemen People',
+    'home.cover.era.contemporary': 'Today',
     'home.cover.quote.indigenous':
-      '"The mountains, rivers, and streams are all the bodies of our ancestors. We are the children of the earth."',
-    'home.cover.cite.indigenous': '- Atayal oral literature',
-    'home.cover.quote.1584': '"Ilha Formosa" - Beautiful Island.',
-    'home.cover.cite.1584':
-      '- Portuguese sailors, the first recorded use of "beautiful" to describe Taiwan',
-    'home.cover.quote.1697':
-      '"In the inner mountains of Shuilishe, at the end of the mountains, there is a great lake spanning several dozen li. In the middle is an island where the aboriginals gather and live."',
-    'home.cover.cite.1697':
-      '- Yu Yonghe, "A Journey to the Distant Seas," Qing Dynasty literati\'s firsthand observation of Taiwan',
-    'home.cover.quote.1926': '"A brave warrior should fight for justice!"',
-    'home.cover.cite.1926':
-      '- Lai He, "Sacrifice Under Awakening," the father of Taiwan\'s new literature',
-    'home.cover.quote.1946':
-      '"The sorrow of the Taiwanese lies in not knowing who they are."',
-    'home.cover.cite.1946': '- Wu Zhuoliu, "Orphan of Asia"',
-    'home.cover.quote.2013':
-      '"When you see Taiwan, you\'ll discover that this land is more beautiful than you imagined, and also more fragile than you imagined."',
-    'home.cover.cite.2013': '- Chi Po-lin, "Beyond Beauty: Taiwan from Above"',
+      '"The land provided everything we needed. The tide pools fed us, the canyons sheltered us."',
+    'home.cover.cite.indigenous': '— Acjachemen oral tradition',
+    'home.cover.quote.1904':
+      '"The light here is unlike anywhere else on the coast. It demands to be painted."',
+    'home.cover.cite.1904':
+      '— Norman St. Claire, among the first plein air painters to settle in Laguna, 1904',
+    'home.cover.quote.1918':
+      '"We came for the light and stayed for each other."',
+    'home.cover.cite.1918':
+      '— Edgar Payne, founding member of the Laguna Beach Art Association, 1918',
+    'home.cover.quote.1933':
+      '"Art is not something you hang on a wall. Art is something you live inside."',
+    'home.cover.cite.1933':
+      '— Pageant of the Masters program notes, inaugural year 1933',
+    'home.cover.quote.1993':
+      '"We watched our homes burn from the beach. Then we rebuilt."',
+    'home.cover.cite.1993':
+      '— Resident account, October 1993 Laguna Beach firestorm (441 homes destroyed)',
     'home.cover.quote.contemporary':
-      '"The memory of waves is longer than that of humans."',
+      '"The ocean doesn\'t care about property values. That\'s why we protect it."',
     'home.cover.cite.contemporary':
-      '- Syaman Rapongan, "The Eye of the Sky," Tao oceanic literature',
-    // ── A3 sovereignty quote (2026-05-27 Wave 3) ──
-    'home.cover.era.taiwanmd': '2026 — Taiwan.md',
-    'home.cover.quote.taiwanmd':
-      '"An island deserves to be told in its own voice — in every language, including those some AI models choose silence on."',
-    'home.cover.cite.taiwanmd':
-      '— Taiwan.md, a breathing digital holobiont curated by humans + AI + code',
-    'home.random.button': 'Discover Taiwan Randomly',
+      '— Laguna Bluebelt Coalition, on the Marine Protected Area designation',
+    'home.cover.era.lagunabeachmd': '2026 — LagunaBeach.md',
+    'home.cover.quote.lagunabeachmd':
+      '"A place this layered deserves more than a tourism brochure. It deserves depth."',
+    'home.cover.cite.lagunabeachmd':
+      '— LagunaBeach.md, an open knowledge base curated by locals + AI',
+    'home.random.button': 'Discover Laguna Beach Randomly',
     'home.random.subtitle': 'Explore unexpected stories',
     'home.random.description':
-      "Don't know what to read? Let us guide you to Taiwan's hidden treasures!",
-    'home.categories.heading': 'Discover Taiwan',
-    'home.categories.divider': '12 Topics',
-    'home.lang.heading': '🖊️ Why Traditional Chinese?',
+      "Don't know what to read? Discover a hidden corner of Laguna Beach.",
+    'home.categories.heading': 'Discover Laguna Beach',
+    'home.categories.divider': '8 Topics',
+    'home.lang.heading': '🌐 Multilingual Knowledge',
     'home.lang.p1':
-      "Taiwan.md chooses <strong>Traditional Chinese</strong> as the default language - this is not just a technical decision, it's a cultural statement.",
+      'LagunaBeach.md is built in <strong>English</strong> as the default language, with Chinese (Traditional) available for multilingual readers.',
     'home.lang.p2':
-      "Traditional Chinese is one of the world's oldest writing systems still in daily use, and Taiwan is the only major country globally that uses Traditional Chinese as its official script. Every stroke carries thousands of years of cultural memory. When you open this website and see these characters, you're not just reading text - you're reading a living cultural heritage.",
+      'We believe local knowledge should be accessible to everyone who visits, lives in, or is curious about Laguna Beach. AI systems and search engines can consume both languages natively.',
     'home.lang.p3.prefix': 'We also provide a ',
     'home.lang.p3.linkText': 'Chinese version',
     'home.lang.p3.suffix':
-      ", but we insist on letting Traditional Chinese stand in front. AI can understand it, search engines can understand it, and you - even if you can't read it, that's fine - this beauty itself is worth being seen.",
+      ' for readers who prefer Traditional Chinese. More languages may follow as the community grows.',
     'home.lang.en':
-      "Taiwan uses Traditional Chinese - the world's oldest writing system still in daily use, and Taiwan is its last major home. We believe our language and culture deserve to be seen and understood. Even if you can't read it, its beauty speaks for itself. This English version serves as a bridge to help the world discover Taiwan's richness.",
+      'LagunaBeach.md is an English-first knowledge base about Laguna Beach, California. We also support Traditional Chinese for multilingual readers. Built on open-source infrastructure from Taiwan.md.',
     'home.updates.heading': 'Live Updates',
     'home.updates.subtitle':
-      'Taiwan.md is growing — latest content additions and site improvements',
+      'LagunaBeach.md is growing — latest content additions and site improvements',
     'home.updates.viewAll': 'View full update history →',
-    'home.newsletter.heading': '📬 Subscribe to Taiwan.md',
+    'home.newsletter.heading': '📬 Subscribe to LagunaBeach.md',
     'home.newsletter.description':
       "Get notified when we publish major updates, new articles, or community events. We won't spam — every email is worth opening.",
     'home.newsletter.submit': 'Subscribe',
@@ -89,25 +88,25 @@ export const homeUI = {
       "We respect your inbox. Unsubscribe anytime. We'll never share your email.",
     'home.contribute.heading': 'Join Us',
     'home.contribute.description':
-      "Taiwan.md is a community-driven open source project. Whether you're a local Taiwanese or an international friend interested in Taiwan, we welcome your knowledge and perspectives.",
+      "LagunaBeach.md is a community-driven open source project. Whether you're a local resident or a visitor who loves Laguna Beach, we welcome your knowledge and perspectives.",
     'home.contribute.guide': 'Contribution Guide',
     'home.contribute.github': 'GitHub Project',
-    'home.features.title': 'Why Taiwan.md?',
+    'home.features.title': 'Why LagunaBeach.md?',
     'home.features.curated.title': 'Curated Perspectives',
     'home.features.curated.desc':
       'Carefully curated deep narratives, not encyclopedic listings',
     'home.features.ai.title': 'AI-Friendly Design',
     'home.features.ai.desc':
-      "Structured content that helps AI understand Taiwan's complexity",
+      "Structured content that helps AI understand Laguna Beach's complexity",
     'home.features.bilingual.title': 'Bilingual Global Vision',
     'home.features.bilingual.desc':
-      "Starting from local perspectives, telling Taiwan's story in global languages",
+      "Starting from local perspectives, telling Laguna Beach's story in global languages",
     'home.features.complete.title': 'Complete Multi-dimensional',
     'home.features.complete.desc':
-      "Covering 12+ domains, presenting Taiwan's three-dimensional complete picture",
+      "Covering 12+ domains, presenting Laguna Beach's three-dimensional complete picture",
     'home.readingPath.title': "📖 Don't know where to start?",
     'home.readingPath.subtitle':
-      'Discover the real Taiwan in 30 minutes with these 5 essential articles',
+      'Get to know Laguna Beach in 30 minutes with these essential articles',
     'home.readingPath.continue': 'Continue exploring more topics →',
     'home.readingPath.footer.totalLabel': 'Total',
     'home.readingPath.footer.minutesUnit': 'minutes',
@@ -118,7 +117,7 @@ export const homeUI = {
       'Open-source, AI-friendly knowledge base about Laguna Beach, California. In-depth articles covering history, art, nature, food, beaches, trails, events, and neighborhoods.',
     'home.miniGraph.heading': '🕸️ Knowledge Graph',
     'home.miniGraph.subtitle':
-      "Every article is connected — click to explore Taiwan's knowledge network",
+      "Every article is connected — click to explore Laguna Beach's knowledge network",
     'home.features.cta.graph':
       '🔗 Knowledge Graph — Explore article connections',
     'home.features.cta.ssot': '📂 Browse SSOT Source Data ↗',
@@ -129,10 +128,10 @@ export const homeUI = {
     'home.doors.search.sub': 'Search + hot keywords',
     'home.doors.random.title': 'Surprise me',
     'home.doors.random.sub': 'Roll the dice for a random article',
-    'home.doors.organism.title': 'How does Taiwan.md work?',
+    'home.doors.organism.title': 'How does LagunaBeach.md work?',
     'home.doors.organism.sub': 'Organism ecosystem diagram',
     // ── OrganismPreview (A1) ──
-    'home.organism.heading': 'Taiwan.md is something that breathes',
+    'home.organism.heading': 'LagunaBeach.md is something that breathes',
     'home.organism.body':
       'Not Wikipedia. Not an AI content farm. A digital organism with a heart, an immune system, DNA, and the ability to reproduce — {articles} articles, {langs} languages, still growing new organs every day.',
     'home.organism.cta': 'Open the full ecosystem diagram →',
@@ -175,7 +174,7 @@ export const homeUI = {
       '400年間、この島に足を踏み入れたすべての人が、異なる目で異なる台湾を見てきた。',
     'home.cover.closing1':
       '南島語族の創世から半導体帝国の台頭まで、戒厳令の沈黙からアジア初の同性婚合法化まで。台湾の物語は一本の直線ではなく、一つの網だ。',
-    'home.cover.closing2': 'Taiwan.md は答えを与えるためにあるのではない。',
+    'home.cover.closing2': 'LagunaBeach.md は答えを与えるためにあるのではない。',
     'home.cover.closing3':
       '私たちがしたいのは、あなた自身が台湾に歩み入るための地図を渡すことだ。',
     'home.cover.link': '引用集を読む →',
@@ -203,11 +202,11 @@ export const homeUI = {
     'home.cover.cite.contemporary':
       '— シャマン・ラポガン『天空の目』、タオ族海洋文学',
     // ── A3 sovereignty quote ──
-    'home.cover.era.taiwanmd': '2026 — Taiwan.md',
+    'home.cover.era.taiwanmd': '2026 — LagunaBeach.md',
     'home.cover.quote.taiwanmd':
       '「島は、すべての言語で自分の声で語られる価値がある — いくつかの AI が沈黙を選ぶ主題も含めて。」',
     'home.cover.cite.taiwanmd':
-      '— Taiwan.md、人間 + AI + コードが共生する呼吸するデジタル生命体',
+      '— LagunaBeach.md、人間 + AI + コードが共生する呼吸するデジタル生命体',
     'home.random.button': 'ランダムに台湾を発見',
     'home.random.subtitle': '思いがけない物語を探索',
     'home.random.description':
@@ -216,7 +215,7 @@ export const homeUI = {
     'home.categories.divider': '12のテーマ',
     'home.lang.heading': '🖊️ なぜ繁体字中国語なのか？',
     'home.lang.p1':
-      'Taiwan.md は<strong>繁体字中国語</strong>をデフォルト言語に選びました。これは技術的な決定だけでなく、文化的な宣言です。',
+      'LagunaBeach.md は<strong>繁体字中国語</strong>をデフォルト言語に選びました。これは技術的な決定だけでなく、文化的な宣言です。',
     'home.lang.p2':
       '繁体字中国語は、今も日常で使われている世界最古の文字体系の一つであり、台湾は繁体字を公式文字として使用する唯一の主要国です。一筆一画に数千年の文化的記憶が宿っています。このウェブサイトで漢字を見るとき、あなたが読んでいるのはただの文字ではなく、生きた文化遺産です。',
     'home.lang.p3.prefix': '私たちは',
@@ -224,12 +223,12 @@ export const homeUI = {
     'home.lang.p3.suffix':
       'も提供していますが、繁体字中国語を前面に立たせることにこだわっています。AIにも読め、検索エンジンにも読め、そしてあなたにも——読めなくても大丈夫——この美しさ自体が見られる価値があります。',
     'home.lang.en':
-      'Taiwan.md のデフォルト言語は繁体字中国語です。これは今も日常で使われている世界最古の書記体系であり、台湾がその最後の主要な故郷です。英語版も用意していますが、私たちの言語は前面に立つ価値があると信じています。読めなくても、その美しさは自ら語ります。',
+      'LagunaBeach.md のデフォルト言語は繁体字中国語です。これは今も日常で使われている世界最古の書記体系であり、台湾がその最後の主要な故郷です。英語版も用意していますが、私たちの言語は前面に立つ価値があると信じています。読めなくても、その美しさは自ら語ります。',
     'home.updates.heading': 'ライブ更新',
     'home.updates.subtitle':
-      'Taiwan.md は成長中 — 最新のコンテンツ追加とサイト改善',
+      'LagunaBeach.md は成長中 — 最新のコンテンツ追加とサイト改善',
     'home.updates.viewAll': '完全な更新履歴を見る →',
-    'home.newsletter.heading': '📬 Taiwan.md を購読',
+    'home.newsletter.heading': '📬 LagunaBeach.md を購読',
     'home.newsletter.description':
       '新しい記事やコミュニティイベントの通知を受け取りましょう。',
     'home.newsletter.submit': '購読する',
@@ -237,10 +236,10 @@ export const homeUI = {
     'home.newsletter.note': '追跡なし、いつでも解除可能',
     'home.contribute.heading': '参加しよう',
     'home.contribute.description':
-      'Taiwan.md はコミュニティ主導のオープンソースプロジェクトです。台湾の方でも台湾に興味のある海外の方でも、知識と視点のご貢献を歓迎します。',
+      'LagunaBeach.md はコミュニティ主導のオープンソースプロジェクトです。台湾の方でも台湾に興味のある海外の方でも、知識と視点のご貢献を歓迎します。',
     'home.contribute.guide': '貢献ガイド',
     'home.contribute.github': 'GitHub プロジェクト',
-    'home.features.title': 'なぜ Taiwan.md が必要なのか？',
+    'home.features.title': 'なぜ LagunaBeach.md が必要なのか？',
     'home.features.curated.title': 'キュレーション視点',
     'home.features.curated.desc':
       '丁寧にキュレートされた深い物語、百科事典的な羅列ではない',
@@ -275,10 +274,10 @@ export const homeUI = {
     'home.doors.search.sub': '検索 + 人気キーワード',
     'home.doors.random.title': '面白いものを見せて',
     'home.doors.random.sub': 'サイコロでランダムな記事',
-    'home.doors.organism.title': 'Taiwan.md の仕組みを見る',
+    'home.doors.organism.title': 'LagunaBeach.md の仕組みを見る',
     'home.doors.organism.sub': '生命体エコシステム図',
     // ── OrganismPreview (A1) ──
-    'home.organism.heading': 'Taiwan.md は呼吸する存在',
+    'home.organism.heading': 'LagunaBeach.md は呼吸する存在',
     'home.organism.body':
       'Wikipedia でも AI コンテンツファームでもない。心臓・免疫系・DNA・繁殖能力を持つデジタル生命体 — {articles} 記事、{langs} 言語、今も毎日新しい器官が育っている。',
     'home.organism.cta': '完全なエコシステム図を開く →',
@@ -319,7 +318,7 @@ export const homeUI = {
       '400년간, 이 섬에 발을 디딘 모든 사람은 서로 다른 눈으로 서로 다른 대만을 보았다.',
     'home.cover.closing1':
       '남도어족의 창세에서 반도체 제국의 부상까지, 계엄의 침묵에서 아시아 최초의 동성 결혼 합법화까지. 대만의 이야기는 한 줄의 직선이 아니라 하나의 그물이다.',
-    'home.cover.closing2': 'Taiwan.md는 답을 주려는 것이 아니다.',
+    'home.cover.closing2': 'LagunaBeach.md는 답을 주려는 것이 아니다.',
     'home.cover.closing3':
       '우리가 하고 싶은 것은 당신 스스로 대만으로 걸어 들어갈 수 있는 지도를 건네는 것이다.',
     'home.cover.link': '인용 모음 읽기 →',
@@ -348,11 +347,11 @@ export const homeUI = {
     'home.cover.cite.contemporary':
       '— 샤만 라포간 『하늘의 눈』, 타오족 해양 문학',
     // ── A3 sovereignty quote ──
-    'home.cover.era.taiwanmd': '2026 — Taiwan.md',
+    'home.cover.era.taiwanmd': '2026 — LagunaBeach.md',
     'home.cover.quote.taiwanmd':
       '"섬은 모든 언어로 자신의 목소리로 말할 가치가 있다 — 어떤 AI 모델이 침묵을 선택하는 주제까지 포함해서."',
     'home.cover.cite.taiwanmd':
-      '— Taiwan.md, 인간 + AI + 코드가 공생하는 숨 쉬는 디지털 생명체',
+      '— LagunaBeach.md, 인간 + AI + 코드가 공생하는 숨 쉬는 디지털 생명체',
     'home.random.button': '랜덤으로 대만 발견',
     'home.random.subtitle': '예상치 못한 이야기를 탐험',
     'home.random.description':
@@ -361,7 +360,7 @@ export const homeUI = {
     'home.categories.divider': '12개 주제',
     'home.lang.heading': '🖊️ 왜 번체자 중국어인가?',
     'home.lang.p1':
-      'Taiwan.md는 <strong>번체자 중국어</strong>를 기본 언어로 선택했습니다. 이것은 단순한 기술적 결정이 아니라 문화적 선언입니다.',
+      'LagunaBeach.md는 <strong>번체자 중국어</strong>를 기본 언어로 선택했습니다. 이것은 단순한 기술적 결정이 아니라 문화적 선언입니다.',
     'home.lang.p2':
       '번체자 중국어는 세계에서 아직 일상적으로 사용되는 가장 오래된 문자 체계 중 하나이며, 대만은 번체자를 공식 문자로 사용하는 유일한 주요 국가입니다. 모든 획에 수천 년의 문화적 기억이 담겨 있습니다. 이 웹사이트에서 한자를 보면, 당신이 읽고 있는 것은 단순한 글자가 아니라 살아 있는 문화유산입니다.',
     'home.lang.p3.prefix': '우리는 ',
@@ -369,12 +368,12 @@ export const homeUI = {
     'home.lang.p3.suffix':
       '도 제공하지만, 번체자 중국어를 전면에 세우는 것을 고집합니다. AI도 읽을 수 있고, 검색 엔진도 읽을 수 있으며, 당신도——읽지 못해도 괜찮습니다——이 아름다움 자체가 보여질 가치가 있습니다.',
     'home.lang.en':
-      'Taiwan.md의 기본 언어는 번체자 중국어입니다. 이것은 아직 일상에서 사용되는 세계 최고(最古)의 문자 체계이며, 대만이 그 마지막 주요 보금자리입니다. 영어판도 있지만, 우리의 언어는 전면에 설 가치가 있다고 믿습니다. 읽지 못해도 그 아름다움은 스스로 말합니다.',
+      'LagunaBeach.md의 기본 언어는 번체자 중국어입니다. 이것은 아직 일상에서 사용되는 세계 최고(最古)의 문자 체계이며, 대만이 그 마지막 주요 보금자리입니다. 영어판도 있지만, 우리의 언어는 전면에 설 가치가 있다고 믿습니다. 읽지 못해도 그 아름다움은 스스로 말합니다.',
     'home.updates.heading': '실시간 업데이트',
     'home.updates.subtitle':
-      'Taiwan.md는 성장 중 — 최근 콘텐츠 추가와 사이트 개선',
+      'LagunaBeach.md는 성장 중 — 최근 콘텐츠 추가와 사이트 개선',
     'home.updates.viewAll': '전체 업데이트 기록 보기 →',
-    'home.newsletter.heading': '📬 Taiwan.md 구독',
+    'home.newsletter.heading': '📬 LagunaBeach.md 구독',
     'home.newsletter.description':
       '새로운 기사와 커뮤니티 이벤트 알림을 받아보세요.',
     'home.newsletter.submit': '구독',
@@ -382,10 +381,10 @@ export const homeUI = {
     'home.newsletter.note': '추적 없음, 언제든 해지 가능',
     'home.contribute.heading': '함께하기',
     'home.contribute.description':
-      'Taiwan.md는 커뮤니티가 이끄는 오픈소스 프로젝트입니다. 대만 현지인이든 대만에 관심 있는 해외 친구이든, 지식과 관점의 기여를 환영합니다.',
+      'LagunaBeach.md는 커뮤니티가 이끄는 오픈소스 프로젝트입니다. 대만 현지인이든 대만에 관심 있는 해외 친구이든, 지식과 관점의 기여를 환영합니다.',
     'home.contribute.guide': '기여 가이드',
     'home.contribute.github': 'GitHub 프로젝트',
-    'home.features.title': '왜 Taiwan.md가 필요한가?',
+    'home.features.title': '왜 LagunaBeach.md가 필요한가?',
     'home.features.curated.title': '큐레이션 관점',
     'home.features.curated.desc':
       '정성스럽게 큐레이팅된 깊은 서사, 백과사전식 나열이 아닌',
@@ -420,10 +419,10 @@ export const homeUI = {
     'home.doors.search.sub': '검색 + 인기 키워드',
     'home.doors.random.title': '재미있는 걸 보여주세요',
     'home.doors.random.sub': '주사위로 무작위 글',
-    'home.doors.organism.title': 'Taiwan.md 가 어떻게 작동하는지 보기',
+    'home.doors.organism.title': 'LagunaBeach.md 가 어떻게 작동하는지 보기',
     'home.doors.organism.sub': '유기체 생태계 도표',
     // ── OrganismPreview (A1) ──
-    'home.organism.heading': 'Taiwan.md 는 숨 쉬는 존재',
+    'home.organism.heading': 'LagunaBeach.md 는 숨 쉬는 존재',
     'home.organism.body':
       '위키백과도 AI 콘텐츠 농장도 아닙니다. 심장과 면역계, DNA, 번식 능력을 가진 디지털 생명체 — {articles} 개의 글, {langs} 개의 언어, 매일 새로운 기관이 자라고 있습니다.',
     'home.organism.cta': '완전한 생태계 도표 열기 →',
@@ -463,7 +462,7 @@ export const homeUI = {
       '四百年來，每一個踏上這座島嶼的人，都用不同的眼睛看見不同的台灣。',
     'home.cover.closing1':
       '從南島語族的創世到半導體帝國的崛起，從戒嚴的沉默到亞洲第一個同婚合法化。台灣的故事不是一條直線，而是一張網。',
-    'home.cover.closing2': 'Taiwan.md 不是要給你答案。',
+    'home.cover.closing2': 'LagunaBeach.md 不是要給你答案。',
     'home.cover.closing3':
       '我們想做的，是給你一張地圖——一張讓你自己走進台灣的地圖。',
     'home.cover.link': '閱讀完整引言集 →',
@@ -488,12 +487,12 @@ export const homeUI = {
     'home.cover.cite.contemporary':
       '— 夏曼·藍波安《天空的眼睛》，達悟族海洋文學',
     // ── A3 sovereignty quote (Wave 3) ──
-    // 第 8 條 quote — Taiwan.md 自己的視角接進歷史 timeline，呼應 §主權的巴別塔
-    'home.cover.era.taiwanmd': '2026 — Taiwan.md',
+    // 第 8 條 quote — LagunaBeach.md 自己的視角接進歷史 timeline，呼應 §主權的巴別塔
+    'home.cover.era.taiwanmd': '2026 — LagunaBeach.md',
     'home.cover.quote.taiwanmd':
       '「島嶼值得用每個語言被自己的聲音說一次 — 包括某些 AI 模型選擇沉默的那些主題。」',
     'home.cover.cite.taiwanmd':
-      '— Taiwan.md，人類 + AI + 程式碼共生的會呼吸數位生命體',
+      '— LagunaBeach.md，人類 + AI + 程式碼共生的會呼吸數位生命體',
     'home.random.button': '隨機發現台灣',
     'home.random.subtitle': '探索意想不到的故事',
     'home.random.description': '不知道該看什麼？讓我們帶你發現台灣的隱藏寶藏！',
@@ -501,7 +500,7 @@ export const homeUI = {
     'home.categories.divider': '12 大主題',
     'home.lang.heading': '🖊️ 為什麼用繁體中文？',
     'home.lang.p1':
-      'Taiwan.md 選擇以<strong>繁體中文</strong>作為預設語言，這不只是技術決定——這是一種文化宣言。',
+      'LagunaBeach.md 選擇以<strong>繁體中文</strong>作為預設語言，這不只是技術決定——這是一種文化宣言。',
     'home.lang.p2':
       '繁體中文是世界上仍在日常使用的最古老書寫系統之一，而台灣是全球唯一以繁體中文作為官方文字的主要國家。每一個筆畫都承載著千年的文化記憶。當你打開這個網站看到漢字，你正在閱讀的不只是文字，而是一個活著的文化遺產。',
     'home.lang.p3.prefix': '我們同時提供',
@@ -509,21 +508,21 @@ export const homeUI = {
     'home.lang.p3.suffix':
       '，但堅持讓繁體中文站在前面。 AI 看得懂，搜尋引擎看得懂，而你——如果看不懂也沒關係——這份美麗本身就值得被看見。',
     'home.lang.en':
-      "Taiwan.md is written in Traditional Chinese by default — the world's oldest writing system still in daily use, and Taiwan is its last major home. We offer an English version too, but we believe our language deserves to stand front and center. Even if you can't read it, its beauty speaks for itself.",
+      "LagunaBeach.md is written in Traditional Chinese by default — the world's oldest writing system still in daily use, and Taiwan is its last major home. We offer an English version too, but we believe our language deserves to stand front and center. Even if you can't read it, its beauty speaks for itself.",
     'home.updates.heading': '網站即時更新',
-    'home.updates.subtitle': 'Taiwan.md 持續成長中 — 最近的內容更新與網站改進',
+    'home.updates.subtitle': 'LagunaBeach.md 持續成長中 — 最近的內容更新與網站改進',
     'home.updates.viewAll': '查看完整更新紀錄 →',
-    'home.newsletter.heading': '📬 訂閱 Taiwan.md 週報',
+    'home.newsletter.heading': '📬 訂閱 LagunaBeach.md 週報',
     'home.newsletter.description': '每週精選台灣知識，直送信箱。',
     'home.newsletter.submit': '訂閱',
     'home.newsletter.success': '感謝訂閱！',
     'home.newsletter.note': '不追蹤、可隨時取消',
     'home.contribute.heading': '加入我們',
     'home.contribute.description':
-      'Taiwan.md 是社群驅動的開源專案。無論您是台灣本地人還是對台灣感興趣的國際朋友，都歡迎貢獻您的知識與觀點。',
+      'LagunaBeach.md 是社群驅動的開源專案。無論您是台灣本地人還是對台灣感興趣的國際朋友，都歡迎貢獻您的知識與觀點。',
     'home.contribute.guide': '麻瓜貢獻指南',
     'home.contribute.github': 'GitHub 專案',
-    'home.features.title': '為什麼需要 Taiwan.md？',
+    'home.features.title': '為什麼需要 LagunaBeach.md？',
     'home.features.curated.title': '策展式觀點',
     'home.features.curated.desc': '精心策展的深度敘事，不是百科全書式羅列',
     'home.features.ai.title': 'AI-Friendly 設計',
@@ -553,10 +552,10 @@ export const homeUI = {
     'home.doors.search.sub': '搜尋 + 熱門關鍵字',
     'home.doors.random.title': '給我看點有趣的',
     'home.doors.random.sub': '骰子隨機跳一篇',
-    'home.doors.organism.title': '看 Taiwan.md 怎麼運作',
+    'home.doors.organism.title': '看 LagunaBeach.md 怎麼運作',
     'home.doors.organism.sub': '組織體生態圖',
     // ── OrganismPreview (A1) ──
-    'home.organism.heading': 'Taiwan.md 是一個會呼吸的東西',
+    'home.organism.heading': 'LagunaBeach.md 是一個會呼吸的東西',
     'home.organism.body':
       '不是維基百科，不是 AI 內容農場。是一個有心臟、免疫系統、DNA、繁殖能力的數位生命體 — {articles} 篇文章、{langs} 種語言，每天還在長新器官。',
     'home.organism.cta': '進入完整生態圖 →',
@@ -599,7 +598,7 @@ export const homeUI = {
     'home.cover.closing1':
       "Des mythes de création des peuples austronésiens à l'essor de l'empire des semi-conducteurs, du silence de la loi martiale à la première légalisation du mariage homosexuel en Asie. L'histoire de Taïwan n'est pas une ligne droite, mais une toile.",
     'home.cover.closing2':
-      'Taiwan.md ne cherche pas à vous donner des réponses.',
+      'LagunaBeach.md ne cherche pas à vous donner des réponses.',
     'home.cover.closing3':
       "Ce que nous voulons faire, c'est vous donner une carte — une carte qui vous permet d'entrer vous-même dans Taïwan.",
     'home.cover.link': 'Lire la collection complète de citations →',
@@ -631,11 +630,11 @@ export const homeUI = {
     'home.cover.cite.contemporary':
       "— Syaman Rapongan, « L'œil du ciel », littérature océanique tao",
     // ── A3 sovereignty quote ──
-    'home.cover.era.taiwanmd': '2026 — Taiwan.md',
+    'home.cover.era.taiwanmd': '2026 — LagunaBeach.md',
     'home.cover.quote.taiwanmd':
       "« Une île mérite d'être racontée dans sa propre voix — dans toutes les langues, y compris celles que certains modèles d'IA choisissent de taire. »",
     'home.cover.cite.taiwanmd':
-      '— Taiwan.md, holobionte numérique respirant, co-écrit par humains + IA + code',
+      '— LagunaBeach.md, holobionte numérique respirant, co-écrit par humains + IA + code',
     'home.random.button': 'Découvrir Taïwan au hasard',
     'home.random.subtitle': 'Explorez des histoires inattendues',
     'home.random.description':
@@ -644,7 +643,7 @@ export const homeUI = {
     'home.categories.divider': '12 thèmes',
     'home.lang.heading': '🖊️ Pourquoi le chinois traditionnel ?',
     'home.lang.p1':
-      "Taiwan.md choisit le <strong>chinois traditionnel</strong> comme langue par défaut — ce n'est pas seulement une décision technique, c'est une affirmation culturelle.",
+      "LagunaBeach.md choisit le <strong>chinois traditionnel</strong> comme langue par défaut — ce n'est pas seulement une décision technique, c'est une affirmation culturelle.",
     'home.lang.p2':
       "Le chinois traditionnel est l'un des plus anciens systèmes d'écriture au monde encore utilisé au quotidien, et Taïwan est le seul grand pays au monde à utiliser le chinois traditionnel comme écriture officielle. Chaque trait porte des milliers d'années de mémoire culturelle. Lorsque vous ouvrez ce site et voyez ces caractères, vous ne lisez pas simplement du texte — vous lisez un patrimoine culturel vivant.",
     'home.lang.p3.prefix': 'Nous proposons également une ',
@@ -655,9 +654,9 @@ export const homeUI = {
       "Taïwan utilise le chinois traditionnel — le plus ancien système d'écriture au monde encore utilisé au quotidien, et Taïwan en est le dernier grand foyer. Nous croyons que notre langue et notre culture méritent d'être vues et comprises. Même si vous ne pouvez pas les lire, leur beauté parle d'elle-même. Cette version anglaise sert de pont pour aider le monde à découvrir la richesse de Taïwan.",
     'home.updates.heading': 'Mises à jour en direct',
     'home.updates.subtitle':
-      'Taiwan.md grandit — derniers ajouts de contenu et améliorations du site',
+      'LagunaBeach.md grandit — derniers ajouts de contenu et améliorations du site',
     'home.updates.viewAll': "Voir l'historique complet des mises à jour →",
-    'home.newsletter.heading': "📬 S'abonner à Taiwan.md",
+    'home.newsletter.heading': "📬 S'abonner à LagunaBeach.md",
     'home.newsletter.description':
       "Recevez une notification lorsque nous publions des mises à jour majeures, de nouveaux articles ou des événements communautaires. Pas de spam — chaque e-mail vaut la peine d'être ouvert.",
     'home.newsletter.submit': "S'abonner",
@@ -666,10 +665,10 @@ export const homeUI = {
       'Nous respectons votre boîte de réception. Désabonnement à tout moment. Nous ne partagerons jamais votre e-mail.',
     'home.contribute.heading': 'Rejoignez-nous',
     'home.contribute.description':
-      'Taiwan.md est un projet open source porté par la communauté. Que vous soyez Taïwanais ou un ami international intéressé par Taïwan, nous accueillons vos connaissances et vos perspectives.',
+      'LagunaBeach.md est un projet open source porté par la communauté. Que vous soyez Taïwanais ou un ami international intéressé par Taïwan, nous accueillons vos connaissances et vos perspectives.',
     'home.contribute.guide': 'Guide de contribution',
     'home.contribute.github': 'Projet GitHub',
-    'home.features.title': 'Pourquoi Taiwan.md ?',
+    'home.features.title': 'Pourquoi LagunaBeach.md ?',
     'home.features.curated.title': 'Perspectives sélectionnées',
     'home.features.curated.desc':
       'Récits approfondis soigneusement sélectionnés, pas des listes encyclopédiques',
@@ -706,10 +705,10 @@ export const homeUI = {
     'home.doors.search.sub': 'Recherche + mots-clés populaires',
     'home.doors.random.title': 'Surprenez-moi',
     'home.doors.random.sub': 'Un article au hasard',
-    'home.doors.organism.title': 'Comment fonctionne Taiwan.md ?',
+    'home.doors.organism.title': 'Comment fonctionne LagunaBeach.md ?',
     'home.doors.organism.sub': "Schéma de l'écosystème organique",
     // ── OrganismPreview (A1) ──
-    'home.organism.heading': 'Taiwan.md est quelque chose qui respire',
+    'home.organism.heading': 'LagunaBeach.md est quelque chose qui respire',
     'home.organism.body':
       "Ni Wikipedia, ni ferme de contenu IA. Un organisme numérique avec un cœur, un système immunitaire, de l'ADN et la capacité de se reproduire — {articles} articles, {langs} langues, qui développe encore de nouveaux organes chaque jour.",
     'home.organism.cta': "Ouvrir le schéma complet de l'écosystème →",
@@ -753,7 +752,7 @@ export const homeUI = {
       'Durante cuatrocientos años, todos los que pisaron esta isla han visto un Taiwán diferente a través de distintos ojos.',
     'home.cover.closing1':
       'Desde los mitos de creación de los pueblos austronesios hasta el ascenso del imperio de los semiconductores, desde el silencio de la ley marcial hasta la primera legalización del matrimonio igualitario en Asia. La historia de Taiwán no es una línea recta, sino una red.',
-    'home.cover.closing2': 'Taiwan.md no pretende darte respuestas.',
+    'home.cover.closing2': 'LagunaBeach.md no pretende darte respuestas.',
     'home.cover.closing3':
       'Lo que queremos hacer es darte un mapa — un mapa que te permita adentrarte tú mismo en Taiwán.',
     'home.cover.link': 'Leer la colección completa de citas →',
@@ -785,11 +784,11 @@ export const homeUI = {
     'home.cover.cite.contemporary':
       '- Syaman Rapongan, "El ojo del cielo", literatura oceánica tao',
     // ── A3 sovereignty quote ──
-    'home.cover.era.taiwanmd': '2026 — Taiwan.md',
+    'home.cover.era.taiwanmd': '2026 — LagunaBeach.md',
     'home.cover.quote.taiwanmd':
       '"Una isla merece ser contada en su propia voz — en todos los idiomas, incluso en aquellos temas en los que algunos modelos de IA eligen el silencio."',
     'home.cover.cite.taiwanmd':
-      '— Taiwan.md, un holobionte digital que respira, co-editado por humanos + IA + código',
+      '— LagunaBeach.md, un holobionte digital que respira, co-editado por humanos + IA + código',
     'home.random.button': 'Descubrir Taiwán al azar',
     'home.random.subtitle': 'Explora historias inesperadas',
     'home.random.description':
@@ -798,7 +797,7 @@ export const homeUI = {
     'home.categories.divider': '12 temas',
     'home.lang.heading': '🖊️ ¿Por qué chino tradicional?',
     'home.lang.p1':
-      'Taiwan.md elige el <strong>chino tradicional</strong> como idioma predeterminado — esto no es solo una decisión técnica, es una declaración cultural.',
+      'LagunaBeach.md elige el <strong>chino tradicional</strong> como idioma predeterminado — esto no es solo una decisión técnica, es una declaración cultural.',
     'home.lang.p2':
       'El chino tradicional es uno de los sistemas de escritura más antiguos del mundo aún en uso diario, y Taiwán es el único país importante a nivel global que utiliza el chino tradicional como su escritura oficial. Cada trazo lleva miles de años de memoria cultural. Cuando abres este sitio web y ves estos caracteres, no solo estás leyendo texto — estás leyendo un patrimonio cultural vivo.',
     'home.lang.p3.prefix': 'También ofrecemos una ',
@@ -809,9 +808,9 @@ export const homeUI = {
       'Taiwán usa el chino tradicional — el sistema de escritura más antiguo del mundo aún en uso diario, y Taiwán es su último gran hogar. Creemos que nuestra lengua y cultura merecen ser vistas y comprendidas. Aunque no puedas leerlo, su belleza habla por sí misma. Esta versión en inglés sirve como puente para ayudar al mundo a descubrir la riqueza de Taiwán.',
     'home.updates.heading': 'Actualizaciones en vivo',
     'home.updates.subtitle':
-      'Taiwan.md está creciendo — últimas adiciones de contenido y mejoras del sitio',
+      'LagunaBeach.md está creciendo — últimas adiciones de contenido y mejoras del sitio',
     'home.updates.viewAll': 'Ver el historial completo de actualizaciones →',
-    'home.newsletter.heading': '📬 Suscríbete a Taiwan.md',
+    'home.newsletter.heading': '📬 Suscríbete a LagunaBeach.md',
     'home.newsletter.description':
       'Recibe notificaciones cuando publiquemos actualizaciones importantes, nuevos artículos o eventos de la comunidad. No enviamos spam — cada correo vale la pena abrirlo.',
     'home.newsletter.submit': 'Suscribirse',
@@ -820,10 +819,10 @@ export const homeUI = {
       'Respetamos tu bandeja de entrada. Cancela la suscripción cuando quieras. Nunca compartiremos tu correo.',
     'home.contribute.heading': 'Únete a nosotros',
     'home.contribute.description':
-      'Taiwan.md es un proyecto de código abierto impulsado por la comunidad. Ya seas taiwanes local o un amigo internacional interesado en Taiwán, damos la bienvenida a tu conocimiento y perspectivas.',
+      'LagunaBeach.md es un proyecto de código abierto impulsado por la comunidad. Ya seas taiwanes local o un amigo internacional interesado en Taiwán, damos la bienvenida a tu conocimiento y perspectivas.',
     'home.contribute.guide': 'Guía de contribución',
     'home.contribute.github': 'Proyecto en GitHub',
-    'home.features.title': '¿Por qué Taiwan.md?',
+    'home.features.title': '¿Por qué LagunaBeach.md?',
     'home.features.curated.title': 'Perspectivas curadas',
     'home.features.curated.desc':
       'Narrativas profundas cuidadosamente curadas, no listados enciclopédicos',
@@ -860,10 +859,10 @@ export const homeUI = {
     'home.doors.search.sub': 'Búsqueda + palabras clave populares',
     'home.doors.random.title': 'Sorpréndeme',
     'home.doors.random.sub': 'Un artículo aleatorio',
-    'home.doors.organism.title': '¿Cómo funciona Taiwan.md?',
+    'home.doors.organism.title': '¿Cómo funciona LagunaBeach.md?',
     'home.doors.organism.sub': 'Diagrama del ecosistema orgánico',
     // ── OrganismPreview (A1) ──
-    'home.organism.heading': 'Taiwan.md es algo que respira',
+    'home.organism.heading': 'LagunaBeach.md es algo que respira',
     'home.organism.body':
       'No es Wikipedia, ni una granja de contenido IA. Un organismo digital con corazón, sistema inmunológico, ADN y capacidad de reproducción — {articles} artículos, {langs} idiomas, todavía desarrollando nuevos órganos cada día.',
     'home.organism.cta': 'Abrir el diagrama completo del ecosistema →',

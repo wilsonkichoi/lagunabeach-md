@@ -2,12 +2,8 @@
 /**
  * HomeEnHalls — 4 exhibition halls in English narrative
  *
- * Used by en/ja/ko/es/fr index.astro via home.template.astro conditional render.
- * 5 langs all share the same English prose (only URL prefix differs).
- *
- * 2026-05-03 sleepy-colden P2 unification — extract from src/pages/en/index.astro.
- * 2026-05-27 Wave 3 / A2 — cross-hall bridges (i18n via useTranslations so
- * each non-default lang shows its own bridge prose).
+ * Adapted for LagunaBeach.md from Taiwan.md's original 4-hall structure.
+ * Each hall groups 2 related categories with narrative prose and article picks.
  */
 import { getLangFromUrl, useTranslations } from '../../i18n/utils';
 
@@ -31,31 +27,31 @@ const t = useTranslations(lang);
 ---
 
 <>
-  {/* ── Hall I: What this island looks like ── */}
+  {/* ── Hall I: The Coast ── */}
   <div class="exhibition-hall">
     <div class="hall-divider">
       <div class="hall-line"></div>
-      <span class="hall-label">I — What this island looks like</span>
+      <span class="hall-label">I — The Coast</span>
       <div class="hall-line"></div>
     </div>
     <div class="hall-body">
       <p>
-        Just 36,000 square kilometers, yet the Philippine Sea Plate pushes into
-        the Eurasian Plate at 8 cm a year, making Taiwan one of the most
-        mountainous islands on Earth.
+        Seven miles of coastline, compressed between the Pacific and the San Joaquin Hills.
+        Over 30 coves and beaches, each with a different character. Thousand Steps rewards
+        the descent with tidepools and sea caves. Victoria Beach hides a pirate tower built
+        in 1926.
         <a
-          href={`${langUrlPrefix}/geography`}
+          href={`${langUrlPrefix}/beaches`}
           data-ga-section="hall_pill"
-          class="topic-pill">🗺️ The geography here</a
+          class="topic-pill">🏖️ The beaches</a
         >
-        isn't a postcard — it's an island still growing taller. The Tropic of Cancer
-        crosses Chiayi; on the same day you can drive from Kenting's tropical beach
-        to Hehuan Mountain's frost.
+        are not interchangeable stretches of sand — each is a pocket ecosystem shaped
+        by the specific angle of its headlands.
       </p>
       {
-        topPicks.geography && topPicks.geography.length > 0 && (
+        topPicks.beaches && topPicks.beaches.length > 0 && (
           <div class="hall-picks">
-            {topPicks.geography.map((a) => (
+            {topPicks.beaches.map((a) => (
               <a href={a.href} data-ga-section="hall_pick" class="pick-card">
                 <span class="pick-head">
                   <span class="pick-title">{a.title}</span>
@@ -75,55 +71,21 @@ const t = useTranslations(lang);
       }
 
       <p>
-        On an island smaller than the Netherlands, 59,000 species crowd together
-        — 2.5% of global biodiversity. The Formosan landlocked salmon has
-        survived 15,000 years in Dajia Creek; fewer than 600 Formosan black
-        bears remain.
+        Below the tideline, kelp forests shelter garibaldi, sea hares, and octopus.
+        The Marine Protected Area off Laguna's coast is one of the most studied in
+        California. Tide pools at Crystal Cove and Shaw's Cove hold creatures most
+        aquariums can't replicate.
         <a
-          href={`${langUrlPrefix}/nature`}
+          href={`${langUrlPrefix}/nature-marine-life`}
           data-ga-section="hall_pill"
-          class="topic-pill">🌿 Taiwan's nature</a
-        > vertically compresses every ecosystem from the equator to the subarctic
-        — coral reefs to cloud forests in 3,000 meters. A paradise for ecologists,
-        a frontline for development pressure.
+          class="topic-pill">🌊 Nature & marine life</a
+        >
+        here is not wilderness — it's wildness within earshot of Pacific Coast Highway.
       </p>
       {
-        topPicks.nature && topPicks.nature.length > 0 && (
+        topPicks['nature-marine-life'] && topPicks['nature-marine-life'].length > 0 && (
           <div class="hall-picks">
-            {topPicks.nature.map((a) => (
-              <a href={a.href} data-ga-section="hall_pick" class="pick-card">
-                <span class="pick-head">
-                  <span class="pick-title">{a.title}</span>
-                  <span class="pick-fn">{a.footnotes} sources</span>
-                </span>
-                {a.description && (
-                  <span class="pick-desc">
-                    {a.description.length > 80
-                      ? a.description.slice(0, 77) + '...'
-                      : a.description}
-                  </span>
-                )}
-              </a>
-            ))}
-          </div>
-        )
-      }
-
-      <p>
-        13,000 convenience stores — one for every 2,000 people. Pay bills, pick
-        up packages, buy train tickets, photocopy your thesis, all at the same
-        counter.
-        <a
-          href={`${langUrlPrefix}/lifestyle`}
-          data-ga-section="hall_pill"
-          class="topic-pill">🏠 Taiwanese life</a
-        > is wrapped in hyper-compressed infrastructure — but step into an alley after
-        work, and grandma will still ask, "Have you eaten yet?"
-      </p>
-      {
-        topPicks.lifestyle && topPicks.lifestyle.length > 0 && (
-          <div class="hall-picks">
-            {topPicks.lifestyle.map((a) => (
+            {topPicks['nature-marine-life'].map((a) => (
               <a href={a.href} data-ga-section="hall_pick" class="pick-card">
                 <span class="pick-head">
                   <span class="pick-title">{a.title}</span>
@@ -144,33 +106,25 @@ const t = useTranslations(lang);
     </div>
   </div>
 
-  {/* ── Bridge I→II (A2, Wave 3) ── */}
-  <div class="hall-bridge">
-    <div class="hall-bridge-line"></div>
-    <em class="hall-bridge-text">{t('home.bridge.1to2')}</em>
-    <div class="hall-bridge-line"></div>
-  </div>
-
-  {/* ── Hall II: How this island came to be ── */}
+  {/* ── Hall II: The Story ── */}
   <div class="exhibition-hall">
     <div class="hall-divider">
       <div class="hall-line"></div>
-      <span class="hall-label">II — How this island came to be</span>
+      <span class="hall-label">II — The Story</span>
       <div class="hall-line"></div>
     </div>
     <div class="hall-body">
       <p>
-        In 1624, the Dutch built Fort Zeelandia in Tainan. Eight regimes
-        followed in four centuries — one every fifty years on average — each
-        bringing new languages, laws, and time zones.
+        The Acjachemen people lived here for thousands of years. Then ranchers, then
+        plein air painters who arrived in the 1900s and never left. Laguna Beach
+        incorporated in 1927 specifically to prevent oil drilling. The 1993 firestorm
+        destroyed 441 homes in a single afternoon.
         <a
           href={`${langUrlPrefix}/history`}
           data-ga-section="hall_pill"
-          class="topic-pill">📜 Taiwan's history</a
-        >'s most astonishing chapter came in 1996: 14.3 million people walked
-        into polling stations and cast the first direct presidential vote in
-        Chinese-speaking history. No bloodshed, no coup. An island under
-        authoritarian rule for 38 years quietly turned itself into a democracy.
+          class="topic-pill">📜 History</a
+        >
+        here is not ancient — but it is fierce.
       </p>
       {
         topPicks.history && topPicks.history.length > 0 && (
@@ -195,56 +149,21 @@ const t = useTranslations(lang);
       }
 
       <p>
-        Sixteen indigenous peoples have lived here for 6,000 years. Hoklo
-        brought Mazu, Hakka brought Yimin Ye, mainlanders brought Shandong
-        mantou from military villages, Southeast Asian immigrants brought Eid
-        al-Fitr.
+        The painters stayed and multiplied. The Pageant of the Masters has recreated
+        classical artworks with live actors since 1933. The Sawdust Art Festival
+        fills a eucalyptus grove with working studios every summer. Over 100 galleries
+        line the village streets.
         <a
-          href={`${langUrlPrefix}/culture`}
+          href={`${langUrlPrefix}/art-galleries`}
           data-ga-section="hall_pill"
-          class="topic-pill">🎭 Taiwan's culture</a
-        > is not a melting pot — nobody got melted. The Dajia Mazu pilgrimage draws
-        a million walkers over nine days; the Tsou Mayasvi war ritual happens in Alishan
-        the same month. Both are Taiwan, and they don't contradict.
+          class="topic-pill">🎨 Art & Galleries</a
+        >
+        are not ornament here — they are the reason the city exists.
       </p>
       {
-        topPicks.culture && topPicks.culture.length > 0 && (
+        topPicks['art-galleries'] && topPicks['art-galleries'].length > 0 && (
           <div class="hall-picks">
-            {topPicks.culture.map((a) => (
-              <a href={a.href} data-ga-section="hall_pick" class="pick-card">
-                <span class="pick-head">
-                  <span class="pick-title">{a.title}</span>
-                  <span class="pick-fn">{a.footnotes} sources</span>
-                </span>
-                {a.description && (
-                  <span class="pick-desc">
-                    {a.description.length > 80
-                      ? a.description.slice(0, 77) + '...'
-                      : a.description}
-                  </span>
-                )}
-              </a>
-            ))}
-          </div>
-        )
-      }
-
-      <p>
-        On May 17, 2019, the legislature voted to legalize same-sex marriage —
-        making Taiwan the first in Asia. Six months earlier, 7.65 million people
-        had just voted against it in a referendum.
-        <a
-          href={`${langUrlPrefix}/society`}
-          data-ga-section="hall_pill"
-          class="topic-pill">⚖️ Taiwan's society</a
-        >'s most fascinating quality is right here: the referendum said no, the
-        legislature said yes, and society kept functioning. People finished
-        arguing, then stood in line together for breakfast.
-      </p>
-      {
-        topPicks.society && topPicks.society.length > 0 && (
-          <div class="hall-picks">
-            {topPicks.society.map((a) => (
+            {topPicks['art-galleries'].map((a) => (
               <a href={a.href} data-ga-section="hall_pick" class="pick-card">
                 <span class="pick-head">
                   <span class="pick-title">{a.title}</span>
@@ -265,39 +184,30 @@ const t = useTranslations(lang);
     </div>
   </div>
 
-  {/* ── Bridge II→III ── */}
-  <div class="hall-bridge">
-    <div class="hall-bridge-line"></div>
-    <em class="hall-bridge-text">{t('home.bridge.2to3')}</em>
-    <div class="hall-bridge-line"></div>
-  </div>
-
-  {/* ── Hall III: What the people are doing ── */}
+  {/* ── Hall III: The Land ── */}
   <div class="exhibition-hall">
     <div class="hall-divider">
       <div class="hall-line"></div>
-      <span class="hall-label">III — What the people are doing</span>
+      <span class="hall-label">III — The Land</span>
       <div class="hall-line"></div>
     </div>
     <div class="hall-body">
       <p>
-        Yan Chang-shou delivered mail at American Express at 23, became general
-        manager five years later. Jeremy Lin sat on the bench for two years,
-        then rewrote the NBA's Asian narrative in one week. Chen Shu-chu sold
-        vegetables at Taitung market for 48 years and donated over NT$10
-        million.
+        Behind the beach, 22,000 acres of protected wilderness. The Top of the World
+        trail gives you the entire Orange County coast in a single glance. Laguna Coast
+        Wilderness Park holds California gnatcatchers, bobcats, and the last coastal
+        cactus scrub in the county.
         <a
-          href={`${langUrlPrefix}/people`}
+          href={`${langUrlPrefix}/trails`}
           data-ga-section="hall_pill"
-          class="topic-pill">👥 Taiwan's people</a
+          class="topic-pill">🥾 Trails</a
         >
-        didn't walk out of textbooks — their stories are worth reading because every
-        turning point could have not happened.
+        start at sea level and climb 1,000 feet in under a mile.
       </p>
       {
-        topPicks.people && topPicks.people.length > 0 && (
+        topPicks.trails && topPicks.trails.length > 0 && (
           <div class="hall-picks">
-            {topPicks.people.map((a) => (
+            {topPicks.trails.map((a) => (
               <a href={a.href} data-ga-section="hall_pick" class="pick-card">
                 <span class="pick-head">
                   <span class="pick-title">{a.title}</span>
@@ -317,56 +227,20 @@ const t = useTranslations(lang);
       }
 
       <p>
-        In 2009, Cai Guo-Qiang detonated nine gunpowder explosions at Taipei
-        Fine Arts Museum. The same year, Lin Hwai-min's Cloud Gate Dance Theatre
-        rose from the ashes of their Bali studio fire.
+        Canyon neighborhoods climb the hillsides in narrow winding roads. Top of the
+        World feels like a mountain village. The Village downtown is walkable galleries
+        and restaurants along PCH. South Laguna keeps an older, quieter character.
         <a
-          href={`${langUrlPrefix}/art`}
+          href={`${langUrlPrefix}/neighborhoods`}
           data-ga-section="hall_pill"
-          class="topic-pill">🎨 Taiwan's art</a
-        > runs from temple Eight Generals face paint to the Venice Biennale, from
-        Jiaozhi pottery to digital installations. The question Taiwan's creators ask
-        most often isn't "what is beauty" — it's "who are we."
+          class="topic-pill">🏘️ Neighborhoods</a
+        >
+        are not subdivisions — each canyon developed its own identity.
       </p>
       {
-        topPicks.art && topPicks.art.length > 0 && (
+        topPicks.neighborhoods && topPicks.neighborhoods.length > 0 && (
           <div class="hall-picks">
-            {topPicks.art.map((a) => (
-              <a href={a.href} data-ga-section="hall_pick" class="pick-card">
-                <span class="pick-head">
-                  <span class="pick-title">{a.title}</span>
-                  <span class="pick-fn">{a.footnotes} sources</span>
-                </span>
-                {a.description && (
-                  <span class="pick-desc">
-                    {a.description.length > 80
-                      ? a.description.slice(0, 77) + '...'
-                      : a.description}
-                  </span>
-                )}
-              </a>
-            ))}
-          </div>
-        )
-      }
-
-      <p>
-        In 1932, Deng Yu-xian wrote "Longing for Spring Wind" — ninety years
-        later it's still a KTV regular. The Bunun's pasibutbut (eight-part
-        polyphony) caught UNESCO's attention because Western music theory can't
-        explain it.
-        <a
-          href={`${langUrlPrefix}/music`}
-          data-ga-section="hall_pill"
-          class="topic-pill">🎵 Taiwan's sound</a
-        > runs from tribal chants to Mayday filling an arena with 100,000 voices.
-        Music on this island isn't just entertainment — it's how each generation recognizes
-        itself.
-      </p>
-      {
-        topPicks.music && topPicks.music.length > 0 && (
-          <div class="hall-picks">
-            {topPicks.music.map((a) => (
+            {topPicks.neighborhoods.map((a) => (
               <a href={a.href} data-ga-section="hall_pick" class="pick-card">
                 <span class="pick-head">
                   <span class="pick-title">{a.title}</span>
@@ -387,39 +261,29 @@ const t = useTranslations(lang);
     </div>
   </div>
 
-  {/* ── Bridge III→IV ── */}
-  <div class="hall-bridge">
-    <div class="hall-bridge-line"></div>
-    <em class="hall-bridge-text">{t('home.bridge.3to4')}</em>
-    <div class="hall-bridge-line"></div>
-  </div>
-
-  {/* ── Hall IV: Where this island is going ── */}
+  {/* ── Hall IV: The Life ── */}
   <div class="exhibition-hall">
     <div class="hall-divider">
       <div class="hall-line"></div>
-      <span class="hall-label">IV — Where this island is going</span>
+      <span class="hall-label">IV — The Life</span>
       <div class="hall-line"></div>
     </div>
     <div class="hall-body">
       <p>
-        90% of the world's advanced chips ship from Taiwan. A single TSMC fab
-        costs US$20 billion; its cleanrooms are 10,000 times cleaner than
-        operating theaters.
+        The Pageant of the Masters, Sawdust Art Festival, Festival of Arts — all
+        running since the 1930s. First Thursdays bring the village alive monthly.
+        The Fourth of July parade has been uninterrupted since 1966.
         <a
-          href={`${langUrlPrefix}/technology`}
+          href={`${langUrlPrefix}/events-festivals`}
           data-ga-section="hall_pill"
-          class="topic-pill">💻 This tech island</a
+          class="topic-pill">🎭 Events & Festivals</a
         >
-        started from tin-roof workshops in the 1980s Hsinchu Science Park and became,
-        forty years later, a supply-chain node that no phone, laptop, or car on Earth
-        can bypass. The trade-off: semiconductors consume 7% of Taiwan's total electricity
-        — and rising.
+        are not tourism products — they grew from a community that wanted to celebrate itself.
       </p>
       {
-        topPicks.technology && topPicks.technology.length > 0 && (
+        topPicks['events-festivals'] && topPicks['events-festivals'].length > 0 && (
           <div class="hall-picks">
-            {topPicks.technology.map((a) => (
+            {topPicks['events-festivals'].map((a) => (
               <a href={a.href} data-ga-section="hall_pick" class="pick-card">
                 <span class="pick-head">
                   <span class="pick-title">{a.title}</span>
@@ -439,51 +303,15 @@ const t = useTranslations(lang);
       }
 
       <p>
-        In 1960, Taiwan's GDP per capita was US$154 — lower than the Congo's.
-        Sixty years later it exceeds US$33,000, without oil, colonial dividends,
-        or continental hinterland.
-        <a
-          href={`${langUrlPrefix}/economy`}
-          data-ga-section="hall_pill"
-          class="topic-pill">📈 Taiwan's economy</a
-        >
-        is the story of a resource-poor island turning itself into a global supply-chain
-        hub. The method was singular: work harder and pivot faster than everyone else.
-      </p>
-      {
-        topPicks.economy && topPicks.economy.length > 0 && (
-          <div class="hall-picks">
-            {topPicks.economy.map((a) => (
-              <a href={a.href} data-ga-section="hall_pick" class="pick-card">
-                <span class="pick-head">
-                  <span class="pick-title">{a.title}</span>
-                  <span class="pick-fn">{a.footnotes} sources</span>
-                </span>
-                {a.description && (
-                  <span class="pick-desc">
-                    {a.description.length > 80
-                      ? a.description.slice(0, 77) + '...'
-                      : a.description}
-                  </span>
-                )}
-              </a>
-            ))}
-          </div>
-        )
-      }
-
-      <p>
-        A bowl of beef noodle soup: Sichuan red-braised base, Taiwanese soy
-        sweetness, and a 1949 veteran's homesickness. Bubble tea left a Taichung
-        tea house and landed on five continents.
+        The Cliff Restaurant has served the same ocean view since 1946. Taco Loco
+        has been at the same corner since 1989. Laguna's food scene is not fast-casual
+        chains — it's the kind of place where the owner remembers your order.
         <a
           href={`${langUrlPrefix}/food`}
           data-ga-section="hall_pill"
-          class="topic-pill">🍜 Taiwan's flavor</a
+          class="topic-pill">🍽️ Food</a
         >
-        is its immigration history — Hoklo oyster omelets, Hakka ginger intestines,
-        indigenous millet wine, new immigrant fish sauce. Four centuries of homesickness,
-        all simmering in the same night market.
+        here is coastal California filtered through decades of local character.
       </p>
       {
         topPicks.food && topPicks.food.length > 0 && (

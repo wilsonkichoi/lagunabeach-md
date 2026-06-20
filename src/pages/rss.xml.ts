@@ -49,7 +49,7 @@ export async function GET(context) {
   return rss({
     title: 'Taiwan.md — 開源台灣知識庫',
     description: '用 Markdown 策展台灣，讓世界看見這座島嶼的故事',
-    site: context.site || 'https://taiwan.md',
+    site: context.site || 'https://lagunabeach.md',
     items: articles.slice(0, 50),
     customData: '<language>zh-TW</language>',
   });

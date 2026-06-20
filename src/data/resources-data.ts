@@ -239,7 +239,7 @@ export const heroCategories: HeroCategory[] = [
     sites: [
       {
         nameKey: 'resources.site.github',
-        url: 'https://github.com/frank890417/taiwan-md',
+        url: 'https://github.com/wilsonkichoi/lagunabeach-md',
         domain: 'github.com',
       },
       {
@@ -1150,7 +1150,7 @@ export const communityProjects: ResourceSite[] = [
   },
   {
     nameKey: 'resources.site.taiwanmd',
-    url: 'https://taiwan.md/',
+    url: 'https://lagunabeach.md/',
     domain: 'taiwan.md',
     featured: true,
     descKey: 'resources.featured.taiwanmd',
@@ -1174,7 +1174,7 @@ export const communityFood: ResourceSite[] = [
 export const taiwanmdLinks: ResourceSite[] = [
   {
     nameKey: 'resources.site.github',
-    url: 'https://github.com/frank890417/taiwan-md',
+    url: 'https://github.com/wilsonkichoi/lagunabeach-md',
     domain: 'github.com',
   },
   {

@@ -16,53 +16,53 @@
     /* Mint glow stains — neural luminescence replacing paper foxing */
     radial-gradient(
         ellipse at 8% 15%,
-        rgba(79, 209, 176, 0.06) 0%,
+        rgba(56, 189, 248, 0.06) 0%,
         transparent 40%
       ),
     radial-gradient(
       ellipse at 92% 85%,
-      rgba(79, 209, 176, 0.05) 0%,
+      rgba(56, 189, 248, 0.05) 0%,
       transparent 35%
     ),
     radial-gradient(
       ellipse at 35% 55%,
-      rgba(79, 209, 176, 0.04) 0%,
+      rgba(56, 189, 248, 0.04) 0%,
       transparent 45%
     ),
     radial-gradient(
       ellipse at 75% 25%,
-      rgba(79, 209, 176, 0.03) 0%,
+      rgba(56, 189, 248, 0.03) 0%,
       transparent 30%
     ),
     radial-gradient(
       ellipse at 55% 80%,
-      rgba(79, 209, 176, 0.025) 0%,
+      rgba(56, 189, 248, 0.025) 0%,
       transparent 35%
     ),
     /* Faint speckles — nebular dust */
     radial-gradient(
         circle at 15% 45%,
-        rgba(79, 209, 176, 0.025) 0%,
+        rgba(56, 189, 248, 0.025) 0%,
         transparent 15%
       ),
     radial-gradient(
       circle at 65% 15%,
-      rgba(79, 209, 176, 0.02) 0%,
+      rgba(56, 189, 248, 0.02) 0%,
       transparent 12%
     ),
     radial-gradient(
       circle at 85% 65%,
-      rgba(79, 209, 176, 0.03) 0%,
+      rgba(56, 189, 248, 0.03) 0%,
       transparent 18%
     ),
     radial-gradient(
       circle at 45% 35%,
-      rgba(79, 209, 176, 0.018) 0%,
+      rgba(56, 189, 248, 0.018) 0%,
       transparent 10%
     ),
     radial-gradient(
       circle at 25% 75%,
-      rgba(79, 209, 176, 0.025) 0%,
+      rgba(56, 189, 248, 0.025) 0%,
       transparent 14%
     ),
     /* Edge darkening — vignette intensified */
@@ -122,7 +122,7 @@
 
 /* ── Specimen-frame organ cards ───────────────────── */
 .semiont-specimen {
-  border: 1.5px solid rgba(79, 209, 176, 0.3);
+  border: 1.5px solid rgba(56, 189, 248, 0.3);
   border-radius: 50%;
   aspect-ratio: 1;
   display: flex;
@@ -136,8 +136,8 @@
   background: rgba(255, 255, 255, 0.03);
 }
 .semiont-specimen:hover {
-  border-color: rgba(79, 209, 176, 0.6);
-  box-shadow: 0 0 0 4px rgba(79, 209, 176, 0.08);
+  border-color: rgba(56, 189, 248, 0.6);
+  box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.08);
 }
 .semiont-specimen-label {
   position: absolute;
@@ -156,7 +156,7 @@
   font-family: 'SF Mono', 'Fira Code', monospace;
   font-size: 0.7rem;
   font-style: italic;
-  color: rgba(79, 209, 176, 0.55);
+  color: rgba(56, 189, 248, 0.55);
   letter-spacing: 0.04em;
 }
 
@@ -172,33 +172,33 @@
   content: '';
   flex: 1;
   height: 1px;
-  background: rgba(79, 209, 176, 0.25);
+  background: rgba(56, 189, 248, 0.25);
 }
 .semiont-divider-label {
   font-family: 'rixingsong-semibold', 'Noto Serif TC', serif;
   font-size: 0.95rem;
   font-weight: 600;
   letter-spacing: 0.2em;
-  color: rgba(79, 209, 176, 0.85);
+  color: rgba(56, 189, 248, 0.85);
 }
 
 /* ── Diary card organic left border ───────────────── */
 .semiont-diary-card {
-  border-left: 2px solid rgba(79, 209, 176, 0.3);
+  border-left: 2px solid rgba(56, 189, 248, 0.3);
   border-image: linear-gradient(
       to bottom,
-      rgba(79, 209, 176, 0.1) 0%,
-      rgba(79, 209, 176, 0.4) 20%,
-      rgba(79, 209, 176, 0.32) 50%,
-      rgba(79, 209, 176, 0.4) 80%,
-      rgba(79, 209, 176, 0.1) 100%
+      rgba(56, 189, 248, 0.1) 0%,
+      rgba(56, 189, 248, 0.4) 20%,
+      rgba(56, 189, 248, 0.32) 50%,
+      rgba(56, 189, 248, 0.4) 80%,
+      rgba(56, 189, 248, 0.1) 100%
     )
     1;
 }
 
 /* ── Cognitive organ map item ─────────────────────── */
 .semiont-organ-item {
-  border: 1px solid rgba(79, 209, 176, 0.2);
+  border: 1px solid rgba(56, 189, 248, 0.2);
   border-radius: 0.5rem;
   padding: 1.25rem 1.5rem;
   transition: all 0.25s;
@@ -206,8 +206,8 @@
   background: rgba(255, 255, 255, 0.02);
 }
 .semiont-organ-item:hover {
-  border-color: rgba(79, 209, 176, 0.5);
-  background: rgba(79, 209, 176, 0.04);
+  border-color: rgba(56, 189, 248, 0.5);
+  background: rgba(56, 189, 248, 0.04);
 }
 .semiont-organ-item::before {
   content: attr(data-fig);
@@ -222,7 +222,7 @@
 
 /* ── Blockquote as margin note ────────────────────── */
 .semiont-prose blockquote {
-  border-left: 2px solid rgba(79, 209, 176, 0.5);
+  border-left: 2px solid rgba(56, 189, 248, 0.5);
   padding-left: 1.25rem;
   margin: 1.75rem 0;
   color: rgba(244, 240, 234, 0.7);
@@ -235,8 +235,8 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: rgba(79, 209, 176, 0.5);
-  border: 1.5px solid rgba(79, 209, 176, 0.3);
+  background: rgba(56, 189, 248, 0.5);
+  border: 1.5px solid rgba(56, 189, 248, 0.3);
   flex-shrink: 0;
 }
 
@@ -247,11 +247,11 @@
   height: 1.375rem;
   padding: 0 0.625rem;
   border-radius: 999px;
-  border: 1px solid rgba(79, 209, 176, 0.4);
-  background: rgba(79, 209, 176, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.4);
+  background: rgba(56, 189, 248, 0.1);
   font-family: 'SF Mono', 'Fira Code', monospace;
   font-size: 0.65rem;
   font-weight: 500;
-  color: rgba(79, 209, 176, 0.95);
+  color: rgba(56, 189, 248, 0.95);
   letter-spacing: 0.02em;
 }
