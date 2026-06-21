@@ -1,74 +1,77 @@
 /**
- * data-client.js — /data 人口金字塔（Population Pyramid）client-side 渲染邏輯
+ * data-client.js — /data Population Pyramid client-side rendering.
  *
- * 2026-06-13 refactor session 從 data.template.astro 抽出（原 <script
- * define:vars={{ lang }}> 內嵌 477 行，每語言頁各一份 inline copy）。
- * 抽成 Astro-processed module 後 bundle 一份 hashed .js 共用 + 瀏覽器可快取。
- * 內容 1:1 verbatim 搬運（sed 行段抽取，僅整段 dedent 4 空格）。
+ * Originally extracted from data.template.astro (2026-06-13) as an
+ * Astro-processed module so every language page shares one hashed,
+ * cacheable bundle. Language is read from <html lang> (langIsEn shim).
  *
- * lang 來源：原 define:vars 注入 → 下行 shim 改讀 <html lang>（Layout 設定，值域相同）。
- * 註：本段實際以 document.documentElement.lang 判斷語言（langIsEn），shim 僅維持原契約。
+ * LagunaBeach.md migration: the Taiwan time-series (2000/2010/2025/2050)
+ * is replaced by a geography comparison — Laguna Beach vs. Orange County
+ * vs. California — from the U.S. Census Bureau American Community Survey
+ * (table B01001, Sex by Age), aggregated into 5-year bands. The slider
+ * toggles geography; each pyramid auto-scales to its own largest band so
+ * the shapes are comparable despite very different population totals.
  */
-const lang = document.documentElement.getAttribute('lang') || 'zh-TW';
+const lang = document.documentElement.getAttribute('lang') || 'en';
 
-// Population data (estimated based on research)
+// Population by sex and 5-year age band (U.S. Census Bureau, ACS B01001).
 const populationData = {
-  2000: {
+  lagunaBeach: {
     male: [
-      650000, 680000, 720000, 750000, 800000, 820000, 750000, 680000, 620000,
-      550000, 480000, 420000, 350000, 280000, 220000, 160000, 120000, 80000,
+      306, 463, 636, 587, 342, 392, 666, 741, 514, 424, 1047, 908, 1197, 922,
+      1029, 908, 375, 180,
     ],
     female: [
-      620000, 650000, 680000, 710000, 760000, 780000, 720000, 650000, 590000,
-      530000, 460000, 400000, 340000, 280000, 230000, 180000, 140000, 100000,
+      428, 410, 440, 470, 297, 387, 481, 622, 723, 815, 742, 860, 981, 1198,
+      971, 673, 279, 296,
     ],
-    totalPop: 22270000,
-    medianAge: 30,
-    elderlyRatio: 8.6,
-    youthRatio: 20.1,
+    totalPop: 22710,
+    medianAge: 53.9,
+    elderlyRatio: 30.1,
+    youthRatio: 15.2,
   },
-  2010: {
+  orangeCounty: {
     male: [
-      520000, 540000, 580000, 650000, 720000, 750000, 820000, 800000, 750000,
-      680000, 620000, 550000, 480000, 420000, 350000, 280000, 220000, 160000,
+      80434, 85714, 101237, 106073, 100382, 107142, 116131, 102636, 111763,
+      97341, 104766, 103178, 102421, 84752, 62931, 48584, 26343, 27047,
     ],
     female: [
-      490000, 510000, 550000, 620000, 680000, 720000, 780000, 760000, 720000,
-      650000, 590000, 530000, 460000, 400000, 340000, 280000, 230000, 180000,
+      74945, 81246, 95751, 102814, 100193, 106032, 112175, 104291, 106489,
+      99800, 108326, 105214, 103717, 87808, 76382, 55498, 40019, 40860,
     ],
-    totalPop: 23160000,
-    medianAge: 37,
-    elderlyRatio: 10.7,
-    youthRatio: 15.6,
+    totalPop: 3170435,
+    medianAge: 38.5,
+    elderlyRatio: 17.4,
+    youthRatio: 20.3,
   },
-  2025: {
+  california: {
     male: [
-      420000, 450000, 480000, 520000, 580000, 650000, 720000, 750000, 820000,
-      800000, 750000, 680000, 620000, 550000, 480000, 420000, 350000, 280000,
+      1061708, 1159051, 1279071, 1350715, 1320991, 1377449, 1537122, 1470860,
+      1402460, 1224094, 1214417, 1156579, 1166240, 985928, 785673, 570969,
+      331708, 280068,
     ],
     female: [
-      400000, 430000, 460000, 490000, 550000, 620000, 680000, 720000, 780000,
-      760000, 720000, 650000, 590000, 530000, 460000, 400000, 340000, 280000,
+      1021446, 1098448, 1221639, 1290485, 1251914, 1328848, 1465318, 1378010,
+      1350649, 1210681, 1212268, 1168622, 1187317, 1074608, 905833, 692829,
+      452473, 444772,
     ],
-    totalPop: 23300000,
-    medianAge: 43,
-    elderlyRatio: 18.0,
-    youthRatio: 11.5,
+    totalPop: 39431264,
+    medianAge: 38.0,
+    elderlyRatio: 16.5,
+    youthRatio: 21.3,
   },
-  2050: {
-    male: [
-      320000, 340000, 360000, 380000, 420000, 480000, 520000, 580000, 650000,
-      720000, 750000, 820000, 800000, 750000, 680000, 620000, 550000, 480000,
-    ],
-    female: [
-      300000, 320000, 340000, 360000, 400000, 460000, 490000, 550000, 620000,
-      680000, 720000, 780000, 760000, 720000, 650000, 590000, 530000, 460000,
-    ],
-    totalPop: 19800000,
-    medianAge: 57,
-    elderlyRatio: 38.0,
-    youthRatio: 9.2,
-  },
+};
+
+const geos = ['lagunaBeach', 'orangeCounty', 'california'];
+
+const langIsEn =
+  document.documentElement.lang !== 'zh-TW' &&
+  !window.location.pathname.startsWith('/zh-TW');
+
+const geoLabels = {
+  lagunaBeach: langIsEn ? 'Laguna Beach' : '拉古納海灘',
+  orangeCounty: langIsEn ? 'Orange County' : '橙縣',
+  california: langIsEn ? 'California' : '加州',
 };
 
 const ageGroups = [
@@ -107,7 +110,7 @@ function initPopulationPyramid() {
   let chartWidth = width - margin.left - margin.right;
   let chartHeight = height - margin.top - margin.bottom;
 
-  let currentYear = 2025;
+  let currentGeo = 'lagunaBeach';
 
   function getPyramidMargin(containerWidth) {
     if (containerWidth <= 480) {
@@ -196,7 +199,7 @@ function initPopulationPyramid() {
     .attr('y', -20)
     .attr('fill', '#cbd5e1')
     .attr('font-weight', 'bold')
-    .text('男性 Male');
+    .text(langIsEn ? 'Male' : '男性');
 
   const femaleTitle = pyramidGroup
     .append('text')
@@ -206,7 +209,7 @@ function initPopulationPyramid() {
     .attr('y', -20)
     .attr('fill', '#cbd5e1')
     .attr('font-weight', 'bold')
-    .text('女性 Female');
+    .text(langIsEn ? 'Female' : '女性');
 
   // Population info box
   const infoBox = pyramidGroup
@@ -257,8 +260,8 @@ function initPopulationPyramid() {
     infoText.attr('font-size', `${infoMetrics.fontSize}px`);
   }
 
-  function updatePyramid(year) {
-    const data = populationData[year];
+  function updatePyramid(geo) {
+    const data = populationData[geo];
     const maxPop = Math.max(...data.male, ...data.female);
     const infoMetrics = getInfoBoxMetrics(chartWidth);
 
@@ -307,102 +310,62 @@ function initPopulationPyramid() {
       .attr('dy', 0)
       .attr('font-weight', 'bold')
       .attr('fill', '#60a5fa')
-      .text(`${year} 年`);
+      .text(geoLabels[geo]);
 
     infoText
       .append('tspan')
       .attr('x', 10)
       .attr('dy', 18)
       .attr('fill', '#f8fafc')
-      .text(`總人口：${(data.totalPop / 10000).toFixed(0)}萬人`);
+      .text((langIsEn ? 'Pop: ' : '總人口：') + data.totalPop.toLocaleString());
 
     infoText
       .append('tspan')
       .attr('x', 10)
       .attr('dy', infoMetrics.lineStep)
-      .text(`中位數年齡：${data.medianAge}歲`);
+      .text((langIsEn ? 'Median age: ' : '年齡中位數：') + data.medianAge);
 
     infoText
       .append('tspan')
       .attr('x', 10)
       .attr('dy', infoMetrics.lineStep)
-      .text(`老年佔比：${data.elderlyRatio}%`);
-
-    infoText
-      .append('tspan')
-      .attr('x', 10)
-      .attr('dy', infoMetrics.lineStep)
-      .text(`幼年佔比：${data.youthRatio}%`);
+      .text(
+        (langIsEn ? 'Aged 65+: ' : '65 歲以上：') + data.elderlyRatio + '%',
+      );
   }
 
-  // Insight card data per year
-  const insightData = {
-    2000: {
-      medianAge: '30',
-      birthRate: '1.68',
-      elderlyPct: '8.6%',
-      totalPop: '2,227',
-    },
-    2010: {
-      medianAge: '37',
-      birthRate: '0.90',
-      elderlyPct: '10.7%',
-      totalPop: '2,316',
-    },
-    2025: {
-      medianAge: '43',
-      birthRate: '0.87',
-      elderlyPct: '18%',
-      totalPop: '2,340',
-    },
-    2050: {
-      medianAge: '57',
-      birthRate: '0.74',
-      elderlyPct: '38%',
-      totalPop: '<2,000',
-    },
-  };
-
-  const langIsEn =
-    document.documentElement.lang === 'en' ||
-    window.location.pathname.startsWith('/en');
-  const unitAge = langIsEn ? ' yrs' : ' 歲';
-  const unitPop = langIsEn ? ' (10K)' : ' 萬人';
-
-  function updateInsightCards(year) {
-    const d = insightData[year];
+  // Insight card values per geography
+  function updateInsightCards(geo) {
+    const d = populationData[geo];
     if (!d) return;
     const v1 = document.getElementById('insightValue1');
     const v2 = document.getElementById('insightValue2');
     const v3 = document.getElementById('insightValue3');
     const v4 = document.getElementById('insightValue4');
-    const u4 = document.getElementById('insightUnit4');
-    if (v1) v1.textContent = d.medianAge + unitAge;
-    if (v2) v2.textContent = d.birthRate;
-    if (v3) v3.textContent = d.elderlyPct;
-    if (v4) v4.textContent = d.totalPop;
-    if (u4) u4.textContent = unitPop;
+    if (v1) v1.textContent = String(d.medianAge);
+    if (v2) v2.textContent = d.elderlyRatio + '%';
+    if (v3) v3.textContent = d.youthRatio + '%';
+    if (v4) v4.textContent = d.totalPop.toLocaleString();
   }
 
-  // Initialize with 2025 data
+  // Initialize with Laguna Beach
   applyPyramidLayout();
-  updatePyramid(currentYear);
-  updateInsightCards(currentYear);
+  updatePyramid(currentGeo);
+  updateInsightCards(currentGeo);
 
   // Slider implementation
   const slider = document.querySelector('.slider-track');
   const thumb = document.getElementById('yearThumb');
-  const currentYearLabel = document.getElementById('currentYear');
-  const years = [2000, 2010, 2025, 2050];
+  const currentGeoLabel = document.getElementById('currentYear');
 
   let isDragging = false;
   let sliderRect;
 
   function updateSliderPosition() {
-    const yearIndex = years.indexOf(currentYear);
-    const percentage = yearIndex / (years.length - 1);
+    const geoIndex = geos.indexOf(currentGeo);
+    const percentage = geoIndex / (geos.length - 1);
     thumb.style.left = `calc(${percentage * 100}% - 12px)`;
-    currentYearLabel.textContent = currentYear;
+    currentGeoLabel.textContent = geoLabels[currentGeo];
   }
 
   function handleSliderUpdate(clientX) {
@@ -411,14 +374,14 @@ function initPopulationPyramid() {
       0,
       Math.min(1, (clientX - rect.left) / rect.width),
     );
-    const yearIndex = Math.round(percentage * (years.length - 1));
-    const newYear = years[yearIndex];
+    const geoIndex = Math.round(percentage * (geos.length - 1));
+    const newGeo = geos[geoIndex];
 
-    if (newYear !== currentYear) {
-      currentYear = newYear;
+    if (newGeo !== currentGeo) {
+      currentGeo = newGeo;
       updateSliderPosition();
-      updatePyramid(currentYear);
-      updateInsightCards(currentYear);
+      updatePyramid(currentGeo);
+      updateInsightCards(currentGeo);
     }
   }
 
@@ -474,6 +437,6 @@ function initPopulationPyramid() {
   window.addEventListener('resize', () => {
     sliderRect = null;
     applyPyramidLayout();
-    updatePyramid(currentYear);
+    updatePyramid(currentGeo);
   });
 }
