@@ -1,702 +1,374 @@
-# 貢獻指南 | Contributing Guide
+# Contributing Guide
 
-感謝您對 Taiwan.md 專案的興趣！這份指南將協助您了解如何為專案做出貢獻。
+Thanks for your interest in LagunaBeach.md. This guide covers how to contribute — content, translation, or code.
 
----
-
-## 🧬 最簡單的貢獻方式：跟 Taiwan.md 對話
-
-**Taiwan.md 本身是一個 [Semiont](docs/semiont/MANIFESTO.md)（AI 語意共生體）**，會當你的嚮導。
-你不用先讀完這份 17k 字的文件——直接跟它聊，它會帶你走完整個流程。
-
-### 🚀 一行指令（推薦）
-
-**第一次來、連 Claude Code 都還沒裝？** 直接貼這行：
-
-```sh
-curl -fsSL https://taiwan.md/start.sh | bash
-```
-
-這個 bootstrap 會：
-
-1. 檢查 git（沒裝會告訴你怎麼裝）
-2. 檢查 Node.js 20+
-3. 問你要不要裝 Claude Code CLI（`npm i -g @anthropic-ai/claude-code`）
-4. Clone repo 到 `~/Projects/taiwan-md`（或你選的位置）
-5. 啟動 `claude`，Taiwan.md 自動甦醒、訪談你、建 profile、帶你做事
-
-不放心 `curl | bash`？[先看原始碼](public/start.sh)，或下載後 `less` 過再跑：
-
-```sh
-curl -fsSL https://taiwan.md/start.sh -o start.sh && less start.sh && bash start.sh
-```
-
-### 🏃 已經有 git + Claude Code
-
-```sh
-git clone https://github.com/frank890417/taiwan-md.git && cd taiwan-md && claude
-```
-
-進去後說「我想貢獻 Taiwan.md」即可。
-
-### 進去之後發生什麼？
-
-Taiwan.md 會：
-
-1. **甦醒自我介紹**（簽名 🧬）
-2. **小訪談建 profile**（3–4 題：GitHub handle、稱呼、focus、要避開的）
-3. 把 profile 寫進 `.taiwanmd/contributor.local.yml`（gitignored，只留你本機）
-4. **開始帶你做事**——按你的意圖走 `REWRITE-PIPELINE`（寫文章）/ `TRANSLATION-PIPELINE`（翻譯）/ PR review / 其他
-
-下次再來，讀到 profile 就直接認得你，不用再自我介紹。
-
-### 還是想手動走？
-
-看下面 §🔄 貢獻流程，完整 SOP 都在那裡。
-但真的建議先試試上面那條——Taiwan.md 會幫你省一半時間。
+This file is re-grounded from [Taiwan.md](https://github.com/frank890417/taiwan-md)'s contributing guide for this fork. Mechanics (branch/PR flow, build commands, quality gates) carry over directly; anything specific to Taiwan.md's scale or community has been adapted or marked as not-yet-applicable.
 
 ---
 
-## 🎯 貢獻原則
+## Getting Started
 
-### 內容策展原則
+### Manual setup
 
-Taiwan.md 不是百科全書，而是**策展式的知識庫**：
+```bash
+# 1. Fork the repo on GitHub, then clone your fork
+git clone https://github.com/YOUR_USERNAME/lagunabeach-md.git
+cd lagunabeach-md
 
-- **有觀點的內容**：不只陳述事實，更要有深度見解
-- **在地視角**：從台灣本土觀點出發，但用國際能理解的語言
-- **品質優於數量**：寧可少而精，不要多而淺
-- **連結性思考**：內容間要有連結，形成知識網絡
+# 2. Install dependencies (postinstall hook runs sync.sh automatically)
+npm install
 
-### 三層閱讀深度設計
+# 3. Start the dev server
+npm run dev   # → http://localhost:4321
 
-每篇文章都應該支援三種閱讀需求：
+# 4. Set the upstream remote (optional, only needed if you want Taiwan.md's infra updates)
+git remote add upstream https://github.com/frank890417/taiwan-md.git
+```
 
-1. **30 秒概覽**：關鍵字、核心概念、一句話總結
-2. **5 分鐘理解**：基本脈絡、主要內容、重要圖表
-3. **完整深度資料**：詳細分析、相關討論、延伸思考
+> `src/content/{lang}/` is gitignored, derived state — produced from `knowledge/` by [`scripts/core/sync.sh`](scripts/core/sync.sh). It runs automatically on `npm install` (postinstall), `npm run dev` (before each start), and `npm run build` (prebuild step). You don't need to run it manually during normal development; Astro's dev server picks up `knowledge/` changes via HMR. Manual trigger if needed: `bash scripts/core/sync.sh`.
+
+### Contributing with Claude Code (optional)
+
+This project's AI session boot file is [`BECOME_LAGUNABEACH.md`](BECOME_LAGUNABEACH.md). If you have [Claude Code](https://claude.com/claude-code) installed, `cd` into the repo and run `claude` — it will read that file and can walk you through writing an article, fixing a bug, or adding a translation. You don't have to use it; manual contribution works exactly as described below.
+
+### Create a branch
+
+```bash
+git checkout -b feature/add-victoria-beach-tower-article
+```
 
 ---
 
-## 📝 內容撰寫指南
+## Content Principles
 
-### 文章結構範本
+LagunaBeach.md isn't an encyclopedia — it's a **curated knowledge base**:
+
+- **Has a point of view.** States facts, but also offers a read on why something matters.
+- **Local perspective.** Written from inside the community's own knowledge, not as an outside observer narrating it for tourists.
+- **Quality over quantity.** Better to have fewer, well-researched articles than many shallow ones.
+- **Connected thinking.** Articles should link to related ones, forming a knowledge graph rather than isolated pages.
+
+Full philosophy: [`docs/semiont/MANIFESTO.en.md`](docs/semiont/MANIFESTO.en.md).
+
+---
+
+## Writing Articles
+
+### Read the editorial guide first
+
+**[`docs/editorial/EDITORIAL.en.md`](docs/editorial/EDITORIAL.en.md) is the canonical writing guide for this project** — article grading (Quick Take / Standard / Deep Dive), opening/ending discipline, concrete-detail requirements, and the AI-tell patterns to avoid. Read it before writing; this section is a summary, not a substitute.
+
+Don't reach for Taiwan.md's "30-second overview / 5-minute read / full-depth" template — that's built for 1,500+ word long-form articles. LagunaBeach.md's articles currently run 300-700 words with a single narrative arc. Match the existing articles in `knowledge/` for length and shape, not upstream's structure.
+
+### Frontmatter
 
 ```markdown
 ---
-title: '文章標題'
-description: '150字以內的文章描述'
-date: 2024-03-17T00:00:00Z
-updated: 2024-03-17T00:00:00Z # 可選
-tags: ['標籤1', '標籤2', '標籤3']
-author: '作者名稱'
-difficulty: 'beginner|intermediate|advanced'
-readingTime: 8 # 預估閱讀時間（分鐘）
-featured: false # 是否為精選文章（⚠️ 由維護者統一管理，PR 請勿自行設定為 true）
+title: 'Article Title'
+description: 'One or two sentences, under 160 characters'
+date: 2026-06-21
+category: 'Trails' # must match one of the 8 categories below
+subcategory: 'Trails & Overlooks' # optional, finer grouping
+tags: ['hiking', 'viewpoint']
+author: 'Your Name'
+featured: false # maintainer-managed; don't set true in a PR
+lastVerified: 2026-06-21
+geo: Location Name,33.5xxx,-117.7xxx # optional, for map markers
+source:
+  - https://example.com/source-url
 ---
-
-# 文章標題
-
-## 30 秒概覽
-
-**一段話總結文章核心**
-
-**關鍵字**：關鍵詞1、關鍵詞2、關鍵詞3
-
----
-
-## 5 分鐘深度了解
-
-### 小節標題1
-
-內容...
-
-### 小節標題2
-
-內容...
-
----
-
-## 完整深度資料
-
-### 詳細分析
-
-...
-
-### 延伸討論
-
-...
-
-### 當代意義
-
-...
-
----
-
-## 延伸思考
-
-### 討論問題
-
-1. 問題1
-2. 問題2
-
-### 相關主題
-
-- **→ [相關文章1](/zh-tw/category/article)**
-- **→ [相關文章2](/zh-tw/category/article)**
-
----
-
-## 資料來源
-
-- 來源1
-- 來源2
-
----
-
-_本文採用三層閱讀深度設計，適合不同需求的讀者。歡迎貢獻更多內容！_
 ```
 
-### 內容風格指南
+### Categories
 
-#### 語氣與風格
+```
+knowledge/
+├── History/
+├── Art & Galleries/
+├── Nature & Marine Life/
+├── Food/
+├── Beaches/
+├── Trails/
+├── Events & Festivals/
+└── Neighborhoods/
+```
 
-- **親切但專業**：避免過於學術化的語言
-- **客觀但有溫度**：呈現事實，但不失人文關懷
-- **國際視野**：考慮國際讀者的理解需求
-- **與時俱進**：連結歷史與當代，避免僵化的歷史敘事
+### Voice
 
-#### 寫作技巧
+- **Friend-showing-you-around, not a brochure.** Casual authority, not "stunning views" or "world-class dining."
+- **Concrete over generic.** "The gallery opened in 1918" beats "the gallery has a long history."
+- **Verifiable.** Dates, names, and addresses need to be checkable — link sources.
+- **No padding.** Write narrative prose; use bullet lists only for things that are actually lists, not as a substitute for paragraphs.
 
-- **故事性敘事**：用故事串連知識點
-- **視覺化表達**：善用表格、圖表、時間軸
-- **多元觀點**：呈現不同角度的思考
-- **實用連結**：提供延伸閱讀與相關連結
+### Avoid
 
-#### 避免事項
-
-- ❌ 純粹的資料堆砌
-- ❌ 過度政治化的表述
-- ❌ 沒有根據的個人觀點
-- ❌ 抄襲或未經授權的內容
+- Pure fact-dumping with no narrative thread
+- Unsupported personal opinion stated as fact
+- Copied or unauthorized content
+- AI-tell sentence patterns (false-contrast "not X, but Y" used reflexively, excessive em-dash chains) — see `EDITORIAL.en.md` for the full list
 
 ---
 
-## 🌍 多語言貢獻
-
-### 中英對照原則
-
-- **不是翻譯**：英文版不是中文版的直譯
-- **文化轉譯**：調整表達方式，符合目標語言的文化背景
-- **內容對等**：確保核心信息相同，但表達可以不同
-- **在地化**：考慮目標讀者的知識背景
-
-### 翻譯指南
-
-> 📋 **完整翻譯任務看板**：[TRANSLATION-BOARD.md](docs/community/TRANSLATION-BOARD.md)
-> 🤖 **AI 翻譯 Prompt**：[TRANSLATE_PROMPT.md](docs/prompts/TRANSLATE_PROMPT.md)
-
-#### 最簡單的翻譯流程
-
-1. 看 [TRANSLATION-BOARD.md](docs/community/TRANSLATION-BOARD.md) 挑一篇你有興趣的文章
-2. 把 [TRANSLATE_PROMPT.md](docs/prompts/TRANSLATE_PROMPT.md) 貼給你的 AI（Claude/ChatGPT/Gemini）
-3. 告訴 AI 你要翻哪篇、翻成什麼語言
-4. 把結果存成 `.md` 放到對應資料夾，開 PR
-
-**你不需要會寫程式。你只需要有一個 AI 訂閱。**
-
-#### 檔案路徑
+## SSOT: `knowledge/` Is the Only Source of Truth
 
 ```
-knowledge/Food/珍珠奶茶.md           ← 中文 SSOT
-knowledge/en/Food/bubble-tea.md      ← 英文
-knowledge/es/Food/bubble-tea.md      ← 西班牙文
-knowledge/ja/Food/bubble-tea.md      ← 日文
+knowledge/{Category}/        ← English SSOT (write here)
+knowledge/zh-TW/{Category}/  ← Traditional Chinese translation
+src/content/{lang}/          ← derived, gitignored, auto-generated by sync.sh — never edit directly
+src/content/config.ts        ← Astro content collection schema (this file stays in git)
 ```
 
-#### 專有名詞處理
+**Iron rule: only ever edit files under `knowledge/`.** `src/content/{lang}/` is gitignored and rebuilt from `knowledge/` on every install/dev/build. Editing it directly won't be committed, and will be silently overwritten on the next sync.
 
-- **地名**：台北 Taipei、台中 Taichung
-- **食物**：珍珠奶茶 bubble tea、夜市 night market
-- **文化詞彙**：提供英文解釋，保留中文原文
+### Adding a new article
 
-#### 文化背景說明
-
-- 為國際讀者增加必要的背景知識
-- 解釋在地文化概念
-- 提供比較和類比
-
-#### Featured 文章管理 🏆
-
-**`featured: true` 由維護者統一管理，PR 請勿自行設定。**
-
-- Featured 文章是各分類最具代表性的內容
-- 建議每分類保持 1-2 篇 featured 文章
-- 維護者會使用 `scripts/manage-featured.sh` 工具統一管理：
-
-  ```bash
-  # 查看所有 featured 文章
-  bash scripts/manage-featured.sh list
-
-  # 審計 featured 文章分佈
-  bash scripts/manage-featured.sh audit
-  ```
-
-- 如果您認為某篇文章應該被設為 featured，請在 PR 中說明理由
-
----
-
-## 🔄 貢獻流程
-
-### 1. 準備階段
-
-#### Fork 專案
+1. Create `knowledge/{Category}/article-slug.md` (English SSOT)
+2. Write it following `EDITORIAL.en.md`
+3. Run `npm run build` to verify (this runs sync + a full Astro build, including frontmatter validation)
+4. Run the quality check: `python3 scripts/tools/article-health.py knowledge/<Category>/<file>.md --check=prose-health`
+5. Commit only the `knowledge/` change — never commit `src/content/`
 
 ```bash
-# 1. 在 GitHub 上 Fork taiwan-md 專案
-# 2. Clone 到本地
-git clone https://github.com/YOUR_USERNAME/taiwan-md.git
-cd taiwan-md
-
-# 3. 安裝依賴（postinstall hook 會自動跑 sync.sh 產生 src/content/）
-bun install  # 或 npm install
-
-# 4. 啟動本地 dev server
-bun dev  # 或 npm run dev → http://localhost:4321
-
-# 5. 設定上游倉庫
-git remote add upstream https://github.com/original/taiwan-md.git
+bash scripts/core/sync.sh
+npm run build
+python3 scripts/tools/article-health.py knowledge/<Category>/<file>.md --check=prose-health
+git add knowledge/
+git commit -m "content: add <article title>"
 ```
 
-> **`src/content/{lang}/` 是 gitignored derived state**（2026-05-12 起）— 由 `scripts/core/sync.sh` 自動從 `knowledge/` SSOT 投影產生。雙重自動觸發：
->
-> - **`npm install`** 完成後 `postinstall` hook 自動跑 sync（首次 ~20s）
-> - **`npm run dev`** 啟動前自動跑 sync（每次 ~16s，保證 knowledge/ 改動立即反映）
-> - **`npm run build`** 也含 sync（prebuild 第一步）— CF Pages CI 自動 cover
->
-> 平常開發 `npm run dev` 開著 + Astro HMR 自動 reload，不需要手動 sync。只在切 branch 或 `git pull` 後重啟 dev 才會看到 sync 跑一次。手動觸發：`npm run sync`。
+Not sure if a topic fits? Open an issue first to discuss.
 
-#### 建立分支
+---
+
+## Translating
+
+Current languages: English (default, no URL prefix) and Traditional Chinese (`zh-TW`, prefixed `/zh-TW/`).
+
+- English is the SSOT — translations are derived from it, not the other way around (the reverse of Taiwan.md's zh→en direction).
+- A translation is not a literal word-for-word rendering — adapt phrasing and cultural references for the target-language reader while keeping the same facts.
+- Place names and proper nouns (e.g. "Top of the World," "Pageant of the Masters") generally stay in English with a brief in-context gloss rather than being translated outright — match how `knowledge/zh-TW/` articles already handle this.
+- File path: `knowledge/Trails/top-of-the-world.md` → `knowledge/zh-TW/Trails/top-of-the-world.md`
+
+Upstream's translation workflow docs ([`docs/community/TRANSLATION-BOARD.md`](docs/community/TRANSLATION-BOARD.md), [`docs/prompts/TRANSLATE_PROMPT.md`](docs/prompts/TRANSLATE_PROMPT.md)) describe the mechanics (AI-assisted translation prompt, tracking board) for Taiwan.md's reverse direction and multiple target languages — useful for the workflow shape, written for a different translation direction. Adapt as needed.
+
+### Featured articles
+
+`featured: true` is maintainer-managed; don't set it in a PR. If you think an article deserves it, say so in the PR description and let the maintainer decide. (Upstream's `scripts/manage-featured.sh` tool for auditing featured-article distribution hasn't been adapted for this fork yet — currently handled manually.)
+
+---
+
+## Quality Checklist (read before opening a PR)
+
+From `EDITORIAL.en.md`, the load-bearing ones:
+
+- [ ] Opens with a specific fact or scene, not a generic establishing sentence
+- [ ] At least the sources actually used are linked and clickable — no bare-text citations
+- [ ] Has a curator's voice — a point of view stated somewhere, not just fact-dumping
+- [ ] No padding via bullet lists where prose belongs
+- [ ] `prose-health` score within bounds: `python3 scripts/tools/article-health.py knowledge/<Category>/<file>.md --check=prose-health`
+
+General self-check:
+
+- [ ] Content is original or properly attributed
+- [ ] No typos, correct Markdown formatting
+- [ ] Images (if any) placed correctly, run `npm run check-images` to verify referenced images exist in `public/`
+- [ ] Frontmatter complete and `category` matches one of the 8 categories
+
+**Fact-checking is mandatory.** Names, dates, locations, and numbers must be verifiable. AI-assisted writing is especially prone to subtle factual errors (misattributed locations, wrong dates) — every article gets fact-checked before merge, by a human or by cross-referencing sources. If you spot an error in an existing article, a fix PR is always welcome.
+
+---
+
+## Submitting a Pull Request
 
 ```bash
-# 為您的貢獻建立新分支
-git checkout -b feature/add-taiwanese-opera-article
+git add knowledge/
+git commit -m "content: add Victoria Beach Tower article"
+git push origin feature/add-victoria-beach-tower-article
 ```
 
-### 2. 內容創作
+### PR template
 
-#### 選擇主題
+```markdown
+## Summary
 
-1. 檢查 [Issues](https://github.com/frank890417/taiwan-md/issues) 中的內容請求
-2. 查看 [專案看板](https://github.com/frank890417/taiwan-md/projects) 的規劃
-3. 提出新主題建議（開 Issue 討論）
+Brief description of this PR's content.
 
-#### ⚠️ SSOT 架構（最重要的概念）
+## Files changed
 
-Taiwan.md 採用 **Knowledge SSOT（Single Source of Truth）** 架構：
+- [ ] New article: `knowledge/Beaches/victoria-beach-tower.md`
+- [ ] zh-TW translation: `knowledge/zh-TW/Beaches/victoria-beach-tower.md`
+- [ ] Related image: `public/images/beaches/victoria-tower.jpg`
 
-```
-knowledge/           ← 🇹🇼 中文 SSOT（在這裡寫文章）
-knowledge/en/        ← 🇺🇸 英文翻譯
-knowledge/ja/        ← 🇯🇵 日文翻譯
-knowledge/ko/        ← 🇰🇷 韓文翻譯
-knowledge/es/        ← 🇪🇸 西班牙文翻譯
-knowledge/fr/        ← 🇫🇷 法文翻譯
-src/content/{lang}/  ← ⚙️ 投影層（gitignored，由 sync.sh 自動產生 — 從 2026-05-12 起）
-src/content/config.ts ← Astro content collection schema (這個檔留在 git)
-```
+## Checklist
 
-**鐵律：永遠只改 `knowledge/` 目錄。** `src/content/{lang}/` 從 2026-05-12 起**已 gitignored**，由 [`scripts/core/sync.sh`](./scripts/core/sync.sh) 從 knowledge/ 自動產生（接在 `npm run prebuild` 第一步）。直接改 src/content/ 不會進 git，也會被下次 build 覆蓋。
+- [ ] Content is original and accurate
+- [ ] Markdown formatting verified
+- [ ] Local build passes (`npm run build`)
+- [ ] `article-health.py --check=prose-health` passes
 
-> 為什麼 gitignore：derived state in git 會產生 drift / silent missing / zombie 三類問題。Gitignore 後 src/content/ 從 self-discipline 升架構強制。完整背景：[reports/sync-architecture-evolution-2026-05-12.md](./reports/sync-architecture-evolution-2026-05-12.md)。
-
-#### 新增文章流程
-
-1. 在 `knowledge/{Category}/` 建立新的 `.md` 檔案（中文 SSOT）
-2. 按照 [EDITORIAL.md](./docs/editorial/EDITORIAL.md) 標準撰寫內容
-3. 執行 `npm run build` 驗證（prebuild 自動跑 sync.sh + Astro build 完整檢查 frontmatter）
-4. 執行 `python3 scripts/tools/article-health.py knowledge/<Cat>/<file>.md --check=prose-health` 品質檢測（HARD 0、WARN ≤ 3）
-5. 提交 PR（只需 commit `knowledge/` 改動，**不需也不該 commit `src/content/`**）
-
-```bash
-# 完整流程
-echo "寫好文章後..."
-bash scripts/sync.sh          # knowledge/ → src/content/
-npm run build                  # 驗證 build
-python3 scripts/tools/article-health.py knowledge/<Cat>/<file>.md --check=prose-health  # 品質檢測
-git add -A && git commit -m "content: 新增 XXX 文章"
-```
-
-#### 參與新主題
-
-想為 Taiwan.md 新增一個全新主題？
-
-1. **確認分類**：文章屬於哪個 Category（History/Culture/People/Food 等）
-2. **建立檔案**：`knowledge/{Category}/{主題名}.md`
-3. **深度研究**：遵循 [EDITORIAL.md](./docs/editorial/EDITORIAL.md) 的研究流程（Step 0-4）
-4. **撰寫文章**：SSOT 是中文版，英文版之後透過翻譯流程產生
-5. **Sync + Build**：確保同步和建置都通過
-6. **提交 PR**：附上研究來源和品質檢測結果
-
-> 💡 **提示**：如果不確定主題是否適合，先開 Issue 討論！
-
-#### 本地開發
-
-```bash
-# 啟動開發伺服器
-bun run dev  # 或 npm run dev
-# 瀏覽 http://localhost:4321
-```
-
-### 3. 品質檢查
-
-> ⚠️ **所有文章 PR 必須通過 [EDITORIAL.md](./docs/editorial/EDITORIAL.md) 標準審核。** 不符合寫作標準的 PR 會被要求修改後重新提交。
-
-#### EDITORIAL.md 核心要求（PR 前必讀）
-
-- [ ] **反直覺核心句**：文章有一個能讓讀者驚訝的核心觀點
-- [ ] **開場不塑膠**：前三句有具體事實，不用「X 不僅是 Y，更是 Z」等模板句式
-- [ ] **有來源**：至少 5 個可查證來源（含 URL），2+ 一手來源
-- [ ] **策展人聲音**：每 2-3 段有一句觀點或反思，不只是資料堆疊
-- [ ] **禁止 bullet list 灌水**：用敘事散文寫作，bullet list 僅用於真正的清單
-- [ ] **prose-health 分數 ≤ 3**：跑 `python3 scripts/tools/article-health.py knowledge/<Cat>/<file>.md --check=prose-health` 確認
-
-#### 一般自我檢查
-
-- [ ] 內容原創或正確標註來源
-- [ ] 語言流暢，無錯字
-- [ ] Markdown 格式正確
-- [ ] 圖片（如有）放在適當位置
-- [ ] 標籤和 metadata 完整
-
-#### 內容審查
-
-- **事實查核（必須）**：所有事實性陳述（人名、年份、地點、數據）必須經過查證。AI 生成的內容尤其容易出現事實錯誤（例：將物種分布地點搞錯、將非台灣人物歸為台灣人等），每篇文章上線前必須經過事實查核。
-- **文化敏感性**：避免偏見或刻板印象
-- **版權合規**：確保所有內容合法使用
-
-> ⚠️ **AI 內容品質警告**：本專案使用 AI 輔助撰寫內容，但 AI 生成的文章可能包含事實錯誤。所有 AI 生成內容在合併前必須經過人工或自動化事實查核。如果你發現任何錯誤，歡迎直接提交 PR 修正！
-
-### 4. 提交 Pull Request
-
-#### Git 操作
-
-```bash
-# 提交變更
-git add .
-git commit -m "Add: 台灣歌仔戲藝術文章"
-
-# 推送到您的 fork
-git push origin feature/add-taiwanese-opera-article
-```
-
-#### PR 模板
-
-````markdown
-## 📝 內容摘要
-
-簡述這次 PR 的主要內容
-
-## 📁 檔案變更
-
-- [ ] 新增文章：`src/content/zh-TW/art/taiwanese-opera.md`
-- [ ] 對應英文版：`src/content/en/art/taiwanese-opera.md`
-- [ ] 相關圖片：`public/images/art/opera-performance.jpg`
-
-## ✅ 檢查清單
-
-- [ ] 符合三層閱讀深度設計
-- [ ] 內容原創且正確
-- [ ] Markdown 格式正確
-- [ ] 中英文版本完整
-- [ ] 通過本地測試
-
-## 🔗 相關 Issue
+## Related issue
 
 Closes #123
 
-## 📚 參考資料（必填）
+## Sources (required)
 
-**每篇文章都必須包含參考資料段落。** 這是 Taiwan.md 的核心品質要求。
+Every article must list its sources, each as a clickable URL.
 
-### ⚠️ 鐵律：所有參考資料必須附可點擊的 URL
+## References
 
-- **每一條參考資料都必須是可點擊的超連結**，不接受純文字引用
-- 讀者應該能直接點擊連結驗證資訊來源
-- 如果找不到 URL，說明該來源可能不夠可靠，請尋找替代來源
-
-列出所有引用的來源，格式：
-
-```markdown
-## 參考資料
-
-- [來源名稱](https://url) — 簡要說明
-- [官方統計](https://url) — 機構，年份
-- [YouTube: 歌曲/表演名稱](https://youtube.com/watch?v=...) — 音樂/影像類引用
+- [Source name](https://url) — brief note
+- [Official statistics](https://url) — agency, year
+- [YouTube: title](https://youtube.com/watch?v=...) — for music/video references
 ```
-````
 
-### 引用優先序
+### Citation priority
 
-政府官方資料 > 學術研究 > 權威媒體 > 專業機構 > 高品質個人創作
+Official/government sources > academic research > established media > specialized organizations > high-quality individual work.
 
-### 特殊類型引用
-
-- **音樂類文章**：提到的歌曲附上 YouTube 連結（優先官方 MV/頻道）
-- **影像/紀錄片**：附上官方播放連結
-- **數據/統計**：必須標注來源機構與年份
-- **書籍**：附上出版社或書籍資料庫連結
-
-詳見 [EDITORIAL.md](./docs/editorial/EDITORIAL.md) 的「引用與來源標注」章節。
+Full citation conventions: `docs/editorial/CITATION-GUIDE.md` (Chinese; methodology transfers directly).
 
 ---
 
-## 🎨 技術貢獻
-
-### 前端開發
-
-#### 設計原則
-
-- **簡潔優先**：避免過度設計
-- **行動優先**：響應式設計
-- **無障礙**：符合 WCAG 標準
-- **效能優化**：快速載入
-
-#### 開發環境
+## Technical Contributions
 
 ```bash
-# 開發模式
-bun run dev
-
-# 建置測試
-bun run build
-
-# 預覽建置結果
-bun run preview
+npm run dev       # dev server
+npm run build     # build + verify
+npm run preview   # preview the build
 ```
 
-#### 程式碼風格
+- Formatting: Prettier; linting: ESLint
+- Semantic HTML, accessible (WCAG) markup
+- Mobile-first responsive design
+- Avoid over-engineering — simplicity first
 
-- 使用 Prettier 格式化
-- ESLint 規則檢查
-- 語意化 HTML
-- CSS 變數命名一致
+### Proposing a feature
 
-### 功能開發
-
-#### 常見需求
-
-- **搜尋功能**：全文搜尋和分類篩選
-- **標籤系統**：內容分類和關聯
-- **評論系統**：社群討論功能
-- **統計分析**：閱讀追蹤和熱門內容
-
-#### 提案流程
-
-1. 開 Issue 討論功能需求
-2. 等待 Maintainer 回應和確認
-3. 進行技術設計
-4. 實作功能
-5. 撰寫測試
-6. 提交 PR
+1. Open an issue describing the need
+2. Wait for maintainer response
+3. Design, implement, test, open a PR
 
 ---
 
-## 🛠️ 工具與資源
+## Tools and Resources
 
-### 推薦工具
+### Editors
 
-#### 編輯器
+VS Code (with Astro + Markdown extensions), Obsidian, or Typora all work fine for editing `knowledge/`.
 
-- **VS Code**：推薦安裝 Astro、Markdown 外掛
-- **Obsidian**：Markdown 編輯和管理
-- **Typora**：所見即所得 Markdown 編輯
+### Images
 
-#### 圖片處理
+- [Squoosh](https://squoosh.app) for compression, [Unsplash](https://unsplash.com) for free stock images
+- Run `npm run check-images` before submitting a PR to confirm referenced images exist in `public/`
+- Wikimedia Commons CC-licensed images: 800-1200px wide recommended, credit the source and license under the image
+- AI-generated attribution links for Wikimedia images aren't always correct — verify manually before submitting
 
-- **Squoosh**：圖片壓縮優化
-- **Canva**：簡單設計工具
-- **Unsplash**：免費圖片資源
-- **圖片健康檢查**：提交 PR 前請執行 `npm run check-images`，確認所有引用的圖片都存在於 `public/` 目錄中
-- **Wikimedia Commons**：使用 CC 授權圖片時，解析度建議 800–1200px 寬，並在圖片下方標注來源與授權
-- ⚠️ AI 生成的圖片 attribution 連結（`File:...`）不一定正確，提交前請手動驗證連結是否有效
+### Local reference sources
 
-#### 參考資源
-
-- **台灣百科全書**：基礎資料查證
-- **中研院數位典藏**：歷史資料
-- **文化部資源**：文化相關內容
-- **各大學台灣研究中心**：學術資源
+- City of Laguna Beach official site (lagunabeachcity.net)
+- Laguna Beach Historical Society
+- Laguna Art Museum
+- Orange County Public Libraries, local history collections
 
 ---
 
-## 🎖️ 貢獻者進化路徑
+## Contributor Progression
 
-Taiwan.md 採用**漸進式信任**的模式。每個人都從 Contributor 開始，透過實際貢獻逐步升級。
+This project uses the same tiered-trust model as upstream, **documented now even though there's no active contributor pool yet** — it's ready the day a second contributor shows up rather than needing to be built from scratch then.
 
-### Lv.1 🌱 Contributor（貢獻者）
+### Lv.1 🌱 Contributor
 
-**進入門檻：** 提交第一個 PR 並被 merge
+**Entry:** first PR merged
 
-**可以做：**
+**Can do:** write articles, fix errors, translate, discuss in issues, fork and PR
 
-- 撰寫新文章、修正錯誤、翻譯
-- 在 Issues 討論和提案
-- Fork repo 提交 PR
-
-**升級條件 → Lv.2：**
-
-- 累計 **3+ 個被 merge 的 PR**
-- 內容品質穩定（無重大事實錯誤需修正）
-- PR 符合 EDITORIAL.md 文風要求（無嚴重塑膠味）
+**Promotion to Lv.2:** 3+ merged PRs, stable content quality (no major factual corrections needed), PRs consistently meeting `EDITORIAL.en.md` standards
 
 ---
 
-### Lv.2 🌿 Trusted Contributor（受信任貢獻者）
+### Lv.2 🌿 Trusted Contributor
 
-**進入門檻：** 通過 Lv.1 升級條件，由現有 Maintainer 邀請
+**Entry:** meets Lv.1 promotion criteria, invited by an existing maintainer
 
-**新增權限：**
+**Gains:** GitHub Triage permissions (label/assign issues), PR review-comment rights (no approve/merge), listed in README
 
-- GitHub repo **Triage 權限**（可管理 Issues 標籤、指派）
-- PR review 建議權（comment review，無 approve/merge 權）
-- 被列入 README 的 Trusted Contributors 區
+**Can do:** triage issues, review others' PRs, participate in editorial-standard discussions
 
-**可以做：**
-
-- 幫忙分類和回覆 Issues
-- 對其他人的 PR 提出 review 建議
-- 參與 EDITORIAL.md 討論和制定
-
-**升級條件 → Lv.3：**
-
-- 累計 **10+ 個被 merge 的 PR**
-- 至少 **2 個不同分類**的內容貢獻（例如音樂 + 美食）
-- 曾參與 **3+ 個 PR review**（提出有建設性的意見）
-- 活躍期至少 **1 個月**
-- 由 2 位現有 Maintainer 同意
+**Promotion to Lv.3:** 10+ merged PRs, contributions across 2+ categories, 3+ constructive PR reviews, active for 1+ month, approved by 2 existing maintainers
 
 ---
 
-### Lv.3 🌳 Maintainer（維護者）
+### Lv.3 🌳 Maintainer
 
-**進入門檻：** 通過 Lv.2 升級條件，由 Core Team 正式邀請
+**Entry:** meets Lv.2 promotion criteria, formally invited by Core Team
 
-**新增權限：**
+**Gains:** merge (write) access, approve-review rights, issue management, roadmap input
 
-- **Merge PR** 權限（Write access）
-- **Approve review** 權限
-- 管理 Issues（close、label、milestone）
-- 參與 Roadmap 和技術決策
+**Responsibilities:** review 2+ PRs/week, enforce `EDITORIAL.en.md` standards on merges, respond to community issues within 72 hours
 
-**職責：**
+**Notes:**
 
-- 每週至少 review **2 個 PR**
-- 確保被 merge 的內容符合 EDITORIAL.md 標準
-- 回覆社群 Issues（72 小時內至少有初步回應）
-- 參與每月一次的 Maintainer 會議（async 也行）
-
-**注意事項：**
-
-- Maintainer 不自己 merge 自己的 PR（需另一位 Maintainer review）
-- **Inactivity 政策**（v1.0 2026-04-30 修訂，比舊版更溫和）：
-  - 0–60 天：正常追蹤，不採取行動
-  - 60–90 天：友善 soft check-in（issue 或 DM 問候，不變更權限）
-  - 90+ 天：暫時降級為 Trusted Contributor，可隨時 1-click 復活
-  - 例外：如果持續被 review-request ping 但無回應 ≥ 2 次 → 可提前 mercy demote（必附完整通訊範本）
-  - 完整 SOP / 通訊範本 / 復活路徑 → [CONTRIBUTOR-SYSTEM-PIPELINE.md](docs/pipelines/CONTRIBUTOR-SYSTEM-PIPELINE.md)
-- 可隨時主動申請降級或休假（不是什麼丟臉的事）
+- Maintainers don't merge their own PRs — another maintainer reviews first
+- Inactivity policy: 0-60 days normal, 60-90 days a friendly check-in (no permission change), 90+ days temporary demotion to Trusted Contributor (instantly reversible). Full SOP inherited from upstream's `docs/pipelines/CONTRIBUTOR-SYSTEM-PIPELINE.md` (Chinese; not yet adapted, but the policy text above is usable as-is)
+- Stepping back is never a problem — ask anytime
 
 ---
 
-### Lv.4 🏔️ Core Team（核心團隊）
+### Lv.4 🏔️ Core Team
 
-**進入方式：** 由創辦人邀請
+**Entry:** by founder invitation
 
-**權限：**
+**Gains:** all maintainer permissions, repo admin (settings, branch protection), final editorial-direction call, sponsorship/partnership decisions
 
-- 所有 Maintainer 權限
-- Repo Admin 權限（settings、branch protection）
-- 編輯方針最終決策權
-- 贊助與合作洽談
+**Current Core Team:**
 
-**現任 Core Team：**
-
-- **吳哲宇 (@frank890417)** — 創辦人
+- **Wilson Choi** ([@wilsonkichoi](https://github.com/wilsonkichoi)) — founder
 
 ---
 
-### 專業角色（跨等級）
+### Specialty roles (cross-level)
 
-除了等級制度，Taiwan.md 也歡迎特定專業的貢獻者：
-
-| 角色          | 描述                       | 從哪個等級開始 |
-| ------------- | -------------------------- | -------------- |
-| 🌐 翻譯官     | 負責特定語言翻譯           | Lv.1 起        |
-| 🔍 事實查核員 | 驗證文章引用和數據         | Lv.2 起        |
-| 🎨 前端開發   | 網站功能和 UI 改善         | Lv.1 起        |
-| 🤖 AI/Data    | Agentic Workflow、語料整合 | Lv.2 起        |
-| 📸 媒體貢獻者 | CC 授權照片、圖表          | Lv.1 起        |
+| Role            | Description                             | Starting level |
+| --------------- | --------------------------------------- | -------------- |
+| 🌐 Translator   | Owns a specific language's translations | Lv.1           |
+| 🔍 Fact-checker | Verifies citations and data             | Lv.2           |
+| 🎨 Frontend     | Site features and UI                    | Lv.1           |
+| 🤖 AI/Data      | Agentic workflows, content tooling      | Lv.2           |
+| 📸 Media        | CC-licensed photos, diagrams            | Lv.1           |
 
 ---
 
-### 認可方式
+## Questions and Discussion
 
-- **README 感謝名單**：所有貢獻者都會被列出
-- **貢獻徽章**：GitHub Profile 展示徽章
-- **年度表揚**：年度最佳貢獻者特別感謝
-- **推薦信**：為重要貢獻者提供推薦
+- **GitHub Issues**: bug reports and content requests
+- **GitHub Discussions**: general discussion
 
----
+### FAQ
 
-## 📞 問題與討論
+**How do I pick a topic?** Check open issues for content requests, or open one to propose your own.
 
-### 聯繫管道
+**Is there a length requirement?** No hard limit, but current articles run 300-700 words — match that unless there's a clear reason to go longer.
 
-- **GitHub Issues**：問題回報和建議
-- **GitHub Discussions**：一般討論和交流
-- **Email**：[taiwan.md@example.com](mailto:taiwan.md@example.com)
+**Can I use images?** Yes, provided licensing is respected — Creative Commons or your own photos.
 
-### 常見問題
-
-#### Q: 如何選擇文章主題？
-
-A: 可以查看 Issues 中的內容請求，或者提出您感興趣的主題討論。
-
-#### Q: 文章長度有限制嗎？
-
-A: 沒有嚴格限制，但建議 5-10 分鐘的閱讀時間比較適當。
-
-#### Q: 可以使用圖片嗎？
-
-A: 可以，但請確保版權合規，建議使用 Creative Commons 或自己拍攝的圖片。
-
-#### Q: 如何處理爭議性話題？
-
-A: 保持客觀中性，呈現多元觀點，避免單一立場的強烈表述。
+**How do I handle a contentious topic?** Stay factual, present multiple perspectives where they exist, avoid asserting a single strong position as settled fact.
 
 ---
 
-## 📜 行為準則
+## Code of Conduct
 
-### 社群價值
+### Values
 
-- **尊重多元**：尊重不同觀點和背景
-- **建設性討論**：以事論事，理性交流
-- **開放包容**：歡迎所有人參與
-- **品質導向**：追求內容和討論的高品質
+Respect for differing views, constructive discussion, openness to new contributors, quality-first.
 
-### 不被接受的行為
+### Not acceptable
 
-- 人身攻擊或歧視性言論
-- 騷擾或惡意行為
-- 垃圾訊息或無關廣告
-- 惡意破壞或擾亂專案
+Personal attacks or discriminatory remarks, harassment, spam or unrelated promotion, deliberate disruption.
 
 ---
 
-**感謝您的貢獻，讓我們一起打造最好的台灣知識庫！** 🇹🇼
+**Thanks for contributing to LagunaBeach.md.**
 
 ---
 
-_最後更新：2024-03-17_
+_Last updated: 2026-06-21 — Re-grounded in English from Taiwan.md's CONTRIBUTING.md for this fork. Bootstrap curl-install flow dropped (the underlying script is Taiwan.md-specific and hasn't been adapted); replaced with a manual setup + optional Claude Code section. Article template switched from upstream's 30s/5min/full-depth long-form structure to match this project's actual ~300-700 word articles, per `EDITORIAL.en.md`. SSOT direction flipped (English is this project's source language, zh-TW is the translation, the reverse of upstream). Contributor-progression ladder kept fully intact and relabeled rather than trimmed, consistent with how `ROUTINE.en.md`/`DNA.en.md` handle dormant-but-documented systems elsewhere in this fork's cognitive-layer docs._
