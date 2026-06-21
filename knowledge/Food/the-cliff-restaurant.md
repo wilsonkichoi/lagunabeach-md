@@ -5,11 +5,11 @@ date: 2026-06-19
 category: 'Food'
 tags: ['restaurants', 'oceanfront', 'landmark', 'fine-dining']
 subcategory: 'Restaurants & Dining'
-author: 'Taiwan.md'
+author: 'LagunaBeach.md'
 featured: false
 lastVerified: 2026-06-19
 lastHumanReview: false
-geo: The Cliff Restaurant,33.5421,-117.7900,The Village
+geo: The Cliff Restaurant,33.5398,-117.7816,The Village
 source:
   - https://www.thecliffrestaurant.com/
 ---

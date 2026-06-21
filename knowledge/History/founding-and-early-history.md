@@ -5,7 +5,7 @@ date: 2026-06-19
 category: 'History'
 tags: ['history', 'founding', 'acjachemen', 'artists-colony', 'incorporation']
 subcategory: 'Origins & Settlement'
-author: 'Taiwan.md'
+author: 'LagunaBeach.md'
 featured: false
 lastVerified: 2026-06-19
 lastHumanReview: false
@@ -29,7 +29,7 @@ Anglo-American settlers began arriving in the 1870s. The area was initially call
 
 In the early 1900s, plein air painters discovered the dramatic coastal light. Artists like Norman St. Claire, Anna Hills, and William Wendt established studios in the canyons. By the 1920s, Laguna Beach had a reputation as a bohemian art colony, attracting painters, writers, and freethinkers from across the country.
 
-The [[Pageant of the Masters]] began in 1933 as a way to showcase local art during the Depression, and has run annually (with a few wartime interruptions) ever since.
+The [[pageant-of-the-masters|Pageant of the Masters]] began in 1933 as a way to showcase local art during the Depression, and has run annually (with a few wartime interruptions) ever since.
 
 ## Incorporation
 

@@ -5,7 +5,7 @@ date: 2026-06-19
 category: 'Nature & Marine Life'
 tags: ['whales', 'marine-life', 'wildlife', 'ocean', 'seasonal']
 subcategory: 'Marine Wildlife'
-author: 'Taiwan.md'
+author: 'LagunaBeach.md'
 featured: false
 lastVerified: 2026-06-19
 lastHumanReview: false
@@ -33,7 +33,7 @@ Best elevated viewpoints for spotting whale spouts:
 
 - **Heisler Park bluffs** — paved path with benches, wide ocean view
 - **Crescent Bay Point Park** — high elevation, north-facing view
-- **[[Top of the World]]** — highest point, binoculars needed at this distance
+- **[[top-of-the-world|Top of the World]]** — highest point, binoculars needed at this distance
 - **Dana Point Headlands** — just south of Laguna, the best elevated viewpoint in the area
 
 Look for: vertical white spray (spout), dark backs breaking the surface, and occasionally tail flukes raised before a dive. Early morning with calm seas and no glare offers best visibility.

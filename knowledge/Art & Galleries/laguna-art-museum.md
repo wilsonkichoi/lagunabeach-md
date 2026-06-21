@@ -5,7 +5,7 @@ date: 2026-06-19
 category: 'Art & Galleries'
 tags: ['museum', 'art', 'california-art', 'history', 'plein-air']
 subcategory: 'Museums & Institutions'
-author: 'Taiwan.md'
+author: 'LagunaBeach.md'
 featured: false
 lastVerified: 2026-06-19
 lastHumanReview: false
@@ -19,7 +19,7 @@ The Laguna Art Museum (LAM) sits at the corner of Cliff Drive and Pacific Coast 
 
 ## Collection
 
-The museum's focus is exclusively California art: work made in, about, or by artists associated with California. The permanent collection spans from early 20th century [[Plein Air Painting|plein air landscapes]] to contemporary conceptual work.
+The museum's focus is exclusively California art: work made in, about, or by artists associated with California. The permanent collection spans from early 20th century [[plein-air-painting|plein air landscapes]] to contemporary conceptual work.
 
 Key holdings:
 

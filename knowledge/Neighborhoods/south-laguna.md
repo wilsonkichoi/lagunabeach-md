@@ -5,7 +5,7 @@ date: 2026-06-19
 category: 'Neighborhoods'
 tags: ['neighborhoods', 'south-laguna', 'beaches', 'residential']
 subcategory: 'Neighborhoods & Districts'
-author: 'Taiwan.md'
+author: 'LagunaBeach.md'
 featured: false
 lastVerified: 2026-06-19
 lastHumanReview: false
@@ -18,7 +18,7 @@ South Laguna refers to the portion of Laguna Beach south of the Village center, 
 
 ## Character
 
-Where [[The Village]] is walkable, commercial, and tourist-oriented, South Laguna is car-dependent, residential, and local. Pacific Coast Highway runs through it as a fast-moving two-lane road rather than a pedestrian street. The restaurants and shops are scattered, not clustered.
+Where [[the-village|The Village]] is walkable, commercial, and tourist-oriented, South Laguna is car-dependent, residential, and local. Pacific Coast Highway runs through it as a fast-moving two-lane road rather than a pedestrian street. The restaurants and shops are scattered, not clustered.
 
 The hillside neighborhoods above PCH (Monarch Bay, Three Arch Bay, Monarch Bay Terrace) are gated or semi-gated communities with ocean views. Below PCH, the terrain drops steeply to the ocean, creating the famous staircase beaches.
 
@@ -28,8 +28,8 @@ South Laguna's defining feature is its vertical beach access. The bluffs are 50-
 
 Key beaches:
 
-- **[[Thousand Steps Beach]]** — The most famous, around 220 steps
-- **[[Victoria Beach]]** — Home of the Pirate Tower
+- **[[thousand-steps-beach|Thousand Steps Beach]]** — The most famous, around 220 steps
+- **[[victoria-beach|Victoria Beach]]** — Home of the Pirate Tower
 - **West Street Beach** — Popular surf spot
 - **Aliso Beach** — One of the few flat-access beaches in South Laguna (parking lot, restrooms)
 - **Table Rock Beach** — Named for a flat rocky shelf

@@ -5,7 +5,7 @@ date: 2026-06-19
 category: 'Events & Festivals'
 tags: ['sawdust', 'art', 'festival', 'summer', 'laguna-canyon']
 subcategory: 'Summer Art Festivals'
-author: 'Taiwan.md'
+author: 'LagunaBeach.md'
 featured: false
 lastVerified: 2026-06-19
 lastHumanReview: false
@@ -28,7 +28,7 @@ Categories of work include: painting, sculpture, ceramics, glass, jewelry, woodw
 
 ## Season
 
-The summer festival runs late June through August, concurrent with the [[Pageant of the Masters]] and Art-A-Fair. A shorter Winter Fantasy runs November through December with holiday-themed art and entertainment.
+The summer festival runs late June through August, concurrent with the [[pageant-of-the-masters|Pageant of the Masters]] and Art-A-Fair. A shorter Winter Fantasy runs November through December with holiday-themed art and entertainment.
 
 ## Practical Information
 

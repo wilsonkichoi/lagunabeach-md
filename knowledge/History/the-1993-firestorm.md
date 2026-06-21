@@ -1,11 +1,11 @@
 ---
 title: 'The 1993 Firestorm'
-description: 'A wildfire that destroyed 441 homes in Laguna Beach on October 27, 1993, reshaping the city''s relationship with fire and development.'
+description: "A wildfire that destroyed 441 homes in Laguna Beach on October 27, 1993, reshaping the city's relationship with fire and development."
 date: 2026-06-19
 category: 'History'
 tags: ['history', 'fire', 'disaster', '1993', 'wildfire']
 subcategory: 'Fires & Disasters'
-author: 'Taiwan.md'
+author: 'LagunaBeach.md'
 featured: false
 lastVerified: 2026-06-19
 lastHumanReview: false
@@ -14,6 +14,7 @@ source:
   - https://en.wikipedia.org/wiki/1993_Laguna_Beach_fire
   - https://www.latimes.com/archives/la-xpm-1993-10-28-mn-50697-story.html
 ---
+
 On October 27, 1993, a wildfire driven by Santa Ana winds burned through Laguna Beach in a matter of hours, destroying 441 homes and damaging 270 others. No one was killed, but the fire remains the defining disaster in the city's modern history.
 
 ## Timeline
@@ -46,7 +47,7 @@ The fire triggered significant changes:
 
 ## The Greenbelt Connection
 
-The fire paradoxically strengthened support for the [[Founding and Early History|greenbelt]]. Undeveloped wildland around the city serves as a natural firebreak when properly maintained, and the community chose to keep those lands open rather than develop them (which would have placed more structures in the fire path).
+The fire paradoxically strengthened support for the [[founding-and-early-history|greenbelt]]. Undeveloped wildland around the city serves as a natural firebreak when properly maintained, and the community chose to keep those lands open rather than develop them (which would have placed more structures in the fire path).
 
 ## Legacy
 

@@ -5,7 +5,7 @@ date: 2026-06-19
 category: 'Trails'
 tags: ['trails', 'hiking', 'viewpoint', 'alta-laguna-park']
 subcategory: 'Trails & Overlooks'
-author: 'Taiwan.md'
+author: 'LagunaBeach.md'
 featured: false
 lastVerified: 2026-06-19
 lastHumanReview: false

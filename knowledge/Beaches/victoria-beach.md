@@ -5,7 +5,7 @@ date: 2026-06-19
 category: 'Beaches'
 tags: ['beaches', 'south-laguna', 'pirate-tower', 'tide-pools', 'architecture']
 subcategory: 'Beaches & Coves'
-author: 'Taiwan.md'
+author: 'LagunaBeach.md'
 featured: false
 lastVerified: 2026-06-19
 lastHumanReview: false
@@ -14,7 +14,7 @@ source:
   - https://www.visitlagunabeach.com/things-to-do/beaches/victoria-beach/
 ---
 
-Victoria Beach is a narrow, rocky beach in South Laguna, famous for its La Tour tower (commonly called the "Pirate Tower"), a 60-foot stone staircase tower built in 1926. The beach is less crowded than Main Beach or [[Thousand Steps Beach]] due to limited access.
+Victoria Beach is a narrow, rocky beach in South Laguna, famous for its La Tour tower (commonly called the "Pirate Tower"), a 60-foot stone staircase tower built in 1926. The beach is less crowded than Main Beach or [[thousand-steps-beach|Thousand Steps Beach]] due to limited access.
 
 ## The Pirate Tower
 

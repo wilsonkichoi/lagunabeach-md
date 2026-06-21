@@ -5,7 +5,7 @@ date: 2026-06-19
 category: 'Beaches'
 tags: ['beaches', 'south-laguna', 'tide-pools', 'surfing']
 subcategory: 'Beaches & Coves'
-author: 'Taiwan.md'
+author: 'LagunaBeach.md'
 featured: false
 lastVerified: 2026-06-19
 lastHumanReview: false

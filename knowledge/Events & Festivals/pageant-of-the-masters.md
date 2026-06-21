@@ -5,7 +5,7 @@ date: 2026-06-19
 category: 'Events & Festivals'
 tags: ['pageant', 'art', 'festival', 'summer', 'irvine-bowl']
 subcategory: 'Summer Art Festivals'
-author: 'Taiwan.md'
+author: 'LagunaBeach.md'
 featured: false
 lastVerified: 2026-06-19
 lastHumanReview: false
@@ -48,4 +48,4 @@ The Pageant is the centerpiece of the broader Festival of Arts, a juried fine ar
 
 ## Related Events
 
-The [[Sawdust Art Festival]] and Art-A-Fair run concurrently across Laguna Canyon Road, creating a summer-long art district. Together, these three events draw hundreds of thousands of visitors each summer.
+The [[sawdust-art-festival|Sawdust Art Festival]] and Art-A-Fair run concurrently across Laguna Canyon Road, creating a summer-long art district. Together, these three events draw hundreds of thousands of visitors each summer.
