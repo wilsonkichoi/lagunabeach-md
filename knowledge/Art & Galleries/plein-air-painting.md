@@ -1,14 +1,18 @@
 ---
 title: 'Plein Air Painting'
-description: "Laguna Beach's identity as an art colony was built on painters working outdoors in the coastal light."
+description: 'Laguna Beach''s identity as an art colony was built on painters working outdoors in the coastal light.'
 date: 2026-06-19
-tags: [art, plein-air, painting, history, artists-colony]
-category: Art & Galleries
+category: 'Art & Galleries'
+tags: ['art', 'plein-air', 'painting', 'history', 'artists-colony']
+subcategory: 'Painting Traditions'
+author: 'Taiwan.md'
+featured: false
+lastVerified: 2026-06-19
+lastHumanReview: false
 source:
   - https://lagunaartmuseum.org/
   - https://en.wikipedia.org/wiki/California_plein_air_painting
 ---
-
 Plein air painting (painting outdoors, from the French "en plein air") is the foundation of Laguna Beach's identity as an art colony. The town's dramatic coastal light, varied terrain, and sheltered canyons attracted landscape painters beginning in the early 1900s.
 
 ## Early History

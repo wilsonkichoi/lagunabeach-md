@@ -2,8 +2,14 @@
 title: 'Sawdust Art Festival'
 description: 'An open-air art festival where Laguna Beach artists sell work directly from hand-built booths, running since 1966.'
 date: 2026-06-19
-tags: [sawdust, art, festival, summer, laguna-canyon]
-category: Events & Festivals
+category: 'Events & Festivals'
+tags: ['sawdust', 'art', 'festival', 'summer', 'laguna-canyon']
+subcategory: 'Summer Art Festivals'
+author: 'Taiwan.md'
+featured: false
+lastVerified: 2026-06-19
+lastHumanReview: false
+geo: Sawdust Art Festival,33.5481,-117.7768,The Village
 source:
   - https://www.sawdustartfestival.org/
 ---

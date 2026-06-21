@@ -2,8 +2,14 @@
 title: 'Laguna Coast Wilderness Park'
 description: 'A 7,000-acre protected open space surrounding Laguna Beach with 40+ miles of trails through coastal sage scrub and oak woodland.'
 date: 2026-06-19
-tags: [trails, hiking, wilderness, greenbelt, nature]
-category: Trails
+category: 'Trails'
+tags: ['trails', 'hiking', 'wilderness', 'greenbelt', 'nature']
+subcategory: 'Parks & Wilderness'
+author: 'Taiwan.md'
+featured: false
+lastVerified: 2026-06-19
+lastHumanReview: false
+geo: Laguna Coast Wilderness Park,33.5610,-117.7615,Top of the World
 source:
   - https://www.ocparks.com/parks-trails/laguna-coast-wilderness-park
   - https://lagunacanyon.org/

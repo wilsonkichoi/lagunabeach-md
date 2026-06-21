@@ -111,6 +111,9 @@ const visibleLangOptions = langOptions.filter((l) => l.has);
 const currentLangOption =
   visibleLangOptions.find((l) => l.isActive) || visibleLangOptions[0];
 
+// Temporarily hide language switcher while site is English-only (i18n kept intact).
+const SHOW_LANG_SWITCHER = false;
+
 const normalizedPath = currentPath.replace(/\/$/, '') || '/';
 const isHome = normalizedPath === '/' || normalizedPath === '/en';
 
@@ -172,11 +175,19 @@ const navConfig = [
 const categoryList = [
   { path: navHref('/history'), label: 'History', emoji: '📜' },
   { path: navHref('/art-galleries'), label: 'Art & Galleries', emoji: '🎨' },
-  { path: navHref('/nature-marine-life'), label: 'Nature & Marine Life', emoji: '🌊' },
+  {
+    path: navHref('/nature-marine-life'),
+    label: 'Nature & Marine Life',
+    emoji: '🌊',
+  },
   { path: navHref('/food'), label: 'Food', emoji: '🍽️' },
   { path: navHref('/beaches'), label: 'Beaches', emoji: '🏖️' },
   { path: navHref('/trails'), label: 'Trails', emoji: '🥾' },
-  { path: navHref('/events-festivals'), label: 'Events & Festivals', emoji: '🎭' },
+  {
+    path: navHref('/events-festivals'),
+    label: 'Events & Festivals',
+    emoji: '🎭',
+  },
   { path: navHref('/neighborhoods'), label: 'Neighborhoods', emoji: '🏘️' },
 ];
 ---
@@ -332,10 +343,7 @@ const categoryList = [
                           📍 {t('nav.map.explore')}
                         </a>
                         <div class="dropdown-divider" />
-                        <a
-                          href={navHref('/map')}
-                          class="dropdown-item"
-                        >
+                        <a href={navHref('/map')} class="dropdown-item">
                           {t('nav.data.shape')} 🗺️
                         </a>
                       </div>
@@ -574,44 +582,55 @@ const categoryList = [
 
         <!-- Lang dropdown (2026-04-24 β3: replaces 4-button row to scale to 5+ langs)
              native names + globe icon let any reader recognize their language. -->
-        <div
-          class="lang-dropdown"
-          role="group"
-          aria-label={t('nav.aria-language-selection')}
-        >
-          <button
-            class="lang-dropdown-toggle"
-            type="button"
-            aria-haspopup="menu"
-            aria-expanded="false"
-            aria-label={t('nav.aria-language-selection')}
-            data-lang-toggle
-          >
-            <span class="lang-globe" aria-hidden="true">🌐</span>
-            <span class="lang-current">{currentLangOption?.short ?? '中'}</span>
-            <span class="lang-caret" aria-hidden="true">▾</span>
-          </button>
-          <div class="lang-dropdown-menu" role="menu" data-lang-menu hidden>
-            {
-              visibleLangOptions.map((opt) => (
-                <a
-                  href={opt.link}
-                  class:list={['lang-dropdown-item', { active: opt.isActive }]}
-                  role="menuitem"
-                  aria-current={opt.isActive ? 'page' : undefined}
-                  lang={opt.code}
-                >
-                  <span class="lang-native">{opt.nativeName}</span>
-                  {opt.isActive && (
-                    <span class="lang-check" aria-hidden="true">
-                      ✓
-                    </span>
-                  )}
-                </a>
-              ))
-            }
-          </div>
-        </div>
+        {
+          SHOW_LANG_SWITCHER && (
+            <div
+              class="lang-dropdown"
+              role="group"
+              aria-label={t('nav.aria-language-selection')}
+            >
+              <button
+                class="lang-dropdown-toggle"
+                type="button"
+                aria-haspopup="menu"
+                aria-expanded="false"
+                aria-label={t('nav.aria-language-selection')}
+                data-lang-toggle
+              >
+                <span class="lang-globe" aria-hidden="true">
+                  🌐
+                </span>
+                <span class="lang-current">
+                  {currentLangOption?.short ?? '中'}
+                </span>
+                <span class="lang-caret" aria-hidden="true">
+                  ▾
+                </span>
+              </button>
+              <div class="lang-dropdown-menu" role="menu" data-lang-menu hidden>
+                {visibleLangOptions.map((opt) => (
+                  <a
+                    href={opt.link}
+                    class:list={[
+                      'lang-dropdown-item',
+                      { active: opt.isActive },
+                    ]}
+                    role="menuitem"
+                    aria-current={opt.isActive ? 'page' : undefined}
+                    lang={opt.code}
+                  >
+                    <span class="lang-native">{opt.nativeName}</span>
+                    {opt.isActive && (
+                      <span class="lang-check" aria-hidden="true">
+                        ✓
+                      </span>
+                    )}
+                  </a>
+                ))}
+              </div>
+            </div>
+          )
+        }
       </div>
 
       <!-- Mobile Nav -->

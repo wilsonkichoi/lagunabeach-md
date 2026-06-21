@@ -2,8 +2,14 @@
 title: 'Victoria Beach'
 description: 'A secluded beach known for its distinctive 1926 stone tower and rocky tide pool areas.'
 date: 2026-06-19
-tags: [beaches, south-laguna, pirate-tower, tide-pools, architecture]
-category: Beaches
+category: 'Beaches'
+tags: ['beaches', 'south-laguna', 'pirate-tower', 'tide-pools', 'architecture']
+subcategory: 'Beaches & Coves'
+author: 'Taiwan.md'
+featured: false
+lastVerified: 2026-06-19
+lastHumanReview: false
+geo: Victoria Beach,33.5143,-117.7654,Victoria Beach
 source:
   - https://www.visitlagunabeach.com/things-to-do/beaches/victoria-beach/
 ---

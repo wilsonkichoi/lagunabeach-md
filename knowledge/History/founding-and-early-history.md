@@ -2,8 +2,14 @@
 title: 'Founding and Early History'
 description: 'How Laguna Beach grew from an indigenous homeland to an artists colony to an incorporated city.'
 date: 2026-06-19
-tags: [history, founding, acjachemen, artists-colony, incorporation]
-category: History
+category: 'History'
+tags: ['history', 'founding', 'acjachemen', 'artists-colony', 'incorporation']
+subcategory: 'Origins & Settlement'
+author: 'Taiwan.md'
+featured: false
+lastVerified: 2026-06-19
+lastHumanReview: false
+geo: Old Town Laguna Beach,33.5423,-117.7840,The Village
 source:
   - https://www.lagunabeachcity.net/our-city/history
   - https://en.wikipedia.org/wiki/Laguna_Beach,_California

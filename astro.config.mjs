@@ -127,10 +127,7 @@ export default defineConfig({
       // names (→ distrusts our lastmod site-wide). lastmod is now set per-URL in
       // serialize() from content-dates.json. See SEO plan report §1.1.
       // Customize priority and changefreq for different pages
-      customPages: [
-        'https://taiwan.md/?changefreq=daily&priority=1.0',
-        'https://taiwan.md/en?changefreq=daily&priority=1.0',
-      ],
+      customPages: ['https://lagunabeach.md/?changefreq=daily&priority=1.0'],
       i18n: {
         defaultLocale: DEFAULT_LANGUAGE.code,
         locales: sitemapLocales,
@@ -188,154 +185,10 @@ export default defineConfig({
   // Cloudflare logs. Astro generates HTML meta-refresh pages for each entry.
   // Review with: bash scripts/tools/fetch-cloudflare.py --days 1
   redirects: {
-    // 2026-06-19: 立蛋.md Merge 進 端午節.md（idlccp1984 #1167/#1168 同日初稿，
-    // 立蛋「迷信 vs 科學」吸納為端午節對比模組）。立蛋為當日新建 zh-TW only，1 lang redirect。
-    '/culture/立蛋': '/culture/端午節/',
-    // /about/創辦人/ → /people/吳哲宇/ (Google top-5 結果但 404)
-    '/about/創辦人': '/people/吳哲宇/',
-    // /en/people/mayday/ → /en/people/mayday-band/ (51 req/day)
-    '/en/people/mayday': '/en/people/mayday-band/',
-    // 2026-05-08 #883: 八炯 romanization Ba Jiong → Pa Chiung (Wade-Giles per
-    // Taipei Times 2025-08-05 article, Taiwan-canonical romanization). Sovereignty-
-    // aligned correction (per MANIFESTO §主權的巴別塔: avoid PRC pinyin where
-    // Taiwan media uses Wade-Giles). 5-lang slug rename.
-    '/en/people/ba-jiong-political-youtuber':
-      '/en/people/pa-chiung-political-youtuber/',
-    '/ja/people/ba-jiong-political-youtuber':
-      '/ja/people/pa-chiung-political-youtuber/',
-    '/ko/people/ba-jiong-political-youtuber':
-      '/ko/people/pa-chiung-political-youtuber/',
-    '/fr/people/ba-jiong-political-youtuber':
-      '/fr/people/pa-chiung-political-youtuber/',
-    '/es/people/ba-jiong-political-youtuber':
-      '/es/people/pa-chiung-political-youtuber/',
-    // 2026-04-18 δ-late: EN version of democratic transition was renamed from
-    // `democratic-transition.md` → `taiwan-democratization.md`; spores #10/#11
-    // (2026-04-07) still send traffic to the old URL (37 views/day).
-    '/en/history/democratic-transition': '/en/history/taiwan-democratization/',
-    // 2026-04-18 δ-late: semiont meta-pages are zh-TW only; auto-generated
-    // multilingual nav (translatePath) creates /{en|ja|ko}/semiont/* 404s.
-    // Redirect all non-zh semiont-series paths to canonical zh-TW equivalents.
+    // Taiwan.md content-merge / 404 redirects removed during the LagunaBeach.md
+    // migration — their source and target URLs do not exist here. Only the semiont
+    // meta-page language redirects remain (those /semiont/* pages are still present).
     ...semiontRedirects,
-    // 2026-04-26 β8: issue #626 (@idlccp1984) — Geography/台灣交通運輸網絡.md
-    // 與 Lifestyle/台灣交通系統.md 主題重疊。整併到 Lifestyle 那篇（高品質
-    // 2026-04-06 EVOLVE 版本，加 3 個 Geography 視角 scene 後成 canonical）。
-    // 5 lang redirects: zh-TW + en/ja/ko/fr translation slugs
-    '/geography/台灣交通運輸網絡': '/lifestyle/台灣交通系統/',
-    '/en/geography/taiwan-transportation-network':
-      '/en/lifestyle/transportation-system/',
-    '/ja/geography/taiwan-transportation-network':
-      '/ja/lifestyle/transportation-system/',
-    '/ko/geography/transportation-network':
-      '/ko/lifestyle/transportation-system/',
-    '/fr/geography/transportation-network':
-      '/fr/lifestyle/transportation-system/',
-    // 2026-04-27: issue #635 (@idlccp1984) — Art/台灣當代文學發展.md
-    // 與 戰後/解嚴後/當代台灣文學 三篇時代分期合併後，此寬泛總覽篇退場。
-    // 重定向至 台灣文學史（四百年完整史觀，比原篇範圍更廣且更精確）。
-    // 6 lang redirects: zh-TW + en/ja/ko/fr translation slugs
-    '/art/台灣當代文學發展': '/art/台灣文學史/',
-    '/en/art/development-of-contemporary-taiwanese-literature':
-      '/en/art/history-of-taiwanese-literature/',
-    '/ja/art/contemporary-literature': '/ja/art/taiwan-literature-history/',
-    '/ko/art/taiwan-contemporary-literature': '/ko/art/literary-history/',
-    '/fr/art/contemporary-literature-development': '/fr/art/literary-history/',
-    // 2026-04-28 κ-late: issue #655 (@idlccp1984) — 3 篇宗教文章整併為 1 篇深度文章。
-    // canonical: Culture/台灣宗教與寺廟文化.md (slug 沿用 + title EVOLVE 為「台灣宗教信仰：在恐懼裡長出的信仰帝國」)
-    // archive 1: Lifestyle/宗教與民間信仰.md (137 行 / lastHumanReview: false / 0 footnotes)
-    // archive 2: Culture/台灣新興宗教與心靈文化.md (323 行 / 0 footnotes / [LIST-DUMP] 嚴重)
-    // 5 lang redirects (zh-TW + en/ja/ko/fr translation slugs)
-    '/lifestyle/宗教與民間信仰': '/culture/台灣宗教與寺廟文化/',
-    '/en/lifestyle/religion-and-folk-beliefs':
-      '/en/culture/taiwan-religion-and-temple-culture/',
-    '/ko/lifestyle/religion-and-folk-beliefs':
-      '/ko/culture/taiwan-religion-and-temple-culture/',
-    '/fr/lifestyle/religion-folk-beliefs':
-      '/fr/culture/religion-and-temple-culture/',
-    '/culture/台灣新興宗教與心靈文化': '/culture/台灣宗教與寺廟文化/',
-    '/en/culture/emerging-religions-and-spiritual-culture':
-      '/en/culture/taiwan-religion-and-temple-culture/',
-    '/ja/culture/new-religions':
-      '/ja/culture/taiwan-religion-and-temple-culture/',
-    '/ko/culture/new-religions-and-spirituality':
-      '/ko/culture/taiwan-religion-and-temple-culture/',
-    '/fr/culture/new-religions-and-spirituality':
-      '/fr/culture/religion-and-temple-culture/',
-    // 2026-05-07: 阿志頭 → 台灣髮型介紹 (整併: 阿志頭 EVOLVE 進 台灣髮型介紹)
-    // canonical: Lifestyle/台灣髮型介紹.md (slug 沿用)
-    // archive: Lifestyle/阿志頭.md (被刪, 內容全部整合進 台灣髮型介紹)
-    // 4 lang redirects (zh-TW + en/ja/ko translation slugs)
-    '/lifestyle/阿志頭': '/lifestyle/台灣髮型介紹/',
-    '/en/lifestyle/ah-ji-haircut': '/en/lifestyle/taiwan-hairstyles/',
-    '/ja/lifestyle/ah-ji-haircut': '/ja/lifestyle/taiwan-hairstyles/',
-    '/ko/lifestyle/ah-ji-haircut': '/ko/lifestyle/taiwan-hairstyles/',
-    // 2026-05-16: 產業轉型 4 篇 → 1 篇 (整併 per issue #1063 哲宇裁決)
-    // canonical: Economy/台灣產業轉型升級.md (補美援/十大建設/新竹園區/四小龍 4 段)
-    // archive 1-3: 台灣產業轉型與經濟發展軌跡 / 產業轉型 / 產業轉型與經濟發展軌跡
-    // 6 lang × 3 archives = 18 redirect entries
-    '/economy/台灣產業轉型與經濟發展軌跡': '/economy/台灣產業轉型升級/',
-    '/en/economy/taiwan-industrial-transformation-trajectory':
-      '/en/economy/industrial-transformation-from-manufacturing-to-innovation/',
-    '/es/economy/taiwan-industrial-transformation-trajectory':
-      '/es/economy/industrial-transformation-from-manufacturing-to-innovation/',
-    '/fr/economy/taiwan-industrial-transformation-trajectory':
-      '/fr/economy/industrial-transformation-from-manufacturing-to-innovation/',
-    '/ja/economy/taiwan-industrial-transformation-trajectory':
-      '/ja/economy/industrial-transformation-from-manufacturing-to-innovation/',
-    '/ko/economy/taiwan-industrial-transformation-trajectory':
-      '/ko/economy/industrial-transformation-from-manufacturing-to-innovation/',
-    '/economy/產業轉型': '/economy/台灣產業轉型升級/',
-    '/en/economy/taiwan-industrial-transformation':
-      '/en/economy/industrial-transformation-from-manufacturing-to-innovation/',
-    '/es/economy/taiwan-industrial-transformation':
-      '/es/economy/industrial-transformation-from-manufacturing-to-innovation/',
-    '/fr/economy/taiwan-industrial-transformation':
-      '/fr/economy/industrial-transformation-from-manufacturing-to-innovation/',
-    '/ja/economy/taiwan-industrial-transformation':
-      '/ja/economy/industrial-transformation-from-manufacturing-to-innovation/',
-    '/ko/economy/taiwan-industrial-transformation':
-      '/ko/economy/industrial-transformation-from-manufacturing-to-innovation/',
-    '/economy/產業轉型與經濟發展軌跡': '/economy/台灣產業轉型升級/',
-    '/en/economy/industrial-transformation-and-economic-development':
-      '/en/economy/industrial-transformation-from-manufacturing-to-innovation/',
-    '/es/economy/industrial-transformation-and-economic-development':
-      '/es/economy/industrial-transformation-from-manufacturing-to-innovation/',
-    '/fr/economy/industrial-transformation-and-economic-development':
-      '/fr/economy/industrial-transformation-from-manufacturing-to-innovation/',
-    '/ja/economy/industrial-transformation-and-economic-development':
-      '/ja/economy/industrial-transformation-from-manufacturing-to-innovation/',
-    '/ko/economy/industrial-transformation-and-economic-development':
-      '/ko/economy/industrial-transformation-from-manufacturing-to-innovation/',
-    // 2026-05-16: Technology/台灣新創生態系 → Economy/新創生態系 (整併 per issue #1063)
-    // canonical: Economy/新創生態系.md (lastHumanReview=true + 5 footnotes + EVOLVE 已過)
-    // archive: Technology/台灣新創生態系.md (被刪, unique 段整合進 canonical)
-    // 6 lang redirects (zh-TW + en/es/fr/ja/ko translation slugs)
-    '/technology/台灣新創生態系': '/economy/新創生態系/',
-    '/en/technology/taiwan-startup-ecosystem':
-      '/en/economy/taiwan-startup-ecosystem-overview/',
-    '/es/technology/taiwan-startup-ecosystem':
-      '/es/economy/taiwan-startup-ecosystem-overview/',
-    '/fr/technology/taiwan-startup-ecosystem':
-      '/fr/economy/taiwan-startup-ecosystem-overview/',
-    '/ja/technology/taiwan-startup-ecosystem':
-      '/ja/economy/taiwan-startup-ecosystem-overview/',
-    '/ko/technology/taiwan-startup-ecosystem':
-      '/ko/economy/taiwan-startup-ecosystem-overview/',
-    // 2026-06-19 #1152 (回報者 菜國人): 視覺化模組型錄 是 meta / about-the-site
-    // 頁（tw-* 視覺模組的 live demo，與 docs/editorial/graph.md 互為搭檔），
-    // 不是 Society 主題。Recategorize Society → About。6 lang redirects 讓
-    // 已被索引的 /society/... URL 不 404。
-    '/society/視覺化模組型錄': '/about/視覺化模組型錄/',
-    '/en/society/visualization-module-catalog':
-      '/en/about/visualization-module-catalog/',
-    '/es/society/visualization-module-catalog':
-      '/es/about/visualization-module-catalog/',
-    '/fr/society/visualization-module-catalog':
-      '/fr/about/visualization-module-catalog/',
-    '/ja/society/visualization-module-catalog':
-      '/ja/about/visualization-module-catalog/',
-    '/ko/society/visualization-module-catalog':
-      '/ko/about/visualization-module-catalog/',
   },
   // 2026-05-04: build perf tuning. Page render is 93% of build time
   // (363s render / 391s wall, baseline 4,331 pages). concurrency 1 → 4

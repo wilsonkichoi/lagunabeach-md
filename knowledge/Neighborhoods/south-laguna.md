@@ -2,8 +2,14 @@
 title: 'South Laguna'
 description: 'The quieter southern stretch of Laguna Beach, home to hidden beaches and residential hillside neighborhoods.'
 date: 2026-06-19
-tags: [neighborhoods, south-laguna, beaches, residential]
-category: Neighborhoods
+category: 'Neighborhoods'
+tags: ['neighborhoods', 'south-laguna', 'beaches', 'residential']
+subcategory: 'Neighborhoods & Districts'
+author: 'Taiwan.md'
+featured: false
+lastVerified: 2026-06-19
+lastHumanReview: false
+geo: South Laguna,33.5065,-117.7535,South Laguna
 source:
   - https://www.visitlagunabeach.com/
 ---

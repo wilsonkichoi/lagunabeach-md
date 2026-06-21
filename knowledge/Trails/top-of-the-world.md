@@ -2,8 +2,14 @@
 title: 'Top of the World'
 description: 'A panoramic viewpoint and trailhead offering 360-degree views from the Pacific Ocean to the Santa Ana Mountains.'
 date: 2026-06-19
-tags: [trails, hiking, viewpoint, alta-laguna-park]
-category: Trails
+category: 'Trails'
+tags: ['trails', 'hiking', 'viewpoint', 'alta-laguna-park']
+subcategory: 'Trails & Overlooks'
+author: 'Taiwan.md'
+featured: false
+lastVerified: 2026-06-19
+lastHumanReview: false
+geo: Top of the World,33.5606,-117.7716,Top of the World
 source:
   - https://www.lagunabeachcity.net/our-city/city-parks/alta-laguna-park
 ---

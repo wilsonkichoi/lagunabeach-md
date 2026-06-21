@@ -1,13 +1,18 @@
 ---
 title: 'The Village'
-description: "Laguna Beach's walkable downtown core, centered on Pacific Coast Highway and Forest Avenue."
+description: 'Laguna Beach''s walkable downtown core, centered on Pacific Coast Highway and Forest Avenue.'
 date: 2026-06-19
-tags: [neighborhoods, downtown, village, shopping, main-beach]
-category: Neighborhoods
+category: 'Neighborhoods'
+tags: ['neighborhoods', 'downtown', 'village', 'shopping', 'main-beach']
+subcategory: 'Neighborhoods & Districts'
+author: 'Taiwan.md'
+featured: false
+lastVerified: 2026-06-19
+lastHumanReview: false
+geo: The Village,33.5425,-117.7850,The Village
 source:
   - https://www.visitlagunabeach.com/
 ---
-
 The Village is Laguna Beach's downtown district, stretching along Pacific Coast Highway from the north bluffs to Legion Street, and inland along Forest Avenue and Ocean Avenue. It is the commercial, cultural, and social heart of the city.
 
 ## Character

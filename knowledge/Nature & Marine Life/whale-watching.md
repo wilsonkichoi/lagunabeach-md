@@ -2,8 +2,14 @@
 title: 'Whale Watching'
 description: 'Gray whales migrate past Laguna Beach every winter, visible from shore and by boat.'
 date: 2026-06-19
-tags: [whales, marine-life, wildlife, ocean, seasonal]
-category: Nature & Marine Life
+category: 'Nature & Marine Life'
+tags: ['whales', 'marine-life', 'wildlife', 'ocean', 'seasonal']
+subcategory: 'Marine Wildlife'
+author: 'Taiwan.md'
+featured: false
+lastVerified: 2026-06-19
+lastHumanReview: false
+geo: Crescent Bay Point,33.5538,-117.7978,North Laguna
 source:
   - https://www.danawharf.com/whale-watching/
   - https://www.visitlagunabeach.com/things-to-do/whale-watching/

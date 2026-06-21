@@ -2,8 +2,14 @@
 title: 'Laguna Art Museum'
 description: 'The oldest art museum in Orange County, focused exclusively on California art from the plein air era to contemporary.'
 date: 2026-06-19
-tags: [museum, art, california-art, history, plein-air]
-category: Art & Galleries
+category: 'Art & Galleries'
+tags: ['museum', 'art', 'california-art', 'history', 'plein-air']
+subcategory: 'Museums & Institutions'
+author: 'Taiwan.md'
+featured: false
+lastVerified: 2026-06-19
+lastHumanReview: false
+geo: Laguna Art Museum,33.5448,-117.7905,North Laguna
 source:
   - https://lagunaartmuseum.org/
   - https://en.wikipedia.org/wiki/Laguna_Art_Museum

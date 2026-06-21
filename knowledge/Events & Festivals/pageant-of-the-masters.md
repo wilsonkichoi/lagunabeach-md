@@ -2,8 +2,14 @@
 title: 'Pageant of the Masters'
 description: 'A live performance where volunteers recreate famous paintings and sculptures using real people, running annually since 1933.'
 date: 2026-06-19
-tags: [pageant, art, festival, summer, irvine-bowl]
-category: Events & Festivals
+category: 'Events & Festivals'
+tags: ['pageant', 'art', 'festival', 'summer', 'irvine-bowl']
+subcategory: 'Summer Art Festivals'
+author: 'Taiwan.md'
+featured: false
+lastVerified: 2026-06-19
+lastHumanReview: false
+geo: Festival of Arts Grounds,33.5452,-117.7740,The Village
 source:
   - https://www.foapom.com/
   - https://en.wikipedia.org/wiki/Pageant_of_the_Masters

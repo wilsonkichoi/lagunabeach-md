@@ -81,33 +81,9 @@ jobs:
       - name: Build site
         run: npm run build
 
-      - name: Cascade prevention test (B1 regression)
-        run: |
-          echo "::group::Cascade URLs check on /fr/people"
-          F="dist/fr/people/index.html"
-          if [ ! -f "$F" ]; then
-            echo "❌ Missing $F"
-            exit 1
-          fi
-          # Look for cascade URL patterns: /ja/fr/, /ko/fr/, etc.
-          BAD=$(grep -oE 'href="/(en|ja|ko|fr|es)/(en|ja|ko|fr|es)/' "$F" || true)
-          if [ -n "$BAD" ]; then
-            echo "❌ Cascade URLs found:"
-            echo "$BAD"
-            exit 1
-          fi
-          # Verify lang dropdown contains expected URLs
-          DROPDOWN=$(grep -oE '"/(en|ja|ko|fr|es)/people"' "$F" | sort -u)
-          echo "Lang dropdown URLs from /fr/people:"
-          echo "$DROPDOWN"
-          # Should have at least 3 langs (en/ja/ko at minimum)
-          COUNT=$(echo "$DROPDOWN" | wc -l)
-          if [ "$COUNT" -lt 3 ]; then
-            echo "❌ Lang dropdown only has $COUNT URLs (expected ≥3)"
-            exit 1
-          fi
-          echo "✅ No cascade URLs / dropdown has $COUNT lang links"
-          echo "::endgroup::"
+      # B1 cascade/dropdown test removed: site is English-only and the language
+      # switcher is hidden (Header.astro SHOW_LANG_SWITCHER=false). The multi-lang
+      # dropdown + /fr/people cascade assertions no longer apply.
 
       - name: Wrong-language prose check (B2 regression)
         run: |

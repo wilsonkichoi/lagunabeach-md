@@ -24,56 +24,6 @@ export const changelogUI = {
     'changelog.time.hours-ago': 'hours ago',
     'changelog.time.days-ago': 'days ago',
   },
-  ja: {
-    // Meta
-    'changelog.meta.title': 'サイト更新履歴',
-    'changelog.meta.description':
-      'LagunaBeach.md のリアルタイム更新履歴、すべてのコンテンツ追加とサイト改善を追跡します。',
-
-    // Header
-    'changelog.header.title': 'サイト更新履歴',
-    'changelog.header.subtitle':
-      'LagunaBeach.md のすべてのコンテンツ追加とサイト改善を追跡',
-    'changelog.header.meta.updates': '件の更新履歴',
-    'changelog.header.meta.synced': '自動同期元：',
-
-    // Timeline
-    'changelog.day.updates': '件の更新',
-
-    // Locale for date formatting
-    'changelog.locale': 'ja-JP',
-
-    // Relative time
-    'changelog.time.just-now': 'たった今',
-    'changelog.time.minutes-ago': '分前',
-    'changelog.time.hours-ago': '時間前',
-    'changelog.time.days-ago': '日前',
-  },
-  ko: {
-    // Meta
-    'changelog.meta.title': '사이트 업데이트 기록',
-    'changelog.meta.description':
-      'LagunaBeach.md의 실시간 업데이트 기록, 모든 콘텐츠 추가와 사이트 개선 사항을 추적합니다.',
-
-    // Header
-    'changelog.header.title': '사이트 업데이트 기록',
-    'changelog.header.subtitle':
-      'LagunaBeach.md의 모든 콘텐츠 추가와 사이트 개선 사항을 추적합니다',
-    'changelog.header.meta.updates': '건 업데이트 기록',
-    'changelog.header.meta.synced': '자동 동기화 출처:',
-
-    // Timeline
-    'changelog.day.updates': '건 업데이트',
-
-    // Locale for date formatting
-    'changelog.locale': 'ko-KR',
-
-    // Relative time
-    'changelog.time.just-now': '방금',
-    'changelog.time.minutes-ago': '분 전',
-    'changelog.time.hours-ago': '시간 전',
-    'changelog.time.days-ago': '일 전',
-  },
   'zh-TW': {
     // Meta
     'changelog.meta.title': '網站更新紀錄',
@@ -98,37 +48,5 @@ export const changelogUI = {
     'changelog.time.minutes-ago': '分鐘前',
     'changelog.time.hours-ago': '小時前',
     'changelog.time.days-ago': '天前',
-  },
-  es: {
-    'changelog.meta.title': 'Historial de actualizaciones',
-    'changelog.meta.description':
-      'Historial de actualizaciones en tiempo real de LagunaBeach.md — sigue cada adición de contenido y mejora del sitio.',
-    'changelog.header.title': 'Historial de actualizaciones',
-    'changelog.header.subtitle':
-      'Sigue cada adición de contenido y mejora del sitio en LagunaBeach.md',
-    'changelog.header.meta.updates': 'actualizaciones',
-    'changelog.header.meta.synced': 'Sincronizado automáticamente desde',
-    'changelog.day.updates': 'actualizaciones',
-    'changelog.locale': 'es',
-    'changelog.time.just-now': 'justo ahora',
-    'changelog.time.minutes-ago': 'hace minutos',
-    'changelog.time.hours-ago': 'hace horas',
-    'changelog.time.days-ago': 'hace días',
-  },
-  fr: {
-    'changelog.meta.title': 'Historique des mises à jour',
-    'changelog.meta.description':
-      'Historique des mises à jour en temps réel de LagunaBeach.md — suivez chaque ajout de contenu et amélioration du site.',
-    'changelog.header.title': 'Historique des mises à jour',
-    'changelog.header.subtitle':
-      'Suivez chaque ajout de contenu et amélioration du site sur LagunaBeach.md',
-    'changelog.header.meta.updates': 'mises à jour',
-    'changelog.header.meta.synced': 'Synchronisé automatiquement depuis',
-    'changelog.day.updates': 'mises à jour',
-    'changelog.locale': 'fr-FR',
-    'changelog.time.just-now': "à l'instant",
-    'changelog.time.minutes-ago': 'il y a quelques minutes',
-    'changelog.time.hours-ago': 'il y a quelques heures',
-    'changelog.time.days-ago': 'il y a quelques jours',
   },
 } as const;
