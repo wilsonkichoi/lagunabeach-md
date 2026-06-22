@@ -1,0 +1,72 @@
+# 確保 git 在 PATH（husky 環境 PATH 比 shell 窄）
+# Ensure git is in PATH (husky env PATH is narrower than shell)
+export PATH="$PATH:/usr/local/bin:/opt/homebrew/bin:$HOME/.bun/bin"
+
+# ═══ Narrative scope pollution detector（2026-04-11 session α；2026-06-22 moved here）═══
+# 同一個 commit 理論上只該動一個 narrative domain。多 domain 通常表示
+# 並行 agent 互相污染。警告模式（不擋），要求 commit message 聲明。
+#
+# 2026-06-22: moved from pre-commit → commit-msg. The declaration escape-hatch
+# (cross-domain / multi-narrative in the message) reads the *proposed* message,
+# which only exists at commit-msg time ($1 = message file). In pre-commit,
+# .git/COMMIT_EDITMSG still holds the PREVIOUS commit's message — git writes the
+# new one during prepare-commit-msg, AFTER pre-commit — so for `git commit -m` the
+# check always read stale text and the advertised declaration never suppressed.
+# Staged-file detection is identical in both stages (git diff --cached reflects the
+# index either way), so the detector moves here wholesale.
+# 詳見 docs/semiont/SESSION-SCOPE.md
+msg_file="$1"
+staged_for_scope=$(git diff --cached --name-only --diff-filter=ACM 2>/dev/null || true)
+if [ -n "$staged_for_scope" ]; then
+  domains_touched=""
+  while IFS= read -r f; do
+    [ -z "$f" ] && continue
+    case "$f" in
+      # build-output FIRST: deterministic refresh-data.sh outputs. Must precede the
+      # broader scripts/* | public/* | knowledge/* cases below, since case matches
+      # top-down and these paths would otherwise be miscounted as authored domains.
+      public/api/*|src/data/*.json|scripts/tools/.quality-baseline.json|public/llms.txt|knowledge/_translation-status.json) d="build-output" ;;
+      knowledge/*)                         d="content-ssot" ;;
+      src/content/*)                       d="content-mirror" ;;
+      docs/semiont/*)                      d="cognitive" ;;
+      docs/pipelines/*|docs/editorial/*|docs/prompts/*|docs/factory/*|docs/community/*|docs/taxonomy/*|docs/design/*|docs/refactor/*) d="pipelines" ;;
+      scripts/*|.husky/*)                  d="tooling" ;;
+      .github/*)                           d="ci" ;;
+      data/*)                              d="data" ;;
+      public/*)                            d="public" ;;
+      src/*|astro.config.mjs|package.json|tsconfig.json|CHANGELOG.md|VERSION) d="code" ;;
+      *)                                   d="other" ;;
+    esac
+    case " $domains_touched " in
+      *" $d "*) ;;
+      *) domains_touched="$domains_touched $d" ;;
+    esac
+  done <<< "$staged_for_scope"
+
+  # 排除 build-output 後算 domain 數
+  non_auto=$(echo "$domains_touched" | tr ' ' '\n' | grep -v '^$' | grep -v '^build-output$' | sort -u)
+  domain_count=$(printf '%s\n' "$non_auto" | grep -c .)
+
+  if [ "$domain_count" -ge 2 ]; then
+    # 檢查 commit message 是否已聲明 multi-narrative（讀 $1 = 本次 commit 的訊息檔）
+    msg_ok=0
+    [ -n "$msg_file" ] && [ -f "$msg_file" ] && grep -qiE 'multi-narrative|cross-domain' "$msg_file" && msg_ok=1
+
+    if [ "$msg_ok" = "0" ]; then
+      echo ""
+      echo "⚠️  NARRATIVE SCOPE WARNING"
+      echo "   這個 commit 橫跨 $domain_count 個 narrative domain:"
+      for d in $non_auto; do echo "     - $d"; done
+      echo ""
+      echo "   通常表示並行 agent 的修改意外被擠進同一個 commit。"
+      echo "   如果是誤觸：取消後 git reset 然後分批 commit"
+      echo "   如果是刻意：commit message 加入 'multi-narrative:' 或 'cross-domain:' 聲明"
+      echo "   緊急繞過：git commit --no-verify（會在 reflog 留痕）"
+      echo "   詳見 docs/semiont/SESSION-SCOPE.md"
+      echo ""
+      # 警告模式 — 不 exit 1，讓 agent 自己決定
+    fi
+  fi
+fi
+
+exit 0
