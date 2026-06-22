@@ -51,7 +51,7 @@ class FileTarget:
     body: str = ""
     body_text_offset: int = 0  # char offset in `text` where body starts
     body_pad_lines: int = 0  # how many blank lines were prepended to align line numbers
-    lang: str = "zh-TW"  # zh-TW / en / ja / ko / es / fr
+    lang: str = "en"  # en (SSOT default) / zh-TW / ja / ko / es / fr
     category: str = ""  # About / History / Geography / ...
     slug: str = ""  # filename without .md
 
@@ -71,7 +71,7 @@ class FileTarget:
 
     @property
     def is_translation(self) -> bool:
-        return self.lang != "zh-TW"
+        return self.lang != "en"
 
     def body_without_protected(self) -> str:
         """Body with protected regions blanked out (preserves char positions)."""

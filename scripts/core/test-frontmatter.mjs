@@ -20,19 +20,14 @@ import matter from 'gray-matter';
 const KNOWLEDGE = resolve(process.cwd(), 'knowledge');
 const CATEGORIES = [
   'About',
-  'History',
-  'Geography',
-  'Culture',
+  'Art & Galleries',
+  'Beaches',
+  'Events & Festivals',
   'Food',
-  'Art',
-  'Music',
-  'Technology',
-  'Nature',
-  'People',
-  'Politics',
-  'Society',
-  'Economy',
-  'Lifestyle',
+  'History',
+  'Nature & Marine Life',
+  'Neighborhoods',
+  'Trails',
 ];
 // NOTE: 'fr' deliberately excluded until the 119-file apostrophe frontmatter
 // heal lands (project_babel_frontmatter_apostrophe, dedicated session spawned

@@ -1,6 +1,6 @@
 {
-  "name": "taiwanmd",
-  "version": "0.7.1",
+  "name": "lagunabeach-md",
+  "version": "0.2.3",
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest"
@@ -8,13 +8,14 @@
   "devDependencies": {
     "vitest": "^2.1.9"
   },
-  "description": "CLI for Taiwan.md — search, read, and explore 900+ curated articles about Taiwan from your terminal.",
+  "description": "CLI for LagunaBeach.md — search, read, and explore curated articles about Laguna Beach, California from your terminal.",
   "type": "module",
   "bin": {
-    "taiwanmd": "src/index.js"
+    "lagunabeach-md": "src/index.js",
+    "lagunabeachmd": "src/index.js"
   },
   "keywords": [
-    "taiwan",
+    "laguna-beach",
     "knowledge-base",
     "cli",
     "markdown",
@@ -22,13 +23,13 @@
     "open-source",
     "rag"
   ],
-  "author": "CheYu Wu <cheyu.wu@monoame.com>",
+  "author": "Wilson Choi",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frank890417/taiwan-md.git"
+    "url": "git+https://github.com/wilsonkichoi/lagunabeach-md.git"
   },
-  "homepage": "https://taiwan.md",
+  "homepage": "https://lagunabeach.md",
   "engines": {
     "node": ">=18.0.0"
   },

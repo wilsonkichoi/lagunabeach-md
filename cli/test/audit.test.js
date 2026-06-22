@@ -28,18 +28,18 @@ function loadFixture(name) {
 }
 
 describe('fixtures sanity', () => {
-  it('audit-clean.md references 參考資料', () => {
+  it('audit-clean.md references References', () => {
     const body = loadFixture('audit-clean.md');
-    expect(body).toMatch(/## 參考資料/);
+    expect(body).toMatch(/## References/);
   });
 
   it('audit-dirty.md seeds all 5 patterns', () => {
     const body = loadFixture('audit-dirty.md');
-    expect(body).toMatch(/第 62 屆/);
+    expect(body).toMatch(/62nd Annual Heritage Award/);
     expect(body).toMatch(/Kasper/);
-    expect(body).toMatch(/盧森堡/);
-    expect(body).toMatch(/「這就是未來的樣子/);
-    expect(body).toMatch(/共同創辦了某個基金會/);
+    expect(body).toMatch(/Luxembourg/);
+    expect(body).toMatch(/This is what the future looks like/);
+    expect(body).toMatch(/co-founded a new foundation/);
   });
 });
 
@@ -49,12 +49,14 @@ describe('extractClaims — dirty fixture', () => {
 
   it('flags award hallucinations', () => {
     expect(claims.award.length).toBeGreaterThanOrEqual(2);
-    expect(claims.award.some((c) => c.text.includes('第 62 屆'))).toBe(true);
+    expect(
+      claims.award.some((c) => c.text.includes('62nd Annual Heritage Award')),
+    ).toBe(true);
     // No footnotes in dirty → severity should be high
     expect(claims.award.every((c) => c.severity === 'high')).toBe(true);
   });
 
-  it('flags English names + precise numbers', () => {
+  it('flags names + precise numbers', () => {
     expect(claims.nameNumber.length).toBeGreaterThanOrEqual(1);
     const hit = claims.nameNumber.find((c) => c.text.includes('Jediah'));
     expect(hit).toBeDefined();
@@ -62,23 +64,27 @@ describe('extractClaims — dirty fixture', () => {
     expect(hit.severity).toBe('high');
   });
 
-  it('flags foreign city (盧森堡) without nearby footnote', () => {
-    expect(claims.location.some((c) => c.text === '盧森堡')).toBe(true);
+  it('flags foreign city (Luxembourg) without nearby footnote', () => {
+    expect(claims.location.some((c) => c.text === 'Luxembourg')).toBe(true);
   });
 
   it('flags direct quotes as warn', () => {
     expect(claims.quote.length).toBeGreaterThanOrEqual(2);
-    expect(claims.quote.some((c) => c.full.includes('這就是未來的樣子'))).toBe(
-      true,
-    );
+    expect(
+      claims.quote.some((c) =>
+        c.full.includes('This is what the future looks like'),
+      ),
+    ).toBe(true);
     // no footnote nearby → warn
     expect(claims.quote.some((c) => c.severity === 'warn')).toBe(true);
   });
 
-  it('flags co-creator omission (共同創辦了 without 跟/和/與)', () => {
+  it('flags co-creator omission (co-founded without "with NAME")', () => {
     expect(claims.cocreator.length).toBeGreaterThanOrEqual(1);
     expect(
-      claims.cocreator.some((c) => c.text.includes('共同創辦了某個基金會')),
+      claims.cocreator.some((c) =>
+        c.text.includes('co-founded a new foundation'),
+      ),
     ).toBe(true);
   });
 });
@@ -118,7 +124,7 @@ describe('computeVerdict', () => {
     const synthetic = {
       award: [],
       nameNumber: [],
-      location: [{ line: 1, text: '巴黎', severity: 'med' }],
+      location: [{ line: 1, text: 'Paris', severity: 'med' }],
       quote: [],
       cocreator: [],
     };
@@ -128,32 +134,31 @@ describe('computeVerdict', () => {
 });
 
 describe('co-creator false-positive suppression', () => {
-  it('suppresses when a name appears before 共同創辦了 via 跟/和/與', () => {
-    const body = '還跟林經堯共同創辦了 akaSwap 亞洲 NFT 平台。';
+  it('suppresses when "with NAME" follows co-founded', () => {
+    const body = 'She co-founded the gallery with Maria Chen in 1998.';
     const claims = extractClaims(body);
     expect(claims.cocreator.length).toBe(0);
   });
 
-  it('does NOT suppress bare 共同創辦了', () => {
-    const body = '同年他共同創辦了某個基金會，開始推廣議題。';
+  it('does NOT suppress bare co-founded', () => {
+    const body =
+      'That same year he co-founded a new foundation, beginning to promote the cause.';
     const claims = extractClaims(body);
     expect(claims.cocreator.length).toBeGreaterThanOrEqual(1);
   });
 
-  it('also handles 和 / 與 prefix', () => {
-    const body1 = '他與黃豆泥共同創辦了 FAB DAO 組織';
-    const body2 = '她和張三共同創辦了某協會';
-    expect(extractClaims(body1).cocreator.length).toBe(0);
-    expect(extractClaims(body2).cocreator.length).toBe(0);
+  it('suppresses "X and Y co-founded" structure', () => {
+    const body = 'Maria and Jane co-founded the festival together in 2005.';
+    expect(extractClaims(body).cocreator.length).toBe(0);
   });
 });
 
 describe('raw pattern exports', () => {
   it('AWARD_PATTERNS matches canonical phrasings', () => {
     const samples = [
-      '2024 年他獲得第 62 屆十大傑出青年',
-      '第 37 屆金鐘獎最佳主持人',
-      '2019 年榮獲某獎項',
+      'In 2024 she won the 62nd Annual Heritage Award',
+      'She received the 37th Golden Bell Award for Best Host',
+      'In 2019 he was awarded a notable prize',
     ];
     for (const s of samples) {
       const anyMatch = AWARD_PATTERNS.some((p) => {
@@ -164,15 +169,19 @@ describe('raw pattern exports', () => {
     }
   });
 
-  it('NAME_NUMBER_PATTERNS matches English name + minutes', () => {
+  it('NAME_NUMBER_PATTERNS matches name + minutes', () => {
     const p = NAME_NUMBER_PATTERNS[0];
     p.lastIndex = 0;
-    expect(p.test('Jediah Coleman 在期末花了 750 分鐘')).toBe(true);
+    expect(
+      p.test('Jediah Coleman spent 750 minutes on the final project'),
+    ).toBe(true);
   });
 
-  it('COCREATOR_PATTERNS matches bare 共同創辦了', () => {
+  it('COCREATOR_PATTERNS matches bare co-founded', () => {
     const p = COCREATOR_PATTERNS[0];
     p.lastIndex = 0;
-    expect(p.test('他共同創辦了一個組織')).toBe(true);
+    expect(p.test('He co-founded an organization to support the cause.')).toBe(
+      true,
+    );
   });
 });

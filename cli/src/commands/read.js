@@ -76,20 +76,20 @@ async function findArticle(slug, articleFiles) {
  */
 function resolveLang(opts) {
   if (opts.lang) return opts.lang;
-  if (opts.en) return 'en';
+  if (opts.zhTw) return 'zh-TW';
   if (opts.ja) return 'ja';
   if (opts.es) return 'es';
-  return null; // default: zh-TW
+  return null; // default: en
 }
 
 export function readCommand(program) {
   program
     .command('read <slug>')
-    .description('Read a Taiwan.md article')
-    .option('--en', 'Read English version (shorthand for --lang en)')
+    .description('Read a LagunaBeach.md article')
+    .option('--zh-tw', 'Read zh-TW version (shorthand for --lang zh-TW)')
     .option('--ja', 'Read Japanese version (shorthand for --lang ja)')
     .option('--es', 'Read Spanish version (shorthand for --lang es)')
-    .option('--lang <code>', 'Language code: en, ja, es (default: zh-TW)')
+    .option('--lang <code>', 'Language code: zh-TW, ja, es (default: en)')
     .option('--raw', 'Output raw markdown')
     .option('--web', 'Open in browser')
     .action(async (slug, opts) => {
@@ -106,12 +106,18 @@ export function readCommand(program) {
         if (!articleFiles || articleFiles.length === 0) {
           if (lang) {
             console.log(
-              chalk.yellow(`\n  找不到「${lang}」語言版本的文章。\n`),
+              chalk.yellow(`\n  No articles found for language "${lang}".\n`),
             );
-            console.log(chalk.gray('  可用語言: en, ja, es (需要先 sync)\n'));
+            console.log(
+              chalk.gray(
+                '  Available languages: zh-TW, ja, es (run sync first)\n',
+              ),
+            );
           } else {
-            console.log(chalk.yellow('\n  知識庫尚未同步。請先執行:'));
-            console.log(chalk.cyan('  taiwanmd sync\n'));
+            console.log(
+              chalk.yellow('\n  Knowledge base not yet synced. Run:'),
+            );
+            console.log(chalk.cyan('  lagunabeachmd sync\n'));
           }
           return;
         }
@@ -119,34 +125,33 @@ export function readCommand(program) {
         const filePath = await findArticle(slug, articleFiles);
 
         if (!filePath) {
-          // If a lang was requested and not found, try falling back to zh-TW
+          // If a lang was requested and not found, try falling back to default (en)
           if (lang) {
             console.log(
               chalk.yellow(
-                `\n  找不到「${slug}」的 ${lang} 版本，嘗試中文版...\n`,
+                `\n  No ${lang} version of "${slug}" found, trying default (en)...\n`,
               ),
             );
-            const zhFiles = getArticleFiles();
-            const zhPath = await findArticle(slug, zhFiles);
-            if (!zhPath) {
-              console.log(chalk.yellow(`\n  找不到文章「${slug}」\n`));
-              console.log(chalk.gray('  💡 試試搜尋:'));
-              console.log(chalk.cyan(`  taiwanmd search ${slug}\n`));
+            const defaultFiles = getArticleFiles();
+            const defaultPath = await findArticle(slug, defaultFiles);
+            if (!defaultPath) {
+              console.log(chalk.yellow(`\n  Article not found: "${slug}"\n`));
+              console.log(chalk.gray('  💡 Try searching:'));
+              console.log(chalk.cyan(`  lagunabeachmd search ${slug}\n`));
               return;
             }
-            // Fall through with zh path
-            return await renderArticleFile(zhPath, opts);
+            return await renderArticleFile(defaultPath, opts);
           }
 
-          console.log(chalk.yellow(`\n  找不到文章「${slug}」\n`));
-          console.log(chalk.gray('  💡 試試搜尋:'));
-          console.log(chalk.cyan(`  taiwanmd search ${slug}\n`));
+          console.log(chalk.yellow(`\n  Article not found: "${slug}"\n`));
+          console.log(chalk.gray('  💡 Try searching:'));
+          console.log(chalk.cyan(`  lagunabeachmd search ${slug}\n`));
           return;
         }
 
         await renderArticleFile(filePath, opts);
       } catch (err) {
-        console.error(chalk.red(`讀取失敗: ${err.message}`));
+        console.error(chalk.red(`Read failed: ${err.message}`));
         process.exit(1);
       }
     });
@@ -159,7 +164,7 @@ async function renderArticleFile(filePath, opts) {
   const article = await readArticle(filePath);
 
   if (!article) {
-    console.log(chalk.red('\n  無法讀取文章內容。\n'));
+    console.log(chalk.red('\n  Could not read article content.\n'));
     return;
   }
 
@@ -167,7 +172,7 @@ async function renderArticleFile(filePath, opts) {
 
   // Handle --web flag: open in browser
   if (opts.web) {
-    const url = `https://taiwan.md/${fm.category}/${fm.slug}`;
+    const url = `https://lagunabeach.md/${fm.category}/${fm.slug}`;
     console.log(chalk.gray(`\n  Opening ${url} ...\n`));
     exec(`open "${url}"`);
     return;

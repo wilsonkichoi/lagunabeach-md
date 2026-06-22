@@ -14,10 +14,10 @@ import { runSync } from '../commands/sync.js';
 
 const STANDALONE_KNOWLEDGE_DIR = path.join(
   os.homedir(),
-  '.taiwanmd',
+  '.lagunabeachmd',
   'knowledge',
 );
-const STANDALONE_CACHE_DIR = path.join(os.homedir(), '.taiwanmd', 'cache');
+const STANDALONE_CACHE_DIR = path.join(os.homedir(), '.lagunabeachmd', 'cache');
 
 // CLI package root: cli/src/lib -> cli/
 import { fileURLToPath } from 'url';
@@ -79,17 +79,21 @@ export async function ensureData(options = {}) {
 
   if (!options.quiet) {
     console.log(
-      chalk.bold('\n  🌐 Taiwan.md 知識庫尚未下載，正在自動同步...\n'),
+      chalk.bold(
+        '\n  🌐 LagunaBeach.md knowledge base not found locally, syncing...\n',
+      ),
     );
-    console.log(chalk.gray('  (首次使用需要一點時間，之後會很快)\n'));
+    console.log(
+      chalk.gray('  (first run takes a moment, later runs are fast)\n'),
+    );
   }
 
   try {
     await runSync({ silent: false });
     _synced = true;
   } catch (err) {
-    console.error(chalk.red(`\n  ❌ 自動同步失敗: ${err.message}\n`));
-    console.log(chalk.gray('  請手動執行: taiwanmd sync\n'));
+    console.error(chalk.red(`\n  ❌ Auto-sync failed: ${err.message}\n`));
+    console.log(chalk.gray('  Run manually: lagunabeachmd sync\n'));
     // Don't exit — let the calling command handle missing data gracefully
   }
 }

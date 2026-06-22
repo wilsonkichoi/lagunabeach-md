@@ -36,7 +36,7 @@ function getOrganDisplay(organ) {
 export function statsCommand(program) {
   program
     .command('stats')
-    .description('Show Taiwan.md project statistics')
+    .description('Show LagunaBeach.md project statistics')
     .option('--json', 'Output as JSON')
     .action(async (opts) => {
       try {
@@ -56,8 +56,12 @@ export function statsCommand(program) {
         }
 
         if (!vitals && !organism) {
-          console.log(chalk.yellow('\n  找不到統計資料。\n'));
-          console.log(chalk.gray('  💡 請先執行 taiwanmd sync 同步知識庫。\n'));
+          console.log(chalk.yellow('\n  No statistics found.\n'));
+          console.log(
+            chalk.gray(
+              '  💡 Run lagunabeachmd sync first to sync the knowledge base.\n',
+            ),
+          );
           return;
         }
 
@@ -67,7 +71,7 @@ export function statsCommand(program) {
           return;
         }
 
-        console.log(chalk.bold('\n  📊 Taiwan.md 專案統計\n'));
+        console.log(chalk.bold('\n  📊 LagunaBeach.md project statistics\n'));
 
         // Project vitals table
         if (vitals) {
@@ -78,14 +82,14 @@ export function statsCommand(program) {
           const v = vitals;
 
           table.push([
-            chalk.gray('文章總數'),
+            chalk.gray('Total articles'),
             chalk.white(String(v.totalArticles || 0)),
           ]);
           if (v.languageCoverage) {
             const langs = Object.entries(v.languageCoverage)
               .map(([k, n]) => `${k}: ${n}`)
               .join(', ');
-            table.push([chalk.gray('語言覆蓋'), chalk.white(langs)]);
+            table.push([chalk.gray('Language coverage'), chalk.white(langs)]);
           }
           const reviewPct = v.humanReviewedPercent || 0;
           const reviewColor =
@@ -94,23 +98,26 @@ export function statsCommand(program) {
               : reviewPct >= 50
                 ? chalk.yellow
                 : chalk.red;
-          table.push([chalk.gray('人工審閱'), reviewColor(`${reviewPct}%`)]);
           table.push([
-            chalk.gray('精選文章'),
+            chalk.gray('Human reviewed'),
+            reviewColor(`${reviewPct}%`),
+          ]);
+          table.push([
+            chalk.gray('Featured articles'),
             chalk.cyan(`${v.featuredPercent || 0}%`),
           ]);
           table.push([
-            chalk.gray('平均修訂'),
+            chalk.gray('Avg. revisions'),
             chalk.white(`×${v.avgRevision || 0}`),
           ]);
           table.push([
-            chalk.gray('近 7 日新增'),
+            chalk.gray('Added in last 7 days'),
             chalk.white(String(v.articlesLast7Days || 0)),
           ]);
           if (v.lastUpdated) {
             table.push([
-              chalk.gray('最後更新'),
-              chalk.gray(new Date(v.lastUpdated).toLocaleDateString('zh-TW')),
+              chalk.gray('Last updated'),
+              chalk.gray(new Date(v.lastUpdated).toLocaleDateString('en-US')),
             ]);
           }
 
@@ -119,7 +126,7 @@ export function statsCommand(program) {
 
         // Organism health
         if (organism) {
-          console.log(chalk.bold('\n  🏥 知識庫健康度\n'));
+          console.log(chalk.bold('\n  🏥 Knowledge base health\n'));
 
           const organs = organism.organs || organism.dimensions || organism;
 
@@ -149,8 +156,12 @@ export function statsCommand(program) {
 
         console.log('');
       } catch (err) {
-        console.error(chalk.red(`統計載入失敗: ${err.message}`));
-        console.log(chalk.gray('\n  💡 請先執行 taiwanmd sync 同步知識庫。\n'));
+        console.error(chalk.red(`Failed to load stats: ${err.message}`));
+        console.log(
+          chalk.gray(
+            '\n  💡 Run lagunabeachmd sync first to sync the knowledge base.\n',
+          ),
+        );
         process.exit(1);
       }
     });

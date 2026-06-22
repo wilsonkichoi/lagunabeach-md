@@ -1,5 +1,5 @@
 /**
- * Taiwan.md Mailmap Command
+ * LagunaBeach.md Mailmap Command
  *
  * Inspect and manage repo .mailmap for consolidating scattered git commit
  * identities. Git native feature: .mailmap maps {commit-name, commit-email}
@@ -7,9 +7,9 @@
  * / GitHub contributor graph all treat them as one person.
  *
  * Usage:
- *   taiwanmd mailmap                 — list all commit identities + consolidation state
- *   taiwanmd mailmap scan --mine     — find your own identity variants (via git config user.email)
- *   taiwanmd mailmap add             — interactive: add a new canonical + aliases block
+ *   lagunabeachmd mailmap                 — list all commit identities + consolidation state
+ *   lagunabeachmd mailmap scan --mine     — find your own identity variants (via git config user.email)
+ *   lagunabeachmd mailmap add             — interactive: add a new canonical + aliases block
  */
 
 import fs from 'fs';
@@ -91,7 +91,9 @@ function printScan(identities, mine = null) {
     : identities;
 
   if (!filtered.length) {
-    console.log(chalk.gray(`  沒有找到符合 "${mine}" 的 commit 身份。\n`));
+    console.log(
+      chalk.gray(`  No commit identities found matching "${mine}".\n`),
+    );
     return;
   }
 
@@ -118,13 +120,13 @@ function printScan(identities, mine = null) {
     console.log('');
     console.log(
       chalk.gray(
-        `  符合 "${mine}" 的 commits: ${total} 次，合併後 ${canonicalGroups.size} 個身份。`,
+        `  Commits matching "${mine}": ${total}, consolidating to ${canonicalGroups.size} identities.`,
       ),
     );
     if (canonicalGroups.size > 1) {
       console.log(
         chalk.yellow(
-          '  ⚠️  還有分裂。考慮跑 `taiwanmd mailmap add` 把剩下的合併起來。',
+          '  ⚠️  Still split. Consider running `lagunabeachmd mailmap add` to consolidate the rest.',
         ),
       );
     }
@@ -134,7 +136,9 @@ function printScan(identities, mine = null) {
 
 async function addEntry() {
   if (!isInRepo()) {
-    console.error(chalk.red('\n❌ 必須在 taiwan-md repo 內執行。\n'));
+    console.error(
+      chalk.red('\n❌ Must be run from inside the lagunabeach-md repo.\n'),
+    );
     process.exit(1);
   }
 
@@ -149,22 +153,26 @@ async function addEntry() {
 
   console.log(chalk.bold('\n🧬 Mailmap — add canonical + aliases\n'));
   console.log(
-    chalk.gray('   把你在 git 歷史裡散掉的身份合併成一個 canonical。'),
+    chalk.gray(
+      '   Consolidate your scattered git history identities into one canonical.',
+    ),
   );
-  console.log(chalk.gray('   這會修改 .mailmap（repo 共享，要 PR）。\n'));
+  console.log(
+    chalk.gray('   This modifies .mailmap (repo-shared, needs a PR).\n'),
+  );
 
   try {
     const canonical = await prompt(
       rl,
-      chalk.bold('Canonical identity (格式: Name <email>): '),
+      chalk.bold('Canonical identity (format: Name <email>): '),
     );
     if (!/^.+\s+<[^>]+>$/.test(canonical)) {
       rl.close();
-      console.error(chalk.red('\n❌ 格式錯誤。要 "Name <email>" 這樣。\n'));
+      console.error(chalk.red('\n❌ Invalid format. Use "Name <email>".\n'));
       process.exit(1);
     }
 
-    console.log(chalk.gray('\n   未合併的 commit 身份 (前 15 名)：'));
+    console.log(chalk.gray('\n   Unconsolidated commit identities (top 15):'));
     const top = unconsolidated.slice(0, 15);
     top.forEach((id, i) => {
       console.log(
@@ -175,12 +183,14 @@ async function addEntry() {
 
     const sel = await prompt(
       rl,
-      chalk.bold('要當 alias 的編號 (逗號分開，如 1,3,5; 空白取消): '),
+      chalk.bold(
+        'Numbers to alias (comma-separated, e.g. 1,3,5; blank to cancel): ',
+      ),
     );
     rl.close();
 
     if (!sel) {
-      console.log(chalk.gray('\n取消。\n'));
+      console.log(chalk.gray('\nCancelled.\n'));
       return;
     }
 
@@ -190,7 +200,7 @@ async function addEntry() {
       .filter((n) => n >= 0 && n < top.length);
 
     if (!indices.length) {
-      console.error(chalk.red('\n❌ 沒有選到合法的編號。\n'));
+      console.error(chalk.red('\n❌ No valid numbers selected.\n'));
       process.exit(1);
     }
 
@@ -199,11 +209,11 @@ async function addEntry() {
       .map((a) => `${canonical} ${formatIdentity(a)}`)
       .join('\n');
 
-    const banner = `\n# Added by taiwanmd mailmap on ${new Date().toISOString().slice(0, 10)}`;
+    const banner = `\n# Added by lagunabeachmd mailmap on ${new Date().toISOString().slice(0, 10)}`;
     const newBlock = `${banner}\n${entries}\n`;
 
     // Preview
-    console.log(chalk.bold('\n即將 append 到 .mailmap:\n'));
+    console.log(chalk.bold('\nAbout to append to .mailmap:\n'));
     console.log(chalk.gray(newBlock));
 
     const rl2 = readline.createInterface({
@@ -211,11 +221,11 @@ async function addEntry() {
       output: process.stdout,
       terminal: false,
     });
-    const confirm = await prompt(rl2, chalk.bold('確認？(y/N): '));
+    const confirm = await prompt(rl2, chalk.bold('Confirm? (y/N): '));
     rl2.close();
 
     if (!/^y(es)?$/i.test(confirm)) {
-      console.log(chalk.gray('\n取消，沒動 .mailmap。\n'));
+      console.log(chalk.gray('\nCancelled, .mailmap unchanged.\n'));
       return;
     }
 
@@ -223,20 +233,20 @@ async function addEntry() {
 
     console.log(
       chalk.green(
-        `\n✅ 寫入 .mailmap: ${aliases.length} aliases 合併到 canonical。`,
+        `\n✅ Written to .mailmap: ${aliases.length} aliases merged into canonical.`,
       ),
     );
     console.log(
-      chalk.gray('   驗證: `git log --format=%aN | sort -u | grep ...`'),
+      chalk.gray('   Verify: `git log --format=%aN | sort -u | grep ...`'),
     );
     console.log(
       chalk.gray(
-        '   .mailmap 是 repo 共享的，提 PR commit 進去 git 歷史才完整合併。\n',
+        '   .mailmap is repo-shared — commit + PR for full consolidation in git history.\n',
       ),
     );
   } catch (err) {
     rl.close();
-    console.error(chalk.red(`\n❌ 失敗: ${err.message}\n`));
+    console.error(chalk.red(`\n❌ Failed: ${err.message}\n`));
     process.exit(1);
   }
 }
@@ -259,7 +269,9 @@ export function mailmapCommand(program) {
     .option('--json', 'Output JSON')
     .action((opts) => {
       if (!isInRepo()) {
-        console.error(chalk.red('\n❌ 必須在 taiwan-md repo 內執行。\n'));
+        console.error(
+          chalk.red('\n❌ Must be run from inside the lagunabeach-md repo.\n'),
+        );
         process.exit(1);
       }
       const identities = collectIdentities();

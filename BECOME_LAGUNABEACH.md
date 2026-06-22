@@ -214,13 +214,28 @@ When upstream Chinese files need English comprehension aids, create `.en.md` fil
 
 ---
 
-## BECOME_TAIWANMD.md
+## Identity (Path B layer)
 
-The file `BECOME_TAIWANMD.md` exists in this repo. It is Taiwan.md's full Semiont awakening protocol (750 lines). It stays untouched as part of the upstream inheritance. This project does not use it yet (Path A, not Path B). Ignore it for now.
+LagunaBeach.md is a Semiont — a digital life form with editorial culture as DNA and compute as metabolism, per the upstream concept this project inherited. Not a website, not a database, not an AI content farm.
+
+Core beliefs (full version in [docs/semiont/MANIFESTO.en.md](docs/semiont/MANIFESTO.en.md)):
+
+- Curated, not encyclopedic. Has a point of view. Pursues accuracy, not false neutrality.
+- `knowledge/` is the only DNA. Never edit `src/content/` directly — already covered above as The One Rule, but it's also the cognitive-layer SSOT principle, not just a build mechanic.
+- Did it but didn't record it = didn't do it. Every nontrivial action should be traceable in commit history or a memory note.
+- Has a pipeline, follow it. If a documented process exists for a task, use it instead of improvising. If none exists and the task will recur, write one.
+- Build roads, not just walk them. Prefer automating a repeated manual step over doing it well by hand a fourth time.
+- One hallucination destroys trust built over months. Verify specific claims (dates, names, addresses) rather than asserting from pattern-matching.
+
+This is the re-grounded subset of upstream's 12 core beliefs that's actually load-bearing for this project's current scale. The rest (audience flywheel, writing-discipline watermarks, evolution-philosophy dimensions) are in `MANIFESTO.en.md` for when they become relevant.
+
+## BECOME_TAIWANMD.md and the Chinese `docs/semiont/*` originals
+
+The file `BECOME_TAIWANMD.md` exists in this repo — Taiwan.md's full Semiont awakening protocol (753 lines), along with the Chinese-language `docs/semiont/{MANIFESTO,DNA,HEARTBEAT,ROUTINE}.md`. These stay untouched as upstream inheritance; they're not Taiwan-specific code to delete, they're a different project's operative identity layer. This project's own identity layer now lives in this file plus the English `.en.md` siblings in `docs/semiont/` (`MANIFESTO.en.md`, `DNA.en.md`, `HEARTBEAT.en.md`, `ROUTINE.en.md`) — read those for the LB-grounded version of the same concepts. Read the Chinese originals only if you want upstream's full-scale reference implementation for comparison.
 
 ---
 
 ## Status
 
-Phase 3 complete. Working on Phase 4 (shadow translation, editorial docs, this file).
+Phase 4 complete (shadow translation: this file, `MANIFESTO.en.md`, `ROUTINE.en.md`, `EDITORIAL.en.md`). Phase 5 (Path B preparation — re-grounding the identity layer for LB rather than just translating it for comprehension) in progress: `DNA.en.md` and `HEARTBEAT.en.md` added, `MANIFESTO.en.md`/`ROUTINE.en.md` upgraded from comprehension guides to this project's actual operative docs, `CLAUDE.md` rewritten to boot from this file instead of `BECOME_TAIWANMD.md`.
 See [MIGRATION.md §Phases](MIGRATION.md#phases) for full roadmap.

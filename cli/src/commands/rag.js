@@ -1,13 +1,13 @@
 /**
- * Taiwan.md RAG Command
+ * LagunaBeach.md RAG Command
  *
  * Retrieval-Augmented Generation helper: searches for top-N articles
  * and outputs them in a prompt-ready format for piping to LLMs.
  *
  * Usage:
- *   taiwanmd rag "半導體產業" | llm "summarize"
- *   taiwanmd rag "台灣經濟" --limit 1 --json
- *   taiwanmd rag "原住民文化" --no-prompt
+ *   lagunabeachmd rag "Pageant of the Masters" | llm "summarize"
+ *   lagunabeachmd rag "Main Beach history" --limit 1 --json
+ *   lagunabeachmd rag "tide pools" --no-prompt
  */
 
 import path from 'path';
@@ -51,7 +51,7 @@ function loadArticleBody(result) {
     title: result.title,
     category: result.category,
     slug: result.slug || '',
-    body: result.description || '(文章內容無法載入)',
+    body: result.description || '(article content could not be loaded)',
   };
 }
 
@@ -106,7 +106,7 @@ export function ragCommand(program) {
 
         // ── Markdown / prompt-ready output ───────────────────────────────────
         const lines = [];
-        lines.push('# Taiwan Knowledge Context');
+        lines.push('# Laguna Beach Knowledge Context');
         lines.push('');
 
         articles.forEach((a, i) => {
@@ -120,7 +120,7 @@ export function ragCommand(program) {
 
         if (includePrompt) {
           lines.push(
-            'Based on the above context about Taiwan, answer the following question:',
+            'Based on the above context about Laguna Beach, answer the following question:',
           );
           lines.push(query);
         }

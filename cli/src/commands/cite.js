@@ -1,5 +1,5 @@
 /**
- * Taiwan.md Cite Command — Anti-hallucination claim lookup
+ * LagunaBeach.md Cite Command — Anti-hallucination claim lookup
  *
  * Returns verified claims + source URLs instead of generated sentences.
  * Complements `rag` (which returns full article body) with surgical per-claim
@@ -12,9 +12,9 @@
  *   4. Return structured claim list
  *
  * Usage:
- *   taiwanmd cite "珍珠奶茶發明年份"
- *   taiwanmd cite "台積電 3nm" --limit 5
- *   taiwanmd cite "原住民族" --json
+ *   lagunabeachmd cite "when was Heisler Park built"
+ *   lagunabeachmd cite "Pageant of the Masters" --limit 5
+ *   lagunabeachmd cite "tide pools" --json
  */
 
 import path from 'path';
@@ -99,7 +99,7 @@ export function citeCommand(program) {
         // Stage 1: search returns top articles
         const hits = await searchArticles(query, { limit: 10 });
         if (!hits || hits.length === 0) {
-          const msg = `找不到相關文章: "${query}"`;
+          const msg = `No matching articles found: "${query}"`;
           if (opts.json)
             console.log(
               JSON.stringify({ error: msg, query, claims: [] }, null, 2),

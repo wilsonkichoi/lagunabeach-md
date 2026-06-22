@@ -2,8 +2,13 @@
 title: 'Plein Air Painting'
 description: "Laguna Beach's identity as an art colony was built on painters working outdoors in the coastal light."
 date: 2026-06-19
-tags: [art, plein-air, painting, history, artists-colony]
-category: Art & Galleries
+category: 'Art & Galleries'
+tags: ['art', 'plein-air', 'painting', 'history', 'artists-colony']
+subcategory: 'Painting Traditions'
+author: 'LagunaBeach.md'
+featured: false
+lastVerified: 2026-06-19
+lastHumanReview: false
 source:
   - https://lagunaartmuseum.org/
   - https://en.wikipedia.org/wiki/California_plein_air_painting

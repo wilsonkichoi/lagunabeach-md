@@ -1,5 +1,5 @@
 /**
- * Taiwan.md Terminal Rendering
+ * LagunaBeach.md Terminal Rendering
  *
  * Renders markdown and article metadata for terminal display
  * using chalk and marked-terminal.
@@ -17,37 +17,29 @@ marked.use(markedTerminal());
  */
 export const categoryEmoji = {
   history: '\u{1F4DC}',
-  geography: '\u{1F5FA}\uFE0F',
-  culture: '\u{1F3AD}',
+  'art-galleries': '\u{1F3A8}',
+  'nature-marine-life': '\u{1F33F}',
   food: '\u{1F9CB}',
-  art: '\u{1F3A8}',
-  music: '\u{1F3B5}',
-  technology: '\u{1F4BB}',
-  nature: '\u{1F33F}',
-  people: '\u{1F464}',
-  society: '\u{1F3DB}\uFE0F',
-  economy: '\u{1F4B0}',
-  lifestyle: '\u{1F3D9}\uFE0F',
+  beaches: '\u{1F3D6}\uFE0F',
+  trails: '\u{1F95E}',
+  'events-festivals': '\u{1F3AA}',
+  neighborhoods: '\u{1F3E1}',
   about: '\u2139\uFE0F',
 };
 
 /**
- * Category to Chinese label mapping
+ * Category to display label mapping
  */
 export const categoryLabel = {
-  history: '\u6B77\u53F2',
-  geography: '\u5730\u7406',
-  culture: '\u6587\u5316',
-  food: '\u7F8E\u98DF',
-  art: '\u85DD\u8853',
-  music: '\u97F3\u6A02',
-  technology: '\u79D1\u6280',
-  nature: '\u81EA\u7136',
-  people: '\u4EBA\u7269',
-  society: '\u793E\u6703',
-  economy: '\u7D93\u6FDF',
-  lifestyle: '\u751F\u6D3B',
-  about: '\u95DC\u65BC',
+  history: 'History',
+  'art-galleries': 'Art & Galleries',
+  'nature-marine-life': 'Nature & Marine Life',
+  food: 'Food',
+  beaches: 'Beaches',
+  trails: 'Trails',
+  'events-festivals': 'Events & Festivals',
+  neighborhoods: 'Neighborhoods',
+  about: 'About',
 };
 
 /**

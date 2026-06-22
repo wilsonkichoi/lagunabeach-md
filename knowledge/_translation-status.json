@@ -1,48 +1,48 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-20T05:53:33-07:00",
-    "zhCommitHead": "b2a74377c",
-    "totalZh": 15,
+    "lastUpdated": "2026-06-21T22:40:35-07:00",
+    "zhCommitHead": "ac5c4d766",
+    "totalZh": 18,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
-        "total_zh": 15,
+        "total_zh": 18,
         "fresh": 0,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 15,
+        "missing": 18,
         "orphan": 0
       },
       "ja": {
-        "total_zh": 15,
+        "total_zh": 18,
         "fresh": 0,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 15,
+        "missing": 18,
         "orphan": 0
       },
       "ko": {
-        "total_zh": 15,
+        "total_zh": 18,
         "fresh": 0,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 15,
+        "missing": 18,
         "orphan": 0
       },
       "es": {
-        "total_zh": 15,
+        "total_zh": 18,
         "fresh": 0,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 15,
+        "missing": 18,
         "orphan": 0
       },
       "fr": {
-        "total_zh": 15,
+        "total_zh": 18,
         "fresh": 0,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 15,
+        "missing": 18,
         "orphan": 0
       }
     },
@@ -57,8 +57,8 @@
   "byArticle": {
     "Trails/top-of-the-world.md": {
       "zh": {
-        "lastCommit": "eac448e9",
-        "lastModified": "2026-06-20T02:36:05-07:00",
+        "lastCommit": "808b0d1e",
+        "lastModified": "2026-06-21T15:56:49-07:00",
         "contentHash": "sha256:a50c01cf4c6991e9",
         "bodyHash": "sha256:4f07e4b8901acd5a"
       },
@@ -82,10 +82,10 @@
     },
     "Trails/laguna-coast-wilderness-park.md": {
       "zh": {
-        "lastCommit": "eac448e9",
-        "lastModified": "2026-06-20T02:36:05-07:00",
-        "contentHash": "sha256:de2adae98cd9a702",
-        "bodyHash": "sha256:27bd93e823712c86"
+        "lastCommit": "808b0d1e",
+        "lastModified": "2026-06-21T15:56:49-07:00",
+        "contentHash": "sha256:5f04f69cd84a28ae",
+        "bodyHash": "sha256:57db4e4a82ce28f3"
       },
       "translations": {
         "en": {
@@ -107,8 +107,8 @@
     },
     "Neighborhoods/the-village.md": {
       "zh": {
-        "lastCommit": "eac448e9",
-        "lastModified": "2026-06-20T02:36:05-07:00",
+        "lastCommit": "808b0d1e",
+        "lastModified": "2026-06-21T15:56:49-07:00",
         "contentHash": "sha256:093e9d2e0aa03704",
         "bodyHash": "sha256:73f8bfd73c94ec62"
       },
@@ -132,10 +132,10 @@
     },
     "Neighborhoods/south-laguna.md": {
       "zh": {
-        "lastCommit": "eac448e9",
-        "lastModified": "2026-06-20T02:36:05-07:00",
-        "contentHash": "sha256:7e6877a8a62d8a5b",
-        "bodyHash": "sha256:38e6cf2a2757d620"
+        "lastCommit": "808b0d1e",
+        "lastModified": "2026-06-21T15:56:49-07:00",
+        "contentHash": "sha256:3a31efd9780857bb",
+        "bodyHash": "sha256:6f3aefcda0137c49"
       },
       "translations": {
         "en": {
@@ -157,8 +157,8 @@
     },
     "Beaches/thousand-steps-beach.md": {
       "zh": {
-        "lastCommit": "eac448e9",
-        "lastModified": "2026-06-20T02:36:05-07:00",
+        "lastCommit": "808b0d1e",
+        "lastModified": "2026-06-21T15:56:49-07:00",
         "contentHash": "sha256:42a067475faab272",
         "bodyHash": "sha256:3ef75298c7927139"
       },
@@ -182,10 +182,10 @@
     },
     "Beaches/victoria-beach.md": {
       "zh": {
-        "lastCommit": "eac448e9",
-        "lastModified": "2026-06-20T02:36:05-07:00",
-        "contentHash": "sha256:024275b484320452",
-        "bodyHash": "sha256:710ed20a87d59938"
+        "lastCommit": "808b0d1e",
+        "lastModified": "2026-06-21T15:56:49-07:00",
+        "contentHash": "sha256:d77f395381de7306",
+        "bodyHash": "sha256:1d18341a43a69e79"
       },
       "translations": {
         "en": {
@@ -207,8 +207,8 @@
     },
     "Art & Galleries/plein-air-painting.md": {
       "zh": {
-        "lastCommit": "eac448e9",
-        "lastModified": "2026-06-20T02:36:05-07:00",
+        "lastCommit": "808b0d1e",
+        "lastModified": "2026-06-21T15:56:49-07:00",
         "contentHash": "sha256:58a3e4cdba60ed2a",
         "bodyHash": "sha256:d2397dcf7288e4b6"
       },
@@ -232,10 +232,85 @@
     },
     "Art & Galleries/laguna-art-museum.md": {
       "zh": {
-        "lastCommit": "eac448e9",
-        "lastModified": "2026-06-20T02:36:05-07:00",
-        "contentHash": "sha256:41c445c379bf7e93",
-        "bodyHash": "sha256:17cefc70390b95e2"
+        "lastCommit": "808b0d1e",
+        "lastModified": "2026-06-21T15:56:49-07:00",
+        "contentHash": "sha256:62a3585720481a5d",
+        "bodyHash": "sha256:234686e64a180c9a"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
+    "About/lagunabeach-md.md": {
+      "zh": {
+        "lastCommit": "c8caf2c3",
+        "lastModified": "2026-06-20T08:31:36-07:00",
+        "contentHash": "sha256:385c3dc14eb06999",
+        "bodyHash": "sha256:128eb9e06f269049"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
+    "About/how-an-article-is-born.md": {
+      "zh": {
+        "lastCommit": "c8caf2c3",
+        "lastModified": "2026-06-20T08:31:36-07:00",
+        "contentHash": "sha256:cf9bef295cb94620",
+        "bodyHash": "sha256:7eb7fea54dde4747"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
+    "About/visualization-catalog.md": {
+      "zh": {
+        "lastCommit": "c8caf2c3",
+        "lastModified": "2026-06-20T08:31:36-07:00",
+        "contentHash": "sha256:86543a85085b5502",
+        "bodyHash": "sha256:6da2710b95d647d8"
       },
       "translations": {
         "en": {
@@ -257,10 +332,10 @@
     },
     "Events & Festivals/pageant-of-the-masters.md": {
       "zh": {
-        "lastCommit": "eac448e9",
-        "lastModified": "2026-06-20T02:36:05-07:00",
-        "contentHash": "sha256:9e012c4366eb1a21",
-        "bodyHash": "sha256:faae0ca5daaa6cc6"
+        "lastCommit": "808b0d1e",
+        "lastModified": "2026-06-21T15:56:49-07:00",
+        "contentHash": "sha256:32eabf9775b69557",
+        "bodyHash": "sha256:acf10362fb6eac4b"
       },
       "translations": {
         "en": {
@@ -282,10 +357,10 @@
     },
     "Events & Festivals/sawdust-art-festival.md": {
       "zh": {
-        "lastCommit": "eac448e9",
-        "lastModified": "2026-06-20T02:36:05-07:00",
-        "contentHash": "sha256:d818ac299a28e281",
-        "bodyHash": "sha256:a39b3d9cd1531b81"
+        "lastCommit": "808b0d1e",
+        "lastModified": "2026-06-21T15:56:49-07:00",
+        "contentHash": "sha256:111da02596963cc0",
+        "bodyHash": "sha256:3944680f652fa399"
       },
       "translations": {
         "en": {
@@ -307,8 +382,8 @@
     },
     "Food/the-cliff-restaurant.md": {
       "zh": {
-        "lastCommit": "eac448e9",
-        "lastModified": "2026-06-20T02:36:05-07:00",
+        "lastCommit": "808b0d1e",
+        "lastModified": "2026-06-21T15:56:49-07:00",
         "contentHash": "sha256:1d200047799b74b7",
         "bodyHash": "sha256:c2b232850ea59de8"
       },
@@ -332,10 +407,10 @@
     },
     "History/the-1993-firestorm.md": {
       "zh": {
-        "lastCommit": "eac448e9",
-        "lastModified": "2026-06-20T02:36:05-07:00",
-        "contentHash": "sha256:835b45279795581a",
-        "bodyHash": "sha256:7448bfd74c9181a7"
+        "lastCommit": "808b0d1e",
+        "lastModified": "2026-06-21T15:56:49-07:00",
+        "contentHash": "sha256:bc52a5c60f6ad89c",
+        "bodyHash": "sha256:8d3555067fc6ccd4"
       },
       "translations": {
         "en": {
@@ -357,10 +432,10 @@
     },
     "History/founding-and-early-history.md": {
       "zh": {
-        "lastCommit": "eac448e9",
-        "lastModified": "2026-06-20T02:36:05-07:00",
-        "contentHash": "sha256:172945b30c85d470",
-        "bodyHash": "sha256:47ac9455a844fef1"
+        "lastCommit": "808b0d1e",
+        "lastModified": "2026-06-21T15:56:49-07:00",
+        "contentHash": "sha256:637d5ca653855289",
+        "bodyHash": "sha256:47496e50f7e701a5"
       },
       "translations": {
         "en": {
@@ -382,10 +457,10 @@
     },
     "Nature & Marine Life/tide-pools.md": {
       "zh": {
-        "lastCommit": "eac448e9",
-        "lastModified": "2026-06-20T02:36:05-07:00",
-        "contentHash": "sha256:d55fa6411b2e1de9",
-        "bodyHash": "sha256:f3a550a521b145a5"
+        "lastCommit": "808b0d1e",
+        "lastModified": "2026-06-21T15:56:49-07:00",
+        "contentHash": "sha256:a06fb9bd546102f1",
+        "bodyHash": "sha256:5aeca7c6f46f7b7b"
       },
       "translations": {
         "en": {
@@ -407,10 +482,10 @@
     },
     "Nature & Marine Life/whale-watching.md": {
       "zh": {
-        "lastCommit": "eac448e9",
-        "lastModified": "2026-06-20T02:36:05-07:00",
-        "contentHash": "sha256:9191ae0a57b49905",
-        "bodyHash": "sha256:e8475fdb5364764f"
+        "lastCommit": "808b0d1e",
+        "lastModified": "2026-06-21T15:56:49-07:00",
+        "contentHash": "sha256:abd83075ac5315f0",
+        "bodyHash": "sha256:64f8a05d24758632"
       },
       "translations": {
         "en": {

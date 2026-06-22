@@ -1,16 +1,19 @@
 """format_structure — markdown structure / format validation.
 
-Migrated from `scripts/tools/format-check.sh` (7 dimensions). Covers the
-ones that are pure single-file checks. Cross-link reverse-link analysis
-(dim 7) is deferred — it requires reading multiple articles and is in
-practice a Stage 5 manual review.
+Ported from Taiwan.md. Note: dimensions 1, 2, and 6 (Further Reading,
+References H2, overview blockquote) check for editorial conventions now
+canonical in docs/editorial/EDITORIAL.en.md §structure / §at a glance /
+§citation (localized 2026-06-21). 0/18 LagunaBeach.md articles adopt them
+yet — retrofitting the existing corpus is a separate, larger task than the
+EDITORIAL.en.md localization itself, so these stay WARN soft-launch until
+that retrofit happens.
 
 Dimensions ported:
-  1. 延伸閱讀 section presence — WARN
-  2. ## 參考資料 H2 presence — WARN (when footnotes exist)
+  1. Further Reading section presence — WARN
+  2. ## References H2 presence — WARN (when footnotes exist)
   4. broken inline `[link](url)` (no http/https) — WARN
-  5. `[[wikilink]]` 殘留 in list items — HARD (Astro doesn't render)
-  6. 30 秒概覽 blockquote presence — WARN
+  5. `[[wikilink]]` residue in list items — HARD (Astro doesn't render)
+  6. "At a glance" overview blockquote presence — WARN
 
 Deferred:
   3. footnote format (handled by `footnote_format` plugin)
@@ -27,19 +30,19 @@ from ..types import FileTarget, Severity, Violation
 CHECK_NAME = "format-structure"
 DIMENSION = "structure"
 DEFAULT_SEVERITY = Severity.WARN
-EDITORIAL_REF = "EDITORIAL.md §三 + REWRITE-PIPELINE Stage 4"
-APPLIES_TO = ["zh-TW"]
+EDITORIAL_REF = "EDITORIAL.en.md §structure"
+APPLIES_TO = ["en"]
 
-# 延伸閱讀 markers (canonical accepted): `## 延伸閱讀` or `**延伸閱讀**：`
+# Further Reading markers (canonical accepted): `## Further Reading` or `**Further Reading**:`
 _RE_FURTHER_READING = re.compile(
-    r"^(?:##\s*延伸閱讀|\*\*延伸閱讀\*\*\s*[：:])", re.MULTILINE
+    r"^(?:##\s*Further Reading|\*\*Further Reading\*\*\s*:)", re.MULTILINE | re.IGNORECASE
 )
-_RE_REFERENCES_H2 = re.compile(r"^##\s*參考資料", re.MULTILINE)
+_RE_REFERENCES_H2 = re.compile(r"^##\s*References", re.MULTILINE | re.IGNORECASE)
 # Accept both:
-#   > **30 秒概覽**: 內文       (colon outside bold)
-#   > **30 秒概覽：** 內文       (colon inside bold — common in real articles)
+#   > **At a glance**: body      (colon outside bold)
+#   > **At a glance:** body      (colon inside bold)
 _RE_OVERVIEW_BLOCKQUOTE = re.compile(
-    r"^>\s*\*\*30\s*秒概覽[：:]?\*\*", re.MULTILINE
+    r"^>\s*\*\*At a glance[:]?\*\*", re.MULTILINE | re.IGNORECASE
 )
 _RE_LIST_WIKILINK = re.compile(
     r"^(?:\s*[-*+]\s+)\[\[", re.MULTILINE
@@ -64,31 +67,31 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
     has_fn_uses = bool(_RE_FOOTNOTE_REF_USE.search(body))
     has_fn_defs = bool(_RE_FOOTNOTE_DEF.search(body))
 
-    # 1. 30 秒概覽 missing
+    # 1. "At a glance" overview missing
     if not has_overview:
         yield Violation(
             check=CHECK_NAME,
             severity=Severity.WARN,
-            message="缺 `> **30 秒概覽**:` blockquote (EDITORIAL §30 秒概覽)",
-            editorial_ref="EDITORIAL.md §30 秒概覽",
+            message="Missing `> **At a glance:**` blockquote",
+            editorial_ref="EDITORIAL.en.md §at a glance",
         )
 
-    # 2. 延伸閱讀 missing (only flag for substantive articles)
+    # 2. Further Reading missing (only flag for substantive articles)
     if not has_further and len(body) > 1500:
         yield Violation(
             check=CHECK_NAME,
             severity=Severity.WARN,
-            message="缺延伸閱讀 section (`## 延伸閱讀` 或 `**延伸閱讀**:`)",
-            editorial_ref="EDITORIAL.md §三",
+            message="Missing Further Reading section (`## Further Reading` or `**Further Reading**:`)",
+            editorial_ref="EDITORIAL.en.md §structure",
         )
 
-    # 3. 參考資料 H2 missing despite footnotes used / defined
+    # 3. References H2 missing despite footnotes used / defined
     if (has_fn_uses or has_fn_defs) and not has_refs_h2:
         yield Violation(
             check=CHECK_NAME,
             severity=Severity.WARN,
-            message="使用了腳註但缺 `## 參考資料` H2",
-            editorial_ref="EDITORIAL.md §citation",
+            message="Footnotes used but missing `## References` H2",
+            editorial_ref="EDITORIAL.en.md §citation",
         )
 
     # 4. List items containing raw [[wikilink]] (HARD — Astro won't render)
@@ -103,12 +106,12 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             check=CHECK_NAME,
             severity=Severity.HARD,
             message=(
-                "列表項目中有 `[[wikilink]]` 殘留 — Astro 不會渲染，"
-                "請改 `[文字](/category/slug)`"
+                "List item contains raw `[[wikilink]]` residue — Astro won't render it, "
+                "rewrite as `[text](/category/slug)`"
             ),
             line=line_no,
             snippet=snippet,
-            editorial_ref="EDITORIAL.md §wikilink",
+            editorial_ref="EDITORIAL.en.md §wikilink",
         )
 
     # 5. Footnote ref count vs def count parity
@@ -118,18 +121,18 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
         yield Violation(
             check=CHECK_NAME,
             severity=Severity.HARD,
-            message=f"使用了 {use_count} 個腳註 ref `[^N]` 但無 `[^N]:` 定義",
-            editorial_ref="EDITORIAL.md §citation",
+            message=f"Uses {use_count} footnote ref(s) `[^N]` but has no `[^N]:` definitions",
+            editorial_ref="EDITORIAL.en.md §citation",
         )
 
 
 def fix(target: FileTarget, config: dict[str, Any]) -> int:
-    """Auto-fix list-wikilink residuals — convert `- [[X]]` → `- X` (plain
-    text). 2026-05-04 cleanup: Astro doesn't render `[[X]]` in lists, so the
-    safe transform is to extract the display text. If `[[X|Y]]` syntax,
-    use Y; otherwise use X. We don't try to resolve to `/cat/slug` because
-    that's wikilink-target's domain — list-wikilink residuals here are
-    formatting drift, the target may or may not exist.
+    """Auto-fix list-wikilink residuals — convert `- [[X]]` to `- X` (plain
+    text). Astro doesn't render `[[X]]` in lists, so the safe transform is
+    to extract the display text. If `[[X|Y]]` syntax, use Y; otherwise use
+    X. We don't try to resolve to `/cat/slug` because that's
+    wikilink-target's domain — list-wikilink residuals here are formatting
+    drift, the target may or may not exist.
 
     Returns number of list-wikilink rewrites. Respects config['dry_run'].
     """

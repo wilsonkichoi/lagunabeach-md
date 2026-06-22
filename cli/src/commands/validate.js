@@ -1,13 +1,13 @@
 /**
- * Taiwan.md Validate Command
+ * LagunaBeach.md Validate Command
  *
  * Quality checker for a single article.
  * Outputs a score card with detailed checks.
  *
  * Usage:
- *   taiwanmd validate 珍珠奶茶
- *   taiwanmd validate 台灣小吃 --json
- *   taiwanmd validate 台積電 --fix
+ *   lagunabeachmd validate main-beach
+ *   lagunabeachmd validate pageant-of-the-masters --json
+ *   lagunabeachmd validate heisler-park --fix
  */
 
 import fs from 'fs';
@@ -18,14 +18,35 @@ import { ensureData } from '../lib/ensure-data.js';
 
 // ── AI hollow phrase patterns ────────────────────────────────────────────────
 const HOLLOW_PATTERNS = [
-  { pattern: /不僅[^，。]{0,20}更是/g, label: '"不僅...更是" 句型' },
-  { pattern: /扮演著重要角色/g, label: '"扮演著重要角色"' },
-  { pattern: /不可或缺的一環/g, label: '"不可或缺的一環"' },
-  { pattern: /具有重要意義/g, label: '"具有重要意義"' },
-  { pattern: /發揮著重要作用/g, label: '"發揮著重要作用"' },
-  { pattern: /值得我們深思/g, label: '"值得我們深思"' },
-  { pattern: /不容忽視/g, label: '"不容忽視"' },
-  { pattern: /不斷[^，。]{0,10}進步/g, label: '"不斷...進步" 陳詞' },
+  {
+    pattern: /plays? an? (vital|important|key|crucial) role/gi,
+    label: '"plays a vital role"',
+  },
+  {
+    pattern: /stands? as a (testament|symbol) to/gi,
+    label: '"stands as a testament to"',
+  },
+  {
+    pattern: /(is|remains) an? (integral|essential|indispensable) part of/gi,
+    label: '"an integral part of"',
+  },
+  { pattern: /in (today's|the modern) world/gi, label: '"in today\'s world"' },
+  {
+    pattern: /(it'?s|it is) worth noting that/gi,
+    label: '"it\'s worth noting that"',
+  },
+  {
+    pattern: /serves as a (reminder|symbol) of/gi,
+    label: '"serves as a reminder of"',
+  },
+  {
+    pattern: /continues to (evolve|grow|thrive)/gi,
+    label: '"continues to evolve"',
+  },
+  {
+    pattern: /rich (history|cultural heritage|tapestry)/gi,
+    label: '"rich history/tapestry" cliché',
+  },
 ];
 
 // Minimum word count to pass
@@ -93,14 +114,14 @@ function runChecks(frontmatter, body) {
     id: 'frontmatter',
     pass: fmPass,
     warn: !fmPass,
-    label: 'Frontmatter 完整',
+    label: 'Frontmatter complete',
     detail: `${fmScore}/${fmFields.length}`,
     missing: fmFields.filter((f) => !fmPresent.includes(f)),
     points: fmPass ? 20 : Math.floor((fmScore / fmFields.length) * 20),
     maxPoints: 20,
     fix: fmPass
       ? null
-      : `補齊缺少的欄位: ${fmFields.filter((f) => !fmPresent.includes(f)).join(', ')}`,
+      : `Fill in missing fields: ${fmFields.filter((f) => !fmPresent.includes(f)).join(', ')}`,
   });
 
   // ── 2. Word count ────────────────────────────────────────────────────────
@@ -110,13 +131,13 @@ function runChecks(frontmatter, body) {
     id: 'wordcount',
     pass: wcPass,
     warn: !wcPass,
-    label: '字數充足',
-    detail: `${wordCount.toLocaleString()} 字`,
+    label: 'Word count sufficient',
+    detail: `${wordCount.toLocaleString()} words`,
     points: wcPass ? 20 : Math.floor((wordCount / MIN_WORD_COUNT) * 20),
     maxPoints: 20,
     fix: wcPass
       ? null
-      : `文章目前 ${wordCount} 字，建議至少 ${MIN_WORD_COUNT} 字。請擴充各段落內容。`,
+      : `Article is currently ${wordCount} words; aim for at least ${MIN_WORD_COUNT}. Expand each section.`,
   });
 
   // ── 3. Headings ──────────────────────────────────────────────────────────
@@ -127,13 +148,13 @@ function runChecks(frontmatter, body) {
     id: 'headings',
     pass: headingPass,
     warn: !headingPass,
-    label: '標題數充足',
-    detail: `${headingCount} 個, 建議 ≥${MIN_HEADINGS}`,
+    label: 'Heading count sufficient',
+    detail: `${headingCount}, recommend ≥${MIN_HEADINGS}`,
     points: headingPass ? 20 : Math.floor((headingCount / MIN_HEADINGS) * 20),
     maxPoints: 20,
     fix: headingPass
       ? null
-      : `增加 ## 二級標題，建議加入: 概述、歷史背景、當代發展、國際比較、參考資料`,
+      : `Add more ## sections — consider: Overview, History, Today, See Also, References`,
   });
 
   // ── 4. Reference links ───────────────────────────────────────────────────
@@ -144,13 +165,13 @@ function runChecks(frontmatter, body) {
     id: 'references',
     pass: refPass,
     warn: !refPass,
-    label: '參考資料',
-    detail: `${refCount} 個來源`,
+    label: 'References',
+    detail: `${refCount} source(s)`,
     points: refPass ? 20 : Math.floor((refCount / MIN_REFERENCES) * 20),
     maxPoints: 20,
     fix: refPass
       ? null
-      : `新增至少 ${MIN_REFERENCES} 個 Markdown 格式的參考連結，例如: [來源名稱](https://example.com)`,
+      : `Add at least ${MIN_REFERENCES} Markdown reference links, e.g. [Source name](https://example.com)`,
   });
 
   // ── 5. AI hollow phrases ─────────────────────────────────────────────────
@@ -167,14 +188,14 @@ function runChecks(frontmatter, body) {
     id: 'hollow',
     pass: hollowPass,
     warn: !hollowPass,
-    label: 'AI 空洞句式',
-    detail: hollowPass ? '無' : `${hollowTotal} 處`,
+    label: 'AI hollow phrasing',
+    detail: hollowPass ? 'none' : `${hollowTotal} instance(s)`,
     found: foundHollow,
     points: hollowPass ? 10 : Math.max(0, 10 - hollowTotal * 3),
     maxPoints: 10,
     fix: hollowPass
       ? null
-      : `移除或改寫以下句式: ${foundHollow.map((h) => h.label).join('、')}`,
+      : `Remove or rewrite: ${foundHollow.map((h) => h.label).join(', ')}`,
   });
 
   // ── 6. Description length ────────────────────────────────────────────────
@@ -185,20 +206,20 @@ function runChecks(frontmatter, body) {
     id: 'description',
     pass: descPass,
     warn: descWarn,
-    label: '描述長度',
+    label: 'Description length',
     detail:
       descLen === 0
-        ? '缺少描述'
-        : `${descLen} 字${descPass ? '，適中' : descLen < DESC_MIN ? '，過短' : '，過長'}`,
+        ? 'missing description'
+        : `${descLen} chars${descPass ? ', good' : descLen < DESC_MIN ? ', too short' : ', too long'}`,
     points: descPass ? 10 : descLen === 0 ? 0 : 5,
     maxPoints: 10,
     fix: descPass
       ? null
       : descLen === 0
-        ? '新增 description 欄位，建議 50-200 字的摘要'
+        ? 'Add a description field — aim for a 50-200 character summary'
         : descLen < DESC_MIN
-          ? `描述過短 (${descLen} 字)，請擴充至 ${DESC_MIN}-${DESC_MAX} 字`
-          : `描述過長 (${descLen} 字)，請精簡至 ${DESC_MAX} 字以內`,
+          ? `Description too short (${descLen} chars) — expand to ${DESC_MIN}-${DESC_MAX} chars`
+          : `Description too long (${descLen} chars) — trim to ${DESC_MAX} chars or fewer`,
   });
 
   // Calculate total score
@@ -213,9 +234,9 @@ function runChecks(frontmatter, body) {
  */
 function scoreTier(score, total) {
   const pct = (score / total) * 100;
-  if (pct >= 90) return { emoji: '🟢', label: '優秀' };
-  if (pct >= 70) return { emoji: '🟡', label: '需要改善' };
-  return { emoji: '🔴', label: '需要大幅改善' };
+  if (pct >= 90) return { emoji: '🟢', label: 'Excellent' };
+  if (pct >= 70) return { emoji: '🟡', label: 'Needs improvement' };
+  return { emoji: '🔴', label: 'Needs major rework' };
 }
 
 export function validateCommand(program) {
@@ -230,7 +251,7 @@ export function validateCommand(program) {
 
         const filePath = findArticleBySlug(slug);
         if (!filePath) {
-          const msg = `找不到文章: "${slug}"。請確認 slug 正確，或先執行 taiwanmd sync。`;
+          const msg = `Article not found: "${slug}". Check the slug, or run lagunabeachmd sync first.`;
           if (opts.json) {
             console.log(JSON.stringify({ error: msg }, null, 2));
           } else {
@@ -275,7 +296,7 @@ export function validateCommand(program) {
         // ── Human-readable score card ──────────────────────────────────────
         console.log('');
         console.log(
-          chalk.bold(`📋 文章品質檢查: ${frontmatter.title || slug}`),
+          chalk.bold(`📋 Quality check: ${frontmatter.title || slug}`),
         );
         console.log('');
 
@@ -292,14 +313,14 @@ export function validateCommand(program) {
 
         console.log('');
         const tierStr = `${tier.emoji} ${tier.label}`;
-        console.log(chalk.bold(`總分: ${score}/${total} — ${tierStr}`));
+        console.log(chalk.bold(`Score: ${score}/${total} — ${tierStr}`));
         console.log('');
 
         if (!opts.fix && checks.some((c) => !c.pass)) {
-          console.log(chalk.gray('  提示: 使用 --fix 查看改善建議\n'));
+          console.log(chalk.gray('  Tip: use --fix to see suggested fixes\n'));
         }
       } catch (err) {
-        console.error(chalk.red(`\n❌ 驗證失敗: ${err.message}\n`));
+        console.error(chalk.red(`\n❌ Validation failed: ${err.message}\n`));
         process.exit(1);
       }
     });

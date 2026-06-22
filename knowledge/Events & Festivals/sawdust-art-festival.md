@@ -2,8 +2,14 @@
 title: 'Sawdust Art Festival'
 description: 'An open-air art festival where Laguna Beach artists sell work directly from hand-built booths, running since 1966.'
 date: 2026-06-19
-tags: [sawdust, art, festival, summer, laguna-canyon]
-category: Events & Festivals
+category: 'Events & Festivals'
+tags: ['sawdust', 'art', 'festival', 'summer', 'laguna-canyon']
+subcategory: 'Summer Art Festivals'
+author: 'LagunaBeach.md'
+featured: false
+lastVerified: 2026-06-19
+lastHumanReview: false
+geo: Sawdust Art Festival,33.5481,-117.7768,The Village
 source:
   - https://www.sawdustartfestival.org/
 ---
@@ -22,7 +28,7 @@ Categories of work include: painting, sculpture, ceramics, glass, jewelry, woodw
 
 ## Season
 
-The summer festival runs late June through August, concurrent with the [[Pageant of the Masters]] and Art-A-Fair. A shorter Winter Fantasy runs November through December with holiday-themed art and entertainment.
+The summer festival runs late June through August, concurrent with the [[pageant-of-the-masters|Pageant of the Masters]] and Art-A-Fair. A shorter Winter Fantasy runs November through December with holiday-themed art and entertainment.
 
 ## Practical Information
 

@@ -11,8 +11,8 @@ import {
 import { join } from 'path';
 import { homedir } from 'os';
 
-const KNOWLEDGE_DIR = join(homedir(), '.taiwanmd', 'knowledge');
-const CACHE_DIR = join(homedir(), '.taiwanmd', 'cache');
+const KNOWLEDGE_DIR = join(homedir(), '.lagunabeachmd', 'knowledge');
+const CACHE_DIR = join(homedir(), '.lagunabeachmd', 'cache');
 const REPO_URL = 'https://github.com/frank890417/taiwan-md.git';
 
 /**
@@ -59,59 +59,63 @@ export async function runSync(opts = {}) {
   try {
     execSync('git --version', { stdio: 'pipe' });
   } catch {
-    throw new Error('Git 未安裝。請先安裝 Git。');
+    throw new Error('Git is not installed. Please install Git first.');
   }
 
   if (!opts.silent) {
-    console.log(chalk.bold('\n  📦 同步 Taiwan.md 知識庫...\n'));
+    console.log(
+      chalk.bold('\n  📦 Syncing LagunaBeach.md knowledge base...\n'),
+    );
   }
 
   const repoExists = existsSync(join(KNOWLEDGE_DIR, '.git'));
 
   if (repoExists && !opts.force) {
     // Pull latest changes
-    if (!opts.silent) console.log(chalk.gray('  更新現有知識庫...'));
+    if (!opts.silent)
+      console.log(chalk.gray('  Updating existing knowledge base...'));
     try {
       run(`git -C "${KNOWLEDGE_DIR}" pull --ff-only`, { silent: true });
-      if (!opts.silent) console.log(chalk.green('  ✓ 更新完成'));
+      if (!opts.silent) console.log(chalk.green('  ✓ Update complete'));
     } catch {
-      if (!opts.silent) console.log(chalk.yellow('  ⚠ Pull 失敗，嘗試重設...'));
+      if (!opts.silent)
+        console.log(chalk.yellow('  ⚠ Pull failed, resetting...'));
       run(`git -C "${KNOWLEDGE_DIR}" fetch origin`, { silent: true });
       run(`git -C "${KNOWLEDGE_DIR}" reset --hard origin/main`, {
         silent: true,
       });
-      if (!opts.silent) console.log(chalk.green('  ✓ 重設完成'));
+      if (!opts.silent) console.log(chalk.green('  ✓ Reset complete'));
     }
   } else {
     // Clone fresh
     if (repoExists && opts.force) {
       if (!opts.silent)
-        console.log(chalk.gray('  強制重新同步，移除舊資料...'));
+        console.log(chalk.gray('  Force re-sync, removing old data...'));
       run(`rm -rf "${KNOWLEDGE_DIR}"`);
     }
 
     // Ensure parent directory exists
-    mkdirSync(join(homedir(), '.taiwanmd'), { recursive: true });
+    mkdirSync(join(homedir(), '.lagunabeachmd'), { recursive: true });
 
     if (!opts.silent)
-      console.log(chalk.gray('  克隆知識庫 (sparse checkout)...'));
+      console.log(chalk.gray('  Cloning knowledge base (sparse checkout)...'));
     run(
       `git clone --depth 1 --filter=blob:none --sparse "${REPO_URL}" "${KNOWLEDGE_DIR}"`,
       { silent: true },
     );
 
-    if (!opts.silent) console.log(chalk.gray('  設定 sparse-checkout...'));
+    if (!opts.silent) console.log(chalk.gray('  Setting sparse-checkout...'));
     run(`git -C "${KNOWLEDGE_DIR}" sparse-checkout set knowledge`, {
       silent: true,
     });
 
-    if (!opts.silent) console.log(chalk.green('  ✓ 克隆完成'));
+    if (!opts.silent) console.log(chalk.green('  ✓ Clone complete'));
   }
 
   // Download API JSON files to cache (these are build-time generated, not in git)
   mkdirSync(CACHE_DIR, { recursive: true });
 
-  const API_BASE = 'https://taiwan.md/api';
+  const API_BASE = 'https://lagunabeach.md/api';
   const API_FILES = [
     'dashboard-articles.json',
     'dashboard-vitals.json',
@@ -131,22 +135,22 @@ export async function runSync(opts = {}) {
       // Non-critical — some API files may not exist yet
     }
   }
-  if (!opts.silent) console.log(chalk.gray('  ✓ API 資料已快取'));
+  if (!opts.silent) console.log(chalk.gray('  ✓ API data cached'));
 
   // Print summary
   const knowledgeDir = join(KNOWLEDGE_DIR, 'knowledge');
   const articleCount = countMarkdownFiles(knowledgeDir);
-  const now = new Date().toLocaleString('zh-TW', {
-    timeZone: 'Asia/Taipei',
+  const now = new Date().toLocaleString('en-US', {
+    timeZone: 'America/Los_Angeles',
   });
 
   if (!opts.silent) {
     console.log('');
-    console.log(chalk.bold('  📊 同步摘要'));
+    console.log(chalk.bold('  📊 Sync summary'));
     console.log(chalk.gray('  ─'.repeat(20)));
-    console.log(`  文章數量: ${chalk.green(articleCount)} 篇`);
-    console.log(`  同步時間: ${chalk.gray(now)}`);
-    console.log(`  知識庫路徑: ${chalk.dim(KNOWLEDGE_DIR)}`);
+    console.log(`  Article count: ${chalk.green(articleCount)}`);
+    console.log(`  Synced at: ${chalk.gray(now)}`);
+    console.log(`  Knowledge base path: ${chalk.dim(KNOWLEDGE_DIR)}`);
     console.log('');
   }
 
@@ -162,12 +166,12 @@ export function syncCommand(program) {
       try {
         await runSync(opts);
       } catch (err) {
-        console.error(chalk.red(`\n  ❌ 同步失敗: ${err.message}\n`));
+        console.error(chalk.red(`\n  ❌ Sync failed: ${err.message}\n`));
         if (
           err.message.includes('Could not resolve host') ||
           err.message.includes('unable to access')
         ) {
-          console.log(chalk.gray('  請檢查網路連線。\n'));
+          console.log(chalk.gray('  Check your network connection.\n'));
         }
         process.exit(1);
       }

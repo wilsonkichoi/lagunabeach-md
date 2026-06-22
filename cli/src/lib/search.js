@@ -1,9 +1,9 @@
 /**
- * Taiwan.md Search
+ * LagunaBeach.md Search
  *
  * Provides article search using MiniSearch (pre-built bigram index)
  * with a fallback to simple string matching on dashboard data,
- * and a final remote fallback that fetches articles.json from taiwan.md.
+ * and a final remote fallback that fetches articles.json from lagunabeach.md.
  */
 
 import fs from 'fs';
@@ -148,7 +148,7 @@ function fallbackSearch(articles, query, limit) {
 }
 
 /**
- * Extract category slug from a URL path like /history/二二八事件
+ * Extract category slug from a URL path like /history/main-beach
  */
 function categoryFromUrl(url) {
   if (!url) return '';
@@ -161,7 +161,7 @@ function categoryFromUrl(url) {
 }
 
 /**
- * Fetch articles.json from taiwan.md remote API.
+ * Fetch articles.json from lagunabeach.md remote API.
  * Caches result in memory for the lifetime of the process.
  *
  * @returns {Promise<Array|null>}
@@ -170,7 +170,7 @@ async function fetchRemoteArticles() {
   if (_remoteArticlesCache) return _remoteArticlesCache;
 
   try {
-    const response = await fetch('https://taiwan.md/api/articles.json', {
+    const response = await fetch('https://lagunabeach.md/api/articles.json', {
       headers: { Accept: 'application/json' },
       signal: AbortSignal.timeout(10_000),
     });

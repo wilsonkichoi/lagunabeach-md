@@ -1,54 +1,35 @@
-"""paragraph_rhythm — 段落呼吸節奏 + 媒體密度 band (floor + ceiling).
+"""paragraph_rhythm — paragraph breathing rhythm + media density band (floor + ceiling).
 
-2026-06-04 哲宇 directive「提升媒體素材要求 + 圖文配比用更精妙的方式評估」→ R3
-從「只有上緣 (atomization ceiling)」升級為**完整 band (floor + ceiling)**。校準語料
-(8 篇富媒體/偏少對照，prose-CJK 同軸)：媒體偏少 中華台北 0.56 / 黑冠麻鷺 0.57 / 張懸 0；
-健康富媒體 黃魚鴞 0.82 (video-rich) / 設研院 0.91 / 天下雜誌 0.92；密集 陳建年 1.48
-(8 媒體)；atomization 周蕙 1.76。**舊 WARN=0.8 反而誤判哲宇點名的富媒體範本 (設研院/
-天下/黃魚鴞) 為「偏高」** → ceiling 升 1.2，並新增 floor 0.7 (media-poor)。
+Ported from Taiwan.md's CJK-char-count version to English word counts.
 
-2026-05-28 atomization drift 修補 Plugin (per [LESSONS-INBOX 第 7 種 drift pattern](../../../../docs/semiont/LESSONS-INBOX.md))：
-
-5/28 manual session 180543 spawn audit agent 對讀 2 早期 viral (黑冠麻鷺 /
-安溥) vs 3 recent EVOLVE (落日飛車 R2 / 半導體 R2 / 周蕙 R2) → 揭露 article
-paragraph 漸進 **atomization drift** — drift 方向跟「段落過長 / list-dump /
-事實堆疊」既有反 pattern 監控通通相反：
-
-  | 指標                | 黑冠麻鷺(早期) | 周蕙 R2 (近期) | Delta              |
-  | ------------------- | -------------: | -------------: | :----------------- |
-  | 段落 median CJK     |             81 |             58 | -28%               |
-  | 段落 mean CJK       |           84.9 |           68.7 | -19%               |
-  | 段落數量            |             52 |            122 | +135%              |
-  | iframe+img / 1k CJK |           0.21 |           1.23 | +486% (6 倍)       |
-  | H2 含 visual        |            1/9 |           7/12 | +5x                |
-  | 長段 >500 字 count  |              0 |              0 | 既有反 pattern 漏 |
-
-Root cause hypothesis: REWRITE-PIPELINE Stage 4-5 sub-agent worktree spawn 時
-新章 brief 只 200-400 字，agent 預設「一個事實=一段」最 safe；MEDIA 子
-pipeline 主動加 iframe → visual 替代段落內邏輯轉折。
+IMPORTANT — uncalibrated thresholds: Taiwan.md's numbers (PARA_MEDIAN_WARN=55,
+MEDIA_DENSITY_FLOOR/WARN/HARD, etc.) were calibrated against a real corpus of
+known-good and known-bad long-form Chinese articles (3000-9000+ CJK chars).
+LagunaBeach.md has no equivalent corpus — its longest article is ~773 words,
+well under this gate's 800-word activation floor, so none of this plugin's
+checks fire on the current corpus. The word-count thresholds below are
+reasonable placeholders, not data-calibrated. Recalibrate once real depth
+articles (800+ words) exist and some turn out atomized / media-poor in
+practice.
 
 Rules:
-  - **R1 paragraph median CJK < 55**：WARN — atomization drift signal。早期
-    範本 median 80+，<55 開始進入 atomization zone
-  - **R2 H2 prose 段落數 > 8**：WARN — H2 章節 over-fragmented，該 H2 拆或合段
-  - **R3-FLOOR media density < 0.7 / 1k CJK**：WARN (2026-06-04 新增) — 媒體偏少 /
-    立體呈現不足。depth article 應 ~1 媒體/1k 字；長文 (≥7000) 朝 圖+影片 ≥ 8。
-    WARN soft-launch (vc≥3 後可升 HARD)
-  - **R3-WARN media density > 1.2 / 1k CJK**：WARN (2026-06-04 從 0.8 升) — visual
-    密度偏高 (陳建年 1.48 = 8 媒體已偏密)。健康富媒體 ~0.9 不該被誤判
-  - **R3-HARD media density > 1.5 / 1k CJK AND 段落 median < 55**：HARD — visual
-    倚賴 + 段落原子化雙信號 = 真 atomization drift (周蕙 1.76)
+  - **R1 paragraph median words < 40**: WARN — atomization drift signal
+  - **R2 H2 prose paragraph count > 8**: WARN — H2 section over-fragmented
+  - **R3-FLOOR media density < 0.8 / 1k words**: WARN — media-poor / not
+    enough multimodal presentation
+  - **R3-WARN media density > 1.2 / 1k words**: WARN — visual density on
+    the high side
+  - **R3-HARD media density > 1.5 / 1k words AND paragraph median < 40**:
+    HARD — combined visual-reliance + atomization signal
 
 Skipped paths:
   - Hub pages (knowledge/{Category}/_*.md)
-  - Translation files (knowledge/{en,ja,ko,es,fr}/)
+  - Translation files (knowledge/zh-TW/)
   - Spore artifacts (docs/factory/SPORE-*)
   - Reports / memory / diary
 
 Canonical:
-  - docs/editorial/EDITORIAL.md §段落呼吸 + §媒體編織
-  - docs/pipelines/REWRITE-PIPELINE.md Stage 4 Step 4.3.6 iframe baseline
-  - reports/spore-voice-drift-fix-2026-05-28.md §第 7 種 pattern
+  - docs/editorial/EDITORIAL.en.md §paragraph rhythm + §media weaving
 """
 
 from __future__ import annotations
@@ -63,41 +44,32 @@ from ..types import FileTarget, Severity, Violation
 CHECK_NAME = "paragraph-rhythm"
 DIMENSION = "depth"
 DEFAULT_SEVERITY = Severity.WARN
-EDITORIAL_REF = "EDITORIAL.md §段落呼吸 + REWRITE-PIPELINE.md §Step 4.3.6 + reports/spore-voice-drift-fix-2026-05-28.md"
-APPLIES_TO = ["zh-TW"]
+EDITORIAL_REF = "EDITORIAL.en.md §paragraph rhythm + §media weaving"
+APPLIES_TO = ["en"]
 
-# Thresholds — 媒體密度「band」(floor + ceiling)，2026-06-04 哲宇 directive 升級。
-# 校準語料 (8 篇，prose-CJK 同軸)：媒體偏少 中華台北 0.56 / 黑冠麻鷺 0.57 / 張懸 0；
-# 健康富媒體 黃魚鴞 0.82 / 設研院 0.91 / 天下雜誌 0.92；密集 陳建年 1.48；atomization 周蕙 1.76。
-# 舊 WARN=0.8 會誤判 設研院/天下/黃魚鴞 (哲宇點名的富媒體範本) 為「偏高」→ 升 1.2。
-PARA_MEDIAN_WARN = 55  # CJK chars — below this = atomization signal
+# Thresholds — see module docstring: placeholders pending a real corpus.
+PARA_MEDIAN_WARN = 40  # words — below this = atomization signal
 H2_PARA_MAX = 8  # per-H2 prose paragraph soft cap
-# R4 單段過長 = 牆 (窒息感)。2026-06-07 哲宇 directive 儀器化 (同 v6.8 媒體低標的「閱讀完整度」家族)。
-# 校準 (REFLEXES #66 真產出)：好範本 max 段落 黑冠麻鷺 149 / 天下 217 / 複雜(順稿後) 239；
-# 牆 複雜(順稿前) 341 / 設研院 312 → 哲宇實際讀到窒息。門檻 280 乾淨切開「好(≤239)vs 牆(≥312)」。
-# WARN soft-launch (跟 R1-R3 同；vc≥3 後可升 HARD)。
-PARA_WALL_MAX = 280  # CJK — 單段 > 此 = 牆 (窒息感，建議自然轉折處拆段)
-MEDIA_DENSITY_FLOOR = 0.8  # < floor = 媒體偏少 (2026-06-07 哲宇 v6.8 媒體低標提升 0.7→0.8；校準保留 黃魚鴞 0.82 / 設研院 0.91 / 天下 0.92，text-only 雜學校 0 失格)
-IFRAME_DENSITY_WARN = 1.2  # > warn = visual 密度偏高 (2026-06-04 從 0.8 升，避免誤判富媒體範本)
-IFRAME_DENSITY_HARD = 1.5  # > hard + median<55 = atomization drift (directive override 都不該超)
-# tw-* 視覺模組納入 media count (2026-06-06 哲宇 directive)。資料模組 = 文章內容，不是
-# 裝飾媒體：對 FLOOR (媒體偏少) 全額計入 (viz-rich 文章不該被判 media-poor)；對
-# atomization ceiling 折抵最多 13 個模組 — 一篇資訊圖表型 data panorama 本來就會帶
-# 「8 + 3~5」張圖表 (哲宇 directive)，那是文章主體不是 atomization。用 discount 而非
-# 調高全域 ceiling，才不會順手弱化純媒體文章的護欄 (WARN/HARD 仍 1.2 / 1.5)；超過 13
-# 個 tw-* 模組才開始計入當 runaway backstop。
+PARA_WALL_MAX = 180  # words — single paragraph longer than this = a "wall"
+MEDIA_DENSITY_FLOOR = 0.8  # < floor = media-poor
+IFRAME_DENSITY_WARN = 1.2  # > warn = visual density on the high side
+IFRAME_DENSITY_HARD = 1.5  # > hard + median<40 = atomization drift
+# tw-* visual modules count toward media count. Data modules are article
+# content, not decoration: full count toward FLOOR (media-poor); discounted
+# up to this cap toward the atomization ceiling so viz-rich data-panorama
+# articles aren't penalized for legitimately having many chart modules.
 TW_MODULE_CEILING_DISCOUNT_CAP = 13
-# 媒體密度 band 校準於 depth article (設研院/天下/黃魚鴞)；短頁 / gallery / showcase
-# (如 視覺化模組型錄，prose 1k 字以模組為主體) density 失真 → 不適用 band。
-MEDIA_BAND_MIN_CJK = 1500
+# Media density band only applies to depth articles; short pages / galleries
+# (prose-light, module-heavy) would have a distorted density.
+MEDIA_BAND_MIN_WORDS = 1200
 
 
-_RE_CJK = re.compile(r"[一-鿿㐀-䶿]")
+_RE_WORD = re.compile(r"[A-Za-z0-9'-]+")
 _RE_H2 = re.compile(r"^##\s+(?!#)", re.MULTILINE)  # H2 only, not H3+
 _RE_IFRAME = re.compile(r"<iframe\s", re.IGNORECASE)
 _RE_IMAGE_MD = re.compile(r"!\[[^\]]*\]\([^\)]+\)")
 _RE_HERO_IMAGE_FRONTMATTER = re.compile(r"^image:\s*['\"]?/", re.MULTILINE)
-# tw-* fenced viz 模組 (graph.md / article-modules.css) — 納入媒體密度 count
+# tw-* fenced viz modules (graph.md / article-modules.css) — counted toward media density
 _RE_TW_MODULE = re.compile(r"(?m)^```tw-[a-z]+")
 # Frontmatter delimiters
 _RE_FRONTMATTER = re.compile(r"^---\s*\n.*?\n---\s*\n", re.DOTALL)
@@ -108,11 +80,10 @@ _RE_FOOTNOTE_DEF = re.compile(r"^\[\^[^\]]+\]:.*$", re.MULTILINE)
 
 
 def _is_applicable_path(path: str) -> bool:
-    """Only applies to zh-TW depth articles, not hub / translation / spore / reports.
+    """Only applies to English depth articles, not hub / translation / spore / reports.
 
-    v2 (2026-05-28): accept both relative ("knowledge/...") and absolute
-    ("/path/to/knowledge/...") paths — earlier "/knowledge/" check missed
-    relative paths from runner.
+    Accepts both relative ("knowledge/...") and absolute
+    ("/path/to/knowledge/...") paths.
     """
     p = str(path)
     if not p.endswith(".md"):
@@ -120,8 +91,8 @@ def _is_applicable_path(path: str) -> bool:
     base = os.path.basename(p)
     if base.startswith("_"):
         return False
-    # Translation files (under knowledge/{lang}/)
-    if re.search(r"(?:^|/)knowledge/(en|ja|ko|es|fr)/", p):
+    # Translation files (under knowledge/zh-TW/)
+    if re.search(r"(?:^|/)knowledge/zh-TW/", p):
         return False
     # Only knowledge/ articles (relative or absolute)
     if not re.search(r"(?:^|/)knowledge/", p):
@@ -148,8 +119,8 @@ def _strip_for_prose_analysis(text: str) -> str:
     return text
 
 
-def _count_cjk(s: str) -> int:
-    return len(_RE_CJK.findall(s))
+def _count_words(s: str) -> int:
+    return len(_RE_WORD.findall(s))
 
 
 def _extract_h2_sections(body: str) -> list[tuple[str, str]]:
@@ -205,8 +176,8 @@ def _split_paragraphs(section_body: str) -> list[str]:
         if first_line.startswith("!["):
             continue
         # Skip if entirely just inline markdown (very short)
-        cjk_count = _count_cjk(p_stripped)
-        if cjk_count < 5:  # too short to count as prose paragraph
+        word_count = _count_words(p_stripped)
+        if word_count < 5:  # too short to count as prose paragraph
             continue
         paragraphs.append(p_stripped)
     return paragraphs
@@ -219,17 +190,17 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
 
     text = target.text
     body = _strip_for_prose_analysis(text)
-    total_cjk = _count_cjk(body)
+    total_words = _count_words(body)
 
-    # Only check depth articles (≥ 3000 CJK — short articles have different rhythm)
-    if total_cjk < 3000:
+    # Only check depth articles (>= 800 words — short articles have different rhythm)
+    if total_words < 800:
         return
 
     # Collect prose paragraphs across all H2 sections
     sections = _extract_h2_sections(body)
-    all_paragraphs_cjk: list[int] = []
+    all_paragraphs_words: list[int] = []
     per_section_counts: list[tuple[str, int]] = []  # (title, paragraph_count)
-    walls: list[tuple[int, str]] = []  # R4: 單段過長 (窒息感) — (cjk, snippet)
+    walls: list[tuple[int, str]] = []  # R4: single paragraph too long (a "wall") — (words, snippet)
 
     # Also include pre-H2 lead paragraphs
     if sections:
@@ -239,11 +210,11 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             lead_body = body[: first_h2_match.start()]
             lead_paragraphs = _split_paragraphs(lead_body)
             for p in lead_paragraphs:
-                cjk = _count_cjk(p)
-                if cjk >= 5:
-                    all_paragraphs_cjk.append(cjk)
-                if cjk > PARA_WALL_MAX:
-                    walls.append((cjk, p.strip().replace("\n", " ")[:26]))
+                words = _count_words(p)
+                if words >= 5:
+                    all_paragraphs_words.append(words)
+                if words > PARA_WALL_MAX:
+                    walls.append((words, p.strip().replace("\n", " ")[:26]))
             if lead_paragraphs:
                 per_section_counts.append(("[lead]", len(lead_paragraphs)))
 
@@ -251,36 +222,35 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
         paragraphs = _split_paragraphs(section_body)
         per_section_counts.append((title, len(paragraphs)))
         for p in paragraphs:
-            cjk = _count_cjk(p)
-            if cjk >= 5:
-                all_paragraphs_cjk.append(cjk)
-            if cjk > PARA_WALL_MAX:
-                walls.append((cjk, p.strip().replace("\n", " ")[:26]))
+            words = _count_words(p)
+            if words >= 5:
+                all_paragraphs_words.append(words)
+            if words > PARA_WALL_MAX:
+                walls.append((words, p.strip().replace("\n", " ")[:26]))
 
-    if not all_paragraphs_cjk:
+    if not all_paragraphs_words:
         return
 
-    para_median = int(median(all_paragraphs_cjk))
-    para_count = len(all_paragraphs_cjk)
+    para_median = int(median(all_paragraphs_words))
+    para_count = len(all_paragraphs_words)
 
-    # ── R1: paragraph median CJK ──
+    # ── R1: paragraph median word count ──
     if para_median < PARA_MEDIAN_WARN:
         yield Violation(
             check=CHECK_NAME,
             severity=Severity.WARN,
             message=(
-                f"段落原子化 (atomization drift R1): "
-                f"段落 median CJK {para_median} 字 < {PARA_MEDIAN_WARN} 字門檻 "
-                f"(early viral 範本如黑冠麻鷺 median 81 字)。"
-                f"全文 {para_count} 段 / {total_cjk} CJK chars。"
+                f"Paragraph atomization (drift R1): "
+                f"paragraph median {para_median} words < {PARA_MEDIAN_WARN}-word threshold. "
+                f"{para_count} paragraphs / {total_words} words total."
             ),
             line=1,
             snippet=f"para_median={para_median} para_count={para_count}",
-            editorial_ref="EDITORIAL.md §段落呼吸 (新規條 2026-05-28)",
+            editorial_ref="EDITORIAL.en.md §paragraph rhythm",
             fix_suggestion=(
-                "合段：把 1 事實 1 段 → 1 論點 1 段（含因果鏈 + 細節 + 場景）。"
-                "目標 median 75-90 字 / stdev 40-50 = 早期範本節奏。"
-                "或：每 H2 prose 段落 ≤ 8（per EDITORIAL §段落呼吸）。"
+                "Merge paragraphs: one fact per paragraph -> one point per paragraph "
+                "(with causal chain + detail + scene). Or: keep prose paragraphs per "
+                "H2 section <= 8 (per EDITORIAL §paragraph rhythm)."
             ),
         )
 
@@ -293,101 +263,97 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             check=CHECK_NAME,
             severity=Severity.WARN,
             message=(
-                f"H2 過度切碎 (atomization drift R2): "
-                f"{len(over_h2)} 個 H2 章節超過 {H2_PARA_MAX} 段 prose: {names}{more}。"
+                f"H2 over-fragmented (drift R2): "
+                f"{len(over_h2)} H2 section(s) exceed {H2_PARA_MAX} prose paragraphs: {names}{more}."
             ),
             line=1,
             snippet=f"over_h2_count={len(over_h2)}",
-            editorial_ref="EDITORIAL.md §段落呼吸 (新規條)",
+            editorial_ref="EDITORIAL.en.md §paragraph rhythm",
             fix_suggestion=(
-                f"H2 過度切碎可能是 (a) 該 H2 應拆兩個 (b) 段落太多應合併 "
-                f"(c) 結構性 footer / callout 不應算入 prose 段落數。"
+                "Over-fragmented H2 may mean (a) it should split into two sections "
+                "(b) too many paragraphs should be merged (c) structural footer / "
+                "callout content shouldn't count as prose paragraphs."
             ),
         )
 
-    # ── R4: single-paragraph wall (窒息感) — 2026-06-07 哲宇 directive 儀器化 ──
-    # R1 抓「太短/原子化」，R4 抓對稱的另一端「太長/牆」。哲宇 live review 複雜生活節
-    # 讀到窒息 (max 段落 341)，順稿拆牆後 max 239 才舒服。
+    # ── R4: single-paragraph wall ──
+    # R1 catches "too short / atomized"; R4 catches the opposite end "too long / a wall".
     if walls:
         walls.sort(reverse=True)
-        names = "；".join(f"{c}字「{s}…」" for c, s in walls[:3])
-        more = f" 等 {len(walls)} 段" if len(walls) > 3 else ""
+        names = "; ".join(f"{c} words \"{s}…\"" for c, s in walls[:3])
+        more = f" + {len(walls) - 3} more" if len(walls) > 3 else ""
         yield Violation(
             check=CHECK_NAME,
             severity=Severity.WARN,
             message=(
-                f"段落過長 = 牆 (窒息感 R4): {len(walls)} 段 > {PARA_WALL_MAX} 字 — {names}{more}。"
-                f"閱讀起來窒息，好範本 max 段落 黑冠麻鷺 149 / 天下 217。"
+                f"Paragraph too long = a wall (R4): {len(walls)} paragraph(s) > "
+                f"{PARA_WALL_MAX} words — {names}{more}."
             ),
             line=1,
             snippet=f"walls={len(walls)} max={walls[0][0]}",
-            editorial_ref="EDITORIAL.md §段落呼吸 (R4 牆 2026-06-07)",
+            editorial_ref="EDITORIAL.en.md §paragraph rhythm (R4)",
             fix_suggestion=(
-                "在自然轉折處 (話題切換 / 因果推進 / 引語前) 把過長段落拆成 2 段；"
-                "拆完每半段仍應 ≥ 55 字 (別 atomize 成 R1)。"
+                "Split the long paragraph at a natural turn (topic shift / causal "
+                "step / before a quote); each half should still be >= "
+                f"{PARA_MEDIAN_WARN} words (don't atomize into R1)."
             ),
         )
 
-    # ── R3: 媒體密度 band / 1k CJK ──
-    # band 校準於 depth article；短頁 / gallery / showcase (prose 太短) density 失真，跳過。
-    if total_cjk < MEDIA_BAND_MIN_CJK:
+    # ── R3: media density band / 1k words ──
+    # Band only applies to depth articles; short pages / galleries / showcases
+    # (prose-light) would have a distorted density — skip.
+    if total_words < MEDIA_BAND_MIN_WORDS:
         return
     iframe_count = len(_RE_IFRAME.findall(text))
     image_count = len(_RE_IMAGE_MD.findall(text))
     # Hero image from frontmatter counts as 1 if present
     has_hero = bool(_RE_HERO_IMAGE_FRONTMATTER.search(text))
     tw_module_count = len(_RE_TW_MODULE.findall(text))
-    # 全額 visual count（含 tw-* 模組）— 用於 FLOOR (媒體偏少) 判斷 + 報告數字
+    # Full visual count (incl. tw-* modules) — used for FLOOR (media-poor) judgment.
     visual_count = iframe_count + image_count + (1 if has_hero else 0) + tw_module_count
-    density = (visual_count * 1000) / total_cjk if total_cjk > 0 else 0
-    # atomization ceiling 用「折抵最多 5 個 tw-* 模組」後的 count — 資料模組不算 atomization，
-    # 給 viz-rich 文章 3-5 模組 headroom（哲宇 directive「往上加 3-5」）。
+    density = (visual_count * 1000) / total_words if total_words > 0 else 0
+    # Atomization ceiling uses the count after discounting tw-* modules — data
+    # modules aren't atomization, give viz-rich articles headroom.
     ceiling_visual = visual_count - min(tw_module_count, TW_MODULE_CEILING_DISCOUNT_CAP)
-    ceiling_density = (ceiling_visual * 1000) / total_cjk if total_cjk > 0 else 0
+    ceiling_density = (ceiling_visual * 1000) / total_words if total_words > 0 else 0
 
-    # ── R3-FLOOR: 媒體偏少 (band 下緣) — 2026-06-04 哲宇 directive「richer media」──
-    # depth article 立體呈現不足 = media-poor。WARN soft-launch (對齊 image-health /
-    # word-count staged promotion；vc≥3 後可在 rewrite-stage-4 severity_override 升 HARD)。
+    # ── R3-FLOOR: media-poor (band floor) ──
     if density < MEDIA_DENSITY_FLOOR:
         yield Violation(
             check=CHECK_NAME,
             severity=Severity.WARN,
             message=(
-                f"媒體偏少 (band 下緣 R3-FLOOR): "
-                f"{visual_count} visual / {total_cjk} CJK = {density:.2f}/1k < "
-                f"{MEDIA_DENSITY_FLOOR}/1k 下限。富媒體範本 設研院 0.91 / 天下 0.92 / "
-                f"黃魚鴞 0.82 (video-rich)。"
+                f"Media-poor (band floor R3-FLOOR): "
+                f"{visual_count} visual / {total_words} words = {density:.2f}/1k < "
+                f"{MEDIA_DENSITY_FLOOR}/1k floor."
             ),
             line=1,
             snippet=f"density={density:.2f} media={visual_count}",
-            editorial_ref="EDITORIAL.md §媒體編織 (媒體密度 band)",
+            editorial_ref="EDITORIAL.en.md §media weaving (media density band)",
             fix_suggestion=(
-                "(a) 補 hero + scene-mid 圖到 ~1 張/1k 字 (REWRITE Step 4.3.1) "
-                "(b) People/Music/Nature/媒體機構題材補官方影片 iframe (Step 4.3.6) "
-                "(c) 長文 (≥7000 字) 朝 圖+影片 ≥ 8 (per 哲宇 2026-06-04 directive)"
+                "(a) Add hero + scene-mid image to reach ~1 per 1k words "
+                "(b) For nature/marine topics, add an official video iframe"
             ),
         )
     # HARD only when BOTH high visual density AND atomized paragraphs.
-    # High visual density alone may be observer-directive driven (e.g. 5+ iframe
-    # directive on music person) and acceptable if prose rhythm is healthy.
-    # Combined signal (density + atomization) indicates true drift.
     elif ceiling_density >= IFRAME_DENSITY_HARD and para_median < PARA_MEDIAN_WARN:
         yield Violation(
             check=CHECK_NAME,
             severity=Severity.HARD,
             message=(
                 f"Combined atomization drift HARD: "
-                f"density {ceiling_density:.2f}/1k (折抵 {min(tw_module_count, TW_MODULE_CEILING_DISCOUNT_CAP)} tw-* 模組後) "
-                f"> {IFRAME_DENSITY_HARD} AND para median {para_median} < {PARA_MEDIAN_WARN}。"
-                f"Visual 倚賴 + 段落原子化雙信號。"
+                f"density {ceiling_density:.2f}/1k (after discounting "
+                f"{min(tw_module_count, TW_MODULE_CEILING_DISCOUNT_CAP)} tw-* modules) "
+                f"> {IFRAME_DENSITY_HARD} AND paragraph median {para_median} < {PARA_MEDIAN_WARN}. "
+                f"Visual reliance + paragraph atomization combined signal."
             ),
             line=1,
             snippet=f"ceiling_density={ceiling_density:.2f} para_median={para_median}",
-            editorial_ref="EDITORIAL.md §媒體編織 + §段落呼吸",
+            editorial_ref="EDITORIAL.en.md §media weaving + §paragraph rhythm",
             fix_suggestion=(
-                "(a) 合段恢復 prose rhythm 到 median 75-90 字 "
-                "(b) 砍 iframe 到 ≤ 1.0/1k CJK "
-                "(c) 兩條至少滿足一條才能 ship"
+                "(a) Merge paragraphs to restore prose rhythm to median 75-90 words "
+                "(b) Cut iframes to <= 1.0/1k words "
+                "(c) Satisfying at least one of these is required to ship"
             ),
         )
     elif ceiling_density >= IFRAME_DENSITY_WARN:
@@ -395,18 +361,17 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             check=CHECK_NAME,
             severity=Severity.WARN,
             message=(
-                f"Visual density 偏高 (band 上緣 R3-WARN): "
-                f"{visual_count} visual ({tw_module_count} tw-* 模組折抵 "
-                f"{min(tw_module_count, TW_MODULE_CEILING_DISCOUNT_CAP)}) / {total_cjk} CJK = "
-                f"{ceiling_density:.2f}/1k > {IFRAME_DENSITY_WARN}/1k 建議上限 (健康富媒體 "
-                f"設研院/天下 ~0.9；陳建年 1.48 = 8 媒體已偏密；周蕙 1.76 = atomization)。"
+                f"Visual density on the high side (band ceiling R3-WARN): "
+                f"{visual_count} visual ({tw_module_count} tw-* modules discounted "
+                f"{min(tw_module_count, TW_MODULE_CEILING_DISCOUNT_CAP)}) / {total_words} words = "
+                f"{ceiling_density:.2f}/1k > {IFRAME_DENSITY_WARN}/1k suggested ceiling."
             ),
             line=1,
             snippet=f"ceiling_density={ceiling_density:.2f} visual={visual_count}",
-            editorial_ref="EDITORIAL.md §媒體編織",
+            editorial_ref="EDITORIAL.en.md §media weaving",
             fix_suggestion=(
-                "考慮：(a) 文字段落自己承擔節奏不要 outsource 給 iframe "
-                "(b) 留代表性 3-5 個 iframe，次要的移除 "
-                "(c) > 1.5/1k 且段落 median < 55 = atomization HARD"
+                "Consider: (a) let prose paragraphs carry the rhythm instead of "
+                "outsourcing to iframes (b) keep 3-5 representative iframes, drop "
+                f"the rest (c) > 1.5/1k with paragraph median < {PARA_MEDIAN_WARN} = atomization HARD"
             ),
         )

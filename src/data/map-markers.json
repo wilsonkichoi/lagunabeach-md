@@ -1,48 +1,118 @@
 [
   {
     "title": "Laguna Art Museum",
-    "lat": 33.543,
-    "lng": -117.786,
+    "lat": 33.5448,
+    "lng": -117.7905,
     "category": "art-galleries",
-    "region": "The Village",
+    "region": "North Laguna",
     "link": "/art-galleries/laguna-art-museum",
     "lang": "en",
-    "desc": "The oldest art museum in Orange County, focused exclusively on California art from the plein air era to contemporary."
+    "desc": "The oldest art museum in Orange County, focused exclusively on California art from the plein air era to contemporary.",
+    "city": "Laguna Art Museum"
   },
   {
     "title": "Thousand Steps Beach",
-    "lat": 33.508,
-    "lng": -117.757,
+    "lat": 33.5083,
+    "lng": -117.7559,
     "category": "beaches",
     "region": "South Laguna",
     "link": "/beaches/thousand-steps-beach",
     "lang": "en",
-    "desc": "A secluded beach at the base of a long staircase in South Laguna, known for its dramatic cliffs and tide pools."
+    "desc": "A secluded beach at the base of a long staircase in South Laguna, known for its dramatic cliffs and tide pools.",
+    "city": "Thousand Steps Beach"
   },
   {
     "title": "Victoria Beach",
-    "lat": 33.516381,
-    "lng": -117.771689,
+    "lat": 33.5143,
+    "lng": -117.7654,
     "category": "beaches",
-    "region": "The Village",
+    "region": "Victoria Beach",
     "link": "/beaches/victoria-beach",
     "lang": "en",
-    "desc": "A secluded beach known for its distinctive 1926 stone tower and rocky tide pool areas."
+    "desc": "A secluded beach known for its distinctive 1926 stone tower and rocky tide pool areas.",
+    "city": "Victoria Beach"
   },
   {
     "title": "Pageant of the Masters",
-    "lat": 33.535004,
-    "lng": -117.778847,
+    "lat": 33.5452,
+    "lng": -117.774,
     "category": "events-festivals",
     "region": "The Village",
     "link": "/events-festivals/pageant-of-the-masters",
     "lang": "en",
-    "desc": "A live performance where volunteers recreate famous paintings and sculptures using real people, running annually since 1933."
+    "desc": "A live performance where volunteers recreate famous paintings and sculptures using real people, running annually since 1933.",
+    "city": "Festival of Arts Grounds"
+  },
+  {
+    "title": "Sawdust Art Festival",
+    "lat": 33.5481,
+    "lng": -117.7768,
+    "category": "events-festivals",
+    "region": "The Village",
+    "link": "/events-festivals/sawdust-art-festival",
+    "lang": "en",
+    "desc": "An open-air art festival where Laguna Beach artists sell work directly from hand-built booths, running since 1966.",
+    "city": "Sawdust Art Festival"
+  },
+  {
+    "title": "The Cliff Restaurant",
+    "lat": 33.5398,
+    "lng": -117.7816,
+    "category": "food",
+    "region": "The Village",
+    "link": "/food/the-cliff-restaurant",
+    "lang": "en",
+    "desc": "A landmark oceanfront restaurant perched on the bluffs above the Pacific, serving Laguna Beach since 1946.",
+    "city": "The Cliff Restaurant"
+  },
+  {
+    "title": "Founding and Early History",
+    "lat": 33.5423,
+    "lng": -117.784,
+    "category": "history",
+    "region": "The Village",
+    "link": "/history/founding-and-early-history",
+    "lang": "en",
+    "desc": "How Laguna Beach grew from an indigenous homeland to an artists colony to an incorporated city.",
+    "city": "Old Town Laguna Beach"
+  },
+  {
+    "title": "The 1993 Firestorm",
+    "lat": 33.5635,
+    "lng": -117.8075,
+    "category": "history",
+    "region": "North Laguna",
+    "link": "/history/the-1993-firestorm",
+    "lang": "en",
+    "desc": "A wildfire that destroyed 441 homes in Laguna Beach on October 27, 1993, reshaping the city's relationship with fire and development.",
+    "city": "Emerald Bay"
+  },
+  {
+    "title": "Tide Pools",
+    "lat": 33.5468,
+    "lng": -117.792,
+    "category": "nature-marine-life",
+    "region": "North Laguna",
+    "link": "/nature-marine-life/tide-pools",
+    "lang": "en",
+    "desc": "Laguna Beach hosts some of Southern California's most accessible and biodiverse intertidal zones.",
+    "city": "Heisler Park Tide Pools"
+  },
+  {
+    "title": "Whale Watching",
+    "lat": 33.5538,
+    "lng": -117.7978,
+    "category": "nature-marine-life",
+    "region": "North Laguna",
+    "link": "/nature-marine-life/whale-watching",
+    "lang": "en",
+    "desc": "Gray whales migrate past Laguna Beach every winter, visible from shore and by boat.",
+    "city": "Crescent Bay Point"
   },
   {
     "title": "South Laguna",
-    "lat": 33.51,
-    "lng": -117.76,
+    "lat": 33.5065,
+    "lng": -117.7535,
     "category": "neighborhoods",
     "region": "South Laguna",
     "link": "/neighborhoods/south-laguna",
@@ -52,29 +122,30 @@
   },
   {
     "title": "The Village",
-    "lat": 33.542,
-    "lng": -117.786,
+    "lat": 33.5425,
+    "lng": -117.785,
     "category": "neighborhoods",
     "region": "The Village",
     "link": "/neighborhoods/the-village",
     "lang": "en",
     "desc": "Laguna Beach's walkable downtown core, centered on Pacific Coast Highway and Forest Avenue.",
-    "city": "Village"
+    "city": "The Village"
   },
   {
     "title": "Laguna Coast Wilderness Park",
-    "lat": 33.555,
-    "lng": -117.755,
+    "lat": 33.561,
+    "lng": -117.7615,
     "category": "trails",
     "region": "Top of the World",
     "link": "/trails/laguna-coast-wilderness-park",
     "lang": "en",
-    "desc": "A 7,000-acre protected open space surrounding Laguna Beach with 40+ miles of trails through coastal sage scrub and oak woodland."
+    "desc": "A 7,000-acre protected open space surrounding Laguna Beach with 40+ miles of trails through coastal sage scrub and oak woodland.",
+    "city": "Laguna Coast Wilderness Park"
   },
   {
     "title": "Top of the World",
-    "lat": 33.558,
-    "lng": -117.77,
+    "lat": 33.5606,
+    "lng": -117.7716,
     "category": "trails",
     "region": "Top of the World",
     "link": "/trails/top-of-the-world",

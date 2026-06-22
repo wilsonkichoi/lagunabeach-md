@@ -1,5 +1,5 @@
 {
-  "total_zh": 16,
+  "total_zh": 19,
   "total_en": 0,
   "coverage_en": 0.0,
   "categories": {
@@ -7,15 +7,11 @@
       "zh": 2,
       "en": 0
     },
+    "About": {
+      "zh": 3,
+      "en": 0
+    },
     "Neighborhoods": {
-      "zh": 2,
-      "en": 0
-    },
-    "root": {
-      "zh": 1,
-      "en": 0
-    },
-    "Events & Festivals": {
       "zh": 2,
       "en": 0
     },
@@ -23,7 +19,7 @@
       "zh": 2,
       "en": 0
     },
-    "Trails": {
+    "History": {
       "zh": 2,
       "en": 0
     },
@@ -31,7 +27,15 @@
       "zh": 2,
       "en": 0
     },
-    "History": {
+    "Events & Festivals": {
+      "zh": 2,
+      "en": 0
+    },
+    "root": {
+      "zh": 1,
+      "en": 0
+    },
+    "Trails": {
       "zh": 2,
       "en": 0
     },
@@ -40,5 +44,5 @@
       "en": 0
     }
   },
-  "updated": "2026-06-20"
+  "updated": "2026-06-21"
 }

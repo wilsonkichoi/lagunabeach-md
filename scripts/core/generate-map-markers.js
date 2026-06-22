@@ -270,6 +270,8 @@ function generateMarkers() {
             type: 'manual',
             lat: parseFloat(geoData[1]),
             lng: parseFloat(geoData[2]),
+            // Optional 4th field: explicit neighborhood (overrides coord lookup).
+            region: geoData[3] ? geoData[3].trim() : undefined,
             city: geoData[0].trim(),
             score: 1000,
           });
@@ -320,15 +322,22 @@ function generateMarkers() {
           location.city,
         );
 
-        let region = getNeighborhood(location.lat, location.lng);
+        let region =
+          location.region || getNeighborhood(location.lat, location.lng);
 
+        // Neighborhood from coordinates — the five curated Laguna areas the Map
+        // page filters by. An explicit `geo` region (4th field) overrides this.
         function getNeighborhood(lat, lng) {
+          // Victoria Beach sits within South Laguna's latitude band, so check first.
+          if (
+            lat >= 33.51 &&
+            lat <= 33.518 &&
+            lng >= -117.773 &&
+            lng <= -117.765
+          )
+            return 'Victoria Beach';
           if (lat > 33.548 && lng < -117.775) return 'North Laguna';
           if (lat > 33.548 && lng >= -117.775) return 'Top of the World';
-          if (lat >= 33.535 && lat <= 33.548 && lng >= -117.775)
-            return 'Laguna Canyon';
-          if (lat >= 33.535 && lat <= 33.548 && lng < -117.775)
-            return 'The Village';
           if (lat < 33.515) return 'South Laguna';
           return 'The Village';
         }

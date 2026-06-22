@@ -113,7 +113,10 @@ viz-health = "hard"
 # 顯性暴露，但 image-health 新加的 min_images_severity=hard 必須 reach
 # 才能 promote 預設 WARN → HARD，所以一併修正命名。
 [profiles."rewrite-stage-4".options_overrides.word-count]
-min_chars = 4500
+# 2026-06-21: word_count.py ported from CJK char-count (min_chars) to English
+# word-count (min_words) for LagunaBeach.md. Updated key name + value to match
+# the plugin's new DEFAULT_MIN_WORDS (250, calibrated to this fork's corpus).
+min_words = 250
 
 [profiles."rewrite-stage-4".options_overrides.image-health]
 # 2026-06-07 哲宇 directive (REWRITE v6.8 媒體完整度低標提升)：length_scaled —
@@ -123,6 +126,8 @@ min_chars = 4500
 min_images = 3
 length_scaled = true
 cjk_per_media = 1200
+# 2026-06-21: English equivalent for LagunaBeach.md content (target.lang == "en")
+words_per_media = 400
 min_images_severity = "hard"
 zero_images_severity = "hard"
 
@@ -136,6 +141,8 @@ fail_on = "hard"
 min_images = 3
 length_scaled = true
 cjk_per_media = 1200
+# 2026-06-21: English equivalent for LagunaBeach.md content (target.lang == "en")
+words_per_media = 400
 min_images_severity = "hard"
 zero_images_severity = "hard"
 

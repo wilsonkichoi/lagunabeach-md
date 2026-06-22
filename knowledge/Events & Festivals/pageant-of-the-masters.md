@@ -2,8 +2,14 @@
 title: 'Pageant of the Masters'
 description: 'A live performance where volunteers recreate famous paintings and sculptures using real people, running annually since 1933.'
 date: 2026-06-19
-tags: [pageant, art, festival, summer, irvine-bowl]
-category: Events & Festivals
+category: 'Events & Festivals'
+tags: ['pageant', 'art', 'festival', 'summer', 'irvine-bowl']
+subcategory: 'Summer Art Festivals'
+author: 'LagunaBeach.md'
+featured: false
+lastVerified: 2026-06-19
+lastHumanReview: false
+geo: Festival of Arts Grounds,33.5452,-117.7740,The Village
 source:
   - https://www.foapom.com/
   - https://en.wikipedia.org/wiki/Pageant_of_the_Masters
@@ -42,4 +48,4 @@ The Pageant is the centerpiece of the broader Festival of Arts, a juried fine ar
 
 ## Related Events
 
-The [[Sawdust Art Festival]] and Art-A-Fair run concurrently across Laguna Canyon Road, creating a summer-long art district. Together, these three events draw hundreds of thousands of visitors each summer.
+The [[sawdust-art-festival|Sawdust Art Festival]] and Art-A-Fair run concurrently across Laguna Canyon Road, creating a summer-long art district. Together, these three events draw hundreds of thousands of visitors each summer.

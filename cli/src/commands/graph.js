@@ -1,5 +1,5 @@
 /**
- * taiwanmd graph <slug> — 文章關聯圖
+ * lagunabeachmd graph <slug> — article relationship graph
  *
  * Extracts [[wikilinks]] from an article and draws a radial ASCII graph.
  */
@@ -130,7 +130,7 @@ function drawGraph(centerTitle, centerCat, links) {
     console.log('');
     console.log(`${pad}${centerLabel}`);
     console.log('');
-    console.log(chalk.gray('  (無 [[wikilink]] 關聯)'));
+    console.log(chalk.gray('  (no [[wikilink]] connections)'));
     return;
   }
 
@@ -198,14 +198,18 @@ function drawGraph(centerTitle, centerCat, links) {
 export function graphCommand(program) {
   program
     .command('graph <slug>')
-    .description('顯示文章的 [[wikilink]] 關聯圖')
+    .description("Show an article's [[wikilink]] relationship graph")
     .action(async (slug) => {
       try {
         await ensureData();
         const articleFiles = getArticleFiles();
 
         if (!articleFiles || articleFiles.length === 0) {
-          console.log(chalk.yellow('\n  找不到文章，請先執行 taiwanmd sync\n'));
+          console.log(
+            chalk.yellow(
+              '\n  No articles found — run lagunabeachmd sync first\n',
+            ),
+          );
           return;
         }
 
@@ -213,9 +217,9 @@ export function graphCommand(program) {
         const article = findArticleData(slug, articleFiles);
 
         if (!article) {
-          console.log(chalk.yellow(`\n  找不到文章「${slug}」\n`));
-          console.log(chalk.gray('  💡 試試搜尋:'));
-          console.log(chalk.cyan(`  taiwanmd search ${slug}\n`));
+          console.log(chalk.yellow(`\n  Article not found: "${slug}"\n`));
+          console.log(chalk.gray('  💡 Try searching:'));
+          console.log(chalk.cyan(`  lagunabeachmd search ${slug}\n`));
           return;
         }
 
@@ -227,7 +231,7 @@ export function graphCommand(program) {
         const wikilinkTargets = extractWikilinks(article.body || '');
 
         console.log('');
-        console.log(chalk.bold(`  🕸️  ${centerTitle} 的關聯圖`));
+        console.log(chalk.bold(`  🕸️  Relationship graph for ${centerTitle}`));
         console.log(chalk.gray('  ' + '─'.repeat(50)));
 
         if (wikilinkTargets.length === 0) {
@@ -235,7 +239,9 @@ export function graphCommand(program) {
           console.log('');
           console.log(`  ${centerEmoji} ${chalk.bold.cyan(centerTitle)}`);
           console.log('');
-          console.log(chalk.gray('  (此文章沒有 [[wikilink]] 關聯)'));
+          console.log(
+            chalk.gray('  (this article has no [[wikilink]] connections)'),
+          );
           console.log('');
           return;
         }
@@ -248,9 +254,9 @@ export function graphCommand(program) {
         // Draw the graph
         drawGraph(centerTitle, centerCat, links);
 
-        console.log(chalk.dim(`  共 ${links.length} 個關聯文章\n`));
+        console.log(chalk.dim(`  ${links.length} related article(s) total\n`));
       } catch (err) {
-        console.error(chalk.red(`graph 失敗: ${err.message}`));
+        console.error(chalk.red(`graph failed: ${err.message}`));
         process.exit(1);
       }
     });

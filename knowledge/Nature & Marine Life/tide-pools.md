@@ -2,8 +2,14 @@
 title: 'Tide Pools'
 description: "Laguna Beach hosts some of Southern California's most accessible and biodiverse intertidal zones."
 date: 2026-06-19
-tags: [tide-pools, marine-life, ecology, marine-protected-area]
-category: Nature & Marine Life
+category: 'Nature & Marine Life'
+tags: ['tide-pools', 'marine-life', 'ecology', 'marine-protected-area']
+subcategory: 'Tide Pools & Intertidal'
+author: 'LagunaBeach.md'
+featured: false
+lastVerified: 2026-06-19
+lastHumanReview: false
+geo: Heisler Park Tide Pools,33.5468,-117.7920,North Laguna
 source:
   - https://www.lagunaoceanfoundation.org/
   - https://www.coastal.ca.gov/publiced/waves/Marine-Protected-Areas.pdf
@@ -19,7 +25,7 @@ Laguna Beach's rocky coastline creates extensive intertidal habitat, making it o
 
 **Crescent Bay Point Park** — Northern end has extensive rocky areas. Accessible at low tide only.
 
-**[[Thousand Steps Beach]]** — South end has rocky shelves with good diversity. Requires stair descent.
+**[[thousand-steps-beach|Thousand Steps Beach]]** — South end has rocky shelves with good diversity. Requires stair descent.
 
 **Victoria Beach** — Rocky areas at north and south ends. The "pirate tower" marks the south reef section.
 

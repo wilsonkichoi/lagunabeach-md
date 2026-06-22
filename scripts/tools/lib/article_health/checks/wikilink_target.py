@@ -29,7 +29,7 @@ _RE_WIKILINK_FULL = re.compile(
 
 # Directories to scan for valid article slugs (zh-TW only — translations
 # share the source slug, not target).
-_LANG_DIRS_SKIP = {"en", "ja", "ko", "es", "fr"}
+_LANG_DIRS_SKIP = {"zh-TW", "ja", "ko", "es", "fr"}
 _KNOWLEDGE_ROOT = Path("knowledge")
 
 

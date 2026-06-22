@@ -2,8 +2,14 @@
 title: 'Thousand Steps Beach'
 description: 'A secluded beach at the base of a long staircase in South Laguna, known for its dramatic cliffs and tide pools.'
 date: 2026-06-19
-tags: [beaches, south-laguna, tide-pools, surfing]
-category: Beaches
+category: 'Beaches'
+tags: ['beaches', 'south-laguna', 'tide-pools', 'surfing']
+subcategory: 'Beaches & Coves'
+author: 'LagunaBeach.md'
+featured: false
+lastVerified: 2026-06-19
+lastHumanReview: false
+geo: Thousand Steps Beach,33.5083,-117.7559,South Laguna
 source:
   - https://www.visitlagunabeach.com/things-to-do/beaches/thousand-steps-beach/
 ---

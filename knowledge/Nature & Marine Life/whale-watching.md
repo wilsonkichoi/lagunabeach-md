@@ -2,8 +2,14 @@
 title: 'Whale Watching'
 description: 'Gray whales migrate past Laguna Beach every winter, visible from shore and by boat.'
 date: 2026-06-19
-tags: [whales, marine-life, wildlife, ocean, seasonal]
-category: Nature & Marine Life
+category: 'Nature & Marine Life'
+tags: ['whales', 'marine-life', 'wildlife', 'ocean', 'seasonal']
+subcategory: 'Marine Wildlife'
+author: 'LagunaBeach.md'
+featured: false
+lastVerified: 2026-06-19
+lastHumanReview: false
+geo: Crescent Bay Point,33.5538,-117.7978,North Laguna
 source:
   - https://www.danawharf.com/whale-watching/
   - https://www.visitlagunabeach.com/things-to-do/whale-watching/
@@ -27,7 +33,7 @@ Best elevated viewpoints for spotting whale spouts:
 
 - **Heisler Park bluffs** — paved path with benches, wide ocean view
 - **Crescent Bay Point Park** — high elevation, north-facing view
-- **[[Top of the World]]** — highest point, binoculars needed at this distance
+- **[[top-of-the-world|Top of the World]]** — highest point, binoculars needed at this distance
 - **Dana Point Headlands** — just south of Laguna, the best elevated viewpoint in the area
 
 Look for: vertical white spray (spout), dark backs breaking the surface, and occasionally tail flukes raised before a dive. Early morning with calm seas and no glare offers best visibility.

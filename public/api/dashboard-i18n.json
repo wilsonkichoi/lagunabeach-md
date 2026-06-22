@@ -1,27 +1,27 @@
 {
-  "generated": "2026-06-20T12:53:39Z",
-  "max_total": 2092,
+  "generated": "2026-06-22T05:40:39Z",
+  "max_total": 1872,
   "modules": [
     {
       "name": "home",
       "langs": {
         "zh-TW": 107,
         "en": 105,
-        "ja": 107,
-        "ko": 107,
-        "fr": 107,
-        "es": 107
+        "ja": 0,
+        "ko": 0,
+        "fr": 0,
+        "es": 0
       }
     },
     {
       "name": "about",
       "langs": {
-        "zh-TW": 260,
-        "en": 260,
-        "ja": 260,
-        "ko": 260,
-        "fr": 260,
-        "es": 260
+        "zh-TW": 184,
+        "en": 184,
+        "ja": 0,
+        "ko": 0,
+        "fr": 0,
+        "es": 0
       }
     },
     {
@@ -29,10 +29,10 @@
       "langs": {
         "zh-TW": 325,
         "en": 325,
-        "ja": 325,
-        "ko": 325,
-        "fr": 325,
-        "es": 326
+        "ja": 0,
+        "ko": 0,
+        "fr": 0,
+        "es": 0
       }
     },
     {
@@ -40,10 +40,10 @@
       "langs": {
         "zh-TW": 12,
         "en": 12,
-        "ja": 12,
-        "ko": 12,
-        "fr": 12,
-        "es": 12
+        "ja": 0,
+        "ko": 0,
+        "fr": 0,
+        "es": 0
       }
     },
     {
@@ -51,32 +51,32 @@
       "langs": {
         "zh-TW": 79,
         "en": 79,
-        "ja": 79,
-        "ko": 79,
-        "fr": 79,
-        "es": 79
+        "ja": 0,
+        "ko": 0,
+        "fr": 0,
+        "es": 0
       }
     },
     {
       "name": "data",
       "langs": {
-        "zh-TW": 262,
-        "en": 262,
-        "ja": 262,
-        "ko": 262,
-        "fr": 262,
-        "es": 262
+        "zh-TW": 118,
+        "en": 118,
+        "ja": 0,
+        "ko": 0,
+        "fr": 0,
+        "es": 0
       }
     },
     {
       "name": "resources",
       "langs": {
         "zh-TW": 361,
-        "en": 361,
-        "ja": 361,
-        "ko": 361,
-        "fr": 361,
-        "es": 361
+        "en": 154,
+        "ja": 0,
+        "ko": 0,
+        "fr": 0,
+        "es": 0
       }
     },
     {
@@ -84,10 +84,10 @@
       "langs": {
         "zh-TW": 455,
         "en": 455,
-        "ja": 448,
-        "ko": 455,
-        "fr": 448,
-        "es": 448
+        "ja": 0,
+        "ko": 0,
+        "fr": 0,
+        "es": 0
       }
     },
     {
@@ -95,10 +95,10 @@
       "langs": {
         "zh-TW": 34,
         "en": 34,
-        "ja": 34,
-        "ko": 34,
-        "fr": 34,
-        "es": 34
+        "ja": 0,
+        "ko": 0,
+        "fr": 0,
+        "es": 0
       }
     },
     {
@@ -106,10 +106,10 @@
       "langs": {
         "zh-TW": 29,
         "en": 29,
-        "ja": 29,
-        "ko": 29,
-        "fr": 29,
-        "es": 29
+        "ja": 0,
+        "ko": 0,
+        "fr": 0,
+        "es": 0
       }
     },
     {
@@ -117,10 +117,10 @@
       "langs": {
         "zh-TW": 46,
         "en": 46,
-        "ja": 46,
-        "ko": 46,
-        "fr": 46,
-        "es": 46
+        "ja": 0,
+        "ko": 0,
+        "fr": 0,
+        "es": 0
       }
     },
     {
@@ -128,19 +128,19 @@
       "langs": {
         "zh-TW": 122,
         "en": 122,
-        "ja": 123,
-        "ko": 123,
-        "fr": 122,
-        "es": 122
+        "ja": 0,
+        "ko": 0,
+        "fr": 0,
+        "es": 0
       }
     }
   ],
   "lang_totals": {
-    "zh-TW": { "keys": 2092, "coverage_pct": 100.0 },
-    "en": { "keys": 2090, "coverage_pct": 99.9 },
-    "ja": { "keys": 2086, "coverage_pct": 99.71 },
-    "ko": { "keys": 2093, "coverage_pct": 100.05 },
-    "fr": { "keys": 2085, "coverage_pct": 99.67 },
-    "es": { "keys": 2086, "coverage_pct": 99.71 }
+    "zh-TW": { "keys": 1872, "coverage_pct": 100.0 },
+    "en": { "keys": 1663, "coverage_pct": 88.84 },
+    "ja": { "keys": 0, "coverage_pct": 0.0 },
+    "ko": { "keys": 0, "coverage_pct": 0.0 },
+    "fr": { "keys": 0, "coverage_pct": 0.0 },
+    "es": { "keys": 0, "coverage_pct": 0.0 }
   }
 }

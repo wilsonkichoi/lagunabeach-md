@@ -2,8 +2,14 @@
 title: 'The Cliff Restaurant'
 description: 'A landmark oceanfront restaurant perched on the bluffs above the Pacific, serving Laguna Beach since 1946.'
 date: 2026-06-19
-tags: [restaurants, oceanfront, landmark, fine-dining]
-category: Food
+category: 'Food'
+tags: ['restaurants', 'oceanfront', 'landmark', 'fine-dining']
+subcategory: 'Restaurants & Dining'
+author: 'LagunaBeach.md'
+featured: false
+lastVerified: 2026-06-19
+lastHumanReview: false
+geo: The Cliff Restaurant,33.5398,-117.7816,The Village
 source:
   - https://www.thecliffrestaurant.com/
 ---

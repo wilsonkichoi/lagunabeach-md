@@ -2,8 +2,14 @@
 title: 'Laguna Art Museum'
 description: 'The oldest art museum in Orange County, focused exclusively on California art from the plein air era to contemporary.'
 date: 2026-06-19
-tags: [museum, art, california-art, history, plein-air]
-category: Art & Galleries
+category: 'Art & Galleries'
+tags: ['museum', 'art', 'california-art', 'history', 'plein-air']
+subcategory: 'Museums & Institutions'
+author: 'LagunaBeach.md'
+featured: false
+lastVerified: 2026-06-19
+lastHumanReview: false
+geo: Laguna Art Museum,33.5448,-117.7905,North Laguna
 source:
   - https://lagunaartmuseum.org/
   - https://en.wikipedia.org/wiki/Laguna_Art_Museum
@@ -13,7 +19,7 @@ The Laguna Art Museum (LAM) sits at the corner of Cliff Drive and Pacific Coast 
 
 ## Collection
 
-The museum's focus is exclusively California art: work made in, about, or by artists associated with California. The permanent collection spans from early 20th century [[Plein Air Painting|plein air landscapes]] to contemporary conceptual work.
+The museum's focus is exclusively California art: work made in, about, or by artists associated with California. The permanent collection spans from early 20th century [[plein-air-painting|plein air landscapes]] to contemporary conceptual work.
 
 Key holdings:
 
