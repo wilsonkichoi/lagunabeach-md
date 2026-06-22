@@ -15,16 +15,11 @@
  */
 
 import chalk from 'chalk';
-import path from 'path';
-import { fileURLToPath } from 'url';
 import { getKnowledgePath } from '../lib/knowledge.js';
 
-// Absolute path to cli/src/index.js — not published to npm yet, so install
-// snippets must point at a real file path rather than an npx package name.
-const INDEX_PATH = path.resolve(
-  path.dirname(fileURLToPath(import.meta.url)),
-  '../index.js',
-);
+// Published to npm as `lagunabeach-md`, so install snippets use the npx
+// one-liner — no clone required.
+const NPX_SERVE = 'npx -y lagunabeach-md mcp serve';
 
 export function mcpCommand(program) {
   const mcp = program
@@ -56,9 +51,7 @@ export function mcpCommand(program) {
       console.log('');
       console.log(chalk.gray('  Quick start (Claude Code):'));
       console.log(
-        chalk.cyan(
-          `    claude mcp add lagunabeachmd -- node ${INDEX_PATH} mcp serve`,
-        ),
+        chalk.cyan(`    claude mcp add lagunabeachmd -- ${NPX_SERVE}`),
       );
       console.log('');
     });
@@ -93,16 +86,10 @@ export function mcpCommand(program) {
       console.log(chalk.bold(`🔌 MCP install — ${opts.client}`));
       console.log('');
       if (opts.client === 'claude-code') {
-        console.log(
-          chalk.gray(
-            '  Run this once (not published to npm yet — runs from your clone):',
-          ),
-        );
+        console.log(chalk.gray('  Run this once:'));
         console.log('');
         console.log(
-          chalk.cyan(
-            `  claude mcp add lagunabeachmd -- node ${INDEX_PATH} mcp serve`,
-          ),
+          chalk.cyan(`  claude mcp add lagunabeachmd -- ${NPX_SERVE}`),
         );
         console.log('');
         console.log(
@@ -118,7 +105,7 @@ export function mcpCommand(program) {
       } else if (opts.client === 'claude-desktop') {
         console.log(
           chalk.gray(
-            '  Not published to npm yet — add this to ~/Library/Application Support/Claude/claude_desktop_config.json:',
+            '  Add this to ~/Library/Application Support/Claude/claude_desktop_config.json:',
           ),
         );
         console.log('');
@@ -126,8 +113,8 @@ export function mcpCommand(program) {
           {
             mcpServers: {
               lagunabeachmd: {
-                command: 'node',
-                args: [INDEX_PATH, 'mcp', 'serve'],
+                command: 'npx',
+                args: ['-y', 'lagunabeach-md', 'mcp', 'serve'],
               },
             },
           },
@@ -138,16 +125,16 @@ export function mcpCommand(program) {
       } else if (opts.client === 'cursor') {
         console.log(chalk.gray('  Cursor MCP config (via Settings → MCP):'));
         console.log('');
-        console.log(chalk.cyan('command: node'));
-        console.log(chalk.cyan(`args: ["${INDEX_PATH}", "mcp", "serve"]`));
+        console.log(chalk.cyan('command: npx'));
+        console.log(
+          chalk.cyan('args: ["-y", "lagunabeach-md", "mcp", "serve"]'),
+        );
       } else {
         console.log(
           chalk.yellow(`  Client "${opts.client}" not yet documented.`),
         );
         console.log(
-          chalk.gray(
-            `  Any MCP client works — point it at: node ${INDEX_PATH} mcp serve`,
-          ),
+          chalk.gray(`  Any MCP client works — point it at: ${NPX_SERVE}`),
         );
       }
       console.log('');

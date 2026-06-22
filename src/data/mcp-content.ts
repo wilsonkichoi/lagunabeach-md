@@ -261,7 +261,7 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
       'Universal stdio',
     ],
     installNotes: [
-      'Runs from your local clone — no npm package published yet. Once added, just ask Claude about Laguna Beach.',
+      'Zero install via npx. Once added, just ask Claude about Laguna Beach.',
       'No API-key prompt — because there is no API key. Add this to your Claude Desktop config.',
       'Add a new MCP server in Cursor’s settings.',
       'Any client that speaks MCP works — point it at this stdio command.',
@@ -269,7 +269,7 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
     installDesktopCode:
       'Add the JSON snippet below to your Claude Desktop config',
     installFootnoteHtml:
-      'You can print the right snippet anytime: <code class="mcp-inline">node cli/src/index.js mcp install --client claude-code</code>',
+      'You can print the right snippet anytime: <code class="mcp-inline">npx -y lagunabeach-md mcp install --client claude-code</code>',
 
     toolsTitle: 'MCP tools',
     toolsLeadHtml:
@@ -296,9 +296,9 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
 
     cliTitle: 'CLI tools',
     cliLead:
-      'Same knowledge base, straight from your terminal. Clone the repo and run from cli/:',
+      'Same knowledge base, straight from your terminal. Zero install via npx:',
     cliInstallComment:
-      '# from a clone: node cli/src/index.js search "main beach"',
+      '# or zero-install: npx lagunabeach-md search "main beach"',
     cliGroupTitles: [
       'Read & explore',
       'AI · RAG',
@@ -357,7 +357,7 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
       },
       {
         q: 'Is there a one-line npx install?',
-        a: 'Not yet — the CLI isn’t published to npm. Clone the repo and run it directly from cli/ for now.',
+        a: 'Yes: npx -y lagunabeach-md mcp serve. Node 18+ ships with npx. Pin a version with npx -y lagunabeach-md@0.2 mcp serve.',
       },
     ],
 

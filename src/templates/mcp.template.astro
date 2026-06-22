@@ -13,8 +13,8 @@
  * Design language borrows the Semiont palette (warm paper #f4f0ea on #03080a,
  * mint #38bdf8 accent, EKG separator, 🧬) — fitting, because this page is
  * LagunaBeach.md offering its body to other AIs (the reproduction organ's
- * developer-session surface). Real CLI source: `node cli/src/index.js --help`
- * (not yet published to npm); MCP server: cli/src/lib/mcp-server.js.
+ * developer-session surface). Real CLI source: `npx lagunabeach-md --help`
+ * (published to npm); MCP server: cli/src/lib/mcp-server.js.
  */
 import Layout from '../layouts/Layout.astro';
 import { getLangFromUrl } from '../i18n/utils';
@@ -24,9 +24,9 @@ const lang = getLangFromUrl(Astro.url) as McpLang;
 const c = MCP_CONTENT[lang] ?? MCP_CONTENT['zh-TW'];
 
 // ── SHARED structural data (identical across languages) ────────────────────
-// No npm package published yet — install runs from a local clone via `node`.
+// Published to npm as `lagunabeach-md` — install via the npx one-liner.
 const oneLiner =
-  'claude mcp add lagunabeachmd -- node cli/src/index.js mcp serve';
+  'claude mcp add lagunabeachmd -- npx -y lagunabeach-md mcp serve';
 
 const toolNames = [
   'lagunabeachmd_search',
@@ -55,11 +55,11 @@ const tools = toolNames.map((name, i) => ({
 const installCodes = [
   oneLiner,
   c.installDesktopCode,
-  'command: node\nargs: ["cli/src/index.js", "mcp", "serve"]',
-  'node cli/src/index.js mcp serve',
+  'command: npx\nargs: ["-y", "lagunabeach-md", "mcp", "serve"]',
+  'npx -y lagunabeach-md mcp serve',
 ];
 // No remote endpoint (Cloudflare Worker) yet, no .mcpb bundle — local-first
-// only for now. See cli/CONNECTOR.md for the clone-and-run path.
+// only for now. See cli/CONNECTOR.md for details.
 const installs = c.installClientLabels.map((client, i) => ({
   client,
   badge: c.installBadges[i],
@@ -296,10 +296,10 @@ const cliGroups = (() => {
         <div class="mcp-code mx-auto max-w-[620px]">
           <button
             class="copy-btn"
-            data-copy="git clone https://github.com/wilsonkichoi/lagunabeach-md && cd lagunabeach-md/cli && npm install"
+            data-copy="npx -y lagunabeach-md --help"
             aria-label={c.copyLabel}>{c.copyLabel}</button
           >
-          <pre><code>git clone https://github.com/wilsonkichoi/lagunabeach-md && cd lagunabeach-md/cli && npm install   {c.cliInstallComment}</code></pre>
+          <pre><code>npx -y lagunabeach-md --help   {c.cliInstallComment}</code></pre>
         </div>
 
         <div class="mt-8 space-y-9">
