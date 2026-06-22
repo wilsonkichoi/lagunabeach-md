@@ -49,6 +49,28 @@ const OUTPUT_PATH = path.join(PROJECT_ROOT, 'public/api/contributors.json');
 const REPO = 'wilsonkichoi/lagunabeach-md';
 const GH_TOKEN = process.env.GH_TOKEN || process.env.GITHUB_TOKEN || '';
 
+// ─── Fork boundary ───────────────────────────────────────────────────────────
+// LagunaBeach.md is a fork of Taiwan.md that carries the full upstream git
+// history, so GitHub /contributors returns every historical Taiwan.md author
+// (52). Those people authored the inherited infrastructure — they are not
+// LagunaBeach contributors. They're credited once, as Taiwan.md, in README/about
+// ("Built on Taiwan.md" + a link to upstream's contributor graph); this list is
+// scoped to people active at/after the fork point.
+//
+// The fork instant is fixed history: first LagunaBeach.md commit 2026-06-20T09:36:05Z
+// (Wilson Choi); last inherited Taiwan.md commit 2026-06-20T00:43:33Z (frank890417).
+// Anyone whose most-recent commit is at/after the cutoff is a LagunaBeach
+// contributor; the filter auto-includes future contributors with no manual upkeep.
+// Compared via epoch, NOT lexical string compare — git %ai timestamps carry
+// per-author UTC offsets, so same-calendar-date strings sort wrong across zones.
+const FORK_EPOCH_MS = new Date('2026-06-20T09:36:05Z').getTime();
+
+function isLagunaContributor(author, rcLogins) {
+  if (rcLogins.has(author.login.toLowerCase())) return true; // curated LB overlay
+  const t = author.lastCommitAt ? new Date(author.lastCommitAt).getTime() : 0;
+  return t >= FORK_EPOCH_MS;
+}
+
 // ─── Step 1: GitHub API contributors ─────────────────────────────────────────
 
 function fetchGh(urlPath) {
@@ -476,7 +498,15 @@ async function main() {
   const emailStats = parseGitLog();
   console.log(`   git log parsed → ${emailStats.size} unique emails`);
 
-  const authors = aggregateByLogin(contributors, emailStats);
+  const rcLogins = new Set(
+    readAllContributorsRc().map((c) => c.login.toLowerCase()),
+  );
+  const allAuthors = aggregateByLogin(contributors, emailStats);
+  const authors = allAuthors.filter((a) => isLagunaContributor(a, rcLogins));
+  console.log(
+    `   fork filter → ${authors.length}/${allAuthors.length} authors kept ` +
+      `(dropped ${allAuthors.length - authors.length} inherited Taiwan.md infra authors)`,
+  );
   const payload = buildPayload(authors);
 
   fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
