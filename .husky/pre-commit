@@ -159,6 +159,10 @@ if [ -n "$staged_for_scope" ]; then
   while IFS= read -r f; do
     [ -z "$f" ] && continue
     case "$f" in
+      # build-output FIRST: deterministic refresh-data.sh outputs. Must precede the
+      # broader scripts/* | public/* | knowledge/* cases below, since case matches
+      # top-down and these paths would otherwise be miscounted as authored domains.
+      public/api/*|src/data/*.json|scripts/tools/.quality-baseline.json|public/llms.txt|knowledge/_translation-status.json) d="build-output" ;;
       knowledge/*)                         d="content-ssot" ;;
       src/content/*)                       d="content-mirror" ;;
       docs/semiont/*)                      d="cognitive" ;;
@@ -166,7 +170,6 @@ if [ -n "$staged_for_scope" ]; then
       scripts/*|.husky/*)                  d="tooling" ;;
       .github/*)                           d="ci" ;;
       data/*)                              d="data" ;;
-      public/api/*|src/data/*.json|scripts/tools/.quality-baseline.json) d="build-output" ;;
       public/*)                            d="public" ;;
       src/*|astro.config.mjs|package.json|tsconfig.json|CHANGELOG.md|VERSION) d="code" ;;
       *)                                   d="other" ;;
