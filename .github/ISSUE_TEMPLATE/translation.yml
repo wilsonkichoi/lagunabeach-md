@@ -1,74 +1,62 @@
-name: 🌐 翻譯投稿 Translation Submission
-description: 提交翻譯好的文章（不會 Git 也能貢獻！）
-title: "translate({語言代碼}): {中文文章名} → {英文檔名}"
+name: 🌐 Translation Submission
+description: Submit a translated article (no Git needed!)
+title: "translate(zh-TW): {source article}"
 labels: ["translation"]
 body:
   - type: markdown
     attributes:
       value: |
-        ## 🌐 翻譯投稿
+        ## 🌐 Translation Submission
 
-        感謝你用 AI 幫台灣說故事！把翻譯好的文章貼在下面，維護者會幫你轉成 PR。
+        Thanks for helping translate LagunaBeach.md! Paste your translated article below and a maintainer will turn it into a PR.
 
-        > 💡 如果你會 Git，推薦直接開 PR — 更快被 merge！
+        > 💡 If you know Git, opening a PR directly is faster to merge.
 
   - type: dropdown
     id: language
     attributes:
-      label: 翻譯語言 Target Language
+      label: Target Language
       options:
-        - 🇬🇧 English (en)
-        - 🇪🇸 Español (es)
-        - 🇯🇵 日本語 (ja)
-        - 🇰🇷 한국어 (ko)
-        - 🇫🇷 Français (fr)
-        - 🇩🇪 Deutsch (de)
-        - 🇻🇳 Tiếng Việt (vi)
-        - 🇵🇹 Português (pt)
-        - 🇹🇭 ไทย (th)
-        - 🇮🇩 Bahasa Indonesia (id)
-        - Other（請在下方說明）
+        - 🇹🇼 中文 (zh-TW)
+        - Other (please describe below)
     validations:
       required: true
 
   - type: input
     id: source-article
     attributes:
-      label: 原文文章 Source Article
-      description: 你翻譯的是哪篇中文文章？
-      placeholder: "例：珍珠奶茶、半導體產業、台灣民主化"
+      label: Source Article
+      description: Which English article are you translating?
+      placeholder: "e.g. Pageant of the Masters, Tide Pools at Treasure Island"
     validations:
       required: true
 
   - type: input
     id: file-path
     attributes:
-      label: 建議檔案路徑 Suggested File Path
-      description: "格式：knowledge/{lang}/{Category}/{slug}.md"
-      placeholder: "例：knowledge/ja/Food/bubble-tea.md"
+      label: Suggested File Path
+      description: "Format: knowledge/{lang}/{Category}/{slug}.md"
+      placeholder: "e.g. knowledge/zh-TW/History/art-colony.md"
     validations:
       required: false
 
   - type: textarea
     id: translation-content
     attributes:
-      label: 翻譯內容 Translation Content
+      label: Translation Content
       description: |
-        貼上完整的 .md 檔案內容（含 frontmatter）。
-        如果用 AI 翻譯，建議先自己讀一遍確認品質。
+        Paste the full .md file content (with frontmatter).
+        If you used AI, please read it through once to check quality.
       placeholder: |
         ---
-        title: 'Bubble Tea'
+        title: '...'
         description: '...'
         date: 2026-03-23
-        tags: [food, bubble-tea]
-        category: Food
-        author: 'Taiwan.md Translation Team'
+        tags: [history]
+        category: History
         ---
 
-        # Bubble Tea
-
-        ...
+        # ...
       render: markdown
     validations:
       required: true
@@ -76,33 +64,32 @@ body:
   - type: dropdown
     id: ai-tool
     attributes:
-      label: 使用的 AI 工具 AI Tool Used
+      label: AI Tool Used
       options:
         - Claude
         - ChatGPT
         - Gemini
         - Copilot
         - Other
-        - 人工翻譯（無 AI）
+        - Human translation (no AI)
     validations:
       required: true
 
   - type: dropdown
     id: native-speaker
     attributes:
-      label: 你是這個語言的母語者嗎？ Are you a native speaker?
+      label: Are you a native speaker?
       options:
-        - ✅ 是 Yes
-        - ❌ 否 No
-        - 🔄 接近母語 Near-native
+        - ✅ Yes
+        - ❌ No
+        - 🔄 Near-native
     validations:
       required: true
 
   - type: textarea
     id: notes
     attributes:
-      label: 備註 Notes
-      description: 翻譯中遇到的困難、需要特別注意的地方等
-      placeholder: "例：某些台灣特有概念很難翻譯，我用了 XXX 的方式處理"
+      label: Notes
+      description: Any difficulties or things to watch out for.
     validations:
       required: false

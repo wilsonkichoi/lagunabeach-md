@@ -59,7 +59,7 @@ export async function initFeedbackWidget(): Promise<void> {
     }
 
     const ctx: Ctx = {
-      lang: root.dataset.lang || 'zh-TW',
+      lang: root.dataset.lang || 'en',
       slug: root.dataset.slug || '',
       category: root.dataset.category || '',
       title: root.dataset.title || '',
