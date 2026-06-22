@@ -1,14 +1,14 @@
 /**
- * Taiwan.md Supporters Command — Portaly 贊助資料 reader
+ * LagunaBeach.md Supporters Command — Portaly donation data reader
  *
- * Reads public/api/dashboard-supporters.json (derived from Gmail 透過
+ * Reads public/api/dashboard-supporters.json (derived from Gmail via
  * fetch-portaly-supporters.py). PII-safe by default: no names / emails
  * exposed in output.
  *
  * Usage:
- *   taiwanmd supporters                    # totals + recent
- *   taiwanmd supporters --since 2026-04-01
- *   taiwanmd supporters --json
+ *   lagunabeachmd supporters                    # totals + recent
+ *   lagunabeachmd supporters --since 2026-04-01
+ *   lagunabeachmd supporters --json
  */
 
 import fs from 'fs';
@@ -102,8 +102,8 @@ export function supportersCommand(program) {
           for (const t of shown) {
             const type =
               t.type === 'monthly'
-                ? chalk.cyan('月訂閱')
-                : chalk.yellow('一次性');
+                ? chalk.cyan('monthly')
+                : chalk.yellow('one-time');
             const anon = t.anonymous ? chalk.gray('anon') : chalk.gray('named');
             console.log(
               `    ${t.date}  ${formatTwd(t.amount).padEnd(10)}  ${type}  ${anon}`,

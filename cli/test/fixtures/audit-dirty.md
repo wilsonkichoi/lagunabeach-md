@@ -1,35 +1,36 @@
 ---
-title: '測試文章 — 多重幻覺'
+title: 'Test Article — Multiple Hallucinations'
 description: 'Stage 3.5 audit test fixture: article seeded with all 5 hallucination patterns for unit testing.'
 date: 2026-04-20
 tags: ['test']
 category: 'test'
 ---
 
-## 虛構獎項段
+## Fabricated Award Section
 
-2024 年他獲得第 62 屆中華民國十大傑出青年，成為該屆最年輕得主。
+In 2024, she won the 62nd Annual Heritage Award, becoming its youngest recipient.
 
-那一年他榮獲第 37 屆金鐘獎最佳主持人。
+That year he received the 37th Golden Bell Award for Best Host.
 
-## 人名 + 精確數字
+## Name + Precise Number
 
-有個學生 Kasper 跟了他整整兩學期。另一個學生 Jediah Coleman 在期末作業嚴重落後，他一週三次、總共花了 750 分鐘把對方從 HTML 基礎帶到 JavaScript 成品。
+A student named Jediah Coleman spent her lunch period helping him for 750 minutes total.
+Another student, Kasper, spent 2 semesters tutoring him after school.
 
-## 地點錯置
+## Location Displacement
 
-2021 年 12 月 2 日，盧森堡。他第一次走進實體畫廊而不是數位平台。
+On December 2, 2021, she set foot in Luxembourg for the first time, choosing a physical gallery over a digital platform.
 
-## 偽造引語
+## Fabricated Direct Quotes
 
-他在訪談裡說：「這就是未來的樣子，我們必須擁抱它。」
+In an interview, she said: "This is what the future looks like, and we have to embrace it now."
 
-她在開幕致詞時回答：「如果沒有這樣的事件，可能也不會那麼快地被大家認識。」
+At the opening remarks, she replied: "Without an event like this, people might not have discovered us so quickly."
 
-## 共創省略
+## Co-Creator Omission
 
-同年他共同創辦了某個基金會，開始在台灣推廣相關議題。
+That same year, he co-founded a new foundation to promote related causes in Laguna Beach.
 
-## 參考資料
+## References
 
-沒有任何參考資料 — 刻意的。
+No references — deliberately.

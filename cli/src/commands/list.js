@@ -58,10 +58,10 @@ function showCategories(articles) {
 
   const table = new Table({
     head: [
-      chalk.gray('分類'),
-      chalk.gray('文章數'),
-      chalk.gray('審閱率'),
-      chalk.gray('最新日期'),
+      chalk.gray('Category'),
+      chalk.gray('Articles'),
+      chalk.gray('Reviewed %'),
+      chalk.gray('Latest date'),
     ],
     style: { head: [], border: [] },
   });
@@ -88,9 +88,13 @@ function showCategories(articles) {
     ]);
   }
 
-  console.log(chalk.bold('\n  📂 所有分類\n'));
+  console.log(chalk.bold('\n  📂 All categories\n'));
   console.log(table.toString());
-  console.log(chalk.gray(`\n  💡 taiwanmd list <category>  →  瀏覽分類文章\n`));
+  console.log(
+    chalk.gray(
+      `\n  💡 lagunabeachmd list <category>  →  browse category articles\n`,
+    ),
+  );
 }
 
 /**
@@ -102,17 +106,17 @@ function showArticlesTable(articles, category) {
 
   console.log(
     chalk.bold(
-      `\n  ${emoji} ${label} — ${chalk.green(articles.length)} 篇文章\n`,
+      `\n  ${emoji} ${label} — ${chalk.green(articles.length)} articles\n`,
     ),
   );
 
   const table = new Table({
     head: [
       chalk.gray('#'),
-      chalk.gray('標題'),
-      chalk.gray('字數'),
-      chalk.gray('日期'),
-      chalk.gray('狀態'),
+      chalk.gray('Title'),
+      chalk.gray('Words'),
+      chalk.gray('Date'),
+      chalk.gray('Status'),
     ],
     style: { head: [], border: [] },
     colWidths: [5, 40, 10, 14, 10],
@@ -122,7 +126,7 @@ function showArticlesTable(articles, category) {
   articles.forEach((article, i) => {
     const reviewed =
       article.humanReviewed || article.human_reviewed
-        ? chalk.green('✓ 審閱')
+        ? chalk.green('✓ reviewed')
         : chalk.gray('—');
     const featured = article.featured ? chalk.yellow(' ★') : '';
 
@@ -136,7 +140,9 @@ function showArticlesTable(articles, category) {
   });
 
   console.log(table.toString());
-  console.log(chalk.gray(`\n  💡 taiwanmd read <slug>  →  閱讀全文\n`));
+  console.log(
+    chalk.gray(`\n  💡 lagunabeachmd read <slug>  →  read full article\n`),
+  );
 }
 
 export function listCommand(program) {
@@ -184,9 +190,13 @@ export function listCommand(program) {
         articles = sortArticles(articles, opts.sort);
 
         if (articles.length === 0) {
-          console.log(chalk.yellow(`\n  找不到分類「${category}」的文章。\n`));
           console.log(
-            chalk.gray('  💡 taiwanmd list --categories  →  查看所有分類\n'),
+            chalk.yellow(`\n  No articles found in category "${category}".\n`),
+          );
+          console.log(
+            chalk.gray(
+              '  💡 lagunabeachmd list --categories  →  see all categories\n',
+            ),
           );
           return;
         }
@@ -199,8 +209,12 @@ export function listCommand(program) {
 
         showArticlesTable(articles, category);
       } catch (err) {
-        console.error(chalk.red(`載入失敗: ${err.message}`));
-        console.log(chalk.gray('\n  💡 請先執行 taiwanmd sync 同步知識庫。\n'));
+        console.error(chalk.red(`Failed to load: ${err.message}`));
+        console.log(
+          chalk.gray(
+            '\n  💡 Run lagunabeachmd sync first to sync the knowledge base.\n',
+          ),
+        );
         process.exit(1);
       }
     });

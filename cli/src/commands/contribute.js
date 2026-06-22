@@ -1,11 +1,11 @@
 /**
- * Taiwan.md Contribute Command
+ * LagunaBeach.md Contribute Command
  *
  * Interactive guided article creation workflow.
  * Helps contributors create a properly structured knowledge article.
  *
  * Usage:
- *   taiwanmd contribute "珍珠奶茶的歷史"
+ *   lagunabeachmd contribute "History of Main Beach"
  */
 
 import fs from 'fs';
@@ -22,23 +22,18 @@ const CLI_ROOT = path.resolve(__dirname, '../..');
 const REPO_ROOT = path.resolve(CLI_ROOT, '..');
 
 const CATEGORIES = [
-  'Culture',
-  'Economy',
-  'Food',
-  'Geography',
-  'Government',
   'History',
-  'Language',
-  'Military',
-  'People',
-  'Religion',
-  'Science',
-  'Society',
-  'Sports',
+  'Art & Galleries',
+  'Nature & Marine Life',
+  'Food',
+  'Beaches',
+  'Trails',
+  'Events & Festivals',
+  'Neighborhoods',
 ];
 
 /**
- * Determine if running inside the Taiwan.md monorepo.
+ * Determine if running inside the LagunaBeach.md monorepo.
  */
 function isInRepo() {
   const repoKnowledge = path.join(REPO_ROOT, 'knowledge');
@@ -77,11 +72,10 @@ function generateFrontmatter(topic, category) {
   const slug = toSlug(topic);
   return `---
 title: "${topic}"
-description: "關於${topic}的介紹與說明"
+description: "An introduction to ${topic}"
 date: ${todayDate()}
 tags:
   - ${category.toLowerCase()}
-  - taiwan
 category: ${category.toLowerCase()}
 slug: ${slug}
 revision: 1
@@ -93,27 +87,27 @@ revision: 1
  */
 function generateSkeleton(topic) {
   return `
-## 概述
+## Overview
 
-${topic}是台灣重要的文化/歷史/社會面向之一。本文將介紹其背景、發展與當代意義。
+${topic} is a notable part of Laguna Beach's history, culture, or natural environment. This section introduces its background, development, and present-day significance.
 
-## 歷史背景
+## History
 
-說明${topic}的起源與歷史脈絡。
+Describe the origins and historical context of ${topic}.
 
-## 當代發展
+## Today
 
-分析${topic}在現代台灣社會中的角色與發展趨勢。
+Describe ${topic}'s current role and how it's experienced in Laguna Beach today.
 
-## 國際比較
+## See Also
 
-與其他國家或地區的類似現象進行比較分析。
+Note related neighborhoods, trails, or articles via [[wiki-links]].
 
-## 參考資料
+## References
 
-- [來源一](https://example.com/source1)
-- [來源二](https://example.com/source2)
-- [來源三](https://example.com/source3)
+- [Source 1](https://example.com/source1)
+- [Source 2](https://example.com/source2)
+- [Source 3](https://example.com/source3)
 `;
 }
 
@@ -129,7 +123,7 @@ function prompt(rl, question) {
 export function contributeCommand(program) {
   program
     .command('contribute <topic>')
-    .description('Interactive guided article creation for Taiwan.md')
+    .description('Interactive guided article creation for LagunaBeach.md')
     .action(async (topic) => {
       try {
         await ensureData({ quiet: true });
@@ -141,22 +135,27 @@ export function contributeCommand(program) {
         });
 
         // Show category list
-        console.log(chalk.bold('\n📝 Taiwan.md 文章貢獻嚮導\n'));
-        console.log(chalk.gray('請選擇文章分類：\n'));
+        console.log(
+          chalk.bold('\n📝 LagunaBeach.md article contribution wizard\n'),
+        );
+        console.log(chalk.gray('Choose an article category:\n'));
         CATEGORIES.forEach((cat, i) => {
           console.log(chalk.cyan(`  ${i + 1}.`) + ` ${cat}`);
         });
         console.log('');
 
         // Ask for category selection
-        const answer = await prompt(rl, chalk.bold('輸入分類編號 (1-13): '));
+        const answer = await prompt(
+          rl,
+          chalk.bold(`Enter category number (1-${CATEGORIES.length}): `),
+        );
         rl.close();
 
         const catIndex = parseInt(answer, 10) - 1;
         if (isNaN(catIndex) || catIndex < 0 || catIndex >= CATEGORIES.length) {
           console.error(
             chalk.red(
-              `\n❌ 無效的選擇: "${answer}"。請輸入 1-${CATEGORIES.length} 之間的數字。\n`,
+              `\n❌ Invalid choice: "${answer}". Enter a number between 1 and ${CATEGORIES.length}.\n`,
             ),
           );
           process.exit(1);
@@ -174,7 +173,7 @@ export function contributeCommand(program) {
           }
           outputPath = path.join(knowledgeDir, `${slug}.md`);
         } else {
-          const draftsDir = path.join(os.homedir(), '.taiwanmd', 'drafts');
+          const draftsDir = path.join(os.homedir(), '.lagunabeachmd', 'drafts');
           if (!fs.existsSync(draftsDir)) {
             fs.mkdirSync(draftsDir, { recursive: true });
           }
@@ -183,8 +182,12 @@ export function contributeCommand(program) {
 
         // Check if file already exists
         if (fs.existsSync(outputPath)) {
-          console.warn(chalk.yellow(`\n⚠️  檔案已存在: ${outputPath}\n`));
-          console.log(chalk.gray('請手動編輯或刪除後重新執行。\n'));
+          console.warn(
+            chalk.yellow(`\n⚠️  File already exists: ${outputPath}\n`),
+          );
+          console.log(
+            chalk.gray('Edit it manually, or delete it and re-run.\n'),
+          );
           process.exit(1);
         }
 
@@ -197,21 +200,23 @@ export function contributeCommand(program) {
         fs.writeFileSync(outputPath, content, 'utf8');
 
         // Success output
-        console.log(chalk.green(`\n✅ 檔案已建立: ${outputPath}\n`));
-        console.log(chalk.bold('接下來:'));
+        console.log(chalk.green(`\n✅ File created: ${outputPath}\n`));
+        console.log(chalk.bold('Next steps:'));
         console.log(
-          chalk.cyan(`  1. 編輯文章內容`) + chalk.gray(` → ${outputPath}`),
+          chalk.cyan(`  1. Edit the article`) + chalk.gray(` → ${outputPath}`),
         );
         console.log(
-          chalk.cyan(`  2. 驗證文章品質`) +
-            chalk.gray(` → taiwanmd validate ${slug}`),
+          chalk.cyan(`  2. Validate quality`) +
+            chalk.gray(` → lagunabeachmd validate ${slug}`),
         );
         console.log(
-          chalk.cyan(`  3. 提交貢獻`) + chalk.gray(` → git add + commit + PR`),
+          chalk.cyan(`  3. Submit`) + chalk.gray(` → git add + commit + PR`),
         );
         console.log('');
       } catch (err) {
-        console.error(chalk.red(`\n❌ 建立失敗: ${err.message}\n`));
+        console.error(
+          chalk.red(`\n❌ Failed to create article: ${err.message}\n`),
+        );
         process.exit(1);
       }
     });

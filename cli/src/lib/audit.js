@@ -4,7 +4,7 @@
  * Pure functions for pattern detection. Extracted from commands/audit.js
  * so vitest can import and unit-test them directly.
  *
- * Reference: MANIFESTO §10 幻覺鐵律 + REWRITE-PIPELINE Stage 3.5.
+ * Reference: MANIFESTO §10 anti-hallucination iron rule + REWRITE-PIPELINE Stage 3.5.
  * 5 hallucination patterns:
  *   1. Award hallucination
  *   2. Names + precise numbers
@@ -14,49 +14,49 @@
  */
 
 export const AWARD_PATTERNS = [
-  // 第 N 屆 XX 獎 / 第 N 屆 XX (十大傑出青年 style — no 獎 suffix)
-  /第\s*(?:\d+|[一二三四五六七八九十百]+)\s*屆[^。\n]{0,30}?(?:獎|傑出青年|名人堂|殿堂|得主|入圍)/g,
-  /第\s*(?:\d+|[一二三四五六七八九十百]+)\s*次[^。\n]{0,30}?獎/g,
-  // YYYY 年 ... 獲 ... 獎 / 傑出青年 / 得主
-  /\d{4}\s*年[^。\n]{0,25}?(?:獲|榮獲|得獎|首獎|入圍|拿下)[^。\n]{0,30}?(?:獎|傑出青年|名人堂|殿堂|得主)/g,
+  // "won the Nth annual X award" / "Nth X Award"
+  /\bthe\s+\d+(?:st|nd|rd|th)\s+(?:annual\s+)?[^.\n]{0,40}?\b(?:Award|Medal|Prize|Hall of Fame)\b/gi,
+  // "received / won / was awarded ... Award/Medal/Prize"
+  /\b(?:received|won|was awarded|earned)\s+(?:the\s+)?[^.\n]{0,40}?\b(?:Award|Medal|Prize|Hall of Fame)\b/gi,
+  // "in YYYY ... won/received ... Award"
+  /\bin\s+\d{4}[^.\n]{0,30}?\b(?:won|received|was awarded|earned)\b[^.\n]{0,30}?\b(?:Award|Medal|Prize|Hall of Fame)\b/gi,
 ];
 
 export const NAME_NUMBER_PATTERNS = [
-  // English name + (within one sentence, allowing Chinese comma) + NNN 分鐘/mins
-  // Use [\s\S] to allow 「，」「、」while capping total distance.
-  /([A-Z][a-z]+(?:\s[A-Z][a-z]+)*)[\s\S]{1,80}?(\d{2,4})\s*(?:分鐘|mins?|minutes)/g,
-  // English name + (跟了/陪了/花了) + N 學期/週/次 (allow Chinese numerals 兩/三/四 etc.)
-  /([A-Z][a-z]+)[\s\S]{0,40}?(?:跟了|陪了|花了)[\s\S]{0,15}?(\d+|[一二三四五六七八九十兩])\s*(?:學期|週|次)/g,
+  // Capitalized name + precise duration in minutes/hours within one sentence
+  /([A-Z][a-z]+(?:\s[A-Z][a-z]+)*)[\s\S]{1,80}?(\d{2,4})\s*(?:mins?|minutes|hours?)\b/g,
+  // Capitalized name + "spent N semesters/weeks/years/times with"
+  /([A-Z][a-z]+)[\s\S]{0,40}?spent[\s\S]{0,15}?(\d+)\s*(?:semesters?|weeks?|years?|times)\b/gi,
 ];
 
 export const FOREIGN_CITIES = [
-  '盧森堡',
-  '米蘭',
-  '巴黎',
-  '柏林',
-  '倫敦',
-  '紐約',
-  '東京',
-  '首爾',
-  '阿姆斯特丹',
-  '斯德哥爾摩',
-  '維也納',
-  '蘇黎世',
-  '布魯塞爾',
-  '哥本哈根',
-  '赫爾辛基',
-  '布拉格',
-  '華沙',
-  '雅典',
-  '羅馬',
+  'Luxembourg',
+  'Milan',
+  'Paris',
+  'Berlin',
+  'London',
+  'New York',
+  'Tokyo',
+  'Seoul',
+  'Amsterdam',
+  'Stockholm',
+  'Vienna',
+  'Zurich',
+  'Brussels',
+  'Copenhagen',
+  'Helsinki',
+  'Prague',
+  'Warsaw',
+  'Athens',
+  'Rome',
 ];
 
-export const QUOTE_PATTERNS = [/「[^」]{15,200}」/g];
+export const QUOTE_PATTERNS = [/[""]([^""]{15,200})[""]|"([^"]{15,200})"/g];
 
 export const COCREATOR_PATTERNS = [
-  /共同創辦了\s*(?!.*?(?:和|與|及))[^，。\n]{0,40}/g,
-  /共同創立了\s*(?!.*?(?:和|與|及))[^，。\n]{0,40}/g,
-  /聯合發起了\s*(?!.*?(?:和|與|及))[^，。\n]{0,40}/g,
+  /\bco-founded\s+[^.\n]{0,60}/gi,
+  /\bco-created\s+[^.\n]{0,60}/gi,
+  /\bjointly\s+founded\s+[^.\n]{0,60}/gi,
 ];
 
 /** Line number (1-indexed) for a byte offset in body. */
@@ -154,9 +154,13 @@ export function extractClaims(body) {
     let m;
     while ((m = pattern.exec(body)) !== null) {
       const line = getLineNumber(body, m.index);
-      // Suppress if name appears before 「共同創辦了」via 「跟/和/與/及」
+      // Suppress if "with NAME" appears nearby (co-founder is named, not omitted)
+      const contextAfter = body.slice(m.index, m.index + 80);
       const contextBefore = body.slice(Math.max(0, m.index - 40), m.index);
-      if (/(?:跟|和|與|及)[\u4e00-\u9fff\w]{1,15}$/.test(contextBefore)) {
+      if (
+        /\bwith\s+[A-Z][a-z]+/.test(contextAfter) ||
+        /[A-Z][a-z]+\s+and\s+[A-Z][a-z]+\s*$/.test(contextBefore)
+      ) {
         continue;
       }
       claims.cocreator.push({

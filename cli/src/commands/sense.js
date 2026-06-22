@@ -1,14 +1,14 @@
 /**
- * Taiwan.md Sense Command — GA4 / Search Console / Cloudflare sense data
+ * LagunaBeach.md Sense Command — GA4 / Search Console / Cloudflare sense data
  *
  * Reads public/api/dashboard-analytics.json. The name "sense" reflects
- * Semiont 的 §感知器官 (perception organs) in ANATOMY.md.
+ * Semiont's §perception organs in ANATOMY.md.
  *
  * Usage:
- *   taiwanmd sense                   # today's snapshot
- *   taiwanmd sense --range 7d        # 7-day window
- *   taiwanmd sense --source ga       # filter to GA / sc / cf
- *   taiwanmd sense --json
+ *   lagunabeachmd sense                   # today's snapshot
+ *   lagunabeachmd sense --range 7d        # 7-day window
+ *   lagunabeachmd sense --source ga       # filter to GA / sc / cf
+ *   lagunabeachmd sense --json
  */
 
 import fs from 'fs';

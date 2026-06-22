@@ -1,5 +1,5 @@
 /**
- * Taiwan.md Knowledge Base Access
+ * LagunaBeach.md Knowledge Base Access
  *
  * Detects whether the CLI is running inside the repo or standalone,
  * and provides unified access to knowledge base articles and API data.
@@ -18,12 +18,14 @@ const CLI_ROOT = path.resolve(__dirname, '../..');
 // Repo root (one level above cli/)
 const REPO_ROOT = path.resolve(CLI_ROOT, '..');
 
-const STANDALONE_DATA_DIR = path.join(os.homedir(), '.taiwanmd');
+const STANDALONE_DATA_DIR = path.join(os.homedir(), '.lagunabeachmd');
 const STANDALONE_KNOWLEDGE_DIR = path.join(STANDALONE_DATA_DIR, 'knowledge');
 const STANDALONE_CACHE_DIR = path.join(STANDALONE_DATA_DIR, 'cache');
 
-// Language subdirectories and special files to exclude from zh-TW article listing
-const EXCLUDED_DIRS = new Set(['en', 'es', 'ja', 'ko', 'resources']);
+// Language subdirectories and special files to exclude from the default
+// (English) article listing. LagunaBeach.md flips upstream's default: en is
+// canonical at the top level, zh-TW is the secondary translated subdir.
+const EXCLUDED_DIRS = new Set(['zh-TW', 'es', 'ja', 'ko', 'fr', 'resources']);
 
 /**
  * Determine if we are running inside the repo (i.e. ../knowledge/ exists).
@@ -38,7 +40,7 @@ function isInRepo() {
 /**
  * Get the knowledge base root path.
  * In-repo: <repo>/knowledge/
- * Standalone: ~/.taiwanmd/knowledge/
+ * Standalone: ~/.lagunabeachmd/knowledge/
  */
 export function getKnowledgePath() {
   if (isInRepo()) {
@@ -50,7 +52,7 @@ export function getKnowledgePath() {
 /**
  * Get the API data path.
  * In-repo: <repo>/public/api/
- * Standalone: ~/.taiwanmd/cache/
+ * Standalone: ~/.lagunabeachmd/cache/
  */
 export function getApiPath() {
   if (isInRepo()) {
@@ -88,14 +90,14 @@ export function getArticleFiles() {
 
 /**
  * Collect all article markdown files for a given language.
- * For lang 'zh' (default), delegates to getArticleFiles().
- * For other langs (en, ja, es), scans knowledge/{lang}/ directory.
+ * For lang 'en' (default), delegates to getArticleFiles().
+ * For other langs (zh-TW, ja, es, ko, fr), scans knowledge/{lang}/ directory.
  *
- * @param {string} lang - Language code: 'zh', 'en', 'ja', 'es'
+ * @param {string} lang - Language code: 'en', 'zh-TW', 'ja', 'es', 'ko', 'fr'
  * @returns {string[]} Array of absolute file paths
  */
 export function getArticleFilesForLang(lang) {
-  if (!lang || lang === 'zh' || lang === 'zh-TW') {
+  if (!lang || lang === 'en') {
     return getArticleFiles();
   }
 

@@ -14,7 +14,9 @@ import { graphCommand } from './commands/graph.js';
 import { ragCommand } from './commands/rag.js';
 import { contributeCommand } from './commands/contribute.js';
 import { validateCommand } from './commands/validate.js';
-import { terminologyCommand } from './commands/terminology.js';
+// terminology.js not registered — Taiwan/China Mandarin terminology
+// conversion has no equivalent axis for LagunaBeach.md. File kept,
+// command unregistered.
 // v0.6 — canonical sync (MANIFESTO #10 + Stage 3.5 + ARTICLE-INBOX + SPORE-LOG)
 import { auditCommand } from './commands/audit.js';
 import { inboxCommand } from './commands/inbox.js';
@@ -33,11 +35,11 @@ import { mailmapCommand } from './commands/mailmap.js';
 const program = new Command();
 
 program
-  .name('taiwanmd')
+  .name('lagunabeachmd')
   .description(
-    'Taiwan.md — 台灣知識庫 CLI\nSearch, read, and explore 900+ curated articles about Taiwan.',
+    'LagunaBeach.md — Laguna Beach knowledge base CLI\nSearch, read, and explore curated articles about Laguna Beach, California.',
   )
-  .version('0.7.0');
+  .version('0.1.0');
 
 // v0.5 — existing commands
 searchCommand(program);
@@ -54,7 +56,6 @@ graphCommand(program);
 ragCommand(program);
 contributeCommand(program);
 validateCommand(program);
-terminologyCommand(program);
 
 // v0.6 — canonical sync release
 auditCommand(program);

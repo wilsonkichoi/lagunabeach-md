@@ -1,14 +1,19 @@
 /**
- * Taiwan.md Audit Command — Stage 3.5 Hallucination Audit
+ * LagunaBeach.md Audit Command — Stage 3.5 Hallucination Audit
  *
  * Local runner for REWRITE-PIPELINE Stage 3.5 HALLUCINATION AUDIT.
  * Detection logic lives in lib/audit.js so tests can import it directly.
  *
  * Usage:
- *   taiwanmd audit 珍珠奶茶
- *   taiwanmd audit 王新仁 --json
- *   taiwanmd audit 台積電 --strict
- *   taiwanmd audit 吳哲宇 --fix-interactive
+ *   lagunabeachmd audit main-beach
+ *   lagunabeachmd audit pageant-of-the-masters --json
+ *   lagunabeachmd audit heisler-park --strict
+ *   lagunabeachmd audit eiler-larsen --fix-interactive
+ *
+ * Note: detection patterns in lib/audit.js (award phrasing, transliterated
+ * city names, etc.) were written for Chinese-language Taiwan.md content and
+ * are largely no-ops against English text. Flagged as a known gap, not yet
+ * rewritten for English hallucination patterns.
  */
 
 import path from 'path';
@@ -84,7 +89,7 @@ export function auditCommand(program) {
         await ensureData({ quiet: true });
         const filePath = findArticleBySlug(slug);
         if (!filePath) {
-          const msg = `找不到文章: "${slug}". 請確認 slug 正確，或先執行 taiwanmd sync。`;
+          const msg = `Article not found: "${slug}". Check the slug, or run lagunabeachmd sync first.`;
           if (opts.json) {
             console.log(JSON.stringify({ error: msg }, null, 2));
           } else {
@@ -168,7 +173,7 @@ export function auditCommand(program) {
         console.log(chalk.bold(`Verdict: ${verdict.label}`));
         console.log(
           chalk.gray(
-            '  Reference: MANIFESTO §10 幻覺鐵律 + REWRITE-PIPELINE Stage 3.5',
+            '  Reference: MANIFESTO §10 anti-hallucination iron rule + REWRITE-PIPELINE Stage 3.5',
           ),
         );
         console.log('');

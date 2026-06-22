@@ -1,8 +1,8 @@
 /**
- * taiwanmd today — 今日台灣
+ * lagunabeachmd today — Today's Laguna Beach
  *
  * Shows a daily discovery card with 3 articles from different categories
- * and a "冷知識" fun fact. Results are deterministic per calendar day.
+ * and a fun fact. Results are deterministic per calendar day.
  */
 
 import chalk from 'chalk';
@@ -89,14 +89,18 @@ function stripAnsi(str) {
 export function todayCommand(program) {
   program
     .command('today')
-    .description('今日台灣 — 每日精選三篇文章 + 冷知識')
+    .description("Today's Laguna Beach — 3 daily picks + a fun fact")
     .action(async () => {
       try {
         await ensureData();
         const articles = loadArticles();
 
         if (!articles || articles.length === 0) {
-          console.log(chalk.yellow('\n  找不到文章，請先執行 taiwanmd sync\n'));
+          console.log(
+            chalk.yellow(
+              '\n  No articles found — run lagunabeachmd sync first\n',
+            ),
+          );
           return;
         }
 
@@ -121,11 +125,11 @@ export function todayCommand(program) {
           return inCat[idx];
         });
 
-        // Pick one article for the 冷知識 (can be any of the picked ones)
+        // Pick one article for the fun fact (can be any of the picked ones)
         const factArticle = picked[Math.floor(rng() * picked.length)];
         const factDesc = factArticle.description || factArticle.excerpt || '';
         const funFact =
-          trunc(factDesc, 80) || `關於「${factArticle.title}」的有趣知識`;
+          trunc(factDesc, 80) || `A fun fact about "${factArticle.title}"`;
 
         // ── Render ──────────────────────────────────────────────
         const W = 60; // inner width (between ║ and ║)
@@ -140,7 +144,8 @@ export function todayCommand(program) {
         console.log(top);
         // Title row
         const titleStr =
-          chalk.bold.yellow('  🇹🇼  今日台灣') + chalk.gray(`  ${today}`);
+          chalk.bold.yellow("  🌊  Today's Laguna Beach") +
+          chalk.gray(`  ${today}`);
         console.log(boxLine(titleStr, W, bc));
         console.log(empty);
 
@@ -167,8 +172,8 @@ export function todayCommand(program) {
 
         console.log(sep);
 
-        // 冷知識
-        const factTitle = chalk.bold.magenta('  💡 今日冷知識');
+        // Fun fact
+        const factTitle = chalk.bold.magenta("  💡 Today's fun fact");
         console.log(boxLine(factTitle, W, bc));
         console.log(empty);
 
@@ -203,18 +208,24 @@ export function todayCommand(program) {
         console.log('');
         console.log(
           chalk.gray('  → ') +
-            chalk.cyan(`taiwanmd read ${slug}`) +
-            chalk.gray('  深入閱讀'),
+            chalk.cyan(`lagunabeachmd read ${slug}`) +
+            chalk.gray('  read more'),
         );
         console.log(
           chalk.gray('  → ') +
-            chalk.cyan('taiwanmd random') +
-            chalk.gray('  隨機探索'),
+            chalk.cyan('lagunabeachmd random') +
+            chalk.gray('  explore randomly'),
         );
         console.log('');
       } catch (err) {
-        console.error(chalk.red(`今日台灣載入失敗: ${err.message}`));
-        console.log(chalk.gray('\n  💡 請先執行 taiwanmd sync 同步知識庫。\n'));
+        console.error(
+          chalk.red(`Failed to load today's picks: ${err.message}`),
+        );
+        console.log(
+          chalk.gray(
+            '\n  💡 Run lagunabeachmd sync first to sync the knowledge base.\n',
+          ),
+        );
         process.exit(1);
       }
     });

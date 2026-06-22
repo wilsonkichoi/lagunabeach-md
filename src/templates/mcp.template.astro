@@ -1,19 +1,20 @@
 ---
 /**
- * /mcp — Taiwan.md Connector + CLI landing/docs page (multilingual).
+ * /mcp — LagunaBeach.md Connector + CLI landing/docs page (multilingual).
  *
- * Single authoritative entry point for the MCP server and the taiwanmd CLI:
- * what it is, install per client, the 6 MCP tools, the CLI commands, how it
- * works + privacy, FAQ. Language-aware via getLangFromUrl() — prose comes from
- * src/data/mcp-content.ts (zh-TW / en / ja / ko / es / fr); code, commands,
+ * Single authoritative entry point for the MCP server and the lagunabeachmd
+ * CLI: what it is, install per client, the 6 MCP tools, the CLI commands, how
+ * it works + privacy, FAQ. Language-aware via getLangFromUrl() — prose comes
+ * from src/data/mcp-content.ts (zh-TW / en / ja / ko / es / fr, only `en` is
+ * LB-accurate so far — see CLI scope note in MIGRATION.md); code, commands,
  * tool names, CLI signatures and examples stay SHARED here (identical across
  * languages) and are zipped with the per-lang description arrays by index.
  *
  * Design language borrows the Semiont palette (warm paper #f4f0ea on #03080a,
  * mint #38bdf8 accent, EKG separator, 🧬) — fitting, because this page is
- * Taiwan.md offering its body to other AIs (the reproduction organ's
- * developer-session surface). Real CLI source: `taiwanmd --help`; MCP server:
- * cli/src/lib/mcp-server.js.
+ * LagunaBeach.md offering its body to other AIs (the reproduction organ's
+ * developer-session surface). Real CLI source: `node cli/src/index.js --help`
+ * (not yet published to npm); MCP server: cli/src/lib/mcp-server.js.
  */
 import Layout from '../layouts/Layout.astro';
 import { getLangFromUrl } from '../i18n/utils';
@@ -23,21 +24,23 @@ const lang = getLangFromUrl(Astro.url) as McpLang;
 const c = MCP_CONTENT[lang] ?? MCP_CONTENT['zh-TW'];
 
 // ── SHARED structural data (identical across languages) ────────────────────
-const oneLiner = 'claude mcp add taiwanmd -- npx -y taiwanmd mcp serve';
+// No npm package published yet — install runs from a local clone via `node`.
+const oneLiner =
+  'claude mcp add lagunabeachmd -- node cli/src/index.js mcp serve';
 
 const toolNames = [
-  'taiwanmd_search',
-  'taiwanmd_read',
-  'taiwanmd_rag',
-  'taiwanmd_cite',
-  'taiwanmd_organs',
-  'taiwanmd_stats',
+  'lagunabeachmd_search',
+  'lagunabeachmd_read',
+  'lagunabeachmd_rag',
+  'lagunabeachmd_cite',
+  'lagunabeachmd_organs',
+  'lagunabeachmd_stats',
 ];
 const toolInputs = [
-  '{ "query": "半導體", "limit": 5 }',
-  '{ "slug": "珍珠奶茶" }',
-  '{ "query": "台灣健保", "limit": 3 }',
-  '{ "query": "台積電", "limit": 3 }',
+  '{ "query": "tide pools", "limit": 5 }',
+  '{ "slug": "main-beach" }',
+  '{ "query": "Pageant of the Masters", "limit": 3 }',
+  '{ "query": "Heisler Park", "limit": 3 }',
   '{}',
   '{}',
 ];
@@ -46,57 +49,80 @@ const tools = toolNames.map((name, i) => ({
   input: toolInputs[i],
   desc: c.toolDescs[i],
   returns: c.toolReturns[i],
-  highlight: i === 3, // taiwanmd_cite
+  highlight: i === 3, // lagunabeachmd_cite
 }));
 
 const installCodes = [
   oneLiner,
   c.installDesktopCode,
-  'command: npx\nargs: ["-y", "taiwanmd", "mcp", "serve"]',
-  'npx -y taiwanmd mcp serve',
+  'command: node\nargs: ["cli/src/index.js", "mcp", "serve"]',
+  'node cli/src/index.js mcp serve',
 ];
-// Optional remote endpoint (Cloudflare Worker) — thin-client path. Local-first
-// stays primary; this is the secondary entry for clients that can't run Node.
-const remoteUrl = 'https://mcp.taiwan.md';
-const installs = [
-  ...c.installClientLabels.map((client, i) => ({
-    client,
-    badge: c.installBadges[i],
-    code: installCodes[i],
-    note: c.installNotes[i],
-    // Claude Desktop (i===1) gets a real .mcpb download button.
-    download: i === 1 ? { href: '/downloads/taiwanmd.mcpb', label: c.downloadLabel } : null,
-  })),
-  {
-    client: 'Remote · any MCP client',
-    badge: 'mcp-remote',
-    code: `npx mcp-remote ${remoteUrl}`,
-    note: c.remoteNote,
-    download: null,
-  },
-];
+// No remote endpoint (Cloudflare Worker) yet, no .mcpb bundle — local-first
+// only for now. See cli/CONNECTOR.md for the clone-and-run path.
+const installs = c.installClientLabels.map((client, i) => ({
+  client,
+  badge: c.installBadges[i],
+  code: installCodes[i],
+  note: c.installNotes[i],
+  download: null,
+}));
 
 // CLI command signatures + examples are SHARED; descriptions come from content.
 // Order MUST match mcp-content.ts cliDescs + cliGroupTitles/cliGroupSizes.
 const cliSig = [
-  'search <query>', 'read <slug>', 'list [category]', 'random', 'today',
-  'quiz', 'explore', 'graph <slug>', 'diff', 'terminology',
-  'rag <query>', 'cite <query>', 'mcp serve',
-  'contribute <topic>', 'validate <slug>', 'audit <slug>', 'inbox', 'sync',
-  'organs', 'stats', 'sense', 'spore', 'supporters',
-  'profile', 'mailmap',
+  'search <query>',
+  'read <slug>',
+  'list [category]',
+  'random',
+  'today',
+  'quiz',
+  'explore',
+  'graph <slug>',
+  'diff',
+  'rag <query>',
+  'cite <query>',
+  'mcp serve',
+  'contribute <topic>',
+  'validate <slug>',
+  'audit <slug>',
+  'inbox',
+  'sync',
+  'organs',
+  'stats',
+  'sense',
+  'spore',
+  'supporters',
+  'profile',
+  'mailmap',
 ];
 const cliEx = [
-  'taiwanmd search 珍珠奶茶', 'taiwanmd read 珍珠奶茶 --raw', 'taiwanmd list food',
-  'taiwanmd random --category nature', 'taiwanmd today', 'taiwanmd quiz',
-  'taiwanmd explore', 'taiwanmd graph 珍珠奶茶', 'taiwanmd diff', 'taiwanmd term 滑鼠',
-  'taiwanmd rag "台灣經濟"', 'taiwanmd cite 台積電', 'taiwanmd mcp serve',
-  'taiwanmd contribute 阿里山', 'taiwanmd validate 珍珠奶茶', 'taiwanmd audit 王新仁',
-  'taiwanmd inbox --state pending', 'taiwanmd sync',
-  'taiwanmd organs', 'taiwanmd stats', 'taiwanmd sense', 'taiwanmd spore log',
-  'taiwanmd supporters', 'taiwanmd profile', 'taiwanmd mailmap',
+  'lagunabeachmd search "main beach"',
+  'lagunabeachmd read main-beach --raw',
+  'lagunabeachmd list food',
+  'lagunabeachmd random --category beaches',
+  'lagunabeachmd today',
+  'lagunabeachmd quiz',
+  'lagunabeachmd explore',
+  'lagunabeachmd graph main-beach',
+  'lagunabeachmd diff',
+  'lagunabeachmd rag "Pageant of the Masters"',
+  'lagunabeachmd cite "Heisler Park"',
+  'lagunabeachmd mcp serve',
+  'lagunabeachmd contribute "Crystal Cove"',
+  'lagunabeachmd validate main-beach',
+  'lagunabeachmd audit main-beach',
+  'lagunabeachmd inbox --state pending',
+  'lagunabeachmd sync',
+  'lagunabeachmd organs',
+  'lagunabeachmd stats',
+  'lagunabeachmd sense',
+  'lagunabeachmd spore log',
+  'lagunabeachmd supporters',
+  'lagunabeachmd profile',
+  'lagunabeachmd mailmap',
 ];
-const cliGroupSizes = [10, 3, 5, 5, 2];
+const cliGroupSizes = [9, 3, 5, 5, 2];
 const cliGroupEmojis = ['🔍', '🤖', '✍️', '🧬', '🔧'];
 const cliGroups = (() => {
   const groups = [];
@@ -115,7 +141,11 @@ const cliGroups = (() => {
 })();
 ---
 
-<Layout title={`${c.heroTitle} — Taiwan.md`} description={c.heroSubtitle} lang={lang}>
+<Layout
+  title={`${c.heroTitle} — LagunaBeach.md`}
+  description={c.heroSubtitle}
+  lang={lang}
+>
   <main class="mcp-paper min-h-screen">
     <div class="mx-auto max-w-[920px] px-6 pb-28 pt-16 md:px-8">
       {/* ── Hero ─────────────────────────────────────── */}
@@ -123,10 +153,14 @@ const cliGroups = (() => {
         <div class="mb-4 font-mono text-xs tracking-widest text-[#38bdf8]/80">
           {c.heroEyebrow}
         </div>
-        <h1 class="mcp-title mx-auto max-w-[16ch] text-3xl font-bold leading-tight text-[#f4f0ea] md:text-5xl">
+        <h1
+          class="mcp-title mx-auto max-w-[16ch] text-3xl font-bold leading-tight text-[#f4f0ea] md:text-5xl"
+        >
           {c.heroTitle}
         </h1>
-        <p class="mx-auto mt-5 max-w-[44ch] text-base leading-relaxed text-[#f4f0ea]/65 md:text-lg">
+        <p
+          class="mx-auto mt-5 max-w-[44ch] text-base leading-relaxed text-[#f4f0ea]/65 md:text-lg"
+        >
           {c.heroSubtitle}
         </p>
 
@@ -141,7 +175,9 @@ const cliGroups = (() => {
         </div>
 
         <div class="mcp-code-hero mx-auto mt-8 max-w-[640px]">
-          <button class="copy-btn" data-copy={oneLiner} aria-label={c.copyLabel}>{c.copyLabel}</button>
+          <button class="copy-btn" data-copy={oneLiner} aria-label={c.copyLabel}
+            >{c.copyLabel}</button
+          >
           <pre><code>{oneLiner}</code></pre>
         </div>
         <p class="mt-3 font-mono text-xs text-[#f4f0ea]/45">{c.heroNote}</p>
@@ -193,22 +229,31 @@ const cliGroups = (() => {
                   <span class="mcp-pill">{it.badge}</span>
                 </div>
                 <div class="mcp-code">
-                  <button class="copy-btn" data-copy={it.code} aria-label={c.copyLabel}>{c.copyLabel}</button>
-                  <pre><code>{it.code}</code></pre>
+                  <button
+                    class="copy-btn"
+                    data-copy={it.code}
+                    aria-label={c.copyLabel}
+                  >
+                    {c.copyLabel}
+                  </button>
+                  <pre>
+                    <code>{it.code}</code>
+                  </pre>
                 </div>
-                {
-                  it.download && (
-                    <a class="mcp-download" href={it.download.href} download>
-                      ⬇ {it.download.label}
-                    </a>
-                  )
-                }
+                {it.download && (
+                  <a class="mcp-download" href={it.download.href} download>
+                    ⬇ {it.download.label}
+                  </a>
+                )}
                 <p class="mcp-card-note">{it.note}</p>
               </div>
             ))
           }
         </div>
-        <p class="mcp-lead mt-5 text-sm text-[#f4f0ea]/50" set:html={c.installFootnoteHtml} />
+        <p
+          class="mcp-lead mt-5 text-sm text-[#f4f0ea]/50"
+          set:html={c.installFootnoteHtml}
+        />
       </section>
 
       <div class="ekg" aria-hidden="true"></div>
@@ -223,7 +268,9 @@ const cliGroups = (() => {
               <div class={`mcp-tool${tool.highlight ? ' mcp-tool-hl' : ''}`}>
                 <div class="mcp-tool-name">
                   {tool.name}
-                  {tool.highlight && <span class="mcp-tool-tag">{c.toolTag}</span>}
+                  {tool.highlight && (
+                    <span class="mcp-tool-tag">{c.toolTag}</span>
+                  )}
                 </div>
                 <p class="mcp-tool-desc">{tool.desc}</p>
                 <div class="mcp-tool-io">
@@ -244,11 +291,15 @@ const cliGroups = (() => {
 
       {/* ── CLI ──────────────────────────────────────── */}
       <section>
-        <h2 class="mcp-h2">{c.cliTitle} <span class="mcp-count">26</span></h2>
+        <h2 class="mcp-h2">{c.cliTitle} <span class="mcp-count">24</span></h2>
         <p class="mcp-lead">{c.cliLead}</p>
         <div class="mcp-code mx-auto max-w-[620px]">
-          <button class="copy-btn" data-copy="npm install -g taiwanmd" aria-label={c.copyLabel}>{c.copyLabel}</button>
-          <pre><code>npm install -g taiwanmd   {c.cliInstallComment}</code></pre>
+          <button
+            class="copy-btn"
+            data-copy="git clone https://github.com/wilsonkichoi/lagunabeach-md && cd lagunabeach-md/cli && npm install"
+            aria-label={c.copyLabel}>{c.copyLabel}</button
+          >
+          <pre><code>git clone https://github.com/wilsonkichoi/lagunabeach-md && cd lagunabeach-md/cli && npm install   {c.cliInstallComment}</code></pre>
         </div>
 
         <div class="mt-8 space-y-9">
@@ -256,20 +307,23 @@ const cliGroups = (() => {
             cliGroups.map((g) => (
               <div>
                 <h3 class="mcp-h3">
-                  <span class="mr-2">{g.emoji}</span>{g.title}
+                  <span class="mr-2">{g.emoji}</span>
+                  {g.title}
                 </h3>
                 <div class="mcp-table-wrap">
                   <table class="mcp-table mcp-cli-table">
                     <tbody>
-                      {
-                        g.cmds.map((cmd) => (
-                          <tr>
-                            <td class="mcp-cli-cmd"><code>{cmd[0]}</code></td>
-                            <td class="mcp-cli-desc">{cmd[1]}</td>
-                            <td class="mcp-cli-ex"><code>{cmd[2]}</code></td>
-                          </tr>
-                        ))
-                      }
+                      {g.cmds.map((cmd) => (
+                        <tr>
+                          <td class="mcp-cli-cmd">
+                            <code>{cmd[0]}</code>
+                          </td>
+                          <td class="mcp-cli-desc">{cmd[1]}</td>
+                          <td class="mcp-cli-ex">
+                            <code>{cmd[2]}</code>
+                          </td>
+                        </tr>
+                      ))}
                     </tbody>
                   </table>
                 </div>
@@ -311,11 +365,23 @@ const cliGroups = (() => {
       {/* ── Open source / fork ───────────────────────── */}
       <section class="text-center">
         <h2 class="mcp-h2 justify-center">{c.osTitle}</h2>
-        <p class="mcp-lead mx-auto max-w-[46ch] text-center" set:html={c.osParaHtml} />
+        <p
+          class="mcp-lead mx-auto max-w-[46ch] text-center"
+          set:html={c.osParaHtml}
+        />
         <div class="mt-6 flex flex-wrap justify-center gap-3">
-          <a class="mcp-btn" href="https://github.com/wilsonkichoi/lagunabeach-md" target="_blank" rel="noopener">GitHub</a>
-          <a class="mcp-btn" href="https://www.npmjs.com/package/taiwanmd" target="_blank" rel="noopener">npm</a>
-          <a class="mcp-btn" href="https://github.com/wilsonkichoi/lagunabeach-md/blob/main/cli/CONNECTOR.md" target="_blank" rel="noopener">{c.btnDocs}</a>
+          <a
+            class="mcp-btn"
+            href="https://github.com/wilsonkichoi/lagunabeach-md"
+            target="_blank"
+            rel="noopener">GitHub</a
+          >
+          <a
+            class="mcp-btn"
+            href="https://github.com/wilsonkichoi/lagunabeach-md/blob/main/cli/CONNECTOR.md"
+            target="_blank"
+            rel="noopener">{c.btnDocs}</a
+          >
           <a class="mcp-btn" href="/contribute">{c.btnContribute}</a>
         </div>
         <div class="mt-10 font-mono text-xs text-[#38bdf8]/75">🧬</div>

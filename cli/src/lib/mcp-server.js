@@ -1,16 +1,16 @@
 /**
  * lib/mcp-server.js — Model Context Protocol server implementation
  *
- * Exposes Taiwan.md primitives as MCP tools so Claude Desktop / Cursor /
+ * Exposes LagunaBeach.md primitives as MCP tools so Claude Desktop / Cursor /
  * Warp can query the knowledge base directly. Uses stdio transport (local).
  *
  * Tools exposed:
- *   - taiwanmd_search   Full-text search across articles
- *   - taiwanmd_read     Fetch an article by slug
- *   - taiwanmd_rag      Retrieval-augmented context for a query
- *   - taiwanmd_cite     Verified citation-backed claims
- *   - taiwanmd_organs   Semiont vital signs (8 organs)
- *   - taiwanmd_stats    Summary stats (article count, etc.)
+ *   - lagunabeachmd_search   Full-text search across articles
+ *   - lagunabeachmd_read     Fetch an article by slug
+ *   - lagunabeachmd_rag      Retrieval-augmented context for a query
+ *   - lagunabeachmd_cite     Verified citation-backed claims
+ *   - lagunabeachmd_organs   Semiont vital signs (8 organs)
+ *   - lagunabeachmd_stats    Summary stats (article count, etc.)
  *
  * Reference: https://modelcontextprotocol.io/docs
  */
@@ -39,21 +39,21 @@ function getCliVersion() {
 }
 
 /** Build and return a configured McpServer instance. */
-export function createTaiwanmdMcpServer() {
+export function createLagunabeachmdMcpServer() {
   const server = new McpServer({
-    name: 'taiwanmd',
+    name: 'lagunabeachmd',
     version: getCliVersion(),
   });
 
   // ─── Tool: search ──────────────────────────────────────────────────────
   server.registerTool(
-    'taiwanmd_search',
+    'lagunabeachmd_search',
     {
-      title: 'Search Taiwan.md articles',
+      title: 'Search LagunaBeach.md articles',
       description:
-        'Full-text search across 900+ curated articles about Taiwan. Returns top N hits with title, slug, category, and description.',
+        'Full-text search across curated articles about Laguna Beach, California. Returns top N hits with title, slug, category, and description.',
       inputSchema: {
-        query: z.string().describe('Search query (Chinese or English)'),
+        query: z.string().describe('Search query (English or zh-TW)'),
         limit: z.number().optional().default(5).describe('Max results'),
       },
     },
@@ -72,13 +72,17 @@ export function createTaiwanmdMcpServer() {
 
   // ─── Tool: read ────────────────────────────────────────────────────────
   server.registerTool(
-    'taiwanmd_read',
+    'lagunabeachmd_read',
     {
-      title: 'Read a Taiwan.md article by slug',
+      title: 'Read a LagunaBeach.md article by slug',
       description:
         'Return the full body of an article. Returns frontmatter + markdown body.',
       inputSchema: {
-        slug: z.string().describe('Article slug (e.g. "珍珠奶茶" or "王新仁")'),
+        slug: z
+          .string()
+          .describe(
+            'Article slug (e.g. "main-beach" or "pageant-of-the-masters")',
+          ),
       },
     },
     async ({ slug }) => {
@@ -106,13 +110,13 @@ export function createTaiwanmdMcpServer() {
 
   // ─── Tool: rag ─────────────────────────────────────────────────────────
   server.registerTool(
-    'taiwanmd_rag',
+    'lagunabeachmd_rag',
     {
       title: 'RAG context for a query',
       description:
-        'Retrieve top-N articles as a prompt-ready RAG context block. Use this when the user asks about Taiwan and you want verified source material before responding.',
+        'Retrieve top-N articles as a prompt-ready RAG context block. Use this when the user asks about Laguna Beach and you want verified source material before responding.',
       inputSchema: {
-        query: z.string().describe('User question about Taiwan'),
+        query: z.string().describe('User question about Laguna Beach'),
         limit: z.number().optional().default(3).describe('Number of articles'),
       },
     },
@@ -131,14 +135,14 @@ export function createTaiwanmdMcpServer() {
           `## ${i + 1}. ${frontmatter.title || h.slug} (${frontmatter.category || '?'})\n\n${body}`,
         );
       }
-      const text = `# Taiwan Knowledge Context\n\n${sections.join('\n\n---\n\n')}\n\n---\nBased on the above context about Taiwan, answer the following question:\n${query}`;
+      const text = `# Laguna Beach Knowledge Context\n\n${sections.join('\n\n---\n\n')}\n\n---\nBased on the above context about Laguna Beach, answer the following question:\n${query}`;
       return { content: [{ type: 'text', text }] };
     },
   );
 
   // ─── Tool: cite ────────────────────────────────────────────────────────
   server.registerTool(
-    'taiwanmd_cite',
+    'lagunabeachmd_cite',
     {
       title: 'Get verified citations for a topic',
       description:
@@ -196,11 +200,11 @@ export function createTaiwanmdMcpServer() {
 
   // ─── Tool: organs ──────────────────────────────────────────────────────
   server.registerTool(
-    'taiwanmd_organs',
+    'lagunabeachmd_organs',
     {
       title: 'Semiont vital signs',
       description:
-        'Return Taiwan.md Semiont 8-organ health scores from the organism dashboard.',
+        'Return LagunaBeach.md Semiont 8-organ health scores from the organism dashboard.',
       inputSchema: {},
     },
     async () => {
@@ -220,9 +224,9 @@ export function createTaiwanmdMcpServer() {
 
   // ─── Tool: stats ───────────────────────────────────────────────────────
   server.registerTool(
-    'taiwanmd_stats',
+    'lagunabeachmd_stats',
     {
-      title: 'Taiwan.md project stats',
+      title: 'LagunaBeach.md project stats',
       description:
         'Return summary stats: article count, categories, last-updated timestamps.',
       inputSchema: {},
@@ -249,7 +253,7 @@ export function createTaiwanmdMcpServer() {
   return server;
 }
 
-/** Start the MCP server on stdio. Called from `taiwanmd mcp serve`. */
+/** Start the MCP server on stdio. Called from `lagunabeachmd mcp serve`. */
 export async function startMcpServer() {
   // Pre-warm the knowledge base so the first tool call isn't slow on a fresh
   // install. ensureData() (via sync) logs to stdout, which would corrupt the
@@ -264,9 +268,9 @@ export async function startMcpServer() {
     console.log = origLog;
   }
 
-  const server = createTaiwanmdMcpServer();
+  const server = createLagunabeachmdMcpServer();
   const transport = new StdioServerTransport();
   await server.connect(transport);
   // Log to stderr so stdout stays pristine for MCP protocol.
-  console.error('[taiwanmd] MCP server ready on stdio');
+  console.error('[lagunabeachmd] MCP server ready on stdio');
 }

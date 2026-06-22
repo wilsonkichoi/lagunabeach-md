@@ -212,26 +212,32 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
     btnDocs: '文件',
     btnContribute: '貢獻',
     downloadLabel: '下載 taiwanmd.mcpb',
-    remoteNote: '給跑不了 Node 的瘦客戶端 / 純 web。本地優先仍是推薦（隱私最好）。',
+    remoteNote:
+      '給跑不了 Node 的瘦客戶端 / 純 web。本地優先仍是推薦（隱私最好）。',
     backHomeLabel: '← 回首頁',
   },
 
   // ──────────────────────────────────────────────────────────────── en ──
   en: {
-    heroEyebrow: '🧬 TAIWAN.MD · CONNECTOR',
-    heroTitle: 'Put Taiwan in your AI',
+    heroEyebrow: '🧬 LAGUNABEACH.MD · CONNECTOR',
+    heroTitle: 'Put Laguna Beach in your AI',
     heroSubtitle:
-      '900+ sourced articles about Taiwan, one tool call away. When you ask an AI about Taiwan, it answers in Taiwan’s own voice — with citations.',
+      'Sourced articles about Laguna Beach, California, one tool call away. When you ask an AI about Laguna Beach, it answers with citations instead of guessing.',
     badges: ['Free', 'No API key', 'Local-first', 'Open source'],
-    heroNote: 'Paste it into your terminal → then just ask Claude about Taiwan',
+    heroNote: 'Clone the repo, then ask Claude about Laguna Beach',
     copyLabel: 'Copy',
     copiedLabel: 'Copied ✓',
 
     whatTitle: 'What it is',
     whatLeadHtml:
-      '<strong>Taiwan.md</strong> is an open-source, AI-native knowledge base about Taiwan. This connector turns it into <strong>MCP tools</strong>, so Claude Code, Claude Desktop, Cursor, Copilot CLI and Codex CLI can search, read and <strong>cite</strong> sourced articles about Taiwan directly — instead of guessing from memory.',
-    whatLead2: 'It deliberately goes the opposite way from a commercial data gateway:',
-    compareHead: ['', 'Taiwan.md Connector', 'Typical commercial MCP gateway'],
+      '<strong>LagunaBeach.md</strong> is an open-source, AI-native knowledge base about Laguna Beach, California. This connector turns it into <strong>MCP tools</strong>, so Claude Code, Claude Desktop, Cursor, Copilot CLI and Codex CLI can search, read and <strong>cite</strong> sourced articles directly — instead of guessing from memory.',
+    whatLead2:
+      'It deliberately goes the opposite way from a commercial data gateway:',
+    compareHead: [
+      '',
+      'LagunaBeach.md Connector',
+      'Typical commercial MCP gateway',
+    ],
     compareRows: [
       ['Price', 'Free', 'Paid / metered'],
       ['API key', 'Not needed', 'Required'],
@@ -240,32 +246,39 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
     ],
 
     installTitle: 'Install',
-    installLead: 'Pick your client, copy and paste. No sign-up step.',
+    installLead:
+      'Clone the repo, then pick your client. No sign-up step, no published package yet.',
     installClientLabels: [
       'Claude Code',
       'Claude Desktop',
       'Cursor',
       'Copilot CLI / Codex CLI / Cline / Continue / any MCP client',
     ],
-    installBadges: ['One line', 'One-click bundle', 'Settings → MCP', 'Universal stdio'],
+    installBadges: [
+      'One line',
+      'JSON config',
+      'Settings → MCP',
+      'Universal stdio',
+    ],
     installNotes: [
-      'Zero install (via npx). Once added, just ask Claude about Taiwan.',
-      'No API-key prompt — because there is no API key.',
+      'Runs from your local clone — no npm package published yet. Once added, just ask Claude about Laguna Beach.',
+      'No API-key prompt — because there is no API key. Add this to your Claude Desktop config.',
       'Add a new MCP server in Cursor’s settings.',
       'Any client that speaks MCP works — point it at this stdio command.',
     ],
-    installDesktopCode: 'Download taiwanmd.mcpb → double-click → done',
+    installDesktopCode:
+      'Add the JSON snippet below to your Claude Desktop config',
     installFootnoteHtml:
-      'You can print the right snippet anytime: <code class="mcp-inline">npx -y taiwanmd mcp install --client claude-code</code>',
+      'You can print the right snippet anytime: <code class="mcp-inline">node cli/src/index.js mcp install --client claude-code</code>',
 
     toolsTitle: 'MCP tools',
     toolsLeadHtml:
-      'Once installed, Claude picks the tools itself. <code class="mcp-inline">taiwanmd_cite</code> is the anti-hallucination weapon: it returns only sentences backed by a footnote + source URL, so every fact you write about Taiwan is traceable.',
+      'Once installed, Claude picks the tools itself. <code class="mcp-inline">lagunabeachmd_cite</code> is the anti-hallucination weapon: it returns only sentences backed by a footnote + source URL, so every fact you write about Laguna Beach is traceable.',
     toolTag: 'anti-hallucination',
     ioInput: 'in',
     ioReturn: 'out',
     toolDescs: [
-      'Full-text search across 900+ Taiwan articles (zh + en)',
+      'Full-text search across LagunaBeach.md articles',
       'Read a full article by slug (frontmatter + body)',
       'Top-N articles assembled into a prompt-ready RAG context block',
       'Anti-hallucination primitive: only sentences with a footnote + source URL',
@@ -282,8 +295,10 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
     ],
 
     cliTitle: 'CLI tools',
-    cliLead: 'Same knowledge base, straight from your terminal. Install globally or run zero-install:',
-    cliInstallComment: '# or zero-install: npx taiwanmd search 珍珠奶茶',
+    cliLead:
+      'Same knowledge base, straight from your terminal. Clone the repo and run from cli/:',
+    cliInstallComment:
+      '# from a clone: node cli/src/index.js search "main beach"',
     cliGroupTitles: [
       'Read & explore',
       'AI · RAG',
@@ -292,16 +307,15 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
       'Utilities',
     ],
     cliDescs: [
-      'Fuzzy search (zh + en, --json to pipe)',
-      'Read a full article in the terminal (--raw / --en / --web)',
+      'Fuzzy search (--json to pipe)',
+      'Read a full article in the terminal (--raw / --zh-tw / --web)',
       'Browse by category (--categories for all)',
       'Discover a random article',
-      'Today in Taiwan: 3 picks + a fun fact',
-      'Taiwan knowledge quiz (5 true/false)',
+      'Today in Laguna Beach: 3 picks + a fun fact',
+      'Laguna Beach knowledge quiz (5 true/false)',
       'Interactive fuzzy-search TUI',
       'An article’s [[wikilink]] relation graph',
       'Knowledge-base changes over the last 7 days',
-      'Taiwan / China terminology lookup & conversion',
       'Top articles as prompt-ready context (pipe to an LLM)',
       'Anti-hallucination: verifiable claims with source URLs',
       'Start the MCP server (for Claude and other clients)',
@@ -321,9 +335,9 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
 
     howTitle: 'How it works · privacy',
     howBulletsHtml: [
-      '<strong>Local stdio</strong> — the server runs as a process on your machine, not a remote service. Your questions never go to any Taiwan.md server.',
-      '<strong>One-time auto-sync</strong> — the knowledge base downloads once to <code class="mcp-inline">~/.taiwanmd</code>, then it’s fast and quiet locally. Inside the repo it reads <code class="mcp-inline">knowledge/</code> directly.',
-      '<strong>Open & verifiable</strong> — the MCP server is 145 lines (<code class="mcp-inline">cli/src/lib/mcp-server.js</code>); read every line before you install.',
+      '<strong>Local stdio</strong> — the server runs as a process on your machine, not a remote service. Your questions never go to any LagunaBeach.md server.',
+      '<strong>One-time auto-sync</strong> — the knowledge base downloads once to <code class="mcp-inline">~/.lagunabeachmd</code>, then it’s fast and quiet locally. Inside the repo it reads <code class="mcp-inline">knowledge/</code> directly.',
+      '<strong>Open & verifiable</strong> — the MCP server is under 300 lines (<code class="mcp-inline">cli/src/lib/mcp-server.js</code>); read every line before you install.',
       '<strong>License</strong> — content CC BY-SA 4.0, code MIT. Fork freely.',
     ],
 
@@ -331,33 +345,30 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
     faqs: [
       {
         q: 'Does it cost anything? Do I need an API key?',
-        a: 'Neither. Taiwan.md is a public good (CC BY-SA); knowledge queries have no gate. No account, no key, no billing.',
+        a: 'Neither. LagunaBeach.md is a public good (CC BY-SA); knowledge queries have no gate. No account, no key, no billing.',
       },
       {
         q: 'Where do my queries go?',
-        a: 'Nowhere. The MCP server is a local stdio process on your own machine; queries are not sent out. First use downloads the knowledge base to ~/.taiwanmd, then everything stays local.',
+        a: 'Nowhere. The MCP server is a local stdio process on your own machine; queries are not sent out. First use downloads the knowledge base to ~/.lagunabeachmd, then everything stays local.',
       },
       {
         q: 'First query feels slow?',
         a: 'That’s the one-time knowledge-base sync running. The server pre-warms on start, so it’s fast afterwards.',
       },
       {
-        q: 'npx not found?',
-        a: 'Node.js 18+ ships npx. To pin a version, use npx -y taiwanmd@0.7 mcp serve.',
-      },
-      {
-        q: 'Is there a remote endpoint?',
-        a: 'Yes: https://mcp.taiwan.md (free, read-only, no key). Connect any MCP client with npx mcp-remote https://mcp.taiwan.md. For thin clients that can’t run Node — but local-first is always the recommended path (best for privacy); remote is just an optional entry point.',
+        q: 'Is there a one-line npx install?',
+        a: 'Not yet — the CLI isn’t published to npm. Clone the repo and run it directly from cli/ for now.',
       },
     ],
 
     osTitle: 'Open source · the Semiont’s body',
     osParaHtml:
-      'This connector is part of <a href="/semiont" class="mcp-link">Taiwan.md</a>’s reproduction system — letting Taiwan’s voice live inside every developer’s AI session. Forks, contributions and reports are welcome.',
+      'This connector is part of <a href="/semiont" class="mcp-link">LagunaBeach.md</a>’s reproduction system — letting Laguna Beach’s voice live inside every developer’s AI session. Forks, contributions and reports are welcome.',
     btnDocs: 'Docs',
     btnContribute: 'Contribute',
-    downloadLabel: 'Download taiwanmd.mcpb',
-    remoteNote: 'For thin clients that can’t run Node / pure web. Local-first is still recommended (best privacy).',
+    downloadLabel: 'Download lagunabeachmd.mcpb',
+    remoteNote:
+      'For thin clients that can’t run Node / pure web. Local-first is still recommended (best privacy).',
     backHomeLabel: '← Back home',
   },
 
@@ -392,7 +403,12 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
       'Cursor',
       'Copilot CLI / Codex CLI / Cline / Continue / 任意の MCP クライアント',
     ],
-    installBadges: ['1 行で完了', 'ワンクリック bundle', 'Settings → MCP', '汎用 stdio'],
+    installBadges: [
+      '1 行で完了',
+      'ワンクリック bundle',
+      'Settings → MCP',
+      '汎用 stdio',
+    ],
     installNotes: [
       'インストール不要（npx 経由）。追加したらすぐ Claude に台湾のことを聞けます。',
       'API キーは聞かれません。そもそも API キーが無いからです。',
@@ -427,7 +443,8 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
     ],
 
     cliTitle: 'CLI ツール',
-    cliLead: '同じ知識ベースを、ターミナルから直接。グローバル導入でもゼロインストールでも：',
+    cliLead:
+      '同じ知識ベースを、ターミナルから直接。グローバル導入でもゼロインストールでも：',
     cliInstallComment: '# またはゼロインストール：npx taiwanmd search 珍珠奶茶',
     cliGroupTitles: [
       '読む・探す',
@@ -502,7 +519,8 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
     btnDocs: 'ドキュメント',
     btnContribute: '貢献する',
     downloadLabel: 'taiwanmd.mcpb をダウンロード',
-    remoteNote: 'Node を実行できないシンクライアント / 純 Web 向け。ローカル優先が推奨（プライバシー最良）。',
+    remoteNote:
+      'Node を実行できないシンクライアント / 純 Web 向け。ローカル優先が推奨（プライバシー最良）。',
     backHomeLabel: '← ホームへ',
   },
 
@@ -530,14 +548,20 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
     ],
 
     installTitle: '설치',
-    installLead: '클라이언트를 고르고 복사해 붙여넣으세요. 가입 절차는 없습니다.',
+    installLead:
+      '클라이언트를 고르고 복사해 붙여넣으세요. 가입 절차는 없습니다.',
     installClientLabels: [
       'Claude Code',
       'Claude Desktop',
       'Cursor',
       'Copilot CLI / Codex CLI / Cline / Continue / 모든 MCP 클라이언트',
     ],
-    installBadges: ['한 줄이면 끝', '원클릭 bundle', 'Settings → MCP', '범용 stdio'],
+    installBadges: [
+      '한 줄이면 끝',
+      '원클릭 bundle',
+      'Settings → MCP',
+      '범용 stdio',
+    ],
     installNotes: [
       '설치 불필요(npx 사용). 추가하면 바로 Claude에게 대만을 물어볼 수 있습니다.',
       'API 키를 묻지 않습니다. 애초에 API 키가 없으니까요.',
@@ -647,7 +671,8 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
     btnDocs: '문서',
     btnContribute: '기여하기',
     downloadLabel: 'taiwanmd.mcpb 다운로드',
-    remoteNote: 'Node를 실행할 수 없는 씬 클라이언트 / 순수 웹용. 로컬 우선을 권장합니다(프라이버시 최선).',
+    remoteNote:
+      'Node를 실행할 수 없는 씬 클라이언트 / 순수 웹용. 로컬 우선을 권장합니다(프라이버시 최선).',
     backHomeLabel: '← 홈으로',
   },
 
@@ -665,12 +690,17 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
     whatTitle: 'Qué es',
     whatLeadHtml:
       '<strong>Taiwan.md</strong> es una base de conocimiento sobre Taiwán, de código abierto y nativa para IA. Este conector la convierte en <strong>herramientas MCP</strong>, para que Claude Code, Claude Desktop, Cursor, Copilot CLI y Codex CLI puedan buscar, leer y <strong>citar</strong> artículos con fuentes sobre Taiwán directamente, en vez de adivinar de memoria.',
-    whatLead2: 'Va a propósito en la dirección opuesta a una pasarela de datos comercial:',
+    whatLead2:
+      'Va a propósito en la dirección opuesta a una pasarela de datos comercial:',
     compareHead: ['', 'Taiwan.md Connector', 'Pasarela MCP comercial típica'],
     compareRows: [
       ['Precio', 'Gratis', 'De pago / por uso'],
       ['Clave API', 'No hace falta', 'Obligatoria'],
-      ['Dónde corren las consultas', 'Tu equipo (stdio local)', 'Sus servidores'],
+      [
+        'Dónde corren las consultas',
+        'Tu equipo (stdio local)',
+        'Sus servidores',
+      ],
       ['Código', 'Abierto (código MIT / contenido CC BY-SA)', 'Cerrado'],
     ],
 
@@ -682,7 +712,12 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
       'Cursor',
       'Copilot CLI / Codex CLI / Cline / Continue / cualquier cliente MCP',
     ],
-    installBadges: ['Una línea', 'Bundle de un clic', 'Settings → MCP', 'stdio universal'],
+    installBadges: [
+      'Una línea',
+      'Bundle de un clic',
+      'Settings → MCP',
+      'stdio universal',
+    ],
     installNotes: [
       'Sin instalación (vía npx). Una vez añadido, pregúntale a Claude sobre Taiwán.',
       'No pide clave API, porque no hay clave API.',
@@ -717,7 +752,8 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
     ],
 
     cliTitle: 'Herramientas CLI',
-    cliLead: 'La misma base de conocimiento, directa desde tu terminal. Instala globalmente o ejecuta sin instalar:',
+    cliLead:
+      'La misma base de conocimiento, directa desde tu terminal. Instala globalmente o ejecuta sin instalar:',
     cliInstallComment: '# o sin instalar: npx taiwanmd search 珍珠奶茶',
     cliGroupTitles: [
       'Leer y explorar',
@@ -792,7 +828,8 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
     btnDocs: 'Documentación',
     btnContribute: 'Contribuir',
     downloadLabel: 'Descargar taiwanmd.mcpb',
-    remoteNote: 'Para clientes ligeros que no pueden ejecutar Node / web pura. Se sigue recomendando local primero (mejor privacidad).',
+    remoteNote:
+      'Para clientes ligeros que no pueden ejecutar Node / web pura. Se sigue recomendando local primero (mejor privacidad).',
     backHomeLabel: '← Inicio',
   },
 
@@ -810,12 +847,21 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
     whatTitle: 'Qu’est-ce que c’est',
     whatLeadHtml:
       '<strong>Taiwan.md</strong> est une base de connaissances sur Taïwan, open source et pensée pour l’IA. Ce connecteur la transforme en <strong>outils MCP</strong>, pour que Claude Code, Claude Desktop, Cursor, Copilot CLI et Codex CLI puissent chercher, lire et <strong>citer</strong> directement des articles sourcés sur Taïwan, au lieu de deviner de mémoire.',
-    whatLead2: 'Il prend volontairement le contre-pied d’une passerelle de données commerciale :',
-    compareHead: ['', 'Taiwan.md Connector', 'Passerelle MCP commerciale typique'],
+    whatLead2:
+      'Il prend volontairement le contre-pied d’une passerelle de données commerciale :',
+    compareHead: [
+      '',
+      'Taiwan.md Connector',
+      'Passerelle MCP commerciale typique',
+    ],
     compareRows: [
       ['Prix', 'Gratuit', 'Payant / à l’usage'],
       ['Clé API', 'Inutile', 'Obligatoire'],
-      ['Où tournent les requêtes', 'Ta machine (stdio local)', 'Leurs serveurs'],
+      [
+        'Où tournent les requêtes',
+        'Ta machine (stdio local)',
+        'Leurs serveurs',
+      ],
       ['Source', 'Ouverte (code MIT / contenu CC BY-SA)', 'Fermée'],
     ],
 
@@ -827,7 +873,12 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
       'Cursor',
       'Copilot CLI / Codex CLI / Cline / Continue / n’importe quel client MCP',
     ],
-    installBadges: ['Une ligne', 'Bundle en un clic', 'Settings → MCP', 'stdio universel'],
+    installBadges: [
+      'Une ligne',
+      'Bundle en un clic',
+      'Settings → MCP',
+      'stdio universel',
+    ],
     installNotes: [
       'Sans installation (via npx). Une fois ajouté, interroge Claude sur Taïwan.',
       'Aucune demande de clé API — parce qu’il n’y a pas de clé API.',
@@ -862,7 +913,8 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
     ],
 
     cliTitle: 'Outils CLI',
-    cliLead: 'La même base de connaissances, directement dans ton terminal. Installe en global ou exécute sans installer :',
+    cliLead:
+      'La même base de connaissances, directement dans ton terminal. Installe en global ou exécute sans installer :',
     cliInstallComment: '# ou sans installation : npx taiwanmd search 珍珠奶茶',
     cliGroupTitles: [
       'Lire et explorer',
@@ -937,7 +989,8 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
     btnDocs: 'Documentation',
     btnContribute: 'Contribuer',
     downloadLabel: 'Télécharger taiwanmd.mcpb',
-    remoteNote: 'Pour les clients légers qui ne peuvent pas exécuter Node / web pur. Le local d’abord reste recommandé (meilleure confidentialité).',
+    remoteNote:
+      'Pour les clients légers qui ne peuvent pas exécuter Node / web pur. Le local d’abord reste recommandé (meilleure confidentialité).',
     backHomeLabel: '← Accueil',
   },
 };

@@ -32,7 +32,7 @@ function slugify(title) {
 export function randomCommand(program) {
   program
     .command('random')
-    .description('Discover a random Taiwan article')
+    .description('Discover a random Laguna Beach article')
     .option('-c, --category <cat>', 'Limit to category')
     .action(async (opts) => {
       try {
@@ -49,14 +49,18 @@ export function randomCommand(program) {
         }
 
         if (articles.length === 0) {
-          console.log(chalk.yellow('\n  找不到文章。\n'));
+          console.log(chalk.yellow('\n  No articles found.\n'));
           if (opts.category) {
             console.log(
-              chalk.gray('  💡 taiwanmd list --categories  →  查看所有分類\n'),
+              chalk.gray(
+                '  💡 lagunabeachmd list --categories  →  see all categories\n',
+              ),
             );
           } else {
             console.log(
-              chalk.gray('  💡 請先執行 taiwanmd sync 同步知識庫。\n'),
+              chalk.gray(
+                '  💡 Run lagunabeachmd sync first to sync the knowledge base.\n',
+              ),
             );
           }
           return;
@@ -68,7 +72,7 @@ export function randomCommand(program) {
 
         console.log(
           chalk.bold(
-            `\n  🎲 隨機推薦 (${articles.length} 篇中的第 ${index + 1} 篇)\n`,
+            `\n  🎲 Random pick (${index + 1} of ${articles.length})\n`,
           ),
         );
 
@@ -94,15 +98,20 @@ export function randomCommand(program) {
         // Footer hints
         console.log(chalk.gray('  ─'.repeat(30)));
         console.log(
-          chalk.cyan(`  → taiwanmd read ${slug}`) + chalk.gray('  閱讀全文'),
+          chalk.cyan(`  → lagunabeachmd read ${slug}`) +
+            chalk.gray('  read full article'),
         );
         console.log(
-          chalk.cyan('  → taiwanmd random') + chalk.gray('  再來一篇'),
+          chalk.cyan('  → lagunabeachmd random') + chalk.gray('  another one'),
         );
         console.log('');
       } catch (err) {
-        console.error(chalk.red(`載入失敗: ${err.message}`));
-        console.log(chalk.gray('\n  💡 請先執行 taiwanmd sync 同步知識庫。\n'));
+        console.error(chalk.red(`Failed to load: ${err.message}`));
+        console.log(
+          chalk.gray(
+            '\n  💡 Run lagunabeachmd sync first to sync the knowledge base.\n',
+          ),
+        );
         process.exit(1);
       }
     });

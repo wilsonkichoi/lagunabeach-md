@@ -1,13 +1,13 @@
 /**
- * Taiwan.md Organs Command — Semiont vital signs
+ * LagunaBeach.md Organs Command — Semiont vital signs
  *
  * Reads public/api/dashboard-organism.json and surfaces the 8 organ
  * health scores that currently live inside `stats`.
  *
  * Usage:
- *   taiwanmd organs              # colored bar chart
- *   taiwanmd organs --json
- *   taiwanmd organs --lang en    # English labels
+ *   lagunabeachmd organs              # colored bar chart
+ *   lagunabeachmd organs --json
+ *   lagunabeachmd organs --lang en    # English labels
  */
 
 import fs from 'fs';
@@ -50,7 +50,7 @@ export function organsCommand(program) {
           console.error(
             chalk.red(`\n❌ dashboard-organism.json not found: ${jsonPath}`),
           );
-          console.error(chalk.gray('   Run: taiwanmd sync --force\n'));
+          console.error(chalk.gray('   Run: lagunabeachmd sync --force\n'));
           process.exit(1);
         }
 

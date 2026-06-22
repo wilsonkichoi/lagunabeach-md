@@ -20,9 +20,9 @@ function scoreBar(score, maxScore) {
 export function searchCommand(program) {
   program
     .command('search <query>')
-    .description('Search Taiwan.md knowledge base')
+    .description('Search LagunaBeach.md knowledge base')
     .option('-l, --limit <n>', 'Max results', '10')
-    .option('--lang <lang>', 'Language', 'zh-TW')
+    .option('--lang <lang>', 'Language', 'en')
     .option('--json', 'Output as JSON')
     .action(async (query, opts) => {
       try {
@@ -31,9 +31,11 @@ export function searchCommand(program) {
         const results = await searchArticles(query, { limit, lang: opts.lang });
 
         if (!results || results.length === 0) {
-          console.log(chalk.yellow(`\n  🔍 搜尋「${query}」— 找到 0 篇\n`));
+          console.log(chalk.yellow(`\n  🔍 Search "${query}" — 0 results\n`));
           console.log(
-            chalk.gray('  試試其他關鍵字，或用 taiwanmd list 瀏覽所有文章。\n'),
+            chalk.gray(
+              '  Try other keywords, or browse all articles with lagunabeachmd list.\n',
+            ),
           );
           return;
         }
@@ -47,16 +49,16 @@ export function searchCommand(program) {
 
         console.log(
           chalk.bold(
-            `\n  🔍 搜尋「${chalk.cyan(query)}」— 找到 ${chalk.green(results.length)} 篇\n`,
+            `\n  🔍 Search "${chalk.cyan(query)}" — ${chalk.green(results.length)} results\n`,
           ),
         );
 
         const table = new Table({
           head: [
             chalk.gray('#'),
-            chalk.gray('分類'),
-            chalk.gray('標題'),
-            chalk.gray('相關度'),
+            chalk.gray('Category'),
+            chalk.gray('Title'),
+            chalk.gray('Relevance'),
           ],
           chars: {
             top: '',
@@ -94,9 +96,13 @@ export function searchCommand(program) {
         });
 
         console.log(table.toString());
-        console.log(chalk.gray(`\n  💡 taiwanmd read <slug>  →  閱讀全文\n`));
+        console.log(
+          chalk.gray(
+            `\n  💡 lagunabeachmd read <slug>  →  read full article\n`,
+          ),
+        );
       } catch (err) {
-        console.error(chalk.red(`搜尋失敗: ${err.message}`));
+        console.error(chalk.red(`Search failed: ${err.message}`));
         process.exit(1);
       }
     });

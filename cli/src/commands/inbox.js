@@ -1,15 +1,15 @@
 /**
- * Taiwan.md Inbox Command — ARTICLE-INBOX reader
+ * LagunaBeach.md Inbox Command — ARTICLE-INBOX reader
  *
  * Read/manage ARTICLE-INBOX.md (pending / in-progress / blocked articles).
  * Companion to ARTICLE-DONE-LOG.md for completed items.
  *
  * Usage:
- *   taiwanmd inbox                # show all states grouped
- *   taiwanmd inbox --state pending
- *   taiwanmd inbox claim <slug>   # lock as in-progress
- *   taiwanmd inbox release <slug> # release lock
- *   taiwanmd inbox done <slug>    # move to ARTICLE-DONE-LOG
+ *   lagunabeachmd inbox                # show all states grouped
+ *   lagunabeachmd inbox --state pending
+ *   lagunabeachmd inbox claim <slug>   # lock as in-progress
+ *   lagunabeachmd inbox release <slug> # release lock
+ *   lagunabeachmd inbox done <slug>    # move to ARTICLE-DONE-LOG
  */
 
 import fs from 'fs';
@@ -188,7 +188,7 @@ export function inboxCommand(program) {
         console.log('');
         console.log(
           chalk.gray(
-            `  Use: taiwanmd inbox claim <title> | release <title> | done <title>`,
+            `  Use: lagunabeachmd inbox claim <title> | release <title> | done <title>`,
           ),
         );
         console.log('');
@@ -204,8 +204,9 @@ export function inboxCommand(program) {
   }
 
   function getSessionLetter() {
-    // Read from env TAIWANMD_SESSION, else fall back to alphabetic timestamp
-    if (process.env.TAIWANMD_SESSION) return process.env.TAIWANMD_SESSION;
+    // Read from env LAGUNABEACHMD_SESSION, else fall back to alphabetic timestamp
+    if (process.env.LAGUNABEACHMD_SESSION)
+      return process.env.LAGUNABEACHMD_SESSION;
     const h = new Date().getHours();
     return String.fromCharCode(945 + (h % 26)); // Greek α..ω
   }
@@ -253,7 +254,11 @@ export function inboxCommand(program) {
   inbox
     .command('claim <slug>')
     .description('Lock an inbox item as in-progress (updates Status + dev_log)')
-    .option('--by <name>', 'Claimer name (default: $USER or taiwanmd)', null)
+    .option(
+      '--by <name>',
+      'Claimer name (default: $USER or lagunabeachmd)',
+      null,
+    )
     .action((slug, opts) => {
       try {
         const inboxPath = getInboxPath();
@@ -273,12 +278,12 @@ export function inboxCommand(program) {
           );
           process.exit(1);
         }
-        const by = opts.by || process.env.USER || 'taiwanmd';
+        const by = opts.by || process.env.USER || 'lagunabeachmd';
         const session = getSessionLetter();
         let updated = replaceStatus(entry.block, '`in-progress`');
         updated = appendDevLog(
           updated,
-          `${todayIso()} by ${by} (session ${session}): claimed via taiwanmd inbox claim`,
+          `${todayIso()} by ${by} (session ${session}): claimed via lagunabeachmd inbox claim`,
         );
         const newContent =
           content.slice(0, entry.start) + updated + content.slice(entry.end);
@@ -310,7 +315,7 @@ export function inboxCommand(program) {
         let updated = replaceStatus(entry.block, '`pending`');
         updated = appendDevLog(
           updated,
-          `${todayIso()} session ${session}: released back to pending via taiwanmd inbox release`,
+          `${todayIso()} session ${session}: released back to pending via lagunabeachmd inbox release`,
         );
         const newContent =
           content.slice(0, entry.start) + updated + content.slice(entry.end);

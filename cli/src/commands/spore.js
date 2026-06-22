@@ -1,15 +1,15 @@
 /**
- * Taiwan.md Spore Command — 社群孢子 pipeline
+ * LagunaBeach.md Spore Command — social spore pipeline
  *
  * Read SPORE-LOG.md + dashboard-spores.json for spore tracking.
  * new/harvest subcommands are scaffolded in v0.6 (need Threads + X API tokens).
  *
  * Usage:
- *   taiwanmd spore                  # show SPORE-LOG summary
- *   taiwanmd spore log --limit 10   # show recent spores
- *   taiwanmd spore log --json
- *   taiwanmd spore new <slug>       # [scaffold] generate spore draft
- *   taiwanmd spore harvest <id>     # [scaffold] pull d+N engagement
+ *   lagunabeachmd spore                  # show SPORE-LOG summary
+ *   lagunabeachmd spore log --limit 10   # show recent spores
+ *   lagunabeachmd spore log --json
+ *   lagunabeachmd spore new <slug>       # [scaffold] generate spore draft
+ *   lagunabeachmd spore harvest <id>     # [scaffold] pull d+N engagement
  */
 
 import fs from 'fs';
@@ -75,7 +75,7 @@ export function sporeCommand(program) {
   const spore = program
     .command('spore')
     .description(
-      '社群孢子 pipeline — SPORE-LOG reader + draft/harvest scaffold',
+      'Social spore pipeline — SPORE-LOG reader + draft/harvest scaffold',
     )
     .action(() => {
       // Default action: show summary
@@ -141,7 +141,11 @@ export function sporeCommand(program) {
       'threads | x | both (both = print side-by-side)',
       'both',
     )
-    .option('--template <t>', 'A (人物型) | B (冷知識型) | D (時間軸型)', 'A')
+    .option(
+      '--template <t>',
+      'A (person-focused) | B (fun-fact) | D (timeline)',
+      'A',
+    )
     .action(async (slug, opts) => {
       try {
         const articleFiles = (
@@ -160,7 +164,7 @@ export function sporeCommand(program) {
         const title = frontmatter.title || slugBase;
         const desc = frontmatter.description || '';
         const category = frontmatter.category || 'misc';
-        const url = `https://taiwan.md/${(category || 'misc').toLowerCase()}/${encodeURIComponent(slugBase)}`;
+        const url = `https://lagunabeach.md/${(category || 'misc').toLowerCase()}/${encodeURIComponent(slugBase)}`;
         const firstPara = (body.split(/\n\s*\n/)[1] || '').slice(0, 180);
 
         console.log('');
@@ -177,22 +181,22 @@ export function sporeCommand(program) {
           return [
             '=== Threads ===',
             '',
-            `你知道嗎？${firstPara.split(/[。！？]/)[0]}。`,
+            `Did you know? ${firstPara.split(/[.!?]/)[0]}.`,
             '',
-            `（${desc.slice(0, 80)}）`,
+            `(${desc.slice(0, 80)})`,
             '',
-            `完整故事 👉 ${url}?utm_source=threads&utm_medium=social&utm_campaign=spore`,
+            `Full story 👉 ${url}?utm_source=threads&utm_medium=social&utm_campaign=spore`,
             '',
           ].join('\n');
         }
         function xDraft() {
-          const hook = firstPara.split(/[。！？]/)[0].slice(0, 60);
+          const hook = firstPara.split(/[.!?]/)[0].slice(0, 60);
           return [
             '=== X ===',
             '',
             `${hook}`,
             '',
-            `完整故事 👉 ${url}?utm_source=x&utm_medium=social&utm_campaign=spore`,
+            `Full story 👉 ${url}?utm_source=x&utm_medium=social&utm_campaign=spore`,
             '',
           ].join('\n');
         }
@@ -230,7 +234,7 @@ export function sporeCommand(program) {
       console.log(chalk.gray(`  Planned: fetch metrics for spore #${id}`));
       console.log(
         chalk.gray(
-          '  Needs: Threads + X API tokens in ~/.taiwanmd/config.json',
+          '  Needs: Threads + X API tokens in ~/.lagunabeachmd/config.json',
         ),
       );
       console.log(
@@ -273,9 +277,11 @@ export function sporeCommand(program) {
         );
       }
       console.log('');
-      console.log(chalk.gray('  taiwanmd spore log         # recent entries'));
       console.log(
-        chalk.gray('  taiwanmd spore new <slug>  # draft (scaffold)'),
+        chalk.gray('  lagunabeachmd spore log         # recent entries'),
+      );
+      console.log(
+        chalk.gray('  lagunabeachmd spore new <slug>  # draft (scaffold)'),
       );
       console.log('');
     } catch (err) {

@@ -1,21 +1,21 @@
 ---
-title: '測試文章 — 乾淨'
+title: 'Test Article — Clean'
 description: 'Stage 3.5 audit test fixture: clean article with no hallucination patterns.'
 date: 2026-04-20
 tags: ['test']
 category: 'test'
 ---
 
-## 測試內容
+## Test Content
 
-這是一篇測試用的乾淨文章，刻意不含任何幻覺 pattern。
+This is a clean test article, deliberately free of any hallucination patterns.
 
-根據[中央社報導](https://www.cna.com.tw/example)，某事件發生在某地點[^1]。
+According to [a local news report](https://example.com/source), an event took place at a certain location[^1].
 
-他跟合作夥伴一起創辦了某組織——兩人的名字都清楚寫出[^2]。
+She co-founded the gallery with Maria Chen in 1998[^2].
 
-## 參考資料
+## References
 
-[^1]: [中央社：某事件報導](https://www.cna.com.tw/example) — 2026 年的某則新聞稿。
+[^1]: [Local News: event report](https://example.com/source) — a 2026 press release.
 
-[^2]: [某組織官方頁](https://example.org) — 創辦人清單可查證。
+[^2]: [Gallery official page](https://example.org) — founder list is verifiable.
