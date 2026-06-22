@@ -7,15 +7,15 @@
       "zh": 2,
       "en": 0
     },
-    "Beaches": {
+    "About": {
+      "zh": 3,
+      "en": 0
+    },
+    "Neighborhoods": {
       "zh": 2,
       "en": 0
     },
-    "root": {
-      "zh": 1,
-      "en": 0
-    },
-    "Events & Festivals": {
+    "Art & Galleries": {
       "zh": 2,
       "en": 0
     },
@@ -23,16 +23,16 @@
       "zh": 2,
       "en": 0
     },
-    "About": {
-      "zh": 3,
-      "en": 0
-    },
-    "Art & Galleries": {
+    "Beaches": {
       "zh": 2,
       "en": 0
     },
-    "Neighborhoods": {
+    "Events & Festivals": {
       "zh": 2,
+      "en": 0
+    },
+    "root": {
+      "zh": 1,
       "en": 0
     },
     "Trails": {
@@ -44,5 +44,5 @@
       "en": 0
     }
   },
-  "updated": "2026-06-20"
+  "updated": "2026-06-21"
 }

@@ -1,7 +1,215 @@
 {
-  "generatedAt": "2026-06-20T14:49:52.035Z",
+  "generatedAt": "2026-06-22T05:40:41.118Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "ac5c4d7663d8014ae54fc3ba066ac1f5e4f697fd",
+      "date": "2026-06-21T21:25:42-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(cli): bump to 0.2.3",
+      "articles": []
+    },
+    {
+      "hash": "837f3ff3fcf87ba1b0a72fa48ee88bd1b1c68178",
+      "date": "2026-06-21T21:25:40-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(mcp): fix two stale heroNote/installLead strings missed in npx flip",
+      "articles": []
+    },
+    {
+      "hash": "23a1d7c38ab77ecba833cc105702372d61779984",
+      "date": "2026-06-21T21:25:08-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(mcp): drop dead non-English locales from /mcp page",
+      "articles": []
+    },
+    {
+      "hash": "55c1fb3c24d2399feccec35d95b68c08f7e212b1",
+      "date": "2026-06-21T21:07:03-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(mcp): flip install snippets from clone+node to npx now that lagunabeach-md is published",
+      "articles": []
+    },
+    {
+      "hash": "4bb6892fc3f2c25363a14b330defeca81455d015",
+      "date": "2026-06-21T20:58:57-07:00",
+      "author": "Wilson Choi",
+      "message": "chore: refresh contributors.json with this fork's data",
+      "articles": []
+    },
+    {
+      "hash": "ea62de48940883d9aafb7c983b7c1f4c447bc907",
+      "date": "2026-06-21T20:44:10-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(cli): add lagunabeach-md bin alias matching package name, bump 0.2.2",
+      "articles": []
+    },
+    {
+      "hash": "15b63a58a903f142ab5d718b90f1b804ff40c579",
+      "date": "2026-06-21T20:39:45-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(cli): derive --version from package.json, bump to 0.2.1",
+      "articles": []
+    },
+    {
+      "hash": "31136caccb7606649c20ff5adfc923893db29d24",
+      "date": "2026-06-21T20:32:24-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(cli): reconcile package.json name+version with published npm package",
+      "articles": []
+    },
+    {
+      "hash": "8ce29f64313a4fc451d507d3822623f6c8101c6e",
+      "date": "2026-06-21T20:31:19-07:00",
+      "author": "Wilson Choi",
+      "message": "fix: point contributors leaderboard generator at this fork's repo",
+      "articles": []
+    },
+    {
+      "hash": "5f68779d797ae7416798a0fa6627367132d0d14f",
+      "date": "2026-06-21T20:28:52-07:00",
+      "author": "Wilson Choi",
+      "message": "fix: point .all-contributorsrc at this fork instead of upstream taiwan-md",
+      "articles": []
+    },
+    {
+      "hash": "d4e3e7117663a37c93109fe82165bef3140ac0a5",
+      "date": "2026-06-21T20:15:35-07:00",
+      "author": "Wilson Choi",
+      "message": "chore: port article-health quality tooling from CJK to English conventions",
+      "articles": []
+    },
+    {
+      "hash": "1e4e6bc2fc1a07b50df92907fe423cb568980248",
+      "date": "2026-06-21T20:15:19-07:00",
+      "author": "Wilson Choi",
+      "message": "chore: rename CLI to lagunabeachmd, fix stale Taiwan.md content on /mcp and /about",
+      "articles": []
+    },
+    {
+      "hash": "9104d5eff9691d461e0eae5683bbc013ce8e5555",
+      "date": "2026-06-21T20:09:39-07:00",
+      "author": "Wilson Choi",
+      "message": "content: rewrite /resources and /soundscape for Laguna Beach",
+      "articles": []
+    },
+    {
+      "hash": "808b0d1e9f2c7f20be09011915f2fa5033820ed0",
+      "date": "2026-06-21T15:56:49-07:00",
+      "author": "Wilson Choi",
+      "message": "content: fix author placeholder and wikilink targets in knowledge/",
+      "articles": [
+        {
+          "url": "/beaches/thousand-steps-beach",
+          "name": "thousand-steps-beach"
+        },
+        {
+          "url": "/beaches/victoria-beach",
+          "name": "victoria-beach"
+        },
+        {
+          "url": "/food/the-cliff-restaurant",
+          "name": "the-cliff-restaurant"
+        },
+        {
+          "url": "/history/founding-and-early-history",
+          "name": "founding-and-early-history"
+        }
+      ]
+    },
+    {
+      "hash": "67760f1f59b712af4b285cdb45bd6ab9d9a0fb3a",
+      "date": "2026-06-21T15:56:42-07:00",
+      "author": "Wilson Choi",
+      "message": "fix: remove stale Taiwan.md references from about/contribute pages",
+      "articles": []
+    },
+    {
+      "hash": "bae1221a2b4dc4e8ba5214819521216320f5d42a",
+      "date": "2026-06-21T15:56:31-07:00",
+      "author": "Wilson Choi",
+      "message": "docs: rewrite CONTRIBUTING.md in English, fix dormant merge=ours driver",
+      "articles": []
+    },
+    {
+      "hash": "fe5e92d9e7355a13f8082111d2e2159cd8ac5922",
+      "date": "2026-06-21T15:56:22-07:00",
+      "author": "Wilson Choi",
+      "message": "docs: re-ground Semiont cognitive layer for LagunaBeach.md (Phase 5 start)",
+      "articles": []
+    },
+    {
+      "hash": "7bd27f944c6d9ffa68ef019535b153f00a4e579c",
+      "date": "2026-06-20T23:13:19-07:00",
+      "author": "Wilson Choi",
+      "message": "feat: complete Laguna Beach migration — English-only i18n, about page, map rewrite, Taiwan cleanup",
+      "articles": [
+        {
+          "url": "/beaches/thousand-steps-beach",
+          "name": "thousand-steps-beach"
+        },
+        {
+          "url": "/beaches/victoria-beach",
+          "name": "victoria-beach"
+        },
+        {
+          "url": "/food/the-cliff-restaurant",
+          "name": "the-cliff-restaurant"
+        },
+        {
+          "url": "/history/founding-and-early-history",
+          "name": "founding-and-early-history"
+        }
+      ]
+    },
+    {
+      "hash": "e4a139a70a0109a28d34ac817e65adf6edbce01b",
+      "date": "2026-06-20T17:56:37-07:00",
+      "author": "Wilson Choi",
+      "message": "feat: migrate /data page to Laguna Beach",
+      "articles": []
+    },
+    {
+      "hash": "ab7d8a2d67c790577a638169fae7ff695e988bd6",
+      "date": "2026-06-20T13:16:40-07:00",
+      "author": "Wilson Choi",
+      "message": "chore: untrack auto-generated dashboard JSON per .gitignore policy",
+      "articles": []
+    },
+    {
+      "hash": "be43eba9201c4cf7fb53246dbcbdd481deb34df3",
+      "date": "2026-06-20T13:16:27-07:00",
+      "author": "Wilson Choi",
+      "message": "chore: routine dashboard data refresh",
+      "articles": []
+    },
+    {
+      "hash": "cf3b00304c17627eb2f7111a7d64894ed4c852c6",
+      "date": "2026-06-20T08:36:21-07:00",
+      "author": "Wilson Choi",
+      "message": "docs: rewrite README.md for LagunaBeach.md + protect with merge=ours",
+      "articles": []
+    },
+    {
+      "hash": "c8caf2c32610b777db9689fc47eddf1871121736",
+      "date": "2026-06-20T08:31:36-07:00",
+      "author": "Wilson Choi",
+      "message": "feat: Phase 4 complete + Taiwan reference cleanup across site",
+      "articles": [
+        {
+          "url": "/about/how-an-article-is-born",
+          "name": "how-an-article-is-born"
+        },
+        {
+          "url": "/about/lagunabeach-md",
+          "name": "lagunabeach-md"
+        },
+        {
+          "url": "/about/visualization-catalog",
+          "name": "visualization-catalog"
+        }
+      ]
+    },
     {
       "hash": "2c22a11a416519ac57b2db620f3e89b9be20f444",
       "date": "2026-06-20T05:59:21-07:00",
