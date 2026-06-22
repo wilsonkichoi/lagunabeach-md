@@ -11,7 +11,7 @@ import path from 'path';
 import https from 'https';
 import { fileURLToPath } from 'url';
 import { execSync } from 'child_process';
-import { LANGUAGES } from '../../src/config/languages.mjs';
+import { LANGUAGES, DEFAULT_LANGUAGE } from '../../src/config/languages.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -26,9 +26,9 @@ function fetchRepoStats() {
   return new Promise((resolve) => {
     const opts = {
       hostname: 'api.github.com',
-      path: '/repos/frank890417/taiwan-md',
+      path: '/repos/wilsonkichoi/lagunabeach-md',
       headers: {
-        'User-Agent': 'taiwan-md-dashboard/1.0',
+        'User-Agent': 'lagunabeach-md-dashboard/1.0',
         Accept: 'application/vnd.github+json',
       },
     };
@@ -75,23 +75,24 @@ const TRANSLATION_STATUS_PATH = path.join(
   '_translation-status.json',
 );
 
-// PascalCase category directories (zh-TW SSOT)
+// PascalCase category directories (default-language SSOT)
 const CATEGORIES = [
   'About',
-  'Art',
-  'Culture',
-  'Economy',
-  'Food',
-  'Geography',
   'History',
-  'Lifestyle',
-  'Music',
-  'Nature',
-  'People',
-  'Politics',
-  'Society',
-  'Technology',
+  'Art & Galleries',
+  'Nature & Marine Life',
+  'Food',
+  'Beaches',
+  'Trails',
+  'Events & Festivals',
+  'Neighborhoods',
 ];
+
+// Mirrors the slugify logic in scripts/core/sync.sh so category keys here
+// match the hyphenated slugs used everywhere else (src/content/, frontmatter).
+function slugifyCategory(category) {
+  return category.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-');
+}
 
 // Translation language directories — sourced from registry so adding a
 // language only requires editing src/config/languages.json.
@@ -387,7 +388,7 @@ function getZhTwArticles() {
       articles.push({
         filePath: fullPath,
         relativePath: `${category}/${file}`,
-        category: category.toLowerCase(),
+        category: slugifyCategory(category),
         fileName: file,
       });
     }
@@ -456,7 +457,7 @@ function countTranslationsByCategory() {
       const files = fs
         .readdirSync(categoryDir)
         .filter((f) => f.endsWith('.md') && !f.startsWith('_'));
-      counts[lang][category.toLowerCase()] = files.length;
+      counts[lang][slugifyCategory(category)] = files.length;
     }
   }
 
@@ -650,7 +651,7 @@ async function main() {
 
   // Language coverage: count total translation files per language
   const translationCategoryCounts = countTranslationsByCategory();
-  const languageCoverage = { 'zh-TW': articles.length };
+  const languageCoverage = { [DEFAULT_LANGUAGE.code]: articles.length };
   for (const lang of TRANSLATION_LANGS) {
     const langCounts = translationCategoryCounts[lang];
     languageCoverage[lang] = Object.values(langCounts).reduce(

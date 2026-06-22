@@ -1,46 +1,37 @@
 """chronicle_lead — chronicle-style subheading detection (REWRITE Stage 2 #4 + #11).
 
-Direction D Wave 1 from reports/rewrite-pipeline-evolution-plan-2026-05-09.md:
-    把 REWRITE Stage 2 #4「小標題不編年體」+ #11「編年體自檢」從 prose 提醒
-    升級為 plugin gate (REFLEXES #15 第 N 次驗證：memory 是自律，pipeline 才是閘門).
+Ported from Taiwan.md. Most patterns were already language-agnostic (ISO
+date formats); this port adds English-specific patterns (Month Year, Year:
+Title) alongside them.
 
-Rule (REWRITE-PIPELINE.md §Stage 2 Step D + §Stage 2 Step G 自檢 3):
-    H2 subheadings must NOT be chronicle-style「YYYY 年 X 月」/「YYYY 年《作品》」
-    /「YYYY.MM.DD」 — these turn the article into a Wikipedia-style timeline
-    (Cicada / 草東 / 康士坦 / 魏如萱 等 2026-04-18 教訓).
+Rule:
+    H2 subheadings must NOT be chronicle-style ("May 2016", "2020: Album
+    Title", "2020.5.6") — these turn the article into a Wikipedia-style
+    timeline instead of a scene / conflict / object-led structure.
 
-Detected patterns (HARD):
-    ## 2016 年 5 月 X 事件          ← chronicle event with month
-    ## 2020 年《作品名》            ← year + work title
-    ## 2020.5.6                    ← date format
-    ## 2020/5/6                    ← date format
-    ## 2020-05-06                  ← ISO date
+Detected patterns (WARN, soft-launch):
+    ## May 2016: the fire started      <- chronicle event with month
+    ## 2020: Album Title                <- year + colon + title
+    ## 2020.5.6                         <- date format
+    ## 2020/5/6                         <- date format
+    ## 2020-05-06                       <- ISO date
 
 Allowed patterns (legitimate timeline / historical scope):
-    ## 1949-1987 戒嚴體制         ← year range + description (historical)
-    ## 1990 年代的台灣              ← decade reference
-    ## 民國 X 年                    ← 民國紀年 (historical narrative)
-    ## 第二次世界大戰前後           ← topical / period name
-    ## 戰後初期                     ← named period (no specific year)
+    ## 1949-1987 Martial Law Era         <- year range + description (historical)
+    ## The 1990s                         <- decade reference
+    ## Postwar Period                    <- named period (no specific year)
 
-APPLIES_TO 設計：
-    zh-TW articles 在 knowledge/{Category}/ 路徑下。
+APPLIES_TO design:
+    English articles under knowledge/{Category}/.
     Skip:
-      - Hub pages (`_*.md`) — index pages 用 timeline 結構合法
-      - Translation files (knowledge/en|ja|ko|es|fr/) — 非中文 prose
+      - Hub pages (`_*.md`) — index pages legitimately use timeline structure
+      - Translation files (knowledge/zh-TW/)
       - SPORE blueprints / harvests — handled by spore_writing.py
-      - Memory / diary — timeline templates legit
-      - reports/research/ — research notes 用日期合法
-
-Future extensions (deferred to D Wave 2-5):
-  - research_report_validator (Stage 1 #7 #9 核心矛盾 + 報告落檔)
-  - media_matrix_validator (Stage 1.7 §1.7d 三表完整)
-  - arithmetic_sanity (Stage 3 5a 算術自檢)
-  - density_balance (Stage 2 #12 — needs LLM-as-judge)
+      - Memory / diary — timeline templates legitimate
+      - reports/research/ — research notes legitimately use dates
 
 Canonical:
-  - docs/pipelines/REWRITE-PIPELINE.md §Stage 2 Step D 小標題先行決定 + §自檢 3 編年體自檢
-  - docs/pipelines/REWRITE-PIPELINE.md ⚠️ Top 5 最常忘的 step #3
+  - docs/editorial/EDITORIAL.en.md §subheadings
 """
 
 from __future__ import annotations
@@ -52,27 +43,28 @@ from ..types import FileTarget, Severity, Violation
 
 CHECK_NAME = "chronicle-lead"
 DIMENSION = "subheading"
-# Soft-launch: WARN initially (~17 legacy violations on 2026-05-09 ship).
-# Promote to HARD once legacy heal'd (per spore_writing.py Wave 2 Rule #14 pattern).
-# rewrite-stage-4 profile applies severity_override = "hard" for new articles.
 DEFAULT_SEVERITY = Severity.WARN
-EDITORIAL_REF = "REWRITE-PIPELINE.md §Stage 2 Step D + §Stage 2 Step G 自檢 3 編年體自檢"
-APPLIES_TO = ["zh-TW"]
+EDITORIAL_REF = "EDITORIAL.en.md §subheadings (no chronicle-style H2)"
+APPLIES_TO = ["en"]
 
+
+_MONTHS = (
+    r"January|February|March|April|May|June|July|August|September|"
+    r"October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec"
+)
 
 # ── HARD: chronicle subheading patterns ──────────────────────────────────────
 
-# YYYY 年 X 月... — most common AI failure mode (event date lead)
-# e.g. ## 2016 年 5 月，《XX》發行
-_RE_YEAR_MONTH = re.compile(r"^##\s+\d{4}\s*年\s*\d+\s*月")
+# Month Year — most common AI failure mode (event date lead)
+# e.g. ## May 2016: the fire started
+_RE_MONTH_YEAR = re.compile(rf"^##\s+(?:{_MONTHS})\s+\d{{4}}", re.IGNORECASE)
 
-# YYYY 年《作品名》 / YYYY 年〈作品名〉 — year + work title pattern
-# e.g. ## 2020 年《棲居在溪源之上》
-_RE_YEAR_WORK = re.compile(r"^##\s+\d{4}\s*年\s*[《〈]")
+# Year Month (reversed order) — e.g. ## 2016 May
+_RE_YEAR_MONTH = re.compile(rf"^##\s+\d{{4}}\s+(?:{_MONTHS})", re.IGNORECASE)
 
-# YYYY 年「事件」/ YYYY 年：標題 — year-prefixed event lead
-# e.g. ## 2018 年：金曲入圍 / ## 2018 年「金曲入圍」
-_RE_YEAR_EVENT = re.compile(r"^##\s+\d{4}\s*年[：:「]")
+# YYYY: Title / YYYY "Event" — year-prefixed event lead
+# e.g. ## 2018: the award nomination
+_RE_YEAR_EVENT = re.compile(r"^##\s+\d{4}\s*[:“\"]")
 
 # YYYY.MM.DD / YYYY/MM/DD / YYYY-MM-DD — date format
 # e.g. ## 2020.5.6 / ## 2020/5/6 / ## 2020-05-06
@@ -85,15 +77,12 @@ _RE_DATE_FORMAT = re.compile(r"^##\s+\d{4}[/.\-]\s*\d{1,2}[/.\-]\s*\d{1,2}")
 # Year range: ## 1949-1987 ... / ## 1949–1987 ... / ## 1949 — 1987 ...
 _RE_YEAR_RANGE = re.compile(r"^##\s+\d{4}\s*[—–\-]\s*\d{4}")
 
-# Decade: ## 1990 年代 / ## 二〇〇〇 年代
-_RE_DECADE = re.compile(r"^##\s+\d{4}\s*年代")
-
-# 民國紀年: ## 民國 X 年 (historical narrative, allowed)
-_RE_MINGUO = re.compile(r"^##\s+民國\s*\d+\s*年")
+# Decade: ## The 1990s / ## 1990s
+_RE_DECADE = re.compile(r"^##\s+(?:The\s+)?\d{4}s\b", re.IGNORECASE)
 
 
 def _is_excluded_path(path: str) -> bool:
-    """Skip non-zh-TW articles, hubs, spores, and historical artifact paths.
+    """Skip non-English articles, hubs, spores, and historical artifact paths.
 
     Includes /tmp/ ad-hoc draft testing (any tmp file is treated as if it were
     a knowledge/ article for testing purposes).
@@ -101,9 +90,7 @@ def _is_excluded_path(path: str) -> bool:
     import os
     p = str(path)
     # Translation files
-    if "/knowledge/en/" in p or "/knowledge/ja/" in p or "/knowledge/ko/" in p:
-        return True
-    if "/knowledge/es/" in p or "/knowledge/fr/" in p:
+    if "/knowledge/zh-TW/" in p:
         return True
     # Hub pages — knowledge/{Category}/_X.md hub pattern
     if os.path.basename(p).startswith("_") and p.endswith(".md"):
@@ -126,7 +113,6 @@ def _is_legitimate_chronicle(line: str) -> bool:
     return bool(
         _RE_YEAR_RANGE.match(line)
         or _RE_DECADE.match(line)
-        or _RE_MINGUO.match(line)
     )
 
 
@@ -134,10 +120,10 @@ def _detect_chronicle_violation(line: str) -> str | None:
     """Return violation pattern name if line is a chronicle subheading, else None."""
     if _is_legitimate_chronicle(line):
         return None
+    if _RE_MONTH_YEAR.match(line):
+        return "month-year"
     if _RE_YEAR_MONTH.match(line):
         return "year-month"
-    if _RE_YEAR_WORK.match(line):
-        return "year-work"
     if _RE_YEAR_EVENT.match(line):
         return "year-event"
     if _RE_DATE_FORMAT.match(line):
@@ -169,14 +155,16 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             check=CHECK_NAME,
             severity=DEFAULT_SEVERITY,
             message=(
-                f"編年體小標題 (REWRITE Stage 2 #4): "
-                f"「{stripped[:60]}」 = 維基百科時間軸，改用 場景 / 意象 / 衝突 / 物件 / 核心矛盾"
+                f"Chronicle-style subheading: "
+                f'"{stripped[:60]}" = Wikipedia-style timeline, use a scene / image / '
+                "conflict / object / core-tension lead instead"
             ),
             line=line_no,
             snippet=stripped[:80],
             editorial_ref=EDITORIAL_REF,
             fix_suggestion=(
-                "範例：「派對結束了」(場景) / 「凡凡的狗叫土豆」(物件) / "
-                "「沒被認出的金曲歌后」(核心矛盾)。年份範圍如 「1949-1987 戒嚴體制」 OK。"
+                'Examples: "The party ended" (scene) / "The dog named Spud" (object) / '
+                '"The uncredited founder" (core tension). Year ranges like '
+                '"1949-1987 Martial Law Era" are fine.'
             ),
         )

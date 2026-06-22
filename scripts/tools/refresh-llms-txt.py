@@ -165,7 +165,8 @@ def main():
     updated = patch_llms_txt(original, vitals, fresh, people)
 
     if updated == original:
-        print(f"✓ llms.txt 已是最新 (zh {vitals['languageCoverage']['zh-TW']} / contributors {vitals['contributors']} / People ~{round_to_tens(people)}+)")
+        cov = vitals.get("languageCoverage", {})
+        print(f"✓ llms.txt 已是最新 (zh {cov.get('zh-TW', 0)} / contributors {vitals['contributors']} / People ~{round_to_tens(people)}+)")
         return 0
 
     if args.check:
@@ -186,8 +187,8 @@ def main():
         return 0
 
     LLMS_TXT.write_text(updated)
-    cov = vitals["languageCoverage"]
-    print(f"✓ llms.txt refreshed: zh {cov['zh-TW']} / en {cov['en']} / ja {cov['ja']} / ko {cov['ko']} / es {cov['es']} / fr {cov['fr']} / contributors {vitals['contributors']} / People ~{round_to_tens(people)}+")
+    cov = vitals.get("languageCoverage", {})
+    print(f"✓ llms.txt refreshed: zh {cov.get('zh-TW', 0)} / en {cov.get('en', 0)} / ja {cov.get('ja', 0)} / ko {cov.get('ko', 0)} / es {cov.get('es', 0)} / fr {cov.get('fr', 0)} / contributors {vitals['contributors']} / People ~{round_to_tens(people)}+")
     return 0
 
 

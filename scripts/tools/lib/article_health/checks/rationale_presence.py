@@ -38,7 +38,7 @@ CHECK_NAME = "rationale-presence"
 DIMENSION = "rationale"
 DEFAULT_SEVERITY = Severity.WARN
 EDITORIAL_REF = "docs/editorial/RATIONALE-SPEC.md + REWRITE-PIPELINE.md Step 1.4.5"
-APPLIES_TO = ["zh-TW"]
+APPLIES_TO = ["en"]
 
 
 REQUIRED_KEYS = [
@@ -54,8 +54,10 @@ OPTIONAL_KEYS = [
 
 ALL_KNOWN_KEYS = set(REQUIRED_KEYS + OPTIONAL_KEYS)
 
-# Strict categories per #851 哲宇 Build 3 — release-pr profile gates these.
-STRICT_CATEGORIES = {"People", "History", "Society", "Politics"}
+# Strict categories — release-pr profile gates these. LagunaBeach.md's
+# category set has no People/Society/Politics; History is the closest
+# analog (factual/historical claims warrant rationale).
+STRICT_CATEGORIES = {"History"}
 
 # Placeholder values that count as "empty" / unfilled.
 EMPTY_MARKERS = {"", "[TODO]", "[待填]", "TODO", "待填", "todo", "TBD", "tbd"}
@@ -81,8 +83,8 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             check=CHECK_NAME,
             severity=missing_sev,
             message=(
-                f"frontmatter 缺 `rationale:` block — "
-                f"請補 4 required keys ({' / '.join(REQUIRED_KEYS)})。簡填 OK。"
+                f"frontmatter missing `rationale:` block — "
+                f"add the 4 required keys ({' / '.join(REQUIRED_KEYS)}). A brief one-liner per key is fine."
             ),
             line=1,
             fix_suggestion=(
@@ -102,9 +104,9 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
         yield Violation(
             check=CHECK_NAME,
             severity=Severity.HARD,
-            message="frontmatter `rationale` 必須是 YAML mapping (nested keys)",
+            message="frontmatter `rationale` must be a YAML mapping (nested keys)",
             line=1,
-            fix_suggestion="使用 `rationale:` 加 nested 4 keys",
+            fix_suggestion="Use `rationale:` with the 4 nested keys",
             editorial_ref=EDITORIAL_REF,
         )
         return
@@ -115,9 +117,9 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             yield Violation(
                 check=CHECK_NAME,
                 severity=missing_sev,
-                message=f"rationale 缺 required key `{key}` (簡填 OK)",
+                message=f"rationale missing required key `{key}` (a brief one-liner is fine)",
                 line=1,
-                fix_suggestion=f"加 `{key}: '...'`",
+                fix_suggestion=f"Add `{key}: '...'`",
                 editorial_ref=EDITORIAL_REF,
             )
             continue
@@ -129,9 +131,9 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             yield Violation(
                 check=CHECK_NAME,
                 severity=missing_sev,
-                message=f"rationale `{key}` 空或為佔位符 (簡填 OK，但不可留空)",
+                message=f"rationale `{key}` is empty or a placeholder (a brief one-liner is fine, but not empty)",
                 line=1,
-                fix_suggestion=f"`{key}` 填一句話描述即可",
+                fix_suggestion=f"Fill `{key}` with a one-line description",
                 editorial_ref=EDITORIAL_REF,
             )
 
@@ -146,10 +148,10 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             check=CHECK_NAME,
             severity=Severity.HARD,
             message=(
-                f"rationale key `{key}` 非 canonical 名稱 — 是否拼錯？"
+                f"rationale key `{key}` is not a canonical name — typo?"
                 f" canonical keys: {', '.join(REQUIRED_KEYS + OPTIONAL_KEYS)}"
             ),
             line=1,
-            fix_suggestion=f"檢查 key 名稱拼寫，或加底線前綴 `_{key}` 表示 sister key",
+            fix_suggestion=f"Check spelling, or prefix with underscore `_{key}` to mark it as a sister key",
             editorial_ref=EDITORIAL_REF,
         )

@@ -51,6 +51,11 @@ DEFAULT_ZERO_IMAGES_SEVERITY = "warn"  # rewrite-stage-4 promotes to "hard"
 # text-only (雜學校 0) 失格。length_scaled 預設 off，rewrite-stage-4 profile override on。
 DEFAULT_LENGTH_SCALED = False
 DEFAULT_CJK_PER_MEDIA = 1200
+# 2026-06-21: English equivalent of cjk_per_media. This plugin is APPLIES_TO
+# = ["*"] (runs on both zh-TW and English content), so the length-scaling
+# unit must match the article's language — CJK char count for zh-TW, word
+# count for English. Calibrated to media_richness.py's English ratio.
+DEFAULT_WORDS_PER_MEDIA = 400
 
 # Markdown image syntax: ![alt](src)
 _RE_INLINE_IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)\n]+)\)")
@@ -58,6 +63,7 @@ _RE_INLINE_IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)\n]+)\)")
 _RE_IFRAME = re.compile(r"<iframe[\s>]", re.IGNORECASE)
 _RE_IMAGE_SOURCES_H2 = re.compile(r"^##\s*圖片來源", re.MULTILINE)
 _RE_CJK = re.compile(r"[一-鿿㐀-䶿]")
+_RE_WORD = re.compile(r"[A-Za-z0-9'-]+")
 # length-scaling 用 prose-CJK (strip 參考資料 footnote 段) — footnotes 可 inflate CJK ~25%
 # → 過度要求媒體。對齊 paragraph_rhythm density 的 prose 基準 (校準保留 設研院/天下/黃魚鴞)。
 _RE_REF_SECTION = re.compile(r"^##\s*參考資料", re.MULTILINE)
@@ -238,9 +244,13 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
         if options.get("length_scaled", DEFAULT_LENGTH_SCALED):
             ref_m = _RE_REF_SECTION.search(body)
             prose_body = body[: ref_m.start()] if ref_m else body
-            cjk = len(_RE_CJK.findall(prose_body))
-            per = int(options.get("cjk_per_media", DEFAULT_CJK_PER_MEDIA)) or DEFAULT_CJK_PER_MEDIA
-            min_images = max(min_images, round(cjk / per))
+            if target.lang == "en":
+                length_unit = len(_RE_WORD.findall(prose_body))
+                per = int(options.get("words_per_media", DEFAULT_WORDS_PER_MEDIA)) or DEFAULT_WORDS_PER_MEDIA
+            else:
+                length_unit = len(_RE_CJK.findall(prose_body))
+                per = int(options.get("cjk_per_media", DEFAULT_CJK_PER_MEDIA)) or DEFAULT_CJK_PER_MEDIA
+            min_images = max(min_images, round(length_unit / per))
         # 2026-06-04 哲宇 directive「圖+影片 valued together」：門檻算「媒體」(圖+影片)，
         # 不再只算圖。但保留 ≥1 靜態圖 floor (OG card / spore poster 需要靜態圖，影片無法 derive)。
         # 修補：video-rich 範本 黃魚鴞 (1 圖+2 官方影片=3 媒體) 原本被 image-only 門檻 hard-fail。

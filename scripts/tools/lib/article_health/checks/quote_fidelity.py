@@ -1,36 +1,31 @@
-"""quote_fidelity — 引語逐字保真 + superlative 原子清單 (REWRITE Stage 3.6.1).
+"""quote_fidelity — verbatim quote fidelity + superlative-claim list (REWRITE Stage 3.6.1).
 
-儀器化 REFLEXES #15：把 REWRITE-PIPELINE v7.0 Step 3.6.1「成品總驗・引號逐字
-diff」的手動比對升級為 plugin gate（memory 是自律，plugin 才是閘門）。
+Ported from Taiwan.md. QF1 (verbatim quote check against a `researchReport`
+SSOT) requires a citation convention LagunaBeach.md hasn't adopted yet:
+0/18 articles use footnotes ([^n]) or set frontmatter `researchReport`. QF1
+is dormant until that convention exists — kept in the port (matches the
+"full port" decision) but it will not fire on the current corpus. QF2
+(superlative-claim list) doesn't depend on footnotes and can fire today.
 
-來源事件（2026-06-09/10 台灣嘻哈與饒舌發展）：
-    Stage 3.1-3.5 全綠 ship 後，讀者老莫（文章引用來源作者本人）抓到一處詮釋
-    gloss 錯誤（寶哥=宋岳庭，實為 MV 導演黃信佳）。成品全文原子重驗再抓 14 處，
-    其中兩種 drift 本 plugin 可機器攔截：
-      (a) writer 縮寫 quote / 改句型但保留引號 —— 壞特陳述句被改成反問句、
-          楊舒雅 quote 漏「在音樂中」「才能憤怒」。引號 = 逐字承諾。
-      (b) superlative（首位/唯一/第一）是 writer 自漂移高發區 ——「曾獲報導」
-          寫成「唯一」、SSOT 正確仍寫錯。
+Detects two rules:
+    QF1 (WARN, soft-launch): direct quotes in body text ("..." with >= 12
+        words, followed within 12 chars by a [^n] footnote = a quote with
+        a sourcing promise) are verbatim-compared against the research
+        report referenced by frontmatter `researchReport` (the SSOT quote
+        bank). Mismatches mean the writer may have paraphrased or
+        truncated — re-check against the source.
+    QF2 (INFO): lists superlative claims in the body (first / only /
+        earliest / first-ever, etc.) as a priority re-verification list —
+        doesn't block the gate, pure surfacing.
 
-偵測兩條 rule：
-    QF1（WARN，soft-launch）：正文中「…」引語（CJK ≥ 12 字、後面 12 字內有
-        [^n] 腳註 = 有來源承諾的直接引語），逐字比對 frontmatter
-        `researchReport` 指向的研究報告全文（SSOT 引語庫所在）。引語含「…」
-        省略號時按段切開逐段比對。比不到 = writer 可能縮寫/改寫，回 SSOT
-        §4 引語庫核對。
-    QF2（INFO）：列出全文 superlative 原子（首位/唯一/第一位/史上第一/最早/
-        首座/首張/首次/首度），作為 Step 3.6.1 原子重驗 fan-out 的優先驗證
-        清單 —— 不擋 gate，純 surface。
-
-邊界：
-    - frontmatter 無 `researchReport` → QF1 skip（INFO 提示一次），QF2 照跑。
-    - 引語不含 [^n]（scare quote / 口號 /  slogan）→ 不當直接引語，QF1 skip。
-    - 翻譯版 / Hub / memory / diary / reports 不掃。
+Boundaries:
+    - No frontmatter `researchReport` -> QF1 skips (one INFO note), QF2 still runs.
+    - Quote without a [^n] footnote (scare quote / slogan) -> not treated as
+      a direct quote, QF1 skips it.
+    - Translation / hub / memory / diary / reports not scanned.
 
 Canonical:
-  - docs/pipelines/REWRITE-PIPELINE.md §Step 3.6 成品總驗三關
-  - reports/research/2026-06/台灣嘻哈與饒舌發展.md §9（worked example）
-  - MANIFESTO §10 幻覺鐵律 + REFLEXES #31（sub-agent claim 是線索不是 oracle）
+  - docs/editorial/EDITORIAL.en.md §citation fidelity
 """
 
 from __future__ import annotations
@@ -44,26 +39,26 @@ from ..types import FileTarget, Severity, Violation
 
 CHECK_NAME = "quote-fidelity"
 DIMENSION = "factcheck"
-# Soft-launch WARN：legacy 文章的 research report 可能缺 §4 引語庫（v6.4 之前），
-# 逐字庫不全會誤報。待 vc≥3 production case 後評估升 HARD（per chronicle-lead pattern）。
 DEFAULT_SEVERITY = Severity.WARN
-EDITORIAL_REF = "REWRITE-PIPELINE.md §Step 3.6.1 成品總驗・引號逐字 diff"
-APPLIES_TO = ["zh-TW"]
+EDITORIAL_REF = "EDITORIAL.en.md §citation fidelity"
+APPLIES_TO = ["en"]
 
-# 直接引語：「…」內 ≥ 12 CJK 字，閉引號後 12 字內出現 [^n]
-_QUOTE_RX = re.compile(r"「([^「」]{12,})」(?P<tail>[^「]{0,12}?)\[\^\d+\]")
-# superlative 原子（writer 自漂移高發區）
+# Direct quote: ".." with >= 12 words, [^n] footnote within 12 chars after the close quote.
+_QUOTE_RX = re.compile(r'"([^"]{12,})"(?P<tail>[^"]{0,12}?)\[\^\d+\]')
+# Superlative claims (high writer-drift area)
 _SUPERLATIVE_RX = re.compile(
-    r"(史上第一[位個張座次]?|第一[位個張座]|首位|首座|首張|首度|首次|唯一|最早)"
+    r"\b(the\s+only|the\s+first(?:\s+ever)?|earliest|first-ever|"
+    r"the\s+oldest|the\s+largest|the\s+last\s+remaining)\b",
+    re.IGNORECASE,
 )
-_ELLIPSIS_SPLIT_RX = re.compile(r"[…⋯]+|……")
-_MIN_SEGMENT_CJK = 6
+_ELLIPSIS_SPLIT_RX = re.compile(r"\.\.\.|…")
+_MIN_SEGMENT_WORDS = 4
 _MAX_SUPERLATIVE_REPORTED = 12
 
 
 def _is_excluded_path(path: str) -> bool:
     p = str(path)
-    if any(f"/knowledge/{lg}/" in p for lg in ("en", "ja", "ko", "es", "fr")):
+    if "/knowledge/zh-TW/" in p:
         return True
     if os.path.basename(p).startswith("_") and p.endswith(".md"):
         return True
@@ -72,22 +67,18 @@ def _is_excluded_path(path: str) -> bool:
     return False
 
 
-_HALF2FULL = str.maketrans({",": "，", "!": "！", "?": "？", ";": "；", ":": "："})
-_TRAILING_PUNCT_RX = re.compile(r"[。．，！？；：…⋯、]+$")
+_TRAILING_PUNCT_RX = re.compile(r"[.,!?;:…\s]+$")
 
 
 def _normalize(text: str) -> str:
-    """逐字比對前的正規化：去空白 / markdown 強調符 / 半形標點轉全形。
-
-    字級 drift（「以及」vs「獻給」）仍會被抓；半形↔全形逗號是轉錄習慣差，
-    統一後再比（dogfood 校準：老莫 quote 半形 comma 誤報）。
-    """
-    return re.sub(r"[\s　*_]+", "", text).translate(_HALF2FULL)
+    """Normalize before verbatim comparison: strip whitespace / markdown emphasis markers."""
+    return re.sub(r"[\s*_]+", " ", text).strip().lower()
 
 
 def _strip_edge_punct(seg: str) -> str:
-    """needle 段落去頭尾標點 — 句號收在引號內/外是轉錄習慣，非逐字 drift。"""
-    return _TRAILING_PUNCT_RX.sub("", seg)
+    """Strip leading/trailing punctuation from a quote segment — punctuation
+    placement inside/outside quotes is a transcription habit, not a verbatim drift."""
+    return _TRAILING_PUNCT_RX.sub("", seg).strip()
 
 
 def _resolve_report_path(target: FileTarget) -> str | None:
@@ -96,7 +87,7 @@ def _resolve_report_path(target: FileTarget) -> str | None:
         return None
     if os.path.exists(rr):
         return rr
-    # fallback：從文章路徑往上找 repo root（含 reports/ 的目錄）
+    # fallback: walk up from the article path to find the repo root (the dir containing reports/)
     d = os.path.dirname(os.path.abspath(str(target.path)))
     for _ in range(6):
         cand = os.path.join(d, rr)
@@ -107,19 +98,20 @@ def _resolve_report_path(target: FileTarget) -> str | None:
 
 
 def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
-    """QF1 引語逐字保真（against researchReport SSOT）+ QF2 superlative 清單。"""
+    """QF1 verbatim quote fidelity (against researchReport SSOT) + QF2 superlative-claim list."""
     if _is_excluded_path(str(target.path)):
         return
 
     body = target.body_without_protected()
     if not body.strip():
         return
-    # 腳註定義區（[^n]: ...）的描述常合理壓縮引語，不掃 QF1/QF2（保留行號：以空白佔位）
+    # Footnote definition lines ([^n]: ...) often legitimately compress quotes —
+    # exclude them from QF1/QF2 scanning (blank them out, keep line numbers).
     body = "\n".join(
         ("" if re.match(r"\s*\[\^\d+\]:", ln) else ln) for ln in body.split("\n")
     )
 
-    # ── QF1: 引語逐字保真 ───────────────────────────────────────────────
+    # ── QF1: verbatim quote fidelity ─────────────────────────────────────────
     report_path = _resolve_report_path(target)
     report_norm: str | None = None
     if report_path:
@@ -136,18 +128,18 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             check=CHECK_NAME,
             severity=Severity.INFO,
             message=(
-                f"找到 {len(quotes)} 句帶腳註直接引語，但"
+                f"Found {len(quotes)} footnoted direct quote(s), but "
                 + (
-                    f"research report 讀不到（{rr}）"
+                    f"couldn't read the research report ({rr})"
                     if rr
-                    else "frontmatter 無 researchReport"
+                    else "frontmatter has no researchReport"
                 )
-                + " — QF1 逐字保真 skip。Step 3.6.1 請人工對 SSOT §4 引語庫。"
+                + " — QF1 verbatim check skipped. Manually verify against the source."
             ),
             line=1,
             snippet="",
             editorial_ref=EDITORIAL_REF,
-            fix_suggestion="depth 文補 frontmatter `researchReport:` 指向 SSOT 研究報告。",
+            fix_suggestion="Add frontmatter `researchReport:` pointing at the source research report.",
         )
     elif report_norm is not None:
         for m in quotes:
@@ -155,7 +147,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             segments = [
                 _strip_edge_punct(s)
                 for s in _ELLIPSIS_SPLIT_RX.split(quote)
-                if len(re.sub(r"[^一-鿿]", "", s)) >= _MIN_SEGMENT_CJK
+                if len(re.findall(r"[A-Za-z0-9'-]+", s)) >= _MIN_SEGMENT_WORDS
             ]
             if not segments:
                 continue
@@ -167,20 +159,21 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
                 check=CHECK_NAME,
                 severity=DEFAULT_SEVERITY,
                 message=(
-                    f"引語逐字比對不到 research report：「{missing[0][:32]}…」 — "
-                    "writer 可能縮寫 / 改句型 / 換字（引號 = 逐字承諾）。"
-                    "回 SSOT §4 引語庫核對原文，或這句根本不在報告裡（新增來源要先進報告）。"
+                    f"Quote doesn't match the research report verbatim: \"{missing[0][:48]}…\" — "
+                    "writer may have paraphrased / truncated (a quote is a verbatim promise). "
+                    "Check against the source, or the line isn't in the report at all."
                 ),
                 line=line_no,
-                snippet=f"「{quote[:60]}…」" if len(quote) > 60 else f"「{quote}」",
+                snippet=f'"{quote[:60]}…"' if len(quote) > 60 else f'"{quote}"',
                 editorial_ref=EDITORIAL_REF,
                 fix_suggestion=(
-                    "三選一：(1) 改回報告逐字 (2) 拿掉引號改轉述 (3) 引語是新查證 → "
-                    "先 append 報告 §4 引語庫（含 URL + Ctrl-F 狀態）再引用。"
+                    "Pick one: (1) restore the exact source wording (2) drop the quote marks "
+                    "and paraphrase instead (3) it's a newly verified quote -> add it to the "
+                    "research report's source bank first."
                 ),
             )
 
-    # ── QF2: superlative 原子清單（INFO，3.6.1 優先驗證對象）──────────────
+    # ── QF2: superlative-claim list (INFO, priority re-verification list) ──
     reported = 0
     for m in _SUPERLATIVE_RX.finditer(body):
         if reported >= _MAX_SUPERLATIVE_REPORTED:
@@ -191,12 +184,12 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             check=CHECK_NAME,
             severity=Severity.INFO,
             message=(
-                f"superlative 原子「{m.group(0)}」 — writer 自漂移高發區，"
-                "Step 3.6.1 原子重驗優先驗證（≥2 源；單源請軟化措辭）。"
+                f'Superlative claim "{m.group(0)}" — high writer-drift area, '
+                "prioritize re-verification (needs >=2 sources; soften wording if single-sourced)."
             ),
             line=line_no,
             snippet=line_text[:90],
             editorial_ref=EDITORIAL_REF,
-            fix_suggestion="驗不到第二來源 → 軟化（唯一→曾獲 / 第一位→早期少數）。",
+            fix_suggestion="Can't verify a second source -> soften (\"the only\" -> \"one of the few\").",
         )
         reported += 1
