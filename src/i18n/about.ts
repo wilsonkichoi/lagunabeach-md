@@ -23,13 +23,10 @@ export const aboutUI = {
       'Built on an open-source knowledge base framework. Community-driven, AI-friendly, and freely forkable for any city or topic.',
 
     // Stats
-    'about.stats.pages.number': '12+',
     'about.stats.pages.label': 'Articles',
     'about.stats.countries.number': '8',
     'about.stats.countries.label': 'Categories',
-    'about.stats.stars.number': '0+',
     'about.stats.stars.label': 'Languages',
-    'about.stats.contributors.number': '52+',
     'about.stats.contributors.label': 'Contributors',
     'about.stats.users.number': '—',
     'about.stats.users.label': 'Growing',
@@ -320,13 +317,10 @@ export const aboutUI = {
       '建立在開源知識庫框架之上。社群驅動、AI 友善，任何城市或主題都能自由 fork。',
 
     // Stats
-    'about.stats.pages.number': '12+',
     'about.stats.pages.label': '文章',
     'about.stats.countries.number': '8',
     'about.stats.countries.label': '分類',
-    'about.stats.stars.number': '0+',
     'about.stats.stars.label': '語言',
-    'about.stats.contributors.number': '52+',
     'about.stats.contributors.label': '貢獻者',
     'about.stats.users.number': '—',
     'about.stats.users.label': '持續成長',
