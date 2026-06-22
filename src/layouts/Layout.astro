@@ -62,12 +62,12 @@ interface Props {
   pageType?: string;
 }
 
-const { lang = 'zh-TW' } = Astro.props;
+const { lang = 'en' } = Astro.props;
 const {
   title,
   description = lang === 'zh-TW'
     ? '讓全世界完整認識台灣'
-    : 'Open-source knowledge base about Taiwan',
+    : 'Open-source knowledge base about Laguna Beach',
   image,
   type,
   datePublished,
@@ -108,9 +108,9 @@ const pageType =
     : category
       ? 'category'
       : currentPath
-            .replace(/^\/(en|ja|ko|es|fr)(?=\/|$)/, '')
-            .split('/')
-            .filter(Boolean)[0] || 'home');
+          .replace(/^\/(en|ja|ko|es|fr)(?=\/|$)/, '')
+          .split('/')
+          .filter(Boolean)[0] || 'home');
 const isHome = currentPath === '/' || currentPath === '/en';
 // Feedback widget page-kind (v2): drives context-aware category set + inline
 // text-selection annotation on articles. Derived from page type + path.
