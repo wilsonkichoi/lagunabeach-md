@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { readFileSync } from 'node:fs';
 import { Command } from 'commander';
 import { searchCommand } from './commands/search.js';
 import { readCommand } from './commands/read.js';
@@ -32,6 +33,10 @@ import { mcpCommand } from './commands/mcp.js';
 import { profileCommand } from './commands/profile.js';
 import { mailmapCommand } from './commands/mailmap.js';
 
+const pkg = JSON.parse(
+  readFileSync(new URL('../package.json', import.meta.url), 'utf8'),
+);
+
 const program = new Command();
 
 program
@@ -39,7 +44,7 @@ program
   .description(
     'LagunaBeach.md — Laguna Beach knowledge base CLI\nSearch, read, and explore curated articles about Laguna Beach, California.',
   )
-  .version('0.1.0');
+  .version(pkg.version);
 
 // v0.5 — existing commands
 searchCommand(program);
