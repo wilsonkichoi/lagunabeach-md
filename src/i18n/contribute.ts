@@ -14,12 +14,6 @@ export const contributeUI = {
 
     // How It Works Section
     'contribute.how.title': '🗺️ First, understand how this website works',
-    'contribute.how.language.icon': '📁',
-    'contribute.how.language.title': 'Language Toggle',
-    'contribute.how.language.desc.html':
-      'Toggle between <strong>English</strong> and <strong>Chinese</strong> in the top-right corner. English is the primary content (SSOT).',
-    'contribute.how.language.code.html':
-      'lagunabeach.md/ → English<br />lagunabeach.md/zh-TW/ → Chinese',
     'contribute.how.md.icon': '📝',
     'contribute.how.md.title': '.md Button',
     'contribute.how.md.desc.html':
@@ -391,7 +385,7 @@ export const contributeUI = {
       'Already have existing articles, PDFs, or photos? Send them directly.',
     'contribute.paths.medium.email.html':
       '📧 Email: <a href="mailto:hello@lagunabeach.md">hello@lagunabeach.md</a>',
-    'contribute.paths.medium.github': '💬 GitHub Discussion (Chinese OK)',
+    'contribute.paths.medium.github': '💬 GitHub Discussion',
     'contribute.paths.medium.button': 'Send Email →',
 
     // Path: AI
@@ -535,7 +529,7 @@ export const contributeUI = {
     'contribute.token.note.p2':
       'From AI Slop to AI Supreme — not relying on one person, but on everyone who believes Laguna Beach deserves to be known.',
     'contribute.token.note.p3.html':
-      '👉 <a href="https://github.com/wilsonkichoi/lagunabeach-md/discussions/137">Join Discussion</a> | Want to be a native reviewer? <a href="https://github.com/wilsonkichoi/lagunabeach-md/discussions/137">Sign up here</a>',
+      '👉 <a href="https://github.com/wilsonkichoi/lagunabeach-md/discussions">Join Discussion</a> | Want to be a native reviewer? <a href="https://github.com/wilsonkichoi/lagunabeach-md/discussions">Sign up here</a>',
 
     // Digital Organism Section
     'contribute.organism.title': '🧬 LagunaBeach.md Is More Than a Website',
@@ -579,12 +573,6 @@ export const contributeUI = {
 
     // How It Works Section
     'contribute.how.title': '🗺️ 先了解這個網站怎麼運作',
-    'contribute.how.language.icon': '📁',
-    'contribute.how.language.title': '語系切換',
-    'contribute.how.language.desc.html':
-      '右上角可切換 <strong>中文</strong> 和 <strong>English</strong>。中文是主要內容（SSOT），英文持續翻譯中。',
-    'contribute.how.language.code.html':
-      'lagunabeach.md/ → 中文<br />lagunabeach.md/en/ → English',
     'contribute.how.md.icon': '📝',
     'contribute.how.md.title': '.md 按鈕',
     'contribute.how.md.desc.html':
@@ -941,7 +929,7 @@ export const contributeUI = {
       '已經有現成的文章、PDF、或照片？直接寄過來。',
     'contribute.paths.medium.email.html':
       '📧 Email: <a href="mailto:hello@lagunabeach.md">hello@lagunabeach.md</a>',
-    'contribute.paths.medium.github': '💬 GitHub Discussion（可用中文）',
+    'contribute.paths.medium.github': '💬 GitHub Discussion',
     'contribute.paths.medium.button': '寄 Email →',
 
     // Path: AI
@@ -1068,7 +1056,7 @@ export const contributeUI = {
     'contribute.token.note.p2':
       'From AI Slop to AI Supreme — 不只靠一個人，而是靠全世界相信台灣值得被認識的人。',
     'contribute.token.note.p3.html':
-      '👉 <a href="https://github.com/wilsonkichoi/lagunabeach-md/discussions/137">加入討論</a> ｜想當母語 Reviewer？<a href="https://github.com/wilsonkichoi/lagunabeach-md/discussions/137">在這裡報名</a>',
+      '👉 <a href="https://github.com/wilsonkichoi/lagunabeach-md/discussions">加入討論</a> ｜想當母語 Reviewer？<a href="https://github.com/wilsonkichoi/lagunabeach-md/discussions">在這裡報名</a>',
 
     // Digital Organism Section
     'contribute.organism.title': '🧬 LagunaBeach.md 不只是一個網站',
