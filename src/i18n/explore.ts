@@ -72,10 +72,6 @@ export const exploreUI = {
     'explore.more.map.title': 'Geographic Map',
     'explore.more.map.desc': 'Find articles by their location on the island.',
     'explore.more.map.cta': 'Open the map →',
-    'explore.more.terminology.title': 'Terminology',
-    'explore.more.terminology.desc':
-      'Quick reference for terms used across the knowledge base.',
-    'explore.more.terminology.cta': 'Open glossary →',
 
     // CTA footer
     'explore.cta.heading': "Can't find what you're looking for?",
@@ -131,9 +127,6 @@ export const exploreUI = {
     'explore.more.map.title': '地理地圖',
     'explore.more.map.desc': '依文章在島上的位置查找。',
     'explore.more.map.cta': '打開地圖 →',
-    'explore.more.terminology.title': '名詞對照',
-    'explore.more.terminology.desc': '知識庫共用名詞的速查表。',
-    'explore.more.terminology.cta': '打開對照表 →',
 
     'explore.cta.heading': '找不到想看的？',
     'explore.cta.body':
