@@ -77,7 +77,7 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
     heroSubtitle:
       'Sourced articles about Laguna Beach, California, one tool call away. When you ask an AI about Laguna Beach, it answers with citations instead of guessing.',
     badges: ['Free', 'No API key', 'Local-first', 'Open source'],
-    heroNote: 'Clone the repo, then ask Claude about Laguna Beach',
+    heroNote: 'Paste into your terminal, then ask Claude about Laguna Beach',
     copyLabel: 'Copy',
     copiedLabel: 'Copied ✓',
 
@@ -100,7 +100,7 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
 
     installTitle: 'Install',
     installLead:
-      'Clone the repo, then pick your client. No sign-up step, no published package yet.',
+      'Pick your client and copy-paste. No sign-up step, no API key.',
     installClientLabels: [
       'Claude Code',
       'Claude Desktop',
