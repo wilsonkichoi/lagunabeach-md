@@ -1,6 +1,6 @@
 {
   "name": "lagunabeach-md",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest"
@@ -11,6 +11,7 @@
   "description": "CLI for LagunaBeach.md — search, read, and explore curated articles about Laguna Beach, California from your terminal.",
   "type": "module",
   "bin": {
+    "lagunabeach-md": "src/index.js",
     "lagunabeachmd": "src/index.js"
   },
   "keywords": [
