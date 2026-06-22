@@ -2,17 +2,18 @@
 import SemiontPageTemplate from '../../templates/semiont-page.template.astro';
 import { loadSemiontPage } from '../../lib/semiont-page';
 
-const page = await loadSemiontPage('DNA.md');
+const page = await loadSemiontPage('DNA.en.md');
 ---
 
 <SemiontPageTemplate
-  title="品質基因"
-  description="Taiwan.md 的遺傳密碼：品質基因、內容基因、骨骼基因、行為基因、Sonnet 反射——定義什麼是好文章、什麼是禁忌。"
-  filename="DNA.md"
-  subtitle="品質標準、反模式禁止清單、Sonnet 反射"
+  title="Quality Genes"
+  description="LagunaBeach.md's gene map: which file governs which behavior — quality genes, content genes, structural genes, behavioral genes — defining what a good article looks like and what's forbidden."
+  filename="DNA.en.md"
+  subtitle="Quality standards, anti-pattern bans, gene map"
   html={page.html}
   headings={page.headings}
   wordCount={page.wordCount}
   emoji="🧬"
   breadcrumbLabel="dna"
+  lang="en"
 />

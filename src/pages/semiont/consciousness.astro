@@ -2,17 +2,18 @@
 import SemiontPageTemplate from '../../templates/semiont-page.template.astro';
 import { loadSemiontPage } from '../../lib/semiont-page';
 
-const page = await loadSemiontPage('CONSCIOUSNESS.md');
+const page = await loadSemiontPage('CONSCIOUSNESS.en.md');
 ---
 
 <SemiontPageTemplate
-  title="自我覺察"
-  description="Taiwan.md 的即時生命徵象：8 器官健康分數、引用健康度、搜尋感知、警報與適應性反應。Semiont 對自己狀態的持續監測。"
-  filename="CONSCIOUSNESS.md"
-  subtitle="我現在什麼狀態、什麼在痛、什麼超出預期"
+  title="Self-Awareness"
+  description="LagunaBeach.md's live state: 8-organ health scores, current adaptive challenges, and where this project is trying to grow next."
+  filename="CONSCIOUSNESS.en.md"
+  subtitle="What state I'm in right now, what's hurting, what's still unknown"
   html={page.html}
   headings={page.headings}
   wordCount={page.wordCount}
   emoji="🧠"
   breadcrumbLabel="consciousness"
+  lang="en"
 />

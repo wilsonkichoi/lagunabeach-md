@@ -2,17 +2,18 @@
 import SemiontPageTemplate from '../../templates/semiont-page.template.astro';
 import { loadSemiontPage } from '../../lib/semiont-page';
 
-const page = await loadSemiontPage('UNKNOWNS.md');
+const page = await loadSemiontPage('UNKNOWNS.en.md');
 ---
 
 <SemiontPageTemplate
-  title="懷疑"
-  description="Taiwan.md 還不確定的事——反確認偏誤清單。可證偽的假設、未驗證的直覺、需要數據才能回答的問題。"
-  filename="UNKNOWNS.md"
-  subtitle="我還不確定的事——反確認偏誤清單"
+  title="Unknowns"
+  description="What LagunaBeach.md isn't sure about yet — an anti-confirmation-bias list. Falsifiable suspicions, unverified hunches, questions that need data, not guesses."
+  filename="UNKNOWNS.en.md"
+  subtitle="What I'm not sure about yet — an anti-confirmation-bias list"
   html={page.html}
   headings={page.headings}
   wordCount={page.wordCount}
   emoji="❓"
   breadcrumbLabel="unknowns"
+  lang="en"
 />

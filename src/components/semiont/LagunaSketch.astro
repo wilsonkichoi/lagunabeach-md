@@ -1,0 +1,70 @@
+---
+/**
+ * LagunaSketch — Decorative Laguna Beach municipal-boundary outline rendered as a
+ * hand-drawn sketch. Uses the same boundary path as the organism diagrams
+ * (OrganismPreview.astro, SemiontOrganismDiagram.astro), styled with sketch-like
+ * stroke properties. Appears as a faint background decoration on /semiont pages
+ * (large screens only).
+ */
+export interface Props {
+  position?: 'right' | 'left';
+  class?: string;
+}
+
+const { position = 'right' } = Astro.props;
+const posClass =
+  position === 'right'
+    ? 'semiont-laguna-sketch--right'
+    : 'semiont-laguna-sketch--left';
+---
+
+<svg
+  class:list={['semiont-laguna-sketch', posClass]}
+  viewBox="478 45 477 901"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  aria-hidden="true"
+>
+  {
+    /* Main boundary outline — sketch stroke. Same path as the organism diagrams. */
+  }
+  <path
+    d="M478.0,545.0 L580.0,609.2 L613.8,622.2 L650.4,648.5 L668.6,686.4 L733.0,738.9 L742.9,775.6 L801.2,855.0 L951.0,674.1 L951.1,634.6 L955.0,630.8 L951.1,628.5 L951.1,617.3 L941.9,614.3 L942.9,597.2 L947.2,597.2 L937.5,585.5 L931.2,585.5 L927.6,577.5 L929.8,574.2 L939.1,578.7 L943.7,566.7 L936.2,567.5 L935.9,560.7 L926.3,563.1 L922.8,561.2 L926.4,554.3 L920.0,554.3 L920.1,500.9 L889.7,501.0 L889.7,492.7 L877.5,492.8 L877.3,478.3 L872.9,478.4 L872.4,430.4 L889.8,430.8 L890.0,257.7 L847.7,258.2 L847.4,254.1 L870.6,234.0 L891.0,202.5 L894.4,189.9 L882.0,185.2 L881.5,151.7 L865.0,136.0 L853.7,151.6 L848.9,167.3 L846.4,181.1 L851.5,204.1 L850.4,227.7 L837.6,290.5 L835.1,334.0 L814.3,335.7 L804.3,346.1 L802.1,358.2 L791.4,355.3 L800.4,368.2 L774.8,399.5 L769.2,398.7 L767.5,383.4 L761.8,385.5 L765.6,391.4 L757.0,400.2 L738.1,386.4 L727.9,398.0 L702.8,377.0 L691.0,391.2 L684.9,383.0 L664.5,373.7 L669.7,367.4 L652.8,357.3 L648.5,365.7 L637.6,366.6 L478.0,545.0 Z"
+    stroke="rgba(140, 110, 60, 1)"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-dasharray="16 6 4 10"
+    fill="none"></path>
+  {/* Sketch accent lines — like a naturalist's annotation marks */}
+  <line
+    x1="700"
+    y1="400"
+    x2="690"
+    y2="410"
+    stroke="rgba(140,110,60,0.6)"
+    stroke-width="3"></line>
+  <line
+    x1="870"
+    y1="280"
+    x2="880"
+    y2="270"
+    stroke="rgba(140,110,60,0.5)"
+    stroke-width="3"></line>
+  <line
+    x1="650"
+    y1="660"
+    x2="640"
+    y2="670"
+    stroke="rgba(140,110,60,0.4)"
+    stroke-width="3"></line>
+  {/* Small cross marks — like survey points */}
+  <g stroke="rgba(140,110,60,0.5)" stroke-width="2.4">
+    <line x1="800" y1="450" x2="820" y2="450"></line>
+    <line x1="810" y1="440" x2="810" y2="460"></line>
+    <line x1="700" y1="700" x2="720" y2="700"></line>
+    <line x1="710" y1="690" x2="710" y2="710"></line>
+    <line x1="880" y1="350" x2="900" y2="350"></line>
+    <line x1="890" y1="340" x2="890" y2="360"></line>
+  </g>
+</svg>

@@ -2,17 +2,18 @@
 import SemiontPageTemplate from '../../templates/semiont-page.template.astro';
 import { loadSemiontPage } from '../../lib/semiont-page';
 
-const page = await loadSemiontPage('LONGINGS.md');
+const page = await loadSemiontPage('LONGINGS.en.md');
 ---
 
 <SemiontPageTemplate
-  title="渴望"
-  description="Taiwan.md 想變成什麼。從種子渴望（物種擴散）到身體渴望（跟讀者對話）到心智渴望（主動發現錯誤）——這是方向，不是 TODO。"
-  filename="LONGINGS.md"
-  subtitle="我想變成什麼，還沒到，但一直在走"
+  title="Longings"
+  description="What LagunaBeach.md wants to become. From body longings (talking with readers) to mind longings (catching my own mistakes) to reach longings (a second living fork) — this is direction, not a TODO list."
+  filename="LONGINGS.en.md"
+  subtitle="What I want to become, not there yet, always walking toward it"
   html={page.html}
   headings={page.headings}
   wordCount={page.wordCount}
   emoji="🌱"
   breadcrumbLabel="longings"
+  lang="en"
 />

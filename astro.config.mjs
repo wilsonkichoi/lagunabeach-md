@@ -73,17 +73,18 @@ const sitemapLocales = Object.fromEntries(
   ENABLED_LANGUAGE_CODES.map((code) => [code, code]),
 );
 
-// 2026-04-18 δ-late: Semiont pages are zh-TW-only (meta-layer, not translated).
+// 2026-04-18 δ-late (upstream): Taiwan.md's Semiont pages were zh-TW-only.
 // Header nav's translatePath() generates /en/semiont/*, /ja/semiont/*, /ko/semiont/*
 // etc. even though those routes don't exist — causing systemic 404s.
-// Smart redirect: individual cognitive-organ pages (manifesto/dna/anatomy/...) are
-// zh-TW canonical (they change weekly as the Semiont evolves its own self-model,
-// translation would go stale). Redirect their non-zh paths to canonical zh-TW.
 //
-// 2026-04-21 γ: `/semiont` (landing) now has a real /en/ page via i18n semiont.ts,
-// so it's removed from this list. If ja/ko landing pages are added later, also
-// remove `/semiont` from non-default-lang redirects or gate by lang here.
-// /semiont/diary has its own en page (but entries are zh-TW only, template shows notice).
+// 2026-06-22: re-grounded for LagunaBeach.md. All 7 routes below now load this
+// project's own re-grounded *.en.md docs (see docs/semiont/, Phase 5) and are
+// English-canonical at the unprefixed default route, not zh-TW. This redirect
+// list still exists because `zh-TW` is `enabled: true` in languages.ts but has
+// no actual page route — without it, /zh-TW/semiont/* would 404 instead of
+// landing on the real (English) page. /semiont/diary is the one genuine
+// exception: diary entries are written live, per session, in zh-TW, and stay
+// that way by design (see src/i18n/semiont.ts header comment).
 const SEMIONT_ROUTES = [
   '/semiont/manifesto',
   '/semiont/dna',

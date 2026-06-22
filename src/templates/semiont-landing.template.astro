@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import DiaryCard from '../components/semiont/DiaryCard.astro';
 import SemiontOrganismDiagram from '../components/semiont/SemiontOrganismDiagram.astro';
-import TaiwanSketch from '../components/semiont/TaiwanSketch.astro';
+import LagunaSketch from '../components/semiont/LagunaSketch.astro';
 import { getAllDiaryEntries } from '../lib/semiont-diary';
 import {
   getLangFromUrl,
@@ -118,9 +118,9 @@ const showZhTwNotices = lang !== 'zh-TW';
   lang={lang}
 >
   <div class="semiont-paper min-h-screen">
-    {/* Taiwan sketch decorations — faint, large screens only */}
-    <TaiwanSketch position="right" />
-    <TaiwanSketch position="left" />
+    {/* Laguna Beach sketch decorations — faint, large screens only */}
+    <LagunaSketch position="right" />
+    <LagunaSketch position="left" />
 
     <div
       class="mx-auto max-w-[var(--container-prose)] px-6 pb-24 pt-20 md:px-8"

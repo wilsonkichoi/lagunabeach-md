@@ -138,7 +138,7 @@ export const homeUI = {
     'home.organism.legend.write': 'Writing',
     'home.organism.legend.feedback': 'DNA evolution',
     'home.organism.legend.diffuse': 'Multilingual diffusion',
-    'home.organism.legend.sovereign': 'Sovereignty loop',
+    'home.organism.legend.sovereign': 'AI & search visibility loop',
     // ── OrganismHeartbeat strip (C1) ──
     'home.heartbeat.organsLabel': 'Current organ scores',
     'home.heartbeat.vitalsLabel': 'Vitals',
@@ -275,7 +275,7 @@ export const homeUI = {
     'home.organism.legend.write': '寫作',
     'home.organism.legend.feedback': 'DNA 演化',
     'home.organism.legend.diffuse': '多語擴散',
-    'home.organism.legend.sovereign': '主權回環',
+    'home.organism.legend.sovereign': 'AI 與搜尋曝光迴路',
     // ── OrganismHeartbeat strip (C1) ──
     'home.heartbeat.organsLabel': '當前器官分數',
     'home.heartbeat.vitalsLabel': '生命徵象',
