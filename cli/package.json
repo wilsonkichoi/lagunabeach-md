@@ -1,6 +1,6 @@
 {
-  "name": "@wilsonkichoi/lagunabeach-md",
-  "version": "0.1.0",
+  "name": "lagunabeach-md",
+  "version": "0.2.0",
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest"
