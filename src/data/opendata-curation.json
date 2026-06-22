@@ -1178,16 +1178,11 @@
     },
     {
       "key": "social_population",
-      "name_zh": "社會福利、戶政、人口、選舉與公務人事",
+      "name_zh": "社會福利、戶政、人口與公務人事",
       "role": "topical",
-      "scope": "人口/戶籍/出生/死亡/結婚/離婚、低收入戶、身心障礙、原住民/新住民、選舉投票、公務員人事",
-      "typical_questions": [
-        "某選區歷次得票結構",
-        "某縣身心障礙人口",
-        "本市本月人口變動"
-      ],
+      "scope": "人口/戶籍/出生/死亡/結婚/離婚、低收入戶、身心障礙、原住民/新住民、公務員人事",
+      "typical_questions": ["某縣身心障礙人口", "本市本月人口變動"],
       "anchor_examples": [
-        "地方檢察署辦理違反公職人員選舉罷免法案件偵查終結人數(統計)",
         "農民健康保險生效中身心障礙被保險人人數統計表",
         "臺北市低收入戶及補助按月別"
       ]
@@ -1674,71 +1669,6 @@
       "data_volume_total": 0,
       "description": "1、桃園市警政統計資料，提供A1及A2道路交通事故發生區域及傷亡人數之統計。\n2、自104年起，區域之劃分方式改為採用行政區。\n3、110年復興區無發生A1事故。",
       "metadata_updated": "2026-05-16 10:05:47"
-    },
-    {
-      "dataset_id": "27491",
-      "name": "選舉人數",
-      "agency": "中央選舉委員會",
-      "primary_domain": "social_population",
-      "domains": ["social_population"],
-      "quality_tier": "白金",
-      "update_freq": "每4年",
-      "formats": [
-        "CSV",
-        "CSV",
-        "CSV",
-        "CSV",
-        "CSV",
-        "CSV",
-        "CSV",
-        "CSV",
-        "CSV",
-        "CSV",
-        "CSV"
-      ],
-      "license": "政府資料開放授權條款-第1版",
-      "actual_columns": [
-        "省市代碼",
-        "縣市代碼",
-        "鄉鎮市區代碼",
-        "縣市名稱",
-        "鄉鎮市區名稱",
-        "投開票所別",
-        "總統副總統選舉選舉人數",
-        "立委選舉區域選舉人數",
-        "立委選舉平地原住民選舉人數",
-        "立委選舉山地原住民選舉人數",
-        "立委選舉不分區政黨代表選舉人數"
-      ],
-      "join_keys": [],
-      "join_keys_domain_hint": ["行政區代碼", "村里代碼", "選區代碼"],
-      "data_volume_total": 11000,
-      "description": "選舉人數資料",
-      "metadata_updated": "2024-08-06 15:41:31"
-    },
-    {
-      "dataset_id": "15035",
-      "name": "地方檢察署執行違反公職人員選舉罷免法案件裁判確定人數(統計)",
-      "agency": "法務部統計處",
-      "primary_domain": "judicial_legal",
-      "domains": ["judicial_legal", "social_population"],
-      "quality_tier": "白金",
-      "update_freq": "每1月",
-      "formats": ["CSV"],
-      "license": "政府資料開放授權條款-第1版",
-      "actual_columns": ["刑名", "性別", "民國年", "月份", "人"],
-      "join_keys": [],
-      "join_keys_domain_hint": [
-        "案號",
-        "法院/地檢代碼",
-        "統一編號（裁罰對象）",
-        "行政區代碼",
-        "村里代碼",
-        "選區代碼"
-      ],
-      "data_volume_total": 1000,
-      "description": "地方檢察署執行違反公職人員選舉罷免法案件裁判確定人數-按刑名及性別分，相關定義請參閱法務統計資訊網\\其他服務\\統計用詞解釋",
-      "metadata_updated": "2025-06-25 11:51:48"
     }
   ]
 }

@@ -439,7 +439,6 @@ export const OPENDATA_CONTENT: Partial<
           key: 'social_population',
           articles: [
             { title: '台灣少子化危機', href: '/society/台灣少子化危機' },
-            { title: '2026 九合一選舉', href: '/politics/2026 九合一選舉' },
           ],
         },
         {
@@ -587,29 +586,6 @@ export const OPENDATA_CONTENT: Partial<
           ],
         },
         {
-          question: '民主品質：一場選舉的母體多大、查察強度多強？',
-          datasets: [
-            {
-              name: '選舉人數（中選會）',
-              href: 'https://data.gov.tw/dataset/27491',
-              freq: '每 4 年',
-            },
-            {
-              name: '違反選罷法案件裁判確定人數',
-              href: 'https://data.gov.tw/dataset/15035',
-              freq: '每 1 月',
-            },
-          ],
-          combine:
-            '選舉人數給每屆選舉的母體，選罷法裁判統計給賄選與介選的歷年定罪量。兩者都能按縣市切，跟選舉結果對齊。',
-          method:
-            '每屆選舉做一組「母體 × 定罪率」對照，跨屆比較查察強度的變化；2026 這屆多了 AI 假訊息這個新查察重點，傳統兩項（賄選、介選）的基線先立好，新威脅的量才有參照系。',
-          articles: [
-            { title: '2026 九合一選舉', href: '/politics/2026 九合一選舉' },
-            { title: '太陽花學運', href: '/society/太陽花學運' },
-          ],
-        },
-        {
           question: '街頭經濟：23 萬個攤位的產值是怎麼算出來的？',
           datasets: [
             {
@@ -746,7 +722,6 @@ export const OPENDATA_CONTENT: Partial<
         { title: '台灣醫療與全民健保', href: '/lifestyle/台灣醫療與全民健保' },
         { title: '夜市經濟學', href: '/economy/夜市經濟學' },
         { title: '台灣交通系統', href: '/lifestyle/台灣交通系統' },
-        { title: '2026 九合一選舉', href: '/politics/2026 九合一選舉' },
       ],
     },
   },
@@ -1127,10 +1102,6 @@ export const OPENDATA_CONTENT: Partial<
               title: "Taiwan's low birthrate crisis",
               href: '/society/台灣少子化危機',
             },
-            {
-              title: '2026 nine-in-one elections',
-              href: '/politics/2026 九合一選舉',
-            },
           ],
         },
         {
@@ -1300,36 +1271,6 @@ export const OPENDATA_CONTENT: Partial<
             {
               title: "Taiwan's low birthrate crisis",
               href: '/society/台灣少子化危機',
-            },
-          ],
-        },
-        {
-          question:
-            "Democratic quality: how big is an election's electorate, and how intense is the enforcement?",
-          datasets: [
-            {
-              name: 'Eligible voter counts (Central Election Commission)',
-              href: 'https://data.gov.tw/dataset/27491',
-              freq: 'every 4 years',
-            },
-            {
-              name: 'Persons with final convictions under the Election and Recall Act',
-              href: 'https://data.gov.tw/dataset/15035',
-              freq: 'monthly',
-            },
-          ],
-          combine:
-            "Voter counts give each election's electorate; the conviction statistics give the yearly conviction volumes for vote-buying and election interference. Both slice by county and align with election results.",
-          method:
-            "Build an 'electorate × conviction rate' pairing for each election cycle and compare enforcement intensity across cycles. The 2026 round adds AI disinformation as a new enforcement focus — establish the baseline for the two traditional categories (vote-buying, interference) first, so the scale of the new threat has a frame of reference.",
-          articles: [
-            {
-              title: '2026 nine-in-one elections',
-              href: '/politics/2026 九合一選舉',
-            },
-            {
-              title: 'The Sunflower Movement',
-              href: '/society/太陽花學運',
             },
           ],
         },
@@ -1505,10 +1446,6 @@ export const OPENDATA_CONTENT: Partial<
         {
           title: "Taiwan's transportation system",
           href: '/lifestyle/台灣交通系統',
-        },
-        {
-          title: '2026 nine-in-one elections',
-          href: '/politics/2026 九合一選舉',
         },
       ],
     },
@@ -1887,10 +1824,6 @@ export const OPENDATA_CONTENT: Partial<
               title: '台湾の少子化危機',
               href: '/society/台灣少子化危機',
             },
-            {
-              title: '2026年九合一選挙',
-              href: '/politics/2026 九合一選舉',
-            },
           ],
         },
         {
@@ -2058,36 +1991,6 @@ export const OPENDATA_CONTENT: Partial<
             {
               title: '台湾の少子化危機',
               href: '/society/台灣少子化危機',
-            },
-          ],
-        },
-        {
-          question:
-            '民主主義の品質：ひとつの選挙の母集団はどれだけ大きく、取り締まりはどれだけ強いのか？',
-          datasets: [
-            {
-              name: '選挙人数（中央選挙委員会）',
-              href: 'https://data.gov.tw/dataset/27491',
-              freq: '4年ごと',
-            },
-            {
-              name: '選挙罷免法違反事件の裁判確定人数',
-              href: 'https://data.gov.tw/dataset/15035',
-              freq: '毎月',
-            },
-          ],
-          combine:
-            '選挙人数は各回の選挙の母集団を、選挙罷免法の裁判統計は買収と選挙介入の歴年の有罪確定数を与えます。どちらも県市別に切り分けられ、選挙結果と揃えられます。',
-          method:
-            '選挙ごとに「母集団 × 有罪率」の対照を作り、回をまたいで取り締まり強度の変化を比べます。2026年のこの回には AI 偽情報という新しい取り締まり重点が加わりました。従来の2項目（買収、選挙介入）のベースラインを先に立ててこそ、新しい脅威の量に参照系が生まれます。',
-          articles: [
-            {
-              title: '2026年九合一選挙',
-              href: '/politics/2026 九合一選舉',
-            },
-            {
-              title: 'ひまわり学生運動',
-              href: '/society/太陽花學運',
             },
           ],
         },
@@ -2262,10 +2165,6 @@ export const OPENDATA_CONTENT: Partial<
         {
           title: '台湾の交通システム',
           href: '/lifestyle/台灣交通系統',
-        },
-        {
-          title: '2026年九合一選挙',
-          href: '/politics/2026 九合一選舉',
         },
       ],
     },
@@ -2644,10 +2543,6 @@ export const OPENDATA_CONTENT: Partial<
               title: '대만 저출산 위기',
               href: '/society/台灣少子化危機',
             },
-            {
-              title: '2026 구합일 지방선거',
-              href: '/politics/2026 九合一選舉',
-            },
           ],
         },
         {
@@ -2814,36 +2709,6 @@ export const OPENDATA_CONTENT: Partial<
             {
               title: '대만 저출산 위기',
               href: '/society/台灣少子化危機',
-            },
-          ],
-        },
-        {
-          question:
-            '민주주의의 품질: 한 선거의 모집단은 얼마나 크고, 단속 강도는 얼마나 센가?',
-          datasets: [
-            {
-              name: '선거인 수(중앙선거위원회)',
-              href: 'https://data.gov.tw/dataset/27491',
-              freq: '4년마다',
-            },
-            {
-              name: '선거법 위반 사건 판결 확정 인원',
-              href: 'https://data.gov.tw/dataset/15035',
-              freq: '매월',
-            },
-          ],
-          combine:
-            '선거인 수는 각 선거의 모집단을, 선거법 판결 통계는 금권선거와 선거 개입의 역대 유죄 건수를 줍니다. 둘 다 지자체별로 쪼갤 수 있어 선거 결과와 맞출 수 있습니다.',
-          method:
-            '선거마다 "모집단 × 유죄율" 대조를 만들어 회차 간 단속 강도의 변화를 비교합니다. 2026년에는 AI 가짜뉴스라는 새 단속 중점이 추가됐으니, 전통적 두 항목(금권선거·개입)의 기준선을 먼저 세워야 새 위협의 양에 참조계가 생깁니다.',
-          articles: [
-            {
-              title: '2026 구합일 지방선거',
-              href: '/politics/2026 九合一選舉',
-            },
-            {
-              title: '해바라기 학생운동',
-              href: '/society/太陽花學運',
             },
           ],
         },
@@ -3017,10 +2882,6 @@ export const OPENDATA_CONTENT: Partial<
         {
           title: '대만 교통 시스템',
           href: '/lifestyle/台灣交通系統',
-        },
-        {
-          title: '2026 구합일 지방선거',
-          href: '/politics/2026 九合一選舉',
         },
       ],
     },
@@ -3402,10 +3263,6 @@ export const OPENDATA_CONTENT: Partial<
               title: 'La crisis de natalidad de Taiwán',
               href: '/society/台灣少子化危機',
             },
-            {
-              title: 'Elecciones locales nueve en uno de 2026',
-              href: '/politics/2026 九合一選舉',
-            },
           ],
         },
         {
@@ -3582,36 +3439,6 @@ export const OPENDATA_CONTENT: Partial<
         },
         {
           question:
-            'Calidad democrática: ¿qué tan grande es el padrón de una elección y qué tan intensa la fiscalización?',
-          datasets: [
-            {
-              name: 'Número de electores (Comisión Electoral Central)',
-              href: 'https://data.gov.tw/dataset/27491',
-              freq: 'cada 4 años',
-            },
-            {
-              name: 'Personas con sentencia firme en casos por infracción de la Ley de Elección y Destitución',
-              href: 'https://data.gov.tw/dataset/15035',
-              freq: 'mensual',
-            },
-          ],
-          combine:
-            'El número de electores da el padrón de cada elección; las estadísticas de sentencias por la Ley de Elección y Destitución dan el volumen histórico de condenas por compra de votos e interferencia electoral. Ambos pueden cortarse por ciudad y condado y alinearse con los resultados electorales.',
-          method:
-            'Para cada elección se arma un contraste «padrón × tasa de condenas» y se compara entre elecciones cómo cambia la intensidad de la fiscalización; la de 2026 suma la desinformación generada con IA como nuevo foco de control, así que primero hay que fijar la línea base de los dos rubros tradicionales (compra de votos, interferencia) para que la magnitud de la nueva amenaza tenga un sistema de referencia.',
-          articles: [
-            {
-              title: 'Elecciones locales nueve en uno de 2026',
-              href: '/politics/2026 九合一選舉',
-            },
-            {
-              title: 'El Movimiento Estudiantil Girasol',
-              href: '/society/太陽花學運',
-            },
-          ],
-        },
-        {
-          question:
             'Economía callejera: ¿cómo se calculó el valor de producción de 230 000 puestos ambulantes?',
           datasets: [
             {
@@ -3783,10 +3610,6 @@ export const OPENDATA_CONTENT: Partial<
         {
           title: 'El sistema de transporte de Taiwán',
           href: '/lifestyle/台灣交通系統',
-        },
-        {
-          title: 'Elecciones locales nueve en uno de 2026',
-          href: '/politics/2026 九合一選舉',
         },
       ],
     },
@@ -4168,10 +3991,6 @@ export const OPENDATA_CONTENT: Partial<
               title: 'La crise de la dénatalité à Taïwan',
               href: '/society/台灣少子化危機',
             },
-            {
-              title: 'Les élections neuf-en-un de 2026',
-              href: '/politics/2026 九合一選舉',
-            },
           ],
         },
         {
@@ -4348,36 +4167,6 @@ export const OPENDATA_CONTENT: Partial<
         },
         {
           question:
-            "Qualité de la démocratie : quelle est la taille du corps électoral d'un scrutin, et quelle est l'intensité des poursuites ?",
-          datasets: [
-            {
-              name: "Nombre d'électeurs (Commission électorale centrale)",
-              href: 'https://data.gov.tw/dataset/27491',
-              freq: 'tous les 4 ans',
-            },
-            {
-              name: 'Condamnations définitives pour infraction à la loi sur les élections et les révocations',
-              href: 'https://data.gov.tw/dataset/15035',
-              freq: 'mensuel',
-            },
-          ],
-          combine:
-            "Le nombre d'électeurs donne le corps électoral de chaque scrutin ; les statistiques judiciaires donnent, année par année, le volume de condamnations pour achat de votes et pour ingérence électorale. Les deux se découpent par ville et comté, et s'alignent sur les résultats.",
-          method:
-            "Construire pour chaque scrutin le couple « corps électoral × taux de condamnation », puis comparer d'un scrutin à l'autre l'intensité des poursuites ; en 2026 s'ajoute un nouveau front, la désinformation par IA — posez d'abord la ligne de base des deux fronts classiques (achat de votes, ingérence), et l'ampleur de la nouvelle menace aura un référentiel.",
-          articles: [
-            {
-              title: 'Les élections neuf-en-un de 2026',
-              href: '/politics/2026 九合一選舉',
-            },
-            {
-              title: 'Le mouvement étudiant des Tournesols',
-              href: '/society/太陽花學運',
-            },
-          ],
-        },
-        {
-          question:
             "Économie de la rue : d'où sort le chiffre d'affaires des 230 000 étals ?",
           datasets: [
             {
@@ -4549,10 +4338,6 @@ export const OPENDATA_CONTENT: Partial<
         {
           title: 'Le système de transports de Taïwan',
           href: '/lifestyle/台灣交通系統',
-        },
-        {
-          title: 'Les élections neuf-en-un de 2026',
-          href: '/politics/2026 九合一選舉',
         },
       ],
     },

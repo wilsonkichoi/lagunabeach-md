@@ -143,11 +143,6 @@ const navConfig = [
       currentPath.startsWith('/dashboard') ||
       currentPath.startsWith(dashboardPath);
   }
-  // 2026-06-05: /elections moved under 探索 subnav, /mcp under 資源 subnav —
-  // keep the parent nav item highlighted when on those pages.
-  if (item.path === '/explore') {
-    active = active || currentPath.startsWith('/elections');
-  }
   if (item.path === '/resources') {
     const mcpPath = navHref('/mcp');
     active =
@@ -163,11 +158,9 @@ const navConfig = [
       currentPath.startsWith('/opendata') ||
       currentPath.startsWith(opendataPath);
   }
-  // elections/2026 also exists only as single-lang page for MVP
-  const singleLangPaths = ['/elections/2026'];
   return {
     ...item,
-    fullPath: singleLangPaths.includes(item.path) ? item.path : fullPath,
+    fullPath,
     active,
   };
 });
@@ -300,12 +293,6 @@ const categoryList = [
                           class="dropdown-item dropdown-section-header"
                         >
                           {t('nav.terminology')} 📖
-                        </a>
-                        <a
-                          href="/elections/2026"
-                          class="dropdown-item dropdown-section-header"
-                        >
-                          {t('nav.elections')}
                         </a>
                         <div class="dropdown-divider" />
                         {categoryList.map((category) => (
@@ -694,13 +681,6 @@ const categoryList = [
                       onclick="document.querySelector('.nav-mobile').classList.remove('open')"
                     >
                       {t('nav.terminology')} 📖
-                    </a>
-                    <a
-                      href="/elections/2026"
-                      class="nav-link nav-sub-link"
-                      onclick="document.querySelector('.nav-mobile').classList.remove('open')"
-                    >
-                      {t('nav.elections')}
                     </a>
                   </div>
                 )}
