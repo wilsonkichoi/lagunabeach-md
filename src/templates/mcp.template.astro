@@ -1,14 +1,12 @@
 ---
 /**
- * /mcp — LagunaBeach.md Connector + CLI landing/docs page (multilingual).
+ * /mcp — LagunaBeach.md Connector + CLI landing/docs page.
  *
  * Single authoritative entry point for the MCP server and the lagunabeachmd
  * CLI: what it is, install per client, the 6 MCP tools, the CLI commands, how
- * it works + privacy, FAQ. Language-aware via getLangFromUrl() — prose comes
- * from src/data/mcp-content.ts (zh-TW / en / ja / ko / es / fr, only `en` is
- * LB-accurate so far — see CLI scope note in MIGRATION.md); code, commands,
- * tool names, CLI signatures and examples stay SHARED here (identical across
- * languages) and are zipped with the per-lang description arrays by index.
+ * it works + privacy, FAQ. Prose comes from src/data/mcp-content.ts (English
+ * only — this fork is English-only, see MIGRATION.md); code, commands, tool
+ * names, CLI signatures and examples are defined SHARED here.
  *
  * Design language borrows the Semiont palette (warm paper #f4f0ea on #03080a,
  * mint #38bdf8 accent, EKG separator, 🧬) — fitting, because this page is
@@ -18,10 +16,11 @@
  */
 import Layout from '../layouts/Layout.astro';
 import { getLangFromUrl } from '../i18n/utils';
-import { MCP_CONTENT, type McpLang } from '../data/mcp-content';
+import { MCP_CONTENT } from '../data/mcp-content';
 
-const lang = getLangFromUrl(Astro.url) as McpLang;
-const c = MCP_CONTENT[lang] ?? MCP_CONTENT['zh-TW'];
+// English-only content; lang is kept solely for the Layout's <html lang> attr.
+const lang = getLangFromUrl(Astro.url);
+const c = MCP_CONTENT.en;
 
 // ── SHARED structural data (identical across languages) ────────────────────
 // Published to npm as `lagunabeach-md` — install via the npx one-liner.
