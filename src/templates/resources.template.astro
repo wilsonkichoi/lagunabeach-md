@@ -9,23 +9,10 @@ import {
 import type { ResourceSite } from '../data/resources-data';
 import {
   heroCategories,
-  governmentFiveYuan,
-  governmentMinistries,
-  governmentLocalGov,
-  governmentOpenData,
-  cultureUniversities,
-  cultureMuseums,
-  cultureVenues,
-  cultureParks,
-  mediaMainstream,
-  mediaDigital,
-  mediaNgo,
-  econCompanies,
-  econTransport,
-  econHealth,
-  econFinance,
-  communityProjects,
-  communityFood,
+  civicGov,
+  historyArts,
+  natureOutdoors,
+  communityMedia,
   taiwanmdLinks,
 } from '../data/resources-data';
 
@@ -35,227 +22,116 @@ const translatePath = useTranslatedPath(lang);
 
 const chapters = [
   {
-    id: 'government',
-    navKey: 'resources.nav.governance' as const,
-    titleKey: 'resources.chapter.government.title' as const,
-    storyKey: 'resources.chapter.government.story' as const,
-    curatorKey: 'resources.curator.government' as const,
-    featured: [
-      ...governmentFiveYuan,
-      ...governmentMinistries,
-      ...governmentOpenData,
-    ].filter((s) => s.featured),
+    id: 'civic',
+    navKey: 'resources.nav.civic' as const,
+    titleKey: 'resources.chapter.civic.title' as const,
+    storyKey: 'resources.chapter.civic.story' as const,
+    curatorKey: 'resources.curator.civic' as const,
+    featured: civicGov.filter((s) => s.featured),
     insights: [
       {
-        numKey: 'resources.insight.gov.branches.number' as const,
-        labelKey: 'resources.insight.gov.branches.label' as const,
+        numKey: 'resources.insight.civic.incorporated.number' as const,
+        labelKey: 'resources.insight.civic.incorporated.label' as const,
       },
       {
-        numKey: 'resources.insight.gov.ministries.number' as const,
-        labelKey: 'resources.insight.gov.ministries.label' as const,
+        numKey: 'resources.insight.civic.schools.number' as const,
+        labelKey: 'resources.insight.civic.schools.label' as const,
       },
       {
-        numKey: 'resources.insight.gov.local.number' as const,
-        labelKey: 'resources.insight.gov.local.label' as const,
+        numKey: 'resources.insight.civic.trolley.number' as const,
+        labelKey: 'resources.insight.civic.trolley.label' as const,
       },
     ],
     subcategories: [
       {
-        titleKey: 'resources.sub.fiveYuan' as const,
-        descKey: 'resources.sub.fiveYuan.desc' as const,
-        sites: governmentFiveYuan,
-      },
-      {
-        titleKey: 'resources.sub.ministries' as const,
-        descKey: 'resources.sub.ministries.desc' as const,
-        sites: governmentMinistries,
-      },
-      {
-        titleKey: 'resources.sub.localGov' as const,
-        descKey: 'resources.sub.localGov.desc' as const,
-        sites: governmentLocalGov,
-      },
-      {
-        titleKey: 'resources.sub.openData' as const,
-        descKey: 'resources.sub.openData.desc' as const,
-        sites: governmentOpenData,
+        titleKey: 'resources.sub.civicGov' as const,
+        descKey: 'resources.sub.civicGov.desc' as const,
+        sites: civicGov,
       },
     ],
     relatedKeys: [
-      'resources.related.government.1' as const,
-      'resources.related.government.2' as const,
-      'resources.related.government.3' as const,
+      'resources.related.civic.1' as const,
+      'resources.related.civic.2' as const,
     ],
     relatedPaths: [
-      '/history/台灣民主轉型/',
-      '/society/台灣政治環境與選舉制度/',
-      '/technology/開源社群與g0v/',
+      '/history/founding-and-early-history/',
+      '/neighborhoods/the-village/',
     ],
   },
   {
-    id: 'culture',
-    navKey: 'resources.nav.culture' as const,
-    titleKey: 'resources.chapter.culture.title' as const,
-    storyKey: 'resources.chapter.culture.story' as const,
-    curatorKey: 'resources.curator.culture' as const,
-    featured: [
-      ...cultureMuseums,
-      ...cultureUniversities,
-      ...cultureParks,
-    ].filter((s) => s.featured),
+    id: 'history',
+    navKey: 'resources.nav.history' as const,
+    titleKey: 'resources.chapter.history.title' as const,
+    storyKey: 'resources.chapter.history.story' as const,
+    curatorKey: 'resources.curator.history' as const,
+    featured: historyArts.filter((s) => s.featured),
     insights: [
       {
-        numKey: 'resources.insight.culture.universities.number' as const,
-        labelKey: 'resources.insight.culture.universities.label' as const,
+        numKey: 'resources.insight.history.pageant.number' as const,
+        labelKey: 'resources.insight.history.pageant.label' as const,
       },
       {
-        numKey: 'resources.insight.culture.museums.number' as const,
-        labelKey: 'resources.insight.culture.museums.label' as const,
+        numKey: 'resources.insight.history.sawdust.number' as const,
+        labelKey: 'resources.insight.history.sawdust.label' as const,
       },
       {
-        numKey: 'resources.insight.culture.parks.number' as const,
-        labelKey: 'resources.insight.culture.parks.label' as const,
+        numKey: 'resources.insight.history.artwalk.number' as const,
+        labelKey: 'resources.insight.history.artwalk.label' as const,
       },
     ],
     subcategories: [
       {
-        titleKey: 'resources.sub.universities' as const,
-        descKey: 'resources.sub.universities.desc' as const,
-        sites: cultureUniversities,
-      },
-      {
-        titleKey: 'resources.sub.museums' as const,
-        descKey: 'resources.sub.museums.desc' as const,
-        sites: cultureMuseums,
-      },
-      {
-        titleKey: 'resources.sub.venues' as const,
-        descKey: 'resources.sub.venues.desc' as const,
-        sites: cultureVenues,
-      },
-      {
-        titleKey: 'resources.sub.parks' as const,
-        descKey: 'resources.sub.parks.desc' as const,
-        sites: cultureParks,
+        titleKey: 'resources.sub.historyArts' as const,
+        descKey: 'resources.sub.historyArts.desc' as const,
+        sites: historyArts,
       },
     ],
     relatedKeys: [
-      'resources.related.culture.1' as const,
-      'resources.related.culture.2' as const,
-      'resources.related.culture.3' as const,
+      'resources.related.history.1' as const,
+      'resources.related.history.2' as const,
+      'resources.related.history.3' as const,
     ],
     relatedPaths: [
-      '/culture/台灣原住民文化/',
-      '/lifestyle/台灣教育制度/',
-      '/nature/台灣國家公園/',
+      '/events-festivals/pageant-of-the-masters/',
+      '/events-festivals/sawdust-art-festival/',
+      '/art-galleries/laguna-art-museum/',
     ],
   },
   {
-    id: 'media',
-    navKey: 'resources.nav.media' as const,
-    titleKey: 'resources.chapter.media.title' as const,
-    storyKey: 'resources.chapter.media.story' as const,
-    curatorKey: 'resources.curator.media' as const,
-    featured: [...mediaMainstream, ...mediaDigital].filter((s) => s.featured),
+    id: 'nature',
+    navKey: 'resources.nav.nature' as const,
+    titleKey: 'resources.chapter.nature.title' as const,
+    storyKey: 'resources.chapter.nature.story' as const,
+    curatorKey: 'resources.curator.nature' as const,
+    featured: natureOutdoors.filter((s) => s.featured),
     insights: [
       {
-        numKey: 'resources.insight.media.ptt.number' as const,
-        labelKey: 'resources.insight.media.ptt.label' as const,
+        numKey: 'resources.insight.nature.trails.number' as const,
+        labelKey: 'resources.insight.nature.trails.label' as const,
       },
       {
-        numKey: 'resources.insight.media.outlets.number' as const,
-        labelKey: 'resources.insight.media.outlets.label' as const,
+        numKey: 'resources.insight.nature.crystalCove.number' as const,
+        labelKey: 'resources.insight.nature.crystalCove.label' as const,
       },
       {
-        numKey: 'resources.insight.media.ngo.number' as const,
-        labelKey: 'resources.insight.media.ngo.label' as const,
+        numKey: 'resources.insight.nature.tidepools.number' as const,
+        labelKey: 'resources.insight.nature.tidepools.label' as const,
       },
     ],
     subcategories: [
       {
-        titleKey: 'resources.sub.mainstream' as const,
-        descKey: 'resources.sub.mainstream.desc' as const,
-        sites: mediaMainstream,
-      },
-      {
-        titleKey: 'resources.sub.digital' as const,
-        descKey: 'resources.sub.digital.desc' as const,
-        sites: mediaDigital,
-      },
-      {
-        titleKey: 'resources.sub.ngo' as const,
-        descKey: 'resources.sub.ngo.desc' as const,
-        sites: mediaNgo,
+        titleKey: 'resources.sub.natureOutdoors' as const,
+        descKey: 'resources.sub.natureOutdoors.desc' as const,
+        sites: natureOutdoors,
       },
     ],
     relatedKeys: [
-      'resources.related.media.1' as const,
-      'resources.related.media.2' as const,
-      'resources.related.media.3' as const,
+      'resources.related.nature.1' as const,
+      'resources.related.nature.2' as const,
     ],
     relatedPaths: [
-      '/society/太陽花學運/',
-      '/society/台灣媒體與新聞自由/',
-      '/technology/PTT批踢踢/',
-    ],
-  },
-  {
-    id: 'economy',
-    navKey: 'resources.nav.economy' as const,
-    titleKey: 'resources.chapter.economy.title' as const,
-    storyKey: 'resources.chapter.economy.story' as const,
-    curatorKey: 'resources.curator.economy' as const,
-    featured: [
-      ...econCompanies,
-      ...econTransport,
-      ...econHealth,
-      ...econFinance,
-    ].filter((s) => s.featured),
-    insights: [
-      {
-        numKey: 'resources.insight.econ.tsmc.number' as const,
-        labelKey: 'resources.insight.econ.tsmc.label' as const,
-      },
-      {
-        numKey: 'resources.insight.econ.hsr.number' as const,
-        labelKey: 'resources.insight.econ.hsr.label' as const,
-      },
-      {
-        numKey: 'resources.insight.econ.nhi.number' as const,
-        labelKey: 'resources.insight.econ.nhi.label' as const,
-      },
-    ],
-    subcategories: [
-      {
-        titleKey: 'resources.sub.companies' as const,
-        descKey: 'resources.sub.companies.desc' as const,
-        sites: econCompanies,
-      },
-      {
-        titleKey: 'resources.sub.transport' as const,
-        descKey: 'resources.sub.transport.desc' as const,
-        sites: econTransport,
-      },
-      {
-        titleKey: 'resources.sub.healthcare' as const,
-        descKey: 'resources.sub.healthcare.desc' as const,
-        sites: econHealth,
-      },
-      {
-        titleKey: 'resources.sub.finance' as const,
-        descKey: 'resources.sub.finance.desc' as const,
-        sites: econFinance,
-      },
-    ],
-    relatedKeys: [
-      'resources.related.economy.1' as const,
-      'resources.related.economy.2' as const,
-      'resources.related.economy.3' as const,
-    ],
-    relatedPaths: [
-      '/economy/台灣企業：台積電/',
-      '/technology/半導體產業/',
-      '/lifestyle/台灣醫療與全民健保/',
+      '/trails/laguna-coast-wilderness-park/',
+      '/nature-marine-life/tide-pools/',
     ],
   },
   {
@@ -264,59 +140,40 @@ const chapters = [
     titleKey: 'resources.chapter.community.title' as const,
     storyKey: 'resources.chapter.community.story' as const,
     curatorKey: 'resources.curator.community' as const,
-    featured: communityProjects.filter((s) => s.featured),
+    featured: communityMedia.filter((s) => s.featured),
     insights: [
       {
-        numKey: 'resources.insight.community.g0v.number' as const,
-        labelKey: 'resources.insight.community.g0v.label' as const,
+        numKey: 'resources.insight.community.outlets.number' as const,
+        labelKey: 'resources.insight.community.outlets.label' as const,
       },
       {
-        numKey: 'resources.insight.community.contributors.number' as const,
-        labelKey: 'resources.insight.community.contributors.label' as const,
+        numKey: 'resources.insight.community.coverage.number' as const,
+        labelKey: 'resources.insight.community.coverage.label' as const,
       },
       {
-        numKey: 'resources.insight.community.projects.number' as const,
-        labelKey: 'resources.insight.community.projects.label' as const,
+        numKey: 'resources.insight.community.free.number' as const,
+        labelKey: 'resources.insight.community.free.label' as const,
       },
     ],
     subcategories: [
       {
-        titleKey: 'resources.sub.civicTech' as const,
-        sites: communityProjects,
+        titleKey: 'resources.sub.communityMedia' as const,
+        sites: communityMedia,
       },
-      { titleKey: 'resources.sub.foodMaps' as const, sites: communityFood },
     ],
     relatedKeys: [
       'resources.related.community.1' as const,
       'resources.related.community.2' as const,
-      'resources.related.community.3' as const,
     ],
-    relatedPaths: [
-      '/technology/開源社群與g0v/',
-      '/society/社會運動與公民參與/',
-      '/technology/數位身分證與數位政府/',
-    ],
+    relatedPaths: ['/neighborhoods/the-village/', '/about/lagunabeach-md/'],
   },
 ];
 
 const allSites = [
-  ...governmentFiveYuan,
-  ...governmentMinistries,
-  ...governmentLocalGov,
-  ...governmentOpenData,
-  ...cultureUniversities,
-  ...cultureMuseums,
-  ...cultureVenues,
-  ...cultureParks,
-  ...mediaMainstream,
-  ...mediaDigital,
-  ...mediaNgo,
-  ...econCompanies,
-  ...econTransport,
-  ...econHealth,
-  ...econFinance,
-  ...communityProjects,
-  ...communityFood,
+  ...civicGov,
+  ...historyArts,
+  ...natureOutdoors,
+  ...communityMedia,
 ];
 const totalCount = allSites.length;
 
@@ -563,16 +420,9 @@ const mindmapData = JSON.stringify({
           >
         </div>
         <div class="text-center">
-          <span class="block text-[2rem] font-extrabold text-[#059669]">5</span
+          <span class="block text-[2rem] font-extrabold text-[#059669]">4</span
           ><span class="text-[0.9rem] text-[#64748b]"
             >{t('resources.stats.chapters')}</span
-          >
-        </div>
-        <div class="text-center">
-          <span class="block text-[2rem] font-extrabold text-[#059669]"
-            >15+</span
-          ><span class="text-[0.9rem] text-[#64748b]"
-            >{t('resources.stats.subcategories')}</span
           >
         </div>
       </div>

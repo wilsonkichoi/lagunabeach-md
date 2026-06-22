@@ -17,9 +17,10 @@ from typing import Any
 from .types import FileTarget
 
 
-# Path patterns: knowledge/{Category}/{slug}.md (zh-TW) or
-#               knowledge/{lang}/{Category}/{slug}.md (translations)
-_LANG_DIRS = {"en", "ja", "ko", "es", "fr"}
+# Path patterns: knowledge/{Category}/{slug}.md (en, SSOT default for this
+#               English-default fork) or knowledge/{lang}/{Category}/{slug}.md
+#               (translations)
+_LANG_DIRS = {"zh-TW", "ja", "ko", "es", "fr"}
 
 # Protected region patterns
 _RE_FENCED_CODE = re.compile(r"```[\s\S]*?```", re.MULTILINE)
@@ -205,15 +206,15 @@ def _derive_meta_from_path(path: Path) -> tuple[str, str, str]:
     try:
         idx = parts.index("knowledge")
     except ValueError:
-        return ("zh-TW", "", path.stem)
+        return ("en", "", path.stem)
     rest = parts[idx + 1 :]
     if not rest:
-        return ("zh-TW", "", path.stem)
+        return ("en", "", path.stem)
     if rest[0] in _LANG_DIRS:
         lang = rest[0]
         category = rest[1] if len(rest) >= 2 else ""
     else:
-        lang = "zh-TW"
+        lang = "en"
         category = rest[0]
     slug = path.stem
     return (lang, category, slug)

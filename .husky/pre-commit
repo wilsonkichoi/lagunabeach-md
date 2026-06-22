@@ -42,7 +42,7 @@ fi
 #   - 即使 _translations.json 漏條目，文件本身仍知道來源
 #   - 重命名原文時可以立即偵測哪些翻譯變孤兒
 #   - 不需要查中央表 = self-documentation
-staged_translations=$(git diff --cached --name-only --diff-filter=AM | grep -E '^knowledge/(en|ja|ko|es|fr)/.*\.md$' || true)
+staged_translations=$(git diff --cached --name-only --diff-filter=AM | grep -E '^knowledge/(zh-TW|ja|ko|es|fr)/.*\.md$' || true)
 if [ -n "$staged_translations" ]; then
   tf_fail=0
   for f in $staged_translations; do
@@ -85,7 +85,7 @@ fi
 # If fix() actually modifies a file, we re-stage it so the commit reflects
 # the canonical version. Contributors see one harmless re-staging step
 # instead of fighting bulk repair conflicts later.
-staged_md=$(git diff --cached --name-only --diff-filter=ACM | grep '^knowledge/.*\.md$' | grep -vE '^knowledge/(en|ja|ko|es|fr)/' || true)
+staged_md=$(git diff --cached --name-only --diff-filter=ACM | grep '^knowledge/.*\.md$' | grep -vE '^knowledge/(zh-TW|ja|ko|es|fr)/' || true)
 if [ -n "$staged_md" ]; then
   fix_output=$(python3 scripts/tools/article-health.py --staged --check=frontmatter-format --fix 2>&1)
   fixed_count=$(echo "$fix_output" | grep -oE 'Modified [0-9]+ file' | grep -oE '[0-9]+' | head -1 || echo "0")

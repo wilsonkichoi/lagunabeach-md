@@ -22,13 +22,13 @@ from ..types import FileTarget, Severity, Violation
 CHECK_NAME = "cross-reference"
 DIMENSION = "structure"
 DEFAULT_SEVERITY = Severity.INFO  # informational — not block-grade
-EDITORIAL_REF = "EDITORIAL.md §wikilink"
-APPLIES_TO = ["zh-TW"]
+EDITORIAL_REF = "EDITORIAL.en.md §wikilink"
+APPLIES_TO = ["en"]
 
 _RE_WIKILINK = re.compile(r"\[\[([^\]|\n]+?)(?:\|[^\]\n]+)?\]\]")
 _RE_MD_LINK_INTERNAL = re.compile(r"\]\(/([a-z]+)/([^)\n]+?)\)")
 
-_LANG_DIRS_SKIP = {"en", "ja", "ko", "es", "fr"}
+_LANG_DIRS_SKIP = {"zh-TW", "ja", "ko", "es", "fr"}
 _KNOWLEDGE_ROOT = Path("knowledge")
 
 
@@ -100,8 +100,8 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             check=CHECK_NAME,
             severity=Severity.INFO,
             message=(
-                f"單向連結到 [[{target_slug}]] — 對方未連回 (informational; "
-                "Stage 5 review 判斷該不該補)"
+                f"One-way link to [[{target_slug}]] — target doesn't link back "
+                "(informational; editorial review judgment call)"
             ),
             editorial_ref=EDITORIAL_REF,
         )

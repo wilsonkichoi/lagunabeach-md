@@ -17,6 +17,7 @@
 
 import Layout from '../layouts/Layout.astro';
 import PageHero from '../components/PageHero.astro';
+import { getLangFromUrl } from '../i18n/utils';
 import {
   categories,
   soundscapeUI,
@@ -26,13 +27,8 @@ import {
   totalWishlist,
   totalCategories,
 } from '../data/soundscape-data';
-import type { Lang } from '../types';
 
-export interface Props {
-  lang: Lang;
-}
-
-const { lang } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
 const L = (field: Parameters<typeof localize>[0]) => localize(field, lang);
 const S = (field: Parameters<typeof secondary>[0]) => secondary(field, lang);
 

@@ -1,14 +1,14 @@
 export const resourcesUI = {
   en: {
     // Meta
-    'resources.meta.title': 'Taiwan Resources Guide - Taiwan.md',
+    'resources.meta.title': 'Laguna Beach Resources Guide - LagunaBeach.md',
     'resources.meta.description':
-      'Comprehensive collection of official Taiwan government agencies, cultural institutions, open data platforms, and authoritative information sources',
+      'A curated directory of Laguna Beach city government, arts and history institutions, outdoor and tide pool resources, and local news outlets',
 
     // Hero
-    'resources.hero.title': 'Taiwan Resources Guide',
+    'resources.hero.title': 'Laguna Beach Resources Guide',
     'resources.hero.subtitle.html':
-      "Comprehensive collection of government agencies, cultural institutions, and open data sources<br />Your one-stop gateway to Taiwan's most authoritative information",
+      'City government, arts institutions, outdoor resources, and local news<br />A starting point for getting to know Laguna Beach beyond the postcard',
 
     // Breadcrumb
     'resources.breadcrumb.home': 'Home',
@@ -25,13 +25,10 @@ export const resourcesUI = {
       'Comprehensive coverage of local government, universities, and specialized resources',
 
     // Category labels (heroData)
-    'resources.category.government.label': '🏛️ Government',
-    'resources.category.culture.label': '📚 Culture & Education',
-    'resources.category.tourism.label': '✈️ Tourism & Travel',
-    'resources.category.economy.label': '💼 Technology & Economy',
-    'resources.category.media.label': '📰 Media & News',
-    'resources.category.opendata.label': '🌐 Open Data',
-    'resources.category.taiwanmd.label': '📡 Taiwan.md Related',
+    'resources.category.civic.label': '🏛️ City & Civic',
+    'resources.category.history.label': '🎨 History, Arts & Culture',
+    'resources.category.nature.label': '🌊 Nature & Outdoors',
+    'resources.category.community.label': '📰 Community & Media',
 
     // Section titles & descriptions
     'resources.section.localGov.title': '🏙️ Local Government',
@@ -118,401 +115,157 @@ export const resourcesUI = {
     'resources.backToHome': '← Back to Home',
 
     // Mindmap
-    'resources.mindmap.root.label': '🇹🇼 Taiwan Resources',
+    'resources.mindmap.root.label': '🌊 Laguna Beach Resources',
 
     // Chapter nav labels
-    'resources.nav.governance': 'Governance',
-    'resources.nav.culture': 'Culture',
-    'resources.nav.media': 'Media',
-    'resources.nav.economy': 'Economy',
+    'resources.nav.civic': 'City & Civic',
+    'resources.nav.history': 'History & Arts',
+    'resources.nav.nature': 'Nature',
     'resources.nav.community': 'Community',
 
     // Chapter titles & stories
-    'resources.chapter.government.title': 'Gateway to National Governance',
-    'resources.chapter.government.story':
-      "In February 2020, Taiwanese engineers built a real-time mask availability map over a single weekend, connecting 6,000 pharmacies. One person, one laptop, 72 hours — possible because data.gov.tw offers 50,000+ government datasets ready for anyone to use at any time. Taiwan wrote 'governance transparency' into every downloadable API.",
-    'resources.chapter.culture.title': 'Culture & Knowledge',
-    'resources.chapter.culture.story':
-      "On less than 36,000 square kilometers, Taiwan houses 159 universities, over 500 museums, 9 national parks, from the 3,952-meter Jade Mountain to coral reef coastlines. The National Palace Museum holds nearly 700,000 Chinese cultural treasures, while neighborhood temple festivals are equally living cultural heritage. This island's cultural density far exceeds its size on a map.",
-    'resources.chapter.media.title': 'Voices of Taiwan',
-    'resources.chapter.media.story':
-      "In 1995, NTU students set up a BBS server in their dorm, naming it PTT. Thirty years later, this plain-text forum remains Taiwan's most influential public discussion platform — during the 2014 Sunflower Movement, PTT was the fastest, most complete real-time information source. Taiwan's media ecosystem, from mainstream newspapers to netizen forums, fights for democracy's voice at every level.",
-    'resources.chapter.economy.title': 'Economy & Life Engine',
-    'resources.chapter.economy.story':
-      "Every two smartphones in the world contain a chip made by TSMC — geopolitical scholars call it the 'silicon shield.' But chips are just the tip of the iceberg: 99.9% universal healthcare coverage, a convenience store every 2.3 square kilometers, 90-minute bullet trains from Taipei to Kaohsiung. What sustains 23 million daily lives is a precision system so seamless you barely notice it's there.",
-    'resources.chapter.community.title': 'Civic Tech & Community',
+    'resources.chapter.civic.title': 'Running the City',
+    'resources.chapter.civic.story':
+      'Laguna Beach incorporated as a city on June 29, 1927, and still runs as a small, single-city school district and a single-city government — no sprawling county bureaucracy between residents and the people who fill potholes or set Coastal Commission policy. The city itself, the school district, the chamber of commerce, and the regional transit authority are the four places to start if you want to know how this town actually governs itself day to day.',
+    'resources.chapter.history.title': 'An Art Colony That Performs Itself',
+    'resources.chapter.history.story':
+      'Laguna Beach has called itself an art colony since plein-air painters started arriving in the early 1900s. That identity is not nostalgia — it is actively rehearsed every summer at the Festival of Arts and the Sawdust Art Festival, and walked through downtown on the first Thursday of every month. The Pageant of the Masters, running since 1933, is the strangest and most literal expression of it: a live orchestra and narrator while costumed volunteers freeze inside recreations of famous paintings.',
+    'resources.chapter.nature.title': 'Coastline, Canyon, Tide',
+    'resources.chapter.nature.story':
+      "Laguna Beach sits between two protected landscapes that most visitors never read up on before arriving: Laguna Coast Wilderness Park's 40+ miles of coastal sage scrub trails inland, and the marine-protected tide pools at Heisler Park and along the coast where removing so much as a shell is against the law. Both are easy to wander into without context — these are the places that explain what you are actually looking at.",
+    'resources.chapter.community.title': 'Who Covers This Town',
     'resources.chapter.community.story':
-      "g0v's motto: 'Don't ask why nobody is doing this — you are that nobody.' Mask maps, fact-checking bots, election promise trackers — all born from weekend hackathons. In Taiwan, civic participation looks like this: writing code, opening issues, submitting pull requests. Taiwan.md is a product of this very spirit.",
+      'Laguna Beach is small enough that its local news is still genuinely local — two independent newsrooms cover city council meetings, school board votes, and beach conditions that never make it into Orange County-wide coverage. Reading either one for a week tells you more about how this town actually argues with itself than any tourism page will.',
 
     // Insight cards
-    'resources.insight.gov.branches.number': '5',
-    'resources.insight.gov.branches.label': 'Constitutional Branches',
-    'resources.insight.gov.ministries.number': '20+',
-    'resources.insight.gov.ministries.label': 'Ministries & Agencies',
-    'resources.insight.gov.local.number': '22',
-    'resources.insight.gov.local.label': 'County/City Governments',
+    'resources.insight.civic.incorporated.number': '1927',
+    'resources.insight.civic.incorporated.label': 'City Incorporated',
+    'resources.insight.civic.schools.number': '4',
+    'resources.insight.civic.schools.label': 'LBUSD Schools',
+    'resources.insight.civic.trolley.number': 'Free',
+    'resources.insight.civic.trolley.label': 'Summer Trolley',
 
-    'resources.insight.culture.universities.number': '159',
-    'resources.insight.culture.universities.label': 'Universities',
-    'resources.insight.culture.museums.number': '500+',
-    'resources.insight.culture.museums.label': 'Museums',
-    'resources.insight.culture.parks.number': '9',
-    'resources.insight.culture.parks.label': 'National Parks',
+    'resources.insight.history.pageant.number': '1933',
+    'resources.insight.history.pageant.label': 'Pageant of the Masters Founded',
+    'resources.insight.history.sawdust.number': '180+',
+    'resources.insight.history.sawdust.label': 'Sawdust Festival Artists',
+    'resources.insight.history.artwalk.number': '40+',
+    'resources.insight.history.artwalk.label': 'Art Walk Galleries',
 
-    'resources.insight.media.ptt.number': '200K',
-    'resources.insight.media.ptt.label': 'PTT Daily Active',
-    'resources.insight.media.outlets.number': '100+',
-    'resources.insight.media.outlets.label': 'Media Outlets',
-    'resources.insight.media.ngo.number': '1000+',
-    'resources.insight.media.ngo.label': 'NGOs',
+    'resources.insight.nature.trails.number': '40+',
+    'resources.insight.nature.trails.label': 'Miles of Wilderness Trails',
+    'resources.insight.nature.crystalCove.number': '2,791',
+    'resources.insight.nature.crystalCove.label': 'Crystal Cove Acres',
+    'resources.insight.nature.tidepools.number': 'Protected',
+    'resources.insight.nature.tidepools.label': 'Marine Reserve',
 
-    'resources.insight.econ.tsmc.number': '92%',
-    'resources.insight.econ.tsmc.label': 'TSMC Advanced Process',
-    'resources.insight.econ.hsr.number': '99.5%',
-    'resources.insight.econ.hsr.label': 'HSR Punctuality',
-    'resources.insight.econ.nhi.number': '99.9%',
-    'resources.insight.econ.nhi.label': 'NHI Coverage',
-
-    'resources.insight.community.g0v.number': '2012',
-    'resources.insight.community.g0v.label': 'g0v Founded',
-    'resources.insight.community.contributors.number': '10K+',
-    'resources.insight.community.contributors.label': 'Contributors',
-    'resources.insight.community.projects.number': '800+',
-    'resources.insight.community.projects.label': 'Projects',
+    'resources.insight.community.outlets.number': '2',
+    'resources.insight.community.outlets.label': 'Local Newsrooms',
+    'resources.insight.community.coverage.number': 'Daily',
+    'resources.insight.community.coverage.label': 'Online Updates',
+    'resources.insight.community.free.number': 'Free',
+    'resources.insight.community.free.label': 'Community Access',
 
     // Subcategory titles
-    'resources.sub.fiveYuan': 'Constitutional Branches',
-    'resources.sub.fiveYuan.desc':
-      "These five branches form Taiwan's unique pentapartite system — the only one of its kind in the world.",
-    'resources.sub.ministries': 'Ministries & Agencies',
-    'resources.sub.ministries.desc':
-      'From the Ministry of Digital Affairs to the Council of Indigenous Peoples, every ministry maintains its own open data portal.',
-    'resources.sub.localGov': 'Local Governments',
-    'resources.sub.localGov.desc':
-      '22 counties and cities, 22 styles of local governance. The smart city race among the six special municipalities is redefining public services.',
-    'resources.sub.openData': 'Open Data',
-    'resources.sub.openData.desc':
-      "This is where Taiwan's civic tech miracles begin. Mask maps, vaccine booking, air quality monitoring — all started from these platforms.",
-    'resources.sub.universities': 'Top Universities & Research',
-    'resources.sub.universities.desc':
-      "Taiwan's universities don't just teach — NTU's quantum computing lab and NCKU's semiconductor research center are vital nodes in the global academic network.",
-    'resources.sub.museums': 'Museums & Libraries',
-    'resources.sub.museums.desc':
-      "From the National Palace Museum's Jadeite Cabbage to the Chimei Museum's violin collection, Taiwan's museums are portals through time and space.",
-    'resources.sub.venues': 'Arts & Cultural Venues',
-    'resources.sub.venues.desc':
-      "Taiwan's arts ecosystem is taking flight. C-LAB, National Theater, Weiwuying — a concentration of world-class venues that rivals New York.",
-    'resources.sub.parks': 'National Parks & Scenic Areas',
-    'resources.sub.parks.desc':
-      "From sea level to 3,952 meters, Taiwan's 9 national parks span every climate zone on Earth. In a single day, you can go from tropical coral reefs to alpine snowlines.",
-    'resources.sub.mainstream': 'Mainstream Media',
-    'resources.sub.mainstream.desc':
-      "From the lifting of press bans after martial law ended in 1988, to today's 24-hour news channel competition — Taiwan's press freedom was hard-won.",
-    'resources.sub.digital': 'Digital Native Media',
-    'resources.sub.digital.desc':
-      "While traditional media struggles, Taiwan's digital-native outlets are redefining journalism. The Reporter's nonprofit model proves that investigative reporting can survive without advertising.",
-    'resources.sub.ngo': 'Civil Society & NGOs',
-    'resources.sub.ngo.desc':
-      "Taiwan has Asia's highest NGO density. From environment to human rights, these organizations don't just watch the government — they often lead the way.",
-    'resources.sub.companies': 'Industry Leaders',
-    'resources.sub.companies.desc':
-      'From TSMC to Foxconn, these companies appear in supply chain reports worldwide.',
-    'resources.sub.transport': 'Transportation',
-    'resources.sub.transport.desc':
-      "Taiwan's HSR connects Taipei to Kaohsiung in just 90 minutes. Add the metro, real-time bus systems, and YouBike — Taiwan's public transit is Asia's hidden champion.",
-    'resources.sub.healthcare': 'Healthcare',
-    'resources.sub.healthcare.desc':
-      'Universal health insurance: one card, 99.9% coverage, 15-minute average wait time. Even the US is studying how Taiwan does it.',
-    'resources.sub.finance': 'Finance & Data',
-    'resources.sub.finance.desc':
-      "TWSE is one of Asia's most transparent markets. From listed company financials to real-time trading data, everything is publicly accessible.",
-    'resources.sub.civicTech': 'Civic Tech Projects',
-    'resources.sub.foodMaps': 'Food & Culture Maps',
+    'resources.sub.civicGov': 'City Government & Services',
+    'resources.sub.civicGov.desc':
+      'The city itself, the school district, the chamber of commerce, the regional transit authority, and the official tourism site.',
+    'resources.sub.historyArts': 'History, Arts & Festivals',
+    'resources.sub.historyArts.desc':
+      "The institutions and annual festivals that keep Laguna's art-colony identity a living, performed thing rather than a plaque on a wall.",
+    'resources.sub.natureOutdoors': 'Parks, Trails & Tide Pools',
+    'resources.sub.natureOutdoors.desc':
+      'Wilderness parks, a state park, tide pool conservation, and the tide tables you need before walking out onto the rocks.',
+    'resources.sub.communityMedia': 'Local News',
 
     // Related articles
-    'resources.related.democracy': 'Related: Taiwan Democratic Transition',
     'resources.related.label': 'Related Reading',
-    'resources.related.government.1': 'Taiwan Democratic Transition',
-    'resources.related.government.2': 'Elections & Political Parties',
-    'resources.related.government.3': 'Open Source & g0v',
-    'resources.related.culture.1': 'Indigenous Culture',
-    'resources.related.culture.2': 'Education System',
-    'resources.related.culture.3': 'National Parks',
-    'resources.related.media.1': 'Sunflower Movement',
-    'resources.related.media.2': 'Media & Press Freedom',
-    'resources.related.media.3': 'PTT',
-    'resources.related.economy.1': 'TSMC',
-    'resources.related.economy.2': 'Semiconductor Industry',
-    'resources.related.economy.3': 'Healthcare & NHI',
-    'resources.related.community.1': 'g0v & Open Source',
-    'resources.related.community.2': 'Social Movements',
-    'resources.related.community.3': 'Digital Government',
+    'resources.related.civic.1': 'Founding & Early History',
+    'resources.related.civic.2': 'The Village',
+    'resources.related.history.1': 'Pageant of the Masters',
+    'resources.related.history.2': 'Sawdust Art Festival',
+    'resources.related.history.3': 'Laguna Art Museum',
+    'resources.related.nature.1': 'Laguna Coast Wilderness Park',
+    'resources.related.nature.2': 'Tide Pools',
+    'resources.related.community.1': 'The Village',
+    'resources.related.community.2': 'LagunaBeach.md: How This Project Works',
 
     // Footer stats
     'resources.stats.collected': 'Resources Collected',
     'resources.stats.chapters': 'Chapters',
-    'resources.stats.subcategories': 'Subcategories',
 
     // Search
     'resources.search.placeholder': 'Search resources...',
 
-    // Aria labels
-    'resources.aria.viewGithub': 'View GitHub repository',
-    'resources.aria.backToTop': 'Back to top',
-
     // Reading Guide
     'resources.guide.title': 'Where to Start',
     'resources.guide.desc':
-      "Imagine landing in Taiwan with no guidebook. Governance shows you the operating system — how a young democracy runs on radical transparency. Culture is the soul — 500 museums, 15,000 annual temple festivals, and 16 indigenous languages on an island smaller than Switzerland. Media reveals the conversation — from a 30-year-old plain-text forum that still shapes elections, to Asia's boldest nonprofit newsroom. Economy is the heartbeat — one company makes 92% of the world's advanced chips, and universal healthcare costs less than your phone bill. Community is the invitation — join the open-source citizens who build civic tools over weekend hackathons.",
+      'City & Civic is the operating system — a small, single city government with no county layer in between. History & Arts is the soul this town tells about itself, performed every summer at the Pageant of the Masters and the Sawdust Festival, and walked through downtown on First Thursdays. Nature is the backyard — a 40-mile wilderness park inland and a protected marine reserve at the waterline, both easy to wander into without context. Community is the conversation — two independent local newsrooms that cover what citywide Orange County news never will.',
 
     // Curator Notes
-    'resources.curator.government':
-      "🔍 During COVID-19, Taiwanese civic developers shipped mask maps and vaccine booking systems within 72 hours. Behind that speed: a top-3 globally ranked open data platform — 50,000+ datasets, real-time APIs, accessible to anyone. While developers elsewhere waited for government press conferences, Taiwan's were already writing code.",
-    'resources.curator.culture':
-      "🔍 Few know that Taiwan has one of the highest museum densities in Asia. But numbers only tell the surface — what's truly special is the 'living' culture: over 15,000 annual temple festivals, 16 indigenous languages, Hakka mountain song competitions. Taiwan's culture isn't just behind glass — it walks the streets.",
-    'resources.curator.media':
-      "🔍 How influential is PTT? During the 2018 referendum, discussion volume on PTT's Gossiping board directly correlated with voter turnout. The Reporter is equally remarkable: a donation-funded investigative outlet that has been nominated for Asian journalism awards for consecutive years. In an era of misinformation, Taiwan simultaneously has the most active netizen culture and the most dedicated fact-checking community — this contradiction itself is democratic vitality.",
-    'resources.curator.economy':
-      '🔍 While nations debate how much to spend on CHIPS Acts, Taiwan already wrote the answer on silicon wafers over 30 years: a small island with no oil, no iron ore, holds 92% of global advanced chip production through sheer talent and nanometer-precision engineering. That number earned a new word in Pentagon reports — \"silicon shield.\"',
+    'resources.curator.civic':
+      'Laguna Beach runs its own single-school-district school system (LBUSD: four schools) and its own city government, with no intervening county bureaucracy most residents interact with day to day. The free summer trolley, run by the city in partnership with the Chamber, is the easiest way to actually experience this — no parking, no driving Coast Highway in August traffic.',
+    'resources.curator.history':
+      'The Pageant of the Masters sounds like a gimmick until you sit through it: a live orchestra and narrator while costumed local volunteers hold still inside lit recreations of famous paintings, running nightly each summer since 1933. The Sawdust Art Festival next door is the unjuried, residents-only counterpart — handmade work from 180+ local artists. Neither festival is a one-off; they are the same art-colony identity that has run continuously since the early 1900s.',
+    'resources.curator.nature':
+      "Heisler Park's tide pools sit inside a marine-protected area — touching or removing anything from the rocks is enforceable, not just polite. Inland, Laguna Coast Wilderness Park's 40+ miles of trails through coastal sage scrub are home to red-tailed hawks, mule deer, and coyotes, and connect into the much larger wilderness corridor that includes Crystal Cove State Park down the coast.",
     'resources.curator.community':
-      "🔍 g0v's bimonthly hackathons have run 60+ times, each drawing hundreds of volunteer engineers, designers, and NGO workers. No pay, no boss — just a laptop and a problem to solve. The mask map was born this way: one weekend, a few engineers, real-time data from 6,000 pharmacies. Silicon Valley talks about changing the world. Taiwan's open-source community just ships it.",
+      'The Laguna Beach Independent and Stu News Laguna are both still locally staffed and locally focused — city council votes, school board decisions, lifeguard and beach conditions that get filtered out of any Orange County-wide aggregator. Reading either for even a week surfaces what residents are actually arguing about, which is usually more interesting than the tourism-site version of the town.',
 
     // Featured site descriptions
-    'resources.featured.dataGov':
-      'Ranked #1 globally for government open data — over 50,000 datasets from air quality to real-time bus locations, all freely downloadable.',
-    'resources.featured.g0vGov':
-      'Gov-zero: the civic tech community that rewrites governance — from mask maps to vTaiwan, blurring the line between hacker and policymaker.',
-    'resources.featured.legislativeYuan':
-      "Taiwan's parliament — live-streamed sessions, bill tracking, and the frontline of democratic deliberation.",
+    'resources.featured.cityHall':
+      "Laguna Beach's official city government site — city council agendas, permits, public works, and municipal services.",
+    'resources.featured.octa':
+      'Orange County Transportation Authority — county-wide bus routes connecting Laguna Beach to the rest of Orange County.',
+    'resources.featured.visitLb':
+      'The official tourism site for Laguna Beach — trolley routes and hours, events calendar, and visitor information.',
 
-    'resources.featured.npm':
-      "Home to 700,000+ artifacts spanning 8,000 years — one of the world's greatest collections of Chinese art, now with cutting-edge digital exhibitions.",
-    'resources.featured.ncl':
-      "Taiwan's national library and legal deposit center — the definitive archive of the nation's published knowledge.",
-    'resources.featured.npgov':
-      "Gateway to 9 national parks — from 3,000m peaks to coral reefs, covering Taiwan's extraordinary biodiversity in 36,000 km².",
+    'resources.featured.historicalSociety':
+      "Laguna Beach Historical Society — preserves and shares the town's history, from early homesteaders to the present.",
+    'resources.featured.artMuseum':
+      "Laguna Art Museum — California-focused art museum on Cliff Drive, the anchor of the city's art-colony identity.",
+    'resources.featured.foapom':
+      "Festival of Arts and the Pageant of the Masters — the annual art exhibition and 'living pictures' show running each summer since 1933, staged nightly at the Irvine Bowl.",
 
-    'resources.featured.twreporter':
-      'Pioneering nonprofit investigative journalism in the Chinese-speaking world — deep dives into environmental, social, and political issues.',
-    'resources.featured.ptt':
-      'Taiwan\'s largest online forum — 200K daily active users driving a unique "netizen-powered democracy" since 1995.',
-    'resources.featured.ptsNews':
-      "Taiwan's public television news — independent, unbiased reporting and the gold standard for public interest journalism.",
+    'resources.featured.ocParks':
+      "OC Parks' page for Laguna Coast Wilderness Park — 40+ miles of trails through coastal sage scrub and oak woodland.",
+    'resources.featured.crystalCove':
+      "California State Parks' page for Crystal Cove State Park — 2,791 acres of coastline, canyon, and historic beach cottages just down the coast.",
 
-    'resources.featured.tsmc':
-      "The world's most valuable semiconductor company, manufacturing 92% of the most advanced chips powering AI, smartphones, and supercomputers.",
-    'resources.featured.twse':
-      "The core of Taiwan's capital market — home to TSMC, Foxconn, and the engine of Asia's most dynamic tech economy.",
-    'resources.featured.nhi':
-      'Universal healthcare covering 99.9% of the population at 6.6% of GDP — a model studied by health policy experts worldwide.',
-
-    'resources.featured.g0v':
-      "The world's most impactful civic tech community — spawning the COVID mask map, vTaiwan deliberation platform, and a Digital Minister.",
-    'resources.featured.cofacts':
-      'Crowdsourced fact-checking on LINE — millions of users fighting misinformation with AI-assisted verification.',
-    'resources.featured.taiwanmd':
-      "The project you're reading right now — an open-source, community-curated encyclopedia of Taiwan.",
+    'resources.featured.indy':
+      'The Laguna Beach Independent — local news covering city council, schools, and the coastline.',
+    'resources.featured.stuNews':
+      'Stu News Laguna — an independently run local newsroom covering Laguna Beach city and community news.',
 
     // Section footer
-    'resources.section.footer.verified': 'Last verified: 2026-03-24',
+    'resources.section.footer.verified': 'Last verified: 2026-06-21',
     'resources.section.footer.reportLink': 'Report broken links',
 
-    // Footer / Last updated
-    'resources.footer.lastUpdated': 'Last updated: March 2026',
-    'resources.footer.report': 'Report broken links',
-    'resources.footer.reportUrl':
-      'https://github.com/wilsonkichoi/lagunabeach-md/issues',
-    'resources.footer.stats.total': '200+',
-
     // Site names
-    'resources.site.president': 'Office of the President',
-    'resources.site.executiveYuan': 'Executive Yuan',
-    'resources.site.legislativeYuan': 'Legislative Yuan',
-    'resources.site.judicialYuan': 'Judicial Yuan',
-    'resources.site.examinationYuan': 'Examination Yuan',
-    'resources.site.controlYuan': 'Control Yuan',
+    'resources.site.cityHall': 'City of Laguna Beach',
+    'resources.site.lbusd': 'Laguna Beach Unified School District',
+    'resources.site.chamber': 'Laguna Beach Chamber of Commerce',
+    'resources.site.octa': 'OCTA (Orange County Transportation Authority)',
+    'resources.site.visitLb': 'Visit Laguna Beach',
 
-    'resources.site.mofa': 'Ministry of Foreign Affairs',
-    'resources.site.moda': 'Ministry of Digital Affairs',
-    'resources.site.cip': 'Council of Indigenous Peoples',
-    'resources.site.moc': 'Ministry of Culture',
-    'resources.site.moe': 'Ministry of Education',
-    'resources.site.moea': 'Ministry of Economic Affairs',
-    'resources.site.motc': 'Ministry of Transportation',
-    'resources.site.moi': 'Ministry of the Interior',
-    'resources.site.ndc': 'National Development Council',
-    'resources.site.mac': 'Mainland Affairs Council',
-    'resources.site.mol': 'Ministry of Labor',
-    'resources.site.moenv': 'Ministry of Environment',
-    'resources.site.moa': 'Ministry of Agriculture',
-    'resources.site.mnd': 'Ministry of National Defense',
-    'resources.site.moj': 'Ministry of Justice',
-    'resources.site.mohw': 'Ministry of Health and Welfare',
-    'resources.site.trade': 'Bureau of Foreign Trade',
-    'resources.site.sme': 'Small and Medium Enterprise Administration',
-    'resources.site.tipo': 'Intellectual Property Office',
-    'resources.site.fsc': 'Financial Supervisory Commission',
-    'resources.site.immigration': 'National Immigration Agency',
-    'resources.site.cwa': 'Central Weather Administration',
-    'resources.site.nstc': 'National Science and Technology Council',
+    'resources.site.historicalSociety': 'Laguna Beach Historical Society',
+    'resources.site.artMuseum': 'Laguna Art Museum',
+    'resources.site.foapom': 'Festival of Arts / Pageant of the Masters',
+    'resources.site.sawdust': 'Sawdust Art Festival',
+    'resources.site.artWalk': 'First Thursdays Art Walk',
 
-    'resources.site.taipei': 'Taipei City Government',
-    'resources.site.newTaipei': 'New Taipei City Government',
-    'resources.site.taichung': 'Taichung City Government',
-    'resources.site.kaohsiung': 'Kaohsiung City Government',
-    'resources.site.tainan': 'Tainan City Government',
-    'resources.site.taoyuan': 'Taoyuan City Government',
-    'resources.site.keelung': 'Keelung City Government',
-    'resources.site.hsinchu': 'Hsinchu City Government',
-    'resources.site.chiayi': 'Chiayi City Government',
-    'resources.site.yilan': 'Yilan County Government',
-    'resources.site.hsinchuCounty': 'Hsinchu County Government',
-    'resources.site.miaoli': 'Miaoli County Government',
-    'resources.site.changhua': 'Changhua County Government',
-    'resources.site.nantou': 'Nantou County Government',
-    'resources.site.yunlin': 'Yunlin County Government',
-    'resources.site.chiayiCounty': 'Chiayi County Government',
-    'resources.site.pingtung': 'Pingtung County Government',
-    'resources.site.taitung': 'Taitung County Government',
-    'resources.site.hualien': 'Hualien County Government',
-    'resources.site.penghu': 'Penghu County Government',
-    'resources.site.kinmenGov': 'Kinmen County Government',
-    'resources.site.lienchiang': 'Lienchiang County Government',
+    'resources.site.ocParks': 'OC Parks — Laguna Coast Wilderness Park',
+    'resources.site.crystalCove': 'Crystal Cove State Park',
+    'resources.site.oceanFoundation': 'Laguna Ocean Foundation',
+    'resources.site.noaaTides': 'NOAA Tide Predictions',
+    'resources.site.library': 'Laguna Beach Library (OC Public Libraries)',
 
-    'resources.site.dataGov': 'Government Data Open Platform',
-    'resources.site.taiwanGov': 'National Portal Website',
-    'resources.site.lawDb': 'Laws & Regulations Database',
-    'resources.site.g0v': 'g0v Taiwan',
-
-    'resources.site.ntu': 'National Taiwan University',
-    'resources.site.nthu': 'National Tsing Hua University',
-    'resources.site.nycu': 'National Yang Ming Chiao Tung University',
-    'resources.site.ncku': 'National Cheng Kung University',
-    'resources.site.nccu': 'National Chengchi University',
-    'resources.site.ntnu': 'National Taiwan Normal University',
-    'resources.site.sinica': 'Academia Sinica',
-    'resources.site.tesd': 'Taiwan Empirical Survey Data Platform',
-    'resources.site.tcs': 'Taiwan Communication Survey (TCS)',
-    'resources.site.brill': 'Brill Encyclopedia of Taiwan Studies',
-    'resources.site.itri': 'Industrial Technology Research Institute',
-    'resources.site.niar': 'National Applied Research Laboratories',
-    'resources.site.airitilibrary': 'airiti Library',
-    'resources.site.ndltd':
-      'National Digital Library of Theses and Dissertations in Taiwan',
-
-    'resources.site.ncl': 'National Central Library',
-    'resources.site.npm': 'National Palace Museum',
-    'resources.site.ntm': 'National Taiwan Museum',
-    'resources.site.nmth': 'National Museum of Taiwan History',
-    'resources.site.nmns': 'National Museum of Natural Science',
-    'resources.site.nmmba': 'National Museum of Marine Biology',
-    'resources.site.nmtl': 'National Museum of Taiwan Literature',
-    'resources.site.ntmofa': 'National Taiwan Museum of Fine Arts',
-
-    'resources.site.tfam': 'Taipei Fine Arts Museum',
-    'resources.site.kmfa': 'Kaohsiung Museum of Fine Arts',
-    'resources.site.npacNtt': 'National Taichung Theater',
-    'resources.site.npacNtch': 'National Theater & Concert Hall',
-    'resources.site.weiwuying': 'Weiwuying Arts Center',
-    'resources.site.songshan': 'Songshan Cultural Park',
-    'resources.site.huashan': 'Huashan Creative Park',
-    'resources.site.pier2': 'Pier-2 Art Center',
-    'resources.site.digitalArchives': 'Digital Taiwan',
-    'resources.site.scitechVista': 'SciTech Vista',
-    'resources.site.tcmb': 'National Cultural Memory Bank',
-    'resources.site.taicca': 'TAICCA',
-
-    'resources.site.yushan': 'Yushan National Park',
-    'resources.site.taroko': 'Taroko National Park',
-    'resources.site.kenting': 'Kenting National Park',
-    'resources.site.sheipa': 'Shei-Pa National Park',
-    'resources.site.yangmingshan': 'Yangmingshan National Park',
-    'resources.site.kinmenPark': 'Kinmen National Park',
-    'resources.site.taijiang': 'Taijiang National Park',
-    'resources.site.dongsha': 'Dongsha Atoll National Park',
-    'resources.site.southPenghu': 'South Penghu Marine National Park',
-    'resources.site.taiwanTourism': 'Taiwan Tourism',
-    'resources.site.sunMoonLake': 'Sun Moon Lake National Scenic Area',
-    'resources.site.alishan': 'Alishan National Scenic Area',
-
-    'resources.site.cna': 'Central News Agency',
-    'resources.site.pts': 'Public Television Service',
-    'resources.site.focusTaiwan': 'Focus Taiwan',
-    'resources.site.taiwanToday': 'Taiwan Today',
-    'resources.site.panorama': 'Taiwan Panorama Magazine',
-    'resources.site.rti': 'Radio Taiwan International',
-    'resources.site.udn': 'United Daily News',
-    'resources.site.ltn': 'Liberty Times',
-    'resources.site.tvbs': 'TVBS News',
-    'resources.site.setn': 'SET News',
-    'resources.site.ebc': 'EBC News',
-    'resources.site.commonwealth': 'CommonWealth Magazine',
-    'resources.site.businesstoday': 'Business Today',
-    'resources.site.businessweekly': 'Business Weekly',
-
-    'resources.site.twreporter': 'The Reporter',
-    'resources.site.taiwanNews': 'Taiwan News',
-    'resources.site.thenewslens': 'The News Lens',
-    'resources.site.upmedia': 'The Up Media',
-    'resources.site.storm': 'The Storm Media',
-
-    'resources.site.tahr': 'Taiwan Association for Human Rights',
-    'resources.site.teia': 'Taiwan Environmental Information Association',
-    'resources.site.sow': 'Society of Wilderness',
-    'resources.site.ocf': 'Open Culture Foundation',
-    'resources.site.tfc': 'Taiwan FactCheck Center',
-    'resources.site.twnic': 'Taiwan Network Information Center',
-    'resources.site.wikimedia': 'Wikimedia Taiwan',
-    'resources.site.digitalDiplomacy': 'Taiwan Digital Diplomacy Association',
-
-    'resources.site.tsmc': 'Taiwan Semiconductor (TSMC)',
-    'resources.site.umc': 'United Microelectronics Corporation',
-    'resources.site.foxconn': 'Foxconn Technology',
-    'resources.site.delta': 'Delta Electronics',
-    'resources.site.taiwanExcellence': 'Taiwan Excellence',
-    'resources.site.cht': 'Chunghwa Telecom',
-    'resources.site.taipower': 'Taiwan Power Company',
-    'resources.site.iii': 'Institute for Information Industry',
-    'resources.site.investTaiwan': 'Invest Taiwan',
-
-    'resources.site.railway': 'Taiwan Railway',
-    'resources.site.thsrc': 'Taiwan High Speed Rail',
-    'resources.site.taiwanTrip': 'Taiwan Tourist Shuttle',
-    'resources.site.taoyuanAirport': 'Taoyuan International Airport',
-    'resources.site.metroTaipei': 'Taipei Metro',
-    'resources.site.krtc': 'Kaohsiung Metro',
-
-    'resources.site.cdc': 'Centers for Disease Control',
-    'resources.site.nhi': 'National Health Insurance Administration',
-    'resources.site.ntuh': 'National Taiwan University Hospital',
-    'resources.site.vghtpe': 'Taipei Veterans General Hospital',
-    'resources.site.cgmh': 'Chang Gung Medical Foundation',
-    'resources.site.cmuh': 'China Medical University Hospital',
-    'resources.site.kmuh': 'Kaohsiung Medical University Hospital',
-
-    'resources.site.stat': 'National Statistics',
-    'resources.site.twse': 'Taiwan Stock Exchange',
-    'resources.site.tpex': 'Taipei Exchange',
+    'resources.site.indy': 'Laguna Beach Independent',
+    'resources.site.stuNews': 'Stu News Laguna',
 
     'resources.site.github': 'GitHub Repository',
     'resources.site.contribute': 'Contributing Guide',
     'resources.site.rss': 'RSS Feed',
-
-    // New community site names
-    'resources.site.electionMap': 'Taiwan Election Map',
-    'resources.site.maskMap': 'Mask Map (2020)',
-    'resources.site.goodinfo': 'Goodinfo Stock Info',
-    'resources.site.ccw': 'Citizens Congress Watch',
-    'resources.site.thaubing': 'Transparency Footprint',
-    'resources.site.politicalDonation': 'Political Donation Search',
-    'resources.site.burgerMap': 'Taipei Burger Map',
-    'resources.site.nightMarket': 'NightMarketSwift',
-    'resources.site.cofacts': 'Cofacts',
-    'resources.site.disfactory': 'Disfactory',
-    'resources.site.ptt': 'PTT',
-    'resources.site.ptsNews': 'PTS News',
-    'resources.site.npgov': 'National Parks Portal',
-    'resources.site.taiwanmd': 'Taiwan.md',
   },
   'zh-TW': {
     // Meta
