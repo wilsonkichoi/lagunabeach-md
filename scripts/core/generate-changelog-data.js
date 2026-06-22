@@ -54,11 +54,27 @@ function dedupeAndTrim(commits, limit) {
     .slice(0, limit);
 }
 
+// First commit of this fork ("feat: fork taiwan-md as lagunabeach-md"). Kept
+// in sync with FORK_COMMIT in src/lib/commits.ts — bounds the changelog to
+// LagunaBeach.md's own history instead of walking into ~4,900 inherited
+// Taiwan.md commits from upstream contributors.
+const FORK_COMMIT = 'eac448e9c0d04a32ce9c6986eec7c9d4c64ede07';
+
 function getCommitsFromGit(limit) {
   try {
+    let range = 'HEAD';
+    try {
+      execSync(`git cat-file -e ${FORK_COMMIT}`, {
+        cwd: PROJECT_ROOT,
+        stdio: ['ignore', 'ignore', 'ignore'],
+      });
+      range = `${FORK_COMMIT}^..HEAD`;
+    } catch {
+      // Shallow clone without the fork commit — fall back to unscoped history.
+    }
     // --name-only appends changed files after each %x1e-delimited meta line.
     const raw = execSync(
-      `git log -n ${Math.max(limit, 1)} --date=iso-strict --name-only --pretty=format:%x1e%H%x1f%aI%x1f%an%x1f%s`,
+      `git log ${range} -n ${Math.max(limit, 1)} --date=iso-strict --name-only --pretty=format:%x1e%H%x1f%aI%x1f%an%x1f%s`,
       {
         cwd: PROJECT_ROOT,
         encoding: 'utf8',

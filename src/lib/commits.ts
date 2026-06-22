@@ -78,12 +78,33 @@ function dedupeAndTrim(commits: Commit[], limit: number): Commit[] {
     .slice(0, limit);
 }
 
+// First commit of this fork ("feat: fork taiwan-md as lagunabeach-md").
+// Bounds the changelog to LagunaBeach.md's own history — without this, `git
+// log` walks straight through into ~4,900 inherited Taiwan.md commits from
+// upstream contributors, making /changelog read as if it were taiwan.md's.
+const FORK_COMMIT = 'eac448e9c0d04a32ce9c6986eec7c9d4c64ede07';
+
 function getCommitsFromGit(limit = 100): Commit[] {
   try {
     // %x1e (RS) starts each commit record; %x1f (US) separates meta fields;
     // --name-only appends changed files (one per line) after the meta line.
+    const pretty =
+      '--date=iso-strict --name-only --pretty=format:%x1e%H%x1f%aI%x1f%an%x1f%s';
+    const range = (() => {
+      try {
+        execSync(`git cat-file -e ${FORK_COMMIT}`, {
+          cwd: PROJECT_ROOT,
+          stdio: ['ignore', 'ignore', 'ignore'],
+        });
+        return `${FORK_COMMIT}^..HEAD`;
+      } catch {
+        // Shallow clone without the fork commit (e.g. some CI checkouts) —
+        // fall back to unscoped history rather than failing the build.
+        return 'HEAD';
+      }
+    })();
     const raw = execSync(
-      `git log -n ${Math.max(limit, 1)} --date=iso-strict --name-only --pretty=format:%x1e%H%x1f%aI%x1f%an%x1f%s`,
+      `git log ${range} -n ${Math.max(limit, 1)} ${pretty}`,
       {
         cwd: PROJECT_ROOT,
         encoding: 'utf8',
