@@ -46,7 +46,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const PROJECT_ROOT = path.resolve(__dirname, '../..');
 const OUTPUT_PATH = path.join(PROJECT_ROOT, 'public/api/contributors.json');
-const REPO = 'frank890417/taiwan-md';
+const REPO = 'wilsonkichoi/lagunabeach-md';
 const GH_TOKEN = process.env.GH_TOKEN || process.env.GITHUB_TOKEN || '';
 
 // ─── Step 1: GitHub API contributors ─────────────────────────────────────────
@@ -58,7 +58,7 @@ function fetchGh(urlPath) {
       path: urlPath,
       method: 'GET',
       headers: {
-        'User-Agent': 'taiwan-md-leaderboard/1.0',
+        'User-Agent': 'lagunabeach-md-leaderboard/1.0',
         Accept: 'application/vnd.github+json',
       },
     };
