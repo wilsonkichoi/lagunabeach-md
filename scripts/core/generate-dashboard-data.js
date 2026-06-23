@@ -369,7 +369,7 @@ function loadQualityScores() {
 }
 
 // ---------------------------------------------------------------------------
-// Scan zh-TW articles (SSOT)
+// Scan default-language articles (SSOT)
 // ---------------------------------------------------------------------------
 function getZhTwArticles() {
   const articles = [];
@@ -398,7 +398,7 @@ function getZhTwArticles() {
 }
 
 // ---------------------------------------------------------------------------
-// Build translation lookup: lang -> Set of zh-TW relative paths that have translations
+// Build translation lookup: lang -> Set of default-language relative paths that have translations
 // ---------------------------------------------------------------------------
 function buildTranslationMap() {
   const map = {}; // { lang: Set<relativePath> }
@@ -495,7 +495,7 @@ async function main() {
   // Load quality scores cache
   const qualityScores = loadQualityScores();
 
-  // Get all zh-TW articles
+  // Get all default-language (SSOT) articles
   const rawArticles = getZhTwArticles();
 
   // Process each article
@@ -732,7 +732,7 @@ async function main() {
   // =========================================================================
   // dashboard-translations.json
   // =========================================================================
-  const languages = ['zh-TW', ...TRANSLATION_LANGS];
+  const languages = [DEFAULT_LANGUAGE.code, ...TRANSLATION_LANGS];
 
   // 2026-05-01 γ-late2：讀 _translation-status.json 拿 fresh/stale/missing/orphan
   // 真實 truth（status.py 算的，比 file existence 嚴格）。如不存在就 fallback
@@ -759,7 +759,7 @@ async function main() {
 
   // Summary（含 3-state breakdown 與 deficit；有 status.json 則用真實，否則 fallback）
   const summary = {
-    'zh-TW': {
+    [DEFAULT_LANGUAGE.code]: {
       total: articles.length,
       percentage: 100,
       fresh: articles.length,
@@ -822,7 +822,7 @@ async function main() {
     }
   }
 
-  // Matrix: category -> { lang: { fresh, stale, missing, count }, zh-TW: count }
+  // Matrix: category -> { lang: { fresh, stale, missing, count }, [default lang]: count }
   const matrix = {};
   const zhCategoryCounts = {};
   for (const a of articles) {
@@ -858,7 +858,7 @@ async function main() {
 
   for (const cat of Object.keys(zhCategoryCounts).sort()) {
     const zhCount = zhCategoryCounts[cat];
-    matrix[cat] = { 'zh-TW': zhCount };
+    matrix[cat] = { [DEFAULT_LANGUAGE.code]: zhCount };
     for (const lang of TRANSLATION_LANGS) {
       const bucket = categoryStateBuckets[cat]?.[lang];
       if (bucket) {
