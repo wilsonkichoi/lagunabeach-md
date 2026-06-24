@@ -329,10 +329,10 @@ Entire pages that are 100% Taiwan-specific (need delete or full rewrite). Delete
 
 Template pages with deep Taiwan content (need substantial rewrite):
 
-- [~] `src/templates/category-hub.template.astro` — TAIEX import removed (unblocking JSON deletion); food-universe section (~200 lines, zh-TW only) remains (60 refs, all in food viz `<script>` data)
+- [x] `src/templates/category-hub.template.astro` — TAIEX import removed; food-universe section DELETED (HTML + 596-line script + CSS). 4 residual refs: comments + dead economy chart labels.
 - [x] `src/templates/data.template.astro` — verified 0 refs (already clean)
 - [x] `src/templates/resources.template.astro` — `taiwanmdLinks` renamed to `projectLinks`, mindmap root node `id: 'taiwan'` → `'root'`, all edge sources updated. 0 refs remain.
-- [ ] `src/templates/assets.template.astro` — Taiwan SVG/asset descriptions (12 refs); pairs with `src/i18n/assets.ts`
+- [x] `src/templates/assets.template.astro` — DELETED (6 page wrappers + template + i18n). No LB SVGs exist. `nav.assets` keys removed from ui.ts.
 - [x] `src/pages/en/graph.astro` — re-centered to `🌊 LagunaBeach.md`, 8 LB categories, all node/edge refs updated (0 refs remain).
 - [x] `src/templates/about.template.astro` — 6 refs verified: line 148 comment (keep), lines 352-361 upstream credit block (intentional, per Rule 13.5). All i18n-driven content already LB via `about.ts`.
 - [x] `mcp` page — `src/pages/mcp.astro` + `src/templates/mcp.template.astro` (verified 0 refs)
@@ -349,13 +349,13 @@ Taiwan data files to remove:
 
 Taiwan data directories to remove:
 
-- [ ] `data/history-roadmap.md` — Taiwan National History Museum roadmap
-- [ ] `data/NML/` — Taiwan art archive "No Man's Land"
-- [ ] `data/NMTH-overseas/` — Taiwan National Museum of History
-- [ ] `data/TFT/` — Teach for Taiwan
-- [ ] `data/PanSci/` — Taiwan science media
-- [ ] `data/terminology/` — Taiwan/China word detection lists
-- [ ] `data/ilhaformosa/` — Portuguese-era Taiwan reference
+- [x] `data/history-roadmap.md` — DELETED (Taiwan National History Museum roadmap)
+- [x] `data/NML/` — DELETED (Taiwan art archive "No Man's Land")
+- [x] `data/NMTH-overseas/` — DELETED (Taiwan National Museum of History)
+- [x] `data/TFT/` — DELETED (Teach for Taiwan)
+- [x] `data/PanSci/` — DELETED (Taiwan science media)
+- [ ] `data/terminology/` — KEPT (used by prebuild:china-terms in build pipeline)
+- [x] `data/ilhaformosa/` — DELETED (Portuguese-era Taiwan reference)
 
 i18n files needing rewrite:
 
@@ -363,10 +363,10 @@ i18n files needing rewrite:
 - [x] `src/i18n/resources.ts` — NOT dead (imported indirectly via ui.ts spread). Full zh-TW rewrite to LB content (4 chapters: civic, history, nature, community). English stale sections also fixed. 0 refs remain.
 - [x] `src/i18n/about.ts` — 6 refs are all INTENTIONAL upstream credit ("forked from Taiwan.md" origin narrative). Keep per Rule 13.5.
 - [x] `src/i18n/ui.ts` — zh-TW strings fixed (nav, footer, categoryConfig descriptions, aria). 2 residual hits are key names only (`article.exploreTaiwan`), values already LB.
-- [ ] `src/i18n/assets.ts` — Taiwan SVG outline descriptions (46 refs)
+- [x] `src/i18n/assets.ts` — DELETED with assets page set. Import/spread removed from ui.ts.
 - [x] `src/i18n/contribute.ts` (zh-TW strings) — all 32 Taiwan refs rewritten to LB equivalents. 0 refs remain.
 - [x] `src/i18n/explore.ts` (zh-TW strings) — meta, search placeholder, hot searches, categories subtitle all updated
-- [x] `src/i18n/home.ts` — hero stats, cover heading/lead/closing, historical quotes timeline all rewritten to LB. 3 residual hits are key names only (`.taiwanmd` suffix), values already LB. Remaining: `home.template.astro` zh-TW Hall prose (~19 refs, needs full content rewrite).
+- [x] `src/i18n/home.ts` — hero stats, cover heading/lead/closing, historical quotes timeline all rewritten to LB. 3 residual hits are key names only (`.taiwanmd` suffix), values already LB. zh-TW Hall prose replaced with placeholder (no zh-TW knowledge/ content yet).
 
 > Pattern: Phase 2 localized only English i18n strings. Updated ref counts (`grep -ic "台灣\|台北\|taiwan"`, 2026-06-24 post-cleanup): `map.ts` DELETED, `resources.ts` 0, `contribute.ts` 0, `home.ts` 3 (key names only), `ui.ts` 2 (key names only), `about.ts` 6 (intentional upstream credit). Remaining: `assets.ts` 46.
 
@@ -384,10 +384,10 @@ Per CLAUDE.md, the sovereignty / PRC-censorship-bypass lens is explicitly droppe
 Low priority / cosmetic:
 
 - [x] `src/templates/latest.template.astro` — comment fixed ("come discover Laguna Beach")
-- [ ] `CONTRIBUTING.md` — still references Taiwan.md workflow
-- [ ] `.github/pull_request_template.md` — minor Taiwan.md references
+- [x] `CONTRIBUTING.md` — verified: all Taiwan.md refs are intentional upstream credit/lineage (per Rule 13.5). No action needed.
+- [x] `.github/pull_request_template.md` — REWRITTEN to English with LB's 8 categories and conventions.
 - [x] `src/components/home/CommunityFeedback.astro` — Korean user quote replaced with LB fact-check anecdote
-- [ ] `public/images/wiki/url-mapping.txt` — Taiwan Wikipedia image mappings
+- [x] `public/images/wiki/url-mapping.txt` — cleared Taiwan mappings (file kept for cache-images.sh infra).
 
 ### Phase 4: Shadow Translation ✅ COMPLETE
 
