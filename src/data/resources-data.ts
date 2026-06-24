@@ -163,7 +163,7 @@ export const heroCategories: HeroCategory[] = [
 ];
 
 // ─── LagunaBeach.md Links (footer) ───
-export const taiwanmdLinks: ResourceSite[] = [
+export const projectLinks: ResourceSite[] = [
   {
     nameKey: 'resources.site.github',
     url: 'https://github.com/wilsonkichoi/lagunabeach-md',

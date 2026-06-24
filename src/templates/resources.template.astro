@@ -13,7 +13,7 @@ import {
   historyArts,
   natureOutdoors,
   communityMedia,
-  taiwanmdLinks,
+  projectLinks,
 } from '../data/resources-data';
 
 const lang = getLangFromUrl(Astro.url);
@@ -187,7 +187,7 @@ type MindMapNode = {
 };
 const mindmapNodes: MindMapNode[] = [
   {
-    id: 'taiwan',
+    id: 'root',
     label: t('resources.mindmap.root.label'),
     group: 'center',
     size: 26,
@@ -204,7 +204,7 @@ heroCategories.forEach((category) => {
     size: 16,
     color: category.color,
   });
-  mindmapEdges.push({ source: 'taiwan', target: category.id });
+  mindmapEdges.push({ source: 'root', target: category.id });
   category.sites.forEach((site, index) => {
     const nodeId = `${category.id}_${index}`;
     mindmapNodes.push({

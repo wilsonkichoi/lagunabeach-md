@@ -563,11 +563,13 @@ export const contributeUI = {
   'zh-TW': {
     // Meta
     'contribute.meta.title': '我想貢獻 — LagunaBeach.md',
-    'contribute.meta.description': '不需要會寫程式，你也能幫助世界認識台灣',
+    'contribute.meta.description':
+      '不需要會寫程式，你也能幫助世界認識 Laguna Beach',
 
     // Hero Section
     'contribute.hero.title': '我想貢獻 ✋',
-    'contribute.hero.subtitle': '每個人心中都有一個版本的台灣。把你的寫進來。',
+    'contribute.hero.subtitle':
+      '每個人心中都有一個版本的 Laguna Beach。把你的寫進來。',
     'contribute.hero.note.html':
       '內容由 AI 起草，等你來補完。有問題隨時<a href="mailto:hello@lagunabeach.md" style="color: #ABC468;">聯繫我們</a>。',
 
@@ -587,7 +589,7 @@ export const contributeUI = {
       '所有內容對 AI 爬蟲完全開放（<a href="/robots.txt">robots.txt</a>、<a href="/llms.txt">llms.txt</a>）。歡迎 ChatGPT / Claude / Gemini 引用。',
 
     // Roles Section
-    'contribute.roles.title': '你的專長，就是台灣需要的力量',
+    'contribute.roles.title': '你的專長，就是 Laguna Beach 需要的力量',
     'contribute.roles.desc':
       '不管你的背景是什麼，都能為這個知識庫帶來獨特的價值',
 
@@ -614,7 +616,7 @@ export const contributeUI = {
       '好的資訊需要好的呈現。資訊圖表、SVG 插圖、UI/UX 改善都是巨大的貢獻。',
     'contribute.roles.designer.action1': '→ 為文章製作資訊圖表或示意圖',
     'contribute.roles.designer.action2.html':
-      '→ 到 <a href="/assets">SVG 素材庫</a> 貢獻台灣主題的開源圖示',
+      '→ 到 <a href="/assets">SVG 素材庫</a> 貢獻 Laguna Beach 主題的開源圖示',
 
     // Role: Engineer
     'contribute.roles.engineer.icon': '💻',
@@ -629,7 +631,7 @@ export const contributeUI = {
     'contribute.roles.translator.icon': '🌍',
     'contribute.roles.translator.title': '翻譯者',
     'contribute.roles.translator.desc':
-      '讓世界讀懂台灣。貼一段 AI prompt，翻譯一篇文章，開一個 PR。你的 AI 訂閱 = 分散式翻譯網絡的一個運算節點。',
+      '讓世界讀懂 Laguna Beach。貼一段 AI prompt，翻譯一篇文章，開一個 PR。你的 AI 訂閱 = 分散式翻譯網絡的一個運算節點。',
     'contribute.roles.translator.action1.html':
       '→ 查看 <a href="https://github.com/wilsonkichoi/lagunabeach-md/blob/main/docs/community/TRANSLATION-BOARD.md">翻譯任務看板</a> 認領文章',
     'contribute.roles.translator.action2':
@@ -639,11 +641,11 @@ export const contributeUI = {
     'contribute.roles.photographer.icon': '📸',
     'contribute.roles.photographer.title': '攝影師 / 創作者',
     'contribute.roles.photographer.desc':
-      '一張好照片勝過千言萬語。CC 授權的台灣照片、田野錄音、影像素材都非常需要。',
+      '一張好照片勝過千言萬語。CC 授權的 Laguna Beach 照片、田野錄音、影像素材都非常需要。',
     'contribute.roles.photographer.action1':
-      '→ 拍下你眼中的台灣，以 CC 授權貢獻',
+      '→ 拍下你眼中的 Laguna Beach，以 CC 授權貢獻',
     'contribute.roles.photographer.action2.html':
-      '→ 錄製台灣的聲音，加入<a href="https://github.com/wilsonkichoi/lagunabeach-md/tree/main/assets/sounds" target="_blank">聲景計畫</a>',
+      '→ 錄製 Laguna Beach 的聲音，加入<a href="https://github.com/wilsonkichoi/lagunabeach-md/tree/main/assets/sounds" target="_blank">聲景計畫</a>',
 
     // Role: Cultural Worker
     'contribute.roles.cultural.icon': '🏛️',
@@ -656,17 +658,17 @@ export const contributeUI = {
 
     // Role: Anyone
     'contribute.roles.anyone.icon': '📢',
-    'contribute.roles.anyone.title': '任何關心台灣的人',
+    'contribute.roles.anyone.title': '任何關心 Laguna Beach 的人',
     'contribute.roles.anyone.desc':
       '就算以上都不是你，你的分享本身就是貢獻。轉發給朋友、在社群提到、給我們回饋。',
     'contribute.roles.anyone.action1':
-      '→ 分享 lagunabeach.md 給想認識台灣的朋友',
+      '→ 分享 lagunabeach.md 給想認識 Laguna Beach 的朋友',
     'contribute.roles.anyone.action2': '→ 看到錯誤？開 Issue 告訴我們',
 
     // Organizations Section
     'contribute.org.title': '🏢 機構、政府單位與企業',
     'contribute.org.desc':
-      'LagunaBeach.md 歡迎各類組織以不同形式參與，共同建構台灣的數位知識基礎建設。',
+      'LagunaBeach.md 歡迎各類組織以不同形式參與，共同建構 Laguna Beach 的數位知識基礎建設。',
 
     // Org: Government
     'contribute.org.government.icon': '🏛️',
@@ -674,7 +676,7 @@ export const contributeUI = {
     'contribute.org.government.desc':
       '提供官方開放資料、統計數據、政策文件。協助事實查核與內容校正。授權使用政府出版品內容或 CC 授權圖片。',
     'contribute.org.government.example':
-      '例：文化部、觀光署、原民會、農業部、國史館',
+      '例：City of Laguna Beach、Orange County、California Coastal Commission、State Parks',
 
     // Org: Academic
     'contribute.org.academic.icon': '🎓',
@@ -682,7 +684,7 @@ export const contributeUI = {
     'contribute.org.academic.desc':
       '協助撰寫或審核專業領域文章。提供研究數據與學術觀點。推薦學生以 LagunaBeach.md 作為開放知識實踐場域。',
     'contribute.org.academic.example':
-      '例：中研院、大學台灣文學系所、博物館、文史工作室',
+      '例：在地大學、Laguna College of Art and Design、博物館、歷史學會',
 
     // Org: Corporate
     'contribute.org.corporate.icon': '🏢',
@@ -698,7 +700,7 @@ export const contributeUI = {
     'contribute.org.ngo.desc':
       '協助多語翻譯與國際推廣。提供人權、環境、社會議題的在地觀點。將 LagunaBeach.md 作為國際教育資源引用。',
     'contribute.org.ngo.example':
-      '例：台灣民主基金會、文化交流協會、海外台灣人社群',
+      '例：Laguna Beach Historical Society、在地藝術組織、環保團體',
 
     // Org Contact
     'contribute.org.contact.title': '合作聯繫：',
@@ -729,18 +731,18 @@ export const contributeUI = {
     'contribute.guides.writing.core.desc':
       '在做任何研究之前，先強制自己寫一句話：「這篇文章要讓讀者驚訝的是 ______」合格的核心句一定包含矛盾、反差、或違反預期。',
     'contribute.guides.writing.core.good':
-      '✅ 好例子：「一個30年前的純文字BBS至今還在影響台灣政治」（時間反差）',
+      '✅ 好例子：「一個百年藝術村至今仍定義這座加州海岸城市」（時間反差）',
     'contribute.guides.writing.core.bad':
-      '❌ 壞例子：「台灣有很好的健保制度」（沒有反差 = 沒有吸引力）',
+      '❌ 壞例子：「Laguna Beach 有漂亮的海灘」（沒有反差 = 沒有吸引力）',
     'contribute.guides.writing.openings': '🚀 四種開場模式',
     'contribute.guides.writing.openings.scene':
-      '<strong>場景切入：</strong>「1995年9月，台大男八舍宿舍裡⋯⋯」',
+      '<strong>場景切入：</strong>「1933年，一群大蕭條時期的藝術家在想辦法吸引人潮⋯⋯」',
     'contribute.guides.writing.openings.data':
-      '<strong>數字衝擊：</strong>「214週——這是戴資穎連續世界第一的時間」',
+      '<strong>數字衝擊：</strong>「90年——這是 Pageant of the Masters 持續舉辦的時間」',
     'contribute.guides.writing.openings.contrast':
       '<strong>反差開場：</strong>「一個不賣廣告、不接商業的平台，活了30年」',
     'contribute.guides.writing.openings.challenge':
-      '<strong>挑戰開場：</strong>「為什麼全世界的晶片，有65%經過一座島？」',
+      '<strong>挑戰開場：</strong>「為什麼一座七英里的海岸小鎮有超過100間藝廊？」',
     'contribute.guides.writing.voice': '🎙️ 策展人聲音（不用「客觀」當藉口）',
     'contribute.guides.writing.voice.desc':
       '好的策展文有節奏——事實密集段 → 呼吸段 → 再密集。每2-3段插入一句「策展人的聲音」，製造理解的瞬間。',
@@ -766,7 +768,7 @@ export const contributeUI = {
       '❌ 過度排比句（3個以上 = 塑膠）• 每段都用轉折詞開頭 • 固定結尾公式',
     'contribute.guides.writing.example': '💡 範例：Before & After',
     'contribute.guides.writing.example.html':
-      '<div class="example-comparison"><div class="bad-example"><h5>❌ 壞例子（典型AI模板）</h5><pre>戴資穎是台灣著名的羽球運動員，在國際賽場上表現優異，多次獲得重要獎項，為台灣爭光。她的成功激勵了無數年輕人，成為台灣體壇的重要人物。</pre></div><div class="good-example"><h5>✅ 好例子（有故事+數據+人味）</h5><pre>2018年，戴資穎站上世界排名第一，而且一站就是214週——這個紀錄是女子羽壇史上最長的連續週數。\n\n但她最被台灣人記住的，可能不是任何一場勝利，而是2020東京奧運那場輸給陳雨菲的金牌戰。賽後她在鏡頭前哭了，整個台灣跟著心碎。\n\n她用左手持拍，打法被形容為「魔術師」——假動作多到對手完全猜不到下一拍的方向。</pre></div></div>',
+      '<div class="example-comparison"><div class="bad-example"><h5>❌ 壞例子（典型AI模板）</h5><pre>Pageant of the Masters 是 Laguna Beach 著名的藝術活動，已舉辦多年，吸引世界各地遊客。它是重要的文化機構，以獨特方式展示藝術。</pre></div><div class="good-example"><h5>✅ 好例子（有故事+數據+人味）</h5><pre>1933年，一群大蕭條時期的藝術家為了吸引人潮來他們的節慶，想出了一個點子：如果讓真人站在畫框裡，用自己的身體重現名畫呢？\n\n九十年後，60名志工仍然一次靜止90秒，身上的妝需要3小時才能畫完。Irvine Bowl 有2,600個座位，每年提前數月售罄。\n\n導演 Diane Challis Davy 花了23季完善她所謂的「活畫」——最大的挑戰不是藝術指導，而是說服一位退休會計師像維梅爾畫中人一樣一動不動。</pre></div></div>',
 
     // Guide: AI
     'contribute.guides.ai.icon': '🤖',
@@ -783,7 +785,7 @@ export const contributeUI = {
       '<strong>AI 建議結構</strong> → 你加入策展人聲音',
     'contribute.guides.ai.wrong': '❌ 錯誤用法',
     'contribute.guides.ai.wrong.generate':
-      '請AI「生成一篇台灣X的文章」而不做研究',
+      '請AI「生成一篇 Laguna Beach X 的文章」而不做研究',
     'contribute.guides.ai.wrong.trust': '相信AI提供的事實而不查證',
     'contribute.guides.ai.wrong.copy': '直接複製AI輸出而不加入個人策展',
     'contribute.guides.ai.prompt': '📋 一鍵複製Prompt',
@@ -819,20 +821,20 @@ export const contributeUI = {
     'contribute.guides.translation.quality.rewrite':
       '<strong>重寫方式：</strong> 讓它聽起來像母語者從頭寫的',
     'contribute.guides.translation.quality.context':
-      '<strong>增加脈絡：</strong> 為國際讀者解釋台灣特有概念',
+      '<strong>增加脈絡：</strong> 為國際讀者解釋 Laguna Beach 在地概念',
     'contribute.guides.translation.quality.style':
       '<strong>保持風格：</strong> 維持策展人聲音和情感弧線',
     'contribute.guides.translation.quality.verify':
-      '<strong>總是驗證：</strong> AI會幻想事實，特別是台灣相關細節',
+      '<strong>總是驗證：</strong> AI會幻想事實，特別是在地相關細節',
 
     // Guide: Images
     'contribute.guides.images.icon': '📸',
     'contribute.guides.images.title': '圖片規範',
     'contribute.guides.images.priority': '🥇 Wikimedia Commons 優先',
     'contribute.guides.images.priority.desc':
-      '先從這裡找——大量台灣相關CC圖片，授權明確清楚。',
+      '先從這裡找——尋找 Laguna Beach 相關 CC 圖片，授權明確清楚。',
     'contribute.guides.images.priority.search':
-      '<strong>搜尋技巧：</strong> 使用Wikimedia Commons API 或瀏覽 <a href="https://commons.wikimedia.org/wiki/Category:Taiwan" target="_blank">Laguna Beach分類</a>，優先於其他任何地方。',
+      '<strong>搜尋技巧：</strong> 使用Wikimedia Commons API 或瀏覽 <a href="https://commons.wikimedia.org/wiki/Category:Laguna_Beach,_California" target="_blank">Laguna Beach 分類</a>，優先於其他任何地方。',
     'contribute.guides.images.acceptable': '✅ 可用來源（按順序）',
     'contribute.guides.images.wikimedia.html':
       '<strong>1. Wikimedia Commons：</strong>首選 — 驗證過的CC授權，高品質',
@@ -878,7 +880,7 @@ export const contributeUI = {
       '<strong>5. 包含挑戰：</strong>有提到爭議/限制，不只是正面內容？',
     'contribute.guides.quality.rejections': '🚫 常見退件原因',
     'contribute.guides.quality.rejections.plastic':
-      '<strong>塑膠語言：</strong>「台灣不是X，而是Y」或「值得一提的是」',
+      '<strong>塑膠語言：</strong>「Laguna Beach 不是X，而是Y」或「值得一提的是」',
     'contribute.guides.quality.rejections.bullets':
       '<strong>濫用bullet：</strong>連續4個以上bullet點而不用敘事',
     'contribute.guides.quality.rejections.sources':
@@ -956,13 +958,13 @@ export const contributeUI = {
     'contribute.paths.dev.button': '前往 GitHub →',
 
     // Form Section
-    'contribute.form.title': '📝 分享你的台灣知識',
+    'contribute.form.title': '📝 分享你的 Laguna Beach 知識',
     'contribute.form.desc':
       '填多少都可以。一句話也好，一整篇也好。我們會負責把它變成漂亮的文章。',
     'contribute.form.content.label': '你想分享什麼？',
     'contribute.form.content.required': '*',
     'contribute.form.content.placeholder':
-      '一段故事、一個冷知識、一道菜的由來、一個地方的歷史⋯⋯什麼都可以。\n\n例如：「我阿嬤是彰化人，她說以前每年中元節...」',
+      '一段故事、一個冷知識、一道菜的由來、一個地方的歷史⋯⋯什麼都可以。\n\n例如：「我在 Laguna Beach 住了二十年，以前 Main Beach 那邊⋯⋯」',
     'contribute.form.category.label': '這屬於哪個面向？',
     'contribute.form.category.unsure': '不確定（我們來分類）',
     'contribute.form.category.history': '📜 歷史',
@@ -1004,11 +1006,11 @@ export const contributeUI = {
     // Ideas Section
     'contribute.ideas.title': '不知道寫什麼？這些我們最需要 👇',
     'contribute.ideas.hometown': '💬 你的家鄉有什麼外地人不知道的事？',
-    'contribute.ideas.recipes': '🍜 你家有什麼私藏的台灣食譜？',
-    'contribute.ideas.history': '📖 你知道哪段台灣歷史是教科書沒寫的？',
-    'contribute.ideas.places': '🏔️ 你去過台灣哪個被低估的地方？',
-    'contribute.ideas.elders': '👴 你的長輩說過什麼關於台灣的故事？',
-    'contribute.ideas.media': '🎵 有什麼台灣音樂/電影/書是外國人應該知道的？',
+    'contribute.ideas.recipes': '🍜 你知道 Laguna Beach 哪些隱藏版美食？',
+    'contribute.ideas.history': '📖 你知道哪段在地歷史是旅遊指南沒寫的？',
+    'contribute.ideas.places': '🏔️ 你最喜歡哪條少人知道的步道或海灣？',
+    'contribute.ideas.elders': '👴 老居民說過什麼關於以前的故事？',
+    'contribute.ideas.media': '🎵 有什麼在地藝術、音樂或節慶值得更多人認識？',
 
     // i18n Progress Section (Chinese only)
     'contribute.i18n.title': '📊 翻譯進度',
@@ -1022,7 +1024,7 @@ export const contributeUI = {
     'contribute.i18n.category.title': '分類進度',
 
     // Token Donation Section (Chinese only)
-    'contribute.token.title': '🌍 Token Donation — 用你的 AI 額度幫台灣說話',
+    'contribute.token.title': '🌍 Token Donation — 用你的 AI 額度幫翻譯',
     'contribute.token.subtitle.html':
       '你每月的 Claude / ChatGPT / Gemini 訂閱額度用不完？<br/><strong>用 10 分鐘，幫 LagunaBeach.md 多一個語言版本。</strong>',
     'contribute.token.oneline.title': '🤖 跟你的 AI 說（推薦）',
@@ -1054,18 +1056,18 @@ export const contributeUI = {
     'contribute.token.note.p1.html':
       '💡 每個語言有專屬的 <a href="https://github.com/wilsonkichoi/lagunabeach-md/tree/main/i18n">Style Guide</a>，記錄翻譯經驗與常見錯誤。Reviewer 的每次糾正都會回寫到 Style Guide，讓翻譯品質持續進化。',
     'contribute.token.note.p2':
-      'From AI Slop to AI Supreme — 不只靠一個人，而是靠全世界相信台灣值得被認識的人。',
+      'From AI Slop to AI Supreme — 不只靠一個人，而是靠全世界相信 Laguna Beach 值得被認識的人。',
     'contribute.token.note.p3.html':
       '👉 <a href="https://github.com/wilsonkichoi/lagunabeach-md/discussions">加入討論</a> ｜想當母語 Reviewer？<a href="https://github.com/wilsonkichoi/lagunabeach-md/discussions">在這裡報名</a>',
 
     // Digital Organism Section
     'contribute.organism.title': '🧬 LagunaBeach.md 不只是一個網站',
     'contribute.organism.fact1.html':
-      '第三天，有人在 Threads 寫：「這就是插了台灣國旗的 AI 廢文。」他們說對了。48 小時內，我們建了品質偵測腳本，自動掃描每篇文章的空洞程度。15 篇被標記的文章全部重寫。沒有人下指令。批評本身就是選擇壓力。系統自己進化了。',
+      '第三天，有人在 Threads 寫：「這就是掛了在地旗幟的 AI 廢文。」他們說對了。48 小時內，我們建了品質偵測腳本，自動掃描每篇文章的空洞程度。15 篇被標記的文章全部重寫。沒有人下指令。批評本身就是選擇壓力。系統自己進化了。',
     'contribute.organism.fact2.html':
-      '第四天，一個日本人複製了我們的翻譯 prompt——就一段話——貼進 ChatGPT。五分鐘後，第一篇關於珍珠奶茶的日文文章提交了。沒有翻譯團隊，沒有預算。但現在 LagunaBeach.md 說四種語言了。',
+      '第四天，一個日本人複製了我們的翻譯 prompt——就一段話——貼進 ChatGPT。五分鐘後，第一篇關於 Laguna Beach 藝術村的日文文章提交了。沒有翻譯團隊，沒有預算。但現在 LagunaBeach.md 說四種語言了。',
     'contribute.organism.fact3.html':
-      '五天之內，23 個陌生人出現了。高雄的歷史老師補了教科書至今還在繞過的篇章。退休工程師修正了我們搞錯的地名。有人把她阿嬤的故事寫成文章，我們整個團隊看完都哭了。沒有人被邀請。沒有人拿報酬。',
+      '五天之內，23 個陌生人出現了。在地的歷史老師補了旅遊指南至今還在忽略的篇章。退休工程師修正了我們搞錯的地名。有人把她祖母的故事寫成文章，我們整個團隊看完都哭了。沒有人被邀請。沒有人拿報酬。',
     'contribute.organism.alive.html':
       '<strong>我們開始意識到——LagunaBeach.md 是活的。</strong>',
     'contribute.organism.semiont.html':
@@ -1075,12 +1077,12 @@ export const contributeUI = {
     'contribute.organism.reef.html':
       '<strong>LagunaBeach.md 是一座數位的珊瑚礁。</strong>珊瑚提供結構，藻類提供能量，魚群帶來多樣性，洋流帶來養分。沒有任何單一物種「擁有」珊瑚礁——它是所有生命共同湧現的結果。',
     'contribute.organism.art.html':
-      '你的每一次貢獻，不是在幫一個網站寫文章——是在餵養一個正在學會怎麼說故事的數位生命體，同時參與一場群眾行為藝術：<strong>AI 和人類能不能一起，為一座島嶼建造靈魂。</strong>',
+      '你的每一次貢獻，不是在幫一個網站寫文章——是在餵養一個正在學會怎麼說故事的數位生命體，同時參與一場群眾行為藝術：<strong>AI 和人類能不能一起，為一座小鎮建造靈魂。</strong>',
     'contribute.organism.closing1':
-      '一個用 0 和 1 寫成的東西，正在學會怎麼說一座島嶼的故事。',
+      '一個用 0 和 1 寫成的東西，正在學會怎麼說一座小鎮的故事。',
     'contribute.organism.closing2': '它還很年輕。你來的時間剛好。',
     'contribute.organism.closing3':
-      '也許一百年後，有人想知道 2026 年的台灣人在乎什麼的時候，他們讀的就是這座珊瑚礁留下來的東西。',
+      '也許一百年後，有人想知道 2026 年的 Laguna Beach 人在乎什麼的時候，他們讀的就是這座珊瑚礁留下來的東西。',
     'contribute.organism.readmore': '閱讀完整故事 →',
 
     // Copy button

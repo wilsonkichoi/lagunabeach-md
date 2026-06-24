@@ -136,7 +136,7 @@ A later session rewriting `public/llms.txt` invented "1887 incorporation" for La
 
 **Second `llms.txt` fabrication (caught 2026-06-24 review, fixed):** the rewrite stated the 1993 Firestorm destroyed "366 homes". SSOT says **441** (`knowledge/History/the-1993-firestorm.md:18`, `visualization-catalog.md:42,55`); 366 appeared nowhere else in the repo. Fixed to 441. Same file, same failure mode as 1887 — DO cross-check every number in `llms.txt` against `knowledge/`, not just the famous one.
 
-**Unsourced stat still in `llms.txt` (flagged, not yet resolved):** "Population: ~23,000 (2020 census)" has no source in `knowledge/` (only the 1927 figure ~1,600 exists). Plausibly correct, but per Rule 12 it must be sourced into `knowledge/` or dropped — do not leave a precise-looking unsourced census claim in a public AI-crawler file.
+**Unsourced stat resolved (2026-06-24):** "Population: ~23,000 (2020 census)" had no source in `knowledge/`. Dropped from `llms.txt` per Rule 12. If sourced later, can be re-added.
 
 Every factual claim you write — a year, a population, a count, a person's name, an award, a statistic — must be traceable to a source BEFORE you write it. The source for LB facts is `knowledge/` (the SSOT). The source for "how many files / how many refs" is the actual `grep`/`ls` output, not memory.
 
@@ -330,13 +330,13 @@ Entire pages that are 100% Taiwan-specific (need delete or full rewrite). Delete
 Template pages with deep Taiwan content (need substantial rewrite):
 
 - [~] `src/templates/category-hub.template.astro` — TAIEX import removed (unblocking JSON deletion); food-universe section (~200 lines, zh-TW only) remains (60 refs, all in food viz `<script>` data)
-- [ ] `src/templates/data.template.astro` — Taiwan data visualizations
-- [ ] `src/templates/resources.template.astro` — Taiwan resources
+- [x] `src/templates/data.template.astro` — verified 0 refs (already clean)
+- [x] `src/templates/resources.template.astro` — `taiwanmdLinks` renamed to `projectLinks`, mindmap root node `id: 'taiwan'` → `'root'`, all edge sources updated. 0 refs remain.
 - [ ] `src/templates/assets.template.astro` — Taiwan SVG/asset descriptions (12 refs); pairs with `src/i18n/assets.ts`
-- [ ] `src/pages/en/graph.astro` — knowledge-graph page still has `🇹🇼 Taiwan.md` as center node (10 refs). NOTE: Phase 3's "graph re-centered to LagunaBeach.md" was the map-view graph; this standalone page was missed.
-- [ ] `src/templates/about.template.astro` — `/about` timeline/origin still Taiwan (6 refs). PARTIALLY done: the "Taiwan.md Contributors (Upstream)" block (~line 352) is INTENTIONAL upstream credit (commit `7faa14848`) — keep it; fix only the stale narrative/timeline.
-- [ ] `mcp` page — `src/pages/mcp.astro` + `src/templates/mcp.template.astro`
-- [ ] `src/templates/map.template.astro` — two leftovers (page is now Leaflet, renders fine): line ~62 hero `bgGradient` still uses Taiwan-green `#14532d` (Phase 2 claimed full ocean-blue swap); line ~11 comment references "22-county layer — counties-22 data, d3/topojson Taiwan SVG" (stale, the SVG/county layer is gone).
+- [x] `src/pages/en/graph.astro` — re-centered to `🌊 LagunaBeach.md`, 8 LB categories, all node/edge refs updated (0 refs remain).
+- [x] `src/templates/about.template.astro` — 6 refs verified: line 148 comment (keep), lines 352-361 upstream credit block (intentional, per Rule 13.5). All i18n-driven content already LB via `about.ts`.
+- [x] `mcp` page — `src/pages/mcp.astro` + `src/templates/mcp.template.astro` (verified 0 refs)
+- [x] `src/templates/map.template.astro` — fixed: `bgGradient` swapped from `#14532d` to `#1e5a8a` (ocean blue); stale 22-county/d3/topojson comment replaced with concise Leaflet description (0 refs remain).
 
 Taiwan data files to remove:
 
@@ -359,16 +359,16 @@ Taiwan data directories to remove:
 
 i18n files needing rewrite:
 
-- [ ] `src/i18n/map.ts` — **832 refs (biggest single-file gap)**. Live: imported by `ui.ts` → `mapUI`. Currently DEAD-but-shipped: `map.template.astro` uses Leaflet + hardcoded English and never calls `t('map.*')`, so these strings ("Taiwan Knowledge Map", night-market/22-county route descriptions) ship in the ui bundle but don't render. Phase 3's "Map routes: Taiwan routes removed" covered the rendered routes, NOT these i18n strings. Rewrite or delete the dead keys.
-- [ ] `src/i18n/resources.ts` — 95 refs. No importer found by `grep -rIn "i18n/resources" src/` — likely fully dead; verify, then delete or rewrite. (Only `resources.template.astro`'s 3 refs were previously listed; this file was missed.)
-- [ ] `src/i18n/about.ts` — 6 refs. Pairs with `about.template.astro`.
-- [ ] `src/i18n/ui.ts` — 13 refs remaining (bench keys removed; residual Taiwan strings remain).
+- [x] `src/i18n/map.ts` — DELETED (832 dead keys, zero `t('map.*')` consumers anywhere). Import removed from `ui.ts`.
+- [x] `src/i18n/resources.ts` — NOT dead (imported indirectly via ui.ts spread). Full zh-TW rewrite to LB content (4 chapters: civic, history, nature, community). English stale sections also fixed. 0 refs remain.
+- [x] `src/i18n/about.ts` — 6 refs are all INTENTIONAL upstream credit ("forked from Taiwan.md" origin narrative). Keep per Rule 13.5.
+- [x] `src/i18n/ui.ts` — zh-TW strings fixed (nav, footer, categoryConfig descriptions, aria). 2 residual hits are key names only (`article.exploreTaiwan`), values already LB.
 - [ ] `src/i18n/assets.ts` — Taiwan SVG outline descriptions (46 refs)
-- [ ] `src/i18n/contribute.ts` (zh-TW strings) — "台灣" where content should be LB (32 refs). Note: `contribute.template.astro` itself is already clean (0 refs, fixed in commits `19c077559` / `c2763279b`) — do not re-list it.
+- [x] `src/i18n/contribute.ts` (zh-TW strings) — all 32 Taiwan refs rewritten to LB equivalents. 0 refs remain.
 - [x] `src/i18n/explore.ts` (zh-TW strings) — meta, search placeholder, hot searches, categories subtitle all updated
-- [~] `src/i18n/home.ts` (zh-TW strings) — cover quotes, random, categories, features, meta, newsletter, contribute, reading path, bridges all updated. Remaining: `home.template.astro` zh-TW Hall narrative prose (~18 refs in template itself, need content rewrite). 14 refs remain in `home.ts` itself.
+- [x] `src/i18n/home.ts` — hero stats, cover heading/lead/closing, historical quotes timeline all rewritten to LB. 3 residual hits are key names only (`.taiwanmd` suffix), values already LB. Remaining: `home.template.astro` zh-TW Hall prose (~19 refs, needs full content rewrite).
 
-> Pattern: Phase 2 localized only English i18n strings. The zh-TW values in `explore.ts`, `contribute.ts`, `home.ts` (and likely others) still carry Taiwan content. Sweep all of `src/i18n/*.ts` for `台灣`/`台北` in zh-TW blocks before declaring i18n done. Verified-current ref counts (`grep -ic "台灣\|台北\|taiwan"`, 2026-06-24): `map.ts` 832, `resources.ts` 95, `assets.ts` 46, `contribute.ts` 32, `home.ts` 14, `ui.ts` 13, `about.ts` 6.
+> Pattern: Phase 2 localized only English i18n strings. Updated ref counts (`grep -ic "台灣\|台北\|taiwan"`, 2026-06-24 post-cleanup): `map.ts` DELETED, `resources.ts` 0, `contribute.ts` 0, `home.ts` 3 (key names only), `ui.ts` 2 (key names only), `about.ts` 6 (intentional upstream credit). Remaining: `assets.ts` 46.
 
 ### Sovereignty-framing purge (Taiwan geopolitical lens — NOT applicable to LB)
 
@@ -383,10 +383,10 @@ Per CLAUDE.md, the sovereignty / PRC-censorship-bypass lens is explicitly droppe
 
 Low priority / cosmetic:
 
-- [ ] `src/templates/latest.template.astro` — single stale comment ("come discover Taiwan" reader)
+- [x] `src/templates/latest.template.astro` — comment fixed ("come discover Laguna Beach")
 - [ ] `CONTRIBUTING.md` — still references Taiwan.md workflow
 - [ ] `.github/pull_request_template.md` — minor Taiwan.md references
-- [ ] `src/components/home/CommunityFeedback.astro` — Korean user quote about Taiwan
+- [x] `src/components/home/CommunityFeedback.astro` — Korean user quote replaced with LB fact-check anecdote
 - [ ] `public/images/wiki/url-mapping.txt` — Taiwan Wikipedia image mappings
 
 ### Phase 4: Shadow Translation ✅ COMPLETE

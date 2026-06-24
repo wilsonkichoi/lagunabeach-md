@@ -5,47 +5,35 @@ import { resolve, join } from 'path';
 
 const categories = [
   'history',
-  'geography',
-  'culture',
+  'art-galleries',
+  'nature-marine-life',
   'food',
-  'art',
-  'music',
-  'technology',
-  'nature',
-  'people',
-  'society',
-  'economy',
-  'lifestyle',
+  'beaches',
+  'trails',
+  'events-festivals',
+  'neighborhoods',
 ];
 
 const categoryColors: Record<string, string> = {
   history: '#e74c3c',
-  geography: '#2ecc71',
-  culture: '#9b59b6',
+  'art-galleries': '#e91e63',
+  'nature-marine-life': '#27ae60',
   food: '#f39c12',
-  art: '#e91e63',
-  music: '#00bcd4',
-  technology: '#3498db',
-  nature: '#27ae60',
-  people: '#ff9800',
-  society: '#607d8b',
-  economy: '#ff5722',
-  lifestyle: '#8bc34a',
+  beaches: '#3498db',
+  trails: '#8bc34a',
+  'events-festivals': '#9b59b6',
+  neighborhoods: '#607d8b',
 };
 
 const categoryNames: Record<string, string> = {
   history: '📜 History',
-  geography: '🗺️ Geography',
-  culture: '🎭 Culture',
-  food: '🍜 Food',
-  art: '🎨 Art',
-  music: '🎵 Music',
-  technology: '💻 Technology',
-  nature: '🌿 Nature',
-  people: '👥 People',
-  society: '⚖️ Society',
-  economy: '📈 Economy',
-  lifestyle: '🏠 Lifestyle',
+  'art-galleries': '🎨 Art & Galleries',
+  'nature-marine-life': '🌊 Nature & Marine Life',
+  food: '🍽️ Food',
+  beaches: '🏖️ Beaches',
+  trails: '🥾 Trails',
+  'events-festivals': '🎭 Events & Festivals',
+  neighborhoods: '🏘️ Neighborhoods',
 };
 
 // Build nodes and edges
@@ -104,7 +92,12 @@ let allEnArticles: any[] = [];
 }
 
 // Center node
-nodes.push({ id: 'taiwan', label: '🇹🇼 Taiwan.md', group: 'center', size: 30 });
+nodes.push({
+  id: 'lagunabeach',
+  label: '🌊 LagunaBeach.md',
+  group: 'center',
+  size: 30,
+});
 
 // SSOT concept node
 nodes.push({
@@ -114,7 +107,7 @@ nodes.push({
   color: '#8b5cf6',
   size: 16,
 });
-edges.push({ source: 'taiwan', target: 'ssot' });
+edges.push({ source: 'lagunabeach', target: 'ssot' });
 
 // Special nodes
 nodes.push({
@@ -135,7 +128,7 @@ nodes.push({
 });
 nodes.push({
   id: 'quotes',
-  label: '✨ Seeing Taiwan\nQuotes',
+  label: '✨ Community\nQuotes',
   group: 'special',
   color: '#f59e0b',
   size: 12,
@@ -155,8 +148,8 @@ nodes.push({
   color: '#8b5cf6',
   size: 10,
 });
-edges.push({ source: 'taiwan', target: 'about' });
-edges.push({ source: 'taiwan', target: 'contribute' });
+edges.push({ source: 'lagunabeach', target: 'about' });
+edges.push({ source: 'lagunabeach', target: 'contribute' });
 edges.push({ source: 'about', target: 'quotes' });
 edges.push({ source: 'ssot', target: 'editorial' });
 edges.push({ source: 'ssot', target: 'llms' });
@@ -175,7 +168,7 @@ for (const cat of categories) {
     size: 20,
     url: `/en/${cat}`,
   });
-  edges.push({ source: 'taiwan', target: cat });
+  edges.push({ source: 'lagunabeach', target: cat });
 
   // Chinese article nodes
   const catArticles = allZhArticles.filter((a) => {
@@ -242,17 +235,13 @@ for (const [tag, articleIds] of Object.entries(tagMap)) {
 // Parse Hub wikilinks to create Hub→article edges
 const categoryMapping: Record<string, string> = {
   history: 'History',
-  geography: 'Geography',
-  culture: 'Culture',
+  'art-galleries': 'Art & Galleries',
+  'nature-marine-life': 'Nature & Marine Life',
   food: 'Food',
-  art: 'Art',
-  music: 'Music',
-  technology: 'Technology',
-  nature: 'Nature',
-  people: 'People',
-  society: 'Society',
-  economy: 'Economy',
-  lifestyle: 'Lifestyle',
+  beaches: 'Beaches',
+  trails: 'Trails',
+  'events-festivals': 'Events & Festivals',
+  neighborhoods: 'Neighborhoods',
 };
 const nodeIds = new Set(nodes.map((n) => n.id));
 
@@ -316,15 +305,15 @@ const graphData = JSON.stringify({ nodes, edges });
   max-width. Same `.graph-page` hook kept for global.css base rule.
 -->
 <Layout
-  title="🕸️ Knowledge Graph — Taiwan.md"
-  description="All knowledge nodes and connections on Taiwan.md"
+  title="🕸️ Knowledge Graph — LagunaBeach.md"
+  description="All knowledge nodes and connections on LagunaBeach.md"
   lang="en"
 >
   <main class="graph-page flex h-screen flex-col">
     <div class="flex items-center gap-8 bg-[#1a1a2e] px-8 py-4 text-white">
       <h1 class="m-0 whitespace-nowrap text-[1.3rem]">🕸️ Knowledge Graph</h1>
       <p class="m-0 text-[0.9rem] opacity-70">
-        All knowledge nodes and connections on Taiwan.md
+        All knowledge nodes and connections on LagunaBeach.md
       </p>
       <div class="ml-auto flex items-center gap-2">
         <input
@@ -403,7 +392,7 @@ const graphData = JSON.stringify({ nodes, edges });
           .forceLink(data.edges)
           .id((d) => d.id)
           .distance((d) => {
-            if (d.source.id === 'taiwan') return 150;
+            if (d.source.id === 'lagunabeach') return 150;
             return 80;
           }),
       )

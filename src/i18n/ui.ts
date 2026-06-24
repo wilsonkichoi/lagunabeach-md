@@ -8,7 +8,6 @@ import { dataUI } from './data';
 import { contributeUI } from './contribute';
 import { changelogUI } from './changelog';
 import { resourcesUI } from './resources';
-import { mapUI } from './map';
 import { assetsUI } from './assets';
 import { dashboardUI } from './dashboard';
 import { notFoundUI } from './notfound';
@@ -30,7 +29,6 @@ export const ui = {
     ...contributeUI.en,
     ...changelogUI.en,
     ...resourcesUI.en,
-    ...mapUI.en,
     ...assetsUI.en,
     ...dashboardUI.en,
     ...notFoundUI.en,
@@ -218,7 +216,6 @@ export const ui = {
     ...contributeUI['zh-TW'],
     ...changelogUI['zh-TW'],
     ...resourcesUI['zh-TW'],
-    ...mapUI['zh-TW'],
     ...assetsUI['zh-TW'],
     ...dashboardUI['zh-TW'],
     ...notFoundUI['zh-TW'],
@@ -260,9 +257,9 @@ export const ui = {
     'nav.about.team': '團隊',
     'nav.about.faq': '常見問題',
     'nav.about.changelog': '更新日誌',
-    'nav.map.explore': '地理台灣',
-    'nav.data.global': '台灣 vs 世界',
-    'nav.data.shape': '台灣的形狀',
+    'nav.map.explore': '地圖探索',
+    'nav.data.global': '數據總覽',
+    'nav.data.shape': '城市輪廓',
     'nav.data.democracy': '數位民主',
     'nav.data.opendata': '開放資料',
     'nav.data.curation': 'OpenData 策展',
@@ -294,9 +291,9 @@ export const ui = {
     'footer.contact': '聯繫',
     'footer.report': '回報問題',
     'footer.discuss': '討論區',
-    'footer.desc': '開源、AI-friendly 的台灣知識庫',
-    'footer.builtWith': '在台灣以 ❤️ 打造',
-    'footer.dataPage': '數據台灣',
+    'footer.desc': '開源、AI-friendly 的 Laguna Beach 知識庫',
+    'footer.builtWith': '在 Laguna Beach 以 ❤️ 打造',
+    'footer.dataPage': '數據總覽',
     'footer.dashboardPage': '監測面板',
     'footer.support-us': '支持我們',
     'footer.support-us.cta': '到 Portaly 贊助',
@@ -318,21 +315,18 @@ export const ui = {
     'categoryConfig.about': '關於',
     'categoryConfig.about.description': '關於 LagunaBeach.md — 緣起與使命',
     'categoryConfig.history.description':
-      '從史前時代到現代，台灣歷史的完整脈絡',
-    'categoryConfig.geography.description':
-      '台灣的自然環境、地形特色與區域發展',
-    'categoryConfig.culture.description': '多元族群文化的融合與在地特色',
-    'categoryConfig.food.description': '從夜市小吃到精緻料理的美食文化',
-    'categoryConfig.art.description': '傳統工藝到當代藝術的創作能量',
-    'categoryConfig.music.description': '從原住民音樂到流行音樂的聲音風景',
-    'categoryConfig.technology.description': '科技島的創新發展與數位轉型',
-    'categoryConfig.nature.description': '豐富的生態環境與環保議題',
-    'categoryConfig.people.description': '影響台灣發展的重要人物與故事',
-    'categoryConfig.society.description': '社會變遷與當代議題的深度探討',
-    'categoryConfig.economy.description': '經濟奇蹟的成因與轉型挑戰',
-    'categoryConfig.lifestyle.description': '台灣人的生活方式與價值觀',
-    'categoryConfig.politics.description':
-      '島嶼民主的 30 年實驗 — 制度怎麼長、權力怎麼結構、為什麼民主基礎建設不只是投票',
+      '從原住民部落到藝術殖民地，Laguna Beach 的建城故事',
+    'categoryConfig.art-galleries.description':
+      '百年藝術殖民地傳統與當代畫廊場景',
+    'categoryConfig.nature-marine-life.description':
+      '海洋保護區、潮池生態與沿岸野生動物',
+    'categoryConfig.food.description': '從海鮮到農場直送的在地餐飲文化',
+    'categoryConfig.beaches.description': '七英里海岸線上的每一處沙灘與海灣',
+    'categoryConfig.trails.description': '40+ 英里荒野步道與海岸健行路線',
+    'categoryConfig.events-festivals.description':
+      'Pageant of the Masters、Sawdust Festival 與全年節慶活動',
+    'categoryConfig.neighborhoods.description':
+      'North Laguna、Village、South Laguna 等社區風貌',
     // Article page
     'article.toc': '目錄',
     'article.sources': '參考資料',
@@ -387,7 +381,7 @@ export const ui = {
     'CategoryGrid.article': '篇',
     'CategoryGrid.articles': '篇',
     'CategoryGrid.explore': '探索',
-    'CategoryGrid.aria-section': '台灣知識分類',
+    'CategoryGrid.aria-section': 'Laguna Beach 知識分類',
     'CategoryGrid.aria-explore': '探索',
     'CategoryGrid.aria-explore-suffix': '主題',
     'CategoryGrid.alt-category-image-suffix': '主題相關圖片',
