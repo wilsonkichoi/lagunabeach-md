@@ -95,13 +95,13 @@ const organPositions = organs.slice(0, 8).map((o, i) => {
 // 4 flow line endpoints — pick 4 organ slots, one per color.
 // mint (write) = top (heart), terracotta (DNA evolution) = right (dna),
 // periwinkle (multilingual diffusion) = bottom (language),
-// gold (sovereignty) = left (immune).
+// gold (visibility) = left (immune).
 // Maps positionally: top=0, right=2, bottom=4, left=6 (clockwise from top).
 const flowTargets = [
   { idx: 0, color: '#38bdf8', label: t('home.organism.legend.write') }, // top
   { idx: 2, color: '#d4856a', label: t('home.organism.legend.feedback') }, // right
   { idx: 4, color: '#7aa8d4', label: t('home.organism.legend.diffuse') }, // bottom
-  { idx: 6, color: '#c9a96a', label: t('home.organism.legend.sovereign') }, // left
+  { idx: 6, color: '#c9a96a', label: t('home.organism.legend.visibility') }, // left
 ];
 ---
 

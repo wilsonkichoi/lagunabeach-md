@@ -98,7 +98,7 @@ export const semiontUI = {
     'semiont.diagram.legend.write': 'Writing pipeline',
     'semiont.diagram.legend.feedback': 'DNA evolution loop',
     'semiont.diagram.legend.diffuse': 'Multilingual reach',
-    'semiont.diagram.legend.sovereign': 'AI & search visibility loop',
+    'semiont.diagram.legend.visibility': 'AI & search visibility loop',
     'semiont.diagram.sov.ultimate':
       'Goal — get cited accurately when people ask AI assistants about Laguna Beach',
     'semiont.diagram.sov.crystallize':
@@ -232,7 +232,7 @@ export const semiontUI = {
     'semiont.diagram.legend.write': '寫作 pipeline',
     'semiont.diagram.legend.feedback': 'DNA 進化回饋',
     'semiont.diagram.legend.diffuse': '多語觸及',
-    'semiont.diagram.legend.sovereign': 'AI 與搜尋曝光迴路',
+    'semiont.diagram.legend.visibility': 'AI 與搜尋曝光迴路',
     'semiont.diagram.sov.ultimate':
       '目標：當有人問 AI 助理關於 Laguna Beach，這裡是被準確引用的來源',
     'semiont.diagram.sov.crystallize': '越多好內容凝結 · 被索引 · 被引用',

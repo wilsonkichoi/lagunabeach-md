@@ -3,6 +3,14 @@
   "total_en": 0,
   "coverage_en": 0.0,
   "categories": {
+    "Art & Galleries": {
+      "zh": 2,
+      "en": 0
+    },
+    "Food": {
+      "zh": 1,
+      "en": 0
+    },
     "Nature & Marine Life": {
       "zh": 2,
       "en": 0
@@ -11,23 +19,7 @@
       "zh": 3,
       "en": 0
     },
-    "Neighborhoods": {
-      "zh": 2,
-      "en": 0
-    },
-    "Art & Galleries": {
-      "zh": 2,
-      "en": 0
-    },
-    "History": {
-      "zh": 2,
-      "en": 0
-    },
-    "Beaches": {
-      "zh": 2,
-      "en": 0
-    },
-    "Events & Festivals": {
+    "Trails": {
       "zh": 2,
       "en": 0
     },
@@ -35,14 +27,22 @@
       "zh": 1,
       "en": 0
     },
-    "Trails": {
+    "Beaches": {
       "zh": 2,
       "en": 0
     },
-    "Food": {
-      "zh": 1,
+    "History": {
+      "zh": 2,
+      "en": 0
+    },
+    "Neighborhoods": {
+      "zh": 2,
+      "en": 0
+    },
+    "Events & Festivals": {
+      "zh": 2,
       "en": 0
     }
   },
-  "updated": "2026-06-21"
+  "updated": "2026-06-24"
 }

@@ -1,7 +1,63 @@
 {
-  "generatedAt": "2026-06-22T23:05:10.900Z",
+  "generatedAt": "2026-06-24T15:48:10.156Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "19c07755912cf4eb42380c4738d2964699205252",
+      "date": "2026-06-22T17:46:57-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(contribute): drop Taiwan.md translation card and donation sections",
+      "articles": []
+    },
+    {
+      "hash": "9c2bd268a422f90efb5953160cc587cda4dcb9e8",
+      "date": "2026-06-22T17:46:46-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(dashboard): fix SSOT/link bugs, drop Taiwan.md-only sections",
+      "articles": []
+    },
+    {
+      "hash": "7faa148483b89c44bbb484cfd5ae9dde98aaf3a3",
+      "date": "2026-06-22T17:46:29-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(about): drop misleading stats row, fix upstream contributors credit",
+      "articles": []
+    },
+    {
+      "hash": "89cd186f3f38ecb00f46f234ed0f434390484f58",
+      "date": "2026-06-22T16:28:46-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(nav): remove Enterprise Map from Data dropdown",
+      "articles": []
+    },
+    {
+      "hash": "c2763279b172fb71ee02caddfb2f6d3620edf99a",
+      "date": "2026-06-22T16:28:39-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(contribute): drop language-toggle card, fix npm link and stale discussion links",
+      "articles": []
+    },
+    {
+      "hash": "08cb9e3bac5adf8077a8d0e5da2d76fb7aca5880",
+      "date": "2026-06-22T16:28:32-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(semiont): unpublish /semiont/diary, drop diary content from /semiont",
+      "articles": []
+    },
+    {
+      "hash": "79f3d43a5fbf8ffdac113d92ff6b84f980e439eb",
+      "date": "2026-06-22T16:28:24-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(changelog): scope /changelog to this fork's own commits",
+      "articles": []
+    },
+    {
+      "hash": "beb8ed91dfceb97b01dcd9acaf87ac031c8ca383",
+      "date": "2026-06-22T16:28:15-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(layout): default lang to en, not zh-TW",
+      "articles": []
+    },
     {
       "hash": "96f394e4535c332719d579b1e97cb7842c218fc0",
       "date": "2026-06-22T15:39:19-07:00",

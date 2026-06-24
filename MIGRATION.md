@@ -130,6 +130,38 @@ In Phase 3, agents were spawned without specifying the model, causing them to us
 **WRONG:** `Agent({ prompt: "...", model: "opus" })` — may resolve to a different Opus version.
 **RIGHT:** Verify which model the main session uses and ensure agents match exactly. If the session is Opus 4.6 (1M context), agents must also run Opus 4.6 (1M context).
 
+### Rule 12: Never fabricate a fact. Verify every number, date, and name against SSOT.
+
+A later session rewriting `public/llms.txt` invented "1887 incorporation" for Laguna Beach. The real year is 1927 (`knowledge/History/founding-and-early-history.md`). It also wrote "Incorporated: 1927" four lines later in the same file — fabrication produces internal contradictions. A separate pre-existing error (`visualization-catalog.md` said 1941) survived because nobody cross-checked it.
+
+**Second `llms.txt` fabrication (caught 2026-06-24 review, fixed):** the rewrite stated the 1993 Firestorm destroyed "366 homes". SSOT says **441** (`knowledge/History/the-1993-firestorm.md:18`, `visualization-catalog.md:42,55`); 366 appeared nowhere else in the repo. Fixed to 441. Same file, same failure mode as 1887 — DO cross-check every number in `llms.txt` against `knowledge/`, not just the famous one.
+
+**Unsourced stat still in `llms.txt` (flagged, not yet resolved):** "Population: ~23,000 (2020 census)" has no source in `knowledge/` (only the 1927 figure ~1,600 exists). Plausibly correct, but per Rule 12 it must be sourced into `knowledge/` or dropped — do not leave a precise-looking unsourced census claim in a public AI-crawler file.
+
+Every factual claim you write — a year, a population, a count, a person's name, an award, a statistic — must be traceable to a source BEFORE you write it. The source for LB facts is `knowledge/` (the SSOT). The source for "how many files / how many refs" is the actual `grep`/`ls` output, not memory.
+
+**WRONG:** "Laguna Beach was incorporated in 1887." (plausible-sounding, never verified, wrong)
+**WRONG:** Fill a content gap with a number that "feels right" to make prose flow.
+**RIGHT:** `grep -rin "incorporat" knowledge/` → find `1927` → write `1927`. If `knowledge/` has no answer, write nothing and flag the gap; do NOT invent one.
+
+**Test:** For every concrete claim, can you name the file and line it came from? If not, it is fabrication — delete it or go verify it.
+
+**When you find an SSOT contradiction** (two `knowledge/` files disagree, like 1927 vs 1941): stop, determine the true value, fix BOTH, and tell the user. Don't silently pick one.
+
+### Rule 13: Build delete/rewrite lists by grep, not by guessing. Include every variant.
+
+A later session's Phase 4.5 list named `src/pages/taiwan-shape.astro` but missed its five locale copies (`en/es/ja/ko/fr/taiwan-shape.astro`); named `bench.template.astro` but not its page-wrapper `src/pages/bench.astro`; claimed `contribute.template.astro` had "40+ Taiwan refs" when it had 0 (already cleaned) and double-listed `contribute.ts`. Acting on that list as written would orphan wrappers, break builds, and waste effort on already-done files.
+
+Before adding ANY file to a cleanup checklist:
+
+1. **Find all locale variants by `ls`, never by assumption.** A page at `src/pages/X.astro` usually has locale copies at `src/pages/{lang}/X.astro` — but coverage is NOT uniform: `taiwan-shape`/`opendata`/`soundscape`/`terminology` have 5 locales (en/es/fr/ja/ko), while `bench`/`elections` have only 3 (en/ja/ko), and `companies`/`feedback-uxtest`/`lifetree` have none. Run `ls src/pages/*/X.astro` and `ls src/pages/*/<subdir>/X.astro` for nested pages. List every file the `ls` returns, or none. Do NOT pattern-match a locale set from another page.
+2. **Find the page-wrapper ↔ template pair.** `src/templates/X.template.astro` is rendered by a thin `src/pages/X.astro` (or `src/pages/X/index.astro`) wrapper. Deleting one without the other breaks the build. List both.
+3. **Verify ref counts with `grep -ic`, never estimate.** Write the actual number. If it's 0, the file is already done — don't list it.
+4. **No double-listing.** If `contribute.ts` appears in the i18n section, it must not also ride along on a template line.
+5. **Distinguish stale content from intentional upstream credit.** `about.template.astro` keeps a deliberate "Taiwan.md Contributors (Upstream)" attribution block (commit `7faa14848`). A raw `grep` hit is not automatically something to remove — read the context.
+
+**Test:** Run `grep -rilZ "台灣\|taiwan" src/pages src/templates | tr '\0' '\n' | sort` and reconcile EVERY hit against the checklist. A hit that's on neither the list nor a documented keep-list is an omission.
+
 ---
 
 ## Core Architecture
@@ -258,12 +290,104 @@ These files contain hardcoded category arrays that MUST match the 8 LB categorie
 - About page: "Why LagunaBeach.md?" (i18n updated)
 - Explore page: "Explore LagunaBeach.md" branding
 
-Remaining known stale content (not blocking, documented for Phase 5+):
+Remaining known stale content (tracked in Phase 4.5):
 
 - `/about` team/timeline/origin story still has Taiwan.md narrative
-- `/data`, `/soundscape`, `/contribute`, `/mcp`, `/resources` pages still have Taiwan content
 - Footer category links still reference Taiwan's 12 categories
 - These pages need full content rewrites with LB-specific material, not mechanical substitution
+
+### Phase 4.5: Stale Taiwan Content Cleanup ⬜ IN PROGRESS
+
+> Every path below verified to exist (`ls`) on 2026-06-23; ref counts are `grep -ic "台灣\|taiwan"` on the named file at that time. Re-verify before actioning (files change). Per Rule 13: when deleting a page, delete its locale variants AND its page-wrapper/template pair together.
+
+> **Before any deletion, run `grep -rln "<basename>" src/ scripts/ astro.config.mjs` (Rule 6) — several items have surviving importers and MUST be sequenced or the build breaks. Known dependencies as of 2026-06-23:**
+>
+> - **`category-hub` rewrite must come BEFORE deleting `taiex-yearly`/`taiwan-cpi`/`taiwan-housing`/`taiwan-salary.json`** — `category-hub.template.astro` imports all four. Delete the JSONs only after the rewrite drops the imports.
+> - **opendata is a 3-part chain**: `opendata.template.astro` → `src/data/opendata-content.ts` → `src/data/opendata-curation.json`. Delete all three together. (`scripts/tools/twinkle-hub-crawl.py` also references the JSON — it's a generator script, handle separately.)
+> - **terminology is wired into lang-switch infra**: `src/utils/getLangSwitchPath.ts:254` lists `'terminology'` — remove that entry when deleting the pages. (`Header.astro`'s terminology mention is only a comment — safe.)
+> - **`data/NML|NMTH-overseas|TFT|PanSci` dirs are NOT in the npm build chain** (only standalone `scripts/tools/*.py` fetch/report scripts reference them) — deleting them won't break `npm run build`. Lower urgency; can defer.
+
+Public-facing files actively misidentifying the site (HIGH priority):
+
+- [x] `public/robots.txt` — Taiwan sovereignty narrative + `taiwan.md` sitemap URL
+- [x] `public/llms.txt` — entire file was Taiwan knowledge guide for LLM crawlers
+- [x] `public/google-site-verification.txt` — domain references
+
+Entire pages that are 100% Taiwan-specific (need delete or full rewrite). Delete ALL locale variants + the page-wrapper/template pair together:
+
+- [x] `taiwan-shape` cartography page — **6 page files**: `src/pages/taiwan-shape.astro` + `src/pages/{en,es,ja,ko,fr}/taiwan-shape.astro`, plus template `src/templates/taiwan-shape.template.astro` + `src/i18n/taiwanShape.ts`
+- [x] `projects` civic-tech page (g0v, night market app) — `src/pages/projects.astro` + locale `src/pages/en/projects.astro`
+- [x] `companies` top-50 bubble chart — `src/pages/companies.astro`
+- [x] `bench` Sovereignty-Bench-TW — DELETED (pages + locales + template + i18n keys in ui.ts)
+- [x] `elections-2026` — `src/pages/elections/2026/index.astro` + locales + template
+- [x] `opendata` — 6 page files + template + `src/data/opendata-content.ts` + `opendata-curation.json`
+- [x] `soundscape` — 6 page files + template + `src/data/soundscape-data.ts`
+- [x] `terminology` — 8 page files + removed from `getLangSwitchPath.ts`
+- [x] `lifetree` — both page files + removed lifetree CTA from article.template.astro
+- [x] `src/pages/semiont/speciation.astro` — deleted + removed speciation section from semiont-landing.template.astro
+- [x] `src/pages/feedback-uxtest.astro` — deleted
+
+Template pages with deep Taiwan content (need substantial rewrite):
+
+- [~] `src/templates/category-hub.template.astro` — TAIEX import removed (unblocking JSON deletion); food-universe section (~200 lines, zh-TW only) remains (60 refs, all in food viz `<script>` data)
+- [ ] `src/templates/data.template.astro` — Taiwan data visualizations
+- [ ] `src/templates/resources.template.astro` — Taiwan resources
+- [ ] `src/templates/assets.template.astro` — Taiwan SVG/asset descriptions (12 refs); pairs with `src/i18n/assets.ts`
+- [ ] `src/pages/en/graph.astro` — knowledge-graph page still has `🇹🇼 Taiwan.md` as center node (10 refs). NOTE: Phase 3's "graph re-centered to LagunaBeach.md" was the map-view graph; this standalone page was missed.
+- [ ] `src/templates/about.template.astro` — `/about` timeline/origin still Taiwan (6 refs). PARTIALLY done: the "Taiwan.md Contributors (Upstream)" block (~line 352) is INTENTIONAL upstream credit (commit `7faa14848`) — keep it; fix only the stale narrative/timeline.
+- [ ] `mcp` page — `src/pages/mcp.astro` + `src/templates/mcp.template.astro`
+- [ ] `src/templates/map.template.astro` — two leftovers (page is now Leaflet, renders fine): line ~62 hero `bgGradient` still uses Taiwan-green `#14532d` (Phase 2 claimed full ocean-blue swap); line ~11 comment references "22-county layer — counties-22 data, d3/topojson Taiwan SVG" (stale, the SVG/county layer is gone).
+
+Taiwan data files to remove:
+
+- [x] `src/data/taiex-yearly.json` — Taiwan stock index
+- [x] `src/data/taiwan-cpi.json` — Taiwan CPI
+- [x] `src/data/taiwan-housing.json` — Taiwan housing data
+- [x] `src/data/taiwan-salary.json` — Taiwan salary data
+- [x] `src/data/taiwan-geocode.json` — Taiwan geocode (LB version already exists)
+- [x] `src/data/opendata-curation.json` — deleted with opendata chain
+
+Taiwan data directories to remove:
+
+- [ ] `data/history-roadmap.md` — Taiwan National History Museum roadmap
+- [ ] `data/NML/` — Taiwan art archive "No Man's Land"
+- [ ] `data/NMTH-overseas/` — Taiwan National Museum of History
+- [ ] `data/TFT/` — Teach for Taiwan
+- [ ] `data/PanSci/` — Taiwan science media
+- [ ] `data/terminology/` — Taiwan/China word detection lists
+- [ ] `data/ilhaformosa/` — Portuguese-era Taiwan reference
+
+i18n files needing rewrite:
+
+- [ ] `src/i18n/map.ts` — **832 refs (biggest single-file gap)**. Live: imported by `ui.ts` → `mapUI`. Currently DEAD-but-shipped: `map.template.astro` uses Leaflet + hardcoded English and never calls `t('map.*')`, so these strings ("Taiwan Knowledge Map", night-market/22-county route descriptions) ship in the ui bundle but don't render. Phase 3's "Map routes: Taiwan routes removed" covered the rendered routes, NOT these i18n strings. Rewrite or delete the dead keys.
+- [ ] `src/i18n/resources.ts` — 95 refs. No importer found by `grep -rIn "i18n/resources" src/` — likely fully dead; verify, then delete or rewrite. (Only `resources.template.astro`'s 3 refs were previously listed; this file was missed.)
+- [ ] `src/i18n/about.ts` — 6 refs. Pairs with `about.template.astro`.
+- [ ] `src/i18n/ui.ts` — 13 refs remaining (bench keys removed; residual Taiwan strings remain).
+- [ ] `src/i18n/assets.ts` — Taiwan SVG outline descriptions (46 refs)
+- [ ] `src/i18n/contribute.ts` (zh-TW strings) — "台灣" where content should be LB (32 refs). Note: `contribute.template.astro` itself is already clean (0 refs, fixed in commits `19c077559` / `c2763279b`) — do not re-list it.
+- [x] `src/i18n/explore.ts` (zh-TW strings) — meta, search placeholder, hot searches, categories subtitle all updated
+- [~] `src/i18n/home.ts` (zh-TW strings) — cover quotes, random, categories, features, meta, newsletter, contribute, reading path, bridges all updated. Remaining: `home.template.astro` zh-TW Hall narrative prose (~18 refs in template itself, need content rewrite). 14 refs remain in `home.ts` itself.
+
+> Pattern: Phase 2 localized only English i18n strings. The zh-TW values in `explore.ts`, `contribute.ts`, `home.ts` (and likely others) still carry Taiwan content. Sweep all of `src/i18n/*.ts` for `台灣`/`台北` in zh-TW blocks before declaring i18n done. Verified-current ref counts (`grep -ic "台灣\|台北\|taiwan"`, 2026-06-24): `map.ts` 832, `resources.ts` 95, `assets.ts` 46, `contribute.ts` 32, `home.ts` 14, `ui.ts` 13, `about.ts` 6.
+
+### Sovereignty-framing purge (Taiwan geopolitical lens — NOT applicable to LB)
+
+Per CLAUDE.md, the sovereignty / PRC-censorship-bypass lens is explicitly dropped for LB (no equivalent dynamic for a SoCal beach town). Remove it everywhere it's live, but do NOT touch files that already disclaim it.
+
+- [x] `ROADMAP.md` — DELETED (was 100% Taiwan sovereignty doctrine)
+- [x] bench page set + i18n + route — deleted (see above)
+- [x] Organism-diagram "sovereignty loop" naming — RENAMED `sovereign` → `visibility` across all 4 files (i18n keys, CSS classes, comments). `grep -in sovereign` returns 0 on all target files. Build passes.
+- [x] `src/scripts/dashboard-client.js:612` — comment updated ("sovereignty preservation" → "multilingual visibility")
+
+**VERIFIED CLEAN — do NOT "fix" these (they mention sovereignty only to explicitly DISCLAIM it; Rule 13.5):** `docs/semiont/MANIFESTO.en.md`, `docs/semiont/DNA.en.md`, `docs/semiont/LONGINGS.en.md`. These are correct re-grounding. A raw `grep "sovereign"` hit here is intentional, not a target.
+
+Low priority / cosmetic:
+
+- [ ] `src/templates/latest.template.astro` — single stale comment ("come discover Taiwan" reader)
+- [ ] `CONTRIBUTING.md` — still references Taiwan.md workflow
+- [ ] `.github/pull_request_template.md` — minor Taiwan.md references
+- [ ] `src/components/home/CommunityFeedback.astro` — Korean user quote about Taiwan
+- [ ] `public/images/wiki/url-mapping.txt` — Taiwan Wikipedia image mappings
 
 ### Phase 4: Shadow Translation ✅ COMPLETE
 

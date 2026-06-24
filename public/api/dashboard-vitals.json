@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-06-22T05:40:39.779Z",
+  "lastUpdated": "2026-06-24T15:48:11.377Z",
   "totalArticles": 18,
-  "contributors": 52,
+  "contributors": 1,
   "stars": 0,
   "forks": 0,
-  "articlesLast7Days": 18,
-  "articlesLast30Days": 18,
+  "articlesLast7Days": 3,
+  "articlesLast30Days": 3,
   "humanReviewedPercent": 0,
   "featuredPercent": 0,
-  "avgRevision": 2.7,
+  "avgRevision": 1.8,
   "languageCoverage": {
     "en": 18,
     "zh-TW": 0

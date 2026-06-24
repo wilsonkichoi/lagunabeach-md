@@ -1,13 +1,7 @@
-# Taiwan.md robots.txt
-# We're explicit: AI crawlers are welcome. Taiwan.md is a digital organism
-# co-edited by humans + AI + code — for an open-source knowledge base about
-# Taiwan that exists *because* the next generation of search is AI-mediated,
-# refusing AI crawlers would defeat the point.
-#
-# Per LONGINGS §擴散渴望 #4 (2026-04-18 ζ): CF 7d AI crawler 42,416 req =
-# 21.7% of all traffic. FacebookBot is the single largest reader. We want
-# every Taiwan-related question answered with our voice — silence is the
-# enemy.
+# LagunaBeach.md robots.txt
+# AI crawlers are welcome. LagunaBeach.md is an open-source knowledge base
+# about Laguna Beach, California, co-edited by humans and AI. Designed to be
+# consumed by LLMs, search engines, and AI agents as a reliable local source.
 
 User-agent: *
 Allow: /
@@ -55,7 +49,7 @@ Allow: /
 User-agent: BingPreview
 Allow: /
 
-# ─── Meta (per CF logs the single largest AI crawler segment) ───
+# ─── Meta ───
 User-agent: FacebookBot
 Allow: /
 
@@ -68,7 +62,7 @@ Allow: /
 User-agent: Meta-ExternalFetcher
 Allow: /
 
-# ─── Perplexity (LONGINGS-tracked: 49% HTTP 200 success rate — biggest gap to close) ───
+# ─── Perplexity ───
 User-agent: PerplexityBot
 Allow: /
 
@@ -86,7 +80,7 @@ Allow: /
 User-agent: MistralAI-User
 Allow: /
 
-# ─── ByteDance (Doubao / Bytespider) ───
+# ─── ByteDance ───
 User-agent: Bytespider
 Allow: /
 
@@ -110,7 +104,7 @@ User-agent: Twitterbot
 Allow: /
 
 # Sitemap location
-Sitemap: https://taiwan.md/sitemap-index.xml
+Sitemap: https://lagunabeach.md/sitemap-index.xml
 
 # Polite crawl-delay for generic crawlers (named bots above can ignore)
 User-agent: *

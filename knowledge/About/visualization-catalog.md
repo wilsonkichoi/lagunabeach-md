@@ -50,7 +50,7 @@ Vertical timeline for chronological sequences. Each entry has a date, event, and
 1876 | First homesteaders arrive in Laguna Canyon
 1918 | Art Association founded by Anna Hills and colleagues
 1932 | First Festival of Arts (later becomes Pageant of the Masters)
-1941 | Laguna Beach incorporated as a city
+1927 | Laguna Beach incorporated as a city
 1971 | Laguna Greenbelt established to protect surrounding hills
 1993 | Firestorm destroys 441 homes in 2 hours
 2012 | Crystal Cove cottages restored as historic district

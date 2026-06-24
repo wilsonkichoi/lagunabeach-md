@@ -81,26 +81,28 @@ export const exploreUI = {
     'explore.cta.github': 'View on GitHub',
   },
   'zh-TW': {
-    'explore.meta.title': '探索 LagunaBeach.md — 瀏覽開放的台灣知識庫',
+    'explore.meta.title': '探索 LagunaBeach.md — 瀏覽拉古納海灘知識庫',
     'explore.meta.description':
-      '瀏覽 685+ 篇台灣策展文章：歷史、地理、文化、美食、藝術、音樂、科技、自然、人物、社會、經濟、生活。搜尋、發現、探索。',
+      '瀏覽拉古納海灘策展文章：歷史、藝術、自然、美食、海灘、步道、活動、社區。搜尋、發現、探索。',
 
     'explore.hero.eyebrow': '知識庫',
     'explore.hero.title': '探索 LagunaBeach.md',
-    'explore.hero.subtitle': '策展島嶼的深度敘事 — 搜尋、發現、依分類瀏覽。',
+    'explore.hero.subtitle':
+      '策展海岸城市的深度敘事 — 搜尋、發現、依分類瀏覽。',
 
     'explore.search.heading': '搜尋資料庫',
-    'explore.search.placeholder': '搜尋台灣的一切（人、地、文化、事件）',
+    'explore.search.placeholder':
+      '搜尋拉古納海灘的一切（地點、藝術、自然、歷史）',
     'explore.search.button': '搜尋',
     'explore.search.random': '隨機探索',
     'explore.search.randomSubtitle': '擲一把骰子 — 遇見一個你沒想到的故事',
     'explore.hotSearches.label': '熱門搜尋',
-    'explore.hotSearches.term1': '半導體',
-    'explore.hotSearches.term2': '夜市',
-    'explore.hotSearches.term3': '原住民',
-    'explore.hotSearches.term4': '二二八',
-    'explore.hotSearches.term5': '台積電',
-    'explore.hotSearches.term6': '珍珠奶茶',
+    'explore.hotSearches.term1': '潮池',
+    'explore.hotSearches.term2': '戶外寫生',
+    'explore.hotSearches.term3': '千階海灘',
+    'explore.hotSearches.term4': '1993 大火',
+    'explore.hotSearches.term5': '藝術大師選美',
+    'explore.hotSearches.term6': '鯨魚',
 
     'explore.stats.articles': '篇文章',
     'explore.stats.contributors': '位貢獻者',
@@ -108,7 +110,7 @@ export const exploreUI = {
     'explore.stats.last30d': '近 30 天更新',
 
     'explore.categories.heading': '依分類瀏覽',
-    'explore.categories.subtitle': '十二個領域，每個都是這座島嶼的一個切面。',
+    'explore.categories.subtitle': '八個領域，每個都是這座海岸城市的一個切面。',
 
     'explore.featured.heading': '深度精選',
     'explore.featured.subtitle':

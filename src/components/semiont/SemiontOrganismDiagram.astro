@@ -4,7 +4,7 @@
  *
  * v2 rewrite (2026-05-25): full element coverage matching the AIA showcase
  * deck slide 11 source diagram. Includes:
- *  - sovereignty reverse loop (LagunaBeach.md → LLM platforms → public corpus → ingest)
+ *  - visibility loop (LagunaBeach.md → LLM platforms → public corpus → ingest)
  *  - 3 feedback loops (crowd correction / GA traffic / collective reflection)
  *  - core-ops governance lane (SSODT → GitHub → evolution → review)
  *  - real Laguna Beach municipal-boundary shape (OSM relation via Nominatim,
@@ -14,7 +14,7 @@
  *   mint #38bdf8       — writing pipeline (solid)
  *   terracotta #d4856a — DNA evolution feedback (dashed)
  *   periwinkle #7aa8d4 — multilingual diffusion (solid)
- *   gold #c9a96a       — sovereignty reverse loop (long-dashed)
+ *   gold #c9a96a       — visibility loop (long-dashed)
  */
 import { getLangFromUrl, useTranslations } from '../../i18n/utils';
 
@@ -63,8 +63,8 @@ const LAGUNA_PATH =
           }
         </li>
         <li>
-          <span class="dot dot-sovereign"></span>{
-            t('semiont.diagram.legend.sovereign')
+          <span class="dot dot-visibility"></span>{
+            t('semiont.diagram.legend.visibility')
           }
         </li>
       </ul>
@@ -456,7 +456,7 @@ const LAGUNA_PATH =
           ></path>
 
           {
-            /* Sovereignty reverse loop (gold, long-dashed):
+            /* Visibility loop (gold, long-dashed):
               N9 LagunaBeach.md → N1 LLM bubble → N3 cloud → back to N6 writing source. */
           }
           <path id="pipe-sov-9-1" d="M 1040,420 C 900,260 600,170 460,180"
@@ -487,8 +487,8 @@ const LAGUNA_PATH =
             ════════════════════════════════════════════════════════════════ */
         }
 
-        {/* Sovereignty reverse loop (drawn first as background context) */}
-        <g class="flow-sovereign" stroke="#c9a96a" fill="none">
+        {/* Visibility loop (drawn first as background context) */}
+        <g class="flow-visibility" stroke="#c9a96a" fill="none">
           <use
             href="#pipe-sov-9-1"
             stroke-width="2"
@@ -504,7 +504,7 @@ const LAGUNA_PATH =
         </g>
 
         {
-          /* Sovereignty narrative callout — consolidated explanation block
+          /* Visibility loop callout — consolidated explanation block
             for the gold reverse-loop. One clear box instead of scattered labels. */
         }
         <g transform="translate(740, 75)" class="sov-callout">
@@ -882,7 +882,7 @@ const LAGUNA_PATH =
             ))
           }
 
-          {/* Sovereignty reverse loop particles (gold) */}
+          {/* Visibility loop particles (gold) */}
           {
             [
               { pipe: '#pipe-sov-9-1', dur: '8s', delay: '0s' },
@@ -1619,7 +1619,7 @@ const LAGUNA_PATH =
     background: #7aa8d4;
     box-shadow: 0 0 6px rgba(122, 168, 212, 0.7);
   }
-  .dot-sovereign {
+  .dot-visibility {
     background: #c9a96a;
     box-shadow: 0 0 6px rgba(201, 169, 106, 0.7);
   }

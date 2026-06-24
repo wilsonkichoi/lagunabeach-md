@@ -138,7 +138,7 @@ export const homeUI = {
     'home.organism.legend.write': 'Writing',
     'home.organism.legend.feedback': 'DNA evolution',
     'home.organism.legend.diffuse': 'Multilingual diffusion',
-    'home.organism.legend.sovereign': 'AI & search visibility loop',
+    'home.organism.legend.visibility': 'AI & search visibility loop',
     // ── OrganismHeartbeat strip (C1) ──
     'home.heartbeat.organsLabel': 'Current organ scores',
     'home.heartbeat.vitalsLabel': 'Vitals',
@@ -193,69 +193,69 @@ export const homeUI = {
     'home.cover.quote.1946': '「台灣人的悲哀，在於不知道自己是誰。」',
     'home.cover.cite.1946': '— 吳濁流《亞細亞的孤兒》',
     'home.cover.quote.2013':
-      '「看見台灣，你會發現，這片土地比你想像的更美麗，也比你想像的更脆弱。」',
-    'home.cover.cite.2013': '— 齊柏林《看見台灣》',
+      '「看見拉古納海灘，你會發現，這片海岸比你想像的更美麗，也比你想像的更脆弱。」',
+    'home.cover.cite.2013': '— 拉古納海灘藝術家殖民地精神',
     'home.cover.quote.contemporary': '「海浪的記憶比人長。」',
-    'home.cover.cite.contemporary':
-      '— 夏曼·藍波安《天空的眼睛》，達悟族海洋文學',
-    // ── A3 sovereignty quote (Wave 3) ──
-    // 第 8 條 quote — LagunaBeach.md 自己的視角接進歷史 timeline，呼應 §主權的巴別塔
+    'home.cover.cite.contemporary': '— 太平洋海岸，自 1927 年建市以來',
+    // ── A3 project quote (Wave 3) ──
     'home.cover.era.taiwanmd': '2026 — LagunaBeach.md',
     'home.cover.quote.taiwanmd':
-      '「島嶼值得用每個語言被自己的聲音說一次 — 包括某些 AI 模型選擇沉默的那些主題。」',
+      '「一座小城值得用深度與脈絡被記錄一次 — 不只是旅遊指南上的一行字。」',
     'home.cover.cite.taiwanmd':
-      '— LagunaBeach.md，人類 + AI + 程式碼共生的會呼吸數位生命體',
-    'home.random.button': '隨機發現台灣',
+      '— LagunaBeach.md，人類 + AI + 程式碼共生的開源知識庫',
+    'home.random.button': '隨機探索',
     'home.random.subtitle': '探索意想不到的故事',
-    'home.random.description': '不知道該看什麼？讓我們帶你發現台灣的隱藏寶藏！',
-    'home.categories.heading': '認識台灣',
-    'home.categories.divider': '12 大主題',
-    'home.lang.heading': '🖊️ 為什麼用繁體中文？',
+    'home.random.description':
+      '不知道該看什麼？讓我們帶你發現拉古納海灘的隱藏寶藏！',
+    'home.categories.heading': '認識拉古納海灘',
+    'home.categories.divider': '8 大主題',
+    'home.lang.heading': '🖊️ 為什麼有中文版？',
     'home.lang.p1':
-      'LagunaBeach.md 選擇以<strong>繁體中文</strong>作為預設語言，這不只是技術決定——這是一種文化宣言。',
+      'LagunaBeach.md 以<strong>英文</strong>為預設語言，同時提供繁體中文版本，服務華語讀者。',
     'home.lang.p2':
-      '繁體中文是世界上仍在日常使用的最古老書寫系統之一，而台灣是全球唯一以繁體中文作為官方文字的主要國家。每一個筆畫都承載著千年的文化記憶。當你打開這個網站看到漢字，你正在閱讀的不只是文字，而是一個活著的文化遺產。',
-    'home.lang.p3.prefix': '我們同時提供',
+      '拉古納海灘是加州的藝術小城，這裡的故事值得用多種語言被世界看見。繁體中文版幫助華語社群深入了解這座七英里海岸線上的文化與自然。',
+    'home.lang.p3.prefix': '預設語言為',
     'home.lang.p3.linkText': '英文版本',
-    'home.lang.p3.suffix':
-      '，但堅持讓繁體中文站在前面。 AI 看得懂，搜尋引擎看得懂，而你——如果看不懂也沒關係——這份美麗本身就值得被看見。',
+    'home.lang.p3.suffix': '，繁體中文為輔助語言。',
     'home.lang.en':
-      "LagunaBeach.md is written in Traditional Chinese by default — the world's oldest writing system still in daily use, and it represents cultural heritage. We offer an English version too, but we believe our language deserves to stand front and center. Even if you can't read it, its beauty speaks for itself.",
+      'LagunaBeach.md is written in English by default, with Traditional Chinese as a secondary language for Chinese-speaking readers interested in Laguna Beach.',
     'home.updates.heading': '網站即時更新',
     'home.updates.subtitle':
       'LagunaBeach.md 持續成長中 — 最近的內容更新與網站改進',
     'home.updates.viewAll': '查看完整更新紀錄 →',
     'home.newsletter.heading': '📬 訂閱 LagunaBeach.md 週報',
-    'home.newsletter.description': '每週精選台灣知識，直送信箱。',
+    'home.newsletter.description': '每週精選拉古納海灘知識，直送信箱。',
     'home.newsletter.submit': '訂閱',
     'home.newsletter.success': '感謝訂閱！',
     'home.newsletter.note': '不追蹤、可隨時取消',
     'home.contribute.heading': '加入我們',
     'home.contribute.description':
-      'LagunaBeach.md 是社群驅動的開源專案。無論您是台灣本地人還是對台灣感興趣的國際朋友，都歡迎貢獻您的知識與觀點。',
+      'LagunaBeach.md 是社群驅動的開源專案。無論您是拉古納海灘在地居民還是對這座城市感興趣的朋友，都歡迎貢獻您的知識與觀點。',
     'home.contribute.guide': '麻瓜貢獻指南',
     'home.contribute.github': 'GitHub 專案',
     'home.features.title': '為什麼需要 LagunaBeach.md？',
     'home.features.curated.title': '策展式觀點',
     'home.features.curated.desc': '精心策展的深度敘事，不是百科全書式羅列',
     'home.features.ai.title': 'AI-Friendly 設計',
-    'home.features.ai.desc': '結構化內容，讓AI也能理解台灣的複雜性',
+    'home.features.ai.desc': '結構化內容，讓 AI 也能理解拉古納海灘的豐富性',
     'home.features.bilingual.title': '雙語國際視野',
-    'home.features.bilingual.desc': '從在地觀點出發，用國際語言說台灣故事',
+    'home.features.bilingual.desc': '從在地觀點出發，用雙語說拉古納海灘的故事',
     'home.features.complete.title': '完整多面向',
-    'home.features.complete.desc': '涵蓋12+領域，呈現台灣的立體完整面貌',
+    'home.features.complete.desc':
+      '涵蓋 8 大領域，呈現拉古納海灘的立體完整面貌',
     'home.readingPath.title': '📖 不知道從哪開始？',
-    'home.readingPath.subtitle': '用這 5 篇文章，在 30 分鐘內認識真正的台灣',
+    'home.readingPath.subtitle':
+      '用這 5 篇文章，在 30 分鐘內認識真正的拉古納海灘',
     'home.readingPath.continue': '繼續探索更多主題 →',
     'home.readingPath.footer.totalLabel': '總計',
     'home.readingPath.footer.minutesUnit': '分鐘',
     'home.readingPath.footer.domainsLabel': '大領域',
-    'home.readingPath.footer.getToKnow': '完整認識台灣',
-    'home.meta.title': '開源台灣知識庫',
+    'home.readingPath.footer.getToKnow': '完整認識拉古納海灘',
+    'home.meta.title': '開源拉古納海灘知識庫',
     'home.meta.description':
-      '開源、AI-friendly 的台灣完整知識庫。750+ 頁深度內容涵蓋歷史、文化、美食、音樂、科技等 12 大主題，由社群共同編撰，讓全世界認識真正的台灣。',
+      '開源、AI-friendly 的拉古納海灘知識庫。深度內容涵蓋歷史、藝術、自然、美食、海灘、步道、活動、社區等 8 大主題，由社群共同編撰。',
     'home.miniGraph.heading': '🕸️ 知識圖譜',
-    'home.miniGraph.subtitle': '每篇文章都不是孤島——點擊探索台灣知識的連結網絡',
+    'home.miniGraph.subtitle': '每篇文章都不是孤島——點擊探索知識的連結網絡',
     'home.features.cta.graph': '🔗 知識圖譜 — 探索文章之間的連結',
     'home.features.cta.ssot': '📂 瀏覽 SSOT 原始資料 ↗',
     // ── ReaderDoors (B1, 2026-05-26 First Wave: homepage evolution wave 1) ──
@@ -275,14 +275,14 @@ export const homeUI = {
     'home.organism.legend.write': '寫作',
     'home.organism.legend.feedback': 'DNA 演化',
     'home.organism.legend.diffuse': '多語擴散',
-    'home.organism.legend.sovereign': 'AI 與搜尋曝光迴路',
+    'home.organism.legend.visibility': 'AI 與搜尋曝光迴路',
     // ── OrganismHeartbeat strip (C1) ──
     'home.heartbeat.organsLabel': '當前器官分數',
     'home.heartbeat.vitalsLabel': '生命徵象',
     'home.heartbeat.viewMore': '進入完整 dashboard →',
     // ── Hall bridges (A2, Wave 3) ──
-    'home.bridge.1to2': '這座島長成這樣 — 那是誰把它變成這樣的？',
+    'home.bridge.1to2': '這座海岸長成這樣 — 那是誰把它變成這樣的？',
     'home.bridge.2to3': '經歷過這些 — 那活在這裡的人正在做什麼？',
-    'home.bridge.3to4': '他們留下了這些 — 那這座島往哪裡去？',
+    'home.bridge.3to4': '他們留下了這些 — 那這座城市往哪裡去？',
   },
 } as const;

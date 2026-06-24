@@ -12,7 +12,6 @@ import { mapUI } from './map';
 import { assetsUI } from './assets';
 import { dashboardUI } from './dashboard';
 import { notFoundUI } from './notfound';
-import { taiwanShapeUI } from './taiwanShape';
 import { semiontUI } from './semiont';
 import { exploreUI } from './explore';
 import { latestUI } from './latest';
@@ -35,7 +34,6 @@ export const ui = {
     ...assetsUI.en,
     ...dashboardUI.en,
     ...notFoundUI.en,
-    ...taiwanShapeUI.en,
     ...semiontUI.en,
     ...exploreUI.en,
     ...latestUI.en,
@@ -55,11 +53,6 @@ export const ui = {
     'nav.explore': 'Explore',
     'nav.graph': 'Graph',
     'nav.graph-view': 'Knowledge Graph',
-    'nav.bench': 'Sovereignty Bench',
-    'nav.bench.subtitle': 'How LLMs speak about Laguna Beach',
-    'bench.meta.title': 'LLM Bench · How LLMs speak about Laguna Beach',
-    'bench.meta.description':
-      'Public, reproducible LLM benchmark measuring how AI models speak about Laguna Beach across languages.',
     'nav.map': 'Map',
     'nav.contribute': 'Contribute',
     'nav.resources': 'Resources',
@@ -229,7 +222,6 @@ export const ui = {
     ...assetsUI['zh-TW'],
     ...dashboardUI['zh-TW'],
     ...notFoundUI['zh-TW'],
-    ...taiwanShapeUI['zh-TW'],
     ...semiontUI['zh-TW'],
     ...exploreUI['zh-TW'],
     ...latestUI['zh-TW'],
@@ -249,11 +241,6 @@ export const ui = {
     'nav.explore': '探索 🕸️',
     'nav.graph': '圖譜',
     'nav.graph-view': '知識圖譜',
-    'nav.bench': '主權公測',
-    'nav.bench.subtitle': 'LLM 怎麼說台灣',
-    'bench.meta.title': 'Sovereignty-Bench-TW · 主權公測 / LLM 怎麼說台灣',
-    'bench.meta.description':
-      '公開、可重跑、可被學術引用的 LLM 評測。量測 AI 模型跨語言怎麼說台灣。v0.1 Phase 1 calibration shipped 2026-05-01。六軸 — 拒絕 / 改寫 / 事實 / 主權 / 文化粒度 / 引用率。',
     'nav.map': '地圖 📍',
     'nav.contribute': '參與 ✋',
     'nav.resources': '資源 🔗',

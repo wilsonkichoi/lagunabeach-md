@@ -122,7 +122,6 @@ const navConfig = [
   { path: '/explore', label: t('nav.explore') },
   { path: '/map', label: t('nav.map') },
   { path: '/data', label: t('nav.data') },
-  { path: '/soundscape', label: t('nav.soundscape') },
   { path: '/resources', label: t('nav.resources') },
   { path: '/semiont', label: t('nav.semiont') },
   { path: '/contribute', label: t('nav.contribute') },
@@ -149,14 +148,6 @@ const navConfig = [
       active ||
       currentPath.startsWith('/mcp') ||
       currentPath.startsWith(mcpPath);
-  }
-  // 2026-06-10: /opendata（OpenData 策展）lives under 數據 subnav.
-  if (item.path === '/data') {
-    const opendataPath = navHref('/opendata');
-    active =
-      active ||
-      currentPath.startsWith('/opendata') ||
-      currentPath.startsWith(opendataPath);
   }
   return {
     ...item,
@@ -344,12 +335,6 @@ const categoryList = [
                         >
                           {t('nav.data')}
                         </a>
-                        <a
-                          href={navHref('/opendata')}
-                          class="dropdown-item dropdown-section-header"
-                        >
-                          🗂️ {t('nav.data.curation')}
-                        </a>
                         <div class="dropdown-divider" />
                         <a
                           href={`${navHref('/data')}#global`}
@@ -362,12 +347,6 @@ const categoryList = [
                           class="dropdown-item"
                         >
                           📡 {t('nav.data.democracy')}
-                        </a>
-                        <a
-                          href={`${navHref('/data')}#opendata`}
-                          class="dropdown-item"
-                        >
-                          📊 {t('nav.data.opendata')}
                         </a>
                       </div>
                     </div>
@@ -636,17 +615,6 @@ const categoryList = [
                     </button>
                   )}
                 </div>
-                {item.path === '/data' && (
-                  <div class="mobile-sub-links open">
-                    <a
-                      href={navHref('/opendata')}
-                      class="nav-link nav-sub-link"
-                      onclick="document.querySelector('.nav-mobile').classList.remove('open')"
-                    >
-                      🗂️ {t('nav.data.curation')}
-                    </a>
-                  </div>
-                )}
                 {item.path === '/explore' && (
                   <div class="mobile-sub-links open">
                     <a

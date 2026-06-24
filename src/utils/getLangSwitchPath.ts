@@ -246,15 +246,11 @@ const NON_ARTICLE_PATHS = new Set([
   'contribute',
   'map',
   'data',
-  'soundscape',
   'resources',
   'dashboard',
   'changelog',
   'graph',
-  'terminology',
-  'taiwan-shape',
   'semiont',
-  'bench',
 ]);
 
 function isArticlePagePath(basePath: string): boolean {

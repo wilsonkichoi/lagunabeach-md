@@ -66,25 +66,12 @@ articles.forEach((a: any) => {
 });
 const uniqueTags = [...allTagsSet].sort().slice(0, 12) as string[];
 
-// Load economic data for economy category
+// Economy data loading removed — LB has no economy category; Taiwan economic JSONs deleted.
+// Upstream had: taiex-yearly, taiwan-cpi, taiwan-salary, taiwan-housing imports here.
 let taiexData: any[] = [];
 let cpiData: any[] = [];
 let salaryData: any[] = [];
 let housingData: any[] = [];
-// Economy dashboard 只在 zh-TW 顯示（Economy 系列數據是 zh-only feature；
-// 其他 lang 沒對應翻譯資料源）。其他 lang 看到一般 hub markdown。
-if (category === 'economy' && lang === 'zh-TW') {
-  const [taiexJson, cpiJson, salaryJson, housingJson] = await Promise.all([
-    import('../data/taiex-yearly.json'),
-    import('../data/taiwan-cpi.json'),
-    import('../data/taiwan-salary.json'),
-    import('../data/taiwan-housing.json'),
-  ]);
-  taiexData = taiexJson.data;
-  cpiData = cpiJson.data;
-  salaryData = salaryJson.data;
-  housingData = housingJson.data;
-}
 
 function resolveWikilinks(md: string, currentCategory: string) {
   if (!md) return md;

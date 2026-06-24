@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-22T05:40:40.642Z",
+  "lastUpdated": "2026-06-24T15:48:12.176Z",
   "generator": "scripts/core/generate-dashboard-alerts.mjs",
   "note": "derived 警報層 — CONSCIOUSNESS §警報 的機械接管 (audit 2026-06-10 A-3)",
-  "count": 4,
+  "count": 5,
   "alerts": [
     {
       "id": "organ-immune",
@@ -21,6 +21,12 @@
       "severity": "red",
       "message": "免疫 v3=37：🔴 危險 — 結構性免疫不足",
       "source": "dashboard-immune.json"
+    },
+    {
+      "id": "exp-overdue-EXP-2026-04-11-D",
+      "severity": "yellow",
+      "message": "UNKNOWNS EXP-2026-04-11-D 驗證日 2026-06-22 已過期未判定",
+      "source": "UNKNOWNS.md"
     },
     {
       "id": "memory-index-rows",

@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-22T05:40:39Z",
-  "max_total": 1872,
+  "generated": "2026-06-24T15:48:10Z",
+  "max_total": 1801,
   "modules": [
     {
       "name": "home",
@@ -16,8 +16,8 @@
     {
       "name": "about",
       "langs": {
-        "zh-TW": 184,
-        "en": 184,
+        "zh-TW": 181,
+        "en": 181,
         "ja": 0,
         "ko": 0,
         "fr": 0,
@@ -27,8 +27,8 @@
     {
       "name": "contribute",
       "langs": {
-        "zh-TW": 325,
-        "en": 325,
+        "zh-TW": 321,
+        "en": 321,
         "ja": 0,
         "ko": 0,
         "fr": 0,
@@ -115,8 +115,8 @@
     {
       "name": "taiwanShape",
       "langs": {
-        "zh-TW": 46,
-        "en": 46,
+        "zh-TW": 0,
+        "en": 0,
         "ja": 0,
         "ko": 0,
         "fr": 0,
@@ -126,8 +126,8 @@
     {
       "name": "semiont",
       "langs": {
-        "zh-TW": 122,
-        "en": 122,
+        "zh-TW": 104,
+        "en": 104,
         "ja": 0,
         "ko": 0,
         "fr": 0,
@@ -136,8 +136,8 @@
     }
   ],
   "lang_totals": {
-    "zh-TW": { "keys": 1872, "coverage_pct": 100.0 },
-    "en": { "keys": 1663, "coverage_pct": 88.84 },
+    "zh-TW": { "keys": 1801, "coverage_pct": 100.0 },
+    "en": { "keys": 1592, "coverage_pct": 88.4 },
     "ja": { "keys": 0, "coverage_pct": 0.0 },
     "ko": { "keys": 0, "coverage_pct": 0.0 },
     "fr": { "keys": 0, "coverage_pct": 0.0 },
