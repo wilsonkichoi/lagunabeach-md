@@ -8,7 +8,6 @@ import { dataUI } from './data';
 import { contributeUI } from './contribute';
 import { changelogUI } from './changelog';
 import { resourcesUI } from './resources';
-import { assetsUI } from './assets';
 import { dashboardUI } from './dashboard';
 import { notFoundUI } from './notfound';
 import { semiontUI } from './semiont';
@@ -29,7 +28,6 @@ export const ui = {
     ...contributeUI.en,
     ...changelogUI.en,
     ...resourcesUI.en,
-    ...assetsUI.en,
     ...dashboardUI.en,
     ...notFoundUI.en,
     ...semiontUI.en,
@@ -60,7 +58,6 @@ export const ui = {
     'nav.semiont.cognitive': 'Cognitive Layer 🧠',
     'nav.dashboard': 'Dashboard',
     'nav.soundscape': 'Sound',
-    'nav.assets': 'SVG Assets',
     'nav.projects': 'Projects',
     'nav.language-switch': 'Language',
     'nav.search-modal.input-placeholder': 'Search articles',
@@ -216,7 +213,6 @@ export const ui = {
     ...contributeUI['zh-TW'],
     ...changelogUI['zh-TW'],
     ...resourcesUI['zh-TW'],
-    ...assetsUI['zh-TW'],
     ...dashboardUI['zh-TW'],
     ...notFoundUI['zh-TW'],
     ...semiontUI['zh-TW'],
@@ -247,7 +243,6 @@ export const ui = {
     'nav.semiont.cognitive': '認知層 🧠',
     'nav.dashboard': '監測 🔬',
     'nav.soundscape': '聲景 🎧',
-    'nav.assets': 'SVG 素材',
     'nav.projects': '專案',
     'nav.language-switch': '語言 / Language',
     'nav.search-modal.input-placeholder': '搜尋文章',
