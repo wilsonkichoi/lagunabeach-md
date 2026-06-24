@@ -397,7 +397,7 @@ Low priority / cosmetic:
 - `docs/semiont/ROUTINE.en.md` (138 lines) - automation system guide: design principles, 5-stage lifecycle, 16-routine inventory, adoption roadmap for LB
 - Shadow-translation convention documented in BECOME_LAGUNABEACH.md §Shadow Translation Convention (rules, current inventory table)
 
-### Phase 5: Path B Preparation (Semiont Scaffolds) ⬜ NOT STARTED
+### Phase 5: Path B Preparation (Semiont Scaffolds) ⬜ IN PROGRESS
 
 Tasks:
 
@@ -406,8 +406,15 @@ Tasks:
 - [ ] Adapt `scripts/tools/article-health.py` for English content
 - [ ] Adapt `scripts/core/build-embeddings.mjs` for local RTX 4090 (bge-m3 works for English)
 - [ ] Create minimal `ROUTINE.md` (2-3 inactive routines documented)
-- [ ] Test upstream merge: `git fetch upstream && git merge upstream/main --no-commit` then abort
-- [ ] Verify `.gitattributes` protects correctly
+- [x] Test upstream merge: `git fetch upstream && git merge upstream/main --no-commit` then abort
+- [x] Verify `.gitattributes` protects correctly (merge.ours.driver=true confirmed; per-clone config required)
+
+> **Fork-integrity notes (Round 4, 2026-06-24):**
+>
+> - `merge.ours.driver=true` is per-clone config (not stored in repo). Any fresh clone must run `git config merge.ours.driver true` before merging upstream.
+> - Root-level protected files (CLAUDE.md, README.md, CONTRIBUTING.md): merge=ours works perfectly, 0 incoming changes.
+> - `knowledge/**` limitation: merge=ours cannot auto-resolve modify/delete conflicts (193 files upstream modified that we deleted) or block NEW files upstream adds (36 new Taiwan articles would land). Future merges need manual cleanup of these two categories.
+> - Upstream divergence at fetch (cadd10fad..244ced555): 1866 files changed, +41636/-15442 lines.
 
 ---
 
