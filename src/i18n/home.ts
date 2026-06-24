@@ -196,10 +196,10 @@ export const homeUI = {
     'home.cover.quote.contemporary': '「海浪的記憶比人長。」',
     'home.cover.cite.contemporary': '— 太平洋海岸，自 1927 年建市以來',
     // ── A3 project quote (Wave 3) ──
-    'home.cover.era.taiwanmd': '2026 — LagunaBeach.md',
-    'home.cover.quote.taiwanmd':
+    'home.cover.era.lagunabeachmd': '2026 — LagunaBeach.md',
+    'home.cover.quote.lagunabeachmd':
       '「一座小城值得用深度與脈絡被記錄一次 — 不只是旅遊指南上的一行字。」',
-    'home.cover.cite.taiwanmd':
+    'home.cover.cite.lagunabeachmd':
       '— LagunaBeach.md，人類 + AI + 程式碼共生的開源知識庫',
     'home.random.button': '隨機探索',
     'home.random.subtitle': '探索意想不到的故事',
