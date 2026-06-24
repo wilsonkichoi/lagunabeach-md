@@ -1,41 +1,41 @@
-## 📝 這個 PR 做了什麼？
+## What does this PR do?
 
-<!-- 簡短描述你的改動 -->
+<!-- Brief description of the change -->
 
-## 📁 變更類型
+## Change type
 
-- [ ] 📄 新增文章
-- [ ] ✏️ 修改/更新現有文章
-- [ ] 🌐 翻譯（中→英 / 英→中）
-- [ ] 🐛 修復錯誤（事實更正、錯字、連結失效）
-- [ ] 💻 技術改動（程式碼、樣式、設定）
-- [ ] 📚 文件更新（README、CONTRIBUTING 等）
+- [ ] New article
+- [ ] Edit/update existing article
+- [ ] Translation (en -> zh-TW or other lang)
+- [ ] Bug fix (factual correction, typo, broken link)
+- [ ] Technical change (code, styles, config)
+- [ ] Documentation update (README, CONTRIBUTING, etc.)
 
-## ✅ 自我檢查
+## Self-check
 
-- [ ] 文章有完整的 frontmatter（title, description, date, tags, category）
-- [ ] `category` 用英文 + 對齊路徑（canonical：About / Art / Culture / Economy / Food / Geography / History / Language / Lifestyle / Music / Nature / People / Society / Technology — 不要用 `Infrastructure` / `transportation` 這類非 canonical 名稱）
-- [ ] `author: 'Taiwan.md Contributors'`（不要寫 'Manus AI' / 'ChatGPT' / 'Claude' / 'Semiont' / 'Taiwan.md'）
-- [ ] `featured: false`（featured 由維護者統一管理，請勿設為 true）
-- [ ] **腳註用 canonical 格式**：`[^N]: [標題](URL) — 至少 10 字描述`（不要用 APA `Author. (date). Title. URL.` 或中文〈〉標點 — 維護者會跑 `bash scripts/tools/footnote-format-fix.sh --apply` 自動轉換，先按 canonical 格式寫可省一輪 polish）
-- [ ] 內容有附上可查證的參考資料來源（不要寫「可參考相關文獻」這類 vague 引用）
-- [ ] 沒有抄襲或版權問題
-- [ ] 在本地 build 測試通過（`npm run build`，非必要但建議）
+- [ ] Article has complete frontmatter (title, description, date, tags, category)
+- [ ] `category` is one of the 8 canonical slugs: `history`, `art-galleries`, `nature-marine-life`, `food`, `beaches`, `trails`, `events-festivals`, `neighborhoods`
+- [ ] `author: 'LagunaBeach.md Contributors'`
+- [ ] `featured: false` (featured is managed by maintainers)
+- [ ] Footnotes use canonical format: `[^N]: [Title](URL) - description`
+- [ ] Content has verifiable sources (no vague "see related literature" citations)
+- [ ] No plagiarism or copyright issues
+- [ ] Local build passes (`npm run build`, recommended but not required)
 
-## 🎨 如果動到樣式（非內容 PR 才需要）
+## If touching styles (non-content PRs only)
 
-- [ ] 沒有 hardcode 新的 hex color — 用 `var(--token)` 或 Tailwind 任意值（`bg-[#xxxxxx]`）
-- [ ] 優先 inline Tailwind 工具類；scoped `<style>` 只在重複 pattern、JS 狀態機、`:global()`、或 CSS 變數 state machine 時使用
-- [ ] 沒有新增 `@layer components`、`@apply`、或 `@theme` bridge —— Phase 7 刻意移除它們
-- [ ] 如果刪掉 class 的 markup，同一個 commit 也把對應 scoped rule 刪掉
-- [ ] 參考 [`docs/refactor/DESIGN.md`](../docs/refactor/DESIGN.md) 的 decision tree 確認策略
+- [ ] No hardcoded hex colors, use `var(--token)` or Tailwind arbitrary values (`bg-[#xxxxxx]`)
+- [ ] Prefer inline Tailwind utilities; scoped `<style>` only for repeated patterns, JS state machines, `:global()`, or CSS variable state machines
+- [ ] No new `@layer components`, `@apply`, or `@theme` bridge
+- [ ] If removing class markup, also remove the corresponding scoped rule in the same commit
+- [ ] Check [`docs/refactor/DESIGN.md`](../docs/refactor/DESIGN.md) decision tree
 
-## 🔗 相關 Issue
+## Related Issue
 
-<!-- 如果有相關 issue，請填入 #issue編號 -->
+<!-- If applicable, reference the issue number -->
 
 Closes #
 
-## 📸 截圖（如果是視覺改動）
+## Screenshots (if visual change)
 
-<!-- 可選：貼上前後對比截圖 -->
+<!-- Optional: before/after comparison -->
