@@ -329,7 +329,7 @@ Entire pages that are 100% Taiwan-specific (need delete or full rewrite). Delete
 
 Template pages with deep Taiwan content (need substantial rewrite):
 
-- [x] `src/templates/category-hub.template.astro` — TAIEX import removed; food-universe section DELETED (HTML + 596-line script + CSS). 4 residual refs: comments + dead economy chart labels.
+- [x] `src/templates/category-hub.template.astro` — TAIEX import removed; food-universe section DELETED (HTML + 596-line script + CSS). Economy-chart scaffolding fully removed (R3): data arrays, parser, render block, CSS, SVG script (-359 lines). 0 taiwan refs remain.
 - [x] `src/templates/data.template.astro` — verified 0 refs (already clean)
 - [x] `src/templates/resources.template.astro` — `taiwanmdLinks` renamed to `projectLinks`, mindmap root node `id: 'taiwan'` → `'root'`, all edge sources updated. 0 refs remain.
 - [x] `src/templates/assets.template.astro` — DELETED (6 page wrappers + template + i18n). No LB SVGs exist. `nav.assets` keys removed from ui.ts.
@@ -368,7 +368,7 @@ i18n files needing rewrite:
 - [x] `src/i18n/explore.ts` (zh-TW strings) — meta, search placeholder, hot searches, categories subtitle all updated
 - [x] `src/i18n/home.ts` — hero stats, cover heading/lead/closing, historical quotes timeline all rewritten to LB. 3 residual hits are key names only (`.taiwanmd` suffix), values already LB. zh-TW Hall prose replaced with placeholder (no zh-TW knowledge/ content yet).
 
-> Pattern: Phase 2 localized only English i18n strings. Updated ref counts (`grep -ic "台灣\|台北\|taiwan"`, 2026-06-24 post-cleanup): `map.ts` DELETED, `resources.ts` 0, `contribute.ts` 0, `home.ts` 3 (key names only), `ui.ts` 2 (key names only), `about.ts` 6 (intentional upstream credit). Remaining: `assets.ts` 46.
+> Pattern: Phase 2 localized only English i18n strings. Updated ref counts (`grep -ic "台灣\|台北\|taiwan"`, 2026-06-24 post-cleanup): `map.ts` DELETED, `resources.ts` 0, `contribute.ts` 0, `home.ts` 3 (key names only), `ui.ts` 2 (key names only), `about.ts` 6 (intentional upstream credit). `assets.ts` DELETED (was 46 refs; removed with assets page set per line 366).
 
 ### Sovereignty-framing purge (Taiwan geopolitical lens — NOT applicable to LB)
 
