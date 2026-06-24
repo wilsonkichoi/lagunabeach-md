@@ -1,7 +1,61 @@
 {
-  "generatedAt": "2026-06-24T15:48:10.156Z",
+  "generatedAt": "2026-06-24T16:53:56.069Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "9a506ebb4e3cb2e795bfa29402f6d2a0c8ddcd85",
+      "date": "2026-06-24T09:50:31-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(cosmetic): rewrite PR template for LB, clear stale wiki image mappings",
+      "articles": []
+    },
+    {
+      "hash": "985e64b210ee2f14c17beb8fc1fed39773f9fa0c",
+      "date": "2026-06-24T09:49:28-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(data): delete Taiwan-specific data directories not in build chain",
+      "articles": []
+    },
+    {
+      "hash": "eede9ff997a03721f743e9a2adc2352930beead8",
+      "date": "2026-06-24T09:48:22-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(category-hub): delete Taiwan food-universe visualization section",
+      "articles": []
+    },
+    {
+      "hash": "9aed6a972d6fd801286bec3c601d82e4ca6bfac5",
+      "date": "2026-06-24T09:45:48-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(i18n): delete Taiwan SVG assets page, replace zh-TW halls with placeholder",
+      "articles": []
+    },
+    {
+      "hash": "de57eb8736dcf32558e43b8c03f84a7960f1994f",
+      "date": "2026-06-24T09:33:47-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(i18n): rename zh-TW cover keys .taiwanmd → .lagunabeachmd to match consumer",
+      "articles": []
+    },
+    {
+      "hash": "77a77a1cd52582ed93d54896eaa3443964716bb2",
+      "date": "2026-06-24T09:23:02-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(i18n): Phase 4.5 batch — delete dead map.ts, rewrite zh-TW i18n, fix graph/map/resources",
+      "articles": []
+    },
+    {
+      "hash": "5a87969ff9e915ae092bc7537bbf19326d1aa69d",
+      "date": "2026-06-24T08:56:44-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(migration): execute Phase 4.5 — delete Taiwan-specific pages, data, sovereignty framing",
+      "articles": [
+        {
+          "url": "/about/visualization-catalog",
+          "name": "visualization-catalog"
+        }
+      ]
+    },
     {
       "hash": "19c07755912cf4eb42380c4738d2964699205252",
       "date": "2026-06-22T17:46:57-07:00",
@@ -249,20 +303,20 @@
       "message": "feat: fork taiwan-md as lagunabeach-md (Phase 1 - country-md-starter Path A)",
       "articles": [
         {
-          "url": "/about/taiwan-md",
-          "name": "taiwan-md"
-        },
-        {
-          "url": "/art/_Art Hub",
-          "name": "_Art Hub"
-        },
-        {
           "url": "/beaches/thousand-steps-beach",
           "name": "thousand-steps-beach"
         },
         {
           "url": "/beaches/victoria-beach",
           "name": "victoria-beach"
+        },
+        {
+          "url": "/food/the-cliff-restaurant",
+          "name": "the-cliff-restaurant"
+        },
+        {
+          "url": "/history/founding-and-early-history",
+          "name": "founding-and-early-history"
         }
       ]
     }

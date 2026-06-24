@@ -1,5 +1,6 @@
 import { execSync } from 'node:child_process';
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import type { Lang } from '../types';
 
@@ -52,6 +53,7 @@ function filesToArticles(files: string[]): ChangelogArticle[] {
   for (const file of files) {
     const m = ARTICLE_RE.exec(file);
     if (!m) continue;
+    if (!existsSync(resolve(PROJECT_ROOT, file))) continue;
     const url = `/${m[1].toLowerCase()}/${m[2]}`;
     if (seen.has(url)) continue;
     seen.add(url);

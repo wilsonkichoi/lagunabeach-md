@@ -25,6 +25,7 @@ function filesToArticles(files) {
   for (const file of files) {
     const m = ARTICLE_RE.exec(file);
     if (!m) continue;
+    if (!fs.existsSync(path.join(PROJECT_ROOT, file))) continue;
     const url = `/${m[1].toLowerCase()}/${m[2]}`;
     if (seen.has(url)) continue;
     seen.add(url);
