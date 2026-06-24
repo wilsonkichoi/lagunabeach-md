@@ -296,7 +296,7 @@ Remaining known stale content (tracked in Phase 4.5):
 - Footer category links still reference Taiwan's 12 categories
 - These pages need full content rewrites with LB-specific material, not mechanical substitution
 
-### Phase 4.5: Stale Taiwan Content Cleanup ⬜ IN PROGRESS
+### Phase 4.5: Stale Taiwan Content Cleanup ✅ COMPLETE
 
 > Every path below verified to exist (`ls`) on 2026-06-23; ref counts are `grep -ic "台灣\|taiwan"` on the named file at that time. Re-verify before actioning (files change). Per Rule 13: when deleting a page, delete its locale variants AND its page-wrapper/template pair together.
 
@@ -401,7 +401,7 @@ Low priority / cosmetic:
 
 Tasks:
 
-- [ ] Review all 38 `.claude/skills/twmd-*/SKILL.md` - categorize as reusable vs Taiwan-specific
+- [x] Review all 33 `.claude/skills/twmd-*/SKILL.md` (+4 siblings) - categorize as reusable vs Taiwan-specific → [`reports/phase5-skill-audit.md`](reports/phase5-skill-audit.md) (21 reusable, 11 Taiwan-specific, 5 defer)
 - [ ] Create 3 LB skills: `lb-write`, `lb-rewrite`, `lb-sync`
 - [ ] Adapt `scripts/tools/article-health.py` for English content
 - [ ] Adapt `scripts/core/build-embeddings.mjs` for local RTX 4090 (bge-m3 works for English)
