@@ -40,30 +40,30 @@ upstream_canonical:
 
 > ⚠️ **cron 數值在本檔只出現在這張表**（v2.9 起）。yaml spec 區塊與週行程 grid 是 derived 視覺化，不再各自複寫 cron——同一個 cron 在同檔出現三個值是 2026-06-12 體檢抓到的 drift 根因之一（routine-audit 曾同時是 21:00 / 12:00 / 23:00）。
 
-| TaskId                      | Title                           | Cron (local +0800) | Skill                   | Model     | Cadence        |
-| --------------------------- | ------------------------------- | ------------------ | ----------------------- | --------- | -------------- |
-| `twmd-maintainer-pm`        | TWMD maintainer (pm) ¹          | `0 22 * * *`       | `/twmd-maintainer`      | Opus      | 每天 22:00     |
-| `twmd-data-refresh-pm`      | TWMD data refresh (pm)          | `0 23 * * *`       | `/twmd-refresh`         | Sonnet    | 每天 23:00     |
-| `twmd-rewrite-daily`        | TWMD rewrite (daily) ¹⁰         | `0 19 * * *`       | `/twmd-rewrite`         | Opus      | 每天 19:00     |
-| `twmd-news-lens-weekly`     | TWMD news lens (weekly) ⁶       | `0 1 * * 0`        | `/twmd-evolve`          | Sonnet    | 週日 01:00     |
-| `twmd-weekly-report-sun`    | TWMD weekly report (sun)        | `0 2 * * 0`        | `/twmd-weekly-report`   | Opus      | 週日 02:00     |
-| `twmd-distill-weekly`       | TWMD distill (weekly) ⁷         | `0 3 * * 0`        | `/twmd-distill`         | Opus      | 週日 03:00     |
-| `twmd-self-evolve-weekly`   | TWMD self-evolve (weekly)       | `0 4 * * 0`        | `/twmd-self-evolve`     | Opus      | 週日 04:00     |
-| `twmd-babel-nightly`        | TWMD babel (nightly) ³          | `30 0 * * *`       | `/twmd-babel`           | Sonnet ¹¹ | 每天 00:30     |
-| `twmd-embeddings-nightly`   | TWMD embeddings (nightly) ¹²    | `0 5 * * *`        | `/twmd-embeddings`      | Sonnet    | 每天 05:00     |
-| `twmd-data-refresh-am`      | TWMD data refresh (am)          | `0 6 * * *`        | `/twmd-refresh`         | Sonnet    | 每天早上 06:00 |
-| `twmd-spore-harvest-am`     | TWMD spore harvest (am) ²       | `30 6 * * *`       | `/twmd-spore-harvest`   | Opus      | 每天早上 06:30 |
-| `twmd-feedback-triage`      | TWMD feedback triage ⁹          | `0 7 * * *`        | `/twmd-feedback-triage` | Sonnet    | 每天早上 07:00 |
-| `twmd-maintainer-daily`     | TWMD maintainer (am) ¹          | `30 8 * * *`       | `/twmd-maintainer`      | Opus      | 每天早上 08:30 |
-| `twmd-spore-pick-daily`     | TWMD spore pick (daily) ⁶ 🧪    | `0 8 * * *`        | `/twmd-spore-pick`      | Sonnet    | 每天早上 08:00 |
-| `twmd-spore-publish-daily`  | TWMD spore publish (daily) ⁸ 🧪 | `30 17 * * *`      | `/twmd-spore-publish`   | Opus      | 每天下午 17:30 |
-| `twmd-routine-audit-weekly` | TWMD routine audit (sun) ⁴      | `0 21 * * 0`       | `/twmd-routine-audit`   | Opus      | 週日 21:00     |
+| TaskId                      | Title                                                    | Cron (local +0800) | Skill                   | Model     | Cadence        |
+| --------------------------- | -------------------------------------------------------- | ------------------ | ----------------------- | --------- | -------------- |
+| `twmd-maintainer-pm`        | TWMD maintainer (pm) ¹                                   | `0 22 * * *`       | `/twmd-maintainer`      | Opus      | 每天 22:00     |
+| `twmd-data-refresh-pm`      | TWMD data refresh (pm)                                   | `0 23 * * *`       | `/twmd-refresh`         | Sonnet    | 每天 23:00     |
+| `twmd-rewrite-daily`        | TWMD rewrite (daily) ¹⁰                                  | `0 19 * * *`       | `/twmd-rewrite`         | Opus      | 每天 19:00     |
+| `twmd-news-lens-weekly`     | TWMD news lens (weekly) ⁶ [ported → `/lb-news-lens` R17] | `0 1 * * 0`        | `/twmd-evolve`          | Sonnet    | 週日 01:00     |
+| `twmd-weekly-report-sun`    | TWMD weekly report (sun)                                 | `0 2 * * 0`        | `/twmd-weekly-report`   | Opus      | 週日 02:00     |
+| `twmd-distill-weekly`       | TWMD distill (weekly) ⁷                                  | `0 3 * * 0`        | `/twmd-distill`         | Opus      | 週日 03:00     |
+| `twmd-self-evolve-weekly`   | TWMD self-evolve (weekly)                                | `0 4 * * 0`        | `/twmd-self-evolve`     | Opus      | 週日 04:00     |
+| `twmd-babel-nightly`        | TWMD babel (nightly) ³                                   | `30 0 * * *`       | `/twmd-babel`           | Sonnet ¹¹ | 每天 00:30     |
+| `twmd-embeddings-nightly`   | TWMD embeddings (nightly) ¹²                             | `0 5 * * *`        | `/twmd-embeddings`      | Sonnet    | 每天 05:00     |
+| `twmd-data-refresh-am`      | TWMD data refresh (am)                                   | `0 6 * * *`        | `/twmd-refresh`         | Sonnet    | 每天早上 06:00 |
+| `twmd-spore-harvest-am`     | TWMD spore harvest (am) ²                                | `30 6 * * *`       | `/twmd-spore-harvest`   | Opus      | 每天早上 06:30 |
+| `twmd-feedback-triage`      | TWMD feedback triage ⁹                                   | `0 7 * * *`        | `/twmd-feedback-triage` | Sonnet    | 每天早上 07:00 |
+| `twmd-maintainer-daily`     | TWMD maintainer (am) ¹                                   | `30 8 * * *`       | `/twmd-maintainer`      | Opus      | 每天早上 08:30 |
+| `twmd-spore-pick-daily`     | TWMD spore pick (daily) ⁶ 🧪                             | `0 8 * * *`        | `/twmd-spore-pick`      | Sonnet    | 每天早上 08:00 |
+| `twmd-spore-publish-daily`  | TWMD spore publish (daily) ⁸ 🧪                          | `30 17 * * *`      | `/twmd-spore-publish`   | Opus      | 每天下午 17:30 |
+| `twmd-routine-audit-weekly` | TWMD routine audit (sun) ⁴                               | `0 21 * * 0`       | `/twmd-routine-audit`   | Opus      | 週日 21:00     |
 
 **⏸️ PAUSED**：
 
-| TaskId                            | 原 slot    | 暫停日                       | 原因 / 恢復條件                                            |
-| --------------------------------- | ---------- | ---------------------------- | ---------------------------------------------------------- |
-| `twmd-music-media-audit-weekly` ⁵ | 週六 10:00 | 2026-05-25（哲宇 directive） | Skill + script 保留，manual `/twmd-music-media-audit` 可跑 |
+| TaskId                            | 原 slot    | 暫停日                       | 原因 / 恢復條件                                                                                                   |
+| --------------------------------- | ---------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `twmd-music-media-audit-weekly` ⁵ | 週六 10:00 | 2026-05-25（哲宇 directive） | Skill + script 保留，manual `/twmd-music-media-audit` 可跑 [ported → `/lb-media-audit` R17, twmd-* skill deleted] |
 
 **🧪 spore 產線重開實驗條款（2026-06-12 哲宇拍板，v2.10）**：spore-pick / spore-publish 於 5/28 被哲宇刻意停用（當時自動發文未過人工審核 + 事實查核不嚴出錯遭讀者留言指正）。重開依據：其後新增的事實查核關卡已 wired——spore-publish Gate 2.5 `lastVerified ≤ 90 天` 等於只放行過了 REWRITE Stage 3.5 全文幻覺審計 + 3.6 成品總驗的文章，加上 SPORE-VERIFY 17 hard gate 對孢子文字本身的事實對齊驗證。**觀察條款**：重開後連 3 個 ship cycle 需 0 重複發文 + 0 事實 callout + post-ship verify 全過；任一爆 → 立即 pause + 回 OBSERVER-QUEUE 帶失敗證據。SPORE-INBOX 32 條 pending 自此恢復出口。
 

@@ -15,17 +15,18 @@ Wilson approved Batch A/B + twmd-bench deletion and split Batch C into port-firs
 | 3. superseded-delete | An existing `lb-*` already replaces it                         | Safe to delete                                |
 | 4. no-analog-delete  | No LB path exists or can exist                                 | Safe to delete                                |
 
-## Headline counts (post-R16 deletions)
+## Headline counts (post-R17 deletions)
 
-| Disposition            | scripts/bench/  | scripts/tools/ | Skills                        | Total   |
-| ---------------------- | --------------- | -------------- | ----------------------------- | ------- |
-| 1. generic-keep        | 0               | 48             | 0                             | 48      |
-| 2. port-seed-dormant   | 0               | 38             | 7 (idea-reusable, port-first) | 45      |
-| 3. superseded-delete   | 0               | 0              | 3 (DELETED R16)               | 3       |
-| 4. no-analog-delete    | 9 (DELETED R16) | 0              | 1 (DELETED R16)               | 10      |
-| 5. held (load-bearing) | 0               | 0              | 1 (twmd-become)               | 1       |
-| **Total inventoried**  | **9**           | **86**         | **12**                        | **107** |
-| **Deleted this round** | 9               | 0              | 4                             | **13**  |
+| Disposition            | scripts/bench/  | scripts/tools/ | Skills                                      | Total   |
+| ---------------------- | --------------- | -------------- | ------------------------------------------- | ------- |
+| 1. generic-keep        | 0               | 48             | 0                                           | 48      |
+| 2. port-seed-dormant   | 0               | 38             | 4 (idea-reusable, port-first, social-gated) | 42      |
+| 3. superseded-delete   | 0               | 0              | 3 (DELETED R16)                             | 3       |
+| 4. no-analog-delete    | 9 (DELETED R16) | 0              | 1 (DELETED R16)                             | 10      |
+| 5. held (load-bearing) | 0               | 0              | 1 (twmd-become)                             | 1       |
+| 6. ported+deleted      | 0               | 0              | 3 (PORTED R17 → lb-\*)                      | 3       |
+| **Total inventoried**  | **9**           | **86**         | **12**                                      | **107** |
+| **Deleted total**      | 9               | 0              | 7 (4 R16 + 3 R17)                           | **16**  |
 
 ---
 
@@ -256,24 +257,24 @@ Deleted in R16 commit. Each had a confirmed `lb-*` replacement.
 
 ### C.3 HELD — load-bearing (1 skill)
 
-| skill         | disposition                | evidence                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| ------------- | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `twmd-become` | held-until-dependents-gone | 28 KEPT planned-port skills gate on `/twmd-become` (grep confirms: twmd-analyze, twmd-babel, twmd-diary, twmd-distill, twmd-embeddings, twmd-evolve, twmd-feedback-triage, twmd-finale, twmd-harvest, twmd-heartbeat, twmd-language-birth, twmd-maintainer, twmd-memory, twmd-music-media-audit, twmd-news-lens, twmd-peer, twmd-pr-review, twmd-refresh, twmd-release, twmd-rewrite, twmd-routine, twmd-routine-audit, twmd-self-evolve, twmd-spore, twmd-spore-pick, twmd-spore-publish, twmd-translate, twmd-weekly-report + heartbeat). Cannot delete until all dependents are ported to `lb-become` or deleted. |
+| skill         | disposition                | evidence                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| ------------- | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `twmd-become` | held-until-dependents-gone | 25 KEPT planned-port skills gate on `/twmd-become` (grep confirms: twmd-analyze, twmd-babel, twmd-diary, twmd-distill, twmd-embeddings, twmd-evolve, twmd-feedback-triage, twmd-finale, twmd-harvest, twmd-heartbeat, twmd-language-birth, twmd-maintainer, twmd-memory, twmd-pr-review, twmd-refresh, twmd-release, twmd-rewrite, twmd-routine, twmd-routine-audit, twmd-self-evolve, twmd-spore, twmd-spore-pick, twmd-spore-publish, twmd-translate, twmd-weekly-report + heartbeat). Cannot delete until all dependents are ported to `lb-become` or deleted. R17: removed twmd-music-media-audit, twmd-news-lens, twmd-peer (ported → lb-\*). |
 
-### C.4 Port-first dormant (7 idea-reusable skills)
+### C.4 Port-first dormant (4 remaining idea-reusable skills)
 
 Wilson's decision: these stay as reference until their `lb-*` rebirth is built, then
 the `twmd-*` original gets deleted. NOT straight-deletable.
 
-| skill                    | LB rebirth concept                                                      | blocker                          |
-| ------------------------ | ----------------------------------------------------------------------- | -------------------------------- |
-| `twmd-music-media-audit` | `lb-media-audit` — LB article media/iframe embed audit                  | Queued for port (Phase 6 Tier C) |
-| `twmd-news-lens`         | `lb-news-lens` — LB local-news content opportunity lens                 | Queued for port (Phase 6 Tier C) |
-| `twmd-peer`              | `lb-peer` — LB local-institution curation (LAM, LBHS, Festival of Arts) | Queued for port (Phase 6 Tier C) |
-| `twmd-harvest`           | `lb-harvest` — social engagement scraping                               | Blocked: LB social presence      |
-| `twmd-spore`             | `lb-spore` — social post authoring                                      | Blocked: LB social presence      |
-| `twmd-spore-pick`        | `lb-spore-pick` — daily candidate selection                             | Blocked: LB social presence      |
-| `twmd-spore-publish`     | `lb-spore-publish` — auto-publish to social                             | Blocked: LB social presence      |
+| skill                        | LB rebirth concept                                                      | blocker / status                      |
+| ---------------------------- | ----------------------------------------------------------------------- | ------------------------------------- |
+| ~~`twmd-music-media-audit`~~ | `lb-media-audit` — LB article media/iframe embed audit                  | **PORTED + DELETED R17 (2026-06-25)** |
+| ~~`twmd-news-lens`~~         | `lb-news-lens` — LB local-news content opportunity lens                 | **PORTED + DELETED R17 (2026-06-25)** |
+| ~~`twmd-peer`~~              | `lb-peer` — LB local-institution curation (LAM, LBHS, Festival of Arts) | **PORTED + DELETED R17 (2026-06-25)** |
+| `twmd-harvest`               | `lb-harvest` — social engagement scraping                               | Blocked: LB social presence           |
+| `twmd-spore`                 | `lb-spore` — social post authoring                                      | Blocked: LB social presence           |
+| `twmd-spore-pick`            | `lb-spore-pick` — daily candidate selection                             | Blocked: LB social presence           |
+| `twmd-spore-publish`         | `lb-spore-publish` — auto-publish to social                             | Blocked: LB social presence           |
 
 ---
 

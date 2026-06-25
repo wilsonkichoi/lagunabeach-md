@@ -453,11 +453,11 @@ Phase 5 audited all 37 skills ([`reports/phase5-skill-audit.md`](reports/phase5-
   - [ ] `lb-maintainer` ← `twmd-maintainer` / `lb-pr-review` ← `twmd-pr-review` (`MAINTAINER-PIPELINE.en.md`; needs PR volume)
   - [ ] `lb-heartbeat` ← `twmd-heartbeat` / `heartbeat`, `lb-finale` ← `twmd-finale`, `lb-routine` ← `twmd-routine`, `lb-routine-audit`, `lb-probe`, `lb-babel`, `lb-batch-audit`, `lb-weekly-report`
 - **DEFER — blocked on LB organs that don't exist yet** (diary, LESSONS-INBOX, MEMORY-PIPELINE, Supabase feedback): `lb-diary`, `lb-distill`, `lb-memory`, `lb-self-evolve`, `lb-feedback-triage`. Build the organ first, then the skill.
-- **Taiwan-specific — DELETED R16:** `twmd` (router), `taiwanmd-search`, `taiwanmd-validate`, `twmd-bench`. **HELD:** `twmd-become` (28 remaining skills gate on it). **Port-first dormant:** `twmd-harvest`, `twmd-music-media-audit`, `twmd-news-lens`, `twmd-peer`, `twmd-spore{,-pick,-publish}` (7 skills stay as reference until their lb-\* port is built, then deleted).
+- **Taiwan-specific — DELETED R16+R17:** `twmd` (router), `taiwanmd-search`, `taiwanmd-validate`, `twmd-bench`, `twmd-music-media-audit`, `twmd-news-lens`, `twmd-peer`. **HELD:** `twmd-become` (25 remaining skills gate on it). **Port-first dormant:** `twmd-harvest`, `twmd-spore{,-pick,-publish}` (4 skills stay as reference until their lb-\* port is built, then deleted).
 - **Tier C — editorial-rebornable ports** (from Phase 7 disposition triage, queued R16):
-  - [ ] `lb-media-audit` ← `twmd-music-media-audit` — audit LB articles for media/image/iframe embeds against EDITORIAL media standard. Then `git rm` the `twmd-music-media-audit` original.
-  - [ ] `lb-news-lens` ← `twmd-news-lens` — LB local-news content opportunity lens. Must define LB news sources (not copy Taiwan's 三源). Then `git rm` the `twmd-news-lens` original.
-  - [ ] `lb-peer` ← `twmd-peer` — LB local-institution curation (Laguna Art Museum, LBHS, Festival of Arts). Must scope LB institutions (not copy TFT/NMTH). Then `git rm` the `twmd-peer` original.
+  - [x] `lb-media-audit` ← `twmd-music-media-audit` — audit LB articles for media/image/iframe embeds against EDITORIAL media standard. Then `git rm` the `twmd-music-media-audit` original. **DONE R17.**
+  - [x] `lb-news-lens` ← `twmd-news-lens` — LB local-news content opportunity lens. Must define LB news sources (not copy Taiwan's 三源). Then `git rm` the `twmd-news-lens` original. **DONE R17.**
+  - [x] `lb-peer` ← `twmd-peer` — LB local-institution curation (Laguna Art Museum, LBHS, Festival of Arts). Must scope LB institutions (not copy TFT/NMTH). Then `git rm` the `twmd-peer` original. **DONE R17.**
 
 > **Soft spots flagged in the Phase 5 audit, still open:** (1) verdicts were assigned by reading SKILL.md descriptions, not by test-porting — a "reusable" skill may still have Taiwan assumptions in its pipeline doc that only surface on first run (same failure class as the supporters/spores leaks). Port + run each before trusting it. (2) Tier C skills are blocked on writing their `.en.md` pipeline sequencers; that's the bulk of the remaining work.
 
@@ -481,6 +481,7 @@ The fork conversion (Phases 0–5) localized the _site_. This phase finishes the
 - [ ] **Taiwan-specific skills** (the 12 from R15 inventory) — port-first rule applied.
   - R15 (2026-06-25): disposition inventory produced: [`reports/phase7-taiwan-tooling-inventory.md`](reports/phase7-taiwan-tooling-inventory.md).
   - R16 (2026-06-25): deleted 4 (twmd router, taiwanmd-search, taiwanmd-validate, twmd-bench). 7 idea-reusable kept dormant (port-first: 3 editorial-rebornable queued in Phase 6 Tier C, 4 social-gated blocked). 1 held (twmd-become, 28 dependents).
+  - R17 (2026-06-25): ported 3 editorial-rebornable (twmd-peer → lb-peer, twmd-news-lens → lb-news-lens, twmd-music-media-audit → lb-media-audit), then `git rm` originals. 4 social-gated remain dormant. twmd-become dependents 28 → 25.
 
 ---
 

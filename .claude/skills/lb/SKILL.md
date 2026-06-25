@@ -46,6 +46,9 @@ Current namespace (as ported in MIGRATION.md Phase 6):
 - `lb-sync` — rebuild `src/content/` from `knowledge/` (SSOT projection)
 - `lb-validate` — quality / frontmatter / wikilink / reference checks on articles
 - `lb-search` — search + read the LB knowledge base from the CLI
+- `lb-peer` — ingest knowledge from LB institutions (LAM, LBHS, Festival of Arts)
+- `lb-news-lens` — scan local news sources for content opportunity candidates
+- `lb-media-audit` — audit articles for media embeds against category standards
 - `lb-implement` / `lb-review` — the two-session orchestration loop
 
 ## 3. Recommend, don't run

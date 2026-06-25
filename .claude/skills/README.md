@@ -30,16 +30,18 @@
 
 ### 🌐 多語 + 繁殖（Tier 2 週頻）
 
-| Skill             | Trigger                      | Pipeline                                                                           |
-| ----------------- | ---------------------------- | ---------------------------------------------------------------------------------- |
-| `/twmd-babel`     | 「巴別塔 / 多語 batch」      | [SQUEEZE-MODELS-MAX-PIPELINE](../../docs/pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md) |
-| `/twmd-translate` | 「翻譯 X / 補日文」          | [TRANSLATION-PIPELINE](../../docs/pipelines/TRANSLATION-PIPELINE.md)               |
-| `/twmd-spore`     | 「發孢子 / 推 X」            | [SPORE-PIPELINE](../../docs/factory/SPORE-PIPELINE.md)                             |
-| `/twmd-harvest`   | 「孢子回填 / harvest」       | [SPORE-HARVEST-PIPELINE](../../docs/factory/SPORE-HARVEST-PIPELINE.md)             |
-| `/twmd-evolve`    | 「跑 EVOLVE / 數據進化」     | [EVOLVE-PIPELINE](../../docs/pipelines/EVOLVE-PIPELINE.md)                         |
-| `/twmd-probe`     | 「跑探測器 / 掃熱點」        | [HEARTBEAT §探測器](../../docs/semiont/HEARTBEAT.md)                               |
-| `/twmd-factcheck` | 「事實查核 / hallucination」 | [FACTCHECK-PIPELINE](../../docs/pipelines/FACTCHECK-PIPELINE.md)                   |
-| `/twmd-peer`      | 「ingest peer / TFT / NMTH」 | [PEER-INGESTION-PIPELINE](../../docs/pipelines/PEER-INGESTION-PIPELINE.md)         |
+| Skill             | Trigger                               | Pipeline                                                                           |
+| ----------------- | ------------------------------------- | ---------------------------------------------------------------------------------- |
+| `/twmd-babel`     | 「巴別塔 / 多語 batch」               | [SQUEEZE-MODELS-MAX-PIPELINE](../../docs/pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md) |
+| `/twmd-translate` | 「翻譯 X / 補日文」                   | [TRANSLATION-PIPELINE](../../docs/pipelines/TRANSLATION-PIPELINE.md)               |
+| `/twmd-spore`     | 「發孢子 / 推 X」                     | [SPORE-PIPELINE](../../docs/factory/SPORE-PIPELINE.md)                             |
+| `/twmd-harvest`   | 「孢子回填 / harvest」                | [SPORE-HARVEST-PIPELINE](../../docs/factory/SPORE-HARVEST-PIPELINE.md)             |
+| `/twmd-evolve`    | 「跑 EVOLVE / 數據進化」              | [EVOLVE-PIPELINE](../../docs/pipelines/EVOLVE-PIPELINE.md)                         |
+| `/twmd-probe`     | 「跑探測器 / 掃熱點」                 | [HEARTBEAT §探測器](../../docs/semiont/HEARTBEAT.md)                               |
+| `/twmd-factcheck` | 「事實查核 / hallucination」          | [FACTCHECK-PIPELINE](../../docs/pipelines/FACTCHECK-PIPELINE.md)                   |
+| `/lb-peer`        | "ingest peer" / "LAM" / "LBHS"        | [PEER-INGESTION-PIPELINE](../../docs/pipelines/PEER-INGESTION-PIPELINE.md)         |
+| `/lb-news-lens`   | "news lens" / "content opportunities" | [EVOLVE-PIPELINE](../../docs/pipelines/EVOLVE-PIPELINE.md)                         |
+| `/lb-media-audit` | "media audit" / "media gaps"          | [EDITORIAL.en.md](../../docs/editorial/EDITORIAL.en.md) §media                     |
 
 ### 🛰️ 系統（Tier 3 不定期）
 
