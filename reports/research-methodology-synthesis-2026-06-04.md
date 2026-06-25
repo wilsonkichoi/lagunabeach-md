@@ -1,3 +1,5 @@
+> **Taiwan-inheritance reference** (methodology kept for LB skill ports) — not LB content.
+
 # Taiwan.md 研究方法論統合 — 從 12 份 thesis-grade 報告萃取
 
 > session: 2026-06-04-102449-深度研究-設計研究院

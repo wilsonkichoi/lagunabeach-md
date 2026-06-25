@@ -1,3 +1,5 @@
+> **Taiwan-inheritance reference** (methodology kept for LB skill ports) — not LB content.
+
 # REWRITE-PIPELINE v6.5 實驗 — minimal-guidance agent 跑 Stage 0-1
 
 > session: 2026-06-04-102449-深度研究-設計研究院

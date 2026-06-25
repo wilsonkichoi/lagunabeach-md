@@ -7,6 +7,8 @@ predecessor: reports/rewrite-pipeline-refactor-v4-plan-2026-05-10.md
 target: docs/pipelines/REWRITE-PIPELINE.md (v4.1 → v5.0)
 ---
 
+> **Taiwan-inheritance reference** (methodology kept for LB skill ports) — not LB content.
+
 # REWRITE-PIPELINE v5.0 — Stage spine restoration
 
 > 哲宇 directive（2026-05-11 早晨）：「用 v4 的精神進化 v3 → 核心精神是，其實所有的步驟都是相同的。每篇文章都要跑過，只有第一個步驟，它是有判定模式的，是要怎麼樣把素材回爐重造怎麼萃取，還有加 ASCII spine 跟 Stage 6 抽掉是對的直接指向巴別塔」

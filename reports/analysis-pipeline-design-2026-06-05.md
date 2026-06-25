@@ -13,6 +13,8 @@ related:
   - 'docs/pipelines/DEEP-INSIGHT-SYNTHESIS-PIPELINE.md'
 ---
 
+> **Taiwan-inheritance reference** (methodology kept for LB skill ports) — not LB content.
+
 # 把這批分析變成下次不用重造的橋
 
 今天一個 session 寫了兩份分析報告：PTT 把 Computex 撿走的流量歸因、首頁改版十天後的影響評估。兩份都是手刻的 — 臨時寫 python 打 GA4、手算 before/after、手動排除 attribution lag、手動拆 session 級跟 page 級。報告 ship 完，那些 python 就消失在 session 裡了。下一個分析又要從零打一次。

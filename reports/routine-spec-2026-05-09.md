@@ -1,3 +1,5 @@
+> **Taiwan-inheritance reference** (methodology kept for LB skill ports) — not LB content.
+
 # Routine 飛輪規劃：4 條自動 routine 統一 SSOT 設計
 
 > **誕生 session**：laughing-goldstine post-finale 第三輪 (2026-05-09 ~14:50 +0800)
