@@ -447,7 +447,7 @@ Phase 5 audited all 37 skills ([`reports/phase5-skill-audit.md`](reports/phase5-
   - [ ] `lb-language-birth` ← `twmd-language-birth` — register a new locale (zh-TW already enabled; useful when adding a 3rd lang).
 - **Tier C — needs a SHORT `.en.md` pipeline sequencer first:**
   - [ ] `lb-translate` ← `twmd-translate` (`TRANSLATION-PIPELINE.en.md`)
-  - [ ] `lb-factcheck` ← `twmd-factcheck` (`FACTCHECK-PIPELINE.en.md`; pairs with Rule 12)
+  - [x] `lb-factcheck` ← `twmd-factcheck` (`FACTCHECK-PIPELINE.en.md`; pairs with Rule 12) → [`.claude/skills/lb-factcheck/SKILL.md`](.claude/skills/lb-factcheck/SKILL.md) + [`docs/pipelines/FACTCHECK-PIPELINE.en.md`](docs/pipelines/FACTCHECK-PIPELINE.en.md)
   - [ ] `lb-evolve` ← `twmd-evolve` (`EVOLVE-PIPELINE.en.md`; needs analytics to be non-trivial)
   - [ ] `lb-analyze` ← `twmd-analyze` (`ANALYSIS-PIPELINE.en.md`)
   - [ ] `lb-maintainer` ← `twmd-maintainer` / `lb-pr-review` ← `twmd-pr-review` (`MAINTAINER-PIPELINE.en.md`; needs PR volume)
