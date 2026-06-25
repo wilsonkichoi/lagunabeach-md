@@ -422,7 +422,9 @@ Tasks:
 > - `knowledge/**` limitation: merge=ours cannot auto-resolve modify/delete conflicts (193 files upstream modified that we deleted) or block NEW files upstream adds (36 new Taiwan articles would land). Future merges need manual cleanup of these two categories.
 > - Upstream divergence at fetch (cadd10fad..244ced555): 1866 files changed, +41636/-15442 lines.
 
-### Phase 6: Skill Namespace Migration (`lb-*` skills + router) 🔄 IN PROGRESS
+### Phase 6: Skill Namespace Migration (`lb-*` skills + router) ✅ COMPLETE
+
+Directly-actionable scope done; capability-gated residue moved to Phase 8 (2026-06-25).
 
 Phase 5 audited all 37 skills ([`reports/phase5-skill-audit.md`](reports/phase5-skill-audit.md): 21 reusable / 11 Taiwan-specific / 5 defer) but only ported the core content loop (`lb-become`, `lb-write`, `lb-sync`) plus the new orchestration loop (`lb-implement`, `lb-review`). This phase ports the remaining reusable skills into the `lb-*` namespace and adds an `lb` router so they're discoverable.
 
@@ -443,16 +445,10 @@ Phase 5 audited all 37 skills ([`reports/phase5-skill-audit.md`](reports/phase5-
 - **Tier B — wraps an existing LB build script (light adaptation):**
   - [x] `lb-embeddings` ← `twmd-embeddings` — wrap `prebuild:related` / `build-related-tagoverlap.mjs` (bge-m3 tabled per Phase 5 R10; tag-overlap is current). → [`.claude/skills/lb-embeddings/SKILL.md`](.claude/skills/lb-embeddings/SKILL.md)
   - [x] `lb-refresh` ← `twmd-refresh` — wrap `prebuild:dashboard` + `prebuild:llms` (drop `三源`/sense fetch — no GA4/SC/CF accounts yet). → [`.claude/skills/lb-refresh/SKILL.md`](.claude/skills/lb-refresh/SKILL.md)
-  - [ ] `lb-release` ← `twmd-release` — release tagging + changelog (only once LB starts tagging releases).
-  - [ ] `lb-language-birth` ← `twmd-language-birth` — register a new locale (zh-TW already enabled; useful when adding a 3rd lang).
 - **Tier C — needs a SHORT `.en.md` pipeline sequencer first:**
   - [x] `lb-translate` ← `twmd-translate` (`TRANSLATION-PIPELINE.en.md`) → [`.claude/skills/lb-translate/SKILL.md`](.claude/skills/lb-translate/SKILL.md) + [`docs/pipelines/TRANSLATION-PIPELINE.en.md`](docs/pipelines/TRANSLATION-PIPELINE.en.md)
   - [x] `lb-factcheck` ← `twmd-factcheck` (`FACTCHECK-PIPELINE.en.md`; pairs with Rule 12) → [`.claude/skills/lb-factcheck/SKILL.md`](.claude/skills/lb-factcheck/SKILL.md) + [`docs/pipelines/FACTCHECK-PIPELINE.en.md`](docs/pipelines/FACTCHECK-PIPELINE.en.md)
-  - [ ] `lb-evolve` ← `twmd-evolve` (`EVOLVE-PIPELINE.en.md`; needs analytics to be non-trivial)
-  - [ ] `lb-analyze` ← `twmd-analyze` (`ANALYSIS-PIPELINE.en.md`)
-  - [ ] `lb-maintainer` ← `twmd-maintainer` / `lb-pr-review` ← `twmd-pr-review` (`MAINTAINER-PIPELINE.en.md`; needs PR volume)
-  - [ ] `lb-heartbeat` ← `twmd-heartbeat` / `heartbeat`, `lb-finale` ← `twmd-finale`, `lb-routine` ← `twmd-routine`, `lb-routine-audit`, `lb-probe`, `lb-babel`, `lb-batch-audit`, `lb-weekly-report`
-- **DEFER — blocked on LB organs that don't exist yet** (diary, LESSONS-INBOX, MEMORY-PIPELINE, Supabase feedback): `lb-diary`, `lb-distill`, `lb-memory`, `lb-self-evolve`, `lb-feedback-triage`. Build the organ first, then the skill.
+- Remaining capability-gated ports → Phase 8.
 - **Taiwan-specific — DELETED R16+R17:** `twmd` (router), `taiwanmd-search`, `taiwanmd-validate`, `twmd-bench`, `twmd-music-media-audit`, `twmd-news-lens`, `twmd-peer`. **HELD:** `twmd-become` (25 remaining skills gate on it). **Port-first dormant:** `twmd-harvest`, `twmd-spore{,-pick,-publish}` (4 skills stay as reference until their lb-\* port is built, then deleted).
 - **Tier C — editorial-rebornable ports** (from Phase 7 disposition triage, queued R16):
   - [x] `lb-media-audit` ← `twmd-music-media-audit` — audit LB articles for media/image/iframe embeds against EDITORIAL media standard. Then `git rm` the `twmd-music-media-audit` original. **DONE R17.**
@@ -461,7 +457,9 @@ Phase 5 audited all 37 skills ([`reports/phase5-skill-audit.md`](reports/phase5-
 
 > **Soft spots flagged in the Phase 5 audit, still open:** (1) verdicts were assigned by reading SKILL.md descriptions, not by test-porting — a "reusable" skill may still have Taiwan assumptions in its pipeline doc that only surface on first run (same failure class as the supporters/spores leaks). Port + run each before trusting it. (2) Tier C skills are blocked on writing their `.en.md` pipeline sequencers; that's the bulk of the remaining work.
 
-### Phase 7: Taiwan-inheritance resolution (rewrite-or-delete sweep) 🔄 IN PROGRESS
+### Phase 7: Taiwan-inheritance resolution (rewrite-or-delete sweep) ✅ COMPLETE
+
+Directly-actionable scope done; capability-gated residue moved to Phase 8 (2026-06-25).
 
 The fork conversion (Phases 0–5) localized the _site_. This phase finishes the job on the _non-shipped_ inheritance: for every remaining Taiwan-specific artifact, **rewrite it for LB or delete it** (per the Rule 1 clarification). Default to delete when there's no LB use and rewriting isn't worth it. These are dev-only files (not user-facing, no leak risk like the supporters/spores site leaks) — lower urgency, but they're noise and they misrepresent the repo as Taiwan's.
 
@@ -469,7 +467,6 @@ The fork conversion (Phases 0–5) localized the _site_. This phase finishes the
 
 - [x] **`reports/` — Taiwan session history (592 → 8).** Deleted 584 Taiwan operational/research reports (analytics, spore harvests, sovereignty-bench, peer ingestion, election hub, SEO, incident logs, session handoffs). **Kept:** the 2 LB reports (`phase5-skill-audit`, `phase5-related-experiment`), `README.md` (dir mechanism — rewrite for LB's own future reports), and a small pipeline/methodology design-rationale set for Tier-C ports (`analysis-pipeline-design`, `research-methodology-synthesis`, `research-pipeline-v65-experiment`, `rewrite-pipeline-v5-stage-spine-design`, `routine-spec`).
 - [x] **`reports/README.md` + the kept design docs** — README rewritten for LB; 5 Taiwan methodology docs marked with header note ("Taiwan-inheritance reference, methodology kept for LB skill ports, not LB content"). All 5 still referenced by active docs/pipelines.
-- [ ] **~14 `src/` comment citations** of deleted report filenames (e.g. `SporeFootprint.astro`, `article-render.ts`) — now dangling doc-references. Cosmetic; clean up when next editing each file (don't touch code just for comments).
 - [x] **Spores** — owner chose **empty-data-keep-pipeline-dormant** (2026-06-25). Emptied SSOT `spore-log.json`/`spore-metrics.json` to `[]` (was 137 Taiwan posts + engagement), deleted `SPORE-BLUEPRINTS/` (60) + `SPORE-HARVESTS/` (40), reset `SPORE-LOG.md`/`SPORE-INBOX.md` buffers, regenerated derived (`src/data/spores.json`, `public/api/spores.json`, `dashboard-spores.json` → 0). Kept dormant: `prebuild:spores`, `scripts/tools/spore-*.py`, `SporeFootprint` + components, `SPORE-*-PIPELINE.md`. Commits `3c18ef16a` + `10c71aab7`. Build PASS.
 - [x] **Analytics** (`public/api/dashboard-analytics.json`) — emptied to neutral no-data shape (consumers guard with try/catch + `if (cf)`). Was 47KB/24 Taiwan refs → now 11-line placeholder, 0 Taiwan refs. Build PASS.
 - [x] **`docs/factory/` Taiwan spore/peer machinery** — deleted Taiwan operational data (HARVEST-EVOLVES-PENDING/ 8, HARVEST-FRAMING-PENDING/ 7, HARVEST-REPLIES-PENDING/ 6, CAROUSEL-BLUEPRINTS/ 10 = 31 files). Kept dormant pipeline docs (Rule 1). `spore-content-fingerprints.json` + `spore-defer.json` already neutral (empty data). No build-chain consumers (all refs in dormant `scripts/tools/`).
@@ -478,14 +475,38 @@ The fork conversion (Phases 0–5) localized the _site_. This phase finishes the
   - R13 (2026-06-25): i18n.ts all 4 remaining locales (ja/ko/es/fr) typeNewtopicHint fixed. content-dates generator ghost-path bug fixed (added currentTree existence filter; 879→18 entries, 0 Taiwan refs). CAT_TO_SLUG extended with 6 LB categories. MIN_EXPECTED lowered to 5. Remaining: scripts/ ~62 files (bench/tools) — owner scope call.
   - R15 (2026-06-25): disposition inventory produced: [`reports/phase7-taiwan-tooling-inventory.md`](reports/phase7-taiwan-tooling-inventory.md).
   - R16 (2026-06-25): `scripts/bench/` deleted (9 files, 0 consumers). `scripts/tools/` deliberate-keep (48 generic-keep build-chain/editorial + 38 port-seed-dormant). DONE.
-- [ ] **Taiwan-specific skills** (the 12 from R15 inventory) — port-first rule applied.
+- [x] **Taiwan-specific skills** (the 12 from R15 inventory) — port-first rule applied. Actionable scope done; 4 social-gated + twmd-become → Phase 8.
   - R15 (2026-06-25): disposition inventory produced: [`reports/phase7-taiwan-tooling-inventory.md`](reports/phase7-taiwan-tooling-inventory.md).
   - R16 (2026-06-25): deleted 4 (twmd router, taiwanmd-search, taiwanmd-validate, twmd-bench). 7 idea-reusable kept dormant (port-first: 3 editorial-rebornable queued in Phase 6 Tier C, 4 social-gated blocked). 1 held (twmd-become, 28 dependents).
   - R17 (2026-06-25): ported 3 editorial-rebornable (twmd-peer → lb-peer, twmd-news-lens → lb-news-lens, twmd-music-media-audit → lb-media-audit), then `git rm` originals. 4 social-gated remain dormant. twmd-become dependents 28 → 25.
+- Remaining deferred cleanup (~14 src/ comment citations) → Phase 8.
+
+### Phase 8: Capability-gated skill ports + deferred cleanup ⏸ PARKED
+
+Every box here is blocked on a LagunaBeach.md capability that does not exist yet (not on implementer effort). Unpark each when its gating condition lands.
+
+- **Blocked on analytics (no GA4 / Search Console / Cloudflare):**
+  - [ ] `lb-evolve` ← `twmd-evolve`
+  - [ ] `lb-analyze` ← `twmd-analyze`
+- **Blocked on PR/issue volume (personal fork):**
+  - [ ] `lb-maintainer` ← `twmd-maintainer`
+  - [ ] `lb-pr-review` ← `twmd-pr-review`
+- **Blocked on automation/cron organs (ROUTINE.en.md: none active):**
+  - [ ] `lb-heartbeat` ← `twmd-heartbeat`/`heartbeat`, `lb-finale` ← `twmd-finale`, `lb-routine` ← `twmd-routine`, `lb-routine-audit` ← `twmd-routine-audit`, `lb-probe` ← `twmd-probe`, `lb-babel` ← `twmd-babel`, `lb-batch-audit` ← `twmd-batch-audit`, `lb-weekly-report` ← `twmd-weekly-report`
+- **Blocked on cognitive/data organs (diary / LESSONS-INBOX / MEMORY-PIPELINE / Supabase):**
+  - [ ] `lb-diary`, `lb-distill`, `lb-memory`, `lb-self-evolve`, `lb-feedback-triage` (build the organ first, then the skill)
+- **Blocked on social presence (no Threads/X accounts) — port-first-then-delete:**
+  - [ ] `lb-harvest` ← `twmd-harvest`, `lb-spore` ← `twmd-spore`, `lb-spore-pick` ← `twmd-spore-pick`, `lb-spore-publish` ← `twmd-spore-publish` (4 twmd originals stay dormant until ported, then `git rm`)
+  - [ ] `twmd-become` HELD — delete only after all 25 remaining dependents port to `lb-become` or are deleted
+- **Buildable but no current use (conditional, low priority):**
+  - [ ] `lb-release` ← `twmd-release` (when LB starts tagging releases)
+  - [ ] `lb-language-birth` ← `twmd-language-birth` (when adding a 3rd locale)
+- **Cosmetic cleanup (NOT capability-gated; deferred by minimal-change rule):**
+  - [ ] ~14 `src/` comment citations of deleted report filenames (e.g. `SporeFootprint.astro`, `article-render.ts`) — dangling doc-refs. Clean up when next editing each file.
 
 ---
 
-**Migration core complete (2026-06-24).** Phases 0–5 done (site fully localized). Phase 6 (skill namespace) + Phase 7 (Taiwan-inheritance sweep) in progress — tracked above. Build green (en 0 broken, 0.12% overall). Remaining pre-existing items (6 `/zh-TW` dead links from enabled-but-empty locale) are operational debt, not migration.
+**Migration complete (2026-06-25).** Phases 0–7 done (site fully localized, skills ported, Taiwan-inheritance resolved). Capability-gated residue (skills blocked on analytics/social/organs/PR-volume) parked in Phase 8 for when those capabilities land. Build green (en 0 broken, 0.13% overall). Remaining pre-existing items (6 `/zh-TW` dead links from enabled-but-empty locale) are operational debt, not migration.
 
 ---
 
