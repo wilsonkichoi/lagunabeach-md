@@ -420,16 +420,51 @@ Tasks:
 > - `knowledge/**` limitation: merge=ours cannot auto-resolve modify/delete conflicts (193 files upstream modified that we deleted) or block NEW files upstream adds (36 new Taiwan articles would land). Future merges need manual cleanup of these two categories.
 > - Upstream divergence at fetch (cadd10fad..244ced555): 1866 files changed, +41636/-15442 lines.
 
+### Phase 6: Skill Namespace Migration (`lb-*` skills + router) 🔄 IN PROGRESS
+
+Phase 5 audited all 37 skills ([`reports/phase5-skill-audit.md`](reports/phase5-skill-audit.md): 21 reusable / 11 Taiwan-specific / 5 defer) but only ported the core content loop (`lb-become`, `lb-write`, `lb-sync`) plus the new orchestration loop (`lb-implement`, `lb-review`). This phase ports the remaining reusable skills into the `lb-*` namespace and adds an `lb` router so they're discoverable.
+
+**Porting pattern** (same thin-shell discipline as `lb-become`/`lb-sync` — see [`.claude/skills/README.md`](.claude/skills/README.md) design tenets):
+
+1. **Thin shell.** SKILL.md = trigger keywords + a forced "read pipeline / run script" line + a one-line wrap-up note. No restated stages (drift = decay).
+2. **Gate on `lb-become`**, never `twmd-become`/`BECOME_TAIWANMD.md`. Reference `BECOME_LAGUNABEACH.md` + the `.en` docs.
+3. **English triggers** in `description` (this fork is English-default). Swap Taiwan content/accounts/`三源`/sovereignty framing for LB equivalents or drop it.
+4. **Point at real LB scripts** (verify with `ls` per Rule 6 — several upstream paths moved: `test-frontmatter.mjs` is in `scripts/core/`, `test-wikilinks.mjs`/`check-references.mjs` in `scripts/utils/`).
+5. **Don't translate the 200KB Chinese pipeline docs.** Where a skill needs a pipeline, write a SHORT `.en.md` sequencer (the `lb-write` ← `REWRITE-PIPELINE.en.md` precedent), or make the skill self-contained if it just wraps a script.
+
+**Tiers** (do cheapest/highest-value first; a skill is only worth creating if its capability works for LB _now_ — no speculative dead skills):
+
+- **Tier A — self-contained, no pipeline doc, useful now:**
+  - [x] `lb` — router. Globs `.claude/skills/lb-*`, lists them + LB vitals, routes only (no execution). → [`.claude/skills/lb/SKILL.md`](.claude/skills/lb/SKILL.md)
+  - [x] `lb-validate` ← `taiwanmd-validate`. Runs `article-health.py` + `scripts/core/test-frontmatter.mjs` + `scripts/utils/{test-wikilinks,check-references}.mjs`; standards from `EDITORIAL.en.md`. → [`.claude/skills/lb-validate/SKILL.md`](.claude/skills/lb-validate/SKILL.md)
+  - [x] `lb-search` ← `taiwanmd-search`. Wraps `cli/src/index.js search/read/list` over LB content. → [`.claude/skills/lb-search/SKILL.md`](.claude/skills/lb-search/SKILL.md)
+- **Tier B — wraps an existing LB build script (light adaptation):**
+  - [ ] `lb-embeddings` ← `twmd-embeddings` — wrap `prebuild:related` / `build-embeddings.mjs` (bge-m3 tabled per Phase 5 R10; tag-overlap is current).
+  - [ ] `lb-refresh` ← `twmd-refresh` — wrap the dashboard-regen subset of `refresh-data.sh` that applies to LB (drop `三源`/sense fetch — no GA4/SC/CF accounts yet).
+  - [ ] `lb-release` ← `twmd-release` — release tagging + changelog (only once LB starts tagging releases).
+  - [ ] `lb-language-birth` ← `twmd-language-birth` — register a new locale (zh-TW already enabled; useful when adding a 3rd lang).
+- **Tier C — needs a SHORT `.en.md` pipeline sequencer first:**
+  - [ ] `lb-translate` ← `twmd-translate` (`TRANSLATION-PIPELINE.en.md`)
+  - [ ] `lb-factcheck` ← `twmd-factcheck` (`FACTCHECK-PIPELINE.en.md`; pairs with Rule 12)
+  - [ ] `lb-evolve` ← `twmd-evolve` (`EVOLVE-PIPELINE.en.md`; needs analytics to be non-trivial)
+  - [ ] `lb-analyze` ← `twmd-analyze` (`ANALYSIS-PIPELINE.en.md`)
+  - [ ] `lb-maintainer` ← `twmd-maintainer` / `lb-pr-review` ← `twmd-pr-review` (`MAINTAINER-PIPELINE.en.md`; needs PR volume)
+  - [ ] `lb-heartbeat` ← `twmd-heartbeat` / `heartbeat`, `lb-finale` ← `twmd-finale`, `lb-routine` ← `twmd-routine`, `lb-routine-audit`, `lb-probe`, `lb-babel`, `lb-batch-audit`, `lb-weekly-report`
+- **DEFER — blocked on LB organs that don't exist yet** (diary, LESSONS-INBOX, MEMORY-PIPELINE, Supabase feedback): `lb-diary`, `lb-distill`, `lb-memory`, `lb-self-evolve`, `lb-feedback-triage`. Build the organ first, then the skill.
+- **Taiwan-specific — stay dormant** (Rule 1, do not port/strip): `twmd-become`, `twmd-bench`, `twmd-harvest`, `twmd-music-media-audit`, `twmd-news-lens`, `twmd-peer`, `twmd-spore{,-pick,-publish}`, `twmd` (Taiwan router), `taiwanmd-search` (superseded by `lb-search`).
+
+> **Soft spots flagged in the Phase 5 audit, still open:** (1) verdicts were assigned by reading SKILL.md descriptions, not by test-porting — a "reusable" skill may still have Taiwan assumptions in its pipeline doc that only surface on first run (same failure class as the supporters/spores leaks). Port + run each before trusting it. (2) Tier C skills are blocked on writing their `.en.md` pipeline sequencers; that's the bulk of the remaining work.
+
 ---
 
-**Migration complete (2026-06-24).** All 7 phases done. Build green (en 0 broken, 0.12% overall). Remaining pre-existing items (6 `/zh-TW` dead links from enabled-but-empty locale) are operational debt, not migration.
+**Migration core complete (2026-06-24).** Phases 0–5 done; Phase 6 (skill namespace) in progress — Tier A shipped, Tiers B/C tracked above. Build green (en 0 broken, 0.12% overall). Remaining pre-existing items (6 `/zh-TW` dead links from enabled-but-empty locale) are operational debt, not migration.
 
 ---
 
 ## Key Facts
 
-- Working directory: `/Users/wchoi/src/lagunabeach-md-fork`
-- Old standalone (archived): `/Users/wchoi/src/lagunabeach-md` (points to lagunabeach-md-v0)
+- Working directory: `/Users/wchoi/src/lagunabeach-md`
+- Old standalone (archived): `/Users/wchoi/src/lagunabeach-md-v0`
 - User has RTX 4090 (for embeddings when ready)
 - User is native Chinese speaker (can validate translations)
 - bun is installed at ~/.bun/bin/bun
