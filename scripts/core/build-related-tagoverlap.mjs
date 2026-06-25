@@ -24,7 +24,7 @@ const WIKI_LINK_BONUS = 2;
 const args = process.argv.slice(2);
 const outDir = resolve(
   process.cwd(),
-  args[args.indexOf('--out') + 1] || 'src/data/related-tagoverlap',
+  args[args.indexOf('--out') + 1] || 'src/data/related',
 );
 
 async function scanArticles() {
