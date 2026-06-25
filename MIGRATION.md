@@ -397,7 +397,7 @@ Low priority / cosmetic:
 - `docs/semiont/ROUTINE.en.md` (138 lines) - automation system guide: design principles, 5-stage lifecycle, 16-routine inventory, adoption roadmap for LB
 - Shadow-translation convention documented in BECOME_LAGUNABEACH.md §Shadow Translation Convention (rules, current inventory table)
 
-### Phase 5: Path B Preparation (Semiont Scaffolds) ⬜ IN PROGRESS
+### Phase 5: Path B Preparation (Semiont Scaffolds) ✅ COMPLETE
 
 Tasks:
 
@@ -408,7 +408,7 @@ Tasks:
   - [x] `docs/pipelines/REWRITE-PIPELINE.en.md` — SHORT (~1pg) step-sequencer (mode → research → draft per `EDITORIAL.en.md` → fact-check → quality-checklist gate → `lb-sync`). Do NOT translate upstream's 206KB v7.0. **(R7)** → [`docs/pipelines/REWRITE-PIPELINE.en.md`](docs/pipelines/REWRITE-PIPELINE.en.md)
   - [x] `lb-write` — thin shell: `lb-become` gate → read `REWRITE-PIPELINE.en.md` → execute. Handles BOTH new + rewrite (one skill). **(R7)** → [`.claude/skills/lb-write/SKILL.md`](.claude/skills/lb-write/SKILL.md)
 - [x] Adapt `scripts/tools/article-health.py` for English content **(R8)** — source-lang swap zh-TW→en, `_get_all_zh`→`_get_all_source`, zh-TW added to exclusion lists; word_count.py already calibrated (250-word, APPLIES_TO=en); CJK plugins auto-skip via APPLIES_TO=zh-TW
-- [ ] Adapt `scripts/core/build-embeddings.mjs` for local RTX 4090 (bge-m3 works for English) — **DEFERRED**: needs Wilson scope call (no GPU fleet on this fork's hardware)
+- [x] Adapt `scripts/core/build-embeddings.mjs` — CATEGORY_MAP Taiwan→LB **(R9)**: 9 LB categories mapped, 18 en articles embed via localhost Ollama bge-m3. Also: `build-related-tagoverlap.mjs` added (deterministic tag+wikilink scoring). Comparison in `reports/phase5-related-experiment.md`. Stale Taiwan-only `src/data/related/{es,fr,ja,ko}.json` replaced with `{}`. RAG-chatbot-as-product is separate future work (vectors gitignored, ready when needed).
 - [x] Create minimal `ROUTINE.md` (2-3 inactive routines documented) **(R8)** — satisfied by [`docs/semiont/ROUTINE.en.md`](docs/semiont/ROUTINE.en.md) (v2.0, 3 proposed inactive routines, 5-stage lifecycle, design principles; CLAUDE.md boot flow already points here)
 - [x] Test upstream merge: `git fetch upstream && git merge upstream/main --no-commit` then abort
 - [x] Verify `.gitattributes` protects correctly (merge.ours.driver=true confirmed; per-clone config required)
