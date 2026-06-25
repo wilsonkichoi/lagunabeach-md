@@ -32,12 +32,12 @@ npm run prebuild:dashboard && npm run prebuild:llms
 
 ### What prebuild:dashboard executes (4-step chain)
 
-| #   | Script                                                                                        | Output                                                        |
-| --- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| 1   | `python3 scripts/tools/article-health.py --baseline-out scripts/tools/.quality-baseline.json` | Quality baseline (18 articles scanned)                        |
-| 2   | `python3 scripts/core/generate-dashboard-immune.py`                                           | `public/api/dashboard-immune.json` (6-dimension immune score) |
-| 3   | `node scripts/core/generate-dashboard-data.js`                                                | `public/api/dashboard-alerts.json` context data               |
-| 4   | `node scripts/core/generate-dashboard-alerts.mjs`                                             | `public/api/dashboard-alerts.json` (red/yellow alerts)        |
+| #   | Script                                                                                        | Output                                                                                   |
+| --- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| 1   | `python3 scripts/tools/article-health.py --baseline-out scripts/tools/.quality-baseline.json` | Quality baseline (18 articles scanned)                                                   |
+| 2   | `python3 scripts/core/generate-dashboard-immune.py`                                           | `public/api/dashboard-immune.json` (6-dimension immune score)                            |
+| 3   | `node scripts/core/generate-dashboard-data.js`                                                | `public/api/dashboard-{articles,vitals,translations,organism}.json` (context for step 4) |
+| 4   | `node scripts/core/generate-dashboard-alerts.mjs`                                             | `public/api/dashboard-alerts.json` (red/yellow alerts)                                   |
 
 ### What prebuild:llms executes
 
