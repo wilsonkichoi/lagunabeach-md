@@ -5,8 +5,7 @@
  * 為什麼抽出來：Layout.astro 之前 977 行；這兩段 inline script 各自 ~50 行，
  * 邏輯內聚（都是 first-paint 前的 attribute 套用），抽出來讓 Layout 主結構乾淨。
  *
- * 不抽出：GA / justfont config / FOUC fallback — 這些跟 Layout 的字型 cascade
- * 緊密耦合，分離反而增加心智負擔。
+ * 不抽出：GA — 跟 Layout 耦合，分離反而增加心智負擔。
  *
  * 內容：
  *   1. shot-mode init（?shot=1 → data-shot attr，generate-og-images.mjs 用）

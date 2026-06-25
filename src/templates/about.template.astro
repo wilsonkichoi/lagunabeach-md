@@ -1,7 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import PageHero from '../components/PageHero.astro';
-import ProticoScript from '../components/ProticoScript.astro';
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
 // 2026-06-13 contributors SSOT：grid 改 data-driven，吃 public/api/contributors.json
 // 的完整名單（generate-contributors-data.js 從 GitHub /contributors API 每次
@@ -545,9 +544,6 @@ const siteGuideCards = [
       </div>
     </section>
   </div>
-
-  <!-- Protico Community Chat Bubble — sponsored by Howie Young -->
-  <ProticoScript />
 </Layout>
 
 <style>

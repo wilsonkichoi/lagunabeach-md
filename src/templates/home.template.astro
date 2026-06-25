@@ -26,7 +26,6 @@ import RecentUpdates from '../components/home/RecentUpdates.astro';
 import NewsletterSection from '../components/home/NewsletterSection.astro';
 import CommunityFeedback from '../components/home/CommunityFeedback.astro';
 import ContributeSection from '../components/home/ContributeSection.astro';
-import ProticoScript from '../components/ProticoScript.astro';
 import { fetchRecentCommits } from '../lib/commits';
 import { feedbacks } from '../data/feedbacks';
 import { useTranslations, getLangFromUrl } from '../i18n/utils';
@@ -343,9 +342,6 @@ const readingPathFooterItems = [
 
   <div data-ga-view="contribute"><ContributeSection /></div>
 </Layout>
-
-<!-- Protico Community Chat Bubble — sponsored by Howie Young -->
-<ProticoScript />
 
 <!--
   Phase 6 partial migration — index.astro (zh-TW)
