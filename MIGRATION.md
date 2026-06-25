@@ -402,7 +402,11 @@ Low priority / cosmetic:
 Tasks:
 
 - [x] Review all 33 `.claude/skills/twmd-*/SKILL.md` (+4 siblings) - categorize as reusable vs Taiwan-specific → [`reports/phase5-skill-audit.md`](reports/phase5-skill-audit.md) (21 reusable, 11 Taiwan-specific, 5 defer)
-- [ ] Create 3 LB skills: `lb-write`, `lb-rewrite`, `lb-sync`
+- [ ] Create LB skills (scope locked 2026-06-24; "3 skills" superseded — write+rewrite merge into one, `lb-become` added):
+  - [x] `lb-become` — thin identity-load (Read `BECOME_LAGUNABEACH.md`, confirm identity + SSOT rule + autonomy boundaries). No Step 0-9 / mode dispatcher (Rule 5). Shared gate for the others. **(R6)** → [`.claude/skills/lb-become/SKILL.md`](.claude/skills/lb-become/SKILL.md)
+  - [x] `lb-sync` — wrap `scripts/core/sync.sh` (SSOT rebuild `src/content/` ← `knowledge/`; NOT translation). **(R6)** → [`.claude/skills/lb-sync/SKILL.md`](.claude/skills/lb-sync/SKILL.md)
+  - [ ] `docs/pipelines/REWRITE-PIPELINE.en.md` — SHORT (~1pg) step-sequencer (mode → research → draft per `EDITORIAL.en.md` → fact-check → quality-checklist gate → `lb-sync`). Do NOT translate upstream's 206KB v7.0. **(R7)**
+  - [ ] `lb-write` — thin shell: `lb-become` gate → read `REWRITE-PIPELINE.en.md` → execute. Handles BOTH new + rewrite (one skill). **(R7)**
 - [ ] Adapt `scripts/tools/article-health.py` for English content
 - [ ] Adapt `scripts/core/build-embeddings.mjs` for local RTX 4090 (bge-m3 works for English)
 - [ ] Create minimal `ROUTINE.md` (2-3 inactive routines documented)
