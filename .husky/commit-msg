@@ -45,7 +45,7 @@ if [ -n "$staged_for_scope" ]; then
 
   # 排除 build-output 後算 domain 數
   non_auto=$(echo "$domains_touched" | tr ' ' '\n' | grep -v '^$' | grep -v '^build-output$' | sort -u)
-  domain_count=$(printf '%s\n' "$non_auto" | grep -c .)
+  domain_count=$(printf '%s\n' "$non_auto" | grep -c . || true)
 
   if [ "$domain_count" -ge 2 ]; then
     # 檢查 commit message 是否已聲明 multi-narrative（讀 $1 = 本次 commit 的訊息檔）
