@@ -2,7 +2,6 @@
 import Layout from '../layouts/Layout.astro';
 import '../styles/dashboard.css';
 import PageHero from '../components/PageHero.astro';
-import SupporterTimeline from '../components/SupporterTimeline.astro';
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
 
 const lang = getLangFromUrl(Astro.url);
@@ -426,11 +425,6 @@ const isEn = lang === 'en';
         <div class="ca-chart" id="ca-category-chart"></div>
         <div class="ca-stats" id="ca-stats"></div>
       </div>
-    </section>
-
-    <!-- Supporters / 贊助時間軸 -->
-    <section class="section" id="supporters">
-      <SupporterTimeline />
     </section>
 
     <!-- Next Steps -->

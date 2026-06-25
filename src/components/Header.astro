@@ -290,69 +290,6 @@ const categoryList = [
                   </Fragment>
                 );
               }
-              if (item.path === '/map') {
-                return (
-                  <Fragment>
-                    {showSep && <span class="nav-sep" />}
-                    <div class="nav-dropdown">
-                      <a
-                        href={item.fullPath}
-                        class:list={['nav-link', { active: item.active }]}
-                      >
-                        {item.label} <span class="dropdown-arrow">▾</span>
-                      </a>
-                      <div class="dropdown-menu">
-                        <a
-                          href={navHref('/map')}
-                          class="dropdown-item dropdown-section-header"
-                        >
-                          📍 {t('nav.map.explore')}
-                        </a>
-                        <div class="dropdown-divider" />
-                        <a href={navHref('/map')} class="dropdown-item">
-                          {t('nav.data.shape')} 🗺️
-                        </a>
-                      </div>
-                    </div>
-                  </Fragment>
-                );
-              }
-              if (item.path === '/data') {
-                return (
-                  <Fragment>
-                    {showSep && <span class="nav-sep" />}
-                    <div class="nav-dropdown">
-                      <a
-                        href={item.fullPath}
-                        class:list={['nav-link', { active: item.active }]}
-                      >
-                        {item.label} <span class="dropdown-arrow">▾</span>
-                      </a>
-                      <div class="dropdown-menu">
-                        <a
-                          href={navHref('/data')}
-                          class="dropdown-item dropdown-section-header"
-                        >
-                          {t('nav.data')}
-                        </a>
-                        <div class="dropdown-divider" />
-                        <a
-                          href={`${navHref('/data')}#global`}
-                          class="dropdown-item"
-                        >
-                          🌏 {t('nav.data.global')}
-                        </a>
-                        <a
-                          href={`${navHref('/data')}#democracy`}
-                          class="dropdown-item"
-                        >
-                          📡 {t('nav.data.democracy')}
-                        </a>
-                      </div>
-                    </div>
-                  </Fragment>
-                );
-              }
               if (item.path === '/resources') {
                 return (
                   <Fragment>
@@ -589,13 +526,9 @@ const categoryList = [
       >
         {
           navConfig.map((item) => {
-            const hasSub = [
-              '/explore',
-              '/map',
-              '/data',
-              '/semiont',
-              '/resources',
-            ].includes(item.path);
+            const hasSub = ['/explore', '/semiont', '/resources'].includes(
+              item.path,
+            );
             return (
               <Fragment>
                 <div class:list={['mobile-nav-item', { 'has-sub': hasSub }]}>
@@ -630,17 +563,6 @@ const categoryList = [
                       onclick="document.querySelector('.nav-mobile').classList.remove('open')"
                     >
                       {t('nav.graph-view')} 🕸️
-                    </a>
-                  </div>
-                )}
-                {item.path === '/map' && (
-                  <div class="mobile-sub-links open">
-                    <a
-                      href={navHref('/map')}
-                      class="nav-link nav-sub-link"
-                      onclick="document.querySelector('.nav-mobile').classList.remove('open')"
-                    >
-                      {t('nav.data.shape')} 🗺️
                     </a>
                   </div>
                 )}

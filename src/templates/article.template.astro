@@ -289,8 +289,11 @@ const encodedTitle = encodeURIComponent(title);
     >
       <!-- Left: Table of Contents (h-full lets the wrapper inherit grid row height,
            giving the inner sticky nav room to scroll within) -->
-      <div class="h-full [grid-area:toc] max-lg:hidden" aria-label="目錄欄">
-        <TableOfContents content={processedContent} />
+      <div
+        class="h-full [grid-area:toc] max-lg:hidden"
+        aria-label={t('article.toc')}
+      >
+        <TableOfContents content={processedContent} lang={lang} />
       </div>
 
       <!-- Center: Article content -->
