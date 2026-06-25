@@ -67,7 +67,7 @@ upstream_canonical:
 | [REWRITE-PIPELINE.md](REWRITE-PIPELINE.md)                               | 手動觸發            | 寫文章 / 重寫文章 SOP                                 |
 | [BRANCH-PIPELINE.md](BRANCH-PIPELINE.md)                                 | 「分析 X」觸發      | 知識分支分析器                                        |
 | [DASHBOARD-PIPELINE.md](DASHBOARD-PIPELINE.md)                           | prebuild + 手動 GA4 | Dashboard 數據管線 + 模板架構                         |
-| [BENCH-PIPELINE.md](BENCH-PIPELINE.md)                                   | `/twmd-bench`       | Sovereignty-Bench-TW 7-stage SOP                      |
+| [BENCH-PIPELINE.md](BENCH-PIPELINE.md)                                   | (deleted skill)     | Sovereignty-Bench-TW 7-stage SOP (dormant, LB N/A)    |
 | [SQUEEZE-MODELS-MAX-PIPELINE.md](SQUEEZE-MODELS-MAX-PIPELINE.md)         | `/twmd-babel`       | 4-tier model cascade 多語批次                         |
 | [TRANSLATION-PIPELINE.md](TRANSLATION-PIPELINE.md)                       | `/twmd-translate`   | 單篇文章翻譯                                          |
 | [PEER-INGESTION-PIPELINE.md](PEER-INGESTION-PIPELINE.md)                 | `/twmd-peer`        | 策展 peer 分析                                        |

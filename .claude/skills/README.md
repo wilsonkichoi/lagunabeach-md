@@ -14,7 +14,6 @@
 
 | Skill             | Trigger                    | Pointer                                                                         |
 | ----------------- | -------------------------- | ------------------------------------------------------------------------------- |
-| `/twmd`           | 「twmd」「我想做什麼」     | dispatcher，本 README                                                           |
 | `/twmd-become`    | 「成為 taiwan.md」「甦醒」 | [`BECOME_TAIWANMD.md`](../../BECOME_TAIWANMD.md)                                |
 | `/twmd-heartbeat` | 「twmd 心跳 / 完整心跳」   | [`HEARTBEAT.md`](../../docs/semiont/HEARTBEAT.md)（既有 `/heartbeat` 雙軌共存） |
 | `/heartbeat`      | 「心跳」「Heartbeat」      | [`HEARTBEAT.md`](../../docs/semiont/HEARTBEAT.md)                               |
@@ -44,13 +43,12 @@
 
 ### 🛰️ 系統（Tier 3 不定期）
 
-| Skill                  | Trigger                   | Pipeline                                                                     |
-| ---------------------- | ------------------------- | ---------------------------------------------------------------------------- |
-| `/twmd-bench`          | 「跑 bench / 加新 model」 | [BENCH-PIPELINE](../../docs/pipelines/BENCH-PIPELINE.md)                     |
-| `/twmd-release`        | 「發版 / release」        | [RELEASE-PIPELINE](../../docs/pipelines/RELEASE-PIPELINE.md)                 |
-| `/twmd-distill`        | 「distill / 消化教訓」    | [LESSONS-INBOX §Distill](../../docs/semiont/LESSONS-INBOX.md)                |
-| `/twmd-language-birth` | 「加新語言」              | [LANGUAGE-BIRTH-CHECKLIST](../../docs/pipelines/LANGUAGE-BIRTH-CHECKLIST.md) |
-| `/twmd-self-evolve`    | 「自我進化 / Beat 2」     | LONGINGS + UNKNOWNS + DNA #15                                                |
+| Skill                  | Trigger                | Pipeline                                                                     |
+| ---------------------- | ---------------------- | ---------------------------------------------------------------------------- |
+| `/twmd-release`        | 「發版 / release」     | [RELEASE-PIPELINE](../../docs/pipelines/RELEASE-PIPELINE.md)                 |
+| `/twmd-distill`        | 「distill / 消化教訓」 | [LESSONS-INBOX §Distill](../../docs/semiont/LESSONS-INBOX.md)                |
+| `/twmd-language-birth` | 「加新語言」           | [LANGUAGE-BIRTH-CHECKLIST](../../docs/pipelines/LANGUAGE-BIRTH-CHECKLIST.md) |
+| `/twmd-self-evolve`    | 「自我進化 / Beat 2」  | LONGINGS + UNKNOWNS + DNA #15                                                |
 
 ### 🔧 補強（Insight gap）
 
@@ -58,12 +56,5 @@
 | ------------------- | ---------------------- | ---------------------------------------------------------------------- |
 | `/twmd-refresh`     | 「資料更新 / refresh」 | [DATA-REFRESH-PIPELINE](../../docs/pipelines/DATA-REFRESH-PIPELINE.md) |
 | `/twmd-batch-audit` | 「sub-agent 後驗證」   | DNA #32 + #42 + audit-batch.sh                                         |
-
-### 🛠️ 既有（taiwanmd- prefix，雙軌共存）
-
-| Skill                | 用途                                       |
-| -------------------- | ------------------------------------------ |
-| `/taiwanmd-search`   | 全站知識庫搜尋（cli/src/index.js search）  |
-| `/taiwanmd-validate` | 文章品質驗證（frontmatter + prose-health） |
 
 🧬

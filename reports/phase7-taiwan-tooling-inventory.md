@@ -1,8 +1,10 @@
 # Phase 7 Taiwan-Tooling Disposition Inventory
 
 This inventory catalogs every dormant Taiwan-inheritance script and skill remaining
-in the repo. Its purpose is to provide Wilson with a per-category approval basis for
-future deletions. **This round deletes nothing.**
+in the repo. Originally produced as a pre-deletion triage (R15); updated R16 after
+Wilson approved Batch A/B + twmd-bench deletion and split Batch C into port-first (7)
+
+- held (twmd-become).
 
 ## Disposition key
 
@@ -13,15 +15,17 @@ future deletions. **This round deletes nothing.**
 | 3. superseded-delete | An existing `lb-*` already replaces it                         | Safe to delete                                |
 | 4. no-analog-delete  | No LB path exists or can exist                                 | Safe to delete                                |
 
-## Headline counts
+## Headline counts (post-R16 deletions)
 
-| Disposition          | scripts/bench/ | scripts/tools/ (Taiwan-ref subset) | Skills | Total   |
-| -------------------- | -------------- | ---------------------------------- | ------ | ------- |
-| 1. generic-keep      | 0              | 48                                 | 0      | 48      |
-| 2. port-seed-dormant | 0              | 38                                 | 0      | 38      |
-| 3. superseded-delete | 0              | 0                                  | 5      | 5       |
-| 4. no-analog-delete  | 9              | 0                                  | 7      | 16      |
-| **Total**            | **9**          | **86**                             | **12** | **107** |
+| Disposition            | scripts/bench/  | scripts/tools/ | Skills                        | Total   |
+| ---------------------- | --------------- | -------------- | ----------------------------- | ------- |
+| 1. generic-keep        | 0               | 48             | 0                             | 48      |
+| 2. port-seed-dormant   | 0               | 38             | 7 (idea-reusable, port-first) | 45      |
+| 3. superseded-delete   | 0               | 0              | 3 (DELETED R16)               | 3       |
+| 4. no-analog-delete    | 9 (DELETED R16) | 0              | 1 (DELETED R16)               | 10      |
+| 5. held (load-bearing) | 0               | 0              | 1 (twmd-become)               | 1       |
+| **Total inventoried**  | **9**           | **86**         | **12**                        | **107** |
+| **Deleted this round** | 9               | 0              | 4                             | **13**  |
 
 ---
 
@@ -232,71 +236,101 @@ Already counted in B.3 totals (grouped under "translation infrastructure").
 
 ---
 
-## C. Skills (12 items)
+## C. Skills (12 items inventoried)
 
-### C.1 Superseded-delete (disposition 3)
+### C.1 DELETED R16 — superseded (3 skills)
 
-These have a working `lb-*` replacement confirmed by `ls .claude/skills/lb-*/SKILL.md`.
+Deleted in R16 commit. Each had a confirmed `lb-*` replacement.
 
-| skill               | superseded by         | consumer count outside own SKILL.md                                       |
-| ------------------- | --------------------- | ------------------------------------------------------------------------- |
-| `twmd-become`       | `lb-become`           | 30 (all other twmd-\* skills reference it; all would be deleted together) |
-| `twmd` (router)     | `lb` (router)         | 0 outside `.claude/skills/README.md`                                      |
-| `taiwanmd-search`   | `lb-search`           | 0 outside `.claude/skills/README.md`                                      |
-| `taiwanmd-validate` | `lb-validate`         | 0 outside `.claude/skills/README.md`                                      |
-| `twmd-bench`        | (none, but no-analog) | 0 outside `.claude/skills/README.md`                                      |
+| skill               | superseded by | pre-delete consumer count |
+| ------------------- | ------------- | ------------------------- |
+| `twmd` (router)     | `lb` (router) | 0 outside README.md       |
+| `taiwanmd-search`   | `lb-search`   | 0 outside README.md       |
+| `taiwanmd-validate` | `lb-validate` | 0 outside README.md       |
 
-Note: `twmd-bench` is disposition 4 (no-analog), but listed here because it would be
-deleted in the same batch. Reclassified below.
+### C.2 DELETED R16 — no-analog (1 skill)
 
-### C.2 No-analog-delete (disposition 4)
+| skill        | reason                                                               | pre-delete consumer count |
+| ------------ | -------------------------------------------------------------------- | ------------------------- |
+| `twmd-bench` | Sovereignty-Bench dropped per CLAUDE.md; scripts/bench/ also deleted | 0 outside README.md       |
 
-No LB equivalent path exists. These are Taiwan-specific social/operational skills with
-no analog in a Laguna Beach content project.
+### C.3 HELD — load-bearing (1 skill)
 
-| skill                    | reason no LB analog                                      | consumer count               |
-| ------------------------ | -------------------------------------------------------- | ---------------------------- |
-| `twmd-bench`             | Sovereignty-Bench dropped per CLAUDE.md                  | 0 outside `skills/README.md` |
-| `twmd-harvest`           | Spore engagement scraping from Taiwan Threads/X accounts | 0                            |
-| `twmd-music-media-audit` | Taiwan-specific People/Music iframe audit                | 0                            |
-| `twmd-news-lens`         | 三源交叉 (3-source Taiwan news monitoring)               | 0                            |
-| `twmd-peer`              | Taiwan peer institution ingestion (TFT/NMTH)             | 0                            |
-| `twmd-spore`             | Taiwan social post authoring pipeline                    | 0                            |
-| `twmd-spore-pick`        | Daily Taiwan spore candidate selection                   | 0                            |
-| `twmd-spore-publish`     | Taiwan spore auto-publish to Threads/X                   | 0                            |
+| skill         | disposition                | evidence                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ------------- | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `twmd-become` | held-until-dependents-gone | 28 KEPT planned-port skills gate on `/twmd-become` (grep confirms: twmd-analyze, twmd-babel, twmd-diary, twmd-distill, twmd-embeddings, twmd-evolve, twmd-feedback-triage, twmd-finale, twmd-harvest, twmd-heartbeat, twmd-language-birth, twmd-maintainer, twmd-memory, twmd-music-media-audit, twmd-news-lens, twmd-peer, twmd-pr-review, twmd-refresh, twmd-release, twmd-rewrite, twmd-routine, twmd-routine-audit, twmd-self-evolve, twmd-spore, twmd-spore-pick, twmd-spore-publish, twmd-translate, twmd-weekly-report + heartbeat). Cannot delete until all dependents are ported to `lb-become` or deleted. |
 
-**Consumer counts:** All 8 have 0 references outside their own SKILL.md and other twmd-\*
-skills (which would all be deleted in the same batch). No `src/`, `scripts/`, or
-`package.json` references.
+### C.4 Port-first dormant (7 idea-reusable skills)
+
+Wilson's decision: these stay as reference until their `lb-*` rebirth is built, then
+the `twmd-*` original gets deleted. NOT straight-deletable.
+
+| skill                    | LB rebirth concept                                                      | blocker                          |
+| ------------------------ | ----------------------------------------------------------------------- | -------------------------------- |
+| `twmd-music-media-audit` | `lb-media-audit` — LB article media/iframe embed audit                  | Queued for port (Phase 6 Tier C) |
+| `twmd-news-lens`         | `lb-news-lens` — LB local-news content opportunity lens                 | Queued for port (Phase 6 Tier C) |
+| `twmd-peer`              | `lb-peer` — LB local-institution curation (LAM, LBHS, Festival of Arts) | Queued for port (Phase 6 Tier C) |
+| `twmd-harvest`           | `lb-harvest` — social engagement scraping                               | Blocked: LB social presence      |
+| `twmd-spore`             | `lb-spore` — social post authoring                                      | Blocked: LB social presence      |
+| `twmd-spore-pick`        | `lb-spore-pick` — daily candidate selection                             | Blocked: LB social presence      |
+| `twmd-spore-publish`     | `lb-spore-publish` — auto-publish to social                             | Blocked: LB social presence      |
 
 ---
 
-## Recommended delete batches
+## Executed deletions (R16)
 
-For Wilson's per-category approval:
+### Batch A: scripts/bench/ (9 files) — DELETED
 
-### Batch A: scripts/bench/ (9 files)
+Sovereignty-Bench-TW. No LB analog, 0 consumers. Entire directory removed.
 
-Sovereignty-Bench-TW. No LB analog, 0 consumers. Delete the entire directory.
+### Batch B: Skills - superseded (3 skills) — DELETED
 
-### Batch B: Skills - superseded (4 skills)
+`twmd` (router), `taiwanmd-search`, `taiwanmd-validate`.
+Each had a confirmed `lb-*` replacement. 0 external consumers.
 
-`twmd-become`, `twmd` (router), `taiwanmd-search`, `taiwanmd-validate`.
-Each has a confirmed `lb-*` replacement. 0 external consumers (twmd-become's 30
-refs are all other twmd-\* skills that would go in Batch C).
+### Batch C partial: twmd-bench — DELETED
 
-### Batch C: Skills - no-analog (8 skills)
+Skill wrapper over the deleted Batch A bench scripts. No LB analog.
 
-`twmd-bench`, `twmd-harvest`, `twmd-music-media-audit`, `twmd-news-lens`,
-`twmd-peer`, `twmd-spore`, `twmd-spore-pick`, `twmd-spore-publish`.
-Taiwan-specific social/operational. 0 external consumers.
+**Total deleted this round:** 9 scripts + 4 skills = 13 items.
 
-**Total deletable:** 9 scripts + 12 skills = 21 items across 3 batches.
+---
 
-**NOT recommended for deletion this round (0 scripts/tools/ files):** Every
-`scripts/tools/` file with Taiwan refs is either in the build chain, serves a
-generic editorial capability, or is a port-seed waiting on a precondition. None
-qualify for disposition 3 or 4.
+## Port-first roadmap (7 idea-reusable skills)
+
+Wilson's rule: port first, then delete the original. Grouped by readiness:
+
+### Editorial-rebornable NOW (queued for Phase 6 Tier C port)
+
+These can be ported without external preconditions. Tracked in MIGRATION.md Phase 6.
+
+| twmd-\* source           | lb-\* target     | scope note                                                                |
+| ------------------------ | ---------------- | ------------------------------------------------------------------------- |
+| `twmd-music-media-audit` | `lb-media-audit` | Audit LB articles for media/image/iframe against EDITORIAL media standard |
+| `twmd-news-lens`         | `lb-news-lens`   | LB local-news lens; must define LB news sources (not copy Taiwan's 三源)  |
+| `twmd-peer`              | `lb-peer`        | LB local-institution curation (Laguna Art Museum, LBHS, Festival of Arts) |
+
+### Social-gated (blocked on LB social presence)
+
+These remain dormant reference-only until LB has active social accounts.
+
+| twmd-\* source       | lb-\* target       | precondition                          |
+| -------------------- | ------------------ | ------------------------------------- |
+| `twmd-harvest`       | `lb-harvest`       | LB Threads/X/social accounts          |
+| `twmd-spore`         | `lb-spore`         | LB social accounts + posting strategy |
+| `twmd-spore-pick`    | `lb-spore-pick`    | LB social accounts                    |
+| `twmd-spore-publish` | `lb-spore-publish` | LB social accounts                    |
+
+### HELD: twmd-become
+
+28 kept planned-port skills gate on it. Deleted only after all dependents port to
+`lb-become` or are themselves deleted.
+
+---
+
+**NOT deletable (0 scripts/tools/ files):** Every `scripts/tools/` file with Taiwan
+refs is either in the build chain, serves a generic editorial capability, or is a
+port-seed waiting on a precondition. None qualify for disposition 3 or 4.
 
 ---
 
