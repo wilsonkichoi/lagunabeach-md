@@ -1,6 +1,10 @@
 /**
  * build-embeddings.mjs — semantic index bootstrap (RAG Phase 1).
  *
+ * TABLED for LagunaBeach.md: not wired into prebuild; manual-run only.
+ * Related-articles uses tag-overlap (prebuild:related) at current 18-article scale.
+ * Revisit bge-m3 for related at ~50-80+ articles; kept for future RAG chatbot.
+ *
  * Article-level bge-m3 embeddings → two durable artifacts the whole system reuses
  * (the "keystone" of reports/research/2026-06/fleet-compute-all-pipelines-2026-06-14.md):
  *   public/api/related/{lang}.json        top-6 cosine neighbours per article

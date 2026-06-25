@@ -408,7 +408,7 @@ Tasks:
   - [x] `docs/pipelines/REWRITE-PIPELINE.en.md` — SHORT (~1pg) step-sequencer (mode → research → draft per `EDITORIAL.en.md` → fact-check → quality-checklist gate → `lb-sync`). Do NOT translate upstream's 206KB v7.0. **(R7)** → [`docs/pipelines/REWRITE-PIPELINE.en.md`](docs/pipelines/REWRITE-PIPELINE.en.md)
   - [x] `lb-write` — thin shell: `lb-become` gate → read `REWRITE-PIPELINE.en.md` → execute. Handles BOTH new + rewrite (one skill). **(R7)** → [`.claude/skills/lb-write/SKILL.md`](.claude/skills/lb-write/SKILL.md)
 - [x] Adapt `scripts/tools/article-health.py` for English content **(R8)** — source-lang swap zh-TW→en, `_get_all_zh`→`_get_all_source`, zh-TW added to exclusion lists; word_count.py already calibrated (250-word, APPLIES_TO=en); CJK plugins auto-skip via APPLIES_TO=zh-TW
-- [x] Adapt `scripts/core/build-embeddings.mjs` — CATEGORY_MAP Taiwan→LB **(R9)**: 9 LB categories mapped, 18 en articles embed via localhost Ollama bge-m3. Also: `build-related-tagoverlap.mjs` added (deterministic tag+wikilink scoring). Comparison in `reports/phase5-related-experiment.md`. Stale Taiwan-only `src/data/related/{es,fr,ja,ko}.json` replaced with `{}`. RAG-chatbot-as-product is separate future work (vectors gitignored, ready when needed).
+- [x] Adapt `scripts/core/build-embeddings.mjs` — CATEGORY_MAP Taiwan→LB **(R9)**, tag-overlap shipped as derived prebuild artifact **(R10)**: `prebuild:related` runs `build-related-tagoverlap.mjs` → `src/data/related/en.json` (gitignored, regenerated each build). bge-m3 tabled (manual-run only, revisit at 50+ articles / for RAG chatbot). Stale Taiwan `src/data/related/*.json` untracked. Comparison in `reports/phase5-related-experiment.md`.
 - [x] Create minimal `ROUTINE.md` (2-3 inactive routines documented) **(R8)** — satisfied by [`docs/semiont/ROUTINE.en.md`](docs/semiont/ROUTINE.en.md) (v2.0, 3 proposed inactive routines, 5-stage lifecycle, design principles; CLAUDE.md boot flow already points here)
 - [x] Test upstream merge: `git fetch upstream && git merge upstream/main --no-commit` then abort
 - [x] Verify `.gitattributes` protects correctly (merge.ours.driver=true confirmed; per-clone config required)
@@ -419,6 +419,10 @@ Tasks:
 > - Root-level protected files (CLAUDE.md, README.md, CONTRIBUTING.md): merge=ours works perfectly, 0 incoming changes.
 > - `knowledge/**` limitation: merge=ours cannot auto-resolve modify/delete conflicts (193 files upstream modified that we deleted) or block NEW files upstream adds (36 new Taiwan articles would land). Future merges need manual cleanup of these two categories.
 > - Upstream divergence at fetch (cadd10fad..244ced555): 1866 files changed, +41636/-15442 lines.
+
+---
+
+**Migration complete (2026-06-24).** All 7 phases done. Build green (en 0 broken, 0.12% overall). Remaining pre-existing items (6 `/zh-TW` dead links from enabled-but-empty locale) are operational debt, not migration.
 
 ---
 
