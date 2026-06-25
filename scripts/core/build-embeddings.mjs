@@ -24,37 +24,62 @@
 import { readdir, readFile, writeFile, mkdir } from 'node:fs/promises';
 import { resolve, join, basename } from 'node:path';
 import matter from 'gray-matter';
-import { ENABLED_LANGUAGE_CODES, DEFAULT_LANGUAGE } from '../../src/config/languages.mjs';
+import {
+  ENABLED_LANGUAGE_CODES,
+  DEFAULT_LANGUAGE,
+} from '../../src/config/languages.mjs';
 
 const CATEGORY_MAP = {
-  history: 'History', geography: 'Geography', culture: 'Culture', food: 'Food',
-  art: 'Art', music: 'Music', technology: 'Technology', nature: 'Nature',
-  people: 'People', politics: 'Politics', society: 'Society', economy: 'Economy',
-  lifestyle: 'Lifestyle',
+  about: 'About',
+  'art-galleries': 'Art & Galleries',
+  beaches: 'Beaches',
+  'events-festivals': 'Events & Festivals',
+  food: 'Food',
+  history: 'History',
+  'nature-marine-life': 'Nature & Marine Life',
+  neighborhoods: 'Neighborhoods',
+  trails: 'Trails',
 };
 
-const EMBED_HOST = (process.env.EMBED_HOST || 'http://localhost:11434').replace(/\/$/, '');
+const EMBED_HOST = (process.env.EMBED_HOST || 'http://localhost:11434').replace(
+  /\/$/,
+  '',
+);
 const EMBED_MODEL = process.env.EMBED_MODEL || 'bge-m3:latest';
 const DIM = 1024; // bge-m3
 const TOP_K = 8; // pre-fetch 8 neighbours as backup; frontend shows 4/3/3 (desktop/tablet/mobile)
 
 const args = process.argv.slice(2);
-const langArg = (args[args.indexOf('--langs') + 1] || 'all');
-const LANGS = langArg === 'all' || !args.includes('--langs')
-  ? ENABLED_LANGUAGE_CODES
-  : langArg.split(',');
-const LIMIT = args.includes('--limit') ? parseInt(args[args.indexOf('--limit') + 1], 10) : Infinity;
+const langArg = args[args.indexOf('--langs') + 1] || 'all';
+const LANGS =
+  langArg === 'all' || !args.includes('--langs')
+    ? ENABLED_LANGUAGE_CODES
+    : langArg.split(',');
+const LIMIT = args.includes('--limit')
+  ? parseInt(args[args.indexOf('--limit') + 1], 10)
+  : Infinity;
 
 // ── extract a rich embed text from an article: title + desc + headings + first para ──
 function embedText(data, body) {
   const parts = [data.title || '', data.description || ''];
   const lines = body.split('\n');
-  const headings = lines.filter((l) => /^#{1,3}\s/.test(l)).slice(0, 4).map((l) => l.replace(/^#+\s*/, ''));
+  const headings = lines
+    .filter((l) => /^#{1,3}\s/.test(l))
+    .slice(0, 4)
+    .map((l) => l.replace(/^#+\s*/, ''));
   parts.push(...headings);
   // first non-heading, non-blank, non-frontmatter-artifact paragraph
   const firstPara = lines.find((l) => {
     const t = l.trim();
-    return t && !t.startsWith('#') && !t.startsWith('>') && !t.startsWith('|') && !t.startsWith('_') && !t.startsWith('![') && !t.startsWith('---');
+    return (
+      t &&
+      !t.startsWith('#') &&
+      !t.startsWith('>') &&
+      !t.startsWith('|') &&
+      !t.startsWith('_') &&
+      !t.startsWith('![') &&
+      !t.startsWith('---')
+    );
   });
   if (firstPara) parts.push(firstPara.trim().slice(0, 500));
   return parts.filter(Boolean).join('\n').slice(0, 2000);
@@ -69,11 +94,17 @@ async function scanLang(lang) {
       : resolve(process.cwd(), 'knowledge', lang, folder);
     let files;
     try {
-      files = (await readdir(dir)).filter((f) => f.endsWith('.md') && !f.startsWith('_'));
-    } catch { continue; }
+      files = (await readdir(dir)).filter(
+        (f) => f.endsWith('.md') && !f.startsWith('_'),
+      );
+    } catch {
+      continue;
+    }
     for (const file of files) {
       try {
-        const { data, content } = matter(await readFile(join(dir, file), 'utf-8'));
+        const { data, content } = matter(
+          await readFile(join(dir, file), 'utf-8'),
+        );
         const name = basename(file, '.md');
         docs.push({
           slug: `${slug}/${name}`,
@@ -82,7 +113,9 @@ async function scanLang(lang) {
           url: isDefault ? `/${slug}/${name}` : `/${lang}/${slug}/${name}`,
           text: embedText(data, content),
         });
-      } catch { /* skip YAML errors */ }
+      } catch {
+        /* skip YAML errors */
+      }
     }
   }
   return docs.slice(0, LIMIT);
@@ -104,7 +137,8 @@ function l2normInt8(vec) {
   for (const x of vec) n += x * x;
   n = Math.sqrt(n) || 1;
   const out = new Int8Array(vec.length);
-  for (let i = 0; i < vec.length; i++) out[i] = Math.max(-127, Math.min(127, Math.round((vec[i] / n) * 127)));
+  for (let i = 0; i < vec.length; i++)
+    out[i] = Math.max(-127, Math.min(127, Math.round((vec[i] / n) * 127)));
   return out;
 }
 
@@ -115,7 +149,9 @@ function cosineI8(a, b) {
 }
 
 async function run() {
-  console.log(`🧬 build-embeddings — model=${EMBED_MODEL} host=${EMBED_HOST} langs=${LANGS.join(',')}`);
+  console.log(
+    `🧬 build-embeddings — model=${EMBED_MODEL} host=${EMBED_HOST} langs=${LANGS.join(',')}`,
+  );
   const outRag = resolve(process.cwd(), 'public/api/rag');
   const outRel = resolve(process.cwd(), 'public/api/related');
   // Slim related (slug-only neighbours) — committed build-input read by
@@ -125,19 +161,37 @@ async function run() {
   await mkdir(outRag, { recursive: true });
   await mkdir(outRel, { recursive: true });
   await mkdir(outRelSlim, { recursive: true });
-  const manifest = { schema: 'rag-v1', model: EMBED_MODEL, dim: DIM, quant: 'i8-unit',
-    builtAt: new Date().toISOString().replace(/\.\d+Z$/, 'Z'), langs: {}, source: 'fleet-bge-m3-bootstrap' };
+  const manifest = {
+    schema: 'rag-v1',
+    model: EMBED_MODEL,
+    dim: DIM,
+    quant: 'i8-unit',
+    builtAt: new Date().toISOString().replace(/\.\d+Z$/, 'Z'),
+    langs: {},
+    source: 'fleet-bge-m3-bootstrap',
+  };
 
   for (const lang of LANGS) {
     const t0 = Date.now();
     const docs = await scanLang(lang);
-    if (!docs.length) { console.log(`  ${lang}: 0 docs, skip`); continue; }
+    if (!docs.length) {
+      console.log(`  ${lang}: 0 docs, skip`);
+      continue;
+    }
     const vecs = [];
-    let ok = 0, fail = 0;
+    let ok = 0,
+      fail = 0;
     for (const d of docs) {
-      try { d.vec = l2normInt8(await embed(d.text)); vecs.push(d); ok++; }
-      catch (e) { fail++; if (fail <= 3) console.warn(`    ✗ ${lang}/${d.slug}: ${e.message}`); }
-      if (ok % 100 === 0 && ok) process.stdout.write(`\r  ${lang}: ${ok}/${docs.length} embedded`);
+      try {
+        d.vec = l2normInt8(await embed(d.text));
+        vecs.push(d);
+        ok++;
+      } catch (e) {
+        fail++;
+        if (fail <= 3) console.warn(`    ✗ ${lang}/${d.slug}: ${e.message}`);
+      }
+      if (ok % 100 === 0 && ok)
+        process.stdout.write(`\r  ${lang}: ${ok}/${docs.length} embedded`);
     }
     process.stdout.write('\n');
     // related-articles: top-K cosine per article (same-lang)
@@ -150,13 +204,22 @@ async function run() {
       }
       scores.sort((a, b) => b[1] - a[1]);
       related[vecs[i].slug] = scores.slice(0, TOP_K).map(([j, s]) => ({
-        slug: vecs[j].slug, title: vecs[j].title, url: vecs[j].url, score: Math.round(s * 1000) / 1000,
+        slug: vecs[j].slug,
+        title: vecs[j].title,
+        url: vecs[j].url,
+        score: Math.round(s * 1000) / 1000,
       }));
     }
     // write artifacts
     const langDir = join(outRag, lang);
     await mkdir(langDir, { recursive: true });
-    const meta = vecs.map((d, id) => ({ id, slug: d.slug, title: d.title, url: d.url, category: d.category }));
+    const meta = vecs.map((d, id) => ({
+      id,
+      slug: d.slug,
+      title: d.title,
+      url: d.url,
+      category: d.category,
+    }));
     const flat = new Int8Array(vecs.length * DIM);
     vecs.forEach((d, i) => flat.set(d.vec, i * DIM));
     await writeFile(join(langDir, 'meta.json'), JSON.stringify(meta));
@@ -166,14 +229,29 @@ async function run() {
     // Keep all TOP_K (8) — frontend renders 4/3/3, extras are backup if some
     // neighbour was deleted / is the current slug and gets filtered at render.
     const slim = {};
-    for (const [k, arr] of Object.entries(related)) slim[k] = arr.map((r) => r.slug);
+    for (const [k, arr] of Object.entries(related))
+      slim[k] = arr.map((r) => r.slug);
     await writeFile(join(outRelSlim, `${lang}.json`), JSON.stringify(slim));
-    manifest.langs[lang] = { count: vecs.length, failed: fail, bytes: flat.byteLength };
-    console.log(`  ✅ ${lang}: ${vecs.length} vecs (${fail} fail), related+shard written, ${((Date.now() - t0) / 1000).toFixed(0)}s`);
+    manifest.langs[lang] = {
+      count: vecs.length,
+      failed: fail,
+      bytes: flat.byteLength,
+    };
+    console.log(
+      `  ✅ ${lang}: ${vecs.length} vecs (${fail} fail), related+shard written, ${((Date.now() - t0) / 1000).toFixed(0)}s`,
+    );
   }
-  await writeFile(join(outRag, 'manifest.json'), JSON.stringify(manifest, null, 2));
+  await writeFile(
+    join(outRag, 'manifest.json'),
+    JSON.stringify(manifest, null, 2),
+  );
   const total = Object.values(manifest.langs).reduce((s, l) => s + l.count, 0);
-  console.log(`\n🧬 done — ${total} article vectors across ${Object.keys(manifest.langs).length} langs → public/api/rag/ + public/api/related/`);
+  console.log(
+    `\n🧬 done — ${total} article vectors across ${Object.keys(manifest.langs).length} langs → public/api/rag/ + public/api/related/`,
+  );
 }
 
-run().catch((e) => { console.error(e); process.exit(1); });
+run().catch((e) => {
+  console.error(e);
+  process.exit(1);
+});
