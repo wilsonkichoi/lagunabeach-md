@@ -324,7 +324,7 @@ These remain dormant reference-only until LB has active social accounts.
 
 ### HELD: twmd-become
 
-28 kept planned-port skills gate on it. Deleted only after all dependents port to
+25 kept planned-port skills gate on it. Deleted only after all dependents port to
 `lb-become` or are themselves deleted.
 
 ---
