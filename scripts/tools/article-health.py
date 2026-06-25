@@ -42,7 +42,7 @@ from lib.article_health import (  # noqa: E402
 
 
 def _get_staged_md() -> list[Path]:
-    """staged knowledge/*.md (zh-TW only — translations have own conventions)."""
+    """staged knowledge/*.md (source-lang only — translations have own conventions)."""
     try:
         out = subprocess.check_output(
             ["git", "diff", "--cached", "--name-only", "--diff-filter=ACM"],
@@ -54,8 +54,8 @@ def _get_staged_md() -> list[Path]:
     for line in out.splitlines():
         if not line.startswith("knowledge/"):
             continue
-        if line.startswith(("knowledge/en/", "knowledge/ja/", "knowledge/ko/",
-                            "knowledge/es/", "knowledge/fr/")):
+        if line.startswith(("knowledge/zh-TW/", "knowledge/en/", "knowledge/ja/",
+                            "knowledge/ko/", "knowledge/es/", "knowledge/fr/")):
             continue
         if not line.endswith(".md"):
             continue
@@ -65,13 +65,13 @@ def _get_staged_md() -> list[Path]:
     return files
 
 
-def _get_all_zh() -> list[Path]:
+def _get_all_source() -> list[Path]:
     root = Path("knowledge")
     if not root.exists():
         return []
     files = []
     for cat in root.iterdir():
-        if not cat.is_dir() or cat.name in ("en", "ja", "ko", "es", "fr"):
+        if not cat.is_dir() or cat.name in ("zh-TW", "en", "ja", "ko", "es", "fr"):
             continue
         for md in cat.glob("*.md"):
             if not md.name.startswith("_"):
@@ -87,10 +87,10 @@ def _cmd_fix(args) -> int:
     if args.staged:
         files = _get_staged_md()
         if not files:
-            print("🔍 staged: no zh-TW knowledge/*.md staged, skipping.")
+            print("🔍 staged: no knowledge/*.md files staged, skipping.")
             return 0
     elif args.all:
-        files = _get_all_zh()
+        files = _get_all_source()
     elif args.files:
         files = [Path(f) for f in args.files]
     else:
@@ -188,7 +188,7 @@ def _cmd_write_baseline(out_path: Path, config_path: str | None) -> int:
     """
     import datetime
     config = load_config(config_path)
-    files = _get_all_zh()
+    files = _get_all_source()
     flagged_files: list[dict] = []
     total = 0
     for f in files:
@@ -320,7 +320,7 @@ def main() -> int:
         "--output", choices=["human", "json"], default="human", help="Output format"
     )
     parser.add_argument("--staged", action="store_true", help="Use git staged files")
-    parser.add_argument("--all", action="store_true", help="Sweep all zh-TW knowledge/*.md")
+    parser.add_argument("--all", action="store_true", help="Sweep all source-lang knowledge/*.md")
     parser.add_argument("--list-checks", action="store_true", help="List registered plugins")
     parser.add_argument("--inventory", action="store_true", help="Auto-gen markdown inventory")
     parser.add_argument("--config", default=None, help="Path to config.toml")
@@ -362,10 +362,10 @@ def main() -> int:
     if args.staged:
         files = _get_staged_md()
         if not files:
-            print("🔍 staged: no zh-TW knowledge/*.md staged, skipping.")
+            print("🔍 staged: no knowledge/*.md files staged, skipping.")
             return 0
     elif args.all:
-        files = _get_all_zh()
+        files = _get_all_source()
     elif args.files:
         files = [Path(f) for f in args.files]
     else:
