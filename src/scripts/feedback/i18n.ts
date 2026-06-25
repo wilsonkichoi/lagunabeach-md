@@ -112,7 +112,7 @@ const zhTW: FeedbackStrings = {
   typeNewtopic: '建議新主題',
   typeContentHint: '這篇文章有事實錯誤或過時資訊',
   typeBugHint: '頁面、連結或顯示壞掉了',
-  typeNewtopicHint: '建議一個台灣值得寫的主題',
+  typeNewtopicHint: '建議一個拉古納海灘值得寫的主題',
   typeIdea: '一般想法',
   typeIdeaHint: '對 LagunaBeach.md 的建議或想法',
   typeNewArticle: '建議新文章',
