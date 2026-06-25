@@ -441,8 +441,8 @@ Phase 5 audited all 37 skills ([`reports/phase5-skill-audit.md`](reports/phase5-
   - [x] `lb-validate` ← `taiwanmd-validate`. Runs `article-health.py` + `scripts/core/test-frontmatter.mjs` + `scripts/utils/{test-wikilinks,check-references}.mjs`; standards from `EDITORIAL.en.md`. → [`.claude/skills/lb-validate/SKILL.md`](.claude/skills/lb-validate/SKILL.md)
   - [x] `lb-search` ← `taiwanmd-search`. Wraps `cli/src/index.js search/read/list` over LB content. → [`.claude/skills/lb-search/SKILL.md`](.claude/skills/lb-search/SKILL.md)
 - **Tier B — wraps an existing LB build script (light adaptation):**
-  - [ ] `lb-embeddings` ← `twmd-embeddings` — wrap `prebuild:related` / `build-embeddings.mjs` (bge-m3 tabled per Phase 5 R10; tag-overlap is current).
-  - [ ] `lb-refresh` ← `twmd-refresh` — wrap the dashboard-regen subset of `refresh-data.sh` that applies to LB (drop `三源`/sense fetch — no GA4/SC/CF accounts yet).
+  - [x] `lb-embeddings` ← `twmd-embeddings` — wrap `prebuild:related` / `build-related-tagoverlap.mjs` (bge-m3 tabled per Phase 5 R10; tag-overlap is current). → [`.claude/skills/lb-embeddings/SKILL.md`](.claude/skills/lb-embeddings/SKILL.md)
+  - [x] `lb-refresh` ← `twmd-refresh` — wrap `prebuild:dashboard` + `prebuild:llms` (drop `三源`/sense fetch — no GA4/SC/CF accounts yet). → [`.claude/skills/lb-refresh/SKILL.md`](.claude/skills/lb-refresh/SKILL.md)
   - [ ] `lb-release` ← `twmd-release` — release tagging + changelog (only once LB starts tagging releases).
   - [ ] `lb-language-birth` ← `twmd-language-birth` — register a new locale (zh-TW already enabled; useful when adding a 3rd lang).
 - **Tier C — needs a SHORT `.en.md` pipeline sequencer first:**
