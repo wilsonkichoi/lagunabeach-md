@@ -407,9 +407,9 @@ Tasks:
   - [x] `lb-sync` — wrap `scripts/core/sync.sh` (SSOT rebuild `src/content/` ← `knowledge/`; NOT translation). **(R6)** → [`.claude/skills/lb-sync/SKILL.md`](.claude/skills/lb-sync/SKILL.md)
   - [x] `docs/pipelines/REWRITE-PIPELINE.en.md` — SHORT (~1pg) step-sequencer (mode → research → draft per `EDITORIAL.en.md` → fact-check → quality-checklist gate → `lb-sync`). Do NOT translate upstream's 206KB v7.0. **(R7)** → [`docs/pipelines/REWRITE-PIPELINE.en.md`](docs/pipelines/REWRITE-PIPELINE.en.md)
   - [x] `lb-write` — thin shell: `lb-become` gate → read `REWRITE-PIPELINE.en.md` → execute. Handles BOTH new + rewrite (one skill). **(R7)** → [`.claude/skills/lb-write/SKILL.md`](.claude/skills/lb-write/SKILL.md)
-- [ ] Adapt `scripts/tools/article-health.py` for English content
-- [ ] Adapt `scripts/core/build-embeddings.mjs` for local RTX 4090 (bge-m3 works for English)
-- [ ] Create minimal `ROUTINE.md` (2-3 inactive routines documented)
+- [x] Adapt `scripts/tools/article-health.py` for English content **(R8)** — source-lang swap zh-TW→en, `_get_all_zh`→`_get_all_source`, zh-TW added to exclusion lists; word_count.py already calibrated (250-word, APPLIES_TO=en); CJK plugins auto-skip via APPLIES_TO=zh-TW
+- [ ] Adapt `scripts/core/build-embeddings.mjs` for local RTX 4090 (bge-m3 works for English) — **DEFERRED**: needs Wilson scope call (no GPU fleet on this fork's hardware)
+- [x] Create minimal `ROUTINE.md` (2-3 inactive routines documented) **(R8)** — satisfied by [`docs/semiont/ROUTINE.en.md`](docs/semiont/ROUTINE.en.md) (v2.0, 3 proposed inactive routines, 5-stage lifecycle, design principles; CLAUDE.md boot flow already points here)
 - [x] Test upstream merge: `git fetch upstream && git merge upstream/main --no-commit` then abort
 - [x] Verify `.gitattributes` protects correctly (merge.ours.driver=true confirmed; per-clone config required)
 
