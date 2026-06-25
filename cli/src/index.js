@@ -24,7 +24,6 @@ import { inboxCommand } from './commands/inbox.js';
 import { sporeCommand } from './commands/spore.js';
 // v0.8 — organism introspection
 import { organsCommand } from './commands/organs.js';
-import { supportersCommand } from './commands/supporters.js';
 import { senseCommand } from './commands/sense.js';
 import { citeCommand } from './commands/cite.js';
 // v0.7 preview
@@ -69,7 +68,6 @@ sporeCommand(program);
 
 // v0.8 — organism introspection (shipped early with v0.6 since data is ready)
 organsCommand(program);
-supportersCommand(program);
 senseCommand(program);
 citeCommand(program);
 

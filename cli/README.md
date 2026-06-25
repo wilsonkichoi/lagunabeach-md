@@ -120,16 +120,6 @@ taiwanmd organs --lang en              # English labels
 taiwanmd organs --json
 ```
 
-### `taiwanmd supporters` 💚 **v0.6**
-
-Show Portaly supporter stats (PII-scrubbed by default).
-
-```bash
-taiwanmd supporters                    # Totals + recent
-taiwanmd supporters --since 2026-04-01
-taiwanmd supporters --limit 20 --json
-```
-
 ### `taiwanmd sense` 👁️ **v0.6**
 
 Show sense data: GA4 pageviews / Search Console queries / Cloudflare traffic.

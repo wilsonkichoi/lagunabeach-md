@@ -2,7 +2,6 @@
 import Layout from '../layouts/Layout.astro';
 import PageHero from '../components/PageHero.astro';
 import ProticoScript from '../components/ProticoScript.astro';
-import SupporterGrid from '../components/SupporterGrid.astro';
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
 // 2026-06-13 contributors SSOT：grid 改 data-driven，吃 public/api/contributors.json
 // 的完整名單（generate-contributors-data.js 從 GitHub /contributors API 每次
@@ -1827,72 +1826,6 @@ const siteGuideCards = [
   }
   .sponsor-note a {
     color: #3b82f6;
-  }
-
-  .supporter-link {
-    display: inline-block;
-    padding: 0.75rem 1.25rem;
-    color: #15803d;
-    text-decoration: none;
-    font-size: 0.95rem;
-    transition: color 0.2s;
-  }
-  .supporter-link:hover {
-    color: #166534;
-    text-decoration: underline;
-  }
-
-  .portaly-donate {
-    margin-top: 1.5rem;
-    padding-top: 1.5rem;
-    border-top: 1px dashed #e2e8f0;
-    text-align: center;
-  }
-  .portaly-label {
-    font-size: 0.95rem;
-    color: #475569;
-    margin: 0 auto 0.85rem;
-    line-height: 1.6;
-    max-width: 32em;
-  }
-  .portaly-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
-    background: linear-gradient(135deg, #15803d 0%, #166534 100%);
-    color: white;
-    text-decoration: none;
-    padding: 0.7rem 1.3rem;
-    border-radius: 10px;
-    font-size: 0.92rem;
-    font-weight: 600;
-    letter-spacing: 0.01em;
-    box-shadow: 0 2px 8px rgba(21, 128, 61, 0.18);
-    transition: all 0.2s ease;
-  }
-  .portaly-link:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 4px 14px rgba(21, 128, 61, 0.28);
-    background: linear-gradient(135deg, #166534 0%, #14532d 100%);
-  }
-  .portaly-note {
-    font-size: 0.82rem;
-    color: #64748b;
-    margin: 0.85rem auto 0;
-    line-height: 1.65;
-    max-width: 32em;
-  }
-  .supporter-link {
-    display: inline-block;
-    padding: 0.75rem 1.25rem;
-    color: #15803d;
-    text-decoration: none;
-    font-size: 0.95rem;
-    transition: color 0.2s;
-  }
-  .supporter-link:hover {
-    color: #166534;
-    text-decoration: underline;
   }
 
   /* ===== Responsive ===== */

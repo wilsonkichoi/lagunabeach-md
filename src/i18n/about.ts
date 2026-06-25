@@ -235,8 +235,6 @@ export const aboutUI = {
     'about.sponsors.justfont.story.desc': '',
     'about.sponsors.protico.story.title': '',
     'about.sponsors.protico.story.desc.html': '',
-    'about.sponsors.portaly.story.title': '',
-    'about.sponsors.portaly.story.desc': '',
 
     // Sponsor CTA
     'about.sponsors.cta.title': "Want to Help Tell Laguna Beach's Story?",
@@ -244,9 +242,6 @@ export const aboutUI = {
       'Whether through local expertise, professional services, or individual support, we welcome all forms of collaboration.<br />Reach out to discuss how we can work together.',
     'about.sponsors.cta.contact': '📧 Contact Us About Partnership',
     'about.sponsors.cta.github': '💖 GitHub Sponsors',
-    'about.sponsors.portaly.label': '',
-    'about.sponsors.portaly.cta': '',
-    'about.sponsors.portaly.note': '',
     // FAQ Section
     'about.faq.title': 'FAQ',
     'about.faq.subtitle': 'Things you might want to know about LagunaBeach.md',
@@ -516,8 +511,6 @@ export const aboutUI = {
     'about.sponsors.justfont.story.desc': '',
     'about.sponsors.protico.story.title': '',
     'about.sponsors.protico.story.desc.html': '',
-    'about.sponsors.portaly.story.title': '',
-    'about.sponsors.portaly.story.desc': '',
 
     // Sponsor CTA
     'about.sponsors.cta.title': '想一起訴說 Laguna Beach 的故事嗎？',
@@ -525,9 +518,6 @@ export const aboutUI = {
       '無論是在地專業、專業服務，還是個人支持，我們歡迎各種形式的合作。<br />歡迎與我們聯繫，一起討論能怎麼合作。',
     'about.sponsors.cta.contact': '📧 聯絡我們談合作',
     'about.sponsors.cta.github': '💖 GitHub Sponsors',
-    'about.sponsors.portaly.label': '',
-    'about.sponsors.portaly.cta': '',
-    'about.sponsors.portaly.note': '',
     // FAQ Section
     'about.faq.title': '常見問題',
     'about.faq.subtitle': '關於 LagunaBeach.md，你可能想知道的事',

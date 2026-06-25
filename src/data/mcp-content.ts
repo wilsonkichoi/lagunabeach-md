@@ -10,7 +10,7 @@
  *   Read & explore(10) search read list random today quiz explore graph diff terminology
  *   AI · RAG(3)        rag cite mcp-serve
  *   Contribute(5)      contribute validate audit inbox sync
- *   Organism(5)        organs stats sense spore supporters
+ *   Organism(4)        organs stats sense spore
  *   Utilities(2)       profile mailmap
  * Order of `toolDescs`/`toolReturns` MUST match: search read rag cite organs stats.
  */
@@ -52,7 +52,7 @@ export interface McpContent {
   cliLead: string;
   cliInstallComment: string;
   cliGroupTitles: string[]; // 5
-  cliDescs: string[]; // 25
+  cliDescs: string[]; // 23
 
   howTitle: string;
   howBulletsHtml: string[]; // 4, contain <strong>/<code>
@@ -181,7 +181,6 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
       'Project stats + organism health',
       'Sense data: GA4 / Search Console / Cloudflare',
       'Community spores (SPORE-LOG)',
-      'Portaly supporter stats (de-identified by default)',
       'Manage your contributor profile',
       'Inspect / manage .mailmap identity merges',
     ],
