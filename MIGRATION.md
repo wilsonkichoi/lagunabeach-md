@@ -470,7 +470,8 @@ The fork conversion (Phases 0–5) localized the _site_. This phase finishes the
 - [x] **Analytics** (`public/api/dashboard-analytics.json`) — emptied to neutral no-data shape (consumers guard with try/catch + `if (cf)`). Was 47KB/24 Taiwan refs → now 11-line placeholder, 0 Taiwan refs. Build PASS.
 - [x] **`docs/factory/` Taiwan spore/peer machinery** — deleted Taiwan operational data (HARVEST-EVOLVES-PENDING/ 8, HARVEST-FRAMING-PENDING/ 7, HARVEST-REPLIES-PENDING/ 6, CAROUSEL-BLUEPRINTS/ 10 = 31 files). Kept dormant pipeline docs (Rule 1). `spore-content-fingerprints.json` + `spore-defer.json` already neutral (empty data). No build-chain consumers (all refs in dormant `scripts/tools/`).
 - [ ] **Residual sovereignty / Taiwan refs** — Phase 4.5 did the framing purge; re-grep `台灣|taiwan|sovereignty|@taiwandotmd` across non-`knowledge/`, non-intentional-credit paths to catch leftovers.
-  - R12 (2026-06-25): shipped src/ surface fixed — Layout.astro zh-TW meta description, feedback i18n.ts zh-TW hint, Layout.astro dead `/resources` redirect removed. Dormant `tw-tiles` renderer kept (Rule 1). Remaining: scripts/ ~62 files (bench/tools), content-dates.json git-history ghost paths, ja/ko/es/fr i18n.ts hints.
+  - R12 (2026-06-25): shipped src/ surface fixed — Layout.astro zh-TW meta description, feedback i18n.ts zh-TW hint, Layout.astro dead `/resources` redirect removed. Dormant `tw-tiles` renderer kept (Rule 1).
+  - R13 (2026-06-25): i18n.ts all 4 remaining locales (ja/ko/es/fr) typeNewtopicHint fixed. content-dates generator ghost-path bug fixed (added currentTree existence filter; 879→18 entries, 0 Taiwan refs). CAT_TO_SLUG extended with 6 LB categories. MIN_EXPECTED lowered to 5. Remaining: scripts/ ~62 files (bench/tools) — owner scope call.
 - [ ] **Taiwan-specific skills** (the 11 dormant `twmd-*` from the Phase 5 audit) — reassess under the new principle: dormant-inheritance vs delete-if-no-LB-use. (Coordinate with Phase 6.)
 
 ---

@@ -57,6 +57,12 @@ const CAT_TO_SLUG = {
   Economy: 'economy',
   Lifestyle: 'lifestyle',
   Politics: 'politics',
+  'Art & Galleries': 'art-galleries',
+  Beaches: 'beaches',
+  'Events & Festivals': 'events-festivals',
+  'Nature & Marine Life': 'nature-marine-life',
+  Neighborhoods: 'neighborhoods',
+  Trails: 'trails',
 };
 // Derive from the language registry (SSOT) — no hardcoded array (REFLEXES #20).
 const NON_DEFAULT_LANGS = new Set(
@@ -139,6 +145,18 @@ function main() {
     return;
   }
 
+  // Build set of knowledge/ .md paths that exist in the current tree.
+  // Without this, git log surfaces deleted files from older commits (e.g. 800+
+  // Taiwan zh-TW articles removed during fork migration) as ghost entries.
+  const currentTree = new Set(
+    execSync(
+      'git -c core.quotepath=false ls-tree -r --name-only HEAD -- knowledge/',
+      { encoding: 'utf-8' },
+    )
+      .split('\n')
+      .filter((p) => p.endsWith('.md')),
+  );
+
   const dates = {}; // url -> ISO (newest non-cosmetic wins; log is newest-first)
   let curDate = '';
   let cosmetic = false;
@@ -157,6 +175,10 @@ function main() {
         MEDIA_ONLY.test(subject);
     } else if (token.startsWith('knowledge/') && token.endsWith('.md')) {
       if (cosmetic) {
+        skipped++;
+        continue;
+      }
+      if (!currentTree.has(token)) {
         skipped++;
         continue;
       }
@@ -193,7 +215,7 @@ function main() {
   // collapse). Warn LOUDLY in the build log so the next pollution source or
   // regression announces itself, instead of waiting for a human to spot /latest.
   const FLOOD = 120;
-  const MIN_EXPECTED = 3000;
+  const MIN_EXPECTED = 5;
   const byDay = {};
   for (const v of Object.values(dates)) {
     const d = (v || '').slice(0, 10);
