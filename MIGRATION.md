@@ -17,6 +17,8 @@ The upstream codebase is written by a Chinese-speaking developer. All comments, 
 
 **Test:** If removing the code would break the build, quality gates, SEO, or developer experience for ANY fork (Japan.md, Sweden.md, etc.), it's universal. Keep it.
 
+**Clarification (2026-06-24): this rule is anti-lazy-deletion, NOT keep-Taiwan-forever.** It exists because a past session deleted _useful universal infrastructure_ rather than do the work of adapting it. It does NOT mean Taiwan-specific content/identity inheritance is preserved indefinitely. The end goal of this migration is to replace _everything_ Taiwan.md → LagunaBeach.md: for each Taiwan artifact, either **rewrite it for LB** or, **if it has no LB use and isn't worth rewriting, delete it** (e.g. `reports/` Taiwan session history, sovereignty framing, Taiwan spore/peer data). "Don't strip universal infra" and "do delete dead Taiwan inheritance" are both true — Rule 6 (verify before removing) is how you tell which is which. See Phase 7.
+
 ### Rule 2: Never remove packages, scripts, or dependencies
 
 In Phase 1, all devDependencies (playwright, sharp, pixelmatch, opencc-js) and 38 npm scripts were stripped from package.json because they "weren't needed yet" or "might fail." Every single one referenced files that still exist in the repo. They are all universal infrastructure.
@@ -455,9 +457,24 @@ Phase 5 audited all 37 skills ([`reports/phase5-skill-audit.md`](reports/phase5-
 
 > **Soft spots flagged in the Phase 5 audit, still open:** (1) verdicts were assigned by reading SKILL.md descriptions, not by test-porting — a "reusable" skill may still have Taiwan assumptions in its pipeline doc that only surface on first run (same failure class as the supporters/spores leaks). Port + run each before trusting it. (2) Tier C skills are blocked on writing their `.en.md` pipeline sequencers; that's the bulk of the remaining work.
 
+### Phase 7: Taiwan-inheritance resolution (rewrite-or-delete sweep) 🔄 IN PROGRESS
+
+The fork conversion (Phases 0–5) localized the _site_. This phase finishes the job on the _non-shipped_ inheritance: for every remaining Taiwan-specific artifact, **rewrite it for LB or delete it** (per the Rule 1 clarification). Default to delete when there's no LB use and rewriting isn't worth it. These are dev-only files (not user-facing, no leak risk like the supporters/spores site leaks) — lower urgency, but they're noise and they misrepresent the repo as Taiwan's.
+
+> **Upstream-merge caveat:** none of these paths are `merge=ours`-protected, so a future `git fetch upstream && git merge upstream/main` will re-flood them with Taiwan files. When that happens, re-run the relevant sweep below (or extend `.gitattributes` if a path should permanently reject upstream).
+
+- [x] **`reports/` — Taiwan session history (592 → 8).** Deleted 584 Taiwan operational/research reports (analytics, spore harvests, sovereignty-bench, peer ingestion, election hub, SEO, incident logs, session handoffs). **Kept:** the 2 LB reports (`phase5-skill-audit`, `phase5-related-experiment`), `README.md` (dir mechanism — rewrite for LB's own future reports), and a small pipeline/methodology design-rationale set for Tier-C ports (`analysis-pipeline-design`, `research-methodology-synthesis`, `research-pipeline-v65-experiment`, `rewrite-pipeline-v5-stage-spine-design`, `routine-spec`).
+- [ ] **`reports/README.md` + the kept design docs** — rewrite/trim for LB (currently Taiwan-flavored prose). Low priority.
+- [ ] **~14 `src/` comment citations** of deleted report filenames (e.g. `SporeFootprint.astro`, `article-render.ts`) — now dangling doc-references. Cosmetic; clean up when next editing each file (don't touch code just for comments).
+- [ ] **Spores** (`src/data/spores.json` 137 Taiwan posts, `public/api/spores.json`, `dashboard-spores.json`, `prebuild:spores`, `docs/factory/SPORE-BLUEPRINTS/` 100+ Chinese docs) — decision was deferred earlier. Per this phase: empty the Taiwan data (keep the pipeline dormant for LB's future social) or delete outright. **Pending owner decision.**
+- [ ] **Analytics** (`public/api/dashboard-analytics.json`) — stale taiwanmd.com GA data; LB not deployed / no analytics. Empty or drop.
+- [ ] **`docs/factory/` Taiwan spore/peer machinery** — audit alongside the spores decision.
+- [ ] **Residual sovereignty / Taiwan refs** — Phase 4.5 did the framing purge; re-grep `台灣|taiwan|sovereignty|@taiwandotmd` across non-`knowledge/`, non-intentional-credit paths to catch leftovers.
+- [ ] **Taiwan-specific skills** (the 11 dormant `twmd-*` from the Phase 5 audit) — reassess under the new principle: dormant-inheritance vs delete-if-no-LB-use. (Coordinate with Phase 6.)
+
 ---
 
-**Migration core complete (2026-06-24).** Phases 0–5 done; Phase 6 (skill namespace) in progress — Tier A shipped, Tiers B/C tracked above. Build green (en 0 broken, 0.12% overall). Remaining pre-existing items (6 `/zh-TW` dead links from enabled-but-empty locale) are operational debt, not migration.
+**Migration core complete (2026-06-24).** Phases 0–5 done (site fully localized). Phase 6 (skill namespace) + Phase 7 (Taiwan-inheritance sweep) in progress — tracked above. Build green (en 0 broken, 0.12% overall). Remaining pre-existing items (6 `/zh-TW` dead links from enabled-but-empty locale) are operational debt, not migration.
 
 ---
 
