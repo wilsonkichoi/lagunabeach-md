@@ -64,17 +64,6 @@ export const homeUI = {
       "Don't know what to read? Discover a hidden corner of Laguna Beach.",
     'home.categories.heading': 'Discover Laguna Beach',
     'home.categories.divider': '8 Topics',
-    'home.lang.heading': '🌐 Multilingual Knowledge',
-    'home.lang.p1':
-      'LagunaBeach.md is built in <strong>English</strong> as the default language, with Chinese (Traditional) available for multilingual readers.',
-    'home.lang.p2':
-      'We believe local knowledge should be accessible to everyone who visits, lives in, or is curious about Laguna Beach. AI systems and search engines can consume both languages natively.',
-    'home.lang.p3.prefix': 'We also provide a ',
-    'home.lang.p3.linkText': 'Chinese version',
-    'home.lang.p3.suffix':
-      ' for readers who prefer Traditional Chinese. More languages may follow as the community grows.',
-    'home.lang.en':
-      'LagunaBeach.md is an English-first knowledge base about Laguna Beach, California. We also support Traditional Chinese for multilingual readers. Built on open-source infrastructure from LagunaBeach.md.',
     'home.updates.heading': 'Live Updates',
     'home.updates.subtitle':
       'LagunaBeach.md is growing — latest content additions and site improvements',
@@ -207,16 +196,6 @@ export const homeUI = {
       '不知道該看什麼？讓我們帶你發現拉古納海灘的隱藏寶藏！',
     'home.categories.heading': '認識拉古納海灘',
     'home.categories.divider': '8 大主題',
-    'home.lang.heading': '🖊️ 為什麼有中文版？',
-    'home.lang.p1':
-      'LagunaBeach.md 以<strong>英文</strong>為預設語言，同時提供繁體中文版本，服務華語讀者。',
-    'home.lang.p2':
-      '拉古納海灘是加州的藝術小城，這裡的故事值得用多種語言被世界看見。繁體中文版幫助華語社群深入了解這座七英里海岸線上的文化與自然。',
-    'home.lang.p3.prefix': '預設語言為',
-    'home.lang.p3.linkText': '英文版本',
-    'home.lang.p3.suffix': '，繁體中文為輔助語言。',
-    'home.lang.en':
-      'LagunaBeach.md is written in English by default, with Traditional Chinese as a secondary language for Chinese-speaking readers interested in Laguna Beach.',
     'home.updates.heading': '網站即時更新',
     'home.updates.subtitle':
       'LagunaBeach.md 持續成長中 — 最近的內容更新與網站改進',

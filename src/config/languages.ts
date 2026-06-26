@@ -26,7 +26,7 @@ export const LANGUAGES = [
     code: 'zh-TW',
     displayName: '中文',
     hreflang: 'zh-Hant',
-    enabled: true,
+    enabled: false,
   },
 ] as const satisfies readonly LanguageEntry[];
 
