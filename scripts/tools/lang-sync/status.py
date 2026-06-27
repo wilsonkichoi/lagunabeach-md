@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-status.py — zh-TW SSOT × translation projection 狀態檢視
+status.py — EN SSOT × translation projection 狀態檢視
 
-對每篇 zh-TW canonical (knowledge/Category/*.md) 檢查每個 active 語言的翻譯狀態：
+對每篇 EN canonical (knowledge/Category/*.md) 檢查每個 active 語言的翻譯狀態：
 
   fresh   = en sourceCommitSha 等於 zh latest commit OR en 在 zh 之後
   stale   = zh 在 en sourceCommitSha 之後有 ≥ 1 個 commit
@@ -401,8 +401,8 @@ def build_status(active_langs: list[str]) -> dict:
     return {
         "_meta": {
             "lastUpdated": datetime.now().astimezone().isoformat(timespec="seconds"),
-            "zhCommitHead": head,
-            "totalZh": len(zh_files),
+            "commitHead": head,
+            "totalCanonical": len(zh_files),
             "activeLanguages": active_langs,
             "summary": summary,
             "orphans": orphans,
@@ -414,8 +414,8 @@ def build_status(active_langs: list[str]) -> dict:
 # ---------- output formatting ----------
 
 def print_summary_table(status: dict, lang_filter: str | None):
-    print(f"\n📊 Translation status @ {status['_meta']['zhCommitHead']}")
-    print(f"   zh-TW canonical articles: {status['_meta']['totalZh']}")
+    print(f"\n📊 Translation status @ {status['_meta']['commitHead']}")
+    print(f"   en canonical articles: {status['_meta']['totalCanonical']}")
     print(f"   Updated: {status['_meta']['lastUpdated']}\n")
 
     print(f"{'Lang':<6} {'Fresh':>6} {'Stale':>6} {'Missing':>8} {'Orphan':>7} {'Coverage':>10}")
@@ -462,7 +462,7 @@ def print_article_list(status: dict, lang: str, status_filter: set[str], top: in
         return
 
     print(f"\n📋 {len(rows)} articles ({', '.join(status_filter)}) for [{lang}]")
-    print(f"{'Status':<10} {'Behind':>7} {'Diff':<14} {'zh-TW article'}")
+    print(f"{'Status':<10} {'Behind':>7} {'Diff':<14} {'canonical article'}")
     print("-" * 80)
     for rel, t in rows:
         s = t.get("status", "?")
