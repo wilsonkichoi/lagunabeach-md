@@ -26,9 +26,8 @@
  *   5. 平行化：預設 4 worker（OG_WORKERS 覆寫，每 worker 獨立 page）（同 v3）
  *
  * **多語言 URL slug 規則（沿用 v3 v3）**：
- *   - zh-TW：URL 用 Chinese filename（如 /people/李洋/）
- *   - en：URL 用 en filename
- *   - ja/ko/其他：URL 用 en slug（via _translations.json 映射）
+ *   - default lang (en)：URL 用 root filename
+ *   - 其他語言：URL 用 locale dir slug（via knowledge/{lang}/{Category}/）
  *
  * 用法（向後相容 v3）：
  *   npm run og:generate                               # 全掃 article + diary（v4.1 預設含 diary）
@@ -58,6 +57,10 @@ import { readdir, stat, readFile } from 'node:fs/promises';
 import { join, dirname, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import matter from 'gray-matter';
+import {
+  ENABLED_LANGUAGE_CODES,
+  DEFAULT_LANGUAGE,
+} from '../../src/config/languages.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -85,8 +88,8 @@ const CATEGORY_MAP = {
   Lifestyle: 'lifestyle',
 };
 
-const LANGUAGES = ['zh-TW', 'en', 'ja', 'ko'];
-const DEFAULT_LANG = 'zh-TW';
+const LANGUAGES = ENABLED_LANGUAGE_CODES;
+const DEFAULT_LANG = DEFAULT_LANGUAGE.code;
 
 // i18n labels embedded inline (extracted from src/i18n/ui.ts)。Source-of-truth
 // 在 ui.ts；此 mirror 維護成本低（13 cats × 4 langs，半年改一次）。
@@ -306,14 +309,14 @@ async function readDiaryMeta(filePath) {
 
 async function findMarkdownFiles(filterLang, filterCategory) {
   const results = [];
-  const { translations, zhToLang } = loadTranslationIndex();
   const langsToScan = filterLang ? [filterLang] : LANGUAGES;
 
   for (const lang of langsToScan) {
     for (const [folderName, categorySlug] of Object.entries(CATEGORY_MAP)) {
       if (filterCategory && categorySlug !== filterCategory) continue;
 
-      if (lang === 'zh-TW') {
+      if (lang === DEFAULT_LANG) {
+        // Default language articles live at root: knowledge/{Category}/
         const folderPath = join(knowledgeDir, folderName);
         if (!existsSync(folderPath)) continue;
         const files = await readdir(folderPath);
@@ -330,13 +333,15 @@ async function findMarkdownFiles(filterLang, filterCategory) {
             mtimeMs: fileStat.mtimeMs,
           });
         }
-      } else if (lang === 'en') {
-        const folderPath = join(knowledgeDir, 'en', folderName);
+      } else {
+        // Non-default languages: knowledge/{lang}/{Category}/
+        const folderPath = join(knowledgeDir, lang, folderName);
         if (!existsSync(folderPath)) continue;
         const files = await readdir(folderPath);
         for (const file of files) {
           if (!file.endsWith('.md') || file.startsWith('_')) continue;
           const filePath = join(folderPath, file).normalize('NFC');
+          if (!existsSync(filePath)) continue;
           const fileStat = await stat(filePath);
           results.push({
             kind: 'article',
@@ -344,30 +349,6 @@ async function findMarkdownFiles(filterLang, filterCategory) {
             categorySlug,
             urlSlug: basename(file, '.md'),
             filePath,
-            mtimeMs: fileStat.mtimeMs,
-          });
-        }
-      } else {
-        const enFolderPath = join(knowledgeDir, 'en', folderName);
-        if (!existsSync(enFolderPath)) continue;
-        const enFiles = await readdir(enFolderPath);
-        for (const enFile of enFiles) {
-          if (!enFile.endsWith('.md') || enFile.startsWith('_')) continue;
-          const enKey = `en/${folderName}/${enFile}`;
-          const zhFile = translations[enKey];
-          if (!zhFile) continue;
-          const langMap = zhToLang[zhFile];
-          if (!langMap || !langMap[lang]) continue;
-          const langFile = langMap[lang];
-          const langFilePath = join(knowledgeDir, langFile).normalize('NFC');
-          if (!existsSync(langFilePath)) continue;
-          const fileStat = await stat(langFilePath);
-          results.push({
-            kind: 'article',
-            lang,
-            categorySlug,
-            urlSlug: basename(enFile, '.md'),
-            filePath: langFilePath,
             mtimeMs: fileStat.mtimeMs,
           });
         }
@@ -429,7 +410,7 @@ function getTemplateMtimeMs() {
 
 function buildTemplateHtml(faviconDataUri) {
   return `<!doctype html>
-<html lang="zh-TW">
+<html lang="${DEFAULT_LANG}">
 <head>
 <meta charset="utf-8">
 <title>OG Batch (taiwan.md)</title>
@@ -557,7 +538,7 @@ html[lang='ko'] p.description { font-family: 'Noto Serif KR', 'Noto Serif TC', s
 </div>
 <script>
 window.__renderOG = ({ kind, lang, title, description, breadcrumb }) => {
-  document.documentElement.lang = lang || 'zh-TW';
+  document.documentElement.lang = lang || '${DEFAULT_LANG}';
   if (kind === 'diary') document.body.setAttribute('data-diary', '1');
   else document.body.removeAttribute('data-diary');
 
