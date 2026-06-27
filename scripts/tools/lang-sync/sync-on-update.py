@@ -57,7 +57,7 @@ def get_changed_zh_articles(since="1 day ago"):
 
 def get_translations_for_zh(zh_path, langs):
     """Return {lang: {status, en_path}} for given zh article."""
-    data = json.load(open(KNOWLEDGE / "_translation-status.json"))
+    data = json.load(open(REPO / "src" / "data" / "_translation-status.json"))
     arts = data["byArticle"]
     info = arts.get(zh_path)
     if not info:

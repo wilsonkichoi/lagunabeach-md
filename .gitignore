@@ -90,6 +90,7 @@ public/api/dashboard-immune.json
 public/api/dashboard-spores.json
 src/data/content-stats.json
 src/data/i18n-progress.json
+src/data/_translation-status.json
 
 meetings/
 memory/

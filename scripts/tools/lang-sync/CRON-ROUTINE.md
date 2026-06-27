@@ -57,7 +57,7 @@ python3 scripts/tools/lang-sync/status.py --lang en --no-write
 # P1b. Fetch top 30 candidates
 python3 -c "
 import json
-data = json.load(open('knowledge/_translation-status.json'))
+data = json.load(open('src/data/_translation-status.json'))
 arts = data['byArticle']
 candidates = []
 for path, info in arts.items():
@@ -111,7 +111,7 @@ python3 scripts/tools/lang-sync/verify-batch.py
 # Re-run verify-batch.py until clean.
 
 # P5. Commit + push
-git add knowledge/en/ knowledge/_translations.json knowledge/_translation-status.json
+git add knowledge/en/ knowledge/_translations.json src/data/_translation-status.json
 git commit -m "🧬 [semiont] heal: lang-sync cron — N articles ($(date +%H:%M))
 
 [summary stats from verify-batch.py output]

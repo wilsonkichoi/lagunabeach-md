@@ -177,7 +177,7 @@ def parse_status_table(lang, status_cache=None):
     """
     rows = []
     if status_cache is None:
-        cache_path = REPO / "knowledge" / "_translation-status.json"
+        cache_path = REPO / "src" / "data" / "_translation-status.json"
         if not cache_path.exists():
             return rows
         status_cache = json.loads(cache_path.read_text())

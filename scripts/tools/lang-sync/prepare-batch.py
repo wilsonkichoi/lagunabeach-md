@@ -105,7 +105,7 @@ def lookup_wikilink_target(target_zh, en_translations_idx):
 def get_top_stale_missing(lang, top, skip_paths=None):
     """Auto-fetch top N stale+missing articles by zh.lastModified desc."""
     skip = set(skip_paths or [])
-    data = json.load(open(KNOWLEDGE / "_translation-status.json"))
+    data = json.load(open(REPO / "src" / "data" / "_translation-status.json"))
     arts = data["byArticle"]
     candidates = []
     for path, info in arts.items():
@@ -140,7 +140,7 @@ def main():
     if args.input:
         zh_paths = [line.strip() for line in open(args.input) if line.strip()]
         # need to look up status for each
-        data = json.load(open(KNOWLEDGE / "_translation-status.json"))
+        data = json.load(open(REPO / "src" / "data" / "_translation-status.json"))
         arts = data["byArticle"]
         candidates = []
         for p in zh_paths:

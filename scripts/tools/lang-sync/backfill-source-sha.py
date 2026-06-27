@@ -20,7 +20,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent.parent.parent
 KNOWLEDGE = REPO / "knowledge"
-STATUS_JSON = KNOWLEDGE / "_translation-status.json"
+STATUS_JSON = REPO / "src" / "data" / "_translation-status.json"
 
 
 # 2026-05-01 γ-late4: batched git history cache (mirror of status.py)

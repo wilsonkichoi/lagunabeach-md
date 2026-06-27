@@ -10,7 +10,7 @@ status.py — EN SSOT × translation projection 狀態檢視
   orphan  = translation 存在、zh 不存在
 
 輸入：knowledge/ + git log + frontmatter 三欄位 (sourceCommitSha + sourceContentHash + translatedAt)
-輸出：knowledge/_translation-status.json (derived cache) + console table
+輸出：src/data/_translation-status.json (derived cache) + console table
 
 用法：
   python3 scripts/tools/lang-sync/status.py                    # 全語言全狀態
@@ -35,7 +35,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent.parent.parent
 KNOWLEDGE = REPO / "knowledge"
-STATUS_JSON = KNOWLEDGE / "_translation-status.json"
+STATUS_JSON = REPO / "src" / "data" / "_translation-status.json"
 LANG_DIRS = ["en", "ja", "ko", "es", "fr"]
 
 

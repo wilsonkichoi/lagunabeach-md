@@ -71,7 +71,11 @@ const QUALITY_BASELINE_PATH = path.join(
 // 2026-05-01 γ-late2：3-state truth source（fresh / stale / missing / orphan）
 // 由 scripts/tools/lang-sync/status.py 產出；prebuild 鏈或 lang-sync run 時更新
 const TRANSLATION_STATUS_PATH = path.join(
-  KNOWLEDGE_DIR,
+  __dirname,
+  '..',
+  '..',
+  'src',
+  'data',
   '_translation-status.json',
 );
 

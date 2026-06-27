@@ -607,7 +607,7 @@ function renderOrganism(data) {
 
 // ── Translation Coverage ──
 // 2026-05-01 γ-late2 v2：3-state donut（fresh / stale / missing）+ (-N) deficit
-// 真實 truth source = knowledge/_translation-status.json（status.py 算的）
+// 真實 truth source = src/data/_translation-status.json（status.py 算的）
 // 舊 dashboard 把 fresh+stale 都算「已翻譯」遮蔽真實健康度；新版 surface
 // 三狀態 + deficit，配合 PR #748 文件記錄的 multilingual visibility 視角。
 function renderTranslations(data, vitals) {
