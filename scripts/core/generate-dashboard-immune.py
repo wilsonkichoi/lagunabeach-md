@@ -114,7 +114,7 @@ def parse_frontmatter(text: str) -> dict:
 
 
 def load_articles() -> list[dict]:
-    """Load zh-TW knowledge articles (excludes /_*.md hub pages + non-zh dirs)."""
+    """Load EN canonical knowledge articles (excludes /_*.md hub pages + locale dirs)."""
     articles = []
     for cat_dir in KNOWLEDGE_DIR.iterdir():
         if not cat_dir.is_dir() or cat_dir.name in ("en", "ja", "ko", "es", "fr", "resources", "zh-TW"):
@@ -532,7 +532,7 @@ def main():
     print("🛡️  generate-dashboard-immune.py — computing 6-dimension immune score", file=sys.stderr)
 
     articles = load_articles()
-    print(f"   loaded {len(articles)} zh-TW articles", file=sys.stderr)
+    print(f"   loaded {len(articles)} en articles", file=sys.stderr)
 
     # 1. review_coverage (tier-weighted)
     review_score, review_breakdown = compute_review_coverage(articles)
