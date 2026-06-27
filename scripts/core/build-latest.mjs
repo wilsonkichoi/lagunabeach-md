@@ -27,9 +27,14 @@
 import { readdir, readFile, writeFile, mkdir } from 'node:fs/promises';
 import { resolve, join, basename } from 'node:path';
 import matter from 'gray-matter';
+import {
+  ALL_LANGUAGE_CODES,
+  DEFAULT_LANGUAGE,
+} from '../../src/config/languages.mjs';
 
 const ROOT = process.cwd();
-const LANGS = ['zh-TW', 'en', 'ja', 'ko', 'fr', 'es'];
+const DEFAULT_LANG = DEFAULT_LANGUAGE.code;
+const LANGS = ALL_LANGUAGE_CODES;
 const PER_LANG = 30;
 
 // category slug (lowercase, matches URL + content-dates key) → knowledge/ folder
@@ -49,14 +54,16 @@ const CATEGORIES = {
   politics: 'Politics',
 };
 
-// content-dates.json key: zh-TW → `/${cat}/${slug}/`, else `/${lang}/${cat}/${slug}/`
+// content-dates.json key: default lang → `/${cat}/${slug}/`, else `/${lang}/${cat}/${slug}/`
 function urlKey(lang, cat, slug) {
-  return lang === 'zh-TW' ? `/${cat}/${slug}/` : `/${lang}/${cat}/${slug}/`;
+  return lang === DEFAULT_LANG
+    ? `/${cat}/${slug}/`
+    : `/${lang}/${cat}/${slug}/`;
 }
 // reader-facing href (percent-encoded slug)
 function href(lang, cat, slug) {
   const enc = encodeURIComponent(slug);
-  return lang === 'zh-TW' ? `/${cat}/${enc}` : `/${lang}/${cat}/${enc}`;
+  return lang === DEFAULT_LANG ? `/${cat}/${enc}` : `/${lang}/${cat}/${enc}`;
 }
 
 async function main() {
@@ -79,7 +86,7 @@ async function main() {
     const randomPool = {}; // category → [href...] (all articles, no date filter)
     for (const [catSlug, folder] of Object.entries(CATEGORIES)) {
       const dir =
-        lang === 'zh-TW'
+        lang === DEFAULT_LANG
           ? resolve(ROOT, 'knowledge', folder)
           : resolve(ROOT, 'knowledge', lang, folder);
       let files;

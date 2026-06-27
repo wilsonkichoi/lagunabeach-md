@@ -32,7 +32,7 @@ const CATEGORIES = [
 // NOTE: 'fr' deliberately excluded until the 119-file apostrophe frontmatter
 // heal lands (project_babel_frontmatter_apostrophe, dedicated session spawned
 // 2026-06-04) — adding it now would hard-fail CI on known pre-existing damage.
-const LANGS = ['', 'en', 'es', 'ja', 'ko']; // '' = zh-TW root
+const LANGS = ['', 'en', 'es', 'ja', 'ko']; // '' = default-language root (en)
 
 const STRICT = process.argv.includes('--strict');
 const CI_MODE = process.argv.includes('--ci');
@@ -170,7 +170,7 @@ for (const lang of LANGS) {
       // subcategory check（2026-04-25 β7 新增，2026-05-04 promoted to HARD
       // per user request — missing subcategory breaks knowledge-graph
       // clustering + Hub navigation, so block instead of grandfather）
-      // - zh-TW（default lang）: 強制必填 → 用 docs/taxonomy/SUBCATEGORY.md 對應分類
+      // - default lang (en): 強制必填 → 用 docs/taxonomy/SUBCATEGORY.md 對應分類
       // - 翻譯檔（en/ja/ko/fr/es）：跳過（subcategory 在原文 SSOT 已定義）
       // - About 分類：免（沒有 subcategory 概念）
       // - _Hub.md / _ 開頭檔案：filter 已排除，不會到這

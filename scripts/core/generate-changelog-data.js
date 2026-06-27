@@ -15,7 +15,7 @@ function parseCommitMessage(message) {
     .split('\n')[0];
 }
 
-// #1143: map changed files → zh-TW source articles (kept in sync with the
+// #1143: map changed files → canonical source articles (kept in sync with the
 // same logic in src/lib/commits.ts). knowledge/{Cap-Category}/{slug}.md →
 // /{category-lower}/{slug}; lowercase lang dirs + _*.json excluded by [A-Z].
 const ARTICLE_RE = /^knowledge\/([A-Z][A-Za-z]*)\/([^/]+)\.md$/;

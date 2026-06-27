@@ -101,7 +101,7 @@ function knowledgePathToUrl(p) {
   const parts = p.split('/');
   if (parts[0] !== 'knowledge') return null;
   let i = 1;
-  let lang = 'zh-TW';
+  let lang = DEFAULT_LANGUAGE.code;
   if (NON_DEFAULT_LANGS.has(parts[1])) {
     lang = parts[1];
     i = 2;
@@ -115,7 +115,7 @@ function knowledgePathToUrl(p) {
   const catSlug = CAT_TO_SLUG[cat];
   if (!catSlug) return null;
   const slug = file.replace(/\.md$/, '').normalize('NFC');
-  const prefix = lang === 'zh-TW' ? '' : `/${lang}`;
+  const prefix = lang === DEFAULT_LANGUAGE.code ? '' : `/${lang}`;
   return `${prefix}/${catSlug}/${slug}/`;
 }
 

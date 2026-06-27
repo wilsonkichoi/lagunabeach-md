@@ -213,8 +213,7 @@ function generateStats(articles) {
     categories: categoryStats,
     topTags: topTags,
     languageDistribution: {
-      'zh-TW': articles.length, // 目前全部是繁體中文
-      en: 0, // 英文翻譯待完成
+      en: articles.length, // canonical language (English)
     },
     lastUpdated: new Date().toISOString(),
   };
@@ -374,7 +373,7 @@ async function main() {
   const articles = markdownFiles
     .map(processMarkdownFile)
     .filter((article) => article !== null)
-    .sort((a, b) => a.title.localeCompare(b.title, 'zh-TW'));
+    .sort((a, b) => a.title.localeCompare(b.title, 'en'));
 
   console.log(`✅ 成功處理 ${articles.length} 篇文章`);
 
