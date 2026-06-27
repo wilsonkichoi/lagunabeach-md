@@ -70,21 +70,17 @@ const knowledgeDir = join(repoRoot, 'knowledge');
 const outDir = join(repoRoot, 'public', 'og-images');
 const faviconPath = join(repoRoot, 'public', 'favicon.png');
 
-// 13 categories — keys match URL slug, folder names mapped from frontmatter category
+// 9 LB categories — key = exact knowledge/ folder name, value = URL slug
 const CATEGORY_MAP = {
   About: 'about',
-  History: 'history',
-  Geography: 'geography',
-  Culture: 'culture',
+  'Art & Galleries': 'art-galleries',
+  Beaches: 'beaches',
+  'Events & Festivals': 'events-festivals',
   Food: 'food',
-  Art: 'art',
-  Music: 'music',
-  Technology: 'technology',
-  Nature: 'nature',
-  People: 'people',
-  Society: 'society',
-  Economy: 'economy',
-  Lifestyle: 'lifestyle',
+  History: 'history',
+  'Nature & Marine Life': 'nature-marine-life',
+  Neighborhoods: 'neighborhoods',
+  Trails: 'trails',
 };
 
 const LANGUAGES = ENABLED_LANGUAGE_CODES;
@@ -119,19 +115,14 @@ const CATEGORY_LABEL = {
   },
   en: {
     about: 'About',
-    history: 'History',
-    geography: 'Geography',
-    culture: 'Culture',
+    'art-galleries': 'Art & Galleries',
+    beaches: 'Beaches',
+    'events-festivals': 'Events & Festivals',
     food: 'Food',
-    art: 'Art',
-    music: 'Music',
-    technology: 'Technology',
-    nature: 'Nature',
-    people: 'People',
-    politics: 'Politics',
-    society: 'Society',
-    economy: 'Economy',
-    lifestyle: 'Lifestyle',
+    history: 'History',
+    'nature-marine-life': 'Nature & Marine Life',
+    neighborhoods: 'Neighborhoods',
+    trails: 'Trails',
   },
   ja: {
     about: '概要',
