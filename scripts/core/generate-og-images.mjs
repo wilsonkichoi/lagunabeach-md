@@ -68,7 +68,6 @@ const repoRoot = join(__dirname, '..', '..');
 
 const knowledgeDir = join(repoRoot, 'knowledge');
 const outDir = join(repoRoot, 'public', 'og-images');
-const translationsPath = join(knowledgeDir, '_translations.json');
 const faviconPath = join(repoRoot, 'public', 'favicon.png');
 
 // 13 categories — keys match URL slug, folder names mapped from frontmatter category
@@ -231,18 +230,6 @@ function diarySlugFromFilename(filename) {
 }
 
 // ── Frontmatter parsing ─────────────────────────────────────────────────────
-
-function loadTranslationIndex() {
-  const raw = readFileSync(translationsPath, 'utf-8');
-  const translations = JSON.parse(raw);
-  const zhToLang = {};
-  for (const [langFile, zhFile] of Object.entries(translations)) {
-    const lang = langFile.split('/')[0];
-    if (!zhToLang[zhFile]) zhToLang[zhFile] = {};
-    zhToLang[zhFile][lang] = langFile;
-  }
-  return { translations, zhToLang };
-}
 
 async function readArticleMeta(filePath) {
   const raw = await readFile(filePath, 'utf-8');
