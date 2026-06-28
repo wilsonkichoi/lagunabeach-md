@@ -1,19 +1,19 @@
 ---
 /**
- * RelatedDiaries — 寫這篇文章時 Semiont 的反芻日記（array 版，diaryLink 的後繼）
+ * RelatedDiaries — Semiont reflective diaries written alongside this article (array version, successor to diaryLink)
  *
- * 讓讀者在文章底部看見「寫這篇的時候，這個系統在想什麼」。
+ * Shows readers at the bottom of an article: "what was the system thinking while writing this?"
  *
  * frontmatter:
  *   relatedDiary:
- *     - 2026-06-19-115522-manual                       # 只給 slug，title / 摘要 / 日期自動 resolve
- *     - { slug: 2026-04-13-alpha2, excerpt: '自訂摘要…' }  # 物件形式可覆寫摘要
+ *     - 2026-06-19-115522-manual                       # slug only; title / excerpt / date auto-resolve
+ *     - { slug: 2026-04-13-alpha2, excerpt: 'custom excerpt...' }  # object form can override excerpt
  *
- * slug = 日記檔名去掉 .md（希臘字母已 transliterate，與 /semiont/diary/{slug} route 一致）。
- * 找不到對應日記的 entry graceful skip，整段沒有任何 resolved 就不渲染。
+ * slug = diary filename minus .md (Greek letters transliterated, matches /semiont/diary/{slug} route).
+ * Entries with no matching diary gracefully skip; if nothing resolves, the whole block is hidden.
  *
- * 設計對位 SporeFootprint（array frontmatter → build-time resolve → 溫暖紀實區塊），
- * 差別在 enrich 來源是 getAllDiaryEntries() 而非 spores.json。
+ * Design parallel to SporeFootprint (array frontmatter -> build-time resolve -> warm documentary block),
+ * except the enrich source is getAllDiaryEntries() rather than spores.json.
  */
 import type { Lang } from '../config/languages';
 import { getAllDiaryEntries, type DiaryEntry } from '../lib/semiont-diary';
@@ -29,8 +29,8 @@ const { relatedDiary, lang = 'zh-TW' } = Astro.props;
 
 if (!relatedDiary || relatedDiary.length === 0) return;
 
-// Build-once cache：只有帶 relatedDiary 的文章才觸發，且整個 build process 共用一次掃描
-// （避免此欄位普及後，每篇文章各掃一遍 docs/semiont/diary/）。
+// Build-once cache: only articles with relatedDiary trigger this; the entire build shares one scan
+// (prevents each article from re-scanning docs/semiont/diary/ as this field becomes common).
 const g = globalThis as unknown as {
   __twmdDiaryEntries?: Promise<DiaryEntry[]>;
 };
@@ -39,7 +39,7 @@ const bySlug = new Map(allEntries.map((e) => [e.slug, e]));
 
 const normalize = (d: DiaryRef) => {
   const raw = typeof d === 'string' ? { slug: d } : d;
-  // 容忍作者貼整段路徑（/semiont/diary/xxx）— 只取 slug 段
+  // Tolerate authors pasting the full path (/semiont/diary/xxx) — extract slug segment only
   const slug = raw.slug.replace(/^\/?semiont\/diary\//, '').replace(/^\//, '');
   return { slug, excerpt: typeof d === 'string' ? undefined : d.excerpt };
 };

@@ -21,11 +21,11 @@ export interface DiaryEntry {
   slug: string;
   /** Original filename, e.g. "2026-04-12-ζ2.md" */
   filename: string;
-  /** Diary title extracted from H1, e.g. "我寫下的每一條規則都是我先違反過的" */
+  /** Diary title extracted from H1, e.g. "Every rule I wrote is one I violated first" */
   title: string;
-  /** First blockquote line, e.g. "session ζ+ 反芻" */
+  /** First blockquote line, e.g. "session ζ+ reflection" */
   sessionMeta: string;
-  /** Extracted duration if present, e.g. "2 小時 21 分鐘" */
+  /** Extracted duration if present, e.g. "2 hours 21 minutes" */
   duration?: string;
   /** Extracted trigger if present */
   trigger?: string;
@@ -39,7 +39,7 @@ export interface DiaryEntry {
   wordCount: number;
   /** Extracted h2/h3 headings for TOC */
   headings: { level: number; text: string; id: string }[];
-  /** File mtime ms (CI git-restore-mtime → commit time)，作為 named session 的 sort tie-breaker */
+  /** File mtime ms (CI git-restore-mtime -> commit time), used as sort tie-breaker for named sessions */
   mtimeMs: number;
 }
 
@@ -159,7 +159,7 @@ function parseContent(raw: string): {
   if (blockquoteLines.length > 0) {
     sessionMeta = blockquoteLines[0];
     for (const bql of blockquoteLines) {
-      // Duration: **Session 精確跨度**：... or Session span: ...
+      // Duration: **Session 精確跨度**:... or Session span: ...
       const durMatch = bql.match(
         /(?:精確跨度|Session span)[：:]\s*(.+?)(?:\s*Asia|\s*\(|$)/i,
       );
@@ -329,8 +329,8 @@ export async function getAllDiaryEntries(): Promise<DiaryEntry[]> {
 
   // Sort: newest first, within same date by Greek order descending,
   // then by file mtime descending (named sessions like "musing-chaplygin"
-  // 全部 fall through greekOrder=0 → 此 tie-breaker 還原 chronological commit
-  // 順序。CI 用 git-restore-mtime-action 已把 mtime 還原為 commit time）
+  // all fall through greekOrder=0, so this tie-breaker restores chronological
+  // commit order. CI uses git-restore-mtime-action to set mtime = commit time)
   entries.sort((a, b) => {
     const dateCmp = b.date.localeCompare(a.date);
     if (dateCmp !== 0) return dateCmp;

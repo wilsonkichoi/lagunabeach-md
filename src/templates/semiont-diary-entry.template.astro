@@ -18,8 +18,8 @@ const { entry, prev, next } = Astro.props;
 const readingTime = estimateReadingTime(entry.wordCount);
 const showToc = entry.headings.filter((h) => h.level === 2).length >= 3;
 
-// 2026-05-01 γ-late：OG image 走 article 同管線（generate-og-images.mjs --diary）
-// 輸出在 public/og-images/semiont/diary/[slug].jpg；build time 檢查存在再 surface
+// OG image uses the same pipeline as articles (generate-og-images.mjs --diary).
+// Output at public/og-images/semiont/diary/[slug].jpg; check existence at build time before surfacing.
 const ogJpgPath = `/og-images/semiont/diary/${entry.slug}.jpg`;
 const ogJpgFull = resolve(
   process.cwd(),
