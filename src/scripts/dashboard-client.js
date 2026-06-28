@@ -58,8 +58,8 @@ let sortField = 'date';
 let sortDir = -1; // -1 = desc
 
 // ── Section timestamp helpers ──
-// 每個資料來源的「最後更新時間」顯示在對應 section 標題右邊。
-// prebuild 時生成的 vitals/articles/organism/translations 共享同一個 timestamp。
+// Each data source's "last updated" time is shown to the right of its section heading.
+// vitals/articles/organism/translations generated at prebuild share a single timestamp.
 function formatRelativeTime(isoString) {
   if (!isoString) return '';
   const d = new Date(isoString);
@@ -84,7 +84,7 @@ function formatRelativeTime(isoString) {
         : diffHr < 24
           ? diffHr + ' 小時前'
           : diffDay + ' 天前';
-  // 精確時間（本地時區）
+  // Absolute time (local timezone)
   const pad = (n) => String(n).padStart(2, '0');
   const abs =
     d.getFullYear() +
@@ -106,7 +106,7 @@ function renderSectionTimestamps(sourceTimestamps) {
     const txt = formatRelativeTime(iso);
     if (txt) {
       el.textContent = txt;
-      el.setAttribute('title', iso); // hover 顯示 ISO
+      el.setAttribute('title', iso); // show ISO on hover
     }
   });
 }
@@ -123,7 +123,7 @@ Promise.all([
 ])
   .then(([articles, vitals, organism, translations, contributors]) => {
     allArticles = articles;
-    // 各 section 資料更新時間（articles 共用 vitals.lastUpdated — 同批生成）
+    // Per-section data timestamps (articles shares vitals.lastUpdated, same batch)
     renderSectionTimestamps({
       vitals: vitals && vitals.lastUpdated,
       articles: vitals && vitals.lastUpdated,
@@ -606,10 +606,10 @@ function renderOrganism(data) {
 }
 
 // ── Translation Coverage ──
-// 2026-05-01 γ-late2 v2：3-state donut（fresh / stale / missing）+ (-N) deficit
-// 真實 truth source = src/data/_translation-status.json（status.py 算的）
-// 舊 dashboard 把 fresh+stale 都算「已翻譯」遮蔽真實健康度；新版 surface
-// 三狀態 + deficit，配合 PR #748 文件記錄的 multilingual visibility 視角。
+// 2026-05-01 v2: 3-state donut (fresh / stale / missing) + (-N) deficit.
+// Ground truth source = src/data/_translation-status.json (computed by status.py).
+// Old dashboard counted fresh+stale as "translated", masking real health; new version
+// surfaces 3 states + deficit, aligned with PR #748's multilingual visibility approach.
 function renderTranslations(data, vitals) {
   const bars = document.getElementById('translation-bars');
   const langNames = {
@@ -630,8 +630,8 @@ function renderTranslations(data, vitals) {
   };
   const maxTotal = vitals.totalArticles;
 
-  // 3-state palette（與 v1 langColors 不同 — 之前是「每語言一色」，
-  // 新版改「每狀態一色」讓 fresh/stale/missing 跨語言可比）
+  // 3-state palette (differs from v1 langColors which was "one color per language";
+  // new version uses "one color per state" so fresh/stale/missing are comparable across languages)
   const STATE_COLORS = {
     fresh: '#22c55e', // green-500 — healthy
     stale: '#f59e0b', // amber-500 — warning
@@ -645,8 +645,8 @@ function renderTranslations(data, vitals) {
       .map((l) => {
         const s = data.summary[l];
         const isSsot = l === SSOT_LANG;
-        // freshPct = 真實健康度（只算 fresh，不含 stale）— 中央大字
-        // 舊 percentage = (fresh+stale)/total，仍保留作為 sub-label
+        // freshPct = real health (counts only fresh, excludes stale) — displayed as center text
+        // old percentage = (fresh+stale)/total, retained as sub-label
         const freshPct = s.freshPct != null ? s.freshPct : s.percentage;
         const stalePct =
           s.stale != null && maxTotal > 0

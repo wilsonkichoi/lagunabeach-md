@@ -1,17 +1,19 @@
 /**
- * selection.ts — 文章內文選字 → 浮出「🧬 勘誤這段」藥丸 → 回呼帶 quote + 深連結 anchor。
+ * selection.ts — Text selection in article body -> floating "suggest fix" pill ->
+ * callback with quote + deep-link anchor.
  *
- * 只在 article 頁啟用。anchor 用 W3C Text Fragment（`#:~:text=…`），維護者點 issue
- * 連結就自動捲到並高亮那段原文。短選取整段當 textStart；長選取用前後各 ~24 字
- * （`text=start,end`）提高命中率。任何錯誤都 swallow，不影響閱讀。
+ * Active only on article pages. Anchor uses W3C Text Fragment (`#:~:text=...`), so
+ * maintainers clicking the issue link auto-scroll to the highlighted passage. Short
+ * selections use the full text as textStart; long selections use first/last ~24 chars
+ * (`text=start,end`) for better hit rate. All errors are swallowed; never affects reading.
  */
 
 export interface SelectionResult {
   quote: string;
-  anchorUrl: string; // 該頁 URL + #:~:text=…
+  anchorUrl: string; // page URL + #:~:text=...
 }
 
-const MIN_LEN = 8; // 太短不觸發（避免誤觸）
+const MIN_LEN = 8; // too short to trigger (avoid accidental activation)
 const MAX_LEN = 1000;
 
 function buildTextFragment(href: string, text: string): string {
@@ -48,7 +50,7 @@ export function initSelectionAnnotation(
       pill.style.left = `${x}px`;
       pill.style.top = `${y}px`;
       pill.addEventListener('mousedown', (e) => {
-        e.preventDefault(); // 保留選取、不讓 input 失焦
+        e.preventDefault(); // preserve selection, prevent input blur
         e.stopPropagation();
         try {
           onPick(result);
@@ -96,6 +98,6 @@ export function initSelectionAnnotation(
       if (pill && e.target !== pill) removePill();
     });
   } catch {
-    /* selection annotation 是 enhancement，壞掉不影響閱讀 */
+    /* selection annotation is an enhancement; failure must not affect reading */
   }
 }

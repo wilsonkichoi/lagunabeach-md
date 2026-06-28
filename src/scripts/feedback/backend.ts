@@ -1,11 +1,13 @@
 /**
- * backend.ts — Feedback backend 兩種實作 + factory。
+ * backend.ts — Two feedback backend implementations + factory.
  *
- *  - SupabaseBackend：正式。supabase-js（dynamic import,只在 mode=supabase 才載）。
- *  - MockBackend：瀏覽器內 localStorage,給 preview / e2e 測試。完整模擬 login→email→
- *    nickname→submit,不需要任何外部服務。
+ *  - SupabaseBackend: production. supabase-js (dynamic import, loaded only when
+ *    mode=supabase).
+ *  - MockBackend: browser-local localStorage, for preview / e2e testing. Fully
+ *    simulates login->email->nickname->submit without any external service.
  *
- * 隔離原則：任何 init/SDK 載入失敗 → factory 回 null,widget 降級成 github-only。
+ * Isolation principle: any init/SDK load failure -> factory returns null, widget
+ * degrades to github-only.
  */
 import type {
   FeedbackBackend,
@@ -23,7 +25,7 @@ import {
 } from '../../config/feedback.mjs';
 
 // ─────────────────────────────────────────────────────────────────────────────
-// Mock backend（測試用）
+// Mock backend (for testing)
 // ─────────────────────────────────────────────────────────────────────────────
 const LS_USER = 'twmd_fb_user';
 const LS_NICK = 'twmd_fb_nickname';
@@ -57,7 +59,7 @@ class MockBackend implements FeedbackBackend {
       uid: rec.uid,
       email: rec.email,
       displayName: resolveDisplayName(nickname, rec.oauthName, rec.email),
-      // v2 低阻力：OAuth 給了名字就不再問暱稱（只有 email-only 且沒設過才問）。
+      // v2 low-friction: if OAuth provided a name, skip nickname prompt (only ask for email-only without prior nickname).
       needsNickname: !nickname && !rec.oauthName,
     };
   }
@@ -86,7 +88,7 @@ class MockBackend implements FeedbackBackend {
   }
 
   async signInWithEmail(email: string): Promise<{ sent: boolean }> {
-    // mock：直接登入,sent:false 代表「已登入,繼續」（不用去收信）。
+    // mock: instant login; sent:false means "already signed in, continue" (no email to check).
     const rec: MockUserRecord = { uid: this.uuid(), email, oauthName: null };
     localStorage.setItem(LS_USER, JSON.stringify(rec));
     return { sent: false };
@@ -155,7 +157,7 @@ class MockBackend implements FeedbackBackend {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-// Supabase backend（正式）
+// Supabase backend (production)
 // ─────────────────────────────────────────────────────────────────────────────
 class SupabaseBackend implements FeedbackBackend {
   readonly kind = 'supabase' as const;
@@ -185,7 +187,7 @@ class SupabaseBackend implements FeedbackBackend {
     const oauthName: string | null =
       u.user_metadata?.full_name || u.user_metadata?.name || null;
 
-    // 確保 profiles 有一列（email 落地 = goal「至少拿到 email」）。
+    // Ensure profiles row exists (email persisted = goal "capture at least email").
     let nickname: string | null = null;
     try {
       const { data: prof } = await this.sb
@@ -204,14 +206,14 @@ class SupabaseBackend implements FeedbackBackend {
         }
       }
     } catch {
-      /* profile fetch best-effort；不擋登入 */
+      /* profile fetch is best-effort; must not block login */
     }
 
     return {
       uid: u.id,
       email,
       displayName: resolveDisplayName(nickname, oauthName, email),
-      // v2 低阻力：OAuth 給了名字就不再問暱稱。
+      // v2 low-friction: skip nickname prompt if OAuth provided a name.
       needsNickname: !nickname && !oauthName,
     };
   }
@@ -221,7 +223,7 @@ class SupabaseBackend implements FeedbackBackend {
       provider,
       options: { redirectTo: location.href },
     });
-    // OAuth 會 redirect 離開頁面；回來後 detectSessionInUrl 還原 session。
+    // OAuth redirects away from the page; on return, detectSessionInUrl restores the session.
   }
 
   async signInWithEmail(email: string): Promise<{ sent: boolean }> {
@@ -230,7 +232,7 @@ class SupabaseBackend implements FeedbackBackend {
       options: { emailRedirectTo: location.href },
     });
     if (error) throw error;
-    return { sent: true }; // 寄出 magic-link,使用者去收信點連結。
+    return { sent: true }; // magic-link sent; user checks email to click link.
   }
 
   async saveNickname(nickname: string): Promise<FeedbackUser> {
@@ -255,7 +257,7 @@ class SupabaseBackend implements FeedbackBackend {
       .from('feedback')
       .insert({
         uid: user.uid,
-        display_name: user.displayName, // 只存 display_name,email 不進 feedback 列
+        display_name: user.displayName, // store display_name only; email stays out of the feedback row
         article_slug: draft.articleSlug,
         article_title: draft.articleTitle,
         category: draft.category,
@@ -275,7 +277,7 @@ class SupabaseBackend implements FeedbackBackend {
   }
 
   async myFeedback(): Promise<MyFeedbackItem[]> {
-    // RLS 自動限定為自己的列（feedback_select_own policy）。
+    // RLS automatically restricts to own rows (feedback_select_own policy).
     const { data, error } = await this.sb
       .from('feedback')
       .select('*')
@@ -289,7 +291,7 @@ class SupabaseBackend implements FeedbackBackend {
       status: r.status,
       issueUrl: r.issue_url ?? null,
       issueNumber: r.issue_number ?? null,
-      triageNote: r.triage_note ?? null, // 0003 後才有；缺欄位 → undefined → null
+      triageNote: r.triage_note ?? null, // available after 0003; missing column -> undefined -> null
       createdAt: r.created_at,
       articleTitle: r.article_title ?? null,
       quote: r.quote ?? null,
@@ -305,8 +307,8 @@ class SupabaseBackend implements FeedbackBackend {
 // Factory
 // ─────────────────────────────────────────────────────────────────────────────
 /**
- * 回傳已 init 的 backend,或 null（= widget 走 github-only fallback）。
- * 任何錯誤都 swallow 成 null,確保不影響主站。
+ * Returns an initialized backend, or null (= widget falls back to github-only).
+ * All errors are swallowed to null, ensuring the main site is unaffected.
  */
 export async function createBackend(): Promise<FeedbackBackend | null> {
   const kind = resolveBackendKind();

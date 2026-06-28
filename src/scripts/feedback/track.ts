@@ -1,15 +1,16 @@
 /**
- * track.ts — feedback widget GA4 事件（safe gtag wrapper）。
+ * track.ts — Feedback widget GA4 events (safe gtag wrapper).
  *
- * 對齊 Layout.astro 的 GA4 bootstrap（G-GP9LN8026H）+ EventTracker 範式：
- * 所有事件 prefix `feedback_`，gtag 不在（ad blocker / private / 本機）→ silent no-op，
- * 全 try/catch 永不擋使用者動作。
+ * Aligned with Layout.astro's GA4 bootstrap (G-GP9LN8026H) + EventTracker pattern:
+ * all events prefixed `feedback_`; if gtag is absent (ad blocker / private / local)
+ * it's a silent no-op. Entire body wrapped in try/catch so it never blocks user actions.
  *
- * 用途：數據驅動自我進化飛輪 —— 事件流進 GA4 → EVOLVE / news-lens routine 讀
- * dashboard-analytics.json → 知道讀者怎麼用回報、哪類最多、哪種登入摩擦最低，
- * 回頭校正 widget + 內容優先序。
+ * Purpose: data-driven evolution flywheel — events flow into GA4 -> EVOLVE / news-lens
+ * routine reads dashboard-analytics.json -> learns how readers use feedback, which types
+ * are most common, which login method has lowest friction, then calibrates widget +
+ * content priority.
  *
- * 事件 taxonomy（stable，改名要同步更新 GA4 explorations）：
+ * Event taxonomy (stable; renaming requires updating GA4 explorations):
  *   feedback_open          { source: fab|selection, page_kind }
  *   feedback_selection_pill{ page_kind }
  *   feedback_type_select   { type, page_kind }
@@ -27,6 +28,6 @@ export function track(
     const g = (window as unknown as { gtag?: (...a: unknown[]) => void }).gtag;
     if (typeof g === 'function') g('event', `feedback_${event}`, params);
   } catch {
-    /* GA 失敗不影響 widget */
+    /* GA failure must not affect widget */
   }
 }

@@ -1,36 +1,36 @@
 /**
- * types.ts — Feedback 子系統共用型別（widget ↔ backend 契約）。
+ * types.ts — Shared types for the feedback subsystem (widget <-> backend contract).
  */
 
 export type FeedbackType = 'content' | 'bug' | 'newtopic' | 'idea';
 
-/** OAuth 登入提供者（email magic-link 走另一條路，不在此列）。 */
+/** OAuth login providers (email magic-link uses a separate path, not listed here). */
 export type OAuthProvider = 'google' | 'github';
 
-/** 登入後拿到的使用者。email 一定有（goal: 帳號至少要拿到 email）。 */
+/** User object after login. email is always present (goal: account must capture email). */
 export interface FeedbackUser {
   uid: string;
   email: string;
-  /** 暱稱（不填就回退成帳號 email 的 local-part；見 resolveDisplayName）。 */
+  /** Nickname (falls back to email local-part if unset; see resolveDisplayName). */
   displayName: string;
-  /** 是否還沒設過暱稱 → widget 第一次登入要問一次。 */
+  /** Whether nickname has never been set -> widget asks once on first login. */
   needsNickname: boolean;
 }
 
-/** 一筆待送出的回報。article context 由 widget 自動帶，讀者不用填。 */
+/** A feedback submission draft. Article context is auto-filled by the widget. */
 export interface FeedbackDraft {
   type: FeedbackType;
   body: string;
-  /** content 類選填：正確資訊 + 來源。 */
+  /** Optional for 'content' type: correct information + source. */
   correctInfo?: string;
   articleSlug: string;
   articleTitle: string;
   category: string;
   lang: string;
   sourceUrl: string;
-  /** 讀者在文章選取的原文（選文段勘誤；v2）。 */
+  /** Reader-selected passage from the article (text-selection correction; v2). */
   quote?: string;
-  /** 來源頁型 article/category/home/dashboard/semiont/other（v2）。 */
+  /** Source page kind: article/category/home/dashboard/semiont/other (v2). */
   pageKind?: string;
 }
 
@@ -38,7 +38,7 @@ export interface SubmitResult {
   id: string;
 }
 
-/** 「我的回報」列表的一筆（v3 閉環可見性）。 */
+/** A single item in the "My Feedback" list (v3 closed-loop visibility). */
 export interface MyFeedbackItem {
   id: string;
   type: FeedbackType;
@@ -46,34 +46,35 @@ export interface MyFeedbackItem {
   status: string; // new | filed | rejected
   issueUrl?: string | null;
   issueNumber?: number | null;
-  triageNote?: string | null; // AI 初判理由（0003 後才有）
+  triageNote?: string | null; // AI triage reasoning (available after 0003)
   createdAt?: string;
   articleTitle?: string | null;
   quote?: string | null;
 }
 
 /**
- * Backend 介面 — SupabaseBackend / MockBackend 都實作這份。
- * widget.ts 永遠只認這個介面，不直接碰 supabase-js，好做隔離 + 測試。
+ * Backend interface — implemented by both SupabaseBackend and MockBackend.
+ * widget.ts only depends on this interface, never touches supabase-js directly,
+ * enabling isolation + testing.
  */
 export interface FeedbackBackend {
   readonly kind: 'supabase' | 'mock';
-  /** 載入 SDK / 還原 session。拋錯 = widget 降級成 github-only。 */
+  /** Load SDK / restore session. Throws = widget degrades to github-only. */
   init(): Promise<void>;
   currentUser(): Promise<FeedbackUser | null>;
-  /** OAuth 登入（google / github）。正式：redirect；mock：即時登入。 */
+  /** OAuth login (google / github). Production: redirect; mock: instant login. */
   signInWithOAuth(provider: OAuthProvider): Promise<void>;
-  /** Email 登入（正式：寄 magic-link / OTP；mock：即時登入）。回傳是否已寄出。 */
+  /** Email login (production: sends magic-link/OTP; mock: instant). Returns whether sent. */
   signInWithEmail(email: string): Promise<{ sent: boolean }>;
-  /** 設定暱稱（留空 → 用帳號代替）。 */
+  /** Set nickname (empty -> falls back to account name). */
   saveNickname(nickname: string): Promise<FeedbackUser>;
   submit(draft: FeedbackDraft): Promise<SubmitResult>;
-  /** 「我的回報」列表（登入者自己的，RLS 自動限定）。 */
+  /** "My Feedback" list (current user's own entries, RLS-restricted). */
   myFeedback(): Promise<MyFeedbackItem[]>;
   signOut(): Promise<void>;
 }
 
-/** 暱稱回退規則：nickname → OAuth 顯示名 → email local-part → '匿名讀者'。 */
+/** Nickname fallback: nickname -> OAuth display name -> email local-part -> 'Anonymous'. */
 export function resolveDisplayName(
   nickname: string | null | undefined,
   oauthName: string | null | undefined,

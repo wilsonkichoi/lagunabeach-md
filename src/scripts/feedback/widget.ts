@@ -1,11 +1,12 @@
 /**
- * widget.ts — Feedback widget client controller（state machine + DOM）。
+ * widget.ts — Feedback widget client controller (state machine + DOM).
  *
- * 狀態：closed → form → (auth → [emailSent]) → (nickname) → sending → done|error
+ * States: closed -> form -> (auth -> [emailSent]) -> (nickname) -> sending -> done|error
  *
- * 設計鐵律（隔離失敗域）：整個 init 包在 try/catch,任何 throw 都 swallow + 退成
- * github-only fallback,永遠不讓 feedback 的錯誤影響主站。lazy auth：先讓讀者打字,
- * 按送出才要求登入。draft 在 OAuth redirect 前存 sessionStorage,回來自動續。
+ * Design rule (isolate failure domain): entire init is wrapped in try/catch; any throw
+ * is swallowed and degrades to github-only fallback, never letting feedback errors affect
+ * the main site. Lazy auth: let readers type first, require login only on submit. Draft
+ * is stashed to sessionStorage before OAuth redirect and auto-restored on return.
  */
 import type {
   FeedbackBackend,
@@ -46,7 +47,7 @@ export async function initFeedbackWidget(): Promise<void> {
     const root = document.getElementById('twmd-feedback');
     if (!root) return;
 
-    // OG / spore 截圖模式（?shot=1）不顯示 widget。
+    // OG / spore screenshot mode (?shot=1): hide widget.
     if (document.documentElement.getAttribute('data-shot') === '1') {
       root.remove();
       return;
@@ -68,18 +69,18 @@ export async function initFeedbackWidget(): Promise<void> {
     };
     const t = getStrings(ctx.lang);
 
-    // github-only：純靜態,按鈕直接連 GitHub issue chooser,不載 backend。
+    // github-only: static mode, button links directly to GitHub issue chooser, no backend loaded.
     if (kind === 'github-only') {
       track('degraded', { reason: 'github-only' });
       renderGithubOnlyButton(root, t);
       return;
     }
 
-    // mock / supabase：完整 widget。
+    // mock / supabase: full widget.
     const widget = new Widget(root, ctx, t);
     widget.mount();
 
-    // 文章頁特化：選字 → 浮藥丸 → 開 widget 帶 quote + 深連結 anchor。
+    // Article page enhancement: text selection -> floating pill -> open widget with quote + deep-link anchor.
     if (ctx.pageKind === 'article') {
       const { initSelectionAnnotation } = await import('./selection');
       initSelectionAnnotation(
@@ -89,7 +90,7 @@ export async function initFeedbackWidget(): Promise<void> {
       );
     }
   } catch (err) {
-    // 任何意外 → 確保主站不受影響。
+    // Any unexpected error -> ensure main site is unaffected.
     console.warn('[feedback] init failed, hidden:', err);
   }
 }
@@ -113,9 +114,9 @@ class Widget {
   private draft: DraftState = { type: 'content', body: '', correctInfo: '' };
   private panel!: HTMLElement;
   private open = false;
-  /** 選文段標註（article 頁）。設了 → 表單顯示 quote，送出用 anchorUrl 當 source。 */
+  /** Text selection annotation (article pages). When set, form shows quote and uses anchorUrl as source. */
   private selection: { quote: string; anchorUrl: string } | null = null;
-  /** 本 session 登入方式（GA submit 事件用）。 */
+  /** Login method for this session (used in GA submit event). */
   private loginMethod = '';
 
   constructor(
@@ -126,7 +127,7 @@ class Widget {
     this.draft.type = this.categoriesForPage()[0];
   }
 
-  /** 依頁型決定類別集（順序 = 顯示順序，第一個 = 預設）。 */
+  /** Determine category set by page kind (order = display order, first = default). */
   private categoriesForPage(): FeedbackType[] {
     switch (this.ctx.pageKind) {
       case 'article':
@@ -168,7 +169,7 @@ class Widget {
     }[type];
   }
 
-  /** 選文段觸發：開面板 + 預填 content + quote + 深連結。 */
+  /** Triggered by text selection: open panel + prefill content type + quote + deep-link. */
   openWithSelection(quote: string, anchorUrl: string): void {
     track('selection_pill', { page_kind: this.ctx.pageKind });
     track('open', { source: 'selection', page_kind: this.ctx.pageKind });
@@ -199,7 +200,7 @@ class Widget {
     this.panel.hidden = true;
     this.root.appendChild(this.panel);
 
-    // OAuth redirect 回來：有 pending draft → 自動續。
+    // Returning from OAuth redirect: if pending draft exists, auto-resume.
     this.resumeIfReturning();
   }
 
@@ -222,7 +223,7 @@ class Widget {
     const raw = sessionStorage.getItem(DRAFT_KEY);
     if (!raw) return;
     await this.ensureBackend();
-    if (!this.user) return; // 還沒登入成功,等使用者再點
+    if (!this.user) return; // not logged in yet; wait for user to click again
     try {
       this.draft = JSON.parse(raw);
     } catch {
@@ -239,11 +240,11 @@ class Widget {
     this.open = !this.open;
     this.panel.hidden = !this.open;
     if (this.open) {
-      this.selection = null; // FAB 開啟 = 一般回饋（非選文段）
+      this.selection = null; // FAB open = general feedback (not text selection)
       track('open', { source: 'fab', page_kind: this.ctx.pageKind });
-      this.renderForm(); // 先畫，避免等待
-      await this.ensureBackend(); // 取回 this.user
-      if (this.open) this.renderForm(); // 登入態確定後重畫（顯示「我的回報」入口）
+      this.renderForm(); // render first to avoid waiting
+      await this.ensureBackend(); // fetch this.user
+      if (this.open) this.renderForm(); // re-render after login state is confirmed (show "My Feedback" entry)
     }
   }
 
@@ -347,7 +348,7 @@ class Widget {
     submit.addEventListener('click', () => this.onSubmit());
   }
 
-  /** v3：「我的回報」列表（狀態 + issue 連結 + AI 初判理由）。 */
+  /** v3: "My Feedback" list (status + issue link + AI triage reasoning). */
   private async renderMyFeedback(): Promise<void> {
     const t = this.t;
     track('my_view', {});
@@ -450,7 +451,7 @@ class Widget {
         this.stashDraft();
         try {
           await this.backend!.signInWithOAuth(provider);
-          // supabase 會 redirect 離開；mock 不會 → 直接續。
+          // supabase will redirect away; mock won't -> continue directly.
           await this.afterMaybeInlineLogin();
         } catch (e) {
           this.showMsg(this.t.errorBody);
@@ -476,9 +477,9 @@ class Widget {
           try {
             const { sent } = await this.backend!.signInWithEmail(email);
             if (sent) {
-              this.showMsg(this.t.emailSent); // 等使用者去收信點連結
+              this.showMsg(this.t.emailSent); // wait for user to check email and click link
             } else {
-              await this.afterMaybeInlineLogin(); // mock：已登入,續
+              await this.afterMaybeInlineLogin(); // mock: already signed in, continue
             }
           } catch (e) {
             this.showMsg(this.t.errorBody);
@@ -521,7 +522,7 @@ class Widget {
         try {
           this.user = await this.backend!.saveNickname(nick.value);
         } catch {
-          /* 存暱稱失敗不擋送出 */
+          /* nickname save failure must not block submit */
         }
         this.doSubmit();
       });
@@ -542,7 +543,7 @@ class Widget {
         articleTitle: this.ctx.title,
         category: this.ctx.category,
         lang: this.ctx.lang,
-        // 選文段：用 W3C text-fragment 深連結當 source，維護者一點直達高亮。
+        // Text selection: use W3C text-fragment deep-link as source; maintainers click to jump to highlight.
         sourceUrl: this.selection ? this.selection.anchorUrl : this.ctx.url,
         quote: this.selection?.quote || this.draft.quote,
         pageKind: this.ctx.pageKind,
@@ -573,7 +574,7 @@ class Widget {
     this.panel
       .querySelector('[data-close2]')
       ?.addEventListener('click', () => this.close());
-    // reset so再次開啟是乾淨的
+    // reset so next open starts clean
     this.selection = null;
     this.draft = {
       type: this.categoriesForPage()[0],

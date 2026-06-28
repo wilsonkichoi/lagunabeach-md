@@ -1,13 +1,13 @@
 /**
- * i18n.ts — Feedback widget 6 語字串。站上支援 zh-TW/en/ja/ko/es/fr。
- * key set 刻意精簡（~22 條）。未知 lang fallback en。
+ * i18n.ts — Feedback widget strings for 6 languages (zh-TW/en/ja/ko/es/fr).
+ * Key set intentionally minimal (~22 keys). Unknown lang falls back to en.
  */
 
 export interface FeedbackStrings {
-  open: string; // 浮動鈕 label
-  title: string; // 面板標題
-  intro: string; // 一句說明
-  about: string; // 「關於：{title}」前綴
+  open: string; // FAB button label
+  title: string; // panel title
+  intro: string; // one-line description
+  about: string; // "About: {title}" prefix
   typeContent: string;
   typeBug: string;
   typeNewtopic: string;
@@ -16,17 +16,17 @@ export interface FeedbackStrings {
   typeNewtopicHint: string;
   typeIdea: string;
   typeIdeaHint: string;
-  typeNewArticle: string; // category 頁的「建議這個分類的新文章」
+  typeNewArticle: string; // category page: "suggest a new article for this category"
   typeNewArticleHint: string;
-  selectPill: string; // 選文段浮出的小藥丸
-  quoteLabel: string; // 表單裡顯示「你選取的段落」
-  myFeedback: string; // 「我的回報」入口
+  selectPill: string; // floating pill shown on text selection
+  quoteLabel: string; // "Your selected passage" label in form
+  myFeedback: string; // "My Feedback" entry point
   myFeedbackEmpty: string;
   statusNew: string;
   statusFiled: string;
   statusRejected: string;
   viewIssue: string;
-  triageNoteLabel: string; // AI 初判理由標籤
+  triageNoteLabel: string; // AI triage reasoning label
   bodyPlaceholder: string;
   correctInfoLabel: string;
   correctInfoPlaceholder: string;
