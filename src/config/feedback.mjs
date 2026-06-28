@@ -1,22 +1,23 @@
 /**
- * feedback.mjs — Feedback 子系統設定（client-side，build 時由 Vite inline）。
+ * feedback.mjs — Feedback subsystem config (client-side, inlined by Vite at build).
  *
- * 設計：feedback 是「隔離失敗域」。本檔只決定 widget 用哪種 backend + 降級行為，
- * 任何錯誤都不該 bubble 到主站 render。所有值都是 PUBLIC（anon key 設計上可公開，
- * 真正的權限由 Supabase RLS 把關；service key 永遠不進前端）。
+ * Design: feedback is an "isolated failure domain." This file only decides which
+ * backend the widget uses + degradation behavior. Errors must never bubble to main
+ * site render. All values are PUBLIC (anon key is designed to be public; real
+ * permissions enforced by Supabase RLS; service key never enters frontend).
  *
- * 模式（PUBLIC_FEEDBACK_MODE）：
- *   - 'off'         → widget 完全不出現
- *   - 'github-only' → 只出現一顆「用 GitHub 回報」按鈕（純靜態 fallback，零 backend，永遠安全）
- *   - 'mock'        → 用瀏覽器內 MockBackend（localStorage），給 preview / e2e 測試用
- *   - 'supabase'    → 正式 backend（需 PUBLIC_SUPABASE_URL + PUBLIC_SUPABASE_ANON_KEY）
+ * Modes (PUBLIC_FEEDBACK_MODE):
+ *   - 'off'         → widget does not appear at all
+ *   - 'github-only' → shows a single "Report via GitHub" button (pure static fallback, zero backend, always safe)
+ *   - 'mock'        → uses in-browser MockBackend (localStorage), for preview / e2e testing
+ *   - 'supabase'    → production backend (requires PUBLIC_SUPABASE_URL + PUBLIC_SUPABASE_ANON_KEY)
  *
- * 預設 'github-only'：哲宇還沒 provision Supabase 之前 ship 到 production 也 100% 安全
- * （讀者點回饋 → 連到既有 GitHub issue template）。哲宇 ratify 後設 PUBLIC_FEEDBACK_MODE=supabase
- * + 兩把 key 即上線，主站 build 不用改。
+ * Default 'github-only': safe to ship to production before Wilson provisions Supabase
+ * (reader clicks feedback → goes to existing GitHub issue template). After Wilson
+ * ratifies, set PUBLIC_FEEDBACK_MODE=supabase + two keys to go live; no main-site build changes needed.
  */
 
-// Vite/Astro 注入 import.meta.env；node 直跑時 fallback 成空物件。
+// Vite/Astro injects import.meta.env; falls back to empty object when running directly in node.
 const env =
   (typeof import.meta !== 'undefined' && import.meta && import.meta.env) || {};
 
@@ -25,7 +26,7 @@ export const FEEDBACK_MODE = env.PUBLIC_FEEDBACK_MODE || 'github-only';
 export const SUPABASE_URL = env.PUBLIC_SUPABASE_URL || '';
 export const SUPABASE_ANON_KEY = env.PUBLIC_SUPABASE_ANON_KEY || '';
 
-/** 啟用哪些登入方式（順序 = UI 顯示順序）。email 一定保底（拿得到 email + 無需外部 OAuth app）。 */
+/** Enabled auth providers (order = UI display order). email always as fallback (collects email + no external OAuth app needed). */
 export const FEEDBACK_PROVIDERS = (
   env.PUBLIC_FEEDBACK_PROVIDERS || 'google,github,email'
 )
@@ -37,8 +38,8 @@ export const GITHUB_REPO = 'wilsonkichoi/lagunabeach-md';
 export const GITHUB_NEW_ISSUE_URL = `https://github.com/${GITHUB_REPO}/issues/new/choose`;
 
 /**
- * 解析實際生效的 backend 種類（把「設了 supabase 但沒填 key」這種半成品狀態
- * 安全降級成 github-only）。
+ * Resolve the effective backend kind (safely degrades "set supabase mode but
+ * missing keys" half-configured state to github-only).
  */
 export function resolveBackendKind() {
   if (FEEDBACK_MODE === 'off') return 'off';

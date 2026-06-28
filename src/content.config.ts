@@ -1,7 +1,7 @@
 import { defineCollection } from 'astro:content';
 import { z } from 'astro/zod';
 
-// 定義通用的 content collection schema
+// Base content collection schema shared across all locales
 const baseContentSchema = z.object({
   title: z.string(),
   description: z.string(),
@@ -22,10 +22,10 @@ const baseContentSchema = z.object({
   relatedTopics: z.array(z.string()).optional().default([]),
   sources: z.array(z.string()).optional().default([]),
   subcategory: z.string().optional().default(''),
-  // 相關日記：寫這篇文章時 Semiont 的反芻日記（讓讀者看見「寫的時候在想什麼」）。
-  // 每筆給日記 slug（檔名去 .md，希臘字母 transliterate，對應 /semiont/diary/{slug}），
-  // title / 摘要 / 日期由 RelatedDiaries.astro build-time 從日記檔自動 resolve。
-  // 物件形式 { slug, excerpt } 可覆寫摘要。array 版，取代舊的單篇 diaryLink / diaryExcerpt。
+  // Related diary: Semiont reflection diary written while authoring this article (lets readers see "what was on mind while writing").
+  // Each entry takes a diary slug (filename minus .md, Greek letter transliterated, maps to /semiont/diary/{slug}).
+  // title / excerpt / date resolved automatically from diary file by RelatedDiaries.astro at build-time.
+  // Object form { slug, excerpt } overrides excerpt. Array form, replaces the old single diaryLink / diaryExcerpt.
   relatedDiary: z
     .array(
       z.union([
@@ -35,27 +35,27 @@ const baseContentSchema = z.object({
     )
     .optional()
     .default([]),
-  // 舊：單篇日記 teaser（DiaryTeaser）。relatedDiary 為其後繼，新文章用 relatedDiary。
+  // Legacy: single diary teaser (DiaryTeaser). relatedDiary is the successor; new articles use relatedDiary.
   diaryLink: z.string().optional(),
   diaryExcerpt: z.string().optional(),
 });
 
-// 中文內容 collection
+// zh-TW content collection
 const zhTWCollection = defineCollection({
   type: 'content',
   schema: baseContentSchema.extend({
-    // 中文特有欄位
-    originalTitle: z.string().optional(), // 原始中文標題
-    alternativeNames: z.array(z.string()).optional().default([]), // 別名
+    // zh-TW specific fields
+    originalTitle: z.string().optional(), // original Chinese title
+    alternativeNames: z.array(z.string()).optional().default([]), // alternate names
   }),
 });
 
-// 英文內容 collection
+// English content collection
 const enCollection = defineCollection({
   type: 'content',
   schema: baseContentSchema.extend({
-    // 英文特有欄位
-    chineseTitle: z.string().optional(), // 對應中文標題
+    // English-specific fields
+    chineseTitle: z.string().optional(), // corresponding Chinese title
     translationStatus: z
       .enum(['complete', 'partial', 'planned'])
       .optional()
@@ -63,7 +63,7 @@ const enCollection = defineCollection({
   }),
 });
 
-// 導出 collections
+// Export collections
 export const collections = {
   'zh-TW': zhTWCollection,
   en: enCollection,
