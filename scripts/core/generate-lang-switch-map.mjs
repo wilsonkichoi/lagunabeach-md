@@ -44,20 +44,15 @@ const NON_DEFAULT_ENABLED_LANGS = LANGUAGES.filter(
 ).map((l) => l.code);
 
 const CATEGORY_FOLDER_TO_SLUG = {
-  History: 'history',
-  Geography: 'geography',
-  Culture: 'culture',
-  Food: 'food',
-  Art: 'art',
-  Music: 'music',
-  Technology: 'technology',
-  Nature: 'nature',
-  People: 'people',
-  Society: 'society',
-  Economy: 'economy',
-  Lifestyle: 'lifestyle',
   About: 'about',
-  Resources: 'resources',
+  'Art & Galleries': 'art-galleries',
+  Beaches: 'beaches',
+  'Events & Festivals': 'events-festivals',
+  Food: 'food',
+  History: 'history',
+  'Nature & Marine Life': 'nature-marine-life',
+  Neighborhoods: 'neighborhoods',
+  Trails: 'trails',
 };
 
 function normalizePath(path) {

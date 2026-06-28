@@ -257,21 +257,17 @@ function generateArticleIndex() {
       `   ⚠️  Skipped ${_staleEntries} stale _translations.json entries (zh file missing)`,
     );
   }
+  // Rule 3: aligned to LB 9-category mapping (inert block until translations land)
   const categoryFolderToSlug = {
-    History: 'history',
-    Geography: 'geography',
-    Culture: 'culture',
-    Food: 'food',
-    Art: 'art',
-    Music: 'music',
-    Technology: 'technology',
-    Nature: 'nature',
-    People: 'people',
-    Society: 'society',
-    Economy: 'economy',
-    Lifestyle: 'lifestyle',
     About: 'about',
-    Resources: 'resources',
+    'Art & Galleries': 'art-galleries',
+    Beaches: 'beaches',
+    'Events & Festivals': 'events-festivals',
+    Food: 'food',
+    History: 'history',
+    'Nature & Marine Life': 'nature-marine-life',
+    Neighborhoods: 'neighborhoods',
+    Trails: 'trails',
   };
 
   // Reverse maps: zhFile → jaFile / koFile
