@@ -360,9 +360,10 @@ const dataCategories = getCategories(t);
   </main>
 
   <!-- Population Pyramid Script -->
-  <!-- Population Pyramid client 邏輯（477 行）在 src/scripts/data-client.js —
-       2026-06-13 抽出：原 define:vars inline 每語言頁各內嵌一份；改 Astro processed
-       module 後共用一份 hashed bundle + 瀏覽器可快取。lang 改讀 <html lang>。-->
+  <!-- Population Pyramid client logic (477 lines) in src/scripts/data-client.js —
+       2026-06-13 extracted: original define:vars inline duplicated per language page;
+       switching to Astro processed module shares one hashed bundle + browser-cacheable.
+       lang now reads from <html lang>. -->
   <script>
     import '../scripts/data-client.js';
   </script>

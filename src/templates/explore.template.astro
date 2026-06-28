@@ -38,8 +38,8 @@ const t = useTranslations(lang);
 const isZh = lang === 'zh-TW';
 const langUrlPrefix = isZh ? '' : `/${lang}`;
 
-// ── Latest articles strip (時序主軸 — WS6). Single hub page → server-render is
-// fine (churn bounded to one page, unlike the per-article rail). ──
+// ── Latest articles strip (chronological axis — WS6). Single hub page →
+// server-render is fine (churn bounded to one page, unlike the per-article rail). ──
 const latestForExplore = await getLatestArticles(lang, 8);
 const exploreCats = getCategoryConfigs(t) as Record<string, any>;
 const exploreLatestDay = (d: string) => {
@@ -143,8 +143,9 @@ for (const [slug, folder, emoji] of categoryFolders) {
             categoryLabel: t(`categoryConfig.${slug}` as any),
             categoryEmoji: emoji,
             categoryColor: exploreCats[slug]?.color || '#16a34a',
-            // 用文章 head image（frontmatter `image` → /article-images/…），跟 /latest
-            // 一致；無圖 → undefined → ArticleCard 退回分類色 placeholder。不用 OG 卡。
+            // Use article head image (frontmatter `image` → /article-images/…), same as
+            // /latest; no image → undefined → ArticleCard falls back to category-color
+            // placeholder. No OG cards.
             coverImage: data.image || undefined,
             featured: !!data.featured,
           });
@@ -269,7 +270,7 @@ const hotSearchTerms = [
 ] as string[];
 
 // ── Lang derivation for the inline random script ──
-// Per REFLEXES #20 / MANIFESTO §指標 over 複寫 — derive from LANGUAGES_REGISTRY
+// Per REFLEXES #20 / MANIFESTO §metrics-over-duplication — derive from LANGUAGES_REGISTRY
 // SSOT instead of hardcoding ['en','ja','ko','es','fr']. The non-default
 // codes are the language URL prefixes; `langPrefixesLower` adds 'zh-tw'
 // lowercase to catch stray articles whose category accidentally landed
@@ -425,7 +426,7 @@ const routedCats = categoryList;
     <CategoryGrid />
   </section>
 
-  <!-- ====== 最新文章 (時序主軸 — WS6) ====== -->
+  <!-- ====== LATEST ARTICLES (chronological axis — WS6) ====== -->
   {
     latestForExplore.length > 0 && (
       <section class="mx-auto my-16 max-w-[860px] px-8 max-[768px]:my-10 max-[768px]:px-4">

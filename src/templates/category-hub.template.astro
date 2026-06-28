@@ -219,13 +219,13 @@ for (const [name, arts] of [...subcatMap.entries()].sort((a, b) => {
   subcategoryGroups.push({ name, articles: arts });
 }
 
-// lang 已從 props 取得，不再從 URL derive
+// lang is taken from props, no longer derived from URL
 const t = useTranslations(lang);
 
 const categoryConfigs = getCategoryConfigs(t);
 const categoryInfo = categoryConfigs[category];
 
-// 其他分類（sidebar 跨分類導航用）
+// Other categories (for sidebar cross-category navigation)
 const otherCategories = categories
   .filter((cat) => cat !== category)
   .map((cat) => ({
@@ -609,12 +609,12 @@ const otherCategories = categories
     categoryColorLight: categoryInfo.colorLight,
   }}
 >
-  /* 2026-04-27 sticky sidebar highlight 對應 IntersectionObserver
-     用 plain CSS 而非 Tailwind 的 [&.active]: arbitrary variant，原因：
-     Tailwind v4 在 dev/build 時對 `[&.active]:bg-[var(--categoryColor,...)]`
-     的 var() + arbitrary value 組合 JIT 不穩定，部分 production build
-     拿不到該 CSS rule。改用 page-scoped <style> 直接寫 `.active` 規則
-     可保證命中（且 categoryColor 已透過 define:vars 暴露）。 */
+  /* 2026-04-27 sticky sidebar highlight via IntersectionObserver.
+     Uses plain CSS instead of Tailwind [&.active]: arbitrary variant because
+     Tailwind v4 JIT is unstable with `[&.active]:bg-[var(--categoryColor,...)]`
+     in production builds (some builds miss the CSS rule). Page-scoped <style>
+     with a direct `.active` rule guarantees the hit (categoryColor is exposed
+     via define:vars). */
   .subcat-nav-link.active {
     background-color: rgba(45, 80, 22, 0.08);
     border-left-color: var(--categoryColor, #1e3a5f);
@@ -1141,10 +1141,11 @@ const otherCategories = categories
 </style>
 
 <!--
-  2026-04-27 sticky sidebar highlight：當使用者捲動到某個 subcategory 區塊
-  （如「音樂與表演」「政治人物」），左側 sticky 主題側邊欄對應連結加 .active
-  class。是 page-scoped <style> 規則（不是 Tailwind 變體）負責視覺效果。
-  is:inline = 不被 Vite 處理，避免 TS/HMR 路徑出錯導致 IIFE 不執行。
+  2026-04-27 sticky sidebar highlight: when the user scrolls to a subcategory
+  section, the corresponding link in the left sticky sidebar gets .active class.
+  Visual effect is handled by page-scoped <style> rules (not Tailwind variants).
+  is:inline = not processed by Vite, avoids TS/HMR path errors preventing the
+  IIFE from executing.
 -->
 <script is:inline>
   (function () {
@@ -1182,7 +1183,7 @@ const otherCategories = categories
           if (id.indexOf('sub-') === 0) setActive(id.slice(4));
         },
         {
-          // 觸發區 = viewport 上 1/4（從頂端 -10% 到底部 -65%）
+          // Trigger zone = top 1/4 of viewport (top -10% to bottom -65%)
           rootMargin: '-10% 0px -65% 0px',
           threshold: 0,
         },

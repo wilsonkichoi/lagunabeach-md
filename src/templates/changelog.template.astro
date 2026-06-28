@@ -54,9 +54,9 @@ for (const commit of commits) {
   const ct = commitType(commit.message);
   typeCounts[ct] = (typeCounts[ct] || 0) + 1;
 }
-// 文章更新 pseudo-type (時序主軸 — WS5): article-facing commit types only, so
-// the changelog reads like "article updates" to a reader by default. Readers
-// who want the full organism activity click 全部.
+// Article updates pseudo-type (chronological axis — WS5): article-facing commit
+// types only, so the changelog reads like "article updates" to a reader by default.
+// Readers who want the full organism activity click "All".
 typeCounts.articles =
   (typeCounts.rewrite || 0) +
   (typeCounts.translate || 0) +
@@ -211,7 +211,7 @@ const filterTypes = [
   },
 ];
 
-// 左欄跳轉資料（共用 TimelineDayNav 的 shape，與 /latest 同一具骨架）
+// Left-column jump data (shares TimelineDayNav shape, same skeleton as /latest)
 const navMonthsData = sortedMonths.map((m) => ({
   key: m,
   label: formatMonth(m),
@@ -315,7 +315,9 @@ const searchPlaceholder =
 
     {/* Two-column layout */}
     <div class="grid grid-cols-[200px_1fr] gap-8 max-lg:grid-cols-1">
-      {/* Left: Date Navigation（共用 timeline 元件，與 /latest 同骨架）*/}
+      {
+        /* Left: Date Navigation (shared timeline component, same skeleton as /latest) */
+      }
       <TimelineDayNav
         navId="date-nav"
         months={navMonthsData}
@@ -353,7 +355,7 @@ const searchPlaceholder =
 </Layout>
 
 <script is:inline>
-  // ── Search + Type Filter ─────────────────────────
+  // ── Search + Type Filter ──
   const searchInput = document.getElementById('changelog-search');
   const pills = document.querySelectorAll('.filter-pill');
   const items = document.querySelectorAll('.commit-log-item');
@@ -470,11 +472,11 @@ const searchPlaceholder =
     });
   });
 
-  // Apply the default "文章更新" view on load (WS5) so readers see article
-  // updates first; the 全部 pill restores the full organism activity log.
+  // Apply the default "Articles" view on load (WS5) so readers see article
+  // updates first; the "All" pill restores the full organism activity log.
   applyFilters();
 
-  // ── Active Date Tracking (IntersectionObserver) ──
+  // ── Active date tracking (IntersectionObserver) ──
   const dayElements = document.querySelectorAll(
     '.changelog-day-group[id^="day-"]',
   );
