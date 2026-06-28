@@ -1,11 +1,11 @@
 ---
 title: 'RESEARCH-TEMPLATE'
-description: '前期研究筆記模板 — REWRITE-PIPELINE Stage 1 輸出格式 SSOT'
+description: 'Pre-writing research-notes template — the SSOT output format for REWRITE-PIPELINE Stage 1'
 type: 'editorial-canonical'
 status: 'canonical'
-current_version: 'v1.1'
-last_updated: 2026-06-10
-last_session: '2026-06-10-113753-audit'
+current_version: 'v2.0'
+last_updated: 2026-06-28
+last_session: 'phase-d-batch3-editorial-deTaiwan'
 sister_docs:
   - 'RESEARCH.md'
   - 'EDITORIAL.md'
@@ -15,49 +15,50 @@ upstream_canonical:
   - '../pipelines/REWRITE-PIPELINE.md'
 ---
 
-# RESEARCH-TEMPLATE.md — 前期研究筆記模板
+# RESEARCH-TEMPLATE.md — Pre-writing research notes
 
-> 這是 REWRITE-PIPELINE Stage 1 的輸出格式。
-> 每篇文章在動筆前，必須先完成這份研究筆記。
-> 品質標準見 EDITORIAL.md。
+> This is the output format for REWRITE-PIPELINE Stage 1.
+> Before drafting any article, finish this research note first.
+> Quality standard: see EDITORIAL.md.
 >
-> **v1.1 對齊 RESEARCH.md v1.2-1.3 兩條鐵律**（2026-06-10 audit A-10 — 模板停在 v1.0 沒跟上方法論演進）：
-> (1) **證偽優先**：每個預備假設（含 INBOX 預載 hypothesis）的研究目標是 break 它，不是 confirm 它——蘇打綠 9/12 假設被推翻（含完全虛構的 Royal Albert Hall「亞洲首組」）即實證。
-> (2) **中文 verbatim**：任何可驗證的具體事實（時間/地點/動作/交通/數字/引語）不可從英文摘要推導；中文站用中文 prompt 要逐字（per RESEARCH.md §六 + REFLEXES #23 毒樹果實鏈）。
+> Re-grounded for LagunaBeach.md (Phase D). Upstream origin: Taiwan.md's research scaffold, built for 1,000+ word journalism with a 100+ search budget. This fork's articles run 277-773 words as a short locals-guide format, so the source quotas below are calibrated down to match. The two iron rules carry over unchanged:
+>
+> (1) **Falsification first**: every working hypothesis (including any hypothesis pre-loaded from INBOX) is something the research tries to _break_, not confirm. If a plausible local claim survives a genuine attempt to disprove it, it's earned its place; if it doesn't survive, you just saved the article from a confident error.
+> (2) **Primary-source verbatim**: any verifiable specific (date / place / action / number / quote) must come from a primary or authoritative source, not be inferred from a secondary summary, a travel blog, or an AI paraphrase (per RESEARCH.md and the citation discipline in CITATION-GUIDE.md).
 
 ---
 
-## 研究筆記：[文章名]
+## Research note: [article title]
 
-### 切入人物
+### The way-in person
 
-> 誰的故事可以代表這個主題？（見 EDITORIAL.md Step 0.5）
-> 從書、紀錄片、報導中找一個有名字的人。不是機構。
+> Whose story can stand in for this topic? (See EDITORIAL.md.)
+> Find one named person — from a book, a documentary, a news report. Not an institution.
 
-- **人名**：
-- **身份/角色**：
-- **為什麼選他/她**：
-- **來源**：[URL]
+- **Name**:
+- **Role / who they are**:
+- **Why this person**:
+- **Source**: [URL]
 
-### 反直覺核心句
+### Counter-intuitive core line
 
-> 「這篇文章要讓讀者驚訝的是 **\_\_**」
-> 必須含矛盾或反差。寫不出來 = 研究不夠深。
+> "The one thing this article should make the reader surprised by is **\_\_**."
+> It must contain a contradiction or a reversal. If you can't write it, the research isn't deep enough yet.
 
-「**\_\_**」
+"**\_\_**"
 
-### 三個讀者會問的問題
+### Three questions a reader will ask
 
 1.
 2.
 3.
 
-### 事實素材庫（= Stage 2 的 Footnote 配對表）
+### Fact bank (= the footnote-pairing table for Stage 2)
 
-> 至少 8-10 條。每條附來源 URL + 年份。
-> ⚠️ **這張表就是 Stage 2 寫 footnote 的依據。** 寫作時直接從這裡對應 `[^n]`，不用重新找來源。
+> At least 5-8 entries for a Standard article, fewer for a Quick Take. Each with a source URL + year.
+> ⚠️ **This table is what Stage 2 builds footnotes from.** When writing, map directly from here to `[^n]`; don't re-hunt for sources.
 
-| #   | 事實 | 來源    | 年份 | Footnote |
+| #   | Fact | Source  | Year | Footnote |
 | --- | ---- | ------- | ---- | -------- |
 | 1   |      | [URL]() |      | [^1]     |
 | 2   |      | [URL]() |      | [^2]     |
@@ -65,100 +66,98 @@ upstream_canonical:
 | 4   |      | [URL]() |      | [^4]     |
 | 5   |      | [URL]() |      | [^5]     |
 | 6   |      | [URL]() |      | [^6]     |
-| 7   |      | [URL]() |      | [^7]     |
-| 8   |      | [URL]() |      | [^8]     |
 
-### 真人引語
+### Real quotes
 
-> 至少 2 句從公開來源挖來的真人原話。禁止杜撰。
-> 優先序：紀錄片/影片 > 書籍 > 新聞報導。
+> At least 1-2 real quotes pulled from public sources. No fabrication.
+> Priority order: documentary / video > book > news report.
 
-1. 「**\_\_**」——**誰**（語出 [來源名稱](URL)）
-2. 「**\_\_**」——**誰**（語出 [來源名稱](URL)）
+1. "**\_\_**" — **who** (from [source name](URL))
+2. "**\_\_**" — **who** (from [source name](URL))
 
-### 故事素材
+### Story material
 
-> 有人名、場景、衝突的具體故事。至少 2 個。
+> Concrete stories with a name, a scene, a conflict. At least 1-2.
 
-1. **[故事標題]**：
-2. **[故事標題]**：
+1. **[story title]**:
+2. **[story title]**:
 
-### 數據素材
+### Data material
 
-> 會用在 stat block 或正文中的數字。每個附來源+年份。
+> Numbers that will appear in a stat block or in the prose. Each with source + year.
 
 -
 -
 
-### 挑戰/爭議素材
+### Challenge / controversy material
 
-> 至少 1 個正反觀點。用來「編織進故事」，不是補在最後。
+> At least 1 point with two sides, where the topic warrants it. Weave it into the story; don't bolt it on at the end.
+> (For a single uncontested beach or trail, this may legitimately be "none.")
 
-- **正方**：
-- **反方**：
-- **來源**：
+- **For**:
+- **Against**:
+- **Source**:
 
-### 國際視角
+### Outside view
 
-> 至少 1 個英文來源，讓文章不只是台灣內部視角。
+> Where relevant, at least one source beyond the most local one — a regional paper, an academic source, a comparison to another coastal town — so the article isn't only Laguna talking to itself.
 
 -
 
-### 結尾素材
+### Ending material
 
-> ⚠️ 在研究階段就準備。不要等寫到最後才想。
-> 五種結尾模式見 EDITORIAL.md：餘韻/翻轉/時間跳躍/問題/灰色地帶。
+> ⚠️ Prepare this during research. Don't wait until the last paragraph to think of it.
+> The ending modes are in EDITORIAL.md: resonance / reversal / time-jump / question / gray area.
 
-- **選用模式**：
-- **素材**：
+- **Mode chosen**:
+- **Material**:
 
-### 參考資料清單
+### Reference list
 
-> 5+ 獨立來源。標註一手/二手。含 2 個一手 + 1 個英文。
+> Standard article: 2-3 independent sources, at least 1 primary. Deep Dive: 3-5+.
+> Mark each as primary or secondary.
 
-1. [名稱](URL)（一手/二手）
-2. [名稱](URL)
-3. [名稱](URL)
-4. [名稱](URL)
-5. [名稱](URL)
-
----
-
-## 品質門檻（全部打勾才進 Stage 2）
-
-- [ ] 切入人物找到了？（有名字、有身份、有來源）
-- [ ] 反直覺核心句寫出來了？（含矛盾/反差）
-- [ ] 至少 8 條事實素材，每條有 URL？
-- [ ] 至少 2 句真人引語，每句有來源？
-- [ ] 至少 2 個故事素材（有人名、場景）？
-- [ ] 至少 1 個爭議/挑戰素材？
-- [ ] 結尾素材已準備？
-- [ ] 5+ 獨立來源，含 2 個一手 + 1 個英文？
-
-**不合格就不進 Stage 2。回去搜尋。**
+1. [name](URL) (primary / secondary)
+2. [name](URL)
+3. [name](URL)
 
 ---
 
-## 搜尋策略建議（depth article，2026-06-04 對標研究所論文升級）
+## Quality gate (all boxes checked before Stage 2)
 
-> ⚠️ depth article 的 research report 是 **SSOT 七段結構**（觀點成型 / 搜尋日誌 / Findings by sub-topic 標信度 / Clean Fact-Pack / 參考文獻 / Verification Table / agent raw 全 append）。本模板是 §4 Clean Fact-Pack 那一層的 scaffold；完整 SSOT 結構 + 搜尋配額 canonical 在 [REWRITE-PIPELINE Step 1.7](../pipelines/REWRITE-PIPELINE.md)，驗收用 `research-report-health.py`。
+- [ ] Way-in person found? (a name, a role, a source)
+- [ ] Counter-intuitive core line written? (contains a contradiction / reversal)
+- [ ] Enough fact-bank entries for the length band, each with a URL?
+- [ ] At least 1 real quote where one exists, with a source?
+- [ ] At least 1 story with a name and a scene?
+- [ ] Controversy material where the topic warrants it (or an honest "none")?
+- [ ] Ending material prepared?
+- [ ] Sources meet the band's floor, at least 1 primary?
 
-| 來源類別           | 最低配額 | 目標                                         |
-| ------------------ | -------- | -------------------------------------------- |
-| 中文搜尋           | 40+      | 基礎事實、歷史脈絡、在地觀點                 |
-| 英文 / 國際 / 學術 | **20+**  | 國際視角、學術來源、比較觀點（英文來源 ≠ 0） |
-| 一手來源           | 15+      | 政府網站、官方報告、年報、法規、學術論文     |
-| 反方 / 批評        | 5+       | 跨陣營對立論述                               |
-
-（全篇 ≥ 100 次搜尋：Stage 0 探索 ≥20 + Stage 1 ≥80。所有 query 寫回 §搜尋日誌——搜了沒寫回 = 沒搜。）
-
-**搜尋關鍵字技巧：**
-
-- 找引語：`"主題" 訪談 紀錄片 "他說" OR "她說"`
-- 找爭議：`"主題" 爭議 OR 批評 OR 質疑`
-- 找一手：`"主題" site:gov.tw OR site:edu.tw`
+**Not passing means not entering Stage 2. Go back and search.**
 
 ---
 
-_版本：v1.1 | 2026-03-29_
-_配套：RESEARCH.md（研究方法論）+ REWRITE-PIPELINE.md（流程）+ EDITORIAL.md（品質標準）+ QUALITY-CHECKLIST.md（驗證）_
+## Search strategy (calibrated to LagunaBeach.md's short locals-guide format)
+
+> ⚠️ Upstream's depth-article research report is a seven-section SSOT structure with a 100+ search budget, built for thesis-scale journalism. This fork's articles are far shorter, so the quotas below are sized to the EDITORIAL length bands (Quick Take / Standard / Deep Dive). The full upstream SSOT structure and search budget live in [REWRITE-PIPELINE Step 1.7](../pipelines/REWRITE-PIPELINE.md) for if and when this corpus grows depth articles at that scale.
+
+| Source class             | Floor (Standard) | Goal                                                     |
+| ------------------------ | ---------------- | -------------------------------------------------------- |
+| Local / authoritative    | 5+               | Base facts, history, on-the-ground detail                |
+| Primary source           | 1-2              | City records, museum/festival archives, official reports |
+| Regional / wider context | 1+               | Regional papers, archives, comparison to other towns     |
+| Opposing / critical view | as warranted     | Where the topic is contested (development, conservation) |
+
+(Log every query you run back into the research note. A search you didn't write down is a search you didn't do.)
+
+**Search keyword tips:**
+
+- Find quotes: `"topic" interview OR oral-history "he said" OR "she said"`
+- Find controversy: `"topic" controversy OR opposition OR lawsuit`
+- Find primary sources: `"topic" site:lagunabeachcity.net OR site:ocparks.com` — plus museum, festival, and historical-society archives, and the regional press (LA Times, OC Register, Laguna Beach Independent)
+
+---
+
+_Version: v2.0 | 2026-06-28 (re-grounded from Taiwan.md's RESEARCH-TEMPLATE for LagunaBeach.md, Phase D batch 3)_
+_Companions: RESEARCH.md (research methodology) + REWRITE-PIPELINE.md (process) + EDITORIAL.md (quality standard) + QUALITY-CHECKLIST.md (verification)_

@@ -1,11 +1,11 @@
 ---
 title: 'HUB-EDITORIAL'
-description: 'Hub 策展維護標準 — 分類頁面的導讀文體 + 策展觀點規範'
+description: 'Hub curation standard — the lede voice for category pages, plus the curatorial-viewpoint rules'
 type: 'editorial-canonical'
 status: 'canonical'
-current_version: 'v1.0'
-last_updated: 2026-05-04
-last_session: 'magical-feynman'
+current_version: 'v2.0'
+last_updated: 2026-06-28
+last_session: 'phase-d-batch3-editorial-deTaiwan'
 sister_docs:
   - 'EDITORIAL.md'
   - 'TERMINOLOGY.md'
@@ -14,285 +14,262 @@ upstream_canonical:
   - 'EDITORIAL.md'
 ---
 
-# HUB-EDITORIAL.md — Hub 策展維護標準
+# HUB-EDITORIAL.md — Hub curation standard
 
-> Hub 頁面是讀者的第一站。它不是目錄，是一篇有策展觀點的導讀。
-> 如果 EDITORIAL.md 管的是「每篇文章的品質」，這份文件管的是「每個分類入口的品質」。
-
----
-
-## 一、Hub 是什麼？不是什麼？
-
-**Hub 是**：讀者走進一個主題時的策展導覽。像博物館的展廳入口牆面，告訴你「這個展廳在講什麼」「為什麼值得看」「從哪裡開始看」。
-
-**Hub 不是**：
-
-- ❌ 文章列表（那是 category index 頁面的事）
-- ❌ 維基百科概述（「台灣音樂歷史悠久，種類繁多」= 廢話）
-- ❌ bullet list 大全（跟 EDITORIAL.md 同一條鐵律：敘事 > 列表）
-
-**一句話檢驗**：如果把所有 wikilink 拿掉，Hub 頁面本身還是一篇值得讀的文章嗎？
-
-- 是 → 合格
-- 不是 → 需要重寫
+> A Hub page is the reader's first stop. It is not a directory; it is a guided lede with a curatorial point of view.
+> If EDITORIAL.md governs "the quality of each article," this document governs "the quality of each category entrance."
+>
+> Re-grounded for LagunaBeach.md (Phase D). The Hub methodology ports directly from Taiwan.md; every example is re-pointed at this fork's real categories, facts, and Resources page. One status difference to be honest about up front: **this fork has not built editorial Hubs yet** — the eight category pages exist as auto-generated indexes, and §5 reflects that reality rather than inventing traffic numbers.
 
 ---
 
-## 二、Hub 結構標準
+## 1. What a Hub is, and isn't
+
+**A Hub is**: a curated walk-through for a reader stepping into a topic. Like the wall text at a museum gallery entrance, telling you "what this room is about," "why it's worth your time," "where to start."
+
+**A Hub is not**:
+
+- ❌ an article list (that's the category index page's job)
+- ❌ a Wikipedia overview ("Laguna Beach has a long and rich history" = filler)
+- ❌ a giant bullet list (same iron rule as EDITORIAL.md: narrative > list)
+
+**One-sentence test**: if you stripped out every wikilink, would the Hub page still be an article worth reading?
+
+- yes → passes
+- no → needs a rewrite
+
+---
+
+## 2. Hub structure standard
 
 ### Frontmatter
 
 ```yaml
 ---
-title: '分類名'
-date: YYYY-MM-DD # 最後更新日
-tags: [主題標籤, Hub]
-description: '策展式描述，不是「本頁收錄 X 類文章」'
+title: 'Category name'
+date: YYYY-MM-DD # last updated
+tags: [topic-tag, Hub]
+description: 'A curatorial description, not "this page collects X articles"'
 ---
 ```
 
-### 必要段落
+### Required sections
 
-#### 1. 策展導言（開場散文）
+#### 1. Curatorial lede (opening prose)
 
-**3-5 段，500-800 字。** 這是整個 Hub 最重要的部分。
+**3-5 paragraphs, 400-600 words.** This is the single most important part of the Hub.
 
-要求：
+Requirements:
 
-- 用 EDITORIAL.md 的反直覺開場（不用「台灣的 X 很 Y」）
-- 回答一個核心問題：**「為什麼這個主題在台灣特別值得看？」**
-- 至少包含 3 個具體事實（年份、數字、人名）
-- 有策展觀點（不是中立描述，是「我認為最值得注意的是⋯⋯」）
-- 語氣像展覽開幕的策展人致詞，不像百科全書的序言
+- Use EDITORIAL.md's counter-intuitive opening (not "Laguna's X is very Y")
+- Answer one core question: **"Why is this topic especially worth seeing in Laguna Beach?"**
+- Include at least 3 concrete facts (years, numbers, names)
+- Have a curatorial point of view (not neutral description — "what I think is most worth noticing is…")
+- Read like a curator's opening remarks at an exhibition, not an encyclopedia preface
 
-**好的導言**（People Hub）：
+**A good lede** (History Hub):
 
-> 一九八七年，張忠謀在新竹科學園區創立台積電時，全世界的半導體公司都自己設計、自己製造。沒有人相信一家只做代工的公司能活下來。三十八年後，台積電市值超過全球九成以上的企業。
-> 同一年，台灣解除了長達三十八年的戒嚴令。
+> In 1927, Laguna Beach incorporated as a city of about 1,600 people — and split, almost immediately, into pro-development and conservation factions that have been fighting ever since. Forty years later that fight produced something rare on the Southern California coast: a permanent greenbelt of more than 20,000 acres wrapped around just 8.84 square miles of town. The 1993 firestorm that took 441 homes, the plein-air painters who arrived in the 1910s, the Pageant that has run every summer since 1933 — they're all, in the end, stories about a small town deciding what it refused to become.
 
-**壞的導言**：
+**A bad lede**:
 
-> 台灣有許多在各領域表現傑出的人物，從科技到藝術，從體育到政治，這些人物為台灣的發展做出了重要貢獻。
+> Laguna Beach has a long and rich history, from its indigenous roots to its art colony to the present day, and these many stories have all contributed to making the city what it is today.
 
-#### 2. 分類策展段（每個子分類一段）
+#### 2. Sub-category curatorial paragraphs (one per sub-category)
 
-如果 Hub 有子分類（如 People 的 11 個 subcategory），每個子分類需要：
+If a Hub has sub-categories, each one needs:
 
-- **H2 標題**：`## 🎵 音樂`
-- **策展散文**：150-250 字，不是介紹「這個分類有什麼」，而是「這群人/事/物的故事為什麼值得讀」
-- **wikilinks 列表**：該分類所有文章的 `[[文章名]]`，用 `|` 分隔
+- **An H2 heading**: `## 🎨 Galleries`
+- **Curatorial prose**: 120-200 words — not "what's in this sub-category," but "why this group of people/places/events is worth reading"
+- **A wikilink list**: every article in that sub-category as `[[article-name]]`, separated by `|`
 
-策展散文的寫法跟 EDITORIAL.md 的「策展人聲音」一樣：有觀點、有節奏、有讓人停下來的句子。
+The curatorial prose follows the same "curator's voice" as EDITORIAL.md: a point of view, a rhythm, a sentence that makes the reader stop.
 
-#### 3. 延伸閱讀（選用）
+#### 3. Further reading (optional)
 
-如果有跨分類的相關主題，可以加 `## 延伸閱讀` 段落。
+If there are cross-category related topics, add a `## Further reading` section.
 
-### 不需要的
+### Not needed
 
-- ❌ 目錄（Table of Contents）
-- ❌ 「最新文章」段落（動態的，靠程式生成）
-- ❌ 貢獻指引（那是 CONTRIBUTING.md 的事）
-
----
-
-## 三、寫作陷阱清單（從實戰經驗歸納）
-
-### 句式黑名單
-
-寫 Hub 時最容易掉進的坑。下次寫之前掃一遍。
-
-| 陷阱                      | 症狀                                         | 處方                                                                                         |
-| ------------------------- | -------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| **「不是 X 而是 Y」過載** | 一頁出現 5+ 次「不是⋯而是⋯」「不只是⋯更是⋯」 | 直接說 Y，不用先否定 X。讀者不需要被告知什麼「不是」。                                       |
-| **破折號濫用**            | 每段都有「——」，讀起來像氣喘                 | 用句號斷句，用逗號連接，用冒號引入。破折號每段最多 1 個。                                    |
-| **策展人聲音消失**        | 整段讀完感覺像維基百科                       | 加一句只有策展人會說的話：「我認為⋯」「值得注意的是⋯」「如果你只看一個⋯」                    |
-| **數字堆砌**              | 連續 3 個以上數字沒有故事串連                | 每個數字都要回答「so what?」。不是「500 間博物館」，是「500 間博物館擠在比瑞士還小的島上」。 |
-| **空泛形容詞**            | 「豐富」「多元」「重要」「獨特」             | 刪掉形容詞，換成具體事實。「豐富的文化」→「16 種原住民語言、每年 15,000 場廟會」。           |
-| **被動語態**              | 「被認為是」「被視為」                       | 主動說。不是「被視為亞洲最好的」，是「亞洲沒有第二個」。                                     |
-
-### 結構陷阱
-
-| 陷阱                     | 症狀                               | 處方                                                                                   |
-| ------------------------ | ---------------------------------- | -------------------------------------------------------------------------------------- |
-| **第一屏浪費**           | 打開頁面看到的是裝飾元素，不是內容 | 第一屏必須有可讀文字。大型視覺化（心智圖、D3）放底部或隱藏。                           |
-| **導航蓋住內容**         | Sticky nav 的 z-index 太高         | z-index 永遠低於 header。chapter-nav: 40, header: 50, dropdown: 1000。                 |
-| **CSS 全域污染**         | Astro 的 `main a` 規則影響卡片連結 | 新卡片元素一律加 `!important` 覆蓋 border-bottom、padding-bottom。先測再推。           |
-| **連結指向不存在的頁面** | 延伸閱讀 404                       | 每個 `translatePath()` 的路徑都要對應 `knowledge/` 裡的真實 .md 檔案。推之前跑 build。 |
+- ❌ Table of Contents
+- ❌ a "Latest articles" section (that's dynamic, generated by code)
+- ❌ contribution guidelines (that's CONTRIBUTING.md's job)
 
 ---
 
-## 四、Hub 品質檢查清單
+## 3. Writing-trap checklist (distilled from real experience)
 
-### 內容品質
+### Sentence blacklist
+
+The pits you fall into most when writing a Hub. Scan this before you write.
+
+| Trap                         | Symptom                                               | Prescription                                                                                                                                                               |
+| ---------------------------- | ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **"not X but Y" overload**   | 5+ "not X, but Y" / "not only X, but also Y" per page | Just say Y. The reader doesn't need to be told what something "isn't."                                                                                                     |
+| **dash abuse**               | every paragraph has an em dash; reads like wheezing   | Break with periods, connect with commas, introduce with colons. One dash per paragraph, max.                                                                               |
+| **curator's voice vanishes** | a whole section reads like Wikipedia                  | Add one line only a curator would say: "what I think matters is…" "worth noticing is…" "if you see only one…"                                                              |
+| **number pile-up**           | 3+ numbers in a row with no story tying them          | Every number must answer "so what?" Not "7 miles of coast," but "7 miles of coast where a greenbelt stopped the tract houses at the ridgeline."                            |
+| **empty adjectives**         | "rich," "diverse," "important," "unique"              | Cut the adjective, swap in a concrete fact. "a rich art scene" → "a plein-air colony since the 1910s, an art museum since 1918, a masterpiece-tableau pageant since 1933." |
+| **passive voice**            | "is considered," "is regarded as"                     | Say it active. Not "is regarded as a top coastal town," but a concrete claim with a fact behind it.                                                                        |
+
+### Structure traps
+
+| Trap                              | Symptom                                                                        | Prescription                                                                                                 |
+| --------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| **wasted first screen**           | open the page and the first thing you see is a decorative element, not content | The first screen must have readable text. Large visualizations (mind maps, D3) go at the bottom or hidden.   |
+| **nav covers content**            | a sticky nav with too high a z-index                                           | z-index always below the header. chapter-nav: 40, header: 50, dropdown: 1000.                                |
+| **CSS global pollution**          | Astro's `main a` rule affects card links                                       | New card elements always add `!important` to override border-bottom / padding-bottom. Test before shipping.  |
+| **link points to a missing page** | further-reading 404s                                                           | Every `translatePath()` route must map to a real .md file under `knowledge/`. Run the build before shipping. |
+
+---
+
+## 4. Hub quality checklist
+
+### Content quality
 
 ```
-[ ] 導言有反直覺開場嗎？（不是「台灣的 X 很 Y」）
-[ ] 導言至少有 3 個具體事實（年份/數字/人名）？
-[ ] 導言回答了「為什麼這個主題在台灣特別值得看」？
-[ ] 每個子分類都有 150+ 字的策展散文？
-[ ] 策展散文不是百科式介紹（有觀點、有故事）？
-[ ] 「不是 X 而是 Y」句式全頁 ≤ 2 個？
-[ ] 破折號全頁 ≤ 5 個？
-[ ] 沒有使用 EDITORIAL.md 黑名單句式？
-[ ] wikilinks 跟實際文章對得上？（沒有死連結）
+[ ] Does the lede have a counter-intuitive opening? (not "Laguna's X is very Y")
+[ ] Does the lede have at least 3 concrete facts (year/number/name)?
+[ ] Does the lede answer "why is this topic especially worth seeing in Laguna Beach"?
+[ ] Does every sub-category have 120+ words of curatorial prose?
+[ ] Is the curatorial prose non-encyclopedic (a viewpoint, a story)?
+[ ] "not X but Y" patterns ≤ 2 for the whole page?
+[ ] Em dashes ≤ 5 for the whole page?
+[ ] No EDITORIAL.md blacklist sentence patterns?
+[ ] Do the wikilinks match real articles? (no dead links)
 ```
 
-### 結構品質
+### Structure quality
 
 ```
-[ ] 總行數在 80-250 行之間？（太短=敷衍，太長=失焦）
-[ ] 沒有連續 4 行以上 bullet list？
-[ ] H2 數量在 3-12 個之間？
-[ ] description 是策展式的（不是「收錄 X 類文章」）？
-[ ] 第一屏有可讀文字？（不是被視覺化元素佔滿）
+[ ] Total line count between 80-250? (too short = phoned in; too long = unfocused)
+[ ] No bullet list running 4+ lines straight?
+[ ] H2 count between 3-12?
+[ ] Is the description curatorial (not "collects X articles")?
+[ ] Does the first screen have readable text? (not filled by a visualization)
 ```
 
-### 維護頻率
+### Maintenance cadence
 
 ```
-[ ] 新文章上線後 24 小時內更新 wikilinks？
-[ ] 每週檢查一次死連結？
-[ ] 每月審視一次導言是否需要更新？（新的里程碑事件）
+[ ] Update wikilinks within 24 hours of a new article going live?
+[ ] Check for dead links once a week?
+[ ] Review the lede once a month? (new milestone events)
 ```
 
 ---
 
-## 五、Hub 分級（當前狀態，2026-03-24 更新）
+## 5. Hub grading (current state, 2026-06-28)
 
-根據上述標準，12 個 Hub + Resources 的現狀評估：
+This fork has **not built editorial Hubs yet**. The eight content categories — About, Art & Galleries, Beaches, Events & Festivals, Food, History, Nature & Marine Life, Neighborhoods, Trails — currently surface as auto-generated index pages, not as curated ledes written to the standard above. There is also no analytics wired (no GA4, no Search Console), so there's no traffic data to prioritize by.
 
-### ⭐⭐⭐ 策展級（導言好 + 分類散文好）
+So the grading table upstream maintained (per-Hub line counts + view counts) doesn't apply here yet. When Hubs get built, grade them against §4 and record the state here. Until then this section is a placeholder, not a scoreboard.
 
-- **People**（163 行）— 張忠謀開場、11 分類都有散文 ✅
-- **Food**（206 行）— 有深度導言、風味分類 ✅
-- **Resources**（特殊 Hub）— EDITORIAL v2 策展內容、i18n 完整、精選 Top 3 ✅
+**Suggested build order** (by editorial weight, not traffic — there's no traffic data):
 
-### ⭐⭐ 合格（有導言但散文薄）
-
-- **Art**（140 行）
-- **Culture**（146 行）
-- **Economy**（111 行）
-- **Geography**（119 行）
-- **Society**（113 行）
-
-### ⭐ 需要升級（導言太短或太百科）
-
-- **History**（73 行）— 最重要的分類，行數最少 🔴
-- **Music**（75 行）
-- **Lifestyle**（103 行）
-- **Nature**（103 行）
-- **Technology**（103 行）
-
-### 優先升級順序
-
-根據 GA4 流量排序（流量高 = 最多人看 = 最該好）：
-
-1. 🔴 **History**（4,400 views，73 行）— 流量第一的文章分類，Hub 最薄
-2. 🟠 **Food**（3,398 views）— 已經不錯，但可以更好
-3. 🟠 **Geography**（3,187 views）— 流量第三，品質中等
-4. 🟡 **Culture**（2,082 views）
-5. 🟡 **Technology**（981 views + 半導體 1,473 views）
-6. 🟡 **Music**（1,193 views，75 行）— 行數跟 History 一樣少
+1. **History** — the category whose lede has the most to say (incorporation, the greenbelt fight, the 1993 firestorm). Highest payoff for a curated Hub.
+2. **Art & Galleries** — the plein-air colony, the 1918 museum, the 1966 Sawdust festival: a strong curatorial through-line.
+3. **Events & Festivals** — Pageant of the Masters (1933) and Sawdust (1966) anchor it.
+4. **Beaches** / **Trails** / **Nature & Marine Life** / **Neighborhoods** / **Food** — build as each category's article count grows past a thin lede.
 
 ---
 
-## 六、Hub 更新 SOP
+## 6. Hub update SOP
 
-### 新文章上線時
+### When a new article goes live
 
-1. 新文章的分類 → 找到對應 Hub
-2. 加 wikilink 到正確的子分類段落
-3. 如果是新的子分類 → 新增 H2 + 策展散文
-4. Build 確認沒壞
+1. New article's category → find the matching Hub
+2. Add a wikilink to the correct sub-category section
+3. If it's a new sub-category → add an H2 + curatorial prose
+4. Build to confirm nothing broke
 
-### 月度 Hub 健康檢查
+### Monthly Hub health check
 
-1. 跑 `python3 scripts/tools/article-health.py --all --check=prose-health` 對所有 Hub
-2. 檢查 wikilinks 是否有死連結
-3. 檢查分類文章數量（新增的有沒有漏加）
-4. 導言是否需要更新（新事件、新里程碑）
+1. Run `python3 scripts/tools/article-health.py --all --check=prose-health` against all Hubs
+2. Check wikilinks for dead links
+3. Check the category's article count (did a new one get missed?)
+4. Does the lede need updating (new event, new milestone)?
 
-### Hub 重寫流程
+### Hub rewrite flow
 
-1. 研究：讀完該分類所有文章
-2. 找核心問題：「為什麼這個主題在台灣特別值得看？」
-3. 寫反直覺開場
-4. 每個子分類寫 150-250 字策展散文
-5. 跑品質清單（第四章）
-6. 中英雙版同步
-
----
-
-## 七、與 EDITORIAL.md 的關係
-
-| 面向     | EDITORIAL.md                           | HUB-EDITORIAL.md                         |
-| -------- | -------------------------------------- | ---------------------------------------- |
-| 管什麼   | 每篇文章的品質                         | 每個分類入口的品質                       |
-| 語氣標準 | 相同（策展人聲音、禁止塑膠句式）       | 相同                                     |
-| 研究深度 | 5+ 獨立來源                            | 不要求獨立來源（Hub 引用的是底下的文章） |
-| 結構要求 | 30 秒概覽 + 正文 + 參考資料            | 導言 + 分類散文 + wikilinks              |
-| 品質偵測 | article-health.py --check=prose-health | 同 + Hub 專屬清單                        |
-| 更新頻率 | 文章上線時                             | 文章上線時 + 月度健康檢查                |
+1. Research: read every article in the category
+2. Find the core question: "why is this topic especially worth seeing in Laguna Beach?"
+3. Write a counter-intuitive opening
+4. Write 120-200 words of curatorial prose per sub-category
+5. Run the quality checklist (§4)
+6. Sync EN + zh-TW versions (zh-TW is dormant for now — see TRANSLATION-SYNC.md)
 
 ---
 
-## 八、Resources 頁面策展經驗（2026-03-24）
+## 7. Relationship to EDITORIAL.md
 
-Resources 頁面是一種特殊的 Hub：它連結**外部網站**而非站內文章。但策展邏輯完全相同。
+| Aspect         | EDITORIAL.md                                | HUB-EDITORIAL.md                                                      |
+| -------------- | ------------------------------------------- | --------------------------------------------------------------------- |
+| Governs what   | the quality of each article                 | the quality of each category entrance                                 |
+| Voice standard | same (curator's voice, no plastic patterns) | same                                                                  |
+| Research depth | 2-3+ sources (per EDITORIAL length bands)   | no independent sources required (a Hub cites the articles beneath it) |
+| Structure      | 30-second overview + body + references      | lede + sub-category prose + wikilinks                                 |
+| Quality check  | article-health.py --check=prose-health      | same + Hub-specific checklist                                         |
+| Update cadence | when an article ships                       | when an article ships + monthly health check                          |
 
-### 從「黃頁」到「策展」
+---
 
-**問題**：150 個外部連結按分類排列 = 電話簿。讀者看到「行政院 ey.gov.tw」不會有任何感覺。
+## 8. Resources-page curation experience
 
-**解法**：每個章節加三層策展：
+The Resources page is a special kind of Hub: it links to **external sites** rather than internal articles. But the curatorial logic is identical. This fork has one built — `src/pages/resources.astro` driven by `src/data/resources-data.ts`.
 
-1. **場景化開場**（story）— 用一個具體事件帶入（口罩地圖 → 開放資料生態）
-2. **子類別過渡語** — 解釋「為什麼把這些放在一起」，不只是標題
-3. **策展人筆記**（curator note）— 🔍 開頭，點出非顯而易見的洞察
+### From "yellow pages" to "curation"
 
-### 精選連結的策展標準
+**Problem**: 30 external links sorted by category = a phone book. A reader who sees "lagunabeachcity.net" feels nothing.
 
-| 普通連結    | 精選連結（Top 3）            |
-| ----------- | ---------------------------- |
-| 名稱 + 域名 | 名稱 + 域名 + **一句話描述** |
-| 白底卡片    | 淡綠底 + 左邊線（視覺區分）  |
-| 只需要存在  | 需要回答「為什麼選它」       |
+**Fix**: add three layers of curation to each chapter:
 
-**精選的三個條件**：
+1. **A scene-setting opening** (story) — lead in with one concrete event (a 1970s ridgeline fight → the design-review rules that still run the town)
+2. **Sub-category transition lines** — explain "why these are grouped together," not just a heading
+3. **A curator's note** — opens with 🔍, points out the non-obvious insight
 
-1. 它代表了這個領域台灣最獨特的面向
-2. 外國人如果只看 3 個，一定要看這 3 個
-3. 有具體數字或故事可以說（不是「很重要」就完了）
+### Featured-link curation standard
 
-### i18n 架構（技術層面）
+| Ordinary link       | Featured link (Top 3)                                      |
+| ------------------- | ---------------------------------------------------------- |
+| name + domain       | name + domain + **one-line description**                   |
+| white card          | light-tinted background + left border (visual distinction) |
+| just needs to exist | needs to answer "why this one was chosen"                  |
 
-Resources 頁面確立的三層分離模式：
+**The three conditions for featuring** (drawn from the real chapters in `resources-data.ts`):
+
+1. It represents the most distinctly Laguna face of this domain — `lagunabeachcity.net` (the city), `lagunaartmuseum.org` (an art museum since 1918), `lagunabeachhistory.org` (the historical society), `foapom.com` (Festival of Arts / Pageant of the Masters since 1933).
+2. If an outsider sees only 3, these are the 3 they must see.
+3. There's a concrete number or story to tell (not just "it's important").
+
+### i18n architecture (technical layer)
+
+The three-layer separation the Resources page established:
 
 ```
-src/data/resources-data.ts   ← 純資料（nameKey, url, domain, featured?）
-src/i18n/resources.ts        ← 所有翻譯（en + zh-TW）
-src/templates/*.astro        ← 零 inline 語言判斷，全用 t()
+src/data/resources-data.ts   ← pure data (nameKey, url, domain, featured?)
+src/i18n/resources.ts        ← all translations (en + zh-TW + …)
+src/templates/*.astro        ← zero inline language checks, all via t()
 ```
 
-**鐵律**：
+**Iron rules**:
 
-- 資料檔不含任何語言文字，只有 i18n key
-- Template 裡零 `lang === 'en'`，全用 `t()`
-- 新增連結 = 同時更新 data + i18n 兩個檔案
-- 每個 i18n key 都要有 en + zh-TW 版本
+- The data file holds no language text, only i18n keys
+- Templates have zero `lang === 'en'`; everything via `t()`
+- Adding a link = updating both data + i18n files at once
+- Every i18n key needs every language's version
 
-### 互動元素原則
+### Interactive-element principles
 
-1. **搜尋**：150+ 項目的頁面必須有搜尋
-2. **Sticky 導航**：超過 3 個章節就需要。z-index 低於 header（40 < 50）
-3. **折疊**（details/summary）：超過 10 項的子類別應折疊
-4. **大型視覺化**：如果佔第一屏太多空間，隱藏或移到底部
-5. **Favicon**：外部連結用 Google Favicon API（sz=32），加 JS error fallback 顯示 🌐
+1. **Search**: a page with many items needs search
+2. **Sticky nav**: needed past 3 chapters. z-index below the header (40 < 50)
+3. **Collapse** (details/summary): sub-categories with many items should collapse
+4. **Large visualizations**: if they eat too much of the first screen, hide them or move them to the bottom
+5. **Favicon**: external links use the Google Favicon API (sz=32), with a JS error fallback showing 🌐
 
-### CSS 衝突防護
+### CSS conflict guard
 
-Astro 的全域 `main a` 規則（border-bottom）會影響卡片和導航：
+Astro's global `main a` rule (border-bottom) affects cards and nav:
 
 ```css
 .site-card {
@@ -303,51 +280,51 @@ Astro 的全域 `main a` 規則（border-bottom）會影響卡片和導航：
 }
 ```
 
-**教訓**：任何新頁面加連結卡片時，先測全域 `a` 樣式有沒有干擾。
+**Lesson**: any new page that adds link cards — test first whether the global `a` style interferes.
 
 ---
 
-## 九、策展文字的「溫度校準」
+## 9. "Temperature calibration" of curatorial prose
 
-### 問題：AI 生成的策展文字容易「過熱」
+### Problem: AI-generated curatorial prose tends to "overheat"
 
-幾天密集改版下來，最明顯的問題是 AI 寫的策展文字**同時犯兩個錯**：
+The most obvious failure of AI-written curatorial prose is that it **commits two errors at once**:
 
-1. 每句都在「賣」（全球第一、舉世無雙、令人驚嘆）
-2. 句式高度重複（「不是 X，是 Y」「不只 A，更是 B」）
+1. Every sentence is "selling" (world-first, unrivaled, breathtaking)
+2. The sentence patterns repeat heavily ("not X, but Y" / "not only A, but also B")
 
-讀者讀三段就疲勞。你推銷越用力，讀者越不信。
+A reader tires after three paragraphs. The harder you sell, the less they believe.
 
-### 溫度光譜
+### The temperature spectrum
 
 ```
-❄️ 太冷：維基百科式。「PTT 是台灣最大的 BBS。」
-🌡️ 剛好：策展人帶你看。「1995 年台大宿舍的那台伺服器，30 年後還在左右選舉。」
-🔥 太熱：推銷員式。「PTT 是台灣最具影響力的民主奇蹟，堪稱舉世無雙的公民討論殿堂！」
+❄️ Too cold: Wikipedia-style. "The Pageant of the Masters is a Laguna Beach festival."
+🌡️ Just right: a curator walking you through. "Every summer since 1933, people sit in the dark watching neighbors hold still inside full-size reproductions of famous paintings — and the trick is you can't find the seam between the live body and the canvas."
+🔥 Too hot: salesman-style. "The Pageant of the Masters is a world-unique, breathtaking marvel of living art unlike anything on Earth!"
 ```
 
-**目標永遠是 🌡️。**
+**The target is always 🌡️.**
 
-### 校準方法
+### Calibration method
 
-1. **大聲讀出來**。如果你覺得尷尬，讀者也會。
-2. **刪掉所有「最」「最具」「全球首創」「舉世」**，看句子還成不成立。如果不成立，事實不夠硬。
-3. **每段只允許一個「賣點」**。如果一段裡有 3 個驚嘆，砍掉最弱的 2 個。
-4. **用場景取代形容**。不說「台灣的開放資料非常先進」，說「一個工程師用一個週末做出口罩地圖」。場景自己會說話。
+1. **Read it out loud.** If it makes you cringe, it'll make the reader cringe.
+2. **Delete every "most," "world-class," "first-ever," "unrivaled,"** and see if the sentence still stands. If it doesn't, the fact isn't hard enough.
+3. **One selling point per paragraph, max.** If a paragraph has 3 exclamations, cut the 2 weakest.
+4. **Replace adjectives with scenes.** Don't say "Laguna's conservation ethic is remarkable," say "residents organized for a decade to wrap 20,000 acres of greenbelt around a town of 8.84 square miles." The scene sells itself.
 
-### 實際案例（Resources 改版中的修正）
+### Real case (a Resources-page revision)
 
-**Before（過熱）：**
+**Before (overheated):**
 
-> 🔍 台灣的五權憲法體制舉世獨特。考試院和監察院源自孫中山政治哲學，在西方找不到對應機構。請特別關注 moda.gov.tw：唐鳳部長的數位治理實驗已被 30 多個國家引用。
+> 🔍 Laguna Beach is a world-famous artists' paradise unlike anywhere else on the coast. Don't miss visitlagunabeach.com — the definitive gateway to a truly magical destination.
 
-**After（校準）：**
+**After (calibrated):**
 
-> 🔍 COVID-19 期間，台灣民間開發者 72 小時內做出口罩地圖和疫苗預約系統。這種速度背後是全球排名前三的政府開放資料平台，50,000+ 筆資料集、即時 API、任何人都能取用。當其他國家的開發者還在等政府開記者會，台灣的開發者已經在寫 code 了。
+> 🔍 The city's website still runs the design-review rules that came out of a 1970s fight to keep tract housing off the ridgelines. lagunabeachcity.net is where you find why a town this size has a 20,000-acre greenbelt around it, and why you can't build above a certain elevation.
 
-**差異**：Before 在告訴你「這很厲害」。After 在讓你自己感覺「這很厲害」。
+**The difference**: Before is telling you "this is impressive." After lets you feel it yourself.
 
 ---
 
-_這份文件跟 EDITORIAL.md 一起構成 Taiwan.md 的完整品質標準。_
-_最後更新：2026-03-24_
+_This document, with EDITORIAL.md, forms LagunaBeach.md's complete quality standard._
+_Last updated: 2026-06-28 (re-grounded from Taiwan.md's HUB-EDITORIAL for LagunaBeach.md, Phase D batch 3)._

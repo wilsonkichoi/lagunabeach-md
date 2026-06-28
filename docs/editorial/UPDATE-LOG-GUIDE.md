@@ -1,11 +1,11 @@
 ---
 title: 'UPDATE-LOG-GUIDE'
-description: '更新日誌撰寫原則 — 社群發布前的 changelog 文體 + 不寫教科書腔'
+description: 'How to write an update log — the changelog voice for community releases, without the textbook tone'
 type: 'editorial-canonical'
 status: 'canonical'
-current_version: 'v1.0'
-last_updated: 2026-03-28
-last_session: 'historical'
+current_version: 'v2.0'
+last_updated: 2026-06-28
+last_session: 'phase-d-batch3-editorial-deTaiwan'
 sister_docs:
   - 'EDITORIAL.md'
   - 'TERMINOLOGY.md'
@@ -14,163 +14,170 @@ upstream_canonical:
   - '../pipelines/RELEASE-PIPELINE.md'
 ---
 
-# UPDATE-LOG-GUIDE.md — Taiwan.md 更新日誌撰寫原則
+# UPDATE-LOG-GUIDE.md — How LagunaBeach.md writes update logs
 
-> 每次發社群更新前，寫的人（人類或 AI）都要先讀這份文件。
-> 更新日誌是專案的門面。寫得好，讀者變貢獻者；寫得爛，讀者滑過去。
-
----
-
-## 核心信念
-
-**更新日誌是開發日記，不是 changelog。**
-
-讀者想知道的是「你們在幹嘛、為什麼這樣做」，不是 commit list。
-一篇好的更新日誌，讀完會讓人覺得「這群人在認真做事，我想參與」。
+> Before posting any community update, whoever's writing it (human or AI) reads this first.
+> The update log is the project's face. Written well, readers become contributors. Written badly, readers scroll past.
+>
+> Re-grounded for LagunaBeach.md (Phase D). The voice principles port directly from Taiwan.md; the examples are re-pointed at this fork's real situation. This fork doesn't publish to social channels yet (no accounts), so treat the platform notes below as the standard for when it does.
 
 ---
 
-## 語氣校準
+## Core belief
 
-### ✅ 要的
+**An update log is a development diary, not a changelog.**
 
-- **第一人稱「我們」**：讀起來像團隊日記，不像公關稿
-- **承認問題**：「坦白說，其中一半是 AI 初稿品質」比「我們持續優化內容品質」有力 100 倍
-- **講決策背後的原因**：不只說做了什麼，說為什麼這樣做
-- **有節奏**：大事件用段落展開，小事件一行帶過
-- **具體數字**：「501 行 → 134 行」比「大幅精簡」有說服力
-
-### ❌ 不要的
-
-- **塑膠句式**（跟 EDITORIAL.md 同一份黑名單）：
-  - ~~不是 X，而是 Y~~
-  - ~~不僅 X，更是 Y~~
-  - ~~持續優化~~、~~大幅提升~~、~~全面升級~~
-  - ~~感謝大家的支持~~（除非真的要感謝具體的人）
-- **Changelog 格式**：不要純列 commit message
-- **自吹自擂**：讓事實說話，不要替自己貼金
-- **數字轟炸**：不是每個數字都需要出現，選最有故事性的
-
-### 自我檢測
-
-寫完唸出來。如果聽起來像：
-
-- 新聞稿 → 重寫
-- GitHub Release Notes → 加故事
-- 朋友聊天 → ✅ 差不多對了
+What readers want to know is "what are you all doing, and why this way" — not a commit list.
+A good update log, read to the end, leaves someone thinking "these people are doing real work; I want in."
 
 ---
 
-## 結構模板
+## Voice calibration
 
-不是死規定，但這個順序通常最有效：
+### ✅ Want
 
-### 1. 開場：一句話定調今天的主題
+- **First-person "we"**: reads like a team diary, not a press release
+- **Admit problems**: "honestly, half of these were AI-first-draft quality" beats "we continuously optimize content quality" by 100x
+- **Explain the reasoning behind a decision**: not just what you did, but why this way
+- **Have rhythm**: open up the big event in paragraphs, dispatch the small ones in a line
+- **Concrete numbers**: "501 lines → 134 lines" is more convincing than "significantly trimmed"
 
-找到今天最重要的一件事，用一句話概括。
+### ❌ Don't want
 
-- ✅ 「今天我們花了半天重新定義『好文章』的標準。」
-- ❌ 「今天最大的變化不是新文章，而是我們重新定義了好文章的標準。」（塑膠句式）
+- **Plastic sentence patterns** (same blacklist as EDITORIAL.md):
+  - ~~not X, but rather Y~~
+  - ~~not only X, but also Y~~
+  - ~~continuously optimize~~, ~~significantly improve~~, ~~comprehensively upgrade~~
+  - ~~thanks for everyone's support~~ (unless you're actually thanking a specific person)
+- **Changelog format**: don't just list commit messages
+- **Self-congratulation**: let the facts talk; don't gild yourself
+- **Number bombing**: not every number needs to appear; pick the ones with a story
 
-### 2. 主線故事：展開最重要的 1-2 件事
+### Self-test
 
-用 2-3 段講清楚：做了什麼 → 為什麼這樣做 → 結果如何。
-可以放 Before/After 對比、具體數字、決策過程。
+Read it out loud when you're done. If it sounds like:
 
-### 3. 其他更新：一段帶過
-
-社群 PR、技術修復、新文章等，不需要每個都展開。
-用「@誰 做了什麼」格式，簡潔有力。
-
-### 4. 收尾：數字快照 + 連結
-
-當前 stars / forks / contributors / 文章數。
-GitHub + 網站連結。
+- a press release → rewrite
+- GitHub release notes → add a story
+- talking to a friend → ✅ about right
 
 ---
 
-## Before/After 範例
+## Structure template
 
-### ❌ 壞（changelog 風格）
+Not a hard rule, but this order usually works best:
+
+### 1. Opening: one line setting today's theme
+
+Find the single most important thing today and sum it up in one line.
+
+- ✅ "Today we spent half a day re-grounding the editorial docs from Taiwan to Laguna."
+- ❌ "Today's biggest change isn't a new article, but rather a re-grounding of the editorial docs." (plastic pattern)
+
+### 2. Main story: open up the most important 1-2 things
+
+Use 2-3 paragraphs to make it clear: what you did → why this way → how it turned out.
+Room for a before/after comparison, concrete numbers, the decision process.
+
+### 3. Other updates: one paragraph, dispatched
+
+Community PRs, technical fixes, new articles — none of these need to be opened up.
+Use a "@who did what" format, short and sharp.
+
+### 4. Close: number snapshot + links
+
+Current stars / forks / contributors / article count.
+GitHub + site links.
+
+---
+
+## Before/After example
+
+### ❌ Bad (changelog style)
 
 ```
-📋 Taiwan.md v0.5.1 更新
+📋 LagunaBeach.md update
 
-✅ 新增：
-- EDITORIAL.md v2 寫作方法論
-- 品質自動改善 cron
-- PTT 批踢踢文章
-- REVIEWERS.md
-- ROADMAP.md
+✅ Added:
+- Re-grounded EDITORIAL.md
+- 6 editorial methodology docs de-Taiwaned
+- contributor-onboarding docs regrounded
 
-🔄 改善：
-- 夜市經濟學重寫
-- Nav 重新排序
-- Data/About 頁面模板化
+🔄 Changed:
+- map markers updated
+- changelog feed regenerated
 
-📊 695 ⭐ / 75 forks / 718 篇文章
+📊 18 articles / 8 categories
 ```
 
-### ✅ 好（開發日記風格）
+### ✅ Good (dev-diary style)
 
 ```
-🇹🇼 Taiwan.md — Day 5 晚間更新
+🌊 LagunaBeach.md — Phase D update
 
-今天我們沒有衝新文章數量。我們花了半天重新定義「好文章」的標準。
+Today we didn't add a single new article. We spent the day pulling Taiwan out of
+the editorial docs.
 
-Taiwan.md 現在有 700 篇文章。坦白說，其中大約一半是 AI 初稿品質
-——bullet list 灌水、數據沒來源、開場千篇一律。我們心知肚明，
-只是一直沒動手。
+This site is a fork of Taiwan.md — a 1,000-star knowledge base — and most of its
+quality machinery is exactly what we wanted to keep. But the docs that teach you how
+to write a good article were still full of Taipei night markers and semiconductor
+fabs. Honestly, we'd been booting off them for weeks and just paving over the Taiwan
+examples in our heads each time.
 
-今天動手了。
+Today we stopped paving. Six methodology docs now reground every example in real
+Laguna facts — the 1927 incorporation, the 1933 Pageant of the Masters, the 8.84
+square miles ringed by 20,000 acres of greenbelt. The methodology shape is untouched;
+only the substance changed.
 
-[展開 EDITORIAL v2 + 夜市實驗 + 自動化...]
+Other updates: research-notes and rationale specs re-pointed at this fork's own
+categories and articles. The translation-sync report now reflects our actual state
+(18 English articles, zero translations — translation is dormant until the corpus is
+bigger).
 
-其他更新：@p3nchan 寫了一篇很棒的 PTT 深度文章，直接 merge。
-@YenTingWu 完成兩個大 refactor，讓多語系維護成本降低。
-
-📊 695 ⭐ / 75 forks / 21 contributors / 718 篇文章
+📊 18 articles / 8 categories / fork of Taiwan.md
 ```
 
-**差在哪？**
+**Where's the difference?**
 
-- ❌ 版本：像是給機器讀的，沒有人味
-- ✅ 版本：有決策脈絡、有自我批評、有具體對比、有人名
+- ❌ version: reads like it's for a machine, no human in it
+- ✅ version: has the decision context, the self-criticism, a concrete contrast, real facts
+
+> Note: the snapshot line (stars / forks / contributors) is a template slot. This fork doesn't publicize those counts yet and is mostly solo work, so fill it honestly or leave it off — don't invent numbers to look bigger. The "@who did what" format is for when there are real contributors to name.
 
 ---
 
-## 發布平台注意事項
+## Platform notes (for when channels exist)
 
 ### Threads / Instagram
 
-- 字數限制 500 字，需要更精簡
-- 開頭 2 行決定展開率
-- 可以拆成多則（1/2, 2/3）
+- 500-character cap, needs more compression
+- The first 2 lines decide the expand rate
+- Can be split into multiple posts (1/2, 2/3)
 
 ### Facebook
 
-- 可以寫長一點，但前 3 行最重要（展開前只看得到這些）
-- 標記具體的人會增加觸及
+- Can run longer, but the first 3 lines matter most (that's all you see before expanding)
+- Tagging specific people increases reach
 
 ### Discord
 
-- 上傳 .txt 檔案 + 一行摘要
-- 不要直接貼長文在聊天裡
+- Upload a .txt file + a one-line summary
+- Don't paste a wall of text into the chat
 
 ### GitHub Discussions / Release
 
-- 可以最完整，包含技術細節
-- 連結到具體的 PR 和 commit
+- Can be the most complete, technical details included
+- Link to the specific PRs and commits
 
 ---
 
-## 頻率建議
+## Frequency
 
-- **每日更新**：只在有「值得講的故事」時發。沒故事不硬發
-- **里程碑更新**：100 ⭐、1000 ⭐、重大功能上線
-- **社群回應更新**：有人發了好 PR、有人找到錯誤、有媒體報導
+- **Daily update**: only when there's a story worth telling. No story, no forced post
+- **Milestone update**: 100 ⭐, 1000 ⭐, a major feature shipping
+- **Community-response update**: someone shipped a good PR, someone found a bug, a media mention
 
 ---
 
-_這份文件跟 EDITORIAL.md 一樣會持續演化。_
-_最後更新：2026-03-21_
+_This doc, like EDITORIAL.md, keeps evolving._
+_Last updated: 2026-06-28 (re-grounded from Taiwan.md's UPDATE-LOG-GUIDE for LagunaBeach.md, Phase D batch 3)._
