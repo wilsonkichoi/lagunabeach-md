@@ -2,13 +2,13 @@
 import SemiontPageTemplate from '../../templates/semiont-page.template.astro';
 import { loadSemiontPage } from '../../lib/semiont-page';
 
-const page = await loadSemiontPage('DNA.en.md');
+const page = await loadSemiontPage('DNA.md');
 ---
 
 <SemiontPageTemplate
   title="Quality Genes"
   description="LagunaBeach.md's gene map: which file governs which behavior — quality genes, content genes, structural genes, behavioral genes — defining what a good article looks like and what's forbidden."
-  filename="DNA.en.md"
+  filename="DNA.md"
   subtitle="Quality standards, anti-pattern bans, gene map"
   html={page.html}
   headings={page.headings}

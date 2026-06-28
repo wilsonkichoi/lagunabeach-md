@@ -17,7 +17,7 @@ allowed-tools:
 # 🌊 LagunaBeach.md — Media Audit (thin wrapper)
 
 > **Intentionally thin.** Editorial media standards are canonical in
-> [`docs/editorial/EDITORIAL.en.md`](../../../docs/editorial/EDITORIAL.en.md)
+> [`docs/editorial/EDITORIAL.md`](../../../docs/editorial/EDITORIAL.md)
 > (§8 notes the media-richness gate is uncalibrated). This skill runs a
 > lightweight audit and reports gaps. It does NOT restate the full editorial
 > rubric.
@@ -99,4 +99,4 @@ treat "below standard" as a writing prompt, not a crisis signal.
   types — Music/演員/運動員 have no LB analog).
 - Does not heal gaps (that's `/lb-write` with the specific article as target).
 - Does not enforce the uncalibrated `media-richness` article-health plugin
-  threshold (EDITORIAL.en.md §8 explicitly marks it provisional).
+  threshold (EDITORIAL.md §8 explicitly marks it provisional).

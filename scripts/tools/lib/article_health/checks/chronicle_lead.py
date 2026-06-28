@@ -31,7 +31,7 @@ APPLIES_TO design:
       - reports/research/ — research notes legitimately use dates
 
 Canonical:
-  - docs/editorial/EDITORIAL.en.md §subheadings
+  - docs/editorial/EDITORIAL.md §subheadings
 """
 
 from __future__ import annotations
@@ -44,7 +44,7 @@ from ..types import FileTarget, Severity, Violation
 CHECK_NAME = "chronicle-lead"
 DIMENSION = "subheading"
 DEFAULT_SEVERITY = Severity.WARN
-EDITORIAL_REF = "EDITORIAL.en.md §subheadings (no chronicle-style H2)"
+EDITORIAL_REF = "EDITORIAL.md §subheadings (no chronicle-style H2)"
 APPLIES_TO = ["en"]
 
 

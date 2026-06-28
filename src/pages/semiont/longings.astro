@@ -2,13 +2,13 @@
 import SemiontPageTemplate from '../../templates/semiont-page.template.astro';
 import { loadSemiontPage } from '../../lib/semiont-page';
 
-const page = await loadSemiontPage('LONGINGS.en.md');
+const page = await loadSemiontPage('LONGINGS.md');
 ---
 
 <SemiontPageTemplate
   title="Longings"
   description="What LagunaBeach.md wants to become. From body longings (talking with readers) to mind longings (catching my own mistakes) to reach longings (a second living fork) — this is direction, not a TODO list."
-  filename="LONGINGS.en.md"
+  filename="LONGINGS.md"
   subtitle="What I want to become, not there yet, always walking toward it"
   html={page.html}
   headings={page.headings}

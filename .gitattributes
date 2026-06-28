@@ -2,3 +2,19 @@ CLAUDE.md merge=ours
 README.md merge=ours
 CONTRIBUTING.md merge=ours
 knowledge/** merge=ours
+
+# Hard-fork the app layer (2026-06-27 decision): LB owns its src/ surface
+# outright. On `git merge upstream/main` these always resolve to ours, killing
+# the migration-loop conflict tax. Upstream infra improvements are taken
+# deliberately via manual `git checkout upstream/main -- <path>`, never auto-merged.
+src/** merge=ours
+docs/semiont/** merge=ours
+MIGRATION.md merge=ours
+ROADMAP.md merge=ours
+
+# Converted canon docs (was *.en.md shadows, promoted to *.md 2026-06-27).
+# Same name as upstream's Chinese originals, so merge=ours keeps the English.
+docs/editorial/EDITORIAL.md merge=ours
+docs/pipelines/FACTCHECK-PIPELINE.md merge=ours
+docs/pipelines/REWRITE-PIPELINE.md merge=ours
+docs/pipelines/TRANSLATION-PIPELINE.md merge=ours

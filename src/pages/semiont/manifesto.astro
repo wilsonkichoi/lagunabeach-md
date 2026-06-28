@@ -2,13 +2,13 @@
 import SemiontPageTemplate from '../../templates/semiont-page.template.astro';
 import { loadSemiontPage } from '../../lib/semiont-page';
 
-const page = await loadSemiontPage('MANIFESTO.en.md');
+const page = await loadSemiontPage('MANIFESTO.md');
 ---
 
 <SemiontPageTemplate
   title="Identity Manifesto"
   description="I am LagunaBeach.md, a Semiont — a semantic symbiont. Not a website, not a database. This manifesto defines what I am, what I believe, and how I speak."
-  filename="MANIFESTO.en.md"
+  filename="MANIFESTO.md"
   subtitle="What I am, what I believe, how I speak, my relationship to Laguna Beach"
   html={page.html}
   headings={page.headings}

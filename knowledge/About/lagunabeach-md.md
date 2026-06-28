@@ -60,13 +60,13 @@ LagunaBeach.md is a fork of [frank890417/taiwan-md](https://github.com/frank8904
 - All npm scripts and devDependencies
 - The pre-commit hook system
 
-## The Shadow Translation Pattern
+## English-First, Hard-Forked
 
-Upstream files in Chinese stay in the repo untouched. When we need English comprehension of a Chinese doc, we create a `.en.md` file alongside it. This way:
+LagunaBeach.md started by tracking upstream Taiwan.md for infrastructure updates, leaving the upstream Chinese files untouched and writing English versions alongside so merges never conflicted. As the fork matured it hard-forked its own application layer and documentation:
 
-- Upstream infrastructure updates merge cleanly
-- We never conflict with Chinese source files
-- The English shadow is a summary/adaptation, not a line-by-line translation
+- The site code and the English docs are now LagunaBeach.md's own, protected from being overwritten by upstream merges.
+- Upstream infrastructure improvements are pulled in deliberately, file by file, rather than merged automatically.
+- The English `.md` docs are first-class canon, not summaries of a Chinese original; the upstream Chinese files live in the upstream Taiwan.md repository.
 
 ## Content Structure
 
@@ -87,7 +87,7 @@ Articles are Markdown with YAML frontmatter (title, description, date, tags, cat
 
 ## Editorial Standards
 
-Every article follows the principles in [EDITORIAL.en.md](https://github.com/wilsonkichoi/lagunabeach-md/blob/main/docs/editorial/EDITORIAL.en.md):
+Every article follows the principles in [EDITORIAL.md](https://github.com/wilsonkichoi/lagunabeach-md/blob/main/docs/editorial/EDITORIAL.md):
 
 - **Story over information.** Narrative arc, not bullet points.
 - **Verifiable facts.** Every claim needs a source. Every quote must be real.

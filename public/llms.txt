@@ -77,8 +77,8 @@ LagunaBeach.md is a fork of [Taiwan.md](https://github.com/frank890417/taiwan-md
 For AI agents wanting to understand the system:
 - `BECOME_LAGUNABEACH.md` — identity boot file
 - `CLAUDE.md` — Claude Code session layer
-- `docs/semiont/MANIFESTO.en.md` — project philosophy
-- `docs/editorial/EDITORIAL.en.md` — writing standards
+- `docs/semiont/MANIFESTO.md` — project philosophy
+- `docs/editorial/EDITORIAL.md` — writing standards
 
 ## Contact & Provenance
 

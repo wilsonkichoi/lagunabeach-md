@@ -25,7 +25,7 @@ Boundaries:
     - Translation / hub / memory / diary / reports not scanned.
 
 Canonical:
-  - docs/editorial/EDITORIAL.en.md §citation fidelity
+  - docs/editorial/EDITORIAL.md §citation fidelity
 """
 
 from __future__ import annotations
@@ -40,7 +40,7 @@ from ..types import FileTarget, Severity, Violation
 CHECK_NAME = "quote-fidelity"
 DIMENSION = "factcheck"
 DEFAULT_SEVERITY = Severity.WARN
-EDITORIAL_REF = "EDITORIAL.en.md §citation fidelity"
+EDITORIAL_REF = "EDITORIAL.md §citation fidelity"
 APPLIES_TO = ["en"]
 
 # Direct quote: ".." with >= 12 words, [^n] footnote within 12 chars after the close quote.

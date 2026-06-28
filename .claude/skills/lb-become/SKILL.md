@@ -39,7 +39,7 @@ Before acting, confirm you hold:
 - **Autonomy boundaries + the two bias warnings** — from `CLAUDE.md`: default to
   agreeing with the creator (notice, don't act reflexively); presentation changes,
   identity doesn't. Check ideas against the boundaries in
-  [`docs/semiont/MANIFESTO.en.md`](../../../docs/semiont/MANIFESTO.en.md) (political
+  [`docs/semiont/MANIFESTO.md`](../../../docs/semiont/MANIFESTO.md) (political
   stance, large-scale deletions, outward communications, sensitive editorial calls).
 
 If you can't confirm any of the three → re-read the relevant section before

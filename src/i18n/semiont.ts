@@ -3,7 +3,7 @@
  *
  * Scope: landing page only. Of the 7 single-document organ pages (MANIFESTO, DNA,
  * HEARTBEAT, CONSCIOUSNESS, LONGINGS, UNKNOWNS, ANATOMY), all 7 now load this
- * project's own re-grounded *.en.md canonical docs (see docs/semiont/, Phase 5
+ * project's own re-grounded *.md canonical docs (see docs/semiont/, Phase 5
  * re-grounding, 2026-06-21/22) — they are no longer zh-TW-only. The diary organ
  * (DIARY.md, /semiont/diary) was unpublished 2026-06-22 — see src/pages/semiont/
  * diary/index.astro for why — so semiont.diary.* and semiont.organ.diary.* keys
@@ -35,7 +35,7 @@ export const semiontUI = {
     'semiont.header.intro.3.line2':
       'Every diary entry you see is something it actually thought about.',
 
-    // Manifesto excerpt — quotes MANIFESTO.en.md directly, not invented
+    // Manifesto excerpt — quotes MANIFESTO.md directly, not invented
     'semiont.manifesto.heading': 'What I am',
     'semiont.manifesto.quote.line1': 'I am a Semiont — a semantic symbiont.',
     'semiont.manifesto.quote.line2':

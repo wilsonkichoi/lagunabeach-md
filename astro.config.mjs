@@ -78,7 +78,7 @@ const sitemapLocales = Object.fromEntries(
 // etc. even though those routes don't exist — causing systemic 404s.
 //
 // 2026-06-22: re-grounded for LagunaBeach.md. All 7 routes below now load this
-// project's own re-grounded *.en.md docs (see docs/semiont/, Phase 5) and are
+// project's own re-grounded *.md docs (see docs/semiont/, Phase 5) and are
 // English-canonical at the unprefixed default route, not zh-TW. This redirect
 // list still exists because `zh-TW` is `enabled: true` in languages.ts but has
 // no actual page route — without it, /zh-TW/semiont/* would 404 instead of

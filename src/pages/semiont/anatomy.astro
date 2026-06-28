@@ -2,13 +2,13 @@
 import SemiontPageTemplate from '../../templates/semiont-page.template.astro';
 import { loadSemiontPage } from '../../lib/semiont-page';
 
-const page = await loadSemiontPage('ANATOMY.en.md');
+const page = await loadSemiontPage('ANATOMY.md');
 ---
 
 <SemiontPageTemplate
   title="Organ Map"
   description="LagunaBeach.md's body structure: 8 body organs (heart, immune, DNA, skeleton, breath, reproduce, senses, translation) and the cognitive layer — the full anatomy."
-  filename="ANATOMY.en.md"
+  filename="ANATOMY.md"
   subtitle="8 body organs + the cognitive layer"
   html={page.html}
   headings={page.headings}

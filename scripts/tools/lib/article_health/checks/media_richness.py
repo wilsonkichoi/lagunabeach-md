@@ -21,7 +21,7 @@ Threshold:
       adopted. Kept WARN per explicit decision rather than downgrading.
 
 Canonical:
-    - EDITORIAL.en.md §media weaving baseline
+    - EDITORIAL.md §media weaving baseline
 """
 
 from __future__ import annotations
@@ -35,7 +35,7 @@ from ..types import FileTarget, Severity, Violation
 CHECK_NAME = "media-richness"
 DIMENSION = "media-quality"
 DEFAULT_SEVERITY = Severity.WARN
-EDITORIAL_REF = "EDITORIAL.en.md §media weaving baseline"
+EDITORIAL_REF = "EDITORIAL.md §media weaving baseline"
 APPLIES_TO = ["en"]
 
 DEFAULT_MIN_IFRAMES = 1

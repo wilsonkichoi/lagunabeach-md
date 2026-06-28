@@ -36,7 +36,7 @@ from ..types import FileTarget, Severity, Violation
 CHECK_NAME = "word-count"
 DIMENSION = "depth"
 DEFAULT_SEVERITY = Severity.WARN
-EDITORIAL_REF = "EDITORIAL.en.md §depth"
+EDITORIAL_REF = "EDITORIAL.md §depth"
 APPLIES_TO = ["en"]
 
 DEFAULT_MIN_WORDS = 250

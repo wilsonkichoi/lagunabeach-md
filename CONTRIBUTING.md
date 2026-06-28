@@ -48,7 +48,7 @@ LagunaBeach.md isn't an encyclopedia — it's a **curated knowledge base**:
 - **Quality over quantity.** Better to have fewer, well-researched articles than many shallow ones.
 - **Connected thinking.** Articles should link to related ones, forming a knowledge graph rather than isolated pages.
 
-Full philosophy: [`docs/semiont/MANIFESTO.en.md`](docs/semiont/MANIFESTO.en.md).
+Full philosophy: [`docs/semiont/MANIFESTO.md`](docs/semiont/MANIFESTO.md).
 
 ---
 
@@ -56,7 +56,7 @@ Full philosophy: [`docs/semiont/MANIFESTO.en.md`](docs/semiont/MANIFESTO.en.md).
 
 ### Read the editorial guide first
 
-**[`docs/editorial/EDITORIAL.en.md`](docs/editorial/EDITORIAL.en.md) is the canonical writing guide for this project** — article grading (Quick Take / Standard / Deep Dive), opening/ending discipline, concrete-detail requirements, and the AI-tell patterns to avoid. Read it before writing; this section is a summary, not a substitute.
+**[`docs/editorial/EDITORIAL.md`](docs/editorial/EDITORIAL.md) is the canonical writing guide for this project** — article grading (Quick Take / Standard / Deep Dive), opening/ending discipline, concrete-detail requirements, and the AI-tell patterns to avoid. Read it before writing; this section is a summary, not a substitute.
 
 Don't reach for Taiwan.md's "30-second overview / 5-minute read / full-depth" template — that's built for 1,500+ word long-form articles. LagunaBeach.md's articles currently run 300-700 words with a single narrative arc. Match the existing articles in `knowledge/` for length and shape, not upstream's structure.
 
@@ -105,7 +105,7 @@ knowledge/
 - Pure fact-dumping with no narrative thread
 - Unsupported personal opinion stated as fact
 - Copied or unauthorized content
-- AI-tell sentence patterns (false-contrast "not X, but Y" used reflexively, excessive em-dash chains) — see `EDITORIAL.en.md` for the full list
+- AI-tell sentence patterns (false-contrast "not X, but Y" used reflexively, excessive em-dash chains) — see `EDITORIAL.md` for the full list
 
 ---
 
@@ -123,7 +123,7 @@ src/content/config.ts        ← Astro content collection schema (this file stay
 ### Adding a new article
 
 1. Create `knowledge/{Category}/article-slug.md` (English SSOT)
-2. Write it following `EDITORIAL.en.md`
+2. Write it following `EDITORIAL.md`
 3. Run `npm run build` to verify (this runs sync + a full Astro build, including frontmatter validation)
 4. Run the quality check: `python3 scripts/tools/article-health.py knowledge/<Category>/<file>.md --check=prose-health`
 5. Commit only the `knowledge/` change — never commit `src/content/`
@@ -159,7 +159,7 @@ Upstream's translation workflow docs ([`docs/community/TRANSLATION-BOARD.md`](do
 
 ## Quality Checklist (read before opening a PR)
 
-From `EDITORIAL.en.md`, the load-bearing ones:
+From `EDITORIAL.md`, the load-bearing ones:
 
 - [ ] Opens with a specific fact or scene, not a generic establishing sentence
 - [ ] At least the sources actually used are linked and clickable — no bare-text citations
@@ -282,7 +282,7 @@ This project uses the same tiered-trust model as upstream, **documented now even
 
 **Can do:** write articles, fix errors, translate, discuss in issues, fork and PR
 
-**Promotion to Lv.2:** 3+ merged PRs, stable content quality (no major factual corrections needed), PRs consistently meeting `EDITORIAL.en.md` standards
+**Promotion to Lv.2:** 3+ merged PRs, stable content quality (no major factual corrections needed), PRs consistently meeting `EDITORIAL.md` standards
 
 ---
 
@@ -304,7 +304,7 @@ This project uses the same tiered-trust model as upstream, **documented now even
 
 **Gains:** merge (write) access, approve-review rights, issue management, roadmap input
 
-**Responsibilities:** review 2+ PRs/week, enforce `EDITORIAL.en.md` standards on merges, respond to community issues within 72 hours
+**Responsibilities:** review 2+ PRs/week, enforce `EDITORIAL.md` standards on merges, respond to community issues within 72 hours
 
 **Notes:**
 
@@ -371,4 +371,4 @@ Personal attacks or discriminatory remarks, harassment, spam or unrelated promot
 
 ---
 
-_Last updated: 2026-06-21 — Re-grounded in English from Taiwan.md's CONTRIBUTING.md for this fork. Bootstrap curl-install flow dropped (the underlying script is Taiwan.md-specific and hasn't been adapted); replaced with a manual setup + optional Claude Code section. Article template switched from upstream's 30s/5min/full-depth long-form structure to match this project's actual ~300-700 word articles, per `EDITORIAL.en.md`. SSOT direction flipped (English is this project's source language, zh-TW is the translation, the reverse of upstream). Contributor-progression ladder kept fully intact and relabeled rather than trimmed, consistent with how `ROUTINE.en.md`/`DNA.en.md` handle dormant-but-documented systems elsewhere in this fork's cognitive-layer docs._
+_Last updated: 2026-06-21 — Re-grounded in English from Taiwan.md's CONTRIBUTING.md for this fork. Bootstrap curl-install flow dropped (the underlying script is Taiwan.md-specific and hasn't been adapted); replaced with a manual setup + optional Claude Code section. Article template switched from upstream's 30s/5min/full-depth long-form structure to match this project's actual ~300-700 word articles, per `EDITORIAL.md`. SSOT direction flipped (English is this project's source language, zh-TW is the translation, the reverse of upstream). Contributor-progression ladder kept fully intact and relabeled rather than trimmed, consistent with how `ROUTINE.md`/`DNA.md` handle dormant-but-documented systems elsewhere in this fork's cognitive-layer docs._

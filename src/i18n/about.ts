@@ -55,7 +55,7 @@ export const aboutUI = {
     'about.timeline.2026-02-03.p1':
       'From the upstream: Astro static site, multilingual routing, search indexing, pre-commit quality gates, OG image generation, RSS, sitemap with hreflang, knowledge graph visualization, and the editorial philosophy of "story over information."',
     'about.timeline.2026-02-03.p2.html':
-      'What we changed: categories (8 for Laguna Beach), default language (English), map (Leaflet + OpenStreetMap instead of D3 SVG), branding, and all content. The <strong>shadow translation pattern</strong> lets us pull upstream infrastructure updates without losing our content.',
+      "What we changed: categories (8 for Laguna Beach), default language (English), map (Leaflet + OpenStreetMap instead of D3 SVG), branding, and all content. The app layer is now <strong>hard-forked</strong> — our code and docs are LagunaBeach.md's own, and we pull upstream infrastructure improvements deliberately rather than automatically.",
 
     // Organism Section
     'about.organism.title': 'LagunaBeach.md Is Growing',
@@ -71,7 +71,7 @@ export const aboutUI = {
       'The upstream project built a quality detection script that scores every article for hollowness. Pre-commit hooks catch credential leaks, validate frontmatter, and enforce editorial standards automatically. No human needs to remember the checklist. The system enforces its own health.',
     'about.organism.fact2.title': 'Reproduction',
     'about.organism.fact2.desc':
-      'This project exists because of forking. Taiwan.md designed itself to be forkable from day one: clear category structure, i18n routing, shadow translation pattern. LagunaBeach.md is proof the architecture works for any place with stories worth telling.',
+      'This project exists because of forking. Taiwan.md designed itself to be forkable from day one: clear category structure, i18n routing, merge-protected content. LagunaBeach.md is proof the architecture works for any place with stories worth telling.',
     'about.organism.fact3.title': 'Community',
     'about.organism.fact3.desc':
       "The knowledge base is open to anyone who knows Laguna Beach. A local historian can add depth to the 1993 firestorm article. A marine biologist can correct tide pool species. A longtime resident can share what the Village looked like in the 1970s. The editorial system is designed so contributions don't require programming skills.",
@@ -257,7 +257,7 @@ export const aboutUI = {
     'about.faq.q3':
       'Are the articles written by AI? How do you ensure quality?',
     'about.faq.a3.html':
-      'AI is our writing tool, not our author. Every article goes through a pipeline: <strong>Research</strong> (primary sources) → <strong>Writing</strong> (following <a href="https://github.com/wilsonkichoi/lagunabeach-md/blob/main/docs/editorial/EDITORIAL.en.md" target="_blank">EDITORIAL.en.md</a> guidelines) → <strong>Verification</strong> (automated scanning + human review). Pre-commit hooks catch quality issues before they ship.',
+      'AI is our writing tool, not our author. Every article goes through a pipeline: <strong>Research</strong> (primary sources) → <strong>Writing</strong> (following <a href="https://github.com/wilsonkichoi/lagunabeach-md/blob/main/docs/editorial/EDITORIAL.md" target="_blank">EDITORIAL.md</a> guidelines) → <strong>Verification</strong> (automated scanning + human review). Pre-commit hooks catch quality issues before they ship.',
 
     'about.faq.q4': 'What if an article has errors?',
     'about.faq.a4.html':
@@ -532,7 +532,7 @@ export const aboutUI = {
 
     'about.faq.q3': '文章是 AI 寫的嗎？你們如何確保品質？',
     'about.faq.a3.html':
-      'AI 是我們的書寫工具，不是作者。每篇文章都會經過一條流程：<strong>研究</strong>（一手來源）→ <strong>書寫</strong>（遵循 <a href="https://github.com/wilsonkichoi/lagunabeach-md/blob/main/docs/editorial/EDITORIAL.en.md" target="_blank">EDITORIAL.en.md</a> 規範）→ <strong>查證</strong>（自動掃描 + 人工審閱）。Pre-commit hook 會在文章上線前就攔下品質問題。',
+      'AI 是我們的書寫工具，不是作者。每篇文章都會經過一條流程：<strong>研究</strong>（一手來源）→ <strong>書寫</strong>（遵循 <a href="https://github.com/wilsonkichoi/lagunabeach-md/blob/main/docs/editorial/EDITORIAL.md" target="_blank">EDITORIAL.md</a> 規範）→ <strong>查證</strong>（自動掃描 + 人工審閱）。Pre-commit hook 會在文章上線前就攔下品質問題。',
 
     'about.faq.q4': '如果文章有錯怎麼辦？',
     'about.faq.a4.html':

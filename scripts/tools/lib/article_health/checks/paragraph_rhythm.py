@@ -29,7 +29,7 @@ Skipped paths:
   - Reports / memory / diary
 
 Canonical:
-  - docs/editorial/EDITORIAL.en.md §paragraph rhythm + §media weaving
+  - docs/editorial/EDITORIAL.md §paragraph rhythm + §media weaving
 """
 
 from __future__ import annotations
@@ -44,7 +44,7 @@ from ..types import FileTarget, Severity, Violation
 CHECK_NAME = "paragraph-rhythm"
 DIMENSION = "depth"
 DEFAULT_SEVERITY = Severity.WARN
-EDITORIAL_REF = "EDITORIAL.en.md §paragraph rhythm + §media weaving"
+EDITORIAL_REF = "EDITORIAL.md §paragraph rhythm + §media weaving"
 APPLIES_TO = ["en"]
 
 # Thresholds — see module docstring: placeholders pending a real corpus.
@@ -246,7 +246,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             ),
             line=1,
             snippet=f"para_median={para_median} para_count={para_count}",
-            editorial_ref="EDITORIAL.en.md §paragraph rhythm",
+            editorial_ref="EDITORIAL.md §paragraph rhythm",
             fix_suggestion=(
                 "Merge paragraphs: one fact per paragraph -> one point per paragraph "
                 "(with causal chain + detail + scene). Or: keep prose paragraphs per "
@@ -268,7 +268,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             ),
             line=1,
             snippet=f"over_h2_count={len(over_h2)}",
-            editorial_ref="EDITORIAL.en.md §paragraph rhythm",
+            editorial_ref="EDITORIAL.md §paragraph rhythm",
             fix_suggestion=(
                 "Over-fragmented H2 may mean (a) it should split into two sections "
                 "(b) too many paragraphs should be merged (c) structural footer / "
@@ -291,7 +291,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             ),
             line=1,
             snippet=f"walls={len(walls)} max={walls[0][0]}",
-            editorial_ref="EDITORIAL.en.md §paragraph rhythm (R4)",
+            editorial_ref="EDITORIAL.md §paragraph rhythm (R4)",
             fix_suggestion=(
                 "Split the long paragraph at a natural turn (topic shift / causal "
                 "step / before a quote); each half should still be >= "
@@ -329,7 +329,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             ),
             line=1,
             snippet=f"density={density:.2f} media={visual_count}",
-            editorial_ref="EDITORIAL.en.md §media weaving (media density band)",
+            editorial_ref="EDITORIAL.md §media weaving (media density band)",
             fix_suggestion=(
                 "(a) Add hero + scene-mid image to reach ~1 per 1k words "
                 "(b) For nature/marine topics, add an official video iframe"
@@ -349,7 +349,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             ),
             line=1,
             snippet=f"ceiling_density={ceiling_density:.2f} para_median={para_median}",
-            editorial_ref="EDITORIAL.en.md §media weaving + §paragraph rhythm",
+            editorial_ref="EDITORIAL.md §media weaving + §paragraph rhythm",
             fix_suggestion=(
                 "(a) Merge paragraphs to restore prose rhythm to median 75-90 words "
                 "(b) Cut iframes to <= 1.0/1k words "
@@ -368,7 +368,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             ),
             line=1,
             snippet=f"ceiling_density={ceiling_density:.2f} visual={visual_count}",
-            editorial_ref="EDITORIAL.en.md §media weaving",
+            editorial_ref="EDITORIAL.md §media weaving",
             fix_suggestion=(
                 "Consider: (a) let prose paragraphs carry the rhythm instead of "
                 "outsourcing to iframes (b) keep 3-5 representative iframes, drop "

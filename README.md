@@ -104,7 +104,7 @@ No programming skills needed. The most valuable contributions are local knowledg
 
 ## 📐 Editorial Standards
 
-Every article follows the principles in [EDITORIAL.en.md](./docs/editorial/EDITORIAL.en.md):
+Every article follows the principles in [EDITORIAL.md](./docs/editorial/EDITORIAL.md):
 
 - **Story, not just information** — narrative arc, not bullet points
 - **Every fact verifiable** — dates, names, sources must be checkable

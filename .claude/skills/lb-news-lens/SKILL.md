@@ -64,7 +64,7 @@ Each candidate entry:
 ```
 
 Propose 3-5 candidates per run. Quality over quantity — a candidate must have a
-clear path to a knowledge/ article that meets EDITORIAL.en.md standards.
+clear path to a knowledge/ article that meets EDITORIAL.md standards.
 
 ## 5. What this skill does NOT do
 

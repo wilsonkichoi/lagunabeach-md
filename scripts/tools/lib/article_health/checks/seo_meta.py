@@ -22,7 +22,7 @@ Skip:
   - Translation files (knowledge/zh-TW/) — sync layer handles those
 
 Canonical:
-  - EDITORIAL.en.md §SEO metadata
+  - EDITORIAL.md §SEO metadata
 """
 
 from __future__ import annotations
@@ -35,7 +35,7 @@ from ..types import FileTarget, Severity, Violation
 CHECK_NAME = "seo-meta"
 DIMENSION = "seo"
 DEFAULT_SEVERITY = Severity.WARN
-EDITORIAL_REF = "EDITORIAL.en.md §SEO metadata (title <=60 chars, description 50-160 chars)"
+EDITORIAL_REF = "EDITORIAL.md §SEO metadata (title <=60 chars, description 50-160 chars)"
 APPLIES_TO = ["en"]
 
 # Thresholds — measured in char count, standard English SEO conventions.

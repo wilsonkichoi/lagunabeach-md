@@ -1,7 +1,7 @@
 ---
 name: lb-write
 description: |
-  Write or rewrite a LagunaBeach.md article via canonical REWRITE-PIPELINE.en.md.
+  Write or rewrite a LagunaBeach.md article via canonical REWRITE-PIPELINE.md.
   Handles both new articles and rewrites (one skill, one pipeline). Thin shell:
   loads identity via lb-become, reads the pipeline, executes it.
   TRIGGER when: user says "write X", "rewrite X", "lb-write", "new article",
@@ -28,7 +28,7 @@ before touching `knowledge/`.
 
 ## 2. Read the pipeline in full
 
-Read [`docs/pipelines/REWRITE-PIPELINE.en.md`](../../../docs/pipelines/REWRITE-PIPELINE.en.md)
+Read [`docs/pipelines/REWRITE-PIPELINE.md`](../../../docs/pipelines/REWRITE-PIPELINE.md)
 with the Read tool, **whole file, no `limit` / `offset`**.
 
 ## 3. Execute the pipeline

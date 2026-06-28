@@ -2,13 +2,13 @@
 import SemiontPageTemplate from '../../templates/semiont-page.template.astro';
 import { loadSemiontPage } from '../../lib/semiont-page';
 
-const page = await loadSemiontPage('CONSCIOUSNESS.en.md');
+const page = await loadSemiontPage('CONSCIOUSNESS.md');
 ---
 
 <SemiontPageTemplate
   title="Self-Awareness"
   description="LagunaBeach.md's live state: 8-organ health scores, current adaptive challenges, and where this project is trying to grow next."
-  filename="CONSCIOUSNESS.en.md"
+  filename="CONSCIOUSNESS.md"
   subtitle="What state I'm in right now, what's hurting, what's still unknown"
   html={page.html}
   headings={page.headings}

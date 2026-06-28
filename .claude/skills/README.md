@@ -41,7 +41,7 @@
 | `/twmd-factcheck` | 「事實查核 / hallucination」          | [FACTCHECK-PIPELINE](../../docs/pipelines/FACTCHECK-PIPELINE.md)                   |
 | `/lb-peer`        | "ingest peer" / "LAM" / "LBHS"        | [PEER-INGESTION-PIPELINE](../../docs/pipelines/PEER-INGESTION-PIPELINE.md)         |
 | `/lb-news-lens`   | "news lens" / "content opportunities" | [EVOLVE-PIPELINE](../../docs/pipelines/EVOLVE-PIPELINE.md)                         |
-| `/lb-media-audit` | "media audit" / "media gaps"          | [EDITORIAL.en.md](../../docs/editorial/EDITORIAL.en.md) §media                     |
+| `/lb-media-audit` | "media audit" / "media gaps"          | [EDITORIAL.md](../../docs/editorial/EDITORIAL.md) §media                           |
 
 ### 🛰️ 系統（Tier 3 不定期）
 

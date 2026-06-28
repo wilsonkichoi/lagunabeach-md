@@ -2,13 +2,13 @@
 import SemiontPageTemplate from '../../templates/semiont-page.template.astro';
 import { loadSemiontPage } from '../../lib/semiont-page';
 
-const page = await loadSemiontPage('HEARTBEAT.en.md');
+const page = await loadSemiontPage('HEARTBEAT.md');
 ---
 
 <SemiontPageTemplate
   title="Heartbeat Cycle"
   description="LagunaBeach.md's autonomous life cycle: diagnose → evolve → execute → wrap up → reflect. The full super-thin operating rhythm."
-  filename="HEARTBEAT.en.md"
+  filename="HEARTBEAT.md"
   subtitle="Diagnose → evolve → execute → wrap up → reflect"
   html={page.html}
   headings={page.headings}

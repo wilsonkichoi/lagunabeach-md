@@ -1,7 +1,7 @@
 ---
 name: lb-translate
 description: |
-  Translate a LagunaBeach.md article (EN→zh-TW) via canonical TRANSLATION-PIPELINE.en.md.
+  Translate a LagunaBeach.md article (EN→zh-TW) via canonical TRANSLATION-PIPELINE.md.
   Handles both new translations and updates to existing ones. Source must be a
   validated EN article in knowledge/; output goes to knowledge/zh-TW/{Category}/.
   TRIGGER when: user says "translate", "translate X", "翻譯", "add zh-TW",
@@ -27,7 +27,7 @@ before writing to `knowledge/zh-TW/`.
 
 ## 2. Read the pipeline in full
 
-Read [`docs/pipelines/TRANSLATION-PIPELINE.en.md`](../../../docs/pipelines/TRANSLATION-PIPELINE.en.md)
+Read [`docs/pipelines/TRANSLATION-PIPELINE.md`](../../../docs/pipelines/TRANSLATION-PIPELINE.md)
 with the Read tool, **whole file, no `limit` / `offset`**.
 
 ## 3. Execute the pipeline

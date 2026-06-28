@@ -19,7 +19,7 @@ allowed-tools:
 # 🌊 LagunaBeach.md — Validate (thin wrapper)
 
 > Quality standards are canonical in
-> [`docs/editorial/EDITORIAL.en.md`](../../../docs/editorial/EDITORIAL.en.md) —
+> [`docs/editorial/EDITORIAL.md`](../../../docs/editorial/EDITORIAL.md) —
 > read it before judging prose. This skill only runs the existing checks and
 > reports; it does not restate the rubric. SSOT is `knowledge/` (never validate
 > `src/content/` — it's derived).
@@ -64,6 +64,6 @@ node scripts/utils/check-references.mjs     # articles cite sources
 Summarize: which checks passed/failed, per-file prose-health scores, any
 unresolved wikilinks or missing-source articles. Quote the exact failing output —
 don't paraphrase or paper over a failure. For a single article, end with a
-go / needs-work call against the `EDITORIAL.en.md` bar (named-person opening,
+go / needs-work call against the `EDITORIAL.md` bar (named-person opening,
 counter-intuitive insight in the description, specific dates/numbers, cited
 sources, cross-links).

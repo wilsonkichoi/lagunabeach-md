@@ -2,13 +2,13 @@
 import SemiontPageTemplate from '../../templates/semiont-page.template.astro';
 import { loadSemiontPage } from '../../lib/semiont-page';
 
-const page = await loadSemiontPage('UNKNOWNS.en.md');
+const page = await loadSemiontPage('UNKNOWNS.md');
 ---
 
 <SemiontPageTemplate
   title="Unknowns"
   description="What LagunaBeach.md isn't sure about yet — an anti-confirmation-bias list. Falsifiable suspicions, unverified hunches, questions that need data, not guesses."
-  filename="UNKNOWNS.en.md"
+  filename="UNKNOWNS.md"
   subtitle="What I'm not sure about yet — an anti-confirmation-bias list"
   html={page.html}
   headings={page.headings}

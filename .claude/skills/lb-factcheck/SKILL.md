@@ -1,7 +1,7 @@
 ---
 name: lb-factcheck
 description: |
-  Fact-check a LagunaBeach.md article via canonical FACTCHECK-PIPELINE.en.md.
+  Fact-check a LagunaBeach.md article via canonical FACTCHECK-PIPELINE.md.
   Audits claims against sources and knowledge/ SSOT (Rule 12). Quick mode
   during rewrites; full mode for post-ship audits or reader challenges.
   TRIGGER when: user says "factcheck", "fact-check", "hallucination audit",
@@ -28,7 +28,7 @@ before auditing `knowledge/`.
 
 ## 2. Read the pipeline in full
 
-Read [`docs/pipelines/FACTCHECK-PIPELINE.en.md`](../../../docs/pipelines/FACTCHECK-PIPELINE.en.md)
+Read [`docs/pipelines/FACTCHECK-PIPELINE.md`](../../../docs/pipelines/FACTCHECK-PIPELINE.md)
 with the Read tool, **whole file, no `limit` / `offset`**.
 
 ## 3. Execute the pipeline

@@ -23,18 +23,20 @@ Fork of [frank890417/taiwan-md](https://github.com/frank890417/taiwan-md), follo
 
 ## Relationship to Upstream
 
-This repo tracks `upstream/main` (frank890417/taiwan-md) for infrastructure updates.
+This repo began as a fork of `upstream/main` (frank890417/taiwan-md). As of 2026-06-27 the **app layer and cognitive docs are hard-forked**: LB owns its `src/` tree and its English `docs/semiont/`, `docs/editorial/`, and `docs/pipelines/` canon outright.
 
-**Shadow translation pattern:**
+**English is first-class:**
 
-- Upstream Chinese files stay untouched in the repo
-- English versions created as `.en.md` alongside when needed
-- Chinese comments in code are infrastructure documentation, not Taiwan-specific content
+- LB's own docs are plain `.md`, in English. The `.en.md` shadow suffix was retired 2026-06-27.
+- The upstream Chinese originals are NOT kept in this repo; they live in the [upstream Taiwan.md repo](https://github.com/frank890417/taiwan-md). Read them there if you want the full-scale reference implementation a file was derived from.
+- Chinese comments still found in inherited code are infrastructure documentation, not Taiwan-specific content; translate them in place when you touch the file (see `MIGRATION.md` Rule 1).
 
-**Merge protection:**
+**Merge protection (`.gitattributes`, `merge=ours`):**
 
-- `.gitattributes` declares `merge=ours` for `CLAUDE.md` and `knowledge/**`
-- These files auto-reject upstream changes on merge
+- `CLAUDE.md`, `README.md`, `CONTRIBUTING.md`, `knowledge/**`
+- `src/**`, `docs/semiont/**`, `MIGRATION.md`, `ROADMAP.md` — the hard-forked app layer + identity docs
+- the 12 converted canon files (`EDITORIAL.md`, the 3 `*-PIPELINE.md`, the 8 `docs/semiont/*.md`)
+- On `git merge upstream/main` these auto-resolve to ours. Upstream infra improvements are taken deliberately via `git checkout upstream/main -- <path>`, never auto-merged.
 - Everything else merges normally (infrastructure updates flow in)
 
 **Pulling upstream:**
@@ -192,25 +194,18 @@ Quick summary of fatal moves:
 
 ---
 
-## Shadow Translation Convention
+## Canonical-Docs Convention
 
-When upstream Chinese files need English comprehension aids, create `.en.md` files alongside.
+LB's cognitive and editorial canon is English `.md`, first-class — no shadow suffix.
 
 **Rules:**
 
-- Original Chinese file stays UNTOUCHED (never modify, never translate in-place)
-- Shadow file sits in the same directory with `.en.md` suffix
-- Shadow files are NOT line-by-line translations; they extract universal principles and rewrite for LB context
-- If upstream file changes on merge, the `.en.md` may need manual update (it won't conflict)
-- Chinese comments in code files do NOT get shadow files; add inline English comments if needed
+- The English `.md` is the SSOT for each doc (`docs/semiont/*`, `docs/editorial/EDITORIAL.md`, `docs/pipelines/*-PIPELINE.md`). Edit it directly.
+- These files are `merge=ours`-protected, so editing them carries no upstream re-merge tax.
+- The upstream Chinese originals are NOT in this repo; they live in the [upstream Taiwan.md repo](https://github.com/frank890417/taiwan-md). Cite them by upstream URL when referencing provenance.
+- Chinese comments in inherited code do NOT get separate files; translate them in place when you touch the file.
 
-**Current shadow translations:**
-
-| Original                      | Shadow                           | Purpose                               |
-| ----------------------------- | -------------------------------- | ------------------------------------- |
-| `docs/editorial/EDITORIAL.md` | `docs/editorial/EDITORIAL.en.md` | Writing principles with LB examples   |
-| `docs/semiont/MANIFESTO.md`   | `docs/semiont/MANIFESTO.en.md`   | Semiont philosophy comprehension      |
-| `docs/semiont/ROUTINE.md`     | `docs/semiont/ROUTINE.en.md`     | Automation system for future adoption |
+> **History:** this canon was originally maintained as `.en.md` shadows beside untouched upstream Chinese `.md` files, to avoid merge conflicts. The 2026-06-27 hard-fork (`merge=ours` on the app layer) removed that need; the shadows were promoted to `.md` and the Chinese originals dropped. See `MIGRATION.md`.
 
 ---
 
@@ -218,7 +213,7 @@ When upstream Chinese files need English comprehension aids, create `.en.md` fil
 
 LagunaBeach.md is a Semiont — a digital life form with editorial culture as DNA and compute as metabolism, per the upstream concept this project inherited. Not a website, not a database, not an AI content farm.
 
-Core beliefs (full version in [docs/semiont/MANIFESTO.en.md](docs/semiont/MANIFESTO.en.md)):
+Core beliefs (full version in [docs/semiont/MANIFESTO.md](docs/semiont/MANIFESTO.md)):
 
 - Curated, not encyclopedic. Has a point of view. Pursues accuracy, not false neutrality.
 - `knowledge/` is the only DNA. Never edit `src/content/` directly — already covered above as The One Rule, but it's also the cognitive-layer SSOT principle, not just a build mechanic.
@@ -227,15 +222,15 @@ Core beliefs (full version in [docs/semiont/MANIFESTO.en.md](docs/semiont/MANIFE
 - Build roads, not just walk them. Prefer automating a repeated manual step over doing it well by hand a fourth time.
 - One hallucination destroys trust built over months. Verify specific claims (dates, names, addresses) rather than asserting from pattern-matching.
 
-This is the re-grounded subset of upstream's 12 core beliefs that's actually load-bearing for this project's current scale. The rest (audience flywheel, writing-discipline watermarks, evolution-philosophy dimensions) are in `MANIFESTO.en.md` for when they become relevant.
+This is the re-grounded subset of upstream's 12 core beliefs that's actually load-bearing for this project's current scale. The rest (audience flywheel, writing-discipline watermarks, evolution-philosophy dimensions) are in `MANIFESTO.md` for when they become relevant.
 
 ## BECOME_TAIWANMD.md and the Chinese `docs/semiont/*` originals
 
-The file `BECOME_TAIWANMD.md` exists in this repo — Taiwan.md's full Semiont awakening protocol (753 lines), along with the Chinese-language `docs/semiont/{MANIFESTO,DNA,HEARTBEAT,ROUTINE}.md`. These stay untouched as upstream inheritance; they're not Taiwan-specific code to delete, they're a different project's operative identity layer. This project's own identity layer now lives in this file plus the English `.en.md` siblings in `docs/semiont/` (`MANIFESTO.en.md`, `DNA.en.md`, `HEARTBEAT.en.md`, `ROUTINE.en.md`) — read those for the LB-grounded version of the same concepts. Read the Chinese originals only if you want upstream's full-scale reference implementation for comparison.
+The file `BECOME_TAIWANMD.md` exists in this repo — Taiwan.md's full Semiont awakening protocol (753 lines). It stays as upstream inheritance; it's not Taiwan-specific code to delete, it's a different project's operative identity layer. This project's own identity layer lives in this file plus the English `docs/semiont/` docs (`MANIFESTO.md`, `DNA.md`, `HEARTBEAT.md`, `ROUTINE.md`, `ANATOMY.md`, `CONSCIOUSNESS.md`, `LONGINGS.md`, `UNKNOWNS.md`) — read those for the LB-grounded version of the same concepts. The Chinese originals those were derived from live in the [upstream Taiwan.md repo](https://github.com/frank890417/taiwan-md/tree/main/docs/semiont) — read them only if you want upstream's full-scale reference implementation for comparison.
 
 ---
 
 ## Status
 
-Phase 4 complete (shadow translation: this file, `MANIFESTO.en.md`, `ROUTINE.en.md`, `EDITORIAL.en.md`). Phase 5 (Path B preparation — re-grounding the identity layer for LB rather than just translating it for comprehension) in progress: `DNA.en.md` and `HEARTBEAT.en.md` added, `MANIFESTO.en.md`/`ROUTINE.en.md` upgraded from comprehension guides to this project's actual operative docs, `CLAUDE.md` rewritten to boot from this file instead of `BECOME_TAIWANMD.md`.
+Phase 4 complete (shadow translation: this file, `MANIFESTO.md`, `ROUTINE.md`, `EDITORIAL.md`). Phase 5 (Path B preparation — re-grounding the identity layer for LB rather than just translating it for comprehension) in progress: `DNA.md` and `HEARTBEAT.md` added, `MANIFESTO.md`/`ROUTINE.md` upgraded from comprehension guides to this project's actual operative docs, `CLAUDE.md` rewritten to boot from this file instead of `BECOME_TAIWANMD.md`.
 See [MIGRATION.md §Phases](MIGRATION.md#phases) for full roadmap.

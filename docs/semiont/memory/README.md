@@ -3,7 +3,7 @@
 Reserved for LagunaBeach.md's own Semiont memory notes.
 
 **Currently empty by design.** No memory exists yet because no routines run for
-this project (see `../ROUTINE.en.md` — routine status is NOT YET ACTIVE).
+this project (see `../ROUTINE.md` — routine status is NOT YET ACTIVE).
 
 When the first LB routine is built, its 5-stage lifecycle Stage 4 ("Record what
 happened") writes memory notes here. This directory is kept under version control

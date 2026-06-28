@@ -110,18 +110,13 @@ export async function loadSemiontPage(filename: string): Promise<SemiontPage> {
   const titleMatch = raw.match(/^#\s+(.+?)(?:\s*—.*)?$/m);
   const title = titleMatch ? titleMatch[1].trim() : filename.replace('.md', '');
 
-  // Extract subtitle from first blockquote after H1
-  const subtitleMatch = raw.match(
-    /^#\s+.+\n+>\s*相關：.+\n+(?:---\n+)?(?:>\s*)?(.+)/m,
-  );
-  const subtitle = subtitleMatch ? subtitleMatch[1].trim() : '';
+  // Subtitle is supplied by each page via its explicit prop, so we don't
+  // extract one from the document body here.
+  const subtitle = '';
 
-  // Remove H1 and the "相關" blockquote for body rendering
+  // Remove the leading H1 for body rendering (the page renders its own title).
   let body = raw;
-  // Remove the H1 line
   body = body.replace(/^#\s+.+$/m, '');
-  // Remove the "相關" navigation blockquote (first blockquote starting with "> 相關")
-  body = body.replace(/^>\s*相關：.+$/m, '');
 
   const renderer = createRenderer();
   const html = marked.parse(body, { renderer, breaks: true }) as string;

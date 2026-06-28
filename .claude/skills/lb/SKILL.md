@@ -27,7 +27,7 @@ If `public/api/dashboard-vitals.json` exists, surface a one-liner:
 ```
 
 LB has no live organism telemetry yet (no routines active — see
-`docs/semiont/ROUTINE.en.md`), so treat this as best-effort, not a gate.
+`docs/semiont/ROUTINE.md`), so treat this as best-effort, not a gate.
 
 ## 2. List the available lb-\* skills
 
@@ -42,7 +42,7 @@ done
 Current namespace (as ported in MIGRATION.md Phase 6):
 
 - `lb-become` — load identity + the One Rule + autonomy boundaries (shared gate)
-- `lb-write` — write or rewrite a `knowledge/` article via `REWRITE-PIPELINE.en.md`
+- `lb-write` — write or rewrite a `knowledge/` article via `REWRITE-PIPELINE.md`
 - `lb-sync` — rebuild `src/content/` from `knowledge/` (SSOT projection)
 - `lb-validate` — quality / frontmatter / wikilink / reference checks on articles
 - `lb-search` — search + read the LB knowledge base from the CLI
