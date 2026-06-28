@@ -1,6 +1,6 @@
 ---
 title: 'TRANSLATION-fr'
-description: 'Normes de traduction en français — Taïwan avec tréma + Wade-Giles + lexique anti-RPC + registre + cadre de jugement cas par cas'
+description: 'Inherited upstream Taiwan.md zh-TW → French translation guide (dormant for LagunaBeach.md) — Taïwan avec tréma + Wade-Giles + lexique anti-RPC + registre + cadre de jugement cas par cas'
 type: 'editorial-canonical'
 status: 'canonical'
 current_version: 'v2.0'
@@ -20,7 +20,15 @@ research_evidence: '../../../reports/translation-research/fr-2026-05-24.md'
 audience: 'translator (human + AI)'
 ---
 
-# TRANSLATION-fr — Normes de traduction en français de Taiwan.md
+# TRANSLATION-fr — Taiwan.md zh-TW → French translation guide (inherited, dormant for LagunaBeach.md)
+
+> **⚠️ Inherited upstream guide — dormant for LagunaBeach.md.** This is Taiwan.md's style
+> guide for translating zh-TW source content _into French_. LagunaBeach.md ships no French;
+> its sole translation target is zh-TW (English is the SSOT source, so LB's only live
+> direction is EN→zh-TW). Kept verbatim as upstream scaffolding for if/when LB adds outbound
+> languages — per the Phase C dormant-relabel doctrine (relabel, don't delete). The
+> Taiwan-specific sovereignty, romanization, and place-name rules below (and their French
+> examples) are upstream methodology, **not** LagunaBeach.md editorial policy.
 
 > Preuves complètes et citations dans [reports/translation-research/fr-2026-05-24.md](../../../reports/translation-research/fr-2026-05-24.md). Ce document est le guide canonique opérationnel ; à charger avant chaque traduction.
 

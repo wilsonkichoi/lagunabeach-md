@@ -1,6 +1,6 @@
 ---
 title: 'TRANSLATION-ko'
-description: '韓文翻譯規範 — 대만 vs 타이완 SSOT + sovereignty-avoid 詞庫 + 한자 → 한글 romanization 規則 + 판단 framework + 화이트리스트 + worked examples + 번역자 mental model'
+description: 'Inherited upstream Taiwan.md zh-TW → Korean translation guide (dormant for LagunaBeach.md) — 대만 vs 타이완 SSOT + sovereignty-avoid lexicon + hanja → hangul romanization rules + judgment framework + whitelist + worked examples + translator mental model'
 type: 'editorial-canonical'
 status: 'canonical'
 current_version: 'v2.0'
@@ -20,9 +20,17 @@ research_evidence: '../../../reports/translation-research/ko-2026-05-24.md'
 audience: 'translator (human + AI)'
 ---
 
-# TRANSLATION-ko — Taiwan.md 韓國語翻譯規範
+# TRANSLATION-ko — Taiwan.md zh-TW → Korean translation guide (inherited, dormant for LagunaBeach.md)
 
-> 완전한 근거와 소스 citation 은 [reports/translation-research/ko-2026-05-24.md](../../../reports/translation-research/ko-2026-05-24.md) 참조. 본 문서는 canonical actionable guide, 매 번역 전 로드.
+> **⚠️ Inherited upstream guide — dormant for LagunaBeach.md.** This is Taiwan.md's style
+> guide for translating zh-TW source content _into Korean_. LagunaBeach.md ships no Korean;
+> its sole translation target is zh-TW (English is the SSOT source, so LB's only live
+> direction is EN→zh-TW). Kept verbatim as upstream scaffolding for if/when LB adds outbound
+> languages — per the Phase C dormant-relabel doctrine (relabel, don't delete). The
+> Taiwan-specific sovereignty, romanization, and place-name rules below (and their Korean
+> examples) are upstream methodology, **not** LagunaBeach.md editorial policy.
+
+> Full evidence and source citations: [reports/translation-research/ko-2026-05-24.md](../../../reports/translation-research/ko-2026-05-24.md). This is upstream Taiwan.md's canonical actionable guide, loaded before each zh→Korean translation.
 
 ## TL;DR — 5 條最高優先規則
 
@@ -386,14 +394,14 @@ find knowledge/ko/ -name '*.md' -exec sed -i '' 's/중국 본토/중국/g' {} +
 
 **조사 agreement (Korean-specific 鐵則)**: 한국어는 받침 (consonant-final) vs 모음 (vowel-final) 에 따라 후행 助詞가 변한다. **"중국 본토" → "중국" 치환은 vowel-final 「토」가 consonant-final 「ㄱ」으로 바뀌므로 모든 후행 조사를 재검증해야 한다**:
 
-| 受詞 / 主格 / 連結    | 본토 (vowel-final) | 중국 (consonant-final) | 변환                |
-| --------------------- | ------------------ | ---------------------- | ------------------- |
-| 主格                  | 본토**가**         | 중국**이**             | 가 → 이             |
-| 受詞                  | 본토**를**         | 중국**을**             | 를 → 을             |
-| 連結 (and)            | 본토**와**         | 중국**과**             | 와 → 과             |
-| Tool / Path / Method  | 본토**로**         | 중국**으로**           | 로 → 으로           |
-| Topic marker          | 본토**는**         | 중국**은**             | 는 → 은             |
-| Possessive / Belongs  | 본토**의**         | 중국**의**             | (불변)              |
+| 受詞 / 主格 / 連結   | 본토 (vowel-final) | 중국 (consonant-final) | 변환      |
+| -------------------- | ------------------ | ---------------------- | --------- |
+| 主格                 | 본토**가**         | 중국**이**             | 가 → 이   |
+| 受詞                 | 본토**를**         | 중국**을**             | 를 → 을   |
+| 連結 (and)           | 본토**와**         | 중국**과**             | 와 → 과   |
+| Tool / Path / Method | 본토**로**         | 중국**으로**           | 로 → 으로 |
+| Topic marker         | 본토**는**         | 중국**은**             | 는 → 은   |
+| Possessive / Belongs | 본토**의**         | 중국**의**             | (불변)    |
 
 W1 cleanup 에서 70 개 본토 → 중국 치환 후 9 개 file 에 助詞 mismatch 가 남았다 — followup commit 필요했음. **post-edit 즉시 grep agreement 검증** 이 본질적 step 이지 optional 이 아니다.
 
@@ -458,22 +466,22 @@ npm run build 2>&1 | grep -i error
 
 다음 패턴은 grep 으로 잡히지만 **수정 금지** (이유 명시 + 매번 §10 Step 2 분류에서 PRESERVE bucket 으로 sort). 새 false positive 발견 시 PR 로 이 table 에 추가.
 
-| Pattern                            | Why PRESERVE                                                       | Reference                                                                            |
-| ---------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
-| `대북부 (大北部)`                  | Greater Northern Region 지리 행정 region 명, NOT 台北              | `Geography/tectonic-plates-and-seismic-activity.md:82`                               |
-| `대중 (大眾)` 일반 대중            | general public, NOT 台中 — 매 occurrence 문맥 확인                 | (corpus 전반)                                                                        |
-| `《대북인 (台北人)》`              | 바이셴융 1971 단편집 책 제목 transliteration of 原題               | `Art/postwar-taiwanese-literature.md:68,199,201`                                     |
-| `신죽음사 (新竹吟社)`              | 1752 historical 시사 compound 고유 명사                            | `Art/history-of-taiwanese-literature.md:67`                                          |
-| `양안 통일전선` / `통전`           | united-front 공작 (work), NOT 양안 통일 (unification)              | `Society/falun-gong-in-taiwan.md:68`                                                 |
-| `중국 대륙` in verbatim citation   | BBC 등 원문 中國大陸 verbatim 인용 시 출처 충실성 우선             | `Geography/hsinchu-city.md:99,235` etc.                                              |
-| `대만성 정부 / 대만성 의회`        | 1949-1998 ROC 행정 단위 史実 institutional name                    | History 시리즈 전반                                                                  |
-| `화교 (華僑)` generic context      | 일반 중국계 디아스포라 context (≠ Taiwan-diaspora specifically)    | Migration/Diaspora 문서                                                              |
-| `taiwans-labeling-in-international-standards.md` | 메타 토론 of term itself — 용어 자체가 주제           | (article 전체)                                                                       |
-| `poisoned-potato-cognitive-warfare-taiwan.md`    | 認知戰 메타 토론 — PRC framing 자체가 분석 대상      | (article 전체)                                                                       |
-| `taiwan-unification-independence-spectrum.md`    | 통일/독립 spectrum 메타 분석 — 양 극단 용어 모두 cite | (article 전체)                                                                       |
-| 한국 媒體 headline verbatim 「대만」 | 직접 인용 시 매체 표기 보존 (translator's voice ≠ source voice) | RTI / 한겨레 / SBS 등 quote                                                          |
-| `이등휘` in long-form lee-teng-hui article | author 의 의도적 Sino-Korean choice — 38 instances 일괄 변경 = editorial decision 필요 | `People/lee-teng-hui.md` (38 instances; §15 open question) |
-| Frontmatter `description / title / imageAlt / tags` | body-only grep 으로 안 잡힘 — 별도 audit pass 필수      | (모든 file)                                                                          |
+| Pattern                                             | Why PRESERVE                                                                           | Reference                                                  |
+| --------------------------------------------------- | -------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| `대북부 (大北部)`                                   | Greater Northern Region 지리 행정 region 명, NOT 台北                                  | `Geography/tectonic-plates-and-seismic-activity.md:82`     |
+| `대중 (大眾)` 일반 대중                             | general public, NOT 台中 — 매 occurrence 문맥 확인                                     | (corpus 전반)                                              |
+| `《대북인 (台北人)》`                               | 바이셴융 1971 단편집 책 제목 transliteration of 原題                                   | `Art/postwar-taiwanese-literature.md:68,199,201`           |
+| `신죽음사 (新竹吟社)`                               | 1752 historical 시사 compound 고유 명사                                                | `Art/history-of-taiwanese-literature.md:67`                |
+| `양안 통일전선` / `통전`                            | united-front 공작 (work), NOT 양안 통일 (unification)                                  | `Society/falun-gong-in-taiwan.md:68`                       |
+| `중국 대륙` in verbatim citation                    | BBC 등 원문 中國大陸 verbatim 인용 시 출처 충실성 우선                                 | `Geography/hsinchu-city.md:99,235` etc.                    |
+| `대만성 정부 / 대만성 의회`                         | 1949-1998 ROC 행정 단위 史実 institutional name                                        | History 시리즈 전반                                        |
+| `화교 (華僑)` generic context                       | 일반 중국계 디아스포라 context (≠ Taiwan-diaspora specifically)                        | Migration/Diaspora 문서                                    |
+| `taiwans-labeling-in-international-standards.md`    | 메타 토론 of term itself — 용어 자체가 주제                                            | (article 전체)                                             |
+| `poisoned-potato-cognitive-warfare-taiwan.md`       | 認知戰 메타 토론 — PRC framing 자체가 분석 대상                                        | (article 전체)                                             |
+| `taiwan-unification-independence-spectrum.md`       | 통일/독립 spectrum 메타 분석 — 양 극단 용어 모두 cite                                  | (article 전체)                                             |
+| 한국 媒體 headline verbatim 「대만」                | 직접 인용 시 매체 표기 보존 (translator's voice ≠ source voice)                        | RTI / 한겨레 / SBS 등 quote                                |
+| `이등휘` in long-form lee-teng-hui article          | author 의 의도적 Sino-Korean choice — 38 instances 일괄 변경 = editorial decision 필요 | `People/lee-teng-hui.md` (38 instances; §15 open question) |
+| Frontmatter `description / title / imageAlt / tags` | body-only grep 으로 안 잡힘 — 별도 audit pass 필수                                     | (모든 file)                                                |
 
 **원칙**: false positive 가 1개라도 발견되면 그 패턴은 더 이상 "regex-safe" 가 아니다. §10 5-step framework 강제. Whitelist 는 자라는 SSOT (living document).
 
