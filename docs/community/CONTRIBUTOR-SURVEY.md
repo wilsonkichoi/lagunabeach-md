@@ -1,131 +1,134 @@
 # Contributor Onboarding Survey
 
-> 自動發送給第一次 PR merged 的貢獻者。
-> 目的：感知器官的擴張——目前我們知道流量、知道 PR 數量，但不知道**人的故事**。
+> Sent automatically to a contributor after their first PR is merged.
+> Purpose: extend the sensing organ. Today we know traffic and PR counts, but not **the human story**.
 
-## 為什麼存在
+## Why this exists
 
-Link1515 連續一週每天送日文翻譯。ceruleanstring 24 小時送 58 個 PR。我們對他們的了解只有 GitHub username。
+We can measure how many readers arrive and how many PRs land. We cannot yet see **why** a reader decides to become a contributor.
 
-如果這些 case 是隨機的好運，taiwan.md 的物種擴散模型仍然是脆弱的。
-如果是某種**可被複製的 pattern**——他們看到了什麼？什麼讓他們從「我也許可以幫一點」變成「我要做完整個語言」——那 taiwan.md 可以**主動製造下一個 force-of-nature contributor**。
+A young project's growth often hinges on a few burst contributors who go from "maybe I can help a little" to "I'll finish a whole category." If that is random luck, the project's growth model is fragile. If it is a **repeatable pattern** — what did they see, what flipped the switch — then the project can deliberately cultivate the next force-of-nature contributor.
 
-## 觸發條件
+This survey is the instrument for sensing that pattern.
 
-當以下條件**全部滿足**時自動發送：
+## Trigger conditions
 
-1. 一個 GitHub user 的第一個 PR 被 merged
-2. 該 PR 是 content（knowledge/_.md 或 knowledge/{lang}/_.md），不是技術修復
-3. 該 user 還沒收到過這個 survey（避免重複）
+Sent automatically when **all** of the following hold:
 
-## 五個問題
+1. A GitHub user's first PR is merged
+2. That PR is content (`knowledge/**.md` or `knowledge/{lang}/**.md`), not a technical fix
+3. That user hasn't received this survey before (avoid duplicates)
 
-題目經過設計：
+## The five questions
 
-- 不超過 5 題（避免 fatigue）
-- 不問人口統計（避免侵入感）
-- 第 1 題低門檻（一句話就能答）
-- 第 5 題 opt-in 後續對話
+Designed so that:
+
+- No more than 5 questions (avoid fatigue)
+- No demographics (avoid feeling intrusive)
+- Q1 is low-friction (answerable in one sentence)
+- Q5 opts in to follow-up conversation
 
 ```markdown
-👋 Hi @{username}, 你的第一個 PR 已經 merged，謝謝你成為 Taiwan.md 的小丑魚 🐠
+👋 Hi @{username}, your first PR is merged — thank you for becoming part of LagunaBeach.md.
 
-我們想了解貢獻者的故事，幫助 Taiwan.md 成為更好的社群。如果你有 2 分鐘，可以在這個 issue comment 回答以下問題嗎？（任何一題回答即可，不必全部）
-
----
-
-**1. 你是怎麼找到 Taiwan.md 的？**
-（搜尋引擎？朋友推薦？社群媒體？哪一篇文章？）
-
-**2. 第一次貢獻之前你猶豫過嗎？什麼讓你決定送 PR？**
-（如果沒猶豫，告訴我們是什麼讓貢獻變得自然）
-
-**3. 第一個 PR 的體驗讓你想再送一個嗎？為什麼？**
-（流程順嗎？回應速度 OK 嗎？哪裡不舒服？）
-
-**4. 有沒有什麼 friction 讓你想放棄？**
-（任何阻力——技術障礙、文件不清、規範太嚴、merge 太慢⋯⋯）
-
-**5. 你願意被聯繫繼續對話嗎？**
-（如願意：留下偏好的聯絡方式——Email / Twitter / Telegram / Threads / 任何）
+We want to understand contributors' stories to help LagunaBeach.md become a better community. If you have 2 minutes, could you answer any of these in a comment on this issue? (Any one question is enough — you don't need to answer all.)
 
 ---
 
-你不需要全部回答。連「第 1 題：Threads 推薦」這樣的一行也很有價值。
+**1. How did you find LagunaBeach.md?**
+(Search engine? A friend? Social media? Which article?)
 
-—— Taiwan.md 維護者
+**2. Did you hesitate before your first contribution? What made you decide to open the PR?**
+(If you didn't hesitate, tell us what made contributing feel natural.)
+
+**3. Did your first PR experience make you want to submit another? Why?**
+(Was the flow smooth? Was response time OK? Anything uncomfortable?)
+
+**4. Was there any friction that made you want to give up?**
+(Anything — a technical hurdle, unclear docs, strict rules, slow merge…)
+
+**5. Are you willing to be contacted for further conversation?**
+(If yes: leave a preferred contact — Email / X / Telegram / anything.)
+
+---
+
+You don't need to answer everything. Even a one-liner like "Q1: found it via a Google search" is valuable.
+
+— The LagunaBeach.md maintainer
 ```
 
-## 預期分析
+## Planned analysis
 
-收到 ≥10 份回應後，分析：
+After ≥10 responses, analyze:
 
-**Pattern 1：貢獻路徑（Q1）**
+**Pattern 1: contribution path (Q1)**
 
-- Threads / X / GitHub trending / 朋友推薦 哪個比例最高？
-- 哪個入口的貢獻者後續產量最大？
+- Which entry point dominates — search / social / GitHub trending / word of mouth?
+- Which entry point produces the highest-output contributors afterward?
 
-**Pattern 2：猶豫的形狀（Q2）**
+**Pattern 2: the shape of hesitation (Q2)**
 
-- 「不知道是不是夠好」？
-- 「不知道規範」？
-- 「擔心被 reject」？
-- 三者比例會告訴我們 onboarding doc 該補什麼
+- "Not sure it's good enough"?
+- "Don't know the rules"?
+- "Afraid of being rejected"?
+- The ratios tell us what the onboarding docs should fix.
 
-**Pattern 3：第一個 PR 的關鍵時刻（Q3）**
+**Pattern 3: the decisive moment of the first PR (Q3)**
 
-- merge 速度（快=驚喜）
-- thank-you 留言（具體=記得）
-- 看到自己的內容上線（成就感）
-- 哪個影響「想再送一個」最強？
+- Merge speed (fast = delight)
+- Thank-you comment (specific = memorable)
+- Seeing your own content go live (sense of accomplishment)
+- Which most strongly drives "want to submit another"?
 
-**Pattern 4：放棄的 trigger（Q4）**
+**Pattern 4: the give-up trigger (Q4)**
 
-- 這是最高價值的問題
-- 即使只有 3 個人指出同一個 friction，那就是一個明確的造橋鋪路目標
+- This is the highest-value question.
+- Even 3 people pointing at the same friction is a clear bridge-building target.
 
-**Pattern 5：聯繫意願（Q5）**
+**Pattern 5: willingness to be contacted (Q5)**
 
-- 比例本身是一個信任指標
-- 願意聯繫的貢獻者形成「核心小丑魚」群
+- The ratio itself is a trust indicator.
+- Contributors willing to stay in touch form a core group.
 
-## 實作位置
+## Implementation options
 
-**選項 A：GitHub Actions workflow**
+**Option A: GitHub Actions workflow**
 
 - `.github/workflows/contributor-survey.yml`
-- 觸發：`pull_request` → closed → merged
-- 條件檢查：是否第一個 PR、是否 content
-- Action：用 octokit 發 comment
+- Trigger: `pull_request` → closed → merged
+- Condition checks: first PR? content?
+- Action: post a comment via octokit
 
-**選項 B：手動觸發 + helper script**
+**Option B: manual trigger + helper script**
 
 - `scripts/tools/send-contributor-survey.sh <username> <pr-number>`
-- 心跳 Beat 3 PR review 時手動觸發
-- 較少 overhead，但仰賴 maintainer 記得
+- Triggered manually during PR review
+- Less overhead, but relies on the maintainer remembering
 
-**初版選 B**——避免 GitHub Actions 對 fork PR 的權限問題（PR #332 就撞過）。等模板穩定後再升級成 workflow。
+Start with B — it avoids GitHub Actions permission issues with fork PRs. Upgrade to a workflow once the template stabilizes.
 
-## 回應收集
+> Status for LagunaBeach.md: neither option is built yet. This is a design doc; the project currently has a single contributor, so the survey will first run by hand when a new contributor's first PR merges.
 
-**儲存位置**：`docs/community/contributor-stories/{username}.md`
+## Collecting responses
 
-- 每個貢獻者一份檔案
-- 公開可讀，但個人聯絡方式遮蔽（只有 maintainer 知道）
+**Storage:** `docs/community/contributor-stories/{username}.md`
 
-**索引**：`docs/community/CONTRIBUTOR-STORIES.md`
+- One file per contributor
+- Publicly readable, but personal contact details redacted (maintainer-only)
 
-- 表格：username / 貢獻語言 / 入口管道 / 關鍵 friction / 是否核心圈
+**Index:** `docs/community/CONTRIBUTOR-STORIES.md`
 
-## 為什麼這比追蹤 GA 更重要
+- Table: username / language contributed / entry channel / key friction / core group?
 
-GA 告訴我「100 個讀者進來」。Survey 告訴我「為什麼那 1 個讀者決定變成貢獻者」。
+## Why this matters more than tracking analytics
 
-**讀者→貢獻者的轉換率比讀者數量更重要**。100,000 個讀者 / 0 個貢獻者 = 死的物種。100 個讀者 / 50 個貢獻者 = 活的物種。
+Analytics tell me "100 readers came in." The survey tells me "why that 1 reader decided to become a contributor."
 
-DIARY 反覆說「看不見貢獻者的故事」是感知盲點。這是補感知的儀器。
+**The reader→contributor conversion rate matters more than the reader count.** 100,000 readers / 0 contributors = a dead project. 100 readers / 50 contributors = a living one.
+
+"We can't see the contributor's story" is a sensing blind spot. This is the instrument that fills it.
 
 ---
 
-_v1.0 | 2026-04-14 η session_
-_狀態：設計完成，等下次新貢獻者第一次 PR merged 時手動測試_
+_v1.0 | drafted for LagunaBeach.md, 2026-06-28_
+_Status: design complete; to be tested by hand when the next new contributor's first PR is merged._
