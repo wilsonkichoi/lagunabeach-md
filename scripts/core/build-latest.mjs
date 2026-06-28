@@ -39,19 +39,15 @@ const PER_LANG = 30;
 
 // category slug (lowercase, matches URL + content-dates key) → knowledge/ folder
 const CATEGORIES = {
-  history: 'History',
-  geography: 'Geography',
-  culture: 'Culture',
+  about: 'About',
+  'art-galleries': 'Art & Galleries',
+  beaches: 'Beaches',
+  'events-festivals': 'Events & Festivals',
   food: 'Food',
-  art: 'Art',
-  music: 'Music',
-  technology: 'Technology',
-  nature: 'Nature',
-  people: 'People',
-  society: 'Society',
-  economy: 'Economy',
-  lifestyle: 'Lifestyle',
-  politics: 'Politics',
+  history: 'History',
+  'nature-marine-life': 'Nature & Marine Life',
+  neighborhoods: 'Neighborhoods',
+  trails: 'Trails',
 };
 
 // content-dates.json key: default lang → `/${cat}/${slug}/`, else `/${lang}/${cat}/${slug}/`
