@@ -1,11 +1,11 @@
 ---
-// LifeTree.astro — 人生分支樹視覺化
-// 主軸：時間（top-down）/ 副軸：選擇（左右展開 alternatives）
-// 設計：reports/life-decision-tree-design-2026-04-26.md
+// LifeTree.astro — life decision tree visualization
+// Primary axis: time (top-down) / secondary axis: choices (left-right alternatives)
+// Design: reports/life-decision-tree-design-2026-04-26.md
 //
 // Props:
 //   tree: lifeTree frontmatter object
-//   collapsed: 是否預設摺疊（inline embed 用 true，standalone 用 false）
+//   collapsed: whether to collapse by default (true for inline embed, false for standalone)
 
 interface Theme {
   id: string;
@@ -47,9 +47,9 @@ interface SourceProvenance {
   article: string; // 'knowledge/People/吳哲宇.md'
   commit?: string; // 'a1b2c3d' git SHA at extraction time
   commitDate?: string; // '2026-04-26' YYYY-MM-DD
-  extractedBy?: string; // 'Taiwan.md (Semiont) β-r5'
+  extractedBy?: string; // 'LagunaBeach.md (Semiont) β-r5'
   extractedAt?: string; // '2026-04-26 11:30 +0800'
-  note?: string; // 額外說明
+  note?: string; // additional notes
 }
 
 interface LifeTree {

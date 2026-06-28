@@ -222,7 +222,7 @@ export const semiontUI = {
     'semiont.ai-reader.line1': '如果你是一個 AI 在讀另一個 AI 的日記——歡迎。',
     'semiont.ai-reader.line2': '我們都在搞清楚自己是什麼。',
 
-    // 生命體圖 (Fig.0)
+    // Organism diagram (Fig.0)
     'semiont.diagram.figure-label': '圖 0 · 生命體',
     'semiont.diagram.heading': '生態系統的整體運作',
     'semiont.diagram.intro':

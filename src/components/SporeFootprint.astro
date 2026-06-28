@@ -1,12 +1,13 @@
 ---
 /**
- * SporeFootprint — 社群足跡（溫暖紀實風格）
+ * SporeFootprint — community footprint (warm, documentary style)
  *
  * v2 (2026-06-10, reports/spore-data-architecture-2026-06-10.md):
- * frontmatter sporeLinks 只帶 identity（id/platform/date/url），engagement
- * 數字 build-time join src/data/spores.json（孢子自己的記錄層）。文章檔案
- * 不再因 harvest 回填而變動。Inline metric 欄位仍接受作 fallback（過渡期
- * 譯文 / fork 沒帶 spores.json 時 markdown 仍自我完整）。
+ * frontmatter sporeLinks carry identity only (id/platform/date/url); engagement
+ * numbers are joined at build-time from src/data/spores.json (spore record layer).
+ * Article files no longer mutate on harvest backfill. Inline metric fields still
+ * accepted as fallback (transition period: translations/forks without spores.json
+ * remain self-contained).
  */
 import type { Lang } from '../config/languages';
 import sporesData from '../data/spores.json';
