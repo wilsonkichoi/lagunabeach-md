@@ -1,17 +1,19 @@
 ---
 /**
- * article.template.astro — 統一 article page template (6 langs 共用)
+ * article.template.astro — unified article page template (shared across 6 langs)
  *
- * 為什麼: 之前 6 個 [slug].astro × 1100~1300 行 = ~7400 行高度重複；發現過 PR #758
- * ship es/fr 帶 JA copy-paste bug (related articles 顯示日文 / es/fr getStaticPaths
- * 用 zhToJa 過濾)。Template unification 一次性消除這類 class of bug。
+ * Why: previously 6 [slug].astro files x 1100-1300 lines = ~7400 lines of heavy
+ * duplication; PR #758 shipped es/fr with a JA copy-paste bug (related articles
+ * showed Japanese / es/fr getStaticPaths used zhToJa filter). Template unification
+ * eliminates this entire class of bug at once.
  *
- * 對照 about/dashboard pattern：
- *   src/pages/about.astro                → 5 行 <AboutTemplate />
- *   src/templates/about.template.astro   → 全部 UI 邏輯
+ * cf. about/dashboard pattern:
+ *   src/pages/about.astro                → 5 lines <AboutTemplate />
+ *   src/templates/about.template.astro   → all UI logic
  *
- * 中文 zh-TW 是 SSOT canonical，本 template 從 src/pages/[category]/[slug].astro
- * 複製過來，再 parameterize on lang prop。其他 5 langs 的差異全變 prop / data。
+ * zh-TW is the SSOT canonical; this template was copied from
+ * src/pages/[category]/[slug].astro then parameterized on lang prop.
+ * Differences across the other 5 langs become props / data.
  *
  * 2026-05-03 sleepy-colden Tier 2.5 unified template extraction (Phase B)。
  */
@@ -90,7 +92,7 @@ const langPath = lang === 'en' ? '' : `${lang}/`;
 const langUrlPrefix = lang === 'en' ? '' : `/${lang}`;
 
 // Per-lang prose font (wired into <style define:vars> below as --prose-font).
-// zh-TW uses jf-jinxuanlatte (justfont 金萱拿鐵) to match site body cascade
+// zh-TW uses jf-jinxuanlatte (justfont JinXuan Latte) to match site body cascade
 // — restored 2026-05-04 after Tailwind migration silently flipped it to
 // Noto Serif TC. en/es/fr use Inter; ja/ko use Noto Serif JP/KR.
 const proseFontMap: Record<string, string> = {
@@ -116,9 +118,10 @@ const categoryMapping: Record<string, string> = {
 };
 
 // ── Git info ─────────────────────────────────────────────────────────────────
-// buildGitInfoCache 在 utils/contributors.ts 內按 knowledgePath memoize：
-// 整個 build 每語言只跑一次 git log。cache 不能放這裡 — frontmatter 是
-// per-render scope，放這裡 = 每頁重跑 git log 子程序（2026-06-13 修掉的 bug）。
+// buildGitInfoCache in utils/contributors.ts memoizes by knowledgePath:
+// runs git log only once per language for the entire build. Cache cannot live
+// here — frontmatter is per-render scope; placing it here = re-runs git log
+// subprocess per page (bug fixed 2026-06-13).
 function getGitInfoForLang(lang: Lang, filePath: string): GitInfo {
   const knowledgeBase = lang === 'en' ? 'knowledge/' : `knowledge/${lang}/`;
   return buildGitInfoCache(knowledgeBase).get(filePath) || emptyGitInfo();
@@ -150,10 +153,12 @@ const categoryInfo = categoryConfigs[category as CategoryKey];
 if (!categoryInfo) throw new Error(`Unknown category: ${category}`);
 
 // ── Related articles (semantic neighbours) ───────────────────────────────────
-// 2026-06-14 RAG Phase 1：getRelatedArticles 改讀 bge-m3 語意鄰居（跨 category、
-// 依意思而非同類）— src/data/related/{lang}.json 離線預算、烘進 HTML、零瀏覽器
-// 模型；語意索引缺檔時自動 fallback 回同 category。Tier 1.4 shared cache 不變。
-// 預抓 8 篇當備用（資料層 TOP_K=8）；前端響應式呈現 4/3/3（桌機/平板/手機）。
+// 2026-06-14 RAG Phase 1: getRelatedArticles now reads bge-m3 semantic neighbours
+// (cross-category, by meaning not taxonomy) — src/data/related/{lang}.json
+// offline-computed, baked into HTML, zero browser-side model; auto-fallback to
+// same category when semantic index is missing. Tier 1.4 shared cache unchanged.
+// Pre-fetch 8 articles as backup (data layer TOP_K=8); frontend responsive
+// display 4/3/3 (desktop/tablet/mobile).
 let relatedArticles: any[] = [];
 try {
   relatedArticles = await getRelatedArticles(
@@ -165,11 +170,12 @@ try {
 } catch {}
 
 // ── Random explore ───────────────────────────────────────────────────────────
-// 2026-06-10 build audit §5.1: 原本把整語言文章清單 define:vars 內嵌進每一頁
-// （~50KB × 4,895 頁 ≈ dist +250MB）。改為按鈕 click 時 lazy fetch per-lang
-// 共用 pool（build-latest.mjs 產 /api/random-index-{lang}.json），frontmatter
-// 只留「有沒有得跳」的布林。pool href 自帶 lang prefix（順手修譯文頁隨機
-// 跳轉漏 /en 前綴的 latent bug）。
+// 2026-06-10 build audit §5.1: previously embedded the full per-language article
+// list in define:vars on every page (~50KB x 4,895 pages = dist +250MB). Changed
+// to lazy fetch a shared per-lang pool on button click (build-latest.mjs produces
+// /api/random-index-{lang}.json); frontmatter now only holds a boolean for
+// "has articles to jump to". Pool href includes lang prefix (also fixed a latent
+// bug where translated pages' random jumps omitted the /en prefix).
 let hasRandomPool = false;
 try {
   hasRandomPool = (await getAllArticles(lang, category as string)).length > 0;
@@ -182,7 +188,7 @@ const otherCategories = categories
   .slice(0, 3)
   .map((cat) => ({ key: cat, ...categoryConfigs[cat as CategoryKey] }));
 
-// Localized category meta (name/color/icon) for the client-side 站上最新 rail —
+// Localized category meta (name/color/icon) for the client-side "latest" rail —
 // fills the cloned ArticleCard (premium) slots (badge / cover icon / colours)
 // per latest item, without a per-item server render (keeps freshness).
 const latestCatMeta = Object.fromEntries(
@@ -200,9 +206,10 @@ const latestCatMeta = Object.fromEntries(
 );
 
 // ── Markdown → HTML ─────────────────────────────────────────────────────────
-// Pipeline 本體（17 tw-* 模組 renderer / 腳註 / wikilink / 延伸閱讀 split）住在
-// src/utils/article-render.ts — module scope，整個 build 只配置一次（.astro
-// frontmatter 是 per-render scope，不放可共享的邏輯與 cache）。
+// Pipeline core (17 tw-* module renderers / footnotes / wikilink / further-reading
+// split) lives in src/utils/article-render.ts — module scope, configured once for
+// the entire build (.astro frontmatter is per-render scope; shared logic and
+// caches do not belong here).
 const { fullHtml, splitIndex } = renderArticleHtml(title, content);
 
 const hasSSoDT =
@@ -257,8 +264,8 @@ const encodedTitle = encodeURIComponent(title);
     meta-subcategory in the meta strip (not present in en/ja/ko).
     Prose font is 'Noto Serif TC' instead of 'Inter'.
   -->
-  <!-- Shot-mode watermark 已移至 src/layouts/Layout.astro 共用（2026-04-22 β）。
-       JS toggle + CSS 同樣搬走，四語言 article page 統一支援 ?shot=1 模式。 -->
+  <!-- Shot-mode watermark moved to src/layouts/Layout.astro (shared, 2026-04-22 beta).
+       JS toggle + CSS also moved; all 4 lang article pages share ?shot=1 support. -->
 
   <main class="article-page min-h-screen bg-[#f8f1e9]" lang={lang}>
     <!-- ── Hero ─────────────────────────────────────────────────── -->
@@ -345,12 +352,12 @@ const encodedTitle = encodeURIComponent(title);
           )
         }
 
-        <!-- Prose body (split at 延伸閱讀 if SSODT sections present) -->
+        <!-- Prose body (split at "Further Reading" if SSODT sections present) -->
         {
           hasSSoDT && splitIndex !== -1 ? (
             <>
               <div class="prose" set:html={contentBeforeReading} />
-              {/* ── SSODT sections between article body and 延伸閱讀 ── */}
+              {/* ── SSODT sections between article body and Further Reading ── */}
               {frontmatter.perspectives &&
                 frontmatter.perspectives.length > 0 && (
                   <Perspectives
@@ -382,7 +389,7 @@ const encodedTitle = encodeURIComponent(title);
           ) : (
             <>
               <div class="prose" set:html={processedContent} />
-              {/* 無 SSODT split 的文章（多數 About / 短文）footer 也要能掛日記 */}
+              {/* Articles without SSODT split (most About / short articles) still need diary in footer */}
               {frontmatter.relatedDiary &&
               frontmatter.relatedDiary.length > 0 ? (
                 <RelatedDiaries
@@ -683,7 +690,7 @@ const encodedTitle = encodeURIComponent(title);
                 // Semantic neighbours can be cross-category — each card uses the
                 // RELATED article's own category for href + badge (else a nature
                 // neighbour gets a /history/ link → 404). Shared ArticleCard
-                // (premium) — same component the 站上最新 rail clones.
+                // (premium) — same component the "latest" rail clones.
                 const relCat =
                   categoryConfigs[article.category as CategoryKey] ??
                   categoryInfo;
@@ -730,11 +737,11 @@ const encodedTitle = encodeURIComponent(title);
       )
     }
 
-    <!-- ── 站上最新 (時序主軸 rail) ─────────────────────────────────
+    <!-- ── Latest articles (chronological rail) ─────────────────────────────────
          CLIENT-SIDE on purpose: the cards are injected from /api/latest.json
          after load, so the static HTML of every article page stays stable when
-         a new article ships (no crawl churn / 不重蹈 c1403e259 freshness 反模式).
-         Wrapped <aside data-nosnippet>. Design: WS3. ── -->
+         a new article ships (no crawl churn / avoids repeating the c1403e259
+         freshness anti-pattern). Wrapped <aside data-nosnippet>. Design: WS3. ── -->
     <aside
       id="latest-rail"
       data-nosnippet
@@ -994,7 +1001,7 @@ const encodedTitle = encodeURIComponent(title);
   {
     /* Tag the markdown-rendered footnote section as a tracked landmark so the
       site-wide EventTracker (mounted in Layout) observes it — lets us see how
-      far readers get, esp. 延伸閱讀 / footnotes. */
+      far readers get, esp. Further Reading / footnotes. */
   }
   <script is:inline>
     (function () {
@@ -1005,8 +1012,8 @@ const encodedTitle = encodeURIComponent(title);
   </script>
 </Layout>
 
-<!-- Screenshot mode (?shot=1) 的 JS toggle + CSS 已搬到 src/layouts/Layout.astro
-     + src/styles/shot-mode.css（2026-04-22 β），四語言 article page 共用。 -->
+<!-- Screenshot mode (?shot=1) JS toggle + CSS moved to src/layouts/Layout.astro
+     + src/styles/shot-mode.css (2026-04-22 beta); shared across all 4 lang article pages. -->
 
 <script>
   // Reading progress bar
@@ -1062,7 +1069,7 @@ const encodedTitle = encodeURIComponent(title);
         .then((r) => (r.ok ? r.json() : null))
         .then((data) => {
           if (!data?.byCat) return [];
-          // 維持原行為：隨機池排除當前分類
+          // Preserve original behavior: random pool excludes current category
           return Object.entries(data.byCat)
             .filter(([cat]) => cat !== category)
             .flatMap(([, hrefs]) => hrefs);
@@ -1070,7 +1077,7 @@ const encodedTitle = encodeURIComponent(title);
         .catch(() => []);
       return poolPromise;
     };
-    // hover/touch 預熱，click 時通常已就緒
+    // hover/touch pre-warm; usually ready by click time
     btn.addEventListener('mouseenter', loadPool, { once: true });
     btn.addEventListener('touchstart', loadPool, { once: true, passive: true });
     btn.addEventListener('click', async () => {
@@ -1189,8 +1196,9 @@ const encodedTitle = encodeURIComponent(title);
     line-height: 1.65;
   }
 
-  /* :not(.tw-quote-text) — tw-quote 模組的 blockquote 有自己的 pull-quote 樣式，
-     不吃一般文章引用的灰底框（cascade leak 修復 2026-06-12） */
+  /* :not(.tw-quote-text) — tw-quote module's blockquote has its own pull-quote
+     style; should not inherit the generic article blockquote gray box
+     (cascade leak fix 2026-06-12) */
   .prose :global(blockquote:not(.tw-quote-text)) {
     border-left: 4px solid var(--catColor);
     background: linear-gradient(to right, rgba(26, 60, 52, 0.04), transparent);
@@ -1268,8 +1276,10 @@ const encodedTitle = encodeURIComponent(title);
     border-radius: 12px;
   }
 
-  /* :not(.tw-heatmap-table) — tw-heatmap 是視覺模組自帶配色，不吃一般文章表格樣式
-     （cascade leak 修復 2026-06-12：之前 td color 蓋掉熱力圖字色，深色格變不可讀） */
+  /* :not(.tw-heatmap-table) — tw-heatmap is a visual module with its own color
+     scheme; should not inherit generic article table styles (cascade leak fix
+     2026-06-12: td color was overriding heatmap text color, making dark cells
+     unreadable) */
   .prose :global(table:not(.tw-heatmap-table)) {
     width: 100%;
     border-collapse: collapse;
@@ -1301,7 +1311,7 @@ const encodedTitle = encodeURIComponent(title);
 
   /* ── Footnotes ──────────────────────────────────────────────────────────── */
 
-  /* Footnote section (文末 section.footnotes) */
+  /* Footnote section (end-of-article section.footnotes) */
   .prose :global(.footnotes) {
     margin-top: 3rem;
     padding-top: 1.5rem;

@@ -1,13 +1,14 @@
 ---
 /**
- * home.template.astro — 統一首頁 template (6 langs 共用)
+ * home.template.astro — unified homepage template (shared across 6 langs)
  *
- * 為什麼：6 個 index.astro × 861~955 行 = ~5266 行重複。發現非 zh 5 langs（en/
- * ja/ko/es/fr）全部用相同英文 hall narrative，只差 URL prefix — 不是 P2 deferral
- * 一開始假設的「6 lang 各有 curated bespoke prose」。實際只有兩份：zh 中文 + 其
- * 他 5 langs 共用英文。
+ * Why: 6 index.astro files x 861-955 lines = ~5266 lines duplicated. Discovered
+ * that non-zh 5 langs (en/ja/ko/es/fr) all use the same English hall narrative,
+ * differing only in URL prefix — not the "6 langs each have curated bespoke
+ * prose" originally assumed during P2 deferral. Actually only two variants:
+ * zh Chinese + the other 5 langs sharing English.
  *
- * 對照 about.template.astro / dashboard.template.astro pattern。
+ * cf. about.template.astro / dashboard.template.astro pattern.
  *
  * 2026-05-03 sleepy-colden P2 follow-through unification.
  */
@@ -39,7 +40,7 @@ const recentCommits = await fetchRecentCommits();
 // ── Lang-derived helpers ─────────────────────────────────────────────────────
 // langPath: '' for zh-TW (SSOT root), else '{lang}/' for non-default langs.
 // langUrlPrefix: '' for zh, else '/{lang}'. Used for cross-page links.
-// isZh: gate for Chinese-vs-English narrative (zh has bespoke 中文 prose, the
+// isZh: gate for Chinese-vs-English narrative (zh has bespoke Chinese prose, the
 // other 5 langs all share the same English hall narrative).
 const isZh = lang === 'zh-TW';
 const isDefault = lang === 'en';
@@ -421,7 +422,7 @@ const readingPathFooterItems = [
     color: #1e3a5f;
   }
 
-  /* Pick cards (exhibition specimens — 延伸閱讀 style) */
+  /* Pick cards (exhibition specimens — "Further Reading" style) */
   :global(.hall-picks) {
     display: flex;
     flex-direction: column;
