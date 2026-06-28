@@ -1,15 +1,18 @@
 /**
- * staticRoutes.ts — 靜態頁面路由的 per-lang 存在性（filesystem-derived SSOT）。
+ * staticRoutes.ts — per-lang existence of static-page routes (filesystem-derived SSOT).
  *
- * 2026-06-10 deploy-heal：broken-link 6.67% 的兩大結構源都來自「假設某路由
- * 在所有語言都存在」——語言切換器對 zh-only 頁（/semiont/diary/* ×650、
- * /companies、/lifetree…）生死鏈、nav 對 es/fr 生 /es/bench。
- * 手維清單會在新語言／新頁出生時過期（神經迴路：「新語言出生時感知系統
- * 不會自動更新」），所以改從 src/pages 樹 derive：頁面檔存在 ⟺ 路由存在。
- * 對應 MANIFESTO §架構解 > 守備修補 + REFLEXES #20 architecture-as-data。
+ * 2026-06-10 deploy-heal: both structural sources of the 6.67% broken-link rate
+ * came from "assuming a route exists in every language" — the language switcher
+ * produced dead links for zh-only pages (/semiont/diary/* ×650, /companies,
+ * /lifetree…), and nav produced /es/bench for es/fr. A hand-maintained list
+ * goes stale whenever a new language or page is born, so instead we derive from
+ * the src/pages tree: a page file existing ⟺ the route existing. This is the
+ * architecture-as-data principle: derive perception from the filesystem rather
+ * than from a list someone has to remember to update.
  *
- * 範圍：只管「靜態頁」（src/pages 下的 .astro 檔）。文章路由（content
- * collection 動態頁）由 getLangSwitchPath 的 _translations.json registry 管。
+ * Scope: static pages only (.astro files under src/pages). Article routes
+ * (content-collection dynamic pages) are handled by getLangSwitchPath's
+ * _translations.json registry.
  */
 import { readdirSync } from 'fs';
 import { resolve, join } from 'path';
@@ -21,19 +24,20 @@ const NON_DEFAULT_LANGS = LANGUAGES.filter(
 ).map((l) => l.code) as readonly Lang[];
 
 interface PageNode {
-  /** 子目錄 / 巢狀路由 */
+  /** Subdirectories / nested routes */
   children: Map<string, PageNode>;
-  /** 本層的 .astro / .ts 頁面檔名（去副檔名），含 [param] / [...rest] */
+  /** Page filenames at this level (.astro/.ts, extension stripped), incl. [param] / [...rest] */
   pages: Set<string>;
-  /** 本層的動態 segment 名（[slug] 等，不含 [...rest]） */
+  /** Dynamic segment names at this level ([slug] etc., excluding [...rest]) */
   dynamicNames: Set<string>;
-  /** 本層是否有 rest segment（[...slug].astro）— 吃掉剩餘所有層 */
+  /** Whether this level has a rest segment ([...slug].astro) — consumes all remaining levels */
   hasRest: boolean;
 }
 
-// 分類 slug 的 SSOT 是 knowledge/ 的目錄名（lowercase 即 URL slug）。
-// [category].astro 的動態匹配只該放行這個集合——否則 /ja/semiont 這種
-// 「該語言沒有的靜態頁」會被誤判為可能的分類頁（2026-06-10 deploy-heal 實撞）。
+// The SSOT for category slugs is the knowledge/ directory names (lowercased = URL slug).
+// [category].astro's dynamic match should only admit this set — otherwise a
+// "static page the language doesn't have" like /ja/semiont gets misread as a
+// possible category page (hit for real in the 2026-06-10 deploy-heal).
 let _categorySlugs: Set<string> | null = null;
 function getCategorySlugs(): Set<string> {
   if (_categorySlugs) return _categorySlugs;
@@ -50,7 +54,7 @@ function getCategorySlugs(): Set<string> {
   return set;
 }
 
-/** 這個 segment 能不能被本層的動態頁吃掉。[category] 只吃真實分類 slug。 */
+/** Whether this segment can be consumed by a dynamic page at this level. [category] only consumes real category slugs. */
 function dynamicAccepts(node: PageNode, seg: string): boolean {
   for (const dn of node.dynamicNames) {
     if (dn === '[category]') {
@@ -91,7 +95,7 @@ function buildTree(dir: string): PageNode {
   return node;
 }
 
-// Module-level cache：一個 build process 走一次 src/pages 樹。
+// Module-level cache: walk the src/pages tree once per build process.
 let _root: PageNode | null = null;
 function getRoot(): PageNode {
   if (!_root) _root = buildTree(resolve(process.cwd(), 'src/pages'));
@@ -99,10 +103,11 @@ function getRoot(): PageNode {
 }
 
 /**
- * 該語言下這條靜態路由有沒有對應頁面檔。
- * basePath 不含語言前綴（如 '/semiont/diary/2026-04-04'、'/bench'、'/'）。
- * 動態 segment（[slug]）視為可匹配（保守放行——hub/[category] 等動態頁
- * 的 slug 有效性由各自的 getStaticPaths 決定，不在本 util 職責內）。
+ * Whether this static route has a corresponding page file under the given language.
+ * basePath excludes the language prefix (e.g. '/semiont/diary/2026-04-04', '/bench', '/').
+ * Dynamic segments ([slug]) are treated as matchable (conservatively admitted —
+ * slug validity for dynamic pages like hub/[category] is decided by their own
+ * getStaticPaths, not this util's responsibility).
  */
 export function staticPageExists(
   lang: Lang | 'zh-TW',
@@ -132,15 +137,16 @@ export function staticPageExists(
       node = child;
       continue;
     }
-    // 動態目錄（[param]/...）：seg 被動態頁接受才放行剩餘層
+    // Dynamic directory ([param]/...): only admit remaining levels if seg is accepted by a dynamic page
     return dynamicAccepts(node, seg);
   }
   return false;
 }
 
 /**
- * Nav / dropdown 用的 lang-aware href：該語言版本存在 → 帶語言前綴；
- * 不存在 → 退回 zh 路徑（讀者至少到得了內容，不是 404）。
+ * lang-aware href for nav / dropdown: if the language version exists → prefix with
+ * the language; if not → fall back to the zh path (the reader at least reaches
+ * content instead of a 404).
  */
 export function resolveStaticHref(
   lang: Lang | 'zh-TW',
