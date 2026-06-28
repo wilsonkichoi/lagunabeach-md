@@ -1,32 +1,35 @@
 ---
 /**
- * TimelineDay — 共用「日節點」外殼，/latest 與 /changelog 兩條時間軸的同一具骨架。
+ * TimelineDay — shared "day node" shell; the same skeleton for both the /latest
+ * and /changelog time axes.
  *
- * 2026-06-10 從 CommitLog.astro timeline variant + latest.template v2 抽出：
- * 左欄是漸層 dot + 連接線（不是最後一天才畫線），右欄是日標題 + 數量 badge +
- * <slot/>（/latest 放 ArticleCard、/changelog 放 commit 卡）。
+ * 2026-06-10 extracted from the CommitLog.astro timeline variant + latest.template
+ * v2: left column is a gradient dot + connector line (the line is drawn for every
+ * day, not only the last), right column is the day heading + count badge +
+ * <slot/> (/latest holds ArticleCard, /changelog holds commit cards).
  *
- * Consumer 腳本 hooks（不要改名，兩頁的 filter / IntersectionObserver 都靠它們）：
- * - `.timeline-day`        — 日 group 根節點
- * - `.timeline-day-badge`  — 數量 badge（篩選後更新計數用）
- * - `extraClass`           — 頁面自有 hook（latest-day / changelog-day-group）
+ * Consumer-script hooks (do not rename; both pages' filter / IntersectionObserver
+ * rely on them):
+ * - `.timeline-day`        — day group root node
+ * - `.timeline-day-badge`  — count badge (updated after filtering)
+ * - `extraClass`           — page-specific hook (latest-day / changelog-day-group)
  */
 interface Props {
-  /** 錨點 id（latest-day-2026-06-10 / day-2026-06-10）*/
+  /** anchor id (latest-day-2026-06-10 / day-2026-06-10) */
   id: string;
-  /** 日標題（呼叫端先格式化好，含星期）*/
+  /** day heading (pre-formatted by the caller, includes weekday) */
   title: string;
-  /** 數量 badge 文字（"7 篇" / "12 筆更新"）；空字串不顯示 */
+  /** count badge text ("7 articles" / "12 updates"); empty string hides it */
   badge?: string;
-  /** 最後一天不畫連接線 */
+  /** the last day skips the connector line */
   isLast?: boolean;
-  /** 主題色（dot 漸層 / 線 / badge）*/
+  /** accent color (dot gradient / line / badge) */
   accent?: 'emerald' | 'blue';
-  /** 日標題字體 */
+  /** day heading font */
   titleStyle?: 'serif' | 'sans';
-  /** 頁面自有 hook class */
+  /** page-specific hook class */
   extraClass?: string;
-  /** 透傳 data-*（filter 腳本的 data-day 等）*/
+  /** pass-through data-* (filter scripts' data-day, etc.) */
   dataAttrs?: Record<string, string | undefined>;
 }
 
@@ -41,7 +44,8 @@ const {
   dataAttrs = {},
 } = Astro.props;
 
-// line 用 solid 淡色（不漸層）：每天一段、視覺上連成一條連續軸
+// line uses a solid pale color (no gradient): one segment per day, visually
+// joined into a single continuous axis
 const ACCENTS = {
   emerald: {
     dot: 'bg-[linear-gradient(135deg,#10b981,#059669)] ring-4 ring-[#ecfdf5]',

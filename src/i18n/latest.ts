@@ -1,9 +1,10 @@
 /**
- * latestUI — i18n strings for the 時序主軸 (time-axis) feature: the /latest page,
- * the article-page "站上最新" rail, the /explore latest strip, and the nav/footer
- * "最新文章" entries. Spread into ui.ts per language like the other namespaces.
+ * latestUI — i18n strings for the time-axis feature: the /latest page, the
+ * article-page "latest on the site" rail, the /explore latest strip, and the
+ * nav/footer "latest articles" entries. Spread into ui.ts per language like the
+ * other namespaces.
  *
- * Born 2026-06-09 (渤浚 reader feedback: hard to find the site's newest articles).
+ * Born 2026-06-09 (a reader's feedback: hard to find the site's newest articles).
  * Design: reports/latest-articles-discoverability-design-2026-06-09.md.
  */
 export const latestUI = {

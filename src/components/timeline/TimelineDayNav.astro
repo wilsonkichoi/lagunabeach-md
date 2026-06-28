@@ -1,18 +1,19 @@
 ---
 /**
- * TimelineDayNav — 共用左側日期跳轉欄（月 → 日 + 數量），sticky、桌機 only。
+ * TimelineDayNav — shared left-side date jump rail (month → day + count),
+ * sticky, desktop only.
  *
- * 2026-06-10 從 changelog.template 的 date-nav + latest.template v2 抽出。
- * 日期格式由呼叫端先做好（changelog 用 "06-10"、latest 用 "6/10"），本元件
- * 只管結構與主題色。
+ * 2026-06-10 extracted from changelog.template's date-nav + latest.template v2.
+ * Date formatting is done by the caller (changelog uses "06-10", latest uses
+ * "6/10"); this component only handles structure and accent color.
  *
- * Consumer 腳本 hooks（兩頁的 filter sync / active 高亮都靠它們）：
- * - `.timeline-nav-month` — 月 section（空月收合）
- * - `.timeline-nav-link`  — 日連結（data-day / active class toggle）
- * - `.timeline-nav-count` — 日數量（篩選後更新）
+ * Consumer-script hooks (both pages' filter sync / active highlight rely on them):
+ * - `.timeline-nav-month` — month section (collapses empty months)
+ * - `.timeline-nav-link`  — day link (data-day / active class toggle)
+ * - `.timeline-nav-count` — day count (updated after filtering)
  */
 interface NavDay {
-  key: string; // YYYY-MM-DD（data-day + 錨點）
+  key: string; // YYYY-MM-DD (data-day + anchor)
   label: string;
   count: number;
 }
@@ -23,13 +24,13 @@ interface NavMonth {
 }
 interface Props {
   months: NavMonth[];
-  /** 錨點前綴（latest-day- / day-），接 day.key */
+  /** anchor prefix (latest-day- / day-), prepended to day.key */
   anchorPrefix: string;
-  /** hover 主題色 */
+  /** hover accent color */
   accent?: 'emerald' | 'blue';
-  /** 沿用既有頁面腳本的 nav id（changelog: date-nav）*/
+  /** nav id reused by existing page scripts (changelog: date-nav) */
   navId?: string;
-  /** sticky offset（兩頁 sticky 控制列高度不同）*/
+  /** sticky offset (the two pages' sticky control bars differ in height) */
   top?: string;
 }
 

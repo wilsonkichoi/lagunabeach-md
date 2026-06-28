@@ -1,13 +1,15 @@
 /**
- * dashboard-client.js — /dashboard 全部 client-side 渲染邏輯
+ * dashboard-client.js — all /dashboard client-side render logic
  *
- * 2026-06-13 refactor session 從 dashboard.template.astro 抽出（原 <script
- * define:vars={{ lang }}> 內嵌 2,729 行 × 6 語言頁各一份 inline copy）。
- * 抽成 Astro-processed module 後：bundle 一份 hashed .js 六頁共用 + 瀏覽器可快取，
- * 每頁 HTML 減 ~100KB。內容 1:1 verbatim 搬運（sed 行段抽取）。
+ * 2026-06-13 refactor session: extracted from dashboard.template.astro (was a
+ * <script define:vars={{ lang }}> inlining 2,729 lines × one inline copy per
+ * 6 language pages). After extracting into an Astro-processed module: one
+ * hashed .js bundle shared across all 6 pages + browser-cacheable, ~100KB
+ * less HTML per page. Content moved 1:1 verbatim (sed line-range extraction).
  *
- * lang 來源改變：原 define:vars 注入 → 改讀 <html lang>（Layout 設定、
- * post-build-check 每 build 驗證六語言 lang attribute 正確性）。值域相同。
+ * lang source changed: was define:vars injection → now reads <html lang>
+ * (set by Layout; post-build-check validates the 6-language lang attribute
+ * every build). Same value domain.
  */
 const lang = document.documentElement.getAttribute('lang') || 'zh-TW';
 
