@@ -4,8 +4,9 @@
  *
  * Generalized from HomeEventTracker (homepage-only, 2026-05-26). One shared
  * tracker mounted on any page type, so reader engagement is understandable
- * across the whole site — start with article pages (哲宇 directive 2026-06-14:
- * 「真的有滑到延伸閱讀 / footnote 沒？整頁的高度殘留率？所有頁面都要懂」).
+ * across the whole site — start with article pages (directive 2026-06-14:
+ * "do readers actually scroll to further-reading / footnotes? what's the full-page
+ * height-retention rate? every page should be understood").
  *
  * Six signals, all carrying a `page_type` param so GA4 segments by surface
  * (home / article / category / latest / …) instead of needing a separate event
@@ -19,7 +20,7 @@
  *   time_milestone  — 30 / 60 / 180 / 600s engaged time
  *
  * The scroll_depth + section_view pair answers "is the bottom-of-page stuff
- * (延伸閱讀, CTAs) actually seen?" — scroll_depth gives the retention curve,
+ * (further-reading, CTAs) actually seen?" — scroll_depth gives the retention curve,
  * section_view catches the landmark regardless of where article length puts it.
  *
  * Markup contract (same as the homepage tracker it replaces):

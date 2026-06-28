@@ -1,17 +1,18 @@
 ---
 /**
- * HeadInlineScripts — pre-paint <head> 內聯 script 集合（shot-mode + reader-settings）
+ * HeadInlineScripts — pre-paint <head> inline-script collection (shot-mode + reader-settings)
  *
- * 為什麼抽出來：Layout.astro 之前 977 行；這兩段 inline script 各自 ~50 行，
- * 邏輯內聚（都是 first-paint 前的 attribute 套用），抽出來讓 Layout 主結構乾淨。
+ * Why extracted: Layout.astro was 977 lines; these two inline scripts are ~50 lines each,
+ * logically cohesive (both apply attributes before first paint), extracting them keeps
+ * Layout's main structure clean.
  *
- * 不抽出：GA — 跟 Layout 耦合，分離反而增加心智負擔。
+ * Not extracted: GA — coupled to Layout, separating it would add mental overhead instead.
  *
- * 內容：
- *   1. shot-mode init（?shot=1 → data-shot attr，generate-og-images.mjs 用）
- *   2. reader settings FOUC-safe early init（讀 localStorage 套 data-theme）
+ * Contents:
+ *   1. shot-mode init (?shot=1 → data-shot attr, used by generate-og-images.mjs)
+ *   2. reader settings FOUC-safe early init (reads localStorage, applies data-theme)
  *
- * 2026-05-03 sleepy-colden Tier 2.6 build-perf split。
+ * 2026-05-03 sleepy-colden Tier 2.6 build-perf split.
  */
 
 interface Props {
@@ -26,8 +27,8 @@ interface Props {
 const { readerSettings } = Astro.props;
 ---
 
-<!-- shot-mode init: ?shot=1 啟動 OG/Spore 圖片生成模式
-     主要由 scripts/core/generate-og-images.mjs + generate-spore-image.mjs 用 -->
+<!-- shot-mode init: ?shot=1 activates OG/Spore image-generation mode
+     mainly used by scripts/core/generate-og-images.mjs + generate-spore-image.mjs -->
 <script is:inline>
   (function () {
     try {
@@ -78,15 +79,15 @@ const { readerSettings } = Astro.props;
 </script>
 
 <!-- Reader settings FOUC-safe early init.
-     讀 localStorage 設定在 first paint 前套用 data-theme / data-text-size，
-     避免 toggling 閃。?shot=1 短路（OG image 永遠 light）。
-     window.__TW_MD_READER_SETTINGS gate：只在 opt-in 的 surface 套 dark theme。
-     未 opt-in 的 surface（dashboard / home / etc）仍 light，因為 component
-     layouts 假設 light bg。
+     reads localStorage settings and applies data-theme / data-text-size before first
+     paint, avoiding a toggling flash. ?shot=1 short-circuits (OG images are always light).
+     window.__TW_MD_READER_SETTINGS gate: only apply dark theme on opt-in surfaces.
+     Non-opt-in surfaces (dashboard / home / etc) stay light, because component
+     layouts assume a light bg.
      2026-05-01 γ-late issue #615 / idlccp1984 reader options;
      v1.1 fix 2026-05-02 γ-late after dark-on-dashboard regression;
      v1.2 2026-05-04 zen-mendeleev: rename gate to `readerSettings` prop
-     so any surface can opt in (hub pages 加入). -->
+     so any surface can opt in (hub pages added). -->
 <script is:inline define:vars={{ readerSettings }}>
   window.__TW_MD_READER_SETTINGS = !!readerSettings;
 </script>
@@ -101,7 +102,7 @@ const { readerSettings } = Astro.props;
       try {
         saved = localStorage.getItem('tw-md-theme');
       } catch (_) {}
-      // Default = light（哲宇明確要求：「全部網站都預設用亮色模式 除非特別切換暗色模式」）
+      // Default = light (explicit directive: the whole site defaults to light mode unless dark mode is specifically toggled)
       var prefersDark =
         window.matchMedia &&
         window.matchMedia('(prefers-color-scheme: dark)').matches;

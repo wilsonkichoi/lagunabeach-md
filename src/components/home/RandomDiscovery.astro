@@ -12,9 +12,9 @@ const t = useTranslations(lang);
 const { articlesJson } = Astro.props;
 const isEn = lang === 'en';
 
-// 2026-04-25 β7 Phase 1：fix B6（i18n-evolution-roadmap audit）
-// 從 LANGUAGES_REGISTRY 動態 derive 非預設語言 prefix，
-// 並包含 'zh-tw' lowercase（給散落 knowledge/zh-TW/ stray files 抓 stray 路徑）
+// 2026-04-25 β7 Phase 1: fix B6 (i18n-evolution-roadmap audit)
+// dynamically derive non-default language prefixes from LANGUAGES_REGISTRY,
+// and include lowercase 'zh-tw' (to catch stray paths from scattered knowledge/zh-TW/ files)
 const langPrefixes = [
   ...LANGUAGES.filter((l) => l.enabled && l.code !== DEFAULT_LANGUAGE.code).map(
     (l) => l.code,

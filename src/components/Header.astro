@@ -14,9 +14,10 @@ const currentPath = Astro.url.pathname;
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const translatePath = useTranslatedPath(lang);
-// 2026-06-10 deploy-heal：nav / dropdown 一律用 existence-aware href。
-// translatePath 盲目加語言前綴，對該語言不存在的靜態頁（/semiont ja/ko/es/fr、
-// /bench es/fr…）每頁生死鏈；navHref 查 src/pages 樹，不存在就退回 zh 路徑。
+// 2026-06-10 deploy-heal: nav / dropdown always uses existence-aware href.
+// translatePath blindly prepends the language prefix, which is a per-page death chain
+// for static pages that don't exist in that language (/semiont ja/ko/es/fr,
+// /bench es/fr…); navHref checks the src/pages tree and falls back to the zh path if absent.
 const navHref = (p: string) => resolveStaticHref(lang, p);
 
 const {
@@ -37,7 +38,7 @@ const {
 // 2026-04-24 β3: Dynamic language list for dropdown UI.
 // 2026-05-02: es enabled in dropdown (articles 100% / UI bundle wired).
 // As more languages are added, iterate this array instead of hardcoding more
-// <a> tags. Currently: 中文 / English / 日本語 / 한국어 / Français / Español.
+// <a> tags. Currently: Chinese / English / Japanese / Korean / French / Spanish.
 // nativeName uses each language's own self-name (so non-fluent visitors can
 // recognize their own language regardless of what locale they landed on).
 type LangOption = {
@@ -1383,10 +1384,10 @@ const categoryList = [
   /* =============================================
      TABLET / SMALL DESKTOP — collapse to mobile menu (≤1024px)
 
-     2026-04-25 β7：對應 issue #573（@assanges 報告），原本只有 EN
-     在 1024px collapse，其他語言（zh-TW / ja / ko / fr / es）在
-     768-1023px 會被裁切（dropdown UI + 5 lang switcher 加進來後尤甚）。
-     現在所有語言統一在 ≤1024px collapse 為 mobile menu。
+     2026-04-25 β7: addresses issue #573 (reported by @assanges). Originally only EN
+     collapsed at 1024px; other languages (zh-TW / ja / ko / fr / es) were clipped at
+     768-1023px (especially after the dropdown UI + 5-lang switcher were added).
+     Now all languages uniformly collapse to the mobile menu at ≤1024px.
   ============================================= */
   @media (max-width: 1024px) {
     .nav-desktop {
@@ -1639,7 +1640,7 @@ const categoryList = [
   });
 
   // 2026-06-19 #1142: mobile nav close affordances — tap-outside + Escape.
-  // Reported by 白煮蛋 (Pixel 9 Pro XL, /terminology/): the drawer opened with no
+  // Reported by a reader (Pixel 9 Pro XL, /terminology/): the drawer opened with no
   // obvious way to dismiss it. The ☰↔✕ icon swap + aria-expanded is inline on the
   // toggle (no-JS-safe); this adds the two standard escape hatches.
   (() => {

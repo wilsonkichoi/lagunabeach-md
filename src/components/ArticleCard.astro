@@ -2,22 +2,25 @@
 /**
  * ArticleCard — shared article card component.
  *
- * 跨站共用的「文章卡」元件，四種 density mode：
- * - `premium` — **canonical 文章卡（2026-06-14 進化）**：cover（無圖時分類色漸層 +
- *   icon）+ 分類 badge（+ 選用更新日）+ serif 標題 + desc + 閱讀時間/閱讀全文 CTA。
- *   站上最新 rail（client template-clone）+ 你可能也想讀 grid 共用同一份；以此樣式為準。
- * - `compact` (default) — 緊湊 sidebar list 用：dot + title + 1-2 line desc + meta
- * - `row`              — 極簡單列：分類 pill + serif 標題 + 1 行描述 + 右側日期（borderless）
- * - `detailed`         — 時序列（/latest）卡片：框 + pill + 更新日 + serif 標題 + 完整描述 + tags + 引用/閱讀時間 footer
+ * Site-wide shared "article card" component, four density modes:
+ * - `premium` — **canonical article card (evolved 2026-06-14)**: cover (category-color
+ *   gradient + icon when imageless) + category badge (+ optional update date) + serif
+ *   title + desc + reading-time/read-more CTA. The latest rail (client template-clone)
+ *   and the "you might also read" grid share one source; this is the reference style.
+ * - `compact` (default) — for compact sidebar lists: dot + title + 1-2 line desc + meta
+ * - `row`              — minimal single row: category pill + serif title + 1-line desc + right-aligned date (borderless)
+ * - `detailed`         — timeline (/latest) card: frame + pill + update date + serif title + full description + tags + citation/reading-time footer
  *
- * 設計目標：
- * 1. Astro 靜態 render（文章列表 / 你可能也想讀 grid / /latest / explore）
- * 2. **client-side 重用 = template-clone**：把一份 server-render 的 <ArticleCard>
- *    放進 <template>，JS clone + 填 slot（站上最新 rail 場景）。重用「真元件」而非
- *    手刻 innerHTML 字串 —— 這是 2026-06-14 哲宇 directive「拿來共用才有意義」的正解。
- * 3. `<style is:global>` 仍保留：map.template.astro 的 sidebar 仍用 innerHTML 組
- *    `.article-card`（compact）字串（最後一個 :global 消費者，待 map 改 template-clone
- *    後可全 scope）。新工作一律走 template-clone，勿再手刻 class 字串。
+ * Design goals:
+ * 1. Astro static render (article lists / "you might also read" grid / /latest / explore)
+ * 2. **client-side reuse = template-clone**: put one server-rendered <ArticleCard>
+ *    inside a <template>, JS clones it + fills slots (latest-rail scenario). Reuse the
+ *    "real component" rather than hand-coding an innerHTML string — this is the right
+ *    answer to the 2026-06-14 directive "sharing is only meaningful if it's actually reused".
+ * 3. `<style is:global>` is kept: map.template.astro's sidebar still builds the
+ *    `.article-card` (compact) string via innerHTML (the last :global consumer; can be
+ *    fully scoped once map moves to template-clone). New work always uses template-clone,
+ *    never hand-codes class strings.
  *
  * CSS classes exposed for dynamic use:
  * - `.article-card`              — base card container
@@ -28,50 +31,48 @@
  * - `.article-card-dot`          — category color dot (compact)
  * - `.article-card-pill`         — row variant category pill (icon + label)
  * - `.article-card-date`         — row variant right-aligned date
- * - `.article-card-cta`          — "閱讀全文 →" link text
+ * - `.article-card-cta`          — read-more ("閱讀全文 →") link text
  * - `.article-card.is-premium`   — premium variant
  * - `.article-card.is-compact`   — compact variant (default)
  * - `.article-card.is-row`       — row variant
  *
- * Map page 客製化延伸：
- * - `.article-card.route-stop-card` 在卡片左側加 numbered badge（透過 .stop-number）
- *   route 站點繼承本元件 base + 附加 stop-number 視覺
+ * Map-page customization extension:
+ * - `.article-card.route-stop-card` adds a numbered badge on the card's left (via .stop-number)
+ *   route stops inherit this component's base + append the stop-number visual
  */
 
 export interface Props {
   /** Article URL — wraps card in <a> when present. */
   href?: string;
-  /** 主標題（必填）*/
+  /** Main title (required) */
   title: string;
-  /** 副描述（選用）*/
+  /** Sub-description (optional) */
   description?: string;
-  /** 分類標籤（顯示在 meta 區）*/
+  /** Category label (shown in the meta area) */
   categoryLabel?: string;
-  /** 分類顏色（用在左側 dot / premium badge 背景 / row pill 文字）*/
+  /** Category color (used for the left dot / premium badge background / row pill text) */
   categoryColor?: string;
-  /** 分類 emoji icon（row variant 的 pill 前綴）*/
+  /** Category emoji icon (prefix on the row variant's pill) */
   categoryIcon?: string;
-  /** 顯示用日期字串（row / detailed variant 的更新日；呼叫端先格式化好）*/
+  /** Display date string (update date for row / detailed variants; caller formats it first) */
   date?: string;
-  /** 閱讀時間顯示字串（compact meta / detailed footer；含單位，e.g. "12 分鐘"）*/
+  /** Reading-time display string (compact meta / detailed footer; includes unit, e.g. "12 min") */
   readingTime?: string;
-  /** 引用（腳註）數 — detailed footer 的深度訊號；0 不顯示 */
+  /** Citation (footnote) count — depth signal for the detailed footer; 0 hides it */
   footnotes?: number;
-  /** 標籤 — detailed footer 顯示前幾個 #tag */
+  /** Tags — detailed footer shows the first few #tag */
   tags?: string[];
-  /** 封面圖 URL（premium hero / detailed 右側縮圖）*/
+  /** Cover image URL (premium hero / detailed right-side thumbnail) */
   coverImage?: string;
-  /** 縮圖載入策略（detailed）— 首屏 eager、其餘 lazy 防流量爆炸 */
+  /** Thumbnail load strategy (detailed) — eager above the fold, lazy otherwise to avoid bandwidth blowup */
   imageLoading?: 'eager' | 'lazy';
-  /** 卡片密度 */
+  /** Card density */
   density?: 'premium' | 'compact' | 'row' | 'detailed';
-  /** detailed 變體縮圖擺左或右（左圖右文用 'left'）。預設 'right' 保留 /latest 既有版面 */
+  /** detailed-variant thumbnail on left or right (use 'left' for image-left/text-right). Default 'right' preserves /latest's existing layout */
   imageSide?: 'left' | 'right';
-  /** Click 行為：'new-tab' 預設另開分頁 / 'same-tab' 同分頁 */
+  /** Click behavior: 'new-tab' (default) opens a new tab / 'same-tab' same tab */
   openIn?: 'new-tab' | 'same-tab';
-  /** 額外 class（給特定 mode 客製化用，e.g. route-stop-card / latest-row）*/
-  extraClass?: string;
-  /** 透傳到根元素的 data-* 屬性（filter / GA 等 consumer 機制留在呼叫端）*/
+  /** data-* attributes passed through to the root element (filter / GA etc. consumer mechanisms stay caller-side) */
   dataAttrs?: Record<string, string | undefined>;
 }
 
@@ -99,7 +100,7 @@ const target = openIn === 'new-tab' ? '_blank' : '_self';
 const rel = openIn === 'new-tab' ? 'noopener noreferrer' : undefined;
 const Tag = href ? 'a' : 'div';
 const densityClass = `is-${density}`;
-// 左圖右文：detailed 變體把縮圖移到文字左側（其他變體不受影響）
+// image-left/text-right: detailed variant moves the thumbnail to the left of the text (other variants unaffected)
 const imgSideClass =
   density === 'detailed' && imageSide === 'left' ? 'is-img-left' : '';
 const classes = ['article-card', densityClass, imgSideClass, extraClass]
@@ -391,8 +392,9 @@ const classes = ['article-card', densityClass, imgSideClass, extraClass]
   }
 
   /* === Premium variant — cover hero + (badge·date) + serif title + desc +
-     reading-time CTA。2026-06-14 進化為 canonical 文章卡樣式：站上最新 rail
-     (template-clone) + 你可能也想讀 grid 共用同一個元件，不再各自手刻。=== */
+     reading-time CTA. Evolved 2026-06-14 into the canonical article-card style: the
+     latest rail (template-clone) + the "you might also read" grid share one component,
+     no longer hand-coded separately. === */
   .article-card.is-premium {
     flex-direction: column;
     /* base .article-card is align-items:flex-start (for compact dot / row pill);
@@ -495,7 +497,7 @@ const classes = ['article-card', densityClass, imgSideClass, extraClass]
     font-variant-numeric: tabular-nums;
   }
 
-  /* === Row variant — 時序列 (/latest)：pill + serif title + 1-line desc + date === */
+  /* === Row variant — timeline (/latest): pill + serif title + 1-line desc + date === */
   .article-card.is-row {
     align-items: flex-start;
     gap: 12px;
@@ -554,10 +556,10 @@ const classes = ['article-card', densityClass, imgSideClass, extraClass]
     font-variant-numeric: tabular-nums;
   }
 
-  /* === Detailed variant — 時序列 (/latest) 卡片：框 + pill + serif 標題 + 完整描述 + tags + 引用/閱讀 footer + 右側 16:10 縮圖 ===
-   * 縮圖固定比例（200×125 / 手機 96×96）貼齊頂部，不隨卡片高度直伸 —
-   * 無圖時 render 分類色 placeholder（icon + 淡分類底色），版面節奏一致；
-   * 補圖後自動換成真圖。 */
+  /* === Detailed variant — timeline (/latest) card: frame + pill + serif title + full description + tags + citation/reading footer + right-side 16:10 thumbnail ===
+   * Thumbnail at a fixed ratio (200×125 / 96×96 on mobile) pinned to the top, not stretched with card height —
+   * when imageless, render a category-color placeholder (icon + faint category background) for layout-rhythm consistency;
+   * automatically swaps to the real image once one is added. */
   .article-card.is-detailed {
     flex-direction: row;
     align-items: flex-start;
@@ -592,12 +594,12 @@ const classes = ['article-card', densityClass, imgSideClass, extraClass]
     font-size: 30px;
     opacity: 0.55;
   }
-  /* 左圖右文：縮圖移到文字左側（desktop）。手機仍走下方 column 規則（圖上文下）。 */
+  /* image-left/text-right: thumbnail moves to the left of the text (desktop). Mobile still uses the column rule below (image on top, text below). */
   .article-card.is-detailed.is-img-left .article-card-thumbwrap {
     order: -1;
   }
   @media (max-width: 768px) {
-    /* 手機改直向堆疊：圖上文下（縮圖移到卡片最頂、滿版橫幅，維持 16:10）— 2026-06-13 哲宇 */
+    /* mobile switches to vertical stack: image on top, text below (thumbnail moves to the card top, full-width banner, keeps 16:10) — 2026-06-13 */
     .article-card.is-detailed {
       flex-direction: column;
     }
@@ -654,7 +656,7 @@ const classes = ['article-card', densityClass, imgSideClass, extraClass]
     font-size: 0.9rem;
     color: #64748b;
     line-height: 1.6;
-    display: block; /* 完整描述 — 不截斷 */
+    display: block; /* full description — not truncated */
     -webkit-line-clamp: unset;
     overflow: visible;
   }
@@ -698,7 +700,7 @@ const classes = ['article-card', densityClass, imgSideClass, extraClass]
     opacity: 0.8;
   }
 
-  /* === Map-page 客製化延伸：route-stop-card === */
+  /* === Map-page customization extension: route-stop-card === */
   .article-card.route-stop-card .stop-number {
     width: 30px;
     height: 30px;

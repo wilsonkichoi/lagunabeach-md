@@ -7,14 +7,14 @@
  * landing headers on pages like /soundscape, /resources, /contribute,
  * /data, /map, /taiwan-shape.
  *
- * All axes derived from analysis of 聲景 / 資源導覽 / 參與:
- * - eyebrow kicker (聲景)
- * - plain vs gradient-clip vs inherit title color (資源 / 參與)
- * - light-on-dark vs dark-on-light bgTone (參與)
- * - i18n set:html subtitle (資源)
- * - stats meta line (聲景)
- * - glass "note" card (參與)
- * - footer link area (聲景)
+ * All axes derived from analysis of Soundscape / Resources / Contribute:
+ * - eyebrow kicker (Soundscape)
+ * - plain vs gradient-clip vs inherit title color (Resources / Contribute)
+ * - light-on-dark vs dark-on-light bgTone (Contribute)
+ * - i18n set:html subtitle (Resources)
+ * - stats meta line (Soundscape)
+ * - glass "note" card (Contribute)
+ * - footer link area (Soundscape)
  * - container width narrow/default/wide/full-bleed
  *
  * Any of the content fields can be driven via a prop (plain string)
@@ -48,7 +48,7 @@ export interface Props {
   /**
    * sm    = 2.2rem   (assets)
    * md    = 2.8rem   (en/soundscape)
-   * lg    = 3.5rem   (聲景/資源/參與 — default)
+   * lg    = 3.5rem   (Soundscape/Resources/Contribute — default)
    * clamp = clamp(2.5rem,6vw,3.5rem)  (data)
    */
   titleSize?: 'sm' | 'md' | 'lg' | 'clamp';
@@ -56,7 +56,7 @@ export interface Props {
    * display (default) = `hero-title` class → jf-lanyanghei-extraheavy via
    *                     justfont's dynamic loader (was rixingsong-semibold
    *                     until 2026-05-04). Use for big display headers
-   *                     (聲景/資源/參與/地圖/數據).
+   *                     (Soundscape/Resources/Contribute/Map/Data).
    * sans              = jf-jinxuanlatte / Noto Sans TC stack, no
    *                     `hero-title` class. Use for utility/docs pages
    *                     (assets/changelog) where the big editorial face
@@ -66,7 +66,7 @@ export interface Props {
   /** Default 'black'. Override for pages that want a lighter title. */
   titleWeight?: 'normal' | 'bold' | 'extrabold' | 'black';
   /**
-   * tight  = -tracking-[0.02em]   (default — 聲景/資源/參與)
+   * tight  = -tracking-[0.02em]   (default — Soundscape/Resources/Contribute)
    * normal = no tracking adjustment
    * wide   = tracking-[0.05em]    (changelog — spaced-out look)
    */
@@ -91,10 +91,10 @@ export interface Props {
 
   // ── Layout ──
   /**
-   * narrow = 900px   (聲景)
+   * narrow = 900px   (Soundscape)
    * default = 1000px
-   * wide = 1200px    (資源)
-   * full = no max    (參與 full-bleed)
+   * wide = 1200px    (Resources)
+   * full = no max    (Contribute full-bleed)
    *
    * Also accepts a raw number (e.g. `820`) for one-off widths that
    * don't map to a preset — used by taiwan-shape for its narrower
@@ -112,7 +112,7 @@ export interface Props {
   /** Color for the eyebrow kicker. Falls back to tone default. */
   accentColor?: string;
   /**
-   * default = tracking-[0.15em]   (聲景/資源/地圖 — spaced-out kicker)
+   * default = tracking-[0.15em]   (Soundscape/Resources/Map — spaced-out kicker)
    * tight   = tracking-[0.08em]   (taiwan-shape — narrower editorial)
    */
   eyebrowTracking?: 'default' | 'tight';
@@ -221,12 +221,13 @@ const containerWidthStyle: Record<string, string> = isCustomWidth
 const isFullWidth = containerWidth === 'full';
 
 // ── Vertical padding presets ──
-const paddingClass = {
-  inline: 'py-5 max-[768px]:py-4',
-  compact: 'py-8 max-[768px]:py-6',
-  default: 'py-16 max-[768px]:py-8',
-  spacious: 'py-20 max-[768px]:py-12',
-}[padding] || 'py-5';
+const paddingClass =
+  {
+    inline: 'py-5 max-[768px]:py-4',
+    compact: 'py-8 max-[768px]:py-6',
+    default: 'py-16 max-[768px]:py-8',
+    spacious: 'py-20 max-[768px]:py-12',
+  }[padding] || 'py-5';
 
 // ── Horizontal padding ──
 // When there's a bg fill (solid or gradient), put px on the section so

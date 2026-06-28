@@ -1,13 +1,13 @@
 ---
 /**
- * FeedbackWidget.astro — 讀者回饋浮動掛件（隔離失敗域）。
+ * FeedbackWidget.astro — floating reader-feedback widget (isolated failure domain).
  *
- * 只 render 一個 root + data 屬性 + client script。所有邏輯在 src/scripts/feedback/*。
- * Backend 由 src/config/feedback.mjs 的 PUBLIC_FEEDBACK_MODE 決定：
- *   off / github-only（純靜態 fallback）/ mock（測試）/ supabase（正式）。
+ * Only renders one root + data attributes + client script. All logic lives in src/scripts/feedback/*.
+ * Backend is decided by PUBLIC_FEEDBACK_MODE in src/config/feedback.mjs:
+ *   off / github-only (pure static fallback) / mock (testing) / supabase (production).
  *
- * 失敗域隔離：widget 任何錯誤都 swallow（widget.ts try/catch），主站不受影響。
- * 定位 bottom-left，避開既有 bottom-right 的 .floating-md + ReaderSettings。
+ * Failure-domain isolation: the widget swallows any error (widget.ts try/catch), so the main site is unaffected.
+ * Positioned bottom-left, avoiding the existing bottom-right .floating-md + ReaderSettings.
  */
 import type { Lang } from '../config/languages';
 
@@ -317,16 +317,17 @@ const url =
     }
   }
 
-  /* 選文段浮出的藥丸（v2 inline annotation） */
+  /* pill that pops up over a text selection (v2 inline annotation) */
   .twmd-fb-selpill {
     position: absolute;
     z-index: 70;
     padding: 0.4rem 0.7rem;
     border: none;
     border-radius: 999px;
-    /* pill 掛在 document.body（見 selection.ts），不在 #twmd-feedback scope 內，
-       所以 --twmd-fb-accent 不會 cascade 過來 → 一定要給 literal fallback，
-       否則 background 變 transparent，白字落在文章米色底上＝看起來半透明。 */
+    /* the pill is attached to document.body (see selection.ts), not inside the
+       #twmd-feedback scope, so --twmd-fb-accent doesn't cascade in → must give a
+       literal fallback, otherwise the background goes transparent and white text on
+       the article's beige background looks semi-transparent. */
     background: var(--twmd-fb-accent, #0e3a5c);
     color: #fff;
     font-size: 0.8rem;
@@ -346,7 +347,7 @@ const url =
       transform: translateY(4px);
     }
   }
-  /* 表單裡顯示讀者選取的原文 */
+  /* shows the reader's selected source text inside the form */
   .twmd-fb-quote {
     display: flex;
     flex-direction: column;
@@ -372,7 +373,7 @@ const url =
     color: #d1d5db;
   }
 
-  /* v3：「我的回報」列表（閉環可見性） */
+  /* v3: "my reports" list (closed-loop visibility) */
   .twmd-fb-mine-entry {
     align-self: flex-end;
     color: var(--twmd-fb-accent2);
@@ -437,7 +438,7 @@ const url =
     color: #d1d5db;
   }
 
-  /* dark theme（站上用 <html data-theme="dark">） */
+  /* dark theme (the site uses <html data-theme="dark">) */
   html[data-theme='dark'] .twmd-fb-fab {
     background: #1f2937;
     color: #e5e7eb;

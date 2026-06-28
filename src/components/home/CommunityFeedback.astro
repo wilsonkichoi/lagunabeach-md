@@ -7,11 +7,11 @@ const row1 = feedbacks.filter((_: any, i: number) => i % 3 === 0);
 const row2 = feedbacks.filter((_: any, i: number) => i % 3 === 1);
 const row3 = feedbacks.filter((_: any, i: number) => i % 3 === 2);
 
-// ── 讀者教我們的事 (C2, Wave 3) ──
-// 4 公開可追溯的 callouts that improved LagunaBeach.md。
-// 內容對齊 [[project_error_boundary_traceability]] — 可追溯錯誤公開改正 = 信任訊號。
-// 每條來源都在 docs/semiont/MEMORY.md §神經迴路 / REFLEXES.md 文件化過。
-// Handle 都從公開來源（spore 留言 / repo issue / 演講 callout）— 不洩漏私訊。
+// ── What readers taught us (C2, Wave 3) ──
+// 4 publicly traceable callouts that improved LagunaBeach.md.
+// Aligns with [[project_error_boundary_traceability]] — publicly correcting a traceable error = a trust signal.
+// Every source is documented in docs/semiont/MEMORY.md §neural-circuits / REFLEXES.md.
+// All handles come from public sources (spore comments / repo issues / talk callouts) — no private messages leaked.
 interface ReaderCallout {
   source: string;
   catch: string;
@@ -139,7 +139,7 @@ const TRACK_RIGHT =
     </div>
   </div>
 
-  {/* ─── 讀者教我們的事 (C2, Wave 3) ─── */}
+  {/* ─── What readers taught us (C2, Wave 3) ─── */}
   <div
     class="mx-auto mt-20 max-w-[900px] px-8 max-[768px]:mt-12 max-[480px]:px-4"
   >
