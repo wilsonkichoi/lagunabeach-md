@@ -1,8 +1,8 @@
-/* dashboard.css — /dashboard 全站 global 樣式
-   2026-06-13 refactor session 從 dashboard.template.astro <style is:global>
-   抽出（1,976 行）。is:global = 無 scoping，搬成 vite CSS import 語意等價；
-   import 順序在 Layout 樣式之後（template frontmatter import 晚於 Layout import），
-   cascade 順序與原 inline <style> 相同。內容 1:1 verbatim。 */
+/* dashboard.css — /dashboard site-wide global styles
+   Extracted from dashboard.template.astro <style is:global> (1,976 lines).
+   is:global = no scoping; moving to vite CSS import is semantically equivalent.
+   Import order is after Layout styles (template frontmatter import runs after Layout import),
+   cascade order same as original inline <style>. Content 1:1 verbatim. */
 
 /* ── Base ── */
 .dashboard {
@@ -63,7 +63,7 @@
   display: none;
 }
 .section-timestamp[data-source='analytics'] {
-  /* 感知層（live fetched）稍微醒目 */
+  /* Perception layer (live fetched) slightly more prominent */
   opacity: 0.6;
 }
 .section-subtitle {
@@ -497,9 +497,9 @@
   color: #94a3b8;
 }
 
-/* ── 3-state translation health（2026-05-01 γ-late2）─────────────────
-   * 真實健康度視覺化：fresh（綠）/ stale（琥珀）/ missing（淡灰）
-   * 與舊版「fresh+stale 混算覆蓋」對比，surface 真實 fresh%。
+/* ── 3-state translation health ─────────────────
+   * True health visualization: fresh (green) / stale (amber) / missing (light grey).
+   * Compared to old "fresh+stale blended coverage," this surfaces true fresh%.
    * ───────────────────────────────────────────────────────────────── */
 .donut-deficit {
   color: #b91c1c;

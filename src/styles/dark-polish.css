@@ -84,7 +84,7 @@
 :root[data-theme='dark'] .prose hr {
   border-color: var(--color-border);
 }
-/* :not(.tw-heatmap-table …) — tw-heatmap 模組自帶配色（cascade leak 修復 2026-06-12） */
+/* :not(.tw-heatmap-table ...) — tw-heatmap module has its own colors (cascade leak fix 2026-06-12) */
 :root[data-theme='dark'] .prose table:not(.tw-heatmap-table) {
   color: var(--color-ink);
 }

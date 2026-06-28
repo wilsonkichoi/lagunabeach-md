@@ -92,14 +92,13 @@
 
   html {
     font-size: 118%;
-    /* 2026-04-27: 改用 `overflow-x: clip` 而非 `hidden`。
-       原因：當 overflow-x 設成 hidden/auto/scroll 任一非 visible 值，
-       CSS 規範會自動把另一軸（overflow-y）也計算成 auto，把元素變成
-       scroll container。這會讓所有後代 `position: sticky` 都被綁定到
-       這個 scroll container（而非 window），且 sticky 在「實際不滾動但
-       computed 是 scroll container」的元素內常常 broken。
-       `overflow-x: clip` 同樣會剪掉橫向超出，但不會 promote y-axis。
-       支援度：Chrome 90+ / Firefox 81+ / Safari 16+ —— Taiwan.md 不支援更舊。 */
+    /* Use `overflow-x: clip` instead of `hidden`. When overflow-x is set to
+       hidden/auto/scroll (any non-visible value), the CSS spec auto-computes the
+       other axis (overflow-y) to auto, making the element a scroll container. This
+       binds all descendant `position: sticky` to that container instead of window,
+       and sticky often breaks inside elements that don't actually scroll but are
+       computed as scroll containers. `overflow-x: clip` clips horizontal overflow
+       without promoting y-axis. Support: Chrome 90+ / Firefox 81+ / Safari 16+. */
     overflow-x: clip;
   }
 
@@ -254,32 +253,27 @@
     min-height: calc(100vh - 60px);
     width: 100%;
     max-width: 100vw;
-    /* 2026-04-27 sticky bug fix：用 clip 而非 hidden，避免 overflow-x: hidden
-       自動把 overflow-y promote 成 auto、讓 main 變成 scroll container 而
-       破壞所有 TOC / sidebar 的 position: sticky。詳見 html { } 註解。 */
+    /* Use clip not hidden to avoid overflow-x: hidden auto-promoting overflow-y to auto,
+       which would make main a scroll container and break TOC / sidebar position: sticky. See html {} comment. */
     overflow-x: clip;
   }
 
   /* ------------------------------------------------------------------------
-   * 2026-04-27: 點擊 TOC 連結（或任何 #anchor 連結）的捲動行為
+   * TOC / anchor link scroll behavior
    *
-   * 問題：fixed top navbar 高度 ~72px。anchor click 預設讓 heading 貼到
-   * viewport 頂端 = 完全被 navbar 遮住。
-   * 解法（純 CSS，不寫 JS handler）：
-   *   1. scroll-padding-top: 92px on <html> — 告訴瀏覽器 anchor scroll
-   *      時保留頂端空間，heading 落到 viewport top + 92px
-   *   2. scroll-behavior: smooth on <html> — 滑動取代瞬移（觀察者要求：
-   *      避免「像跳新頁面」的體驗）
-   *   3. respect prefers-reduced-motion — 系統設定要求減少動畫時瞬移
+   * Problem: fixed top navbar ~72px. Anchor click default puts heading at
+   * viewport top = completely hidden behind navbar.
+   * Solution (pure CSS, no JS handler):
+   *   1. scroll-padding-top: 92px on <html> — tells browser to reserve top space
+   *      on anchor scroll, heading lands at viewport top + 92px
+   *   2. scroll-behavior: smooth on <html> — glide instead of jump
+   *   3. respect prefers-reduced-motion — instant on reduced-motion preference
    *
-   * 不加 scroll-margin-top on heading：scroll-padding-top + scroll-margin-top
-   * 是 additive，兩個 92px 會疊成 184px 雙倍 offset，heading 落到太下面。
+   * No scroll-margin-top on heading: scroll-padding-top + scroll-margin-top are
+   * additive; two 92px values stack to 184px double offset.
    *
-   * 早期 debug 經驗：曾在 hidden Chrome MCP tab 測 smooth scroll 完全沒動，
-   * 誤以為是 sticky/IO 觀察器互相干擾導致 Chrome cancel。實情是 hidden
-   * tab 的 requestAnimationFrame 被 throttle 到 ~1Hz，所以任何依賴 rAF
-   * 的 smooth scroll（含 native CSS smooth）都被「凍結」。一回到 visible
-   * tab 就完全正常。教訓：不要在 hidden tab 驗證 scroll 行為。
+   * Debug lesson: smooth scroll doesn't work in hidden Chrome tabs (rAF throttled
+   * to ~1Hz). Don't test scroll behavior in hidden tabs.
    * ------------------------------------------------------------------------ */
   html {
     /* navbar 72px + 20px buffer = 92px */
@@ -287,7 +281,7 @@
     scroll-behavior: smooth;
   }
 
-  /* respect 系統「減少動畫」偏好 */
+  /* respect system "reduce motion" preference */
   @media (prefers-reduced-motion: reduce) {
     html {
       scroll-behavior: auto;
