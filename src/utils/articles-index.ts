@@ -1,16 +1,14 @@
 /**
  * articles-index.ts — Module-level shared frontmatter cache for all [slug].astro
  *
- * 為什麼：6 個 [slug].astro（zh + en + ja + ko + es + fr）每個 page render 都
- * 重做「relatedArticles 同 category 掃 + allArticles 全 category 掃」= readdir
- * + readFile + matter() loop。每篇文章 × N 篇同 cat + N×14 篇跨 cat = O(N²)
- * 重複工作。Article page 6950 × 這個 loop = build time 主要 hot path 之一。
+ * Why: 6 [slug].astro pages (zh + en + ja + ko + es + fr) each page render
+ * repeats "relatedArticles same-category scan + allArticles cross-category scan" =
+ * readdir + readFile + matter() loop. Each article x N same-cat + N x 14 cross-cat = O(N^2)
+ * duplicated work. 6950 article pages x this loop = major build-time hot path.
  *
- * 本模組把整個 lang 的 article index 在 module 第一次呼叫時 build 完整次，
- * 後續所有 [slug].astro page render 共享同一個 in-memory Map。Build 整 process
- * 只 readdir 一次 + readFile 一次 + matter 一次 per file。
- *
- * 2026-05-03 sleepy-colden Tier 1.4 build-perf optimization。
+ * This module builds the entire lang's article index on first call at module level;
+ * all subsequent [slug].astro page renders share the same in-memory Map. Entire build
+ * process only does readdir once + readFile once + matter once per file.
  */
 
 import { readdir, readFile } from 'node:fs/promises';
@@ -23,9 +21,9 @@ export interface ArticleSummary {
   description: string;
   image: string;
   category: string; // category slug (lowercase)
-  readingTime?: number; // frontmatter readingTime (分鐘)
+  readingTime?: number; // frontmatter readingTime (minutes)
   tags?: string[]; // frontmatter tags
-  footnotes?: number; // count of [^n]: footnote definitions (引用深度訊號)
+  footnotes?: number; // count of [^n]: footnote definitions (citation-depth signal)
 }
 
 const CATEGORY_MAPPING: Record<string, string> = {
@@ -127,20 +125,16 @@ export function getArticlesIndex(
  * src/data/related/{lang}.json maps `${cat}/${slug}` → up to 5 nearest-neighbour
  * `${cat}/${slug}` strings, pre-computed offline from bge-m3 embeddings on the
  * GPU fleet (scripts/core/build-embeddings.mjs → slimmed to slug-only). The
- * reader gets cross-topic semantic neighbours (e.g. a 戒嚴 article surfaces a
- * 白色恐怖 piece in a different category) instead of same-category proximity —
+ * reader gets cross-topic semantic neighbours instead of same-category proximity,
  * with ZERO browser model: the links are baked into the article HTML at build.
  *
  * Graceful degrade: if the file is absent (CI build without a fleet rebuild) or
  * the article isn't in the map, getRelatedArticles falls back to the original
- * same-category behaviour. Architecture: reports/research/2026-06/
- * p0-compute-experiments-2026-06-14.md + rag-design-research-2026-06-13.md.
+ * same-category behaviour.
  * ──────────────────────────────────────────────────────────────────────────*/
 
 const _semanticRelated = new Map<string, Promise<Record<string, string[]>>>();
-function loadSemanticRelated(
-  lang: string,
-): Promise<Record<string, string[]>> {
+function loadSemanticRelated(lang: string): Promise<Record<string, string[]>> {
   let entry = _semanticRelated.get(lang);
   if (!entry) {
     entry = readFile(
@@ -163,9 +157,7 @@ function loadSemanticRelated(
 // Flat `${cat}/${slug}` → ArticleSummary lookup, memoised per lang. Lets the
 // semantic neighbour slugs resolve back to full summaries for the card render.
 const _bySlug = new Map<string, Promise<Map<string, ArticleSummary>>>();
-function getBySlugIndex(
-  lang: string,
-): Promise<Map<string, ArticleSummary>> {
+function getBySlugIndex(lang: string): Promise<Map<string, ArticleSummary>> {
   let entry = _bySlug.get(lang);
   if (!entry) {
     entry = getArticlesIndex(lang).then((index) => {
@@ -231,12 +223,11 @@ export async function getAllArticles(
 }
 
 /* ───────────────────────────────────────────────────────────────────────────
- * Latest articles (時序主軸) — joins the article index with content-dates.json
- * (git last-content-change times) so "latest" reflects when an article was
- * actually shipped, not a hand-set frontmatter date. Used by the /latest page,
- * the /explore section, the homepage strip, and (via /api/latest.json) the
- * client-side article-page rail. Design: reports/latest-articles-discoverability
- * -design-2026-06-09.md §4.
+ * Latest articles (chronological axis) — joins the article index with
+ * content-dates.json (git last-content-change times) so "latest" reflects when
+ * an article was actually shipped, not a hand-set frontmatter date. Used by the
+ * /latest page, the /explore section, the homepage strip, and (via
+ * /api/latest.json) the client-side article-page rail.
  * ──────────────────────────────────────────────────────────────────────────*/
 
 export interface DatedArticle extends ArticleSummary {

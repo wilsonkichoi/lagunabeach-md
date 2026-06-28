@@ -4,9 +4,8 @@ import type { Lang } from '../config/languages';
 import { LANGUAGES } from '../config/languages';
 import { staticPageExists } from './staticRoutes';
 
-// 2026-04-25 β7 Phase 1：路由疊加 fix（i18n-evolution-roadmap audit B1）
-// 從 LANGUAGES_REGISTRY 動態 derive 非預設啟用語言清單，
-// 對應 MANIFESTO §指標 over 複寫 + REFLEXES #20 architecture-as-data。
+// Dynamically derive non-default enabled language list from LANGUAGES_REGISTRY.
+// Architecture-as-data pattern (REFLEXES #20).
 const NON_DEFAULT_ENABLED_LANGS = LANGUAGES.filter(
   (l) => l.enabled && !l.isDefault,
 ).map((l) => l.code) as readonly Lang[];
@@ -61,9 +60,8 @@ async function getValidZhFiles(): Promise<Set<string>> {
 
 // ── LangMap: per-language URL ↔ zh URL mapping ─────────────────────────────
 // Single uniform abstraction replacing the previous per-lang Map<> + per-lang
-// branch duplication. 2026-05-02 sleepy-colden refactor: from 5 lang × 4 branch
-// duplicate (~100 lines) to 1 LangMap registry + uniform loop (this is the
-// 造橋鋪路 application of MANIFESTO §指標 over 複寫 + REFLEXES #20).
+// branch duplication. Refactored from 5 lang x 4 branch duplicate (~100 lines)
+// to 1 LangMap registry + uniform loop.
 interface LangMap {
   // langUrl (e.g., '/en/art/...') → zhUrl (e.g., '/art/中文檔')
   toZh: Map<string, string>;
@@ -100,16 +98,14 @@ function normalizePath(path: string): string {
 }
 
 // ── Module-level cache: built registry ─────────────────────────────────────
-// 2026-05-03 sleepy-colden Tier 1.2/1.3 build-perf optimization:
-// 之前 buildLangMapRegistry() 沒 cache，每次 getLangSwitchPath() call 都重新跑
-// readFile + JSON.parse + ~5000 entries Map build。Header.astro + Banner.astro
-// 用在每頁，6950 pages × 重建 registry → 大量重複工作。
+// Build-perf optimization: previously buildLangMapRegistry() had no cache,
+// every getLangSwitchPath() call re-ran readFile + JSON.parse + ~5000 entries Map build.
+// Header.astro + Banner.astro used on every page, 6950 pages x rebuild = massive duplication.
 //
-// 雙層 fix:
-//   Tier 1.2: module-level promise cache（一個 process 共享一次 registry）
-//   Tier 1.3: 優先讀 prebuilt `public/api/lang-switch-map.json`（O(1) load
-//             vs ~150ms build），prebuild step 已產出。production / CI 路徑
-//             永遠 hit prebuilt；dev mode 沒 prebuilt 時 fall back 到 build。
+// Two-tier fix:
+//   Tier 1.2: module-level promise cache (one process shares one registry)
+//   Tier 1.3: prefer prebuilt `public/api/lang-switch-map.json` (O(1) load vs ~150ms build).
+//             Production/CI always hits prebuilt; dev mode without prebuild falls back to build.
 let _registryCache: Promise<LangMapRegistry> | null = null;
 
 async function loadPrebuiltRegistry(): Promise<LangMapRegistry | null> {
@@ -321,7 +317,7 @@ export async function getLangSwitchPath(currentPath: string) {
     has.zh = true;
   } else {
     links.zh = basePath === '/' ? '/' : basePath;
-    // 2026-06-10 deploy-heal：非文章頁不再假設 zh 一定有，改查 src/pages 樹
+    // Non-article pages no longer assume zh always exists; check src/pages tree instead
     has.zh = !isArticle && staticPageExists('zh-TW', basePath);
   }
 
@@ -348,9 +344,8 @@ export async function getLangSwitchPath(currentPath: string) {
     }
 
     // No explicit mapping: for non-article pages, only offer the lang if the
-    // static page actually exists for it（src/pages 樹是 SSOT — 2026-06-10
-    // deploy-heal：原本「hub 頁永遠存在」的假設對 zh-only 頁（/semiont/diary/*
-    // ×650、/companies、/lifetree…）每頁生 4-5 條死鏈）。
+    // static page actually exists for it (src/pages tree is SSOT — the old
+    // "hub pages always exist" assumption generated 4-5 dead links per zh-only page).
     // Article pages without explicit translation stay unavailable (slug 404).
     links[lang] = fallback;
     has[lang] = !isArticle && staticPageExists(lang, basePath);

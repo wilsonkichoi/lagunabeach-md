@@ -1,14 +1,12 @@
 /**
- * category-static-paths.ts — getStaticPaths factory for [category]/index.astro × 6 langs
+ * category-static-paths.ts — getStaticPaths factory for [category]/index.astro x 6 langs
  *
- * 為什麼：6 個 [category]/index.astro 各自重複的 readdir + readFile + matter()
- * + topPicks 計算 + sort 邏輯 ~150 行。本 util 把這套邏輯收進一個 lang-aware
- * factory，6 wrappers 各自 call `getCategoryHubStaticPaths('zh-TW')` etc.
+ * Why: 6 [category]/index.astro files each repeat readdir + readFile + matter() +
+ * topPicks calculation + sort logic (~150 lines). This util consolidates into one
+ * lang-aware factory; 6 wrappers each call `getCategoryHubStaticPaths('zh-TW')` etc.
  *
- * 注意：Astro 限制 — getStaticPaths 必須在 page level export。所以 wrapper
- * 仍需 export getStaticPaths，本 util 提供 body 邏輯。
- *
- * 2026-05-03 sleepy-colden P1 follow-up unification。
+ * Note: Astro limitation — getStaticPaths must be a page-level export. So wrappers
+ * still need to export getStaticPaths; this util provides the body logic.
  */
 
 import { readdir, readFile } from 'node:fs/promises';

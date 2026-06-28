@@ -1,20 +1,20 @@
 /**
- * article-render.ts — article markdown → HTML render pipeline（module-level, build-wide 共享）
+ * article-render.ts — article markdown → HTML render pipeline (module-level, build-wide shared)
  *
- * 為什麼從 article.template.astro 抽出來（2026-06-13 refactor session）：
- * 1. 檔案長度：renderTwModule 17 模組 + footnote/wikilink pipeline ≈ 900 行
- *    佔掉 template 40%，template 該只剩 view orchestration。
- * 2. Scope 正確性：.astro frontmatter 是 per-render scope（每頁重跑），
- *    renderer/函式每頁重新配置。module scope 整個 build 只配置一次。
- *    ⚠️ 同 class bug 前科：_gitCaches Map 放 frontmatter → git log 子程序
- *    每頁重跑 4,895 次（見 reports/article-template-refactor-2026-06-13.md）。
- *    任何 cache / 昂貴初始化都必須住在被 import 的 .ts module，不是 frontmatter。
+ * Extracted from article.template.astro (2026-06-13 refactor session):
+ * 1. File length: renderTwModule 17 modules + footnote/wikilink pipeline ~ 900 lines
+ *    consumed 40% of the template; template should only do view orchestration.
+ * 2. Scope correctness: .astro frontmatter is per-render scope (re-runs each page),
+ *    renderer/functions re-configure per page. Module scope configures once per build.
+ *    Prior bug: _gitCaches Map in frontmatter → git log subprocess ran 4,895 times
+ *    (see reports/article-template-refactor-2026-06-13.md).
+ *    Any cache / expensive init must live in an imported .ts module, not frontmatter.
  *
- * 內容物全部 1:1 verbatim 搬運（sed 行段抽取），輸出 byte-identical：
- * - resolveWikilinks / marked renderer hooks（heading/link/image/code）
- * - renderTwModule：17 種 tw-* 視覺模組（graph.md §模組型錄 的 renderer 實體）
- * - processFootnotes：GFM [^n] 腳註
- * - renderArticleHtml：title-dedup → wikilink → footnote → marked → 延伸閱讀 split
+ * All content 1:1 verbatim extraction (sed line-segment), output byte-identical:
+ * - resolveWikilinks / marked renderer hooks (heading/link/image/code)
+ * - renderTwModule: 17 tw-* visual modules (graph.md module catalog renderer instances)
+ * - processFootnotes: GFM [^n] footnotes
+ * - renderArticleHtml: title-dedup → wikilink → footnote → marked → Further Reading split
  */
 import { marked } from 'marked';
 
@@ -55,8 +55,8 @@ renderer.image = ({ href, title, text }) => {
   return `<img src="${href}" alt="${text || ''}"${titleAttr} loading="lazy" onerror="this.onerror=null;this.classList.add('img-broken')" />`;
 };
 
-// ── 文章內共用視覺模組（fenced-code 語法糖 → HTML，CSS 在 article-modules.css）─
-// 作者寫 ```tw-figure / tw-versus / tw-bars / tw-timeline 區塊，逐列用 | 分欄。
+// ── Shared visual modules in articles (fenced-code sugar → HTML, CSS in article-modules.css) ─
+// Authors write ```tw-figure / tw-versus / tw-bars / tw-timeline blocks, pipe-delimited columns.
 const _esc = (s: string) =>
   String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
@@ -67,7 +67,7 @@ function renderTwModule(lang: string, raw: string): string {
     .filter(Boolean);
   if (lines.length === 0) return '';
 
-  // 跨模組「來源」列：任一列 `來源：…` / `資料來源：…` / `source: …` 抽成 sibling 來源 caption
+  // Cross-module "source" row: any row matching `source:` / locale variants extracted as sibling source caption
   let src = '';
   const _srcRe = /^(?:資料來源|來源|source)\s*[:：]\s*(.+)$/i;
   lines = lines.filter((l) => {
@@ -81,8 +81,8 @@ function renderTwModule(lang: string, raw: string): string {
   if (lines.length === 0 && !src) return '';
   const _src = src ? `<p class="tw-mod-src">資料來源：${_esc(src)}</p>` : '';
 
-  // 跨模組「標題」列：資料模組第一列若不含 `|` 視為模組標題（graph.md：標題說 takeaway）。
-  // tw-figure / tw-quote / tw-source / tw-line / tw-waffle / tw-note 有自己的 positional 邏輯，不走這層。
+  // Cross-module "title" row: data module's first row without `|` treated as module title (graph.md: title = takeaway).
+  // tw-figure / tw-quote / tw-source / tw-line / tw-waffle / tw-note have their own positional logic, skip this layer.
   const TITLED = new Set([
     'tw-bars',
     'tw-stat',
@@ -109,19 +109,19 @@ function renderTwModule(lang: string, raw: string): string {
   const _title = modTitle
     ? `<div class="tw-mod-title">${_esc(modTitle)}</div>`
     : '';
-  // 數字小工具：千分位 + 從欄位字串抽數值（保留負號）
+  // Number helpers: thousands separator + extract numeric value from column string (preserve negatives)
   const _fmt = (v: number) =>
     Math.abs(v) >= 1000 ? v.toLocaleString('en-US') : String(v);
   const _num = (s: string) => parseFloat(String(s).replace(/[^0-9.\-]/g, ''));
-  // 強調列語法：標籤開頭 `*` → 該列 highlight、其餘列退灰（Datawrapper 灰色脈絡 pattern）
+  // Emphasis row syntax: label starting with `*` → highlight that row, dim the rest (Datawrapper grey-context pattern)
   const _emph = (raw: string) =>
     raw.startsWith('*')
       ? { label: raw.slice(1).trim(), hi: true }
       : { label: raw, hi: false };
 
   if (lang === 'tw-figure') {
-    // line1: 大數字（含 -> / → 視為 before→after）；line2: 說明；line3: 來源
-    // 也接受 `來源：…` 列（被上方 _srcRe 抽走時 merge 進 positional slot，不再靜默掉）
+    // line1: big number (contains -> / → treated as before→after); line2: caption; line3: source
+    // Also accepts `source:` row (when extracted by _srcRe above, merges into positional slot instead of dropping silently)
     const [big = '', cap = '', posSrc = ''] = lines;
     const figSrc = posSrc || src;
     const parts = big.split(/\s*(?:->|→|➜)\s*/);
@@ -140,10 +140,10 @@ function renderTwModule(lang: string, raw: string): string {
   }
 
   if (lang === 'tw-versus') {
-    // line1: 左標題 | 右標題；其餘列: 左 | 右
+    // line1: left title | right title; remaining rows: left | right
     const [head, ...rows] = lines;
     const [lt = '', rt = ''] = head.split('|').map((s) => s.trim());
-    // 每格內嵌側別標籤（桌機隱藏、手機顯示）—— 兩欄收摺成單欄時配對識別不丟失
+    // Inline side-labels per cell (hidden on desktop, shown on mobile) — pairing preserved when two columns collapse to one
     const tagA = `<span class="tw-versus-tag">${_esc(lt)}</span>`;
     const tagB = `<span class="tw-versus-tag">${_esc(rt)}</span>`;
     const body = rows
@@ -162,8 +162,8 @@ function renderTwModule(lang: string, raw: string): string {
   }
 
   if (lang === 'tw-bars') {
-    // 每列: 標籤 | 數值 | (選填註記)。數值取數字部分縮放長度（支援負值 → 分歧條）。
-    // 標籤開頭 `*` = 強調列（其餘列退灰）。
+    // Each row: label | value | (optional note). Value's numeric part scales bar width (supports negative → diverging bars).
+    // Label starting with `*` = emphasis row (others dimmed).
     const parsed = lines.map((l) => {
       const [rawLabel = '', val = '', note = ''] = l
         .split('|')
@@ -191,7 +191,7 @@ function renderTwModule(lang: string, raw: string): string {
         })
         .join('');
     } else {
-      // 分歧條：0 在中線，負值往左（冷色）、正值往右（暖色）
+      // Diverging bars: 0 at center, negative left (cool), positive right (warm)
       const maxAbs = Math.max(...parsed.map((p) => Math.abs(p.num)), 0.0001);
       body = parsed
         .map((p) => {
@@ -211,7 +211,7 @@ function renderTwModule(lang: string, raw: string): string {
   }
 
   if (lang === 'tw-timeline') {
-    // 每列: 年份 | 標題 | (選填說明)
+    // Each row: year | title | (optional description)
     const body = lines
       .map((l) => {
         const [year = '', t = '', desc = ''] = l
@@ -230,7 +230,7 @@ function renderTwModule(lang: string, raw: string): string {
   }
 
   if (lang === 'tw-stat') {
-    // 每列: 數值 | 標籤 | (選填註記)
+    // Each row: value | label | (optional note)
     const cards = lines
       .map((l) => {
         const [val = '', label = '', note = ''] = l
@@ -251,7 +251,7 @@ function renderTwModule(lang: string, raw: string): string {
   }
 
   if (lang === 'tw-waffle') {
-    // 選填標題（不含 |）+ 每列: 類別 | 數值(%)；100 格依比例填色
+    // Optional title (no |) + each row: category | value(%); 100 cells filled proportionally
     let title = '';
     let rows = lines;
     if (lines[0] && !lines[0].includes('|')) {
@@ -300,7 +300,7 @@ function renderTwModule(lang: string, raw: string): string {
   }
 
   if (lang === 'tw-quote') {
-    // line1: 引文；line2: 姓名 | 角色/場合
+    // line1: quote text; line2: name | role/occasion
     const [q = '', by = ''] = lines;
     const qt = q.replace(/^[「『]/, '').replace(/[」』]$/, '');
     const [name = '', role = ''] = by.split('|').map((s) => s.trim());
@@ -311,15 +311,15 @@ function renderTwModule(lang: string, raw: string): string {
   }
 
   if (lang === 'tw-source') {
-    // 整段當來源條（或被 _srcRe 抽走則用 src）
+    // Entire block as source strip (or uses src if extracted by _srcRe)
     const txt = lines.join(' ') || src;
     if (!txt) return '';
     return `<p class="tw-source"><span class="tw-source-icon">⌖</span><span>${_esc(txt)}</span></p>`;
   }
 
   if (lang === 'tw-line') {
-    // line1: 標題；line2: x軸名 | 序列1 | 序列2…；其餘: x值 | y1 | y2…
-    // 基準線列：`基準：標籤 | 值` → 虛線參考線（無端點、單一標籤），不是序列
+    // line1: title; line2: x-axis name | series1 | series2...; rest: x-value | y1 | y2...
+    // Baseline row: `基準：label | value` → dashed reference line (no endpoints, single label), not a series
     if (lines.length < 3) return '';
     const title = lines[0];
     const header = lines[1].split('|').map((s) => s.trim());
@@ -355,7 +355,7 @@ function renderTwModule(lang: string, raw: string): string {
       yMin = yMin > 0 ? 0 : yMin - 1;
       yMax = yMax + 1;
     }
-    // 動態右邊界：序列名 / 基準標籤要放得下（CJK ~12.5px/字 @ font 12）
+    // Dynamic right margin: series names / baseline labels must fit (CJK ~12.5px/char @ font 12)
     const maxName = Math.max(0, ...series.map((s) => s.length));
     const W = 400,
       H = 200,
@@ -381,7 +381,7 @@ function renderTwModule(lang: string, raw: string): string {
     }
     if (rows.length > 1)
       g += `<text class="tw-line-xlab" x="${sx(rows.length - 1).toFixed(1)}" y="${H - 8}" text-anchor="end">${_esc(rows[rows.length - 1].x)}</text>`;
-    // 基準線（虛線、無端點、右端單一標籤 — graph.md §八 反例 gallery 的正解）
+    // Baseline (dashed, no endpoints, single label at right end — graph.md section 8 anti-example gallery solution)
     baselines.forEach((b) => {
       const y = sy(b.v).toFixed(1);
       g += `<line class="tw-line-ref" x1="${mL}" y1="${y}" x2="${W - mR}" y2="${y}"/>`;
@@ -397,7 +397,7 @@ function renderTwModule(lang: string, raw: string): string {
         .map((p) => `${p.x.toFixed(1)},${p.y.toFixed(1)}`)
         .join(' ');
       if (series.length === 1) {
-        // 面積填色只給單序列：多序列疊面積會互相蓋成一坨
+        // Area fill only for single series: multiple overlapping areas become unreadable
         const area = `${pts[0].x.toFixed(1)},${sy(yMin).toFixed(1)} ${line} ${pts[pts.length - 1].x.toFixed(1)},${sy(yMin).toFixed(1)}`;
         g += `<polygon class="tw-line-area ${cls}" points="${area}"/>`;
       }
@@ -424,7 +424,7 @@ function renderTwModule(lang: string, raw: string): string {
   }
 
   if (lang === 'tw-heatmap') {
-    // line1: 角標 | 欄1 | 欄2…；其餘: 列標 | v1 | v2…（每欄各自正規化成色深）
+    // line1: corner label | col1 | col2...; rest: row label | v1 | v2... (each column normalized independently to color intensity)
     if (lines.length < 2) return '';
     const header = lines[0].split('|').map((s) => s.trim());
     const corner = header[0] || '';
@@ -452,7 +452,7 @@ function renderTwModule(lang: string, raw: string): string {
             if (isNaN(num))
               return `<td class="tw-hm-na">${_esc(v || '–')}</td>`;
             const i = range === 0 ? 0.5 : (num - colMin[ci]) / range;
-            // 深色格自動翻白字（build-time 算好，不靠 CSS 猜對比）
+            // Dark cells auto-flip to white text (computed at build-time, not relying on CSS contrast guessing)
             return `<td${i >= 0.55 ? ' class="tw-hm-hi"' : ''} style="--i:${i.toFixed(2)}">${_esc(v)}</td>`;
           })
           .join('');
@@ -463,8 +463,8 @@ function renderTwModule(lang: string, raw: string): string {
   }
 
   if (lang === 'tw-slope') {
-    // 斜率圖：恰兩個時點的變化。line1(選填): 標題；header: `左時點 | 右時點`（恰 2 欄）；
-    // rows: `標籤 | 左值 | 右值`。標籤開頭 `*` = 強調列。
+    // Slope chart: change across exactly two time points. line1 (optional): title; header: `left time | right time` (exactly 2 columns);
+    // rows: `label | left value | right value`. Label starting with `*` = emphasis row.
     if (lines.length < 2) return '';
     const head = lines[0].split('|').map((s) => s.trim());
     if (head.length !== 2) return '';
@@ -508,7 +508,7 @@ function renderTwModule(lang: string, raw: string): string {
       xR = W - mR;
     const sy = (v: number) =>
       mT + (1 - (v - yMin) / (yMax - yMin)) * (H - mT - mB);
-    // 端點標籤防重疊：同側相鄰標籤至少隔 13px
+    // Endpoint label anti-overlap: adjacent labels on same side spaced at least 13px
     const resolve = (ys: number[]) => {
       const idx = ys.map((y, i) => ({ y, i })).sort((a, b) => a.y - b.y);
       for (let k = 1; k < idx.length; k++)
@@ -549,8 +549,8 @@ function renderTwModule(lang: string, raw: string): string {
   }
 
   if (lang === 'tw-dot') {
-    // 點圖（dot strip / range）：rows: `標籤 | 值` 或 `標籤 | 起值 | 迄值 | (註)`。
-    // 全部列共用同一個軸（這是它比 bars 適合「分布」的原因）。`*` = 強調列。
+    // Dot strip / range chart: rows: `label | value` or `label | start | end | (note)`.
+    // All rows share one axis (this is why it fits "distribution" better than bars). `*` = emphasis row.
     const rows = lines
       .map((l) => {
         const c = l.split('|').map((s) => s.trim());
@@ -595,8 +595,8 @@ function renderTwModule(lang: string, raw: string): string {
   }
 
   if (lang === 'tw-stack') {
-    // 100% 堆疊條：跨列比較「組成」。header: `列名欄 | 類1 | 類2…`；rows: `標籤 | v1 | v2…`
-    // 每列自動正規化成 100%，段寬 ≥ 10% 才顯示文字（其餘看圖例 + 資料表）。
+    // 100% stacked bar: cross-row "composition" comparison. header: `row-name col | cat1 | cat2...`; rows: `label | v1 | v2...`
+    // Each row auto-normalized to 100%; segment text shown only when width >= 10% (rest visible via legend + data table).
     if (lines.length < 2) return '';
     const header = lines[0].split('|').map((s) => s.trim());
     if (header.length < 3) return '';
@@ -640,7 +640,7 @@ function renderTwModule(lang: string, raw: string): string {
   }
 
   if (lang === 'tw-pyramid') {
-    // 金字塔（背對背長條）：header: `組欄名 | 左名 | 右名`；rows: `組 | 左值 | 右值`
+    // Pyramid (back-to-back bars): header: `group col | left name | right name`; rows: `group | left value | right value`
     if (lines.length < 2) return '';
     const header = lines[0].split('|').map((s) => s.trim());
     if (header.length < 3) return '';
@@ -674,9 +674,9 @@ function renderTwModule(lang: string, raw: string): string {
   }
 
   if (lang === 'tw-tiles') {
-    // 台灣 22 縣市 tile-grid cartogram（視覺主權：佈局寫死在 renderer，不靠 LLM 畫形狀，
-    // per REFLEXES #61）。rows: `縣市 | 值 | (註)`。臺/台、市/縣字尾自動正規化；
-    // 對不上 60% 以上就退化成 bars（翻譯版縣市名對不上時內容不會消失）。
+    // Taiwan 22-county tile-grid cartogram (layout hardcoded in renderer, not LLM-drawn,
+    // per REFLEXES #61). rows: `county | value | (note)`. Traditional/simplified variants auto-normalized;
+    // falls back to sorted bars when < 60% match (translated county names won't cause content to disappear).
     const TILE_GRID: (string | null)[][] = [
       ['連江', null, '台北', '基隆', null],
       [null, '桃園', '新北', '宜蘭', null],
@@ -735,7 +735,7 @@ function renderTwModule(lang: string, raw: string): string {
       else unmatched.push(r.raw);
     });
     if (byCounty.size / rows.length < 0.6) {
-      // 縣市名對不上（多半是翻譯版）→ 退化成排序 bars，內容不消失
+      // County names don't match (likely translated version) → degrade to sorted bars, content preserved
       const barsLines = [...rows]
         .sort((a, b) => b.num - a.num)
         .map((r) => `${r.raw} | ${r.val}`)
@@ -773,8 +773,8 @@ function renderTwModule(lang: string, raw: string): string {
   }
 
   if (lang === 'tw-iso') {
-    // 單位圖（isotype）：把大數字換成可以數的符號（FT：只用整數，符號不切半）。
-    // 選填 config 列：`單位：⬤ = 20000 戶`；rows: `標籤 | 值 | (註)`
+    // Isotype chart: replace big numbers with countable symbols (FT style: integers only, no half-symbols).
+    // Optional config row: `單位：⬤ = 20000 units`; rows: `label | value | (note)`
     let glyph = '●',
       per = 1,
       unitLabel = '';
@@ -815,8 +815,8 @@ function renderTwModule(lang: string, raw: string): string {
   }
 
   if (lang === 'tw-note') {
-    // 方法論盒／更正註記（報導者【說明】/(註) 公約；error boundary = traceability）。
-    // line1 可為 `說明` / `方法` / `註` / `更正` / `更新` 之一；其餘列各自成段。
+    // Methodology box / correction note (Reporter-style convention; error boundary = traceability).
+    // line1 can be one of `說明` / `方法` / `註` / `更正` / `更新`; remaining lines become separate paragraphs.
     let kind = '說明';
     if (lines[0] && /^(說明|方法|註|更正|更新)$/.test(lines[0])) {
       kind = lines.shift() as string;
@@ -883,9 +883,9 @@ function processFootnotes(md: string): string {
   return body;
 }
 
-// ── Title-dedup → wikilink → footnote → marked → 延伸閱讀 split ─────────────
-// 1:1 對應 template 原 frontmatter 行為：strip 開頭重複 H1、跑 marked、
-// 找 延伸閱讀 split 點（SSODT sections 插入位置）。splitIndex === -1 表示沒找到。
+// ── Title-dedup → wikilink → footnote → marked → Further Reading split ─────────────
+// 1:1 matches original template frontmatter behavior: strip duplicate leading H1, run marked,
+// find Further Reading split point (SSODT sections insertion position). splitIndex === -1 means not found.
 export interface RenderedArticle {
   fullHtml: string;
   splitIndex: number;

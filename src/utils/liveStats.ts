@@ -1,11 +1,11 @@
 /**
  * liveStats.ts — module-level cache for prebuilt vitals reads.
  *
- * 2026-06-10 build audit 熱點 #5: SEO.astro 把 readFileSync(dashboard-vitals)
- * 寫在 component frontmatter → 每頁 render 重跑 = 8,400+ 次 syscall/build。
- * Hoist 到 module scope，整個 build process 只讀一次。
- * （不用 top-level JSON import：該檔 gitignored，fresh clone dev 時可能不存在，
- * import 會直接 crash — lazy read + fallback 保留原本的容錯。）
+ * Build audit hotspot #5: SEO.astro had readFileSync(dashboard-vitals) in
+ * component frontmatter → re-ran every page render = 8,400+ syscalls/build.
+ * Hoisted to module scope, entire build process reads once.
+ * (No top-level JSON import: file is gitignored, may not exist on fresh clone dev,
+ * import would crash — lazy read + fallback preserves original error tolerance.)
  */
 import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
