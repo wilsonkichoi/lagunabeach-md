@@ -1,6 +1,6 @@
 ---
 title: 'CITATION-GUIDE'
-description: '來源引用與腳註規範 — 每個主張怎麼追溯來源 + 腳註格式 SSOT'
+description: 'Source-citation and footnote standard — how every claim traces to a source + footnote-format SSOT'
 type: 'editorial-canonical'
 status: 'canonical'
 current_version: 'v1.0'
@@ -15,111 +15,111 @@ upstream_canonical:
   - '../semiont/MANIFESTO.md'
 ---
 
-# CITATION-GUIDE.md — 來源引用與腳註規範
+# CITATION-GUIDE.md — source-citation and footnote standard
 
-> 每篇文章的來源引用必須遵守這份規範。
-> 設計理念見 [CITATION-SYSTEM.md](../design/CITATION-SYSTEM.md)。
-> 寫作流程見 [REWRITE-PIPELINE.md](../pipelines/REWRITE-PIPELINE.md) Stage 2。
+> Every article's source citations must follow this standard.
+> For design rationale see [CITATION-SYSTEM.md](../design/CITATION-SYSTEM.md).
+> For the writing workflow see [REWRITE-PIPELINE.md](../pipelines/REWRITE-PIPELINE.md) Stage 2.
 
 ---
 
-## 格式：Footnote-First（v4，2026-03-31 起）
+## Format: Footnote-First (v4, since 2026-03-31)
 
-用 Markdown footnote 語法 `[^n]` 將來源精確對應到正文中的句子，取代文末列表：
+Use Markdown footnote syntax `[^n]` to tie a source precisely to the sentence it supports, instead of a list at the end of the article:
 
 ```markdown
-台灣早餐店超過 2 萬家[^1]。施明德在庭上說：「台灣應該獨立。」[^2]
+The 1993 firestorm destroyed 441 homes in Laguna Beach.[^1] One resident later said, "Before the fire and after the fire is how we date everything now."[^2]
 
-## 參考資料
+## References
 
-[^1]: [經濟部商業司：商業登記資料查詢](https://gcis.nat.gov.tw/)（2026 年）
+[^1]: [City of Laguna Beach — 1993 Laguna Fire after-action report](URL) (1994)
 
-[^2]: [BBC 中文：美麗島事件 40 週年（2019）](https://www.bbc.com/zhongwen/trad/world-50726110)
+[^2]: [Oral history interview, Laguna Beach Historical Society](URL) (2018)
 ```
 
 ---
 
-## 三種引用場景
+## Three citation scenarios
 
-| 場景                 | 做法                      | 範例                         |
-| -------------------- | ------------------------- | ---------------------------- |
-| 數據（數字、百分比） | 正文中加 `[^n]`           | `超過 1 萬 4 千筆[^3]`       |
-| 引語（「...」）      | 引語後加 `[^n]`           | `「那是最脆弱的時候。」[^5]` |
-| Callout 內的來源     | 行內連結（不用 footnote） | `（[報導者](URL)）`          |
-
----
-
-## 引用密度標準
-
-每 300 字至少 1 個 footnote。
-
-| 文章級別 | 行數       | 最低腳註數 |
-| -------- | ---------- | ---------- |
-| S 級     | 200-300 行 | 10+        |
-| A 級     | 120-200 行 | 7+         |
-| B 級     | 80-120 行  | 5+         |
+| Scenario                    | Method                       | Example                                    |
+| --------------------------- | ---------------------------- | ------------------------------------------ |
+| Data (numbers, percentages) | Add `[^n]` in the body       | `16,000 acres burned[^3]`                  |
+| Quotation ("...")           | Add `[^n]` after the quote   | `"That was the most fragile moment."[^5]`  |
+| Source inside a callout     | Inline link (not a footnote) | `([Laguna Beach Historical Society](URL))` |
 
 ---
 
-## 腳註格式規範
+## Citation-density standard
 
-**格式：連結 + 破折號 + 完整描述**
+At least 1 footnote per 300 words.
+
+| Article tier | Lines   | Minimum footnotes |
+| ------------ | ------- | ----------------- |
+| S tier       | 200-300 | 10+               |
+| A tier       | 120-200 | 7+                |
+| B tier       | 80-120  | 5+                |
+
+---
+
+## Footnote-format standard
+
+**Format: link + dash + full description**
 
 ```markdown
-[^1]: [《嚴家淦總統行誼訪談錄》](URL) — 國史館出版，2013 年嚴家淦逝世二十週年紀念叢書，收錄對其親朋故舊的口述訪談，還原其從財經改革到總統任內的完整歷程。
+[^1]: [Laguna Beach Historical Society — early-village archive](URL) — local-history collection; documents the city's growth from artist colony to incorporation (1927), with primary-source records of the early village.
 ```
 
-**規則：**
+**Rules:**
 
-- **說明文字長度**：至少 20-30 字，描述來源的出版背景、內容特色、歷史價值
-- **不要只有連結**：`[^1]: [URL]` 或 `[^1]: URL` 都不合格
-- **不要「同上」**：重複引用同一來源時，也要寫完整說明（可簡化但不空白）
+- **Description length**: at least 20-30 words; describe the source's publication background, what it covers, and its historical value.
+- **No bare links**: `[^1]: [URL]` or `[^1]: URL` is not acceptable.
+- **No "ibid."**: when you cite the same source again, still write a full description (it can be shorter, but never blank).
 
-**範例對比：**
+**Comparison:**
 
-| 不合格                  | 合格                                                                                                |
-| ----------------------- | --------------------------------------------------------------------------------------------------- |
-| `[^1]: [維基百科](URL)` | `[^1]: [維基百科：耕者有其田](URL) — 收錄台灣土地改革三個階段的詳細歷史數據和政策內容。`            |
-| `[^2]: 同上`            | `[^2]: [同上](URL) — 收錄公地放領 1951-1976 年間放領 138,957 公頃土地給 286,287 戶農戶的詳細數據。` |
-| `[^3]: URL`             | `[^3]: [國史館](URL) — 中華民國政府官方檔案機構，收藏 1949 年政府遷台相關史料。`                    |
+| Not acceptable           | Acceptable                                                                                                                                              |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `[^1]: [Wikipedia](URL)` | `[^1]: [Wikipedia: Laguna Beach, California](URL) — overview of the city's geography, incorporation history, and demographics, with sourced citations.` |
+| `[^2]: ibid.`            | `[^2]: [same source](URL) — covers the 16,000 acres burned and the $528 million in 1993-dollar damages from the firestorm.`                             |
+| `[^3]: URL`              | `[^3]: [City of Laguna Beach](URL) — official municipal site; publishes the city's incorporation record (1927) and emergency-preparedness documents.`   |
 
 ---
 
-## 來源品質要求
+## Source-quality requirements
 
-- URL 必須指向**具體頁面**，不能只給首頁（❌ `https://www.moc.gov.tw/` / ✅ `https://www.moc.gov.tw/content_xxx`）
-- 同一個網站最多算 2 個來源（5 個維基百科連結 ≠ 5 個來源）
-- 至少 **2 個一手來源**（政府/學術/官方報告）
-- 至少 **1 個英文來源**
+- A URL must point to a **specific page**, not just a homepage (❌ `https://www.lagunabeachcity.net/` / ✅ `https://www.lagunabeachcity.net/content_xxx`)
+- A single website counts as at most 2 sources (5 Wikipedia links ≠ 5 sources)
+- At least **2 primary sources** (government / academic / official report)
+- At least **1 source** that is a recognized authority (museum, historical society, peer-reviewed work)
 
 ---
 
-## 文章結構中的位置
+## Position in the article structure
 
 ```
-正文
+body
   ↓
-延伸閱讀（**延伸閱讀**：+ markdown 連結）
+Further reading (**Further reading**: + markdown links)
   ↓
-## 參考資料          ← 標題必須存在
+## References          ← this heading must exist
   ↓
-[^1]: ...           ← 腳註定義
+[^1]: ...              ← footnote definitions
 [^2]: ...
 ```
 
-**`## 參考資料` 標題必須存在**，放在延伸閱讀之後、腳註定義之前。
+**The `## References` heading must exist**, placed after Further reading and before the footnote definitions.
 
-**向下相容：** 舊文章的 `## 參考資料` bullet list 仍可渲染，但新文章和 rewrite 一律用 footnote。
-
----
-
-## 寫作時的鐵律
-
-**⚠️ 邊寫邊插 footnote，不要事後補。**
-
-事後回頭對應來源極度耗時（實測：sub-agent 超時 3 次）。Stage 1 研究筆記裡已有「事實→來源」配對，Stage 2 寫作時直接引用。
+**Backward compatibility:** an older article's `## References` bullet list still renders, but new articles and rewrites always use footnotes.
 
 ---
 
-_版本：v1.0 | 2026-04-04_
-_從 EDITORIAL.md v4.1 §來源引用 獨立，整合引用密度標準與腳註格式規範_
+## The iron rule while writing
+
+**⚠️ Insert footnotes as you write — do not backfill them afterward.**
+
+Matching sources back to sentences after the fact is extremely time-consuming. The Stage 1 research notes already pair "fact → source"; in Stage 2 cite them directly as you write.
+
+---
+
+_Version: v1.0 | 2026-04-04_
+_Split from EDITORIAL.md v4.1 §source-citation; consolidates the citation-density standard and footnote-format rules._

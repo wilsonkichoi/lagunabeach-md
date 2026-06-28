@@ -1,6 +1,6 @@
 ---
 title: 'TERMINOLOGY'
-description: '用語規範 — 用台灣人說的話 / 中國用語 → 台灣用語對照表 / hard gate 違規清單'
+description: 'Terminology standard — write the way locals say it / American-English register / canonical LB place-name forms / hard-gate violations'
 type: 'editorial-canonical'
 status: 'canonical'
 current_version: 'v1.0'
@@ -16,129 +16,115 @@ upstream_canonical:
   - '../semiont/MANIFESTO.md'
 ---
 
-# 用語規範 — Taiwan.md 的文字應該像在台灣長大的人寫的
+# Terminology standard — LagunaBeach.md should read like someone who knows the place wrote it
 
-> 這不是政治立場，是生活經驗的真實性。
-> 我們保存的是這個時代、在這片土地上的語言習慣——它沒有對錯，但它是我們的。
+> This is not a style affectation; it is the authenticity of lived knowledge.
+> What we preserve is how this place is actually named and described by people who live here — not the generic vocabulary an outsider or an AI would reach for.
 
-## Layer 1：呈現規則
+## Layer 1: presentation rules
 
-Taiwan.md 文章一律使用台灣在地用語。以下是明確的替換規則（A 類 = 必換，不需判斷語境）：
+LagunaBeach.md articles use American English and the local, canonical name for each place. The rules below are explicit substitutions (Class A = always replace, no judgment of context needed).
 
-### A 類：一律替換
+### Class A: always replace
 
-| 中國用語         | 台灣用語       | 分歧類型 |
-| ---------------- | -------------- | -------- |
-| 視頻             | 影片           | C        |
-| 質量（非物理）   | 品質           | A        |
-| 軟件             | 軟體           | B        |
-| 硬件             | 硬體           | B        |
-| 博主/博客        | 部落客         | C        |
-| 點贊             | 按讚           | C        |
-| 互聯網           | 網際網路       | B        |
-| 內存             | 記憶體         | B        |
-| 人工智能         | 人工智慧       | B        |
-| 操作系統         | 作業系統       | B        |
-| 數據             | 資料           | B        |
-| 信息             | 資訊           | B        |
-| 服務器           | 伺服器         | B        |
-| 算法             | 演算法         | B        |
-| 屏幕             | 螢幕           | B        |
-| 打印             | 列印           | B        |
-| 網絡             | 網路           | B        |
-| 移動（形容手機） | 行動           | B        |
-| 盒飯             | 便當           | A        |
-| 出租車           | 計程車         | B        |
-| 收口             | 結束/落幕/定論 | A        |
+| Generic / wrong form          | Canonical LB form           | Type |
+| ----------------------------- | --------------------------- | ---- |
+| Highway 1 / Route 1           | Pacific Coast Highway (PCH) | A    |
+| Sawdust Festival              | Sawdust Art Festival        | A    |
+| the Pageant / Masters Pageant | Pageant of the Masters      | A    |
+| TOW                           | Top of the World            | A    |
+| tidepools / tide-pools        | tide pools                  | A    |
+| colour / harbour / favourite  | color / harbor / favorite   | B    |
+| towards / amongst / whilst    | toward / among / while      | B    |
+| "the island" (of Laguna)      | Laguna Beach / the city     | A    |
 
-### B 類：需判斷語境
+**Canonical proper-noun forms** (spell these exactly):
 
-| 用語 | 說明                                                                                                                                           |
-| ---- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| 人設 | 年輕世代已廣泛使用，但正式文章建議用「形象」「人物設定」                                                                                       |
-| 閨蜜 | 可用但非台灣原生，正式文章建議用「好友」「死黨」                                                                                               |
-| 領導 | 台灣較少用於日常，但描述中國制度時保留                                                                                                         |
-| 估計 | 中國口語常用（「估計他不會來」），台灣口語更常說「大概」「應該」「可能」；書面正式語境可用「預估」「推估」。描述統計數字時保留（「初步估計」） |
+- **Pacific Coast Highway** — spell out on first use, then `PCH` is acceptable. Never "Highway 1" in body prose.
+- **The Village** — the established local name for the downtown core; capital-T when used as the proper name.
+- **Top of the World** — always the full name. Never abbreviate to "TOW."
+- **Sawdust Art Festival**, **Pageant of the Masters**, **Festival of Arts** — full official names; do not shorten.
+- **greenbelt / bluebelt** — lowercase as common nouns (Laguna's protected open space and marine reserve), unless naming a specific program.
 
-完整詞庫見 `data/terminology/`（YAML 格式，持續擴充中）。
+### Class B: judge by context
+
+| Term               | Note                                                                                                    |
+| ------------------ | ------------------------------------------------------------------------------------------------------- |
+| plein air          | Two words as a noun ("painted en plein air"); hyphenate as a compound adjective ("plein-air painting"). |
+| downtown           | Fine in lowercase as a general descriptor; use **The Village** when naming the specific downtown core.  |
+| artist colony      | Accurate historically; avoid as a present-tense cliché unless tied to a real, sourced fact.             |
+| OC / Orange County | Spell out "Orange County" on first use; "OC" is acceptable casual shorthand thereafter.                 |
+
+A full term store lives in `data/terminology/` (YAML, inherited from upstream and Taiwan-oriented; the LB term set is being grown incrementally).
 
 ---
 
-# Taiwan.md 用語校正基準
+# LagunaBeach.md naming-correction baseline
 
-> 台灣是一個國家。文章用語應自然、自信，不刻意迴避也不刻意強調。
-
----
-
-## ✅ 正確（保留）
-
-### 文學性「島嶼」— 自然的修辭手法
-
-- 「這座島嶼最值得驕傲的成就」→ ✅ 文學表達，自然
-- 「這個島嶼最珍貴的自然資產」→ ✅ 修辭變化，避免全文重複「台灣」
-- 「這座島嶼認真對待公共生活」→ ✅ 結語式的詩意表達
-- 「讓這個島嶼成為亞洲人權的燈塔」→ ✅ 抒情語境
-- 「重新定義這個島嶼的創新能量」→ ✅ 總結性修辭
-- 「在東方島嶼上的完美體現」→ ✅ 地理描述 + 文學
-- "this island's unique position" → ✅ 英文修辭
-
-### 地理語境的「島嶼」
-
-- 「台灣島面積約 36,000 平方公里」→ ✅ 地理事實
-- 「島嶼生態系」→ ✅ 科學用語
-- 「海島型氣候」→ ✅ 氣候學
-
-### 區域地理的「地區」
-
-- 「北台灣地區」「中台灣地區」→ ⚠️ 視語境，大多可簡化為「北台灣」「中台灣」
-- 「原住民地區」「偏鄉地區」→ ✅ 正常用法
+> Laguna Beach is a specific place. Article language should name it confidently — neither dissolving it into a generic "Southern California beach town" nor over-decorating it.
 
 ---
 
-## ❌ 需要修正
+## ✅ Correct (keep)
 
-### 迴避「國家」的替代詞
+### Literary register — natural rhetoric
 
-- 「台灣地區」（替代「台灣」整體）→ ❌ 改為「台灣」
-  - 例：「台灣地區的經濟發展」→「台灣的經濟發展」
-  - 但：「中台灣地區的進出口」→ 可簡化為「中台灣的進出口」
+- "the most photographed cove on this stretch of coast" → ✅ literary, natural
+- "the city's most fiercely protected stretch of open space" → ✅ rhetorical variation, avoids repeating "Laguna Beach"
+- "a town that takes its public art seriously" → ✅ concluding, evocative phrasing
+- "the seven miles of coast Laguna has guarded for a century" → ✅ lyrical context
 
-### 迴避主權的表述
+### Geographic context
 
-- 「台灣地區領導人」→ ❌ 改為「台灣總統」或「中華民國總統」
-- 「中華台北」（非奧運/WTO 語境）→ ❌ 改為「台灣」
-- 「海峽兩岸」替代外交語境中的「兩國」→ 視語境判斷
-
-### AI 常見迴避模式
-
-- 把「台灣」整體稱為「這個地區」→ ❌
-- 把「國家政策」寫成「地區政策」→ ❌
-- 避免用「國家」而用「經濟體」→ ⚠️ 經濟語境 OK，政治語境不 OK
-- 把所有「國家」換成「島嶼」→ ❌ 過度替換
+- "Laguna Beach covers 8.84 square miles" → ✅ geographic fact (`knowledge/History/founding-and-early-history.md`; verify every figure against `knowledge/` before writing it — Rule 12)
+- "coastal sage scrub ecosystem" → ✅ scientific term
+- "Mediterranean climate" → ✅ climatology
 
 ---
 
-## 🎯 校正原則
+## ❌ Needs correction
 
-1. **自然優先**：讀起來像人寫的，不像 AI 刻意替換的
-2. **文學「島嶼」保留**：作為修辭手法完全 OK，尤其在結語、抒情段落
-3. **政治語境直球**：該說國家就說國家，該說總統就說總統
-4. **地理語境準確**：「北台灣」優於「北台灣地區」，但「偏鄉地區」OK
-5. **不過度矯正**：不要把所有「島嶼」都改成「國家」，那同樣不自然
-6. **英文同理**："this island" 文學語境 OK，"this region" 替代 "this country" 不 OK
+### Generic substitutes that erase the place
+
+- "this coastal town" / "this seaside community" (standing in for Laguna Beach as a whole) → ❌ use "Laguna Beach" or "the city"
+  - e.g. "this coastal town's economy" → "Laguna Beach's economy"
+  - but: "the south end of the city" → fine, it names a real part
+
+### Brochure evasion
+
+- "a hidden gem on the California coast" → ❌ see [EDITORIAL.md](EDITORIAL.md) generic-language tells; name the specific thing
+- "nestled between the hills and the sea" → ❌ brochure verb; state a concrete fact instead
+
+### Common AI evasion patterns
+
+- Calling Laguna Beach "the region" / "the area" instead of naming it → ❌
+- Replacing a specific beach, gallery, or neighborhood with "a local spot" → ❌
+- "something for everyone" in place of naming who, specifically → ❌
+- Over-correcting every "Laguna Beach" into "this artist enclave" → ❌ over-substitution is its own tell
 
 ---
 
-## 📝 台文正字與語言正名
+## 🎯 Correction principles
 
-### 台文正字「阿媽」
+1. **Natural first**: it should read like a person wrote it, not like an AI swapping words.
+2. **Literary variation is fine**: rhetorical synonyms for "Laguna Beach" are good, especially in closings and reflective passages.
+3. **Name the specific place**: when you mean a beach, a gallery, a trail, name it — don't hide behind "a local spot."
+4. **Geographic accuracy**: "The Village" beats "the downtown area" when you mean the specific core; "south Laguna" is fine.
+5. **Don't over-correct**: not every "Laguna Beach" needs replacing with a flourish — that is equally unnatural.
+6. **Verify every concrete claim**: a figure, a date, a count must trace to `knowledge/` before you write it (Rule 12).
 
-- 正確：「阿媽」（a-má）— 台語正字為「媽」
-- 錯誤：「阿嬤」— 「嬤」是國語系統後來的用字
-- 例外：「魔法阿嬤」等作品名稱保持原名
+---
 
-### 台語正名
+## 📝 Proper-noun accuracy and local spelling
 
-- 正確：「台語」— 依據《國家語言發展法》（2022）正名為「台灣台語」
-- 錯誤：「閩南語」— 語言學分類語境可用「台語（閩南語）」保留說明
-- 保留：「閩南文化」「閩南」— 族群/文化稱呼，不同於語言正名
+### Get the official names exactly right
+
+- Correct: **Pageant of the Masters** — the official name of the living-pictures show.
+- Wrong: "Masters Pageant" / "the Pageant of Masters" — non-canonical word order.
+- Exception: keep an organization's or work's exact registered name even if it breaks a house rule.
+
+### Local vs. official naming
+
+- Correct: **The Village** — the local name for the downtown core; use it when locals would.
+- Correct: **Pacific Coast Highway / PCH** — both the official and the everyday local name.
+- Keep: **Heisler Park**, **Main Beach**, **Crystal Cove** — official proper nouns; spell exactly, do not paraphrase.

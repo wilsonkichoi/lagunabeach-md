@@ -269,7 +269,7 @@ These are the English-language equivalent of Taiwan.md's "plastic phrases" — w
 
 ### The "Not Just X, It's Y" Pattern
 
-The same AI fingerprint Taiwan.md flags in Chinese ("不是 X，是 Y") shows up in English travel writing as "isn't just a restaurant, it's an experience" / "more than a museum, it's a journey through California art." In nearly every case, the "X" half is a strawman the reader never assumed, manufactured purely to set up the "Y" half. Delete the setup and state "Y" directly — the sentence loses nothing and gains confidence.
+This AI fingerprint (the "not just X, it's Y" construction, which Taiwan.md flags in its own language too) shows up in English travel writing as "isn't just a restaurant, it's an experience" / "more than a museum, it's a journey through California art." In nearly every case, the "X" half is a strawman the reader never assumed, manufactured purely to set up the "Y" half. Delete the setup and state "Y" directly — the sentence loses nothing and gains confidence.
 
 ```
 ❌ "The Cliff Restaurant isn't just a place to eat — it's a destination for the view."

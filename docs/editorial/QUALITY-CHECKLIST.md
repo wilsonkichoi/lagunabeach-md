@@ -1,6 +1,6 @@
 ---
 title: 'QUALITY-CHECKLIST'
-description: '文章品質驗證清單 — REWRITE-PIPELINE Stage 3 執行手冊'
+description: 'Article quality-verification checklist — REWRITE-PIPELINE Stage 3 runbook'
 type: 'editorial-canonical'
 status: 'canonical'
 current_version: 'v1.1'
@@ -17,206 +17,206 @@ upstream_canonical:
   - '../pipelines/REWRITE-PIPELINE.md'
 ---
 
-# QUALITY-CHECKLIST.md — 文章品質驗證清單
+# QUALITY-CHECKLIST.md — article quality-verification checklist
 
-> 這是 REWRITE-PIPELINE Stage 3 的執行手冊。
-> 每篇文章在 commit 前，必須逐項通過這份清單。
-> **不合格 = 不 commit。修正後重新驗證。**
-
----
-
-## 一、五指檢測（手動，60 秒）
-
-逐項回答，不能跳過：
-
-| #   | 檢測           | 問自己                                   | 合格標準                               |
-| --- | -------------- | ---------------------------------------- | -------------------------------------- |
-| 🫵  | **驚訝點**     | 讀者會在哪一句說「哦？」                 | 能指出具體的一句話                     |
-| ✌️  | **兩個轉折**   | 故事有幾個真轉折？                       | ≥ 2 個（不是「然而」「但是」式假轉折） |
-| 🤟  | **策展句**     | 有沒有一句不傳遞資訊、只製造理解的句子？ | ≥ 1 個（📝 callout 或呼吸段）          |
-| 🖐️  | **念結尾**     | 把結尾大聲念出來，有餘韻嗎？             | 念完想停頓 3 秒 = 合格                 |
-| ✊  | **一句話轉述** | 能跟朋友一句話說完嗎？                   | 能自然說出「欸你知道嗎，[一句話]」     |
+> This is the runbook for REWRITE-PIPELINE Stage 3.
+> Every article must pass every item on this checklist before commit.
+> **Fail = don't commit. Fix, then re-verify.**
 
 ---
 
-## 二、結構驗證（逐項打勾）
+## 1. Five-finger test (manual, 60 seconds)
 
-### 人物與引語（EDITORIAL v4）
+Answer each one; don't skip:
 
-- [ ] 文章第一個出現的名字是**具體的人**（不是機構、不是概念）
-- [ ] 至少 **2 句真人引語**，每句標注出處
-- [ ] 引語有語氣特徵（不是官方聲明式）
+| #   | Test                    | Ask yourself                                                   | Pass standard                                        |
+| --- | ----------------------- | -------------------------------------------------------------- | ---------------------------------------------------- |
+| 🫵  | **Surprise point**      | Where will the reader say "huh, didn't know that"?             | You can point to a specific sentence                 |
+| ✌️  | **Two turns**           | How many real turns does the story have?                       | ≥ 2 (not fake "however"/"but" pivots)                |
+| 🤟  | **Curation line**       | Is there a sentence that conveys understanding, not just info? | ≥ 1 (a 📝 callout or a breathing line)               |
+| 🖐️  | **Read the ending**     | Read the closing aloud — does it resonate?                     | You want to pause 3 seconds after = pass             |
+| ✊  | **One-sentence retell** | Can you tell a friend the gist in one sentence?                | You can naturally say "hey, did you know [one line]" |
 
-### 開場（前 3 句）
+---
 
-- [ ] 前三句有**具體事實**（年份/數字/人名，至少 2 種）
-- [ ] 不是「台灣是⋯⋯的國家」「隨著⋯⋯的發展」式教科書開場
-- [ ] 開場模式屬於五種之一：場景進入 / 數字衝擊 / 反差 / 問題勾引 / 矛盾數字
+## 2. Structure verification (check each box)
 
-### 正文
+### People and quotes (EDITORIAL v4)
 
-- [ ] 每個轉折有**因果鏈**（誰→因為什麼→導致什麼）
-- [ ] 挑戰/爭議是**編織在故事裡**（不是最後補一段「然而也面臨挑戰」）
-- [ ] **不是百科排列**（不是 A→B→C→D 線性堆砌）
-- [ ] 有敘事弧線（讀者能感受到故事在「前進」）
+- [ ] The first name that appears is a **specific person** (not an institution, not a concept)
+- [ ] At least **2 real-person quotes**, each with an attributed source
+- [ ] Quotes have a voice (not official-statement boilerplate)
 
-### 結尾（最後 3-5 行）
+### Opening (first 3 sentences)
 
-- [ ] 不含罐頭詞：「繼續發光」「值得期待」「也是台灣的故事」「永不停歇的對話」「持續書寫」
-- [ ] **不含「故事還在寫」family**（2026-05-09 新增 per 哲宇 callout）：「後來，這個故事還在寫」「故事還沒完結」「還在繼續書寫」「持續被書寫著」「故事仍在進行」「未完待續」 — 這族 soft hand-waving 結尾跟「將繼續發光發熱」同類 anti-pattern：作者寫不出具體 closure 就退到「故事-as-meta-narrative」陳腔。改寫策略：用具體事件（最近一次展演 / 最新作品 / 現在這個禮拜）取代抽象「故事」，或把 section 砍掉直接收尾
-- [ ] 結尾模式屬於五種之一：餘韻 / 翻轉 / 時間跳躍 / 問題 / 灰色地帶
-- [ ] 單獨讀結尾，沒讀全文的人也覺得有意思
+- [ ] The first three sentences carry **concrete facts** (year/number/name — at least 2 kinds)
+- [ ] Not a textbook opener like "Laguna Beach is a town that…" or "As … developed, …"
+- [ ] The opening fits one of five modes: scene entry / number shock / contrast / question hook / contradictory figures
 
-### 富文本
+### Body
 
-- [ ] 至少 **2 個 📝 callout**（策展觀點）
-- [ ] 至少 **1 個 stat block 或 pull quote**
-- [ ] 至少 **2-3 個 wikilink**（站內連結 `[[]]`）
+- [ ] Every turn has a **causal chain** (who → because of what → leading to what)
+- [ ] Challenges/controversy are **woven into the story** (not a tacked-on "however, it also faces challenges" paragraph)
+- [ ] **Not an encyclopedia list** (not a linear A→B→C→D pile-up)
+- [ ] There's a narrative arc (the reader feels the story "moving forward")
 
-### Frontmatter 完整性
+### Ending (last 3-5 lines)
 
-- [ ] `subcategory` 已填寫，且對應 `docs/taxonomy/SUBCATEGORY.md` 該 category 的子分類表
-- [ ] 跨主題文章有統一 tag（如原住民相關 → `原住民族`）
-- [ ] `featured: true/false` 已設定
+- [ ] No canned phrases: "will continue to shine," "worth looking forward to," "a must-see on your itinerary," "an endless conversation," "still being written"
+- [ ] **No "the story is still being written" family** (added 2026-05-09): "and the story goes on," "the story isn't over," "still being written," "to be continued" — this family of soft hand-waving endings is the same anti-pattern as "will continue to shine": the writer can't produce concrete closure and retreats to "story-as-meta-narrative" cliché. Rewrite strategy: replace the abstract "story" with a concrete event (the most recent show / the latest work / this week), or cut the section and end on the last useful fact.
+- [ ] The ending fits one of five modes: resonance / reversal / time jump / question / gray area
+- [ ] Read alone, the ending is interesting even to someone who didn't read the whole article
 
-### 來源引用（Footnote-First，v2.9 新增）
+### Rich text
 
-- [ ] **5+ footnote 定義**（`[^n]: [來源](URL) — 完整描述文字`）在文章底部
-- [ ] **腳註格式規範**：連結 + 破折號 + 20-30 字描述（出版背景、內容特色、歷史價值）
-- [ ] **不要只有連結**：`[^1]: [URL]` 或 `[^1]: URL` 都不合格
-- [ ] **不要「同上」**：重複引用同一來源時，也要寫完整說明（可簡化但不空白）
-- [ ] 含至少 **2 個一手來源**（政府/學術/官方報告）
-- [ ] 含至少 **1 個英文來源**
-- [ ] **引用密度**：每 300 字 ≥ 1 個 `[^n]`（A 級 150 行 ≈ 至少 5 個）
-- [ ] 每個 `[^n]` 引用都有對應的定義（`grep` 驗證）
-- [ ] 正文中的數據和引語後面都有 footnote
-- [ ] **`## 參考資料` 標題存在**，位於延伸閱讀之後、腳註定義之前
+- [ ] At least **2 📝 callouts** (curatorial point of view)
+- [ ] At least **1 stat block or pull quote**
+- [ ] At least **2-3 wikilinks** (internal `[[]]` links)
 
-**腳註格式範例：**
+### Frontmatter completeness
+
+- [ ] `subcategory` is filled in and matches that category's subcategory table in `docs/taxonomy/SUBCATEGORY.md`
+- [ ] Cross-topic articles share a unified tag (e.g. fire-related → `wildfire`)
+- [ ] `featured: true/false` is set
+
+### Source citation (Footnote-First, added v2.9)
+
+- [ ] **5+ footnote definitions** (`[^n]: [source](URL) — full description`) at the bottom of the article
+- [ ] **Footnote-format standard**: link + dash + 20-30-word description (publication background, content, historical value)
+- [ ] **No bare links**: `[^1]: [URL]` or `[^1]: URL` is not acceptable
+- [ ] **No "ibid."**: when citing the same source again, still write a full description (shorter is fine, blank is not)
+- [ ] Contains at least **2 primary sources** (government / academic / official report)
+- [ ] Contains at least **1 recognized-authority source** (museum, historical society, peer-reviewed work)
+- [ ] **Citation density**: ≥ 1 `[^n]` per 300 words (an A-tier 150-line article ≈ at least 5)
+- [ ] Every `[^n]` reference has a matching definition (verify with `grep`)
+- [ ] Data and quotes in the body are each followed by a footnote
+- [ ] **The `## References` heading exists**, after Further reading and before the footnote definitions
+
+**Footnote-format example:**
 
 ```markdown
-[^1]: [《嚴家淦總統行誼訪談錄》](URL) — 國史館出版，2013 年嚴家淦逝世二十週年紀念叢書，收錄對其親朋故舊的口述訪談，還原其從財經改革到總統任內的完整歷程。
+[^1]: [City of Laguna Beach — 1993 Laguna Fire after-action report](URL) — official municipal report (1994); documents the 16,000 acres burned, 441 homes destroyed, and the evacuation that produced zero fatalities.
 ```
 
-**不合格範例：**
+**Non-acceptable examples:**
 
-| 不合格                  | 修正                                                                                                |
-| ----------------------- | --------------------------------------------------------------------------------------------------- |
-| `[^1]: [維基百科](URL)` | `[^1]: [維基百科：耕者有其田](URL) — 收錄台灣土地改革三個階段的詳細歷史數據和政策內容。`            |
-| `[^2]: 同上`            | `[^2]: [同上](URL) — 收錄公地放領 1951-1976 年間放領 138,957 公頃土地給 286,287 戶農戶的詳細數據。` |
+| Not acceptable           | Fix                                                                                                                                                                        |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `[^1]: [Wikipedia](URL)` | `[^1]: [Wikipedia: 1993 Laguna Beach fire](URL) — overview of the firestorm's timeline, the 16,000 acres burned, and the $528 million in damages, with sourced citations.` |
+| `[^2]: ibid.`            | `[^2]: [same source](URL) — covers the 441 homes destroyed and 270 damaged, and the city's post-fire building-code changes.`                                               |
 
-### 篇幅
+### Length
 
-- [ ] A 級文章：120-200 行
-- [ ] B 級文章：80-120 行
-- [ ] C 級文章：40-80 行
+- [ ] A-tier article: 120-200 lines
+- [ ] B-tier article: 80-120 lines
+- [ ] C-tier article: 40-80 lines
 
-### 用語規範（TERMINOLOGY.md）
+### Terminology standard (TERMINOLOGY.md)
 
-- [ ] A 類用語一律使用台灣在地詞彙（視頻→影片、質量→品質、軟件→軟體...）
-- [ ] B 類用語已判斷語境（描述中國制度時可保留中國用語）
-- [ ] 完整規範見 [TERMINOLOGY.md](./TERMINOLOGY.md)
-
----
-
-## 三、塑膠掃描（手動，90 秒）
-
-1. **只讀後半段**（從全文 60% 位置開始）
-2. 逐句問：「拿掉這句，文章會少什麼資訊？」
-3. 答案是「不會少」→ 這是塑膠句 → **替換成事實或刪除**
-4. 特別注意五品種塑膠（見 EDITORIAL.md）：
-   - 🔴 空洞修飾詞（「深遠影響」「重要角色」「不可或缺」）
-   - 🔴 不僅更是句式（「不僅⋯⋯更是⋯⋯」「從X到Y，從A到B」）
-   - 🔴 萬用結尾（「繼續發光」「值得期待」）
-   - 🔴 因果跳躍（「後來事業蒸蒸日上」「逐漸壯大」）
-   - 🔴 官方聲明式引語（「我們將持續推動⋯⋯」）
+- [ ] Class A terms use the canonical LB form (Highway 1 → Pacific Coast Highway, Sawdust Festival → Sawdust Art Festival, TOW → Top of the World…)
+- [ ] Class B terms judged by context (American-English register; spell out then abbreviate)
+- [ ] Full standard in [TERMINOLOGY.md](./TERMINOLOGY.md)
 
 ---
 
-## 四、自動驗證（必跑）
+## 3. Plastic-language scan (manual, 90 seconds)
+
+1. **Read only the second half** (start at the 60% mark)
+2. For each sentence ask: "if I cut this, what information does the article lose?"
+3. If the answer is "nothing" → it's a plastic sentence → **replace it with a fact or delete it**
+4. Watch especially for the five species of plastic (see EDITORIAL.md):
+   - 🔴 Empty modifiers ("profound impact," "important role," "indispensable")
+   - 🔴 "Not just, but more" constructions ("not just X, it's Y," "from X to Y, from A to B")
+   - 🔴 All-purpose endings ("will continue to shine," "worth looking forward to")
+   - 🔴 Causal leaps ("business then took off," "gradually grew")
+   - 🔴 Official-statement quotes ("we will continue to promote…")
+
+---
+
+## 4. Automated verification (must run)
 
 ```bash
-# 0. SSOT 同步（⚠️ 必做！只改 knowledge/，sync 到 src/content/）
-bash scripts/sync.sh
+# 0. SSOT sync (⚠️ required! edit knowledge/ only, sync to src/content/)
+bash scripts/core/sync.sh
 
-# 1. 空洞分數檢測（HARD = 0，WARN ≤ 3）
+# 1. Hollow-score check (HARD = 0, WARN ≤ 3)
 python3 scripts/tools/article-health.py knowledge/<Cat>/<file>.md --check=prose-health --output=json 2>&1 | \
   python3 -c "import json,sys; d=json.load(sys.stdin); \
   v=d.get('violations',[]); h=sum(1 for x in v if x['severity']=='HARD'); w=sum(1 for x in v if x['severity']=='WARN'); \
   print(f'HARD: {h} / WARN: {w}')"
 
-# 2. Build 驗證（必須不炸）
+# 2. Build verification (must not break)
 npx astro build 2>&1 | tail -3
 ```
 
-| 結果                  | 動作                         |
-| --------------------- | ---------------------------- |
-| hollow ≤ 3 + build OK | ✅ 進入 commit               |
-| hollow > 3            | ❌ 回去修正塑膠句，重跑      |
-| build 失敗            | ❌ 修 frontmatter/語法，重跑 |
+| Result                | Action                             |
+| --------------------- | ---------------------------------- |
+| hollow ≤ 3 + build OK | ✅ proceed to commit               |
+| hollow > 3            | ❌ go fix plastic sentences, rerun |
+| build fails           | ❌ fix frontmatter/syntax, rerun   |
 
 ---
 
-## 五、Commit + Push
+## 5. Commit + Push
 
-只有以上全部通過才執行：
+Run only after everything above passes:
 
 ```bash
 git add -A
-git commit -m "rewrite: [文章名] — EDITORIAL v4 + Pipeline v2.11"
+git commit -m "rewrite: [article name] — EDITORIAL v4 + Pipeline v2.11"
 git push
 ```
 
 ---
 
-## 六、格式驗證（Stage 4: FORMAT CHECK）
+## 6. Format verification (Stage 4: FORMAT CHECK)
 
-Commit 後逐項檢查結構是否符合範本（Stage 3 查品質，Stage 4 查格式）：
+After commit, check that the structure matches the template (Stage 3 checks quality, Stage 4 checks format):
 
-- [ ] Frontmatter 欄位完整（title/description/date/category/tags/subcategory/author/featured/lastVerified/lastHumanReview）
-- [ ] 30 秒概覽存在（blockquote，`> **30 秒概覽：**`）
-- [ ] 正文小標題不是問句
-- [ ] **延伸閱讀**區塊存在：
-  - [ ] 標準 Markdown 連結格式（不是 `[[wikilink]]`）
-  - [ ] 每條有一兩句話描述
-  - [ ] 3-5 條
-- [ ] `## 參考資料` 標題存在，且在腳註定義之前
-- [ ] 腳註格式：`[^n]: [來源名稱](URL) — 完整描述文字`
-- [ ] 沒有殘留舊格式（`## 參考資料` 下不該有 `- [來源](URL)` bullet list）
-
----
-
-## 七、交叉連結（Stage 5: CROSS-LINK）
-
-格式通過後，建立雙向延伸閱讀：
-
-- [ ] 本文延伸閱讀指向的文章都確實存在（`ls knowledge/{Category}/{文章名}.md`）
-- [ ] 反向檢查：相關文章的延伸閱讀中有指向本文的連結
-- [ ] 如果沒有 → 在相關文章的延伸閱讀區塊中加入本文連結（附描述）
-- [ ] 如果相關文章沒有延伸閱讀區塊 → 在 `## 參考資料` 之前新增
-- [ ] commit 所有被修改的文章（`cross-link: 為「{文章名}」建立雙向延伸閱讀`）
-- [ ] 只改延伸閱讀區塊，不順便修改其他文章的內容
+- [ ] Frontmatter fields complete (title/description/date/category/tags/subcategory/author/featured/lastVerified/lastHumanReview)
+- [ ] 30-second overview exists (blockquote, `> **30-second overview:**`)
+- [ ] Body subheadings are not questions
+- [ ] **Further reading** block exists:
+  - [ ] Standard Markdown link format (not `[[wikilink]]`)
+  - [ ] Each item has a sentence or two of description
+  - [ ] 3-5 items
+- [ ] `## References` heading exists, before the footnote definitions
+- [ ] Footnote format: `[^n]: [source name](URL) — full description`
+- [ ] No leftover old format (no `- [source](URL)` bullet list under `## References`)
 
 ---
 
-## 快速版（給熟練者）
+## 7. Cross-link (Stage 5: CROSS-LINK)
+
+After format passes, build bidirectional Further reading:
+
+- [ ] Every article this one's Further reading points to actually exists (`ls knowledge/{Category}/{article}.md`)
+- [ ] Reverse check: the related articles' Further reading links back to this one
+- [ ] If not → add a link to this article (with description) in the related article's Further reading block
+- [ ] If the related article has no Further reading block → add one before `## References`
+- [ ] Commit every modified article (`cross-link: build bidirectional Further reading for "{article}"`)
+- [ ] Touch only the Further reading block; don't edit other content while you're in there
+
+---
+
+## Quick version (for the practiced)
 
 ```
-□ 五指檢測（驚訝/轉折/策展/結尾/一句話）
-□ 第一個名字是人？2 句引語？因果鏈？
-□ 開場有事實？結尾不是罐頭？
-□ 2 callout + 1 stat/quote + 2 wikilink + 5 URL？
-□ 後半段塑膠掃描？
-□ subcategory 正確？跨主題 tag 有加？
-□ hollow ≤ 3？build OK？
+□ Five-finger test (surprise/turns/curation/ending/one-sentence)
+□ First name is a person? 2 quotes? causal chain?
+□ Opening has facts? ending isn't canned?
+□ 2 callouts + 1 stat/quote + 2 wikilinks + 5 URLs?
+□ Plastic scan of the second half?
+□ subcategory correct? cross-topic tag added?
+□ hollow ≤ 3? build OK?
 → commit
-□ 格式範本逐項通過？（30秒概覽/延伸閱讀/## 參考資料/腳註格式）
-□ 雙向延伸閱讀建立？（相關文章有連回來？）
+□ Format template passes item by item? (30-sec overview / Further reading / ## References / footnote format)
+□ Bidirectional Further reading built? (do related articles link back?)
 → done
 ```
 
 ---
 
-_版本：v1.2 | 2026-04-04_
-_v1.1→v1.2：新增六、格式驗證（Stage 4）+ 七、交叉連結（Stage 5）；恢復 `## 參考資料` 標題_
-_配套：RESEARCH.md（研究方法論）+ REWRITE-PIPELINE.md（流程）+ EDITORIAL.md（品質標準）+ RESEARCH-TEMPLATE.md（研究模板）_
+_Version: v1.2 | 2026-04-04_
+_v1.1→v1.2: added §6 Format verification (Stage 4) + §7 Cross-link (Stage 5); restored the `## References` heading_
+_Companions: RESEARCH.md (research methodology) + REWRITE-PIPELINE.md (process) + EDITORIAL.md (quality standard) + RESEARCH-TEMPLATE.md (research template)_

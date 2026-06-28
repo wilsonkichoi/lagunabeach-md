@@ -1,6 +1,6 @@
 ---
-title: 'graph.md — Taiwan.md 視覺化編輯指南'
-description: '文章內視覺化的 DNA 層 canonical：何時用哪種圖、怎麼做才好、模組語法、AI 可讀性、多語、視覺化檢查清單。'
+title: 'graph.md — LagunaBeach.md visualization editing guide'
+description: 'DNA-layer canonical for in-article visualization: when to use which chart, how to do it well, module syntax, AI-readability, multilingual, visualization checklist.'
 type: 'editorial-canonical'
 status: 'canonical'
 current_version: 'v2.0'
@@ -20,393 +20,381 @@ related:
   - '../factory/SPORE-IG-PIPELINE.md'
 ---
 
-# graph.md — 視覺化編輯指南
+# graph.md — visualization editing guide
 
-> **🖼️ 活範例（17 模組實際渲染長相）**：[視覺化模組型錄](/about/視覺化模組型錄)（`knowledge/About/視覺化模組型錄.md`）。本檔講「何時用 / 怎麼做 / 語法」，型錄頁讓你直接看到「長什麼樣」，兩者互為搭檔。
+> **🖼️ Live examples (how the modules actually render)**: [Visualization module catalog](/about/visualization-catalog) (`knowledge/About/visualization-catalog.md`). This file covers "when / how / syntax"; the catalog page lets you see "what it looks like." The two are companions.
 >
-> 文章內「資料視覺化／視覺對比」的 canonical。寫文走 [REWRITE-PIPELINE](../pipelines/REWRITE-PIPELINE.md) Stage 2「視覺化思考」+ Stage 4「視覺化檢查」時讀本檔。
+> This is the canonical for in-article "data visualization / visual comparison." Read it when writing via [REWRITE-PIPELINE](../pipelines/REWRITE-PIPELINE.md) Stage 2 ("visualization thinking") + Stage 4 ("visualization check").
 >
-> 設計脈絡（為什麼這樣選技術、The Pudding 參考研究）：[reports/article-visualization-design-2026-06-06.md](../../reports/article-visualization-design-2026-06-06.md)。模組樣式：[src/styles/article-modules.css](../../src/styles/article-modules.css)。渲染：article.template.astro `renderTwModule`。
+> Design context (why these technical choices, The Pudding reference research): [reports/article-visualization-design-2026-06-06.md](../../reports/article-visualization-design-2026-06-06.md). Module styles: [src/styles/article-modules.css](../../src/styles/article-modules.css). Rendering: `article.template.astro` → `renderTwModule` in `src/utils/article-render.ts`.
+
+> **Inherited-renderer note (flagged for a later code batch):** the module class prefix is `tw-*` (Taiwan.md heritage) and is the literal keyword the renderer dispatches on (`src/utils/article-render.ts`) — **do not rename it in articles; it must match the code.** A few in-block markers are also still Chinese-only in the renderer: the note-box kind (`說明`/`方法`/`註`/`更正`/`更新`), the isotype unit row (`單位：`), and the line-chart baseline row (`基準：`). The cross-module source row accepts English (`Source:` / `source:`). Until the renderer is de-Taiwaned, type the literal tokens shown in §4; English glosses are given alongside each.
 
 ---
 
-## 一、為什麼視覺化（不是配圖好看）
+## 1. Why visualize (it's not "a nice picture")
 
-視覺化對 Taiwan.md 是**四條使命的交會點**：
+Visualization serves several missions at once for LagunaBeach.md:
 
-- **逆熵**：把一段密集數字 prose 壓成一眼可讀的結構。
-- **策展非百科**：敘事型視覺化的靈魂是 **annotation（直接在圖上寫「為什麼重要」）**——維基給中性圖，我們給帶觀點的標註。
-- **正確性／可信度**：誠實座標軸、來源標註、取樣偏誤揭露——台灣數位媒體普遍不及格，是我們的差異化。
-- **主權的巴別塔 / AI-SEO**（最關鍵）：**「讓 LLM 讀得懂的視覺化 = 主權的視覺化」**。我們的圖用 semantic HTML / inline SVG + 資料表 fallback，所以人、螢幕閱讀器、Google、GPTBot/PerplexityBot/ClaudeBot 都讀得到，babel 也翻得了。圖片型、D3/Canvas viz 對 AI 爬蟲是黑洞——**禁用**。
+- **Anti-entropy**: compress a dense paragraph of numbers into a structure readable at a glance.
+- **Curation, not encyclopedia**: the soul of narrative visualization is **annotation (writing "why this matters" directly on the chart)** — Wikipedia gives a neutral chart; we give an annotated one with a point of view.
+- **Accuracy / credibility**: honest axes, source labels, sampling-bias disclosure. This is a differentiator.
+- **AI-SEO** (most critical): **"a visualization an LLM can read = a durable visualization."** Our charts use semantic HTML / inline SVG + a data-table fallback, so humans, screen readers, Google, and GPTBot/PerplexityBot/ClaudeBot can all read them, and translation tooling can localize them. Image-type and D3/Canvas viz are black holes to AI crawlers — **banned**.
 
-**鐵律一句話**：絕不寫「如上圖所示／如下圖」——AI 爬蟲看不到圖，這句話對它毫無意義。關鍵數值一定也寫進 prose。
-
----
-
-## 二、型錄 — 何時用哪種（從「資料關係」選，不從「好看」選）
-
-骨架：FT Visual Vocabulary 九大類 + big number + 質性。**先問「這個問題要用什麼資料關係回答」**。
-
-| 類別（資料關係）                    | 該用                                                     | 不該用                            | Taiwan.md 模組                                                                    |
-| ----------------------------------- | -------------------------------------------------------- | --------------------------------- | --------------------------------------------------------------------------------- |
-| **比較** 這些東西多不一樣？         | 長條 / dot plot / **slope（剛好兩點）** / 質性兩制度     | 時間序列用折線；>20 類用 dot plot | `tw-bars` / `tw-slope` / `tw-versus`                                              |
-| **排名** 誰最大/排第幾？            | 排序橫長條 / 排序表 / dot strip                          | 重點是數值差不是名次              | `tw-bars`（排序）/ `tw-dot`                                                       |
-| **變異/分歧 ±** 偏離基準多少？      | 分歧條（0 在中線）/ Likert 堆疊                          | 截斷軸普通長條                    | `tw-bars`（含負值自動分歧）/ `tw-stack`                                           |
-| **部分對全體** 各部分怎麼組成整體？ | 圓餅(≤5類) / **堆疊條(跨列比較)** / **waffle(單一總體)** | >5 類用圓餅；要精確讀數           | `tw-waffle`（一個總體）/ `tw-stack`（跨列組成比較）                               |
-| **分布** 資料怎麼分散？             | **dot strip（共用軸）** / 金字塔（背對背） / 直方        | —                                 | `tw-dot` / `tw-pyramid`；直方圖 v3                                                |
-| **相關** 兩變數有關係嗎？           | 散佈 / 泡泡 / **heatmap 矩陣**                           | >幾千點重疊                       | `tw-heatmap`；散佈圖 v3                                                           |
-| **趨勢/時間** 隨時間怎麼變？        | **折線（含基準線）** / slope（恰兩點）/ 面積             | <5 點且單類用長條                 | `tw-line`（多序列+`基準：`）/ `tw-slope`                                          |
-| **量級人性化** 大數字讓人有感？     | **單位圖（1 符號=N）** / 大字卡                          | 切半個符號表小數                  | `tw-iso` / `tw-figure`                                                            |
-| **流向** 怎麼流動/轉換？            | Sankey / 漏斗                                            | 並排比較                          | （v3；先用 `tw-stack` 或表格替代）                                                |
-| **地理** 地理分布？                 | **縣市磚圖（等大磚塊，需標準化率值）** / choropleth      | 原始數量未標準化                  | `tw-tiles`（22 縣市佈局寫死，零形狀幻覺，[REFLEXES #61](../semiont/REFLEXES.md)） |
-| **階層/網絡** 結構/關係？           | tree / network                                           | 毛球圖（先過濾）                  | （少用，v3）                                                                      |
-| **單一關鍵數字** 這數字重要嗎？     | big number card（必帶脈絡）                              | 只放數字不放脈絡                  | `tw-figure` / `tw-stat`                                                           |
-| **質性/標註** 哪句話最重要？        | pull quote / annotated timeline / **【說明】方法盒**     | ~~word cloud~~                    | `tw-quote` / `tw-timeline` / `tw-source` / `tw-note`                              |
-
-### 🚫 禁區（一律不要）
-
-- **word cloud**（看似直覺、分析力極弱，重要性≠頻率）
-- **3D 圖、立體圓餅、爆炸圓餅**（chartjunk）
-- **雙 Y 軸**（讀者無法判斷哪條對哪軸）
-- **截斷 Y 軸的長條圖**（系統性誇大差異，即使告知截斷讀者仍高估——Correll CHI 2020）
-- **圓餅超過 5 類** / **未標準化的 choropleth**（大面積區搶眼但人口少）
-- **圖片型圖表 / D3 / Canvas**（AI 爬蟲黑洞、多語要重製）
+**Iron rule in one line**: never write "as shown above / as shown below" — AI crawlers can't see the chart, so the phrase is meaningless to them. Key values always go into the prose too.
 
 ---
 
-## 三、怎麼做才好（每條都有好壞對照）
+## 2. The catalog — when to use which (pick by "data relationship," not by "looks good")
 
-1. **標題說重點，不說標籤**：✅「健保費用 10 年漲 43%，但佔薪資比例反降」 ❌「健保費用趨勢」。讀者只讀標題要能帶走 takeaway。
-2. **直接標籤 ＞ 圖例**：折線終點直接標名（`tw-line` 已自動）；不要讓眼睛在圖例和線之間跳。
-3. **色彩三鐵律**：① 語意色（紅=危險綠=好）但 8% 男性紅綠色盲 → ② 用色盲友善盤（模組已用暖橘/冷青/綠 Okabe-Ito 系）③ **顏色不可是唯一編碼**（配文字/形狀）。對比 WCAG（圖形 3:1、文字 4.5:1）。
-4. **排序**：幾乎都該排序（大→小），除非固定類別（月份/年齡/年份保持自然序）。
-5. **誠實座標軸**：長條**必從 0**；折線可不從 0 但 `tw-line` 會把 y 軸上下限標出來讓讀者看見範圍。
-6. **data-ink**：刪 3D/陰影/多餘格線/重複圖例（Tufte）。模組已內建簡潔。
-7. **敘事型五層**（Taiwan.md 全用敘事型，不是探索型）：作者選好 takeaway / **一圖一重點**（一張圖在說兩件事就拆兩張）/ **annotation 是第一公民** / 漸進揭露 / 文字與圖協作（不是裝飾）。
-8. **無障礙 + 可信度**：
-   - 圖表（`tw-line`/`tw-slope`/`tw-stack`/`tw-tiles`/`tw-heatmap`）自動帶**資料表 fallback** + `aria-label`。
-   - **每個資料模組標來源**：在 fenced block 加一列 `來源：機構，年份`（自動變來源 caption，所有模組通用）。
-   - 取樣偏誤揭露；N<30 警示、N<10 不畫趨勢線；不確定性盡量揭露。
-9. **預設全部看得見（visible-by-default）**：重要資訊不藏在 hover / click / 捲動觸發後面。NYT 圖表組的結論：「如果你做了 tooltip，假設沒有人會看到它」；Datawrapper 拒絕出貨下拉選單。我們是靜態站，這條天生成立——把它當鐵律守住，不要想辦法繞。
-10. **強調 + 灰色脈絡**：一張圖在講「其中一個」的故事時，用 `*` 強調該列（`tw-bars`/`tw-slope`/`tw-dot` 支援），其餘列自動退灰當脈絡。比「全部都上色」更會講話（Datawrapper：context grey + 1-2 highlighted）。
-11. **【說明】與（註）公約**（報導者 convention，對應 error boundary = traceability）：數據段的計算方式用 `tw-note`（`說明`／`方法`）交代；發布後的更正用（`註`／`更正`）保留在原地，不抹掉。讀者看得到你怎麼算、你錯過什麼，是信任訊號不是污點。
-12. **多語標籤要留呼吸**：六語的標籤長度差很大（zh 2 字 ≈ ko 5 字母 ≈ fr 12 字母）。SVG 模組的端點標籤邊界是動態算的，但寫作時序列名仍盡量 ≤ 4 個漢字，磚圖/堆疊的類別名 ≤ 6 字。
+Skeleton: the FT Visual Vocabulary nine families + big number + qualitative. **First ask: "what data relationship does this question need to answer?"**
+
+| Category (data relationship)                              | Use                                                                                   | Don't use                                             | Module                                                                        |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------- |
+| **Comparison** how different are these?                   | bar / dot plot / **slope (exactly two points)** / qualitative two-system              | line for time series; dot plot for >20 categories     | `tw-bars` / `tw-slope` / `tw-versus`                                          |
+| **Ranking** who's biggest / what place?                   | sorted horizontal bars / sorted table / dot strip                                     | when the point is the value gap, not the rank         | `tw-bars` (sorted) / `tw-dot`                                                 |
+| **Deviation ±** how far from a baseline?                  | diverging bars (0 on the center line) / Likert stack                                  | a truncated-axis plain bar                            | `tw-bars` (auto-diverges with negatives) / `tw-stack`                         |
+| **Part-to-whole** how do parts compose the whole?         | pie (≤5 categories) / **stacked bar (cross-row compare)** / **waffle (single whole)** | pie for >5 categories; when precise reading is needed | `tw-waffle` (one whole) / `tw-stack` (cross-row composition)                  |
+| **Distribution** how is the data spread?                  | **dot strip (shared axis)** / pyramid (back-to-back) / histogram                      | —                                                     | `tw-dot` / `tw-pyramid`; histogram is v3                                      |
+| **Correlation** are two variables related?                | scatter / bubble / **heatmap matrix**                                                 | thousands of overlapping points                       | `tw-heatmap`; scatter is v3                                                   |
+| **Trend / time** how does it change over time?            | **line (with baseline)** / slope (exactly two points) / area                          | <5 points and single series → use bars                | `tw-line` (multi-series + `基準：`) / `tw-slope`                              |
+| **Humanize magnitude** make a big number land?            | **isotype (1 symbol = N)** / big-number card                                          | half a symbol for a fraction                          | `tw-iso` / `tw-figure`                                                        |
+| **Flow** how does it move / convert?                      | Sankey / funnel                                                                       | side-by-side comparison                               | (v3; use `tw-stack` or a table for now)                                       |
+| **Geography** geographic distribution?                    | tile cartogram (equal tiles, needs normalized rates) / choropleth                     | raw counts, not normalized                            | `tw-tiles` (**inherited Taiwan 22-county layout — no LB analog yet; see §9**) |
+| **Hierarchy / network** structure / relationships?        | tree / network                                                                        | hairball graph (filter first)                         | (rare, v3)                                                                    |
+| **Single key number** is this number important?           | big-number card (always with context)                                                 | a bare number with no context                         | `tw-figure` / `tw-stat`                                                       |
+| **Qualitative / annotation** which sentence matters most? | pull quote / annotated timeline / **note box**                                        | ~~word cloud~~                                        | `tw-quote` / `tw-timeline` / `tw-source` / `tw-note`                          |
+
+### 🚫 Banned (never)
+
+- **word cloud** (looks intuitive, analytically weak; importance ≠ frequency)
+- **3D charts, 3D pie, exploded pie** (chartjunk)
+- **dual Y-axis** (the reader can't tell which line maps to which axis)
+- **truncated-Y bar charts** (systematically exaggerate differences; even when told about the truncation, readers still overestimate — Correll CHI 2020)
+- **pie with more than 5 slices** / **un-normalized choropleth** (large-area regions dominate but have few people)
+- **image-type charts / D3 / Canvas** (AI-crawler black holes; have to be re-made per language)
 
 ---
 
-## 四、模組語法（17 個，` ```tw-* ` fenced block，`|` 分欄）
+## 3. How to do it well (each rule has a good/bad pair)
 
-> **共通約定（v2.0，所有模組一致）**：
+1. **Title states the point, not the label**: ✅ "LAM, founded 1918, is the oldest cultural institution in Orange County" ❌ "Laguna Art Museum timeline." A reader who reads only the title should walk away with the takeaway.
+2. **Direct labels > legend**: label the line endpoint directly (`tw-line` does this automatically); don't make the eye jump between legend and line.
+3. **Three color rules**: ① semantic color (red = danger, green = good) but 8% of men are red-green colorblind → ② use a colorblind-friendly palette (the modules use a warm-orange / cool-cyan / green Okabe-Ito set) ③ **color must never be the only encoding** (pair with text/shape). Meet WCAG contrast (graphics 3:1, text 4.5:1).
+4. **Sort**: almost always sort (large → small), unless the category is fixed (months / ages / years keep their natural order).
+5. **Honest axes**: bars **always start at 0**; lines need not start at 0, but `tw-line` marks the y-axis min/max so the reader sees the range.
+6. **data-ink**: cut 3D / shadows / redundant gridlines / duplicate legends (Tufte). The modules are clean by default.
+7. **Narrative-type, five layers** (LagunaBeach.md uses narrative, not exploratory viz): author picks the takeaway / **one chart, one point** (a chart saying two things gets split into two) / **annotation is a first-class citizen** / progressive disclosure / text and chart collaborate (chart isn't decoration).
+8. **Accessibility + credibility**:
+   - Charts (`tw-line`/`tw-slope`/`tw-stack`/`tw-tiles`/`tw-heatmap`) carry an automatic **data-table fallback** + `aria-label`.
+   - **Every data module labels its source**: add a `Source: institution, year` row inside the fenced block (auto-becomes the source caption; works on all modules).
+   - Disclose sampling bias; warn at N<30, don't draw a trend line at N<10; disclose uncertainty where you can.
+9. **Visible-by-default**: don't hide important info behind hover / click / scroll triggers. The NYT graphics desk's conclusion: "if you made a tooltip, assume no one will see it"; Datawrapper refuses to ship dropdowns. We're a static site, so this holds for free — treat it as an iron rule, don't find a way around it.
+10. **Emphasis + gray context**: when a chart tells the story of "one of them," highlight that row with `*` (supported by `tw-bars`/`tw-slope`/`tw-dot`); the rest auto-dim into context. This speaks more clearly than "color everything" (Datawrapper: context grey + 1-2 highlighted).
+11. **Note and correction convention** (error boundary = traceability): explain a data section's calculation method with `tw-note` (`說明` = explanation / `方法` = method); keep a post-publication correction in place with (`註` = note / `更正` = correction) rather than erasing it. The reader seeing how you calculated and what you missed is a trust signal, not a blemish.
+12. **Leave breathing room for labels**: if this content is ever translated, label lengths differ across languages. SVG endpoint-label bounds are computed dynamically, but when writing, keep series names short and category names (tiles/stacks) concise.
+
+---
+
+## 4. Module syntax (17 modules, ` ```tw-* ` fenced block, `|` separates columns)
+
+> **Shared conventions (v2.0, consistent across all modules):**
 >
-> 1. **來源列**：任一列 `來源：…` / `資料來源：…` 自動抽成模組下方的來源 caption（**全部 17 個模組都支援**，v1.0 的 figure/versus/timeline 漏接已修）。
-> 2. **標題列**：資料模組（bars/stat/versus/timeline/heatmap/slope/dot/stack/pyramid/tiles/iso）第一列**不含 `|`** 就視為模組標題——照 §三.1 寫成斷言句。
-> 3. **強調列**：`tw-bars` / `tw-slope` / `tw-dot` 的標籤開頭加 `*` = 強調該列，其餘列自動退灰。
-> 4. 模組讀 tokens.css → 深色模式/RWD/字體自動。
+> 1. **Source row**: any row `Source: …` / `source: …` (Chinese `來源：` / `資料來源：` also accepted) is extracted into the module's source caption below it (**all 17 modules support it**).
+> 2. **Title row**: for data modules (bars/stat/versus/timeline/heatmap/slope/dot/stack/pyramid/tiles/iso), a first row **with no `|`** is treated as the module title — write it as an assertion per §3.1.
+> 3. **Emphasis row**: in `tw-bars` / `tw-slope` / `tw-dot`, a label beginning with `*` highlights that row and dims the rest.
+> 4. Modules read tokens.css → dark mode / responsive / fonts are automatic.
 
-### 📐 編輯模組（語意 HTML，天然 AI 可讀）
+### 📐 Editorial modules (semantic HTML, natively AI-readable)
 
-**`tw-figure` 數據大字** — 一個戲劇性數字 / before→after：
+**`tw-figure` big number** — one dramatic figure / before→after:
 
 ````
 ```tw-figure
-6.7 萬 → 87 萬 / 坪
-成功國宅 1985 滯銷價到 2026 房仲均價，約 13 倍
-實價登錄房仲平台
+441 homes
+destroyed in the 1993 Laguna firestorm, October 27, 1993
+City of Laguna Beach after-action report
 ```
 ````
 
-line1 大數字（含 `→` 視為 before→after）；line2 說明；line3 來源。**何時用**：一個能當「sledgehammer stat」的關鍵數字。
+line1 the big number (a `→` makes it before→after); line2 caption; line3 source. **When to use**: one figure that can act as a "sledgehammer stat."
 
-**`tw-stat` 數據組** — 2-4 個關鍵數字並排：
+**`tw-stat` stat group** — 2-4 key numbers side by side:
 
 ````
 ```tw-stat
-174,891 戶 | 政府直接興建的國宅 | 1976–1999
-39 萬餘戶 | 廣義國宅總量 | 至 2015 廢止
-84.4% | 自有住宅率 | 2024
+441 | homes destroyed | 1993 firestorm
+270 | homes damaged | 1993 firestorm
+0 | fatalities | evacuation succeeded
 ```
 ````
 
-每列 `數值 | 標籤 | 註記`。**何時用**：一段落塞了 3-4 個並列數字。
+each row `value | label | note`. **When to use**: a paragraph crammed with 3-4 parallel numbers.
 
-**`tw-versus` 對比卡** — 兩制度/兩路線並排：
+**`tw-versus` comparison card** — two systems / two routes side by side:
 
 ````
 ```tw-versus
-台灣國宅 | 香港居屋
-住滿一年即可全市價轉售 | 公開市場轉售須先「補地價」
-增值幾乎全歸個人 | 增值按原折扣比例回收公庫
+Sawdust Art Festival | Pageant of the Masters
+Founded 1966, artist-run, hand-built booths | Running since 1933, living-pictures show
+Open, come-as-you-are aesthetic | Volunteers recreate famous artworks
 ```
 ````
 
-line1 `左標題 | 右標題`；其餘 `左 | 右`。**何時用**：兩種制度/立場/前後的逐點對照。
+line1 `left title | right title`; the rest `left | right`. **When to use**: a point-by-point contrast of two systems / positions / before-and-after.
 
-**`tw-bars` 比例條** — 水平比例條（比較/排名，自動依數值縮放）：
+**`tw-bars` proportion bars** — horizontal bars (comparison / ranking, auto-scaled by value):
 
 ````
 ```tw-bars
-全國 2014 | 8.41 倍
-台北 2024 | 16.60 倍 | 歷史峰值
-來源：內政部不動產資訊平台
+Homes destroyed | 441 | total loss
+Homes damaged | 270
+Source: City of Laguna Beach
 ```
 ````
 
-每列 `標籤 | 數值 | 註記`。**何時用**：少量類別的數值比較或排名。
+each row `label | value | note`. **When to use**: value comparison or ranking across a few categories.
 
-**`tw-waffle` 方格圖** — 100 格部分對全體：
+**`tw-waffle` waffle chart** — 100-cell part-to-whole:
 
 ````
 ```tw-waffle
-維也納的住宅組成（2023）
-市營社宅 | 21.9
-限利潤社宅 | 21.4
-自有住宅 | 20.4
-私人租賃 | 36.3
+Laguna's land vs. its protected open space
+City area (sq mi) | 8.84
+Surrounding wilderness (thousand acres) | 20
 ```
 ````
 
-選填標題（不含 `|`）+ 每列 `類別 | 百分比`。**何時用**：比例組成（加總 ≈ 100）。
+optional title (no `|`) + each row `category | percent`. **When to use**: proportional composition (sums to ≈ 100). _(Use real, sourced percentages — the row above mixes units for illustration only.)_
 
-**`tw-timeline` 政策軸** — 節點時間軸（視覺輔助，**≠ 正文編年體小標**）：
+**`tw-timeline` timeline** — node timeline (a visual aid, **not** the body's chronological subheads):
 
 ````
 ```tw-timeline
-1975 | 國宅條例上路 | 設「買家資格」閉環，補貼跑不掉
-2002 | 那道牆被拆掉 | 取消買家資格限制，國宅進自由市場
+1918 | Laguna Beach Art Association founded | becomes the oldest cultural institution in Orange County
+1929 | Cliff Drive building opens | the Mission Revival structure at 307 Cliff Drive
+1996 | renamed Laguna Art Museum | to reflect a broader California-art scope
 ```
 ````
 
-每列 `年份 | 標題 | 說明`。**何時用**：政策/制度的關鍵節點脈絡。
+each row `year | title | description`. **When to use**: the key nodes of an institution's or policy's development.
 
-**`tw-quote` 引語卡** — 放大的關鍵引語：
+**`tw-quote` quote card** — an enlarged key quote:
 
 ````
 ```tw-quote
-劫貧濟富，國家出錢幫有錢人改建房子
-林智群 | 律師，2025
+Before the fire and after the fire is how we date everything now.
+Long-time resident | recalling the 1993 firestorm
 ```
 ````
 
-line1 引文（不用加「」，模組自動加）；line2 `姓名 | 角色/場合`。**何時用**：一句話能代表核心張力的逐字引語（引語必須 Ctrl-F 可驗證，per [CITATION-GUIDE](CITATION-GUIDE.md)）。
+line1 the quote (don't add quotation marks; the module adds them); line2 `name | role/occasion`. **When to use**: a verbatim quote that captures the core tension (the quote must be Ctrl-F verifiable per [CITATION-GUIDE](CITATION-GUIDE.md)).
 
-**`tw-source` 來源條** — 獨立的來源/方法說明 chip：
+**`tw-source` source chip** — a standalone source / method chip:
 
 ````
 ```tw-source
-內政部不動產資訊平台、政大不動產研究中心、實價登錄
+City of Laguna Beach, Laguna Beach Historical Society, Los Angeles Times archive
 ```
 ````
 
-整段當來源。**何時用**：一段分析的資料來源集中說明。
+the whole block is the source. **When to use**: the concentrated source statement for a section of analysis.
 
-**`tw-note` 說明盒** — 【說明】方法論 / （註）更正（報導者公約）：
+**`tw-note` note box** — method explanation / correction (inherited Reporter-style convention; error boundary = traceability):
 
 ````
 ```tw-note
 說明
-本文同意、不同意比例為「催票率」而非得票率，公式為票數 ÷ 合格選舉人數。
+Acreage figures are reported burn area, not the area within city limits.
 ```
 ````
 
-line1 可為 `說明`／`方法`／`註`／`更正`／`更新`（省略 = 說明）；其餘每列一段。`註`/`更正` 帶暖色標記。**何時用**：交代計算方式、取樣範圍；發布後更正留痕（per §三.11）。
+line1 can be `說明` (explanation) / `方法` (method) / `註` (note) / `更正` (correction) / `更新` (update) — _these markers are still Chinese-only in the renderer; type the literal token (omit = `說明`)_; each remaining line is a paragraph. `註` / `更正` get a warm marker. **When to use**: explain a calculation or sampling scope; leave a post-publication correction in place (per §3.11).
 
-### 📊 圖表模組（inline SVG / 矩陣，自帶資料表 fallback → AI 可讀）
+### 📊 Chart modules (inline SVG / matrix, ship with a data-table fallback → AI-readable)
 
-**`tw-line` 折線圖** — 趨勢（單或多序列，自動 y 軸標 + 資料表 fallback）：
+**`tw-line` line chart** — trend (single or multi-series, auto y-axis label + data-table fallback):
 
 ````
 ```tw-line
-房價所得比：全國 vs 台北（倍）
-年 | 全國 | 台北
-2014 | 8.41 | 12.0
-2024 | 10.76 | 16.6
-來源：內政部不動產資訊平台
+Festival founding years on the Laguna arts calendar
+Year | Festivals running
+1933 | 1
+1966 | 2
+Source: knowledge/Events & Festivals
 ```
 ````
 
-line1 標題；line2 `x軸名 | 序列1 | 序列2…`；其餘 `x值 | y1 | y2…`。**何時用**：≥4 個時間點的趨勢。**自動產生 `<table class="tw-sr-only">` 給 AI/螢幕閱讀器。**
+line1 title; line2 `x-axis name | series1 | series2…`; the rest `x-value | y1 | y2…`. **When to use**: a trend over ≥4 time points. **Auto-generates a `<table class="tw-sr-only">` for AI / screen readers.** _(Use a real sourced series; the two-point example above is illustrative.)_
 
-進階：加一列 `基準：標籤 | 值` 畫**基準線**（虛線、無端點、單一標籤，per §八 反例 gallery 的正解）。面積填色只在單序列時畫（多序列疊面積會互相蓋）。序列 ≤ 3 條，再多就拆圖（§三.7 一圖一重點）。
+Advanced: add a row `基準：label | value` to draw a **baseline** (dashed, no endpoints, single label) — _the `基準：` marker is still Chinese-only in the renderer._ Area fill is drawn only for a single series (overlapping areas hide each other). Keep series ≤ 3; split the chart beyond that (§3.7 one chart, one point).
 
-**`tw-slope` 斜率圖** — 恰兩個時點的變化（比折線更省、比 before→after 文字更會說話）：
+**`tw-slope` slope chart** — change between exactly two time points (leaner than a line, more expressive than before→after text):
 
 ````
 ```tw-slope
-房價所得比：十年之間誰漲得兇（倍）
-2014 | 2024
-全國 | 8.41 | 10.76
-*台北 | 12.0 | 16.60
-來源：內政部不動產資訊平台
+Pageant of the Masters: a wartime pause
+1941 | 1946
+*Annual run | 1 | 1
+Source: knowledge/Events & Festivals/pageant-of-the-masters.md
 ```
 ````
 
-line1 標題（選填）；header `左時點 | 右時點`（恰 2 欄）；rows `標籤 | 左值 | 右值`，`*` 強調。自帶資料表 fallback + 端點標籤防重疊。**何時用**：恰好兩個時間點、多條目誰漲誰跌的比較。
+line1 title (optional); header `left time | right time` (exactly 2 columns); rows `label | left value | right value`, `*` to emphasize. Ships with a data-table fallback + endpoint-label de-overlap. **When to use**: exactly two time points, comparing which items rose or fell. _(Illustrative; supply a real sourced series.)_
 
-**`tw-dot` 點圖** — dot strip / range（所有列共用同一把尺）：
+**`tw-dot` dot plot** — dot strip / range (all rows share one ruler):
 
 ````
 ```tw-dot
-高齡化率的兩極（65 歲以上占比，%）
-新竹縣 | 15.08 | 全台最年輕
-*台北 | 24.18 | 六都最老
-來源：內政部戶政司，2025 年底
+Homes affected by the 1993 firestorm
+*Destroyed | 441 | total loss
+Damaged | 270
+Source: City of Laguna Beach
 ```
 ````
 
-每列 `標籤 | 值 | (註)` 或 `標籤 | 起值 | 迄值 | (註)`（兩值畫成區間箭頭）。**何時用**：看分布與離群值（共用軸是它跟 bars 的差別）；before→after 的多條目版本。
+each row `label | value | (note)` or `label | start | end | (note)` (two values draw a range arrow). **When to use**: see distribution and outliers (the shared axis is what distinguishes it from bars); the multi-item version of before→after.
 
-**`tw-stack` 堆疊條** — 100% 組成跨列比較：
+**`tw-stack` stacked bar** — 100% composition, compared across rows:
 
 ````
 ```tw-stack
-三場核能公投：同意 vs 不同意（%）
-公投 | 同意 | 不同意
-2018 以核養綠 | 59 | 41
-2025 核三延役 | 74 | 26
-來源：中央選舉委員會
+Pageant vs. Sawdust: founding era
+Festival | Pre-1950 | Post-1960
+Pageant of the Masters (1933) | 100 | 0
+Sawdust (1966) | 0 | 100
+Source: knowledge/Events & Festivals
 ```
 ````
 
-header `列名欄 | 類1 | 類2…`；每列自動正規化 100%，段寬 ≥10% 直接標值。自帶資料表 fallback。**何時用**：跨年份/地區/群體比較「組成」（waffle 只能畫一個總體）；同意 vs 不同意這類二元對立。類別 ≤ 5。
+header `row-name column | cat1 | cat2…`; each row auto-normalizes to 100%, segments ≥10% wide are labeled in place. Ships with a data-table fallback. **When to use**: comparing "composition" across years / places / groups (waffle can only draw one whole); binary oppositions. Categories ≤ 5. _(Illustrative composition.)_
 
-**`tw-pyramid` 金字塔** — 背對背長條（左右對照）：
+**`tw-pyramid` pyramid** — back-to-back bars (left/right comparison):
 
 ````
 ```tw-pyramid
-頭重腳輕：幼年 vs 老年（%）
-縣市 | 0–14 歲 | 65 歲以上
-新竹縣 | 14.80 | 15.08
-嘉義縣 | 8.27 | 24.11
-來源：內政部戶政司
+1993 firestorm: destroyed vs. damaged
+Category | Destroyed | Damaged
+Homes | 441 | 270
+Source: City of Laguna Beach
 ```
 ````
 
-header `組欄名 | 左名 | 右名`；左右共用同一個比例尺（誠實對照）。**何時用**：人口金字塔、男女、進出口這類「兩個陣營逐組對照」。
+header `group-column name | left name | right name`; left and right share one scale (honest comparison). **When to use**: population pyramids, male/female, imports/exports — any "two camps compared group by group."
 
-**`tw-tiles` 縣市磚圖** — 台灣 22 縣市 tile cartogram：
+**`tw-tiles` tile cartogram** — **inherited Taiwan 22-county tile cartogram.** The layout is hardcoded in the renderer to Taiwan's counties; **it has no LagunaBeach.md analog** (Laguna Beach is a single city, not a set of counties) and is unused by LB content. Kept as inherited infrastructure; see §9. If a future LB fork needs a geographic cartogram (e.g. neighborhoods), that's a renderer change, not an article-syntax change. Documented here only so the module isn't mistaken for missing.
 
-````
-```tw-tiles
-全台 22 縣市高齡化率（%）
-臺北市 | 24.18
-新竹縣 | 15.08
-…（22 列）
-來源：內政部戶政司，2025 年底
-```
-````
-
-每列 `縣市 | 值`。佈局寫死在 renderer（照真實相對位置的 5×8 磚陣，離島靠左），**不畫台灣形狀所以不可能畫錯**（[REFLEXES #61](../semiont/REFLEXES.md) 視覺主權的結構解）。臺/台、市/縣字尾自動正規化；縣市名對不上 60% 時整個模組退化成排序 bars（翻譯版安全網），個別打錯字會列「未對應」警示。**只放率值不放原始數量**（per §二 地理列）。自帶資料表 fallback。
-
-**`tw-iso` 單位圖** — 1 符號 = N（isotype）：
+**`tw-iso` isotype** — 1 symbol = N:
 
 ````
 ```tw-iso
-政府這 24 年蓋了多少國宅
-單位：● = 20,000 戶
-政府直接興建 | 174,891 戶 | 1976–1999
-來源：行政院新聞稿
+The toll of the 1993 firestorm
+單位：● = 50 homes
+Destroyed | 441 | 1993
+Source: City of Laguna Beach
 ```
 ````
 
-選填 `單位：符號 = 數量 單位名` config 列（省略 = ●、1:1）；每列 `標籤 | 值 | (註)`。符號數四捨五入取整（FT 鐵律：不切半個符號表小數），精確值文字並列。**何時用**：把無感的大數字換成數得出來的單位（報導者心法）。符號數控制在 ~30 內（調 `單位：`）。
+optional config row `單位：symbol = count unit-name` (_this `單位：` marker is still Chinese-only in the renderer_; omit = ●, 1:1); each row `label | value | (note)`. Symbol count is rounded to a whole number (FT rule: no half-symbols for fractions); the exact value sits alongside as text. **When to use**: turn an abstract big number into countable units. Keep the symbol count within ~30 (tune `單位：`).
 
-**`tw-heatmap` 熱力圖** — 矩陣（每欄各自正規化成色深，本身就是 table → AI 可讀）：
+**`tw-heatmap` heatmap** — matrix (each column normalized to a shade; it's a table itself → AI-readable):
 
 ````
 ```tw-heatmap
-縣市 | 房價所得比 | 房貸負擔率%
-台北 | 16.60 | 63.9
-桃園 | 9.0 | 40.0
-來源：內政部不動產資訊平台
+Festival | Year founded | Decades running
+Pageant of the Masters | 1933 | 9
+Sawdust Art Festival | 1966 | 6
+Laguna Art Museum | 1918 | 10
+Source: knowledge/Events & Festivals, Art & Galleries
 ```
 ````
 
-line1 `角標 | 欄1 | 欄2…`；其餘 `列標 | v1 | v2…`。**何時用**：地區×指標、年×類別的矩陣比較。
+line1 `corner label | col1 | col2…`; the rest `row label | v1 | v2…`. **When to use**: region × metric, year × category matrix comparison.
 
 ---
 
-## 五、多語（三層分離，babel 不碰幾何）
+## 5. Multilingual (three-layer separation; translation never touches geometry)
 
 ```
-viz 文字
-├── 幾何（座標/比例/顏色）→ 跟資料一起在 fenced block 的數字欄 → 語言無關，babel 不動
-├── 情境文字（標籤/標題/annotation/來源）→ fenced block 的文字欄，是 .md 一部分 → babel 天然翻
-└── 格式（月份/千分位）→ i18n 自動化
+viz text
+├── geometry (coordinates/scale/color) → lives with the data in the fenced block's number columns → language-independent, not translated
+├── contextual text (labels/title/annotation/source) → the fenced block's text columns, part of the .md → translated naturally
+└── format (months / thousands separators) → i18n automation
 ```
 
-寫作時把「會被讀的文字」（標籤、標題、說明、來源）寫成自然語言，babel 翻譯時碰到的是文字列，幾何（數字）原樣保留。**這是相對 Datawrapper（六語要 duplicate 6 份）的結構性優勢。**
+When writing, put "text that will be read" (labels, titles, notes, sources) in natural language; translation tooling sees text columns while geometry (numbers) stays as-is. **This is a structural advantage over Datawrapper (which needs a duplicate per language).**
 
 ---
 
-## 六、AI 可讀性（sovereignty 落地，逐項自檢）
+## 6. AI-readability (self-check item by item)
 
-1. **數據在初始 HTML**（模組都是 build-time 生成的 semantic HTML，✅）。
-2. **圖表帶資料表 fallback**（`tw-line`/`tw-slope`/`tw-stack`/`tw-tiles` 自動 `<table class="tw-sr-only">`；`tw-heatmap` 本身是 table；`tw-dot`/`tw-pyramid`/`tw-iso` 的值就是 DOM 文字，✅）。
-3. **`tw-figure` 的 caption / 圖表 title 寫完整詮釋**，不是「圖一」。aria-label 公式（Datawrapper/Cesal）：圖型 + 資料內容 + takeaway。
-4. **絕不寫「如上圖／如下圖」**，關鍵數值也寫進 prose 讓 LLM 可提取。
-5. **不用圖片型 viz / D3 / Canvas**（AI 黑洞）。
-6. **翻譯安全網**：模組的文字欄是 .md 的一部分（babel 天然翻），幾何數字原樣保留；`tw-tiles` 縣市名在翻譯版對不上時自動退化成 bars，內容不消失。
-
----
-
-## 七、視覺化發布前檢查清單（7 層，進 REWRITE-PIPELINE Stage 4）
-
-**① 資料正確性**：數字三次確認（[事實鐵三角](EDITORIAL.md)）/ 長條 Y 軸從 0 / 百分比加總對 / 時間範圍公正不選擇性截取 / 取樣偏誤揭露。
-**② 圖型選擇**：是回答這問題的最佳圖型嗎？有更簡單方式嗎？符合讀者視覺素養嗎？
-**③ 標題與文字**：標題說 takeaway（斷言句，不是名詞標籤）？來源標了嗎？關鍵點有 annotation？重要資訊全部預設可見（沒有藏在互動後面）？
-**④ 視覺設計**：有 chartjunk 可刪？對比 WCAG？色盲可讀（不只靠顏色）？排序了嗎？
-**⑤ 無障礙**：圖表有資料表 fallback？aria-label？200% 縮放可讀？
-**⑥ 行動裝置**：手機讀得懂（字不小、不擠）？（模組已 RWD，仍要 preview 看）
-**⑦ 整體敘事**：一圖一事？文圖協作不重複？只看圖+標題能帶走正確 takeaway？沒有元素會被誤讀成誤導？
-
-**自動閘門**：`python3 scripts/tools/article-health.py {file} --check=viz-health`（來源標註 / 「如上圖」AI-blind 指示語 / 圖表 table fallback）。進 `rewrite-stage-4` profile。
-
-**像素閘門**（2026-06-12 儀器化）：`node scripts/tools/viz-shot.mjs`（dev server 跑著時對頁面上每個 tw-\* 模組逐元件截圖，light/dark/mobile 三變體，模組清單自動偵測）。產出的 PNG 要**逐張人眼看過**才算驗證完成。為什麼是鐵律：markup 存在 ≠ 視覺正確——v1.0 的 quote/heatmap 在 production 壞了六天而 curl 驗證全綠，因為當時只驗了 class 名存在沒看像素。**模組樣式 / renderer / 全站 prose CSS 變更必跑**（全站樣式改動會 cascade 進模組，像素層才看得到）。
+1. **Data is in the initial HTML** (modules are build-time semantic HTML, ✅).
+2. **Charts ship a data-table fallback** (`tw-line`/`tw-slope`/`tw-stack`/`tw-tiles` auto `<table class="tw-sr-only">`; `tw-heatmap` is itself a table; the values in `tw-dot`/`tw-pyramid`/`tw-iso` are DOM text, ✅).
+3. **`tw-figure` caption / chart title carries the full interpretation**, not "Figure 1." aria-label formula (Datawrapper/Cesal): chart type + data content + takeaway.
+4. **Never write "as shown above / below"**; key values go into the prose so an LLM can extract them.
+5. **No image-type viz / D3 / Canvas** (AI black holes).
+6. **Translation safety net**: a module's text columns are part of the .md (translated naturally), geometry numbers stay as-is.
 
 ---
 
-## 八、反例 gallery（像 EDITORIAL 禁句，看到要警覺）
+## 7. Pre-publish visualization checklist (7 layers, runs in REWRITE-PIPELINE Stage 4)
 
-| ❌ 反例                    | 為什麼錯                                       | ✅ 改                                                                           |
-| -------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------- |
-| 截斷 Y 軸的長條圖          | 系統性誇大差異                                 | Y 軸從 0；要強調差異改 dot plot + 排序                                          |
-| 圓餅圖 8 個切片            | 人眼比較角度差                                 | `tw-bars` 排序 或 `tw-waffle`                                                   |
-| word cloud                 | 重要性≠頻率，分析力弱                          | `tw-bars` 詞頻 或挑關鍵詞 annotation                                            |
-| 「如下圖所示，台北最高」   | AI 爬蟲看不到圖                                | 「台北 16.60 倍最高（見下表）」+ 數值進 prose                                   |
-| 紅綠配色表正負             | 8% 男性色盲                                    | 暖橘/冷青 + 文字標籤                                                            |
-| 彩虹色表連續數值           | 無語意、誤導                                   | 單色相從淺到深（`tw-heatmap` 已是）                                             |
-| 圖表沒標來源               | 可信度崩                                       | fenced block 加 `來源：…` 列                                                    |
-| 大面積單一強調色滿版填     | 刺眼 + 相鄰類別/格分不開（強調色是小面積用的） | 大面積降明度/彩度；類別用明度+彩度雙軸分離                                      |
-| 深色類別沉進深背景         | waffle/heatmap 某類對主底對比不足 = 數不出來   | 每個類別對「彼此」＋對「主底」都要明顯分得開                                    |
-| 基準/門檻線畫成實測序列    | 端點圓點+逐點標籤讓常數門檻看起來像被測量      | 基準線用 `tw-line` 的 `基準：` 列（虛線無點）                                   |
-| 一張圖混時序＋橫斷面＋基準 | 排序後讀者分不清哪個可比（混維度）             | 一圖一維度；基準改虛線 ref 或移 annotation                                      |
-| 雙色相連續色階（冷→暖）    | 中段混成泥色 + 暗示分歧語意但資料是連續的      | 連續值一律單色相淺→深（heatmap/tiles 已內建）；真分歧資料才用雙色相（中點過白） |
-| 磚圖/地圖放原始數量        | 人多的縣市永遠最深，圖只是在畫人口             | 先標準化成率值（每人/每戶/%），`tw-tiles` 只收率值                              |
-| 群組長條拿來比總量         | 讀者沒辦法目測加總                             | 比總量改單條；比組成改 `tw-stack`                                               |
-| 圖例跟資料分兩處           | 眼睛在圖例和圖之間來回跳（legend-hunting）     | 直接標籤（模組內建：折線終點標名、堆疊段內標值、磚上寫數字）                    |
-| 多序列折線全上面積填色     | 面積互疊成一坨，誰蓋誰看不出                   | 面積只給單序列（模組已內建）；多序列要比就模組連發 small multiples              |
-| SVG 字級跟著容器無限放大   | 320px 設計稿放到 720px 欄寬，軸標籤脹成 25px   | 圖表 SVG 上限 520px 置中（模組已內建）                                          |
+**① Data accuracy**: numbers triple-checked (every figure traces to `knowledge/`, Rule 12) / bars start at 0 / percentages sum correctly / time range fair, not selectively truncated / sampling bias disclosed.
+**② Chart-type choice**: is this the best chart for the question? Is there a simpler way? Does it match the reader's visual literacy?
+**③ Title and text**: does the title state the takeaway (an assertion, not a noun label)? Is the source labeled? Do key points have annotation? Is all important info visible by default (not hidden behind interaction)?
+**④ Visual design**: any chartjunk to cut? WCAG contrast met? Colorblind-readable (not color alone)? Sorted?
+**⑤ Accessibility**: data-table fallback present? aria-label? Readable at 200% zoom?
+**⑥ Mobile**: legible on a phone (text not tiny or cramped)? (modules are responsive, still preview them)
+**⑦ Overall narrative**: one chart, one point? Text and chart collaborate without repeating? Can the reader walk away with the correct takeaway from chart + title alone? No element that could be misread as misleading?
+
+**Automated gate**: `python3 scripts/tools/article-health.py {file} --check=viz-health` (source labeling / "as shown above" AI-blind phrasing / chart table fallback). Part of the `rewrite-stage-4` profile.
+
+**Pixel gate** (instrumented 2026-06-12): `node scripts/tools/viz-shot.mjs` (with the dev server running, screenshots every `tw-*` module on the page per component, in light/dark/mobile variants; module list auto-detected). The output PNGs must be **looked at by a human, one by one**, before verification counts as done. Why it's an iron rule: markup existing ≠ visually correct — in v1.0 the quote/heatmap modules were broken in production for six days while curl verification was all green, because only class-name existence was checked, not pixels. **Run it on any module-style / renderer / site-wide prose-CSS change** (site-wide style changes cascade into modules; only the pixel layer catches it).
 
 ---
 
-## 九、邊界 + v3 候選
+## 8. Anti-pattern gallery (like EDITORIAL's banned phrases — flag these on sight)
 
-- **不是每篇都要有圖**。沒有適合的資料就誠實不加（避免 chartjunk）。REWRITE-PIPELINE Stage 2 只要求**評估過**視覺化候選，不要求硬塞。
-- **Hub 頁 / 短修正 / 純人物抒情文**：可不用。
-- **模組外的複雜需求**：退回 prose + 資料表，不硬幹重 JS。HARD 類型都有 EASY 替代：
-
-| 想要的          | 替代（現有模組）                                    |
-| --------------- | --------------------------------------------------- |
-| Sankey / chord  | `tw-stack`（兩階段流向）或 `tw-heatmap`（流量矩陣） |
-| 散佈圖          | `tw-heatmap`（分桶矩陣）或 prose + 表格；v3 候選    |
-| 直方圖          | `tw-bars`（分桶後）；v3 候選                        |
-| 網絡圖          | prose 關係描述 + `tw-versus`；少用                  |
-| 國會席次弧      | `tw-stack`（政黨占比）；v3 候選（elections 區）     |
-| small multiples | 同款模組連發（報導者 chart-pack 結構：一節一圖）    |
-
-- **v3 roadmap**（per [reports/viz-system-evolution-2026-06-12.md](../../reports/viz-system-evolution-2026-06-12.md)）：scrollytelling-lite（CSS scroll-driven 漸進揭露）+ DualChannel sticky（報導者「左右互搏」，CSS sticky 零 JS）做 1-2 篇旗艦專題；散佈 / 直方 / 國會弧視真實文章需求再長。
+| ❌ Anti-pattern                                  | Why it's wrong                                                            | ✅ Fix                                                                                                         |
+| ------------------------------------------------ | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| truncated-Y bar chart                            | systematically exaggerates differences                                    | start Y at 0; to stress a gap use a dot plot + sorting                                                         |
+| pie with 8 slices                                | the eye compares angles poorly                                            | `tw-bars` sorted, or `tw-waffle`                                                                               |
+| word cloud                                       | importance ≠ frequency, analytically weak                                 | `tw-bars` of term frequency, or pick key terms as annotation                                                   |
+| "as shown below, X is highest"                   | AI crawlers can't see the chart                                           | "X is highest at N (see table below)" + values in prose                                                        |
+| red/green to show +/-                            | 8% of men are colorblind                                                  | warm-orange / cool-cyan + text labels                                                                          |
+| rainbow scale for continuous values              | no semantics, misleading                                                  | single hue light→dark (`tw-heatmap` already does this)                                                         |
+| chart with no source                             | credibility collapses                                                     | add a `Source: …` row in the fenced block                                                                      |
+| large area in one saturated highlight color      | harsh + adjacent categories blur (highlight color is for small areas)     | dim large areas; separate categories on both lightness and saturation                                          |
+| dark category sinks into dark background         | a waffle/heatmap category lacks contrast with the base = uncountable      | every category must read clearly against both its neighbors and the base                                       |
+| baseline drawn as a measured series              | endpoint dots + per-point labels make a constant threshold look measured  | draw the baseline with `tw-line`'s `基準：` row (dashed, no dots)                                              |
+| one chart mixing time + cross-section + baseline | after sorting, the reader can't tell what's comparable (mixed dimensions) | one chart, one dimension; make the baseline a dashed ref or move it to annotation                              |
+| two-hue continuous scale (cool→warm)             | the midpoint muddies + implies diverging semantics on continuous data     | continuous values always single-hue light→dark; use two-hue only for genuinely diverging data (white midpoint) |
+| tile/map showing raw counts                      | populous regions are always darkest; the map just draws population        | normalize to a rate first (per-capita / per-household / %)                                                     |
+| grouped bars used to compare totals              | the reader can't eyeball the sum                                          | compare totals with single bars; compare composition with `tw-stack`                                           |
+| legend separate from the data                    | the eye ping-pongs between legend and chart (legend-hunting)              | direct labels (built in: line endpoints, in-segment stack values, numbers on tiles)                            |
+| multi-series line all area-filled                | areas overlap into a blob, you can't tell which covers which              | area fill only for a single series (built in); for multi-series use small multiples                            |
+| SVG text scaling with the container              | a 320px design at 720px column width balloons axis labels to 25px         | chart SVG capped at 520px centered (built in)                                                                  |
 
 ---
 
-_v2.0 | 2026-06-12 viz-evolution — 模組 10→17（+slope/dot/stack/pyramid/tiles/iso/note）；共通約定（標題列/來源列全模組/`*` 強調/`基準：` 線）；§三 +4 原則（visible-by-default / 灰色脈絡 / 【說明】公約 / 多語標籤）；§八 +6 反例（雙色相泥中段 / 磚圖放數量 / legend-hunting / 多序列面積 / SVG 字級膨脹 / 群組條比總量）；修 v1.0 三個 cascade leak（quote 灰框 / heatmap 字色 / 來源列三模組漏接）。視覺驗證 51 截圖 + 外部研究：reports/viz-system-evolution-2026-06-12.md。_
-_v1.0 | 2026-06-06 — 10 模組 + 型錄 + 設計原則 + AI 可讀 + 多語 + 檢查清單。設計研究：reports/article-visualization-design-2026-06-06.md（參考 The Pudding，長出自己的器官）。_
+## 9. Boundaries + v3 candidates
+
+- **Not every article needs a chart.** If there's no suitable data, honestly add none (avoid chartjunk). REWRITE-PIPELINE Stage 2 only asks that you **evaluated** visualization candidates, not that you force one in.
+- **Hub pages / short corrections / pure-profile reflective pieces**: may use none.
+- **`tw-tiles` (Taiwan county cartogram)**: inherited and unused — Laguna Beach is one city, so the 22-county geographic module has no LB content. Left in place as infrastructure; a future LB geographic cartogram (neighborhoods, beaches) would be a renderer change. Flagged for the code-layer de-Taiwan work, not an article-writing concern.
+- **Complex needs outside the modules**: fall back to prose + a data table; don't hand-roll heavy JS. Every HARD type has an EASY substitute:
+
+| What you want   | Substitute (existing module)                                          |
+| --------------- | --------------------------------------------------------------------- |
+| Sankey / chord  | `tw-stack` (two-stage flow) or `tw-heatmap` (flow matrix)             |
+| scatter plot    | `tw-heatmap` (binned matrix) or prose + table; v3 candidate           |
+| histogram       | `tw-bars` (after binning); v3 candidate                               |
+| network graph   | prose relationship description + `tw-versus`; rare                    |
+| small multiples | repeat the same module (chart-pack structure: one section, one chart) |
+
+- **v3 roadmap** (per [reports/viz-system-evolution-2026-06-12.md](../../reports/viz-system-evolution-2026-06-12.md)): scrollytelling-lite (CSS scroll-driven progressive disclosure) + DualChannel sticky (CSS sticky, zero JS) for 1-2 flagship features; scatter / histogram grow when a real article needs them.
+
+---
+
+_v2.0 | 2026-06-12 viz-evolution — modules 10→17 (+slope/dot/stack/pyramid/tiles/iso/note); shared conventions (title row / source row on all modules / `*` emphasis / `基準：` line); §3 +4 principles (visible-by-default / gray context / note convention / multilingual labels); §8 +6 anti-patterns (two-hue muddy midpoint / tile raw counts / legend-hunting / multi-series area / SVG text bloat / grouped bars for totals); fixed three v1.0 cascade leaks (quote frame / heatmap text color / source row on three modules). Visual verification 51 screenshots + external research: reports/viz-system-evolution-2026-06-12.md._
+_v1.0 | 2026-06-06 — 10 modules + catalog + design principles + AI-readability + multilingual + checklist. Design research: reports/article-visualization-design-2026-06-06.md (referenced The Pudding, grew our own organ)._

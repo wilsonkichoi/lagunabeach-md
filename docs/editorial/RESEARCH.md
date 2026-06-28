@@ -1,11 +1,11 @@
 ---
 title: 'RESEARCH'
-description: '研究方法論 SSOT — 怎麼搜可靠資訊 / 三源驗證 / WebFetch 中文 verbatim 規範'
+description: 'Research-methodology SSOT — how to find reliable information / multi-source verification / verbatim-quote discipline'
 type: 'editorial-canonical'
 status: 'canonical'
 current_version: 'v1.3'
 last_updated: 2026-06-04
-last_session: '2026-06-04-102449-深度研究-設計研究院'
+last_session: '2026-06-04-102449-deep-research'
 sister_docs:
   - 'EDITORIAL.md'
   - 'CITATION-GUIDE.md'
@@ -16,464 +16,453 @@ upstream_canonical:
   - '../pipelines/FACTCHECK-PIPELINE.md'
 ---
 
-# RESEARCH.md — Taiwan.md 研究方法論
+# RESEARCH.md — research methodology
 
-> 每篇文章在動筆之前，必須先完成研究。不是「知道一點就開始寫」，是「搜集夠了再策展」。
-> 這份文件回答的是：**怎麼搜、怎麼判斷、怎麼避坑。**
-
----
-
-## 職責分工（五份文件，不重複）
-
-| 文件                      | 回答什麼                                             |
-| ------------------------- | ---------------------------------------------------- |
-| **本文件（RESEARCH.md）** | 怎麼做研究（搜尋策略、來源判斷、數據驗證、避坑指南） |
-| **EDITORIAL.md**          | 怎麼寫文章（風格、結構、語氣、品質標準）             |
-| **REWRITE-PIPELINE.md**   | 流程調度（Stage 0→1→2→3、防崩潰、token 預算）        |
-| **RESEARCH-TEMPLATE.md**  | 研究筆記填空模板（Stage 1 的輸出格式）               |
-| **QUALITY-CHECKLIST.md**  | 驗證清單（Stage 3 逐項打勾）                         |
-
-⚠️ **EDITORIAL.md 不再包含研究流程。** 所有「動筆前」的事在這裡。
+> Every article must finish its research before a word is written. Not "know a little and start writing" — "gather enough, then curate."
+> This document answers: **how to search, how to judge, how to avoid the traps.**
 
 ---
 
-## 一、研究的核心信念
+## Division of labor (five documents, no overlap)
 
-**Taiwan.md 的文章是從研究資料中「策展」出來的，不是從腦中「生成」出來的。**
+| Document                    | Answers what                                                                    |
+| --------------------------- | ------------------------------------------------------------------------------- |
+| **This file (RESEARCH.md)** | how to do research (search strategy, source judgment, data verification, traps) |
+| **EDITORIAL.md**            | how to write the article (style, structure, voice, quality standard)            |
+| **REWRITE-PIPELINE.md**     | process orchestration (Stage 0→1→2→3, crash safety, token budget)               |
+| **RESEARCH-TEMPLATE.md**    | research-note fill-in template (Stage 1's output format)                        |
+| **QUALITY-CHECKLIST.md**    | verification checklist (Stage 3 item-by-item)                                   |
 
-AI 最大的問題是「知道一點就開始編」。Taiwan.md 的做法是反過來：先搜集大量高品質資料，再從中挑選、編織、策展。只看維基百科寫出來的文章，跟看了 8 個來源寫出來的，讀者感受得到差異。
-
-**研究不是苦差事，是挖寶。** 好的研究過程會讓你自己說「哦，原來是這樣」——如果你在研究中沒有任何驚訝，代表你研究得不夠深。
-
----
-
-## 二、研究流程（五步）
-
-### Step 0：找到你的「反直覺核心句」
-
-**在做任何研究之前，先強制自己寫一句話：「這篇文章要讓讀者驚訝的是 \_\_\_\_」**
-
-合格的核心句一定包含**矛盾、反差或違反預期**：
-
-| 反差類型 | 範例                                              |
-| -------- | ------------------------------------------------- |
-| 時間反差 | 「一個 30 年前的純文字 BBS 至今還在影響台灣政治」 |
-| 規模反差 | 「全世界 65% 的先進晶片來自一座颱風頻繁的島」     |
-| 地位反差 | 「一碗路邊攤滷肉飯讓米其林評審寫了 200 字」       |
-| 生存反差 | 「一個不賣廣告、不接商業的平台，活了 30 年」      |
-
-❌ 「台灣有很好的健保制度」— 沒有反差 = 沒有吸引力
-
-寫不出來 → 研究不夠深，做完 Step 2 回來再寫。核心句會在研究過程中自然浮現。
-
-### Step 0.5：找到你的切入人物
-
-**誰的故事可以代表這個主題？**
-
-這個人不需要是名人，可以是一個漁民、一個攤販、一個工程師、一個公務員。從書、紀錄片、報導中找到一個有名字的人。
-
-- 寫台灣咖啡產業 → 不從「台灣咖啡歷史」開始，從阿里山一個種了 30 年咖啡的農夫開始
-- 寫台灣半導體 → 不從「台積電市值」開始，從張忠謀 54 歲回台灣那天的決定開始
-- 寫白色恐怖 → 不從「1947 年二二八事件」開始，從一封在獄中寫給妻子的最後一封信開始
-
-找到切入人物後，同時蒐集他的引語（Step 2 研究時注意公開訪談、紀錄片、書中的原話）。
-
-### Step 1：定義文章要回答的問題
-
-在搜集任何資料之前，先寫下 **3 個讀者會問的問題**。
-
-例如「台灣全民健保」：
-
-1. 全民健保到底怎麼來的？為什麼台灣做得到？
-2. 它在國際上的評價到底如何？有什麼具體數據？
-3. 它現在面臨什麼真正的危機？
-
-這 3 個問題就是文章的骨架。回答不了的問題不要硬寫。
-
-### Step 2：大量搜尋（Research First, Write Later）
-
-**⚠️ 這是最重要的一步。不要用腦中的知識寫，用查到的資料寫。**
-
-#### 搜尋量化標準（depth article，2026-06-04 v1.3 對標研究所論文升級）
-
-> canonical 數值在 [REWRITE-PIPELINE Step 1.1](../pipelines/REWRITE-PIPELINE.md)（Stage 0 探索 ≥20 + Stage 1 ≥80 = 全篇 ≥100）。本表是 depth-article 的來源多樣性配額，由 `research-report-health.py` 驗收。
-
-| 來源類別                   | 最低配額 | 目標                                              |
-| -------------------------- | -------- | ------------------------------------------------- |
-| 中文搜尋                   | 40+      | 基礎事實、歷史脈絡、在地觀點、社群記憶            |
-| 英文 / 國際 / 學術         | **20+**  | 國際視角、學術來源、triangulation（英文來源 ≠ 0） |
-| 一手來源                   | 15+      | 政府網站、官方報告、年報、法規條文、學術論文      |
-| 反方 / 批評（perspective） | 5+       | 跨陣營對立論述，落 `rationale.whats_excluded`     |
-
-> 短文 / Hub / 補登不需要這個量級——depth article（≥ 2,000 字 / ≥ 10 腳註）才適用。
-
-#### 研究深度標準
-
-每篇 depth 文章至少達到：
-
-- **25+ 獨立來源**（不同網站/機構，2026-06-04 從 5+ 升級）
-- **英文 / 國際 / 學術來源 ≠ 0**（系統性缺口：量測 226 份歷史 report 有 57% 英文來源 = 0）。真正只有中文來源的題目 → 在研究報告 §搜尋日誌 明寫理由，不靜默跳過
-- **至少 5 個一手來源**（官方文件、當事人訪談、原始統計、法規條文、學術論文）
-- **至少 1 個「時間跨度」來源**（不同年代對同一件事的看法）
-- **找到至少 1 個「意外發現」**——搜尋前不知道的事實。如果什麼都沒讓你驚訝 = 研究得不夠深
-- **搜了就要寫回 report**：所有 query + 來源 + 一句話發現都進研究報告 §搜尋日誌（SSOT，per [REWRITE-PIPELINE Step 1.7](../pipelines/REWRITE-PIPELINE.md)）——搜了沒寫回 = 沒搜
-
-#### 為什麼要多層來源？
-
-PTT 那篇之所以好，是因為作者挖了 PTT 鄉民百科（社群視角）、Taipei Times（英文國際視角）、Taiwan Panorama（文化雜誌視角）、維基百科（索引起點）——每一層來源帶來不同的理解深度。
-
-### Step 3：交叉查核（Cross-Referencing）
-
-**每個重要事實至少需要 2 個獨立來源確認。**
-
-### Step 4：數據驗證
-
-寫入文章的每個數據，自問：
-
-- [ ] 這個數字的**來源機構**是什麼？
-- [ ] 這個數字的**統計年份**是什麼？
-- [ ] 這個數字我能在原始來源**找到原文**嗎？
-- [ ] 如果找不到精確數字，我寧可用「約」或直接不寫？
+⚠️ **EDITORIAL.md no longer contains the research process.** Everything "before you write" lives here.
 
 ---
 
-## 二之二、研究報告 = SSOT（thesis-grade 方法論）
+## 1. The core belief about research
 
-> 2026-06-04 從 12 份最高品質歷史 report 統合（[methodology synthesis](../../reports/research-methodology-synthesis-2026-06-04.md)）。depth article 的 research report 不是「事實彙編」，是**可審計、可接力、對標研究所論文的 SSOT**。完整 SSOT 七段結構在 [REWRITE-PIPELINE Step 1.7](../pipelines/REWRITE-PIPELINE.md)，驗收 `research-report-health.py`。
+**LagunaBeach.md articles are "curated" from research material, not "generated" from memory.**
 
-### 信心程度系統（#1 鐵律 — 12/12 範本都有）
+The biggest AI failure is "know a little and start inventing." LagunaBeach.md does the opposite: gather a lot of high-quality material first, then select, weave, and curate from it. A reader can feel the difference between an article written off Wikipedia alone and one written from 8 sources.
 
-每個 claim 進報告主體前先分三層，**每條附「憑什麼是這層」的基礎**（來源數量 / 原文能否直接取得 / 是否只是媒體轉述）：
+**Research isn't drudgery; it's treasure-hunting.** Good research makes you say "oh, so that's how it was" — if nothing in your research surprised you, you didn't dig deep enough.
+
+---
+
+## 2. The research process (five steps)
+
+### Step 0: find your "counterintuitive core sentence"
+
+**Before any research, force yourself to write one sentence: "What this article makes the reader is surprised by is \_\_\_\_."**
+
+A good core sentence always contains **contradiction, contrast, or a violated expectation**:
+
+| Contrast type     | Example                                                                                                  |
+| ----------------- | -------------------------------------------------------------------------------------------------------- |
+| Time contrast     | "A fire that destroyed 441 homes in a few hours ended up protecting the open space around the city"      |
+| Scale contrast    | "A town of under 9 square miles runs the oldest continuously running art show in California"             |
+| Status contrast   | "A volunteer standing perfectly still for 90 seconds is the centerpiece of a show that's run since 1933" |
+| Survival contrast | "A festival started by artists who got rejected from another festival became an institution of its own"  |
+
+❌ "Laguna Beach has a beautiful coastline" — no contrast = no pull.
+
+Can't write one → research isn't deep enough; come back after Step 2. The core sentence surfaces naturally during research.
+
+### Step 0.5: find your entry character
+
+**Whose story can stand in for this topic?**
+
+This person need not be famous — it can be a firefighter, a festival volunteer, a painter, a longtime resident. Find a person with a name (or at least a specific, real role) in a book, documentary, or report.
+
+- Writing about the 1993 firestorm → don't start from "the fire destroyed 441 homes," start from a resident watching the ridgeline glow on the night of October 27.
+- Writing about plein air painting → don't start from "Laguna was an artist colony," start from a painter set up at a specific cove at a specific hour of light.
+- Writing about the Pageant of the Masters → don't start from "the Pageant began in 1933," start from a volunteer holding a pose inside a living tableau.
+
+Once you have the entry character, gather their quotes too (during Step 2, watch for verbatim lines in interviews, documentaries, and books). **Do not invent a person, name, or quote — if `knowledge/` and your sources don't have one, use a real, unnamed role, not a fabricated individual (Rule 12).**
+
+### Step 1: define the questions the article will answer
+
+Before gathering anything, write down **3 questions a reader would ask**.
+
+For "the Laguna greenbelt," for example:
+
+1. How did the greenbelt actually come to be? Why did Laguna manage it?
+2. How big is it, and what concrete facts back that up?
+3. What real tensions does it face now (development pressure, fire risk)?
+
+Those 3 questions are the article's skeleton. Don't force-write a question you can't answer.
+
+### Step 2: search broadly (Research First, Write Later)
+
+**⚠️ This is the most important step. Don't write from memory; write from what you found.**
+
+#### Search quotas (depth article)
+
+> Canonical numbers live in [REWRITE-PIPELINE Step 1.1](../pipelines/REWRITE-PIPELINE.md) (Stage 0 exploration ≥20 + Stage 1 ≥80 = whole article ≥100). This table is the depth-article source-diversity quota, checked by `research-report-health.py`.
+
+| Source class                        | Minimum quota | Goal                                                                |
+| ----------------------------------- | ------------- | ------------------------------------------------------------------- |
+| Local / primary-language (English)  | 40+           | base facts, history, local perspective, community memory            |
+| National / international / academic | **20+**       | broader perspective, scholarly sources, triangulation               |
+| Primary sources                     | 15+           | government sites, official reports, records, statutes, papers       |
+| Opposing / critical (perspective)   | 5+            | cross-camp counterarguments, recorded in `rationale.whats_excluded` |
+
+> Short articles / Hub / minor updates don't need this scale — only depth articles (≥ 2,000 words / ≥ 10 footnotes) do.
+
+#### Research-depth standard
+
+Every depth article reaches at least:
+
+- **25+ independent sources** (different sites/institutions)
+- **Triangulation across source types ≠ 0** — don't write off local press alone; cross-check against national coverage, primary records, and academic work. A topic genuinely covered by only one source → state the reason explicitly in the research report's §search-log, don't silently skip it.
+- **At least 5 primary sources** (official documents, firsthand interviews, original statistics, statutes, academic papers)
+- **At least 1 "time-span" source** (how the same thing was viewed in different eras)
+- **At least 1 "surprise finding"** — a fact you didn't know before searching. If nothing surprised you, research wasn't deep enough.
+- **If you searched it, write it back to the report**: every query + source + one-line finding goes into the report's §search-log (SSOT, per [REWRITE-PIPELINE Step 1.7](../pipelines/REWRITE-PIPELINE.md)) — searched but not written back = not searched.
+
+#### Why multiple layers of sources?
+
+A strong article pulls from different layers — local press (community view), national/wire coverage (broader view), institutional records (primary view), and Wikipedia (an index starting point, never a citation). Each layer brings a different depth of understanding. For Laguna Beach specifically, the layers are typically: City of Laguna Beach records, the Laguna Beach Historical Society, the Laguna Art Museum and festival organizations, the Orange County Register / Los Angeles Times archives, and academic or environmental reports.
+
+### Step 3: cross-referencing
+
+**Every important fact needs confirmation from at least 2 independent sources.**
+
+### Step 4: data verification
+
+For every number you put in the article, ask yourself:
+
+- [ ] What **institution** is the source of this number?
+- [ ] What **year** does this statistic cover?
+- [ ] Can I **find the original text** of this number in the primary source?
+- [ ] If I can't find the precise number, would I rather write "about" — or not write it at all?
+
+---
+
+## 2b. The research report = SSOT (thesis-grade methodology)
+
+> A depth article's research report is not a "fact compendium" — it's an **auditable, hand-off-able SSOT held to a graduate-thesis standard.** The full seven-section SSOT structure is in [REWRITE-PIPELINE Step 1.7](../pipelines/REWRITE-PIPELINE.md), checked by `research-report-health.py`.
+
+### Confidence-level system (iron rule #1)
+
+Before a claim enters the report body, tier it into three levels, **each with a basis for "why it's this tier"** (number of sources / can the original be retrieved directly / is it only a media paraphrase):
 
 ```yaml
 verification:
-  high_confidence: # ≥ 2-3 獨立來源 verbatim 一致
-    - {claim}（來源 A + B + C 多源 verbatim 一致）
-  single_source: # 僅單一來源，可用但標待補
-    - {claim}（僅 X 提及，need cross-check）
-  unverified: # 搜尋後仍無 / 有反證 → 不寫進文章
-    - {claim}（搜尋 N 次未找到 / 與 Y 矛盾）
+  high_confidence: # ≥ 2-3 independent sources, verbatim-consistent
+    - {claim} (sources A + B + C, multi-source verbatim agreement)
+  single_source: # only one source, usable but flagged to backfill
+    - {claim} (only X mentions it, need cross-check)
+  unverified: # still not found after searching / contradicted → do NOT write into the article
+    - {claim} (searched N times, not found / contradicts Y)
 ```
 
-升降判準：≥3 源一致 → high ／ 單源 → single（標 need cross-check）／ 搜尋後仍無 → **unverified（不寫進文章）**。可疊更細 notation：★★★ 一手 DOI/法規 verbatim ／ 🟢🟡🟠 inline ／ `confidence: high` + `可 Ctrl-F 驗證 ✓` ／ `⚠️ 必驗` 升旗（主稿前必補一手）。
+Promotion/demotion test: ≥3 sources agree → high / single source → single (flag need cross-check) / still not found after searching → **unverified (do not write into the article)**. You can layer finer notation: ★★★ primary DOI/statute verbatim / 🟢🟡🟠 inline / `confidence: high` + `Ctrl-F verifiable ✓` / `⚠️ must-verify` flag (backfill a primary source before the main draft).
 
-### 共通方法論骨架（10 條）
+### Shared methodology skeleton (10 rules)
 
-1. **信度三層登記制（YAML-first）** — 進主體前先分層 + 附來源組合。
-2. **觀點成型先於搜尋** — core_contradiction（≤30 字）先鎖；搜尋是**壓力測試論點**不是發現方向。
-3. **搜尋過程是報告的一部分** — frontmatter 記 budget；query 逐條列；**negative finding 必記**（「搜尋 N 次未找到」）。
-4. **數字三源驗證 + 主動揭露分歧** — 多源不一致時揭露差異 + 怎麼處理，不靜默取一；多口徑數字分開（交易金額 vs 處分利益 vs 淨利）。
-5. **Verbatim 引語是獨立資產** — 引語庫每條：逐字 + URL + 場合 + `Ctrl-F ✓`；記者轉述分開標；**找不到原文 → 改轉述不加引號**。
-6. **反例前置作為護欄** — 出事實清單**之前**先列「不能說的話 / 必驗反例 / 不採信清單」。`政府/來源自身矛盾 > 正反並陳`。
-7. **核心矛盾候選多選一（2-3 + 為什麼）** — 保留 Stage 2 判斷，不以報告代替寫作決策。
-8. **報告 = Stage 2 操作規範書** — hook scene 候選 + 小標題候選 + 不可忽略校正點 + **幻覺候選 Ctrl-F 清單**。
-9. **既有文章 red_flags 外科核查（EVOLVE）** — 三欄 log（原文章 / 正確版 / 來源）。
-10. **multi-round 研究** — Round 2/3 補 unverified、加學術深度（DOI）、加歷史錨點，每輪宣告 budget + 關鍵突破。
+1. **Tiered-confidence registry (YAML-first)** — tier before the body, with the source combination attached.
+2. **Point of view forms before searching** — lock the core_contradiction (≤30 words) first; searching is **stress-testing the thesis**, not discovering a direction.
+3. **The search process is part of the report** — record the budget in frontmatter; list queries one by one; **negative findings must be recorded** ("searched N times, not found").
+4. **Triple-source numbers + proactive disclosure of disagreement** — when sources disagree, disclose the difference and how you handled it, don't silently pick one; keep different measures separate (transaction amount vs. realized gain vs. net profit).
+5. **Verbatim quotes are a standalone asset** — each quote in the quote bank: word-for-word + URL + occasion + `Ctrl-F ✓`; mark reporter paraphrases separately; **can't find the original → switch to paraphrase without quotation marks**.
+6. **Counterexamples up front as a guardrail** — **before** the fact list, write the "things you can't say / counterexamples to verify / do-not-trust list." `Source contradicts itself > both sides presented`.
+7. **Core-contradiction candidates, pick one of several (2-3 + why)** — preserve the Stage 2 judgment; don't let the report replace the writing decision.
+8. **The report = the Stage 2 operating manual** — hook-scene candidates + subheading candidates + must-not-miss correction points + **hallucination-candidate Ctrl-F checklist**.
+9. **Surgical re-check of an existing article's red_flags (EVOLVE)** — a three-column log (original text / corrected version / source).
+10. **Multi-round research** — Rounds 2/3 backfill unverified claims, add academic depth (DOI), add historical anchors; each round declares its budget + key breakthrough.
 
 ---
 
-## 三、來源品質判斷
+## 3. Judging source quality
 
-### 來源優先序
+### Source priority
 
-| 等級    | 類型         | 說明                                             | 範例                      |
-| ------- | ------------ | ------------------------------------------------ | ------------------------- |
-| 🟢 一手 | 官方原始來源 | 政府統計、官方網站、法規條文、年報               | 主計總處、文化部公告      |
-| 🟢 一手 | 學術/專業    | 學術論文、專業媒體、研究報告                     | 中研院、JSTOR             |
-| 🟡 二手 | 新聞報導     | 主流媒體（注意時效性，優先用近 3 年）            | 報導者、BBC、Taipei Times |
-| 🟡 二手 | 維基百科     | 作為索引起點找到原始來源，不要只引用維基         | 看「參考文獻」段落        |
-| 🔴 避免 | 低品質       | 部落格、內容農場、無法追溯的「據說」「有人認為」 | —                         |
+| Tier         | Type                  | Note                                                                             | Example                                   |
+| ------------ | --------------------- | -------------------------------------------------------------------------------- | ----------------------------------------- |
+| 🟢 primary   | official original     | government statistics, official sites, statutes, annual reports                  | City of Laguna Beach, county records      |
+| 🟢 primary   | academic/professional | academic papers, professional media, research reports                            | JSTOR, university studies                 |
+| 🟡 secondary | news reporting        | mainstream media (watch recency; prefer the last 3 years)                        | Los Angeles Times, Orange County Register |
+| 🟡 secondary | Wikipedia             | an index starting point to find the original source; don't cite Wikipedia itself | read the "References" section             |
+| 🔴 avoid     | low quality           | blogs, content farms, untraceable "it's said" / "some believe"                   | —                                         |
 
-### 台灣特有的好來源
+### Good sources for Laguna Beach topics
 
-| 領域     | 推薦來源                                                                                          |
-| -------- | ------------------------------------------------------------------------------------------------- |
-| 政府統計 | [主計總處](https://www.stat.gov.tw/)、[國發會](https://www.ndc.gov.tw/)                           |
-| 觀光     | [交通部觀光署](https://www.taiwan.net.tw/)                                                        |
-| 文化     | [文化部](https://www.moc.gov.tw/)、[國家文化記憶庫](https://memory.culture.tw/)                   |
-| 歷史     | [國史館](https://www.drnh.gov.tw/)、[中研院台史所](https://www.ith.sinica.edu.tw/)                |
-| 體育     | [中華奧會](https://www.tpenoc.net/)、BWF/WTT 等國際總會官網                                       |
-| 企業     | [公開資訊觀測站](https://mops.twse.com.tw/)、公司年報、[財報狗](https://statementdog.com/)        |
-| 深度報導 | [報導者](https://www.twreporter.org/)、[鏡週刊](https://www.mirrormedia.mg/)                      |
-| 國際視角 | [Taipei Times](https://www.taipeitimes.com/)、[Taiwan Panorama](https://www.taiwan-panorama.com/) |
+| Domain                | Recommended source                                                              |
+| --------------------- | ------------------------------------------------------------------------------- |
+| City records          | City of Laguna Beach (official municipal site); county / state records          |
+| History               | Laguna Beach Historical Society; California state archives                      |
+| Art & galleries       | Laguna Art Museum; festival organizations (Festival of Arts, Sawdust)           |
+| Nature / marine       | California Department of Fish and Wildlife; Crystal Cove / state-park resources |
+| News (local)          | Orange County Register; [Los Angeles Times](https://www.latimes.com/) archive   |
+| International / index | [Wikipedia](https://en.wikipedia.org/) (as an index to primary sources only)    |
 
-### 台灣特有的陷阱
+> Name an institution as a recommended source — that is not a factual claim. Asserting a _fact_ from it (a year, a count) still requires Rule-12 verification against `knowledge/` before you write it.
 
-| 陷阱                     | 辨識方式                                                | 怎麼避開                               |
-| ------------------------ | ------------------------------------------------------- | -------------------------------------- |
-| **內容農場偽裝正經媒體** | 網址含 `dailynews`、`life`、`news` 等通用詞但非知名媒體 | Google 該網站名稱 + 「可信度」         |
-| **維基百科作為唯一來源** | 所有數據都指向同一個維基頁面                            | 從維基百科的「參考文獻」追溯到原始來源 |
-| **過期政府資料**         | 報告日期 5+ 年前                                        | 找同一機構最新版本                     |
-| **企業公關稿偽裝新聞**   | 「某某公司表示」「據了解」無具體記者署名                | 找記者署名的新聞，不是「新聞稿」分類   |
-| **AI 生成的假學術論文**  | DOI 不存在、作者 Google 不到                            | 在 Google Scholar 驗證 DOI 和作者      |
+### Common traps
 
-### URL 品質要求
+| Trap                                  | How to spot it                                                                       | How to avoid it                                            |
+| ------------------------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------- |
+| **Content farm posing as real media** | URL contains generic words like `dailynews`, `life`, `news` but isn't a known outlet | Google the site name + "credibility"                       |
+| **Wikipedia as the only source**      | every figure points to the same Wikipedia page                                       | trace from Wikipedia's "References" to the original source |
+| **Stale government data**             | report dated 5+ years ago                                                            | find the same agency's latest version                      |
+| **PR posing as news**                 | "the company said," "it is understood," no named byline                              | find reporting with a named byline, not a "press release"  |
+| **AI-generated fake academic papers** | the DOI doesn't exist; the author can't be Googled                                   | verify the DOI and author on Google Scholar                |
 
-- URL 必須指向**具體頁面**，不能只給首頁（❌ `https://www.moc.gov.tw/` / ✅ `https://www.moc.gov.tw/content_xxx`）
-- 同一個網站最多算 2 個來源（5 個維基百科連結 ≠ 5 個來源）
-- 來源旁邊標注類型會更好：`[文化部 2023 年報](URL)（一手）`
+### URL quality requirements
 
----
-
-## 四、搜尋策略實戰教學
-
-### 關鍵字構造技巧
-
-| 目標       | 搜尋關鍵字模式                                        | 範例                            |
-| ---------- | ----------------------------------------------------- | ------------------------------- |
-| 找引語     | `"主題" 訪談 OR 紀錄片 "他說" OR "她說"`              | `"林昶佐" 大港開唱 訪談 "他說"` |
-| 找爭議     | `"主題" 爭議 OR 批評 OR 質疑`                         | `"海洋音樂祭" 爭議 停辦`        |
-| 找一手     | `"主題" site:gov.tw OR site:edu.tw`                   | `"獨立音樂" site:moc.gov.tw`    |
-| 找數據     | `"主題" 統計 OR 報告 年度 數字`                       | `"音樂祭" 觀眾人次 統計 2024`   |
-| 找國際觀點 | `Taiwan [topic] site:bbc.com OR site:theguardian.com` | `Taiwan indie music scene`      |
-| 找時間深度 | `"主題" before:2015` vs 同關鍵字不限時間              | 看 10 年前和現在怎麼說          |
-| 找紀錄片   | `"主題" 紀錄片 OR documentary`                        | `春天吶喊 紀錄片`               |
-| 找書       | `"主題" 書 OR 著作 OR 出版`                           | `台灣獨立音樂 書 2020..2026`    |
-
-### 從維基百科追溯一手來源
-
-1. 搜尋維基百科相關條目
-2. **不要引用維基百科本身** — 看它的「參考文獻」段落
-3. 點開那些參考文獻，這些才是你的真正來源
-4. 如果參考文獻是死連結 → 用 [Wayback Machine](https://web.archive.org/) 找存檔
-
-### 用 Google Scholar 找學術來源
-
-1. `scholar.google.com` 搜尋主題
-2. 優先找有 PDF 的（可直接讀）
-3. 看被引用次數（>10 次 = 有影響力）
-4. 台灣本土學術：[華藝 Airiti](https://www.airitilibrary.com/)、[臺灣博碩士論文知識加值系統](https://ndltd.ncl.edu.tw/)
-
-### 引語挖掘技巧
-
-**Taiwan.md 不能採訪，但可以從已存在的公開素材中挖出聲音。**
-
-| 來源類型           | 優先度                                | 找法                                         |
-| ------------------ | ------------------------------------- | -------------------------------------------- |
-| 紀錄片/影片訪談    | 🟢 最佳（語氣最生動）                 | YouTube 搜 `"主題" 訪談 OR 專訪`，看影片字幕 |
-| 書籍/出版物        | 🟢 好（經過查核）                     | Google Books 搜關鍵字，看 preview 段落       |
-| 新聞報導引語       | 🟡 可用（注意二手引用可能走味）       | 搜 `"他說" OR "她說" "人名"`                 |
-| 社群發言（FB/PTT） | 🟡 慎用（需確認是否公開、是否可查證） | 僅當事人公開發文才可引用                     |
-| 杜撰/AI 生成       | 🔴 禁止                               | —                                            |
-
-**好引語的標準**（見 EDITORIAL.md「挖引語制度」段落）：
-
-- 帶語氣的、帶口語感的、透露立場的、專家分析型的 ✅
-- 官方聲明式、無語氣特徵、無法追溯來源 ❌
+- A URL must point to a **specific page**, not just a homepage (❌ `https://www.lagunabeachcity.net/` / ✅ `https://www.lagunabeachcity.net/content_xxx`)
+- A single website counts as at most 2 sources (5 Wikipedia links ≠ 5 sources)
+- Labeling the source type next to it helps: `[City of Laguna Beach 2023 report](URL) (primary)`
 
 ---
 
-## 五、常見研究錯誤（血淚教訓）
+## 4. Search-strategy field guide
 
-### 🔴 致命錯誤
+### Keyword-construction technique
 
-| 錯誤                     | 後果                                  | 怎麼避免                       |
-| ------------------------ | ------------------------------------- | ------------------------------ |
-| **只查維基百科就開始寫** | 文章淺薄，缺乏意外發現                | 至少 8 次搜尋，維基只是起點    |
-| **把二手引用當一手**     | 新聞引用研究，你引用新聞 = 二手的二手 | 追溯到原始報告/論文            |
-| **被 AI 幻覺的假資料騙** | 假書名、假統計、假人名進入文章        | 每個 AI 給的數據都 Google 驗證 |
-| **捏造具體數字**         | 「產值約 600 億元」但無此統計         | 找不到精確數字就用「約」或不寫 |
-| **張冠李戴**             | 把 A 公司的作品說成 B 的              | 交叉查核，不只查事實也查歸屬   |
+| Goal                    | Search-keyword pattern                                        | Example                                               |
+| ----------------------- | ------------------------------------------------------------- | ----------------------------------------------------- |
+| Find quotes             | `"topic" interview OR documentary "said"`                     | `"1993 Laguna fire" survivor interview "said"`        |
+| Find controversy        | `"topic" controversy OR criticism OR opposition`              | `"Laguna greenbelt" development controversy`          |
+| Find primary            | `"topic" site:gov OR site:edu`                                | `Laguna Beach incorporation site:lagunabeachcity.net` |
+| Find data               | `"topic" statistics OR report year number`                    | `"Pageant of the Masters" attendance statistics`      |
+| Find international view | `"Laguna Beach" [topic] site:latimes.com OR site:nytimes.com` | `Laguna Beach art colony history`                     |
+| Find time depth         | `"topic" before:2010` vs. the same query, no date limit       | see how it was described 10+ years ago                |
+| Find documentaries      | `"topic" documentary`                                         | `Laguna Beach 1993 fire documentary`                  |
+| Find books              | `"topic" book OR history OR published`                        | `Laguna Beach art colony history book`                |
 
-### 🟠 品質降低
+### Tracing primary sources from Wikipedia
 
-| 錯誤                                             | 後果                                                                          | 怎麼避免                                                                                            |
-| ------------------------------------------------ | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| **時間盲區**                                     | 只看最新報導，缺歷史深度                                                      | 至少 1 個「時間跨度」來源                                                                           |
-| **單一視角**                                     | 只看中文報導，缺國際觀                                                        | 至少 1 個英文來源                                                                                   |
-| **忽略爭議**                                     | 文章變成歌頌稿                                                                | 搜 `"主題" 爭議 OR 批評`                                                                            |
-| **URL 只給首頁**                                 | 讀者無法查證                                                                  | URL 指向具體頁面                                                                                    |
-| **沒在研究階段準備結尾**                         | 寫到最後沒力，結尾變罐頭                                                      | RESEARCH-TEMPLATE.md 最後一項 = 結尾素材                                                            |
-| **WebFetch 對中文網站取到英文摘要**（v1.1 新增） | 拿英文 summary 翻譯成中文當「直接引語」= 杜撰，觸犯 EDITORIAL §挖引語制度紅線 | WebFetch prompt 必須用中文寫 + 明確要求「逐字中文原文，不要翻譯，不要 paraphrase」（見下方 §六）    |
-| **團體運動獎金算錯**（v1.1 新增）                | 把「團體合計」當「個人實領」，新聞口徑混用 1000/2000 萬                       | 寫團體運動人物時，金額必須區分「項目補頒」vs「個人實領」vs「團體合計」三種口徑；交叉 ≥ 3 個來源確認 |
+1. Search the relevant Wikipedia article.
+2. **Don't cite Wikipedia itself** — look at its "References" section.
+3. Open those references; those are your real sources.
+4. If a reference is a dead link → find an archive with the [Wayback Machine](https://web.archive.org/).
 
-### 🟡 效率損耗
+### Finding academic sources with Google Scholar
 
-| 錯誤                              | 後果                          | 怎麼避免                               |
-| --------------------------------- | ----------------------------- | -------------------------------------- |
-| **每個搜尋結果都 web_fetch 全文** | 吃光 token，研究佔 70% 預算   | 先看 snippet 判斷值不值得深讀          |
-| **沒有先查站內已有文章**          | 寫完才發現跟現有文章 80% 重疊 | 研究前先 `grep -r "關鍵字" knowledge/` |
-| **研究筆記不結構化**              | 寫的時候找不到素材            | 用 RESEARCH-TEMPLATE.md 格式整理       |
+1. Search the topic on `scholar.google.com`.
+2. Prefer results with a PDF (directly readable).
+3. Check citation count (>10 = influential).
+4. For California / regional history, check university library archives and JSTOR.
 
----
+### Quote-mining technique
 
-## 六、WebFetch 對中文網站的正確姿勢（v1.1 新增，2026-04-14 李洋孢子 #28 教訓）
+**LagunaBeach.md can't interview, but it can mine voices from existing public material.**
 
-> 來源：李洋孢子 #28 杜撰引語事件。WebFetch《少年報導者》（中文媒體）回傳英文 paraphrase，AI 把英文 summary 翻譯回中文當「直接引語」使用，等於杜撰。觀察者明確要求「未來要完全避免」。
+| Source type                   | Priority                                              | How to find                                       |
+| ----------------------------- | ----------------------------------------------------- | ------------------------------------------------- |
+| Documentary / video interview | 🟢 best (most vivid voice)                            | search YouTube `"topic" interview`, read captions |
+| Book / publication            | 🟢 good (fact-checked)                                | search Google Books, read preview pages           |
+| News-report quotes            | 🟡 usable (watch for distortion in secondhand quotes) | search `"said" "person name"`                     |
+| Social-media posts            | 🟡 use with care (confirm it's public and verifiable) | only quote a person's own public post             |
+| Fabricated / AI-generated     | 🔴 forbidden                                          | —                                                 |
 
-### 為什麼會發生
+**What makes a good quote** (see EDITORIAL.md "quote-mining" section):
 
-WebFetch 工具內部對網頁做 markdown conversion + LLM 處理。當 prompt 是英文時，LLM 預設用英文回答，**會把中文網頁的內容 paraphrase 成英文 summary**，而不是逐字回傳中文原文。
-
-### 錯誤的 prompt 範例（會收到英文 summary）
-
-```
-What does Lee Yang say about his 14-year-old self in this Reporter Kids interview?
-```
-
-回傳會是英文 paraphrase：「I was the earliest to arrive at school, yet I fell short of keeping pace with my classmate Qi-lin.」這個英文不是李洋的原話，是 LLM 用英文 summarize 後的結果。
-
-### 正確的 prompt 範例
-
-```
-請逐字引用網頁中的中文原文，不要翻譯成英文，不要 paraphrase，不要摘要。
-我要找的是 [具體段落特徵，例如：李洋對 14 歲自己說的話的中文原文]。
-請回傳 verbatim Chinese text，包含原文的完整句子和引號。
-如果找不到該段落的中文原文，明確告訴我「找不到中文原文」，不要用英文摘要替代。
-```
-
-### WebFetch 中文網站的鐵律
-
-1. **prompt 必須用中文寫**——這會大幅降低 LLM 自動翻譯成英文的傾向
-2. **明確要求「逐字引用」「不要翻譯」「不要 paraphrase」**——一定要寫進 prompt
-3. **要求「verbatim」+「中文」**——雙重保險
-4. **如果原文找不到要求明確說「找不到中文原文」**——寧可 fail 也不要被英文 summary 替代
-5. **fetch 完之後在原始 URL 用瀏覽器或 curl 二次驗證引語**——commit 前必跑
-
-### 如果 WebFetch 還是回英文 summary 怎麼辦
-
-備案順序：
-
-1. **重 fetch + 換 prompt**：用更強硬的中文 prompt 再試一次
-2. **改用 Bash + curl + grep**：繞過 WebFetch 的 LLM 處理層，直接取 HTML 中的中文原文
-3. **WebSearch 找原文片段**：用搜尋引擎搜引語的某個關鍵字，找到含原文的其他來源
-4. **問觀察者要原文**：跟 v2.15 「Stage 1 結束前問觀察者要一手素材」同樣的精神。觀察者貼全文比 fetch 失敗 retry 還快
-5. **如果以上都不行**：放棄這個直接引語，改用轉述句式（不加引號），或刪掉這個素材。**寧可少一個引語也不要杜撰**。
-
-### 自檢問題（commit 前必跑）
-
-對每一個 `「XXX」` 直接引語格式：
-
-- [ ] 我的 fetch prompt 是用中文寫的嗎？
-- [ ] prompt 有明確要求「逐字引用」「不要翻譯」嗎？
-- [ ] 回傳的內容是中文原文嗎？（不是英文 summary）
-- [ ] 我能在原始 URL 的網頁上 Ctrl-F 搜到這句話嗎？
-- [ ] 任一條打不勾 = 不准用直接引語格式，改成轉述
-
-完整紅線見 [EDITORIAL §挖引語制度](EDITORIAL.md#挖引語制度) 「紅線：英文 summary 回譯陷阱」段。
-
-### 紅線擴大：具體場景細節也不能從英文 summary 推導（v1.2 新增，2026-04-14 李洋孢子 #29 教訓）
-
-> 不只是「直接引語」要逐字核對。**沒有引號但具體到讀者可以驗證的場景細節**——具體時間、地點、動作、交通工具、路線——也必須跟原始中文原文逐字確認，不能從英文 summary 推導。
-
-#### 為什麼這條紅線特別容易違反
-
-直接引語的 `「XXX」` 至少有一個明顯的「這是原話」承諾。但**沒有引號的場景描述**讀起來像「敘事」不像「引用」，AI 會更隨意地從英文 summary 補出細節。
-
-英文 summary 是高度壓縮的 paraphrase。把「5 點半起床 + 媽媽機車 + 南勢角站 + 趕首班 + 4 條線」壓成「commuted three hours daily via four different MRT lines」，回譯時 AI 會：
-
-- 從「3 hours commute」推出「四點多出門」（因為到校 7 點，4 點出門才合理）
-- 從「before dawn training」推出「念書等天亮」
-- 從「convenience store」推出「便利商店」位置（家附近？學校旁？AI 預設家附近）
-
-**每一步都是合理推論**，但合在一起就是**杜撰場景**。
-
-#### 真實案例：李洋孢子 #29 撤回（2026-04-14）
-
-| 我們寫的（從英文 summary 推導） | 原文（少年報導者中文逐字）               | 錯在哪                            |
-| ------------------------------- | ---------------------------------------- | --------------------------------- |
-| 清晨**四點多**                  | **5 點半**起床                           | 時間早 1.5 小時（捷運根本還沒開） |
-| **從中和**搭四條捷運            | 媽媽**機車載到南勢角站**趕首班           | 不是自己出門，是被機車接送        |
-| **便利商店念書等天亮**          | **學校旁的超商**寫**前一天沒寫完的作業** | 位置錯 + 動作錯                   |
-
-讀者在孢子上線約 1 小時內抓到「捷運最早 6:00，怎麼可能清晨四點多搭捷運」這個物理矛盾，孢子被撤回。
-
-#### 五條擴大鐵律
-
-1. **具體時間**（幾點幾分、幾月幾日）必須跟原文確認，不准從 dawn / morning / late afternoon 這類模糊英文推導出精確時間
-2. **具體地點**（站名、街名、店家位置）必須跟原文確認，不准從英文 convenience store / station / school 推導出位置關係
-3. **具體動作**（讀書 / 寫作業 / 等天亮 / 訓練）必須跟原文確認，不准從英文模糊動詞推導
-4. **具體交通工具與路線**（搭幾條線、誰送、坐什麼）必須跟原文確認
-5. **具體數字**（重量、距離、頻率）必須跟原文確認，不准從英文 about / approximately / roughly 推導出精確數字
-
-#### 「具體性」的判斷標準
-
-如果讀者可以拿你寫的細節去驗證（例如「捷運首班車是幾點」「那家店在哪裡」「他們訓練到幾點」），就是「具體」，就需要跟原始中文原文逐字確認。
-
-#### 自檢問題（v1.2 擴大版）
-
-對文章中的每一段場景描述：
-
-- [ ] 這段場景的**時間** 在原始中文原文有寫嗎？（不是英文 summary，是中文原文）
-- [ ] 這段場景的**地點** 在原始中文原文有寫嗎？
-- [ ] 這段場景的**動作** 在原始中文原文有寫嗎？
-- [ ] 我有沒有從英文 summary 的模糊詞推導出具體細節？
-- [ ] 任一條 「沒寫但我寫了」= **腦補場景** = 紅旗 = 改成轉述（「他國中時的通勤時間很長」這種不具體的描述）或刪除
-
-**核心原則**：**英文 summary 是研究參考，不是寫作素材。所有具體細節都必須回原文核對。**
-
-完整擴大紅線見 [EDITORIAL §挖引語制度 v4.4](EDITORIAL.md#挖引語制度) 「紅線擴大：具體場景細節也不能從英文 summary 推導」段。
+- has a voice, sounds spoken, reveals a stance, or is expert analysis ✅
+- official-statement style, no voice, untraceable ❌
 
 ---
 
-## 七、重複文章偵測（研究前必做）
+## 5. Common research mistakes (hard-won lessons)
 
-**在開始研究之前，先確認這個主題有沒有已經存在的文章。**
+### 🔴 Fatal mistakes
+
+| Mistake                                    | Consequence                                                      | How to avoid                                                   |
+| ------------------------------------------ | ---------------------------------------------------------------- | -------------------------------------------------------------- |
+| **Writing off Wikipedia alone**            | shallow article, no surprise finding                             | at least 8 searches; Wikipedia is only a starting point        |
+| **Treating a secondhand quote as primary** | news cites a study, you cite the news = secondhand of secondhand | trace to the original report/paper                             |
+| **Fooled by AI-hallucinated fake data**    | fake book titles, fake stats, fake names enter the article       | Google-verify every figure an AI gives you                     |
+| **Fabricating a specific number**          | "about $60 million in revenue" with no such statistic            | if you can't find the precise number, write "about" or nothing |
+| **Misattribution**                         | crediting A's work to B                                          | cross-check; verify not just the fact but the attribution      |
+
+### 🟠 Quality degraders
+
+| Mistake                                                                      | Consequence                                                                                                                 | How to avoid                                                                                                  |
+| ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| **Time blind spot**                                                          | only recent coverage, no historical depth                                                                                   | at least 1 "time-span" source                                                                                 |
+| **Single perspective**                                                       | only local coverage, no broader view                                                                                        | at least 1 national/international source                                                                      |
+| **Ignoring controversy**                                                     | the article becomes a puff piece                                                                                            | search `"topic" controversy OR criticism`                                                                     |
+| **URL only to the homepage**                                                 | the reader can't verify                                                                                                     | URL points to a specific page                                                                                 |
+| **Not preparing the ending during research**                                 | you run out of gas at the end and the ending turns canned                                                                   | RESEARCH-TEMPLATE.md's last item = ending material                                                            |
+| **A fetch tool returns a paraphrase, used as a "direct quote"** (added v1.1) | lifting a summarized/paraphrased line and presenting it as a verbatim quote = fabrication; violates EDITORIAL §quote-mining | demand verbatim text + verify it Ctrl-F in the original source (see §6)                                       |
+| **Mixing up measures of an amount** (added v1.1)                             | conflating "total" with "individual share," mixing reported figures                                                         | when a number has multiple measures (gross vs. net vs. per-unit), keep them separate; cross-check ≥ 3 sources |
+
+### 🟡 Efficiency drains
+
+| Mistake                                     | Consequence                                                    | How to avoid                                              |
+| ------------------------------------------- | -------------------------------------------------------------- | --------------------------------------------------------- |
+| **web_fetch the full text of every result** | burns tokens, research eats 70% of budget                      | read the snippet first to judge if it's worth a deep read |
+| **Not checking existing articles first**    | finish writing, then find 80% overlap with an existing article | before research, `grep -r "keyword" knowledge/`           |
+| **Unstructured research notes**             | can't find material while writing                              | organize with the RESEARCH-TEMPLATE.md format             |
+
+---
+
+## 6. The right way to fetch with a summarizing tool (verbatim discipline)
+
+> **Inherited red line (origin: Taiwan.md, 2026-04-14).** This rule was written after a Taiwan.md incident where a WebFetch of a Chinese-language outlet returned an English paraphrase, and the AI translated that English summary back and used it as a "direct quote" — fabrication. The mechanic was language-specific; the lesson is universal and applies to LagunaBeach.md: **a fetch/LLM tool returns a paraphrase, not the source's words. Never lift a verbatim quote — or a specific scene detail — from a paraphrase.**
+
+### Why it happens
+
+WebFetch and similar tools run a page through markdown conversion + LLM processing. The LLM **paraphrases the page into a summary** rather than returning the source text word-for-word. The summary is a faithful gist, but it is not the original wording — so anything you take from it that pretends to be original wording is invented.
+
+### Wrong prompt (you'll get a summary)
+
+```
+What does this source say about the resident's experience of the 1993 fire?
+```
+
+The reply will be a paraphrase. That phrasing is the LLM's, not the source's — using it inside quotation marks is fabrication.
+
+### Right prompt
+
+```
+Quote the exact wording from the page verbatim. Do not paraphrase, summarize, or translate.
+I'm looking for [specific passage feature, e.g.: the resident's own words about the night of the fire].
+Return the verbatim text, including the complete original sentence and its quotation marks.
+If you can't find that passage, say so explicitly — do not substitute a summary.
+```
+
+### Iron rules for fetching any source
+
+1. **Ask explicitly for "verbatim," "do not paraphrase," "do not summarize"** — write it into the prompt.
+2. **If the original can't be found, require an explicit "not found"** — fail rather than accept a summary substitute.
+3. **After fetching, re-verify the quote at the original URL with a browser or curl** — run this before commit.
+4. **A summary is research reference, not writing material.** Every concrete detail goes back to the original to be checked.
+
+### If the tool still returns only a summary
+
+Fallback order:
+
+1. **Re-fetch + change the prompt**: try once more with a stronger verbatim demand.
+2. **Switch to Bash + curl + grep**: bypass the tool's LLM layer and pull the original text from the HTML.
+3. **WebSearch for the original fragment**: search a keyword from the quote to find another source carrying the original.
+4. **Ask the observer for the original**: pasting the full text is faster than retrying a failed fetch.
+5. **If none of the above works**: drop the direct quote, switch to a paraphrase (no quotation marks), or cut the material. **Better one fewer quote than a fabricated one.**
+
+### Self-check (run before commit)
+
+For every `"..."` direct-quote:
+
+- [ ] Did I ask the fetch tool for verbatim text (not a summary)?
+- [ ] Did the prompt explicitly require "do not paraphrase / translate"?
+- [ ] Is the returned content the source's original wording (not a summary)?
+- [ ] Can I Ctrl-F this sentence on the page at the original URL?
+- [ ] Any box unchecked = no direct-quote format; switch to paraphrase.
+
+### Red line, expanded: don't derive specific scene details from a summary either (added v1.2)
+
+> Not just direct quotes. **Unquoted but reader-verifiable scene details** — a specific time, place, action, vehicle, route — must also be checked word-for-word against the original source, never derived from a summary.
+
+#### Why this red line is especially easy to violate
+
+A `"..."` direct quote at least carries an obvious "this is the original wording" promise. But **unquoted scene description** reads like "narration," not "quotation," so the AI fills in details more freely from a summary.
+
+A summary is a highly compressed paraphrase. Compressing "got up at 5:30, mom drove him to the station, caught the first train, four transit lines" into "commuted three hours daily by transit," then expanding it back, the AI will:
+
+- infer "left at 4-something" from "3-hour commute" (because 7am arrival makes a 4am departure "make sense")
+- infer "studied waiting for dawn" from "before-dawn training"
+- infer a convenience-store location from "convenience store" (near home? near school? the AI defaults to near home)
+
+**Each step is a reasonable inference**, but together they are **a fabricated scene**.
+
+#### Inherited case study: Taiwan.md retraction (2026-04-14)
+
+A Taiwan.md piece derived a subject's morning-commute scene from an English summary: it wrote "4-something in the morning" when the original said "5:30," "took four transit lines from [town]" when the original said "mom drove him to the station to catch the first train," and a study location that was simply wrong. A reader caught the physical contradiction (the transit system's first train was 6:00 — you can't ride it at 4am) within about an hour, and the post was retracted. The lesson generalizes directly to LagunaBeach.md: anchor every concrete detail in the source, not in plausible inference.
+
+#### Five expanded iron rules
+
+1. **Specific times** (clock time, date) must be confirmed against the original; never derive a precise time from a vague "dawn / morning / late afternoon."
+2. **Specific places** (station name, street, business location) must be confirmed; never derive a location relationship from a vague "convenience store / station / school."
+3. **Specific actions** (studying / doing homework / waiting for dawn / training) must be confirmed; never derive from a vague verb.
+4. **Specific vehicles and routes** (how many lines, who drove, what transport) must be confirmed.
+5. **Specific numbers** (weight, distance, frequency) must be confirmed; never derive a precise number from "about / approximately / roughly."
+
+#### The "specificity" test
+
+If a reader could take a detail you wrote and verify it (e.g. "what time is the first train," "where is that store," "how late do they train"), it's "specific" and must be confirmed word-for-word against the original source.
+
+#### Self-check (expanded version)
+
+For every scene description in the article:
+
+- [ ] Is this scene's **time** in the original source? (the original, not a summary)
+- [ ] Is this scene's **place** in the original source?
+- [ ] Is this scene's **action** in the original source?
+- [ ] Did I derive a concrete detail from a vague word in a summary?
+- [ ] Any "not written but I wrote it" = **invented scene** = red flag = switch to paraphrase (a non-specific description like "his commute was long") or delete.
+
+**Core principle**: **a summary is research reference, not writing material. Every concrete detail must be checked back against the original.**
+
+---
+
+## 7. Duplicate-article detection (do before research)
+
+**Before starting research, confirm whether an article on this topic already exists.**
 
 ```bash
-# 搜尋站內已有的相關文章
-grep -rl "關鍵字" knowledge/ | head -10
+# search existing related articles
+grep -rl "keyword" knowledge/ | head -10
 
-# 看同一個 subcategory 有哪些文章
+# see what articles are in the same subcategory
 ls knowledge/[Category]/
 
-# 搜尋 frontmatter 的 tags
-grep -rl "tags:.*關鍵字" knowledge/ | head -10
+# search frontmatter tags
+grep -rl "tags:.*keyword" knowledge/ | head -10
 ```
 
-**如果發現重疊：**
+**If you find overlap:**
 
-| 情況           | 動作                                         |
-| -------------- | -------------------------------------------- |
-| 完全相同主題   | 不建新文。改寫既有文章                       |
-| 主題 50%+ 重疊 | 合併為一篇（進化模式），刪除重複的           |
-| 主題 <30% 重疊 | 可以分開，但用 wikilink 互相連結，內容不重複 |
-| 一般→特殊關係  | 一般性文章概述 + wikilink 指向特殊文章做深潛 |
+| Situation                 | Action                                                                         |
+| ------------------------- | ------------------------------------------------------------------------------ |
+| Exactly the same topic    | don't create a new article; rewrite the existing one                           |
+| 50%+ topic overlap        | merge into one (evolution mode), delete the duplicate                          |
+| <30% topic overlap        | can stay separate, but wikilink to each other; no duplicated content           |
+| General→specific relation | general article overviews + wikilink to the specific article for the deep dive |
 
-**⚠️ 三篇音樂文章重疊事件（2026-03-29 教訓）**：「獨立音樂場景」「台灣獨立音樂場景演變」「台灣音樂祭文化」三篇 60%+ 內容重疊，最終合併為兩篇。研究前先偵測可以完全避免這種浪費。
-
----
-
-## 八、進化模式的素材萃取（Stage 0）
-
-> 完整進化模式流程見 REWRITE-PIPELINE.md。這裡只放素材萃取的方法論。
-
-**當你改寫一篇既有文章時，舊文是素材庫，不是骨架。**
-
-### 為什麼不在舊文上「修改」？
-
-AI 讀了品質不佳的舊文會不自覺模仿它的語氣、結構、甚至壞習慣（清單堆砌、塑膠句式）。把舊文當骨架 = 讓病毒感染新內容。正確做法：從舊文中**只提取事實**，然後用全新模式重寫。
-
-### 萃取什麼
-
-1. **事實清單**：人名、年份、數字、統計、有出處的真人引語、有效 URL
-2. **問題標記**：`[LIST-DUMP]` / `[THIN]` / `[STALE]` / `[PLASTIC]` / `[FLAT-END]`
-3. **缺口列表**：「舊文缺什麼？接下來的研究需要補什麼？」
-
-**⚠️ 萃取完畢後，舊文不再被參考。只看事實清單進入 Step 1。**
+**⚠️ Inherited lesson (Taiwan.md, 2026-03-29)**: three articles on overlapping music-scene topics shared 60%+ content and were eventually merged into two. Detecting before research avoids this waste entirely.
 
 ---
 
-## 附錄：AI 常見幻覺類型
+## 8. Material extraction in evolution mode (Stage 0)
 
-| 幻覺類型       | 範例                         | 驗證方法                             |
-| -------------- | ---------------------------- | ------------------------------------ |
-| 捏造產值數字   | 「產值約 600 億元」          | 搜尋「[主題] 產值 site:stat.gov.tw」 |
-| 捏造公司名稱   | 「Baboo 動畫」「格思邁數位」 | Google 公司名稱，沒有搜尋結果 = 假的 |
-| 張冠李戴獎項   | 把 A 的得獎紀錄說成 B 的     | 交叉比對 2 個獨立來源                |
-| 編造書名/論文  | 引用不存在的著作             | Google Scholar 或國家圖書館驗證      |
-| 過期數據當現況 | 引用 2015 年數據說「目前」   | 確認統計年份，超過 3 年加註          |
-| 偽造引語       | 「他曾說過⋯⋯」但找不到出處   | 搜 `"人名" "那句話的前幾個字"`       |
+> The full evolution-mode process is in REWRITE-PIPELINE.md. Here is only the extraction methodology.
+
+**When you rewrite an existing article, the old article is a material store, not a skeleton.**
+
+### Why not "edit" the old article in place?
+
+An AI that reads a low-quality old article unconsciously mimics its voice, structure, and even its bad habits (list-dumping, plastic phrasing). Using the old article as a skeleton = letting the virus infect the new content. The correct approach: extract **only the facts** from the old article, then rewrite from scratch in a fresh structure.
+
+### What to extract
+
+1. **Fact list**: names, years, numbers, statistics, sourced real-person quotes, valid URLs
+2. **Problem markers**: `[LIST-DUMP]` / `[THIN]` / `[STALE]` / `[PLASTIC]` / `[FLAT-END]`
+3. **Gap list**: "what's missing from the old article? what does the next round of research need to backfill?"
+
+**⚠️ After extraction, the old article is no longer referenced. Only the fact list enters Step 1.**
+
+---
+
+## Appendix: common AI hallucination types
+
+| Hallucination type          | Example                                  | Verification method                                  |
+| --------------------------- | ---------------------------------------- | ---------------------------------------------------- |
+| Fabricated revenue figure   | "about $60 million in revenue"           | search "[topic] revenue site:gov"                    |
+| Fabricated company/org name | a studio or group that doesn't exist     | Google the name; no results = fake                   |
+| Misattributed award         | crediting A's award record to B          | cross-check 2 independent sources                    |
+| Invented book/paper         | citing a work that doesn't exist         | verify on Google Scholar or a library catalog        |
+| Stale data as current       | citing 2015 data as "currently"          | confirm the statistic's year; flag if >3 years old   |
+| Fabricated quote            | "he once said…" with no traceable source | search `"person name" "first few words of the line"` |
 
 ---
 
 _current: v1.3 | 2026-06-04_
 
-**最近 milestone**（完整 changelog → `git log docs/editorial/RESEARCH.md`）：
+**Recent milestones** (full changelog → `git log docs/editorial/RESEARCH.md`):
 
-- **v1.3**（2026-06-04 深度研究-設計研究院）— §二 搜尋量化標準對標研究所論文：中 4+→40+ / 英 2+→20+（英文來源 ≠ 0 硬要求）/ 一手 2+→15+ / 反方 5+；研究深度 5+ 來源→25+；新增「搜了就要寫回 report §搜尋日誌（SSOT）」。觸發：226 份歷史 report 量測 57% 英文來源 = 0，哲宇 directive 對標論文標準。canonical 數值在 [REWRITE-PIPELINE Step 1.1](../pipelines/REWRITE-PIPELINE.md)，驗收 `research-report-health.py`
-- **v1.2**（2026-04-14）— §六 紅線擴大：場景細節不能從英文 summary 推導（per [REFLEXES #23](../semiont/REFLEXES.md#23) 李洋 #29 教訓 + EDITORIAL v4.4）
-- **v1.1**（2026-04-14）— §六 「WebFetch 對中文網站的正確姿勢」整節 + §五 +2 條常見錯誤（李洋 #28 教訓 — per REFLEXES #23）
-- **v1.0**（早期）— 從 EDITORIAL.md v4 研究段落獨立
+- **v1.3** (2026-06-04 deep-research) — §2 search quotas raised to a thesis standard: local/primary-language 4+→40+ / national-international-academic 2+→20+ / primary 2+→15+ / opposing 5+; research depth 5+ sources→25+; added "if you searched it, write it back to the report §search-log (SSOT)." Canonical numbers in [REWRITE-PIPELINE Step 1.1](../pipelines/REWRITE-PIPELINE.md), checked by `research-report-health.py`.
+- **v1.2** (2026-04-14) — §6 red line expanded: scene details can't be derived from a summary (inherited Taiwan.md lesson + EDITORIAL v4.4).
+- **v1.1** (2026-04-14) — §6 "the right way to fetch with a summarizing tool" added + §5 +2 common mistakes (inherited Taiwan.md verbatim-quote lesson).
+- **v1.0** (early) — split out from EDITORIAL.md v4 research section.
 
-_配套：EDITORIAL.md（品質）+ REWRITE-PIPELINE.md（流程）+ RESEARCH-TEMPLATE.md（模板）+ QUALITY-CHECKLIST.md（驗證）_
+_Companions: EDITORIAL.md (quality) + REWRITE-PIPELINE.md (process) + RESEARCH-TEMPLATE.md (template) + QUALITY-CHECKLIST.md (verification)_
