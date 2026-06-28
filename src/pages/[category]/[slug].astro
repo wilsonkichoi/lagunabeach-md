@@ -6,8 +6,9 @@
  * fs scan to enumerate which articles exist) and delegates all rendering to
  * src/templates/article.template.astro.
  *
- * 2026-05-03 sleepy-colden Tier 2.5 Phase B：unified template extraction，
- * 中文 SSOT canonical 版本，其他 5 langs 對齊到這份 wrapper 結構。
+ * 2026-05-03 sleepy-colden Tier 2.5 Phase B: unified template extraction.
+ * Default-locale canonical version; the other 5 lang wrappers align to this
+ * structure.
  */
 import { readdir, readFile } from 'fs/promises';
 import { resolve, join, basename } from 'path';
@@ -27,8 +28,8 @@ function getGitInfo(filePath: string) {
 }
 
 // ── getStaticPaths ───────────────────────────────────────────────────────────
-// Astro 限制：getStaticPaths 在獨立 context 跑，不能 access module-level consts。
-// 所以 CATEGORY_MAPPING 必須 inline 進 getStaticPaths body。
+// Astro limitation: getStaticPaths runs in a separate context and cannot access
+// module-level consts. CATEGORY_MAPPING must be inlined into the function body.
 export async function getStaticPaths() {
   const CATEGORY_MAPPING: Record<string, string> = {
     history: 'History',

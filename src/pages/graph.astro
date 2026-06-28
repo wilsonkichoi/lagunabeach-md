@@ -234,7 +234,7 @@ for (const [cat, folder] of Object.entries(categoryMapping)) {
             edges.push({ source: cat, target: matchNode.id });
           }
         }
-        // Cross-category Hub links (e.g. History Hub mentions [[茶文化]])
+        // Cross-category Hub links (e.g. History Hub mentions an article from Food)
         if (!matchNode) {
           for (const [otherCat] of Object.entries(categoryMapping)) {
             if (otherCat === cat) continue;

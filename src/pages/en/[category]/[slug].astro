@@ -2,12 +2,12 @@
 /**
  * en article slug page — thin wrapper.
  *
- * 2026-05-03 sleepy-colden Tier 2.5 Phase B unified template extraction。
- * 從 1201 行 → 105 行：邏輯全在 src/templates/article.template.astro，本檔
- * 只負責 getStaticPaths 列出 knowledge/en/ 下哪些 article 存在。
+ * 2026-05-03 sleepy-colden Tier 2.5 Phase B unified template extraction.
+ * From 1201 lines to 105: all logic lives in src/templates/article.template.astro;
+ * this file only handles getStaticPaths to enumerate articles in knowledge/en/.
  *
- * Cross-lang baseline (5/3) 後，knowledge/en/{Cat}/ 內的檔案 basename = canonical
- * URL slug，不需要 translations.json filter（per cross-lang URL convention）。
+ * Post cross-lang baseline (5/3), knowledge/en/{Cat}/ file basenames = canonical
+ * URL slugs; no translations.json filter needed (per cross-lang URL convention).
  */
 import { readdir, readFile } from 'fs/promises';
 import { resolve, join, basename } from 'path';

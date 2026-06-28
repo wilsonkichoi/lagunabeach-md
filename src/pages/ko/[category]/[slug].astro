@@ -2,11 +2,12 @@
 /**
  * ko article slug page — thin wrapper.
  *
- * 2026-05-03 sleepy-colden Tier 2.5 Phase B unified template extraction。
- * 從 1285 行 → 105 行：邏輯全在 src/templates/article.template.astro。
+ * 2026-05-03 sleepy-colden Tier 2.5 Phase B unified template extraction.
+ * From 1285 lines to 105: all logic lives in src/templates/article.template.astro.
  *
- * Cross-lang baseline (5/3) 後，knowledge/ko/{Cat}/ basename = canonical en URL
- * slug。直接 readdir 列出 ko 翻譯的 articles，不需要 translations.json filter。
+ * Post cross-lang baseline (5/3), knowledge/ko/{Cat}/ basename = canonical en URL
+ * slug. Directly readdir to list ko translated articles; no translations.json
+ * filter needed.
  */
 import { readdir, readFile } from 'fs/promises';
 import { resolve, join, basename } from 'path';

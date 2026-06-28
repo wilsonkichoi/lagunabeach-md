@@ -4,9 +4,9 @@ import fs from 'fs';
 import path from 'path';
 import { LANGUAGES, DEFAULT_LANGUAGE } from '../config/languages';
 
-// 2026-04-25 β7 Phase 1：fix B1 cascade (i18n-evolution-roadmap audit)
-// 從 LANGUAGES_REGISTRY 動態 derive，取代之前 hardcoded ['en', 'ja', 'ko']
-// 透過 define:vars inject 給 client-side script
+// 2026-04-25 β7 Phase 1: fix B1 cascade (i18n-evolution-roadmap audit).
+// Dynamically derived from LANGUAGES_REGISTRY, replacing previously hardcoded
+// ['en', 'ja', 'ko']. Injected to client-side script via define:vars.
 const nonDefaultLangCodes = LANGUAGES.filter(
   (l) => l.enabled && l.code !== DEFAULT_LANGUAGE.code,
 ).map((l) => l.code);
@@ -379,8 +379,9 @@ const categories = [
     const pathname = window.location.pathname;
 
     // Detect language from URL
-    // 2026-04-25 β7: 用 LANGUAGES_REGISTRY-derive 清單取代 hardcoded ['en','ja','ko']
-    // 修復「進 fr/es 404 後切其他語言會路由疊加」的 cascade bug
+    // 2026-04-25 β7: use LANGUAGES_REGISTRY-derived list instead of hardcoded
+    // ['en','ja','ko']. Fixes the cascade bug where entering fr/es 404 then
+    // switching languages caused route stacking.
     let lang = 'en';
     let pathWithoutLang = pathname;
     for (const prefix of nonDefaultLangCodes) {

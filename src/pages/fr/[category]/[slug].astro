@@ -2,12 +2,13 @@
 /**
  * fr article slug page — thin wrapper.
  *
- * 2026-05-03 sleepy-colden Tier 2.5 Phase B unified template extraction。
- * 從 1138 行 → 105 行：邏輯全在 src/templates/article.template.astro。
+ * 2026-05-03 sleepy-colden Tier 2.5 Phase B unified template extraction.
+ * From 1138 lines to 105: all logic lives in src/templates/article.template.astro.
  *
- * 順便修 PR #758 ship 帶來的 JA copy-paste bug — 之前 fr getStaticPaths 用
- * zhToJa 過濾、related/explore 讀 ja frontmatter（顯示日文 title）。新版直接
- * 從 knowledge/fr/{Cat}/ 讀，cross-lang baseline 確保 basename canonical。
+ * Also fixes the JA copy-paste bug shipped with PR #758: previously fr
+ * getStaticPaths used zhToJa filtering and related/explore read ja frontmatter
+ * (showing Japanese titles). Now reads directly from knowledge/fr/{Cat}/;
+ * cross-lang baseline ensures basename is canonical.
  */
 import { readdir, readFile } from 'fs/promises';
 import { resolve, join, basename } from 'path';

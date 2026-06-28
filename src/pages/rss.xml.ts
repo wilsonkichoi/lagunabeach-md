@@ -4,11 +4,11 @@ import path from 'path';
 import matter from 'gray-matter';
 
 export async function GET(context) {
-  // 掃描 knowledge/ 下所有文章
+  // Scan all articles under knowledge/
   const knowledgeDir = path.join(process.cwd(), 'knowledge');
   const articles = [];
 
-  // 遞迴掃描
+  // Recursive scan
   function scanDir(dir, category = '') {
     const files = fs.readdirSync(dir);
     for (const file of files) {
@@ -43,7 +43,7 @@ export async function GET(context) {
 
   scanDir(knowledgeDir);
 
-  // 按日期排序，取最新 50 篇
+  // Sort by date, take the latest 50
   articles.sort((a, b) => b.pubDate - a.pubDate);
 
   return rss({
