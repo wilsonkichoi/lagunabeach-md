@@ -1,8 +1,80 @@
 {
-  "_generated": "2026-06-24T15:48:23.362Z",
+  "_generated": "2026-06-28T00:05:48.526Z",
   "perLang": 30,
   "byLang": {
-    "zh-TW": [
+    "en": [
+      {
+        "title": "Visualization Catalog: How LagunaBeach.md Turns Data Into Pictures",
+        "desc": "The visual modules available for LagunaBeach.md articles — from single-stat callouts to comparison tables and timelines. Each module renders as semantic HTML that both humans and AI crawlers can read.",
+        "category": "about",
+        "href": "/about/visualization-catalog",
+        "date": "2026-06-24T08:56:44-07:00",
+        "readingTime": 5,
+        "image": ""
+      },
+      {
+        "title": "Laguna Art Museum",
+        "desc": "The oldest art museum in Orange County, focused exclusively on California art from the plein air era to contemporary.",
+        "category": "art-galleries",
+        "href": "/art-galleries/laguna-art-museum",
+        "date": "2026-06-22T11:58:49-07:00",
+        "readingTime": null,
+        "image": ""
+      },
+      {
+        "title": "Plein Air Painting",
+        "desc": "Laguna Beach's identity as an art colony was built on painters working outdoors in the coastal light.",
+        "category": "art-galleries",
+        "href": "/art-galleries/plein-air-painting",
+        "date": "2026-06-22T11:58:49-07:00",
+        "readingTime": null,
+        "image": ""
+      },
+      {
+        "title": "Thousand Steps Beach",
+        "desc": "A secluded beach at the base of a long staircase in South Laguna, known for its dramatic cliffs and tide pools.",
+        "category": "beaches",
+        "href": "/beaches/thousand-steps-beach",
+        "date": "2026-06-22T11:58:49-07:00",
+        "readingTime": null,
+        "image": ""
+      },
+      {
+        "title": "Victoria Beach",
+        "desc": "A secluded beach known for its distinctive 1926 stone tower and rocky tide pool areas.",
+        "category": "beaches",
+        "href": "/beaches/victoria-beach",
+        "date": "2026-06-22T11:58:49-07:00",
+        "readingTime": null,
+        "image": ""
+      },
+      {
+        "title": "Pageant of the Masters",
+        "desc": "A live performance where volunteers recreate famous paintings and sculptures using real people, running annually since 1933.",
+        "category": "events-festivals",
+        "href": "/events-festivals/pageant-of-the-masters",
+        "date": "2026-06-22T11:58:49-07:00",
+        "readingTime": null,
+        "image": ""
+      },
+      {
+        "title": "Sawdust Art Festival",
+        "desc": "An open-air art festival where Laguna Beach artists sell work directly from hand-built booths, running since 1966.",
+        "category": "events-festivals",
+        "href": "/events-festivals/sawdust-art-festival",
+        "date": "2026-06-22T11:58:49-07:00",
+        "readingTime": null,
+        "image": ""
+      },
+      {
+        "title": "The Cliff Restaurant",
+        "desc": "A landmark oceanfront restaurant perched on the bluffs above the Pacific, serving Laguna Beach since 1946.",
+        "category": "food",
+        "href": "/food/the-cliff-restaurant",
+        "date": "2026-06-22T11:58:49-07:00",
+        "readingTime": null,
+        "image": ""
+      },
       {
         "title": "Founding and Early History",
         "desc": "How Laguna Beach grew from an indigenous homeland to an artists colony to an incorporated city.",
@@ -22,19 +94,78 @@
         "image": ""
       },
       {
-        "title": "The Cliff Restaurant",
-        "desc": "A landmark oceanfront restaurant perched on the bluffs above the Pacific, serving Laguna Beach since 1946.",
-        "category": "food",
-        "href": "/food/the-cliff-restaurant",
+        "title": "Tide Pools",
+        "desc": "Laguna Beach hosts some of Southern California's most accessible and biodiverse intertidal zones.",
+        "category": "nature-marine-life",
+        "href": "/nature-marine-life/tide-pools",
         "date": "2026-06-22T11:58:49-07:00",
         "readingTime": null,
         "image": ""
+      },
+      {
+        "title": "Whale Watching",
+        "desc": "Gray whales migrate past Laguna Beach every winter, visible from shore and by boat.",
+        "category": "nature-marine-life",
+        "href": "/nature-marine-life/whale-watching",
+        "date": "2026-06-22T11:58:49-07:00",
+        "readingTime": null,
+        "image": ""
+      },
+      {
+        "title": "South Laguna",
+        "desc": "The quieter southern stretch of Laguna Beach, home to hidden beaches and residential hillside neighborhoods.",
+        "category": "neighborhoods",
+        "href": "/neighborhoods/south-laguna",
+        "date": "2026-06-22T11:58:49-07:00",
+        "readingTime": null,
+        "image": ""
+      },
+      {
+        "title": "The Village",
+        "desc": "Laguna Beach's walkable downtown core, centered on Pacific Coast Highway and Forest Avenue.",
+        "category": "neighborhoods",
+        "href": "/neighborhoods/the-village",
+        "date": "2026-06-22T11:58:49-07:00",
+        "readingTime": null,
+        "image": ""
+      },
+      {
+        "title": "Laguna Coast Wilderness Park",
+        "desc": "A 7,000-acre protected open space surrounding Laguna Beach with 40+ miles of trails through coastal sage scrub and oak woodland.",
+        "category": "trails",
+        "href": "/trails/laguna-coast-wilderness-park",
+        "date": "2026-06-22T11:58:49-07:00",
+        "readingTime": null,
+        "image": ""
+      },
+      {
+        "title": "Top of the World",
+        "desc": "A panoramic viewpoint and trailhead offering 360-degree views from the Pacific Ocean to the Santa Ana Mountains.",
+        "category": "trails",
+        "href": "/trails/top-of-the-world",
+        "date": "2026-06-22T11:58:49-07:00",
+        "readingTime": null,
+        "image": ""
+      },
+      {
+        "title": "How an Article Is Born: The Editorial Pipeline Behind LagunaBeach.md",
+        "desc": "Every article on LagunaBeach.md runs through a six-stage process: find the tension, research deeply, write the ending first, verify every claim, add visuals, and connect to the knowledge graph. This is how that pipeline works.",
+        "category": "about",
+        "href": "/about/how-an-article-is-born",
+        "date": "2026-06-20T08:31:36-07:00",
+        "readingTime": 6,
+        "image": ""
+      },
+      {
+        "title": "LagunaBeach.md: How This Project Works",
+        "desc": "An open-source knowledge base about Laguna Beach, California. Forked from Taiwan.md, built on Astro, curated by humans and AI together. This is how the system works under the hood.",
+        "category": "about",
+        "href": "/about/lagunabeach-md",
+        "date": "2026-06-20T08:31:36-07:00",
+        "readingTime": 7,
+        "image": ""
       }
     ],
-    "en": [],
-    "ja": [],
-    "ko": [],
-    "fr": [],
-    "es": []
+    "zh-TW": []
   }
 }

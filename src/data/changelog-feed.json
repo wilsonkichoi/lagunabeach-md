@@ -1,7 +1,420 @@
 {
-  "generatedAt": "2026-06-24T16:53:56.069Z",
+  "generatedAt": "2026-06-28T00:05:35.275Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "c5f5f31f96d6622967ae1fc2216158ef4d9c5e7c",
+      "date": "2026-06-27T17:01:07-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(build): align category maps in lang-switch-map, generate-api, content-dates to LB",
+      "articles": []
+    },
+    {
+      "hash": "a968fd6f2a7c40b04f6962630b51ae1580c18994",
+      "date": "2026-06-27T17:01:00-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(build): replace Taiwan 13-category map with LB 9-category in build-latest.mjs",
+      "articles": []
+    },
+    {
+      "hash": "ab69aa9fdb19681eb2fb456052ea10c58b8a5663",
+      "date": "2026-06-27T16:52:07-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(build): relocate _translation-status.json from knowledge/ to src/data/",
+      "articles": []
+    },
+    {
+      "hash": "955266595a7e174c1dbe9717668b7b28206d9617",
+      "date": "2026-06-27T16:49:39-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(build): untrack 8 runtime/dashboard JSONs that have no build-time importers",
+      "articles": []
+    },
+    {
+      "hash": "843f4ceab5ffc95c47f4a7838323d54fc3c6f530",
+      "date": "2026-06-27T16:38:24-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(og-images): replace Taiwan 13-category maps with LB 9-category mapping",
+      "articles": []
+    },
+    {
+      "hash": "a7dae99b21dd4aeab45f9fc73faa10262175ac8c",
+      "date": "2026-06-27T15:43:25-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(migration): sweep prebuild scripts zh-TW→en default-language refs",
+      "articles": []
+    },
+    {
+      "hash": "b7b3ebc2336dec4f1a9e3fd3d01c8267716b0880",
+      "date": "2026-06-27T15:43:14-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(migration): remove dead loadTranslationIndex from og-images.mjs",
+      "articles": []
+    },
+    {
+      "hash": "14fe2e01330b280dfe7d2cbe4398c640f15bdb11",
+      "date": "2026-06-27T14:50:39-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(migration): make generate-og-images config-driven, drop zh-TW default",
+      "articles": []
+    },
+    {
+      "hash": "f3ca571effe945dba7d06c7448e4c2a1e9f75ca6",
+      "date": "2026-06-27T14:35:11-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(migration): relabel zh-TW→en canonical in generate-dashboard-immune.py",
+      "articles": []
+    },
+    {
+      "hash": "11f624bffc59310e0064cc649011209a2883e883",
+      "date": "2026-06-27T13:40:42-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(migration): relabel zh-TW→en canonical in status.py",
+      "articles": []
+    },
+    {
+      "hash": "23fc7207c56977d6f8800219b3c7298315736542",
+      "date": "2026-06-26T00:02:53-07:00",
+      "author": "Wilson Choi",
+      "message": "feat(i18n): disable zh-TW locale (no translated content)",
+      "articles": []
+    },
+    {
+      "hash": "2e00e02aa9904540087b87874a554c7e9c0bf006",
+      "date": "2026-06-26T00:02:46-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(migration): delete dead MIGRATION-remove.md",
+      "articles": []
+    },
+    {
+      "hash": "4a229dadaa2409d5ee1632b684b254b44c0f683e",
+      "date": "2026-06-25T19:00:53-07:00",
+      "author": "Wilson Choi",
+      "message": "chore: untrack MIGRATION.md + ROADMAP.md (kept local during restructure)",
+      "articles": []
+    },
+    {
+      "hash": "d0892a9b43510071da69a0172bc65ac1d3fb2388",
+      "date": "2026-06-25T17:07:00-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(phase9): correct stale justfont SDK comment in Layout.astro",
+      "articles": []
+    },
+    {
+      "hash": "c59b74d5823ecfad828eb798ee29752d10a64494",
+      "date": "2026-06-25T16:46:03-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(phase9): remove justfont SDK + Protico widget, complete Phase 9",
+      "articles": []
+    },
+    {
+      "hash": "e920d8df8648055c137095ae83d2fc273850cf3b",
+      "date": "2026-06-25T16:45:38-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(phase9): swap GA4 property G-JGC5W00N7T → G-GP9LN8026H (stop data leak to Taiwan.md)",
+      "articles": []
+    },
+    {
+      "hash": "d18646e25624419091e435ac322edfd75e49a6ad",
+      "date": "2026-06-25T16:37:47-07:00",
+      "author": "Wilson Choi",
+      "message": "docs: add ROADMAP.md + MIGRATION Phase 9 (live-surface Taiwan inheritance)",
+      "articles": []
+    },
+    {
+      "hash": "565966adba8ba833e4303afa858fb769608fe2f1",
+      "date": "2026-06-25T13:46:54-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(phase8): close Phase 6+7, park capability-gated ports + deferred cleanup in Phase 8",
+      "articles": []
+    },
+    {
+      "hash": "7ec22046f96b9855284e321e2ffbae6455dbc65b",
+      "date": "2026-06-25T13:30:14-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(phase7): fix stale twmd-become dependent count (28->25) in inventory HELD section",
+      "articles": []
+    },
+    {
+      "hash": "aad34157d77d4ced087423231b7d77a94266309e",
+      "date": "2026-06-25T13:14:31-07:00",
+      "author": "Wilson Choi",
+      "message": "feat(phase7): port 3 editorial-rebornable skills (lb-peer, lb-news-lens, lb-media-audit) + delete twmd originals",
+      "articles": []
+    },
+    {
+      "hash": "3ec2ea7af0bf8b4de03f0b8b9cfe64b133a12d2d",
+      "date": "2026-06-25T12:42:24-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(phase7): execute R16 approved deletions (13 items) + update inventory",
+      "articles": []
+    },
+    {
+      "hash": "45d25d6979ac4642ed4b33995c7da68f9813c27d",
+      "date": "2026-06-25T12:01:21-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(phase7): add Taiwan-tooling disposition inventory (R15)",
+      "articles": []
+    },
+    {
+      "hash": "7229167de5e9962f79193c9bf19d5c1031ddcfcd",
+      "date": "2026-06-25T11:18:49-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(phase7): rewrite reports/README.md for LB + add inheritance header notes to 5 Taiwan methodology docs",
+      "articles": []
+    },
+    {
+      "hash": "430cd87608edb0e73c229a3f1a5e7e8adf78c100",
+      "date": "2026-06-25T10:46:43-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(phase7): filter ghost paths in content-dates generator + add LB categories to CAT_TO_SLUG",
+      "articles": []
+    },
+    {
+      "hash": "76db4b20204f149483e18f03ddcbc338a506a4e4",
+      "date": "2026-06-25T10:44:15-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(phase7): localize feedback i18n typeNewtopicHint for ja/ko/es/fr (Taiwan → Laguna Beach)",
+      "articles": []
+    },
+    {
+      "hash": "0212578182458a4d19f03e63119de2b146833661",
+      "date": "2026-06-25T10:22:15-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(phase7): replace shipped Taiwan refs in src/ surface (Layout meta, feedback i18n, dead redirect)",
+      "articles": []
+    },
+    {
+      "hash": "69559feb7d173af2fa514beb96f85bb342dfe2c5",
+      "date": "2026-06-25T09:45:41-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(phase7): remove docs/factory/ Taiwan operational data (31 files)",
+      "articles": []
+    },
+    {
+      "hash": "c558bc8862a0756fd2675c01e158b9bb770e51b4",
+      "date": "2026-06-25T09:13:20-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(phase7): empty dashboard-analytics.json (stale Taiwan GA4 data)",
+      "articles": []
+    },
+    {
+      "hash": "675cf1d8eab17f4526ecbff55b0d2680aedb89e3",
+      "date": "2026-06-25T08:58:40-07:00",
+      "author": "Wilson Choi",
+      "message": "feat(skills): Phase 6 Tier C — lb-translate + TRANSLATION-PIPELINE.en.md",
+      "articles": []
+    },
+    {
+      "hash": "b30738867b3b173fd6efb14b2f5fb1c0d2e9710d",
+      "date": "2026-06-25T00:06:46-07:00",
+      "author": "Wilson Choi",
+      "message": "feat(skills): Phase 6 Tier C — lb-factcheck + FACTCHECK-PIPELINE.en.md",
+      "articles": []
+    },
+    {
+      "hash": "6c8b109ef7bde54d3d6b44f846dbee4da9f6f425",
+      "date": "2026-06-25T00:04:57-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(skills): fix lb-refresh step-3 output labels",
+      "articles": []
+    },
+    {
+      "hash": "287514cd3edfe16b821c9e25a6e19285615c71ec",
+      "date": "2026-06-24T23:52:39-07:00",
+      "author": "Wilson Choi",
+      "message": "feat(skills): Phase 6 Tier B — lb-embeddings + lb-refresh",
+      "articles": []
+    },
+    {
+      "hash": "900581237079906834a55f6df93abc00cfc57300",
+      "date": "2026-06-24T23:43:09-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(migration): check off Phase 7 spores (emptied, pipeline dormant)",
+      "articles": []
+    },
+    {
+      "hash": "10c71aab7aaa8dd7615c5b248e25c6e1e2794348",
+      "date": "2026-06-24T23:42:39-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(spores): empty SSOT + derived (fixup — prior commit only got deletions)",
+      "articles": []
+    },
+    {
+      "hash": "3c18ef16aada05c6119a63ce62d9a3dab31e0212",
+      "date": "2026-06-24T23:41:48-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(spores): Phase 7 — empty Taiwan spore data, keep pipeline dormant",
+      "articles": []
+    },
+    {
+      "hash": "902ec180cfc21c68d0716ffeb69bd8d1eb134267",
+      "date": "2026-06-24T23:19:11-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(reports): Phase 7 — purge Taiwan session history (592->8)",
+      "articles": []
+    },
+    {
+      "hash": "1f2a8b8b104a984695f058a1f52e1e88d8ecb157",
+      "date": "2026-06-24T23:04:13-07:00",
+      "author": "Wilson Choi",
+      "message": "Revert \"docs: skill porting is Path-B backlog, not a migration phase\"",
+      "articles": []
+    },
+    {
+      "hash": "a911185fc723c39b3ee6a1184baca4d1290ffa32",
+      "date": "2026-06-24T23:01:07-07:00",
+      "author": "Wilson Choi",
+      "message": "docs: skill porting is Path-B backlog, not a migration phase",
+      "articles": []
+    },
+    {
+      "hash": "028d7438c83ebaae44ff8b9c8dc9df60eb2305bc",
+      "date": "2026-06-24T22:56:52-07:00",
+      "author": "Wilson Choi",
+      "message": "feat(skills): Phase 6 — lb router + lb-validate + lb-search (Tier A)",
+      "articles": []
+    },
+    {
+      "hash": "3d33b4d0fbe4e45dc0d320c284049a74639d8dd5",
+      "date": "2026-06-24T22:51:13-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(tooling): commit-msg grep -c fails under set -e on build-output-only commits",
+      "articles": []
+    },
+    {
+      "hash": "7248027fa3afe12354dc2373f1db865cd9bbe3e4",
+      "date": "2026-06-24T22:51:06-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(ci): restore baseline regen-JSONs deleted by memory commit",
+      "articles": []
+    },
+    {
+      "hash": "fadc2907051d2b836da4c7f0f4c499ff36f2d057",
+      "date": "2026-06-24T22:29:42-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(supporters): remove Taiwan TWD/Portaly pipeline, keep sponsors placeholder",
+      "articles": []
+    },
+    {
+      "hash": "06806bfc7df38f2529bb5926ca27792b67aeac75",
+      "date": "2026-06-24T22:16:45-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(ui): localize TOC label, simplify nav, drop dashboard supporter timeline",
+      "articles": []
+    },
+    {
+      "hash": "7f1e8ca472933dfa647cc939ed7c90d47134c8d7",
+      "date": "2026-06-24T21:54:23-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(semiont): drop inherited Taiwan.md memory, reserve dir for LB",
+      "articles": []
+    },
+    {
+      "hash": "9a066f135158801adeff0519c5bbb2e6236efe71",
+      "date": "2026-06-24T21:16:32-07:00",
+      "author": "Wilson Choi",
+      "message": "docs: table bge-m3 for LB + mark migration complete",
+      "articles": []
+    },
+    {
+      "hash": "76193ad024d119651bff82bd39631d517453dccb",
+      "date": "2026-06-24T21:16:26-07:00",
+      "author": "Wilson Choi",
+      "message": "feat(related): wire tag-overlap into prebuild, make src/data/related derived",
+      "articles": []
+    },
+    {
+      "hash": "8b0e7aa3c5d47a932cc5d6595c2d8b40cea8c0da",
+      "date": "2026-06-24T19:25:35-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(migration): Phase 5 complete + related-articles experiment report",
+      "articles": []
+    },
+    {
+      "hash": "113f9f70620b39a553d701c10e4e44726d2654ad",
+      "date": "2026-06-24T19:25:29-07:00",
+      "author": "Wilson Choi",
+      "message": "feat(related): add tag-overlap related-articles generator",
+      "articles": []
+    },
+    {
+      "hash": "4e5bb52ef1a894006116367c95bc8086e159a24d",
+      "date": "2026-06-24T19:25:22-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(embeddings): adapt CATEGORY_MAP Taiwan→LB + regenerate related data",
+      "articles": []
+    },
+    {
+      "hash": "33fa3303552acfd02c949898ef4dd96398d21073",
+      "date": "2026-06-24T18:24:06-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(migration): check off article-health.py + ROUTINE.md (R8)",
+      "articles": []
+    },
+    {
+      "hash": "27170066019acb8c5f09f5be424b0e81d9c2b429",
+      "date": "2026-06-24T18:23:46-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(tools): adapt article-health.py source-lang assumption en (was zh-TW)",
+      "articles": []
+    },
+    {
+      "hash": "d8f2997821edbfcadace22acc728f273d6e78d7f",
+      "date": "2026-06-24T18:16:55-07:00",
+      "author": "Wilson Choi",
+      "message": "feat(skills): add lb-write skill + REWRITE-PIPELINE.en.md",
+      "articles": []
+    },
+    {
+      "hash": "5c3e709f6294b0c5ab84e83b1128bc0364d4edc3",
+      "date": "2026-06-24T17:25:55-07:00",
+      "author": "Wilson Choi",
+      "message": "feat(skills): add lb-become + lb-sync skills",
+      "articles": []
+    },
+    {
+      "hash": "51af50b0823e1debaaa0bf3e97ad5c6dd0b76a31",
+      "date": "2026-06-24T11:32:14-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(migration): Phase 5 skill audit + fix Phase 4.5 header",
+      "articles": []
+    },
+    {
+      "hash": "bc112cc669a9d689e19fa7c41867224739688e9f",
+      "date": "2026-06-24T11:14:50-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(migration): check off Phase 5 fork-integrity verification",
+      "articles": []
+    },
+    {
+      "hash": "b5bb99c36047bd3bfbed27c558743b7bb6b495dc",
+      "date": "2026-06-24T10:43:47-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(migration): fix stale assets.ts note, update category-hub status",
+      "articles": []
+    },
+    {
+      "hash": "69ab82d13873412e5f3648c8cc8b848b5f823d21",
+      "date": "2026-06-24T10:34:56-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(category-hub): remove Taiwan economy-chart scaffolding",
+      "articles": []
+    },
+    {
+      "hash": "d3464c854d90e1c9dfd61f84f02cbf30862587e8",
+      "date": "2026-06-24T09:55:11-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(migration): check off Phase 4.5 items completed this session",
+      "articles": []
+    },
+    {
+      "hash": "c73cdcad0c2cc430965d4371e362889363381bfa",
+      "date": "2026-06-24T09:54:19-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(changelog): skip article links to deleted knowledge/ files",
+      "articles": []
+    },
     {
       "hash": "9a506ebb4e3cb2e795bfa29402f6d2a0c8ddcd85",
       "date": "2026-06-24T09:50:31-07:00",

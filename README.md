@@ -134,7 +134,7 @@ See [MIGRATION.md](./MIGRATION.md) for the full rules and anti-patterns.
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/wilsonkichoi"><img src="https://avatars.githubusercontent.com/u/734468?v=4" width="100px;" alt=""/><br /><sub><b>Wilson Choi</b></sub></a><br />💻 🎨 🤔 🌍 📝</td>
+    <td align="center"><a href="https://github.com/wilsonkichoi"><img src="https://avatars.githubusercontent.com/u/734468?v=4" width="100px;" alt=""/><br /><sub><b>Wilson Choi</b></sub></a><br />💻 🖋️ 🎨 🤔 🌍 📝</td>
   </tr>
 </table>
 <!-- ALL-CONTRIBUTORS-LIST:END -->
