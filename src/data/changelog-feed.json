@@ -1,7 +1,14 @@
 {
-  "generatedAt": "2026-06-28T00:05:35.275Z",
+  "generatedAt": "2026-06-28T04:06:39.404Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "250ae8997b4291d7a6fe4af1879ad7d684608bdf",
+      "date": "2026-06-27T17:48:21-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(build): refresh tracked build artifacts after Entry 2 category-map fixes",
+      "articles": []
+    },
     {
       "hash": "c5f5f31f96d6622967ae1fc2216158ef4d9c5e7c",
       "date": "2026-06-27T17:01:07-07:00",
