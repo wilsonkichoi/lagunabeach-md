@@ -58,7 +58,7 @@ def test_required_field_order_warns_by_default(tmp_path):
         "tags: ['媒體', '科學傳播']\ncategory: 'Society'\n",
     )
     violations = _violations(tmp_path, fm)
-    assert any("欄位順序錯" in v.message for v in violations)
+    assert any("field order wrong" in v.message for v in violations)
     assert all(v.severity != Severity.HARD for v in violations)
 
 
@@ -76,7 +76,7 @@ def test_stage4_promotes_formatter_warns_to_hard(tmp_path):
     )
     report = run_checks(target, cfg, profile_name="rewrite-stage-4")
     hard = [v for v in report.all_violations if v.severity == Severity.HARD]
-    assert any("欄位順序錯" in v.message for v in hard)
+    assert any("field order wrong" in v.message for v in hard)
 
 
 def test_prettier_wrapped_flow_tags_passes(tmp_path):
@@ -99,13 +99,13 @@ def test_hyphen_tags_warns_for_flow_array_style(tmp_path):
 def test_unquoted_string_scalar_warns(tmp_path):
     fm = GOOD_FRONTMATTER.replace("category: 'Society'\n", "category: Society\n")
     violations = _violations(tmp_path, fm)
-    assert any("category" in v.message and "單引號" in v.message for v in violations)
+    assert any("category" in v.message and "single-quoted" in v.message for v in violations)
 
 
 def test_quoted_date_warns(tmp_path):
     fm = GOOD_FRONTMATTER.replace("date: 2026-05-07\n", "date: '2026-05-07'\n")
     violations = _violations(tmp_path, fm)
-    assert any("日期不需加引號" in v.message for v in violations)
+    assert any("date should not be quoted" in v.message for v in violations)
 
 
 def test_string_tags_are_hard(tmp_path):
@@ -122,7 +122,7 @@ def test_category_must_match_path(tmp_path):
     fm = GOOD_FRONTMATTER.replace("category: 'Society'\n", "category: 'Culture'\n")
     violations = _violations(tmp_path, fm)
     hard = [v for v in violations if v.severity == Severity.HARD]
-    assert any("必須符合路徑分類" in v.message for v in hard)
+    assert any("must match the path category" in v.message for v in hard)
 
 
 def test_no_frontmatter_is_hard(tmp_path):
@@ -132,11 +132,12 @@ def test_no_frontmatter_is_hard(tmp_path):
     violations = list(frontmatter_format.check(load_target(f), {}))
     assert len(violations) == 1
     assert violations[0].severity == Severity.HARD
-    assert "缺 frontmatter" in violations[0].message
+    assert "Missing frontmatter" in violations[0].message
 
 
-def test_translation_files_skipped_at_runner_level(tmp_path):
-    f = tmp_path / "knowledge" / "en" / "Society" / "test.md"
+def test_out_of_scope_lang_skipped_at_runner_level(tmp_path):
+    # frontmatter-format APPLIES_TO en + zh-TW; a lang outside that set is skipped.
+    f = tmp_path / "knowledge" / "ja" / "Society" / "test.md"
     f.parent.mkdir(parents=True, exist_ok=True)
     f.write_text(f"---\n{GOOD_FRONTMATTER}---\n\nbody.\n", encoding="utf-8")
     cfg = Config()
@@ -177,7 +178,7 @@ def test_fix_reorders_canonical_fields(tmp_path):
     f.write_text(body, encoding="utf-8")
     target = load_target(f)
     violations = list(frontmatter_format.check(target, {}))
-    assert not any("欄位順序錯" in v.message for v in violations), (
+    assert not any("field order wrong" in v.message for v in violations), (
         f"reorder did not produce canonical order:\n{body}"
     )
 
@@ -241,7 +242,7 @@ def test_fix_combined_reorder_and_flow_conversion(tmp_path):
     f.write_text(body, encoding="utf-8")
     target = load_target(f)
     violations = list(frontmatter_format.check(target, {}))
-    assert not any("欄位順序錯" in v.message for v in violations)
+    assert not any("field order wrong" in v.message for v in violations)
     assert not any("flow array" in v.message for v in violations)
 
 

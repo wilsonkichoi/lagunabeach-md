@@ -4,7 +4,7 @@ Complements `frontmatter-title`: this plugin checks YAML/frontmatter
 structure and formatting, not title prose quality.
 
 Rules mirror REWRITE-PIPELINE Stage 4:
-  - zh-TW articles need complete core fields
+  - articles need complete core fields
   - core fields should appear in canonical relative order
   - string scalar fields use single quotes
   - tags use Prettier-stable flow style: `tags: ['a', 'b']`, which may wrap
@@ -20,7 +20,7 @@ Auto-fix (--fix):
   Safe HARD violations that can be fixed deterministically:
   - Missing `category` → inferred from file path folder name
   - Missing `featured` → false
-  - Missing `author` → 'Taiwan.md'
+  - Missing `author` → 'LagunaBeach.md'
   - Missing `lastVerified` → copies `date` field value
   - Missing `lastHumanReview` → false
   - `lastHumanReview` not boolean:
@@ -53,8 +53,8 @@ from ..types import FileTarget, Severity, Violation
 CHECK_NAME = "frontmatter-format"
 DIMENSION = "frontmatter"
 DEFAULT_SEVERITY = Severity.WARN
-EDITORIAL_REF = "REWRITE-PIPELINE.md Stage 4 Frontmatter 完整性"
-APPLIES_TO = ["zh-TW"]
+EDITORIAL_REF = "REWRITE-PIPELINE.md Stage 4 Frontmatter completeness"
+APPLIES_TO = ["en", "zh-TW"]
 
 REQUIRED_FIELDS = [
     "title",
@@ -148,7 +148,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
         yield Violation(
             check=CHECK_NAME,
             severity=Severity.HARD,
-            message="缺 frontmatter 區塊（檔案開頭需以 --- YAML --- 包住 metadata）",
+            message="Missing frontmatter block (file must open with --- YAML --- wrapping metadata)",
             line=1,
             editorial_ref=EDITORIAL_REF,
         )
@@ -175,9 +175,9 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             yield Violation(
                 check=CHECK_NAME,
                 severity=Severity.HARD,
-                message=f"frontmatter 缺必要欄位 `{key}`",
+                message=f"frontmatter missing required field `{key}`",
                 line=1,
-                fix_suggestion=f"依 Stage 4 canonical order 補上 `{key}`",
+                fix_suggestion=f"add `{key}` per Stage 4 canonical order",
                 editorial_ref=EDITORIAL_REF,
             )
 
@@ -185,10 +185,10 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
         yield Violation(
             check=CHECK_NAME,
             severity=Severity.HARD,
-            message=f"frontmatter 欄位 `{key}` 重複出現",
+            message=f"frontmatter field `{key}` appears more than once",
             line=line_numbers[1],
             snippet=", ".join(str(n) for n in line_numbers),
-            fix_suggestion="保留一個 canonical 欄位，移除重複項",
+            fix_suggestion="keep one canonical field, remove the duplicates",
             editorial_ref=EDITORIAL_REF,
         )
 
@@ -199,10 +199,10 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
         yield Violation(
             check=CHECK_NAME,
             severity=Severity.HARD,
-            message="frontmatter `tags` 必須是字串陣列",
+            message="frontmatter `tags` must be an array of strings",
             line=line[0] if line else None,
             snippet=line[1] if line else None,
-            fix_suggestion="使用 `tags: ['標籤一', '標籤二']`",
+            fix_suggestion="use `tags: ['tag-one', 'tag-two']`",
             editorial_ref=EDITORIAL_REF,
         )
     elif "tags" in target.frontmatter and not isinstance(
@@ -212,10 +212,10 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
         yield Violation(
             check=CHECK_NAME,
             severity=Severity.HARD,
-            message="frontmatter `tags` 必須是 YAML array，不可為字串",
+            message="frontmatter `tags` must be a YAML array, not a string",
             line=line[0] if line else None,
             snippet=line[1] if line else None,
-            fix_suggestion="使用 `tags: ['標籤一', '標籤二']`",
+            fix_suggestion="use `tags: ['tag-one', 'tag-two']`",
             editorial_ref=EDITORIAL_REF,
         )
 
@@ -226,7 +226,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             yield Violation(
                 check=CHECK_NAME,
                 severity=Severity.HARD,
-                message=f"frontmatter `{key}` 必須是 boolean true/false",
+                message=f"frontmatter `{key}` must be boolean true/false",
                 line=line[0] if line else None,
                 snippet=line[1] if line else None,
                 editorial_ref=EDITORIAL_REF,
@@ -239,7 +239,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             check=CHECK_NAME,
             severity=Severity.HARD,
             message=(
-                f"frontmatter `category` ({category_value}) 必須符合路徑分類"
+                f"frontmatter `category` ({category_value}) must match the path category"
                 f" `{target.category}`"
             ),
             line=line[0] if line else None,
@@ -265,12 +265,12 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
                 check=CHECK_NAME,
                 severity=DEFAULT_SEVERITY,
                 message=(
-                    f"frontmatter 欄位順序錯：`{key}` 出現在 `{last_key}` 之後"
-                    "（不符合 Stage 4 canonical order）"
+                    f"frontmatter field order wrong: `{key}` appears after `{last_key}`"
+                    " (violates Stage 4 canonical order)"
                 ),
                 line=line_no,
                 snippet=_line_snippet(lines, line_no),
-                fix_suggestion=f"核心欄位順序應為：{expected}",
+                fix_suggestion=f"core field order should be: {expected}",
                 editorial_ref=EDITORIAL_REF,
             )
             break
@@ -289,7 +289,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             yield Violation(
                 check=CHECK_NAME,
                 severity=DEFAULT_SEVERITY,
-                message=f"frontmatter `{key}` 應使用單引號 scalar",
+                message=f"frontmatter `{key}` should use a single-quoted scalar",
                 line=line_no,
                 snippet=raw,
                 fix_suggestion=f"{key}: '<value>'",
@@ -306,7 +306,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             yield Violation(
                 check=CHECK_NAME,
                 severity=Severity.HARD,
-                message=f"frontmatter `{key}` 必須是 YYYY-MM-DD",
+                message=f"frontmatter `{key}` must be YYYY-MM-DD",
                 line=line_no,
                 snippet=raw,
                 editorial_ref=EDITORIAL_REF,
@@ -315,7 +315,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             yield Violation(
                 check=CHECK_NAME,
                 severity=DEFAULT_SEVERITY,
-                message=f"frontmatter `{key}` 日期不需加引號",
+                message=f"frontmatter `{key}` date should not be quoted",
                 line=line_no,
                 snippet=raw,
                 fix_suggestion=f"{key}: {value}",
@@ -332,7 +332,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             yield Violation(
                 check=CHECK_NAME,
                 severity=DEFAULT_SEVERITY,
-                message=f"frontmatter `{key}` 應使用未加引號的 true/false",
+                message=f"frontmatter `{key}` should use unquoted true/false",
                 line=line_no,
                 snippet=raw,
                 fix_suggestion=f"{key}: false",
@@ -346,10 +346,10 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             yield Violation(
                 check=CHECK_NAME,
                 severity=DEFAULT_SEVERITY,
-                message="frontmatter `tags` 應使用 flow array（可由 Prettier 換行）",
+                message="frontmatter `tags` should use a flow array (Prettier may wrap it)",
                 line=line_no,
                 snippet=raw,
-                fix_suggestion="tags: ['標籤一', '標籤二']",
+                fix_suggestion="tags: ['tag-one', 'tag-two']",
                 editorial_ref=EDITORIAL_REF,
             )
         elif re.search(r"[\[\],]\s*[^'\]\s,][^,\]]*", raw):
@@ -359,10 +359,10 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             yield Violation(
                 check=CHECK_NAME,
                 severity=DEFAULT_SEVERITY,
-                message="frontmatter `tags` 內每個 tag 建議使用單引號",
+                message="frontmatter `tags` entries should each be single-quoted",
                 line=line_no,
                 snippet=raw,
-                fix_suggestion="tags: ['標籤一', '標籤二']",
+                fix_suggestion="tags: ['tag-one', 'tag-two']",
                 editorial_ref=EDITORIAL_REF,
             )
 
@@ -670,7 +670,7 @@ def fix(target: FileTarget, config: dict[str, Any]) -> int:
     Returns the number of changes applied (0 = nothing changed).
     Writes the corrected file in place (unless config['dry_run'] is True).
     """
-    if target.lang != "zh-TW":
+    if target.lang not in ("en", "zh-TW"):
         return 0
     if target.category == "About":
         return 0
@@ -743,8 +743,8 @@ def fix(target: FileTarget, config: dict[str, Any]) -> int:
         anchor = "subcategory" if "subcategory" in fm else (
             "category" if "category" in fm else "tags"
         )
-        fm_text = _insert_after_key(fm_text, anchor, "author: 'Taiwan.md'")
-        fm = {**fm, "author": "Taiwan.md"}
+        fm_text = _insert_after_key(fm_text, anchor, "author: 'LagunaBeach.md'")
+        fm = {**fm, "author": "LagunaBeach.md"}
         changes += 1
 
     if "featured" not in fm:
