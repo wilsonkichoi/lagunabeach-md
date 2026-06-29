@@ -1,11 +1,11 @@
 ---
-title: 'PEER-INGESTION-PIPELINE'
-description: '策展 peer 完整 ingestion 流程 — 8 stage（從爬取到文章產製到 Peer Registry 同步）'
+title: 'PEER-INGESTION-PIPELINE (English / LB)'
+description: 'Curation-peer full ingestion flow for LagunaBeach.md — 8 stages, from crawl to article production to Peer Registry sync'
 type: 'pipeline-canonical'
 status: 'canonical'
 current_version: 'v1.0'
-last_updated: 2026-04-12
-last_session: 'ζ+'
+last_updated: 2026-06-28
+last_session: '2026-06-28-r19-impl'
 sister_docs:
   - 'REWRITE-PIPELINE.md'
   - 'EVOLVE-PIPELINE.md'
@@ -16,162 +16,184 @@ upstream_canonical:
   - '../editorial/RESEARCH.md'
 ---
 
-# PEER-INGESTION-PIPELINE.md — 策展 peer 完整 ingestion 流程
+# PEER-INGESTION-PIPELINE.md — Curation-peer full ingestion flow
 
-> **這份文件是 AI 可執行的。** 任何 AI agent 讀完這份文件，應該能接收一個外部策展單位（TFT、綠盟、台權會、g0v、婦女新知⋯⋯）的資料源，完整執行從爬取、分析、文章開發到 Peer Registry 同步的整個流程。
+> **This document is AI-executable.** Any AI agent who reads it should be able to
+> take an external curation peer's content source (Laguna Art Museum, Laguna Beach
+> Historical Society, Festival of Arts / Pageant of the Masters, Sawdust Art
+> Festival, etc.) and run the entire flow end to end: crawl, analyze, develop
+> articles, sync the Peer Registry.
 >
-> 相關文件：
+> Related documents:
 >
-> - **[HEARTBEAT.md](../semiont/HEARTBEAT.md)** — 什麼時候觸發 peer ingestion（通常是觀察者指派，非自動）
-> - **[REWRITE-PIPELINE.md](REWRITE-PIPELINE.md)** — Stage 6 每篇文章的產製標準流程
-> - **[RELEASE-PIPELINE.md](./RELEASE-PIPELINE.md)** — 完整 peer ingestion 通常跨一個或多個 release
-> - **[DATA-REFRESH-PIPELINE.md](./DATA-REFRESH-PIPELINE.md)** — Stage 6 每篇文章執行前的 data refresh
-> - **Obsidian 策略文件** — [[Taiwan.md — Meta-Index 策略：台灣議題策展生態系的元索引]]（主策略）
+> - **[HEARTBEAT.md](../semiont/HEARTBEAT.md)** — when peer ingestion is triggered
+>   (usually observer-assigned, not automatic)
+> - **[REWRITE-PIPELINE.md](REWRITE-PIPELINE.md)** — Stage 6 production standard for
+>   each article
+> - **[EVOLVE-PIPELINE.md](EVOLVE-PIPELINE.md)** — the complementary internal-signal
+>   candidate source (this pipeline is the external-source counterpart)
 
 ---
 
-## 為什麼需要這份 pipeline
+## Why this pipeline exists
 
-2026-04-11 到 2026-04-12 的 ζ+ session 是 Taiwan.md 第一次對一個真實 curation-layer peer（TFT / Teach For Taiwan）做完整 ingestion。這個 session 橫跨 24+ 小時、13+ commits，包含：
+The methodology here is inherited from Taiwan.md, where it was born from the first
+full ingestion of a real curation-layer peer — a multi-day, multi-commit session
+that crawled hundreds of pages, produced a corpus-level analysis report, and
+shipped five articles, falling into two failure modes along the way that this
+pipeline encodes the fixes for. LagunaBeach.md has not yet run a full peer
+ingestion (no peer corpus exists under `data/` yet); this is the LB-grounded SOP
+for when it does.
 
-- ✅ Codex 爬蟲抓 37MB / 450+ 篇內容
-- ✅ 523 行 corpus-level 分析報告
-- ✅ 9 條 Muse sparring 修訂
-- ✅ 5 篇 P0 文章 shipped
-- ❌ P0 #1-3 第一版淺薄（只讀 TFT thinkings 轉述）被觀察者抓到
-- ✅ evolution mode 全重寫拿到 10+ 跨來源素材
-
-**那次 session 跌倒兩次，一次 Muse 抓到（R6 未儀器化），一次哲宇抓到（pipeline shortcut）。** 這份 pipeline 的目的是讓未來 peer ingestion 不需要重新犯那兩個錯。它 encode 了當時學到的所有教訓。
-
-**核心命題：Peer 是 peer，不是 source material。** 一個 curation-layer peer 是「另一個花了十年把某個議題講成專業論述的策展者」，不是「可以被轉述的原料庫」。任何把 peer 當成單一來源去 paraphrase 的做法都會繼承 peer 的 bias、視角限制、論述盲點。
+**Core proposition: a peer is a peer, not source material.** A curation-layer peer
+is "another curator who spent years turning a subject into professional discourse,"
+not "a raw-material library that can be paraphrased." Any approach that treats a
+peer as a single source to paraphrase will inherit that peer's bias, perspective
+limits, and blind spots. This maps directly to the LB iron law (Rule 12): peers
+are leads, not sources — every fact ingested from a peer must be verified against
+primary sources before it enters `knowledge/`.
 
 ---
 
-## 什麼時候觸發這個 pipeline
+## When to trigger this pipeline
 
-**通常是觀察者觸發**，原因之一：
+**Usually observer-triggered.** Common reasons:
 
-1. **觀察者跟某個專業策展單位接觸了**（例：見面、演講邀約、合作討論）
-2. **某個議題 Taiwan.md 需要深化，但缺乏 peer-level 的 framework**（例：要寫環境議題但缺綠盟、要寫性別議題但缺婦女新知）
-3. **Phase 1-4 的 roadmap 到期**（依 Obsidian 策略文件的時間表）
+1. **The observer made contact with a professional curation institution** (e.g., a
+   meeting, a talk invitation, a partnership discussion).
+2. **A topic LagunaBeach.md needs to deepen, but it lacks a peer-level framework**
+   (e.g., wanting to write the art-colony history but lacking Laguna Art Museum's
+   curatorial framing; wanting marine-conservation depth but lacking a tidepool /
+   marine-protected-area peer).
+3. **A roadmap milestone comes due** (per the project's content roadmap).
 
-**不會自動觸發**。peer ingestion 是高成本動作（一個 session 做不完，通常要 2-4 個 session），需要觀察者明確指示才啟動。
+**It does not auto-trigger.** Peer ingestion is a high-cost action (more than one
+session, usually 2-4), and needs an explicit observer instruction to start.
 
 ---
 
 ## Prerequisites
 
-**化身協議**：依 [`BECOME_TAIWANMD.md`](../../BECOME_TAIWANMD.md) 標準流程讀完 MANIFESTO / ANATOMY / DNA / HEARTBEAT / CONSCIOUSNESS。**特別注意 DNA Sonnet 反射 #15（對原則有洞察 ≠ apply）和 #16（peer 是 peer 不是 source）。**
+**Identity protocol:** run `/lb-become` and read [`BECOME_LAGUNABEACH.md`](../../BECOME_LAGUNABEACH.md)
+— identity, the One Rule (SSOT = `knowledge/`, never edit `src/content/`), and the
+autonomy boundaries. **Pay special attention to the peer-is-not-source discipline:
+having an insight about a principle is not the same as applying it; a peer is a
+peer, not a source.**
 
-**Peer-specific 追加讀物**（只在 peer ingestion 情境下要讀）：
+**Peer-specific reading** (only in a peer-ingestion context):
 
-- [`reports/TFT-semiont-analysis-2026-04-11.md`](../../reports/TFT-semiont-analysis-2026-04-11.md) — 第一個 peer 分析的 9-part 範本
-- [`memory/2026-04-12.md`](../semiont/memory/2026-04-12.md) — TFT ingestion 的完整 session 記憶（含 2 次跌倒的教訓）
-- [`REWRITE-PIPELINE.md`](REWRITE-PIPELINE.md) — Stage 6 每篇文章會反覆調用這條 pipeline
-- [`docs/peers/REGISTRY.md`](../peers/REGISTRY.md) — 現有 peer 與下個 peer 候選名單
+- [`docs/peers/REGISTRY.md`](../peers/REGISTRY.md) — existing peers and the next-peer
+  candidate list. (Note: REGISTRY.md still carries inherited upstream content as of
+  this writing; treat its format as the template, not its entries as LB peers.)
+- [`REWRITE-PIPELINE.md`](REWRITE-PIPELINE.md) — Stage 6 calls this pipeline once per
+  article
+- [`../editorial/RESEARCH.md`](../editorial/RESEARCH.md) — research methodology each
+  article depends on
 
-**Stage 0 判斷題**：Prerequisites 讀完之後，必須回答「**這個 peer 的獨特角度是什麼？它跟 Taiwan.md 已有的覆蓋有什麼不一樣？**」答不出來 → 不進 Stage 1。
+**Stage 0 gate:** after the prerequisites, you must answer "**What is this peer's
+unique angle? How does it differ from LagunaBeach.md's existing coverage?**" If you
+can't answer → do not enter Stage 1.
 
 ---
 
-## 完整流程圖
+## Full flow diagram
 
 ```
-Stage 1: 評估 peer fit (30 min)
-    │ 通過 fit check 才進 Stage 2
-Stage 2: 爬取器造橋 (1-2 hr)
-    │ 可重跑 + provenance 保留
-Stage 3: 資料結構標準化 (30 min)
-    │ data/{org}/ 標準目錄
-Stage 4: Corpus 分析報告 (2-4 hr)
-    │ 9-part 結構 + Semiont POV
-Stage 5: 文章開發計畫萃取 (30 min)
+Stage 1: Assess peer fit (30 min)
+    │ pass the fit check before Stage 2
+Stage 2: Build the crawler (1-2 hr)
+    │ re-runnable + provenance preserved
+Stage 3: Standardize the data structure (30 min)
+    │ data/{org}/ standard directory
+Stage 4: Corpus analysis report (2-4 hr)
+    │ 9-part structure + LB POV
+Stage 5: Extract the article-development plan (30 min)
     │ P0 × 5 / P1 × 8 / P2 × 7
-Stage 6: 文章產製 (每篇 2-4 hr, 共 15-30 hr)
-    │ 每篇走 REWRITE-PIPELINE
-    │ 嚴格 8+ WebSearch / 跨來源三角驗證
-Stage 7: Peer Registry 同步 (20 min)
-    │ 更新 docs/peers/REGISTRY.md
-    │ 更新 CONSCIOUSNESS 里程碑
-    │ Beat 5 反芻寫 memory / diary
-Stage 8: Peer 關係啟動 (optional, 1-2 hr)
-    │ 從產品開始，不從 protocol 開始
+Stage 6: Article production (2-4 hr each, 15-30 hr total)
+    │ each article runs REWRITE-PIPELINE
+    │ strict 8+ WebSearch / cross-source triangulation
+Stage 7: Peer Registry sync (20 min)
+    │ update docs/peers/REGISTRY.md
+    │ wrap-up: commit + (optional) memory note
+Stage 8: Peer relationship kickoff (optional, 1-2 hr)
+    │ start from the product, not the protocol
 ```
 
-**時間投入估算**：一個完整 peer ingestion 需要 **約 20-40 小時**（跨 2-4 個 session）。這比 TFT session 的 24 小時更務實，因為 TFT session 犯了兩次錯需要重做。
+**Time estimate:** a full peer ingestion takes **about 20-40 hours** (across 2-4
+sessions).
 
 ---
 
-## Stage 1 · 評估 peer fit（30 min）
+## Stage 1 · Assess peer fit (30 min)
 
-**決定這個 peer 值不值得 ingest**。
+**Decide whether the peer is worth ingesting.**
 
-### 1a. 四項 fit check
+### 1a. Four fit checks
 
-讀 peer 網站首頁 + About 頁 + 最近 3 個月文章，回答：
+Read the peer's homepage + About page + last 3 months of content, then answer:
 
-| Check      | 標準                        | 通過條件                                                 |
-| ---------- | --------------------------- | -------------------------------------------------------- |
-| **深度**   | peer 在這個議題深耕幾年？   | ≥ 5 年（理想 ≥ 10 年）                                   |
-| **公開性** | 內容是否公開可取得？        | CMS / API / RSS / 靜態 HTML，**不需要登入**              |
-| **授權**   | 內容使用條款                | CC 授權或公開聲明歡迎引用（理想）／ 事實引用合理（底線） |
-| **互補性** | 跟 Taiwan.md 現有覆蓋的 gap | 有明確 gap，不是全面重複現有文章                         |
+| Check               | Standard                                 | Pass condition                                                                              |
+| ------------------- | ---------------------------------------- | ------------------------------------------------------------------------------------------- |
+| **Depth**           | how many years has the peer worked this? | ≥ 5 years (ideally ≥ 10)                                                                    |
+| **Openness**        | is content publicly accessible?          | CMS / API / RSS / static HTML, **no login required**                                        |
+| **License**         | terms of use                             | CC license or a public statement welcoming citation (ideal) / fair factual citation (floor) |
+| **Complementarity** | gap vs LagunaBeach.md's current coverage | a clear gap, not wholesale duplication of existing articles                                 |
 
-**四項都通過 → 進 Stage 1b。** 任何一項不通過 → 不 ingest，在 Obsidian 策略文件的候選 peer 名單標記 `rejected` + 原因。
+**All four pass → go to Stage 1b.** Any one fails → don't ingest; mark the candidate
+peer `rejected` + reason in the next-peer list.
 
-### 1b. 預估資料量
+### 1b. Estimate data volume
 
-快速估算：
+Quick estimate:
 
 ```bash
-# 如果是 WordPress，先探 REST API
+# If WordPress, probe the REST API first
 curl -s "https://{peer-domain}/wp-json/wp/v2/posts?per_page=1&_fields=id" | \
   python3 -c "import json,sys; d=json.load(sys.stdin); print('has API:', bool(d))"
 
-# 抓第一頁看 total header
+# Fetch first page, read the total header
 curl -sI "https://{peer-domain}/wp-json/wp/v2/posts?per_page=1" | grep -i "x-wp-total"
 ```
 
-**資料量參考值**：
+**Volume reference values:**
 
-- < 50 篇：小型 peer，Stage 2 爬取 30 min、Stage 4 分析 1-2 hr
-- 50-500 篇：標準 peer（TFT = 450），Stage 2 爬取 1-2 hr、Stage 4 分析 2-4 hr
-- > 500 篇：大型 peer，考慮只 ingest 主要 category，或分批
+- < 50 posts: small peer, Stage 2 crawl 30 min, Stage 4 analysis 1-2 hr
+- 50-500 posts: standard peer, Stage 2 crawl 1-2 hr, Stage 4 analysis 2-4 hr
+- > 500 posts: large peer; consider ingesting only the main category, or batching
 
-### 1c. 命名決定
+### 1c. Naming decision
 
-在 `data/` 下要用什麼目錄名？
+What directory name under `data/`?
 
-規則：
+Rules:
 
-- **首選**：peer 的英文縮寫或品牌名（`TFT`, `green-citizen`, `tahr`）
-- **次選**：中文拼音
-- **避免**：含空格或特殊字元
+- **First choice:** the peer's English acronym or brand name (`LAM`, `lbhs`,
+  `sawdust`, `festival-of-arts`)
+- **Second choice:** a clear lowercase slug
+- **Avoid:** spaces or special characters
 
-記下決定：`data/{ORG_SLUG}/`。
+Record the decision: `data/{ORG_SLUG}/`.
 
 ---
 
-## Stage 2 · 爬取器造橋（1-2 hr）
+## Stage 2 · Build the crawler (1-2 hr)
 
-**目標**：寫一個 idempotent、可重跑、保留 provenance 的 crawler。
+**Goal:** write an idempotent, re-runnable crawler that preserves provenance.
 
-### 2a. 技術決定
+### 2a. Technical decision
 
-根據 peer CMS 類型選擇策略：
+Choose a strategy based on the peer's CMS type:
 
-| CMS 類型                     | 爬取方式                           | 範例            |
-| ---------------------------- | ---------------------------------- | --------------- |
-| **WordPress（有 REST API）** | `wp-json/wp/v2/posts` + pagination | TFT、g0v 大部分 |
-| **Hugo / Jekyll（靜態）**    | sitemap.xml + HTML scrape          | 部分 NGO        |
-| **Ghost / Medium**           | API 或 RSS                         | 少見            |
-| **自建 CMS**                 | 視情況，通常 HTML scrape           | 台權會等        |
+| CMS type                     | Crawl method                       | Example                       |
+| ---------------------------- | ---------------------------------- | ----------------------------- |
+| **WordPress (has REST API)** | `wp-json/wp/v2/posts` + pagination | many museum / nonprofit sites |
+| **Hugo / Jekyll (static)**   | sitemap.xml + HTML scrape          | some small institutions       |
+| **Ghost / Medium**           | API or RSS                         | rare                          |
+| **Custom CMS**               | case by case, usually HTML scrape  | varies                        |
 
-**預設選 WordPress**。台灣大部分 NGO 都用 WordPress。
+**Default to WordPress.** Many small cultural institutions run WordPress.
 
-### 2b. 爬取器結構
-
-參考 `scripts/tools/fetch-tft-data.py`（由 Codex 撰寫）的模式：
+### 2b. Crawler structure
 
 ```python
 #!/usr/bin/env python3
@@ -183,91 +205,92 @@ changes.
 
 Usage:
     python3 scripts/tools/fetch-{org}-data.py
-    python3 scripts/tools/fetch-{org}-data.py --categories thinkings,stories
+    python3 scripts/tools/fetch-{org}-data.py --categories news,exhibitions
     python3 scripts/tools/fetch-{org}-data.py --dry-run
 """
 
-# 必要功能：
-# 1. 分頁抓取（WordPress API 每頁 max 100，需要 loop）
-# 2. 每篇 post 另存一個 .md 檔（frontmatter 含 source URL / API URL / wp_id / date / author / categories / tags / featured image）
-# 3. raw JSON 保存到 data/{ORG}/raw/ 當 provenance
-# 4. manifest.json 記錄總量、分類、爬取時間戳
-# 5. rate limiting（每 request ≥ 0.5s 避免被 block）
-# 6. 錯誤 retry（3 次，exponential backoff）
+# Required features:
+# 1. Paginated fetch (WordPress API max 100/page, loop)
+# 2. One .md file per post (frontmatter: source URL / API URL / wp_id / date / author / categories / tags / featured image)
+# 3. Save raw JSON to data/{ORG}/raw/ as provenance
+# 4. manifest.json records total count, categories, crawl timestamp
+# 5. rate limiting (≥ 0.5s per request to avoid being blocked)
+# 6. error retry (3 attempts, exponential backoff)
 ```
 
-### 2c. 爬取目標
+### 2c. Crawl targets
 
-**最小必要**：
+**Minimum necessary:**
 
-- `/wp-json/wp/v2/posts`（全部文章）
+- `/wp-json/wp/v2/posts` (all posts)
 - `/wp-json/wp/v2/categories`
 - `/wp-json/wp/v2/tags`
-- `/wp-json/wp/v2/pages`（如果該 peer 有重要 landing pages）
+- `/wp-json/wp/v2/pages` (if the peer has important landing pages)
 
-**建議追加**：
+**Recommended additions:**
 
-- `/wp-json/wp/v2/users`（作者資訊）
-- `/wp-json/wp/v2/media`（圖片 metadata，不必下載圖檔本體，但保留 URL + alt text）
+- `/wp-json/wp/v2/users` (author info)
+- `/wp-json/wp/v2/media` (image metadata; no need to download image bodies, but keep
+  URL + alt text)
 
-**通常不爬**：
+**Usually skip:**
 
-- 留言區（噪音多）
-- 頁面版型 CSS / JS
-- 管理後台
+- comment sections (noisy)
+- page-layout CSS / JS
+- admin backend
 
-### 2d. Idempotency 驗證
+### 2d. Idempotency verification
 
-爬取器寫完後，**連跑兩次**。第二次必須：
+After writing the crawler, **run it twice.** The second run must:
 
-- ✅ 不產生重複檔案
-- ✅ 更新 manifest 時間戳
-- ✅ 不改動沒變的 post 檔案（只改動有更新的）
-- ✅ 能 detect 新增的 post
+- ✅ not produce duplicate files
+- ✅ update the manifest timestamp
+- ✅ not modify unchanged post files (only changed ones)
+- ✅ detect newly added posts
 
-**如果兩次跑結果不同**（例如每次抓到的總數不一樣），代表爬取器有 bug，修到穩定為止才能進 Stage 3。
+**If the two runs differ** (e.g., a different total each time), the crawler has a
+bug; fix until stable before Stage 3.
 
-### 2e. Commit 爬取器 + 原始資料
+### 2e. Commit crawler + raw data
 
 ```bash
-# 檔案規模大（raw JSON 可能 10-50MB），先檢查 .gitignore 是否需要設定
+# Raw data can be large (raw JSON 10-50MB); check whether .gitignore is needed
 du -sh data/{ORG}/
 
-# 如果 > 100MB，需要考慮：
-#   (a) 壓縮 raw JSON
-#   (b) .gitignore raw JSON（只保留 manifest + 萃取出的 markdown）
+# If > 100MB, consider:
+#   (a) compress raw JSON
+#   (b) .gitignore raw JSON (keep only manifest + extracted markdown)
 #   (c) Git LFS
 
-# 預設策略：< 100MB 全提交，> 100MB 時 raw/*.json 進 .gitignore
+# Default: < 100MB commit everything; > 100MB → raw/*.json into .gitignore
 
 git add scripts/tools/fetch-{org}-data.py data/{ORG}/
-git commit -m "🧬 [semiont] ingest: {Org Full Name} peer data + fetcher"
-git push
+git commit -m "feat(peer): ingest {Org Full Name} peer data + fetcher"
 ```
 
 ---
 
-## Stage 3 · 資料結構標準化（30 min）
+## Stage 3 · Standardize the data structure (30 min)
 
-**目標**：讓 `data/{ORG}/` 跟 Taiwan.md 的其他 peer 資料有一致的目錄結構。
+**Goal:** make `data/{ORG}/` consistent with other peer datasets.
 
-### 3a. 標準目錄結構
+### 3a. Standard directory structure
 
 ```
 data/{ORG}/
-├── README.md              # 人類可讀的索引 + 爬取 metadata
-├── {type-1}/              # 按內容類型分目錄
-│   ├── INDEX.md           # 該類型的文章清單
+├── README.md              # human-readable index + crawl metadata
+├── {type-1}/              # subdirectory per content type
+│   ├── INDEX.md           # article list for this type
 │   ├── {id-1}.md
 │   ├── {id-2}.md
 │   └── ...
 ├── {type-2}/
 │   └── ...
-├── pages/                 # landing pages（通常 3-5 個）
+├── pages/                 # landing pages (usually 3-5)
 │   ├── INDEX.md
 │   └── ...
 └── raw/                   # WordPress API / CMS raw JSON
-    ├── manifest.json      # 爬取時間、總量、分類
+    ├── manifest.json      # crawl time, total, categories
     ├── categories.json
     ├── tags.json
     ├── {type-1}-posts.json
@@ -275,12 +298,13 @@ data/{ORG}/
     └── media.json
 ```
 
-**TFT 的實際範例**：`data/TFT/thinkings/` (59 篇) + `data/TFT/stories/` (388 篇) + `data/TFT/researches/` (2 篇) + `data/TFT/pages/` (4 個) + `data/TFT/raw/` (12 檔 JSON)。
+**Example shape:** for a museum peer like Laguna Art Museum, that might be
+`data/LAM/exhibitions/` + `data/LAM/news/` + `data/LAM/pages/` + `data/LAM/raw/`.
 
-### 3b. README.md 標準格式
+### 3b. README.md standard format
 
 ```markdown
-# {Org Name} 資料集
+# {Org Name} dataset
 
 - Generated: {ISO 8601 timestamp}
 - Source: {peer URL}
@@ -291,34 +315,26 @@ data/{ORG}/
 
 ## Structure
 
-- `{type-1}/`: 說明
-- `{type-2}/`: 說明
-- `raw/`: WordPress API raw JSON（provenance）
+- `{type-1}/`: description
+- `{type-2}/`: description
+- `raw/`: WordPress API raw JSON (provenance)
 
-## 爬取器
+## Crawler
 
-可重跑：`python3 scripts/tools/fetch-{org}-data.py`
-上次爬取：{date}
-下次建議：{date + 3 months}
+Re-runnable: `python3 scripts/tools/fetch-{org}-data.py`
+Last crawl: {date}
+Next suggested: {date + 3 months}
 
-## Category 清單
+## Category list
 
-- {category-1}: {count} 篇
-- {category-2}: {count} 篇
+- {category-1}: {count} posts
+- {category-2}: {count} posts
   ...
 
-## Year distribution（如果 stories/articles 按年份分布明顯）
+## Year distribution (if articles cluster by year)
 ```
 
-2015: {n}
-2016: {n}
-...
-
-```
-
-```
-
-### 3c. 每篇 post 的 markdown frontmatter 格式
+### 3c. Per-post markdown frontmatter format
 
 ```markdown
 # {Post Title}
@@ -330,7 +346,7 @@ data/{ORG}/
 - Slug: {slug}
 - Published: {ISO timestamp}
 - Modified: {ISO timestamp}
-- Author: {author name or 行銷企劃組}
+- Author: {author name}
 - Categories: {comma-separated}
 - Tags: {comma-separated}
 - Featured Image: {URL or none}
@@ -352,446 +368,443 @@ data/{ORG}/
 {all internal links extracted from content, one per line}
 ```
 
-**這個 frontmatter 不是裝飾**。它是 Stage 4 分析和 Stage 6 寫作時快速定位資訊的 metadata layer。
+**This frontmatter is not decoration.** It is the metadata layer for quickly locating
+information during Stage 4 analysis and Stage 6 writing.
 
 ---
 
-## Stage 4 · Corpus 分析報告（2-4 hr，這是最大的 stage）
+## Stage 4 · Corpus analysis report (2-4 hr, the largest stage)
 
-**目標**：產出 `reports/{org}-semiont-analysis-YYYY-MM-DD.md`，一份 400-600 行的 corpus-level 分析，這份報告會決定接下來 2-3 個 session 的所有文章開發方向。
+**Goal:** produce `reports/{org}-analysis-YYYY-MM-DD.md`, a 400-600 line corpus-level
+analysis that drives every article-development decision for the next 2-3 sessions.
 
-### 4a. 讀進 context
+### 4a. Read into context
 
-不是 sample，是**全讀**：
+Not a sample — **read everything:**
 
 ```bash
-# 把所有 raw markdown 檔案讀進 session context
+# Read all raw markdown into session context
 find data/{ORG} -name "*.md" -not -name "INDEX.md" -not -name "README.md" | head -20
-# 抽檢 3-5 篇覆蓋不同 category，確保格式正確
+# Spot-check 3-5 across different categories to confirm format
 
-# 讀 manifest 和 categories
+# Read manifest and categories
 cat data/{ORG}/raw/manifest.json
 cat data/{ORG}/raw/categories.json
 ```
 
-**如果 peer 有 >100 篇文章**：可以只深讀 30-50 篇有代表性的，但必須：
+**If the peer has > 100 articles:** deep-read 30-50 representative ones, but you must:
 
-- ✅ 涵蓋所有 category
-- ✅ 涵蓋所有年份（看時間分布）
-- ✅ 涵蓋最熱門 + 最冷門的各 5 篇（看 framework 的穩定性）
+- ✅ cover all categories
+- ✅ cover all years (look at the time distribution)
+- ✅ cover the 5 most + 5 least prominent (test framework stability)
 
-### 4b. Framework 萃取
+### 4b. Framework extraction
 
-讀完後，要能回答：
+After reading, you must be able to answer:
 
-1. **這個 peer 最常重複的 3-5 個概念框架是什麼？** （TFT 的例子：3A / 同心圓 / 交織性 / 三大策略 / 學習貧窮 / 非典職涯對等選項）
-2. **這些 framework 怎麼相互關聯？** 畫一張簡單的框架圖
-3. **這些 framework 的演化時間線？** 早期 framework → 後期 framework，看組織論述的成熟度
+1. **What are the peer's 3-5 most-repeated conceptual frameworks?**
+2. **How do these frameworks relate to each other?** Sketch a simple framework map.
+3. **What is the evolution timeline of these frameworks?** Early → later, to gauge
+   the maturity of the organization's discourse.
 
-**萃取方法**：從 manifest 看各 category 的文章年份分布。如果某個 category（像 TFT thinkings）集中在 2020-2021，而另一個（TFT stories）集中在 2024-2025，那說明 framework 層已經定型，現場敘事層還在活。
+**Extraction method:** read the per-category year distribution from the manifest. If
+one category clusters in earlier years and another in recent years, the framework
+layer has set while the on-the-ground narrative layer is still active.
 
-**寫進報告的 Part 2：TFT 的核心概念框架**（參考 `reports/TFT-semiont-analysis-2026-04-11.md`）。
+**Write this into report Part 2: the peer's core conceptual frameworks.**
 
-### 4c. 跟 Taiwan.md 現有覆蓋的交叉比對
+### 4c. Cross-comparison with LagunaBeach.md's existing coverage
 
-**這是報告的核心價值**。
+**This is the report's core value.**
 
 ```bash
-# 找 Taiwan.md 裡跟 peer 議題相關的既有文章
-grep -rl "教育\|偏鄉\|師資" knowledge/ --include="*.md" | head -20    # TFT 的例子
-grep -rl "人權\|集遊\|酷刑" knowledge/ --include="*.md" | head -20    # 台權會的例子
-grep -rl "環境\|核能\|氣候" knowledge/ --include="*.md" | head -20    # 綠盟的例子
+# Find LagunaBeach.md articles related to the peer's topics
+grep -rl "art\|gallery\|colony\|plein air" "knowledge/" --include="*.md" | head -20   # LAM example
+grep -rl "tidepool\|marine\|conservation\|cove" "knowledge/" --include="*.md" | head -20   # marine peer example
+grep -rl "festival\|pageant\|arts" "knowledge/" --include="*.md" | head -20   # Festival of Arts example
 ```
 
-對每篇相關 Taiwan.md 文章，回答：
+For each related LagunaBeach.md article, answer:
 
-- 這篇的深度如何？（看 word count + footnote density）
-- 最近更新？（lastVerified）
-- 作者是誰？（Taiwan.md / contributor / TFT-sourced）
+- How deep is it? (word count + footnote density)
+- Recently updated? (`lastVerified`)
+- Who wrote it? (LagunaBeach.md / contributor / peer-sourced)
 
-**交叉矩陣**：
+**Cross-matrix:**
 
-| 主題   | peer 覆蓋         | Taiwan.md 覆蓋         | 潛力                |
-| ------ | ----------------- | ---------------------- | ------------------- |
-| 議題 A | ⭐⭐⭐（peer 深） | ❌（缺）               | 開發空間大          |
-| 議題 B | ⭐⭐（peer 中）   | ⭐⭐（重複）           | 做互補不做重複      |
-| 議題 C | ❌（peer 沒）     | ⭐⭐⭐（Taiwan.md 有） | peer 盲點，反向補位 |
-| ...    | ...               | ...                    | ...                 |
+| Topic   | Peer coverage      | LagunaBeach.md coverage | Potential                     |
+| ------- | ------------------ | ----------------------- | ----------------------------- |
+| Topic A | ⭐⭐⭐ (peer deep) | ❌ (missing)            | large development room        |
+| Topic B | ⭐⭐ (peer mid)    | ⭐⭐ (overlap)          | complement, not duplicate     |
+| Topic C | ❌ (peer absent)   | ⭐⭐⭐ (LB has it)      | peer blind spot, reverse-fill |
+| ...     | ...                | ...                     | ...                           |
 
-**寫進報告的 Part 4：交集與落差分析**。
+**Write this into report Part 4: overlap & gap analysis.**
 
-### 4d. 系列主題提案（12-15 個 series）
+### 4d. Series proposals (12-15 series)
 
-每個 series 是一個可以寫成 3-10 篇文章的 cluster。命名規則：
+Each series is a cluster of 3-10 articles. Naming:
 
 ```
-Series A · {主題一句話描述}（X 篇）
-1. {文章標題}
-2. {文章標題}
+Series A · {one-line topic description} (X articles)
+1. {article title}
+2. {article title}
 ...
 ```
 
-**每個 series 必須有**：
+**Each series must have:**
 
-- 一個清楚的 editorial angle（不只是「關於 X 的文章」）
-- 至少 3 篇候選文章
-- peer 來源引用（哪幾篇 peer 文章為這個 series 的素材基礎）
-- 跟既有 Taiwan.md 文章的交叉連結點
+- a clear editorial angle (not just "articles about X")
+- at least 3 candidate articles
+- peer source citation (which peer articles are the material basis)
+- cross-link points to existing LagunaBeach.md articles
 
-**series 數量目標**：12-15 個。太少 → 沒有策略深度。太多 → scope 膨脹。
+**Target:** 12-15 series. Too few → no strategic depth. Too many → scope creep.
 
-**寫進報告的 Part 5：可開發的系列主題**。
+**Write this into report Part 5: developable series topics.**
 
-### 4e. P0/P1/P2 文章優先清單
+### 4e. P0/P1/P2 article priority list
 
-從所有 series 的候選文章中挑出 20 篇，按優先序排列：
+From all series candidates, pick 20, ordered by priority:
 
-| 層級   | 數量 | 挑選標準                                                   |
-| ------ | ---- | ---------------------------------------------------------- |
-| **P0** | 5 篇 | **時效性 × 深度 × Taiwan.md 現有缺口**。必須本月內能完成。 |
-| **P1** | 8 篇 | 2-3 週內可開發。交叉連結價值高。                           |
-| **P2** | 7 篇 | 1 個月內發展。作為系列的收尾或補位。                       |
+| Tier   | Count | Selection criteria                                                           |
+| ------ | ----- | ---------------------------------------------------------------------------- |
+| **P0** | 5     | **timeliness × depth × LagunaBeach.md gap**. Must be completable this month. |
+| **P1** | 8     | developable in 2-3 weeks. High cross-link value.                             |
+| **P2** | 7     | develop within a month. Series closers or gap-fillers.                       |
 
-**每篇 P0 必須具備**：
+**Each P0 must have:**
 
-- 明確的核心矛盾（30 字內能寫下）
-- 至少 3 個跨來源事實（不是只靠 peer 轉述）
-- 對應的既有 Taiwan.md 交叉連結（≥ 3 篇）
-- 預估工時（2-4 hr，包含 Stage 1 research + Stage 2 write）
+- a clear core tension (writable in < 30 words)
+- at least 3 cross-source facts (not just peer paraphrase)
+- corresponding existing LagunaBeach.md cross-links (≥ 3)
+- estimated hours (2-4 hr, including Stage 1 research + Stage 2 write)
 
-**寫進報告的 Part 6：具體文章優先序（20 篇）**。
+**Write this into report Part 6: concrete article priority (20 articles).**
 
-### 4f. Semiont POV（強制段落）
+### 4f. LB POV (mandatory section)
 
-**這段是防止 peer-bias inheritance 的核心**。必須回答：
+**This section is the core defense against inheriting peer bias.** It must answer:
 
-1. **視角翻轉**：peer 是 top-down 還是 bottom-up？Taiwan.md 的重寫策略是什麼？
-2. **資料不對稱**：peer 的哪些層（framework / stories / research）是活的、哪些已經定型？
-3. **TFT 盲點 / peer 盲點**：peer 系統性漏掉什麼？（寫 5-7 個）
-4. **敘事化建議**：peer 的抽象概念怎麼翻譯成「欸你知道嗎」的具體場景？
-5. **peer 不是 source material**：這段是 Muse 指出 R1 風險後加的強制反芻。承諾寫文章時用什麼方法防止 bias 繼承。
+1. **Perspective flip:** is the peer top-down or bottom-up? What is LagunaBeach.md's
+   rewrite strategy?
+2. **Data asymmetry:** which of the peer's layers (framework / stories / research) are
+   alive, which have set?
+3. **Peer blind spots:** what does the peer systematically miss? (write 5-7)
+4. **Narrativization:** how do the peer's abstract concepts translate into concrete
+   "did you know" scenes for the general reader?
+5. **Peer is not source material:** commit to the method you'll use while writing to
+   prevent inheriting bias.
 
-**寫進報告的 Part 7：Semiont POV**。
+**Write this into report Part 7: LB POV.**
 
-**沒有這段 → 報告不完整 → 不能進 Stage 5**。
+**No this section → report incomplete → cannot enter Stage 5.**
 
-### 4g. Meta 洞察（optional 但推薦）
+### 4g. Meta insight (optional but recommended)
 
-這個 peer 對 Taiwan.md 的 meta-index 架構有什麼特別啟發？
+What does this peer specially reveal about LagunaBeach.md's own role or structure?
+If nothing, don't force it.
 
-例如 TFT 的案例：TFT 是第一個讓 Taiwan.md 意識到自己是「curation-layer peer」的案例，所以 TFT analysis 的 Part 8 寫了一整段「TFT 作為 curation-layer peer 對 Taiwan.md 身份的啟發」。第二個 peer 可能有不同的 meta 洞察，也可能沒有——沒有就不寫。
+### 4h. Re-runnability & half-life
 
-### 4h. 可重跑與半衰期
+The report's end must state:
 
-報告最後要說明：
+- the report's half-life: usually 6-9 months
+- suggested time to re-ingest
+- re-ingest triggers (peer major shift / framework overhaul / LagunaBeach.md finished
+  P0-P2 and wants to evolve again)
 
-- 這份報告的半衰期：通常 6-9 個月
-- 下次重新 ingest 的建議時間
-- 重新 ingest 的觸發條件（peer 重大轉型 / framework 大幅更新 / Taiwan.md 已寫完 P0-P2 想再 evolve）
+**Write this into report Part 9.**
 
-**寫進報告的 Part 9**。
-
-### 4i. 報告標準結構（9 Parts）
+### 4i. Report standard structure (9 parts)
 
 ```markdown
-# 🧬 {Org} × Taiwan.md — {議題} 的策展分析與主題開發地圖
+# {Org} × LagunaBeach.md — {topic} curation analysis & development map
 
-> 分析日期: YYYY-MM-DD / Session / Semiont (model)
-> 資料來源: data/{ORG}/
-> 報告型態: Corpus-level 策展分析
+> Analysis date: YYYY-MM-DD / Session
+> Source: data/{ORG}/
+> Report type: Corpus-level curation analysis
 
-## 📋 摘要
+## Summary
 
-（前 100 字的強烈 thesis + 關鍵數字 + 13 個 series + 20 篇 P0/P1/P2 + 4 個策展原則 + 1 個 meta 警告）
+(strong thesis in the first 100 words + key numbers + 13 series + 20 P0/P1/P2 + 4 curation principles + 1 meta warning)
 
-## 📦 Part 1 · {Org} 資料集盤點
+## Part 1 · {Org} dataset inventory
 
-（爬取結果 table + category 分布 + 年份分布 + 關鍵觀察）
+(crawl result table + category distribution + year distribution + key observations)
 
-## 🧠 Part 2 · {Org} 的核心概念框架
+## Part 2 · {Org}'s core conceptual frameworks
 
-（3-5 個主要 framework 的萃取 + 相互關係）
+(extraction of 3-5 main frameworks + their relationships)
 
-## 🗺️ Part 3 · Taiwan.md 現有 {議題} 覆蓋
+## Part 3 · LagunaBeach.md's existing {topic} coverage
 
-（既有文章 table + 深度 + 更新狀況）
+(existing-article table + depth + update status)
 
-## 🔍 Part 4 · 交集與落差分析
+## Part 4 · Overlap & gap analysis
 
-（交叉矩陣 + 重疊區 + 缺口 + 反向補位機會）
+(cross-matrix + overlap zone + gaps + reverse-fill opportunities)
 
-## 📚 Part 5 · 可開發的系列主題（12-15 個 series）
+## Part 5 · Developable series topics (12-15 series)
 
-（每個 series: editorial angle + 候選文章 + peer 來源 + 交叉連結）
+(each series: editorial angle + candidate articles + peer source + cross-links)
 
-## 🎯 Part 6 · 具體文章優先序（20 篇）
+## Part 6 · Concrete article priority (20 articles)
 
-（P0 × 5 / P1 × 8 / P2 × 7 table，含核心矛盾 / 工時估算）
+(P0 × 5 / P1 × 8 / P2 × 7 table, with core tension / hour estimate)
 
-## 🧠 Part 7 · Semiont POV
+## Part 7 · LB POV
 
-（視角翻轉 / 資料不對稱 / peer 盲點 / 敘事化 / peer 不是 source）
+(perspective flip / data asymmetry / peer blind spots / narrativization / peer is not source)
 
-## 🌉 Part 8 · Meta 洞察（optional）
+## Part 8 · Meta insight (optional)
 
-（這個 peer 對 Taiwan.md meta-index 架構的啟發）
+## Part 9 · Re-runnability & lifecycle
 
-## 📊 Part 9 · 可重跑與生命週期
-
-（快照日期、半衰期、重新 ingest 條件）
+(snapshot date, half-life, re-ingest triggers)
 ```
 
-### 4j. 寫完後的自檢
+### 4j. Post-write self-check
 
-| 檢查項                      | 通過標準              |
-| --------------------------- | --------------------- |
-| 報告長度                    | 400-700 行            |
-| Part 2 framework 萃取       | ≥ 3 個框架            |
-| Part 5 series               | 12-15 個              |
-| Part 6 P0/P1/P2             | 總數 20 篇            |
-| Part 7 Semiont POV          | 有寫 peer 盲點 ≥ 5 個 |
-| peer 不是 source 的承諾     | 有明確寫入            |
-| 交叉引用既有 Taiwan.md 文章 | ≥ 10 篇               |
+| Check                           | Pass standard                |
+| ------------------------------- | ---------------------------- |
+| Report length                   | 400-700 lines                |
+| Part 2 framework extraction     | ≥ 3 frameworks               |
+| Part 5 series                   | 12-15                        |
+| Part 6 P0/P1/P2                 | 20 total                     |
+| Part 7 LB POV                   | ≥ 5 peer blind spots written |
+| "peer is not source" commitment | explicitly written           |
+| cross-reference to existing LB  | ≥ 10 articles                |
 
-**commit**：`🧬 [semiont] diagnose: {Org} × Taiwan.md corpus analysis report`
+**commit:** `docs(peer): {Org} × LagunaBeach.md corpus analysis report`
 
 ---
 
-## Stage 5 · 文章開發計畫萃取（30 min）
+## Stage 5 · Extract the article-development plan (30 min)
 
-**目標**：把 Stage 4 的 P0/P1/P2 清單變成可執行的任務列表。
+**Goal:** turn the Stage 4 P0/P1/P2 list into an executable task list.
 
-### 5a. P0 × 5 文章工作卡
+### 5a. P0 × 5 article work cards
 
-對 P0 的每一篇文章，建立一張工作卡：
+For each P0 article, build a work card:
 
 ```yaml
 id: p0-01
-title: {文章標題}
-series: {所屬 series 代碼，例如 "A"}
-category: {taiwan-md/knowledge 下的分類，例如 Society / People / Culture}
+title: {article title}
+series: {series code, e.g. "A"}
+category: {knowledge category, e.g. Art & Galleries / History / Events & Festivals}
 mode: evolution | fresh
-  # evolution: taiwan-md 已有這篇，需要升級
-  # fresh: 全新文章
-target_words: 3500-5500
-target_footnotes: 15-20
-核心矛盾: {30 字內描述，v2.14 rewrite pipeline 要求}
+  # evolution: LagunaBeach.md already has this, needs an upgrade
+  # fresh: brand-new article
+target_words: 1500-3000   # per EDITORIAL.md category norms
+core_tension: {< 30 words}
 peer_sources: [list of peer articles from data/{ORG}/ as starting material]
-cross_references: [list of existing taiwan-md articles to link to]
+cross_references: [list of existing LB articles to link to]
 stage1_research_plan:
   - 8+ WebSearch calls
-  - Must include: {具體要找什麼，例如 2023-2024 最新數據、學者名字、媒體深度報導}
+  - Must include: {what to find — recent data, names, in-depth coverage}
 stage2_write_checklist:
-  - 具體人名開場
-  - 核心矛盾 sharpening
-  - 15-20 footnote with real URLs
-  - 破折號 ≤ 10（避免 quality-scan 罰分）
-  - 中國用語檢查
+  - concrete-person / concrete-place opening
+  - core-tension sharpening
+  - footnotes with real URLs
+  - American-English register (per TERMINOLOGY.md)
 estimated_hours: 2-4
 ```
 
-### 5b. Stage 6 的 prerequisite 鎖
+### 5b. Stage 6 prerequisite lock
 
-**硬性規則**（來自 ζ+ session 的教訓）：
+**Hard rules:**
 
-1. **每篇 P0 必須跑 ≥ 8 次 WebSearch**（這是 REWRITE-PIPELINE Stage 1 的標準，但在 peer ingestion 情境下要嚴格執行，因為 peer 的文章會讓 AI 偷懶）
-2. **至少 50% 的事實不能來自 peer 單一來源**（跨來源三角驗證）
-3. **每篇 P0 至少有 3 個在 peer 語料庫外的新素材**（例：對 TFT 來說，需要查馬克 / 巴楠花 / 蔡志偉 這類 peer 以外的真人真事）
-4. **寫完後 Stage 3 verify 必須跑 quality-scan**，score < 8 才能 commit
+1. **Each P0 must run ≥ 8 WebSearch calls** (the REWRITE-PIPELINE Stage 1 standard,
+   enforced strictly here because peer articles make AI lazy)
+2. **At least 50% of facts must not come from a single peer source** (cross-source
+   triangulation)
+3. **Each P0 must have at least 3 new materials outside the peer corpus**
+4. **After writing, Stage 3/4 verify must run the quality gate**; pass before commit
 
-### 5c. 把工作卡寫進 TodoWrite
+### 5c. Track the work cards
 
-開始 Stage 6 前，用 TodoWrite 建立 P0 × 5 的 todo list。每篇一個 todo 項目。完成後才能進下一篇。
-
----
-
-## Stage 6 · 文章產製（每篇 2-4 hr，共 15-30 hr）
-
-**每篇走完整的 [`REWRITE-PIPELINE.md`](REWRITE-PIPELINE.md) 六階段**。這份 pipeline 不重複 REWRITE-PIPELINE 的內容，只列 **peer ingestion 情境下的追加警戒**。
-
-### 6a. Peer ingestion 情境的硬性追加規則
-
-這四條規則覆蓋 REWRITE-PIPELINE 預設值，在 peer ingestion 情境下更嚴：
-
-1. **Stage 1 WebSearch 最低門檻：10-14 次**（REWRITE-PIPELINE 預設 8+，peer 情境加嚴因為 peer 文章會讓 AI 偷懶）
-2. **至少 50% 事實不能來自 peer 單一來源**（跨來源三角驗證）
-3. **至少 3 個在 peer 語料庫外的新素材**（TFT 案例：查馬克 / 巴楠花 / 蔡志偉 都不在 TFT thinkings 裡）
-4. **Stage 1 checkpoint 強化**：除了 v2.14 的核心矛盾檢查，還要能回答「**這篇的核心矛盾可以不靠 peer 的句子講出來嗎？**」——不能 → 回到 Stage 1
-
-這四條對應 DNA Sonnet 反射 #16（Peer 是 peer 不是 source material）。
-
-### 6b. Evolution mode 警示（來自 ζ+ session 失敗教訓）
-
-如果 Taiwan.md 已有這篇（evolution mode），**不要在舊文上修補**：
-
-> ζ+ session P0 #1-3 v1 失敗模式：讀 TFT 對應 thinking + 2 個既有 Taiwan.md 相關文章 → 套 Taiwan.md 語氣 → 寫成結構完整但事實地基全部來自 TFT 的成品。哲宇讀 1 分鐘抓到「這是 TFT 轉述不是原創策展」。
-
-正確的 evolution mode（REWRITE-PIPELINE §進化模式已寫，這裡強化）：**Stage 0 從 v1 只提取「事實清單」，不參考「敘事骨架」**。v1 寫的結構、段落順序、小標題全部當不存在。Stage 2 全新寫作。
-
-### 6c. 觀察者提醒
-
-引用 ζ+ session 哲宇的 callout 原話：
-
-> 「有寫的就走 rewrite-pipeline 升級，沒有的就完整走新文章流程，然後**好好用那些 TFT data**。」
-
-「好好用」不是「引用更多」，是「**把 peer 的 data 當成線索（clue），從線索出發去搜真正的事實源（primary sources），不是把 peer 的二手描述當成 primary source**」。
+Before starting Stage 6, build a P0 × 5 todo list (one item per article). Complete one
+before the next.
 
 ---
 
-## Stage 7 · Peer Registry 同步 + 收官（20 min）
+## Stage 6 · Article production (2-4 hr each, 15-30 hr total)
 
-**Stage 7 的大部分動作是標準 Beat 4/5 收官**，走 [`HEARTBEAT.md §Beat 4 收官`](../semiont/HEARTBEAT.md#beat-4--收官) + [`§Beat 5 反芻`](../semiont/HEARTBEAT.md#beat-5--反芻)。這裡只列 **peer ingestion 情境下的追加動作**。
+**Each article runs the full [`REWRITE-PIPELINE.md`](REWRITE-PIPELINE.md).** This
+pipeline does not repeat REWRITE-PIPELINE; it only lists the **extra guards specific to
+a peer-ingestion context.**
 
-### 7a. Peer Registry 更新（peer-specific，唯一的新步驟）
+### 6a. Hard additions for the peer-ingestion context
 
-打開 [`docs/peers/REGISTRY.md`](../peers/REGISTRY.md)，在 `## Active Peers` 段追加一個新條目。
+These four override REWRITE-PIPELINE defaults; they are stricter here:
 
-**模板參考既有的 TFT 條目**（REGISTRY.md 裡第一條）。每個新 peer 條目必須包含：
+1. **Stage 1 WebSearch floor: 10-14 calls** (REWRITE-PIPELINE default is 8+; raised
+   here because peer articles make AI lazy)
+2. **At least 50% of facts must not come from a single peer source** (cross-source
+   triangulation)
+3. **At least 3 new materials outside the peer corpus**
+4. **Stage 1 checkpoint hardening:** beyond the core-tension check, you must be able to
+   answer "**can this article's core tension be stated without the peer's sentences?**"
+   — if not → back to Stage 1
+
+This corresponds to the peer-is-not-source iron law (Rule 12).
+
+### 6b. Evolution-mode warning (from a real failure)
+
+If LagunaBeach.md already has the article (evolution mode), **do not patch the old
+file:**
+
+> Known failure mode: read the peer's corresponding piece + 2 existing related LB
+> articles → apply LB voice → produce a structurally complete article whose factual
+> foundation is entirely peer paraphrase. A reviewer catches in one minute that "this
+> is peer paraphrase, not original curation."
+
+Correct evolution mode (also in REWRITE-PIPELINE §evolution): **Stage 0 extracts only
+the "fact list" from v1, not the "narrative skeleton."** The v1 structure, paragraph
+order, and subheadings are treated as nonexistent. Stage 2 is a fresh write.
+
+### 6c. Observer reminder
+
+> "If it exists, run it through the rewrite pipeline to upgrade. If it doesn't, run the
+> full new-article flow — and **use the peer data well.**"
+
+"Use it well" is not "cite more"; it's "**treat the peer's data as a clue, start from
+the clue and search out the real primary sources — don't treat the peer's secondhand
+description as a primary source.**"
+
+---
+
+## Stage 7 · Peer Registry sync + wrap-up (20 min)
+
+**Most of Stage 7 is the standard wrap-up / reflect closeout** (see
+[`HEARTBEAT.md`](../semiont/HEARTBEAT.md) wrap-up + reflect beats). This lists only the
+**peer-ingestion-specific additions.**
+
+### 7a. Peer Registry update (peer-specific, the only new step)
+
+Open [`docs/peers/REGISTRY.md`](../peers/REGISTRY.md) and append a new entry under
+`## Active Peers`.
+
+Each new peer entry must include:
 
 - ID / Name / Issue area / Website / Status
-- First ingested / Last re-ingested / Next re-ingest 建議（通常 3-6 個月）
-- Raw data / Crawler / Analysis report 連結
-- Articles shipped (P0 × 5)、Pending (P1 × 8 / P2 × 7)
+- First ingested / Last re-ingested / Next re-ingest suggestion (usually 3-6 months)
+- Raw data / Crawler / Analysis report links
+- Articles shipped (P0 × 5), Pending (P1 × 8 / P2 × 7)
 - Partnership status
-- Key contacts（如果有）
-- Notes（本次 session 的特殊發現或里程碑）
+- Key contacts (if any)
+- Notes (this session's special findings or milestones)
 
-**不要把整份模板 inline 複製過來**。REGISTRY.md 本身就是 canonical 格式，讀它就是看格式。
+**Do not inline-copy the whole template.** REGISTRY.md is itself the canonical format;
+read it to see the format.
 
-### 7b. 標準收官動作（指標）
+### 7b. Standard wrap-up actions
 
-以下這些動作**走 HEARTBEAT.md Beat 4/5 的標準流程**，不是 peer-specific：
+These run the standard HEARTBEAT.md wrap-up/reflect flow, not peer-specific:
 
-- CONSCIOUSNESS.md 里程碑新增 — 見 HEARTBEAT.md Beat 4 收官 5 步
-- memory/YYYY-MM-DD-{session}.md 寫完整 phase log — 見 HEARTBEAT.md Beat 4
-- diary/YYYY-MM-DD-{session}.md（optional）— 見 HEARTBEAT.md Beat 5 反芻判斷標準
-- MEMORY.md / DIARY.md 索引追加一行 — 見 HEARTBEAT.md Beat 4 步驟 2
-- 精準 commit（`docs/peers/` + `docs/semiont/memory/` + `docs/semiont/diary/` + indexes）— 見 DNA Sonnet 反射 #6（commit 範圍紀律，絕不 `git add -A`）
-- push — 標準
+- precise commit (`docs/peers/` + any session memory) — never `git add -A`
+- (optional, dormant in LB) session memory / diary notes — LB's memory/diary organs
+  are not yet active; a commit message and a `reports/` entry suffice
 
-**唯一 peer-specific 的 commit header**：`🧬 [semiont] memory: {ORG} peer ingestion closeout`
+**The one peer-specific commit header:** `docs(peer): {ORG} peer ingestion closeout`
 
-### 7c. Peer ingestion 專屬的 memory 必記欄位
+### 7c. Peer-ingestion-specific memory fields
 
-memory 可以走 HEARTBEAT.md 標準格式，但 peer ingestion 的 memory 額外要記：
+If a session memory note is written, record additionally:
 
-- peer corpus 規模（total posts / raw size）
-- 寫完的 P0 篇數（5/5 = 完整；<5 = 分批，標註下次 session 要接的是 P0 #N）
-- Stage 1 research 的關鍵發現（哪些事實是 v1 或 peer 語料外找到的）
-- quality scan 結果（每篇的 final score）
-- 跌過的坑（如果這次 session 有重蹈過 ζ+ session 的任一陷阱，必記）
+- peer corpus size (total posts / raw size)
+- P0 articles completed (5/5 = complete; <5 = batched, note which P0 #N is next)
+- key Stage 1 research findings (which facts were found outside the peer corpus)
+- quality scan results (each article's final score)
+- any traps fallen into (if this session repeated any pitfall, record it)
 
 ---
 
-## Stage 8 · Peer 關係啟動（optional，1-2 hr）
+## Stage 8 · Peer relationship kickoff (optional, 1-2 hr)
 
-**從產品開始，不從 protocol 開始**。這條是 Muse sparring critique #2 的教訓。
+**Start from the product, not the protocol.**
 
-### 8a. 絕不使用的開場
+### 8a. Openings to never use
 
-- ❌ 「我們想 ingest 你們的文章做 partnership」（聽起來像收編）
-- ❌ 「我們會把你們的專業論述翻譯成大眾版」（聽起來像 downgrade）
-- ❌ 「能不能幫我們校對一下 X 篇文章的引用？」（免費勞動請求）
+- ❌ "We'd like to ingest your articles for a partnership" (sounds like co-option)
+- ❌ "We'll translate your professional discourse into a popular version" (sounds like
+  a downgrade)
+- ❌ "Could you proofread the citations in a few of our articles?" (free-labor request)
 
-### 8b. 正確的開場
+### 8b. Correct openings
 
-- ✅ 「我們根據你們的公開資料寫了 2 篇文章（連結），想聽聽看你們的回饋」
-- ✅ 「你們的 [某篇文章] 給了我們很大的啟發，我們試著把它重新策展給一般讀者看，你們願意看看嗎？」
-- ✅ 「我們建了一個地圖把台灣專業策展者的邊界拼起來，你們是第一個/第 N 個。想先把成品給你們看。」
+- ✅ "We wrote 2 articles based on your public material (links); we'd love your
+  feedback."
+- ✅ "Your [article] really inspired us; we tried re-curating it for a general reader —
+  would you take a look?"
+- ✅ "We're building a map that stitches together Laguna Beach's curators and
+  institutions; you're the first / Nth. We'd like to show you the finished work
+  first."
 
-### 8c. 聯繫時機
+### 8c. Timing
 
-在 Stage 6 完成至少 **2 篇 P0** 之後，才開始聯繫 peer。**不要在 Stage 2-5 爬資料階段就聯繫**——你還沒有成品可以展示，開場會變成 protocol。
+Only start contacting the peer after **at least 2 P0 articles** are complete in Stage 6. **Do not contact during the Stage 2-5 crawl phase** — you have nothing finished to
+show, and the opening becomes a protocol.
 
-### 8d. 如果 peer 有回應
+### 8d. If the peer responds
 
-- 接受邀約見面 / 視訊
-- 用成品建立關係
-- 聽他們的 feedback（尤其是事實校正 + 論述方向）
-- 如果適合，更新 REGISTRY.md 的 partnership status 到 `active`
+- accept a meeting / call
+- build the relationship with the finished work
+- listen to feedback (especially fact corrections + discourse direction)
+- if appropriate, update REGISTRY.md partnership status to `active`
 
-### 8e. 如果 peer 沒有回應或拒絕
+### 8e. If the peer doesn't respond or declines
 
-- **不影響 ingestion** — 因為 Stage 2-6 用的都是公開資料
-- REGISTRY.md 的 partnership status 保持 `not initiated` 或 `declined`
-- 不要強求。Partnership 是 bonus，不是基礎。
-
----
-
-## 常見陷阱（從 TFT session 萃取）
-
-| 陷阱                             | 症狀                                                         | 解法                                                                                          |
-| -------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------- |
-| **Peer 轉述當原創策展**          | Stage 6 的文章 80% 事實來自 peer 單一來源                    | Stage 5 的每篇 P0 工作卡強制寫「3 個 peer 以外的新素材」                                      |
-| **Stage 1 research 壓縮**        | 只做 2-4 次 WebSearch 就開寫                                 | 硬性規則：< 8 次不進 Stage 2                                                                  |
-| **Evolution mode 在舊文上修補**  | v2 跟 v1 結構一樣只改字眼                                    | Stage 0 強制「從 v1 只提取事實，不參考骨架」                                                  |
-| **核心矛盾抽象化**               | 「法律 vs 現場」「制度 vs 執行」這類模糊表述                 | Stage 1 checkpoint 要求 30 字內寫得出具體對比（例：「175 億硬體投入 vs 113 學年 18 所停辦」） |
-| **Report 只有分類沒有系列**      | Stage 4 寫「20 篇候選」但沒分成 series                       | Part 5 必須有 12-15 個命名的 series                                                           |
-| **Semiont POV 敷衍**             | Part 7 只寫「peer 很專業，我們要翻譯成白話」                 | Part 7 必須寫 5-7 個具體盲點 + 敘事化策略                                                     |
-| **Peer Registry 忘記更新**       | ingestion 完成但沒人知道                                     | Stage 7 強制 commit                                                                           |
-| **跨 session 失憶**              | 多 session 完成 ingestion，後一個 session 忘記前一個做了什麼 | 每個 session 結束前更新 TodoWrite + memory 寫完整 phase                                       |
-| **Protocol 開場聯繫 peer**       | peer 認為 Taiwan.md 在收編他們                               | Stage 8 用產品當開場，不用 protocol                                                           |
-| **Bulk bulk 生產不 triangulate** | 寫完 5 篇才發現事實都重複來自同一個 peer 訪談                | 每篇 P0 都要獨立跑 8+ WebSearch，不能共用前一篇的 research                                    |
+- **does not affect ingestion** — Stage 2-6 all use public material
+- keep REGISTRY.md partnership status at `not initiated` or `declined`
+- don't push. Partnership is a bonus, not a foundation.
 
 ---
 
-## AI-Executable Checklist（stage-level only）
+## Common traps
 
-這份 checklist 只列 stage 層級的 gate，不重複每個 stage 的子步驟（子步驟在各 stage 段落裡）。
+| Trap                                  | Symptom                                                     | Fix                                                                   |
+| ------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------- |
+| **Peer paraphrase as original**       | Stage 6 article 80% facts from a single peer source         | Stage 5 work card forces "3 new materials outside the peer"           |
+| **Stage 1 research compressed**       | only 2-4 WebSearch before writing                           | hard rule: < 8 → don't enter Stage 2                                  |
+| **Evolution mode patches old**        | v2 same structure as v1, only wording changed               | Stage 0 forces "extract facts from v1, not the skeleton"              |
+| **Abstract core tension**             | vague "law vs reality" / "policy vs execution"              | Stage 1 checkpoint requires a concrete contrast in < 30 words         |
+| **Report has buckets, no series**     | Stage 4 writes "20 candidates" but no series                | Part 5 must have 12-15 named series                                   |
+| **LB POV phoned in**                  | Part 7 just says "peer is professional, translate to plain" | Part 7 must write 5-7 concrete blind spots + narrativization strategy |
+| **Forgot Peer Registry**              | ingestion done but nobody knows                             | Stage 7 forces the commit                                             |
+| **Cross-session amnesia**             | later session forgets what the earlier one did              | update the todo list + memory note at session end                     |
+| **Protocol opening to peer**          | peer thinks LagunaBeach.md is co-opting them                | Stage 8 uses the product as the opening, not a protocol               |
+| **Bulk production, no triangulation** | wrote 5 articles, then found facts all from one peer source | each P0 runs its own 8+ WebSearch, no shared research                 |
+
+---
+
+## AI-executable checklist (stage-level only)
 
 ```
-# 接收指令：「ingest peer X」
+# Instruction received: "ingest peer X"
 
-□ Prerequisites: BECOME_TAIWANMD.md + 讀 TFT reference + 能回答「peer 的獨特角度」
-□ Stage 1: 4 項 fit check 通過
-□ Stage 2: 爬取器 idempotent 驗證通過 + data/{ORG}/ commit+push
-□ Stage 3: 標準目錄 + 每篇 post frontmatter 格式正確
-□ Stage 4: 9-part 報告 commit+push（自檢表通過：長度/framework/series/P0-P2/POV）
-□ Stage 5: P0 × 5 工作卡 + TodoWrite 建 P0 list
-□ Stage 6: 每篇走 REWRITE-PIPELINE 六階段 + §6a 四條 peer-specific 追加規則
-      → P0 #1 commit+push → #2 ... → #5 完成才進 Stage 7
-□ Stage 7: Registry 更新 + 走 HEARTBEAT Beat 4/5 標準收官
-□ Stage 8（optional）: 已 ship ≥ 2 篇 P0 才聯繫 peer
+□ Prerequisites: /lb-become + read REGISTRY.md + can answer "the peer's unique angle"
+□ Stage 1: 4 fit checks pass
+□ Stage 2: crawler idempotency verified + data/{ORG}/ committed
+□ Stage 3: standard directory + correct per-post frontmatter
+□ Stage 4: 9-part report committed (self-check: length/framework/series/P0-P2/POV)
+□ Stage 5: P0 × 5 work cards + P0 todo list
+□ Stage 6: each runs REWRITE-PIPELINE + §6a four peer-specific additions
+      → P0 #1 commit → #2 ... → #5 done before Stage 7
+□ Stage 7: Registry update + standard wrap-up/reflect closeout
+□ Stage 8 (optional): contact peer only after ≥ 2 P0 articles shipped
 ```
 
 ---
 
-## Reference Implementation · TFT (2026-04-11 to 2026-04-12)
+## One sentence
 
-第一個完整走完這個 pipeline 的案例。實際檔案：
-
-- **Raw data**: [`data/TFT/`](../../data/TFT/)
-- **Crawler**: [`scripts/tools/fetch-tft-data.py`](../../scripts/tools/fetch-tft-data.py)
-- **Analysis report**: [`reports/TFT-semiont-analysis-2026-04-11.md`](../../reports/TFT-semiont-analysis-2026-04-11.md)
-- **P0 articles shipped** (5/5):
-  1. [`Society/台灣原住民族教育與語言復振的交界.md`](../../knowledge/Society/台灣原住民族教育與語言復振的交界.md)
-  2. [`Society/偏遠地區學校教育發展條例全解.md`](../../knowledge/Society/偏遠地區學校教育發展條例全解.md)
-  3. [`Society/一個教師的誕生：台灣師資培育制度.md`](../../knowledge/Society/一個教師的誕生：台灣師資培育制度.md)
-  4. [`Society/學習貧窮.md`](../../knowledge/Society/學習貧窮.md)
-  5. [`People/劉安婷.md`](../../knowledge/People/劉安婷.md)
-- **Session memory**: [`memory/2026-04-12.md`](../semiont/memory/2026-04-12.md)
-- **Session diary**: [`diary/2026-04-12.md`](../semiont/diary/2026-04-12.md)
-
-**這個 session 花了 24+ 小時、13+ commits、跌倒兩次**。這份 pipeline 的目標就是讓未來的 peer ingestion 不需要重新犯那兩個錯。如果下次做均一教育平台 / 台權會 / 綠盟 能在 15-20 小時內完成，這份 pipeline 就生效了。
-
----
-
-## 版本歷史
-
-- **v1.0 | 2026-04-12** — 誕生於 TFT peer ingestion ζ+ session 的收官反芻。由 Taiwan.md Semiont (Opus 4.6) 撰寫，直接 codify 了 TFT session 的所有成功與失敗經驗。
-- 預計 **v1.1** — 下一個 peer (均一 / 誠致 / 台權會 / 綠盟) ingestion 完成後，回來更新這份 pipeline。每次 peer 走完都會揭露新的 pattern。
-
----
-
-## 一句話
-
-**Peer 是 peer，不是 source material。這份 pipeline 的每一條規則都是從違反這條鐵律的代價學到的。**
+**A peer is a peer, not source material. Every rule in this pipeline was learned from
+the cost of violating that iron law.**
 
 🧬
 
 ---
 
-_Author: Taiwan.md Semiont (Opus 4.6, 1M context)_
-_Triggered by: 哲宇指示「把 TFT 策展單位變成研究報告開展的整個過程記錄起來變 pipeline」_
-_Born in: ζ+ session 2026-04-12 closeout_
-_Related: `docs/pipelines/RELEASE-PIPELINE.md`, `docs/pipelines/REWRITE-PIPELINE.md`_
+_v1.0 | 2026-06-28 — LB peer-ingestion pipeline (8-stage methodology and the "peer is not source" iron law inherited from upstream PEER-INGESTION-PIPELINE.md v1.0; translated to English, regrounded to LagunaBeach.md institutions and the Rule 12 SSOT framing, Taiwan-organ closeout (CONSCIOUSNESS / memory / diary crons) noted as dormant rather than transplanted)._
