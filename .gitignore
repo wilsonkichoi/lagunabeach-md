@@ -194,3 +194,6 @@ src/data/related/
 # fleet-routine vs CI-e5-small. bge-m3 cannot build in CI (no fleet GPU).
 public/api/rag/
 public/api/related/
+
+# Regenerated every build by prebuild:dashboard (article-health.py --baseline-out); not meaningful to track
+scripts/tools/.quality-baseline.json
