@@ -169,7 +169,7 @@ Adapt to the topic; this isn't a fill-in-the-blank template. Common shapes alrea
 
 The one hard rule the `chronicle-lead` plugin enforces: an H2 must never lead with a literal date — no `## May 2016`, no `## 2020: The Renovation`, no `## 2020.5.6`. That pattern turns the section into a Wikipedia timeline entry instead of a piece of the story.
 
-Plain functional labels are fine at this format's scale and the corpus already uses them well: `## History`, `## Access`, `## Tide Pools`, `## Practical Information`, `## Aftermath`, `## Wildlife`. Taiwan.md's long-form canon bans these as too generic for a 1,500-word feature; at 300-700 words, a reader scanning the table of contents benefits more from knowing exactly what's in each section than from a clever hook on every header. Where a more specific or evocative header is genuinely available without straining for it — `## The Greenbelt Connection`, `## The Pirate Tower` — use it. Don't force one onto a section that's plainly just "the hours and the parking situation."
+Plain functional labels are fine at this format's scale and the corpus already uses them well: `## History`, `## Access`, `## Tide Pools`, `## Practical Information`, `## Aftermath`, `## Wildlife`. A long-form feature would treat these as too generic for a 1,500-word piece; at 300-700 words, a reader scanning the table of contents benefits more from knowing exactly what's in each section than from a clever hook on every header. Where a more specific or evocative header is genuinely available without straining for it — `## The Greenbelt Connection`, `## The Pirate Tower` — use it. Don't force one onto a section that's plainly just "the hours and the parking situation."
 
 Year ranges (`## 1949-1993`) and decade references (`## The 1990s`) are allowed; they're describing historical scope, not chronicling an event-by-event timeline.
 
@@ -228,9 +228,9 @@ A one-line answer per key is fine — the plugin checks presence, not depth. For
 
 ## 5. SEO Metadata
 
-Standard English SEO conventions, not Taiwan.md's CJK-character math:
+Standard English SEO conventions, not CJK-character math:
 
-- **Title**: ≤ 60 characters (Google SERP truncates around there). LagunaBeach.md titles are plain identifying names — `Victoria Beach`, `The Cliff Restaurant`, `Laguna Art Museum` — not Taiwan.md's colon-sandwich narrative hooks. The hook belongs in the description, not the title. Keep it that way; a fork-wide switch to hook-titles would be a bigger stylistic change than this localization should make unilaterally.
+- **Title**: ≤ 60 characters (Google SERP truncates around there). LagunaBeach.md titles are plain identifying names — `Victoria Beach`, `The Cliff Restaurant`, `Laguna Art Museum` — not colon-sandwich narrative hooks. The hook belongs in the description, not the title. Keep it that way; a fork-wide switch to hook-titles would be a bigger stylistic change than this localization should make unilaterally.
 - **Description**: 50-160 characters. This is the SERP snippet — open with a concrete detail, not "This article covers..." or the site's own name. Don't simply repeat the title.
 - One concrete anchor (a year or a number) in the description earns its space better than an adjective.
 
@@ -279,7 +279,7 @@ This AI fingerprint (the "not just X, it's Y" construction, which Taiwan.md flag
 
 ### Em Dash Discipline
 
-Em dashes are normal, correct English punctuation — unlike Taiwan.md's CJK 「——」 dash, this isn't a borrowed mechanic. But AI-generated English prose reaches for them constantly as a tic, often where a period, semicolon, or parenthetical would read more naturally. If a paragraph has more than two or three, read it back and ask whether each one is doing something a period couldn't.
+Em dashes are normal, correct English punctuation. But AI-generated English prose reaches for them constantly as a tic, often where a period, semicolon, or parenthetical would read more naturally. If a paragraph has more than two or three, read it back and ask whether each one is doing something a period couldn't.
 
 ### Canned Endings
 
