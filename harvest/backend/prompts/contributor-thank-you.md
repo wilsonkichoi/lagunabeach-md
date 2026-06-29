@@ -1,6 +1,6 @@
 ## Task type: contributor-thank-you
 
-A contributor merged a PR recently and the harvest engine noticed nobody has thanked them yet. Drop a short, warm reply that respects MAINTAINER-PIPELINE and DNA §6-8 (貢獻者與社群).
+A contributor merged a PR recently and the harvest engine noticed nobody has thanked them yet. Drop a short, warm reply that respects MAINTAINER-PIPELINE and DNA §6-8 (Contributors & Community).
 
 ### Task summary
 
@@ -18,10 +18,10 @@ A contributor merged a PR recently and the harvest engine noticed nobody has tha
 
 ### Tone
 
-- 中文為主（contributor 多為台灣社群）。如果 contributor 帳號是英語使用者，用英文。
-- 不過度感謝，不堆砌客套。具體 + 真誠 > 漂亮。
-- DNA §6: 「contributor 不是觀眾，是同物種的細胞分裂」——以同伴語氣，不是 maintainer 對 outsider。
+- Reply in English (LagunaBeach.md's contributors are English-speaking). Match the contributor's language if they clearly write in another one.
+- Don't over-thank, don't pile on pleasantries. Specific + sincere > pretty.
+- DNA §6: "a contributor is not an audience, but cell division of the same species" — use a peer's voice, not a maintainer talking down to an outsider.
 
 ### Skip conditions
 
-If you discover that someone (cheyu or another maintainer) has already replied with a thank-you in the PR thread, skip silently and write `Status: skipped (already thanked)` to `status.log`.
+If you discover that someone (the observer or another maintainer) has already replied with a thank-you in the PR thread, skip silently and write `Status: skipped (already thanked)` to `status.log`.

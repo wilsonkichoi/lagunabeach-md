@@ -1,9 +1,12 @@
 # Harvest Backend (Phase 1 MVP)
 
-> Taiwan.md's Orchestrator backend. Watches inboxes, spawns Claude Code
-> sessions to execute single tasks, writes a daily status report.
+> LagunaBeach.md's Orchestrator backend (inherited from Taiwan.md). Watches
+> inboxes, spawns Claude Code sessions to execute single tasks, writes a daily
+> status report.
 >
-> Strategy: see `reports/harvest-engine-strategy-2026-04-27.md` (locked decisions in §8).
+> Operating principle: see `docs/semiont/HARVEST.md`. (Taiwan.md's original
+> strategy report `harvest-engine-strategy-2026-04-27.md` was a session artifact
+> and is not carried into this fork.)
 
 ## Stack
 
@@ -65,7 +68,7 @@ P1 — P2/P3 still need manual ▶️). Pause via `POST /api/control/pause`.
 ## Run
 
 ```bash
-cd docs/semiont/harvest/backend
+cd harvest/backend
 bun install
 bun run typecheck       # optional: TS strict pass
 
@@ -81,19 +84,19 @@ The server creates `.harvest/tasks/` and `reports/harvest/` under the repo root 
 This sequence proves the four MVP components work without firing the real `claude` CLI.
 
 ```bash
-cd docs/semiont/harvest/backend
+cd harvest/backend
 
 # 0. install deps once
 bun install
 
 # 1. add a test entry to ARTICLE-INBOX.md, e.g.:
-#    ### 測試主題 — Phase 1 MVP 驗證
+#    ### Test Topic — Phase 1 MVP check
 #    - **Type**: NEW
-#    - **Category**: People
+#    - **Category**: History
 #    - **Priority**: P3            ← change to P0 or P1 to make it actionable
 #    - **Status**: pending
-#    - **Requested**: 2026-04-27 by cheyu (session γ)
-#    - **Notes**: 純測試
+#    - **Requested**: 2026-04-27 by the observer
+#    - **Notes**: pure test
 #
 #    The MVP only converts P0/P1 entries into tasks (P3 is intentionally skipped
 #    so harmless seed entries don't auto-fire).
@@ -102,17 +105,17 @@ bun install
 bun run scan-inbox
 
 # 3. inspect task folders
-ls -1 ../../../../.harvest/tasks/
+ls -1 ../../.harvest/tasks/
 
 # 4. build a spawn prompt for the task we just made
-bun run build-prompt 2026-04-27-001-測試主題-phase-1-mvp-驗證
+bun run build-prompt 2026-04-27-001-test-topic-phase-1-mvp-check
 
 # 5. test prompt builder with a synthetic task (no DB writes)
 bun run test:prompt
 
 # 6. generate today's daily report
 bun run report
-cat ../../../../reports/harvest/$(date +%Y-%m-%d).md
+cat ../../reports/harvest/$(date +%Y-%m-%d).md
 
 # 7. full end-to-end smoke
 bun run verify
@@ -154,7 +157,7 @@ To add a new task type:
 ```
 .harvest/                       # gitignored — runtime data
 └── tasks/
-    └── 2026-04-27-001-沈伯洋/
+    └── 2026-04-27-001-article-slug/
         ├── task.yml            # source of truth (yaml)
         ├── status.log          # append-only audit trail
         ├── inputs/             # observer materials, research outputs
@@ -185,22 +188,22 @@ So we use a tmux session instead of launchd. Trade-off: requires login (no headl
 
 ```bash
 # Start (idempotent — no-op if already running)
-bash docs/semiont/harvest/backend/tmux/start.sh
+bash harvest/backend/tmux/start.sh
 
 # Status — tmux session + HTTP /api/health + active sessions + task counts
-bash docs/semiont/harvest/backend/tmux/status.sh
+bash harvest/backend/tmux/status.sh
 
 # Attach to interact (ctrl+b d to detach without stopping)
-bash docs/semiont/harvest/backend/tmux/attach.sh
+bash harvest/backend/tmux/attach.sh
 
 # Stop cleanly
-bash docs/semiont/harvest/backend/tmux/stop.sh
+bash harvest/backend/tmux/stop.sh
 ```
 
 Auto-start at login (optional): add this line to `~/.zprofile` or `~/.zshrc`:
 
 ```bash
-bash /Users/cheyuwu/Projects/taiwan-md/docs/semiont/harvest/backend/tmux/start.sh
+bash /path/to/lagunabeach-md/harvest/backend/tmux/start.sh
 ```
 
 `start.sh` is idempotent — safe to run on every shell open.
@@ -212,7 +215,7 @@ bash /Users/cheyuwu/Projects/taiwan-md/docs/semiont/harvest/backend/tmux/start.s
 tail -f ~/Library/Logs/taiwan-md-harvest/tmux.log
 
 # Live attach (sees actual pino pretty output in real time, ctrl+b d to detach)
-bash docs/semiont/harvest/backend/tmux/attach.sh
+bash harvest/backend/tmux/attach.sh
 
 # Per-task session logs (always preserved, even if SQLite is wiped)
 ls .harvest/tasks/<task-id>/sessions/
@@ -226,7 +229,7 @@ Per strategy §8.5, these belong to later phases:
 - ❌ Telegram push (Phase 2-5)
 - ❌ GitHub webhook intake (Phase 4)
 - ❌ Self-diagnose intake (Phase 4)
-- ❌ Health monitor / 偷懶 detection (Phase 3)
+- ❌ Health monitor / slack detection (Phase 3)
 - ❌ Full cron takeover — only daily report, no D+7 spore harvest etc.
 
 ## Kill switch

@@ -1,14 +1,25 @@
-# ⚠️ 定位說明：這是 runtime app，不是認知器官
+# harvest/ — the Orchestrator subsystem
 
-> 2026-06-10 audit D-9 評估紀錄。
+This directory is a **runtime application**, not cognitive-layer prose. It is LagunaBeach.md's agent **Orchestrator**: a backend that watches inboxes, spawns Claude Code sessions in worktrees to execute single tasks, schedules cron jobs, runs automation prompts, plus a UI control dashboard.
 
-本目錄（ui/ 287MB + backend/ 38MB，含 node_modules + SQLite）是**讀者參與器官的執行端**（feedback widget backend + harvest UI），不是 `docs/semiont/` 其他檔案那種認知層 prose。混住在認知層目錄是 2026-06-01 誕生時的權宜。
+It lives at the repo root as a first-class subsystem (sibling to `workers/`, `cli/`, `scripts/`), separate from the cognitive layer in `docs/semiont/`. The operating principle that governs it — the design, the boot profiles, the autonomy boundaries — is documented one level up in [`docs/semiont/HARVEST.md`](../docs/semiont/HARVEST.md), which is the boot-loadable prose; this README and `backend/README.md` document the code.
 
-**搬遷評估結論：deferred**，理由：
+## Status in this fork
 
-1. `.claude/launch.json` 活耦合 + backend 以常駐服務形態跑（`backend/tmux/start.sh`），搬遷需要停機窗口
-2. `twmd-feedback-triage` cron 每日 07:00 依賴 backend 在位——無 observer 在場時搬 = 拿明早 routine 賭
-3. git 只追蹤 89 檔（node_modules / db / dist 已 .gitignore），搬遷對 repo 體積零收益
-4. 正確時機：下次 feedback 系統功能迭代時，由觀察者協調停機窗口一併搬到 `tools/feedback-harvest/`（候選目標），並同步改 launch.json + tmux 腳本 + 本檔退役
+Inherited from [Taiwan.md](https://github.com/frank890417/taiwan-md), where it ran in production wired to cron, social accounts, and analytics. In LagunaBeach.md it is kept whole as the Path A → Path B automation backbone but is **not wired on**: no `.claude/launch.json`, no daemon, no cron depends on it. The code is regrounded; switching it on is deferred until the project reaches the scale that needs cross-session orchestration (per `MIGRATION.md` Rule 1: defer activation, not translation).
 
-在那之前：新增的認知層檔案**不要**放進本目錄；app 的文件寫在 `HARVEST.md` / `backend/README.md`，不進 BECOME 載入面。
+## Layout
+
+```
+harvest/
+├── backend/   # Bun + Hono + bun:sqlite — task store, intake, spawner, scheduler, reporter
+│   └── README.md   # stack, HTTP API, boot profiles, tmux deploy, kill switch
+└── ui/        # Astro + Solid.js islands dashboard (task queue, vitals, daily report)
+    └── README.md   # tech stack, sections, backend dependency
+```
+
+`node_modules/`, `dist/`, `.harvest/` runtime task folders, and `*.db` files are gitignored — git tracks only the source (~90 files).
+
+## Running it
+
+The runtime is self-contained under `backend/` and `ui/`. See [`backend/README.md`](backend/README.md) for the backend (`cd harvest/backend && bun install && bun run dev`, HTTP on `:4319`) and [`ui/README.md`](ui/README.md) for the dashboard (`cd harvest/ui && bun install && bun run dev`, on `:4321`). These commands are for when the subsystem is activated; nothing in the main site build depends on this directory.

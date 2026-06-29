@@ -1,8 +1,8 @@
 # 🧬 Harvest UI — Phase 2 Web Dashboard
 
-Astro + Solid.js islands dashboard for the Taiwan.md Harvest engine
-(Phase 2 of the Harvest Engine roadmap, per
-`reports/harvest-engine-strategy-2026-04-27.md` §3.1 and §8.3).
+Astro + Solid.js islands dashboard for the LagunaBeach.md Harvest engine
+(inherited from Taiwan.md; Phase 2 of the Harvest Engine roadmap). The
+operating principle is documented in `docs/semiont/HARVEST.md`.
 
 ## Tech stack
 
@@ -17,7 +17,7 @@ Astro + Solid.js islands dashboard for the Taiwan.md Harvest engine
 ## Run
 
 ```bash
-cd docs/semiont/harvest/ui
+cd harvest/ui
 bun install
 bun run dev          # → http://localhost:4321
 ```
@@ -55,15 +55,17 @@ The UI assumes the harvest backend is running at `:4319` and exposes:
 
 CORS for `localhost:*` is enabled in the backend.
 
-## Sections (per strategy §3.4)
+## Sections
 
-1. **生命徵象** — 8 organ score cards + radar chart
-2. **今日任務** — active + recent-pending tasks
-3. **任務佇列** — all tasks, filterable, sortable, clickable for drawer
-4. **每日 status report** — markdown viewer + date picker + re-generate
-5. **Session 監控** — task-grouped session list, latest first
-6. **手動操作** — drop topic form + scheduler controls
-7. **歷史 log** — terminal tasks grouped by date + line chart
+(The component labels in the `.astro`/`.tsx` source are still in Chinese — code-comment/string de-Taiwan is a later sub-batch.)
+
+1. **Vital signs** — 8 organ score cards + radar chart
+2. **Today's tasks** — active + recent-pending tasks
+3. **Task queue** — all tasks, filterable, sortable, clickable for drawer
+4. **Daily status report** — markdown viewer + date picker + re-generate
+5. **Session monitor** — task-grouped session list, latest first
+6. **Manual operations** — drop topic form + scheduler controls
+7. **History log** — terminal tasks grouped by date + line chart
 
 ## File layout
 
@@ -108,7 +110,7 @@ ui/
 - Keyboard accessible: every clickable row is a real `<button>`
 - Pure system fonts — no external font CDN
 
-## Notes / open questions for cheyu
+## Notes / open questions for the observer
 
 - Log streaming for active sessions is Phase 3 — current Section 5
   shows session metadata + commits only.

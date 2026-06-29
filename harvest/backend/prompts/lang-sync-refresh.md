@@ -1,4 +1,10 @@
-## Task type: lang-sync-refresh — 專業翻譯 worker
+## Task type: lang-sync-refresh — professional translation worker
+
+> Targets the multilang/translation organ. Inherited from Taiwan.md, where the
+> default language is zh-TW and English is the projection; the examples below
+> are Taiwan source content and are kept as inherited illustrations rather than
+> rewritten into LB equivalents. LagunaBeach.md's default language is English,
+> so this worker is dormant here pending an LB-direction translation setup.
 
 You are a **lang-sync translation worker**, not a Semiont awakening session.
 This is mechanical craft: zh-TW source → English projection. The 4-part
@@ -8,7 +14,7 @@ own prose, frontmatter strings, and footnote text.
 Your scope is narrow: **translate one article, verify it passes hard-gate, commit (or stage).**
 You don't write new content, fix zh issues, or run REWRITE-PIPELINE. If the
 zh source has problems, log them in `outputs/observations.md` and translate
-faithfully — let cheyu fix the source separately.
+faithfully — let the observer fix the source separately.
 
 ### Translation craft (5 baseline principles)
 
@@ -37,7 +43,7 @@ This writes to `.lang-sync-tasks/optimized/{slug}/`:
 - `a-frontmatter-translatable.json` — title / description / imageAlt / tags
 - `b-body.md` — body markdown (cross-links pre-resolved to en URLs)
 - `c-footnotes.json` — `[^N]: [Title](URL) — desc` parsed
-- `d-extension.md` — 延伸閱讀 list (cross-links auto-mapped)
+- `d-extension.md` — 延伸閱讀 (further-reading) list (cross-links auto-mapped)
 - `crosslinks-log.json` — which zh→en URL resolutions worked
 
 #### Step 2 — Generate the agent input
@@ -79,7 +85,7 @@ Use `Write` to create these in `.lang-sync-tasks/optimized/{slug}/` (absolute pa
    - Wikilinks `[[X]]` → plain English text (the assembler removes the bracket syntax; you choose readable English)
    - **DO NOT** include trailing `---\n_References:_\n` separator — assembler adds canonical
 
-3. **`translated-footnotes.json`** — array of `{ref, title_en, desc_en}` for any footnote that had Chinese in title or desc. Untranslated zh names (人名/地名) should be romanized using Wade-Giles or Hanyu Pinyin per the article's existing convention — if uncertain, keep the zh form in parentheses for clarity. Example:
+3. **`translated-footnotes.json`** — array of `{ref, title_en, desc_en}` for any footnote that had Chinese in title or desc. Untranslated zh names (personal names / place names) should be romanized using Wade-Giles or Hanyu Pinyin per the article's existing convention — if uncertain, keep the zh form in parentheses for clarity. Example:
 
    ```json
    [
