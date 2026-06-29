@@ -1,49 +1,42 @@
-"""prose_health — consolidated prose quality checks.
+"""prose_health — consolidated prose quality checks (English, LagunaBeach.md).
 
-Migrated from `scripts/tools/quality-scan.sh` (16 dims) +
-`scripts/tools/check-manifesto-11.sh` (3 tiers) into a single SSOT plugin.
+Ported 2026-06-29 from Taiwan.md's zh-TW prose scanner to English. The structural
+dimensions (bullet density, year count, citation density, em-dash overuse,
+template-H2, list-dump, thin sections, quality-decay) are language-agnostic and
+carry over directly. The prose-tell dimensions are rewritten from the LB canon:
 
-Canonical:
-  - quality-scan: docs/editorial/EDITORIAL.md §quality-scan 偵測指標
-  - manifesto-11: docs/semiont/MANIFESTO.md §11 書寫節制
+Canonical sources:
+  - docs/editorial/EDITORIAL.md §6 "Voice: A Local Friend, Not a Brochure"
+    — the concrete lists: Travel-Brochure Tells (L256), the "Not Just X, It's Y"
+      pattern (L270), Em Dash Discipline (L280), Canned Endings (L284).
+  - docs/semiont/MANIFESTO.md Belief #11 "Writing discipline" (L53) — the
+    principle behind the lists: false-contrast structures, em-dash chains, and
+    generic travel adjectives doing work concrete detail should do.
 
-Ports the most actionable dimensions:
+prose-tell dimensions (rewritten English ← EDITORIAL §6):
+  - plastic phrases     → §6 "Travel-Brochure Tells" multi-word constructions
+  - hollow words        → §6 generic brochure adjectives (stunning / scenic / …)
+  - "Not Just X, It's Y" → §6 false-contrast pattern (was MANIFESTO Tier 1)
+  - AI metaphor tells   → delve / tapestry / testament to / beacon / … (was Tier 2)
+  - AI ritual phrases   → in conclusion / at the end of the day / … (was Tier 3)
+  - stock opening       → §6 "Whether you're a local or a first-time visitor"
+  - canned ending       → §6 Canned Endings ("must-see stop on your itinerary")
+  - em-dash overuse     → §6 Em Dash Discipline (single U+2014 —)
 
-quality-scan dims:
-  1. bullet density           7. repeated bullet blocks    13. (THIN — deferred)
-  2. year count               8. plastic phrases (5 variants + extras)
-  3. URL count               8b. em-dash overuse
-  4. hollow words             9. textbook opening
-  5. (prose lines — deferred) 10. formulaic ending
-  6. lastHumanReview          11. template H2
-                             12. (LIST-DUMP — deferred)
-                             14. (QUALITY-DECAY — deferred)
-                             15. (CHINA-TERM — deferred to terminology plugin)
-                             16. citation desert
+LB sourcing convention: articles cite via the `source:` frontmatter list (15/18
+of the corpus), not `[^n]:` footnotes or inline body URLs the way Taiwan.md does.
+The URL-count and citation-desert dimensions therefore count `source:` frontmatter
+entries as citation evidence — without that they misfire on every LB article.
 
-manifesto-11 tiers:
-  Tier 1: 11 「不是X是Y」 對位句型 variants + em-dash density
-  Tier 2: 30+ AI 抽象 metaphor 詞 + 「重」當抽象份量隱喻 (warn ≥ 2 total)
-  Tier 3: 17 AI ritual 語 (warn ≥ 1 occurrence)
+Dropped from the Taiwan port (no LB analog):
+  - 這座島 island-self-reference dim (Taiwan-specific euphemism balance)
+  - 歐化「是…的」judgment-sentence dim (Mandarin Europeanized-grammar tell)
+  - 重 weight-as-abstract-metaphor dim (CJK substring tell)
 
-§盼望而不粉飾 §自稱 (2026-06-15 哲宇 directive — MANIFESTO §跟台灣的關係 §自稱):
-  - 島嶼自稱密度: 「這座島 / 這個島嶼」當台灣的迴避稱呼 (balance not ban，ratio-based:
-    島佔「島+台灣」國名指稱 > 1/4 且 ≥ 3，或完全不稱台灣才 WARN，不罰文學用法)。WARN 級。
-
-  (PUA 體 / 媒體焦慮體 偵測器於 2026-06-15 evaluation 後移除：四 subagent + 全 corpus
-   814 篇驗證顯示 92-100% 假陽性 — 抓到第三方/引用/腳註新聞標題/文章正在批判的詞/正向用法。
-   PUA 與媒體焦慮是「對誰施壓 / 是否販賣恐懼」的語意判斷，不是句法特徵，regex 結構上做不到。
-   改由 EDITORIAL §六 對照表 + §五 結尾判準句的人工判斷接管。)
-
-Total score budget: ≤ 3 = pass (per QUALITY-CHECKLIST §四 + REWRITE-PIPELINE).
-A "score" violation is yielded with the running total — the runner can
-gate on this via profile.fail_on = "score-budget".
-
-Deferred to Phase 4b (need more structural parsing):
-  - LIST-DUMP: bullet ratio per file half
-  - THIN: prose lines per H2 section
-  - QUALITY-DECAY: prose ratio front vs back
-  - CHINA-TERM: requires data/terminology TSV files (separate plugin)
+Total score budget: ≤ 3 = pass. A "score" violation is yielded with the running
+total — the runner gates on it via profile.fail_on = "score-budget"
+(rewrite-stage-3). prose-tell WARNs are advisory and do NOT count toward score,
+so legacy articles surface drift without hard-failing the stage gate.
 """
 
 from __future__ import annotations
@@ -56,158 +49,98 @@ from ..types import FileTarget, Severity, Violation
 CHECK_NAME = "prose-health"
 DIMENSION = "prose-quality"
 DEFAULT_SEVERITY = Severity.WARN
-EDITORIAL_REF = "EDITORIAL.md §quality-scan + MANIFESTO.md §11"
-APPLIES_TO = ["zh-TW"]
+EDITORIAL_REF = "EDITORIAL.md §6 + MANIFESTO.md Belief #11"
+APPLIES_TO = ["en", "zh-TW"]
 
 
-# ── Plastic phrases (quality-scan §8) ────────────────────────────────────────
+# ── Travel-brochure plastic phrases (EDITORIAL §6 "Travel-Brochure Tells") ────
+# Multi-word constructions that could be glued onto any beach town and still
+# parse. The single-adjective tells live in _RE_HOLLOW below.
 _RE_PLASTIC = re.compile(
-    r"不僅.{0,8}更是|不只.{0,8}也是|不是.{0,8}而是|"
-    r"展現了.{0,8}的精神|展現.{0,8}的決心|體現了.{0,8}的精神|"
-    r"扮演著.{0,10}角色|發揮著.{0,10}作用|見證了.{0,10}的歷程|"
-    r"彰顯了|承載著.{0,10}的|不僅僅是.{0,10}更是|"
-    r"既是.{0,8}也是.{0,8}更是|成為.{0,8}的重要.{0,6}|"
-    r"為.{0,10}注入.{0,8}活力|為.{0,10}奠定.{0,8}基礎|"
-    r"在.{0,10}上扮演.{0,8}角色|為.{0,10}提供了.{0,8}動力|"
-    r"開啟了.{0,8}的新篇章|翻開.{0,8}的新頁|書寫.{0,8}的篇章|"
-    r"譜寫.{0,8}的華章|綻放.{0,8}的光芒|閃耀.{0,8}的光輝"
+    r"\bhidden gem\b|\ba true gem\b|\bbest[- ]kept secret\b|"
+    r"\bnestled\b|\bboasts\b|\boffers visitors\b|"
+    r"\bmust[- ]see\b|\bmust[- ]visit\b|\bbucket[- ]list\b|"
+    r"\bsomething for everyone\b|\bsomewhere for everyone\b|"
+    r"\bwhether you(?:'re| are) a local\b|"
+    r"\brich history\b|\bvibrant arts scene\b|\bunparalleled views\b|"
+    r"\bno trip to .{0,40} is complete without\b",
+    re.IGNORECASE,
 )
 
-# ── Hollow words (quality-scan §4) ───────────────────────────────────────────
+# ── Hollow brochure adjectives (EDITORIAL §6 — single words doing a fact's job) ─
 _RE_HOLLOW = re.compile(
-    r"重要的|顯著的|豐富的|完整的|多元的|"
-    r"積極|蓬勃發展|逐步|逐漸|不斷|持續|"
-    r"日益|進一步|全面|深入|大力|有效|顯著|穩步"
+    r"\b(?:stunning|breathtaking|picturesque|charming|idyllic|iconic|"
+    r"scenic|gorgeous|beautiful|lovely|vibrant|pristine|quaint|serene|"
+    r"majestic|enchanting|captivating|spectacular|magnificent|"
+    r"unparalleled|world[- ]class)\b",
+    re.IGNORECASE,
 )
 
-# ── Em-dash (manifesto-11 [9-10] / quality-scan §8b) ─────────────────────────
-_RE_EMDASH = re.compile(r"——")
+# ── Em-dash overuse (EDITORIAL §6 "Em Dash Discipline") ───────────────────────
+# English em dash is the single U+2014 character (not Taiwan.md's CJK 「——」).
+# Normal punctuation, but AI prose reaches for it as a tic.
+_RE_EMDASH = re.compile(r"—")
 
-# 歐化「(不)是 X 的」判斷句 (余光中〈中文的常態與變態〉)：是/不是 + 評價形容詞 + 的 + 句末標點。
-# 自然中文直接讓形容詞當謂語：「這個選址不隨便」優於「這個選址不是隨便的」。2026-06-07 哲宇
-# directive 加入 (live review 複雜生活節「這個選址不是隨便的」)。curated 評價形容詞 list +
-# 的後接標點 lookahead，避開合法的「是…的」(是我的 / 是紅色的 / 是教書的 / 是昨天來的)。
-_EURO_DE_ADJ = (
-    "隨便|必然|偶然|明顯|顯而易見|理所當然|合理|正確|錯誤|重要|必要|多餘|困難|容易|"
-    "普遍|常見|罕見|獨特|特別|相同|一致|值得|危險|公平|刻意|足夠|充分|有限|徒勞|"
-    "空洞|脆弱|致命|關鍵|根本|主觀|客觀|清楚|模糊|完整|完美|理想|樂觀|悲觀"
-)
-_RE_EURO_DE = re.compile(rf"不?是(?:{_EURO_DE_ADJ})的(?=[。，！？、；：」』）\s])")
-
-# ── Manifesto §11 Tier 1: 不是X是Y 對位句型 變體 ───────────────────────────
-# Tightened versions of patterns from check-manifesto-11.sh.
-# 2026-05-09 brave-kirch: 加 antithesis-bare 抓最普遍的「不是 X，是 Y」
-# (X 跟 Y 都不超過 30 字、結尾是純「是」不要求「而是 / 也是 / 更是」)。
-# 哲宇 EDITORIAL v6.0 self-check 揭露 plugin 漏抓 16+ 處對位句型。
+# ── "Not Just X, It's Y" false-contrast pattern (EDITORIAL §6 L270) ───────────
+# The English fingerprint Taiwan.md flags as 「不是X是Y」. In nearly every case the
+# "X" half is a strawman the reader never assumed; delete the setup, state Y.
 _TIER1_PATTERNS = [
-    # 既有 11 patterns (require explicit antithesis tail)
-    re.compile(r"不是.{0,30}[，,]\s*而是"),  # cross-comma
-    re.compile(r"這不是.{0,15}是"),
-    re.compile(r"不只是.{0,15}是"),
-    re.compile(r"不再是.{0,15}是"),
-    re.compile(r"不僅.{0,15}更是"),
-    re.compile(r"不只.{0,15}也是"),
-    re.compile(r"不是.{0,8}而是"),
-    re.compile(r"不僅僅是.{0,10}更是"),
-    re.compile(r"既是.{0,8}也是.{0,8}更是"),
-    re.compile(r"從.{2,15}到.{2,15}[，,]\s*從.{2,15}到"),
-    re.compile(r"與其說.{0,15}不如說"),
-    # NEW (2026-05-09): bare antithesis 「不是 X，是 Y」 / 「不是 X 是 Y」
-    # X 1-30 字 (no 是 inside to avoid match overlap); Y 1-30 字
-    re.compile(r"不是[^是\n]{1,30}[，,]\s*是[^，,。\n]{1,30}"),  # 不是 X，是 Y
-    # NEW: 「不只 X，更 Y」「不只是 X，也 Y」「並非 X，而是 Y」 系列
-    re.compile(r"不只[^更也\n]{1,30}[，,]\s*更"),
-    re.compile(r"不只是[^也還\n]{1,30}[，,]\s*(也|還)"),
-    re.compile(r"並非[^而\n]{1,30}[，,]\s*而是"),
-    re.compile(r"並不[^而是\n]{1,30}[，,]\s*而是"),
+    re.compile(r"\bis ?n[o']t just\b", re.IGNORECASE),
+    re.compile(r"\bare ?n[o']t just\b", re.IGNORECASE),
+    re.compile(r"\bis ?n[o']t merely\b", re.IGNORECASE),
+    re.compile(r"\bnot just a\b.{0,40}\bit'?s\b", re.IGNORECASE),
+    re.compile(r"\bmore than (?:just )?a\b.{0,40}\bit'?s\b", re.IGNORECASE),
+    re.compile(r"\bnot only\b.{0,40}\bbut also\b", re.IGNORECASE),
+    re.compile(r"\bnot just\b.{0,30}[,—]\s*but\b", re.IGNORECASE),
 ]
 
-# ── Manifesto §11 Tier 2: AI 抽象 metaphor 詞 ────────────────────────────────
+# ── AI metaphor tells (was MANIFESTO Tier 2; English ← ROADMAP §3.4) ──────────
 _TIER2_WORDS = [
-    "重量", "縮影", "軌跡", "弧線", "DNA", "基因",
-    "土壤", "養分", "血液", "縫隙", "皺褶", "肌理", "織就",
-    "指紋", "神經末梢", "肌肉記憶", "基底", "底色",
-    "張力", "光譜", "鏡子", "承載著", "形塑", "鬆動",
-    "展演", "召喚", "凝視", "直面", "直擊",
-    "鋪陳", "醞釀", "沈澱",
+    "delve", "tapestry", "testament to", "beacon", "realm",
+    "navigate the complexities", "weave", "weaving", "treasure trove",
+    "kaleidoscope", "symphony of", "embodiment", "myriad", "plethora",
+    "tucked away", "stands as a", "serves as a reminder",
 ]
 
-# ── §11 Tier 2 補：「重」當抽象份量隱喻 (2026-06-04 哲宇 callout) ──────────────
-# AI 很愛把「意義/份量/重要性」寫成物理上的「重」(很重 / 最重的一刻 / 沉重 /
-# 份量很重)。是 Tier 2 metaphor 的高頻變體，但「重量」靜態詞 catch 不到、又不能
-# 用裸 substring「很重」(會誤殺「很重要/很重視/很重大」)。用 regex + 負向預看
-# 排除常見複合詞，逐處 WARN + 計入 Tier 2 密度。口語替代：把抽象的「重」改成具體
-# 後果或畫面 (「最重的一刻」→「最不敢忘的一刻」/ 直接寫那一刻發生什麼)。
-_RE_WEIGHT_METAPHOR = re.compile(
-    r"(?:很|最|更|太|格外|分外|這麼|那麼|如此|越來越|愈來愈|沉甸甸地?)重"
-    r"(?!要|視|新|複|建|點|申|組|演|置|逢|疊|整|大|心|力|機|金|傷|病|罪|刑|兵|鎮"
-    r"|工|劃|唱|奏|圍|彈|操|播|映|審|提|溫|現|生|用|返|犯|劑|物|量|罰|稅|賞|創)"
-    r"|[沉沈]重(?!澱)"
-    r"|份量|分量"
-)
-
-# ── Manifesto §11 Tier 3: AI ritual 語 ───────────────────────────────────────
+# ── AI ritual phrases (was MANIFESTO Tier 3; English ← ROADMAP §3.4) ──────────
 _TIER3_PHRASES = [
-    "在這個意義上", "從某種意義上", "就此而言", "換言之",
-    "值得我們深思", "值得我們反思", "拭目以待", "不容忽視",
-    "不可或缺", "不可磨滅", "影響深遠", "歷久彌新",
-    "並非偶然", "耐人尋味", "不言而喻", "不可言說", "無以名狀",
+    "in conclusion", "it's worth noting", "it is worth noting",
+    "needless to say", "at the end of the day", "when it comes to",
+    "in today's fast-paced world", "without a doubt", "it goes without saying",
+    "last but not least", "in this day and age",
 ]
 
-# ── §盼望而不粉飾 (2026-06-15 哲宇 directive 儀器化) ───────────────────────────
-# canonical: MANIFESTO §進化哲學 盼望而不粉飾 + §跟台灣的關係 §自稱 + EDITORIAL §六。
-# 三組全 WARN、不計入 score（跟 §11 Tier 1-3 一致）—— surface drift 但不擋既有 stage 閘。
-
-# 島嶼自稱：「這座島 / 這個島 / 這座島嶼 / 這個小島 / 這座島國」當台灣的迴避稱呼。
-# 哲宇 2026-06-15：島嶼文學性可以提，但不要過度——大多數時候大方講「台灣 / 這個國家」。
-# 所以密度過高 (≥ 3) 或超過直接稱台灣才 WARN，不罰單次文學用法。曹永和「以島嶼為主體」
-# 島史脈絡機器分不出 → WARN 級留人判斷。
-# 已知限制：寫實際外島（綠島 / 蘭嶼 / 澎湖）的文章，「這座島」指該島非台灣，會誤報 —
-# WARN 級可由審稿者忽略，不 block。
-_RE_ISLAND_EUPHEMISM = re.compile(r"這(?:座|個)(?:小)?島(?:嶼|國)?")
-_RE_TAIWAN_REF = re.compile(r"台灣|臺灣")
-
-# PUA 體 / 媒體焦慮體 regex 偵測器已於 2026-06-15 evaluation 後移除。四 subagent +
-# 全 corpus 814 篇驗證：PUA `沒資格` 4/4 假陽性（抓到第三方/引用/虛構角色），媒體焦慮
-# 13 hits 僅 ~1 真陽性（抓到腳註裡的新聞標題、文章正在批判的「最後一塊淨土」、正向的
-# 「潛規則正在瓦解」、歷史事實「關係正在崩潰」）。根因：PUA = 對誰施壓、媒體焦慮 = 是否
-# 販賣恐懼，都是語意判斷不是句法特徵，regex 結構上做不到（架構解非守備修補）。改由
-# EDITORIAL §六 對照表 + §五 結尾判準句的人工判斷接管。島嶼自稱因為是可量化的比例
-# （島 vs 台灣稱呼），才留得住偵測器。
-
-# ── Textbook opening (quality-scan §9) ───────────────────────────────────────
+# ── Stock opening (EDITORIAL §6 — "Whether you're a local …" stock opener) ────
 _RE_TEXTBOOK_OPENING = re.compile(
-    r"^(台灣的.{2,20}是|.{2,10}是台灣.{2,20}|"
-    r"作為.{2,15}[，,]\s*台灣|"
-    r"在.{2,10}(方面|領域)[，,]\s*台灣|"
-    r"台灣.{2,6}(擁有|具有|位於|以其))"
+    r"^\s*(?:whether you(?:'re| are) a local"
+    r"|nestled (?:in|on|along|between)"
+    r"|located in the heart of"
+    r"|tucked away)\b",
+    re.IGNORECASE,
 )
 
-# ── Formulaic ending (quality-scan §10) ──────────────────────────────────────
-# 2026-05-09 added 「故事還在寫」family per 哲宇 callout — soft hand-waving
-# non-endings that sound reflective but add nothing. Same anti-pattern family
-# as 「將繼續發光發熱」: writer doesn't have a concrete closure so retreats to
-# story-as-meta-narrative cliché.
+# ── Canned ending (EDITORIAL §6 "Canned Endings" L284) ────────────────────────
 _RE_FORMULAIC_ENDING = re.compile(
-    r"總之|綜上所述|展望未來|總結來說|總的來說|未來展望|"
-    r"隨著.{2,20}的(發展|推進|深化)|將繼續|值得期待|"
-    # 「故事還在寫 / 還沒結束 / 仍在繼續」family
-    r"(這個|這段|那個|那段|.{0,4}的)?故事(還在|仍在|尚未|還沒).{0,3}(寫|繼續|結束|完結|落幕)|"
-    r"故事(還沒|仍未|尚未)(寫完|結束|完結|落幕)|"
-    r"後來.{0,5}(這個|這段)?故事還在|"
-    r"還(沒|未)(寫完|結束|落幕)|"
-    r"繼續.{0,5}(被)?(寫|書寫)(下去|著|這個|這段)?|"
-    r"持續(被)?(書寫|寫)(著|下去)"
+    r"\bmust[- ]see stop on your\b.{0,30}\bitinerary\b"
+    r"|\bwill continue to (?:charm|delight|draw|attract|enchant)\b"
+    r"|\bfor (?:generations|years) to come\b"
+    r"|\bnext time you(?:'re| are) in town\b"
+    r"|\bwhether you(?:'re| are) a local or just visiting\b"
+    r"|\bno trip to\b.{0,40}\bis complete without\b"
+    r"|\bbe sure to (?:stop by|check it out|visit)\b",
+    re.IGNORECASE,
 )
 
-# ── Template H2 (quality-scan §11) ───────────────────────────────────────────
+# ── Template H2 (generic filler section headings signalling AI structure) ─────
+# Plain "History" / "Significance" appear legitimately in the LB corpus, so they
+# are intentionally NOT flagged. Only the obviously-templated filler headings
+# that don't occur in healthy LB articles are listed.
 _RE_TEMPLATE_H2 = re.compile(
-    r"^(歷史(背景|沿革|發展)?|發展歷程|歷史脈絡|"
-    r"現況(與|及)?|現狀|當前|"
-    r"未來(展望|發展|趨勢)|結語|總結|"
-    r"挑戰與展望|挑戰與機遇|影響與意義|"
-    r"特色(與|及)?|重要性|"
-    r"國際(比較|影響|地位))$"
+    r"^(?:introduction|overview|background|conclusion|summary|"
+    r"future outlook|history and development|"
+    r"significance and impact|challenges and opportunities|"
+    r"current status|current situation)$",
+    re.IGNORECASE,
 )
 
 
@@ -225,23 +158,44 @@ def _count_urls(body: str) -> int:
     return body.count("http")
 
 
-# 參考裝置 section 標題：延伸閱讀 / 圖片來源 / 參考資料 / 授權清單 —— 這些是
-# attribution / reference apparatus，bullet 是結構必需（每張圖一條、每篇延伸一條），
-# 不是 prose 灌水。bullet 灌水檢查只看正文，碰到這些 heading 就截斷。
-# 2026-06-04 v2 實驗：5 圖 article 的「## 圖片來源」5 bullet 誤判成「連續bullet5行」。
+def _source_count(target: FileTarget) -> int:
+    """Number of `source:` frontmatter citation entries.
+
+    LB articles cite via a `source:` frontmatter list rather than `[^n]:`
+    footnotes or inline body URLs, so this is the primary citation signal.
+    """
+    src = target.frontmatter.get("source")
+    if src is None:
+        return 0
+    if isinstance(src, str):
+        return 1 if src.strip() else 0
+    if isinstance(src, (list, tuple)):
+        return len([s for s in src if str(s).strip()])
+    return 0
+
+
+# Reference-apparatus + functional-close headings. Bullets under these are
+# structural by design (one per source/image; the `## Practical Information`
+# functional close per EDITORIAL §4.4 is a sanctioned bullet list of parking /
+# hours / access facts), not prose padding. Bullet-density / repeated-bullet /
+# list-dump checks scan only the prose body and truncate at the first such
+# heading. Without the functional-close exemption every place/business article
+# false-flags as a back-half list dump.
 _REF_APPARATUS_RE = re.compile(
-    r"(?m)^#{2,3}\s*(延伸閱讀|圖片來源|圖片授權|媒體授權|參考資料|參考來源|資料來源|來源)"
+    r"(?im)^#{2,3}\s*(further reading|references?|sources?|citations?|"
+    r"image sources?|image credits?|photo credits?|see also|notes|"
+    r"practical information|tickets and practical information)\b"
 )
 
 
 def _body_before_apparatus(body: str) -> str:
-    """正文 = 第一個參考裝置 heading 之前（bullet 灌水只查正文）。"""
+    """Prose = text before the first reference-apparatus heading."""
     m = _REF_APPARATUS_RE.search(body)
     return body[: m.start()] if m else body
 
 
 def _count_repeated_bullets(body: str) -> int:
-    """Max consecutive `- **` bullet block length（排除參考裝置 section）。"""
+    """Max consecutive `- **` bullet block length (excludes ref apparatus)."""
     max_run = 0
     cur = 0
     for line in _body_before_apparatus(body).splitlines():
@@ -255,7 +209,7 @@ def _count_repeated_bullets(body: str) -> int:
 
 
 def _count_bullet_lines(body: str) -> tuple[int, int]:
-    """Returns (bullet_lines, total_lines). Bullet = `- **` style（排除參考裝置）。"""
+    """Returns (bullet_lines, total_lines). Bullet = `- **` style (excludes ref apparatus)."""
     prose = _body_before_apparatus(body)
     total = prose.count("\n") + 1
     bullets = sum(1 for line in prose.splitlines() if line.startswith("- **"))
@@ -311,7 +265,7 @@ def _count_footnote_defs(body: str) -> int:
 
 
 def _is_hub_file(target: FileTarget) -> bool:
-    """Hub files (`_X Hub.md`) — relax structural penalties per quality-scan.sh."""
+    """Hub files (`_X Hub.md`) — relax structural penalties."""
     name = target.path.name
     return name.startswith("_") and "Hub" in name
 
@@ -320,11 +274,12 @@ def _bullet_ratios_split(body: str) -> tuple[int, int, int, int]:
     """Front/back half bullet ratios. Returns (front_bullet, back_bullet,
     front_total, back_total) — total = non-empty lines, bullet =
     `- ` / `* ` / `N.`."""
+    body = _body_before_apparatus(body)  # exclude functional-close bullet lists
     lines = body.splitlines()
     n = len(lines)
     if n == 0:
         return 0, 0, 0, 0
-    split = (n * 6) // 10  # quality-scan uses 60/40 split
+    split = (n * 6) // 10  # 60/40 split
     front_bullet = back_bullet = front_total = back_total = 0
     for i, line in enumerate(lines):
         if not line.strip():
@@ -342,33 +297,45 @@ def _bullet_ratios_split(body: str) -> tuple[int, int, int, int]:
 
 
 def _count_thin_blocks(body: str) -> int:
-    """H2 blocks with < 3 prose lines. Mirrors quality-scan.sh dim 13.
+    """H2 blocks with NO content (heading followed by nothing).
 
-    Structural sections (參考資料 / 延伸閱讀 / 圖片來源 / sources) are
-    exempted — they're by-design lists of footnotes / further-reading
-    links / image attributions, not prose paragraphs. Counting them as
-    "thin" generates false positives on every well-formed article.
+    Recalibrated for LB from Taiwan.md's `< 3 prose lines` floor. Two LB-format
+    realities break that floor:
+      1. Locals-guide sections are deliberately short (2-3 lines is the target,
+         not a defect), so a ≥3-prose-line floor false-flags every article.
+      2. Enumerable-fact sections (a vista list under `## The View`, a trail
+         list under `## Connecting Trails`) are legitimate content even with
+         zero prose lines — the bullets ARE the content.
+    So a section counts as thin only when it has zero content of any kind
+    (prose OR bullets OR a table/quote) under the heading — a true skeleton.
+    EDITORIAL §8 sanctions relaxing Taiwan-corpus thresholds for short-form.
+
+    Structural / functional-close sections (References / Further Reading /
+    Image Sources / Practical Information) are exempted regardless.
     """
     structural_h2 = {
-        "## 參考資料", "## 延伸閱讀", "## 圖片來源",
-        "## 來源", "## References", "## Further Reading", "## Image Sources",
+        "## references", "## further reading", "## sources",
+        "## image sources", "## image credits", "## photo credits",
+        "## see also", "## notes", "## practical information",
     }
     thin = 0
     in_block = False
     is_structural = False
-    prose = 0
+    content = 0
     for line in body.splitlines():
         if line.startswith("## "):
-            if in_block and not is_structural and prose < 3:
+            if in_block and not is_structural and content < 1:
                 thin += 1
             in_block = True
-            stripped = line.rstrip()
+            stripped = line.rstrip().lower()
             is_structural = stripped in structural_h2
-            prose = 0
+            content = 0
         elif in_block:
-            if line.strip() and not re.match(r"^(?:[#\-*|>]|\d+\.)", line):
-                prose += 1
-    if in_block and not is_structural and prose < 3:
+            # Any non-empty, non-subheading line is content (prose, bullet,
+            # table row, blockquote — all carry information in LB's format).
+            if line.strip() and not line.startswith("#"):
+                content += 1
+    if in_block and not is_structural and content < 1:
         thin += 1
     return thin
 
@@ -392,10 +359,7 @@ def _prose_ratios_split(body: str) -> tuple[int, int, int, int]:
 
 
 def _word_count(body: str) -> int:
-    """Rough whitespace-tokenized count after frontmatter (CJK 1 char = 1 word).
-
-    Matches `wc -w` semantics of the shell script for parity.
-    """
+    """Whitespace-tokenized word count after frontmatter."""
     return len(body.split())
 
 
@@ -411,22 +375,21 @@ def _line_at_offset(body: str, offset: int) -> int:
     return body.count("\n", 0, offset) + 1
 
 
-def _context_around(body: str, start: int, end: int, before: int = 20, after: int = 20) -> str:
+def _context_around(body: str, start: int, end: int, before: int = 24, after: int = 24) -> str:
     """Return the matched span with surrounding context, marking the match.
 
-    Layout: `…<before>《MATCH》<after>…`
-    Newlines collapsed to ⏎ so single-line snippets stay readable.
-    Caller can show this in violation snippet for grep-style locate.
+    Layout: `…<before>«MATCH»<after>…`
+    Newlines collapsed so single-line snippets stay readable.
     """
     body_len = len(body)
     ctx_start = max(0, start - before)
     ctx_end = min(body_len, end + after)
-    pre = body[ctx_start:start].replace("\n", "⏎")
-    mid = body[start:end].replace("\n", "⏎")
-    post = body[ctx_end:end].replace("\n", "⏎") if False else body[end:ctx_end].replace("\n", "⏎")
+    pre = body[ctx_start:start].replace("\n", " ")
+    mid = body[start:end].replace("\n", " ")
+    post = body[end:ctx_end].replace("\n", " ")
     leading = "…" if ctx_start > 0 else ""
     trailing = "…" if ctx_end < body_len else ""
-    return f"{leading}{pre}《{mid}》{post}{trailing}"
+    return f"{leading}{pre}«{mid}»{post}{trailing}"
 
 
 def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
@@ -434,25 +397,19 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
 
     Skips if file is too short (lines < 20).
 
-    Frontmatter requirement: knowledge/ articles must have frontmatter
-    (matches legacy quality-scan.sh::scan_file semantics). For docs/
-    canonical SSOT files (EDITORIAL.md / MANIFESTO.md / pipeline files /
-    cognitive layer), prose-health still applies — these don't have
-    frontmatter but should be held to same writing discipline.
-
-    2026-05-09 brave-kirch: 原本 `if not target.frontmatter: return` 讓
-    EDITORIAL.md 自己漏抓 16+ 處對位句型。docs/ canonical 文件 frontmatter
-    是 optional，不應該 skip prose-health.
+    Frontmatter requirement: knowledge/ articles must have frontmatter. For
+    docs/ canonical SSOT files (EDITORIAL.md / MANIFESTO.md / pipeline files /
+    cognitive layer), prose-health still applies — these don't have frontmatter
+    but should be held to the same writing discipline.
     """
     body = target.body
     line_count = body.count("\n") + 1
     if line_count < 20:
         return
-    # Frontmatter required only for knowledge/ articles (legacy semantics).
+    # Frontmatter required only for knowledge/ articles.
     path_str = str(target.path)
     is_knowledge_article = "/knowledge/" in path_str or path_str.startswith("knowledge/")
     if is_knowledge_article and not target.frontmatter:
-        # Hub / private docs in knowledge/ without frontmatter — skip
         return
 
     score = 0
@@ -462,174 +419,193 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
     # blocks / link URLs don't trigger false positives.
     text_for_patterns = target.body_without_protected()
 
+    src_count = _source_count(target)
+    # About-category docs are project meta/process documentation (the editorial
+    # pipeline, the viz catalog, the project overview), not content articles
+    # making external factual claims. They are self-sourcing, so the citation
+    # penalties (no-sources, citation-desert) don't apply. Writing-discipline
+    # dims (em-dash, bullets, brochure tells) still do.
+    is_meta_doc = target.frontmatter.get("category") == "About"
+
     # ── 1. Bullet density ──
     bullets, total = _count_bullet_lines(body)
     if total > 0:
         ratio = bullets * 100 // total
         if ratio > 30:
             score += 3
-            reasons.append(f"bullet密度{ratio}%")
+            reasons.append(f"bullet density {ratio}%")
         elif ratio > 20:
             score += 1
-            reasons.append(f"bullet密度{ratio}%")
+            reasons.append(f"bullet density {ratio}%")
 
     # ── 2. Year count ──
+    # Recalibrated for LB: Taiwan.md's ≥5-years bar assumed history/essay
+    # articles. LB's nature/beach/trail guides are legitimately dateless
+    # (tide timing, parking — not years). Only a totally date-free article
+    # gets a mild nudge; the multi-tier history-article penalty is dropped.
     years = _count_year_mentions(body)
-    if years < 2:
-        score += 3
-        reasons.append(f"年份僅{years}個")
-    elif years < 5:
+    if years == 0:
         score += 1
-        reasons.append(f"年份{years}個")
+        reasons.append("no years cited")
 
-    # ── 3. URL count ──
+    # ── 3. URL / source count ──
+    # LB cites via the `source:` frontmatter list (not inline footnotes/URLs
+    # like Taiwan.md), so frontmatter sources count as citation evidence.
+    # Recalibrated: Taiwan.md's ≥3-sources bar assumed footnote-dense essays;
+    # LB articles cite 1-2 authoritative sources by design, so only a fully
+    # unsourced article is penalized.
     urls = _count_urls(body)
-    if urls == 0:
+    effective_sources = urls + src_count
+    if effective_sources == 0 and not is_meta_doc:
         score += 3
-        reasons.append("無URL來源")
-    elif urls < 3:
-        score += 1
-        reasons.append(f"僅{urls}個URL")
+        reasons.append("no sources")
 
-    # ── 4. Hollow words ──
+    # ── 4. Hollow brochure adjectives ──
     hollow_n = len(_RE_HOLLOW.findall(text_for_patterns))
     if hollow_n > 15:
         score += 3
-        reasons.append(f"空洞詞{hollow_n}個")
+        reasons.append(f"{hollow_n} hollow adjectives")
     elif hollow_n > 8:
         score += 2
-        reasons.append(f"空洞詞{hollow_n}個")
+        reasons.append(f"{hollow_n} hollow adjectives")
     elif hollow_n > 4:
         score += 1
-        reasons.append(f"空洞詞{hollow_n}個")
+        reasons.append(f"{hollow_n} hollow adjectives")
 
     # ── 6. lastHumanReview ──
     if target.frontmatter.get("lastHumanReview") is False:
         score += 1
-        reasons.append("未人工審核")
+        reasons.append("not human-reviewed")
 
     # ── 7. Repeated bullet blocks ──
+    # Floor raised for LB: a 4-5 item enumerable list (trails, vistas, access
+    # points) is normal locals-guide content, not a definition-list dump. Only
+    # a long unbroken run signals a skeleton.
     max_run = _count_repeated_bullets(body)
-    if max_run >= 6:
+    if max_run >= 9:
         score += 2
-        reasons.append(f"連續bullet{max_run}行")
-    elif max_run >= 4:
+        reasons.append(f"{max_run} consecutive bullets")
+    elif max_run >= 6:
         score += 1
-        reasons.append(f"連續bullet{max_run}行")
+        reasons.append(f"{max_run} consecutive bullets")
 
-    # ── 8. Plastic phrases ──
-    # Emit per-match with line + 前後文 context (2026-05-10 sad-shockley
-    # feedback). Aggregate count drives score; individual locations help
-    # writer find them fast.
+    # ── 8. Plastic phrases (brochure tells) ──
     plastic_matches = list(_RE_PLASTIC.finditer(text_for_patterns))
     plastic_n = len(plastic_matches)
     if plastic_n > 8:
         score += 4
-        reasons.append(f"塑膠句{plastic_n}個")
+        reasons.append(f"{plastic_n} brochure tells")
     elif plastic_n > 4:
         score += 3
-        reasons.append(f"塑膠句{plastic_n}個")
+        reasons.append(f"{plastic_n} brochure tells")
     elif plastic_n > 2:
         score += 2
-        reasons.append(f"塑膠句{plastic_n}個")
+        reasons.append(f"{plastic_n} brochure tells")
     elif plastic_n >= 1:
         score += 1
-        reasons.append(f"塑膠句{plastic_n}個")
-    # Itemize each plastic phrase occurrence (capped at 10 to avoid noise)
+        reasons.append(f"{plastic_n} brochure tells")
     for m in plastic_matches[:10]:
         line_no = _line_at_offset(text_for_patterns, m.start())
         ctx = _context_around(text_for_patterns, m.start(), m.end())
         yield Violation(
             check=CHECK_NAME,
             severity=Severity.WARN,
-            message=f"塑膠句 (§quality-scan #8)：{ctx}",
+            message=f"Brochure tell (§6 Travel-Brochure Tells): {ctx}",
             line=line_no,
             snippet=m.group(0)[:80],
-            editorial_ref="EDITORIAL.md §quality-scan #8 塑膠句禁令",
-            fix_suggestion="改成正面具體斷言 (替換「不僅...更是」「展現了...精神」「值得紀念」)",
+            editorial_ref="EDITORIAL.md §6 Travel-Brochure Tells",
+            fix_suggestion="Three-second swap test: cut it, or name the specific thing only true of this place.",
         )
 
     # ── 8b. Em-dash overuse ──
     dash_matches = list(_RE_EMDASH.finditer(text_for_patterns))
     dash_n = len(dash_matches)
-    if dash_n > 15:
+    # Thresholds raised for LB: the em dash is normal English punctuation
+    # (unlike Taiwan.md's borrowed CJK 「——」), so a handful across a whole
+    # article is fine. Only genuine overuse — the AI tic EDITORIAL §6 warns
+    # about — is penalized.
+    if dash_n > 25:
         score += 3
-        reasons.append(f"破折號{dash_n}個")
-    elif dash_n > 8:
+        reasons.append(f"{dash_n} em dashes")
+    elif dash_n > 15:
         score += 2
-        reasons.append(f"破折號{dash_n}個")
-    elif dash_n > 4:
+        reasons.append(f"{dash_n} em dashes")
+    elif dash_n > 8:
         score += 1
-        reasons.append(f"破折號{dash_n}個")
-    # Only itemize if over budget (> 8) — don't spam < 5 instances
-    if dash_n > 8:
+        reasons.append(f"{dash_n} em dashes")
+    if dash_n > 15:
         for m in dash_matches[:10]:
             line_no = _line_at_offset(text_for_patterns, m.start())
-            ctx = _context_around(text_for_patterns, m.start(), m.end(), before=15, after=15)
+            ctx = _context_around(text_for_patterns, m.start(), m.end(), before=18, after=18)
             yield Violation(
                 check=CHECK_NAME,
                 severity=Severity.WARN,
-                message=f"破折號連用 (§quality-scan #8b 第 {dash_matches.index(m)+1}/{dash_n} 處)：{ctx}",
+                message=f"Em-dash overuse (§6 Em Dash Discipline, {dash_matches.index(m)+1}/{dash_n}): {ctx}",
                 line=line_no,
-                snippet="——",
-                editorial_ref="EDITORIAL.md §quality-scan #8b + MANIFESTO §11.2",
-                fix_suggestion="改用「，即」「（）」「：」/ 分句 / 短句 / bullet",
+                snippet="—",
+                editorial_ref="EDITORIAL.md §6 Em Dash Discipline + MANIFESTO Belief #11",
+                fix_suggestion="Ask whether each dash does something a period, semicolon, or parenthetical couldn't.",
             )
 
-    # ── 9. Textbook opening ──
+    # ── 9. Stock opening ──
     if _detect_textbook_opening(body):
         score += 2
-        reasons.append("教科書開場")
+        reasons.append("stock opening")
 
-    # ── 10. Formulaic ending ──
+    # ── 10. Canned ending ──
     if _detect_formulaic_ending(body):
         score += 2
-        reasons.append("套路結尾")
+        reasons.append("canned ending")
 
     # ── 11. Template H2 ──
     template_h2 = _count_template_h2(body)
     if template_h2 >= 4:
         score += 3
-        reasons.append(f"萬用H2×{template_h2}")
+        reasons.append(f"{template_h2} template H2s")
     elif template_h2 >= 3:
         score += 2
-        reasons.append(f"萬用H2×{template_h2}")
+        reasons.append(f"{template_h2} template H2s")
     elif template_h2 >= 2:
         score += 1
-        reasons.append(f"萬用H2×{template_h2}")
+        reasons.append(f"{template_h2} template H2s")
 
     # ── 12. LIST-DUMP (back-half bullet density disproportionate to front) ──
+    # Gated on length: the front/back ratio is statistically meaningless on
+    # short locals-guide articles (a single 6-item vista list spikes the
+    # back-half ratio purely because the body is small), so it only applies
+    # once each half has enough lines to compare. Deferred for short-form per
+    # EDITORIAL §8; bullet density (#1) still guards genuine bullet-skeletons.
     is_hub = _is_hub_file(target)
     front_b, back_b, front_t, back_t = _bullet_ratios_split(body)
-    if front_t > 0 and back_t > 0:
+    if front_t >= 12 and back_t >= 12:
         front_ratio = front_b * 100 // front_t
         back_ratio = back_b * 100 // back_t
         if is_hub:
-            # Hub pages naturally back-heavy index lists — relaxed
             if back_ratio > 60 and back_ratio > front_ratio * 3:
                 score += 1
-                reasons.append(f"後段清單堆砌{back_ratio}%(Hub)")
+                reasons.append(f"back-half list dump {back_ratio}% (hub)")
         else:
+            # Only the strong signal kept: back half both bullet-heavy (>40%)
+            # AND disproportionate to the front (>2x). The bare ">30%" tier was
+            # dropped — it fired on any article with a normal bulleted back
+            # section (e.g. a closing list of access points), not a real dump.
             if back_ratio > 40 and back_ratio > front_ratio * 2:
                 score += 3
-                reasons.append(f"後段清單堆砌{back_ratio}%")
-            elif back_ratio > 30:
-                score += 2
-                reasons.append(f"後段清單堆砌{back_ratio}%")
+                reasons.append(f"back-half list dump {back_ratio}%")
 
-    # ── 13. THIN (H2 blocks with < 3 prose lines) ──
+    # ── 13. THIN (H2 blocks with no content at all) ──
     thin = _count_thin_blocks(body)
     if is_hub:
         if thin >= 4:
             score += 1
-            reasons.append(f"稀薄段落×{thin}(Hub)")
+            reasons.append(f"{thin} thin sections (hub)")
     else:
         if thin >= 2:
             score += 2
-            reasons.append(f"稀薄段落×{thin}")
+            reasons.append(f"{thin} thin sections")
         elif thin >= 1:
             score += 1
-            reasons.append(f"稀薄段落×{thin}")
+            reasons.append(f"{thin} thin sections")
 
     # ── 14. QUALITY-DECAY (front prose ratio >> back prose ratio) ──
     fp, bp, fa, ba = _prose_ratios_split(body)
@@ -639,33 +615,34 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
         if is_hub:
             if back_pr < front_pr // 4:
                 score += 1
-                reasons.append(f"品質衰退前{front_pr}%後{back_pr}%(Hub)")
+                reasons.append(f"quality decay front {front_pr}% back {back_pr}% (hub)")
         elif front_pr > 0:
             if back_pr < front_pr // 2:
                 score += 3
-                reasons.append(f"品質衰退前{front_pr}%後{back_pr}%")
+                reasons.append(f"quality decay front {front_pr}% back {back_pr}%")
             elif back_pr < (front_pr * 7) // 10:
                 score += 1
-                reasons.append(f"品質衰退前{front_pr}%後{back_pr}%")
+                reasons.append(f"quality decay front {front_pr}% back {back_pr}%")
 
     # ── 16. Citation desert ──
+    # A citation = footnote def OR inline body URL OR `source:` frontmatter entry.
     fn_defs = _count_footnote_defs(body)
     word_count = _word_count(body)
-    if fn_defs == 0:
+    has_citation = fn_defs > 0 or urls > 0 or src_count > 0
+    if not has_citation and not is_meta_doc:
         if word_count > 500:
-            if urls == 0:
-                score += 4
-                reasons.append("引用荒漠(零腳註零URL)")
-            else:
-                score += 2
-                reasons.append("引用荒漠(零腳註)")
+            score += 4
+            reasons.append("citation desert (no sources, long)")
         elif word_count > 200:
             score += 1
-            reasons.append("無腳註")
+            reasons.append("no citations")
 
-    # ── Manifesto §11 Tier 1: 對位句型 ──
-    # Emit per-match with line + 前後文 context so writers can locate fast
-    # (per 2026-05-10 sad-shockley feedback: tool 應該直接指出哪裡 + 前後文).
+    # ════════════════════════════════════════════════════════════════
+    # Prose-tell dimensions — all WARN, none count toward score budget
+    # (surface drift without blocking the rewrite-stage-3 score gate).
+    # ════════════════════════════════════════════════════════════════
+
+    # ── "Not Just X, It's Y" false-contrast pattern ──
     tier1_total = 0
     for pat in _TIER1_PATTERNS:
         matches = list(pat.finditer(text_for_patterns))
@@ -677,107 +654,44 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
                 yield Violation(
                     check=CHECK_NAME,
                     severity=Severity.WARN,
-                    message=f"對位句型 (§11 Tier 1)：{ctx}",
+                    message=f"Not-Just-X-It's-Y false contrast (§6): {ctx}",
                     line=line_no,
                     snippet=m.group(0)[:80],
-                    editorial_ref="MANIFESTO.md §11 Tier 1 對位句型禁令",
+                    editorial_ref="EDITORIAL.md §6 \"Not Just X, It's Y\" Pattern",
                     fix_suggestion=(
-                        "三題判準 (MANIFESTO §11.1)：(1) 對比是內容本身嗎？(2) 正面主張能獨立站立嗎？"
-                        "(3) 讀者真會預設 X 嗎？三題全 no = 改成正面斷言"
+                        "Is the 'X' half a strawman the reader never assumed? "
+                        "Delete the setup and state 'Y' directly."
                     ),
                 )
 
-    # ── 歐化「(不)是 X 的」判斷句 — 2026-06-07 哲宇 directive 儀器化 ──
-    for m in _RE_EURO_DE.finditer(text_for_patterns):
-        line_no = _line_at_offset(text_for_patterns, m.start())
-        ctx = _context_around(text_for_patterns, m.start(), m.end())
-        yield Violation(
-            check=CHECK_NAME,
-            severity=Severity.WARN,
-            message=f"歐化「是…的」判斷句：{ctx}",
-            line=line_no,
-            snippet=m.group(0)[:40],
-            editorial_ref="EDITORIAL.md §歐化語法 (是…的判斷句)",
-            fix_suggestion=(
-                "去掉「是…的」讓形容詞直接當謂語：「這個選址不是隨便的」→「這個選址不隨便」"
-                "或「挑這裡有它的道理」；「答案是顯而易見的」→「答案顯而易見」。"
-            ),
-        )
-
-    # ── Manifesto §11 Tier 2: AI metaphor ──
-    tier2_total = sum(text_for_patterns.count(w) for w in _TIER2_WORDS)
-    # 「重」當抽象份量隱喻：regex 逐處 WARN（給 line + ctx）+ 計入密度
-    # 2026-06-04 哲宇 callout「把『很重』列為 AI 氾濫用語」
-    weight_hits = list(_RE_WEIGHT_METAPHOR.finditer(text_for_patterns))
-    for m in weight_hits:
-        line_no = _line_at_offset(text_for_patterns, m.start())
-        ctx = _context_around(text_for_patterns, m.start(), m.end())
-        yield Violation(
-            check=CHECK_NAME,
-            severity=Severity.WARN,
-            message=f"AI 份量隱喻「{m.group(0)}」(§11 Tier 2「重」當抽象份量)：{ctx}",
-            line=line_no,
-            snippet=m.group(0)[:80],
-            editorial_ref="MANIFESTO.md §11 Tier 2",
-            fix_suggestion=(
-                "把抽象的「重」改成具體後果或畫面：「最重的一刻」→ 直接寫那一刻發生什麼／"
-                "為什麼忘不掉；「份量很重」→「壓得人喘不過氣」或寫出具體代價。物理重量例外。"
-            ),
-        )
-    tier2_total += len(weight_hits)
+    # ── AI metaphor tells ──
+    tier2_total = sum(
+        len(re.findall(r"\b" + re.escape(w) + r"\b", text_for_patterns, re.IGNORECASE))
+        for w in _TIER2_WORDS
+    )
     if tier2_total >= 2:
         yield Violation(
             check=CHECK_NAME,
             severity=Severity.WARN,
-            message=f"AI 抽象 metaphor 密度 (§11 Tier 2): 累計 {tier2_total} 處",
-            editorial_ref="MANIFESTO.md §11 Tier 2",
+            message=f"AI metaphor-tell density: {tier2_total} occurrence(s) (delve / tapestry / testament to / …)",
+            editorial_ref="EDITORIAL.md §6 + MANIFESTO Belief #11",
+            fix_suggestion="Replace the metaphor with the concrete fact, name, or number it stands in for.",
         )
 
-    # ── Manifesto §11 Tier 3: ritual 語 ──
-    tier3_total = sum(text_for_patterns.count(p) for p in _TIER3_PHRASES)
+    # ── AI ritual phrases ──
+    lower_text = text_for_patterns.lower()
+    tier3_total = sum(lower_text.count(p) for p in _TIER3_PHRASES)
     if tier3_total >= 1:
         yield Violation(
             check=CHECK_NAME,
             severity=Severity.WARN,
-            message=f"AI ritual 句 (§11 Tier 3): 累計 {tier3_total} 處",
-            editorial_ref="MANIFESTO.md §11 Tier 3",
+            message=f"AI ritual phrase: {tier3_total} occurrence(s) (in conclusion / at the end of the day / …)",
+            editorial_ref="EDITORIAL.md §6 + MANIFESTO Belief #11",
+            fix_suggestion="Cut the filler transition; start the sentence with the fact.",
         )
 
-    # ════════════════════════════════════════════════════════════════
-    # §盼望而不粉飾 (2026-06-15 哲宇 directive) — 全 WARN，不計 score budget
-    # （跟 §11 Tier 1-3 一致：surface drift 但不擋既有 stage 閘）
-    # ════════════════════════════════════════════════════════════════
-
-    # ── 島嶼自稱密度 (balance, not ban) ──
-    island_hits = list(_RE_ISLAND_EUPHEMISM.finditer(text_for_patterns))
-    island_n = len(island_hits)
-    taiwan_n = len(_RE_TAIWAN_REF.findall(text_for_patterns))
-    # ratio-based：島嶼文學用法不罰，只抓「拿島當台灣的迴避稱呼」的 crutch。
-    # 條件 = island 佔「島+台灣」國名指稱 > 1/4 (3×island > taiwan) 且 ≥ 3 次，
-    # 或完全不稱台灣只用島 (≥ 2 次 + taiwan_n==0)。長文 5 島 vs 77 台灣 = 健康
-    # 文學用法，不 flag（避免 instrument 哭狼，REFLEXES #24）。
-    if (island_n >= 3 and 3 * island_n > taiwan_n) or (island_n >= 2 and taiwan_n == 0):
-        for m in island_hits[:10]:
-            line_no = _line_at_offset(text_for_patterns, m.start())
-            ctx = _context_around(text_for_patterns, m.start(), m.end())
-            yield Violation(
-                check=CHECK_NAME,
-                severity=Severity.WARN,
-                message=f"島嶼自稱密度偏高 ({island_n} 處 vs 台灣 {taiwan_n} 處，§自稱)：{ctx}",
-                line=line_no,
-                snippet=m.group(0)[:40],
-                editorial_ref="MANIFESTO.md §跟台灣的關係 §自稱 + EDITORIAL §六",
-                fix_suggestion=(
-                    "島嶼文學性可以保留，但不要過度——大多數時候大方寫「台灣」「臺灣」「這個國家」。"
-                    "逐處判斷：曹永和「以島嶼為主體」島史脈絡（留），還是不敢寫台灣的迴避稱呼（換）？"
-                ),
-            )
-
-    # （PUA 體 / 媒體焦慮體偵測器已移除 — 見檔頭 docstring + _RE_ISLAND 上方註解。
-    #   語意判斷非句法特徵，regex 92-100% 假陽性，改人工判斷 by EDITORIAL §六。）
-
     # ── Final score summary as a single violation ──
-    # The runner can gate on score via profile.fail_on = "score-budget".
+    # The runner gates on score via profile.fail_on = "score-budget".
     if score > 0:
         yield Violation(
             check=CHECK_NAME,

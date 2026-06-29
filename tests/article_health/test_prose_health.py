@@ -1,4 +1,10 @@
-"""Tests for prose_health plugin (Phase 4 — quality-scan + manifesto-11 consolidation)."""
+"""Tests for prose_health plugin (English port, LagunaBeach.md).
+
+Ported 2026-06-29 from Taiwan.md's zh-TW fixtures. Structural dimensions are
+language-agnostic; prose-tell dimensions are sourced from EDITORIAL §6 (brochure
+tells, the "Not Just X, It's Y" pattern, canned endings, AI metaphor/ritual
+phrases). Thresholds recalibrated for LB's short locals-guide format.
+"""
 
 import textwrap
 from pathlib import Path
@@ -14,19 +20,23 @@ from lib.article_health.types import Severity
 def _make_article(
     tmp_path: Path,
     body: str,
-    title: str = "測試文章",
-    category: str = "Nature",
+    title: str = "Test Article",
+    category: str = "Beaches",
     last_human_review: bool = True,
+    with_source: bool = True,
     extra_frontmatter: str = "",
 ) -> Path:
     fm = (
         f"title: '{title}'\n"
-        f"description: '描述 2026 anchor 1000'\n"
+        f"description: 'A description with a 2026 anchor and 1000 number.'\n"
         f"date: 2026-05-04\n"
         f"tags: ['test']\n"
         f"category: {category}\n"
         f"lastHumanReview: {'true' if last_human_review else 'false'}\n"
-    ) + extra_frontmatter
+    )
+    if with_source:
+        fm += "source:\n  - https://example.com\n"
+    fm += extra_frontmatter
     d = tmp_path / "knowledge" / category
     d.mkdir(parents=True, exist_ok=True)
     f = d / "test.md"
@@ -54,8 +64,8 @@ def _score(violations) -> int:
 
 
 def test_short_file_skipped(tmp_path):
-    """File < 20 lines is skipped (matches legacy quality-scan early-exit semantics)."""
-    f = tmp_path / "knowledge" / "Nature" / "stub.md"
+    """File < 20 lines is skipped (legacy quality-scan early-exit semantics)."""
+    f = tmp_path / "knowledge" / "Beaches" / "stub.md"
     f.parent.mkdir(parents=True)
     f.write_text("---\ntitle: x\n---\n\nshort content\n", encoding="utf-8")
     target = load_target(f)
@@ -64,7 +74,7 @@ def test_short_file_skipped(tmp_path):
 
 
 def test_no_frontmatter_skipped(tmp_path):
-    f = tmp_path / "knowledge" / "Nature" / "x.md"
+    f = tmp_path / "knowledge" / "Beaches" / "x.md"
     f.parent.mkdir(parents=True)
     f.write_text("\n".join(["plain text"] * 30), encoding="utf-8")
     target = load_target(f)
@@ -73,115 +83,102 @@ def test_no_frontmatter_skipped(tmp_path):
 
 
 # ════════════════════════════════════════════════════════════════════════
-# Quality-scan dimension parity
+# Structural dimension parity (recalibrated for LB short-form)
 # ════════════════════════════════════════════════════════════════════════
 
 
-def test_year_count_low_scores_3(tmp_path):
-    body = "\n".join(["這是一段散文，沒有任何年份提及"] * 22)
-    score = _score(_check(tmp_path, body))
-    assert score >= 3  # 缺乏年份 = +3
+def test_zero_years_mild_penalty(tmp_path):
+    """A fully dateless article gets a mild +1 nudge (was +3 in Taiwan port)."""
+    body = "\n".join(["A paragraph of prose with no year mentioned at all."] * 22)
+    score_no_year = _score(_check(tmp_path, body))
+    body_dated = "\n".join(["A paragraph from 1926 about the 1993 fire and 2024 today."] * 22)
+    score_dated = _score(_check(tmp_path, body_dated))
+    # Zero years adds exactly +1 over a dated body.
+    assert score_no_year == score_dated + 1
 
 
-def test_year_count_normal_low_score(tmp_path):
-    body = textwrap.dedent(
-        """\
-        這篇文章在 1916 年出版，記錄了 1994 年的事件。
-        2026 年我們重新看 1995 年的紀錄[^1]。
-        2024 年開始有更新研究。
-
-        ## H2
-
-        散文段落一段
-        散文段落二段
-        散文段落三段
-        散文段落四段
-
-        ## H3
-
-        散文1
-        散文2
-        散文3
-        散文4
-        散文5
-
-        [^1]: [來源](https://example.com) — desc 足夠長
-        """
-    )
-    score = _score(_check(tmp_path, body))
-    # 4+ years → no year penalty; URL=1 → +1; fn=1 → no citation desert
-    assert score < 3
+def test_no_sources_scores_3(tmp_path):
+    """No source frontmatter AND no inline URL → +3 (no sources)."""
+    body = "\n".join(["Plain prose from 1926 with no link anywhere here."] * 25)
+    score = _score(_check(tmp_path, body, with_source=False))
+    assert score >= 3
 
 
-def test_no_url_scores_3(tmp_path):
-    body = "\n".join(["這是純散文段落 1916 年沒有任何 URL"] * 25)
-    score = _score(_check(tmp_path, body))
-    assert score >= 3  # 無URL = +3
+def test_source_frontmatter_satisfies_citation(tmp_path):
+    """LB's `source:` frontmatter counts as citation — no desert penalty."""
+    body = "\n".join(["Long prose paragraph from 1926 and 1994 and 2024."] * 50)
+    score = _score(_check(tmp_path, body, with_source=True))
+    # 50 long lines > 500 words but source: present → no citation-desert +4.
+    assert score < 4, f"source frontmatter should avoid citation desert, got {score}"
 
 
-def test_hollow_words_high_count(tmp_path):
-    # ≥ 20 lines required (else early-exit). Need plenty of hollow density.
+def test_hollow_adjectives_high_count(tmp_path):
     body = (
-        "這個產業蓬勃發展，逐步形成顯著的影響力，"
-        "持續日益成長，全面深入大力推動。"
+        "This stunning, breathtaking, picturesque, charming, idyllic, scenic, "
+        "gorgeous, beautiful, lovely, vibrant view is truly majestic."
     )
-    body_multi = "\n".join([body] * 25)  # 25 lines, ~75 hollow word hits
-    body_multi += "\n\n散文 1916 年提及，1994 年確認[^1]。"
-    body_multi += "\n\n[^1]: [src](https://e.com) — desc enough length"
+    body_multi = "\n".join([body] * 25)
+    body_multi += "\n\nProse from 1926 confirmed in 1994 [link](https://e.com)."
     violations = _check(tmp_path, body_multi)
     score = _score(violations)
-    # 75 hollow words is > 15 threshold → +3 score
-    assert score >= 1, f"hollow words should trigger score, got {score}"
+    assert score >= 1, f"hollow adjectives should trigger score, got {score}"
 
 
-def test_plastic_phrase_detection(tmp_path):
+def test_brochure_tell_detection(tmp_path):
     body = textwrap.dedent(
         """\
-        台灣不僅是亞洲最重要的，更是全球科技中心。
-        這展現了民主的精神，也體現了制度的決心。
-        從南到北，從東到西，這座島嶼承載著無數的故事。
-        台積電扮演著重要的角色，發揮著關鍵的作用。
+        Nestled along the coast, this hidden gem is a must-see destination.
+        Whether you're a local or a first-time visitor, it offers something for everyone.
+        This best-kept secret boasts unparalleled views and a rich history.
 
-        參考 https://example.com 提及 1986 年成立[^1]。
+        See https://example.com about the 1986 founding.
 
-        ## H2 段落
-        正文1
-        正文2
-        正文3
-        正文4
-        正文5
+        ## The Beach
+        Some prose.
+        More prose.
+        Even more prose.
 
-        [^1]: [Source](https://example.com) — long-enough description here
+        Final line about 1994.
         """
     )
-    body = body * 2
     violations = _check(tmp_path, body)
     score = _score(violations)
-    # 4 plastic phrases × 2 = 8 → score +3 (3-4 range)
+    tells = [v for v in violations if "Brochure tell" in (v.message or "")]
+    assert len(tells) >= 4, f"expected multiple brochure tells, got {len(tells)}"
     assert score >= 2
 
 
 def test_emdash_overuse(tmp_path):
-    body = "這段——文字——有很多——破折號——濫用了——又一次——\n" * 5
-    body += "\n".join(["正常一段散文 1916 年內容"] * 20)
-    body += "\n\n[^1]: [src](https://e.com) — desc enough characters"
+    body = "This — sentence — has — far — too — many — em — dashes — used — here —.\n" * 2
+    body += "\n".join(["A normal prose paragraph from 1926 content."] * 20)
+    body += "\n\n[link](https://e.com)"
     score = _score(_check(tmp_path, body))
-    # 6×5 = 30 em-dashes → +3 dash penalty
-    assert score >= 3
+    # 22 em dashes > 15 → +2 dash penalty.
+    assert score >= 2
 
 
-def test_textbook_opening_scores_2(tmp_path):
-    body = "台灣的半導體產業是亞洲重要的支柱。\n"
-    body += "\n".join(["延伸內容 1916 年起步"] * 25)
-    body += "\n\n[^1]: [src](https://e.com) — desc enough characters"
+def test_few_emdashes_not_penalized(tmp_path):
+    """Up to 8 em dashes across a whole article is normal English — no penalty."""
+    body = "A sentence — with one dash.\n" * 4  # 4 em dashes
+    body += "\n".join(["Plain prose from 1926 and 1994 content here."] * 20)
+    body += "\n\n[link](https://e.com)"
     score = _score(_check(tmp_path, body))
-    assert score >= 2  # textbook opening = +2
+    dash_warn = [v for v in _check(tmp_path, body) if "Em-dash" in (v.message or "")]
+    assert dash_warn == [], "≤8 em dashes should not be flagged"
 
 
-def test_formulaic_ending_scores_2(tmp_path):
-    body = "\n".join(["主文段落 1916 年內容"] * 22)
-    body += "\n\n總之，這是一個值得我們深思的議題。"
-    body += "\n\n[^1]: [src](https://e.com) — desc"
+def test_stock_opening_scores_2(tmp_path):
+    body = "Whether you're a local or a first-time visitor, this cove is special.\n"
+    body += "\n".join(["Continuing prose from 1926 onward."] * 25)
+    body += "\n\n[link](https://e.com)"
+    score = _score(_check(tmp_path, body))
+    assert score >= 2  # stock opening = +2
+
+
+def test_canned_ending_scores_2(tmp_path):
+    body = "\n".join(["Main prose paragraph from 1926 content."] * 22)
+    body += "\n\nThis spot will continue to delight visitors for generations to come."
+    body += "\n\n[link](https://e.com)"
     score = _score(_check(tmp_path, body))
     assert score >= 2
 
@@ -189,257 +186,253 @@ def test_formulaic_ending_scores_2(tmp_path):
 def test_template_h2_count(tmp_path):
     body = textwrap.dedent(
         """\
-        散文段落 1916 年起步引言
+        Intro prose from 1926.
 
-        ## 歷史背景
+        ## Introduction
 
-        段落
+        text
 
-        ## 現況
+        ## Overview
 
-        段落
+        text
 
-        ## 未來展望
+        ## Background
 
-        段落
+        text
 
-        ## 挑戰與展望
+        ## Conclusion
 
-        段落
+        text
         """
     )
-    body += "\n".join(["延伸 2024 年內容"] * 12)
-    body += "\n\n[^1]: [src](https://e.com) — desc"
+    body += "\n".join(["More prose from 2024."] * 12)
+    body += "\n\n[link](https://e.com)"
     score = _score(_check(tmp_path, body))
     assert score >= 3  # 4 template H2s = +3
 
 
-def test_citation_desert_long_no_footnote(tmp_path):
-    body = "\n".join(["長段散文 1916 年起點 2024 年現況"] * 50)
-    score = _score(_check(tmp_path, body))
-    # word count > 500, fn = 0, urls = 0 → +4 (extreme citation desert)
+def test_history_heading_not_flagged_as_template(tmp_path):
+    """Plain `## History` is legitimate in the LB corpus — not a template H2."""
+    body = textwrap.dedent(
+        """\
+        Intro prose from 1926.
+
+        ## History
+
+        Some real history prose.
+        More history.
+
+        ## The View
+
+        Vista description.
+        """
+    )
+    body += "\n".join(["More prose from 2024."] * 14)
+    body += "\n\n[link](https://e.com)"
+    assert prose_health._count_template_h2(body) == 0
+
+
+def test_citation_desert_long_no_source(tmp_path):
+    body = "\n".join(["A long prose paragraph from 1926 with content here."] * 50)
+    score = _score(_check(tmp_path, body, with_source=False))
+    # word count > 500, no footnote/url/source → +4 (extreme citation desert)
     assert score >= 4
+
+
+def test_meta_doc_exempt_from_citation_penalty(tmp_path):
+    """About-category meta docs are self-sourcing — no citation penalties."""
+    body = "\n".join(["Process documentation prose with no external source."] * 50)
+    score = _score(_check(tmp_path, body, category="About", with_source=False))
+    # No "no sources" +3 and no citation-desert +4 for a meta doc.
+    assert score <= 1, f"meta doc should not be penalized for no sources, got {score}"
 
 
 def test_last_human_review_false_scores_1(tmp_path):
     body = textwrap.dedent(
         """\
-        正常散文 1916 年內容 2024 年[^1]。
+        Normal prose from 1926 and 2024 [link](https://example.com).
 
-        ## 段落
+        ## Section
 
-        正文1
-        正文2
-        正文3
-
-        [^1]: [Source](https://example.com) — desc enough chars
+        prose one
+        prose two
+        prose three
         """
     )
-    body += "\n".join(["延伸"] * 15)
+    body += "\n".join(["More content"] * 15)
     score_with_review = _score(_check(tmp_path, body, last_human_review=True))
     score_without = _score(_check(tmp_path, body, last_human_review=False))
     assert score_without >= score_with_review + 1
 
 
 # ════════════════════════════════════════════════════════════════════════
-# Manifesto §11 tier checks
+# Prose-tell dimensions (EDITORIAL §6)
 # ════════════════════════════════════════════════════════════════════════
 
 
-def test_tier1_dual_pattern_detected(tmp_path):
-    body = "這不是科技問題，而是制度問題。\n" * 5
-    body += "\n".join(["延伸 1916 年"] * 20)
-    body += "\n\n[^1]: [src](https://e.com) — desc"
+def test_not_just_x_pattern_detected(tmp_path):
+    """"isn't just X, it's Y" false-contrast should be flagged per occurrence."""
+    body = "This isn't just a beach, it's an experience worth having.\n" * 5
+    body += "\n".join(["Continuing prose from 1926."] * 20)
+    body += "\n\n[link](https://e.com)"
     violations = _check(tmp_path, body)
-    tier1 = [v for v in violations if "Tier 1" in (v.editorial_ref or "")]
-    assert len(tier1) >= 5
+    tells = [v for v in violations if "false contrast" in (v.message or "")]
+    assert len(tells) >= 5
 
 
-# ── 2026-05-09 brave-kirch: bare antithesis 「不是 X，是 Y」 patterns ────────
-
-
-def test_tier1_bare_antithesis_with_comma(tmp_path):
-    """「不是 X，是 Y」(no 而是/也是/更是) should be detected."""
-    body = "Taiwan.md 不是百科全書，是一座策展空間。\n" * 5
-    body += "\n".join(["延伸 1916 年"] * 20)
-    body += "\n\n[^1]: [src](https://e.com) — desc"
+def test_not_only_but_also_detected(tmp_path):
+    body = "The museum is not only a gallery but also a community hub here.\n" * 5
+    body += "\n".join(["Continuing prose from 1926."] * 20)
+    body += "\n\n[link](https://e.com)"
     violations = _check(tmp_path, body)
-    tier1 = [v for v in violations if "Tier 1" in (v.editorial_ref or "")]
-    assert len(tier1) >= 5, "bare antithesis 『不是 X，是 Y』should trigger"
+    tells = [v for v in violations if "false contrast" in (v.message or "")]
+    assert len(tells) >= 5
 
 
-def test_tier1_busheng_more_pattern(tmp_path):
-    """「不只 X，更 Y」variant should be detected."""
-    body = "他不只是歌手，更是文化符號。\n" * 5
-    body += "\n".join(["延伸 1916 年"] * 20)
-    body += "\n\n[^1]: [src](https://e.com) — desc"
+def test_not_just_no_false_positive_on_plain_text(tmp_path):
+    """Plain prose without the construction shouldn't trigger the pattern."""
+    body = "He walked along the sand and watched the waves roll in slowly.\n"
+    body += "\n".join(["Plain prose from 1926 and 1994 content."] * 25)
+    body += "\n\n[link](https://e.com)"
     violations = _check(tmp_path, body)
-    tier1 = [v for v in violations if "Tier 1" in (v.editorial_ref or "")]
-    assert len(tier1) >= 5
+    tells = [v for v in violations if "false contrast" in (v.message or "")]
+    assert tells == []
 
 
-def test_tier1_bingfei_pattern(tmp_path):
-    """「並非 X，而是 Y」variant should be detected."""
-    body = "這並非偶然事件，而是結構性問題。\n" * 5
-    body += "\n".join(["延伸 1916 年"] * 20)
-    body += "\n\n[^1]: [src](https://e.com) — desc"
-    violations = _check(tmp_path, body)
-    tier1 = [v for v in violations if "Tier 1" in (v.editorial_ref or "")]
-    assert len(tier1) >= 5
-
-
-def test_tier1_no_false_positive_normal_negation(tmp_path):
-    """普通 negation 不應該被誤抓 — 「不是 X 是 Y」 inside long sentence shouldn't trigger."""
-    # 「不是」+ 後續結構但沒形成對位句型（X > 30 字 / 不在「，是」附近）
-    body = "他在那段時間裡到處奔走，不是為了個人利益而是想要解決一個更深層的社會問題，這個問題他關注超過十年。\n"
-    body += "\n".join(["延伸 1916 年"] * 25)
-    body += "\n\n[^1]: [src](https://e.com) — desc"
-    violations = _check(tmp_path, body)
-    tier1 = [v for v in violations if "Tier 1" in (v.editorial_ref or "")]
-    # 應該抓到「不是.{0,8}而是」(short distance)
-    assert len(tier1) <= 2, f"long-X scenarios shouldn't over-trigger, got {len(tier1)}"
-
-
-def test_tier1_docs_canonical_no_frontmatter_still_checked(tmp_path):
-    """docs/ canonical files (no frontmatter) should still trigger prose-health.
-
-    2026-05-09 brave-kirch: 原本 plugin `if not target.frontmatter: return`
-    讓 EDITORIAL.md 自己漏抓 16+ 處對位句型。Fix: only skip if knowledge/ article.
-    """
-    # Simulate a docs/ canonical file (no frontmatter, but rich content)
+def test_meta_doc_no_frontmatter_still_checked(tmp_path):
+    """docs/ canonical files (no frontmatter) should still trigger prose-health."""
     docs_dir = tmp_path / "docs" / "editorial"
     docs_dir.mkdir(parents=True)
     f = docs_dir / "TEST-CANONICAL.md"
     body = "# TEST CANONICAL\n\n"
-    body += "這不是檢查清單，是一個會寫好文章的眼睛。\n" * 6
-    body += "\n".join(["延伸 1916 年"] * 20)
+    body += "This isn't just a checklist, it's an eye that writes well.\n" * 6
+    body += "\n".join(["Continuing prose from 1926."] * 20)
     f.write_text(body, encoding="utf-8")
     target = load_target(f)
     assert not target.frontmatter, "test file should have no frontmatter"
     violations = list(prose_health.check(target, {}))
-    tier1 = [v for v in violations if "Tier 1" in (v.editorial_ref or "")]
-    assert len(tier1) >= 3, "docs/ canonical without frontmatter should still be checked"
+    tells = [v for v in violations if "false contrast" in (v.message or "")]
+    assert len(tells) >= 3, "docs/ canonical without frontmatter should still be checked"
 
 
-def test_tier2_metaphor_density(tmp_path):
-    body = "這篇文章的軌跡承載著 DNA，鏡子般的張力，光譜的縮影。\n"
-    body += "\n".join(["散文 1916 年"] * 22)
-    body += "\n\n[^1]: [src](https://e.com) — desc"
+def test_ai_metaphor_density(tmp_path):
+    body = "The tapestry of history is a testament to the beacon of culture.\n"
+    body += "\n".join(["Prose from 1926."] * 22)
+    body += "\n\n[link](https://e.com)"
     violations = _check(tmp_path, body)
-    tier2 = [v for v in violations if "Tier 2" in (v.editorial_ref or "")]
+    tier2 = [v for v in violations if "metaphor-tell" in (v.message or "")]
     assert len(tier2) == 1
-    # Should be ≥ 5 metaphor occurrences (test phrase has 軌跡 / 承載著 / DNA /
-    # 鏡子 / 張力 / 光譜 / 縮影 = 7 distinct words)
     import re
-    m = re.search(r"累計 (\d+) 處", tier2[0].message)
-    assert m and int(m.group(1)) >= 5, tier2[0].message
+    m = re.search(r"(\d+) occurrence", tier2[0].message)
+    assert m and int(m.group(1)) >= 3, tier2[0].message
 
 
-def test_tier3_ritual_phrases(tmp_path):
-    body = "在這個意義上，這個議題不容忽視，值得我們深思。\n"
-    body += "\n".join(["散文 1916 年"] * 22)
-    body += "\n\n[^1]: [src](https://e.com) — desc"
+def test_ai_ritual_phrases(tmp_path):
+    body = "In conclusion, at the end of the day, this matters when it comes to art.\n"
+    body += "\n".join(["Prose from 1926."] * 22)
+    body += "\n\n[link](https://e.com)"
     violations = _check(tmp_path, body)
-    tier3 = [v for v in violations if "Tier 3" in (v.editorial_ref or "")]
+    tier3 = [v for v in violations if "ritual phrase" in (v.message or "")]
     assert len(tier3) == 1
 
 
 # ════════════════════════════════════════════════════════════════════════
-# Phase 4b dims: LIST-DUMP / THIN / QUALITY-DECAY
+# Structural skeleton dims: LIST-DUMP / THIN
 # ════════════════════════════════════════════════════════════════════════
 
 
 def test_list_dump_back_half_bullet_heavy(tmp_path):
-    """Back half bullet ratio > 40% AND > 2x front → +3 score."""
+    """Back half >40% bullets AND >2x front, on a long-enough article → +3."""
     front = "\n".join([
-        "這是 1916 年的一段散文敘述",
-        "1994 年另一段研究發現",
-        "2024 年最近的紀錄",
-        "更多的散文敘述",
-    ] * 4)  # 16 lines, 0 bullets
+        "This is a prose narrative line from 1926.",
+        "Another research finding from 1994 here.",
+        "The most recent record from 2024 today.",
+        "Yet more prose narrative description here.",
+    ] * 4)  # 16 prose lines, 0 bullets
     back = "\n".join([
-        "- bullet item 1",
-        "- bullet item 2",
-        "- bullet item 3",
-        "- bullet item 4",
-    ] * 4)  # 16 lines, 100% bullets
+        "- bullet item one",
+        "- bullet item two",
+        "- bullet item three",
+        "- bullet item four",
+    ] * 4)  # 16 bullet lines, 100% bullets
     body = front + "\n\n" + back
-    body += "\n\n[^1]: [src](https://e.com) — desc enough chars"
+    body += "\n\n[link](https://e.com)"
     score = _score(_check(tmp_path, body))
-    assert score >= 2, f"LIST-DUMP should add ≥ +2 score, got {score}"
+    assert score >= 3, f"LIST-DUMP should add +3 score, got {score}"
 
 
-def test_thin_blocks_detected(tmp_path):
+def test_list_dump_not_fired_on_short_article(tmp_path):
+    """Short locals-guide article with a closing bullet list is NOT a dump."""
     body = textwrap.dedent(
         """\
-        > **30 秒概覽**: x
+        A short intro from 1926 about the place.
 
-        ## 段落一
+        ## The View
 
-        只有一行散文 1916 年。
-
-        ## 段落二
-
-        只有一行散文 1994 年。
-
-        ## 段落三
-
-        只有一行散文 2024 年。
-
-        [^1]: [src](https://e.com) — desc enough chars
+        - The ocean to the west
+        - The mountains to the east
+        - Catalina on a clear day
+        - The town below
         """
-    ) + "\n".join(["延伸"] * 8)
-    score = _score(_check(tmp_path, body))
-    # 3 thin blocks → at minimum +1 score on top of other dims
-    assert score >= 2
+    )
+    body += "\n".join(["Prose line from 2024."] * 10)
+    body += "\n\n[link](https://e.com)"
+    violations = _check(tmp_path, body)
+    dump = [v for v in violations if "list dump" in (v.message or "")]
+    assert dump == [], "short article with a vista list should not be a list dump"
+
+
+def test_thin_block_only_empty_sections(tmp_path):
+    """A bullet-list section is content, not thin; only an empty heading is thin."""
+    body = textwrap.dedent(
+        """\
+        Intro from 1926.
+
+        ## The View
+
+        - vista one
+        - vista two
+
+        ## Empty Section
+
+        ## Real Section
+
+        Prose here.
+        """
+    )
+    body += "\n".join(["More prose from 2024."] * 14)
+    # "## The View" has bullets (content), "## Real Section" has prose, only
+    # "## Empty Section" is a true skeleton.
+    assert prose_health._count_thin_blocks(body) == 1
 
 
 def test_thin_blocks_exempt_structural_sections(tmp_path):
-    """Regression: 2026-05-04 audit found 黃魚鴞 falsely flagged as thin
-    because `## 圖片來源` (image attribution section, 1 line by design) was
-    counted. Structural sections (參考資料 / 延伸閱讀 / 圖片來源) are
-    exempted from the THIN check.
+    """Structural sections (References / Image Sources / Practical Information)
+    are exempt from the THIN check even when they carry no prose.
     """
-    # 3 healthy prose H2s + a 1-line 圖片來源 + a 1-line 參考資料.
-    # Without the exemption the structural sections would fire 2 thin counts.
     body = textwrap.dedent(
         """\
-        > **30 秒概覽**: x
+        ## Section One
 
-        ## 段落一
+        Prose line.
 
-        散文一行。
-        散文兩行。
-        散文三行。
+        ## Image Sources
 
-        ## 段落二
+        One CC-licensed photo.
 
-        散文一行。
-        散文兩行。
-        散文三行。
+        ## References
 
-        ## 段落三
+        [link](https://example.com)
 
-        散文一行。
-        散文兩行。
-        散文三行。
+        ## Practical Information
 
-        ## 圖片來源
-
-        本文使用 1 張 CC 授權圖片。
-
-        ## 參考資料
-
-        [^1]: [src](https://example.com) — description with enough characters
+        - Parking is limited.
         """
     )
-    # Pad to clear the < 20 line short-file early-exit
-    body += "\n" + "\n".join(f"延伸{i}" for i in range(20))
-    from lib.article_health.checks import prose_health
+    body += "\n" + "\n".join(f"extra{i}" for i in range(20))
     body_thin = prose_health._count_thin_blocks(body)
     assert body_thin == 0, (
-        f"Expected 0 thin blocks (圖片來源 / 參考資料 should be exempt), "
-        f"got {body_thin}"
+        f"structural / functional-close sections should be exempt, got {body_thin}"
     )
 
 
@@ -451,100 +444,29 @@ def test_thin_blocks_exempt_structural_sections(tmp_path):
 def test_clean_article_passes_budget(tmp_path):
     body = textwrap.dedent(
         """\
-        1994 年的某一天，研究員在花蓮太魯閣的溪畔找到了一個巢[^1]。
-        2026 年 4 月，研究團隊在武陵的烏心石老樹洞裡找到全台最高巢位[^2]。
-        2024 年最新統計顯示族群在易危等級之間波動[^3]。
+        In 1926, a stone tower was built on the bluff above the cove [link](https://example.com).
+        By 1993, the structure had survived the firestorm that destroyed 441 homes.
+        A 2024 survey found the staircase still in use by residents.
 
-        ## 砂卡礑那年
+        ## The Tower
 
-        三十年前的研究是現在所有後續定位的起點。
-        孫元勳教授團隊持續追蹤了 91 個領域。
-        每對黃魚鴞需要 6.2 公里溪流維持領域。
-        天然林比例 44.6% 是維持族群的關鍵變數。
+        The 60-foot tower was modeled on a Mediterranean lighthouse.
+        It was built for a former actor who lived on the bluff.
+        The spiral staircase inside is the access point most visitors miss.
 
-        ## 武陵的新發現
+        ## Access
 
-        最新的紀錄改寫了高度上限。
-        1,800 公尺的烏心石樹洞是台灣最高巢位。
-        雪霸國家公園推出 24 小時育雛直播。
+        Both streets have extremely limited parking, no lot and no meters.
+        Arrive very early on summer weekends or walk from farther away.
 
-        [^1]: [Sun et al. 1997](https://example.com) — 砂卡礑首次定位巢位完整紀錄
-        [^2]: [公視 2026](https://example.com) — 武陵最高巢位記錄
-        [^3]: [紅皮書 2024](https://example.com) — 易危等級評估報告
+        ## Practical Information
+
+        - Parking: residential streets only.
+        - Best time: early morning at low tide.
         """
     )
-    score = _score(_check(tmp_path, body))
-    # Clean article should be ≤ 3 (canonical pass threshold)
+    score = _score(_check(tmp_path, body, last_human_review=True))
     assert score <= 3, f"clean article scored {score}, should be ≤ 3"
-
-
-# ════════════════════════════════════════════════════════════════════════
-# §盼望而不粉飾 §自稱 (2026-06-15): 島嶼自稱密度
-# (PUA 體 / 媒體焦慮體 偵測器於 2026-06-15 evaluation 後移除 — 92-100% 假陽性，
-#  語意判斷非句法特徵，改 EDITORIAL §六 人工判斷)
-# ════════════════════════════════════════════════════════════════════════
-
-
-def _hope(violations, key):
-    return [v for v in violations if key in (v.message or "")]
-
-
-def test_island_euphemism_overuse_detected(tmp_path):
-    """島嶼自稱密度 ≥ 3 觸發 WARN。"""
-    body = "這座島嶼歷史很長。這座島曾被殖民。這個島嶼的人努力生活。\n" * 2
-    body += "\n".join(["延伸 1916 年 1994 年 2024 年內容"] * 20)
-    body += "\n\n[^1]: [src](https://e.com) — desc enough chars"
-    island = _hope(_check(tmp_path, body), "島嶼自稱密度")
-    assert len(island) >= 3, "島嶼自稱密度 ≥ 3 應觸發 WARN"
-
-
-def test_island_literary_single_use_not_flagged(tmp_path):
-    """單次島嶼文學用法 + 多次直稱台灣 → 不 WARN (balance, not ban)。"""
-    body = textwrap.dedent(
-        """\
-        台灣在 1949 年後快速工業化[^1]。
-        台灣的半導體 2024 年領先全球。
-        這座島嶼曾被低估，但台灣人持續前進。
-        台灣的民主在 1996 年首次直選。
-
-        ## 段落
-
-        台灣社會多元包容。
-        台灣經濟韌性十足。
-        台灣文化層次豐富。
-
-        [^1]: [src](https://e.com) — desc enough chars
-        """
-    )
-    body += "\n".join(["台灣延伸 2020 年"] * 8)
-    island = _hope(_check(tmp_path, body), "島嶼自稱密度")
-    assert island == [], f"單次島嶼 + 多次台灣不該 WARN，got {len(island)}"
-
-
-def test_hope_checks_are_warn_not_score(tmp_path):
-    """島嶼自稱是 WARN 級，不計入 score budget（跟 §11 tier 一致）。"""
-    # crutch body：5 島 + 0 直稱台灣 → 觸發島嶼 WARN；但 prose 乾淨 → score ≤ 3。
-    body = textwrap.dedent(
-        """\
-        這座島嶼在 1994 年迎來轉變[^1]。這座島經歷殖民。這座島曾被遺忘。這個島嶼站起來。這座島嶼記得 1986 年。
-        2026 年研究確認[^2]。2024 年最新統計[^3]。
-
-        ## 段落一
-
-        歷史延伸內容 2020 年發展演進。
-        基層力量長年累積成形。
-        公民參與日趨成熟穩定。
-
-        [^1]: [a](https://e.com) — 描述足夠長度的來源說明文字
-        [^2]: [b](https://e.com) — 描述足夠長度的來源說明文字
-        [^3]: [c](https://e.com) — 描述足夠長度的來源說明文字
-        """
-    )
-    body += "\n".join(["歷史延伸內容 2020 年"] * 10)
-    violations = _check(tmp_path, body)
-    island = _hope(violations, "島嶼自稱密度")
-    assert len(island) >= 3, "crutch (5 島 / 0 台灣) should fire island WARN"
-    assert _score(violations) <= 3, f"island WARN 不該推高 score，got {_score(violations)}"
 
 
 # ════════════════════════════════════════════════════════════════════════
@@ -556,6 +478,7 @@ def test_plugin_metadata():
     assert prose_health.CHECK_NAME == "prose-health"
     assert prose_health.DEFAULT_SEVERITY == Severity.WARN
     assert "MANIFESTO" in prose_health.EDITORIAL_REF
+    assert "en" in prose_health.APPLIES_TO
     assert "zh-TW" in prose_health.APPLIES_TO
     assert callable(prose_health.check)
 

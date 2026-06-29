@@ -61,7 +61,10 @@ checks = "*"
 fail_on = "hard"
 
 [profiles."rewrite-stage-3"]
-# REWRITE-PIPELINE Stage 3 (Verify): quality-scan ≤ 3 budget.
+# REWRITE-PIPELINE Stage 3 (Verify): prose-health score ≤ 3 budget. The English
+# port (2026-06-29) recalibrated the score thresholds to LB's short locals-guide
+# corpus — all 18 legacy en articles land ≤ 2, so the gate stays advisory for
+# them while still failing genuine AI-slop. Canonical rules: EDITORIAL.md §6.
 checks = ["prose-health"]
 fail_on = "score-budget"
 
