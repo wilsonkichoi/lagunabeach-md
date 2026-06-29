@@ -143,16 +143,16 @@ def test_runner_applies_to_lang_filter(tmp_path):
 
     cfg = Config()
 
-    # zh-TW target → should run
-    f = tmp_path / "knowledge" / "Nature" / "x.md"
+    # zh-TW target (translation path) → should run
+    f = tmp_path / "knowledge" / "zh-TW" / "Nature" / "x.md"
     f.parent.mkdir(parents=True)
     f.write_text("test\n", encoding="utf-8")
     target_zh = load_target(f)
     report_zh = run_checks(target_zh, cfg)
     assert len(report_zh.results) == 1
 
-    # en target → should be filtered out
-    fen = tmp_path / "knowledge" / "en" / "Nature" / "x.md"
+    # en source target (bare path) → should be filtered out
+    fen = tmp_path / "knowledge" / "Nature" / "x.md"
     fen.parent.mkdir(parents=True)
     fen.write_text("test\n", encoding="utf-8")
     target_en = load_target(fen)

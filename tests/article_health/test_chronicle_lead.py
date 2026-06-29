@@ -1,10 +1,10 @@
 """Tests for chronicle_lead plugin.
 
 Detects chronicle-style H2 subheadings that turn articles into
-Wikipedia-style timelines (REWRITE Stage 2 #4 / #11).
+Wikipedia-style timelines (REWRITE Stage 2 #4 / #11). English-default fork:
+the check targets en articles and English chronicle patterns.
 
-Canonical: docs/pipelines/rewrite/REWRITE-WRITE.md §Step 4 + §自檢 3
-Plan: reports/rewrite-pipeline-evolution-plan-2026-05-09.md Direction D Wave 1
+Canonical: docs/editorial/EDITORIAL.md §subheadings
 """
 
 from pathlib import Path
@@ -22,44 +22,40 @@ def _write_tmp(tmp_path: Path, content: str, name: str = "test.md") -> Path:
 def _check_subheadings(tmp_path: Path, subheadings: list[str], path_hint: str = "knowledge/People/test.md"):
     """Build a synthetic article and return chronicle-lead violations."""
     body = (
-        "---\ntitle: 測試\n---\n\n"
-        "> **30 秒概覽**：測試。\n\n"
-        + "\n\n".join(f"{h}\n\n段落內容。" for h in subheadings)
+        "---\ntitle: Test\n---\n\n"
+        "> **At a glance**: test.\n\n"
+        + "\n\n".join(f"{h}\n\nParagraph content." for h in subheadings)
         + "\n"
     )
-    # Use a path under knowledge/People/ to pass _is_excluded_path
+    # tmp_path is allowed by _is_excluded_path (treated like a knowledge/ article).
     out = tmp_path / "test.md"
     out.write_text(body, encoding="utf-8")
     target = load_target(out)
-    # Override target.path attribute to simulate a knowledge/ path for plugin's
-    # exclusion logic — chronicle_lead skips files outside knowledge/.
-    # tmp_path is allowed by the updated _is_excluded_path (returns False
-    # for /tmp/* and similar), so this works as-is.
     return list(chronicle_lead.check(target, {}))
 
 
 # ════════════════════════════════════════════════════════════════════════
-# HARD violations (chronicle subheadings should be detected)
+# WARN violations (chronicle subheadings should be detected)
 # ════════════════════════════════════════════════════════════════════════
 
 
 def test_year_month_subheading(tmp_path):
-    """## 2016 年 5 月 — chronicle event with month."""
-    violations = _check_subheadings(tmp_path, ["## 2016 年 5 月，《作品》發行"])
+    """## May 2016: ... — chronicle event with month + year."""
+    violations = _check_subheadings(tmp_path, ["## May 2016: the gallery opened"])
     assert len(violations) == 1
-    assert "編年體小標題" in violations[0].message
+    assert "Chronicle-style subheading" in violations[0].message
 
 
 def test_year_work_subheading(tmp_path):
-    """## 2020 年《作品名》 — year + work title."""
-    violations = _check_subheadings(tmp_path, ["## 2020 年《棲居在溪源之上》"])
+    """## 2016 May — reversed year + month."""
+    violations = _check_subheadings(tmp_path, ["## 2016 May"])
     assert len(violations) == 1
 
 
 def test_year_event_subheading(tmp_path):
-    """## 2018 年：金曲入圍 / ## 2018 年「金曲入圍」 — year-prefixed event."""
-    violations1 = _check_subheadings(tmp_path, ["## 2018 年：金曲入圍"])
-    violations2 = _check_subheadings(tmp_path, ["## 2018 年「金曲入圍」"])
+    """## 2018: the award / ## 2018 "the award" — year-prefixed event."""
+    violations1 = _check_subheadings(tmp_path, ["## 2018: the award nomination"])
+    violations2 = _check_subheadings(tmp_path, ['## 2018 "the award nomination"'])
     assert len(violations1) == 1
     assert len(violations2) == 1
 
@@ -74,9 +70,9 @@ def test_date_format_subheading(tmp_path):
 def test_multiple_chronicle_subheadings(tmp_path):
     """Multiple chronicle subheadings — all should be detected."""
     violations = _check_subheadings(tmp_path, [
-        "## 2011 年：站上世界之巔",
-        "## 2015 年：VR 轉型的關鍵決策",
-        "## 2024 年：谷底反彈的希望",
+        "## 2011: the summit",
+        "## May 2015: the pivot",
+        "## 2024-03-01: the rebound",
     ])
     assert len(violations) == 3
 
@@ -87,33 +83,33 @@ def test_multiple_chronicle_subheadings(tmp_path):
 
 
 def test_year_range_allowed(tmp_path):
-    """## 1949-1987 戒嚴體制 — year range with description (legitimate historical scope)."""
-    violations = _check_subheadings(tmp_path, ["## 1949-1987 戒嚴體制"])
+    """## 1949-1987 Martial Law Era — year range with description (legitimate scope)."""
+    violations = _check_subheadings(tmp_path, ["## 1949-1987 Martial Law Era"])
     assert len(violations) == 0
-    # Em-dash variants
-    violations2 = _check_subheadings(tmp_path, ["## 1949–1987 戒嚴體制", "## 1949 — 1987 戒嚴體制"])
+    # En-dash / spaced em-dash variants
+    violations2 = _check_subheadings(tmp_path, ["## 1949–1987 Martial Law Era", "## 1949 — 1987 Martial Law Era"])
     assert len(violations2) == 0
 
 
 def test_decade_reference_allowed(tmp_path):
-    """## 1990 年代的台灣 — decade reference."""
-    violations = _check_subheadings(tmp_path, ["## 1990 年代的台灣"])
+    """## The 1990s — decade reference."""
+    violations = _check_subheadings(tmp_path, ["## The 1990s"])
     assert len(violations) == 0
 
 
-def test_minguo_year_allowed(tmp_path):
-    """## 民國 X 年 — historical narrative."""
-    violations = _check_subheadings(tmp_path, ["## 民國 38 年"])
+def test_named_period_allowed(tmp_path):
+    """## Postwar Period — named period, no specific date."""
+    violations = _check_subheadings(tmp_path, ["## The Postwar Period"])
     assert len(violations) == 0
 
 
 def test_scene_subheadings_allowed(tmp_path):
     """Scene / object / conflict subheadings — never trigger."""
     legitimate = [
-        "## 派對結束了",
-        "## 凡凡的狗叫土豆",
-        "## 沒被認出的金曲歌后",
-        "## 陽明山的草東街",
+        "## The party ended",
+        "## The dog named Spud",
+        "## The uncredited founder",
+        "## The trail above the cove",
     ]
     violations = _check_subheadings(tmp_path, legitimate)
     assert len(violations) == 0
@@ -125,17 +121,10 @@ def test_scene_subheadings_allowed(tmp_path):
 
 
 def test_translation_files_excluded(tmp_path):
-    """knowledge/en|ja|ko|es|fr/ — non-zh-TW prose, skip."""
-    body = "## 2020 年 1 月\n段落\n"
-    # Mimic translation path via filename (since loader uses path)
-    f = tmp_path / "knowledge_en_test.md"
-    f.write_text(body, encoding="utf-8")
-    # Direct path check
-    assert chronicle_lead._is_excluded_path("/knowledge/en/People/test.md")
-    assert chronicle_lead._is_excluded_path("/knowledge/ja/People/test.md")
-    assert chronicle_lead._is_excluded_path("/knowledge/ko/People/test.md")
-    assert chronicle_lead._is_excluded_path("/knowledge/es/People/test.md")
-    assert chronicle_lead._is_excluded_path("/knowledge/fr/People/test.md")
+    """knowledge/zh-TW/ — translation prose, skip (en is the source, not excluded)."""
+    assert chronicle_lead._is_excluded_path("/knowledge/zh-TW/People/test.md")
+    # en source articles are NOT excluded — the check targets them.
+    assert not chronicle_lead._is_excluded_path("/knowledge/People/test.md")
 
 
 def test_hub_pages_excluded(tmp_path):
@@ -174,7 +163,7 @@ def test_default_severity_is_warn():
 
 def test_violation_includes_fix_suggestion(tmp_path):
     """Violations should include actionable fix suggestion."""
-    violations = _check_subheadings(tmp_path, ["## 2020 年 5 月"])
+    violations = _check_subheadings(tmp_path, ["## May 2020: the opening"])
     assert len(violations) == 1
     assert violations[0].fix_suggestion
-    assert "場景" in violations[0].fix_suggestion or "物件" in violations[0].fix_suggestion
+    assert "scene" in violations[0].fix_suggestion or "object" in violations[0].fix_suggestion

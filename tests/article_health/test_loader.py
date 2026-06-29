@@ -49,24 +49,27 @@ def test_no_frontmatter(tmp_path):
     assert target.body == target.text
 
 
-def test_path_derives_zh_tw(tmp_path):
+def test_path_derives_en_source(tmp_path):
+    # LB is English-default: knowledge/{Category}/{slug}.md is the en SSOT source.
     knowledge = tmp_path / "knowledge" / "Nature"
-    knowledge.mkdir(parents=True)
-    f = knowledge / "黃魚鴞.md"
-    f.write_text("---\ntitle: x\n---\nbody\n", encoding="utf-8")
-    target = load_target(f)
-    assert target.lang == "zh-TW"
-    assert target.category == "Nature"
-    assert target.slug == "黃魚鴞"
-
-
-def test_path_derives_translation(tmp_path):
-    knowledge = tmp_path / "knowledge" / "en" / "Nature"
     knowledge.mkdir(parents=True)
     f = knowledge / "tawny-fish-owl.md"
     f.write_text("---\ntitle: x\n---\nbody\n", encoding="utf-8")
     target = load_target(f)
     assert target.lang == "en"
+    assert target.category == "Nature"
+    assert target.slug == "tawny-fish-owl"
+    assert not target.is_translation
+
+
+def test_path_derives_translation(tmp_path):
+    # knowledge/{lang}/{Category}/{slug}.md is a translation (e.g. zh-TW).
+    knowledge = tmp_path / "knowledge" / "zh-TW" / "Nature"
+    knowledge.mkdir(parents=True)
+    f = knowledge / "tawny-fish-owl.md"
+    f.write_text("---\ntitle: x\n---\nbody\n", encoding="utf-8")
+    target = load_target(f)
+    assert target.lang == "zh-TW"
     assert target.category == "Nature"
     assert target.slug == "tawny-fish-owl"
     assert target.is_translation

@@ -79,29 +79,29 @@ def test_wikilink_with_alias(tmp_path, monkeypatch):
 def test_overview_blockquote_missing_warn(tmp_path):
     body = textwrap.dedent(
         """\
-        ## 開頭段落
+        ## Opening
 
-        正文
+        Body text
         """
     )
     target = load_target(_write_article(tmp_path, body))
     violations = list(format_structure.check(target, {}))
-    assert any("30 秒概覽" in v.message for v in violations)
+    assert any("At a glance" in v.message for v in violations)
 
 
 def test_overview_blockquote_present_passes(tmp_path):
     body = textwrap.dedent(
         """\
-        > **30 秒概覽**: 文章主旨
+        > **At a glance**: article thesis
 
-        ## 開頭
+        ## Opening
 
-        正文
+        Body text
         """
     )
     target = load_target(_write_article(tmp_path, body))
     violations = list(format_structure.check(target, {}))
-    overview_warns = [v for v in violations if "30 秒概覽" in v.message]
+    overview_warns = [v for v in violations if "At a glance" in v.message]
     assert overview_warns == []
 
 
@@ -125,51 +125,51 @@ def test_list_wikilink_residual_hard(tmp_path):
 def test_footnote_use_without_def_hard(tmp_path):
     body = textwrap.dedent(
         """\
-        > **30 秒概覽**: x
+        > **At a glance**: x
 
-        段落使用[^1]但沒定義。
+        Body uses[^1] but has no definition.
         """
     )
     target = load_target(_write_article(tmp_path, body))
     violations = list(format_structure.check(target, {}))
     hard = [v for v in violations if v.severity == Severity.HARD]
-    assert any("無 `[^N]:` 定義" in v.message for v in hard)
+    assert any("no `[^N]:` definitions" in v.message for v in hard)
 
 
 def test_references_h2_required_when_footnotes_used(tmp_path):
     body = textwrap.dedent(
         """\
-        > **30 秒概覽**: x
+        > **At a glance**: x
 
-        正文[^1]。
+        Body[^1].
 
         [^1]: [Source](https://e.com) — desc enough chars
         """
     )
     target = load_target(_write_article(tmp_path, body))
     violations = list(format_structure.check(target, {}))
-    refs_warns = [v for v in violations if "參考資料" in v.message]
+    refs_warns = [v for v in violations if "References" in v.message]
     assert len(refs_warns) == 1
 
 
 def test_complete_structure_passes(tmp_path):
     body = textwrap.dedent(
         """\
-        > **30 秒概覽**: 文章主旨
+        > **At a glance**: article thesis
 
-        ## 段落
+        ## Section
 
-        正文[^1]。
+        Body[^1].
 
-        ## 延伸閱讀
+        ## Further Reading
 
-        - [文章 A](/cat/a)
+        - [Article A](/cat/a)
 
-        ## 參考資料
+        ## References
 
         [^1]: [src](https://e.com) — desc enough chars
         """
-    ) + "\n".join(["延伸"] * 50)
+    ) + "\n".join(["filler"] * 50)
     target = load_target(_write_article(tmp_path, body))
     violations = list(format_structure.check(target, {}))
     # No structural issues expected
