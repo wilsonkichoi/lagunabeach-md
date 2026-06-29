@@ -151,17 +151,17 @@ src/content/es/
 # Runtime task folders, session logs, SQLite — 不入 repo
 # Strategy: reports/harvest-engine-strategy-2026-04-27.md §8
 .harvest/
-docs/semiont/harvest/backend/node_modules/
-docs/semiont/harvest/backend/dist/
-docs/semiont/harvest/backend/*.db
-docs/semiont/harvest/backend/*.db-journal
-docs/semiont/harvest/backend/*.db-wal
-docs/semiont/harvest/backend/*.db-shm
-docs/semiont/harvest/backend/.env
-docs/semiont/harvest/ui/node_modules/
-docs/semiont/harvest/ui/dist/
-docs/semiont/harvest/ui/.astro/
-docs/semiont/harvest/ui/.env
+harvest/backend/node_modules/
+harvest/backend/dist/
+harvest/backend/*.db
+harvest/backend/*.db-journal
+harvest/backend/*.db-wal
+harvest/backend/*.db-shm
+harvest/backend/.env
+harvest/ui/node_modules/
+harvest/ui/dist/
+harvest/ui/.astro/
+harvest/ui/.env
 
 # lang-sync workflow intermediate briefs (refresh.sh output)
 .lang-sync-tasks/
