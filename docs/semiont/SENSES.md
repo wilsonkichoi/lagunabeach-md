@@ -20,13 +20,13 @@ superseded_by:
 
 ## Where the 5 tentacles go (cross-walk)
 
-| Tentacle                         | Nature            | Canonical destination                                          |
-| -------------------------------- | ----------------- | -------------------------------------------------------------- |
-| 📊 Traffic (analytics)           | Passive, API read | [DATA-REFRESH-PIPELINE](../pipelines/DATA-REFRESH-PIPELINE.md) |
-| 🔍 Search                        | Passive, API read | [DATA-REFRESH-PIPELINE](../pipelines/DATA-REFRESH-PIPELINE.md) |
-| ☁️ Crawlers                      | Passive, API read | [DATA-REFRESH-PIPELINE](../pipelines/DATA-REFRESH-PIPELINE.md) |
-| 📮 Community internal (PR/Issue) | Two-way           | [MAINTAINER-PIPELINE](../pipelines/MAINTAINER-PIPELINE.md)     |
-| 📡 Community external (social)   | Two-way           | Inherited but unwired — LB has no social presence              |
+| Tentacle                         | Nature            | Canonical destination                                                         |
+| -------------------------------- | ----------------- | ----------------------------------------------------------------------------- |
+| 📊 Traffic (analytics)           | Passive, API read | [DATA-REFRESH-PIPELINE](../pipelines/DATA-REFRESH-PIPELINE.md)                |
+| 🔍 Search                        | Passive, API read | [DATA-REFRESH-PIPELINE](../pipelines/DATA-REFRESH-PIPELINE.md)                |
+| ☁️ Crawlers                      | Passive, API read | [DATA-REFRESH-PIPELINE](../pipelines/DATA-REFRESH-PIPELINE.md)                |
+| 📮 Community internal (PR/Issue) | Two-way           | [MAINTAINER-PIPELINE](../pipelines/MAINTAINER-PIPELINE.md)                    |
+| 📡 Community external (social)   | Two-way           | Being readied for LB — active organ; launch blocked only on creating accounts |
 
 ## §AI-autonomy vs Human boundary
 

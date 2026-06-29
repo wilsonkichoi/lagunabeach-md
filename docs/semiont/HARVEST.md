@@ -92,7 +92,7 @@ Each task type maps to one profile; a profile defines which files a spawned sess
 | `maintainer`       | ~20K       | MANIFESTO + MAINTAINER-PIPELINE + DNA                             | pr-review, issue-handle, contributor-thank           |
 | `full-awakening`   | ~80-120K   | BECOME_LAGUNABEACH (full cognitive organs + today's memory/diary) | heartbeat, evolve, self-diagnose, daily-report-write |
 
-> The `spore-publishing` profile and the `spore-*` task types target the **social/spore organ**, which LagunaBeach.md does not operate (no social presence yet). They are kept as inherited design; in this fork they stay dormant rather than being rewritten into an LB equivalent.
+> The `spore-publishing` profile and the `spore-*` task types target the **social/spore organ**. LagunaBeach.md is building toward a social presence — this is active work, not a someday-maybe. The organ is kept LB-ready: prose/branding regrounded to LB now, code de-Taiwaned and de-bugged as we go, so launching is a switch-flip (create the accounts, wire credentials), not a rebuild. The one external blocker is account creation; everything code-side gets readied in parallel.
 
 **Rules:**
 
