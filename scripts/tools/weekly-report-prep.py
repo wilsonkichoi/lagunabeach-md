@@ -8,7 +8,7 @@ weekly-report-prep.py — Taiwan.md 週報「切菜」工具
   + 列出 Semiont 必讀的 memory/diary 檔案清單。
 - **這份工具不寫週報本身**。週報是 Semiont 親自讀 dossier + 完整 raw
   memory/diary + 寫出來的紀實散文，文體規範參照 DIARY-PIPELINE /
-  MEMORY-PIPELINE / MANIFESTO §11。
+  MEMORY-PIPELINE / MANIFESTO Belief #11。
 - prose-health gate 在 Semiont 寫完報告之後才跑（不在本 prep 階段）。
 
 Usage:

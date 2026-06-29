@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Taiwan.md Dashboard Data Generator
+ * LagunaBeach.md Dashboard Data Generator
  * Generates dashboard JSON data at build time from knowledge base SSOT.
  *
  * Usage: node scripts/generate-dashboard-data.js
@@ -340,10 +340,10 @@ function getGitInfo(filePath) {
 // ---------------------------------------------------------------------------
 // MUST preserve original case — Astro's [category]/[slug].astro uses
 // `basename(file, '.md')` which preserves case. Lowercasing here produced
-// broken dashboard links (TikTok → tiktok, Dcard → dcard, 台灣YouBike →
-// 台灣youbike, etc.). Bug fix 2026-04-15 γ session: 32 files had uppercase
-// in filename, ~20 were driving a significant chunk of the CF 404 rate.
-// See PR #517 (Link1515) who identified the symptom.
+// broken dashboard links (e.g. `Victoria-Beach` → `victoria-beach`). Bug fix
+// 2026-04-15 γ session: 32 files had uppercase in the filename, ~20 were driving
+// a significant chunk of the CF 404 rate. (Inherited from upstream Taiwan.md,
+// where the original symptom was uppercase social-platform slugs.)
 function deriveSlug(fileName) {
   // fileName without .md extension
   return fileName
@@ -354,7 +354,7 @@ function deriveSlug(fileName) {
 }
 
 // ---------------------------------------------------------------------------
-// Quality score cache (from quality-scan --json)
+// Quality score cache (from article-health prose-health --json)
 // ---------------------------------------------------------------------------
 function loadQualityScores() {
   const scores = new Map();
@@ -556,7 +556,7 @@ async function main() {
           (featured ? 10 : 0),
       );
 
-      // Quality score from cached quality-scan baseline (keys are lowercase)
+      // Quality score from cached prose-health baseline (keys are lowercase)
       const qKey = raw.relativePath.toLowerCase();
       const qData = qualityScores.get(qKey);
       const qualityScore = qData ? qData.score : 0; // 0 = passed (not in flagged list)
