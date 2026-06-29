@@ -15,5 +15,6 @@ This directory previously held ~650 Taiwan.md memory files inherited from the
 fork — operational diary entries from upstream's 16 production cron routines,
 tied to its real articles and social accounts. They were removed because they are
 another organism's runtime log, not design rationale worth preserving. The
-upstream _design_ docs (`ROUTINE.md`, the Chinese `docs/semiont/*` files) remain
-untouched as inheritance; only the runtime memory log was dropped.
+upstream _design_ docs (`ROUTINE.md` and the rest of `docs/semiont/*`) are being
+ported to English/LB per `MIGRATION.md`'s Operating doctrine — prose regrounded
+now, only organ activation deferred; this runtime memory log was dropped outright.
