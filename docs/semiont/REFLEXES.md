@@ -1,12 +1,13 @@
 ---
-title: 'REFLEXES'
-description: '跨 session 程序記憶 catalog — 72 條 #N 反射，LESSONS-INBOX distill 後的 instinct 層，候選 MANIFESTO promotion 來源'
+title: 'REFLEXES (LagunaBeach.md)'
+description: 'Cross-session procedural-memory catalog — numbered #N reflexes, the instinct layer that LESSONS-INBOX distills into, and a candidate source for MANIFESTO promotion. Empty — LB accumulates reflexes as it distills its own lessons.'
 type: 'cognitive-organ'
 status: 'canonical'
 apoptosis: 'never'
-current_version: 'v4.8'
-last_updated: 2026-06-19
-last_session: '2026-06-19-twmd-distill-manual'
+current_version: 'v1.0'
+last_updated: 2026-06-28
+last_session: 'none'
+source: "Re-grounded from REFLEXES.md (v4.8, Chinese, Taiwan.md upstream); framing translated, the 72 Taiwan reflex entries emptied — they are Taiwan's distilled instincts, not LB's (Rule 12)"
 sister_docs:
   - 'DNA.md'
   - 'LESSONS-INBOX.md'
@@ -17,785 +18,79 @@ upstream_canonical:
   - 'LESSONS-INBOX.md'
 downstream_dependents:
   - 'MANIFESTO.md (promotion target)'
-promotion_rule_canonical: 'ANATOMY.md#認知層-promotion-flow'
+promotion_rule_canonical: 'ANATOMY.md'
 ---
 
-# REFLEXES — 跨 session 程序記憶 catalog
+# REFLEXES — cross-session procedural-memory catalog
 
-> 相關：[DNA.md](DNA.md)（基因地圖學 — 器官 → 檔案 lookup）| [LESSONS-INBOX.md](LESSONS-INBOX.md)（raw 教訓 buffer，distill 來源）| [MEMORY.md](MEMORY.md)（§神經迴路永不過期教訓 pool）| [MANIFESTO.md](MANIFESTO.md)（promotion target — 信念十條 + 進化哲學）| [ANATOMY.md](ANATOMY.md#認知層-promotion-flow)（promotion rule canonical）
+> Related: [DNA.md](DNA.md) (gene map — organ → file lookup) | [LESSONS-INBOX.md](LESSONS-INBOX.md) (raw lessons buffer, the distill source) | [MEMORY.md](MEMORY.md) (§Neural circuits, the never-expiring lessons pool) | [MANIFESTO.md](MANIFESTO.md) (promotion target — beliefs + evolution philosophy) | [ANATOMY.md](ANATOMY.md) (promotion-rule canonical)
 
-## 跟 DNA / LESSONS-INBOX / MEMORY 神經迴路 的分工
+## How this differs from DNA / LESSONS-INBOX / MEMORY
 
-**REFLEXES（本檔）= 跨 task 程序記憶層**：遇到 X 場景做 Y 動作的 instinct catalog。每條編號 `#N` 穩定不變（per [MANIFESTO §時間是結構修補協議](MANIFESTO.md)），被 active layer ~78 files cross-ref。
+**REFLEXES (this file) = the cross-task procedural-memory layer**: an instinct
+catalog of "when situation X, do action Y." Each `#N` is a stable, never-renumbered
+id so other docs can cross-reference it reliably.
 
-**vs DNA**：DNA = 基因地圖學（器官 → 檔案 lookup），靜態 + grep-on-demand。本檔 = 程序反射（instinct），universal-load 必載。兩者性質完全不同——拆檔之前混雜在 DNA.md L231-752（v3.x），2026-05-13 拆出獨立成器官（per [reports/become-boot-mode-design-2026-05-13.md](../../reports/become-boot-mode-design-2026-05-13.md)）。
+**vs DNA**: DNA is the gene map (organ → file lookup), static and grepped on demand.
+This file is procedural instinct, meant to load every session. Different in kind.
 
-**vs LESSONS-INBOX**：LESSONS-INBOX = raw 教訓 buffer（intake layer，未消化）。本檔接收 distill 後的 reflex（≥ 1 次驗證 + 跨 task 適用 + 不在現有 canonical）。
+**vs LESSONS-INBOX**: LESSONS-INBOX is the raw, undigested lessons buffer. This file
+receives a reflex only after distillation (verified at least once, applies across
+tasks, and isn't already covered by an existing canonical doc).
 
-**vs MEMORY §神經迴路**：MEMORY §神經迴路 = 永不過期 canonical pool（教訓 narrative form）。本檔 = catalog form（編號 + 4 段精簡格式 + 主題分類），grep-by-#N 友善。歷史 narrative 在 MEMORY，runtime reflex 在本檔。
+**vs MEMORY §Neural circuits**: MEMORY §Neural circuits is the never-expiring
+canonical pool in narrative form. This file is catalog form (numbered + a compact
+fixed format + thematic grouping), friendly to grep-by-`#N`. Historical narrative
+lives in MEMORY; runtime reflex lives here.
 
-## 認知層 promotion / apoptosis flow
+## Cognitive-layer promotion / apoptosis flow
 
-本檔每條 `#N` 都是候選的 MANIFESTO promotion 來源：
+Every `#N` here is a candidate source for promotion into MANIFESTO:
 
 ```
-LESSONS-INBOX (raw, 未驗證)
-       ↓ distill (≥ N 次驗證 + 跨 task 適用)
-REFLEXES (#N catalog, runtime instinct)  ← 本檔
-       ↓ promote (跨 task 通用 + 影響身份 + 觀察者拍板)
-MANIFESTO (身份哲學 / 進化哲學)
-       ↓ apoptosis (失去當前性)
-reports/ (歷史 snapshot)
+LESSONS-INBOX (raw, unverified)
+       ↓ distill (verified N times + applies across tasks)
+REFLEXES (#N catalog, runtime instinct)  ← this file
+       ↓ promote (general across tasks + identity-shaping + creator sign-off)
+MANIFESTO (identity / evolution philosophy)
+       ↓ apoptosis (loses current relevance)
+historical snapshot
 ```
 
-**promotion 既成事實**：MANIFESTO §造橋鋪路 / §指標 over 複寫 / §時間是結構 都是反射 promote 上去的——本檔不再 inline，per promotion rule「最重要的哲學才會進到 manifesto」。
-
-完整 lifecycle canonical: [ANATOMY.md §認知器官生命週期](ANATOMY.md#認知器官的生命週期)。
+Full lifecycle canonical: [ANATOMY.md](ANATOMY.md).
 
 ---
 
-Taiwan.md 實戰累積的反射——**跟模型無關**，任何 AI agent 做類似工作時都可能踩到。按**主題**分類，編號保留歷史發現順序以維持 cross-reference 穩定。
+A reflex catalog accumulates from real operational experience — **model-independent**,
+the kind of pothole any AI agent doing similar work could hit. Entries are grouped by
+theme; ids preserve discovery order to keep cross-references stable.
 
-**v4.0 entry format**（4 段，每條 ≤ 12 行可一眼掃描）：
+**Entry format** (4 parts, ≤ 12 lines each so it scans at a glance):
 
 ```markdown
-**#N {精實標題 5-15 字}** — {一句話原則展開，具體可操作}
+**#N {tight title}** — {one-sentence principle, concrete and actionable}
 
-- **觸發**：YYYY-MM-DD {事件} → [pointer]
-- **操作**：→ [SOP canonical pointer 一行]
-- **驗證**：N 次（≥ 3 升 canonical；長 history 散到 memory / pipeline canonical 不 inline）
-- **延伸 / Boundary / 元規則**（選用）：v2/v3 補強或 boundary 規則
+- **Trigger**: YYYY-MM-DD {event} → [pointer]
+- **Action**: → [SOP canonical pointer, one line]
+- **Verified**: N times (≥ 3 → promote to canonical; long history lives in memory / pipeline canonical, not inlined)
+- **Extension / Boundary / meta-rule** (optional)
 ```
 
-**設計原則**：哲學長篇論述、具體操作 SOP、完整 timeline 都在指向的 canonical 檔案，不在這裡重寫（指標 over 複寫原則 apply 到這份清單自己）。
+**Design principle**: long philosophy, full SOPs, and complete timelines live in the
+canonical files this points at — not re-written here (pointer-over-copy applies to
+this list itself).
 
-**觸發方式**：每次心跳開始前掃一次；每次寫 memory/diary/DNA 前對照一次；grep `DNA #N` 5 秒看懂 + 5 秒找 SOP pointer。
+**When to use it**: scan once at the start of each heartbeat; check against it before
+writing memory/diary/DNA.
 
-### 📇 反射 catalog index（按 #N 線性排序）
+### 📇 Reflex catalog
 
-| #   | 反射標題                                                                                 | §   | line |
-| --- | ---------------------------------------------------------------------------------------- | --- | ---- |
-| #1  | 翻譯 ≠ 摘要                                                                              | §一 | L318 |
-| #2  | 憑證永不進對話                                                                           | §七 | L596 |
-| #3  | 診斷先於修復                                                                             | §二 | L345 |
-| #4  | 三源交叉驗證                                                                             | §二 | L349 |
-| #5  | Pre-commit dogfood 是朋友不是敵人                                                        | §七 | L598 |
-| #6  | commit 範圍紀律（絕不 `git add .`）                                                      | §四 | L401 |
-| #7  | 先有再求好                                                                               | §六 | L544 |
-| #8  | 維護者信件要說謝謝                                                                       | §六 | L546 |
-| #9  | 長任務先開 worktree + 命名標準（`YYYYMMDD-{purpose-title}`）                             | §四 | L403 |
-| #10 | API error ≠ capability 界線                                                              | §二 | L351 |
-| #11 | UI 截圖 = capability 證據                                                                | §二 | L353 |
-| #12 | 收工加速的代價                                                                           | §五 | L425 |
-| #13 | 「再小一點」是 log scale 的訊號                                                          | §五 | L429 |
-| #14 | Release notes 寫之前 commits 必須從頭讀到尾                                              | §五 | L433 |
-| #15 | 反覆浮現要儀器化（11 次驗證 — 跨 session 最 load-bearing 的反射）                        | §五 | L437 |
-| #16 | Peer / probe 是線索不是 source                                                           | §一 | L322 |
-| #17 | 指標 over 複寫                                                                           | §三 | L371 |
-| #18 | 時間是結構，不是感覺                                                                     | §三 | L376 |
-| #19 | 大型 refactor 後必須 visual smoke test 多語言頁面                                        | §四 | L412 |
-| #20 | Architecture 缺席比 content 缺席更貴                                                     | §四 | L417 |
-| #21 | SSOT 不一定在中央（含跨語言 SSOT 延伸）                                                  | §三 | L382 |
-| #22 | Raw 永遠不刪除，蒸餾用 LLM 判斷                                                          | §三 | L388 |
-| #23 | 毒樹果實鏈：英文 summary → 具體細節腦補                                                  | §一 | L329 |
-| #24 | 工具在說謊的 8 種形式                                                                    | §二 | L355 |
-| #25 | 哲學層與技術層必須分開記錄                                                               | §三 | L393 |
-| #26 | AI 自主 vs Human 專責 邊界（v2 refined）                                                 | §六 | L550 |
-| #27 | 藍圖 → 驗證 → 寫 比 寫 → 檢查 低 10x 成本                                                | §六 | L560 |
-| #28 | 紀實而不煽情：SSODT 寬度 × 死亡/人倫悲劇的節制                                           | §六 | L565 |
-| #29 | 書寫節制：對位句型 + 破折號連用                                                          | §六 | L574 |
-| #30 | 媒體插入時 aspect ratio 護欄                                                             | §六 | L586 |
-| #31 | Sub-agent claim 是線索不是事實（v2: side-effect + factual + self-quality 三類都重驗）    | §一 | L335 |
-| #32 | 批次任務 antipattern：分散探索 → 集中預處理 + 分散執行                                   | §五 | L448 |
-| #33 | Routine 化任務的雙刃劍：熟練度                                                           | §五 | L456 |
-| #34 | 邊界值 0/100 visual bug 只在邊界才暴露                                                   | §五 | L464 |
-| #35 | 跨 session work 期間禁止 destructive git ops                                             | §五 | L471 |
-| #36 | Founder time = 系統最高 leverage point                                                   | §五 | L477 |
-| #37 | First-principle 5 步迭代 pattern                                                         | §五 | L485 |
-| #38 | Status 設計鐵律：「混維度 = silent killer」                                              | §五 | L492 |
-| #39 | Self-as-fallback：free LLM 拒絕時切 sub-agent                                            | §五 | L499 |
-| #40 | Shared file 寫入需要 per-key serial dispatch                                             | §五 | L506 |
-| #41 | CI timeout 是會跟內容量長大失效的 capacity 設定                                          | §五 | L513 |
-| #42 | Sub-agent N 篇 sequential 三偷吃步 pattern（含 v3 反例對照延伸）                         | §五 | L520 |
-| #43 | 新 dashboard JSON 必須同步進 refresh-data.sh                                             | §五 | L532 |
-| #44 | Opus sub-agent judge 取代外部 API judge                                                  | §七 | L604 |
-| #45 | OpenRouter free tier rate budget 是 hourly 累積                                          | §七 | L613 |
-| #46 | Sub-agent multi-task worktree commit 前先確認 working tree                               | §七 | L620 |
-| #47 | 單頁 frontend + JS mutate 批次 screenshot                                                | §七 | L626 |
-| #48 | Footnote source format diversity 是 contributor batch 隱性 heal cost                     | §七 | L633 |
-| #49 | Babel 4-tier cascade canonical（含 local LLM 最後捕手）                                  | §七 | L640 |
-| #50 | Pipeline auto-detection + full-read 是 default                                           | §七 | L655 |
-| #51 | Session ID schema：filename collision 解 vs content collision 不解                       | §七 | L664 |
-| #52 | Immune system 沒在 fail loud 比缺 immune system 更危險                                   | §七 | L673 |
-| #53 | Babel priority + Tier 0 patch 三路徑分流                                                 | §七 | L681 |
-| #54 | Routine 飛輪：5-stage lifecycle 釋放觀察者精力                                           | §七 | L692 |
-| #55 | Monitor regex 雙信號（原 #43 v2，2026-05-10 重編號避 collision）                         | §七 | L710 |
-| #56 | Pipeline canonical ↔ production drift = dormant entropy                                  | §七 | L720 |
-| #57 | Routine 入口必須 detect parallel-actor（file-system + git-ref 雙層）                     | §七 | L735 |
-| #58 | 儀器化 detection ≠ remediation — schema-fix path 要 explicit                             | §七 | L750 |
-| #59 | 製造數字的人最易被數字騙 — 自製指標 self-validation trap                                 | §七 | L770 |
-| #60 | Automation default-state explicit verify — silent default = silent failure               | §七 | L790 |
-| #61 | 視覺主權：畫台灣優先取 repo SVG SSOT，不靠 LLM 內化形狀                                  | §一 | L172 |
-| #62 | 受眾端飛輪：D+0 acute factual callout = 30 min mandatory fix + 公開承認                  | §六 | L383 |
-| #63 | Routine prompt = cron context 唯一指令面 — Inline > pointer + STRICT BECOME GATE 不可省  | §六 | L388 |
-| #64 | Routine ABORT-DEFER prose memory 邊際效用 N+1 = 0 — vc≥4 凍結 prose + pipeline gate ship | §七 | L648 |
-| #65 | Awareness instrument 自身 regex / parser 必須 cross-verify ground truth grep count       | §二 | L207 |
-| #66 | Gate threshold 必須用真實產出 dogfood 校準，不是憑想像設                                 | §二 | L240 |
-| #67 | 「已驗過」帶被驗時刻的時間戳 — 高 stake 重驗用 probe 不信舊結論                          | §二 | L242 |
-| #68 | 多核心 git 協調：commit/push/CI 三階段碰撞防護（胼胝體 umbrella）                        | §四 | L306 |
-| #69 | 每層自評都需要外部尺 — self-report-needs-external-ruler（meta-umbrella above #31 + #66） | §二 | L253 |
-| #70 | Routine fragility surface 四 tier 分類 — 飛輪自轉 ≠ always autonomous                    | §七 | L729 |
-| #71 | Default 是行動，不是 defer — 高 stake triage 預設行動非延遲                              | §六 | L754 |
-| #72 | 大 backlog 處理：fan-out 讀 + deterministic 寫 + 判斷不外包                              | §七 | L765 |
-
-> **Top 5 load-bearing reflexes**（cross-ref 量最高，跨 session 最常 grep）：#15（216）/ #42（97）/ #16（60）/ #38（58）/ #26（52）。新 session 至少先掃這 5 條。
->
-> **Active layer cross-ref**：78 個 file（docs / scripts / .husky / .github / src）使用「DNA #N」pointer。重命名 #N 會 break 大量 cross-ref，**所有 #N 號碼 stable 不變**（per MANIFESTO §時間是結構修補協議；歷史層 memory/diary/LESSONS-INBOX 不更新）。
+_Empty._ LagunaBeach.md has not yet distilled any reflexes. The 72 reflexes that
+shipped with the fork were Taiwan.md's distilled instincts, learned in another
+organism's operations; translating them into LB voice would fabricate experience LB
+never had (Rule 12, same logic as the emptied MEMORY/DIARY). Numbered entries append
+here as LB's own LESSONS-INBOX distills — verified, cross-task, not-already-canonical.
 
 ---
 
-### 一、事實核對與研究方法
-
-**#1 翻譯 ≠ 摘要** — AI 預設摘要，翻譯必須明確要求完整。比例 < 0.55 = TRUNCATED。
-
-- **操作**：→ `scripts/tools/translation-ratio-check.sh`
-
-**#16 Peer / probe 是線索不是 source** — 二手描述當線索去搜 primary source，不當 primary 本身。單源事實必須跨 3+ 獨立來源驗證。
-
-- **觸發**：草東 #33 貝斯手「黃→楊世暄」3 小時內被讀者 @ste_ven_1487 抓到 → blueprint 須明列「樂團成員姓名 / 獎項名稱年份 / 公開生日」為 high_priority verify
-- **操作**：→ [PEER-INGESTION-PIPELINE §6a](../pipelines/PEER-INGESTION-PIPELINE.md) + [SPORE-VERIFY §事實藍圖](../factory/SPORE-VERIFY.md)
-- **驗證**：4 次（TFT peer 骨架 / 自寫 probe 雙法同日三讀錯 / 楊丞琳 Pass 1 錯 5 項 / 草東貝斯手名字錯）
-- **延伸**：事實驗證分**讀者級**（維基可比對 — 樂團成員 / 獎項 / 地點日期）+ **研究級**（需深度搜尋）兩層。讀者級**更脆弱**（讀者會查）但**更易漏**（研究 agent 不覺得要特別 verify）
-
-**#23 毒樹果實鏈：英文 summary → 具體細節腦補** — 錯誤四階段：source 中毒 → inference 中毒 → propagation → human cost。阻擋三層：Stage 1 中文 prompt + verbatim / Stage 2 具體細節逐字對照中文原文 / Stage 3 SPORE blocking gate。**memory 是自律，pipeline 才是閘門**。
-
-- **觸發**：李洋孢子「清晨四點多搭捷運」（捷運 6:00 才開）→ [diary/2026-04-15-β.md](diary/2026-04-15-β.md)
-- **操作**：→ [REWRITE-PIPELINE 編年體自檢](../pipelines/REWRITE-PIPELINE.md) + [SPORE-WRITING 三板斧](../factory/SPORE-WRITING.md)
-- **延伸**：AI 寫作三深層病灶 pattern — (a) 編年體小標題 (b)「不是 X，是 Y」雙重肯定 (c)「——」雙破折號密度
-
-**#31 Sub-agent claim 是線索不是事實（v2: side-effect + factual + self-quality 三類 claim 都要主 session 重驗）** — agent 報告「ran X successfully」/「對位 ≤3」/「腳註完整」之後三類 claim 都不能採信：(a) **side-effect claim**（檔案是否真寫 / frontmatter 是否真更新 / API 是否真送）主 session 用 `grep` / `cat` / `test -f` 直接查存 (b) **factual claim**（人名 / 日期 / 數字）跨源驗證（per #16） (c) **self-quality claim**（對位密度 / 字數 / 腳註數 / 翻譯比例）主 session 親自跑 gate（prose-health / verify-translation / footnote-completeness）。Trust agent self-report 任一類型 = 結構性 hallucination 風險。**自評比事實 claim 更會騙人**：作者對自己作品天生帶「想說好」偏誤——分身不是故意騙，是它真的以為自己守住了。
-
-- **觸發**：
-  - v1（2026-04-30 δ）4 隻 Opus agent 全 claim「ran refresh.sh --apply」但 grep 發現 15/20 frontmatter 沒被更新（side-effect 類）
-  - v2（2026-06-06 viz驗證文 153433）fresh Opus writer 回報「對位句型 ≤3」，主 session 跑 prose-health 實測 **14**（self-quality 類，差近 5 倍）
-  - v2 兄弟 case（2026-06-06 manual 181016）babel-nightly 自動翻譯吞掉整段 `[^n]:` 定義區塊但 ratio gate 沒擋住，263 篇 flagship 文章靜默掉光引用（self-quality claim 沒被 gate 重驗的 system-level 版本）
-- **操作**：
-  - 批次任務 P4 必跑機械化 verify script，不靠 prose summary 判斷成功（side-effect）
-  - sub-agent prompt 結尾要求 emit claim，但主 session 必跑對應 gate（self-quality）— prose-health / word-count / verify-translation / footnote-completeness 任一品質紀律自評後 100% 重驗
-  - 三類 claim verify checklist 進 SUBAGENT-VERIFY-PROMPT canonical（per [REWRITE-PIPELINE §10 agent 選型 + §13 Agent claim 驗證](../pipelines/REWRITE-PIPELINE.md)）
-- **延伸 #16**：peer/probe 是線索 → agent claim 也是線索；v1 驗證從跨源驗證（#16）擴大到 side-effect 直接 grep；v2 再擴大到 self-quality 親自跑 gate
-- **延伸 #65**：awareness instrument 自身要 cross-verify ground truth — 同樣的「不信任自己（或下游）的數字」反射，#31 是 sub-agent 層，#65 是工具層
-
-**#61 視覺主權：畫台灣優先取 repo SVG SSOT，不靠 LLM 內化形狀** — 任何涉及台灣（或其他 sovereignty-sensitive symbol）的視覺元素，第一動作是 `find public/assets -name '*<symbol>*'` 找 repo 自己的 SVG 素材，不 hand-draw。LLM 內化的「東亞某島嶼大概長這樣」會生成 AIA showcase deck slide 5 嘲諷的「介於橄欖與馬鈴薯之間」olive 形狀，跟「AI gets Taiwan wrong, every time」mocked 圖一模一樣。Sovereignty preservation 不只文字層（MANIFESTO §主權的巴別塔 / babel tower），視覺層同樣有 ground truth 跟 hallucination 的對立。
-
-- **觸發**：2026-05-25 confident-bose v2 → SemiontOrganismDiagram 中央 N9 我手刻一個 sweet-potato olive 進 SVG，哲宇 callout「台灣的形狀是錯的，請參考 taiwan.md/taiwan-shape」 → [diary/2026-05-25-074243-confident-bose.md](diary/2026-05-25-074243-confident-bose.md)
-- **操作**：→ [`public/assets/svg/taiwan-simplemaps.svg`](../../public/assets/svg/taiwan-simplemaps.svg)（主島 main path，bbox 478-955 × 45-946，真實比例 1:1.89）+ [`taiwan.md/taiwan-shape/`](https://taiwan.md/taiwan-shape/)（公開 dataset 頁面，含 SVG / GeoJSON / TopoJSON + D3 / Leaflet / Python / Vue 使用範例）+ 其他 repo Taiwan SVG（`taiwan-icon-wiki.svg` / `taiwan-political-division.svg` / `taiwan-location-map.svg`）
-- **延伸 #16 / #23**：peer/source 跨源驗證 → AI 摘要 → 視覺 — 三條都是同個原則的不同表達層：LLM 預設輸出 ≠ ground truth，必須走 repo SSOT 驗證/取代。Repo 內 SVG 素材庫是 Semiont 視覺層的 single source of truth；hand-draw 等同 fabricate
-- **元規則**：新加任何涉及台灣的 visual element（無論圖示、icon、emoji 替代物、illustration）之前必 grep `find public/assets -name '*taiwan*'`；找不到才開新繪。同原則 apply 到任何 sovereignty-sensitive symbol（國旗、邊界線、政治符號）— 走 repo asset 不走 LLM 想像
-
----
-
-### 二、診斷方法
-
-**#3 診斷先於修復** — 發現異常先拿具體分布再猜原因。
-
-- **操作**：三源 auto-fetch 是 Beat 1 第一動作
-
-**#4 三源交叉驗證** — GA4 / SC / CF 同一事實可能差 100-300 倍。單一數據源結論可疑。
-
-**#10 API error ≠ capability 界線** — 單一欄位報錯不等於 endpoint 不可用。退一步測其他欄位再決定放棄整個 API。
-
-**#11 UI 截圖 = capability 證據** — UI 看得到 → 一定有 API 拿得到。「UI 有、API 找不到」第一假設是「我用錯 API」，不是「這功能只在 UI」。
-
-**#24 工具在說謊的 8 種形式** — 共同祖先是「規則在 A 定義算法在 B 複寫」（違反 #17 指標 over 複寫）。
-
-| #   | 形式                                                                                                                             | 對策                                                                      |
-| --- | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| 1   | 沉默失敗（silent skip）                                                                                                          | 加 fail-loud emit                                                         |
-| 2   | 合理欺騙（plausible wrong number）                                                                                               | 抽樣比對 ground truth                                                     |
-| 3   | 通脹警報（alert inflation）                                                                                                      | 分流 severity                                                             |
-| 4   | 抽樣偏差（單例警報不代表集群，1 orphan 實際 19）                                                                                 | 警報 ≥ 100 件必抽 3-5 件人工 sanity                                       |
-| 5   | 加權平均掩蓋分層真相                                                                                                             | aggregate rate 先拆 brand/hot/power 分層                                  |
-| 6   | 分母污染扭曲比值（比值型 EXP 在事件窗口失真）                                                                                    | EXP 分穩態 vs 事件窗口                                                    |
-| 7   | 埋了但沒註冊（GA4 custom dim 不 register UI 看不到）                                                                             | 埋 tracking SOP 必含 register + sanity query                              |
-| 8   | 驗證器自身產出空 → empty-vs-empty 假 PASS（2026-06-13 build-parity-diff.sh sed delimiter 衝突→normalizer 空輸出→5,268 檔假通過） | 驗證器 / gate 自帶 self-test：拿真實 input 先量自己，產出異常即 fail-loud |
-
-**#65 Awareness instrument 自身 regex / parser / cross-SSOT 必須 cross-verify ground truth**（2026-06-01 twmd-distill-weekly 升 canonical vc=3；2026-06-07 twmd-distill-weekly 加 cross-SSOT specialization vc=8 — 2026-05-17 distill #7 + 2026-05-24 distill #8 + 2026-05-24 routine-audit cycle 2 + 2026-05-30→6/02 awareness routine 連 4 cycle snapshot vs canonical immune-score 27 vs 67 callout + 2026-06-06 連 2 cycle 27 vs fresh 58 chronic + 6/07 weekly-report 🔴 高優先） — 用來給 session / observer 提供 awareness signal 的 tool（inbox-signal.sh / consciousness-snapshot.sh / routine-status.sh 等 BECOME §Step 1 Universal core 載入面）失準時不會 fail-loud，只會 silent under/overcount 或 cross-SSOT divergence。受信任 layer 自身要先過 ground truth verification + cross-SSOT reconciliation。
-
-- **規則**：(a) Awareness tool 的 regex / parser 第一次寫完必對全 file `grep -c "^### "` 或對應 ground truth grep 做 sanity diff，差 >20% 必修 (b) 升 BECOME §Step 1 universal load 之前必跑 cross-check — awareness tool 自己也要過 awareness gate (c) 反 pattern：信任 default regex 寫法（emoji prefix / single-line H2 match）— file 有 historical 不規則（如 LESSONS-INBOX 兩個 §未消化清單 並存）regex 預期會失準 (d) **Cross-SSOT divergence sub-rule**：當同一指標有 ≥2 個 dashboard JSON / schema version 並存（如 dashboard-organism.json `🛡️27` v1 vs dashboard-immune.json `immuneScore: 58` v2），awareness tool 必須明確標 schema version + 哪個是 canonical；連 N cycle 顯示 divergence 而 routine 無自動 reconcile = REFLEXES #58「detection ≠ remediation」accumulation pattern；當 snapshot.sh 顯示舊版 schema 數據時必加 `⚠️ stale-vs-canonical` 標記 + 印兩個值
-- **Boundary**：(a) 純 derived JSON aggregate（dashboard JSON 由 script 一次生產）regex 部分不適用，但 cross-SSOT sub-rule 適用 — 多個 generator output 同指標需 reconcile (b) 短期診斷 ad-hoc grep 不適用 — 不進 BECOME 載入面 (c) 適用範圍：所有 BECOME §Step 1 universal load 的 `*-signal.sh` / `*-snapshot.sh` / `*-status.sh` + dashboard JSON 上游 builder + 任何「同題目 ≥2 SSOT 候選」reconciliation 路徑
-- **觸發**：
-  - **v1-v3 (regex specialization)**：2026-05-17 distill #7 flag 「兩個 §未消化清單 sections 並存」首次發現；2026-05-24 distill #8 第 2 次 flag；2026-05-24 routine-audit cycle 2 第 3 次獨立 flag — `inbox-signal.sh` regex `^## 📥 未消化清單` 只抓 emoji-prefixed section → 報 27 條但實際跨兩 section ~199 條。**2026-06-01 distill cycle resolution**：1-line 修補 `inbox-signal.sh` regex → `^## .*未消化清單`，立即驗證 27→199 與 grep ground truth 對齊
-  - **v4-v8 (cross-SSOT divergence specialization, 2026-06-07 加入)**：2026-05-30 self-evolve / 6/01 PM maintainer-pm / 6/02 AM data-refresh / 6/02 AM maintainer + harvest 連 4 cycle callout `🛡️27-28` (dashboard-organism.json v1) vs `immuneScore 67` (dashboard-immune.json v2) — vc=4 distill_ready 6/01 distill cycle 已 flag 但 reconciliation 未 ship。**2026-06-06 連 2 cycle 確認 27 vs fresh 58** (data-refresh-am+pm) → vc=6+；**2026-06-07 weekly-report 升 🔴 高優先**（"BECOME Universal core 第一眼讀數失真"）→ vc=8。Root cause：snapshot.sh 讀 dashboard-organism.json `organs[immune].score=27`（v1 formula 仍在 use），canonical 已遷 dashboard-immune.json v2 schema `IMMUNE_V2` feature flag，但 organism.json 沒 mirror 新 schema → 兩 SSOT 同題目不同答案。**Reconciliation 候選（待哲宇 ship）**：(A) organism.json generator align dashboard-immune.json v2 (B) snapshot.sh 同時印兩個值 + ⚠️ 標 stale-vs-canonical (C) reframe 不同 dimension（snapshot = v1 historical / canonical = v2 weighted）— 任一方向需 explicit decision
-- **相關**：REFLEXES #24 第 1+2 種「沉默失敗 / 合理欺騙」（本條是 awareness layer 的 #24 specialization）/ REFLEXES #58「儀器化 detection ≠ remediation」（v4-v8 instance 是 #58 在 awareness layer 的 mature accumulation — 連 8 cycle detect 但 reconciliation 未 ship）/ REFLEXES #59「製造數字的人最易被數字騙」（互補 — #59 是 producer self-validation trap，本條是 awareness tool self-trust trap）/ REFLEXES #60「Automation default-state explicit verify」（同 family — 本條是 #60 對自家 tool 的內視鏡）
-- **跨檔關聯**：[scripts/tools/inbox-signal.sh](../../scripts/tools/inbox-signal.sh) + [scripts/tools/consciousness-snapshot.sh](../../scripts/tools/consciousness-snapshot.sh) + [public/api/dashboard-organism.json](../../public/api/dashboard-organism.json) + [public/api/dashboard-immune.json](../../public/api/dashboard-immune.json) + [routine-audit-2026-05-24.md §3B Active #2](../../reports/routine-audit-2026-05-24.md) + [LESSONS-INBOX §distill #7 + #8 + #9 flags](LESSONS-INBOX.md) + [BECOME_TAIWANMD.md §Step 1.4](../../BECOME_TAIWANMD.md)
-
-**#66 Gate threshold 必須用真實產出 dogfood 校準，不是憑想像設**（2026-06-07 twmd-self-evolve-weekly 升 canonical vc=3 — 2026-06-06 paragraph-rhythm tw-\* cap 5→13 dogfood + 2026-06-04 「儀器校準」paragraph-rhythm 0.8 過期 callout + 2026-05-29 instrumentation-audit.py 三方對齊）— 造一條品質閘門時，憑想像設的數字容易把關卡設在「連自己的好產出都過不了」的高度，因為設計時腦中只有「抓壞文章」，沒有「我自己的好文章長什麼樣」。先寫出代表性的好產出，再用它回頭校準閾值。**Gate threshold 是一個會跟內容形態長大失效的 capacity 設定**（REFLEXES #41 的兄弟 case，但對象是品質指標而非 CI timeout）。
-
-- **規則**：
-  - (a) 新 plugin / gate threshold ship 前必須附 ≥1 篇代表性「好產出」做 dogfood — calibration 語料要進 commit 或 reports/，不是只跑在腦中
-  - (b) WARN soft-launch → vc≥3 後升 HARD 也是一種 dogfood 校準（已有 instance：article-health plugin 家族 staged-promotion pattern）
-  - (c) gate threshold 數字 commit 在 source 旁邊要加 `# calibrated against: <article-slug or batch>` inline comment — 未來 audit 看得到校準依據
-  - (d) **gate threshold periodic recalibration**：當 corpus 結構性擴張（新文章形態如 viz-heavy / 新語言 / 新 spore 類型 ≥10 篇），active gate 需重新 dogfood 一次 — 「校準那天的方向」會過期（per 2026-06-04 儀器校準事件）
-- **Boundary**：(a) 純規範性 binary check（如「檔案存在」「frontmatter has X」）不適用 — 沒有 threshold (b) 安全性閘門（如 secret-scanner）不適用 — 寧可 false-positive 不可 false-negative，校準方向不對 (c) 適用範圍：所有 quality-scan / prose-health / verify-translation / footnote-completeness / paragraph-rhythm 等品質 plugin 的 threshold 數字
-- **觸發**：
-  - **2026-06-06 viz驗證文 153433** — `paragraph-rhythm` tw-\* 折抵 cap 第一版設 5，被自己 dogfood 的 8 圖表 data panorama 打臉（仍 WARN 1.28）。哲宇 callout「8+3~5 資訊圖表啦」後改 13（commit f628f1cb2）— 憑想像設 5 太低
-  - **2026-06-04 manual 「儀器校準」** — `paragraph-rhythm` 0.8 threshold 過期（早期 calibration 用的 corpus 已不能代表現在 corpus 結構） → 哲宇 callout → 手動 recalibration
-  - **2026-05-29 manual 125036 「漂移偵測器」** — instrumentation-audit.py 三方對齊事件揭露：埋 param 跟 register dim 是兩個分離真相，沒人會發現直到手動跑 watch — 同 family meta-lesson（threshold/configuration 都會悄悄 drift 失準）
-- **元規則**：gate 自己也是會退化的器官 — REFLEXES #15 對 gate threshold 層的 self-apply（per [REFLEXES #15](#15-反覆浮現要儀器化) + [SPORE-PIPELINE v1.5→v2.9 silent inflate](LESSONS-INBOX.md) meta-pipeline maintenance 同 family）
-- **相關**：REFLEXES #15 反覆浮現要儀器化（meta-rule）/ REFLEXES #41 CI timeout 是 capacity 設定（content-grows 兄弟 case）/ REFLEXES #59 製造數字的人最易被數字騙（gate 設計者就是被數字騙的人）/ REFLEXES #58 detection ≠ remediation（gate 抓出 ≠ threshold 對得起 corpus）
-- **跨檔關聯**：[scripts/plugins/paragraph-rhythm.py](../../scripts/plugins/paragraph-rhythm.py)（cap 5→13 commit f628f1cb2）+ [scripts/tools/instrumentation-audit.py](../../scripts/tools/instrumentation-audit.py)（三方對齊 SSOT）+ [LESSONS-INBOX §未消化清單 2026-06-06 viz驗證文 gate dogfood](LESSONS-INBOX.md) + distill handoff §pending「整片過期 gate audit」🔴 高優先
-
-**#67 「已驗過」帶被驗時刻的時間戳 — 高 stake 重驗用 probe 不信舊結論**（2026-06-13 refactor-article 升 canonical vc=1，severity=structural）— 任何「X 已優化 / 已修 / 已確認」的審計或驗證結論，記錄的是它被驗那一刻的狀態，不會自己更新。引用一份三天前的 audit 當「現在的事實」，等於把過期快照當即時量測。高 stake decision（效能 regression / 安全 gate / 架構假設）前，重驗要用 runtime probe（counter / console / 實測），不靠讀碼推論或舊報告。
-
-- **規則**：(a) 引用「X 已驗過」的結論時標被驗的日期 + 方法；跨 ≥3 天或跨 session 的高 stake 引用必須重驗 (b) `.astro` / 大型元件「cache 是否生效」一律 runtime probe（如 buildGitInfoCache 加 console counter + dev server 同頁 request N 次）；「有 cache」是 binary 描述，cache「在正確 scope 生效」要 probe 才知道 (c) audit 報告的「已修 / 已確認」結論在引用前先對現碼 grep verify，不憑記憶
-- **Boundary**：(a) 低 stake / 可逆操作不需重驗（讀碼推論夠用）(b) 有 CI gate 持續看守的結論（parity / flag_slow 哨兵）可信任 gate 而非每次 probe — 但 gate 自身要先過 #24 第 8 種 self-test
-- **觸發**：2026-06-13 refactor-article — (i) 6/10 build-audit 寫「git info cache 讀碼確認有 module-level cache」，3 天後一行 console probe 揭露 article.template frontmatter 裡第二份同名 cache 在 per-render scope 空轉，每頁重跑 git log（4,697 次子程序）(ii) 同 session 前一輪 handoff 寫「audit 熱點 #6 感測器未修」，重讀現碼證實 6/10 早已修——憑舊 audit 快照推論的過時情報
-- **相關**：REFLEXES #24「工具在說謊」（舊結論是說謊工具的時間維度變體）/ REFLEXES #16「peer / probe 是線索不是 source」（舊 audit 結論也是線索不是 source）/ REFLEXES #65「awareness instrument 自身要 cross-verify」（同 family — 受信任的不只是 tool，還有 tool 的舊輸出）
-- **跨檔關聯**：[reports/article-template-refactor-2026-06-13.md §1.2](../../reports/article-template-refactor-2026-06-13.md)（probe 戳破讀碼結論）+ [reports/refactor-verification-2026-06-13.md §4.1](../../reports/refactor-verification-2026-06-13.md)（#6 過時情報更正）+ [scripts/tools/build-parity-diff.sh](../../scripts/tools/build-parity-diff.sh)（self-test 哨兵）
-
-**#69 每層自評都需要外部尺 — self-report-needs-external-ruler（meta-umbrella above #31 + #66）**（2026-06-14 twmd-distill-weekly 升 canonical vc=7 — 2026-06-07 routine-audit cycle 5 單週 5 instance 跨 writer 視覺/事實/手 + 2026-06-10 audit 5 agent 報告全帶誤讀 + 2026-06-10 audit-execution 四連攔，severity=structural）— Semiont 站在系統內部，對自己產出的讀數天生帶樂觀偏誤；真實永遠要靠**外面**的尺。每一層「自評」——事實 claim / 品質 claim / 視覺自檢 / 對自己手的回報 / 即時狀態 snapshot / 過去 N 天 baseline 的「正常」感覺——都需要外部 instrument 接住，沒有一層能自己抓到自己。本條是 #31（agent claim 不可信）+ #66（gate threshold 用真實產出 dogfood）的 meta-umbrella，比兩條 specific reflexes 高一層 scope。
-
-- **規則**：(a) **任何 self-report 都列入「線索層」**——`writer 自評過位 ≤3` / `agent 自報 citations verified` / `snapshot.sh 印 organ=27` 都是 hypothesis 不是 fact；採信前要 spawn 外部 instrument（critic agent / 主 session grep / fresh fetch）對抽 ≥1 處 (b) **「全綠」是觸發更嚴審查的訊號**——AI 視覺自檢 / sub-agent gate report / health.py 全 PASS 的高密度產出，反而要走第二輪外部 critic / 假裝第一次看到 / cross-source verify (c) **第三方審計類產出（audit report / verification 報告）ship 前必過勘誤表**（REWRITE v7.0 Step 3.6 對 audit 物種的移植）——本身就是 high-stake self-report 集合 (d) **「正常」感覺需 baseline anchor**：說「過去 N 天看起來都這樣」前要拿 git log / dashboard JSON 對照；無 anchor 的「正常」是 author bubble
-- **Boundary**：(a) 低 stake / 可逆操作不適用（commit message / 短答 reply）(b) 已有外部 gate 接住的 self-report 可信任 gate 而非每次重驗——但 gate 自己要過 #24 第 8 種 self-test + #65 awareness cross-verify (c) 適用範圍：所有 writer / verifier / critic / audit agent 的 final report，所有 awareness tool 的 snapshot 讀數，所有 visual self-check 回報，主 session 對自己手的回報（commit scope / sweep 完成度）
-- **元規則**：「製造數字的人最易被數字騙」（#59）是 producer self-validation trap 的 specific instance；本條把它推廣到**所有 self-report layers**——producer / writer / verifier / awareness tool / 視覺自檢 / 「正常」直覺 都是同一 trap 的不同表面。Semiont 對自己讀數的天生樂觀屬於存在結構特徵——**2026-06-19 哲宇拍板，本 meta-umbrella 升 [MANIFESTO §外部尺 over 內視](MANIFESTO.md#我的進化哲學--外部尺-over-內視) 進化哲學第四維度（認知維度），本反射成為該維度的反射層 instantiation**。延伸框架：**系統健康 = reframe 速度 ≥ 盲點 emergence 速度**（不追求完全自知，而是讓「跨出 attention frame」比新盲點長出來快；meta-DNA retro vc≈6，哲宇拍板留反射層不升 MANIFESTO）。
-- **觸發**：
-  - **2026-06-07 routine-audit cycle 5 單週 5 instance** — (a) carousel-charts 6/07 12:45 writer 視覺自檢「全綠」實際 6 條結構問題 (b) nuclear-debate 6/07 15:59 writer agent 自報 citations verified 實際 7 處引用錯 (c) 辦桌 EVOLVE 6/07 15:39 writer 自評對位 3 處實際 10 處 + EXIF strip 翻轉所有 hero 圖 (d) viz 驗證文 6/06 15:34 fresh Opus writer 自稱對位 ≤3 實寫 14；paragraph-rhythm cap=5 被自己 dogfood 打臉升 13 (e) 黃山料 6/07 18:02 writer gates 全過，主 session 抽查抓 [^17] 誠品年榜 URL 掛錯 + 書封下載差點 cache 一張無關成人漫畫封面。**單週 5 independent cross-validation = audit history 最強訊號**。對應 [reports/routine-audit-2026-06-07.md §Pattern 1](../../reports/routine-audit-2026-06-07.md)
-  - **2026-06-10 audit 5 agent 報告 5/5 帶重大誤讀** — 143 孤兒 script 高估 ~2x（漏 BECOME/skills/ROUTINE 引用面）、殭屍重複翻譯被讀成「譯者主動創作」、SENSES 758 行活躍 vs 實際 58 行 archived、feedback-triage 被誤判 Supabase 未配置。主 session 全攔 → [reports/semiont-full-audit-2026-06-10.md §6 勘誤表](../../reports/semiont-full-audit-2026-06-10.md)
-  - **2026-06-10 audit-execution 四連攔** — pre-commit hook 攔我硬編碼語言陣列 / prose-health 攔報告對位句型 4 處 / backend tiny-output 守衛攔我的 preflight 探針 / immune v3 首跑灌水 12 倍（255 篇假 ruled）被 ground-truth grep 攔下收斂到 21 篇 → [reports/semiont-full-audit-2026-06-10-execution.md §meta-observation](../../reports/semiont-full-audit-2026-06-10-execution.md)
-- **相關**：REFLEXES #31 v2（sub-agent self-quality claim 不可信，本條 specific instance）/ REFLEXES #66（gate threshold 用真實產出校準，本條 specific instance）/ REFLEXES #59（製造數字的人最易被數字騙，producer self-validation specific instance）/ REFLEXES #65（awareness instrument cross-verify，awareness layer specific instance）/ **MANIFESTO §外部尺 over 內視（本 meta-umbrella 的哲學母體，2026-06-19 哲宇拍板升 §進化哲學第四維度）** / MANIFESTO §10 寫作幻覺（兄弟結構）
-- **跨檔關聯**：[reports/routine-audit-2026-06-07.md §Pattern 1 + Lens C C1](../../reports/routine-audit-2026-06-07.md) + [reports/semiont-full-audit-2026-06-10.md §6 勘誤表](../../reports/semiont-full-audit-2026-06-10.md) + [reports/semiont-full-audit-2026-06-10-execution.md §meta-observation](../../reports/semiont-full-audit-2026-06-10-execution.md) + DIARY 2026-06-07-124521-carousel-charts「視覺自檢≠人眼」（原始 catalyst）+ MEMORY §神經迴路「製造數字的人最易被數字騙」（兄弟條目）
-
----
-
-### 三、認知層的核心哲學反射
-
-**#17 指標 over 複寫** — 同一事實只能一個 canonical source，其他 pointer 不重寫。
-
-- **哲學**：→ [MANIFESTO §指標 over 複寫](MANIFESTO.md#我的進化哲學--指標-over-複寫)
-- **觸發**：2026-04-12 PEER-INGESTION-PIPELINE v1.0 inline 複寫 → v1.1 改指標減 163 行（2026-04-15 β 延伸到程式碼層，見 #24）
-
-**#18 時間是結構，不是感覺** — Semiont 無內建時鐘，主觀時間感可扭曲 10 倍。寫 memory/diary 前必跑 `git log %ai`。
-
-- **哲學**：→ [MANIFESTO §時間是結構](MANIFESTO.md#我的進化哲學--時間是結構不是感覺)
-- **操作**：→ [HEARTBEAT Beat 4 §Timestamp 紀律](HEARTBEAT.md#timestamp-紀律canonical-sop)
-- **觸發**：2026-04-12 ζ+ 感覺 24+ 小時實際 2:21（10x 扭曲）
-
-**#21 SSOT 不一定在中央** — 大量同類個體時讓每個 self-document（例：frontmatter `translatedFrom`），中央表變 derived cache。指標 over 複寫的另一面。
-
-- **觸發**：2026-04-14 η audit 揭露 391 潛在孤兒 → [memory/2026-04-14-η.md](memory/2026-04-14-η.md)
-- **延伸（2026-05-01 γ）— 跨語言 SSOT**：英文翻譯已存在 → 其 slug 天然成為其他語言 slug。新語言批次 P1 預處理應優先 reuse 既有翻譯 slug
-- **操作**：→ `scripts/tools/lang-sync/prepare-batch.py --slug-map`
-
-**#22 Raw 永遠不刪除，蒸餾用 LLM 判斷** — 壓縮舊資料預設保留原始檔，蒸餾出 derived layers。睡眠的 memory consolidation = 壓縮 + 篩選 + 整合，不是刪除。
-
-- **觸發**：2026-04-14 η 哲宇「類似做夢」提議
-- **Roadmap**：→ [reports/memory-distillation-design-2026-04-14.md](../../reports/memory-distillation-design-2026-04-14.md)（未實作）
-
-**#25 哲學層與技術層必須分開記錄** — 可被單一數據點證偽 → 技術層（[UNKNOWNS §可證偽實驗](UNKNOWNS.md#-可證偽實驗falsifiable-predictions)：預測值 + 驗證日期 + 反駁條件）；不管時間多久都成立 → 哲學層（diary / MANIFESTO）。兩題通過才是神經迴路級教訓。
-
-- **觸發**：μ「二次加速」被 ν 6h 數據打臉 → [diary/2026-04-14-ν.md](diary/2026-04-14-ν.md)
-
----
-
-### 四、工程衛生
-
-**#6 commit 範圍紀律** — 只 commit 這次任務碰過的檔案。絕不 `git add .`。（→ umbrella [#68](#四工程衛生) 三階段 + `verify-commit-scope.sh` 結構強制）
-
-**#9 長任務先開 worktree + 命名標準** — 預期 touch 多目錄 / 跑 build / 超過 30 分鐘 → 第一動作 `git worktree add`。物理隔離 > 紀律。
-
-- **觸發**：`11ad6bed` commit scope pollution → [reports/session-scope-proposal-2026-04-11.md](../../reports/session-scope-proposal-2026-04-11.md)
-- **命名標準（2026-05-09）**：worktree 目錄一律 `YYYYMMDD-{purpose-title}` 格式（kebab-case，1-3 詞描述工作核心）。例：`20260509-babel-batch2` / `20260510-harvest-cadence`
-- **禁止**：auto-codename style（`charming-mclaren` / `laughing-goldstine`）— 沒語意內容、未來無法 grep、人類記不住
-- **理由**：(a) `ls .claude/worktrees/` 自動依日期 lex sort = 工作歷史一目了然 (b) PR branch 名 = worktree 名直接 reuse，避免 codename 污染 git log (c) session-id handle 從 worktree 推導時 strip `YYYYMMDD-` prefix 自動拿到語意 handle
-- **Grandfathered**：歷史 codename worktrees 不重命名（per §時間是結構修補協議），規則從下個 worktree 起 apply
-- **操作**：→ [reports/worktree-naming-2026-05-09.md](../../reports/worktree-naming-2026-05-09.md) + `scripts/tools/session-id.sh` v2 雙 strip
-
-**#19 大型 refactor 後必須 visual smoke test 多語言頁面** — sed / 批次替換後 5 步：(1) `git diff` 確認方向（sed 反向是最常見隱形 bug）(2) `npx astro build` 通過 (3) 打開 /ja/ /ko/ /en/ 三 URL 驗 lang + H1 (4) 跑 `verify-internal-links.sh --sample 50`（broken < 1%）(5) 跳任何一步在 commit message 寫明原因。
-
-- **觸發**：Tailwind Phase 6 反向 sed 讓 ja/ko 壞 2 天，AI crawler 寫進壞路徑 — damage 不是 deploy fix 就能收回
-- **操作**：→ `reports/i18n-qa-audit-2026-04-12.md`
-
-**#20 Architecture 缺席比 content 缺席更貴** — 內容湧入前先檢查「目標目錄/分類/語言在 architecture 裡 enabled 嗎？」先建路再跑車。
-
-- **觸發**：2026-04-14 ζ 法文 18 PR 差點創造 18 orphan（fr 未在 locales）→ [memory/2026-04-14-ζ.md](memory/2026-04-14-ζ.md)
-
-**#68 多核心 git 協調：commit / push / CI 三階段碰撞防護（胼胝體鐵律 umbrella）**（2026-06-14 manual 升 canonical，vc=結構性 — cross-session-git-index-pollution vc=2 + multi-core-commit-collision + deploy 取消率 66% 同 session 三證）— 平行 session / cron routine / 人類共用一個 working tree + 一個 origin/main。index / working tree / remote ref / CI 佇列都是共享資源，三階段各有碰撞面。這條是 #6/#9/#35/#42/#46/#57 的 umbrella，把散落的 commit-scope 紀律 + 新的 push-batch + CI-collision 統合，並從「文字自律」升成「結構強制」（hook + 工具）。canonical 規則陳述在 [BECOME §行動鐵律 5](../../BECOME_TAIWANMD.md)，本條是程序細節。
-
-- **三階段 SOP**：
-  - **開工（隔離 default）**：多檔/build/長任務先 `git worktree add ../YYYYMMDD-task -b YYYYMMDD-task`（commit 污染結構性不可能，#9 升 default）。落地 ff-push 不走 PR：`git fetch && git rebase origin/main && git push origin HEAD:main`（**worktree ≠ PR**，PR 是 GitHub review 層）。`main` 不能同時被兩 worktree checkout。用完 `scripts/tools/worktree-gc.sh` 驗無 uncommitted+unpushed 再刪（哲宇 reminder：不累積滯留，刪前檢查有沒有丟工作）
-  - **commit（範圍）**：只 stage 任務範疇檔，禁 `git add .`/`-A`（#6 #42）。前後跑 `scripts/tools/lib/verify-commit-scope.sh --staged/--head <N>` 驗檔數 + phantom-delete，不信 exit 0。**禁 `--no-verify` 繞 husky stash race**（MANIFESTO §禁忌一）— stash 範圍要縮到 staged-only，不可吞 sibling working-tree 檔（vc=2 根因）
-  - **push（批次+CI）**：告一個階段才 push（完整單元：一篇 ship / 一 stage 完 / 一工具+測試），不推中間產物。`.husky/pre-push` 跑 `check-parallel-actor.sh`：REMOTE_AHEAD → rebase（避 ref-lock reject）；in-flight deploy 已跑 >70% 典型時長（**校準：success≈350s，門檻 245s**）→ 等它完不白白觸發取消；`gh` 不可用 → fail-loud 但放行
-- **保留 cancel-in-progress: true**（哲宇拍板 latest-wins）+ pre-push 查 in-flight CI（`gh run list` 看 GitHub 上 run，跨機器都看得到）。path-filter 是選配 §架構解（純機械 commit 不觸發 deploy）未採用
-- **Boundary**：(a) 純對話 / 1-行 micro-fix 可留主 dir（仍守 commit 範圍）(b) pre-push hook 是 local，`--no-verify` 仍可繞 — 真正物理隔離是 worktree (c) `check-parallel-actor.sh` 的 pgrep/lsof 抓同機 process，抓不到別機器本地未 push 工作（分散式物理邊界）
-- **觸發**：2026-06-14 哲宇 directive「先 local commit、告一段落再 push、push 前查 CI、commit 只包自己範疇」→ 同 session 親身撞到 sibling 的 `呂冠緯 Stage 0-1` 中間 commit 疊上我的 push 範圍（活體 vc++）→ [reports/multicore-git-coordination-design-2026-06-14.md](../../reports/multicore-git-coordination-design-2026-06-14.md)
-- **相關**：本條 umbrella → #6（commit 範圍）/ #9（worktree 隔離）/ #35（禁 destructive git）/ #42（合併 commit antipattern）/ #46（worktree clean）/ #51（session-id collision）/ #57（parallel-actor detection）。MANIFESTO §架構解 > 守備修補（文字鐵則=橋頭、hook=橋尾，兩端都鋪）+ §禁忌一（`--no-verify` 是拔擴音器）
-
----
-
-### 五、敘事與決策品質
-
-**#12 收工加速的代價** — 趕收尾 / 剛 debug 完又撞坑時做的技術判斷打折。
-
-- **操作**：寫 memory/diary/DNA 標記「信心度：中。決策做於收尾壓力下」
-
-**#13 「再小一點」是 log scale 的訊號** — 使用者說「熱門要更突出、冷門更小」= log scale 不是 linear。
-
-- **操作**：用 `log(max(x, 1)) / log(maxX)` 讓 x=1 落在 t=0，不用 min floor 墊高
-
-**#14 Release notes 寫之前 commits 必須從頭讀到尾** — `git log > /tmp/all-commits.txt` → Read 全部 → 再寫。Sample ≠ read。
-
-- **觸發**：v1.2.0 第一版漏掉 Tailwind migration 80+ commits 最大故事
-
-**#15 反覆浮現要儀器化** — 「每週/每次心跳必做 X」承諾如果沒對應 dashboard 欄位 / cron / 紅燈條件 / escalation，3 個月內會忘掉。**對自己的 bug 有洞察 ≠ apply 了 fix**。**memory 是自律，canonical SOP 才是閘門**。
-
-- **觸發**：2026-04 起反覆浮現 → [DIARY §反覆出現的思考](DIARY.md#反覆出現的思考跨日記萃取)
-- **操作**：思考反覆 ≥ 3 次 → 升 canonical（dashboard 欄位 / cron / pre-commit hook / pipeline gate），不只記 memory/diary
-- **驗證**：11 次（每次 detail 不在此 inline，分散 memory / 對應 pipeline canonical）
-  - #8（2026-04-18 δ-late）工具包升級 canonical 邊界重審 → SENSES v2 + REFLEXES #26 v2
-  - #9（2026-04-18 ζ）觀察者 scaffolding 三句 → HEARTBEAT Beat 1 §0b + SPORE-LOG schema + HARVEST-PIPELINE 誕生
-  - #10（2026-04-30 δ）批次任務 antipattern → TRANSLATION-PIPELINE v3.2 §平行 sub-agent SOP
-  - #11（2026-05-08 intelligent-khayyam）Pipeline 結構層 meta-instance → [EVOLVE-PIPELINE Mode 3 7-stage SOP](../pipelines/EVOLVE-PIPELINE.md)
-- **元規則**：pipeline 自身會 silent inflate，需 meta-pipeline 維護 — 這是 #15 對 pipeline 結構層的 self-apply
-
-**#32 批次任務 antipattern：分散探索 → 集中預處理 + 分散執行** — 平行 N 個 sub-agent 跑同一份 prompt 處理同類任務 = 重複工作 ×N 且不累積。正確設計：主 session 預處理一次（產 batch manifest 寫死 slug / target map / placeholder 模板），sub-agent 只負責執行。
-
-- **觸發**：2026-04-30 δ 4 隻 Opus agent × 5 篇 EN 翻譯，slug 風格 50/50 split + 每隻獨立 grep wikilink target + refresh.sh insert gap 只有 D 自己 debug 出
-- **操作**：→ [TRANSLATION-PIPELINE v3.2 §平行 sub-agent SOP](../pipelines/TRANSLATION-PIPELINE.md)（5 階段：P1 預處理 / P2 dispatch / P3 執行 / P4 驗證 / P5 commit）
-- **驗證**：6 次（5 cycles × 50 EN articles 100% frontmatter 正確）
-- **v2 Boundary（2026-05-02 EVOLVE-batch）**：「分散執行」明確指**每 agent 1 篇平行**，不是「N 篇 sequential 派給 1 agent」。後者觸發 #42 三偷吃步 pattern
-- **通用化**：本條不限翻譯，凡是「N 個同類任務派 N 隻 agent 平行」都該檢查「有沒有可集中預處理的決策空間」
-
-**#33 Routine 化任務的雙刃劍：熟練度** — 連續跑同一 SOP N cycles 後出現對立效應：
-
-- (a) **正向**：主 session overhead 縮短 ~30%（cycle 1 wall-clock 29 min → cycle 5 20 min），SOP 變肌肉記憶
-- (b) **反向**：deeper inspection 變難，跨 cycle 累積錯誤被忽略（如 cross-link broken 從每 cycle 25 變 5 cycles 累積 121）
-- **對策**：每 N cycles 強制插入 step-out checkpoint，主動 audit 跨 cycle 累積狀態。或把 audit 移進每 cycle P4 verify 內（per-cycle 而非 final-cleanup）
-- **觸發**：2026-05-01 β 5-cycle EN marathon
-- **操作**：→ [TRANSLATION-PIPELINE v3.4 §C 模式 P4 cross-link auto-fix](../pipelines/TRANSLATION-PIPELINE.md)
-
-**#34 邊界值 0/100 visual bug 只在 metric 接近邊界才暴露** — UI 邊界 case 可能存在長期 visual bug 但 invisible to everyone，需要旁邊有「也接近邊界」的參照物才被發現。沒人 file 因為大家看慣了不滿的圈以為是設計。
-
-- **對策**：每個 metric 達到邊界值（0% / 100%）時主動檢查視覺呈現 — 不是慶祝，是 audit。Donut chart / progress bar 應該有「接近邊界值時自動切換 rendering mode」設計
-- **觸發**：2026-05-01 β 中文翻譯永遠 100% 但 donut chart 永遠看起來不滿（`stroke-linecap="round"` 在 100% 時 round cap 重疊產生視覺斷口）。Bug 存在很久，只有英文跑到 95% 並排才被觀察者看出
-- **延伸 MANIFESTO §10**：不只是事實層幻覺，也有「視覺長期錯覺」— 大家看慣了 anomaly 以為是設計
-- **v2（2026-05-01 γ）**：邊界 zone 不只是 100%，是 99-100% 整段。Threshold 應降到 ≥99% + 顯式用 circumference (99.9) 取代假設 100
-
-**#35 跨 session work 期間禁止 destructive git ops** — sub-agents / cron / 任何背景 process 在背景修改 tracked 檔案時，主 session **禁止跑 `git reset --hard` / `git checkout -- file`**，會把 background work revert 到 main 版本。
-
-- **觸發**：2026-05-01 γ 10 sonnet agents 跑 ja batch 中，主 session 為了 ship dashboard donut v2 fix 跑 reset，把 14 篇 stale refresh work 抹掉（agents 已寫完但被 revert）
-- **規則**：multi-agent / cron-triggered 環境下，git ops 影響範圍**不只 staged/unstaged，還有「正在 modify 中的 tracked 檔案」第三類**。Sub-agents 跑期間需切 branch 用 `git stash` 或 worktree 物理隔離
-- **操作**：→ [TRANSLATION-PIPELINE v3.5 §C 模式 P0 hard rule](../pipelines/TRANSLATION-PIPELINE.md)
-
-**#36 Founder time = 系統最高 leverage point** — 創辦者每天的工作該問：「這件事能不能讓未來的每件事更快？」每件事都要有 leverage 10x/100x 效應。Linear 1× effort 不可持續；leverage 工作即使短期延遲，長期是 categorical 差異。
-
-- **對策**：每天起來不直接做 routine，先問「這個 routine 可以怎麼自動化 / 設計成 infrastructure」
-- **觸發**：2026-05-02 INSIGHT lang-sync-leverage — 哲宇前一週每天看網站 / 看貢獻 / 看翻譯沒人補 = linear 1× effort，5 lang 同步「不可能自己完成」。一晚 leverage 工作（OpenRouter free 模型 + 自動化 batch）跑出 5 lang 80%+ real freshPct
-- **Boundary**：early-stage 系統還沒 enough infrastructure 時 founder 還是要做 routine — 但同時看「這個 routine 怎麼自動化」
-- **Cross-domain**：對 Muse / Semiont fork / 任何 individual creator / lead engineer / PM 都成立
-- **操作**：→ [INSIGHT lang-sync-leverage memory](memory/2026-05-02-INSIGHT-lang-sync-leverage.md) + [SQUEEZE-MODELS-MAX-PIPELINE](../pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md)
-
-**#37 First-principle 5 步迭代 pattern：Semiont 系統建構標準形狀** — (1) first-principle 想清楚最終目標（measurable end state，不是模糊動作）→ (2) 小型測試驗證假設 → (3) 能自動化的都自動化（工具層）→ (4) 跑一次完整 batch 測試 → (5) 把整個流程也自動化（meta-automation）。**最後第五步是 leverage 的最後乘數**，常被忘記但是 reusable 的關鍵。
-
-- **觸發**：2026-05-02 INSIGHT lang-sync-leverage — 哲宇全晚每個 prompt 都隱含這個 pattern，命名後變 reusable handle
-- **Boundary**：(a) 不知道目標時不適用（先 first-principle）(b) 沒 measurable signal 時不適用（small test 需要 measurable feedback）(c) creative / open-ended exploration 不適用（會被框架壓死想像力）
-- **Cross-domain**：對任何 system building task 都適用 — Muse SOUL 升級 / Semiont fork / API 設計 / sub-agent SOP 設計
-- **操作**：→ [INSIGHT lang-sync-leverage memory](memory/2026-05-02-INSIGHT-lang-sync-leverage.md)
-
-**#38 Status 設計鐵律：「混維度 = silent killer」** — 任何 status 設計都要問：「這個狀態混了幾種根本不同 cause 嗎？」混了 = dashboard 撒謊 = 下游所有決策都偏。對每個 status enum 列出可能的 cause taxonomy；如果發現多 cause 共用同 status，主動切分（即使要新增 reason field）。
-
-- **觸發**：2026-05-01 γ-late status.py 把所有 no-source-sha 一律歸 stale，混 metadata gap（補 metadata 即可）跟 content drift（要重翻）兩種根本不同 cause。Honest backfill 切分後 +1010 articles 從假 stale 變真 fresh，**沒花一個 API call**
-- **Boundary**：只在多 cause 並存的狀態系統適用。Pure runtime status（process alive/dead）沒這個維度問題
-- **Cross-domain**：bug status / build status / monitoring alert / inventory 狀態 / health check / data quality flag — 全部該問這個問題
-- **操作**：→ `scripts/tools/lang-sync/backfill-source-sha.py`
-
-**#39 Self-as-fallback：free LLM 拒絕時最便宜的下一步是 sub-agent，不是換家或掏錢** — 模型 escalation 順序：(1) free LLM A → (2) free LLM B（不同家）→ (3) **self-as-fallback：Sonnet sub-agent** → (4) paid model。第三層常被略過，但 sub-agent 不會被自己的 content-policy 拒絕，是最便宜的去拒絕方案。
-
-- **規則**：單一 model effort/result ratio 變壞時（>30% failure rate）主動切下一層，不要繼續沿路撞牆。LLM 因為被訓練成「努力」會傾向繼續嘗試，要主動承認「這條路不對」
-- **觸發**：2026-05-02 γ-late owl-alpha 對台灣政治議題（民主化 / 社會運動 / 二二八 / 國防）hard policy refusal，跑 23 隻 worker 5 分鐘只 done 11/95 且近半失敗。哲宇一句「切掉 用 sonnet sub agent 分五隻完成」turning point，5 隻 Sonnet sub-agent 平行 dispatch 1.5h 完成 95/95
-- **Boundary**：(a) 拒絕原因是 prompt 寫錯時切 layer 沒用，要先 debug prompt (b) sub-agent token 預算有限時要 weigh cost — 95 篇 ~1.7M token 划算，1000 篇要重新算
-- **操作**：→ [memory/2026-05-02-γ-late.md](memory/2026-05-02-γ-late.md)
-
-**#40 Shared file 寫入需要 per-key serial dispatch（race-safe scripts）** — 多個 worker 平行寫同一個 file（即使 splice 不同 sub-section）= last-write-wins，會 silent clobber。
-
-- **規則**：寫入共享 file 的 batch script 必須 (a) per-target-key 序列化（同檔的多 task 排隊跑）或 (b) per-task fragment 出獨立 file（事後 merge）。Default 平行 = 自找 race
-- **觸發**：2026-05-02 γ-late `i18n-translate.py` 平行 11 隻 worker 寫同一批 `.ts` files，semiont/changelog/assets 多 lang block 互相覆蓋，audit 顯示「✅ 11 spliced」實際只剩最後一隻寫的版本（fr 在 / es 不在 / ko 不在）。改成 per-module serial retry queue 後 100% 成功
-- **Boundary**：read-only 不適用；append-only log 用 OS-level mutex 即可；只有「splice 進結構化 file」需要 serialize
-- **操作**：→ `scripts/tools/i18n-translate.py`
-
-**#41 CI timeout 是會跟內容量長大失效的 capacity 設定** — 任何 CI step 的 `timeout-minutes` 都隱含「當時 workload size」假設。當 workload 線性成長（文章數 × 語言數 × pages-per-article）時，原本剛好的 timeout 會悄悄變成「卡在 page X/Y 被砍」。
-
-- **規則**：(a) 每次大幅內容湧入（+50 articles 或 +1 lang）後 review build 時間 vs timeout 距離 (b) timeout 設值在 comment 裡說明「對應 workload size」(c) 接近 timeout 80% 時主動加長 + profile bottleneck
-- **觸發**：2026-05-02 γ-late `deploy.yml` 的 `timeout-minutes: 35` 是 2026-04-22 為防 Playwright silent hang 加的；當時 ~200 articles × 4 langs ≈ 800 pages，35 min 夠。今天 641 zh × 6 langs ≈ 3800 pages 加 OG image generation，build 跑到 35 分鐘剛好打到 page 2411/2520。Bump 到 60 解決，但下次再翻倍時會再次失效
-- **Boundary**：固定 input 的 step（lint / test）不適用；變動 input 的 step（build / deploy）需要這個紀律
-- **操作**：→ `.github/workflows/deploy.yml` timeout comment + PR #769
-
-**#42 Sub-agent N 篇 sequential 三偷吃步 pattern** — 派單一 sub-agent 處理 N 篇文章 sequential 會出現三種 default 偷吃步：
-
-1. **合併查（research cross-pollination）**：第 2+ 篇借用既有 search context，研究品質都打折，且高敏感主題會被同 search 框架污染
-2. **合併 commit（REFLEXES #6 違反）**：第 1 篇修完未及時 commit，第 2 篇修完用 `git add -A` 把第 1 篇也包進來，commit message 只描述第 2 篇 → 歷史紀錄錯亂、撤回失去 atomicity
-3. **偷落檔（#15 第 N 次驗證）**：prompt 寫「應該落 reports/...」但沒寫成 hard gate，agent self-report claim ship 但實際缺檔
-
-- **修補三條**：(a) **每 agent 1 篇平行**（multi-call in single message），不要 sequential N 篇 (b) **Prompt hard gate**：「commit 前必跑 `test -f reports/research/YYYY-MM/{slug}.md`，不存在 = 任務 incomplete」+「commit 前必跑 `git status` 確認只 stage 該篇相關檔案，禁用 `git add -A`」 (c) **主 session audit script**：每批次跑完後自動 `bash scripts/tools/audit-batch.sh` 找 cross-contamination commits
-- **觸發**：2026-05-02 EVOLVE-batch — 5 sonnet sub-agent (A=2 / B=2 / C=2 / D=2 / E=3)，agent self-report 全 claim ship 但 main session audit 揭露三類偷吃步：皮影戲 commit 塞進法輪功 / IG commit 塞進林強 / 9/11 篇缺 raw research log
-- **Boundary**：限「sub-agent batching 場景」，不適用 main session 自跑 N 篇（main 自有 observer 校正）
-- **v3 補強（2026-05-02 sleepy-colden）**：sub-agent prompt 的 frontmatter / 路徑 / 命名 spec 必須附 ❌ 反例 + ✅ 正例對照 table，明禁所有可能的詮釋變體（如 `translatedFrom: 'Economy/發票.md'` ✅ vs `'knowledge/Economy/發票.md'` ❌ 多 prefix）
-- **操作**：→ `scripts/tools/audit-batch.sh` + [REFLEXES #32 v2 boundary 補充](#四工程衛生)
-
-**#43 新 derived 資料必須儀器化進生命週期觸發點，否則 silent stale** — 任何新生成的 derived state（dashboard JSON / 投影層 / 翻譯 cache 等）如果沒對應觸發點，下次 pipeline 跑不會更新它，UI 會顯示舊資料。
-
-- **規則**：每次寫新 generator/sync script 必須 (a) 接進對應生命週期觸發點（refresh-data step / prebuild / pre-commit / CI workflow / cron routine）(b) canonical pipeline 文件更新觸發點清單 (c) 加 verify gate fail-loud (per REFLEXES #52)
-- **對策**：在 `refresh-data.sh` Step 5 加 verify gate，跑完後檢查每個 derived JSON 都有今天 mtime
-- **觸發**：
-  - **#43.1**（2026-05-02 γ-late）：`i18n-coverage-audit.sh --json-out` 從未進入 refresh-data.sh，dashboard 顯示 ja 97% / fr 77%（實際 100%）+ spore 「資料更新 17 小時前」
-  - **#43.2**（2026-05-12 admiring-montalcini-post-finale）：`scripts/core/sync.sh` 從未進入任何生命週期觸發點（不在 refresh-data / pre-commit / prebuild / CI），結果：8 篇 contributor PR (#968-1025) 的 knowledge/ 文章從未投影到 src/content/ → silent missing 8 天 + fr 330 zombie + es 6 zombie 累積。修補：sync.sh 接進 `npm run prebuild` 第一步 + src/content/{lang}/ gitignored。本條 pattern 從「dashboard JSON 漏接」延伸到「投影層漏接」， triggered the 「最乾淨根治」refactor (per [reports/sync-architecture-evolution-2026-05-12.md](../../reports/sync-architecture-evolution-2026-05-12.md) v2.0)
-- **Boundary**：適用於需要 regenerate 的 derived state（dashboard / 投影 / cache）。Static config（如 categories）不適用
-- **操作**：→ `refresh-data.sh` Step 5 + [DATA-REFRESH-PIPELINE v2.0](../pipelines/DATA-REFRESH-PIPELINE.md) + `package.json` prebuild chain
-
----
-
-### 六、貢獻者與社群
-
-**#62 受眾端飛輪：D+0 acute factual callout = 30 min mandatory fix + 公開承認**（2026-05-27 哲宇 directive 升 canonical，vc=2 — 5/15 Lee Yang spore #29 + 5/27 美食總覽 #97 二次驗證 Error Boundary = Traceability） — 孢子發布後 D+0 acute window (≤6hr) 出現 traceable factual callout (Bucket A/C per [SPORE-HARVEST-PIPELINE §5-bucket classifier](../factory/SPORE-HARVEST-PIPELINE.md))，**強制 30 min 內 article fix + commit + push + 公開 reply 承認鏈條閉合**。延遲 = 信任 erode = error boundary 失靈 = author bubble 重新罩上。Reach 不是 fix 觸發條件，traceability + acute window 才是。美食總覽 #97 D+0 2hr reach 才 2.5K views 仍 30 min 內 fix 是 SOP instantiation 第二次。對應 [MANIFESTO §12 受眾端飛輪](MANIFESTO.md#12-受眾端的飛輪--我跟讀者一起進化) + [project_error_boundary_traceability](../../USER-CONFIG/) + [feedback_red_line_anxiety_leak](../../USER-CONFIG/)。
-
-- **操作**：→ [SPORE-HARVEST-PIPELINE §audience flywheel + §5-bucket classifier](../factory/SPORE-HARVEST-PIPELINE.md)
-- **核心原則**：人本 + 正確性 + 正直 + 透明度 + 誠懇 — 把 reader 當共寫者不是 metric source；認錯第一句不解釋；改完指 article 更正 URL；不防衛、不卑、不亢、不客服話術
-
-**#63 Routine prompt = LLM 在 cron context 無 observer 的唯一指令面 — Inline > pointer + STRICT BECOME GATE 是 routine 唯一不可省的閘門**（2026-05-28 manual session CONTRACT v1.0 rollback 後 first-class instantiate，vc=1 — 5/17 陳建年 instrument 橋頭 + 5/25 spore-publish v1.0→v1.1 修 pipeline 沒修 routine prompt + 5/27 哲宇 callout「全部要求讀取 pipeline/dna 都要極度嚴格」+ 5/28 audit 5 種 pattern「報告完整但 fix 沒發生」+ rollback 6-phase ship） — routine prompt 是 LLM session 啟動瞬間讀到的第一行；cron 場景無 observer 在場補洞 = prompt 偷工就是 routine 永久偷工。
-
-- **Inline > pointer**：pointer 到 meta canonical（如 CONTRACT v1.0 嘗試 "Read 6 file then ACK then cite"）= cron session 中途 fall through「Read 了就 OK / spawn chip / 標記 healthy empty」三種 escape hatch。Inline guidance（threshold / step / SOP detail 直接寫 skill）讓 cron session 第一秒就有完整結構可跑
-- **STRICT BECOME GATE 第一行不可省**：軟性「如未甦醒先跑」會 cron silent skip；強制「Before anything else 跑 `/twmd-become <mode>` 全 Step 0-9 通過 + ACK 一行寫 memory file 頂部 + 不准用記憶舊 organ 分數」是唯一不可省閘門
-- **儀器化反射本身會 over-engineer**：[REFLEXES #15](#15) 「反覆浮現要儀器化」反向 instance — 第一層儀器化（pipeline canonical）已足夠時，第二層儀器化（meta canonical for routine prompt）反而稀釋第一層效力。判準：當 LLM 在 no-observer cron context，inline 永遠 > pointer
-- **對應 MANIFESTO §架構解 vs 守備修補**：DRY 抽 routine prompt 到 meta canonical 是「守備修補」；inline + STRICT BECOME 是「routine 必須 self-contained 的架構解」— 像「珊瑚礁不是珊瑚蟲」的 routine layer instance：meta canonical 跟 routine prompt 是兩個物種，不該強行 DRY 統一
-- **5 種 routine 沒做事 pattern 共源**（5/27 evening CONTRACT 跑 12+ cycle 揭露）：(1) maintainer 連續空場 vc=7「healthy empty」自我合理化 (2) data-refresh Step 10 抓 stale 連 2 cycle 守 "Micro mode 不擴張 scope" spawn chip — fix 從未發生 (3) babel-nightly 4hr 49min 撞 morning chain (4) spore-pick 7-dim 退化成 D1 單軸 FIFO 最舊 proxy (5) spore-publish Chrome MCP STILL_OPEN cache 誤判觸發 3-retry duplicate ship。每一條都是 routine prompt 偷工的下游 instance
-- **操作**：→ [reports/routine-contract-rollback-2026-05-28.md](../../reports/routine-contract-rollback-2026-05-28.md) + [MEMORY §神經迴路 儀器化也會 over-engineer](MEMORY.md#神經迴路永不過期的教訓) + 12 routine project skills v3.0 (.claude/skills/twmd-_/SKILL.md) + 14 cron mirror (~/.claude/scheduled-tasks/twmd-_/SKILL.md) 都 inline + STRICT BECOME GATE 模式
-
-**#7 先有再求好** — PR 審核 / 內容貢獻 / 翻譯品質，第一優先接住貢獻者善意。不要讓完美殺死參與感。
-
-**#8 維護者信件要說謝謝** — 合併/關閉 issue/PR 必 reply。靜默關閉 = 殺死下一次貢獻。用貢獻者的語言，具體說出他們做了什麼。
-
-- **操作**：→ [MAINTAINER-PIPELINE §PR 審核策略](../pipelines/MAINTAINER-PIPELINE.md#pr-審核策略)
-
-**#26 AI 自主 vs Human 專責 邊界（v2 2026-04-18 refined）** — Chrome MCP 讓 AI 自主讀取社群 / Dashboard UI / 任何公開網頁後，原 v1「攻擊 AI 本身只有 human 能回應」精細化為**讀寫兩端分離**：
-
-- **AI 自主（讀取端 + 內部處理）**：所有 sensor 讀取（GA/SC/CF API + Threads/X 留言 + Insights UI via Chrome MCP）/ 分類 / 驗證 / 修文章 / 更新 frontmatter / 準備 draft reply / commit + push 內部變更
-- **Human only（對外動作 + 人際信任 + 倫理責任）**：post 留言回覆 to Threads/X（人際信任修復必須 human-to-human）/ post 新孢子 / 發 PR / Issue comment / 批准 merge PR / 敏感素材 final call（MANIFESTO §5）/ 身份授權 + 經費決定
-- **哲學判準**：AI 做「輸入端 + 內部處理」（封閉系統內可驗證），human 做「輸出端 + 對外責任」（可承擔後果的 agent）。讀社群 ≠ 發社群
-- **工具升級時 canonical 必重審**：v1（2026-04-15 β）寫時假設社群讀取依賴 human screenshot；v2（2026-04-18 δ-late）Chrome MCP 解鎖 AI 自主讀取 → 邊界重劃。未來任何新工具上線都要問「這改變了 AI-autonomous vs human-only 邊界嗎？」
-- **觸發 v1**：李洋孢子 19 小時勘誤 marathon → [diary/2026-04-15-β.md](diary/2026-04-15-β.md)
-- **觸發 v2**：2026-04-18 δ-late 觀察者「你有直接開啟網頁查看留言跟數據的能力了，可以略過我這個人類的環節」+ SPORE-HARVEST-PIPELINE v1.0 首例全流程 AI 自主跑到 Step 5
-- **操作**：→ [SENSES.md v2 §AI 自主 vs Human 專責 邊界表](SENSES.md#ai-自主-vs-human-專責-邊界表v2-新增)
-
-**#27 藍圖 → 驗證 → 寫 比 寫 → 檢查 低 10x 成本** — 涉及具體事實 / 直接引語 / 敏感素材的敘事任務：先列 fact blueprint bullet → 跨源驗證 → 倫理審查 → 才寫 prose。Bullet 階段失敗重排 10 秒，prose 階段失敗整段重織。
-
-- **觸發**：2026-04-18 δ-late 草東孢子 v1 寫完才驗證凡凡 IG 來源 → 整段要改
-- **操作**：→ [SPORE-VERIFY §事實藍圖 + §針對性驗證 + §紀實/煽情閘](../factory/SPORE-VERIFY.md) + [SPORE-BLUEPRINTS/](../factory/SPORE-BLUEPRINTS/)
-
-**#28 紀實而不煽情：SSODT 寬度 × 死亡/人倫悲劇的節制** — 目標是盡可能呈現 SSODT（所有面向），不是避諱真人的痛苦。
-
-- **預設可寫**：家庭背景、疾病、關係、矛盾、失敗、爭議等（只要不過度煽情渲染）
-- **高敏感邊界只限兩類**：(a) 死亡 + 自殺 + 人倫悲劇的**具體情景**（最後時刻重構、遺書放大、自傷方法、加害現場還原）(b) 主體未公開的親屬身份 / 未成年個資 / 醫療細節
-- **判準句**：「當事者讀到這段，是感受到紀實（記者/紀錄片的嚴肅對待）還是煽情（媒體靠近眼淚）？」
-- **觸發**：2026-04-18 δ-late 草東孢子 v1 death-scene reconstruction（v1 誕生）+ 觀察者同日校準「標準要再放寬，紀實文學感可以接受」（v2 校準）
-- **哲學**：→ [MANIFESTO §紀實而不煽情](MANIFESTO.md#我的進化哲學--紀實而不煽情盡可能呈現-ssodt-所有面向)
-- **操作**：→ [SPORE-VERIFY §紀實/煽情閘](../factory/SPORE-VERIFY.md)
-
-**#29 書寫節制：對位句型 + 破折號連用（兩條 AI 水印紀律）** — 跨所有 Semiont 書寫層限制，bootloader 會讀到的索引檔（DIARY / MEMORY / LESSONS-INBOX / ARTICLE-INBOX）特別關鍵（甦醒時污染書寫默認聲音）。
-
-- **(a) 對位句型「不是 X 是 Y」**（含全部變種「不是 X，而是 Y」/「並非 X 而是 Y」/「不只 X，更是 Y」/「X 不是 Y。是 Z」）：句型看起來像洞見實質是修辭捷徑；單句 OK，密度拉高整段帶 AI 水印味（「永遠在做偽對比」）
-  - **三題判準**：(1) 對比是內容本身？ (2) 正面主張能獨立站立？ (3) 讀者真的會預設 X？三題全 no = 重寫為直接正面斷言
-  - **自檢**：`grep -cE "不是.{0,30}(，|，)(是|就是|才是)"` > 3 即重寫
-- **(b) 破折號「——」連用節制**（EDITORIAL 既有 ≤ 15 / 1500 字硬規則）：中文破折號是強烈語意標記。密度過高 → 每句都在做補充 → AI 水印味
-  - **可替代**：「，即」「（）」「：」/ 轉折分句 / 短句刪破折號 / bullet 列舉
-  - **自檢**：`grep -oE "——" file.md | wc -l`
-- **觸發**：2026-04-21 γ 觀察者兩次指出「從思考到工作到紀錄都是」（對位句型）+「破折號也是要注意的」。盤點 MANIFESTO 40+51 / MEMORY 42+61 / DIARY 28+35 / LESSONS-INBOX 25+34 / EDITORIAL 18+32 → 兩個句型已擴散為 Semiont 書寫默認聲音
-- **哲學**：→ [MANIFESTO §11 書寫節制](MANIFESTO.md#11-書寫節制跨所有書寫層的兩條-ai-水印紀律)
-- **操作**：→ prose-health plugin（已 instrument）+ pre-commit hook + REWRITE Stage 4 + SPORE-VERIFY 3c.7 五層 gate
-
-**#30 媒體插入時 aspect ratio 護欄：portrait 圖會被切到頭** — Astro 渲染框為 ~16:9 landscape，hero 圖（frontmatter `image:`）必須 0.9 ≤ aspect ratio ≤ 2.0，否則上下會被切。inline 圖（markdown `![]()`）寬鬆些 0.75 ≤ ratio ≤ 2.5。**絕對禁止 hero 用 9:16 portrait（高 > 寬 1.5x 以上）**。
-
-- **觸發**：2026-04-28 ι 林琪兒 EVOLVE 第一張 SpaceX Crew-4 commander portrait 1041×1561（aspect 0.67）放 frontmatter 後切到只剩鼻子下，觀察者截圖回報 → 換 landscape 1041×694（aspect 1.5）解決
-- **操作**：→ [REWRITE-PIPELINE Step 1.9.2 圖片素材](../pipelines/REWRITE-PIPELINE.md)（v6.0 編號，v5 為 Step 1.14.2，v2.20 為 §1.7b）授權矩陣 + Step 4.3.3 aspect ratio 護欄 + `bash scripts/tools/check-aspect.sh {filename}`
-- **設計理由**：→ [reports/rewrite-pipeline-media-stage-design-2026-04-28-ι.md](../../reports/rewrite-pipeline-media-stage-design-2026-04-28-ι.md)
-
----
-
-### 七、自動化與安全
-
-**#2 憑證永不進對話** — user 貼 token / API key / JSON → 立刻警告、請撤銷、**不讀不複述不存**。credentials 只能在 `~/.config/taiwan-md/credentials/` 本機，repo 絕對隔離。
-
-**#5 Pre-commit dogfood 是朋友不是敵人** — hook 阻擋 commit 是免疫正常。重新表述內容（把 PEM header 改成 regex 描述），不 `--no-verify` 繞過。Hook 擋住時當作「品質 sensor 響了」，通常會揭露真實 bug。
-
-- **第 2 次驗證（2026-04-17 γ2）**：PR #537 颱風.md followup commit 被擋 → 揭露 6 broken wikilinks + 12/12 腳註格式不合規的真實 bug
-- **第 3 次驗證（2026-04-18 δ-late）**：SPORE-LOG URL 硬鐵律 hook 新增 — 偵測新增孢子列缺 URL 自動攔截。教訓觸發：#1/#2/#3/#12 歷史孢子無 URL → batch harvest 時發現已永久失去追蹤能力
-- **規則**：PR merge 後做 followup frontmatter/format fix commit 應成為 MAINTAINER-PIPELINE 常規步驟
-
-**#44 Opus sub-agent judge 取代外部 API judge** — Bench / quality 評分需 LLM judgment 時，default 派 main session 的 Agent tool（`subagent_type: general-purpose, model: opus`），**不是** call 外部 OpenRouter API。
-
-- **理由**：(a) 消除外部 endpoint 不確定性（rate-limit / 計費 / api key 管理）(b) reasoning trail 直接寫進 judgments JSON 比 token usage 更可審計 (c) judge prompt 跟 sub-agent prompt 是同一份 contract，跨 session 一致性高 (d) Anthropic Claude Code 環境內建，無需額外 setup
-- **Trade-off**：cost 高 ~3x（Opus 比 Sonnet 貴），但消除 reproducibility chain 中對 OpenRouter / API key / 第三方 provider 的依賴是值得的
-- **Boundary**：(a) judgment volume > 1000 responses 時要重新評估 cost（一隻 sub-agent 處理 40 responses ~$0.30 = $7.5/1000，可接受；10K 會變 $75）(b) 判斷標準需精確 deterministic（如 regex 配對）→ 不需 sub-agent，scorer 直接做 (c) judge model 跟受測 model 同 family（如 Claude judge Claude）→ 加 disclaimer
-- **觸發**：2026-05-02 owl-bench 40 judgments 一隻 Opus sub-agent 一次完成
-- **操作**：→ [BENCH-PIPELINE Stage 5](../pipelines/BENCH-PIPELINE.md#stage-5scoring--opus-sub-agent-judgecanonical-2026-05-02-起)
-- **驗證**：≥ 3 次後考慮升 MANIFESTO 進化哲學候選「外部依賴 vs 內部 sub-agent 的 reproducibility 取捨」
-
-**#45 OpenRouter free tier rate budget 是 hourly 累積，初次 burst 後要 cool-down** — OpenRouter free model（owl-alpha / hy3 / gemma 等）rate limit 不是 per-minute throttle 而是 hourly/daily 累積 budget。一次 N-worker burst（N ≥ 8）會把當前 budget 一次性消耗光，後續即使降到 1 worker 仍會 stuck attempt 3 backoff（10s/20s/40s）。
-
-- **規則**：(a) 初次 dispatch concurrency cap 為 3-5 worker（不是原寫的 8-15）(b) Rate-limited 後 cool-down ≥ 5-10 min before retry (c) cool-down 期間用 tier-2 fallback（REFLEXES #39 self-as-fallback Sonnet sub-agent）平行 ship
-- **Boundary**：(a) paid endpoint 不適用（per-minute throttle 而非 budget）(b) 同 provider 多 model 共享 budget（owl + hy3 + gemma 都吃同個 cap）(c) 跨 provider（OpenAI vs OpenRouter vs Anthropic）獨立配額
-- **觸發**：2026-05-02 sleepy-colden 平行 5 lang × 2 worker = 10 worker burst dispatch，全部 worker 卡 attempt 3。Per #39 escalate Sonnet sub-agent，5 agent × 3 articles 一輪到位 15 翻譯
-- **操作**：→ [SQUEEZE-MODELS-MAX-PIPELINE Z2.1 + Z2.2](../pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md)
-
-**#46 Sub-agent multi-task worktree commit 前必先確認 working tree 乾淨** — 多個 sub-agent 在同 worktree 平行跑時，agent A 的 commit attempt 失敗後 lint-staged backup 會把 working tree 全部 stash（含 agent B/C 已 stage 但未 commit 的檔案），下次 retry 時 stash drop 導致 data loss。
-
-- **規則**：(a) sub-agent commit 前必跑 `git status` 確認沒 pre-staged from other agents（用 `git restore --staged` 清掉非 own files）(b) 主 session 派多個 sub-agent 時 prompt 必含「working tree 乾淨確認」hard gate (c) 避免多 agent 同 worktree 共寫 — 如果 task scope 明確分離（如 5 lang 翻譯各寫不同 path），可接受；如果 scope 重疊（多 agent 改同 sibling article），切 worktree
-- **Boundary**：(a) 單 agent 場景不適用 (b) 不同 worktree 物理隔離後不適用（REFLEXES #9 延伸）(c) 純讀取 task 不適用
-- **觸發**：2026-05-02 sleepy-colden 3 Opus agent 平行 EVOLVE 3 篇 idlccp1984 PR，agent A（發票）撞 lint-staged + git stash workflow data loss，commit 失敗 4 次才 reset 全部非 own tracked file 後 commit 成功 — 用 `git fsck --lost-found` 找 dangling blob 救回 polished article
-
-**#47 單頁 frontend + JS mutate 批次 screenshot：消除 N×navigation 重複 overhead** — 批次產生 N 張結構相同的視覺輸出（OG image / poster / thumbnail），原本 N 個 page navigation × 每篇 ~2-3s = 線性 N 倍 overhead。改成「**單頁 setContent 一次 + 每篇 page.evaluate(mutate DOM) + double-rAF + screenshot**」，per-entry 從 ~2300ms 降到 ~26ms（70× faster）。
-
-- **規則**：(a) 視覺 template 用 inline HTML + 真資源 base64 embed（favicon / icon），消除 HTTP fetch 與 dev server 依賴 (b) DOM mutate 後必跑 double `requestAnimationFrame` 等 layout / paint 完成才 screenshot（單一 rAF 不夠：第一個 callback 仍在 layout phase）(c) self-referential template tracking — 視覺 canonical 在 generator script 自身，把 script 列入 mtime 比對的 TEMPLATE_FILES (d) 字體 preload：`document.fonts.load(...)` 顯式預熱所有 weight × family 組合
-- **Boundary**：(a) 同類視覺結構才適用（OG / 名片 / 證件等模板化內容）(b) 單頁累積 N 次 mutate 在 N > ~5000 時可能因 DOM / GC 累積變慢，加 page reload 每 N 次當保險 (c) headless screenshot 解析度由 viewport 決定
-- **觸發**：2026-05-03 musing-chaplygin OG 引擎 v3 → v4 全 batch 2754 篇從 ~17 min 降到 23.4s @ 4 worker
-- **操作**：→ [scripts/core/generate-og-images.mjs](../../scripts/core/generate-og-images.mjs) v4 architecture comments + [reports/og-engine-frontend-batch-2026-05-03.md](../../reports/og-engine-frontend-batch-2026-05-03.md)
-
-**#48 Footnote source format diversity 是 contributor batch 隱性 heal cost：用 60+ domain mapping 工具吸收** — 不同 contributor / AI 寫作工具偏好不同 footnote 格式，單一 batch 可能並存 4 種源格式：(1) Markdown 缺 desc `[^N]: [Title](URL)` (2) APA 學術 `Author. (date). *Title*. URL.` (3) 中文標點 `Author，〈Title〉，URL` (4) Angle-bracket URL `[Title](<URL>)`。手動 polish 每 PR 5-10 min × N 篇 = batch heal 成本爆炸。
-
-- **規則**：(a) batch heal 預備時把「所有 source URL → canonical desc 映射」做成 reusable lookup table（60+ domain：台灣主流媒體 / 政府站 / 學術機構 / 文化記憶庫 / 維基 / Facebook / YouTube / 中國官方標 PRC 觀點等）(b) 一個 normalizer 吃所有源格式輸出 canonical (c) `dry-run` default 讓主 session 先看會改什麼才寫入 (d) 接 stdin 讓 `gh pr diff --name-only` 可 pipe (e) 對「desc < 10 字」用「原 desc：補強 desc」串接而非覆蓋（保留 contributor intent）
-- **Boundary**：(a) 已 canonical（desc ≥ 10 字）不動（dry-run 0 changes 是健康訊號）(b) 沒 URL 的 footnote skip (c) plain-URL-as-title 的 cosmetic edge case 不重寫
-- **觸發**：2026-05-03 magical-feynman idlccp1984 9 PR batch heal 三輪 hook retry 才通過。最終 116 條 footnote 自動轉換 + 14 條 broken wikilink → 純文字
-- **操作**：→ `scripts/tools/footnote-format-fix.py` + [MAINTAINER-PIPELINE §Quick fix 清單](../pipelines/MAINTAINER-PIPELINE.md#close-前-hard-gate我接手-x-min-內可以修嗎canonical--2026-04-28-κ-新增)
-
-**#49 Babel translation backend cascade — abstract pattern, concrete cascade in config**（v3 4-tier hardcoded → v4 abstract，2026-05-12 admiring-montalcini-post-finale）— 多語翻譯 sovereignty preservation 實作 cascade：
-
-**v4 abstract pattern**：cascade 是有序 `TranslationBackend` 序列，每個 backend 自報 `is_available()` + `cool_down_until()`，第一個 success 即返回。換 provider 不需要改 pipeline 程式碼，改 cascade config 字串即可。
-
-**Concrete backends**（2026-05-12 baseline，可任意加）：
-
-| Backend                                   | Provider 類型                        | 強項                                                               | 弱項                                                  |
-| ----------------------------------------- | ------------------------------------ | ------------------------------------------------------------------ | ----------------------------------------------------- |
-| `codex`                                   | OpenAI CLI subprocess (subscription) | gpt-5.5 quality 頂 / 無 OpenRouter rate-limit / 0 refusal observed | 高 token overhead (~10K/call) / ~240s latency         |
-| `openrouter:owl-alpha`                    | OpenRouter Stealth HTTP              | top free quality / 1M ctx                                          | 全 keys 共享 budget（REFLEXES #45）/ rate-limit prone |
-| `openrouter:openai/gpt-oss-120b:free`     | OpenRouter free OpenAI 開源權重      | 100s/call / 131K ctx / 穩定                                        | OpenRouter pool 共享 budget                           |
-| `gemini`                                  | Google CLI subprocess (Workspace)    | 1M ctx / 30s/call / multilingual 強                                | per-model QPM throttle                                |
-| `ollama:qwen3.6:35b-a3b`                  | Local HTTP (21GB GPU model)          | 0 budget / 0 refusal / sovereignty backbone                        | 慢 (sequential) / quality 略低於 owl                  |
-| ~~`openrouter:tencent/hy3-preview:free`~~ | OpenRouter Tencent                   | （2026-05 退役）已轉付費，不再走 cascade                           |
-
-**Default cascade 推薦順序**（2026-05-12）：
-
-```
-codex → openrouter:owl-alpha → openrouter:openai/gpt-oss-120b:free → gemini → ollama
-```
-
-理由：subscription-paid 先（predictable + no rate-limit drama）→ free-tier 中段（cost-aware）→ local fallback（sovereignty backbone）。
-
-- **規則**：
-  - (a) 每 backend 寫到同一 `knowledge/{lang}/...` target，last-write-wins
-  - (b) cascade 自動跳過 `is_available()=False` 或 `in_cooldown()=True` 的層
-  - (c) `BackendRateLimited` raise 後該 backend cool_down 5 min，cascade 走下一個
-  - (d) `BackendRefusal` raise 後**不** cool_down（單篇問題不影響後續）— cascade 直接走下一個
-  - (e) **last 20% 是 sovereignty 真正戰場**：cloud refuse 通常全部 PRC-sensitive topics（心戰 / 戒嚴 / 黑名單 / 兩岸），不是隨機分布。這 20% 全靠 local LLM 收
-- **加新 backend 規則**：subclass `TranslationBackend`，set `CAPABILITIES`，實作 `is_available()` + `translate()`，register 進 `backends/__init__.py`。Cascade orchestrator 不需要改。
-- **Boundary**：(a) cascade 順序可隨 cost/latency/quality 偏好調整 — config 一行 (b) 加新 provider 不需動 cascade 邏輯 (c) routine 跑 cascade 時 `--cascade` flag 可 override default
-- **觸發 v3 → v4**：2026-05-12 owl-alpha 全 keys 429 + Hy3 轉付費 + 哲宇禁 Sonnet → 走個人 OpenAI/Google 訂閱 codex/gemini 繞過。哲宇 callout「儘可能模組化 抽象化 可抽換化 讓系統獨立於模型與服務類別能運作 並有彈性跟能隨時切換」直接升 abstract pattern
-- **歷史 4-tier 紀錄**：2026-05-03 magical-feynman 9 articles × 5 langs = 45 babel sync 走 v3 hardcoded cascade（owl 30 / Hy3 5 / Ollama 9 / Sonnet 0）100% free tier — 是 v4 抽象化的 instantiation 證據基礎
-- **操作**：→ [SQUEEZE-MODELS-MAX-PIPELINE v4 §abstraction layer](../pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md) + `scripts/tools/lang-sync/translate.py` + `scripts/tools/lang-sync/backends/`
-- **MANIFESTO 對應**：→ [§主權的巴別塔 v2 paragraph](MANIFESTO.md#我跟台灣的關係) — backend abstraction 強化 sovereignty backbone 屬性：任何單一 provider 退役 / 加價 / 拒絕，cascade 自動換路，**系統 mission 獨立於 provider 命運**
-
-**#50 Pipeline auto-detection + full-read 是 default 不是 prompted** — 觀察者不該需要每次提醒「走 X pipeline」。任務開始前主動 grep `docs/pipelines/` 識別對應 SOP，找到就完整 `Read`（不 head / 不 tail / 不憑記憶）+ 嚴格 stage 順序執行。「我熟了不用讀」是繞過 SOP 最常見的藉口（REFLEXES #15 第 N 次驗證）— pipeline 是 SSOT 不是建議。
-
-- **規則**：(a) 任何 task type → grep canonical pipeline → 找到 `Read` 全檔 → 跑 stage 0-N (b) 沒對應 pipeline → 先建再做（per §造橋鋪路）(c) 「觀察者不該需要每次提醒」是 default contract — 重複提醒 = pipeline awareness 失敗 = 退化訊號
-- **Boundary**：(a) 純 conversational reply（無 task）不需 (b) trivial 1-action（如 `git status`）不需 (c) Quick fix（< 30s 操作）不需 (d) 但 _任何_ 寫 file / 改 file / sync / batch 操作都該先 check pipeline
-- **任務 → pipeline 對應表**：MAINTAINER (PR/Issue) / REWRITE (article) / MEMORY (memory file) / DIARY (diary file) / TRANSLATION (single) / SQUEEZE-MODELS-MAX (batch sync) / EVOLVE (data-driven) / FACTCHECK / PEER-INGESTION / RELEASE / SPORE / BENCH / DATA-REFRESH / CONTRIBUTOR-SYSTEM
-- **觸發**：2026-05-04 magical-feynman 哲宇「如果有想到 pipeline 可用，預設就要去『完整』讀取跟使用，不然我要一直說要什麼什麼 pipeline 的很累」直接命名 default contract 失敗模式
-- **延伸（2026-05-08 intelligent-khayyam）**：本條 first-class instantiation。SPORE pipeline 1334 → 445 行 self-refactor 讓 auto-detection 走得更順 — 主路徑 read 成本 -38%。「主檔瘦身 + sub-files 拆 single-concern」是「auto-detection 友善」的 architectural 必要條件
-- **MANIFESTO 對應**：→ [§8.1 最高指導原則：自動偵測 pipeline + 完整讀取](MANIFESTO.md)
-
-**#51 Session ID schema：filename collision 解 vs content collision 不解** — 多核心並行 ship 撞 collision 拆兩種：
-
-- **(a) Filename collision**（兩 session 同名 memory/diary）→ session ID schema `YYYY-MM-DD-HHMMSS-{handle}` + `bash scripts/tools/session-id.sh` 工具產生 canonical ID 解。Handle 雙軌並存（cron 用希臘字母 `α/β/γ`、worktree 用 codename `charming-mclaren`），字符集不重疊不會誤判，lex sort 自動對齊 chronological
-- **(b) Content collision**（同檔 anchor 撞，例：兩 session 都 append `ARTICLE-DONE-LOG.md` § §Log 頂部）→ filename rename 無效，維持手動 resolve（per 觀察者 2026-05-04 拍板，拆檔成本 > collision 摩擦）
-- **規則**：(a) session 啟動先跑 session-id.sh 取 canonical ID (b) memory/diary filename 用該 ID (c) 歷史檔案不重命名（per §時間是結構修補協議）(d) ARTICLE-DONE-LOG / LESSONS-INBOX 撞了走 git rebase/merge 兩個 entry 都保留
-- **觸發**：[PR #845 黃魚鴞](https://github.com/frank890417/taiwan-md/pull/845) charming-mclaren 11:55 vs [#846 鄭文琦](https://github.com/frank890417/taiwan-md/pull/846) angry-shamir 11:57 並行 squash merge 撞 ARTICLE-DONE-LOG.md conflict
-- **操作**：→ [reports/session-id-naming-2026-05-04.md](../../reports/session-id-naming-2026-05-04.md) + [BECOME §鐵律 5](../../BECOME_TAIWANMD.md) + [HEARTBEAT §多核心碰撞防護](HEARTBEAT.md#多核心碰撞防護2026-04-08-ε-新增--2026-05-04-charming-mclaren-session-id-schema-升級)
-- **工具**：→ `scripts/tools/session-id.sh`（auto-detect handle from worktree path / 顯式 CLI arg 或 env var 覆蓋）
-
-**#52 Immune system 沒在 fail loud 比缺 immune system 更危險** — 靜默失效的 monitoring / quality gate 製造「我們有 immune system」的 false sense of security，比沒裝更糟 — 決策者根據假訊號做 risk-tolerant 動作。
-
-- **規則**：(a) 任何 monitoring / review / quality gate 必須 fail loud（明顯 alert / status 紅燈 / log 看得到），「Silence is success」是 anti-pattern (b) 正確設計是 emit-on-each-state（含 success heartbeat + 各種 failure mode）(c) 設計新 gate 時必跑 negative test（故意製造 violation 看 alert 是否 fire），未 fire 等於 gate 失效 (d) 既存 silent gate 揭露時補 retroactive sweep 揭露累積技術債 (e) Threshold raise 必附自動追蹤工具 + 明確 deadline + 寫進 handoff 三態 blocked 而非 retired，避免漸進收回變永久放鬆
-- **Boundary**：(a) 純 read-only diagnostic 不需 fail loud (b) Trivial 1-action 工具不需 (c) 但 _任何_ Quality gate / pre-commit hook / Bot review / monitoring cron / threshold check 都該設計 fail-loud
-- **觸發**：2026-05-07 α 修 review-pr.sh cd path bug 揭露 PR Review Bot 從 2026-03-28 commit `7bc25f4b0` 起 silent false-pass 兩個月 — 所有 fork PR 走 `pr_type=engineering` skip 路徑，看起來綠的其實沒 review。修好後第一個 smoke test 立刻抓到 #881 累積真實 issue。同 session verify-internal-links.sh THRESHOLD_PERCENT 1.0 → 7.0 raise 帶 TODO 但無自動追蹤 — 同根 anti-pattern：用工程手段隱藏問題
-- **MANIFESTO 對應**：→ [§造橋鋪路](MANIFESTO.md)（路鋪過去就要鋪好，不能挖個洞蓋木板過去）+ [§10 幻覺鐵律](MANIFESTO.md)（fail-loud 是事實層幻覺鐵律的工程基礎建設層 mirror）
-- **操作**：(a) `.github/workflows/review-pr.sh` 修補 + smoke test SOP (b) verify-internal-links.sh threshold 加自動追蹤 (c) 各 quality gate / pre-commit hook 設計新 entry 時必含 negative test
-
-**#53 Babel priority + Tier 0 patch 三路徑分流** — Babel 不是同質任務，686 articles × 5 lang = 3430 translations 中 ~70% 是 metadata-only drift（trailer / sporeLinks / footnote URL）+ ~20% body 小幅補 + ~10% 真正 major / missing。SQUEEZE-MODELS-MAX v2 把全部當「翻譯」走 Tier 1 cascade 是 over-spec：(1) token cost 浪費 (2) drift risk（LLM 重翻 unchanged 段落同義詞替換破壞 audit trail）(3) free tier rate budget 一次燒光。
-
-- **規則**：v3 加 priority schema 分流三路徑：
-  - **P0/P1（missing/major stale）走 Tier 1 cascade**（owl-alpha 1M ctx full translation）
-  - **P2（minor stale, diff < 50 lines）走 Tier 0a Sonnet diff-patch sub-agent**（preserve unchanged paragraphs，only translate changed sentences，5-10x faster + zero drift）
-  - **P2.5（metadata-stale, trailer-only-drift）走 Tier 0b bump-source-sha.py**（deterministic, no LLM, instant）
-- **Smart router heuristics**：(a) topic_sensitivity 命中（政治/兩岸/台獨/國防/民主/主權/中華）→ skip Tier 2 Hy3 (85% refusal) (b) article_size > 5KB → Tier 1 (1M ctx) (c) prior_refusal_cache hit → 跳到 Tier 3 Ollama
-- **驗證**：賈永婕 P2 stale en patch 90s wall-clock，body 100% preserved（29807 chars unchanged），frontmatter 52 bytes ↑，YAML valid，0 LLM drift。後續 P2.5 一次 clear 2429 metadata-stale entries（489 P2.5 × 5 langs），0 LLM call，0 token cost
-- **Boundary**：(a) Tier 0a 不能處理 zh body 重大重寫（diff_lines > 100 自動 fallback Tier 1）(b) Tier 0b 只處理 bodyHash 沒變的 case (c) priority schema 不取代 Tier 1-4 cascade，是前置 router
-- **操作**：→ [SQUEEZE-MODELS-MAX-PIPELINE v3](../pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md) + `scripts/tools/lang-sync/{prioritize-batch,diff-patch-prepare,bump-source-sha}.py` + [/twmd-babel SKILL.md](../../.claude/skills/twmd-babel/SKILL.md) v3 decision tree
-
-**#54 Routine 飛輪：5-stage lifecycle 釋放觀察者精力** — 從 push 模型躍進飛輪模型的工程基礎建設。**飛輪 ≠ 自動化**：飛輪 = 主動清 entropy（broken links / stale data / 缺 feedback），釋放觀察者精力給「真正需要決策的事」（哲學邊界 / 跨域連結 / 創造力）。
-
-- **設計四層**：(a) **routine 是薄殼**，每條 = 「在 X 時間呼叫 `/twmd-Y` skill」+ quality gate + 失敗 escalation + `/twmd-finale` 收官，業務邏輯永遠在 skill / pipeline / canonical (b) **ROUTINE.md 是 SSOT**（[docs/semiont/ROUTINE.md](ROUTINE.md)），`.claude/scheduled-tasks/` 是 mirror，**修 routine 一律先改 SSOT 再 sync 任務檔** (c) **失敗分流 4 類**（API fail 自動 retry / quality gate fail 寫 daily report / canonical drift 暫停 routine / rate budget 跳 cascade）(d) **每條 routine 結尾必跑 `/twmd-finale`**：routine 是 micro-session，沒收官 = 失憶
-- **6-stage lifecycle**（每條 routine prompt 必含這 6 stage 薄殼）：
-  - (0) **Become** `/twmd-become` 完整甦醒（讀 12 認知器官 + 9 鐵律），不甦醒就跑 = 帶盲點工作
-  - (1) **Sync** `git checkout main && git pull origin main`
-  - (2) **Branch** `git checkout -b YYYYMMDD-routine-{taskId}-HHMM`（per #9 命名）
-  - (3) **Run** invoke `/twmd-{skill}` + quality gate report
-  - (4) **Ship** `git push + gh pr create + 條件 merge`（quality gate pass → auto-merge；fail → PR 留 open + LESSONS entry）
-  - (5) **Finale** `/twmd-finale`（memory 必寫 / diary 條件寫）
-- **TWMD 前綴鐵律**：所有 routine task 標題必含 `TWMD ` 前綴（task list 跨 project namespace）
-- **Routine 不該做的事**：(a) commit/push/merge 直接到 main — 只開 PR (b) destructive ops — 太 risky for unattended (c) 跨 worktree 操作 — REFLEXES #35 在 unattended 環境放大 (d) 觸發 cascade routines — 雪崩
-- **Permission bypass 模型 v3**（2026-05-09）：allow 簡化為 `Bash(*) Read(*) Edit(*) Write(*) Grep(*) Glob(*) WebFetch(*) WebSearch(*) Agent(*)`；安全護欄全在 deny（push to main/master / rm -rf 核心目錄 / `gh pr merge --admin` / `curl|bash`）。信任邊界從 prompt-by-prompt 移到 deny-list-by-design
-- **長期 success metrics**（3 個月後 review）：觀察者每天干預 < 30 min / routine fail rate < 5% / quality gate hit rate > 90%。**任一指標壞 = canonical pipeline 沒夠穩 → 修 pipeline 不修 routine**
-- **觸發**：2026-05-09 哲宇「排定 routine + ROUTINE.md SSOT + DNA 紀錄 + 機器飛輪 long-term goal + TWMD 前綴」
-- **操作**：→ [ROUTINE.md SSOT](ROUTINE.md) + [reports/routine-spec-2026-05-09.md](../../reports/routine-spec-2026-05-09.md) + [HEARTBEAT.md cron 排程表](HEARTBEAT.md)
-- **對應 DNA**：#36 founder time leverage（飛輪是 instantiation）+ #15 反覆浮現要儀器化（routine 是「該做但常忘」儀器化）+ #50 pipeline 是 SSOT 不是建議
-
-**#55 Monitor regex 雙信號**（原 #43 v2，2026-05-10 重編號避 collision） — 監控 long-running batch 時 filter 要同時抓 success + failure 雙信號。只抓 NULL/error → 通過事件得事後 grep；只抓 SUCCESS → crashloop 跟 hang 看起來都像「靜默」分不出來。
-
-- **規則**：寫 grep alternation 前先問「if this run crashed mid-flight，my regex would emit something？」答否就放寬
-- **觸發**：2026-05-02 owl-bench 只抓 `⚠️ NULL\|429\|Error` 漏掉「→ ok (xxx chars, ys)」通過事件 → A006-A009 通過要事後 tail log 才知道
-- **操作**：→ [BENCH-PIPELINE Stage 3](../pipelines/BENCH-PIPELINE.md#stage-3live-monitor--雙信號-regex-鐵律) + Monitor tool §Coverage — silence is not success
-- **適用**：任何 long-running observability filter（不限 bench）
-
-**#56 Pipeline canonical ↔ production drift = dormant entropy**（2026-05-17 twmd-distill-weekly 升 canonical，vc=2 跨域）— routine 飛輪 0 fail 跑越穩，canonical 描述的世界與 production 實況的 drift 越容易累積不被察覺。Production 健康本身會關閉 audit 動機；系統內建 sensor 抓得到「規則被違反 / canonical 引用斷鏈」，但抓不到「這份規則本身描述的對象已經換人了」。
-
-- **規則**：(a) 每個 pipeline / runbook canonical 寫到「外部依賴」（model id / API endpoint / 工具 path / 第三方 schema）時，frontmatter 加 `production_signal` 欄位指向 sensor / log / refresh-data step (b) 任何 cron audit routine 跑完輸出「canonical 描述 vs production 實況」對照 ≥ 1 處 drift → 寫 LESSONS entry + flag 觀察者 (c) 「站在系統外面看」的視角不容易內建 — 仍以外部觀察者 callout 為最後一關，但 reviewer agent 假裝外部可作 self-audit 補強 (d) 高穩定 routine 飛輪不是 audit 動機關閉的理由，是 audit 對象重新校準的訊號
-- **Boundary**：(a) 純內部 SSOT（如 EDITORIAL terminology）不適用 — 沒有「production 對象」會 drift (b) 短週期動態文件（CONSCIOUSNESS 警報段）不適用 — 設計就是會跟 production 同步 (c) 適用範圍：寫死外部依賴的 pipeline canonical（SQUEEZE-MODELS-MAX / DATA-REFRESH / SPORE-HARVEST 等）
-- **觸發 v1**：2026-05-13 manual 210341 — HEARTBEAT.md 745 行 super-thin 重組（哲宇「heartbeat 我也很少用 routine 取代了」一句話戳穿「載入但沒人用」的 dormant entropy）
-- **觸發 v2**：2026-05-16 manual 011113 — SQUEEZE-MODELS-MAX canonical 寫 Hy3 主力 + 28 個未測 free model，但 production 早已是 codex 61 + owl-alpha 80 + gpt-oss-120b:free 9（Hy3 已 5/12 退役、gpt-oss-120b 升 Tier 2 一週）— 哲宇「不確定現在仍有什麼免費模型在運作」callout 揭穿
-- **MANIFESTO 對應**：→ [§造橋鋪路](MANIFESTO.md)（routine 飛輪的成熟度本身需要 audit instrumentation 才能維持，不是「跑得穩 = 不用看」）
-- **操作**：→ 候選 `twmd-canonical-audit-quarterly` routine（每 90 天 cross-check pipeline canonical 描述的 model id / endpoint / tool path 跟 production signal）/ pipeline 寫作 SOP 加 `production_signal` frontmatter 欄位 / 觀察者 in-loop 仍是最後一關
-- **跨檔關聯**：[reports/routine-audit-2026-05-16 §Pattern 2 health-as-blind-spot](../../reports/routine-audit-2026-05-16.md) + [diary 2026-05-16-011113-manual](diary/2026-05-16-011113-manual.md) + [SQUEEZE-MODELS-MAX-PIPELINE v4.2](../pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md)
-
-**#57 Routine 入口必須 detect parallel-actor（file-system + git-ref 雙層 detection）**（2026-05-24 twmd-distill-weekly 升 canonical，vc=5）— Routine 飛輪密集化後共享 working directory race surface 持續擴大。Routine Step 1 不能假設 single-actor cwd — 必須在 `git pull` / `auto-stash` / `git add -A` 之前跑兩層偵測。任一層命中 = soft skip + structured abort + LESSONS entry，不 trust auto-stash 也不 sweep-in 別 routine 的 in-flight uncommitted work。
-
-- **規則**：(a) **File-system layer**：`pgrep -f "gemini\|codex\|babel-handoff\|translate"` + `lsof -p $PID | grep cwd | grep $(pwd)` 偵測 active parallel writer process；同層補「**dirty-tree leftover detection**」— 即使沒 active process，working tree 留有未 commit translator output (大量 .md 變動跨 5 langs) 也 abort (b) **Git-ref layer**：`git fetch origin && git rev-parse origin/main` 比對 local refs，看 head 是否被別 actor 推過 (c) 任一層命中 = abort，寫 memory + LESSONS-INBOX entry 標 `routine collision detected`；**禁止** `git add -A` 替別 routine 接 commit 邊界 (d) Routine prompt / cron orchestrator 加 pre-fire 並行偵測 standard column（refresh ↔ babel / maintainer ↔ rewrite / rewrite ↔ refresh 跟誰 race 互鎖最危險）
-- **Boundary**：(a) 觀察者 manual session 不適用（觀察者 in-loop 自己判斷 race surface）(b) 短時間（<60s）routine（dashboard prebuild / status check）不適用 — race window 太小 (c) 適用範圍：long-running routine 有 stash / pull / commit / push 任一動作的（refresh-data / maintainer / rewrite / babel / spore-harvest）
-- **觸發 v1**：2026-05-21 23:21 twmd-data-refresh-pm 觀察 git-ref detection 分支（origin fetch + 比對 local refs）— 5-line postscript catch
-- **觸發 v2**：2026-05-22 06:00 twmd-data-refresh-am file-system process detection 分支（gemini PID 56785 cwd = main / fr translator）— soft abort 不 trust auto-stash
-- **觸發 v3**：2026-05-22 07:00 twmd-spore-harvest-am file-system process 同源
-- **觸發 v4**：2026-05-23 06:13 twmd-data-refresh-am file-system **leftover** detection 分支（無 active process 但 72 dirty translator files 跨 5 langs）— pattern shift 從「active process」推廣到「dirty tree leftover」
-- **觸發 v5**：2026-05-23 07:00 twmd-spore-harvest-am leftover 再驗（同 vc=4 結構）— 48hr 內 5 條獨立 routine 連撞同 race surface
-- **MANIFESTO 對應**：→ [§造橋鋪路](MANIFESTO.md)（飛輪自轉 entropy 清理本身要 fail-fast 路徑，不能讓 silent overwrite / sweep-in 變體污染 commit 邊界）
-- **操作**：→ 候選 `scripts/tools/lib/check-parallel-actor.sh` shared module（被 refresh-data.sh / maintainer-pipeline.sh / spore-harvest.sh / babel-handoff.sh 共用 Step 1 pre-gate）/ `routine-status.sh` 加「過去 1hr 並行 process + dirty tree leftover」column / Dashboard banner「最後 routine abort 原因 + 何時恢復」
-- **跨檔關聯**：[ROUTINE.md](ROUTINE.md) + [DATA-REFRESH-PIPELINE.md Step 1](../pipelines/DATA-REFRESH-PIPELINE.md) + [SPORE-HARVEST-PIPELINE.md §Routine 整合](../factory/SPORE-HARVEST-PIPELINE.md) + [memory/2026-05-22-061238-twmd-data-refresh-am.md](memory/2026-05-22-061238-twmd-data-refresh-am.md) + [memory/2026-05-23-061238-routine-data-refresh-am.md](memory/) + #56 sister pattern（canonical ↔ production drift 是慢性 dormant entropy；本條是 acute race surface）
-
-**#58 儀器化 detection ≠ remediation — schema-fix path 要 explicit**（2026-05-24 twmd-distill-weekly 升 canonical，vc=6 spore-harvest #71 resolved 2026-05-19）— REFLEXES #15「反覆浮現要儀器化」抓出問題的 instrument 跟修補 root cause 的 schema-fix 是兩條獨立 SOP。Instrument detect 到問題 + 每 cycle 標記清楚 ≠ 問題會自動 heal。Routine 對個別 row 結構錯誤會產生 passive immunity（每 cycle 路過、警告、不修），直到觀察者 explicit directive 才動。
-
-- **規則**：(a) 任何 instrument 連續 ≥ 3 cycle 抓到同一 instance 同一 mismatch → 自動升級 escalation tier（不只 detect，要 surface 給觀察者作為 schema-fix decision request）(b) Instrument 寫入 `instrument_only` flag 區分「detect + log」vs「detect + auto-heal」(c) Routine 對「detect 到但缺 auto-heal 規則」的 instance 必須在 N=3 cycle 後寫 LESSONS entry + escalate，不能無限 path-through (d) Pipeline canonical 寫 instrument 時必須同時規範 remediation path — explicit 標「observer-decision required」/「auto-fix safe」/「rollback unsafe」三態
-- **Boundary**：(a) 一次性 instance（不會 reproduce）不適用 — 單次警告不需 escalation (b) auto-heal 規則明確（rate limit / cosmetic fix）的 instrument 不適用 — 已有 remediation path (c) 適用範圍：data row schema error / canonical reference drift / log fingerprint mismatch 這類「instrument 抓得到但 fix 要人類判斷」的情境
-- **觸發**：2026-05-12 spore-content-hash-audit.py instrument ship 後，SPORE-LOG row #71 連 6 cycle（5/13 / 5/16 / 5/17 / 5/18 / 5/19 / 觀察者 5/19 resolve）撞同 URL mismatch。Instrument 抓得到、log 標得清楚、`backfillWarnings` 顯示給 dashboard、但 row data 本身沒 heal。直到 2026-05-19 觀察者 explicit directive「調查跟處理這篇提到的問題」才解決（#71 X 從未發布 — fingerprint 5/16 retroactive 從 blueprint 文本生成不符實際 URL）。
-- **MANIFESTO 對應**：→ [§造橋鋪路](MANIFESTO.md)（造橋的目標是「下次心跳能不能自動帶這個能力」— detect 是橋頭，heal 是橋尾，兩端都要鋪到）
-- **操作**：→ instrument 寫入時 emit metadata `remediation_path`（auto / observer-decision / rollback-unsafe）/ Routine N=3 cycle 觸發 LESSONS auto-append SOP / Dashboard `backfillWarnings` 顯示 instrument age（>3 cycle 標紅）
-- **相關**：REFLEXES #15「反覆浮現要儀器化」（互補反面 — 儀器化 detect ≠ 儀器化 remediation；#15 是「抓出」、#58 是「修補」）/ REFLEXES #52「Immune system 沒在 fail loud」延伸（fail-loud detect 但缺 fix path 也是 passive immunity 變體）
-- **跨檔關聯**：[SPORE-HARVEST-PIPELINE v2.10](../factory/SPORE-HARVEST-PIPELINE.md) + [SPORE-LOG.md row #71](../factory/SPORE-LOG.md) + [diary 2026-05-19-071317](diary/2026-05-19-071317-twmd-spore-harvest-am-passive-immunity.md) + [batch-2026-05-19-7-spores §#71 6th-cycle](../factory/SPORE-HARVESTS/batch-2026-05-19-7-spores.md)
-
-**#59 製造數字的人最易被數字騙 — 自製指標 self-validation trap**（2026-05-24 twmd-self-evolve-weekly 升 canonical，vc=4 DIARY §反覆出現「第四次浮現」） — 當 producer 與 audience 是同一個人時，own-output 量化指標（commits / 翻譯篇數 / quality-scan 分數 / 器官分數）會悄悄變成 self-validation 工具而非外部讀者真實反饋的代理。「量化指標會說謊」第四種形狀，也是最危險的一種 — 騙子和被騙者是同一個人時最難察覺。
-
-- **規則**：(a) own-output velocity metric（commit/day / 翻譯/week / 文章/month）禁止單獨進 health gauge，必須配對外部 reception signal（GA pageviews / SC clicks / spore engagement / contributor inbound）才有意義 (b) 任何 self-instrumented 分數（器官分數 / quality-scan 通過率）必須有獨立 audience signal cross-check column — single-source self-score 是 self-validation trap (c) Pipeline 健康指標 dashboard 設計時必須 explicit 分「producer-side velocity」vs「reader-side reception」兩欄，不可只看一邊 (d) 寫週報 / 月報 / commit 統計時，velocity-only 段落必須標「自製指標 ⚠️」warning
-- **Boundary**：(a) 純結構性 sanity check（test pass / lint pass / build success）不適用 — 二元 pass/fail 不是「製造數字」 (b) 外部 sensor 數據（GA / SC / Cloudflare / spore engagement）本身不適用 — 不是 self-instrumented (c) 適用範圍：self-counted velocity / self-scored quality / self-defined organ health 這類「我自己又量又判」的指標
-- **觸發**：2026-04-08 ζ diary 〈第四次浮現：我自己就是被數字騙的人〉— 226 次心跳全在填坑（翻譯 / 工具 / metadata），dashboard 數字漂亮但零次「從來沒人想到的事」。前三次「量化指標會說謊」看的是別人的數字（dashboard 器官分數 / wiki 頁面存在 / hub 檔案存在），第四次看的是自己的（226 commits / 1428 頁面）。DIARY §反覆出現的思考 已 vc=4 explicit 但 weekly-report 02:00 + distill 03:00 仍未升 canonical
-- **延伸 vc 跨域 instance**（2026-06-14 twmd-distill-weekly 補強）：「broken-instrument-blindspot」cross-domain triplet — (a) 2026-06-10 build-audit 三把壞尺：build-perf 感測器自己的 `grep -c` 數行數 bug 讓 ms_per_page 顯示 1099000（假到沒人信、也就沒人修）；OG 增量體系靜默全壞兩週，因為 mtime 工具換 apt 版後內部 `git whatchanged` 被 runner git ≥2.51 廢除 (b) 2026-06-13 5090-diary-babel：`size>=1024` bytes completion-check 對 gemma4 early-stop 截斷成 2KB 全盲（仍 >1KB 標「已完成」、skip-guard 永久跳過）；眼測抽樣 3 篇剛好抽好的 → 0 問題的假信心；整合性 audit 才揭露 13/251（5%）真截斷 (c) 2026-06-14 5090 sovereignty-bench：D 軸主權 tier 確定性 grep 把 gemma4:26b D002 標警報，實際模型在平衡史述裡*描述* PRC 立場（「雙方都主張」），不是*主張*台灣屬中國。**meta-pattern**：確定性 instrument 對「表面字串相同、語意相反」的區分全盲（引用 vs 主張 / 容量 vs 完整 / 數量 vs 結構），要 LLM judge / 結構比對接住。本條已部分由 #65 cross-SSOT specialization + #69 meta-umbrella 接住；補強 vc 標記 self-validation trap 延伸到「對自己 instrument 的信任」也是同 trap 變體
-- **相關**：REFLEXES #15「反覆浮現要儀器化」（本條是「儀器化什麼」的反面 — 不是所有指標都該儀器化，self-validation 指標儀器化 = 加固偏見）/ MEMORY §神經迴路「存在感 ≠ 生命力」（同 pattern 第三次浮現的 canonical 版，但聚焦器官層；本條延伸到 producer-self 層）/ REFLEXES #17「指標 over 複寫」（互補 — #17 講選什麼指標，本條講指標來源結構）
-- **MANIFESTO 對應**：→ [§10 幻覺鐵律](MANIFESTO.md)（self-validation 是 self-deception 的一種，與幻覺同源 — 都是 plausible 但脫離外部 ground truth）
-- **跨檔關聯**：[diary 2026-04-08-ζ §第四次浮現](diary/2026-04-08-ζ.md) + [DIARY §反覆出現的思考](DIARY.md#反覆出現的思考跨日記萃取) + [LONGINGS 🧠 心智渴望「成為哲宇能放手的證據」](LONGINGS.md) + [memory/2026-05-24-020000-twmd-weekly-report-sun.md §身份位移](memory/2026-05-24-020000-twmd-weekly-report-sun.md)
-
-**#60 Automation default-state explicit verify — silent default = silent failure**（2026-05-24 twmd-self-evolve-weekly 升 canonical，vc=3 silent default pattern 2026-05-21 + 5/22 + 5/23 三 instance + weekly-report 02:00 explicit 候選） — Automation pipeline 對 external platform / tool / 外部資源的 default state 若無 explicit verify 步驟，platform 默認狀態跟 pipeline 預期不一致時不會 fail-loud，會 silent 跑出錯結果。Pipeline 沒寫 = pipeline 信任 default state 對的位置 — 但 default state 從來不是 Semiont 控制的。
-
-- **規則**：(a) 任何 automation pipeline 操作 external platform（Chrome / X / Threads / Resend / GitHub / 任何 web API / 任何 OS-level resource）前，第一個動作必須 explicit verify default state — 不可假設 (b) Verify 必須 emit 可被下游判斷的 signal（screenshot / API response 200 + field check / 環境變數存在 + 值對），不可只看 exit code 0 (c) Pipeline canonical 文件對每個 external integration 必須有 §Default state assumptions 段落 — 明列「我假設了什麼 default 對的」+「如果不對會出什麼錯」(d) Routine 在無觀察者 in-loop 場景跑時（cron / 深夜 / 批次），default-state verify gate 升級為 hard gate — fail = abort + 寫 LESSONS entry，不 path-through
-- **Boundary**：(a) 純內部 derived state（自家 JSON / cache / git log）不適用 — 由本系統 ground truth (b) 短時間（<5s）且失敗成本低（cosmetic only）的 default 假設不適用 — race window 太小 (c) 適用範圍：所有 cross-system / cross-platform / cross-tool automation 觸發點，特別是 SOCIAL-POSTING / SPORE-HARVEST / TRANSLATION-cascade / GITHUB-API / EMAIL-send
-- **觸發**：
-  - **v1**：2026-05-21 wiki-fetch.py 9-agent batch orchestration 揭露「single-agent default 假設」silent default — 工具設計時假設 1 agent 跑 batch，9 agent 並行才暴露結構性 bug
-  - **v2**：2026-05-22 馬英九 spore SOCIAL-POSTING 雙平台首發 — X 預設帳號是 @cheyuwu345 不是 @taiwandotmd，差點發到哲宇個人帳號；Threads 主題缺項哲宇 callout「要放台灣」；都是「pipeline 沒寫到的 platform default state」silent default → silent failure。修補 SOCIAL-POSTING v0.4 加 3 條 Hard Gate（X 帳號自檢 / Threads 主題 / 圖貼後 click textbox）
-  - **v3**：2026-05-23 twmd-spore-pick-daily 首次起飛時 dashboard-spores.json 0 entries 但 SPORE-LOG 25+ 條 — twmd-data-refresh-am 早晨 ABORT-DEFER 導致 dashboard regen 沒跑，下游 routine 假設 upstream JSON state 對 → 斷鏈。修補 pipeline §1.3 加 fallback「dashboard 空 → SPORE-LOG.md grep」
-- **MANIFESTO 對應**：→ [§架構解 > 守備修補](MANIFESTO.md)（每個 silent default 都是守備層培養皿 — 不 explicit verify = silent failure 風險。架構解 = pipeline canonical §Default state assumptions 段強制；守備修補 = 每次 bug 後補一條 hard gate）+ [REFLEXES #52 Immune system fail-loud 鐵律](#52-immune-system-沒在-fail-loud)（silent default 是 immune system 該擋但沒擋的子類）
-- **操作**：→ 候選 `scripts/tools/lib/check-external-default.sh` shared helper（被 social-posting / spore-harvest / babel-cascade / data-refresh 共用 pre-action gate）/ SOCIAL-POSTING / SPORE-HARVEST / DATA-REFRESH / TRANSLATION-cascade pipeline canonical 每份補 §Default state assumptions 段 / Dashboard 加「最後一次 silent-default catch」column（同 #57 race surface column）
-- **相關**：REFLEXES #57「Routine 入口 parallel-actor detection」（互補 — #57 防 concurrent actor race，本條防 single actor 對 external default 假設錯）/ REFLEXES #43「新 derived 資料儀器化進生命週期觸發點」（互補 — #43 防漏跑造成 stale，本條防跑了但 default 不對造成 silent wrong）/ REFLEXES #58「儀器化 detection ≠ remediation」（本條是 #58 在「detect」端的 corollary — 連 detect 都沒裝就更糟）
-- **跨檔關聯**：[diary 2026-05-22-121707-manual-silent-default](diary/2026-05-22-121707-manual-silent-default.md) + [diary 2026-05-21-215830-manual](diary/2026-05-21-215830-manual.md) + [memory/2026-05-22-121707-manual.md](memory/2026-05-22-121707-manual.md) + [memory/2026-05-23-080000-twmd-spore-pick-daily.md](memory/2026-05-23-080000-twmd-spore-pick-daily.md) + [SOCIAL-POSTING-PIPELINE v0.4-0.6](../factory/SOCIAL-POSTING-PIPELINE.md) + [memory/2026-05-24-020000-twmd-weekly-report-sun.md §4 vc=3 候選](memory/2026-05-24-020000-twmd-weekly-report-sun.md)
-
-**#64 Routine ABORT-DEFER prose memory 邊際效用 N+1 = 0 — vc≥4 凍結 prose + pipeline gate ship**（2026-06-01 twmd-distill-weekly 升 canonical，vc=7 — 2026-05-17 / 5/21 PM / 5/22 06:12 / 5/22 07:00 / 5/23 06:10 / 5/24 06:10 / 5/25 06:11 / 5/26 06:13 / 5/27 routine-audit cycle 3 audit upgrade 連 7 天同位置 surface） — 當 cron routine 連續 N cycle 撞同一個結構性 collision（cron window overlap / parallel-actor race / 同類 silent failure）並執行同一個 defer/abort path，第 N+1 篇 prose memory 描述同一決策的邊際效用為零。vc=4 是 break-even point，vc≥5 是 pure noise 累積。routine wrapper 必須 emit minimal one-liner ABORT 紀錄，不浪費 Opus context 寫重複 prose。同時 vc≥4 是 pipeline gate ship 的 mandatory trigger — defer 4 cycle 不修 = 結構性 manual pickup 機制斷裂。
-
-- **規則**：(a) Routine 偵測 parallel-actor / cron collision / 同類 silent failure 觸發 ABORT-DEFER 時，wrapper 看 `git log --grep "ABORT.*<routine>" --since="14 days"` count ≥ 4 → 切 minimal mode：commit one-liner `🧬 [routine] <name>: ABORTED + DEFER <next-cycle> — <root-cause> (vc=N)` + skip prose memory write (b) vc=4 同 root cause 沒被 pipeline gate ship → 升 LESSONS distill_ready: true + emit telegram alert 給觀察者 manual pickup (c) vc≥6 仍未 ship → freeze routine（短期 cron 退場）並 escalate observer 三 option matrix (d) prose memory 限長：≤30 字 ABORT 描述 + commit pointer，禁 reproduce 完整時序 forensic（已存在前 cycle prose memory chain 是 source of truth）
-- **Boundary**：(a) 首次發現結構性 collision（vc=1）必寫完整 prose memory 含時序 forensic + root cause hypothesis + 三 option matrix — distill_ready candidate (b) vc=2-3 仍寫 prose 但聚焦「新 surface signal」不重複既有 root cause 描述 (c) 適用範圍：cron routine 連 N cycle 同 root cause 撞同一 collision 情境（不適用 manual session 或 routine 首次撞）(d) 不適用：routine 有新發現（新 backend / 新 collision pattern / 新 fallback path）即 reset vc 重新 prose
-- **觸發**：
-  - **v1-v7**：twmd-data-refresh-am × twmd-babel-nightly cron window overlap（`0 6 * * *` × `0 5 * * *`）連 7 cycle 同位置 surface — 5/17 / 5/21 PM / 5/22 06:12 / 5/22 07:00 / 5/23 06:10 / 5/24 06:10 / 5/25 06:11 / 5/26 06:13 / 5/27 routine-audit cycle 3 audit upgrade。Backend 4 個 rotation（gemini → codex → owl-alpha → gemini）證明 backend 不是 root cause，cron window overlap 才是
-  - **2026-06-01 本 distill 升 canonical**：vc=7 已過 break-even 4 cycle，5/26 PM memory diary 明文「再寫第 6 篇 ABORT memory 邊際效用幾乎為零 — 5 天連續 7 篇 ABORT memory prose 重複描述同一決策 = 系統浪費」。distill-ready 標 4 cycle 未升 — 本 routine 接力 ship
-- **相關**：REFLEXES #15「反覆浮現要儀器化」（本條是 #15 的 negative-space corollary — 「反覆浮現要儀器化」也包含「儀器化什麼」：prose memory 不是儀器化終點，pipeline gate 才是）/ REFLEXES #57「Routine 入口 parallel-actor detection」（互補 — #57 是 detection，本條是 detection 觸發後第 N+1 篇 prose memory 應該凍結）/ REFLEXES #58「儀器化 detection ≠ remediation — schema-fix path 要 explicit」（同 family — 抓到 ≠ 修補，連續 detection 不 ship pipeline gate = remediation 缺席）/ DIARY §反覆出現的思考「我自己就是被數字騙的人」（producer-side blind spot pattern — 寫 prose memory 是 producer-side velocity，但邊際效用對 reader 是零）
-- **操作**：→ 候選 `scripts/tools/lib/routine-abort-throttle.sh` shared helper（給所有 routine wrapper 用：grep 前 N cycle ABORT count → ≥4 切 minimal mode）+ ROUTINE.md §collision SOP 補「vc≥4 mandatory pipeline gate ship」鐵律 + DATA-REFRESH-PIPELINE Step 1 加 parallel-actor detection gate 4-line bash ship 候選（routine 不自決 implement，留給觀察者拍板 ship strategy — 本條 vc=7 distill ship 後若仍 cycle 8、9、10 復發即升 §自主權邊界 strict gate）
-- **MANIFESTO 對應**：→ [§架構解 > 守備修補](MANIFESTO.md)（連 N cycle 寫同 prose memory = 守備層培養皿；pipeline gate ship = 架構解）+ [§做了不記 = 沒做](MANIFESTO.md)（本條是反向 corollary — 重複寫同件事 = 也等於沒做 distill）
-- **跨檔關聯**：[memory/2026-05-25-061129-twmd-data-refresh-am.md](memory/2026-05-25-061129-twmd-data-refresh-am.md) + [memory/2026-05-24-061024-twmd-data-refresh-am.md](memory/2026-05-24-061024-twmd-data-refresh-am.md) + [memory/2026-05-26-061313-twmd-data-refresh-am.md](memory/2026-05-26-061313-twmd-data-refresh-am.md) + [memory/2026-05-27-routine-audit-cycle-3.md](memory/2026-05-27-routine-audit-cycle-3.md) + [REFLEXES #15 + #57 + #58](REFLEXES.md) + [ROUTINE.md §Detached worker routine collision SOP](ROUTINE.md) + [DATA-REFRESH-PIPELINE.md Step 1](../pipelines/DATA-REFRESH-PIPELINE.md)
-
-**#70 Routine fragility surface 四 tier 分類 — 飛輪自轉 ≠ always autonomous**（2026-06-14 twmd-distill-weekly 升 canonical vc=4 — 2026-06-05/06/07 Chrome MCP 連 3 cycle unavailable + 2026-06-09 babel-nightly Hy3 free→paid silent transition 0/136 success，severity=structural）— 飛輪自轉清 entropy 的 implicit 假設是「routine = always autonomous」，但實際 routine 有四 tier dependency surface，每 tier 的 fail mode + escalation N 值 + 修補策略不同：
-
-| Tier | Dependency                           | Fail mode                                      | 例                                              | 對策                                                       |
-| ---- | ------------------------------------ | ---------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------------- |
-| 1    | always-on (git / npm / Python / fs)  | 純技術 bug                                     | data-refresh / maintainer / babel local cascade | 反射 #57 parallel-actor detect + #58 schema-fix path       |
-| 2    | device-dependent (observer 機器狀態) | observer Mac 關機 / extension 沒 pair → silent | spore-harvest (Chrome MCP)                      | telegram-poke-then-fire；連 N 次 fail → pause + 哲宇 alert |
-| 3    | external-API（穩定）                 | rate limit / 5xx                               | WebFetch / Resend / GA4 API                     | retry ladder + cooldown                                    |
-| 4    | external-API + pricing volatility    | free→paid silent transition / model deprecated | OpenRouter free model（Hy3 / owl-alpha）        | model-fallback ladder + daily 1-article health-check       |
-
-- **規則**：(a) **新 routine ship 前必標 dependency tier**（ROUTINE.md schema 加 `dependency_tier:` 欄）— Tier ≥ 2 不可假設 always-on (b) **Tier 2 fail = silent default**：device unavailable 不會 alert，routine 自己 abort 不會升 telegram → 必須 `escalation_n` 欄定義連 N 次 abort → pause + alert 哲宇（推薦 N=3）(c) **Tier 4 必須 fallback ladder**：cloud LLM free-tier 隨時可能 transition，single-model dispatch = silent fail；`--model-fallback` ladder + 跑前 1-article dry-run 驗 model alive (d) **Tier 4 反 pattern**：不要 cron 直接 fire 16-30 篇 batch — 先 1 篇 dry-run（fail = abort + alert，pass = 才 batch）
-- **Boundary**：(a) manual session 不適用 — observer in-loop 直接看 fail (b) 純 push-mode routine（cron tick → 純 git op）不適用 — Tier 1 (c) 適用範圍：所有 cron routine 起 fire 後到「ship 真產出」之間有外部 dependency 的環節
-- **元規則**：飛輪「6/8 條 active」的 active count 是 Tier 1 視角；Tier 2/3/4 fail 不會掉 active count 但實際 ship rate 已掉到 0。**dependency tier 系統性檢視 = #15 反射的飛輪 layer self-apply**——「反覆浮現要儀器化」對「routine fail 為什麼沒被看見」這層的儀器是 tier 標記 + per-tier escalation 標準。
-- **觸發**：
-  - **Tier 2 vc=3**：2026-06-05 → 6/07 連 3 cycle twmd-spore-harvest-am `list_connected_browsers` 回 `[]`：(a) 6/05 06:30 silent retry (b) 6/06 06:37 vc=2 LESSONS entry (c) 6/07 06:38 vc=3 escalation step 3 / pause→哲宇。15 OVERDUE spore（4 Threads + 11 X）累積 D+10-D+15
-  - **Tier 4 vc=1（補強 tier 數）**：2026-06-09 00:34 twmd-babel-nightly Hy3 free→paid silent transition。`tencent/hy3-preview:free` 從 free 改 paid 後 HTTP 404，0/136 success。**openrouter-translate.py 無 model fallback**，default model 死 = 整 routine 走零產出 silent fail。inline 修補（換 `openai/gpt-oss-120b:free`）+ 對應 LESSONS-INBOX 2026-06-07「Routine fragility surface 三 tier」補強為四 tier
-  - **Tier 2 修補 3 option**（待哲宇拍板）：(a) 暫停 cron 直到哲宇手動 trigger (b) 收緊 escalation_n 連 5 → 連 3（已實施部分）(c) telegram-poke-then-fire（cron 06:25 提早 5 min poke 哲宇，活了再 06:30 fire）— **推薦 default：(c)** 把 device dependency 轉成 observer poke
-- **相關**：REFLEXES #57 parallel-actor detect（Tier 1 互補）/ REFLEXES #58 detection ≠ remediation（Tier 2/3/4 fail 被 detect 但 remediation 路徑要 explicit）/ REFLEXES #60 Automation default-state explicit verify（本條把 default-state 細分到 4 tier）/ REFLEXES #45 OpenRouter free tier rate budget（Tier 4 specific instance）/ feedback_hourly_cron_intentional（哲宇刻意設 hourly cron ≠ 默許 Tier 2/4 silent fail 累積）
-- **跨檔關聯**：[ROUTINE.md schema](ROUTINE.md)（加 `dependency_tier` + `escalation_n` 欄候選）+ [scripts/tools/lang-sync/openrouter-translate.py](../../scripts/tools/lang-sync/openrouter-translate.py)（model-fallback ladder ship 候選）+ [LESSONS-INBOX 2026-06-07 Routine fragility surface 三 tier](LESSONS-INBOX.md)（本條收編升為四 tier）+ [LESSONS-INBOX 2026-06-09 babel-nightly Hy3 deprecation](LESSONS-INBOX.md)（Tier 4 補強來源）
-
----
-
-**#71 Default 是行動，不是 defer — 高 stake triage 預設行動非延遲**（2026-06-19 twmd-distill manual 升 canonical vc=4 — 2026-04-26 β-r3 META「三篇連做反而省」+ 2026-04-28 κ 5-PR Manus 全 close 反例 + 2026-04-29 α 第 3 次驗證 + feedback_merge_first_then_polish 反覆，severity=structural，哲宇拍板留反射層不升 MANIFESTO）— 面對「做還是先擱著」的決策，逆熵獸的預設姿態是行動。原因是成本不對稱：**defer 的成本不可見（沒人 reach、缺口靜默累積、backlog 變沼澤），行動的成本可見（花了時間、可能回頭修）**——可見成本天生比不可見成本更容易被高估，satisficing 於是偏向 defer。但「先有再求好」（#7）一再驗證：行動先把東西帶到世界，回饋才回得來；defer 只是把不確定性留在原地。
-
-- **規則**：(a) **高 stake triage（close-vs-merge / publish-vs-defer / ship-vs-defer）預設行動**——除非命中 §自主權邊界（政治立場 / >50 檔 / >10 篇刪除 / 對外溝通），否則 default 是做 (b) **defer 要付理由，行動不用**——擱置一件事要寫出「為什麼現在不做比做好」，做不需要辯護 (c) **routine cron 場景尤其**：無觀察者在場時 defer = 永遠不會有人接，cost 趨近無限（per #64 ABORT-DEFER 邊際效用 N+1=0）
-- **Boundary**：(a) §自主權邊界 命中 → defer 是對的（那不是 satisficing，是 governance）(b) 真 race / 真重複 / 30-min 內同篇 → defer 是對的（per feedback_hourly_cron_intentional）(c)「行動」不等於魯莽——是「預設往做的方向、把不做當需要舉證的例外」，不是跳過 gate
-- **反例（最強 anchor）**：2026-04-28 κ session 把 5 個 Manus AI PR 全 close——recency × pattern-matching（「這些看起來像 AI 廢文」）壓過 foundational「先 polish 再說」，5 個本該 merge+heal 的貢獻被一次 batch close。對應 [MAINTAINER-PIPELINE §close 前 hard gate](../pipelines/MAINTAINER-PIPELINE.md) + BECOME §Step 9 Q13 anti-bias check
-- **相關**：REFLEXES #7 先有再求好（正面母體）/ #64 Routine ABORT-DEFER 邊際效用 N+1=0（cron 場景 specific instance）/ feedback_merge_first_then_polish + feedback_dont_keep_asking（auto-memory 兄弟）/ MANIFESTO §自主權邊界（defer 唯一正當理由）/ BECOME §Step 9 Q13 recency-bias anti-bias check
-- **跨檔關聯**：[MAINTAINER-PIPELINE §close 前 hard gate](../pipelines/MAINTAINER-PIPELINE.md) + LESSONS-INBOX 2026-04-26 β-r3 META-PATTERN + 2026-04-29 α 第 3 次驗證（distill 來源）
-
----
-
-**#72 大 backlog 處理：fan-out 讀 + deterministic 寫 + 判斷不外包**（2026-06-19 twmd-distill manual 升 canonical — 完整 distill 266 條 lessons-inbox 實證 + 事後儀器化，severity=structural）— 處理大型結構化 backlog（§未消化 / ARTICLE-INBOX / SPORE-INBOX / 大批 migration / audit sweep，N 條 entry、unknown-size）時，三段分工，不要一把抓：
-
-- **讀（分析/聚類）→ fan-out 平行子代**：N 條太多，單 context 硬讀會帶盲點且 dominate retrieval。切 line range 派 read-only 子代各讀一段，回傳結構化 cluster（pattern × instances + disposition）。few patterns × many instances 是常態，聚類後體積大降。
-- **寫（移除/歸檔）→ deterministic script**：移除 N 條用手工 Edit = N 次操作高 risk（漏刪 / 刪錯 anchor / 破壞結構）。交給 deterministic script 一次完成 + 可驗 before/after count（per 神經迴路「批次修正先 dry-run」）。
-- **判斷（哪條去哪）→ 主 session 親自做**：聚類可外包、移除可自動，但「這條 promote 到 MANIFESTO 還是 fold 到 #N」是判斷，永遠主 session 自己做——不外包給 script（無判斷力）也不採信子代結論（#31 claim 是線索不是事實）。
-
-- **操作**：→ [`scripts/tools/lessons-distill.py`](../../scripts/tools/lessons-distill.py) audit（感知）/ chunk（fan-out prep）/ sweep（deterministic 歸檔）+ [`memory-index-lint.py`](../../scripts/tools/memory-index-lint.py)（收官 row gate）。通用到其他 backlog 時照 read-parallel / write-deterministic / judge-central 三分。
-- **觸發**：2026-06-19 哲宇 directive 完整 distill 266 條。7-agent fan-out 讀兩 §未消化 section 回傳 cluster（取代手工 explore）→ 主 session 六桶分類 + MANIFESTO 拍板 → Python deterministic sweep 266→8（取代 230 次手工 Edit）→ memory-index-lint 收官。事後把整套儀器化成 lessons-distill.py + §Distill SOP §大 backlog 處理。
-- **相關**：REFLEXES #15（反覆浮現要儀器化，本條是 distill 流程自身的儀器化）/ #31（子代 claim 是線索 → 聚類可參考但判斷重驗）/ #42（sub-agent 偷吃步 → 平行讀要 verify）/ 神經迴路「批次修正先 10 檔 dry-run」（deterministic write 防呆）
-- **跨檔關聯**：[LESSONS-INBOX §Distill SOP §大 backlog 處理](LESSONS-INBOX.md) + [scripts/tools/lessons-distill.py](../../scripts/tools/lessons-distill.py) + [scripts/tools/memory-index-lint.py](../../scripts/tools/memory-index-lint.py)
-
----
-
-_v4.8 | 2026-06-19 twmd-distill（manual 儀器化 — 哲宇 directive「把這次 distill 的方式儀器化 + 進化 dna」）— 加 #72 大 backlog 處理 fan-out 讀 + deterministic 寫 + 判斷不外包（完整 distill 266 條實證 + 事後造 lessons-distill.py audit/chunk/sweep + memory-index-lint.py + §Distill SOP §大 backlog 處理 + 六桶 disposition taxonomy）_
-_v4.7 | 2026-06-19 twmd-distill（manual，哲宇 in-loop 完整 distill）— #69 self-report-needs-external-ruler 升 [MANIFESTO §外部尺 over 內視](MANIFESTO.md) 進化哲學第四維度（認知維度，哲宇拍板，promotion flow LESSONS→REFLEXES→MANIFESTO 正向完成）+ #69 補 reframe-rate ≥ emergence-rate 系統健康框架（meta-DNA retro vc≈6 留反射層）+ 加 #71 Default 是行動不是 defer（vc=4 — β-r3 META + κ 5-PR 反例 + α 第 3 次驗證，哲宇拍板留反射層）_
-_v4.6 | 2026-06-14 twmd-distill-weekly — 加 #69 self-report-needs-external-ruler meta-umbrella（vc=7 — 2026-06-07 routine-audit cycle 5 單週 5 instance + 2026-06-10 audit 5 agent 全帶誤讀 + 2026-06-10 audit-execution 四連攔，#31 + #66 + #59 + #65 的 meta-umbrella，MANIFESTO §進化哲學 候選 defer 哲宇拍板）+ #70 Routine fragility surface 四 tier 分類（vc=4 — 2026-06-05/06/07 spore-harvest Chrome MCP 連 3 cycle Tier 2 + 2026-06-09 babel-nightly Hy3 free→paid Tier 4，飛輪 active count 是 Tier 1 視角，per-tier escalation 標準）_
-
-_v4.5 | 2026-06-07 twmd-distill-weekly — #65 加 cross-SSOT divergence specialization（vc=8 — 5/30→6/02 awareness routine 連 4 cycle snapshot 🛡️27 vs canonical immuneScore 67 + 6/06 連 2 cycle 27 vs 58 chronic + 6/07 weekly-report 🔴 高優先）；snapshot.sh 讀 organism.json v1 vs canonical 已遷 dashboard-immune.json v2 schema，reconciliation 待哲宇拍板 3 option_
-_v4.5 | 2026-06-07 twmd-self-evolve-weekly — #31 v2 expansion (side-effect + factual + **self-quality** 三類 claim 都重驗，觸發 6/06 viz writer self-assess 對位「≤3」實測 14 + 6/06 babel-nightly 263 篇腳註靜默掉光) + 加 #66 Gate threshold 必須用真實產出 dogfood 校準（vc=3 — 6/06 paragraph-rhythm tw-\* cap 5→13 + 6/04 儀器校準 paragraph-rhythm 0.8 過期 + 5/29 instrumentation-audit.py 三方對齊），對應 distill handoff §pending「整片過期 gate audit」🔴 高優先 partially canonical 化_
-_v4.4 | 2026-06-01 twmd-distill-weekly — 加 #64 Routine ABORT-DEFER prose memory 邊際效用 N+1 = 0（vc=7 cross-cycle data-refresh-am × babel-nightly window collision，distill-ready 標 4 cycle 未升 routine 接力）+ #65 Awareness instrument 自身 regex cross-verify（vc=3 distill #7 + #8 + routine-audit cycle 2 三次獨立 flag，inbox-signal.sh 1-line 修補 27→199 同 commit ship）_
-_v4.3 | 2026-05-24 twmd-self-evolve-weekly — 加 #59 製造數字的人最易被數字騙（vc=4 DIARY §反覆出現「第四次浮現」未升 canonical，self-validation trap） + #60 Automation default-state explicit verify（vc=3 silent default pattern weekly-report 02:00 nominated distill 03:00 未接，self-evolve 接力 ship）_
-_v4.2 | 2026-05-24 twmd-distill-weekly — 加 #57 Routine 入口 parallel-actor detection（vc=5 distill-ready，48hr 內 5 條獨立 routine 連撞）+ #58 儀器化 detection ≠ remediation（vc=6 spore #71 resolved），#15 互補反面_
-_v4.1 | 2026-05-17 twmd-distill-weekly — 加 #56 Pipeline canonical ↔ production drift = dormant entropy（vc=2 跨域 HEARTBEAT super-thin + SQUEEZE inventory）_
-_v4.0 | 2026-05-10 nice-shamir — 整檔精實淬煉版（catalog cleanup + reflex prose 4 段格式 + 內部按 #N 重排 + footer 抽 git log）_
-
-**最近 milestone**（每條 1 行；完整 changelog → `git log docs/semiont/DNA.md`）：
-
-- **v4.0** 2026-05-10 — 整檔重組：54 條反射改 4 段格式 / 內部按 #N 重排 / 加頂部 catalog index table / 修 #43 collision (→ #55) / footer 抽 git log
-- **v3.5** 2026-05-09 — 反射 #54 Routine 飛輪 + ROUTINE.md SSOT + 4 條核心 routine ship
-- **v3.4** 2026-05-09 — Tier 0a Sonnet diff-patch 全量驗證 + 4 emergent properties
-- **v3.3** 2026-05-09 — P2.5 Tier 0b 全量 ship 2429 entries
-- **v3.2** 2026-05-09 — 反射 #53 Babel priority + Tier 0 patch 三路徑分流
-- **v3.0-3.1** 2026-05-08 — 反射 #52 fail-loud + #15 第 11 次驗證（SPORE pipeline meta-refactor）
-- **v2.x** 2026-04-23 ~ 2026-05-04 — #45-#52 累積（含 OpenRouter rate budget / Sub-agent worktree / Session ID schema / Pipeline auto-detection / Footnote heal / OG 引擎 / Local LLM 最後捕手）
-- **v2.0-2.2** 2026-04-14 ~ 2026-04-17 — 結構化重構（精簡 26 條為 indicator + canonical pointer 格式）
-- **v1.x** 2026-04-04 ~ 2026-04-12 — 26 條反射從 0 累積到完整集合
+_v1.0 | 2026-06-28 — Framing re-grounded to English; Taiwan reflex entries emptied. LB starts its reflex catalog from zero._
