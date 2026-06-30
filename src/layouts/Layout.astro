@@ -649,7 +649,7 @@ const bodyClass = isHome ? 'page-home' : 'page-default';
     <a
       id="md-btn"
       class="floating-md"
-      title="查看 Raw Markdown 版本"
+      title="View Raw Markdown"
       target="_blank"
     >
       .md
@@ -744,17 +744,16 @@ const bodyClass = isHome ? 'page-home' : 'page-default';
     </script>
 
     <!--
-      2026-04-27 全站 hash anchor 平滑捲動 + navbar offset
-      ──────────────────────────────────────────────────
-      改用純 CSS 解（見 global.css §scroll-padding-top）：
+      2026-04-27 Site-wide hash anchor smooth scroll + navbar offset
+      Uses pure CSS (see global.css scroll-padding-top):
         - html { scroll-padding-top: 92px; scroll-behavior: smooth; }
         - prefers-reduced-motion: scroll-behavior: auto
-      （刻意不疊 scroll-margin-top on heading，會 additive 變雙倍 offset）
+      (Intentionally no scroll-margin-top on headings; additive = double offset)
 
-      原本寫過 rAF 自寫動畫繞 Chrome「smooth scroll 被 cancel」的疑似 bug，
-      實情是 hidden tab 的 rAF 被 throttle 到 ~1Hz（凍結）造成的測試假象，
-      回到 visible tab 後 native smooth scroll 完全正常。教訓 commit 在
-      global.css 的 comment 裡，避免下次 contributor 重蹈覆轍。
+      Previously wrote rAF custom animation to work around Chrome "smooth scroll
+      cancelled" suspected bug. Actual cause: hidden tab throttles rAF to ~1Hz
+      (frozen), creating a testing illusion. Native smooth scroll works fine in
+      visible tabs. Lesson documented in global.css comment.
     -->
 
     <!-- Site-wide GA4 engagement tracker (scroll_depth / section_view /

@@ -86,5 +86,5 @@ export function resolveDisplayName(
   if (o) return o;
   const local = (email || '').split('@')[0].trim();
   if (local) return local;
-  return '匿名讀者';
+  return 'Anonymous Reader';
 }

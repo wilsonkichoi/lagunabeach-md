@@ -209,9 +209,7 @@ const classes = ['article-card', densityClass, imgSideClass, extraClass]
     {
       density === 'premium' && (
         <span class="article-card-cta" style={`color: ${categoryColor};`}>
-          <span class="article-card-cta-label">
-            {readingTime || '閱讀全文'}
-          </span>
+          <span class="article-card-cta-label">{readingTime || 'Read'}</span>
           <svg
             class="article-card-cta-arrow"
             width="12"
@@ -242,7 +240,7 @@ const classes = ['article-card', densityClass, imgSideClass, extraClass]
             {(!!footnotes || !!readingTime) && (
               <span class="article-card-stats">
                 {!!footnotes && (
-                  <span class="article-card-stat" title="引用">
+                  <span class="article-card-stat" title="Citations">
                     <svg
                       width="13"
                       height="13"

@@ -82,7 +82,7 @@ class MockBackend implements FeedbackBackend {
         provider === 'github'
           ? 'tester@users.noreply.github.com'
           : 'tester.google@gmail.com',
-      oauthName: provider === 'github' ? 'GitHub 測試者' : 'Google 測試者',
+      oauthName: provider === 'github' ? 'GitHub Tester' : 'Google Tester',
     };
     localStorage.setItem(LS_USER, JSON.stringify(rec));
   }

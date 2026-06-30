@@ -159,7 +159,7 @@ function parseContent(raw: string): {
   if (blockquoteLines.length > 0) {
     sessionMeta = blockquoteLines[0];
     for (const bql of blockquoteLines) {
-      // Duration: **Session 精確跨度**:... or Session span: ...
+      // Duration: **Session span**:... (matches both Chinese and English headers)
       const durMatch = bql.match(
         /(?:精確跨度|Session span)[：:]\s*(.+?)(?:\s*Asia|\s*\(|$)/i,
       );

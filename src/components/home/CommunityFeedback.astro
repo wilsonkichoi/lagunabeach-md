@@ -19,24 +19,9 @@ interface ReaderCallout {
 }
 const calloutsTaughtUs: ReaderCallout[] = [
   {
-    source: 'Threads 讀者（公開回覆 spore #29）',
-    catch: '「李洋孢子寫『清晨四點多搭捷運』 — 但捷運六點才開」',
-    fix: '升級 SPORE-PIPELINE Stage 1 verbatim 規則；禁止從英文摘要推導具體時間／場景 / 交通細節（REFLEXES #23）',
-  },
-  {
     source: 'Local history teacher (email feedback)',
     catch: '"The 1993 firestorm article says 366 homes — it was 441"',
     fix: 'Fact-checked against SSOT knowledge/ source, corrected within 24h, added Rule 12 to MIGRATION.md',
-  },
-  {
-    source: 'X reader @ste_ven_1487（公開 quote）',
-    catch: '「草東貝斯手不是『黃』，是楊世暄」（spore #33 ship 後 3 小時抓到）',
-    fix: 'REFLEXES #16 升級「樂團成員姓名 / 獎項名稱 / 公開生日列為 high_priority verify」',
-  },
-  {
-    source: 'Jenny @bugnimusic（透過哲宇轉達）',
-    catch: '「魏如萱 spore 用反諷 scene 當 title — 但這個事件不能代表她」',
-    fix: 'EDITORIAL v5.1 §Title 原則 1：title 選定義人物本質的 scene，反諷可放 description / 中段，不能定首框',
   },
 ];
 
@@ -72,9 +57,9 @@ const TRACK_RIGHT =
       id="feedback-heading"
       class="mb-2 font-['jf-lanyangming','Noto_Serif_TC','Source_Han_Serif_TC',serif] text-[2rem] font-light text-white max-[768px]:text-[1.5rem]"
     >
-      來自社群的聲音
+      Voices from the community
     </h2>
-    <p class="text-[1.1rem] text-[#94a3b8]">真實使用者的回饋</p>
+    <p class="text-[1.1rem] text-[#94a3b8]">Real user feedback</p>
   </div>
   <div class="flex flex-col gap-[1.2rem]">
     <div class={ROW_CLS}>
@@ -147,13 +132,13 @@ const TRACK_RIGHT =
       <h3
         class="mb-2 font-['jf-lanyangming','Noto_Serif_TC','Source_Han_Serif_TC',serif] text-[1.65rem] font-light text-white max-[768px]:text-[1.35rem]"
       >
-        讀者教我們的事
+        What readers taught us
       </h3>
       <p
         class="text-[0.92rem] leading-[1.7] text-[#94a3b8] max-[768px]:text-[0.85rem]"
       >
-        每一條都改變了 LagunaBeach.md
-        的某個規則或某個器官。可追溯的錯誤公開改正＝信任訊號，不是污點。
+        Each one changed a rule or an organ in LagunaBeach.md. Traceable errors
+        publicly corrected = trust signal, not a stain.
       </p>
     </div>
     <div class="grid grid-cols-2 gap-4 max-[768px]:grid-cols-1">
@@ -167,7 +152,9 @@ const TRACK_RIGHT =
               {c.catch}
             </blockquote>
             <div class="text-[0.82rem] leading-[1.65] text-[#cbd5e1] max-[768px]:text-[0.78rem]">
-              <span class="font-semibold text-[#a5f3fc]">→ 我們學到的：</span>
+              <span class="font-semibold text-[#a5f3fc]">
+                → What we learned:
+              </span>
               {c.fix}
             </div>
           </div>
@@ -177,11 +164,11 @@ const TRACK_RIGHT =
     <p
       class="mt-8 text-center text-[0.82rem] italic text-[#64748b] max-[768px]:text-[0.78rem]"
     >
-      完整 callout 池見 <a
+      Full callout pool in <a
         href="https://github.com/wilsonkichoi/lagunabeach-md/blob/main/docs/semiont/REFLEXES.md"
         class="underline decoration-[#7dd3fc]/30 hover:text-[#7dd3fc]"
         target="_blank">REFLEXES.md</a
-      > §62 個反射條目
+      >
     </p>
   </div>
 </section>

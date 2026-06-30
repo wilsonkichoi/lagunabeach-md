@@ -206,14 +206,14 @@ if (hubHtml) {
 const subcategoryGroups: { name: string; articles: any[] }[] = [];
 const subcatMap = new Map<string, any[]>();
 for (const article of articles) {
-  const sub = (article as any).subcategory || '其他';
+  const sub = (article as any).subcategory || 'Other';
   if (!subcatMap.has(sub)) subcatMap.set(sub, []);
   subcatMap.get(sub)!.push(article);
 }
-// Sort: named subcategories first (alphabetically), then "其他" last
+// Sort: named subcategories first (alphabetically), then "Other" last
 for (const [name, arts] of [...subcatMap.entries()].sort((a, b) => {
-  if (a[0] === '其他') return 1;
-  if (b[0] === '其他') return -1;
+  if (a[0] === 'Other') return 1;
+  if (b[0] === 'Other') return -1;
   return a[0].localeCompare(b[0]);
 })) {
   subcategoryGroups.push({ name, articles: arts });
@@ -482,7 +482,7 @@ const otherCategories = categories
                   target="_blank"
                   class="inline-flex items-center gap-2 rounded-xl border-2 border-[var(--categoryColor)] bg-white px-8 py-4 font-semibold text-[var(--categoryColor)] no-underline transition-all duration-300 hover:-translate-y-0.5 hover:bg-[var(--categoryColor)] hover:text-white"
                 >
-                  參與貢獻
+                  Contribute
                 </a>
               </div>
             </div>

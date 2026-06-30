@@ -326,7 +326,7 @@ const encodedTitle = encodeURIComponent(title);
                 <figcaption class="mt-3 px-1 font-['Inter',system-ui,sans-serif] text-[0.78rem] leading-relaxed text-[rgba(26,60,52,0.6)]">
                   {frontmatter.imageCredit && (
                     <span>
-                      {t('article.imageCredit') || '圖片'}：
+                      {t('article.imageCredit') || 'Image'}:{' '}
                       {frontmatter.imageCredit}
                     </span>
                   )}
@@ -342,7 +342,7 @@ const encodedTitle = encodeURIComponent(title);
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        {t('article.imageSource') || '原始來源'}
+                        {t('article.imageSource') || 'Original source'}
                       </a>
                     </span>
                   )}
@@ -889,7 +889,7 @@ const encodedTitle = encodeURIComponent(title);
               if (ctaLabel)
                 ctaLabel.textContent = a.readingTime
                   ? a.readingTime + ' ' + MIN
-                  : '閱讀全文';
+                  : 'Read';
               frag.appendChild(card);
             });
             box.appendChild(frag);

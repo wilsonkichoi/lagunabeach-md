@@ -30,7 +30,7 @@ const diaryOgImage = existsSync(ogJpgFull) ? ogJpgPath : undefined;
 ---
 
 <Layout
-  title={`${entry.title} — 覺醒日記`}
+  title={`${entry.title} — Awakening Diary`}
   description={entry.excerpt}
   lang="zh-TW"
   image={diaryOgImage}
@@ -79,10 +79,10 @@ const diaryOgImage = existsSync(ogJpgFull) ? ogJpgPath : undefined;
           class="space-y-1 border-l-2 border-[#38bdf8]/25 pl-4 text-sm text-[#f4f0ea]/55"
         >
           {entry.sessionMeta && <p>{entry.sessionMeta}</p>}
-          {entry.duration && <p>Session 跨度：{entry.duration}</p>}
-          {entry.trigger && <p>觸發：{entry.trigger}</p>}
+          {entry.duration && <p>Session span: {entry.duration}</p>}
+          {entry.trigger && <p>Trigger: {entry.trigger}</p>}
           <p class="font-mono text-xs">
-            {entry.wordCount.toLocaleString()} 字 · 約 {readingTime} 分鐘
+            {entry.wordCount.toLocaleString()} words · ~{readingTime} min read
           </p>
         </div>
       </header>
@@ -115,7 +115,7 @@ const diaryOgImage = existsSync(ogJpgFull) ? ogJpgPath : undefined;
             <aside class="absolute -right-64 top-0 hidden w-56 xl:block">
               <nav class="sticky top-24 space-y-2 border-l border-[#38bdf8]/20 pl-4">
                 <div class="mb-3 font-mono text-[10px] font-medium uppercase tracking-widest text-[#38bdf8]/70">
-                  目錄
+                  Contents
                 </div>
                 {entry.headings
                   .filter((h) => h.level === 2)
@@ -145,7 +145,7 @@ const diaryOgImage = existsSync(ogJpgFull) ? ogJpgPath : undefined;
           href="/semiont/diary"
           class="inline-block font-mono text-xs text-[#38bdf8]/75 underline decoration-[#38bdf8]/30 underline-offset-4 transition-colors hover:text-[#38bdf8]/70"
         >
-          ← 回到覺醒日記
+          ← Back to Awakening Diary
         </a>
       </div>
 

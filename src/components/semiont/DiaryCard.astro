@@ -45,9 +45,9 @@ const readingTime = estimateReadingTime(entry.wordCount);
   <div
     class="flex flex-wrap items-center gap-3 font-mono text-[10px] text-[#f4f0ea]/45"
   >
-    <span>{entry.wordCount.toLocaleString()} 字</span>
+    <span>{entry.wordCount.toLocaleString()} words</span>
     <span>·</span>
-    <span>{readingTime} 分鐘</span>
+    <span>{readingTime} min</span>
     {
       entry.duration && (
         <>
