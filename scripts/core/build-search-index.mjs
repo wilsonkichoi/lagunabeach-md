@@ -4,15 +4,15 @@
  * Reads all markdown articles from knowledge/, tokenizes title/description/tags
  * with CJK bigrams + Latin words, builds serialized MiniSearch indexes.
  *
- * Output（2026-06-13 RAG Phase 0 — 六語系 per-lang shard）:
- *   public/api/search-minisearch-{lang}.json   ×6（每語言一份，client 按
- *     <html lang> 抓自己的 shard — 修復 ja/ko/es/fr 讀者搜尋零母語結果的洞，
- *     詳 reports/research/2026-06/rag-design-research-2026-06-13.md Phase 0）
- *   public/api/search-minisearch.json          legacy combined zh+en
- *     （back-compat：已部署/快取頁面的舊 client 仍指這個 URL，不能斷）
+ * Output (2026-06-13 RAG Phase 0 — per-lang shards):
+ *   public/api/search-minisearch-{lang}.json   per language (client fetches its
+ *     own shard by <html lang> — fixes ja/ko/es/fr readers getting zero native
+ *     results, see reports/research/2026-06/rag-design-research-2026-06-13.md Phase 0)
+ *   public/api/search-minisearch.json          legacy combined default+en
+ *     (back-compat: deployed/cached pages with old client still fetch this URL)
  *
- * 語言清單從 src/config/languages.mjs SSOT 讀（REFLEXES #20 architecture-as-data，
- * 新語言出生時本檔零改動）。
+ * Language list read from src/config/languages.mjs SSOT (REFLEXES #20
+ * architecture-as-data: zero changes needed here when a new language is born).
  */
 
 import { readdir, readFile, writeFile, mkdir } from 'node:fs/promises';
@@ -42,8 +42,8 @@ const isCJK = (cp) =>
   (cp >= 0x3400 && cp <= 0x4dbf) ||
   (cp >= 0xf900 && cp <= 0xfaff) ||
   (cp >= 0x3100 && cp <= 0x312f) ||
-  // 2026-06-13 Phase 0：ja 假名 + ko 諺文也走 bigram（原本只有漢字，
-  // ja/ko shard 的母語 query 打不中 — ko shard 421KB vs 他語 1.2MB+ 暴露的洞）
+  // 2026-06-13 Phase 0: ja kana + ko hangul also use bigram (previously only
+  // CJK ideographs — ja/ko shard native queries couldn't hit, ko shard 421KB vs 1.2MB+ exposed the gap)
   (cp >= 0x3040 && cp <= 0x30ff) || // Hiragana + Katakana
   (cp >= 0x31f0 && cp <= 0x31ff) || // Katakana phonetic extensions
   (cp >= 0xac00 && cp <= 0xd7a3); // Hangul syllables
@@ -60,9 +60,9 @@ function bigramTokenize(text) {
     if (m[0].length >= 2) tokens.push(m[0]);
   }
 
-  // CJK bigrams（ja 漢字/假名混排與 ko 諺文走 NFKC 後的 Latin/CJK 雙路；
-  // 假名與諺文不在 isCJK 範圍時由 MiniSearch prefix match 接住 Latin 化查詢，
-  // 母語標題的 CJK 漢字 bigram 仍為主要召回路徑）
+  // CJK bigrams (ja kanji/kana mix and ko hangul use NFKC then Latin/CJK dual path;
+  // when kana/hangul fall outside isCJK range, MiniSearch prefix match catches
+  // romanized queries; CJK ideograph bigrams of native titles remain the primary recall path)
   const chars = [...normalized];
   for (let i = 0; i < chars.length - 1; i++) {
     const cp1 = chars[i].codePointAt(0);
@@ -168,7 +168,7 @@ for (const [lang, docs] of docsByLang) {
   );
 }
 
-// Legacy combined default+en（back-compat：舊 client / 快取 HTML 仍 fetch 這個 URL）
+// Legacy combined default+en (back-compat: old client / cached HTML still fetches this URL)
 // Use Set to avoid duplicate IDs when DEFAULT_LANGUAGE.code === 'en'
 const legacyLangs = new Set([DEFAULT_LANGUAGE.code, 'en']);
 const legacyDocs = [...legacyLangs].flatMap(

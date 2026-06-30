@@ -3,7 +3,7 @@
  * Prebuild: src/data/content-dates.json
  * Accurate per-URL "last meaningful modification" date for SEO freshness.
  *
- * WHY (2026-06-07 SEO 完整修復 — reports/seo-optimization-plan-2026-06-07.md §1.1):
+ * WHY (2026-06-07 SEO fix — reports/seo-optimization-plan-2026-06-07.md §1.1):
  *   The sitemap used a global `lastmod: new Date()` → every page claimed
  *   "modified today" on every build. Google's docs name this exact anti-pattern
  *   ("Don't set the last modification time to the current time whenever the
@@ -69,7 +69,7 @@ const COSMETIC =
 // article content change. Without this, 34/57 spore-carrying articles had
 // their /latest position + sitemap lastmod set by spore ops (2026-06-10
 // audit, reports/spore-data-architecture-2026-06-10.md §2.3). Type-position
-// anchors keep real fixes like「heal: … 孢子 #132 查證抓出文章 date error」
+// anchors keep real fixes like "heal: ... spore #132 fact-check caught article date error"
 // counting as content. Belt-and-suspenders: since the same report's refactor,
 // harvest no longer writes article files at all.
 const SPORE_POINTER =
@@ -81,7 +81,7 @@ const SPORE_POINTER =
 // 2026-06-13 WebP migration (570 articles, mechanical .jpg→.webp) + media-
 // supplement batches set 580 articles' /latest date to one single day. Adding
 // media is an enrichment, not a content-freshness event (user directive
-// 2026-06-13: 補圖不該把文章擠到「最新文章」今天). Errs toward conservative
+// 2026-06-13: adding images shouldn't push articles to "latest" today). Errs toward conservative
 // (stale-but-true) per this file's stated principle, never fake-fresh.
 const MEDIA_ONLY =
   /(WebP 全站遷移|媒體增補|媒體落地|影像後處理|image-ingest|land-media|migrate-images|圖片以 ?WebP|babel year-mangle)/i;
@@ -178,7 +178,7 @@ function main() {
   }
 
   // 2026-06-14: a translated article's freshness IS its zh source's content
-  // freshness — a pure re-translation (lang-sync / 平行翻譯 / 榨模型 batch) is not a
+  // freshness — a pure re-translation (lang-sync / parallel translation / model batch) is not a
   // content event. We DERIVE rather than FILTER: filtering translation commits
   // would leave a translated file (whose every commit is a translation) with NO
   // date → foreign /latest collapse. Inheriting the zh date instead dissolves the

@@ -2,14 +2,14 @@
 /**
  * generate-lang-switch-map.mjs — pre-build LangMap registry JSON
  *
- * 為什麼：getLangSwitchPath.ts 在 Header.astro / Banner.astro 用，6950 pages
- * 各自 build registry from `_translations.json` + readdir 14 categories +
- * decode/encode pairs。即使 module-level cache（Tier 1.2）讓一個 process 只
- * 跑一次，那次仍是 ~150-300ms 重活，且未來 dev mode multi-worker 會每 worker
- * 重做。
+ * Why: getLangSwitchPath.ts is used in Header.astro / Banner.astro across all
+ * pages, each building a registry from `_translations.json` + readdir categories +
+ * decode/encode pairs. Even with module-level cache (Tier 1.2) running only once
+ * per process, that run is still ~150-300ms of heavy work, and future dev mode
+ * multi-worker setups would redo it per worker.
  *
- * 本腳本一次性把 registry 算完寫進 `public/api/lang-switch-map.json`，
- * runtime 只 readFile + JSON.parse → O(1) Map lookup。
+ * This script computes the registry once at build time, writes to
+ * `public/api/lang-switch-map.json`; runtime is just readFile + JSON.parse → O(1).
  *
  * Output schema:
  * {
@@ -100,7 +100,7 @@ async function buildRegistry() {
       if (validZh.has(zf)) translations[lf] = zf;
     }
   } catch (e) {
-    console.error(`⚠️  讀 _translations.json 失敗: ${e.message}`);
+    console.error(`⚠️  Failed to read _translations.json: ${e.message}`);
     return registry;
   }
 

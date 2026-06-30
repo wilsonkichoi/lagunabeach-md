@@ -1,18 +1,19 @@
 /**
- * build-latest.mjs — generate public/api/latest.json (時序主軸 client data)
- * + public/api/random-index-{lang}.json (隨機探索 per-lang href pool)
+ * build-latest.mjs — generate public/api/latest.json (timeline client data)
+ * + public/api/random-index-{lang}.json (random discovery per-lang href pool)
  *
- * Why: the article-page "站上最新" rail is rendered CLIENT-SIDE (so the static
- * HTML of every article page never changes when a new article ships — avoids
- * crawl churn + the lastmod=now freshness anti-pattern killed in c1403e259).
+ * Why: the article-page "latest on site" rail is rendered CLIENT-SIDE (so the
+ * static HTML of every article page never changes when a new article ships —
+ * avoids crawl churn + the lastmod=now freshness anti-pattern killed in c1403e259).
  * The client can't read src/data/content-dates.json (not under public/), so we
  * emit a small per-language latest list here.
  *
- * random-index (2026-06-10 build audit §5.1): article.template 原本把整語言
- * 文章清單（~50KB）define:vars 內嵌進每一頁只為了「隨機探索」按鈕 — 4,895 頁
- * × 50KB ≈ dist 多 250MB。改為 per-lang 共用 JSON（{category: [href...]}），
- * 按鈕 click 時才 lazy fetch。順手修 latent bug：譯文頁隨機跳轉原本沒帶
- * lang prefix（href 在這裡就含前綴）。
+ * random-index (2026-06-10 build audit §5.1): article.template previously embedded
+ * the full per-language article list (~50KB) via define:vars into every page just
+ * for the "random discovery" button — 4,895 pages × 50KB = ~250MB extra in dist.
+ * Changed to per-lang shared JSON ({category: [href...]}), lazy-fetched on button
+ * click. Also fixed latent bug: translated pages' random jump didn't include lang
+ * prefix (href here now includes the prefix).
  *
  * Source of truth: knowledge/ frontmatter (title/description/readingTime) joined
  * with src/data/content-dates.json (git last-content-change time → accurate
@@ -117,7 +118,7 @@ async function main() {
     items.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
     byLang[lang] = items.slice(0, PER_LANG);
 
-    // 隨機探索 per-lang pool（gitignored，prebuild 重生）
+    // Random discovery per-lang pool (gitignored, regenerated at prebuild)
     await writeFile(
       resolve(ROOT, `public/api/random-index-${lang}.json`),
       JSON.stringify({ byCat: randomPool }),
