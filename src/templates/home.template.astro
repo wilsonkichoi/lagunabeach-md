@@ -325,13 +325,7 @@ const readingPathFooterItems = [
   <div data-ga-view="newsletter"><NewsletterSection /></div>
 
   {
-    /* CommunityFeedback testimonials are zh-language user comments about
-      Taiwan.md from the Threads launch — show only on zh-TW homepage to
-      avoid wrong-language prose on /en /ja /ko /fr /es per i18n-smoke-test
-      §B2 regression check. */
-  }
-  {
-    isZh && (
+    feedbacks.length > 0 && (
       <div data-ga-view="community_feedback">
         <CommunityFeedback feedbacks={feedbacks} />
       </div>

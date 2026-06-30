@@ -1,8 +1,17 @@
 {
-  "_generated": "2026-06-28T04:06:56.815Z",
+  "_generated": "2026-06-30T21:06:21.764Z",
   "perLang": 30,
   "byLang": {
     "en": [
+      {
+        "title": "LagunaBeach.md: How This Project Works",
+        "desc": "An open-source knowledge base about Laguna Beach, California. Forked from Taiwan.md, built on Astro, curated by humans and AI together. This is how the system works under the hood.",
+        "category": "about",
+        "href": "/about/lagunabeach-md",
+        "date": "2026-06-27T21:18:24-07:00",
+        "readingTime": 7,
+        "image": ""
+      },
       {
         "title": "Visualization Catalog: How LagunaBeach.md Turns Data Into Pictures",
         "desc": "The visual modules available for LagunaBeach.md articles — from single-stat callouts to comparison tables and timelines. Each module renders as semantic HTML that both humans and AI crawlers can read.",
@@ -154,15 +163,6 @@
         "href": "/about/how-an-article-is-born",
         "date": "2026-06-20T08:31:36-07:00",
         "readingTime": 6,
-        "image": ""
-      },
-      {
-        "title": "LagunaBeach.md: How This Project Works",
-        "desc": "An open-source knowledge base about Laguna Beach, California. Forked from Taiwan.md, built on Astro, curated by humans and AI together. This is how the system works under the hood.",
-        "category": "about",
-        "href": "/about/lagunabeach-md",
-        "date": "2026-06-20T08:31:36-07:00",
-        "readingTime": 7,
         "image": ""
       }
     ],

@@ -1,7 +1,376 @@
 {
-  "generatedAt": "2026-06-28T04:06:39.404Z",
+  "generatedAt": "2026-06-30T21:06:06.790Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "c6d4be33e015efc9a5d52343032cf4ba4e46c9c8",
+      "date": "2026-06-29T23:23:39-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(roadmap): close Horizon 0.4 + 0.5, mark Phase D done",
+      "articles": []
+    },
+    {
+      "hash": "f437522dedc6e597ab23ae0fd341f3a73f559d4f",
+      "date": "2026-06-29T23:02:38-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(roadmap): mark Horizon 0.4 Phase 2+3 done",
+      "articles": []
+    },
+    {
+      "hash": "75c8e18c4f7454f96dd5607469836c039c1629ab",
+      "date": "2026-06-29T23:02:13-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(editorial): pin title puffery ban + Image Sources convention",
+      "articles": []
+    },
+    {
+      "hash": "a7f0fd5bb9470a65aa4ab17908dd1bd8c517a9fb",
+      "date": "2026-06-29T23:02:04-07:00",
+      "author": "Wilson Choi",
+      "message": "test(article-health): rebuild test suite for dual-lang check ports",
+      "articles": []
+    },
+    {
+      "hash": "608d805aa4c56b7c5940e56dc0e384612bc2be3f",
+      "date": "2026-06-29T23:01:53-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(article-health): port 5 checks to APPLIES_TO=[\"en\",\"zh-TW\"]",
+      "articles": []
+    },
+    {
+      "hash": "c20470f9027001c1e035a04afa95095cb6bf911c",
+      "date": "2026-06-29T22:13:28-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(harvest): rename packages @taiwan-md → @lagunabeach-md + fix log path",
+      "articles": []
+    },
+    {
+      "hash": "3f01bd40d3ef12ab589063f72e61964cee7a814c",
+      "date": "2026-06-29T22:13:18-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(harvest): replace cheyu refs with generic operator/owner",
+      "articles": []
+    },
+    {
+      "hash": "f84ee651f7cf9ac70901f6bd93b3a39606d55b13",
+      "date": "2026-06-29T22:13:03-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(harvest): rename awaiting-cheyu status enum to awaiting-owner",
+      "articles": []
+    },
+    {
+      "hash": "c24abcaa1049581bbc78b801801510eb7796a6c1",
+      "date": "2026-06-29T21:57:02-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(harvest/tmux): reground shell scripts to LB paths + English",
+      "articles": []
+    },
+    {
+      "hash": "ef2d6ce46faaa5cecf3204b4330dac9898c3943e",
+      "date": "2026-06-29T21:56:51-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(harvest/backend): translate CJK comments + strings to English",
+      "articles": []
+    },
+    {
+      "hash": "1ffa9c37e30ca8822aa52a20dbcafa307556a73a",
+      "date": "2026-06-29T21:56:38-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(harvest/ui): translate all CJK UI strings + comments to English",
+      "articles": []
+    },
+    {
+      "hash": "706da62675b6d01847df93683fef5f0e9969005c",
+      "date": "2026-06-29T20:28:26-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(weekly-report): full de-Taiwan of weekly-report-prep.py",
+      "articles": []
+    },
+    {
+      "hash": "9734984d103440821f1a64194bebde67335edace",
+      "date": "2026-06-29T20:28:25-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(config): translate article-health profile comments to English",
+      "articles": []
+    },
+    {
+      "hash": "e28a118eb6a5ceb1ce823456cf8e01838864d3a6",
+      "date": "2026-06-29T20:28:12-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(dashboard): re-anchor format detectors to LB headings + de-Taiwan comments",
+      "articles": []
+    },
+    {
+      "hash": "27f93114ea64da13042ca279be51ecb5e4022f2f",
+      "date": "2026-06-29T14:08:45-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(scripts): de-Taiwan prose-health-adjacent refs in dashboard + weekly-prep",
+      "articles": []
+    },
+    {
+      "hash": "413b9428af38d06e62e2627189cfa75fd0a2dc15",
+      "date": "2026-06-29T14:08:44-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(editorial): trim Taiwan.md rhetorical foils from EDITORIAL §6",
+      "articles": []
+    },
+    {
+      "hash": "68fd796bc0f55c5cde40fab7b4d9a5e18186c84d",
+      "date": "2026-06-29T14:08:19-07:00",
+      "author": "Wilson Choi",
+      "message": "feat(article-health): port prose-health check to English (LagunaBeach.md)",
+      "articles": []
+    },
+    {
+      "hash": "f20ea8d38650dcbe3a052b7e2b7e5b44592a788e",
+      "date": "2026-06-29T12:40:17-07:00",
+      "author": "Wilson Choi",
+      "message": "chore: untrack regenerated .quality-baseline.json",
+      "articles": []
+    },
+    {
+      "hash": "75c03031397c7db8622150b671aca80b2dc27b1b",
+      "date": "2026-06-29T11:38:07-07:00",
+      "author": "Wilson Choi",
+      "message": "feat(article-health): port frontmatter-format check to English (en+zh-TW)",
+      "articles": []
+    },
+    {
+      "hash": "c0065b9072584f4ed0be3979cc7a5290f3ff3a77",
+      "date": "2026-06-29T11:29:33-07:00",
+      "author": "Wilson Choi",
+      "message": "test(article-health): realign tests to en-default source lang",
+      "articles": []
+    },
+    {
+      "hash": "0f41c1e8123f28483fd97cf0724776ccdc257af8",
+      "date": "2026-06-29T11:29:32-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(semiont): reframe social organ as active build-out, not dormant",
+      "articles": []
+    },
+    {
+      "hash": "873473961aab4575cc519c8ba6147ae3b83c4c66",
+      "date": "2026-06-29T11:29:18-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(article-health): drop cross-strait terminology gate",
+      "articles": []
+    },
+    {
+      "hash": "d0a8289c632ad40a2a346af2231c584184486096",
+      "date": "2026-06-29T00:17:53-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(de-taiwan): reground harvest orchestrator prose to English/LB",
+      "articles": []
+    },
+    {
+      "hash": "298b557fccf9766bacf80621e256b04b01dc7aef",
+      "date": "2026-06-29T00:09:05-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(harvest): relocate orchestrator to repo-root harvest/, split HARVEST.md to cognitive layer",
+      "articles": []
+    },
+    {
+      "hash": "ae6ae557065b3ed38f46e9e3d93c422184b32718",
+      "date": "2026-06-28T23:04:50-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(de-taiwan): delete 5 inherited per-language translation guides + stub README",
+      "articles": []
+    },
+    {
+      "hash": "8e8657034904dcc0547e6ad6dd8a053703b68c96",
+      "date": "2026-06-28T22:16:35-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(de-taiwan): reground semiont README/SENSES/EXTERNAL-VIEW + split REFLEXES to LB",
+      "articles": []
+    },
+    {
+      "hash": "dae40aae6f9a108cbe8fd1fcda0214ddac48fe53",
+      "date": "2026-06-28T22:03:54-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(de-taiwan): remove Taiwan diary + experiment lived content, keep dir shells",
+      "articles": []
+    },
+    {
+      "hash": "32ea859272a3cadc377a3cbafda139b0f5e31e66",
+      "date": "2026-06-28T22:03:36-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(de-taiwan): empty 8 semiont cognitive-log/buffer organs to LB shells",
+      "articles": []
+    },
+    {
+      "hash": "c0a9a600af1e242ad102027f25ee62097bd7ee76",
+      "date": "2026-06-28T21:58:14-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(migration): reconcile defer-translation framing",
+      "articles": []
+    },
+    {
+      "hash": "72000e691b26db109e889c5f5228c1ea6d0ab97e",
+      "date": "2026-06-28T20:03:12-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(de-taiwan): reground 2 live skill-referenced pipelines to LagunaBeach.md (Phase D batch 5)",
+      "articles": []
+    },
+    {
+      "hash": "6570c4d61d238670180ef7ed47790d5ba393fdd4",
+      "date": "2026-06-28T16:15:43-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(de-taiwan): relabel 6 per-language translation guides as inherited/dormant (Phase D batch 4)",
+      "articles": []
+    },
+    {
+      "hash": "8c8b1e3aa55f841f90168991965d58c521c18cab",
+      "date": "2026-06-28T10:55:03-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(de-taiwan): reground 5 remaining editorial methodology docs to LagunaBeach.md (Phase D batch 3)",
+      "articles": []
+    },
+    {
+      "hash": "308b1d6dc94c01844967a3368f7530b390439659",
+      "date": "2026-06-28T10:24:20-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(de-taiwan): reground 6 core editorial methodology docs to LagunaBeach.md (Phase D batch 2)",
+      "articles": []
+    },
+    {
+      "hash": "b167c09013dfa10acd931b137807f59bc40d2a73",
+      "date": "2026-06-28T09:37:10-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(de-taiwan): reground contributor-onboarding docs to LagunaBeach.md (Phase D batch 1)",
+      "articles": []
+    },
+    {
+      "hash": "f50083b81fe1be32a65f743ec18c54f7a39ce0b6",
+      "date": "2026-06-28T01:13:37-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(de-taiwan): replace Taiwan example path in LifeTree.astro comment (Phase C R14)",
+      "articles": []
+    },
+    {
+      "hash": "d4337c3b05c28a75da832851fa35e1c2b897a56c",
+      "date": "2026-06-28T01:13:29-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(de-taiwan): translate 4 missed Chinese JSX comments in SemiontOrganismDiagram (Phase C R13 tail)",
+      "articles": []
+    },
+    {
+      "hash": "298ade07d213846567544d358526c4d6ce89bcd4",
+      "date": "2026-06-28T00:59:56-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(de-taiwan): translate Chinese comments → English in remaining semiont organs (Phase C R13)",
+      "articles": []
+    },
+    {
+      "hash": "8d38aae9b9bd2b7322b0f67bf8a77c7b2478cb1e",
+      "date": "2026-06-28T00:51:04-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(de-taiwan): translate Chinese comments → English in diary organ cluster (Phase C R12)",
+      "articles": []
+    },
+    {
+      "hash": "837248bf513a3d03c6d4c87536fe6c68c38de680",
+      "date": "2026-06-28T00:32:46-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(de-taiwan): translate Chinese comment → English in ArticleCard.astro (Phase B R11)",
+      "articles": []
+    },
+    {
+      "hash": "52d754aeb4d4469bd1c35ebbabd23695b66f292c",
+      "date": "2026-06-28T00:07:54-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(de-taiwan): translate Chinese comments → English in timeline components + i18n core (Phase B R10)",
+      "articles": []
+    },
+    {
+      "hash": "40eb12d919597c5393f23c1078fa339e7089c9dc",
+      "date": "2026-06-27T23:57:58-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(de-taiwan): translate Chinese comments → English in src/scripts/ (Phase B final)",
+      "articles": []
+    },
+    {
+      "hash": "fe4984b88df4163fbfd81f78ec8f344badbba7e5",
+      "date": "2026-06-27T23:45:14-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(de-taiwan): translate Chinese comments → English in generic components (Phase B)",
+      "articles": []
+    },
+    {
+      "hash": "49b284964f4c1b32256f553222617fc0ae28bf5b",
+      "date": "2026-06-27T23:26:54-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(de-taiwan): translate Chinese comments → English in Layout.astro (Phase B final)",
+      "articles": []
+    },
+    {
+      "hash": "3108df0b10e65d03d4963d457fbf3938c15089d8",
+      "date": "2026-06-27T23:18:29-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(de-taiwan): translate Chinese comments → English in src/pages/ (Phase B pages)",
+      "articles": []
+    },
+    {
+      "hash": "5283c65c25e4dae8c5163d7b5b77b96d5ab02ef6",
+      "date": "2026-06-27T22:59:06-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(de-taiwan): translate Chinese comments → English in src/templates/ (Phase B remaining templates)",
+      "articles": []
+    },
+    {
+      "hash": "0c52f53e7d24e39c6904fec764f8e6c2738431dd",
+      "date": "2026-06-27T22:50:17-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(de-taiwan): translate Chinese comments → English in src/templates/ (Phase B core templates)",
+      "articles": []
+    },
+    {
+      "hash": "1f24d17967fa0723edec3448a3e064d511108338",
+      "date": "2026-06-27T22:37:56-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(de-taiwan): translate Chinese comments → English in src/styles/ (Phase B styles)",
+      "articles": []
+    },
+    {
+      "hash": "a60ad8363025e95dcaee91ae3971355ab634a654",
+      "date": "2026-06-27T22:31:09-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(de-taiwan): translate Chinese comments → English in config layer (Phase B2 config)",
+      "articles": []
+    },
+    {
+      "hash": "b852fa401ed2c4214f8c6b8b9530796ae5d2e2b7",
+      "date": "2026-06-27T22:20:31-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(de-taiwan): translate Chinese comments → English in src/utils/ (Phase B2)",
+      "articles": []
+    },
+    {
+      "hash": "632db2693153518da4df9b76adcab3e96a80f04c",
+      "date": "2026-06-27T21:18:49-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(build): refresh tracked artifacts after .en.md migration",
+      "articles": []
+    },
+    {
+      "hash": "5ed0e1372f79d5486e814887047012ee209c6929",
+      "date": "2026-06-27T21:18:41-07:00",
+      "author": "Wilson Choi",
+      "message": "chore: de-Taiwan code comments in staticRoutes.ts + SEO.astro",
+      "articles": []
+    },
+    {
+      "hash": "751c89658f284b4b56813a8af8bf73a6015cdc79",
+      "date": "2026-06-27T21:18:24-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(docs): retire .en.md shadow — English .md is first-class canon",
+      "articles": [
+        {
+          "url": "/about/lagunabeach-md",
+          "name": "lagunabeach-md"
+        }
+      ]
+    },
     {
       "hash": "250ae8997b4291d7a6fe4af1879ad7d684608bdf",
       "date": "2026-06-27T17:48:21-07:00",
