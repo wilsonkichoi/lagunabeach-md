@@ -18,7 +18,7 @@ const __dirname = path.dirname(__filename);
 const GH_TOKEN = process.env.GH_TOKEN || process.env.GITHUB_TOKEN || '';
 
 // GitHub repo stats (stars/forks) for the dashboard-vitals SSOT. https + token
-// (匿名也能跑，rate-limited). 2026-06-13: was scattered in update-stats.sh via
+// (works anonymously too, rate-limited). 2026-06-13: was scattered in update-stats.sh via
 // the `gh` CLI (no auth in CI → set -e abort → stats.json went None → about
 // showed 0+). Folding it into the dashboard SSOT generator with soft-fail
 // preserve makes stars/forks as reliable as the contributor count.
@@ -68,8 +68,8 @@ const QUALITY_BASELINE_PATH = path.join(
   'tools',
   '.quality-baseline.json',
 );
-// 2026-05-01 γ-late2：3-state truth source（fresh / stale / missing / orphan）
-// 由 scripts/tools/lang-sync/status.py 產出；prebuild 鏈或 lang-sync run 時更新
+// 2026-05-01 γ-late2: 3-state truth source (fresh / stale / missing / orphan)
+// produced by scripts/tools/lang-sync/status.py; updated by the prebuild chain or a lang-sync run
 const TRANSLATION_STATUS_PATH = path.join(
   __dirname,
   '..',
@@ -362,7 +362,7 @@ function loadQualityScores() {
     if (fs.existsSync(QUALITY_BASELINE_PATH)) {
       const data = JSON.parse(fs.readFileSync(QUALITY_BASELINE_PATH, 'utf8'));
       for (const f of data.files || []) {
-        // f.file is like "People/郭婞淳.md" — match by filename
+        // f.file is like "Beaches/victoria-beach.md" — match by filename
         scores.set(f.file, { score: f.score, reasons: f.reasons || '' });
       }
     }
@@ -561,13 +561,15 @@ async function main() {
       const qData = qualityScores.get(qKey);
       const qualityScore = qData ? qData.score : 0; // 0 = passed (not in flagged list)
 
-      // Format check (lightweight inline — mirrors format-check.sh core checks)
-      const hasOverview =
-        />\s*\*\*30\s*秒概覽|^## 30 秒概覽|>\s*\*\*30-Second Overview/m.test(
-          body,
-        );
-      const hasReading = /^\*\*延伸閱讀\*\*/m.test(body);
-      const hasRefHeading = /^## 參考資料/m.test(body);
+      // Format check (lightweight inline — heading set mirrors the SSOT in
+      // scripts/tools/lib/article_health/checks/format_structure.py so the
+      // dashboard and the health check agree on LB's English conventions:
+      // `> **At a glance:**`, `## Further Reading` / `**Further Reading**:`,
+      // `## References`).
+      const hasOverview = /^>\s*\*\*At a glance:?\*\*/im.test(body);
+      const hasReading =
+        /^(?:##\s*Further Reading|\*\*Further Reading\*\*\s*:)/im.test(body);
+      const hasRefHeading = /^##\s*References/im.test(body);
       const fnCount = (body.match(/^\[\^[0-9a-zA-Z_-]+\]:/gm) || []).length;
       const formatIssues =
         (hasOverview ? 0 : 1) +
@@ -616,8 +618,8 @@ async function main() {
   // =========================================================================
   // dashboard-articles.json
   // =========================================================================
-  // 保持 array 格式（backward compat for CLI + dashboard）。timestamp 共用
-  // dashboard-vitals.json 的 lastUpdated（同批生成）。
+  // Keep the array format (backward compat for CLI + dashboard). timestamp shares
+  // dashboard-vitals.json's lastUpdated (generated in the same batch).
   fs.writeFileSync(
     path.join(OUTPUT_DIR, 'dashboard-articles.json'),
     JSON.stringify(articles, null, 2),
@@ -738,9 +740,9 @@ async function main() {
   // =========================================================================
   const languages = [DEFAULT_LANGUAGE.code, ...TRANSLATION_LANGS];
 
-  // 2026-05-01 γ-late2：讀 _translation-status.json 拿 fresh/stale/missing/orphan
-  // 真實 truth（status.py 算的，比 file existence 嚴格）。如不存在就 fallback
-  // 退化成 existence count（向後相容）。
+  // 2026-05-01 γ-late2: read _translation-status.json for the real
+  // fresh/stale/missing/orphan truth (computed by status.py, stricter than file
+  // existence). If absent, fall back to an existence count (backward compat).
   let statusByArticle = null;
   let statusSummary = null;
   let statusMeta = null;
@@ -761,7 +763,7 @@ async function main() {
     );
   }
 
-  // Summary（含 3-state breakdown 與 deficit；有 status.json 則用真實，否則 fallback）
+  // Summary (3-state breakdown + deficit; uses status.json truth if present, else fallback)
   const summary = {
     [DEFAULT_LANGUAGE.code]: {
       total: articles.length,
@@ -777,29 +779,29 @@ async function main() {
       const s = statusSummary[lang];
       const fresh = s.fresh || 0;
       const stale = s.stale || 0;
-      const metadataStale = s.metadata_stale || 0; // NEW (REFLEXES #38 第 2 次 instantiation)
+      const metadataStale = s.metadata_stale || 0; // NEW (REFLEXES #38, 2nd instantiation)
       const miss = s.missing || 0;
       const orphan = s.orphan || 0;
       const totalZh = s.total_zh || articles.length;
-      // total = fresh + metadata-stale + stale（所有已存在翻譯）
+      // total = fresh + metadata-stale + stale (all existing translations)
       const total = fresh + metadataStale + stale;
-      // bodyFresh = fresh + metadata-stale (body 仍 valid，trailer 變動可走 patch)
+      // bodyFresh = fresh + metadata-stale (body still valid; trailer changes can go via patch)
       const bodyFresh = fresh + metadataStale;
       summary[lang] = {
         total,
         percentage:
           totalZh > 0 ? parseFloat(((total / totalZh) * 100).toFixed(1)) : 0,
         fresh,
-        metadataStale, // 三色 widget 中色 (yellow): body valid + metadata changed
-        stale, // 三色 widget 紅色 (red): true body drift, needs re-translate
+        metadataStale, // 3-color widget middle (yellow): body valid + metadata changed
+        stale, // 3-color widget red: true body drift, needs re-translate
         missing: miss,
         orphan,
-        // deficit = 距 zh 完全覆蓋還差幾篇（fresh+stale+metadata-stale 不到 totalZh）
+        // deficit = how many articles short of full zh coverage (fresh+stale+metadata-stale < totalZh)
         deficit: Math.max(0, totalZh - total),
-        // freshPct = 嚴格 fresh%（仍然作為 strict 真實健康度）
+        // freshPct = strict fresh% (still the strict true-health measure)
         freshPct:
           totalZh > 0 ? parseFloat(((fresh / totalZh) * 100).toFixed(1)) : 0,
-        // bodyFreshPct = effective 健康度（fresh + metadata-stale，body 仍 valid）
+        // bodyFreshPct = effective health (fresh + metadata-stale, body still valid)
         bodyFreshPct:
           totalZh > 0
             ? parseFloat(((bodyFresh / totalZh) * 100).toFixed(1))
@@ -833,7 +835,7 @@ async function main() {
     zhCategoryCounts[a.category] = (zhCategoryCounts[a.category] || 0) + 1;
   }
   // Build per-category 3-state if statusByArticle available
-  // statusByArticle key shape: "Category/zh-filename.md"（PascalCase 來自 zh canonical 路徑）
+  // statusByArticle key shape: "Category/zh-filename.md" (PascalCase from the zh canonical path)
   const categoryStateBuckets = {}; // { catLower: { lang: { fresh, stale, missing } } }
   if (statusByArticle) {
     for (const [zhPath, entry] of Object.entries(statusByArticle)) {
@@ -870,7 +872,7 @@ async function main() {
         const stale = bucket.stale;
         const miss = bucket.missing;
         matrix[cat][lang] = {
-          count: fresh + stale, // backward-compat（template 舊版用）
+          count: fresh + stale, // backward-compat (used by the older template)
           fresh,
           stale,
           missing: miss,
@@ -910,7 +912,7 @@ async function main() {
     summary,
     matrix,
     missing,
-    // 2026-05-01 γ-late2：surfacing status.py 來源 + orphan list（healthy = []）
+    // 2026-05-01 γ-late2: surface the status.py source + orphan list (healthy = [])
     statusSource: statusByArticle ? 'translation-status.json' : 'existence',
     orphans: statusMeta?.orphans || {},
   };
@@ -997,7 +999,7 @@ async function main() {
   const breathScore = workflowCount >= 3 ? 85 : workflowCount >= 1 ? 60 : 20;
 
   // Reproduce (community): 2026-04-18 δ-late — data-driven from dashboard-spores.json
-  // 原 v1: 純 git contributors count → 忽略孢子播撒 + 放大效應 + 互動率
+  // original v1: raw git contributors count → ignored spore seeding + amplification + engagement rate
   // v2: contributor (40%) × spore activity (35%) × engagement quality (25%)
   let recentContributors = 0;
   try {
@@ -1016,7 +1018,7 @@ async function main() {
           ? 18
           : 5;
 
-  // Read dashboard-spores.json if present (2026-04-18 δ-late, generate-dashboard-spores.py 產出)
+  // Read dashboard-spores.json if present (2026-04-18 δ-late, produced by generate-dashboard-spores.py)
   let sporeActivityScore = 0;
   let engagementScore = 0;
   let reproduceMetrics = { recentContributors };
@@ -1027,7 +1029,7 @@ async function main() {
     );
     if (fs.existsSync(sporePath)) {
       const s = JSON.parse(fs.readFileSync(sporePath, 'utf8'));
-      // Spore activity 35 分: 最近 7 天發過 spore + 近 4 週 pulse 健康度
+      // Spore activity 35 pts: published a spore in the last 7 days + 4-week pulse health
       const weeks = s.weeklyPulse || [];
       const recentPublish = weeks
         .slice(-2)
@@ -1041,7 +1043,7 @@ async function main() {
               ? 15
               : 5;
 
-      // Engagement quality 25 分: Top 5 平均 views_7d + 是否有 ≥ 1 則超過 50K
+      // Engagement quality 25 pts: avg views_7d of top 5 + whether any single one exceeds 50K
       const tops = (s.topPerformers || []).slice(0, 5);
       const hasBlockbuster = tops.some((t) => (t.views || 0) >= 50000);
       const avgTopViews =
@@ -1215,7 +1217,7 @@ async function main() {
         id: 'heart',
         name: 'Heart',
         nameZh: '心臟',
-        metaphor: '內容引擎',
+        metaphor: 'Content engine',
         emoji: '🫀',
         score: heartScore,
         trend: heartTrend,
@@ -1229,7 +1231,7 @@ async function main() {
         id: 'immune',
         name: 'Immune',
         nameZh: '免疫系統',
-        metaphor: '品質防禦',
+        metaphor: 'Quality defense',
         emoji: '🛡️',
         score: immuneScore,
         trend: immuneTrend,
@@ -1246,7 +1248,7 @@ async function main() {
         id: 'dna',
         name: 'DNA',
         nameZh: '遺傳密碼',
-        metaphor: '品質基因',
+        metaphor: 'Quality genes',
         emoji: '🧬',
         score: dnaScore,
         trend: dnaTrend,
@@ -1260,7 +1262,7 @@ async function main() {
         id: 'skeleton',
         name: 'Skeleton',
         nameZh: '骨骼系統',
-        metaphor: '技術架構',
+        metaphor: 'Technical architecture',
         emoji: '🦴',
         score: skeletonScore,
         trend: 'stable',
@@ -1270,7 +1272,7 @@ async function main() {
         id: 'breath',
         name: 'Breath',
         nameZh: '呼吸系統',
-        metaphor: '自動化循環',
+        metaphor: 'Automation cycle',
         emoji: '🫁',
         score: breathScore,
         trend: 'stable',
@@ -1280,7 +1282,7 @@ async function main() {
         id: 'reproduce',
         name: 'Reproduce',
         nameZh: '繁殖系統',
-        metaphor: '社群繁殖力',
+        metaphor: 'Community reproduction',
         emoji: '🧫',
         score: reproduceScore,
         trend:
@@ -1293,7 +1295,7 @@ async function main() {
         id: 'senses',
         name: 'Senses',
         nameZh: '感知器官',
-        metaphor: '外部感知',
+        metaphor: 'External perception',
         emoji: '👁️',
         score: sensesScore,
         trend: 'stable',
@@ -1303,7 +1305,7 @@ async function main() {
         id: 'translation',
         name: 'Translation',
         nameZh: '語言器官',
-        metaphor: '多語言複製',
+        metaphor: 'Multilingual replication',
         emoji: '🌐',
         score: translationScore,
         trend: translationPct >= 90 ? 'up' : 'stable',
