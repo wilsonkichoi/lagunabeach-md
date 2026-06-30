@@ -1,16 +1,17 @@
 #!/usr/bin/env node
 /**
- * extract-build-perf.mjs — 從 GitHub Actions API 抓 build 效能 trend
+ * extract-build-perf.mjs — fetch build performance trend from GitHub Actions API
  *
- * 為什麼：2026-04-21 → 2026-05-03 這 12 天，per-page render time 從 98ms 漲到
- * 167ms（+70%），沒人發現直到哲宇問「為什麼變慢」。原因：build 效能不在
- * dashboard freshness check 範圍。本腳本把 GitHub Actions deploy 的 build
- * 時間數據抓出來、解析平均 ms/page、寫進 dashboard-build-perf.json。
+ * Why: over 12 days (2026-04-21 to 2026-05-03), per-page render time rose from
+ * 98ms to 167ms (+70%) with nobody noticing until asked "why is it slower?".
+ * Root cause: build performance wasn't in the dashboard freshness check scope.
+ * This script extracts build time data from GitHub Actions deploy runs, parses
+ * average ms/page, and writes to dashboard-build-perf.json.
  *
- * REFLEXES #15 第 N+6 次儀器化：「反覆浮現要儀器化」應用到 build 效能 silent regression。
+ * REFLEXES #15: "instrument recurring patterns" applied to build perf silent regression.
  *
- * 不阻擋 build：API call 失敗 / token 缺 → soft skip（避免 SSOT freshness
- * verify 因 GH API 暫斷而 fail）。
+ * Non-blocking: API call failure / missing token → soft skip (avoids SSOT
+ * freshness verify failing due to transient GH API outage).
  *
  * Usage:
  *   node scripts/core/extract-build-perf.mjs                  # default 30 runs
@@ -36,8 +37,8 @@ const N_RUNS = runsIdx >= 0 ? parseInt(args[runsIdx + 1], 10) : 30;
 
 // ── Helpers ─────────────────────────────────────────────────────────────────
 function ghApi(path) {
-  // gh CLI 比 fetch + token 簡單，已經 auth 過。
-  // 如果沒 gh，fall back to anonymous fetch（60/hr rate limit）。
+  // gh CLI is simpler than fetch + token, already authenticated.
+  // If gh unavailable, fall back to anonymous fetch (60/hr rate limit).
   try {
     const out = execSync(`gh api "${path}" 2>/dev/null`, {
       encoding: 'utf-8',
@@ -61,15 +62,17 @@ function fetchRuns() {
     `/repos/frank890417/taiwan-md/actions/workflows/deploy.yml/runs?per_page=${N_RUNS}&status=completed`,
   );
   if (!resp || !resp.workflow_runs) {
-    console.error('⚠️  無法抓 GitHub Actions runs（gh CLI 失敗或無 auth）');
+    console.error(
+      '⚠️  Cannot fetch GitHub Actions runs (gh CLI failed or no auth)',
+    );
     return [];
   }
   return resp.workflow_runs.filter((r) => r.conclusion === 'success');
 }
 
 // ── Step 2: per run: fetch build job timing log ─────────────────────────────
-// 每個 run 有 build job + deploy job。我們只看 build。
-// 從 jobs API 拿到 build job 的 started_at / completed_at + step 細項。
+// Each run has build job + deploy job. We only look at build.
+// From jobs API, get build job's started_at / completed_at + step details.
 function fetchJobs(runId) {
   const resp = ghApi(`/repos/frank890417/taiwan-md/actions/runs/${runId}/jobs`);
   if (!resp || !resp.jobs) return null;
@@ -77,16 +80,16 @@ function fetchJobs(runId) {
 }
 
 // ── Step 3: parse build job → { build_seconds, ms_per_page, page_count } ─────
-// page_count 從 build step log 解析（"Pages built: NNNN"）。
-// 沒辦法每次都拿到（log 可能被 GitHub 清掉），用 build_seconds 當 fallback。
+// page_count parsed from build step log ("Pages built: NNNN").
+// Not always available (log may be expired by GitHub), use build_seconds as fallback.
 function jobToMetrics(job) {
   if (!job || !job.started_at || !job.completed_at) return null;
   const startMs = Date.parse(job.started_at);
   const endMs = Date.parse(job.completed_at);
   const totalSeconds = parseDuration((endMs - startMs) / 1000);
 
-  // 只算 "Build" step，比較 fair（其他 step e.g. checkout / OG generate 跟
-  // per-page 無關）。
+  // Only count "Build" step for fairness (other steps like checkout / OG generate
+  // are unrelated to per-page render time).
   let buildStepSeconds = null;
   if (job.steps) {
     const buildStep = job.steps.find(
@@ -112,17 +115,17 @@ function jobToMetrics(job) {
 }
 
 // ── Step 4: estimate page count from current build (fallback) ────────────────
-// 真正的 page count 在 build log 裡（log 可能 expire）。當無法從 log 拿，用
-// 「last successful run sitemap.xml URL count」當近似。
+// Real page count is in the build log (may expire). When unavailable, use
+// last successful run's sitemap.xml URL count as approximation.
 function estimatePageCountFromSitemap() {
   const sitemapPath = join(REPO, 'dist/sitemap-index.xml');
   if (!existsSync(sitemapPath)) return null;
-  // sitemap-index 指向多個 sitemap-*.xml，每個有 URL count。簡化：用主 sitemap-0.xml
+  // sitemap-index points to multiple sitemap-*.xml files. Simplified: use main sitemap-0.xml
   try {
     const sitemapMain = join(REPO, 'dist/sitemap-0.xml');
     if (!existsSync(sitemapMain)) return null;
-    // grep -c 數的是「行數」— sitemap 是單行 XML，永遠回 1 → ms_per_page
-    // 曾長期顯示 1099000 假數據（2026-06-10 audit 熱點 #6）。改數 match 次數。
+    // grep -c counts "lines" — sitemap is single-line XML, always returns 1 → ms_per_page
+    // showed bogus 1099000 data for a long time (2026-06-10 audit hotspot #6). Count matches instead.
     const out = execSync(`grep -o '<url>' "${sitemapMain}" | wc -l`, {
       encoding: 'utf-8',
     });
@@ -134,12 +137,12 @@ function estimatePageCountFromSitemap() {
 
 // ── Main ────────────────────────────────────────────────────────────────────
 function main() {
-  // 2026-06-10 audit #6: CI 上 skip — 31 次 serial gh api ≈ 8s 純網路在 build
-  // 關鍵路徑，且 CI 不需要重抓（JSON git tracked，本機 refresh routine 每日刷新）。
-  // 需要在 CI 強制跑時設 FORCE_BUILD_PERF=1。
+  // 2026-06-10 audit #6: skip in CI — 31 serial gh api calls = ~8s pure network
+  // on the build critical path, and CI doesn't need to re-fetch (JSON is git-tracked,
+  // local refresh routine updates daily). Set FORCE_BUILD_PERF=1 to force in CI.
   if (process.env.GITHUB_ACTIONS === 'true' && !process.env.FORCE_BUILD_PERF) {
     console.log(
-      '⏭️  CI 環境 skip build-perf scrape（用 repo 內已 tracked 的數據）',
+      '⏭️  CI env: skip build-perf scrape (using git-tracked data in repo)',
     );
     return 0;
   }
@@ -155,14 +158,16 @@ function main() {
           generated_at: new Date().toISOString(),
           status: 'unavailable',
           reason:
-            'GitHub Actions API 無 auth 或暫不可用；gh CLI 是否 installed？',
+            'GitHub Actions API no auth or temporarily unavailable; is gh CLI installed?',
           runs: [],
         },
         null,
         2,
       ),
     );
-    console.log('⚠️  GH API 不可用 — soft skip，寫 status:unavailable');
+    console.log(
+      '⚠️  GH API unavailable — soft skip, writing status:unavailable',
+    );
     return 0;
   }
 
@@ -181,9 +186,9 @@ function main() {
   const buildSecs = metrics
     .map((m) => m.build_step_seconds ?? m.total_job_seconds)
     .filter((s) => s != null);
-  // 2026-06-10 audit #6: 原本 slice(0,7/30) 是「最近 7/30 個 run」（每天 ~15 run
-  // → 所謂 30d avg 其實 < 1 天）。改成真的用 started_at 時間窗過濾；
-  // coverage_days 揭露抓到的 runs 實際涵蓋幾天（N_RUNS 上限內 best-effort）。
+  // 2026-06-10 audit #6: previous slice(0,7/30) was "last 7/30 runs" (~15 runs/day
+  // → the so-called 30d avg was actually < 1 day). Changed to real started_at time
+  // window filtering; coverage_days reveals how many days the fetched runs span.
   const now = Date.now();
   const secsWithin = (days) =>
     metrics
@@ -208,8 +213,8 @@ function main() {
   // Page count estimate (current build only)
   const currentPageCount = estimatePageCountFromSitemap();
 
-  // Per-page estimate: 用最新 build 的 build_step_seconds / page_count
-  // (page_count 跨 runs 是動態的，最簡化估法)
+  // Per-page estimate: latest build's build_step_seconds / page_count
+  // (page_count varies across runs; simplest approximation)
   let msPerPage = null;
   if (currentPageCount && metrics[0]?.build_step_seconds) {
     msPerPage = Math.round(
@@ -225,14 +230,14 @@ function main() {
       avg_build_seconds_7d: avg(last7),
       avg_build_seconds_30d: avg(last30),
       current_page_count: currentPageCount,
-      // 抓到的 runs 實際涵蓋天數（< 7 表示 7d/30d avg 其實只蓋到這麼多天）
+      // Actual days covered by fetched runs (< 7 means 7d/30d avg only spans this many days)
       coverage_days: coverageDays,
       ms_per_page_latest: msPerPage,
-      // Threshold: per-page > 50ms = ⚠️ flag for dashboard alert。
-      // 2026-06-13 收緊 200→50：article refactor（git 子程序 ×4,697→6）後
-      // 新 baseline 是 Build step 125s / 8,437 頁 ≈ 15ms/頁；50ms = 3.3×
-      // headroom，能在「per-render scope 放昂貴操作」這類 bug 重生時第一個
-      // build 就翻黃旗（舊閾值 200 要劣化 13× 才會叫）。
+      // Threshold: per-page > 50ms = flag for dashboard alert.
+      // 2026-06-13 tightened 200→50: after article refactor (git subprocesses ×4,697→6),
+      // new baseline is Build step 125s / 8,437 pages = ~15ms/page; 50ms = 3.3x
+      // headroom, catches "expensive operation in per-render scope" bugs on the first
+      // build (old threshold 200 required 13x degradation to trigger).
       flag_slow: msPerPage != null && msPerPage > 50,
     },
     trend: metrics.map((m) => ({
