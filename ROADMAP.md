@@ -156,6 +156,21 @@ codified in MIGRATION.md Rule 1.
 
 ---
 
+## 3.45. Horizon 0.45 — Delete Taiwan-specific dead code ✅ DONE (2026-06-30)
+
+Removed Taiwan-only files/tools with zero LB reuse potential (reassessed per file):
+
+- `data/terminology/` (2,339 cross-strait YAML files, 11MB)
+- `scripts/deprecated/` (4 files integrated into sync.sh long ago)
+- 4 terminology tools, 4 Taiwan peer-content crawlers, extract-22-counties,
+  validate-china-fp-tsv, twinkle-hub-crawl/verify
+- `prebuild:china-terms` removed from build pipeline
+- `src/data/feedbacks.ts` emptied (Taiwan testimonials)
+- `src/utils/article-render.ts` Taiwan 22-county cartogram deleted
+- `scripts/twmd.mjs` → ported to `scripts/lb.mjs` (English LB CLI)
+
+---
+
 ## 3.5. Horizon 0.5 — Full LB ownership of the app layer ✅ DONE (2026-06-29)
 
 **Decision (2026-06-27, Wilson):** stop being a shadow of Taiwan.md at the code
@@ -205,6 +220,71 @@ i18n _string values_ (`i18n/*.ts`) — those are content, not comments, and stay
 **Tracking:** seeded into `.handoff/TO-IMPLEMENTER.md`; execute via the roadmap
 loop. Each batch commits separately and lists the files it de-Taiwaned. Phase E
 was executed directly (it had to be atomic — a half-renamed tree breaks the build).
+
+---
+
+## 3.6. Horizon 0.6 — English-only codebase (scripts/ comment translation)
+
+**Decision (2026-06-30, Wilson):** at this point, only English content and logic
+should exist. All CJK in code that isn't legitimate i18n data must be translated.
+
+**Done (2026-06-30):**
+
+- [x] All non-i18n CJK in `src/` translated (17 files)
+- [x] All `scripts/core/` comments/docstrings translated (16 files)
+- [x] All build-path `scripts/tools/` translated (14 files)
+- [x] `~/.config/taiwan-md` paths regrounded to `lagunabeach-md` (17 files)
+
+**Remaining (163 files, ~3,200 CJK comment/docstring lines):**
+
+All are developer tools NOT in the build path. Build is green, user-facing output
+is English, contributor onboarding works. These are cosmetic-readability for devs
+reading tool source. Execute via `/lb-implement` + `/lb-review`, batched by group.
+
+- [ ] **Group 1: lang-sync/ translation infra** (25 files, ~400 lines)
+      `scripts/tools/lang-sync/` — OpenRouter/Ollama/Gemini backends, batch prep,
+      verification, audit, slug-suggest, diary-translate, diff-patch.
+- [ ] **Group 2: article-health checks** (17 files, ~350 lines)
+      `scripts/tools/lib/article_health/` — plugin docstrings + inline comments.
+      CJK in regex patterns (matching zh-TW content markers) is KEEP.
+- [ ] **Group 3: analytics + sensing tools** (~15 files, ~400 lines)
+      fetch-cloudflare, fetch-ga4, fetch-search-console, fetch-search-events,
+      fetch-sense-data, cf-query, ga-query, ga-window-compare, sc-query,
+      sense-diff, converter-analytics, converter-demand, register-ga4-custom-dims,
+      generate-dashboard-analytics, referral-attribution.
+- [ ] **Group 4: spore + social tools** (~15 files, ~350 lines)
+      spore-db, bootstrap-spore-ssot, generate-spore-image, make-spore,
+      spore-content-hash-audit, validate-spore-data, migrate-spore-log-to-harvests,
+      sync-spore-links (partial done), manage-featured.
+- [ ] **Group 5: content/editorial tools** (~20 files, ~400 lines)
+      footnote-format-fix, research-report-health, analysis-report-health,
+      image-ingest, land-media-batch, migrate-images-webp, generate-carousel-slides,
+      check-freshness, cross-link, dead-cross-ref-scan, wiki-fetch, inbox-audit,
+      lessons-distill, music-media-audit, attribution-risk-audit.
+- [ ] **Group 6: shell tools + CI + infra** (~25 files, ~400 lines)
+      review-pr.sh, refresh-data.sh, consciousness-snapshot.sh, routine-status.sh,
+      audit-batch.sh, build-parity-diff.sh, check-\* shells, translate.sh,
+      worktree-gc, session-id, ci/restore-mtime.
+- [ ] **Group 7: feedback + utils + visual** (~20 files, ~300 lines)
+      feedback/classify, feedback/archive, feedback/triage.test, triage-consolidate,
+      scripts/utils/_, scripts/visual/_.
+- [ ] **Group 8: dormant/niche tools** (~25 files, ~600 lines)
+      instrumentation-audit, routine-audit, routine-sync-check, memory-index-lint,
+      compress-memory, dna-split-audit, send-email-resend, send-contributor-survey,
+      check-canonical-frontmatter, orphan-translation-check, people-title-check,
+      backfill-translated-from, i18n-fill-gaps, i18n-translate, generate-reports-index.
+
+**Method:** read each file, translate comments/docstrings to English, keep CJK in
+regex patterns and data-matching strings. Verify no syntax errors after each batch.
+Build-verify after completing all groups.
+
+**What counts as "done" for CJK remaining after translation:**
+
+- `displayName: '中文'` and other i18n language display names
+- Regex patterns matching Chinese content (e.g. `r"延伸閱讀"` matching md headings)
+- Column headers in `row.get("日期")` matching actual data table columns
+- Chinese article names in code examples/comments (e.g. `--slug 李洋`)
+- `nameZh` data properties for dashboard organ rendering
 
 ---
 
