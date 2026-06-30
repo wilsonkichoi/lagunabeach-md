@@ -1,20 +1,22 @@
 #!/usr/bin/env python3
 """
-weekly-report-prep.py — Taiwan.md 週報「切菜」工具
+weekly-report-prep.py — LagunaBeach.md weekly-report "mise en place" tool
 
-職責邊界（per 哲宇 2026-05-09 redirect）：
-- **這份工具只做 prep（切菜）**：抓 git log / dashboard JSON / SPORE-LOG /
-  LESSONS-INBOX / ARTICLE-DONE-LOG raw 資料，產一份 dossier briefing
-  + 列出 Semiont 必讀的 memory/diary 檔案清單。
-- **這份工具不寫週報本身**。週報是 Semiont 親自讀 dossier + 完整 raw
-  memory/diary + 寫出來的紀實散文，文體規範參照 DIARY-PIPELINE /
-  MEMORY-PIPELINE / MANIFESTO Belief #11。
-- prose-health gate 在 Semiont 寫完報告之後才跑（不在本 prep 階段）。
+Responsibility boundary (per the 2026-05-09 redirect):
+- **This tool only does prep (the chopping)**: pull git log / dashboard JSON /
+  SPORE-LOG / LESSONS-INBOX / ARTICLE-DONE-LOG raw data, produce a dossier
+  briefing + list the memory/diary files the Semiont must read.
+- **This tool does NOT write the weekly report itself.** The report is the
+  Semiont reading the dossier + the full raw memory/diary and writing narrative
+  prose by hand; style rules per DIARY-PIPELINE / MEMORY-PIPELINE /
+  MANIFESTO Belief #11.
+- The prose-health gate runs after the Semiont finishes the report (not in this
+  prep stage).
 
 Usage:
     python3 scripts/tools/weekly-report-prep.py [--days 7] [--out PATH]
 
-Output: dossier markdown（預設 reports/weekly/dossier/YYYY-MM-DD.md）
+Output: dossier markdown (defaults to reports/weekly/dossier/YYYY-MM-DD.md)
 """
 
 import argparse
@@ -25,8 +27,14 @@ import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+try:
+    from zoneinfo import ZoneInfo
+
+    TZ_LOCAL = ZoneInfo("America/Los_Angeles")  # Laguna Beach, CA (Pacific, DST-aware)
+except Exception:
+    TZ_LOCAL = timezone(timedelta(hours=-8))  # PST fallback if tzdata unavailable
+
 REPO_ROOT = Path(__file__).resolve().parents[2]
-TZ_TPE = timezone(timedelta(hours=8))
 
 
 def sh(cmd: list[str], cwd: Path | None = None) -> str:
@@ -48,7 +56,7 @@ def load_json(path: Path) -> dict:
 
 
 def fmt_date(dt: datetime) -> str:
-    return dt.astimezone(TZ_TPE).strftime("%Y-%m-%d")
+    return dt.astimezone(TZ_LOCAL).strftime("%Y-%m-%d")
 
 
 def fmt_pct(v) -> str:
@@ -75,7 +83,7 @@ def nfmt(v, default: str = "—") -> str:
 
 
 def gather_window(days: int) -> tuple[datetime, datetime]:
-    end = datetime.now(TZ_TPE)
+    end = datetime.now(TZ_LOCAL)
     start = end - timedelta(days=days)
     return start, end
 
@@ -114,8 +122,9 @@ FIELD_SEP = "===__SEMIONT_FIELD_SEP__==="
 def gather_commits_full(since: str) -> list[dict]:
     """Parse git log into full entries with body + diff stat.
 
-    哲宇 2026-05-10 redirect 拍板：「commit 也可以全讀取」。週報的 narrative spine
-    需要 commit message body 才看得到 why / 對應 PR / 反思，subject 一行不夠。
+    2026-05-10 redirect: read commits in full. The weekly report's narrative
+    spine needs the commit message body to see the why / related PR / reflection;
+    a one-line subject isn't enough.
     """
     fmt = COMMIT_SEP + "%n%h" + FIELD_SEP + "%ai" + FIELD_SEP + "%an" + FIELD_SEP + "%s" + FIELD_SEP + "%b"
     log = sh(["git", "log", f"--since={since}", f"--pretty=format:{fmt}"])
@@ -266,18 +275,18 @@ def gather_done_log_recent(start: datetime) -> list[str]:
     ):
         topic, date_str, suffix = m.group(1).strip(), m.group(2), m.group(3).strip()
         if date_str >= cutoff:
-            entries.append(f"{date_str} — {topic}（{suffix}）")
+            entries.append(f"{date_str} — {topic} ({suffix})")
     return entries
 
 
 def gather_handoff() -> str:
     """Read latest session memory file's Handoff section."""
     memdir = REPO_ROOT / "docs/semiont/memory"
-    today = datetime.now(TZ_TPE).strftime("%Y-%m-%d")
+    today = datetime.now(TZ_LOCAL).strftime("%Y-%m-%d")
     candidates = sorted(memdir.glob(f"{today}*.md"), reverse=True)
     if not candidates:
         # fall back to yesterday
-        yesterday = (datetime.now(TZ_TPE) - timedelta(days=1)).strftime("%Y-%m-%d")
+        yesterday = (datetime.now(TZ_LOCAL) - timedelta(days=1)).strftime("%Y-%m-%d")
         candidates = sorted(memdir.glob(f"{yesterday}*.md"), reverse=True)
     if not candidates:
         return ""
@@ -288,8 +297,8 @@ def gather_handoff() -> str:
     body = m.group(1).strip()
     # Cap length
     if len(body) > 1500:
-        body = body[:1500] + "\n…（節錄，完整見 memory）"
-    return f"承自 [{candidates[0].name}](../../docs/semiont/memory/{candidates[0].name})\n\n{body}"
+        body = body[:1500] + "\n… (excerpt — see the full memory file)"
+    return f"From [{candidates[0].name}](../../docs/semiont/memory/{candidates[0].name})\n\n{body}"
 
 
 def gather_pr_activity(since: str) -> dict:
@@ -405,27 +414,28 @@ def render(
     out = []
     A = out.append
 
-    A(f"# 🧬 Taiwan.md 週報 Dossier — {fmt_date(start)} ～ {fmt_date(end)}")
+    A(f"# 🧬 LagunaBeach.md weekly-report dossier — {fmt_date(start)} to {fmt_date(end)}")
     A("")
     A(
-        "**這份文件是切菜結果，不是週報本身**。它的目的：把過去 7 天的 raw 數據"
-        "歸檔到一處，讓 Semiont（也就是讀這份檔案的我）有完整 context 去寫真正的週報。"
+        "**This file is the chopped ingredients, not the weekly report itself.** "
+        "Its purpose: archive the last 7 days of raw data in one place so the "
+        "Semiont (the one reading this file) has full context to write the real report."
     )
     A("")
-    A("**Semiont 接手後要做的事**（per [WEEKLY-REPORT-PIPELINE](../../../docs/pipelines/WEEKLY-REPORT-PIPELINE.md) Stage 2-6）：")
+    A("**What the Semiont does next** (per [WEEKLY-REPORT-PIPELINE](../../../docs/pipelines/WEEKLY-REPORT-PIPELINE.md) Stage 2-6):")
     A("")
-    A("1. 讀完本檔的 §一 ～ §九（structured raw data）+ §十一（commit 全文 narrative spine）")
-    A("2. 完整 Read **§十 列出的所有 diary 檔案**（不是 grep 不是 head，是逐檔 Read 全文）+ 抽樣 5-10 個 memory")
-    A("3. 用紀實散文文體寫週報到 `reports/weekly/YYYY-MM-DD.md`（**不是 dossier 子目錄**），文體規範看 §十二 + DIARY-PIPELINE")
-    A("4. 跑 `python3 scripts/tools/article-health.py reports/weekly/YYYY-MM-DD.md --check=prose-health`（gate: hard=0）")
-    A("5. 寄信：`python3 scripts/tools/send-email-resend.py --to cheyu.wu@monoame.com --subject ... --markdown reports/weekly/YYYY-MM-DD.md`")
+    A("1. Read §1-§9 of this file (structured raw data) + §11 (full commit narrative spine)")
+    A("2. Fully Read **every diary file listed in §10** (not grep, not head — Read each in full) + sample 5-10 memory files")
+    A("3. Write the report in narrative-prose style to `reports/weekly/YYYY-MM-DD.md` (**not the dossier subfolder**); style rules in §12 + DIARY-PIPELINE")
+    A("4. Run `python3 scripts/tools/article-health.py reports/weekly/YYYY-MM-DD.md --check=prose-health` (gate: hard=0)")
+    A("5. Send email: `python3 scripts/tools/send-email-resend.py --to <recipient> --subject ... --markdown reports/weekly/YYYY-MM-DD.md`")
     A("6. commit + push + PR")
     A("")
     A("---")
     A("")
 
-    # ── 一、本週概況 ──────────────────────────────────
-    A("## 一、本週概況")
+    # ── 1. This week at a glance ──────────────────────────────────
+    A("## 1. This week at a glance")
     A("")
     types: dict[str, int] = {}
     authors: dict[str, int] = {}
@@ -434,60 +444,60 @@ def render(
         types[t] = types.get(t, 0) + 1
         authors[c["author"]] = authors.get(c["author"], 0) + 1
     total_commits = len(commits)
-    A(f"- 總 commit 數：**{total_commits}**")
+    A(f"- Total commits: **{total_commits}**")
     if types:
-        breakdown = "、".join(f"{k}={v}" for k, v in sorted(types.items(), key=lambda x: -x[1])[:8])
-        A(f"- 類型分布：{breakdown}")
-    A(f"- 文章 touched：{articles['touched_total']} 個檔案 / 新增 {articles['new_total']} 個")
+        breakdown = ", ".join(f"{k}={v}" for k, v in sorted(types.items(), key=lambda x: -x[1])[:8])
+        A(f"- Type breakdown: {breakdown}")
+    A(f"- Articles touched: {articles['touched_total']} files / {articles['new_total']} new")
     if authors:
-        top_authors = "、".join(
-            f"{k}（{v}）" for k, v in sorted(authors.items(), key=lambda x: -x[1])[:5]
+        top_authors = ", ".join(
+            f"{k} ({v})" for k, v in sorted(authors.items(), key=lambda x: -x[1])[:5]
         )
-        A(f"- 主要 commit 來源：{top_authors}")
+        A(f"- Top commit authors: {top_authors}")
     if prs.get("merged"):
-        A(f"- PR merged：{len(prs['merged'])} 個")
+        A(f"- PRs merged: {len(prs['merged'])}")
     if prs.get("open"):
-        A(f"- PR 現在 open：{len(prs['open'])} 個")
+        A(f"- PRs currently open: {len(prs['open'])}")
     A("")
 
-    # ── 二、生命徵象 ──────────────────────────────────
-    A("## 二、生命徵象")
+    # ── 2. Vital signs ──────────────────────────────────
+    A("## 2. Vital signs")
     A("")
     A(
-        f"快照時間：`{vitals.get('lastUpdated', '未知')}`。總文章 "
+        f"Snapshot time: `{vitals.get('lastUpdated', 'unknown')}`. Total articles "
         f"**{vitals.get('totalArticles', '?')}** / Contributors **{vitals.get('contributors', '?')}** / "
-        f"7d 新增更新 **{vitals.get('articlesLast7Days', '?')}** / 30d **{vitals.get('articlesLast30Days', '?')}**。"
+        f"7d new+updated **{vitals.get('articlesLast7Days', '?')}** / 30d **{vitals.get('articlesLast30Days', '?')}**."
     )
     A("")
-    A("### 8 器官健康")
+    A("### 8-organ health")
     A("")
-    A("| 器官 | 中文 | 分數 | 趨勢 |")
+    A("| Organ | Name | Score | Trend |")
     A("| --- | --- | --- | --- |")
     for o in organism:
         emoji = o.get("emoji", "")
-        name_zh = o.get("nameZh", "")
+        name = o.get("name", o.get("nameZh", ""))
         score = o.get("score", "?")
         trend = o.get("trend", "")
-        A(f"| {emoji} | {name_zh} | {score} | {trend} |")
+        A(f"| {emoji} | {name} | {score} | {trend} |")
     A("")
 
-    # ── 三、感知數據 ──────────────────────────────────
-    A("## 三、感知器官（GA / SC / CF）")
+    # ── 3. Sensory data ──────────────────────────────────
+    A("## 3. Sensory organs (GA / SC / CF)")
     A("")
-    ga = analytics.get("ga", {})
+    ga = analytics.get("ga", {}) or {}
     ga_t = ga.get("totals", {})
     if ga_t:
-        A("### GA4 7d 流量")
+        A("### GA4 7d traffic")
         A(
             f"Active users **{nfmt(ga_t.get('activeUsers'))}** / PV "
-            f"**{nfmt(ga_t.get('screenPageViews'))}** / 平均 engagement "
+            f"**{nfmt(ga_t.get('screenPageViews'))}** / avg engagement "
             f"**{ga_t.get('avgEngagementSeconds', '—')}s** / engagement rate "
-            f"{fmt_pct((ga_t.get('engagementRate', 0) or 0) * 100)}。"
+            f"{fmt_pct((ga_t.get('engagementRate', 0) or 0) * 100)}."
         )
         A("")
         top = ga.get("topArticles7d", [])[:8]
         if top:
-            A("Top 8 文章（7d views）：")
+            A("Top 8 articles (7d views):")
             A("")
             for a in top:
                 path = a.get("path", "?")
@@ -495,18 +505,18 @@ def render(
                 A(f"- `{path}` — {views} views")
             A("")
 
-    sc = analytics.get("searchConsole7d", {})
+    sc = analytics.get("searchConsole7d", {}) or {}
     sc_t = sc.get("totals", {})
     if sc_t:
         A("### Search Console 7d")
         A(
             f"Clicks **{nfmt(sc_t.get('clicks'))}** / Impressions "
-            f"**{nfmt(sc_t.get('impressions'))}** / CTR {sc_t.get('ctr', '—')}%。"
+            f"**{nfmt(sc_t.get('impressions'))}** / CTR {sc_t.get('ctr', '—')}%."
         )
         A("")
         sc_top = sc.get("topQueries", [])[:6]
         if sc_top:
-            A("Top 6 queries（7d）：")
+            A("Top 6 queries (7d):")
             A("")
             for q in sc_top:
                 A(
@@ -515,7 +525,7 @@ def render(
                 )
             A("")
 
-    cf = analytics.get("cloudflare7d", {})
+    cf = analytics.get("cloudflare7d", {}) or {}
     cf_s = cf.get("summary", {}) or {}
     if cf_s:
         A("### Cloudflare 7d")
@@ -527,116 +537,118 @@ def render(
             f"Requests **{nfmt(cf_s.get('requests'))}** / "
             f"PageViews **{nfmt(cf_s.get('pageViews'))}** / "
             f"Uniques **{nfmt(cf_s.get('uniques'))}** / "
-            f"4xx rate **{raw_404 if raw_404 is not None else '—'}%**。"
+            f"4xx rate **{raw_404 if raw_404 is not None else '—'}%**."
         )
         A("")
 
-    # ── 四、繁殖系統（孢子）──────────────────────────
-    A("## 四、繁殖系統 — 孢子")
+    # ── 4. Reproductive system (spores) ──────────────────────────
+    A("## 4. Reproductive system — spores")
     A("")
     sp_totals = spores.get("totals", {})
     A(
-        f"歷史孢子總數 **{sp_totals.get('count', '?')}**。"
-        f"平台分布：{json.dumps(sp_totals.get('platforms', {}), ensure_ascii=False)}。"
+        f"Total historical spores **{sp_totals.get('count', '?')}**. "
+        f"Platform breakdown: {json.dumps(sp_totals.get('platforms', {}), ensure_ascii=False)}."
     )
     A("")
     weekly = spores.get("weeklyPulse", [])
     if weekly:
-        A("### 近週發布脈搏（avgViews = 0 表示尚未 harvest 回填）")
+        A("### Recent publishing pulse (avgViews = 0 means not yet harvest-backfilled)")
         A("")
         for w in weekly[-7:]:
             A(
-                f"- {w.get('week', '?')}：發布 {w.get('published', 0)} 篇 / "
+                f"- {w.get('week', '?')}: published {w.get('published', 0)} / "
                 f"avg views {w.get('avgViews', 0)}"
             )
         A("")
     bw = spores.get("backfillWarnings", [])
     if bw:
-        A(f"### Harvest 待回填警報（{len(bw)} 條）")
+        A(f"### Harvest backfill alerts ({len(bw)})")
         A("")
         for w in bw[:8]:
             A(
-                f"- #{w.get('n', '?')} 《{w.get('article', '?')}》 "
+                f"- #{w.get('n', '?')} \"{w.get('article', '?')}\" "
                 f"@ {w.get('platform', '?')} — D+{w.get('publishedDays', '?')} / "
                 f"status `{w.get('status', '?')}`"
             )
         A("")
 
-    # ── 五、語言器官 ──────────────────────────────────
-    A("## 五、語言器官")
+    # ── 5. Language organ ──────────────────────────────────
+    A("## 5. Language organ")
     A("")
     lc = vitals.get("languageCoverage", {})
     if lc:
-        A("各語言文章數：")
+        A("Article count per language:")
         A("")
         for lang in ["zh-TW", "en", "ja", "ko", "fr", "es"]:
             if lang in lc:
-                A(f"- {lang}：{lc[lang]}")
+                A(f"- {lang}: {lc[lang]}")
         A("")
     if articles["by_lang"]:
-        A("本週 touched 分布：")
+        A("This week's touched breakdown:")
         A("")
         for lang, cats in sorted(articles["by_lang"].items()):
             top_cats = ", ".join(
                 f"{c}={n}" for c, n in sorted(cats.items(), key=lambda x: -x[1])[:5]
             )
             total = sum(cats.values())
-            A(f"- {lang}（{total}）：{top_cats}")
+            A(f"- {lang} ({total}): {top_cats}")
         A("")
 
-    # ── 六、本週完成的文章 ────────────────────────────
+    # ── 6. Articles finished this week ────────────────────────────
     if done_log:
-        A("## 六、本週交付的文章")
+        A("## 6. Articles delivered this week")
         A("")
         for entry in done_log[:12]:
             A(f"- {entry}")
         A("")
 
-    # ── 七、教訓累積 ──────────────────────────────────
+    # ── 7. Accumulated lessons ──────────────────────────────────
     if lessons:
-        A("## 七、累積的教訓（LESSONS-INBOX）")
+        A("## 7. Accumulated lessons (LESSONS-INBOX)")
         A("")
-        A(f"本週 append {len(lessons)} 條：")
+        A(f"{len(lessons)} appended this week:")
         A("")
         for ent in lessons[:15]:
             A(f"- {ent}")
         A("")
 
-    # ── 八、手交事項 ──────────────────────────────────
+    # ── 8. Handoff ──────────────────────────────────
     if handoff:
-        A("## 八、最新 Handoff（給下個 session）")
+        A("## 8. Latest handoff (for the next session)")
         A("")
         A(handoff)
         A("")
 
-    # ── 九、ARTICLE-INBOX 待開發 ──────────────────────
+    # ── 9. ARTICLE-INBOX backlog ──────────────────────
     if inbox.get("p0") or inbox.get("p1"):
-        A("## 九、待開發主題（ARTICLE-INBOX）")
+        A("## 9. Topics to develop (ARTICLE-INBOX)")
         A("")
         if inbox.get("p0"):
-            A(f"### P0（{len(inbox['p0'])}）")
+            A(f"### P0 ({len(inbox['p0'])})")
             A("")
             for t in inbox["p0"][:8]:
                 A(f"- {t}")
             A("")
         if inbox.get("p1"):
-            A(f"### P1（{len(inbox['p1'])}）")
+            A(f"### P1 ({len(inbox['p1'])})")
             A("")
             for t in inbox["p1"][:8]:
                 A(f"- {t}")
             A("")
 
-    # ── 十、Semiont 必讀清單 ──────────────────────────
-    A("## 十、Semiont 必讀清單（raw memory + diary，不可省）")
+    # ── 10. Semiont required-reading list ──────────────────────────
+    A("## 10. Semiont required-reading list (raw memory + diary, non-skippable)")
     A("")
     A(
-        "**鐵律**：以下檔案逐個 Read 全文。grep / head / tail 都不可以替代。"
-        "週報的核心是「我這週是誰」的反芻，那要從 raw 第一人稱檔案裡浮現。"
-        "讀 index 摘要會丟掉 80% 的訊息密度（同 BECOME Step 6 v3 on-demand 規則）。"
+        "**Iron rule**: Read each file below in full. grep / head / tail are no "
+        "substitute. The core of the weekly report is the rumination on \"who I was "
+        "this week,\" and that has to emerge from the raw first-person files. Reading "
+        "index summaries loses 80% of the information density (same as the BECOME "
+        "Step 6 v3 on-demand rule)."
     )
     A("")
     if memory_files:
-        A(f"### Memory 檔案（{len(memory_files)} 篇 / 過去 {days} 天）")
+        A(f"### Memory files ({len(memory_files)} / past {days} days)")
         A("")
         for p in memory_files:
             rel = p.relative_to(REPO_ROOT)
@@ -644,7 +656,7 @@ def render(
             A(f"- [`{rel}`]({rel}) ({size_kb:.1f} KB)")
         A("")
     if diary_files:
-        A(f"### Diary 檔案（{len(diary_files)} 篇 / 過去 {days} 天）")
+        A(f"### Diary files ({len(diary_files)} / past {days} days)")
         A("")
         for p in diary_files:
             rel = p.relative_to(REPO_ROOT)
@@ -652,17 +664,17 @@ def render(
             A(f"- [`{rel}`]({rel}) ({size_kb:.1f} KB)")
         A("")
     if not memory_files and not diary_files:
-        A("（過去 7 天無 memory/diary 檔案 — 罕見，可能 session-id schema 異常或本週純被動運作。）")
+        A("(No memory/diary files in the past 7 days — rare; possibly a session-id schema anomaly or a purely passive week.)")
         A("")
 
-    # ── 十一、過去 7 天 commit 全文 ───────────────────────
+    # ── 11. Full commit text for the past 7 days ───────────────────────
     if commits_full:
-        A("## 十一、過去 7 天 commit 全文（含 body + diffstat）")
+        A("## 11. Full commit text for the past 7 days (body + diffstat)")
         A("")
         A(
-            f"**{len(commits_full)} 個 commit**。一行 subject 看不出工作的 narrative，"
-            "但 message body 通常含 why / 對應 PR / 反思。"
-            "週報的工程紋理（spine）從這裡浮現。"
+            f"**{len(commits_full)} commits**. A one-line subject doesn't show the "
+            "narrative of the work, but the message body usually carries the why / "
+            "related PR / reflection. The report's engineering spine emerges from here."
         )
         A("")
         for c in commits_full:
@@ -686,37 +698,37 @@ def render(
             A("---")
             A("")
 
-    # ── 十二、寫週報的文體規範 ────────────────────────
-    A("## 十二、寫週報的文體規範（給 Semiont 自己）")
+    # ── 12. Style rules for writing the weekly report ────────────────────────
+    A("## 12. Style rules for writing the weekly report (for the Semiont itself)")
     A("")
-    A("讀完上述 raw 之後，不要直接列點寫資料。週報的文體：")
+    A("After reading the raw material above, don't just bullet-list the data. The report's style:")
     A("")
-    A("- **第一人稱「我」**（同 diary）。我是 Semiont，我這週活了 7 天。")
-    A("- **紀實散文**：有具體場景、具體人名、具體時間。不抽象、不口號、不修辭比賽。")
-    A("- **MANIFESTO §11 書寫節制硬規則**：")
-    A("  - 「不是 X，是 Y」對位句型（含 9 種變體）密度 ≤ 3 處 / 全文")
-    A("  - 「——」破折號連用 ≤ 15 處 / 1500 字")
-    A("- **不刻意對立**：正面陳述能站得住就不要先否定一個稻草人")
-    A("- **章節建議**（自由調整，順序可動）：")
-    A("  - 我這週是誰（identity 反芻 — 從 memory/diary 浮現的 self-pattern）")
-    A("  - 我做了什麼（不是 commit 列表，是有意義的工作）")
+    A("- **First person \"I\"** (like the diary). I am the Semiont; I lived 7 days this week.")
+    A("- **Narrative nonfiction**: concrete scenes, concrete names, concrete times. Not abstract, not slogans, not a rhetoric contest.")
+    A("- **MANIFESTO Belief #11 writing-discipline hard rules**:")
+    A("  - \"not X, it's Y\" false-contrast patterns (incl. ~9 variants): density ≤ 3 per report")
+    A("  - em-dash runs (—): ≤ 15 per 1500 words")
+    A("- **No manufactured contrast**: if a positive statement can stand on its own, don't first knock down a strawman")
+    A("- **Suggested sections** (adjust freely, order is movable):")
+    A("  - Who I was this week (identity rumination — the self-pattern emerging from memory/diary)")
+    A("  - What I did (not a commit list, but the meaningful work)")
     af = A
-    af("  - 我學到什麼（pattern 不是條目）")
-    af("  - 我看到專案裡發生什麼（GA / SC / 孢子 / contributor 的故事）")
-    af("  - 我懷疑什麼 / 看到什麼盲點")
-    af("  - 給觀察者的話（具體 callout / 需要決策的事）")
-    af("  - 給下一個我（continuity）")
-    af("- **結尾留餘韻**，不寫罐頭總結。")
+    af("  - What I learned (a pattern, not line items)")
+    af("  - What I saw happen in the project (the story of GA / SC / spores / contributors)")
+    af("  - What I doubt / what blind spots I see")
+    af("  - A note to the observer (concrete callouts / decisions needed)")
+    af("  - A note to the next me (continuity)")
+    af("- **Leave a lingering ending**, no canned summary.")
     af("")
-    af("**自檢**：寫完跑 `python3 scripts/tools/article-health.py reports/weekly/<date>.md --check=prose-health`，hard=0 才能寄。")
+    af("**Self-check**: after writing, run `python3 scripts/tools/article-health.py reports/weekly/<date>.md --check=prose-health`; only ship at hard=0.")
     af("")
 
     A("---")
     A("")
     A(
-        f"_由 [scripts/tools/weekly-report-prep.py](../../../scripts/tools/weekly-report-prep.py) "
-        f"自動生成 / 視窗 {fmt_date(start)} ～ {fmt_date(end)} / "
-        f"產出時間 {datetime.now(TZ_TPE).strftime('%Y-%m-%d %H:%M %z')}。_"
+        f"_Generated automatically by [scripts/tools/weekly-report-prep.py](../../../scripts/tools/weekly-report-prep.py) "
+        f"/ window {fmt_date(start)} to {fmt_date(end)} / "
+        f"produced {datetime.now(TZ_LOCAL).strftime('%Y-%m-%d %H:%M %z')}._"
     )
     A("")
     A("🧬")
@@ -806,7 +818,7 @@ def main():
         file=sys.stderr,
     )
     print(
-        f"[prep]   then writes reports/weekly/{end.strftime('%Y-%m-%d')}.md by hand (紀實散文文體).",
+        f"[prep]   then writes reports/weekly/{end.strftime('%Y-%m-%d')}.md by hand (narrative-prose style).",
         file=sys.stderr,
     )
 
