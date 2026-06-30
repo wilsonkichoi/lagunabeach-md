@@ -1,7 +1,7 @@
 /**
  * SchedulerControl — checkbox per task type to enable/disable auto-spawn.
  *
- * Per cheyu's 駕駛艙 spec: PR-touching types stay manual (default OFF);
+ * PR-touching types stay manual (default OFF);
  * article-* / lang-sync-* / data-refresh default ON. Manual spawn always
  * works regardless of this policy.
  *
@@ -117,7 +117,7 @@ function Inner() {
   return (
     <div class="space-y-2">
       <Show when={q.isError}>
-        <div class="text-xs text-accent-red">無法連線 backend</div>
+        <div class="text-xs text-accent-red">Cannot connect to backend</div>
       </Show>
       <Show when={cfgQ.data}>
         <div class="border border-line rounded-md p-2 mb-3 bg-bg-raised/40 space-y-2">
@@ -153,7 +153,7 @@ function Inner() {
           </div>
           <Show when={cfgQ.data?.paused}>
             <div class="text-xs text-accent-amber">
-              ⚠️ scheduler paused — 暫停期間不會 auto-spawn
+              ⚠️ scheduler paused — no auto-spawn while paused
             </div>
           </Show>
           {/* Max concurrent agents */}
@@ -225,7 +225,7 @@ function Inner() {
       <Show when={!q.isPending && q.data}>
         <div class="text-xs text-text-muted mb-2">
           Auto-spawn allow-list · {enabledCount()} / {types().length} enabled
-          <span class="ml-2 text-accent-amber">(manual 不受影響)</span>
+          <span class="ml-2 text-accent-amber">(manual unaffected)</span>
         </div>
         <ul class="space-y-1.5">
           <For

@@ -1,5 +1,5 @@
 /**
- * Section 7: 歷史 log — done/failed/retired tasks grouped by date,
+ * Section 7: History log — done/failed/retired tasks grouped by date,
  * plus an ECharts line chart of daily completion counts.
  */
 import { QueryClientProvider, useQuery } from '@tanstack/solid-query';
@@ -184,7 +184,9 @@ function Inner() {
       </Show>
 
       <Show when={!q.isPending && grouped().length === 0}>
-        <div class="text-sm text-text-muted py-4 text-center">沒有歷史紀錄</div>
+        <div class="text-sm text-text-muted py-4 text-center">
+          No history records
+        </div>
       </Show>
 
       <For each={grouped()}>

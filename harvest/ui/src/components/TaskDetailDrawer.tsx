@@ -70,7 +70,7 @@ export default function TaskDetailDrawer(props: {
 
         <Show when={q.isError}>
           <div class="p-6 text-sm text-accent-red">
-            載入失敗。
+            Load failed.
             <button class="btn ml-2" onClick={() => q.refetch()}>
               retry
             </button>
@@ -166,7 +166,7 @@ export default function TaskDetailDrawer(props: {
                   <Show
                     when={t.sessions.length}
                     fallback={
-                      <div class="text-xs text-text-muted">無 session</div>
+                      <div class="text-xs text-text-muted">no sessions</div>
                     }
                   >
                     <ul class="space-y-2">

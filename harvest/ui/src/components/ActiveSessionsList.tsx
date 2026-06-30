@@ -57,7 +57,7 @@ function Inner() {
     <div class="space-y-3">
       <div class="flex items-center gap-2 text-sm">
         <Show when={q.isError}>
-          <span class="text-accent-red">無法連線 backend</span>
+          <span class="text-accent-red">Cannot connect to backend</span>
         </Show>
         <Show when={!q.isError}>
           <span class="text-text-secondary">
@@ -77,7 +77,7 @@ function Inner() {
 
       <Show when={!q.isPending && sessions().length === 0}>
         <div class="text-sm text-text-muted py-6 text-center">
-          沒有 active session · 等 spawner fire 後會出現在這裡
+          No active sessions — will appear here after spawner fires
         </div>
       </Show>
 
@@ -205,8 +205,8 @@ function Inner() {
 }
 
 /**
- * @deprecated 已抽出到 components/LiveProgress.tsx；此 inline 版本保留作為 fallback
- * 直到所有 import 點 migrate 完。下一輪 cleanup 移除。
+ * @deprecated Extracted to components/LiveProgress.tsx; this inline version is
+ * kept as fallback until all import sites migrate. Remove in next cleanup.
  */
 function _LiveProgressOld(props: { sid: string }) {
   const q = useQuery(() => ({

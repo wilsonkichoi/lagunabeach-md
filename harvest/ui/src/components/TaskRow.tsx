@@ -7,12 +7,12 @@
  *   - shown only if status ∈ {pending, failed, awaiting-cheyu}
  *     AND no active session for this task
  *   - disabled with tooltip when:
- *       · max concurrent reached → "已達 max concurrent (N)"
- *       · status not eligible    → "task in {status} state, 不能 spawn"
+ *       · max concurrent reached → "max concurrent reached (N)"
+ *       · status not eligible    → "task in {status} state, cannot spawn"
  *
  * Active state: cross-references /api/sessions/active by taskId.
  *   When a session for this task is active, swap button for a disabled
- *   "⏳ 進行中" pill and show a pulsing dot + "✦ {phase} · {elapsed}".
+ *   "⏳ running" pill and show a pulsing dot + "✦ {phase} · {elapsed}".
  *
  * dryDispatch: when ?dryDispatch=true is set on the URL we send dry=true so
  *   cheyu can verify the wiring without burning Claude tokens.
@@ -91,11 +91,11 @@ export default function TaskRow(props: {
       if (err instanceof ApiError) {
         flashError(
           err.status === 409
-            ? '409 · 進行中無法刪除（請先取消）'
-            : `delete 失敗 (${err.status})`,
+            ? '409 · cannot delete while running (cancel first)'
+            : `delete failed (${err.status})`,
         );
       } else {
-        flashError('delete 失敗 · 網路錯誤');
+        flashError('delete failed · network error');
       }
     },
   }));
@@ -104,13 +104,13 @@ export default function TaskRow(props: {
     e.stopPropagation();
     if (deleteMut.isPending) return;
     if (myActive()) {
-      flashError('正在執行中 — 請先取消 session');
+      flashError('currently running — cancel session first');
       return;
     }
     if (
       typeof window !== 'undefined' &&
       !window.confirm(
-        `確定刪除任務「${t().title}」？(soft delete — 可從 deleted 篩選還原)`,
+        `Delete task "${t().title}"? (soft delete — recoverable from deleted filter)`,
       )
     ) {
       return;
@@ -151,12 +151,12 @@ export default function TaskRow(props: {
       if (ctx?.prev) qc.setQueryData(['sessions', 'active'], ctx.prev);
       if (err instanceof ApiError) {
         if (err.status === 409) {
-          flashError('409 · 已達 max concurrent 或 task 狀態不允許');
+          flashError('409 · max concurrent reached or task state ineligible');
         } else {
-          flashError(`spawn 失敗 (${err.status})`);
+          flashError(`spawn failed (${err.status})`);
         }
       } else {
-        flashError('spawn 失敗 · 網路錯誤');
+        flashError('spawn failed · network error');
       }
     },
     onSettled: () => {
@@ -171,10 +171,10 @@ export default function TaskRow(props: {
 
   const spawnTooltip = (): string => {
     if (spawnMut.isPending) return 'spawning…';
-    if (!eligible()) return `task in ${t().status} state, 不能 spawn`;
+    if (!eligible()) return `task in ${t().status} state, cannot spawn`;
     if (atCapacity())
-      return `已達 max concurrent (${sessionsQ.data?.max ?? '?'})`;
-    return isDryDispatch() ? '▶️ dry-dispatch (no real claude)' : '▶️ 執行';
+      return `max concurrent reached (${sessionsQ.data?.max ?? '?'})`;
+    return isDryDispatch() ? '▶️ dry-dispatch (no real claude)' : '▶️ run';
   };
 
   const onSpawnClick = (e: MouseEvent): void => {
@@ -263,7 +263,7 @@ export default function TaskRow(props: {
             class="pill bg-accent-amber/15 text-accent-amber border border-accent-amber/40 cursor-not-allowed"
             title="cancel coming in Phase 3"
           >
-            ⏳ 進行中
+            ⏳ running
           </span>
         </Show>
         <div class="flex items-center gap-1">
@@ -280,7 +280,7 @@ export default function TaskRow(props: {
                 fallback={<span>spawning…</span>}
               >
                 <span>▶️</span>
-                <span>執行</span>
+                <span>run</span>
                 <Show when={isDryDispatch()}>
                   <span class="text-[10px] opacity-70">(dry)</span>
                 </Show>
@@ -294,7 +294,7 @@ export default function TaskRow(props: {
                      px-1.5 py-1 rounded hover:bg-accent-red/10 transition-colors
                      text-sm leading-none"
               disabled={deleteMut.isPending}
-              title="刪除任務（不可復原）"
+              title="delete task (soft delete)"
               onClick={onDeleteClick}
               aria-label="delete task"
             >

@@ -1,5 +1,5 @@
 /**
- * Section 4: 每日 status report.
+ * Section 4: Daily status report.
  * Loads /api/reports/today by default; date picker walks history.
  * "Re-generate today" hits POST /api/reports/generate.
  */
@@ -67,7 +67,7 @@ function Inner() {
 
       <Show when={regen.isError}>
         <div class="text-xs text-accent-red mb-2">
-          generate 失敗：{String(regen.error)}
+          generate failed: {String(regen.error)}
         </div>
       </Show>
       <Show when={regen.isSuccess && regen.data?.path}>
@@ -82,7 +82,7 @@ function Inner() {
 
       <Show when={!q.isPending && !q.data}>
         <div class="text-sm text-text-muted py-6 text-center border border-dashed border-line rounded">
-          {date()} 還沒有 report — 試試 re-generate
+          No report for {date()} — try re-generate
         </div>
       </Show>
 

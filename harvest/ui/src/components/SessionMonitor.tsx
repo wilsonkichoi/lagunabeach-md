@@ -1,5 +1,5 @@
 /**
- * Section 5: Session 監控.
+ * Section 5: Session Monitor.
  * For each task whose sessions[] is non-empty (latest first), shows session
  * metadata. Log streaming is Phase 3 — MVP shows log_path + commits only.
  */
@@ -49,7 +49,8 @@ function Inner() {
       </Show>
       <Show when={!q.isPending && tasksWithSessions().length === 0}>
         <div class="text-sm text-text-muted py-4">
-          沒有 session 紀錄。等 spawner 第一次 fire 後會出現。
+          No session records. Will appear after spawner fires for the first
+          time.
         </div>
       </Show>
       <Show when={tasksWithSessions().length > 0}>

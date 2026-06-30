@@ -1,9 +1,8 @@
 /**
- * Section 6: 手動建立 — custom task / topic with full advanced options.
+ * Section 6: Manual Create — custom task / topic with full advanced options.
  *
  * Phase 5.1 (2026-04-30): added engine / model / allow_self_commit / dry_run
- * + lang-sync-specific zh_path + mode. Cheyu callout: "要不要 commit 的選項
- * 還有其他可以指定的選項也放進來".
+ * + lang-sync-specific zh_path + mode.
  */
 import {
   QueryClientProvider,
@@ -174,11 +173,11 @@ function Inner() {
   const submit = (e: Event): void => {
     e.preventDefault();
     if (!title().trim()) {
-      setErrMsg('title 必填');
+      setErrMsg('title required');
       return;
     }
     if (isLangSync() && !zhPath().trim()) {
-      setErrMsg('lang-sync 任務必須指定 zh path');
+      setErrMsg('lang-sync task requires zh path');
       return;
     }
 
@@ -224,7 +223,7 @@ function Inner() {
           <label class="section-title block mb-1">title *</label>
           <input
             class="input"
-            placeholder="例：寫一篇關於沈伯洋的文章"
+            placeholder="e.g. Write an article about Laguna Beach art galleries"
             value={title()}
             onInput={(e) => setTitle(e.currentTarget.value)}
             required
@@ -295,7 +294,7 @@ function Inner() {
               <label class="section-title block mb-1">zh_path *</label>
               <input
                 class="input"
-                placeholder="例：People/朱經武.md"
+                placeholder="e.g. Art-Galleries/laguna-art-museum.md"
                 value={zhPath()}
                 onInput={(e) => setZhPath(e.currentTarget.value)}
               />
@@ -433,7 +432,7 @@ function Inner() {
           <label class="section-title block mb-1">notes</label>
           <textarea
             class="textarea h-24"
-            placeholder="可選 — 來源連結 / 觀察者素材 / 額外指示"
+            placeholder="optional — source links / reference material / extra instructions"
             value={notes()}
             onInput={(e) => setNotes(e.currentTarget.value)}
           />

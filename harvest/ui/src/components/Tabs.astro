@@ -9,13 +9,13 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
 const TABS = [
   {
     href: '/',
-    label: '即時運作',
+    label: 'Live Ops',
     emoji: '🏃',
     match: (p: string) => p === '/',
   },
   {
     href: '/vitals',
-    label: '生命徵象',
+    label: 'Vitals',
     emoji: '🫀',
     match: (p: string) => p.startsWith('/vitals'),
   },

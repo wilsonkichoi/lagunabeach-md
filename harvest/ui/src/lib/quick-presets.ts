@@ -36,15 +36,15 @@ export const GROUP_META: Record<
   { label: string; color: string }
 > = {
   routine: {
-    label: '🟢 例行 (auto OK)',
+    label: '🟢 routine (auto OK)',
     color: 'border-accent-green/30',
   },
   content: {
-    label: '🔵 內容創作 (heavier)',
+    label: '🔵 content (heavier)',
     color: 'border-accent-blue/30',
   },
   manual: {
-    label: '🟠 對外操作 (人工最終確認)',
+    label: '🟠 external ops (human confirmation)',
     color: 'border-accent-amber/30',
   },
 };
@@ -66,7 +66,7 @@ export const QUICK_PRESETS: QuickPreset[] = [
     id: 'data-refresh',
     emoji: '📊',
     label: 'Refresh dashboard',
-    description: 'CF + GA + SC + prebuild + lang-sync status — 約 7 分鐘',
+    description: 'CF + GA + SC + prebuild + lang-sync status — approx. 7 min',
     taskType: 'data-refresh',
     bootProfile: 'minimal',
     priority: 'P1',
@@ -81,7 +81,7 @@ export const QUICK_PRESETS: QuickPreset[] = [
     emoji: '🌐',
     label: 'Lang-sync: 1 en article',
     description:
-      '從 lang-sync queue 挑下一個「最新 stale」(zh 最近修改的) → 翻譯。獨立 worktree + 自動 commit (KTV-loss prevention)',
+      'Pick next stale article from lang-sync queue (most recently modified zh) and translate. Isolated worktree + auto commit (KTV-loss prevention)',
     taskType: 'lang-sync-refresh',
     bootProfile: 'translation-refresh',
     priority: 'P1',
@@ -99,7 +99,7 @@ export const QUICK_PRESETS: QuickPreset[] = [
     id: 'self-diagnose',
     emoji: '🩺',
     label: 'Self-diagnose',
-    description: '完整 BECOME 甦醒 + 4.5 拍診斷',
+    description: 'Full BECOME awakening + 4.5-beat diagnosis',
     taskType: 'self-diagnose',
     bootProfile: 'full-awakening',
     priority: 'P2',
@@ -113,7 +113,7 @@ export const QUICK_PRESETS: QuickPreset[] = [
     id: 'status-report',
     emoji: '📋',
     label: 'Status report',
-    description: '今日心跳總結 → reports/harvest/',
+    description: 'Daily heartbeat summary → reports/harvest/',
     taskType: 'status-report',
     bootProfile: 'minimal',
     priority: 'P2',
@@ -129,7 +129,7 @@ export const QUICK_PRESETS: QuickPreset[] = [
     id: 'article-from-inbox',
     emoji: '📝',
     label: 'Write next article (inbox)',
-    description: '從 ARTICLE-INBOX 挑 P0/P1 寫一篇',
+    description: 'Pick a P0/P1 from ARTICLE-INBOX and write one article',
     taskType: 'article-rewrite',
     bootProfile: 'content-writing',
     priority: 'P1',
@@ -146,7 +146,7 @@ export const QUICK_PRESETS: QuickPreset[] = [
     emoji: '🔍',
     label: 'Review open PRs',
     description:
-      '審所有 open PR — 預設關閉 auto-spawn，手動觸發。每 spawn 獨立 worktree (避免多 session 碰撞 main repo)',
+      'Review all open PRs — auto-spawn OFF by default, manual trigger. Each spawn in isolated worktree (prevents multi-session collision on main repo)',
     taskType: 'pr-review',
     bootProfile: 'maintainer',
     priority: 'P0',
@@ -160,7 +160,7 @@ export const QUICK_PRESETS: QuickPreset[] = [
     id: 'issue-handle',
     emoji: '📨',
     label: 'Handle Issues',
-    description: '掃 open Issues 分流。獨立 worktree (避免碰撞)',
+    description: 'Triage open Issues. Isolated worktree (prevents collision)',
     taskType: 'issue-handle',
     bootProfile: 'maintainer',
     priority: 'P1',
@@ -174,7 +174,8 @@ export const QUICK_PRESETS: QuickPreset[] = [
     id: 'spore-publish',
     emoji: '🌱',
     label: 'Spore: prep blueprint',
-    description: '準備一篇孢子 blueprint (NOT 直接發 — human post)',
+    description:
+      'Prepare one spore blueprint (NOT direct publish — human posts)',
     taskType: 'spore-publish',
     bootProfile: 'spore-publishing',
     priority: 'P1',

@@ -1,5 +1,5 @@
 /**
- * Section 2: 今日任務 — tasks that are alive RIGHT NOW.
+ * Section 2: Today's Tasks — tasks that are alive RIGHT NOW.
  * Definition: status in {spawning, in-progress, blocked, awaiting-cheyu}
  * OR (status in {pending} AND created within 24h).
  */
@@ -63,7 +63,7 @@ function Inner() {
       </Show>
       <Show when={q.isError}>
         <div class="text-sm text-accent-red">
-          載入失敗 ·{' '}
+          Load failed ·{' '}
           <button class="btn ml-2" onClick={() => q.refetch()}>
             retry
           </button>
@@ -71,7 +71,7 @@ function Inner() {
       </Show>
       <Show when={!q.isPending && !q.isError && todays().length === 0}>
         <div class="text-sm text-text-muted py-4">
-          沒有進行中的任務。整個生命體在休息 🌙
+          No active tasks. The organism is resting 🌙
         </div>
       </Show>
       <Show when={todays().length > 0}>

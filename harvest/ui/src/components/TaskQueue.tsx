@@ -1,5 +1,5 @@
 /**
- * Section 3: 任務佇列 — main work surface.
+ * Section 3: Task Queue — main work surface.
  * All tasks, filterable by status / priority / type. Sorted P0→P3 then created desc.
  */
 import {
@@ -95,7 +95,7 @@ function Inner() {
     const sf = statusF();
     return tasks
       .filter((t) => {
-        // Skip in-progress / spawning by default — they live in 今日任務 above.
+        // Skip in-progress / spawning by default — they live in Today's Tasks above.
         // User can still see them by selecting status filter explicitly.
         if (
           sf === 'all' &&
@@ -154,7 +154,7 @@ function Inner() {
 
       <Show when={q.isError}>
         <div class="text-sm text-accent-red">
-          載入失敗 ·{' '}
+          Load failed ·{' '}
           <button class="btn ml-2" onClick={() => q.refetch()}>
             retry
           </button>
@@ -176,7 +176,7 @@ function Inner() {
           </For>
           <Show when={filtered().length === 0}>
             <li class="py-6 text-center text-text-muted text-sm">
-              沒有符合條件的任務
+              No tasks match current filters
             </li>
           </Show>
         </ul>
@@ -268,12 +268,12 @@ function SpawnRow(props: {
       if (ctx?.prev) qc.setQueryData(['sessions', 'active'], ctx.prev);
       if (err instanceof ApiError) {
         if (err.status === 409) {
-          flashError('409 · 已達 max concurrent 或 task 狀態不允許');
+          flashError('409 · max concurrent reached or task state ineligible');
         } else {
-          flashError(`spawn 失敗 (${err.status})`);
+          flashError(`spawn failed (${err.status})`);
         }
       } else {
-        flashError('spawn 失敗 · 網路');
+        flashError('spawn failed · network');
       }
     },
     onSettled: () => {
@@ -286,9 +286,10 @@ function SpawnRow(props: {
   const disabled = (): boolean =>
     spawnMut.isPending || props.atCapacity || !eligible();
   const tooltip = (): string => {
-    if (!eligible()) return `task in ${props.task.status} state, 不能 spawn`;
-    if (props.atCapacity) return `已達 max concurrent (${props.maxConcurrent})`;
-    return isDryDispatch() ? '▶️ dry-dispatch' : '▶️ 執行';
+    if (!eligible()) return `task in ${props.task.status} state, cannot spawn`;
+    if (props.atCapacity)
+      return `max concurrent reached (${props.maxConcurrent})`;
+    return isDryDispatch() ? '▶️ dry-dispatch' : '▶️ run';
   };
 
   const onSpawnClick = (e: MouseEvent): void => {
@@ -340,7 +341,7 @@ function SpawnRow(props: {
       <div class="shrink-0">
         <Show when={props.active}>
           <span class="pill bg-accent-amber/15 text-accent-amber border border-accent-amber/40 text-[11px]">
-            ⏳ 進行中
+            ⏳ running
           </span>
         </Show>
         <Show when={!props.active && eligible()}>

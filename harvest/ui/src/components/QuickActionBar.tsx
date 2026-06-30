@@ -24,7 +24,7 @@ import { getQueryClient } from '~/lib/query-client';
 import { QUICK_PRESETS, type QuickPreset } from '~/lib/quick-presets';
 
 /**
- * Cross-engine model picker (Phase 5.1.x — cheyu: 「模型選取要包含 codex 的還有 ollama 的」).
+ * Cross-engine model picker (Phase 5.1.x — model selection includes codex and ollama).
  *
  * User picks a (engine, model) tuple from a single grouped dropdown. The tuple
  * is encoded as `${engine}::${model}` for the option value (empty model =
@@ -70,7 +70,7 @@ const ENGINE_GROUPS: {
   },
   {
     engine: 'ollama',
-    label: '🦙 Ollama (本機 RTX 3090, $0)',
+    label: '🦙 Ollama (local RTX 3090, $0)',
     options: [
       { value: 'qwen3.5:35b-a3b-coding-nvfp4', label: 'qwen3.5 nvfp4' },
       { value: 'qwen3.6:35b-a3b-coding-nvfp4', label: 'qwen3.6 nvfp4' },

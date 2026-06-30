@@ -49,16 +49,16 @@ function Banner() {
         }`}
       >
         <Show when={offline()}>
-          <strong>Backend offline.</strong> 連 {consecutiveFailures()} 次 ping
-          失敗。試試
+          <strong>Backend offline.</strong> {consecutiveFailures()} consecutive
+          pings failed. Try
           <code class="mx-1 px-1.5 py-0.5 rounded bg-bg-raised text-text-primary">
-            launchctl kickstart -k gui/$UID/com.taiwanmd.harvest
+            launchctl kickstart -k gui/$UID/com.lagunabeach.harvest
           </code>
-          重啟 launchd job。
+          to restart the launchd job.
         </Show>
         <Show when={!offline() && paused()}>
-          <strong>Scheduler paused.</strong> Cron 已被人手暫停 — 沒有新 task
-          會被 spawn。下方控制區可恢復。
+          <strong>Scheduler paused.</strong> Cron has been manually paused — no
+          new tasks will be spawned. Resume from the control section below.
         </Show>
       </div>
     </Show>

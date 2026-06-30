@@ -1,5 +1,5 @@
 /**
- * Section 1: 生命徵象 — 8 organ score cards + ECharts radar.
+ * Section 1: Vitals — 8 organ score cards + ECharts radar.
  * Single Solid island that renders both the cards and the radar so we share
  * one /api/vitals query and one polling cadence.
  */
@@ -151,7 +151,7 @@ function ErrorBox(props: { onRetry: () => void }) {
   return (
     <div class="card">
       <div class="card-body text-sm text-accent-red">
-        無法載入 vitals。Backend 可能沒有 dashboard-organism.json。
+        Cannot load vitals. Backend may be missing dashboard-organism.json.
         <button class="btn ml-2" onClick={() => props.onRetry()}>
           retry
         </button>

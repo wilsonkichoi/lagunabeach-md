@@ -1,5 +1,5 @@
 /**
- * Phase 2.5 — full-width banner shown above 即時運作 when count > 0.
+ * Phase 2.5 — full-width banner shown above Live Operations when count > 0.
  * Compact summary: header line + one row per session. Each row is a
  * link to /sessions for the deep-dive panel.
  *
