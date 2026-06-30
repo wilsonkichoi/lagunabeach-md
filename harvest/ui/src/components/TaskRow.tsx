@@ -4,7 +4,7 @@
  * Layout: [emoji] [pills + title + meta] [optional active marker] [▶️ button]
  *
  * Spawn button visibility:
- *   - shown only if status ∈ {pending, failed, awaiting-cheyu}
+ *   - shown only if status ∈ {pending, failed, awaiting-owner}
  *     AND no active session for this task
  *   - disabled with tooltip when:
  *       · max concurrent reached → "max concurrent reached (N)"
@@ -15,7 +15,7 @@
  *   "⏳ running" pill and show a pulsing dot + "✦ {phase} · {elapsed}".
  *
  * dryDispatch: when ?dryDispatch=true is set on the URL we send dry=true so
- *   cheyu can verify the wiring without burning Claude tokens.
+ *   the operator can verify the wiring without burning Claude tokens.
  */
 import { useMutation, useQuery, useQueryClient } from '@tanstack/solid-query';
 import { Show, createMemo, createSignal } from 'solid-js';
@@ -32,7 +32,7 @@ import {
 import type { ActiveSession, Task } from '~/lib/types';
 import LiveProgress from './LiveProgress';
 
-const SPAWN_ELIGIBLE = new Set(['pending', 'failed', 'awaiting-cheyu']);
+const SPAWN_ELIGIBLE = new Set(['pending', 'failed', 'awaiting-owner']);
 
 function isDryDispatch(): boolean {
   if (typeof window === 'undefined') return false;

@@ -34,7 +34,7 @@ const STATUS_CLASSES: Record<TaskStatus, string> = {
   done: 'bg-accent-green/15 text-accent-green-soft border border-accent-green/30',
   failed: 'bg-accent-red/15 text-accent-red border border-accent-red/30',
   retired: 'bg-bg-raised text-text-muted border border-line',
-  'awaiting-cheyu':
+  'awaiting-owner':
     'bg-accent-purple/15 text-accent-purple border border-accent-purple/30',
 };
 

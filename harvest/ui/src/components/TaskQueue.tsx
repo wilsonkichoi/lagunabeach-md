@@ -27,7 +27,7 @@ import type {
   TaskStatus,
 } from '~/lib/types';
 
-const SPAWN_ELIGIBLE = new Set(['pending', 'failed', 'awaiting-cheyu']);
+const SPAWN_ELIGIBLE = new Set(['pending', 'failed', 'awaiting-owner']);
 
 function isDryDispatch(): boolean {
   if (typeof window === 'undefined') return false;
@@ -46,7 +46,7 @@ const STATUS_FILTERS: Array<TaskStatus | 'all'> = [
   'in-progress',
   'spawning',
   'blocked',
-  'awaiting-cheyu',
+  'awaiting-owner',
   'done',
   'failed',
   'retired',

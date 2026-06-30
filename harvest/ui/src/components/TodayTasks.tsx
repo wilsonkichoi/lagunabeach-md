@@ -1,6 +1,6 @@
 /**
  * Section 2: Today's Tasks — tasks that are alive RIGHT NOW.
- * Definition: status in {spawning, in-progress, blocked, awaiting-cheyu}
+ * Definition: status in {spawning, in-progress, blocked, awaiting-owner}
  * OR (status in {pending} AND created within 24h).
  */
 import { QueryClientProvider, useQuery } from '@tanstack/solid-query';
@@ -16,7 +16,7 @@ const ACTIVE_STATUSES = new Set([
   'spawning',
   'in-progress',
   'blocked',
-  'awaiting-cheyu',
+  'awaiting-owner',
 ]);
 
 function Inner() {

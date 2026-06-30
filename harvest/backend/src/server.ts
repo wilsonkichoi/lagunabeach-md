@@ -294,11 +294,11 @@ app.post('/api/tasks/:id/spawn', async (c) => {
   if (
     task.status !== 'pending' &&
     task.status !== 'failed' &&
-    task.status !== 'awaiting-cheyu'
+    task.status !== 'awaiting-owner'
   ) {
     return c.json(
       {
-        error: `cannot spawn task in status=${task.status} (allowed: pending, failed, awaiting-cheyu)`,
+        error: `cannot spawn task in status=${task.status} (allowed: pending, failed, awaiting-owner)`,
       },
       409,
     );
@@ -414,7 +414,7 @@ app.post('/api/sessions/:sid/cancel', (c) => {
   if (row) {
     const task = getTask(row.task_id);
     if (task) {
-      task.status = 'awaiting-cheyu';
+      task.status = 'awaiting-owner';
       saveTask(task, `session ${sid} cancelled via API`);
     }
   }
@@ -438,7 +438,7 @@ app.post('/api/tasks/:id/cancel-spawn', (c) => {
   );
   const task = getTask(id);
   if (task) {
-    task.status = 'awaiting-cheyu';
+    task.status = 'awaiting-owner';
     saveTask(task, `session ${active.sessionId} cancelled via API`);
   }
   setTimeout(() => unregister(active.sessionId), 5_000);
@@ -619,7 +619,7 @@ async function shutdown(signal: string): Promise<void> {
   if (shuttingDown) return;
   shuttingDown = true;
   logger.info({ signal }, 'shutting down');
-  // Bug 2: tag active sessions awaiting-cheyu before we go (children survive
+  // Bug 2: tag active sessions awaiting-owner before we go (children survive
   // because they're detached).
   markActiveSessionsForReview(signal);
   await inbox.stop().catch(() => {});

@@ -5,7 +5,7 @@
  * to claude children (we spawn detached) — but the backend itself dies. On
  * restart we need to reconcile sessions whose row says `in-progress` against
  * the actual `ps` table, and during shutdown we mark active sessions as
- * `awaiting-cheyu` so cheyu sees them in the daily report.
+ * `awaiting-owner` so the owner sees them in the daily report.
  */
 
 import { spawnSync } from 'node:child_process';
@@ -19,8 +19,8 @@ const log = childLogger({ module: 'lifecycle/shutdown' });
 
 /**
  * Called from server SIGINT/SIGTERM handler. Marks every in-flight session
- * with status `awaiting-cheyu` so cheyu's daily report flags them, and logs
- * the surviving PIDs to stderr so cheyu can re-attach.
+ * with status `awaiting-owner` so the owner's daily report flags them, and logs
+ * the surviving PIDs to stderr so the owner can re-attach.
  */
 export function markActiveSessionsForReview(reason: string): void {
   const sessions = listActive();
@@ -30,13 +30,13 @@ export function markActiveSessionsForReview(reason: string): void {
   }
   log.warn(
     { count: sessions.length, reason, pids: sessions.map((s) => s.pid) },
-    'shutdown with active sessions — marking awaiting-cheyu',
+    'shutdown with active sessions — marking awaiting-owner',
   );
   for (const s of sessions) {
     const note = `backend shutdown during spawn (${reason}) — child pid ${s.pid ?? '?'} may still be running, check 'ps -p ${s.pid ?? '?'}'`;
     const task = getTask(s.taskId);
     if (!task) continue;
-    task.status = 'awaiting-cheyu';
+    task.status = 'awaiting-owner';
     task.notes = [task.notes, note].filter(Boolean).join('\n');
     saveTask(task, note);
     process.stderr.write(
@@ -49,7 +49,7 @@ export function markActiveSessionsForReview(reason: string): void {
  * On startup, scan sessions that the DB thinks are still running. If the
  * recorded pid is no longer alive, mark the task `failed` with an orphan
  * note. If pid IS alive, leave the row alone — the in-memory active map will
- * NOT have it (because we just booted) so cheyu's UI won't see live updates,
+ * NOT have it (because we just booted) so the owner's UI won't see live updates,
  * but the historical record stays consistent.
  */
 export function reconcileOrphanSessions(): void {

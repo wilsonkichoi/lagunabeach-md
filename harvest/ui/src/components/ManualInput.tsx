@@ -204,7 +204,7 @@ function Inner() {
       priority: priority(),
       title: title().trim(),
       notes: notes().trim() || undefined,
-      created_by: 'cheyu-ui',
+      created_by: 'owner-ui',
       inputs: Object.keys(inputs).length > 0 ? inputs : undefined,
     });
   };

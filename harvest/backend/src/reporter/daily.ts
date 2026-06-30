@@ -4,7 +4,7 @@
  * Once per day (08:00 +0800 by default) we summarise the last 24h of harvest
  * activity into `reports/harvest/YYYY-MM-DD.md`. Optionally auto-commits
  * the file with a `🧬 [semiont] memory: harvest daily report YYYY-MM-DD`
- * message — gated by `HARVEST_AUTO_COMMIT_REPORT` because cheyu wants to
+ * message — gated by `HARVEST_AUTO_COMMIT_REPORT` because the owner wants to
  * review the first few reports manually.
  */
 
@@ -26,7 +26,7 @@ export interface DailyReportResult {
     completed: number;
     failed: number;
     blocked: number;
-    awaitingCheyu: number;
+    awaitingOwner: number;
     spawned: number;
   };
   committed: boolean;
@@ -55,7 +55,7 @@ export async function generateDailyReport(
   const completed = tasks.filter((t) => t.status === 'done');
   const failed = tasks.filter((t) => t.status === 'failed');
   const blocked = tasks.filter((t) => t.status === 'blocked');
-  const awaitingCheyu = tasks.filter((t) => t.status === 'awaiting-cheyu');
+  const awaitingOwner = tasks.filter((t) => t.status === 'awaiting-owner');
   const inProgress = tasks.filter(
     (t) => t.status === 'in-progress' || t.status === 'spawning',
   );
@@ -76,7 +76,7 @@ export async function generateDailyReport(
     completed,
     failed,
     blocked,
-    awaitingCheyu,
+    awaitingOwner,
     inProgress,
     pending,
     spawned,
@@ -89,7 +89,7 @@ export async function generateDailyReport(
   // Index in DB.
   db.run(
     `INSERT INTO daily_reports (date, report_path, generated_at,
-       tasks_completed, tasks_failed, tasks_blocked, tasks_awaiting_cheyu)
+       tasks_completed, tasks_failed, tasks_blocked, tasks_awaiting_owner)
      VALUES (?, ?, ?, ?, ?, ?, ?)
      ON CONFLICT(date) DO UPDATE SET
        report_path = excluded.report_path,
@@ -97,7 +97,7 @@ export async function generateDailyReport(
        tasks_completed = excluded.tasks_completed,
        tasks_failed = excluded.tasks_failed,
        tasks_blocked = excluded.tasks_blocked,
-       tasks_awaiting_cheyu = excluded.tasks_awaiting_cheyu`,
+       tasks_awaiting_owner = excluded.tasks_awaiting_owner`,
     [
       today,
       reportPath,
@@ -105,7 +105,7 @@ export async function generateDailyReport(
       completed.length,
       failed.length,
       blocked.length,
-      awaitingCheyu.length,
+      awaitingOwner.length,
     ],
   );
 
@@ -117,7 +117,7 @@ export async function generateDailyReport(
         completed: completed.length,
         failed: failed.length,
         blocked: blocked.length,
-        awaitingCheyu: awaitingCheyu.length,
+        awaitingOwner: awaitingOwner.length,
         spawned,
       },
     },
@@ -145,7 +145,7 @@ export async function generateDailyReport(
       completed: completed.length,
       failed: failed.length,
       blocked: blocked.length,
-      awaitingCheyu: awaitingCheyu.length,
+      awaitingOwner: awaitingOwner.length,
       spawned,
     },
     committed,
@@ -158,7 +158,7 @@ interface RenderArgs {
   completed: Task[];
   failed: Task[];
   blocked: Task[];
-  awaitingCheyu: Task[];
+  awaitingOwner: Task[];
   inProgress: Task[];
   pending: Task[];
   spawned: number;
@@ -169,11 +169,11 @@ function renderReport(a: RenderArgs): string {
     a.completed.length +
     a.failed.length +
     a.blocked.length +
-    a.awaitingCheyu.length +
+    a.awaitingOwner.length +
     a.inProgress.length +
     a.pending.length;
   const lines: string[] = [];
-  lines.push(`# 🧬 Taiwan.md Harvest — Daily Report ${a.date}`);
+  lines.push(`# 🧬 Harvest Engine — Daily Report ${a.date}`);
   lines.push('');
   lines.push(`> Window: from ${a.cutoff} to ${a.date} (last 24h).`);
   lines.push(`> Sessions spawned in window: **${a.spawned}**`);
@@ -186,15 +186,15 @@ function renderReport(a: RenderArgs): string {
   lines.push(`| done | ${a.completed.length} |`);
   lines.push(`| failed | ${a.failed.length} |`);
   lines.push(`| blocked | ${a.blocked.length} |`);
-  lines.push(`| awaiting-cheyu | ${a.awaitingCheyu.length} |`);
+  lines.push(`| awaiting-owner | ${a.awaitingOwner.length} |`);
   lines.push(`| in-progress | ${a.inProgress.length} |`);
   lines.push(`| pending | ${a.pending.length} |`);
   lines.push('');
 
-  if (a.awaitingCheyu.length > 0) {
-    lines.push('## Awaiting cheyu (review first)');
+  if (a.awaitingOwner.length > 0) {
+    lines.push('## Awaiting owner (review first)');
     lines.push('');
-    lines.push(taskTable(a.awaitingCheyu));
+    lines.push(taskTable(a.awaitingOwner));
     lines.push('');
   }
   if (a.failed.length > 0) {
@@ -228,11 +228,11 @@ function renderReport(a: RenderArgs): string {
     lines.push('');
   }
 
-  lines.push('## Recommendations for cheyu');
+  lines.push('## Recommendations for owner');
   lines.push('');
-  if (a.awaitingCheyu.length > 0) {
+  if (a.awaitingOwner.length > 0) {
     lines.push(
-      `- ${a.awaitingCheyu.length} task(s) need your call before they can move. Start there.`,
+      `- ${a.awaitingOwner.length} task(s) need your call before they can move. Start there.`,
     );
   }
   if (a.failed.length > 0) {
@@ -246,7 +246,7 @@ function renderReport(a: RenderArgs): string {
     );
   }
   if (
-    a.awaitingCheyu.length === 0 &&
+    a.awaitingOwner.length === 0 &&
     a.failed.length === 0 &&
     a.blocked.length === 0
   ) {

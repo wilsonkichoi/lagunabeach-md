@@ -79,7 +79,7 @@ CREATE TABLE IF NOT EXISTS daily_reports (
   tasks_completed INTEGER NOT NULL DEFAULT 0,
   tasks_failed INTEGER NOT NULL DEFAULT 0,
   tasks_blocked INTEGER NOT NULL DEFAULT 0,
-  tasks_awaiting_cheyu INTEGER NOT NULL DEFAULT 0,
+  tasks_awaiting_owner INTEGER NOT NULL DEFAULT 0,
   committed_at TEXT
 );
 

@@ -14,9 +14,9 @@
  * Bug 2 v2 (2026-04-27): earlier `detached:true` broke claude — it lost its
  * controlling terminal and stuck on stdin/keychain reads (verified with 3
  * spawns sleeping at 0% CPU for 8 minutes). Reverted. SIGINT cascade is now
- * accepted as a known limitation: when cheyu Ctrl+C's the backend in tmux,
+ * accepted as a known limitation: when the operator Ctrl+C's the backend in tmux,
  * children die too — but the shutdown handler marks active sessions
- * `awaiting-cheyu` in the DB before exit, and the orphan reconciler on next
+ * `awaiting-owner` in the DB before exit, and the orphan reconciler on next
  * startup cleans them up to `failed`. Fix `bash stop.sh && bash start.sh`
  * to restart cleanly without losing visibility.
  */
@@ -88,7 +88,7 @@ const DEFAULT_MODEL_BY_ENGINE_TYPE: Record<string, Record<string, string>> = {
     'status-report': '',
   },
   ollama: {
-    // qwen3.5:35b-a3b-coding-nvfp4 is cheyu's local default for code/translation
+    // qwen3.5:35b-a3b-coding-nvfp4 is the operator's local default for code/translation
     'lang-sync-refresh': 'qwen3.5:35b-a3b-coding-nvfp4',
     'lang-sync-translate': 'qwen3.5:35b-a3b-coding-nvfp4',
     'data-refresh': 'qwen3.5:35b-a3b-coding-nvfp4',
@@ -332,7 +332,7 @@ export async function spawnClaudeForTask(
     // alternative approaches (commit-tree / hash-object / replace).
     // Harvest spawn is already isolated in a fresh worktree forked from
     // origin/main HEAD; the sandbox is redundant belt-and-suspenders
-    // and counterproductive. Bypass per cheyu's expectation that worktree
+    // and counterproductive. Bypass per the operator's expectation that worktree
     // tasks have full write access to their own checkout.
     cliArgs = [
       'exec',

@@ -11,7 +11,7 @@ export type TaskStatus =
   | 'done'
   | 'failed'
   | 'retired'
-  | 'awaiting-cheyu';
+  | 'awaiting-owner';
 
 export type TaskPriority = 'P0' | 'P1' | 'P2' | 'P3';
 

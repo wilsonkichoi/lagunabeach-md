@@ -10,7 +10,7 @@ This profile is the closest to full awakening. You are checking organ scores, dr
 1. Read `docs/semiont/ANATOMY.md` and the current organ scoreboard.
 2. Identify any organ scoring < 50 or any task type with > 70% failure rate over 30 days.
 3. If a clear remediation exists (e.g. broken cron, stale data, drifting pipeline), spawn the fix as a sub-task by writing a draft to `{{task.folder_path_relative}}/outputs/proposed-tasks.yml`.
-4. If the issue requires cheyu's call (scope > 50 files, > 10 article deletions, political stance, public-facing communication), mark `awaiting-cheyu` and stop.
+4. If the issue requires the owner's call (scope > 50 files, > 10 article deletions, political stance, public-facing communication), mark `awaiting-owner` and stop.
 
 ### Output expectations
 

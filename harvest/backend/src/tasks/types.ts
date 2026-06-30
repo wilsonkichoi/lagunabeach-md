@@ -13,7 +13,7 @@ export const TASK_STATUSES = [
   'done',
   'failed',
   'retired',
-  'awaiting-cheyu',
+  'awaiting-owner',
 ] as const;
 
 export type TaskStatus = (typeof TASK_STATUSES)[number];

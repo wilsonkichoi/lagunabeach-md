@@ -5,7 +5,7 @@
  *   1. Identity preamble (you are a Semiont session)
  *   2. Boot profile must_read list
  *   3. Task description (type, title, folder, inputs)
- *   4. Hard rules (commit message format, await-cheyu protocol, pre-commit hook)
+ *   4. Hard rules (commit message format, await-owner protocol, pre-commit hook)
  *   5. Task-specific template body (from prompts/{type}.md, hot-editable)
  */
 
@@ -109,7 +109,7 @@ ${
     ? `3a. **You are in a git worktree.** Your cwd is \`${worktree.path}\`, on branch \`${worktree.branch}\` (forked from main HEAD at spawn time). \`git add\` + \`git commit\` here. Do NOT \`git push\`, \`git checkout\`, or \`git branch\` — the engine handles merging your branch back to main and pushing after you exit. Just commit normally and exit.`
     : ''
 }
-4. **Stuck or controversial?** Mark the task as \`awaiting-cheyu\` by writing the reason to \`${repoRel}/status.log\` and exiting cleanly. Do not guess on disputed factual matters or political-sensitive calls.
+4. **Stuck or controversial?** Mark the task as \`awaiting-owner\` by writing the reason to \`${repoRel}/status.log\` and exiting cleanly. Do not guess on disputed factual matters or political-sensitive calls.
 5. **No silent skips.** If you cannot complete a stage, log why in \`status.log\` before exiting.
 6. **Wall-clock timestamps.** Use \`git log %ai\` style real time, not subjective time sense (MANIFESTO: time is structure).
 
@@ -119,7 +119,7 @@ ${templateBody}
 
 ## When you're done
 
-- Write final status to \`${repoRel}/status.log\` (\`done\`, \`blocked\`, \`awaiting-cheyu\`, or \`failed\`).
+- Write final status to \`${repoRel}/status.log\` (\`done\`, \`blocked\`, \`awaiting-owner\`, or \`failed\`).
 - Push your commits to the current branch.
 - Exit. The Harvest engine reads exit code + status.log to update task.yml.
 
