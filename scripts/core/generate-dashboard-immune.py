@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""generate-dashboard-immune.py — 免疫系統儀表板 v2 generator.
+"""generate-dashboard-immune.py — Immune system dashboard v2 generator.
 
-Per reports/immune-score-redesign-2026-05-16.md §2.A — 從 single-metric
-`humanReviewedPercent` 升 6-dimension weighted formula:
+Per reports/immune-score-redesign-2026-05-16.md §2.A — from single-metric
+`humanReviewedPercent` to 6-dimension weighted formula:
 
   immuneScore = round(
       review_coverage    × 0.30 +
@@ -13,8 +13,8 @@ Per reports/immune-score-redesign-2026-05-16.md §2.A — 從 single-metric
       drift_velocity     × 0.05
   )
 
-Tier-weighted review (T1 ×3 / T2 ×1.5 / T3 ×0.5) — sovereignty-sensitive 文章
-review 比 Food/Nature 更值得，避免 700 篇 ×50% review 永遠不可能達成。
+Tier-weighted review (T1 x3 / T2 x1.5 / T3 x0.5) — sensitivity-tiered articles
+review weighted higher than Food/Nature, avoiding 700 articles x50% review being unachievable.
 
 Output: public/api/dashboard-immune.json
 
@@ -41,17 +41,17 @@ EDITORIAL_FILE = REPO_ROOT / "docs" / "editorial" / "EDITORIAL.md"
 PLUGINS_DIR = REPO_ROOT / "scripts" / "tools" / "lib" / "article_health" / "checks"
 
 # ── Tier classification ───────────────────────────────────────────────────────
-# Sovereignty-sensitive + 人物 = T1 ×3 (政治 / 二二八 / 兩岸 / 戒嚴 / 名人爭議).
-# 中度爭議 / 文化技術經濟 = T2 ×1.5.
-# 低爭議性 = T3 ×0.5.
+# High-sensitivity = T1 x3 (controversial topics, public figures).
+# Medium controversy / culture tech economy = T2 x1.5.
+# Low controversy = T3 x0.5.
 # Per reports/immune-score-redesign-2026-05-16.md §2.A.1 — category-level mapping
-# as v1; per-article frontmatter `risk_tier` override 為 v2 future scope.
+# as v1; per-article frontmatter risk_tier override is v2 future scope.
 
 TIER_MAP = {
-    "People": "T1",      # 人物（音樂人 / 政治人物 / 運動員 = PRC AI 最常 refuse 類別）
-    "Society": "T1",     # 社會議題（含轉型正義、原住民、性別、勞動）
-    "History": "T1",     # 歷史（二二八 / 白色恐怖 / 戒嚴 / 兩岸關係）
-    "Music": "T2",       # 音樂（部分人物會升 T1 by override，暫 T2）
+    "People": "T1",      # People (public figures)
+    "Society": "T1",     # Society (social issues)
+    "History": "T1",     # History
+    "Music": "T2",       # Music (some may upgrade to T1 by override)
     "Culture": "T2",
     "Technology": "T2",
     "Economy": "T2",
@@ -67,13 +67,13 @@ TIER_WEIGHT = {"T1": 3.0, "T2": 1.5, "T3": 0.5}
 DEFAULT_TIER = "T2"  # unknown category → middle weight
 
 # ── Weights ───────────────────────────────────────────────────────────────────
-# v3 (2026-06-10 audit D-4): 新增 external_rulers 維度 — 免疫系統實際演化成
-# 儀器免疫（FACTCHECK / quote-fidelity / falsification agent / 讀者勘誤飛輪），
-# 但分數只量「人類讀過幾篇」。external_rulers 量「文章被幾把獨立外部尺量過」
-# （per 本週 meta-umbrella「每層自評都需要外部尺」vc=5 + MANIFESTO §12 受眾端飛輪）。
-# 權重從 review_coverage 0.30→0.25 + plugin_pass_rate 0.25→0.20 各讓 0.05。
-# 校準（REFLEXES #66）：2026-06-10 實測 external 覆蓋 ~3%（9 factcheck + 16 勘誤
-# commits/30d），分數 61→~56 的下降是「量出新缺口」的誠實成本，不是退步。
+# v3 (2026-06-10 audit D-4): added external_rulers dimension — immune system evolved into
+# instrumented immunity (FACTCHECK / quote-fidelity / falsification agent / reader errata flywheel),
+# but score only measured "how many articles humans read". external_rulers measures "how many
+# independent external rulers have measured an article" (per meta-umbrella + MANIFESTO §12).
+# Weights shifted: review_coverage 0.30->0.25 + plugin_pass_rate 0.25->0.20 (freed 0.05 each).
+# Calibration (REFLEXES #66): 2026-06-10 measured external coverage ~3% (9 factcheck + 16 errata
+# commits/30d), score drop 61->~56 is the honest cost of measuring a new gap, not regression.
 DIMENSION_WEIGHTS = {
     "review_coverage": 0.25,
     "plugin_pass_rate": 0.20,
@@ -303,7 +303,7 @@ def _git_last_modified_days(rel_path: str) -> int | None:
 
 
 def compute_tool_freshness() -> tuple[float, dict]:
-    """EDITORIAL.md vs plugin file last-commit time (per REFLEXES #18 時間是結構).
+    """EDITORIAL.md vs plugin file last-commit time (per REFLEXES #18 time is structure).
 
     Uses git log %ai (commit time) NOT filesystem mtime — worktree creation
     resets fs mtimes to "now" so plugin .py files always look "fresh" in a
@@ -385,17 +385,17 @@ def compute_drift_velocity(articles: list[dict]) -> tuple[float, dict]:
 
 
 def compute_external_rulers(articles: list[dict]) -> tuple[float, dict]:
-    """v3 external_rulers（audit 2026-06-10 D-4）— 文章被獨立外部尺量過的比例.
+    """v3 external_rulers (audit 2026-06-10 D-4) — proportion of articles measured by independent external rulers.
 
-    外部尺定義（可機械歸因的兩種，90 天窗）：
-      (a) FACTCHECK Full-mode 報告存在 — reports/factcheck/**/{文章名}.md
-      (b) 讀者勘誤 commit — git log 訊息含 勘誤/讀者/callout/errata/fact-fix
-          且 touch 該 zh 文章
+    External ruler definition (two mechanically attributable types, 90-day window):
+      (a) FACTCHECK Full-mode report exists — reports/factcheck/**/{article-name}.md
+      (b) Reader errata commit — git log message contains errata/fact-fix
+          and touches the article
 
-    刻意不算的：lastVerified frontmatter（2026-06-10 實測 99.6% 飽和 backfill，
-    無鑑別力）、quote-fidelity/prose-health plugin pass（屬 plugin_pass_rate
-    維度，且是自家儀器不是「獨立」尺）。
-    Tier 加權同 review_coverage（T1 文章被外部尺量過價值 ×3）。
+    Intentionally excluded: lastVerified frontmatter (2026-06-10 measured 99.6% saturated backfill,
+    no discriminating power), quote-fidelity/prose-health plugin pass (belongs to plugin_pass_rate
+    dimension, and is internal tooling not an "independent" ruler).
+    Tier weighting same as review_coverage (T1 articles measured by external ruler worth x3).
     """
     import subprocess
 
@@ -409,11 +409,11 @@ def compute_external_rulers(articles: list[dict]) -> tuple[float, dict]:
                 ruled.add(p.stem)
 
     # (b) reader-errata commits in 90d touching zh knowledge files.
-    # Pattern 校準（第一版 dogfood 抓到自己灌水，REFLEXES #59/#65 現場）：
-    # 寬 pattern「callout/讀者」90d 命中 350 commits（「被哲宇 callout」「讀者
-    # 參與器官」全是誤傷）→ 收緊為 勘誤/errata/fact-fix 三個窄訊號；
-    # 並加「單 commit touch ≤5 篇 zh 文章」護欄 — 讀者勘誤天然是 1-3 篇的
-    # 點修，批次 heal/feature 掃過幾十篇不構成「這篇被外部尺量過」。
+    # Pattern calibration (v1 dogfood caught self-inflation, REFLEXES #59/#65):
+    # Broad pattern hit 350 commits (false positives) -> narrowed to 3 precise signals;
+    
+    # Added guard: single commit touches <=5 articles — reader errata is naturally 1-3 article
+    # point fixes; batch heal/feature sweeping dozens does not count as "externally measured".
     try:
         out = subprocess.run(
             ["git", "log", "--since=90 days ago", "--name-only",
@@ -462,7 +462,7 @@ def compute_plugin_health() -> tuple[float, dict]:
       - plugin_age_days: git log %ai of plugin .py file
       - editorial_age_days: git log %ai of EDITORIAL.md (shared canonical)
       - drifted: EDITORIAL changed < 14d ago AND plugin > 30d unchanged
-        (符號：規範改了但工具沒跟上)
+        (signal: spec changed but tooling lagged behind)
 
     Plugin health score = % of plugins NOT drifted.
 
@@ -582,13 +582,13 @@ def main():
 
     # Status label
     if immune_score >= 80:
-        status = "健康 — risk-stratified review + plugins green"
+        status = "Healthy — risk-stratified review + plugins green"
     elif immune_score >= 60:
-        status = "需關注 — T1 review < 80% OR plugin pass < 90%"
+        status = "Attention needed — T1 review < 80% OR plugin pass < 90%"
     elif immune_score >= 40:
-        status = "漂移 — 多維度退化中"
+        status = "Drift — multi-dimensional degradation"
     else:
-        status = "🔴 危險 — 結構性免疫不足"
+        status = "🔴 Critical — structural immune deficiency"
 
     # ── Output ───────────────────────────────────────────────────────────────
     output = {

@@ -1,53 +1,53 @@
 #!/usr/bin/env node
 /**
- * generate-og-images.mjs — 多語言 OG 圖片批次產生器 v4
+ * generate-og-images.mjs — Multi-language OG image batch generator v4
  *
- * v4 結構性最佳化（2026-05-03 musing-chaplygin session）：
- *   舊 v3 為每篇文章開新 page navigation（newPage + goto + networkidle +
- *   font load wait + screenshot + close），單篇 ~2.3s × 4 worker = 17 min /
- *   ~1700 篇。每篇都重複 Astro hydration、font load、TCP roundtrip。
+ * v4 structural optimization (2026-05-03 musing-chaplygin session):
+ *   Old v3 opened a new page per article (newPage + goto + networkidle +
+ *   font load wait + screenshot + close), ~2.3s per article x 4 workers = 17 min /
+ *   ~1700 articles. Each repeats Astro hydration, font load, TCP roundtrip.
  *
- *   v4 改為「單頁 frontend + JS 動態替換 + screenshot loop」：
- *   ① inline HTML template 一次 setContent（無需 dev server）
- *   ② document.fonts 載一次 Noto Serif TC
- *   ③ 每篇 page.evaluate({...}) 直接 mutate DOM → double-rAF → screenshot
- *   實測（POC，2026-05-03）：50 entries 1.45s, mean 26ms/entry, p95 31ms。
- *   1731 篇預估 ~45s（單 worker）/ ~13s（4 worker），vs v3 17 min = 22-77×。
+ *   v4 uses "single-page frontend + JS dynamic replacement + screenshot loop":
+ *   1. Inline HTML template via single setContent (no dev server needed)
+ *   2. document.fonts loads Noto Serif TC once
+ *   3. Per article: page.evaluate({...}) mutates DOM -> double-rAF -> screenshot
+ *   Measured (POC, 2026-05-03): 50 entries 1.45s, mean 26ms/entry, p95 31ms.
+ *   1731 articles estimated ~45s (single worker) / ~13s (4 workers) vs v3 17 min = 22-77x.
  *
- *   Trade-off：失去 Astro page rendering 的「設計即源碼」DRY。template 在
- *   本檔內 inline。為避免漂移：本檔自身列入 TEMPLATE_FILES，git mtime 改動
- *   觸發全量 regen；favicon embed 為 base64 確保視覺保真。
+ *   Trade-off: loses Astro page rendering DRY ("design is source"). Template is
+ *   inlined in this file. To prevent drift: this file itself is in TEMPLATE_FILES,
+ *   git mtime change triggers full regen; favicon embedded as base64 for visual fidelity.
  *
- * 架構（與 v3 對比）：
- *   1. 渲染源：inline HTML（v3：Astro `?shot=1` page）
- *   2. 字體：Google Noto Serif TC inline `<link>`（同 v3）
- *   3. 輸出：JPG 85 到 public/og-images/[lang]/[category]/[slug].jpg（同 v3）
- *   4. Incremental：md 或本檔（template = self）mtime 比 JPG 新才重產（v3：模板 list mtime）
- *   5. 平行化：預設 4 worker（OG_WORKERS 覆寫，每 worker 獨立 page）（同 v3）
+ * Architecture (vs v3):
+ *   1. Render source: inline HTML (v3: Astro ?shot=1 page)
+ *   2. Font: Google Noto Serif TC inline link (same as v3)
+ *   3. Output: JPG 85 to public/og-images/[lang]/[category]/[slug].jpg (same as v3)
+ *   4. Incremental: md or this file (template = self) mtime newer than JPG triggers regen (v3: template list mtime)
+ *   5. Parallel: default 4 workers (OG_WORKERS override, each worker has own page) (same as v3)
  *
- * **多語言 URL slug 規則（沿用 v3 v3）**：
- *   - default lang (en)：URL 用 root filename
- *   - 其他語言：URL 用 locale dir slug（via knowledge/{lang}/{Category}/）
+ * *Multi-language URL slug rules (following v3)*:
+ *   - default lang (en): URL uses root filename
+ *   - other langs: URL uses locale dir slug (via knowledge/{lang}/{Category}/)
  *
- * 用法（向後相容 v3）：
- *   npm run og:generate                               # 全掃 article + diary（v4.1 預設含 diary）
- *   npm run og:generate -- --lang zh-TW               # 只產 zh-TW article
+ * Usage (backward-compatible with v3):
+ *   npm run og:generate                               # scan all articles + diary (v4.1 default includes diary)
+ *   npm run og:generate -- --lang zh-TW               # only generate zh-TW articles
  *   npm run og:generate -- --lang ko --category food
  *   npm run og:generate -- --slug 李洋
- *   npm run og:generate -- --force                    # 全部重產
- *   npm run og:generate -- --diary                    # 只跑 diary
- *   npm run og:generate -- --no-diary                 # 跳過 diary（v4.1 新增 opt-out）
+ *   npm run og:generate -- --force                    # force regenerate all
+ *   npm run og:generate -- --diary                    # diary only
+ *   npm run og:generate -- --no-diary                 # skip diary (v4.1 opt-out)
  *   npm run og:generate -- --diary --slug 2026-05-01-gamma-late
- *   OG_WORKERS=2 npm run og:generate                  # 降 worker 數
+ *   OG_WORKERS=2 npm run og:generate                  # reduce worker count
  *
- * v4.1（2026-05-03 musing-chaplygin 後續 fix）：production OG 抽樣發現所有 diary
- *   （/og-images/semiont/diary/*.jpg）皆 404，root cause 是 v3 v4 共有 pre-existing
- *   bug — CI 跑 `npm run og:generate` 預設不含 diary，需 `--include-diary`。修補：
- *   default 改為「articles + diary」一起跑（SSOT 對齊：site map 已含 diary OG path
- *   → generator 預設應產出）。`--include-diary` 保留為 alias 向後相容；`--no-diary`
- *   是新的 opt-out（局部跑 article-only 用例）。
+ * v4.1 (2026-05-03 musing-chaplygin follow-up fix): production OG sampling found all diary
+ *   (/og-images/semiont/diary/*.jpg) returning 404. Root cause: v3/v4 shared pre-existing
+ *   bug — CI ran og:generate without diary by default, needed --include-diary. Fix:
+ *   default changed to articles + diary together (SSOT alignment: sitemap already includes diary OG path
+ *   -> generator default should produce them). --include-diary kept as backward-compat alias; --no-diary
+ *   is the new opt-out (for article-only use cases).
  *
- * Diary 輸出：public/og-images/semiont/diary/[slug].jpg
+ * Diary output: public/og-images/semiont/diary/[slug].jpg
  */
 
 import { chromium } from 'playwright';
@@ -87,8 +87,8 @@ const LANGUAGES = ENABLED_LANGUAGE_CODES;
 const DEFAULT_LANG = DEFAULT_LANGUAGE.code;
 
 // i18n labels embedded inline (extracted from src/i18n/ui.ts)。Source-of-truth
-// 在 ui.ts；此 mirror 維護成本低（13 cats × 4 langs，半年改一次）。
-// 若 ui.ts 加新分類或語言，記得同步本表（REFLEXES #43 的同型 SSOT 風險）。
+// Mirrors ui.ts; low maintenance cost (13 cats x 4 langs, changes ~every 6 months).
+// If ui.ts adds categories or languages, sync this table (REFLEXES #43 same-type SSOT risk).
 const HOME_LABEL = {
   'zh-TW': '首頁',
   en: 'Home',
@@ -263,13 +263,13 @@ async function readDiaryMeta(filePath) {
         // too short → 繼續找下一段
         continue;
       }
-      // italic-only paragraph: _..._ 或 *...*
+      // italic-only paragraph: _..._ or *...*
       const italicMatch = trimmed.match(/^[_*](.+)[_*]$/);
       if (italicMatch && italicMatch[1].length >= 20) {
         description = italicMatch[1].trim();
         break;
       }
-      // 一般段落
+      // Regular paragraph
       if (
         !trimmed.startsWith('_') &&
         !trimmed.startsWith('*') &&
@@ -544,7 +544,7 @@ window.__renderOG = ({ kind, lang, title, description, breadcrumb }) => {
 
 window.__waitFontReady = async () => {
   await document.fonts.ready;
-  // 預載最關鍵 weight × family
+  // Preload most critical weight x family
   await Promise.all([
     document.fonts.load('900 60px "Noto Serif TC"'),
     document.fonts.load('900 60px "Noto Serif JP"').catch(() => {}),
@@ -570,7 +570,7 @@ function buildBreadcrumb(entry) {
     CATEGORY_LABEL[lang]?.[entry.categorySlug] ||
     CATEGORY_LABEL[DEFAULT_LANG][entry.categorySlug] ||
     entry.categorySlug;
-  // Article 第三層用 truncated title（v3 視覺保真）
+  // Article 3rd layer uses truncated title (v3 visual fidelity)
   return [homeLabel, catLabel, entry.title || entry.urlSlug];
 }
 
@@ -671,10 +671,10 @@ async function workerLoop(
 // ── Main ────────────────────────────────────────────────────────────────────
 
 /**
- * 自我修復的 Playwright 啟動（2026-06-01）：OG 生成最常見的失敗是 Playwright 瀏覽器
- * 二進位缺失/版本不符（cache key 漂移、arch 不符、版本 bump）。容錯的正解不是靜默跳過
- * （會讓問題長期隱形、很難發現），而是「偵測到 binary 問題 → 重新安裝 → 重渲染」自我修復。
- * 自癒一次仍失敗才上拋（由 main().catch 印明確錯誤 + 擋 build），確保真問題不被埋掉。
+ * Self-healing Playwright launch (2026-06-01): most common OG gen failure is Playwright browser
+ * binary missing/version mismatch (cache key drift, arch mismatch, version bump). Correct fault tolerance is not silent skip
+ * (makes problem invisible long-term), but detect binary issue -> reinstall -> re-render self-healing.
+ * If self-heal still fails, throw (main().catch prints clear error + blocks build) — real problems never buried.
  */
 async function launchChromiumWithHeal() {
   try {
@@ -685,11 +685,11 @@ async function launchChromiumWithHeal() {
       /Executable doesn't exist|playwright install|chrome-headless-shell/i.test(
         msg,
       );
-    if (!isMissingBinary) throw err; // 非 binary 問題（如系統 deps）→ 直接上拋
+    if (!isMissingBinary) throw err; // Not a binary problem (e.g. system deps) -> throw directly
     console.error(
-      '\n⚠️  Playwright 瀏覽器二進位缺失 → 自我修復：重新安裝 chromium 後重試 launch（一次）',
+      '\n⚠️  Playwright browser binary missing -> self-heal: reinstalling chromium then retrying launch (once)',
     );
-    console.error(`⚠️  觸發訊息：${msg.split('\n')[0]}`);
+    console.error(`⚠️  Trigger message：${msg.split('\n')[0]}`);
     try {
       execSync('npx playwright install chromium', { stdio: 'inherit' });
     } catch (installErr) {
@@ -698,11 +698,11 @@ async function launchChromiumWithHeal() {
           ? installErr.message
           : String(installErr);
       throw new Error(
-        `Playwright 自動安裝失敗，無法 self-heal。launch 原錯：${msg.split('\n')[0]}；安裝錯：${im.split('\n')[0]}`,
+        `Playwright auto-install failed, cannot self-heal. Original launch error：${msg.split('\n')[0]}；Install error：${im.split('\n')[0]}`,
       );
     }
-    console.error('✓ Playwright chromium 安裝完成，重試 launch...');
-    return await chromium.launch({ headless: true }); // 再失敗 → 上拋給 main().catch
+    console.error('✓ Playwright chromium installed, retrying launch...');
+    return await chromium.launch({ headless: true }); // If fails again -> throws to main().catch
   }
 }
 
@@ -722,9 +722,9 @@ async function main() {
   const force = hasFlag('force');
   const skipFontWait = hasFlag('no-font-wait');
   const onlyDiary = hasFlag('diary');
-  const includeDiaryFlag = hasFlag('include-diary'); // v3 alias，向後相容
+  const includeDiaryFlag = hasFlag('include-diary'); // v3 alias, backward-compatible
   const noDiary = hasFlag('no-diary');
-  // v4.1 預設 articles + diary 一起跑（除非 --no-diary 或 --diary only）
+  // v4.1 default: articles + diary together (unless --no-diary or --diary only)
   const includeDiary = onlyDiary || includeDiaryFlag || !noDiary;
 
   console.log(
@@ -744,7 +744,7 @@ async function main() {
 
   // Load favicon → base64 (embed once into template)
   if (!existsSync(faviconPath)) {
-    // throw（非 process.exit）→ 走 main().catch 的非致命 handler，不擋 build
+    // throw (not process.exit) -> goes to main().catch non-fatal handler, does not block build
     throw new Error(`favicon not found: ${faviconPath}`);
   }
   const faviconB64 = readFileSync(faviconPath).toString('base64');
@@ -826,40 +826,44 @@ async function main() {
 }
 
 main().catch((err) => {
-  // 擋上線 + 錯誤標注明確（2026-06-01 哲宇 directive，修正先前「靜默 exit 0」）：
-  // 容錯的正解是「自我修復」（launchChromiumWithHeal 偵測 binary 問題就重裝重渲染），
-  // 不是吞掉錯誤。若 self-heal 後仍失敗 = 真問題 → 印「分類 + 怎麼修」明確錯誤並 exit 1
-  // 擋住 deploy。寧可擋住讓人馬上發現且好修，也不要靜默讓問題長期隱形（很難發現）。
+  // Block deploy + clear error labeling (2026-06-01 directive, fixes previous 'silent exit 0'):
+  // Correct fault tolerance = self-heal (launchChromiumWithHeal detects binary issues, reinstalls, re-renders),
+  // not swallowing errors. If self-heal still fails = real problem -> print categorized fix instructions + exit 1
+  // to block deploy. Better to block (immediately visible, easy to fix) than silently hide (hard to discover).
   const msg = err && err.message ? err.message : String(err);
   console.error(
     '\n❌ ════════════════════════════════════════════════════════',
   );
   console.error(
-    '❌ OG 圖生成失敗 —— 擋 build/deploy（self-heal 後仍無解 = 真問題，需修）',
+    '❌ OG image generation failed — blocking build/deploy (self-heal exhausted = real problem, needs fix)',
   );
-  console.error(`❌ 錯誤：${msg.split('\n')[0]}`);
+  console.error(`❌ Error:${msg.split('\n')[0]}`);
   if (
     /Executable doesn't exist|playwright install|chrome-headless-shell/i.test(
       msg,
     )
   ) {
-    console.error('❌ 分類：Playwright 瀏覽器二進位問題（自動重裝後仍失敗）');
-    console.error('❌ 怎麼修：');
     console.error(
-      '❌   1) deploy.yml Playwright cache key 要含 runner.arch（os 對 arm/x64 都是 Linux）',
+      '❌ Category: Playwright browser binary issue (auto-reinstall still failed)',
+    );
+    console.error('❌ How to fix:');
+    console.error(
+      '❌   1) deploy.yml Playwright cache key must include runner.arch (os is Linux for both arm/x64)',
     );
     console.error(
-      '❌   2)「Install Playwright Chromium binary」step 確認有跑（cache-hit 時也要能補裝）',
+      '❌   2) "Install Playwright Chromium binary" step must run (even on cache-hit, must be able to re-install)',
     );
     console.error(
-      '❌   3) 本地重現：rm -rf ~/.cache/ms-playwright && npx playwright install chromium',
+      '❌   3) Local repro: rm -rf ~/.cache/ms-playwright && npx playwright install chromium',
     );
   } else if (/favicon not found/i.test(msg)) {
     console.error(
-      '❌ 分類：favicon 缺失 — 確認 public/favicon.png 存在於 repo',
+      '❌ Category: favicon missing — verify public/favicon.png exists in repo',
     );
   } else {
-    console.error('❌ 分類：未分類 OG 生成錯誤 — 完整 stack 如下供診斷：');
+    console.error(
+      '❌ Category: uncategorized OG generation error — full stack below for diagnosis:',
+    );
     console.error(err);
   }
   console.error(
