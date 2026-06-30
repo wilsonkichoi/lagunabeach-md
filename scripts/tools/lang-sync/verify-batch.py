@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """
-verify-batch.py — Stage P4 統一驗證（per TRANSLATION-PIPELINE v3.3 §平行 sub-agent 批次翻譯 SOP）
+verify-batch.py — Stage P4 unified verification (per TRANSLATION-PIPELINE v3.3)
 
-機械化驗證所有 batch translation outputs，**不 trust agent self-report**（REFLEXES #31）：
-1. 0-byte file purge (agent kill signature — 2026-04-30 δ2 教訓)
-2. 存在 + frontmatter 完整度（4 欄位 grep）
+Mechanically verify all batch translation outputs, **never trust agent self-report** (REFLEXES #31):
+1. 0-byte file purge (agent kill signature, 2026-04-30 lesson)
+2. Existence + frontmatter completeness (4-field grep)
 3. YAML pre-flight (catch \\'s escape bug + unquoted year tags)
 4. Translation ratio (translation-ratio-check.sh)
 5. Wikilink residue (should be 0)
 6. Cross-article link integrity ((/lang/Category/slug/) targets exist)
 7. Sync derived caches (sync-translations-json.py)
-8. status.py 確認 stale/missing → fresh
+8. status.py confirm stale/missing -> fresh
 
 Usage:
     python3 scripts/tools/lang-sync/verify-batch.py [manifest-path]
@@ -62,11 +62,11 @@ def main():
         for p in purged:
             log(f"      {p}")
 
-    # ----- 1. 存在 + frontmatter completeness (REFLEXES #31) -----
-    log("[1/8] 存在 + frontmatter 4 欄位完整度 + translatedFrom 值等於 zh_path...")
+    # ----- 1. Existence + frontmatter completeness (REFLEXES #31) -----
+    log("[1/8] Existence + frontmatter 4-field completeness + translatedFrom == zh_path...")
     missing_files = []
     bad_frontmatter = []
-    translated_from_mismatch = []  # 2026-05-20: LLM agent 偶爾把 translatedFrom 改字（頼→賴 等）regression
+    translated_from_mismatch = []  # 2026-05-20: LLM agent occasionally mutates translatedFrom chars
     for a in articles:
         p = REPO / a["en_path"]
         if not p.exists():
@@ -80,7 +80,7 @@ def main():
                 else:
                     bad_frontmatter.append(f"{a['en_path']}: empty value for '{key}'")
         # translatedFrom value MUST equal zh_path (per prepare-batch.py placeholder)
-        # — 防 LLM agent 把人名字符自動「正規化」（旧字体 / 新字体 / 簡繁互換）regress 成 orphan
+        # prevents LLM agent from auto-"normalizing" person name chars into orphans
         m = re.search(r"^translatedFrom:\s*['\"]?([^'\"\n]+?)['\"]?\s*$", text, re.M)
         if m:
             actual_tf = m.group(1).strip()

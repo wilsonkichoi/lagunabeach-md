@@ -1,29 +1,29 @@
 #!/usr/bin/env python3
 """
-cross-lang-audit.py — 以繁體中文 SSOT 為核心的全站語系健檢
+cross-lang-audit.py — Full-site cross-language health check (zh-TW SSOT as core)
 
-Audit dimensions（每篇 zh canonical 跨 5 lang 比對）：
+Audit dimensions (each zh canonical compared across 5 langs):
 
-1. **Slug consistency**：以 en slug 為 canonical reference（URL 慣例 post Tailwind-Phase-6 fix）
-   - 檢查每個 zh source 的 5 lang 翻譯 slug 是否一致
-   - en slug 是 canonical，其他 lang 應 match en slug
+1. **Slug consistency**: en slug is canonical reference (URL convention post Tailwind-Phase-6 fix)
+   - Checks each zh source's 5 lang translation slugs for consistency
+   - en slug is canonical; other langs should match en slug
 
-2. **translatedFrom 格式**（REFLEXES #42 v3）
-   - 必須是 'Category/中文檔.md'（不含 'knowledge/' 前綴）
-   - 必須含 .md 副檔名 + 單引號
+2. **translatedFrom format** (REFLEXES #42 v3)
+   - Must be 'Category/file.md' (no 'knowledge/' prefix)
+   - Must include .md extension + single quotes
 
-3. **Body lang 一致性**
-   - en/es/fr：Latin 字母占比 ≥ 70%
-   - ja：含足夠 hiragana/katakana（≥ 1% body）
-   - ko：含足夠 Hangul（≥ 5% body）
-   - zh：CJK Han 占比 ≥ 50%
+3. **Body language consistency**
+   - en/es/fr: Latin chars >= 70%
+   - ja: sufficient hiragana/katakana (>= 1% body)
+   - ko: sufficient Hangul (>= 5% body)
+   - zh: CJK Han >= 50%
 
-4. **Frontmatter 完整性**
-   - 必填欄位：title, description, date, category, translatedFrom, sourceCommitSha
+4. **Frontmatter completeness**
+   - Required fields: title, description, date, category, translatedFrom, sourceCommitSha
 
 5. **File existence**
-   - 翻譯檔案實際存在
-   - translatedFrom 指向的 zh source 存在（orphan check）
+   - Translation file actually exists
+   - translatedFrom target zh source exists (orphan check)
 
 Output: JSON report (`reports/cross-lang-audit-YYYY-MM-DD.json`) + colored CLI summary
 Exit codes: 0 healthy, 1 has critical issues
@@ -204,7 +204,7 @@ def audit():
                     rec_issues.append({
                         "type": "translatedFrom_prefix",
                         "severity": "low",
-                        "msg": f"translatedFrom 多 'knowledge/' 前綴：{rec['tf_raw']}",
+                        "msg": f"translatedFrom has extra 'knowledge/' prefix: {rec['tf_raw']}",
                     })
 
                 # Check 2: slug consistency (vs en canonical)
@@ -286,7 +286,7 @@ def print_summary(report: dict, severity_filter=None, lang_filter=None):
     s = report["summary"]
     print()
     print("━" * 60)
-    print(f"📊 跨語系健檢總結 (繁體中文 SSOT 為核心)")
+    print(f"📊 Cross-language health check summary (zh-TW SSOT as core)")
     print("━" * 60)
     print(f"zh canonical articles: {s['zh_canonical_count']}")
     print()

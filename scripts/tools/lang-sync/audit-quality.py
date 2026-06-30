@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-audit-quality.py — Stage Z6 自動掃描品質 audit
+audit-quality.py — Stage Z6 automated quality scan
 
-「fresh」是 metadata fresh，不是 content quality。status.py 看 frontmatter
-元資料；本工具看實際內容品質：size ratio / frontmatter completeness /
-YAML 合法性。
+"fresh" means metadata fresh, not content quality. status.py checks frontmatter
+metadata; this tool checks actual content quality: size ratio / frontmatter
+completeness / YAML validity.
 
 Usage:
   python3 scripts/tools/lang-sync/audit-quality.py --base-sha af2de883

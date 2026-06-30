@@ -1,16 +1,13 @@
 #!/usr/bin/env bash
-# compare-decomposition.sh — A/B test 任務分解模式 (per-lang vs orthogonal)
+# compare-decomposition.sh — A/B test task decomposition patterns (per-lang vs orthogonal)
 #
-# 2026-05-01 γ-late3：哲宇問「同一篇文章一次多語言，還是一批文章不同語言
-# 先處理同一語言，到底怎麼樣規劃大規模任務解構會比較理想」。
+# Pattern A (per-lang): N workers, each handles 1 lang x M articles
+# Pattern B (orthogonal): N workers, each handles 1 article x M langs
 #
-# Pattern A (per-lang)：N workers，每個 worker 處理 1 lang × M 篇文章
-# Pattern B (orthogonal)：N workers，每個 worker 處理 1 篇文章 × M 個 lang
-#
-# Same total calls (N×M)，differ in:
-# - 失敗 isolation：B 對 lang-specific refusal 的故障半徑較小
-# - cache hit：A reuses system prompt across calls in same worker
-# - PR atomicity：B 一篇文章所有語言一次完成
+# Same total calls (NxM), differ in:
+# - Failure isolation: B has smaller blast radius for lang-specific refusals
+# - Cache hit: A reuses system prompt across calls in same worker
+# - PR atomicity: B completes all languages for one article at once
 #
 # Usage: bash scripts/tools/lang-sync/compare-decomposition.sh [model]
 #

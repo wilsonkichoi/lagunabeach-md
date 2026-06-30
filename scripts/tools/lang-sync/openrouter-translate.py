@@ -39,11 +39,11 @@ LANG_NAMES = {
 
 def load_lang_guide_sections(lang, max_chars=11000):
     """Z2.0 hard gate (SQUEEZE-MODELS-MAX §Z2.0): inline the per-language canonical
-    guide's leak-critical sections — §1 國名/地區指稱, §2 人名 romanization,
-    §3 地名 romanization, §6 sovereignty-avoid lexicon, + the TL;DR — into the
-    translation prompt. The full guides are 50-60KB; we extract only these sections
-    so every backend (codex / gemini / owl-alpha / ollama) carries sovereignty-correct
-    naming without bloating context. Was the pipeline's pending『儀器化候選』(2026-06-03).
+    guide's leak-critical sections (country/region naming, person romanization,
+    place romanization, sovereignty-avoid lexicon, + TL;DR) into the translation prompt.
+    The full guides are 50-60KB; we extract only these sections so every backend
+    (codex / gemini / owl-alpha / ollama) carries sovereignty-correct naming without
+    bloating context.
     """
     guide = REPO / "docs/editorial/per-language" / f"TRANSLATION-{lang}.md"
     if not guide.exists():
@@ -58,7 +58,7 @@ def load_lang_guide_sections(lang, max_chars=11000):
         return ""
     out = "\n\n".join(keep)
     if len(out) > max_chars:
-        out = out[:max_chars] + f"\n…(節錄；完整 canonical 在 docs/editorial/per-language/TRANSLATION-{lang}.md)"
+        out = out[:max_chars] + f"\n...(truncated; full canonical at docs/editorial/per-language/TRANSLATION-{lang}.md)"
     return out
 
 
@@ -282,7 +282,7 @@ def call_openrouter(_api_key_unused, model, system, user_msg, max_retries=3, max
             {"role": "user", "content": user_msg},
         ],
         "temperature": 0.3,
-        # 2026-06-06: 16000 truncated long articles (TASA 65 footnotes, 健保 42 etc.)
+        # 2026-06-06: 16000 truncated long articles (TASA 65 footnotes, NHI 42 etc.)
         # mid-output — the tail (image credits + footnote definitions) was silently lost,
         # silently shipping 263 de-citationed translations. Bumped to give long articles
         # room; the finish_reason=="length" guard below is the real backstop.
@@ -365,7 +365,7 @@ def translate_one(article, lang, api_key, model, dry_run=False):
     # max_tokens and the output is cut off mid-article. The tail (image credits +
     # footnote definitions) is silently lost. NEVER save a truncated translation —
     # return failure so the cascade retries / falls to next model. Root cause of the
-    # 263 silently de-citationed translations (TASA 65→0, 健保 42→0, ...).
+    # 263 silently de-citationed translations (TASA 65->0, NHI 42->0, ...).
     if finish_reason == "length":
         return False, "output truncated (finish_reason=length) — tail/footnotes lost, not saved"
 

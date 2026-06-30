@@ -2,10 +2,10 @@
 """
 diary-translate.py — Cascade translate semiont diary entries to N langs.
 
-把 `docs/semiont/diary/*.md` 翻譯到 5 langs（en/ja/ko/es/fr），輸出到
-`docs/semiont/diary/{lang}/{filename}.md`。
+Translates `docs/semiont/diary/*.md` to 5 langs (en/ja/ko/es/fr), output to
+`docs/semiont/diary/{lang}/{filename}.md`.
 
-Cascade tier（與 SQUEEZE-MODELS-MAX-PIPELINE v2 一致）：
+Cascade tier (aligned with SQUEEZE-MODELS-MAX-PIPELINE v2):
   Tier 1: openrouter/owl-alpha (free, slow, primary)
   Tier 2: tencent/hy3-preview:free (free, fast, ~70% refusal on Taiwan content)
   Tier 3: Ollama qwen3.6:35b-a3b-coding-nvfp4 (LOCAL, sovereignty backbone)
@@ -24,7 +24,7 @@ Usage:
   python3 diary-translate.py --batch --langs en --top 5 --dry-run
 
 Output:
-  docs/semiont/diary/{lang}/{filename}.md（保留 zh filename 作為 slug）
+  docs/semiont/diary/{lang}/{filename}.md (zh filename kept as slug)
 """
 import argparse
 import json

@@ -2,18 +2,19 @@
 backends/ollama.py — Local Ollama HTTP API backend.
 
 Per REFLEXES #49 "v2.0 4-tier cascade" — Ollama is the sovereignty backbone, not a backup.
-Cloud free-tier consistently refuses last-20% sovereignty-sensitive content (心戰 /
-戒嚴 / 兩岸 / 黑名單 / 政治歷史敘事). Local LLM永遠收下, 0 refusal rate observed.
+Cloud free-tier consistently refuses last-20% sovereignty-sensitive content (psychological
+warfare / martial law / cross-strait / political history narratives). Local LLM always
+accepts, 0 refusal rate observed.
 
 Default model: qwen3.6:35b-a3b-coding-nvfp4 (21GB GPU, Western open weights).
 Alternatives: taide-gemma3-12b:2602-q4km, gemma4:e4b-nvfp4 (lighter).
 
 Trade-off vs cloud:
-- 永遠 available (no rate limit, no auth churn, no provider drift)
+- Always available (no rate limit, no auth churn, no provider drift)
 - Slower (sequential, GPU contention if multi-process)
-- Quality slightly below owl-alpha but well above the 「永遠收下」threshold
+- Quality slightly below owl-alpha but well above the "always accepts" threshold
 
-Per MANIFESTO §sovereignty preservation: Local LLM is structural insurance against
+Per MANIFESTO sovereignty preservation: Local LLM is structural insurance against
 PRC content policy infection of multi-lang projection.
 """
 from __future__ import annotations

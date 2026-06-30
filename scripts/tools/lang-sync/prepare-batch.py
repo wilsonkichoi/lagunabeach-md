@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-prepare-batch.py — Stage P1 預處理（per TRANSLATION-PIPELINE v3.3 §平行 sub-agent 批次翻譯 SOP）
+prepare-batch.py — Stage P1 preprocessing (per TRANSLATION-PIPELINE v3.3)
 
-對 N 篇 zh 文章一次性產出 batch manifest + N 個 group files：
+For N zh articles, produces batch manifest + N group files in one pass:
 1. Determine slug + en_path for each article (stale: existing / missing: needs slug input)
 2. Compute frontmatter placeholder (translatedFrom + zh_head_sha + zh_content_hash + now)
 3. Compute wikilink target map (scan zh source [[X]], lookup _translations.json)
@@ -42,7 +42,7 @@ _TRAILER_PATTERNS = [
 
 
 def _body_hash_pure(body: str) -> str:
-    """Same as status.py body_hash_pure — strip trailers + footnote defs (REFLEXES #38 第 2 次)."""
+    """Same as status.py body_hash_pure — strip trailers + footnote defs (REFLEXES #38 v2)."""
     for pattern in _TRAILER_PATTERNS:
         body = re.sub(pattern, "", body, flags=re.DOTALL | re.MULTILINE)
     body = re.sub(r"\n\[\^[\w-]+\]:\s.+?(?=\n\[\^|\n#|\Z)", "\n", body, flags=re.DOTALL)

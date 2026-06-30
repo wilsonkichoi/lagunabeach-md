@@ -1,26 +1,27 @@
 #!/usr/bin/env bash
-# refresh.sh — 對單篇翻譯產出「ready-to-translate」prompt brief
+# refresh.sh — produce a "ready-to-translate" prompt brief for a single article
 #
-# 用法：
+# Usage:
 #   refresh.sh <zh-path> <lang>
 #   refresh.sh Technology/半導體產業.md en
-#   refresh.sh Technology/半導體產業.md en --print  # stdout 印 brief
-#   refresh.sh Technology/半導體產業.md en --apply --sha-only  # 已手動翻譯完，更新 frontmatter
+#   refresh.sh Technology/半導體產業.md en --print  # print brief to stdout
+#   refresh.sh Technology/半導體產業.md en --apply --sha-only  # already translated, update frontmatter
 #
-# 設計：純投影模式（pure projection，2026-04-29 cheyu insight）
-#   zh-TW 是 SSOT，譯文是當下投影。Brief 不讀既有譯文也不算 diff——
-#   反正都會被覆蓋寫，讀進來只是 (a) 浪費 context tokens (b) agent 會去
-#   「保留風格」或「patch diff」而非乾淨從 zh 投影一次。
+# Design: pure projection mode (2026-04-29 insight)
+#   zh-TW is SSOT; translations are projections of current state. Brief does not
+#   read existing translation or compute diff — it will be overwritten anyway.
+#   Reading it only (a) wastes context tokens (b) causes agents to "preserve style"
+#   or "patch diff" instead of cleanly projecting from zh once.
 #
-# 工作流：
-#   1. 讀 zh source（HEAD）+ TRANSLATE_PROMPT.md 翻譯規則
-#   2. 組合成單一 brief.md 檔（.lang-sync-tasks/{lang}/{slug}.brief.md）
-#   3. Agent 從零投影一次（覆蓋寫，不 patch、不 preserve、不 diff）
-#   4. --apply --sha-only：翻譯完成後更新 frontmatter 三欄位（重設 sourceCommitSha 為 zh HEAD）
+# Workflow:
+#   1. Read zh source (HEAD) + TRANSLATE_PROMPT.md translation rules
+#   2. Combine into a single brief.md file (.lang-sync-tasks/{lang}/{slug}.brief.md)
+#   3. Agent projects from scratch (overwrite, no patch/preserve/diff)
+#   4. --apply --sha-only: after translation, update frontmatter 3 fields (reset sourceCommitSha to zh HEAD)
 #
-# refresh.sh 不直接 spawn agent。由 lang-sync batch-refresh.sh 或 maintainer
-# 把 brief 內容餵 agent。這樣 agent runtime 跟工具解耦（Claude Code / Cursor /
-# 純人類都能用）。
+# refresh.sh does not spawn agents directly. lang-sync batch-refresh.sh or the
+# maintainer feeds brief content to the agent. This decouples agent runtime from
+# tooling (Claude Code / Cursor / human all work).
 
 set -euo pipefail
 
@@ -96,10 +97,12 @@ print(f'   translatedAt: $NOW')
 fi
 
 # --- Build brief (pure projection mode) ---
+# NOTE: CJK strings below (完整翻譯不摘要, 保留腳註結構, etc.) are translation rule
+# tokens from REFLEXES/pipeline docs — they are the tool's functional content, KEEP.
 ZH_HEAD_SHA=$(git -C "$REPO" log -1 --format='%h' -- "knowledge/$ZH_REL")
 ZH_HEAD_DATE=$(git -C "$REPO" log -1 --format='%aI' -- "knowledge/$ZH_REL")
 
-# Generate brief — zh source only, agent投影一次 from scratch.
+# Generate brief — zh source only, agent projects once from scratch.
 {
   echo "# Translation projection brief"
   echo ""

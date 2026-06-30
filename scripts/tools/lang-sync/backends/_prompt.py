@@ -9,7 +9,7 @@ Currently re-exports from `openrouter-translate.py` for back-compat during the
 module, the prompt can be moved here as canonical and openrouter-translate.py
 can import back from us.
 
-Per哲宇 callout 「儘可能模組化 抽象化」— prompt logic is single-source-of-truth.
+Design goal: modularity + abstraction. Prompt logic is single-source-of-truth.
 """
 from __future__ import annotations
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # openrouter-stress.sh — Escalating-concurrency stress test for OpenRouter free tier
-# 稜鏡效應：跑測試同時實際推進 ja 翻譯覆蓋率
+# Prism effect: stress test simultaneously advances ja translation coverage
 #
 # Reads .lang-sync-tasks/ja/_group-A.json (must be pre-filtered to articles with slugs)
 # Spawns rounds of N=5,10,20,30,N parallel workers, each translating 1 real article

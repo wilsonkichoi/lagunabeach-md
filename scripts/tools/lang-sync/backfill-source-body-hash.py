@@ -1,22 +1,22 @@
 #!/usr/bin/env python3
 """
-backfill-source-body-hash.py — One-time backfill `sourceBodyHash` 進現有 translation frontmatter.
+backfill-source-body-hash.py — One-time backfill `sourceBodyHash` into existing translation frontmatter.
 
-對每篇翻譯：
-  1. 讀 frontmatter 的 sourceCommitSha
-  2. 用 `git show <sha>:knowledge/<zh_path>` 取那 commit 時的 zh content
-  3. 計算 body_hash_pure（同 status.py 的 stripped 版本）
-  4. 寫回 translation frontmatter 加 `sourceBodyHash: <hash>`
+For each translation:
+  1. Read frontmatter's sourceCommitSha
+  2. Use `git show <sha>:knowledge/<zh_path>` to get zh content at that commit
+  3. Compute body_hash_pure (same stripped version as status.py)
+  4. Write back to translation frontmatter adding `sourceBodyHash: <hash>`
 
-若 src_sha vanished（rebase/squash）→ 跳過，留給 status.py 用 sha-lost-body-match 判定。
+If src_sha vanished (rebase/squash) -> skip, leave for status.py sha-lost-body-match fallback.
 
-REFLEXES #38 第 2 次 instantiation — 拆 stale 為 body-drift / metadata-stale 兩態。
+REFLEXES #38 second instantiation: split stale into body-drift / metadata-stale states.
 
 Usage:
-  python3 backfill-source-body-hash.py --dry-run                  # 看會改幾篇
-  python3 backfill-source-body-hash.py --apply                    # 寫入
-  python3 backfill-source-body-hash.py --apply --lang en          # 限定單一 lang
-  python3 backfill-source-body-hash.py --apply --only-stale       # 只處理目前 stale 的
+  python3 backfill-source-body-hash.py --dry-run                  # preview changes
+  python3 backfill-source-body-hash.py --apply                    # write
+  python3 backfill-source-body-hash.py --apply --lang en          # single lang only
+  python3 backfill-source-body-hash.py --apply --only-stale       # only process currently stale
 """
 import argparse
 import hashlib

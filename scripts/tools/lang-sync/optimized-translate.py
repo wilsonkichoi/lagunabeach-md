@@ -1,38 +1,38 @@
 #!/usr/bin/env python3
 """
-optimized-translate.py — 4-part divide-and-conquer 翻譯 pipeline
+optimized-translate.py — 4-part divide-and-conquer translation pipeline
 
-把一篇 zh 文章切 4 部分，AI 只處理 prose；frontmatter / footnotes / 延伸閱讀
-都用 deterministic rule 處理。
+Splits a zh article into 4 parts; AI only processes prose. Frontmatter / footnotes /
+further-reading are handled by deterministic rules.
 
   Part A: frontmatter
-    - title / description / imageAlt: 需翻譯（很短，附加在 prose call）
-    - tags: 翻譯（短）
-    - 其他 fields: passthrough（date / author / category / featured / readingTime
+    - title / description / imageAlt: needs translation (short, appended to prose call)
+    - tags: translated (short)
+    - other fields: passthrough (date / author / category / featured / readingTime
        / lastVerified / lastHumanReview / subcategory / image / imageCredit /
-       三 SHA fields）
+       three SHA fields)
 
   Part B: body prose
-    - Markdown 主體（頭 # 以下、footnote 定義以上、延伸閱讀 list 以上）
-    - 唯一送 Sonnet 的部分
+    - Markdown body (after heading #, above footnote defs, above further-reading list)
+    - The only part sent to Sonnet
 
   Part C: footnotes
-    - `[^n]: [Title](URL) — desc` 結構
-    - URL + bracket title (如果是 URL 自己) 保留；只翻 description
+    - `[^n]: [Title](URL) — desc` structure
+    - URL + bracket title preserved; only description translated
 
-  Part D: 延伸閱讀 cross-links
-    - 從 `## 延伸閱讀` / `**延伸閱讀**` 後的 list
-    - `- [文章名](/category/slug) — 說明` 用 _translations.json 反查 zh→en slug
-    - 沒有對應 en 時保留 zh 連結 + 加 zh 原文 inline
+  Part D: further-reading cross-links
+    - List after `## 延伸閱讀` / `**延伸閱讀**` heading
+    - `- [article](/category/slug) — desc` uses _translations.json to reverse-lookup zh->en slug
+    - When no en counterpart exists, keeps zh link + adds zh original inline
 
-用法：
+Usage:
   optimized-translate.py extract <zh_path>
-    → 寫 .lang-sync-tasks/optimized/{slug}/parts.json
+    -> writes .lang-sync-tasks/optimized/{slug}/parts.json
        (a-frontmatter.yml + b-body.md + c-footnotes.json + d-crosslinks.json)
   optimized-translate.py prompt <zh_path>
-    → 印 minimal agent prompt (B + a-trans-fields)
+    -> prints minimal agent prompt (B + a-trans-fields)
   optimized-translate.py assemble <zh_path> --en-path <out>
-    → 從 parts.json + translated-body.md + translated-fields.yml 組裝完整 en 檔
+    -> assembles final en file from parts.json + translated-body.md + translated-fields.yml
 """
 import argparse
 import json
@@ -45,9 +45,7 @@ KN = REPO / "knowledge"
 TASKS = REPO / ".lang-sync-tasks" / "optimized"
 TRANSLATIONS_JSON = KN / "_translations.json"
 
-# Frontmatter fields that ARE TRANSLATED
 TRANSLATABLE_FIELDS = {"title", "description", "imageAlt"}
-# Tags get translated separately (often Chinese in zh)
 TRANSLATABLE_LIST_FIELDS = {"tags"}
 # Everything else passes through unchanged
 PASSTHROUGH_FIELDS = {
@@ -83,7 +81,7 @@ def split_zh_file(content: str) -> dict:
         body_before_fns = body.rstrip()
         body_footnotes = ""
 
-    # Find 延伸閱讀 / Extended Reading section
+    # Find further-reading / extended-reading section
     ext_re = re.compile(
         r"^(?:##\s+延伸閱讀|##\s+相關文章|##\s+Related|\*\*延伸閱讀\*\*)\s*$",
         re.M | re.I,
@@ -141,7 +139,7 @@ def extract_translatable_block(parts: dict) -> dict:
     }
 
 
-# ---------- 延伸閱讀 (Cross-links) ----------
+# ---------- Further-reading (Cross-links) ----------
 
 def load_translations_json() -> dict:
     if not TRANSLATIONS_JSON.exists():

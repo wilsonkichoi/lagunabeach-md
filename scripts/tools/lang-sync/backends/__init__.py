@@ -1,7 +1,8 @@
 """
 backends/ — Translation backend abstraction layer.
 
-Per哲宇 callout 2026-05-12 「儘可能模組化 抽象化 可抽換化 讓系統獨立於模型與服務類別能運作」.
+Design goal (2026-05-12): maximum modularity, abstraction, swappability so the system
+operates independently of specific models and service providers.
 
 Public interface:
 

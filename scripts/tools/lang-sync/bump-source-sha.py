@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """
-bump-source-sha.py — 把 metadata-stale 翻譯 frontmatter 升級到 zh latest commit。
+bump-source-sha.py — Bump metadata-stale translation frontmatter to zh latest commit.
 
-Body 已 valid（REFLEXES #38 第 2 次 instantiation：bodyHash 沒變），不重翻只 bump metadata：
-  sourceCommitSha → zh latest commit
-  sourceContentHash → zh latest contentHash
-  sourceBodyHash → zh latest bodyHash（同一個值）
+Body is already valid (REFLEXES #38 v2: bodyHash unchanged), no re-translation needed,
+only bump metadata:
+  sourceCommitSha -> zh latest commit
+  sourceContentHash -> zh latest contentHash
+  sourceBodyHash -> zh latest bodyHash (same value)
 
-對 metadata-stale 翻譯（依 status.py classify 結果）批次 bump。**不動 body content**。
-省下不需要的 cascade translation cost（70 篇 × 5 langs scope）。
+Batch-bumps metadata-stale translations (per status.py classify). **Does not touch body content.**
+Saves unnecessary cascade translation cost (70 articles x 5 langs scope).
 
 Usage:
   python3 bump-source-sha.py --dry-run                 # show plan
