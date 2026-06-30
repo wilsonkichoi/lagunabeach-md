@@ -241,7 +241,7 @@ All are developer tools NOT in the build path. Build is green, user-facing outpu
 is English, contributor onboarding works. These are cosmetic-readability for devs
 reading tool source. Execute via `/lb-implement` + `/lb-review`, batched by group.
 
-- [ ] **Group 1: lang-sync/ translation infra** (25 files, ~400 lines)
+- [x] **Group 1: lang-sync/ translation infra** (25 files, ~400 lines)
       `scripts/tools/lang-sync/` — OpenRouter/Ollama/Gemini backends, batch prep,
       verification, audit, slug-suggest, diary-translate, diff-patch.
 - [ ] **Group 2: article-health checks** (17 files, ~350 lines)
