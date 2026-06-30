@@ -1,22 +1,22 @@
 #!/usr/bin/env node
 /**
- * triage.mjs — Feedback → GitHub issue（cron routine twmd-feedback-triage 的執行體）。
+ * triage.mjs — Feedback -> GitHub issue (execution body for twmd-feedback-triage routine).
  *
- * 流程：讀新回報 → spam/dedupe/分類（classify.mjs 純函式）→ 開 GitHub issue
- *       （對齊既有 template,只放 display_name 不放 email）→ 回寫 status。
+ * Flow: read new reports -> spam/dedupe/classify (classify.mjs pure functions) -> create GitHub issue
+ *       (aligned with existing templates, only display_name not email) -> write back status.
  *
- * §自主權邊界：本 script 只做「把讀者原話機械性 routing 成 issue」（= 代讀者填表單,
- * verbatim + 署名 + provenance）。**不**以維護者身份回覆 / close / merge —— 那留給
- * MAINTAINER-PIPELINE 的人類 gate。
+ * Autonomy boundary: this script only does "mechanically route reader feedback into issues" (= fill form on behalf of reader,
+ * verbatim + attribution + provenance). Does NOT reply / close / merge as maintainer — that is left to
+ * MAINTAINER-PIPELINE human gate.
  *
- * 安全預設：--dry-run 是 DEFAULT。要真的開 issue + 回寫必須顯式 --commit。
+ * Safe default: --dry-run is DEFAULT. Must explicitly pass --commit to actually create issues + write back.
  *
- * 用法：
- *   node scripts/feedback/triage.mjs                      # dry-run,讀 Supabase（需 env）
- *   node scripts/feedback/triage.mjs --seed <file.json>   # dry-run,讀 JSON fixture（離線測試）
- *   node scripts/feedback/triage.mjs --commit             # 真的開 issue + 回寫（routine 用）
+ * Usage:
+ *   node scripts/feedback/triage.mjs                      # dry-run, reads Supabase (needs env)
+ *   node scripts/feedback/triage.mjs --seed <file.json>   # dry-run, reads JSON fixture (offline testing)
+ *   node scripts/feedback/triage.mjs --commit             # actually creates issues + writes back (for routine use)
  *
- * env（正式跑才需要,放 ~/.taiwanmd-feedback.env 或環境變數）：
+ * env (only needed for real runs, put in ~/.taiwanmd-feedback.env or env vars):
  *   SUPABASE_URL, SUPABASE_SERVICE_KEY
  */
 import {
@@ -53,7 +53,7 @@ function parseArgs(argv) {
 
 // ── data source ───────────────────────────────────────────────────────────────
 function loadEnvFile() {
-  // 讀 ~/.taiwanmd-feedback.env（KEY=VALUE 一行一條）進 process.env(不覆蓋已存在)。
+  // Read ~/.taiwanmd-feedback.env (KEY=VALUE one per line) into process.env (does not override existing).
   try {
     const home = process.env.HOME || '';
     const txt = readFileSync(`${home}/.taiwanmd-feedback.env`, 'utf8');
@@ -63,7 +63,7 @@ function loadEnvFile() {
         process.env[m[1]] = m[2].replace(/^["']|["']$/g, '');
     }
   } catch {
-    /* 沒有就算了 */
+    /* Missing file is fine */
   }
 }
 
@@ -73,7 +73,7 @@ async function fetchNewFeedback(limit) {
   const key = process.env.SUPABASE_SERVICE_KEY;
   if (!url || !key) {
     throw new Error(
-      'SUPABASE_URL / SUPABASE_SERVICE_KEY 未設定（放 ~/.taiwanmd-feedback.env）。離線測試請用 --seed。',
+      'SUPABASE_URL / SUPABASE_SERVICE_KEY not set (put in ~/.taiwanmd-feedback.env). Use --seed for offline testing.',
     );
   }
   const endpoint = `${url}/rest/v1/feedback?status=eq.new&order=created_at.asc&limit=${limit}`;
@@ -155,7 +155,7 @@ function createIssue(issue) {
   return { url, number: num };
 }
 
-// ── batch-cluster consolidated report（同 slug ≥ 閾值 → 1 份 artifact 給維護者）──
+// ── batch-cluster consolidated report (same slug >= threshold -> 1 artifact for maintainer) ──
 function writeClusterReport(slug, held, mode) {
   const date = new Date().toISOString().slice(0, 10);
   const safe = slug.replace(/[^\w一-鿿-]+/g, '_');
@@ -163,23 +163,25 @@ function writeClusterReport(slug, held, mode) {
   if (mode !== 'COMMIT') return rel;
   try {
     mkdirSync(dirname(rel), { recursive: true });
-    if (existsSync(rel)) return rel; // 同日重跑不重寫(回報維持 new 會再 hold 一次)
+    if (existsSync(rel)) return rel; // Same-day re-run does not overwrite (reports stay new, will hold again)
     const rows = held.map((h, i) => {
       const r = h.row;
       const quote = r.quote
-        ? `\n   > 選取原文：${String(r.quote).replace(/\n/g, ' ')}`
+        ? `\n   > Selected text: ${String(r.quote).replace(/\n/g, ' ')}`
         : '';
-      const fix = r.correct_info ? `\n   - 更正建議：${r.correct_info}` : '';
-      return `${i + 1}. **${r.display_name || '匿名讀者'}** (${(r.created_at || '').slice(0, 16)}) · feedback id \`${r.id}\`${quote}\n   - 回報：${r.body}${fix}`;
+      const fix = r.correct_info
+        ? `\n   - Correction suggestion: ${r.correct_info}`
+        : '';
+      return `${i + 1}. **${r.display_name || 'Anonymous reader'}** (${(r.created_at || '').slice(0, 16)}) · feedback id \`${r.id}\`${quote}\n   - Report: ${r.body}${fix}`;
     });
     writeFileSync(
       rel,
-      `# Feedback cluster hold：${slug}（${held.length} 筆，${date}）\n\n` +
-        `> 同一篇文章單一 batch ≥ ${held.length} 筆非 spam 回報，batch-cluster guard 自動 hold。\n` +
-        `> 全部回報維持 Supabase status=new（不逐筆開 issue）。維護者決策後：開 1 個\n` +
-        `> consolidated issue 或直接走 REWRITE 修文，再把這批標 filed/rejected。\n\n` +
+      `# Feedback cluster hold: ${slug} (${held.length} entries, ${date})\n\n` +
+        `> Same article received >= ${held.length} non-spam reports in one batch; batch-cluster guard auto-held.\n` +
+        `> All reports stay Supabase status=new (not filed individually). After maintainer decision: open 1\n` +
+        `> consolidated issue or directly run REWRITE to fix article, then mark this batch filed/rejected.\n\n` +
         rows.join('\n') +
-        `\n\n---\n_由 twmd-feedback-triage batch-cluster guard 產出（classify.mjs BATCH_CLUSTER_THRESHOLD）_\n`,
+        `\n\n---\n_Generated by feedback-triage batch-cluster guard (classify.mjs BATCH_CLUSTER_THRESHOLD)_\n`,
     );
   } catch (e) {
     console.warn(
@@ -190,7 +192,7 @@ function writeClusterReport(slug, held, mode) {
   return rel;
 }
 
-// ── git archive（主權層：feedback + 溝通紀錄落進 repo）──────────────────────────
+// ── git archive (sovereignty layer: feedback + communication records stored in repo) ──────────────────────────
 function writeArchive(row, note) {
   const rel = archiveRelPath(row);
   try {
@@ -235,8 +237,8 @@ function fetchIssueComments(issueNumber) {
   }
 }
 
-// 掃 archive dir，把每筆已 filed 紀錄的 issue 新留言 sync 進 §溝通紀錄（人類維護者
-// 的回覆也進 git）。回傳更新的檔數。
+// Scan archive dir, sync new issue comments for each filed record into communication section (human maintainer
+// replies also go to git). Returns count of updated files.
 function syncArchiveComments() {
   if (!existsSync(ARCHIVE_ROOT)) return 0;
   let synced = 0;
@@ -293,7 +295,7 @@ async function main() {
     const tag = r.decision.toUpperCase().padEnd(6);
     if (r.decision === 'hold') {
       console.log(`  ${tag} id=${r.row.id} · ${r.reason}`);
-      continue; // status 不回寫(維持 new);cluster report 統一在迴圈後寫
+      continue; // status not written back (stays new); cluster report written after loop
     }
     if (r.decision === 'file') {
       console.log(`  ${tag} [${r.issue.type}] ${r.issue.title}`);
@@ -319,11 +321,11 @@ async function main() {
       if (args.commit && r.decision === 'reject') {
         await writeBackStatus(r.row.id, 'rejected', null, r.note);
       }
-      // skip(dup) 不改 status:留著下次再判（避免漏接真不同的回報）
+      // skip(dup) does not change status: left for next run to re-evaluate (avoids missing genuinely different reports)
     }
   }
 
-  // batch-cluster：每個 held slug 產 1 份 consolidated report 給維護者決策。
+  // batch-cluster: each held slug produces 1 consolidated report for maintainer decision.
   const clusters = new Map();
   for (const r of results) {
     if (r.decision !== 'hold') continue;
@@ -333,11 +335,11 @@ async function main() {
   for (const [slug, held] of clusters) {
     const rel = writeClusterReport(slug, held, mode);
     console.log(
-      `  HOLD→  cluster「${slug}」 ${held.length} 筆 → ${rel}${mode === 'COMMIT' ? '' : ' (dry-run)'}`,
+      `  HOLD-> cluster ${slug} ${held.length} entries → ${rel}${mode === 'COMMIT' ? '' : ' (dry-run)'}`,
     );
   }
 
-  // sync 既有 filed 紀錄的 issue 新留言（維護者回覆）進 git archive。
+  // Sync new issue comments (maintainer replies) from existing filed records into git archive.
   let commentsSynced = 0;
   if (args.commit) commentsSynced = syncArchiveComments();
 
