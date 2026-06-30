@@ -4,33 +4,33 @@
  *
  * Build-time silent-breakage detector for contributor display layer.
  *
- * 對齊 #1047 / PR #1052 review observation:
- *   contributor display 依賴兩個 standard layer 同步維護：
- *     .mailmap            — 同人多 commit identity 變體統一到 canonical name
+ * Aligns with #1047 / PR #1052 review observation:
+ *   contributor display depends on two standard layers maintained in sync:
+ *     .mailmap            — unifies multiple commit identity variants to canonical name
  *     .all-contributorsrc — canonical name → {login, name} lookup
  *
- *   任一漏掉 → silent break（URL 壞 / display 用 fallback authorName）。
+ *   Either missing -> silent break (URL broken / display uses fallback authorName).
  *
- * 本 script 跑 git log --use-mailmap 拿所有 canonical authors，對照
- * .all-contributorsrc 用 contributorKey lookup（跟 src/utils/contributors.ts
- * 同樣 normalization 邏輯），列出 missing/URL-unsafe case，出 warning。
+ * This script runs git log --use-mailmap to get all canonical authors, checks against
+ * .all-contributorsrc via contributorKey lookup (same normalization logic as
+ * src/utils/contributors.ts), lists missing/URL-unsafe cases as warnings.
  *
- * 紀律：
- *   - 不 auto-add（侵犯 all-contributors bot 工作流）
- *   - 不 fail build（exit 0）— warn-only，避免 contributor onboarding 卡 build
+ * Discipline:
+ *   - No auto-add (respects all-contributors bot workflow)
+ *   - No build failure (exit 0) — warn-only, avoids blocking contributor onboarding
  *
- * Hooked into npm run prebuild (跟 generate-contributors-data 平行).
+ * Hooked into npm run prebuild (parallel with generate-contributors-data).
  *
- * DNA refs (per #1052 哲宇 review):
- *   - REFLEXES #52 Immune fail-loud 比缺 immune 更危險
- *   - REFLEXES #43 derived 資料儀器化進生命週期觸發點
+ * DNA refs (per #1052 review):
+ *   - REFLEXES #52 Immune fail-loud is more dangerous than missing immune
+ *   - REFLEXES #43 derived data instrumented into lifecycle trigger points
  */
 
 import { readFileSync } from 'fs';
 import { resolve } from 'path';
 import { spawnSync } from 'child_process';
 
-// ── GitHub login spec (跟 src/utils/contributors.ts 對齊) ─────────────────────
+// ── GitHub login spec (aligned with src/utils/contributors.ts) ─────────────────────
 // alphanumeric + single hyphens, not start/end with hyphen, max 39 chars
 const GITHUB_LOGIN_REGEX = /^[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,37}[a-zA-Z0-9])?$/;
 
@@ -49,7 +49,7 @@ function loadProfiles() {
   const byKey = new Map();
   for (const c of config.contributors || []) {
     if (!c.login || !c.name) continue;
-    // 跟 src/utils/contributors.ts 同樣 set 兩個 key
+    // Same as src/utils/contributors.ts — set two keys
     byKey.set(contributorKey(c.name), c);
     byKey.set(contributorKey(c.login), c);
   }
@@ -58,8 +58,8 @@ function loadProfiles() {
 
 // ── Get all unique mailmap-aware authors ─────────────────────────────────────
 function getCanonicalAuthors() {
-  // %aN/%aE 走 .mailmap (跟 src/utils/contributors.ts 同 #1052)
-  // 用 spawnSync + array args 避開 shell parsing（| 在 Windows cmd 是 pipe）
+  // %aN/%aE uses .mailmap (same as src/utils/contributors.ts per #1052)
+  // spawnSync + array args avoids shell parsing (| is pipe in Windows cmd)
   const result = spawnSync('git', ['log', '--all', '--format=%aN|%aE'], {
     encoding: 'utf-8',
     maxBuffer: 50 * 1024 * 1024,
@@ -115,13 +115,13 @@ function main() {
 
     const profile = profiles.get(contributorKey(name));
     if (!profile) {
-      // canonical author 在 .all-contributorsrc 沒 entry
+      // canonical author has no entry in .all-contributorsrc
       missing.push({ name, email });
       continue;
     }
 
     if (!isUrlSafeLogin(profile.login)) {
-      // profile.login 本身就不 URL-safe（極罕見，但 safety check）
+      // profile.login itself is not URL-safe (extremely rare, safety check)
       unsafe.push({ name, login: profile.login });
     }
   }
@@ -139,7 +139,7 @@ function main() {
     '⚠️  verify-contributors: found missing/unsafe contributor entries',
   );
   console.warn(
-    '   (跟 contributors.ts 一樣 contributorKey lookup — 缺 entry 會走 fallback)',
+    '   (same contributorKey lookup as contributors.ts — missing entry uses fallback)',
   );
 
   if (missing.length > 0) {
@@ -149,12 +149,12 @@ function main() {
       console.warn(`     "${name}" <${email}>`);
     }
     console.warn('');
-    console.warn('   建議用 all-contributors bot 補：');
+    console.warn('   Suggested fix with all-contributors bot:');
     console.warn(
       '     @all-contributors please add @<github-login> for <contribution-type>',
     );
     console.warn(
-      '   (contribution 類型: code / content / doc / translation / bug / review / ...)',
+      '   (contribution type: code / content / doc / translation / bug / review / ...)',
     );
   }
 
