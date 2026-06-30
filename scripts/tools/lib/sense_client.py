@@ -6,9 +6,9 @@
 auth 路徑，不各自重打。
 
 憑證來源（沿用 fetch-ga4.py 慣例）:
-    ~/.config/taiwan-md/credentials/google-service-account.json
-    ~/.config/taiwan-md/credentials/.env  →  GA4_PROPERTY_ID / SC_SITE_URL
-    venv: ~/.config/taiwan-md/venv/（自動 re-exec）
+    ~/.config/lagunabeach-md/credentials/google-service-account.json
+    ~/.config/lagunabeach-md/credentials/.env  →  GA4_PROPERTY_ID / SC_SITE_URL
+    venv: ~/.config/lagunabeach-md/venv/（自動 re-exec）
 
 用法（在每支 script main 最前面）:
     import sys, pathlib
@@ -43,7 +43,7 @@ def fail(msg, code=1):
 
 
 def reexec_in_venv():
-    """Re-exec into ~/.config/taiwan-md/venv if it exists and we're not already in it.
+    """Re-exec into ~/.config/lagunabeach-md/venv if it exists and we're not already in it.
 
     Must be called BEFORE any google library import. venv python is usually a symlink
     to system python, so compare sys.prefix vs sys.base_prefix (Python's venv detection)

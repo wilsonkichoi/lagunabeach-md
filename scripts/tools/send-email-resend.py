@@ -2,7 +2,7 @@
 """
 send-email-resend.py — Resend API 寄信 helper
 
-從 ~/.config/taiwan-md/credentials/resend.key 讀 API key（永遠不從 stdin 接、不複述、
+從 ~/.config/lagunabeach-md/credentials/resend.key 讀 API key（永遠不從 stdin 接、不複述、
 不寫進 log），把 markdown 檔轉成 HTML email 寄出。
 
 Usage:
@@ -26,7 +26,7 @@ import urllib.error
 from pathlib import Path
 
 DEFAULT_FROM = 'Taiwan.md <onboarding@resend.dev>'
-KEY_PATH = Path.home() / ".config/taiwan-md/credentials/resend.key"
+KEY_PATH = Path.home() / ".config/lagunabeach-md/credentials/resend.key"
 RESEND_ENDPOINT = "https://api.resend.com/emails"
 
 

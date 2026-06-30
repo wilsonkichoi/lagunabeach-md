@@ -15,7 +15,7 @@ import argparse, json, os, sys, urllib.request, urllib.error
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent.parent.parent
-CREDS = Path.home() / ".config/taiwan-md/credentials"
+CREDS = Path.home() / ".config/lagunabeach-md/credentials"
 KEY_FILE = CREDS / "openrouter.key"
 ENV_FILE = CREDS / ".env"
 

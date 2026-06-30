@@ -15,7 +15,7 @@ fetch-search-events.py — 從 GA4 拉 search_query / search_result_click 事件
     python3 scripts/tools/fetch-search-events.py [--days 7]
 
 輸出:
-    ~/.config/taiwan-md/cache/search-events-latest.json
+    ~/.config/lagunabeach-md/cache/search-events-latest.json
     stdout: human-readable markdown report
 
 TODO 7 天後（4/21）跑這個工具看實際數據。
@@ -80,7 +80,7 @@ def main():
     except ImportError:
         fail(
             "google-analytics-data not installed. Install via:\n"
-            "  ~/.config/taiwan-md/venv/bin/pip install google-analytics-data google-auth"
+            "  ~/.config/lagunabeach-md/venv/bin/pip install google-analytics-data google-auth"
         )
 
     creds_path = CREDENTIALS_DIR / "google-service-account.json"

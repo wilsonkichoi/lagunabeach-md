@@ -34,7 +34,7 @@ done
 REPO_ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
 LAUNCHD_PLIST="$HOME/Library/LaunchAgents/md.taiwan.sense-fetch.plist"
 LAUNCHD_LABEL="md.taiwan.sense-fetch"
-LOG_FILE="$HOME/.config/taiwan-md/cache/fetch.log"
+LOG_FILE="$HOME/.config/lagunabeach-md/cache/fetch.log"
 
 case "$(uname -s)" in
   Darwin) PLATFORM=macos ;;

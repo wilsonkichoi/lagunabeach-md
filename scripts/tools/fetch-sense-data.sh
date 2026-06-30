@@ -10,14 +10,14 @@
 #   3. fetch-search-console.py (queries, pages, countries, devices)
 #
 # 結果寫到:
-#   ~/.config/taiwan-md/cache/cloudflare-latest.json
-#   ~/.config/taiwan-md/cache/ga4-latest.json
-#   ~/.config/taiwan-md/cache/search-console-latest.json
+#   ~/.config/lagunabeach-md/cache/cloudflare-latest.json
+#   ~/.config/lagunabeach-md/cache/ga4-latest.json
+#   ~/.config/lagunabeach-md/cache/search-console-latest.json
 #
 # 每個 source 獨立執行——某一個失敗不影響其他兩個。
 # 被 heartbeat Beat 1 的 sense 階段呼叫。
 #
-# 憑證位置: ~/.config/taiwan-md/credentials/（絕對不在 repo 內）
+# 憑證位置: ~/.config/lagunabeach-md/credentials/（絕對不在 repo 內）
 # 設定文件: docs/pipelines/SENSE-FETCHER-SETUP.md
 #
 # 2026-04-11 session α 建造
@@ -56,10 +56,10 @@ echo -e "${DIM}═════════════════════�
 echo ""
 
 # Check config dir exists
-CONFIG_DIR="$HOME/.config/taiwan-md"
+CONFIG_DIR="$HOME/.config/lagunabeach-md"
 if [[ ! -d "$CONFIG_DIR/credentials" ]]; then
   echo -e "${RED}❌ ${CONFIG_DIR}/credentials 不存在${RST}"
-  echo "   先跑: mkdir -p ~/.config/taiwan-md/{credentials,cache}"
+  echo "   先跑: mkdir -p ~/.config/lagunabeach-md/{credentials,cache}"
   echo "   然後看: docs/pipelines/SENSE-FETCHER-SETUP.md"
   exit 1
 fi
@@ -124,7 +124,7 @@ if [ -n "$YESTERDAY" ] && [ -f "$CONFIG_DIR/cache/cloudflare-$YESTERDAY.json" ];
   echo ""
 fi
 
-echo -e "${DIM}用 \`cat ~/.config/taiwan-md/cache/*-latest.json | jq\` 檢視完整資料${RST}"
+echo -e "${DIM}用 \`cat ~/.config/lagunabeach-md/cache/*-latest.json | jq\` 檢視完整資料${RST}"
 echo -e "${DIM}用 \`python3 scripts/tools/sense-diff.py [before_date] [after_date]\` 比較兩天${RST}"
 
 rm -f /tmp/cf-summary.json /tmp/cf-err /tmp/ga4-summary.json /tmp/ga4-err /tmp/sc-summary.json /tmp/sc-err

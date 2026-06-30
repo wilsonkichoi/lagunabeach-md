@@ -5,7 +5,7 @@
 在長還是在縮**。對應 MANIFESTO §主權的巴別塔 —— 第一人稱的台灣聲音有沒有滲進 AI 的
 認知基質（讓 PRC 模型沉默不了台灣）。
 
-資料來源：fetch-cloudflare.py 已抓好的 `~/.config/taiwan-md/cache/cloudflare-YYYY-MM-DD.json`
+資料來源：fetch-cloudflare.py 已抓好的 `~/.config/lagunabeach-md/cache/cloudflare-YYYY-MM-DD.json`
 的 `ai_crawlers`（每檔 ~1 天）。不重抓，讀 cache。
 
 主權 lens：把 crawler vendor 分桶

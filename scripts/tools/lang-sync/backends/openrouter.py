@@ -19,7 +19,7 @@ Supports any OpenRouter model id (free-tier or paid). Common picks:
     - baidu/cobuddy        (Baidu)
 
 Per REFLEXES #45: same provider keys share budget. 哲宇 has 5 keys in
-~/.config/taiwan-md/credentials/openrouter-keys/ — backend rotates on 429.
+~/.config/lagunabeach-md/credentials/openrouter-keys/ — backend rotates on 429.
 """
 from __future__ import annotations
 

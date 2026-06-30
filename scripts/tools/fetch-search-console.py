@@ -6,17 +6,17 @@ fetch-search-console.py — 抓 Google Search Console 資料
     python3 scripts/tools/fetch-search-console.py [--days 28]
 
 憑證:
-    跟 fetch-ga4.py 共用 ~/.config/taiwan-md/credentials/google-service-account.json
+    跟 fetch-ga4.py 共用 ~/.config/lagunabeach-md/credentials/google-service-account.json
     需要把 service account email 加到 Search Console 的使用者權限（Restricted 即可）
 
 Site URL:
-    ~/.config/taiwan-md/credentials/.env 裡的 SC_SITE_URL
+    ~/.config/lagunabeach-md/credentials/.env 裡的 SC_SITE_URL
     格式: 'sc-domain:taiwan.md' (Domain property)
     或    'https://taiwan.md/' (URL prefix property)
 
 輸出:
-    ~/.config/taiwan-md/cache/search-console-latest.json
-    ~/.config/taiwan-md/cache/search-console-{YYYY-MM-DD}.json
+    ~/.config/lagunabeach-md/cache/search-console-latest.json
+    ~/.config/lagunabeach-md/cache/search-console-{YYYY-MM-DD}.json
 
 依賴:
     google-api-python-client

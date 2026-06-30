@@ -1,7 +1,42 @@
 {
-  "generatedAt": "2026-06-30T21:06:06.790Z",
+  "generatedAt": "2026-06-30T21:56:18.488Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "afb998aa5f4400cf8434885c2e8e63303ecb083a",
+      "date": "2026-06-30T14:55:49-07:00",
+      "author": "Wilson Choi",
+      "message": "Revert \"refactor(de-taiwan): mechanical CJK translation pass on scripts/\"",
+      "articles": []
+    },
+    {
+      "hash": "9fde6a23b71f34fcd2142453cc6e10ea9add9ad6",
+      "date": "2026-06-30T14:55:22-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(de-taiwan): mechanical CJK translation pass on scripts/",
+      "articles": []
+    },
+    {
+      "hash": "55a953a1a5c77a94485618fd58bb8eb8de2297ca",
+      "date": "2026-06-30T14:21:56-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(de-taiwan): translate non-i18n CJK strings in src/ to English",
+      "articles": []
+    },
+    {
+      "hash": "35eb55e773597508b1d8c67c129440bad2063409",
+      "date": "2026-06-30T14:09:45-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(cli): port twmd.mjs → lb.mjs (English, LB-grounded)",
+      "articles": []
+    },
+    {
+      "hash": "8418548fe7fb74a4b39b69585d3638ec7693bd4b",
+      "date": "2026-06-30T14:07:23-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(de-taiwan): delete Taiwan-specific dead code + empty feedbacks + remove cartogram",
+      "articles": []
+    },
     {
       "hash": "c6d4be33e015efc9a5d52343032cf4ba4e46c9c8",
       "date": "2026-06-29T23:23:39-07:00",

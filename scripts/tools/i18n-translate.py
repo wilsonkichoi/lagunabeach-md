@@ -16,7 +16,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent.parent
 I18N_DIR = REPO / "src/i18n"
-CREDS = Path.home() / ".config/taiwan-md/credentials"
+CREDS = Path.home() / ".config/lagunabeach-md/credentials"
 KEY_FILE = CREDS / "openrouter.key"
 ENV_FILE = CREDS / ".env"
 

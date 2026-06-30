@@ -12,7 +12,7 @@ converter-analytics.py — 台灣用語轉換器 (/terminology/*) 的 GA4 + Sear
 用法:
     python3 scripts/tools/converter-analytics.py            # 90d + 28d
     python3 scripts/tools/converter-analytics.py --json     # 純 JSON 輸出
-憑證 / venv 同 fetch-ga4.py（~/.config/taiwan-md/）。
+憑證 / venv 同 fetch-ga4.py（~/.config/lagunabeach-md/）。
 來源: 2026-06-13 converter-research session
 """
 import json

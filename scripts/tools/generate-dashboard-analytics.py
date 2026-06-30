@@ -3,9 +3,9 @@
 generate-dashboard-analytics.py — Merge sense cache → public/api/dashboard-analytics.json
 
 Reads the three-source cache built by fetch-sense-data.sh:
-  ~/.config/taiwan-md/cache/ga4-latest.json
-  ~/.config/taiwan-md/cache/search-console-latest.json
-  ~/.config/taiwan-md/cache/cloudflare-latest.json
+  ~/.config/lagunabeach-md/cache/ga4-latest.json
+  ~/.config/lagunabeach-md/cache/search-console-latest.json
+  ~/.config/lagunabeach-md/cache/cloudflare-latest.json
 
 And merges them into the hand-maintained dashboard-analytics.json, preserving
 any sections we don't own (cloudflare24h breakdowns, hand-written highlights, etc).

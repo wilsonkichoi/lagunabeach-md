@@ -6,7 +6,7 @@ fetch-cloudflare.py — 抓 Cloudflare Analytics 資料（Free tier 友善）
     python3 scripts/tools/fetch-cloudflare.py [--days 1]
 
 憑證來源（優先序）:
-    1. ~/.config/taiwan-md/credentials/.env 裡的 CF_API_TOKEN, CF_ZONE_ID
+    1. ~/.config/lagunabeach-md/credentials/.env 裡的 CF_API_TOKEN, CF_ZONE_ID
     2. 環境變數 CF_API_TOKEN, CF_ZONE_ID
 
 Token 需要的權限:
@@ -15,8 +15,8 @@ Token 需要的權限:
     - Zone Resources: Specific zone = taiwan.md
 
 輸出:
-    ~/.config/taiwan-md/cache/cloudflare-latest.json
-    ~/.config/taiwan-md/cache/cloudflare-{YYYY-MM-DD}.json
+    ~/.config/lagunabeach-md/cache/cloudflare-latest.json
+    ~/.config/lagunabeach-md/cache/cloudflare-{YYYY-MM-DD}.json
 
 這個版本（v2, 2026-04-11）:
     - 改用 httpRequests1dGroups（Free tier 可用）
@@ -75,7 +75,7 @@ SETUP_GUIDE = "docs/pipelines/SENSE-FETCHER-SETUP.md"
 
 
 def load_env():
-    """Load env vars from ~/.config/taiwan-md/credentials/.env"""
+    """Load env vars from ~/.config/lagunabeach-md/credentials/.env"""
     env = dict(os.environ)
     if ENV_FILE.exists():
         for line in ENV_FILE.read_text().splitlines():
@@ -584,7 +584,7 @@ def main():
         if ENV_FILE.resolve().is_relative_to(Path.cwd().resolve()):
             fail(
                 "SECURITY: credentials .env file is inside the repo! "
-                "Move it to ~/.config/taiwan-md/credentials/.env"
+                "Move it to ~/.config/lagunabeach-md/credentials/.env"
             )
     except AttributeError:
         # Python < 3.9 doesn't have is_relative_to

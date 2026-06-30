@@ -6,23 +6,23 @@ fetch-ga4.py — 抓 Google Analytics 4 (taiwan.md) 的關鍵指標
     python3 scripts/tools/fetch-ga4.py [--days 1]
 
 憑證來源（優先序）:
-    1. ~/.config/taiwan-md/credentials/google-service-account.json
+    1. ~/.config/lagunabeach-md/credentials/google-service-account.json
     2. 環境變數 GOOGLE_APPLICATION_CREDENTIALS
 
 屬性 ID 來源:
-    ~/.config/taiwan-md/credentials/.env 裡的 GA4_PROPERTY_ID
+    ~/.config/lagunabeach-md/credentials/.env 裡的 GA4_PROPERTY_ID
 
 輸出:
-    ~/.config/taiwan-md/cache/ga4-latest.json
-    ~/.config/taiwan-md/cache/ga4-{YYYY-MM-DD}.json
+    ~/.config/lagunabeach-md/cache/ga4-latest.json
+    ~/.config/lagunabeach-md/cache/ga4-{YYYY-MM-DD}.json
 
 依賴:
     google-analytics-data
     google-auth
 
-    推薦安裝到 ~/.config/taiwan-md/venv/:
-        python3 -m venv ~/.config/taiwan-md/venv
-        ~/.config/taiwan-md/venv/bin/pip install google-analytics-data google-auth
+    推薦安裝到 ~/.config/lagunabeach-md/venv/:
+        python3 -m venv ~/.config/lagunabeach-md/venv
+        ~/.config/lagunabeach-md/venv/bin/pip install google-analytics-data google-auth
 
     script 會自動偵測這個 venv 並使用。
 
@@ -63,7 +63,7 @@ def fail(msg, code=1):
 
 
 def reexec_in_venv():
-    """If a venv exists at ~/.config/taiwan-md/venv, re-exec this script with its python.
+    """If a venv exists at ~/.config/lagunabeach-md/venv, re-exec this script with its python.
 
     Note: venv python is typically a symlink to the system python, so we can't compare
     executable paths (.resolve() would collapse both sides). Instead use sys.prefix vs

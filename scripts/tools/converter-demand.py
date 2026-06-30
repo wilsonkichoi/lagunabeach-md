@@ -50,9 +50,9 @@ Data API 引用方式：customEvent:term_id、customEvent:direction、customEven
 
 輸出:
     人類可讀 section 報表（同 converter-analytics.py 風格）
-    raw JSON → ~/.config/taiwan-md/cache/converter-demand-latest.json
+    raw JSON → ~/.config/lagunabeach-md/cache/converter-demand-latest.json
 
-憑證 / venv 同 fetch-ga4.py（~/.config/taiwan-md/credentials/）。
+憑證 / venv 同 fetch-ga4.py（~/.config/lagunabeach-md/credentials/）。
 來源: 2026-06-13 converter-demand-loop session
 """
 import json

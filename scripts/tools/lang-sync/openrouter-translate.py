@@ -15,14 +15,14 @@ Usage:
     # Override model (default: openai/gpt-oss-120b:free)
     python3 openrouter-translate.py --group ... --model "deepseek/deepseek-chat:free"
 
-Requires: ~/.config/taiwan-md/credentials/openrouter.key
+Requires: ~/.config/lagunabeach-md/credentials/openrouter.key
 """
 import argparse, json, os, re, sys, time, urllib.request, urllib.error
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent.parent.parent
 KNOWLEDGE = REPO / "knowledge"
-CREDS_DIR = Path.home() / ".config/taiwan-md/credentials"
+CREDS_DIR = Path.home() / ".config/lagunabeach-md/credentials"
 KEY_FILE = CREDS_DIR / "openrouter.key"
 ENV_FILE = CREDS_DIR / ".env"
 DEFAULT_MODEL = "openai/gpt-oss-120b:free"

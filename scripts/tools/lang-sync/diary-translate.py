@@ -39,7 +39,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent.parent.parent
 DIARY_ZH = REPO / "docs/semiont/diary"
-CREDS = Path.home() / ".config/taiwan-md/credentials"
+CREDS = Path.home() / ".config/lagunabeach-md/credentials"
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
 # OLLAMA endpoint + model are env-overridable so the cascade can target a remote
 # Ollama (e.g. the RTX 5090 box over an SSH tunnel) without editing this file.
@@ -95,9 +95,9 @@ def _all_keys() -> list[tuple[str, str]]:
 
     Sources priority:
       1. OPENROUTER_API_KEY env var (id="env")
-      2. ~/.config/taiwan-md/credentials/openrouter-keys/*.key (id=basename)
-      3. ~/.config/taiwan-md/credentials/openrouter.key (id="default")
-      4. ~/.config/taiwan-md/credentials/.env line OPENROUTER_API_KEY= (id="env-file")
+      2. ~/.config/lagunabeach-md/credentials/openrouter-keys/*.key (id=basename)
+      3. ~/.config/lagunabeach-md/credentials/openrouter.key (id="default")
+      4. ~/.config/lagunabeach-md/credentials/.env line OPENROUTER_API_KEY= (id="env-file")
     """
     keys: list[tuple[str, str]] = []
     if os.environ.get("OPENROUTER_API_KEY"):
