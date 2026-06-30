@@ -61,7 +61,7 @@ DEFAULT_WORDS_PER_MEDIA = 400
 _RE_INLINE_IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)\n]+)\)")
 # 2026-06-04: count 影片 iframe toward the media threshold (哲宇「圖+影片」directive).
 _RE_IFRAME = re.compile(r"<iframe[\s>]", re.IGNORECASE)
-_RE_IMAGE_SOURCES_H2 = re.compile(r"^##\s*圖片來源", re.MULTILINE)
+_RE_IMAGE_SOURCES_H2 = re.compile(r"^##\s*(?:Image Sources|圖片來源)", re.MULTILINE)
 _RE_CJK = re.compile(r"[一-鿿㐀-䶿]")
 _RE_WORD = re.compile(r"[A-Za-z0-9'-]+")
 # length-scaling 用 prose-CJK (strip 參考資料 footnote 段) — footnotes 可 inflate CJK ~25%
@@ -146,9 +146,9 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
         check=CHECK_NAME,
         severity=Severity.INFO,
         message=(
-            f"圖片統計：{inline_count} inline + "
+            f"Image stats: {inline_count} inline + "
             f"{1 if has_fm_image else 0} hero (frontmatter) = "
-            f"{total_images} 張"
+            f"{total_images} total"
         ),
         editorial_ref=EDITORIAL_REF,
     )
@@ -163,8 +163,8 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
                     check=CHECK_NAME,
                     severity=Severity.HARD,
                     message=(
-                        "外部圖片熱連結 — 圖片應 cache 到 public/article-images/"
-                        " 並改 src=`/article-images/...`"
+                        "External image hot-link — cache to public/article-images/"
+                        " and use src=`/article-images/...`"
                     ),
                     line=line_no,
                     snippet=src[:80],
@@ -180,7 +180,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             yield Violation(
                 check=CHECK_NAME,
                 severity=Severity.HARD,
-                message=f"圖片檔不存在: {src}",
+                message=f"Image file not found: {src}",
                 line=line_no,
                 snippet=src[:80],
                 editorial_ref=EDITORIAL_REF,
@@ -195,12 +195,12 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
                 yield Violation(
                     check=CHECK_NAME,
                     severity=Severity.HARD,
-                    message=f"frontmatter image 檔不存在: {src}",
+                    message=f"Frontmatter image file not found: {src}",
                     snippet=src[:80],
                     editorial_ref=EDITORIAL_REF,
                 )
 
-    # ── 3. ## 圖片來源 section when CC attribution exists ────────────────────
+    # ── 3. ## Image Sources section when CC attribution exists ─────────────────
     has_attribution = (
         target.frontmatter.get("imageCredit")
         or target.frontmatter.get("imageLicense")
@@ -211,26 +211,26 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             check=CHECK_NAME,
             severity=Severity.WARN,
             message=(
-                "frontmatter 有 imageCredit/imageLicense/imageSource 但缺 "
-                "`## 圖片來源` section (CC 圖片需 cite 來源)"
+                "Frontmatter has imageCredit/imageLicense/imageSource but missing "
+                "`## Image Sources` section (CC images require source citation)"
             ),
             editorial_ref=EDITORIAL_REF,
         )
 
-    # ── 3.5 caption render：HTML block 緊接 _caption_ 無空行 (italic 不 render) ──
+    # ── 3.5 caption render: HTML block immediately followed by _caption_ without blank line ──
     for m in _RE_CAPTION_NO_BLANK.finditer(body):
         line_no = body.count("\n", 0, m.start()) + 1
         yield Violation(
             check=CHECK_NAME,
             severity=Severity.WARN,
             message=(
-                "影片/HTML caption 缺空行：`</div>`／`</iframe>` 緊接 `_caption_` "
-                "無空行 → markdown 不 render italic (底線變字面字元)。"
+                "Video/HTML caption missing blank line: `</div>`/`</iframe>` followed by "
+                "`_caption_` without blank line — markdown won't render italic."
             ),
             line=line_no,
-            snippet="</div>↵_caption_  (應 </div>↵↵_caption_)",
-            editorial_ref="REWRITE-PIPELINE Step 4.3.6 iframe caption 格式",
-            fix_suggestion="在 </div> 跟 _caption_ 之間補一個空行 (對齊 陳建年 working pattern)。",
+            snippet="</div>↵_caption_  (should be </div>↵↵_caption_)",
+            editorial_ref="REWRITE-PIPELINE Step 4.3.6 iframe caption format",
+            fix_suggestion="Add a blank line between </div> and _caption_.",
         )
 
     # ── 4. Min image count gate (depth article media rhythm) ──────────────────
@@ -257,7 +257,6 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
         iframe_count = len(_RE_IFRAME.findall(body))
         media_total = total_images + iframe_count
         if media_total >= min_images and total_images == 0:
-            # 媒體夠但 0 靜態圖 — OG card / poster 缺素材 (影片 thumbnail 不可靠)
             yield Violation(
                 check=CHECK_NAME,
                 severity=_parse_severity(
@@ -265,46 +264,44 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
                     Severity(DEFAULT_MIN_IMAGES_SEVERITY),
                 ),
                 message=(
-                    f"缺靜態圖：{iframe_count} 影片但 0 圖 — 至少補 1 張 hero "
-                    "(OG 社群卡 / spore poster 需靜態圖，影片 thumbnail 不可靠)"
+                    f"No static images: {iframe_count} videos but 0 images — "
+                    "add at least 1 hero image (OG card / poster needs a static image)"
                 ),
-                fix_suggestion="補 1 張 hero 圖 (frontmatter image:) 即可解，影片仍計入媒體總量。",
+                fix_suggestion="Add 1 hero image (frontmatter image:); videos still count toward media total.",
                 editorial_ref=EDITORIAL_REF,
             )
         elif media_total < min_images:
             if media_total == 0:
-                # 0 media = broken article (always HARD by default)
                 sev = _parse_severity(
                     options.get("zero_images_severity"),
                     Severity(DEFAULT_ZERO_IMAGES_SEVERITY),
                 )
                 msg_detail = (
-                    f"0 媒體 — depth article 應至少 hero + scene-mid / 影片共 "
-                    f"{min_images} (per REWRITE-PIPELINE Step 4.3.1 三段敘事節奏)"
+                    f"0 media — depth article needs at least hero + scene-mid / video = "
+                    f"{min_images} (per REWRITE-PIPELINE Step 4.3.1)"
                 )
             else:
-                # 1-2 media = below ideal (configurable WARN/HARD)
                 sev = _parse_severity(
                     options.get("min_images_severity"),
                     Severity(DEFAULT_MIN_IMAGES_SEVERITY),
                 )
                 msg_detail = (
-                    f"媒體不足：圖 {total_images} + 影片 {iframe_count} = {media_total} "
-                    f"< {min_images} 下限 (depth article 理想 hero + 1-2 scene-mid / "
-                    f"官方影片，per REWRITE-PIPELINE Step 4.3.1 三段敘事節奏)"
+                    f"Insufficient media: images {total_images} + videos {iframe_count} = {media_total} "
+                    f"< {min_images} minimum (depth article needs hero + 1-2 scene-mid / "
+                    f"video, per REWRITE-PIPELINE Step 4.3.1)"
                 )
             yield Violation(
                 check=CHECK_NAME,
                 severity=sev,
                 message=msg_detail,
                 fix_suggestion=(
-                    "走 REWRITE-PIPELINE Stage 1 Step 1.14 媒體素材研究："
-                    "(1) PD/CC 圖庫 cache 進 public/article-images/{category}/ "
-                    "(2) check-aspect.sh 通過 hero 0.9-2.0 / inline 0.75-2.5 護欄 "
-                    "(3) Stage 4 Step 4.3 插入文章 (hero + scene-mid 三段節奏) "
-                    "(4) §圖片來源 section 標 CC license + 攝影者。"
-                    "找不到 PD/CC → fair use editorial commentary scope "
-                    "(per Step 1.14.2 第 8 點)"
+                    "Follow REWRITE-PIPELINE Stage 1 Step 1.14 media research: "
+                    "(1) cache PD/CC images to public/article-images/{category}/ "
+                    "(2) pass check-aspect.sh hero 0.9-2.0 / inline 0.75-2.5 guardrails "
+                    "(3) Stage 4 Step 4.3 insert into article (hero + scene-mid rhythm) "
+                    "(4) ## Image Sources section with CC license + photographer. "
+                    "No PD/CC available → fair use editorial commentary scope "
+                    "(per Step 1.14.2)"
                 ),
                 editorial_ref=EDITORIAL_REF,
             )

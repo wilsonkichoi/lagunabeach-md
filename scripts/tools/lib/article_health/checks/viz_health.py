@@ -1,23 +1,19 @@
-"""viz-health — 文章內視覺化模組的可信度 + AI 可讀性閘門（REWRITE Stage 4）。
+"""viz-health — visualization module credibility + AI readability gate (REWRITE Stage 4).
 
-儀器化 docs/editorial/graph.md §七 視覺化檢查清單的兩條可機檢項目（其餘靠人工
-preview）：
+Two machine-checkable items from graph.md visualization checklist:
 
-  A. 資料視覺化模組必標來源
-     tw-bars / tw-waffle / tw-line / tw-heatmap / tw-figure / tw-stat 這些「呈現
-     資料關係」的模組，每個都該有來源（在 fenced block 內加一列 `來源：機構，年份`
-     會自動變成模組下方的來源 caption）。沒有 = 可信度破口 + AI 引用時無從追溯。
-     對應 graph.md §三.8 + The Pudding「transparency as trust」原則。
+  A. Data visualization modules must cite source
+     tw-bars / tw-waffle / tw-line / tw-heatmap etc. — each needs a source line
+     (`Source: org, year` inside the fenced block renders as caption below the module).
+     Missing = credibility gap + AI crawlers can't trace provenance.
 
-  B. 禁「如上圖／如下圖」AI-blind 指示語
-     GPTBot / PerplexityBot / ClaudeBot 不跑 JS、看不到圖。「如上圖所示」這種句子
-     對 AI 爬蟲毫無意義，且關鍵數值若只在圖裡，LLM 提取不到 → 違反 Taiwan.md 的
-     AI-SEO / 主權使命（「讓 LLM 讀得懂的視覺化 = 主權的視覺化」）。關鍵數值要也
-     寫進 prose，指示語改成具體結論或「見下表」。
+  B. Forbid AI-blind deixis ("as shown above/below")
+     GPTBot / PerplexityBot / ClaudeBot don't run JS, can't see charts. Deixis like
+     "as shown above" is meaningless to AI crawlers; key figures must also appear in
+     prose text.
 
-設計脈絡：reports/article-visualization-design-2026-06-06.md §9.1。
-DEFAULT WARN（soft-launch；legacy 文章可能含 violation，且 B 句式偶有 dual-use）。
-待 vc≥3 production case 後評估是否對 rewrite-stage-4 升 HARD（per chronicle-lead pattern）。
+DEFAULT WARN (soft-launch; legacy articles may contain violations, B-patterns
+occasionally dual-use).
 """
 
 from __future__ import annotations
@@ -30,13 +26,13 @@ from ..types import FileTarget, Severity, Violation
 CHECK_NAME = "viz-health"
 DIMENSION = "visualization"
 DEFAULT_SEVERITY = Severity.WARN
-EDITORIAL_REF = "graph.md §七 視覺化檢查清單 + §六 AI 可讀性"
-APPLIES_TO = ["zh-TW"]  # 中文 SSOT 檢查；翻譯沿用幾何，文字由 babel 處理
+EDITORIAL_REF = "graph.md §七 + §六 AI readability"
+APPLIES_TO = ["en", "zh-TW"]
 
-# 呈現「資料關係」的圖表模組 → 強制標來源（用 `來源：…` 列）。
-# tw-figure / tw-stat 是關鍵數字 callout，來源走自身 positional slot，不在此強制集。
-# 2026-06-12 viz-evolution：+slope/dot/stack/pyramid/tiles/iso（graph.md v2.0 新六圖表模組）。
+# Data-relationship chart modules requiring source citation.
+# tw-bar is LB's module name; keep both tw-bar and tw-bars for compat.
 _DATA_MODULES = {
+    "tw-bar",
     "tw-bars",
     "tw-waffle",
     "tw-line",
@@ -49,16 +45,28 @@ _DATA_MODULES = {
     "tw-iso",
 }
 
-# fenced tw-* block：```tw-xxx\n …內容… \n```
+# fenced tw-* block: ```tw-xxx\n ...content... \n```
 _FENCE_RE = re.compile(r"```(tw-[a-z]+)[^\n]*\n(.*?)```", re.DOTALL)
 
-# 來源列：來源：… / 資料來源：… / source: …（中英冒號）
-_SRC_RE = re.compile(r"(?:資料來源|來源|source)\s*[:：]\s*\S", re.IGNORECASE)
+# Source label: Source: / Data source: / 來源 / 資料來源
+_SRC_RE = re.compile(
+    r"(?:Data\s+source|Source|資料來源|來源)\s*[:：]\s*\S", re.IGNORECASE
+)
 
-# AI-blind 指示語：如上圖 / 見下圖 / 如圖所示 / 上圖所示 / 下圖顯示 …
-_AIBLIND_RE = re.compile(
+# AI-blind deixis — zh-TW patterns
+_AIBLIND_ZH_RE = re.compile(
     r"(?:如|見|參見)(?:上|下|左|右)?圖(?:所示)?"
     r"|(?:上|下)圖(?:所示|顯示|可見|中)"
+)
+
+# AI-blind deixis — English patterns
+_AIBLIND_EN_RE = re.compile(
+    r"as\s+shown\s+(?:above|below)"
+    r"|see\s+the\s+(?:chart|figure|graph|table|image|map)\s+(?:above|below)"
+    r"|the\s+(?:chart|figure|graph)\s+above\s+shows"
+    r"|pictured\s+(?:above|below)"
+    r"|in\s+the\s+(?:chart|figure|table)\s+below",
+    re.IGNORECASE,
 )
 
 
@@ -67,7 +75,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
     if not body.strip():
         return
 
-    # ── A. 資料視覺化模組缺來源 ──────────────────────────────────────────
+    # ── A. Data visualization module missing source ──────────────────────
     for m in _FENCE_RE.finditer(body):
         lang = m.group(1)
         content = m.group(2)
@@ -77,39 +85,41 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
                 check=CHECK_NAME,
                 severity=DEFAULT_SEVERITY,
                 message=(
-                    f"資料視覺化模組 `{lang}` 缺來源標註 — 在 fenced block 內加一列 "
-                    f"`來源：機構，年份`（可信度 + 讓 AI 引用時可追溯來源）。"
+                    f"Data visualization module `{lang}` missing source citation — "
+                    f"add a `Source: org, year` line inside the fenced block "
+                    f"(credibility + lets AI crawlers trace provenance)."
                 ),
                 line=line_no,
                 snippet=f"```{lang} …",
                 editorial_ref=EDITORIAL_REF,
                 fix_suggestion=(
-                    "在該 ```"
-                    f"{lang}"
-                    "``` 區塊內加一列 `來源：…`，會自動渲染成模組下方的來源 caption。"
+                    f"Add a `Source: ...` line inside the ```{lang}``` block; "
+                    f"it renders as a source caption below the module."
                 ),
             )
 
-    # ── B. 「如上圖／如下圖」AI-blind 指示語 ─────────────────────────────
+    # ── B. AI-blind deixis ───────────────────────────────────────────────
     masked = target.body_without_protected()
     for line_no, line in enumerate(masked.split("\n"), start=1):
         if not line.strip():
             continue
-        m = _AIBLIND_RE.search(line)
-        if not m:
+        hit = _AIBLIND_ZH_RE.search(line) or _AIBLIND_EN_RE.search(line)
+        if not hit:
             continue
         yield Violation(
             check=CHECK_NAME,
             severity=DEFAULT_SEVERITY,
             message=(
-                f"AI 爬蟲讀不到圖：「{m.group(0)}」這種指示語對 GPTBot/PerplexityBot "
-                f"/ClaudeBot 無意義（它們看不到圖）。關鍵數值要也寫進 prose。"
+                f"AI crawlers can't see charts: '{hit.group(0)}' is meaningless to "
+                f"GPTBot/PerplexityBot/ClaudeBot (they don't render JS). "
+                f"Key figures must also appear in prose text."
             ),
             line=line_no,
             snippet=line.strip()[:90],
             editorial_ref=EDITORIAL_REF,
             fix_suggestion=(
-                "把「如上圖」改成具體數值或結論；要指向資料就用「見下表」並把數字"
-                "寫進文字，讓 LLM 也提取得到。"
+                "Replace deixis with concrete values or conclusions; "
+                "reference data with 'see table below' and write the numbers "
+                "in prose so LLMs can extract them."
             ),
         )

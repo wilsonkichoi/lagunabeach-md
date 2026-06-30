@@ -3,16 +3,15 @@
 Migrated from `scripts/core/test-frontmatter.mjs::checkTitleFormat`
 (2026-05-04 SSOT Phase 3).
 
-Canonical: docs/editorial/EDITORIAL.md §Title 五原則 + §半形標點禁用
+Canonical: docs/editorial/EDITORIAL.md §5 SEO Metadata + §6 Voice
 
 Yields multiple violations (different severities) from a single check:
-  - HARD: half-width punct in CJK title context (silent rendering issue)
-  - WARN: vague adjective in title (per EDITORIAL §原則 3)
-  - WARN: title length > 45 effective chars (EDITORIAL recommends ≤ 35)
-  - WARN (People only): missing colon sandwich (per EDITORIAL §原則 5)
-  - WARN (People only): post-colon part < 8 weight (per EDITORIAL §原則 4)
-
-Translations (en/ja/ko/es/fr) follow source-lang conventions — APPLIES_TO=zh-TW.
+  - HARD: half-width punct in CJK title context (silent rendering issue) [zh-TW]
+  - WARN: vague adjective in title [en + zh-TW, lang-specific lists]
+  - WARN: title length [en: raw chars > 60; zh-TW: effective length > 45]
+  - WARN (People only): missing colon sandwich (per EDITORIAL §原則 5) [zh-TW]
+  - WARN (People only): post-colon part < 8 weight (per EDITORIAL §原則 4) [zh-TW]
+  - HARD: missing subcategory [both]
 """
 
 from __future__ import annotations
@@ -25,19 +24,11 @@ from ..types import FileTarget, Severity, Violation
 CHECK_NAME = "frontmatter-title"
 DIMENSION = "frontmatter"
 DEFAULT_SEVERITY = Severity.WARN  # most checks are warn; HARD ones override per-violation
-EDITORIAL_REF = "EDITORIAL.md §Title 五原則"
-APPLIES_TO = ["zh-TW"]
+EDITORIAL_REF = "EDITORIAL.md §5 SEO Metadata"
+APPLIES_TO = ["en", "zh-TW"]
 
-# Per EDITORIAL §原則 3 canonical 禁用清單. 「神話 / 不朽 / 永恆」等
-# 沒列在這裡的詞可能是文章本身的 subject (如《原住民神話》、《不朽記憶》).
-# 擴充先讀 docs/editorial/EDITORIAL.md §原則 3.
-#
-# 2026-05-11 admiring-montalcini: 移除「國民」(per 哲宇 callout
-# 「『國民飲料』是正確的形容」)。「國民」在中文裡多為 noun modifier
-# (國民飲料 / 國民義務 / 國民教育) 而非純評價詞，跟「傳奇 / 偉大 / 最強 /
-# 天后」等不同。誤殺 case：蘋果西打 EVOLVE title「60 年國民氣泡飲」
-# 被誤判為空泛詞但實為 idiom。
-TITLE_VAGUE_ADJECTIVES: list[str] = [
+# zh-TW vague adjectives (EDITORIAL §原則 3)
+TITLE_VAGUE_ADJECTIVES_ZH: list[str] = [
     "傳奇",
     "偉大",
     "優秀",
@@ -45,12 +36,25 @@ TITLE_VAGUE_ADJECTIVES: list[str] = [
     "天后",
 ]
 
+# en vague adjectives (EDITORIAL §6 Voice — conservative subset)
+TITLE_VAGUE_ADJECTIVES_EN: list[str] = [
+    "iconic",
+    "legendary",
+    "world-class",
+    "must-see",
+    "hidden gem",
+    "ultimate",
+]
+
+_EN_VAGUE_RE = re.compile(
+    r"\b(?:" + "|".join(re.escape(a) for a in TITLE_VAGUE_ADJECTIVES_EN) + r")\b",
+    re.IGNORECASE,
+)
+
 CJK_RE = re.compile(r"[一-鿿㐀-䶿]")
 
 # Half-width punctuation in CJK title context — HARD violations.
-# Mirror of `cjk_punct` plugin's title-side patterns. Both sides require CJK
-# (or right-side digit for the comma/colon variants) to avoid false positives
-# on English citation text.
+# CJK lookbehind means inert on en articles, live on zh-TW.
 _HALFWIDTH_PUNCT: list[tuple[re.Pattern, str, str]] = [
     (re.compile(r"(?<=[一-鿿㐀-䶿]),(?=[一-鿿㐀-䶿]|[0-9])"), ",", "，"),
     (re.compile(r"(?<=[一-鿿㐀-䶿]):(?=[一-鿿㐀-䶿]|[0-9])"), ":", "："),
@@ -73,45 +77,60 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
     if not isinstance(title, str) or not title.strip():
         return
 
-    # 1. Half-width punct in title (HARD — silent rendering issue)
+    is_en = target.lang == "en"
+
+    # 1. Half-width punct in title (HARD) — CJK lookbehind makes it inert on en
     for pattern, half, full in _HALFWIDTH_PUNCT:
         for m in pattern.finditer(title):
             yield Violation(
                 check=CHECK_NAME,
                 severity=Severity.HARD,
                 message=(
-                    f"title 含半形「{half}」(中文段落應用「{full}」)"
-                    f" — 建議跑 `python3 scripts/tools/article-health.py --check=cjk-punct --fix`"
+                    f"Half-width '{half}' in CJK title context (use '{full}')"
+                    f" — run `python3 scripts/tools/article-health.py --check=cjk-punct --fix`"
                 ),
                 snippet=title,
                 fix_suggestion=full,
                 editorial_ref="EDITORIAL.md §半形標點禁用",
             )
 
-    # 2. Vague adjectives (WARN)
-    for adj in TITLE_VAGUE_ADJECTIVES:
-        if adj in title:
+    # 2. Vague adjectives (WARN) — lang-specific lists
+    if is_en:
+        for m in _EN_VAGUE_RE.finditer(title):
             yield Violation(
                 check=CHECK_NAME,
                 severity=Severity.WARN,
                 message=(
-                    f"title 含空泛形容詞「{adj}」"
-                    f" (EDITORIAL §原則 3 禁止「傳奇/偉大/最強/天后」等空泛詞)"
+                    f"Title contains puffery adjective '{m.group(0)}'"
+                    " (EDITORIAL §6 Voice — avoid brochure-style tells in titles)"
                 ),
                 snippet=title,
-                editorial_ref="EDITORIAL.md §原則 3",
+                editorial_ref="EDITORIAL.md §6 Voice",
             )
+    else:
+        for adj in TITLE_VAGUE_ADJECTIVES_ZH:
+            if adj in title:
+                yield Violation(
+                    check=CHECK_NAME,
+                    severity=Severity.WARN,
+                    message=(
+                        f"title 含空泛形容詞「{adj}」"
+                        f" (EDITORIAL §原則 3 禁止「傳奇/偉大/最強/天后」等空泛詞)"
+                    ),
+                    snippet=title,
+                    editorial_ref="EDITORIAL.md §原則 3",
+                )
 
-    # 3. People category: colon sandwich (WARN)
-    if target.category == "People":
+    # 3. People category: colon sandwich (WARN) — zh-TW convention only
+    if not is_en and target.category == "People":
         has_colon = ":" in title or "：" in title
         if not has_colon:
             yield Violation(
                 check=CHECK_NAME,
                 severity=Severity.WARN,
                 message=(
-                    "People title 缺冒號三明治結構"
-                    " (EDITORIAL §原則 5「人名：代表性弧線」格式必填)"
+                    "People title missing colon-sandwich structure"
+                    " (EDITORIAL §原則 5: 'Name: representative arc' format required)"
                 ),
                 snippet=title,
                 editorial_ref="EDITORIAL.md §原則 5",
@@ -126,45 +145,52 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
                         check=CHECK_NAME,
                         severity=Severity.WARN,
                         message=(
-                            f"People title 冒號後敘述太短"
+                            f"People title post-colon description too short"
                             f" (\"{after}\", weight {weight:.1f} < 8)"
-                            " — 副標應能單獨成立 (EDITORIAL §原則 4)"
+                            " — subtitle should stand alone (EDITORIAL §原則 4)"
                         ),
                         snippet=title,
                         editorial_ref="EDITORIAL.md §原則 4",
                     )
 
-    # 4. Length sanity (WARN) — recommend ≤ 35, hard cap at 45.
-    # 2026-05-23 放寬: 30→35 (recommend) / 35→45 (warn threshold)
-    # 觸發：馬英九 EVOLVE 43 字 title 包含 6 anchor 串成 narrative arc，
-    # 原 35 字 cap 對含多 anchor 的人物文太緊。
-    length = _effective_length(title)
-    if length > 45:
-        yield Violation(
-            check=CHECK_NAME,
-            severity=Severity.WARN,
-            message=(
-                f"title 過長 (effective length {length:.1f} > 45)"
-                " — EDITORIAL 建議 ≤ 35"
-            ),
-            snippet=title,
-            editorial_ref="EDITORIAL.md §Title 五原則",
-        )
+    # 4. Length (WARN) — en: raw chars > 60 (SERP truncation);
+    # zh-TW: effective weighted length > 45
+    if is_en:
+        if len(title) > 60:
+            yield Violation(
+                check=CHECK_NAME,
+                severity=Severity.WARN,
+                message=(
+                    f"Title too long ({len(title)} chars > 60)"
+                    " — Google SERP truncates around 60 characters"
+                ),
+                snippet=title,
+                editorial_ref="EDITORIAL.md §5 SEO Metadata",
+            )
+    else:
+        length = _effective_length(title)
+        if length > 45:
+            yield Violation(
+                check=CHECK_NAME,
+                severity=Severity.WARN,
+                message=(
+                    f"title 過長 (effective length {length:.1f} > 45)"
+                    " — EDITORIAL 建議 ≤ 35"
+                ),
+                snippet=title,
+                editorial_ref="EDITORIAL.md §Title 五原則",
+            )
 
-    # 5. Subcategory required (HARD) — zh-TW non-About articles must declare
-    # subcategory per docs/taxonomy/SUBCATEGORY.md. 2026-05-04 promoted from
-    # WARN (test-frontmatter.mjs §β7) to HARD on user request: missing
-    # subcategory breaks knowledge-graph clustering and Hub-page navigation,
-    # so we want pre-commit to block instead of grandfather.
-    # Hub files (_*.md) are excluded by the upstream file filter.
+    # 5. Subcategory required (HARD) — non-About articles must declare
+    # subcategory per docs/taxonomy/SUBCATEGORY.md.
     sub = target.frontmatter.get("subcategory")
     if target.category != "About" and (not isinstance(sub, str) or not sub.strip()):
         yield Violation(
             check=CHECK_NAME,
             severity=Severity.HARD,
             message=(
-                f"frontmatter 缺 'subcategory' 欄位"
-                f" — {target.category} 類文章必須對應 docs/taxonomy/SUBCATEGORY.md 子分類"
+                f"Missing 'subcategory' in frontmatter"
+                f" — {target.category} articles require a subcategory per docs/taxonomy/SUBCATEGORY.md"
             ),
             snippet=str(sub) if sub is not None else "(missing)",
             editorial_ref="docs/taxonomy/SUBCATEGORY.md",
