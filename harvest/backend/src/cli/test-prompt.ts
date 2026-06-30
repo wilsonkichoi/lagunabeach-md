@@ -16,7 +16,7 @@ const fakeTask: Task = {
   boot_profile: 'content-writing',
   status: 'pending',
   priority: 'P1',
-  title: '測試主題 — Phase 1 MVP 驗證',
+  title: 'Test topic — Phase 1 MVP verification',
   folder_path: join(config.paths.tasksRoot, '2026-04-27-999-fake-prompt-test'),
   created_at: new Date().toISOString(),
   created_by: 'test:prompt',
@@ -26,7 +26,7 @@ const fakeTask: Task = {
   sessions: [],
   attempts: 0,
   max_attempts: 3,
-  notes: '純測試 — agent 不需要實際寫文章',
+  notes: 'Pure test — agent does not need to actually write an article',
 };
 
 const prompt = buildSpawnPrompt(fakeTask);

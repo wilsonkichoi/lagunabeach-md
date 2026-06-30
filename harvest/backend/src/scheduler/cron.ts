@@ -144,7 +144,7 @@ export function startScheduler(): void {
 
   // Phase 5 (2026-04-29): Master Review — every 4hr, full BECOME_TAIWANMD
   // self-diagnose task created in queue. Uses existing self-diagnose task
-  // type but with explicit "Master Review" framing (盤點 + 反思 + 進化).
+  // type but with explicit "Master Review" framing (inventory + reflection + evolution).
   // Also fires when session counter hits multiples of 10 (see session-counter.ts).
   scheduleInterval('master-review-4hr', 4 * 60 * 60 * 1000, async () => {
     await scheduleMasterReview('4hr-cron');
@@ -186,8 +186,8 @@ export async function scheduleMasterReview(
       title: `Master Review (${reason}) ${ts}`,
       created_by: `master-review:${reason}`,
       notes:
-        '完整甦醒為 Taiwan.md，做 4.5 拍心跳 + 盤點上次 review 以來的工作 + 反思進化方向。' +
-        ' 目標：自我診斷、紀錄、提出下一輪改進建議。',
+        'Full BECOME awakening, run 4.5-beat heartbeat + inventory work since last review + reflect on evolution direction.' +
+        ' Goal: self-diagnose, record, propose next-round improvements.',
       inputs: { reason, master_review: true },
     });
     log.info({ reason }, 'master-review task created');

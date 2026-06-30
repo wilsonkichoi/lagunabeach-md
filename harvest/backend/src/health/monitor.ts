@@ -3,7 +3,7 @@
  *
  * Sub-features:
  *   3a. Stuck detector (output.log mtime > stuckThresholdMin → SIGTERM/SIGKILL → requeue/fail)
- *   3b. 偷懶 keyword detection (post-session commit scan → auto-spawn polish)
+ *   3b. Lazy-marker keyword detection (post-session commit scan → auto-spawn polish)
  *   3c. Quality gate auto-runner (footnote / manifesto-11 / format-check) → polish task
  *   3d. Cancel propagation (separate endpoint wires here)
  *   3e. ENOTFOUND/ECONNRESET/ETIMEDOUT → auto-requeue with cooldown
@@ -27,9 +27,9 @@ const log = childLogger({ module: 'health/monitor' });
 const LAZY_KEYWORDS = [
   'TODO',
   'skip',
-  '簡化',
-  '簡略',
-  '先這樣',
+  'simplify-later',
+  'rough-draft',
+  'good-enough-for-now',
   'placeholder',
   'hack',
 ];
@@ -182,7 +182,7 @@ async function scanRecentlyCompletedSessions(): Promise<void> {
   }
 }
 
-/** 3b — scan commit messages from this session for 偷懶 markers. */
+/** 3b — scan commit messages from this session for lazy markers. */
 function detectLazyCommitsForSession(task: Task, r: RecentSession): void {
   const sessionRecord = task.sessions.find((s) => s.id === r.id);
   const commits = sessionRecord?.commits ?? [];
@@ -199,7 +199,7 @@ function detectLazyCommitsForSession(task: Task, r: RecentSession): void {
   if (flagged.length === 0) return;
 
   const notes = [
-    `previous spawn (${r.id}) left 偷懶 markers in commit messages — clean them up:`,
+    `previous spawn (${r.id}) left lazy markers in commit messages — clean them up:`,
     ...flagged.map(
       (f) => `- ${f.hash.slice(0, 8)} ${f.subject}  [${f.keywords.join(', ')}]`,
     ),
@@ -207,13 +207,13 @@ function detectLazyCommitsForSession(task: Task, r: RecentSession): void {
 
   log.info(
     { taskId: task.id, sessionId: r.id, count: flagged.length },
-    '偷懶 markers detected — auto-creating polish task',
+    'lazy markers detected — auto-creating polish task',
   );
   createTask({
     type: 'article-evolve',
     boot_profile: 'content-writing',
     priority: 'P1',
-    title: `Polish: ${task.title} (clean 偷懶 markers)`,
+    title: `Polish: ${task.title} (clean lazy markers)`,
     created_by: 'health-monitor',
     notes,
     inputs: {

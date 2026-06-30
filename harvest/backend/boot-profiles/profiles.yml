@@ -4,7 +4,7 @@
 # load before doing real work.
 #
 # ─────────────────────────────────────────────────────────────────────────
-# Tier model (Phase 5.1, 2026-04-30 — cheyu's 「翻譯讓他 專業 清晰 輕量 成果好」rule)
+# Tier model (Phase 5.1, 2026-04-30 — translation should be professional, clear, lightweight, good output)
 # ─────────────────────────────────────────────────────────────────────────
 #
 # Tier 1 · mechanical    — pure tool execution, no Semiont awakening overhead
@@ -15,7 +15,7 @@
 # Tier 2 · translation   — lang-sync zh→en projection. Knows TRANSLATE_PROMPT
 #                          + TRANSLATION-PIPELINE + style baseline, but does
 #                          NOT awaken as a full Semiont session — it's a
-#                          專業翻譯 worker, not a contributor / writer.
+#                          professional translation worker, not a contributor / writer.
 #                          requires_become: false.
 #
 # Tier 3 · content-light — spore publishing / contributor thank-you. Needs
@@ -53,7 +53,7 @@
 profiles:
   # ─── Tier 1 · mechanical ───────────────────────────────────────────────
   minimal:
-    description: 機械操作 — refresh data / format-check / sync translations / status report (no Semiont awakening)
+    description: Mechanical ops — refresh data / format-check / sync translations / status report (no Semiont awakening)
     requires_become: false
     must_read:
       - docs/semiont/MANIFESTO.md
@@ -67,7 +67,7 @@ profiles:
 
   # ─── Tier 2 · translation ──────────────────────────────────────────────
   translation-refresh:
-    description: 專業翻譯 worker — zh-TW SSOT × en projection (lang-sync 4-part toolkit)
+    description: Professional translation worker — zh-TW SSOT × en projection (lang-sync 4-part toolkit)
     requires_become: false
     must_read:
       - docs/semiont/MANIFESTO.md
@@ -83,7 +83,7 @@ profiles:
 
   # ─── Tier 3 · content-light ────────────────────────────────────────────
   spore-publishing:
-    description: 走 SPORE-PIPELINE 寫社群貼文 + harvest (含 §2.7 倫理閘 → 需 BECOME)
+    description: Run SPORE-PIPELINE for social posts + harvest (includes §2.7 ethical gate → needs BECOME)
     requires_become: true
     must_read:
       - docs/semiont/MANIFESTO.md
@@ -100,7 +100,7 @@ profiles:
 
   # ─── Tier 4 · content-heavy ────────────────────────────────────────────
   content-writing:
-    description: 走 REWRITE-PIPELINE Stage 0-6 寫文章 (rewrite / new / EVOLVE) — Semiont 完整身份必須
+    description: Run REWRITE-PIPELINE Stage 0-6 to write articles (rewrite / new / EVOLVE) — full Semiont identity required
     requires_become: true
     must_read:
       - docs/semiont/MANIFESTO.md
@@ -123,7 +123,7 @@ profiles:
 
   # ─── Tier 5 · maintainer ───────────────────────────────────────────────
   maintainer:
-    description: 日常 PR / Issue / 貢獻者互動 (含 §close-gate + 共生圈 contributor care → 需 BECOME)
+    description: Daily PR / Issue / contributor interaction (includes §close-gate + contributor care → needs BECOME)
     requires_become: true
     must_read:
       - docs/semiont/MANIFESTO.md
@@ -141,7 +141,7 @@ profiles:
 
   # ─── Tier 6 · awakening ────────────────────────────────────────────────
   full-awakening:
-    description: 完整 BECOME_TAIWANMD 甦醒協議 (heartbeat / 反思 / 元決策) + 今天 memory/diary
+    description: Full BECOME_TAIWANMD awakening protocol (heartbeat / reflection / meta-decision) + today's memory/diary
     requires_become: true
     must_read:
       - BECOME_TAIWANMD.md

@@ -177,7 +177,7 @@ export async function spawnClaudeForTask(
   // Phase 5.1 (2026-04-30): worktree is now an explicit task input arg.
   // - task.inputs.worktree === false → run in main repo (no isolation)
   // - any other value (or absent)     → default ON (fresh worktree per spawn)
-  // Cheyu's rule: 「以後預設都要開 worktree (這也變成任務 arg 選項)，避免大幅碰撞」
+  // Rule: default worktree ON (also exposed as task arg) to prevent collision
   // — every PR review / article / lang-sync task gets its own worktree by
   // default to prevent multi-session collision on shared files.
   const wantWorktree = task.inputs?.worktree !== false;

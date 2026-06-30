@@ -2,8 +2,8 @@
  * Per-spawn git worktree isolation.
  *
  * Why: multiple concurrent spawns sharing one working tree race on `git add`
- * and clobber each other's commits (verified 2026-04-27 — 沈伯洋 spawn
- * accidentally committed 魚條's files because both ran `git add .` in parallel).
+ * and clobber each other's commits (verified 2026-04-27 — one spawn
+ * accidentally committed another's files because both ran `git add .` in parallel).
  *
  * Solution: every spawn gets its own `git worktree` rooted at
  * `.harvest/worktrees/<sid-short>/` on a branch `harvest/<task-id>-<sid-short>`.

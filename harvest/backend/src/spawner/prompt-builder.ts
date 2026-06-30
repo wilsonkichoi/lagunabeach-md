@@ -111,7 +111,7 @@ ${
 }
 4. **Stuck or controversial?** Mark the task as \`awaiting-cheyu\` by writing the reason to \`${repoRel}/status.log\` and exiting cleanly. Do not guess on disputed factual matters or political-sensitive calls.
 5. **No silent skips.** If you cannot complete a stage, log why in \`status.log\` before exiting.
-6. **Wall-clock timestamps.** Use \`git log %ai\` style real time, not subjective time sense (MANIFESTO §時間是結構).
+6. **Wall-clock timestamps.** Use \`git log %ai\` style real time, not subjective time sense (MANIFESTO: time is structure).
 
 ## Task-type instructions
 

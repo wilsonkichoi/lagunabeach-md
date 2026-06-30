@@ -11,7 +11,7 @@
  *      heartbeat, evolve, self-diagnose). Profiles flagged
  *      `requires_become: false` skip it — they are mechanical / translation
  *      workers and don't benefit from the full 12-organ awakening overhead.
- *      (Phase 5.1, 2026-04-30: cheyu's "translation should be 專業/輕量" rule.)
+ *      (Phase 5.1, 2026-04-30: translation should be professional/lightweight.)
  */
 
 import { readFileSync, statSync } from 'node:fs';

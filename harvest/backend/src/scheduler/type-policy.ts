@@ -1,7 +1,7 @@
 /**
  * Phase 5 (2026-04-29) — Per-task-type auto-spawn allow/deny list.
  *
- * Cheyu wants 駕駛艙 control: each task type has a checkbox for whether
+ * Bridge control: each task type has a checkbox for whether
  * auto-spawn is allowed to fire it. Manual spawn (POST /api/tasks/:id/spawn)
  * always works regardless of policy.
  *

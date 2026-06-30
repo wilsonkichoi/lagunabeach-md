@@ -8,7 +8,7 @@
  *
  * Entry schema we expect (see ARTICLE-INBOX.md "Entry Schema" section):
  *
- *   ### 主題名
+ *   ### Topic name
  *   - **Type**: NEW | EVOLVE
  *   - **Category**: People
  *   - **Priority**: P0
@@ -138,7 +138,7 @@ function toTaskDraft(entry: ParsedEntry): {
   priority: TaskPriority;
 } {
   // The Type field can carry decorative suffixes in the inbox (e.g.
-  // `EVOLVE`（範圍重切變體 / 詳見 [REWRITE-PIPELINE §...]）). We only care
+  // `EVOLVE` with scope notes / see [REWRITE-PIPELINE §...]). We only care
   // about the first NEW|EVOLVE token.
   const tokenMatch = entry.type.toUpperCase().match(/\b(NEW|EVOLVE)\b/);
   const t = tokenMatch?.[1] ?? '';

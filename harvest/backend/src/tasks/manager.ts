@@ -214,7 +214,7 @@ export function saveTask(task: Task, statusNote?: string): void {
 
 /**
  * Phase 5.1 (2026-04-30): SOFT DELETE — sets deleted_at timestamp on task row.
- * Cheyu's rule: 「任務的刪除功能能夠是 soft delete 嗎」.
+ * Rule: task deletion should be soft delete (recoverable).
  *
  * Soft delete keeps:
  *   - SQLite row (with deleted_at IS NOT NULL)
