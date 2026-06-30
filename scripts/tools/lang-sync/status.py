@@ -1,28 +1,28 @@
 #!/usr/bin/env python3
 """
-status.py — EN SSOT × translation projection 狀態檢視
+status.py — EN SSOT x translation projection status viewer
 
-對每篇 EN canonical (knowledge/Category/*.md) 檢查每個 active 語言的翻譯狀態：
+For each EN canonical (knowledge/Category/*.md) checks translation status per active language:
 
-  fresh   = en sourceCommitSha 等於 zh latest commit OR en 在 zh 之後
-  stale   = zh 在 en sourceCommitSha 之後有 ≥ 1 個 commit
-  missing = zh 存在、translation 不存在
-  orphan  = translation 存在、zh 不存在
+  fresh   = en sourceCommitSha equals source latest commit OR en is after source
+  stale   = source has >= 1 commit after en sourceCommitSha
+  missing = source exists, translation does not
+  orphan  = translation exists, source does not
 
-輸入：knowledge/ + git log + frontmatter 三欄位 (sourceCommitSha + sourceContentHash + translatedAt)
-輸出：src/data/_translation-status.json (derived cache) + console table
+Input: knowledge/ + git log + frontmatter 3 fields (sourceCommitSha + sourceContentHash + translatedAt)
+Output: src/data/_translation-status.json (derived cache) + console table
 
-用法：
-  python3 scripts/tools/lang-sync/status.py                    # 全語言全狀態
-  python3 scripts/tools/lang-sync/status.py --lang en          # 只看英文
-  python3 scripts/tools/lang-sync/status.py --status stale     # 只看 stale
-  python3 scripts/tools/lang-sync/status.py --json             # JSON only (給 dashboard)
-  python3 scripts/tools/lang-sync/status.py --top 30 --lang en --status missing,stale  # 待辦 list
-  python3 scripts/tools/lang-sync/status.py --no-write         # 不寫 _translation-status.json
+Usage:
+  python3 scripts/tools/lang-sync/status.py                    # all languages all statuses
+  python3 scripts/tools/lang-sync/status.py --lang en          # English only
+  python3 scripts/tools/lang-sync/status.py --status stale     # stale only
+  python3 scripts/tools/lang-sync/status.py --json             # JSON only (for dashboard)
+  python3 scripts/tools/lang-sync/status.py --top 30 --lang en --status missing,stale  # todo list
+  python3 scripts/tools/lang-sync/status.py --no-write         # do not write _translation-status.json
 
-退出碼：
-  0 — 成功
-  1 — 內部錯誤
+Exit codes:
+  0 — success
+  1 — internal error
 """
 import argparse
 import hashlib
@@ -147,16 +147,16 @@ def git_diff_summary(sha: str, file_path: Path) -> str:
 
 # ---------- content hash ----------
 #
-# 兩個 hash 區分 body drift vs metadata drift（REFLEXES #38 第 2 次 instantiation）：
+# Two hashes distinguish body drift vs metadata drift (REFLEXES #38 2nd instantiation):
 #
-#   contentHash = 整個 body（after frontmatter）— legacy hash，包含 trailer
-#   bodyHash    = 純敘事 body — strip 延伸閱讀 / 參考資料 / footer metadata block /
+#   contentHash = entire body (after frontmatter) — legacy hash, includes trailer
+#   bodyHash    = pure narrative body — strips Further Reading / References / footer metadata block /
 #                 footnote definitions（[^N]: ...）
 #
-# 用法：
-#   - contentHash 變動 + bodyHash 同 = metadata-stale（trailer / footnote URL polish 等
-#     只動 metadata，body translation 仍 valid，可走「補丁翻譯」只翻變動 section）
-#   - contentHash 變動 + bodyHash 變 = stale（真 body drift，需重翻）
+# Usage:
+#   - contentHash changed + bodyHash same = metadata-stale (trailer / footnote URL polish etc.
+#     only metadata changed, body translation still valid, can do patch-translation of changed section)
+#   - contentHash changed + bodyHash changed = stale (true body drift, needs re-translation)
 
 # Trailer section patterns（per Taiwan.md convention）
 _TRAILER_PATTERNS = [
@@ -182,7 +182,7 @@ def body_hash(content: str) -> str:
 
 
 def body_hash_pure(content: str) -> str:
-    """Pure narrative bodyHash — strips trailer metadata sections (延伸閱讀, 參考資料, 同分類更多文章, footer metadata)
+    """Pure narrative bodyHash — strips trailer metadata sections (Further Reading, References, See also, footer metadata)
     plus footnote definitions `[^N]: ...` lines (URLs / desc may polish but body unchanged).
 
     Inline footnote markers `[^N]` IN body remain — they're integral to narrative.
@@ -285,9 +285,9 @@ def classify(zh_data: dict, trans_data: dict) -> dict:
       missing         — no translation file
       orphan          — translation exists but zh source missing
       fresh           — sourceCommitSha matches zh latest, OR hash match after rebase
-      metadata-stale  — zh moved forward but bodyHash unchanged (only trailer 延伸閱讀 /
-                        參考資料 / footer metadata 變動，body translation 仍 valid)
-      stale           — zh moved forward AND bodyHash changed (true body drift, 需重翻)
+      metadata-stale  — source moved forward but bodyHash unchanged (only trailer Further Reading /
+                        References / footer metadata changed, body translation still valid)
+      stale           — source moved forward AND bodyHash changed (true body drift, needs re-translation)
     """
     if not trans_data:
         return {"status": "missing"}
@@ -435,7 +435,7 @@ def print_article_list(status: dict, lang: str, status_filter: set[str], top: in
         t = entry["translations"].get(lang, {})
         if t.get("status") in status_filter:
             rows.append((zh_rel, t))
-    # Sort: NEWEST first (cheyu 2026-04-30: 「預設抓最新的翻譯不是最舊的」).
+    # Sort: NEWEST first (directive: default to newest translation, not oldest).
     # Both stale and missing ordered by zh lastModified descending — recent
     # zh edits get translated first while context is fresh in cheyu's mind,
     # avoiding long-tail backlog accumulation.
