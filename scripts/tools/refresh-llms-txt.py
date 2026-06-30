@@ -166,11 +166,11 @@ def main():
 
     if updated == original:
         cov = vitals.get("languageCoverage", {})
-        print(f"✓ llms.txt 已是最新 (zh {cov.get('zh-TW', 0)} / contributors {vitals['contributors']} / People ~{round_to_tens(people)}+)")
+        print(f"✓ llms.txt is up to date (zh {cov.get('zh-TW', 0)} / contributors {vitals['contributors']} / People ~{round_to_tens(people)}+)")
         return 0
 
     if args.check:
-        print(f"❌ llms.txt 過時 — 跑 python3 scripts/tools/refresh-llms-txt.py 修復", file=sys.stderr)
+        print(f"❌ llms.txt outdated — run python3 scripts/tools/refresh-llms-txt.py to fix", file=sys.stderr)
         return 1
 
     if args.dry_run:

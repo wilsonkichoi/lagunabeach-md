@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""generate-spore-records.py — 孢子完整記錄層 + 靜態 API 生成器（v2 JSON SSOT 輸入）。
+"""generate-spore-records.py — Spore full record layer + static API generator (v2 JSON SSOT input).
 
 Input (structured SSOT, written via scripts/tools/spore-db.py):
   docs/factory/spore-log.json      identity registry
@@ -111,7 +111,7 @@ def _event_sort_key(e):
 
 def build_records():
     log = [s for s in json.loads(LOG_PATH.read_text(encoding="utf-8"))["spores"]
-           if not s.get("deleted")]  # 已刪除孢子排除於衍生記錄層（spore-log SSOT 仍保留供溯源）
+           if not s.get("deleted")]  # Deleted spores excluded from derived record layer (spore-log SSOT still retained for traceability)
     all_events = json.loads(METRICS_PATH.read_text(encoding="utf-8"))["events"]
     lookup = _article_lookup()
 
@@ -229,8 +229,8 @@ def main():
     args = ap.parse_args()
 
     if not LOG_PATH.exists() or not METRICS_PATH.exists():
-        print("❌ spore-log.json / spore-metrics.json 缺檔 — "
-              "見 reports/spore-json-ssot-2026-06-10.md（bootstrap-spore-ssot.py）",
+        print("❌ spore-log.json / spore-metrics.json missing — "
+              "see reports/spore-json-ssot-2026-06-10.md (bootstrap-spore-ssot.py)",
               file=sys.stderr)
         return 2
 

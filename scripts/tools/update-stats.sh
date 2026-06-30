@@ -26,8 +26,8 @@ FORKS=$(python3 -c "import json;print(json.load(open('public/api/dashboard-vital
 # 2026-06-13: was .all-contributorsrc (manual, a month stale at 57). contributors.json
 # .totals.contributors is the live committer count; fall back to the rc file → 30.
 CONTRIBUTORS=$(python3 -c "import json;print(json.load(open('public/api/contributors.json'))['totals']['contributors'])" 2>/dev/null || grep -c '"login"' .all-contributorsrc 2>/dev/null || echo 30)
-# 各語言精確文章數（zh = 大寫分類目錄無 lang prefix；其他 = knowledge/{lang}/）。
-# 舊版 ZH_PAGES 用 `! -path '*/en/*'` 把 ja/ko/es/fr 全算進 zh（3977 假數）— 修正。
+# Exact article count per language (en = uppercase category dirs at root; others = knowledge/{lang}/).
+# Old version counted ja/ko/es/fr into zh (3977 bogus number) — fixed.
 ZH_PAGES=$(find knowledge -maxdepth 2 -name '*.md' ! -name '_*' -regex 'knowledge/[A-Z][a-zA-Z]*/.*' | wc -l | tr -d ' ')
 EN_PAGES=$(find knowledge/en -name '*.md' ! -name '_*' 2>/dev/null | wc -l | tr -d ' ')
 JA_PAGES=$(find knowledge/ja -name '*.md' ! -name '_*' 2>/dev/null | wc -l | tr -d ' ')
@@ -35,7 +35,7 @@ KO_PAGES=$(find knowledge/ko -name '*.md' ! -name '_*' 2>/dev/null | wc -l | tr 
 ES_PAGES=$(find knowledge/es -name '*.md' ! -name '_*' 2>/dev/null | wc -l | tr -d ' ')
 FR_PAGES=$(find knowledge/fr -name '*.md' ! -name '_*' 2>/dev/null | wc -l | tr -d ' ')
 TOTAL_PAGES=$ZH_PAGES
-# 近 7/30 天新文章：dashboard-vitals.json（routine 算好），fallback 0
+# Recent 7/30 day new articles: from dashboard-vitals.json (routine-computed), fallback 0
 D7=$(python3 -c "import json;print(json.load(open('public/api/dashboard-vitals.json')).get('articlesLast7Days',0))" 2>/dev/null || echo 0)
 D30=$(python3 -c "import json;print(json.load(open('public/api/dashboard-vitals.json')).get('articlesLast30Days',0))" 2>/dev/null || echo 0)
 
