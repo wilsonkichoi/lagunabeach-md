@@ -91,7 +91,7 @@ Kept here as the closed baseline; detail in [MIGRATION-LOG.md](MIGRATION-LOG.md)
 
 ---
 
-## 3.4. Horizon 0.4 — Toolchain correctness on English content ⬅ NOW
+## 3.4. Horizon 0.4 — Toolchain correctness on English content ✅ DONE (2026-06-29)
 
 **Decision (2026-06-29, Wilson):** the de-Taiwan work kept feeling bottomless
 because `grep zh` was the unit. It conflates cosmetic prose with **load-bearing
@@ -140,97 +140,23 @@ readiness or deferred activation, not build-path correctness).
       `image_health`) ported to `APPLIES_TO=["en","zh-TW"]` with lang-branched
       logic. English messages. Tests rebuilt (229 pass, 0 fail). Build 0.00%.
 
-### Resume state (2026-06-29) — for a fresh session
+### Horizon 0.4 DONE summary
 
-**Wilson decision (2026-06-29), staged for R26 (R25 implementer was already in-flight,
-so not injected mid-round):** `weekly-report-prep.py` gets a **FULL de-Taiwan now**
-(~700 zh lines), not just the L696 `§11` pointer. Doctrine note: it's a dormant
-organ off the build path, but Wilson overrode the defer — do the whole file. When
-reviewing R25: if R25 only fixed L696, queue the full `weekly-report-prep.py`
-de-Taiwan as (part of) R26.
+All 6 dead checks ported to `APPLIES_TO=["en","zh-TW"]`: prose-health (R24),
+frontmatter-format (bucket 2), frontmatter-title, image-alt, viz-health,
+correction-meta (R28). 229 tests pass, 0 fail, build 0.00%. Conventions pinned
+in EDITORIAL §5 (title ≤60 + puffery ban) and §4.7 (`## Image Sources`).
 
-**Test harness:** run the suite WITH PyYAML or results are degraded —
+**Test harness note:** run the suite WITH PyYAML or results are degraded —
 `uvx --with pyyaml pytest tests/article_health -q` (the loader prefers PyYAML;
 without it, wrapped-flow-array frontmatter mis-parses and adds false failures).
-Started at **33** suite failures (Taiwan zh-TW assumptions); now **5**. (prose-health
-was never in the failing set — its zh-TW fixtures passed; it was _dead/false-green_
-on en, not red. The Round-24 port fixes the false-green, not the count.)
 
-**Done + committed this session:**
-
-- `873473961` — deleted cross-strait `terminology` gate (+ tests). Data layer
-  (`data/terminology/` 2,343 YAMLs, `extract-china-terms.py`, `fork-graph.astro`,
-  8 helper scripts, `TERMINOLOGY.md`) intentionally KEPT — separate product call.
-- `c0065b907` — **bucket 1**: 13 tests realigned to LB's en-default loader
-  contract (bare `knowledge/{Cat}/` = en source; `knowledge/{zh-TW,…}/` =
-  translation). Fixed test_loader, test_runner, test_chronicle_lead,
-  test_phase6/format_structure. Checks were already en-ported; only stale tests.
-- `75c030313` — **bucket 2**: `frontmatter-format` ported to `en+zh-TW`
-  (lang-agnostic logic; flipped gate, ~20 messages → English, auto-fix author
-  Taiwan.md → LagunaBeach.md). Adds 4 advisory WARNs on en corpus (unquoted
-  descriptions), no HARD → no gate impact.
-- **prose-health DONE (Round 24)** — full English port in one pass: `prose_health.py`
-  rewritten (brochure tells / not-just-X / AI metaphor+ritual tells ← EDITORIAL §6;
-  dropped the Taiwan island / 歐化 / 重 dims; `source:` frontmatter counts as
-  citation; score thresholds recalibrated for LB short-form so all 18 en articles
-  land ≤ 2 of the ≤ 3 budget), `test_prose_health.py` rebuilt with English fixtures
-  (29 pass), `APPLIES_TO = ["en","zh-TW"]`. Plus de-Taiwan of EDITORIAL §6 foils +
-  `generate-dashboard-data.js` / `article-health.config.toml` / `weekly-report-prep.py`
-  prose-health refs.
-
-**Remaining 5 failures = bucket 3 (frontmatter-title ×4 + phase6/image_health ×1;
-each needs a Wilson editorial decision before porting):**
-
-- `prose-health` — DONE (was a false-green, not a failing test). Original spec
-  retained below for reference:
-  1. **`scripts/tools/lib/article_health/checks/prose_health.py`** (788 lines, ~208
-     CJK) — port to English with judgment per dimension:
-     - **Keep (lang-agnostic, just flip `APPLIES_TO` to `["en","zh-TW"]`):** bullet
-       density, year count, URL count, em-dash overuse, citation desert (footnote
-       density), lastHumanReview, repeated bullet blocks, template-H2.
-     - **Rewrite to English, sourced from EDITORIAL §6:** plastic phrases → §"Not
-       Wanted: Travel-Brochure Tells" (line 256); `不是X是Y` parallel tell → §"The
-       'Not Just X, It's Y' Pattern" (270); hollow words → generic adjectives;
-       formulaic ending → §"Canned Endings" (284); manifesto Tier 2/3 (Chinese AI
-       metaphors + ritual phrases) → English AI-tells (delve / tapestry / testament
-       to / stands as a beacon / in conclusion / navigate the complexities).
-     - **Drop:** the Taiwan `這座島` island-self-reference dim (no LB analog).
-     - **Re-source the docstring:** "MANIFESTO §11 書寫節制" is STALE (that section was
-       removed in LB's MANIFESTO v2.0). Point to EDITORIAL §6 (concrete lists) +
-       MANIFESTO **Belief #11** (line 53, the principle).
-     - Recalibrate the score budget (`fail_on=score-budget`, ≤3 pass) for English.
-  2. **`tests/article_health/test_prose_health.py`** (22KB) — Chinese fixtures +
-     assertions → English; assert the new English patterns.
-  3. **`docs/editorial/EDITORIAL.md`** (11 Taiwan-ref lines) + **`docs/semiont/MANIFESTO.md`**
-     (8) — Wilson directive: graduate from Taiwan.md, keep ONLY origin-credit +
-     upstream-migration references, drop the rest.
-  4. **Migrate, do not leave hanging** (Chinese comments / Taiwan refs → English):
-     `scripts/tools/article-health.config.toml` (profile comments),
-     `scripts/core/generate-dashboard-data.js`, `scripts/tools/weekly-report-prep.py`.
-  - `.quality-baseline.json`: DONE — untracked + gitignored (commit `f20ea8d38`),
-    regenerated each build, nothing meaningful.
-  - Verify after: `npm run build` green + `uvx --with pyyaml pytest tests/article_health`.
-- `frontmatter-title` (3 fails + 1 parity) — CJK-specific logic. Needs LB title
-  rules: max length (CJK was ≤35 weighted; English SEO ~60 chars?), English
-  vague-adjective list (was `傳奇/偉大/最強`), whether People colon-sandwich applies.
-  The half-width-punct HARD rule is CJK-only → drop for en.
-- `image-alt` — re-anchor `## 圖片來源` to LB's image-credit heading (pin first).
-- `viz-health` — port `如上圖` AI-blind regex + source-label to English.
-- `correction-meta` — decide if LB wants the editorial-voice check at all.
-- `test_phase6::test_inline_image_existing_file_passes` — blocked on `image_health`
-  port (emits Chinese `圖片統計…`; not in the 9 dead but still un-ported messages).
-
-**Do NOT** invent LB editorial conventions for these — surface the decision.
-
-**Doctrine (to codify in MIGRATION.md):** three organ states, not "has zh / no zh":
-_active_ (runs on build → fix functional bugs), _dormant-but-kept_ (on LB's
-activation roadmap, e.g. the harvest engine → cosmetic, lowest priority, never
-delete), _dormant-discarded_ (Taiwan dead-end, e.g. zh→en lang-sync worker →
-delete/park, rebuild LB-shaped at activation).
+Three-organ-state doctrine (active / dormant-but-kept / dormant-discarded) is
+codified in MIGRATION.md Rule 1.
 
 ---
 
-## 3.5. Horizon 0.5 — Full LB ownership of the app layer ⬅ NOW (parallel to content)
+## 3.5. Horizon 0.5 — Full LB ownership of the app layer ✅ DONE (2026-06-29)
 
 **Decision (2026-06-27, Wilson):** stop being a shadow of Taiwan.md at the code
 layer. Hard-fork the app layer, de-Taiwan every LB-owned source file, and make
@@ -260,9 +186,12 @@ i18n _string values_ (`i18n/*.ts`) — those are content, not comments, and stay
       English/LB now (per `MIGRATION.md` Operating doctrine); only switching them on
       is deferred until their capability lands (heartbeat for diary; social accounts
       for spore; identity layer for semiont/\* is live now).
-- **Phase D — contributor readiness.** `CONTRIBUTING.md` is already re-grounded;
-  audit it + `docs/` for stale Taiwan workflow, ensure a non-Chinese-reading
-  contributor can onboard end to end.
+- [x] **Phase D — contributor readiness (done 2026-06-29).** `CONTRIBUTING.md`
+      re-grounded (0 CJK; 7 `taiwan`/`frank890417` hits are intentional
+      lineage/upstream-remote pointers). `docs/community/*`, `docs/prompts/*`,
+      `docs/README.md` audited — remaining CJK is translation-example content
+      (language names, target-language glosses), not stale Taiwan workflow. A
+      non-Chinese reader can onboard end to end.
 - [x] **Phase E — retire the `.en.md` shadow (2026-06-27).** Promoted all 12
       `*.en.md` canon files to `*.md` (English first-class), deleted the upstream
       Chinese originals (decision A — they remain in the upstream repo), repointed
@@ -415,8 +344,5 @@ are the only material recurring cost; also the last thing to build.
 
 1. **Write articles** (Horizon 1) — `/lb-news-lens` + `/lb-peer` → `/lb-write`,
    fill **Food** first, then Beaches/Trails/Neighborhoods, toward ~40.
-2. **Full LB ownership** (Horizon 0.5) — de-Taiwan the app layer as real work,
-   in parallel with content. App layer now `merge=ours`-protected. Execute Phases
-   B→C→D via `/lb-implement` + `/lb-review`. Seeded in `.handoff/TO-IMPLEMENTER.md`.
 
-Horizon 2+ waits until Horizon 1 has depth.
+Horizons 0.4 and 0.5 are closed. Horizon 2+ waits until Horizon 1 has depth.

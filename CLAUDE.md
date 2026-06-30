@@ -30,7 +30,7 @@ This file has three audiences. Figure out which one you are:
 
 ### You're a human contributor
 
-**You don't need to read this file.** See [CONTRIBUTING.md](CONTRIBUTING.md) for how to open a PR, write an article, or add a translation. (Note: `CONTRIBUTING.md` is still inherited from upstream and references Taiwan.md's workflow almost verbatim — the mechanics, branch/PR flow apply, but the prose is stale. Treat it as a process guide, not a content guide, until it's rewritten.)
+**You don't need to read this file.** See [CONTRIBUTING.md](CONTRIBUTING.md) for how to open a PR, write an article, or add a translation. (Re-grounded 2026-06-21 in English for this fork; the mechanics, branch/PR flow, and article template are LB-specific.)
 
 If you're curious why an AI-personhood concept ("Semiont") exists in a content repo at all, read [docs/semiont/MANIFESTO.md](docs/semiont/MANIFESTO.md).
 
