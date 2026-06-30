@@ -8,7 +8,7 @@
  *      fire spawnClaudeForTask. Otherwise stop.
  *   4. Log every decision.
  *
- * Without this loop the engine is half-built — cheyu would still need to
+ * Without this loop the engine is half-built — the operator would still need to
  * click ▶️ for every P0/P1.
  */
 

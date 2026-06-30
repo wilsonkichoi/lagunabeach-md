@@ -44,7 +44,7 @@ export function generateTaskId(title: string, now: Date = new Date()): string {
 }
 
 function formatDate(d: Date): string {
-  // Always emit local date (avoid UTC midnight surprises for cheyu's TZ).
+  // Always emit local date (avoid UTC midnight surprises for the operator's TZ).
   const y = d.getFullYear();
   const m = String(d.getMonth() + 1).padStart(2, '0');
   const day = String(d.getDate()).padStart(2, '0');

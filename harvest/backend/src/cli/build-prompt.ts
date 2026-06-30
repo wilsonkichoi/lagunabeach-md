@@ -2,7 +2,7 @@
  * `bun run build-prompt <task-id>` — print the spawn prompt for an existing task.
  *
  * Used for verifying the prompt-builder works correctly without actually
- * invoking the `claude` CLI. Per cheyu's verification spec (§Verification),
+ * invoking the `claude` CLI. Per the verification spec (§Verification),
  * this is the substitute for live spawning during MVP testing.
  */
 

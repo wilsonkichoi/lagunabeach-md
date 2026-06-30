@@ -3,7 +3,7 @@
  *
  * Each task lives at `.harvest/tasks/{id}/` with `task.yml` as its manifest
  * and `inputs/`, `outputs/`, `sessions/` subfolders. We use plain YAML (no
- * frontmatter wrapper) — cheyu's strategy report §3.3 calls it `task.yml`,
+ * frontmatter wrapper) — the operator's strategy report §3.3 calls it `task.yml`,
  * not `task.md`.
  */
 
@@ -39,7 +39,7 @@ export function readTaskYaml(folderPath: string): Task {
 
 /**
  * Writes task.yml atomically (write tmp, rename). The status.log file gets
- * a one-line append summarising the change so cheyu can grep history.
+ * a one-line append summarising the change so the operator can grep history.
  */
 export function writeTaskYaml(task: Task, statusNote?: string): void {
   ensureTaskFolder(task.folder_path);

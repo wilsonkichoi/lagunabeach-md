@@ -17,7 +17,7 @@ export default defineConfig({
   },
   vite: {
     server: {
-      // Allow LAN if cheyu wants to peek from another device.
+      // Allow LAN access from another device.
       hmr: { overlay: true },
     },
   },

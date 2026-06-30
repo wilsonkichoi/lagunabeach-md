@@ -206,7 +206,7 @@ export function stopScheduler(): void {
   log.info('scheduler stopped');
 }
 
-// Phase 5.1 (2026-04-30): default paused on boot per cheyu's request — prevents
+// Phase 5.1 (2026-04-30): default paused on boot per the operator's request — prevents
 // accidental auto-spawn on backend restart (e.g. mid-config / mid-deploy). UI
 // must explicitly POST /api/control/resume to start timers.
 let _paused = true;

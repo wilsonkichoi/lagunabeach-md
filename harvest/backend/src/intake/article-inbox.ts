@@ -13,7 +13,7 @@
  *   - **Category**: People
  *   - **Priority**: P0
  *   - **Status**: pending
- *   - **Requested**: 2026-04-27 by cheyu (session γ)
+ *   - **Requested**: 2026-04-27 by operator (session γ)
  *   - **Notes**: ...
  */
 

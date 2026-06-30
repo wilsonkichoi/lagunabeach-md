@@ -23,14 +23,14 @@ export function applyMigrations(db: Database): void {
   db.exec(ddl);
 
   // Additive column migrations for the `sessions` table — needed for
-  // pre-2026-04-27 DBs that already exist on cheyu's box.
+  // pre-2026-04-27 DBs that already exist on the operator's box.
   ensureColumn(db, 'sessions', 'spawn_start_iso', 'TEXT');
   ensureColumn(db, 'sessions', 'cancelled', 'INTEGER NOT NULL DEFAULT 0');
   ensureColumn(db, 'sessions', 'killed_reason', 'TEXT');
   ensureColumn(db, 'sessions', 'worktree_path', 'TEXT');
   ensureColumn(db, 'sessions', 'worktree_branch', 'TEXT');
 
-  // Phase 5.1 (2026-04-30): soft delete on tasks (cheyu's request).
+  // Phase 5.1 (2026-04-30): soft delete on tasks (the operator's request).
   // deleted_at IS NULL → live; non-NULL → soft-deleted. listTasks excludes by default.
   ensureColumn(db, 'tasks', 'deleted_at', 'TEXT');
 
@@ -49,7 +49,7 @@ export function applyMigrations(db: Database): void {
   }
 
   // Phase 5 (2026-04-29): seed scheduler_type_policy with default disabled list.
-  // PR-touching task types default OFF (cheyu wants manual oversight).
+  // PR-touching task types default OFF (the operator wants manual oversight).
   // article-* + lang-sync-* default ON (safe to auto-fire).
   const seedPolicy: Record<string, number> = {
     'article-rewrite': 1,

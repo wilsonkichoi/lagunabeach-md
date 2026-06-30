@@ -8,7 +8,7 @@
  *
  * Each job respects the global pause flag (cron.isPaused()). Jobs that depend
  * on a script fall back to no-op + a log line if the script doesn't exist —
- * we don't fabricate calls per cheyu's instruction.
+ * we don't fabricate calls per the operator's instruction.
  */
 
 import { spawnSync } from 'node:child_process';
@@ -275,7 +275,7 @@ export async function auditTranslationRatios(): Promise<void> {
 /** Daily 11:00 — terminology patrol (skip if script missing). */
 export async function patrolTerminology(): Promise<void> {
   if (isPaused()) return;
-  // We have terminology-audit.py but no terminology-patrol.sh; cheyu's spec
+  // We have terminology-audit.py but no terminology-patrol.sh; the operator's spec
   // says "if X or similar exists, run; else skip gracefully."
   const candidates = [
     'scripts/tools/terminology-patrol.sh',

@@ -10,7 +10,7 @@
  *   6. Generate today's daily report (writes file).
  *   7. Print path of the generated report.
  *
- * cheyu can run this without booting the server to confirm everything wires.
+ * The operator can run this without booting the server to confirm everything wires.
  */
 
 import { closeDb, getDb } from '../db/client.ts';

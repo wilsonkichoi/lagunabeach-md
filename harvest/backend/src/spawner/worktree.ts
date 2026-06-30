@@ -53,7 +53,7 @@ export interface FinalizeResult {
  * After spawn exits: merge branch back to current HEAD (fast-forward when
  * possible, else a real merge commit), then remove the worktree + branch.
  *
- * On `failed=true` we skip the merge and KEEP the worktree (cheyu can
+ * On `failed=true` we skip the merge and KEEP the worktree (the owner can
  * inspect what the failed spawn left behind). The branch lingers too.
  */
 export async function finalizeWorktree(
@@ -74,7 +74,7 @@ export async function finalizeWorktree(
     // stage knowledge/en/Music/ktv-culture.md but the parent never collected
     // → finalize saw commitsCount=0 → silently nuked the worktree → translation
     // lost. Now: if `git diff --cached` shows staged work, KEEP worktree and
-    // signal to caller (caller logs warning so cheyu can manually collect).
+    // signal to caller (caller logs warning so the owner can manually collect).
     const hasStagedChanges = await new Promise<boolean>((resolve) => {
       const child = spawn('git', ['diff', '--cached', '--quiet'], {
         cwd: wt.path,
@@ -85,7 +85,7 @@ export async function finalizeWorktree(
     if (hasStagedChanges) {
       log.warn(
         wt,
-        'no commits to merge BUT staged changes present — keeping worktree (cheyu must collect or commit)',
+        'no commits to merge BUT staged changes present — keeping worktree (the owner must collect or commit)',
       );
       return { merged: false, conflicts: false, removed: false };
     }
@@ -113,7 +113,7 @@ export async function finalizeWorktree(
       conflicts = true;
       log.error(
         { ...wt, error: String(err) },
-        'merge failed — leaving worktree + branch for cheyu',
+        'merge failed — leaving worktree + branch for the owner',
       );
       await runGit(['merge', '--abort']).catch(() => {});
       return { merged: false, conflicts: true, removed: false };
@@ -133,7 +133,7 @@ async function safeRemoveWorktree(wt: Worktree): Promise<void> {
 
 /**
  * On backend startup: prune dead worktree records (their dirs got nuked
- * externally) and warn about any harvest worktrees still on disk so cheyu
+ * externally) and warn about any harvest worktrees still on disk so the owner
  * can decide whether to remove them.
  */
 export async function cleanupStaleWorktrees(): Promise<void> {

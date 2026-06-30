@@ -1,13 +1,13 @@
 /**
  * Quick-action presets for QuickActionBar.
  *
- * Each preset describes a task type cheyu fires often. Click → POST /api/tasks
+ * Each preset describes a task type the operator fires often. Click → POST /api/tasks
  * with these defaults. Phase 5 (2026-04-29).
  *
  * Phase 5.1 (2026-04-30) revisions:
  *   - title is now a function (lazy timestamp — each click gets fresh `ts()`)
  *   - all presets explicit worktree: true (visibility — backend default also true)
- *   - all presets default to allow_self_commit=true (cheyu's rule after KTV
+ *   - all presets default to allow_self_commit=true (the operator's rule after KTV
  *     translation evaporation: never silently stage without commit)
  *   - lang-sync preset gains default notes hardening "faithfulness over polish"
  *     (engine-comparison v3 showed Sonnet 1.47 / codex 2.53 / qwen 2.85;
@@ -91,7 +91,7 @@ export const QUICK_PRESETS: QuickPreset[] = [
       lang: 'en',
       mode: 'auto',
       worktree: true,
-      // allow_self_commit unset → defaults true (cheyu's rule: never lose stage)
+      // allow_self_commit unset → defaults true (the operator's rule: never lose stage)
     },
     group: 'routine',
   },
