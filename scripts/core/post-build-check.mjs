@@ -1,9 +1,9 @@
 /**
- * Post-build smoke test for Taiwan.md
+ * Post-build smoke test for LagunaBeach.md
  *
  * Runs after `npm run build` to catch silent failures like:
  * - getStaticPaths returning 0 paths (empty catch swallowing errors)
- * - Category pages showing "內容準備中" instead of articles
+ * - Category pages showing placeholder instead of articles
  * - Build producing far fewer pages than expected
  *
  * Exit code 1 = CI should NOT deploy.
@@ -27,10 +27,10 @@ const CATEGORIES = [
   'neighborhoods',
 ];
 
-// i18n route smoke (audit 2026-06-10 D-8): REFLEXES #19 要求大型 refactor 後
-// 人工 smoke test 多語頁面 — 這段把它自動化進每次 CI。每語言驗：目錄存在、
-// 頁數高於塌方線、抽 1 頁驗 <html lang> 正確。
-// LANG_ROUTES 從 registry derive（pre-commit hook 抓到第一版硬編碼 — 它是對的）。
+// i18n route smoke (audit 2026-06-10 D-8): automates REFLEXES #19 requirement
+// to smoke-test multi-lang pages after major refactors. Per language: verify
+// directory exists, page count above collapse threshold, sample 1 page for
+// correct <html lang>. LANG_ROUTES derived from registry (not hardcoded).
 const LANG_ROUTES = LANGUAGES.filter((l) => l.enabled && !l.isDefault).map(
   (l) => l.code,
 );
