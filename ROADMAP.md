@@ -274,9 +274,24 @@ reading tool source. Execute via `/lb-implement` + `/lb-review`, batched by grou
       check-canonical-frontmatter, orphan-translation-check, people-title-check,
       backfill-translated-from, i18n-fill-gaps, i18n-translate, generate-reports-index.
 
-**Method:** read each file, translate comments/docstrings to English, keep CJK in
-regex patterns and data-matching strings. Verify no syntax errors after each batch.
-Build-verify after completing all groups.
+**Method per file (not a blind find-and-replace):**
+
+1. **Read and understand** what the script does, what data it operates on, and
+   whether its logic is LB-relevant or Taiwan-only dead code.
+2. **Decide disposition:** translate (universal infra), delete (Taiwan-only with
+   no LB equivalent, per the Horizon 0.45 reassessment pattern), or keep-dormant
+   (will activate when a capability lands, per §7 gated-skill table).
+3. **Translate** all Chinese comments, docstrings, print/log strings, argparse help
+   text, and error messages to English. Reground Taiwan-specific references
+   (taiwan.md domain, @taiwandotmd handles, CheYu name refs) to LB equivalents.
+4. **Keep CJK** only in regex patterns and data-matching strings that parse actual
+   zh-TW article content (see "What counts as done" below).
+5. **Verify** no syntax errors (`python3 -c "import py_compile; ..."` for .py,
+   prettier for .mjs/.js, `bash -n` for .sh). Build-verify after each group.
+
+Do NOT do a mechanical dictionary substitution (the 2026-06-30 attempt broke 43
+files by corrupting indentation inside docstrings). Each file needs contextual
+reading — a Chinese sentence is not a bag of replaceable words.
 
 **What counts as "done" for CJK remaining after translation:**
 
