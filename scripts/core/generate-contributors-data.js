@@ -2,19 +2,19 @@
 /**
  * generate-contributors-data.js
  *
- * 產出 public/api/contributors.json — Dashboard Contribution Leaderboard 的資料層。
+ * output public/api/contributors.json — Dashboard Contribution Leaderboard 的Data層。
  *
- * 為什麼存在：
- *   - about.template.astro 裡 45 個 contributor card 是手動維護（易漏、易過時）
- *   - Dashboard 繁殖系統 section 需要 data-driven 的 top 20 leaderboard
- *   - 資料層抽象化：未來可以多個 consumer（about / dashboard / README / 孢子）共用
+ * Whyexists：
+ * - about.template.astro 裡 45 contributor card 是manualMaintenance（易漏、易過時）
+ * - Dashboard 繁殖System section Need data-driven 的 top 20 leaderboard
+ * - Data層抽象化：未來Can多 consumer（about / dashboard / README / Spore）shared
  *
- * 資料來源（雙軌）：
- *   1. GitHub /contributors endpoint — 權威的 login + avatar + commit 計數
- *      （避免 git log email → login 的對應模糊問題）
- *   2. git log — 活躍時段 + 檔案路徑分類（email 匹配）
+ * DataSource（雙軌）：
+ * 1. GitHub /contributors endpoint — 權威的 login + avatar + commit 計數
+ * （Avoid git log email → login 的corresponding模糊issue）
+ * 2. git log — 活躍時段 + filepathcategory（email 匹配）
  *
- * 輸出結構：
+ * Outputstructure：
  *   {
  *     lastUpdated: "2026-04-19T...",
  *     totals: { contributors: 46 },
@@ -24,14 +24,14 @@
  *     recentlyJoined: [...]
  *   }
  *
- * 執行時機：
- *   - npm run prebuild（加到 package.json）
- *   - scripts/tools/refresh-data.sh（間接）
+ * Execute時機：
+ * - npm run prebuild（加到 package.json）
+ * - scripts/tools/refresh-data.sh（indirectly）
  *
  * CI 行為：
- *   - GitHub API 必跑（prebuild chain 的一部分）
- *   - 失敗時 soft-fail：輸出 fallback 檔（只含 lastUpdated + 空 leaderboard），
- *     consumer 不會 404
+ * - GitHub API 必跑（prebuild chain 的一partial）
+ * - Failed時 soft-fail：Output fallback 檔（只含 lastUpdated + 空 leaderboard），
+ * consumer 不會 404
  *
  * v1.0 | 2026-04-19 β — CheYu 指派，配合 gitignore prebuild-regen JSON refactor
  */
@@ -50,15 +50,15 @@ const REPO = 'wilsonkichoi/lagunabeach-md';
 const GH_TOKEN = process.env.GH_TOKEN || process.env.GITHUB_TOKEN || '';
 
 // ─── Fork boundary ───────────────────────────────────────────────────────────
-// LagunaBeach.md is a fork of Taiwan.md that carries the full upstream git
-// history, so GitHub /contributors returns every historical Taiwan.md author
+// LagunaBeach.md is a fork of LagunaBeach.md that carries the full upstream git
+// history, so GitHub /contributors returns every historical LagunaBeach.md author
 // (52). Those people authored the inherited infrastructure — they are not
-// LagunaBeach contributors. They're credited once, as Taiwan.md, in README/about
-// ("Built on Taiwan.md" + a link to upstream's contributor graph); this list is
+// LagunaBeach contributors. They're credited once, as LagunaBeach.md, in README/about
+// ("Built on LagunaBeach.md" + a link to upstream's contributor graph); this list is
 // scoped to people active at/after the fork point.
 //
 // The fork instant is fixed history: first LagunaBeach.md commit 2026-06-20T09:36:05Z
-// (Wilson Choi); last inherited Taiwan.md commit 2026-06-20T00:43:33Z (frank890417).
+// (Wilson Choi); last inherited LagunaBeach.md commit 2026-06-20T00:43:33Z (frank890417).
 // Anyone whose most-recent commit is at/after the cutoff is a LagunaBeach
 // contributor; the filter auto-includes future contributors with no manual upkeep.
 // Compared via epoch, NOT lexical string compare — git %ai timestamps carry
@@ -115,7 +115,7 @@ async function fetchContributors() {
     all.push(...batch);
     if (batch.length < 100) break;
   }
-  // 過濾 bot 類。除了 type='Bot' / [bot] suffix，還要擋「User-typed bots」——
+  // Filter bot 類。除了 type='Bot' / [bot] suffix，還要擋「User-typed bots」——
   // 用 User account 跑的機器人（如 astrobot-houston = Astro 的 Houston AI），
   // GitHub API 標 type='User' 會漏掉，明確列入 KNOWN_BOTS。
   const KNOWN_BOTS = new Set(['claude', 'astrobot-houston']);
@@ -127,11 +127,11 @@ async function fetchContributors() {
   );
 }
 
-// ─── Step 2: git log 活躍時段 + 檔案分類 ─────────────────────────────────────
+// ─── Step 2: git log 活躍時段 + filecategory ─────────────────────────────────────
 
 /**
- * 從 git log 匯總每個 email 的：firstAt, lastAt, content/system/translation 計數
- * 回傳 Map<email, { firstAt, lastAt, contentCommits, systemCommits, translationCommits }>
+ * From git log 匯總Each email 的：firstAt, lastAt, content/system/translation 計數
+ * return Map<email, { firstAt, lastAt, contentCommits, systemCommits, translationCommits }>
  */
 function parseGitLog() {
   const SEP = '<<<__COMMIT__>>>';
@@ -193,9 +193,9 @@ function parseGitLog() {
 }
 
 /**
- * 把 email map aggreagate 到 login：一個 GitHub 帳號可能有多個 email，
+ * 把 email map aggreagate 到 login：一 GitHub 帳號可能有多 email，
  * 用 email prefix fuzzy match（login ⊆ emailPrefix 或 emailPrefix ⊆ login）。
- * 同時保留手動 alias 覆蓋常見 mismatch。
+ * 同時Keepmanual alias cover常見 mismatch。
  */
 const MANUAL_ALIASES = {
   // GitHub login → known email prefixes
@@ -263,7 +263,7 @@ function aggregateByLogin(contributors, emailStats) {
   return out;
 }
 
-// ─── Step 3: 輸出 ───────────────────────────────────────────────────────────
+// ─── Step 3: Output ───────────────────────────────────────────────────────────
 
 // all-contributors emoji key (https://allcontributors.org/docs/en/emoji-key) —
 // the same standard the README ALL-CONTRIBUTORS table uses, so about + README
@@ -300,7 +300,7 @@ function readAllContributorsRc() {
 }
 
 // Full contributor SSOT = UNION of GitHub /contributors committers AND
-// .all-contributorsrc. 2026-06-13 (哲宇 callout): GitHub API alone (52) omits
+// .all-contributorsrc. 2026-06-13 (Cheyu callout): GitHub API alone (52) omits
 // the 10 non-code contributors (ideas / translation / bug / review) that only
 // live in .all-contributorsrc; .all-contributorsrc alone misses 5 newer
 // committers. Union = 62, each carrying per-person contribution-type emoji
@@ -398,10 +398,10 @@ function buildPayload(authors) {
     lastUpdated: new Date().toISOString(),
     totals: { contributors: allContributors.length, activeWindow: 'last 30d' },
     leaderboard: authors.slice(0, 20),
-    // 完整名單（union GitHub committers + .all-contributorsrc 非 code 貢獻者），
-    // 每人帶 per-person contribution-type emoji（all-contributors 標準）。about
-    // grid 用它做 data-driven 渲染，取代 57 個手動硬編碼 card + 修正只算 committer
-    // 漏掉非 code 貢獻者的數字。SSOT = .all-contributorsrc ∪ GitHub /contributors API。
+    // full名單（union GitHub committers + .all-contributorsrc 非 code Contributor），
+    // 每人帶 per-person contribution-type emoji（all-contributors standard）。about
+    // grid 用它做 data-driven 渲染，取代 57 manual硬encode card + fix只算 committer
+    // 漏掉非 code Contributor的數characters。SSOT = .all-contributorsrc ∪ GitHub /contributors API。
     allContributors,
     topContent: authors.filter((a) => a.primaryArea === 'content').slice(0, 5),
     topSystem: authors.filter((a) => a.primaryArea === 'system').slice(0, 5),
@@ -415,12 +415,12 @@ function buildPayload(authors) {
 }
 
 function writeFallback(errorMsg) {
-  // 2026-04-26 β8 fix: 不要在 API 失敗時 wipe 掉上一筆好的 leaderboard。
-  // 觸發場景：CF Pages CI 共享 IP 與其他建置爭用 GitHub anon rate limit（60/hr），
-  // 第 N 個 build 一定撞 403 → 之前每次都 writeFallback 全 0 → Dashboard 顯示 0
-  // 貢獻者（事實是 50+）。修正：先讀現有 JSON，如果有 > 0 leaderboard，
-  // **保留所有資料**，只在頂層加 staleness marker（lastUpdated 沿用、加 lastError）。
-  // 只有「初次建置 + 沒有舊檔」或「舊檔本身也是空的」才寫真正的空 fallback。
+  // 2026-04-26 β8 fix: Don't在 API Failed時 wipe 掉上一筆好的 leaderboard。
+  // Triggerscene：CF Pages CI 共享 IP 與other建置爭用 GitHub anon rate limit（60/hr），
+  // 第 N build 一定撞 403 → before每次都 writeFallback 全 0 → Dashboard display 0
+  // Contributor（事實是 50+）。fix：先讀現有 JSON，If有 > 0 leaderboard，
+  // **KeepallData**，只在頂層加 staleness marker（lastUpdated 沿用、加 lastError）。
+  // 只有「初次建置 + None舊檔」或「舊檔本身也是Empty」才寫真正的空 fallback。
   let existing = null;
   try {
     if (fs.existsSync(OUTPUT_PATH)) {
@@ -435,13 +435,13 @@ function writeFallback(errorMsg) {
     Array.isArray(existing.leaderboard) &&
     existing.leaderboard.length > 0
   ) {
-    // 保留上一筆好的資料；只更新 staleness 旗標。
+    // Keep上一筆好的Data；只Update staleness 旗標。
     existing.lastError = errorMsg;
     existing.lastErrorAt = new Date().toISOString();
     fs.writeFileSync(OUTPUT_PATH, serializeContributors(existing), 'utf8');
     console.warn(
-      `⚠️  保留上次成功的 leaderboard（${existing.leaderboard.length} 筆），` +
-        `加 lastError 旗標。Dashboard 仍會顯示資料，只是 lastUpdated 不會推進。`,
+      `⚠️ Keep上次Success的 leaderboard（${existing.leaderboard.length} 筆），` +
+        `加 lastError 旗標。Dashboard 仍會displayData，只是 lastUpdated 不會推進。`,
     );
     return;
   }
@@ -489,7 +489,7 @@ async function main() {
     console.log(`   GitHub /contributors → ${contributors.length} users`);
   } catch (e) {
     console.warn(
-      `⚠️  GitHub API 失敗（輸出 fallback 空 leaderboard）: ${e.message}`,
+      `⚠️ GitHub API Failed（Output fallback 空 leaderboard）: ${e.message}`,
     );
     writeFallback(e.message);
     return;
@@ -505,7 +505,7 @@ async function main() {
   const authors = allAuthors.filter((a) => isLagunaContributor(a, rcLogins));
   console.log(
     `   fork filter → ${authors.length}/${allAuthors.length} authors kept ` +
-      `(dropped ${allAuthors.length - authors.length} inherited Taiwan.md infra authors)`,
+      `(dropped ${allAuthors.length - authors.length} inherited LagunaBeach.md infra authors)`,
   );
   const payload = buildPayload(authors);
 
@@ -523,7 +523,7 @@ async function main() {
 }
 
 main().catch((e) => {
-  console.error('❌ generate-contributors-data 失敗:', e);
+  console.error('❌ generate-contributors-data Failed:', e);
   writeFallback(String(e.message || e));
   process.exit(0);
 });

@@ -1,8 +1,8 @@
 """paragraph_rhythm — paragraph breathing rhythm + media density band (floor + ceiling).
 
-Ported from Taiwan.md's CJK-char-count version to English word counts.
+Ported from LagunaBeach.md's CJK-char-count version to English word counts.
 
-IMPORTANT — uncalibrated thresholds: Taiwan.md's numbers (PARA_MEDIAN_WARN=55,
+IMPORTANT — uncalibrated thresholds: LagunaBeach.md's numbers (PARA_MEDIAN_WARN=55,
 MEDIA_DENSITY_FLOOR/WARN/HARD, etc.) were calibrated against a real corpus of
 known-good and known-bad long-form Chinese articles (3000-9000+ CJK chars).
 LagunaBeach.md has no equivalent corpus — its longest article is ~773 words,

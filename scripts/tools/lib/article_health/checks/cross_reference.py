@@ -1,8 +1,8 @@
-"""cross_reference — bidirectional 延伸閱讀 / wikilink reciprocity.
+"""cross_reference — bidirectional Further Reading / wikilink reciprocity.
 
 Migrated from `scripts/tools/cross-link.sh` (Stage 5 cross-link analysis).
 
-For each `[[X]]` or `延伸閱讀 - [Y](/cat/Y)` link in this article,
+For each `[[X]]` or `Further Reading - [Y](/cat/Y)` link in this article,
 check whether the TARGET article links back. Asymmetric links are flagged
 as INFO (not actionable warnings — context-dependent).
 

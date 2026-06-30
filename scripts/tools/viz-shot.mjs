@@ -1,21 +1,21 @@
 #!/usr/bin/env node
 /**
- * viz-shot.mjs — tw-* 視覺模組逐元件截圖（像素層驗證儀器）
+ * viz-shot.mjs — tw-* 視覺module逐元件截圖（像素層Verify儀器）
  *
- * 為什麼存在：2026-06-12 viz-evolution 視覺體檢發現 v1.0 模組（tw-quote 雙重框 /
- * tw-heatmap 字色）在 production 壞了六天，而 6/06 的驗證紀錄全綠——當時用 curl
- * 驗 markup 存在，沒有看像素。「存在了」跟「長對了」是兩種驗證；本工具把後者
- * 做成一條命令。對應 graph.md §七 視覺化檢查清單「人工 preview」的具體儀器 +
+ * Whyexists：2026-06-12 viz-evolution 視覺體檢發現 v1.0 module（tw-quote 雙重框 /
+ * tw-heatmap characters色）在 production 壞了六天，而 6/06 的Verifyrecord全綠——當時用 curl
+ * 驗 markup exists，None看像素。「exists了」跟「長對了」是兩種Verify；本tool把後者
+ * 做成一命令。corresponding graph.md §七 視覺化Checklist「人工 preview」的具體儀器 +
  * LESSONS 2026-06-12 viz-evolution（presence vs appearance）。
  *
- * 用法（dev server 先跑起來，預設 port 4322）：
- *   node scripts/tools/viz-shot.mjs                          # 型錄頁全模組 × light/dark/mobile
- *   node scripts/tools/viz-shot.mjs --page /society/國宅與居住正義/
- *   node scripts/tools/viz-shot.mjs --variants light,dark    # 只跑桌機雙主題
+ * Usage（dev server first run起來，Default port 4322）：
+ * node scripts/tools/viz-shot.mjs # 型錄頁全module × light/dark/mobile
+ * node scripts/tools/viz-shot.mjs --page /society/國宅與居住正義/
+ * node scripts/tools/viz-shot.mjs --variants light,dark # 只跑桌機雙主題
  *   node scripts/tools/viz-shot.mjs --out /tmp/my-shots
  *
- * 模組清單從頁面自動偵測（class 恰為 tw-xxx 一段者），renderer 長新模組不用改這裡。
- * 產出 PNG 後逐張人眼看過才算驗證完成——工具只負責把眼睛要看的東西排出來。
+ * modulelistFrom頁面automaticDetect（class 恰為 tw-xxx 一段者），renderer 長新module不用改這裡。
+ * output PNG 後逐人眼看過才算VerifyDone——tool只負責把眼睛要看的東西排出來。
  */
 import { chromium } from 'playwright';
 import { mkdir } from 'node:fs/promises';
@@ -63,7 +63,7 @@ for (const vName of VARIANTS) {
   }, v.theme);
   await page.waitForTimeout(400);
 
-  // 自動偵測頁上的模組容器：class 恰為一段 tw-xxx（排除 tw-mod-title / tw-sr-only 等子元素）
+  // automaticDetect頁上的module容器：class 恰為一段 tw-xxx（exclude tw-mod-title / tw-sr-only 等子元素）
   const mods = await page.evaluate(() => {
     const found = new Set();
     document.querySelectorAll('[class*="tw-"]').forEach((el) => {
@@ -74,7 +74,7 @@ for (const vName of VARIANTS) {
     return [...found].sort();
   });
   if (mods.length === 0)
-    console.error(`WARN ${vName}: 頁面上沒偵測到任何 tw-* 模組`);
+    console.error(`WARN ${vName}: 頁面上沒Detect到any tw-* module`);
 
   for (const m of mods) {
     const el = page.locator(`.${m}`).first();

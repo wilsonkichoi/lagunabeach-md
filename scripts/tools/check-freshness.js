@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
- * Taiwan.md Content Freshness Checker
- * 掃描超過 N 天未驗證的文章，輸出需要更新的清單
+ * LagunaBeach.md Content Freshness Checker
+ * Scanexceeds N 天未Verify的Articles，OutputNeedUpdate的list
  * Usage: node scripts/check-freshness.js [--days 90] [--json]
  */
 
@@ -67,7 +67,7 @@ if (jsonOutput) {
     JSON.stringify({ stale, fresh: fresh.length, threshold: maxDays }, null, 2),
   );
 } else {
-  console.log(`\n📊 Taiwan.md Content Freshness Report`);
+  console.log(`\n📊 LagunaBeach.md Content Freshness Report`);
   console.log(`   Threshold: ${maxDays} days\n`);
   console.log(`   ✅ Fresh: ${fresh.length} articles`);
   console.log(`   ⚠️  Stale (>${maxDays} days): ${stale.length} articles`);

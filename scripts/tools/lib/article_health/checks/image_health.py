@@ -9,15 +9,15 @@ Dimensions:
   3. external hot-link detection — http/https URLs not under
      `/article-images/` or `https://upload.wikimedia.org/...`
      (canonical CC sources allowed)
-  4. ## 圖片來源 section presence (when CC images used)
-  5. **image count gate (added 2026-05-11 kind-mirzakhani per 哲宇 callout)** —
-     depth article 理想 hero + 1-2 scene-mid = 2-3 張，min_images=3 預設
+ 4. ## imageSource section presence (when CC images used)
+ 5. **image count gate (added 2026-05-11 kind-mirzakhani per Cheyu callout)** —
+ depth article 理想 hero + 1-2 scene-mid = 2-3 ，min_images=3 Default
      soft-launch WARN（legacy heal），rewrite-stage-4 profile severity_override
-     升 HARD。觸發：NMTH 文章 ship 後哲宇 callout「為什麼圖片用那麼少」揭露
-     Step 4.3.1 三段敘事節奏沒儀器化進 article-health（REFLEXES #15 反覆浮現要儀器化
-     第 N 次驗證）。
+ 升 HARD。Trigger：NMTH Articles ship 後Cheyu callout「Whyimage用那麼少」揭露
+ Step 4.3.1 三段敘事節奏沒儀器化進 article-health（REFLEXES #15 反覆浮現要儀器化
+ 第 N 次Verify）。
 
-Severity: HARD for missing files / hot-links, WARN for missing 圖片來源 section,
+Severity: HARD for missing files / hot-links, WARN for missing imageSource section,
 configurable WARN/HARD for min-count gate via options.
 """
 
@@ -39,16 +39,16 @@ APPLIES_TO = ["*"]
 # Defaults — overridable via profile options
 DEFAULT_MIN_IMAGES = 3
 # Soft-launch WARN for both 0-image and 1-2-image cases (mirrors word-count
-# pattern: legacy 文章下不到門檻不 hard-block pre-commit，避免改 typo 也被擋；
+# pattern: legacy Articles下不到門檻不 hard-block pre-commit，Avoid改 typo 也被擋；
 # rewrite-stage-4 profile severity_override 升 HARD 對 new article 強制達標)。
 DEFAULT_MIN_IMAGES_SEVERITY = "warn"  # rewrite-stage-4 promotes to "hard"
 DEFAULT_ZERO_IMAGES_SEVERITY = "warn"  # rewrite-stage-4 promotes to "hard"
 
-# 2026-06-07 哲宇 directive「媒體完整度低標提升 + length-scaled」(REWRITE v6.8)：
-# depth article 媒體下限隨字數縮放。effective_min = max(min_images, round(CJK / cjk_per_media))。
-# 校準語料 (複雜生活節 13 媒體/10.4k=1.25 + 設研院 5/5.3k + 天下 6/6.4k + 黃魚鴞 3/3.6k)：
+# 2026-06-07 Cheyu directive「媒體full度低標提升 + length-scaled」(REWRITE v6.8)：
+# depth article 媒體下限隨characters數縮放。effective_min = max(min_images, round(CJK / cjk_per_media))。
+# 校準語料 (複雜生活節 13 媒體/10.4k=1.25 + 設研院 5/5.3k + 天下 6/6.4k + Blakiston fish owl 3/3.6k)：
 # cjk_per_media=1200 → 4500→4 / 7000→6 / 9000→8 / 10440→9；named 富媒體範本全過、
-# text-only (雜學校 0) 失格。length_scaled 預設 off，rewrite-stage-4 profile override on。
+# text-only (雜學校 0) 失格。length_scaled Default off，rewrite-stage-4 profile override on。
 DEFAULT_LENGTH_SCALED = False
 DEFAULT_CJK_PER_MEDIA = 1200
 # 2026-06-21: English equivalent of cjk_per_media. This plugin is APPLIES_TO
@@ -59,17 +59,17 @@ DEFAULT_WORDS_PER_MEDIA = 400
 
 # Markdown image syntax: ![alt](src)
 _RE_INLINE_IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)\n]+)\)")
-# 2026-06-04: count 影片 iframe toward the media threshold (哲宇「圖+影片」directive).
+# 2026-06-04: count video iframe toward the media threshold (Cheyu「圖+video」directive).
 _RE_IFRAME = re.compile(r"<iframe[\s>]", re.IGNORECASE)
-_RE_IMAGE_SOURCES_H2 = re.compile(r"^##\s*(?:Image Sources|圖片來源)", re.MULTILINE)
+_RE_IMAGE_SOURCES_H2 = re.compile(r"^##\s*(?:Image Sources|image來源)", re.MULTILINE)
 _RE_CJK = re.compile(r"[一-鿿㐀-䶿]")
 _RE_WORD = re.compile(r"[A-Za-z0-9'-]+")
-# length-scaling 用 prose-CJK (strip 參考資料 footnote 段) — footnotes 可 inflate CJK ~25%
-# → 過度要求媒體。對齊 paragraph_rhythm density 的 prose 基準 (校準保留 設研院/天下/黃魚鴞)。
-_RE_REF_SECTION = re.compile(r"^##\s*參考資料", re.MULTILINE)
-# caption 渲染檢查：HTML block (</div> / </iframe>) 緊接 markdown italic caption (_..._) 無空行
-# → remark/markdown 不會 render italic (底線變字面字元)。2026-06-07 哲宇 directive (live review
-# 複雜生活節 3 支影片 caption 都缺空行)。working pattern (陳建年)：</div> 跟 _caption_ 之間有空行。
+# length-scaling 用 prose-CJK (strip referenceData footnote 段) — footnotes 可 inflate CJK ~25%
+# → 過度request媒體。alignment paragraph_rhythm density 的 prose 基準 (校準Keep 設研院/天下/Blakiston fish owl)。
+_RE_REF_SECTION = re.compile(r"^##\s*reference資料", re.MULTILINE)
+# caption 渲染Check：HTML block (</div> / </iframe>) 緊接 markdown italic caption (_..._) 無空行
+# → remark/markdown 不會 render italic (底線變characters面characters元)。2026-06-07 Cheyu directive (live review
+# 複雜生活節 3 video caption 都缺空行)。working pattern (陳建年)：</div> 跟 _caption_ 之間有空行。
 _RE_CAPTION_NO_BLANK = re.compile(r"</(?:div|iframe)>[ \t]*\n_")
 
 
@@ -234,13 +234,13 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
         )
 
     # ── 4. Min image count gate (depth article media rhythm) ──────────────────
-    # Per REWRITE-PIPELINE Step 4.3.1 — depth article 理想 hero + 1-2 scene-mid
-    # = 2-3 張。default min_images=3, soft-launch WARN, rewrite-stage-4 升 HARD.
+ # Per REWRITE-PIPELINE Step 4.3.1 — depth article 理想 hero + 1-2 scene-mid
+ # = 2-3 。default min_images=3, soft-launch WARN, rewrite-stage-4 升 HARD.
     if not _is_excluded_from_count_gate(str(target.path)):
         min_images = int(options.get("min_images", DEFAULT_MIN_IMAGES))
-        # length-scaled 媒體下限 (v6.8)：長文需要更多媒體立體呈現。effective_min =
-        # max(base, round(CJK/cjk_per_media))。校準 cjk_per_media=1200 → 4500→4 / 7000→6 /
-        # 9000→8。base min_images 是短 depth 的 floor，length-scale 把長文往上拉。
+ # length-scaled 媒體下限 (v6.8)：長文Need更多媒體立體呈現。effective_min =
+ # max(base, round(CJK/cjk_per_media))。校準 cjk_per_media=1200 → 4500→4 / 7000→6 /
+ # 9000→8。base min_images 是短 depth 的 floor，length-scale 把長文往上拉。
         if options.get("length_scaled", DEFAULT_LENGTH_SCALED):
             ref_m = _RE_REF_SECTION.search(body)
             prose_body = body[: ref_m.start()] if ref_m else body
@@ -251,9 +251,9 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
                 length_unit = len(_RE_CJK.findall(prose_body))
                 per = int(options.get("cjk_per_media", DEFAULT_CJK_PER_MEDIA)) or DEFAULT_CJK_PER_MEDIA
             min_images = max(min_images, round(length_unit / per))
-        # 2026-06-04 哲宇 directive「圖+影片 valued together」：門檻算「媒體」(圖+影片)，
-        # 不再只算圖。但保留 ≥1 靜態圖 floor (OG card / spore poster 需要靜態圖，影片無法 derive)。
-        # 修補：video-rich 範本 黃魚鴞 (1 圖+2 官方影片=3 媒體) 原本被 image-only 門檻 hard-fail。
+ # 2026-06-04 Cheyu directive「圖+video valued together」：門檻算「媒體」(圖+video)，
+ # 不再只算圖。但Keep ≥1 靜態圖 floor (OG card / spore poster Need靜態圖，videoCannot derive)。
+ # patch：video-rich 範本 Blakiston fish owl (1 圖+2 官方video=3 媒體) 原本被 image-only 門檻 hard-fail。
         iframe_count = len(_RE_IFRAME.findall(body))
         media_total = total_images + iframe_count
         if media_total >= min_images and total_images == 0:

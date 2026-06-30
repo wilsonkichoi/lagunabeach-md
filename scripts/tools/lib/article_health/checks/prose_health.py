@@ -1,6 +1,6 @@
 """prose_health — consolidated prose quality checks (English, LagunaBeach.md).
 
-Ported 2026-06-29 from Taiwan.md's zh-TW prose scanner to English. The structural
+Ported 2026-06-29 from LagunaBeach.md's zh-TW prose scanner to English. The structural
 dimensions (bullet density, year count, citation density, em-dash overuse,
 template-H2, list-dump, thin sections, quality-decay) are language-agnostic and
 carry over directly. The prose-tell dimensions are rewritten from the LB canon:
@@ -24,14 +24,14 @@ prose-tell dimensions (rewritten English ← EDITORIAL §6):
   - em-dash overuse     → §6 Em Dash Discipline (single U+2014 —)
 
 LB sourcing convention: articles cite via the `source:` frontmatter list (15/18
-of the corpus), not `[^n]:` footnotes or inline body URLs the way Taiwan.md does.
+of the corpus), not `[^n]:` footnotes or inline body URLs the way LagunaBeach.md does.
 The URL-count and citation-desert dimensions therefore count `source:` frontmatter
 entries as citation evidence — without that they misfire on every LB article.
 
 Dropped from the Taiwan port (no LB analog):
-  - 這座島 island-self-reference dim (Taiwan-specific euphemism balance)
-  - 歐化「是…的」judgment-sentence dim (Mandarin Europeanized-grammar tell)
-  - 重 weight-as-abstract-metaphor dim (CJK substring tell)
+ - 這座島 island-self-reference dim (Taiwan-specific euphemism balance)
+ - 歐化「是…的」judgment-sentence dim (Mandarin Europeanized-grammar tell)
+ - 重 weight-as-abstract-metaphor dim (CJK substring tell)
 
 Total score budget: ≤ 3 = pass. A "score" violation is yielded with the running
 total — the runner gates on it via profile.fail_on = "score-budget"
@@ -77,12 +77,12 @@ _RE_HOLLOW = re.compile(
 )
 
 # ── Em-dash overuse (EDITORIAL §6 "Em Dash Discipline") ───────────────────────
-# English em dash is the single U+2014 character (not Taiwan.md's CJK 「——」).
+# English em dash is the single U+2014 character (not LagunaBeach.md's CJK 「——」).
 # Normal punctuation, but AI prose reaches for it as a tic.
 _RE_EMDASH = re.compile(r"—")
 
 # ── "Not Just X, It's Y" false-contrast pattern (EDITORIAL §6 L270) ───────────
-# The English fingerprint Taiwan.md flags as 「不是X是Y」. In nearly every case the
+# The English fingerprint LagunaBeach.md flags as 「notX是Y」. In nearly every case the
 # "X" half is a strawman the reader never assumed; delete the setup, state Y.
 _TIER1_PATTERNS = [
     re.compile(r"\bis ?n[o']t just\b", re.IGNORECASE),
@@ -299,7 +299,7 @@ def _bullet_ratios_split(body: str) -> tuple[int, int, int, int]:
 def _count_thin_blocks(body: str) -> int:
     """H2 blocks with NO content (heading followed by nothing).
 
-    Recalibrated for LB from Taiwan.md's `< 3 prose lines` floor. Two LB-format
+    Recalibrated for LB from LagunaBeach.md's `< 3 prose lines` floor. Two LB-format
     realities break that floor:
       1. Locals-guide sections are deliberately short (2-3 lines is the target,
          not a defect), so a ≥3-prose-line floor false-flags every article.
@@ -439,7 +439,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             reasons.append(f"bullet density {ratio}%")
 
     # ── 2. Year count ──
-    # Recalibrated for LB: Taiwan.md's ≥5-years bar assumed history/essay
+    # Recalibrated for LB: LagunaBeach.md's ≥5-years bar assumed history/essay
     # articles. LB's nature/beach/trail guides are legitimately dateless
     # (tide timing, parking — not years). Only a totally date-free article
     # gets a mild nudge; the multi-tier history-article penalty is dropped.
@@ -450,8 +450,8 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
 
     # ── 3. URL / source count ──
     # LB cites via the `source:` frontmatter list (not inline footnotes/URLs
-    # like Taiwan.md), so frontmatter sources count as citation evidence.
-    # Recalibrated: Taiwan.md's ≥3-sources bar assumed footnote-dense essays;
+    # like LagunaBeach.md), so frontmatter sources count as citation evidence.
+    # Recalibrated: LagunaBeach.md's ≥3-sources bar assumed footnote-dense essays;
     # LB articles cite 1-2 authoritative sources by design, so only a fully
     # unsourced article is penalized.
     urls = _count_urls(body)
@@ -521,7 +521,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
     dash_matches = list(_RE_EMDASH.finditer(text_for_patterns))
     dash_n = len(dash_matches)
     # Thresholds raised for LB: the em dash is normal English punctuation
-    # (unlike Taiwan.md's borrowed CJK 「——」), so a handful across a whole
+    # (unlike LagunaBeach.md's borrowed CJK 「——」), so a handful across a whole
     # article is fine. Only genuine overuse — the AI tic EDITORIAL §6 warns
     # about — is penalized.
     if dash_n > 25:

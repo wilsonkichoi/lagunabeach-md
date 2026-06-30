@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 """
-backfill-source-sha.py — 批次補 stale `no-source-sha` 翻譯的 frontmatter metadata
+backfill-source-sha.py — batch補 stale `no-source-sha` Translation的 frontmatter metadata
 
-不重新翻譯，只補 sourceCommitSha + sourceContentHash + translatedAt 三欄位
-（指向 zh source 當前 HEAD）。把「pre-toolkit 時代」的翻譯升級成 manifest-trackable。
+不re-Translation，只補 sourceCommitSha + sourceContentHash + translatedAt 三field
+（指向 zh source current HEAD）。把「pre-toolkit 時代」的Translation升級成 manifest-trackable。
 
 Usage:
   python3 scripts/tools/lang-sync/backfill-source-sha.py --lang en
   python3 scripts/tools/lang-sync/backfill-source-sha.py --lang en --dry-run
   python3 scripts/tools/lang-sync/backfill-source-sha.py --lang en,ko,fr,es
 
-設計來源：2026-05-01 γ-late4 session 完成 ja 100% sync 後，發現 en/ko/fr/es
-有 ~1300 篇 stale 主要是 no-source-sha（pre-toolkit 翻譯）。重新翻譯成本高
+designSource：2026-05-01 γ-late4 session Done ja 100% sync 後，發現 en/ko/fr/es
+有 ~1300 stale main是 no-source-sha（pre-toolkit Translation）。re-Translation成本高
 （API call 大量），但 metadata backfill 成本 ~0（只是 file I/O）。
 """
 import argparse, hashlib, json, os, re, subprocess, sys

@@ -12,7 +12,7 @@ abstraction refactor). Lets pipeline cascade across:
 …without pipeline knowing which one is in use. New providers slot in by subclassing
 `TranslationBackend` and registering.
 
-Per哲宇 callout 2026-05-12: 「儘可能模組化 抽象化 可抽換化 讓系統獨立於模型與服務類別能運作」
+PerCheyu callout 2026-05-12: 「儘可能module化 抽象化 可抽換化 讓System獨立於模型與服務類別能運作」
 """
 from __future__ import annotations
 

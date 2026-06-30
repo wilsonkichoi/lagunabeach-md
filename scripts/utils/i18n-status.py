@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
-"""生成 i18n 翻譯進度 JSON"""
+"""Generate i18n Translation進度 JSON"""
 import os, json, glob
 
 # Repo root (3 levels up from scripts/utils/i18n-status.py)
 repo_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 knowledge_dir = os.path.join(repo_root, 'knowledge')
 
-# 掃描中文文章
+# ScanChineseArticles
 zh_articles = set()
 for root, dirs, files in os.walk(knowledge_dir):
-    # 排除 en/, about/, _開頭
+ # exclude en/, about/, _開頭
     rel = os.path.relpath(root, knowledge_dir)
     if rel.startswith('en') or rel.startswith('about') or rel.startswith('_'):
         continue
@@ -18,7 +18,7 @@ for root, dirs, files in os.walk(knowledge_dir):
         if f.endswith('.md') and not f.startswith('_'):
             zh_articles.add(os.path.join(rel, f) if rel != '.' else f)
 
-# 掃描英文文章
+# ScanEnglishArticles
 en_dir = os.path.join(knowledge_dir, 'en')
 en_articles = set()
 if os.path.isdir(en_dir):
@@ -28,7 +28,7 @@ if os.path.isdir(en_dir):
             if f.endswith('.md') and not f.startswith('_'):
                 en_articles.add(os.path.join(os.path.relpath(root, en_dir), f) if os.path.relpath(root, en_dir) != '.' else f)
 
-# 按分類統計
+# 按categorystatistics
 categories = {}
 for art in zh_articles:
     cat = art.split('/')[0] if '/' in art else 'root'
@@ -52,7 +52,7 @@ progress = {
 
 print(json.dumps(progress, ensure_ascii=False, indent=2))
 
-# 也寫入檔案
+# 也Writefile
 out = os.path.join(repo_root, 'src', 'data', 'i18n-progress.json')
 os.makedirs(os.path.dirname(out), exist_ok=True)
 with open(out, 'w') as f:

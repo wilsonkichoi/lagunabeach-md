@@ -1,22 +1,22 @@
 #!/usr/bin/env python3
-"""validate-spore-data.py — 孢子資料跨層一致性檢查（v3, 2026-06-10 JSON SSOT）。
+"""validate-spore-data.py — SporeData跨層一致性Check（v3, 2026-06-10 JSON SSOT）。
 
-層級（reports/spore-json-ssot-2026-06-10.md）：
-  docs/factory/spore-log.json       identity SSOT（spore-db.py add-spore 寫）
-  docs/factory/spore-metrics.json   metric 事件 SSOT（spore-db.py add-metrics 寫）
-  docs/factory/SPORE-HARVESTS/*.md  敘事層（留言/bucket，不載 canonical 數字）
-  docs/factory/SPORE-LOG.md         凍結歷史（≤ bootstrap 當下，不再寫入）
-  src/data/spores.json              衍生記錄層（generate-spore-records.py）
-  knowledge/*.md sporeLinks         identity pointer（id/platform/date/url，無數字）
-  public/api/dashboard-spores.json  衍生分析聚合
+level（reports/spore-json-ssot-2026-06-10.md）：
+ docs/factory/spore-log.json identity SSOT（spore-db.py add-spore 寫）
+ docs/factory/spore-metrics.json metric event SSOT（spore-db.py add-metrics 寫）
+ docs/factory/SPORE-HARVESTS/*.md 敘事層（留言/bucket，不載 canonical 數characters）
+ docs/factory/SPORE-LOG.md 凍結歷史（≤ bootstrap 當下，不再Write）
+ src/data/spores.json 衍生Record層（generate-spore-records.py）
+ knowledge/*.md sporeLinks identity pointer（id/platform/date/url，無數characters）
+ public/api/dashboard-spores.json 衍生分析聚合
 
 6 checks:
   1. spore-db check（schema / unique id / unique url / event refs）
-  2. 數字 parser regression（K/M suffix，spore-db.parse_count）
-  3. SPORE-LOG.md 凍結守衛（發文紀錄 row 數不得增加 — 新孢子走 spore-db.py）
-  4. SPORE-HARVESTS 敘事 frontmatter key drift（spores plural canonical）
-  5. knowledge sporeLinks identity-only（帶 metrics = ERROR）+ URL ↔ spore-log 對照
-  6. 衍生層 freshness + coverage（spores.json / dashboard-spores.json vs SSOT mtime）
+ 2. 數characters parser regression（K/M suffix，spore-db.parse_count）
+ 3. SPORE-LOG.md 凍結守衛（post log row 數不得增加 — 新Spore走 spore-db.py）
+ 4. SPORE-HARVESTS 敘事 frontmatter key drift（spores plural canonical）
+ 5. knowledge sporeLinks identity-only（帶 metrics = ERROR）+ URL ↔ spore-log 對照
+ 6. 衍生層 freshness + coverage（spores.json / dashboard-spores.json vs SSOT mtime）
 
 Exit code: 0 = 綠 / 1 = warnings / 2 = errors（block CI / pre-commit）
 Usage: python3 scripts/tools/validate-spore-data.py [--strict]
@@ -40,8 +40,8 @@ RECORDS_JSON = REPO_ROOT / "src/data/spores.json"
 DASHBOARD_JSON = REPO_ROOT / "public/api/dashboard-spores.json"
 KNOWLEDGE_ROOT = REPO_ROOT / "knowledge"
 
-# 凍結基線（2026-06-10 bootstrap 當下的發文紀錄 row 數）。
-# 之後新孢子只進 spore-log.json — markdown row 數變多 = 有人寫回凍結檔。
+# 凍結基線（2026-06-10 bootstrap 當下的post log row 數）。
+# after新Spore只進 spore-log.json — markdown row 數變多 = 有人寫回凍結檔。
 FROZEN_PUB_ROWS = 125
 
 METRIC_KEYS = ("views", "likes", "reposts", "comments", "shares")
@@ -103,13 +103,13 @@ def check_frozen_log():
     in_pub, count = False, 0
     for line in text.splitlines():
         if line.startswith("## "):
-            in_pub = line[3:].strip() == "發文紀錄"
+            in_pub = line[3:].strip() == "post log"
             continue
         if in_pub and re.match(r"^\|\s*\d+\s*\|", line):
             count += 1
     if count > FROZEN_PUB_ROWS:
-        return [f"❌ SPORE-LOG.md 發文紀錄 有 {count} rows（凍結基線 {FROZEN_PUB_ROWS}）— "
-                f"新孢子要走 spore-db.py add-spore，不寫凍結 markdown"]
+ return [f"❌ SPORE-LOG.md post log 有 {count} rows（凍結基線 {FROZEN_PUB_ROWS}）— "
+ f"新Spore要走 spore-db.py add-spore，不寫凍結 markdown"]
     return []
 
 
@@ -189,10 +189,10 @@ def check_sporelinks_identity_only():
             if leaked:
                 errors.append(
                     f"❌ {rel}: sporeLinks carries metrics {leaked} — identity-only "
-                    f"(id/platform/date/url)，數字住 spore-metrics.json")
+ f"(id/platform/date/url)，數characters住 spore-metrics.json")
             url = (link.get("url") or "").strip()
             if is_zh and url and url not in log_urls:
-                warnings.append(f"⚠️  {rel} sporeLinks URL 不在 spore-log.json: {url}")
+ warnings.append(f"⚠️ {rel} sporeLinks URL not in spore-log.json: {url}")
     return errors, warnings, checked
 
 
@@ -224,7 +224,7 @@ def check_derived():
         t_m = target.stat().st_mtime
         for src in (LOG_JSON, METRICS_JSON):
             if src.exists() and src.stat().st_mtime > t_m:
-                warnings.append(f"⚠️  {name} 比 {src.name} 舊 — run {fix}")
+ warnings.append(f"⚠️ {name} 比 {src.name} 舊 — run {fix}")
                 break
     return errors, warnings
 
@@ -252,13 +252,13 @@ def main():
     else:
         print(green("    ✅ 8/8 cases pass"))
 
-    print("\n[3/6] SPORE-LOG.md 凍結守衛...")
+ print("\n[3/6] SPORE-LOG.md 凍結守衛...")
     errs = check_frozen_log()
     all_errors.extend(errs)
     print(red(f"    {errs[0]}") if errs else
           green(f"    ✅ frozen at {FROZEN_PUB_ROWS} rows"))
 
-    print("\n[4/6] SPORE-HARVESTS 敘事 frontmatter key drift...")
+ print("\n[4/6] SPORE-HARVESTS 敘事 frontmatter key drift...")
     warns, legacy, canonical = check_harvests_frontmatter()
     all_warnings.extend(warns)
     print((yellow(f"    ⚠️  canonical {canonical} / legacy {legacy}") if warns
@@ -274,7 +274,7 @@ def main():
     if not errs and not warns:
         print(green("    ✅ all identity-only (id/platform/date/url)"))
 
-    print("\n[6/6] 衍生層 freshness + coverage...")
+ print("\n[6/6] 衍生層 freshness + coverage...")
     errs, warns = check_derived()
     all_errors.extend(errs)
     all_warnings.extend(warns)

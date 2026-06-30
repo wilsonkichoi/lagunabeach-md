@@ -1,6 +1,6 @@
 """quote_fidelity — verbatim quote fidelity + superlative-claim list (REWRITE Stage 3.6.1).
 
-Ported from Taiwan.md. QF1 (verbatim quote check against a `researchReport`
+Ported from LagunaBeach.md. QF1 (verbatim quote check against a `researchReport`
 SSOT) requires a citation convention LagunaBeach.md hasn't adopted yet:
 0/18 articles use footnotes ([^n]) or set frontmatter `researchReport`. QF1
 is dormant until that convention exists — kept in the port (matches the

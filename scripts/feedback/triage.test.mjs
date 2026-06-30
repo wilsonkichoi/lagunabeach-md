@@ -1,5 +1,5 @@
 /**
- * triage.test.mjs — classify.mjs 純函式測試。
+ * triage.test.mjs — classify.mjs 純functiontest。
  * 跑：node --test scripts/feedback/triage.test.mjs
  */
 import { test } from 'node:test';
@@ -43,10 +43,13 @@ test('resolveType trusts the reader-selected type', () => {
 
 test('resolveType infers when type missing', () => {
   assert.equal(resolveType({ body: '這裡連結壞掉了 404' }), 'bug');
-  assert.equal(resolveType({ body: '日期有誤,應為 1993' }), 'content');
-  assert.equal(resolveType({ body: '想看更多關於台灣茶的文章' }), 'newtopic');
+  assert.equal(resolveType({ body: '日期有誤,should be 1993' }), 'content');
   assert.equal(
-    resolveType({ body: '無關鍵字', correct_info: '正確版本' }),
+    resolveType({ body: '想看更多關於台灣茶的Articles' }),
+    'newtopic',
+  );
+  assert.equal(
+    resolveType({ body: '無關鍵characters', correct_info: 'correctversion' }),
     'content',
   );
 });
@@ -54,10 +57,10 @@ test('resolveType infers when type missing', () => {
 test('buildIssue maps content → fact-correction template + labels', () => {
   const iss = buildIssue(byId('1111'));
   assert.equal(iss.type, 'content');
-  assert.match(iss.title, /^\[Fact Check\] 李安$/);
+  assert.match(iss.title, /^\[Fact Check\] Ang Lee$/);
   assert.deepEqual(iss.labels, ['needs-verification', 'from-feedback']);
   assert.match(iss.body, /哪裡有誤/);
-  assert.match(iss.body, /正確資訊/);
+  assert.match(iss.body, /correct資訊/);
 });
 
 test('buildIssue maps bug → bug template + labels', () => {
@@ -78,7 +81,7 @@ test('issue body carries display_name + feedback id but NEVER email', () => {
   for (const row of seed) {
     const iss = buildIssue(row);
     assert.match(iss.body, /feedback id:/);
-    // 沒有任何 email 形狀的字串混進 issue body
+    // Noneany email 形狀的characters串混進 issue body
     assert.doesNotMatch(
       iss.body,
       /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}/i,
@@ -88,15 +91,15 @@ test('issue body carries display_name + feedback id but NEVER email', () => {
 });
 
 // 2026-06-16 regression: feedback 8f2f8908 把 Supabase OAuth callback URL（含 access_token
-// JWT[內含 email] + provider_token + refresh_token）寫進 public issue #1160（已刪除）。
-// source_url 是登入讀者的網址列 capture,implicit flow 把活憑證塞進 hash fragment。
+// JWT[inside含 email] + provider_token + refresh_token）寫進 public issue #1160（已Delete）。
+// source_url 是登入Reader的網址列 capture,implicit flow 把活Credentials塞進 hash fragment。
 // 「不放 email」明文閘擋不住 base64 編進 token 的 email → 需 scrubSecrets 第二道閘。
 test('scrubSecrets strips OAuth tokens / JWT / email from a Supabase auth callback URL', () => {
-  // 完全合成值,不含任何真實憑證/email（否則 test 本身就是 PII 載體,= 它要防的 bug）。
+  // 完全合成值,不含any真實Credentials/email（Otherwise test 本身就是 PII 載體,= 它要防的 bug）。
   const toxic =
-    'https://taiwan.md/people/#access_token=eyJSAMPLE.eyJzdWIiOiJ4In0.eyJzaWci&expires_at=9999999999&provider_token=ya29.FAKEPROVIDER&refresh_token=FAKEREFRESH123&token_type=bearer';
+    'https://lagunabeach.md/people/#access_token=eyJSAMPLE.eyJzdWIiOiJ4In0.eyJzaWci&expires_at=9999999999&provider_token=ya29.FAKEPROVIDER&refresh_token=FAKEREFRESH123&token_type=bearer';
   const out = scrubSecrets(toxic);
-  assert.equal(out, 'https://taiwan.md/people/');
+  assert.equal(out, 'https://lagunabeach.md/people/');
   for (const leak of ['access_token', 'eyJ', 'ya29', 'FAKEREFRESH123']) {
     assert.ok(!out.includes(leak), `scrubSecrets leaked ${leak}`);
   }
@@ -112,7 +115,7 @@ test('buildIssue scrubs a token-bearing source_url before it reaches issue body'
     display_name: 'tester',
     created_at: '2026-06-16T00:00:00Z',
     source_url:
-      'https://taiwan.md/people/#access_token=eyJabc.eyJdef.sig&refresh_token=secret123&provider_token=ya29.LEAK',
+      'https://lagunabeach.md/people/#access_token=eyJabc.eyJdef.sig&refresh_token=secret123&provider_token=ya29.LEAK',
   });
   for (const leak of [
     'access_token',
@@ -167,7 +170,7 @@ test('buildIssue maps idea → enhancement + [Idea] title', () => {
   const iss = buildIssue({
     id: 'i1',
     type: 'idea',
-    body: '希望每頁都能切深色模式',
+    body: '希望每頁都能切深色Mode',
     page_kind: 'home',
   });
   assert.equal(iss.type, 'idea');
@@ -179,17 +182,17 @@ test('content issue embeds selected quote + text-fragment deep link', () => {
   const row = {
     id: 'q1',
     type: 'content',
-    article_title: '李安',
-    article_slug: '李安',
+    article_title: 'Ang Lee',
+    article_slug: 'Ang Lee',
     page_kind: 'article',
-    source_url: 'https://taiwan.md/people/李安#:~:text=1990',
+    source_url: 'https://lagunabeach.md/people/Ang Lee#:~:text=1990',
     quote: '《臥虎藏龍》1990 年得獎',
-    body: '年份錯了，應為 2001。',
+    body: '年份錯了，should be 2001。',
   };
   const iss = buildIssue(row);
   assert.match(iss.body, /讀者選取的原文/);
   assert.match(iss.body, /《臥虎藏龍》1990 年得獎/);
-  assert.match(iss.body, /直接定位/);
+  assert.match(iss.body, /directly定位/);
   assert.match(iss.body, /#:~:text=/);
   assert.doesNotMatch(iss.body, /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}/i);
 });
@@ -198,7 +201,7 @@ test('provenance carries page_kind', () => {
   const iss = buildIssue({
     id: 'p1',
     type: 'bug',
-    body: '這個數字怪怪的',
+    body: '這數characters怪怪的',
     page_kind: 'dashboard',
   });
   assert.match(iss.body, /來源頁:dashboard/);
@@ -206,7 +209,7 @@ test('provenance carries page_kind', () => {
 
 // ── v3: reader-facing triage note (Grokipedia transparency) ──────────────────
 test('triageNoteFor gives a type-specific reader note', () => {
-  assert.match(triageNoteFor({ type: 'content', body: 'x' }), /勘誤/);
+  assert.match(triageNoteFor({ type: 'content', body: 'x' }), /errata/);
   assert.match(triageNoteFor({ type: 'newtopic', body: 'x' }), /新主題/);
 });
 
@@ -219,7 +222,7 @@ test('triageBatch attaches note to file + reject decisions', () => {
 });
 
 // ── v4: batch-cluster guard（2026-06-09 12 連發 + 2026-06-12 justfont 21 連發）──
-function clusterRows(n, slug = 'justfont與台灣字體發展') {
+function clusterRows(n, slug = 'justfont與台灣characters體發展') {
   return Array.from({ length: n }, (_, i) => ({
     id: `c${i}-uuid`,
     type: 'content',
@@ -227,7 +230,7 @@ function clusterRows(n, slug = 'justfont與台灣字體發展') {
     article_title: slug,
     display_name: '蘇煒翔',
     created_at: '2026-06-12T06:00:00Z',
-    body: `第 ${i + 1} 段的事實有誤,正確版本是另一個說法 ${i}`,
+    body: `第 ${i + 1} 段的事實有誤,correctversion是另一說法 ${i}`,
     correct_info: `更正 ${i}`,
   }));
 }
@@ -238,7 +241,10 @@ test(`batch-cluster: 同 slug ≥ ${BATCH_CLUSTER_THRESHOLD} 筆全 hold,0 筆 f
   assert.equal(results.filter((r) => r.decision === 'hold').length, 21);
   assert.equal(results.filter((r) => r.decision === 'file').length, 0);
   assert.match(results[0].reason, /^batch-cluster:/);
-  assert.equal(results[0].cluster, 'justfont與台灣字體發展'.toLowerCase());
+  assert.equal(
+    results[0].cluster,
+    'justfont與台灣characters體發展'.toLowerCase(),
+  );
 });
 
 test('batch-cluster: 低於閾值照常逐筆 file', () => {
@@ -251,13 +257,13 @@ test('batch-cluster: 低於閾值照常逐筆 file', () => {
   );
 });
 
-test('batch-cluster: cluster 外的回報不受影響,照常 file', () => {
+test('batch-cluster: cluster 外的Report不受impact,照常 file', () => {
   const rows = [
     ...clusterRows(6),
     {
       id: 'solo-1',
       type: 'bug',
-      article_slug: '李安',
+      article_slug: 'Ang Lee',
       body: '這頁排版在手機上壞掉了',
     },
   ];
@@ -267,12 +273,12 @@ test('batch-cluster: cluster 外的回報不受影響,照常 file', () => {
   assert.equal(results.filter((r) => r.decision === 'hold').length, 6);
 });
 
-test('batch-cluster: cluster 內的 spam 仍 reject,不算進 cluster 數', () => {
+test('batch-cluster: cluster inside的 spam 仍 reject,does not count進 cluster 數', () => {
   const rows = [
     ...clusterRows(BATCH_CLUSTER_THRESHOLD - 1),
     {
       id: 'spam-1',
-      article_slug: 'justfont與台灣字體發展',
+      article_slug: 'justfont與台灣characters體發展',
       body: 'casino casino http://bit.ly/x crypto pump',
     },
   ];
@@ -282,11 +288,11 @@ test('batch-cluster: cluster 內的 spam 仍 reject,不算進 cluster 數', () =
   assert.equal(results.find((r) => r.row.id === 'spam-1').decision, 'reject');
 });
 
-test('batch-cluster: 無 slug 的回報不會被 cluster', () => {
+test('batch-cluster: 無 slug 的Report不會被 cluster', () => {
   const rows = Array.from({ length: 8 }, (_, i) => ({
     id: `nos${i}`,
     type: 'idea',
-    body: `想法 ${i}：完全不同的主題建議各自獨立 ${i}`,
+    body: `想法 ${i}：完全different的主題suggestion各自獨立 ${i}`,
   }));
   const results = triageBatch(rows, []);
   assert.equal(results.filter((r) => r.decision === 'hold').length, 0);

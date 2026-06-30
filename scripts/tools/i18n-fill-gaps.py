@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 """
-i18n-fill-gaps.py — 補 src/i18n/ 既有 lang block 的「部分缺漏」key（merge 模式）
+i18n-fill-gaps.py — 補 src/i18n/ existing lang block 的「partial缺漏」key（merge Mode）
 
-i18n-translate.py 只在 target lang block 不存在時整塊新增；當 block 已存在但
-key 不齊（en 後來新增了 key），它會 skip。本工具補這個缺口：
+i18n-translate.py 只在 target lang block Does not exist時整塊add；當 block Already exists但
+key 不齊（en 後來add了 key），它會 skip。本tool補這缺口：
 
-  1. 抽 en block 的 key 順序 + value
-  2. 抽 target lang block 既有 key
-  3. missing = en_keys - target_keys（保留 en 順序）
-  4. 只把 missing 的 en value 丟 owl-alpha 翻成 target（與既有翻譯同一條 path 保一致）
-  5. 把翻好的 missing pair splice 進 target block 結尾（既有 key 一律不動）
+ 1. 抽 en block 的 key 順序 + value
+ 2. 抽 target lang block existing key
+ 3. missing = en_keys - target_keys（Keep en 順序）
+ 4. 只把 missing 的 en value 丟 owl-alpha 翻成 target（與existingTranslationsame path 保一致）
+ 5. 把翻好的 missing pair splice 進 target block 結尾（existing key 一律不動）
 
-複用 i18n-translate.py 的 parser / owl 呼叫，避免邏輯漂移。
+複用 i18n-translate.py 的 parser / owl call，Avoid邏輯drift。
 
 Usage:
   python3 scripts/tools/i18n-fill-gaps.py --module semiont --target ja
@@ -33,7 +33,7 @@ _spec.loader.exec_module(_t)
 def _chunk_translate(missing_json, target_lang, api_key):
     """Translate {key: en_value} via owl-alpha, chunked. Returns {key: translated}."""
     system = (
-        f"You are a UI string translator for Taiwan.md.\n\n"
+        f"You are a UI string translator for LagunaBeach.md.\n\n"
         f"Translate this JSON of English UI strings to {_t.LANG_NAMES.get(target_lang, target_lang)}.\n\n"
         "CRITICAL rules:\n"
         "1. Output ONLY a JSON object, no markdown wrapper, no explanation\n"

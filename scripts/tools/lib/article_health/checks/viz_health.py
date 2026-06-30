@@ -48,7 +48,7 @@ _DATA_MODULES = {
 # fenced tw-* block: ```tw-xxx\n ...content... \n```
 _FENCE_RE = re.compile(r"```(tw-[a-z]+)[^\n]*\n(.*?)```", re.DOTALL)
 
-# Source label: Source: / Data source: / 來源 / 資料來源
+# Source label: Source: / Data source: / Source / DataSource
 _SRC_RE = re.compile(
     r"(?:Data\s+source|Source|資料來源|來源)\s*[:：]\s*\S", re.IGNORECASE
 )
@@ -56,7 +56,7 @@ _SRC_RE = re.compile(
 # AI-blind deixis — zh-TW patterns
 _AIBLIND_ZH_RE = re.compile(
     r"(?:如|見|參見)(?:上|下|左|右)?圖(?:所示)?"
-    r"|(?:上|下)圖(?:所示|顯示|可見|中)"
+    r"|(?:上|下)圖(?:所示|display|可見|中)"
 )
 
 # AI-blind deixis — English patterns

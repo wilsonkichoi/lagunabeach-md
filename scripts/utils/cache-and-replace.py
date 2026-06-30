@@ -17,7 +17,7 @@ for fp in source_files:
         urls = URL_RE.findall(f.read())
         all_urls.update(urls)
 
-print(f"🖼️  找到 {len(all_urls)} 個 Wikimedia URL")
+print(f"🖼️ Found {len(all_urls)} Wikimedia URL")
 
 # Step 2: Download missing images
 url_to_local = {}
@@ -38,7 +38,7 @@ for url in sorted(all_urls):
     
     try:
         req = urllib.request.Request(url, headers={
-            'User-Agent': 'TaiwanMD/1.0 (https://taiwan.md; educational project)'
+            'User-Agent': 'TaiwanMD/1.0 (https://lagunabeach.md; educational project)'
         })
         with urllib.request.urlopen(req, timeout=15) as resp:
             data = resp.read()
@@ -55,7 +55,7 @@ for url in sorted(all_urls):
     
     time.sleep(0.3)
 
-print(f"\n📊 下載: {downloaded} 新 + {cached} 已快取 = {len(url_to_local)} 總計")
+print(f"\n📊 download: {downloaded} 新 + {cached} 已cache = {len(url_to_local)} total")
 
 # Step 3: Replace URLs in source files
 files_changed = 0
@@ -83,5 +83,5 @@ print(f"\n🔄 替換: {urls_replaced} URLs in {files_changed} files")
 
 # Step 4: Summary
 total_files = len([f for f in os.listdir(IMG_DIR) if not f.endswith('.txt')])
-print(f"📂 快取目錄: {IMG_DIR} ({total_files} files)")
-print("🎉 完成！圖片永遠不會死掉了")
+print(f"📂 cachedirectory: {IMG_DIR} ({total_files} files)")
+print("🎉 Done！image永遠不會死掉了")

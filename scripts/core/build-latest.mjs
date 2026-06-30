@@ -2,15 +2,15 @@
  * build-latest.mjs — generate public/api/latest.json (時序主軸 client data)
  * + public/api/random-index-{lang}.json (隨機探索 per-lang href pool)
  *
- * Why: the article-page "站上最新" rail is rendered CLIENT-SIDE (so the static
+ * Why: the article-page "站上Latest" rail is rendered CLIENT-SIDE (so the static
  * HTML of every article page never changes when a new article ships — avoids
  * crawl churn + the lastmod=now freshness anti-pattern killed in c1403e259).
  * The client can't read src/data/content-dates.json (not under public/), so we
  * emit a small per-language latest list here.
  *
- * random-index (2026-06-10 build audit §5.1): article.template 原本把整語言
- * 文章清單（~50KB）define:vars 內嵌進每一頁只為了「隨機探索」按鈕 — 4,895 頁
- * × 50KB ≈ dist 多 250MB。改為 per-lang 共用 JSON（{category: [href...]}），
+ * random-index (2026-06-10 build audit §5.1): article.template 原本把整Language
+ * Articleslist（~50KB）define:vars inside嵌進每一頁只為了「隨機探索」按鈕 — 4,895 頁
+ * × 50KB ≈ dist 多 250MB。改為 per-lang shared JSON（{category: [href...]}），
  * 按鈕 click 時才 lazy fetch。順手修 latent bug：譯文頁隨機跳轉原本沒帶
  * lang prefix（href 在這裡就含前綴）。
  *

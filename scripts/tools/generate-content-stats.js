@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename);
 
 const knowledgeDir = path.join(__dirname, '../..', 'knowledge');
 
-// 分類統計
+// categorystatistics
 const categories = {};
 function scan(dir, cat = '') {
   for (const f of fs.readdirSync(dir)) {
@@ -23,7 +23,7 @@ function scan(dir, cat = '') {
 }
 scan(knowledgeDir);
 
-// 每日新增（從 git log）
+// 每日add（From git log）
 let dailyGrowth = [];
 try {
   const log = execSync(

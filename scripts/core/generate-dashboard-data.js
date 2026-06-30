@@ -342,7 +342,7 @@ function getGitInfo(filePath) {
 // `basename(file, '.md')` which preserves case. Lowercasing here produced
 // broken dashboard links (e.g. `Victoria-Beach` → `victoria-beach`). Bug fix
 // 2026-04-15 γ session: 32 files had uppercase in the filename, ~20 were driving
-// a significant chunk of the CF 404 rate. (Inherited from upstream Taiwan.md,
+// a significant chunk of the CF 404 rate. (Inherited from upstream LagunaBeach.md,
 // where the original symptom was uppercase social-platform slugs.)
 function deriveSlug(fileName) {
   // fileName without .md extension
@@ -1230,7 +1230,7 @@ async function main() {
       {
         id: 'immune',
         name: 'Immune',
-        nameZh: '免疫系統',
+        nameZh: 'Immune system',
         metaphor: 'Quality defense',
         emoji: '🛡️',
         score: immuneScore,
@@ -1261,7 +1261,7 @@ async function main() {
       {
         id: 'skeleton',
         name: 'Skeleton',
-        nameZh: '骨骼系統',
+        nameZh: '骨骼System',
         metaphor: 'Technical architecture',
         emoji: '🦴',
         score: skeletonScore,
@@ -1271,7 +1271,7 @@ async function main() {
       {
         id: 'breath',
         name: 'Breath',
-        nameZh: '呼吸系統',
+        nameZh: '呼吸System',
         metaphor: 'Automation cycle',
         emoji: '🫁',
         score: breathScore,
@@ -1281,7 +1281,7 @@ async function main() {
       {
         id: 'reproduce',
         name: 'Reproduce',
-        nameZh: '繁殖系統',
+        nameZh: '繁殖System',
         metaphor: 'Community reproduction',
         emoji: '🧫',
         score: reproduceScore,
@@ -1294,7 +1294,7 @@ async function main() {
       {
         id: 'senses',
         name: 'Senses',
-        nameZh: '感知器官',
+        nameZh: 'SensingOrgan',
         metaphor: 'External perception',
         emoji: '👁️',
         score: sensesScore,
@@ -1304,7 +1304,7 @@ async function main() {
       {
         id: 'translation',
         name: 'Translation',
-        nameZh: '語言器官',
+        nameZh: 'LanguageOrgan',
         metaphor: 'Multilingual replication',
         emoji: '🌐',
         score: translationScore,

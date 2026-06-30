@@ -18,8 +18,8 @@ Supports any OpenRouter model id (free-tier or paid). Common picks:
     - qwen/qwen3-*         (Alibaba)
     - baidu/cobuddy        (Baidu)
 
-Per REFLEXES #45: same provider keys share budget. 哲宇 has 5 keys in
-~/.config/taiwan-md/credentials/openrouter-keys/ — backend rotates on 429.
+Per REFLEXES #45: same provider keys share budget. Cheyu has 5 keys in
+~/.config/lagunabeach-md/credentials/openrouter-keys/ — backend rotates on 429.
 """
 from __future__ import annotations
 
@@ -39,7 +39,7 @@ from ._base import (
 )
 
 
-CREDS_DIR = Path.home() / ".config" / "taiwan-md" / "credentials"
+CREDS_DIR = Path.home() / ".config" / "lagunabeach-md" / "credentials"
 KEY_FILE = CREDS_DIR / "openrouter.key"
 KEY_ROTATION_DIR = CREDS_DIR / "openrouter-keys"
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
@@ -124,8 +124,8 @@ class OpenRouterBackend(TranslationBackend):
                 headers={
                     "Authorization": f"Bearer {key}",
                     "Content-Type": "application/json",
-                    "HTTP-Referer": "https://taiwan.md",
-                    "X-Title": "Taiwan.md Babel",
+                    "HTTP-Referer": "https://lagunabeach.md",
+                    "X-Title": "LagunaBeach.md Babel",
                 },
                 method="POST",
             )

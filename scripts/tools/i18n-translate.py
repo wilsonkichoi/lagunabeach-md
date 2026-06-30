@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-i18n-translate.py — 批次翻譯 src/i18n/ UI strings 到 target lang
+i18n-translate.py — batchTranslation src/i18n/ UI strings 到 target lang
 
-從每個 module file 抽出 en block，整批 prompt owl-alpha 翻譯成 target lang，
-splice 進原檔案（在現有 en/ja/ko 之後加新 lang block）。
+FromEach module file 抽出 en block，整批 prompt owl-alpha Translation成 target lang，
+splice 進原file（在現有 en/ja/ko after加新 lang block）。
 
 Usage:
   python3 scripts/tools/i18n-translate.py --module home --target fr
   python3 scripts/tools/i18n-translate.py --module semiont --target ja
-  python3 scripts/tools/i18n-translate.py --all --target fr  # 所有 12 modules
+ python3 scripts/tools/i18n-translate.py --all --target fr # all 12 modules
 """
 import argparse, json, os, re, subprocess, sys, urllib.request, urllib.error
 from datetime import datetime, timezone, timedelta
@@ -16,17 +16,17 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent.parent
 I18N_DIR = REPO / "src/i18n"
-CREDS = Path.home() / ".config/taiwan-md/credentials"
+CREDS = Path.home() / ".config/lagunabeach-md/credentials"
 KEY_FILE = CREDS / "openrouter.key"
 ENV_FILE = CREDS / ".env"
 
 LANG_NAMES = {
     "en": "English",
-    "ja": "Japanese (です・ます調 neutral formal)",
+ "ja": "Japanese (です・ます調 neutral formal)",
     "ko": "Korean (한국어 standard literary)",
     "es": "Spanish (Español neutral)",
     "fr": "French (Français neutral)",
-    "zh-TW": "Traditional Chinese (繁體中文 台灣)",
+ "zh-TW": "Traditional Chinese (繁體Chinese 台灣)",
 }
 
 MODULES = ["home", "about", "contribute", "changelog", "dashboard", "data",
@@ -169,7 +169,7 @@ def translate_module(module: str, target_lang: str, api_key: str, dry_run: bool 
 
     # Build prompt — values are already unquoted by parser
     en_json = {k: v for k, v in pairs}
-    system = f"""You are a UI string translator for Taiwan.md.
+    system = f"""You are a UI string translator for LagunaBeach.md.
 
 Translate this JSON of English UI strings to {LANG_NAMES.get(target_lang, target_lang)}.
 

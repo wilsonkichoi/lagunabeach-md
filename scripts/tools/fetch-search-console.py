@@ -1,29 +1,29 @@
 #!/usr/bin/env python3
 """
-fetch-search-console.py — 抓 Google Search Console 資料
+fetch-search-console.py — Fetch Google Search Console Data
 
-用法:
+Usage:
     python3 scripts/tools/fetch-search-console.py [--days 28]
 
-憑證:
-    跟 fetch-ga4.py 共用 ~/.config/taiwan-md/credentials/google-service-account.json
-    需要把 service account email 加到 Search Console 的使用者權限（Restricted 即可）
+Credentials:
+ 跟 fetch-ga4.py shared ~/.config/lagunabeach-md/credentials/google-service-account.json
+ Need把 service account email 加到 Search Console 的使用者permissions（Restricted 即可）
 
 Site URL:
-    ~/.config/taiwan-md/credentials/.env 裡的 SC_SITE_URL
-    格式: 'sc-domain:taiwan.md' (Domain property)
-    或    'https://taiwan.md/' (URL prefix property)
+ ~/.config/lagunabeach-md/credentials/.env 裡的 SC_SITE_URL
+ Format: 'sc-domain:lagunabeach.md' (Domain property)
+ 或 'https://lagunabeach.md/' (URL prefix property)
 
-輸出:
-    ~/.config/taiwan-md/cache/search-console-latest.json
-    ~/.config/taiwan-md/cache/search-console-{YYYY-MM-DD}.json
+Output:
+    ~/.config/lagunabeach-md/cache/search-console-latest.json
+    ~/.config/lagunabeach-md/cache/search-console-{YYYY-MM-DD}.json
 
-依賴:
+Dependencies:
     google-api-python-client
     google-auth
-    (跟 fetch-ga4.py 共用 venv)
+ (跟 fetch-ga4.py shared venv)
 
-來源: 2026-04-11 session α
+Source: 2026-04-11 session α
 """
 import json
 import os
@@ -31,7 +31,7 @@ import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
-CONFIG_DIR = Path.home() / ".config" / "taiwan-md"
+CONFIG_DIR = Path.home() / ".config" / "lagunabeach-md"
 CREDENTIALS_DIR = CONFIG_DIR / "credentials"
 CACHE_DIR = CONFIG_DIR / "cache"
 VENV_DIR = CONFIG_DIR / "venv"
@@ -77,7 +77,7 @@ def query_sc(service, site_url, dimensions, start_date, end_date, row_limit=500)
     the GSC UI displays. Without it, zero-click high-impression queries from
     the last 1-2 days silently drop out of the result set. (2026-04-20 fix —
     dashboard showed 2,458 imp while GSC UI showed 2,747 for the same 7-day
-    window, and high-impression queries like 鄧麗君 / taipei population were
+ window, and high-impression queries like 鄧麗君 / taipei population were
     missing from the cache.)
     """
     body = {
@@ -120,8 +120,8 @@ def main():
     if not site_url:
         fail(
             f"SC_SITE_URL not set in {ENV_FILE}\n"
-            f"   Example: SC_SITE_URL='sc-domain:taiwan.md'\n"
-            f"   or: SC_SITE_URL='https://taiwan.md/'"
+            f"   Example: SC_SITE_URL='sc-domain:lagunabeach.md'\n"
+            f"   or: SC_SITE_URL='https://lagunabeach.md/'"
         )
 
     cred_path = env.get("GOOGLE_APPLICATION_CREDENTIALS", "").strip()
@@ -161,7 +161,7 @@ def main():
         totals_raw = query_sc(service, site_url, [], start_date, end_date, row_limit=1)
         countries = query_sc(service, site_url, ["country"], start_date, end_date, row_limit=100)
         # SC API sorts rows by clicks DESC, then impressions — so zero-click
-        # but high-impression queries (e.g. 鄧麗君 478 imp / 0 clicks) land
+ # but high-impression queries (e.g. 鄧麗君 478 imp / 0 clicks) land
         # after ALL clicked rows. We need rowLimit big enough to reach them.
         # 2000 covers our current query tail; the hard cap is 25000. Pages
         # bumped similarly so hub pages with zero-click impressions aren't
@@ -217,15 +217,15 @@ def main():
     }
 
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
-    # 2026-04-24 β3: 404 偵測常態化
-    # 抽 SC pages 對照 dist/sitemap-0.xml URL set，找出可能是 404 的 URL
-    # （Google 嘗試 crawl 但 site 已不存在的頁面仍會在 SC pages dim 中出現）
+ # 2026-04-24 β3: 404 Detect常態化
+ # 抽 SC pages 對照 dist/sitemap-0.xml URL set，找出可能是 404 的 URL
+ # （Google try crawl 但 site 已Does not exist的頁面仍會在 SC pages dim 中出現）
     site_url_set = set()
     sitemap_path = Path.cwd() / "dist" / "sitemap-0.xml"
     if sitemap_path.exists():
         try:
             sitemap_xml = sitemap_path.read_text()
-            # 抽所有 <loc>...</loc> 內的 URL
+ # 抽all <loc>...</loc> inside的 URL
             import re
             loc_urls = re.findall(r"<loc>(https://taiwan\.md[^<]+)</loc>", sitemap_xml)
             for u in loc_urls:
@@ -233,7 +233,7 @@ def main():
                 clean = u.split("?")[0].rstrip("/")
                 site_url_set.add(clean)
                 site_url_set.add(clean + "/")
-            # 抽 hreflang alternate URLs（這些也是 site claims to have）
+ # 抽 hreflang alternate URLs（這些也是 site claims to have）
             href_urls = re.findall(
                 r'<xhtml:link[^>]+href="(https://taiwan\.md[^"]+)"', sitemap_xml
             )
@@ -242,7 +242,7 @@ def main():
                 site_url_set.add(clean)
                 site_url_set.add(clean + "/")
         except Exception as e:
-            print(f"⚠️  Sitemap 解析失敗: {e}", file=sys.stderr)
+ print(f"⚠️ Sitemap ParseFailed: {e}", file=sys.stderr)
 
     potential_404 = []
     if site_url_set:
@@ -259,7 +259,7 @@ def main():
         # Sort by impressions desc — biggest 404 leak first
         potential_404.sort(key=lambda x: -x["impressions"])
 
-    # 統計各語言 404 分佈（從 URL prefix 推 lang）
+ # statistics各Language 404 分佈（From URL prefix 推 lang）
     lang_404_count = {}
     for p in potential_404:
         url = p["url"]
@@ -282,8 +282,8 @@ def main():
         "by_lang": lang_404_count,
         "top_50": potential_404[:50],
         "_note": (
-            "URLs 出現在 SC impressions 但不在 sitemap 內 = "
-            "Google 仍嘗試 crawl 已不存在的頁面。修法：加 redirect 或讓 sitemap 重新 indexable。"
+ "URLs 出現在 SC impressions 但not in sitemap inside = "
+ "Google 仍try crawl 已Does not exist的頁面。修法：加 redirect 或讓 sitemap re- indexable。"
         ),
     }
 
@@ -295,15 +295,15 @@ def main():
     print(f"✅ SC: {total_clicks:,} clicks / {total_impressions:,} impressions ({args.days}d)", file=sys.stderr)
     if site_url_set:
         print(
-            f"🔍 SC 404 偵測: {len(potential_404)} 個 SC URLs 不在 sitemap "
-            f"({sum(p['impressions'] for p in potential_404):,} impressions 流失)",
+ f"🔍 SC 404 Detect: {len(potential_404)} SC URLs not in sitemap "
+ f"({sum(p['impressions'] for p in potential_404):,} impressions 流失)",
             file=sys.stderr,
         )
         if lang_404_count:
             for lang, cnt in sorted(lang_404_count.items(), key=lambda x: -x[1]):
                 print(f"   {lang}: {cnt}", file=sys.stderr)
     else:
-        print(f"⚠️  Sitemap 不存在或解析失敗，跳過 404 偵測", file=sys.stderr)
+ print(f"⚠️ Sitemap Does not exist或ParseFailed，Skipped 404 Detect", file=sys.stderr)
     print(f"   → {latest_path}", file=sys.stderr)
 
     # Find high-impression, low-CTR opportunities (Bamboo Drum metric)

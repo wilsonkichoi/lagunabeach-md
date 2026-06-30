@@ -1,22 +1,22 @@
 #!/usr/bin/env bash
-# cross-link.sh v1.0 — Stage 5 CROSS-LINK 雙向延伸閱讀建議工具
+# cross-link.sh v1.0 — Stage 5 CROSS-LINK 雙向Further Readingsuggestiontool
 #
-# 用法:
-#   bash scripts/tools/cross-link.sh knowledge/Nature/台灣氣候危機與淨零轉型.md
-#     → 找出相關文章、檢查雙向連結、報告缺失
+# Usage:
+# bash scripts/tools/cross-link.sh knowledge/Nature/台灣氣候危機與淨零轉型.md
+# → 找出relatedArticles、Check雙向連結、report缺失
 #
 #   bash scripts/tools/cross-link.sh --scan
-#     → 全站掃描，找出所有「被連結但沒有反向連結」的孤兒關係
+# → Site-wideScan，找出all「被連結但None反向連結」的孤兒關係
 #
 #   bash scripts/tools/cross-link.sh --orphans
-#     → 找出零延伸閱讀且零被連結的孤立文章
+# → 找出零Further Reading且零被連結的孤立Articles
 #
 # 原理：
-#   1. 從目標文章的 tags 找出共享 tag 最多的相關文章
-#   2. 檢查目標文章的延伸閱讀連結是否有反向連結
-#   3. 報告建議新增的雙向連結
+# 1. FromtargetArticles的 tags 找出共享 tag at most的relatedArticles
+# 2. ChecktargetArticles的Further Reading連結是否有反向連結
+# 3. reportsuggestionadd的雙向連結
 #
-# 造橋鋪路：Stage 5 從人工判斷→工具建議→未來可半自動修復
+# bridge-building鋪路：Stage 5 From人工判斷→toolsuggestion→未來可半automaticFix
 
 set -uo pipefail
 cd "$(dirname "$0")/../.."
@@ -54,15 +54,15 @@ while IFS= read -r -d '' f; do
   [[ -n "$tags" ]] && printf '%s\t%s\n' "$rel" "$tags"
 done > "$TAG_INDEX"
 
-# Build link index: who links to whom via 延伸閱讀
+# Build link index: who links to whom via Further Reading
 find knowledge -maxdepth 2 -name '*.md' \
   ! -path 'knowledge/en/*' ! -path 'knowledge/ja/*' \
   ! -path 'knowledge/es/*' ! -path 'knowledge/ko/*' \
   ! -path 'knowledge/resources/*' ! -name '_*' -print0 | \
 while IFS= read -r -d '' f; do
   rel="${f#knowledge/}"
-  # Extract 延伸閱讀 section links
-  awk '/^\*\*延伸閱讀\*\*/{p=1;next} /^##/{p=0} p{print}' "$f" | \
+ # Extract Further Reading section links
+ awk '/^\*\*Further Reading\*\*/{p=1;next} /^##/{p=0} p{print}' "$f" | \
   grep -E '^\s*-\s*\[' | grep -oE '\(/[a-zA-Z]+/[^)]+\)' | tr -d '()' | \
   while read -r link; do
     lcat=$(echo "$link" | cut -d'/' -f2)
@@ -76,8 +76,8 @@ done > "$LINK_INDEX"
 # Mode: Single article analysis
 # ════════════════════════════════════════
 if [[ "$MODE" == "single" ]]; then
-  [[ -z "$TARGET" ]] && echo "用法: $0 <article.md> | --scan | --orphans" && exit 1
-  [[ ! -f "$TARGET" ]] && echo "❌ 檔案不存在: $TARGET" && exit 1
+ [[ -z "$TARGET" ]] && echo "Usage: $0 <article.md> | --scan | --orphans" && exit 1
+ [[ ! -f "$TARGET" ]] && echo "❌ fileDoes not exist: $TARGET" && exit 1
 
   rel="${TARGET#knowledge/}"
   fname=$(basename "$rel" .md)
@@ -91,7 +91,7 @@ if [[ "$MODE" == "single" ]]; then
   my_tags=$(grep "^${rel}" "$TAG_INDEX" | cut -f2)
 
   # Find related articles by shared tags
-  echo -e "${BLD}📋 相關文章（共享 tag 排序）${RST}"
+ echo -e "${BLD}📋 relatedArticles（共享 tag Sort）${RST}"
   echo ""
   while IFS=$'\t' read -r other_rel other_tags; do
     [[ "$other_rel" == "$rel" ]] && continue
@@ -118,28 +118,28 @@ if [[ "$MODE" == "single" ]]; then
 
   # Check outgoing links
   echo ""
-  echo -e "${BLD}📤 本文延伸閱讀連結${RST}"
+ echo -e "${BLD}📤 本文Further Reading連結${RST}"
   outgoing=$(grep "^${rel}" "$LINK_INDEX" 2>/dev/null)
   if [[ -z "$outgoing" ]]; then
-    echo -e "  ${RED}無延伸閱讀${RST}"
+ echo -e " ${RED}無Further Reading${RST}"
   else
     while IFS=$'\t' read -r _src tgt; do
       # Check reverse link
       reverse=$(grep "^${tgt}.md" "$LINK_INDEX" 2>/dev/null | grep -c "${fcat}/${fname}")
       if (( reverse > 0 )); then
-        echo -e "  ${GRN}⟷${RST} ${tgt} ${DIM}(雙向)${RST}"
+ echo -e " ${GRN}⟷${RST} ${tgt} ${DIM}(雙向)${RST}"
       else
-        echo -e "  ${YEL}→ ${RST} ${tgt} ${RED}(缺反向連結)${RST}"
+ echo -e " ${YEL}→ ${RST} ${tgt} ${RED}(缺反向連結)${RST}"
       fi
     done <<< "$outgoing"
   fi
 
   # Check incoming links
   echo ""
-  echo -e "${BLD}📥 連結到本文的文章${RST}"
+ echo -e "${BLD}📥 連結到本文的Articles${RST}"
   incoming=$(grep "${fcat}/${fname}" "$LINK_INDEX" 2>/dev/null)
   if [[ -z "$incoming" ]]; then
-    echo -e "  ${DIM}無文章連結到本文${RST}"
+ echo -e " ${DIM}無Articles連結到本文${RST}"
   else
     while IFS=$'\t' read -r src _tgt; do
       echo -e "  ← ${src}"
@@ -152,7 +152,7 @@ if [[ "$MODE" == "single" ]]; then
 # ════════════════════════════════════════
 elif [[ "$MODE" == "orphans" ]]; then
   echo ""
-  echo -e "${BLD}🏝️ 孤立文章（零延伸閱讀 + 零被連結）${RST}"
+ echo -e "${BLD}🏝️ 孤立Articles（零Further Reading + 零被連結）${RST}"
   echo ""
   orphan_count=0
   while IFS= read -r -d '' f; do
@@ -173,7 +173,7 @@ elif [[ "$MODE" == "orphans" ]]; then
     ! -path 'knowledge/resources/*' ! -name '_*' ! -name 'index.md' -print0 | sort -z)
   echo ""
   echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-  echo -e "🏝️  孤立文章: ${BLD}${orphan_count}${RST} 篇"
+ echo -e "🏝️ 孤立Articles: ${BLD}${orphan_count}${RST} "
   echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
 # ════════════════════════════════════════
@@ -181,7 +181,7 @@ elif [[ "$MODE" == "orphans" ]]; then
 # ════════════════════════════════════════
 elif [[ "$MODE" == "scan" ]]; then
   echo ""
-  echo -e "${BLD}🔗 cross-link v1.0 — 全站雙向連結掃描${RST}"
+ echo -e "${BLD}🔗 cross-link v1.0 — Site-wide雙向連結Scan${RST}"
   echo ""
 
   total_links=0
@@ -198,18 +198,18 @@ elif [[ "$MODE" == "scan" ]]; then
       bidirectional=$((bidirectional + 1))
     else
       one_way=$((one_way + 1))
-      echo -e "  ${YEL}→${RST} ${src} → ${tgt} ${RED}(單向)${RST}"
+ echo -e " ${YEL}→${RST} ${src} → ${tgt} ${RED}(單向)${RST}"
     fi
   done < "$LINK_INDEX"
 
   echo ""
   echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-  echo -e "📊 ${BLD}延伸閱讀連結健康度${RST}"
-  echo -e "   總連結數:   ${total_links}"
-  echo -e "   ${GRN}雙向:       ${bidirectional}${RST}"
-  echo -e "   ${YEL}單向:       ${one_way}${RST}"
+ echo -e "📊 ${BLD}Further Reading連結Health度${RST}"
+ echo -e " 總連結數: ${total_links}"
+ echo -e " ${GRN}雙向: ${bidirectional}${RST}"
+ echo -e " ${YEL}單向: ${one_way}${RST}"
   bidi_pct=0
   (( total_links > 0 )) && bidi_pct=$((bidirectional * 100 / total_links))
-  echo -e "   雙向率:     ${bidi_pct}%"
+ echo -e " 雙向率: ${bidi_pct}%"
   echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 fi

@@ -29,12 +29,12 @@ APPLIES_TO = ["*"]  # all langs
 #   1. With URL:  [^id]: [Title](URL) — description (≥6 chars)
 #      URL may be bare (`https://example.com`) OR Prettier autolink-wrapped
 #      (`<https://example.com>`). Prettier auto-wraps URLs containing parens
-#      (e.g. Wikipedia disambiguation: `王建民_(棒球運動員)`) into `<...>` form
+# (e.g. Wikipedia disambiguation: `王建民_(棒球運動員)`) into `<...>` form
 #      so they survive markdown link parsing — this regex must accept both.
 #   2. Pure prose explanatory note: [^id]: <prose ≥10 chars>  (no URL required —
-#      these are 「補充說明」style footnotes, valid markdown convention)
+# these are 「補充說明」style footnotes, valid markdown convention)
 # (relaxed from 10 → 6 for url-form descriptions in 2026-05-04 cleanup: Chinese
-# descs are often short — 「維基百科條目」「中央社報導」 are clear enough at 5-6 chars)
+# descs are often short — 「維基百科目」「中央社報導」 are clear enough at 5-6 chars)
 # (autolink wrap acceptance added 2026-05-08 — root-cause fix for CI failures
 # where Prettier-formatted footnotes with paren-containing URLs were rejected)
 _RE_CANONICAL = re.compile(
@@ -57,7 +57,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             check=CHECK_NAME,
             severity=DEFAULT_SEVERITY,
             message=(
-                "腳註格式不合規範：應為 `[^N]: [Title](URL) — description (≥10 chars)`"
+ "腳註Format不合spec：should be `[^N]: [Title](URL) — description (≥10 chars)`"
             ),
             line=line_num,
             snippet=line[:100],
@@ -70,7 +70,7 @@ def fix(target: FileTarget, config: dict[str, Any]) -> int:
 
     ONLY applies the SAFE transform: `[^N]: [Title](URL)` → append
     ` — desc` (where desc is domain-aware via footnote-format-fix.py's
-    DOMAIN_DESC table, or the fallback「詳見原始連結內文」).
+ DOMAIN_DESC table, or the fallback「詳見original連結inside文」).
 
     DOES NOT apply destructive transforms:
       - APA-style with prefix-text + embedded markdown link (would strip
@@ -118,7 +118,7 @@ def fix(target: FileTarget, config: dict[str, Any]) -> int:
     _NON_EM_DASH_SEP = re.compile(
         r"^(\[\^[0-9a-zA-Z_-]+\]:)\s+(\[[^\]]+\])\((https?://[^)]+)\)([，,\s]*)([（(].+|[^—\s].+)$"
     )
-    # Prose-prefix pattern: `[^N]: prose...參見[Title](URL)` — prose context BEFORE the
+ # Prose-prefix pattern: `[^N]: prose...參見[Title](URL)` — prose context BEFORE the
     # markdown link. SAFE transform: convert prose prefix into the desc field,
     # preserving original information without losing the link or the context.
     _PROSE_PREFIX = re.compile(
@@ -163,16 +163,16 @@ def fix(target: FileTarget, config: dict[str, Any]) -> int:
                 changes += 1
             continue
         # Pattern 3: multi-link compound — keep first link as primary, fold
-        # subsequent links into description as `（並見：second-domain）`
+ # subsequent links into description as `（並見：second-domain）`
         m = _MULTI_LINK.match(line)
         if m:
             prefix, title1, url1, title2, url2, title3, url3 = m.groups()
             # Compute descriptive note mentioning the secondary source(s)
             extras = []
             if title2 and url2:
-                extras.append(f"並見{title2.strip('[]')}：{url2}")
+ extras.append(f"並見{title2.strip('[]')}：{url2}")
             if title3 and url3:
-                extras.append(f"並見{title3.strip('[]')}：{url3}")
+ extras.append(f"並見{title3.strip('[]')}：{url3}")
             extras_text = "；".join(extras)
             new_desc = ff.desc_for_url(url1)
             new_desc = f"{new_desc}（{extras_text}）" if extras else new_desc
@@ -199,14 +199,14 @@ def fix(target: FileTarget, config: dict[str, Any]) -> int:
                 lines[i] = new_line
                 changes += 1
                 continue
-        # Pattern 4: prose prefix `[^N]: prose, 參見[Title](URL)` — convert prose
+ # Pattern 4: prose prefix `[^N]: prose, 參見[Title](URL)` — convert prose
         # to desc (preserve context, drop the prose-as-prefix structure).
         m = _PROSE_PREFIX.match(line)
         if m:
             prefix = m.group(1)
             prose = m.group("prose").strip().rstrip("，,。.；;").strip()
-            # Strip "參見"/"見"/"，" suffix words (they were connecting prose → link)
-            for suf in ("，參見", ",參見", "參見", "見於", "另見", "詳見"):
+ # Strip "參見"/"見"/"，" suffix words (they were connecting prose → link)
+ for suf in ("，參見", ",參見", "參見", "見於", "另見", "詳見"):
                 if prose.endswith(suf):
                     prose = prose[: -len(suf)].rstrip("，,。.")
                     break

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
- * Taiwan.md API Generator
- * 生成靜態 JSON API endpoints for knowledge base
+ * LagunaBeach.md API Generator
+ * Generate靜態 JSON API endpoints for knowledge base
  *
  * Usage: node scripts/generate-api.js
  */
@@ -13,18 +13,18 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// 路徑配置
+// pathconfiguration
 const KNOWLEDGE_DIR = path.join(__dirname, '../../knowledge');
 const OUTPUT_DIR = path.join(__dirname, '../../public/api');
 const BASE_URL = 'https://lagunabeach.md';
 
-// 確保輸出目錄存在
+// EnsureOutputdirectoryexists
 if (!fs.existsSync(OUTPUT_DIR)) {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 }
 
 /**
- * 簡易 frontmatter 解析
+ * 簡易 frontmatter Parse
  */
 function parseFrontmatter(content) {
   const frontmatterRegex = /^---\s*\n([\s\S]*?)\n---\s*\n([\s\S]*)$/;
@@ -38,7 +38,7 @@ function parseFrontmatter(content) {
   const bodyContent = match[2];
   const frontmatter = {};
 
-  // 簡單的 YAML 解析（僅支援基本格式）
+  // 簡單的 YAML Parse（僅援基本Format）
   const lines = frontmatterText.split('\n');
   for (const line of lines) {
     const trimmed = line.trim();
@@ -48,7 +48,7 @@ function parseFrontmatter(content) {
         const key = trimmed.slice(0, colonIndex).trim();
         let value = trimmed.slice(colonIndex + 1).trim();
 
-        // 移除引號
+        // Remove引號
         if (
           (value.startsWith('"') && value.endsWith('"')) ||
           (value.startsWith("'") && value.endsWith("'"))
@@ -56,7 +56,7 @@ function parseFrontmatter(content) {
           value = value.slice(1, -1);
         }
 
-        // 處理陣列格式 [tag1, tag2]
+        // handlearrayFormat [tag1, tag2]
         if (value.startsWith('[') && value.endsWith(']')) {
           value = value
             .slice(1, -1)
@@ -74,10 +74,10 @@ function parseFrontmatter(content) {
 }
 
 /**
- * 計算文章閱讀時間（字數 / 250 字/分鐘）
+ * CalculateArticles閱讀時間（characters數 / 250 characters/分鐘）
  */
 function calculateReadingTime(content) {
-  // 移除 markdown 標記
+  // Remove markdown Mark
   const plainText = content
     .replace(/#+\s/g, '') // headers
     .replace(/\*\*([^*]+)\*\*/g, '$1') // bold
@@ -92,7 +92,7 @@ function calculateReadingTime(content) {
 }
 
 /**
- * 遞歸讀取所有 markdown 檔案
+ * 遞歸Readall markdown file
  */
 function getAllMarkdownFiles(dir, baseDir = dir) {
   const files = [];
@@ -105,7 +105,7 @@ function getAllMarkdownFiles(dir, baseDir = dir) {
     if (stat.isDirectory()) {
       files.push(...getAllMarkdownFiles(fullPath, baseDir));
     } else if (item.endsWith('.md') && !item.startsWith('_')) {
-      // 跳過 _Hub 檔案，它們是分類頁面
+      // Skipped _Hub file，它們是category頁面
       files.push(fullPath);
     }
   }
@@ -114,7 +114,7 @@ function getAllMarkdownFiles(dir, baseDir = dir) {
 }
 
 /**
- * 從檔案路徑推導分類
+ * Fromfilepath推導category
  */
 function getCategoryFromPath(filePath) {
   const relativePath = path.relative(KNOWLEDGE_DIR, filePath);
@@ -123,7 +123,7 @@ function getCategoryFromPath(filePath) {
 }
 
 /**
- * 生成文章 URL
+ * GenerateArticles URL
  */
 function generateArticleUrl(filePath) {
   const relativePath = path.relative(KNOWLEDGE_DIR, filePath);
@@ -147,7 +147,7 @@ function generateArticleUrl(filePath) {
 }
 
 /**
- * 處理單個 markdown 檔案
+ * handle單 markdown file
  */
 function processMarkdownFile(filePath) {
   try {
@@ -182,15 +182,15 @@ function processMarkdownFile(filePath) {
 }
 
 /**
- * 生成統計數據
+ * GeneratestatisticsData
  */
 function generateStats(articles) {
   const categories = [...new Set(articles.map((a) => a.category))];
   const allTags = articles.flatMap((a) => a.tags);
   const uniqueTags = [...new Set(allTags)];
 
-  // 簡單的貢獻者估算（基於不同的寫作風格特徵）
-  const estimatedContributors = Math.ceil(articles.length / 15); // 假設平均每人貢獻15篇
+  // 簡單的Contributor估算（基於different的寫作風格特徵）
+  const estimatedContributors = Math.ceil(articles.length / 15); // 假設平均每人Contribution15
 
   const categoryStats = categories.map((category) => ({
     name: category,
@@ -220,7 +220,7 @@ function generateStats(articles) {
 }
 
 /**
- * 隨機選擇文章
+ * 隨機選擇Articles
  */
 function getRandomArticles(articles, count = 20) {
   const shuffled = [...articles].sort(() => 0.5 - Math.random());
@@ -228,15 +228,17 @@ function getRandomArticles(articles, count = 20) {
 }
 
 /**
- * 生成文章索引（供 Smart 404 使用）
+ * GenerateArticles索引（供 Smart 404 使用）
  * 映射 {category}/{slug} → { zhTitle, enTitle, category, langs[] }
  */
 function generateArticleIndex() {
-  console.log('📇 生成 article-index.json (Smart 404 索引)...');
+  console.log('📇 Generate article-index.json (Smart 404 索引)...');
 
   const translationsPath = path.join(KNOWLEDGE_DIR, '_translations.json');
   if (!fs.existsSync(translationsPath)) {
-    console.warn('⚠️  _translations.json 不存在，跳過 article-index 生成');
+    console.warn(
+      '⚠️ _translations.json Does not exist，Skipped article-index Generate',
+    );
     return;
   }
 
@@ -350,55 +352,55 @@ function generateArticleIndex() {
   fs.writeFileSync(outputPath, JSON.stringify(index), 'utf8');
   const count = Object.keys(index).length;
   const size = (fs.statSync(outputPath).size / 1024).toFixed(1);
-  console.log(`📇 生成 article-index.json (${count} 篇文章, ${size}KB)`);
+  console.log(`📇 Generate article-index.json (${count} Articles, ${size}KB)`);
 }
 
 /**
  * 主函數
  */
 async function main() {
-  console.log('🚀 Taiwan.md API Generator 啟動...');
+  console.log('🚀 LagunaBeach.md API Generator 啟動...');
 
-  // 讀取所有 markdown 檔案
-  console.log('📖 掃描 knowledge 目錄...');
+  // Readall markdown file
+  console.log('📖 Scan knowledge directory...');
   const markdownFiles = getAllMarkdownFiles(KNOWLEDGE_DIR);
-  console.log(`找到 ${markdownFiles.length} 個 markdown 檔案`);
+  console.log(`Found ${markdownFiles.length} markdown file`);
 
-  // 處理所有文章
-  console.log('⚙️  解析文章 metadata...');
+  // handleallArticles
+  console.log('⚙️ ParseArticles metadata...');
   const articles = markdownFiles
     .map(processMarkdownFile)
     .filter((article) => article !== null)
     .sort((a, b) => a.title.localeCompare(b.title, 'en'));
 
-  console.log(`✅ 成功處理 ${articles.length} 篇文章`);
+  console.log(`✅ Successhandle ${articles.length} Articles`);
 
-  // 生成 articles.json
+  // Generate articles.json
   const articlesOutput = path.join(OUTPUT_DIR, 'articles.json');
   fs.writeFileSync(articlesOutput, JSON.stringify(articles, null, 2), 'utf8');
-  console.log(`📄 生成 articles.json (${articles.length} 篇文章)`);
+  console.log(`📄 Generate articles.json (${articles.length} Articles)`);
 
-  // 生成 stats.json
+  // Generate stats.json
   const stats = generateStats(articles);
   const statsOutput = path.join(OUTPUT_DIR, 'stats.json');
   fs.writeFileSync(statsOutput, JSON.stringify(stats, null, 2), 'utf8');
-  console.log(`📊 生成 stats.json (${stats.totalCategories} 個分類)`);
+  console.log(`📊 Generate stats.json (${stats.totalCategories} category)`);
 
-  // 生成 article-index.json (Smart 404)
+  // Generate article-index.json (Smart 404)
   generateArticleIndex();
 
-  console.log('\n🎉 API 生成完成！');
-  console.log(`📂 輸出目錄: ${OUTPUT_DIR}`);
-  console.log('📋 生成的檔案:');
-  console.log('   - articles.json (所有文章 metadata)');
-  console.log('   - stats.json (統計資料)');
-  console.log('   - article-index.json (Smart 404 索引)');
+  console.log('\n🎉 API GenerateDone！');
+  console.log(`📂 Outputdirectory: ${OUTPUT_DIR}`);
+  console.log('📋 Generate的file:');
+  console.log(' - articles.json (allArticles metadata)');
+  console.log(' - stats.json (statisticsData)');
+  console.log(' - article-index.json (Smart 404 索引)');
 }
 
-// 執行
+// Execute
 if (import.meta.url === `file://${process.argv[1]}`) {
   main().catch((error) => {
-    console.error('❌ 錯誤:', error);
+    console.error('❌ Error:', error);
     process.exit(1);
   });
 }

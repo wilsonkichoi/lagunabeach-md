@@ -1,20 +1,20 @@
 /**
- * archive.mjs — 把讀者回報 + 溝通紀錄落進 git repo（主權層，純函式）。
+ * archive.mjs — 把ReaderReport + 溝通record落進 git repo（主權層，純function）。
  *
- * 為什麼：feedback 的 live 資料在外掛 BaaS（Supabase），但 canonical 紀錄要進 git
- * （per MANIFESTO 知識在 git 不在黑箱 / 分散式不可殺滅）。BaaS 哪天死了，所有回報 +
- * 維護者溝通仍完整留在 repo 的 markdown 裡，可 diff、可匯出、可 grep。
+ * Why：feedback 的 live Data在外掛 BaaS（Supabase），但 canonical record要進 git
+ * （per MANIFESTO 知識在 git not in黑箱 / 分散式不可殺滅）。BaaS 哪天死了，allReport +
+ * Maintenance者溝通仍full留在 repo 的 markdown 裡，可 diff、可Export、可 grep。
  *
- * PII 鐵律：只存 display_name（暱稱/回退名，= 已公開在 issue 的），**永遠不存 email**。
+ * PII 鐵律：只存 display_name（暱稱/rollback名，= 已public在 issue 的），**永遠不存 email**。
  *
- * 純函式（無 IO）；triage.mjs 負責讀寫檔案。
+ * 純function（無 IO）；triage.mjs 負責讀寫file。
  *   - archiveRelPath(row)              → docs/feedback/archive/YYYY-MM/{id}.md
- *   - buildArchiveRecord(row, note)    → 初始 markdown（含 frontmatter + 內容 + 空溝通紀錄）
- *   - mergeComments(content, comments) → 把 issue 新留言 append 進 §溝通紀錄（去重）
+ * - buildArchiveRecord(row, note) → 初始 markdown（含 frontmatter + Content + 空溝通record）
+ * - mergeComments(content, comments) → 把 issue 新留言 append 進 §溝通record（去重）
  *
- * ⚠️ source_url / body / quote / correct_info 是讀者欄位,可能夾帶 OAuth token / JWT
- *    （登入讀者貼網址列的 Supabase auth fragment）。落 git 前都過 scrubSecrets()
- *    （同 classify.mjs issue body 第二道 PII 閘）。觸發 2026-06-16 feedback 8f2f8908。
+ * ⚠️ source_url / body / quote / correct_info 是Readerfield,可能夾帶 OAuth token / JWT
+ * （登入Reader貼網址列的 Supabase auth fragment）。落 git 前都過 scrubSecrets()
+ * （同 classify.mjs issue body 第二道 PII 閘）。Trigger 2026-06-16 feedback 8f2f8908。
  */
 
 import { scrubSecrets } from './classify.mjs';
@@ -34,7 +34,7 @@ export function archiveRelPath(row) {
   return `docs/feedback/archive/${ym(row.created_at)}/${row.id}.md`;
 }
 
-const COMMENTS_HEADING = '## 溝通紀錄';
+const COMMENTS_HEADING = '## 溝通record';
 
 export function buildArchiveRecord(row, note) {
   const who = row.display_name || '匿名讀者';
@@ -57,8 +57,8 @@ export function buildArchiveRecord(row, note) {
   ].join('\n');
 
   const parts = [front, '', `# Feedback — ${row.type} · ${target}`, ''];
-  parts.push(`**回報者**：${who}`, `**時間**：${row.created_at || ''}`, '');
-  parts.push('**回報內容**', scrubSecrets(row.body) || '', '');
+  parts.push(`**Report者**：${who}`, `**時間**：${row.created_at || ''}`, '');
+  parts.push('**ReportContent**', scrubSecrets(row.body) || '', '');
   if (row.quote) {
     parts.push(
       '**選取的原文**',
@@ -67,10 +67,10 @@ export function buildArchiveRecord(row, note) {
     );
   }
   if (row.correct_info) {
-    parts.push('**正確資訊 + 來源**', scrubSecrets(row.correct_info), '');
+    parts.push('**correct資訊 + Source**', scrubSecrets(row.correct_info), '');
   }
   if (note || row.triage_note) {
-    parts.push('**系統初判**', note || row.triage_note, '');
+    parts.push('**System初判**', note || row.triage_note, '');
   }
   if (row.issue_url) {
     parts.push(`**GitHub issue**：${row.issue_url}`, '');
@@ -81,8 +81,8 @@ export function buildArchiveRecord(row, note) {
 }
 
 /**
- * 把 issue 新留言 append 進 §溝通紀錄。comments: [{id, author, createdAt, body}]。
- * 用 `<!-- comment:<id> -->` marker 去重，re-run 不重複。
+ * 把 issue 新留言 append 進 §溝通record。comments: [{id, author, createdAt, body}]。
+ * 用 `<!-- comment:<id> -->` marker 去重，re-run 不duplicate。
  */
 export function mergeComments(content, comments) {
   if (!comments || !comments.length) return content;
@@ -103,6 +103,6 @@ export function mergeComments(content, comments) {
   if (idx === -1) {
     return `${content.trimEnd()}\n\n${COMMENTS_HEADING}\n\n${blocks}\n`;
   }
-  // 插在 heading 區塊尾端（append）。
+  // 插在 heading block尾端（append）。
   return `${content.trimEnd()}\n\n${blocks}\n`;
 }

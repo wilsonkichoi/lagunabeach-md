@@ -7,7 +7,7 @@ Each invocation translates ONE article based on a manifest entry.
 
 Usage:
     # Translate one article from manifest by zh_path
-    python3 openrouter-translate.py --manifest .lang-sync-tasks/ja/_batch-manifest.json --zh-path "Lifestyle/合作社.md"
+ python3 openrouter-translate.py --manifest .lang-sync-tasks/ja/_batch-manifest.json --zh-path "Lifestyle/合作社.md"
 
     # Translate all articles in a group file
     python3 openrouter-translate.py --group .lang-sync-tasks/ja/_group-A.json
@@ -15,14 +15,14 @@ Usage:
     # Override model (default: openai/gpt-oss-120b:free)
     python3 openrouter-translate.py --group ... --model "deepseek/deepseek-chat:free"
 
-Requires: ~/.config/taiwan-md/credentials/openrouter.key
+Requires: ~/.config/lagunabeach-md/credentials/openrouter.key
 """
 import argparse, json, os, re, sys, time, urllib.request, urllib.error
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent.parent.parent
 KNOWLEDGE = REPO / "knowledge"
-CREDS_DIR = Path.home() / ".config/taiwan-md/credentials"
+CREDS_DIR = Path.home() / ".config/lagunabeach-md/credentials"
 KEY_FILE = CREDS_DIR / "openrouter.key"
 ENV_FILE = CREDS_DIR / ".env"
 DEFAULT_MODEL = "openai/gpt-oss-120b:free"
@@ -30,7 +30,7 @@ API_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 LANG_NAMES = {
     "en": "English",
-    "ja": "Japanese (日本語, です・ます調 neutral formal)",
+ "ja": "Japanese (日本語, です・ます調 neutral formal)",
     "ko": "Korean (한국어 standard literary)",
     "es": "Spanish (Español neutral)",
     "fr": "French (Français neutral)",
@@ -39,11 +39,11 @@ LANG_NAMES = {
 
 def load_lang_guide_sections(lang, max_chars=11000):
     """Z2.0 hard gate (SQUEEZE-MODELS-MAX §Z2.0): inline the per-language canonical
-    guide's leak-critical sections — §1 國名/地區指稱, §2 人名 romanization,
-    §3 地名 romanization, §6 sovereignty-avoid lexicon, + the TL;DR — into the
+ guide's leak-critical sections — §1 國名/地區指稱, §2 人名 romanization,
+ §3 地名 romanization, §6 sovereignty-avoid lexicon, + the TL;DR — into the
     translation prompt. The full guides are 50-60KB; we extract only these sections
     so every backend (codex / gemini / owl-alpha / ollama) carries sovereignty-correct
-    naming without bloating context. Was the pipeline's pending『儀器化候選』(2026-06-03).
+ naming without bloating context. Was the pipeline's pending『儀器化candidate』(2026-06-03).
     """
     guide = REPO / "docs/editorial/per-language" / f"TRANSLATION-{lang}.md"
     if not guide.exists():
@@ -58,7 +58,7 @@ def load_lang_guide_sections(lang, max_chars=11000):
         return ""
     out = "\n\n".join(keep)
     if len(out) > max_chars:
-        out = out[:max_chars] + f"\n…(節錄；完整 canonical 在 docs/editorial/per-language/TRANSLATION-{lang}.md)"
+ out = out[:max_chars] + f"\n…(節錄；full canonical 在 docs/editorial/per-language/TRANSLATION-{lang}.md)"
     return out
 
 
@@ -210,12 +210,12 @@ def build_translation_prompt(article, zh_content, lang):
         target_fm_lines.append(f"{key}: <verbatim from placeholder: {value!r}>")
     target_scaffold = "\n".join(target_fm_lines) if target_fm_lines else "(no zh frontmatter detected — use placeholder only)"
 
-    system = f"""You are a translator for Taiwan.md, an open-source curated knowledge base about Taiwan.
+    system = f"""You are a translator for LagunaBeach.md, an open-source curated knowledge base about Taiwan.
 
 Translate zh-TW articles to {LANG_NAMES.get(lang, lang)} following these rules:
 
 1. **精準/專業/快速**: factual fidelity, academic register, no machine-translation tells
-2. **不預設篇幅**: length follows zh content (no summarization, no over-expansion)
+2. **不Default幅**: length follows zh content (no summarization, no over-expansion)
 3. **Preserve verbatim**: core tension, anchors (people/dates/places/numbers), `> blockquote` quotes, footnote source URLs unchanged
 4. **Reframe cultural common-knowledge** for {lang} readers (e.g., "夜市 = night market" inline)
 
@@ -242,7 +242,7 @@ CRITICAL output rules:
     if _guide:
         system += (
             f"\n\n═══ MANDATORY {LANG_NAMES.get(lang, lang)} CANONICAL GUIDE — sovereignty (overrides your defaults) ═══\n"
-            "Use the site-canonical form for 台灣 / 中華民國 and ALL place + person romanization below. "
+ "Use the site-canonical form for 台灣 / 中華民國 and ALL place + person romanization below. "
             "NEVER use any PRC-coded form listed in the sovereignty-avoid lexicon.\n\n"
             + _guide
         )
@@ -282,7 +282,7 @@ def call_openrouter(_api_key_unused, model, system, user_msg, max_retries=3, max
             {"role": "user", "content": user_msg},
         ],
         "temperature": 0.3,
-        # 2026-06-06: 16000 truncated long articles (TASA 65 footnotes, 健保 42 etc.)
+ # 2026-06-06: 16000 truncated long articles (TASA 65 footnotes, 健保 42 etc.)
         # mid-output — the tail (image credits + footnote definitions) was silently lost,
         # silently shipping 263 de-citationed translations. Bumped to give long articles
         # room; the finish_reason=="length" guard below is the real backstop.
@@ -306,8 +306,8 @@ def call_openrouter(_api_key_unused, model, system, user_msg, max_retries=3, max
             headers={
                 "Authorization": f"Bearer {key}",
                 "Content-Type": "application/json",
-                "HTTP-Referer": "https://taiwan.md",
-                "X-Title": "Taiwan.md lang-sync",
+                "HTTP-Referer": "https://lagunabeach.md",
+                "X-Title": "LagunaBeach.md lang-sync",
             },
             method="POST",
         )
@@ -365,12 +365,12 @@ def translate_one(article, lang, api_key, model, dry_run=False):
     # max_tokens and the output is cut off mid-article. The tail (image credits +
     # footnote definitions) is silently lost. NEVER save a truncated translation —
     # return failure so the cascade retries / falls to next model. Root cause of the
-    # 263 silently de-citationed translations (TASA 65→0, 健保 42→0, ...).
+ # 263 silently de-citationed translations (TASA 65→0, 健保 42→0, ...).
     if finish_reason == "length":
         return False, "output truncated (finish_reason=length) — tail/footnotes lost, not saved"
 
     # 2026-05-01 γ-late3: PRC content moderation may return null content
-    # (more aggressive than the 40-byte 「你好，我无法给到相关内容」 string
+ # (more aggressive than the 40-byte 「你好，我无法给到相关内容」 string
     # refusal). Guard before strip() to avoid AttributeError crash.
     if result is None:
         return False, "API returned null content (likely content-policy refusal)"
@@ -402,7 +402,7 @@ def translate_one(article, lang, api_key, model, dry_run=False):
     size = out_path.stat().st_size
     if size < 1000:
         # 2026-05-01 γ-late3: cleanup stub on validation fail.
-        # Previously the 40-byte refusal "你好，我无法给到相关内容" persisted
+ # Previously the 40-byte refusal "你好，我无法给到相关内容" persisted
         # on disk, causing subsequent verify-batch / pre-commit hook failures
         # ("missing translatedFrom" because the stub has no frontmatter).
         try:

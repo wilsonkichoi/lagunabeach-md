@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """verify_internal_links.py — post-build internal link verifier (parallel).
 
-2026-06-10 build audit 熱點 #4：原本是 verify-internal-links.sh 內嵌的單執行緒
-heredoc python（5,262 頁 × html.parser 全文解析 ≈ 64s，隨頁數線性變慢）。
-抽成獨立檔案 + multiprocessing.Pool 平行掃描；報表邏輯與輸出格式逐行保留
-（maintainer routine 會 grep ratio 行）。呼叫入口仍是 verify-internal-links.sh。
+2026-06-10 build audit 熱點 #4：原本是 verify-internal-links.sh inside嵌的單Execute緒
+heredoc python（5,262 頁 × html.parser 全文Parse ≈ 64s，隨頁數線性變慢）。
+抽成獨立file + multiprocessing.Pool parallelScan；報表邏輯與OutputFormat逐行Keep
+（maintainer routine 會 grep ratio 行）。callentry point仍是 verify-internal-links.sh。
 """
 import sys
 import os
@@ -21,9 +21,9 @@ from collections import defaultdict
 DIST_DIR = sys.argv[1] if len(sys.argv) > 1 else "dist"
 SAMPLE_SIZE = int(sys.argv[2]) if len(sys.argv) > 2 else 0
 
-LANG_SWITCHER_LABELS = {"中文", "English", "日本語", "한국어",
-                        "Switch to English", "Switch to 中文",
-                        "Switch to 日本語", "Switch to 한국어"}
+LANG_SWITCHER_LABELS = {"Chinese", "English", "日本語", "한국어",
+ "Switch to English", "Switch to Chinese",
+ "Switch to 日本語", "Switch to 한국어"}
 
 LANG_PREFIXES = ["/en/", "/ja/", "/ko/", "/es/", "/fr/"]
 
@@ -32,14 +32,14 @@ LANG_PREFIXES = ["/en/", "/ja/", "/ko/", "/es/", "/fr/"]
 # postbuild wiring first surfaced ~5.7% accumulated broken slugs; the temporary
 # number then drifted into de-facto spec while ROUTINE.md still said 1%
 # (audit 2026-06-10 finding R-5 / decision D-3).
-# 2026-06-10 calibration（REFLEXES #66，同日兩次修正的全紀錄留作教材）:
-#   第一次（不完整 dist 抽樣 0.00%）→ 設 2.0 — 錯，量測基底是平行 build 寫到
-#   一半的 dist。完整 dist 重測：gated 6.42%（zh-TW rendered 層 11.37% 佔大宗，
-#   含當日殭屍翻譯清理的過渡噪音 + ko diary 路由缺頁長尾）。
-#   定案 7.0 + step-down 計畫：下個 build 吸收 dedup link-fixes 後預期下降；
-#   穩態目標 7 → 4 → 2 逐步收，每次收緊必須附當日完整 dist 實測值在本註記。
-#   es/fr 為 REPORT-ONLY（首次納入量測的盲區，heal 後 promote 進 gate）。
-# 顯式覆寫（必須在 routine memory 記一筆，不准靜默常態化）：
+# 2026-06-10 calibration（REFLEXES #66，同日兩次fix的全record留作教材）:
+# 第一次（不full dist 抽樣 0.00%）→ 設 2.0 — 錯，量測基底是parallel build 寫到
+# 一半的 dist。full dist 重測：gated 6.42%（zh-TW rendered 層 11.37% 佔大宗，
+# 含當日殭屍TranslationClean up的過渡噪音 + ko diary 路由缺頁長尾）。
+# 定案 7.0 + step-down 計畫：下 build 吸收 dedup link-fixes 後expected下降；
+# 穩態target 7 → 4 → 2 逐步收，每次收緊Must附當日full dist 實測值在本註記。
+# es/fr 為 REPORT-ONLY（首次納入量測的盲區，heal 後 promote 進 gate）。
+# 顯式overwrite（Must在 routine memory 記一筆，不准靜默常態化）：
 #   BROKEN_LINK_THRESHOLD=4 bash scripts/tools/verify-internal-links.sh ...
 THRESHOLD_PERCENT = float(os.environ.get("BROKEN_LINK_THRESHOLD", "7.0"))
 
@@ -79,14 +79,14 @@ class LinkExtractor(html.parser.HTMLParser):
     def handle_data(self, data):
         if self._in_a:
             self._text_parts.append(data)
-        # Detect "相關文章" or "Related" headings to mark related section
+ # Detect "relatedArticles" or "Related" headings to mark related section
         text = data.strip()
-        if text in ("相關文章", "Related articles", "Related Articles"):
+ if text in ("relatedArticles", "Related articles", "Related Articles"):
             self._in_related = True
             self._depth_since_related = 0
 
     def handle_comment(self, data):
-        if "Related articles" in data or "相關文章" in data:
+ if "Related articles" in data or "relatedArticles" in data:
             self._in_related = True
             self._depth_since_related = 0
 
@@ -125,7 +125,7 @@ def href_exists(dist_dir, href):
     """Check if an internal href resolves to a real file in dist/.
 
     Handles:
-      - URL-encoded Unicode paths (%E5%8F%B0... -> 台灣...)
+ - URL-encoded Unicode paths (%E5%8F%B0... -> 台灣...)
       - Anchors (#section) stripped
       - Trailing slashes
       - /path -> /path/index.html or /path.html
@@ -195,8 +195,8 @@ def is_article_page(filepath, dist_dir):
 def _scan_chunk(args):
     """Scan a chunk of HTML files. Returns (all_links, broken_links).
 
-    原 main 迴圈邏輯原樣搬入：per-page dedup（pair 以 filepath 為鍵，chunk 間
-    檔案不重疊所以跨 worker 也等價）+ per-worker href_exists cache。
+ 原 main 迴圈邏輯原樣搬入：per-page dedup（pair 以 filepath 為鍵，chunk 間
+ file不重疊So跨 worker 也等價）+ per-worker href_exists cache。
     """
     dist_dir, files = args
     all_links = []
@@ -279,8 +279,8 @@ def main():
     all_links = []          # (source_file, href, text, category)
     broken_links = []       # same shape
 
-    # 平行掃描：檔案切 chunk 給 Pool；每個 worker 自帶 href cache（hrefs 高度
-    # 重複，per-worker cache 仍有效）。檔案彼此獨立 → 結果直接 merge。
+ # parallelScan：file切 chunk 給 Pool；Each worker 自帶 href cache（hrefs 高度
+ # duplicate，per-worker cache 仍Valid）。file彼此獨立 → 結果directly merge。
     nproc = max(1, min(8, os.cpu_count() or 1))
     if len(html_files) < 64 or nproc == 1:
         a, b = _scan_chunk((dist_dir, html_files))
@@ -367,7 +367,7 @@ def main():
     for lp in sorted(lang_stats.keys()):
         s = lang_stats[lp]
         r = (s["broken"] / s["total"] * 100) if s["total"] else 0.0
-        tag = "  [REPORT-ONLY 未進 gate — 待 heal 後 promote]" if lp in REPORT_ONLY_LANGS else ""
+ tag = " [REPORT-ONLY 未進 gate — 待 heal 後 promote]" if lp in REPORT_ONLY_LANGS else ""
         print(f"  {lp:>8s}  total: {s['total']:>6d}  broken: {s['broken']:>5d}  ratio: {r:.2f}%{tag}")
     print()
 

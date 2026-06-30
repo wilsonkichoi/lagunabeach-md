@@ -1,13 +1,13 @@
 #!/bin/bash
-# orphan-translation-check.sh — ���兒翻譯檔偵測器
-# 掃描 ja/ko/es 翻譯目錄，交叉比對 _translations.json
-# 輸出��✅ 有映射 / ⚠️ 缺映射（孤兒）/ 🔴 重複（同一 ZH 目標有多個檔案）
-# 用途：HEARTBEAT Beat 1 語言器官診斷
+# orphan-translation-check.sh — ���兒Translation檔Detect器
+# Scan ja/ko/es Translationdirectory，交叉Compare _translations.json
+# Output��✅ 有映射 / ⚠️ 缺映射（孤兒）/ 🔴 duplicate（same ZH target有多file）
+# purpose：HEARTBEAT Beat 1 LanguageOrgan診斷
 #
 # Usage:
-#   bash scripts/tools/orphan-translation-check.sh          # 全部語言
-#   bash scripts/tools/orphan-translation-check.sh ja       # 只掃日文
-#   bash scripts/tools/orphan-translation-check.sh --json   # JSON 輸出
+# bash scripts/tools/orphan-translation-check.sh # allLanguage
+# bash scripts/tools/orphan-translation-check.sh ja # 只掃日文
+# bash scripts/tools/orphan-translation-check.sh --json # JSON Output
 
 set -uo pipefail
 
@@ -134,20 +134,20 @@ if $JSON_MODE; then
 else
   # Human-readable output
   echo ""
-  echo "🌐 orphan-translation-check v1.0 — 翻譯檔孤兒偵測"
-  echo "   掃描: ${LANGS[*]}"
+ echo "🌐 orphan-translation-check v1.0 — Translation檔孤兒Detect"
+ echo " Scan: ${LANGS[*]}"
   echo ""
   echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━���━━━━━━━━━"
-  echo "📊 總計: $total_files 個翻譯檔"
-  echo "   ✅ 有映���: $total_mapped"
-  echo "   ⚠️  孤兒（��映射）: $total_orphan"
-  echo "   🔴 重複（同 ZH 多檔）: $total_duplicate"
-  echo "   🔗 EN→ZH 鏈斷裂: $chain_broken"
+ echo "📊 total: $total_files Translation檔"
+ echo " ✅ 有映���: $total_mapped"
+ echo " ⚠️ 孤兒（��映射）: $total_orphan"
+ echo " 🔴 duplicate（同 ZH 多檔）: $total_duplicate"
+ echo " 🔗 EN→ZH 鏈斷裂: $chain_broken"
   echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━��━━━━"
 
   if [[ $total_orphan -gt 0 ]]; then
     echo ""
-    echo "⚠️  孤兒翻譯檔（有檔案但 _translations.json 無映射）:"
+ echo "⚠️ 孤兒Translation檔（有file但 _translations.json 無映射）:"
     for item in "${orphan_list[@]}"; do
       echo "   • $item"
     done
@@ -155,7 +155,7 @@ else
 
   if [[ $total_duplicate -gt 0 ]]; then
     echo ""
-    echo "🔴 重複翻譯檔（同一 ZH 文章有多個翻譯）:"
+ echo "🔴 duplicateTranslation檔（same ZH Articles有多Translation）:"
     for item in "${duplicate_list[@]}"; do
       echo "   • $item"
     done
@@ -163,7 +163,7 @@ else
 
   if [[ $chain_broken -gt 0 ]]; then
     echo ""
-    echo "🔗 EN→ZH 鏈斷裂（有映射但缺 EN 對應，JA/KO route 無法生成）:"
+ echo "🔗 EN→ZH 鏈斷裂（有映射但缺 EN corresponding，JA/KO route CannotGenerate）:"
     for item in "${chain_broken_list[@]}"; do
       echo "   • $item"
     done
@@ -171,7 +171,7 @@ else
 
   if [[ $total_orphan -eq 0 && $total_duplicate -eq 0 && $chain_broken -eq 0 ]]; then
     echo ""
-    echo "✅ 全部翻譯檔健康！"
+ echo "✅ allTranslation檔Health！"
   fi
 
   echo ""

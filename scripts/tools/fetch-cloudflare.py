@@ -1,30 +1,30 @@
 #!/usr/bin/env python3
 """
-fetch-cloudflare.py — 抓 Cloudflare Analytics 資料（Free tier 友善）
+fetch-cloudflare.py — Fetch Cloudflare Analytics Data（Free tier 友善）
 
-用法:
+Usage:
     python3 scripts/tools/fetch-cloudflare.py [--days 1]
 
-憑證來源（優先序）:
-    1. ~/.config/taiwan-md/credentials/.env 裡的 CF_API_TOKEN, CF_ZONE_ID
-    2. 環境變數 CF_API_TOKEN, CF_ZONE_ID
+Credential sources（priority序）:
+ 1. ~/.config/lagunabeach-md/credentials/.env 裡的 CF_API_TOKEN, CF_ZONE_ID
+ 2. Environment variables CF_API_TOKEN, CF_ZONE_ID
 
-Token 需要的權限:
+Token Need的permissions:
     - Account → Account Analytics → Read
-    - Zone → Analytics → Read  （內部名稱 account.zone.analytics.read）
-    - Zone Resources: Specific zone = taiwan.md
+ - Zone → Analytics → Read （inside部名稱 account.zone.analytics.read）
+    - Zone Resources: Specific zone = lagunabeach.md
 
-輸出:
-    ~/.config/taiwan-md/cache/cloudflare-latest.json
-    ~/.config/taiwan-md/cache/cloudflare-{YYYY-MM-DD}.json
+Output:
+    ~/.config/lagunabeach-md/cache/cloudflare-latest.json
+    ~/.config/lagunabeach-md/cache/cloudflare-{YYYY-MM-DD}.json
 
-這個版本（v2, 2026-04-11）:
-    - 改用 httpRequests1dGroups（Free tier 可用）
-    - 不使用 botManagementVerifiedBot filter（Enterprise only）
-    - 抓：總請求/獨立訪客/威脅/國家/status/browser 分佈
-    - 純 Python stdlib，零依賴
+這version（v2, 2026-04-11）:
+ - 改用 httpRequests1dGroups（Free tier available）
+ - 不使用 botManagementVerifiedBot filter（Enterprise only）
+ - Fetch：總請求/獨立訪客/威脅/國家/status/browser 分佈
+ - 純 Python stdlib，零Dependencies
 
-來源: 2026-04-11 session α 建造
+Source: 2026-04-11 session α Build
 """
 import json
 import os
@@ -67,7 +67,7 @@ AI_CRAWLER_PATTERNS = [
     ("Diffbot",                r"Diffbot",               "Diffbot"),
 ]
 
-CONFIG_DIR = Path.home() / ".config" / "taiwan-md"
+CONFIG_DIR = Path.home() / ".config" / "lagunabeach-md"
 CREDENTIALS_DIR = CONFIG_DIR / "credentials"
 CACHE_DIR = CONFIG_DIR / "cache"
 ENV_FILE = CREDENTIALS_DIR / ".env"
@@ -75,7 +75,7 @@ SETUP_GUIDE = "docs/pipelines/SENSE-FETCHER-SETUP.md"
 
 
 def load_env():
-    """Load env vars from ~/.config/taiwan-md/credentials/.env"""
+    """Load env vars from ~/.config/lagunabeach-md/credentials/.env"""
     env = dict(os.environ)
     if ENV_FILE.exists():
         for line in ENV_FILE.read_text().splitlines():
@@ -232,7 +232,7 @@ def fetch_ai_crawlers(token, zone_tag, days=7):
     # No server-side userAgent filter: a `userAgent_like` SQL LIKE misses a
     # lot of crawler UAs (capitalization, custom bot names, etc.). Fetch all
     # request groups for the day and filter client-side via AI_CRAWLER_PATTERNS.
-    # taiwan.md scale: ~30k requests/day, ~200-500 unique UAs → well under
+    # lagunabeach.md scale: ~30k requests/day, ~200-500 unique UAs → well under
     # the 10000 row limit.
     query = """
     query AICrawlersDay($zoneTag: String!, $start: Time!, $end: Time!) {
@@ -356,15 +356,15 @@ def fetch_ai_crawlers(token, zone_tag, days=7):
 def fetch_ai_crawlers_by_lang(token, zone_tag, days=3):
     """Per-language AI crawler read counts (audit 2026-06-10 A-9).
 
-    主權的巴別塔的 KPI 缺口：翻譯是給 AI cognitive substrate 的 bypass
-    infrastructure（MANIFESTO §主權的巴別塔），但從來沒量過「AI 在各語言
-    讀了多少」。本函式 group by (userAgent, clientRequestPath)，客端過濾
-    AI UA 後按路徑前綴 (/en/ /ja/ /ko/ /es/ /fr/，其餘歸 zh-TW) 聚合。
+ 主權的巴別塔的 KPI 缺口：Translation是給 AI cognitive substrate 的 bypass
+ infrastructure（MANIFESTO §主權的巴別塔），但From來沒量過「AI 在各Language
+ 讀了多少」。本function group by (userAgent, clientRequestPath)，客端Filter
+ AI UA 後按path前綴 (/en/ /ja/ /ko/ /es/ /fr/，其餘歸 zh-TW) 聚合。
 
-    cardinality 註記：path 維度讓 row 數爆增，limit 10000 + count_DESC 之外
-    的長尾（count=1 的零星路徑）會被截斷 — 對「AI 有沒有在讀 /ja/，量級
-    跟 zh 差多少」這個問題夠用；輸出帶 rowsTruncated 標記誠實標示。
-    成本控制：預設 3 天窗（不跟 7 天主查詢同步）。
+ cardinality 註記：path 維度讓 row 數爆增，limit 10000 + count_DESC 之外
+ 的長尾（count=1 的零星path）會被截斷 — 對「AI 有None在讀 /ja/，量級
+ 跟 zh 差多少」這issue夠用；Output帶 rowsTruncated Mark誠實標示。
+ 成本控制：Default 3 天窗（不跟 7 天主查詢sync）。
     """
     now = datetime.now(timezone.utc)
     query = """
@@ -464,8 +464,8 @@ def _build_daily_row(d):
     """Extract per-day metrics including status breakdown (2026-04-17 δ).
 
     Adds status200 / status4xx / status404 / status5xx so EXP-A style
-    回歸實驗可以歸因到具體哪一天 spike。修 LESSONS-INBOX 「CF dailyBreakdown
-    缺 per-day 404 count」sensor gap.
+ 回歸實驗Can歸因到具體哪一天 spike。修 LESSONS-INBOX 「CF dailyBreakdown
+ 缺 per-day 404 count」sensor gap.
     """
     s = d.get("sum") or {}
     uniq = d.get("uniq") or {}
@@ -584,7 +584,7 @@ def main():
         if ENV_FILE.resolve().is_relative_to(Path.cwd().resolve()):
             fail(
                 "SECURITY: credentials .env file is inside the repo! "
-                "Move it to ~/.config/taiwan-md/credentials/.env"
+                "Move it to ~/.config/lagunabeach-md/credentials/.env"
             )
     except AttributeError:
         # Python < 3.9 doesn't have is_relative_to

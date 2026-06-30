@@ -2,7 +2,7 @@
 # dna-split-audit.sh — DNA → REFLEXES migration audit
 #
 # Phase B1 (per reports/become-boot-mode-design-2026-05-13.md §9)
-# 用法：
+# Usage：
 #   bash scripts/tools/dna-split-audit.sh baseline   # pre-migration snapshot
 #   bash scripts/tools/dna-split-audit.sh verify     # post-migration verification
 #
@@ -61,14 +61,14 @@ echo "==================== DNA → REFLEXES Migration Audit ($MODE) ============
 echo "Date: $(date '+%Y-%m-%d %H:%M:%S')"
 echo
 
-echo "📊 ACTIVE LAYER (應該 migrate 的範圍)"
+echo "📊 ACTIVE LAYER (Should migrate 的範圍)"
 echo "── DNA #N text references (語意 ref, sed-able):"
 ACT_DNA_FILES=$(active_files | xargs grep -lE "DNA #[0-9]" 2>/dev/null | grep -v "^docs/semiont/DNA.md$" | sort -u)
 ACT_DNA_FILE_COUNT=$(echo "$ACT_DNA_FILES" | grep -c . || echo 0)
 ACT_DNA_REF_COUNT=$(echo "$ACT_DNA_FILES" | xargs grep -cE "DNA #[0-9]" 2>/dev/null | awk -F: '{sum+=$NF} END {print sum}')
 echo "   files=$ACT_DNA_FILE_COUNT  refs=$ACT_DNA_REF_COUNT"
 echo
-echo "── REFLEXES #N text references (目標 — post-migration 應該等於 baseline DNA #N):"
+echo "── REFLEXES #N text references (target — post-migration Should等於 baseline DNA #N):"
 ACT_REFL_FILES=$(active_files | xargs grep -lE "REFLEXES #[0-9]" 2>/dev/null | sort -u || true)
 ACT_REFL_FILE_COUNT=$(echo "$ACT_REFL_FILES" | grep -c . 2>/dev/null || echo 0)
 if [ -n "$ACT_REFL_FILES" ]; then
@@ -80,18 +80,18 @@ echo "   files=$ACT_REFL_FILE_COUNT  refs=$ACT_REFL_REF_COUNT"
 echo
 echo "── DNA.md fragment links (DNA.md#<anchor>):"
 ACT_FRAG=$(active_files | xargs grep -hoE 'DNA\.md#[^)]+' 2>/dev/null | wc -l | tr -d ' ' || echo 0)
-echo "   refs=$ACT_FRAG  (post-migration: reflex-section anchors → REFLEXES.md, gene-map anchors → 留 DNA.md)"
+echo " refs=$ACT_FRAG (post-migration: reflex-section anchors → REFLEXES.md, gene-map anchors → 留 DNA.md)"
 echo
-echo "── REFLEXES.md fragment links (目標):"
+echo "── REFLEXES.md fragment links (target):"
 ACT_REFL_FRAG=$(active_files | xargs grep -hoE 'REFLEXES\.md#[^)]+' 2>/dev/null | wc -l | tr -d ' ' || echo 0)
 echo "   refs=$ACT_REFL_FRAG"
 echo
 
-echo "🗄️  HISTORICAL LAYER (per §時間是結構修補協議, 保留原 DNA #N 不改)"
+echo "🗄️ HISTORICAL LAYER (per §時間是structurepatch協議, Keep原 DNA #N 不改)"
 HIST_DNA_FILES=$(historical_files | xargs grep -lE "DNA #[0-9]" 2>/dev/null | sort -u)
 HIST_DNA_FILE_COUNT=$(echo "$HIST_DNA_FILES" | grep -c . || echo 0)
 HIST_DNA_REF_COUNT=$(echo "$HIST_DNA_FILES" | xargs grep -cE "DNA #[0-9]" 2>/dev/null | awk -F: '{sum+=$NF} END {print sum}')
-echo "── DNA #N refs (應該 UNCHANGED between baseline / verify):"
+echo "── DNA #N refs (Should UNCHANGED between baseline / verify):"
 echo "   files=$HIST_DNA_FILE_COUNT  refs=$HIST_DNA_REF_COUNT"
 echo
 

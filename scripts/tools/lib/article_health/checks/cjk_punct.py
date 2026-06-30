@@ -2,9 +2,9 @@
 
 Migrates `scripts/tools/check-cjk-punct.py` into the SSOT plugin system.
 
-Canonical: docs/editorial/EDITORIAL.md §半形標點禁用 (v5.5, 2026-05-04)
+Canonical: docs/editorial/EDITORIAL.md §half-width標點禁用 (v5.5, 2026-05-04)
 
-Critical regression guard (2026-05-04 黃魚鴞 incident):
+Critical regression guard (2026-05-04 Blakiston fish owl incident):
   Markdown link URLs `](url)` MUST stay half-width even in CJK contexts.
   This plugin uses FileTarget.protected_regions which auto-excludes:
     - fenced code blocks
@@ -25,7 +25,7 @@ from ..types import FileTarget, Severity, Violation
 CHECK_NAME = "cjk-punct"
 DIMENSION = "punctuation"
 DEFAULT_SEVERITY = Severity.HARD
-EDITORIAL_REF = "EDITORIAL.md §半形標點禁用"
+EDITORIAL_REF = "EDITORIAL.md §half-width標點禁用"
 APPLIES_TO = ["zh-TW"]  # translations follow source-lang punct conventions
 
 CJK = r"[一-鿿㐀-䶿]"
@@ -35,25 +35,25 @@ CJK = r"[一-鿿㐀-䶿]"
 #   fix_char     — single fullwidth char for the violation report
 PATTERNS: list[tuple[re.Pattern, str, str, str, str]] = [
     # ── Right-side CJK (universal) ──
-    (re.compile(rf",(?={CJK})"), "，", "，", "comma", "半形 ',' 應為 '，'"),
-    (re.compile(rf":(?={CJK})"), "：", "：", "colon", "半形 ':' 應為 '：'"),
-    (re.compile(rf";(?={CJK})"), "；", "；", "semi", "半形 ';' 應為 '；'"),
-    (re.compile(rf"\?(?={CJK})"), "？", "？", "qmark", "半形 '?' 應為 '？'"),
-    (re.compile(rf"!(?={CJK})"), "！", "！", "bang", "半形 '!' 應為 '！'"),
+    (re.compile(rf",(?={CJK})"), "，", "，", "comma", "half-width ',' should be '，'"),
+    (re.compile(rf":(?={CJK})"), "：", "：", "colon", "half-width ':' should be '：'"),
+    (re.compile(rf";(?={CJK})"), "；", "；", "semi", "half-width ';' should be '；'"),
+    (re.compile(rf"\?(?={CJK})"), "？", "？", "qmark", "half-width '?' should be '？'"),
+    (re.compile(rf"!(?={CJK})"), "！", "！", "bang", "half-width '!' should be '！'"),
     # ── Left-side CJK + digit (number-formatting boundary) ──
     (
         re.compile(rf"(?<={CJK}),(?=[0-9])"),
         "，",
         "，",
         "comma",
-        "半形 ',' 應為 '，' (CJK→數字)",
+ "half-width ',' should be '，' (CJK→數characters)",
     ),
     (
         re.compile(rf"(?<={CJK}):(?=[0-9])"),
         "：",
         "：",
         "colon",
-        "半形 ':' 應為 '：' (CJK→數字)",
+ "half-width ':' should be '：' (CJK→數characters)",
     ),
     # ── ] (footnote close) + halfwidth + digit ──
     (
@@ -61,14 +61,14 @@ PATTERNS: list[tuple[re.Pattern, str, str, str, str]] = [
         r"\1，",
         "，",
         "fn-comma",
-        "footnote 後半形 ',' 應為 '，'",
+ "footnote 後half-width ',' should be '，'",
     ),
     (
         re.compile(rf"(\]);(?=[0-9])"),
         r"\1；",
         "；",
         "fn-semi",
-        "footnote 後半形 ';' 應為 '；'",
+ "footnote 後half-width ';' should be '；'",
     ),
     # ── Bold marker boundaries ──
     (
@@ -76,14 +76,14 @@ PATTERNS: list[tuple[re.Pattern, str, str, str, str]] = [
         r"\1：",
         "：",
         "bold-colon",
-        "粗體後半形 ':' 應為 '：'",
+ "粗體後half-width ':' should be '：'",
     ),
     (
         re.compile(rf"(?<={CJK}):(?=\*\*)"),
         "：",
         "：",
         "colon-bold",
-        "粗體前半形 ':' 應為 '：'",
+ "粗體前half-width ':' should be '：'",
     ),
     # ── Parens between CJK ──
     (
@@ -91,14 +91,14 @@ PATTERNS: list[tuple[re.Pattern, str, str, str, str]] = [
         "（",
         "（",
         "lparen",
-        "半形 '(' 應為 '（'",
+ "half-width '(' should be '（'",
     ),
     (
         re.compile(rf"(?<={CJK})\)(?={CJK}|[，。：；！？\s])"),
         "）",
         "）",
         "rparen",
-        "半形 ')' 應為 '）'",
+ "half-width ')' should be '）'",
     ),
 ]
 

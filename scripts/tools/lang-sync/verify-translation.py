@@ -26,7 +26,7 @@ Checks (each 1-line PASS/FAIL):
 
 Usage:
   verify-translation.py <zh_path> <en_path>
-  verify-translation.py Food/牛肉麵.md knowledge/en/Food/beef-noodle-soup.md
+ verify-translation.py Food/牛肉麵.md knowledge/en/Food/beef-noodle-soup.md
   verify-translation.py --json <zh> <en>           # JSON output
 
 Exit codes:
@@ -92,7 +92,7 @@ def parse_fm(content: str) -> tuple[dict, str]:
 
 
 def has_cjk(s: str) -> bool:
-    return any("一" <= ch <= "鿿" for ch in str(s))
+ return any("一" <= ch <= "鿿" for ch in str(s))
 
 
 def count_pattern(text: str, pat: str, flags=0) -> int:

@@ -2,7 +2,7 @@
 """
 wiki-fetch.py — Robust Wikimedia Commons image fetcher with 2026 rate-limit mitigation.
 
-Built 2026-05-21 after 5/18 教訓 (Wikimedia 8s delay 仍 429 / 88 圖留給 cron 補) +
+Built 2026-05-21 after 5/18 lesson (Wikimedia 8s delay 仍 429 / 88 圖留給 cron 補) +
 T413570 + WMF 2026 rate-limit policy research:
 
   - **Referer header** (Commons File: URL) significantly reduces 429

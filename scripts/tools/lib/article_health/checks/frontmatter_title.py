@@ -9,8 +9,8 @@ Yields multiple violations (different severities) from a single check:
   - HARD: half-width punct in CJK title context (silent rendering issue) [zh-TW]
   - WARN: vague adjective in title [en + zh-TW, lang-specific lists]
   - WARN: title length [en: raw chars > 60; zh-TW: effective length > 45]
-  - WARN (People only): missing colon sandwich (per EDITORIAL §原則 5) [zh-TW]
-  - WARN (People only): post-colon part < 8 weight (per EDITORIAL §原則 4) [zh-TW]
+ - WARN (People only): missing colon sandwich (per EDITORIAL §principle 5) [zh-TW]
+ - WARN (People only): post-colon part < 8 weight (per EDITORIAL §principle 4) [zh-TW]
   - HARD: missing subcategory [both]
 """
 
@@ -27,13 +27,13 @@ DEFAULT_SEVERITY = Severity.WARN  # most checks are warn; HARD ones override per
 EDITORIAL_REF = "EDITORIAL.md §5 SEO Metadata"
 APPLIES_TO = ["en", "zh-TW"]
 
-# zh-TW vague adjectives (EDITORIAL §原則 3)
+# zh-TW vague adjectives (EDITORIAL §principle 3)
 TITLE_VAGUE_ADJECTIVES_ZH: list[str] = [
-    "傳奇",
-    "偉大",
-    "優秀",
-    "最強",
-    "天后",
+ "傳奇",
+ "偉大",
+ "優秀",
+ "最強",
+ "天后",
 ]
 
 # en vague adjectives (EDITORIAL §6 Voice — conservative subset)
@@ -91,7 +91,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
                 ),
                 snippet=title,
                 fix_suggestion=full,
-                editorial_ref="EDITORIAL.md §半形標點禁用",
+ editorial_ref="EDITORIAL.md §half-width標點禁用",
             )
 
     # 2. Vague adjectives (WARN) — lang-specific lists
@@ -114,11 +114,11 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
                     check=CHECK_NAME,
                     severity=Severity.WARN,
                     message=(
-                        f"title 含空泛形容詞「{adj}」"
-                        f" (EDITORIAL §原則 3 禁止「傳奇/偉大/最強/天后」等空泛詞)"
+ f"title 含空泛形容詞「{adj}」"
+ f" (EDITORIAL §principle 3 Forbidden「傳奇/偉大/最強/天后」等空泛詞)"
                     ),
                     snippet=title,
-                    editorial_ref="EDITORIAL.md §原則 3",
+ editorial_ref="EDITORIAL.md §principle 3",
                 )
 
     # 3. People category: colon sandwich (WARN) — zh-TW convention only
@@ -130,10 +130,10 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
                 severity=Severity.WARN,
                 message=(
                     "People title missing colon-sandwich structure"
-                    " (EDITORIAL §原則 5: 'Name: representative arc' format required)"
+ " (EDITORIAL §principle 5: 'Name: representative arc' format required)"
                 ),
                 snippet=title,
-                editorial_ref="EDITORIAL.md §原則 5",
+ editorial_ref="EDITORIAL.md §principle 5",
             )
         else:
             m = re.match(r"^[^:：]+[:：]\s*(.+)$", title)
@@ -147,10 +147,10 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
                         message=(
                             f"People title post-colon description too short"
                             f" (\"{after}\", weight {weight:.1f} < 8)"
-                            " — subtitle should stand alone (EDITORIAL §原則 4)"
+ " — subtitle should stand alone (EDITORIAL §principle 4)"
                         ),
                         snippet=title,
-                        editorial_ref="EDITORIAL.md §原則 4",
+ editorial_ref="EDITORIAL.md §principle 4",
                     )
 
     # 4. Length (WARN) — en: raw chars > 60 (SERP truncation);
@@ -174,11 +174,11 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
                 check=CHECK_NAME,
                 severity=Severity.WARN,
                 message=(
-                    f"title 過長 (effective length {length:.1f} > 45)"
-                    " — EDITORIAL 建議 ≤ 35"
+ f"title 過長 (effective length {length:.1f} > 45)"
+ " — EDITORIAL suggestion ≤ 35"
                 ),
                 snippet=title,
-                editorial_ref="EDITORIAL.md §Title 五原則",
+ editorial_ref="EDITORIAL.md §Title 五principle",
             )
 
     # 5. Subcategory required (HARD) — non-About articles must declare

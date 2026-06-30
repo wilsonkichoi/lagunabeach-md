@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
-# translation-ratio-check.sh — 翻譯 PR 審核第一道檢查
+# translation-ratio-check.sh — Translation PR 審核第一道Check
 #
-# 用法:
+# Usage:
 #   bash scripts/tools/translation-ratio-check.sh --pr 367
 #   bash scripts/tools/translation-ratio-check.sh knowledge/ja/Society/article.md [...]
 #   bash scripts/tools/translation-ratio-check.sh --all-ja
 #
 # 作用：
-#   比對翻譯檔案跟 translatedFrom 指向的中文 SSOT 字數比率，
-#   識別「摘要式翻譯」（AI 工具的預設行為）造成的內容截斷。
+# CompareTranslationfile跟 translatedFrom 指向的Chinese SSOT characters數比率，
+# 識別「摘要式Translation」（AI tool的Default行為）造成的Content截斷。
 #
 # 健全 ratio 範圍（2026-04-11 實測基準）：
 #   zh → en:  0.80-1.30  (<0.65 = TRUNCATED)
@@ -16,7 +16,7 @@
 #   zh → ko:  0.80-1.10  (<0.65 = TRUNCATED)
 #   zh → es/fr/de: 2.0-4.0  (<1.5 = TRUNCATED)
 #
-# 來源：2026-04-11 session α 審核 27 個翻譯 PR 的實戰經驗
+# Source：2026-04-11 session α 審核 27 Translation PR 的實戰經驗
 
 set -o pipefail
 cd "$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
@@ -49,7 +49,7 @@ if [[ "$MODE" == "pr" ]]; then
     [[ -n "$line" ]] && FILES+=("$line")
   done < <(gh pr diff "$PR_NUM" --name-only 2>/dev/null | grep "^knowledge/" | grep -v "_translations.json")
   if [[ ${#FILES[@]:-0} -eq 0 ]]; then
-    echo -e "${RED}❌ 無法取得 PR #$PR_NUM 的檔案清單${RST}"
+ echo -e "${RED}❌ Cannotget PR #$PR_NUM 的filelist${RST}"
     exit 1
   fi
 elif [[ "$MODE" == "all-ja" ]]; then

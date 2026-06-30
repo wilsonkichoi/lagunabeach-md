@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-prepare-batch.py — Stage P1 預處理（per TRANSLATION-PIPELINE v3.3 §平行 sub-agent 批次翻譯 SOP）
+prepare-batch.py — Stage P1 預handle（per TRANSLATION-PIPELINE v3.3 §parallel sub-agent batchTranslation SOP）
 
-對 N 篇 zh 文章一次性產出 batch manifest + N 個 group files：
+對 N zh Articles一次性output batch manifest + N group files：
 1. Determine slug + en_path for each article (stale: existing / missing: needs slug input)
 2. Compute frontmatter placeholder (translatedFrom + zh_head_sha + zh_content_hash + now)
 3. Compute wikilink target map (scan zh source [[X]], lookup _translations.json)
@@ -34,15 +34,15 @@ TASKS = REPO / ".lang-sync-tasks"
 
 
 _TRAILER_PATTERNS = [
-    r"\n#{1,4}\s*延伸閱讀\s*\n.*?(?=\n#{1,4}\s|\Z)",
-    r"\n#{1,4}\s*參考(?:資料|來源)?\s*\n.*?(?=\n#{1,4}\s|\Z)",
-    r"\n#{1,4}\s*(?:同分類更多文章|相關閱讀|延伸資源|See also)\s*\n.*?(?=\n#{1,4}\s|\Z)",
+    r"\n#{1,4}\s*Further Reading\s*\n.*?(?=\n#{1,4}\s|\Z)",
+    r"\n#{1,4}\s*reference(?:資料|來源)?\s*\n.*?(?=\n#{1,4}\s|\Z)",
+    r"\n#{1,4}\s*(?:同category更多文章|related閱讀|延伸資源|See also)\s*\n.*?(?=\n#{1,4}\s|\Z)",
     r"\n_v\d+\.\d+[^\n]*$",
 ]
 
 
 def _body_hash_pure(body: str) -> str:
-    """Same as status.py body_hash_pure — strip trailers + footnote defs (REFLEXES #38 第 2 次)."""
+ """Same as status.py body_hash_pure — strip trailers + footnote defs (REFLEXES #38 第 2 次)."""
     for pattern in _TRAILER_PATTERNS:
         body = re.sub(pattern, "", body, flags=re.DOTALL | re.MULTILINE)
     body = re.sub(r"\n\[\^[\w-]+\]:\s.+?(?=\n\[\^|\n#|\Z)", "\n", body, flags=re.DOTALL)
@@ -187,7 +187,7 @@ def main():
         # Reuse existing slug for ANY translation that already exists.
         # Bug fix (2026-05-09 babel-batch2): previously only `stale` status reused existing slug;
         # `metadata-stale` / other statuses fell through to slug_map / fallback, creating
-        # duplicate-slug files (e.g. 斗笠 → bamboo-hat.md created alongside existing
+ # duplicate-slug files (e.g. 斗笠 → bamboo-hat.md created alongside existing
         # bamboo-hat-craft.md). The status doesn't matter — if a translation file exists for
         # this (lang, zh_path) pair, that file's slug is canonical. See PR #921 + reports/
         # session-id-naming-2026-05-04.md context.

@@ -18,7 +18,7 @@ Usage:
     python3 scripts/tools/lang-sync/sync-on-update.py --since HEAD~10
 
     # Specific zh article
-    python3 scripts/tools/lang-sync/sync-on-update.py --article Lifestyle/合作社.md
+ python3 scripts/tools/lang-sync/sync-on-update.py --article Lifestyle/合作社.md
 
     # Output mini-manifest for specific lang
     python3 scripts/tools/lang-sync/sync-on-update.py --lang en --output-manifest .lang-sync-tasks/en/_micro.json

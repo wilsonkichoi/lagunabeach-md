@@ -11,7 +11,7 @@ import { join } from 'path';
 const DEST_DIR = 'public/images/wiki';
 const MAX_WIDTH = 1024;
 const USER_AGENT =
-  'taiwan-md-bot/1.0 (https://github.com/frank890417/taiwan-md; open-source project)';
+  'lagunabeach-md-bot/1.0 (https://github.com/frank890417/lagunabeach-md; open-source project)';
 
 // Hash filename → Wikimedia Commons File: title
 const IMAGE_MAP = [
@@ -31,7 +31,7 @@ const IMAGE_MAP = [
   },
   { hash: 'aeba97222b07.jpg', file: 'Chiang Kai-shek memorial amk.jpg' },
   { hash: 'b2a91d2ee489.jpg', file: 'ShiLin.jpg' },
-  { hash: 'b3f3be4fb2b6.jpg', file: '蔡英文官方元首肖像照.png' },
+  { hash: 'b3f3be4fb2b6.jpg', file: '蔡English官方元首肖像照.png' },
   {
     hash: 'c1deab8511ba.jpg',
     file: 'Ang Lee - 66ème Festival de Venise (Mostra).jpg',

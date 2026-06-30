@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Image Health Check for Taiwan.md
+ * Image Health Check for LagunaBeach.md
  *
  * Scans markdown and Astro files for image references,
  * verifies they exist in public/, and reports missing ones.

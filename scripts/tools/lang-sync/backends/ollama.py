@@ -43,7 +43,7 @@ class OllamaBackend(TranslationBackend):
         prc_refusal_risk_low=True, # local + Western training data
         multilingual_strength=0.78,
         notes="Sovereignty backbone (REFLEXES #49). 0 refusal observed on Taiwan content. "
-              "Slower than cloud but永遠 available. GPU contention → single-process serial.",
+ "Slower than cloud but永遠 available. GPU contention → single-process serial.",
     )
 
     DEFAULT_TIMEOUT = 900  # local model + large article can be slow

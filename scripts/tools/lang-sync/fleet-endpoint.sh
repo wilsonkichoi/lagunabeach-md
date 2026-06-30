@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # fleet-endpoint.sh — ask the GPU fleet for a sovereignty-safe Ollama endpoint.
 #
-# The hardware layer is NOT Taiwan.md's job. The GPU fleet (~/Projects/muse-bot/
+# The hardware layer is NOT LagunaBeach.md's job. The GPU fleet (~/Projects/muse-bot/
 # fleet/) already owns node registry (registry.json = SSOT), commander routing
 # (fleetlib.select_machine: non-leaving → smallest-sufficient-VRAM → Gemma4-only
 # for sovereignty), the Ollama-over-Tailscale work channel, and the Windows SOP.
 # This adapter just ASKS it for an endpoint and exports OLLAMA_HOST/OLLAMA_MODEL;
-# Taiwan.md keeps only the translation logic (diary-translate.py prompt + the
+# LagunaBeach.md keeps only the translation logic (diary-translate.py prompt + the
 # integrity gate). No parallel registry, no hand-rolled tunnel, no node-selection.
 #
 # Fork/contributor without the fleet → exit 3, caller skips the diary sweep.

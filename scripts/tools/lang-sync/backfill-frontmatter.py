@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-backfill-frontmatter.py — 批次補 frontmatter missing fields
+backfill-frontmatter.py — batch補 frontmatter missing fields
 
 Modes:
   --field category    從 path 推導（純機械，cheapest）
-  --field date        從 zh source 抄
-  --field description 標記待 LLM 翻譯（生 manifest，不直接寫）
-  --field title       標記待 LLM 翻譯（生 manifest，不直接寫）
+ --field date From zh source 抄
+ --field description Mark待 LLM Translation（生 manifest，不directly寫）
+ --field title Mark待 LLM Translation（生 manifest，不directly寫）
   --all-mechanical    跑 category + date（不需 LLM）
 
 Reads cross-lang-audit JSON to know which files need which fields.
@@ -24,7 +24,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent.parent.parent
 
-# Path → Category 推導（capitalized folder name 對應 12 大主題）
+# Path → Category 推導（capitalized folder name corresponding 12 大主題）
 PATH_TO_CATEGORY = {
     "About": "About",
     "History": "History",

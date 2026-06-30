@@ -9,7 +9,7 @@
 #
 # Why only Pattern 2:
 # - Pattern 1 (no link)            → needs human research, no URL to format
-# - Pattern 2 (link + 中文逗號)     → mechanical: 「)，」 → 「) — 」
+# - Pattern 2 (link + Chinese逗號) → mechanical: 「)，」 → 「) — 」
 # - Pattern 3 (link + no desc)     → needs reading the linked page to write a description
 # - Pattern 4 (text-first then link) → needs rewrite of footnote structure
 #

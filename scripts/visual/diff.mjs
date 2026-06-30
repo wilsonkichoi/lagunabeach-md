@@ -277,7 +277,7 @@ const html = `<!doctype html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Visual diff report — Taiwan.md refactor</title>
+<title>Visual diff report — LagunaBeach.md refactor</title>
 <style>
   body { font-family: -apple-system, system-ui, sans-serif; max-width: 1200px; margin: 2rem auto; padding: 0 1rem; color: #1a1a2e; }
   h1 { font-size: 1.5rem; }

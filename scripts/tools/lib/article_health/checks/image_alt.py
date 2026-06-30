@@ -12,7 +12,7 @@ Severity: WARN (soft launch; rewrite-stage-4 profile promotes to HARD).
 
 Skip:
   - Hub pages (knowledge/{Category}/_*.md)
-  - Image Sources / 圖片來源 sections (alt there is descriptive caption)
+ - Image Sources / imageSource sections (alt there is descriptive caption)
 """
 
 from __future__ import annotations
@@ -34,7 +34,7 @@ _RE_IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)\n]+)\)")
 # Generic / low-signal alt patterns (compared after lowercasing)
 _GENERIC_ALT_PATTERNS = {
     "image", "photo", "picture", "img", "screenshot", "banner", "hero", "thumbnail",
-    "圖片", "圖", "封面", "封面圖", "示意圖", "示意",
+ "image", "圖", "封面", "封面圖", "示意圖", "示意",
 }
 
 # Filename patterns: ends with image extension
@@ -57,7 +57,7 @@ def _is_in_image_sources_section(body: str, image_pos: int) -> bool:
     """Skip alt check inside Image Sources section (alt there is descriptive caption)."""
     # Accept both en and zh-TW heading variants
     en_start = body.rfind("## Image Sources", 0, image_pos)
-    zh_start = body.rfind("## 圖片來源", 0, image_pos)
+    zh_start = body.rfind("## image來源", 0, image_pos)
     section_start = max(en_start, zh_start)
     if section_start < 0:
         return False
@@ -107,7 +107,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
     samples = {"empty": [], "generic": [], "filename": []}
 
     for match in _RE_IMAGE.finditer(body):
-        # Skip if inside 圖片來源 section
+ # Skip if inside imageSource section
         if _is_in_image_sources_section(body, match.start()):
             continue
 

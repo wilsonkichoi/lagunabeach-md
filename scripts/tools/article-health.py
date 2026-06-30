@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
-"""article-health.py — SSOT 文章健檢工具.
+"""article-health.py — SSOT Articles健檢tool.
 
-設計提案：reports/article-health-ssot-design-2026-05-04.md
-規則 canonical：docs/editorial/EDITORIAL.md
+design提案：reports/article-health-ssot-design-2026-05-04.md
+rule canonical：docs/editorial/EDITORIAL.md
 
-Status（2026-06-10 audit A-6 更新 — 原 docstring 停在 Phase 1「0 plugins」誤導）:
-  - 25 個 plugin 已 live（lib/article_health/checks/ 自動 discover）
-  - 接進 pre-commit (--profile=pre-commit) + CI deploy (--profile=ci-deploy) hard gate
-  - prose-health / quote-fidelity / paragraph-rhythm / footnote 系列 / image-health 等
-  - 看現役清單：article-health --list-checks
+Status（2026-06-10 audit A-6 Update — 原 docstring 停在 Phase 1「0 plugins」誤導）:
+ - 25 plugin 已 live（lib/article_health/checks/ automatic discover）
+ - 接進 pre-commit (--profile=pre-commit) + CI deploy (--profile=ci-deploy) hard gate
+ - prose-health / quote-fidelity / paragraph-rhythm / footnote 系列 / image-health 等
+ - 看現役list：article-health --list-checks
 
-用法：
+Usage：
   article-health <files> [--profile=NAME] [--check=NAME] [--output=FORMAT]
   article-health --staged [--profile=pre-commit]
   article-health --all [--profile=dashboard --output=json]
@@ -259,8 +259,8 @@ def _format_human(report: HealthReport, fail_on: str = "hard") -> str:
             counts += f" info={r.info_count}"
         lines.append(f"   {icon} {r.check}  {counts}")
         # Show up to 20 violations per check (was 5, bumped 2026-05-10
-        # sad-shockley feedback: tool 應該直接指出哪裡有對位句／前後文，
-        # 不該 truncate 到 5 反而要 grep 自己找). 20 covers most articles
+ # sad-shockley feedback: tool Shoulddirectly指出哪裡有對位句／前後文，
+ # 不該 truncate 到 5 反而要 grep 自己找). 20 covers most articles
         # without spamming console; rare cases > 20 still surface tail.
         max_show = 20
         for v in r.violations[:max_show]:
@@ -311,7 +311,7 @@ def cmd_inventory() -> int:
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="SSOT 文章健檢工具 (Phase 1 entry point)",
+ description="SSOT Articles健檢tool (Phase 1 entry point)",
     )
     parser.add_argument("files", nargs="*", type=Path, help="Files to check")
     parser.add_argument("--profile", default="release-pr", help="Profile name from config")

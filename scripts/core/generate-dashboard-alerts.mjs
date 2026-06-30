@@ -3,15 +3,15 @@
  * generate-dashboard-alerts.mjs — derived 警報層 (audit 2026-06-10 A-3)
  *
  * CONSCIOUSNESS §警報 原是「cron-refreshed」prose，heartbeat → routine 轉型後
- * 沒有 routine 接手更新，停在 2026-04-30 變殭屍快照。本腳本把警報降級為
- * derived state：每次 prebuild:dashboard 從既有 dashboard JSON + 認知層
- * 檔案機械推導，輸出 public/api/dashboard-alerts.json。
- * consciousness-snapshot.sh 偵測到該檔即顯示前 6 條（BECOME Universal core 入口）。
+ * None routine 接手Update，停在 2026-04-30 變殭屍快照。本script把警報降級為
+ * derived state：每次 prebuild:dashboard Fromexisting dashboard JSON + 認知層
+ * file機械推導，Output public/api/dashboard-alerts.json。
+ * consciousness-snapshot.sh Detect到該檔即display前 6 （BECOME Universal core entry point）。
  *
  * 閾值校準依據（REFLEXES #66）：2026-06-10 audit 當日 ground truth dogfood —
- * organ<50 紅線沿用 ANATOMY §如何使用這張圖、404 紅線沿用 EXP-2026-04-11-A
- * 修復後基線 6%、inbox 閾值沿用 LESSONS distill 觸發線（≥30 自動掃描）放大
- * 10x 當紅線（buffer 設計本就允許累積）。
+ * organ<50 紅線沿用 ANATOMY §如何使用這圖、404 紅線沿用 EXP-2026-04-11-A
+ * Fix後基線 6%、inbox 閾值沿用 LESSONS distill Trigger線（≥30 automaticScan）放大
+ * 10x 當紅線（buffer design本就Allow累積）。
  */
 
 import { readFileSync, readdirSync, writeFileSync, existsSync } from 'fs';
@@ -32,7 +32,7 @@ function readJson(p) {
   }
 }
 
-// ── 1. 器官分數紅線（ANATOMY：任何器官 < 50 需要干預）─────────────────
+// ── 1. Organ分數紅線（ANATOMY：anyOrgan < 50 Need干預）─────────────────
 const organism = readJson('public/api/dashboard-organism.json');
 if (organism?.organs) {
   for (const o of organism.organs) {
@@ -40,7 +40,7 @@ if (organism?.organs) {
       addAlert(
         `organ-${o.id}`,
         'red',
-        `${o.emoji} ${o.nameZh} 器官分數 ${o.score} < 50，需要干預`,
+        `${o.emoji} ${o.nameZh} Organ分數 ${o.score} < 50，Need干預`,
         'dashboard-organism.json',
       );
     }
@@ -49,49 +49,49 @@ if (organism?.organs) {
   addAlert(
     'organism-missing',
     'red',
-    'dashboard-organism.json 缺失或無法解析',
+    'dashboard-organism.json 缺失或CannotParse',
     'generator',
   );
 }
 
-// ── 2. 免疫 v2 status 直通（status 字串本身就是診斷）──────────────────
+// ── 2. Immunity v2 status 直通（status characters串本身就是診斷）──────────────────
 const immune = readJson('public/api/dashboard-immune.json');
-// 漂移/危險 比 需關注 更糟，severity 對應升級（首版 regex 漏掉更糟的兩級，
-// status 惡化反而逃出警報 — 2026-06-10 immune v3 上線時自抓）
+// drift/危險 比 需關注 更糟，severity corresponding升級（首版 regex 漏掉更糟的兩級，
+// status 惡化反而逃出警報 — 2026-06-10 immune v3 上線時自Fetch）
 if (
   immune?.status &&
-  /需關注|漂移|危險|critical|attention|drift|danger/i.test(immune.status)
+  /需關注|drift|危險|critical|attention|drift|danger/i.test(immune.status)
 ) {
   const sev = /危險|danger/i.test(immune.status)
     ? 'red'
-    : /漂移|drift/i.test(immune.status)
+    : /drift|drift/i.test(immune.status)
       ? 'yellow'
       : 'yellow';
   addAlert(
     'immune-status',
     sev,
-    `免疫 v3=${immune.immuneScore}：${immune.status}`,
+    `Immunity v3=${immune.immuneScore}：${immune.status}`,
     'dashboard-immune.json',
   );
 }
 
-// ── 3. 三源感知：404 rate + AI crawler 成功率 ──────────────────────────
+// ── 3. Three-source sensing：404 rate + AI crawler Success率 ──────────────────────────
 const analytics = readJson('public/api/dashboard-analytics.json');
 const cf = analytics?.cloudflare24h || analytics?.cloudflare;
 if (cf) {
   const rate = parseFloat(cf.notFoundRate ?? cf['404Rate'] ?? NaN);
   if (!Number.isNaN(rate) && rate > 8) {
-    // 紅線 8%：EXP-2026-04-11-A 修復後基線 ~6%，> 8% = 結構性回升
+    // 紅線 8%：EXP-2026-04-11-A Fix後基線 ~6%，> 8% = structure性回升
     addAlert(
       'cf-404',
       'yellow',
-      `CF 24h 404 rate ${rate}% > 8%（修復後基線 ~6%）`,
+      `CF 24h 404 rate ${rate}% > 8%（Fix後基線 ~6%）`,
       'dashboard-analytics.json',
     );
   }
 }
 
-// ── 4. UNKNOWNS 可證偽實驗到期未判定（audit I-3 根治：機械檢查取代人記）──
+// ── 4. UNKNOWNS 可證偽實驗到期未判定（audit I-3 根治：機械Check取代人記）──
 const unknownsPath = 'docs/semiont/UNKNOWNS.md';
 if (existsSync(unknownsPath)) {
   const unknowns = readFileSync(unknownsPath, 'utf8');
@@ -103,14 +103,14 @@ if (existsSync(unknownsPath)) {
       addAlert(
         `exp-overdue-${m[2]}`,
         'yellow',
-        `UNKNOWNS ${m[2]} 驗證日 ${m[1]} 已過期未判定`,
+        `UNKNOWNS ${m[2]} Verify日 ${m[1]} 已Expired未判定`,
         'UNKNOWNS.md',
       );
     }
   }
 }
 
-// ── 5. Inbox backlog 紅線（LESSONS distill 觸發線 30 的 10x = 結構性飽和）─
+// ── 5. Inbox backlog 紅線（LESSONS distill Trigger線 30 的 10x = structure性飽和）─
 function countEntries(path, pattern) {
   if (!existsSync(path)) return 0;
   const text = readFileSync(path, 'utf8');
@@ -124,19 +124,19 @@ if (lessonsCount > 300) {
   addAlert(
     'lessons-saturation',
     'red',
-    `LESSONS-INBOX 未消化 ${lessonsCount} 條 > 300 飽和線`,
+    `LESSONS-INBOX undigested ${lessonsCount} > 300 飽和線`,
     'LESSONS-INBOX.md',
   );
 } else if (lessonsCount > 200) {
   addAlert(
     'lessons-backlog',
     'yellow',
-    `LESSONS-INBOX 未消化 ${lessonsCount} 條 > 200（distill 產能訊號）`,
+    `LESSONS-INBOX undigested ${lessonsCount} > 200（distill 產能訊號）`,
     'LESSONS-INBOX.md',
   );
 }
 
-// ── 6. MEMORY 索引超過蒸餾觸發線（MEMORY.md 規則：> 80 rows 觸發三層蒸餾）─
+// ── 6. MEMORY 索引exceeds蒸餾Trigger線（MEMORY.md rule：> 80 rows Trigger三層蒸餾）─
 const memoryPath = 'docs/semiont/MEMORY.md';
 if (existsSync(memoryPath)) {
   const rows = countEntries(memoryPath, /^\| 20\d\d-/gm);
@@ -144,42 +144,42 @@ if (existsSync(memoryPath)) {
     addAlert(
       'memory-index-rows',
       'yellow',
-      `MEMORY.md 索引 ${rows} rows > 80 蒸餾觸發線（design 2026-04-14 未實作）`,
+      `MEMORY.md 索引 ${rows} rows > 80 蒸餾Trigger線（design 2026-04-14 未implement）`,
       'MEMORY.md',
     );
   }
 }
 
-// ── 6.5 ARTICLE-INBOX 幽靈 entry（status=done/dropped 卻沒搬走 = 完成歸檔鐵律漂移）─
-// 誕生 2026-06-19-inbox-distill：手動 distill 才發現 16 幽靈累積。深查 + 安全清除工具
+// ── 6.5 ARTICLE-INBOX 幽靈 entry（status=done/dropped 卻沒搬走 = Done歸檔鐵律drift）─
+// 誕生 2026-06-19-inbox-distill：manual distill 才發現 16 幽靈累積。深查 + Safety清除tool
 // scripts/tools/inbox-audit.py；每-boot 便宜訊號 inbox-signal.sh 的 👻 ghost line。
-// 閾值 ≥3 yellow / ≥8 red：遠在「累積到 16」之前就喊（完成歸檔鐵律本要求 ship 同 session 清）。
+// 閾值 ≥3 yellow / ≥8 red：遠在「累積到 16」before就喊（Done歸檔鐵律本request ship 同 session 清）。
 const inboxPath = 'docs/semiont/ARTICLE-INBOX.md';
 if (existsSync(inboxPath)) {
   const text = readFileSync(inboxPath, 'utf8');
   const pIdx = text.search(/^## .*Pending/m);
   const pending = pIdx >= 0 ? text.slice(pIdx) : text;
   const ghosts = (pending.match(/^\s*-\s*\*\*Status\*\*.*/gm) || []).filter(
-    (l) => /done|dropped|已完成|✅/.test(l) && !/pending/.test(l),
+    (l) => /done|dropped|已Done|✅/.test(l) && !/pending/.test(l),
   ).length;
   if (ghosts >= 8) {
     addAlert(
       'inbox-ghosts',
       'red',
-      `ARTICLE-INBOX ${ghosts} 條 status=done 沒搬走 ≥ 8（完成歸檔鐵律結構性漂移；inbox-audit.py --apply-safe 清）`,
+      `ARTICLE-INBOX ${ghosts} status=done 沒搬走 ≥ 8（Done歸檔鐵律structure性drift；inbox-audit.py --apply-safe 清）`,
       'ARTICLE-INBOX.md',
     );
   } else if (ghosts >= 3) {
     addAlert(
       'inbox-ghosts',
       'yellow',
-      `ARTICLE-INBOX ${ghosts} 條 status=done 沒搬走（完成歸檔鐵律漂移；inbox-audit.py --apply-safe 清）`,
+      `ARTICLE-INBOX ${ghosts} status=done 沒搬走（Done歸檔鐵律drift；inbox-audit.py --apply-safe 清）`,
       'ARTICLE-INBOX.md',
     );
   }
 }
 
-// ── 7. Dashboard JSON staleness（> 36h 沒更新 = refresh 飛輪斷）────────
+// ── 7. Dashboard JSON staleness（> 36h 沒Update = refresh 飛輪斷）────────
 const vitals = readJson('public/api/dashboard-vitals.json');
 if (vitals?.lastUpdated) {
   const ageH = (Date.now() - new Date(vitals.lastUpdated).getTime()) / 3.6e6;
@@ -187,13 +187,13 @@ if (vitals?.lastUpdated) {
     addAlert(
       'vitals-stale',
       'red',
-      `dashboard-vitals.json ${Math.round(ageH)}h 未更新 > 36h（data-refresh 飛輪斷？）`,
+      `dashboard-vitals.json ${Math.round(ageH)}h 未Update > 36h（data-refresh 飛輪斷？）`,
       'dashboard-vitals.json',
     );
   }
 }
 
-// ── 8. Spore harvest 欠帳（OVERDUE 回填 > 10 = 繁殖系統半盲）───────────
+// ── 8. Spore harvest 欠帳（OVERDUE 回填 > 10 = 繁殖System半盲）───────────
 const spores = readJson('public/api/dashboard-spores.json');
 const harvestStatus = spores?.harvestStatus || [];
 const overdue = harvestStatus.filter((h) =>
@@ -205,7 +205,7 @@ if (overdue > 10) {
   addAlert(
     'spore-harvest-overdue',
     'yellow',
-    `孢子回填 OVERDUE ${overdue} 條 > 10（發了不回填＝半盲）`,
+    `Spore回填 OVERDUE ${overdue} > 10（發了不回填＝半盲）`,
     'dashboard-spores.json',
   );
 }

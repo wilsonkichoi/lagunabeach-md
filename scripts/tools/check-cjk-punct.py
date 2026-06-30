@@ -37,7 +37,7 @@ def main() -> int:
     # Replicate the original CLI surface exactly so existing callers (pre-commit,
     # docs, muscle memory) keep working.
     parser = argparse.ArgumentParser(
-        description="CJK 半形標點 lint (facade over article-health.py --check=cjk-punct)",
+ description="CJK half-width標點 lint (facade over article-health.py --check=cjk-punct)",
     )
     parser.add_argument("files", nargs="*", help="Files to check")
     parser.add_argument("--fix", action="store_true", help="Auto-fix violations in place")

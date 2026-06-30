@@ -27,7 +27,7 @@ _RE_FENCED_CODE = re.compile(r"```[\s\S]*?```", re.MULTILINE)
 _RE_INLINE_CODE = re.compile(r"`[^`\n]+`")
 # Link URL: `](...)` — exclude `)` AND newlines so a malformed link with
 # fullwidth `）` instead of `)` doesn't eat across lines into the next link.
-# 2026-05-04 黃魚鴞 incident showed `[^)]+` was running until the FAR-AWAY
+# 2026-05-04 Blakiston fish owl incident showed `[^)]+` was running until the FAR-AWAY
 # next halfwidth `)`, swallowing 5 lines and corrupting protected_regions.
 _RE_MD_LINK_URL = re.compile(r"\]\([^)\n]+\)")
 _RE_HTML_TAG = re.compile(r"<[^>\n]+>")
@@ -39,7 +39,7 @@ _RE_FRONTMATTER = re.compile(
 
 
 def _parse_frontmatter_minimal(yaml_text: str) -> dict[str, Any]:
-    """Lightweight YAML frontmatter parser — handles the subset Taiwan.md uses.
+    """Lightweight YAML frontmatter parser — handles the subset LagunaBeach.md uses.
 
     Not a full YAML parser. Falls back to PyYAML if installed, else uses
     a simple key: value parser for top-level scalar / list-on-one-line cases.
@@ -168,21 +168,21 @@ def _detect_protected_regions(body: str) -> list[tuple[int, int, str]]:
 
 
 def _detect_sections(body: str) -> dict[str, tuple[int, int]]:
-    """Detect canonical section boundaries: 延伸閱讀 / 參考資料 / 圖片來源.
+ """Detect canonical section boundaries: Further Reading / referenceData / imageSource.
 
     Returns name → (start, end) byte offsets in body coords. Used by plugins
-    that need to treat these regions specially (per 2026-05-04 黃魚鴞 lesson:
+ that need to treat these regions specially (per 2026-05-04 Blakiston fish owl lesson:
     these sections contain markdown link URLs that must stay half-width
     even in zh-TW context).
 
     Section boundaries:
-      - Start: first occurrence of `**延伸閱讀**` or `## 延伸閱讀` etc.
+ - Start: first occurrence of `**Further Reading**` or `## Further Reading` etc.
       - End: next h2/h3 header OR end-of-file.
     """
     section_starts = [
-        ("further-reading", re.compile(r"^(?:##\s*延伸閱讀|\*\*延伸閱讀\*\*[：:])", re.MULTILINE)),
-        ("references", re.compile(r"^##\s*參考資料", re.MULTILINE)),
-        ("image-sources", re.compile(r"^##\s*圖片來源", re.MULTILINE)),
+        ("further-reading", re.compile(r"^(?:##\s*Further Reading|\*\*Further Reading\*\*[：:])", re.MULTILINE)),
+        ("references", re.compile(r"^##\s*reference資料", re.MULTILINE)),
+        ("image-sources", re.compile(r"^##\s*image來源", re.MULTILINE)),
     ]
     # Find all candidate section start positions
     starts: list[tuple[int, str]] = []

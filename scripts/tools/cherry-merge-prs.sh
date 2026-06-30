@@ -156,8 +156,8 @@ for pr in "${PRS[@]}"; do
   author=$(first_author "$pr")
   author_name="${author%%|*}"
   author_email="${author#*|}"
-  [[ -n "$author_name" ]] || author_name="Taiwan.md Contributor"
-  [[ -n "$author_email" ]] || author_email="contributors@taiwan.md"
+  [[ -n "$author_name" ]] || author_name="LagunaBeach.md Contributor"
+  [[ -n "$author_email" ]] || author_email="contributors@lagunabeach.md"
 
   commit_msg=$(mktemp)
   {

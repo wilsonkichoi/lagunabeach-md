@@ -1,27 +1,27 @@
 #!/usr/bin/env node
 /**
- * image-ingest.mjs — Taiwan.md 影像後處理工具鏈 SSOT（檢驗 + 調整 一條龍）
+ * image-ingest.mjs — LagunaBeach.md 影像後handletool鏈 SSOT（檢驗 + 調整 一龍）
  *
- * 把 REWRITE-PIPELINE Step 1.9.2 / Step 4.3 規定的影像後處理手工步驟全部儀器化。
- * 之前散在：cache-county-images.mjs（只 Wikimedia 22 縣市）+ check-aspect.sh（只 aspect）
- * + 一堆 sips/curl 手跑。本工具用 sharp（Astro 已帶，cross-platform）統一。
+ * 把 REWRITE-PIPELINE Step 1.9.2 / Step 4.3 規定的影像後handle手工stepall儀器化。
+ * before散在：cache-county-images.mjs（只 Wikimedia 22 縣市）+ check-aspect.sh（只 aspect）
+ * + 一堆 sips/curl 手跑。本tool用 sharp（Astro 已帶，cross-platform）統一。
  *
- * 三個 mode：
+ * 三 mode：
  *
- *   ingest — 下載/讀檔 → 嗅探 magic bytes → 擋 GIF/HEIC/BMP/TIFF → auto-orient + 清 EXIF/GPS
- *            → 縮放上限 → 轉檔（預設 WebP）→ quality search 壓到 size budget
- *            → 命名規範 → cache public/article-images/{cat}/ → 印 md/frontmatter/§圖片來源/授權矩陣
+ * ingest — download/讀檔 → 嗅探 magic bytes → 擋 GIF/HEIC/BMP/TIFF → auto-orient + 清 EXIF/GPS
+ * → 縮放上限 → 轉檔（Default WebP）→ quality search 壓到 size budget
+ * → 命名spec → cache public/article-images/{cat}/ → 印 md/frontmatter/§imageSource/authorization矩陣
  *
- *   check  — 純檢驗（不改檔），pre-commit / CI gate：格式白名單 / aspect / size budget / EXIF 殘留
+ * check — 純檢驗（不改檔），pre-commit / CI gate：Format白名單 / aspect / size budget / EXIF 殘留
  *
- *   audit  — 全站掃 public/article-images/：格式分佈 / 超標 / EXIF 洩漏 / aspect 違規
- *            + WebP 遷移估算（非 webp 張數 + 可省 bytes）
+ * audit — Site-wide掃 public/article-images/：Format分佈 / 超標 / EXIF 洩漏 / aspect 違規
+ * + WebP 遷移估算（非 webp 數 + 可省 bytes）
  *
  * Usage:
  *   node scripts/tools/image-ingest.mjs ingest --src <URL|path> --cat Food \
  *        --name dan-ta-portuguese-tart-2024 --role hero \
- *        [--format webp|jpg|png|keep] [--alt "葡式蛋撻"] \
- *        [--credit "作者 / Wikimedia"] [--license "CC BY-SA 4.0"] [--source-url "https://..."] [--dry-run]
+ * [--format webp|jpg|png|keep] [--alt "葡式蛋撻"] \
+ * [--credit "作者 / Wikimedia"] [--license "CC BY-SA 4.0"] [--source-url "https://..."] [--dry-run]
  *
  *   node scripts/tools/image-ingest.mjs check public/article-images/food/*.webp [--role hero]
  *   node scripts/tools/image-ingest.mjs audit [--cat Food] [--json]
@@ -44,7 +44,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(__dirname, '..', '..');
 const IMG_ROOT = join(REPO_ROOT, 'public', 'article-images');
 
-// ── 護欄常數（對齊 REWRITE-PIPELINE Step 1.9.2）────────────────────────────
+// ── 護欄常數（alignment REWRITE-PIPELINE Step 1.9.2）────────────────────────────
 const SIZE_BUDGET = { hero: 600 * 1024, inline: 400 * 1024 }; // hard ceiling
 const SIZE_WARN = { hero: 500 * 1024, inline: 350 * 1024 };
 const DIM_CAP = { hero: 2400, inline: 1600 }; // max width，只縮不放
@@ -56,7 +56,7 @@ const QUALITY_START = 82;
 const QUALITY_FLOOR = 58;
 
 const UA =
-  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Taiwan.md ImageIngest/1.0';
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 LagunaBeach.md ImageIngest/1.0';
 
 const C = {
   red: '\x1b[0;31m',
@@ -88,7 +88,7 @@ function parseArgs(argv) {
   return out;
 }
 
-// ── magic-bytes 格式嗅探（不信副檔名）──────────────────────────────────────
+// ── magic-bytes Format嗅探（不信副filename）──────────────────────────────────────
 function sniffFormat(buf) {
   if (buf.length < 12) return 'unknown';
   const b = buf;
@@ -117,7 +117,7 @@ function sniffFormat(buf) {
   return 'unknown';
 }
 
-// ── 下載（generalize cache-county：UA / 30s / 429,5xx retry / thumb→original）──
+// ── download（generalize cache-county：UA / 30s / 429,5xx retry / thumb→original）──
 function thumbToOriginal(url) {
   const m = url.match(
     /^(https:\/\/upload\.wikimedia\.org\/wikipedia\/[a-z]+)\/thumb\/([0-9a-f])\/([0-9a-f]{2})\/([^/]+)\/[^/]+$/,
@@ -165,14 +165,15 @@ async function download(url, attempt = 1) {
 }
 
 // Commons File: page / Special:FilePath → canonical Special:FilePath download URL
-// （讓 manifest 給 File: 頁 URL 或 "derive-from-file-page" 時也能直接下載原圖）
+// （讓 manifest 給 File: 頁 URL 或 "derive-from-file-page" 時也能directlydownload原圖）
 function commonsFilePath(src) {
   let m = src.match(/commons\.wikimedia\.org\/wiki\/(?:File|Image):(.+)$/i);
   if (m) {
     const fname = m[1].replace(/^.*\//, '').split('#')[0];
     return `https://commons.wikimedia.org/wiki/Special:FilePath/${fname}`;
   }
-  if (/commons\.wikimedia\.org\/wiki\/Special:FilePath\//i.test(src)) return src;
+  if (/commons\.wikimedia\.org\/wiki\/Special:FilePath\//i.test(src))
+    return src;
   return null;
 }
 
@@ -199,17 +200,18 @@ function validateName(name) {
       err: '命名須全小寫 kebab-case（無空格 / 無 CJK / 無底線）',
     };
   if (!/\d{4}/.test(bare))
-    warn.push('建議含 4 位年份（{subject}-{topic}-{year}）');
-  if (bare.split('-').length < 2) warn.push('建議 subject-topic 至少兩段');
+    warn.push('suggestion含 4 位年份（{subject}-{topic}-{year}）');
+  if (bare.split('-').length < 2)
+    warn.push('suggestion subject-topic at least兩段');
   return { ok: true, bare, warn };
 }
 
-// ── ingest（調整 主路徑）────────────────────────────────────────────────────
+// ── ingest（調整 主path）────────────────────────────────────────────────────
 async function modeIngest(args) {
   const { src, cat, name, role = 'inline' } = args;
   const fmt = (args.format || 'webp').toLowerCase();
   if (!src || !cat || !name) {
-    console.error(`${C.red}缺參數：--src --cat --name 必填${C.nc}`);
+    console.error(`${C.red}缺Parameters：--src --cat --name 必填${C.nc}`);
     process.exit(2);
   }
   if (!['hero', 'inline'].includes(role)) {
@@ -228,24 +230,24 @@ async function modeIngest(args) {
   try {
     buf = await resolveSource(src);
   } catch (e) {
-    console.error(`${C.red}✗ 取源失敗：${e.message}${C.nc}`);
+    console.error(`${C.red}✗ 取源Failed：${e.message}${C.nc}`);
     process.exit(1);
   }
 
   const inFmt = sniffFormat(buf);
   console.log(
-    `  ${C.gry}源格式（magic bytes）：${inFmt}　原始 ${kb(buf.length)}${C.nc}`,
+    ` ${C.gry}源Format（magic bytes）：${inFmt}　original ${kb(buf.length)}${C.nc}`,
   );
   if (inFmt === 'unknown') {
-    console.error(`${C.red}✗ 無法辨識影像格式（magic bytes 不符）${C.nc}`);
+    console.error(`${C.red}✗ Cannot辨識影像Format（magic bytes 不符）${C.nc}`);
     process.exit(1);
   }
 
-  // SVG：向量，不 raster 處理，只檢查體積
+  // SVG：向量，不 raster handle，只Check體積
   if (inFmt === 'svg') {
     if (buf.length > SVG_MAX)
       console.log(
-        `  ${C.yel}⚠ SVG ${kb(buf.length)} > ${kb(SVG_MAX)} 上限${C.nc}`,
+        ` ${C.yel}⚠ SVG ${kb(buf.length)} > ${kb(SVG_MAX)} 上限${C.nc}`,
       );
     const dest = join(IMG_ROOT, catDir, `${nameCheck.bare}.svg`);
     if (!args['dry-run']) {
@@ -254,17 +256,17 @@ async function modeIngest(args) {
     }
     emitSnippets({ catDir, file: `${nameCheck.bare}.svg`, role, args });
     console.log(
-      `  ${C.grn}✓ SVG 入庫 ${dest.replace(REPO_ROOT + '/', '')}${C.nc}`,
+      ` ${C.grn}✓ SVG 入庫 ${dest.replace(REPO_ROOT + '/', '')}${C.nc}`,
     );
     return;
   }
 
   if (BANNED_STORE.has(inFmt))
     console.log(
-      `  ${C.cyan}↻ ${inFmt} 禁止入庫 → 轉檔為 ${fmt === 'keep' ? 'webp' : fmt}${C.nc}`,
+      ` ${C.cyan}↻ ${inFmt} Forbidden入庫 → 轉檔為 ${fmt === 'keep' ? 'webp' : fmt}${C.nc}`,
     );
 
-  // 出檔格式
+  // 出檔Format
   let outFmt =
     fmt === 'keep'
       ? inFmt === 'png'
@@ -277,21 +279,21 @@ async function modeIngest(args) {
         : fmt;
   if (BANNED_STORE.has(inFmt) && fmt === 'keep') outFmt = 'webp';
   if (!OUTPUT_FORMATS.has(outFmt)) {
-    console.error(`${C.red}✗ 出檔格式不允許：${outFmt}${C.nc}`);
+    console.error(`${C.red}✗ 出檔Format不Allow：${outFmt}${C.nc}`);
     process.exit(2);
   }
-  const extFinal = outFmt === 'jpeg' ? 'jpg' : outFmt; // jpeg→jpg 副檔名
+  const extFinal = outFmt === 'jpeg' ? 'jpg' : outFmt; // jpeg→jpg 副filename
 
   let meta;
   try {
     meta = await sharp(buf).metadata();
   } catch (e) {
-    console.error(`${C.red}✗ sharp 讀取失敗：${e.message}${C.nc}`);
+    console.error(`${C.red}✗ sharp ReadFailed：${e.message}${C.nc}`);
     process.exit(1);
   }
   const hadExif = !!meta.exif || !!meta.iptc || !!meta.xmp;
   console.log(
-    `  ${C.gry}原始尺寸 ${meta.width}×${meta.height}　EXIF/metadata：${hadExif ? '有（將清除）' : '無'}${C.nc}`,
+    ` ${C.gry}original尺寸 ${meta.width}×${meta.height}　EXIF/metadata：${hadExif ? '有（將清除）' : '無'}${C.nc}`,
   );
 
   const cap = DIM_CAP[role];
@@ -318,7 +320,7 @@ async function modeIngest(args) {
   const ar = +(finalMeta.width / finalMeta.height).toFixed(3);
   const [amin, amax] = ASPECT[role];
 
-  // 報告
+  // report
   const sizeMark =
     out.length > budget
       ? `${C.red}✗ ${kb(out.length)} > ${kb(budget)} 超 budget${C.nc}`
@@ -328,50 +330,50 @@ async function modeIngest(args) {
   const arMark =
     ar >= amin && ar <= amax
       ? `${C.grn}${ar}${C.nc}`
-      : `${C.red}✗ ${ar}（${role} 須 ${amin}–${amax}，建議換圖不強塞）${C.nc}`;
+      : `${C.red}✗ ${ar}（${role} 須 ${amin}–${amax}，suggestion換圖不強塞）${C.nc}`;
   console.log(
-    `  處理後：${finalMeta.width}×${finalMeta.height}　${outFmt} q${qUsed}　${sizeMark}　aspect ${arMark}　EXIF 已清`,
+    ` handle後：${finalMeta.width}×${finalMeta.height}　${outFmt} q${qUsed}　${sizeMark}　aspect ${arMark}　EXIF 已清`,
   );
   console.log(
-    `  ${C.gry}壓縮率 ${((1 - out.length / buf.length) * 100).toFixed(0)}%（${kb(buf.length)} → ${kb(out.length)}）${C.nc}`,
+    ` ${C.gry}compress率 ${((1 - out.length / buf.length) * 100).toFixed(0)}%（${kb(buf.length)} → ${kb(out.length)}）${C.nc}`,
   );
 
   const fileName = `${nameCheck.bare}.${extFinal}`;
   const dest = join(IMG_ROOT, catDir, fileName);
   if (args['dry-run']) {
     console.log(
-      `  ${C.cyan}[dry-run] 不寫檔 → ${dest.replace(REPO_ROOT + '/', '')}${C.nc}`,
+      ` ${C.cyan}[dry-run] 不寫檔 → ${dest.replace(REPO_ROOT + '/', '')}${C.nc}`,
     );
   } else {
     await mkdir(dirname(dest), { recursive: true });
     await writeFile(dest, out);
-    console.log(`  ${C.grn}✓ 入庫 ${dest.replace(REPO_ROOT + '/', '')}${C.nc}`);
+    console.log(` ${C.grn}✓ 入庫 ${dest.replace(REPO_ROOT + '/', '')}${C.nc}`);
   }
   emitSnippets({ catDir, file: fileName, role, args });
-  // 硬性失敗 → 非零 exit（讓批次/CI 看得到）
+  // 硬性Failed → 非零 exit（讓batch/CI 看得到）
   if (out.length > budget) process.exitCode = 1;
 }
 
 function emitSnippets({ catDir, file, role, args }) {
   const webPath = `/article-images/${catDir}/${file}`;
-  const alt = args.alt || '（待填 alt：具體描述畫面，勿用「圖片」）';
-  console.log(`\n  ${C.bold}── 貼進文章 ──${C.nc}`);
+  const alt = args.alt || '（待填 alt：具體description畫面，勿用「image」）';
+  console.log(`\n ${C.bold}── 貼進Articles ──${C.nc}`);
   if (role === 'hero')
     console.log(`  frontmatter:  ${C.cyan}image: ${webPath}${C.nc}`);
   console.log(`  markdown:     ${C.cyan}![${alt}](${webPath})${C.nc}`);
   if (args.credit || args.license || args['source-url']) {
     const credit = args.credit || '（作者）';
-    const lic = args.license || '（授權）';
+    const lic = args.license || '（authorization）';
     const url = args['source-url'] || '';
     console.log(
-      `  §圖片來源:    ${C.cyan}- [${credit}](${url}) — ${lic}${C.nc}`,
+      ` §imageSource: ${C.cyan}- [${credit}](${url}) — ${lic}${C.nc}`,
     );
     console.log(
-      `  授權矩陣 row: ${C.gry}| ${file} | ${credit} | ${lic} | ${url} | ${role} |${C.nc}`,
+      ` authorization矩陣 row: ${C.gry}| ${file} | ${credit} | ${lic} | ${url} | ${role} |${C.nc}`,
     );
   } else {
     console.log(
-      `  ${C.yel}⚠ 未給 --credit/--license/--source-url，§圖片來源 需手補（CC/fair-use 必標）${C.nc}`,
+      ` ${C.yel}⚠ 未給 --credit/--license/--source-url，§imageSource 需手補（CC/fair-use 必標）${C.nc}`,
     );
   }
 }
@@ -396,11 +398,14 @@ async function inspectFile(path, roleHint) {
   const role =
     roleHint || (basename(real).includes('hero') ? 'hero' : 'inline');
   const v = [];
-  // 格式白名單
+  // Format白名單
   if (BANNED_STORE.has(fmt))
-    v.push({ sev: 'hard', msg: `格式 ${fmt} 禁止入庫（須轉 webp/jpg/png）` });
+    v.push({
+      sev: 'hard',
+      msg: `Format ${fmt} Forbidden入庫（須轉 webp/jpg/png）`,
+    });
   else if (fmt === 'unknown')
-    v.push({ sev: 'hard', msg: '無法辨識格式（magic bytes）' });
+    v.push({ sev: 'hard', msg: 'Cannot辨識Format（magic bytes）' });
   let dims = '';
   if (fmt !== 'svg' && fmt !== 'unknown') {
     try {
@@ -416,7 +421,7 @@ async function inspectFile(path, roleHint) {
       if (m.exif || m.iptc || m.xmp)
         v.push({
           sev: 'warn',
-          msg: 'EXIF/metadata 殘留（建議重新 ingest 清除）',
+          msg: 'EXIF/metadata 殘留（suggestionre- ingest 清除）',
         });
       const budget = SIZE_BUDGET[role];
       if (buf.length > budget)
@@ -425,7 +430,7 @@ async function inspectFile(path, roleHint) {
           msg: `${kb(buf.length)} > ${kb(budget)} (${role} budget)`,
         });
     } catch (e) {
-      v.push({ sev: 'hard', msg: `sharp 讀取失敗：${e.message}` });
+      v.push({ sev: 'hard', msg: `sharp ReadFailed：${e.message}` });
     }
   }
   if (fmt === 'svg' && buf.length > SVG_MAX)
@@ -443,7 +448,7 @@ async function inspectFile(path, roleHint) {
 async function modeCheck(args) {
   const files = args._.slice(1);
   if (!files.length) {
-    console.error(`${C.red}check 需要至少一個檔案路徑${C.nc}`);
+    console.error(`${C.red}check Needat least一filepath${C.nc}`);
     process.exit(2);
   }
   let hard = 0,
@@ -478,7 +483,7 @@ async function modeCheck(args) {
   if (hard) process.exitCode = 1;
 }
 
-// ── audit（全站掃描 + WebP 遷移估算）─────────────────────────────────────────
+// ── audit（Site-wideScan + WebP 遷移估算）─────────────────────────────────────────
 async function walk(dir) {
   const out = [];
   let entries;
@@ -574,25 +579,25 @@ async function modeAudit(args) {
     `${C.bold}📊 image audit — ${base.replace(REPO_ROOT + '/', '')}${C.nc}`,
   );
   console.log(
-    `  檔案數：${files.length}　總體積：${(totalBytes / 1024 / 1024).toFixed(1)}MB`,
+    ` file數：${files.length}　總體積：${(totalBytes / 1024 / 1024).toFixed(1)}MB`,
   );
   console.log(
-    `  格式分佈：${Object.entries(byExt)
+    ` Format分佈：${Object.entries(byExt)
       .sort((a, b) => b[1] - a[1])
       .map(([k, v]) => `${k}=${v}`)
       .join(' ')}`,
   );
   console.log(
-    `  ${banned ? C.red : C.grn}禁用格式（GIF/BMP/TIFF/HEIC）：${banned}${C.nc}`,
+    ` ${banned ? C.red : C.grn}禁用Format（GIF/BMP/TIFF/HEIC）：${banned}${C.nc}`,
   );
   console.log(
-    `  ${oversize ? C.yel : C.grn}超 size budget：${oversize}${C.nc}　${aspectBad ? C.yel : C.grn}aspect 違規：${aspectBad}${C.nc}　${exifLeak ? C.yel : C.grn}EXIF 殘留：${exifLeak}${C.nc}`,
+    ` ${oversize ? C.yel : C.grn}超 size budget：${oversize}${C.nc}　${aspectBad ? C.yel : C.grn}aspect 違規：${aspectBad}${C.nc}　${exifLeak ? C.yel : C.grn}EXIF 殘留：${exifLeak}${C.nc}`,
   );
   console.log(
-    `  ${C.cyan}WebP 遷移面：非 webp ${nonWebpCount} 張 / ${(nonWebpBytes / 1024 / 1024).toFixed(1)}MB（轉 webp 估省 25–35%）${C.nc}`,
+    ` ${C.cyan}WebP 遷移面：非 webp ${nonWebpCount} / ${(nonWebpBytes / 1024 / 1024).toFixed(1)}MB（轉 webp 估省 25–35%）${C.nc}`,
   );
   if (issues.length) {
-    console.log(`  ${C.gry}— banned 清單 —${C.nc}`);
+    console.log(` ${C.gry}— banned list —${C.nc}`);
     issues.slice(0, 20).forEach((i) => console.log(`    ${i}`));
   }
 }
@@ -603,8 +608,8 @@ const mode = args._[0];
 const dispatch = { ingest: modeIngest, check: modeCheck, audit: modeAudit };
 if (!dispatch[mode]) {
   console.error(
-    `${C.bold}image-ingest.mjs${C.nc} — 影像後處理 SSOT\n` +
-      `  modes: ${C.cyan}ingest${C.nc} (下載+調整+入庫) / ${C.cyan}check${C.nc} (檢驗 gate) / ${C.cyan}audit${C.nc} (全站掃描)\n` +
+    `${C.bold}image-ingest.mjs${C.nc} — 影像後handle SSOT\n` +
+      ` modes: ${C.cyan}ingest${C.nc} (download+調整+入庫) / ${C.cyan}check${C.nc} (檢驗 gate) / ${C.cyan}audit${C.nc} (Site-wideScan)\n` +
       `  see header for usage.`,
   );
   process.exit(mode ? 2 : 0);

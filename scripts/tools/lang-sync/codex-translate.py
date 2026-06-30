@@ -6,7 +6,7 @@ Wrapper that reuses openrouter-translate.py's prompt builder + manifest reader,
 but pipes the prompt to `codex exec` instead of OpenRouter API.
 
 Use when OpenRouter free tier is rate-limited (per REFLEXES #45) and Sonnet sub-agent
-is disabled (per哲宇 explicit constraint 2026-05-12).
+is disabled (perCheyu explicit constraint 2026-05-12).
 
 Usage:
     python3 codex-translate.py --group .lang-sync-tasks/ja/_group-A.json
@@ -15,7 +15,7 @@ Usage:
 Requires: codex CLI authenticated via ~/.codex/auth.json (gpt-5.5 access via subscription)
 
 2026-05-12 admiring-montalcini-post-finale session — observer Tier 1 OpenRouter全
-rate-limited + Hy3 轉 paid + Sonnet 禁用 → 走哲宇 OpenAI Codex 訂閱繞 OpenRouter。
+rate-limited + Hy3 轉 paid + Sonnet 禁用 → 走Cheyu OpenAI Codex 訂閱繞 OpenRouter。
 """
 import argparse, json, os, subprocess, sys, time
 from pathlib import Path

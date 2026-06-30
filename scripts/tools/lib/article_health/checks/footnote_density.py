@@ -57,11 +57,11 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
         return  # healthy — no violation
 
     if grade == "C":
-        msg = f"腳註等級 C：無正式腳註但有 {url_count} 個 inline URL"
+ msg = f"腳註等級 C：無正式腳註但有 {url_count} inline URL"
     elif grade == "D":
-        msg = f"腳註等級 D：僅 {url_count} 個 URL，無正式腳註"
+ msg = f"腳註等級 D：僅 {url_count} URL，無正式腳註"
     else:  # F
-        msg = "腳註等級 F：引用荒漠（零腳註、零 URL）"
+ msg = "腳註等級 F：引用荒漠（零腳註、零 URL）"
 
     yield Violation(
         check=CHECK_NAME,

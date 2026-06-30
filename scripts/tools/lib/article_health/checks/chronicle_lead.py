@@ -1,6 +1,6 @@
 """chronicle_lead — chronicle-style subheading detection (REWRITE Stage 2 #4 + #11).
 
-Ported from Taiwan.md. Most patterns were already language-agnostic (ISO
+Ported from LagunaBeach.md. Most patterns were already language-agnostic (ISO
 date formats); this port adds English-specific patterns (Month Year, Year:
 Title) alongside them.
 

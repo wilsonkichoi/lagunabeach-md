@@ -2,18 +2,18 @@
 """
 lang-renormalize.py — 統一跨語系 slug 為 en canonical（slug consistency batch rename）
 
-URL convention (post Tailwind-Phase-6 fix, 2026-04-12)：所有 locales 用 EN slug
-為 URL path。如果非 en lang 翻譯 file 用 native slug（如 ja/Music/ktv.md vs en
-canonical ktv-culture），dropdown 切換時會 404，因為 build 從 file slug 生 URL。
+URL convention (post Tailwind-Phase-6 fix, 2026-04-12)：all locales 用 EN slug
+為 URL path。If非 en lang Translation file 用 native slug（如 ja/Music/ktv.md vs en
+canonical ktv-culture），dropdown 切換時會 404，Because build From file slug 生 URL。
 
 Fix：把 lang file rename 成 en canonical slug。Frontmatter `translatedFrom` 不變
-（仍指向 zh source），_translations.json 由 sync-translations-json.py 從
-frontmatter 重建。
+（仍指向 zh source），_translations.json 由 sync-translations-json.py From
+frontmatter Rebuild。
 
 Output:
 - Rename plan: `.lang-sync-tasks/renormalize/rename-plan.json`
 - Redirect candidates: `.lang-sync-tasks/renormalize/redirects-needed.json`
-  （old URL → new URL，可選擇性加進 astro.config.mjs）
+ （old URL → new URL，可選擇性加進 astro.config.mjs）
 
 Usage:
   python3 scripts/tools/lang-sync/lang-renormalize.py --audit reports/cross-lang-audit-YYYY-MM-DD.json

@@ -1,37 +1,37 @@
 #!/usr/bin/env python3
-"""prioritize-batch.py — 智慧型 babel 優先排序 + tier router
+"""prioritize-batch.py — 智慧型 babel prioritySort + tier router
 
-設計（2026-05-09 laughing-goldstine post-finale）：
+design（2026-05-09 laughing-goldstine post-finale）：
 
 Phase 6 Spore SSOT cleanup 後 babel 第一波 11 zero-coverage articles 跑通
-（55/55 100% Tier 1 owl-alpha）。哲宇要求「繼續巴別塔以後的優先排序」+
-20 文章/批 + 智慧型 tier 路由 + 自我演化。
+（55/55 100% Tier 1 owl-alpha）。Cheyurequest「continue巴別塔以後的prioritySort」+
+20 Articles/批 + 智慧型 tier 路由 + self演化。
 
 ## Priority schema
 
-| Tier | 名稱       | 判準                                                          |
+| Tier | 名稱 | 判準 |
 | ---- | ---------- | ------------------------------------------------------------- |
-| P0   | 缺口       | status = missing（翻譯檔不存在）                              |
-| P1   | 大幅更新   | status = stale + (added+removed) ≥ 50 lines OR added ≥ 30    |
-| P2   | 小幅更新   | status = stale + (added+removed) < 50 lines                   |
-| P2.5 | 腳註/metadata | status = metadata-stale（trailer / footnote URL 變動）      |
-| P3   | 舊文章     | status = fresh + translatedAt 距今 ≥ 60 天                   |
+| P0 | 缺口 | status = missing（Translation檔Does not exist） |
+| P1 | 大幅Update | status = stale + (added+removed) ≥ 50 lines OR added ≥ 30 |
+| P2 | 小幅Update | status = stale + (added+removed) < 50 lines |
+| P2.5 | 腳註/metadata | status = metadata-stale（trailer / footnote URL 變動） |
+| P3 | 舊Articles | status = fresh + translatedAt 距今 ≥ 60 天 |
 
 ## Smart tier router
 
-針對每篇 article，輸出建議起始 tier：
+針對每 article，Outputsuggestion起始 tier：
 
-- **topic_sensitivity**: 政治/兩岸/台獨/國防/民主/主權/中華 (title/cat 關鍵字) → 跳過 Tier 2 Hy3 (85% refusal on Taiwan content)
+- **topic_sensitivity**: 政治/兩岸/台獨/國防/民主/主權/中華 (title/cat 關鍵characters) → Skipped Tier 2 Hy3 (85% refusal on Taiwan content)
 - **article_size**: zh body > 5KB → Tier 1 owl-alpha (1M ctx) / < 5KB → 任意 cloud tier
-- **prior_refusal_cache**: `.lang-sync-tasks/_refusal-cache.json` 記錄哪些 (slug, lang) 之前被誰 refuse → 跳過該 tier
+- **prior_refusal_cache**: `.lang-sync-tasks/_refusal-cache.json` Record哪些 (slug, lang) before被誰 refuse → Skipped該 tier
 
 Output: 每 20 articles 一批，priority + tier 標註，prepare-batch.py 可吃。
 
 Usage:
-    # 列出所有優先級分類
+ # 列出allprioritycategory
     python3 prioritize-batch.py --lang en --report
 
-    # 取下一批 20 個 P0/P1（output JSON to stdin for prepare-batch.py）
+ # 取下一批 20 P0/P1（output JSON to stdin for prepare-batch.py）
     python3 prioritize-batch.py --lang en --top-n 20 --priority P0,P1 --out /tmp/next-batch.txt
 """
 
@@ -56,7 +56,7 @@ OLD_THRESHOLD_DAYS = 60
 
 
 def parse_diff_size(diff_str):
-    """'+12 -3' → (12, 3)。如果不是 stale row 返回 (0, 0)."""
+ """'+12 -3' → (12, 3)。Ifnot stale row 返回 (0, 0)."""
     if not diff_str or not isinstance(diff_str, str):
         return 0, 0
     m = re.match(r"\+(\d+)\s+-(\d+)", diff_str.strip())

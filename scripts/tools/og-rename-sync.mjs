@@ -1,19 +1,19 @@
 #!/usr/bin/env node
 /**
- * og-rename-sync.mjs — 同步 OG cache file 對應 git rename，避免 cache miss 全 regen
+ * og-rename-sync.mjs — sync OG cache file corresponding git rename，Avoid cache miss 全 regen
  *
  * 背景（2026-05-03）：PR #797 cross-lang baseline rename 902 lang files 到 en
  * canonical slug (per URL convention 2026-04-12)。OG cache file 用 lang URL slug
  * 為 path（{lang}/{cat}/{urlSlug}.jpg），rename 後 outputPath 變 → cache miss →
  * 全 regen ~4500 images = 40 min build slowdown。
  *
- * Fix: 在 OG generation 前跑此 script，掃 git log rename history，把對應 OG
- * cache file 從舊 path mv 到新 path。
+ * Fix: 在 OG generation 前跑此 script，掃 git log rename history，把corresponding OG
+ * cache file From舊 path mv 到新 path。
  *
  * Strategy:
- * 1. git log -M --name-status --diff-filter=R 抓最近 N commits 的 rename
- * 2. 過濾 knowledge/{lang}/Cat/file.md 的 lang file rename
- * 3. 計算對應 OG path（lang URL slug = file basename without .md）
+ * 1. git log -M --name-status --diff-filter=R Fetchrecent N commits 的 rename
+ * 2. Filter knowledge/{lang}/Cat/file.md 的 lang file rename
+ * 3. Calculatecorresponding OG path（lang URL slug = file basename without .md）
  * 4. mv public/og-images/{lang}/{cat_slug}/{old_slug}.jpg → {new_slug}.jpg
  *
  * Usage:
