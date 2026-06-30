@@ -206,11 +206,24 @@ The fire destroyed 441 homes and damaged 270 others[^1].
 
 If no footnotes are used, no `## References` H2 is needed — the frontmatter `source:` list already does that job.
 
-### 4.7 Quote Fidelity
+### 4.7 Image Sources
+
+When an article uses images that require attribution (CC-licensed, Wikimedia, etc.), credit them under a `## Image Sources` heading at the end of the article body. The `image-health` plugin checks for this section when `imageCredit`/`imageLicense`/`imageSource` appear in frontmatter.
+
+```markdown
+## Image Sources
+
+- Hero: La Tour tower at Victoria Beach. Photo by [photographer], [license].
+- Inline: Tide pools south of the tower, low tide. Wikimedia Commons, CC BY-SA 4.0.
+```
+
+This heading also tells the `image-alt` plugin to relax alt-text quality checks inside the section (alt text there is descriptive caption, not accessibility alt).
+
+### 4.8 Quote Fidelity
 
 Anything inside quotation marks must be a real person's, organization's, or document's exact words, and it must be traceable to something in `source:` or a footnote. If you found a fact described in a secondary source's own words and want to use the phrasing, attribute it as reported speech without quotation marks, or find the primary statement. Never invent a "local saying" or a plausible-sounding remark to make a paragraph feel more alive — an unverifiable quote is worse than no quote.
 
-### 4.8 Rationale Block (History: required; everywhere else: advisory)
+### 4.9 Rationale Block (History: required; everywhere else: advisory)
 
 Laguna Beach's History category covers contested ground — land taken from the Acjachemen and Tongva, development fights, the politics behind the greenbelt votes, who benefited and who didn't from the 1993 rebuild. For History articles, add a frontmatter `rationale` block with four keys (schema: [RATIONALE-SPEC.md](RATIONALE-SPEC.md)):
 
@@ -230,7 +243,8 @@ A one-line answer per key is fine — the plugin checks presence, not depth. For
 
 Standard English SEO conventions, not CJK-character math:
 
-- **Title**: ≤ 60 characters (Google SERP truncates around there). LagunaBeach.md titles are plain identifying names — `Victoria Beach`, `The Cliff Restaurant`, `Laguna Art Museum` — not colon-sandwich narrative hooks. The hook belongs in the description, not the title. Keep it that way; a fork-wide switch to hook-titles would be a bigger stylistic change than this localization should make unilaterally.
+- **Title**: ≤ 60 characters (Google SERP truncates around there; `frontmatter-title` WARN fires above 60). LagunaBeach.md titles are plain identifying names — `Victoria Beach`, `The Cliff Restaurant`, `Laguna Art Museum` — not colon-sandwich narrative hooks. The hook belongs in the description, not the title. Keep it that way; a fork-wide switch to hook-titles would be a bigger stylistic change than this localization should make unilaterally.
+- **Title puffery ban**: the following adjectives trigger a WARN in `frontmatter-title` because they're empty puffery that could describe any beach town: `iconic`, `legendary`, `world-class`, `must-see`, `hidden gem`, `ultimate`. Replace with specifics (a year, a number, a proper noun).
 - **Description**: 50-160 characters. This is the SERP snippet — open with a concrete detail, not "This article covers..." or the site's own name. Don't simply repeat the title.
 - One concrete anchor (a year or a number) in the description earns its space better than an adjective.
 
