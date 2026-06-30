@@ -1,80 +1,60 @@
-# Task: Horizon 0.6 — scripts/ English-only translation (Group 1)
-
-## What
-
-Translate Chinese comments, docstrings, and print strings to English in
-`scripts/tools/lang-sync/` (25 files, ~400 CJK lines). This is Group 1 of 8
-in ROADMAP.md §3.6 (Horizon 0.6).
+# Round 31 task — for implementer (2026-06-30) — ROADMAP Horizon 0.6 / Group 2
 
 ## Context
 
-The build pipeline is already fully English (scripts/core/ + build-path tools done
-2026-06-30). These remaining 163 files are developer tools not in the build path.
-They function correctly — the CJK is cosmetic (comments/docstrings), but the goal
-is a codebase readable by English-only contributors.
+Horizon 0.6 Group 1 (lang-sync/ 25 files) confirmed done. Group 2 is the
+article-health check plugins.
 
-## Method (from ROADMAP.md §3.6)
+## Task
 
-Per file:
+Translate Chinese comments/docstrings to English in `scripts/tools/lib/article_health/`
+(17 files, ~350 CJK lines). These are the quality-check plugins that run during
+`prebuild:dashboard` and `pre-commit`.
 
-1. **Read and understand** what the script does, its data dependencies, and whether
-   it's LB-relevant or Taiwan-only dead code.
-2. **Decide disposition:** translate / delete / keep-dormant.
-3. **Translate** comments, docstrings, print/log strings, argparse help, error
-   messages to English. Reground `taiwan.md` → `lagunabeach.md`, `哲宇`/`CheYu`
-   → generic terms where it's not an upstream credit.
-4. **Keep CJK** in regex patterns matching zh-TW content and in translation prompt
-   templates (those are the tool's function).
-5. **Verify** `python3 -c "import py_compile; py_compile.compile('<file>', doraise=True)"`
-   for each .py file after editing. `bash -n <file>` for .sh.
-
-Do NOT do mechanical dictionary substitution. Each file needs contextual reading.
-
-## Files (Group 1: lang-sync/)
+### Files
 
 ```
-scripts/tools/lang-sync/audit-quality.py
-scripts/tools/lang-sync/backends/__init__.py
-scripts/tools/lang-sync/backends/_base.py
-scripts/tools/lang-sync/backends/_prompt.py
-scripts/tools/lang-sync/backends/codex.py
-scripts/tools/lang-sync/backends/gemini.py
-scripts/tools/lang-sync/backends/ollama.py
-scripts/tools/lang-sync/backends/openrouter.py
-scripts/tools/lang-sync/backfill-frontmatter.py
-scripts/tools/lang-sync/backfill-source-body-hash.py
-scripts/tools/lang-sync/backfill-source-sha.py
-scripts/tools/lang-sync/bump-source-sha.py
-scripts/tools/lang-sync/codex-translate.py
-scripts/tools/lang-sync/compare-decomposition.sh
-scripts/tools/lang-sync/cross-lang-audit.py
-scripts/tools/lang-sync/diary-translate.py
-scripts/tools/lang-sync/diary-translation-audit.py
-scripts/tools/lang-sync/diff-patch-prepare.py
-scripts/tools/lang-sync/lang-renormalize.py
-scripts/tools/lang-sync/ollama-translate.py
-scripts/tools/lang-sync/openrouter-stress.sh
-scripts/tools/lang-sync/openrouter-translate.py
-scripts/tools/lang-sync/optimized-translate.py
-scripts/tools/lang-sync/prepare-batch.py
-scripts/tools/lang-sync/prioritize-batch.py
-scripts/tools/lang-sync/refresh.sh
-scripts/tools/lang-sync/slug-suggest.py
-scripts/tools/lang-sync/status.py (already done — verify only)
-scripts/tools/lang-sync/sync-on-update.py
-scripts/tools/lang-sync/translate.py
-scripts/tools/lang-sync/verify-batch.py
-scripts/tools/lang-sync/verify-translation.py
+scripts/tools/lib/article_health/__init__.py
+scripts/tools/lib/article_health/loader.py
+scripts/tools/lib/article_health/types.py
+scripts/tools/lib/article_health/checks/cjk_punct.py
+scripts/tools/lib/article_health/checks/correction_meta.py
+scripts/tools/lib/article_health/checks/cross_reference.py
+scripts/tools/lib/article_health/checks/footnote_density.py
+scripts/tools/lib/article_health/checks/footnote_format.py
+scripts/tools/lib/article_health/checks/footnote_url.py
+scripts/tools/lib/article_health/checks/frontmatter_title.py
+scripts/tools/lib/article_health/checks/image_alt.py
+scripts/tools/lib/article_health/checks/image_health.py
+scripts/tools/lib/article_health/checks/link_target.py
+scripts/tools/lib/article_health/checks/prose_health.py
+scripts/tools/lib/article_health/checks/rationale_presence.py
+scripts/tools/lib/article_health/checks/spore_writing.py
+scripts/tools/lib/article_health/checks/viz_health.py
+scripts/tools/lib/article_health/checks/wikilink_target.py
 ```
 
-## Verification
+### Key considerations
 
-- All .py files pass `py_compile`
-- All .sh files pass `bash -n`
-- `npm run prebuild` still green (these aren't in the build path, but sanity check)
-- Commit message: `refactor(de-taiwan): translate scripts/tools/lang-sync/ to English`
+- These plugins have `APPLIES_TO` fields. Some are `["zh-TW"]` only (cjk_punct,
+  spore_writing). Those are dormant on LB but kept per Horizon 0.4 decision.
+  Translate their comments anyway.
+- CJK in regex patterns that MATCH article content (Chinese heading patterns,
+  punctuation matchers, title puffery word lists) is KEEP. These are the tool's
+  detection logic for zh-TW articles.
+- `EDITORIAL_REF` strings that reference Chinese section names (like
+  `"SPORE-WRITING.md §進階寫作技術"`) are data pointers. KEEP if the referenced
+  file still uses that heading; translate if the heading was already translated.
 
-## After this group
+## Must-fix carried over
 
-Update ROADMAP.md: check off Group 1. Then seed this file with Group 2
-(article-health checks) for the next session.
+None.
+
+## Constraints
+
+- Do everything in THIS session. No subagents/agents.
+- Verify: `uvx --with pyyaml pytest tests/article_health -q` (229 tests must pass)
+- Verify: `python3 -c "import py_compile; ..."` for each edited .py
+- Build after: `npm run prebuild` green
+- Commit: `refactor(de-taiwan): translate article-health check plugins to English`
+- Report back in DONE / VERIFIED / DEFERRED 3-table format.
