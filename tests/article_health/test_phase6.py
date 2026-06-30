@@ -186,7 +186,7 @@ def test_inline_image_missing_file_hard(tmp_path, monkeypatch):
     body = "![alt](/article-images/nature/missing.jpg) 段落"
     target = load_target(_write_article(tmp_path, body))
     violations = list(image_health.check(target, {}))
-    assert any("不存在" in v.message for v in violations)
+    assert any("not found" in v.message for v in violations)
 
 
 def test_inline_image_existing_file_passes(tmp_path, monkeypatch):
@@ -197,7 +197,9 @@ def test_inline_image_existing_file_passes(tmp_path, monkeypatch):
     body = "![alt](/article-images/nature/owl.jpg) 段落"
     target = load_target(_write_article(tmp_path, body))
     violations = list(image_health.check(target, {}))
-    assert violations == []
+    # No HARD violations (file exists, no hot-link). INFO stat + min-count WARN are expected.
+    hard_violations = [v for v in violations if v.severity == Severity.HARD]
+    assert hard_violations == []
 
 
 def test_external_hotlink_flagged(tmp_path, monkeypatch):
@@ -205,7 +207,7 @@ def test_external_hotlink_flagged(tmp_path, monkeypatch):
     body = "![alt](https://example.com/external.jpg) 段落"
     target = load_target(_write_article(tmp_path, body))
     violations = list(image_health.check(target, {}))
-    assert any("熱連結" in v.message for v in violations)
+    assert any("hot-link" in v.message.lower() for v in violations)
 
 
 def test_wikimedia_external_allowed(tmp_path, monkeypatch):
@@ -213,8 +215,7 @@ def test_wikimedia_external_allowed(tmp_path, monkeypatch):
     body = "![alt](https://upload.wikimedia.org/file.jpg) 段落"
     target = load_target(_write_article(tmp_path, body))
     violations = list(image_health.check(target, {}))
-    # Allowed canonical CC source — no hot-link violation
-    hot_warns = [v for v in violations if "熱連結" in v.message]
+    hot_warns = [v for v in violations if "hot-link" in v.message.lower()]
     assert hot_warns == []
 
 
@@ -227,7 +228,7 @@ def test_frontmatter_image_missing_hard(tmp_path, monkeypatch):
         )
     )
     violations = list(image_health.check(target, {}))
-    assert any("frontmatter image" in v.message for v in violations)
+    assert any("Frontmatter image" in v.message for v in violations)
 
 
 def test_attribution_without_section_warn(tmp_path, monkeypatch):
@@ -248,7 +249,7 @@ def test_attribution_without_section_warn(tmp_path, monkeypatch):
         )
     )
     violations = list(image_health.check(target, {}))
-    assert any("圖片來源" in v.message for v in violations)
+    assert any("Image Sources" in v.message for v in violations)
 
 
 # ════════════════════════════════════════════════════════════════════════

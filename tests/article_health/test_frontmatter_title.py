@@ -1,7 +1,6 @@
-"""Tests for frontmatter_title plugin (SSOT Phase 3).
+"""Tests for frontmatter_title plugin.
 
-Mirror of `scripts/core/test-frontmatter.mjs::checkTitleFormat` behavior
-plus precedence semantics (per-violation severity > profile override).
+Covers both en and zh-TW paths (APPLIES_TO=["en","zh-TW"]).
 """
 
 from pathlib import Path
@@ -27,10 +26,6 @@ def _make_article(
         d = tmp_path / "knowledge" / category
     d.mkdir(parents=True, exist_ok=True)
     f = d / "test.md"
-    # Include subcategory: tests focus on title/length/punct rules — the
-    # 2026-05-04 subcategory HARD rule would fire on every fixture without
-    # this. Tests that target the subcategory rule itself override it
-    # explicitly via _make_article(... subcategory=None).
     f.write_text(
         f"---\ntitle: '{title}'\ndescription: '{description}'\nsubcategory: 'test-sub'\n---\n\nbody.\n",
         encoding="utf-8",
@@ -45,28 +40,26 @@ def _check(tmp_path: Path, title: str, category: str = "Nature", lang_dir: str =
 
 
 # ════════════════════════════════════════════════════════════════════════
-# HARD: half-width punct in CJK title
+# HARD: half-width punct in CJK title (zh-TW path; inert on en)
 # ════════════════════════════════════════════════════════════════════════
 
 
 def test_halfwidth_colon_between_cjk_is_hard(tmp_path):
-    violations = _check(tmp_path, "黃魚鴞:六公里溪流養一對")
+    violations = _check(tmp_path, "黃魚鴞:六公里溪流養一對", lang_dir="zh-TW")
     hard = [v for v in violations if v.severity == Severity.HARD]
     assert len(hard) >= 1
     assert any("：" in (v.fix_suggestion or "") for v in hard)
 
 
 def test_halfwidth_comma_cjk_to_digit_is_hard(tmp_path):
-    """`對,1800` (CJK→digit) — HARD violation."""
-    violations = _check(tmp_path, "六公里養一對,1800 公尺")
+    violations = _check(tmp_path, "六公里養一對,1800 公尺", lang_dir="zh-TW")
     hard = [v for v in violations if v.severity == Severity.HARD]
     assert len(hard) >= 1
     assert any("，" in (v.fix_suggestion or "") for v in hard)
 
 
 def test_intra_number_comma_not_flagged(tmp_path):
-    """`1,800` digit-comma-digit not flagged — both sides digits."""
-    violations = _check(tmp_path, "海拔 1,800 公尺烏心石")
+    violations = _check(tmp_path, "海拔 1,800 公尺烏心石", lang_dir="zh-TW")
     hard = [v for v in violations if v.severity == Severity.HARD]
     assert hard == []
 
@@ -77,95 +70,142 @@ def test_english_comma_not_flagged(tmp_path):
     assert hard == []
 
 
+def test_halfwidth_punct_inert_on_en(tmp_path):
+    """CJK lookbehind means halfwidth punct check is inert on en articles."""
+    violations = _check(tmp_path, "Hello: World")
+    hard = [v for v in violations if v.severity == Severity.HARD and "Half-width" in v.message]
+    assert hard == []
+
+
 # ════════════════════════════════════════════════════════════════════════
-# WARN: vague adjectives (EDITORIAL §原則 3)
+# WARN: vague adjectives — zh-TW
 # ════════════════════════════════════════════════════════════════════════
 
 
-@pytest.mark.parametrize("adj", ["傳奇", "偉大", "優秀", "最強", "國民", "天后"])
-def test_vague_adjective_is_warn(tmp_path, adj):
-    violations = _check(tmp_path, f"{adj}的故事和台灣味道")
+@pytest.mark.parametrize("adj", ["傳奇", "偉大", "優秀", "最強", "天后"])
+def test_vague_adjective_zh_is_warn(tmp_path, adj):
+    violations = _check(tmp_path, f"{adj}的故事和台灣味道", lang_dir="zh-TW")
     warns = [v for v in violations if v.severity == Severity.WARN and adj in v.message]
     assert len(warns) == 1
 
 
-def test_unlisted_word_not_flagged(tmp_path):
-    """『神話』『不朽』不在 canonical 清單，不算 vague adjective."""
-    violations = _check(tmp_path, "原住民神話之夜歌與祭典", category="Culture")
+def test_unlisted_word_not_flagged_zh(tmp_path):
+    violations = _check(tmp_path, "原住民神話之夜歌與祭典", category="Culture", lang_dir="zh-TW")
     vague_warns = [v for v in violations if "空泛形容詞" in v.message]
     assert vague_warns == []
 
 
 # ════════════════════════════════════════════════════════════════════════
-# WARN: People colon-sandwich (EDITORIAL §原則 5)
+# WARN: vague adjectives — en
+# ════════════════════════════════════════════════════════════════════════
+
+
+@pytest.mark.parametrize("adj", ["iconic", "legendary", "world-class", "must-see", "hidden gem", "ultimate"])
+def test_vague_adjective_en_is_warn(tmp_path, adj):
+    violations = _check(tmp_path, f"The {adj} Laguna Beach Guide")
+    warns = [v for v in violations if v.severity == Severity.WARN and "puffery" in v.message]
+    assert len(warns) == 1
+
+
+def test_vague_adjective_en_case_insensitive(tmp_path):
+    violations = _check(tmp_path, "The ICONIC Tower at Victoria Beach")
+    warns = [v for v in violations if v.severity == Severity.WARN and "puffery" in v.message]
+    assert len(warns) == 1
+
+
+def test_clean_en_title_no_vague_warn(tmp_path):
+    violations = _check(tmp_path, "Victoria Beach")
+    warns = [v for v in violations if v.severity == Severity.WARN and "puffery" in v.message]
+    assert warns == []
+
+
+# ════════════════════════════════════════════════════════════════════════
+# WARN: People colon-sandwich (zh-TW only)
 # ════════════════════════════════════════════════════════════════════════
 
 
 def test_people_without_colon_warns(tmp_path):
-    violations = _check(tmp_path, "周杰倫", category="People")
-    warns = [v for v in violations if "冒號三明治" in v.message]
+    violations = _check(tmp_path, "周杰倫", category="People", lang_dir="zh-TW")
+    warns = [v for v in violations if "colon-sandwich" in v.message]
     assert len(warns) == 1
 
 
 def test_people_with_colon_and_long_subtitle_passes(tmp_path):
     title = "周杰倫：從 4 in Love 隔壁練團室到不能說的祕密的二十五年"
-    violations = _check(tmp_path, title, category="People")
-    # Should not warn about colon sandwich or short subtitle
+    violations = _check(tmp_path, title, category="People", lang_dir="zh-TW")
     relevant = [
         v for v in violations
-        if "冒號三明治" in v.message or "敘述太短" in v.message
+        if "colon-sandwich" in v.message or "too short" in v.message
     ]
     assert relevant == []
 
 
 def test_people_short_subtitle_warns(tmp_path):
-    """副標 weight < 8 — `太短` warn."""
-    violations = _check(tmp_path, "周杰倫：歌手", category="People")
-    warns = [v for v in violations if "太短" in v.message]
+    violations = _check(tmp_path, "周杰倫：歌手", category="People", lang_dir="zh-TW")
+    warns = [v for v in violations if "too short" in v.message]
     assert len(warns) == 1
 
 
 def test_non_people_without_colon_no_colon_warn(tmp_path):
-    """Nature article without colon shouldn't trigger People-only rule."""
-    violations = _check(tmp_path, "黃魚鴞", category="Nature")
-    warns = [v for v in violations if "冒號三明治" in v.message]
+    violations = _check(tmp_path, "黃魚鴞", category="Nature", lang_dir="zh-TW")
+    warns = [v for v in violations if "colon-sandwich" in v.message]
+    assert warns == []
+
+
+def test_people_colon_not_checked_for_en(tmp_path):
+    """People colon sandwich is zh-TW convention only; en is exempt."""
+    violations = _check(tmp_path, "John Smith", category="People")
+    warns = [v for v in violations if "colon-sandwich" in v.message]
     assert warns == []
 
 
 # ════════════════════════════════════════════════════════════════════════
-# WARN: title length
+# WARN: title length — zh-TW (effective > 45) and en (raw > 60)
 # ════════════════════════════════════════════════════════════════════════
 
 
-def test_long_title_warns(tmp_path):
-    # > 35 effective chars: each CJK = 1, so 36 CJK chars triggers
-    long_title = "黃魚鴞甲乙丙丁戊己庚辛壬癸子丑寅卯辰巳午未申酉戌亥東南西北春夏秋冬山水火木"
+def test_long_title_zh_warns(tmp_path):
+    # 46 CJK chars → effective 46 > 45 threshold
+    long_title = "黃魚鴞甲乙丙丁戊己庚辛壬癸子丑寅卯辰巳午未申酉戌亥東南西北春夏秋冬山水火木金土風雲雨雪霜天地"
+    violations = _check(tmp_path, long_title, lang_dir="zh-TW")
+    warns = [v for v in violations if "過長" in v.message]
+    assert len(warns) == 1
+
+
+def test_normal_title_zh_passes_length(tmp_path):
+    violations = _check(tmp_path, "黃魚鴞：六公里溪流養一對的夜行猛禽", lang_dir="zh-TW")
+    warns = [v for v in violations if "過長" in v.message]
+    assert warns == []
+
+
+def test_long_title_en_warns(tmp_path):
+    # 61 chars > 60 threshold
+    long_title = "A" * 61
     violations = _check(tmp_path, long_title)
-    warns = [v for v in violations if "過長" in v.message]
-    assert len(warns) == 1, f"len={len(long_title)}, weight should be > 35, got {len(warns)} warns"
+    warns = [v for v in violations if "too long" in v.message.lower()]
+    assert len(warns) == 1
 
 
-def test_normal_title_passes_length(tmp_path):
-    violations = _check(tmp_path, "黃魚鴞：六公里溪流養一對的夜行猛禽")
-    warns = [v for v in violations if "過長" in v.message]
+def test_normal_title_en_passes_length(tmp_path):
+    violations = _check(tmp_path, "Victoria Beach")
+    warns = [v for v in violations if "too long" in v.message.lower()]
     assert warns == []
 
 
 # ════════════════════════════════════════════════════════════════════════
-# Lang filter: APPLIES_TO=zh-TW
+# Lang filter: APPLIES_TO=["en","zh-TW"] — translations skipped
 # ════════════════════════════════════════════════════════════════════════
 
 
 def test_translation_files_skipped_at_runner_level(tmp_path):
-    """Translations don't run this plugin (APPLIES_TO filter at runner)."""
+    """Non-en/zh-TW translations don't run this plugin (APPLIES_TO filter)."""
     from lib.article_health import config as cfg_mod
     from lib.article_health.runner import run_checks
 
-    f = _make_article(tmp_path, "Some English Title!", lang_dir="en")
+    f = _make_article(tmp_path, "Some Japanese Title!", lang_dir="ja")
     target = load_target(f)
     cfg = cfg_mod.Config()
     report = run_checks(target, cfg, check_name="frontmatter-title")
-    # Plugin not selected for en lang
     assert report.results == []
 
 
@@ -176,8 +216,8 @@ def test_translation_files_skipped_at_runner_level(tmp_path):
 
 def test_mixed_severities_in_one_check(tmp_path):
     """A title with BOTH halfwidth punct AND vague adjective should yield
-    one HARD + one WARN violation."""
-    violations = _check(tmp_path, "傳奇:故事與台灣")
+    one HARD + one WARN violation (zh-TW)."""
+    violations = _check(tmp_path, "傳奇:故事與台灣", lang_dir="zh-TW")
     hard = [v for v in violations if v.severity == Severity.HARD]
     warn = [v for v in violations if v.severity == Severity.WARN]
     assert len(hard) >= 1  # halfwidth :
@@ -190,7 +230,7 @@ def test_runner_preserves_per_violation_hard(tmp_path):
     from lib.article_health import config as cfg_mod
     from lib.article_health.runner import run_checks
 
-    f = _make_article(tmp_path, "黃魚鴞:六公里")
+    f = _make_article(tmp_path, "黃魚鴞:六公里", lang_dir="zh-TW")
     target = load_target(f)
     cfg = cfg_mod.Config()
     cfg.profiles["test"] = cfg_mod.ProfileConfig(
@@ -199,7 +239,6 @@ def test_runner_preserves_per_violation_hard(tmp_path):
         severity_overrides={"frontmatter-title": Severity.WARN},
     )
     report = run_checks(target, cfg, profile_name="test")
-    # halfwidth punct violation must STILL be HARD even with profile WARN override
     hard_violations = [v for r in report.results for v in r.violations if v.severity == Severity.HARD]
     assert len(hard_violations) >= 1, "halfwidth punct HARD must survive profile override"
 
@@ -212,7 +251,7 @@ def test_runner_preserves_per_violation_hard(tmp_path):
 def test_plugin_metadata():
     assert frontmatter_title.CHECK_NAME == "frontmatter-title"
     assert frontmatter_title.DEFAULT_SEVERITY == Severity.WARN
-    assert "Title" in frontmatter_title.EDITORIAL_REF
+    assert "en" in frontmatter_title.APPLIES_TO
     assert "zh-TW" in frontmatter_title.APPLIES_TO
     assert callable(frontmatter_title.check)
 
@@ -224,12 +263,15 @@ def test_plugin_registered():
 
 
 # ════════════════════════════════════════════════════════════════════════
-# Subcategory HARD (2026-05-04 user request)
+# Subcategory HARD (both en and zh-TW)
 # ════════════════════════════════════════════════════════════════════════
 
 
-def _make_article_no_subcategory(tmp_path: Path, title: str, category: str) -> Path:
-    d = tmp_path / "knowledge" / category
+def _make_article_no_subcategory(tmp_path: Path, title: str, category: str, lang_dir: str = "") -> Path:
+    if lang_dir:
+        d = tmp_path / "knowledge" / lang_dir / category
+    else:
+        d = tmp_path / "knowledge" / category
     d.mkdir(parents=True, exist_ok=True)
     f = d / "test.md"
     f.write_text(
@@ -240,37 +282,41 @@ def _make_article_no_subcategory(tmp_path: Path, title: str, category: str) -> P
 
 
 def test_missing_subcategory_is_hard(tmp_path):
-    f = _make_article_no_subcategory(tmp_path, "黃魚鴞：六公里溪流養一對", "Nature")
+    f = _make_article_no_subcategory(tmp_path, "Victoria Beach", "Beaches")
     target = load_target(f)
     violations = list(frontmatter_title.check(target, {}))
     sub_hard = [
         v for v in violations
         if v.severity == Severity.HARD and "subcategory" in v.message
     ]
-    assert len(sub_hard) == 1, (
-        f"Expected 1 HARD subcategory violation, got {len(sub_hard)}: "
-        f"{[v.message for v in violations]}"
-    )
+    assert len(sub_hard) == 1
+
+
+def test_missing_subcategory_zh_is_hard(tmp_path):
+    f = _make_article_no_subcategory(tmp_path, "黃魚鴞：六公里溪流養一對", "Nature", lang_dir="zh-TW")
+    target = load_target(f)
+    violations = list(frontmatter_title.check(target, {}))
+    sub_hard = [
+        v for v in violations
+        if v.severity == Severity.HARD and "subcategory" in v.message
+    ]
+    assert len(sub_hard) == 1
 
 
 def test_about_category_subcategory_exempt(tmp_path):
-    """About 分類沒有 subcategory 概念，免檢查。"""
-    f = _make_article_no_subcategory(tmp_path, "緣起故事", "About")
+    f = _make_article_no_subcategory(tmp_path, "About LagunaBeach.md", "About")
     target = load_target(f)
     violations = list(frontmatter_title.check(target, {}))
     sub_violations = [v for v in violations if "subcategory" in v.message]
-    assert sub_violations == [], (
-        f"About category should not require subcategory, got: {sub_violations}"
-    )
+    assert sub_violations == []
 
 
 def test_present_subcategory_passes(tmp_path):
-    """Article with valid subcategory should not yield subcategory violation."""
-    d = tmp_path / "knowledge" / "Nature"
+    d = tmp_path / "knowledge" / "Beaches"
     d.mkdir(parents=True)
     f = d / "test.md"
     f.write_text(
-        "---\ntitle: '黃魚鴞：六公里溪流養一對'\ndescription: 'desc'\nsubcategory: '野生動物'\n---\n\nbody.\n",
+        "---\ntitle: 'Victoria Beach'\ndescription: 'desc'\nsubcategory: 'South Laguna'\n---\n\nbody.\n",
         encoding="utf-8",
     )
     target = load_target(f)
