@@ -21,7 +21,7 @@ Layer map:
   - src/content/*.md sporeLinks         = mirror of knowledge (gitignored projection)
 
 Entry shape (v2 — immutable identity, no metrics):
-  - id:       <spore #>                  ← SPORE-LOG 發文紀錄 row number
+  - id:       <spore #>                  <- SPORE-LOG post record row number
   - platform: 'threads' | 'x'
   - date:     'YYYY-MM-DD'
   - url:      '<canonical URL>'
@@ -78,7 +78,7 @@ def parse_publication_table():
     """Identity rows from spore-log.json (v2.1, 2026-06-10 JSON SSOT flip).
 
     Keeps the v1 row shape {n, date, lang, platform, slug, url} so the rest of
-    this script is untouched. SPORE-LOG.md 發文紀錄 is frozen history —
+    this script is untouched. SPORE-LOG.md post record is frozen history —
     new spores enter via `spore-db.py add-spore`.
     """
     if not SPORE_LOG_JSON.exists():
@@ -86,7 +86,7 @@ def parse_publication_table():
     data = json.loads(SPORE_LOG_JSON.read_text(encoding="utf-8"))
     rows = []
     for s in data.get("spores", []):
-        if s.get("deleted"):  # 已刪除孢子不寫進文章 sporeLinks（避免死連結）
+        if s.get("deleted"):  # Deleted spores not written to article sporeLinks (avoid dead links)
             continue
         rows.append({
             "n": s["id"],
