@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "@taiwan-md/harvest-ui",
+      "name": "@lagunabeach-md/harvest-ui",
       "dependencies": {
         "@astrojs/solid-js": "^5.0.4",
         "@astrojs/tailwind": "^6.0.2",

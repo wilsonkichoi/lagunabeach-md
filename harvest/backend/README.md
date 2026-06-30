@@ -212,7 +212,7 @@ bash /path/to/lagunabeach-md/harvest/backend/tmux/start.sh
 
 ```bash
 # Server logs (tmux pipe-pane captures stdout/stderr)
-tail -f ~/Library/Logs/taiwan-md-harvest/tmux.log
+tail -f ~/Library/Logs/lagunabeach-md-harvest/tmux.log
 
 # Live attach (sees actual pino pretty output in real time, ctrl+b d to detach)
 bash harvest/backend/tmux/attach.sh

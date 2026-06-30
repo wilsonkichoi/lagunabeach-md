@@ -1,7 +1,7 @@
 {
-  "name": "@taiwan-md/harvest-backend",
+  "name": "@lagunabeach-md/harvest-backend",
   "version": "0.1.0",
-  "description": "Taiwan.md Harvest Engine — orchestrator backend that spawns Claude Code sessions for autonomous Semiont work.",
+  "description": "Harvest Engine — orchestrator backend that spawns Claude Code sessions for autonomous Semiont work.",
   "private": true,
   "type": "module",
   "scripts": {
