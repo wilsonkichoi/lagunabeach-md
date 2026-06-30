@@ -35,5 +35,5 @@ print(f'  total: {data[\"count\"]}')
 echo ""
 echo "━━━ commands ━━━"
 echo "  attach: tmux attach -t $SESSION (ctrl+b d to detach)"
-echo "  logs:   tail -f ~/Library/Logs/taiwan-md-harvest/tmux.log"
+echo "  logs:   tail -f ~/Library/Logs/lagunabeach-md-harvest/tmux.log"
 echo "  stop:   bash $(dirname "$0")/stop.sh"

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Start Taiwan.md Harvest backend in a detached tmux session.
+# Start Harvest backend in a detached tmux session.
 #
 # Why tmux instead of launchd: spawned `claude` CLI needs macOS Keychain
 # access for OAuth subscription auth. launchd-managed processes run in a
@@ -13,13 +13,13 @@
 #   bash stop.sh          # kill the session
 #
 # Auto-start at login (optional): add to ~/.zprofile or ~/.zshrc:
-#   bash /Users/cheyuwu/Projects/taiwan-md/docs/semiont/harvest/backend/tmux/start.sh
+#   bash harvest/backend/tmux/start.sh
 
 set -euo pipefail
 
 SESSION="harvest"
-BACKEND_DIR="/Users/cheyuwu/Projects/taiwan-md/docs/semiont/harvest/backend"
-LOG_DIR="$HOME/Library/Logs/taiwan-md-harvest"
+BACKEND_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+LOG_DIR="$HOME/Library/Logs/lagunabeach-md-harvest"
 
 mkdir -p "$LOG_DIR"
 
@@ -53,7 +53,7 @@ tmux new-session -d -s "$SESSION" -c "$BACKEND_DIR"
 tmux pipe-pane -t "$SESSION" "cat >> '$LOG_DIR/tmux.log'"
 
 # Send the run command
-tmux send-keys -t "$SESSION" "echo '🧬 Taiwan.md Harvest — tmux start at $(date)'" C-m
+tmux send-keys -t "$SESSION" "echo '🧬 Harvest engine — tmux start at $(date)'" C-m
 tmux send-keys -t "$SESSION" "export HARVEST_LOG_PRETTY=true HARVEST_LOG_LEVEL=info HARVEST_AUTO_COMMIT_REPORT=true" C-m
 tmux send-keys -t "$SESSION" "bun run src/server.ts" C-m
 
