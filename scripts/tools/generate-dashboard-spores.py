@@ -2,19 +2,19 @@
 """
 generate-dashboard-spores.py — spore-log.json + spore-metrics.json → public/api/dashboard-spores.json
 
-v2 (2026-06-10 JSON SSOT 翻轉, reports/spore-json-ssot-2026-06-10.md)：輸入改讀
-docs/factory/spore-log.json（identity）+ spore-metrics.json（metric 事件），
-產出 Dashboard 繁殖系統 section 所需的結構化資料。compute 層不變。
-（檔內 markdown parser 函式保留：bootstrap-spore-ssot.py 災難重建時 import 用。）
+v2 (2026-06-10 JSON SSOT flip, reports/spore-json-ssot-2026-06-10.md): input changed to
+docs/factory/spore-log.json (identity) + spore-metrics.json (metric events),
+outputs structured data for Dashboard reproduction-system section. Compute layer unchanged.
+(In-file markdown parser functions retained: bootstrap-spore-ssot.py imports them for disaster recovery.)
 
-對應計畫：reports/dashboard-spore-section-plan-2026-04-18.md（Phase 1 data layer）
-整合入口：scripts/tools/refresh-data.sh Phase 2.8
+Plan: reports/dashboard-spore-section-plan-2026-04-18.md (Phase 1 data layer)
+Entry: scripts/tools/refresh-data.sh Phase 2.8
 
-JSON 結構見 reports plan §1.2（8 top-level keys）：
+JSON structure per reports plan §1.2 (8 top-level keys):
   lastUpdated / totals / recent / topPerformers / amplification /
   platformComparison / backfillWarnings / weeklyPulse
 
-v1.0 — 2026-04-18 δ-late session | SPORE-HARVEST-PIPELINE v1.0 配套
+v1.0 — 2026-04-18 δ-late session | SPORE-HARVEST-PIPELINE v1.0 companion
 """
 from __future__ import annotations
 
@@ -34,10 +34,10 @@ TARGET = REPO_ROOT / "public" / "api" / "dashboard-spores.json"
 TPE = timezone(timedelta(hours=8))
 
 
-# ───────────────────────────────── markdown table 解析 ─────────────────────────────────
+# ─ markdown table parsing ─
 
 def split_tables(md_text):
-    """Split markdown into the two tables: '發文紀錄' + '成效追蹤'."""
+    """Split markdown into the two tables: 'post log' + 'performance tracking'."""
     lines = md_text.splitlines()
     sections = {}
     cur_section = None
@@ -140,7 +140,7 @@ def parse_publish_rows(raw_rows):
     """Normalize publish-table rows to spore entries."""
     entries = []
     for row in raw_rows:
-        # Header keys may vary: ['#', '日期', '語言', '平台', '文章 slug', '分類', '模板', 'URL']
+        # Header keys may vary (matches actual SPORE-LOG table headers)
         n_str = clean_cell(row.get("#", ""))
         if not n_str or not n_str.isdigit():
             continue
@@ -158,7 +158,7 @@ def parse_publish_rows(raw_rows):
         }
         url_cell = row.get("URL", "")
         if url_cell and "—" in url_cell:
-            # Remaining text after the hyperlink is "備註"/"highlight"
+            # Remaining text after the hyperlink is notes/highlight
             after_link = re.sub(r"\[→\]\([^)]+\)", "", url_cell).split("—", 1)[-1].strip()
             entry["highlight"] = after_link or None
         entries.append(entry)
@@ -166,12 +166,12 @@ def parse_publish_rows(raw_rows):
 
 
 def parse_latest_views_from_harvest(harvest_text):
-    """Scan '最後 harvest' text for the FIRST 'N views' pattern (= latest harvest).
+    """Scan 'latest harvest' text for the FIRST 'N views' pattern (= latest harvest).
 
-    Format examples produced by harvest write-back（clean_cell 已 strip ** markers）：
+    Format examples produced by harvest write-back (clean_cell strips ** markers):
       'D+3 ~3.8d backfill (...)：24,435 views / 1,417♥ / 345🔁'
       'D+7 backfill (...)：65.4K views / 1K♥ / 23🔁'  (K-suffix variant)
-      'D+0 ~30min 首抓 (...)：40 views / 3♥ / 1🔁'
+      'D+0 ~30min first harvest (...)：40 views / 3♥ / 1🔁'
       'D+5 backfill (...)：12.7K views / 1.1K♥ / 110🔁'
 
     Multiple D+N stacks: latest harvest is at the TOP (we prepend new harvests
@@ -219,8 +219,8 @@ def parse_metrics_rows(raw_rows):
         engagements = parse_number(engagements_7d_cell)
         rate = round(engagements / views * 100, 2) if (views and engagements) else None
 
-        # 2026-04-26 ε bug fix: parse "最後 harvest" rich text for latest views.
-        # Recent spores (#41-#46) have "—（待 D+7）" in 7d 觸及 cell, but harvest
+        # 2026-04-26 bug fix: parse latest-harvest rich text for latest views.
+        # Recent spores (#41-#46) have pending marker in 7d-reach cell, but harvest
         # column has D+0/D+3 numbers like '**24,435 views**'. weeklyPulse / topPerformers
         # were showing 0 for current week. Fallback to views_latest when views_7d is None.
         views_latest = parse_latest_views_from_harvest(harvest_cell)
@@ -653,18 +653,18 @@ def compute_amplification(entries):
 def compute_backfill_warnings(entries, today_iso=None):
     """Flag spores published >= 7 days ago without 7d metrics.
 
-    v1.1 (2026-04-18 δ-late): 明確排除以下三類不算 warning：
-    - 待發（platform 空白 / 不在 threads/x 清單）→ 尚未發布，不需 backfill
-    - 歷史無 URL（#1/#2/#3/#12 SPORE-LOG 早期缺 URL）→ 無法 harvest，搬到
-      no_url_historical 分類讓 dashboard 分開顯示
-    - 已 backfilled（有 views_7d 或 engagements_7d）→ 不算 warning
+    v1.1 (2026-04-18): explicitly excludes 3 types from warnings:
+    - Not posted (blank platform / not in threads/x list) -> not yet published, no backfill needed
+    - Historical no-URL (#1/#2/#3/#12 early SPORE-LOG missing URL) -> cannot harvest, moved to
+      no_url_historical category for dashboard to display separately
+    - Already backfilled (has views_7d or engagements_7d) -> not a warning
 
-    v1.2 (2026-04-20 γ): 再排除「已撤回」孢子（article 含 `已撤回` / `撤回` / `withdrawn`）。
-    觸發：#28 李洋（事實錯誤撤回）連續 6 天當 waiting 顯示，dashboard 噪音。
+    v1.2 (2026-04-20): also excludes withdrawn spores (article contains withdrawn markers).
+    Trigger: #28 (factual-error withdrawal) showed as waiting for 6 days straight, dashboard noise.
 
-    v1.3 (2026-05-19): 再排除「未發布」孢子（article 含 `未發布` / `not_posted` / `NOT_POSTED`）。
-    觸發：#71 X drone 連 6 cycle mismatch — URL clerical 誤植 + X 版實際未發布，造成 routine 在錯 row 空轉一週。
-    語意區隔：「未發布」= 從沒發出，「已撤回」= 發了又收回；exclusion 效果相同但 audit trail 分離。
+    v1.3 (2026-05-19): also excludes not-posted spores (article contains not_posted markers).
+    Trigger: #71 X drone 6-cycle mismatch — URL clerical error + X version never actually posted, caused routine to spin on wrong row for a week.
+    Semantic separation: not-posted = never sent; withdrawn = sent then recalled; exclusion effect same but audit trail separate.
     """
     withdrawn_markers = ("已撤回", "撤回", "withdrawn", "未發布", "not_posted", "NOT_POSTED")
     if today_iso:
@@ -682,21 +682,21 @@ def compute_backfill_warnings(entries, today_iso=None):
             continue
         days_ago = (today_dt - pub_date).days
 
-        # 待發（platform 空白 / 非 threads/x）→ 不算 warning
+        # Not posted (blank platform / not threads/x) -> not a warning
         platform = (e.get("platform") or "").lower()
         if platform not in ("threads", "x"):
             continue
 
-        # 已 backfilled → 不算 warning
+        # Already backfilled -> not a warning
         if e.get("views_7d") or e.get("engagements_7d"):
             continue
 
-        # 已撤回 → 不算 warning（v1.2）
+        # Withdrawn -> not a warning (v1.2)
         article = e.get("article") or ""
         if any(m in article for m in withdrawn_markers):
             continue
 
-        # 歷史無 URL → 搬到 no_url_historical（不算 OVERDUE）
+        # Historical no-URL -> moved to no_url_historical (not OVERDUE)
         if not e.get("url"):
             no_url_historical.append({
                 "n": e["n"],
@@ -740,7 +740,7 @@ def compute_weekly_pulse(entries, weeks=8):
     for k in reversed(keys_sorted):
         items = bucket[k]
         # 2026-04-26 ε bug fix: use views_effective (7d || latest harvest D+N fallback)
-        # 原本只看 views_7d → 本週新 spore 沒到 D+7 都顯示 0。views_effective 兼容兩者。
+        # Previously only checked views_7d -> new spores before D+7 all showed 0. views_effective handles both.
         views = [i.get("views_effective") for i in items if i.get("views_effective")]
         out.append({
             "week": k,
@@ -787,7 +787,7 @@ def load_publishes_json():
     data = json.loads(SPORE_LOG_JSON.read_text(encoding="utf-8"))
     entries = []
     for s in data["spores"]:
-        if s.get("deleted"):  # 已刪除孢子不進 dashboard（spore-log SSOT 仍保留）
+        if s.get("deleted"):  # Deleted spores excluded from dashboard (spore-log SSOT still retained)
             continue
         entries.append({
             "n": s["id"],
@@ -832,12 +832,12 @@ def load_harvest_map_json():
 def main():
     if not SPORE_LOG_JSON.exists() or not SPORE_METRICS_JSON.exists():
         sys.stderr.write(
-            "❌ spore-log.json / spore-metrics.json 缺檔 — "
+            "❌ spore-log.json / spore-metrics.json missing — "
             "見 reports/spore-json-ssot-2026-06-10.md\n")
         sys.exit(1)
 
     publishes = load_publishes_json()
-    metrics = {}  # 成效追蹤 retired (Phase 6 deprecated → 2026-06-10 frozen)
+    metrics = {}  # performance tracking retired (Phase 6 deprecated -> 2026-06-10 frozen)
     harvest_map = load_harvest_map_json()
     entries = merge_publish_and_metrics(publishes, metrics, harvest_map)
 
