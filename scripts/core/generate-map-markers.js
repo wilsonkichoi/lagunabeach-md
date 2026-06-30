@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 
 console.log('🗺️ LagunaBeach.md Map Marker Generation Script');
 
-// 讀取 geocode 對照表
+// Read geocode lookup table
 const geocodeData = JSON.parse(
   fs.readFileSync(
     path.join(__dirname, '../../src/data/laguna-beach-geocode.json'),
@@ -18,7 +18,7 @@ const geocodeData = JSON.parse(
 );
 const { neighborhoods, landmarks } = geocodeData;
 
-// 解析 frontmatter
+// Parse frontmatter
 function parseFrontmatter(content) {
   const match = content.match(/^---\n([\s\S]*?)\n---/);
   if (!match) return {};
@@ -62,7 +62,7 @@ function inferCategoryFromFilename(filename) {
   return 'history';
 }
 
-/** knowledge/ 底下第一層若為語系目錄則略過，避免把 ja/en 誤當分類 */
+/** Skip first-level language directories under knowledge/ to avoid treating ja/en as categories */
 const KNOWLEDGE_LOCALE_DIRS = new Set(['en', 'ja', 'ko', 'zh-TW', 'es']);
 
 function getArticleLang(filePath) {
@@ -83,7 +83,7 @@ function buildArticleLink(filePath, category) {
   return `/${lang}/${category}/${slug}`;
 }
 
-// 從路徑推導分類
+// Derive category from path
 function getCategoryFromPath(filePath) {
   const pathParts = filePath.split(/[/\\]/);
   const categoryIndex = pathParts.findIndex((part) => part === 'knowledge');
@@ -101,9 +101,9 @@ function getCategoryFromPath(filePath) {
       return inferCategoryFromFilename(path.basename(filePath, '.md'));
     }
     const category = pathParts[i];
-    // 如果下一個 part 就是 .md 檔案（根目錄文件），不是分類目錄
+    // If next part is a .md file (root-level document), not a category dir
     if (category.endsWith('.md')) {
-      // 從 frontmatter 或檔名推測
+      // Infer from frontmatter or filename
       return inferCategoryFromFilename(path.basename(filePath, '.md'));
     }
     const categoryMap = {
@@ -126,29 +126,29 @@ function getCategoryFromPath(filePath) {
   return inferCategoryFromFilename(filename);
 }
 
-// 地點匹配和評分
+// Location matching and scoring
 function matchLocations(title, content) {
   const matches = [];
   const titleLower = title.toLowerCase();
   const contentLower = content.toLowerCase();
 
-  // 優先匹配地標（精確位置）
+  // Prioritize landmark matches (precise locations)
   for (const [landmarkName, landmarkData] of Object.entries(landmarks)) {
     let score = 0;
 
-    // 標題匹配 (最高分) — 標題含地標名幾乎確定相關
+    // Title match (highest score) — title containing landmark name is almost certainly relevant
     if (title.includes(landmarkName)) score += 100;
 
-    // 內容匹配 — 需要多次提及才算（1 次可能只是順帶提到）
+    // Content match — requires multiple mentions (1 might be incidental)
     const contentMatches = (content.match(new RegExp(landmarkName, 'g')) || [])
       .length;
     if (contentMatches >= 3) {
       score += contentMatches * 15;
     } else if (contentMatches >= 1) {
-      score += contentMatches * 5; // 少量提及低分
+      score += contentMatches * 5; // low score for few mentions
     }
 
-    // 門檻：標題匹配或內容至少出現 3 次
+    // Threshold: title match or content appears at least 3 times
     if (score >= 45) {
       matches.push({
         name: landmarkName,
@@ -182,12 +182,12 @@ function matchLocations(title, content) {
     }
   }
 
-  // 按分數排序，取前3個
+  // Sort by score, take top 3
   matches.sort((a, b) => b.score - a.score);
   return matches.slice(0, 3);
 }
 
-// 加入jitter避免重疊
+// Add jitter to avoid overlap
 function addJitter(lat, lng, existingMarkers, city) {
   const sameLocationMarkers = existingMarkers.filter(
     (m) =>
@@ -200,7 +200,7 @@ function addJitter(lat, lng, existingMarkers, city) {
     return { lat, lng };
   }
 
-  // ±0.008 度隨機偏移 (約800公尺)
+  // +/- 0.008 degrees random offset (~800m)
   const jitterRange = 0.008;
   const jitterLat = lat + (Math.random() - 0.5) * jitterRange * 2;
   const jitterLng = lng + (Math.random() - 0.5) * jitterRange * 2;
@@ -208,11 +208,11 @@ function addJitter(lat, lng, existingMarkers, city) {
   return { lat: jitterLat, lng: jitterLng };
 }
 
-// 主函數
+// Main function
 function generateMarkers() {
-  console.log('📂 掃描 knowledge/ 目錄...');
+  console.log('📂 Scanning knowledge/ directory...');
 
-  // 遞迴讀取所有 .md 檔案
+  // Recursively read all .md files
   function getAllMarkdownFiles(dir) {
     const files = [];
 
@@ -224,7 +224,7 @@ function generateMarkers() {
         const stat = fs.statSync(fullPath);
 
         if (stat.isDirectory()) {
-          // 排除特殊目錄（納入 en/ 以產生英文 markers）
+          // Exclude special dirs (include en/ to generate English markers)
           if (!entry.startsWith('_') && entry !== 'about') {
             walkDirectory(fullPath);
           }
@@ -245,10 +245,10 @@ function generateMarkers() {
   const knowledgeDir = path.join(__dirname, '../../knowledge');
   const markdownFiles = getAllMarkdownFiles(knowledgeDir);
 
-  console.log(`📄 找到 ${markdownFiles.length} 個 markdown 檔案`);
+  console.log(`📄 Found ${markdownFiles.length} markdown files`);
 
   const markers = [];
-  const processedCities = new Set(); // 避免同一篇文章在同城市重複marker
+  const processedCities = new Set(); // Avoid duplicate markers for same article in same city
 
   for (const filePath of markdownFiles) {
     try {
@@ -259,7 +259,7 @@ function generateMarkers() {
       const description = frontmatter.description || frontmatter.desc || '';
       const category = getCategoryFromPath(filePath);
 
-      // 檢查是否有明確的 geo 欄位
+      // Check for explicit geo field
       let locations = [];
 
       if (frontmatter.geo) {
@@ -297,21 +297,21 @@ function generateMarkers() {
         }
       }
 
-      // 如果沒有明確geo，自動匹配
+      // If no explicit geo, auto-match
       if (locations.length === 0) {
         locations = matchLocations(title, content);
       }
 
-      // 如果沒有匹配到任何地點，跳過此文章（不放在地圖上）
+      // If no location matched, skip this article (not placed on map)
       if (locations.length === 0) {
         continue;
       }
 
-      // 為每個匹配的地點生成marker
+      // Generate marker for each matched location
       const articleCities = new Set();
 
       for (const location of locations) {
-        // 避免同一篇文章在同城市重複
+        // Avoid same article duplicating in same city
         if (articleCities.has(location.city)) continue;
         articleCities.add(location.city);
 
@@ -356,17 +356,17 @@ function generateMarkers() {
 
         markers.push(marker);
 
-        // 只取第一個最高分的地點（避免一篇文章太多marker）
+        // Take only the top-scoring location (avoid too many markers per article)
         break;
       }
     } catch (error) {
-      console.error(`❌ 處理檔案失敗: ${filePath}`, error.message);
+      console.error(`❌ Failed to process file: ${filePath}`, error.message);
     }
   }
 
-  console.log(`✅ 生成 ${markers.length} 個 markers`);
+  console.log(`✅ Generated ${markers.length} markers`);
 
-  // 統計分布
+  // Distribution stats
   const regionStats = {};
   const categoryStats = {};
 
@@ -375,25 +375,25 @@ function generateMarkers() {
     categoryStats[marker.category] = (categoryStats[marker.category] || 0) + 1;
   });
 
-  console.log('\n📊 區域分布:');
+  console.log('\n📊 Region distribution:');
   Object.entries(regionStats).forEach(([region, count]) => {
     console.log(`  ${region}: ${count} markers`);
   });
 
-  console.log('\n📈 分類分布:');
+  console.log('\n📈 Category distribution:');
   Object.entries(categoryStats).forEach(([category, count]) => {
     console.log(`  ${category}: ${count} markers`);
   });
 
-  // 保存到檔案
+  // Save to file
   const outputPath = path.join(__dirname, '../../src/data/map-markers.json');
   fs.writeFileSync(outputPath, JSON.stringify(markers, null, 2));
 
-  console.log(`\n💾 已保存到: ${outputPath}`);
-  console.log(`🎯 總計: ${markers.length} markers (目標: 150+)`);
+  console.log(`\n💾 Saved to: ${outputPath}`);
+  console.log(`🎯 Total: ${markers.length} markers (target: 150+)`);
 
   return markers;
 }
 
-// 執行
+// Execute
 generateMarkers();
