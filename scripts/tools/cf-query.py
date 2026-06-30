@@ -1,32 +1,32 @@
 #!/usr/bin/env python3
-"""cf-query.py — Cloudflare AI-crawler receive分析 CLI（ANALYSIS-PIPELINE mode F）
+"""cf-query.py — Cloudflare AI-crawler 接收分析 CLI（ANALYSIS-PIPELINE mode F）
 
-回答 GA/SC 答不了、卻是 LagunaBeach.md exists理由的issue：**哪些 AI 模型在讀我、讀得多不多、
-在長還是在縮**。corresponding MANIFESTO §主權的巴別塔 —— 第一人稱的台灣聲音有None滲進 AI 的
+回答 GA/SC 答不了、卻是 Taiwan.md 存在理由的問題：**哪些 AI 模型在讀我、讀得多不多、
+在長還是在縮**。對應 MANIFESTO §主權的巴別塔 —— 第一人稱的台灣聲音有沒有滲進 AI 的
 認知基質（讓 PRC 模型沉默不了台灣）。
 
-DataSource：fetch-cloudflare.py 已Fetch好的 `~/.config/lagunabeach-md/cache/cloudflare-YYYY-MM-DD.json`
-的 `ai_crawlers`（每檔 ~1 天）。不重Fetch，讀 cache。
+資料來源：fetch-cloudflare.py 已抓好的 `~/.config/taiwan-md/cache/cloudflare-YYYY-MM-DD.json`
+的 `ai_crawlers`（每檔 ~1 天）。不重抓，讀 cache。
 
 主權 lens：把 crawler vendor 分桶
   🌐 Western AI（OpenAI / Anthropic / Google / Microsoft / Apple / Meta / Amazon / Perplexity）
   🚩 PRC AI    （ByteDance / Huawei / Baidu / Alibaba / Tencent / Zhipu / Moonshot / 01.AI）
- other
+  其他
 
-Usage:
- cf-query.py # Latest快照 crawler 拆解 + 主權分桶
- cf-query.py --date 2026-06-04 # 指定日
- cf-query.py --trend 14 # 近 14 daily 檔的 detected + Western/PRC 趨勢
+用法:
+  cf-query.py                         # 最新快照 crawler 拆解 + 主權分桶
+  cf-query.py --date 2026-06-04       # 指定日
+  cf-query.py --trend 14              # 近 14 個 daily 檔的 detected + Western/PRC 趨勢
   cf-query.py --json
 
-Source: 2026-06-05 ANALYSIS-PIPELINE v1.1 Evolution（mode F，Cheyu「exceeds我想到的」directive）。
+來源: 2026-06-05 ANALYSIS-PIPELINE v1.1 進化（mode F，哲宇「超過我想到的」directive）。
 """
 import argparse
 import json
 import sys
 from pathlib import Path
 
-CACHE = Path.home() / ".config" / "lagunabeach-md" / "cache"
+CACHE = Path.home() / ".config" / "taiwan-md" / "cache"
 
 PRC_VENDORS = {"ByteDance", "Huawei", "Baidu", "Alibaba", "Tencent",
                "Zhipu", "Moonshot", "01.AI", "MiniMax", "InternLM"}
@@ -39,21 +39,21 @@ def bucket(category):
         return "🚩 PRC AI"
     if category in WESTERN_AI_VENDORS:
         return "🌐 Western AI"
- return "other"
+    return "其他"
 
 
 def load_day(date=None):
     f = CACHE / ("cloudflare-latest.json" if not date else f"cloudflare-{date}.json")
     if not f.exists():
- print(f"❌ 無 cloudflare cache: {f}", file=sys.stderr)
+        print(f"❌ 無 cloudflare cache: {f}", file=sys.stderr)
         sys.exit(2)
     return json.load(open(f))
 
 
 def main():
     ap = argparse.ArgumentParser(description="Cloudflare AI-crawler reception (mode F)")
- ap.add_argument("--date", default=None, help="YYYY-MM-DD（Default latest）")
- ap.add_argument("--trend", type=int, default=0, help="近 N daily 檔的趨勢")
+    ap.add_argument("--date", default=None, help="YYYY-MM-DD（預設 latest）")
+    ap.add_argument("--trend", type=int, default=0, help="近 N 個 daily 檔的趨勢")
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--save", default=None)
     a = ap.parse_args()
@@ -106,21 +106,21 @@ def main():
         return
 
     p = ac.get("period") or {}
- print(f"AI crawler receive — {p.get('start','?')[:10]}..{p.get('end','?')[:10]} "
+    print(f"AI crawler 接收 — {p.get('start','?')[:10]}..{p.get('end','?')[:10]}  "
           f"(detected {totals.get('detectedRequests','?')} req)\n")
     print(f"{'crawler':<20}{'vendor':<14}{'req':>7}{'200%':>7}  bucket")
     print("-" * 62)
     for c in crs[:20]:
         rate = c.get("http200", 0) / c["requests"] * 100 if c["requests"] else 0
         print(f"{c['name']:<20}{c['category']:<14}{c['requests']:>7}{rate:>6.0f}%  {bucket(c['category'])}")
- print("\n=== 主權分桶（誰在讀台灣的聲音）===")
- for b in ("🌐 Western AI", "🚩 PRC AI", "other"):
+    print("\n=== 主權分桶（誰在讀台灣的聲音）===")
+    for b in ("🌐 Western AI", "🚩 PRC AI", "其他"):
         if b in buckets:
             v = buckets[b]
             print(f"  {b:<14} {v['requests']:>6} req ({v['share']*100 if False else round(v['requests']/grand*100):>2}%)  "
                   f"{', '.join(sorted(set(v['names']))[:6])}")
- print("\n💡 sovereignty 讀法：Western AI 讀我 = 台灣第一人稱聲音進入 cognitive substrate；"
- "PRC AI 讀我但低 200% = 可能 content policy Filter。趨勢看 --trend。")
+    print("\n💡 sovereignty 讀法：Western AI 讀我 = 台灣第一人稱聲音進入 cognitive substrate；"
+          "PRC AI 讀我但低 200% = 可能 content policy 過濾。趨勢看 --trend。")
 
 
 if __name__ == "__main__":

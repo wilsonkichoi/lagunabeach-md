@@ -2,7 +2,7 @@
 """
 send-email-resend.py — Resend API 寄信 helper
 
-From ~/.config/lagunabeach-md/credentials/resend.key 讀 API key（永遠不From stdin 接、不複述、
+從 ~/.config/taiwan-md/credentials/resend.key 讀 API key（永遠不從 stdin 接、不複述、
 不寫進 log），把 markdown 檔轉成 HTML email 寄出。
 
 Usage:
@@ -10,8 +10,8 @@ Usage:
         --to <email> --subject <text> --markdown <path>
 
 Env override:
- RESEND_API_KEY (取代讀檔；CI/Routine 用)
- RESEND_FROM (取代Default onboarding@resend.dev)
+    RESEND_API_KEY  (取代讀檔；CI/Routine 用)
+    RESEND_FROM     (取代預設 onboarding@resend.dev)
 
 Exit code: 0 = sent，非 0 = fail（含 Resend response body 寫 stderr）
 """
@@ -25,8 +25,8 @@ import urllib.request
 import urllib.error
 from pathlib import Path
 
-DEFAULT_FROM = 'LagunaBeach.md <onboarding@resend.dev>'
-KEY_PATH = Path.home() / ".config/lagunabeach-md/credentials/resend.key"
+DEFAULT_FROM = 'Taiwan.md <onboarding@resend.dev>'
+KEY_PATH = Path.home() / ".config/taiwan-md/credentials/resend.key"
 RESEND_ENDPOINT = "https://api.resend.com/emails"
 
 
@@ -39,12 +39,12 @@ def load_key() -> str:
         print("   Set RESEND_API_KEY env or place key at the path above (chmod 600).", file=sys.stderr)
         sys.exit(2)
     if KEY_PATH.stat().st_mode & 0o077:
- print(f"⚠️ {KEY_PATH} permissions太寬 — suggestion chmod 600", file=sys.stderr)
+        print(f"⚠️  {KEY_PATH} 權限太寬 — 建議 chmod 600", file=sys.stderr)
     return KEY_PATH.read_text().strip()
 
 
 # ─────────────────────────────────────────────────────────
-# Minimal markdown → HTML（Dependencies零，足夠 email 排版）
+# Minimal markdown → HTML（依賴零，足夠 email 排版）
 # ─────────────────────────────────────────────────────────
 
 
@@ -193,7 +193,7 @@ def send(api_key: str, to: str, from_: str, subject: str, html: str, text: str) 
             "Content-Type": "application/json",
             # Resend's Cloudflare edge blocks default Python-urllib UA (returns 1010).
             # Identify cleanly so the proxy lets us through.
-            "User-Agent": "lagunabeach-md-weekly-report/1.0 (+https://lagunabeach.md)",
+            "User-Agent": "taiwan-md-weekly-report/1.0 (+https://taiwan.md)",
             "Accept": "application/json",
         },
     )

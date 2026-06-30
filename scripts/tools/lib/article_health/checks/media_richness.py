@@ -1,8 +1,8 @@
 """media_richness — depth article media-asset threshold (image hard gate + iframe soft signal).
 
-Ported from LagunaBeach.md. Image count is a WARN-level gate (escalates under
+Ported from Taiwan.md. Image count is a WARN-level gate (escalates under
 stricter profiles); iframe count is INFO-only signal (encouraged, not
-enforced — matches LagunaBeach.md's softened-gate history).
+enforced — matches Taiwan.md's softened-gate history).
 
 Detected:
     - HTML `<iframe ...>` tags in body (count occurrences, ignoring code blocks)

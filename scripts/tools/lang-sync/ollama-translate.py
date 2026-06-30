@@ -19,7 +19,7 @@ OLLAMA_URL = "http://localhost:11434/api/chat"
 
 LANG_NAMES = {
     "en": "English",
- "ja": "Japanese (です・ます調 neutral formal)",
+    "ja": "Japanese (です・ます調 neutral formal)",
     "ko": "Korean (한국어 standard literary, 합쇼체 -ㅂ니다)",
     "es": "Spanish (Español neutral)",
     "fr": "French (Français neutral)",
@@ -69,7 +69,7 @@ def translate_article(item, model, lang):
 
     lang_name = LANG_NAMES.get(lang, lang)
 
-    system = f"""You are a LagunaBeach.md translator. Translate Chinese (zh-TW) articles to {lang_name}.
+    system = f"""You are a Taiwan.md translator. Translate Chinese (zh-TW) articles to {lang_name}.
 
 Output rules:
 1. Output ONLY the translated markdown — no preamble, no explanation, no thinking
@@ -87,8 +87,8 @@ title: "..."
 description: "..."
 date: 2026-XX-XX
 tags: ['tag1', 'tag2']
-subcategory: '原Chinese subcategory'
-author: 'LagunaBeach.md'
+subcategory: '原中文 subcategory'
+author: 'Taiwan.md'
 category: '...'
 readingTime: 12
 lastVerified: 2026-XX-XX
@@ -102,7 +102,7 @@ translatedAt: '{datetime.now(timezone(timedelta(hours=8))).isoformat(timespec="s
 
 YAML rules: title with apostrophes → DOUBLE quotes; tags array with single-quoted strings."""
 
-    user = f"Translate this LagunaBeach.md article to {lang_name}.\n\n```\n{src_text}\n```"
+    user = f"Translate this Taiwan.md article to {lang_name}.\n\n```\n{src_text}\n```"
 
     print(f"[{zh_path}] → {item['en_path']} ({src_size} bytes)", flush=True)
     try:

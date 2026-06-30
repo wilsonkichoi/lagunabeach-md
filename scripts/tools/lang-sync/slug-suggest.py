@@ -9,13 +9,13 @@ Output: JSON file that can be passed to prepare-batch.py via --slug-map.
 
 Usage:
   python3 scripts/tools/lang-sync/slug-suggest.py --input /tmp/es-skip.txt --out .lang-sync-tasks/slug-suggested.json
- python3 scripts/tools/lang-sync/slug-suggest.py --paths "People/曹興誠.md,People/陳水扁.md" --out /tmp/slugs.json
+  python3 scripts/tools/lang-sync/slug-suggest.py --paths "People/曹興誠.md,People/陳水扁.md" --out /tmp/slugs.json
 """
 import argparse, json, os, sys, urllib.request, urllib.error
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent.parent.parent
-CREDS = Path.home() / ".config/lagunabeach-md/credentials"
+CREDS = Path.home() / ".config/taiwan-md/credentials"
 KEY_FILE = CREDS / "openrouter.key"
 ENV_FILE = CREDS / ".env"
 
@@ -90,13 +90,13 @@ def main():
         items.append({"zh_path": p, "title": title, "desc": desc})
 
     api_key = get_api_key()
-    system = """You are a slug generator for LagunaBeach.md.
+    system = """You are a slug generator for Taiwan.md.
 
 Generate canonical English slugs (kebab-case, ASCII only, max 60 chars) for Chinese articles.
 
 Rules:
-1. For person names: use Pinyin or commonly-used English name (e.g. 蔡English → tsai-ing-wen, 鄭Success → koxinga, 曹興誠 → robert-tsao)
-2. For places/concepts: use meaningful English translation (e.g. 二二八event → 228-incident, 戒嚴 → martial-law)
+1. For person names: use Pinyin or commonly-used English name (e.g. 蔡英文 → tsai-ing-wen, 鄭成功 → koxinga, 曹興誠 → robert-tsao)
+2. For places/concepts: use meaningful English translation (e.g. 二二八事件 → 228-incident, 戒嚴 → martial-law)
 3. ALL lowercase, words separated by `-`, no special chars except `-`
 4. NO file extension
 5. NO slashes (`/`) — slugs are FLAT, do NOT prefix with category path (e.g. NOT `culture/tsai-ing-wen`, just `tsai-ing-wen`)

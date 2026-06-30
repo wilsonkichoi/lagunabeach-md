@@ -16,11 +16,11 @@
 #   0  gated broken ratio < threshold  (CI pass)
 #   1  ratio >= threshold or dist/ missing
 #
-# Env: BROKEN_LINK_THRESHOLD=N 顯式overwrite gate（Must在 routine memory 記一筆）
+# Env: BROKEN_LINK_THRESHOLD=N  顯式覆寫 gate（必須在 routine memory 記一筆）
 #
 # 2026-06-10 build audit 熱點 #4：python 主體抽到
-# scripts/tools/verify_internal_links.py 並 multiprocessing parallel化
-# （單Execute緒 64s → Pool；報表Format逐行不變）。本檔退為 thin wrapper。
+# scripts/tools/verify_internal_links.py 並 multiprocessing 平行化
+# （單執行緒 64s → Pool；報表格式逐行不變）。本檔退為 thin wrapper。
 #
 # Requires: python3 (stdlib only, no pip installs)
 # ─────────────────────────────────────────────────────────────────

@@ -1,5 +1,5 @@
 /**
- * archive.test.mjs — git 主權層recordGenerate器test。
+ * archive.test.mjs — git 主權層紀錄產生器測試。
  * 跑：node --test scripts/feedback/archive.test.mjs
  */
 import { test } from 'node:test';
@@ -19,14 +19,14 @@ const row = {
   type: 'content',
   status: 'filed',
   page_kind: 'article',
-  article_slug: 'Ang Lee',
-  article_title: 'Ang Lee',
+  article_slug: '李安',
+  article_title: '李安',
   lang: 'zh-TW',
-  source_url: 'https://lagunabeach.md/people/Ang Lee#:~:text=1990',
+  source_url: 'https://taiwan.md/people/李安#:~:text=1990',
   quote: '《臥虎藏龍》1990 年得獎',
-  correct_info: 'correct:2001。Source:https://oscars.org',
-  triage_note: '已收到你的errata，已轉Maintenance者查核。',
-  issue_url: 'https://github.com/frank890417/lagunabeach-md/issues/42',
+  correct_info: '正確:2001。來源:https://oscars.org',
+  triage_note: '已收到你的勘誤，已轉維護者查核。',
+  issue_url: 'https://github.com/frank890417/taiwan-md/issues/42',
   issue_number: 42,
 };
 
@@ -52,8 +52,8 @@ test('buildArchiveRecord captures contributor/time/content + NEVER email', () =>
   assert.match(md, /選取的原文/);
   assert.match(md, /《臥虎藏龍》1990 年得獎/);
   assert.match(md, /系統初判/);
-  assert.match(md, /## 溝通record/);
-  // 鐵律：email 永不進 git record
+  assert.match(md, /## 溝通紀錄/);
+  // 鐵律：email 永不進 git 紀錄
   assert.doesNotMatch(
     md,
     /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}/i,
@@ -68,11 +68,11 @@ test('mergeComments appends new comments with markers', () => {
       id: 'maintainer-2026-06-01T10:00:00Z',
       author: 'maintainer',
       createdAt: '2026-06-01T10:00:00Z',
-      body: '謝謝Report，已fix。',
+      body: '謝謝回報，已修正。',
     },
   ]);
   assert.match(merged, /<!-- comment:maintainer-2026-06-01T10:00:00Z -->/);
-  assert.match(merged, /謝謝回報，已fix。/);
+  assert.match(merged, /謝謝回報，已修正。/);
 });
 
 test('mergeComments dedupes on re-run (idempotent)', () => {

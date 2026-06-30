@@ -1,28 +1,28 @@
 /**
- * classify.mjs — Feedback → GitHub issue 的純function層（無 IO,好測）。
+ * classify.mjs — Feedback → GitHub issue 的純函式層（無 IO,好測）。
  *
  *  - detectSpam(row)      → { isSpam, score, reasons }
- * - resolveType(row) → 'content' | 'bug' | 'newtopic'（信Reader選的,缺才推斷）
- * - buildIssue(row) → { title, labels, body }（alignmentexisting issue template;不含 email）
- * - dedupeKey(row) → 穩定characters串,用來在 batch inside + 對existing issue 去重
+ *  - resolveType(row)     → 'content' | 'bug' | 'newtopic'（信讀者選的,缺才推斷）
+ *  - buildIssue(row)      → { title, labels, body }（對齊既有 issue template;不含 email）
+ *  - dedupeKey(row)       → 穩定字串,用來在 batch 內 + 對既有 issue 去重
  *  - isDuplicate(row, existingIssues) → boolean
- * - scrubSecrets(str) → RemoveanyReaderfield裡夾帶的 OAuth token / JWT / email（PII 第二道閘）
+ *  - scrubSecrets(str)    → 移除任何讀者欄位裡夾帶的 OAuth token / JWT / email（PII 第二道閘）
  *
  * 鐵律：issue body 只放 display_name,**永遠不放 email**（public issue 不洩 PII）。
- * Reader文characters verbatim 引用,triage 不替Reader改寫對錯（那是Maintenance者人類 gate 的事）。
+ *       讀者文字 verbatim 引用,triage 不替讀者改寫對錯（那是維護者人類 gate 的事）。
  *
- * ⚠️ source_url 也是 PII 載體：登入Reader貼網址列時,Supabase OAuth implicit flow 會把
- * access_token / refresh_token / provider_token（JWT payload inside含 email）塞進 URL
- * hash fragment。原本「不放 email」只擋明文 email,擋不住 base64 編進 token 的 email +
- * 活的Credentials。allReader提供的field（source_url / body / quote / correct_info）進 issue/archive
- * 前都Must過 scrubSecrets()。Trigger：2026-06-16 feedback id 8f2f8908 把 OAuth callback URL
- * 寫進 public issue #1160（已Delete + re-file）。
+ * ⚠️ source_url 也是 PII 載體：登入讀者貼網址列時,Supabase OAuth implicit flow 會把
+ *    access_token / refresh_token / provider_token（JWT payload 內含 email）塞進 URL
+ *    hash fragment。原本「不放 email」只擋明文 email,擋不住 base64 編進 token 的 email +
+ *    活的憑證。所有讀者提供的欄位（source_url / body / quote / correct_info）進 issue/archive
+ *    前都必須過 scrubSecrets()。觸發：2026-06-16 feedback id 8f2f8908 把 OAuth callback URL
+ *    寫進 public issue #1160（已刪除 + re-file）。
  */
 
 const TYPES = new Set(['content', 'bug', 'newtopic', 'idea']);
 
 // ── secret / PII scrubbing ─────────────────────────────────────────────────────
-// anyReaderfield進 public issue / git archive 前都要過這一層（PII 第二道閘）。
+// 任何讀者欄位進 public issue / git archive 前都要過這一層（PII 第二道閘）。
 const JWT_RE = /eyJ[A-Za-z0-9_-]{6,}\.[A-Za-z0-9_-]{6,}\.[A-Za-z0-9_-]{6,}/g;
 const GOOGLE_TOK_RE = /ya29\.[A-Za-z0-9._-]{10,}/g;
 const TOKEN_PARAM_RE =
@@ -32,7 +32,7 @@ const EMAIL_RE = /[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/g;
 export function scrubSecrets(str) {
   if (str === null || str === undefined) return str;
   let s = String(str);
-  // 1) URL hash fragment 帶 token → 整段 fragment 砍掉(對 bug Report無用)
+  // 1) URL hash fragment 帶 token → 整段 fragment 砍掉(對 bug 回報無用)
   s = s.replace(
     /#[^\s)"']*(?:access_token|refresh_token|provider_token|id_token)[^\s)"']*/gi,
     '',
@@ -89,7 +89,7 @@ export function detectSpam(row) {
     score += 2;
   }
 
-  // 大量duplicatecharacters元（aaaaaa / 哈哈哈哈哈哈哈哈）
+  // 大量重複字元（aaaaaa / 哈哈哈哈哈哈哈哈）
   if (/(.)\1{9,}/.test(body)) {
     reasons.push('char-flood');
     score += 2;
@@ -108,11 +108,11 @@ export function detectSpam(row) {
 // ── type ─────────────────────────────────────────────────────────────────────
 const BUG_HINTS = [
   /\bbug\b/i,
-  /broken|404|crash|壞|壞掉|壞了|連結.*(失效|壞)|display|跡位|排版|變形|畫面/,
+  /broken|404|crash|壞|壞掉|壞了|連結.*(失效|壞)|顯示|跡位|排版|變形|畫面/,
 ];
 const CONTENT_HINTS = [
   /\b(wrong|incorrect|typo|error)\b/i,
-  /錯|誤|should be|有誤|更正|errata|事實|過時/,
+  /錯|誤|應為|有誤|更正|勘誤|事實|過時/,
 ];
 
 export function resolveType(row) {
@@ -129,8 +129,8 @@ function provenance(row) {
   const who = row.display_name || '匿名讀者'; // 匿名讀者
   const when = (row.created_at || '').slice(0, 16).replace('T', ' ');
   // 只放 display_name + feedback id;不放 email。
-  const where = row.page_kind ? ` · Source頁:${row.page_kind}` : '';
-  return `\n\n---\n> 🧬 由站上Report轉入（twmd-feedback-triage）· Report者：${who} · feedback id: \`${row.id}\`${when ? ` · ${when}` : ''}${where}`;
+  const where = row.page_kind ? ` · 來源頁:${row.page_kind}` : '';
+  return `\n\n---\n> 🧬 由站上回報轉入（twmd-feedback-triage）· 回報者：${who} · feedback id: \`${row.id}\`${when ? ` · ${when}` : ''}${where}`;
 }
 
 function truncate(s, n) {
@@ -156,8 +156,8 @@ export function buildIssue(row) {
       title: `[Bug] ${truncate(row.body, 60)}`,
       labels: ['bug', 'from-feedback'],
       body:
-        `**issuedescription / Description**\n${scrubSecrets(row.body)}\n\n` +
-        `**issue頁面 URL**\n${scrubSecrets(row.source_url) || '(n/a)'}` +
+        `**問題描述 / Description**\n${scrubSecrets(row.body)}\n\n` +
+        `**問題頁面 URL**\n${scrubSecrets(row.source_url) || '(n/a)'}` +
         provenance(row),
     };
   }
@@ -168,10 +168,10 @@ export function buildIssue(row) {
       title: `[Article] ${truncate(row.body, 50)}`,
       labels: ['content', 'from-feedback'],
       body:
-        `**category / Category**\n${row.category || '(未category)'}\n\n` +
+        `**分類 / Category**\n${row.category || '(未分類)'}\n\n` +
         `**主題提案 / Proposal**\n${scrubSecrets(row.body)}` +
         (row.correct_info
-          ? `\n\n**reference / Notes**\n${scrubSecrets(row.correct_info)}`
+          ? `\n\n**參考 / Notes**\n${scrubSecrets(row.correct_info)}`
           : '') +
         provenance(row),
     };
@@ -186,20 +186,20 @@ export function buildIssue(row) {
     };
   }
 
-  // content（errata）→ alignment fact-correction.yml。有 quote = Reader選文段標註。
+  // content（勘誤）→ 對齊 fact-correction.yml。有 quote = 讀者選文段標註。
   const quoteBlock = row.quote
-    ? `**Reader選取的原文 / Selected passage**\n> ${scrubSecrets(String(row.quote)).replace(/\n/g, '\n> ')}\n\n🔗 directly定位：${scrubSecrets(row.source_url)}\n\n`
+    ? `**讀者選取的原文 / Selected passage**\n> ${scrubSecrets(String(row.quote)).replace(/\n/g, '\n> ')}\n\n🔗 直接定位：${scrubSecrets(row.source_url)}\n\n`
     : '';
   return {
     type,
     title: `[Fact Check] ${title}`,
     labels: ['needs-verification', 'from-feedback'],
     body:
-      `**哪Articles / Which article?**\n${articleRef(row)}\n\n` +
+      `**哪篇文章 / Which article?**\n${articleRef(row)}\n\n` +
       quoteBlock +
       `**哪裡有誤 / What's wrong?**\n${scrubSecrets(row.body)}` +
       (row.correct_info
-        ? `\n\n**correct資訊 + Source / Correct info + source**\n${scrubSecrets(row.correct_info)}`
+        ? `\n\n**正確資訊 + 來源 / Correct info + source**\n${scrubSecrets(row.correct_info)}`
         : '') +
       provenance(row),
   };
@@ -216,8 +216,8 @@ export function dedupeKey(row) {
 }
 
 /**
- * 對existing open issue 去重。existingIssues: [{title, body}]。
- * 命中件：issue body 已含這筆 feedback id（已開過）,或同 article+type title撞。
+ * 對既有 open issue 去重。existingIssues: [{title, body}]。
+ * 命中條件：issue body 已含這筆 feedback id（已開過）,或同 article+type 標題撞。
  */
 export function isDuplicate(row, existingIssues = []) {
   const idTag = `feedback id: \`${row.id}\``;
@@ -232,32 +232,32 @@ export function isDuplicate(row, existingIssues = []) {
 }
 
 /**
- * 整批分流。return每筆的 decision。純function —— 不開 issue,只決定。
+ * 整批分流。回傳每筆的 decision。純函式 —— 不開 issue,只決定。
  */
 /**
- * Reader面的 AI 初判理由（v3 Grokipedia 透明化）。中性措辭、標「automatic初判 + 人工會再看」，
- * notMaintenance者正式回覆（那走 MAINTAINER 人類 gate）。
+ * 讀者面的 AI 初判理由（v3 Grokipedia 透明化）。中性措辭、標「自動初判 + 人工會再看」，
+ * 不是維護者正式回覆（那走 MAINTAINER 人類 gate）。
  */
 export function triageNoteFor(row) {
   const type = resolveType(row);
   const m = {
     content:
-      '已收到你的errata，automatic初判category為「Contenterrata」，已轉Maintenance者查核（人工會再看）。',
-    bug: '已收到，automatic初判category為「網站issue」，已轉Maintenance者。',
-    newtopic: '已收到你的新主題suggestion，已排入待評估list。',
-    idea: '已收到你的想法，已轉Maintenance者reference。',
+      '已收到你的勘誤，自動初判分類為「內容勘誤」，已轉維護者查核（人工會再看）。',
+    bug: '已收到，自動初判分類為「網站問題」，已轉維護者。',
+    newtopic: '已收到你的新主題建議，已排入待評估清單。',
+    idea: '已收到你的想法，已轉維護者參考。',
   };
-  return m[type] || '已收到，已轉Maintenance者。';
+  return m[type] || '已收到，已轉維護者。';
 }
 
 const REJECT_NOTE =
-  'System初步判定為廣告/InvalidContent，未轉成 issue。If是誤判，歡迎再送一次或補上Source。';
+  '系統初步判定為廣告/無效內容，未轉成 issue。如果是誤判，歡迎再送一次或補上來源。';
 
 /**
- * sameArticles在same batch 出現 ≥ 此數量的非 spam Report → 整群 hold,不逐筆開 issue。
- * 誕生event：2026-06-09 12 連發 flood（一筆一 issue 開了 12 ）+ 2026-06-12 justfont
- * 共同Creator 21 連errata（當班 routine 人工判斷不 --commit 才沒開 22 ）。
- * 同 slug 大量Report的correct形狀是 1 consolidated artifact 給Maintenance者,not N issue。
+ * 同一篇文章在同一 batch 出現 ≥ 此數量的非 spam 回報 → 整群 hold,不逐筆開 issue。
+ * 誕生事件：2026-06-09 12 連發 flood（一筆一 issue 開了 12 個）+ 2026-06-12 justfont
+ * 共同創辦人 21 連勘誤（當班 routine 人工判斷不 --commit 才沒開 22 個）。
+ * 同 slug 大量回報的正確形狀是 1 個 consolidated artifact 給維護者,不是 N 個 issue。
  */
 export const BATCH_CLUSTER_THRESHOLD = 5;
 
@@ -266,7 +266,7 @@ function clusterKey(row) {
 }
 
 export function triageBatch(rows, existingIssues = []) {
-  // Pass 1: 找出超量 cluster（只算非 spam 且有 slug 的Report）。
+  // Pass 1: 找出超量 cluster（只算非 spam 且有 slug 的回報）。
   const slugCount = new Map();
   for (const row of rows) {
     const slug = clusterKey(row);
@@ -293,7 +293,7 @@ export function triageBatch(rows, existingIssues = []) {
     const slug = clusterKey(row);
     if (slug && heldSlugs.has(slug)) {
       // hold: 不開 issue、不回寫 status(維持 new),由 triage.mjs 產 1 份
-      // consolidated cluster report 升級給Maintenance者決策。
+      // consolidated cluster report 升級給維護者決策。
       return {
         row,
         decision: 'hold',

@@ -1,29 +1,29 @@
 #!/usr/bin/env python3
-"""attribution-risk-audit — 跨Articles「歸屬密集 × 引用稀薄 × 未審 × featured」risk排行.
+"""attribution-risk-audit — 跨文章「歸屬密集 × 引用稀薄 × 未審 × featured」風險排行.
 
-儀器化 REFLEXES #15：把 2026-06-01 配樂Reader callout 後manual跑的「待re-審理queue」
-heredoc 升級為可重跑tool。原 ad-hoc python 每次重打、結果不可追溯；本tool讓queue
+儀器化 REFLEXES #15：把 2026-06-01 配樂讀者 callout 後手動跑的「待重新審理佇列」
+heredoc 升級為可重跑工具。原 ad-hoc python 每次重打、結果不可追溯；本工具讓佇列
 隨時可 regen，並可餵 ARTICLE-INBOX。
 
-risk模型（A↔B 歸屬密集主題是 AI 幻覺高risk區，per 2026-06-01 影視配樂lesson）：
- surface = 《》+〈〉 work-title 數（歸屬表面積）
+風險模型（A↔B 歸屬密集主題是 AI 幻覺高風險區，per 2026-06-01 影視配樂教訓）：
+    surface  = 《》+〈〉 work-title 數（歸屬表面積）
     risk     = surface
- + 40 if fns==0 and surface>=8 # 零腳註密集 = 紅旗
+             + 40            if fns==0 and surface>=8      # 零腳註密集 = 紅旗
              + min(surface/max(fns,1), 10) * 3   otherwise  # claims-per-citation
- + 15 if 早期batch (2026-03，pipeline 最不成熟)
- + 12 if featured (放大傷害)
- 只算 lastHumanReview != true 的Articles（已人工審 = low priority）。
+             + 15            if 早期批次 (2026-03，pipeline 最不成熟)
+             + 12            if featured (放大傷害)
+    只算 lastHumanReview != true 的文章（已人工審 = 低優先）。
 
 Tier:
- T1 早期batch + featured + (零腳註 or surface>=40)，或 零腳註 + surface>=15
- T2 早期batch + featured，或 surface>=60，或 零腳註 + surface>=10
- T3 其餘入列者
+    T1  早期批次 + featured + (零腳註 or surface>=40)，或 零腳註 + surface>=15
+    T2  早期批次 + featured，或 surface>=60，或 零腳註 + surface>=10
+    T3  其餘入列者
 
-Usage：
- python3 scripts/tools/attribution-risk-audit.py # 印 summary + Tier1/2
- python3 scripts/tools/attribution-risk-audit.py --out FILE.md # 寫full markdown queue
- python3 scripts/tools/attribution-risk-audit.py --json # JSON 給 routine/dashboard
- python3 scripts/tools/attribution-risk-audit.py --min-works 10 # 入列門檻（Default 10）
+用法：
+    python3 scripts/tools/attribution-risk-audit.py                 # 印 summary + Tier1/2
+    python3 scripts/tools/attribution-risk-audit.py --out FILE.md   # 寫完整 markdown 佇列
+    python3 scripts/tools/attribution-risk-audit.py --json          # JSON 給 routine/dashboard
+    python3 scripts/tools/attribution-risk-audit.py --min-works 10  # 入列門檻（預設 10）
 
 Canonical: reports/reader-callout-pipeline-diagnosis-2026-06-01.md §5 + REWRITE-PIPELINE.md §Step 0.2-bis
 """
@@ -115,11 +115,11 @@ def build_queue(min_works: int):
 
 
 def main():
- ap = argparse.ArgumentParser(description="跨Articles歸屬risk排行 → 待re-審理queue")
- ap.add_argument("--min-works", type=int, default=10, help="入列門檻（《》/〈〉 數，Default 10）")
- ap.add_argument("--out", default=None, help="寫full markdown queue到此path")
- ap.add_argument("--json", action="store_true", help="Output JSON（給 routine/dashboard）")
- ap.add_argument("--top", type=int, default=0, help="只印前 N（0=印 Tier1+Tier2）")
+    ap = argparse.ArgumentParser(description="跨文章歸屬風險排行 → 待重新審理佇列")
+    ap.add_argument("--min-works", type=int, default=10, help="入列門檻（《》/〈〉 數，預設 10）")
+    ap.add_argument("--out", default=None, help="寫完整 markdown 佇列到此路徑")
+    ap.add_argument("--json", action="store_true", help="輸出 JSON（給 routine/dashboard）")
+    ap.add_argument("--top", type=int, default=0, help="只印前 N（0=印 Tier1+Tier2）")
     args = ap.parse_args()
 
     rows, unrev, queue = build_queue(args.min_works)
@@ -150,12 +150,12 @@ def main():
                          f"{os.path.basename(r['path'])} |")
         return "\n".join(lines)
 
-    header = (f"# 待re-審理queue（attribution-risk-audit）\n\n"
- f"Site-wide {len(rows)} zh SSOT；未人工審 {len(unrev)} 。\n"
- f"入列（《》/〈〉 ≥ {args.min_works} 或 零腳註 ≥8 且未審）= **{len(queue)} **。\n"
+    header = (f"# 待重新審理佇列（attribution-risk-audit）\n\n"
+              f"全站 {len(rows)} 篇 zh SSOT；未人工審 {len(unrev)} 篇。\n"
+              f"入列（《》/〈〉 ≥ {args.min_works} 或 零腳註 ≥8 且未審）= **{len(queue)} 篇**。\n"
               f"Tier1={tiers['T1']} / Tier2={tiers['T2']} / Tier3={tiers['T3']}。\n"
- f"（`_*.md` = inside部 Hub/scaffold，重審時exclude。）\n\n"
- f"risk分 = 歸屬表面 + 零腳註懲罰(+40) 或 claims/footnote 比 + 早期batch(+15) + featured(+12)。\n")
+              f"（`_*.md` = 內部 Hub/scaffold，重審時排除。）\n\n"
+              f"風險分 = 歸屬表面 + 零腳註懲罰(+40) 或 claims/footnote 比 + 早期批次(+15) + featured(+12)。\n")
 
     if args.out:
         with open(args.out, "w", encoding="utf-8") as f:
@@ -167,7 +167,7 @@ def main():
     show = queue[:args.top] if args.top else [r for r in queue if r["tier"] in ("T1", "T2")]
     print(md_table(show))
     if not args.top:
- print(f"\n（只印 Tier1+Tier2 {len(show)} ；full {len(queue)} 用 --out FILE.md 或 --top N）")
+        print(f"\n（只印 Tier1+Tier2 {len(show)} 篇；完整 {len(queue)} 篇用 --out FILE.md 或 --top N）")
 
 
 if __name__ == "__main__":

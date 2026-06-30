@@ -1,32 +1,32 @@
 #!/usr/bin/env python3
 """
-fetch-ga4.py — Fetch Google Analytics 4 (lagunabeach.md) 的關鍵metric
+fetch-ga4.py — 抓 Google Analytics 4 (taiwan.md) 的關鍵指標
 
-Usage:
+用法:
     python3 scripts/tools/fetch-ga4.py [--days 1]
 
-Credential sources（priority序）:
-    1. ~/.config/lagunabeach-md/credentials/google-service-account.json
- 2. Environment variables GOOGLE_APPLICATION_CREDENTIALS
+憑證來源（優先序）:
+    1. ~/.config/taiwan-md/credentials/google-service-account.json
+    2. 環境變數 GOOGLE_APPLICATION_CREDENTIALS
 
-Property ID Source:
- ~/.config/lagunabeach-md/credentials/.env 裡的 GA4_PROPERTY_ID
+屬性 ID 來源:
+    ~/.config/taiwan-md/credentials/.env 裡的 GA4_PROPERTY_ID
 
-Output:
-    ~/.config/lagunabeach-md/cache/ga4-latest.json
-    ~/.config/lagunabeach-md/cache/ga4-{YYYY-MM-DD}.json
+輸出:
+    ~/.config/taiwan-md/cache/ga4-latest.json
+    ~/.config/taiwan-md/cache/ga4-{YYYY-MM-DD}.json
 
-Dependencies:
+依賴:
     google-analytics-data
     google-auth
 
- 推薦安裝到 ~/.config/lagunabeach-md/venv/:
-        python3 -m venv ~/.config/lagunabeach-md/venv
-        ~/.config/lagunabeach-md/venv/bin/pip install google-analytics-data google-auth
+    推薦安裝到 ~/.config/taiwan-md/venv/:
+        python3 -m venv ~/.config/taiwan-md/venv
+        ~/.config/taiwan-md/venv/bin/pip install google-analytics-data google-auth
 
- script 會automaticDetect這 venv 並使用。
+    script 會自動偵測這個 venv 並使用。
 
-Source: 2026-04-11 session α
+來源: 2026-04-11 session α
 """
 import json
 import os
@@ -34,7 +34,7 @@ import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
-CONFIG_DIR = Path.home() / ".config" / "lagunabeach-md"
+CONFIG_DIR = Path.home() / ".config" / "taiwan-md"
 CREDENTIALS_DIR = CONFIG_DIR / "credentials"
 CACHE_DIR = CONFIG_DIR / "cache"
 VENV_DIR = CONFIG_DIR / "venv"
@@ -63,7 +63,7 @@ def fail(msg, code=1):
 
 
 def reexec_in_venv():
-    """If a venv exists at ~/.config/lagunabeach-md/venv, re-exec this script with its python.
+    """If a venv exists at ~/.config/taiwan-md/venv, re-exec this script with its python.
 
     Note: venv python is typically a symlink to the system python, so we can't compare
     executable paths (.resolve() would collapse both sides). Instead use sys.prefix vs
@@ -167,7 +167,7 @@ def main():
             Metric(name="activeUsers"),
             Metric(name="eventCount"),
             # Per-page stickiness — EVOLVE-PIPELINE Phase 1A documents needing
- # "per-page bounce rate (哪些ArticlesReader看了就跑)" + dwell, but only the
+            # "per-page bounce rate (哪些文章讀者看了就跑)" + dwell, but only the
             # site-wide `overall` block had bounceRate, so EVOLVE was blind to it
             # per article. 2026-06-14 data-state-analysis B10: surface it per page.
             Metric(name="bounceRate"),
@@ -233,7 +233,7 @@ def main():
     # Path-prefix based lang derivation (zh-TW = no prefix, en/ja/ko/es/fr = prefix).
     # Limit 500 to capture small-lang signal that the limit=50 top_pages misses.
     # Powers dashboard-analytics.json `ga.byLang` — sovereignty preservation impact
- # 量測（per reports/immune-score-redesign-2026-05-16.md §D 短期方案）。
+    # 量測（per reports/immune-score-redesign-2026-05-16.md §D 短期方案）。
     by_lang_req = RunReportRequest(
         property=f"properties/{property_id}",
         date_ranges=[date_range],

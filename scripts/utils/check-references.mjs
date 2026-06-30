@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 /**
- * CheckallKnowledge baseArticles是否includes「referenceData」或「Further Reading」paragraph
- * And是否includesat least一可點擊的 URL
+ * 檢查所有知識庫文章是否包含「參考資料」或「延伸閱讀」段落
+ * 以及是否包含至少一個可點擊的 URL
  *
  * Usage: node scripts/check-references.mjs [--strict]
- * --strict: NonereferenceData的Articles會導致 exit code 1
+ * --strict: 沒有參考資料的文章會導致 exit code 1
  */
 
 import { readdir, readFile } from 'fs/promises';
@@ -13,9 +13,9 @@ import { join, relative } from 'path';
 const KNOWLEDGE_DIR = join(process.cwd(), 'knowledge');
 const STRICT = process.argv.includes('--strict');
 
-// 匹配referenceDataparagraph的 pattern
+// 匹配參考資料段落的 pattern
 const REF_PATTERNS = [
-  /^##\s*(referenceData|reference文獻|DataSource|References?|Sources?|Further Reading|Further Reading)/im,
+  /^##\s*(參考資料|參考文獻|資料來源|References?|Sources?|延伸閱讀|Further Reading)/im,
 ];
 
 // 匹配 URL 的 pattern
@@ -58,22 +58,22 @@ async function main() {
   const noSection = results.filter((r) => !r.hasRefSection);
   const noUrl = results.filter((r) => r.hasRefSection && !r.hasUrl);
 
-  console.log(`\n📚 LagunaBeach.md referenceDataCheckreport`);
+  console.log(`\n📚 Taiwan.md 參考資料檢查報告`);
   console.log(`${'='.repeat(50)}`);
-  console.log(`總Articles數: ${results.length}`);
-  console.log(`✅ 有referenceData: ${results.length - missing.length}`);
-  console.log(`❌ 缺referenceDataparagraph: ${noSection.length}`);
-  console.log(`⚠️ 有paragraph但無 URL: ${noUrl.length}`);
+  console.log(`總文章數: ${results.length}`);
+  console.log(`✅ 有參考資料: ${results.length - missing.length}`);
+  console.log(`❌ 缺參考資料段落: ${noSection.length}`);
+  console.log(`⚠️  有段落但無 URL: ${noUrl.length}`);
   console.log(`${'='.repeat(50)}\n`);
 
   if (noSection.length > 0) {
-    console.log(`❌ 缺少「referenceData」paragraph的Articles：`);
+    console.log(`❌ 缺少「參考資料」段落的文章：`);
     noSection.forEach((r) => console.log(`   - ${r.path}`));
     console.log('');
   }
 
   if (noUrl.length > 0) {
-    console.log(`⚠️ 有「referenceData」paragraph但None URL 的Articles：`);
+    console.log(`⚠️  有「參考資料」段落但沒有 URL 的文章：`);
     noUrl.forEach((r) => console.log(`   - ${r.path}`));
     console.log('');
   }
@@ -82,10 +82,10 @@ async function main() {
     ((results.length - missing.length) / results.length) *
     100
   ).toFixed(1);
-  console.log(`📊 referenceDatacover率: ${coverage}%\n`);
+  console.log(`📊 參考資料覆蓋率: ${coverage}%\n`);
 
   if (STRICT && missing.length > 0) {
-    console.log('❌ STRICT Mode：有Articles缺少referenceData，CheckFailed');
+    console.log('❌ STRICT 模式：有文章缺少參考資料，檢查失敗');
     process.exit(1);
   }
 }

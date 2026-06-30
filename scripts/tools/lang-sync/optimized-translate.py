@@ -1,38 +1,38 @@
 #!/usr/bin/env python3
 """
-optimized-translate.py — 4-part divide-and-conquer Translation pipeline
+optimized-translate.py — 4-part divide-and-conquer 翻譯 pipeline
 
-把一 zh Articles切 4 partial，AI 只handle prose；frontmatter / footnotes / Further Reading
-都用 deterministic rule handle。
+把一篇 zh 文章切 4 部分，AI 只處理 prose；frontmatter / footnotes / 延伸閱讀
+都用 deterministic rule 處理。
 
   Part A: frontmatter
- - title / description / imageAlt: 需Translation（很短，附加在 prose call）
- - tags: Translation（短）
- - other fields: passthrough（date / author / category / featured / readingTime
+    - title / description / imageAlt: 需翻譯（很短，附加在 prose call）
+    - tags: 翻譯（短）
+    - 其他 fields: passthrough（date / author / category / featured / readingTime
        / lastVerified / lastHumanReview / subcategory / image / imageCredit /
- 三 SHA fields）
+       三 SHA fields）
 
   Part B: body prose
- - Markdown 主體（頭 # 以下、footnote define以上、Further Reading list 以上）
- - 唯一送 Sonnet 的partial
+    - Markdown 主體（頭 # 以下、footnote 定義以上、延伸閱讀 list 以上）
+    - 唯一送 Sonnet 的部分
 
   Part C: footnotes
- - `[^n]: [Title](URL) — desc` structure
- - URL + bracket title (If是 URL 自己) Keep；只翻 description
+    - `[^n]: [Title](URL) — desc` 結構
+    - URL + bracket title (如果是 URL 自己) 保留；只翻 description
 
- Part D: Further Reading cross-links
- - From `## Further Reading` / `**Further Reading**` 後的 list
+  Part D: 延伸閱讀 cross-links
+    - 從 `## 延伸閱讀` / `**延伸閱讀**` 後的 list
     - `- [文章名](/category/slug) — 說明` 用 _translations.json 反查 zh→en slug
- - Nonecorresponding en 時Keep zh 連結 + 加 zh 原文 inline
+    - 沒有對應 en 時保留 zh 連結 + 加 zh 原文 inline
 
-Usage：
+用法：
   optimized-translate.py extract <zh_path>
- → 寫 .lang-sync-tasks/optimized/{slug}/parts.json
+    → 寫 .lang-sync-tasks/optimized/{slug}/parts.json
        (a-frontmatter.yml + b-body.md + c-footnotes.json + d-crosslinks.json)
   optimized-translate.py prompt <zh_path>
- → 印 minimal agent prompt (B + a-trans-fields)
+    → 印 minimal agent prompt (B + a-trans-fields)
   optimized-translate.py assemble <zh_path> --en-path <out>
- → From parts.json + translated-body.md + translated-fields.yml 組裝full en 檔
+    → 從 parts.json + translated-body.md + translated-fields.yml 組裝完整 en 檔
 """
 import argparse
 import json
@@ -83,9 +83,9 @@ def split_zh_file(content: str) -> dict:
         body_before_fns = body.rstrip()
         body_footnotes = ""
 
- # Find Further Reading / Extended Reading section
+    # Find 延伸閱讀 / Extended Reading section
     ext_re = re.compile(
-        r"^(?:##\s+Further Reading|##\s+related文章|##\s+Related|\*\*Further Reading\*\*)\s*$",
+        r"^(?:##\s+延伸閱讀|##\s+相關文章|##\s+Related|\*\*延伸閱讀\*\*)\s*$",
         re.M | re.I,
     )
     ext_match = ext_re.search(body_before_fns)
@@ -141,7 +141,7 @@ def extract_translatable_block(parts: dict) -> dict:
     }
 
 
-# ---------- Further Reading (Cross-links) ----------
+# ---------- 延伸閱讀 (Cross-links) ----------
 
 def load_translations_json() -> dict:
     if not TRANSLATIONS_JSON.exists():
@@ -156,12 +156,12 @@ def resolve_zh_to_en(zh_slug_path: str, translations: dict) -> str | None:
     if norm.endswith("/"):
         norm = norm[:-1]
     # Reverse search _translations.json values
- # values are like "Category/原filename.md"
+    # values are like "Category/原檔名.md"
     # Build reverse map: zh-slug → en path
     for en_path, zh_target in translations.items():
         if not en_path.startswith("en/"):
             continue
- # zh_target is "Category/檔.md", convert to /category/slug
+        # zh_target is "Category/檔.md", convert to /category/slug
         zh_norm = zh_target.replace(".md", "").replace("knowledge/", "")
         # Lower-case category for URL match
         parts_z = zh_norm.split("/", 1)
@@ -211,7 +211,7 @@ def parse_footnotes(text: str) -> list[dict]:
     if not text:
         return []
     # Strip leading separator
-    text = re.sub(r"^---+\s*\n+_reference資料：?_\s*\n+", "", text)
+    text = re.sub(r"^---+\s*\n+_參考資料：?_\s*\n+", "", text)
     text = re.sub(r"^---+\s*\n+", "", text)
 
     out = []
@@ -305,8 +305,8 @@ def cmd_prompt(zh_path: str):
     for f in fns:
         title = f.get("title", "")
         desc = f.get("desc", "")
- title_has_zh = any("一" <= ch <= "鿿" for ch in title)
- desc_has_zh = any("一" <= ch <= "鿿" for ch in desc)
+        title_has_zh = any("一" <= ch <= "鿿" for ch in title)
+        desc_has_zh = any("一" <= ch <= "鿿" for ch in desc)
         if title_has_zh or desc_has_zh:
             fn_to_translate.append({
                 "ref": f["ref"],
@@ -420,7 +420,7 @@ def cmd_assemble(zh_path: str, en_path: str):
 
     # Strip body trailing `---\n_References:_` block if agent left one (assembler adds canonical)
     body_clean = re.sub(
-        r"\n---\s*\n+_(?:References|reference資料)[:：]?_\s*\n*$",
+        r"\n---\s*\n+_(?:References|參考資料)[:：]?_\s*\n*$",
         "\n",
         trans_body,
         flags=re.M,

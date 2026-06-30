@@ -1,10 +1,10 @@
 """word_count — minimum English word-count gate for depth articles.
 
-Ported from LagunaBeach.md's CJK-char-count gate (depth ≥ 4500 CJK chars) for
+Ported from Taiwan.md's CJK-char-count gate (depth ≥ 4500 CJK chars) for
 LagunaBeach.md's English SSOT content. The CJK threshold doesn't translate
 1:1 — LagunaBeach.md's editorial style is a short locals-guide format, not
 long-form journalism. Calibrated against this fork's actual corpus (18
-articles, 277-773 words) rather than copying LagunaBeach.md's number: 250 words
+articles, 277-773 words) rather than copying Taiwan.md's number: 250 words
 sits just below the current floor so it catches genuine stubs without
 flagging the existing corpus.
 

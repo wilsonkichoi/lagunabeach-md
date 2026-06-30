@@ -1,6 +1,6 @@
-"""article_health.types — sharedDatatype。
+"""article_health.types — 共用資料型別。
 
-Each check plugin yields `Violation`s; runner aggregates 成 `CheckResult`s
+每個 check plugin yields `Violation`s; runner aggregates 成 `CheckResult`s
 和最終的 `HealthReport`。
 """
 
@@ -12,11 +12,11 @@ from typing import Any
 
 
 class Severity(str, Enum):
- """違反critical等級。
+    """違反嚴重等級。
 
- HARD: automatic block commit / PR / build。
- WARN: 列出但不擋。
- INFO: 純資訊（dashboard 用，不出現在 pre-commit）。
+    HARD: 自動 block commit / PR / build。
+    WARN: 列出但不擋。
+    INFO: 純資訊（dashboard 用，不出現在 pre-commit）。
     """
 
     HARD = "hard"
@@ -30,14 +30,14 @@ class Severity(str, Enum):
 
 @dataclass
 class FileTarget:
- """一被Check的Articles。
+    """一篇被檢查的文章。
 
- Loader 在掃 file 時做完一次：
- - YAML frontmatter Parse（cached）
- - body markdown inside文（去除 frontmatter）
- - 受保護block mask（fenced code / inline code / link URL / HTML attr）
+    Loader 在掃 file 時做完一次：
+      - YAML frontmatter 解析（cached）
+      - body markdown 內文（去除 frontmatter）
+      - 受保護區塊 mask（fenced code / inline code / link URL / HTML attr）
 
- Plugins 收到這object，AvoidEach check duplicate parse / split。
+    Plugins 收到這個物件，避免每個 check 重複 parse / split。
     """
 
     path: Path
@@ -60,11 +60,11 @@ class FileTarget:
     protected_regions: list[tuple[int, int, str]] = field(default_factory=list)
 
     # Section boundaries — name → (start, end) in body coords. Lets plugins
- # treat Further Reading / referenceData / imageSource sections specially without
+    # treat 延伸閱讀 / 參考資料 / 圖片來源 sections specially without
     # re-parsing markdown.
     #
- # Triggered by 2026-05-04 Blakiston fish owl incident: the inline CJK punct converter
- # in commit 514dc9fd4 turned `[name](/url)` → `[name](/url）` in Further Reading,
+    # Triggered by 2026-05-04 黃魚鴞 incident: the inline CJK punct converter
+    # in commit 514dc9fd4 turned `[name](/url)` → `[name](/url）` in 延伸閱讀,
     # breaking 5 wikilinks. The fix lives in protected_regions (link-url),
     # but section-level metadata gives plugins a coarser hook.
     sections: dict[str, tuple[int, int]] = field(default_factory=dict)
@@ -86,7 +86,7 @@ class FileTarget:
 
 @dataclass
 class Violation:
- """single違反實例。"""
+    """單一違反實例。"""
 
     check: str  # check name (e.g. "cjk-punct")
     severity: Severity
@@ -100,7 +100,7 @@ class Violation:
 
 @dataclass
 class CheckResult:
- """single check 跑完一 file 的結果。"""
+    """單一 check 跑完一個 file 的結果。"""
 
     check: str
     passed: bool  # True if no HARD violations

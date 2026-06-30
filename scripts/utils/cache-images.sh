@@ -1,20 +1,20 @@
 #!/bin/bash
-# downloadall Wikimedia image到local，替換 URL
-# Avoid Wikimedia 429 rate limit 導致image死掉
+# 下載所有 Wikimedia 圖片到本地，替換 URL
+# 避免 Wikimedia 429 rate limit 導致圖片死掉
 set -e
 cd "$(dirname "$0")/.."
 
 IMG_DIR="public/images/wiki"
 mkdir -p "$IMG_DIR"
 
-echo "🖼️ Wikimedia imagecachetool"
+echo "🖼️  Wikimedia 圖片快取工具"
 echo "================================================="
 
-# 找出all Wikimedia URLs
+# 找出所有 Wikimedia URLs
 URLS=$(grep -roh 'https://upload.wikimedia.org/[^")*'"'"' ]*' knowledge/ src/pages/ src/components/ 2>/dev/null | sed "s/'$//" | sort -u)
 
 TOTAL=$(echo "$URLS" | wc -l | tr -d ' ')
-echo "📊 Found $TOTAL Wikimedia image URL"
+echo "📊 找到 $TOTAL 個 Wikimedia 圖片 URL"
 echo ""
 
 COUNT=0
@@ -24,7 +24,7 @@ FAILED=0
 for URL in $URLS; do
   COUNT=$((COUNT + 1))
   
- # Generatelocalfilename（URL hash + 副filename）
+  # 生成本地檔名（URL hash + 副檔名）
   HASH=$(echo "$URL" | md5 | cut -c1-12)
   EXT=$(echo "$URL" | grep -oE '\.(jpg|jpeg|png|svg|gif|JPG|JPEG|PNG|SVG)' | tail -1 | tr '[:upper:]' '[:lower:]')
   [ -z "$EXT" ] && EXT=".jpg"
@@ -32,16 +32,16 @@ for URL in $URLS; do
   LOCAL_PATH="/images/wiki/${HASH}${EXT}"
   
   if [ -f "$LOCAL_FILE" ]; then
- echo " ⏭️ [$COUNT/$TOTAL] 已cache: ${HASH}${EXT}"
+    echo "  ⏭️  [$COUNT/$TOTAL] 已快取: ${HASH}${EXT}"
     CACHED=$((CACHED + 1))
     continue
   fi
   
- echo -n " ⬇️ [$COUNT/$TOTAL] download中... "
+  echo -n "  ⬇️  [$COUNT/$TOTAL] 下載中... "
   
- # download（加 User-Agent Avoid被擋）
+  # 下載（加 User-Agent 避免被擋）
   HTTP_CODE=$(curl -s -o "$LOCAL_FILE" -w "%{http_code}" \
-    -H "User-Agent: TaiwanMD/1.0 (https://lagunabeach.md; educational open-source project)" \
+    -H "User-Agent: TaiwanMD/1.0 (https://taiwan.md; educational open-source project)" \
     -L --max-time 15 "$URL" 2>/dev/null)
   
   if [ "$HTTP_CODE" = "200" ] && [ -s "$LOCAL_FILE" ]; then
@@ -54,18 +54,18 @@ for URL in $URLS; do
     FAILED=$((FAILED + 1))
   fi
   
- # Rate limit 友善：每間隔 0.5 秒
+  # Rate limit 友善：每張間隔 0.5 秒
   sleep 0.5
 done
 
 echo ""
 echo "================================================="
-echo "📊 結果: $CACHED cacheSuccess / $FAILED Failed / $TOTAL total"
-echo "📂 cachedirectory: $IMG_DIR"
+echo "📊 結果: $CACHED 快取成功 / $FAILED 失敗 / $TOTAL 總計"
+echo "📂 快取目錄: $IMG_DIR"
 
-# Generate URL mapping 供未來替換用
+# 生成 URL mapping 供未來替換用
 echo ""
-echo "📝 Generate URL 映射表..."
+echo "📝 生成 URL 映射表..."
 MAPPING="$IMG_DIR/url-mapping.txt"
 > "$MAPPING"
 
@@ -81,7 +81,7 @@ for URL in $URLS; do
 done
 
 MAP_COUNT=$(wc -l < "$MAPPING" | tr -d ' ')
-echo " ✅ $MAP_COUNT 筆映射Write $MAPPING"
+echo "  ✅ $MAP_COUNT 筆映射寫入 $MAPPING"
 echo ""
-echo "💡 next step：Execute scripts/replace-wiki-urls.sh 將all URL 替換為localpath"
+echo "💡 下一步：執行 scripts/replace-wiki-urls.sh 將所有 URL 替換為本地路徑"
 echo "================================================="

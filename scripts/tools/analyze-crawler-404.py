@@ -3,15 +3,15 @@
 analyze-crawler-404.py — AI crawler per-UA × path × status breakdown
 
 把 CF httpRequestsAdaptiveGroups 用 (userAgent × clientRequestPath × edgeResponseStatus)
-三維 group，找出Each AI crawler 的 top 404 paths。這是「為 AI Reader做 SEO」
-(LONGINGS 2026-04-18) 戰略的第一量化tool。
+三維 group，找出每個 AI crawler 的 top 404 paths。這是「為 AI 讀者做 SEO」
+(LONGINGS 2026-04-18) 戰略的第一個量化工具。
 
 2026-04-18 ι session instantiate — based on ζ session finding:
-- PerplexityBot Success率 49% / OAI-SearchBot 36% / BingBot 53%
-- 每修一 crawler-specific 404 pattern → 每週 1K-3K more cite-able pages
+- PerplexityBot 成功率 49% / OAI-SearchBot 36% / BingBot 53%
+- 每修一個 crawler-specific 404 pattern → 每週 1K-3K more cite-able pages
 
-Usage：
- python3 scripts/tools/analyze-crawler-404.py # allmain crawler
+用法：
+    python3 scripts/tools/analyze-crawler-404.py              # 所有主要 crawler
     python3 scripts/tools/analyze-crawler-404.py --ua PerplexityBot
     python3 scripts/tools/analyze-crawler-404.py --days 3
 """

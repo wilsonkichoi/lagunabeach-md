@@ -1,30 +1,30 @@
 #!/usr/bin/env python3
 """
-fetch-search-events.py — From GA4 拉 search_query / search_result_click eventData
+fetch-search-events.py — 從 GA4 拉 search_query / search_result_click 事件數據
 
-Read昨天上線（2026-04-13 γ session）的 GA4 自訂eventTrack：
+讀取昨天上線（2026-04-13 γ session）的 GA4 自訂事件追蹤：
   - search_query    : { search_term, results_count, search_lang, search_mode }
   - search_result_click : { search_term, click_title, click_url, click_position }
 
-Output兩視角：
- 1. Top queries — Readeractual在搜什麼
- 2. Zero-result queries — Reader想要但我們None的東西（最高價值）
- 3. Top click patterns — 搜索→點擊ConvertSuccess的詞
+輸出兩個視角：
+  1. Top queries — 讀者實際在搜什麼
+  2. Zero-result queries — 讀者想要但我們沒有的東西（最高價值）
+  3. Top click patterns — 搜索→點擊轉換成功的詞
 
-Usage:
+用法:
     python3 scripts/tools/fetch-search-events.py [--days 7]
 
-Output:
-    ~/.config/lagunabeach-md/cache/search-events-latest.json
+輸出:
+    ~/.config/taiwan-md/cache/search-events-latest.json
     stdout: human-readable markdown report
 
-TODO 7 天後（4/21）跑這tool看actualData。
+TODO 7 天後（4/21）跑這個工具看實際數據。
 
-Why分開不放在 fetch-ga4.py：
- search event是 funnel 分析的專屬視角，跟 site-wide 流量Data是differentissue。
- 分開讓 EVOLVE-PIPELINE Can針對性消費「Reader想要什麼」的訊號。
+為什麼分開不放在 fetch-ga4.py：
+  search 事件是 funnel 分析的專屬視角，跟 site-wide 流量數據是不同問題。
+  分開讓 EVOLVE-PIPELINE 可以針對性消費「讀者想要什麼」的訊號。
 
-Source: 2026-04-14 η session, Tier 1 #3
+來源: 2026-04-14 η session, Tier 1 #3
 """
 import argparse
 import json
@@ -33,7 +33,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-CONFIG_DIR = Path.home() / ".config" / "lagunabeach-md"
+CONFIG_DIR = Path.home() / ".config" / "taiwan-md"
 CREDENTIALS_DIR = CONFIG_DIR / "credentials"
 CACHE_DIR = CONFIG_DIR / "cache"
 VENV_DIR = CONFIG_DIR / "venv"
@@ -80,7 +80,7 @@ def main():
     except ImportError:
         fail(
             "google-analytics-data not installed. Install via:\n"
-            "  ~/.config/lagunabeach-md/venv/bin/pip install google-analytics-data google-auth"
+            "  ~/.config/taiwan-md/venv/bin/pip install google-analytics-data google-auth"
         )
 
     creds_path = CREDENTIALS_DIR / "google-service-account.json"
@@ -233,7 +233,7 @@ def main():
         print(f"| {i} | `{q['term']}` | {q['lang']} | {q['count']} |")
 
     print(f"\n## ⚠️ Zero-Result Queries — Content Gap Signals ({len(data['zero_result_queries'])})\n")
- print("> Reader搜了但Not found——這是最高價值的Content缺口情報\n")
+    print("> 讀者搜了但找不到——這是最高價值的內容缺口情報\n")
     if data["zero_result_queries"]:
         print("| # | Query | Lang | Count |")
         print("|---|-------|------|-------|")
@@ -243,7 +243,7 @@ def main():
         print("✅ No zero-result queries (every search returned matches)")
 
     print(f"\n## 🎯 Top Click Patterns ({len(data['clicks'])})\n")
- print("> 哪些Search詞最終Convert成點擊\n")
+    print("> 哪些搜尋詞最終轉換成點擊\n")
     if data["clicks"]:
         print("| # | Query → Article | Count |")
         print("|---|------------------|-------|")

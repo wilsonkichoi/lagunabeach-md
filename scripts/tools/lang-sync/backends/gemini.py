@@ -12,7 +12,7 @@ Weaknesses: requires --skip-trust flag for non-interactive use; CLI overhead per
 quota may hit "exhausted your capacity on this model. Your quota will reset after Xs"
 but auto-retries.
 
-PerCheyu callout 2026-05-12 alongside codex: "用我的 gemini 訂閱handle".
+Per哲宇 callout 2026-05-12 alongside codex: "用我的 gemini 訂閱處理".
 """
 from __future__ import annotations
 

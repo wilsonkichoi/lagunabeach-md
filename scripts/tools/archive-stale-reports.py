@@ -6,31 +6,31 @@ archive-stale-reports.py — quarterly archive stale top-level reports/*.md
 reports/archive/{YYYY-Q}/ ，per reports-archival-audit-2026-05-27.md Layer 4。
 
 「無 reference」= grep 全 repo（不含 .git / node_modules / dist / .claude/worktrees /
-reports/archive 自身）Not found指向該檔的 markdown link / wikilink / raw filename。
+reports/archive 自身）找不到指向該檔的 markdown link / wikilink / raw filename。
 
-Default: dry-run。Needactual移動加 --apply。
+Default: dry-run。需要實際移動加 --apply。
 
 Usage:
- # 預覽 90+ 天的 stale candidate（Default threshold）
+    # 預覽 90+ 天的 stale 候選（預設 threshold）
     python3 scripts/tools/archive-stale-reports.py
 
- # 改 threshold + 預覽
+    # 改 threshold + 預覽
     python3 scripts/tools/archive-stale-reports.py --threshold-days=120
 
- # actualExecute（git mv）
+    # 實際執行（git mv）
     python3 scripts/tools/archive-stale-reports.py --apply
 
- # 指定 archive target quarter
+    # 指定 archive target quarter
     python3 scripts/tools/archive-stale-reports.py --apply --target=reports/archive/2026-Q2
 
-Design principles:
-- Keep git history (用 git mv not rm)
-- 不刪Content (per REFLEXES #22 raw 永遠不刪)
-- Dry-run 為 default，Avoid cron 誤觸大批 archive
-- INDEX title / imagetitle does not count reference (Because INDEX.md 自身被 regen)
+設計原則:
+- 保留 git history (用 git mv 不是 rm)
+- 不刪內容 (per REFLEXES #22 raw 永遠不刪)
+- Dry-run 為 default，避免 cron 誤觸大批 archive
+- INDEX 標題 / 圖片標題 不算 reference (因為 INDEX.md 自身被 regen)
 
 SSOT: reports/reports-archival-audit-2026-05-27.md §4 Layer 4
-Trigger: docs/semiont/ROUTINE.md twmd-quarterly-archive (待加 cron)
+觸發: docs/semiont/ROUTINE.md twmd-quarterly-archive (待加 cron)
 """
 
 from __future__ import annotations
@@ -41,10 +41,10 @@ import subprocess
 from datetime import datetime, timedelta
 from pathlib import Path
 
-# 不掃 reference 的位置 (Avoid循環:
-# - reports/archive/* 已歸檔does not count active reference
-# - .claude/worktrees/* worktree clone does not count
-# - INDEX.md 是 derived，does not count reference)
+# 不掃 reference 的位置 (避免循環:
+#   - reports/archive/* 已歸檔不算 active reference
+#   - .claude/worktrees/* worktree clone 不算
+#   - INDEX.md 是 derived，不算 reference)
 EXCLUDE_REF_PATHS = (
     ".git", "node_modules", "dist", ".astro",
     ".claude/worktrees",
@@ -128,7 +128,7 @@ def scan_stale(reports_dir: Path, threshold_days: int, repo_root: Path) -> list[
             continue
         refs = count_references(filepath.stem, repo_root)
         if refs > 0:
- continue # 有活的 reference 不歸檔
+            continue  # 有活的 reference 不歸檔
         candidates.append({
             "filepath": filepath,
             "age_days": age,

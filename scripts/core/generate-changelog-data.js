@@ -58,7 +58,7 @@ function dedupeAndTrim(commits, limit) {
 // First commit of this fork ("feat: fork taiwan-md as lagunabeach-md"). Kept
 // in sync with FORK_COMMIT in src/lib/commits.ts — bounds the changelog to
 // LagunaBeach.md's own history instead of walking into ~4,900 inherited
-// LagunaBeach.md commits from upstream contributors.
+// Taiwan.md commits from upstream contributors.
 const FORK_COMMIT = 'eac448e9c0d04a32ce9c6986eec7c9d4c64ede07';
 
 function getCommitsFromGit(limit) {

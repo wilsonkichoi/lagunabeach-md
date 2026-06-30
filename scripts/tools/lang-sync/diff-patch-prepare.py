@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """diff-patch-prepare.py — prepare patch-translate batch for Sonnet sub-agents
 
-design：對 P2 stale (small body diff) Articles不重翻，改 patch existing translation
+設計：對 P2 stale (small body diff) 文章不重翻，改 patch existing translation
 with the zh diff applied to the corresponding lang. 比 full re-translation 快 5-10x，
-preserves unchanged paragraphs (Avoid LLM drift)，cheaper token cost。
+preserves unchanged paragraphs (避免 LLM drift)，cheaper token cost。
 
 Tier 0 in cascade (前於 Tier 1 owl-alpha):
   - P0 missing → Tier 1+ (full translation)
   - P1 major   → Tier 1+ (full translation)
   - P2 minor   → **Tier 0 diff-patch** (new — this script)
   - P2.5 metadata → bump-source-sha.py (deterministic, no LLM)
- - P3 old → 視Content決定
+  - P3 old     → 視內容決定
 
 ## Algorithm
 
@@ -20,7 +20,7 @@ For each (zh_path, lang) pair:
   3. Read current zh source + existing translation file
   4. Output per-pair task JSON:
      {
- "zh_path": "People/聶永真.md",
+       "zh_path": "People/聶永真.md",
        "lang": "en",
        "translation_path": "knowledge/en/People/nieh-yung-jen.md",
        "old_sha": "5b9e5b9e",
@@ -61,9 +61,9 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parents[3]
 LANGS = ["en", "ja", "ko", "es", "fr"]
 
-# Hash function canonical 在 status.py — 本檔曾自帶一份implement（full-file hash + lstrip diff），
+# Hash 函式 canonical 在 status.py — 本檔曾自帶一份實作（full-file hash + lstrip 差異），
 # 跟 status.py 的 body-only hash 語意分歧，patch 寫回的 sourceContentHash 永遠對不上
-# → 補完 patch 仍判 stale 的迴圈（2026-06-08 起連 4 晚 /tmp 自救）。singleSource杜絕。
+# → 補完 patch 仍判 stale 的迴圈（2026-06-08 起連 4 晚 /tmp 自救）。單一來源杜絕。
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from status import body_hash, body_hash_pure  # noqa: E402
 
@@ -94,10 +94,10 @@ def git_latest_commit():
 
 
 def git_file_last_commit(rel_path):
- """zh 檔自己的最後一 commit（NOT repo HEAD）。
+    """zh 檔自己的最後一個 commit（NOT repo HEAD）。
 
- status.py classify Compare translation sourceCommitSha vs zh 檔 lastCommit；寫 HEAD
- 進 frontmatter 會讓 sha not in該檔歷史 → Case D fallback → hash 再 mismatch → 永遠 stale。
+    status.py classify 比對 translation sourceCommitSha vs zh 檔 lastCommit；寫 HEAD
+    進 frontmatter 會讓 sha 不在該檔歷史 → Case D fallback → hash 再 mismatch → 永遠 stale。
     """
     result = subprocess.run(
         ["git", "log", "-1", "--format=%H", "--", rel_path],
@@ -173,10 +173,10 @@ def build_task(zh_path, lang, max_diff_lines=100):
     current_zh = current_zh_path.read_text(encoding="utf-8") if current_zh_path.exists() else ""
     current_translation = tf.read_text(encoding="utf-8")
 
- # 三 expected 值allalignment status.py 的 truth function（singleSource）：
- # sha = zh 檔自己的 lastCommit（not repo HEAD）
- # hash = body_hash（frontmatter 後全 body，含 trailer）
- # body = body_hash_pure（再 strip trailer + footnote defs）
+    # 三個 expected 值全部對齊 status.py 的 truth function（單一來源）：
+    #   sha   = zh 檔自己的 lastCommit（不是 repo HEAD）
+    #   hash  = body_hash（frontmatter 後全 body，含 trailer）
+    #   body  = body_hash_pure（再 strip trailer + footnote defs）
     zh_last_sha = git_file_last_commit(f"knowledge/{zh_path}")
     return {
         "zh_path": zh_path,

@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
-# bulk-pr-analyze.sh v1.0 — batch PR 分析report
-# Usage: bash scripts/tools/bulk-pr-analyze.sh
+# bulk-pr-analyze.sh v1.0 — 批次 PR 分析報告
+# 用法: bash scripts/tools/bulk-pr-analyze.sh
 #       bash scripts/tools/bulk-pr-analyze.sh --author <name>
 #       bash scripts/tools/bulk-pr-analyze.sh --json
 #
-# 對all open PR 做元DataScan：作者、規模、Language、category、時間、status。
-# 答 4 issue：
-# 1. 誰送的？same人多少？
-# 2. 哪些是Translation PR？哪些是新Content？
-# 3. covers哪些Language/category？
-# 4. 哪些是 ready to merge / 哪些有 conflict / 哪些等response？
+# 對所有 open PR 做元數據掃描：作者、規模、語言、分類、時間、狀態。
+# 答 4 個問題：
+#   1. 誰送的？同一個人多少？
+#   2. 哪些是翻譯 PR？哪些是新內容？
+#   3. 涵蓋哪些語言/分類？
+#   4. 哪些是 ready to merge / 哪些有 conflict / 哪些等回應？
 #
-# designtarget：Heartbeat Beat 1 的 PR 全景診斷，5 秒看完all open PR 的形狀。
+# 設計目標：心跳 Beat 1 的 PR 全景診斷，5 秒看完所有 open PR 的形狀。
 set -uo pipefail
 cd "$(dirname "$0")/../.."
 
@@ -26,7 +26,7 @@ while [[ $# -gt 0 ]]; do
       head -16 "$0" | tail -15 | sed 's/^# \?//'
       exit 0
       ;;
- *) echo "unknownParameters: $1"; exit 1 ;;
+    *) echo "未知參數: $1"; exit 1 ;;
   esac
 done
 
@@ -34,7 +34,7 @@ done
 PRS_JSON=$(gh pr list --limit 200 --state open --json number,title,author,additions,deletions,createdAt,updatedAt,mergeable,labels,files 2>/dev/null)
 
 if [[ -z "$PRS_JSON" ]] || [[ "$PRS_JSON" == "[]" ]]; then
- echo "✅ None open PR"
+  echo "✅ 沒有 open PR"
   exit 0
 fi
 
@@ -55,7 +55,7 @@ if filter_author:
     prs = [p for p in prs if p['author']['login'] == filter_author]
 
 if not prs:
- print(f"Nonematches件的 PR (author: {filter_author})")
+    print(f"沒有符合條件的 PR (author: {filter_author})")
     sys.exit(0)
 
 # === Author breakdown ===

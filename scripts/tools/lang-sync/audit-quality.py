@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-audit-quality.py — Stage Z6 automaticScanQuality audit
+audit-quality.py — Stage Z6 自動掃描品質 audit
 
-「fresh」是 metadata fresh，not content quality。status.py 看 frontmatter
-元Data；本tool看actualContentQuality：size ratio / frontmatter completeness /
+「fresh」是 metadata fresh，不是 content quality。status.py 看 frontmatter
+元資料；本工具看實際內容品質：size ratio / frontmatter completeness /
 YAML 合法性。
 
 Usage:
@@ -42,10 +42,10 @@ def find_zh_source(trans_path: str) -> str:
 
     Strip any leading 'knowledge/' prefix from the captured value to match
     sync-translations-json.py behavior (some sub-agents wrote
- `translatedFrom: 'knowledge/Category/檔.md'` instead of the canonical
- `'Category/檔.md'`; without strip, this function returned
- `knowledge/knowledge/Category/檔.md` and falsely flagged 'zh source not
- found'). 2026-05-02 sleepy-colden — REFLEXES #42 v3 sub-agent prompt 反例補強."""
+    `translatedFrom: 'knowledge/Category/檔.md'` instead of the canonical
+    `'Category/檔.md'`; without strip, this function returned
+    `knowledge/knowledge/Category/檔.md` and falsely flagged 'zh source not
+    found'). 2026-05-02 sleepy-colden — REFLEXES #42 v3 sub-agent prompt 反例補強."""
     full = REPO / trans_path
     if not full.exists():
         return ""

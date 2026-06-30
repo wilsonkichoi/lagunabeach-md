@@ -5,7 +5,7 @@ Phase 6 of reports/spore-ssot-pipeline-cleanup-2026-05-08.md (Q1 翻牌：demoli
 
 ## Why
 
-SPORE-LOG.md performanceTrack table 過去是 narrative SSOT — humans/agents wrote D+N harvest
+SPORE-LOG.md 成效追蹤 table 過去是 narrative SSOT — humans/agents wrote D+N harvest
 metrics into rich-text cells. This is SSOT-fragile (parser regressions, format drift).
 Phase 6 demolishes it. Before砍, this script preserves all historical D+N data points
 by converting them to canonical SPORE-HARVESTS body table format.
@@ -13,7 +13,7 @@ by converting them to canonical SPORE-HARVESTS body table format.
 ## Algorithm
 
 1. Index existing SPORE-HARVESTS body rows by (n, d_n_int) — these are already canonical.
-2. Walk SPORE-LOG performanceTrack rows:
+2. Walk SPORE-LOG 成效追蹤 rows:
    - Parse narrative cell for ALL D+N segments (D+0/D+1/D+3/D+5/D+7/D+8/D+9/D+10/D+30 ...)
    - Extract: views / likes / reposts / comments / shares / engagements / rate
 3. Output ONE consolidated `batch-historical-2026-05-08-migration.md`:
@@ -157,9 +157,9 @@ def parse_segment_metrics(d_n, seg_text):
 
 
 def parse_spore_log_metrics_rows():
- """Parse performanceTrack table → list of {n, slug, platform, narrative, struct_views_7d, ...}.
+    """Parse 成效追蹤 table → list of {n, slug, platform, narrative, struct_views_7d, ...}.
 
- Returns rich dict including struct cols (7d reach / 7d 互動 / 30d reach / 30d 互動)
+    Returns rich dict including struct cols (7d 觸及 / 7d 互動 / 30d 觸及 / 30d 互動)
     so we can synthesize D+7 / D+30 entries from struct data even when narrative
     has no D+N markers (common for old spores #1-#28 with simple struct-only rows).
     """
@@ -171,7 +171,7 @@ def parse_spore_log_metrics_rows():
     headers = None
     rows = []
     for line in text.splitlines():
-        if line.startswith("## performance追蹤"):
+        if line.startswith("## 成效追蹤"):
             in_section = True
             continue
         if in_section and line.startswith("## "):
@@ -197,15 +197,15 @@ def parse_spore_log_metrics_rows():
             continue
         rows.append({
             "n": int(n_str),
- "slug": row.get("Articles slug", row.get("Articles", "")),
- "platform": (row.get("platform") or "").strip(),
- "narrative": row.get("最後 harvest", ""),
- "last_harvest_at": row.get("最後 harvest 時間", ""),
+            "slug": row.get("文章 slug", row.get("文章", "")),
+            "platform": (row.get("平台") or "").strip(),
+            "narrative": row.get("最後 harvest", ""),
+            "last_harvest_at": row.get("最後 harvest 時間", ""),
             # Phase 6 supplemental: also capture struct cols
- "struct_views_7d": parse_number(row.get("7d reach", "")),
- "struct_engagements_7d": parse_number(row.get("7d 互動", "")),
- "struct_views_30d": parse_number(row.get("30d reach", "")),
- "struct_engagements_30d": parse_number(row.get("30d 互動", "")),
+            "struct_views_7d": parse_number(row.get("7d 觸及", "")),
+            "struct_engagements_7d": parse_number(row.get("7d 互動", "")),
+            "struct_views_30d": parse_number(row.get("30d 觸及", "")),
+            "struct_engagements_30d": parse_number(row.get("30d 互動", "")),
         })
     return rows
 
@@ -235,7 +235,7 @@ def collect_existing_coverage():
             if s.startswith("|") and s.endswith("|"):
                 if not in_table:
                     headers = [c.strip().lower() for c in s.strip("|").split("|")]
- if "#" in headers and ("d+n" in headers or "platform" in headers or "platform" in headers):
+                    if "#" in headers and ("d+n" in headers or "platform" in headers or "平台" in headers):
                         in_table = True
                     continue
                 if re.match(r"^\|\s*-+", line):
@@ -277,14 +277,14 @@ def render_migration_batch(parsed_rows):
         f"spores: '{', '.join(f'#{n}' for n in spore_ns)}'",
         f"harvest_date: '{TODAY}'",
         f"harvest_window_day: 'mixed (historical D+0 to D+30, migrated)'",
- f"batch_reason: 'one-time migration from SPORE-LOG performanceTrack narrative SSOT to canonical batch log SSOT (Phase 6 demolition)'",
+        f"batch_reason: 'one-time migration from SPORE-LOG 成效追蹤 narrative SSOT to canonical batch log SSOT (Phase 6 demolition)'",
         f"triggered_by: 'observer (migrate-spore-log-to-harvests.py)'",
         f"reply_count: 'n/a (historical migration, no fresh reply scan)'",
         "---",
         "",
         f"# Batch Harvest Historical Migration {TODAY}",
         "",
- f"> Phase 6 SSOT cleanup — converts SPORE-LOG.md performanceTrack narrative cells to canonical body table.",
+        f"> Phase 6 SSOT cleanup — converts SPORE-LOG.md 成效追蹤 narrative cells to canonical body table.",
         f"> Source: SPORE-LOG narrative (rich-text human-written D+N segments).",
         f"> Output: {len(parsed_rows)} (n, D+N) tuples not previously in any SPORE-HARVESTS batch log.",
         "",
@@ -315,8 +315,8 @@ def render_migration_batch(parsed_rows):
         "---",
         "",
         f"_Generated by migrate-spore-log-to-harvests.py on {TODAY}._",
- "_Source: SPORE-LOG.md performanceTrack narrative cells, parsed and structured for SSOT canonicalization._",
- "_After this migration, SPORE-LOG performanceTrack table is deprecated — see Phase 6 of reports/spore-ssot-pipeline-cleanup-2026-05-08.md._",
+        "_Source: SPORE-LOG.md 成效追蹤 narrative cells, parsed and structured for SSOT canonicalization._",
+        "_After this migration, SPORE-LOG 成效追蹤 table is deprecated — see Phase 6 of reports/spore-ssot-pipeline-cleanup-2026-05-08.md._",
     ])
     return "\n".join(fm_lines) + "\n"
 
@@ -338,7 +338,7 @@ def main():
     print()
 
     sl_rows = parse_spore_log_metrics_rows()
- print(f" SPORE-LOG performanceTrack rows: {len(sl_rows)}")
+    print(f"  SPORE-LOG 成效追蹤 rows: {len(sl_rows)}")
 
     existing_coverage = collect_existing_coverage()
     print(f"  Existing canonical (n, D+N) coverage: {len(existing_coverage)} tuples")

@@ -1,10 +1,10 @@
 #!/bin/bash
-# category-check.sh — categorypath一致性檢查
-# 驗證每篇 knowledge/ 文章的 frontmatter category 與actualfilepath是否一致
-# purpose：HEARTBEAT Beat 1 骨骼Organ診斷
+# category-check.sh — 分類路徑一致性檢查
+# 驗證每篇 knowledge/ 文章的 frontmatter category 與實際檔案路徑是否一致
+# 用途：HEARTBEAT Beat 1 骨骼器官診斷
 #
 # Usage:
-#   bash scripts/tools/category-check.sh           # 掃描Chinese SSOT
+#   bash scripts/tools/category-check.sh           # 掃描中文 SSOT
 #   bash scripts/tools/category-check.sh --json    # JSON 輸出
 
 set -uo pipefail
@@ -62,19 +62,19 @@ if $JSON_MODE; then
   echo "}"
 else
   echo ""
-  echo "📁 category-check v1.0 — categorypath一致性"
- echo " Scan: knowledge/<Category>/*.md"
+  echo "📁 category-check v1.0 — 分類路徑一致性"
+  echo "   掃描: knowledge/<Category>/*.md"
   echo ""
   echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
- echo "📊 total: $total "
- echo " ✅ 一致: $((total - mismatch - missing))"
- echo " ⚠️ ���一致: $mismatch"
- echo " 📝 缺 category: $missing"
+  echo "📊 總計: $total 篇"
+  echo "   ✅ 一致: $((total - mismatch - missing))"
+  echo "   ⚠️  ���一致: $mismatch"
+  echo "   📝 缺 category: $missing"
   echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
   if [[ $mismatch -gt 0 ]]; then
     echo ""
-    echo "⚠️  frontmatter category ≠ filepath:"
+    echo "⚠️  frontmatter category ≠ 檔案路徑:"
     for item in "${mismatch_list[@]}"; do
       echo "   • $item"
     done
@@ -87,13 +87,13 @@ else
     for item in "${missing_list[@]}"; do
       echo "   • $item"
       count=$((count + 1))
- [[ $count -ge 20 ]] && echo " ... 及更多 $((missing - 20)) " && break
+      [[ $count -ge 20 ]] && echo "   ... 及更多 $((missing - 20)) 個" && break
     done
   fi
 
   if [[ $mismatch -eq 0 && $missing -eq 0 ]]; then
     echo ""
- echo "✅ allArticlescategorypath一致！"
+    echo "✅ 全部文章分類路徑一致！"
   fi
   echo ""
 fi

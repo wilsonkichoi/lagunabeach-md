@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-sense-diff.py — 比較兩天的Three-source sensing快照，列出關鍵metric delta
+sense-diff.py — 比較兩天的三源感知快照，列出關鍵指標 delta
 
 Usage:
- python3 scripts/tools/sense-diff.py # latest vs 昨天
- python3 scripts/tools/sense-diff.py 2026-04-11 # latest vs 指定日期
- python3 scripts/tools/sense-diff.py 2026-04-11 2026-04-04 # 指定兩日期
- python3 scripts/tools/sense-diff.py --json # JSON Output
+  python3 scripts/tools/sense-diff.py                 # latest vs 昨天
+  python3 scripts/tools/sense-diff.py 2026-04-11      # latest vs 指定日期
+  python3 scripts/tools/sense-diff.py 2026-04-11 2026-04-04  # 指定兩個日期
+  python3 scripts/tools/sense-diff.py --json          # JSON 輸出
 
-2026-04-11 session α Build — 為未來的Heartbeatautomatic diff 昨天 / 本週基準
+2026-04-11 session α 建造 — 為未來的心跳自動 diff 昨天 / 本週基準
 Stdlib only (no venv needed).
 """
 from __future__ import annotations
@@ -19,7 +19,7 @@ from datetime import date, timedelta
 from pathlib import Path
 from typing import List, Tuple
 
-CACHE = Path.home() / ".config" / "lagunabeach-md" / "cache"
+CACHE = Path.home() / ".config" / "taiwan-md" / "cache"
 
 
 def load(name: str) -> "dict":
@@ -143,7 +143,7 @@ def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     json_out = "--json" in sys.argv
 
- # default: latest vs 昨天
+    # default: latest vs 昨天
     if len(args) == 0:
         yesterday = (date.today() - timedelta(days=1)).isoformat()
         a_target, b_target = yesterday, "latest"
@@ -174,32 +174,32 @@ def main():
     if a_cf_m or b_cf_m:
         print_table("Cloudflare", diff_dict(a_cf_m, b_cf_m))
     else:
- print("\n## Cloudflare — 無快照")
+        print("\n## Cloudflare — 無快照")
 
     if a_ga_m or b_ga_m:
         print_table("GA4", diff_dict(a_ga_m, b_ga_m))
     else:
- print("\n## GA4 — 無快照")
+        print("\n## GA4 — 無快照")
 
     if a_sc_m or b_sc_m:
         print_table("Search Console", diff_dict(a_sc_m, b_sc_m))
     else:
- print("\n## Search Console — 無快照")
+        print("\n## Search Console — 無快照")
 
- # 🧪 EXP-2026-04-11-A 快速Verify
+    # 🧪 EXP-2026-04-11-A 快速驗證
     a_404 = a_cf_m.get("404_rate_pct")
     b_404 = b_cf_m.get("404_rate_pct")
     if a_404 is not None and b_404 is not None:
- print("\n## 🧪 EXP-2026-04-11-A: 404 rate drop (預測 16.5% → 6.0% ±2pp)")
+        print("\n## 🧪 EXP-2026-04-11-A: 404 rate drop (預測 16.5% → 6.0% ±2pp)")
         print(f"  before: {a_404}%  →  after: {b_404}%  (Δ {b_404 - a_404:+.1f}pp)")
         if 4.0 <= b_404 <= 8.0:
- print(" ✅ 命中預測區間")
+            print("  ✅ 命中預測區間")
         elif b_404 < 4.0:
- print(" ⚠️ 低於預測 — 筆記：下次Don't低估Fiximpact")
+            print("  ⚠️  低於預測 — 筆記：下次不要低估修復影響")
         elif b_404 > 12.0:
- print(" ❌ 仍高 — also第四 404 黑洞沒Found")
+            print("  ❌ 仍高 — 還有第四個 404 黑洞沒找到")
         else:
- print(" ⏳ partial命中 — continue觀察")
+            print("  ⏳ 部分命中 — 繼續觀察")
 
 
 if __name__ == "__main__":

@@ -13,7 +13,7 @@ Maturity: introduced 2026-05-12 admiring-montalcini-post-finale session when Ope
 全 free-tier rate-limited + Hy3 turned paid. 12 P0 missing articles × 5 langs needed
 ship → codex pivot worked first try.
 
-PerCheyu sovereignty preservation lens: OpenAI is Western provider, no PRC content policy.
+Per哲宇 sovereignty preservation lens: OpenAI is Western provider, no PRC content policy.
 For sovereignty-sensitive Taiwan content (228 / 戒嚴 / 兩岸) this is safe path.
 """
 from __future__ import annotations

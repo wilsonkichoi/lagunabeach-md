@@ -1,5 +1,5 @@
 #!/bin/bash
-# LagunaBeach.md Daily Stats Update
+# Taiwan.md Daily Stats Update
 # Run by cron at midnight daily
 #
 # ⚠️ IMPORTANT: This script MUST NOT modify about.template.astro
@@ -11,7 +11,7 @@
 set -e
 cd "$(dirname "$0")/../.."
 
-echo "📊 Updating LagunaBeach.md stats..."
+echo "📊 Updating Taiwan.md stats..."
 
 # 1. Stars/forks: dashboard-vitals.json SSOT (generate-dashboard-data.js fetches
 #    them once with soft-fail preserve — the SAME source the about page reads, so
@@ -26,8 +26,8 @@ FORKS=$(python3 -c "import json;print(json.load(open('public/api/dashboard-vital
 # 2026-06-13: was .all-contributorsrc (manual, a month stale at 57). contributors.json
 # .totals.contributors is the live committer count; fall back to the rc file → 30.
 CONTRIBUTORS=$(python3 -c "import json;print(json.load(open('public/api/contributors.json'))['totals']['contributors'])" 2>/dev/null || grep -c '"login"' .all-contributorsrc 2>/dev/null || echo 30)
-# 各Language精確Articles數（zh = 大寫categorydirectory無 lang prefix；other = knowledge/{lang}/）。
-# 舊版 ZH_PAGES 用 `! -path '*/en/*'` 把 ja/ko/es/fr 全算進 zh（3977 假數）— fix。
+# 各語言精確文章數（zh = 大寫分類目錄無 lang prefix；其他 = knowledge/{lang}/）。
+# 舊版 ZH_PAGES 用 `! -path '*/en/*'` 把 ja/ko/es/fr 全算進 zh（3977 假數）— 修正。
 ZH_PAGES=$(find knowledge -maxdepth 2 -name '*.md' ! -name '_*' -regex 'knowledge/[A-Z][a-zA-Z]*/.*' | wc -l | tr -d ' ')
 EN_PAGES=$(find knowledge/en -name '*.md' ! -name '_*' 2>/dev/null | wc -l | tr -d ' ')
 JA_PAGES=$(find knowledge/ja -name '*.md' ! -name '_*' 2>/dev/null | wc -l | tr -d ' ')
@@ -35,7 +35,7 @@ KO_PAGES=$(find knowledge/ko -name '*.md' ! -name '_*' 2>/dev/null | wc -l | tr 
 ES_PAGES=$(find knowledge/es -name '*.md' ! -name '_*' 2>/dev/null | wc -l | tr -d ' ')
 FR_PAGES=$(find knowledge/fr -name '*.md' ! -name '_*' 2>/dev/null | wc -l | tr -d ' ')
 TOTAL_PAGES=$ZH_PAGES
-# 近 7/30 天新Articles：dashboard-vitals.json（routine 算好），fallback 0
+# 近 7/30 天新文章：dashboard-vitals.json（routine 算好），fallback 0
 D7=$(python3 -c "import json;print(json.load(open('public/api/dashboard-vitals.json')).get('articlesLast7Days',0))" 2>/dev/null || echo 0)
 D30=$(python3 -c "import json;print(json.load(open('public/api/dashboard-vitals.json')).get('articlesLast30Days',0))" 2>/dev/null || echo 0)
 
@@ -53,7 +53,7 @@ rows = [
     ("📄 Total articles (zh-TW SSOT)", zh),
     ("🇹🇼 Chinese (zh-TW)", zh),
     ("🇺🇸 English (en)", en),
- ("🇯🇵 日本語 (ja)", ja),
+    ("🇯🇵 日本語 (ja)", ja),
     ("🇰🇷 한국어 (ko)", ko),
     ("🇪🇸 Español (es)", es),
     ("🇫🇷 Français (fr)", fr),

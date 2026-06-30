@@ -1,25 +1,25 @@
 #!/usr/bin/env bash
-# refresh.sh — 對單Translationoutput「ready-to-translate」prompt brief
+# refresh.sh — 對單篇翻譯產出「ready-to-translate」prompt brief
 #
-# Usage：
+# 用法：
 #   refresh.sh <zh-path> <lang>
-# refresh.sh Technology/半導體產業.md en
-# refresh.sh Technology/半導體產業.md en --print # stdout 印 brief
-# refresh.sh Technology/半導體產業.md en --apply --sha-only # 已manualTranslation完，Update frontmatter
+#   refresh.sh Technology/半導體產業.md en
+#   refresh.sh Technology/半導體產業.md en --print  # stdout 印 brief
+#   refresh.sh Technology/半導體產業.md en --apply --sha-only  # 已手動翻譯完，更新 frontmatter
 #
-# design：純投影Mode（pure projection，2026-04-29 cheyu insight）
-# zh-TW 是 SSOT，譯文是當下投影。Brief 不讀existing譯文也does not count diff——
-# 反正都會被cover寫，讀進來只是 (a) 浪費 context tokens (b) agent 會去
-# 「Keep風格」或「patch diff」而非乾淨From zh 投影一次。
+# 設計：純投影模式（pure projection，2026-04-29 cheyu insight）
+#   zh-TW 是 SSOT，譯文是當下投影。Brief 不讀既有譯文也不算 diff——
+#   反正都會被覆蓋寫，讀進來只是 (a) 浪費 context tokens (b) agent 會去
+#   「保留風格」或「patch diff」而非乾淨從 zh 投影一次。
 #
 # 工作流：
-# 1. 讀 zh source（HEAD）+ TRANSLATE_PROMPT.md Translationrule
-# 2. 組合成single brief.md 檔（.lang-sync-tasks/{lang}/{slug}.brief.md）
-# 3. Agent From零投影一次（cover寫，不 patch、不 preserve、不 diff）
-# 4. --apply --sha-only：TranslationDone後Update frontmatter 三field（重設 sourceCommitSha 為 zh HEAD）
+#   1. 讀 zh source（HEAD）+ TRANSLATE_PROMPT.md 翻譯規則
+#   2. 組合成單一 brief.md 檔（.lang-sync-tasks/{lang}/{slug}.brief.md）
+#   3. Agent 從零投影一次（覆蓋寫，不 patch、不 preserve、不 diff）
+#   4. --apply --sha-only：翻譯完成後更新 frontmatter 三欄位（重設 sourceCommitSha 為 zh HEAD）
 #
-# refresh.sh 不directly spawn agent。由 lang-sync batch-refresh.sh 或 maintainer
-# 把 brief Content餵 agent。這樣 agent runtime 跟tool解耦（Claude Code / Cursor /
+# refresh.sh 不直接 spawn agent。由 lang-sync batch-refresh.sh 或 maintainer
+# 把 brief 內容餵 agent。這樣 agent runtime 跟工具解耦（Claude Code / Cursor /
 # 純人類都能用）。
 
 set -euo pipefail
@@ -116,11 +116,11 @@ ZH_HEAD_DATE=$(git -C "$REPO" log -1 --format='%aI' -- "knowledge/$ZH_REL")
   echo ""
   echo "## Translation rules"
   echo "- Read \`docs/prompts/TRANSLATE_PROMPT.md\` for full rules"
- echo "- fullTranslation不摘要 (REFLEXES #1)"
- echo "- Keep腳註structure [^1] [^2]"
- echo "- 維持 wikilinks [[X]] 但targetLanguage無corresponding時轉純文characters"
- echo "- characters數 ratio 應 0.65–1.30 (en) / 0.55–1.10 (ja/ko)"
- echo "- en 不套 §11 對位句型 / 破折號限制"
+  echo "- 完整翻譯不摘要 (REFLEXES #1)"
+  echo "- 保留腳註結構 [^1] [^2]"
+  echo "- 維持 wikilinks [[X]] 但目標語言無對應時轉純文字"
+  echo "- 字數 ratio 應 0.65–1.30 (en) / 0.55–1.10 (ja/ko)"
+  echo "- en 不套 §11 對位句型 / 破折號限制"
   echo ""
   echo "## zh source (current HEAD)"
   echo ""

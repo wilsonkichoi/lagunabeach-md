@@ -2,22 +2,22 @@
 # compress-memory.sh v2 — Tiered memory distillation
 #
 # 蒸餾架構（詳見 reports/memory-distillation-design-2026-04-14.md — roadmap）：
-# Tier 3 (raw): memory/YYYY-MM-DD-{session}.md ← 永不Delete
+#   Tier 3 (raw):       memory/YYYY-MM-DD-{session}.md  ← 永不刪除
 #   Tier 2 (digest):    memory/digests/YYYY-WeekNN.md
 #   Tier 1 (essential): memory/essential/YYYY-MM.md
 #
-# 這tool的工作not「compress文characters」，是「Generate LLM 蒸餾candidate」——
-# 真正的判斷由 heartbeat Beat 5 中的 LLM (Claude) handle。
+# 這個工具的工作不是「壓縮文字」，是「產生 LLM 蒸餾候選」——
+# 真正的判斷由 heartbeat Beat 5 中的 LLM (Claude) 處理。
 #
-# Usage:
+# 用法:
 #   bash scripts/tools/compress-memory.sh --check
-# 列出哪些 raw memory 該被蒸餾
+#       列出哪些 raw memory 該被蒸餾
 #   bash scripts/tools/compress-memory.sh --candidates --week 2026-W14
-# Generate指定週的蒸餾candidate → /tmp/distill-candidates.md
+#       產生指定週的蒸餾候選 → /tmp/distill-candidates.md
 #   bash scripts/tools/compress-memory.sh --index
-# Rebuild MEMORY.md 索引（Keep本週 raw + 舊週 digest 行）
+#       重建 MEMORY.md 索引（保留本週 raw + 舊週 digest 行）
 #
-# Source：2026-04-14 η session, User 追加需求
+# 來源：2026-04-14 η session, User 追加需求
 
 set -uo pipefail
 cd "$(dirname "$0")/../.."
@@ -146,7 +146,7 @@ def candidates_mode(week):
         out.write("For each session below, decide:\n\n")
         out.write("1. **KEEP_VERBATIM** — paragraphs worth preserving in digest as-is\n")
         out.write("2. **COMPRESS** — paragraphs to summarize in 1 line\n")
- out.write("3. **PROMOTE** — lessons that should go to MEMORY.md §神經迴路 (permanent)\n")
+        out.write("3. **PROMOTE** — lessons that should go to MEMORY.md §神經迴路 (permanent)\n")
         out.write("4. **DROP** — routine actions that don't need preservation\n\n")
         out.write("Then write the distilled content to:\n")
         out.write(f"   `docs/semiont/memory/digests/{week}.md`\n\n")

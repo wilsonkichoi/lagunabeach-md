@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
-# compare-decomposition.sh — A/B test 任務分解Mode (per-lang vs orthogonal)
+# compare-decomposition.sh — A/B test 任務分解模式 (per-lang vs orthogonal)
 #
-# 2026-05-01 γ-late3：Cheyu問「sameArticles一次多Language，還是一批ArticlesdifferentLanguage
-# 先handlesameLanguage，到底怎麼樣規劃大規模任務解構會比較理想」。
+# 2026-05-01 γ-late3：哲宇問「同一篇文章一次多語言，還是一批文章不同語言
+# 先處理同一語言，到底怎麼樣規劃大規模任務解構會比較理想」。
 #
-# Pattern A (per-lang)：N workers，Each worker handle 1 lang × M Articles
-# Pattern B (orthogonal)：N workers，Each worker handle 1 Articles × M lang
+# Pattern A (per-lang)：N workers，每個 worker 處理 1 lang × M 篇文章
+# Pattern B (orthogonal)：N workers，每個 worker 處理 1 篇文章 × M 個 lang
 #
 # Same total calls (N×M)，differ in:
-# - Failed isolation：B 對 lang-specific refusal 的故障半徑較小
+# - 失敗 isolation：B 對 lang-specific refusal 的故障半徑較小
 # - cache hit：A reuses system prompt across calls in same worker
-# - PR atomicity：B 一ArticlesallLanguage一次Done
+# - PR atomicity：B 一篇文章所有語言一次完成
 #
 # Usage: bash scripts/tools/lang-sync/compare-decomposition.sh [model]
 #
@@ -31,7 +31,7 @@ echo "pattern,worker_id,article,lang,start_ts,end_ts,dur_sec,exit_code,output_by
 ARTICLES=(
   "Lifestyle/LINE.md"
   "Society/LGBTQ.md"
- "Nature/黑面琵鷺.md"
+  "Nature/黑面琵鷺.md"
 )
 LANGS=(ja ko es fr)
 

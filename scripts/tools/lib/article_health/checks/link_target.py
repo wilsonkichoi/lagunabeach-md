@@ -17,7 +17,7 @@ for the full build.
 
 Trigger: 2026-05-04 jovial-feistel session — CI run 25325225046 failed with
 649 broken `](/lang/UpperCase/...)` links (Phase 1). Cheyu pushed for Phase 2
-during fix: "Currently有CheckContent交叉連結能否到達真實頁面嗎？None的話怎麼改良tool".
+during fix: "目前有檢查內容交叉連結能否到達真實頁面嗎？沒有的話怎麼改良工具".
 """
 
 from __future__ import annotations
@@ -142,7 +142,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
         yield Violation(
             check=CHECK_NAME,
             severity=Severity.HARD,
-            message=f"link path category 必須小寫：/{category}/ → /{category.lower()}/",
+            message=f"link 路徑 category 必須小寫：/{category}/ → /{category.lower()}/",
             line=line,
             col=col,
             snippet=_snippet(body, m.start(), m.end()),
@@ -173,7 +173,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
         yield Violation(
             check=CHECK_NAME,
             severity=Severity.WARN,
- message=f"link targetDoes not exist：{path}",
+            message=f"link 目標不存在：{path}",
             line=line,
             col=col,
             snippet=_snippet(body, m.start(), m.end()),

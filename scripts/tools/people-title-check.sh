@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
-# people-title-check.sh v1.0 — People 類 title 冒號三明治spec遵守率Check
-# corresponding EDITORIAL.md principle 5（v5.4，Issue #618）：People/ 目 title 強制「人名：represents性弧線或scene」
+# people-title-check.sh v1.0 — People 類 title 冒號三明治規範遵守率檢查
+# 對應 EDITORIAL.md 原則 5（v5.4，Issue #618）：People/ 條目 title 強制「人名：代表性弧線或場景」
 #
-# Advisory tool（不擋 commit），用於：
-# 1. 日常 dashboard KPI display遵守率
-# 2. 列出待 migrate 的長尾file
-# 3. 新 PR selfCheck
+# Advisory 工具（不擋 commit），用於：
+#   1. 日常 dashboard KPI 顯示遵守率
+#   2. 列出待 migrate 的長尾檔案
+#   3. 新 PR 自我檢查
 #
 # Usage:
-# bash scripts/tools/people-title-check.sh # 摘要report
-# bash scripts/tools/people-title-check.sh --list # 列出all不matches的file
-# bash scripts/tools/people-title-check.sh --json # JSON Output（dashboard 用）
+#   bash scripts/tools/people-title-check.sh              # 摘要報告
+#   bash scripts/tools/people-title-check.sh --list       # 列出所有不符合的檔案
+#   bash scripts/tools/people-title-check.sh --json       # JSON 輸出（dashboard 用）
 
 set -uo pipefail
 cd "$(dirname "$0")/../.."
@@ -50,7 +50,7 @@ for filepath in "$KNOWLEDGE_DIR"/*.md; do
 done
 
 if [[ $total -eq 0 ]]; then
- echo "⚠️ Not found $KNOWLEDGE_DIR 下的 .md file，請確認pathcorrect。"
+  echo "⚠️  找不到 $KNOWLEDGE_DIR 下的 .md 檔案，請確認路徑正確。"
   exit 1
 fi
 
@@ -73,19 +73,19 @@ if $JSON_MODE; then
   echo "}"
 else
   echo ""
- echo "👤 people-title-check v1.0 — People title 冒號三明治遵守率"
- echo " spec：EDITORIAL.md principle 5（v5.4）| Issue #618"
+  echo "👤 people-title-check v1.0 — People title 冒號三明治遵守率"
+  echo "   規範：EDITORIAL.md 原則 5（v5.4）| Issue #618"
   echo ""
   echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
- echo "📊 total：$total "
- echo " ✅ matches（人名：副標）：$compliant ($compliance_pct%)"
- echo " ❌ 待 migrate（純人名）：$non_compliant "
+  echo "📊 總計：$total 篇"
+  echo "   ✅ 符合（人名：副標）：$compliant 篇 ($compliance_pct%)"
+  echo "   ❌ 待 migrate（純人名）：$non_compliant 篇"
   echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
   if [[ $non_compliant -gt 0 ]]; then
     if $LIST_MODE; then
       echo ""
- echo "❌ 待 migrate fulllist（共 $non_compliant ）："
+      echo "❌ 待 migrate 完整清單（共 $non_compliant 篇）："
       for item in "${non_compliant_list[@]}"; do
         fname=$(echo "$item" | cut -d'|' -f1)
         title=$(echo "$item" | cut -d'|' -f2-)
@@ -93,24 +93,24 @@ else
       done
     else
       echo ""
- echo " 前 20 筆（用 --list 看fulllist）："
+      echo "   前 20 筆（用 --list 看完整清單）："
       count=0
       for item in "${non_compliant_list[@]}"; do
         fname=$(echo "$item" | cut -d'|' -f1)
         echo "   • $fname"
         count=$((count + 1))
- [[ $count -ge 20 ]] && echo " ... also $((non_compliant - 20)) " && break
+        [[ $count -ge 20 ]] && echo "   ... 還有 $((non_compliant - 20)) 篇" && break
       done
     fi
     echo ""
- echo "📌 Formatrequest：「人名：represents性弧線或scene」"
- echo " ❌ 忠謀"
- echo " ✅ 忠謀：From德州儀器到台積電，半導體代工Mode的發明者"
+    echo "📌 格式要求：「人名：代表性弧線或場景」"
+    echo "   ❌ 張忠謀"
+    echo "   ✅ 張忠謀：從德州儀器到台積電，半導體代工模式的發明者"
     echo ""
- echo " Tier 化 sweep 計畫見 LESSONS-INBOX.md #2026-04-26-β-r2"
+    echo "   Tier 化 sweep 計畫見 LESSONS-INBOX.md #2026-04-26-β-r2"
   else
     echo ""
- echo "✅ all People Articles title 均已matches冒號三明治spec！"
+    echo "✅ 全部 People 文章 title 均已符合冒號三明治規範！"
   fi
   echo ""
 fi

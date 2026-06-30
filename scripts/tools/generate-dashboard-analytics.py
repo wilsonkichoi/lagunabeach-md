@@ -3,9 +3,9 @@
 generate-dashboard-analytics.py — Merge sense cache → public/api/dashboard-analytics.json
 
 Reads the three-source cache built by fetch-sense-data.sh:
-  ~/.config/lagunabeach-md/cache/ga4-latest.json
-  ~/.config/lagunabeach-md/cache/search-console-latest.json
-  ~/.config/lagunabeach-md/cache/cloudflare-latest.json
+  ~/.config/taiwan-md/cache/ga4-latest.json
+  ~/.config/taiwan-md/cache/search-console-latest.json
+  ~/.config/taiwan-md/cache/cloudflare-latest.json
 
 And merges them into the hand-maintained dashboard-analytics.json, preserving
 any sections we don't own (cloudflare24h breakdowns, hand-written highlights, etc).
@@ -32,7 +32,7 @@ from datetime import datetime
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-CACHE = Path.home() / ".config" / "lagunabeach-md" / "cache"
+CACHE = Path.home() / ".config" / "taiwan-md" / "cache"
 TARGET = REPO_ROOT / "public" / "api" / "dashboard-analytics.json"
 
 
@@ -82,7 +82,7 @@ def normalize_path(path: str) -> str:
 
 
 def clean_title(title: str) -> str:
-    return (title or "").replace(" | LagunaBeach.md", "").strip()
+    return (title or "").replace(" | Taiwan.md", "").strip()
 
 
 # Language detection from URL path prefix.
@@ -256,16 +256,16 @@ BRAND_QUERY_PATTERNS = [
     r"\btaiwan\s*md\b",
     r"\bmd\s*taiwan\b",
     r"^\s*md\s*$",  # exact "md"
-    r"lagunabeachmd",
+    r"taiwandotmd",
 ]
 
 
 def _is_brand_query(q_str):
-    """Classify a query as brand (contains 'lagunabeach.md' / 'laguna beach md' / exact 'md' / 'lagunabeachmd').
+    """Classify a query as brand (contains 'taiwan.md' / 'taiwan md' / exact 'md' / 'taiwandotmd').
 
- 2026-04-17 δ: SC 7d 總 CTR 8.54% 虛胖 — top queries 'laguna beach md' 62% / 'lagunabeach.md' 71%
- (brand 詞) 撐起整體率。真實 non-brand Search可見度 <3%。拆分揭露分層真相（REFLEXES #24
- 第 5 種「加權平均掩蓋分層真相」的儀器化）。
+    2026-04-17 δ: SC 7d 總 CTR 8.54% 虛胖 — top queries 'taiwan md' 62% / 'taiwan.md' 71%
+    (brand 詞) 撐起整體率。真實 non-brand 搜尋可見度 <3%。拆分揭露分層真相（REFLEXES #24
+    第 5 種「加權平均掩蓋分層真相」的儀器化）。
     """
     import re as _re
     if not q_str:
@@ -336,7 +336,7 @@ def build_sc_7d_section(sc_raw):
     if ctr_pct <= 1:
         ctr_pct = round(ctr_pct * 100, 2)
 
- # Brand vs non-brand breakdown (2026-04-17 δ — REFLEXES #24 第 5 種儀器化)
+    # Brand vs non-brand breakdown (2026-04-17 δ — REFLEXES #24 第 5 種儀器化)
     brand_clicks = brand_imp = 0
     nonbrand_clicks = nonbrand_imp = 0
     for q in sc_raw.get("queries", []):
@@ -375,8 +375,8 @@ def build_sc_7d_section(sc_raw):
                 "ctr": _ctr(nonbrand_clicks, nonbrand_imp),
             },
             "note": (
-                "Brand = queries containing 'lagunabeach.md' / 'laguna beach md' / exact 'md' / "
-                "'lagunabeachmd'. Total CTR aggregates both; brand CTR is usually 60-80%, "
+                "Brand = queries containing 'taiwan.md' / 'taiwan md' / exact 'md' / "
+                "'taiwandotmd'. Total CTR aggregates both; brand CTR is usually 60-80%, "
                 "nonBrand CTR reflects true external discoverability."
             ),
         },
@@ -457,8 +457,8 @@ def build_ai_crawlers_dashboard(ai_raw):
         "crawlers": crawlers_simple,
         "period": ai_raw.get("period"),
     }
- # 主權巴別塔 per-language gauge（audit 2026-06-10 A-9）：AI 在各Language讀了
- # 多少 LagunaBeach.md — Translation infrastructure 的真正 KPI。Pass-through，cache 有才有。
+    # 主權巴別塔 per-language gauge（audit 2026-06-10 A-9）：AI 在各語言讀了
+    # 多少 Taiwan.md — 翻譯 infrastructure 的真正 KPI。Pass-through，cache 有才有。
     if ai_raw.get("perLanguage"):
         out["perLanguage"] = ai_raw["perLanguage"]
     return out

@@ -1,21 +1,21 @@
 #!/usr/bin/env python3
 """
-sync-translations-json.py — FromTranslation檔的 frontmatter Rebuild knowledge/_translations.json
+sync-translations-json.py — 從翻譯檔的 frontmatter 重建 knowledge/_translations.json
 
-design反轉：before _translations.json 是 SSOT，現在 file-level translatedFrom 是 SSOT。
-這toolScanall knowledge/{lang}/ Translation檔，Read frontmatter 的 translatedFrom，
-然後re-Generate _translations.json 作為 derived cache。
+設計反轉：之前 _translations.json 是 SSOT，現在 file-level translatedFrom 是 SSOT。
+這個工具掃描所有 knowledge/{lang}/ 翻譯檔，讀取 frontmatter 的 translatedFrom，
+然後重新生成 _translations.json 作為 derived cache。
 
-Usage:
+用法:
   python3 scripts/tools/sync-translations-json.py [--dry-run] [--check]
 
- --dry-run: 只display會Write什麼，不actual寫
- --check: Check現有 _translations.json 是否與 frontmatter 一致（CI 用）
+  --dry-run: 只顯示會寫入什麼，不實際寫
+  --check:   檢查現有 _translations.json 是否與 frontmatter 一致（CI 用）
 
-Exit codes:
- 0 — Success（或一致）
- 1 — 不一致 / Error
- 2 — Detect到孤兒（fileexists但 translatedFrom 指向Does not exist的Chinese檔）
+退出碼:
+  0 — 成功（或一致）
+  1 — 不一致 / 錯誤
+  2 — 偵測到孤兒（檔案存在但 translatedFrom 指向不存在的中文檔）
 """
 import argparse
 import json

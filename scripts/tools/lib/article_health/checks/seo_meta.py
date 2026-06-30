@@ -1,6 +1,6 @@
 """seo_meta — frontmatter title + description SEO health.
 
-Ported from LagunaBeach.md's CJK-char-count gate to standard English SEO length
+Ported from Taiwan.md's CJK-char-count gate to standard English SEO length
 conventions for LagunaBeach.md.
 
 Dimensions:

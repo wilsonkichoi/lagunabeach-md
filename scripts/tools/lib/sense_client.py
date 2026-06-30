@@ -1,34 +1,34 @@
 #!/usr/bin/env python3
-"""sense_client.py — shared GA4 + Search Console client（ANALYSIS-PIPELINE 地基）
+"""sense_client.py — 共用 GA4 + Search Console client（ANALYSIS-PIPELINE 地基）
 
-把 fetch-ga4.py / fetch-search-console.py 的Credentials機制抽成可重用 module，
-讓 ga-query / sc-query / ga-window-compare / referral-attribution 共享same
-auth path，不各自重打。
+把 fetch-ga4.py / fetch-search-console.py 的憑證機制抽成可重用 module，
+讓 ga-query / sc-query / ga-window-compare / referral-attribution 共享同一條
+auth 路徑，不各自重打。
 
-Credential sources（沿用 fetch-ga4.py 慣例）:
-    ~/.config/lagunabeach-md/credentials/google-service-account.json
-    ~/.config/lagunabeach-md/credentials/.env  →  GA4_PROPERTY_ID / SC_SITE_URL
- venv: ~/.config/lagunabeach-md/venv/（automatic re-exec）
+憑證來源（沿用 fetch-ga4.py 慣例）:
+    ~/.config/taiwan-md/credentials/google-service-account.json
+    ~/.config/taiwan-md/credentials/.env  →  GA4_PROPERTY_ID / SC_SITE_URL
+    venv: ~/.config/taiwan-md/venv/（自動 re-exec）
 
-Usage（在每 script main 最前面）:
+用法（在每支 script main 最前面）:
     import sys, pathlib
     sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
     from lib.sense_client import reexec_in_venv
- reexec_in_venv() # Must在 import google before
+    reexec_in_venv()                       # 必須在 import google 之前
     from lib.sense_client import ga_client, sc_service, property_id, sc_site_url
 
-design鐵律:
- - google library 一律 lazy import（function inside），module load 時不碰 google，
- Otherwise reexec 前就會 ImportError。
- - cred 檔在 repo inside = SECURITY abort（不可把金鑰 commit 進 git）。
+設計鐵律:
+    - google library 一律 lazy import（function 內），module load 時不碰 google，
+      否則 reexec 前就會 ImportError。
+    - cred 檔在 repo 內 = SECURITY abort（不可把金鑰 commit 進 git）。
 
-Source: 2026-06-05 ANALYSIS-PIPELINE bridge-building（design: reports/analysis-pipeline-design-2026-06-05.md）
+來源: 2026-06-05 ANALYSIS-PIPELINE 造橋（design: reports/analysis-pipeline-design-2026-06-05.md）
 """
 import os
 import sys
 from pathlib import Path
 
-CONFIG_DIR = Path.home() / ".config" / "lagunabeach-md"
+CONFIG_DIR = Path.home() / ".config" / "taiwan-md"
 CREDENTIALS_DIR = CONFIG_DIR / "credentials"
 VENV_DIR = CONFIG_DIR / "venv"
 ENV_FILE = CREDENTIALS_DIR / ".env"
@@ -43,7 +43,7 @@ def fail(msg, code=1):
 
 
 def reexec_in_venv():
-    """Re-exec into ~/.config/lagunabeach-md/venv if it exists and we're not already in it.
+    """Re-exec into ~/.config/taiwan-md/venv if it exists and we're not already in it.
 
     Must be called BEFORE any google library import. venv python is usually a symlink
     to system python, so compare sys.prefix vs sys.base_prefix (Python's venv detection)

@@ -1,9 +1,9 @@
-"""article_health — SSOT Articles健檢toolmodule。
+"""article_health — SSOT 文章健檢工具模組。
 
 Public API:
     from scripts.tools.lib.article_health import run_checks, FileTarget, Severity
 
-design提案：reports/article-health-ssot-design-2026-05-04.md
+設計提案：reports/article-health-ssot-design-2026-05-04.md
 """
 
 from .types import (

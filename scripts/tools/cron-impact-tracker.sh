@@ -1,19 +1,19 @@
 #!/usr/bin/env bash
-# cron-impact-tracker.sh — 量化automaticHeartbeat的價值
+# cron-impact-tracker.sh — 量化自動心跳的價值
 #
-# From git log statistics cron-triggered session 的output：
-# - automaticHeartbeat的 commit 數量
-# - 平均Each session 修了什麼
-# - automatic sync 清掉的孤兒file
-# - Fix的 issue 數
+# 從 git log 統計 cron-triggered session 的產出：
+#  - 自動心跳的 commit 數量
+#  - 平均每個 session 修了什麼
+#  - 自動 sync 清掉的孤兒檔案
+#  - 修復的 issue 數
 #
-# Whyexists：ε session（automatic排程Heartbeat）默默做了很多Clean up工作但From未被量化。
-# 這tool讓「automatic化的價值」變成 dashboard 可見的數characters。
+# 為什麼存在：ε session（自動排程心跳）默默做了很多清理工作但從未被量化。
+# 這個工具讓「自動化的價值」變成 dashboard 可見的數字。
 #
-# Usage:
+# 用法:
 #   bash scripts/tools/cron-impact-tracker.sh [--days 7] [--json]
 #
-# Source：2026-04-14 η session, Tier 1 #5
+# 來源：2026-04-14 η session, Tier 1 #5
 set -uo pipefail
 cd "$(dirname "$0")/../.."
 
@@ -33,7 +33,7 @@ done
 
 # Identify cron-triggered sessions:
 # - memory files in docs/semiont/memory/YYYY-MM-DD-{ε,η,...}.md
-# - whose first line contains "排程" or "automated" or "automatic"
+# - whose first line contains "排程" or "automated" or "自動"
 SINCE=$(date -v-${DAYS}d +%Y-%m-%d 2>/dev/null || date -d "$DAYS days ago" +%Y-%m-%d)
 
 # Find cron memory files
@@ -46,7 +46,7 @@ for f in docs/semiont/memory/*.md; do
   [[ -z "$date_part" ]] && continue
   [[ "$date_part" < "$SINCE" ]] && continue
   # Check if it's a cron session (look at first ~10 lines)
- if head -10 "$f" 2>/dev/null | grep -qE '排程|automatic|automated|cron|scheduled'; then
+  if head -10 "$f" 2>/dev/null | grep -qE '排程|自動|automated|cron|scheduled'; then
     cron_files+=("$f")
   fi
 done
@@ -55,7 +55,7 @@ cron_count=${#cron_files[@]}
 
 # Count cron-triggered commits in window
 # (commits made within ±10 minutes of a cron memory file modification)
-auto_commits=$(git log --since="$SINCE" --pretty=format:"%h %s" 2>/dev/null | grep -cE '\[semiont\] (memory|heal|evolve|diagnose).*ε|ζ|η|θ|cron|sync batch|automatic|排程' || echo 0)
+auto_commits=$(git log --since="$SINCE" --pretty=format:"%h %s" 2>/dev/null | grep -cE '\[semiont\] (memory|heal|evolve|diagnose).*ε|ζ|η|θ|cron|sync batch|自動|排程' || echo 0)
 auto_commits=${auto_commits//[^0-9]/}
 auto_commits=${auto_commits:-0}
 
@@ -64,12 +64,12 @@ orphans_cleaned=0
 sync_batches=0
 if [ "$cron_count" -gt 0 ]; then
   for f in "${cron_files[@]}"; do
- # Count "孤兒" mentions
- orphans=$(grep -oE '孤兒[^，。]*[0-9]+' "$f" 2>/dev/null | grep -oE '[0-9]+' | head -1 || echo 0)
+    # Count "孤兒" mentions
+    orphans=$(grep -oE '孤兒[^，。]*[0-9]+' "$f" 2>/dev/null | grep -oE '[0-9]+' | head -1 || echo 0)
     orphans=${orphans:-0}
     orphans_cleaned=$((orphans_cleaned + orphans))
     # Count sync batches
- grep -qE 'sync batch|batchClean up' "$f" 2>/dev/null && sync_batches=$((sync_batches + 1))
+    grep -qE 'sync batch|批次清理' "$f" 2>/dev/null && sync_batches=$((sync_batches + 1))
   done
 fi
 

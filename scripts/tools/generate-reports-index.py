@@ -2,22 +2,22 @@
 """
 generate-reports-index.py — auto-generate reports/INDEX.md
 
-讀 reports/*.md (top-level only)，按 9 type bucket × 月份 雙軸category，
-output INDEX.md。對 reports/ 子directory（research / probe / weekly / visual /
+讀 reports/*.md (top-level only)，按 9 type bucket × 月份 雙軸分類，
+產出 INDEX.md。對 reports/ 子目錄（research / probe / weekly / visual /
 archive / harvest / ab-tests / music-media-audit / translation-research）
 產 status summary。
 
 SSOT: reports/reports-archival-audit-2026-05-27.md §4 Layer 3
-Trigger: docs/semiont/ROUTINE.md twmd-reports-index-daily (待加 cron)
+觸發: docs/semiont/ROUTINE.md twmd-reports-index-daily (待加 cron)
 
-Design principles:
-- 不搬 file，只re-呈現 (per audit Layer 3「高 leverage 不搬家」)
-- 命名 type bucket From現有 corpus regex 萃取 (per audit §2.3 Type bucket distribution)
-- INDEX.md 由本 script 完全 overwrite，So人工編輯會被cover (auto-gen 性質)
+設計原則:
+- 不搬 file，只重新呈現 (per audit Layer 3「高 leverage 不搬家」)
+- 命名 type bucket 從現有 corpus regex 萃取 (per audit §2.3 Type bucket distribution)
+- INDEX.md 由本 script 完全 overwrite，所以人工編輯會被覆蓋 (auto-gen 性質)
 
 Usage:
     python3 scripts/tools/generate-reports-index.py
- python3 scripts/tools/generate-reports-index.py --dry-run # 只 print 不寫檔
+    python3 scripts/tools/generate-reports-index.py --dry-run  # 只 print 不寫檔
 """
 
 from __future__ import annotations
@@ -29,7 +29,7 @@ from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 
-# 9 type buckets — From audit §2.3 corpus 萃取的 regex
+# 9 type buckets — 從 audit §2.3 corpus 萃取的 regex
 # 順序很重要 — 早的 pattern 先 match (例: routine-audit / homepage-evolution 進
 # audit-routine 而非 audit / evolution)
 TYPE_BUCKETS: list[tuple[str, str]] = [
@@ -47,18 +47,18 @@ TYPE_BUCKETS: list[tuple[str, str]] = [
     ("audit",        r"-audit-|-audit$|-snapshot-|-hygiene-"),
 ]
 
-# Subdir statusdescription (per audit §2.1 + §2.2)
+# Subdir 狀態描述 (per audit §2.1 + §2.2)
 SUBDIR_STATUS: dict[str, str] = {
- "research": "REWRITE-PIPELINE Stage 1 canonical (year-month 分槽)",
- "probe": "BECOME §Step 7 Probereport",
+    "research":            "REWRITE-PIPELINE Stage 1 canonical (year-month 分槽)",
+    "probe":               "BECOME §Step 7 探測器報告",
     "weekly":              "Self-evolve weekly digest",
- "visual": "Visual smoke test 基線 (partial gitignored)",
+    "visual":              "Visual smoke test 基線 (partial gitignored)",
     "ab-tests":            "Editorial v6 A/B test",
- "music-media-audit": "Music 目 media audit (json + md)",
- "translation-research": "巴別塔 5 lang research",
- "harvest": "Harvest engine record",
- "archive": "歸檔位置 (per audit Layer 4)",
- "scratch": "POC / temporary (per audit Layer 1，已 .gitignored)",
+    "music-media-audit":   "Music 條目 media audit (json + md)",
+    "translation-research": "巴別塔 5 lang research",
+    "harvest":             "Harvest engine 紀錄",
+    "archive":             "歸檔位置 (per audit Layer 4)",
+    "scratch":             "POC / 暫存 (per audit Layer 1，已 .gitignored)",
 }
 
 DATE_RE = re.compile(r"(20\d{2}-\d{2}-\d{2})")
@@ -152,7 +152,7 @@ def build_index(repo_root: Path) -> str:
     lines: list[str] = [
         "---",
         "title: 'reports/ INDEX — auto-generated'",
- "description: '頂層 *.md 按 9 type bucket × 月份 雙軸索引 + 子directory status summary'",
+        "description: '頂層 *.md 按 9 type bucket × 月份 雙軸索引 + 子目錄 status summary'",
         f"last_generated: {now}",
         "generator: scripts/tools/generate-reports-index.py",
         "ssot: reports/reports-archival-audit-2026-05-27.md §4 Layer 3",
@@ -161,15 +161,15 @@ def build_index(repo_root: Path) -> str:
         "",
         "# reports/ INDEX — auto-generated",
         "",
- f"> **本 file 由 `scripts/tools/generate-reports-index.py` 完全 overwrite**。",
- f"> Don't人工編輯（會被下一次 cron cover）。",
+        f"> **本 file 由 `scripts/tools/generate-reports-index.py` 完全 overwrite**。",
+        f"> 不要人工編輯（會被下一次 cron 覆蓋）。",
         f">",
- f"> Last generated: **{now}** · 頂層 *.md 共 **{total}** files · "
+        f"> Last generated: **{now}** · 頂層 *.md 共 **{total}** files · "
         f"SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)",
         "",
-        "## 📦 子directory status",
+        "## 📦 子目錄 status",
         "",
- "| Subdir | Files | Size | purpose |",
+        "| Subdir | Files | Size | 用途 |",
         "| ------ | ----: | ---- | ---- |",
     ]
     for name, count, size, desc in subdir_inventory(reports_dir):
@@ -179,8 +179,8 @@ def build_index(repo_root: Path) -> str:
         "",
         "## 🏷️ By type (頂層 *.md only)",
         "",
- "9 type bucket From現有 corpus 萃取 (per [audit §2.3 + §4 Layer 2](reports-archival-audit-2026-05-27.md))，"
- "未來新加 report suggestion遵循 `{type}-{topic}-{YYYY-MM-DD}.md` 命名。",
+        "9 type bucket 從現有 corpus 萃取 (per [audit §2.3 + §4 Layer 2](reports-archival-audit-2026-05-27.md))，"
+        "未來新加 report 建議遵循 `{type}-{topic}-{YYYY-MM-DD}.md` 命名。",
         "",
     ])
 

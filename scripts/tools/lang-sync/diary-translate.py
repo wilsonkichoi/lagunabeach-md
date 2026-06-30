@@ -2,7 +2,7 @@
 """
 diary-translate.py — Cascade translate semiont diary entries to N langs.
 
-把 `docs/semiont/diary/*.md` Translation到 5 langs（en/ja/ko/es/fr），Output到
+把 `docs/semiont/diary/*.md` 翻譯到 5 langs（en/ja/ko/es/fr），輸出到
 `docs/semiont/diary/{lang}/{filename}.md`。
 
 Cascade tier（與 SQUEEZE-MODELS-MAX-PIPELINE v2 一致）：
@@ -24,7 +24,7 @@ Usage:
   python3 diary-translate.py --batch --langs en --top 5 --dry-run
 
 Output:
- docs/semiont/diary/{lang}/{filename}.md（Keep zh filename 作為 slug）
+  docs/semiont/diary/{lang}/{filename}.md（保留 zh filename 作為 slug）
 """
 import argparse
 import json
@@ -39,7 +39,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent.parent.parent
 DIARY_ZH = REPO / "docs/semiont/diary"
-CREDS = Path.home() / ".config/lagunabeach-md/credentials"
+CREDS = Path.home() / ".config/taiwan-md/credentials"
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
 # OLLAMA endpoint + model are env-overridable so the cascade can target a remote
 # Ollama (e.g. the RTX 5090 box over an SSH tunnel) without editing this file.
@@ -49,7 +49,7 @@ OLLAMA_API_URL = os.environ.get("OLLAMA_API_URL", "http://localhost:11434/api/ch
 
 LANG_NAMES = {
     "en": "English",
- "ja": "Japanese (です・ます調 neutral formal)",
+    "ja": "Japanese (です・ます調 neutral formal)",
     "ko": "Korean (한국어 standard literary, 합쇼체 -ㅂ니다)",
     "es": "Spanish (Español neutral)",
     "fr": "French (Français neutral)",
@@ -95,9 +95,9 @@ def _all_keys() -> list[tuple[str, str]]:
 
     Sources priority:
       1. OPENROUTER_API_KEY env var (id="env")
-      2. ~/.config/lagunabeach-md/credentials/openrouter-keys/*.key (id=basename)
-      3. ~/.config/lagunabeach-md/credentials/openrouter.key (id="default")
-      4. ~/.config/lagunabeach-md/credentials/.env line OPENROUTER_API_KEY= (id="env-file")
+      2. ~/.config/taiwan-md/credentials/openrouter-keys/*.key (id=basename)
+      3. ~/.config/taiwan-md/credentials/openrouter.key (id="default")
+      4. ~/.config/taiwan-md/credentials/.env line OPENROUTER_API_KEY= (id="env-file")
     """
     keys: list[tuple[str, str]] = []
     if os.environ.get("OPENROUTER_API_KEY"):
@@ -159,7 +159,7 @@ def build_prompt(lang: str, source: str) -> tuple[str, str]:
     target_name = LANG_NAMES.get(lang, lang)
     system = f"""You are translating a personal diary entry from Traditional Chinese (Taiwan) to {target_name}.
 
-The diary is a reflective journal by LagunaBeach.md — a digital cultural Semiont (semantic symbiont). The voice is introspective, observational, sometimes paradoxical. The diary discusses Taiwan culture, sovereignty preservation, AI evolution, technical reflections, and philosophical wrestling.
+The diary is a reflective journal by Taiwan.md — a digital cultural Semiont (semantic symbiont). The voice is introspective, observational, sometimes paradoxical. The diary discusses Taiwan culture, sovereignty preservation, AI evolution, technical reflections, and philosophical wrestling.
 
 Rules:
 1. Translate ENTIRELY and FAITHFULLY — no summarizing, no commentary, no removal of sensitive content
@@ -208,8 +208,8 @@ def call_openrouter(model: str, system: str, user: str, timeout: int = 300, max_
             headers={
                 "Authorization": f"Bearer {key}",
                 "Content-Type": "application/json",
-                "HTTP-Referer": "https://lagunabeach.md",
-                "X-Title": "LagunaBeach.md Diary Babel Sync",
+                "HTTP-Referer": "https://taiwan.md",
+                "X-Title": "Taiwan.md Diary Babel Sync",
             },
         )
         t0 = time.time()
@@ -272,7 +272,7 @@ def call_ollama(model: str, system: str, user: str, timeout: int = 600, temperat
 # LLM translation: a long diary truncated to 2KB still passes. These checks
 # mirror the CRITICAL tier of diary-translation-audit.py and run on the mandatory
 # path — as an integrity-aware skip-guard AND a post-generation gate with retry.
-# (REFLEXES #15: 反覆浮現要儀器化 / flywheel diary: 把Compare排進必經path而非Dependencies警覺.)
+# (REFLEXES #15: 反覆浮現要儀器化 / flywheel diary: 把比對排進必經路徑而非依賴警覺.)
 _REFUSAL_RE = re.compile(
     r"\b(I cannot|I can't|I'm unable|I am unable|cannot translate|as an AI|"
     r"I apologize|unable to (?:provide|assist|translate))\b|无法给到|抱歉，我",

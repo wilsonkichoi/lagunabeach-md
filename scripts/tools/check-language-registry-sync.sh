@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # check-language-registry-sync.sh
 #
-# 確認 src/config/languages.ts 和 languages.mjs 的 LANGUAGES 列表sync。
-# 兩者的 code 列表Must一致。pre-commit hook Should跑這。
+# 確認 src/config/languages.ts 和 languages.mjs 的 LANGUAGES 列表同步。
+# 兩者的 code 列表必須一致。pre-commit hook 應該跑這個。
 #
-# Why有兩份file：Vite SSR prerender chunks 會 bundle .mjs 但破壞 filesystem
-# 相對path，So不能用 readFileSync 讀 JSON。最可靠的方式是兩file都 inline Data。
+# 為什麼有兩份檔案：Vite SSR prerender chunks 會 bundle .mjs 但破壞 filesystem
+# 相對路徑，所以不能用 readFileSync 讀 JSON。最可靠的方式是兩個檔案都 inline 資料。
 set -uo pipefail
 cd "$(dirname "$0")/../.."
 

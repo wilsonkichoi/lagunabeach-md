@@ -91,7 +91,7 @@ def audit_one(diary, lang):
     # 1. refusal stub — only real if the output is DOMINATED by the refusal
     # (short stub). A refusal phrase mid-body in a full-length structured
     # translation is the diary legitimately QUOTING a refusal: lang-sync diaries
- # quote PRC '无法给到相关内容' (simplified 无法 only ever appears as a faithful
+    # quote PRC '无法给到相关内容' (simplified 无法 only ever appears as a faithful
     # quote in a Traditional-Chinese-sourced corpus), and "I cannot" is ordinary
     # English prose ("a good idea I cannot execute"). Gate on length to separate.
     m = REFUSAL_RE.search(tgt)

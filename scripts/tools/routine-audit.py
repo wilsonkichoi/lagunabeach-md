@@ -171,7 +171,7 @@ def find_heal_commits(commits: list[dict]) -> list[dict]:
     heals = []
     for c in commits:
         s = c["subject"].lower()
- if "heal:" in s or "fix:" in s or " characters heal" in c["subject"]:
+        if "heal:" in s or "fix:" in s or " 字 heal" in c["subject"]:
             heals.append(
                 {
                     "hash": c["hash"],

@@ -1,30 +1,30 @@
 #!/usr/bin/env python3
 """
-converter-demand.py — 台灣用語Convert器「需求回饋環」：用 GA4 event 讀「大家actual查哪些詞」
+converter-demand.py — 台灣用語轉換器「需求回饋環」：用 GA4 event 讀「大家實際查哪些詞」
 
-把詞庫成長From「作者猜」翻轉成「需求驅動」。converter.astro 埋的 5 event
+把詞庫成長從「作者猜」翻轉成「需求驅動」。converter.astro 埋的 5 個 event
 （converter_term_lookup / converter_convert / converter_example_click /
 converter_copy / converter_direction_toggle）餵進來，回答四件事：
 
- 1. 詞需求排行（PRIMARY）：哪些 term_id 被查at most → 那些詞值得最好的 per-term 頁 /
- 專文。filter eventName == converter_term_lookup，group by customEvent:term_id。
- 2. 方向使用：cn2tw vs tw2cn — 有人在用反向 (tw2cn) 嗎？
- 3. Examplecategory熱度：converter_example_click by customEvent:category。
- 4. 漏斗：converter_convert / converter_copy event數（粗略 convert→copy 比）。
+  1. 詞需求排行（PRIMARY）：哪些 term_id 被查最多 → 那些詞值得最好的 per-term 頁 /
+     專文。filter eventName == converter_term_lookup，group by customEvent:term_id。
+  2. 方向使用：cn2tw vs tw2cn — 有人在用反向 (tw2cn) 嗎？
+  3. 範例分類熱度：converter_example_click by customEvent:category。
+  4. 漏斗：converter_convert / converter_copy 事件數（粗略 convert→copy 比）。
 
 ═══════════════════════════════════════════════════════════════════════════
-⚠️ known限制（Don't over-trust 這份Data）
+⚠️ 已知限制（不要 over-trust 這份數據）
 ═══════════════════════════════════════════════════════════════════════════
-converter_term_lookup 只在「Data庫裡Already有的詞」（matched rule）被命中時 fire。
-So這份排行量的是【現有 ~1,800 詞之中】的需求分佈 —— 它**看不到「缺漏的詞」**
-（使用者input了、但我們還沒收進對映表的中國用語）。
+converter_term_lookup 只在「資料庫裡已經有的詞」（matched rule）被命中時 fire。
+所以這份排行量的是【現有 ~1,800 個詞之中】的需求分佈 —— 它**看不到「缺漏的詞」**
+（使用者輸入了、但我們還沒收進對映表的中國用語）。
 
-換句話說：這份tool告訴你「現有的哪些詞最該被照顧」，但**不會**告訴你「該add哪些
-詞」。Detect缺漏詞Needdifferent的未來訊號，e.g.：
- - Track「Convert後台灣化指數仍偏低」的input（represents大partial沒被換掉 = 可能有缺漏詞）
- - 前端加一顆「Report缺漏詞」按鈕，讓使用者主動告訴我們
+換句話說：這份工具告訴你「現有的哪些詞最該被照顧」，但**不會**告訴你「該新增哪些
+詞」。偵測缺漏詞需要不同的未來訊號，例如：
+  - 追蹤「轉換後台灣化指數仍偏低」的輸入（代表大部分沒被換掉 = 可能有缺漏詞）
+  - 前端加一顆「回報缺漏詞」按鈕，讓使用者主動告訴我們
 
-在那訊號exists以前，這份排行是「known需求」的鏡子，not「unknown需求」的鏡子。
+在那個訊號存在以前，這份排行是「已知需求」的鏡子，不是「未知需求」的鏡子。
 
 ═══════════════════════════════════════════════════════════════════════════
 GA4 custom-dimension 現實（graceful degradation）
@@ -33,27 +33,27 @@ event param（term_id / direction / category / fork_type ...）只有先用 Admi
 註冊成 event-scoped custom dimension，才能在 Data API 當 DIMENSION group by。
 Data API 引用方式：customEvent:term_id、customEvent:direction、customEvent:category。
 
-註冊script：scripts/tools/register-ga4-custom-dimensions.py
+註冊腳本：scripts/tools/register-ga4-custom-dimensions.py
 （截至 2026-06-13，converter 的 param 還沒進那份 SSOT 的 *_DIMENSIONS list —
- orchestrator 會補一 CONVERTER_DIMENSIONS block 再跑）。
+ orchestrator 會補一個 CONVERTER_DIMENSIONS block 再跑）。
 
-本tool對兩種「還沒準備好」的情況都不 crash：
- (a) 維度還沒註冊 → GA4 回維度Does not exist的錯 → CATCH + 印 hint「跑 register script」，
- 該 report 留空、other report 照跑。
- (b) event剛上線、Data還沒累積 → report 空 → 印友善「instrumentation just shipped」。
+本工具對兩種「還沒準備好」的情況都不 crash：
+  (a) 維度還沒註冊 → GA4 回維度不存在的錯 → CATCH + 印 hint「跑 register 腳本」，
+      該 report 留空、其他 report 照跑。
+  (b) 事件剛上線、資料還沒累積 → report 空 → 印友善「instrumentation just shipped」。
 
-Usage:
+用法:
     python3 scripts/tools/converter-demand.py                 # 90d + 28d
- python3 scripts/tools/converter-demand.py --json # 純 JSON Output
- python3 scripts/tools/converter-demand.py --windows 90,28 # 自訂窗口（Default 90,28）
- python3 scripts/tools/converter-demand.py --limit 50 # 詞排行筆數（Default 50）
+    python3 scripts/tools/converter-demand.py --json          # 純 JSON 輸出
+    python3 scripts/tools/converter-demand.py --windows 90,28 # 自訂窗口（預設 90,28）
+    python3 scripts/tools/converter-demand.py --limit 50      # 詞排行筆數（預設 50）
 
-Output:
- 人類可讀 section 報表（同 converter-analytics.py 風格）
-    raw JSON → ~/.config/lagunabeach-md/cache/converter-demand-latest.json
+輸出:
+    人類可讀 section 報表（同 converter-analytics.py 風格）
+    raw JSON → ~/.config/taiwan-md/cache/converter-demand-latest.json
 
-Credentials / venv 同 fetch-ga4.py（~/.config/lagunabeach-md/credentials/）。
-Source: 2026-06-13 converter-demand-loop session
+憑證 / venv 同 fetch-ga4.py（~/.config/taiwan-md/credentials/）。
+來源: 2026-06-13 converter-demand-loop session
 """
 import json
 import os
@@ -61,7 +61,7 @@ import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
-CONFIG_DIR = Path.home() / ".config" / "lagunabeach-md"
+CONFIG_DIR = Path.home() / ".config" / "taiwan-md"
 CREDENTIALS_DIR = CONFIG_DIR / "credentials"
 CACHE_DIR = CONFIG_DIR / "cache"
 VENV_DIR = CONFIG_DIR / "venv"
@@ -331,7 +331,7 @@ def render_human(result, windows, limit):
     for w in windows:
         ga = result["windows"].get(str(w), {})
         print(f"\n{'='*64}")
- print(f"📅 窗口 {w}d ({ga.get('start','?')} → {ga.get('end','?')})")
+        print(f"📅 窗口 {w}d  ({ga.get('start','?')} → {ga.get('end','?')})")
         print(f"{'='*64}")
 
         if "error" in ga:
@@ -351,25 +351,25 @@ def render_human(result, windows, limit):
         # 1. PRIMARY — term demand
         print()
         _render_dim_report(
- f"① 詞需求排行 (top {limit} 查詢at most的 term_id) — PRIMARY",
+            f"① 詞需求排行 (top {limit} 查詢最多的 term_id) — PRIMARY",
             ga.get("term_demand"), value_key="term_id", label_w=40, top=limit)
 
         # 2. direction
         print()
- _render_dim_report("② 方向使用 — converter_convert by direction",
+        _render_dim_report("② 方向使用 — converter_convert by direction",
                            ga.get("direction_convert"), value_key="direction", label_w=12)
- _render_dim_report(" 方向切換 — converter_direction_toggle (to)",
+        _render_dim_report("   方向切換 — converter_direction_toggle (to)",
                            ga.get("direction_toggle"), value_key="to", label_w=12)
 
         # 3. example categories
         print()
- _render_dim_report("③ Examplecategory熱度 — converter_example_click by category",
+        _render_dim_report("③ 範例分類熱度 — converter_example_click by category",
                            ga.get("example_categories"), value_key="category", label_w=28)
 
         # 4. funnel
         print()
         f = ga.get("funnel", {})
- print(" ── ④ 漏斗 convert → copy ──")
+        print("  ── ④ 漏斗 convert → copy ──")
 
         def _fmt(v):
             return "(error)" if v is None else v
@@ -380,7 +380,7 @@ def render_human(result, windows, limit):
         print(f"    copy / convert ratio  = {cpc if cpc is not None else '(n/a — no converts yet)'}")
 
     print(f"\n💾 saved → {CACHE_DIR / 'converter-demand-latest.json'}")
- print("ℹ️ 限制：此排行只含【現有詞】的需求，看不到缺漏詞（見 docstring）。")
+    print("ℹ️  限制：此排行只含【現有詞】的需求，看不到缺漏詞（見 docstring）。")
 
 
 def main():

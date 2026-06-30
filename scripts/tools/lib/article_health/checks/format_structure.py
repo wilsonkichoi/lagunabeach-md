@@ -1,6 +1,6 @@
 """format_structure — markdown structure / format validation.
 
-Ported from LagunaBeach.md. Note: dimensions 1, 2, and 6 (Further Reading,
+Ported from Taiwan.md. Note: dimensions 1, 2, and 6 (Further Reading,
 References H2, overview blockquote) check for editorial conventions now
 canonical in docs/editorial/EDITORIAL.md §structure / §at a glance /
 §citation (localized 2026-06-21). 0/18 LagunaBeach.md articles adopt them

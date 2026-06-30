@@ -2,19 +2,19 @@
 /**
  * triage-consolidate-2026-06-09.mjs — ONE-OFF consolidation run for 2026-06-09 feedback batch.
  *
- * Whyexists：本日 batch 有 12 筆sameReader（Cs Gou）對sameArticles（國家太空中心）的
- * section-by-section errata。deterministic triage.mjs 會開 12 「title完全identical」的
+ * 為什麼存在：本日 batch 有 12 筆同一讀者（Cs Gou）對同一篇文章（國家太空中心）的
+ * section-by-section 勘誤。deterministic triage.mjs 會開 12 個「標題完全相同」的
  * [Fact Check] issue（batch-boundary dedupe gap：classify.mjs isDuplicate 的
- * `title === built.title` content-dedupe 只擋「跨 run existing open issue」，擋不住同 batch
- * inside distinct body-sig 的同 content）。Pipeline design意圖本來就是「一Articles一 fact-check
- * issue」（見 classify.mjs:191），Socorrect處置 = 把 12 筆Merge成 1 issue（逐 verbatim
+ * `title === built.title` content-dedupe 只擋「跨 run 既有 open issue」，擋不住同 batch
+ * 內 distinct body-sig 的同篇 content）。Pipeline 設計意圖本來就是「一篇文章一個 fact-check
+ * issue」（見 classify.mjs:191），所以正確處置 = 把 12 筆合併成 1 個 issue（逐條 verbatim
  * + 各自 feedback id provenance），bug + idea 各自開。
  *
- * 這 script 重用 lib function（buildIssue / archive）保持 archive + provenance Format一致。
- * structure性 finding（pipeline 需inside建 same-article content clustering）另走 handoff + LESSONS gate。
+ * 這支 script 重用 lib 函式（buildIssue / archive）保持 archive + provenance 格式一致。
+ * 結構性 finding（pipeline 需內建 same-article content clustering）另走 handoff + LESSONS gate。
  *
- * Usage：node scripts/feedback/triage-consolidate-2026-06-09.mjs # dry-run
- * node scripts/feedback/triage-consolidate-2026-06-09.mjs --commit # 真開 + 回寫 + archive
+ * 用法：node scripts/feedback/triage-consolidate-2026-06-09.mjs            # dry-run
+ *       node scripts/feedback/triage-consolidate-2026-06-09.mjs --commit   # 真開 + 回寫 + archive
  */
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { dirname } from 'node:path';
@@ -22,7 +22,7 @@ import { execFileSync } from 'node:child_process';
 import { buildIssue, triageNoteFor } from './lib/classify.mjs';
 import { buildArchiveRecord, archiveRelPath } from './lib/archive.mjs';
 
-const REPO = 'frank890417/lagunabeach-md';
+const REPO = 'frank890417/taiwan-md';
 const COMMIT = process.argv.includes('--commit');
 const rows = JSON.parse(readFileSync('/tmp/feedback-new.json', 'utf8'));
 
@@ -43,27 +43,27 @@ function ts(s) {
   return (s || '').slice(0, 16).replace('T', ' ');
 }
 const article = spaceRows[0];
-const cleanUrl = 'https://lagunabeach.md/technology/國家太空中心';
+const cleanUrl = 'https://taiwan.md/technology/國家太空中心';
 const reader = article.display_name || '匿名讀者';
 
 let body =
-  `**哪Articles / Which article?**\n${article.article_title}\n🔗 ${cleanUrl}\n\n` +
-  `本 issue 由站上Reportautomatic彙整：same位Reader（**${reader}**）對本做了 **${spaceRows.length} 處** section-by-section errata/補充，` +
-  `逐 verbatim 收錄如下（每附 feedback id provenance）。Maintenance者請逐查核（人工 gate）。\n\n---\n`;
+  `**哪篇文章 / Which article?**\n${article.article_title}\n🔗 ${cleanUrl}\n\n` +
+  `本 issue 由站上回報自動彙整：同一位讀者（**${reader}**）對本篇做了 **${spaceRows.length} 處** section-by-section 勘誤/補充，` +
+  `逐條 verbatim 收錄如下（每條附 feedback id provenance）。維護者請逐條查核（人工 gate）。\n\n---\n`;
 
 spaceRows.forEach((r, i) => {
-  body += `\n### errata ${i + 1}\n`;
+  body += `\n### 勘誤 ${i + 1}\n`;
   if (r.quote) {
-    body += `\n**Reader選取的原文**\n> ${String(r.quote).replace(/\n/g, '\n> ')}\n`;
+    body += `\n**讀者選取的原文**\n> ${String(r.quote).replace(/\n/g, '\n> ')}\n`;
   }
-  body += `\n**Reader指出 / What's wrong**\n${r.body}\n`;
+  body += `\n**讀者指出 / What's wrong**\n${r.body}\n`;
   if (r.correct_info) {
-    body += `\n**correct資訊 + Source / Correct info + source**\n${r.correct_info}\n`;
+    body += `\n**正確資訊 + 來源 / Correct info + source**\n${r.correct_info}\n`;
   }
   body += `\n<sub>feedback id: \`${r.id}\` · ${ts(r.created_at)}</sub>\n`;
 });
 
-body += `\n---\n> 🧬 由站上Reportautomatic彙整轉入（twmd-feedback-triage / 2026-06-09 consolidation）· Report者：${reader} · ${spaceRows.length} 筆 feedback Merge`;
+body += `\n---\n> 🧬 由站上回報自動彙整轉入（twmd-feedback-triage / 2026-06-09 consolidation）· 回報者：${reader} · ${spaceRows.length} 筆 feedback 合併`;
 
 const spaceIssue = {
   type: 'content',

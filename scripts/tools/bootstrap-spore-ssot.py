@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""bootstrap-spore-ssot.py — 一次性把SporestructureData灌進 JSON SSOT（2026-06-10 翻轉）。
+"""bootstrap-spore-ssot.py — 一次性把孢子結構資料灌進 JSON SSOT（2026-06-10 翻轉）。
 
-Source：
- docs/factory/SPORE-LOG.md post log → spore-log.json（identity + template + highlight）
- src/data/spores.json history + metrics → spore-metrics.json（harvest event + seed event）
+來源：
+  docs/factory/SPORE-LOG.md 發文紀錄        → spore-log.json（identity + template + highlight）
+  src/data/spores.json history + metrics    → spore-metrics.json（harvest 事件 + seed 事件）
 
-跑一次即封存；Keep在 repo 供 fork / 災難Rebuild（alignment backfill-translated-from.py 先例）。
-冪等：重跑會整檔Rebuild（deterministic Output）。
+跑一次即封存；保留在 repo 供 fork / 災難重建（對齊 backfill-translated-from.py 先例）。
+冪等：重跑會整檔重建（deterministic 輸出）。
 """
 from __future__ import annotations
 
@@ -28,10 +28,10 @@ def _load_module(name, rel):
 def main():
     gds = _load_module("gds", "scripts/tools/generate-dashboard-spores.py")
 
- # ── identity from SPORE-LOG post log（含 template / highlight 欄）──
+    # ── identity from SPORE-LOG 發文紀錄（含 template / highlight 欄）──
     log_text = (REPO / "docs/factory/SPORE-LOG.md").read_text(encoding="utf-8")
     sections = gds.split_tables(log_text)
- raw = gds.parse_pipe_table(sections.get("post log", ""))
+    raw = gds.parse_pipe_table(sections.get("發文紀錄", ""))
     pubs = gds.parse_publish_rows(raw)
 
     spores = []
@@ -48,7 +48,7 @@ def main():
             "highlight": p["highlight"],
         })
 
- # ── metric events from records（history = harvest event；seed metrics = 合成event）──
+    # ── metric events from records（history = harvest 事件；seed metrics = 合成事件）──
     records = json.loads((REPO / "src/data/spores.json").read_text(encoding="utf-8"))
     events = []
     for r in records["spores"]:
@@ -77,7 +77,7 @@ def main():
                 "source": "frontmatter-seed-2026-06-10",
             })
         elif as_of.get("source") == "harvest+backfill":
- # Latest harvest row 缺的field是From frontmatter seed 補的 — 把補值也存成 seed event
+            # 最新 harvest row 缺的欄位是從 frontmatter seed 補的 — 把補值也存成 seed 事件
             m = r.get("metrics", {})
             last = (r.get("history") or [{}])[-1]
             fill = {k: m.get(k) for k in ("views", "likes", "reposts", "comments", "shares")
@@ -101,12 +101,12 @@ def main():
                                e.get("at") or ""))
 
     out_log = {"_meta": {"schemaVersion": 1,
- "note": "Spore identity SSOT — Write走 scripts/tools/spore-db.py add-spore；"
- "歷史 ≤ #133 由 SPORE-LOG.md post log bootstrap（2026-06-10 凍結）"},
+                         "note": "孢子 identity SSOT — 寫入走 scripts/tools/spore-db.py add-spore；"
+                                 "歷史 ≤ #133 由 SPORE-LOG.md 發文紀錄 bootstrap（2026-06-10 凍結）"},
                "spores": spores}
     out_metrics = {"_meta": {"schemaVersion": 1,
- "note": "Spore metric event流 SSOT — Write走 spore-db.py add-metrics；"
- "歷史由 SPORE-HARVESTS Parse bootstrap（2026-06-10）"},
+                             "note": "孢子 metric 事件流 SSOT — 寫入走 spore-db.py add-metrics；"
+                                     "歷史由 SPORE-HARVESTS 解析 bootstrap（2026-06-10）"},
                    "events": events}
 
     (REPO / "docs/factory/spore-log.json").write_text(

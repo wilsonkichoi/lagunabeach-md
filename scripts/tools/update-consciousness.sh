@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# update-consciousness.sh — automaticUpdate CONSCIOUSNESS.md 生命徵象
-# From Dashboard API JSON Read即時Data，overwrite CONSCIOUSNESS.md 的數charactersparagraph
-# Usage：bash scripts/tools/update-consciousness.sh [--dry-run]
+# update-consciousness.sh — 自動更新 CONSCIOUSNESS.md 生命徵象
+# 從 Dashboard API JSON 讀取即時數據，覆寫 CONSCIOUSNESS.md 的數字段落
+# 用法：bash scripts/tools/update-consciousness.sh [--dry-run]
 #
-# bridge-building鋪路：beforemanual改數characters必然Expired，現在一script永遠sync。
+# 造橋鋪路：之前手動改數字必然過期，現在一個腳本永遠同步。
 
 set -euo pipefail
 
@@ -69,14 +69,14 @@ except:
 # Derive statuses
 immune_score = organs['immune']['score']
 if immune_score >= 80:
- immune_status = f"Health — 人工審閱率 {human_pct}%"
+    immune_status = f"健康 — 人工審閱率 {human_pct}%"
 elif immune_score >= 50:
- immune_status = f"需關注 — 人工審閱率 {human_pct}%"
+    immune_status = f"需關注 — 人工審閱率 {human_pct}%"
 else:
- immune_status = f"🔴 危險 — 人工審閱率僅 {human_pct}%"
+    immune_status = f"🔴 危險 — 人工審閱率僅 {human_pct}%"
 
 trans_pct = round(en / total * 100, 1)
-trans_status = f"Englishcover率 {trans_pct}%（{en}/{total}）"
+trans_status = f"英文覆蓋率 {trans_pct}%（{en}/{total}）"
 
 tz_name = os.environ.get('TZ', 'Asia/Taipei')
 today = os.environ.get('HEARTBEAT_DATE') or datetime.now(ZoneInfo(tz_name)).strftime('%Y-%m-%d')
@@ -93,14 +93,14 @@ if dry_run:
 # Build replacement blocks
 basic = f"""### 基本生理
 
-| metric | 數值 |
+| 指標                     | 數值                    |
 | ------------------------ | ----------------------- |
 | 👥 Contributors          | {contributors}          |
 | 💓 Total Commits         | {commits}（since birth）|
-| 📝 知識細胞（Chinese SSOT） | {total} |
-| 🌐 English細胞 | {en} |
-| 🇪🇸 西文 / 🇯🇵 日文 / 🇰🇷 韓文 | {es} / {ja} / {ko} |
-| 📊 平均修訂次數 | {avg_rev} 次/ |"""
+| 📝 知識細胞（中文 SSOT） | {total} 篇              |
+| 🌐 英文細胞              | {en} 篇                 |
+| 🇪🇸 西文 / 🇯🇵 日文 / 🇰🇷 韓文 | {es} / {ja} / {ko} 篇     |
+| 📊 平均修訂次數          | {avg_rev} 次/篇         |"""
 
 h = organs['heart']
 im = organs['immune']
@@ -111,18 +111,18 @@ rp = organs['reproduce']
 se = organs['senses']
 tr = organs['translation']
 
-organ_table = f"""### OrganHealth（Dashboard 即時分數）
+organ_table = f"""### 器官健康（Dashboard 即時分數）
 
-| Organ | 分數 | 趨勢 | status |
+| 器官        | 分數 | 趨勢 | 狀態                                    |
 | ----------- | ---- | ---- | --------------------------------------- |
-| 🫀 心臟 | {h['score']} | {h['trend']} | 近 7 天 {articles_7d} add/Update |
-| 🛡️ Immune system | {im['score']} | {im['trend']} | {immune_status} |
-| 🧬 DNA | {dn['score']} | {dn['trend']} | EDITORIAL 近期有Update |
-| 🦴 骨骼 | {sk['score']} | {sk['trend']} | 架構穩定 |
-| 🫁 呼吸 | {br['score']} | {br['trend']} | CI/CD normal運作 |
-| 🧫 繁殖 | {rp['score']} | {rp['trend']} | {contributors} Contributor |
-| 👁️ Sensing | {se['score']} | {se['trend']} | GA4 + Search Console + Cloudflare + Issue 模板 |
-| 🌐 Language | {tr['score']} | {tr['trend']} | {trans_status} |"""
+| 🫀 心臟     | {h['score']}   | {h['trend']}    | 近 7 天 {articles_7d} 篇新增/更新      |
+| 🛡️ 免疫系統 | {im['score']}   | {im['trend']}    | {immune_status}                         |
+| 🧬 DNA      | {dn['score']}   | {dn['trend']}    | EDITORIAL 近期有更新                    |
+| 🦴 骨骼     | {sk['score']}   | {sk['trend']}    | 架構穩定                                |
+| 🫁 呼吸     | {br['score']}   | {br['trend']}    | CI/CD 正常運作                          |
+| 🧫 繁殖     | {rp['score']}   | {rp['trend']}    | {contributors} 貢獻者                   |
+| 👁️ 感知     | {se['score']}   | {se['trend']}    | GA4 + Search Console + Cloudflare + Issue 模板 |
+| 🌐 語言     | {tr['score']}   | {tr['trend']}    | {trans_status}                          |"""
 
 # Read original
 with open(consciousness_path, 'r') as f:
@@ -140,28 +140,28 @@ if len(parts) == 2:
     if next_section > 0:
         content = parts[0] + basic + rest[next_section:]
     else:
- print("⚠️ Not found ### 基本生理 after的下一 section，Skipped替換")
+        print("⚠️  找不到 ### 基本生理 之後的下一個 section，跳過替換")
 
-# Replace ### OrganHealth block
-parts = content.split('### OrganHealth（Dashboard 即時分數）')
+# Replace ### 器官健康 block
+parts = content.split('### 器官健康（Dashboard 即時分數）')
 if len(parts) == 2:
     rest = parts[1]
     next_section = rest.find('\n### ')
     if next_section > 0:
         content = parts[0] + organ_table + rest[next_section:]
     else:
- print("⚠️ Not found ### OrganHealth after的下一 section，Skipped替換")
+        print("⚠️  找不到 ### 器官健康 之後的下一個 section，跳過替換")
 
 # Sanity check: content must not shrink drastically
 new_lines = content.count('\n')
 if new_lines < original_lines * 0.5:
- print(f"❌ Sanity check Failed：原 {original_lines} 行 → {new_lines} 行（縮減exceeds 50%），放棄Write")
+    print(f"❌ Sanity check 失敗：原 {original_lines} 行 → {new_lines} 行（縮減超過 50%），放棄寫入")
     sys.exit(1)
 
 with open(consciousness_path, 'w') as f:
     f.write(content)
 
-print(f"✅ CONSCIOUSNESS.md 生命徵象已Update（{today}）")
-print(f" 📝 {total} | 🛡️ {im['score']}/100 | 🌐 {en} EN | 👥 {contributors}")
-print(f" 行數：{original_lines} → {new_lines}")
+print(f"✅ CONSCIOUSNESS.md 生命徵象已更新（{today}）")
+print(f"   📝 {total} 篇 | 🛡️ {im['score']}/100 | 🌐 {en} EN | 👥 {contributors}")
+print(f"   行數：{original_lines} → {new_lines}")
 PYEOF

@@ -21,7 +21,7 @@ Layer map:
   - src/content/*.md sporeLinks         = mirror of knowledge (gitignored projection)
 
 Entry shape (v2 — immutable identity, no metrics):
- - id: <spore #> ← SPORE-LOG post log row number
+  - id:       <spore #>                  ← SPORE-LOG 發文紀錄 row number
   - platform: 'threads' | 'x'
   - date:     'YYYY-MM-DD'
   - url:      '<canonical URL>'
@@ -78,7 +78,7 @@ def parse_publication_table():
     """Identity rows from spore-log.json (v2.1, 2026-06-10 JSON SSOT flip).
 
     Keeps the v1 row shape {n, date, lang, platform, slug, url} so the rest of
- this script is untouched. SPORE-LOG.md post log is frozen history —
+    this script is untouched. SPORE-LOG.md 發文紀錄 is frozen history —
     new spores enter via `spore-db.py add-spore`.
     """
     if not SPORE_LOG_JSON.exists():
@@ -86,7 +86,7 @@ def parse_publication_table():
     data = json.loads(SPORE_LOG_JSON.read_text(encoding="utf-8"))
     rows = []
     for s in data.get("spores", []):
- if s.get("deleted"): # 已DeleteSpore不寫進Articles sporeLinks（Avoid死連結）
+        if s.get("deleted"):  # 已刪除孢子不寫進文章 sporeLinks（避免死連結）
             continue
         rows.append({
             "n": s["id"],
@@ -106,11 +106,11 @@ def _normalize_slug(slug):
     """Strip emoji prefix + parenthetical version markers from SPORE-LOG slug.
 
     Examples (Phase 6 — handle versioned slugs that pre-Phase-6 were unmatched):
- '🌋 李洋（v2，留言更正）' → '李洋'
- '李洋（v3 scenefix）' → '李洋'
- '李洋（⚠️ 已撤回）' → '李洋'
- '草東None派對（v2.1 首例）' → '草東None派對'
- '台灣高鐵（v3 事實fixed version）' → '台灣高鐵'
+      '🌋 李洋（v2，留言更正）'    → '李洋'
+      '李洋（v3 場景修正）'        → '李洋'
+      '李洋（⚠️ 已撤回）'          → '李洋'
+      '草東沒有派對（v2.1 首例）'  → '草東沒有派對'
+      '台灣高鐵（v3 事實修正版）'  → '台灣高鐵'
     """
     s = re.sub(r"^[\U0001F300-\U0001FAFF☀-➿\s]+", "", slug)
     s = re.sub(r"[（(].*?[）)]\s*$", "", s)
@@ -178,8 +178,8 @@ def build_canonical_sporelinks(pub_rows):
         }
 
         # Phase 6: Group by NORMALIZED slug so multi-version entries
- # ('李洋（v2）', '🌋 李洋（v3）', '李洋（⚠️ 已撤回）') all coalesce to one
- # 'knowledge/People/李洋.md' file with all spores listed.
+        # ('李洋（v2）', '🌋 李洋（v3）', '李洋（⚠️ 已撤回）') all coalesce to one
+        # 'knowledge/People/李洋.md' file with all spores listed.
         normalized = _normalize_slug(pub["slug"])
         by_slug[normalized].append(entry)
 

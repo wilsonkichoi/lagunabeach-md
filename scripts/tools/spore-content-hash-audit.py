@@ -2,29 +2,29 @@
 """
 spore-content-hash-audit.py — Spore URL content-fingerprint mismatch detection.
 
-LESSONS-INBOX 2026-05-16 #5 instrumentation: #71 無人機 X URL mismatch 第 3 次Verify
-達 REFLEXES #15「反覆浮現要儀器化」threshold。本toolDetect SPORE-LOG row URL Fetch到
-的Content跟首次record的 content fingerprint 不一致scene（URL 寫錯 / post 已Delete / X UI
-automatic redirect 到 edit 版）。
+LESSONS-INBOX 2026-05-16 #5 instrumentation: #71 無人機 X URL mismatch 第 3 次驗證
+達 REFLEXES #15「反覆浮現要儀器化」threshold。本工具偵測 SPORE-LOG row URL 抓到
+的內容跟首次紀錄的 content fingerprint 不一致場景（URL 寫錯 / post 已刪除 / X UI
+自動 redirect 到 edit 版）。
 
-design：side-car JSON `docs/factory/spore-content-fingerprints.json` 不動 SPORE-LOG
-schema（Avoid 73+ row migration）。每 spore URL 首次 harvest record Content指紋（title
-首段 + emoji + utm_campaign），subsequent harvest Fetch到時 cross-check。
+設計：side-car JSON `docs/factory/spore-content-fingerprints.json` 不動 SPORE-LOG
+schema（避免 73+ row migration）。每條 spore URL 首次 harvest record 內容指紋（title
+首段 + emoji + utm_campaign），後續 harvest 抓到時 cross-check。
 
 Usage:
- # 1. From現有 harvest batch log 抽取 fingerprint baseline（首次建檔）
+    # 1. 從現有 harvest batch log 抽取 fingerprint baseline（首次建檔）
     python3 scripts/tools/spore-content-hash-audit.py --build-baseline
 
- # 2. 對single URL Calculate fingerprint
+    # 2. 對單一 URL 計算 fingerprint
     python3 scripts/tools/spore-content-hash-audit.py --url=URL --content=TEXT
 
- # 3. cross-check existing fingerprint vs 新 harvest content
+    # 3. cross-check 既有 fingerprint vs 新 harvest content
     python3 scripts/tools/spore-content-hash-audit.py --check --url=URL --content=TEXT
 
- # 4. 列出current fingerprint inventory
+    # 4. 列出當前 fingerprint inventory
     python3 scripts/tools/spore-content-hash-audit.py --list
 
-designreport: reports/spore-content-hash-gate-design-2026-05-16.md
+設計報告: reports/spore-content-hash-gate-design-2026-05-16.md
 """
 from __future__ import annotations
 

@@ -1,21 +1,21 @@
 #!/usr/bin/env bash
-# install-sense-cron.sh — 安裝每日automaticFetchSensingData的 cron job
+# install-sense-cron.sh — 安裝每日自動抓取感知資料的 cron job
 #
-# Usage:
-# bash scripts/tools/install-sense-cron.sh # 安裝（Default 08:00 每日）
-# bash scripts/tools/install-sense-cron.sh --hour 6 # 自訂時間
+# 用法:
+#   bash scripts/tools/install-sense-cron.sh         # 安裝（預設 08:00 每日）
+#   bash scripts/tools/install-sense-cron.sh --hour 6  # 自訂時間
 #   bash scripts/tools/install-sense-cron.sh --uninstall
 #   bash scripts/tools/install-sense-cron.sh --status
 #
-# 在 macOS priority用 launchd（更穩），其次 fallback 到 cron。
+# 在 macOS 優先用 launchd（更穩），其次 fallback 到 cron。
 # 在 Linux 用 cron。
 #
-# 2026-04-11 session α Build
+# 2026-04-11 session α 建造
 
 set -o pipefail
 
 HOUR=8
-MINUTE=17 # Don't用 :00，Avoid API quota 跟全世界擠在整點
+MINUTE=17  # 不要用 :00，避免 API quota 跟全世界擠在整點
 ACTION=install
 
 while [[ $# -gt 0 ]]; do
@@ -34,7 +34,7 @@ done
 REPO_ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
 LAUNCHD_PLIST="$HOME/Library/LaunchAgents/md.taiwan.sense-fetch.plist"
 LAUNCHD_LABEL="md.taiwan.sense-fetch"
-LOG_FILE="$HOME/.config/lagunabeach-md/cache/fetch.log"
+LOG_FILE="$HOME/.config/taiwan-md/cache/fetch.log"
 
 case "$(uname -s)" in
   Darwin) PLATFORM=macos ;;
@@ -113,12 +113,12 @@ EOF
   fi
 
   echo ""
- echo "會在每天 $(printf '%02d:%02d' $HOUR $MINUTE) (local time) automaticExecute"
- echo "日誌：$LOG_FILE"
+  echo "會在每天 $(printf '%02d:%02d' $HOUR $MINUTE) (local time) 自動執行"
+  echo "日誌：$LOG_FILE"
   echo ""
- echo "manualtest跑一次：launchctl start $LAUNCHD_LABEL"
- echo "Checkstatus：bash $0 --status"
- echo "Remove：bash $0 --uninstall"
+  echo "手動測試跑一次：launchctl start $LAUNCHD_LABEL"
+  echo "檢查狀態：bash $0 --status"
+  echo "移除：bash $0 --uninstall"
 }
 
 uninstall_macos() {
@@ -126,9 +126,9 @@ uninstall_macos() {
     launchctl unload "$LAUNCHD_PLIST" 2>/dev/null
     launchctl bootout "gui/$(id -u)" "$LAUNCHD_PLIST" 2>/dev/null || true
     rm -f "$LAUNCHD_PLIST"
- echo "✅ 已Remove launchd plist"
+    echo "✅ 已移除 launchd plist"
   else
- echo "None安裝record"
+    echo "沒有安裝紀錄"
   fi
 }
 
@@ -150,7 +150,7 @@ uninstall_linux() {
   crontab -l 2>/dev/null | grep -v "fetch-sense-data.sh" > /tmp/new-crontab || true
   crontab /tmp/new-crontab
   rm /tmp/new-crontab
- echo "✅ 已Remove cron entry"
+  echo "✅ 已移除 cron entry"
 }
 
 case "$ACTION" in

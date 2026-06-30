@@ -85,7 +85,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
         yield Violation(
             check=CHECK_NAME,
             severity=DEFAULT_SEVERITY,
- message=f"腳註 URL Cannot存取 ({status_str}): {url[:80]}",
+            message=f"腳註 URL 無法存取 ({status_str}): {url[:80]}",
             line=line,
             snippet=url,
             editorial_ref=EDITORIAL_REF,

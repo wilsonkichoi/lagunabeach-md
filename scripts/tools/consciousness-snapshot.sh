@@ -4,8 +4,8 @@
 # Phase A1.2 (per reports/become-boot-mode-design-2026-05-13.md §4.2)
 # 取代 CONSCIOUSNESS.md L34-160 靜態快照（dashboard JSON ground truth）
 #
-# purpose：BECOME §Step 6 L4 always-load query 接這 script
-# Output：~12-15 行 markdown summary (vitals + 8 organs + alerts hint)
+# 用途：BECOME §Step 6 L4 always-load query 接這個 script
+# 輸出：~12-15 行 markdown summary (vitals + 8 organs + alerts hint)
 
 set -euo pipefail
 
@@ -13,8 +13,8 @@ VITALS="${VITALS:-public/api/dashboard-vitals.json}"
 ORGANISM="${ORGANISM:-public/api/dashboard-organism.json}"
 
 if [[ ! -f "$VITALS" || ! -f "$ORGANISM" ]]; then
- echo "⚠️ consciousness-snapshot: dashboard JSON Does not exist"
- echo " try：bash scripts/core/refresh-data.sh"
+  echo "⚠️ consciousness-snapshot: dashboard JSON 不存在"
+  echo "   嘗試：bash scripts/core/refresh-data.sh"
   exit 0
 fi
 
@@ -41,7 +41,7 @@ if [[ -f "$IMMUNE_JSON" ]]; then
   if [[ -n "$ORG_IMMUNE" && -n "$V2_IMMUNE" ]]; then
     DIFF=$((ORG_IMMUNE - V2_IMMUNE)); [[ $DIFF -lt 0 ]] && DIFF=$((-DIFF))
     if [[ $DIFF -gt 2 ]]; then
- echo "⚠️ immune | organism.json=${ORG_IMMUNE} vs immune.json(v2 canonical)=${V2_IMMUNE} — stale-vs-canonical，跑 prebuild:dashboard regen"
+      echo "⚠️ immune  | organism.json=${ORG_IMMUNE} vs immune.json(v2 canonical)=${V2_IMMUNE} — stale-vs-canonical，跑 prebuild:dashboard regen"
     fi
   fi
 fi
@@ -55,7 +55,7 @@ jq -r '
 ALERTS="${ALERTS:-public/api/dashboard-alerts.json}"
 if [[ -f "$ALERTS" ]]; then
   jq -r '.alerts[:6][] | "🚨 " + .severity + " | " + .message' "$ALERTS" 2>/dev/null ||
- echo "⚠️ alerts | dashboard-alerts.json exists但Formatabnormal"
+    echo "⚠️ alerts  | dashboard-alerts.json 存在但格式異常"
 else
- echo "⚠️ alerts | 詳見 docs/semiont/CONSCIOUSNESS.md §警報"
+  echo "⚠️ alerts  | 詳見 docs/semiont/CONSCIOUSNESS.md §警報"
 fi

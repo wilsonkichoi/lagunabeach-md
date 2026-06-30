@@ -3,7 +3,7 @@
  * Prebuild: src/data/content-dates.json
  * Accurate per-URL "last meaningful modification" date for SEO freshness.
  *
- * WHY (2026-06-07 SEO fullFix — reports/seo-optimization-plan-2026-06-07.md §1.1):
+ * WHY (2026-06-07 SEO 完整修復 — reports/seo-optimization-plan-2026-06-07.md §1.1):
  *   The sitemap used a global `lastmod: new Date()` → every page claimed
  *   "modified today" on every build. Google's docs name this exact anti-pattern
  *   ("Don't set the last modification time to the current time whenever the
@@ -60,7 +60,7 @@ const NON_DEFAULT_LANGS = new Set(
 
 // Commit subjects that do NOT represent a meaningful content change.
 // Excluding them stops nightly babel / lint / routine sweeps from faking
-// freshness. Tuned to LagunaBeach.md's commit conventions (git log inspected).
+// freshness. Tuned to Taiwan.md's commit conventions (git log inspected).
 const COSMETIC =
   /(\[routine\]|babel|prettier|\blint\b|^🧬 \[semiont\] chore|format-only|translate\(|apostrophe|simplified-char|繁簡)/i;
 
@@ -69,11 +69,11 @@ const COSMETIC =
 // article content change. Without this, 34/57 spore-carrying articles had
 // their /latest position + sitemap lastmod set by spore ops (2026-06-10
 // audit, reports/spore-data-architecture-2026-06-10.md §2.3). Type-position
-// anchors keep real fixes like「heal: … Spore #132 查證Fetch出Articles date error」
+// anchors keep real fixes like「heal: … 孢子 #132 查證抓出文章 date error」
 // counting as content. Belt-and-suspenders: since the same report's refactor,
 // harvest no longer writes article files at all.
 const SPORE_POINTER =
-  /(^🧬 \[semiont\] (spore|harvest)\b|^🧬 \[harvest|fix\(spore\)|evolve\+harvest|feat: spore SSOT cleanup|衍生Datasync|sporeLinks)/i;
+  /(^🧬 \[semiont\] (spore|harvest)\b|^🧬 \[harvest|fix\(spore\)|evolve\+harvest|feat: spore SSOT cleanup|衍生資料同步|sporeLinks)/i;
 
 // Image / media-only operations (supplement hero+inline images, optimize, WebP
 // migrate, cache, fix image refs) touch article bodies but do NOT change prose —
@@ -81,10 +81,10 @@ const SPORE_POINTER =
 // 2026-06-13 WebP migration (570 articles, mechanical .jpg→.webp) + media-
 // supplement batches set 580 articles' /latest date to one single day. Adding
 // media is an enrichment, not a content-freshness event (user directive
-// 2026-06-13: 補圖不該把Articles擠到「LatestArticles」今天). Errs toward conservative
+// 2026-06-13: 補圖不該把文章擠到「最新文章」今天). Errs toward conservative
 // (stale-but-true) per this file's stated principle, never fake-fresh.
 const MEDIA_ONLY =
-  /(WebP Site-wide遷移|媒體增補|媒體落地|影像後handle|image-ingest|land-media|migrate-images|image以 ?WebP|babel year-mangle)/i;
+  /(WebP 全站遷移|媒體增補|媒體落地|影像後處理|image-ingest|land-media|migrate-images|圖片以 ?WebP|babel year-mangle)/i;
 
 function knowledgePathToUrl(p) {
   const parts = p.split('/');
@@ -178,7 +178,7 @@ function main() {
   }
 
   // 2026-06-14: a translated article's freshness IS its zh source's content
-  // freshness — a pure re-translation (lang-sync / parallelTranslation / 榨模型 batch) is not a
+  // freshness — a pure re-translation (lang-sync / 平行翻譯 / 榨模型 batch) is not a
   // content event. We DERIVE rather than FILTER: filtering translation commits
   // would leave a translated file (whose every commit is a translation) with NO
   // date → foreign /latest collapse. Inheriting the zh date instead dissolves the

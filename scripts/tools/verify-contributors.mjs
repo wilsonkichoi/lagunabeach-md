@@ -4,33 +4,33 @@
  *
  * Build-time silent-breakage detector for contributor display layer.
  *
- * alignment #1047 / PR #1052 review observation:
- *   contributor display 依賴兩個 standard layer sync維護：
- * .mailmap — 同人多 commit identity 變體統一到 canonical name
+ * 對齊 #1047 / PR #1052 review observation:
+ *   contributor display 依賴兩個 standard layer 同步維護：
+ *     .mailmap            — 同人多 commit identity 變體統一到 canonical name
  *     .all-contributorsrc — canonical name → {login, name} lookup
  *
- * 任一漏掉 → silent break（URL 壞 / display 用 fallback authorName）。
+ *   任一漏掉 → silent break（URL 壞 / display 用 fallback authorName）。
  *
- * 本 script 跑 git log --use-mailmap 拿all canonical authors，對照
+ * 本 script 跑 git log --use-mailmap 拿所有 canonical authors，對照
  * .all-contributorsrc 用 contributorKey lookup（跟 src/utils/contributors.ts
  * 同樣 normalization 邏輯），列出 missing/URL-unsafe case，出 warning。
  *
  * 紀律：
- * - 不 auto-add（侵犯 all-contributors bot 工作流）
- * - 不 fail build（exit 0）— warn-only，Avoid contributor onboarding 卡 build
+ *   - 不 auto-add（侵犯 all-contributors bot 工作流）
+ *   - 不 fail build（exit 0）— warn-only，避免 contributor onboarding 卡 build
  *
- * Hooked into npm run prebuild (跟 generate-contributors-data parallel).
+ * Hooked into npm run prebuild (跟 generate-contributors-data 平行).
  *
- * DNA refs (per #1052 Cheyu review):
- * - REFLEXES #52 Immune fail-loud 比缺 immune 更危險
- * - REFLEXES #43 derived Data儀器化進生命週期Trigger點
+ * DNA refs (per #1052 哲宇 review):
+ *   - REFLEXES #52 Immune fail-loud 比缺 immune 更危險
+ *   - REFLEXES #43 derived 資料儀器化進生命週期觸發點
  */
 
 import { readFileSync } from 'fs';
 import { resolve } from 'path';
 import { spawnSync } from 'child_process';
 
-// ── GitHub login spec (跟 src/utils/contributors.ts alignment) ─────────────────────
+// ── GitHub login spec (跟 src/utils/contributors.ts 對齊) ─────────────────────
 // alphanumeric + single hyphens, not start/end with hyphen, max 39 chars
 const GITHUB_LOGIN_REGEX = /^[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,37}[a-zA-Z0-9])?$/;
 
@@ -49,7 +49,7 @@ function loadProfiles() {
   const byKey = new Map();
   for (const c of config.contributors || []) {
     if (!c.login || !c.name) continue;
-    // 跟 src/utils/contributors.ts 同樣 set 兩 key
+    // 跟 src/utils/contributors.ts 同樣 set 兩個 key
     byKey.set(contributorKey(c.name), c);
     byKey.set(contributorKey(c.login), c);
   }
@@ -139,7 +139,7 @@ function main() {
     '⚠️  verify-contributors: found missing/unsafe contributor entries',
   );
   console.warn(
-    ' (跟 contributors.ts 一樣 contributorKey lookup — 缺 entry 會走 fallback)',
+    '   (跟 contributors.ts 一樣 contributorKey lookup — 缺 entry 會走 fallback)',
   );
 
   if (missing.length > 0) {
@@ -149,12 +149,12 @@ function main() {
       console.warn(`     "${name}" <${email}>`);
     }
     console.warn('');
-    console.warn(' suggestion用 all-contributors bot 補：');
+    console.warn('   建議用 all-contributors bot 補：');
     console.warn(
       '     @all-contributors please add @<github-login> for <contribution-type>',
     );
     console.warn(
-      ' (contribution 類型: code / content / doc / translation / bug / review / ...)',
+      '   (contribution 類型: code / content / doc / translation / bug / review / ...)',
     );
   }
 

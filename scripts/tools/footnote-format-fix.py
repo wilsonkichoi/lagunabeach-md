@@ -1,44 +1,44 @@
 #!/usr/bin/env python3
-"""footnote-format-fix.py — 把多種 footnote 源Format統一轉成 LagunaBeach.md canonical Format
+"""footnote-format-fix.py — 把多種 footnote 源格式統一轉成 Taiwan.md canonical 格式
 
-Canonical Format：`[^N]: [Title](URL) — desc（descriptionat least 10 characters）`
+Canonical 格式：`[^N]: [Title](URL) — desc（描述至少 10 字）`
 
-援的源Format（4 種）：
- 1. Markdown 缺 desc：`[^N]: [Title](URL)` → 補 em-dash + domain-aware desc
- 2. APA academicFormat：`[^N]: Author. (date). *Title*. URL.` → 重組成 canonical
- 3. Chinese標點：`[^N]: Author，〈Title〉，URL` → 重組成 canonical（Keep作者）
- 4. Angle-bracket URL：`[^N]: [Title](<URL>) — desc` → Remove尖括號
+支援的源格式（4 種）：
+  1. Markdown 缺 desc：`[^N]: [Title](URL)` → 補 em-dash + domain-aware desc
+  2. APA 學術格式：`[^N]: Author. (date). *Title*. URL.` → 重組成 canonical
+  3. 中文標點：`[^N]: Author，〈Title〉，URL` → 重組成 canonical（保留作者）
+  4. Angle-bracket URL：`[^N]: [Title](<URL>) — desc` → 移除尖括號
 
-domain → desc mapping（60+ Source）：cover台灣主流媒體、政府網站、academic機構、文化Memory庫、
- 維基百科、PRC 官方（標 PRC 觀點）、Facebook / YouTube 等。未匹配 domain 退化為
- 「詳見original連結inside文」（10 characters fallback）。
+domain → desc mapping（60+ 來源）：覆蓋台灣主流媒體、政府網站、學術機構、文化記憶庫、
+  維基百科、PRC 官方（標 PRC 觀點）、Facebook / YouTube 等。未匹配 domain 退化為
+  「詳見原始連結內文」（10 字 fallback）。
 
-Background：
- 2026-05-03 magical-feynman session — idlccp1984 9 PR batch heal commit 揭露 4 種源
- Format並存（每位 contributor / 每隻 AI 寫作tool偏好differentFormat），manual polish 不可
- scale。把 60+ domain mapping table + 三種源Format parser From /tmp/heal-batch-v2.py
- 搬進 canonical，下次any batch heal directly reuse。
+誕生背景：
+  2026-05-03 magical-feynman session — idlccp1984 9 PR batch heal commit 揭露 4 種源
+  格式並存（每位 contributor / 每隻 AI 寫作工具偏好不同格式），手動 polish 不可
+  scale。把 60+ domain mapping table + 三種源格式 parser 從 /tmp/heal-batch-v2.py
+  搬進 canonical，下次任何 batch heal 直接 reuse。
 
-corresponding REFLEXES #5「pre-commit dogfood 是朋友」+ REFLEXES #15「反覆浮現的思考要儀器化」+
-本 session candidate REFLEXES #48「Footnote source format diversity 是 contributor batch
+對應 REFLEXES #5「pre-commit dogfood 是朋友」+ REFLEXES #15「反覆浮現的思考要儀器化」+
+本 session 候選 REFLEXES #48「Footnote source format diversity 是 contributor batch
 隱性 heal cost」。
 
-Usage examples：
- # 全 knowledge/ Run once（dry-run，Default）
+使用範例：
+  # 全 knowledge/ 跑一遍（dry-run，預設）
   python3 scripts/tools/footnote-format-fix.py --all
 
- # apply Mode（Actually write）
+  # apply 模式（實際寫入）
   python3 scripts/tools/footnote-format-fix.py --all --apply
 
- # Specify file
- python3 scripts/tools/footnote-format-fix.py --apply knowledge/Lifestyle/遊覽車.md
+  # 指定檔案
+  python3 scripts/tools/footnote-format-fix.py --apply knowledge/Lifestyle/遊覽車.md
 
- # From stdin Read file list（per-line）
+  # 從 stdin 讀檔案清單（per-line）
   gh pr diff 789 --name-only | python3 scripts/tools/footnote-format-fix.py --apply --stdin
 
-Exit codes：
- 0 = All passed / Modifications applied
- 1 = ParseFailed / WriteFailed
+退出碼：
+  0 = 全部通過 / 有修改成功
+  1 = 解析失敗 / 寫入失敗
 """
 import argparse
 import re
@@ -47,103 +47,103 @@ from pathlib import Path
 from typing import Optional
 
 
-# --- domain → desc mapping（per-source description模板）-----------------------
+# --- domain → desc mapping（per-source 描述模板）-----------------------
 DOMAIN_DESC: dict[str, str] = {
- # 台灣主流媒體
- "cna.com.tw": "中央社報導",
- "udn.com": "聯合新聞網報導",
- "ltn.com.tw": "自由時報報導",
- "pts.org.tw": "公視新聞網",
- "ettoday.net": "ETtoday 新聞雲",
- "ftvnews.com.tw": "民視新聞報導",
- "merit-times.com": "人間福報專欄",
- "merit-times.com.tw": "人間福報專欄",
- "ctee.com.tw": "工商時報報導",
- "wantrich.chinatimes.com": "中時新聞網報導",
- "yahoo.com": "Yahoo 新聞報導",
- "tw.news.yahoo.com": "Yahoo 新聞報導",
- "shoppingdesign": "Shopping Design 報導",
- "cnews.com.tw": "匯流新聞網報導",
- "money.udn.com": "經濟日報報導",
- "time.udn.com": "聯合新聞網報時光專欄",
- "bbc.com": "BBC News Chinese報導",
- "epochtimes.com": "大紀元時報報導",
- "storm.mg": "風傳媒專文",
- "thinkingtaiwan.net": "想想論壇專文",
- "businessweekly.com.tw": "商業周刊報導",
- "health.businessweekly.com.tw": "良醫Health網／商業周刊",
- "nownews.com": "NOWnews 今日新聞",
- "applealmond.com": "果仁專文",
- "bnext.com.tw": "數位時代分析",
- "ai.bnext.com.tw": "數位時代專文",
- # 雜誌 / 評論
- "taiwan-panorama.com": "台灣光華雜誌專文",
- "pansci.asia": "PanSci 泛科學專文",
- "opinion.cw.com.tw": "獨立評論@天下專欄",
- "theintellectual.net": "思想坦克專文",
- "weeklyhistory.net": "週報時光機專文",
- "civilmedia.tw": "公民行動影音recordData庫",
- "eventsinfocus.org": "焦點event報導",
- "ourisland.pts.org.tw": "公視我們的島專題",
- "agriharvest.tw": "農傳媒專文",
- # 政府
- "freeway.gov.tw": "交通部高速公路局",
- "cy.gov.tw": "監察院糾正report",
- "tycg.gov.tw": "桃園市政府文件",
- "land.tycg.gov.tw": "桃園市政府土地計畫",
- "archives.gov.tw": "國家發展委員會file管理局",
- "moea.gov.tw": "經濟部新聞稿",
- "moa.gov.tw": "農業部知識entry point網",
- "kmweb.moa.gov.tw": "農業部知識entry point網",
- "iot.gov.tw": "交通部運輸研究所report",
- "dgbas.gov.tw": "行政院主計總處",
- "scitechvista.nat.gov.tw": "國科會科技大觀園",
- "nstc.gov.tw": "國家科學及技術委員會",
- "tcrf.org.tw": "中華民國道路協會",
- "nantun.taichung.gov.tw": "南屯區公所介紹",
- "culture.taichung.gov.tw": "臺中市政府文化局",
- "foodedu.tc.edu.tw": "臺中市政府教育局食農專欄",
- "travel.taichung.gov.tw": "臺中觀光旅遊網",
- "ws.th.gov.tw": "國史館臺灣文獻館論文",
- # academic
- "sinica.edu.tw": "中央研究院",
- "research.sinica.edu.tw": "中央研究院",
- "ntl.edu.tw": "國立中央圖書館台灣分館",
- "ntu.edu.tw": "國立臺灣大學論文",
- "ws.dgbas.gov.tw": "行政院主計總處公報",
- # 文化 / Memory庫
- "tcmb.culture.tw": "國家文化Memory庫",
- "wanhegong.org.tw": "萬和宮全球資訊網",
- "matsu.idv.tw": "馬祖資訊網file",
- # 維基
- "wikipedia.org": "維基百科目",
- "zh.wikipedia.org": "維基百科目",
- # platform / 商業
- "facebook.com": "Facebook public貼文",
- "youtube.com": "YouTube videorecord",
- "m.youtube.com": "YouTube videorecord",
- "applesidra.com.tw": "蘋果西打官方網站",
- "taisugar.com.tw": "台糖官網Data",
- "onelittleday.com.tw": "小日子專欄",
- "gbimonthly.com": "生技月刊報導",
- "tiwa.org.tw": "台灣國際勞工協會file",
- "newton.com.tw": "Chinese百科全書目",
- "holoteam.com": "凌雲科技技術Parse",
- "t-security.com": "T-security 擎雷防偽Data",
- "npf.org.tw": "國家政策研究基金會評論",
- "ryoritaiwan.fcdc.org.tw": "中華飲食文化基金會專欄",
- "easytravel.com.tw": "易遊網景點Data",
- "guide.easytravel.com.tw": "易遊網景點Data",
- "medicaltravel.org.tw": "臺灣國際醫療全球資訊網",
- "cloudtcm.com": "雲端中醫本草藥典",
- "food.ltn.com.tw": "自由時報飲食專欄",
- "health.udn.com": "元氣網／聯合報Health版",
- "talk.ltn.com.tw": "自由時報自由廣場",
- "plainlaw.me": "法律白話文運動",
- # 中國官方（標 PRC 觀點）
- "gwytb.gov.cn": "中國國台辦官方Data（PRC 觀點）",
- # Default fallback — 必 ≥ 10 chars 以滿足 canonical regex
- "default": "詳見original連結inside文Data補充",
+    # 台灣主流媒體
+    "cna.com.tw": "中央社報導",
+    "udn.com": "聯合新聞網報導",
+    "ltn.com.tw": "自由時報報導",
+    "pts.org.tw": "公視新聞網",
+    "ettoday.net": "ETtoday 新聞雲",
+    "ftvnews.com.tw": "民視新聞報導",
+    "merit-times.com": "人間福報專欄",
+    "merit-times.com.tw": "人間福報專欄",
+    "ctee.com.tw": "工商時報報導",
+    "wantrich.chinatimes.com": "中時新聞網報導",
+    "yahoo.com": "Yahoo 新聞報導",
+    "tw.news.yahoo.com": "Yahoo 新聞報導",
+    "shoppingdesign": "Shopping Design 報導",
+    "cnews.com.tw": "匯流新聞網報導",
+    "money.udn.com": "經濟日報報導",
+    "time.udn.com": "聯合新聞網報時光專欄",
+    "bbc.com": "BBC News 中文報導",
+    "epochtimes.com": "大紀元時報報導",
+    "storm.mg": "風傳媒專文",
+    "thinkingtaiwan.net": "想想論壇專文",
+    "businessweekly.com.tw": "商業周刊報導",
+    "health.businessweekly.com.tw": "良醫健康網／商業周刊",
+    "nownews.com": "NOWnews 今日新聞",
+    "applealmond.com": "果仁專文",
+    "bnext.com.tw": "數位時代分析",
+    "ai.bnext.com.tw": "數位時代專文",
+    # 雜誌 / 評論
+    "taiwan-panorama.com": "台灣光華雜誌專文",
+    "pansci.asia": "PanSci 泛科學專文",
+    "opinion.cw.com.tw": "獨立評論@天下專欄",
+    "theintellectual.net": "思想坦克專文",
+    "weeklyhistory.net": "週報時光機專文",
+    "civilmedia.tw": "公民行動影音紀錄資料庫",
+    "eventsinfocus.org": "焦點事件報導",
+    "ourisland.pts.org.tw": "公視我們的島專題",
+    "agriharvest.tw": "農傳媒專文",
+    # 政府
+    "freeway.gov.tw": "交通部高速公路局",
+    "cy.gov.tw": "監察院糾正報告",
+    "tycg.gov.tw": "桃園市政府文件",
+    "land.tycg.gov.tw": "桃園市政府土地計畫",
+    "archives.gov.tw": "國家發展委員會檔案管理局",
+    "moea.gov.tw": "經濟部新聞稿",
+    "moa.gov.tw": "農業部知識入口網",
+    "kmweb.moa.gov.tw": "農業部知識入口網",
+    "iot.gov.tw": "交通部運輸研究所報告",
+    "dgbas.gov.tw": "行政院主計總處",
+    "scitechvista.nat.gov.tw": "國科會科技大觀園",
+    "nstc.gov.tw": "國家科學及技術委員會",
+    "tcrf.org.tw": "中華民國道路協會",
+    "nantun.taichung.gov.tw": "南屯區公所介紹",
+    "culture.taichung.gov.tw": "臺中市政府文化局",
+    "foodedu.tc.edu.tw": "臺中市政府教育局食農專欄",
+    "travel.taichung.gov.tw": "臺中觀光旅遊網",
+    "ws.th.gov.tw": "國史館臺灣文獻館論文",
+    # 學術
+    "sinica.edu.tw": "中央研究院",
+    "research.sinica.edu.tw": "中央研究院",
+    "ntl.edu.tw": "國立中央圖書館台灣分館",
+    "ntu.edu.tw": "國立臺灣大學論文",
+    "ws.dgbas.gov.tw": "行政院主計總處公報",
+    # 文化 / 記憶庫
+    "tcmb.culture.tw": "國家文化記憶庫",
+    "wanhegong.org.tw": "萬和宮全球資訊網",
+    "matsu.idv.tw": "馬祖資訊網檔案",
+    # 維基
+    "wikipedia.org": "維基百科條目",
+    "zh.wikipedia.org": "維基百科條目",
+    # 平台 / 商業
+    "facebook.com": "Facebook 公開貼文",
+    "youtube.com": "YouTube 影片紀錄",
+    "m.youtube.com": "YouTube 影片紀錄",
+    "applesidra.com.tw": "蘋果西打官方網站",
+    "taisugar.com.tw": "台糖官網資料",
+    "onelittleday.com.tw": "小日子專欄",
+    "gbimonthly.com": "生技月刊報導",
+    "tiwa.org.tw": "台灣國際勞工協會檔案",
+    "newton.com.tw": "中文百科全書條目",
+    "holoteam.com": "凌雲科技技術解析",
+    "t-security.com": "T-security 擎雷防偽資料",
+    "npf.org.tw": "國家政策研究基金會評論",
+    "ryoritaiwan.fcdc.org.tw": "中華飲食文化基金會專欄",
+    "easytravel.com.tw": "易遊網景點資料",
+    "guide.easytravel.com.tw": "易遊網景點資料",
+    "medicaltravel.org.tw": "臺灣國際醫療全球資訊網",
+    "cloudtcm.com": "雲端中醫本草藥典",
+    "food.ltn.com.tw": "自由時報飲食專欄",
+    "health.udn.com": "元氣網／聯合報健康版",
+    "talk.ltn.com.tw": "自由時報自由廣場",
+    "plainlaw.me": "法律白話文運動",
+    # 中國官方（標 PRC 觀點）
+    "gwytb.gov.cn": "中國國台辦官方資料（PRC 觀點）",
+    # 預設 fallback — 必 ≥ 10 chars 以滿足 canonical regex
+    "default": "詳見原始連結內文資料補充",
 }
 
 
@@ -251,7 +251,7 @@ def collect_files(args) -> list[Path]:
         if not knowledge.is_dir():
             print(f"❌ knowledge/ not found in cwd ({Path.cwd()})", file=sys.stderr)
             sys.exit(1)
- # SkippedTranslationdirectory（only zh-TW SSOT）
+        # 跳過翻譯目錄（only zh-TW SSOT）
         return [p for p in knowledge.rglob("*.md") if p.parts[1] not in ("en", "ja", "ko", "es", "fr")]
     files: list[Path] = []
     if args.stdin:

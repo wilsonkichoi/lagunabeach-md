@@ -2,13 +2,13 @@
 """
 check-canonical-frontmatter.py — Canonical 文件 frontmatter 擋頭
 
-per MANIFESTO §Evolution哲學第六 — Frontmatter 是Quality基礎建設
+per MANIFESTO §進化哲學第六條 — Frontmatter 是品質基礎建設
 per ANATOMY §Canonical 文件 frontmatter (schema spec)
 
 對 docs/semiont/, docs/pipelines/, docs/editorial/, docs/factory/, BECOME_TAIWANMD.md,
-CLAUDE.md 範圍下的 .md 檔強制 frontmatter spec:
+CLAUDE.md 範圍下的 .md 檔強制 frontmatter 規範:
 - 必填七欄齊全
-- type / status / apoptosis 取值在合法 enum inside
+- type / status / apoptosis 取值在合法 enum 內
 - archived 必有 superseded_by
 - sub-canonical 必有 parent_canonical
 
@@ -270,8 +270,8 @@ def main() -> int:
             f'({total_violations} violations).'
         )
         print(
- 'Schema canonical: docs/semiont/ANATOMY.md §Canonical 文件 frontmatter\n'
- 'Philosophy: docs/semiont/MANIFESTO.md §Evolution哲學第六'
+            'Schema canonical: docs/semiont/ANATOMY.md §Canonical 文件 frontmatter\n'
+            'Philosophy: docs/semiont/MANIFESTO.md §進化哲學第六條'
         )
         return 1
 

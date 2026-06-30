@@ -5,14 +5,14 @@
  * with CJK bigrams + Latin words, builds serialized MiniSearch indexes.
  *
  * Output（2026-06-13 RAG Phase 0 — 六語系 per-lang shard）:
- * public/api/search-minisearch-{lang}.json ×6（每Language一份，client 按
- * <html lang> Fetch自己的 shard — Fix ja/ko/es/fr ReaderSearch零母語結果的洞，
- * 詳 reports/research/2026-06/rag-design-research-2026-06-13.md Phase 0）
+ *   public/api/search-minisearch-{lang}.json   ×6（每語言一份，client 按
+ *     <html lang> 抓自己的 shard — 修復 ja/ko/es/fr 讀者搜尋零母語結果的洞，
+ *     詳 reports/research/2026-06/rag-design-research-2026-06-13.md Phase 0）
  *   public/api/search-minisearch.json          legacy combined zh+en
- * （back-compat：已deploy/cache頁面的舊 client 仍指這 URL，不能斷）
+ *     （back-compat：已部署/快取頁面的舊 client 仍指這個 URL，不能斷）
  *
- * LanguagelistFrom src/config/languages.mjs SSOT 讀（REFLEXES #20 architecture-as-data，
- * 新Language出生時本檔零改動）。
+ * 語言清單從 src/config/languages.mjs SSOT 讀（REFLEXES #20 architecture-as-data，
+ * 新語言出生時本檔零改動）。
  */
 
 import { readdir, readFile, writeFile, mkdir } from 'node:fs/promises';
@@ -42,7 +42,7 @@ const isCJK = (cp) =>
   (cp >= 0x3400 && cp <= 0x4dbf) ||
   (cp >= 0xf900 && cp <= 0xfaff) ||
   (cp >= 0x3100 && cp <= 0x312f) ||
-  // 2026-06-13 Phase 0：ja 假名 + ko 諺文也走 bigram（原本只有漢characters，
+  // 2026-06-13 Phase 0：ja 假名 + ko 諺文也走 bigram（原本只有漢字，
   // ja/ko shard 的母語 query 打不中 — ko shard 421KB vs 他語 1.2MB+ 暴露的洞）
   (cp >= 0x3040 && cp <= 0x30ff) || // Hiragana + Katakana
   (cp >= 0x31f0 && cp <= 0x31ff) || // Katakana phonetic extensions
@@ -60,9 +60,9 @@ function bigramTokenize(text) {
     if (m[0].length >= 2) tokens.push(m[0]);
   }
 
-  // CJK bigrams（ja 漢characters/假名混排與 ko 諺文走 NFKC 後的 Latin/CJK 雙路；
-  // 假名與諺文not in isCJK 範圍時由 MiniSearch prefix match 接住 Latin 化查詢，
-  // 母語title的 CJK 漢characters bigram 仍為main召回path）
+  // CJK bigrams（ja 漢字/假名混排與 ko 諺文走 NFKC 後的 Latin/CJK 雙路；
+  // 假名與諺文不在 isCJK 範圍時由 MiniSearch prefix match 接住 Latin 化查詢，
+  // 母語標題的 CJK 漢字 bigram 仍為主要召回路徑）
   const chars = [...normalized];
   for (let i = 0; i < chars.length - 1; i++) {
     const cp1 = chars[i].codePointAt(0);
@@ -168,7 +168,7 @@ for (const [lang, docs] of docsByLang) {
   );
 }
 
-// Legacy combined default+en（back-compat：舊 client / cache HTML 仍 fetch 這 URL）
+// Legacy combined default+en（back-compat：舊 client / 快取 HTML 仍 fetch 這個 URL）
 // Use Set to avoid duplicate IDs when DEFAULT_LANGUAGE.code === 'en'
 const legacyLangs = new Set([DEFAULT_LANGUAGE.code, 'en']);
 const legacyDocs = [...legacyLangs].flatMap(

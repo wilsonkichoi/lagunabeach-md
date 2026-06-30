@@ -1,7 +1,7 @@
 """
 backends/ — Translation backend abstraction layer.
 
-PerCheyu callout 2026-05-12 「儘可能module化 抽象化 可抽換化 讓System獨立於模型與服務類別能運作」.
+Per哲宇 callout 2026-05-12 「儘可能模組化 抽象化 可抽換化 讓系統獨立於模型與服務類別能運作」.
 
 Public interface:
 

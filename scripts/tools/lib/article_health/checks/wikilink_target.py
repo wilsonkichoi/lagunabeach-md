@@ -76,7 +76,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
         yield Violation(
             check=CHECK_NAME,
             severity=DEFAULT_SEVERITY,
- message=f"wikilink targetDoes not exist：[[{link}]]",
+            message=f"wikilink 目標不存在：[[{link}]]",
             line=line,
             snippet=m.group(0)[:80],
             editorial_ref=EDITORIAL_REF,
@@ -87,7 +87,7 @@ def fix(target: FileTarget, config: dict[str, Any]) -> int:
     """Auto-fix broken wikilinks — convert `[[X]]` → `X` (or `[[X|Y]]` → `Y`)
     when target slug doesn't exist. Resolved (valid) wikilinks are NOT touched.
 
- Per EDITORIAL §wikilink: 「target article 無corresponding → 轉純文characters」. This is the
+    Per EDITORIAL §wikilink: 「目標 article 無對應 → 轉純文字」. This is the
     safest transform — preserves visible text without introducing dead
     `/cat/slug` links that may not exist.
 

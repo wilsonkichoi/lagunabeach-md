@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""music-media-audit.py — 找 Music / 音樂類 People 目缺 iframe 的 backlog.
+"""music-media-audit.py — 找 Music / 音樂類 People 條目缺 iframe 的 backlog.
 
 Per EDITORIAL §媒體編織 類型 × 媒體比重 baseline (2026-05-17):
- - 音樂人: 2-3 圖 + 2-3+ video
- - 樂團/音樂史: 2-3 圖 + 3-5 video
- - 運動員/演員: 2-3 圖 + 1-3 video
- - YouTuber: 2-3 圖 + 2-4 video
- - Hub 頁: 0 + 0
+  - 音樂人:        2-3 圖 + 2-3+ 影片
+  - 樂團/音樂史:   2-3 圖 + 3-5 影片
+  - 運動員/演員:   2-3 圖 + 1-3 影片
+  - YouTuber:      2-3 圖 + 2-4 影片
+  - Hub 頁:        0 + 0
 
 Output:
   reports/music-media-audit/YYYY-MM-DD.md (human-readable summary)
@@ -32,23 +32,23 @@ KNOWLEDGE_DIR = REPO_ROOT / "knowledge"
 REPORTS_DIR = REPO_ROOT / "reports" / "music-media-audit"
 
 # Baseline per EDITORIAL §媒體編織 (CJK section anchor:
-# 媒體編織image與video穿插的敘事流2026-05-17-add)
+# 媒體編織圖片與影片穿插的敘事流2026-05-17-新增)
 BASELINE = {
- "music_person": {"min": 2, "max": 5, "rationale": "音樂人represents作 / 早期 / Latest三層"},
- "music_topic": {"min": 3, "max": 5, "rationale": "樂團 / 音樂類型史各時期 anchored 時間軸"},
+    "music_person": {"min": 2, "max": 5, "rationale": "音樂人代表作 / 早期 / 最新三層"},
+    "music_topic":  {"min": 3, "max": 5, "rationale": "樂團 / 音樂類型史各時期 anchored 時間軸"},
     "performer":    {"min": 1, "max": 3, "rationale": "運動員 / 演員 / YouTuber 表演關鍵時刻"},
-    "youtuber":     {"min": 2, "max": 4, "rationale": "YouTuber / Podcaster represents節目"},
+    "youtuber":     {"min": 2, "max": 4, "rationale": "YouTuber / Podcaster 代表節目"},
 }
 
 # Subcategory → tier classifier
 MUSIC_PERSON_SUBCATS = {
- "音樂", "音樂人", "音樂與表演", "流行音樂", "獨立音樂", "原住民音樂",
- "古典音樂", "搖滾", "民歌", "嘻哈",
+    "音樂", "音樂人", "音樂與表演", "流行音樂", "獨立音樂", "原住民音樂",
+    "古典音樂", "搖滾", "民歌", "嘻哈",
 }
 PERFORMER_SUBCATS = {
- "演員", "演員與表演", "表演", "戲劇", "影視",
- "運動", "運動員", "棒球", "羽球", "舉重", "桌球", "拳擊", "電競",
- "綜藝", "主持",
+    "演員", "演員與表演", "表演", "戲劇", "影視",
+    "運動", "運動員", "棒球", "羽球", "舉重", "桌球", "拳擊", "電競",
+    "綜藝", "主持",
 }
 YOUTUBER_SUBCATS = {"YouTuber", "創作者", "網紅", "Podcaster"}
 
@@ -183,7 +183,7 @@ def main():
 
     summary = {
         "generated": datetime.now().isoformat(),
- "baseline_canonical": "docs/editorial/EDITORIAL.md#媒體編織",
+        "baseline_canonical": "docs/editorial/EDITORIAL.md#媒體編織",
         "total_audited": total,
         "needs_heal": len(gap_files),
         "at_baseline": len(at_baseline),
@@ -225,7 +225,7 @@ def main():
         lines = [
             f"# Music Media Audit — {date_str}",
             "",
- f"Per EDITORIAL §媒體編織 baseline (2026-05-17). automatic cron: twmd-music-media-audit-weekly.",
+            f"Per EDITORIAL §媒體編織 baseline (2026-05-17). 自動 cron: twmd-music-media-audit-weekly.",
             "",
             "## Summary",
             "",
@@ -253,16 +253,16 @@ def main():
             "2. For each: WebSearch + WebFetch verify Official MV URLs (per REWRITE Step 4.3.6)",
             "3. Insert iframe + italic caption sample sentence",
             "4. Run preview_eval to verify rendering",
- "5. Commit as batch heal `🧬 [semiont] heal: N Music 目補 iframe`",
+            "5. Commit as batch heal `🧬 [semiont] heal: N 條 Music 條目補 iframe`",
             "",
             "Notes:",
             "",
             "- `yt-link` column shows existing inline YouTube markdown links (legacy convention). High link count + 0 iframe = candidate for upgrade rather than greenfield.",
             "- `Imgs` count includes hero + inline. Articles with 0 images AND 0 iframe are deeper heal candidates (missing both layers).",
- "- Tier `music_person`: 音樂人 (流行音樂 / 獨立音樂 / 原住民音樂 / 古典音樂 subcategory)",
- "- Tier `music_topic`: knowledge/Music/ all (樂團 / 音樂類型史 / 文化現象)",
- "- Tier `performer`: 演員 / 運動員 / 戲劇 subcategory under People/",
- "- Tier `youtuber`: YouTuber / Podcaster / 創作者 subcategory under People/",
+            "- Tier `music_person`: 音樂人 (流行音樂 / 獨立音樂 / 原住民音樂 / 古典音樂 subcategory)",
+            "- Tier `music_topic`: knowledge/Music/ 全部 (樂團 / 音樂類型史 / 文化現象)",
+            "- Tier `performer`: 演員 / 運動員 / 戲劇 subcategory under People/",
+            "- Tier `youtuber`: YouTuber / Podcaster / 創作者 subcategory under People/",
             "",
         ])
         md_path.write_text("\n".join(lines))

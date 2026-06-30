@@ -1,12 +1,12 @@
 #!/bin/bash
-# check-translation-timing.sh — CheckTranslationfile的Modify時間差
-# Usage：bash scripts/utils/check-translation-timing.sh [threshold_hours]
-# Default：displayexceeds 24 hours的diff
+# check-translation-timing.sh — 檢查翻譯檔案的修改時間差
+# 用法：bash scripts/utils/check-translation-timing.sh [threshold_hours]
+# 預設：顯示超過 24 小時的差異
 
 THRESHOLD="${1:-24}"
 
-echo "=== Translation時差statistics ==="
-echo "Check基準：${THRESHOLD} hours"
+echo "=== 翻譯時差統計 ==="
+echo "檢查基準：${THRESHOLD} 小時"
 echo ""
 
 THRESHOLD_ENV="$THRESHOLD" python3 << 'EOF'
@@ -42,32 +42,32 @@ for en_rel, zh_rel in translations.items():
     else:
         stale_en.append((zh_rel, en_rel, abs(diff_hours)))
 
-print("=== total ===")
-print(f"sync：{len(synced)} ")
-print(f"Chinese較新：{len(stale_zh)} ")
-print(f"English較新：{len(stale_en)} ")
+print("=== 總計 ===")
+print(f"同步：{len(synced)} 篇")
+print(f"中文較新：{len(stale_zh)} 篇")
+print(f"英文較新：{len(stale_en)} 篇")
 print()
 
 if stale_zh:
- print(f"=== Chinese較新exceeds {threshold} hours（priorityhandle） ===")
+    print(f"=== 中文較新超過 {threshold} 小時（優先處理） ===")
     thresholded = sorted([x for x in stale_zh if x[2] > threshold], key=lambda x: -x[2])
     if thresholded:
         for zh, en, hours in thresholded[:30]:
- print(f" {zh} (落後 {hours:.1f}h)")
+            print(f"     {zh} (落後 {hours:.1f}h)")
         if len(thresholded) > 30:
- print(f"... also {len(thresholded) - 30} ")
+            print(f"... 還有 {len(thresholded) - 30} 篇")
     else:
- print("(無exceedsConfig時差的目)")
+        print("(無超過設定時差的項目)")
 
 if stale_en:
     print()
- print(f"=== English較新exceeds {threshold} hours（Chinese可能又Update了） ===")
+    print(f"=== 英文較新超過 {threshold} 小時（中文可能又更新了） ===")
     thresholded = sorted([x for x in stale_en if x[2] > threshold], key=lambda x: -x[2])
     if thresholded:
         for zh, en, hours in thresholded[:30]:
- print(f" {zh} (English超前 {hours:.1f}h)")
+            print(f"     {zh} (英文超前 {hours:.1f}h)")
         if len(thresholded) > 30:
- print(f"... also {len(thresholded) - 30} ")
+            print(f"... 還有 {len(thresholded) - 30} 篇")
     else:
- print("(無exceedsConfig時差的目)")
+        print("(無超過設定時差的項目)")
 EOF

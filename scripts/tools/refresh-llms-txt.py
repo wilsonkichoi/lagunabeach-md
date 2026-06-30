@@ -11,7 +11,7 @@ Lines patched:
 3. "People profiles: N+"
 4. "Contributors: N"
 5. "Average revisions per article: N"
-6. "210+" appearing in `People (person) — N+ profiles:`
+6. "210+" appearing in `People (人物) — N+ profiles:`
 
 Triggered from refresh-data.sh Step 2.95 (added 2026-05-04 per REFLEXES #43:
 new dashboard-* generators must register in refresh-data.sh or go silent stale).
@@ -123,10 +123,10 @@ def patch_llms_txt(content: str, vitals: dict, fresh: dict, people_count: int) -
         f"People profiles: {rounded}+",
         content,
     )
- # Also patch "People (person) — N+ profiles:" line
+    # Also patch "People (人物) — N+ profiles:" line
     content = re.sub(
-        r"People \(person\) — \d+\+ profiles:",
- f"People (person) — {rounded}+ profiles:",
+        r"People \(人物\) — \d+\+ profiles:",
+        f"People (人物) — {rounded}+ profiles:",
         content,
     )
 
@@ -166,11 +166,11 @@ def main():
 
     if updated == original:
         cov = vitals.get("languageCoverage", {})
- print(f"✓ llms.txt 已是Latest (zh {cov.get('zh-TW', 0)} / contributors {vitals['contributors']} / People ~{round_to_tens(people)}+)")
+        print(f"✓ llms.txt 已是最新 (zh {cov.get('zh-TW', 0)} / contributors {vitals['contributors']} / People ~{round_to_tens(people)}+)")
         return 0
 
     if args.check:
- print(f"❌ llms.txt 過時 — 跑 python3 scripts/tools/refresh-llms-txt.py Fix", file=sys.stderr)
+        print(f"❌ llms.txt 過時 — 跑 python3 scripts/tools/refresh-llms-txt.py 修復", file=sys.stderr)
         return 1
 
     if args.dry_run:
