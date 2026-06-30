@@ -1,0 +1,422 @@
+# ROADMAP.md — LagunaBeach.md
+
+> Actionable forward plan. The fork migration (Phases 0-9) is complete and logged
+> in [MIGRATION-LOG.md](MIGRATION-LOG.md); migration doctrine + any in-flight
+> upstream-merge plan live in [MIGRATION.md](MIGRATION.md). **This file is the
+> live task list for forward work** (content + capabilities), checkbox-driven,
+> each item tagged with the skill that executes it and the capability that gates
+> it. Reassess after every ~10 new articles or any capability change.
+
+_v2.0 | 2026-06-25 — Made actionable. Horizon 0 (live-leak fixes) closed by
+Phase 9. Absorbed MIGRATION.md's Phase 8 parked backlog as the §7 gated-skill
+table. v1.0 was strategic-only._
+
+---
+
+## How to use this file
+
+- **Forward work is driven here, not in MIGRATION.md.** MIGRATION.md is only for
+  re-running the Taiwan-inheritance sweep after an `upstream/main` merge.
+- Each task lists its **executing skill** and (if blocked) its **gate**.
+- Two execution loops exist:
+  - **Content** (Horizon 1) → the content skill chain (`lb-write`, `lb-validate`,
+    etc.), not a review loop. Article quality isn't grep-verifiable.
+  - **Mechanical / code** (Horizon 0 cleanup, Horizon 2 build work) → the generic
+    two-session loop `/lb-implement` + `/lb-review` (handoff:
+    `.handoff/TO-IMPLEMENTER.md` / `TO-REVIEWER.md`). Distinct from the
+    migration loop (`/lb-migration-implement` + `/lb-migration-review`).
+
+---
+
+## 1. Where we are (verified 2026-06-25)
+
+- **Content:** 19 English articles across 8 categories (History, Art & Galleries,
+  Nature & Marine Life, Food, Beaches, Trails, Events & Festivals, Neighborhoods)
+  - 3 About pages. `knowledge/` is SSOT; `src/content/` derives via
+    `scripts/core/sync.sh`.
+- **Languages:** English-only. `zh-TW` was disabled (2026-06-25) in
+  `src/config/languages.{mjs,ts}` — it had zero translated articles and caused 6
+  `/zh-TW` dead links per build. Re-enable when flagship content is translated.
+- **Live infra:** GitHub Pages, `public/CNAME` = `lagunabeach.md`, deploy via
+  `.github/workflows/deploy.yml`.
+- **Working inherited features:** client-side search (`/explore`, MiniSearch),
+  knowledge graph (`/graph`), Leaflet map with real LB geocode
+  (`src/data/laguna-beach-geocode.json`), dashboard, changelog, related-articles
+  (tag-overlap, `src/data/related/en.json`), `llms.txt` (LB-grounded), MCP worker
+  (`workers/mcp`).
+- **Build health:** green, gated broken ratio 0.13% < 7.0%, en 0 broken.
+- **Live-leak fixes (was Horizon 0): DONE.** Phase 9 (2026-06-25) swapped the GA4
+  property (`G-JGC5W00N7T` → LB's `G-GP9LN8026H`), removed the justfont SDK, and
+  removed the dead Protico widget. See [MIGRATION-LOG.md](MIGRATION-LOG.md) Entry 1
+  Phase 9.
+
+---
+
+## 2. Operating principle
+
+Two rules govern everything below.
+
+- **Content before infrastructure.** A 19-article knowledge base's binding
+  constraint is breadth and depth of content, not tooling. Taiwan.md earned its
+  21 prebuild scripts, 16 cron routines, and analytics organs across 828 articles
+  and real traffic. Cargo-culting that scaffolding onto 19 articles produces dead
+  machinery.
+- **Capability before skill.** The parked `lb-*` skills (§7) are downstream of
+  capabilities, not reasons to build them. Build a capability only when the
+  project independently wants it (analytics because you want to know who reads the
+  site, not "to unblock `lb-analyze`"). The skill port falls out cheaply after.
+
+The corollary: this roadmap sequences **capabilities**, and §7 notes which parked
+skill each one unblocks as a side effect.
+
+---
+
+## 3. Horizon 0 — Live-leak fixes ✅ DONE (Phase 9, 2026-06-25)
+
+Kept here as the closed baseline; detail in [MIGRATION-LOG.md](MIGRATION-LOG.md).
+
+- [x] **GA4 leak** — swapped `G-JGC5W00N7T` → `G-GP9LN8026H` (LB-owned property,
+      Stream 15153167292). `grep -rn "G-JGC5W00N7T" src/` = 0. GA-dashboard hygiene
+      (disable Google Signals, enable IP anonymization) is a Wilson manual step, not
+      code.
+- [x] **justfont** — removed SDK + FOUC fallback + CSS workarounds (-237 lines);
+      zh-TW headings fall back to Noto Serif TC. Paid Taiwan-typeface dependency dropped.
+- [x] **Protico** — endpoint returned HTTP 404; removed the widget component +
+      3 template imports.
+- [x] **Chinese-comment cleanup** — superseded by Horizon 0.5 below. The old
+      "~14 cosmetic citations, opportunistic" framing was upgraded (2026-06-27,
+      Wilson) to a deliberate full de-Taiwaning of the app layer: make the repo
+      _truly LB_, production-ready for outside contributors, run as real work now
+      (not opportunistically) in parallel with content.
+
+---
+
+## 3.4. Horizon 0.4 — Toolchain correctness on English content ⬅ NOW
+
+**Decision (2026-06-29, Wilson):** the de-Taiwan work kept feeling bottomless
+because `grep zh` was the unit. It conflates cosmetic prose with **load-bearing
+Taiwan assumptions in the build/validate scripts** — checks that silently no-op
+or misfire on English articles. Those are bugs, not comments, and they're a
+finite set. Fix them before more cosmetic cleanup.
+
+**Method:** don't grep for Chinese. Run the toolchain that executes on every
+build against the 18 English articles, and classify each script:
+_works on English / structurally dead on English / misfires on English / cosmetic-only._
+The dead + misfire set is the real backlog.
+
+**Scope (finite):** the `scripts/` build chain — ~25 `prebuild:*` scripts
+(`sync.sh`, `article-health.py`, `generate-*`, the link verifier) + the 24
+`scripts/tools/lib/article_health/checks/*` plugins + `src/utils/article-render.ts`.
+Excludes anything that doesn't run on `npm run build` / `article-health.py`
+(harvest engine, lang-sync zh→en worker, social organs — those are Horizon 0.5
+readiness or deferred activation, not build-path correctness).
+
+**Known seeds (found while scoping):**
+
+- `viz_health.py` — `APPLIES_TO = ["zh-TW"]`; the check never fires on LB English
+  articles. Decide: port to English (regex for "as shown above/below", source-label
+  logic) or accept it's zh-TW-only and dormant.
+- `image_alt.py` — `body.rfind("## 圖片來源", …)` never matches LB's English
+  headings → the "skip alt-check inside an image-credits section" guard never
+  fires. Latent false-positive. Depends on pinning LB's image-credit heading
+  convention in EDITORIAL.md first, then re-anchoring.
+
+- [x] **Phase 1 — audit (done 2026-06-29).** Ran `article-health.py --all` on the
+      18 en articles. **Finding: 9 of 24 health checks are hardcoded
+      `APPLIES_TO=["zh-TW"]`** → structurally dead on every LB article. Split:
+  - **6 holes** (should run on en, currently dead): `prose-health` (the worst —
+    quality dashboard reports false-green because nothing is scanned),
+    `frontmatter-format`, `frontmatter-title`, `image-alt`, `viz-health`,
+    `correction-meta`.
+  - **3 legitimately N/A**: `terminology` (deleted — cross-strait, see commit
+    `873473961`), `cjk-punct` (Chinese punctuation), `spore-writing` (social
+    organ — keep, ports when social activates).
+  - The other 15 checks are lang-agnostic and run fine on en.
+- [x] **Phase 2 — pin conventions (done 2026-06-29).** Pinned in EDITORIAL.md:
+      title ≤60 chars + puffery-ban list (§5), `## Image Sources` heading (§4.7),
+      viz source-label format + AI-blind cross-ref to graph.md.
+- [x] **Phase 3 — fix the dead/misfire set (done 2026-06-29).** All 5 checks
+      (`frontmatter-title`, `image-alt`, `viz-health`, `correction-meta`,
+      `image_health`) ported to `APPLIES_TO=["en","zh-TW"]` with lang-branched
+      logic. English messages. Tests rebuilt (229 pass, 0 fail). Build 0.00%.
+
+### Resume state (2026-06-29) — for a fresh session
+
+**Wilson decision (2026-06-29), staged for R26 (R25 implementer was already in-flight,
+so not injected mid-round):** `weekly-report-prep.py` gets a **FULL de-Taiwan now**
+(~700 zh lines), not just the L696 `§11` pointer. Doctrine note: it's a dormant
+organ off the build path, but Wilson overrode the defer — do the whole file. When
+reviewing R25: if R25 only fixed L696, queue the full `weekly-report-prep.py`
+de-Taiwan as (part of) R26.
+
+**Test harness:** run the suite WITH PyYAML or results are degraded —
+`uvx --with pyyaml pytest tests/article_health -q` (the loader prefers PyYAML;
+without it, wrapped-flow-array frontmatter mis-parses and adds false failures).
+Started at **33** suite failures (Taiwan zh-TW assumptions); now **5**. (prose-health
+was never in the failing set — its zh-TW fixtures passed; it was _dead/false-green_
+on en, not red. The Round-24 port fixes the false-green, not the count.)
+
+**Done + committed this session:**
+
+- `873473961` — deleted cross-strait `terminology` gate (+ tests). Data layer
+  (`data/terminology/` 2,343 YAMLs, `extract-china-terms.py`, `fork-graph.astro`,
+  8 helper scripts, `TERMINOLOGY.md`) intentionally KEPT — separate product call.
+- `c0065b907` — **bucket 1**: 13 tests realigned to LB's en-default loader
+  contract (bare `knowledge/{Cat}/` = en source; `knowledge/{zh-TW,…}/` =
+  translation). Fixed test_loader, test_runner, test_chronicle_lead,
+  test_phase6/format_structure. Checks were already en-ported; only stale tests.
+- `75c030313` — **bucket 2**: `frontmatter-format` ported to `en+zh-TW`
+  (lang-agnostic logic; flipped gate, ~20 messages → English, auto-fix author
+  Taiwan.md → LagunaBeach.md). Adds 4 advisory WARNs on en corpus (unquoted
+  descriptions), no HARD → no gate impact.
+- **prose-health DONE (Round 24)** — full English port in one pass: `prose_health.py`
+  rewritten (brochure tells / not-just-X / AI metaphor+ritual tells ← EDITORIAL §6;
+  dropped the Taiwan island / 歐化 / 重 dims; `source:` frontmatter counts as
+  citation; score thresholds recalibrated for LB short-form so all 18 en articles
+  land ≤ 2 of the ≤ 3 budget), `test_prose_health.py` rebuilt with English fixtures
+  (29 pass), `APPLIES_TO = ["en","zh-TW"]`. Plus de-Taiwan of EDITORIAL §6 foils +
+  `generate-dashboard-data.js` / `article-health.config.toml` / `weekly-report-prep.py`
+  prose-health refs.
+
+**Remaining 5 failures = bucket 3 (frontmatter-title ×4 + phase6/image_health ×1;
+each needs a Wilson editorial decision before porting):**
+
+- `prose-health` — DONE (was a false-green, not a failing test). Original spec
+  retained below for reference:
+  1. **`scripts/tools/lib/article_health/checks/prose_health.py`** (788 lines, ~208
+     CJK) — port to English with judgment per dimension:
+     - **Keep (lang-agnostic, just flip `APPLIES_TO` to `["en","zh-TW"]`):** bullet
+       density, year count, URL count, em-dash overuse, citation desert (footnote
+       density), lastHumanReview, repeated bullet blocks, template-H2.
+     - **Rewrite to English, sourced from EDITORIAL §6:** plastic phrases → §"Not
+       Wanted: Travel-Brochure Tells" (line 256); `不是X是Y` parallel tell → §"The
+       'Not Just X, It's Y' Pattern" (270); hollow words → generic adjectives;
+       formulaic ending → §"Canned Endings" (284); manifesto Tier 2/3 (Chinese AI
+       metaphors + ritual phrases) → English AI-tells (delve / tapestry / testament
+       to / stands as a beacon / in conclusion / navigate the complexities).
+     - **Drop:** the Taiwan `這座島` island-self-reference dim (no LB analog).
+     - **Re-source the docstring:** "MANIFESTO §11 書寫節制" is STALE (that section was
+       removed in LB's MANIFESTO v2.0). Point to EDITORIAL §6 (concrete lists) +
+       MANIFESTO **Belief #11** (line 53, the principle).
+     - Recalibrate the score budget (`fail_on=score-budget`, ≤3 pass) for English.
+  2. **`tests/article_health/test_prose_health.py`** (22KB) — Chinese fixtures +
+     assertions → English; assert the new English patterns.
+  3. **`docs/editorial/EDITORIAL.md`** (11 Taiwan-ref lines) + **`docs/semiont/MANIFESTO.md`**
+     (8) — Wilson directive: graduate from Taiwan.md, keep ONLY origin-credit +
+     upstream-migration references, drop the rest.
+  4. **Migrate, do not leave hanging** (Chinese comments / Taiwan refs → English):
+     `scripts/tools/article-health.config.toml` (profile comments),
+     `scripts/core/generate-dashboard-data.js`, `scripts/tools/weekly-report-prep.py`.
+  - `.quality-baseline.json`: DONE — untracked + gitignored (commit `f20ea8d38`),
+    regenerated each build, nothing meaningful.
+  - Verify after: `npm run build` green + `uvx --with pyyaml pytest tests/article_health`.
+- `frontmatter-title` (3 fails + 1 parity) — CJK-specific logic. Needs LB title
+  rules: max length (CJK was ≤35 weighted; English SEO ~60 chars?), English
+  vague-adjective list (was `傳奇/偉大/最強`), whether People colon-sandwich applies.
+  The half-width-punct HARD rule is CJK-only → drop for en.
+- `image-alt` — re-anchor `## 圖片來源` to LB's image-credit heading (pin first).
+- `viz-health` — port `如上圖` AI-blind regex + source-label to English.
+- `correction-meta` — decide if LB wants the editorial-voice check at all.
+- `test_phase6::test_inline_image_existing_file_passes` — blocked on `image_health`
+  port (emits Chinese `圖片統計…`; not in the 9 dead but still un-ported messages).
+
+**Do NOT** invent LB editorial conventions for these — surface the decision.
+
+**Doctrine (to codify in MIGRATION.md):** three organ states, not "has zh / no zh":
+_active_ (runs on build → fix functional bugs), _dormant-but-kept_ (on LB's
+activation roadmap, e.g. the harvest engine → cosmetic, lowest priority, never
+delete), _dormant-discarded_ (Taiwan dead-end, e.g. zh→en lang-sync worker →
+delete/park, rebuild LB-shaped at activation).
+
+---
+
+## 3.5. Horizon 0.5 — Full LB ownership of the app layer ⬅ NOW (parallel to content)
+
+**Decision (2026-06-27, Wilson):** stop being a shadow of Taiwan.md at the code
+layer. Hard-fork the app layer, de-Taiwan every LB-owned source file, and make
+the repo onboard-able by a contributor who doesn't read Chinese. Runs in parallel
+with Horizon 1 — `src/` work and `knowledge/` content don't collide.
+
+**Upstream posture: hard-fork the app layer.** `.gitattributes` now carries
+`src/** merge=ours` (+ `docs/semiont/**`, `MIGRATION.md`, `ROADMAP.md`). On a
+future `git merge upstream/main` these auto-resolve to ours — the migration-loop
+conflict tax is gone for the app layer. Upstream infra improvements are taken
+**deliberately** via `git checkout upstream/main -- <path>`, never auto-merged.
+This means the `lb-migration-*` loop's app-layer scope shrinks to near-zero; it
+stays relevant only for unprotected paths (`scripts/`, `public/`, root configs).
+
+**Scope:** ~686 Chinese-comment lines across ~60 `src/` files. Excludes zh-TW
+i18n _string values_ (`i18n/*.ts`) — those are content, not comments, and stay.
+
+- [x] **Phase B — de-Taiwan the active app layer (~40 files, 2026-06-28).** Translate Chinese
+      code-comments → English in templates, pages, utils, `SEO.astro`,
+      `Layout.astro`, styles, config. Comment-only edits, no logic touched.
+      **Skill:** `/lb-implement` + `/lb-review`, batched, build-verified per batch.
+- [x] **Phase C — rebrand the Semiont organs (~15 files, 2026-06-28).** `spore*` /
+      `SporeFootprint`, `diary` / `DiaryTeaser` / `RelatedDiaries`, `semiont/*`,
+      `Perspectives`, `LifeTree`, `timeline/*`. Taiwan refs → LB, comments → EN.
+      **Do not delete; defer only activation, not translation** — these are adopted
+      Semiont organs (LB is Path A→B by design). Their prose is regrounded to
+      English/LB now (per `MIGRATION.md` Operating doctrine); only switching them on
+      is deferred until their capability lands (heartbeat for diary; social accounts
+      for spore; identity layer for semiont/\* is live now).
+- **Phase D — contributor readiness.** `CONTRIBUTING.md` is already re-grounded;
+  audit it + `docs/` for stale Taiwan workflow, ensure a non-Chinese-reading
+  contributor can onboard end to end.
+- [x] **Phase E — retire the `.en.md` shadow (2026-06-27).** Promoted all 12
+      `*.en.md` canon files to `*.md` (English first-class), deleted the upstream
+      Chinese originals (decision A — they remain in the upstream repo), repointed
+      47 live reference files, reconciled the shadow-header prose in all 12 docs +
+      the boot file + `MIGRATION.md` + the About article + `/about` page, fixed the
+      loader's `相關` vestige, and added `merge=ours` for `EDITORIAL.md` + the 3
+      pipelines (semiont already covered by `docs/semiont/**`). zh-TW locale strings
+      in `about.ts` still mention "影子翻譯" — left per the zh-TW-content rule, to
+      fix when/if that locale is re-enabled.
+
+**Tracking:** seeded into `.handoff/TO-IMPLEMENTER.md`; execute via the roadmap
+loop. Each batch commits separately and lists the files it de-Taiwaned. Phase E
+was executed directly (it had to be atomic — a half-renamed tree breaks the build).
+
+---
+
+## 4. Horizon 1 — Content depth (the real growth axis) ⬅ DO THIS
+
+This is where most effort should go. Everything that makes the inherited features
+(search, map, graph, related-articles) feel alive is a function of article count
+and interlinking. **No new infrastructure required — it is writing.**
+
+- [ ] **Grow the corpus toward ~40 articles** (the threshold at which
+      `/lb-media-audit` and the related-articles graph become statistically useful).
+      Fill thin categories first: **Food (1 article)**, then Beaches / Trails /
+      Neighborhoods (2 each).
+      **Skill chain:** `/lb-news-lens` + `/lb-peer` → `knowledge/INBOX.md` →
+      `/lb-write` → `/lb-validate` → `/lb-factcheck` → `/lb-sync`.
+- [ ] **Interlink aggressively.** Every new article links 2-4 existing ones via
+      `[[wikilink]]`. Graph + related-articles quality scale with link density, not
+      article count alone. **Skill:** `/lb-write` (enforce at draft), `/lb-embeddings`
+      (rebuild related index after).
+- [ ] **Adopt the media standard as the corpus grows.** A beach/art/trails town is
+      inherently visual; the corpus is currently text-heavy. **Skill:**
+      `/lb-media-audit` (low-signal until ~40 articles).
+- [x] **zh-TW question resolved (2026-06-25): disabled the locale.** Set
+      `enabled: false` on zh-TW in `src/config/languages.{mjs,ts}`; removed the now-false
+      `LanguageStatement` home section (+ orphan component and dead `home.lang.*` i18n
+      keys) that linked to `/zh-TW`. Cleared all 6 standing dead links (build broken
+      ratio 6→0). Re-enable when there's flagship content worth translating via
+      `/lb-translate`.
+
+---
+
+## 5. Horizon 2 — Reader-facing capabilities (build only when content justifies)
+
+Ordered by value-to-effort for a tourist-facing Laguna Beach guide. Each is
+**code work → use `/lb-implement` + `/lb-review`** once scoped.
+
+### 5a. Own analytics — unblocks `lb-analyze`, `lb-evolve`
+
+- [ ] GA4 is now LB-owned (Phase 9), so basic readership data will accrue. Decide
+      whether that's enough or whether to add Cloudflare Web Analytics (privacy-light,
+      no cookie banner, free, site likely already fronts Cloudflare for the `.md`
+      domain). Once real readership data exists, port `lb-analyze` / `lb-evolve` from §7.
+      **Gate:** weeks of accumulated GA4 data.
+
+### 5b. QR → AI chat "Laguna Beach guide" (the differentiated bet)
+
+- [ ] The strongest LB-specific opportunity. Tourist scans a QR at a
+      beach/trailhead → chat widget answers from article content + links the page.
+      Own-hosted-widget path (tourists won't have AI subscriptions):
+  - Cloudflare Worker at `/api/chat` + Cloudflare Vectorize + a small LLM (Workers
+    AI Llama for $0, or Claude Haiku at ~pennies/query for better answers).
+  - Build-time `build-rag-index.mjs` chunks articles (~300-500 tokens), embeds with
+    `@cf/baai/bge-m3`, upserts to Vectorize. ~19 articles × ~5 chunks ≈ 100 vectors;
+    trivially within free tier.
+  - **Ship the retrieval-only variant first** (suggest articles, no LLM
+    generation) at $0, then add generation.
+  - This is the one capability where building slightly ahead of content is
+    defensible (potential signature feature, corpus already large enough for an MVP).
+    **Gate:** none hard; sequence after Horizon 1 has depth. Net-new, LB-native.
+
+### 5c. OG image generation — adopt the simplification, skip the inheritance
+
+- [ ] If/when wanted, do **not** port Taiwan's Playwright-screenshot pipeline (12GB
+      heap, 120-min build). Use Cloudflare Worker + Satori + resvg-wasm on-demand:
+      generate per-article OG on first social-crawler request, cache at edge. ~$0, no
+      build-time cost. **Gate:** want social-share previews.
+
+### 5d. Map and graph polish
+
+- [ ] Add a Laguna Beach municipal-boundary TopoJSON (Overpass Turbo / OC GIS
+      portal) to outline the actual coastline/town. **Gate:** low priority until
+      content fills the map.
+
+---
+
+## 6. Horizon 3 — Autonomy organs (only at real scale)
+
+The Path A → Path B leap (`docs/fork/COUNTRY-MD-STARTER.md`): turning the static
+site into a self-maintaining Semiont with cron routines and persistent memory.
+**Explicitly not justified at 19 articles and zero traffic.** Revisit only when
+(a) the corpus is large enough that manual maintenance burns out a solo maintainer,
+and (b) there is traffic/feedback worth reacting to. The build order and the skills
+each capability unblocks are in §7.
+
+---
+
+## 7. Gated skill backlog (absorbed from MIGRATION.md Phase 8)
+
+Every skill here is blocked on a **capability that does not exist yet** — not on
+implementer effort. Each is a `lb-* ← twmd-*` port that falls out cheaply once its
+gate lands. Build the capability (Horizon 2/3) first, then port the skill. Do
+**not** build these speculatively (no dead skills).
+
+| Gate (capability to build first)                        | Unblocks (skill port)                                                                     | Horizon     |
+| ------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------- |
+| Analytics data (GA4 accruing / Cloudflare)              | `lb-evolve` ← `twmd-evolve`, `lb-analyze` ← `twmd-analyze`                                | 2a          |
+| PR / issue volume (can't be manufactured)               | `lb-maintainer` ← `twmd-maintainer`, `lb-pr-review` ← `twmd-pr-review`                    | on adoption |
+| One nightly cron (article-health or related-rebuild)    | `lb-routine`, `lb-routine-audit`                                                          | 3           |
+| More cron/automation organs                             | `lb-heartbeat`, `lb-finale`, `lb-probe`, `lb-babel`, `lb-batch-audit`, `lb-weekly-report` | 3           |
+| Memory / diary / LESSONS-INBOX / Supabase organs        | `lb-memory`, `lb-diary`, `lb-distill`, `lb-self-evolve`, `lb-feedback-triage`             | 3           |
+| Social presence (Threads/X/IG) — port-first-then-delete | `lb-harvest` ← `twmd-harvest`, `lb-spore{,-pick,-publish}` ← `twmd-spore*`                | 3           |
+| LB starts tagging releases                              | `lb-release` ← `twmd-release`                                                             | conditional |
+| A 3rd locale chosen                                     | `lb-language-birth` ← `twmd-language-birth`                                               | conditional |
+
+**`twmd-become` HELD:** still the shared gate for 25 dormant `twmd-*` skills.
+Delete only after all 25 dependents either port to `lb-become` or are deleted.
+The 4 social-gated `twmd-*` originals (`harvest`, `spore`, `spore-pick`,
+`spore-publish`) stay dormant as reference until their `lb-*` port is built, then
+`git rm`.
+
+---
+
+## 8. Explicit non-goals (inherited from Taiwan, deliberately not adopted)
+
+Documented so a future session doesn't "restore" them.
+
+- **Sovereignty-Bench / LLM benchmarking** (`/bench`, deleted) — Taiwan-geopolitics-specific.
+- **4-tier anti-censorship translation cascade + local Ollama "sovereignty backbone"** — existed because PRC models refuse Taiwan content. Irrelevant to Laguna.
+- **Multi-language-for-narrative-projection** (6 languages) — Taiwan's outward sovereignty projection. LB translation, if any, is for local tourist segments. Add languages reactively.
+- **justfont premium Chinese typefaces** — removed (Phase 9).
+- **"Token donation" framing, Portaly financial-supporter tooling, 5-tier contributor progression** — built for a 57-contributor national project. Premature for a solo/small fork.
+- **Soundscape** — Taiwan field-recording collection; no current LB angle.
+
+---
+
+## 9. Cost reality
+
+Static core is $0/month (GitHub Pages + Cloudflare free tier); only the `.md`
+domain (~$150/yr) is fixed. QR→chat (5b) is $0 on Cloudflare free tier at low
+traffic, or pennies/day if swapped to Claude Haiku for answer quality. Autonomy
+organs (Horizon 3) add Claude API compute (~$50-200/mo at Taiwan's cadence) and
+are the only material recurring cost; also the last thing to build.
+
+---
+
+## 10. Immediate next actions (this / next session)
+
+1. **Write articles** (Horizon 1) — `/lb-news-lens` + `/lb-peer` → `/lb-write`,
+   fill **Food** first, then Beaches/Trails/Neighborhoods, toward ~40.
+2. **Full LB ownership** (Horizon 0.5) — de-Taiwan the app layer as real work,
+   in parallel with content. App layer now `merge=ours`-protected. Execute Phases
+   B→C→D via `/lb-implement` + `/lb-review`. Seeded in `.handoff/TO-IMPLEMENTER.md`.
+
+Horizon 2+ waits until Horizon 1 has depth.
