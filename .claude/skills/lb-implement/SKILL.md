@@ -49,6 +49,18 @@ instead; for writing articles use `/lb-write`.
      spec doesn't enumerate it. Nothing should be deferred that you can fix now.
      The DEFERRED table is for things genuinely blocked, not things that require
      thought.
+   - **KEEP classification rule (always)**: a pattern is only KEEP if the content
+     it matches EXISTS in this repo. Before classifying any CJK line as KEEP, run
+     `grep -r` for the content the pattern targets (not the pattern itself). A
+     regex matching zh-TW headings is only KEEP if `knowledge/` contains zh-TW
+     articles with those headings. A test fixture with zh-TW reader input is only
+     KEEP if the pipeline will actually receive zh-TW input (check: does
+     `knowledge/zh-TW/` exist?). A spam-keyword list in Chinese is only KEEP if
+     the feedback system expects Chinese submissions. "It's in a regex" or "it's
+     test data" is not sufficient justification. The standard from ROADMAP: "Keep
+     CJK ONLY in patterns that parse actual zh-TW content that exists in this
+     repo. If the content those patterns match does not exist in LB, the pattern
+     is dead code, not a KEEP."
 3. **Do the work IN THIS SESSION.** No subagents/agents.
 4. **Build-verify.** Run `npm run build`. Gate is broken-ratio < 7.0% (currently
    ~0.13%). Do not regress it. Fix a red build before reporting.

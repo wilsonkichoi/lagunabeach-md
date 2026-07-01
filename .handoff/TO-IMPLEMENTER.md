@@ -1,60 +1,24 @@
-# Round 31 task — for implementer (2026-06-30) — ROADMAP Horizon 0.6 / Group 2
+# ALL ROADMAP MECHANICAL WORK DONE
 
-## Context
+Horizon 0.6 Groups 1-8 all [x]. The de-Taiwan CJK sweep for `scripts/` is
+complete. All remaining CJK in scripts/ (93 files) is verified functional KEEP:
+translation prompts, regex patterns matching zh-TW content, i18n language display
+names, content-matching keys.
 
-Horizon 0.6 Group 1 (lang-sync/ 25 files) confirmed done. Group 2 is the
-article-health check plugins.
+## What's next
 
-## Task
+**Horizon 1 (content depth)** is the active growth axis, entirely content-writing
+via `/lb-write` + `/lb-validate` + `/lb-factcheck`. No mechanical/code work
+needed. Priority: grow corpus toward ~40 articles, filling thin categories
+(Food 1 article, Beaches/Trails/Neighborhoods 2 each).
 
-Translate Chinese comments/docstrings to English in `scripts/tools/lib/article_health/`
-(17 files, ~350 CJK lines). These are the quality-check plugins that run during
-`prebuild:dashboard` and `pre-commit`.
+**Horizon 2+ (capabilities)** are autonomy checkpoints requiring Wilson scope
+confirmation before work begins.
 
-### Files
+## Forward observation (not a bug, not queued)
 
-```
-scripts/tools/lib/article_health/__init__.py
-scripts/tools/lib/article_health/loader.py
-scripts/tools/lib/article_health/types.py
-scripts/tools/lib/article_health/checks/cjk_punct.py
-scripts/tools/lib/article_health/checks/correction_meta.py
-scripts/tools/lib/article_health/checks/cross_reference.py
-scripts/tools/lib/article_health/checks/footnote_density.py
-scripts/tools/lib/article_health/checks/footnote_format.py
-scripts/tools/lib/article_health/checks/footnote_url.py
-scripts/tools/lib/article_health/checks/frontmatter_title.py
-scripts/tools/lib/article_health/checks/image_alt.py
-scripts/tools/lib/article_health/checks/image_health.py
-scripts/tools/lib/article_health/checks/link_target.py
-scripts/tools/lib/article_health/checks/prose_health.py
-scripts/tools/lib/article_health/checks/rationale_presence.py
-scripts/tools/lib/article_health/checks/spore_writing.py
-scripts/tools/lib/article_health/checks/viz_health.py
-scripts/tools/lib/article_health/checks/wikilink_target.py
-```
-
-### Key considerations
-
-- These plugins have `APPLIES_TO` fields. Some are `["zh-TW"]` only (cjk_punct,
-  spore_writing). Those are dormant on LB but kept per Horizon 0.4 decision.
-  Translate their comments anyway.
-- CJK in regex patterns that MATCH article content (Chinese heading patterns,
-  punctuation matchers, title puffery word lists) is KEEP. These are the tool's
-  detection logic for zh-TW articles.
-- `EDITORIAL_REF` strings that reference Chinese section names (like
-  `"SPORE-WRITING.md §進階寫作技術"`) are data pointers. KEEP if the referenced
-  file still uses that heading; translate if the heading was already translated.
-
-## Must-fix carried over
-
-None.
-
-## Constraints
-
-- Do everything in THIS session. No subagents/agents.
-- Verify: `uvx --with pyyaml pytest tests/article_health -q` (229 tests must pass)
-- Verify: `python3 -c "import py_compile; ..."` for each edited .py
-- Build after: `npm run prebuild` green
-- Commit: `refactor(de-taiwan): translate article-health check plugins to English`
-- Report back in DONE / VERIFIED / DEFERRED 3-table format.
+`scripts/utils/download-wiki-images.mjs` IMAGE_MAP contains 13 Taiwan-subject
+Wikimedia entries (Beef Noodle Soup, Gay Pride Parade, Presidential Office, etc.)
+with zero references anywhere in LB content. The script is reusable infra but all
+its data is dead. Not a Horizon 0.6 miss (entries have romanized filenames, not
+CJK code). Worth clearing when LB adds its own Wikimedia images.

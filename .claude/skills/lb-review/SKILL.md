@@ -29,6 +29,16 @@ migration work use `/lb-migration-review`.
    - Each rename/refactor: grep the OLD name across `src/ scripts/` for orphans.
    - Residual refs aren't latent bugs only if the consumer reads that exact key —
      grep the consumer to confirm.
+   - **KEEP verification (mandatory for every KEEP row):** verify the TARGET
+     content exists, not just the pattern. A regex matching `參考資料` is only KEEP
+     if `grep -r '參考資料' knowledge/` returns hits. A test fixture with zh-TW
+     reader data is only KEEP if LB expects zh-TW readers (check: does
+     `knowledge/zh-TW/` exist and contain articles?). A Wikimedia filename is only
+     KEEP if that image is referenced somewhere in LB content. Run the grep against
+     the content the pattern parses. If the target content doesn't exist in this
+     repo, the pattern is dead code regardless of how functional it looks
+     syntactically. Never accept "it's a regex so it's functional" or "it's test
+     fixture data so it stays" as justification without checking what it matches.
    - **Judgment check:** for each "VERIFIED (no action needed)" or "DEFERRED" item,
      ask: "Is this genuinely no-action, or did the implementer avoid a decision?"
      Common failure modes:

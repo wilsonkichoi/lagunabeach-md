@@ -1,7 +1,245 @@
 {
-  "generatedAt": "2026-06-30T21:56:18.488Z",
+  "generatedAt": "2026-07-01T20:52:57.275Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "16ec02a2bab6dbd2963b03e2c312f1b865c08857",
+      "date": "2026-07-01T13:46:00-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(de-taiwan): remove 3 wrongly-kept CJK patterns (dead code, not forward-looking)",
+      "articles": []
+    },
+    {
+      "hash": "1d28c4621967872be1a7edcbe9358e85a42f3f96",
+      "date": "2026-07-01T12:40:53-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(roadmap): tick Group 8 [x]",
+      "articles": []
+    },
+    {
+      "hash": "bb201f00ba683c7046e62d85528385fa810d0fa5",
+      "date": "2026-07-01T12:40:36-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(de-taiwan): translate Group 8 dormant/niche tools to English",
+      "articles": []
+    },
+    {
+      "hash": "b84c7a66983140e5860f5c24c738b71d44436f11",
+      "date": "2026-07-01T12:40:14-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(de-taiwan): correct Group 7 mis-KEEP classifications + must-fix carry-overs",
+      "articles": []
+    },
+    {
+      "hash": "4559fd9db6cba7e5982d913793de9b3fbff90444",
+      "date": "2026-07-01T08:49:09-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(roadmap): tick Group 7 [x]",
+      "articles": []
+    },
+    {
+      "hash": "4ba0302f14575a6e3ee76088a43e46651f48e781",
+      "date": "2026-07-01T08:48:54-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(de-taiwan): translate Group 7 feedback+utils+visual to English",
+      "articles": []
+    },
+    {
+      "hash": "a32accf4d6bd75daf9996c50668e0b5ce63f2167",
+      "date": "2026-06-30T23:28:35-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(de-taiwan): port Groups 1-5 residual dead logic to LB",
+      "articles": []
+    },
+    {
+      "hash": "54a3d2a367f38f25356afb8c14464cba6125e7c9",
+      "date": "2026-06-30T23:26:52-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(de-taiwan): port dead Taiwan logic to LB equivalents + update loop skills",
+      "articles": []
+    },
+    {
+      "hash": "9116c1641ea1d64cf70aa1ae58201187eeac6600",
+      "date": "2026-06-30T22:18:40-07:00",
+      "author": "Wilson Choi",
+      "message": "fix(de-taiwan): translate 3 missed CJK strings in Group 6 files",
+      "articles": []
+    },
+    {
+      "hash": "12ef94a62ca7a1ba36fc958acccce5d022ecf10b",
+      "date": "2026-06-30T22:17:35-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(de-taiwan): translate shell/CI/infra tools to English (Group 6)",
+      "articles": []
+    },
+    {
+      "hash": "5e5255921d4becc8ecf9fac13f91559b3cca5611",
+      "date": "2026-06-30T20:06:26-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(de-taiwan): translate content/editorial tools to English (Group 5)",
+      "articles": []
+    },
+    {
+      "hash": "7b39a21a1da4008a71428ba609eeeec12820e23f",
+      "date": "2026-06-30T18:59:18-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(de-taiwan): translate spore + social tools to English (Group 4)",
+      "articles": []
+    },
+    {
+      "hash": "72b20cc706e29f50fd2eee823e3e0c3f88f30e67",
+      "date": "2026-06-30T18:05:22-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(de-taiwan): translate analytics + sensing tools to English (Group 3)",
+      "articles": []
+    },
+    {
+      "hash": "0a7d90069d88850efb8d2c9f2f9b9f43f2dfe008",
+      "date": "2026-06-30T17:12:50-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(de-taiwan): translate article-health check plugins to English",
+      "articles": []
+    },
+    {
+      "hash": "135813bf9e7a04f8c77ca455ece62e4fd6d5f7fd",
+      "date": "2026-06-30T16:43:14-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(handoff): R30 review done, seed Group 2 (article-health checks)",
+      "articles": []
+    },
+    {
+      "hash": "b95fc9bb5e08fc187ff2fa57cc23bd6e569b8eb9",
+      "date": "2026-06-30T16:39:16-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(roadmap): check off Horizon 0.6 Group 1 (lang-sync/ done)",
+      "articles": []
+    },
+    {
+      "hash": "51edaf2e7956bf95c28f6d3ddca321eb7a4eb68b",
+      "date": "2026-06-30T16:38:59-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(de-taiwan): translate scripts/tools/lang-sync/ to English",
+      "articles": []
+    },
+    {
+      "hash": "9f556d13b86b3b7c07120837168e976dc79fc83a",
+      "date": "2026-06-30T16:26:34-07:00",
+      "author": "Wilson Choi",
+      "message": "chore(handoff): seed implementer with Horizon 0.6 Group 1 (lang-sync/)",
+      "articles": []
+    },
+    {
+      "hash": "e02934b0ddffdae15bf00f8ea57c087a3db7a0b2",
+      "date": "2026-06-30T16:12:21-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(roadmap): strengthen Horizon 0.6 method to require per-file investigation",
+      "articles": []
+    },
+    {
+      "hash": "dd007102e0d82b5d129a7ebbcc8ed18da1402db2",
+      "date": "2026-06-30T15:53:34-07:00",
+      "author": "Wilson Choi",
+      "message": "docs(roadmap): add Horizon 0.45 (done) + 0.6 (scripts/ translation plan)",
+      "articles": []
+    },
+    {
+      "hash": "e030989237f211ef2621f596c6db2f4592e79340",
+      "date": "2026-06-30T15:22:39-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(de-taiwan): translate feedback/triage.mjs to English",
+      "articles": []
+    },
+    {
+      "hash": "af9ef20f4ac451988a2ae0039cf226789f8db01b",
+      "date": "2026-06-30T15:21:40-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(de-taiwan): translate generate-dashboard-spores.py to English",
+      "articles": []
+    },
+    {
+      "hash": "4090ba495a0a312bcadcc5bd0d7a352af3c4b639",
+      "date": "2026-06-30T15:20:26-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(de-taiwan): translate i18n-coverage-audit.sh to English",
+      "articles": []
+    },
+    {
+      "hash": "d3119b204b3baf37fcfd11ca6f24619f2df881e4",
+      "date": "2026-06-30T15:19:33-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(de-taiwan): translate lang-sync/status.py to English",
+      "articles": []
+    },
+    {
+      "hash": "579015d72e1c5f7e9bd7bd7f34df40e6f14e626a",
+      "date": "2026-06-30T15:18:38-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(de-taiwan): translate verify-contributors.mjs to English",
+      "articles": []
+    },
+    {
+      "hash": "29b5438eb5d1ed515463dc3a6f987d9af602ee31",
+      "date": "2026-06-30T15:17:53-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(de-taiwan): translate sync-translations-json + sync-spore-links",
+      "articles": []
+    },
+    {
+      "hash": "6ab23881a0de560157d53b8383f69f06b5b9382a",
+      "date": "2026-06-30T15:17:21-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(de-taiwan): translate 7 build-path scripts/tools/ to English",
+      "articles": []
+    },
+    {
+      "hash": "1f97f01b75f7cf8be850cd9c387992568d81d85c",
+      "date": "2026-06-30T15:16:09-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(de-taiwan): complete scripts/core/ translation to English",
+      "articles": []
+    },
+    {
+      "hash": "e100275ea7e9e4eb7221cbe0eb1d98cef7cc1010",
+      "date": "2026-06-30T15:13:10-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(de-taiwan): translate 4 scripts/core/ generators to English",
+      "articles": []
+    },
+    {
+      "hash": "68a9953b25e60116acbe27107402b7200a1fb7ae",
+      "date": "2026-06-30T15:10:52-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(de-taiwan): translate generate-dashboard-alerts.mjs to English",
+      "articles": []
+    },
+    {
+      "hash": "59eb5c0b469382caa374c9f0cf39e53085d7f2f8",
+      "date": "2026-06-30T15:04:59-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(de-taiwan): translate 4 more scripts/core/ to English",
+      "articles": []
+    },
+    {
+      "hash": "2977ab2f702573320efd8a811adb65a53864acfc",
+      "date": "2026-06-30T15:03:01-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(de-taiwan): translate 5 more scripts/core/ comments to English",
+      "articles": []
+    },
+    {
+      "hash": "58e35392c64440ab64eb2351995834d928c4c8ab",
+      "date": "2026-06-30T15:00:36-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(de-taiwan): translate sync.sh + post-build-check.mjs to English",
+      "articles": []
+    },
+    {
+      "hash": "6ce28cb0ef5bd9e7639598a21191a2a8192f5462",
+      "date": "2026-06-30T14:56:38-07:00",
+      "author": "Wilson Choi",
+      "message": "refactor(de-taiwan): reground ~/.config/taiwan-md paths to lagunabeach-md",
+      "articles": []
+    },
     {
       "hash": "afb998aa5f4400cf8434885c2e8e63303ecb083a",
       "date": "2026-06-30T14:55:49-07:00",
