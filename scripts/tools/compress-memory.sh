@@ -1,23 +1,21 @@
 #!/usr/bin/env bash
 # compress-memory.sh v2 — Tiered memory distillation
 #
-# 蒸餾架構（詳見 reports/memory-distillation-design-2026-04-14.md — roadmap）：
-#   Tier 3 (raw):       memory/YYYY-MM-DD-{session}.md  ← 永不刪除
+# Architecture (see reports/memory-distillation-design-2026-04-14.md):
+#   Tier 3 (raw):       memory/YYYY-MM-DD-{session}.md  (never deleted)
 #   Tier 2 (digest):    memory/digests/YYYY-WeekNN.md
 #   Tier 1 (essential): memory/essential/YYYY-MM.md
 #
-# 這個工具的工作不是「壓縮文字」，是「產生 LLM 蒸餾候選」——
-# 真正的判斷由 heartbeat Beat 5 中的 LLM (Claude) 處理。
+# This tool generates LLM distillation candidates, not compressed text.
+# Actual judgment is handled by the LLM (Claude) during heartbeat Beat 5.
 #
-# 用法:
+# Usage:
 #   bash scripts/tools/compress-memory.sh --check
-#       列出哪些 raw memory 該被蒸餾
+#       List which raw memories are due for distillation
 #   bash scripts/tools/compress-memory.sh --candidates --week 2026-W14
-#       產生指定週的蒸餾候選 → /tmp/distill-candidates.md
+#       Generate distillation candidates for the given week -> /tmp/distill-candidates.md
 #   bash scripts/tools/compress-memory.sh --index
-#       重建 MEMORY.md 索引（保留本週 raw + 舊週 digest 行）
-#
-# 來源：2026-04-14 η session, User 追加需求
+#       Rebuild MEMORY.md index (keep current week raw + older week digest rows)
 
 set -uo pipefail
 cd "$(dirname "$0")/../.."
@@ -146,7 +144,7 @@ def candidates_mode(week):
         out.write("For each session below, decide:\n\n")
         out.write("1. **KEEP_VERBATIM** — paragraphs worth preserving in digest as-is\n")
         out.write("2. **COMPRESS** — paragraphs to summarize in 1 line\n")
-        out.write("3. **PROMOTE** — lessons that should go to MEMORY.md §神經迴路 (permanent)\n")
+        out.write("3. **PROMOTE** — lessons that should go to MEMORY.md permanent neural-loop section\n")
         out.write("4. **DROP** — routine actions that don't need preservation\n\n")
         out.write("Then write the distilled content to:\n")
         out.write(f"   `docs/semiont/memory/digests/{week}.md`\n\n")

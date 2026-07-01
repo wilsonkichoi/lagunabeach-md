@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
 """
-i18n-fill-gaps.py — 補 src/i18n/ 既有 lang block 的「部分缺漏」key（merge 模式）
+i18n-fill-gaps.py — Fill missing keys in existing src/i18n/ lang blocks (merge mode)
 
-i18n-translate.py 只在 target lang block 不存在時整塊新增；當 block 已存在但
-key 不齊（en 後來新增了 key），它會 skip。本工具補這個缺口：
+i18n-translate.py only adds a new lang block wholesale when it doesn't exist.
+When a block exists but is missing keys (en added new keys later), it skips.
+This tool fills that gap:
 
-  1. 抽 en block 的 key 順序 + value
-  2. 抽 target lang block 既有 key
-  3. missing = en_keys - target_keys（保留 en 順序）
-  4. 只把 missing 的 en value 丟 owl-alpha 翻成 target（與既有翻譯同一條 path 保一致）
-  5. 把翻好的 missing pair splice 進 target block 結尾（既有 key 一律不動）
+  1. Extract en block key order + values
+  2. Extract target lang block existing keys
+  3. missing = en_keys - target_keys (preserving en order)
+  4. Translate only missing en values via owl-alpha to target
+  5. Splice translated missing pairs at end of target block (existing keys untouched)
 
-複用 i18n-translate.py 的 parser / owl 呼叫，避免邏輯漂移。
+Reuses i18n-translate.py parser / owl calls to avoid logic drift.
 
 Usage:
   python3 scripts/tools/i18n-fill-gaps.py --module semiont --target ja
@@ -33,13 +34,13 @@ _spec.loader.exec_module(_t)
 def _chunk_translate(missing_json, target_lang, api_key):
     """Translate {key: en_value} via owl-alpha, chunked. Returns {key: translated}."""
     system = (
-        f"You are a UI string translator for Taiwan.md.\n\n"
+        f"You are a UI string translator for LagunaBeach.md.\n\n"
         f"Translate this JSON of English UI strings to {_t.LANG_NAMES.get(target_lang, target_lang)}.\n\n"
         "CRITICAL rules:\n"
         "1. Output ONLY a JSON object, no markdown wrapper, no explanation\n"
         "2. Keep all keys EXACTLY as input (don't translate keys)\n"
         f"3. Translate values to {_t.LANG_NAMES.get(target_lang, target_lang)} preserving meaning + tone\n"
-        "4. Keep proper nouns (Taiwan, Mazu, Audrey Tang, Semiont, etc.) appropriately rendered\n"
+        "4. Keep proper nouns (Laguna Beach, Pageant of the Masters, Semiont, etc.) appropriately rendered\n"
         "5. Keep emoji + numbers + URL references unchanged\n"
         "6. Strings with HTML / markdown markup: preserve markup, only translate text\n"
         "7. Keep punctuation appropriate to target language\n"

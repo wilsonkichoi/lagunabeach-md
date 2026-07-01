@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-backfill-translated-from.py — 把 _translations.json 的映射回填到每個翻譯檔的 frontmatter
+backfill-translated-from.py — Backfill _translations.json mappings into each translation's frontmatter
 
-為什麼：
-  目前 _translations.json 是中央式 SSOT。但這個結構脆弱：
-    1. 如果哪個 PR 漏了 _translations.json 條目，文件變孤兒
-    2. 重命名原文時要兩處同步
-    3. 沒有 file-level 的 self-documentation
-  解法：每個翻譯檔 frontmatter 加 `translatedFrom: 'Category/檔名.md'`
-  從此 _translations.json 變成「derived cache」，可以從 frontmatter 重新生成。
+Why:
+  _translations.json is currently the central SSOT but this structure is fragile:
+    1. A PR that misses a _translations.json entry orphans the file
+    2. Renaming the source requires two-place sync
+    3. No file-level self-documentation
+  Fix: add `translatedFrom: 'Category/filename.md'` to each translation's frontmatter.
+  Then _translations.json becomes a derived cache, regenerable from frontmatter.
 
 Usage:
   python3 scripts/tools/backfill-translated-from.py [--dry-run] [--lang en|ja|ko|es|fr]

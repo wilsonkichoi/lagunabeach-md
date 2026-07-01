@@ -1,34 +1,34 @@
 #!/usr/bin/env python3
 """
-routine-sync-check.py — Routine 飛輪 SSOT vs mirror drift detector
+routine-sync-check.py — Routine flywheel SSOT vs mirror drift detector
 
-per MANIFESTO §指標 over 複寫 §薄殼鐵律
+per MANIFESTO metrics-over-copy / thin-shell rule
 per REFLEXES #38 status drift = silent killer
 per REFLEXES #52 immune system fail-loud
-per ROUTINE.md §同步來源 — promised tool, finally written 2026-05-11
+per ROUTINE.md sync-source section -- promised tool, finally written 2026-05-11
 
 Compares docs/semiont/ROUTINE.md SSOT vs
 ~/.claude/scheduled-tasks/twmd-*/SKILL.md mirrors. Detects:
 
-  ✗ missing mirror   (SSOT lists task but no mirror dir)
-  ✗ orphan mirror    (mirror exists but not in SSOT)
-  ✗ skill drift      (mirror's name field != SSOT's task title)
-  ✗ cron drift       (mirror SKILL.md cron expression != SSOT cron column)
-                     ← v2 加入 2026-05-12 routine-v2-resync session
-                     ← 觸發：3-layer drift 揭露 SSOT 卡 v1.3 而 mirror 已 v2.0
-                     ← cron 全 mismatch，tool 跑出 ok=10 / drift=0 silent pass
-  ✗ thick mirror     (mirror > 30 lines = warn, > 50 = hard)
-                     per 薄殼鐵律 1: mirrors must be thin pointers
+  x missing mirror   (SSOT lists task but no mirror dir)
+  x orphan mirror    (mirror exists but not in SSOT)
+  x skill drift      (mirror's name field != SSOT's task title)
+  x cron drift       (mirror SKILL.md cron expression != SSOT cron column)
+                     v2 added 2026-05-12 routine-v2-resync session
+                     trigger: 3-layer drift revealed SSOT stuck at v1.3 while mirror at v2.0
+                     cron all mismatch, tool reported ok=10 / drift=0 silent pass
+  x thick mirror     (mirror > 30 lines = warn, > 50 = hard)
+                     per thin-shell rule 1: mirrors must be thin pointers
 
-Mirrors should pointer back to ROUTINE.md + canonical pipeline, not
+Mirrors should point back to ROUTINE.md + canonical pipeline, not
 inline Stage steps / quality gates / escalation logic.
 
-⚠️ MCP live state limitation:
-    本 tool 比對 SSOT (ROUTINE.md) vs file mirror (SKILL.md)。
-    MCP scheduled-tasks server live cron state 存在 server 內部 store，無 file
-    access — tool 抓不到第三 layer (live ↔ mirror) drift。要驗證需 manual
-    跑 `mcp__scheduled-tasks__list_scheduled_tasks` 對比。本 tool 跑 pass
-    只代表 SSOT ↔ mirror sync，不代表 SSOT ↔ MCP live sync。
+MCP live state limitation:
+    This tool compares SSOT (ROUTINE.md) vs file mirror (SKILL.md).
+    MCP scheduled-tasks server live cron state is in the server's internal store,
+    no file access -- tool cannot detect 3rd layer (live vs mirror) drift.
+    To verify, manually run `mcp__scheduled-tasks__list_scheduled_tasks`.
+    A pass here only means SSOT vs mirror sync, not SSOT vs MCP live sync.
 
 Usage:
     python3 scripts/tools/routine-sync-check.py
@@ -54,7 +54,7 @@ DEFAULT_HARD_LINES = 50
 
 
 def parse_routine_table(ssot_path):
-    """Extract routine task rows from §10 條核心 routine 排程表 markdown table."""
+    """Extract routine task rows from the core routine schedule markdown table."""
     text = ssot_path.read_text(encoding="utf-8")
     tasks = {}
     in_table = False
@@ -226,25 +226,25 @@ def print_human(results, exit_code):
     print()
 
     if results["ok"]:
-        print(f"✅ {len(results['ok'])} routine 薄殼合規:")
+        print(f"✅ {len(results['ok'])} routines thin-shell compliant:")
         for r in results["ok"]:
             print(f"   {r['task_id']:32s} {r['lines']:>3} lines")
         print()
 
     if results["missing"]:
-        print(f"❌ MISSING ({len(results['missing'])}) — SSOT 有但 mirror 缺:")
+        print(f"❌ MISSING ({len(results['missing'])}) — in SSOT but no mirror:")
         for r in results["missing"]:
             print(f"   {r['task_id']}  ({r.get('reason', 'dir missing')})")
         print()
 
     if results["orphan"]:
-        print(f"❌ ORPHAN ({len(results['orphan'])}) — mirror 有但 SSOT 缺:")
+        print(f"❌ ORPHAN ({len(results['orphan'])}) — mirror exists but not in SSOT:")
         for r in results["orphan"]:
             print(f"   {r['task_id']}")
         print()
 
     if results["drift"]:
-        print(f"❌ DRIFT ({len(results['drift'])}) — SSOT vs mirror 欄位不一致:")
+        print(f"❌ DRIFT ({len(results['drift'])}) — SSOT vs mirror field mismatch:")
         for r in results["drift"]:
             print(
                 f"   {r['task_id']:32s} {r['field']}: ssot='{r['ssot']}' mirror='{r['mirror']}'"
@@ -253,7 +253,7 @@ def print_human(results, exit_code):
 
     if results["cron_drift"]:
         print(
-            f"❌ CRON_DRIFT ({len(results['cron_drift'])}) — SSOT cron 欄位 vs mirror SKILL.md cron 不一致 (REFLEXES #38):"
+            f"❌ CRON_DRIFT ({len(results['cron_drift'])}) — SSOT cron vs mirror SKILL.md cron mismatch (REFLEXES #38):"
         )
         for r in results["cron_drift"]:
             print(
@@ -262,7 +262,7 @@ def print_human(results, exit_code):
         print()
 
     if results["thick"]:
-        print(f"⚠️  THICK ({len(results['thick'])}) — mirror 違反薄殼鐵律 (per MANIFESTO §指標 over 複寫):")
+        print(f"⚠️  THICK ({len(results['thick'])}) — mirror violates thin-shell rule (per MANIFESTO metrics-over-copy):")
         for r in sorted(results["thick"], key=lambda x: -x["lines"]):
             marker = "🔴" if r["severity"] == "hard" else "🟡"
             print(
@@ -283,19 +283,19 @@ def print_human(results, exit_code):
     )
     print()
     print(
-        "⚠️  Note: 本 tool 只 check SSOT (ROUTINE.md) ↔ file mirror (SKILL.md) sync。"
+        "⚠️  Note: this tool only checks SSOT (ROUTINE.md) vs file mirror (SKILL.md) sync."
     )
     print(
-        "    MCP scheduled-tasks server live cron state 為 server 內部 store，無 file access。"
+        "    MCP scheduled-tasks server live cron state is in the server's internal store, no file access."
     )
     print(
-        "    驗證第三 layer (live ↔ mirror) 需 manual 跑 `mcp__scheduled-tasks__list_scheduled_tasks`。"
+        "    To verify 3rd layer (live vs mirror), manually run `mcp__scheduled-tasks__list_scheduled_tasks`."
     )
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Routine 飛輪 SSOT vs mirror drift detector"
+        description="Routine flywheel SSOT vs mirror drift detector"
     )
     parser.add_argument(
         "--warn-lines",

@@ -1,27 +1,29 @@
 #!/usr/bin/env python3
 """
-instrumentation-audit.py — GA4 event-param ↔ custom-dimension 漂移偵測器（免疫 Layer 1）
+instrumentation-audit.py — GA4 event-param vs custom-dimension drift detector (immune Layer 1)
 
-防的 bug class：「instrumentation code 送什麼 param」跟「GA4 註冊了哪些 custom dim」是兩個
-分離的真相，由兩個不同流程維護（改 code vs 點 GA4 Admin / 跑 register script），漂移是靜默的。
-2026-05-29 D+2 watch 一次抓到三個 instance：
-  - pct: dim 註冊了但 code 送 depth_pct（名字對不上 → attribution 全 not-set）
-  - link_url: code 送了但從沒註冊（→ query 端瞎掉）
-  - failed_path: page_404 送了但從沒註冊（→ fetch-ga4 query 一直 try/except 吞掉）
+Bug class prevented: "what params code fires" vs "what custom dims GA4 has registered"
+are two separate sources of truth maintained by different workflows (code changes vs
+GA4 Admin / register script). Drift is silent.
+2026-05-29 D+2 watch caught three instances:
+  - pct: dim registered but code sends depth_pct (name mismatch -> attribution all not-set)
+  - link_url: code fires but never registered (-> query side blind)
+  - failed_path: page_404 fires but never registered (-> fetch-ga4 query swallows via try/except)
 
-把 code 當 SSOT（跟「knowledge/ 才是 SSOT」同一條原則往 instrumentation 層延伸），三方對齊：
-  (1) code 實際 fire 的 param  — 解析 tracker 原始碼
-  (2) register script 宣告的 SSOT — register-ga4-custom-dimensions.py 的 *_DIMENSIONS list
-  (3) GA4 live 註冊的 dim       — Admin API list（需 creds）
+Code is SSOT (same principle as "knowledge/ is SSOT" extended to instrumentation layer).
+Three-way alignment:
+  (1) params code actually fires   — parsed from tracker source
+  (2) register script declared SSOT — register-ga4-custom-dimensions.py *_DIMENSIONS list
+  (3) GA4 live registered dims      — Admin API list (needs creds)
 
-兩種 mode：
-  --static  純靜態（不需 creds，CI 可跑）：code params ↔ SSOT
-  --live    需 creds：SSOT ↔ GA4 Admin live dims
-  （無 flag）有 creds 跑兩者，無 creds 只跑 static
+Two modes:
+  --static  pure static (no creds needed, CI-safe): code params vs SSOT
+  --live    needs creds: SSOT vs GA4 Admin live dims
+  (no flag) runs both if creds available, static-only otherwise
 
-exit code：有 ERROR → 1（CI gate），只有 WARN → 0。
+Exit code: ERROR present -> 1 (CI gate), WARN only -> 0.
 
-用法:
+Usage:
     python3 scripts/tools/instrumentation-audit.py [--static | --live] [--json]
 """
 import argparse
@@ -31,9 +33,9 @@ import re
 import sys
 from pathlib import Path
 
-# Re-exec in venv if present (so --live 的 google import 能用)。CI 沒 venv → 留在 system
-# python 跑 --static（純 stdlib）。必須在 google import 前，且只在直接執行時。
-VENV_DIR = Path.home() / ".config" / "taiwan-md" / "venv"
+# Re-exec in venv if present (so --live google imports work). CI has no venv ->
+# stays in system python for --static (pure stdlib). Must be before google import.
+VENV_DIR = Path.home() / ".config" / "lagunabeach-md" / "venv"
 if VENV_DIR.exists() and sys.prefix != str(VENV_DIR):
     _venv_py = VENV_DIR / "bin" / "python3"
     if _venv_py.exists() and __name__ == "__main__":
@@ -42,21 +44,22 @@ if VENV_DIR.exists() and sys.prefix != str(VENV_DIR):
 REPO = Path(__file__).resolve().parents[2]
 REGISTER_SCRIPT = REPO / "scripts" / "tools" / "register-ga4-custom-dimensions.py"
 
-# tracker 原始檔 — 任何 _fire() / gtag('event', ...) 埋點的檔案都要列在這
+# Tracker source files: any file with _fire() / gtag('event', ...) instrumentation
 TRACKER_FILES = [
     REPO / "src" / "components" / "EventTracker.astro",
     REPO / "src" / "layouts" / "Layout.astro",
     REPO / "src" / "pages" / "404.astro",
 ]
 
-# 故意不註冊成 custom dimension 的 param（例：純 debug、或 GA 內建已涵蓋）。
-# 空 = 所有 fire 的 param 都該有 dim。加進來的每一項都要附理由。
+# Params intentionally NOT registered as custom dimensions (e.g. debug-only, or
+# already covered by GA built-ins). Empty = all fired params should have a dim.
+# Each entry added here must have a documented reason.
 IGNORE_PARAMS = set()
 
 
-# ── 1. 解析 code：抽出每個 event 實際 fire 的 param keys ────────────────────
+# ── 1. Parse code: extract param keys actually fired by each event ────────────
 def _balanced_object(text, start):
-    """從 text[start] 的 '{' 開始，回傳到 matching '}' 的 substring（含兩端 brace）。"""
+    """From text[start] at '{', return substring to matching '}' (inclusive)."""
     depth = 0
     for i in range(start, len(text)):
         c = text[i]
@@ -70,10 +73,10 @@ def _balanced_object(text, start):
 
 
 def _top_level_keys(obj_str):
-    """抽出 object literal depth-1 的 key 名（避開 nested object + ternary 的 colon）。"""
+    """Extract depth-1 key names from an object literal (avoids nested object + ternary colons)."""
     keys = []
     depth = 0
-    expect_key = False  # 剛遇到 depth-1 的 { 或 , → 下一個 token 可能是 key
+    expect_key = False
     i = 0
     while i < len(obj_str):
         c = obj_str[i]
@@ -107,13 +110,13 @@ def _top_level_keys(obj_str):
 
 
 def parse_fired_events(files):
-    """回傳 {event_name: set(params)}，掃所有 _fire(...) 與 gtag('event', ...) 呼叫。"""
+    """Return {event_name: set(params)}, scanning all _fire(...) and gtag('event', ...) calls."""
     events = {}
-    # 兩種呼叫起點：_fire(  /  gtag('event',  /  gtag("event",
+    # Two call patterns: _fire(  /  gtag('event',  /  gtag("event",
     call_re = re.compile(r"(_fire\s*\(|gtag\s*\(\s*['\"]event['\"]\s*,)")
     str_re = re.compile(r"""['"]([A-Za-z0-9_]+)['"]""")
-    # wrapper-injected params：`params.X = ...`（如 EventTracker._fire 把 page_type
-    # 注進每一個 event）— call-site object literal 看不到，但每個 event 都帶。
+    # wrapper-injected params: `params.X = ...` (e.g. EventTracker._fire injects page_type
+    # into every event) -- not visible in call-site object literal, but every event carries them.
     inject_re = re.compile(r"params\.(\w+)\s*=(?!=)")
     injected = set()
     for f in files:
@@ -127,7 +130,7 @@ def parse_fired_events(files):
             brace = text.find("{", m.end())
             if brace == -1:
                 continue
-            # event 名 = call 起點到 object brace 之間的 string literal（去掉 'event'）
+            # event name = string literal between call start and object brace (excluding 'event')
             head = text[m.end() : brace]
             names = [s for s in str_re.findall(head) if s != "event"]
             if not names:
@@ -142,22 +145,22 @@ def parse_fired_events(files):
     return events
 
 
-# ── 2. 載入 register script 宣告的 SSOT ────────────────────────────────────
+# ── 2. Load register script declared SSOT ─────────────────────────────────────
 def load_ssot():
     spec = importlib.util.spec_from_file_location("register_dims", REGISTER_SCRIPT)
     mod = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(mod)  # 安全：google import 在 main() 內、re-exec guard 看 __main__
+    spec.loader.exec_module(mod)
     declared = {p for (p, _n, _d) in mod.DIMENSIONS}
     deprecated = set(getattr(mod, "DEPRECATED_DIMENSIONS", []))
     return declared, deprecated
 
 
-# ── 3. GA4 live dims（需 creds）─────────────────────────────────────────────
+# ── 3. GA4 live dims (needs creds) ────────────────────────────────────────────
 def load_live_dims():
     from google.analytics.admin_v1beta import AnalyticsAdminServiceClient
     from google.oauth2 import service_account
 
-    cred_dir = Path.home() / ".config" / "taiwan-md" / "credentials"
+    cred_dir = Path.home() / ".config" / "lagunabeach-md" / "credentials"
     pid = None
     for line in (cred_dir / ".env").read_text().splitlines():
         if line.startswith("GA4_PROPERTY_ID="):
@@ -171,16 +174,16 @@ def load_live_dims():
 
 
 def creds_available():
-    cred_dir = Path.home() / ".config" / "taiwan-md" / "credentials"
+    cred_dir = Path.home() / ".config" / "lagunabeach-md" / "credentials"
     return (cred_dir / "google-service-account.json").exists() and (cred_dir / ".env").exists()
 
 
-# ── 4. 對齊邏輯 ─────────────────────────────────────────────────────────────
+# ── 4. Alignment logic ────────────────────────────────────────────────────────
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--static", action="store_true", help="只跑 code↔SSOT（不需 creds，CI 用）")
-    ap.add_argument("--live", action="store_true", help="只跑 SSOT↔GA4 live（需 creds）")
-    ap.add_argument("--json", action="store_true", help="輸出 JSON")
+    ap.add_argument("--static", action="store_true", help="code vs SSOT only (no creds needed, CI-safe)")
+    ap.add_argument("--live", action="store_true", help="SSOT vs GA4 live only (needs creds)")
+    ap.add_argument("--json", action="store_true", help="output JSON")
     args = ap.parse_args()
 
     run_static = args.static or not args.live
@@ -194,32 +197,32 @@ def main():
     info.append(f"events fired: {len(events)} / distinct params: {len(fired)} / SSOT declared: {len(declared)}")
 
     if run_static:
-        # code 送了但 SSOT 沒宣告（且不在 ignore/deprecated）→ query 端會瞎（link_url / failed_path class）
+        # Code fires but SSOT doesn't declare (not in ignore/deprecated) -> query side blind
         fired_undeclared = fired - declared - IGNORE_PARAMS - deprecated
         for p in sorted(fired_undeclared):
             evs = sorted(e for e, ps in events.items() if p in ps)
-            errors.append(f"[code↔SSOT] param `{p}` 被 fire（{', '.join(evs)}）但 register script SSOT 沒宣告 → 加進對應 *_DIMENSIONS")
-        # SSOT 宣告了但沒任何 event fire（且非 deprecated）→ 可能死 dim（pct class）
+            errors.append(f"[code vs SSOT] param `{p}` fired by ({', '.join(evs)}) but not declared in register script SSOT -> add to *_DIMENSIONS")
+        # SSOT declares but no event fires (not deprecated) -> possibly dead dim
         declared_unfired = declared - fired - deprecated
         for p in sorted(declared_unfired):
-            warns.append(f"[code↔SSOT] dim `{p}` 在 SSOT 但沒任何 event fire → 可能已死，考慮加進 DEPRECATED_DIMENSIONS")
+            warns.append(f"[code vs SSOT] dim `{p}` in SSOT but no event fires it -> possibly dead, consider adding to DEPRECATED_DIMENSIONS")
 
     if run_live:
         try:
             live = load_live_dims()
             info.append(f"GA4 live dims: {len(live)}")
-            # SSOT 宣告了但 GA4 沒註冊 → 跑 register script
+            # SSOT declares but GA4 hasn't registered -> run register script
             declared_not_live = declared - live
             for p in sorted(declared_not_live):
-                errors.append(f"[SSOT↔GA4] `{p}` 在 SSOT 但 GA4 沒註冊 → 跑 register-ga4-custom-dimensions.py")
-            # GA4 註冊了但 SSOT 沒宣告（非 deprecated）→ 手動註冊沒 codify（5/27 class）
+                errors.append(f"[SSOT vs GA4] `{p}` in SSOT but not registered in GA4 -> run register-ga4-custom-dimensions.py")
+            # GA4 registered but SSOT doesn't declare (not deprecated) -> manual registration not codified
             live_undeclared = live - declared - deprecated
             for p in sorted(live_undeclared):
-                warns.append(f"[SSOT↔GA4] GA4 有 `{p}` 但 SSOT 沒宣告 → 手動註冊未 codify，加進 *_DIMENSIONS")
-            # deprecated 還活在 GA4 → 該 archive
+                warns.append(f"[SSOT vs GA4] GA4 has `{p}` but SSOT doesn't declare -> manual registration not codified, add to *_DIMENSIONS")
+            # Deprecated still live in GA4 -> should archive
             still_live_dep = (deprecated & live)
             for p in sorted(still_live_dep):
-                warns.append(f"[SSOT↔GA4] deprecated `{p}` 還在 GA4 live → 跑 register script archive")
+                warns.append(f"[SSOT vs GA4] deprecated `{p}` still live in GA4 -> run register script archive")
         except Exception as e:  # noqa: BLE001
             warns.append(f"[SSOT↔GA4] live check skipped: {type(e).__name__}: {e}")
 
@@ -229,7 +232,7 @@ def main():
                           "events": {k: sorted(v) for k, v in events.items()}},
                          ensure_ascii=False, indent=2))
     else:
-        print("🔬 instrumentation-audit — GA4 event-param ↔ custom-dim 對齊")
+        print("🔬 instrumentation-audit — GA4 event-param vs custom-dim alignment")
         for line in info:
             print(f"   ℹ️  {line}")
         print(f"   mode: static={'on' if run_static else 'off'} live={'on' if run_live else 'off'}")
@@ -238,9 +241,9 @@ def main():
         for e in errors:
             print(f"   ❌ {e}")
         if not errors and not warns:
-            print("   ✅ code ↔ SSOT ↔ GA4 三方對齊，無漂移")
+            print("   ✅ code vs SSOT vs GA4 three-way aligned, no drift")
         elif not errors:
-            print(f"   ✅ 無 ERROR（{len(warns)} warn — 非阻斷）")
+            print(f"   ✅ No ERROR ({len(warns)} warn, non-blocking)")
 
     sys.exit(1 if errors else 0)
 

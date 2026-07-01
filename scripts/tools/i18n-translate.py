@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """
-i18n-translate.py — 批次翻譯 src/i18n/ UI strings 到 target lang
+i18n-translate.py — Batch-translate src/i18n/ UI strings to a target language
 
-從每個 module file 抽出 en block，整批 prompt owl-alpha 翻譯成 target lang，
-splice 進原檔案（在現有 en/ja/ko 之後加新 lang block）。
+Extracts en block from each module file, prompts owl-alpha to translate to
+target lang, splices the new lang block into the source file (after existing
+en/ja/ko blocks).
 
 Usage:
   python3 scripts/tools/i18n-translate.py --module home --target fr
   python3 scripts/tools/i18n-translate.py --module semiont --target ja
-  python3 scripts/tools/i18n-translate.py --all --target fr  # 所有 12 modules
+  python3 scripts/tools/i18n-translate.py --all --target fr  # all 12 modules
 """
 import argparse, json, os, re, subprocess, sys, urllib.request, urllib.error
 from datetime import datetime, timezone, timedelta
@@ -169,7 +170,7 @@ def translate_module(module: str, target_lang: str, api_key: str, dry_run: bool 
 
     # Build prompt — values are already unquoted by parser
     en_json = {k: v for k, v in pairs}
-    system = f"""You are a UI string translator for Taiwan.md.
+    system = f"""You are a UI string translator for LagunaBeach.md.
 
 Translate this JSON of English UI strings to {LANG_NAMES.get(target_lang, target_lang)}.
 
@@ -177,7 +178,7 @@ CRITICAL rules:
 1. Output ONLY a JSON object, no markdown wrapper, no explanation
 2. Keep all keys EXACTLY as input (don't translate keys)
 3. Translate values to {LANG_NAMES.get(target_lang, target_lang)} preserving meaning + tone
-4. Keep proper nouns (Taiwan, Mazu, Audrey Tang, etc.) appropriately rendered
+4. Keep proper nouns (Laguna Beach, Pageant of the Masters, etc.) appropriately rendered
 5. Keep emoji + numbers + URL references unchanged
 6. Strings with HTML / markdown markup: preserve markup, only translate text
 7. Keep punctuation appropriate to target language (e.g., Spanish ¿? ¡!, French « », etc.)

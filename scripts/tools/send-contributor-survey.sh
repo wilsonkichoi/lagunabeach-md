@@ -1,19 +1,20 @@
 #!/usr/bin/env bash
-# send-contributor-survey.sh — 對第一次貢獻的人發送 onboarding survey
+# send-contributor-survey.sh — Send onboarding survey to first-time contributors
 #
-# 用法:
+# Usage:
 #   bash scripts/tools/send-contributor-survey.sh <username> <pr-number>
 #
-# 範例:
+# Example:
 #   bash scripts/tools/send-contributor-survey.sh ceruleanstring 437
 #
-# 為什麼 manual 而非 GitHub Actions：fork PR 的 workflow 權限 fragile，
-# 心跳 Beat 3 review PR 時手動觸發更可靠。詳見 docs/community/CONTRIBUTOR-SURVEY.md
+# Why manual instead of GitHub Actions: fork PR workflow permissions are fragile;
+# triggering manually during heartbeat Beat 3 PR review is more reliable.
+# See docs/community/CONTRIBUTOR-SURVEY.md
 set -uo pipefail
 
 if [[ $# -lt 2 ]]; then
-  echo "用法: $0 <username> <pr-number>"
-  echo "範例: $0 ceruleanstring 437"
+  echo "Usage: $0 <username> <pr-number>"
+  echo "Example: $0 ceruleanstring 437"
   exit 1
 fi
 
@@ -48,13 +49,13 @@ mkdir -p "$TEMPLATE_DIR"
 # Generate templates on first run
 if [[ ! -f "$TEMPLATE_DIR/default.md" ]]; then
   cat > "$TEMPLATE_DIR/default.md" <<'TEMPLATE_END'
-👋 Hi @USERNAME, your first PR has been merged — thank you for becoming a Taiwan.md clownfish 🐠
+👋 Hi @USERNAME, your first PR has been merged — thank you for becoming a LagunaBeach.md clownfish 🐠
 
-We want to understand contributor stories to help Taiwan.md become a better community. If you have 2 minutes, could you answer some of these questions in a comment? Any single answer is valuable — you don't have to answer all.
+We want to understand contributor stories to help LagunaBeach.md become a better community. If you have 2 minutes, could you answer some of these questions in a comment? Any single answer is valuable — you don't have to answer all.
 
 ---
 
-**1. How did you find Taiwan.md?**
+**1. How did you find LagunaBeach.md?**
 Search engine? Friend? Social media? Which article?
 
 **2. Did you hesitate before your first contribution? What made you decide to send a PR?**
@@ -72,19 +73,19 @@ If yes: leave your preferred contact — Email / Twitter / Telegram / Threads / 
 
 You don't need to answer all. Even "Q1: found via Threads" is valuable.
 
-—— Taiwan.md Maintainer
+—— LagunaBeach.md Maintainer
 TEMPLATE_END
 fi
 
 if [[ ! -f "$TEMPLATE_DIR/korean.md" ]]; then
   cat > "$TEMPLATE_DIR/korean.md" <<'TEMPLATE_END'
-👋 안녕하세요 @USERNAME, 첫 번째 PR이 머지되었습니다. Taiwan.md의 작은 광대물고기 🐠 가 되어 주셔서 감사합니다.
+👋 안녕하세요 @USERNAME, 첫 번째 PR이 머지되었습니다. LagunaBeach.md의 작은 광대물고기 🐠 가 되어 주셔서 감사합니다.
 
 저희는 기여자분들의 이야기를 알고 싶습니다. 2분 정도 시간이 있으시면 아래 질문에 답해주실 수 있을까요? 한 질문만 답해도 괜찮습니다.
 
 ---
 
-**1. Taiwan.md를 어떻게 알게 되셨나요?**
+**1. LagunaBeach.md를 어떻게 알게 되셨나요?**
 검색? 친구 추천? SNS? 어떤 기사?
 
 **2. 첫 기여 전에 망설이셨나요? 무엇이 PR을 보내기로 결정하게 했나요?**
@@ -102,19 +103,19 @@ Email / Twitter / Telegram / Threads / 어느 것이든
 
 전부 답하지 않으셔도 됩니다. "1번 답: Threads에서 봤어요" 같은 한 줄도 큰 도움이 됩니다.
 
-—— Taiwan.md Maintainer
+—— LagunaBeach.md Maintainer
 TEMPLATE_END
 fi
 
 if [[ ! -f "$TEMPLATE_DIR/japanese.md" ]]; then
   cat > "$TEMPLATE_DIR/japanese.md" <<'TEMPLATE_END'
-👋 こんにちは @USERNAME, 最初の PR がマージされました。Taiwan.md のクマノミ 🐠 になってくれてありがとうございます。
+👋 こんにちは @USERNAME, 最初の PR がマージされました。LagunaBeach.md のクマノミ 🐠 になってくれてありがとうございます。
 
 寄稿者の物語を知りたいので、2 分ほどあれば以下の質問に答えていただけますか？一つだけでも構いません。
 
 ---
 
-**1. Taiwan.md をどうやって見つけましたか?**
+**1. LagunaBeach.md をどうやって見つけましたか?**
 検索? 友人の紹介? SNS? どの記事?
 
 **2. 最初の貢献の前に迷いましたか? 何が PR を送ろうと決めさせましたか?**
@@ -132,7 +133,7 @@ Email / Twitter / Telegram / Threads / 何でも
 
 すべて答える必要はありません。「Q1: Threads で見つけました」のような一行でも大きな価値があります。
 
-—— Taiwan.md Maintainer
+—— LagunaBeach.md Maintainer
 TEMPLATE_END
 fi
 
