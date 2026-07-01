@@ -26,7 +26,7 @@ removable=0; kept=0; pruned=0
 cur_wt=""; cur_locked=0
 flush() {
   [ -z "$cur_wt" ] && return
-  if [ "$cur_wt" = "$MAIN" ]; then cur_wt=""; cur_locked=0; return; fi   # 永不動主 worktree
+  if [ "$cur_wt" = "$MAIN" ]; then cur_wt=""; cur_locked=0; return; fi   # never touch main worktree
 
   if [ ! -d "$cur_wt" ]; then
     echo "  prune  $cur_wt (directory no longer exists)"; pruned=$((pruned+1))

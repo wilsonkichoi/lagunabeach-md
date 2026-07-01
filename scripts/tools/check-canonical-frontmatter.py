@@ -270,8 +270,8 @@ def main() -> int:
             f'({total_violations} violations).'
         )
         print(
-            'Schema canonical: docs/semiont/ANATOMY.md §Canonical 文件 frontmatter\n'
-            'Philosophy: docs/semiont/MANIFESTO.md §進化哲學第六條'
+            'Schema canonical: docs/semiont/ANATOMY.md Canonical document frontmatter\n'
+            'Philosophy: docs/semiont/MANIFESTO.md Evolution Philosophy rule 6'
         )
         return 1
 

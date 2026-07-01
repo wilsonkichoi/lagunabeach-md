@@ -95,7 +95,7 @@ for hash in $COMMITS; do
     if (( MENTIONED_COUNT < count )); then
       SHORT=$(printf '%s' "$hash" | cut -c1-8)
       printf "%s🚨 %s%s: %s\n" "$RED" "$SHORT" "$RST" "$SUBJECT"
-      printf "   touch %d articles，message 只提 %d：\n" "$count" "$MENTIONED_COUNT"
+      printf "   touches %d articles, message mentions only %d:\n" "$count" "$MENTIONED_COUNT"
       printf '%s\n' "$ARTICLES" | sed 's/^/      /'
       printf "\n"
       CROSS_POLLINATION_COUNT=$((CROSS_POLLINATION_COUNT + 1))
