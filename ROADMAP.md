@@ -261,7 +261,7 @@ reading tool source. Execute via `/lb-implement` + `/lb-review`, batched by grou
       image-ingest, land-media-batch, migrate-images-webp, generate-carousel-slides,
       check-freshness, cross-link, dead-cross-ref-scan, wiki-fetch, inbox-audit,
       lessons-distill, music-media-audit, attribution-risk-audit.
-- [ ] **Group 6: shell tools + CI + infra** (~25 files, ~400 lines)
+- [x] **Group 6: shell tools + CI + infra** (~25 files, ~400 lines)
       review-pr.sh, refresh-data.sh, consciousness-snapshot.sh, routine-status.sh,
       audit-batch.sh, build-parity-diff.sh, check-\* shells, translate.sh,
       worktree-gc, session-id, ci/restore-mtime.

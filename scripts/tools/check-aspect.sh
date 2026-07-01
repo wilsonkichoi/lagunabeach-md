@@ -1,11 +1,11 @@
 #!/bin/bash
-# check-aspect.sh — REWRITE-PIPELINE Stage 1.7b / 4.5c aspect ratio 護欄 (v2.20)
+# check-aspect.sh — REWRITE-PIPELINE Stage 1.7b / 4.5c aspect ratio guardrail (v2.20)
 #
-# 檢查圖檔 aspect ratio 是否符合 Taiwan.md 標準：
-#   - hero（frontmatter image:）：0.9 ≤ aspect ≤ 2.0
-#   - inline 圖（markdown ![]()）：0.75 ≤ aspect ≤ 2.5
+# Check image aspect ratios against project standards:
+#   - hero (frontmatter image:): 0.9 <= aspect <= 2.0
+#   - inline (markdown ![]()):   0.75 <= aspect <= 2.5
 #
-# 預設 inline 標準。`--hero` flag 用 hero 標準。
+# Defaults to inline standard. `--hero` flag uses hero standard.
 #
 # Usage:
 #   bash scripts/tools/check-aspect.sh public/article-images/people/lindgren-emu-2014.jpg
@@ -13,8 +13,8 @@
 #   bash scripts/tools/check-aspect.sh public/article-images/people/*.jpg
 #
 # Exit codes:
-#   0 — 所有圖通過
-#   1 — 至少一張圖超範圍
+#   0 — all images pass
+#   1 — at least one image out of range
 #
 # Canonical: REWRITE-PIPELINE Stage 1.7b / 4.5c / REFLEXES #30
 
@@ -52,14 +52,14 @@ fail=0
 
 for img in "$@"; do
   if [ ! -f "$img" ]; then
-    echo -e "${RED}❌ $img: 檔案不存在${NC}"
+    echo -e "${RED}❌ $img: file not found${NC}"
     fail=$((fail + 1))
     continue
   fi
 
   total=$((total + 1))
 
-  # 取得尺寸（支援 sips on macOS / identify on linux）
+  # Get dimensions (supports sips on macOS / identify on linux)
   w=""
   h=""
   if command -v sips >/dev/null 2>&1; then
@@ -70,13 +70,13 @@ for img in "$@"; do
     w=$(echo "$dims" | cut -d'x' -f1)
     h=$(echo "$dims" | cut -d'x' -f2)
   else
-    echo -e "${RED}❌ 找不到 sips（macOS）或 identify（imagemagick）${NC}"
+    echo -e "${RED}❌ cannot find sips (macOS) or identify (imagemagick)${NC}"
     fail=$((fail + 1))
     continue
   fi
 
   if [ -z "$w" ] || [ -z "$h" ]; then
-    echo -e "${RED}❌ $img: 無法讀取尺寸${NC}"
+    echo -e "${RED}❌ $img: cannot read dimensions${NC}"
     fail=$((fail + 1))
     continue
   fi
@@ -99,17 +99,17 @@ done
 
 echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo -e "${BOLD}📐 Aspect ratio 檢查（mode=$mode, range $min-$max）${NC}"
-echo "   檢查: ${BOLD}$total${NC} 張"
+echo -e "${BOLD}📐 Aspect ratio check (mode=$mode, range $min-$max)${NC}"
+echo "   checked: ${BOLD}$total${NC} images"
 if [ $fail -eq 0 ]; then
-  echo -e "   ${GREEN}✅ 全部通過${NC}"
+  echo -e "   ${GREEN}✅ all passed${NC}"
 else
-  echo -e "   ${RED}❌ $fail 張超範圍${NC}"
+  echo -e "   ${RED}❌ $fail out of range${NC}"
   if [ "$mode" = "hero" ]; then
-    echo -e "   ${GRAY}hero 必須 0.9 ≤ aspect ≤ 2.0（Astro 16:9 框會切上下）${NC}"
-    echo -e "   ${GRAY}解決：換 landscape 圖（wider），不要強塞 portrait${NC}"
+    echo -e "   ${GRAY}hero must be 0.9 <= aspect <= 2.0 (Astro 16:9 frame crops top/bottom)${NC}"
+    echo -e "   ${GRAY}fix: use landscape image (wider), don't force portrait${NC}"
   else
-    echo -e "   ${GRAY}inline 圖建議 0.75 ≤ aspect ≤ 2.5（避免過細／過扁）${NC}"
+    echo -e "   ${GRAY}inline images should be 0.75 <= aspect <= 2.5 (avoid too narrow/too flat)${NC}"
   fi
 fi
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"

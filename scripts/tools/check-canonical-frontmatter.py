@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """
-check-canonical-frontmatter.py — Canonical 文件 frontmatter 擋頭
+check-canonical-frontmatter.py — Canonical document frontmatter gate
 
-per MANIFESTO §進化哲學第六條 — Frontmatter 是品質基礎建設
-per ANATOMY §Canonical 文件 frontmatter (schema spec)
+per MANIFESTO evolution philosophy rule 6 — Frontmatter is quality infrastructure
+per ANATOMY Canonical document frontmatter (schema spec)
 
-對 docs/semiont/, docs/pipelines/, docs/editorial/, docs/factory/, BECOME_TAIWANMD.md,
-CLAUDE.md 範圍下的 .md 檔強制 frontmatter 規範:
-- 必填七欄齊全
-- type / status / apoptosis 取值在合法 enum 內
-- archived 必有 superseded_by
-- sub-canonical 必有 parent_canonical
+Enforces frontmatter rules on .md files under docs/semiont/, docs/pipelines/,
+docs/editorial/, docs/factory/, BECOME_TAIWANMD.md, CLAUDE.md:
+- All 7 required fields present
+- type / status / apoptosis values within valid enum
+- archived must have superseded_by
+- sub-canonical must have parent_canonical
 
 Usage:
     python3 scripts/tools/check-canonical-frontmatter.py [files...]

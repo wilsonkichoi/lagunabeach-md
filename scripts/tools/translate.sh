@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Taiwan.md Translation Contribution Script
-# 一行翻譯貢獻自動化系統
-# Usage: bash scripts/translate.sh OR bash <(curl -s https://raw.githubusercontent.com/frank890417/taiwan-md/main/scripts/translate.sh)
+# LagunaBeach.md Translation Contribution Script
+# One-line translation contribution automation
+# Usage: bash scripts/translate.sh
 
 set -euo pipefail
 
@@ -71,34 +71,34 @@ check_repo() {
 
 # Function to clone repository if needed
 setup_repo() {
-    print_info "檢查 Taiwan.md 環境..."
-    
+    print_info "Checking repository environment..."
+
     if check_repo; then
-        print_success "已在 Taiwan.md 目錄內"
+        print_success "Already in project directory"
         return 0
     fi
-    
+
     # Not in the right directory, try to clone
-    print_warning "不在 Taiwan.md 目錄內，準備 clone repository..."
-    
+    print_warning "Not in project directory, preparing to clone repository..."
+
     # Check if git is available
     if ! command -v git >/dev/null 2>&1; then
-        print_error "需要 git 才能繼續。請安裝 git 或手動 clone repository。"
+        print_error "git is required. Please install git or clone the repository manually."
         exit 1
     fi
-    
+
     # Clone to current directory if it's empty, or to a new directory
     if [[ -n "$(ls -A . 2>/dev/null)" ]]; then
-        CLONE_DIR="taiwan-md"
-        print_info "Clone 到 $CLONE_DIR 目錄..."
+        CLONE_DIR="lagunabeach-md"
+        print_info "Cloning to $CLONE_DIR directory..."
         git clone "$REPO_URL" "$CLONE_DIR"
         cd "$CLONE_DIR"
     else
-        print_info "Clone 到當前目錄..."
+        print_info "Cloning to current directory..."
         git clone "$REPO_URL" .
     fi
-    
-    print_success "Repository 已準備就緒"
+
+    print_success "Repository ready"
 }
 
 # Function to get already translated files
@@ -165,9 +165,9 @@ find_untranslated_files() {
 display_file_list() {
     local files=("$@")
     local count=1
-    
+
     echo ""
-    print_info "待翻譯文章清單："
+    print_info "Articles awaiting translation:"
     echo ""
     
     for file in "${files[@]}"; do
@@ -198,8 +198,8 @@ get_user_selection() {
     local max_num="$1"
     local selection
     
-    echo -e "${YELLOW}請選擇要翻譯的文章編號（可多選，用空格分隔，例如: 1 3 5）${NC}"
-    echo -e "${YELLOW}或直接按 Enter 翻譯前 3 篇：${NC}"
+    echo -e "${YELLOW}Select article numbers to translate (space-separated, e.g.: 1 3 5)${NC}"
+    echo -e "${YELLOW}Or press Enter to translate the first 3:${NC}"
     
     read -r selection
     
@@ -299,8 +299,8 @@ EOF
 process_translation() {
     local file="$1"
     local index="$2"
-    
-    print_info "正在處理第 $index 篇：$(basename "$file")"
+
+    print_info "Processing article #$index: $(basename "$file")"
     
     # Read original article
     local article_content=$(cat "$file")
@@ -319,21 +319,21 @@ process_translation() {
     echo "$prompt" > "$prompt_file"
     
     if copy_to_clipboard "$prompt"; then
-        print_success "📋 Prompt 已複製到剪貼簿！"
+        print_success "📋 Prompt copied to clipboard!"
     else
-        print_warning "無法複製到剪貼簿，Prompt 已儲存到：$prompt_file"
+        print_warning "Cannot copy to clipboard. Prompt saved to: $prompt_file"
     fi
-    
+
     echo ""
-    echo -e "${YELLOW}請將 Prompt 貼到 ChatGPT/Claude/Gemini，然後把翻譯結果貼回來。${NC}"
-    echo -e "${YELLOW}你可以：${NC}"
-    echo -e "${YELLOW}1. 直接貼上翻譯內容${NC}"
-    echo -e "${YELLOW}2. 輸入檔案路徑（例如：/tmp/translation.md）${NC}"
-    echo -e "${YELLOW}3. 輸入 'skip' 跳過這篇${NC}"
+    echo -e "${YELLOW}Paste the prompt into ChatGPT/Claude/Gemini, then paste the translation back here.${NC}"
+    echo -e "${YELLOW}Options:${NC}"
+    echo -e "${YELLOW}1. Paste translation content directly${NC}"
+    echo -e "${YELLOW}2. Enter a file path (e.g.: /tmp/translation.md)${NC}"
+    echo -e "${YELLOW}3. Enter 'skip' to skip this article${NC}"
     echo ""
-    
+
     # Get translation from user
-    print_info "請貼上翻譯結果："
+    print_info "Paste translation result:"
     
     local translation=""
     local input_line
@@ -342,22 +342,22 @@ process_translation() {
     read -r input_line
     
     if [[ "$input_line" == "skip" ]]; then
-        print_warning "跳過這篇文章"
+        print_warning "Skipping this article"
         return 0
     elif [[ -f "$input_line" ]]; then
         translation=$(cat "$input_line")
-        print_success "從檔案讀取翻譯內容"
+        print_success "Read translation from file"
     else
         # Read multi-line input
         translation="$input_line"
-        echo -e "${CYAN}繼續貼上內容，完成後按 Ctrl+D：${NC}"
+        echo -e "${CYAN}Continue pasting content, press Ctrl+D when done:${NC}"
         while IFS= read -r line; do
             translation="${translation}${line}"$'\n'
         done
     fi
     
     if [[ -z "$translation" ]]; then
-        print_warning "沒有收到翻譯內容，跳過這篇"
+        print_warning "No translation content received, skipping"
         return 0
     fi
     
@@ -373,7 +373,7 @@ process_translation() {
     
     # Write translation
     echo "$translation" > "$en_path"
-    print_success "翻譯已儲存到：$en_path"
+    print_success "Translation saved to: $en_path"
     
     # Update translations.json
     update_translations_json "en/$category/$slug.md" "$relative_path"
@@ -406,7 +406,7 @@ update_translations_json() {
         sed -i.bak 's/,}/}/' "$translations_file" && rm -f "${translations_file}.bak"
     fi
     
-    print_success "更新翻譯記錄"
+    print_success "Translation record updated"
 }
 
 # Function to create git branch and commit
@@ -416,15 +416,15 @@ create_git_branch_and_commit() {
     
     # Check if git is available
     if ! command -v git >/dev/null 2>&1; then
-        print_warning "Git 未安裝，跳過自動 commit"
+        print_warning "Git not installed, skipping auto-commit"
         return 0
     fi
-    
+
     # Create branch
     local date=$(date +%Y%m%d)
     local branch_name="translate/${date}-en"
-    
-    print_info "建立 Git branch: $branch_name"
+
+    print_info "Creating Git branch: $branch_name"
     git checkout -b "$branch_name" 2>/dev/null || git checkout "$branch_name" 2>/dev/null || true
     
     # Add files
@@ -434,37 +434,37 @@ create_git_branch_and_commit() {
     local commit_message="feat(en): translate $translated_count articles — [$categories]"
     git commit -m "$commit_message"
     
-    print_success "已建立 commit: $commit_message"
-    
+    print_success "Commit created: $commit_message"
+
     # Ask if user wants to push and create PR
     echo ""
-    print_info "是否要自動推送並建立 Pull Request？(y/N)"
+    print_info "Push and create a Pull Request? (y/N)"
     read -r push_answer
     
     if [[ "$push_answer" =~ ^[Yy]$ ]]; then
         # Check if gh CLI is available
         if command -v gh >/dev/null 2>&1; then
-            print_info "推送分支並建立 PR..."
+            print_info "Pushing branch and creating PR..."
             git push origin "$branch_name"
-            
+
             local pr_title="🌐 Translate $translated_count articles to English"
             local pr_body="Automated translation contribution via translate.sh script.
 
 Categories: $categories
 Files translated: $translated_count
 
-Created by Taiwan.md Translation Automation System."
-            
+Created by LagunaBeach.md Translation Automation System."
+
             gh pr create --title "$pr_title" --body "$pr_body" --head "$branch_name" --base "main"
-            print_success "🎉 Pull Request 已建立！"
+            print_success "🎉 Pull Request created!"
         else
-            print_warning "GitHub CLI (gh) 未安裝"
+            print_warning "GitHub CLI (gh) not installed"
             git push origin "$branch_name"
-            print_info "分支已推送，請手動到 GitHub 建立 Pull Request："
+            print_info "Branch pushed. Please create a Pull Request manually:"
             echo -e "${BLUE}$REPO_URL/compare/$branch_name${NC}"
         fi
     else
-        print_info "分支已準備就緒，你可以稍後推送："
+        print_info "Branch ready. You can push later:"
         echo -e "${BLUE}git push origin $branch_name${NC}"
     fi
 }
@@ -474,18 +474,16 @@ main() {
     echo ""
     echo -e "${PURPLE}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${NC}"
     echo -e "${PURPLE}${MAGIC}                                                           ${MAGIC}${NC}"
-    echo -e "${PURPLE}${MAGIC}     🇹🇼 Taiwan.md 翻譯貢獻自動化系統 🌐                   ${MAGIC}${NC}"
-    echo -e "${PURPLE}${MAGIC}                                                           ${MAGIC}${NC}"
-    echo -e "${PURPLE}${MAGIC}     讓你的 AI Token 幫台灣被世界看見！                     ${MAGIC}${NC}"
+    echo -e "${PURPLE}${MAGIC}     LagunaBeach.md Translation Automation 🌐               ${MAGIC}${NC}"
     echo -e "${PURPLE}${MAGIC}                                                           ${MAGIC}${NC}"
     echo -e "${PURPLE}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${MAGIC}${NC}"
     echo ""
     
     # Setup repository
     setup_repo
-    
+
     # Find untranslated files
-    print_info "掃描待翻譯文章..."
+    print_info "Scanning for untranslated articles..."
     
     local untranslated_files=()
     while IFS= read -r line; do
@@ -495,11 +493,11 @@ main() {
     local total_count=${#untranslated_files[@]}
     
     if [[ $total_count -eq 0 ]]; then
-        print_success "🎉 所有文章都已翻譯完成！"
+        print_success "🎉 All articles already translated!"
         exit 0
     fi
-    
-    print_success "找到 $total_count 篇待翻譯文章"
+
+    print_success "Found $total_count articles awaiting translation"
     
     # Display file list
     display_file_list "${untranslated_files[@]}"
@@ -508,7 +506,7 @@ main() {
     local max_display=$(( total_count > 10 ? 10 : total_count ))
     local display_files=("${untranslated_files[@]:0:$max_display}")
     
-    echo -e "${CYAN}顯示前 $max_display 篇，共 $total_count 篇待翻譯${NC}"
+    echo -e "${CYAN}Showing first $max_display of $total_count untranslated${NC}"
     echo ""
     
     local selection=$(get_user_selection $max_display)
@@ -537,16 +535,16 @@ main() {
     categories=$(echo "$categories" | xargs) # trim whitespace
     
     if [[ $processed_count -gt 0 ]]; then
-        print_success "🎉 完成 $processed_count 篇文章翻譯！"
-        
+        print_success "🎉 Completed $processed_count article translations!"
+
         # Create git branch and commit
         create_git_branch_and_commit "$processed_count" "$categories"
-        
+
         echo ""
-        print_magic "感謝你為 Taiwan.md 貢獻翻譯！🙏"
-        print_info "更多資訊請見：$REPO_URL"
+        print_magic "Thank you for contributing translations!"
+        print_info "More info: $REPO_URL"
     else
-        print_warning "沒有處理任何文章"
+        print_warning "No articles processed"
     fi
 }
 

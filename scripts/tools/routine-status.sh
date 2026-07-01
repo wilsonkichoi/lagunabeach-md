@@ -1,30 +1,30 @@
 #!/usr/bin/env bash
-# routine-status.sh — 過去 24hr cron routine 跑況 (cross-session continuity signal)
+# routine-status.sh — last 24hr cron routine run status (cross-session continuity signal)
 #
-# Phase A2 (per reports/become-boot-mode-design-2026-05-13.md §5.3)
-# 取代 BECOME §Step 3 ROUTINE.md 全檔 (649 行) 載入需求
+# Phase A2 (per reports/become-boot-mode-design-2026-05-13.md section 5.3)
+# Replaces BECOME Step 3 full ROUTINE.md (649 lines) loading requirement
 #
-# 用途：BECOME §Step 6 L4 always-load query 接這個 script
-# 輸出：~3-5 行 markdown summary (過去 24h 跑了哪些 routine + 時間)
+# Purpose: BECOME Step 6 L4 always-load query feeds this script
+# Output: ~3-5 line markdown summary (which routines ran in last 24h + timestamps)
 #
-# 設計原則 (per D7 boundary rule):
-# ✅ Cron 替我做了什麼 (cross-session continuity)
-# ❌ 不含 work artifact inspection (PR/issue list → MAINTAINER Stage 1)
+# Design principle (per D7 boundary rule):
+# YES: what cron did for me (cross-session continuity)
+# NO: work artifact inspection (PR/issue list -> MAINTAINER Stage 1)
 
 set -euo pipefail
 
 MEMORY_DIR="${MEMORY_DIR:-docs/semiont/memory}"
 
 if [[ ! -d "$MEMORY_DIR" ]]; then
-  echo "⚠️ routine-status: $MEMORY_DIR 不存在"
+  echo "⚠️ routine-status: $MEMORY_DIR does not exist"
   exit 0
 fi
 
 TODAY=$(date +%Y-%m-%d)
 YESTERDAY=$(date -v-1d +%Y-%m-%d 2>/dev/null || date -d 'yesterday' +%Y-%m-%d)
 
-# 列出過去 24hr 內的 routine memory files (filename schema: YYYY-MM-DD-HHMMSS-{handle}.md)
-# Handle 部分是 routine name (e.g. twmd-data-refresh-am / twmd-maintainer-pm / spore-harvest-am)
+# List routine memory files from last 24hr (filename schema: YYYY-MM-DD-HHMMSS-{handle}.md)
+# Handle portion is routine name (e.g. twmd-data-refresh-am / twmd-maintainer-pm / spore-harvest-am)
 
 ROUTINE_FIRES=$(
   ls "$MEMORY_DIR"/"$TODAY"-*.md "$MEMORY_DIR"/"$YESTERDAY"-*.md 2>/dev/null \
@@ -36,7 +36,7 @@ ROUTINE_FIRES=$(
         handle = ""
         for (i=5; i<=NF; i++) handle = handle (i>5?"-":"") $i
         sub(/\.md$/, "", handle)
-        # 只取 routine-fire 類 (排除 manual / interactive session)
+        # only take routine-fire types (exclude manual / interactive sessions)
         if (handle ~ /^(twmd-|spore-|prebuild-)/) {
           print date" "time"  "handle
         }
@@ -46,9 +46,9 @@ ROUTINE_FIRES=$(
 )
 
 if [[ -z "$ROUTINE_FIRES" ]]; then
-  echo "📋 routine | 過去 24hr 無 cron fire (檢查 ~/.claude/scheduled-tasks/ 是否運作)"
+  echo "📋 routine | no cron fires in last 24hr (check ~/.claude/scheduled-tasks/ is working)"
   exit 0
 fi
 
-echo "📋 routine | 過去 24hr cron fires:"
+echo "📋 routine | last 24hr cron fires:"
 echo "$ROUTINE_FIRES" | tail -10 | sed 's/^/  /'

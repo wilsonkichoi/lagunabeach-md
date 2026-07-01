@@ -1,39 +1,39 @@
 #!/usr/bin/env bash
 # check-hardcoded-langs.sh
-# 偵測 src/ 與 scripts/ 內 hardcoded language code array，違反 LANGUAGES_REGISTRY SSOT 原則
+# Detect hardcoded language code arrays in src/ and scripts/ that violate LANGUAGES_REGISTRY SSOT principle
 #
-# 對應 [MANIFESTO §指標 over 複寫](../../docs/semiont/MANIFESTO.md) 的自我 apply：
-# 任何 ['en', 'ja', 'ko', ...] 形式的 hardcoded 語言清單應該改從
-# src/config/languages.{ts,mjs} 的 LANGUAGES / ENABLED_LANGUAGE_CODES 動態 derive。
+# Per [MANIFESTO "indicators over duplication"](../../docs/semiont/MANIFESTO.md):
+# Any ['en', 'ja', 'ko', ...] style hardcoded language list should derive dynamically from
+# src/config/languages.{ts,mjs} LANGUAGES / ENABLED_LANGUAGE_CODES.
 #
-# 觸發背景：2026-04-25 β7 i18n-evolution-roadmap audit B6
-# - getLangSwitchPath.ts:206 hardcoded ['en','ja','ko'] → fr/es 路由疊加 bug
-# - 404.astro:376 同樣 hardcoded → fr/es 進 404 後切換 cascade
+# Background: 2026-04-25 beta7 i18n-evolution-roadmap audit B6
+# - getLangSwitchPath.ts:206 hardcoded ['en','ja','ko'] -> fr/es routing cascade bug
+# - 404.astro:376 same hardcoded -> fr/es into 404 switch cascade
 #
-# 用法：
-#   bash scripts/tools/check-hardcoded-langs.sh             # 完整掃描
-#   bash scripts/tools/check-hardcoded-langs.sh --ci        # CI 模式（找到 = exit 1）
-#   bash scripts/tools/check-hardcoded-langs.sh --staged    # 只掃 staged files
+# Usage:
+#   bash scripts/tools/check-hardcoded-langs.sh             # full scan
+#   bash scripts/tools/check-hardcoded-langs.sh --ci        # CI mode (found = exit 1)
+#   bash scripts/tools/check-hardcoded-langs.sh --staged    # scan staged files only
 
 set -euo pipefail
 
 MODE="${1:-scan}"
 
-# Patterns 來抓 hardcoded language array
+# Patterns to catch hardcoded language arrays
 PATTERNS=(
   "\\[\\s*['\"]en['\"]\\s*,\\s*['\"]ja['\"]\\s*,\\s*['\"]ko['\"]\\s*\\]"
   "\\[\\s*['\"]en['\"]\\s*,\\s*['\"]ja['\"]\\s*,\\s*['\"]ko['\"]\\s*,\\s*['\"]fr['\"]"
   "\\[\\s*['\"]en['\"]\\s*,\\s*['\"]ja['\"]\\s*,\\s*['\"]ko['\"]\\s*,\\s*['\"]es['\"]"
 )
 
-# 允許清單（這些檔案的 hardcoded 語言清單是 SSOT 本體或合理的歷史 mirror）
+# Allowlist (these files' hardcoded language lists are the SSOT itself or a reasonable historical mirror)
 ALLOWLIST=(
   "src/config/languages.ts"
   "src/config/languages.mjs"
   "scripts/tools/check-hardcoded-langs.sh"
 )
 
-# 收集要掃描的檔案
+# Collect files to scan
 if [[ "$MODE" == "--staged" ]]; then
   FILES=$(git diff --cached --name-only --diff-filter=ACM \
     | grep -E '\.(ts|tsx|mjs|cjs|js|astro|sh)$' || true)
@@ -46,7 +46,7 @@ else
 fi
 
 if [[ -z "$FILES" ]]; then
-  echo "✅ 無檔案可掃描"
+  echo "✅ no files to scan"
   exit 0
 fi
 
@@ -83,22 +83,22 @@ for f in $FILES; do
 done
 
 if [[ $VIOLATIONS -gt 0 ]]; then
-  echo "🚨 發現 $VIOLATIONS 個 hardcoded language array："
+  echo "🚨 Found $VIOLATIONS hardcoded language array(s):"
   echo -e "$VIOLATION_LIST"
   echo ""
-  echo "💡 修法：改從 LANGUAGES_REGISTRY 動態 derive："
+  echo "💡 Fix: derive dynamically from LANGUAGES_REGISTRY:"
   echo ""
   echo "    import { LANGUAGES } from '../config/languages';"
   echo "    const langPrefixes = LANGUAGES"
   echo "      .filter(l => l.enabled && !l.isDefault)"
   echo "      .map(l => l.code);"
   echo ""
-  echo "  或直接用既有 export："
+  echo "  Or use existing exports:"
   echo ""
   echo "    import { ENABLED_LANGUAGE_CODES, ALL_LANGUAGE_CODES } from '../config/languages';"
   echo ""
-  echo "  Why：對應 MANIFESTO §指標 over 複寫 SSOT 原則 + REFLEXES #20"
-  echo "  Audit canonical：reports/i18n-evolution-roadmap-2026-04-25.md"
+  echo "  Why: MANIFESTO 'indicators over duplication' SSOT principle + REFLEXES #20"
+  echo "  Audit canonical: reports/i18n-evolution-roadmap-2026-04-25.md"
 
   if [[ "$MODE" == "--ci" ]] || [[ "$MODE" == "--staged" ]]; then
     exit 1
@@ -106,5 +106,5 @@ if [[ $VIOLATIONS -gt 0 ]]; then
   exit 0
 fi
 
-echo "✅ 無 hardcoded language array 違反"
+echo "✅ no hardcoded language array violations"
 exit 0

@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
-# audit-batch.sh — 機械化抓 sub-agent batch 的 cross-pollination commit
-# 對應 REFLEXES #42「Sub-agent N 篇 sequential 三偷吃步」+ REFLEXES #31「Sub-agent claim 是線索不是事實」
-# 用法:
+# audit-batch.sh — mechanized detection of sub-agent batch cross-pollination commits
+# Per REFLEXES #42 "Sub-agent N-article sequential three cheats" + REFLEXES #31 "Sub-agent claims are leads not facts"
+# Usage:
 #   bash scripts/tools/audit-batch.sh --since "2 hours ago"
 #   bash scripts/tools/audit-batch.sh --since "2026-05-02 09:00"
 #   bash scripts/tools/audit-batch.sh --hash-range "e63e0bbd..HEAD"
 #
-# 偵測：
-#   1. 一個 commit touch knowledge/ 多個 article md，但 message 只提 1 個 → cross-pollination 警報
-#   2. evolve/rewrite commit 對應 reports/research/{ym}/{slug}.md 不存在 → 偷落檔警報
+# Detection:
+#   1. A commit touches multiple knowledge/ article .md files but message only mentions 1 -> cross-pollination alert
+#   2. evolve/rewrite commit has no corresponding reports/research/{ym}/{slug}.md -> missing audit report alert
 
 set -uo pipefail
 cd "$(dirname "$0")/../.."
@@ -45,7 +45,7 @@ else
   RANGE_ARG=(--since="$SINCE")
 fi
 
-printf "%s═══ audit-batch.sh — sub-agent batch 偷吃步偵測 ═══%s\n" "$BLU" "$RST"
+printf "%s═══ audit-batch.sh — sub-agent batch cheat detection ═══%s\n" "$BLU" "$RST"
 printf "%sRange: %s%s\n\n" "$DIM" "${HASH_RANGE:-since=$SINCE}" "$RST"
 
 COMMITS=$(git log "${RANGE_ARG[@]}" --pretty=format:'%H' 2>/dev/null)
@@ -59,7 +59,7 @@ MISSING_AUDIT_COUNT=0
 TOTAL_EVOLVE_COMMITS=0
 
 # Layer 1: Cross-pollination detection
-printf "%s── Layer 1: Cross-pollination commits（一個 commit touch 多個 knowledge/ article 但 message 只提 1）%s\n\n" "$BLU" "$RST"
+printf "%s── Layer 1: Cross-pollination commits (single commit touches multiple knowledge/ articles but message mentions only 1)%s\n\n" "$BLU" "$RST"
 
 for hash in $COMMITS; do
   SUBJECT=$(git log -1 --pretty=format:'%s' "$hash" 2>/dev/null)
@@ -104,12 +104,12 @@ for hash in $COMMITS; do
 done
 
 if (( CROSS_POLLINATION_COUNT == 0 )); then
-  printf "%s✅ 無 cross-pollination commit%s\n" "$GRN" "$RST"
+  printf "%s✅ no cross-pollination commits%s\n" "$GRN" "$RST"
 fi
 printf "\n"
 
 # Layer 2: Missing audit report detection
-printf "%s── Layer 2: Missing audit report（evolve/rewrite commit 對應 reports/research/ 缺檔）%s\n\n" "$BLU" "$RST"
+printf "%s── Layer 2: Missing audit report (evolve/rewrite commit with no corresponding reports/research/ file)%s\n\n" "$BLU" "$RST"
 
 CURRENT_YM=$(date +%Y-%m)
 declare -a MISSING_REPORTS=()
@@ -140,24 +140,24 @@ for hash in $COMMITS; do
 done
 
 if (( MISSING_AUDIT_COUNT == 0 )); then
-  printf "%s✅ 全部 evolve/rewrite 都有對應 audit report%s\n" "$GRN" "$RST"
+  printf "%s✅ all evolve/rewrite commits have corresponding audit reports%s\n" "$GRN" "$RST"
 else
   for entry in "${MISSING_REPORTS[@]}"; do
     IFS='|' read -r short slug art <<< "$entry"
-    printf "%s⚠️  %s%s → %s\n" "$YEL" "$short" "$RST" "$art"
-    printf "   缺 reports/research/%s/%s.md\n" "$CURRENT_YM" "$slug"
+    printf "%s⚠️  %s%s -> %s\n" "$YEL" "$short" "$RST" "$art"
+    printf "   missing reports/research/%s/%s.md\n" "$CURRENT_YM" "$slug"
   done
 fi
 printf "\n"
 
 # Summary
-printf "%s═══ 總結 ═══%s\n" "$BLU" "$RST"
+printf "%s═══ Summary ═══%s\n" "$BLU" "$RST"
 printf "  Total evolve/rewrite commits: %d\n" "$TOTAL_EVOLVE_COMMITS"
 printf "  Cross-pollination commits:    %d\n" "$CROSS_POLLINATION_COUNT"
 printf "  Missing audit reports:        %d\n\n" "$MISSING_AUDIT_COUNT"
 
 if (( CROSS_POLLINATION_COUNT > 0 || MISSING_AUDIT_COUNT > 0 )); then
-  printf "%s❌ 偵測到 sub-agent 偷吃步 — 補做 audit report 或拆 commit%s\n" "$RED" "$RST"
+  printf "%s❌ sub-agent cheats detected — add missing audit reports or split commits%s\n" "$RED" "$RST"
   printf "%scanonical: REFLEXES #42 + LESSONS-INBOX 2026-05-02 EVOLVE-batch%s\n" "$DIM" "$RST"
   exit 1
 fi
