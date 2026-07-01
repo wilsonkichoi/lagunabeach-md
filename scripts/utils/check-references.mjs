@@ -13,10 +13,8 @@ import { join, relative } from 'path';
 const KNOWLEDGE_DIR = join(process.cwd(), 'knowledge');
 const STRICT = process.argv.includes('--strict');
 
-// Patterns matching reference sections (both EN and zh-TW headings)
-const REF_PATTERNS = [
-  /^##\s*(參考資料|參考文獻|資料來源|References?|Sources?|延伸閱讀|Further Reading)/im,
-];
+// Patterns matching reference sections
+const REF_PATTERNS = [/^##\s*(References?|Sources?|Further Reading)/im];
 
 // URL pattern
 const URL_PATTERN = /https?:\/\/[^\s)>\]]+/;

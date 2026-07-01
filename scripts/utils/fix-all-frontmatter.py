@@ -19,8 +19,8 @@ def extract_description_from_content(content):
     
     for line in lines:
         line = line.strip()
-        if line.startswith('> **30 秒概覽：**') or line.startswith('> **30秒概覽：**') or line.startswith('> **At a glance:**'):
-            desc = line.replace('> **30 秒概覽：**', '').replace('> **30秒概覽：**', '').replace('> **At a glance:**', '').strip()
+        if line.startswith('> **At a glance:**'):
+            desc = line.replace('> **At a glance:**', '').strip()
             return desc
         elif line.startswith('> ') and not in_quote:
             in_quote = True

@@ -26,8 +26,8 @@ const COMMIT = process.argv.includes('--commit');
 const rows = JSON.parse(readFileSync('/tmp/feedback-new.json', 'utf8'));
 
 // ── partition ──────────────────────────────────────────────────────────────
-// Original one-off target article from upstream (kept for reference; this script is historical)
-const TARGET_SLUG = '國家太空中心';
+// Original one-off target article from upstream (historical, will never run on LB data)
+const TARGET_SLUG = 'national-space-organization';
 const spaceRows = rows
   .filter((r) => r.article_slug === TARGET_SLUG && r.type === 'content')
   .sort((a, b) => (a.created_at < b.created_at ? -1 : 1));
