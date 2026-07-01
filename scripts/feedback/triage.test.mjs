@@ -42,11 +42,20 @@ test('resolveType trusts the reader-selected type', () => {
 });
 
 test('resolveType infers when type missing', () => {
-  assert.equal(resolveType({ body: '這裡連結壞掉了 404' }), 'bug');
-  assert.equal(resolveType({ body: '日期有誤,應為 1993' }), 'content');
-  assert.equal(resolveType({ body: '想看更多關於台灣茶的文章' }), 'newtopic');
+  assert.equal(resolveType({ body: 'the link is broken 404' }), 'bug');
   assert.equal(
-    resolveType({ body: '無關鍵字', correct_info: '正確版本' }),
+    resolveType({ body: 'the date is wrong, should be 1993' }),
+    'content',
+  );
+  assert.equal(
+    resolveType({ body: 'would love more about local trails' }),
+    'newtopic',
+  );
+  assert.equal(
+    resolveType({
+      body: 'no keywords here',
+      correct_info: 'the correct version',
+    }),
     'content',
   );
 });
@@ -54,7 +63,7 @@ test('resolveType infers when type missing', () => {
 test('buildIssue maps content → fact-correction template + labels', () => {
   const iss = buildIssue(byId('1111'));
   assert.equal(iss.type, 'content');
-  assert.match(iss.title, /^\[Fact Check\] 李安$/);
+  assert.match(iss.title, /^\[Fact Check\] Laguna Art Museum$/);
   assert.deepEqual(iss.labels, ['needs-verification', 'from-feedback']);
   assert.match(iss.body, /What's wrong/);
   assert.match(iss.body, /Correct info/);
@@ -88,15 +97,13 @@ test('issue body carries display_name + feedback id but NEVER email', () => {
 
 // 2026-06-16 regression: feedback 8f2f8908 leaked OAuth callback URL into public issue #1160.
 test('scrubSecrets strips OAuth tokens / JWT / email from a Supabase auth callback URL', () => {
-  // Fully synthetic values, no real credentials/email (otherwise test itself is a PII vector).
   const toxic =
-    'https://taiwan.md/people/#access_token=eyJSAMPLE.eyJzdWIiOiJ4In0.eyJzaWci&expires_at=9999999999&provider_token=ya29.FAKEPROVIDER&refresh_token=FAKEREFRESH123&token_type=bearer';
+    'https://lagunabeach.md/about/#access_token=eyJSAMPLE.eyJzdWIiOiJ4In0.eyJzaWci&expires_at=9999999999&provider_token=ya29.FAKEPROVIDER&refresh_token=FAKEREFRESH123&token_type=bearer';
   const out = scrubSecrets(toxic);
-  assert.equal(out, 'https://taiwan.md/people/');
+  assert.equal(out, 'https://lagunabeach.md/about/');
   for (const leak of ['access_token', 'eyJ', 'ya29', 'FAKEREFRESH123']) {
     assert.ok(!out.includes(leak), `scrubSecrets leaked ${leak}`);
   }
-  // Plaintext email must also be redacted
   assert.match(scrubSecrets('mail reader@example.com'), /\[REDACTED-EMAIL\]/);
 });
 
@@ -104,11 +111,11 @@ test('buildIssue scrubs a token-bearing source_url before it reaches issue body'
   const iss = buildIssue({
     id: 'tok-1',
     type: 'bug',
-    body: 'Ray 標示錯人了',
+    body: 'The map pin is in the wrong spot',
     display_name: 'tester',
     created_at: '2026-06-16T00:00:00Z',
     source_url:
-      'https://taiwan.md/people/#access_token=eyJabc.eyJdef.sig&refresh_token=secret123&provider_token=ya29.LEAK',
+      'https://lagunabeach.md/about/#access_token=eyJabc.eyJdef.sig&refresh_token=secret123&provider_token=ya29.LEAK',
   });
   for (const leak of [
     'access_token',
@@ -156,14 +163,14 @@ test('triageBatch: file genuine, reject spam, skip in-batch dup', () => {
 
 // ── v2: idea type + selected-quote annotation ────────────────────────────────
 test('resolveType passes idea through', () => {
-  assert.equal(resolveType({ type: 'idea', body: '想法' }), 'idea');
+  assert.equal(resolveType({ type: 'idea', body: 'an idea' }), 'idea');
 });
 
 test('buildIssue maps idea → enhancement + [Idea] title', () => {
   const iss = buildIssue({
     id: 'i1',
     type: 'idea',
-    body: '希望每頁都能切深色模式',
+    body: 'Would love a dark mode toggle on every page',
     page_kind: 'home',
   });
   assert.equal(iss.type, 'idea');
@@ -175,16 +182,17 @@ test('content issue embeds selected quote + text-fragment deep link', () => {
   const row = {
     id: 'q1',
     type: 'content',
-    article_title: '李安',
-    article_slug: '李安',
+    article_title: 'Laguna Art Museum',
+    article_slug: 'laguna-art-museum',
     page_kind: 'article',
-    source_url: 'https://taiwan.md/people/李安#:~:text=1990',
-    quote: '《臥虎藏龍》1990 年得獎',
-    body: '年份錯了，應為 2001。',
+    source_url:
+      'https://lagunabeach.md/art-galleries/laguna-art-museum#:~:text=founded%20in%201929',
+    quote: 'The museum was founded in 1929',
+    body: 'The year is wrong, it should be 1918.',
   };
   const iss = buildIssue(row);
   assert.match(iss.body, /Selected passage/);
-  assert.match(iss.body, /《臥虎藏龍》1990 年得獎/);
+  assert.match(iss.body, /The museum was founded in 1929/);
   assert.match(iss.body, /Direct link/);
   assert.match(iss.body, /#:~:text=/);
   assert.doesNotMatch(iss.body, /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}/i);
@@ -194,7 +202,7 @@ test('provenance carries page_kind', () => {
   const iss = buildIssue({
     id: 'p1',
     type: 'bug',
-    body: '這個數字怪怪的',
+    body: 'This number looks off',
     page_kind: 'dashboard',
   });
   assert.match(iss.body, /source page: dashboard/);
@@ -214,17 +222,17 @@ test('triageBatch attaches note to file + reject decisions', () => {
   assert.ok(rejected.note && rejected.note.length > 0);
 });
 
-// ── v4: batch-cluster guard (2026-06-09 12-burst + 2026-06-12 21-burst) ──
-function clusterRows(n, slug = 'justfont與台灣字體發展') {
+// ── v4: batch-cluster guard (high-volume same-slug bursts) ──
+function clusterRows(n, slug = 'founding-and-early-history') {
   return Array.from({ length: n }, (_, i) => ({
     id: `c${i}-uuid`,
     type: 'content',
     article_slug: slug,
-    article_title: slug,
-    display_name: '蘇煒翔',
+    article_title: 'Founding and Early History',
+    display_name: 'Local Historian',
     created_at: '2026-06-12T06:00:00Z',
-    body: `第 ${i + 1} 段的事實有誤,正確版本是另一個說法 ${i}`,
-    correct_info: `更正 ${i}`,
+    body: `Paragraph ${i + 1} has a factual error, the correct version is different ${i}`,
+    correct_info: `Correction ${i}`,
   }));
 }
 
@@ -234,7 +242,7 @@ test(`batch-cluster: same slug >= ${BATCH_CLUSTER_THRESHOLD} entries all hold, 0
   assert.equal(results.filter((r) => r.decision === 'hold').length, 21);
   assert.equal(results.filter((r) => r.decision === 'file').length, 0);
   assert.match(results[0].reason, /^batch-cluster:/);
-  assert.equal(results[0].cluster, 'justfont與台灣字體發展'.toLowerCase());
+  assert.equal(results[0].cluster, 'founding-and-early-history');
 });
 
 test('batch-cluster: below threshold files normally', () => {
@@ -253,8 +261,8 @@ test('batch-cluster: reports outside cluster are unaffected, file normally', () 
     {
       id: 'solo-1',
       type: 'bug',
-      article_slug: '李安',
-      body: '這頁排版在手機上壞掉了',
+      article_slug: 'laguna-art-museum',
+      body: 'Layout is broken on mobile for this page',
     },
   ];
   const results = triageBatch(rows, []);
@@ -268,12 +276,11 @@ test('batch-cluster: spam within cluster still rejected, not counted toward thre
     ...clusterRows(BATCH_CLUSTER_THRESHOLD - 1),
     {
       id: 'spam-1',
-      article_slug: 'justfont與台灣字體發展',
+      article_slug: 'founding-and-early-history',
       body: 'casino casino http://bit.ly/x crypto pump',
     },
   ];
   const results = triageBatch(rows, []);
-  // spam 不計入 → 4 筆非 spam 低於閾值 → 照常 file
   assert.equal(results.filter((r) => r.decision === 'hold').length, 0);
   assert.equal(results.find((r) => r.row.id === 'spam-1').decision, 'reject');
 });
@@ -282,7 +289,7 @@ test('batch-cluster: reports without slug are never clustered', () => {
   const rows = Array.from({ length: 8 }, (_, i) => ({
     id: `nos${i}`,
     type: 'idea',
-    body: `想法 ${i}：完全不同的主題建議各自獨立 ${i}`,
+    body: `Idea ${i}: a completely different topic suggestion ${i}`,
   }));
   const results = triageBatch(rows, []);
   assert.equal(results.filter((r) => r.decision === 'hold').length, 0);

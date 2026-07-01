@@ -59,8 +59,6 @@ const SPAM_KEYWORDS = [
   'buy followers',
   'seo backlinks',
   'http://bit.ly',
-  '赌场',
-  '起股',
 ];
 
 const URL_RE = /https?:\/\/[^\s)]+/gi;
@@ -106,13 +104,10 @@ export function detectSpam(row) {
 }
 
 // ── type ─────────────────────────────────────────────────────────────────────
-const BUG_HINTS = [
-  /\bbug\b/i,
-  /broken|404|crash|壞|壞掉|壞了|連結.*(失效|壞)|顯示|跡位|排版|變形|畫面/,
-];
+const BUG_HINTS = [/\bbug\b/i, /broken|404|crash|layout|display|render/i];
 const CONTENT_HINTS = [
   /\b(wrong|incorrect|typo|error)\b/i,
-  /錯|誤|應為|有誤|更正|勘誤|事實|過時/,
+  /\b(outdated|inaccurate|correction|should be)\b/i,
 ];
 
 export function resolveType(row) {

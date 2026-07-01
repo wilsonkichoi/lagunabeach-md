@@ -16,7 +16,7 @@
  *   node scripts/feedback/triage.mjs --seed <file.json>   # dry-run, reads JSON fixture (offline testing)
  *   node scripts/feedback/triage.mjs --commit             # actually creates issues + writes back (for routine use)
  *
- * env (only needed for real runs, put in ~/.taiwanmd-feedback.env or env vars):
+ * env (only needed for real runs, put in ~/.lagunabeach-feedback.env or env vars):
  *   SUPABASE_URL, SUPABASE_SERVICE_KEY
  */
 import {
@@ -53,10 +53,10 @@ function parseArgs(argv) {
 
 // ── data source ───────────────────────────────────────────────────────────────
 function loadEnvFile() {
-  // Read ~/.taiwanmd-feedback.env (KEY=VALUE one per line) into process.env (does not override existing).
+  // Read ~/.lagunabeach-feedback.env (KEY=VALUE one per line) into process.env (does not override existing).
   try {
     const home = process.env.HOME || '';
-    const txt = readFileSync(`${home}/.taiwanmd-feedback.env`, 'utf8');
+    const txt = readFileSync(`${home}/.lagunabeach-feedback.env`, 'utf8');
     for (const line of txt.split('\n')) {
       const m = line.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*)\s*$/);
       if (m && !process.env[m[1]])
@@ -73,7 +73,7 @@ async function fetchNewFeedback(limit) {
   const key = process.env.SUPABASE_SERVICE_KEY;
   if (!url || !key) {
     throw new Error(
-      'SUPABASE_URL / SUPABASE_SERVICE_KEY not set (put in ~/.taiwanmd-feedback.env). Use --seed for offline testing.',
+      'SUPABASE_URL / SUPABASE_SERVICE_KEY not set (put in ~/.lagunabeach-feedback.env). Use --seed for offline testing.',
     );
   }
   const endpoint = `${url}/rest/v1/feedback?status=eq.new&order=created_at.asc&limit=${limit}`;

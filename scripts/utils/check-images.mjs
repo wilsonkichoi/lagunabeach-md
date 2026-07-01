@@ -136,7 +136,7 @@ if (jsonMode) {
   };
   console.log(JSON.stringify(output, null, 2));
 } else {
-  console.log('Image Health Check — taiwan-md');
+  console.log('Image Health Check — lagunabeach-md');
   console.log('================================');
   console.log(
     `Scanned: ${allRefs.length} references (${results.length} unique)`,

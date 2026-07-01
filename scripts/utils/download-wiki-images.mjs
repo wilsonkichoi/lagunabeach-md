@@ -31,7 +31,6 @@ const IMAGE_MAP = [
   },
   { hash: 'aeba97222b07.jpg', file: 'Chiang Kai-shek memorial amk.jpg' },
   { hash: 'b2a91d2ee489.jpg', file: 'ShiLin.jpg' },
-  { hash: 'b3f3be4fb2b6.jpg', file: '蔡英文官方元首肖像照.png' },
   {
     hash: 'c1deab8511ba.jpg',
     file: 'Ang Lee - 66ème Festival de Venise (Mostra).jpg',
@@ -41,7 +40,6 @@ const IMAGE_MAP = [
     file: 'Mayday_on_Mercuries_Life_press_conference_at_Red_House_Theater_20131125.jpg',
   },
   { hash: 'e78df09feea3.jpg', file: 'Taipei_101_2009_amk.jpg' },
-  { hash: 'f04323aed8cc.jpg', file: '2021大甲媽祖遶境_02.jpg' },
   { hash: 'f80cd70cdca2.jpg', file: 'ATT 4 Fun in the rain 20120405.jpg' },
   { hash: 'fcb292021fe7.jpg', file: 'Oncorhynchus_masou_formosanus.jpg' },
 ];
