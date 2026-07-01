@@ -244,7 +244,7 @@ reading tool source. Execute via `/lb-implement` + `/lb-review`, batched by grou
 - [x] **Group 1: lang-sync/ translation infra** (25 files, ~400 lines)
       `scripts/tools/lang-sync/` — OpenRouter/Ollama/Gemini backends, batch prep,
       verification, audit, slug-suggest, diary-translate, diff-patch.
-- [ ] **Group 2: article-health checks** (17 files, ~350 lines)
+- [x] **Group 2: article-health checks** (17 files, ~350 lines)
       `scripts/tools/lib/article_health/` — plugin docstrings + inline comments.
       CJK in regex patterns (matching zh-TW content markers) is KEEP.
 - [ ] **Group 3: analytics + sensing tools** (~15 files, ~400 lines)

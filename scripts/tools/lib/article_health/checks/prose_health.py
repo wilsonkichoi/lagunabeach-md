@@ -29,9 +29,9 @@ The URL-count and citation-desert dimensions therefore count `source:` frontmatt
 entries as citation evidence — without that they misfire on every LB article.
 
 Dropped from the Taiwan port (no LB analog):
-  - 這座島 island-self-reference dim (Taiwan-specific euphemism balance)
-  - 歐化「是…的」judgment-sentence dim (Mandarin Europeanized-grammar tell)
-  - 重 weight-as-abstract-metaphor dim (CJK substring tell)
+  - "this island" self-reference dim (Taiwan-specific euphemism balance)
+  - Europeanized "shi...de" judgment-sentence dim (Mandarin grammar tell)
+  - "zhong" weight-as-abstract-metaphor dim (CJK substring tell)
 
 Total score budget: ≤ 3 = pass. A "score" violation is yielded with the running
 total — the runner gates on it via profile.fail_on = "score-budget"
@@ -82,7 +82,7 @@ _RE_HOLLOW = re.compile(
 _RE_EMDASH = re.compile(r"—")
 
 # ── "Not Just X, It's Y" false-contrast pattern (EDITORIAL §6 L270) ───────────
-# The English fingerprint Taiwan.md flags as 「不是X是Y」. In nearly every case the
+# The English fingerprint Taiwan.md flags as "not-just-X" pattern. In nearly every case the
 # "X" half is a strawman the reader never assumed; delete the setup, state Y.
 _TIER1_PATTERNS = [
     re.compile(r"\bis ?n[o']t just\b", re.IGNORECASE),

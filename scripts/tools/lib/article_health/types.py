@@ -1,7 +1,7 @@
-"""article_health.types — 共用資料型別。
+"""article_health.types — Shared data types.
 
-每個 check plugin yields `Violation`s; runner aggregates 成 `CheckResult`s
-和最終的 `HealthReport`。
+Each check plugin yields `Violation`s; runner aggregates into `CheckResult`s
+and ultimately `HealthReport`.
 """
 
 from __future__ import annotations
@@ -12,11 +12,11 @@ from typing import Any
 
 
 class Severity(str, Enum):
-    """違反嚴重等級。
+    """Violation severity level.
 
-    HARD: 自動 block commit / PR / build。
-    WARN: 列出但不擋。
-    INFO: 純資訊（dashboard 用，不出現在 pre-commit）。
+    HARD: auto-blocks commit / PR / build.
+    WARN: listed but non-blocking.
+    INFO: purely informational (for dashboard, not shown in pre-commit).
     """
 
     HARD = "hard"
@@ -30,14 +30,14 @@ class Severity(str, Enum):
 
 @dataclass
 class FileTarget:
-    """一篇被檢查的文章。
+    """A single article being checked.
 
-    Loader 在掃 file 時做完一次：
-      - YAML frontmatter 解析（cached）
-      - body markdown 內文（去除 frontmatter）
-      - 受保護區塊 mask（fenced code / inline code / link URL / HTML attr）
+    Loader does this once per file scan:
+      - YAML frontmatter parsing (cached)
+      - body markdown content (frontmatter stripped)
+      - protected region masking (fenced code / inline code / link URL / HTML attr)
 
-    Plugins 收到這個物件，避免每個 check 重複 parse / split。
+    Plugins receive this object, avoiding redundant parse/split per check.
     """
 
     path: Path
@@ -59,12 +59,12 @@ class FileTarget:
     # kind = "fenced-code" / "inline-code" / "link-url" / "html-tag"
     protected_regions: list[tuple[int, int, str]] = field(default_factory=list)
 
-    # Section boundaries — name → (start, end) in body coords. Lets plugins
-    # treat 延伸閱讀 / 參考資料 / 圖片來源 sections specially without
-    # re-parsing markdown.
+    # Section boundaries — name -> (start, end) in body coords. Lets plugins
+    # treat further-reading / references / image-sources sections specially
+    # without re-parsing markdown.
     #
-    # Triggered by 2026-05-04 黃魚鴞 incident: the inline CJK punct converter
-    # in commit 514dc9fd4 turned `[name](/url)` → `[name](/url）` in 延伸閱讀,
+    # Triggered by 2026-05-04 incident: the inline CJK punct converter
+    # turned `[name](/url)` -> `[name](/url）` in further-reading section,
     # breaking 5 wikilinks. The fix lives in protected_regions (link-url),
     # but section-level metadata gives plugins a coarser hook.
     sections: dict[str, tuple[int, int]] = field(default_factory=dict)
@@ -86,7 +86,7 @@ class FileTarget:
 
 @dataclass
 class Violation:
-    """單一違反實例。"""
+    """Single violation instance."""
 
     check: str  # check name (e.g. "cjk-punct")
     severity: Severity
@@ -100,7 +100,7 @@ class Violation:
 
 @dataclass
 class CheckResult:
-    """單一 check 跑完一個 file 的結果。"""
+    """Result of running a single check on one file."""
 
     check: str
     passed: bool  # True if no HARD violations

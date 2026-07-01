@@ -1,33 +1,31 @@
 r"""spore_writing — SPORE-specific writing rules instrumentation.
 
 Direction D from reports/spore-pipeline-evolution-plan-2026-05-08.md:
-    把 SPORE-WRITING.md 的 prose 規則從「提醒 + 信任 AI 自律」升級為
-    plugin gate (REFLEXES #15 第 N 次驗證：memory 是自律，pipeline 才是閘門).
+    Upgrades SPORE-WRITING.md prose rules from "reminder + trust AI self-discipline"
+    to plugin gate (REFLEXES #15: memory is self-discipline, pipeline is the gate).
 
 Rules implemented (regex-only, Wave 1 + Wave 2):
   Wave 1 (initial ship 2026-05-08):
-  - 編年體 lead 病 (Rule #15, 高鐵 s35 教訓)
-    第一行 prose 開頭不該是「YYYY 年 M 月 D 日，XXX」這種新聞 lead
-    觸發：line 1 of body matches `^\d{4}\s*年` 或 `^\d{4}\.`
-  - 引語倒裝 (Rule #9, 李洋 #28 教訓)
-    `「XXX」他/她說` 這種沒場景的引語倒裝
-    應改為「他在 [場景] 說：『XXX』」
+  - Chronicle lead (Rule #15): first prose line shouldn't start with a date
+    (news lead style). Triggers on `^\d{4}\s*年` or `^\d{4}\.`
+  - Quote inversion (Rule #9): `「XXX」他說` style (scene-less quote inversion)
+    should become `He said at [scene]: 'XXX'`
 
-  Wave 2 (evolve 2026-05-08 同 session, 從 spore 成效數據驗證):
-  - 朋友 tone prime (Rule #14, 高鐵 s35 教訓 + 5 月份 hook tier 數據)
-    第一行 prose 必須有 friend tone prefix（你知道嗎？/欸/直接人說話）
-    或滿足 Tier 1b「具體 anchor + 反差 hook」開場
-    觸發：第一行不是 prefix + 不是引語 + 不是具體場景 → WARN 提醒加 prefix
-    跳過：blueprint table（已 covered）/ harvest log meta（covered）
+  Wave 2 (evolve 2026-05-08, validated from spore performance data):
+  - Friend tone prime (Rule #14): first prose line must have friend-tone prefix
+    or satisfy Tier 1b "concrete anchor + contrast hook" opening.
+    Trigger: first line has no prefix + not a quote + not a concrete scene -> WARN.
+    Skip: blueprint table (already covered) / harvest log meta (covered).
 
-APPLIES_TO 設計：
-  路徑必須在 docs/factory/SPORE-BLUEPRINTS/ 或 docs/factory/SPORE-HARVESTS/
-  其他文章的開頭可以是日期（時間軸型 D 模板就是合法的），所以這條規則不普適。
+APPLIES_TO design:
+  Path must be in docs/factory/SPORE-BLUEPRINTS/ or docs/factory/SPORE-HARVESTS/.
+  Other articles can legitimately start with dates (timeline D-template), so this
+  rule is not universally applicable.
 
 Future extensions (deferred):
-  - Rule #16 Scene-List-Scene 結構 (need LLM-as-judge, not pure regex)
-  - Rule #8 同名連用 ≥3 (token analysis, 需要中文斷詞)
-  - Reach × accuracy retroactive trigger (不在 plugin scope, SPORE-VERIFY 文件層 SOP)
+  - Rule #16 Scene-List-Scene structure (needs LLM-as-judge, not pure regex)
+  - Rule #8 same-name repeated >=3 (token analysis, needs CJK tokenizer)
+  - Reach x accuracy retroactive trigger (out of plugin scope, SPORE-VERIFY doc-level SOP)
 
 Canonical:
   - docs/factory/SPORE-WRITING.md §進階寫作技術
@@ -45,46 +43,43 @@ CHECK_NAME = "spore-writing"
 DIMENSION = "spore-prose"
 DEFAULT_SEVERITY = Severity.HARD
 EDITORIAL_REF = "SPORE-WRITING.md §進階寫作技術"
-APPLIES_TO = ["zh-TW"]  # 孢子主要是中文 prose
+APPLIES_TO = ["zh-TW"]  # spores are primarily Chinese prose
 
 
-# ── Rule #15: 編年體 lead 病 (chronicle lead) ────────────────────────────────
-# 第一行不應該是「YYYY 年」「YYYY.MM.DD」這種新聞 lead 開頭
+# ── Rule #15: Chronicle lead ────────────────────────────────────────────────
+# First line should not start with "YYYY 年" / "YYYY.MM.DD" news lead style
 _RE_CHRONICLE_LEAD = re.compile(
     r"^\s*(?:\d{4}\s*年|\d{4}[/.\-]\d{1,2}[/.\-]\d{1,2}|\d{4}-\d{2}-\d{2})",
     re.MULTILINE,
 )
 
-# ── Rule #9: 引語倒裝（quote inversion） ────────────────────────────────────
-# 「XXX」他說 / 「XXX」她說 / 「XXX」XXX 說
-# 改為：他在 [場景] 留了一句話：『XXX』
+# ── Rule #9: Quote inversion ────────────────────────────────────────────────
+# Matches「XXX」他說 / 她說 pattern (scene-less quote inversion)
+# Should become: He left a line at [scene]: 'XXX'
 _RE_QUOTE_INVERSION = re.compile(
     r"「[^」]{5,80}」[^\n。]{0,8}[他她][^\n。]{0,5}說",
 )
 
 
-# ── Rule #14: 朋友 tone prime（friend-tone curiosity prime） ─────────────────
-# v2 (2026-05-28): WARN → HARD severity inversion. 觸發背景: 5/27-5/28 #97 美食 /
-#   #101 落日飛車 / #103 周蕙 連續三條 spore drift — #97「你知道嗎—」(破折號取代
-#   問號) / #101「你知道嗎，」(逗號 + 無 emoji) / #103「走進台灣任何一間 KTV」(完全
-#   無 prefix) 通通 silent pass。哲宇 callout「為什麼孢子失去『你知道嗎』voice」+
-#   診斷指向 CONTRACT v1.0 over-engineering → plugin severity 太弱 + scope 太窄。
+# ── Rule #14: Friend-tone curiosity prime ───────────────────────────────────
+# v2 (2026-05-28): WARN -> HARD severity inversion. Triggered by 3 consecutive
+# spore drift incidents (#97/#101/#103) where friend-tone voice was lost.
+# Diagnosis: CONTRACT v1.0 over-engineering -> plugin severity too weak + scope too narrow.
 #
-# 孢子第一行必須有「朋友跟你講八卦」的 curiosity prime，不是新聞 lead。
-# 對應 [MANIFESTO §我怎麼說話](docs/semiont/MANIFESTO.md#我怎麼說話)「像在跟朋友介
-# 紹台灣：『欸你知道嗎⋯⋯』」哲學落實。
+# Spore first line must have a "friend telling you gossip" curiosity prime, not
+# news lead. Implements MANIFESTO "like introducing Taiwan to a friend" philosophy.
 #
-# 合格 prefix（友善開場式）：
-#   1. 「你知道嗎？」/「你知道嗎，」（強烈推薦 + emoji，舊風格允許逗號）
-#   2. 「欸，」/「欸你」+ 具體事件片段
-#   3. 「身為台灣人」/「想像」/「如果」/「當你」 第二人稱開場
-#   4. 直接人說話（「『...』」引語開場 — hook 力夠強的 case）
-#   5. 純 emoji 開場
+# Qualifying prefixes (friendly opening):
+#   1. 「你知道嗎？」/「你知道嗎，」 (strongly recommended + emoji)
+#   2. 「欸，」/「欸你」+ concrete event fragment
+#   3. 「身為台灣人」/「想像」/「如果」/「當你」 second-person opening
+#   4. Direct quote opening (「『...』」 — strong enough hook)
+#   5. Pure emoji opening
 #
-# v2 升級：trigger 從「news lead AND no prefix」改成「no prefix → HARD」（除非
-# publicletter F-family / E-thread family / hook_tier=N/A frontmatter exempt）。
-# 不再依賴 looks_like_news_lead 判斷 — 場景代入 / 第二人稱化也不算「等效 prime」，
-# 必須字面 prefix 才算過閘。
+# v2 upgrade: trigger changed from "news lead AND no prefix" to "no prefix -> HARD"
+# (unless publicletter F-family / E-thread family / hook_tier=N/A exempt).
+# No longer depends on looks_like_news_lead — scene immersion / second-person doesn't
+# count as "equivalent prime"; must be literal prefix to pass gate.
 _RE_FRIEND_PREFIX = re.compile(
     r"^\s*(?:你知道嗎[？，?,]|欸[，,]|欸你|身為台灣人|想像[一下你]|"
     r"如果(?:[你台]|[\d])|當[你你們]|"
@@ -101,14 +96,14 @@ def _is_publicletter_family(text: str) -> bool:
     """Detect F-publicletter / E-thread / non-viral family via frontmatter.
 
     Used to scope Rule #14 — friend-tone prime is only required for viral
-    family (A/B/C/D templates). F-公開信 (站方公開信) uses 教授 tone, not
-    朋友 tone. E-串文 may have different prime convention.
+    family (A/B/C/D templates). F-publicletter uses professor tone, not
+    friend tone. E-thread may have different prime convention.
     """
     return bool(_RE_PUBLICLETTER_FAMILY.search(text[:2000]))
 
 
-# 新聞 lead pattern (legacy from v1, retained as INFO-only diagnostic — not the
-# HARD trigger 在 v2)：補抓「機構 + 動詞」客觀敘事 開場
+# News lead pattern (legacy from v1, retained as INFO-only diagnostic — not the
+# HARD trigger in v2): catches "institution + verb" objective narrative opening
 _RE_NEWS_LEAD = re.compile(
     r"^\s*[一-鿿]{2,8}(?:宣布|表示|簽下|公布|成立|頒布|通過|裁決|"
     r"發表|主張|強調|指出|呼籲|批評|證實|否認|聲明|警告)"
@@ -140,12 +135,12 @@ _RE_NUMBERED_LIST = re.compile(r"^\s*\d+\.\s")  # `1. `, `2. ` ordered list item
 def _strip_frontmatter_and_meta(text: str) -> tuple[str, int]:
     """Return (body_text, body_start_line).
 
-    v2 (2026-05-28): 修補 false-positive — Rule #14 對 #101 落日飛車 / #105 瘂弦
-    錯把「紀實/煽情閘四問自檢」numbered list 當 spore body 第一行 trigger HARD。
-    真正 spore body 在 ``` ``` code fence 內（per blueprint convention §Draft Body
-    / §Spore 文案 final）。新策略：找第一個 ``` fence start，從 fence 內取首行。
-    Fallback：沒找到 fence → 用 v1 strip 邏輯（heading/blockquote/table/bullet/
-    bold-meta/numbered-list 全 skip）。
+    v2 (2026-05-28): fixed false-positive where Rule #14 mistakenly treated
+    numbered list (self-check questions) as spore body first line. Real spore
+    body lives inside ``` ``` code fence (per blueprint convention).
+    Strategy: find first ``` fence start, take first line from inside fence.
+    Fallback: no fence found -> use v1 strip logic (skip headings/blockquotes/
+    tables/bullets/bold-meta/numbered-lists).
 
     Strips frontmatter (--- ... ---) and tries to locate the actual spore body:
       Priority A: first ``` ``` code fence content (production blueprint convention)
@@ -233,15 +228,15 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
     """Run SPORE-WRITING-specific regex checks.
 
     Skipped when file is not in SPORE-BLUEPRINTS / SPORE-HARVESTS path
-    (returning early so普通文章不誤觸發 Rule #15 timeline templates).
+    (returning early so normal articles don't false-trigger Rule #15 timeline templates).
     """
     if not _is_spore_path(str(target.path)):
         return
 
     body_text, body_start = _strip_frontmatter_and_meta(target.text)
 
-    # ── Rule #15: 編年體 lead 病 ──
-    # Only the very first prose line is checked — body 中段可有日期
+    # ── Rule #15: Chronicle lead ──
+    # Only the very first prose line is checked — mid-body dates are fine
     first_line = body_text.split("\n", 1)[0] if body_text else ""
     if first_line and _RE_CHRONICLE_LEAD.match(first_line):
         yield Violation(
@@ -259,7 +254,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             ),
         )
 
-    # ── Rule #9: 引語倒裝 ──
+    # ── Rule #9: Quote inversion ──
     for m in _RE_QUOTE_INVERSION.finditer(body_text):
         # Compute approximate line number (offset from body_start)
         prefix = body_text[: m.start()]
@@ -276,10 +271,10 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             editorial_ref="SPORE-WRITING.md §禁止清單",
         )
 
-    # ── Rule #14 v2: 朋友 tone prime — HARD gate ──
-    # v2 (2026-05-28) inversion: WARN → HARD + 取消 looks_like_news_lead 依賴。
-    # 場景代入 / 第二人稱化 / 日常感都不算「等效 prime」— 必須字面 prefix。
-    # Scope: viral family only（F-公開信 / E-thread / hook_tier=N/A exempt）。
+    # ── Rule #14 v2: Friend tone prime — HARD gate ──
+    # v2 (2026-05-28) inversion: WARN -> HARD + removed looks_like_news_lead dependency.
+    # Scene immersion / second-person / casual feel don't count as "equivalent prime".
+    # Scope: viral family only (F-publicletter / E-thread / hook_tier=N/A exempt).
     is_publicletter = _is_publicletter_family(target.text)
     has_friend_prefix = bool(_RE_FRIEND_PREFIX.match(first_line)) if first_line else False
     if (
@@ -316,11 +311,10 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             )
 
     # ── Rule #14.A v3: Standalone hook line — WARN gate ──
-    # v3 (2026-05-28) 哲宇 directive「補充標準 spore 格式」觸發 canonical 化。
-    # 標準孢子格式：「你知道嗎？{emoji}」獨立第一行（≤ 15 chars）+ blank line +
-    # 故事段落。Inline hook (「你知道嗎？🎤 1999 年福茂發行...」整段一行) 不擋 ship
-    # 但 surface drift signal —— 視覺呼吸 + thumb-scroll 停留 + emoji 錨點都被
-    # dilute。
+    # v3 (2026-05-28): canonical spore format requires hook as standalone first line
+    # (<=15 chars) + blank line + story paragraph. Inline hook (hook + story content
+    # on one line) doesn't block ship but surfaces drift signal — visual breathing +
+    # thumb-scroll pause + emoji anchor all get diluted.
     #
     # Trigger condition (WARN):
     #   has_friend_prefix=True AND
@@ -348,17 +342,17 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             )
 
     # ── Rule #14.B v3: Paragraph block count — WARN gate ──
-    # 標準孢子格式有 4-7 段（hook standalone + 3-5 story + optional URL）。
-    # < 4 段 = monolithic prose (collapsed state)；> 6 段 = staccato pattern
-    # (Twitter 串文 style 不是紀實段落)。
+    # Standard spore format has 4-7 paragraphs (hook standalone + 3-5 story + optional URL).
+    # < 4 = monolithic prose (collapsed state); > 6 = staccato pattern (Twitter thread
+    # style, not narrative paragraphs).
     #
-    # Scope: viral family only。F-公開信 / E-thread frontmatter signal exempt。
+    # Scope: viral family only. F-publicletter / E-thread frontmatter signal exempt.
     if not is_publicletter and body_text.strip():
         paragraphs = [
             p.strip() for p in body_text.split("\n\n") if p.strip()
         ]
         para_count = len(paragraphs)
-        # 短 spore (主貼 < 200 chars) 可以 3 段；標準 4-7
+        # Short spore (main post < 200 chars) can have 3 paragraphs; standard 4-7
         body_total_len = sum(len(p) for p in paragraphs)
         min_para = 3 if body_total_len < 200 else 4
         if para_count < min_para:

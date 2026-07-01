@@ -2,9 +2,9 @@
 
 Migrates `scripts/tools/check-cjk-punct.py` into the SSOT plugin system.
 
-Canonical: docs/editorial/EDITORIAL.md §半形標點禁用 (v5.5, 2026-05-04)
+Canonical: docs/editorial/EDITORIAL.md §半形標點禁用 (half-width punct ban, v5.5, 2026-05-04)
 
-Critical regression guard (2026-05-04 黃魚鴞 incident):
+Critical regression guard (2026-05-04 incident):
   Markdown link URLs `](url)` MUST stay half-width even in CJK contexts.
   This plugin uses FileTarget.protected_regions which auto-excludes:
     - fenced code blocks

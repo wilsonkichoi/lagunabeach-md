@@ -1,22 +1,22 @@
 """rationale_presence — check that frontmatter rationale block has 4 required keys present.
 
-Per RATIONALE-SPEC.md + issue #851 哲宇 Comment 8 Build 3:
+Per RATIONALE-SPEC.md + issue #851 Comment 8 Build 3:
   - rationale must contain 4 required keys: why_this_hook / whats_excluded /
     where_it_hedges / whos_pushing_back
   - which_framing is optional (5th key)
   - Plugin only checks key PRESENCE (existence + non-empty + not placeholder),
-    NOT content depth — per 主人 5/23 awareness 哲學: 簡填 OK，不檢查詳盡度
+    NOT content depth — brief fill is OK, no depth enforcement
 
-Strict vs advisory category split (per #851 Build 3 verbatim):
-  「強制類別 (People / History / Society / Politics) → 新文章 ship 之前
-    rationale 4 個 key 必填，warn 變強制檢查 (不過就不能 squash merge)」
-  「建議類別 (Music / Food / Nature / Art) → warn 不擋 ship，但 dashboard
-    顯示這類文章的 rationale 覆蓋率」
-  「分流理由：retrofit 200 篇填 rationale 太重 (短期內做不到)，但新文章
-    可以 strict。建議類別維持寬鬆，避免 warn 變成噪音被作者忽略」
+Strict vs advisory category split (per #851 Build 3):
+  Strict categories (People / History / Society / Politics) -> new articles must
+    fill all 4 rationale keys before ship, warn escalates to hard block.
+  Advisory categories (Music / Food / Nature / Art) -> warn doesn't block ship,
+    but dashboard shows rationale coverage rate for these articles.
+  Split rationale: retrofitting 200 articles with rationale is too heavy short-term,
+    but new articles can be strict. Advisory stays lenient to avoid warn noise.
 
 Severity model:
-  - HARD: rationale key 名拼錯 (e.g. `why_hook` instead of `why_this_hook`)
+  - HARD: rationale key name typo (e.g. `why_hook` instead of `why_this_hook`)
     — applies to any category, structural integrity issue
   - WARN: strict category missing rationale block / required key / empty value
     — release-pr profile (fail_on=warn) escalates to ship blocker
@@ -24,7 +24,7 @@ Severity model:
     never blocks ship
 
 Auto-fix:
-  None — rationale 內容是 thinking 結果，不該 auto-generate。
+  None — rationale content is a thinking artifact, should not be auto-generated.
 """
 
 from __future__ import annotations

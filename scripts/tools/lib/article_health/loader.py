@@ -27,7 +27,7 @@ _RE_FENCED_CODE = re.compile(r"```[\s\S]*?```", re.MULTILINE)
 _RE_INLINE_CODE = re.compile(r"`[^`\n]+`")
 # Link URL: `](...)` — exclude `)` AND newlines so a malformed link with
 # fullwidth `）` instead of `)` doesn't eat across lines into the next link.
-# 2026-05-04 黃魚鴞 incident showed `[^)]+` was running until the FAR-AWAY
+# 2026-05-04 incident showed `[^)]+` was running until the far-away
 # next halfwidth `)`, swallowing 5 lines and corrupting protected_regions.
 _RE_MD_LINK_URL = re.compile(r"\]\([^)\n]+\)")
 _RE_HTML_TAG = re.compile(r"<[^>\n]+>")
@@ -168,15 +168,15 @@ def _detect_protected_regions(body: str) -> list[tuple[int, int, str]]:
 
 
 def _detect_sections(body: str) -> dict[str, tuple[int, int]]:
-    """Detect canonical section boundaries: 延伸閱讀 / 參考資料 / 圖片來源.
+    """Detect canonical section boundaries: further-reading / references / image-sources.
 
-    Returns name → (start, end) byte offsets in body coords. Used by plugins
-    that need to treat these regions specially (per 2026-05-04 黃魚鴞 lesson:
+    Returns name -> (start, end) byte offsets in body coords. Used by plugins
+    that need to treat these regions specially (per 2026-05-04 lesson:
     these sections contain markdown link URLs that must stay half-width
     even in zh-TW context).
 
     Section boundaries:
-      - Start: first occurrence of `**延伸閱讀**` or `## 延伸閱讀` etc.
+      - Start: first occurrence of zh heading pattern (延伸閱讀 / 參考資料 / 圖片來源)
       - End: next h2/h3 header OR end-of-file.
     """
     section_starts = [
