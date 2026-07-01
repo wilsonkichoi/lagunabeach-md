@@ -8,8 +8,8 @@ cd "$(dirname "$0")/../.."
 RED='\033[0;31m'; YEL='\033[0;33m'; GRN='\033[0;32m'
 BLU='\033[0;34m'; DIM='\033[0;90m'; RST='\033[0m'
 
-VALID_CATS=("About" "History" "Geography" "Culture" "Food" "Art" "Music" "Technology" "Nature" "People" "Society" "Economy" "Lifestyle")
-SIMP_PAT='关|为|国|会|发|时|过|来|说|经|间|现|业|务|样|门|问|产|从|进|设|张|总|给|应|数|开|场|变|团|员|电|话|传|统|级|项|节|历'
+VALID_CATS=("About" "History" "Art & Galleries" "Nature & Marine Life" "Food" "Beaches" "Trails" "Events & Festivals" "Neighborhoods")
+# LB articles are English-only; no simplified-Chinese detector needed
 
 TOTAL=0; L0=0; L1=0; L2=0; L3=0
 STATUS="PASS"
@@ -51,10 +51,6 @@ layer1() {
   # conflict markers
   grep -qE '^(<{7}|={7}|>{7})' "$f" 2>/dev/null && err+=("git conflict markers")
 
-  # simplified Chinese detection
-  local sc; sc=$(grep -oE "$SIMP_PAT" "$f" 2>/dev/null | wc -l | tr -d ' ')
-  (( sc > 5 )) && wrn+=("possible simplified Chinese: ${sc} hits")
-
   # frontmatter
   local fm; fm=$(awk '/^---$/{n++; next} n==1{print} n>=2{exit}' "$f" 2>/dev/null)
   if [[ -z "$fm" ]]; then
@@ -64,10 +60,8 @@ layer1() {
     echo "$fm" | grep -q '^description:' || err+=("missing description")
     echo "$fm" | grep -q '^date:' || err+=("missing date")
     echo "$fm" | grep -q '^tags:' || err+=("missing tags")
-    # featured: true rule — only enforced on ZH SSOT; translations mirror source
-    if echo "$f" | grep -qvE '/(en|ja|ko|es|fr)/'; then
-      echo "$fm" | grep -q '^featured: true' && err+=("featured must not be true")
-    fi
+    # featured: true not allowed (reserved for homepage selection)
+    echo "$fm" | grep -q '^featured: true' && err+=("featured must not be true")
     # category from path
     local cd; cd=$(echo "$f" | sed -n 's|^knowledge/\([^/]*\)/.*|\1|p')
     if [[ -n "$cd" ]]; then
@@ -108,27 +102,20 @@ layer2() {
   # quality: missing sources
   echo "$body" | grep -q 'http' 2>/dev/null || ((hs++))
 
-  # quality: hollow modifiers (zh-TW content pattern)
-  local hw; hw=$(echo "$body" | grep -cE '不可或缺|深遠的影響|重要的角色|不可忽視|舉足輕重|密不可分|息息相關|獨樹一幟|博大精深' 2>/dev/null || echo "0"); hw=${hw//[^0-9]/}; hw=${hw:-0}
+  # quality: puffery / hollow modifiers (English equivalents per EDITORIAL §5)
+  local hw; hw=$(echo "$body" | grep -ciE 'indispensable|profound impact|plays a crucial role|cannot be overlooked|inextricably linked|unique charm|rich tapestry|vibrant community|hidden gem' 2>/dev/null || echo "0"); hw=${hw//[^0-9]/}; hw=${hw:-0}
   (( hw >= 3 )) && ((hs++))
 
   # quality: too few prose lines
   local pr; pr=$(echo "$body" | grep -cvE '^#|^$|^-|^\*|^>|^\|' 2>/dev/null || echo "0"); pr=${pr//[^0-9]/}; pr=${pr:-0}
   (( pr < 10 )) && ((hs++))
 
-  # quality: formulaic sentence patterns (zh-TW content pattern)
-  local pl; pl=$(echo "$body" | grep -cE '不是.*而是|不僅是.*更是|從.*到.*從.*到|展現了.*也體現了' 2>/dev/null || echo "0"); pl=${pl//[^0-9]/}; pl=${pl:-0}
-  (( pl >= 1 )) && ((hs++))
-
   # quality: em-dash overuse
-  local ds; ds=$(echo "$body" | grep -o '——' 2>/dev/null | wc -l | tr -d ' \n'); ds=${ds//[^0-9]/}; ds=${ds:-0}
-  (( ds > 4 )) && ((hs++))
+  local ds; ds=$(echo "$body" | grep -o ' — ' 2>/dev/null | wc -l | tr -d ' \n'); ds=${ds//[^0-9]/}; ds=${ds:-0}
+  (( ds > 6 )) && ((hs++))
 
-  # quality: textbook-style opening (zh-TW content pattern)
-  echo "$body" | head -1 | grep -qE '^(台灣的|作為台灣|在台灣的)' 2>/dev/null && ((hs++))
-
-  # quality: cliche ending (zh-TW content pattern)
-  echo "$body" | tail -5 | grep -qE '總之|展望未來|綜上所述' 2>/dev/null && ((hs++))
+  # quality: cliche ending
+  echo "$body" | tail -5 | grep -qiE 'in conclusion|looking ahead|all in all|to sum up' 2>/dev/null && ((hs++))
 
   # quality result
   local hs_label=""
@@ -137,13 +124,9 @@ layer2() {
   else hs_label="🔴 quality $hs"; echo "$hs_label"; return 1
   fi
 
-  # char count
+  # char count (LB articles are English)
   local cc; cc=$(echo "$body" | wc -m | tr -d ' \n'); cc=${cc//[^0-9]/}; cc=${cc:-0}
-  if [[ "$f" =~ /en/|/es/|/ja/|/ko/ ]]; then
-    (( cc < 2500 )) && wrn+=("too short ${cc}ch")
-  else
-    (( cc < 3000 )) && wrn+=("too short ${cc}ch")
-  fi
+  (( cc < 2500 )) && wrn+=("too short ${cc}ch")
 
   # H2
   local h2; h2=$(grep -c '^## ' "$f" 2>/dev/null || echo 0); h2=${h2//[^0-9]/}; h2=${h2:-0}
@@ -169,14 +152,14 @@ layer3() {
   local wrn=()
   local body; body=$(awk '/^---$/{n++; next} n>=2 && NF{print}' "$f" 2>/dev/null)
 
-  # textbook-style opening (zh-TW content pattern)
-  echo "$body" | head -1 | grep -qE '^(台灣的|作為|在台灣)' 2>/dev/null && wrn+=("textbook opening")
+  # textbook-style opening
+  echo "$body" | head -1 | grep -qiE '^(Laguna Beach is a|As a coastal|Located in)' 2>/dev/null && wrn+=("textbook opening")
 
-  # quotes
-  grep -q '「' "$f" 2>/dev/null || wrn+=("missing quotes")
+  # quotes (English uses " or block quotes)
+  grep -qE '"|^>' "$f" 2>/dev/null || wrn+=("missing quotes")
 
-  # cliche ending (zh-TW content pattern)
-  tail -10 "$f" | grep -qE '總之|展望未來|隨著.*的發展|綜上所述' 2>/dev/null && wrn+=("cliche ending")
+  # cliche ending
+  tail -10 "$f" | grep -qiE 'in conclusion|looking ahead|as .* continues to|all in all' 2>/dev/null && wrn+=("cliche ending")
 
   # source count
   local refs; refs=$(grep -c 'http' "$f" 2>/dev/null || echo 0); refs=${refs//[^0-9]/}; refs=${refs:-0}
@@ -203,13 +186,13 @@ layer4() {
   local wrn=()
   local body; body=$(awk '/^---$/{n++; next} n>=2{print}' "$f" 2>/dev/null)
 
-  # 30-second overview (zh-TW content pattern)
-  echo "$body" | grep -qE '>\s*\*\*30\s*秒概覽|^## 30 秒概覽' 2>/dev/null || wrn+=("missing 30-sec overview")
+  # at-a-glance overview (LB convention per EDITORIAL)
+  echo "$body" | grep -qiE '>\s*\*\*At a [Gg]lance|^## At a [Gg]lance' 2>/dev/null || wrn+=("missing At a Glance overview")
 
-  # ## References heading (only if has footnotes; zh-TW content pattern)
+  # ## References heading (only if has footnotes)
   local fns; fns=$(grep -cE '^\[\^[0-9a-zA-Z_-]+\]:' "$f" 2>/dev/null || echo 0); fns=${fns//[^0-9]/}
   if (( fns > 0 )); then
-    echo "$body" | grep -qE '^## 參考資料' 2>/dev/null || wrn+=("has footnotes but missing ## References")
+    echo "$body" | grep -qE '^## References' 2>/dev/null || wrn+=("has footnotes but missing ## References")
   fi
 
   # residual wikilinks

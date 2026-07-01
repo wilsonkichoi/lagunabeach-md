@@ -82,7 +82,7 @@ def normalize_path(path: str) -> str:
 
 
 def clean_title(title: str) -> str:
-    return (title or "").replace(" | LagunaBeach.md", "").replace(" | Taiwan.md", "").strip()
+    return (title or "").replace(" | LagunaBeach.md", "").strip()
 
 
 # Language detection from URL path prefix.
@@ -252,11 +252,11 @@ def build_ga_section(ga_raw):
 
 
 BRAND_QUERY_PATTERNS = [
-    r"taiwan\.md",
-    r"\btaiwan\s*md\b",
-    r"\bmd\s*taiwan\b",
+    r"lagunabeach\.md",
+    r"\blaguna\s*beach\s*md\b",
+    r"\bmd\s*laguna\b",
     r"^\s*md\s*$",  # exact "md"
-    r"taiwandotmd",
+    r"lagunabeachmd",
 ]
 
 

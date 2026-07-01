@@ -278,28 +278,41 @@ reading tool source. Execute via `/lb-implement` + `/lb-review`, batched by grou
 
 1. **Read and understand** what the script does, what data it operates on, and
    whether its logic is LB-relevant or Taiwan-only dead code.
-2. **Decide disposition:** translate (universal infra), delete (Taiwan-only with
-   no LB equivalent, per the Horizon 0.45 reassessment pattern), or keep-dormant
-   (will activate when a capability lands, per §7 gated-skill table).
-3. **Translate** all Chinese comments, docstrings, print/log strings, argparse help
-   text, and error messages to English. Reground Taiwan-specific references
-   (taiwan.md domain, @taiwandotmd handles, CheYu name refs) to LB equivalents.
-4. **Keep CJK** only in regex patterns and data-matching strings that parse actual
-   zh-TW article content (see "What counts as done" below).
-5. **Verify** no syntax errors (`python3 -c "import py_compile; ..."` for .py,
+2. **Decide disposition per element** (not just per file):
+   - **Translate** comments/docstrings/UI strings to English.
+   - **Port** logic that serves a valid LB purpose but has Taiwan-specific values
+     (e.g. brand-query patterns matching "taiwan.md" -> "lagunabeach.md"; category
+     lists matching Taiwan's 13 categories -> LB's 8; quality-check regexes detecting
+     Chinese antipatterns -> equivalent English antipatterns).
+   - **Delete** logic that detects a problem impossible in LB content and has no
+     English equivalent (e.g. simplified-Chinese detector on English-only articles).
+   - **Keep CJK** ONLY in patterns that parse actual zh-TW content that exists in
+     this repo (e.g. regex matching a `knowledge/` markdown heading that is still
+     in Chinese). If the content those patterns match does not exist in LB, the
+     pattern is dead code, not a "KEEP".
+3. **Reground** Taiwan-specific references (taiwan.md domain, @taiwandotmd handles,
+   CheYu name refs, Taiwan categories) to LB equivalents.
+4. **Verify** no syntax errors (`python3 -c "import py_compile; ..."` for .py,
    prettier for .mjs/.js, `bash -n` for .sh). Build-verify after each group.
 
 Do NOT do a mechanical dictionary substitution (the 2026-06-30 attempt broke 43
 files by corrupting indentation inside docstrings). Each file needs contextual
 reading — a Chinese sentence is not a bag of replaceable words.
 
-**What counts as "done" for CJK remaining after translation:**
+**The judgment test for every CJK line:** "Will this code ever fire on LB content
+as it exists or will exist?" If no, it's dead code — port or delete. "CJK in
+regex" is not automatically KEEP; it depends on whether the regex has a job to do.
+
+**What counts as legitimate remaining CJK:**
 
 - `displayName: '中文'` and other i18n language display names
-- Regex patterns matching Chinese content (e.g. `r"延伸閱讀"` matching md headings)
-- Column headers in `row.get("日期")` matching actual data table columns
-- Chinese article names in code examples/comments (e.g. `--slug 李洋`)
+- Regex patterns matching zh-TW content THAT STILL EXISTS in `knowledge/` (e.g.
+  `r"延伸閱讀"` matching a heading in a zh-TW article file we actually ship)
+- Column headers in `row.get("日期")` matching actual data table columns in files
+  that are still zh-TW formatted
 - `nameZh` data properties for dashboard organ rendering
+- Translation prompts/examples that describe how to translate FROM Chinese (the
+  translation toolchain's job IS to process Chinese content)
 
 ---
 
