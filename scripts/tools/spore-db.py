@@ -1,32 +1,32 @@
 #!/usr/bin/env python3
-"""spore-db.py — 孢子結構資料 SSOT 的唯一寫入工具。
+"""spore-db.py — Spore structured data SSOT write tool.
 
 SSOT files (reports/spore-json-ssot-2026-06-10.md):
   docs/factory/spore-log.json      identity registry — append at publish
   docs/factory/spore-metrics.json  metric event stream — append at harvest
 
-Replaces hand-editing SPORE-LOG.md markdown tables (frozen ≤ historical ids,
+Replaces hand-editing SPORE-LOG.md markdown tables (frozen <= historical ids,
 2026-06-10). Narrative stays in SPORE-HARVESTS/*.md + SPORE-BLUEPRINTS/*.
 
 Subcommands:
-  add-spore    --date 2026-06-11 --platform threads --slug 文章slug --url URL
+  add-spore    --date 2026-06-11 --platform threads --slug articleSlug --url URL
                [--lang zh] [--category music] [--template 'A2 ...']
-               [--highlight 'ship 一句話'] [--id N]
-               → assigns next id, prints it. Run once per platform post.
+               [--highlight 'one-line note'] [--id N]
+               -> assigns next id, prints it. Run once per platform post.
   add-metrics  --spore N --d-plus N --batch batch-2026-06-11-x [--at 'YYYY-MM-DD HH:MM']
                [--views 1.4K] [--likes 369] [--reposts 39] [--comments 21] [--shares 45]
                [--source harvest]
-               → appends one harvest event. Numbers accept K/M suffix.
+               -> appends one harvest event. Numbers accept K/M suffix.
                Same (spore, batch, dPlus) replaces (idempotent re-harvest).
-  last-spore   --article SLUG → JSON {lastDate, daysAgo, ids}; exit 3 if none.
-               For PICK HG5 / PUBLISH ≥2週 查重.
-  check        → schema + uniqueness + cross-ref validation. exit 2 on error.
+  last-spore   --article SLUG -> JSON {lastDate, daysAgo, ids}; exit 3 if none.
+               For PICK HG5 / PUBLISH >=2-week dedup.
+  check        -> schema + uniqueness + cross-ref validation. exit 2 on error.
 
   top          [--by views|likes|reposts|comments|shares|engagement] [--limit N]
                [--platform threads|x|...] [--since YYYY-MM-DD] [--article SLUG] [--json]
-               → rank spores by peak metric (join log identity + metrics peak).
+               -> rank spores by peak metric (join log identity + metrics peak).
                engagement = (likes+reposts+comments+shares) / views. Read-only.
-  show         --spore N → identity + full metric event history (read-only).
+  show         --spore N -> identity + full metric event history (read-only).
 
 2026-06-10 | spore JSON SSOT flip
 2026-06-19 | + read side (top / show) — query without hand-rolling joins
@@ -58,7 +58,7 @@ def parse_count(v):
         return None
     m = re.match(r"^([\d.]+)([KkMm]?)$", s)
     if not m:
-        raise ValueError(f"無法解析數字: {v!r}")
+        raise ValueError(f"Cannot parse number: {v!r}")
     n = float(m.group(1))
     suf = m.group(2).upper()
     if suf == "K":
@@ -91,24 +91,24 @@ def cmd_add_spore(args):
     spores = data["spores"]
 
     if not re.match(r"^\d{4}-\d{2}-\d{2}$", args.date):
-        print(f"❌ --date 格式需 YYYY-MM-DD: {args.date}", file=sys.stderr)
+        print(f"❌ --date format must be YYYY-MM-DD: {args.date}", file=sys.stderr)
         return 2
     if args.platform not in PLATFORMS:
-        print(f"❌ --platform 需為 {sorted(PLATFORMS)}: {args.platform}", file=sys.stderr)
+        print(f"❌ --platform must be one of {sorted(PLATFORMS)}: {args.platform}", file=sys.stderr)
         return 2
     if args.url:
         if "?" in args.url:
-            print(f"❌ URL 帶 query string，先剝掉（SPORE-PIPELINE §URL 乾淨化）: {args.url}",
+            print(f"❌ URL has query string, strip it first (SPORE-PIPELINE §URL cleanup): {args.url}",
                   file=sys.stderr)
             return 2
         dup = next((s for s in spores if s.get("url") == args.url), None)
         if dup:
-            print(f"❌ URL 已存在於 #{dup['id']}", file=sys.stderr)
+            print(f"❌ URL already exists in #{dup['id']}", file=sys.stderr)
             return 2
 
     sid = args.id if args.id else (max((s["id"] for s in spores), default=0) + 1)
     if any(s["id"] == sid for s in spores):
-        print(f"❌ id #{sid} 已存在", file=sys.stderr)
+        print(f"❌ id #{sid} already exists", file=sys.stderr)
         return 2
 
     # category auto-resolve from knowledge/ when omitted
@@ -135,7 +135,7 @@ def cmd_add_spore(args):
     spores.sort(key=lambda s: s["id"])
     _save(LOG_PATH, data)
     print(f"✓ spore #{sid} → spore-log.json ({args.platform} / {args.slug})")
-    print(f"  下一步：sync-spore-links.py --apply 會把 identity pointer 長進文章 frontmatter")
+    print(f"  Next: sync-spore-links.py --apply will write identity pointer into article frontmatter")
     print(sid)
     return 0
 
@@ -145,7 +145,7 @@ def cmd_add_spore(args):
 def cmd_add_metrics(args):
     log = _load(LOG_PATH, "spores")
     if not any(s["id"] == args.spore for s in log["spores"]):
-        print(f"❌ spore #{args.spore} 不在 spore-log.json — 先 add-spore", file=sys.stderr)
+        print(f"❌ spore #{args.spore} not in spore-log.json — run add-spore first", file=sys.stderr)
         return 2
 
     data = _load(METRICS_PATH, "events")
@@ -156,7 +156,7 @@ def cmd_add_metrics(args):
         print(f"❌ {e}", file=sys.stderr)
         return 2
     if all(v is None for v in nums.values()):
-        print("❌ 至少給一個指標（--views/--likes/--reposts/--comments/--shares）",
+        print("❌ At least one metric required (--views/--likes/--reposts/--comments/--shares)",
               file=sys.stderr)
         return 2
 
@@ -184,7 +184,7 @@ def cmd_add_metrics(args):
     shown = " ".join(f"{k}={v}" for k, v in nums.items() if v is not None)
     print(f"✓ #{args.spore} D+{args.d_plus} {shown} → spore-metrics.json"
           f"{' (replaced)' if replaced else ''}")
-    print(f"  下一步：generate-spore-records.py 重生 spores.json（refresh Step 4 / prebuild 自動跑）")
+    print(f"  Next: generate-spore-records.py regenerates spores.json (refresh Step 4 / prebuild runs automatically)")
     return 0
 
 
@@ -213,29 +213,29 @@ def cmd_check(_args):
 
     ids = [s.get("id") for s in log["spores"]]
     if len(ids) != len(set(ids)):
-        errors.append("spore-log.json: id 重複")
+        errors.append("spore-log.json: duplicate id")
     urls = [s["url"] for s in log["spores"] if s.get("url")]
     dupes = {u for u in urls if urls.count(u) > 1}
     if dupes:
-        errors.append(f"spore-log.json: URL 重複 {sorted(dupes)[:3]}")
+        errors.append(f"spore-log.json: duplicate URL {sorted(dupes)[:3]}")
     for s in log["spores"]:
         for field in ("id", "date", "platform", "slug"):
             if s.get(field) in (None, ""):
-                warnings.append(f"#{s.get('id', '?')} 缺 {field}")
+                warnings.append(f"#{s.get('id', '?')} missing {field}")
                 break
         if s.get("date") and not re.match(r"^\d{4}-\d{2}-\d{2}$", s["date"]):
-            errors.append(f"#{s['id']} date 格式錯: {s['date']}")
+            errors.append(f"#{s['id']} bad date format: {s['date']}")
 
     id_set = set(ids)
     for e in metrics["events"]:
         if e.get("spore") not in id_set:
-            errors.append(f"spore-metrics.json: event 指向不存在的 #{e.get('spore')}")
+            errors.append(f"spore-metrics.json: event references non-existent #{e.get('spore')}")
         if all(e.get(k) is None for k in METRIC_KEYS):
-            warnings.append(f"#{e.get('spore')} {e.get('batch')}: 全空 event")
+            warnings.append(f"#{e.get('spore')} {e.get('batch')}: all-empty event")
 
     keys = [(e["spore"], e.get("batch"), e.get("dPlus")) for e in metrics["events"]]
     if len(keys) != len(set(keys)):
-        errors.append("spore-metrics.json: (spore, batch, dPlus) 重複")
+        errors.append("spore-metrics.json: duplicate (spore, batch, dPlus)")
 
     for msg in errors:
         print(f"❌ {msg}")
@@ -341,7 +341,7 @@ def cmd_show(args):
     metrics = _load(METRICS_PATH, "events")
     s = next((x for x in log["spores"] if x["id"] == args.spore), None)
     if not s:
-        print(f"❌ spore #{args.spore} 不在 spore-log.json", file=sys.stderr)
+        print(f"❌ spore #{args.spore} not in spore-log.json", file=sys.stderr)
         return 3
     events = [e for e in metrics["events"] if e.get("spore") == args.spore]
     events.sort(key=lambda e: (e.get("dPlus") if e.get("dPlus") is not None else -1,
@@ -369,47 +369,47 @@ def main():
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
 
-    a = sub.add_parser("add-spore", help="發孢子後登錄 identity（每平台一筆）")
-    a.add_argument("--id", type=int, default=None, help="顯式 id（預設 max+1）")
+    a = sub.add_parser("add-spore", help="Register identity after publishing (one per platform)")
+    a.add_argument("--id", type=int, default=None, help="Explicit id (default: max+1)")
     a.add_argument("--date", required=True)
     a.add_argument("--lang", default="zh")
     a.add_argument("--platform", required=True)
-    a.add_argument("--slug", required=True, help="文章 slug（knowledge 檔名）")
+    a.add_argument("--slug", required=True, help="Article slug (knowledge filename)")
     a.add_argument("--category", default=None)
     a.add_argument("--template", default=None)
     a.add_argument("--url", default=None)
-    a.add_argument("--highlight", default=None, help="ship 一句話備註")
+    a.add_argument("--highlight", default=None, help="One-line ship note")
     a.set_defaults(fn=cmd_add_spore)
 
-    m = sub.add_parser("add-metrics", help="harvest 後 append 一筆 metric 事件")
+    m = sub.add_parser("add-metrics", help="Append one metric event after harvest")
     m.add_argument("--spore", type=int, required=True)
     m.add_argument("--d-plus", type=int, required=True)
-    m.add_argument("--at", default=None, help="預設現在（TPE wall-clock）")
-    m.add_argument("--batch", required=True, help="SPORE-HARVESTS batch 檔名（不含 .md）")
+    m.add_argument("--at", default=None, help="Default: now (TPE wall-clock)")
+    m.add_argument("--batch", required=True, help="SPORE-HARVESTS batch filename (without .md)")
     for k in METRIC_KEYS:
         m.add_argument(f"--{k}", default=None)
     m.add_argument("--source", default="harvest")
     m.set_defaults(fn=cmd_add_metrics)
 
-    l = sub.add_parser("last-spore", help="查文章最近一次發孢子（≥2週 gate 用）")
+    l = sub.add_parser("last-spore", help="Query last spore date for an article (>=2-week gate)")
     l.add_argument("--article", required=True)
     l.set_defaults(fn=cmd_last_spore)
 
-    c = sub.add_parser("check", help="schema + 一致性驗證")
+    c = sub.add_parser("check", help="Schema + consistency validation")
     c.set_defaults(fn=cmd_check)
 
-    t = sub.add_parser("top", help="排名孢子（peak metric，read-only）")
+    t = sub.add_parser("top", help="Rank spores by peak metric (read-only)")
     t.add_argument("--by", default="views",
                    choices=["views", "likes", "reposts", "comments", "shares",
                             "engagement"])
     t.add_argument("--limit", type=int, default=15)
     t.add_argument("--platform", default=None)
-    t.add_argument("--since", default=None, help="只看此日期(含)之後發的孢子 YYYY-MM-DD")
-    t.add_argument("--article", default=None, help="只看某 slug")
+    t.add_argument("--since", default=None, help="Only spores on or after this date YYYY-MM-DD")
+    t.add_argument("--article", default=None, help="Only this slug")
     t.add_argument("--json", action="store_true")
     t.set_defaults(fn=cmd_top)
 
-    sh = sub.add_parser("show", help="單一孢子 identity + metric 歷史（read-only）")
+    sh = sub.add_parser("show", help="Single spore identity + metric history (read-only)")
     sh.add_argument("--spore", type=int, required=True)
     sh.add_argument("--json", action="store_true")
     sh.set_defaults(fn=cmd_show)

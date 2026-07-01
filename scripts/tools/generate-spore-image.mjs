@@ -1,36 +1,36 @@
 #!/usr/bin/env node
 /**
- * generate-spore-image.mjs — 產出社群孢子用附圖
+ * generate-spore-image.mjs — Generate social spore images
  *
- * 原理：
- *   1. 開文章頁 `?shot=1` 模式（hero only、無 nav/footer/body）
- *   2. 等 justfont SDK 真的把 `jf-lanyanghei` 注入到 `.hero-title`
- *      否則截出來會是 fallback 字體
- *   3. screenshot 整個 viewport 存 PNG
+ * How it works:
+ *   1. Opens article page in `?shot=1` mode (hero only, no nav/footer/body)
+ *   2. Waits for justfont SDK to inject `jf-lanyanghei` into `.hero-title`
+ *      (otherwise screenshot captures fallback font)
+ *   3. Screenshots the full viewport and saves as PNG
  *
- * 註：原本等 `rixingsong-semibold`，但 2026-05-04 發現 justfont CDN 該檔
- * woff binary 壞掉（FontFace API reject），所以 .hero-title 改 fallback
- * 到 lanyanghei-extraheavy（與一般 h1 同字體）。等 justfont 修好可改回。
+ * Note: Originally waited for `rixingsong-semibold`, but 2026-05-04 discovered
+ * justfont CDN woff binary was broken (FontFace API reject), so .hero-title
+ * falls back to lanyanghei-extraheavy (same font as regular h1).
  *
- * REFLEXES #26 v2 合規：AI 自主生圖屬「內部處理」，Post 到 Threads/X 仍然
- * 是 human only。本腳本只產檔不發文。
+ * REFLEXES #26 v2: AI image generation is internal processing; posting to
+ * Threads/X remains human-only. This script only produces files, does not post.
  *
- * 用法：
- *   node scripts/tools/generate-spore-image.mjs --path /people/李洋/
- *   node scripts/tools/generate-spore-image.mjs --path /music/台灣民歌運動/ --size square
- *   node scripts/tools/generate-spore-image.mjs --url https://taiwan.md/lifestyle/台灣高鐵/ --out /tmp/x.png
+ * Usage:
+ *   node scripts/tools/generate-spore-image.mjs --path /art/festival-of-arts/
+ *   node scripts/tools/generate-spore-image.mjs --path /history/art-colony/ --size square
+ *   node scripts/tools/generate-spore-image.mjs --url https://lagunabeach.md/art/pageant/ --out /tmp/x.png
  *
  * Options:
- *   --path <articlePath>  文章路徑（/category/slug/），會自動接到 --base
- *   --url <fullUrl>       完整 URL（會蓋過 --path 與 --base）
- *   --base <baseUrl>      預設 http://localhost:4321；production 用 https://taiwan.md
- *   --prod                捷徑：base = https://taiwan.md（不用 dev server）
- *   --size landscape|square|vertical  預設 landscape (1600×900)
- *   --title <str>         覆蓋文章 title（shot mode 用，不動 SSOT）
- *   --desc <str>          覆蓋文章 description（shot mode 用）
- *   --out <filePath>      輸出檔名。預設 public/spore-images/<slug>-<size>.png
- *   --timeout <ms>        等 justfont 的 timeout，預設 15000ms
- *   --no-font-wait        跳過 justfont 等待（debug 用）
+ *   --path <articlePath>  Article path (/category/slug/), auto-appended to --base
+ *   --url <fullUrl>       Full URL (overrides --path and --base)
+ *   --base <baseUrl>      Default http://localhost:4321; production: https://lagunabeach.md
+ *   --prod                Shortcut: base = https://lagunabeach.md (skip dev server)
+ *   --size landscape|square|vertical  Default landscape (1600x900)
+ *   --title <str>         Override article title (shot mode only, does not touch SSOT)
+ *   --desc <str>          Override article description (shot mode only)
+ *   --out <filePath>      Output filename. Default: public/spore-images/<slug>-<size>.png
+ *   --timeout <ms>        Justfont wait timeout, default 15000ms
+ *   --no-font-wait        Skip justfont wait (for debugging)
  */
 
 import { chromium } from 'playwright';
@@ -50,7 +50,8 @@ const articlePath = getArg('--path');
 const fullUrl = getArg('--url');
 const useProd = hasFlag('--prod');
 const base =
-  getArg('--base') || (useProd ? 'https://taiwan.md' : 'http://localhost:4321');
+  getArg('--base') ||
+  (useProd ? 'https://lagunabeach.md' : 'http://localhost:4321');
 const size = getArg('--size') || 'landscape';
 const titleOverride = getArg('--title');
 const descOverride = getArg('--desc');
@@ -61,14 +62,14 @@ let outPath = getArg('--out');
 if (!fullUrl && !articlePath) {
   console.error('Error: need --path <articlePath> or --url <fullUrl>');
   console.error(
-    'Example: node scripts/tools/generate-spore-image.mjs --path /people/李洋/',
+    'Example: node scripts/tools/generate-spore-image.mjs --path /art/festival-of-arts/',
   );
   process.exit(2);
 }
 
 const SIZES = {
-  landscape: { w: 1600, h: 900 }, // 16:9, X/Threads feed friendly, closest to CheYu's current habit
-  square: { w: 1080, h: 1080 }, // Threads 預覽不裁切
+  landscape: { w: 1600, h: 900 }, // 16:9, X/Threads feed friendly
+  square: { w: 1080, h: 1080 }, // Threads preview without cropping
   vertical: { w: 1080, h: 1350 }, // 4:5, Instagram/Threads best for portrait
 };
 
@@ -89,7 +90,7 @@ if (fullUrl) {
   if (descOverride) u.searchParams.set('desc', descOverride);
   target = u.toString();
 } else {
-  // articlePath like /people/李洋/  (may already be URL-encoded or not)
+  // articlePath like /art/festival-of-arts/  (may already be URL-encoded or not)
   const clean = articlePath.startsWith('/') ? articlePath : '/' + articlePath;
   const encoded = clean
     .split('/')

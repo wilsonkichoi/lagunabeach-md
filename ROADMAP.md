@@ -252,7 +252,7 @@ reading tool source. Execute via `/lb-implement` + `/lb-review`, batched by grou
       fetch-sense-data, cf-query, ga-query, ga-window-compare, sc-query,
       sense-diff, converter-analytics, converter-demand, register-ga4-custom-dims,
       generate-dashboard-analytics, referral-attribution.
-- [ ] **Group 4: spore + social tools** (~15 files, ~350 lines)
+- [x] **Group 4: spore + social tools** (~15 files, ~350 lines)
       spore-db, bootstrap-spore-ssot, generate-spore-image, make-spore,
       spore-content-hash-audit, validate-spore-data, migrate-spore-log-to-harvests,
       sync-spore-links (partial done), manage-featured.

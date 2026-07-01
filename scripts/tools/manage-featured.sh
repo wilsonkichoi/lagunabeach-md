@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Taiwan.md Featured 文章統一管控工具
-# 管理 knowledge/ 目錄下文章的 featured: true 設定
+# Featured article management tool
+# Manages featured: true settings in knowledge/ articles
 
 set -euo pipefail
 
-# 顏色定義
+# Color definitions
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
@@ -14,83 +14,83 @@ NC='\033[0m' # No Color
 
 KNOWLEDGE_DIR="knowledge"
 
-# 使用說明
+# Usage
 usage() {
-    echo -e "${BLUE}🏆 Taiwan.md Featured 文章管控工具${NC}"
+    echo -e "${BLUE}🏆 Featured Article Management Tool${NC}"
     echo ""
-    echo "用法: $0 <command> [arguments]"
+    echo "Usage: $0 <command> [arguments]"
     echo ""
-    echo "指令:"
-    echo "  list                    - 列出所有 featured 文章"
-    echo "  set <文章路徑>           - 設定文章為 featured"
-    echo "  unset <文章路徑>         - 取消文章的 featured 狀態"
-    echo "  audit                   - 檢查 featured 數量分佈"
+    echo "Commands:"
+    echo "  list                    - List all featured articles"
+    echo "  set <article-path>      - Set an article as featured"
+    echo "  unset <article-path>    - Remove featured status from an article"
+    echo "  audit                   - Check featured distribution across categories"
     echo ""
-    echo "範例:"
+    echo "Examples:"
     echo "  $0 list"
-    echo "  $0 set knowledge/Culture/台灣夜市文化.md"
-    echo "  $0 unset knowledge/Music/台灣搖滾樂發展史.md"
+    echo "  $0 set knowledge/History/laguna-beach-art-colony.md"
+    echo "  $0 unset knowledge/Art/festival-of-arts.md"
     echo "  $0 audit"
 }
 
-# 列出所有 featured 文章
+# List all featured articles
 list_featured() {
-    echo -e "${BLUE}📋 所有 Featured 文章列表${NC}"
+    echo -e "${BLUE}📋 All Featured Articles${NC}"
     echo "======================================"
-    
+
     local count=0
     local current_category=""
-    
-    # 按分類排序顯示
+
+    # Display sorted by category
     grep -r "featured: true" "$KNOWLEDGE_DIR" | \
         sort | \
         while IFS=':' read -r file _; do
             ((count++))
             
-            # 提取分類名稱
+            # Extract category name
             local category=$(dirname "$file" | sed "s|$KNOWLEDGE_DIR/||" | sed 's|^en/||' | cut -d'/' -f1)
-            
+
             if [[ "$category" != "$current_category" ]]; then
                 echo -e "\n${YELLOW}📂 $category${NC}"
                 current_category="$category"
             fi
-            
-            # 提取文章標題（從檔名）
+
+            # Extract article title (from filename)
             local title=$(basename "$file" .md)
             echo -e "  ✨ $title"
-            echo -e "     ${BLUE}檔案: $file${NC}"
+            echo -e "     ${BLUE}File: $file${NC}"
     done
-    
+
     local total=$(grep -r "featured: true" "$KNOWLEDGE_DIR" | wc -l)
     echo ""
-    echo -e "${GREEN}📊 總計: $total 篇 featured 文章${NC}"
+    echo -e "${GREEN}📊 Total: $total featured articles${NC}"
 }
 
-# 設定文章為 featured
+# Set an article as featured
 set_featured() {
     local file_path="$1"
-    
+
     if [[ ! -f "$file_path" ]]; then
-        echo -e "${RED}❌ 檔案不存在: $file_path${NC}"
+        echo -e "${RED}❌ File not found: $file_path${NC}"
         exit 1
     fi
-    
-    # 檢查是否已經是 featured
+
+    # Check if already featured
     if grep -q "featured: true" "$file_path"; then
-        echo -e "${YELLOW}⚠️  文章已經是 featured 狀態: $file_path${NC}"
+        echo -e "${YELLOW}⚠️  Article is already featured: $file_path${NC}"
         return
     fi
-    
-    # 在 frontmatter 中加入 featured: true
+
+    # Add featured: true to frontmatter
     if grep -q "^---$" "$file_path"; then
-        # 在第二個 --- 之前插入 featured: true
+        # Insert featured: true before closing ---
         sed -i '' '/^---$/,/^---$/{
             /^---$/!{
                 /featured:/d
             }
         }' "$file_path"
         
-        # 在第二個 --- 之前加入 featured: true
+        # Add featured: true before second ---
         awk '
         /^---$/ && NR==1 { print; next }
         /^---$/ && seen_first { print "featured: true"; print; next }
@@ -98,51 +98,51 @@ set_featured() {
         { print }
         ' "$file_path" > "${file_path}.tmp" && mv "${file_path}.tmp" "$file_path"
         
-        echo -e "${GREEN}✅ 已設定 featured: $file_path${NC}"
+        echo -e "${GREEN}✅ Set featured: $file_path${NC}"
     else
-        echo -e "${RED}❌ 檔案缺少 frontmatter: $file_path${NC}"
+        echo -e "${RED}❌ File missing frontmatter: $file_path${NC}"
         exit 1
     fi
 }
 
-# 取消文章的 featured 狀態
+# Remove featured status from an article
 unset_featured() {
     local file_path="$1"
-    
+
     if [[ ! -f "$file_path" ]]; then
-        echo -e "${RED}❌ 檔案不存在: $file_path${NC}"
+        echo -e "${RED}❌ File not found: $file_path${NC}"
         exit 1
     fi
-    
-    # 檢查是否為 featured
+
+    # Check if article is featured
     if ! grep -q "featured: true" "$file_path"; then
-        echo -e "${YELLOW}⚠️  文章本來就不是 featured 狀態: $file_path${NC}"
+        echo -e "${YELLOW}⚠️  Article is not featured: $file_path${NC}"
         return
     fi
-    
-    # 移除 featured: true 行
+
+    # Remove featured: true line
     sed -i '' '/^featured: true$/d' "$file_path"
-    
-    echo -e "${GREEN}✅ 已取消 featured: $file_path${NC}"
+
+    echo -e "${GREEN}✅ Removed featured: $file_path${NC}"
 }
 
-# 審計 featured 文章分佈
+# Audit featured article distribution
 audit_featured() {
-    echo -e "${BLUE}📊 Featured 文章分佈審計${NC}"
+    echo -e "${BLUE}📊 Featured Article Distribution Audit${NC}"
     echo "======================================"
-    
+
     local total_featured=0
     local total_articles=0
-    
-    echo -e "${YELLOW}各分類 Featured 文章統計：${NC}"
+
+    echo -e "${YELLOW}Featured articles per category:${NC}"
     echo ""
-    
-    # 統計各分類的 featured 文章數量
+
+    # Count featured articles per category
     for category_dir in "$KNOWLEDGE_DIR"/*/ ; do
         if [[ -d "$category_dir" ]]; then
             local category=$(basename "$category_dir")
             
-            # 跳過英文版本和特殊目錄
+            # Skip language dirs and special dirs
             if [[ "$category" == "en" || "$category" == "About" ]]; then
                 continue
             fi
@@ -158,7 +158,7 @@ audit_featured() {
             total_featured=$((total_featured + featured_count))
             total_articles=$((total_articles + total_count))
             
-            # 根據比例給出顏色提示
+            # Color based on ratio
             local color=""
             if [[ $featured_count -eq 0 ]]; then
                 color="${RED}"
@@ -175,49 +175,49 @@ audit_featured() {
     done
     
     echo ""
-    echo -e "${BLUE}總計統計：${NC}"
+    echo -e "${BLUE}Summary:${NC}"
     local overall_percentage=$((total_featured * 100 / total_articles))
-    echo -e "📊 Featured 文章: $total_featured/$total_articles ($overall_percentage%)"
+    echo -e "📊 Featured articles: $total_featured/$total_articles ($overall_percentage%)"
     echo ""
-    
-    echo -e "${YELLOW}建議：${NC}"
-    echo "• 建議每個分類保持 1-2 篇 featured 文章"
-    echo "• featured 文章應該是該分類最具代表性的內容"
-    echo "• 總體 featured 比例建議控制在 5-10%"
+
+    echo -e "${YELLOW}Guidelines:${NC}"
+    echo "• Keep 1-2 featured articles per category"
+    echo "• Featured articles should be the most representative content in each category"
+    echo "• Overall featured ratio should stay between 5-10%"
     echo ""
-    
+
     if [[ $overall_percentage -gt 15 ]]; then
-        echo -e "${RED}⚠️  Featured 文章比例過高 ($overall_percentage%)，建議精簡${NC}"
+        echo -e "${RED}⚠️  Featured ratio too high ($overall_percentage%), consider reducing${NC}"
     elif [[ $overall_percentage -lt 3 ]]; then
-        echo -e "${YELLOW}⚠️  Featured 文章比例較低 ($overall_percentage%)，可適當增加${NC}"
+        echo -e "${YELLOW}⚠️  Featured ratio low ($overall_percentage%), consider adding more${NC}"
     else
-        echo -e "${GREEN}✅ Featured 文章比例適中 ($overall_percentage%)${NC}"
+        echo -e "${GREEN}✅ Featured ratio is healthy ($overall_percentage%)${NC}"
     fi
 }
 
-# 主程式
+# Main
 main() {
     if [[ $# -eq 0 ]]; then
         usage
         exit 1
     fi
-    
+
     case "$1" in
         "list")
             list_featured
             ;;
         "set")
             if [[ $# -ne 2 ]]; then
-                echo -e "${RED}❌ 錯誤：需要指定文章路徑${NC}"
-                echo "用法: $0 set <文章路徑>"
+                echo -e "${RED}❌ Error: article path required${NC}"
+                echo "Usage: $0 set <article-path>"
                 exit 1
             fi
             set_featured "$2"
             ;;
         "unset")
             if [[ $# -ne 2 ]]; then
-                echo -e "${RED}❌ 錯誤：需要指定文章路徑${NC}"
-                echo "用法: $0 unset <文章路徑>"
+                echo -e "${RED}❌ Error: article path required${NC}"
+                echo "Usage: $0 unset <article-path>"
                 exit 1
             fi
             unset_featured "$2"
@@ -226,12 +226,11 @@ main() {
             audit_featured
             ;;
         *)
-            echo -e "${RED}❌ 未知指令: $1${NC}"
+            echo -e "${RED}❌ Unknown command: $1${NC}"
             usage
             exit 1
             ;;
     esac
 }
 
-# 執行主程式
 main "$@"
