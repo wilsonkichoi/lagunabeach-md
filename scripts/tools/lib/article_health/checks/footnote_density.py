@@ -23,7 +23,7 @@ from ..types import FileTarget, Severity, Violation
 CHECK_NAME = "footnote-density"
 DIMENSION = "citation"
 DEFAULT_SEVERITY = Severity.WARN
-EDITORIAL_REF = "EDITORIAL.md §引用密度 A-F grading"
+EDITORIAL_REF = "EDITORIAL.md citation density A-F grading"
 APPLIES_TO = ["*"]
 
 _RE_DEF = re.compile(r"^\[\^[0-9a-zA-Z_-]+\]:", re.MULTILINE)
@@ -57,11 +57,11 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
         return  # healthy — no violation
 
     if grade == "C":
-        msg = f"腳註等級 C：無正式腳註但有 {url_count} 個 inline URL"
+        msg = f"footnote grade C: no formal footnotes but has {url_count} inline URLs"
     elif grade == "D":
-        msg = f"腳註等級 D：僅 {url_count} 個 URL，無正式腳註"
+        msg = f"footnote grade D: only {url_count} URLs, no formal footnotes"
     else:  # F
-        msg = "腳註等級 F：引用荒漠（零腳註、零 URL）"
+        msg = "footnote grade F: citation desert (zero footnotes, zero URLs)"
 
     yield Violation(
         check=CHECK_NAME,

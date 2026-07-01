@@ -45,12 +45,8 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parents[3]
 LANGS = ["en", "ja", "ko", "es", "fr"]
 
-# PRC-sensitive keyword pattern (title / category / tags hit → escalate)
-SENSITIVE_KEYWORDS = re.compile(
-    r"(政治|兩岸|台獨|國防|民主|主權|中華|統獨|228|二二八|戒嚴|白色恐怖|"
-    r"反送中|香港|西藏|新疆|維吾爾|抗中|認知作戰|解放軍|國共|心戰|"
-    r"民進黨|國民黨|時代力量|台灣民眾黨|台聯|新黨)"
-)
+# Sensitivity keyword pattern (LB has no political sensitivity concern; always returns False)
+SENSITIVE_KEYWORDS = None
 
 OLD_THRESHOLD_DAYS = 60
 
@@ -100,18 +96,8 @@ def classify_priority(row):
 
 
 def is_sensitive(zh_path):
-    """Test article path / title for PRC-sensitive keywords."""
-    if SENSITIVE_KEYWORDS.search(zh_path):
-        return True
-    full = REPO / "knowledge" / zh_path
-    if not full.exists():
-        return False
-    try:
-        text = full.read_text(encoding="utf-8")
-    except OSError:
-        return False
-    # Check first 1000 chars (title + frontmatter + opening)
-    return bool(SENSITIVE_KEYWORDS.search(text[:1000]))
+    """LB has no political-sensitivity routing concern. Always returns False."""
+    return False
 
 
 def article_size(zh_path):
