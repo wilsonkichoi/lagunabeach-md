@@ -2,19 +2,18 @@
 /**
  * triage-consolidate-2026-06-09.mjs — ONE-OFF consolidation run for 2026-06-09 feedback batch.
  *
- * 為什麼存在：本日 batch 有 12 筆同一讀者（Cs Gou）對同一篇文章（國家太空中心）的
- * section-by-section 勘誤。deterministic triage.mjs 會開 12 個「標題完全相同」的
- * [Fact Check] issue（batch-boundary dedupe gap：classify.mjs isDuplicate 的
- * `title === built.title` content-dedupe 只擋「跨 run 既有 open issue」，擋不住同 batch
- * 內 distinct body-sig 的同篇 content）。Pipeline 設計意圖本來就是「一篇文章一個 fact-check
- * issue」（見 classify.mjs:191），所以正確處置 = 把 12 筆合併成 1 個 issue（逐條 verbatim
- * + 各自 feedback id provenance），bug + idea 各自開。
+ * Why: this batch had 12 reports from one reader (Cs Gou) on one article (National Space Center),
+ * section-by-section corrections. Deterministic triage.mjs would open 12 identically-titled
+ * [Fact Check] issues (batch-boundary dedupe gap: classify.mjs isDuplicate title-match only blocks
+ * cross-run existing issues, not same-batch distinct body-sig same-article content). Pipeline design
+ * intent is "one fact-check issue per article" (see classify.mjs:191), so correct action = merge
+ * 12 into 1 issue (each item verbatim + individual feedback id provenance), bug + idea filed separately.
  *
- * 這支 script 重用 lib 函式（buildIssue / archive）保持 archive + provenance 格式一致。
- * 結構性 finding（pipeline 需內建 same-article content clustering）另走 handoff + LESSONS gate。
+ * This script reuses lib functions (buildIssue / archive) to keep archive + provenance format consistent.
+ * Structural finding (pipeline needs built-in same-article content clustering) goes through LESSONS gate.
  *
- * 用法：node scripts/feedback/triage-consolidate-2026-06-09.mjs            # dry-run
- *       node scripts/feedback/triage-consolidate-2026-06-09.mjs --commit   # 真開 + 回寫 + archive
+ * Usage: node scripts/feedback/triage-consolidate-2026-06-09.mjs            # dry-run
+ *        node scripts/feedback/triage-consolidate-2026-06-09.mjs --commit   # file + write-back + archive
  */
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { dirname } from 'node:path';
@@ -22,48 +21,50 @@ import { execFileSync } from 'node:child_process';
 import { buildIssue, triageNoteFor } from './lib/classify.mjs';
 import { buildArchiveRecord, archiveRelPath } from './lib/archive.mjs';
 
-const REPO = 'frank890417/taiwan-md';
+const REPO = 'wilsonkichoi/lagunabeach-md';
 const COMMIT = process.argv.includes('--commit');
 const rows = JSON.parse(readFileSync('/tmp/feedback-new.json', 'utf8'));
 
 // ── partition ──────────────────────────────────────────────────────────────
+// Original one-off target article from upstream (kept for reference; this script is historical)
+const TARGET_SLUG = '國家太空中心';
 const spaceRows = rows
-  .filter((r) => r.article_slug === '國家太空中心' && r.type === 'content')
+  .filter((r) => r.article_slug === TARGET_SLUG && r.type === 'content')
   .sort((a, b) => (a.created_at < b.created_at ? -1 : 1));
 const otherRows = rows.filter(
-  (r) => !(r.article_slug === '國家太空中心' && r.type === 'content'),
+  (r) => !(r.article_slug === TARGET_SLUG && r.type === 'content'),
 );
 
 console.log(
   `[consolidate] space-corrections=${spaceRows.length} · other=${otherRows.length} · mode=${COMMIT ? 'COMMIT' : 'DRY-RUN'}`,
 );
 
-// ── build consolidated [Fact Check] issue for 國家太空中心 ─────────────────────
+// ── build consolidated [Fact Check] issue ─────────────────────
 function ts(s) {
   return (s || '').slice(0, 16).replace('T', ' ');
 }
 const article = spaceRows[0];
-const cleanUrl = 'https://taiwan.md/technology/國家太空中心';
-const reader = article.display_name || '匿名讀者';
+const cleanUrl = `https://lagunabeach.md/technology/${TARGET_SLUG}`;
+const reader = article.display_name || 'Anonymous reader';
 
 let body =
-  `**哪篇文章 / Which article?**\n${article.article_title}\n🔗 ${cleanUrl}\n\n` +
-  `本 issue 由站上回報自動彙整：同一位讀者（**${reader}**）對本篇做了 **${spaceRows.length} 處** section-by-section 勘誤/補充，` +
-  `逐條 verbatim 收錄如下（每條附 feedback id provenance）。維護者請逐條查核（人工 gate）。\n\n---\n`;
+  `**Which article?**\n${article.article_title}\n🔗 ${cleanUrl}\n\n` +
+  `This issue was auto-consolidated from on-site feedback: one reader (**${reader}**) submitted **${spaceRows.length}** section-by-section corrections/additions. ` +
+  `Each item is recorded verbatim below (with individual feedback id provenance). Maintainer: please verify each item (human gate).\n\n---\n`;
 
 spaceRows.forEach((r, i) => {
-  body += `\n### 勘誤 ${i + 1}\n`;
+  body += `\n### Correction ${i + 1}\n`;
   if (r.quote) {
-    body += `\n**讀者選取的原文**\n> ${String(r.quote).replace(/\n/g, '\n> ')}\n`;
+    body += `\n**Selected passage**\n> ${String(r.quote).replace(/\n/g, '\n> ')}\n`;
   }
-  body += `\n**讀者指出 / What's wrong**\n${r.body}\n`;
+  body += `\n**What's wrong**\n${r.body}\n`;
   if (r.correct_info) {
-    body += `\n**正確資訊 + 來源 / Correct info + source**\n${r.correct_info}\n`;
+    body += `\n**Correct info + source**\n${r.correct_info}\n`;
   }
   body += `\n<sub>feedback id: \`${r.id}\` · ${ts(r.created_at)}</sub>\n`;
 });
 
-body += `\n---\n> 🧬 由站上回報自動彙整轉入（twmd-feedback-triage / 2026-06-09 consolidation）· 回報者：${reader} · ${spaceRows.length} 筆 feedback 合併`;
+body += `\n---\n> 🧬 Auto-consolidated from on-site feedback (feedback-triage / 2026-06-09 consolidation) · reporter: ${reader} · ${spaceRows.length} feedback entries merged`;
 
 const spaceIssue = {
   type: 'content',

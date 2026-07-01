@@ -3,25 +3,24 @@ import re
 import glob
 
 def extract_title_from_content(content):
-    """從內容中提取標題"""
+    """Extract title from content"""
     lines = content.split('\n')
     for line in lines:
         line = line.strip()
         if line.startswith('# '):
             return line[2:].strip()
-    return "未命名文章"
+    return "Untitled article"
 
 def extract_description_from_content(content):
-    """從內容中提取描述（第一個引用塊）"""
+    """Extract description (first blockquote)"""
     lines = content.split('\n')
     in_quote = False
     description_lines = []
     
     for line in lines:
         line = line.strip()
-        if line.startswith('> **30 秒概覽：**') or line.startswith('> **30秒概覽：**'):
-            # 提取這行的描述部分
-            desc = line.replace('> **30 秒概覽：**', '').replace('> **30秒概覽：**', '').strip()
+        if line.startswith('> **30 秒概覽：**') or line.startswith('> **30秒概覽：**') or line.startswith('> **At a glance:**'):
+            desc = line.replace('> **30 秒概覽：**', '').replace('> **30秒概覽：**', '').replace('> **At a glance:**', '').strip()
             return desc
         elif line.startswith('> ') and not in_quote:
             in_quote = True
@@ -34,7 +33,7 @@ def extract_description_from_content(content):
     if description_lines:
         return ' '.join(description_lines)
     
-    # 如果沒找到，返回前幾行非標題內容
+    # Fallback: first non-heading content lines
     lines = content.split('\n')
     desc_lines = []
     for line in lines:
@@ -45,18 +44,18 @@ def extract_description_from_content(content):
                 break
     
     desc = ' '.join(desc_lines)[:150]
-    return desc if desc else "台灣相關知識文章"
+    return desc if desc else "Laguna Beach knowledge article"
 
 def fix_frontmatter(filepath):
-    """修復單個檔案的 frontmatter"""
+    """Fix frontmatter for a single file"""
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    # 檢查是否已有正確的 frontmatter
+    # Already has correct frontmatter
     if re.search(r'^title:', content, re.MULTILINE):
-        return False  # 已經正確，不需修復
-    
-    # 提取內容
+        return False
+
+    # Extract content
     if content.startswith('---'):
         parts = content.split('---', 2)
         if len(parts) >= 3:
@@ -69,51 +68,51 @@ def fix_frontmatter(filepath):
         old_frontmatter = ""
         body = content
     
-    # 提取資訊
+    # Extract info
     title = extract_title_from_content(body)
     description = extract_description_from_content(body)
     
-    # 從舊 frontmatter 提取 tags
-    tags = ["台灣"]
+    # Extract tags from old frontmatter
+    tags = ["Laguna Beach"]
     if old_frontmatter:
         tag_match = re.search(r'tags:\s*\[(.*?)\]', old_frontmatter)
         if tag_match:
             old_tags = [tag.strip().strip('"\'') for tag in tag_match.group(1).split(',')]
             tags.extend(old_tags)
     
-    # 去重並格式化
+    # Deduplicate and format
     unique_tags = []
     for tag in tags:
         if tag not in unique_tags:
             unique_tags.append(tag)
     
-    tags_str = ', '.join([f'"{tag}"' for tag in unique_tags[:5]])  # 限制5個標籤
-    
-    # 新的 frontmatter
+    tags_str = ', '.join([f'"{tag}"' for tag in unique_tags[:5]])
+
+    # New frontmatter
     new_frontmatter = f'''---
 title: "{title}"
 description: "{description[:200]}..."
 date: 2026-03-17T00:00:00Z
 tags: [{tags_str}]
-author: "taiwan.md 社群"
+author: "lagunabeach.md"
 difficulty: "beginner"
 readingTime: 8
 featured: false
 ---'''
     
-    # 寫入檔案
+    # Write file
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(new_frontmatter + '\n' + body.lstrip('\n'))
     
     return True
 
-# 處理所有 markdown 檔案
+# Process all markdown files
 fixed_count = 0
 for pattern in ['src/content/zh-TW/*/*.md', 'src/content/en/*/*.md']:
     for filepath in glob.glob(pattern):
         if not filepath.endswith('_Home.md') and 'Hub.md' not in filepath:
             if fix_frontmatter(filepath):
-                print(f"修復: {filepath}")
+                print(f"Fixed: {filepath}")
                 fixed_count += 1
 
-print(f"✅ 修復了 {fixed_count} 個檔案的 frontmatter")
+print(f"✅ Fixed frontmatter in {fixed_count} files")

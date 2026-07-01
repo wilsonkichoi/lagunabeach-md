@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 /**
- * test-wikilinks.mjs — 檢查所有 knowledge/ 中的 [[wikilink]] 交叉引用
- * 找出死連結（指向不存在的文章）
+ * test-wikilinks.mjs — Check all [[wikilink]] cross-references in knowledge/
+ * Finds dead links (pointing to nonexistent articles).
  *
  * Usage:
- *   node scripts/test-wikilinks.mjs              # 全量掃描
- *   node scripts/test-wikilinks.mjs --category History  # 只掃特定分類
- *   node scripts/test-wikilinks.mjs --fix         # 顯示建議修正
+ *   node scripts/test-wikilinks.mjs              # full scan
+ *   node scripts/test-wikilinks.mjs --category History  # scan specific category
+ *   node scripts/test-wikilinks.mjs --fix         # show fix suggestions
  */
 
 import { readdir, readFile } from 'node:fs/promises';

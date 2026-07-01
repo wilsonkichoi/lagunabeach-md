@@ -1,20 +1,20 @@
 #!/bin/bash
-# check-translation-sync.sh — 完整的翻譯同步檢查
-# 用法：bash scripts/utils/check-translation-sync.sh [threshold_hours]
-# 檢查項目：
-#   1. translations.json 映射狀態
-#   2. 檔案修改時間差（mtime）
-#   3. Git 提交時間差
+# check-translation-sync.sh — Full translation sync check
+# Usage: bash scripts/utils/check-translation-sync.sh [threshold_hours]
+# Checks:
+#   1. translations.json mapping status
+#   2. File modification time difference (mtime)
+#   3. Git commit time difference
 
 THRESHOLD="${1:-24}"
 
 echo "=============================================="
-echo "=== 翻譯同步檢查 (${THRESHOLD} 小時基準) ==="
+echo "=== Translation sync check (${THRESHOLD}h threshold) ==="
 echo "=============================================="
 echo ""
 
-# 1. 檢查 translations.json
-echo "【1】translations.json 映射狀態"
+# 1. Check translations.json
+echo "[1] translations.json mapping status"
 echo "----------------------------------------------"
 
 python3 << 'EOF'
@@ -34,16 +34,16 @@ for en_rel, zh_rel in translations.items():
     en_path = os.path.join(knowledge_dir, en_rel)
 
     if not os.path.exists(zh_path) or not os.path.exists(en_path):
-        print(f"   ❌ {zh_rel} ↔ {en_rel} (檔案缺失)")
+        print(f"   ❌ {zh_rel} ↔ {en_rel} (file missing)")
         missing += 1
     else:
         valid += 1
 
-print(f"\n總計：{valid} 篇有效 | {missing} 篇缺失")
+print(f"\nTotal: {valid} valid | {missing} missing")
 EOF
 
 echo ""
-echo "【2】檔案修改時間差（mtime）"
+echo "[2] File modification time difference (mtime)"
 echo "----------------------------------------------"
 
 THRESHOLD_ENV="$THRESHOLD" python3 << 'EOF'
@@ -79,33 +79,33 @@ for en_rel, zh_rel in translations.items():
     else:
         stale_en.append((zh_rel, en_rel, abs(diff_hours)))
 
-print(f"同步：{len(synced)} 篇")
-print(f"中文較新：{len(stale_zh)} 篇")
-print(f"英文較新：{len(stale_en)} 篇")
+print(f"Synced: {len(synced)} articles")
+print(f"zh-TW newer: {len(stale_zh)} articles")
+print(f"EN newer: {len(stale_en)} articles")
 print()
 
 if stale_zh:
-    print(f"中文較新超過 {threshold} 小時（優先處理）:")
+    print(f"zh-TW newer by > {threshold} hours (priority):")
     thresholded = sorted([x for x in stale_zh if x[2] > threshold], key=lambda x: -x[2])
     if thresholded:
         for zh, en, hours in thresholded[:20]:
-            print(f"   🔄 {zh} (落後 {hours:.1f}h)")
+            print(f"   🔄 {zh} (behind {hours:.1f}h)")
         if len(thresholded) > 20:
-            print(f"   ... 還有 {len(thresholded) - 20} 篇")
+            print(f"   ... {len(thresholded) - 20} more")
 
 if stale_en:
     print()
-    print(f"英文較新超過 {threshold} 小時（中文可能又更新了）:")
+    print(f"EN newer by > {threshold} hours (zh-TW may have been updated):")
     thresholded = sorted([x for x in stale_en if x[2] > threshold], key=lambda x: -x[2])
     if thresholded:
         for zh, en, hours in thresholded[:20]:
-            print(f"   ⚠️   {zh} (英文超前 {hours:.1f}h)")
+            print(f"   ⚠️   {zh} (EN ahead {hours:.1f}h)")
         if len(thresholded) > 20:
-            print(f"   ... 還有 {len(thresholded) - 20} 篇")
+            print(f"   ... {len(thresholded) - 20} more")
 EOF
 
 echo ""
-echo "【3】Git 提交時間差"
+echo "[3] Git commit time difference"
 echo "----------------------------------------------"
 
 python3 << 'EOF'
@@ -146,34 +146,34 @@ for en_rel, zh_rel in translations.items():
     else:
         stale_en.append((zh_rel, en_rel, abs(diff_hours)))
 
-print(f"Git 同步：{len(synced)} 篇")
-print(f"中文較新：{len(stale_zh)} 篇")
-print(f"英文較新：{len(stale_en)} 篇")
+print(f"Git synced: {len(synced)} articles")
+print(f"zh-TW newer: {len(stale_zh)} articles")
+print(f"EN newer: {len(stale_en)} articles")
 print()
 
 if stale_zh:
-    print("中文 Git 較新超過 24 小時:")
+    print("zh-TW Git newer by > 24 hours:")
     thresholded = sorted([x for x in stale_zh if x[2] > 24], key=lambda x: -x[2])
     if thresholded:
         for zh, en, hours in thresholded[:20]:
-            print(f"   🔄 {zh} (落後 {hours:.1f}h)")
+            print(f"   🔄 {zh} (behind {hours:.1f}h)")
         if len(thresholded) > 20:
-            print(f"   ... 還有 {len(thresholded) - 20} 篇")
+            print(f"   ... {len(thresholded) - 20} more")
 
 if stale_en:
     print()
-    print("英文 Git 較新超過 24 小時:")
+    print("EN Git newer by > 24 hours:")
     thresholded = sorted([x for x in stale_en if x[2] > 24], key=lambda x: -x[2])
     if thresholded:
         for zh, en, hours in thresholded[:20]:
-            print(f"   ⚠️   {zh} (英文超前 {hours:.1f}h)")
+            print(f"   ⚠️   {zh} (EN ahead {hours:.1f}h)")
         if len(thresholded) > 20:
-            print(f"   ... 還有 {len(thresholded) - 20} 篇")
+            print(f"   ... {len(thresholded) - 20} more")
 EOF
 
 echo ""
 echo "=============================================="
-echo "=== 總結 ==="
+echo "=== Summary ==="
 echo "=============================================="
-echo "建議優先處理：中文較新的文章（更新英文翻譯）"
-echo "次要注意：英文較新的文章（確認中文是否已更新）"
+echo "Priority: articles where zh-TW is newer (update EN translation)"
+echo "Secondary: articles where EN is newer (verify zh-TW is up to date)"

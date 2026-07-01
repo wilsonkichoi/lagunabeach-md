@@ -1,20 +1,20 @@
 /**
- * archive.mjs — 把讀者回報 + 溝通紀錄落進 git repo（主權層，純函式）。
+ * archive.mjs — Store reader feedback + communication records in git repo (sovereignty layer, pure functions).
  *
- * 為什麼：feedback 的 live 資料在外掛 BaaS（Supabase），但 canonical 紀錄要進 git
- * （per MANIFESTO 知識在 git 不在黑箱 / 分散式不可殺滅）。BaaS 哪天死了，所有回報 +
- * 維護者溝通仍完整留在 repo 的 markdown 裡，可 diff、可匯出、可 grep。
+ * Why: live feedback data lives in external BaaS (Supabase), but canonical records go into git
+ * (per MANIFESTO: knowledge lives in git, not black boxes / distributed + unkillable). If BaaS dies,
+ * all reports + maintainer communication remain in repo markdown, diffable + exportable + greppable.
  *
- * PII 鐵律：只存 display_name（暱稱/回退名，= 已公開在 issue 的），**永遠不存 email**。
+ * PII iron rule: only store display_name (nickname/fallback, = already public in issue), **never email**.
  *
- * 純函式（無 IO）；triage.mjs 負責讀寫檔案。
- *   - archiveRelPath(row)              → docs/feedback/archive/YYYY-MM/{id}.md
- *   - buildArchiveRecord(row, note)    → 初始 markdown（含 frontmatter + 內容 + 空溝通紀錄）
- *   - mergeComments(content, comments) → 把 issue 新留言 append 進 §溝通紀錄（去重）
+ * Pure functions (no IO); triage.mjs handles file reads/writes.
+ *   - archiveRelPath(row)              -> docs/feedback/archive/YYYY-MM/{id}.md
+ *   - buildArchiveRecord(row, note)    -> initial markdown (frontmatter + content + empty communication log)
+ *   - mergeComments(content, comments) -> append new issue comments into communication log (deduplicated)
  *
- * ⚠️ source_url / body / quote / correct_info 是讀者欄位,可能夾帶 OAuth token / JWT
- *    （登入讀者貼網址列的 Supabase auth fragment）。落 git 前都過 scrubSecrets()
- *    （同 classify.mjs issue body 第二道 PII 閘）。觸發 2026-06-16 feedback 8f2f8908。
+ * Warning: source_url / body / quote / correct_info are reader fields, may contain OAuth token / JWT
+ *    (logged-in reader's URL bar with Supabase auth fragment). All pass through scrubSecrets()
+ *    before entering git (same PII second gate as classify.mjs issue body). Triggered 2026-06-16.
  */
 
 import { scrubSecrets } from './classify.mjs';
@@ -34,17 +34,17 @@ export function archiveRelPath(row) {
   return `docs/feedback/archive/${ym(row.created_at)}/${row.id}.md`;
 }
 
-const COMMENTS_HEADING = '## 溝通紀錄';
+const COMMENTS_HEADING = '## Communication log';
 
 export function buildArchiveRecord(row, note) {
-  const who = row.display_name || '匿名讀者';
+  const who = row.display_name || 'Anonymous reader';
   const target =
-    row.article_title || row.article_slug || row.page_kind || '(站上)';
+    row.article_title || row.article_slug || row.page_kind || '(site)';
   const front = [
     '---',
     `feedback_id: '${fm(row.id)}'`,
     `created_at: '${fm(row.created_at)}'`,
-    `contributor: "${fm(who)}"`, // display_name only — 無 email
+    `contributor: "${fm(who)}"`,
     `type: '${fm(row.type)}'`,
     `status: '${fm(row.status || 'new')}'`,
     `page_kind: '${fm(row.page_kind)}'`,
@@ -57,32 +57,32 @@ export function buildArchiveRecord(row, note) {
   ].join('\n');
 
   const parts = [front, '', `# Feedback — ${row.type} · ${target}`, ''];
-  parts.push(`**回報者**：${who}`, `**時間**：${row.created_at || ''}`, '');
-  parts.push('**回報內容**', scrubSecrets(row.body) || '', '');
+  parts.push(`**Reporter**: ${who}`, `**Time**: ${row.created_at || ''}`, '');
+  parts.push('**Report content**', scrubSecrets(row.body) || '', '');
   if (row.quote) {
     parts.push(
-      '**選取的原文**',
+      '**Selected passage**',
       `> ${scrubSecrets(String(row.quote)).replace(/\n/g, '\n> ')}`,
       '',
     );
   }
   if (row.correct_info) {
-    parts.push('**正確資訊 + 來源**', scrubSecrets(row.correct_info), '');
+    parts.push('**Correct info + source**', scrubSecrets(row.correct_info), '');
   }
   if (note || row.triage_note) {
-    parts.push('**系統初判**', note || row.triage_note, '');
+    parts.push('**Auto-triage note**', note || row.triage_note, '');
   }
   if (row.issue_url) {
-    parts.push(`**GitHub issue**：${row.issue_url}`, '');
+    parts.push(`**GitHub issue**: ${row.issue_url}`, '');
   }
   parts.push(COMMENTS_HEADING, '');
-  parts.push('<!-- issue 留言由 twmd-feedback-triage 定期 sync 到這裡 -->', '');
+  parts.push('<!-- issue comments synced by feedback-triage -->', '');
   return parts.join('\n');
 }
 
 /**
- * 把 issue 新留言 append 進 §溝通紀錄。comments: [{id, author, createdAt, body}]。
- * 用 `<!-- comment:<id> -->` marker 去重，re-run 不重複。
+ * Append new issue comments into communication log. comments: [{id, author, createdAt, body}].
+ * Uses `<!-- comment:<id> -->` markers for deduplication; re-runs are idempotent.
  */
 export function mergeComments(content, comments) {
   if (!comments || !comments.length) return content;
@@ -103,6 +103,6 @@ export function mergeComments(content, comments) {
   if (idx === -1) {
     return `${content.trimEnd()}\n\n${COMMENTS_HEADING}\n\n${blocks}\n`;
   }
-  // 插在 heading 區塊尾端（append）。
+  // Append at end of heading block.
   return `${content.trimEnd()}\n\n${blocks}\n`;
 }

@@ -1,6 +1,6 @@
 /**
- * archive.test.mjs — git 主權層紀錄產生器測試。
- * 跑：node --test scripts/feedback/archive.test.mjs
+ * archive.test.mjs — git sovereignty layer record generator tests.
+ * Run: node --test scripts/feedback/archive.test.mjs
  */
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
@@ -15,7 +15,7 @@ const row = {
   id: 'aaaa-bbbb',
   created_at: '2026-06-01T09:12:00Z',
   display_name: '海邊的讀者',
-  email: 'reader@example.com', // 故意放，確認 builder 不洩
+  email: 'reader@example.com',
   type: 'content',
   status: 'filed',
   page_kind: 'article',
@@ -25,7 +25,8 @@ const row = {
   source_url: 'https://taiwan.md/people/李安#:~:text=1990',
   quote: '《臥虎藏龍》1990 年得獎',
   correct_info: '正確:2001。來源:https://oscars.org',
-  triage_note: '已收到你的勘誤，已轉維護者查核。',
+  triage_note:
+    'Received your correction. Forwarded to maintainer for verification.',
   issue_url: 'https://github.com/frank890417/taiwan-md/issues/42',
   issue_number: 42,
 };
@@ -48,12 +49,11 @@ test('buildArchiveRecord captures contributor/time/content + NEVER email', () =>
   assert.match(md, /feedback_id: 'aaaa-bbbb'/);
   assert.match(md, /type: 'content'/);
   assert.match(md, /issue_number: 42/);
-  assert.match(md, /回報內容/);
-  assert.match(md, /選取的原文/);
+  assert.match(md, /Report content/);
+  assert.match(md, /Selected passage/);
   assert.match(md, /《臥虎藏龍》1990 年得獎/);
-  assert.match(md, /系統初判/);
-  assert.match(md, /## 溝通紀錄/);
-  // 鐵律：email 永不進 git 紀錄
+  assert.match(md, /Auto-triage note/);
+  assert.match(md, /## Communication log/);
   assert.doesNotMatch(
     md,
     /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}/i,
@@ -68,11 +68,11 @@ test('mergeComments appends new comments with markers', () => {
       id: 'maintainer-2026-06-01T10:00:00Z',
       author: 'maintainer',
       createdAt: '2026-06-01T10:00:00Z',
-      body: '謝謝回報，已修正。',
+      body: 'Thanks for the report, fixed.',
     },
   ]);
   assert.match(merged, /<!-- comment:maintainer-2026-06-01T10:00:00Z -->/);
-  assert.match(merged, /謝謝回報，已修正。/);
+  assert.match(merged, /Thanks for the report, fixed\./);
 });
 
 test('mergeComments dedupes on re-run (idempotent)', () => {

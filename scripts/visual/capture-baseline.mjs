@@ -40,17 +40,17 @@ const repoRoot = join(__dirname, '..', '..');
 // graph-specific CSS is needed later, add a deterministic seed to the
 // page first (e.g. `forceSimulation().randomSource(d3.randomLcg(42))`).
 const PAGES = [
-  { name: 'home-zh', url: '/' },
+  { name: 'home', url: '/' },
   { name: 'home-en', url: '/en' },
   { name: 'hub-history', url: '/history/' },
   { name: 'hub-food', url: '/food/' },
-  { name: 'article-martial-law', url: '/history/戒嚴時期/' },
+  { name: 'article-founding', url: '/history/founding-and-early-history/' },
   { name: 'contribute', url: '/contribute/' },
   { name: 'about', url: '/about/' },
   { name: 'data', url: '/data/' },
   { name: 'dashboard', url: '/dashboard/' },
   { name: 'map', url: '/map/' },
-  { name: 'taiwan-shape', url: '/taiwan-shape/' },
+  { name: 'explore', url: '/explore/' },
   { name: 'changelog', url: '/changelog/' },
 ];
 

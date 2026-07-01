@@ -37,7 +37,7 @@ import {
 
 const ARCHIVE_ROOT = 'docs/feedback/archive';
 
-const REPO = 'frank890417/taiwan-md';
+const REPO = 'wilsonkichoi/lagunabeach-md';
 
 function parseArgs(argv) {
   const a = { commit: false, seed: null, limit: 50 };

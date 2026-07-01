@@ -375,9 +375,9 @@ def build_sc_7d_section(sc_raw):
                 "ctr": _ctr(nonbrand_clicks, nonbrand_imp),
             },
             "note": (
-                "Brand = queries containing 'taiwan.md' / 'taiwan md' / exact 'md' / "
-                "'taiwandotmd'. Total CTR aggregates both; brand CTR is usually 60-80%, "
-                "nonBrand CTR reflects true external discoverability."
+                "Brand = queries containing 'lagunabeach.md' / 'laguna beach md' / "
+                "exact 'md' / 'lagunabeachmd'. Total CTR aggregates both; brand CTR "
+                "is usually 60-80%, nonBrand CTR reflects true external discoverability."
             ),
         },
         "topQueries": top_queries,

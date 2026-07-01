@@ -1,16 +1,16 @@
 #!/bin/bash
-# 將 Wikimedia URL 替換為本地快取路徑
+# Replace Wikimedia URLs with local cached paths
 set -e
 cd "$(dirname "$0")/.."
 
 IMG_DIR="public/images/wiki"
 REPLACED=0
 
-echo "🔄 替換 Wikimedia URL → 本地路徑"
+echo "🔄 Replacing Wikimedia URLs -> local paths"
 
-# 遍歷所有可能包含圖片的檔案
+# Traverse all files that may contain images
 find knowledge/ src/pages/ src/components/ -name "*.md" -o -name "*.astro" | while read -r FILE; do
-  # 找出該檔案中的 Wikimedia URLs
+  # Find Wikimedia URLs in this file
   URLS=$(grep -o "https://upload.wikimedia.org/[^\"')* ]*" "$FILE" 2>/dev/null | sed "s/'$//" | sed 's/)$//' || true)
   
   [ -z "$URLS" ] && continue
@@ -25,9 +25,8 @@ find knowledge/ src/pages/ src/components/ -name "*.md" -o -name "*.astro" | whi
     [ -z "$EXT" ] && EXT=".jpg"
     LOCAL="/images/wiki/${HASH}${EXT}"
     
-    # 確認本地檔案存在
+    # Verify local file exists
     if [ -f "$IMG_DIR/${HASH}${EXT}" ]; then
-      # macOS sed 需要空的備份後綴
       ESCAPED_URL=$(echo "$URL" | sed 's/[&/\]/\\&/g')
       ESCAPED_LOCAL=$(echo "$LOCAL" | sed 's/[&/\]/\\&/g')
       sed -i '' "s|$URL|$LOCAL|g" "$FILE" 2>/dev/null && CHANGED=true
@@ -38,4 +37,4 @@ find knowledge/ src/pages/ src/components/ -name "*.md" -o -name "*.astro" | whi
 done
 
 echo ""
-echo "🎉 替換完成！所有圖片改用本地快取"
+echo "🎉 Done! All images now use local cache"

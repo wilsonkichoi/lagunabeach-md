@@ -1,6 +1,6 @@
 /**
- * triage.test.mjs — classify.mjs 純函式測試。
- * 跑：node --test scripts/feedback/triage.test.mjs
+ * triage.test.mjs — classify.mjs pure function tests.
+ * Run: node --test scripts/feedback/triage.test.mjs
  */
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
@@ -56,8 +56,8 @@ test('buildIssue maps content → fact-correction template + labels', () => {
   assert.equal(iss.type, 'content');
   assert.match(iss.title, /^\[Fact Check\] 李安$/);
   assert.deepEqual(iss.labels, ['needs-verification', 'from-feedback']);
-  assert.match(iss.body, /哪裡有誤/);
-  assert.match(iss.body, /正確資訊/);
+  assert.match(iss.body, /What's wrong/);
+  assert.match(iss.body, /Correct info/);
 });
 
 test('buildIssue maps bug → bug template + labels', () => {
@@ -78,7 +78,6 @@ test('issue body carries display_name + feedback id but NEVER email', () => {
   for (const row of seed) {
     const iss = buildIssue(row);
     assert.match(iss.body, /feedback id:/);
-    // 沒有任何 email 形狀的字串混進 issue body
     assert.doesNotMatch(
       iss.body,
       /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}/i,
@@ -87,12 +86,9 @@ test('issue body carries display_name + feedback id but NEVER email', () => {
   }
 });
 
-// 2026-06-16 regression: feedback 8f2f8908 把 Supabase OAuth callback URL（含 access_token
-// JWT[內含 email] + provider_token + refresh_token）寫進 public issue #1160（已刪除）。
-// source_url 是登入讀者的網址列 capture,implicit flow 把活憑證塞進 hash fragment。
-// 「不放 email」明文閘擋不住 base64 編進 token 的 email → 需 scrubSecrets 第二道閘。
+// 2026-06-16 regression: feedback 8f2f8908 leaked OAuth callback URL into public issue #1160.
 test('scrubSecrets strips OAuth tokens / JWT / email from a Supabase auth callback URL', () => {
-  // 完全合成值,不含任何真實憑證/email（否則 test 本身就是 PII 載體,= 它要防的 bug）。
+  // Fully synthetic values, no real credentials/email (otherwise test itself is a PII vector).
   const toxic =
     'https://taiwan.md/people/#access_token=eyJSAMPLE.eyJzdWIiOiJ4In0.eyJzaWci&expires_at=9999999999&provider_token=ya29.FAKEPROVIDER&refresh_token=FAKEREFRESH123&token_type=bearer';
   const out = scrubSecrets(toxic);
@@ -100,7 +96,7 @@ test('scrubSecrets strips OAuth tokens / JWT / email from a Supabase auth callba
   for (const leak of ['access_token', 'eyJ', 'ya29', 'FAKEREFRESH123']) {
     assert.ok(!out.includes(leak), `scrubSecrets leaked ${leak}`);
   }
-  // 明文 email 也要 redact
+  // Plaintext email must also be redacted
   assert.match(scrubSecrets('mail reader@example.com'), /\[REDACTED-EMAIL\]/);
 });
 
@@ -124,9 +120,9 @@ test('buildIssue scrubs a token-bearing source_url before it reaches issue body'
   }
 });
 
-test('blank display_name falls back to 匿名讀者 in provenance', () => {
+test('blank display_name falls back to Anonymous reader in provenance', () => {
   const iss = buildIssue(byId('2222')); // display_name === ''
-  assert.match(iss.body, /回報者：匿名讀者/);
+  assert.match(iss.body, /reporter: Anonymous reader/);
 });
 
 test('dedupeKey is stable for the same logical report', () => {
@@ -187,9 +183,9 @@ test('content issue embeds selected quote + text-fragment deep link', () => {
     body: '年份錯了，應為 2001。',
   };
   const iss = buildIssue(row);
-  assert.match(iss.body, /讀者選取的原文/);
+  assert.match(iss.body, /Selected passage/);
   assert.match(iss.body, /《臥虎藏龍》1990 年得獎/);
-  assert.match(iss.body, /直接定位/);
+  assert.match(iss.body, /Direct link/);
   assert.match(iss.body, /#:~:text=/);
   assert.doesNotMatch(iss.body, /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}/i);
 });
@@ -201,13 +197,13 @@ test('provenance carries page_kind', () => {
     body: '這個數字怪怪的',
     page_kind: 'dashboard',
   });
-  assert.match(iss.body, /來源頁:dashboard/);
+  assert.match(iss.body, /source page: dashboard/);
 });
 
-// ── v3: reader-facing triage note (Grokipedia transparency) ──────────────────
+// ── v3: reader-facing triage note (transparency) ──────────────────
 test('triageNoteFor gives a type-specific reader note', () => {
-  assert.match(triageNoteFor({ type: 'content', body: 'x' }), /勘誤/);
-  assert.match(triageNoteFor({ type: 'newtopic', body: 'x' }), /新主題/);
+  assert.match(triageNoteFor({ type: 'content', body: 'x' }), /correction/);
+  assert.match(triageNoteFor({ type: 'newtopic', body: 'x' }), /suggestion/);
 });
 
 test('triageBatch attaches note to file + reject decisions', () => {
@@ -218,7 +214,7 @@ test('triageBatch attaches note to file + reject decisions', () => {
   assert.ok(rejected.note && rejected.note.length > 0);
 });
 
-// ── v4: batch-cluster guard（2026-06-09 12 連發 + 2026-06-12 justfont 21 連發）──
+// ── v4: batch-cluster guard (2026-06-09 12-burst + 2026-06-12 21-burst) ──
 function clusterRows(n, slug = 'justfont與台灣字體發展') {
   return Array.from({ length: n }, (_, i) => ({
     id: `c${i}-uuid`,
@@ -232,7 +228,7 @@ function clusterRows(n, slug = 'justfont與台灣字體發展') {
   }));
 }
 
-test(`batch-cluster: 同 slug ≥ ${BATCH_CLUSTER_THRESHOLD} 筆全 hold,0 筆 file`, () => {
+test(`batch-cluster: same slug >= ${BATCH_CLUSTER_THRESHOLD} entries all hold, 0 file`, () => {
   const rows = clusterRows(21);
   const results = triageBatch(rows, []);
   assert.equal(results.filter((r) => r.decision === 'hold').length, 21);
@@ -241,7 +237,7 @@ test(`batch-cluster: 同 slug ≥ ${BATCH_CLUSTER_THRESHOLD} 筆全 hold,0 筆 f
   assert.equal(results[0].cluster, 'justfont與台灣字體發展'.toLowerCase());
 });
 
-test('batch-cluster: 低於閾值照常逐筆 file', () => {
+test('batch-cluster: below threshold files normally', () => {
   const rows = clusterRows(BATCH_CLUSTER_THRESHOLD - 1);
   const results = triageBatch(rows, []);
   assert.equal(results.filter((r) => r.decision === 'hold').length, 0);
@@ -251,7 +247,7 @@ test('batch-cluster: 低於閾值照常逐筆 file', () => {
   );
 });
 
-test('batch-cluster: cluster 外的回報不受影響,照常 file', () => {
+test('batch-cluster: reports outside cluster are unaffected, file normally', () => {
   const rows = [
     ...clusterRows(6),
     {
@@ -267,7 +263,7 @@ test('batch-cluster: cluster 外的回報不受影響,照常 file', () => {
   assert.equal(results.filter((r) => r.decision === 'hold').length, 6);
 });
 
-test('batch-cluster: cluster 內的 spam 仍 reject,不算進 cluster 數', () => {
+test('batch-cluster: spam within cluster still rejected, not counted toward threshold', () => {
   const rows = [
     ...clusterRows(BATCH_CLUSTER_THRESHOLD - 1),
     {
@@ -282,7 +278,7 @@ test('batch-cluster: cluster 內的 spam 仍 reject,不算進 cluster 數', () =
   assert.equal(results.find((r) => r.row.id === 'spam-1').decision, 'reject');
 });
 
-test('batch-cluster: 無 slug 的回報不會被 cluster', () => {
+test('batch-cluster: reports without slug are never clustered', () => {
   const rows = Array.from({ length: 8 }, (_, i) => ({
     id: `nos${i}`,
     type: 'idea',

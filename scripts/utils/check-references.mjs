@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 /**
- * 檢查所有知識庫文章是否包含「參考資料」或「延伸閱讀」段落
- * 以及是否包含至少一個可點擊的 URL
+ * Check all knowledge base articles for "References" / "Further Reading" sections
+ * and at least one clickable URL.
  *
  * Usage: node scripts/check-references.mjs [--strict]
- * --strict: 沒有參考資料的文章會導致 exit code 1
+ * --strict: articles missing references cause exit code 1
  */
 
 import { readdir, readFile } from 'fs/promises';
@@ -13,12 +13,12 @@ import { join, relative } from 'path';
 const KNOWLEDGE_DIR = join(process.cwd(), 'knowledge');
 const STRICT = process.argv.includes('--strict');
 
-// 匹配參考資料段落的 pattern
+// Patterns matching reference sections (both EN and zh-TW headings)
 const REF_PATTERNS = [
   /^##\s*(參考資料|參考文獻|資料來源|References?|Sources?|延伸閱讀|Further Reading)/im,
 ];
 
-// 匹配 URL 的 pattern
+// URL pattern
 const URL_PATTERN = /https?:\/\/[^\s)>\]]+/;
 
 async function getAllMdFiles(dir) {
@@ -58,22 +58,22 @@ async function main() {
   const noSection = results.filter((r) => !r.hasRefSection);
   const noUrl = results.filter((r) => r.hasRefSection && !r.hasUrl);
 
-  console.log(`\n📚 Taiwan.md 參考資料檢查報告`);
+  console.log(`\n📚 References check report`);
   console.log(`${'='.repeat(50)}`);
-  console.log(`總文章數: ${results.length}`);
-  console.log(`✅ 有參考資料: ${results.length - missing.length}`);
-  console.log(`❌ 缺參考資料段落: ${noSection.length}`);
-  console.log(`⚠️  有段落但無 URL: ${noUrl.length}`);
+  console.log(`Total articles: ${results.length}`);
+  console.log(`✅ Has references: ${results.length - missing.length}`);
+  console.log(`❌ Missing references section: ${noSection.length}`);
+  console.log(`⚠️  Has section but no URL: ${noUrl.length}`);
   console.log(`${'='.repeat(50)}\n`);
 
   if (noSection.length > 0) {
-    console.log(`❌ 缺少「參考資料」段落的文章：`);
+    console.log(`❌ Articles missing references section:`);
     noSection.forEach((r) => console.log(`   - ${r.path}`));
     console.log('');
   }
 
   if (noUrl.length > 0) {
-    console.log(`⚠️  有「參考資料」段落但沒有 URL 的文章：`);
+    console.log(`⚠️  Articles with references section but no URLs:`);
     noUrl.forEach((r) => console.log(`   - ${r.path}`));
     console.log('');
   }
@@ -82,10 +82,10 @@ async function main() {
     ((results.length - missing.length) / results.length) *
     100
   ).toFixed(1);
-  console.log(`📊 參考資料覆蓋率: ${coverage}%\n`);
+  console.log(`📊 References coverage: ${coverage}%\n`);
 
   if (STRICT && missing.length > 0) {
-    console.log('❌ STRICT 模式：有文章缺少參考資料，檢查失敗');
+    console.log('❌ STRICT mode: articles missing references, check failed');
     process.exit(1);
   }
 }
