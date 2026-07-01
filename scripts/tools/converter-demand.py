@@ -1,59 +1,61 @@
 #!/usr/bin/env python3
 """
-converter-demand.py — 台灣用語轉換器「需求回饋環」：用 GA4 event 讀「大家實際查哪些詞」
+converter-demand.py — Terminology converter "demand feedback loop": read which terms
+people actually look up via GA4 events
 
-把詞庫成長從「作者猜」翻轉成「需求驅動」。converter.astro 埋的 5 個 event
-（converter_term_lookup / converter_convert / converter_example_click /
-converter_copy / converter_direction_toggle）餵進來，回答四件事：
+Flips term growth from "author guesses" to "demand-driven". The 5 events from
+converter.astro (converter_term_lookup / converter_convert /
+converter_example_click / converter_copy / converter_direction_toggle) feed in
+and answer four questions:
 
-  1. 詞需求排行（PRIMARY）：哪些 term_id 被查最多 → 那些詞值得最好的 per-term 頁 /
-     專文。filter eventName == converter_term_lookup，group by customEvent:term_id。
-  2. 方向使用：cn2tw vs tw2cn — 有人在用反向 (tw2cn) 嗎？
-  3. 範例分類熱度：converter_example_click by customEvent:category。
-  4. 漏斗：converter_convert / converter_copy 事件數（粗略 convert→copy 比）。
+  1. Term demand ranking (PRIMARY): which term_ids are looked up most. Filter
+     eventName == converter_term_lookup, group by customEvent:term_id.
+  2. Direction usage: cn2tw vs tw2cn -- is anyone using the reverse direction?
+  3. Example category popularity: converter_example_click by customEvent:category.
+  4. Funnel: converter_convert / converter_copy event counts (rough convert-to-copy ratio).
 
-═══════════════════════════════════════════════════════════════════════════
-⚠️ 已知限制（不要 over-trust 這份數據）
-═══════════════════════════════════════════════════════════════════════════
-converter_term_lookup 只在「資料庫裡已經有的詞」（matched rule）被命中時 fire。
-所以這份排行量的是【現有 ~1,800 個詞之中】的需求分佈 —— 它**看不到「缺漏的詞」**
-（使用者輸入了、但我們還沒收進對映表的中國用語）。
+===============================================================================
+KNOWN LIMITATION (do not over-trust this data)
+===============================================================================
+converter_term_lookup only fires when a "matched rule" (term already in the
+database) is hit. So this ranking measures demand distribution among the
+existing ~1,800 terms -- it CANNOT see "missing terms" (input the user typed
+that we haven't added to the mapping table yet).
 
-換句話說：這份工具告訴你「現有的哪些詞最該被照顧」，但**不會**告訴你「該新增哪些
-詞」。偵測缺漏詞需要不同的未來訊號，例如：
-  - 追蹤「轉換後台灣化指數仍偏低」的輸入（代表大部分沒被換掉 = 可能有缺漏詞）
-  - 前端加一顆「回報缺漏詞」按鈕，讓使用者主動告訴我們
+In other words: this tool tells you "which existing terms deserve the most
+attention", but does NOT tell you "which terms to add". Detecting missing
+terms requires a different future signal, e.g.:
+  - Track inputs where post-conversion localization score remains low
+  - Add a "report missing term" button in the frontend
 
-在那個訊號存在以前，這份排行是「已知需求」的鏡子，不是「未知需求」的鏡子。
+Until that signal exists, this ranking mirrors "known demand", not "unknown demand".
 
-═══════════════════════════════════════════════════════════════════════════
-GA4 custom-dimension 現實（graceful degradation）
-═══════════════════════════════════════════════════════════════════════════
-event param（term_id / direction / category / fork_type ...）只有先用 Admin API
-註冊成 event-scoped custom dimension，才能在 Data API 當 DIMENSION group by。
-Data API 引用方式：customEvent:term_id、customEvent:direction、customEvent:category。
+===============================================================================
+GA4 custom-dimension reality (graceful degradation)
+===============================================================================
+Event params (term_id / direction / category / fork_type ...) must first be
+registered as event-scoped custom dimensions via Admin API before the Data API
+can group by them. Data API reference: customEvent:term_id, etc.
 
-註冊腳本：scripts/tools/register-ga4-custom-dimensions.py
-（截至 2026-06-13，converter 的 param 還沒進那份 SSOT 的 *_DIMENSIONS list —
- orchestrator 會補一個 CONVERTER_DIMENSIONS block 再跑）。
+Registration script: scripts/tools/register-ga4-custom-dimensions.py
 
-本工具對兩種「還沒準備好」的情況都不 crash：
-  (a) 維度還沒註冊 → GA4 回維度不存在的錯 → CATCH + 印 hint「跑 register 腳本」，
-      該 report 留空、其他 report 照跑。
-  (b) 事件剛上線、資料還沒累積 → report 空 → 印友善「instrumentation just shipped」。
+This tool handles two "not ready yet" situations without crashing:
+  (a) Dimension not registered -> GA4 returns dimension-not-found error ->
+      CATCH + print hint "run register script"; that report stays empty, others proceed.
+  (b) Events just shipped, no data accumulated -> report empty -> prints
+      friendly "instrumentation just shipped" message.
 
-用法:
+Usage:
     python3 scripts/tools/converter-demand.py                 # 90d + 28d
-    python3 scripts/tools/converter-demand.py --json          # 純 JSON 輸出
-    python3 scripts/tools/converter-demand.py --windows 90,28 # 自訂窗口（預設 90,28）
-    python3 scripts/tools/converter-demand.py --limit 50      # 詞排行筆數（預設 50）
+    python3 scripts/tools/converter-demand.py --json          # raw JSON output
+    python3 scripts/tools/converter-demand.py --windows 90,28 # custom windows (default 90,28)
+    python3 scripts/tools/converter-demand.py --limit 50      # top term count (default 50)
 
-輸出:
-    人類可讀 section 報表（同 converter-analytics.py 風格）
-    raw JSON → ~/.config/lagunabeach-md/cache/converter-demand-latest.json
+Output:
+    Human-readable section report (same style as converter-analytics.py)
+    raw JSON -> ~/.config/lagunabeach-md/cache/converter-demand-latest.json
 
-憑證 / venv 同 fetch-ga4.py（~/.config/lagunabeach-md/credentials/）。
-來源: 2026-06-13 converter-demand-loop session
+Credentials / venv same as fetch-ga4.py (~/.config/lagunabeach-md/credentials/).
 """
 import json
 import os
@@ -61,7 +63,7 @@ import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
-CONFIG_DIR = Path.home() / ".config" / "taiwan-md"
+CONFIG_DIR = Path.home() / ".config" / "lagunabeach-md"
 CREDENTIALS_DIR = CONFIG_DIR / "credentials"
 CACHE_DIR = CONFIG_DIR / "cache"
 VENV_DIR = CONFIG_DIR / "venv"
@@ -108,7 +110,7 @@ def daterange(days):
 
 
 # ─────────────────────────────────────────────────────────────────────────
-# Custom-dimension graceful degradation
+# Custom-dimension graceful degradation: see module docstring for rationale.
 # ─────────────────────────────────────────────────────────────────────────
 def _is_unregistered_dimension_error(exc):
     """Heuristic: did GA4 reject the request because a customEvent dimension
@@ -239,7 +241,7 @@ def fetch_window(property_id, cred_path, days, limit):
 
     out = {"window_days": days, "start": start, "end": end}
 
-    # ── Sanity: which converter_* events have ANY data in this window? ──────
+    # Sanity: which converter_* events have ANY data in this window?
     # Single grouped query by eventName, filtered to our 5 events. This is the
     # "did instrumentation produce anything yet?" probe and never needs a
     # custom dimension (eventName is a built-in dimension), so it works from
@@ -267,26 +269,26 @@ def fetch_window(property_id, cred_path, days, limit):
     out["event_totals"] = event_totals
     out["any_converter_events"] = sum(event_totals.values()) > 0
 
-    # ── Report 1 (PRIMARY): term demand ranking ────────────────────────────
+    # Report 1 (PRIMARY): term demand ranking
     term_rank = ctx.run_dimensioned(EVT_LOOKUP, "customEvent:term_id", "term_id")
     if term_rank.get("status") == "data":
         term_rank["rows"] = term_rank["rows"][:limit]
     out["term_demand"] = term_rank
 
-    # ── Report 2: direction usage (convert split by direction) ─────────────
+    # Report 2: direction usage (convert split by direction)
     # Primary: split converter_convert by customEvent:direction.
     out["direction_convert"] = ctx.run_dimensioned(
         EVT_CONVERT, "customEvent:direction", "direction")
-    # Secondary cross-check: converter_direction_toggle by customEvent:to —
-    # answers "how often did people actively flip the toggle, and to what".
+    # Secondary cross-check: converter_direction_toggle by customEvent:to.
+    # Answers "how often did people actively flip the toggle, and to what".
     out["direction_toggle"] = ctx.run_dimensioned(
         EVT_TOGGLE, "customEvent:to", "to")
 
-    # ── Report 3: example category popularity ──────────────────────────────
+    # Report 3: example category popularity
     out["example_categories"] = ctx.run_dimensioned(
         EVT_EXAMPLE, "customEvent:category", "category")
 
-    # ── Report 4: funnel counts (convert → copy) ───────────────────────────
+    # Report 4: funnel counts (convert -> copy)
     convert_n = ctx.event_count(EVT_CONVERT)
     copy_n = ctx.event_count(EVT_COPY)
     lookup_n = ctx.event_count(EVT_LOOKUP)
@@ -331,7 +333,7 @@ def render_human(result, windows, limit):
     for w in windows:
         ga = result["windows"].get(str(w), {})
         print(f"\n{'='*64}")
-        print(f"📅 窗口 {w}d  ({ga.get('start','?')} → {ga.get('end','?')})")
+        print(f"📅 Window {w}d  ({ga.get('start','?')} → {ga.get('end','?')})")
         print(f"{'='*64}")
 
         if "error" in ga:
@@ -348,28 +350,28 @@ def render_human(result, windows, limit):
             print("  event totals:",
                   ", ".join(f"{ev}={totals.get(ev,0)}" for ev in ALL_EVENTS))
 
-        # 1. PRIMARY — term demand
+        # 1. PRIMARY: term demand
         print()
         _render_dim_report(
-            f"① 詞需求排行 (top {limit} 查詢最多的 term_id) — PRIMARY",
+            f"(1) Term demand ranking (top {limit} most looked-up term_ids) — PRIMARY",
             ga.get("term_demand"), value_key="term_id", label_w=40, top=limit)
 
         # 2. direction
         print()
-        _render_dim_report("② 方向使用 — converter_convert by direction",
+        _render_dim_report("(2) Direction usage — converter_convert by direction",
                            ga.get("direction_convert"), value_key="direction", label_w=12)
-        _render_dim_report("   方向切換 — converter_direction_toggle (to)",
+        _render_dim_report("    Direction toggle — converter_direction_toggle (to)",
                            ga.get("direction_toggle"), value_key="to", label_w=12)
 
         # 3. example categories
         print()
-        _render_dim_report("③ 範例分類熱度 — converter_example_click by category",
+        _render_dim_report("(3) Example category popularity — converter_example_click by category",
                            ga.get("example_categories"), value_key="category", label_w=28)
 
         # 4. funnel
         print()
         f = ga.get("funnel", {})
-        print("  ── ④ 漏斗 convert → copy ──")
+        print("  ── (4) Funnel convert → copy ──")
 
         def _fmt(v):
             return "(error)" if v is None else v
@@ -380,7 +382,8 @@ def render_human(result, windows, limit):
         print(f"    copy / convert ratio  = {cpc if cpc is not None else '(n/a — no converts yet)'}")
 
     print(f"\n💾 saved → {CACHE_DIR / 'converter-demand-latest.json'}")
-    print("ℹ️  限制：此排行只含【現有詞】的需求，看不到缺漏詞（見 docstring）。")
+    print("ℹ️  Limitation: this ranking only covers demand for EXISTING terms; "
+          "cannot see missing terms (see module docstring).")
 
 
 def main():

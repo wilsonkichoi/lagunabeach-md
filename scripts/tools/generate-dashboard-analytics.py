@@ -32,7 +32,7 @@ from datetime import datetime
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-CACHE = Path.home() / ".config" / "taiwan-md" / "cache"
+CACHE = Path.home() / ".config" / "lagunabeach-md" / "cache"
 TARGET = REPO_ROOT / "public" / "api" / "dashboard-analytics.json"
 
 
@@ -82,7 +82,7 @@ def normalize_path(path: str) -> str:
 
 
 def clean_title(title: str) -> str:
-    return (title or "").replace(" | Taiwan.md", "").strip()
+    return (title or "").replace(" | LagunaBeach.md", "").replace(" | Taiwan.md", "").strip()
 
 
 # Language detection from URL path prefix.
@@ -261,11 +261,11 @@ BRAND_QUERY_PATTERNS = [
 
 
 def _is_brand_query(q_str):
-    """Classify a query as brand (contains 'taiwan.md' / 'taiwan md' / exact 'md' / 'taiwandotmd').
+    """Classify a query as brand (contains site name variants).
 
-    2026-04-17 δ: SC 7d 總 CTR 8.54% 虛胖 — top queries 'taiwan md' 62% / 'taiwan.md' 71%
-    (brand 詞) 撐起整體率。真實 non-brand 搜尋可見度 <3%。拆分揭露分層真相（REFLEXES #24
-    第 5 種「加權平均掩蓋分層真相」的儀器化）。
+    Total CTR is inflated by brand queries (60-80% CTR) while real non-brand
+    search visibility is <3%. Splitting reveals the stratified truth that a
+    weighted average hides.
     """
     import re as _re
     if not q_str:
@@ -336,7 +336,7 @@ def build_sc_7d_section(sc_raw):
     if ctr_pct <= 1:
         ctr_pct = round(ctr_pct * 100, 2)
 
-    # Brand vs non-brand breakdown (2026-04-17 δ — REFLEXES #24 第 5 種儀器化)
+    # Brand vs non-brand breakdown (reveals stratified truth behind blended CTR)
     brand_clicks = brand_imp = 0
     nonbrand_clicks = nonbrand_imp = 0
     for q in sc_raw.get("queries", []):
@@ -457,8 +457,8 @@ def build_ai_crawlers_dashboard(ai_raw):
         "crawlers": crawlers_simple,
         "period": ai_raw.get("period"),
     }
-    # 主權巴別塔 per-language gauge（audit 2026-06-10 A-9）：AI 在各語言讀了
-    # 多少 Taiwan.md — 翻譯 infrastructure 的真正 KPI。Pass-through，cache 有才有。
+    # Per-language AI crawler gauge (audit 2026-06-10 A-9): how much AI reads
+    # each language. Translation infrastructure KPI. Pass-through from cache.
     if ai_raw.get("perLanguage"):
         out["perLanguage"] = ai_raw["perLanguage"]
     return out

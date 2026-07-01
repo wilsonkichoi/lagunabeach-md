@@ -1,19 +1,21 @@
 #!/usr/bin/env python3
 """
-converter-analytics.py — 台灣用語轉換器 (/terminology/*) 的 GA4 + Search Console 深掃
+converter-analytics.py — Terminology converter (/terminology/*) GA4 + Search Console deep scan
 
-回答「大家怎麼用轉換器」這個問題，page-filtered 到 /terminology 區段，
-跨 90d / 28d 兩個窗口。GA4 看「誰來了 + 站內怎麼動」，SC 看「誰想來、搜什麼進來」。
+Answers "how do people use the converter", page-filtered to /terminology,
+across 90d / 28d windows. GA4 shows "who came + on-site behavior", SC shows
+"who wants to come + what they searched".
 
-⚠️ 已知盲區：轉換器前端零互動埋點（無 convert/copy/example/direction event），
-所以 GA4 只能看 page-level（pageview / engagement time / source），看不到
-實際轉換次數、查哪些詞、複製率、方向偏好。這支工具量的是「可量的那一半」。
+Known blind spot: converter frontend has zero interaction instrumentation (no
+convert/copy/example/direction events), so GA4 can only see page-level
+(pageview / engagement time / source), not actual conversion counts, which
+terms are looked up, copy rate, or direction preference. This tool measures
+"the measurable half".
 
-用法:
+Usage:
     python3 scripts/tools/converter-analytics.py            # 90d + 28d
-    python3 scripts/tools/converter-analytics.py --json     # 純 JSON 輸出
-憑證 / venv 同 fetch-ga4.py（~/.config/lagunabeach-md/）。
-來源: 2026-06-13 converter-research session
+    python3 scripts/tools/converter-analytics.py --json     # raw JSON output
+Credentials / venv same as fetch-ga4.py (~/.config/lagunabeach-md/).
 """
 import json
 import os
@@ -21,7 +23,7 @@ import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
-CONFIG_DIR = Path.home() / ".config" / "taiwan-md"
+CONFIG_DIR = Path.home() / ".config" / "lagunabeach-md"
 CREDENTIALS_DIR = CONFIG_DIR / "credentials"
 VENV_DIR = CONFIG_DIR / "venv"
 ENV_FILE = CREDENTIALS_DIR / ".env"
@@ -311,11 +313,11 @@ def main():
     for w in [int(x) for x in args.windows.split(",")]:
         ga = result["ga"].get(str(w), {})
         sc = result["sc"].get(str(w), {})
-        print(f"\n{'='*60}\n📅 窗口 {w}d  ({ga.get('start','?')} → {ga.get('end','?')})\n{'='*60}")
+        print(f"\n{'='*60}\n📅 Window {w}d  ({ga.get('start','?')} → {ga.get('end','?')})\n{'='*60}")
         if "error" in ga:
             print("  GA4 error:", ga["error"])
         else:
-            print("  ── GA4 誰來了 ──")
+            print("  ── GA4 who visited ──")
             for p in ga.get("pages", []):
                 print(f"    {p['path']:<32} views={p['views']:>6} users={p['users']:>5} "
                       f"newU={p['newUsers']:>5} engmt={p['engagementSec']//60}m eng={p['engagementRate']*100:.0f}% bounce={p['bounceRate']*100:.0f}%")
@@ -327,7 +329,7 @@ def main():
             print("  SC error:", sc["error"])
         else:
             t = sc.get("converter_totals", {})
-            print(f"  ── SC 誰想來 ── totals: clicks={t.get('clicks')} impr={t.get('impressions')} ctr={(t.get('ctr',0))*100:.1f}% pos={t.get('position')}")
+            print(f"  ── SC who wants to visit ── totals: clicks={t.get('clicks')} impr={t.get('impressions')} ctr={(t.get('ctr',0))*100:.1f}% pos={t.get('position')}")
             print("  top queries→converter:")
             for q in sc.get("converter_queries", [])[:20]:
                 print(f"    {q['impressions']:>5} impr | {q['clicks']:>3} clk | ctr {q['ctr']*100:>5.1f}% | pos {q['position']:>5.1f} | {q['query']}")

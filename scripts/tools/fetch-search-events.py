@@ -1,30 +1,26 @@
 #!/usr/bin/env python3
 """
-fetch-search-events.py — 從 GA4 拉 search_query / search_result_click 事件數據
+fetch-search-events.py — Pull search_query / search_result_click event data from GA4
 
-讀取昨天上線（2026-04-13 γ session）的 GA4 自訂事件追蹤：
-  - search_query    : { search_term, results_count, search_lang, search_mode }
+Reads GA4 custom event tracking (search_query + search_result_click):
+  - search_query        : { search_term, results_count, search_lang, search_mode }
   - search_result_click : { search_term, click_title, click_url, click_position }
 
-輸出兩個視角：
-  1. Top queries — 讀者實際在搜什麼
-  2. Zero-result queries — 讀者想要但我們沒有的東西（最高價值）
-  3. Top click patterns — 搜索→點擊轉換成功的詞
+Outputs three views:
+  1. Top queries: what readers actually search for
+  2. Zero-result queries: what readers want but we don't have (highest value)
+  3. Top click patterns: search-to-click conversions
 
-用法:
+Usage:
     python3 scripts/tools/fetch-search-events.py [--days 7]
 
-輸出:
+Output:
     ~/.config/lagunabeach-md/cache/search-events-latest.json
     stdout: human-readable markdown report
 
-TODO 7 天後（4/21）跑這個工具看實際數據。
-
-為什麼分開不放在 fetch-ga4.py：
-  search 事件是 funnel 分析的專屬視角，跟 site-wide 流量數據是不同問題。
-  分開讓 EVOLVE-PIPELINE 可以針對性消費「讀者想要什麼」的訊號。
-
-來源: 2026-04-14 η session, Tier 1 #3
+Why separate from fetch-ga4.py:
+  Search events are a funnel-specific view, a different question from site-wide
+  traffic data. Separated so EVOLVE-PIPELINE can consume "what readers want" signal.
 """
 import argparse
 import json
@@ -33,7 +29,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-CONFIG_DIR = Path.home() / ".config" / "taiwan-md"
+CONFIG_DIR = Path.home() / ".config" / "lagunabeach-md"
 CREDENTIALS_DIR = CONFIG_DIR / "credentials"
 CACHE_DIR = CONFIG_DIR / "cache"
 VENV_DIR = CONFIG_DIR / "venv"
@@ -233,7 +229,7 @@ def main():
         print(f"| {i} | `{q['term']}` | {q['lang']} | {q['count']} |")
 
     print(f"\n## ⚠️ Zero-Result Queries — Content Gap Signals ({len(data['zero_result_queries'])})\n")
-    print("> 讀者搜了但找不到——這是最高價值的內容缺口情報\n")
+    print("> Readers searched but found nothing — highest-value content gap intel\n")
     if data["zero_result_queries"]:
         print("| # | Query | Lang | Count |")
         print("|---|-------|------|-------|")
@@ -243,7 +239,7 @@ def main():
         print("✅ No zero-result queries (every search returned matches)")
 
     print(f"\n## 🎯 Top Click Patterns ({len(data['clicks'])})\n")
-    print("> 哪些搜尋詞最終轉換成點擊\n")
+    print("> Which search terms converted to clicks\n")
     if data["clicks"]:
         print("| # | Query → Article | Count |")
         print("|---|------------------|-------|")

@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 """
-sense-diff.py — 比較兩天的三源感知快照，列出關鍵指標 delta
+sense-diff.py — Compare two days of three-source analytics snapshots, list key metric deltas
 
 Usage:
-  python3 scripts/tools/sense-diff.py                 # latest vs 昨天
-  python3 scripts/tools/sense-diff.py 2026-04-11      # latest vs 指定日期
-  python3 scripts/tools/sense-diff.py 2026-04-11 2026-04-04  # 指定兩個日期
-  python3 scripts/tools/sense-diff.py --json          # JSON 輸出
+  python3 scripts/tools/sense-diff.py                 # latest vs yesterday
+  python3 scripts/tools/sense-diff.py 2026-04-11      # latest vs specified date
+  python3 scripts/tools/sense-diff.py 2026-04-11 2026-04-04  # two specific dates
+  python3 scripts/tools/sense-diff.py --json          # JSON output
 
-2026-04-11 session α 建造 — 為未來的心跳自動 diff 昨天 / 本週基準
 Stdlib only (no venv needed).
 """
 from __future__ import annotations
@@ -19,7 +18,7 @@ from datetime import date, timedelta
 from pathlib import Path
 from typing import List, Tuple
 
-CACHE = Path.home() / ".config" / "taiwan-md" / "cache"
+CACHE = Path.home() / ".config" / "lagunabeach-md" / "cache"
 
 
 def load(name: str) -> "dict":
@@ -143,7 +142,7 @@ def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     json_out = "--json" in sys.argv
 
-    # default: latest vs 昨天
+    # default: latest vs yesterday
     if len(args) == 0:
         yesterday = (date.today() - timedelta(days=1)).isoformat()
         a_target, b_target = yesterday, "latest"
@@ -169,37 +168,37 @@ def main():
         }, indent=2, default=str))
         return
 
-    print(f"# 三源感知 diff: {a_label} → {b_label}")
+    print(f"# Three-source analytics diff: {a_label} → {b_label}")
 
     if a_cf_m or b_cf_m:
         print_table("Cloudflare", diff_dict(a_cf_m, b_cf_m))
     else:
-        print("\n## Cloudflare — 無快照")
+        print("\n## Cloudflare — no snapshot")
 
     if a_ga_m or b_ga_m:
         print_table("GA4", diff_dict(a_ga_m, b_ga_m))
     else:
-        print("\n## GA4 — 無快照")
+        print("\n## GA4 — no snapshot")
 
     if a_sc_m or b_sc_m:
         print_table("Search Console", diff_dict(a_sc_m, b_sc_m))
     else:
-        print("\n## Search Console — 無快照")
+        print("\n## Search Console — no snapshot")
 
-    # 🧪 EXP-2026-04-11-A 快速驗證
+    # EXP-2026-04-11-A quick verification
     a_404 = a_cf_m.get("404_rate_pct")
     b_404 = b_cf_m.get("404_rate_pct")
     if a_404 is not None and b_404 is not None:
-        print("\n## 🧪 EXP-2026-04-11-A: 404 rate drop (預測 16.5% → 6.0% ±2pp)")
+        print("\n## 🧪 EXP-2026-04-11-A: 404 rate drop (predicted 16.5% → 6.0% +/-2pp)")
         print(f"  before: {a_404}%  →  after: {b_404}%  (Δ {b_404 - a_404:+.1f}pp)")
         if 4.0 <= b_404 <= 8.0:
-            print("  ✅ 命中預測區間")
+            print("  ✅ Hit predicted range")
         elif b_404 < 4.0:
-            print("  ⚠️  低於預測 — 筆記：下次不要低估修復影響")
+            print("  ⚠️  Below prediction — note: don't underestimate fix impact next time")
         elif b_404 > 12.0:
-            print("  ❌ 仍高 — 還有第四個 404 黑洞沒找到")
+            print("  ❌ Still high — there's a fourth 404 black hole unfound")
         else:
-            print("  ⏳ 部分命中 — 繼續觀察")
+            print("  ⏳ Partial hit — continue observing")
 
 
 if __name__ == "__main__":

@@ -1,32 +1,30 @@
 #!/usr/bin/env python3
 """
-fetch-ga4.py — 抓 Google Analytics 4 (taiwan.md) 的關鍵指標
+fetch-ga4.py — Fetch Google Analytics 4 key metrics for lagunabeach.md
 
-用法:
+Usage:
     python3 scripts/tools/fetch-ga4.py [--days 1]
 
-憑證來源（優先序）:
+Credentials (priority order):
     1. ~/.config/lagunabeach-md/credentials/google-service-account.json
-    2. 環境變數 GOOGLE_APPLICATION_CREDENTIALS
+    2. Environment variable GOOGLE_APPLICATION_CREDENTIALS
 
-屬性 ID 來源:
-    ~/.config/lagunabeach-md/credentials/.env 裡的 GA4_PROPERTY_ID
+Property ID:
+    GA4_PROPERTY_ID in ~/.config/lagunabeach-md/credentials/.env
 
-輸出:
+Output:
     ~/.config/lagunabeach-md/cache/ga4-latest.json
     ~/.config/lagunabeach-md/cache/ga4-{YYYY-MM-DD}.json
 
-依賴:
+Dependencies:
     google-analytics-data
     google-auth
 
-    推薦安裝到 ~/.config/lagunabeach-md/venv/:
+    Recommended install into ~/.config/lagunabeach-md/venv/:
         python3 -m venv ~/.config/lagunabeach-md/venv
         ~/.config/lagunabeach-md/venv/bin/pip install google-analytics-data google-auth
 
-    script 會自動偵測這個 venv 並使用。
-
-來源: 2026-04-11 session α
+    Script auto-detects this venv and uses it.
 """
 import json
 import os
@@ -34,7 +32,7 @@ import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
-CONFIG_DIR = Path.home() / ".config" / "taiwan-md"
+CONFIG_DIR = Path.home() / ".config" / "lagunabeach-md"
 CREDENTIALS_DIR = CONFIG_DIR / "credentials"
 CACHE_DIR = CONFIG_DIR / "cache"
 VENV_DIR = CONFIG_DIR / "venv"
@@ -167,9 +165,8 @@ def main():
             Metric(name="activeUsers"),
             Metric(name="eventCount"),
             # Per-page stickiness — EVOLVE-PIPELINE Phase 1A documents needing
-            # "per-page bounce rate (哪些文章讀者看了就跑)" + dwell, but only the
-            # site-wide `overall` block had bounceRate, so EVOLVE was blind to it
-            # per article. 2026-06-14 data-state-analysis B10: surface it per page.
+            # per-page bounce rate + dwell, but only the site-wide `overall` block
+            # had bounceRate, so EVOLVE was blind to it per article. Surface per page.
             Metric(name="bounceRate"),
             Metric(name="averageSessionDuration"),
         ],
@@ -232,8 +229,7 @@ def main():
     # Report 6: All article paths for per-lang aggregation (2026-05-16)
     # Path-prefix based lang derivation (zh-TW = no prefix, en/ja/ko/es/fr = prefix).
     # Limit 500 to capture small-lang signal that the limit=50 top_pages misses.
-    # Powers dashboard-analytics.json `ga.byLang` — sovereignty preservation impact
-    # 量測（per reports/immune-score-redesign-2026-05-16.md §D 短期方案）。
+    # Powers dashboard-analytics.json `ga.byLang` for multilingual impact measurement.
     by_lang_req = RunReportRequest(
         property=f"properties/{property_id}",
         date_ranges=[date_range],

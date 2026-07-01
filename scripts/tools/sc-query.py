@@ -1,19 +1,17 @@
 #!/usr/bin/env python3
-"""sc-query.py — Search Console 查詢 CLI（ANALYSIS-PIPELINE Stage 1 原料）
+"""sc-query.py — Search Console query CLI (ANALYSIS-PIPELINE Stage 1)
 
-用法:
-  # Computex 頁的查詢詞（page contains filter）
-  sc-query.py --dims query --filter 'page~Computex' --start 2026-05-22 --end 2026-06-05
+Usage:
+  # Queries for a specific page (page contains filter)
+  sc-query.py --dims query --filter 'page~trails' --start 2026-05-22 --end 2026-06-05
 
-  # 全站 top pages 近 14 天
+  # Site-wide top pages last 14 days
   sc-query.py --dims page --start 14d --end today --limit 30
 
-filter: dimension~value (contains) / dimension=value (equals) / dimension!value (notContains)
-  dimensions: query / page / device / country / searchAppearance / date
-日期: YYYY-MM-DD / today / NNd（→ N 天前）。
-輸出: 表格（key... clicks impr ctr% pos）；--json / --save。
-
-來源: 2026-06-05 ANALYSIS-PIPELINE 造橋。
+Filter: dimension~value (contains) / dimension=value (equals) / dimension!value (notContains)
+  Dimensions: query / page / device / country / searchAppearance / date
+Dates: YYYY-MM-DD / today / NNd (= N days ago).
+Output: table (key... clicks impr ctr% pos); --json / --save.
 """
 import argparse
 import json

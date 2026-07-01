@@ -247,7 +247,7 @@ reading tool source. Execute via `/lb-implement` + `/lb-review`, batched by grou
 - [x] **Group 2: article-health checks** (17 files, ~350 lines)
       `scripts/tools/lib/article_health/` — plugin docstrings + inline comments.
       CJK in regex patterns (matching zh-TW content markers) is KEEP.
-- [ ] **Group 3: analytics + sensing tools** (~15 files, ~400 lines)
+- [x] **Group 3: analytics + sensing tools** (~15 files, ~400 lines)
       fetch-cloudflare, fetch-ga4, fetch-search-console, fetch-search-events,
       fetch-sense-data, cf-query, ga-query, ga-window-compare, sc-query,
       sense-diff, converter-analytics, converter-demand, register-ga4-custom-dims,

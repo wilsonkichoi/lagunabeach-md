@@ -1,28 +1,26 @@
 #!/usr/bin/env python3
-"""ga-query.py — 正確的 GA4 查詢 CLI（ANALYSIS-PIPELINE Stage 1 原料）
+"""ga-query.py — GA4 query CLI with working filters (ANALYSIS-PIPELINE Stage 1)
 
-為什麼存在：ga4-analytics skill 的 runReport **把 filters 參數 destructure 掉但從沒放進
-request** → 任何人下 filter 拿到的是「沒過濾的全站數字」而不自知（REFLEXES #24 工具在說謊：
-靜默給錯答案比 crash 危險）。這支 CLI 的 filter 真的會作用。
+Why this exists: the ga4-analytics skill's runReport destructured filters but
+never placed them into the request, so any filtered query silently returned
+unfiltered site-wide numbers. This CLI's filters actually work.
 
-用法:
-  # 首頁 zh-TW daily 停留/互動
+Usage:
+  # Homepage daily engagement
   ga-query.py --dims date --metrics screenPageViews,averageSessionDuration,engagementRate,bounceRate \\
               --filter pagePath=/ --start 2026-05-19 --end 2026-06-05
 
-  # Computex 頁 referrer 拆解（contains 用 ~）
+  # Page referrer breakdown (contains via ~)
   ga-query.py --dims pageReferrer --metrics screenPageViews,activeUsers \\
-              --filter 'pagePath~omputex' --start 3daysAgo --end today --order screenPageViews
+              --filter 'pagePath~trails' --start 3daysAgo --end today --order screenPageViews
 
-  # 此刻誰在線（realtime）
+  # Who's online right now (realtime)
   ga-query.py --realtime --dims unifiedScreenName --metrics activeUsers
 
-filter 運算子: field=value (exact) / field~value (contains) / field^value (begins) / field#regex
-日期: YYYY-MM-DD 或 GA4 相對格式（today / 7daysAgo / 14daysAgo …）。--start NNd 也接受。
-輸出: 預設表格；--json 出 JSON；--save FILE 落檔。
-退出碼: 0 OK / 2 參數錯。
-
-來源: 2026-06-05 ANALYSIS-PIPELINE 造橋。
+Filter operators: field=value (exact) / field~value (contains) / field^value (begins) / field#regex
+Dates: YYYY-MM-DD or GA4 relative format (today / 7daysAgo / 14daysAgo). --start NNd accepted.
+Output: table by default; --json for JSON; --save FILE to write.
+Exit codes: 0 OK / 2 bad args.
 """
 import argparse
 import json

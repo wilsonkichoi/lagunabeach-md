@@ -1,23 +1,23 @@
 #!/usr/bin/env python3
-"""referral-attribution.py — 流量來源 forensics + 遮蔽渠道偵測（ANALYSIS-PIPELINE mode B）
+"""referral-attribution.py — Traffic source forensics + masked-channel detection (ANALYSIS-PIPELINE mode B)
 
-把 PTT 報告的發現儀器化（design §四「PTT 偵測器」）。很多最有黏性的來源（PTT 及其
-鏡像 / app）因為連結帶 rel="noreferrer" → referrer 被擦空 → 在 GA 記成「直接造訪」，
-讓最在乎你的讀者隱形（分析幻覺 H9 遮蔽渠道盲視）。
+Many of the stickiest referral sources (forums, apps, link shorteners) use
+rel="noreferrer" links, which wipe the referrer and record as "direct" in GA,
+making the most engaged readers invisible (analysis hallucination H9: masked
+channel blindness).
 
-這支工具:
-  1. 拆 pageReferrer + landingPage×source，找出某頁的真實來源結構
-  2. 比對已知「遮蔽渠道指紋」（PTT 生態：disp.cc 鏡像 / jptt app / reurl 短網址 / ptt.cc）
-  3. 算 repost 簽名分數：大量 (direct) 落地 + 生態尾巴 + 地理高度集中 + 行動裝置為主
-     四訊號同時亮 = 高機率被外部論壇轉錄、referrer 被 noreferrer 洗白
+This tool:
+  1. Breaks down pageReferrer + landingPage x source to find the real source structure
+  2. Matches known "masked channel fingerprints" (forum ecosystems: mirror sites, apps, short URLs)
+  3. Computes a repost signature score: heavy (direct) landing + ecosystem tail +
+     geo-concentrated + mobile-heavy. All 4 signals lit = high probability of external
+     forum repost with referrer wiped by noreferrer.
 
-用法:
-  referral-attribution.py --filter 'pagePath~Computex' --start 3daysAgo --end today
-  referral-attribution.py --filter 'pagePath=/technology/Computex/' --start 3d --end today --json
+Usage:
+  referral-attribution.py --filter 'pagePath~trails' --start 3daysAgo --end today
+  referral-attribution.py --filter 'pagePath=/nature/trails/' --start 3d --end today --json
 
-退出碼: 0 OK / 1 偵測到 repost 簽名（提醒去查外部來源）/ 2 參數錯。
-
-來源: 2026-06-05 ANALYSIS-PIPELINE 造橋（ptt-computex-discussion-analysis 報告 §二 noreferrer 發現）。
+Exit codes: 0 OK / 1 repost signature detected (go check external sources) / 2 bad args.
 """
 import argparse
 import json
@@ -29,14 +29,15 @@ from lib.sense_client import reexec_in_venv  # noqa: E402
 reexec_in_venv()
 from lib.sense_client import ga_run  # noqa: E402
 
-# 已知遮蔽渠道指紋（referrer 或 source 子字串 → 人話）。可擴充（dcard / mobile01 …）。
+# Known masked-channel fingerprints (referrer or source substring -> human label).
+# Extendable (reddit / nextdoor / other forum ecosystems).
 MASKED_FINGERPRINTS = {
-    "disp.cc": "PTT 網頁鏡像站",
-    "jptt": "JPTT（PTT Android app）",
-    "ptt.cc": "PTT 直接",
+    "disp.cc": "PTT web mirror",
+    "jptt": "JPTT (PTT Android app)",
+    "ptt.cc": "PTT direct",
     "pttweb": "PTT web",
-    "reurl.cc": "短網址（常見於 PTT 推文）",
-    "term.ptt": "PTT 終端機 web",
+    "reurl.cc": "Short URL (common in forum posts)",
+    "term.ptt": "PTT terminal web",
 }
 
 
@@ -99,9 +100,9 @@ def main():
         "mobile_heavy": mobile_share >= 0.45,
     }
     score = sum(sig.values())
-    verdict = ("🚨 高機率被外部論壇轉錄（referrer 被 noreferrer 洗白）" if score >= 3
-               else "⚠️ 部分訊號，可能有遮蔽來源" if score == 2
-               else "— 無明顯 repost 簽名")
+    verdict = ("🚨 High probability of external forum repost (referrer wiped by noreferrer)" if score >= 3
+               else "⚠️ Partial signals, possible masked source" if score == 2
+               else "— No clear repost signature")
 
     payload = {
         "filter": a.filter, "start": start, "end": end,
@@ -120,20 +121,20 @@ def main():
         print(json.dumps(payload, ensure_ascii=False, indent=2))
         sys.exit(1 if score >= 3 else 0)
 
-    print(f"頁面 filter={a.filter}  {start}..{end}\n")
-    print(f"(direct/blank) referrer：{blank_pv} pv（占 {blank_share*100:.0f}%）← noreferrer 洗白的主體可能在這")
-    print(f"top country：{top_country[0]} {top_country[1]*100:.0f}%   mobile：{mobile_share*100:.0f}%\n")
+    print(f"Page filter={a.filter}  {start}..{end}\n")
+    print(f"(direct/blank) referrer: {blank_pv} pv ({blank_share*100:.0f}%) <- noreferrer-wiped traffic likely here")
+    print(f"top country: {top_country[0]} {top_country[1]*100:.0f}%   mobile: {mobile_share*100:.0f}%\n")
     if found:
-        print("遮蔽渠道指紋（漏出來、可追溯的尾巴）：")
+        print("Masked-channel fingerprints (leaked, traceable tail):")
         for f in found:
-            print(f"  {f['referrer']:<40} {f['pv']:>4} pv  → {f['channel']}")
+            print(f"  {f['referrer']:<40} {f['pv']:>4} pv  -> {f['channel']}")
     else:
-        print("（無已知遮蔽渠道指紋）")
-    print(f"\nrepost 4 訊號：blank≥30%={sig['blank_referrer_heavy']} / 生態尾巴={sig['ecosystem_tail_present']} / "
-          f"地理集中≥70%={sig['geo_concentrated']} / 行動≥45%={sig['mobile_heavy']}  → 分數 {score}/4")
-    print(f"判定：{verdict}")
+        print("(no known masked-channel fingerprints)")
+    print(f"\nRepost 4 signals: blank>=30%={sig['blank_referrer_heavy']} / ecosystem tail={sig['ecosystem_tail_present']} / "
+          f"geo concentrated>=70%={sig['geo_concentrated']} / mobile>=45%={sig['mobile_heavy']}  -> score {score}/4")
+    print(f"Verdict: {verdict}")
     if score >= 3:
-        print("\n→ 去搜尋外部論壇（PTT / Dcard / Mobile01 等）確認被轉錄的串，跑 ANALYSIS-PIPELINE mode D 接收分析")
+        print("\n-> Search external forums to confirm the repost thread, then run ANALYSIS-PIPELINE mode D reception analysis")
     sys.exit(1 if score >= 3 else 0)
 
 

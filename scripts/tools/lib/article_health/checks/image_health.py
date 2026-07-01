@@ -57,7 +57,7 @@ DEFAULT_WORDS_PER_MEDIA = 400
 
 # Markdown image syntax: ![alt](src)
 _RE_INLINE_IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)\n]+)\)")
-# 2026-06-04: count 影片 iframe toward the media threshold (哲宇「圖+影片」directive).
+# 2026-06-04: count video iframes toward the media threshold (images+videos directive).
 _RE_IFRAME = re.compile(r"<iframe[\s>]", re.IGNORECASE)
 _RE_IMAGE_SOURCES_H2 = re.compile(r"^##\s*(?:Image Sources|圖片來源)", re.MULTILINE)
 _RE_CJK = re.compile(r"[一-鿿㐀-䶿]")
