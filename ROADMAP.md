@@ -256,7 +256,7 @@ reading tool source. Execute via `/lb-implement` + `/lb-review`, batched by grou
       spore-db, bootstrap-spore-ssot, generate-spore-image, make-spore,
       spore-content-hash-audit, validate-spore-data, migrate-spore-log-to-harvests,
       sync-spore-links (partial done), manage-featured.
-- [ ] **Group 5: content/editorial tools** (~20 files, ~400 lines)
+- [x] **Group 5: content/editorial tools** (~20 files, ~400 lines)
       footnote-format-fix, research-report-health, analysis-report-health,
       image-ingest, land-media-batch, migrate-images-webp, generate-carousel-slides,
       check-freshness, cross-link, dead-cross-ref-scan, wiki-fetch, inbox-audit,

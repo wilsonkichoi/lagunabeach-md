@@ -1,24 +1,26 @@
 #!/usr/bin/env python3
 """
-lessons-distill.py — LESSONS-INBOX distill 助手（把 distill 的處理/分析/歸檔儀器化）
+lessons-distill.py — LESSONS-INBOX distill helper (instruments the process/analysis/archive workflow)
 
-把 2026-06-19 完整 distill（§未消化 266→8）的手工流程固化成工具，讓未來 distill
-更方便、更精煉。三個子指令對應 distill 三個吃力環節：
+Codifies the manual workflow from the 2026-06-19 full distill (undigested 266->8) into
+a reusable tool for future distills. Three subcommands match three labor-intensive stages:
 
-  audit  — distill 前「現場感知」：§未消化 count / 結構完整性 / Stage 0a housekeeping
-           候選 / severity+vc 排序 / cross-check inbox-signal 門檻
-  chunk  — 「分析」環節 fan-out 準備：把 §未消化 切成 N 段 line range，餵給平行
-           read-only 子代聚類（few patterns × many instances）
-  sweep  — 「歸檔處理」環節：deterministic keeper-based sweep，移除已 distill 的
-           entry、合併多個 §未消化 section、保留 §已消化/§Defer/§歸檔 verbatim
+  audit  — pre-distill "situation awareness": undigested count / structural integrity /
+           Stage 0a housekeeping candidates / severity+vc ranking / cross-check inbox-signal threshold
+  chunk  — "analysis" stage fan-out preparation: split undigested section into N line ranges
+           for parallel read-only sub-agent clustering (few patterns x many instances)
+  sweep  — "archive" stage: deterministic keeper-based sweep, remove already-distilled
+           entries, merge multiple undigested sections, preserve consumed/Defer/archive verbatim
 
-設計原則：
-- 讀（分析）平行化、寫（歸檔）deterministic。LLM 判斷不外包給 script，但聚類 prep
-  + 機械 sweep 可以（REFLEXES「fan-out read + deterministic sweep」）。
-- sweep dry-run by default，--apply 才寫；保留條數 0 會 refuse（防呆 — 不可能整批 drop）。
-- audit 自己 cross-verify ground truth grep count（REFLEXES #65），不只信單一 regex。
+Design principles:
+- Reads (analysis) parallelized, writes (archiving) deterministic. LLM judgment not
+  outsourced to script, but cluster prep + mechanical sweep can be (REFLEXES "fan-out read +
+  deterministic sweep").
+- sweep dry-run by default, --apply to write; refuses if keep count = 0 (safety — impossible
+  to legitimately drop entire batch).
+- audit self-verifies ground truth grep count (REFLEXES #65), not trusting a single regex.
 
-canonical：docs/semiont/LESSONS-INBOX.md §Distill SOP（6-stage）+ REFLEXES #15 / #72。
+Canonical: docs/semiont/LESSONS-INBOX.md Distill SOP (6-stage) + REFLEXES #15 / #72.
 """
 import argparse
 import re
@@ -28,7 +30,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parents[2]
 DEFAULT_LESSONS = REPO / "docs/semiont/LESSONS-INBOX.md"
 
-UNMET_RE = re.compile(r"^## .*未消化清單")        # 只配 content section（SOP 內無此 H2）
+UNMET_RE = re.compile(r"^## .*未消化清單")        # matches content section only (SOP has no such H2)
 CONSUMED_RE = re.compile(r"^## ✅ 已消化")
 ARCHIVED_RE = re.compile(r"^## ❌ 已歸檔")
 ENTRY_RE = re.compile(r"^### ")
@@ -56,7 +58,7 @@ def find_first(lines, rx):
 
 
 def entry_blocks(lines, start, end):
-    """切出 [start,end) 內的 entries：每個 entry 從 ### 到下一個 ### / ## 之前。"""
+    """Extract entries within [start,end): each entry runs from ### to the next ### or ##."""
     seg = lines[start:end]
     idxs = [k for k, l in enumerate(seg) if ENTRY_RE.match(l)]
     blocks = []
@@ -67,7 +69,7 @@ def entry_blocks(lines, start, end):
 
 
 def unmet_spans(lines):
-    """回傳所有 §未消化 section 的 (header_idx, end_idx)。end = 下一個 ## 或 EOF。"""
+    """Return all undigested section spans as (header_idx, end_idx). end = next ## or EOF."""
     heads = find_all(lines, UNMET_RE)
     spans = []
     for h in heads:
@@ -101,43 +103,43 @@ def cmd_audit(args):
     n = len(entries)
 
     print(f"📥 LESSONS-INBOX distill audit — {args.file}")
-    print(f"   §未消化 entries: {n}（門檻 200 → {'⚠️ distill due' if n >= 200 else 'ok'}）")
+    print(f"   Undigested entries: {n} (threshold 200 -> {'⚠️ distill due' if n >= 200 else 'ok'})")
 
-    # cross-verify ground truth grep count（REFLEXES #65 — 不只信 regex span）
+    # cross-verify ground truth grep count (REFLEXES #65 — don't trust single regex)
     raw = sum(
         1
         for i, l in enumerate(lines)
         if ENTRY_RE.match(l)
         and any(h < i < e for h, e in spans)
     )
-    flag = "✅ 對齊" if raw == n else f"⚠️ regex {n} vs grep {raw} 不一致"
+    flag = "✅ aligned" if raw == n else f"⚠️ regex {n} vs grep {raw} mismatch"
     print(f"   ground-truth cross-check: {flag}")
 
-    # 結構漂移：多個 §未消化 section
+    # Structural drift: multiple undigested sections
     if len(spans) > 1:
         hdrs = ", ".join(f"L{h+1}" for h, _ in spans)
-        print(f"   🚨 結構漂移：{len(spans)} 個 §未消化 section（{hdrs}）→ sweep 會自動合併")
+        print(f"   🚨 Structural drift: {len(spans)} undigested sections ({hdrs}) -> sweep will auto-merge")
     else:
-        print(f"   §未消化 section: 1（無漂移）")
+        print(f"   Undigested sections: 1 (no drift)")
 
-    # Stage 0a：self-marked done 但仍在 §未消化（housekeeping 候選）
+    # Stage 0a: self-marked done but still in undigested (housekeeping candidates)
     done = [(ln, b) for ln, b in entries if any(DONE_MARKERS.search(x) for x in b)]
-    print(f"\n   Stage 0a housekeeping 候選（self-marked done 仍在 §未消化）：{len(done)}")
+    print(f"\n   Stage 0a housekeeping candidates (self-marked done still in undigested): {len(done)}")
     for ln, b in done[: args.top]:
         print(f"     L{ln+1}  {b[0][4:][:64]}")
 
-    # severity=structural + 高 vc 優先（distill triage 順序）
+    # severity=structural + high vc priority (distill triage order)
     structural = [(ln, b) for ln, b in entries if any(STRUCTURAL_RE.search(x) for x in b)]
     ranked = sorted(entries, key=lambda t: vc_of(t[1]), reverse=True)
-    print(f"\n   severity=structural: {len(structural)} 條")
-    print(f"   高 vc top（distill 先看）：")
+    print(f"\n   severity=structural: {len(structural)} entries")
+    print(f"   High vc top (distill priority):")
     for ln, b in ranked[: args.top]:
         v = vc_of(b)
         if v >= 2:
             print(f"     vc={v}  {b[0][4:][:60]}")
 
     if n >= 200:
-        print(f"\n   → 建議：`lessons-distill.py chunk --agents N` 起 fan-out 分析（見 §Distill SOP §分析方法）")
+        print(f"\n   -> Suggestion: `lessons-distill.py chunk --agents N` for fan-out analysis (see Distill SOP)")
     return 0
 
 
@@ -147,23 +149,23 @@ def cmd_chunk(lines_or_args):
     lines = load(args.file)
     entries = all_unmet_entries(lines)
     if not entries:
-        print("§未消化 無 entry，不需 chunk", file=sys.stderr)
+        print("Undigested section has no entries, chunk not needed", file=sys.stderr)
         return 1
     k = args.agents
     per = max(1, (len(entries) + k - 1) // k)
-    print(f"# fan-out {k}-agent 分析 chunk（§未消化 {len(entries)} entries / ~{per} 每段）")
-    print(f"# 每段派一個 read-only 子代讀 line range，回傳 cluster（pattern × instances + disposition）")
-    print(f"# disposition 六桶：promote / housekeeping-done / fold→reflex / already-covered / operational→pipeline / stale")
+    print(f"# fan-out {k}-agent analysis chunk (undigested {len(entries)} entries / ~{per} per chunk)")
+    print(f"# Each chunk gets one read-only sub-agent reading line range, returning clusters (pattern x instances + disposition)")
+    print(f"# disposition 6 buckets: promote / housekeeping-done / fold->reflex / already-covered / operational->pipeline / stale")
     for a in range(0, len(entries), per):
         chunk = entries[a : a + per]
         start = chunk[0][0] + 1
-        # end = 下一 chunk 第一個 entry header，或最後 entry 結尾
+        # end = next chunk's first entry header, or last entry's end
         nxt_idx = a + per
         if nxt_idx < len(entries):
             end = entries[nxt_idx][0]
         else:
             end = chunk[-1][0] + len(chunk[-1][1])
-        print(f"  agent {a//per+1}: 讀 {Path(args.file).name} 行 {start}-{end}（{len(chunk)} entries）")
+        print(f"  agent {a//per+1}: read {Path(args.file).name} lines {start}-{end} ({len(chunk)} entries)")
     return 0
 
 
@@ -173,12 +175,12 @@ def cmd_sweep(args):
     lines = load(path)
     spans = unmet_spans(lines)
     if not spans:
-        print("找不到 §未消化 section", file=sys.stderr)
+        print("Cannot find undigested section", file=sys.stderr)
         return 1
     i_consumed = find_first(lines, CONSUMED_RE)
     i_archived = find_first(lines, ARCHIVED_RE)
     if i_consumed is None or i_archived is None:
-        print("找不到 §已消化 或 §歸檔 section（檔案結構異常）", file=sys.stderr)
+        print("Cannot find consumed or archived section (abnormal file structure)", file=sys.stderr)
         return 1
 
     keepers = []
@@ -193,18 +195,18 @@ def cmd_sweep(args):
     kept = [b for _, b in entries if keep(b)]
     dropped = len(entries) - len(kept)
 
-    print(f"sweep: §未消化 {len(entries)} → keep {len(kept)} / drop {dropped}（keeper substrings: {len(keepers)}）")
+    print(f"sweep: undigested {len(entries)} -> keep {len(kept)} / drop {dropped} (keeper substrings: {len(keepers)})")
     for b in kept:
         print(f"   KEEP  {b[0][4:][:64]}")
 
     if len(kept) == 0 and not args.force:
-        print("\n🚫 保留 0 條 — 整批 drop 不合理（keeper allowlist 可能寫錯）。確定請加 --force", file=sys.stderr)
+        print("\n🚫 Keep 0 entries — dropping entire batch is unreasonable (keeper allowlist may be wrong). Use --force to confirm", file=sys.stderr)
         return 2
     if not args.apply:
-        print(f"\n(dry-run — 加 --apply 才寫入。會合併 {len(spans)} 個 §未消化 section 為 1)")
+        print(f"\n(dry-run — use --apply to write. Will merge {len(spans)} undigested sections into 1)")
         return 0
 
-    # rebuild: prefix + 第一個 §未消化 header+intro + kept entries + 中段(§已消化~§Defer) + §歸檔
+    # rebuild: prefix + first undigested header+intro + kept entries + mid-section (consumed~Defer) + archived
     h0, e0 = spans[0]
     seg0 = lines[h0:e0]
     first_e = next((k for k, l in enumerate(seg0) if ENTRY_RE.match(l)), len(seg0))
@@ -222,21 +224,21 @@ def cmd_sweep(args):
     for b in kept:
         out += strip_blanks(b) + [""]
 
-    # 中段：§已消化 → §歸檔，但跳過任何夾在中間的其他 §未消化 section
+    # Mid-section: consumed -> archived, but skip any extra undigested sections in between
     mid = []
     skip_until = None
     for i in range(i_consumed, i_archived):
-        if any(i == h for h, _ in spans):  # 額外 §未消化 header → skip 整段
+        if any(i == h for h, _ in spans):  # extra undigested header -> skip entire span
             skip_until = next((e for h, e in spans if h == i), i + 1)
         if skip_until is not None and i < skip_until:
             continue
         mid.append(lines[i])
     out += mid
 
-    # 若指定 --record，把 distill traceability block append 進 §已消化（在 §Defer 之前）
+    # If --record specified, append distill traceability block into consumed section (before Defer)
     if args.record:
         rec = Path(args.record).read_text(encoding="utf-8").rstrip("\n")
-        # 插在 mid 的 §Defer header 之前（mid 內第一個 ## Defer），否則 mid 結尾
+        # Insert before Defer header in mid (first ## Defer in mid), or at end of mid
         insert_at = None
         for j, l in enumerate(out):
             if j >= (len(lines[:h0]) + len(intro) + 1) and l.startswith("## Defer 給觀察者拍板（"):
@@ -250,7 +252,7 @@ def cmd_sweep(args):
 
     out += lines[i_archived:]
     path.write_text("\n".join(out), encoding="utf-8")
-    print(f"\n✅ written — §未消化 {len(entries)}→{len(kept)}，{len(spans)} section 合併為 1")
+    print(f"\n✅ written — undigested {len(entries)}->{len(kept)}, {len(spans)} sections merged into 1")
     return 0
 
 
@@ -263,19 +265,19 @@ def main():
     )
     sub = p.add_subparsers(dest="cmd", required=True)
 
-    a = sub.add_parser("audit", parents=[base], help="§未消化 結構 + Stage 0a + triage 排序")
+    a = sub.add_parser("audit", parents=[base], help="undigested structure + Stage 0a + triage ranking")
     a.add_argument("--top", type=int, default=12)
     a.set_defaults(fn=cmd_audit)
 
-    c = sub.add_parser("chunk", parents=[base], help="fan-out 分析 line-range 切段")
+    c = sub.add_parser("chunk", parents=[base], help="fan-out analysis line-range splitting")
     c.add_argument("--agents", type=int, default=6)
     c.set_defaults(fn=cmd_chunk)
 
-    s = sub.add_parser("sweep", parents=[base], help="deterministic keeper-based sweep（dry-run default）")
-    s.add_argument("--keep", help="keeper allowlist 檔（每行一個 ### header substring；- = stdin）")
-    s.add_argument("--record", help="distill traceability block 檔，append 進 §已消化")
-    s.add_argument("--apply", action="store_true", help="實際寫入（否則 dry-run）")
-    s.add_argument("--force", action="store_true", help="允許保留 0 條（危險）")
+    s = sub.add_parser("sweep", parents=[base], help="deterministic keeper-based sweep (dry-run default)")
+    s.add_argument("--keep", help="keeper allowlist file (one ### header substring per line; - = stdin)")
+    s.add_argument("--record", help="distill traceability block file, appended to consumed section")
+    s.add_argument("--apply", action="store_true", help="actually write (otherwise dry-run)")
+    s.add_argument("--force", action="store_true", help="allow keeping 0 entries (dangerous)")
     s.set_defaults(fn=cmd_sweep)
 
     args = p.parse_args()

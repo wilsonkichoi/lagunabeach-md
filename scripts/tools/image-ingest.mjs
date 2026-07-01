@@ -1,27 +1,28 @@
 #!/usr/bin/env node
 /**
- * image-ingest.mjs — Taiwan.md 影像後處理工具鏈 SSOT（檢驗 + 調整 一條龍）
+ * image-ingest.mjs — Taiwan.md image post-processing toolchain SSOT (validate + transform pipeline)
  *
- * 把 REWRITE-PIPELINE Step 1.9.2 / Step 4.3 規定的影像後處理手工步驟全部儀器化。
- * 之前散在：cache-county-images.mjs（只 Wikimedia 22 縣市）+ check-aspect.sh（只 aspect）
- * + 一堆 sips/curl 手跑。本工具用 sharp（Astro 已帶，cross-platform）統一。
+ * Instruments all manual image post-processing steps specified by REWRITE-PIPELINE
+ * Step 1.9.2 / Step 4.3. Previously scattered across: cache-county-images.mjs (Wikimedia
+ * only) + check-aspect.sh (aspect only) + various manual sips/curl runs. This tool
+ * unifies everything using sharp (already bundled with Astro, cross-platform).
  *
- * 三個 mode：
+ * Three modes:
  *
- *   ingest — 下載/讀檔 → 嗅探 magic bytes → 擋 GIF/HEIC/BMP/TIFF → auto-orient + 清 EXIF/GPS
- *            → 縮放上限 → 轉檔（預設 WebP）→ quality search 壓到 size budget
- *            → 命名規範 → cache public/article-images/{cat}/ → 印 md/frontmatter/§圖片來源/授權矩陣
+ *   ingest — download/read -> sniff magic bytes -> block GIF/HEIC/BMP/TIFF -> auto-orient + strip EXIF/GPS
+ *            -> resize cap -> convert (default WebP) -> quality search to hit size budget
+ *            -> naming convention -> cache to public/article-images/{cat}/ -> emit md/frontmatter/source/license matrix
  *
- *   check  — 純檢驗（不改檔），pre-commit / CI gate：格式白名單 / aspect / size budget / EXIF 殘留
+ *   check  — validate only (no file modification), pre-commit / CI gate: format allowlist / aspect / size budget / EXIF residual
  *
- *   audit  — 全站掃 public/article-images/：格式分佈 / 超標 / EXIF 洩漏 / aspect 違規
- *            + WebP 遷移估算（非 webp 張數 + 可省 bytes）
+ *   audit  — site-wide scan of public/article-images/: format distribution / oversize / EXIF leaks / aspect violations
+ *            + WebP migration estimate (non-webp count + bytes saveable)
  *
  * Usage:
  *   node scripts/tools/image-ingest.mjs ingest --src <URL|path> --cat Food \
  *        --name dan-ta-portuguese-tart-2024 --role hero \
- *        [--format webp|jpg|png|keep] [--alt "葡式蛋撻"] \
- *        [--credit "作者 / Wikimedia"] [--license "CC BY-SA 4.0"] [--source-url "https://..."] [--dry-run]
+ *        [--format webp|jpg|png|keep] [--alt "description"] \
+ *        [--credit "author / Wikimedia"] [--license "CC BY-SA 4.0"] [--source-url "https://..."] [--dry-run]
  *
  *   node scripts/tools/image-ingest.mjs check public/article-images/food/*.webp [--role hero]
  *   node scripts/tools/image-ingest.mjs audit [--cat Food] [--json]
@@ -44,14 +45,14 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(__dirname, '..', '..');
 const IMG_ROOT = join(REPO_ROOT, 'public', 'article-images');
 
-// ── 護欄常數（對齊 REWRITE-PIPELINE Step 1.9.2）────────────────────────────
-const SIZE_BUDGET = { hero: 600 * 1024, inline: 400 * 1024 }; // hard ceiling
+// ── Guardrail constants (aligned with REWRITE-PIPELINE Step 1.9.2) ────────────
+const SIZE_BUDGET = { hero: 600 * 1024, inline: 400 * 1024 }; // hard ceiling (bytes)
 const SIZE_WARN = { hero: 500 * 1024, inline: 350 * 1024 };
-const DIM_CAP = { hero: 2400, inline: 1600 }; // max width，只縮不放
+const DIM_CAP = { hero: 2400, inline: 1600 }; // max width, downscale only
 const ASPECT = { hero: [0.9, 2.0], inline: [0.75, 2.5] }; // w/h
 const SVG_MAX = 50 * 1024;
 const OUTPUT_FORMATS = new Set(['webp', 'jpg', 'jpeg', 'png']);
-const BANNED_STORE = new Set(['gif', 'heic', 'heif', 'bmp', 'tiff']); // 須轉檔才入庫
+const BANNED_STORE = new Set(['gif', 'heic', 'heif', 'bmp', 'tiff']); // must convert before storing
 const QUALITY_START = 82;
 const QUALITY_FLOOR = 58;
 
@@ -88,7 +89,7 @@ function parseArgs(argv) {
   return out;
 }
 
-// ── magic-bytes 格式嗅探（不信副檔名）──────────────────────────────────────
+// ── Magic-bytes format sniffing (don't trust file extension) ──────────────────
 function sniffFormat(buf) {
   if (buf.length < 12) return 'unknown';
   const b = buf;
@@ -117,7 +118,7 @@ function sniffFormat(buf) {
   return 'unknown';
 }
 
-// ── 下載（generalize cache-county：UA / 30s / 429,5xx retry / thumb→original）──
+// ── Download (generalized: UA / 30s timeout / 429,5xx retry / thumb->original) ──
 function thumbToOriginal(url) {
   const m = url.match(
     /^(https:\/\/upload\.wikimedia\.org\/wikipedia\/[a-z]+)\/thumb\/([0-9a-f])\/([0-9a-f]{2})\/([^/]+)\/[^/]+$/,
@@ -149,7 +150,7 @@ async function download(url, attempt = 1) {
     }
     if (!resp.ok) {
       if ((resp.status === 429 || resp.status >= 500) && attempt < 6) {
-        await sleep(8000 * attempt); // Wikimedia 429 兇，需 8s+ 漸進退避
+        await sleep(8000 * attempt); // Wikimedia 429 aggressive, needs 8s+ progressive backoff
         return download(url, attempt + 1);
       }
       throw new Error(`HTTP ${resp.status}`);
@@ -164,15 +165,16 @@ async function download(url, attempt = 1) {
   }
 }
 
-// Commons File: page / Special:FilePath → canonical Special:FilePath download URL
-// （讓 manifest 給 File: 頁 URL 或 "derive-from-file-page" 時也能直接下載原圖）
+// Commons File: page / Special:FilePath -> canonical Special:FilePath download URL
+// (allows manifest to give File: page URL or "derive-from-file-page" and still download original)
 function commonsFilePath(src) {
   let m = src.match(/commons\.wikimedia\.org\/wiki\/(?:File|Image):(.+)$/i);
   if (m) {
     const fname = m[1].replace(/^.*\//, '').split('#')[0];
     return `https://commons.wikimedia.org/wiki/Special:FilePath/${fname}`;
   }
-  if (/commons\.wikimedia\.org\/wiki\/Special:FilePath\//i.test(src)) return src;
+  if (/commons\.wikimedia\.org\/wiki\/Special:FilePath\//i.test(src))
+    return src;
   return null;
 }
 
@@ -196,20 +198,23 @@ function validateName(name) {
     return {
       ok: false,
       bare,
-      err: '命名須全小寫 kebab-case（無空格 / 無 CJK / 無底線）',
+      err: 'Name must be all-lowercase kebab-case (no spaces / no CJK / no underscores)',
     };
   if (!/\d{4}/.test(bare))
-    warn.push('建議含 4 位年份（{subject}-{topic}-{year}）');
-  if (bare.split('-').length < 2) warn.push('建議 subject-topic 至少兩段');
+    warn.push('Recommend including 4-digit year ({subject}-{topic}-{year})');
+  if (bare.split('-').length < 2)
+    warn.push('Recommend at least two segments (subject-topic)');
   return { ok: true, bare, warn };
 }
 
-// ── ingest（調整 主路徑）────────────────────────────────────────────────────
+// ── ingest (transform main path) ────────────────────────────────────────────
 async function modeIngest(args) {
   const { src, cat, name, role = 'inline' } = args;
   const fmt = (args.format || 'webp').toLowerCase();
   if (!src || !cat || !name) {
-    console.error(`${C.red}缺參數：--src --cat --name 必填${C.nc}`);
+    console.error(
+      `${C.red}Missing required parameters: --src --cat --name${C.nc}`,
+    );
     process.exit(2);
   }
   if (!['hero', 'inline'].includes(role)) {
@@ -228,16 +233,18 @@ async function modeIngest(args) {
   try {
     buf = await resolveSource(src);
   } catch (e) {
-    console.error(`${C.red}✗ 取源失敗：${e.message}${C.nc}`);
+    console.error(`${C.red}✗ Source fetch failed: ${e.message}${C.nc}`);
     process.exit(1);
   }
 
   const inFmt = sniffFormat(buf);
   console.log(
-    `  ${C.gry}源格式（magic bytes）：${inFmt}　原始 ${kb(buf.length)}${C.nc}`,
+    `  ${C.gry}Source format (magic bytes): ${inFmt}  original ${kb(buf.length)}${C.nc}`,
   );
   if (inFmt === 'unknown') {
-    console.error(`${C.red}✗ 無法辨識影像格式（magic bytes 不符）${C.nc}`);
+    console.error(
+      `${C.red}✗ Cannot identify image format (magic bytes mismatch)${C.nc}`,
+    );
     process.exit(1);
   }
 
@@ -261,7 +268,7 @@ async function modeIngest(args) {
 
   if (BANNED_STORE.has(inFmt))
     console.log(
-      `  ${C.cyan}↻ ${inFmt} 禁止入庫 → 轉檔為 ${fmt === 'keep' ? 'webp' : fmt}${C.nc}`,
+      `  ${C.cyan}↻ ${inFmt} banned from storage -> converting to ${fmt === 'keep' ? 'webp' : fmt}${C.nc}`,
     );
 
   // 出檔格式
@@ -277,7 +284,7 @@ async function modeIngest(args) {
         : fmt;
   if (BANNED_STORE.has(inFmt) && fmt === 'keep') outFmt = 'webp';
   if (!OUTPUT_FORMATS.has(outFmt)) {
-    console.error(`${C.red}✗ 出檔格式不允許：${outFmt}${C.nc}`);
+    console.error(`${C.red}✗ Output format not allowed: ${outFmt}${C.nc}`);
     process.exit(2);
   }
   const extFinal = outFmt === 'jpeg' ? 'jpg' : outFmt; // jpeg→jpg 副檔名
@@ -286,16 +293,16 @@ async function modeIngest(args) {
   try {
     meta = await sharp(buf).metadata();
   } catch (e) {
-    console.error(`${C.red}✗ sharp 讀取失敗：${e.message}${C.nc}`);
+    console.error(`${C.red}✗ sharp read failed: ${e.message}${C.nc}`);
     process.exit(1);
   }
   const hadExif = !!meta.exif || !!meta.iptc || !!meta.xmp;
   console.log(
-    `  ${C.gry}原始尺寸 ${meta.width}×${meta.height}　EXIF/metadata：${hadExif ? '有（將清除）' : '無'}${C.nc}`,
+    `  ${C.gry}Original dimensions ${meta.width}x${meta.height}  EXIF/metadata: ${hadExif ? 'present (will strip)' : 'none'}${C.nc}`,
   );
 
   const cap = DIM_CAP[role];
-  // quality search 壓到 budget
+  // quality search to fit budget
   const budget = SIZE_BUDGET[role];
   const warnBudget = SIZE_WARN[role];
   let out,
@@ -321,19 +328,19 @@ async function modeIngest(args) {
   // 報告
   const sizeMark =
     out.length > budget
-      ? `${C.red}✗ ${kb(out.length)} > ${kb(budget)} 超 budget${C.nc}`
+      ? `${C.red}✗ ${kb(out.length)} > ${kb(budget)} over budget${C.nc}`
       : out.length > warnBudget
         ? `${C.yel}⚠ ${kb(out.length)}${C.nc}`
         : `${C.grn}${kb(out.length)}${C.nc}`;
   const arMark =
     ar >= amin && ar <= amax
       ? `${C.grn}${ar}${C.nc}`
-      : `${C.red}✗ ${ar}（${role} 須 ${amin}–${amax}，建議換圖不強塞）${C.nc}`;
+      : `${C.red}✗ ${ar} (${role} requires ${amin}-${amax}, recommend replacing image not forcing crop)${C.nc}`;
   console.log(
-    `  處理後：${finalMeta.width}×${finalMeta.height}　${outFmt} q${qUsed}　${sizeMark}　aspect ${arMark}　EXIF 已清`,
+    `  Processed: ${finalMeta.width}x${finalMeta.height}  ${outFmt} q${qUsed}  ${sizeMark}  aspect ${arMark}  EXIF stripped`,
   );
   console.log(
-    `  ${C.gry}壓縮率 ${((1 - out.length / buf.length) * 100).toFixed(0)}%（${kb(buf.length)} → ${kb(out.length)}）${C.nc}`,
+    `  ${C.gry}Compression ${((1 - out.length / buf.length) * 100).toFixed(0)}% (${kb(buf.length)} -> ${kb(out.length)})${C.nc}`,
   );
 
   const fileName = `${nameCheck.bare}.${extFinal}`;
@@ -354,14 +361,15 @@ async function modeIngest(args) {
 
 function emitSnippets({ catDir, file, role, args }) {
   const webPath = `/article-images/${catDir}/${file}`;
-  const alt = args.alt || '（待填 alt：具體描述畫面，勿用「圖片」）';
-  console.log(`\n  ${C.bold}── 貼進文章 ──${C.nc}`);
+  const alt =
+    args.alt || '(TODO: describe the image specifically, do not use "image")';
+  console.log(`\n  ${C.bold}── Paste into article ──${C.nc}`);
   if (role === 'hero')
     console.log(`  frontmatter:  ${C.cyan}image: ${webPath}${C.nc}`);
   console.log(`  markdown:     ${C.cyan}![${alt}](${webPath})${C.nc}`);
   if (args.credit || args.license || args['source-url']) {
-    const credit = args.credit || '（作者）';
-    const lic = args.license || '（授權）';
+    const credit = args.credit || '(author)';
+    const lic = args.license || '(license)';
     const url = args['source-url'] || '';
     console.log(
       `  §圖片來源:    ${C.cyan}- [${credit}](${url}) — ${lic}${C.nc}`,
@@ -371,12 +379,12 @@ function emitSnippets({ catDir, file, role, args }) {
     );
   } else {
     console.log(
-      `  ${C.yel}⚠ 未給 --credit/--license/--source-url，§圖片來源 需手補（CC/fair-use 必標）${C.nc}`,
+      `  ${C.yel}⚠ No --credit/--license/--source-url given, image source section needs manual completion (CC/fair-use must be labeled)${C.nc}`,
     );
   }
 }
 
-// ── check（檢驗 gate，不改檔）────────────────────────────────────────────────
+// ── check (validation gate, no file modification) ────────────────────────────
 async function inspectFile(path, roleHint) {
   const abs =
     path.startsWith('/') && !path.startsWith(REPO_ROOT)
@@ -398,9 +406,12 @@ async function inspectFile(path, roleHint) {
   const v = [];
   // 格式白名單
   if (BANNED_STORE.has(fmt))
-    v.push({ sev: 'hard', msg: `格式 ${fmt} 禁止入庫（須轉 webp/jpg/png）` });
+    v.push({
+      sev: 'hard',
+      msg: `Format ${fmt} banned from storage (must convert to webp/jpg/png)`,
+    });
   else if (fmt === 'unknown')
-    v.push({ sev: 'hard', msg: '無法辨識格式（magic bytes）' });
+    v.push({ sev: 'hard', msg: 'Cannot identify format (magic bytes)' });
   let dims = '';
   if (fmt !== 'svg' && fmt !== 'unknown') {
     try {
@@ -416,7 +427,7 @@ async function inspectFile(path, roleHint) {
       if (m.exif || m.iptc || m.xmp)
         v.push({
           sev: 'warn',
-          msg: 'EXIF/metadata 殘留（建議重新 ingest 清除）',
+          msg: 'EXIF/metadata residual (recommend re-ingest to strip)',
         });
       const budget = SIZE_BUDGET[role];
       if (buf.length > budget)
@@ -425,7 +436,7 @@ async function inspectFile(path, roleHint) {
           msg: `${kb(buf.length)} > ${kb(budget)} (${role} budget)`,
         });
     } catch (e) {
-      v.push({ sev: 'hard', msg: `sharp 讀取失敗：${e.message}` });
+      v.push({ sev: 'hard', msg: `sharp read failed: ${e.message}` });
     }
   }
   if (fmt === 'svg' && buf.length > SVG_MAX)
@@ -443,7 +454,7 @@ async function inspectFile(path, roleHint) {
 async function modeCheck(args) {
   const files = args._.slice(1);
   if (!files.length) {
-    console.error(`${C.red}check 需要至少一個檔案路徑${C.nc}`);
+    console.error(`${C.red}check requires at least one file path${C.nc}`);
     process.exit(2);
   }
   let hard = 0,
@@ -473,12 +484,12 @@ async function modeCheck(args) {
     }
   }
   console.log(
-    `\n${hard ? C.red : C.grn}檢驗：${hard} hard / ${warn} warn${C.nc}`,
+    `\n${hard ? C.red : C.grn}Validation: ${hard} hard / ${warn} warn${C.nc}`,
   );
   if (hard) process.exitCode = 1;
 }
 
-// ── audit（全站掃描 + WebP 遷移估算）─────────────────────────────────────────
+// ── audit (site-wide scan + WebP migration estimate) ─────────────────────────
 async function walk(dir) {
   const out = [];
   let entries;
@@ -574,22 +585,22 @@ async function modeAudit(args) {
     `${C.bold}📊 image audit — ${base.replace(REPO_ROOT + '/', '')}${C.nc}`,
   );
   console.log(
-    `  檔案數：${files.length}　總體積：${(totalBytes / 1024 / 1024).toFixed(1)}MB`,
+    `  Files: ${files.length}  Total size: ${(totalBytes / 1024 / 1024).toFixed(1)}MB`,
   );
   console.log(
-    `  格式分佈：${Object.entries(byExt)
+    `  Format distribution: ${Object.entries(byExt)
       .sort((a, b) => b[1] - a[1])
       .map(([k, v]) => `${k}=${v}`)
       .join(' ')}`,
   );
   console.log(
-    `  ${banned ? C.red : C.grn}禁用格式（GIF/BMP/TIFF/HEIC）：${banned}${C.nc}`,
+    `  ${banned ? C.red : C.grn}Banned formats (GIF/BMP/TIFF/HEIC): ${banned}${C.nc}`,
   );
   console.log(
-    `  ${oversize ? C.yel : C.grn}超 size budget：${oversize}${C.nc}　${aspectBad ? C.yel : C.grn}aspect 違規：${aspectBad}${C.nc}　${exifLeak ? C.yel : C.grn}EXIF 殘留：${exifLeak}${C.nc}`,
+    `  ${oversize ? C.yel : C.grn}Over size budget: ${oversize}${C.nc}  ${aspectBad ? C.yel : C.grn}Aspect violations: ${aspectBad}${C.nc}  ${exifLeak ? C.yel : C.grn}EXIF residual: ${exifLeak}${C.nc}`,
   );
   console.log(
-    `  ${C.cyan}WebP 遷移面：非 webp ${nonWebpCount} 張 / ${(nonWebpBytes / 1024 / 1024).toFixed(1)}MB（轉 webp 估省 25–35%）${C.nc}`,
+    `  ${C.cyan}WebP migration: non-webp ${nonWebpCount} files / ${(nonWebpBytes / 1024 / 1024).toFixed(1)}MB (converting to webp saves est. 25-35%)${C.nc}`,
   );
   if (issues.length) {
     console.log(`  ${C.gry}— banned 清單 —${C.nc}`);
@@ -603,8 +614,8 @@ const mode = args._[0];
 const dispatch = { ingest: modeIngest, check: modeCheck, audit: modeAudit };
 if (!dispatch[mode]) {
   console.error(
-    `${C.bold}image-ingest.mjs${C.nc} — 影像後處理 SSOT\n` +
-      `  modes: ${C.cyan}ingest${C.nc} (下載+調整+入庫) / ${C.cyan}check${C.nc} (檢驗 gate) / ${C.cyan}audit${C.nc} (全站掃描)\n` +
+    `${C.bold}image-ingest.mjs${C.nc} — image post-processing SSOT\n` +
+      `  modes: ${C.cyan}ingest${C.nc} (download+transform+store) / ${C.cyan}check${C.nc} (validation gate) / ${C.cyan}audit${C.nc} (site-wide scan)\n` +
       `  see header for usage.`,
   );
   process.exit(mode ? 2 : 0);

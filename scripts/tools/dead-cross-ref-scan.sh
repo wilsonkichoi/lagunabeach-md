@@ -1,19 +1,19 @@
 #!/bin/bash
-# dead-cross-ref-scan.sh — 掃 knowledge/ 所有 cross-ref 目標存在性
+# dead-cross-ref-scan.sh — Scan knowledge/ for all cross-ref target existence
 #
-# 用途：偵測 `[label](/category/slug)` 形式 cross-ref 中目標不存在的條目，
-# 避免 polish 加 placeholder cross-ref 推升 EXP-A 404 rate（LESSONS-INBOX 2026-04-21 γ）
+# Purpose: detect `[label](/category/slug)` cross-refs where the target does not exist,
+# preventing placeholder cross-refs from inflating the 404 rate (LESSONS-INBOX 2026-04-21)
 #
-# 使用方式：
-#   bash scripts/tools/dead-cross-ref-scan.sh                    # 人類可讀輸出
-#   bash scripts/tools/dead-cross-ref-scan.sh --json             # JSON 輸出
-#   bash scripts/tools/dead-cross-ref-scan.sh --inbox-format     # 產生 ARTICLE-INBOX P3 backlog 條目
+# Usage:
+#   bash scripts/tools/dead-cross-ref-scan.sh                    # human-readable output
+#   bash scripts/tools/dead-cross-ref-scan.sh --json             # JSON output
+#   bash scripts/tools/dead-cross-ref-scan.sh --inbox-format     # generate ARTICLE-INBOX P3 backlog entries
 #
-# 邏輯：
-#   1. grep 所有 knowledge/**/*.md 找 `[label](/category/slug)` 形式
-#   2. URL-decode slug，對應到 knowledge/Category/slug.md（首字大寫）
-#   3. 不存在 → dead，產報告
-#   4. 排除：anchor (#)、外部 URL、非 knowledge category（about/images/resources）
+# Logic:
+#   1. grep all knowledge/**/*.md for `[label](/category/slug)` pattern
+#   2. URL-decode slug, map to knowledge/Category/slug.md (first letter uppercase)
+#   3. Not found -> dead, generate report
+#   4. Exclude: anchors (#), external URLs, non-knowledge categories (about/images/resources)
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -114,10 +114,10 @@ case "$MODE" in
 
     inbox)
         if [ ! -s "$TMP" ]; then
-            echo "✅ 無 dead cross-ref，不需 P3 backlog 條目"
+            echo "✅ No dead cross-refs, no P3 backlog entries needed"
             exit 0
         fi
-        echo "# Dead cross-ref P3 backlog 候選（${dead_refs} 條失效，${unique_targets} 個獨立目標）"
+        echo "# Dead cross-ref P3 backlog candidates (${dead_refs} dead refs, ${unique_targets} unique targets)"
         echo ""
         echo "_由 \`scripts/tools/dead-cross-ref-scan.sh --inbox-format\` 產生 — $(date +%Y-%m-%d)_"
         echo ""
@@ -137,7 +137,7 @@ case "$MODE" in
                     print "- **Priority**: `P3` (dead cross-ref backlog)"
                     print "- **Status**: `pending`"
                     print "- **Requested**: 2026-04-23 by dead-cross-ref-scan.sh"
-                    print "- **Notes**: 已被引用但無條目（產生 404 tail 風險）。引用來源："
+                    print "- **Notes**: Referenced but no article exists (creates 404 tail risk). Referenced from:"
                     prev = $1
                 }
                 src = $2
@@ -149,31 +149,31 @@ case "$MODE" in
 
     human|*)
         if [ "$dead_refs" -eq 0 ]; then
-            echo -e "${GREEN}✅ 掃描 $total_files 篇文章 / $total_refs 個 cross-ref，全部目標存在${NC}"
+            echo -e "${GREEN}✅ Scanned $total_files articles / $total_refs cross-refs, all targets exist${NC}"
             exit 0
         fi
-        echo -e "${RED}❌ 發現 $dead_refs 個 dead cross-ref（$total_refs 個 cross-ref 中，$pct%）${NC}"
-        echo -e "${YELLOW}🎯 涵蓋 $unique_targets 個獨立缺失目標${NC}"
+        echo -e "${RED}❌ Found $dead_refs dead cross-refs (out of $total_refs cross-refs, $pct%)${NC}"
+        echo -e "${YELLOW}🎯 Covering $unique_targets unique missing targets${NC}"
         echo ""
-        echo "（dead cross-ref → CF 7d 404 tail 來源；建議造 P3 backlog，見 --inbox-format）"
+        echo "(dead cross-ref -> CF 7d 404 tail source; recommend creating P3 backlog, see --inbox-format)"
         echo ""
         # group by target, sorted by reference count desc (top 20)
         awk -F'\t' '{print $3}' "$TMP" | sort | uniq -c | sort -rn | head -20 | while read -r cnt target; do
-            echo -e "${YELLOW}🎯 缺：${target}${NC}  (被 ${cnt} 處引用)"
+            echo -e "${YELLOW}🎯 Missing: ${target}${NC}  (referenced ${cnt} times)"
             grep -F "$(printf '\t')${target}" "$TMP" | head -5 | awk -F'\t' '{
                 src = $1; sub(/^knowledge\//, "", src)
                 print "   ← " src
             }'
             extra=$((cnt - 5))
             if [ "$extra" -gt 0 ]; then
-                echo "   ... 還有 $extra 處"
+                echo "   ... and $extra more"
             fi
             echo ""
         done
         echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-        echo "📊 $total_files 篇 | $total_refs cross-ref | $dead_refs dead ($pct%) | $unique_targets 獨立缺失"
-        echo "💡 P3 backlog 條目: bash scripts/tools/dead-cross-ref-scan.sh --inbox-format"
-        echo "💡 完整 JSON: bash scripts/tools/dead-cross-ref-scan.sh --json"
+        echo "📊 $total_files articles | $total_refs cross-refs | $dead_refs dead ($pct%) | $unique_targets unique missing"
+        echo "💡 P3 backlog entries: bash scripts/tools/dead-cross-ref-scan.sh --inbox-format"
+        echo "💡 Full JSON: bash scripts/tools/dead-cross-ref-scan.sh --json"
         ;;
 esac
 

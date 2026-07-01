@@ -1,30 +1,32 @@
 #!/usr/bin/env python3
-"""inbox-audit.py — ARTICLE-INBOX 對地真相健檢 + Distill 安全執行器.
+"""inbox-audit.py — ARTICLE-INBOX ground-truth health check + safe distill executor.
 
-把「查現況」儀器化：一條指令交叉比對 ARTICLE-INBOX §Pending 的每個 entry 對
-`knowledge/`（文章是否已存在）+ ARTICLE-DONE-LOG（是否已歸檔），分類出幽靈、
-重複、真待辦，輸出 triage 報告。--apply-safe 只移除 100% 明確的幽靈（self-declared
-done 或 已存在且已 logged），帶 line-conservation 保證（非只 entry count）。
+Instruments "check current state": one command cross-references each ARTICLE-INBOX
+Pending entry against `knowledge/` (article exists?) + ARTICLE-DONE-LOG (archived?),
+classifies into ghosts, duplicates, genuine pending, and outputs a triage report.
+--apply-safe removes only 100% unambiguous ghosts (self-declared done or exists+logged),
+with line-conservation guarantee (not just entry count).
 
-誕生：2026-06-19-123909-inbox-distill session — 手動 distill 95→79 抓出 16 幽靈
-（完成歸檔鐵律無結構強制 → inbox 漂移）。哲宇 directive：把這次的處理/分析儀器化。
-canonical SOP：docs/semiont/ARTICLE-INBOX.md §Distill SOP
-設計教訓：REFLEXES #15（反覆浮現要儀器化）+ #38（混維度 silent killer：count 對但內容掉）
+Origin: 2026-06-19-123909-inbox-distill session — manual distill 95->79 caught 16 ghosts
+(completion-archive rule had no structural enforcement -> inbox drift). Directive: instrument
+this process. Canonical SOP: docs/semiont/ARTICLE-INBOX.md Distill SOP
+Design lessons: REFLEXES #15 (recurring patterns must be instrumented) + #38 (mixed-dimension
+silent killer: count correct but content dropped)
 
-用法：
-  inbox-audit.py                      # triage 報告（human markdown）
-  inbox-audit.py --json               # machine-readable（routine / signal 消費）
-  inbox-audit.py --apply-safe         # 只移除明確幽靈（done / exists+logged），line-conservation 保證
-  inbox-audit.py --apply-safe --dry-run   # 預覽要移除什麼，不寫檔
-分類：
-  🔴 DECLARED-DONE   status=done/dropped/已完成 — 完成卻沒搬走（鐵律違反），--apply-safe 唯一會動的類
-  🟠 STALE-NEW       Type=NEW 但文章已存在 — NEW 已被滿足，待人工 review
-  🟣 PARTIAL-SHIP    prose-shipped-pending-media 類 — 正文 ship、媒體/babel 待補（合法 pending）
-  🟡 EVOLVE-PENDING  Type=EVOLVE + 文章存在 + pending — 合法 re-EVOLVE（文章存在＋可能已在 DONE-LOG 是前提，非幽靈）
-  ✅ GENUINE-PENDING 文章不存在 + pending — 真待辦
-  ⚪ SERIES          系列 umbrella / Tier / pick list — 不 auto-resolve，人工確認整批
-  🔁 DUP            ≥2 entry 解到同一篇文章
---apply-safe 只動 🔴 DECLARED-DONE（status 自宣完成＝最安全訊號）。其餘一律留人工（κ 5-PR 教訓：curation 不批次自決）。
+Usage:
+  inbox-audit.py                      # triage report (human markdown)
+  inbox-audit.py --json               # machine-readable (routine / signal consumption)
+  inbox-audit.py --apply-safe         # remove unambiguous ghosts only (done / exists+logged), line-conservation guaranteed
+  inbox-audit.py --apply-safe --dry-run   # preview what would be removed, no write
+Classification:
+  🔴 DECLARED-DONE   status=done/dropped — completed but not moved out (rule violation), only class --apply-safe touches
+  🟠 STALE-NEW       Type=NEW but article exists — NEW already satisfied, awaiting manual review
+  🟣 PARTIAL-SHIP    prose-shipped-pending-media — prose shipped, media/babel pending (legitimate pending)
+  🟡 EVOLVE-PENDING  Type=EVOLVE + article exists + pending — legitimate re-EVOLVE (article existing + possibly in DONE-LOG is prerequisite, not ghost)
+  ✅ GENUINE-PENDING article doesn't exist + pending — true pending
+  ⚪ SERIES          series umbrella / Tier / pick list — no auto-resolve, manual confirmation of entire batch
+  🔁 DUP            >=2 entries resolve to same article
+--apply-safe only touches DECLARED-DONE (status self-declared done = safest signal). All others left for manual review.
 """
 
 from __future__ import annotations
@@ -51,7 +53,7 @@ def split_blocks(lines):
     """Line-walk into segments; EVERY line lands in exactly one segment (no drops).
     'block' starts at '### ' until next '### '/'## '. '## ' starts a 'pre' section.
     FENCE-AWARE: '###'/'##' inside ``` code fences are content, not boundaries
-    (the 選舉 Tier 1.2 entry embeds a fenced markdown example with ## / ### headers).
+    (certain entries embed fenced markdown examples with ## / ### headers).
     Returns list of (kind, [lines]). Mirrors the proven distill segmentation."""
     segments, cur, kind, in_fence = [], [], "pre", False
     for l in lines:
@@ -83,7 +85,7 @@ def field(block, name):
 def core_title(heading):
     """Strip '### ', leading emoji/symbols, and suffixes to get the article-ish core."""
     t = heading[4:].strip()
-    # strip leading non-CJK/non-alnum decorations (emoji, 🔴🟠 等)
+    # strip leading non-CJK/non-alnum decorations (emoji, icons, etc)
     t = re.sub(r"^[^\w一-鿿（(]+", "", t).strip()
     for cut in (" EVOLVE", " NEW", " SEO", " — ", "—", " (", "（", " batch", "：", ":"):
         i = t.find(cut)
@@ -131,7 +133,7 @@ def resolve_article(entry, by_stem, by_cat_stem):
 def classify(entry, donelog_text):
     """Conservative: only status-self-declared done is auto-removable. 'exists+logged'
     is NOT a ghost signal for EVOLVE entries — re-EVOLVE requires the article to exist
-    and it may already be in DONE-LOG from a prior ship (造山者/沈伯洋/蔡英文 case)."""
+    and it may already be in DONE-LOG from a prior ship."""
     status = entry["status"].lower()
     typ = entry["type"].upper()
     art = entry["article"]
@@ -143,19 +145,19 @@ def classify(entry, donelog_text):
     ) and not ("pending" in status and "shipped" in status)
     partial = ("shipped" in status and "pending" in status)
     logged = bool(art) and (art in donelog_text or (len(entry["core"]) >= 3 and entry["core"] in donelog_text))
-    note = "（已在 DONE-LOG，確認是 re-EVOLVE 不是幽靈）" if logged else ""
+    note = " (in DONE-LOG, confirmed re-EVOLVE not ghost)" if logged else ""
 
     if declared_done:
-        return "DECLARED-DONE", "🔴", "status 自宣 done/dropped — 完成卻沒搬走（鐵律違反），可安全移除"
+        return "DECLARED-DONE", "🔴", "status self-declared done/dropped — completed but not moved out (rule violation), safe to remove"
     if is_series:
-        return "SERIES", "⚪", "系列 umbrella / Tier — 不 auto-resolve，人工確認整批是否 ship 完"
+        return "SERIES", "⚪", "series umbrella / Tier — no auto-resolve, manual confirmation of batch completion"
     if partial:
-        return "PARTIAL-SHIP", "🟣", "正文 ship、媒體/babel 待補（合法 pending）"
+        return "PARTIAL-SHIP", "🟣", "prose shipped, media/babel pending (legitimate pending)"
     if art and typ == "EVOLVE":
-        return "EVOLVE-PENDING", "🟡", f"文章存在({art}) + EVOLVE pending — 合法 re-EVOLVE{note}"
-    if art:  # NEW (or unknown type) but article exists → NEW 已被滿足
-        return "STALE-NEW", "🟠", f"NEW 但文章已存在({art}) — NEW 已滿足，待人工 review 是否移除{note}"
-    return "GENUINE-PENDING", "✅", "文章不存在 + pending — 真待辦"
+        return "EVOLVE-PENDING", "🟡", f"article exists({art}) + EVOLVE pending — legitimate re-EVOLVE{note}"
+    if art:  # NEW (or unknown type) but article exists -> NEW already satisfied
+        return "STALE-NEW", "🟠", f"NEW but article exists({art}) — NEW satisfied, awaiting manual review{note}"
+    return "GENUINE-PENDING", "✅", "article doesn't exist + pending — true pending"
 
 
 def parse_pending(text):
@@ -265,35 +267,35 @@ def main():
 
     if args.apply_safe:
         new_text, removed, ok = apply_safe(text, set(removable))
-        print(f"=== --apply-safe: 移除 {len(removed)} 明確幽靈（DECLARED-DONE，status 自宣完成）===")
+        print(f"=== --apply-safe: removing {len(removed)} unambiguous ghosts (DECLARED-DONE, status self-declared done) ===")
         for h in removed:
             print("  - " + h)
         print(f"line-conservation + section-survival: {'OK ✅' if ok else 'BROKEN ❌'}")
         if not ok:
-            print("中止：line-conservation 失敗（拒絕 silent 內容流失）")
+            print("Aborted: line-conservation failed (refusing silent content loss)")
             return 2
         if args.dry_run:
-            print("\n(dry-run；拿掉 --dry-run 才寫檔)")
+            print("\n(dry-run; remove --dry-run to actually write)")
         else:
             INBOX.write_text(new_text, encoding="utf-8")
-            print(f"\n*** 已寫入 {INBOX.relative_to(ROOT)} ***（記得 ship DONE-LOG backfill + git）")
+            print(f"\n*** Written to {INBOX.relative_to(ROOT)} *** (remember to ship DONE-LOG backfill + git)")
         return 0
 
     # human triage report
-    print(f"# ARTICLE-INBOX audit — {len(entries)} 個 pending entry\n")
-    print(f"摘要：" + " / ".join(f"{c}={counts[c]}" for c in order if counts[c]))
-    print(f"→ 🔴 可安全移除 {len(removable)} 條（--apply-safe）；🟠 STALE-NEW + ⚪ SERIES 待人工 review\n")
+    print(f"# ARTICLE-INBOX audit — {len(entries)} pending entries\n")
+    print(f"Summary: " + " / ".join(f"{c}={counts[c]}" for c in order if counts[c]))
+    print(f"-> 🔴 Safe to remove {len(removable)} entries (--apply-safe); 🟠 STALE-NEW + ⚪ SERIES await manual review\n")
     for c in order:
         es = [e for e in entries if e["class"] == c]
         if not es:
             continue
         print(f"\n## {es[0]['icon']} {c}（{len(es)}）")
         for e in es:
-            conf = {"fuzzy-stem": " ⚠fuzzy確認scope"}.get(e["resolved_by"], "")
+            conf = {"fuzzy-stem": " ⚠fuzzy-confirm-scope"}.get(e["resolved_by"], "")
             tail = f" → {e['article']}{conf}" if e["article"] else ""
             print(f"- {e['core'] or e['heading'][4:][:40]}｜{e['type'] or '?'} {e['priority'] or '?'}｜{e['status'][:28]}{tail}")
     if dups:
-        print(f"\n## 🔁 DUP（{len(dups)} 篇文章被多 entry 指到）")
+        print(f"\n## 🔁 DUP ({len(dups)} articles referenced by multiple entries)")
         for art, hs in dups.items():
             print(f"- {art}: {len(hs)} entries")
     return 0

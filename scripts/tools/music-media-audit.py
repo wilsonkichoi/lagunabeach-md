@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""music-media-audit.py — 找 Music / 音樂類 People 條目缺 iframe 的 backlog.
+"""music-media-audit.py — Find Music / music-related People articles missing iframe embeds.
 
-Per EDITORIAL §媒體編織 類型 × 媒體比重 baseline (2026-05-17):
-  - 音樂人:        2-3 圖 + 2-3+ 影片
-  - 樂團/音樂史:   2-3 圖 + 3-5 影片
-  - 運動員/演員:   2-3 圖 + 1-3 影片
-  - YouTuber:      2-3 圖 + 2-4 影片
-  - Hub 頁:        0 + 0
+Per EDITORIAL media-weaving type x media-weight baseline (2026-05-17):
+  - Music person:        2-3 images + 2-3+ videos
+  - Band/music history:  2-3 images + 3-5 videos
+  - Athlete/actor:       2-3 images + 1-3 videos
+  - YouTuber:            2-3 images + 2-4 videos
+  - Hub page:            0 + 0
 
 Output:
   reports/music-media-audit/YYYY-MM-DD.md (human-readable summary)
@@ -31,16 +31,15 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 KNOWLEDGE_DIR = REPO_ROOT / "knowledge"
 REPORTS_DIR = REPO_ROOT / "reports" / "music-media-audit"
 
-# Baseline per EDITORIAL §媒體編織 (CJK section anchor:
-# 媒體編織圖片與影片穿插的敘事流2026-05-17-新增)
+# Baseline per EDITORIAL media-weaving section (2026-05-17 addition)
 BASELINE = {
-    "music_person": {"min": 2, "max": 5, "rationale": "音樂人代表作 / 早期 / 最新三層"},
-    "music_topic":  {"min": 3, "max": 5, "rationale": "樂團 / 音樂類型史各時期 anchored 時間軸"},
-    "performer":    {"min": 1, "max": 3, "rationale": "運動員 / 演員 / YouTuber 表演關鍵時刻"},
-    "youtuber":     {"min": 2, "max": 4, "rationale": "YouTuber / Podcaster 代表節目"},
+    "music_person": {"min": 2, "max": 5, "rationale": "musician signature works / early / latest (three layers)"},
+    "music_topic":  {"min": 3, "max": 5, "rationale": "band / music genre history anchored to timeline per era"},
+    "performer":    {"min": 1, "max": 3, "rationale": "athlete / actor / YouTuber key performance moments"},
+    "youtuber":     {"min": 2, "max": 4, "rationale": "YouTuber / Podcaster representative shows"},
 }
 
-# Subcategory → tier classifier
+# Subcategory -> tier classifier (CJK values match actual article subcategory strings)
 MUSIC_PERSON_SUBCATS = {
     "音樂", "音樂人", "音樂與表演", "流行音樂", "獨立音樂", "原住民音樂",
     "古典音樂", "搖滾", "民歌", "嘻哈",
@@ -52,12 +51,12 @@ PERFORMER_SUBCATS = {
 }
 YOUTUBER_SUBCATS = {"YouTuber", "創作者", "網紅", "Podcaster"}
 
-# Hub pages (don't audit)
+# Hub pages (skip from audit)
 EXCLUDE_FILE_PREFIXES = ("_",)
 
 
 def parse_frontmatter(text: str) -> dict:
-    """Lightweight frontmatter parser (no yaml dep)."""
+    """Lightweight frontmatter parser (no yaml dependency)."""
     if not text.startswith("---"):
         return {}
     end = text.find("---", 3)
@@ -225,7 +224,7 @@ def main():
         lines = [
             f"# Music Media Audit — {date_str}",
             "",
-            f"Per EDITORIAL §媒體編織 baseline (2026-05-17). 自動 cron: twmd-music-media-audit-weekly.",
+            f"Per EDITORIAL media-weaving baseline (2026-05-17). Auto cron: twmd-music-media-audit-weekly.",
             "",
             "## Summary",
             "",

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Taiwan.md Content Freshness Checker
- * 掃描超過 N 天未驗證的文章，輸出需要更新的清單
+ * Scan articles not verified in over N days, output list needing update
  * Usage: node scripts/check-freshness.js [--days 90] [--json]
  */
 

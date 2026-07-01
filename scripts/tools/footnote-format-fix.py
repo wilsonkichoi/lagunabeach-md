@@ -1,44 +1,34 @@
 #!/usr/bin/env python3
-"""footnote-format-fix.py — 把多種 footnote 源格式統一轉成 Taiwan.md canonical 格式
+"""footnote-format-fix.py — Normalize multiple footnote source formats to canonical format.
 
-Canonical 格式：`[^N]: [Title](URL) — desc（描述至少 10 字）`
+Canonical format: `[^N]: [Title](URL) — desc (description >= 10 chars)`
 
-支援的源格式（4 種）：
-  1. Markdown 缺 desc：`[^N]: [Title](URL)` → 補 em-dash + domain-aware desc
-  2. APA 學術格式：`[^N]: Author. (date). *Title*. URL.` → 重組成 canonical
-  3. 中文標點：`[^N]: Author，〈Title〉，URL` → 重組成 canonical（保留作者）
-  4. Angle-bracket URL：`[^N]: [Title](<URL>) — desc` → 移除尖括號
+Supported source formats (4 types):
+  1. Markdown missing desc: `[^N]: [Title](URL)` -> add em-dash + domain-aware desc
+  2. APA academic format: `[^N]: Author. (date). *Title*. URL.` -> restructure to canonical
+  3. Chinese punctuation: `[^N]: Author，〈Title〉，URL` -> restructure to canonical (keep author)
+  4. Angle-bracket URL: `[^N]: [Title](<URL>) — desc` -> remove angle brackets
 
-domain → desc mapping（60+ 來源）：覆蓋台灣主流媒體、政府網站、學術機構、文化記憶庫、
-  維基百科、PRC 官方（標 PRC 觀點）、Facebook / YouTube 等。未匹配 domain 退化為
-  「詳見原始連結內文」（10 字 fallback）。
+domain -> desc mapping (60+ sources): covers major media, government sites, academic
+  institutions, cultural databases, Wikipedia, etc. Unmatched domains fall back to a
+  generic 10-char description.
 
-誕生背景：
-  2026-05-03 magical-feynman session — idlccp1984 9 PR batch heal commit 揭露 4 種源
-  格式並存（每位 contributor / 每隻 AI 寫作工具偏好不同格式），手動 polish 不可
-  scale。把 60+ domain mapping table + 三種源格式 parser 從 /tmp/heal-batch-v2.py
-  搬進 canonical，下次任何 batch heal 直接 reuse。
-
-對應 REFLEXES #5「pre-commit dogfood 是朋友」+ REFLEXES #15「反覆浮現的思考要儀器化」+
-本 session 候選 REFLEXES #48「Footnote source format diversity 是 contributor batch
-隱性 heal cost」。
-
-使用範例：
-  # 全 knowledge/ 跑一遍（dry-run，預設）
+Usage:
+  # Scan all knowledge/ (dry-run, default)
   python3 scripts/tools/footnote-format-fix.py --all
 
-  # apply 模式（實際寫入）
+  # Apply mode (actually write changes)
   python3 scripts/tools/footnote-format-fix.py --all --apply
 
-  # 指定檔案
-  python3 scripts/tools/footnote-format-fix.py --apply knowledge/Lifestyle/遊覽車.md
+  # Specific file
+  python3 scripts/tools/footnote-format-fix.py --apply knowledge/History/founding-and-early-history.md
 
-  # 從 stdin 讀檔案清單（per-line）
+  # Read file list from stdin (per-line)
   gh pr diff 789 --name-only | python3 scripts/tools/footnote-format-fix.py --apply --stdin
 
-退出碼：
-  0 = 全部通過 / 有修改成功
-  1 = 解析失敗 / 寫入失敗
+Exit codes:
+  0 = all passed / changes applied successfully
+  1 = parse failure / write failure
 """
 import argparse
 import re
@@ -47,7 +37,7 @@ from pathlib import Path
 from typing import Optional
 
 
-# --- domain → desc mapping（per-source 描述模板）-----------------------
+# --- domain -> desc mapping (per-source description template) -----------------------
 DOMAIN_DESC: dict[str, str] = {
     # 台灣主流媒體
     "cna.com.tw": "中央社報導",
@@ -148,7 +138,7 @@ DOMAIN_DESC: dict[str, str] = {
 
 
 def desc_for_url(url: str) -> str:
-    """Resolve domain → canonical desc。Longest-match wins。"""
+    """Resolve domain -> canonical desc. Longest-match wins."""
     matches = [(d, t) for d, t in DOMAIN_DESC.items() if d != "default" and d in url]
     if not matches:
         return DOMAIN_DESC["default"]
@@ -251,7 +241,7 @@ def collect_files(args) -> list[Path]:
         if not knowledge.is_dir():
             print(f"❌ knowledge/ not found in cwd ({Path.cwd()})", file=sys.stderr)
             sys.exit(1)
-        # 跳過翻譯目錄（only zh-TW SSOT）
+        # Skip translation dirs (only zh-TW SSOT)
         return [p for p in knowledge.rglob("*.md") if p.parts[1] not in ("en", "ja", "ko", "es", "fr")]
     files: list[Path] = []
     if args.stdin:

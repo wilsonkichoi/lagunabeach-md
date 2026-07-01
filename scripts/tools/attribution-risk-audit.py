@@ -1,29 +1,30 @@
 #!/usr/bin/env python3
-"""attribution-risk-audit — 跨文章「歸屬密集 × 引用稀薄 × 未審 × featured」風險排行.
+"""attribution-risk-audit — Cross-article "attribution-dense x citation-sparse x unreviewed x featured" risk ranking.
 
-儀器化 REFLEXES #15：把 2026-06-01 配樂讀者 callout 後手動跑的「待重新審理佇列」
-heredoc 升級為可重跑工具。原 ad-hoc python 每次重打、結果不可追溯；本工具讓佇列
-隨時可 regen，並可餵 ARTICLE-INBOX。
+Instruments REFLEXES #15: upgrades the manual "pending re-review queue" heredoc run after
+the 2026-06-01 film-score reader callout into a re-runnable tool. Previous ad-hoc python
+was retyped each time with non-traceable results; this tool lets the queue be regenerated
+anytime and fed to ARTICLE-INBOX.
 
-風險模型（A↔B 歸屬密集主題是 AI 幻覺高風險區，per 2026-06-01 影視配樂教訓）：
-    surface  = 《》+〈〉 work-title 數（歸屬表面積）
+Risk model (attribution-dense topics are high AI-hallucination risk, per 2026-06-01 lesson):
+    surface  = work-title count (attribution surface area)
     risk     = surface
-             + 40            if fns==0 and surface>=8      # 零腳註密集 = 紅旗
+             + 40            if fns==0 and surface>=8      # zero footnotes + dense = red flag
              + min(surface/max(fns,1), 10) * 3   otherwise  # claims-per-citation
-             + 15            if 早期批次 (2026-03，pipeline 最不成熟)
-             + 12            if featured (放大傷害)
-    只算 lastHumanReview != true 的文章（已人工審 = 低優先）。
+             + 15            if early batch (2026-03, pipeline least mature)
+             + 12            if featured (amplifies harm)
+    Only counts articles where lastHumanReview != true (already human-reviewed = low priority).
 
 Tier:
-    T1  早期批次 + featured + (零腳註 or surface>=40)，或 零腳註 + surface>=15
-    T2  早期批次 + featured，或 surface>=60，或 零腳註 + surface>=10
-    T3  其餘入列者
+    T1  early batch + featured + (zero footnotes or surface>=40), or zero footnotes + surface>=15
+    T2  early batch + featured, or surface>=60, or zero footnotes + surface>=10
+    T3  remaining queue entries
 
-用法：
-    python3 scripts/tools/attribution-risk-audit.py                 # 印 summary + Tier1/2
-    python3 scripts/tools/attribution-risk-audit.py --out FILE.md   # 寫完整 markdown 佇列
-    python3 scripts/tools/attribution-risk-audit.py --json          # JSON 給 routine/dashboard
-    python3 scripts/tools/attribution-risk-audit.py --min-works 10  # 入列門檻（預設 10）
+Usage:
+    python3 scripts/tools/attribution-risk-audit.py                 # print summary + Tier1/2
+    python3 scripts/tools/attribution-risk-audit.py --out FILE.md   # write full markdown queue
+    python3 scripts/tools/attribution-risk-audit.py --json          # JSON for routine/dashboard
+    python3 scripts/tools/attribution-risk-audit.py --min-works 10  # entry threshold (default 10)
 
 Canonical: reports/reader-callout-pipeline-diagnosis-2026-06-01.md §5 + REWRITE-PIPELINE.md §Step 0.2-bis
 """
@@ -115,11 +116,11 @@ def build_queue(min_works: int):
 
 
 def main():
-    ap = argparse.ArgumentParser(description="跨文章歸屬風險排行 → 待重新審理佇列")
-    ap.add_argument("--min-works", type=int, default=10, help="入列門檻（《》/〈〉 數，預設 10）")
-    ap.add_argument("--out", default=None, help="寫完整 markdown 佇列到此路徑")
-    ap.add_argument("--json", action="store_true", help="輸出 JSON（給 routine/dashboard）")
-    ap.add_argument("--top", type=int, default=0, help="只印前 N（0=印 Tier1+Tier2）")
+    ap = argparse.ArgumentParser(description="Cross-article attribution risk ranking -> pending re-review queue")
+    ap.add_argument("--min-works", type=int, default=10, help="entry threshold (work-title count, default 10)")
+    ap.add_argument("--out", default=None, help="write full markdown queue to this path")
+    ap.add_argument("--json", action="store_true", help="output JSON (for routine/dashboard)")
+    ap.add_argument("--top", type=int, default=0, help="only print top N (0=print Tier1+Tier2)")
     args = ap.parse_args()
 
     rows, unrev, queue = build_queue(args.min_works)
@@ -150,12 +151,12 @@ def main():
                          f"{os.path.basename(r['path'])} |")
         return "\n".join(lines)
 
-    header = (f"# 待重新審理佇列（attribution-risk-audit）\n\n"
-              f"全站 {len(rows)} 篇 zh SSOT；未人工審 {len(unrev)} 篇。\n"
-              f"入列（《》/〈〉 ≥ {args.min_works} 或 零腳註 ≥8 且未審）= **{len(queue)} 篇**。\n"
-              f"Tier1={tiers['T1']} / Tier2={tiers['T2']} / Tier3={tiers['T3']}。\n"
-              f"（`_*.md` = 內部 Hub/scaffold，重審時排除。）\n\n"
-              f"風險分 = 歸屬表面 + 零腳註懲罰(+40) 或 claims/footnote 比 + 早期批次(+15) + featured(+12)。\n")
+    header = (f"# Pending Re-Review Queue (attribution-risk-audit)\n\n"
+              f"Site-wide {len(rows)} zh SSOT articles; {len(unrev)} not human-reviewed.\n"
+              f"Queued (work-titles >= {args.min_works} or zero footnotes >=8 and unreviewed) = **{len(queue)} articles**.\n"
+              f"Tier1={tiers['T1']} / Tier2={tiers['T2']} / Tier3={tiers['T3']}.\n"
+              f"(`_*.md` = internal Hub/scaffold, excluded from re-review.)\n\n"
+              f"Risk score = attribution surface + zero-footnote penalty(+40) or claims/footnote ratio + early batch(+15) + featured(+12).\n")
 
     if args.out:
         with open(args.out, "w", encoding="utf-8") as f:
@@ -167,7 +168,7 @@ def main():
     show = queue[:args.top] if args.top else [r for r in queue if r["tier"] in ("T1", "T2")]
     print(md_table(show))
     if not args.top:
-        print(f"\n（只印 Tier1+Tier2 {len(show)} 篇；完整 {len(queue)} 篇用 --out FILE.md 或 --top N）")
+        print(f"\n(Showing Tier1+Tier2 only: {len(show)} articles; full {len(queue)} articles via --out FILE.md or --top N)")
 
 
 if __name__ == "__main__":

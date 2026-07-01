@@ -1,24 +1,27 @@
 #!/usr/bin/env python3
-"""research-report-health.py — Stage 1 SSOT 研究報告品質閘門
+"""research-report-health.py — Stage 1 SSOT research report quality gate
 
-對標研究所論文標準：一份 depth-article 的 research report 必須是 SSOT —
-記錄完整搜尋軌跡（方法論）+ 多語系/一手/學術來源多樣性 + 每個 claim 的信度標記 +
-完整參考文獻。這支工具把 REWRITE-PIPELINE Stage 1 的搜尋配額從「aspirational 規則」
-儀器化成「可量測的 hard gate」(REFLEXES #15)。
+Holds depth-article research reports to graduate-thesis standards: the report
+must be SSOT, recording full search traces (methodology) + multilingual /
+primary / academic source diversity + confidence marks for every claim +
+complete references. This tool instruments the REWRITE-PIPELINE Stage 1
+search quota from an aspirational rule into a measurable hard gate (REFLEXES #15).
 
-誕生背景（2026-06-04 深度研究-設計研究院 session）：
-量測 226 份歷史 research report 發現 57% 英文/國際/學術來源 = 0、42% distinct 來源 ≤ 10，
-且 v6.3 多 agent 編排「合成 clean fact-pack」把 agent 原始搜尋軌跡丟掉（違反 Step 1.7
-「不摘要」）。哲宇 directive：Stage 0 20+ / Stage 1 80+ / 全部寫回 report 當 SSOT / 對標論文。
+Origin (2026-06-04 deep-research design-institute session):
+Measuring 226 historical research reports found 57% had zero EN/intl/academic
+sources and 42% had distinct sources <= 10. v6.3 multi-agent orchestration
+"synthesized clean fact-packs" that discarded agent raw search traces (violating
+Step 1.7 "no summarizing"). Directive: Stage 0 20+ / Stage 1 80+ / write all
+back into report as SSOT / hold to thesis standard.
 
-stdlib-only，可接 CI gate。
+stdlib-only, CI-gate compatible.
 
-用法:
+Usage:
   python3 scripts/tools/research-report-health.py reports/research/2026-06/{slug}.md
-  python3 scripts/tools/research-report-health.py {file} --tier=depth   # 預設
+  python3 scripts/tools/research-report-health.py {file} --tier=depth   # default
   python3 scripts/tools/research-report-health.py {file} --tier=standard
   python3 scripts/tools/research-report-health.py {file} --json
-退出碼: 0 = PASS, 1 = FAIL (hard 未過), 2 = 檔案問題
+Exit codes: 0 = PASS, 1 = FAIL (hard gate not met), 2 = file problem
 """
 import argparse
 import json
@@ -26,7 +29,7 @@ import re
 import sys
 from pathlib import Path
 
-# ── 來源分類 heuristics ──────────────────────────────────────────────
+# ── Source classification heuristics ──────────────────────────────────
 EN_HINTS = (
     "en.wikipedia.org", "dezeen", "bbc.", "reuters", "theguardian", "nytimes",
     "scholar.google", "jstor", "wdo.org", "designboom", "cnn.", "apnews",
@@ -34,63 +37,64 @@ EN_HINTS = (
     "focustaiwan", "researchgate", "academia.edu", "ieee", "acm.org", "arxiv",
     "/en/", "thediplomat", "aljazeera", "economist", "ft.com", "wsj.com",
     "japantimes", "koreaherald", "scmp.com",
-    # 2026-06-12 justfont EVOLVE 補：科技/設計題常見英文媒體與國際組織（原漏）
+    # 2026-06-12 added: common EN media + intl orgs for tech/design topics (previously missed)
     "qz.com", "appleinsider", "goldthread", "atypi.org", "en.morisawa", "blog.adobe",
-    # 2026-06-14 造山者 EVOLVE 補：紀錄片/半導體/外交題常見英文媒體・智庫・學術・英文官方頻道（原漏）
+    # 2026-06-14 added: documentary/semiconductor/diplomacy EN media, think tanks, academia (previously missed)
     "cinemaescapist", "aparc.fsi", "hoover.org", "fpri.org", "sagepub", "gasiantimes",
     "jsis.washington", "taiwanplus", "/english/", "larb.org", "fsi.stanford",
 )
-# 一手 = 官方 / 政府 / 學術原始來源
-# 註：.org.tw 多為財團法人 / 官方機構 / 協會官網（tdri.org.tw / goldenpin.org.tw /
-#     *.design.org.tw 等），算一手；.com.tw 太廣（含 chinatimes 等媒體）故不納入。
+# Primary = official / government / academic original sources
+# Note: .org.tw mostly foundations / official orgs / association sites (tdri.org.tw /
+#       goldenpin.org.tw / *.design.org.tw etc), counts as primary; .com.tw too broad
+#       (includes media like chinatimes) so excluded.
 PRIMARY_HINTS = (
     ".gov.tw", ".gov/", "gov.tw", ".edu.tw", ".edu/", "edu.tw", "sinica.edu",
-    ".org.tw",  # 財團法人 / 官方機構 / 協會官網（2026-06-04 v2 實驗補：原漏 tdri.org.tw 等）
+    ".org.tw",  # foundations / official orgs / associations (2026-06-04 v2: previously missed tdri.org.tw etc)
     "ndltd.ncl", "airitilibrary", "stat.gov", "ly.gov.tw", "president.gov",
     "ey.gov", "moc.gov", "moe.gov", "drnh.gov", "scholar.google", "jstor",
     "law.moj", "mops.twse", "gcis.nat", "data.gov", "nmth", "npm.gov",
-    "ith.sinica", "drnh", "twreporter",  # 報導者 = 深度一手調查
-    # 2026-06-12 justfont EVOLVE 補（原漏，通用性站得住）：官方 source repo＝一手 artifact；
-    # 群募平台專案頁＝募資原始數據；國際專業協會官網＝一手
+    "ith.sinica", "drnh", "twreporter",  # The Reporter = deep investigative primary
+    # 2026-06-12 added (universally valid): official source repos = primary artifacts;
+    # crowdfunding project pages = original fundraising data; intl professional associations = primary
     "github.com", "flyingv.cc", "wabay.tw", "zeczec.com", "atypi.org",
 )
-# 信度標記 pattern
+# Confidence mark pattern
 CONFIDENCE_RE = re.compile(
     r"高信度|高信心|高可信|single[_\s-]?source|單一來源|未驗證|unverified|"
     r"high_confidence|待驗|必驗|交叉(驗證|比對)|verbatim|逐字|信度[:：]|confidence"
 )
-# 搜尋日誌 / 方法論 section
+# Search log / methodology section
 SEARCHLOG_RE = re.compile(
     r"##+\s*.*(搜尋(日誌|紀錄|記錄|log)|方法論|search\s*log|探索搜尋|query|查詢紀錄|"
     r"研究方法|搜尋軌跡|methodology)",
     re.IGNORECASE,
 )
-# 信心程度三層系統（v6.5 — 12 範本 #1 共通 pattern）
+# Three-tier confidence system (v6.5 — common pattern from 12 templates #1)
 VERIF_TIERS = (
     re.compile(r"high_confidence|高信度|高可信"),
     re.compile(r"single_source|單一來源"),
     re.compile(r"unverified|未驗證|搜尋.{0,6}未(找到|獲)"),
 )
-# negative findings（搜了沒找到也要記）
+# Negative findings (searched but not found must also be recorded)
 NEGATIVE_RE = re.compile(
     r"未找到|未獲|查無|搜尋.{0,8}(未|無)|no data found|未發布|未公開|找不到|無法(取得|查證|驗證)"
 )
-# 反例 / 不能說的話 / 不採信清單 section（護欄前置）
+# Counter-examples / disallowed claims / rejection list section (guardrails)
 COUNTEREX_RE = re.compile(
     r"##+\s*.*(反例|不能說|不採信|必驗反例|可能陷阱|red[_\s-]?flag|護欄|不可寫|風險)",
     re.IGNORECASE,
 )
 URL_RE = re.compile(r"https?://[^\s\)\]\>\"'，。、；]+")
 
-# ── Stage 0 觀點成型 exit gate 三件套（v7.3 — 哲宇 anti-drift 儀器化）─────────
-# 抓「persona-only」drift：跑了 persona 但跳過 0.6.1 六核心問題 + 0.6.4 ≥20 探索搜尋。
+# ── Stage 0 viewpoint-formation exit gate triplet (v7.3 — anti-drift instrumentation) ──
+# Catch "persona-only" drift: ran persona but skipped 0.6.1 six core questions + 0.6.4 >=20 exploration searches.
 VIEWPOINT_RE = re.compile(r"##+\s*.*觀點成型")
-# 2026-06-14 p0-legion 校準（REFLEXES #66 gate dogfood）：原 regex 只認「20 路 persona」相鄰
-# 或「persona 切入點」，漏掉 pipeline 自己的詞彙「入射角」（REWRITE Step 0.6.1-bis「撐開研究入射角」）
-# + 合成報告常用的 `**personaAngles（20 路原文）**` bold marker。三者皆 legit persona section。
+# 2026-06-14 p0-legion calibration (REFLEXES #66 gate dogfood): original regex only matched
+# "20 路 persona" adjacent or "persona 切入點", missed pipeline's own term "入射角"
+# (REWRITE Step 0.6.1-bis) + synthesis report's `**personaAngles**` bold marker. All three are legit.
 PERSONA_RE = re.compile(r"(##+\s*.*(20\s*路\s*persona|persona\s*(切入點|入射角))|personaAngles)", re.IGNORECASE)
 FRONTMATTER_VP_RE = re.compile(r"^viewpoint_formed:\s*true", re.MULTILINE)
-# 六核心問題落檔結構標記（記憶/多元面貌/想法感受/歷史脈絡/社會關聯/類型 → §觀點成型 sub-sections）
+# Six core question structure markers (memory/diverse facets/thoughts-feelings/historical context/social links/types)
 SIXQ_MARKERS = (
     re.compile(r"記憶\s*anchor|對台灣人的記憶"),
     re.compile(r"多元面貌|多元不同面貌"),
@@ -120,7 +124,7 @@ def analyze(path: Path):
     verif_tiers = sum(1 for r in VERIF_TIERS if r.search(txt))  # 0-3
     has_negative = bool(NEGATIVE_RE.search(txt))
     has_counterex = bool(COUNTEREX_RE.search(txt))
-    # Stage 0 觀點成型 三件套 signals
+    # Stage 0 viewpoint-formation triplet signals
     has_viewpoint = bool(VIEWPOINT_RE.search(txt))
     has_persona = bool(PERSONA_RE.search(txt))
     viewpoint_formed = bool(FRONTMATTER_VP_RE.search(txt))
@@ -166,37 +170,38 @@ def grade(metrics, tier):
         results.append((name, got, f"≥ {need}", sev, ok))
 
     def floor_then_target(name, got, target):
-        # 0 = HARD（egregious — 對應 57% 報告英文/一手來源 = 0 的系統性問題）；
-        # 0 < got < target = WARN（nudge 不強迫塞 token 來源，避免懲罰正當的本土/兩岸題目）。
+        # 0 = HARD (egregious — matches the systemic issue of 57% reports having zero EN/primary sources);
+        # 0 < got < target = WARN (nudge without forcing token sources, avoid penalizing legitimate local topics).
         nonlocal hard_fail, warn
         if got == 0:
             hard_fail += 1
             results.append((name, got, "≥ 1 (0=fail)", "hard", False))
         elif got < target:
             warn += 1
-            results.append((name, got, f"理想 ≥ {target}", "warn", False))
+            results.append((name, got, f"ideal ≥ {target}", "warn", False))
         else:
             results.append((name, got, f"≥ {target}", "warn", True))
 
-    simple("distinct 來源數", metrics["distinct"], md, "hard")
-    floor_then_target("英文/國際/學術來源", metrics["en"], me)
-    floor_then_target("一手/官方/學術來源", metrics["primary"], mp)
-    simple("搜尋日誌/方法論 section",
+    simple("distinct source count", metrics["distinct"], md, "hard")
+    floor_then_target("EN/intl/academic sources", metrics["en"], me)
+    floor_then_target("primary/official/academic sources", metrics["primary"], mp)
+    simple("search log/methodology section",
            1 if metrics["has_searchlog"] else 0, 1, "hard")
-    simple("信度三層系統 (high/single/unverified)", metrics["verif_tiers"], 2, "hard")
-    simple("信度標記數", metrics["confidence"], mc, "warn")
-    simple("negative findings 紀錄 (搜了沒找到)",
+    simple("confidence 3-tier system (high/single/unverified)", metrics["verif_tiers"], 2, "hard")
+    simple("confidence mark count", metrics["confidence"], mc, "warn")
+    simple("negative findings record (searched but not found)",
            1 if metrics["has_negative"] else 0, 1, "warn")
-    simple("反例/不採信/護欄 section",
+    simple("counter-example/rejection/guardrail section",
            1 if metrics["has_counterex"] else 0, 1, "warn")
-    simple("報告行數 (SSOT 厚度)", metrics["lines"], ml, "warn")
+    simple("report line count (SSOT depth)", metrics["lines"], ml, "warn")
     return results, hard_fail, warn
 
 
 def grade_stage0(m):
-    """Stage 0 觀點成型 exit gate — 三件套全到才進 Stage 1（哲宇 anti-drift 儀器化）。
-    核心：抓 persona-only drift —— 跑了 persona 卻跳過 0.6.1 六核心問題 + 0.6.4 ≥20 探索搜尋。
-    ≥10 distinct 來源是「≥20 探索真的發生」的 proxy（persona-only 只發散問題 → ~0 來源）。"""
+    """Stage 0 viewpoint-formation exit gate — all three parts required before entering Stage 1.
+    Core: catch persona-only drift — ran persona but skipped 0.6.1 six core questions + 0.6.4 >=20
+    exploration searches. >=10 distinct sources is a proxy for ">=20 explorations actually happened"
+    (persona-only diverges questions but yields ~0 sources)."""
     results = []
     hard = 0
 
@@ -206,13 +211,13 @@ def grade_stage0(m):
             hard += 1
         results.append((name, ok, detail))
 
-    chk("§觀點成型 section", m["has_viewpoint"], "缺 `## 觀點成型`")
-    chk("frontmatter viewpoint_formed: true", m["viewpoint_formed"], "缺 `viewpoint_formed: true`")
-    chk("六核心問題落檔結構 (≥4/6)", m["sixq"] >= 4, f"只有 {m['sixq']}/6 結構標記 (記憶/多元/脈絡/切入點/方向/矛盾)")
-    chk("§20 路 persona 切入點", m["has_persona"], "缺 persona 切入點 section")
-    chk("搜尋日誌/探索紀錄 section", m["has_searchlog"], "缺 `### 探索搜尋紀錄`")
-    chk("≥20 探索搜尋 (distinct 來源 ≥10 proxy)", m["distinct"] >= 10,
-        f"只有 {m['distinct']} distinct 來源 — persona-only？≥20 探索本該留 ≥10 來源")
+    chk("viewpoint-formation section", m["has_viewpoint"], "missing `## 觀點成型`")
+    chk("frontmatter viewpoint_formed: true", m["viewpoint_formed"], "missing `viewpoint_formed: true`")
+    chk("six core questions structure (>=4/6)", m["sixq"] >= 4, f"only {m['sixq']}/6 structure markers (memory/diverse/context/angles/direction/contradiction)")
+    chk("20-persona angles section", m["has_persona"], "missing persona angles section")
+    chk("search log/exploration record section", m["has_searchlog"], "missing `### 探索搜尋紀錄`")
+    chk(">=20 exploration searches (distinct sources >=10 proxy)", m["distinct"] >= 10,
+        f"only {m['distinct']} distinct sources — persona-only? >=20 explorations should yield >=10 sources")
     return results, hard
 
 
@@ -221,18 +226,18 @@ def main():
     ap.add_argument("report")
     ap.add_argument("--tier", default="depth", choices=list(TIERS))
     ap.add_argument("--stage", choices=["0", "1"], default="1",
-                    help="0 = Stage 0 觀點成型 exit gate (三件套 anti-drift); 1 = Stage 1 SSOT gate (預設)")
+                    help="0 = Stage 0 viewpoint-formation exit gate (triplet anti-drift); 1 = Stage 1 SSOT gate (default)")
     ap.add_argument("--json", action="store_true")
     args = ap.parse_args()
 
     p = Path(args.report)
     if not p.exists():
-        print(f"❌ 找不到 research report: {p}", file=sys.stderr)
+        print(f"❌ Research report not found: {p}", file=sys.stderr)
         sys.exit(2)
 
     m = analyze(p)
 
-    # ── Stage 0 觀點成型 exit gate（哲宇 anti-drift：persona ≠ Stage 0 全部）──
+    # ── Stage 0 viewpoint-formation exit gate (anti-drift: persona != all of Stage 0) ──
     if args.stage == "0":
         results, hard_fail = grade_stage0(m)
         if args.json:
@@ -240,14 +245,14 @@ def main():
                                   hard_fail=hard_fail, passed=(hard_fail == 0)),
                              ensure_ascii=False, indent=2))
             sys.exit(0 if hard_fail == 0 else 1)
-        print(f"🔬 research-report-health [Stage 0 觀點成型 exit gate]  {p}")
+        print(f"🔬 research-report-health [Stage 0 viewpoint-formation exit gate]  {p}")
         for name, ok, detail in results:
             print(f"   {'✅' if ok else '🔴'} {name}" + ("" if ok else f"  — {detail}"))
         verdict = "PASS" if hard_fail == 0 else "FAIL"
         print(f"\n   Summary: hard_fail={hard_fail}  → {verdict}")
         if hard_fail:
-            print("   ⛔ Stage 0 三件套未齊 = 不進 Stage 1。六核心問題 + ≥20 探索 + persona 缺一不可"
-                  "（persona-only 不算 Stage 0 做完）。")
+            print("   ⛔ Stage 0 triplet incomplete = cannot enter Stage 1. Six core questions + >=20 "
+                  "explorations + persona are all required (persona-only does not count as Stage 0 done).")
         sys.exit(0 if hard_fail == 0 else 1)
 
     results, hard_fail, warn = grade(m, args.tier)
@@ -261,15 +266,15 @@ def main():
         sys.exit(0 if hard_fail == 0 else 1)
 
     print(f"🔬 research-report-health  {p}  (tier={args.tier})")
-    print(f"   來源域名多樣性: {m['domains']} domains / {m['distinct']} URLs")
+    print(f"   Source domain diversity: {m['domains']} domains / {m['distinct']} URLs")
     for name, got, need, sev, ok in results:
         icon = "✅" if ok else ("🔴" if sev == "hard" else "⚠️ ")
-        bar = "" if ok else f"  (需 {need})"
+        bar = "" if ok else f"  (need {need})"
         print(f"   {icon} {name}: {got}{bar}")
     verdict = "PASS" if hard_fail == 0 else "FAIL"
     print(f"\n   Summary: hard_fail={hard_fail} warn={warn}  → {verdict}")
     if hard_fail:
-        print("   ⛔ Stage 1 不過 = 不進 Stage 2。回去補搜尋 + 把原始搜尋軌跡寫回報告 (SSOT)。")
+        print("   ⛔ Stage 1 failed = cannot enter Stage 2. Go back, add searches, write raw search traces into report (SSOT).")
     sys.exit(0 if hard_fail == 0 else 1)
 
 
