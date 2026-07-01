@@ -265,7 +265,7 @@ reading tool source. Execute via `/lb-implement` + `/lb-review`, batched by grou
       review-pr.sh, refresh-data.sh, consciousness-snapshot.sh, routine-status.sh,
       audit-batch.sh, build-parity-diff.sh, check-\* shells, translate.sh,
       worktree-gc, session-id, ci/restore-mtime.
-- [ ] **Group 7: feedback + utils + visual** (~20 files, ~300 lines)
+- [x] **Group 7: feedback + utils + visual** (~20 files, ~300 lines)
       feedback/classify, feedback/archive, feedback/triage.test, triage-consolidate,
       scripts/utils/_, scripts/visual/_.
 - [ ] **Group 8: dormant/niche tools** (~25 files, ~600 lines)
