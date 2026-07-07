@@ -9,8 +9,8 @@ const { name, tagline } = placeConfig.place;
 const { categories } = placeConfig;
 ---
 
-<Layout>
-  <main class="mx-auto max-w-[var(--container-wide)] px-[var(--space-page-x)] py-[var(--space-8)]">
+<Layout title="Home">
+  <section class="mx-auto max-w-[var(--container-wide)] px-[var(--space-page-x)] py-[var(--space-8)]">
     <h1 style="font-family: var(--font-title)">{name}</h1>
     <p style="color: var(--color-ink-soft)">{tagline}</p>
     <ul>
@@ -23,5 +23,5 @@ const { categories } = placeConfig;
         ))
       }
     </ul>
-  </main>
+  </section>
 </Layout>
