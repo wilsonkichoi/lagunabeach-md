@@ -50,3 +50,14 @@ A session loads only the references its task cites — nothing else.
 - Packet `Model:` notes (version-less, e.g. `Model: Opus`) are advisory; Wilson picks each
   session's model. Reviews default to Sonnet; a `Review-Model: Opus` note on a task
   (1.1c, 1.2b, each phase-closing task) overrides.
+
+## Planning conventions
+
+- **Verify extraction sources before citing them.** When a packet names a fork file as the
+  extraction source for specific fields, confirm that file actually contains those fields
+  before writing the packet. In LB-1 the packet cited `src/utils/category-static-paths.ts`
+  `CATEGORY_MAP` for category icons/descriptions, but that const is slug→title only — the real
+  source is `src/utils/categoryConfig.ts`, forcing a mid-task source hunt.
+- **Mirror the fork's exact dep versions, not caret ranges** — see
+  `.claude/rules/extraction-version-pinning.md`. A packet's `^`/`~` ranges are advisory; the
+  fork's installed version is the contract.
