@@ -3,6 +3,13 @@
 Everything needed to run the rebuild (STRATEGIC-DIRECTION.md §E) in the fresh
 repo, in one copy-over location. Authored by Fable 5, 2026-07-04.
 
+> **PARTIALLY SUPERSEDED 2026-07-07** (Wilson's call, per the same-dated revision
+> note in STRATEGIC-DIRECTION.md): execution runs through the dev plugin
+> (Linear tracker, `/dev:*` lifecycle), not the two-session `.handoff/` loop.
+> The `handoff/` and `skills/` payload entries were deliberately NOT copied into
+> this repo; the copy mapping and "operating loop" sections below are historical.
+> Operative process docs: `.claude/dev.md` + `docs/` in this repo.
+
 ## Copy mapping (Wilson, at task 0.1 step 4)
 
 From this directory in the v1 repo, into the fresh `lagunabeach-md` clone:
