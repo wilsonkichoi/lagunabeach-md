@@ -3,9 +3,9 @@
  * and scripts/core/generate-og-images.mjs). Applies to all language article pages.
  *
  * Spore vs OG have different needs; [data-og='1'] attribute separates two override sets:
- *   - Spore (`?shot=1`): Noto Serif TC brand font + 4.5rem large type
+ *   - Spore (`?shot=1`): the brand serif font + 4.5rem large type
  *     + 18vh anchor position (single hand-crafted, brand-feel priority)
- *   - OG (`?shot=1&og=1`): Noto Serif TC stable font + 3.75rem slightly smaller
+ *   - OG (`?shot=1&og=1`): the brand serif stable font + 3.75rem slightly smaller
  *     + 12vh compact position + line-clamp (batch image stability, long titles shown fully)
  *
  * Base layer retains original Spore styling (poster feel),
@@ -109,7 +109,7 @@ html[data-shot='1'] body > main {
 
 /* ═══ OG mode override (?shot=1&og=1) ═══════════════════════════════
  * For batch OG image generator:
- *   - Force Noto Serif TC (Google Fonts Layout preloaded)
+ *   - Force the brand serif (Google Fonts Layout preloaded)
  *   - Slightly smaller 3.75rem, fits more text
  *   - 12vh / 6vh padding, compact layout
  *   - line-clamp 2/3, prevents long titles from overflowing or covering watermark
@@ -122,7 +122,7 @@ html[data-shot='1'][data-og='1'] main.article-page > section:first-of-type {
 }
 
 html[data-shot='1'][data-og='1'] main.article-page .hero-title {
-  font-family: 'Noto Serif TC', 'Source Han Serif TC', serif !important;
+  font-family: var(--font-title) !important;
   font-weight: 900 !important;
   font-size: 3.75rem !important; /* 60px */
   line-height: 1.2 !important;
@@ -138,7 +138,7 @@ html[data-shot='1'][data-og='1']
   > section
   > div:nth-child(2)
   > p {
-  font-family: 'Noto Serif TC', serif !important;
+  font-family: var(--font-title) !important;
   font-size: 1.2rem !important; /* 19.2px */
   max-width: min(860px, 75%) !important;
   line-height: 1.65 !important;
@@ -156,8 +156,8 @@ html[data-shot='1'][data-og='1']
  * surfaces only the header (date+session badge + title + trigger/span metadata)
  * and first prose paragraph as OG hero.
  *
- * Font choice: OG mode (&og=1) uses Noto Serif TC stable font (visually aligned
- * with article OG); non-OG (pure ?shot=1) uses Noto Serif TC serif.
+ * Font choice: OG mode (&og=1) uses the brand serif stable font (visually aligned
+ * with article OG); non-OG (pure ?shot=1) uses the same brand serif.
  * ──────────────────────────────────────────────────────────────────── */
 
 html[data-shot='1'][data-diary='1'],
@@ -214,7 +214,7 @@ html[data-shot='1'][data-diary='1'] .diary-entry-hero {
 }
 
 html[data-shot='1'][data-diary='1'] .diary-entry-hero h1 {
-  font-family: 'Noto Serif TC', 'Source Han Serif TC', serif !important;
+  font-family: var(--font-title) !important;
   font-size: 4rem !important; /* 64px — slightly larger than article OG's 3.75rem;
                                   diary text density is typically lower */
   font-weight: 600 !important;
@@ -227,9 +227,9 @@ html[data-shot='1'][data-diary='1'] .diary-entry-hero h1 {
   overflow: hidden !important;
 }
 
-/* OG mode (batch image generation) forces Noto Serif TC */
+/* OG mode (batch image generation) forces the brand serif */
 html[data-shot='1'][data-diary='1'][data-og='1'] .diary-entry-hero h1 {
-  font-family: 'Noto Serif TC', 'Source Han Serif TC', serif !important;
+  font-family: var(--font-title) !important;
   font-weight: 900 !important;
   font-size: 3.5rem !important; /* 56px — slightly smaller to fit line-clamp 3 */
 }

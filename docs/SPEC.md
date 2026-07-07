@@ -44,9 +44,17 @@ report. Directory shape: §B's tree (same shape for framework and instances).
 Schema (full version in §B): `place {name, tagline, domain, locale, languages}`,
 `categories[] {slug, title, icon, description}` (5-14), `map {center, zoom, maxBounds}`,
 `features {graph, map, dashboard, soundscape, feedback, chat, social, analytics}`,
+`links {repo, email, social {twitter?, threads?, instagram?}}`,
 `seo {defaultOgImage, twitterHandle?}`. Init-time: written only by the `npm run init`
 wizard (~8 prompts, or `--answers <json>` from `/adopt` — single writer, no drift).
 Runtime-toggleable: `features`, languages, semiont organs.
+
+> **`links` (added 1.1a):** the shell's Footer/SEO/Header need a GitHub repo URL,
+> contact email, and social handles, which STRATEGIC-DIRECTION §B's schema does not
+> define. Wilson approved extending the schema here rather than dropping the links.
+> `links.social.*` render only when `features.social` is true. This intentionally
+> diverges from §B (frozen source of record); the init wizard (5.2) must add `links`
+> prompts. Tracked on LB-3.
 
 ## Content model (§B — unchanged and non-negotiable)
 

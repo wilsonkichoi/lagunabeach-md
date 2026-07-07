@@ -40,6 +40,24 @@ export interface PlaceConfig {
     social: boolean;
     analytics: boolean;
   };
+  /**
+   * Outbound identity links. `repo` + `email` are always rendered (footer,
+   * SEO sameAs/contactPoint, the "edit on GitHub" affordance). `social`
+   * handles feed the footer social row and SEO sameAs, and render ONLY when
+   * `features.social` is true. Handles include the leading `@`; component
+   * code strips it when building platform URLs.
+   * Added by task 1.1a (shell): §B's schema had no home for these; extending
+   * it was Wilson's call (diverges from STRATEGIC-DIRECTION §B, tracked on LB-3).
+   */
+  links: {
+    repo: string;
+    email: string;
+    social: {
+      twitter?: string;
+      threads?: string;
+      instagram?: string;
+    };
+  };
   seo: {
     defaultOgImage: string;
     twitterHandle?: string;
@@ -126,6 +144,15 @@ const config: PlaceConfig = {
     chat: false,
     social: false,
     analytics: false,
+  },
+  links: {
+    repo: 'https://github.com/wilsonkichoi/lagunabeach-md',
+    email: 'hello@lagunabeach.md',
+    social: {
+      twitter: '@lagunabeachmd',
+      threads: '@lagunabeachmd',
+      instagram: '@lagunabeachmd',
+    },
   },
   seo: {
     defaultOgImage: '/images/laguna-social.jpg',
