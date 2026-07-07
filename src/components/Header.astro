@@ -1027,11 +1027,6 @@ const categoryList = placeConfig.categories.map((c) => ({
 
   /* =============================================
      TABLET / SMALL DESKTOP — collapse to mobile menu (≤1024px)
-
-     2026-04-25 β7: addresses issue #573 (reported by @assanges). Originally only EN
-     collapsed at 1024px; other languages (zh-TW / ja / ko / fr / es) were clipped at
-     768-1023px (especially after the dropdown UI + 5-lang switcher were added).
-     Now all languages uniformly collapse to the mobile menu at ≤1024px.
   ============================================= */
   @media (max-width: 1024px) {
     .nav-desktop {

@@ -394,7 +394,7 @@ const ghBase = `${links.repo}/blob/main`;
       }
 
       function _renderResult(item) {
-        var langBadge = item.lang === 'en' ? 'EN' : '中';
+        var langBadge = (item.lang || 'en').toUpperCase();
         var title = item.t || '';
         var desc = item.d || '';
         return (
@@ -414,16 +414,13 @@ const ghBase = `${links.repo}/blob/main`;
       }
 
       function initSearch() {
-        var isEn = document.documentElement.lang === 'en';
-        var lang = isEn ? 'en' : 'zh-TW';
+        var lang = document.documentElement.getAttribute('lang') || 'en';
         var input = document.getElementById('search-input');
         if (!input) return;
         var results = document.getElementById('search-results');
         var modal = document.getElementById('search-modal');
-        var hintEmpty = isEn
-          ? 'Type to search across all articles'
-          : '輸入關鍵字搜尋所有文章';
-        var hintNone = isEn ? 'No results found' : '找不到相關文章';
+        var hintEmpty = 'Type to search across all articles';
+        var hintNone = 'No results found';
 
         // GA4 search tracking (debounced)
         var _gaDebounceTimer = null;
@@ -470,9 +467,7 @@ const ghBase = `${links.repo}/blob/main`;
           // Single-char queries are handled by prefix match
           if (_searchMode === 'loading') {
             results.innerHTML =
-              '<div class="search-hint">' +
-              (isEn ? 'Loading...' : '載入中...') +
-              '</div>';
+              '<div class="search-hint">Loading...</div>';
             return;
           }
           var matches = _doSearch(q, lang);
@@ -484,11 +479,9 @@ const ghBase = `${links.repo}/blob/main`;
             var html = matches.slice(0, 12).map(_renderResult).join('');
             if (matches.length > 12) {
               html +=
-                '<div class="search-hint">' +
-                (isEn
-                  ? '...and ' + (matches.length - 12) + ' more'
-                  : '...還有 ' + (matches.length - 12) + ' 篇') +
-                '</div>';
+                '<div class="search-hint">...and ' +
+                (matches.length - 12) +
+                ' more</div>';
             }
             results.innerHTML = html;
           }
@@ -570,7 +563,7 @@ const ghBase = `${links.repo}/blob/main`;
     <!-- Screenshot mode (?shot=1) watermark — BrandMark (light variant) pinned bottom-right.
          display: none controlled by shot-mode.css, shown only when ?shot=1.
          Must be outside <main> to avoid being hidden by "hide everything inside main
-         except hero section" rule. 2026-04-22 β moved from zh-TW [slug].astro to Layout for all langs. -->
+         except hero section" rule. -->
     <div class="shot-watermark" aria-hidden="true">
       <BrandMark variant="light" size={1.8} />
     </div>
