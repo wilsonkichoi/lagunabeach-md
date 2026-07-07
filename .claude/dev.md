@@ -44,7 +44,10 @@ A session loads only the references its task cites — nothing else.
 
 - Milestones = Linear project milestones on project "LB Rebuild", one per §E phase
   ("Phase 0" … "Phase 8"). Phase transitions are Wilson gates: `/dev:plan` for phase n+1
-  runs only after Wilson confirms phase n closed.
+  runs only after Wilson confirms phase n closed **and** the phase-n retro confirms every
+  Backlog discovery stub from the phase is triaged — each stub either became a
+  ROADMAP/SPEC edit (via `dev:backlog` triage), was pulled into the phase-n+1 plan, or was
+  closed Wont Do with rationale. Untriaged stubs block the next plan.
 - Wilson gates from §E (1.1c design sign-off, 3.2 domain cutover, 5.2c dana-point proof)
   are manual DoD criteria on those tasks — `/dev:verify` must stop for Wilson on them.
 - Packet `Model:` notes (version-less, e.g. `Model: Opus`) are advisory; Wilson picks each
@@ -61,3 +64,22 @@ A session loads only the references its task cites — nothing else.
 - **Mirror the fork's exact dep versions, not caret ranges** — see
   `.claude/rules/extraction-version-pinning.md`. A packet's `^`/`~` ranges are advisory; the
   fork's installed version is the contract.
+- **Read ahead, plan JIT.** When decomposing phase n, `/dev:plan` must read the §E / ROADMAP
+  sections for phases n+1 and n+2 and include a **Forward constraints** section in the dry
+  run: every phase-n decision a later phase depends on, one line each, citing the future §E
+  unit it serves. A dry run without this section is incomplete — Wilson rejects it.
+- **`Downstream:` field in every packet.** Each minted packet names the future §E units that
+  consume its output (`Downstream: none` allowed, but must be stated), so the executor knows
+  which interfaces are load-bearing contracts versus internal choices.
+
+## Execution conventions
+
+- **Deferred-discoveries capture.** Any discovery during execute/review/verify that belongs
+  to a future phase is captured immediately as a Linear **Backlog** stub: title, two
+  sentences, link to where it surfaced. No milestone, no packet — stubs are state
+  ("untriaged discovery exists"), not intent; intent enters the docs only at phase-close
+  triage (see Milestones). Stubs are never worked directly; they become tasks only through
+  `/dev:plan` or `dev:backlog` triage.
+- **Every PR description carries a `Deferred discoveries:` section** — listing the stubs
+  filed from that task, or an explicit `none`. `/dev:review-pr` treats a missing section as
+  a review finding.
