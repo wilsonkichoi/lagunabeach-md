@@ -25,6 +25,9 @@
     "tailwindcss": "4.2.2"
   },
   "devDependencies": {
-    "npm-run-all2": "^8.0.4"
+    "npm-run-all2": "^8.0.4",
+    "pixelmatch": "^7.2.0",
+    "playwright": "^1.61.1",
+    "pngjs": "^7.0.0"
   }
 }
