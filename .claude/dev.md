@@ -3,7 +3,7 @@ tracker: linear
 linear_team: LB
 linear_project: "LB Rebuild"
 test_command: "npm run build"  # real tests arrive with task 4.1; update this field then
-ci_workflow: ""                # deploy.yml does not exist until task 0.3; that task's DoD sets this to deploy.yml
+ci_workflow: deploy.yml        # GH Actions workflow: genericity + build on every PR, deploy on push to main (LB-2)
 merge_policy: squash
 review_action_installed: false # auto PR-review GitHub Action (claude-review.yml) is set up
 work_in_progress_limit: 2      # max tasks simultaneously In Progress + In Review
