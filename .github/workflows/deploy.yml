@@ -13,17 +13,19 @@ on:
   pull_request:
   workflow_dispatch:
 
+# Least privilege: read-only by default. Only the deploy job gets the Pages
+# write + OIDC scopes, so the genericity/build jobs — which execute PR-authored
+# code (npm ci postinstall, npm run build) — cannot touch Pages or mint tokens.
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
-# One in-flight run per ref: a new push to a PR (or main) cancels its own stale
-# run. Deploys to main serialize under their own ref group; the github-pages
-# environment gives the final deploy-race protection.
+# One in-flight run per ref. On a PR, a new push cancels the superseded build
+# (save CI minutes). On main, cancel-in-progress is false so a rapid second push
+# never kills an in-flight production deploy; runs queue instead. The
+# github-pages environment gives the final deploy-race protection.
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   genericity:
@@ -59,6 +61,11 @@ jobs:
     needs: build
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    # Write scopes live here only (see top-level note): actions/deploy-pages needs
+    # id-token: write for OIDC and pages: write to publish.
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
