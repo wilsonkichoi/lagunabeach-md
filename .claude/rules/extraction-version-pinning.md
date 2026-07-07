@@ -16,15 +16,25 @@ can be stale or carry unpatched CVEs. Always prefer the newer, safer version:
   fork. Verify vite/toolchain-major compatibility and that `npm run build` stays green, then
   commit the lockfile. Do NOT "revert to the fork's version" to satisfy this rule — that
   reopens the vulnerability.
-- **Compatibility is the real constraint, not fork-parity.** The LB-1 crash was a vite-major
-  mismatch, not "wrong version number." Keep the toolchain internally consistent (below);
-  within that, take the latest safe release.
+- **The gate is a green build, not a lockfile vite-major count.** Verify the exact pinned set
+  with `npm run build`; do not gate on "how many vite majors are in the tree." Multiple vite
+  majors coexisting is normal and healthy — see the note below.
 
-**Why (LB-1 crash):** the packet's `astro ^6` / `tailwindcss ^4` resolved to astro 6.4.8 +
-tailwind 4.3.2, pulling mismatched vite majors (vite 8 via tailwind, vite 7 via astro) that
-crash the rolldown resolver with `Missing field tsconfigPaths`. The build went green only
-after pinning an exact, mutually-compatible set (then astro 6.2.1 / tailwind 4.2.2 /
-@tailwindcss/vite 4.2.2).
+**Why (LB-1 crash):** the packet's `astro ^6` / `tailwindcss ^4` floated to astro 6.4.8 +
+tailwind 4.3.2, and *that specific caret-resolved combination* produced a broken build —
+astro's build resolved onto an incompatible vite and the rolldown resolver crashed with
+`Missing field tsconfigPaths`. The fix was pinning an exact, build-verified set (then astro
+6.2.1 / tailwind 4.2.2 / @tailwindcss/vite 4.2.2). The lesson is "caret floats produce
+un-verified resolutions," not "a specific version number is required."
+
+**Note — multi-major vite coexistence is expected, do not flag it.** The current known-good
+lockfile contains two vite majors: `node_modules/vite` 8.1.3 (top-level, satisfies
+`@tailwindcss/vite`'s peer `^5.2.0 || ^6 || ^7 || ^8`) and `node_modules/astro/node_modules/vite`
+7.3.6 (nested, satisfies astro's `vite ^7.3.2`). astro uses its own nested copy; the two never
+collide. `@tailwindcss/vite`'s vite peer range is *identical* across 4.2.2 and 4.3.2, so the
+LB-1 break was never "tailwind pulled vite 8" — it was the floated resolution as a whole. A
+"toolchain consistency" check MUST NOT flag this healthy nesting; the only invariant that
+matters is `npm run build` green on the exact pinned set.
 
 **Precedent (2026-07-07 security scan):** bumped astro 6.2.1 → 6.4.8 to patch three
 XSS/SSRF advisories (GHSA-8hv8-536x-4wqp, GHSA-jrpj-wcv7-9fh9, GHSA-2pvr-wf23-7pc7), keeping
