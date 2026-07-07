@@ -1,0 +1,27 @@
+---
+// Placeholder home page (task 0.2) — proves the scaffold builds and the design
+// system loads. The real home page (hero, category grid, home components) lands
+// in Phase 1. All copy reads from place.config; no place-specific literals.
+import Layout from '../layouts/Layout.astro';
+import placeConfig from '../../place.config';
+
+const { name, tagline } = placeConfig.place;
+const { categories } = placeConfig;
+---
+
+<Layout>
+  <main class="mx-auto max-w-[var(--container-wide)] px-[var(--space-page-x)] py-[var(--space-8)]">
+    <h1 style="font-family: var(--font-title)">{name}</h1>
+    <p style="color: var(--color-ink-soft)">{tagline}</p>
+    <ul>
+      {
+        categories.map((category) => (
+          <li>
+            <span aria-hidden="true">{category.icon}</span> {category.title} —{' '}
+            {category.description}
+          </li>
+        ))
+      }
+    </ul>
+  </main>
+</Layout>

@@ -1,0 +1,30 @@
+{
+  "name": "lagunabeach-md",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "AI-native open knowledge base — sekai-kb instance #1.",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.17",
+    "@astrojs/sitemap": "^3.7.1",
+    "@tailwindcss/vite": "4.2.2",
+    "astro": "6.2.1",
+    "gray-matter": "^4.0.3",
+    "marked": "^17.0.4",
+    "minisearch": "^7.2.0",
+    "rehype-external-links": "^3.0.0",
+    "remark-wiki-link": "^2.0.1",
+    "tailwindcss": "4.2.2"
+  },
+  "devDependencies": {
+    "npm-run-all2": "^8.0.4"
+  }
+}

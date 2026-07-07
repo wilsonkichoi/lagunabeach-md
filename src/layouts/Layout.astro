@@ -1,0 +1,30 @@
+---
+// Minimal scaffold layout (task 0.2). The real Layout — SEO, fonts <link>,
+// header/footer, theme + reader settings — lands in task 1.1a. Everything
+// place-specific reads from place.config; this file stays generic.
+import placeConfig from '../../place.config';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title, description = placeConfig.place.tagline } = Astro.props;
+const { name, locale } = placeConfig.place;
+const pageTitle = title ? `${title} | ${name}` : name;
+---
+
+<!doctype html>
+<html lang={locale}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

@@ -1,0 +1,12 @@
+# build output
+dist/
+.astro/
+
+# dependencies
+node_modules/
+
+# derived content (SSOT is knowledge/; written by scripts/core/sync.sh)
+src/content/
+
+# os / editor
+.DS_Store
