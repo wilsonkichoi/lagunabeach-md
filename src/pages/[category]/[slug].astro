@@ -1,0 +1,29 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('en');
+  return articles.map((article) => {
+    const parts = article.id.split('/');
+    const category = parts.length > 1 ? parts[0] : 'uncategorized';
+    const slug = parts.length > 1 ? parts.slice(1).join('/') : article.id;
+    return {
+      params: { category, slug },
+      props: { article },
+    };
+  });
+}
+
+const { article } = Astro.props;
+const { Content } = await render(article);
+---
+
+<Layout title={article.data.title} description={article.data.description}>
+  <main>
+    <article>
+      <h1>{article.data.title}</h1>
+      <Content />
+    </article>
+  </main>
+</Layout>
