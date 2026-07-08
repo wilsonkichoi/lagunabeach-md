@@ -1,18 +1,14 @@
 /* ── Screenshot mode (?shot=1) global overrides ────────────────────────
- * Shared by spore-image and OG image generators (scripts/tools/generate-spore-image.mjs
- * and scripts/core/generate-og-images.mjs). Applies to all language article pages.
+ * Used by the OG image generator (scripts/core/generate-og-images.mjs).
+ * Applies to all language article pages.
  *
- * Spore vs OG have different needs; [data-og='1'] attribute separates two override sets:
- *   - Spore (`?shot=1`): the brand serif font + 4.5rem large type
- *     + 18vh anchor position (single hand-crafted, brand-feel priority)
- *   - OG (`?shot=1&og=1`): the brand serif stable font + 3.75rem slightly smaller
- *     + 12vh compact position + line-clamp (batch image stability, long titles shown fully)
- *
- * Base layer retains original Spore styling (poster feel),
- * OG uses `[data-og='1']` override subset.
+ * Two override sets separated by [data-og='1']:
+ *   - Base (`?shot=1`): 4.5rem large type + 18vh anchor position (poster feel)
+ *   - OG (`?shot=1&og=1`): 3.75rem slightly smaller + 12vh compact position
+ *     + line-clamp (batch image stability, long titles shown fully)
  * ──────────────────────────────────────────────────────────────────── */
 
-/* ═══ Base: Spore mode (?shot=1 default) ═══════════════════════════════ */
+/* ═══ Base: shot mode (?shot=1 default) ════════════════════════════════ */
 
 html[data-shot='1'],
 html[data-shot='1'] body {
@@ -35,7 +31,7 @@ html[data-shot='1'] main.article-page {
   position: relative !important;
 }
 
-/* Hero anchored to top-third, poster-style — Spore's original golden-ratio anchor */
+/* Hero anchored to top-third, poster-style golden-ratio anchor */
 html[data-shot='1'] main.article-page > section:first-of-type {
   min-height: 100vh !important;
   align-items: flex-start !important;
@@ -64,7 +60,7 @@ html[data-shot='1']
   display: none !important;
 }
 
-/* H1 — 4.5rem poster impact, no line-clamp (original Spore design). */
+/* H1 — 4.5rem poster impact, no line-clamp. */
 html[data-shot='1'] main.article-page .hero-title {
   font-size: 4.5rem !important; /* 72px */
   line-height: 1.22 !important;
@@ -72,7 +68,7 @@ html[data-shot='1'] main.article-page .hero-title {
   max-width: none !important;
 }
 
-/* Description — Spore original wide variant */
+/* Description — wide variant */
 html[data-shot='1'] main.article-page > section > div:nth-child(2) > p {
   font-size: 1.35rem !important; /* ~21.6px */
   max-width: min(900px, 100%) !important;
@@ -148,124 +144,3 @@ html[data-shot='1'][data-og='1']
   overflow: hidden !important;
 }
 
-/* ═══ Diary mode (?shot=1[&og=1], URL = /semiont/diary/...) ═══════
- * Diary pages also use the OG pipeline. Background uses dark semiont theme
- * (#03080a); page chrome hidden same as article (#header-container /
- * footer / md-btn / search-modal already covered by base data-shot rules).
- * Extra: hides breadcrumb / EKG / TOC / DiaryNav / Back-to-index,
- * surfaces only the header (date+session badge + title + trigger/span metadata)
- * and first prose paragraph as OG hero.
- *
- * Font choice: OG mode (&og=1) uses the brand serif stable font (visually aligned
- * with article OG); non-OG (pure ?shot=1) uses the same brand serif.
- * ──────────────────────────────────────────────────────────────────── */
-
-html[data-shot='1'][data-diary='1'],
-html[data-shot='1'][data-diary='1'] body {
-  background: #03080a !important;
-}
-
-html[data-shot='1'][data-diary='1'] .diary-entry-page {
-  background: #03080a !important;
-  background-image: linear-gradient(
-    to bottom,
-    #03080a 0%,
-    #0a1612 100%
-  ) !important;
-  min-height: 100vh !important;
-  position: relative !important;
-}
-
-/* Hide diary page chrome: breadcrumb / EKG / TOC / body / DiaryNav /
- * back-to-index link. Keep only .diary-entry-hero as OG hero */
-html[data-shot='1'][data-diary='1'] .diary-entry-page nav,
-html[data-shot='1'][data-diary='1'] .diary-entry-page .diary-entry-inner > nav,
-html[data-shot='1'][data-diary='1'] .diary-entry-page article.semiont-prose,
-html[data-shot='1'][data-diary='1'] .diary-entry-page aside,
-html[data-shot='1'][data-diary='1']
-  .diary-entry-page
-  .diary-entry-inner
-  > div.relative
-  > article,
-html[data-shot='1'][data-diary='1']
-  .diary-entry-page
-  .diary-entry-inner
-  > div:last-of-type {
-  display: none !important;
-}
-
-/* EKG separator (between title and body) also hidden */
-html[data-shot='1'][data-diary='1']
-  .diary-entry-page
-  .diary-entry-inner
-  > div.mb-10:has(svg) {
-  display: none !important;
-}
-
-/* Container: top anchor 18vh, aligned with Spore poster */
-html[data-shot='1'][data-diary='1'] .diary-entry-page .diary-entry-inner {
-  max-width: none !important;
-  padding: 18vh 6vw 8vh !important;
-}
-
-/* Hero header — large title text, dark palette #f4f0ea / accent #38bdf8 */
-html[data-shot='1'][data-diary='1'] .diary-entry-hero {
-  margin-bottom: 0 !important;
-}
-
-html[data-shot='1'][data-diary='1'] .diary-entry-hero h1 {
-  font-family: var(--font-title) !important;
-  font-size: 4rem !important; /* 64px — slightly larger than article OG's 3.75rem;
-                                  diary text density is typically lower */
-  font-weight: 600 !important;
-  line-height: 1.25 !important;
-  color: #f4f0ea !important;
-  margin-bottom: 1.5rem !important;
-  display: -webkit-box !important;
-  -webkit-line-clamp: 3 !important;
-  -webkit-box-orient: vertical !important;
-  overflow: hidden !important;
-}
-
-/* OG mode (batch image generation) forces the brand serif */
-html[data-shot='1'][data-diary='1'][data-og='1'] .diary-entry-hero h1 {
-  font-family: var(--font-title) !important;
-  font-weight: 900 !important;
-  font-size: 3.5rem !important; /* 56px — slightly smaller to fit line-clamp 3 */
-}
-
-/* Date + session badge row */
-html[data-shot='1'][data-diary='1'] .diary-entry-hero > div:first-child {
-  margin-bottom: 1.25rem !important;
-}
-
-html[data-shot='1'][data-diary='1'] .diary-entry-hero time {
-  font-size: 1.05rem !important;
-  color: rgba(56, 189, 248, 0.85) !important;
-}
-
-html[data-shot='1'][data-diary='1'] .diary-entry-hero > div:first-child span {
-  font-size: 0.9rem !important;
-  height: auto !important;
-  padding: 0.25rem 0.85rem !important;
-  background: rgba(56, 189, 248, 0.15) !important;
-  color: rgba(56, 189, 248, 0.85) !important;
-}
-
-/* Metadata block (trigger / session span / word count) — line-clamp 2 prevents overflow */
-html[data-shot='1'][data-diary='1'] .diary-entry-hero > div:last-child {
-  font-size: 1rem !important;
-  color: rgba(244, 240, 234, 0.65) !important;
-  border-color: rgba(56, 189, 248, 0.4) !important;
-  max-width: min(900px, 80%) !important;
-}
-
-html[data-shot='1'][data-diary='1'] .diary-entry-hero > div:last-child p {
-  display: -webkit-box !important;
-  -webkit-line-clamp: 2 !important;
-  -webkit-box-orient: vertical !important;
-  overflow: hidden !important;
-}
-
-/* Diary also uses BrandMark watermark (display position controlled by base data-shot rules
- * for .shot-watermark; diary dark background needs light variant, consistent with spore/og article) */

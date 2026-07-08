@@ -11,9 +11,6 @@ that must be removed at extraction time.
   this site) is a BLOCKER, not a SUGGESTION or NIT.
 - "Unreachable today" is not a defense. Unreachable means it should not exist.
 - "Harmless" is not a defense. Clean means clean.
-- The only exception is §C-verbatim stylesheets (shot-mode.css, dashboard.css,
-  dark-polish.css, tokens.css) where the verbatim contract explicitly preserves fork content
-  until phase-close triage resolves the §C-vs-§F tension.
 
 **Extraction behavior:**
 

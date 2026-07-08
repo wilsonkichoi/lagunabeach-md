@@ -105,7 +105,7 @@
 /* Global "card" surfaces — many components use these class fragments.
    Catch the visible-bg ones with a broad pattern. */
 :root[data-theme='dark']
-  [class*='card']:not([class*='category-card']):not([class*='supporter-card']) {
+  [class*='card']:not([class*='category-card']) {
   background-color: color-mix(in srgb, var(--color-ink) 6%, transparent);
   border-color: var(--color-border);
 }
@@ -317,9 +317,7 @@
   border-color: color-mix(in srgb, #c17d5e 30%, transparent);
 }
 
-/* TOC active link / sticky sidebar internal text → ensure readable.
- * TableOfContents.astro + SporeFootprint.astro + DiaryTeaser.astro
- * inherit from the broader rules above; this is a safety net. */
+/* TOC active link / sticky sidebar internal text → ensure readable. */
 :root[data-theme='dark'] .table-of-contents a,
 :root[data-theme='dark'] .article-sidebar a {
   color: var(--color-ink-soft);
