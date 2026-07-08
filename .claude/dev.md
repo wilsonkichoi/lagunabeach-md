@@ -33,9 +33,9 @@ Zero place-specific strings in `src/` or `scripts/`. All place identity flows fr
 | Reference | Role | Rule |
 |---|---|---|
 | `.fable/STRATEGIC-DIRECTION.md` (this repo) | binding spec | every task packet names the §E sub-unit it executes |
-| `/Users/wchoi/src/lagunabeach-md-v1` (the renamed fork checkout; also sibling `../lagunabeach-md-v1`) | extraction source | §C prefers the fork's copy; reviews verify extraction claims against this tree, **byte-diff where §C says verbatim** |
-| `/Users/wchoi/src/taiwan-md` | design reference | consult for design rationale; never a content source |
-| `/Users/wchoi/src/lagunabeach-md-v0/_research/taiwan-md-research.md` + `taiwan-md-llm-wiki.md` | v0 deep research | §B/§D section pointers are mandatory pre-reads for the executor of the citing task (2.1 boundary sourcing, Phase 5 adopter needs, 7.1/7.2 worker designs) |
+| `${SRC_HOME}/lagunabeach-md-v1` (the renamed fork checkout) | extraction source | §C prefers the fork's copy; reviews verify extraction claims against this tree, **byte-diff where §C says verbatim** |
+| `${SRC_HOME}/taiwan-md` | design reference | consult for design rationale; never a content source |
+| `${SRC_HOME}/lagunabeach-md-v0/_research/taiwan-md-research.md` + `taiwan-md-llm-wiki.md` | v0 deep research | §B/§D section pointers are mandatory pre-reads for the executor of the citing task (2.1 boundary sourcing, Phase 5 adopter needs, 7.1/7.2 worker designs) |
 | v1 archive `MIGRATION.md` | lessons only | not process; the migration apparatus is dead per §F |
 
 A session loads only the references its task cites — nothing else.

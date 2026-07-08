@@ -147,8 +147,8 @@ writes the MEMORY organ. Kill switch: disabling the routine organ in
 
 ## Extraction map — the implementation contract (§C)
 
-Extraction source rule: **prefer the fork's copy** (`/Users/wchoi/src/lagunabeach-md-v1`)
-where de-Taiwan work is done; upstream (`/Users/wchoi/src/taiwan-md`) is design reference
+Extraction source rule: **prefer the fork's copy** (`${SRC_HOME}/lagunabeach-md-v1`)
+where de-Taiwan work is done; upstream (`${SRC_HOME}/taiwan-md`) is design reference
 only. §C's lists are the contract: 6 CSS files verbatim-then-font-swap (byte-diff
 verifiable); ~16 named components + `home/`/`timeline/` subdirs with a genericity pass;
 10 template bodies; `graph.astro` whole; ~10 `scripts/core/` ports (incl. `generate-api.js`

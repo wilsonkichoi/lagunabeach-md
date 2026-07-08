@@ -16,6 +16,14 @@ Markdown under `knowledge/` (arrives in Phase 1/3).
 - **Promoted learnings:** `.claude/rules/` (written by `/dev:retro` on approval).
 - **Architecture diagrams (engineering SSOT):** `docs/diagrams/*.drawio`.
 
+## Environment variable
+
+Docs reference sibling repos via `${SRC_HOME}/`. Contributors must set:
+
+```sh
+export SRC_HOME="/path/to/your/src"  # parent dir containing lagunabeach-md-v1, taiwan-md, etc.
+```
+
 ## How work happens
 
 The dev plugin lifecycle: tasks live in Linear (single source of truth for task
@@ -29,5 +37,5 @@ Never mark work done outside a verified merge.
 2. **Genericity:** zero place-specific strings in `src/` or `scripts/`; place identity
    flows from `place.config.ts` + `knowledge/` + `public/media/` (CI-gated from 0.3).
 3. **Extraction over invention:** design and components are copied from
-   `../lagunabeach-md-v1` per the spec's §C, then genericized — never re-prompted
-   from description.
+   `${SRC_HOME}/lagunabeach-md-v1` per the spec's §C, then genericized — never
+   re-prompted from description.
