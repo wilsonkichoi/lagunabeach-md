@@ -49,7 +49,7 @@ const Tag = href ? 'a' : 'div';
 const densityClass = `is-${density}`;
 const imgSideClass =
   density === 'detailed' && imageSide === 'left' ? 'is-img-left' : '';
-const classes = ['article-card', densityClass, imgSideClass]
+const classes = ['article-card', densityClass, imgSideClass, 'no-external-icon']
   .filter(Boolean)
   .join(' ');
 ---
