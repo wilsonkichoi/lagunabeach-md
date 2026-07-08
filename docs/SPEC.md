@@ -12,8 +12,8 @@ change they depict (§B).
 
 - **Astro 6.x + Tailwind 4.x**, zero client-side frameworks; vanilla JS on interactive
   pages. Node ≥ 22.12.
-- **MiniSearch** client-side search, index prebuilt; CJK bigram tokenizer kept as a code
-  path gated by `place.config.languages` (Latin-only places get word tokenization).
+- **MiniSearch** client-side search, index prebuilt; plain word tokenization (English-only
+  site, no CJK code path).
 - **D3 from CDN** for the knowledge graph only; **Chart.js from CDN** only if the dashboard
   needs it.
 - **Leaflet + OSM tiles** for the map (deviation from upstream's D3/TopoJSON SVG map),
