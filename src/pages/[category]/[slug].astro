@@ -1,29 +1,64 @@
 ---
 import { getCollection, render } from 'astro:content';
-import Layout from '../../layouts/Layout.astro';
+import ArticleTemplate from '../../templates/article.template.astro';
+import placeConfig from '../../../place.config';
+import { getGitInfo } from '../../utils/git-info';
 
 export async function getStaticPaths() {
   const articles = await getCollection('en');
-  return articles.map((article) => {
-    const parts = article.id.split('/');
-    const category = parts.length > 1 ? parts[0] : 'uncategorized';
-    const slug = parts.length > 1 ? parts.slice(1).join('/') : article.id;
-    return {
-      params: { category, slug },
-      props: { article },
-    };
-  });
+  const validSlugs = new Set(
+    placeConfig.categories.map((c) => c.slug),
+  );
+
+  const parsed = articles
+    .map((article) => {
+      const parts = article.id.split('/');
+      const category = parts.length > 1 ? parts[0] : 'uncategorized';
+      const slug = parts.length > 1 ? parts.slice(1).join('/') : article.id;
+      const cleanSlug = slug.replace(/\.md$/, '');
+      return { params: { category, slug: cleanSlug }, props: { article }, data: article.data };
+    })
+    .filter((entry) => validSlugs.has(entry.params.category));
+
+  return parsed.map((entry) => ({
+    params: entry.params,
+    props: {
+      article: entry.props.article,
+      latestArticles: parsed
+        .filter((e) => !(e.params.category === entry.params.category && e.params.slug === entry.params.slug))
+        .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+        .slice(0, 4)
+        .map((e) => ({
+          title: e.data.title,
+          description: e.data.description,
+          category: e.params.category,
+          slug: e.params.slug,
+          date: e.data.date,
+        })),
+    },
+  }));
 }
 
-const { article } = Astro.props;
-const { Content } = await render(article);
+const { category, slug } = Astro.params;
+const { article, latestArticles } = Astro.props;
+const { Content, headings } = await render(article);
+
+const wordCount = (article.body ?? '').replace(/\s+/g, ' ').trim().split(' ').length;
+const readingTime = Math.max(1, Math.round(wordCount / 200));
+const gitInfo = getGitInfo(category!, slug!);
 ---
 
-<Layout title={article.data.title} description={article.data.description}>
-  <main>
-    <article>
-      <h1>{article.data.title}</h1>
-      <Content />
-    </article>
-  </main>
-</Layout>
+<ArticleTemplate
+  title={article.data.title}
+  description={article.data.description}
+  headings={headings}
+  frontmatter={article.data}
+  category={category!}
+  slug={slug!}
+  readingTime={readingTime}
+  latestArticles={latestArticles}
+  contributors={gitInfo.contributors}
+  commitHash={gitInfo.commitHash}
+>
+  <Content />
+</ArticleTemplate>
