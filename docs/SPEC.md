@@ -39,6 +39,11 @@ upstreamed to sekai-kb first and pulled back as a release. `FRAMEWORK-VERSION` r
 instance's version; the `/upgrade` skill wraps fetch → merge tag → build-verify → conflict
 report. Directory shape: §B's tree (same shape for framework and instances).
 
+> **Release train for post-cut feature phases (9-11, ADR 005):** those phases execute in
+> `sekai-kb`; each ships as a tagged release, and instances (LB first) adopt via
+> `/upgrade` per `docs/runbook/UPGRADE.md` (task 9.3). The upgrade pull into LB is part of
+> each phase's exit gate.
+
 ## `place.config.ts` (§B — THE ingress for place identity)
 
 Schema (full version in §B): `place {name, tagline, domain, locale, languages}`,
@@ -55,6 +60,14 @@ Runtime-toggleable: `features`, languages, semiont organs.
 > `links.social.*` render only when `features.social` is true. This intentionally
 > diverges from §B (frozen source of record); the init wizard (5.2) must add `links`
 > prompts. Tracked on LB-3.
+
+> **Phase 9-11 extensions (approved 2026-07-07, ADR 005):** `features.mcp` (task 9.1)
+> and `analytics` IDs (GA4 measurement ID, CF Web Analytics token — task 10.1) extend the
+> schema under the same intentional-divergence pattern as `links`; init-wizard prompts
+> tracked on the citing tasks (or Backlog stubs if 5.2 is closed when they land).
+> **Absent-safe rule (spec invariant):** every new `place.config` key must default to
+> feature-off when missing, so existing instances upgrade across framework releases
+> without config edits.
 
 ## Content model (§B — unchanged and non-negotiable)
 
@@ -95,6 +108,43 @@ on-demand OG worker; RAG chat + QR flow; framework scaffolding (init wizard, `/a
 core = boot identity <150 lines, MEMORY, REFLEXES; everything else opt-in; no
 cross-organ dependencies).
 
+## Extension capabilities — Phases 9-11 (ROADMAP extension blocks govern detail; ADR 005)
+
+### MCP delivery (`workers/mcp/`, Phase 9)
+
+Stateless Streamable-HTTP MCP server on Cloudflare Workers (createMcpHandler pattern, no
+Durable Objects at LB scale — free-tier verified 2026-07, ADR 005; McpAgent/DO documented
+as the scale-up path for adopters needing sessions). Tools: `list_topics`
+(/kb/topics.json), `get_article` (/kb/articles/{slug}.md), `search` (keyword over
+/kb/search-index.json), `semantic_search` (query embed via Workers AI `@cf/baai/bge-m3` +
+in-worker cosine over the 7.2a vectors — same model space as chat, §Stack). Retrieval
+code shared with `workers/chat/` lives in `workers/lib/`. Behind `features.mcp`. The
+`/ai` page + `/kb/agent.md` boot file (task 9.2) document every AI consumption path;
+cross-ref v0 research §"MCP Server and Alternative Knowledge Delivery" (mandatory
+pre-read for 9.1/9.2 executors, same rule as the 7.2 pre-reads in `.claude/dev.md`).
+
+### Analytics (`features.analytics`, Phase 10)
+
+Full stack: GA4 + Google Search Console + Cloudflare Web Analytics (ADR 005). Beacon/gtag
+injected by HeadInlineScripts only when the flag is on; IDs live in `place.config.ts`,
+never in `src/`. Fetchers (ported from the v1 archive per §F's port-on-trigger) emit
+`src/data/analytics/*.json` behind `npm run fetch:analytics`; dashboard renders panels
+from them and the build stays green when they are absent. Credentials via local env /
+Actions secrets, documented in the runbook.
+
+### Autonomous routines (Phase 11)
+
+Hybrid substrate (ADR 005): deterministic pipelines (embeddings/index refresh, analytics
+fetch) run as GitHub Actions cron/push-triggers; AI routines (maintainer, feedback-triage,
+trend-discovery, social-publish, rewrite) run as Claude Code native scheduled tasks on
+Wilson's machine. `semiont/organs/routine/ROUTINE.md` is the SSOT — each routine =
+`{id, substrate, schedule, skill, model, depends, ship-mode}`; the `/schedule` skill
+registers/unregisters against the declared substrate. Lifecycle contract (taiwan-md's 5
+stages with PR discipline replacing direct push): sync main → run skill → ship via PR per
+ship-mode (`auto-merge-data` for data-only artifacts, `human-merge` for content) → finale
+writes the MEMORY organ. Kill switch: disabling the routine organ in
+`semiont/config.json` stops all routines.
+
 ## Extraction map — the implementation contract (§C)
 
 Extraction source rule: **prefer the fork's copy** (`/Users/wchoi/src/lagunabeach-md-v1`)
@@ -124,5 +174,11 @@ GitHub Pages via Actions + Cloudflare DNS/CDN. Workers deploy via `wrangler` fro
   amendment, 2026-07-07).
 - **Phases 6-7 depend on 5.4**: no LB fun-features before the framework ships (§A2,
   §G risk 3).
+- **Routines never push main directly** (Phase 11, ADR 005): every routine ships via a
+  PR behind CI — `auto-merge-data` on green for data-only artifacts, `human-merge` for
+  content. The dev-plugin iron rule (no work done outside a verified merge) applies to
+  automation, not just humans.
+- **New `place.config` keys must be absent-safe**: a missing key means the feature is
+  off; framework upgrades never require config surgery on existing instances.
 - **Design parity fallback**: if any page misses the visual bar, copy that page's fork
   implementation wholesale and re-genericize — never re-prompt from description (§G risk 1).

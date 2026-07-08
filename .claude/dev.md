@@ -5,7 +5,7 @@ linear_project: "LB Rebuild"
 test_command: "npm run build"  # real tests arrive with task 4.1; update this field then
 ci_workflow: deploy.yml        # GH Actions workflow: genericity + build on every PR, deploy on push to main (LB-2)
 merge_policy: squash
-review_action_installed: false # auto PR-review GitHub Action (claude-review.yml) is set up
+review_action_installed: false # auto PR-review GitHub Action (claude-review.yml) is set up; flips true at task 11.3
 work_in_progress_limit: 2      # max tasks simultaneously In Progress + In Review
 max_fix_attempts: 3            # CI-fix or review-fix cycles before a task goes Blocked
 max_tasks_per_run: 5           # batch cap for /dev:auto and /loop /dev:execute
@@ -42,8 +42,10 @@ A session loads only the references its task cites — nothing else.
 
 ## Milestones and model policy
 
-- Milestones = Linear project milestones on project "LB Rebuild", one per §E phase
-  ("Phase 0" … "Phase 8"). Phase transitions are Wilson gates: `/dev:plan` for phase n+1
+- Milestones = Linear project milestones on project "LB Rebuild", one per phase
+  ("Phase 0" … "Phase 11"): 0-8 from §E, 9-11 from the ROADMAP "Extension task blocks"
+  appendix (ADR 005) — packets convert from those blocks exactly as from §E.
+  Phase transitions are Wilson gates: `/dev:plan` for phase n+1
   runs only after Wilson confirms phase n closed **and** the phase-n retro confirms every
   Backlog discovery stub from the phase is triaged — each stub either became a
   ROADMAP/SPEC edit (via `dev:backlog` triage), was pulled into the phase-n+1 plan, or was

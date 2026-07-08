@@ -36,10 +36,10 @@ Two products, one codebase, built in strict order:
 | Customer | Value |
 |---|---|
 | Readers (residents, visitors) | Curated, fact-checked local knowledge with the inherited editorial bar; graph, map, search |
-| AI consumers | `/llms.txt` → `/kb/topics.json` → `/kb/articles/{slug}.md`: lazy-loading knowledge protocol, one HTTP request per article, no MCP or clone required (§B) |
+| AI consumers | `/llms.txt` → `/kb/topics.json` → `/kb/articles/{slug}.md`: lazy-loading knowledge protocol, one HTTP request per article, no clone required (§B); tool-using MCP clients get the same corpus via one remote MCP connection (`workers/mcp/`, Phase 9, ADR 005) |
 | Framework adopters | GitHub template + `/adopt` AI interview → configured, seeded, deployed site in under an hour (§A2, §D.7) |
 | Contributors | Plain-Markdown SSOT (`knowledge/`), quality tooling (article-health, link checks), tracker-driven workflow |
-| Wilson | An instance he enjoys building (map, soundscape, RAG chat, QR flow) on a codebase that stays extractable |
+| Wilson | An instance he enjoys building (map, soundscape, RAG chat, QR flow) on a codebase that stays extractable, plus an autonomous operations layer (Phase 11 routines) that maintains the instance without burnout |
 
 ## North star
 
@@ -50,11 +50,17 @@ Phase-gated proof points rather than a single metric (each is a §E acceptance c
   the fork baseline (§E 3.1-3.2), at the fork's visual bar (§E 1.1c, §G risk 1).
 - **Framework:** the dana-point proof — a fresh clone through `/adopt` interview to five
   AI-seeded articles deployed on GitHub Pages in under one hour, executed for real (§E 5.2c).
+- **Operations (extension, ADR 005):** two autonomous routines live for ≥ 1 week, shipping
+  only via verified PR merges with zero direct pushes to main (Phase 11 exit gate).
 
 ## Non-goals
 
-- **No paid services** (§B deployment): GitHub Pages + Cloudflare free tier + Workers free
-  tier only.
+- **No paid hosting/infra services** (§B deployment): GitHub Pages + Cloudflare free tier
+  + Workers free tier only. AI compute for dev and Phase-11 routines rides Wilson's
+  existing Claude subscription/API budget — same cost class as the dev process itself,
+  not an infra service (ADR 005).
+- **No direct-push automation**: routines never bypass the PR + CI gate; taiwan-md's
+  push-to-main routine model is explicitly not adopted (ADR 005).
 - **No fork continuation and no upstream merging** — future Taiwan.md improvements are
   deliberate idea cherry-picks, never merges (§A1, §G risk 5).
 - **No build-time OG generation, ever** — static default image until the Phase 7 on-demand

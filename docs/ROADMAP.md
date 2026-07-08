@@ -6,6 +6,12 @@ blocks by `/dev:plan`, never re-derived; §E's Steps/Acceptance text governs pac
 Every phase transition is a Wilson gate — `/dev:plan` for phase n+1 runs only after Wilson
 confirms phase n closed. Estimates carried from §E (`AI implement+review | Human`).
 
+**Extension (Wilson-approved 2026-07-07):** milestones 9-11 extend beyond the frozen §E
+(MCP delivery, analytics perception, autonomous routines — see ADR 005). Their task blocks
+live in this file's "Extension task blocks" appendix, in §E's format; `/dev:plan` converts
+packets from those blocks exactly as it does from §E. STRATEGIC-DIRECTION.md is unchanged
+(frozen source of record); this is an intentional, tracked extension, not a conflict.
+
 | # | Milestone | Outcome | Scope (§E tasks) | Exit gate | Est |
 |---|---|---|---|---|---|
 | 0 | Fresh repo + CI | New repo scaffolded (Astro 6, place.config.ts, extracted styles), deployed preview, genericity gate live | 0.1 ✅ (done 2026-07-07, by hand) · 0.2 · 0.3 | CI genericity gate proven (a planted "Laguna" in src/ fails CI); Wilson phase confirm | AI 4.25h \| Human 1h |
@@ -17,10 +23,219 @@ confirms phase n closed. Estimates carried from §E (`AI implement+review | Huma
 | 6 | Social + engagement | Feedback (Worker + D1 + widget + triage), snippet pipeline, soundscape | 6.1a-b · 6.2 · 6.3 | Live submission → D1 → GitHub issue; Wilson recordings (6.3); phase confirm | AI 9.5h \| Human 2.5h |
 | 7 | Differentiators | On-demand OG worker, RAG chat (bge-m3 + Workers AI + Claude API), QR flow | 7.1 · 7.2a-c · 7.3 | Eval set answered with citations, no hallucinated places (7.2c); phase confirm | AI 12.25h \| Human 1.75h |
 | 8 | Semiont plugin layer | Organ architecture in sekai-kb (config.json manifest, core organs); LB enables core + MANIFESTO | 8.1 · 8.2 | Site builds with `semiont/` deleted; organs toggle via config only; phase confirm | AI 4.25h \| Human 0h |
+| 9 | MCP + AI delivery | Remote MCP server (`workers/mcp/`) exposing list_topics/get_article/search/semantic_search; AI-access page + `/kb/agent.md` boot file; adopter upgrade playbook proven on the first real post-cut feature release | 9.1 · 9.2 · 9.3 | MCP client connected to `lagunabeach.md/mcp` answers an LB question via tools, no clone; phase shipped as sekai-kb tag → LB `/upgrade` clean (9.3); Wilson phase confirm | AI 6h \| Human 0.75h |
+| 10 | Perception (analytics) | GA4 + Search Console + Cloudflare Web Analytics live behind `features.analytics`; signal fetchers ported; dashboard analytics panels | 10.1 · 10.2 | Dashboard renders real traffic/search data from a fetch run; zero analytics IDs in `src/` outside place.config; sekai-kb tag → LB `/upgrade` clean; Wilson phase confirm | AI 4.25h \| Human 1h |
+| 11 | Autonomous routines | ROUTINE organ activated: routine contract + `/schedule` skill; embeddings/index refresh (CI); maintainer (content PR review + link/health audits); feedback-triage; data-refresh; trend-discovery; social-publish; rewrite | 11.1-11.8 | Two routines live ≥ 1 week shipping only via PRs, zero direct pushes to main; sekai-kb tag → LB `/upgrade` clean; Wilson phase confirm | AI 16.5h \| Human 0.75h |
 
-**Totals (§E):** AI ≈ 79h (implement + review) | Human ≈ 9h. Phases 0-4 ≈ 1.5-2 weeks at
-2-4 tasks/day; full plan ≈ 4-6 weeks elapsed (3.2's 14-day archive wait overlaps Phases 4-5).
+**Totals:** §E (phases 0-8) AI ≈ 79h (implement + review) | Human ≈ 9h; extension
+(phases 9-11) adds AI ≈ 26.75h | Human ≈ 2.5h → grand total AI ≈ 106h | Human ≈ 11.5h.
+Phases 0-4 ≈ 1.5-2 weeks at 2-4 tasks/day; phases 0-8 ≈ 4-6 weeks elapsed (3.2's 14-day
+archive wait overlaps Phases 4-5); phases 9-11 add ≈ 1.5-2 weeks.
 
 **Ordering rules (structural, not preference):** Phases 6 and 7 declare `Depends: 5.4` —
-the framework ships before LB's fun features (§A2, §G risk 3). Reordering is a scope change
-requiring Wilson's explicit call.
+the framework ships before LB's fun features (§A2, §G risk 3). Phase 9 depends on 7.2c
+(§F's named MCP trigger honored); Phase 11 depends on 8.1 (ROUTINE organ architecture)
+plus per-routine feature deps. Reordering is a scope change requiring Wilson's explicit
+call.
+
+**Execution repo flow for phases 9-11 (post-5.4 ownership rule, ADR 004/005):** every
+code task executes in the `sekai-kb` repo; each phase closes with a tagged sekai-kb
+release (CHANGELOG entry + upgrade note for any config-schema addition), and LB adopts it
+via `/upgrade` — that pull is part of each phase's exit gate. The only LB-side commits are
+instance-owned: feature flags in `place.config.ts`, analytics IDs, ROUTINE.md entries,
+wrangler secrets. New `place.config` keys must be absent-safe (missing key = feature off)
+so existing adopter instances upgrade without config surgery.
+
+---
+
+## Extension task blocks (Phases 9-11) — approved by Wilson 2026-07-07, extends beyond frozen §E
+
+Same format and conventions as §E blocks (`/dev:plan` converts packets from here; Steps/
+Acceptance text governs packet detail). Model policy: all execution Opus (Wilson,
+2026-07-07); reviews follow `.claude/dev.md` defaults. Decisions behind these blocks
+(scheduler substrate, ship mode, analytics stack, release train): ADR 005.
+
+**Phase 9: MCP + AI delivery**
+```
+[9.1] MCP server worker (workers/mcp/)
+  Effort: M | Model: Opus | Depends: 7.2c (§F named trigger honored)
+  Est: AI 2.5h + 0.5h review | Human 0.25h (wrangler route, client test)
+  Steps:
+    1. Stateless Streamable-HTTP MCP server on Cloudflare Workers (createMcpHandler
+       pattern; no Durable Objects at LB scale — verified free-tier viable 2026-07, see
+       ADR 005; document McpAgent/DO as the scale-up path for adopters needing sessions).
+    2. Tools: list_topics (serves /kb/topics.json), get_article (slug →
+       /kb/articles/{slug}.md), search (keyword over /kb/search-index.json),
+       semantic_search (query embed via Workers AI @cf/baai/bge-m3 + in-worker cosine
+       over the 7.2a vectors).
+    3. Factor the retrieval code shared with workers/chat into workers/lib/; surgical
+       refactor of the chat worker to consume it.
+    4. Place identity from config; new feature flag features.mcp (absent-safe schema
+       extension, links-precedent note in SPEC; init-wizard prompt tracked).
+  Acceptance: an MCP client connected to the deployed endpoint answers an LB question via
+    tool calls; genericity CI green; chat worker eval (7.2c set) still passes post-refactor
+  Downstream: 9.2, 11.2 (vector redeploy path)
+[9.2] AI-access page + agent boot file
+  Effort: S | Model: Opus | Depends: 9.1
+  Est: AI 1h + 0.25h review
+  Steps:
+    1. /ai page (successor to §F's "MCP page" row) documenting every AI consumption path
+       — llms.txt, /kb/ protocol, MCP endpoint + client config snippets, /chat — all
+       generated from place.config.
+    2. build-kb-index.mjs additionally emits /kb/agent.md: a vendor-agnostic boot file
+       (identity, voice, topic index, fetch instructions — the v0 research's BECOME-file
+       concept, genericized); llms.txt links it.
+  Acceptance: a browsing AI given only the domain can enumerate and use all access paths;
+    genericity CI green
+  Downstream: none
+[9.3] Adopter upgrade playbook (docs/runbook/UPGRADE.md) + first real feature-release proof
+  Effort: S | Model: Opus | Depends: 9.1, 9.2, 5.4
+  Est: AI 1.5h + 0.25h review | Human 0.5h (Wilson runs the LB upgrade as the adopter)
+  Steps:
+    1. Ship Phase 9 as sekai-kb release vX.Y: CHANGELOG entry with the features.mcp
+       upgrade note — the first real config-schema addition since the cut.
+    2. Run /upgrade in lagunabeach-md against the tag as the proof.
+    3. Write docs/runbook/UPGRADE.md for adopters FROM that real run: discover releases
+       (watch tags / CHANGELOG), read upgrade notes, run /upgrade (AI path) or the manual
+       fetch → merge-tag → build commands (non-AI path, extending 5.4's runbook section),
+       handle conflict reports, enable newly added feature flags (absent-safe: skipping
+       the flag = feature stays off), verify FRAMEWORK-VERSION bumped.
+    4. Add the absent-safe schema rule to the framework CLAUDE.md + playbook so future
+       sekai-kb changes preserve it.
+  Acceptance: LB runs the real Phase-9 upgrade clean end-to-end; a first-timer following
+    UPGRADE.md alone can state the exact commands and the flag to flip for MCP
+  Downstream: every later framework release (10, 11, and beyond) ships against this playbook
+```
+
+_Phase 9 subtotal: AI 6h | Human 0.75h_
+
+**Phase 10: Perception (analytics)**
+```
+[10.1] Analytics wiring behind features.analytics
+  Effort: S | Model: Opus | Depends: 3.2 (live domain); scheduled post-9
+  Est: AI 1h + 0.25h review | Human 0.5h (create GA4 property, verify Search Console,
+    enable CF Web Analytics)
+  Steps:
+    1. Cloudflare Web Analytics beacon + GA4 gtag injected by HeadInlineScripts only when
+       features.analytics is true; place.config gains analytics IDs (absent-safe schema
+       extension, init-wizard prompt tracked).
+    2. Runbook gains account-setup steps: GA4 property, Search Console verification,
+       CF Web Analytics.
+  Acceptance: beacons fire on the live site with the flag on, absent with it off; zero
+    analytics IDs in src/ outside place.config
+  Downstream: 10.2, 11.5
+[10.2] Signal fetchers + dashboard analytics panels
+  Effort: M | Model: Opus | Depends: 10.1, 4.2
+  Est: AI 2.5h + 0.5h review | Human 0.5h (API credentials/secrets)
+  Steps:
+    1. Port fetch-ga4.py / fetch-search-console.py / fetch-cloudflare.py from the v1
+       archive (§F port-on-trigger — trigger now fired), parameterized by config; emit
+       src/data/analytics/*.json behind `npm run fetch:analytics`.
+    2. Dashboard gains traffic/search panels (Chart.js per §B only if needed); build stays
+       green when the JSONs are absent (graceful degradation).
+    3. Credentials via local env / Actions secrets, documented in the runbook.
+  Acceptance: `npm run fetch:analytics` refreshes the JSONs and the dashboard renders
+    them; clean build without credentials
+  Downstream: 11.5, 11.6
+```
+
+_Phase 10 subtotal: AI 4.25h | Human 1h_
+
+**Phase 11: Autonomous routines**
+```
+[11.1] Routine substrate + contract (ROUTINE organ activation + /schedule skill)
+  Effort: M | Model: Opus | Depends: 8.1
+  Est: AI 2.5h + 0.5h review | Human 0.25h (first scheduled-task registration)
+  Steps:
+    1. Implement the hybrid substrate (ADR 005): deterministic pipelines = GitHub Actions
+       cron/push-triggers; AI routines = Claude Code native scheduled tasks on Wilson's
+       machine.
+    2. semiont/organs/routine/ROUTINE.md is SSOT: each routine = {id, substrate:
+       gh-actions|claude-cron, schedule, skill, model, depends, ship-mode:
+       auto-merge-data|human-merge}. /schedule skill registers/unregisters against the
+       declared substrate (writes the GH workflow or the native scheduled task).
+    3. Routine lifecycle contract (taiwan-md's 5 stages, PR discipline replacing direct
+       push): sync main → run skill → ship via PR per ship-mode → finale writes MEMORY
+       organ entry. Routines NEVER push main directly.
+    4. Kill switch: routine organ disabled in semiont/config.json = no routine fires.
+       Collision rule: spacing documented in ROUTINE.md.
+  Acceptance: a demo no-op routine registered on each substrate fires once, opens a PR,
+    logs to MEMORY; disabling the organ stops both
+  Downstream: 11.3, 11.4, 11.5, 11.6, 11.7, 11.8
+[11.2] Embeddings + index refresh pipeline (CI-triggered, deterministic)
+  Effort: S | Model: Opus | Depends: 7.2a, 9.1
+  Est: AI 1.5h + 0.25h review
+  Steps:
+    1. GH Actions job on push-to-main touching knowledge/**: rebuild chunk vectors via
+       Workers AI @cf/baai/bge-m3 (LB scale fits the 10k-neurons/day free tier; the 4090
+       path stays documented as the offline alternative per §B), redeploy the vectors
+       JSON consumed by workers/chat + workers/mcp.
+    2. Verify + document that search/kb/graph indexes already rebuild on every deploy
+       (no gap).
+  Acceptance: editing an article on main updates chat + MCP retrieval within one deploy
+    cycle, no manual step
+  Downstream: none
+[11.3] Maintainer routine: content PR review + link/health audit
+  Effort: M | Model: Opus | Depends: 11.1, 4.1
+  Est: AI 2.5h + 0.5h review
+  Steps:
+    1. Content PR review workflow on pull_request touching knowledge/** — editorial +
+       factcheck rubric sourced from the playbook, review comment posted; flips
+       .claude/dev.md review_action_installed: true. Least-privilege permissions per
+       .claude/rules/github-actions-least-privilege.md.
+    2. Scheduled maintainer routine (claude-cron): internal-link audit + article-health
+       sweep; regressions filed as issues/Linear stubs, feeding the 11.8 rewrite queue.
+  Acceptance: a contributor PR receives an automated editorial review; a planted broken
+    link produces an issue
+  Downstream: 11.8
+[11.4] Feedback-triage routine
+  Effort: S | Model: Opus | Depends: 11.1, 6.1b
+  Est: AI 1h + 0.25h review
+  Steps:
+    1. Register 6.1b's triage skill as a claude-cron routine (daily): read D1,
+       dedupe/classify, file GitHub issues linking the article.
+  Acceptance: a seeded D1 row becomes a GitHub issue on the next scheduled run
+  Downstream: none
+[11.5] Data-refresh routine
+  Effort: S | Model: Opus | Depends: 11.1, 10.2
+  Est: AI 1h + 0.25h review
+  Steps:
+    1. Register the 10.2 fetchers as a gh-actions routine (daily): fetch → data-only PR
+       with auto-merge-on-green label → dashboard freshens on deploy.
+  Acceptance: a scheduled run lands a merged data PR and the dashboard shows the new date
+  Downstream: 11.6
+[11.6] Trend-discovery routine (news-lens for LB)
+  Effort: M | Model: Opus | Depends: 11.1; 10.2 enriches, not required
+  Est: AI 2h + 0.5h review | Human 0.25h (approve first proposals)
+  Steps:
+    1. Weekly claude-cron routine: scan configured local sources (source list is a
+       place-generic mechanism — knowledge/SOURCES.md; LB seeds city news, event
+       calendars, community forums) + analytics signals when present.
+    2. Propose article ideas and snippet candidates → INBOX.md entries + Linear Backlog
+       stubs with source links. Proposals only — never writes articles directly.
+  Acceptance: a run yields ≥3 sourced proposals in INBOX.md; zero direct article commits
+  Downstream: 11.7 feed, 11.8 feed
+[11.7] Social-publish routine
+  Effort: S | Model: Opus | Depends: 11.1, 6.2 + first LB account exists (named trigger,
+    per 6.2's adapter contract)
+  Est: AI 1h + 0.25h review
+  Steps:
+    1. Register a claude-cron routine publishing approved SNIPPET-INBOX entries via the
+       6.2 platform adapter; publish log appended to the inbox entry.
+  Acceptance: an approved snippet posts to the wired platform on schedule;
+    pending/unapproved entries never post
+  Downstream: none
+[11.8] Rewrite routine (KB freshness)
+  Effort: M | Model: Opus | Depends: 11.1, 11.3
+  Est: AI 2h + 0.5h review | Human 0.25h (merge first rewrite PR)
+  Steps:
+    1. Scheduled claude-cron routine: pick the lowest-health/stalest article from the
+       11.3 sweep queue; rewrite per playbook (editorial bar, sources, lastVerified bump).
+    2. Open a content PR (human-merge ship-mode), which the 11.3 review workflow then
+       reviews.
+  Acceptance: a run produces a rewrite PR whose article-health score exceeds the prior
+    score; the PR carries the automated review
+  Downstream: none
+```
+
+_Phase 11 subtotal: AI 16.5h | Human 0.75h_
