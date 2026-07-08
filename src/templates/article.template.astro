@@ -29,6 +29,8 @@ interface Props {
   slug: string;
   readingTime?: number;
   latestArticles?: LatestArticle[];
+  contributors?: string[];
+  commitHash?: string;
 }
 
 const {
@@ -40,6 +42,8 @@ const {
   slug,
   readingTime,
   latestArticles = [],
+  contributors = [],
+  commitHash = '',
 } = Astro.props;
 
 const categoryInfo = getCategoryConfig(category);
@@ -368,7 +372,8 @@ const otherCategories = categoryList
           tags={frontmatter.tags}
           readingTime={estimatedReadingTime}
           date={frontmatter.date}
-          author={frontmatter.author}
+          contributors={contributors}
+          commitHash={commitHash}
           category={category}
           categoryName={categoryInfo.name}
           categoryColor={categoryInfo.color}

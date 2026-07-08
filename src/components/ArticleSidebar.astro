@@ -6,7 +6,8 @@ interface Props {
   tags?: string[];
   readingTime?: number;
   date?: string;
-  author?: string;
+  contributors?: string[];
+  commitHash?: string;
   category: string;
   categoryName: string;
   categoryColor: string;
@@ -19,7 +20,8 @@ const {
   tags = [],
   readingTime,
   date,
-  author,
+  contributors = [],
+  commitHash = '',
   category,
   categoryColor,
   slug,
@@ -27,9 +29,11 @@ const {
 } = Astro.props;
 
 const { domain } = placeConfig.place;
+const { links } = placeConfig;
 const articleUrl = `https://${domain}/${category}/${slug}`;
 const encodedUrl = encodeURIComponent(articleUrl);
 const encodedTitle = encodeURIComponent(title);
+const shortHash = commitHash ? commitHash.substring(0, 7) : '';
 
 const displayDate = date
   ? new Date(date).toLocaleDateString('en-US', {
@@ -187,17 +191,48 @@ const readingTimeLabel = readingTime != null ? `${readingTime} min read` : '';
     </div>
   </div>
 
+  <!-- Commit -->
+  {
+    commitHash && (
+      <div class="border-b border-[rgba(26,60,52,0.08)] py-5 last:border-b-0">
+        <div class="flex items-center gap-[0.55rem] font-['Inter',system-ui,sans-serif] text-[0.82rem] text-[#7a8b7e]">
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            aria-hidden="true"
+          >
+            <><circle cx="12" cy="12" r="3" /><line x1="3" y1="12" x2="9" y2="12" /><line x1="15" y1="12" x2="21" y2="12" /></>
+          </svg>
+          <a
+            href={`${links.repo}/commit/${commitHash}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="no-external-icon text-inherit no-underline transition-colors duration-150 hover:text-[#0e3a5c] hover:underline"
+          >
+            Commit {shortHash}
+          </a>
+        </div>
+      </div>
+    )
+  }
+
   <!-- Contributors -->
   {
-    author && (
+    contributors.length > 0 && (
       <div class="border-b border-[rgba(26,60,52,0.08)] py-5 last:border-b-0">
         <p class="mb-[0.85rem] font-['Inter',system-ui,sans-serif] text-[0.67rem] font-bold uppercase tracking-[0.2em] text-[#9aa89e]">
           Contributors
         </p>
         <div class="flex flex-wrap gap-[0.4rem]">
-          <span class="rounded-full border border-[rgba(0,109,119,0.15)] bg-[rgba(0,109,119,0.07)] px-[0.6rem] py-[0.22rem] font-['Inter',system-ui,sans-serif] text-[0.75rem] text-[#0369a1]">
-            {author}
-          </span>
+          {contributors.map((name) => (
+            <span class="rounded-full border border-[rgba(0,109,119,0.15)] bg-[rgba(0,109,119,0.07)] px-[0.6rem] py-[0.22rem] font-['Inter',system-ui,sans-serif] text-[0.75rem] text-[#0369a1]">
+              {name}
+            </span>
+          ))}
         </div>
       </div>
     )
