@@ -2,8 +2,9 @@
 
 Global CSS (`src/styles/global.css`) appends a ↗ pseudo-element to any
 `main a[target='_blank']` that doesn't carry one of the exclusion classes. When adding
-`target="_blank"` links inside article templates or components (sources, share buttons,
-contribution links, image credits), add `class="no-external-icon"` to suppress the arrow.
+`target="_blank"` links inside any component or template that renders within `<main>`
+(article surfaces, card components, share buttons, contribution links, image credits),
+add `class="no-external-icon"` to suppress the arrow.
 
 The exclusion list in the CSS selector covers: `.nav-link`, `[class*='btn']`, `.card-link`,
 `.logo`, `.category-card`, `.floating-md`, `.contributor-card`, `.no-external-icon`. Article
