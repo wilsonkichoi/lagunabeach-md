@@ -55,6 +55,10 @@ Phase-gated proof points rather than a single metric (each is a §E acceptance c
 
 ## Non-goals
 
+Non-goals bound the product; they never shrink a task. If a task packet's DoD appears
+to conflict with a non-goal, surface the conflict to Wilson (per `.claude/dev.md`),
+never silently trim the packet.
+
 - **No paid hosting/infra services** (§B deployment): GitHub Pages + Cloudflare free tier
   + Workers free tier only. AI compute for dev and Phase-11 routines rides Wilson's
   existing Claude subscription/API budget — same cost class as the dev process itself,

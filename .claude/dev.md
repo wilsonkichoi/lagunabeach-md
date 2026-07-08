@@ -85,3 +85,6 @@ A session loads only the references its task cites — nothing else.
 - **Every PR description carries a `Deferred discoveries:` section** — listing the stubs
   filed from that task, or an explicit `none`. `/dev:review-pr` treats a missing section as
   a review finding.
+- **In-scope work is never a deferred discovery.** If a finding is required by the
+  claimed task's Objective or DoD, it is implemented in that task; stubs are only for
+  work belonging to a future phase. Stubbing DoD work is a review finding (blocker).
