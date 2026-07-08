@@ -19,6 +19,7 @@ interface Props {
   frontmatter: Record<string, any>;
   category: string;
   slug: string;
+  readingTime?: number;
 }
 
 const {
@@ -28,6 +29,7 @@ const {
   frontmatter,
   category,
   slug,
+  readingTime,
 } = Astro.props;
 
 const categoryInfo = getCategoryConfig(category);
@@ -35,8 +37,7 @@ if (!categoryInfo) throw new Error(`Unknown category: ${category}`);
 
 const allConfigs = getCategoryConfigs();
 
-// Reading time estimate (words / 200 WPM, from description length as proxy)
-const estimatedReadingTime = frontmatter.readingTime || 5;
+const estimatedReadingTime = readingTime ?? 5;
 
 const { domain } = placeConfig.place;
 const { links } = placeConfig;
@@ -79,7 +80,6 @@ const otherCategories = categoryList
       categoryName={categoryInfo.name}
       categoryColor={categoryInfo.color}
       subcategory={frontmatter.subcategory}
-      coverImage={frontmatter.image ? '' : undefined}
     />
 
     <!-- Three-column body -->
