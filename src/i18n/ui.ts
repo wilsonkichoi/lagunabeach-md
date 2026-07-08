@@ -44,5 +44,23 @@ export const ui = {
     'footer.builtWith': 'Built with Astro — open source, AI-friendly.',
     'footer.support': 'Support',
     'footer.support.cta': 'Star on GitHub',
+    // article page
+    'article.home': 'Home',
+    'article.backToHome': 'Back to Home',
+    // category hub
+    'category.articleCount': '{n} articles',
+    'category.readGuide': 'Read the full guide →',
+    'category.topic': 'Topics',
+    'category.otherTopics': 'Other Topics',
+    'category.featured': 'Featured',
+    'category.searchPlaceholder': 'Filter articles...',
+    'category.noResults': 'No articles match your search.',
+    'category.citations': '{n} citations',
+    // hub essay / empty state
+    'hub.essay.heading': 'Guide',
+    'hub.empty.title': 'Coming Soon',
+    'hub.empty.description':
+      'We are working on content for this category.',
+    'hub.empty.future': 'Planned coverage: ',
   },
 } as const;
