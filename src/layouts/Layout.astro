@@ -156,155 +156,6 @@ const ghBase = `${links.repo}/blob/main`;
     <Header />
 
     <script is:inline>
-      // ── CJK bigram query tokenizer ──
-      var _STOP_BIGRAMS = new Set([
-        '不是',
-        '不用',
-        '不會',
-        '也不',
-        '也有',
-        '也是',
-        '他的',
-        '他們',
-        '但是',
-        '你的',
-        '到了',
-        '到的',
-        '到這',
-        '們的',
-        '在這',
-        '她的',
-        '就是',
-        '我的',
-        '我們',
-        '是不',
-        '是我',
-        '是有',
-        '是在',
-        '是這',
-        '有的',
-        '的不',
-        '的是',
-        '用的',
-        '而是',
-        '都不',
-        '都有',
-        '都是',
-        '這是',
-        '為了',
-        '這個',
-        '那個',
-        '這些',
-        '這樣',
-        '這麼',
-        '那麼',
-        '這裡',
-        '這次',
-        '這篇',
-        '什麼',
-        '自己',
-        '己的',
-        '其他',
-        '其中',
-        '可以',
-        '因為',
-        '所以',
-        '因此',
-        '沒有',
-        '不過',
-        '還是',
-        '如果',
-        '雖然',
-        '而且',
-        '或是',
-        '或許',
-        '除了',
-        '對於',
-        '已經',
-        '可能',
-        '應該',
-        '需要',
-        '比較',
-        '目前',
-        '真的',
-        '還有',
-        '只是',
-        '一個',
-        '一些',
-        '一下',
-        '有一',
-        '了一',
-        '是一',
-        '的一',
-        '覺得',
-        '起來',
-        '出來',
-        '就可',
-        '也可',
-        '是可',
-        '是很',
-        '算是',
-        '上的',
-        '中的',
-        '來的',
-        '面的',
-        '樣的',
-        '關的',
-        '趣的',
-        '多的',
-        '大的',
-        '好的',
-        '單的',
-        '類的',
-        '子的',
-        '人的',
-        '本的',
-        '要的',
-      ]);
-
-      function _isCJK(ch) {
-        var cp = ch.codePointAt(0);
-        // Ranges must stay in sync with scripts/core/build-search-index.mjs isCJK —
-        // 2026-06-13 Phase 0 added kana + hangul (query side couldn't hit index side)
-        return (
-          (cp >= 0x4e00 && cp <= 0x9fff) ||
-          (cp >= 0x3400 && cp <= 0x4dbf) ||
-          (cp >= 0x3040 && cp <= 0x30ff) ||
-          (cp >= 0x31f0 && cp <= 0x31ff) ||
-          (cp >= 0xac00 && cp <= 0xd7a3)
-        );
-      }
-
-      function _queryBigrams(text) {
-        var normalized = text.toLowerCase().normalize('NFKC').trim();
-        var segments = normalized.split(/\s+/).filter(Boolean);
-        var allTokens = [];
-        var filtered = [];
-        for (var s = 0; s < segments.length; s++) {
-          var seg = segments[s];
-          var chars = Array.from(seg);
-          var hasCJK = chars.some(function (ch) {
-            return _isCJK(ch);
-          });
-          if (!hasCJK) {
-            allTokens.push(seg);
-            filtered.push(seg);
-            continue;
-          }
-          if (chars.length === 1) {
-            allTokens.push(chars[0]);
-            filtered.push(chars[0]);
-          } else {
-            for (var i = 0; i < chars.length - 1; i++) {
-              var bigram = chars[i] + chars[i + 1];
-              allTokens.push(bigram);
-              if (!_STOP_BIGRAMS.has(bigram)) filtered.push(bigram);
-            }
-          }
-        }
-        return filtered.length > 0 ? filtered : allTokens;
-      }
-
       // ── Search engine (MiniSearch with fallback) ──
       var _searchEngine = null;
       var _searchMode = 'loading';
@@ -326,6 +177,9 @@ const ghBase = `${links.repo}/blob/main`;
           ).default;
           _searchEngine = MiniSearch.loadJSON(JSON.stringify(data), {
             idField: 'id',
+            // Field names still reference *_bigram; the index is not yet rebuilt (3.1).
+            // When 3.1 builds the Latin-only word-tokenized index, update these field
+            // names to match the new index schema.
             fields: ['title_bigram', 'desc_bigram', 'tags_bigram'],
             storeFields: ['t', 'd', 'u', 'tags', 'lang'],
             tokenize: function (text) {
@@ -355,8 +209,8 @@ const ghBase = `${links.repo}/blob/main`;
 
       function _doSearch(q, lang) {
         if (_searchMode === 'minisearch' && _searchEngine) {
-          var bigrams = _queryBigrams(q);
-          var raw = _searchEngine.search(bigrams.join(' '), {
+          var tokens = q.split(/\s+/).filter(Boolean);
+          var raw = _searchEngine.search(tokens.join(' '), {
             prefix: true,
             limit: 200,
           });
