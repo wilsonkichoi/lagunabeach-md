@@ -1,29 +1,37 @@
 ---
 import { getCollection, render } from 'astro:content';
-import Layout from '../../layouts/Layout.astro';
+import ArticleTemplate from '../../templates/article.template.astro';
+import placeConfig from '../../../place.config';
 
 export async function getStaticPaths() {
   const articles = await getCollection('en');
-  return articles.map((article) => {
-    const parts = article.id.split('/');
-    const category = parts.length > 1 ? parts[0] : 'uncategorized';
-    const slug = parts.length > 1 ? parts.slice(1).join('/') : article.id;
-    return {
-      params: { category, slug },
-      props: { article },
-    };
-  });
+  const validSlugs = new Set(
+    placeConfig.categories.map((c) => c.slug),
+  );
+
+  return articles
+    .map((article) => {
+      const parts = article.id.split('/');
+      const category = parts.length > 1 ? parts[0] : 'uncategorized';
+      const slug = parts.length > 1 ? parts.slice(1).join('/') : article.id;
+      const cleanSlug = slug.replace(/\.md$/, '');
+      return { params: { category, slug: cleanSlug }, props: { article } };
+    })
+    .filter((entry) => validSlugs.has(entry.params.category));
 }
 
+const { category, slug } = Astro.params;
 const { article } = Astro.props;
-const { Content } = await render(article);
+const { Content, headings } = await render(article);
 ---
 
-<Layout title={article.data.title} description={article.data.description}>
-  <main>
-    <article>
-      <h1>{article.data.title}</h1>
-      <Content />
-    </article>
-  </main>
-</Layout>
+<ArticleTemplate
+  title={article.data.title}
+  description={article.data.description}
+  headings={headings}
+  frontmatter={article.data}
+  category={category!}
+  slug={slug!}
+>
+  <Content />
+</ArticleTemplate>
