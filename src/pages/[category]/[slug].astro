@@ -9,19 +9,37 @@ export async function getStaticPaths() {
     placeConfig.categories.map((c) => c.slug),
   );
 
-  return articles
+  const parsed = articles
     .map((article) => {
       const parts = article.id.split('/');
       const category = parts.length > 1 ? parts[0] : 'uncategorized';
       const slug = parts.length > 1 ? parts.slice(1).join('/') : article.id;
       const cleanSlug = slug.replace(/\.md$/, '');
-      return { params: { category, slug: cleanSlug }, props: { article } };
+      return { params: { category, slug: cleanSlug }, props: { article }, data: article.data };
     })
     .filter((entry) => validSlugs.has(entry.params.category));
+
+  return parsed.map((entry) => ({
+    params: entry.params,
+    props: {
+      article: entry.props.article,
+      latestArticles: parsed
+        .filter((e) => !(e.params.category === entry.params.category && e.params.slug === entry.params.slug))
+        .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+        .slice(0, 4)
+        .map((e) => ({
+          title: e.data.title,
+          description: e.data.description,
+          category: e.params.category,
+          slug: e.params.slug,
+          date: e.data.date,
+        })),
+    },
+  }));
 }
 
 const { category, slug } = Astro.params;
-const { article } = Astro.props;
+const { article, latestArticles } = Astro.props;
 const { Content, headings } = await render(article);
 
 const wordCount = (article.body ?? '').replace(/\s+/g, ' ').trim().split(' ').length;
@@ -36,6 +54,7 @@ const readingTime = Math.max(1, Math.round(wordCount / 200));
   category={category!}
   slug={slug!}
   readingTime={readingTime}
+  latestArticles={latestArticles}
 >
   <Content />
 </ArticleTemplate>

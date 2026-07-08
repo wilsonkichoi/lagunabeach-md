@@ -12,6 +12,14 @@ interface Heading {
   text: string;
 }
 
+interface LatestArticle {
+  title: string;
+  description: string;
+  category: string;
+  slug: string;
+  date: Date;
+}
+
 interface Props {
   title: string;
   description: string;
@@ -20,6 +28,7 @@ interface Props {
   category: string;
   slug: string;
   readingTime?: number;
+  latestArticles?: LatestArticle[];
 }
 
 const {
@@ -30,6 +39,7 @@ const {
   category,
   slug,
   readingTime,
+  latestArticles = [],
 } = Astro.props;
 
 const categoryInfo = getCategoryConfig(category);
@@ -116,7 +126,7 @@ const otherCategories = categoryList
                   {frontmatter.imageSource && (
                     <span>
                       {' '} ·{' '}
-                      <a href={frontmatter.imageSource} target="_blank" rel="noopener noreferrer">
+                      <a href={frontmatter.imageSource} target="_blank" rel="noopener noreferrer" class="no-external-icon">
                         Original source
                       </a>
                     </span>
@@ -146,7 +156,7 @@ const otherCategories = categoryList
                       href={url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      class="break-all text-[0.82rem] text-[#0369a1] no-underline hover:underline"
+                      class="no-external-icon break-all text-[0.82rem] text-[#0369a1] no-underline hover:underline"
                     >
                       {url}
                     </a>
@@ -194,7 +204,7 @@ const otherCategories = categoryList
             href={`${links.repo}/edit/main/knowledge/${categoryFolderMap[category]}/${slug}.md`}
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-flex items-center gap-[0.45rem] rounded-full bg-[#0e3a5c] px-[1.1rem] py-[0.55rem] font-['Inter',system-ui,sans-serif] text-[0.82rem] font-medium text-[#f8f1e9] no-underline transition-all duration-200 hover:bg-[#243d36]"
+            class="no-external-icon inline-flex items-center gap-[0.45rem] rounded-full bg-[#0e3a5c] px-[1.1rem] py-[0.55rem] font-['Inter',system-ui,sans-serif] text-[0.82rem] font-medium text-[#f8f1e9] no-underline transition-all duration-200 hover:bg-[#243d36]"
           >
             <svg
               width="15"
@@ -214,7 +224,7 @@ const otherCategories = categoryList
             href={`${links.repo}/issues/new?title=${encodeURIComponent(`Feedback: ${title}`)}`}
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-flex items-center gap-[0.45rem] rounded-full border border-[rgba(26,60,52,0.2)] bg-transparent px-[1.1rem] py-[0.55rem] font-['Inter',system-ui,sans-serif] text-[0.82rem] font-medium text-[#0e3a5c] no-underline transition-all duration-200 hover:bg-[rgba(26,60,52,0.05)]"
+            class="no-external-icon inline-flex items-center gap-[0.45rem] rounded-full border border-[rgba(26,60,52,0.2)] bg-transparent px-[1.1rem] py-[0.55rem] font-['Inter',system-ui,sans-serif] text-[0.82rem] font-medium text-[#0e3a5c] no-underline transition-all duration-200 hover:bg-[rgba(26,60,52,0.05)]"
           >
             <svg
               width="15"
@@ -260,7 +270,7 @@ const otherCategories = categoryList
               href={`https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}`}
               target="_blank"
               rel="noopener noreferrer"
-              class="inline-flex h-[34px] w-[34px] cursor-pointer items-center justify-center rounded-full border-none bg-[rgba(26,60,52,0.06)] text-[#0e3a5c] no-underline transition-[background,color] duration-200 hover:bg-[#0e3a5c] hover:text-[#f8f1e9]"
+              class="no-external-icon inline-flex h-[34px] w-[34px] cursor-pointer items-center justify-center rounded-full border-none bg-[rgba(26,60,52,0.06)] text-[#0e3a5c] no-underline transition-[background,color] duration-200 hover:bg-[#0e3a5c] hover:text-[#f8f1e9]"
               aria-label="Share on X"
             >
               <svg
@@ -277,7 +287,7 @@ const otherCategories = categoryList
               href={`https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`}
               target="_blank"
               rel="noopener noreferrer"
-              class="inline-flex h-[34px] w-[34px] cursor-pointer items-center justify-center rounded-full border-none bg-[rgba(26,60,52,0.06)] text-[#0e3a5c] no-underline transition-[background,color] duration-200 hover:bg-[#0e3a5c] hover:text-[#f8f1e9]"
+              class="no-external-icon inline-flex h-[34px] w-[34px] cursor-pointer items-center justify-center rounded-full border-none bg-[rgba(26,60,52,0.06)] text-[#0e3a5c] no-underline transition-[background,color] duration-200 hover:bg-[#0e3a5c] hover:text-[#f8f1e9]"
               aria-label="Share on Facebook"
             >
               <svg
@@ -358,6 +368,7 @@ const otherCategories = categoryList
           tags={frontmatter.tags}
           readingTime={estimatedReadingTime}
           date={frontmatter.date}
+          author={frontmatter.author}
           category={category}
           categoryName={categoryInfo.name}
           categoryColor={categoryInfo.color}
@@ -365,6 +376,67 @@ const otherCategories = categoryList
         />
       </div>
     </div>
+
+    <!-- Latest on the site -->
+    {
+      latestArticles.length > 0 && (
+        <section class="border-t border-[rgba(26,60,52,0.08)] bg-white px-8 py-16 max-[640px]:px-4 max-[640px]:py-12">
+          <div class="mx-auto max-w-[var(--container-article)]">
+            <div class="mb-8 text-center">
+              <p class="mb-[0.6rem] font-['Inter',system-ui,sans-serif] text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#9aa89e]">
+                Latest
+              </p>
+              <h2 class="font-['Inter',serif] text-[clamp(1.4rem,3vw,1.9rem)] font-bold leading-[1.25] text-[#0e3a5c]">
+                Latest on the site
+              </h2>
+            </div>
+            <div class="grid gap-6 grid-cols-1 min-[640px]:grid-cols-2 min-[1024px]:grid-cols-3">
+              {latestArticles.map((article) => {
+                const artCat = allConfigs[article.category];
+                const catColor = artCat?.color ?? '#475569';
+                const catIcon = artCat?.icon ?? '📄';
+                const catName = artCat?.name ?? article.category;
+                return (
+                  <a
+                    href={`/${article.category}/${article.slug}`}
+                    class="no-external-icon group flex flex-col overflow-hidden rounded-2xl border border-[rgba(26,60,52,0.06)] bg-white no-underline shadow-[0_2px_8px_rgba(26,60,52,0.05)] transition-[transform,box-shadow] duration-[250ms] hover:-translate-y-1 hover:shadow-[0_8px_24px_rgba(26,60,52,0.1)]"
+                  >
+                    <div
+                      class="flex h-28 items-center justify-center text-3xl"
+                      style={`background: linear-gradient(135deg, ${catColor}22, ${catColor}44);`}
+                    >
+                      <span style={`color: ${catColor};`}>{catIcon}</span>
+                    </div>
+                    <div class="flex flex-1 flex-col gap-2 p-5">
+                      <span
+                        class="inline-block w-fit rounded-full border px-2 py-[0.15rem] font-['Inter',system-ui,sans-serif] text-[0.7rem] font-medium"
+                        style={`color: ${catColor}; background: ${catColor}14; border-color: ${catColor}28;`}
+                      >
+                        {catName}
+                      </span>
+                      <h3 class="font-['Inter',system-ui,sans-serif] text-[0.92rem] font-bold leading-[1.3] text-[#0e3a5c] group-hover:text-[#0369a1]">
+                        {article.title}
+                      </h3>
+                      {article.description && (
+                        <p class="m-0 line-clamp-2 font-['Inter',system-ui,sans-serif] text-[0.8rem] leading-[1.5] text-[#6a7d72]">
+                          {article.description}
+                        </p>
+                      )}
+                      <span
+                        class="mt-auto pt-2 font-['Inter',system-ui,sans-serif] text-[0.78rem] font-semibold"
+                        style={`color: ${catColor};`}
+                      >
+                        Read
+                      </span>
+                    </div>
+                  </a>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )
+    }
 
     <!-- Explore other categories -->
     <section class="bg-[#f8f1e9] px-8 py-20 max-[640px]:px-4 max-[640px]:py-14">
