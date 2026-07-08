@@ -8,5 +8,8 @@ node_modules/
 # derived content (SSOT is knowledge/; written by scripts/core/sync.sh)
 src/content/
 
+# visual regression captures (generated, large PNGs)
+reports/
+
 # os / editor
 .DS_Store
