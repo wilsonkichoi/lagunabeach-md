@@ -7,8 +7,20 @@
     "node": ">=22.12.0"
   },
   "scripts": {
-    "dev": "astro dev",
+    "dev": "npm run prebuild && astro dev",
+    "sync": "bash scripts/core/sync.sh",
+    "prebuild": "npm run prebuild:sync && run-p prebuild:kb-index prebuild:search prebuild:content-dates prebuild:git-info prebuild:related && npm run prebuild:latest",
+    "prebuild:sync": "bash scripts/core/sync.sh",
+    "prebuild:kb-index": "node scripts/core/build-kb-index.mjs",
+    "prebuild:search": "node scripts/core/build-search-index.mjs",
+    "prebuild:content-dates": "node scripts/core/build-content-dates.mjs",
+    "prebuild:git-info": "node scripts/core/build-git-info.mjs",
+    "prebuild:related": "node scripts/core/build-related-tagoverlap.mjs",
+    "prebuild:latest": "node scripts/core/build-latest.mjs",
     "build": "astro build",
+    "postbuild": "run-s postbuild:smoke postbuild:internal-links",
+    "postbuild:smoke": "node scripts/core/post-build-check.mjs",
+    "postbuild:internal-links": "node scripts/core/check-internal-links.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },

@@ -46,7 +46,7 @@ const routedCats = categories.map((c) => c.slug);
     var articles = [];
 
     try {
-      var res = await fetch('/api/articles.json');
+      var res = await fetch('/kb/topics.json');
       if (res.ok) {
         var raw = await res.json();
         articles = raw
