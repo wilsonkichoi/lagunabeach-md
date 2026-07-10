@@ -6,11 +6,11 @@
  * real failure mode: a getStaticPaths drop or a typo'd cross-reference producing
  * a dead link INTO a namespace the site already builds (e.g. /history/<gone>).
  *
- * It deliberately ignores links into top-level namespaces that no page has been
- * built for yet — the shell nav + home deliberately link to pages later phases
- * deliver (/graph, /map, /dashboard, /changelog, /about, /contribute per SPEC
- * §Pages). Those are pending, not broken; the check self-adjusts as each phase
- * adds its route. Only <a> navigation is checked (not <link>/asset hrefs).
+ * A link into a KNOWN planned namespace not yet delivered (PLANNED_ROUTES, from
+ * SPEC §Pages — /graph, /map, /dashboard, /changelog, /about, /contribute) is
+ * pending, not broken; the check self-adjusts as each phase adds its route. But
+ * a link into a namespace that is neither built nor planned is a typo/orphan and
+ * IS reported. Only <a> navigation is checked (not <link>/asset hrefs).
  *
  * Exit 1 if broken links >= BROKEN_LINK_THRESHOLD (default 0) or dist/ missing.
  */
@@ -51,6 +51,20 @@ const builtTopDirs = new Set(
     .map((e) => e.name),
 );
 
+// Top-level page namespaces later phases deliver (SPEC §Pages). A link into one
+// of these that does not resolve yet is pending, not broken. A link into a
+// namespace that is neither built NOR planned is a typo/orphan → broken.
+const PLANNED_ROUTES = new Set([
+  'graph',
+  'map',
+  'dashboard',
+  'changelog',
+  'about',
+  'contribute',
+  'explore',
+  'latest',
+]);
+
 async function resolves(pathname) {
   let clean = pathname.split('#')[0].split('?')[0];
   try {
@@ -90,8 +104,14 @@ for (const page of pages) {
     checked++;
     if (await resolves(href)) continue;
     const firstSeg = key.replace(/^\//, '').split('/')[0];
-    if (builtTopDirs.has(firstSeg)) broken.set(key, (broken.get(key) || 0) + 1);
-    else pending.add(`/${firstSeg}`);
+    // Broken if the namespace is already built (page should exist) OR is neither
+    // built nor a planned SPEC route (a typo/orphan). Pending only when it is a
+    // known planned route not delivered yet.
+    if (PLANNED_ROUTES.has(firstSeg) && !builtTopDirs.has(firstSeg)) {
+      pending.add(`/${firstSeg}`);
+    } else {
+      broken.set(key, (broken.get(key) || 0) + 1);
+    }
   }
 }
 

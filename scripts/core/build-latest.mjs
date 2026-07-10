@@ -68,7 +68,14 @@ async function main() {
         } catch {
           /* unreadable frontmatter — fall back to slug title */
         }
-        const date = dates[urlKey(lang, catSlug, slug)] || (fm.date ? String(fm.date) : null);
+        // NFC-normalize the key slug to match build-content-dates.mjs's keys
+        // (git paths can be NFD); frontmatter-date fallback normalized to ISO —
+        // gray-matter parses an unquoted YAML date to a JS Date, whose String()
+        // is a non-ISO form that would break lexicographic date sort + day-grouping.
+        const gitDate = dates[urlKey(lang, catSlug, slug.normalize('NFC'))];
+        const fmDate =
+          fm.date instanceof Date ? fm.date.toISOString() : fm.date ? String(fm.date) : null;
+        const date = gitDate || fmDate;
         if (!date) continue; // no git date and no frontmatter date → skip
         const tags = Array.isArray(fm.tags) ? fm.tags : fm.tags ? [fm.tags] : [];
         items.push({
