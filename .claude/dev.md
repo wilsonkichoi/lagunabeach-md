@@ -88,3 +88,10 @@ A session loads only the references its task cites — nothing else.
 - **In-scope work is never a deferred discovery.** If a finding is required by the
   claimed task's Objective or DoD, it is implemented in that task; stubs are only for
   work belonging to a future phase. Stubbing DoD work is a review finding (blocker).
+- **"Test-backed" DoD before the 4.1 test runner.** Until real tests arrive (task 4.1),
+  `test_command` is `npm run build`. A DoD criterion whose evidence says "test-backed" is
+  satisfied by a **postbuild check script** in the repo idiom
+  (`scripts/core/post-build-check.mjs`, `check-internal-links.mjs`): a node script that
+  asserts the contract and `process.exit(1)` on violation, wired into the `postbuild` `run-s`
+  chain so it runs on every build locally and in CI. Do not leave "test-backed" as a one-off
+  `jq` in the PR — wire the assertion so it guards regressions.
