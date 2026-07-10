@@ -20,10 +20,11 @@
     "prebuild:related": "node scripts/core/build-related-tagoverlap.mjs",
     "prebuild:latest": "node scripts/core/build-latest.mjs",
     "build": "astro build",
-    "postbuild": "run-s postbuild:smoke postbuild:internal-links postbuild:map-markers",
+    "postbuild": "run-s postbuild:smoke postbuild:internal-links postbuild:map-markers postbuild:graph",
     "postbuild:smoke": "node scripts/core/post-build-check.mjs",
     "postbuild:internal-links": "node scripts/core/check-internal-links.mjs",
     "postbuild:map-markers": "node scripts/core/check-map-markers.mjs",
+    "postbuild:graph": "node scripts/core/check-graph.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },
