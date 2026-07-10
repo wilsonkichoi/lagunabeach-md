@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "npm run prebuild && astro dev",
     "sync": "bash scripts/core/sync.sh",
-    "prebuild": "npm run prebuild:sync && run-p prebuild:kb-index prebuild:search prebuild:content-dates prebuild:git-info prebuild:related && npm run prebuild:latest",
+    "prebuild": "npm run prebuild:sync && run-p prebuild:kb-index prebuild:search prebuild:content-dates prebuild:git-info prebuild:related prebuild:changelog && npm run prebuild:latest",
+    "prebuild:changelog": "node scripts/core/generate-changelog-data.mjs",
     "prebuild:sync": "bash scripts/core/sync.sh",
     "prebuild:kb-index": "node scripts/core/build-kb-index.mjs",
     "prebuild:search": "node scripts/core/build-search-index.mjs",
