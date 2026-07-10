@@ -210,7 +210,9 @@ for (const [cat, folder] of categoryFolders) {
   } catch {}
 }
 
-const graphData = JSON.stringify({ nodes, edges });
+// Escape `<` so a title containing the literal "</script>" cannot terminate the
+// application/json island early (set:html does no escaping); JSON.parse restores it.
+const graphData = JSON.stringify({ nodes, edges }).replace(/</g, '\\u003c');
 ---
 
 <Layout title="🕸️ Knowledge Graph">
@@ -407,9 +409,7 @@ const graphData = JSON.stringify({ nodes, edges });
       .selectAll('text')
       .data(data.nodes)
       .join('text')
-      .text((d) =>
-        typeof d.label === 'string' ? d.label.split('：')[0] : d.label,
-      )
+      .text((d) => d.label)
       .attr('font-size', (d) => {
         if (d.group === 'center') return isCompact ? '14px' : '16px';
         if (d.size >= 20) return isCompact ? '12px' : '13px';
