@@ -20,7 +20,6 @@ const isHome = normalizedPath === '/';
 const navConfig = [
   { path: '/explore', label: t('nav.explore') },
   ...(features.map ? [{ path: '/map', label: t('nav.map') }] : []),
-  ...(features.graph ? [{ path: '/graph', label: t('nav.graph') }] : []),
   { path: '/about', label: t('nav.about') },
   { path: '/contribute', label: t('nav.contribute') },
 ].map((item) => {
@@ -79,6 +78,17 @@ const categoryList = placeConfig.categories.map((c) => ({
                         >
                           🆕 {t('nav.latest')}
                         </a>
+                        {features.graph && (
+                          <Fragment>
+                            <div class="dropdown-divider" />
+                            <a
+                              href="/graph"
+                              class="dropdown-item dropdown-section-header"
+                            >
+                              {t('nav.graph')} 🕸️
+                            </a>
+                          </Fragment>
+                        )}
                         <div class="dropdown-divider" />
                         {categoryList.map((category) => (
                           <a href={category.path} class="dropdown-item">
@@ -219,6 +229,15 @@ const categoryList = placeConfig.categories.map((c) => ({
                     >
                       🆕 {t('nav.latest')}
                     </a>
+                    {features.graph && (
+                      <a
+                        href="/graph"
+                        class="nav-link nav-sub-link"
+                        onclick="document.querySelector('.nav-mobile').classList.remove('open')"
+                      >
+                        {t('nav.graph')} 🕸️
+                      </a>
+                    )}
                   </div>
                 )}
               </Fragment>
