@@ -9,7 +9,7 @@ review_action_installed: false # auto PR-review GitHub Action (claude-review.yml
 work_in_progress_limit: 2      # max tasks simultaneously In Progress + In Review
 max_fix_attempts: 3            # CI-fix or review-fix cycles before a task goes Blocked
 max_tasks_per_run: 5           # batch cap for /dev:auto and /loop /dev:execute
-auto_merge: false              # standing merge approval for /dev:auto (see that skill)
+auto_merge: true               # standing merge approval for /dev:auto (see that skill)
 ---
 
 # Project conventions
