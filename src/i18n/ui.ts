@@ -16,6 +16,7 @@ export const ui = {
     // header nav
     'nav.explore': 'Explore',
     'nav.latest': 'Latest',
+    'nav.map': 'Map',
     'nav.graph': 'Knowledge Graph',
     'nav.about': 'About',
     'nav.contribute': 'Contribute',

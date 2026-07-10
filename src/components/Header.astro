@@ -19,6 +19,7 @@ const isHome = normalizedPath === '/';
 // dropdown's category links come from place.config.categories.
 const navConfig = [
   { path: '/explore', label: t('nav.explore') },
+  ...(features.map ? [{ path: '/map', label: t('nav.map') }] : []),
   { path: '/about', label: t('nav.about') },
   { path: '/contribute', label: t('nav.contribute') },
 ].map((item) => {
@@ -53,7 +54,7 @@ const categoryList = placeConfig.categories.map((c) => ({
         <nav class="nav-desktop" aria-label={t('nav.aria-main-navigation')}>
           {
             navConfig.map((item, index) => {
-              const showSep = index === 1;
+              const showSep = item.path === '/about';
               if (item.path === '/explore') {
                 return (
                   <Fragment>
