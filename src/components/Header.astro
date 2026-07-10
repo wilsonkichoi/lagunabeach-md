@@ -19,6 +19,8 @@ const isHome = normalizedPath === '/';
 // dropdown's category links come from place.config.categories.
 const navConfig = [
   { path: '/explore', label: t('nav.explore') },
+  ...(features.map ? [{ path: '/map', label: t('nav.map') }] : []),
+  ...(features.graph ? [{ path: '/graph', label: t('nav.graph') }] : []),
   { path: '/about', label: t('nav.about') },
   { path: '/contribute', label: t('nav.contribute') },
 ].map((item) => {
