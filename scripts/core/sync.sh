@@ -115,9 +115,10 @@ sync_lang() {
     done
   done
 
-  # Root-level .md files
+  # Root-level .md files (skip INBOX.md — workflow doc, not an article)
   for file in "$src_root"/*.md; do
     [ ! -f "$file" ] && continue
+    case "$(basename "$file")" in INBOX.md) continue ;; esac
     mkdir -p "$dst_root"
     cp "$file" "$dst_root/$(basename "$file")"
     count=$((count + 1))
