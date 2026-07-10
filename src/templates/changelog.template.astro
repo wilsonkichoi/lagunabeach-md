@@ -9,9 +9,12 @@
 import TimelineDayNav from '../components/timeline/TimelineDayNav.astro';
 import TimelineDay from '../components/timeline/TimelineDay.astro';
 import Layout from '../layouts/Layout.astro';
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
 import { fetchCommitFeed, commitType, commitIcon } from '../lib/commits';
 import placeConfig from '../../place.config';
 
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 const repoUrl = placeConfig.links.repo;
 const { commits, source } = await fetchCommitFeed(9999);
 
@@ -101,8 +104,9 @@ for (const commit of commits) {
 ---
 
 <Layout
-  title="Changelog"
-  description="Update history — track every content addition and site improvement."
+  title={t('changelog.meta.title')}
+  description={t('changelog.meta.description')}
+  lang={lang}
 >
   <div
     class="mx-auto max-w-[var(--container-wide)] px-8 pb-24 pt-16 max-[768px]:max-w-full max-[768px]:px-4 max-[768px]:pb-16 max-[768px]:pt-12"

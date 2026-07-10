@@ -124,6 +124,11 @@ export const ui = {
     'about.contact.cta.text':
       'Want to contribute or collaborate? We welcome all kinds of input.',
 
+    // changelog page
+    'changelog.meta.title': 'Changelog',
+    'changelog.meta.description':
+      'Update history — track every content addition and site improvement.',
+
     // contribute page
     'contribute.meta.title': 'Contribute',
     'contribute.meta.description':
