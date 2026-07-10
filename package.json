@@ -9,8 +9,9 @@
   "scripts": {
     "dev": "npm run prebuild && astro dev",
     "sync": "bash scripts/core/sync.sh",
-    "prebuild": "npm run prebuild:sync && run-p prebuild:kb-index prebuild:search prebuild:content-dates prebuild:git-info prebuild:related prebuild:changelog && npm run prebuild:latest",
+    "prebuild": "npm run prebuild:sync && run-p prebuild:kb-index prebuild:search prebuild:content-dates prebuild:git-info prebuild:related prebuild:changelog prebuild:map-markers && npm run prebuild:latest",
     "prebuild:changelog": "node scripts/core/generate-changelog-data.mjs",
+    "prebuild:map-markers": "node scripts/core/build-map-markers.mjs",
     "prebuild:sync": "bash scripts/core/sync.sh",
     "prebuild:kb-index": "node scripts/core/build-kb-index.mjs",
     "prebuild:search": "node scripts/core/build-search-index.mjs",
@@ -19,9 +20,10 @@
     "prebuild:related": "node scripts/core/build-related-tagoverlap.mjs",
     "prebuild:latest": "node scripts/core/build-latest.mjs",
     "build": "astro build",
-    "postbuild": "run-s postbuild:smoke postbuild:internal-links",
+    "postbuild": "run-s postbuild:smoke postbuild:internal-links postbuild:map-markers",
     "postbuild:smoke": "node scripts/core/post-build-check.mjs",
     "postbuild:internal-links": "node scripts/core/check-internal-links.mjs",
+    "postbuild:map-markers": "node scripts/core/check-map-markers.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },
