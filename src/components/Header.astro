@@ -55,7 +55,7 @@ const categoryList = placeConfig.categories.map((c) => ({
         <nav class="nav-desktop" aria-label={t('nav.aria-main-navigation')}>
           {
             navConfig.map((item, index) => {
-              const showSep = index === 1;
+              const showSep = item.path === '/about';
               if (item.path === '/explore') {
                 return (
                   <Fragment>
@@ -79,17 +79,6 @@ const categoryList = placeConfig.categories.map((c) => ({
                         >
                           🆕 {t('nav.latest')}
                         </a>
-                        {features.graph && (
-                          <Fragment>
-                            <div class="dropdown-divider" />
-                            <a
-                              href="/graph"
-                              class="dropdown-item dropdown-section-header"
-                            >
-                              {t('nav.graph')} 🕸️
-                            </a>
-                          </Fragment>
-                        )}
                         <div class="dropdown-divider" />
                         {categoryList.map((category) => (
                           <a href={category.path} class="dropdown-item">
@@ -230,15 +219,6 @@ const categoryList = placeConfig.categories.map((c) => ({
                     >
                       🆕 {t('nav.latest')}
                     </a>
-                    {features.graph && (
-                      <a
-                        href="/graph"
-                        class="nav-link nav-sub-link"
-                        onclick="document.querySelector('.nav-mobile').classList.remove('open')"
-                      >
-                        {t('nav.graph')} 🕸️
-                      </a>
-                    )}
                   </div>
                 )}
               </Fragment>
