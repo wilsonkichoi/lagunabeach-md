@@ -29,6 +29,7 @@ interface Props {
   slug: string;
   readingTime?: number;
   latestArticles?: LatestArticle[];
+  relatedArticles?: Array<{ title: string; slug: string; category: string }>;
   contributors?: string[];
   commitHash?: string;
 }
@@ -42,6 +43,7 @@ const {
   slug,
   readingTime,
   latestArticles = [],
+  relatedArticles = [],
   contributors = [],
   commitHash = '',
 } = Astro.props;
@@ -378,6 +380,7 @@ const otherCategories = categoryList
           categoryName={categoryInfo.name}
           categoryColor={categoryInfo.color}
           slug={slug}
+          relatedArticles={relatedArticles}
         />
       </div>
     </div>

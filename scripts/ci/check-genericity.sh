@@ -45,12 +45,14 @@ if [ "${#SCAN_ROOTS[@]}" -eq 0 ]; then
   exit 0
 fi
 
-# grep -I skips binary files; exclude node_modules, the denylist itself, and
-# src/content/ (derived projection of knowledge/ via sync.sh — place-specific by
-# nature, gitignored, never framework code).
+# grep -I skips binary files; exclude node_modules, the denylist itself, and the
+# two derived projections of knowledge/ that are place-specific by nature,
+# gitignored, and never framework code: src/content/ (sync.sh) and src/data/
+# (prebuild JSON — content-dates/git-info/latest/related).
 HITS="$(grep -rniIE "$PATTERN" "${SCAN_ROOTS[@]}" \
   --exclude-dir=node_modules \
   --exclude-dir=content \
+  --exclude-dir=data \
   --exclude="genericity-denylist.txt" || true)"
 
 if [ -n "$HITS" ]; then
