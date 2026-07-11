@@ -37,6 +37,10 @@
     "prebuild:dashboard": "npm run article-health:json || true; node scripts/core/build-dashboard-lite.mjs",
     "test": "node scripts/core/test-frontmatter.mjs",
     "test:ci": "node scripts/core/test-frontmatter.mjs --ci",
+    "visual:baseline": "node scripts/visual/capture-baseline.mjs --baseline",
+    "visual:capture": "node scripts/visual/capture-baseline.mjs",
+    "visual:diff": "node scripts/visual/diff.mjs",
+    "visual:check": "node scripts/visual/capture-baseline.mjs && node scripts/visual/diff.mjs",
     "prepare": "husky"
   },
   "dependencies": {

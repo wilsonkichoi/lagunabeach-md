@@ -35,6 +35,16 @@ const repoRoot = join(__dirname, '..', '..');
 
 const PAGES = [
   { name: 'home', url: '/' },
+  { name: 'article', url: '/trails/top-of-the-world/' },
+  { name: 'hub-history', url: '/history/' },
+  { name: 'explore', url: '/explore/' },
+  { name: 'latest', url: '/latest/' },
+  { name: 'graph', url: '/graph/' },
+  { name: 'map', url: '/map/' },
+  { name: 'dashboard', url: '/dashboard/' },
+  { name: 'about', url: '/about/' },
+  { name: 'contribute', url: '/contribute/' },
+  { name: 'changelog', url: '/changelog/' },
 ];
 
 const VIEWPORTS = [
