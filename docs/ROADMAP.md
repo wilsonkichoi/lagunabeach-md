@@ -6,6 +6,10 @@ blocks by `/dev:plan`, never re-derived; §E's Steps/Acceptance text governs pac
 Every phase transition is a Wilson gate — `/dev:plan` for phase n+1 runs only after Wilson
 confirms phase n closed. Estimates carried from §E (`AI implement+review | Human`).
 
+**Status (2026-07-11):** Phases 0-4 are complete and Wilson-confirmed. Phase 5 is next
+to plan; its packets convert from §E 5.1-5.5 plus the "Phase 5 amendment" appendix below
+(task 5.6 + packet-shaping notes recorded at Phase-4 close).
+
 **Extension (Wilson-approved 2026-07-07):** milestones 9-11 extend beyond the frozen §E
 (MCP delivery, analytics perception, autonomous routines — see ADR 005). Their task blocks
 live in this file's "Extension task blocks" appendix, in §E's format; `/dev:plan` converts
@@ -19,7 +23,7 @@ packets from those blocks exactly as it does from §E. STRATEGIC-DIRECTION.md is
 | 2 | Visual features | Leaflet map with boundary overlay; D3 knowledge graph | 2.1 · 2.2 | Mobile map check on real device (2.1); Wilson phase confirm | AI 5h \| Human 0.25h |
 | 3 | Content migration + cutover | Full corpus (16 articles + About + INBOX) on the new site; lagunabeach.md serves it | 3.1 · 3.2 | **Wilson domain cutover (3.2)**; v1 archived after 14 stable days; phase confirm | AI 1.25h \| Human 1h |
 | 4 | Quality tooling | article-health, frontmatter tests, pre-commit, dashboard-lite, visual-regression baselines; `test_command` updated in `.claude/dev.md` (4.1) | 4.1 · 4.2 | Health scores match fork baseline; `npm run visual:check` clean; Wilson phase confirm | AI 5h \| Human 0h |
-| 5 | Framework cut (sekai-kb v1) — **blocks 6-7** | Template repo with demo place, init wizard, `/adopt` + `/seed-articles` + `/upgrade`, playbook/runbook, release discipline, LB re-based on tags, SystemDiagram | 5.1 · 5.2a-c · 5.3 · 5.4 · 5.5 | **Wilson dana-point proof (5.2c: fresh clone → deployed < 1h)**; clean tag-merge via /upgrade (5.4); phase confirm | AI 18.5h \| Human 1.5h |
+| 5 | Framework cut (sekai-kb v1) — **blocks 6-7** | Template repo with demo place, init wizard, `/adopt` + `/seed-articles` + `/upgrade`, generic content skills (`/write` `/validate` `/factcheck` + router), playbook/runbook, release discipline, LB re-based on tags, SystemDiagram | 5.1 · 5.2a-c · 5.3 · 5.4 · 5.5 · 5.6 (amendment, appendix below) | **Wilson dana-point proof (5.2c: fresh clone → deployed < 1h)**; clean tag-merge via /upgrade (5.4); phase confirm | AI 21h \| Human 1.5h |
 | 6 | Social + engagement | Feedback (Worker + D1 + widget + triage), snippet pipeline, soundscape | 6.1a-b · 6.2 · 6.3 | Live submission → D1 → GitHub issue; Wilson recordings (6.3); phase confirm | AI 9.5h \| Human 2.5h |
 | 7 | Differentiators | On-demand OG worker, RAG chat (bge-m3 + Workers AI + Claude API), QR flow | 7.1 · 7.2a-c · 7.3 | Eval set answered with citations, no hallucinated places (7.2c); phase confirm | AI 12.25h \| Human 1.75h |
 | 8 | Semiont plugin layer | Organ architecture in sekai-kb (config.json manifest, core organs); LB enables core + MANIFESTO | 8.1 · 8.2 | Site builds with `semiont/` deleted; organs toggle via config only; phase confirm | AI 4.25h \| Human 0h |
@@ -27,8 +31,9 @@ packets from those blocks exactly as it does from §E. STRATEGIC-DIRECTION.md is
 | 10 | Perception (analytics) | GA4 + Search Console + Cloudflare Web Analytics live behind `features.analytics`; signal fetchers ported; dashboard analytics panels | 10.1 · 10.2 | Dashboard renders real traffic/search data from a fetch run; zero analytics IDs in `src/` outside place.config; sekai-kb tag → LB `/upgrade` clean; Wilson phase confirm | AI 4.25h \| Human 1h |
 | 11 | Autonomous routines | ROUTINE organ activated: routine contract + `/schedule` skill; embeddings/index refresh (CI); maintainer (content PR review + link/health audits); feedback-triage; data-refresh; trend-discovery; social-publish; rewrite | 11.1-11.8 | Two routines live ≥ 1 week shipping only via PRs, zero direct pushes to main; sekai-kb tag → LB `/upgrade` clean; Wilson phase confirm | AI 16.5h \| Human 0.75h |
 
-**Totals:** §E (phases 0-8) AI ≈ 79h (implement + review) | Human ≈ 9h; extension
-(phases 9-11) adds AI ≈ 26.75h | Human ≈ 2.5h → grand total AI ≈ 106h | Human ≈ 11.5h.
+**Totals:** §E (phases 0-8) AI ≈ 79h (implement + review) | Human ≈ 9h; the Phase 5
+amendment (5.6, 2026-07-11) adds AI 2.5h; extension (phases 9-11) adds AI ≈ 26.75h |
+Human ≈ 2.5h → grand total AI ≈ 108.5h | Human ≈ 11.5h.
 Phases 0-4 ≈ 1.5-2 weeks at 2-4 tasks/day; phases 0-8 ≈ 4-6 weeks elapsed (3.2's 14-day
 archive wait overlaps Phases 4-5); phases 9-11 add ≈ 1.5-2 weeks.
 
@@ -40,6 +45,13 @@ support is a post-project revisit after Phase 11 (PRD non-goals; STRATEGIC-DIREC
 2026-07-11 notes). `/dev:plan` must not emit packets that retain CJK code for
 hypothetical adopters. Enforcement is machine: the genericity gate scans all code trees
 and the CI job includes a CJK-codepoint scan (both from LB-20).
+**Adopter-facing boundary (2026-07-11 (c)):** sekai-kb v1's adopter docs (task 5.3:
+README, framework CLAUDE.md, playbook) state the support boundary explicitly rather than
+coding around it — UI strings and editorial tooling are English-calibrated; Latin-script
+content largely works (plain word tokenization; article-health prose thresholds may need
+retuning per instance); CJK content is unsupported until the post-project multi-language
+revisit (LB-24). The schema seams (`place.locale`, `place.languages[]`) stay declared but
+dormant.
 
 **Ordering rules (structural, not preference):** Phases 6 and 7 declare `Depends: 5.4` —
 the framework ships before LB's fun features (§A2, §G risk 3). Phase 9 depends on 7.2c
@@ -54,6 +66,84 @@ via `/upgrade` — that pull is part of each phase's exit gate. The only LB-side
 instance-owned: feature flags in `place.config.ts`, analytics IDs, ROUTINE.md entries,
 wrangler secrets. New `place.config` keys must be absent-safe (missing key = feature off)
 so existing adopter instances upgrade without config surgery.
+
+---
+
+## Phase 5 amendment — approved by Wilson 2026-07-11 at Phase-4 close (STRATEGIC-DIRECTION 2026-07-11 (c))
+
+Same mechanism as the Phases 9-11 extension: `/dev:plan` converts the block below exactly
+as it does §E blocks; the packet-shaping notes amend §E 5.1-5.5's Steps/Acceptance detail
+with repo realities §E (written 2026-07-04) could not know.
+
+**New task block:**
+```
+[5.6] Generic content-lifecycle skills: /write, /validate, /factcheck + router
+  Effort: M | Model: Opus | Depends: 5.1, 5.3 (the playbook is the pipeline SSOT the
+    skills reference)
+  Est: AI 2h + 0.5h review
+  Steps:
+    1. Port from the v1 archive's lb-write / lb-validate / lb-factcheck, genericized at
+       port time: place identity + category set from place.config.ts, pipeline/editorial
+       rules referenced from docs/playbook/ (never fork doc paths); land under
+       .claude/skills/ with generic names (write, validate, factcheck) — no lb- prefix
+       survives in any directory name, file name, or prose.
+    2. Thin router skill (successor to the fork's `lb` router): lists the shipped skills
+       + their triggers; probes semiont/config.json and no-ops gracefully when absent
+       (organ substance arrives Phase 8).
+    3. Extend both machine gates' scan scope to .claude/skills/ (agent-executed prose is
+       code for doctrine purposes): check-genericity.sh SCAN_ROOTS and
+       check-english-only.mjs SCAN_ROOTS.
+    4. Document the skill ownership rule in SPEC + framework CLAUDE.md: framework skills
+       are framework-owned (upgrade-managed, same class as src/); adopters ADD new skills
+       freely (new files never conflict on upgrade); overriding a framework skill =
+       upstream to sekai-kb first, or accept a conflict-managed local fork that /upgrade
+       flags each release.
+  Acceptance: on the demo place, /write produces an article that passes /validate and
+    article-health; both gates green with .claude/skills/ in scope; the router lists
+    exactly the shipped skills; zero place-specific strings in any skill
+  Downstream: 8.1 (router's semiont probe), 11.3/11.8 (maintainer + rewrite routines
+    invoke the validate/write pipelines)
+```
+
+**Not ported** (rulings recorded in STRATEGIC-DIRECTION 2026-07-11 (c)): `lb-translate`
+(post-project, LB-24), `lb-become` (Phase 8.1), `lb-refresh`/`lb-news-lens`/`lb-peer`/
+`lb-media-audit` (concepts return as Phase 11 routines 11.8/11.6/11.3), `lb-sync`/
+`lb-search` (documented npm-command workflows in the 5.3 runbook).
+
+**Packet-shaping notes for §E 5.1-5.4** (recorded 2026-07-11; facts verified in-repo):
+
+- **5.1 strip list additions** beyond §E's (knowledge/, public/media/, place.config,
+  CNAME): `reports/`, `research/`, `.claude/dev.md` (LB's tracker/process config — the
+  template ships none), `public/data/boundary.geojson` (map overlay and 5.5's
+  SystemDiagram both degrade gracefully without it — verified), LB visual baselines
+  (recapture against the demo place), `docs/baselines/article-health-fork.md` + the
+  `article-health:baseline` fork-parity check (LB-specific; re-point to a demo-place
+  baseline or drop the npm script in the template). `.claude/rules/` gets a split pass:
+  framework-relevant engineering rules (astro-*, prebuild-*, gray-matter, shell
+  portability, GH-Actions least-privilege, lockfile) ship in the template; LB-process
+  rules (dod-is-the-scope, visual-parity target, fork-sweep, clean-rebuild) stay
+  instance-side — executor proposes the split in the PR.
+- **5.1 build sanity on fresh history:** `build-dashboard-lite.mjs` computes immune
+  dimensions from git log; on the template's single-init-commit history it must produce
+  sane output (no crash, no degenerate scores) — acceptance-check it.
+- **5.2a wizard scope grew beyond §E's ~8 prompts:** must also cover `links`
+  (repo/email/social — the LB-3 schema divergence) and the `home` block (~230 lines of
+  home-page copy now lives in place.config; see SPEC). The wizard writes generic defaults
+  for `home.*`; `/adopt` MAY draft place-specific copy behind the same human-approval
+  gate as `/seed-articles`. The wizard also appends the adopter's place name to a new
+  instance-owned `scripts/ci/genericity-denylist.local.txt`, read additively by
+  check-genericity.sh — the framework denylist file stays framework-owned so upgrades
+  never conflict.
+- **5.3 doc scope additions:** runbook covers the Python toolchain (uv + Python ≥3.12;
+  article-health and its pytest suite run via `uv run`; `pyproject.toml` + `uv.lock` ship
+  in the template). A template **README** is a named deliverable (the "Use this template"
+  landing surface: what this is, the <1h adopt path, links to playbook/runbook). Ship an
+  **AGENTS.md** pointer to CLAUDE.md so codex-cli and other agent CLIs boot the same
+  instructions. State the language support boundary (see Language policy above).
+- **5.4 instance-owned list extends** beyond §B's five files: `docs/baselines/**` and
+  `scripts/ci/genericity-denylist.local.txt` (final `merge=ours` list minted in the
+  packet). LB's squash-merge history makes the §E step-2 graft/subtree-merge choice
+  load-bearing — document the chosen mechanics in the runbook as §E already requires.
 
 ---
 

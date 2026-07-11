@@ -18,6 +18,10 @@ change they depict (§B).
   needs it.
 - **Leaflet + OSM tiles** for the map (deviation from upstream's D3/TopoJSON SVG map),
   CDN-loaded, page-scoped.
+- **Python ≥ 3.12 via uv** for editorial tooling (added Phase 4): `article-health.py` and
+  its pytest suite run through `uv run`; `pyproject.toml` + `uv.lock` ship with the
+  framework, and `npm run prebuild:dashboard` shells into the tool (absent-safe: `|| true`).
+  The 5.3 runbook documents uv setup for adopters.
 - **Cloudflare Workers (free tier)** for all dynamic capability: feedback (Worker + D1),
   on-demand OG (Satori + resvg-wasm), RAG chat. RAG model space: **bge-m3, 1024-dim** for
   both corpus (offline: 4090 or Workers AI) and query (Workers AI `@cf/baai/bge-m3` —
@@ -38,6 +42,15 @@ framework-owned — customization flows through config/content/media; anything m
 upstreamed to sekai-kb first and pulled back as a release. `FRAMEWORK-VERSION` records the
 instance's version; the `/upgrade` skill wraps fetch → merge tag → build-verify → conflict
 report. Directory shape: §B's tree (same shape for framework and instances).
+
+> **Skill ownership (2026-07-11 (c), task 5.6):** the framework skills under
+> `.claude/skills/` (`/write`, `/validate`, `/factcheck`, router, plus `/adopt`,
+> `/seed-articles`, `/upgrade`) are framework-owned, same class as `src/`. Adopters ADD
+> new skills freely — new files never conflict on upgrade. Overriding a framework skill
+> means upstreaming the change to sekai-kb first, or accepting a conflict-managed local
+> fork that `/upgrade` flags on every release. The 5.4 `merge=ours` list extends beyond
+> §B's five instance-owned files with `docs/baselines/**` and
+> `scripts/ci/genericity-denylist.local.txt` (final list minted in the 5.4 packet).
 
 > **Release train for post-cut feature phases (9-11, ADR 005):** those phases execute in
 > `sekai-kb`; each ships as a tagged release, and instances (LB first) adopt via
@@ -69,6 +82,14 @@ Runtime-toggleable: `features`, languages, semiont organs.
 > feature-off when missing, so existing instances upgrade across framework releases
 > without config edits.
 
+> **`home` (added 1.1b):** the entire home-page copy surface — hero, stats, doors, cover
+> story, exhibition halls, feature cards, section headings — lives in the config as a
+> `home` block (~230 lines for LB). This keeps `src/` string-free (genericity win) but
+> exceeds any init interview: the wizard (5.2a) writes generic defaults for `home.*`, and
+> `/adopt` may draft place-specific copy behind the same human-approval gate as
+> `/seed-articles`. The 5.1 demo place ships authored demo copy. Same
+> intentional-divergence pattern as `links`.
+
 ## Content model (§B — unchanged and non-negotiable)
 
 `knowledge/` is SSOT (plain Markdown + YAML frontmatter, `[[wiki-links]]`);
@@ -80,12 +101,17 @@ adding a language = wrapper dir + `languages` entry + `knowledge/{lang}/` conten
 translation cascade/babel tooling is NOT ported (§B, §F). This is a design sketch only:
 the site is English-only through the current roadmap and language support is a
 post-project revisit (PRD non-goals; STRATEGIC-DIRECTION 2026-07-11 revision note).
+Adopter-facing boundary (2026-07-11 (c)): v1 tooling is English-calibrated; Latin-script
+content largely works (plain tokenization; article-health prose thresholds may need
+per-instance retuning); CJK is unsupported until that revisit (LB-24). Task 5.3 states
+this in the adopter docs — documented honestly, never patched with code.
 
 ## Build pipeline (§B)
 
-`sync.sh` → parallel prebuild (~9 jobs: kb-index, search, map-markers, related,
-content-dates, git-info, latest, dashboard-lite) → `astro build` → post-build smoke +
-internal-link check. Target < 60s at 50 articles.
+`sync.sh` → parallel prebuild (`run-p`: kb-index, search, content-dates, git-info,
+related, changelog, map-markers, dashboard-lite) → latest → `astro build` → post-build
+contract checks (`run-s`: smoke, internal-links, map-markers, graph, dashboard). Target
+< 60s at 50 articles. The dashboard-lite job shells into article-health (uv) absent-safe.
 
 **Static-endpoint naming: `/kb/`, not `/api/`** — `/kb/topics.json`,
 `/kb/articles/{slug}.md`, `/kb/search-index.json`, plus `/llms.txt` at root. This is the
@@ -106,7 +132,9 @@ research §"Laguna Beach GIS"); feedback capability (Worker + D1 + ~100-line wid
 triage skill — replaces the 89-file Supabase harvest orchestrator); snippet social
 pipeline (concept from spores, zero spore code); soundscape (native HTML5 audio);
 on-demand OG worker; RAG chat + QR flow; framework scaffolding (init wizard, `/adopt`,
-`/seed-articles`, `/upgrade`, playbook, runbook); semiont plugin layer (§A3: default-on
+`/seed-articles`, `/upgrade`, playbook, runbook, template README + AGENTS.md pointer, and
+the generic content-lifecycle skills `/write` `/validate` `/factcheck` + router — Phase 5
+amendment 5.6, ROADMAP appendix); semiont plugin layer (§A3: default-on
 core = boot identity <150 lines, MEMORY, REFLEXES; everything else opt-in; no
 cross-organ dependencies).
 
@@ -182,7 +210,8 @@ GitHub Pages via Actions + Cloudflare DNS/CDN. Workers deploy via `wrangler` fro
   `workers/`/plugin code; `scripts/ci/check-genericity.sh` fails the build on denylist
   hits, and the CI gate additionally fails on any CJK codepoint in those trees
   (English-only doctrine, machine-enforced — §A2, §E 0.3; STRATEGIC-DIRECTION
-  2026-07-11 (b)).
+  2026-07-11 (b)). `.claude/skills/` joins both gates' scan roots when the framework
+  skills land (task 5.6) — agent-executed prose is code for doctrine purposes.
 - **No build-time OG generation ever** (§B); static default until the Phase 7 worker.
 - **Site builds with `semiont/` deleted**; no organ reads another organ's files (§A3).
 - **CI must run on pull requests**: build + genericity jobs trigger on `pull_request`

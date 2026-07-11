@@ -37,7 +37,7 @@ Two products, one codebase, built in strict order:
 |---|---|
 | Readers (residents, visitors) | Curated, fact-checked local knowledge with the inherited editorial bar; graph, map, search |
 | AI consumers | `/llms.txt` → `/kb/topics.json` → `/kb/articles/{slug}.md`: lazy-loading knowledge protocol, one HTTP request per article, no clone required (§B); tool-using MCP clients get the same corpus via one remote MCP connection (`workers/mcp/`, Phase 9, ADR 005) |
-| Framework adopters | GitHub template + `/adopt` AI interview → configured, seeded, deployed site in under an hour (§A2, §D.7) |
+| Framework adopters | GitHub template + `/adopt` AI interview → configured, seeded, deployed site in under an hour (§A2, §D.7); generic content-lifecycle skills (`/write`, `/validate`, `/factcheck`) keep the instance maintainable at the editorial bar with any agent CLI (task 5.6, ROADMAP Phase 5 amendment) |
 | Contributors | Plain-Markdown SSOT (`knowledge/`), quality tooling (article-health, link checks), tracker-driven workflow |
 | Wilson | An instance he enjoys building (map, soundscape, RAG chat, QR flow) on a codebase that stays extractable, plus an autonomous operations layer (Phase 11 routines) that maintains the instance without burnout |
 
@@ -85,6 +85,8 @@ never silently trim the packet.
   editorial playbook. Multi-language support is a post-project revisit (after Phase 11),
   built fresh at that time; the `lagunabeach-md-v1` archive retains the fork's CJK
   implementations for reference. "A future CJK adopter" is never grounds to retain or
-  re-add CJK code.
+  re-add CJK code. For framework adopters the boundary is documented, not coded around
+  (2026-07-11 (c)): tooling is English-calibrated, Latin-script content largely works,
+  CJK is unsupported until that revisit — stated in the v1 adopter docs (task 5.3).
 - **Semiont is optional**: the site must build with the `semiont/` directory deleted; every
   organ beyond the minimal core is opt-in (§A3).
