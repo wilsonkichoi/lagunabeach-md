@@ -41,9 +41,28 @@ jobs:
       - name: Check for CJK codepoints (English-only) in src/, scripts/, tests/
         run: node scripts/ci/check-english-only.mjs
 
+  test:
+    name: Test
+    needs: genericity
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+      - run: npm ci --force
+      - run: npm run test:ci
+      - run: npm run article-health -- --all --profile=ci-deploy
+
   build:
     name: Build
-    needs: genericity
+    needs: [genericity, test]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5

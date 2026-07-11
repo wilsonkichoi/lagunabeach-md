@@ -32,7 +32,10 @@
     "article-health": "uv run python scripts/tools/article-health.py",
     "article-health:test": "uv run pytest tests/article_health",
     "article-health:baseline": "uv run python scripts/tools/check-article-health-baseline.py",
-    "article-health:json": "mkdir -p src/data && uv run python scripts/tools/article-health.py --all --output=json --profile=dashboard > src/data/article-health.json"
+    "article-health:json": "mkdir -p src/data && uv run python scripts/tools/article-health.py --all --output=json --profile=dashboard > src/data/article-health.json",
+    "test": "node scripts/core/test-frontmatter.mjs",
+    "test:ci": "node scripts/core/test-frontmatter.mjs --ci",
+    "prepare": "husky"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "7.2.1",
@@ -48,6 +51,7 @@
     "unist-util-visit": "^5.1.0"
   },
   "devDependencies": {
+    "husky": "^9.1.7",
     "npm-run-all2": "^8.0.4",
     "pixelmatch": "^7.2.0",
     "playwright": "^1.61.1",
