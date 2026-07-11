@@ -27,6 +27,8 @@
     "postbuild:graph": "node scripts/core/check-graph.mjs",
     "preview": "astro preview",
     "astro": "astro",
+    "genericity": "bash scripts/ci/check-genericity.sh && node scripts/ci/check-english-only.mjs",
+    "english-only": "node scripts/ci/check-english-only.mjs",
     "article-health": "uv run python scripts/tools/article-health.py",
     "article-health:test": "uv run pytest tests/article_health",
     "article-health:baseline": "uv run python scripts/tools/check-article-health-baseline.py",
