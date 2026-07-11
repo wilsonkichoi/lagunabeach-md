@@ -1,7 +1,5 @@
 """Tests for correction_meta plugin (English errata-as-prose detection)."""
 
-from pathlib import Path
-
 import pytest
 
 from lib.article_health import registry
@@ -10,18 +8,8 @@ from lib.article_health.loader import load_target
 from lib.article_health.types import Severity
 
 
-def _write(tmp_path: Path, body: str, name: str = "x.md") -> Path:
-    f = tmp_path / "knowledge" / "History" / name
-    f.parent.mkdir(parents=True, exist_ok=True)
-    f.write_text(
-        f"---\ntitle: x\ndescription: y\ndate: 2026-05-04\ntags: [t]\n---\n\n{body}",
-        encoding="utf-8",
-    )
-    return f
-
-
-def _check(tmp_path: Path, body: str, name: str = "x.md"):
-    target = load_target(_write(tmp_path, body, name))
+def _check(write_article, body: str, name: str = "x.md"):
+    target = load_target(write_article(body, category="History", name=name))
     return list(correction_meta.check(target, {}))
 
 
@@ -37,30 +25,25 @@ def _check(tmp_path: Path, body: str, name: str = "x.md"):
         "People often assume the colony started with a single painter.",
     ],
 )
-def test_correction_anxiety_phrases_flagged(tmp_path, phrase):
-    violations = _check(tmp_path, phrase)
+def test_correction_anxiety_phrases_flagged(write_article, phrase):
+    violations = _check(write_article, phrase)
     assert len(violations) == 1
     assert violations[0].severity == Severity.WARN
     assert "Correction-anxiety pattern" in violations[0].message
 
 
-def test_clean_positive_prose_not_flagged(tmp_path):
+def test_clean_positive_prose_not_flagged(write_article):
     body = (
         "The tower was built in 1926 by a local architect. "
         "The festival began in 1933 and runs every summer."
     )
-    assert _check(tmp_path, body) == []
+    assert _check(write_article, body) == []
 
 
-def test_protected_regions_not_matched(tmp_path):
+def test_protected_regions_not_matched(write_article):
     """Code / link URLs are masked, so a pattern inside them never false-matches."""
     body = "See `a common misconception` in code and [link](https://example.com/a-common-misconception)."
-    assert _check(tmp_path, body) == []
-
-
-def test_hub_pages_excluded(tmp_path):
-    violations = _check(tmp_path, "This is often confused with something else.", name="_hub.md")
-    assert violations == []
+    assert _check(write_article, body) == []
 
 
 def test_plugin_metadata():

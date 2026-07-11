@@ -1,9 +1,9 @@
-"""Tests for prose_health plugin (English port, LagunaBeach.md).
+"""Tests for the prose_health plugin.
 
-Ported 2026-06-29 from Taiwan.md's zh-TW fixtures. Structural dimensions are
-language-agnostic; prose-tell dimensions are sourced from EDITORIAL §6 (brochure
-tells, the "Not Just X, It's Y" pattern, canned endings, AI metaphor/ritual
-phrases). Thresholds recalibrated for LB's short locals-guide format.
+Structural dimensions are language-agnostic; prose-tell dimensions are sourced
+from EDITORIAL §6 (brochure tells, the "Not Just X, It's Y" pattern, canned
+endings, AI metaphor/ritual phrases). Thresholds are calibrated for the short
+locals-guide format.
 """
 
 import textwrap
@@ -88,7 +88,7 @@ def test_no_frontmatter_skipped(tmp_path):
 
 
 def test_zero_years_mild_penalty(tmp_path):
-    """A fully dateless article gets a mild +1 nudge (was +3 in Taiwan port)."""
+    """A fully dateless article gets a mild +1 nudge."""
     body = "\n".join(["A paragraph of prose with no year mentioned at all."] * 22)
     score_no_year = _score(_check(tmp_path, body))
     body_dated = "\n".join(["A paragraph from 1926 about the 1993 fire and 2024 today."] * 22)

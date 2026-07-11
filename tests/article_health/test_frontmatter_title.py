@@ -1,4 +1,4 @@
-"""Tests for frontmatter_title plugin (English; APPLIES_TO=["en"]).
+"""Tests for the frontmatter_title plugin.
 
 The plugin gates three English dimensions: puffery adjectives, title length
 (> 60 chars), and a required subcategory (HARD) on non-About articles.
@@ -18,13 +18,9 @@ def _make_article(
     tmp_path: Path,
     title: str,
     category: str = "Nature",
-    lang_dir: str = "",
     description: str = "desc",
 ) -> Path:
-    if lang_dir:
-        d = tmp_path / "knowledge" / lang_dir / category
-    else:
-        d = tmp_path / "knowledge" / category
+    d = tmp_path / "knowledge" / category
     d.mkdir(parents=True, exist_ok=True)
     f = d / "test.md"
     f.write_text(
@@ -34,8 +30,8 @@ def _make_article(
     return f
 
 
-def _check(tmp_path: Path, title: str, category: str = "Nature", lang_dir: str = ""):
-    f = _make_article(tmp_path, title, category, lang_dir)
+def _check(tmp_path: Path, title: str, category: str = "Nature"):
+    f = _make_article(tmp_path, title, category)
     target = load_target(f)
     return list(frontmatter_title.check(target, {}))
 
@@ -90,7 +86,7 @@ def test_normal_title_passes_length(tmp_path):
 
 
 # ════════════════════════════════════════════════════════════════════════
-# Lang filter: APPLIES_TO=["en"] — non-en langs skipped at runner level
+# Mixed severities + runner severity preservation
 # ════════════════════════════════════════════════════════════════════════
 
 
@@ -159,11 +155,8 @@ def test_plugin_registered():
 # ════════════════════════════════════════════════════════════════════════
 
 
-def _make_article_no_subcategory(tmp_path: Path, title: str, category: str, lang_dir: str = "") -> Path:
-    if lang_dir:
-        d = tmp_path / "knowledge" / lang_dir / category
-    else:
-        d = tmp_path / "knowledge" / category
+def _make_article_no_subcategory(tmp_path: Path, title: str, category: str) -> Path:
+    d = tmp_path / "knowledge" / category
     d.mkdir(parents=True, exist_ok=True)
     f = d / "test.md"
     f.write_text(

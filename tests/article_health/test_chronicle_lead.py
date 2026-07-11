@@ -1,8 +1,8 @@
 """Tests for chronicle_lead plugin.
 
 Detects chronicle-style H2 subheadings that turn articles into
-Wikipedia-style timelines (REWRITE Stage 2 #4 / #11). English-default fork:
-the check targets en articles and English chronicle patterns.
+Wikipedia-style timelines (REWRITE Stage 2 #4 / #11). The check targets
+English articles and English chronicle patterns.
 
 Canonical: docs/editorial/EDITORIAL.md §subheadings
 """
@@ -27,7 +27,6 @@ def _check_subheadings(tmp_path: Path, subheadings: list[str], path_hint: str = 
         + "\n\n".join(f"{h}\n\nParagraph content." for h in subheadings)
         + "\n"
     )
-    # tmp_path is allowed by _is_excluded_path (treated like a knowledge/ article).
     out = tmp_path / "test.md"
     out.write_text(body, encoding="utf-8")
     target = load_target(out)
@@ -113,33 +112,6 @@ def test_scene_subheadings_allowed(tmp_path):
     ]
     violations = _check_subheadings(tmp_path, legitimate)
     assert len(violations) == 0
-
-
-# ════════════════════════════════════════════════════════════════════════
-# Path exclusions (translations / hubs / spores / memory / diary)
-# ════════════════════════════════════════════════════════════════════════
-
-
-def test_source_articles_not_excluded(tmp_path):
-    """en source articles under knowledge/{Category}/ are NOT excluded — the check targets them."""
-    assert not chronicle_lead._is_excluded_path("/knowledge/People/test.md")
-
-
-def test_hub_pages_excluded(tmp_path):
-    """knowledge/{Category}/_X.md hub pages — index pattern legit."""
-    assert chronicle_lead._is_excluded_path("/knowledge/People/_index.md")
-    assert chronicle_lead._is_excluded_path("/knowledge/History/_overview.md")
-
-
-def test_memory_diary_excluded(tmp_path):
-    """memory/ + diary/ — timeline templates legitimate."""
-    assert chronicle_lead._is_excluded_path("/docs/semiont/memory/2026-05-09.md")
-    assert chronicle_lead._is_excluded_path("/docs/semiont/diary/2026-05-09.md")
-
-
-def test_research_reports_excluded(tmp_path):
-    """reports/research/ — date-prefixed chronologies legit."""
-    assert chronicle_lead._is_excluded_path("/reports/research/2026-05/test.md")
 
 
 # ════════════════════════════════════════════════════════════════════════
