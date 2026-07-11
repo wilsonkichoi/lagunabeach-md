@@ -4,7 +4,8 @@ Single canonical place for:
   - YAML frontmatter parsing
   - body extraction
   - protected-region detection (code / URL / HTML attr)
-  - lang / category / slug derivation from path
+  - category / slug derivation from path
+  - article eligibility (is_article_path — the tool's target contract)
 
 Plugins should never re-parse the file — they consume FileTarget.
 """
@@ -17,7 +18,24 @@ from typing import Any
 from .types import FileTarget
 
 
-# Path pattern: knowledge/{Category}/{slug}.md. This repo is English-only.
+# Target contract: the tool runs on knowledge/{Category}/{slug}.md only.
+
+
+def is_article_path(path: Path | str) -> bool:
+    """True iff `path` is an article this tool checks.
+
+    The contract is exactly: a `.md` file under a `knowledge/` tree whose
+    basename does not start with `_` (leading-underscore files are section
+    hubs, not standalone articles). Substring match on the normalized path so
+    both absolute and repo-relative paths are handled consistently. Eligibility
+    is enforced once at the CLI boundary; checks assume eligible input.
+    """
+    p = str(path).replace("\\", "/")
+    if not p.endswith(".md"):
+        return False
+    if "knowledge/" not in p:
+        return False
+    return not Path(p).name.startswith("_")
 
 # Protected region patterns
 _RE_FENCED_CODE = re.compile(r"```[\s\S]*?```", re.MULTILINE)
@@ -209,19 +227,16 @@ def _detect_protected_regions(body: str) -> list[tuple[int, int, str]]:
     return sorted(regions, key=lambda r: r[0])
 
 
-def _derive_meta_from_path(path: Path) -> tuple[str, str, str]:
-    """Returns (lang, category, slug) from a knowledge/{Category}/{slug}.md path.
-
-    This repo is English-only, so lang is always "en".
-    """
+def _derive_meta_from_path(path: Path) -> tuple[str, str]:
+    """Returns (category, slug) from a knowledge/{Category}/{slug}.md path."""
     parts = path.parts
     try:
         idx = parts.index("knowledge")
     except ValueError:
-        return ("en", "", path.stem)
+        return ("", path.stem)
     rest = parts[idx + 1 :]
     category = rest[0] if rest else ""
-    return ("en", category, path.stem)
+    return (category, path.stem)
 
 
 def load_target(path: Path | str) -> FileTarget:
@@ -250,7 +265,7 @@ def load_target(path: Path | str) -> FileTarget:
         frontmatter_span = text[:body_text_offset]
         pad_lines = frontmatter_span.count("\n")
         body = ("\n" * pad_lines) + m.group("body")
-    lang, category, slug = _derive_meta_from_path(p)
+    category, slug = _derive_meta_from_path(p)
     regions = _detect_protected_regions(body)
     return FileTarget(
         path=p,
@@ -260,7 +275,6 @@ def load_target(path: Path | str) -> FileTarget:
         body=body,
         body_text_offset=body_text_offset,
         body_pad_lines=pad_lines,
-        lang=lang,
         category=category,
         slug=slug,
         protected_regions=regions,

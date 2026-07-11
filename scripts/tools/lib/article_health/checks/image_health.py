@@ -21,7 +21,6 @@ configurable WARN/HARD for min-count gate via options.
 """
 
 from __future__ import annotations
-import os
 import re
 from pathlib import Path
 from typing import Any, Iterator
@@ -75,32 +74,6 @@ def _is_allowed_external(src: str) -> bool:
         "https://commons.wikimedia.org/",
     )
     return src.startswith(allowed_prefixes)
-
-
-def _is_excluded_from_count_gate(path_str: str) -> bool:
-    """Skip min-count gate for hub / translations / spores / meta files.
-
-    Mirrors word_count._is_excluded_path. Path patterns use substring match
-    so both absolute and repo-relative paths are handled.
-    """
-    p = path_str.replace("\\", "/")
-    if not p.endswith(".md"):
-        return True
-    # Hub pages — knowledge/{Category}/_X.md
-    if os.path.basename(p).startswith("_"):
-        return True
-    # Spore artifacts
-    if "SPORE-BLUEPRINTS/" in p or "SPORE-HARVESTS/" in p:
-        return True
-    # Memory / diary / reports / research
-    if "memory/" in p or "diary/" in p:
-        return True
-    if "reports/" in p:
-        return True
-    # Only apply to knowledge/ articles
-    if "knowledge/" not in p:
-        return True
-    return False
 
 
 def _parse_severity(value: Any, fallback: Severity) -> Severity:
@@ -222,68 +195,67 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
     # ── 4. Min image count gate (depth article media rhythm) ──────────────────
     # Per REWRITE-PIPELINE Step 4.3.1 — depth article ideal hero + 1-2 scene-mid
     # = 2-3 images. default min_images=3, soft-launch WARN, rewrite-stage-4 HARD.
-    if not _is_excluded_from_count_gate(str(target.path)):
-        min_images = int(options.get("min_images", DEFAULT_MIN_IMAGES))
-        # length-scaled media floor (v6.8): longer articles need more media.
-        # effective_min = max(base, round(CJK/cjk_per_media)). base min_images is the
-        # short-depth floor; length-scale pulls longer articles higher.
-        if options.get("length_scaled", DEFAULT_LENGTH_SCALED):
-            ref_m = _RE_REF_SECTION.search(body)
-            prose_body = body[: ref_m.start()] if ref_m else body
-            length_unit = len(_RE_WORD.findall(prose_body))
-            per = int(options.get("words_per_media", DEFAULT_WORDS_PER_MEDIA)) or DEFAULT_WORDS_PER_MEDIA
-            min_images = max(min_images, round(length_unit / per))
-        # 2026-06-04 directive: images+videos valued together. Threshold counts "media"
-        # (images+videos), not just images. But retains >=1 static image floor (OG card /
-        # poster needs a static image; videos can't derive one).
-        iframe_count = len(_RE_IFRAME.findall(body))
-        media_total = total_images + iframe_count
-        if media_total >= min_images and total_images == 0:
-            yield Violation(
-                check=CHECK_NAME,
-                severity=_parse_severity(
-                    options.get("min_images_severity"),
-                    Severity(DEFAULT_MIN_IMAGES_SEVERITY),
-                ),
-                message=(
-                    f"No static images: {iframe_count} videos but 0 images — "
-                    "add at least 1 hero image (OG card / poster needs a static image)"
-                ),
-                fix_suggestion="Add 1 hero image (frontmatter image:); videos still count toward media total.",
-                editorial_ref=EDITORIAL_REF,
+    min_images = int(options.get("min_images", DEFAULT_MIN_IMAGES))
+    # length-scaled media floor (v6.8): longer articles need more media.
+    # effective_min = max(min_images, round(words / words_per_media)). base
+    # min_images is the short-depth floor; length-scale pulls longer articles higher.
+    if options.get("length_scaled", DEFAULT_LENGTH_SCALED):
+        ref_m = _RE_REF_SECTION.search(body)
+        prose_body = body[: ref_m.start()] if ref_m else body
+        length_unit = len(_RE_WORD.findall(prose_body))
+        per = int(options.get("words_per_media", DEFAULT_WORDS_PER_MEDIA)) or DEFAULT_WORDS_PER_MEDIA
+        min_images = max(min_images, round(length_unit / per))
+    # 2026-06-04 directive: images+videos valued together. Threshold counts "media"
+    # (images+videos), not just images. But retains >=1 static image floor (OG card /
+    # poster needs a static image; videos can't derive one).
+    iframe_count = len(_RE_IFRAME.findall(body))
+    media_total = total_images + iframe_count
+    if media_total >= min_images and total_images == 0:
+        yield Violation(
+            check=CHECK_NAME,
+            severity=_parse_severity(
+                options.get("min_images_severity"),
+                Severity(DEFAULT_MIN_IMAGES_SEVERITY),
+            ),
+            message=(
+                f"No static images: {iframe_count} videos but 0 images — "
+                "add at least 1 hero image (OG card / poster needs a static image)"
+            ),
+            fix_suggestion="Add 1 hero image (frontmatter image:); videos still count toward media total.",
+            editorial_ref=EDITORIAL_REF,
+        )
+    elif media_total < min_images:
+        if media_total == 0:
+            sev = _parse_severity(
+                options.get("zero_images_severity"),
+                Severity(DEFAULT_ZERO_IMAGES_SEVERITY),
             )
-        elif media_total < min_images:
-            if media_total == 0:
-                sev = _parse_severity(
-                    options.get("zero_images_severity"),
-                    Severity(DEFAULT_ZERO_IMAGES_SEVERITY),
-                )
-                msg_detail = (
-                    f"0 media — depth article needs at least hero + scene-mid / video = "
-                    f"{min_images} (per REWRITE-PIPELINE Step 4.3.1)"
-                )
-            else:
-                sev = _parse_severity(
-                    options.get("min_images_severity"),
-                    Severity(DEFAULT_MIN_IMAGES_SEVERITY),
-                )
-                msg_detail = (
-                    f"Insufficient media: images {total_images} + videos {iframe_count} = {media_total} "
-                    f"< {min_images} minimum (depth article needs hero + 1-2 scene-mid / "
-                    f"video, per REWRITE-PIPELINE Step 4.3.1)"
-                )
-            yield Violation(
-                check=CHECK_NAME,
-                severity=sev,
-                message=msg_detail,
-                fix_suggestion=(
-                    "Follow REWRITE-PIPELINE Stage 1 Step 1.14 media research: "
-                    "(1) cache PD/CC images to public/article-images/{category}/ "
-                    "(2) pass check-aspect.sh hero 0.9-2.0 / inline 0.75-2.5 guardrails "
-                    "(3) Stage 4 Step 4.3 insert into article (hero + scene-mid rhythm) "
-                    "(4) ## Image Sources section with CC license + photographer. "
-                    "No PD/CC available → fair use editorial commentary scope "
-                    "(per Step 1.14.2)"
-                ),
-                editorial_ref=EDITORIAL_REF,
+            msg_detail = (
+                f"0 media — depth article needs at least hero + scene-mid / video = "
+                f"{min_images} (per REWRITE-PIPELINE Step 4.3.1)"
             )
+        else:
+            sev = _parse_severity(
+                options.get("min_images_severity"),
+                Severity(DEFAULT_MIN_IMAGES_SEVERITY),
+            )
+            msg_detail = (
+                f"Insufficient media: images {total_images} + videos {iframe_count} = {media_total} "
+                f"< {min_images} minimum (depth article needs hero + 1-2 scene-mid / "
+                f"video, per REWRITE-PIPELINE Step 4.3.1)"
+            )
+        yield Violation(
+            check=CHECK_NAME,
+            severity=sev,
+            message=msg_detail,
+            fix_suggestion=(
+                "Follow REWRITE-PIPELINE Stage 1 Step 1.14 media research: "
+                "(1) cache PD/CC images to public/article-images/{category}/ "
+                "(2) pass check-aspect.sh hero 0.9-2.0 / inline 0.75-2.5 guardrails "
+                "(3) Stage 4 Step 4.3 insert into article (hero + scene-mid rhythm) "
+                "(4) ## Image Sources section with CC license + photographer. "
+                "No PD/CC available → fair use editorial commentary scope "
+                "(per Step 1.14.2)"
+            ),
+            editorial_ref=EDITORIAL_REF,
+        )

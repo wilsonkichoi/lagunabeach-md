@@ -3,7 +3,9 @@
 Public API:
     from scripts.tools.lib.article_health import run_checks, FileTarget, Severity
 
-Design doc: reports/article-health-ssot-design-2026-05-04.md
+Target contract: the tool checks knowledge/{Category}/*.md articles only
+(loader.is_article_path); eligibility is enforced at the CLI boundary and
+checks assume eligible input.
 """
 
 from .types import (
@@ -13,7 +15,7 @@ from .types import (
     CheckResult,
     HealthReport,
 )
-from .loader import load_target
+from .loader import is_article_path, load_target
 from .registry import (
     discover_checks,
     get_check,
@@ -28,6 +30,7 @@ __all__ = [
     "Violation",
     "CheckResult",
     "HealthReport",
+    "is_article_path",
     "load_target",
     "discover_checks",
     "get_check",

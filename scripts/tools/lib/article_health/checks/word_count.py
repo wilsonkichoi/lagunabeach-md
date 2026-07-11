@@ -1,22 +1,17 @@
 """word_count — minimum English word-count gate for depth articles.
 
-Ported from the source corpus's CJK-char-count gate (depth ≥ 4500 CJK chars) for
-this project's English SSOT content. The CJK threshold doesn't translate
-1:1 — this project's editorial style is a short locals-guide format, not
-long-form journalism. Calibrated against this fork's actual corpus (18
-articles, 277-773 words) rather than copying the source corpus's number: 250 words
-sits just below the current floor so it catches genuine stubs without
-flagging the existing corpus.
+This project's editorial style is a short locals-guide format, not long-form
+journalism, so the threshold is calibrated against the actual corpus (18
+articles, 277-773 words): 250 words sits just below the current floor so it
+catches genuine stubs without flagging the existing corpus.
 
 Detected:
     Body text word count (whitespace-tokenized, excluding frontmatter /
     fenced code / inline code / image markdown / footnote definitions /
     footnote references / HTML tags).
 
-Skipped paths:
-    - Hub pages (knowledge/{Category}/_*.md)
-    - Spore artifacts (docs/factory/SPORE-BLUEPRINTS|HARVESTS/)
-    - Memory / diary / research reports
+Runs on knowledge/{Category}/*.md articles; non-articles are filtered at the
+CLI boundary (loader.is_article_path).
 
 Threshold:
     - default: 250 words
@@ -25,7 +20,6 @@ Threshold:
 """
 
 from __future__ import annotations
-import os
 import re
 from typing import Any, Iterator
 
@@ -65,33 +59,6 @@ def _count_words_in_body(body: str) -> int:
     return len(_RE_WORD.findall(text))
 
 
-def _is_excluded_path(path_str: str) -> bool:
-    """Skip hub pages / translations / spores / memory / diary / reports.
-
-    Path patterns use substring match (not anchored to leading /) so both
-    absolute paths and repo-relative paths (e.g. `knowledge/Technology/X.md`)
-    are handled consistently.
-    """
-    p = path_str.replace("\\", "/")
-    if not p.endswith(".md"):
-        return True
-    # Hub pages — knowledge/{Category}/_X.md
-    if os.path.basename(p).startswith("_"):
-        return True
-    # Spore artifacts
-    if "SPORE-BLUEPRINTS/" in p or "SPORE-HARVESTS/" in p:
-        return True
-    # Memory / diary / reports / research
-    if "memory/" in p or "diary/" in p:
-        return True
-    if "reports/" in p:
-        return True
-    # Only apply to English knowledge articles
-    if "knowledge/" not in p:
-        return True
-    return False
-
-
 def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
     """Detect short articles failing the depth threshold.
 
@@ -99,9 +66,6 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
     when the article passes the threshold). Below threshold yields a
     WARN/HARD violation per profile severity.
     """
-    if _is_excluded_path(str(target.path)):
-        return
-
     min_words = int((config or {}).get("min_words", DEFAULT_MIN_WORDS))
 
     # Use FileTarget.body if loader split frontmatter; fallback to manual split

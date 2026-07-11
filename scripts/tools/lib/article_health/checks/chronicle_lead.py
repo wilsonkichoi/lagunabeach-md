@@ -21,11 +21,8 @@ Allowed patterns (legitimate timeline / historical scope):
     ## Postwar Period                    <- named period (no specific year)
 
 Scope:
-    Articles under knowledge/{Category}/.
-    Skip:
-      - Hub pages (`_*.md`) — index pages legitimately use timeline structure
-      - Memory / diary — timeline templates legitimate
-      - reports/research/ — research notes legitimately use dates
+    Runs on knowledge/{Category}/*.md articles; non-articles are filtered at
+    the CLI boundary (loader.is_article_path).
 
 Canonical:
   - docs/editorial/EDITORIAL.md §subheadings
@@ -77,27 +74,6 @@ _RE_YEAR_RANGE = re.compile(r"^##\s+\d{4}\s*[—–\-]\s*\d{4}")
 _RE_DECADE = re.compile(r"^##\s+(?:The\s+)?\d{4}s\b", re.IGNORECASE)
 
 
-def _is_excluded_path(path: str) -> bool:
-    """Skip non-English articles, hubs, spores, and historical artifact paths.
-
-    Includes /tmp/ ad-hoc draft testing (any tmp file is treated as if it were
-    a knowledge/ article for testing purposes).
-    """
-    import os
-    p = str(path)
-    # Hub pages — knowledge/{Category}/_X.md hub pattern
-    if os.path.basename(p).startswith("_") and p.endswith(".md"):
-        return True
-    # Memory / diary (timeline templates legitimate)
-    if "/memory/" in p or "/diary/" in p:
-        return True
-    # Research reports (date prefixes + chronologies legit)
-    if "/reports/research/" in p:
-        return True
-    # Allowed: knowledge/{Category}/ articles + /tmp/ for ad-hoc testing
-    return False
-
-
 def _is_legitimate_chronicle(line: str) -> bool:
     """Return True if subheading is a legitimate timeline scope (skip HARD)."""
     return bool(
@@ -125,11 +101,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
     """Detect chronicle-style H2 subheadings (REWRITE Stage 2 #4 / #11).
 
     HARD violation: any subheading matching chronicle date patterns.
-    Skipped paths: translations / hubs / spores / memory / diary / research reports.
     """
-    if _is_excluded_path(str(target.path)):
-        return
-
     text = target.text
     if not text:
         return

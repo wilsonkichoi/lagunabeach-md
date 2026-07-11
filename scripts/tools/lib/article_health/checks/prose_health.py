@@ -28,10 +28,8 @@ of the corpus), not `[^n]:` footnotes or inline body URLs the way the source cor
 The URL-count and citation-desert dimensions therefore count `source:` frontmatter
 entries as citation evidence — without that they misfire on every LB article.
 
-Dropped from the original port (no LB analog):
-  - "this island" self-reference dim (source-specific euphemism balance)
-  - Europeanized "shi...de" judgment-sentence dim (Mandarin grammar tell)
-  - "zhong" weight-as-abstract-metaphor dim (CJK substring tell)
+This is the English structural + prose-tell scorer; language-specific prose
+dimensions that only applied to non-English source text are not part of it.
 
 Total score budget: ≤ 3 = pass. A "score" violation is yielded with the running
 total — the runner gates on it via profile.fail_on = "score-budget"
@@ -76,7 +74,7 @@ _RE_HOLLOW = re.compile(
 )
 
 # ── Em-dash overuse (EDITORIAL §6 "Em Dash Discipline") ───────────────────────
-# English em dash is the single U+2014 character (not the source corpus's CJK an em-dash).
+# English em dash is the single U+2014 character.
 # Normal punctuation, but AI prose reaches for it as a tic.
 _RE_EMDASH = re.compile(r"—")
 
@@ -261,12 +259,6 @@ def _count_footnote_defs(body: str) -> int:
         for line in body.splitlines()
         if re.match(r"^\[\^[0-9a-zA-Z_-]+\]:", line)
     )
-
-
-def _is_hub_file(target: FileTarget) -> bool:
-    """Hub files (`_X Hub.md`) — relax structural penalties."""
-    name = target.path.name
-    return name.startswith("_") and "Hub" in name
 
 
 def _bullet_ratios_split(body: str) -> tuple[int, int, int, int]:
@@ -519,10 +511,9 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
     # ── 8b. Em-dash overuse ──
     dash_matches = list(_RE_EMDASH.finditer(text_for_patterns))
     dash_n = len(dash_matches)
-    # Thresholds raised for LB: the em dash is normal English punctuation
-    # (unlike the source corpus's borrowed CJK an em-dash), so a handful across a whole
-    # article is fine. Only genuine overuse — the AI tic EDITORIAL §6 warns
-    # about — is penalized.
+    # Thresholds raised for LB: the em dash is normal English punctuation, so a
+    # handful across a whole article is fine. Only genuine overuse — the AI tic
+    # EDITORIAL §6 warns about — is penalized.
     if dash_n > 25:
         score += 3
         reasons.append(f"{dash_n} em dashes")
@@ -574,48 +565,33 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
     # back-half ratio purely because the body is small), so it only applies
     # once each half has enough lines to compare. Deferred for short-form per
     # EDITORIAL §8; bullet density (#1) still guards genuine bullet-skeletons.
-    is_hub = _is_hub_file(target)
     front_b, back_b, front_t, back_t = _bullet_ratios_split(body)
     if front_t >= 12 and back_t >= 12:
         front_ratio = front_b * 100 // front_t
         back_ratio = back_b * 100 // back_t
-        if is_hub:
-            if back_ratio > 60 and back_ratio > front_ratio * 3:
-                score += 1
-                reasons.append(f"back-half list dump {back_ratio}% (hub)")
-        else:
-            # Only the strong signal kept: back half both bullet-heavy (>40%)
-            # AND disproportionate to the front (>2x). The bare ">30%" tier was
-            # dropped — it fired on any article with a normal bulleted back
-            # section (e.g. a closing list of access points), not a real dump.
-            if back_ratio > 40 and back_ratio > front_ratio * 2:
-                score += 3
-                reasons.append(f"back-half list dump {back_ratio}%")
+        # Only the strong signal kept: back half both bullet-heavy (>40%)
+        # AND disproportionate to the front (>2x). The bare ">30%" tier was
+        # dropped — it fired on any article with a normal bulleted back
+        # section (e.g. a closing list of access points), not a real dump.
+        if back_ratio > 40 and back_ratio > front_ratio * 2:
+            score += 3
+            reasons.append(f"back-half list dump {back_ratio}%")
 
     # ── 13. THIN (H2 blocks with no content at all) ──
     thin = _count_thin_blocks(body)
-    if is_hub:
-        if thin >= 4:
-            score += 1
-            reasons.append(f"{thin} thin sections (hub)")
-    else:
-        if thin >= 2:
-            score += 2
-            reasons.append(f"{thin} thin sections")
-        elif thin >= 1:
-            score += 1
-            reasons.append(f"{thin} thin sections")
+    if thin >= 2:
+        score += 2
+        reasons.append(f"{thin} thin sections")
+    elif thin >= 1:
+        score += 1
+        reasons.append(f"{thin} thin sections")
 
     # ── 14. QUALITY-DECAY (front prose ratio >> back prose ratio) ──
     fp, bp, fa, ba = _prose_ratios_split(body)
     if fa > 0 and ba > 0:
         front_pr = fp * 100 // fa
         back_pr = bp * 100 // ba
-        if is_hub:
-            if back_pr < front_pr // 4:
-                score += 1
-                reasons.append(f"quality decay front {front_pr}% back {back_pr}% (hub)")
-        elif front_pr > 0:
+        if front_pr > 0:
             if back_pr < front_pr // 2:
                 score += 3
                 reasons.append(f"quality decay front {front_pr}% back {back_pr}%")

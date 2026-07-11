@@ -36,7 +36,7 @@ from ..types import FileTarget, Severity, Violation
 CHECK_NAME = "link-url-mangle"
 DIMENSION = "structure"
 DEFAULT_SEVERITY = Severity.HARD
-EDITORIAL_REF = "EDITORIAL media-weaving (no CJK-Commons-URL links in captions, links go in image-sources section) + REWRITE Step 4.3.6"
+EDITORIAL_REF = "EDITORIAL media-weaving (no percent-encoded Commons-URL links in captions, links go in image-sources section) + REWRITE Step 4.3.6"
 
 # HARD: a markdown image link whose destination contains a literal `*` (mangled).
 # `\S*\*\S*` lets the URL include balanced internal parens (houtong `(cropped*2022).jpg`).
@@ -91,13 +91,13 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             )
             continue
 
-        # WARN — at-risk: CJK Commons URL with trailing `_NN` inside an italic caption.
+        # WARN — at-risk: percent-encoded Commons URL with trailing `_NN` inside an italic caption.
         if _is_italic_caption(line) and _ATRISK_URL.search(line):
             yield Violation(
                 check=CHECK_NAME,
                 severity=Severity.WARN,
                 message=(
-                    "Italic caption contains percent-encoded CJK Commons URL with `_NN.jpg`, "
+                    "Italic caption contains percent-encoded Commons URL with `_NN.jpg`, "
                     "next prettier run will mangle to `*NN` (link 404). Move link out of caption now."
                 ),
                 line=line_no,

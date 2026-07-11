@@ -55,17 +55,6 @@ def _brand_prefix_patterns() -> list[str]:
     return pats
 
 
-def _is_excluded_path(path: str) -> bool:
-    """Hub pages skip; non-knowledge / translation files skip."""
-    if "/_" in path:
-        return True
-    if path.endswith("_index.md"):
-        return True
-    if "knowledge/" not in path:
-        return True
-    return False
-
-
 def _char_count(s: str) -> int:
     return len(s)
 
@@ -81,8 +70,6 @@ def _looks_like_brand_prefix(desc: str) -> str | None:
 
 def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
     """Detect SEO metadata length + template issues."""
-    if _is_excluded_path(str(target.path)):
-        return
     if target.category == "About":
         return
 

@@ -11,7 +11,6 @@ DEFAULT WARN (dual-use patterns + legacy soft-launch).
 """
 
 from __future__ import annotations
-import os
 import re
 from typing import Any, Iterator
 
@@ -43,23 +42,12 @@ _PATTERNS: list[tuple[re.Pattern[str], str]] = [
 ]
 
 
-def _is_excluded_path(path: str) -> bool:
-    p = str(path)
-    # Hub pages — knowledge/{Category}/_X.md index pages.
-    if os.path.basename(p).startswith("_") and p.endswith(".md"):
-        return True
-    return False
-
-
 def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
     """Detect errata-as-prose (correction anxiety) — REWRITE Stage 3.2-bis backstop.
 
     Scans body with protected regions (code / link-url / html) masked so URLs
     and code never false-match. Line numbers align with file (body is padded).
     """
-    if _is_excluded_path(str(target.path)):
-        return
-
     masked = target.body_without_protected()
     if not masked.strip():
         return

@@ -51,7 +51,6 @@ class FileTarget:
     body: str = ""
     body_text_offset: int = 0  # char offset in `text` where body starts
     body_pad_lines: int = 0  # how many blank lines were prepended to align line numbers
-    lang: str = "en"  # this repo is English-only
     category: str = ""  # About / History / Geography / ...
     slug: str = ""  # filename without .md
 
@@ -138,7 +137,6 @@ class HealthReport:
         """JSON-serializable representation."""
         return {
             "file": str(self.target.path),
-            "lang": self.target.lang,
             "category": self.target.category,
             "slug": self.target.slug,
             "summary": {

@@ -22,7 +22,8 @@ Boundaries:
     - No frontmatter `researchReport` -> QF1 skips (one INFO note), QF2 still runs.
     - Quote without a [^n] footnote (scare quote / slogan) -> not treated as
       a direct quote, QF1 skips it.
-    - Translation / hub / memory / diary / reports not scanned.
+    - Runs on knowledge/{Category}/*.md articles; non-articles are filtered at
+      the CLI boundary (loader.is_article_path).
 
 Canonical:
   - docs/editorial/EDITORIAL.md §citation fidelity
@@ -55,15 +56,6 @@ _MIN_SEGMENT_WORDS = 4
 _MAX_SUPERLATIVE_REPORTED = 12
 
 
-def _is_excluded_path(path: str) -> bool:
-    p = str(path)
-    if os.path.basename(p).startswith("_") and p.endswith(".md"):
-        return True
-    if "/memory/" in p or "/diary/" in p or "/reports/" in p:
-        return True
-    return False
-
-
 _TRAILING_PUNCT_RX = re.compile(r"[.,!?;:…\s]+$")
 
 
@@ -84,7 +76,7 @@ def _resolve_report_path(target: FileTarget) -> str | None:
         return None
     if os.path.exists(rr):
         return rr
-    # fallback: walk up from the article path to find the repo root (the dir containing reports/)
+    # fallback: walk up toward the repo root, trying the frontmatter-relative path at each level
     d = os.path.dirname(os.path.abspath(str(target.path)))
     for _ in range(6):
         cand = os.path.join(d, rr)
@@ -96,9 +88,6 @@ def _resolve_report_path(target: FileTarget) -> str | None:
 
 def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
     """QF1 verbatim quote fidelity (against researchReport SSOT) + QF2 superlative-claim list."""
-    if _is_excluded_path(str(target.path)):
-        return
-
     body = target.body_without_protected()
     if not body.strip():
         return

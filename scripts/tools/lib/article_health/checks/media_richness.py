@@ -10,9 +10,8 @@ Detected:
     - Frontmatter `image:` (1 hero)
     Total iframe + total images counted separately.
 
-Skipped paths:
-    Same as word_count / image_health: hub pages / translations / spores /
-    memory / diary / reports. Only applies to English knowledge articles.
+Runs on knowledge/{Category}/*.md articles; non-articles are filtered at the
+CLI boundary (loader.is_article_path).
 
 Threshold:
     - default: min_iframes=1 (INFO only), min_images=3 (WARN)
@@ -25,7 +24,6 @@ Canonical:
 """
 
 from __future__ import annotations
-import os
 import re
 from typing import Any, Iterator
 
@@ -57,28 +55,7 @@ _RE_CODE_BLOCK = re.compile(r"```.*?```", re.DOTALL)
 _RE_WORD = re.compile(r"[A-Za-z0-9'-]+")
 
 
-def _is_excluded_path(path_str: str) -> bool:
-    """Skip hub / translations / spores / memory / diary / reports."""
-    p = path_str.replace("\\", "/")
-    if not p.endswith(".md"):
-        return True
-    if os.path.basename(p).startswith("_"):
-        return True
-    if "SPORE-BLUEPRINTS/" in p or "SPORE-HARVESTS/" in p:
-        return True
-    if "memory/" in p or "diary/" in p:
-        return True
-    if "reports/" in p:
-        return True
-    if "knowledge/" not in p:
-        return True
-    return False
-
-
 def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
-    if _is_excluded_path(str(target.path)):
-        return
-
     options = config or {}
     min_iframes = int(options.get("min_iframes", DEFAULT_MIN_IFRAMES))
     min_images = int(options.get("min_images", DEFAULT_MIN_IMAGES))

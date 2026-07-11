@@ -34,11 +34,29 @@ from lib.article_health import (  # noqa: E402
     FileTarget,
     HealthReport,
     Severity,
+    is_article_path,
     load_config,
     load_target,
     list_checks,
     run_checks,
 )
+
+
+def _eligible_files(paths: list[Path]) -> list[Path]:
+    """Filter an explicit file list to article targets (loader.is_article_path).
+
+    `--staged` / `--all` already only emit eligible paths; this guards the
+    explicit `<files>` / `--fix <files>` code paths so checks never receive a
+    non-article (a path outside knowledge/{Category}/, a leading-underscore
+    hub, or a non-.md file). Each skipped path prints a one-line stderr notice.
+    """
+    out: list[Path] = []
+    for p in paths:
+        if is_article_path(p):
+            out.append(p)
+        else:
+            print(f"⏭️  {p}: not a knowledge/{{Category}}/*.md article — skipped", file=sys.stderr)
+    return out
 
 
 def _get_staged_md() -> list[Path]:
@@ -89,7 +107,7 @@ def _cmd_fix(args) -> int:
     elif args.all:
         files = _get_all_source()
     elif args.files:
-        files = [Path(f) for f in args.files]
+        files = _eligible_files([Path(f) for f in args.files])
     else:
         print("⚠️  --fix needs files / --staged / --all", file=sys.stderr)
         return 2
@@ -233,8 +251,7 @@ def _format_human(report: HealthReport, fail_on: str = "hard") -> str:
     lines = []
     lines.append(f"🧬 {report.target.path}")
     lines.append(
-        f"   lang={report.target.lang}  category={report.target.category}  "
-        f"slug={report.target.slug}"
+        f"   category={report.target.category}  slug={report.target.slug}"
     )
     if not report.results:
         lines.append("   (no checks ran — Phase 1 has empty registry)")
@@ -310,7 +327,7 @@ def main() -> int:
         "--output", choices=["human", "json"], default="human", help="Output format"
     )
     parser.add_argument("--staged", action="store_true", help="Use git staged files")
-    parser.add_argument("--all", action="store_true", help="Sweep all source-lang knowledge/*.md")
+    parser.add_argument("--all", action="store_true", help="Sweep all knowledge/{Category}/*.md articles")
     parser.add_argument("--list-checks", action="store_true", help="List registered plugins")
     parser.add_argument("--inventory", action="store_true", help="Auto-gen markdown inventory")
     parser.add_argument("--config", default=None, help="Path to config.toml")
@@ -357,7 +374,7 @@ def main() -> int:
     elif args.all:
         files = _get_all_source()
     elif args.files:
-        files = [Path(f) for f in args.files]
+        files = _eligible_files([Path(f) for f in args.files])
     else:
         parser.print_help()
         return 0

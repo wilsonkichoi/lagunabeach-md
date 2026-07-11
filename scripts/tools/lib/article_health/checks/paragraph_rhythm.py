@@ -1,13 +1,11 @@
 """paragraph_rhythm — paragraph breathing rhythm + media density band (floor + ceiling).
 
-Ported from the source corpus's CJK-char-count version to English word counts.
+Counts English words per paragraph / per section.
 
-IMPORTANT — uncalibrated thresholds: the source corpus's numbers (PARA_MEDIAN_WARN=55,
-MEDIA_DENSITY_FLOOR/WARN/HARD, etc.) were calibrated against a real corpus of
-known-good and known-bad long-form Chinese articles (3000-9000+ CJK chars).
-this project has no equivalent corpus — its longest article is ~773 words,
-well under this gate's 800-word activation floor, so none of this plugin's
-checks fire on the current corpus. The word-count thresholds below are
+IMPORTANT — uncalibrated thresholds: this project has no corpus of known-good
+and known-bad long-form articles to calibrate against — its longest article is
+~773 words, well under this gate's 800-word activation floor, so none of this
+plugin's checks fire on the current corpus. The word-count thresholds below are
 reasonable placeholders, not data-calibrated. Recalibrate once real depth
 articles (800+ words) exist and some turn out atomized / media-poor in
 practice.
@@ -22,17 +20,14 @@ Rules:
   - **R3-HARD media density > 1.5 / 1k words AND paragraph median < 40**:
     HARD — combined visual-reliance + atomization signal
 
-Skipped paths:
-  - Hub pages (knowledge/{Category}/_*.md)
-  - Spore artifacts (docs/factory/SPORE-*)
-  - Reports / memory / diary
+Runs on knowledge/{Category}/*.md articles; non-articles are filtered at the
+CLI boundary (loader.is_article_path).
 
 Canonical:
   - docs/editorial/EDITORIAL.md §paragraph rhythm + §media weaving
 """
 
 from __future__ import annotations
-import os
 import re
 from statistics import median
 from typing import Any, Iterator
@@ -75,35 +70,6 @@ _RE_FRONTMATTER = re.compile(r"^---\s*\n.*?\n---\s*\n", re.DOTALL)
 _RE_CODE_FENCE = re.compile(r"```.*?```", re.DOTALL)
 # Footnote def lines
 _RE_FOOTNOTE_DEF = re.compile(r"^\[\^[^\]]+\]:.*$", re.MULTILINE)
-
-
-def _is_applicable_path(path: str) -> bool:
-    """Only applies to English depth articles, not hub / translation / spore / reports.
-
-    Accepts both relative ("knowledge/...") and absolute
-    ("/path/to/knowledge/...") paths.
-    """
-    p = str(path)
-    if not p.endswith(".md"):
-        return False
-    base = os.path.basename(p)
-    if base.startswith("_"):
-        return False
-    # Only knowledge/ articles (relative or absolute)
-    if not re.search(r"(?:^|/)knowledge/", p):
-        return False
-    # Skip spore / reports / memory / diary
-    skip_substrings = (
-        "SPORE-",
-        "spore-blueprints/",
-        "SPORE-HARVESTS/",
-        "reports/",
-        "memory/",
-        "diary/",
-    )
-    if any(s in p for s in skip_substrings):
-        return False
-    return True
 
 
 def _strip_for_prose_analysis(text: str) -> str:
@@ -180,9 +146,6 @@ def _split_paragraphs(section_body: str) -> list[str]:
 
 def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
     """Detect atomization drift signals."""
-    if not _is_applicable_path(str(target.path)):
-        return
-
     text = target.text
     body = _strip_for_prose_analysis(text)
     total_words = _count_words(body)

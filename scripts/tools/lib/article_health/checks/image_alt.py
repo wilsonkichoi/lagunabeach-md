@@ -42,15 +42,6 @@ _RE_FILENAME_ALT = re.compile(
 )
 
 
-def _is_excluded_path(path: str) -> bool:
-    """Hub pages don't need alt quality gate."""
-    if "/_" in path or path.endswith("_index.md"):
-        return True
-    if "knowledge/" not in path:
-        return True
-    return False
-
-
 def _is_in_image_sources_section(body: str, image_pos: int) -> bool:
     """Skip alt check inside Image Sources section (alt there is descriptive caption)."""
     section_start = body.rfind("## Image Sources", 0, image_pos)
@@ -91,9 +82,6 @@ def _classify_alt(alt: str) -> str | None:
 
 def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
     """Detect inline image alt-text quality issues."""
-    if _is_excluded_path(str(target.path)):
-        return
-
     body = target.body or target.text
     if not body:
         return
