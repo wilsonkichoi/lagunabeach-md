@@ -67,6 +67,9 @@ const bodyClass = isHome ? 'page-home' : 'page-default';
 
 // GitHub blob base for the floating .md "view source" button.
 const ghBase = `${links.repo}/blob/main`;
+const slugToFolder: Record<string, string> = Object.fromEntries(
+  placeConfig.categories.map((c) => [c.slug, c.title]),
+);
 ---
 
 <!doctype html>
@@ -445,7 +448,7 @@ const ghBase = `${links.repo}/blob/main`;
          (and audit dark CSS in dark-polish.css before doing so). -->
     {readerSettings && <ReaderSettings lang={lang} />}
 
-    <script is:inline define:vars={{ ghBase }}>
+    <script is:inline define:vars={{ ghBase, slugToFolder }}>
       // Set .md button href based on current path. ghBase is injected from
       // place.config.links.repo (no hardcoded repo URL).
       const btn = document.getElementById('md-btn');
@@ -453,15 +456,23 @@ const ghBase = `${links.repo}/blob/main`;
 
       let target = '/README.md'; // Default fallback
 
-      // Handle special pages
+      // Handle special pages (non-content surfaces)
       if (pathname === '/' || pathname === '/index.html') {
         target = '/README.md';
       } else if (pathname.includes('/contribute')) {
         target = '/CONTRIBUTING.md';
       } else if (pathname.includes('/graph')) {
-        target = '/src/pages/graph.astro';
+        target = '/src/templates/graph.template.astro';
+      } else if (pathname.includes('/map')) {
+        target = '/src/templates/map.template.astro';
+      } else if (pathname.includes('/explore')) {
+        target = '/src/templates/explore.template.astro';
+      } else if (pathname.includes('/latest')) {
+        target = '/src/templates/latest.template.astro';
       } else if (pathname.includes('/about')) {
-        target = '/src/pages/about.astro';
+        target = '/src/templates/about.template.astro';
+      } else if (pathname.includes('/changelog')) {
+        target = '/src/templates/changelog.template.astro';
       } else {
         // Content pages (categories or articles). Source lives in knowledge/.
         const cleanPath = pathname
@@ -471,15 +482,14 @@ const ghBase = `${links.repo}/blob/main`;
         const parts = cleanPath.split('/');
 
         if (parts.length > 0 && parts[0]) {
-          const cat = parts[0];
-          // Capitalize first letter of category (history -> History)
-          const catFolder = cat.charAt(0).toUpperCase() + cat.slice(1);
+          const catSlug = parts[0];
+          const catFolder = slugToFolder[catSlug] || catSlug;
 
           if (parts.length === 1) {
-            // Category hub: knowledge/History/_History Hub.md
-            target = `/knowledge/${catFolder}/_${catFolder} Hub.md`;
+            // Category hub: point to the template (no _Hub.md files exist)
+            target = '/src/templates/category-hub.template.astro';
           } else {
-            // Article: knowledge/History/article-name.md
+            // Article: knowledge/Food/the-cliff-restaurant.md
             const slug = decodeURIComponent(parts.slice(1).join('/'));
             target = `/knowledge/${catFolder}/${slug}.md`;
           }
