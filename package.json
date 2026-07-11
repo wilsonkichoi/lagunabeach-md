@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "npm run prebuild && astro dev",
     "sync": "bash scripts/core/sync.sh",
-    "prebuild": "npm run prebuild:sync && run-p prebuild:kb-index prebuild:search prebuild:content-dates prebuild:git-info prebuild:related prebuild:changelog prebuild:map-markers && npm run prebuild:latest",
+    "prebuild": "npm run prebuild:sync && run-p prebuild:kb-index prebuild:search prebuild:content-dates prebuild:git-info prebuild:related prebuild:changelog prebuild:map-markers prebuild:dashboard && npm run prebuild:latest",
     "prebuild:changelog": "node scripts/core/generate-changelog-data.mjs",
     "prebuild:map-markers": "node scripts/core/build-map-markers.mjs",
     "prebuild:sync": "bash scripts/core/sync.sh",
@@ -33,6 +33,7 @@
     "article-health:test": "uv run pytest tests/article_health",
     "article-health:baseline": "uv run python scripts/tools/check-article-health-baseline.py",
     "article-health:json": "mkdir -p src/data && uv run python scripts/tools/article-health.py --all --output=json --profile=dashboard > src/data/article-health.json",
+    "prebuild:dashboard": "npm run article-health:json && node scripts/core/build-dashboard-lite.mjs",
     "test": "node scripts/core/test-frontmatter.mjs",
     "test:ci": "node scripts/core/test-frontmatter.mjs --ci",
     "prepare": "husky"

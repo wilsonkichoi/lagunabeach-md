@@ -57,7 +57,6 @@ const builtTopDirs = new Set(
 const PLANNED_ROUTES = new Set([
   'graph',
   'map',
-  'dashboard',
   'changelog',
   'about',
   'contribute',
