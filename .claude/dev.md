@@ -2,7 +2,7 @@
 tracker: linear
 linear_team: LB
 linear_project: "LB Rebuild"
-test_command: "npm run test:ci && npm run article-health -- --all && npm run build"
+test_command: "npm run test:ci && npm run article-health -- --all --profile=ci-deploy && npm run build"
 ci_workflow: deploy.yml        # GH Actions workflow: genericity + build on every PR, deploy on push to main (LB-2)
 merge_policy: squash
 review_action_installed: false # auto PR-review GitHub Action (claude-review.yml) is set up; flips true at task 11.3

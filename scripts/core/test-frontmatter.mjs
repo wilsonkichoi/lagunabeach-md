@@ -100,6 +100,7 @@ for (const cat of categories) {
     if (changedFiles && !changedFiles.has(relPath)) continue;
 
     totalFiles++;
+    const errorsBefore = errors.length;
 
     // 1. Read & parse YAML
     let fm;
@@ -155,7 +156,9 @@ for (const cat of categories) {
       warnings.push(`${label}: slug has uppercase characters`);
     }
 
-    passedFiles++;
+    if (errors.length === errorsBefore) {
+      passedFiles++;
+    }
   }
 }
 
