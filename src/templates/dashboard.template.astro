@@ -3,14 +3,17 @@ import Layout from '../layouts/Layout.astro';
 import '../styles/dashboard.css';
 import { useTranslations, getLangFromUrl } from '../i18n/utils';
 import placeConfig from '../../place.config';
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
 let dashData = null;
 try {
-  const raw = await import('../data/dashboard-lite.json');
-  dashData = raw.default || raw;
+  const jsonPath = resolve(process.cwd(), 'src/data/dashboard-lite.json');
+  const raw = readFileSync(jsonPath, 'utf8');
+  dashData = JSON.parse(raw);
 } catch {
   // Graceful degradation: JSON absent at build time
 }
@@ -20,10 +23,10 @@ const rollup = dashData?.rollup;
 const immune = dashData?.immune;
 const perArticle = dashData?.perArticle || [];
 
-const categorySlugs = new Set(placeConfig.categories.map((c) => c.slug));
+const categorySlugMap = new Map(placeConfig.categories.map((c) => [c.title, c.slug]));
 
-function slugifyCategory(cat: string): string {
-  return cat.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-');
+function categoryToSlug(cat: string): string | undefined {
+  return categorySlugMap.get(cat);
 }
 ---
 
@@ -115,10 +118,10 @@ function slugifyCategory(cat: string): string {
             {Object.entries(immune.components).map(([dim, val]) => {
               const weight = immune.weights[dim];
               const pct = typeof val === 'number' ? val : 0;
-              const status = pct >= 80 ? '🟢' : pct >= 50 ? '🟡' : '🔴';
+              const indicator = pct >= 80 ? '🟢' : pct >= 50 ? '🟡' : '🔴';
               return (
                 <div class="defense-line">
-                  <span class="defense-status">{status}</span>
+                  <span class="defense-status">{indicator}</span>
                   <strong>{dim.replace(/_/g, ' ')}</strong>
                   <span class="defense-desc">
                     {Math.round(pct)}% (weight: {Math.round(weight * 100)}%)
@@ -148,11 +151,10 @@ function slugifyCategory(cat: string): string {
               </thead>
               <tbody>
                 {perArticle.map((a) => {
-                  const catSlug = slugifyCategory(a.category);
-                  const hasRoute = categorySlugs.has(catSlug);
+                  const slug = categoryToSlug(a.category);
                   return (
                     <tr>
-                      <td>{hasRoute ? <a href={`/${catSlug}/${a.slug}`}>{a.slug}</a> : <span>{a.slug}</span>}</td>
+                      <td>{slug ? <a href={`/${slug}/${a.slug}`}>{a.slug}</a> : <span>{a.slug}</span>}</td>
                       <td>{a.category}</td>
                       <td>{a.hard}</td>
                       <td>{a.warn}</td>
@@ -167,7 +169,7 @@ function slugifyCategory(cat: string): string {
         </section>
       </>
     ) : (
-      <section class="section">
+      <section class="section" data-degraded>
         <p class="section-subtitle">
           Dashboard data is not available. Run <code>npm run prebuild:dashboard</code> to generate it.
         </p>
@@ -176,8 +178,40 @@ function slugifyCategory(cat: string): string {
 
     <footer class="dashboard-footer">
       {available && dashData.generated && (
-        <p>Last generated: {new Date(dashData.generated).toLocaleString()}</p>
+        <p>Generated: {dashData.generated.slice(0, 10)}</p>
       )}
     </footer>
   </main>
 </Layout>
+
+<style>
+  .immune-overview {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+  }
+  .immune-score-display {
+    text-align: center;
+    padding: 1.5rem 2.5rem;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+  }
+  .immune-score-value {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #1a1a2e;
+    line-height: 1.1;
+  }
+  .immune-score-label {
+    font-size: 0.9rem;
+    color: #64748b;
+    margin-top: 0.3rem;
+    font-weight: 500;
+  }
+  .defense-status {
+    flex-shrink: 0;
+    font-size: 1rem;
+  }
+</style>
