@@ -3,13 +3,9 @@
 # Design proposal: reports/article-health-ssot-design-2026-05-04.md
 # Canonical writing-quality rules: docs/editorial/EDITORIAL.md
 #
-# Phases 1-7 shipped 2026-05-04. Initial 13 plugins; 19 plugins as of 2026-05-23:
-#   cjk-punct / cross-reference / footnote-density / footnote-format /
-#   footnote-url / format-structure / frontmatter-format /
-#   frontmatter-title / image-health / link-target / prose-health /
-#   terminology / wikilink-target / chronicle-lead / word-count /
-#   spore-writing / image-alt (NEW 2026-05-16) / seo-meta (NEW 2026-05-16) /
-#   rationale-presence (NEW 2026-05-23, per issue #851 No2+No3 Build 3)
+# Checks are auto-discovered from lib/article_health/checks/ (run
+# `article-health --list-checks` for the live list). This repo is English-only;
+# the fork's CJK-specific checks are not carried.
 #
 # rationale-presence: checks the frontmatter rationale block has 4 required keys
 # (why_this_hook / whats_excluded / where_it_hedges / whos_pushing_back) + 1
@@ -110,18 +106,16 @@ fail_on = "hard"
 # nudge. NOTE: these numeric thresholds were calibrated on a long-form corpus and
 # are uncalibrated for short-form content (see EDITORIAL §8).
 # Legacy heal path: the sub-list below accumulates audit findings into batched heal commits.
-checks = ["frontmatter-format", "format-structure", "wikilink-target", "link-target", "cjk-punct", "chronicle-lead", "word-count", "image-health", "paragraph-rhythm", "media-richness", "viz-health"]
+checks = ["frontmatter-format", "format-structure", "wikilink-target", "link-target", "chronicle-lead", "word-count", "image-health", "paragraph-rhythm", "media-richness", "viz-health"]
 fail_on = "hard"
 
 [profiles."rewrite-stage-4".severity_overrides]
 frontmatter-format = "hard"
 chronicle-lead = "hard"
 word-count = "hard"
-# viz-health promoted to HARD (2026-06-06 directive): a new article containing
-# data charts must cite the source and must not use "as shown above/below"
-# AI-blind pointer phrases. HARD for rewrite-stage-4 (new-article self-check);
-# pre-commit / legacy stay at default WARN. (NOTE: viz-health's source-label +
-# AI-blind regexes are still zh-TW-only; the English port is pending — ROADMAP §3.4.)
+# viz-health promoted to HARD: a new article containing data charts must cite the
+# source and must not use "as shown above/below" AI-blind pointer phrases. HARD for
+# rewrite-stage-4 (new-article self-check); pre-commit / legacy stay at default WARN.
 viz-health = "hard"
 # paragraph-rhythm: soft launch - stays at default WARN. Will upgrade to HARD
 # via severity_override here after vc≥3 cases collected from production
@@ -140,15 +134,12 @@ viz-health = "hard"
 min_words = 250
 
 [profiles."rewrite-stage-4".options_overrides.image-health]
-# 2026-06-07 directive (REWRITE v6.8, raise the media-completeness floor):
-# length_scaled — effective_min = max(3, round(prose-CJK / 1200)) →
-# 4500→4 / 7000→6 / 9000→8; base 3 is the short-depth floor. Rich-media
-# exemplars pass (5/6/13 images), text-only fails. prose-CJK excludes the
-# references/footnote section. Deep-scan protocol: see Step 1.9.0.
+# Raise the media-completeness floor: length_scaled →
+# effective_min = max(min_images, round(prose-words / words_per_media)); base 3 is
+# the short-depth floor. Rich-media exemplars pass, text-only fails. Prose-word
+# count excludes the references/footnote section.
 min_images = 3
 length_scaled = true
-cjk_per_media = 1200
-# English word-based equivalent of the CJK-char threshold (target.lang == "en")
 words_per_media = 400
 min_images_severity = "hard"
 zero_images_severity = "hard"
@@ -162,8 +153,6 @@ fail_on = "hard"
 [profiles."rewrite-stage-4-5".options_overrides.image-health]
 min_images = 3
 length_scaled = true
-cjk_per_media = 1200
-# English word-based equivalent of the CJK-char threshold (target.lang == "en")
 words_per_media = 400
 min_images_severity = "hard"
 zero_images_severity = "hard"

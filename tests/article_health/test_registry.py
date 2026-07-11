@@ -4,12 +4,11 @@ from lib.article_health import registry, list_checks
 
 
 def test_discover_finds_real_plugins():
-    """Registry auto-discovers plugins under checks/. Phase 2+ ships
-    cjk-punct as the first migrated plugin."""
+    """Registry auto-discovers plugins under checks/."""
     registry.reset_registry()
     items = list_checks()
     names = [it["name"] for it in items]
-    assert "cjk-punct" in names, f"expected cjk-punct in registry, got {names}"
+    assert "prose-health" in names, f"expected prose-health in registry, got {names}"
 
 
 def test_validate_module_missing_attrs():
@@ -25,9 +24,9 @@ def test_validate_module_missing_attrs():
 
 def test_get_check_returns_module():
     registry.reset_registry()
-    mod = registry.get_check("cjk-punct")
+    mod = registry.get_check("prose-health")
     assert mod is not None
-    assert mod.CHECK_NAME == "cjk-punct"
+    assert mod.CHECK_NAME == "prose-health"
 
 
 def test_get_check_unknown_returns_none():

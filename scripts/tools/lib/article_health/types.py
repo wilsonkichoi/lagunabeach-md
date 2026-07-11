@@ -78,7 +78,7 @@ class FileTarget:
 class Violation:
     """Single violation instance."""
 
-    check: str  # check name (e.g. "cjk-punct")
+    check: str  # check name (e.g. "footnote-format")
     severity: Severity
     message: str
     line: int | None = None  # 1-indexed

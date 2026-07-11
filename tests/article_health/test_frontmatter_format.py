@@ -136,7 +136,7 @@ def test_no_frontmatter_is_hard(tmp_path):
 
 
 def test_out_of_scope_lang_skipped_at_runner_level(tmp_path):
-    # frontmatter-format APPLIES_TO en + zh-TW; a lang outside that set is skipped.
+    # frontmatter-format APPLIES_TO=["en"]; a lang outside that set is skipped.
     f = tmp_path / "knowledge" / "ja" / "Society" / "test.md"
     f.parent.mkdir(parents=True, exist_ok=True)
     f.write_text(f"---\n{GOOD_FRONTMATTER}---\n\nbody.\n", encoding="utf-8")

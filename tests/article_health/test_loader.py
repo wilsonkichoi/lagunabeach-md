@@ -156,10 +156,9 @@ def test_body_without_protected_blanks_regions(tmp_path):
 
 
 def test_body_line_numbers_match_original_file(tmp_path):
-    """Regression: 2026-05-04 audit found cjk-punct/wikilink/etc reported
-    line numbers off-by-(frontmatter line count). Fix: loader pads body
-    with blank lines equal to frontmatter span, so any line N in body
-    corresponds to line N in the original file.
+    """Regression: checks reported line numbers off-by-(frontmatter line count).
+    Fix: loader pads body with blank lines equal to frontmatter span, so any
+    line N in body corresponds to line N in the original file.
     """
     content = textwrap.dedent(
         """\
@@ -173,7 +172,7 @@ def test_body_line_numbers_match_original_file(tmp_path):
 
         First content line — this is line 9 in the file.
 
-        Half-width parens in CJK: (錯誤) 應為 （錯誤）.
+        A second content line for offset checking.
         """
     )
     f = _write_tmp(tmp_path, content)
@@ -181,5 +180,5 @@ def test_body_line_numbers_match_original_file(tmp_path):
     # body must have leading blank lines so body's line 9 matches file's line 9
     body_lines = target.body.split("\n")
     assert body_lines[8] == "First content line — this is line 9 in the file."
-    # The half-width paren line must also align: file line 11
-    assert "(錯誤)" in body_lines[10]
+    # The following line must also align: file line 11
+    assert body_lines[10] == "A second content line for offset checking."

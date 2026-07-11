@@ -50,7 +50,7 @@ CHECK_NAME = "prose-health"
 DIMENSION = "prose-quality"
 DEFAULT_SEVERITY = Severity.WARN
 EDITORIAL_REF = "EDITORIAL.md §6 + MANIFESTO.md Belief #11"
-APPLIES_TO = ["en", "zh-TW"]
+APPLIES_TO = ["en"]
 
 
 # ── Travel-brochure plastic phrases (EDITORIAL §6 "Travel-Brochure Tells") ────

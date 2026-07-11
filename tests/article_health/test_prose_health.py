@@ -478,8 +478,7 @@ def test_plugin_metadata():
     assert prose_health.CHECK_NAME == "prose-health"
     assert prose_health.DEFAULT_SEVERITY == Severity.WARN
     assert "MANIFESTO" in prose_health.EDITORIAL_REF
-    assert "en" in prose_health.APPLIES_TO
-    assert "zh-TW" in prose_health.APPLIES_TO
+    assert prose_health.APPLIES_TO == ["en"]
     assert callable(prose_health.check)
 
 
