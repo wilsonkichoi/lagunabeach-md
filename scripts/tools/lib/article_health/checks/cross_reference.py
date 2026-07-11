@@ -23,12 +23,10 @@ CHECK_NAME = "cross-reference"
 DIMENSION = "structure"
 DEFAULT_SEVERITY = Severity.INFO  # informational — not block-grade
 EDITORIAL_REF = "EDITORIAL.md §wikilink"
-APPLIES_TO = ["en"]
 
 _RE_WIKILINK = re.compile(r"\[\[([^\]|\n]+?)(?:\|[^\]\n]+)?\]\]")
 _RE_MD_LINK_INTERNAL = re.compile(r"\]\(/([a-z]+)/([^)\n]+?)\)")
 
-_LANG_DIRS_SKIP = {"zh-TW", "ja", "ko", "es", "fr"}
 _KNOWLEDGE_ROOT = Path("knowledge")
 
 
@@ -47,7 +45,7 @@ def _build_inverse_index() -> dict[str, set[str]]:
         return inverse
 
     for entry in _KNOWLEDGE_ROOT.iterdir():
-        if not entry.is_dir() or entry.name in _LANG_DIRS_SKIP:
+        if not entry.is_dir():
             continue
         for md in entry.glob("*.md"):
             if md.name.startswith("_"):

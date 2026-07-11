@@ -40,7 +40,6 @@ CHECK_NAME = "rationale-presence"
 DIMENSION = "rationale"
 DEFAULT_SEVERITY = Severity.WARN
 EDITORIAL_REF = "docs/editorial/RATIONALE-SPEC.md + REWRITE-PIPELINE.md Step 1.4.5"
-APPLIES_TO = ["en"]
 
 
 REQUIRED_KEYS = [

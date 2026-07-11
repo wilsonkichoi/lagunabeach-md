@@ -36,7 +36,6 @@ CHECK_NAME = "media-richness"
 DIMENSION = "media-quality"
 DEFAULT_SEVERITY = Severity.WARN
 EDITORIAL_REF = "EDITORIAL.md §media weaving baseline"
-APPLIES_TO = ["en"]
 
 DEFAULT_MIN_IFRAMES = 1
 DEFAULT_MIN_IMAGES = 3
@@ -62,8 +61,6 @@ def _is_excluded_path(path_str: str) -> bool:
     """Skip hub / translations / spores / memory / diary / reports."""
     p = path_str.replace("\\", "/")
     if not p.endswith(".md"):
-        return True
-    if "knowledge/zh-TW/" in p:
         return True
     if os.path.basename(p).startswith("_"):
         return True

@@ -2,22 +2,17 @@
 
 Two-phase validation of internal markdown links `[text](/path/)`:
 
-  Phase 1 — CASING: `/en/History/...` is broken because Astro routes lowercase
-            the category segment (CATEGORY_MAPPING in `[category]/[slug].astro`
-            uses lowercase keys). Auto-fixable.
+  Phase 1 — CASING: `/History/...` is broken because Astro routes lowercase the
+            category segment (CATEGORY_MAPPING in `[category]/[slug].astro` uses
+            lowercase keys). Auto-fixable.
 
-  Phase 2 — EXISTENCE: `/en/history/non-existent-slug/` is broken even with
-            correct casing. Cross-checks against the actual filesystem
-            (`knowledge/{lang}/{Category}/{slug}.md`). Not auto-fixable
-            (which slug did the author mean? human must decide).
+  Phase 2 — EXISTENCE: `/history/non-existent-slug/` is broken even with correct
+            casing. Cross-checks against the actual filesystem
+            (`knowledge/{Category}/{slug}.md`). Not auto-fixable (which slug did
+            the author mean? human must decide).
 
-Source-layer counterpart of `verify-internal-links.sh` (post-build dist scan).
-Catching at source means pre-commit / pre-PR gates fire instead of waiting
-for the full build.
-
-Trigger: a CI run failed with hundreds of broken `](/lang/UpperCase/...)` links
-(Phase 1); Phase 2 (existence) was added so cross-references that resolve to a
-real page are verified at the source layer, not only after the build.
+Source-layer counterpart of the post-build dist link scan. Catching at source
+means pre-commit / pre-PR gates fire instead of waiting for the full build.
 """
 
 from __future__ import annotations
@@ -31,21 +26,17 @@ from ..types import FileTarget, Severity, Violation
 CHECK_NAME = "link-target"
 DIMENSION = "structure"
 # Phase 1 (casing) is HARD inside check(); Phase 2 (existence) is WARN by
-# default so pre-commit doesn't block parallel cron / agent work that touches
-# articles with long-accumulated broken slugs. release-pr profile sets
-# fail_on="warn" so CI still catches existence issues.
+# default so pre-commit doesn't block parallel work that touches articles with
+# long-accumulated broken slugs. release-pr profile sets fail_on="warn" so CI
+# still catches existence issues.
 DEFAULT_SEVERITY = Severity.HARD
-EDITORIAL_REF = "src/pages/{lang}/[category]/[slug].astro CATEGORY_MAPPING (lowercase routing) + knowledge/{lang}/{Category}/*.md (existence)"
-APPLIES_TO = ["*"]
+EDITORIAL_REF = "[category]/[slug].astro CATEGORY_MAPPING (lowercase routing) + knowledge/{Category}/*.md (existence)"
 
-_LANGS = {"en", "ja", "ko", "fr", "es", "zh-TW"}
-_TRANSLATION_LANGS = {"en", "ja", "ko", "fr", "es"}
 _KNOWLEDGE_ROOT = Path("knowledge")
+_NON_ARTICLE_ROOTS = {"api", "og-images", "assets", "_astro"}
 
 # Phase 1: capitalized category in link path.
-_RE_CASING = re.compile(
-    rf"(\]\(/(?:{'|'.join(sorted(_LANGS))})/)([A-Z][a-zA-Z-]*)(/[^)]*\))"
-)
+_RE_CASING = re.compile(r"(\]\(/)([A-Z][a-zA-Z-]*)(/[^)]*\))")
 
 # Phase 2: any internal absolute link, for existence check.
 # Captures the path part (without anchor/query) for lookup.
@@ -53,12 +44,8 @@ _RE_INTERNAL = re.compile(r"\]\((/[^)\s#?]+)(?:[#?][^)]*)?\)")
 
 
 def _existing_link_targets() -> set[str]:
-    """Set of valid internal link paths (no trailing slash, no anchor).
-
-    Format:
-      `/{lang}/{category-lower}/{slug}` for translations
-      `/{category-lower}/{slug}`        for zh-TW (default routing)
-      `/zh-TW/{category-lower}/{slug}`  for explicit zh-TW prefix
+    """Set of valid internal link paths `/{category-lower}/{slug}` (no trailing
+    slash, no anchor).
 
     Cached per-process — call `_reset_cache()` in tests when filesystem changes.
     """
@@ -70,24 +57,11 @@ def _existing_link_targets() -> set[str]:
         for entry in _KNOWLEDGE_ROOT.iterdir():
             if not entry.is_dir() or entry.name.startswith("_"):
                 continue
-            if entry.name in _TRANSLATION_LANGS:
-                lang = entry.name
-                for cat_dir in entry.iterdir():
-                    if not cat_dir.is_dir() or cat_dir.name.startswith("_"):
-                        continue
-                    cat_lower = cat_dir.name.lower()
-                    for md in cat_dir.glob("*.md"):
-                        if md.name.startswith("_"):
-                            continue
-                        paths.add(f"/{lang}/{cat_lower}/{md.stem}")
-            else:
-                # zh-TW category dir at root.
-                cat_lower = entry.name.lower()
-                for md in entry.glob("*.md"):
-                    if md.name.startswith("_"):
-                        continue
-                    paths.add(f"/{cat_lower}/{md.stem}")
-                    paths.add(f"/zh-TW/{cat_lower}/{md.stem}")
+            cat_lower = entry.name.lower()
+            for md in entry.glob("*.md"):
+                if md.name.startswith("_"):
+                    continue
+                paths.add(f"/{cat_lower}/{md.stem}")
     _existing_link_targets._cache = paths  # type: ignore[attr-defined]
     return paths
 
@@ -114,19 +88,13 @@ def _snippet(body: str, pos: int, end: int) -> str:
 
 
 def _looks_like_article_path(path: str) -> bool:
-    """Path matches `/lang/cat/slug` or `/cat/slug` shape — worth resolving.
+    """Path matches the `/cat/slug` shape — worth resolving.
 
-    Skips `/about/`, `/dashboard/`, `/contribute/`, etc. (static pages handled
-    by other gates) and weird shapes like `/api/...`.
+    Skips `/about/`, `/dashboard/`, `/contribute/`, etc. (static pages handled by
+    other gates) and weird shapes like `/api/...`.
     """
     parts = path.strip("/").split("/")
-    if len(parts) == 3 and parts[0] in _LANGS:
-        return True
-    if len(parts) == 2 and parts[0] not in _LANGS and parts[0] not in {
-        "api", "og-images", "assets", "_astro",
-    }:
-        return True
-    return False
+    return len(parts) == 2 and parts[0] not in _NON_ARTICLE_ROOTS
 
 
 def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
@@ -160,12 +128,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
         # Canonicalize: lowercase the category segment for lookup
         # (after Phase 1 fix all categories will be lowercase, but be defensive).
         parts = path.strip("/").split("/")
-        if parts[0] in _LANGS:
-            # /lang/cat/slug
-            parts[1] = parts[1].lower()
-        else:
-            # /cat/slug
-            parts[0] = parts[0].lower()
+        parts[0] = parts[0].lower()
         canonical = "/" + "/".join(parts)
         if canonical in valid:
             continue
@@ -185,11 +148,9 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
 def fix(target: FileTarget, config: dict[str, Any]) -> bool:
     """Phase 1 only: lowercase the category segment of every matching link.
 
-    Operates on `target.text` directly (full file). Safe because the regex
-    only matches markdown link syntax `](/lang/Cap/...)` which won't appear
-    inside YAML frontmatter as a real link target. Avoids the body-vs-text
-    splice trap (loader pads body with leading newlines for line-number
-    alignment, which breaks naive `text.rfind(body)`).
+    Operates on `target.text` directly (full file). Safe because the regex only
+    matches markdown link syntax `](/Cap/...)` which won't appear inside YAML
+    frontmatter as a real link target.
 
     Phase 2 (existence) is NOT auto-fixed — the slug ambiguity needs a human.
 

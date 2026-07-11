@@ -27,7 +27,6 @@ CHECK_NAME = "image-alt"
 DIMENSION = "media-quality"
 DEFAULT_SEVERITY = Severity.WARN
 EDITORIAL_REF = "EDITORIAL.md §5 SEO Metadata + REWRITE-PIPELINE §Stage 4.3"
-APPLIES_TO = ["en"]
 
 _RE_IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)\n]+)\)")
 

@@ -5,7 +5,6 @@ Each check plugin is a `.py` file under `lib/article_health/checks/` exposing:
   - DIMENSION (str)
   - DEFAULT_SEVERITY (Severity)
   - EDITORIAL_REF (str)
-  - APPLIES_TO (list[str], default ['*'] for all langs)
   - check(target: FileTarget, config: dict) -> Iterator[Violation]
   - fix(target: FileTarget, config: dict) -> bool   [optional]
 
@@ -121,7 +120,6 @@ def list_checks() -> list[dict[str, Any]]:
             "dimension": mod.DIMENSION,
             "default_severity": mod.DEFAULT_SEVERITY.value,
             "editorial_ref": mod.EDITORIAL_REF,
-            "applies_to": getattr(mod, "APPLIES_TO", ["*"]),
             "fix_supported": hasattr(mod, "fix") and callable(mod.fix),
         }
         for mod in _REGISTRY.values()

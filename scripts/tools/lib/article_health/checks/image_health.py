@@ -33,7 +33,6 @@ CHECK_NAME = "image-health"
 DIMENSION = "media"
 DEFAULT_SEVERITY = Severity.HARD
 EDITORIAL_REF = "REWRITE-PIPELINE Stage 1 Step 1.14 + Stage 4 Step 4.3 / REFLEXES #30"
-APPLIES_TO = ["*"]
 
 # Defaults — overridable via profile options
 DEFAULT_MIN_IMAGES = 3
@@ -87,10 +86,6 @@ def _is_excluded_from_count_gate(path_str: str) -> bool:
     p = path_str.replace("\\", "/")
     if not p.endswith(".md"):
         return True
-    # Translation files (knowledge/en|ja|ko|es|fr/...)
-    for lang in ("en", "ja", "ko", "es", "fr"):
-        if f"knowledge/{lang}/" in p:
-            return True
     # Hub pages — knowledge/{Category}/_X.md
     if os.path.basename(p).startswith("_"):
         return True
@@ -102,7 +97,7 @@ def _is_excluded_from_count_gate(path_str: str) -> bool:
         return True
     if "reports/" in p:
         return True
-    # Only apply to zh-TW knowledge articles
+    # Only apply to knowledge/ articles
     if "knowledge/" not in p:
         return True
     return False

@@ -24,7 +24,6 @@ Rules:
 
 Skipped paths:
   - Hub pages (knowledge/{Category}/_*.md)
-  - Translation files (knowledge/zh-TW/)
   - Spore artifacts (docs/factory/SPORE-*)
   - Reports / memory / diary
 
@@ -45,7 +44,6 @@ CHECK_NAME = "paragraph-rhythm"
 DIMENSION = "depth"
 DEFAULT_SEVERITY = Severity.WARN
 EDITORIAL_REF = "EDITORIAL.md §paragraph rhythm + §media weaving"
-APPLIES_TO = ["en"]
 
 # Thresholds — see module docstring: placeholders pending a real corpus.
 PARA_MEDIAN_WARN = 40  # words — below this = atomization signal
@@ -90,9 +88,6 @@ def _is_applicable_path(path: str) -> bool:
         return False
     base = os.path.basename(p)
     if base.startswith("_"):
-        return False
-    # Translation files (under knowledge/zh-TW/)
-    if re.search(r"(?:^|/)knowledge/zh-TW/", p):
         return False
     # Only knowledge/ articles (relative or absolute)
     if not re.search(r"(?:^|/)knowledge/", p):

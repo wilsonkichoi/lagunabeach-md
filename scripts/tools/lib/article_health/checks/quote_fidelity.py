@@ -41,7 +41,6 @@ CHECK_NAME = "quote-fidelity"
 DIMENSION = "factcheck"
 DEFAULT_SEVERITY = Severity.WARN
 EDITORIAL_REF = "EDITORIAL.md §citation fidelity"
-APPLIES_TO = ["en"]
 
 # Direct quote: ".." with >= 12 words, [^n] footnote within 12 chars after the close quote.
 _QUOTE_RX = re.compile(r'"([^"]{12,})"(?P<tail>[^"]{0,12}?)\[\^\d+\]')
@@ -58,8 +57,6 @@ _MAX_SUPERLATIVE_REPORTED = 12
 
 def _is_excluded_path(path: str) -> bool:
     p = str(path)
-    if "/knowledge/zh-TW/" in p:
-        return True
     if os.path.basename(p).startswith("_") and p.endswith(".md"):
         return True
     if "/memory/" in p or "/diary/" in p or "/reports/" in p:

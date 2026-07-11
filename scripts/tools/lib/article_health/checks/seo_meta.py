@@ -20,7 +20,6 @@ Severity: WARN — soft launch.
 Skip:
   - Hub pages (knowledge/{Category}/_*.md)
   - About category — meta/site pages, not knowledge articles
-  - Translation files (knowledge/zh-TW/) — sync layer handles those
 
 Canonical:
   - EDITORIAL.md §SEO metadata
@@ -38,7 +37,6 @@ CHECK_NAME = "seo-meta"
 DIMENSION = "seo"
 DEFAULT_SEVERITY = Severity.WARN
 EDITORIAL_REF = "EDITORIAL.md §SEO metadata (title <=60 chars, description 50-160 chars)"
-APPLIES_TO = ["en"]
 
 # Thresholds — measured in char count, standard English SEO conventions.
 TITLE_MIN_CHARS = 10
@@ -64,8 +62,6 @@ def _is_excluded_path(path: str) -> bool:
     if path.endswith("_index.md"):
         return True
     if "knowledge/" not in path:
-        return True
-    if "knowledge/zh-TW/" in path:
         return True
     return False
 

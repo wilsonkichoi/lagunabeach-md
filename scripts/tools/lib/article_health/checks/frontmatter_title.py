@@ -19,7 +19,6 @@ CHECK_NAME = "frontmatter-title"
 DIMENSION = "frontmatter"
 DEFAULT_SEVERITY = Severity.WARN  # most checks are warn; HARD ones override per-violation
 EDITORIAL_REF = "EDITORIAL.md §5 SEO Metadata"
-APPLIES_TO = ["en"]
 
 # Vague / puffery adjectives (EDITORIAL §6 Voice — conservative subset)
 TITLE_VAGUE_ADJECTIVES_EN: list[str] = [

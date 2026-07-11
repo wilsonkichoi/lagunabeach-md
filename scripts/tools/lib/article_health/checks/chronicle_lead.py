@@ -20,11 +20,10 @@ Allowed patterns (legitimate timeline / historical scope):
     ## The 1990s                         <- decade reference
     ## Postwar Period                    <- named period (no specific year)
 
-APPLIES_TO design:
-    English articles under knowledge/{Category}/.
+Scope:
+    Articles under knowledge/{Category}/.
     Skip:
       - Hub pages (`_*.md`) — index pages legitimately use timeline structure
-      - Translation files (knowledge/{lang}/)
       - Memory / diary — timeline templates legitimate
       - reports/research/ — research notes legitimately use dates
 
@@ -43,7 +42,6 @@ CHECK_NAME = "chronicle-lead"
 DIMENSION = "subheading"
 DEFAULT_SEVERITY = Severity.WARN
 EDITORIAL_REF = "EDITORIAL.md §subheadings (no chronicle-style H2)"
-APPLIES_TO = ["en"]
 
 
 _MONTHS = (
@@ -87,9 +85,6 @@ def _is_excluded_path(path: str) -> bool:
     """
     import os
     p = str(path)
-    # Translation files
-    if "/knowledge/zh-TW/" in p:
-        return True
     # Hub pages — knowledge/{Category}/_X.md hub pattern
     if os.path.basename(p).startswith("_") and p.endswith(".md"):
         return True

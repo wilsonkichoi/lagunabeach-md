@@ -135,16 +135,6 @@ def test_no_frontmatter_is_hard(tmp_path):
     assert "Missing frontmatter" in violations[0].message
 
 
-def test_out_of_scope_lang_skipped_at_runner_level(tmp_path):
-    # frontmatter-format APPLIES_TO=["en"]; a lang outside that set is skipped.
-    f = tmp_path / "knowledge" / "ja" / "Society" / "test.md"
-    f.parent.mkdir(parents=True, exist_ok=True)
-    f.write_text(f"---\n{GOOD_FRONTMATTER}---\n\nbody.\n", encoding="utf-8")
-    cfg = Config()
-    report = run_checks(load_target(f), cfg, check_name="frontmatter-format")
-    assert report.results == []
-
-
 def test_plugin_registered():
     registry.reset_registry()
     found = registry.discover_checks()

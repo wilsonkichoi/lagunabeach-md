@@ -27,7 +27,6 @@ CHECK_NAME = "viz-health"
 DIMENSION = "visualization"
 DEFAULT_SEVERITY = Severity.WARN
 EDITORIAL_REF = "graph.md §7 source citation + §6 AI readability"
-APPLIES_TO = ["en"]
 
 # Data-relationship chart modules requiring source citation.
 # tw-bar is LB's module name; keep both tw-bar and tw-bars for compat.

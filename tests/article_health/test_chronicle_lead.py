@@ -120,10 +120,8 @@ def test_scene_subheadings_allowed(tmp_path):
 # ════════════════════════════════════════════════════════════════════════
 
 
-def test_translation_files_excluded(tmp_path):
-    """knowledge/zh-TW/ — translation prose, skip (en is the source, not excluded)."""
-    assert chronicle_lead._is_excluded_path("/knowledge/zh-TW/People/test.md")
-    # en source articles are NOT excluded — the check targets them.
+def test_source_articles_not_excluded(tmp_path):
+    """en source articles under knowledge/{Category}/ are NOT excluded — the check targets them."""
     assert not chronicle_lead._is_excluded_path("/knowledge/People/test.md")
 
 

@@ -24,7 +24,6 @@ CHECK_NAME = "footnote-density"
 DIMENSION = "citation"
 DEFAULT_SEVERITY = Severity.WARN
 EDITORIAL_REF = "EDITORIAL.md citation density A-F grading"
-APPLIES_TO = ["*"]
 
 _RE_DEF = re.compile(r"^\[\^[0-9a-zA-Z_-]+\]:", re.MULTILINE)
 

@@ -94,23 +94,6 @@ def test_normal_title_passes_length(tmp_path):
 # ════════════════════════════════════════════════════════════════════════
 
 
-def test_translation_files_skipped_at_runner_level(tmp_path):
-    """Non-en translations don't run this plugin (APPLIES_TO filter)."""
-    from lib.article_health import config as cfg_mod
-    from lib.article_health.runner import run_checks
-
-    f = _make_article(tmp_path, "Some Japanese Title!", lang_dir="ja")
-    target = load_target(f)
-    cfg = cfg_mod.Config()
-    report = run_checks(target, cfg, check_name="frontmatter-title")
-    assert report.results == []
-
-
-# ════════════════════════════════════════════════════════════════════════
-# Per-violation severity precedence (Phase 3 runner change)
-# ════════════════════════════════════════════════════════════════════════
-
-
 def test_mixed_severities_in_one_check(tmp_path):
     """A title with a puffery adjective (WARN) on an article missing its
     subcategory (HARD) yields one WARN + one HARD from a single check."""
@@ -162,7 +145,6 @@ def test_runner_preserves_per_violation_hard(tmp_path):
 def test_plugin_metadata():
     assert frontmatter_title.CHECK_NAME == "frontmatter-title"
     assert frontmatter_title.DEFAULT_SEVERITY == Severity.WARN
-    assert frontmatter_title.APPLIES_TO == ["en"]
     assert callable(frontmatter_title.check)
 
 

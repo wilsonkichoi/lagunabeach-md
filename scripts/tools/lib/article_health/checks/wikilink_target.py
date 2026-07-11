@@ -20,16 +20,13 @@ CHECK_NAME = "wikilink-target"
 DIMENSION = "structure"
 DEFAULT_SEVERITY = Severity.HARD
 EDITORIAL_REF = "EDITORIAL.md §wikilink + REWRITE-PIPELINE Stage 4"
-APPLIES_TO = ["*"]
 
 _RE_WIKILINK = re.compile(r"\[\[([^\]|\n]+?)(?:\|[^\]\n]+)?\]\]")
 _RE_WIKILINK_FULL = re.compile(
     r"\[\[(?P<target>[^\]|\n]+?)(?:\|(?P<display>[^\]\n]+))?\]\]"
 )
 
-# Directories to scan for valid article slugs (source language only —
-# translation subtrees share the source slug, not a distinct target).
-_LANG_DIRS_SKIP = {"zh-TW", "ja", "ko", "es", "fr"}
+# Directories to scan for valid article slugs.
 _KNOWLEDGE_ROOT = Path("knowledge")
 
 
@@ -41,7 +38,7 @@ def _existing_slugs() -> set[str]:
     slugs: set[str] = set()
     if _KNOWLEDGE_ROOT.exists():
         for entry in _KNOWLEDGE_ROOT.iterdir():
-            if not entry.is_dir() or entry.name in _LANG_DIRS_SKIP:
+            if not entry.is_dir():
                 continue
             for md in entry.glob("*.md"):
                 if md.name.startswith("_"):

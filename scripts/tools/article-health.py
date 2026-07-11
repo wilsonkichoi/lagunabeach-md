@@ -42,7 +42,7 @@ from lib.article_health import (  # noqa: E402
 
 
 def _get_staged_md() -> list[Path]:
-    """staged knowledge/*.md (source-lang only — translations have own conventions)."""
+    """staged knowledge/{Category}/*.md files."""
     try:
         out = subprocess.check_output(
             ["git", "diff", "--cached", "--name-only", "--diff-filter=ACM"],
@@ -53,9 +53,6 @@ def _get_staged_md() -> list[Path]:
     files = []
     for line in out.splitlines():
         if not line.startswith("knowledge/"):
-            continue
-        if line.startswith(("knowledge/zh-TW/", "knowledge/en/", "knowledge/ja/",
-                            "knowledge/ko/", "knowledge/es/", "knowledge/fr/")):
             continue
         if not line.endswith(".md"):
             continue
@@ -71,7 +68,7 @@ def _get_all_source() -> list[Path]:
         return []
     files = []
     for cat in root.iterdir():
-        if not cat.is_dir() or cat.name in ("zh-TW", "en", "ja", "ko", "es", "fr"):
+        if not cat.is_dir():
             continue
         for md in cat.glob("*.md"):
             if not md.name.startswith("_"):
@@ -126,15 +123,8 @@ def _cmd_fix(args) -> int:
         if not f.exists():
             continue
         target = load_target(f)
-        # APPLIES_TO filter — only run plugins that match this file's lang
-        applicable = [
-            m for m in fix_capable
-            if "*" in getattr(m, "APPLIES_TO", ["*"]) or target.lang in m.APPLIES_TO
-        ]
-        if not applicable:
-            continue
         any_change = False
-        for mod in applicable:
+        for mod in fix_capable:
             options = config.get_check_config(mod.CHECK_NAME).options
             opts = dict(options)
             opts["dry_run"] = bool(args.dry_run)

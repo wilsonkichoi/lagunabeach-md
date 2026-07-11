@@ -51,17 +51,13 @@ class FileTarget:
     body: str = ""
     body_text_offset: int = 0  # char offset in `text` where body starts
     body_pad_lines: int = 0  # how many blank lines were prepended to align line numbers
-    lang: str = "en"  # en (SSOT default) / zh-TW / ja / ko / es / fr
+    lang: str = "en"  # this repo is English-only
     category: str = ""  # About / History / Geography / ...
     slug: str = ""  # filename without .md
 
     # Protected text segments — list of (start, end, kind) tuples in body coords.
     # kind = "fenced-code" / "inline-code" / "link-url" / "html-tag"
     protected_regions: list[tuple[int, int, str]] = field(default_factory=list)
-
-    @property
-    def is_translation(self) -> bool:
-        return self.lang != "en"
 
     def body_without_protected(self) -> str:
         """Body with protected regions blanked out (preserves char positions)."""

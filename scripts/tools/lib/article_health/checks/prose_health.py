@@ -1,6 +1,6 @@
 """prose_health — consolidated prose quality checks (English, this project).
 
-Ported 2026-06-29 from the source corpus's zh-TW prose scanner to English. The structural
+An English prose-quality scanner. The structural
 dimensions (bullet density, year count, citation density, em-dash overuse,
 template-H2, list-dump, thin sections, quality-decay) are language-agnostic and
 carry over directly. The prose-tell dimensions are rewritten from the LB canon:
@@ -50,7 +50,6 @@ CHECK_NAME = "prose-health"
 DIMENSION = "prose-quality"
 DEFAULT_SEVERITY = Severity.WARN
 EDITORIAL_REF = "EDITORIAL.md §6 + MANIFESTO.md Belief #11"
-APPLIES_TO = ["en"]
 
 
 # ── Travel-brochure plastic phrases (EDITORIAL §6 "Travel-Brochure Tells") ────

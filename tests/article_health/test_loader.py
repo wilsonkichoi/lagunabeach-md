@@ -58,20 +58,6 @@ def test_path_derives_en_source(tmp_path):
     assert target.lang == "en"
     assert target.category == "Nature"
     assert target.slug == "tawny-fish-owl"
-    assert not target.is_translation
-
-
-def test_path_derives_translation(tmp_path):
-    # knowledge/{lang}/{Category}/{slug}.md is a translation (e.g. zh-TW).
-    knowledge = tmp_path / "knowledge" / "zh-TW" / "Nature"
-    knowledge.mkdir(parents=True)
-    f = knowledge / "tawny-fish-owl.md"
-    f.write_text("---\ntitle: x\n---\nbody\n", encoding="utf-8")
-    target = load_target(f)
-    assert target.lang == "zh-TW"
-    assert target.category == "Nature"
-    assert target.slug == "tawny-fish-owl"
-    assert target.is_translation
 
 
 def test_link_url_does_not_eat_across_newlines(tmp_path):

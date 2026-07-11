@@ -37,7 +37,6 @@ CHECK_NAME = "link-url-mangle"
 DIMENSION = "structure"
 DEFAULT_SEVERITY = Severity.HARD
 EDITORIAL_REF = "EDITORIAL media-weaving (no CJK-Commons-URL links in captions, links go in image-sources section) + REWRITE Step 4.3.6"
-APPLIES_TO = ["*"]
 
 # HARD: a markdown image link whose destination contains a literal `*` (mangled).
 # `\S*\*\S*` lets the URL include balanced internal parens (houtong `(cropped*2022).jpg`).

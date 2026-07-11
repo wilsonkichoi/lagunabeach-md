@@ -31,7 +31,6 @@ CHECK_NAME = "format-structure"
 DIMENSION = "structure"
 DEFAULT_SEVERITY = Severity.WARN
 EDITORIAL_REF = "EDITORIAL.md §structure"
-APPLIES_TO = ["en"]
 
 # Further Reading markers (canonical accepted): `## Further Reading` or `**Further Reading**:`
 _RE_FURTHER_READING = re.compile(

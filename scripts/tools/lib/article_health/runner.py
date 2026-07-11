@@ -17,9 +17,8 @@ from .types import (
 def _select_checks(
     profile: ProfileConfig | None,
     config: Config,
-    target: FileTarget,
 ) -> list[Any]:
-    """Resolve which check modules to run for this target + profile."""
+    """Resolve which check modules to run for this profile."""
     discover_checks()
     from .registry import _REGISTRY  # type: ignore[attr-defined]
 
@@ -30,10 +29,6 @@ def _select_checks(
 
     selected = []
     for mod in candidates:
-        # Respect APPLIES_TO lang filter
-        applies = getattr(mod, "APPLIES_TO", ["*"])
-        if "*" not in applies and target.lang not in applies:
-            continue
         # Respect global checks.X.enabled
         cfg = config.get_check_config(mod.CHECK_NAME)
         if not cfg.enabled:
@@ -84,7 +79,7 @@ def run_checks(
       check_name: if set, run ONLY this check (overrides profile.checks).
     """
     profile = config.get_profile(profile_name) if profile_name else None
-    selected = _select_checks(profile, config, target)
+    selected = _select_checks(profile, config)
     if check_name:
         selected = [m for m in selected if m.CHECK_NAME == check_name]
 

@@ -17,10 +17,7 @@ from typing import Any
 from .types import FileTarget
 
 
-# Path patterns: knowledge/{Category}/{slug}.md (en, SSOT default for this
-#               English-default fork) or knowledge/{lang}/{Category}/{slug}.md
-#               (translations)
-_LANG_DIRS = {"zh-TW", "ja", "ko", "es", "fr"}
+# Path pattern: knowledge/{Category}/{slug}.md. This repo is English-only.
 
 # Protected region patterns
 _RE_FENCED_CODE = re.compile(r"```[\s\S]*?```", re.MULTILINE)
@@ -213,23 +210,18 @@ def _detect_protected_regions(body: str) -> list[tuple[int, int, str]]:
 
 
 def _derive_meta_from_path(path: Path) -> tuple[str, str, str]:
-    """Returns (lang, category, slug) from knowledge/... path."""
+    """Returns (lang, category, slug) from a knowledge/{Category}/{slug}.md path.
+
+    This repo is English-only, so lang is always "en".
+    """
     parts = path.parts
     try:
         idx = parts.index("knowledge")
     except ValueError:
         return ("en", "", path.stem)
     rest = parts[idx + 1 :]
-    if not rest:
-        return ("en", "", path.stem)
-    if rest[0] in _LANG_DIRS:
-        lang = rest[0]
-        category = rest[1] if len(rest) >= 2 else ""
-    else:
-        lang = "en"
-        category = rest[0]
-    slug = path.stem
-    return (lang, category, slug)
+    category = rest[0] if rest else ""
+    return ("en", category, path.stem)
 
 
 def load_target(path: Path | str) -> FileTarget:

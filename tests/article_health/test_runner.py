@@ -121,45 +121,6 @@ def test_runner_disabled_check_skipped(tmp_path):
     assert report.results == []
 
 
-def test_runner_applies_to_lang_filter(tmp_path):
-    """APPLIES_TO restricts plugin to specific langs."""
-    registry.reset_registry()
-
-    class ZhOnly:
-        CHECK_NAME = "zh-only"
-        DIMENSION = "test"
-        DEFAULT_SEVERITY = Severity.WARN
-        EDITORIAL_REF = "test"
-        APPLIES_TO = ["zh-TW"]
-
-        @staticmethod
-        def check(target, config):
-            yield Violation(
-                check="zh-only", severity=Severity.WARN, message="v"
-            )
-
-    registry._REGISTRY["zh-only"] = ZhOnly()
-    registry._DISCOVERED = True
-
-    cfg = Config()
-
-    # zh-TW target (translation path) → should run
-    f = tmp_path / "knowledge" / "zh-TW" / "Nature" / "x.md"
-    f.parent.mkdir(parents=True)
-    f.write_text("test\n", encoding="utf-8")
-    target_zh = load_target(f)
-    report_zh = run_checks(target_zh, cfg)
-    assert len(report_zh.results) == 1
-
-    # en source target (bare path) → should be filtered out
-    fen = tmp_path / "knowledge" / "Nature" / "x.md"
-    fen.parent.mkdir(parents=True)
-    fen.write_text("test\n", encoding="utf-8")
-    target_en = load_target(fen)
-    report_en = run_checks(target_en, cfg)
-    assert report_en.results == []
-
-
 def test_health_report_as_dict_serializable(tmp_path):
     """as_dict output must be JSON-serializable."""
     import json

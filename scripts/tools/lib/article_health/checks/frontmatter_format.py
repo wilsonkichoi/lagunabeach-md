@@ -55,7 +55,6 @@ CHECK_NAME = "frontmatter-format"
 DIMENSION = "frontmatter"
 DEFAULT_SEVERITY = Severity.WARN
 EDITORIAL_REF = "REWRITE-PIPELINE.md Stage 4 Frontmatter completeness"
-APPLIES_TO = ["en"]
 
 REQUIRED_FIELDS = [
     "title",
@@ -671,8 +670,6 @@ def fix(target: FileTarget, config: dict[str, Any]) -> int:
     Returns the number of changes applied (0 = nothing changed).
     Writes the corrected file in place (unless config['dry_run'] is True).
     """
-    if target.lang != "en":
-        return 0
     if target.category == "About":
         return 0
     if not target.frontmatter_raw.strip():

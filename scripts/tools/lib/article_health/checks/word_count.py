@@ -15,7 +15,6 @@ Detected:
 
 Skipped paths:
     - Hub pages (knowledge/{Category}/_*.md)
-    - Translation files (knowledge/zh-TW/)
     - Spore artifacts (docs/factory/SPORE-BLUEPRINTS|HARVESTS/)
     - Memory / diary / research reports
 
@@ -37,7 +36,6 @@ CHECK_NAME = "word-count"
 DIMENSION = "depth"
 DEFAULT_SEVERITY = Severity.WARN
 EDITORIAL_REF = "EDITORIAL.md §depth"
-APPLIES_TO = ["en"]
 
 DEFAULT_MIN_WORDS = 250
 
@@ -76,9 +74,6 @@ def _is_excluded_path(path_str: str) -> bool:
     """
     p = path_str.replace("\\", "/")
     if not p.endswith(".md"):
-        return True
-    # Translation files (knowledge/zh-TW/...)
-    if "knowledge/zh-TW/" in p:
         return True
     # Hub pages — knowledge/{Category}/_X.md
     if os.path.basename(p).startswith("_"):
