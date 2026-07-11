@@ -32,6 +32,11 @@ packets from those blocks exactly as it does from §E. STRATEGIC-DIRECTION.md is
 Phases 0-4 ≈ 1.5-2 weeks at 2-4 tasks/day; phases 0-8 ≈ 4-6 weeks elapsed (3.2's 14-day
 archive wait overlaps Phases 4-5); phases 9-11 add ≈ 1.5-2 weeks.
 
+**Language policy (2026-07-11):** every phase ships English-only; sekai-kb v1 (Phase 5)
+carries no CJK/multi-language code path, language profile, or gate. Language support is a
+post-project revisit after Phase 11 (PRD non-goals; STRATEGIC-DIRECTION 2026-07-11 note).
+`/dev:plan` must not emit packets that retain CJK code for hypothetical adopters.
+
 **Ordering rules (structural, not preference):** Phases 6 and 7 declare `Depends: 5.4` —
 the framework ships before LB's fun features (§A2, §G risk 3). Phase 9 depends on 7.2c
 (§F's named MCP trigger honored); Phase 11 depends on 8.1 (ROUTINE organ architecture)

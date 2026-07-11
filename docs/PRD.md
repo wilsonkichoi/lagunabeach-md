@@ -75,5 +75,11 @@ never silently trim the packet.
 - **No framework features for hypothetical adopters**: a framework feature exists only if
   LB uses it or it is one of the six named adopter needs; everything else waits for the
   second real adopter to ask (§G risk 6).
+- **English-only through the current roadmap** (STRATEGIC-DIRECTION 2026-07-07 (b),
+  extended 2026-07-11): the site and sekai-kb v1 ship English-only — no CJK/multi-language
+  code paths, language profiles, or `APPLIES_TO` gates anywhere in `src/` or `scripts/`.
+  Multi-language support is a post-project revisit (after Phase 11), built fresh at that
+  time; the `lagunabeach-md-v1` archive retains the fork's CJK implementations for
+  reference. "A future CJK adopter" is never grounds to retain or re-add CJK code.
 - **Semiont is optional**: the site must build with the `semiont/` directory deleted; every
   organ beyond the minimal core is opt-in (§A3).

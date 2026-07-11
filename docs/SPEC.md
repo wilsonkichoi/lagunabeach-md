@@ -77,7 +77,9 @@ Wiki-links resolve at build time into hyperlinks + graph edges. Map frontmatter 
 `geo: Name,lat,lng,Area` (the fork's actual schema — there is no `coordinates:` key).
 Multi-language: 3-line wrapper pages per language importing `src/templates/*` bodies;
 adding a language = wrapper dir + `languages` entry + `knowledge/{lang}/` content. The
-translation cascade/babel tooling is NOT ported (§B, §F).
+translation cascade/babel tooling is NOT ported (§B, §F). This is a design sketch only:
+the site is English-only through the current roadmap and language support is a
+post-project revisit (PRD non-goals; STRATEGIC-DIRECTION 2026-07-11 revision note).
 
 ## Build pipeline (§B)
 
@@ -157,6 +159,12 @@ verifiable); ~16 named components + `home/`/`timeline/` subdirs with a genericit
 hooks); fork's `EDITORIAL.md` + `QUALITY-CHECKLIST.md` seed the playbook. `CATEGORY_MAP`
 dies; categories come from `place.config.ts`. Dispositions for everything else: §F
 (rewrite-now / delete-now / port-on-named-trigger — no "dormant").
+
+> **article-health language policy (2026-07-11, LB-20):** the tool ports English-only.
+> §C's "parameterize the CJK-specific checks by language" is superseded
+> (STRATEGIC-DIRECTION 2026-07-07 (b), extended 2026-07-11): checks with a mixed
+> language implementation keep their English core only; pure-CJK checks (`cjk_punct`,
+> zh-TW pattern sets) are not carried. No language profile or `APPLIES_TO` gate exists.
 
 ## Deployment (§B)
 
