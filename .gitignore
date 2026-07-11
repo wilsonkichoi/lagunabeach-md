@@ -5,6 +5,12 @@ dist/
 # dependencies
 node_modules/
 
+# python (article-health tool — uv toolchain)
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
 # derived content (SSOT is knowledge/; written by scripts/core/sync.sh)
 src/content/
 

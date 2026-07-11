@@ -26,7 +26,11 @@
     "postbuild:map-markers": "node scripts/core/check-map-markers.mjs",
     "postbuild:graph": "node scripts/core/check-graph.mjs",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "article-health": "uv run python scripts/tools/article-health.py",
+    "article-health:test": "uv run pytest tests/article_health",
+    "article-health:baseline": "uv run python scripts/tools/check-article-health-baseline.py",
+    "article-health:json": "mkdir -p src/data && uv run python scripts/tools/article-health.py --all --output=json --profile=dashboard > src/data/article-health.json"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "7.2.1",
