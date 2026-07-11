@@ -34,8 +34,11 @@ Never mark work done outside a verified merge.
 
 1. **SSOT:** `knowledge/` is the only content source of truth; `src/content/` is
    derived (gitignored, written by sync) and never edited directly.
-2. **Genericity:** zero place-specific strings in `src/` or `scripts/`; place identity
-   flows from `place.config.ts` + `knowledge/` + `public/media/` (CI-gated from 0.3).
+2. **Genericity + English-only:** zero place-specific strings and zero CJK/multi-language
+   code paths in any code tree — `src/`, `scripts/`, `tests/`, future `workers/`/plugin
+   code; test fixtures are code. Place identity flows from `place.config.ts` +
+   `knowledge/` + `public/media/` (CI-gated from 0.3; gate scope extended to `tests/` +
+   CJK-codepoint scan in LB-20; STRATEGIC-DIRECTION 2026-07-11 (b)).
 3. **Extraction over invention:** design and components are copied from
    `${SRC_HOME}/lagunabeach-md-v1` per the spec's §C, then genericized — never
    re-prompted from description.

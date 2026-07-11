@@ -165,6 +165,10 @@ dies; categories come from `place.config.ts`. Dispositions for everything else: 
 > (STRATEGIC-DIRECTION 2026-07-07 (b), extended 2026-07-11): checks with a mixed
 > language implementation keep their English core only; pure-CJK checks (`cjk_punct`,
 > zh-TW pattern sets) are not carried. No language profile or `APPLIES_TO` gate exists.
+> Scope fix (2026-07-11 (b)): the doctrine is whole-project — `tests/` fixtures are
+> code and ship English-only with no fork place-brand strings; the tool's target set
+> is exactly `knowledge/{Category}/*.md` (never spore/semiont/memory/report paths, which
+> do not exist in this repo's content model — dead fork path-skips are removed).
 
 ## Deployment (§B)
 
@@ -173,8 +177,12 @@ GitHub Pages via Actions + Cloudflare DNS/CDN. Workers deploy via `wrangler` fro
 
 ## Negative requirements
 
-- **Genericity (CI-gated from 0.3):** zero place-specific strings in `src/` or `scripts/`;
-  `scripts/ci/check-genericity.sh` fails the build on denylist hits (§A2, §E 0.3).
+- **Genericity + English-only (CI-gated from 0.3; scope extended in LB-20):** zero
+  place-specific strings in any code tree — `src/`, `scripts/`, `tests/`, and future
+  `workers/`/plugin code; `scripts/ci/check-genericity.sh` fails the build on denylist
+  hits, and the CI gate additionally fails on any CJK codepoint in those trees
+  (English-only doctrine, machine-enforced — §A2, §E 0.3; STRATEGIC-DIRECTION
+  2026-07-11 (b)).
 - **No build-time OG generation ever** (§B); static default until the Phase 7 worker.
 - **Site builds with `semiont/` deleted**; no organ reads another organ's files (§A3).
 - **CI must run on pull requests**: build + genericity jobs trigger on `pull_request`
