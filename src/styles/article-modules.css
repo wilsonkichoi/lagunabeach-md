@@ -512,12 +512,12 @@
   color: var(--color-ink);
 }
 .tw-quote-text::before {
-  content: '「';
+  content: '\201C';
   color: var(--color-accent);
   opacity: 0.6;
 }
 .tw-quote-text::after {
-  content: '」';
+  content: '\201D';
   color: var(--color-accent);
   opacity: 0.6;
 }

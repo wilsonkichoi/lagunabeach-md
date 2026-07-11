@@ -2,16 +2,18 @@
 #
 # check-genericity.sh — the genericity gate.
 #
-# Fails if any place-specific string leaks into framework-owned code (src/ or
-# scripts/). Place identity must flow ONLY through place.config.ts, knowledge/,
-# and public/media/ — never hardcoded in src/ or scripts/ (ADR 002, SPEC
+# Fails if any place-specific string leaks into framework-owned code (src/,
+# scripts/, or tests/). Place identity must flow ONLY through place.config.ts,
+# knowledge/, and public/media/ — never hardcoded in code trees (ADR 002, SPEC
 # §Negative requirements, §G risk 2). This is the structural mitigation for the
 # trap that motivated the whole rebuild.
 #
-# Scan scope: src/ and scripts/ only. place.config.ts (repo root), knowledge/,
-# public/media/, and docs/ hold place identity legitimately and are outside the
-# scan roots by construction; the denylist file itself is inside scripts/ and is
-# excluded explicitly (it necessarily contains the forbidden terms).
+# Scan scope: src/, scripts/, and tests/ (test fixtures are code — the
+# whole-project doctrine, STRATEGIC-DIRECTION 2026-07-11 (b)). place.config.ts
+# (repo root), knowledge/, public/media/, and docs/ hold place identity
+# legitimately and are outside the scan roots by construction; the denylist file
+# itself is inside scripts/ and is excluded explicitly (it necessarily contains
+# the forbidden terms).
 #
 # Usage: bash scripts/ci/check-genericity.sh   (run from anywhere; exit 1 on hit)
 
@@ -36,12 +38,13 @@ if [ -z "$PATTERN" ]; then
   exit 0
 fi
 
-# Scan roots (skip any that don't exist yet — scripts/ arrives with this task).
+# Scan roots (skip any that don't exist yet).
 SCAN_ROOTS=()
 [ -d "$ROOT/src" ] && SCAN_ROOTS+=("$ROOT/src")
 [ -d "$ROOT/scripts" ] && SCAN_ROOTS+=("$ROOT/scripts")
+[ -d "$ROOT/tests" ] && SCAN_ROOTS+=("$ROOT/tests")
 if [ "${#SCAN_ROOTS[@]}" -eq 0 ]; then
-  echo "✓ genericity gate passed — no src/ or scripts/ to scan"
+  echo "✓ genericity gate passed — no src/, scripts/, or tests/ to scan"
   exit 0
 fi
 
@@ -59,8 +62,8 @@ if [ -n "$HITS" ]; then
   echo "❌ genericity gate FAILED — place-specific strings in framework-owned code:" >&2
   echo "$HITS" >&2
   echo >&2
-  echo "Place identity belongs in place.config.ts / knowledge/ / public/media/, not src/ or scripts/." >&2
+  echo "Place identity belongs in place.config.ts / knowledge/ / public/media/, not src/, scripts/, or tests/." >&2
   exit 1
 fi
 
-echo "✓ genericity gate passed — no denylisted terms in src/ or scripts/"
+echo "✓ genericity gate passed — no denylisted terms in src/, scripts/, or tests/"

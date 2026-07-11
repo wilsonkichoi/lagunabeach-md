@@ -29,12 +29,17 @@ concurrency:
 
 jobs:
   genericity:
-    name: Genericity gate
+    name: Genericity + English-only gates
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-      - name: Check for place-specific strings in src/ and scripts/
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Check for place-specific strings in src/, scripts/, tests/
         run: bash scripts/ci/check-genericity.sh
+      - name: Check for CJK codepoints (English-only) in src/, scripts/, tests/
+        run: node scripts/ci/check-english-only.mjs
 
   build:
     name: Build
