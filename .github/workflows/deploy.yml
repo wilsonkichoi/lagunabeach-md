@@ -70,6 +70,9 @@ jobs:
         with:
           node-version: 22
           cache: npm
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
       # --force: astro 6.4.8's @rolldown/binding-wasm32-wasi declares optional
       # @emnapi/* sub-deps. npm 10.x's `npm ci` validates these across ALL
       # platforms in the lockfile (even those skipped on the current OS). When the
