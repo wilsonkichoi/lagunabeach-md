@@ -22,8 +22,12 @@ public/kb/
 public/llms.txt
 src/data/
 
-# visual regression captures (generated, large PNGs)
-reports/
+# visual regression (baseline PNGs are large; commit only the manifest)
+reports/visual/baseline/*.png
+reports/visual/current/
+reports/visual/diff/
+reports/visual/diff-report.html
+reports/visual/diff-summary.json
 
 # os / editor
 .DS_Store
