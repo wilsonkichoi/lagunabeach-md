@@ -129,7 +129,7 @@ export interface PlaceConfig {
 
 const config: PlaceConfig = {
   place: {
-    name: 'Laguna Beach',
+    name: 'LagunaBeach',
     tagline:
       'Open-source, AI-friendly knowledge base about Laguna Beach, California.',
     domain: 'lagunabeach.md',
