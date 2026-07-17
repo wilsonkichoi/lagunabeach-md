@@ -29,5 +29,8 @@ reports/visual/diff/
 reports/visual/diff-report.html
 reports/visual/diff-summary.json
 
+# playwright mcp session scratch (console logs + page snapshots)
+.playwright-mcp/
+
 # os / editor
 .DS_Store
