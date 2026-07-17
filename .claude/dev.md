@@ -40,6 +40,32 @@ Zero place-specific strings in `src/` or `scripts/`. All place identity flows fr
 
 A session loads only the references its task cites — nothing else.
 
+## Execution repo (Phase 5+): sekai-kb, tracker stays here
+
+From Phase 5, task **code** executes in the **sekai-kb** repo
+(`git@github.com:wilsonkichoi/sekai-kb.git`, cloned at `~/src/sekai-kb`) — the framework
+template cut in LB-26. The Linear tracker (team `LB`, project "LB Rebuild") and **all**
+process/planning docs (this file, `.claude/rules/`, `.fable/STRATEGIC-DIRECTION.md`,
+`docs/`) stay in `lagunabeach-md`. A packet's `Execution repo:` field names where its code
+lands; absent that field, assume `sekai-kb` for Phase 5+.
+
+Consequences for the dev-plugin skills (there is no `github_repo` in the frontmatter, and
+`gh` defaults to the working-directory repo, which is `lagunabeach-md` — with its **own**,
+unrelated PR numbering):
+
+- **`dev:execute`** claims the task from Linear (run from `lagunabeach-md`) but does the
+  worktree → commit → PR in `sekai-kb`. Record the full PR URL on the Linear task.
+- **`dev:review-pr` / `dev:verify`** take the **task id** (e.g. `LB-27`), never a bare
+  `#N` (a bare `#N` resolves against `lagunabeach-md`). They load the packet from Linear,
+  read the PR URL from the task's work-summary comment, and must target every `gh pr …`
+  call with `-R wilsonkichoi/sekai-kb`.
+
+After **5.4**, `lagunabeach-md` becomes **instance #1** of the framework (still the live
+`lagunabeach.md` site). Feature phases 6-11 execute in `sekai-kb` and ship as tagged
+releases; `lagunabeach-md`'s only commits are instance-owned — adopting each release via
+`/upgrade` (part of every phase's exit gate), `features.*` flags in `place.config.ts`,
+analytics IDs, ROUTINE entries, and its own content/media.
+
 ## Milestones and model policy
 
 - Milestones = Linear project milestones on project "LB Rebuild", one per phase
@@ -95,3 +121,13 @@ A session loads only the references its task cites — nothing else.
   asserts the contract and `process.exit(1)` on violation, wired into the `postbuild` `run-s`
   chain so it runs on every build locally and in CI. Do not leave "test-backed" as a one-off
   `jq` in the PR — wire the assertion so it guards regressions.
+- **Cross-repo PR targeting (Phase 5+).** Framework code tasks execute in the
+  `sekai-kb` repo (`github.com/wilsonkichoi/sekai-kb`, `${SRC_HOME}/sekai-kb`) per
+  docs/ROADMAP.md "Execution repo flow"; the Linear tracker and process docs stay
+  here, and some tasks (5.4, instance-owned edits) still commit in lagunabeach-md.
+  `dev:review-pr` / `dev:verify` must therefore resolve the PR from the URL in the
+  task's work-summary comment and pass its repo explicitly to every gh call
+  (`gh -R wilsonkichoi/sekai-kb …`). Never use a bare `gh pr <n>` — it defaults to
+  the working directory's repo (lagunabeach-md), which has its own PR numbering.
+  Do NOT set the `github_repo:` frontmatter key for this; it is reserved for
+  `secondary_intake: github` routing.
