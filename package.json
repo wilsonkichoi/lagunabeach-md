@@ -2,11 +2,13 @@
   "name": "lagunabeach-md",
   "type": "module",
   "version": "0.0.0",
-  "description": "AI-native open knowledge base — sekai-kb instance #1.",
+  "description": "AI-native open knowledge base \u2014 sekai-kb instance #1.",
   "engines": {
     "node": ">=22.12.0"
   },
   "scripts": {
+    "init": "node scripts/init/index.mjs",
+    "init:check": "bash scripts/init/check-init.sh",
     "dev": "npm run prebuild && astro dev",
     "sync": "bash scripts/core/sync.sh",
     "prebuild": "npm run prebuild:sync && run-p prebuild:kb-index prebuild:search prebuild:content-dates prebuild:git-info prebuild:related prebuild:changelog prebuild:map-markers prebuild:dashboard && npm run prebuild:latest",
@@ -29,10 +31,10 @@
     "preview": "astro preview",
     "astro": "astro",
     "genericity": "bash scripts/ci/check-genericity.sh && node scripts/ci/check-english-only.mjs",
+    "genericity:selftest": "bash scripts/ci/check-skills-gated.sh",
     "english-only": "node scripts/ci/check-english-only.mjs",
     "article-health": "uv run python scripts/tools/article-health.py",
     "article-health:test": "uv run pytest tests/article_health",
-    "article-health:baseline": "uv run python scripts/tools/check-article-health-baseline.py",
     "article-health:json": "mkdir -p src/data && uv run python scripts/tools/article-health.py --all --output=json --profile=dashboard > src/data/article-health.json",
     "prebuild:dashboard": "npm run article-health:json || true; node scripts/core/build-dashboard-lite.mjs",
     "test": "node scripts/core/test-frontmatter.mjs",

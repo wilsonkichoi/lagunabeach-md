@@ -2,6 +2,11 @@
 # Git uses the "ours" merge strategy for any merge (including `git merge <tag>`),
 # keeping this instance's version and discarding the incoming framework change.
 #
+# REQUIRED once per clone (not version-controlled, so it cannot ship here):
+#   git config merge.ours.driver true
+# The `ours` driver is not built into git; without that config line every
+# `merge=ours` below silently no-ops. See docs/runbook/UPGRADE.md.
+#
 # This is instance #1 (lagunabeach.md), re-based onto the sekai-kb framework in
 # task 5.4. The list below extends the framework baseline
 # (place.config.ts, knowledge/**, public/media/**, CNAME, CLAUDE.md, README.md)
