@@ -103,6 +103,12 @@ entries, and its own content/media. `FRAMEWORK-VERSION` records the adopted tag.
 - **`Downstream:` field in every packet.** Each minted packet names the future §E units that
   consume its output (`Downstream: none` allowed, but must be stated), so the executor knows
   which interfaces are load-bearing contracts versus internal choices.
+- **State the PR merge mode when history is the deliverable.** A packet whose DoD involves
+  merge topology (tag merges, merge-base establishment, ancestry) must say its PR merges
+  with a real merge commit — the `merge_policy: squash` default silently flattens
+  history-shaped deliverables. Found as LB-33 review B1;
+  `.claude/rules/upgrade-prs-merge-commit-never-squash.md` carries the execution/verify
+  guard.
 
 ## Execution conventions
 
