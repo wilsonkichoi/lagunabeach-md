@@ -11,9 +11,9 @@ Markdown under `knowledge/` (arrives in Phase 1/3).
   PDR, extraction map, full task list (§E). Read its 2026-07-07 revision note first.
 - **Operative docs (once approved):** `docs/PRD.md`, `docs/SPEC.md`, `docs/ROADMAP.md`,
   `docs/adr/`. Conflicts with the binding spec go to Wilson, never silently resolved.
-- **Process config:** `.claude/dev.md` — dev-plugin config: tracker (Linear, workspace
+- **Process config:** `.agent-toolkit/dev.md` — dev-plugin config: tracker (Linear, workspace
   `sekai-kb`, team `LB`, project "LB Rebuild"), conventions, extraction-source paths.
-- **Promoted learnings:** `.claude/rules/` (written by `/dev:retro` on approval).
+- **Promoted learnings:** `.agent-toolkit/rules/` (written by `/dev:retro` on approval).
 - **Architecture diagrams (engineering SSOT):** `docs/diagrams/*.drawio`.
 
 ## Environment variable
@@ -29,6 +29,13 @@ export SRC_HOME="/path/to/your/src"  # parent dir containing lagunabeach-md-v1, 
 The dev plugin lifecycle: tasks live in Linear (single source of truth for task
 state), one PR per task behind CI, `/dev:execute` → `/dev:review-pr` → `/dev:verify`.
 Never mark work done outside a verified merge.
+
+The dev-plugin config and promoted rules live in `.agent-toolkit/`. Codex reads
+`AGENTS.md` natively; the import below reaches the same chain for Claude Code
+(`@AGENTS.md` → `@.agent-toolkit/dev.md` → the doctrine rules its `## Rules`
+index imports), so a session boots with the doctrine rules inlined.
+
+@AGENTS.md
 
 ## Iron rules
 
