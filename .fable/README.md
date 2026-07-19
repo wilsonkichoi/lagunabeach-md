@@ -8,7 +8,7 @@ repo, in one copy-over location. Authored by Fable 5, 2026-07-04.
 > (Linear tracker, `/dev:*` lifecycle), not the two-session `.handoff/` loop.
 > The `handoff/` and `skills/` payload entries were deliberately NOT copied into
 > this repo; the copy mapping and "operating loop" sections below are historical.
-> Operative process docs: `.claude/dev.md` + `docs/` in this repo.
+> Operative process docs: `.agent-toolkit/dev.md` + `docs/` in this repo.
 
 ## Copy mapping (Wilson, at task 0.1 step 4)
 

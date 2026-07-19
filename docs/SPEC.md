@@ -4,7 +4,7 @@
 (extraction map), §D (build-new list).** This document is the operative spec for
 dev-plugin skills; the strategic direction is the frozen source of record — where this
 spec compresses, the cited section governs detail. Conflicts go to Wilson (see
-`.claude/dev.md`). Engineering diagrams (SSOT): `docs/diagrams/architecture.drawio`,
+`.agent-toolkit/dev.md`). Engineering diagrams (SSOT): `docs/diagrams/architecture.drawio`,
 `data-flow.drawio`, `repo-topology.drawio` — updated in the same PR as any architecture
 change they depict (§B).
 
@@ -28,7 +28,7 @@ change they depict (§B).
   mandatory, the 4090 is unreachable at request time). At LB scale, retrieval is in-worker
   cosine over static JSON vectors; Vectorize is the documented path at ~4k+ vectors.
   Worker skeleton/chunking/CPU-limit details: v0 research §"RAG Chatbot" (mandatory
-  pre-read for 7.2 executors, see `.claude/dev.md` binding references).
+  pre-read for 7.2 executors, see `.agent-toolkit/dev.md` binding references).
 
 ## Repo topology (§B "Repo topology", diagram `repo-topology.drawio`)
 
@@ -151,7 +151,7 @@ in-worker cosine over the 7.2a vectors — same model space as chat, §Stack). R
 code shared with `workers/chat/` lives in `workers/lib/`. Behind `features.mcp`. The
 `/ai` page + `/kb/agent.md` boot file (task 9.2) document every AI consumption path;
 cross-ref v0 research §"MCP Server and Alternative Knowledge Delivery" (mandatory
-pre-read for 9.1/9.2 executors, same rule as the 7.2 pre-reads in `.claude/dev.md`).
+pre-read for 9.1/9.2 executors, same rule as the 7.2 pre-reads in `.agent-toolkit/dev.md`).
 
 ### Analytics (`features.analytics`, Phase 10)
 
