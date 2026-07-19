@@ -28,12 +28,16 @@ Beyond that, the working set for any agent session:
   must pass. The pre-commit hook enforces a subset; don't rely on it as the
   first check.
 
+<!-- dev-plugin:start — the init wizard (scripts/init) strips this block, and the
+     .agent-toolkit/ tree it points at, from adopter clones. Dev-plugin state only. -->
 ## Dev workflow
 
 This instance is developed with the **agent-toolkit dev plugin** — tasks live in
 Linear, one PR per task behind CI, `dev:execute` → `dev:review-pr` → `dev:verify`.
 The config and promoted rules live in `.agent-toolkit/` (the dev plugin's
 `context_file` points here); the reference line below imports the config, whose
-`## Rules` index in turn imports the doctrine rules.
+`## Rules` index in turn imports the doctrine rules. Adopting this instance as a
+template strips this block and the `.agent-toolkit/` tree.
 
 Dev workflow (agent-toolkit dev plugin): @.agent-toolkit/dev.md
+<!-- dev-plugin:end -->
