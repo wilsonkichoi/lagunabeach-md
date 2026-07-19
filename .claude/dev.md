@@ -33,6 +33,7 @@ Zero place-specific strings in `src/` or `scripts/`. All place identity flows fr
 | Reference | Role | Rule |
 |---|---|---|
 | `.fable/STRATEGIC-DIRECTION.md` (this repo) | binding spec | every task packet names the §E sub-unit it executes |
+| `${SRC_HOME}/sekai-kb` (framework SSOT, GitHub `wilsonkichoi/sekai-kb`) | framework template + release train | Phase 5+ code lands here (LB-26 cut); instances merge **tagged releases only** (`sekai-kb-vX.Y.Z`), never framework `main` — per `docs/runbook/UPGRADE.md` + ADR 004. LB re-based onto `sekai-kb-v1.0.0` in LB-33 |
 | `${SRC_HOME}/lagunabeach-md-v1` (the renamed fork checkout) | extraction source | §C prefers the fork's copy; reviews verify extraction claims against this tree, **byte-diff where §C says verbatim** |
 | `${SRC_HOME}/taiwan-md` | design reference | consult for design rationale; never a content source |
 | `${SRC_HOME}/lagunabeach-md-v0/_research/taiwan-md-research.md` + `taiwan-md-llm-wiki.md` | v0 deep research | §B/§D section pointers are mandatory pre-reads for the executor of the citing task (2.1 boundary sourcing, Phase 5 adopter needs, 7.1/7.2 worker designs) |
@@ -60,11 +61,14 @@ unrelated PR numbering):
   read the PR URL from the task's work-summary comment, and must target every `gh pr …`
   call with `-R wilsonkichoi/sekai-kb`.
 
-After **5.4**, `lagunabeach-md` becomes **instance #1** of the framework (still the live
-`lagunabeach.md` site). Feature phases 6-11 execute in `sekai-kb` and ship as tagged
-releases; `lagunabeach-md`'s only commits are instance-owned — adopting each release via
-`/upgrade` (part of every phase's exit gate), `features.*` flags in `place.config.ts`,
-analytics IDs, ROUTINE entries, and its own content/media.
+After **5.4** (LB-33, done), `lagunabeach-md` is **instance #1** of the framework (still the
+live `lagunabeach.md` site), re-based onto `sekai-kb-v1.0.0` with the merge base established
+(`git merge --allow-unrelated-histories`) and `merge=ours` on the instance-owned file list.
+Feature phases 6-11 execute in `sekai-kb` and ship as tagged releases; `lagunabeach-md`'s
+only commits are instance-owned — adopting each release via `/upgrade` (part of every phase's
+exit gate; mechanics + the required `git config merge.ours.driver true` per-clone step in
+`docs/runbook/UPGRADE.md`), `features.*` flags in `place.config.ts`, analytics IDs, ROUTINE
+entries, and its own content/media. `FRAMEWORK-VERSION` records the adopted tag.
 
 ## Milestones and model policy
 
