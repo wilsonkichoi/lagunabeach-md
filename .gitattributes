@@ -1,0 +1,24 @@
+# Instance-owned files: framework tag-merges never overwrite these.
+# Git uses the "ours" merge strategy for any merge (including `git merge <tag>`),
+# keeping this instance's version and discarding the incoming framework change.
+#
+# REQUIRED once per clone (not version-controlled, so it cannot ship here):
+#   git config merge.ours.driver true
+# The `ours` driver is not built into git; without that config line every
+# `merge=ours` below silently no-ops. See docs/runbook/UPGRADE.md.
+#
+# This is instance #1 (lagunabeach.md), re-based onto the sekai-kb framework in
+# task 5.4. The list below extends the framework baseline
+# (place.config.ts, knowledge/**, public/media/**, CNAME, CLAUDE.md, README.md)
+# with the two instance-owned paths minted in the 5.4 packet:
+#   docs/baselines/**  and  scripts/ci/genericity-denylist.local.txt
+# See docs/runbook/UPGRADE.md §Instance-owned files. Add your own below.
+
+place.config.ts merge=ours
+knowledge/** merge=ours
+public/media/** merge=ours
+CNAME merge=ours
+CLAUDE.md merge=ours
+README.md merge=ours
+docs/baselines/** merge=ours
+scripts/ci/genericity-denylist.local.txt merge=ours
