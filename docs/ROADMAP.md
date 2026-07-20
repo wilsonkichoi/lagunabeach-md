@@ -6,9 +6,12 @@ blocks by `/dev:plan`, never re-derived; §E's Steps/Acceptance text governs pac
 Every phase transition is a Wilson gate — `/dev:plan` for phase n+1 runs only after Wilson
 confirms phase n closed. Estimates carried from §E (`AI implement+review | Human`).
 
-**Status (2026-07-11):** Phases 0-4 are complete and Wilson-confirmed. Phase 5 is next
-to plan; its packets convert from §E 5.1-5.5 plus the "Phase 5 amendment" appendix below
-(task 5.6 + packet-shaping notes recorded at Phase-4 close).
+**Status (2026-07-19):** Phases 0-4 are complete and Wilson-confirmed. Phase 5 is in
+flight: the framework cut shipped and LB is re-based onto sekai-kb tags (currently
+v1.0.4), with the dev-plugin 0.0.55 migration landed as Phase-5 intake packets; close
+pends the dual-harness validation (LB-43) and phase-close stub triage. Phase 6 plans
+next; see the "Agent-toolkit migration amendment" below before converting Phase 8+
+packets.
 
 **Extension (Wilson-approved 2026-07-07):** milestones 9-11 extend beyond the frozen §E
 (MCP delivery, analytics perception, autonomous routines — see ADR 005). Their task blocks
@@ -129,7 +132,10 @@ with repo realities §E (written 2026-07-04) could not know.
   framework-relevant engineering rules (astro-*, prebuild-*, gray-matter, shell
   portability, GH-Actions least-privilege, lockfile) ship in the template; LB-process
   rules (dod-is-the-scope, visual-parity target, fork-sweep, clean-rebuild) stay
-  instance-side — executor proposes the split in the PR.
+  instance-side — executor proposes the split in the PR. **[Superseded 2026-07-19:**
+  per ADR 006 and the dev-plugin 0.0.55 migration, ALL rules are dev-plugin state in
+  `.agent-toolkit/rules/` (adopter-owned, `merge=ours`), the template ships none, and
+  `.claude/rules/` no longer exists.**]**
 - **5.1 build sanity on fresh history:** `build-dashboard-lite.mjs` computes immune
   dimensions from git log; on the template's single-init-commit history it must produce
   sane output (no crash, no degenerate scores) — acceptance-check it.
@@ -151,6 +157,38 @@ with repo realities §E (written 2026-07-04) could not know.
   `scripts/ci/genericity-denylist.local.txt` (final `merge=ours` list minted in the
   packet). LB's squash-merge history makes the §E step-2 graft/subtree-merge choice
   load-bearing — document the chosen mechanics in the runbook as §E already requires.
+
+---
+
+## Agent-toolkit migration amendment — approved by Wilson 2026-07-19
+
+Records the future-phase deltas from the dev-plugin 0.0.55 migration (ADR 006 +
+addendum): `AGENTS.md` is the agent-instruction SSOT and adopter/instance-owned
+(`merge=ours`); `CLAUDE.md` is a byte-exact one-line `@AGENTS.md` shim, never
+content-bearing; all rules are dev-plugin state in `.agent-toolkit/rules/` and the
+template ships none. §E stays frozen; these rulings govern packet conversion for the
+affected phases. **Phases 6-7 and 10-11 need no changes** — their blocks touch none of
+the migrated surfaces.
+
+- **8.1 organ-loader ruling (supersedes §E 8.1 step 2's "CLAUDE.md boot section" and
+  the §A3 loader note):** the loader is a stable one-paragraph boot hook seeded into
+  the starter `AGENTS.md` by the init wizard — read `semiont/config.json`, load enabled
+  organs' boot files, no-op gracefully when the config is absent. All evolving loader
+  logic and organ substance live in framework-owned `semiont/` files, so the
+  adopter-owned hook rarely changes; when it must, the change reaches existing
+  instances via `/upgrade`'s conversational starter-diff step, never a silent merge
+  (same pattern as the dev-plugin reference line in `AGENTS.md`). Boot-time organ
+  loading — MEMORY/REFLEXES inlined each session, §A3's core-organ intent — is
+  preserved. The `/dev:plan` packet for 8.1 cites this ruling, not §E's wording.
+- **8.2 naming:** the acceptance's "lb-become boots" reads as the 8.1 boot hook (the
+  `lb-become` skill was re-dispositioned into 8.1 per STRATEGIC-DIRECTION
+  2026-07-11 (c)).
+- **9.3 corrections (applied inline in the extension block below):**
+  `docs/runbook/UPGRADE.md` already exists (written in Phase 5, LB-33/LB-44), so 9.3
+  extends and proves it rather than writing it; and the absent-safe schema rule lands
+  in sekai-kb's `AGENTS.md` + playbook, not "the framework CLAUDE.md".
+- **5.1 rules-split note superseded:** see the inline note in the Phase 5
+  packet-shaping list above.
 
 ---
 
@@ -201,13 +239,15 @@ Acceptance text governs packet detail). Model policy: all execution Opus (Wilson
     1. Ship Phase 9 as sekai-kb release vX.Y: CHANGELOG entry with the features.mcp
        upgrade note — the first real config-schema addition since the cut.
     2. Run /upgrade in lagunabeach-md against the tag as the proof.
-    3. Write docs/runbook/UPGRADE.md for adopters FROM that real run: discover releases
-       (watch tags / CHANGELOG), read upgrade notes, run /upgrade (AI path) or the manual
-       fetch → merge-tag → build commands (non-AI path, extending 5.4's runbook section),
-       handle conflict reports, enable newly added feature flags (absent-safe: skipping
-       the flag = feature stays off), verify FRAMEWORK-VERSION bumped.
-    4. Add the absent-safe schema rule to the framework CLAUDE.md + playbook so future
-       sekai-kb changes preserve it.
+    3. Extend docs/runbook/UPGRADE.md (exists since Phase 5, LB-33/LB-44) for adopters
+       FROM that real run: discover releases (watch tags / CHANGELOG), read upgrade
+       notes, run /upgrade (AI path) or the manual fetch → merge-tag → build commands
+       (non-AI path), handle conflict reports, enable newly added feature flags
+       (absent-safe: skipping the flag = feature stays off), verify FRAMEWORK-VERSION
+       bumped.
+    4. Add the absent-safe schema rule to sekai-kb's AGENTS.md + playbook so future
+       framework changes preserve it (per ADR 006, CLAUDE.md is a one-line @AGENTS.md
+       shim — never content-bearing).
   Acceptance: LB runs the real Phase-9 upgrade clean end-to-end; a first-timer following
     UPGRADE.md alone can state the exact commands and the flag to flip for MCP
   Downstream: every later framework release (10, 11, and beyond) ships against this playbook
