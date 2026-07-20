@@ -110,3 +110,30 @@ reconciliation as a fixed shim. Because `AGENTS.md`, `CLAUDE.md`, and
 `.agent-toolkit/**` are `merge=ours`, an existing instance mirrors this consolidation
 as a manual instance-side edit after merging the framework tag (see the
 `sekai-kb-v1.0.3` CHANGELOG upgrade note).
+
+## Addendum (2026-07-19): stripped dev-plugin state persists across upgrades
+
+**Status:** Accepted (2026-07-19, Wilson-approved). **Executes:** LB-44.
+
+Ruling (c) establishes that wizard adoption removes `.agent-toolkit/`, while ruling
+(e) makes that path instance-owned when it exists. The original consequences incorrectly
+assumed `merge=ours` also protects a deleted path. Git does not apply a content merge
+driver when one side deleted the path: a shared-history framework modification produces a
+modify/delete conflict, and an unrelated-history first tag merge adds the framework tree
+back as theirs-only content.
+
+`/upgrade` therefore treats dev-plugin presence or absence as persistent instance state:
+
+- **Stripped:** `.agent-toolkit/` is absent and `AGENTS.md` has no active
+  `@.agent-toolkit/dev.md` reference. The upgrade preserves both absences, automatically
+  resolving framework-side additions or modify/delete conflicts under
+  `.agent-toolkit/**` before finalizing the merge.
+- **Installed:** `.agent-toolkit/dev.md` exists and `AGENTS.md` carries the active
+  reference. The existing `merge=ours` ownership rule preserves the adopter's config and
+  rules.
+- **Inconsistent:** only one half of the installed state exists. The upgrade stops with a
+  diagnostic instead of guessing whether to delete or install dev-plugin state.
+
+This rule applies to routine shared-history upgrades and the first
+`--allow-unrelated-histories` tag merge. Framework dev-plugin state is never an implicit
+upgrade payload for a stripped adopter; running `dev:setup` is the deliberate opt-in.

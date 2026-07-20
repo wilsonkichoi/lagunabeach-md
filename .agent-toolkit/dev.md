@@ -72,6 +72,15 @@ exit gate; mechanics + the required `git config merge.ours.driver true` per-clon
 `docs/runbook/UPGRADE.md`), `features.*` flags in `place.config.ts`, analytics IDs, ROUTINE
 entries, and its own content/media. `FRAMEWORK-VERSION` records the adopted tag.
 
+## Adopter dev-plugin upgrade state
+
+SPEC `Repo topology` and ADR 006 define `.agent-toolkit/` presence as persistent
+instance state. Before a framework tag merge, `/upgrade` classifies the instance as
+stripped (tree and active AGENTS.md reference both absent) or installed (config and
+reference both present). Stripped stays stripped across shared and unrelated histories;
+installed keeps its adopter-owned config and rules. A mixed state is invalid and stops.
+LB-44 implements and regression-tests this Phase 5 upgrade contract.
+
 ## Milestones and model policy
 
 - Milestones = Linear project milestones on project "LB Rebuild", one per phase

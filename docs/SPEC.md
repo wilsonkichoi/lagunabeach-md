@@ -45,6 +45,17 @@ release. `FRAMEWORK-VERSION` records the instance's version; the `/upgrade` skil
 fetch → merge tag → build-verify → conflict report. Directory shape: §B's tree (same shape
 for framework and instances).
 
+> **Dev-plugin state persistence (2026-07-19, ADR 006 addendum):** `merge=ours`
+> protects content only when the path exists on both merge sides; it does not preserve an
+> intentionally absent `.agent-toolkit/` tree. `/upgrade` must classify dev-plugin state
+> before merging: **stripped** means both `.agent-toolkit/` and the active
+> `@.agent-toolkit/dev.md` reference are absent; **installed** means the adopter's
+> `.agent-toolkit/dev.md` and active reference are present. A stripped instance stays
+> stripped across shared-history upgrades and unrelated-history first tag merges; an
+> installed instance keeps its own config and rules. Mixed states are invalid and stop the
+> upgrade with a diagnostic. Framework dev-plugin state is never reacquired implicitly;
+> `dev:setup` is the only opt-in path.
+
 > **Skill ownership (2026-07-11 (c), task 5.6):** the framework skills under
 > `.claude/skills/` (`/write`, `/validate`, `/factcheck`, router, plus `/adopt`,
 > `/seed-articles`, `/upgrade`) are framework-owned, same class as `src/`. Adopters ADD
@@ -230,3 +241,11 @@ GitHub Pages via Actions + Cloudflare DNS/CDN. Workers deploy via `wrangler` fro
   off; framework upgrades never require config surgery on existing instances.
 - **Design parity fallback**: if any page misses the visual bar, copy that page's fork
   implementation wholesale and re-genericize — never re-prompt from description (§G risk 1).
+
+## Change log
+
+- **2026-07-19, Wilson-approved LB-44 delta:** added the dev-plugin state-persistence
+  contract for framework upgrades. This corrects the false assumption that
+  `.gitattributes merge=ours` preserves a deleted `.agent-toolkit/` path. ROADMAP order is
+  unchanged; LB-44 closes the Phase 5 upgrade-determinism guarantee before LB-43 validates
+  the dual-harness workflow.

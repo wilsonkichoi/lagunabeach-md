@@ -71,6 +71,13 @@ so existing adopter instances upgrade without config surgery.
 
 ## Phase 5 amendment — approved by Wilson 2026-07-11 at Phase-4 close (STRATEGIC-DIRECTION 2026-07-11 (c))
 
+**Phase 5 close correction, approved 2026-07-19:** Phase 5's clean-upgrade acceptance
+includes persistence of adopter dev-plugin state across framework tag merges. A wizard-
+adopted instance with `.agent-toolkit/` stripped must stay stripped; an instance that
+explicitly installed the dev workflow with `dev:setup` must retain its own config and
+rules. Shared-history and unrelated-history merge topologies are both acceptance cases.
+LB-44 implements this correction and blocks the LB-43 dual-harness close validation.
+
 Same mechanism as the Phases 9-11 extension: `/dev:plan` converts the block below exactly
 as it does §E blocks; the packet-shaping notes amend §E 5.1-5.5's Steps/Acceptance detail
 with repo realities §E (written 2026-07-04) could not know.
