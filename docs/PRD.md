@@ -3,7 +3,7 @@
 **Derived 2026-07-07 from `.fable/STRATEGIC-DIRECTION.md`** (§A decisions and stated goals;
 per its 2026-07-07 revision note this derivation replaced the `/dev:discover` interview —
 the product decisions were already made and verified there). This document restructures,
-it does not re-decide. Conflicts resolve per the precedence rule in `.claude/dev.md`.
+it does not re-decide. Conflicts resolve per the precedence rule in `.agent-toolkit/dev.md`.
 
 ## Goal
 
@@ -56,7 +56,7 @@ Phase-gated proof points rather than a single metric (each is a §E acceptance c
 ## Non-goals
 
 Non-goals bound the product; they never shrink a task. If a task packet's DoD appears
-to conflict with a non-goal, surface the conflict to Wilson (per `.claude/dev.md`),
+to conflict with a non-goal, surface the conflict to Wilson (per `.agent-toolkit/dev.md`),
 never silently trim the packet.
 
 - **No paid hosting/infra services** (§B deployment): GitHub Pages + Cloudflare free tier

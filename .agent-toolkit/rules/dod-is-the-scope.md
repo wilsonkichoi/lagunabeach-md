@@ -7,7 +7,7 @@ this task, in full, before hand-off.
   dispositions, or phase boundaries to skip or trim a DoD criterion. Those govern what
   enters a packet (Wilson + /dev:plan decide), never what leaves one mid-execution.
 - A missing implementation goal discovered mid-task or in review is fixed in this task.
-  It is NOT a "deferred discovery"; Backlog stubs (.claude/dev.md) are only for work
+  It is NOT a "deferred discovery"; Backlog stubs (.agent-toolkit/dev.md) are only for work
   outside the packet's Objective/DoD.
 - If a DoD criterion genuinely conflicts with a doc, surface it to Wilson per the
   dev.md conflict rule. Silently trimming scope is a review BLOCKER, same class as

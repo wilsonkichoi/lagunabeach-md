@@ -151,7 +151,7 @@ with repo realities §E (written 2026-07-04) could not know.
 
 Same format and conventions as §E blocks (`/dev:plan` converts packets from here; Steps/
 Acceptance text governs packet detail). Model policy: all execution Opus (Wilson,
-2026-07-07); reviews follow `.claude/dev.md` defaults. Decisions behind these blocks
+2026-07-07); reviews follow `.agent-toolkit/dev.md` defaults. Decisions behind these blocks
 (scheduler substrate, ship mode, analytics stack, release train): ADR 005.
 
 **Phase 9: MCP + AI delivery**
@@ -280,8 +280,8 @@ _Phase 10 subtotal: AI 4.25h | Human 1h_
   Steps:
     1. Content PR review workflow on pull_request touching knowledge/** — editorial +
        factcheck rubric sourced from the playbook, review comment posted; flips
-       .claude/dev.md review_action_installed: true. Least-privilege permissions per
-       .claude/rules/github-actions-least-privilege.md.
+       .agent-toolkit/dev.md review_action_installed: true. Least-privilege permissions per
+       .agent-toolkit/rules/github-actions-least-privilege.md.
     2. Scheduled maintainer routine (claude-cron): internal-link audit + article-health
        sweep; regressions filed as issues/Linear stubs, feeding the 11.8 rewrite queue.
   Acceptance: a contributor PR receives an automated editorial review; a planted broken

@@ -10,6 +10,8 @@ work_in_progress_limit: 2      # max tasks simultaneously In Progress + In Revie
 max_fix_attempts: 3            # CI-fix or review-fix cycles before a task goes Blocked
 max_tasks_per_run: 5           # batch cap for /dev:auto and /loop /dev:execute
 auto_merge: true               # standing merge approval for /dev:auto (see that skill)
+context_file: AGENTS.md        # AGENTS.md carries the reference line; CLAUDE.md reaches it via an @AGENTS.md shim
+rules_dir: .agent-toolkit/rules/  # promoted learnings, one file per rule (dev:retro writes here)
 ---
 
 # Project conventions
@@ -46,7 +48,7 @@ A session loads only the references its task cites — nothing else.
 From Phase 5, task **code** executes in the **sekai-kb** repo
 (`git@github.com:wilsonkichoi/sekai-kb.git`, cloned at `~/src/sekai-kb`) — the framework
 template cut in LB-26. The Linear tracker (team `LB`, project "LB Rebuild") and **all**
-process/planning docs (this file, `.claude/rules/`, `.fable/STRATEGIC-DIRECTION.md`,
+process/planning docs (this file, `.agent-toolkit/rules/`, `.fable/STRATEGIC-DIRECTION.md`,
 `docs/`) stay in `lagunabeach-md`. A packet's `Execution repo:` field names where its code
 lands; absent that field, assume `sekai-kb` for Phase 5+.
 
@@ -94,7 +96,7 @@ entries, and its own content/media. `FRAMEWORK-VERSION` records the adopted tag.
   `CATEGORY_MAP` for category icons/descriptions, but that const is slug→title only — the real
   source is `src/utils/categoryConfig.ts`, forcing a mid-task source hunt.
 - **Mirror the fork's exact dep versions, not caret ranges** — see
-  `.claude/rules/extraction-version-pinning.md`. A packet's `^`/`~` ranges are advisory; the
+  `.agent-toolkit/rules/extraction-version-pinning.md`. A packet's `^`/`~` ranges are advisory; the
   fork's installed version is the contract.
 - **Read ahead, plan JIT.** When decomposing phase n, `/dev:plan` must read the §E / ROADMAP
   sections for phases n+1 and n+2 and include a **Forward constraints** section in the dry
@@ -107,7 +109,7 @@ entries, and its own content/media. `FRAMEWORK-VERSION` records the adopted tag.
   merge topology (tag merges, merge-base establishment, ancestry) must say its PR merges
   with a real merge commit — the `merge_policy: squash` default silently flattens
   history-shaped deliverables. Found as LB-33 review B1;
-  `.claude/rules/upgrade-prs-merge-commit-never-squash.md` carries the execution/verify
+  `.agent-toolkit/rules/upgrade-prs-merge-commit-never-squash.md` carries the execution/verify
   guard.
 
 ## Execution conventions
@@ -141,3 +143,43 @@ entries, and its own content/media. `FRAMEWORK-VERSION` records the adopted tag.
   the working directory's repo (lagunabeach-md), which has its own PR numbering.
   Do NOT set the `github_repo:` frontmatter key for this; it is reserved for
   `secondary_intake: github` routing.
+
+## Rules
+
+Promoted engineering + process lessons (`dev:retro`) in `rules_dir`
+(`.agent-toolkit/rules/`). Two tiers:
+
+- **Doctrine (imported every session).** Standing judgment about how work is
+  scoped, reviewed, and shipped in this repo. Each is `@`-imported below, so a
+  Claude session boots with the full text inlined (chain: `CLAUDE.md` →
+  `@AGENTS.md` → `@.agent-toolkit/dev.md` → these `@` lines). Codex reads them by
+  following the paths from `AGENTS.md`.
+- **Gotchas (indexed, opened on trigger).** Narrow, CI-gated build gotchas.
+  Indexed by path + trigger hook, **not** `@`-imported: a session opens the file
+  only when its hook fires, not every session.
+
+### Doctrine — imported
+
+- @.agent-toolkit/rules/dod-is-the-scope.md — the claimed task's Objective + DoD is the whole scope; never trim a DoD criterion citing "don't over-engineer"/simplicity/phase boundaries — silent scope-drop is a review blocker.
+- @.agent-toolkit/rules/clean-rebuild-no-dead-fork-code.md — this is a clean rebuild: dead fork-era code (unreachable branches, zh-TW fallbacks, fork-context comments) is a review **blocker**, not a nit; strip it at extraction, sweep ported files for CJK before hand-off.
+- @.agent-toolkit/rules/fork-sweep-semantic-not-encoding.md — a "dead fork code removed" claim needs a semantic grep (SPORE/APPLIES_TO/zh-TW/taiwan.md/…) plus the codepoint grep; enumerate the fork's vocabulary once, sweep `scripts/` + `tests/` together, ship a mechanical guard.
+- @.agent-toolkit/rules/upgrade-prs-merge-commit-never-squash.md — a PR whose branch history is the deliverable (framework-upgrade / tag-merge / merge-base) merges with `gh pr merge --merge`, never squash, and asserts `git merge-base --is-ancestor` after.
+- @.agent-toolkit/rules/dod-guard-suite-must-run-in-ci.md — a test suite cited as a DoD regression guard counts only if the CI workflow actually runs it; check `deploy.yml` for the exact script name and wire it in if missing — a green local run is not a gate.
+- @.agent-toolkit/rules/genericity-gate-scope.md — what the genericity + English-only gates check (place-name denylist grep + CJK-codepoint scan over `src/` + `scripts/` + `tests/`), what they don't (hex colors), and that they scan comments/doc-strings too.
+
+### Gotchas — indexed
+
+- `.agent-toolkit/rules/extraction-version-pinning.md` — pin build-toolchain deps (`astro`, `tailwindcss`, `@tailwindcss/vite`) to an exact build-verified version, never a caret range; security patches take precedence over matching the fork; the gate is a green build, not a vite-major count.
+- `.agent-toolkit/rules/visual-parity-comparison-target.md` — visual-parity DoD compares against the v1 fork (`../lagunabeach-md-v1`, `npm run dev -- --port 4322`) at desktop and ~375px for every touched page; run both servers side-by-side before the PR.
+- `.agent-toolkit/rules/astro-geojson-import-raw.md` — build-time import of a `.geojson` (or other non-JSON data extension): use `?raw` + `JSON.parse`; Vite has no loader for the bare extension.
+- `.agent-toolkit/rules/astro-json-island-escape.md` — emitting build-time JSON into a `set:html` `<script type="application/json">` island: escape every `<` to its `\u003c` form (`JSON.stringify` does not), or a `</script>` inside a string value breaks out of the island.
+- `.agent-toolkit/rules/astro-static-paths-scope.md` — `getStaticPaths` helpers must be inlined or exported; non-exported frontmatter helpers are tree-shaken from the prerender chunk and throw at build.
+- `.agent-toolkit/rules/external-link-arrow-exclusion.md` — adding a `target="_blank"` link inside an article surface: give it `class="no-external-icon"` or global CSS appends a stray ↗.
+- `.agent-toolkit/rules/github-actions-least-privilege.md` — a workflow that runs PR code sets `permissions: contents: read` top-level; grant write scopes only on the job that needs them.
+- `.agent-toolkit/rules/gray-matter-date-normalization.md` — normalize `matter().data.date` to an ISO string immediately; gray-matter silently coerces unquoted YAML dates to `Date`, breaking sort/`slice`.
+- `.agent-toolkit/rules/lockfile-cross-platform.md` — after a dependency change verify `rm -rf node_modules && npm ci`; fully regenerate the lockfile when a package has platform-conditional native bindings.
+- `.agent-toolkit/rules/optional-build-time-json-readfilesync.md` — an optional (maybe-absent) build-time JSON file: read it with `readFileSync` + `try/catch`, never `await import()` (Rollup fails to resolve before the catch runs).
+- `.agent-toolkit/rules/prebuild-parallel-no-sibling-rm.md` — a `run-p` prebuild script cleans only its own output subtree, never a shared parent dir a sibling writes into concurrently.
+- `.agent-toolkit/rules/prebuild-scripts-compute-not-fabricate.md` — prebuild scripts have full fs/git access: compute values from real repo data; hardcoding constants (with a "no access" comment) is fabricated data and a review blocker.
+- `.agent-toolkit/rules/remark-plugin-no-dynamic-import.md` — remark/rehype plugins can't dynamically `import()` project config inside Vite's module runner; pass project data as plugin options from `astro.config.ts`.
+- `.agent-toolkit/rules/shell-script-portability.md` — `scripts/**` must run on macOS bash 3.2 and CI bash 5: no `mapfile`/`readarray`, `unset CDPATH` before `cd`-in-`$()`.
