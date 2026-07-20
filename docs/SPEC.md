@@ -37,20 +37,23 @@ template repo) + `lagunabeach-md` (instance #1, re-based onto it). Instances mer
 releases only, never framework main**; determinism guaranteed by (a) immutable semver tags
 + CHANGELOG upgrade notes, (b) zero place content in the template, (c) `merge=ours` on
 instance-owned files (`place.config.ts`, `knowledge/**`, `public/media/**`, `CNAME`,
-`CLAUDE.md`), (d) the **ownership rule**: instance `src/` and `scripts/` are
-framework-owned — customization flows through config/content/media; anything more is
-upstreamed to sekai-kb first and pulled back as a release. `FRAMEWORK-VERSION` records the
-instance's version; the `/upgrade` skill wraps fetch → merge tag → build-verify → conflict
-report. Directory shape: §B's tree (same shape for framework and instances).
+`CLAUDE.md`, `AGENTS.md`, `README.md`, `docs/baselines/**`,
+`scripts/ci/genericity-denylist.local.txt`, `.agent-toolkit/**`), (d) the **ownership
+rule**: instance `src/` and `scripts/` are framework-owned — customization flows through
+config/content/media; anything more is upstreamed to sekai-kb first and pulled back as a
+release. `FRAMEWORK-VERSION` records the instance's version; the `/upgrade` skill wraps
+fetch → merge tag → build-verify → conflict report. Directory shape: §B's tree (same shape
+for framework and instances).
 
 > **Skill ownership (2026-07-11 (c), task 5.6):** the framework skills under
 > `.claude/skills/` (`/write`, `/validate`, `/factcheck`, router, plus `/adopt`,
 > `/seed-articles`, `/upgrade`) are framework-owned, same class as `src/`. Adopters ADD
 > new skills freely — new files never conflict on upgrade. Overriding a framework skill
 > means upstreaming the change to sekai-kb first, or accepting a conflict-managed local
-> fork that `/upgrade` flags on every release. The 5.4 `merge=ours` list extends beyond
-> §B's five instance-owned files with `docs/baselines/**` and
-> `scripts/ci/genericity-denylist.local.txt` (final list minted in the 5.4 packet).
+> fork that `/upgrade` flags on every release. ADR 006 supersedes §B's five-file
+> instance-owned baseline by adding `AGENTS.md`, `README.md`, `docs/baselines/**`,
+> `scripts/ci/genericity-denylist.local.txt`, and `.agent-toolkit/**`; `CLAUDE.md` remains
+> instance-owned as the byte-exact one-line `@AGENTS.md` shim.
 
 > **Release train for post-cut feature phases (9-11, ADR 005):** those phases execute in
 > `sekai-kb`; each ships as a tagged release, and instances (LB first) adopt via
