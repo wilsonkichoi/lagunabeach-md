@@ -78,3 +78,35 @@ frozen; this ADR is the operative record of the superseding decision.
 - The `merge=ours` list is now: `place.config.ts`, `knowledge/**`, `public/media/**`,
   `CNAME`, `CLAUDE.md`, `AGENTS.md`, `README.md`, `docs/baselines/**`,
   `scripts/ci/genericity-denylist.local.txt`, `.agent-toolkit/**`.
+
+## Addendum (2026-07-19): AGENTS.md is the single source of truth for agent instructions
+
+**Status:** Accepted (2026-07-19, Wilson-approved). **Executes:** sekai-kb release
+v1.0.3 (framework side) + the matching lagunabeach-md instance restructure.
+
+The original decision left `AGENTS.md` and `CLAUDE.md` as two content-bearing files:
+`CLAUDE.md` was "the boot document" and `AGENTS.md` pointed back to it ("Read
+CLAUDE.md — it is the boot document"). Two documents holding agent instructions means
+content can drift between them, and Codex (which reads `AGENTS.md` natively) reached
+the substance only by a redirect. This addendum collapses them:
+
+- **`AGENTS.md` holds ALL agent instructions** — place identity, where things live,
+  how work happens, the iron rules, the language boundary, the semiont probe, the
+  content working set, and (for a repo that keeps it) the dev-plugin sentinel block.
+- **`CLAUDE.md` is a pure one-line `@AGENTS.md` shim** with no content of its own.
+  Claude Code inlines it recursively (`CLAUDE.md` → `AGENTS.md` →
+  `@.agent-toolkit/dev.md` → doctrine rules, within the import-depth limit); Codex
+  reads `AGENTS.md` directly.
+- **This supersedes the "CLAUDE.md is the boot document" framing** in ruling-era text
+  and in the `AGENTS.md` "Read CLAUDE.md" pointer (now removed). No content is lost in
+  the move and none is duplicated across the two files.
+
+Mechanism update to ruling (c): the init wizard no longer strips a dev-plugin
+*reference line* from a seeded `AGENTS.md`; it **renders `AGENTS.md`
+place-specifically** (carrying no dev-plugin sentinel block) and writes `CLAUDE.md` as
+the `@AGENTS.md` shim (`scripts/init/writer.mjs`; `scripts/init/check-init.sh` asserts
+the new shape). Ruling (d) still holds, with `CLAUDE.md` exempt from starter
+reconciliation as a fixed shim. Because `AGENTS.md`, `CLAUDE.md`, and
+`.agent-toolkit/**` are `merge=ours`, an existing instance mirrors this consolidation
+as a manual instance-side edit after merging the framework tag (see the
+`sekai-kb-v1.0.3` CHANGELOG upgrade note).

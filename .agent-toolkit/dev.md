@@ -10,7 +10,7 @@ work_in_progress_limit: 2      # max tasks simultaneously In Progress + In Revie
 max_fix_attempts: 3            # CI-fix or review-fix cycles before a task goes Blocked
 max_tasks_per_run: 5           # batch cap for /dev:auto and /loop /dev:execute
 auto_merge: true               # standing merge approval for /dev:auto (see that skill)
-context_file: AGENTS.md        # AGENTS.md carries the reference line; CLAUDE.md reaches it via an @AGENTS.md shim
+context_file: AGENTS.md        # AGENTS.md is the agent-instruction SSOT + carries the dev-plugin reference line; CLAUDE.md is a one-line @AGENTS.md shim
 rules_dir: .agent-toolkit/rules/  # promoted learnings, one file per rule (dev:retro writes here)
 ---
 
@@ -151,8 +151,8 @@ Promoted engineering + process lessons (`dev:retro`) in `rules_dir`
 
 - **Doctrine (imported every session).** Standing judgment about how work is
   scoped, reviewed, and shipped in this repo. Each is `@`-imported below, so a
-  Claude session boots with the full text inlined (chain: `CLAUDE.md` →
-  `@AGENTS.md` → `@.agent-toolkit/dev.md` → these `@` lines). Codex reads them by
+  Claude session boots with the full text inlined (chain: `CLAUDE.md` shim →
+  `AGENTS.md` → `@.agent-toolkit/dev.md` → these `@` lines). Codex reads them by
   following the paths from `AGENTS.md`.
 - **Gotchas (indexed, opened on trigger).** Narrow, CI-gated build gotchas.
   Indexed by path + trigger hook, **not** `@`-imported: a session opens the file
