@@ -8,10 +8,10 @@
 # `merge=ours` below silently no-ops. See docs/runbook/UPGRADE.md.
 #
 # This is instance #1 (lagunabeach.md), re-based onto the sekai-kb framework in
-# task 5.4. The list below extends the framework baseline
-# (place.config.ts, knowledge/**, public/media/**, CNAME, CLAUDE.md, README.md)
-# with the two instance-owned paths minted in the 5.4 packet:
-#   docs/baselines/**  and  scripts/ci/genericity-denylist.local.txt
+# task 5.4. ADR 006 approved the full instance-owned list below: place.config.ts,
+# knowledge/**, public/media/**, CNAME, CLAUDE.md, AGENTS.md, README.md,
+# docs/baselines/**, scripts/ci/genericity-denylist.local.txt, and
+# .agent-toolkit/**.
 # See docs/runbook/UPGRADE.md §Instance-owned files. Add your own below.
 
 place.config.ts merge=ours

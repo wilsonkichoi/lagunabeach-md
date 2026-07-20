@@ -1,8 +1,8 @@
 {
-  "name": "sekai-kb",
+  "name": "lagunabeach-md",
   "type": "module",
-  "version": "1.0.4",
-  "description": "AI-native place knowledge base — the sekai-kb framework template.",
+  "version": "0.0.0",
+  "description": "AI-native open knowledge base \u2014 sekai-kb instance #1.",
   "engines": {
     "node": ">=22.12.0"
   },

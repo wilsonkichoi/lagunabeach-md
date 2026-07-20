@@ -61,6 +61,21 @@ inlined.
    `${SRC_HOME}/lagunabeach-md-v1` per the spec's §C, then genericized — never
    re-prompted from description.
 
+## Language support boundary
+
+UI strings and editorial tooling are English-calibrated; Latin-script content
+largely works (plain word tokenization; article-health prose thresholds may need
+retuning per instance); CJK content is unsupported until the post-project
+multi-language revisit. `place.locale` and `place.languages[]` are declared but
+dormant schema seams — don't build on them.
+
+## Semiont probe
+
+`semiont/config.json` at the repo root configures the autonomous-organ layer
+(memory, routines — arrives in a later framework release). Skills and scripts that
+look for it must **no-op gracefully when it is absent**. It is absent in this
+release; nothing should require it.
+
 ## Content working set
 
 Beyond the overview above, the working set for any agent session:
