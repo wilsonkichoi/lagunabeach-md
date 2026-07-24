@@ -1,3 +1,7 @@
+---
+tier: doctrine
+---
+
 # A test suite cited as a DoD guard counts only if CI runs it
 
 When a packet or DoD names a test suite as the regression guard ("the next doc move fails

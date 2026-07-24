@@ -1,3 +1,7 @@
+---
+tier: doctrine
+---
+
 # History-bearing PRs merge with a merge commit, never squash
 
 Any PR whose branch history IS the deliverable must be merged with a real merge commit

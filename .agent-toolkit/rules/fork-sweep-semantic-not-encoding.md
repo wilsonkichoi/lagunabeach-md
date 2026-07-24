@@ -1,3 +1,7 @@
+---
+tier: doctrine
+---
+
 # Fork-code sweep: semantic grep, not just codepoint grep
 
 The CJK codepoint grep (`rg '[\x{3000}-\x{9fff}\x{ff00}-\x{ffef}]'`) proves CJK

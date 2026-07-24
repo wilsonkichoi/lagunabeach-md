@@ -155,28 +155,41 @@ LB-44 implements and regression-tests this Phase 5 upgrade contract.
 
 ## Rules
 
-Promoted engineering + process lessons (`dev:retro`) in `rules_dir`
-(`.agent-toolkit/rules/`). Two tiers:
+Promoted engineering + process lessons (`dev:retro`) live in `rules_dir`
+(`.agent-toolkit/rules/`), one file per rule. Project bootstrap **discovers**
+them by walking `rules_dir` and reading each file's `tier` frontmatter — it does
+not `@`-import a registry list, so nothing here is a bare `@path` line (a leftover
+`@` import would make a harness inline every gotcha each session, defeating the
+triggers). Every Markdown file under `rules_dir` must declare a valid `tier`; an
+unclassified file fails the bootstrap closed rather than being silently dropped.
+See the dev plugin's `runtime_contracts/project-bootstrap.md` for the loading
+contract and trigger matching.
 
-- **Doctrine (imported every session).** Standing judgment about how work is
-  scoped, reviewed, and shipped in this repo. Each is `@`-imported below, so a
-  Claude session boots with the full text inlined (chain: `CLAUDE.md` shim →
-  `AGENTS.md` → `@.agent-toolkit/dev.md` → these `@` lines). Codex reads them by
-  following the paths from `AGENTS.md`.
-- **Gotchas (indexed, opened on trigger).** Narrow, CI-gated build gotchas.
-  Indexed by path + trigger hook, **not** `@`-imported: a session opens the file
-  only when its hook fires, not every session.
+- **`tier: doctrine`** — always selected by project bootstrap; standing judgment
+  about how work is scoped, reviewed, and shipped here, inlined into every dev
+  session on either harness.
+- **`tier: gotcha`** — selected only when a `triggers:` entry matches the task: a
+  `paths` glob against the changed files, or an `objective` / `definition_of_done`
+  case-insensitive substring. A gotcha needs at least one trigger.
+- **`tier: none`** — a non-rule Markdown file that stays in place, loaded by nothing.
 
-### Doctrine — imported
+`.agent-toolkit/scripts/check-rule-registry.mjs` gates complete classification in
+CI (every rule file carries a valid tier; every gotcha declares a trigger; no
+`## Rules` entry is a bare `@path`); the required `test` job in
+`.github/workflows/deploy.yml` runs it whenever `.agent-toolkit/dev.md` is present.
+The tier tables below are a human index of what is promoted; the resolver's source
+of truth is each file's own frontmatter, not this list.
 
-- @.agent-toolkit/rules/dod-is-the-scope.md — the claimed task's Objective + DoD is the whole scope; never trim a DoD criterion citing "don't over-engineer"/simplicity/phase boundaries — silent scope-drop is a review blocker.
-- @.agent-toolkit/rules/clean-rebuild-no-dead-fork-code.md — this is a clean rebuild: dead fork-era code (unreachable branches, zh-TW fallbacks, fork-context comments) is a review **blocker**, not a nit; strip it at extraction, sweep ported files for CJK before hand-off.
-- @.agent-toolkit/rules/fork-sweep-semantic-not-encoding.md — a "dead fork code removed" claim needs a semantic grep (SPORE/APPLIES_TO/zh-TW/taiwan.md/…) plus the codepoint grep; enumerate the fork's vocabulary once, sweep `scripts/` + `tests/` together, ship a mechanical guard.
-- @.agent-toolkit/rules/upgrade-prs-merge-commit-never-squash.md — a PR whose branch history is the deliverable (framework-upgrade / tag-merge / merge-base) merges with `gh pr merge --merge`, never squash, and asserts `git merge-base --is-ancestor` after.
-- @.agent-toolkit/rules/dod-guard-suite-must-run-in-ci.md — a test suite cited as a DoD regression guard counts only if the CI workflow actually runs it; check `deploy.yml` for the exact script name and wire it in if missing — a green local run is not a gate.
-- @.agent-toolkit/rules/genericity-gate-scope.md — what the genericity + English-only gates check (place-name denylist grep + CJK-codepoint scan over `src/` + `scripts/` + `tests/`), what they don't (hex colors), and that they scan comments/doc-strings too.
+### Doctrine
 
-### Gotchas — indexed
+- `.agent-toolkit/rules/dod-is-the-scope.md` — the claimed task's Objective + DoD is the whole scope; never trim a DoD criterion citing "don't over-engineer"/simplicity/phase boundaries — silent scope-drop is a review blocker.
+- `.agent-toolkit/rules/clean-rebuild-no-dead-fork-code.md` — this is a clean rebuild: dead fork-era code (unreachable branches, zh-TW fallbacks, fork-context comments) is a review **blocker**, not a nit; strip it at extraction, sweep ported files for CJK before hand-off.
+- `.agent-toolkit/rules/fork-sweep-semantic-not-encoding.md` — a "dead fork code removed" claim needs a semantic grep (SPORE/APPLIES_TO/zh-TW/taiwan.md/…) plus the codepoint grep; enumerate the fork's vocabulary once, sweep `scripts/` + `tests/` together, ship a mechanical guard.
+- `.agent-toolkit/rules/upgrade-prs-merge-commit-never-squash.md` — a PR whose branch history is the deliverable (framework-upgrade / tag-merge / merge-base) merges with `gh pr merge --merge`, never squash, and asserts `git merge-base --is-ancestor` after.
+- `.agent-toolkit/rules/dod-guard-suite-must-run-in-ci.md` — a test suite cited as a DoD regression guard counts only if the CI workflow actually runs it; check `deploy.yml` for the exact script name and wire it in if missing — a green local run is not a gate.
+- `.agent-toolkit/rules/genericity-gate-scope.md` — what the genericity + English-only gates check (place-name denylist grep + CJK-codepoint scan over `src/` + `scripts/` + `tests/`), what they don't (hex colors), and that they scan comments/doc-strings too.
+
+### Gotchas
 
 - `.agent-toolkit/rules/extraction-version-pinning.md` — pin build-toolchain deps (`astro`, `tailwindcss`, `@tailwindcss/vite`) to an exact build-verified version, never a caret range; security patches take precedence over matching the fork; the gate is a green build, not a vite-major count.
 - `.agent-toolkit/rules/visual-parity-comparison-target.md` — visual-parity DoD compares against the v1 fork (`../lagunabeach-md-v1`, `npm run dev -- --port 4322`) at desktop and ~375px for every touched page; run both servers side-by-side before the PR.

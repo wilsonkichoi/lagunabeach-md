@@ -1,3 +1,7 @@
+---
+tier: doctrine
+---
+
 # Clean rebuild: dead fork-era code is a blocker, not a nit
 
 This is a clean rebuild, not a fork maintenance project. Unreachable code carried from the
