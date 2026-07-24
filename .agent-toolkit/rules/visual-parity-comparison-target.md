@@ -1,3 +1,18 @@
+---
+tier: gotcha
+triggers:
+  paths:
+    - "src/components/**/*.astro"
+    - "src/layouts/**/*.astro"
+    - "src/pages/**/*.astro"
+  objective:
+    - "visual parity"
+    - "design parity"
+  definition_of_done:
+    - "visual parity"
+    - "parity"
+---
+
 # Visual parity: comparison target and method
 
 When a task's DoD requires visual/design parity, the comparison target is the v1 fork:

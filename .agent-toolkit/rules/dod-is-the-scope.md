@@ -1,3 +1,7 @@
+---
+tier: doctrine
+---
+
 # The task packet's DoD is the scope: no self-directed deferral
 
 The claimed task's Objective + DoD define done. Every DoD criterion is implemented in

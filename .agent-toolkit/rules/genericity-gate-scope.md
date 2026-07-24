@@ -1,3 +1,7 @@
+---
+tier: doctrine
+---
+
 # Genericity gate: what it actually checks (and what it doesn't)
 
 Two machine gates run over the same code trees, wired into the `genericity` CI job and the

@@ -1,3 +1,17 @@
+---
+tier: gotcha
+triggers:
+  paths:
+    - "package.json"
+    - "package-lock.json"
+  objective:
+    - "dependency"
+    - "toolchain"
+  definition_of_done:
+    - "dependency"
+    - "npm run build"
+---
+
 # Pin build-toolchain deps to an exact, build-verified version — never caret ranges
 
 When a task copies dependencies from the fork (`lagunabeach-md-v1`) `package.json`, pin

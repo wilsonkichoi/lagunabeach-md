@@ -44,9 +44,11 @@ Never mark work done outside a verified merge.
 The dev-plugin config and promoted rules live in `.agent-toolkit/`. Codex reads this
 file (`AGENTS.md`) natively, and Claude Code reaches it through the one-line
 `@AGENTS.md` shim in `CLAUDE.md`; from here the dev-plugin reference line below
-imports the rest of the chain (`AGENTS.md` → `@.agent-toolkit/dev.md` → the doctrine
-rules its `## Rules` index imports), so a session boots with the doctrine rules
-inlined.
+`@`-imports the config (`AGENTS.md` → `@.agent-toolkit/dev.md`). The promoted rules
+themselves are **not** `@`-imported: project bootstrap discovers them by walking
+`rules_dir` and reading each file's `tier` frontmatter, loading doctrine into every
+dev session and gotchas only on a trigger match (see the `## Rules` section of
+`dev.md` and the dev plugin's `runtime_contracts/project-bootstrap.md`).
 
 ## Iron rules
 
@@ -101,9 +103,10 @@ Beyond the overview above, the working set for any agent session:
 This instance is developed with the **agent-toolkit dev plugin** — tasks live in
 Linear, one PR per task behind CI, `dev:execute` → `dev:review-pr` → `dev:verify`.
 The config and promoted rules live in `.agent-toolkit/` (the dev plugin's
-`context_file` points here); the reference line below imports the config, whose
-`## Rules` index in turn imports the doctrine rules. Adopting this instance as a
-template strips this block and the `.agent-toolkit/` tree.
+`context_file` points here); the reference line below `@`-imports the config
+(`dev.md`). The promoted rules are loaded by project bootstrap discovering
+`rules_dir` by each file's `tier` frontmatter, not by `@` import. Adopting this
+instance as a template strips this block and the `.agent-toolkit/` tree.
 
 Dev workflow (agent-toolkit dev plugin): @.agent-toolkit/dev.md
 <!-- dev-plugin:end -->
