@@ -1,8 +1,10 @@
 ---
+dev_plugin_repository: wilsonkichoi/agent-toolkit
+dev_plugin_release: dev-v0.0.72
 tracker: linear
 linear_team: LB
 linear_project: "LB Rebuild"
-test_command: "npm run test:ci && npm run article-health -- --all --profile=ci-deploy && npm run build"
+test_command: "npm run dev-plugin:check && npm run test:ci && npm run article-health -- --all --profile=ci-deploy && npm run build"
 ci_workflow: deploy.yml        # GH Actions workflow: genericity + build on every PR, deploy on push to main (LB-2)
 merge_policy: squash
 review_action_installed: false # auto PR-review GitHub Action (claude-review.yml) is set up; flips true at task 11.3
@@ -175,11 +177,12 @@ contract and trigger matching.
 
 CI gates complete classification with the dev plugin's own checker
 (`resolve_project_rules.py --check`), run through the upstream composite action
-pinned at an immutable release tag:
-`wilsonkichoi/agent-toolkit/.github/actions/check-rules@dev-v0.0.70`. This
-repository vendors no second copy of that checker. The step lives in the `test`
-job of `.github/workflows/deploy.yml`, which runs on every pull request and push
-to `main`; `build` needs `test` and `deploy` needs `build`, so a red check blocks
+declared by `dev_plugin_repository` and `dev_plugin_release` in this file's
+frontmatter. This repository vendors no second copy of that checker. The
+`npm run dev-plugin:check` gate fails if a `check-rules` workflow reference drifts
+from that declaration. The action step lives in the `test` job of
+`.github/workflows/deploy.yml`, which runs on every pull request and push to
+`main`; `build` needs `test` and `deploy` needs `build`, so a red check blocks
 deployment through the job graph. As checked 2026-07-25, `main` has no branch
 protection, so `test` is not a GitHub required status check. The tier tables below
 are a human index of what is promoted; the resolver's source of truth is each
