@@ -74,7 +74,7 @@ for framework and instances).
 ## `place.config.ts` (§B — THE ingress for place identity)
 
 Schema (full version in §B): `place {name, tagline, domain, locale, languages}`,
-`categories[] {slug, title, icon, description}` (5-14), `map {center, zoom, maxBounds}`,
+`categories[] {slug, title, icon, description, color?, colorLight?}` (5-14), `map {center, zoom, maxBounds}`,
 `features {graph, map, dashboard, soundscape, feedback, chat, social, analytics}`,
 `links {repo, email, social {twitter?, threads?, instagram?}}`,
 `seo {defaultOgImage, twitterHandle?}`. Init-time: written only by the `npm run init`
@@ -87,6 +87,13 @@ Runtime-toggleable: `features`, languages, semiont organs.
 > `links.social.*` render only when `features.social` is true. This intentionally
 > diverges from §B (frozen source of record); the init wizard (5.2) must add `links`
 > prompts. Tracked on LB-3.
+
+> **`categories[].color?` / `colorLight?` (added LB-40):** optional hex color strings
+> for category display (hero tints, tag badges, sidebar accents). Absent-safe: when
+> omitted, `categoryConfig.ts` falls back to `DEFAULT_COLOR`. This moves category
+> colors from a framework-owned slug-keyed palette to instance data, eliminating the
+> per-upgrade conflict on `categoryConfig.ts` that every non-demo-slug adopter hits.
+> Wilson approved extending the schema 2026-07-25. Tracked on LB-40.
 
 > **Phase 9-11 extensions (approved 2026-07-07, ADR 005):** `features.mcp` (task 9.1)
 > and `analytics` IDs (GA4 measurement ID, CF Web Analytics token — task 10.1) extend the
