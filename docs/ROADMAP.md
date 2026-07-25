@@ -6,11 +6,12 @@ blocks by `/dev:plan`, never re-derived; §E's Steps/Acceptance text governs pac
 Every phase transition is a Wilson gate — `/dev:plan` for phase n+1 runs only after Wilson
 confirms phase n closed. Estimates carried from §E (`AI implement+review | Human`).
 
-**Status (2026-07-19):** Phases 0-4 are complete and Wilson-confirmed. Phase 5 is in
-flight: the framework cut shipped and LB is re-based onto sekai-kb tags (currently
-v1.0.4), with the dev-plugin 0.0.55 migration landed as Phase-5 intake packets; close
-pends the dual-harness validation (LB-43) and phase-close stub triage. Phase 6 plans
-next; see the "Agent-toolkit migration amendment" below before converting Phase 8+
+**Status (2026-07-25):** Phases 0-5 are complete and Wilson-confirmed. Phase 5 delivered
+the framework cut (sekai-kb v1.0.5), init wizard, content skills, release discipline,
+LB re-based onto tagged releases (v1.0.4 adopted), dual-harness validation (LB-43), the
+dev-plugin migration (0.0.70, discovery-native rule loading), and the scan-root scope
+guard. 24 tasks, 53 points, 14 days. Phase 6 plans next; see the "Agent-toolkit
+migration amendment" below before converting Phase 8+
 packets.
 
 **Extension (Wilson-approved 2026-07-07):** milestones 9-11 extend beyond the frozen §E
