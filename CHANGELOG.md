@@ -33,6 +33,12 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+## [1.0.6] — 2026-07-25
+
+Moves category colors into instance configuration, makes genericity scan-root
+documentation machine-checked, and replaces the vendored dev-plugin rule checker
+with the upstream pinned composite action.
+
 ### Changed
 
 - **Category colors are now instance-owned.** The slug-keyed `COLOR_PALETTE` in
