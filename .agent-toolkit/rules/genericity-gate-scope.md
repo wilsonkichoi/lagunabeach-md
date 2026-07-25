@@ -14,11 +14,23 @@ Two machine gates run over the same code trees, wired into the `genericity` CI j
   2026-07-11 (b)). U+2014 em dash and U+201C/U+201D curly quotes are below U+3000 and are
   not flagged.
 
-**Scan scope: `src/`, `scripts/`, AND `tests/`** (extended in LB-20 from the original
-`src/` + `scripts/`). Test fixtures are code — the English-only + genericity doctrine is
-whole-project, never per-directory (STRATEGIC-DIRECTION 2026-07-11 (b); the earlier
-`scripts/`-only reading let `author: 'Taiwan.md'` and zh-TW fixtures ship in `tests/`).
-`workers/` is in the CJK gate's root list for when it arrives. Derived projections
+**Scan scope — the two gates do NOT share one root set.** In template mode (the
+`.sekai-template` marker, absent in this adopted instance) both scan the whole
+repository. In instance mode:
+
+- **`check-genericity.sh`** — four roots: `src/`, `scripts/`, `tests/`,
+  `.claude/skills/`.
+- **`check-english-only.mjs`** — five roots: `src/`, `scripts/`, `tests/`, `workers/`,
+  `.claude/skills/`. `workers/` is in the CJK gate's roots alone, so in instance mode a
+  denylisted place string under `workers/` is unguarded when that tree arrives.
+
+The shell gate appends each root only if the directory exists; the Node gate filters a
+fixed list the same way, so an absent root is skipped rather than an error. Scope grew
+from the original `src/` + `scripts/`: `tests/` plus the CJK gate in LB-20, then
+`.claude/skills/` with the framework skills in 5.6. Test fixtures are code and so is
+agent-executed prose — the English-only + genericity doctrine is whole-project, never
+per-directory (STRATEGIC-DIRECTION 2026-07-11 (b); the earlier `scripts/`-only reading
+let `author: 'Taiwan.md'` and zh-TW fixtures ship in `tests/`). Derived projections
 `src/content/` and `src/data/` (gitignored, place-specific by nature) are excluded from both
 gates by construction. Two consequences recur:
 

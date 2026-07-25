@@ -55,10 +55,20 @@ dev session and gotchas only on a trigger match (see the `## Rules` section of
 1. **SSOT:** `knowledge/` is the only content source of truth; `src/content/` is
    derived (gitignored, written by sync) and never edited directly.
 2. **Genericity + English-only:** zero place-specific strings and zero CJK/multi-language
-   code paths in any code tree — `src/`, `scripts/`, `tests/`, future `workers/`/plugin
-   code; test fixtures are code. Place identity flows from `place.config.ts` +
-   `knowledge/` + `public/media/` (CI-gated from 0.3; gate scope extended to `tests/` +
-   CJK-codepoint scan in LB-20; STRATEGIC-DIRECTION 2026-07-11 (b)).
+   code paths in any code tree; test fixtures are code, and so are the framework skills
+   under `.claude/skills/`. Place identity flows from `place.config.ts` + `knowledge/` +
+   `public/media/`. Machine-gated by `npm run genericity`, whose two gates carry
+   **different** instance-mode scan roots: `scripts/ci/check-genericity.sh` (place-name
+   denylist) scans `src/`, `scripts/`, `tests/`, `.claude/skills/`;
+   `scripts/ci/check-english-only.mjs` (CJK codepoints) scans `src/`, `scripts/`,
+   `tests/`, `workers/`, `.claude/skills/`; in template mode (the `.sekai-template`
+   marker, absent in this adopted instance) both scan the whole repository. Each root
+   is scanned only where the directory exists, so a root that has not arrived yet is
+   silently unguarded rather than an error — `workers/` is in the CJK gate's roots
+   alone, so a denylisted place string under `workers/` would go unchecked. History:
+   CI-gated from 0.3; scope extended to `tests/` plus the CJK-codepoint scan in LB-20
+   (STRATEGIC-DIRECTION 2026-07-11 (b)); `.claude/skills/` joined both gates with the
+   framework skills in 5.6 (`docs/SPEC.md` Negative requirements).
 3. **Extraction over invention:** design and components are copied from
    `${SRC_HOME}/lagunabeach-md-v1` per the spec's §C, then genericized — never
    re-prompted from description.
