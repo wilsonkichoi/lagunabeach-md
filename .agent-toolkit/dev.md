@@ -173,12 +173,17 @@ contract and trigger matching.
   case-insensitive substring. A gotcha needs at least one trigger.
 - **`tier: none`** — a non-rule Markdown file that stays in place, loaded by nothing.
 
-`.agent-toolkit/scripts/check-rule-registry.mjs` gates complete classification in
-CI (every rule file carries a valid tier; every gotcha declares a trigger; no
-`## Rules` entry is a bare `@path`); the required `test` job in
-`.github/workflows/deploy.yml` runs it whenever `.agent-toolkit/dev.md` is present.
-The tier tables below are a human index of what is promoted; the resolver's source
-of truth is each file's own frontmatter, not this list.
+CI gates complete classification with the dev plugin's own checker
+(`resolve_project_rules.py --check`), run through the upstream composite action
+pinned at an immutable release tag:
+`wilsonkichoi/agent-toolkit/.github/actions/check-rules@dev-v0.0.70`. This
+repository vendors no second copy of that checker. The step lives in the `test`
+job of `.github/workflows/deploy.yml`, which runs on every pull request and push
+to `main`; `build` needs `test` and `deploy` needs `build`, so a red check blocks
+deployment through the job graph. As checked 2026-07-25, `main` has no branch
+protection, so `test` is not a GitHub required status check. The tier tables below
+are a human index of what is promoted; the resolver's source of truth is each
+file's own frontmatter, not this list.
 
 ### Doctrine
 
