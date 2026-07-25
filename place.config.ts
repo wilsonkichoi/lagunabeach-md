@@ -23,6 +23,8 @@ export interface PlaceConfig {
     title: string;
     icon: string;
     description: string;
+    color?: string;
+    colorLight?: string;
   }>;
   /** Leaflet init: center [lat, lng], zoom, and maxBounds [[S,W],[N,E]]. */
   map: {
@@ -143,12 +145,16 @@ const config: PlaceConfig = {
       icon: '📜',
       description:
         'Founding, indigenous peoples, artists colony, historical events',
+      color: '#92400e',
+      colorLight: '#f59e0b20',
     },
     {
       slug: 'art-galleries',
       title: 'Art & Galleries',
       icon: '🎨',
       description: 'Plein air painting, galleries, public art, art festivals',
+      color: '#be185d',
+      colorLight: '#be185d20',
     },
     {
       slug: 'nature-marine-life',
@@ -156,24 +162,32 @@ const config: PlaceConfig = {
       icon: '🌊',
       description:
         'Tide pools, coastal ecology, marine protected areas, wildlife',
+      color: '#0e7490',
+      colorLight: '#0e749020',
     },
     {
       slug: 'food',
       title: 'Food',
       icon: '🍽️',
       description: 'Restaurants, cafes, food history, local specialties',
+      color: '#ea580c',
+      colorLight: '#ea580c20',
     },
     {
       slug: 'beaches',
       title: 'Beaches',
       icon: '🏖️',
       description: 'Individual beaches, access, conditions, surfing',
+      color: '#0284c7',
+      colorLight: '#0284c720',
     },
     {
       slug: 'trails',
       title: 'Trails',
       icon: '🥾',
       description: 'Hiking, coastal walks, trail conditions, views',
+      color: '#15803d',
+      colorLight: '#15803d20',
     },
     {
       slug: 'events-festivals',
@@ -181,12 +195,16 @@ const config: PlaceConfig = {
       icon: '🎭',
       description:
         'Pageant of the Masters, Sawdust Art Festival, seasonal events',
+      color: '#7c3aed',
+      colorLight: '#7c3aed20',
     },
     {
       slug: 'neighborhoods',
       title: 'Neighborhoods',
       icon: '🏘️',
       description: 'Top of the World, Village, South Laguna, Canyon areas',
+      color: '#b45309',
+      colorLight: '#b4530920',
     },
   ],
   map: {
