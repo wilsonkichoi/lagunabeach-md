@@ -12,6 +12,7 @@ CLAUDE.md merge=ours
 AGENTS.md merge=ours
 README.md merge=ours
 CHANGELOG.md merge=ours
+VERSION merge=ours
 FRAMEWORK-VERSION merge=ours
 place.config.ts merge=ours
 knowledge/** merge=ours

@@ -4,7 +4,7 @@ dev_plugin_release: dev-v0.0.72
 tracker: linear
 linear_team: LB
 linear_project: "LB Rebuild"
-test_command: "npm run genericity && npm run dev-plugin:check && npm run test:ci && npm run article-health:test && npm run article-health -- --all --profile=ci-deploy && npm run build"
+test_command: "npm run version:check && npm run genericity && npm run dev-plugin:check && npm run test:ci && npm run article-health:test && npm run article-health -- --all --profile=ci-deploy && npm run build"
 ci_workflow: deploy.yml        # GH Actions: genericity + test + build + init-check on every PR; deploy on push to main
 merge_policy: squash
 review_action_installed: false # auto PR-review GitHub Action (claude-review.yml) not installed
@@ -43,9 +43,11 @@ governs work committed here.
   marker makes `npm run genericity` scan the entire repo (not just code trees), so
   `.agent-toolkit/` content is scanned too — keep dev config and rules free of
   place-name denylist terms and CJK codepoints.
-- **Release = CHANGELOG entry → bump `package.json` `version` → tag
+- **Release = CHANGELOG entry → bump `FRAMEWORK-VERSION` → tag
   `sekai-kb-vX.Y.Z` → push the tag.** Tags are immutable and never re-pointed
-  (CHANGELOG release rules). Tagging is a `dev:verify`-time step, after merge.
+  (CHANGELOG release rules). The tag suffix must equal the file's v-prefixed value.
+  `package.json` is a private Node manifest, not a framework release SSOT. Tagging is
+  a `dev:verify`-time step, after merge.
 - **Framework-upgrade PRs in instances merge with a real merge commit, never
   squash** — the mechanics (Merge-instructions block in the PR body, post-merge
   `git merge-base --is-ancestor` ancestry assertion) live in the instance-side rule
@@ -67,6 +69,9 @@ governs work committed here.
   `git show <tag>:CHANGELOG.md`; it never copies the framework log over the instance log.
   `FRAMEWORK-VERSION` is also instance-owned: the merge preserves it, then `/upgrade`
   bumps it explicitly after verification.
+- **Version domains never overlap.** `VERSION` is the adopter's release SSOT and
+  carries `merge=ours`; `FRAMEWORK-VERSION` is the adopted Sekai release SSOT.
+  Neither value is stored in `package.json`.
 
 ## Rules
 
