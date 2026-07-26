@@ -32,6 +32,8 @@ the semiont probe, and the content working set.
   toolchain, CI, GitHub Pages, custom domain; every command copy-pasteable).
 - **Change history:** this template's `CHANGELOG.md` records framework releases.
   `npm run init` replaces it with an instance-owned changelog for adopter work.
+- **Versions:** `VERSION` is the adopter release SSOT. `FRAMEWORK-VERSION` is the
+  Sekai release adopted by that instance. `package.json` is not a version SSOT.
 - **Architecture diagrams (engineering SSOT):** `docs/diagrams/*.drawio`.
 - **Engineering rules:** `.agent-toolkit/rules/` — framework-owned lessons that keep
   the build green (Astro/Vite gotchas, prebuild ordering, shell portability,

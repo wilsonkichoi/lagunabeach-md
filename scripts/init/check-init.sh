@@ -9,7 +9,8 @@
 #      same answers; its place.config.ts must be byte-identical to the
 #      `--answers` output. This is the DoD-2/§E contract (the two resolution
 #      paths cannot drift), not just writer determinism.
-#   3. Asserts every seeded artifact: FRAMEWORK-VERSION, the AGENTS.md header,
+#   3. Asserts every seeded artifact: VERSION, FRAMEWORK-VERSION, package identity,
+#      the AGENTS.md header,
 #      the CLAUDE.md @AGENTS.md shim, the README.md header, the instance-only
 #      CHANGELOG.md, knowledge/{Category}/
 #      dirs, INBOX.md, CNAME, the local genericity denylist, and the removed
@@ -119,6 +120,15 @@ echo "✓ two --answers runs produce byte-identical place.config.ts"
 cmp "$TMP/run1/CHANGELOG.md" "$TMP/run2/CHANGELOG.md" \
   || fail "CHANGELOG.md differs between two --answers runs (not byte-identical)"
 echo "✓ two --answers runs produce byte-identical instance changelogs"
+cmp "$TMP/run1/package.json" "$TMP/run2/package.json" \
+  || fail "package.json differs between two --answers runs (not byte-identical)"
+cmp "$TMP/run1/package-lock.json" "$TMP/run2/package-lock.json" \
+  || fail "package-lock.json differs between two --answers runs (not byte-identical)"
+cmp "$TMP/run1/VERSION" "$TMP/run2/VERSION" \
+  || fail "VERSION differs between two --answers runs (not byte-identical)"
+cmp "$TMP/run1/FRAMEWORK-VERSION" "$TMP/run2/FRAMEWORK-VERSION" \
+  || fail "FRAMEWORK-VERSION differs between two --answers runs (not byte-identical)"
+echo "✓ two --answers runs produce byte-identical package and version artifacts"
 
 # DoD-2 (cross-mode, the §E acceptance): the INTERACTIVE path with the same
 # answers must produce the same bytes as --answers. resolveInteractive/parseText
@@ -159,12 +169,36 @@ echo "✓ interactive mode with the same answers is byte-identical to --answers"
 
 # DoD-6: seeded artifacts exist.
 R="$TMP/run1"
+[ -f "$R/VERSION" ] || fail "VERSION not written"
+[ "$(cat "$R/VERSION")" = "v0.0.0" ] || fail "VERSION is not initialized to v0.0.0"
 [ -f "$R/FRAMEWORK-VERSION" ] || fail "FRAMEWORK-VERSION not written"
 [ -s "$R/FRAMEWORK-VERSION" ] || fail "FRAMEWORK-VERSION is empty"
+cmp "$R/FRAMEWORK-VERSION" "$ROOT/FRAMEWORK-VERSION" \
+  || fail "FRAMEWORK-VERSION does not match the checked-out framework release"
 grep -Fxq 'CHANGELOG.md merge=ours' "$R/.gitattributes" \
   || fail "CHANGELOG.md is not instance-owned in .gitattributes"
 grep -Fxq 'FRAMEWORK-VERSION merge=ours' "$R/.gitattributes" \
   || fail "FRAMEWORK-VERSION is not instance-owned in .gitattributes"
+grep -Fxq 'VERSION merge=ours' "$R/.gitattributes" \
+  || fail "VERSION is not instance-owned in .gitattributes"
+node - "$R/package.json" "$R/package-lock.json" "$NAME_LC" "$NAME" <<'NODE'
+const fs = require('node:fs');
+const [pkgPath, lockPath, expectedPackageName, expectedPlaceName] = process.argv.slice(2);
+const pkg = JSON.parse(fs.readFileSync(pkgPath, 'utf8'));
+const lock = JSON.parse(fs.readFileSync(lockPath, 'utf8'));
+if (pkg.name !== expectedPackageName) throw new Error(`unexpected package name: ${pkg.name}`);
+if (pkg.private !== true) throw new Error('package is not private');
+if (Object.hasOwn(pkg, 'version')) throw new Error('package.json.version survived init');
+if (pkg.description !== `AI-native open knowledge base for ${expectedPlaceName}.`) {
+  throw new Error(`unexpected package description: ${pkg.description}`);
+}
+if (lock.name !== pkg.name || lock.packages?.['']?.name !== pkg.name) {
+  throw new Error('package-lock root names do not match package.json');
+}
+if (Object.hasOwn(lock, 'version') || Object.hasOwn(lock.packages?.[''] ?? {}, 'version')) {
+  throw new Error('package-lock root version survived init');
+}
+NODE
 # AGENTS.md is the instance's agent-instruction SSOT; its header is the place name.
 head -1 "$R/AGENTS.md" | grep -q "^# $NAME$" \
   || fail "AGENTS.md header is not '# $NAME'"
@@ -237,7 +271,7 @@ fi
 if grep -Fxq "## Template mode" "$R/AGENTS.md"; then
   fail "AGENTS.md carries template-only '## Template mode'"
 fi
-echo "✓ seeded artifacts present (FRAMEWORK-VERSION, instance CHANGELOG.md, complete instance AGENTS.md, byte-exact CLAUDE.md shim, README.md header, category dirs, INBOX.md, CNAME, local denylist, marker removed, .agent-toolkit/ removed + template/dev-plugin AGENTS.md content absent)"
+echo "✓ seeded artifacts present (VERSION, FRAMEWORK-VERSION, adopter package identity, instance CHANGELOG.md, complete instance AGENTS.md, byte-exact CLAUDE.md shim, README.md header, category dirs, INBOX.md, CNAME, local denylist, marker removed, .agent-toolkit/ removed + template/dev-plugin AGENTS.md content absent)"
 
 # DoD-4: a planted place-name string in src/ fails the gate; framework denylist
 # untouched.

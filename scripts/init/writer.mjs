@@ -13,6 +13,9 @@
  *   CLAUDE.md                                  one-line `@AGENTS.md` shim
  *   README.md                                  instance repo front page
  *   CHANGELOG.md                               instance-only change history
+ *   package.json                               instance package identity
+ *   package-lock.json                          matching root package identity
+ *   VERSION                                    instance release version
  *   FRAMEWORK-VERSION                          framework version at init time
  *   scripts/ci/genericity-denylist.local.txt   adopter place-name terms
  *   .sekai-template                            removed (template → instance)
@@ -32,6 +35,7 @@ import {
   writeFileSync,
 } from 'node:fs';
 import { join } from 'node:path';
+import { slugify } from './prompt-table.mjs';
 
 /* ── TypeScript-literal serializer (deterministic, repo code style) ──────── */
 
@@ -486,11 +490,30 @@ export function writeInstance(root, cfg) {
   // directly from the immutable target tag.
   write('CHANGELOG.md', renderChangelog(cfg));
 
-  // FRAMEWORK-VERSION: the framework version this instance adopted. Written
-  // `v`-prefixed to match the release-tag form (sekai-kb-vX.Y.Z) that the
-  // /upgrade skill records, so wizard-written and upgrade-written values agree.
+  // package.json/package-lock.json: package identity belongs to the adopter;
+  // scripts and dependency contracts remain framework-owned. Release versions
+  // do not live in either npm manifest: VERSION and FRAMEWORK-VERSION are their
+  // respective SSOTs.
   const pkg = JSON.parse(readFileSync(join(root, 'package.json'), 'utf8'));
-  write('FRAMEWORK-VERSION', `v${pkg.version}\n`);
+  pkg.name = slugify(cfg.place.name);
+  pkg.private = true;
+  pkg.description = `AI-native open knowledge base for ${cfg.place.name}.`;
+  delete pkg.version;
+  write('package.json', `${JSON.stringify(pkg, null, 2)}\n`);
+
+  const lock = JSON.parse(readFileSync(join(root, 'package-lock.json'), 'utf8'));
+  lock.name = pkg.name;
+  delete lock.version;
+  lock.packages[''].name = pkg.name;
+  delete lock.packages[''].version;
+  write('package-lock.json', `${JSON.stringify(lock, null, 2)}\n`);
+
+  // VERSION is the adopter's own release SSOT. FRAMEWORK-VERSION is the exact
+  // sekai-kb release adopted by this checkout. The template carries the latter;
+  // init preserves its v-prefixed value instead of deriving it from package.json.
+  write('VERSION', 'v0.0.0\n');
+  const frameworkVersion = readFileSync(join(root, 'FRAMEWORK-VERSION'), 'utf8').trim();
+  write('FRAMEWORK-VERSION', `${frameworkVersion}\n`);
 
   // Local genericity denylist: create or append (idempotent per term). The
   // framework denylist file is never touched.

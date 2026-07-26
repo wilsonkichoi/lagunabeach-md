@@ -20,18 +20,34 @@ tags, never framework `main`** (ADR 004, SPEC
    §place.config.ts absent-safe rule), so an instance that ignores the note still
    builds — the note tells it what it is opting out of.
 3. **Instances merge tags only.** The release flow is: land the change on `main`
-   with its CHANGELOG entry → bump `package.json` `version` → tag
+   with its CHANGELOG entry → bump `FRAMEWORK-VERSION` → tag
    `sekai-kb-vX.Y.Z` → push the tag. Instances run `/upgrade` (or the manual git
    flow in `docs/runbook/UPGRADE.md`), which merges the tag, never `main`.
 4. **Instance-owned files are never overwritten.** Files an instance owns
    (`place.config.ts`, `knowledge/**`, `public/media/**`, `CNAME`, `CLAUDE.md`,
-   `AGENTS.md`, `README.md`, `CHANGELOG.md`, `FRAMEWORK-VERSION`, `docs/baselines/**`,
+   `AGENTS.md`, `README.md`, `CHANGELOG.md`, `VERSION`, `FRAMEWORK-VERSION`, `docs/baselines/**`,
    `scripts/ci/genericity-denylist.local.txt`, `.agent-toolkit/**`) carry
    `.gitattributes merge=ours` on the instance, so a tag merge keeps the
    instance's copy. Framework changes to those paths are therefore inert on
    instances by design — do not rely on them propagating.
 
 ## [Unreleased]
+
+### Changed
+
+- **Framework and adopter versions now have separate file SSOTs.**
+  `FRAMEWORK-VERSION` identifies the Sekai release and replaces
+  `package.json.version` in the framework release procedure. `VERSION` identifies an
+  adopter's own release and carries `merge=ours`. The private npm manifest has no
+  release version. Init writes adopter-specific package name and description,
+  initializes `VERSION` to `v0.0.0`, and preserves the checked-out
+  `FRAMEWORK-VERSION`. CI validates the two version domains and the private package
+  contract.
+
+  **Upgrade note:** existing adopters add `VERSION merge=ours`, create `VERSION` with
+  their own release number, remove `package.json.version`, set `private: true`, and
+  remove the corresponding root version fields from `package-lock.json`. Keep the old
+  `FRAMEWORK-VERSION` during the tag merge; `/upgrade` bumps it after verification.
 
 ## [1.0.7] — 2026-07-26
 

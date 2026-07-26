@@ -10,6 +10,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+    tags: ['sekai-kb-v*']
   pull_request:
   workflow_dispatch:
 
@@ -42,6 +43,8 @@ jobs:
         run: node scripts/ci/check-english-only.mjs
       - name: Scan-root scope statements match both gates' SCAN_ROOTS
         run: node scripts/ci/check-scan-root-docs.mjs
+      - name: Version ownership contract
+        run: npm run version:check
       - name: Self-test — both gates scan .claude/skills/ in instance mode
         run: bash scripts/ci/check-skills-gated.sh
       - name: Self-test — the scan-root docs guard fails on doc, script, and anchor drift

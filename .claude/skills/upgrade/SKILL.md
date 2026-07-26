@@ -35,6 +35,7 @@ Run from the instance repo root:
 test -f .sekai-template && echo "STOP: this is the template, not an instance" || echo "instance: ok"
 git config merge.ours.driver true   # load-bearing: see below
 git status --porcelain
+cat VERSION 2>/dev/null || echo "no VERSION (pre-contract instance)"
 cat FRAMEWORK-VERSION 2>/dev/null || echo "no FRAMEWORK-VERSION (pre-wizard instance)"
 ```
 
@@ -48,7 +49,8 @@ cat FRAMEWORK-VERSION 2>/dev/null || echo "no FRAMEWORK-VERSION (pre-wizard inst
   Stop; `/upgrade` is an instance operation.
 - **Working tree not clean** → stop and tell the user to commit or stash first. A
   merge onto a dirty tree is unrecoverable-in-place.
-- Note the current `FRAMEWORK-VERSION`; it is the "from" version for the report.
+- Note `VERSION` as the adopter's own release and `FRAMEWORK-VERSION` as the
+  framework "from" version. `/upgrade` changes only the latter.
 
 ## 1. Point the `framework` remote and fetch tags
 
@@ -120,7 +122,7 @@ git merge --no-ff sekai-kb-vX.Y.Z -m "chore: upgrade framework to sekai-kb-vX.Y.
 
 `.gitattributes merge=ours` keeps the instance's **existing** copy of every
 instance-owned file (`place.config.ts`, `knowledge/**`, `public/media/**`,
-`CNAME`, `CLAUDE.md`, `AGENTS.md`, `README.md`, `CHANGELOG.md`, `FRAMEWORK-VERSION`, `docs/baselines/**`,
+`CNAME`, `CLAUDE.md`, `AGENTS.md`, `README.md`, `CHANGELOG.md`, `VERSION`, `FRAMEWORK-VERSION`, `docs/baselines/**`,
 `scripts/ci/genericity-denylist.local.txt`, `.agent-toolkit/**`) — those do not
 conflict. It says nothing about a path the instance **deleted** (`.agent-toolkit/`
 on a wizard-adopted instance) or never had: git applies no merge driver there, so
@@ -197,7 +199,7 @@ git commit --no-edit
 `merge=ours` is deliberately blunt: it keeps the instance's version of every
 instance-owned file and **silently discards the framework's changes** to those
 same files. That is correct for `place.config.ts`, `knowledge/**`,
-`public/media/**`, and `CHANGELOG.md` — pure instance content. But the *content-bearing starter* files
+`public/media/**`, `CHANGELOG.md`, and `VERSION` — pure instance content. But the *content-bearing starter* files
 the wizard seeded (`AGENTS.md` above all, and `README.md`) began as framework
 boilerplate the instance lightly edited; a release that improves that boilerplate
 (a new agent instruction, a corrected pointer) would vanish under `merge=ours`
@@ -256,7 +258,8 @@ git add FRAMEWORK-VERSION && git commit -m "chore: FRAMEWORK-VERSION -> vX.Y.Z"
 
 ## 10. Report
 
-Tell the user: the version moved from → to, the dev-plugin state classified in
+Tell the user: the adopted framework version moved from → to, the adopter's
+`VERSION` remained unchanged, the dev-plugin state classified in
 step 3 and what reconcile did with it, which files (if any) conflicted and how
 each was resolved, the build result, and any Upgrade-note opt-ins they declined
 (new feature flags left off). Push is theirs to make — on an instance, pushing
