@@ -7,7 +7,7 @@
 #      the two place.config.ts outputs must be byte-identical (cmp).
 #   2. Runs the INTERACTIVE mode (piped stdin) on a third scratch copy with the
 #      same answers; its place.config.ts must be byte-identical to the
-#      `--answers` output. This is the DoD-2/§E contract (the two resolution
+#      `--answers` output. This is the DoD-2/ROADMAP contract (the two resolution
 #      paths cannot drift), not just writer determinism.
 #   3. Asserts every seeded artifact: FRAMEWORK-VERSION, the AGENTS.md header,
 #      the CLAUDE.md @AGENTS.md shim, the README.md header, knowledge/{Category}/
@@ -116,7 +116,7 @@ cmp "$TMP/run1/place.config.ts" "$TMP/run2/place.config.ts" \
   || fail "place.config.ts differs between two --answers runs (not byte-identical)"
 echo "✓ two --answers runs produce byte-identical place.config.ts"
 
-# DoD-2 (cross-mode, the §E acceptance): the INTERACTIVE path with the same
+# DoD-2 (cross-mode, the ROADMAP acceptance): the INTERACTIVE path with the same
 # answers must produce the same bytes as --answers. resolveInteractive/parseText
 # and resolveFromJson/coerce are parallel per-kind implementations — this is
 # where drift would enter. Lines below mirror answers.json in prompt order;

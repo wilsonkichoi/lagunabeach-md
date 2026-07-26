@@ -6,7 +6,7 @@
 // through the current roadmap; a CJK codepoint in code, a test fixture, or a
 // framework skill (agent-executed prose is code for doctrine purposes) is dead
 // fork content
-// (STRATEGIC-DIRECTION 2026-07-11 (b); SPEC §Negative requirements). This is the
+// (SPEC §Negative requirements). This is the
 // machine complement to check-genericity.sh, which greps a place-name denylist
 // over the same trees. Test fixtures are code — the doctrine is whole-project.
 //
@@ -104,7 +104,7 @@ if (hits.length) {
   console.error('❌ english-only gate FAILED — CJK codepoint(s) in a code tree:');
   for (const h of hits) console.error('  ' + h);
   console.error('\nThe site is English-only; CJK in code or a test fixture is dead fork content.');
-  console.error('(STRATEGIC-DIRECTION 2026-07-11 (b); SPEC §Negative requirements.)');
+  console.error('(SPEC §Negative requirements.)');
   process.exit(1);
 }
 

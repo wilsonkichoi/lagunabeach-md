@@ -30,8 +30,8 @@ tag as the computed base.
 `git replace --graft` would fake an ancestor without a merge commit, but graft
 refs are local — they do not survive a fresh clone or reach CI, so the instance
 would build differently for every contributor. A merge commit is permanent,
-pushed, and identical for everyone. That determinism is the whole point (§G risk
-4), so the merge wins over the graft.
+pushed, and identical for everyone. That determinism is the whole point (SPEC
+`Risk controls`, item 4), so the merge wins over the graft.
 
 Run once, from the instance repo root (already done for the first instance in task
 5.4 — this is the reproducible record):
@@ -202,6 +202,8 @@ merges keep the instance's version:
 | `CLAUDE.md` | one-line `@AGENTS.md` shim (written by the wizard) |
 | `AGENTS.md` | instance-owned agent-instruction SSOT (rendered by the wizard) |
 | `README.md` | instance repo front page (rendered by the wizard) |
+| `CHANGELOG.md` | instance work history; framework notes are read from the target tag |
+| `FRAMEWORK-VERSION` | adopted framework tag; bumped explicitly after upgrade verification |
 | `docs/baselines/**` | instance-captured health/visual baselines |
 | `scripts/ci/genericity-denylist.local.txt` | the place's own denylisted terms |
 | `.agent-toolkit/**` | dev-plugin state (config + promoted rules) — each repo owns its own |
@@ -243,7 +245,7 @@ framework tag never replaces its dev config with the framework's.
 
 `merge=ours` keeps your version of an instance-owned file and **silently drops the
 framework's changes** to it. That is what you want for `place.config.ts`,
-`knowledge/**`, and media. But the *content-bearing starter* files the wizard seeded
+`knowledge/**`, media, and `CHANGELOG.md`. But the *content-bearing starter* files the wizard seeded
 — `AGENTS.md` above all, and `README.md` — started as framework boilerplate; a
 release that improves that boilerplate would vanish with no signal. `CLAUDE.md` is
 exempt: it is a pure one-line `@AGENTS.md` shim carrying no content that can diverge,
@@ -251,6 +253,9 @@ so if yours is anything but that single line, reset it to the shim rather than
 reconciling it. After a merge, diff each content-bearing starter against the tag and
 decide, file by file, whether to pull any framework improvement in (the `/upgrade`
 skill does this conversationally):
+
+`FRAMEWORK-VERSION` is merge-protected for a different reason: the merge keeps the old
+value, then the final upgrade step bumps it only after verification succeeds.
 
 ```bash
 # Show where your AGENTS.md diverges from the tag you just merged, then read both

@@ -8,9 +8,10 @@
 Wilson audited roadmap coverage of three goal areas: routine pipelines (KB maintenance,
 semantic embedding/indexing, PR review, feedback triage, trend discovery, analytics data
 refresh, social media), the RAG chatbot, and MCP server / alternative knowledge delivery.
-The RAG chatbot (§E 7.2a-c) and the `/kb/` + llms.txt lazy-loading protocol (§E 1.3) are
-covered. The MCP endpoint had only a §F named trigger ("port when 7.2c ships") with no
-phase; the routines had only the Phase-8 ROUTINE-organ *scaffold* — §F disposes taiwan-md's
+The RAG chatbot (ROADMAP tasks 7.2a-c) and the `/kb/` + llms.txt lazy-loading protocol
+(ROADMAP task 1.3) are covered. The MCP endpoint had only a named trigger ("port when
+7.2c ships") with no phase; the routines had only the Phase-8 ROUTINE-organ *scaffold*;
+the SPEC inherited-fork disposition removes taiwan-md's
 16 routines as "delete-now as implementation, concept returns as per-routine opt-ins" —
 with zero routines actually scheduled, and the analytics fetchers parked on a
 "port-on-trigger: accounts exist" clause nothing was set to fire. Wilson directed that
@@ -21,11 +22,9 @@ these be scheduled, not tabled.
 Extend the operative docs with **Phases 9 (MCP + AI delivery), 10 (analytics perception),
 and 11 (autonomous routines)**. Sub-decisions:
 
-1. **Governance.** `.fable/STRATEGIC-DIRECTION.md` stays frozen and unedited; the
-   extension lives in `docs/ROADMAP.md` (milestone rows + an "Extension task blocks"
-   appendix in §E's block format, from which `/dev:plan` converts packets exactly as it
-   does from §E) and `docs/SPEC.md`/`docs/PRD.md`. This follows the SPEC `links`
-   precedent for intentional, tracked divergence: an extension, not a conflict.
+1. **Governance.** `docs/ROADMAP.md` owns milestone rows and detailed task blocks;
+   `/dev:plan` converts packets from those blocks. `docs/SPEC.md` and `docs/PRD.md` own
+   the corresponding engineering and product contracts.
 2. **Scheduler substrate: hybrid.** Deterministic pipelines (embeddings/index refresh,
    analytics fetch) run as GitHub Actions cron/push-triggers — free, machine-independent,
    adopter-portable. AI routines (maintainer/PR review, feedback triage, trend discovery,
@@ -46,7 +45,7 @@ and 11 (autonomous routines)**. Sub-decisions:
    config-schema addition). **Absent-safe rule:** every new `place.config` key defaults
    to feature-off when missing, so instances upgrade without config surgery.
 6. **Model policy:** all Phase 9-11 execution uses Opus (Wilson, 2026-07-07); reviews
-   follow `.claude/dev.md` defaults.
+   follow `.agent-toolkit/dev.md` defaults.
 
 **Technical verification (2026-07):** stateless remote MCP servers (Streamable HTTP, no
 Durable Objects) run on the Workers free tier via the `createMcpHandler` pattern —
@@ -56,7 +55,7 @@ no-paid-services constraint; McpAgent/Durable Objects documented as the scale-up
 
 ## Consequences
 
-- Every §F "port-on-named-trigger" item in scope now has a scheduled home: MCP → 9.1,
+- Every inherited-fork "port-on-named-trigger" item in scope now has a scheduled home: MCP → 9.1,
   analytics fetchers → 10.2, embeddings refresh → 11.2, per-routine opt-ins → 11.3-11.8.
 - Grand totals grow by AI ≈ 26.75h | Human ≈ 2.5h (ROADMAP totals updated).
 - The PRD "no paid services" non-goal is clarified to "no paid hosting/infra services";
@@ -64,5 +63,5 @@ no-paid-services constraint; McpAgent/Durable Objects documented as the scale-up
 - LB operations gain a machine dependency for claude-cron routines (Wilson's always-on
   machine); the GH-Actions substrate keeps the deterministic half portable for adopters,
   and any adopter can run zero routines (organ off = nothing fires).
-- `.claude/dev.md` milestones span "Phase 0" … "Phase 11"; `review_action_installed`
+- `.agent-toolkit/dev.md` milestones span "Phase 0" … "Phase 11"; `review_action_installed`
   flips at 11.3.

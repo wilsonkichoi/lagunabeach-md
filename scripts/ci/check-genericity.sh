@@ -5,13 +5,13 @@
 # Fails if any place-specific string leaks into framework-owned code (src/,
 # scripts/, tests/, or .claude/skills/). Place identity must flow ONLY through
 # place.config.ts, knowledge/, and public/media/ — never hardcoded in code trees
-# (ADR 002, SPEC §Negative requirements, §G risk 2). This is the structural
+# (ADR 002, SPEC §Negative requirements and §Risk controls). This is the structural
 # mitigation for the trap that motivated the whole rebuild.
 #
 # Scan scope, instance mode: src/, scripts/, tests/, .claude/skills/; test
 # fixtures are code, and framework skills are agent-executed prose that is code
-# for doctrine purposes — the whole-project doctrine, STRATEGIC-DIRECTION
-# 2026-07-11 (b), task 5.6. The English-only gate (check-english-only.mjs) has a
+# for doctrine purposes — the whole-project doctrine in SPEC §Negative requirements,
+# enforced for framework skills by task 5.6. The English-only gate (check-english-only.mjs) has a
 # different instance root list; the two are never merged into one claim
 # (scripts/ci/check-scan-root-docs.mjs gates both statements).
 # place.config.ts (repo root), knowledge/, public/media/, and docs/

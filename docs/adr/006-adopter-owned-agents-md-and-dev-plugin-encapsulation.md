@@ -56,15 +56,13 @@ user, adopting only the improvements that do not clobber the user's own edits
 `@.agent-toolkit/dev.md` → rule chain); narrow build-gotcha rules are indexed by path
 plus a trigger hook and opened only when their trigger fires.
 
-## Supersession of the STRATEGIC-DIRECTION instance-owned baseline
+## Supersession of the original instance-owned baseline
 
-`.fable/STRATEGIC-DIRECTION.md` §B/§E named a 5-file instance-owned baseline
-(`place.config.ts`, `knowledge/**`, `public/media/**`, `CNAME`, `CLAUDE.md`). Ruling
-(a) adds `AGENTS.md` and ruling (e) adds `.agent-toolkit/**` to that set. Per the
-binding spec's own conflict rule (STRATEGIC-DIRECTION is the frozen source of record;
-conflicts surface to Wilson, never silently resolved), this divergence was surfaced
-to and approved by Wilson at the 2026-07-19 plan approval. STRATEGIC-DIRECTION stays
-frozen; this ADR is the operative record of the superseding decision.
+The original repo-topology decision named a 5-file instance-owned baseline:
+`place.config.ts`, `knowledge/**`, `public/media/**`, `CNAME`, and `CLAUDE.md`.
+Ruling (a) adds `AGENTS.md`; ruling (e) adds `.agent-toolkit/**`. Wilson approved the
+change at the 2026-07-19 plan review. This ADR and the SPEC `Repo topology` section are
+the authoritative record.
 
 ## Consequences
 
@@ -76,8 +74,26 @@ frozen; this ADR is the operative record of the superseding decision.
 - Every framework release's starter improvements to `AGENTS.md` are surfaced at
   upgrade time instead of being silently dropped by `merge=ours`.
 - The `merge=ours` list is now: `place.config.ts`, `knowledge/**`, `public/media/**`,
-  `CNAME`, `CLAUDE.md`, `AGENTS.md`, `README.md`, `docs/baselines/**`,
+  `CNAME`, `CLAUDE.md`, `AGENTS.md`, `README.md`, `CHANGELOG.md`, `FRAMEWORK-VERSION`, `docs/baselines/**`,
   `scripts/ci/genericity-denylist.local.txt`, `.agent-toolkit/**`.
+
+## Addendum (2026-07-26): CHANGELOG.md is instance-owned history
+
+**Status:** Accepted (2026-07-26, Wilson-approved).
+
+The framework and an adopted instance have different change histories. The framework
+`CHANGELOG.md` records versioned `sekai-kb` releases; an instance `CHANGELOG.md` records
+only changes to that instance. Treating the instance file as a framework-owned copy
+caused every framework release entry to appear as LB history and allowed a future tag
+merge to replace or conflict with LB's own entries.
+
+`CHANGELOG.md` therefore joins the instance-owned `merge=ours` set. `npm run init`
+replaces the template's framework changelog with a new instance changelog. `/upgrade`
+continues to read the target framework release notes directly from the immutable tag via
+`git show <tag>:CHANGELOG.md`; it never reconciles or overwrites the instance changelog.
+`FRAMEWORK-VERSION` remains separate and records only which framework tag is adopted. It
+also carries `merge=ours`: a tag merge preserves the old value, then `/upgrade` updates
+it explicitly after the merged site passes verification.
 
 ## Addendum (2026-07-19): AGENTS.md is the single source of truth for agent instructions
 
