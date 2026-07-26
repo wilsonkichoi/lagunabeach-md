@@ -10,7 +10,8 @@
 #      `--answers` output. This is the DoD-2/ROADMAP contract (the two resolution
 #      paths cannot drift), not just writer determinism.
 #   3. Asserts every seeded artifact: FRAMEWORK-VERSION, the AGENTS.md header,
-#      the CLAUDE.md @AGENTS.md shim, the README.md header, knowledge/{Category}/
+#      the CLAUDE.md @AGENTS.md shim, the README.md header, the instance-only
+#      CHANGELOG.md, knowledge/{Category}/
 #      dirs, INBOX.md, CNAME, the local genericity denylist, and the removed
 #      .sekai-template marker.
 #   4. Plants the test place name in src/ and asserts check-genericity.sh FAILS
@@ -115,6 +116,9 @@ node "$TMP/run2/scripts/init/index.mjs" --answers "$ANSWERS" >/dev/null
 cmp "$TMP/run1/place.config.ts" "$TMP/run2/place.config.ts" \
   || fail "place.config.ts differs between two --answers runs (not byte-identical)"
 echo "✓ two --answers runs produce byte-identical place.config.ts"
+cmp "$TMP/run1/CHANGELOG.md" "$TMP/run2/CHANGELOG.md" \
+  || fail "CHANGELOG.md differs between two --answers runs (not byte-identical)"
+echo "✓ two --answers runs produce byte-identical instance changelogs"
 
 # DoD-2 (cross-mode, the ROADMAP acceptance): the INTERACTIVE path with the same
 # answers must produce the same bytes as --answers. resolveInteractive/parseText
@@ -157,6 +161,10 @@ echo "✓ interactive mode with the same answers is byte-identical to --answers"
 R="$TMP/run1"
 [ -f "$R/FRAMEWORK-VERSION" ] || fail "FRAMEWORK-VERSION not written"
 [ -s "$R/FRAMEWORK-VERSION" ] || fail "FRAMEWORK-VERSION is empty"
+grep -Fxq 'CHANGELOG.md merge=ours' "$R/.gitattributes" \
+  || fail "CHANGELOG.md is not instance-owned in .gitattributes"
+grep -Fxq 'FRAMEWORK-VERSION merge=ours' "$R/.gitattributes" \
+  || fail "FRAMEWORK-VERSION is not instance-owned in .gitattributes"
 # AGENTS.md is the instance's agent-instruction SSOT; its header is the place name.
 head -1 "$R/AGENTS.md" | grep -q "^# $NAME$" \
   || fail "AGENTS.md header is not '# $NAME'"
@@ -195,6 +203,13 @@ grep -Fq "no-op gracefully when it is absent" "$R/AGENTS.md" \
   || fail "AGENTS.md semiont probe omits absent-file behavior"
 head -1 "$R/README.md" | grep -q "^# $NAME$" \
   || fail "README.md header is not '# $NAME' (template README left on the instance)"
+head -1 "$R/CHANGELOG.md" | grep -q "^# $NAME changelog$" \
+  || fail "CHANGELOG.md header is not '# $NAME changelog'"
+grep -Fq "This file contains instance work" "$R/CHANGELOG.md" \
+  || fail "CHANGELOG.md does not declare instance-only scope"
+if grep -Fq "Release discipline (read before cutting a release)" "$R/CHANGELOG.md"; then
+  fail "framework release changelog survived init"
+fi
 for cat_dir in History Harbor Nature Food Events; do
   [ -d "$R/knowledge/$cat_dir" ] || fail "knowledge/$cat_dir/ not seeded"
 done
@@ -222,7 +237,7 @@ fi
 if grep -Fxq "## Template mode" "$R/AGENTS.md"; then
   fail "AGENTS.md carries template-only '## Template mode'"
 fi
-echo "✓ seeded artifacts present (FRAMEWORK-VERSION, complete instance AGENTS.md, byte-exact CLAUDE.md shim, README.md header, category dirs, INBOX.md, CNAME, local denylist, marker removed, .agent-toolkit/ removed + template/dev-plugin AGENTS.md content absent)"
+echo "✓ seeded artifacts present (FRAMEWORK-VERSION, instance CHANGELOG.md, complete instance AGENTS.md, byte-exact CLAUDE.md shim, README.md header, category dirs, INBOX.md, CNAME, local denylist, marker removed, .agent-toolkit/ removed + template/dev-plugin AGENTS.md content absent)"
 
 # DoD-4: a planted place-name string in src/ fails the gate; framework denylist
 # untouched.

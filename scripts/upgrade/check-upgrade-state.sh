@@ -260,6 +260,8 @@ write_gitattributes() { # dir — byte-identical in framework and instances
   cat > "$1/.gitattributes" <<'EOF'
 AGENTS.md merge=ours
 CLAUDE.md merge=ours
+CHANGELOG.md merge=ours
+FRAMEWORK-VERSION merge=ours
 place.config.ts merge=ours
 .agent-toolkit/** merge=ours
 EOF
@@ -344,6 +346,33 @@ EOF
   esac
 }
 
+write_instance_changelog() { # file
+  cat > "$1" <<'EOF'
+# Instance changelog
+
+Instance-only sentinel. Framework upgrades must preserve these bytes.
+EOF
+}
+
+assert_instance_changelog() { # repo label
+  grep -Fq 'Instance-only sentinel' "$1/CHANGELOG.md" \
+    || fail "$2: framework CHANGELOG.md replaced the instance changelog"
+  if grep -Fq 'Framework release fw-v2' "$1/CHANGELOG.md"; then
+    fail "$2: framework release history leaked into the instance changelog"
+  fi
+  ok "$2: instance CHANGELOG.md is preserved"
+}
+
+write_instance_framework_version() { # file
+  printf 'instance-v1\n' > "$1"
+}
+
+assert_instance_framework_version() { # repo label
+  [ "$(cat "$1/FRAMEWORK-VERSION")" = "instance-v1" ] \
+    || fail "$2: framework merge replaced FRAMEWORK-VERSION before the explicit bump"
+  ok "$2: FRAMEWORK-VERSION is preserved through the merge"
+}
+
 # Framework repo carrying tags fw-v1 and fw-v2.
 build_framework() { # dir
   local fw="$1"
@@ -358,6 +387,8 @@ tier: doctrine
 # Example rule (framework-owned, fw-v1)
 EOF
   write_gitattributes "$fw"
+  printf '# Framework changelog\n\nFramework release fw-v1.\n' > "$fw/CHANGELOG.md"
+  printf 'framework-v1\n' > "$fw/FRAMEWORK-VERSION"
   printf 'export const place = { name: "Example", tagline: "The framework demo place." };\n' > "$fw/place.config.ts"
   printf 'export const FRAMEWORK_APP = "fw-v1";\n' > "$fw/src/app.js"
   cp "$HELPER_SRC" "$fw/scripts/upgrade/dev-plugin-state.mjs"
@@ -376,6 +407,8 @@ triggers:
 # New rule (framework-owned, added in fw-v2)
 EOF
   printf 'export const FRAMEWORK_APP = "fw-v2";\n' > "$fw/src/app.js"
+  printf '# Framework changelog\n\nFramework release fw-v2.\n' > "$fw/CHANGELOG.md"
+  printf 'framework-v2\n' > "$fw/FRAMEWORK-VERSION"
   git -C "$fw" add -A
   git -C "$fw" commit -q -m "Example framework fw-v2"
   git -C "$fw" tag fw-v2
@@ -388,6 +421,8 @@ lay_instance_skeleton() { # dir
   printf 'export const place = { name: "Instance", tagline: "The adopting instance." };\n' > "$1/place.config.ts"
   printf 'export const INSTANCE_APP = "instance-local";\n' > "$1/src/app.js"
   printf '@AGENTS.md\n' > "$1/CLAUDE.md"
+  write_instance_changelog "$1/CHANGELOG.md"
+  write_instance_framework_version "$1/FRAMEWORK-VERSION"
   cp "$HELPER_SRC" "$1/scripts/upgrade/dev-plugin-state.mjs"
 }
 
@@ -395,6 +430,8 @@ clone_at_v1() { # framework-dir dest
   git clone -q "$1" "$2"
   configure_repo "$2"
   git -C "$2" checkout -q -B main fw-v1
+  write_instance_changelog "$2/CHANGELOG.md"
+  write_instance_framework_version "$2/FRAMEWORK-VERSION"
 }
 
 # Resolve any conflict the harness itself is responsible for finishing, then
@@ -406,7 +443,7 @@ finalize_merge() { # dir label
   local path
   git -C "$1" diff --name-only --diff-filter=U | while IFS= read -r path; do
     case "$path" in
-      AGENTS.md|CLAUDE.md|place.config.ts)
+      AGENTS.md|CLAUDE.md|CHANGELOG.md|FRAMEWORK-VERSION|place.config.ts)
         git -C "$1" checkout --ours -- "$path" 2>/dev/null || true
         ;;
       *)
@@ -465,6 +502,8 @@ case_stripped_shared_history() { # workdir
   git -C "$inst" show HEAD:src/app.js | grep -q 'fw-v2' \
     || fail "case 1: the framework's non-dev-plugin change (src/app.js at fw-v2) did not land — reconcile discarded the merge"
   ok "case 1: the framework's non-dev-plugin change (src/app.js @ fw-v2) landed"
+  assert_instance_changelog "$inst" "case 1"
+  assert_instance_framework_version "$inst" "case 1"
 
   # 1b — the same stripped shared-history upgrade run from a LINKED GIT WORKTREE
   # (`git worktree add`), not a standalone clone. Git answers `rev-parse
@@ -512,6 +551,8 @@ case_stripped_shared_history() { # workdir
   assert_no_tree_paths_in_commit "$wt" HEAD "case 1b"
   [ ! -e "$wt/.agent-toolkit" ] || fail "case 1b: .agent-toolkit/ survives in the linked worktree"
   assert_no_active_reference "$wt" "case 1b"
+  assert_instance_changelog "$wt" "case 1b"
+  assert_instance_framework_version "$wt" "case 1b"
 }
 
 # ---------------------------------------------------------------------------
@@ -552,6 +593,8 @@ case_stripped_unrelated_history() { # workdir
   assert_no_tree_paths_in_commit "$inst" HEAD "case 2"
   [ ! -e "$inst/.agent-toolkit" ] || fail "case 2: .agent-toolkit/ survives in the working tree"
   assert_no_active_reference "$inst" "case 2"
+  assert_instance_changelog "$inst" "case 2"
+  assert_instance_framework_version "$inst" "case 2"
 
   # 2b — the same unrelated-history first merge, shaped so the merge COMPLETES
   # WITHOUT CONFLICTS (every framework path is theirs-only or merge=ours). This
@@ -564,6 +607,8 @@ case_stripped_unrelated_history() { # workdir
   write_gitattributes "$inst2"
   printf 'export const place = { name: "Instance", tagline: "The adopting instance." };\n' > "$inst2/place.config.ts"
   printf 'export const FRAMEWORK_APP = "fw-v2";\n' > "$inst2/src/app.js"
+  write_instance_changelog "$inst2/CHANGELOG.md"
+  write_instance_framework_version "$inst2/FRAMEWORK-VERSION"
   git -C "$inst2" add -A
   git -C "$inst2" commit -q -m "Example instance without entry files, own history"
 
@@ -586,6 +631,8 @@ case_stripped_unrelated_history() { # workdir
   assert_no_tree_paths_in_commit "$inst2" HEAD "case 2b"
   [ ! -e "$inst2/.agent-toolkit" ] || fail "case 2b: .agent-toolkit/ survives in the working tree"
   assert_no_active_reference "$inst2" "case 2b"
+  assert_instance_changelog "$inst2" "case 2b"
+  assert_instance_framework_version "$inst2" "case 2b"
   local dirty
   dirty="$(git -C "$inst2" status --porcelain)"
   [ -z "$dirty" ] || fail "case 2b: reconcile left the amended merge uncommitted: $(echo "$dirty" | tr '\n' ' ')"
@@ -659,6 +706,8 @@ EOF
 
   assert_active_reference "$inst" "case 3"
   assert_classify "$inst" "case 3 (post-merge)" installed
+  assert_instance_changelog "$inst" "case 3"
+  assert_instance_framework_version "$inst" "case 3"
 }
 
 # ---------------------------------------------------------------------------
