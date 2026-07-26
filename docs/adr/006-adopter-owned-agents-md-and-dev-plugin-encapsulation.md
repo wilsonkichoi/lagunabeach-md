@@ -74,7 +74,7 @@ the authoritative record.
 - Every framework release's starter improvements to `AGENTS.md` are surfaced at
   upgrade time instead of being silently dropped by `merge=ours`.
 - The `merge=ours` list is now: `place.config.ts`, `knowledge/**`, `public/media/**`,
-  `CNAME`, `CLAUDE.md`, `AGENTS.md`, `README.md`, `CHANGELOG.md`, `FRAMEWORK-VERSION`, `docs/baselines/**`,
+  `CNAME`, `CLAUDE.md`, `AGENTS.md`, `README.md`, `CHANGELOG.md`, `VERSION`, `FRAMEWORK-VERSION`, `docs/baselines/**`,
   `scripts/ci/genericity-denylist.local.txt`, `.agent-toolkit/**`.
 
 ## Addendum (2026-07-26): CHANGELOG.md is instance-owned history
@@ -94,6 +94,9 @@ continues to read the target framework release notes directly from the immutable
 `FRAMEWORK-VERSION` remains separate and records only which framework tag is adopted. It
 also carries `merge=ours`: a tag merge preserves the old value, then `/upgrade` updates
 it explicitly after the merged site passes verification.
+
+`VERSION` separately records the adopter's own release. It carries `merge=ours` and is
+never changed by `/upgrade` (ADR 007).
 
 ## Addendum (2026-07-19): AGENTS.md is the single source of truth for agent instructions
 
