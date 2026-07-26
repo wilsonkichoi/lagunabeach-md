@@ -15,7 +15,10 @@ framework release.
 
 - **Release identity is separated from framework adoption.** `VERSION` is now the
   LB release SSOT and starts at `v0.0.0`; `FRAMEWORK-VERSION` remains the adopted
-  Sekai release. The private npm manifest no longer carries a release version.
+  Sekai release. `package.json.version` and the lockfile root versions mirror
+  `VERSION` as `0.0.0`. Explicit `/release` requests can bump patch, minor, or major;
+  routine article PRs never change the release. Upgrade package reconciliation keeps
+  that adopter identity while accepting incoming framework scripts and dependencies.
 
 - **Project documentation was consolidated before Phase 6.**
   - Deleted `.fable/README.md` and `.fable/STRATEGIC-DIRECTION.md`.

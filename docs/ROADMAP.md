@@ -19,7 +19,9 @@ packets.
 consolidated into PRD/SPEC/ROADMAP/ADRs. LB's `CHANGELOG.md` was reconstructed as an
 instance-only history and made instance-owned; framework release notes remain upstream.
 Version ownership is also explicit: `VERSION` is LB's release, while
-`FRAMEWORK-VERSION` is the adopted Sekai release (ADR 007).
+`FRAMEWORK-VERSION` is the adopted Sekai release. The private npm manifest mirrors
+the repository's own release SSOT, and LB releases are explicit through `/release`,
+not automatic on article merges (ADR 007).
 
 **Extension (Wilson-approved 2026-07-07):** milestones 9-11 add MCP delivery, analytics
 perception, and autonomous routines (ADR 005). Their task blocks live in this document

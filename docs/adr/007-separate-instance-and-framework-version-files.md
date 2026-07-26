@@ -5,10 +5,10 @@
 
 ## Context
 
-Sekai releases originally used `package.json.version`, while LB used the same field for
-its own package identity. Every Sekai version bump therefore changed a line LB also
-owned, producing a `package.json` conflict during `/upgrade`. The npm manifest also mixed
-three concepts: Node tooling metadata, the adopter's release, and the framework release.
+Sekai and each adopter need npm-compatible package metadata, but they have independent
+release trains. A manifest version in Sekai means the framework release; the same field
+in LB means the LB release. `VERSION` in the framework was also misleading because a
+reader reasonably interpreted it as the Sekai version.
 
 An adopter and its framework have independent release trains. LB can release without
 changing Sekai, and LB can adopt a Sekai release without releasing LB. One field cannot
@@ -18,28 +18,36 @@ represent both versions.
 
 | Option | Pros | Cons | Cost |
 |---|---|---|---|
-| Keep both versions in `package.json` | One JSON file | Mixed ownership remains; framework upgrades require semantic JSON merging | Permanent merge complexity |
+| Keep both versions in `package.json` | One JSON file | A package has one release identity; the second field is nonstandard metadata | Ambiguous |
 | Add `package.json.framework_version` and keep `FRAMEWORK-VERSION` | Familiar field | Two SSOTs for the same value; drift is inevitable | Rejected duplication |
-| Use `VERSION` and `FRAMEWORK-VERSION` files | One SSOT per release train; trivial shell and CI access; `merge=ours` protects adopter state | Two small files | Minimal |
+| Use repository-specific file SSOTs and npm mirrors | Correct meaning in each repository; npm tooling works; CI can reject drift | Upgrade must reconcile mixed-ownership manifests | Bounded helper |
 
 ## Decision
 
-- `VERSION` is the adopter's own v-prefixed semantic release version. LB initializes it
-  to `v0.0.0`. It is instance-owned and carries `merge=ours`.
-- `FRAMEWORK-VERSION` is the exact v-prefixed Sekai release integrated by the instance.
-  Sekai release tags use `sekai-kb-${FRAMEWORK-VERSION}`. During `/upgrade`, the merge
-  preserves the old file; only a verified upgrade bumps it.
-- `package.json` is a private Node manifest for package identity, scripts, dependencies,
-  and engine requirements. It contains no `version` field and is not a release SSOT.
-- Init writes adopter-specific package name and description, initializes `VERSION`, and
-  carries forward the checked-out `FRAMEWORK-VERSION`.
-- CI validates both version-file formats, private-package status, lockfile identity, and
-  framework tag agreement.
+- Sekai contains `FRAMEWORK-VERSION`, not `VERSION`. It is the v-prefixed Sekai release
+  SSOT. Sekai `package.json.version` and the lockfile root versions mirror it without
+  the leading `v`; tags use `sekai-kb-${FRAMEWORK-VERSION}`.
+- An adopter contains both files. `VERSION` is its own v-prefixed release SSOT;
+  `FRAMEWORK-VERSION` records the exact Sekai release it has integrated. LB initializes
+  `VERSION` to `v0.0.0` and protects both files with `merge=ours`.
+- Adopter `package.json.version` and lockfile root versions mirror `VERSION` without the
+  leading `v`. `FRAMEWORK-VERSION` never appears in the adopter npm manifest.
+- Init creates `VERSION`, writes adopter package identity, initializes all npm version
+  mirrors to `0.0.0`, and carries forward the checked-out `FRAMEWORK-VERSION`.
+- `npm run release:bump -- patch|minor|major` is the only automated adopter version
+  writer. It runs only on explicit maintainer request; routine article PRs do not bump.
+- Package manifests have mixed ownership. `/upgrade` takes incoming framework scripts,
+  dependencies, and lock resolution, then restores the captured adopter name,
+  description, privacy flag, and `VERSION` mirror.
+- CI validates file formats, npm mirrors, private-package status, package/lock identity,
+  and framework tag agreement.
 
 ## Consequences
 
 - Framework upgrades never change or describe the adopter's release.
 - Adopter releases never imply a framework upgrade.
-- Routine Sekai releases no longer conflict with an adopter's npm package version.
-- The first framework release adopting this decision performs a one-time migration from
-  `package.json.version`; subsequent upgrades have no version-line conflict.
+- npm tools receive a real package version without becoming the release SSOT.
+- The first release after v1.0.8 deletes Sekai's mistaken `VERSION`; an adopter keeps
+  its file through the one-time modify/delete conflict.
+- Framework and adopter package versions differ by design. The upgrade helper resolves
+  that recurring textual overlap while retaining incoming framework-owned fields.

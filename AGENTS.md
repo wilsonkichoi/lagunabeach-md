@@ -26,7 +26,11 @@ boundary, and the semiont probe rule.
 - **Instance history:** `CHANGELOG.md` — LB work only. Framework release notes stay in
   the `sekai-kb` changelog and are read from release tags during `/upgrade`.
 - **Versions:** `VERSION` is LB's release SSOT. `FRAMEWORK-VERSION` records the
-  adopted Sekai release. `package.json` is not a version SSOT.
+  adopted Sekai release. `package.json.version` mirrors `VERSION` without the
+  leading `v`; routine article PRs do not bump it. Explicit releases use `/release`.
+- **Operations:** `docs/runbook/DEPLOY.md`, `docs/runbook/UPGRADE.md`, and
+  `docs/runbook/RELEASE.md` cover deployment, framework adoption, and explicit LB
+  releases.
 - Conflicts among these documents go to Wilson, never silently resolved.
 - **Process config:** `.agent-toolkit/dev.md` — dev-plugin config: tracker (Linear, workspace
   `sekai-kb`, team `LB`, project "LB Rebuild"), conventions, extraction-source paths.

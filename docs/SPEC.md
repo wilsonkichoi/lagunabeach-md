@@ -42,9 +42,11 @@ instance-owned files (`place.config.ts`, `knowledge/**`, `public/media/**`, `CNA
 rule**: instance `src/` and `scripts/` are framework-owned — customization flows through
 config/content/media; anything more is upstreamed to sekai-kb first and pulled back as a
 release. `VERSION` records the instance's own release. `FRAMEWORK-VERSION` records the
-adopted Sekai release; the `/upgrade` skill wraps
-fetch → merge tag → build-verify → conflict report. Framework and instances use the same
-directory shape:
+adopted Sekai release. The template carries only `FRAMEWORK-VERSION`; init creates
+adopter `VERSION`. Each repository's npm manifest mirrors its own release SSOT without
+the leading `v`. The `/upgrade` skill wraps fetch → capture adopter package state →
+merge tag → reconcile mixed-ownership manifests → build-verify → conflict report.
+Framework and instances use the same directory shape except for adopter-only `VERSION`:
 
 ```text
 sekai-kb/
@@ -69,7 +71,7 @@ sekai-kb/
 ├── docs/playbook/
 ├── docs/runbook/
 ├── CHANGELOG.md               # instance work only; merge=ours
-├── VERSION                    # instance release; merge=ours
+├── VERSION                    # adopter only: instance release; merge=ours
 ├── FRAMEWORK-VERSION          # adopted tag; merge=ours, then /upgrade bumps it
 ├── AGENTS.md                  # instance-owned agent-instruction SSOT
 └── CLAUDE.md                  # one-line @AGENTS.md shim
@@ -88,7 +90,7 @@ sekai-kb/
 
 > **Skill ownership (2026-07-11 (c), task 5.6):** the framework skills under
 > `.claude/skills/` (`/write`, `/validate`, `/factcheck`, router, plus `/adopt`,
-> `/seed-articles`, `/upgrade`) are framework-owned, same class as `src/`. Adopters ADD
+> `/seed-articles`, `/upgrade`, `/release`) are framework-owned, same class as `src/`. Adopters ADD
 > new skills freely — new files never conflict on upgrade. Overriding a framework skill
 > means upstreaming the change to sekai-kb first, or accepting a conflict-managed local
 > fork that `/upgrade` flags on every release. ADR 006 extends the original five-file
@@ -202,11 +204,11 @@ vendor-agnostic lazy-loading knowledge protocol: any browsing-capable AI reads `
    `/adopt`. The skill interviews for place identity, domain, map, language, categories,
    and grounding material; it calls `npm run init -- --answers <json>`, then offers
    `/seed-articles`. The wizard remains the single writer of `place.config.ts` and also
-   seeds category directories, `CNAME`, `AGENTS.md`, `VERSION`, and
-   `FRAMEWORK-VERSION`, and writes adopter package identity without an npm release
-   version. Framework
-   delivery includes `/upgrade`, the playbook/runbook, template README, and the generic
-   `/write`, `/validate`, `/factcheck`, and router skills.
+   seeds category directories, `CNAME`, `AGENTS.md`, adopter `VERSION`, and
+   `FRAMEWORK-VERSION`, and writes adopter package identity whose npm version mirrors
+   `VERSION`. Framework delivery includes `/upgrade`, `/release`, the playbook/runbooks,
+   template README, and the generic `/write`, `/validate`, `/factcheck`, and router
+   skills.
 8. **Semiont plugin layer.** ADR 003 governs the optional organ architecture. The stable
    boot hook lives in adopter-owned `AGENTS.md`; framework-owned organ logic lives under
    `semiont/`. Core is MEMORY + REFLEXES with a boot read below 150 lines. Other organs
@@ -384,10 +386,12 @@ GitHub Pages via Actions + Cloudflare DNS/CDN. Workers deploy via `wrangler` fro
 
 ## Change log
 
-- **2026-07-26, Wilson-approved version ownership correction:** `VERSION` is the
-  adopter release SSOT; `FRAMEWORK-VERSION` is the adopted Sekai release SSOT.
-  `package.json` is a private Node manifest and carries neither release value. ADR 007
-  records the decision and the init, upgrade, and CI contracts.
+- **2026-07-26, Wilson-approved version ownership correction:** Sekai carries only
+  `FRAMEWORK-VERSION`; adopters carry `VERSION` plus their adopted
+  `FRAMEWORK-VERSION`. Each private npm manifest mirrors the repository's own release
+  SSOT without the leading `v`. Adopter releases are explicit through `/release`; routine
+  article PRs do not bump. `/upgrade` reconciles the manifests' mixed ownership. ADR 007
+  records the init, release, upgrade, and CI contracts.
 - **2026-07-26, Wilson-approved ownership correction:** `CHANGELOG.md` is instance-owned
   and records instance work only. The init wizard replaces the template's framework
   release log with an instance changelog. `/upgrade` reads framework release notes from
