@@ -84,14 +84,19 @@ reference both present). Stripped stays stripped across shared and unrelated his
 installed keeps its adopter-owned config and rules. A mixed state is invalid and stops.
 LB-44 implements and regression-tests this Phase 5 upgrade contract.
 
-## Instance changelog ownership
+## Instance history and version ownership
 
 `CHANGELOG.md` records LagunaBeach.md work only and carries `merge=ours`. It is not a
 local copy of the framework release log. `/upgrade` reads framework notes directly from
 the target tag with `git show <tag>:CHANGELOG.md`, while the merge keeps LB's changelog
-unchanged. `FRAMEWORK-VERSION` remains the separate instance marker for the adopted tag.
+unchanged. `FRAMEWORK-VERSION` remains the separate marker for the adopted Sekai tag.
 It also carries `merge=ours`: the tag merge preserves the old marker, and `/upgrade`
 bumps it explicitly only after verification succeeds.
+
+`VERSION` is the LagunaBeach.md release SSOT and also carries `merge=ours`; framework
+upgrades never change it. `FRAMEWORK-VERSION` is not LB's release and must be described
+as the adopted Sekai version. `package.json` is a private Node manifest shared with the
+framework for scripts and dependencies; it carries neither release value.
 
 ## Milestones and model policy
 

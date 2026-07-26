@@ -13,6 +13,10 @@ framework release.
 
 ### Changed
 
+- **Release identity is separated from framework adoption.** `VERSION` is now the
+  LB release SSOT and starts at `v0.0.0`; `FRAMEWORK-VERSION` remains the adopted
+  Sekai release. The private npm manifest no longer carries a release version.
+
 - **Project documentation was consolidated before Phase 6.**
   - Deleted `.fable/README.md` and `.fable/STRATEGIC-DIRECTION.md`.
   - `docs/PRD.md` now owns product intent and non-goals.

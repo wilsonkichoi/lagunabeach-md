@@ -25,6 +25,8 @@ boundary, and the semiont probe rule.
   dependencies, and phase gates. Linear is the SSOT for live task state.
 - **Instance history:** `CHANGELOG.md` — LB work only. Framework release notes stay in
   the `sekai-kb` changelog and are read from release tags during `/upgrade`.
+- **Versions:** `VERSION` is LB's release SSOT. `FRAMEWORK-VERSION` records the
+  adopted Sekai release. `package.json` is not a version SSOT.
 - Conflicts among these documents go to Wilson, never silently resolved.
 - **Process config:** `.agent-toolkit/dev.md` — dev-plugin config: tracker (Linear, workspace
   `sekai-kb`, team `LB`, project "LB Rebuild"), conventions, extraction-source paths.

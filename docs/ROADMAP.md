@@ -18,6 +18,8 @@ packets.
 **Pre-Phase 6 housekeeping (2026-07-26):** planning and architecture content was
 consolidated into PRD/SPEC/ROADMAP/ADRs. LB's `CHANGELOG.md` was reconstructed as an
 instance-only history and made instance-owned; framework release notes remain upstream.
+Version ownership is also explicit: `VERSION` is LB's release, while
+`FRAMEWORK-VERSION` is the adopted Sekai release (ADR 007).
 
 **Extension (Wilson-approved 2026-07-07):** milestones 9-11 add MCP delivery, analytics
 perception, and autonomous routines (ADR 005). Their task blocks live in this document

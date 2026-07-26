@@ -27,7 +27,8 @@ Instances merge **immutable semver release tags, never framework main**:
    sekai-kb first, then pulled back as a release (reverse flow lands in sekai-kb within
    the same work item — review-checklist enforced, SPEC `Risk controls`).
 
-`FRAMEWORK-VERSION` records the instance's version; the `/upgrade` skill wraps
+`VERSION` records the instance's own release. `FRAMEWORK-VERSION` records the adopted
+Sekai release; the `/upgrade` skill wraps
 fetch → merge tag → build-verify → conflict report → version bump (ROADMAP task 5.4, proven by a
 demonstrated clean tag merge as acceptance).
 
