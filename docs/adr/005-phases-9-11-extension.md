@@ -38,7 +38,7 @@ and 11 (autonomous routines)**. Sub-decisions:
    behind `features.analytics`; Search Console is the only source of query-level SEO data,
    which the trend-discovery routine consumes.
 5. **Release-train execution.** Phases 9-11 run post-cut, so every code task executes in
-   `sekai-kb`; each phase ships as a tagged release and LB adopts it via `/upgrade`
+   `sekai-kb`; each phase ships as a tagged release and LB adopts it via `/sekai-upgrade`
    (ADR 004) — the pull is part of each phase's exit gate. Task 9.3 writes
    `docs/runbook/UPGRADE.md`, the adopter-facing upgrade playbook, from the first real
    feature-release upgrade (Phase 9 itself, whose `features.mcp` is the first post-cut

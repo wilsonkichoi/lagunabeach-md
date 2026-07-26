@@ -19,7 +19,9 @@ packets.
 consolidated into PRD/SPEC/ROADMAP/ADRs. LB's `CHANGELOG.md` was reconstructed as an
 instance-only history and made instance-owned; framework release notes remain upstream.
 Version ownership is also explicit: `VERSION` is LB's release, while
-`FRAMEWORK-VERSION` is the adopted Sekai release (ADR 007).
+`FRAMEWORK-VERSION` is the adopted Sekai release. The private npm manifest mirrors
+the repository's own release SSOT, and LB releases are explicit through `/sekai-release`,
+not automatic on article merges (ADR 007).
 
 **Extension (Wilson-approved 2026-07-07):** milestones 9-11 add MCP delivery, analytics
 perception, and autonomous routines (ADR 005). Their task blocks live in this document
@@ -32,13 +34,13 @@ with the same contract as phases 6-8.
 | 2 | Visual features | Leaflet map with boundary overlay; D3 knowledge graph | 2.1 · 2.2 | Mobile map check on real device (2.1); Wilson phase confirm | AI 5h \| Human 0.25h |
 | 3 | Content migration + cutover | Full corpus (16 articles + About + INBOX) on the new site; lagunabeach.md serves it | 3.1 · 3.2 | **Wilson domain cutover (3.2)**; v1 archived after 14 stable days; phase confirm | AI 1.25h \| Human 1h |
 | 4 | Quality tooling | article-health, frontmatter tests, pre-commit, dashboard-lite, visual-regression baselines; `test_command` updated in `.agent-toolkit/dev.md` (4.1) | 4.1 · 4.2 | Health scores match fork baseline; `npm run visual:check` clean; Wilson phase confirm | AI 5h \| Human 0h |
-| 5 | Framework cut (sekai-kb v1) — **blocks 6-7** | Template repo with demo place, init wizard, `/adopt` + `/seed-articles` + `/upgrade`, generic content skills (`/write` `/validate` `/factcheck` + router), playbook/runbook, release discipline, LB re-based on tags, SystemDiagram | 5.1 · 5.2a-c · 5.3 · 5.4 · 5.5 · 5.6 (amendment, appendix below) | **Wilson dana-point proof (5.2c: fresh clone → deployed < 1h)**; clean tag-merge via /upgrade (5.4); phase confirm | AI 21h \| Human 1.5h |
+| 5 | Framework cut (sekai-kb v1) — **blocks 6-7** | Template repo with demo place, init wizard, `/sekai-adopt` + `/sekai-seed-articles` + `/sekai-upgrade`, generic content skills (`/sekai-write` `/sekai-validate` `/sekai-factcheck` + router), playbook/runbook, release discipline, LB re-based on tags, SystemDiagram | 5.1 · 5.2a-c · 5.3 · 5.4 · 5.5 · 5.6 (amendment, appendix below) | **Wilson dana-point proof (5.2c: fresh clone → deployed < 1h)**; clean tag-merge via /sekai-upgrade (5.4); phase confirm | AI 21h \| Human 1.5h |
 | 6 | Social + engagement | Feedback (Worker + D1 + widget + triage), snippet pipeline, soundscape | 6.1a-b · 6.2 · 6.3 | Live submission → D1 → GitHub issue; Wilson recordings (6.3); phase confirm | AI 9.5h \| Human 2.5h |
 | 7 | Differentiators | On-demand OG worker, RAG chat (bge-m3 + Workers AI + Claude API), QR flow | 7.1 · 7.2a-c · 7.3 | Eval set answered with citations, no hallucinated places (7.2c); phase confirm | AI 12.25h \| Human 1.75h |
 | 8 | Semiont plugin layer | Organ architecture in sekai-kb (config.json manifest, core organs); LB enables core + MANIFESTO | 8.1 · 8.2 | Site builds with `semiont/` deleted; organs toggle via config only; phase confirm | AI 4.25h \| Human 0h |
-| 9 | MCP + AI delivery | Remote MCP server (`workers/mcp/`) exposing list_topics/get_article/search/semantic_search; AI-access page + `/kb/agent.md` boot file; adopter upgrade playbook proven on the first real post-cut feature release | 9.1 · 9.2 · 9.3 | MCP client connected to `lagunabeach.md/mcp` answers an LB question via tools, no clone; phase shipped as sekai-kb tag → LB `/upgrade` clean (9.3); Wilson phase confirm | AI 6h \| Human 0.75h |
-| 10 | Perception (analytics) | GA4 + Search Console + Cloudflare Web Analytics live behind `features.analytics`; signal fetchers ported; dashboard analytics panels | 10.1 · 10.2 | Dashboard renders real traffic/search data from a fetch run; zero analytics IDs in `src/` outside place.config; sekai-kb tag → LB `/upgrade` clean; Wilson phase confirm | AI 4.25h \| Human 1h |
-| 11 | Autonomous routines | ROUTINE organ activated: routine contract + `/schedule` skill; embeddings/index refresh (CI); maintainer (content PR review + link/health audits); feedback-triage; data-refresh; trend-discovery; social-publish; rewrite | 11.1-11.8 | Two routines live ≥ 1 week shipping only via PRs, zero direct pushes to main; sekai-kb tag → LB `/upgrade` clean; Wilson phase confirm | AI 16.5h \| Human 0.75h |
+| 9 | MCP + AI delivery | Remote MCP server (`workers/mcp/`) exposing list_topics/get_article/search/semantic_search; AI-access page + `/kb/agent.md` boot file; adopter upgrade playbook proven on the first real post-cut feature release | 9.1 · 9.2 · 9.3 | MCP client connected to `lagunabeach.md/mcp` answers an LB question via tools, no clone; phase shipped as sekai-kb tag → LB `/sekai-upgrade` clean (9.3); Wilson phase confirm | AI 6h \| Human 0.75h |
+| 10 | Perception (analytics) | GA4 + Search Console + Cloudflare Web Analytics live behind `features.analytics`; signal fetchers ported; dashboard analytics panels | 10.1 · 10.2 | Dashboard renders real traffic/search data from a fetch run; zero analytics IDs in `src/` outside place.config; sekai-kb tag → LB `/sekai-upgrade` clean; Wilson phase confirm | AI 4.25h \| Human 1h |
+| 11 | Autonomous routines | ROUTINE organ activated: routine contract + `/schedule` skill; embeddings/index refresh (CI); maintainer (content PR review + link/health audits); feedback-triage; data-refresh; trend-discovery; social-publish; rewrite | 11.1-11.8 | Two routines live ≥ 1 week shipping only via PRs, zero direct pushes to main; sekai-kb tag → LB `/sekai-upgrade` clean; Wilson phase confirm | AI 16.5h \| Human 0.75h |
 
 **Totals:** phases 0-8 AI ≈ 79h (implement + review) | Human ≈ 9h; the Phase 5
 amendment (5.6, 2026-07-11) adds AI 2.5h; extension (phases 9-11) adds AI ≈ 26.75h |
@@ -76,7 +78,7 @@ call.
 **Execution repo flow for phases 9-11 (post-5.4 ownership rule, ADR 004/005):** every
 code task executes in the `sekai-kb` repo; each phase closes with a tagged sekai-kb
 release (CHANGELOG entry + upgrade note for any config-schema addition), and LB adopts it
-via `/upgrade` — that pull is part of each phase's exit gate. The only LB-side commits are
+via `/sekai-upgrade` — that pull is part of each phase's exit gate. The only LB-side commits are
 instance-owned: feature flags in `place.config.ts`, analytics IDs, ROUTINE.md entries,
 wrangler secrets. New `place.config` keys must be absent-safe (missing key = feature off)
 so existing adopter instances upgrade without config surgery.
@@ -97,7 +99,7 @@ realities the 2026-07-04 plan could not know.
 
 **New task block:**
 ```
-[5.6] Generic content-lifecycle skills: /write, /validate, /factcheck + router
+[5.6] Generic content-lifecycle skills: /sekai-write, /sekai-validate, /sekai-factcheck + router
   Effort: M | Model: Opus | Depends: 5.1, 5.3 (the playbook is the pipeline SSOT the
     skills reference)
   Est: AI 2h + 0.5h review
@@ -105,24 +107,24 @@ realities the 2026-07-04 plan could not know.
     1. Port from the v1 archive's lb-write / lb-validate / lb-factcheck, genericized at
        port time: place identity + category set from place.config.ts, pipeline/editorial
        rules referenced from docs/playbook/ (never fork doc paths); land under
-       .claude/skills/ with generic names (write, validate, factcheck) — no lb- prefix
+       .agent/skills/ with generic names (write, validate, factcheck) — no lb- prefix
        survives in any directory name, file name, or prose.
     2. Thin router skill (successor to the fork's `lb` router): lists the shipped skills
        + their triggers; probes semiont/config.json and no-ops gracefully when absent
        (organ substance arrives Phase 8).
-    3. Extend both machine gates' scan scope to .claude/skills/ (agent-executed prose is
+    3. Extend both machine gates' scan scope to .agent/skills/ (agent-executed prose is
        code for doctrine purposes): check-genericity.sh SCAN_ROOTS and
        check-english-only.mjs SCAN_ROOTS.
     4. Document the skill ownership rule in SPEC + framework AGENTS.md: framework skills
        are framework-owned (upgrade-managed, same class as src/); adopters ADD new skills
        freely (new files never conflict on upgrade); overriding a framework skill =
-       upstream to sekai-kb first, or accept a conflict-managed local fork that /upgrade
+       upstream to sekai-kb first, or accept a conflict-managed local fork that /sekai-upgrade
        flags each release.
-  Acceptance: on the demo place, /write produces an article that passes /validate and
-    article-health; both gates green with .claude/skills/ in scope; the router lists
+  Acceptance: on the demo place, /sekai-write produces an article that passes /sekai-validate and
+    article-health; both gates green with .agent/skills/ in scope; the router lists
     exactly the shipped skills; zero place-specific strings in any skill
   Downstream: 8.1 (router's semiont probe), 11.3/11.8 (maintainer + rewrite routines
-    invoke the validate/write pipelines)
+    invoke the validate/sekai-write pipelines)
 ```
 
 **Not ported** (ruling approved 2026-07-11): `lb-translate`
@@ -152,8 +154,8 @@ realities the 2026-07-04 plan could not know.
 - **5.2a wizard scope grew beyond the original ~8 prompts:** must also cover `links`
   (repo/email/social — the LB-3 schema divergence) and the `home` block (~230 lines of
   home-page copy now lives in place.config; see SPEC). The wizard writes generic defaults
-  for `home.*`; `/adopt` MAY draft place-specific copy behind the same human-approval
-  gate as `/seed-articles`. The wizard also appends the adopter's place name to a new
+  for `home.*`; `/sekai-adopt` MAY draft place-specific copy behind the same human-approval
+  gate as `/sekai-seed-articles`. The wizard also appends the adopter's place name to a new
   instance-owned `scripts/ci/genericity-denylist.local.txt`, read additively by
   check-genericity.sh — the framework denylist file stays framework-owned so upgrades
   never conflict.
@@ -186,7 +188,7 @@ the migrated surfaces.
   organs' boot files, no-op gracefully when the config is absent. All evolving loader
   logic and organ substance live in framework-owned `semiont/` files, so the
   adopter-owned hook rarely changes; when it must, the change reaches existing
-  instances via `/upgrade`'s conversational starter-diff step, never a silent merge
+  instances via `/sekai-upgrade`'s conversational starter-diff step, never a silent merge
   (same pattern as the dev-plugin reference line in `AGENTS.md`). Boot-time organ
   loading — MEMORY/REFLEXES inlined each session, ADR 003's core-organ intent — is
   preserved. The `/dev:plan` packet for 8.1 cites this ruling, not the superseded wording.
@@ -205,7 +207,7 @@ the migrated surfaces.
 
 These are the active source blocks for `/dev:plan`. Model names are advisory and
 version-less; Wilson chooses the session model. Every task executes in `sekai-kb`, ships
-in a tagged release, and reaches this instance through `/upgrade` unless its packet names
+in a tagged release, and reaches this instance through `/sekai-upgrade` unless its packet names
 an instance-owned LB edit.
 
 **Phase 6: Social + engagement**
@@ -403,10 +405,10 @@ Model policy: all execution Opus (Wilson,
   Steps:
     1. Ship Phase 9 as sekai-kb release vX.Y: CHANGELOG entry with the features.mcp
        upgrade note — the first real config-schema addition since the cut.
-    2. Run /upgrade in lagunabeach-md against the tag as the proof.
+    2. Run /sekai-upgrade in lagunabeach-md against the tag as the proof.
     3. Extend docs/runbook/UPGRADE.md (exists since Phase 5, LB-33/LB-44) for adopters
        FROM that real run: discover releases (watch tags / CHANGELOG), read upgrade
-       notes, run /upgrade (AI path) or the manual fetch → merge-tag → build commands
+       notes, run /sekai-upgrade (AI path) or the manual fetch → merge-tag → build commands
        (non-AI path), handle conflict reports, enable newly added feature flags
        (absent-safe: skipping the flag = feature stays off), verify FRAMEWORK-VERSION
        bumped.

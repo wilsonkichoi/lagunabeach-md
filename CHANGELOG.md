@@ -3,7 +3,7 @@
 Notable changes to the LagunaBeach.md instance are recorded here. This file contains
 LB work only. Framework release notes remain in the
 [`sekai-kb` changelog](https://github.com/wilsonkichoi/sekai-kb/blob/main/CHANGELOG.md)
-and are read from the target release tag during `/upgrade`.
+and are read from the target release tag during `/sekai-upgrade`.
 
 This file is instance-owned (`CHANGELOG.md merge=ours` in `.gitattributes`). Framework
 tag merges must never replace it. `FRAMEWORK-VERSION` separately records the adopted
@@ -13,9 +13,18 @@ framework release.
 
 ### Changed
 
+- **Framework skills moved into the shared agent namespace.** LB now inherits
+  them under `.agent/skills/`, with `sekai-` prefixed folder names, YAML names,
+  invocation names, and cross-skill references. `AGENTS.md` tells Claude Code
+  how to discover the new path, and both genericity gates scan it.
+
 - **Release identity is separated from framework adoption.** `VERSION` is now the
-  LB release SSOT and starts at `v0.0.0`; `FRAMEWORK-VERSION` remains the adopted
-  Sekai release. The private npm manifest no longer carries a release version.
+  LB release SSOT at `v0.0.1`; `FRAMEWORK-VERSION` remains the adopted Sekai
+  release. `package.json.version` and the lockfile root versions mirror `VERSION`
+  as `0.0.1`. Explicit `/sekai-release` requests can bump patch, minor, or major;
+  routine article PRs never change the release. The bump command preserves every
+  non-version byte in both npm manifests. Upgrade package reconciliation keeps that
+  adopter identity while accepting incoming framework scripts and dependencies.
 
 - **Project documentation was consolidated before Phase 6.**
   - Deleted `.fable/README.md` and `.fable/STRATEGIC-DIRECTION.md`.

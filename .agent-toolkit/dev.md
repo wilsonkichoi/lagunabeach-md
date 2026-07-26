@@ -70,7 +70,7 @@ After **5.4** (LB-33, done), `lagunabeach-md` is **instance #1** of the framewor
 live `lagunabeach.md` site), re-based onto `sekai-kb-v1.0.0` with the merge base established
 (`git merge --allow-unrelated-histories`) and `merge=ours` on the instance-owned file list.
 Feature phases 6-11 execute in `sekai-kb` and ship as tagged releases; `lagunabeach-md`'s
-only commits are instance-owned — adopting each release via `/upgrade` (part of every phase's
+only commits are instance-owned — adopting each release via `/sekai-upgrade` (part of every phase's
 exit gate; mechanics + the required `git config merge.ours.driver true` per-clone step in
 `docs/runbook/UPGRADE.md`), `features.*` flags in `place.config.ts`, analytics IDs, ROUTINE
 entries, and its own content/media. `FRAMEWORK-VERSION` records the adopted tag.
@@ -78,7 +78,7 @@ entries, and its own content/media. `FRAMEWORK-VERSION` records the adopted tag.
 ## Adopter dev-plugin upgrade state
 
 SPEC `Repo topology` and ADR 006 define `.agent-toolkit/` presence as persistent
-instance state. Before a framework tag merge, `/upgrade` classifies the instance as
+instance state. Before a framework tag merge, `/sekai-upgrade` classifies the instance as
 stripped (tree and active AGENTS.md reference both absent) or installed (config and
 reference both present). Stripped stays stripped across shared and unrelated histories;
 installed keeps its adopter-owned config and rules. A mixed state is invalid and stops.
@@ -87,10 +87,10 @@ LB-44 implements and regression-tests this Phase 5 upgrade contract.
 ## Instance history and version ownership
 
 `CHANGELOG.md` records LagunaBeach.md work only and carries `merge=ours`. It is not a
-local copy of the framework release log. `/upgrade` reads framework notes directly from
+local copy of the framework release log. `/sekai-upgrade` reads framework notes directly from
 the target tag with `git show <tag>:CHANGELOG.md`, while the merge keeps LB's changelog
 unchanged. `FRAMEWORK-VERSION` remains the separate marker for the adopted Sekai tag.
-It also carries `merge=ours`: the tag merge preserves the old marker, and `/upgrade`
+It also carries `merge=ours`: the tag merge preserves the old marker, and `/sekai-upgrade`
 bumps it explicitly only after verification succeeds.
 
 `VERSION` is the LagunaBeach.md release SSOT and also carries `merge=ours`; framework
@@ -135,7 +135,7 @@ framework for scripts and dependencies; it carries neither release value.
   merge topology (tag merges, merge-base establishment, ancestry) must say its PR merges
   with a real merge commit — the `merge_policy: squash` default silently flattens
   history-shaped deliverables. Found as LB-33 review B1;
-  `.agent-toolkit/rules/upgrade-prs-merge-commit-never-squash.md` carries the execution/verify
+  `.agent-toolkit/rules/sekai-upgrade-prs-merge-commit-never-squash.md` carries the execution/verify
   guard.
 
 ## Execution conventions
@@ -208,7 +208,7 @@ file's own frontmatter, not this list.
 - `.agent-toolkit/rules/dod-is-the-scope.md` — the claimed task's Objective + DoD is the whole scope; never trim a DoD criterion citing "don't over-engineer"/simplicity/phase boundaries — silent scope-drop is a review blocker.
 - `.agent-toolkit/rules/clean-rebuild-no-dead-fork-code.md` — this is a clean rebuild: dead fork-era code (unreachable branches, zh-TW fallbacks, fork-context comments) is a review **blocker**, not a nit; strip it at extraction, sweep ported files for CJK before hand-off.
 - `.agent-toolkit/rules/fork-sweep-semantic-not-encoding.md` — a "dead fork code removed" claim needs a semantic grep (SPORE/APPLIES_TO/zh-TW/taiwan.md/…) plus the codepoint grep; enumerate the fork's vocabulary once, sweep `scripts/` + `tests/` together, ship a mechanical guard.
-- `.agent-toolkit/rules/upgrade-prs-merge-commit-never-squash.md` — a PR whose branch history is the deliverable (framework-upgrade / tag-merge / merge-base) merges with `gh pr merge --merge`, never squash, and asserts `git merge-base --is-ancestor` after.
+- `.agent-toolkit/rules/sekai-upgrade-prs-merge-commit-never-squash.md` — a PR whose branch history is the deliverable (framework-upgrade / tag-merge / merge-base) merges with `gh pr merge --merge`, never squash, and asserts `git merge-base --is-ancestor` after.
 - `.agent-toolkit/rules/dod-guard-suite-must-run-in-ci.md` — a test suite cited as a DoD regression guard counts only if the CI workflow actually runs it; check `deploy.yml` for the exact script name and wire it in if missing — a green local run is not a gate.
 - `.agent-toolkit/rules/genericity-gate-scope.md` — what the genericity + English-only gates check (place-name denylist grep + CJK-codepoint scan over `src/` + `scripts/` + `tests/`), what they don't (hex colors), and that they scan comments/doc-strings too.
 

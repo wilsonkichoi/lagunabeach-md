@@ -28,9 +28,11 @@ Instances merge **immutable semver release tags, never framework main**:
    the same work item — review-checklist enforced, SPEC `Risk controls`).
 
 `VERSION` records the instance's own release. `FRAMEWORK-VERSION` records the adopted
-Sekai release; the `/upgrade` skill wraps
-fetch → merge tag → build-verify → conflict report → version bump (ROADMAP task 5.4, proven by a
-demonstrated clean tag merge as acceptance).
+Sekai release; the `/sekai-upgrade` skill wraps
+fetch → capture adopter package state → merge tag → reconcile mixed-ownership npm
+manifests → build-verify → conflict report → framework-version bump (ROADMAP task 5.4,
+proven by a demonstrated tag merge as acceptance). Adopter releases are independent and
+run explicitly through `/sekai-release` (ADR 007).
 
 ## Consequences
 

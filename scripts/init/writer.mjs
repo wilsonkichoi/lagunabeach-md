@@ -92,7 +92,7 @@ const CONFIG_HEADER = `/**
  * wizard regenerates it (and reseeds knowledge/ with empty category folders).
  *
  * The \`home\` block ships generic defaults: no wizard prompt walks the home-page
- * copy. Replace it with place-specific copy by hand, or let the /adopt skill
+ * copy. Replace it with place-specific copy by hand, or let the /sekai-adopt skill
  * draft it behind human approval.
  */
 `;
@@ -275,6 +275,9 @@ Code reaches it through a one-line \`@AGENTS.md\` shim in \`CLAUDE.md\`.
 - **Media:** \`public/media/\` and other \`public/\` assets.
 - **Instance history:** \`CHANGELOG.md\` records changes to this instance only.
   Framework release notes remain in immutable \`sekai-kb\` tags.
+- **Versions:** \`VERSION\` is this instance's release SSOT. \`FRAMEWORK-VERSION\`
+  records the adopted Sekai release. \`package.json.version\` mirrors \`VERSION\`
+  without the leading \`v\`.
 - **Architecture diagrams (engineering SSOT):** \`docs/diagrams/*.drawio\`.
 
 ## How the site builds
@@ -293,13 +296,21 @@ projections of \`knowledge/\` — never edit them directly.
    skills. Place identity flows only from \`place.config.ts\` + \`knowledge/\` +
    \`public/media/\`. Machine-gated by \`npm run genericity\`, whose two gates carry
    **different** roots: \`scripts/ci/check-genericity.sh\` (place-name denylist) scans
-   \`src/\`, \`scripts/\`, \`tests/\`, \`.claude/skills/\`;
+   \`src/\`, \`scripts/\`, \`tests/\`, \`.agent/skills/\`;
    \`scripts/ci/check-english-only.mjs\` (CJK codepoints) scans \`src/\`, \`scripts/\`,
-   \`tests/\`, \`workers/\`, \`.claude/skills/\`; a gate skips any of its roots that this
+   \`tests/\`, \`workers/\`, \`.agent/skills/\`; a gate skips any of its roots that this
    instance does not have.
 3. **Framework vs instance:** \`src/\` and \`scripts/\` are framework-owned — customize
    through config, content, and media. Anything more is upstreamed to sekai-kb and
    pulled back as a tagged release. The genericity gate is the structural guarantee.
+
+## Skill discovery
+
+Claude Code must discover project skills from \`.agent/skills/*/SKILL.md\`: read
+each file's YAML \`name\` and \`description\` for discovery, then load the full file
+when the user names a skill or the request matches its description. The
+framework-owned skills use the \`sekai-\` prefix to avoid collisions with instance
+and tool-provided skills.
 
 ## Language support boundary
 
@@ -402,7 +413,7 @@ function renderChangelog(cfg) {
 Notable changes to this instance are recorded here. This file contains instance work
 only. Framework release notes remain in the
 [sekai-kb changelog](https://github.com/wilsonkichoi/sekai-kb/blob/main/CHANGELOG.md)
-and are read from the target release tag during \`/upgrade\`.
+and are read from the target release tag during \`/sekai-upgrade\`.
 
 This file is instance-owned (\`CHANGELOG.md merge=ours\` in \`.gitattributes\`).
 Framework tag merges must never replace it. \`FRAMEWORK-VERSION\` separately records
@@ -486,31 +497,30 @@ export function writeInstance(root, cfg) {
   write('README.md', renderReadme(cfg));
 
   // CHANGELOG.md: replace the framework release log with instance-only history.
-  // It is protected by merge=ours, while /upgrade reads future framework notes
+  // It is protected by merge=ours, while /sekai-upgrade reads future framework notes
   // directly from the immutable target tag.
   write('CHANGELOG.md', renderChangelog(cfg));
 
   // package.json/package-lock.json: package identity belongs to the adopter;
-  // scripts and dependency contracts remain framework-owned. Release versions
-  // do not live in either npm manifest: VERSION and FRAMEWORK-VERSION are their
-  // respective SSOTs.
+  // scripts and dependency contracts remain framework-owned. package versions
+  // mirror the adopter's VERSION without its leading v.
   const pkg = JSON.parse(readFileSync(join(root, 'package.json'), 'utf8'));
   pkg.name = slugify(cfg.place.name);
   pkg.private = true;
   pkg.description = `AI-native open knowledge base for ${cfg.place.name}.`;
-  delete pkg.version;
+  pkg.version = '0.0.0';
   write('package.json', `${JSON.stringify(pkg, null, 2)}\n`);
 
   const lock = JSON.parse(readFileSync(join(root, 'package-lock.json'), 'utf8'));
   lock.name = pkg.name;
-  delete lock.version;
+  lock.version = pkg.version;
   lock.packages[''].name = pkg.name;
-  delete lock.packages[''].version;
+  lock.packages[''].version = pkg.version;
   write('package-lock.json', `${JSON.stringify(lock, null, 2)}\n`);
 
   // VERSION is the adopter's own release SSOT. FRAMEWORK-VERSION is the exact
-  // sekai-kb release adopted by this checkout. The template carries the latter;
-  // init preserves its v-prefixed value instead of deriving it from package.json.
+  // sekai-kb release adopted by this checkout. The template carries only the
+  // latter; init creates VERSION and preserves the framework value.
   write('VERSION', 'v0.0.0\n');
   const frameworkVersion = readFileSync(join(root, 'FRAMEWORK-VERSION'), 'utf8').trim();
   write('FRAMEWORK-VERSION', `${frameworkVersion}\n`);
@@ -554,7 +564,7 @@ export function writeInstance(root, cfg) {
   //
   // The two removals together are the `stripped` dev-plugin state that every later
   // framework upgrade must preserve. `merge=ours` cannot protect a deleted path, so
-  // /upgrade classifies this state before merging and reconciles it after
+  // /sekai-upgrade classifies this state before merging and reconciles it after
   // (scripts/upgrade/dev-plugin-state.mjs, ADR 006 addendum); do not change what is
   // removed here without updating that helper's definition of `stripped`.
   const agentToolkit = join(root, '.agent-toolkit');
