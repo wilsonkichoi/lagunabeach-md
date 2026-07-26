@@ -139,9 +139,11 @@ git config merge.ours.driver true
 # 1. Working tree clean? (stash or commit first — a merge onto a dirty tree bites.)
 git status --porcelain
 
-# 2. Fetch tags and list releases; pick the target above your FRAMEWORK-VERSION.
+# 2. VERSION is your instance release and never changes here. Pick a framework
+#    target above FRAMEWORK-VERSION.
 git fetch framework --tags
 git tag -l 'sekai-kb-v*' | sort -V
+cat VERSION
 cat FRAMEWORK-VERSION
 
 # 3. Read the target's CHANGELOG entry first — especially its Upgrade note.
@@ -172,7 +174,7 @@ git diff --name-only --diff-filter=U
 #    git checkout --theirs <file> && git add <file>     # take framework
 #    git commit --no-edit                               # finalize the merge
 
-# 8. Build-verify, then record the new version.
+# 8. Build-verify, then record the newly adopted framework version.
 npm run build
 printf 'v1.0.1\n' > FRAMEWORK-VERSION
 git add FRAMEWORK-VERSION && git commit -m "chore: FRAMEWORK-VERSION -> v1.0.1"
@@ -203,6 +205,7 @@ merges keep the instance's version:
 | `AGENTS.md` | instance-owned agent-instruction SSOT (rendered by the wizard) |
 | `README.md` | instance repo front page (rendered by the wizard) |
 | `CHANGELOG.md` | instance work history; framework notes are read from the target tag |
+| `VERSION` | the instance's own release version; framework upgrades never change it |
 | `FRAMEWORK-VERSION` | adopted framework tag; bumped explicitly after upgrade verification |
 | `docs/baselines/**` | instance-captured health/visual baselines |
 | `scripts/ci/genericity-denylist.local.txt` | the place's own denylisted terms |
@@ -245,7 +248,7 @@ framework tag never replaces its dev config with the framework's.
 
 `merge=ours` keeps your version of an instance-owned file and **silently drops the
 framework's changes** to it. That is what you want for `place.config.ts`,
-`knowledge/**`, media, and `CHANGELOG.md`. But the *content-bearing starter* files the wizard seeded
+`knowledge/**`, media, `CHANGELOG.md`, and `VERSION`. But the *content-bearing starter* files the wizard seeded
 — `AGENTS.md` above all, and `README.md` — started as framework boilerplate; a
 release that improves that boilerplate would vanish with no signal. `CLAUDE.md` is
 exempt: it is a pure one-line `@AGENTS.md` shim carrying no content that can diverge,

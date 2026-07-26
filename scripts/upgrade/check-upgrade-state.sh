@@ -261,6 +261,7 @@ write_gitattributes() { # dir — byte-identical in framework and instances
 AGENTS.md merge=ours
 CLAUDE.md merge=ours
 CHANGELOG.md merge=ours
+VERSION merge=ours
 FRAMEWORK-VERSION merge=ours
 place.config.ts merge=ours
 .agent-toolkit/** merge=ours
@@ -367,10 +368,20 @@ write_instance_framework_version() { # file
   printf 'instance-v1\n' > "$1"
 }
 
+write_instance_version() { # file
+  printf 'adopter-v7\n' > "$1"
+}
+
 assert_instance_framework_version() { # repo label
   [ "$(cat "$1/FRAMEWORK-VERSION")" = "instance-v1" ] \
     || fail "$2: framework merge replaced FRAMEWORK-VERSION before the explicit bump"
   ok "$2: FRAMEWORK-VERSION is preserved through the merge"
+}
+
+assert_instance_version() { # repo label
+  [ "$(cat "$1/VERSION")" = "adopter-v7" ] \
+    || fail "$2: framework merge replaced the adopter's VERSION"
+  ok "$2: adopter VERSION is preserved"
 }
 
 # Framework repo carrying tags fw-v1 and fw-v2.
@@ -388,6 +399,7 @@ tier: doctrine
 EOF
   write_gitattributes "$fw"
   printf '# Framework changelog\n\nFramework release fw-v1.\n' > "$fw/CHANGELOG.md"
+  printf 'template-v1\n' > "$fw/VERSION"
   printf 'framework-v1\n' > "$fw/FRAMEWORK-VERSION"
   printf 'export const place = { name: "Example", tagline: "The framework demo place." };\n' > "$fw/place.config.ts"
   printf 'export const FRAMEWORK_APP = "fw-v1";\n' > "$fw/src/app.js"
@@ -408,6 +420,7 @@ triggers:
 EOF
   printf 'export const FRAMEWORK_APP = "fw-v2";\n' > "$fw/src/app.js"
   printf '# Framework changelog\n\nFramework release fw-v2.\n' > "$fw/CHANGELOG.md"
+  printf 'template-v2\n' > "$fw/VERSION"
   printf 'framework-v2\n' > "$fw/FRAMEWORK-VERSION"
   git -C "$fw" add -A
   git -C "$fw" commit -q -m "Example framework fw-v2"
@@ -422,6 +435,7 @@ lay_instance_skeleton() { # dir
   printf 'export const INSTANCE_APP = "instance-local";\n' > "$1/src/app.js"
   printf '@AGENTS.md\n' > "$1/CLAUDE.md"
   write_instance_changelog "$1/CHANGELOG.md"
+  write_instance_version "$1/VERSION"
   write_instance_framework_version "$1/FRAMEWORK-VERSION"
   cp "$HELPER_SRC" "$1/scripts/upgrade/dev-plugin-state.mjs"
 }
@@ -431,6 +445,7 @@ clone_at_v1() { # framework-dir dest
   configure_repo "$2"
   git -C "$2" checkout -q -B main fw-v1
   write_instance_changelog "$2/CHANGELOG.md"
+  write_instance_version "$2/VERSION"
   write_instance_framework_version "$2/FRAMEWORK-VERSION"
 }
 
@@ -443,7 +458,7 @@ finalize_merge() { # dir label
   local path
   git -C "$1" diff --name-only --diff-filter=U | while IFS= read -r path; do
     case "$path" in
-      AGENTS.md|CLAUDE.md|CHANGELOG.md|FRAMEWORK-VERSION|place.config.ts)
+      AGENTS.md|CLAUDE.md|CHANGELOG.md|VERSION|FRAMEWORK-VERSION|place.config.ts)
         git -C "$1" checkout --ours -- "$path" 2>/dev/null || true
         ;;
       *)
@@ -503,6 +518,7 @@ case_stripped_shared_history() { # workdir
     || fail "case 1: the framework's non-dev-plugin change (src/app.js at fw-v2) did not land — reconcile discarded the merge"
   ok "case 1: the framework's non-dev-plugin change (src/app.js @ fw-v2) landed"
   assert_instance_changelog "$inst" "case 1"
+  assert_instance_version "$inst" "case 1"
   assert_instance_framework_version "$inst" "case 1"
 
   # 1b — the same stripped shared-history upgrade run from a LINKED GIT WORKTREE
@@ -552,6 +568,7 @@ case_stripped_shared_history() { # workdir
   [ ! -e "$wt/.agent-toolkit" ] || fail "case 1b: .agent-toolkit/ survives in the linked worktree"
   assert_no_active_reference "$wt" "case 1b"
   assert_instance_changelog "$wt" "case 1b"
+  assert_instance_version "$wt" "case 1b"
   assert_instance_framework_version "$wt" "case 1b"
 }
 
@@ -594,6 +611,7 @@ case_stripped_unrelated_history() { # workdir
   [ ! -e "$inst/.agent-toolkit" ] || fail "case 2: .agent-toolkit/ survives in the working tree"
   assert_no_active_reference "$inst" "case 2"
   assert_instance_changelog "$inst" "case 2"
+  assert_instance_version "$inst" "case 2"
   assert_instance_framework_version "$inst" "case 2"
 
   # 2b — the same unrelated-history first merge, shaped so the merge COMPLETES
@@ -608,6 +626,7 @@ case_stripped_unrelated_history() { # workdir
   printf 'export const place = { name: "Instance", tagline: "The adopting instance." };\n' > "$inst2/place.config.ts"
   printf 'export const FRAMEWORK_APP = "fw-v2";\n' > "$inst2/src/app.js"
   write_instance_changelog "$inst2/CHANGELOG.md"
+  write_instance_version "$inst2/VERSION"
   write_instance_framework_version "$inst2/FRAMEWORK-VERSION"
   git -C "$inst2" add -A
   git -C "$inst2" commit -q -m "Example instance without entry files, own history"
@@ -632,6 +651,7 @@ case_stripped_unrelated_history() { # workdir
   [ ! -e "$inst2/.agent-toolkit" ] || fail "case 2b: .agent-toolkit/ survives in the working tree"
   assert_no_active_reference "$inst2" "case 2b"
   assert_instance_changelog "$inst2" "case 2b"
+  assert_instance_version "$inst2" "case 2b"
   assert_instance_framework_version "$inst2" "case 2b"
   local dirty
   dirty="$(git -C "$inst2" status --porcelain)"
@@ -707,6 +727,7 @@ EOF
   assert_active_reference "$inst" "case 3"
   assert_classify "$inst" "case 3 (post-merge)" installed
   assert_instance_changelog "$inst" "case 3"
+  assert_instance_version "$inst" "case 3"
   assert_instance_framework_version "$inst" "case 3"
 }
 
