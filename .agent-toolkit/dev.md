@@ -32,7 +32,8 @@ governs work committed here.
 - **Release discipline (read before cutting a release):** `CHANGELOG.md` preamble —
   every change lands with a CHANGELOG entry, breaking config changes carry an
   **Upgrade note**, instances merge tags only, instance-owned files
-  (`.gitattributes merge=ours`) are never overwritten.
+  (`.gitattributes merge=ours`) are never overwritten. `CHANGELOG.md` is the framework
+  release log in this repo but becomes instance-owned when the init wizard replaces it.
 - **Upgrade mechanics:** `docs/runbook/UPGRADE.md` + the `/upgrade` skill; ADR 004
   (tagged-release topology).
 
@@ -60,6 +61,12 @@ governs work committed here.
   which `/upgrade` runs before and after every tag merge (ADR 006 addendum). A
   change to this tree's shape must keep that helper's `stripped`/`installed`
   definitions true — `scripts/upgrade/check-upgrade-state.sh` is the gate.
+- **Framework and instance changelogs are separate.** Releases update this repo's
+  `CHANGELOG.md`. `npm run init` writes an instance-only changelog at the same path and
+  `merge=ours` preserves it. `/upgrade` reads framework notes from the target tag with
+  `git show <tag>:CHANGELOG.md`; it never copies the framework log over the instance log.
+  `FRAMEWORK-VERSION` is also instance-owned: the merge preserves it, then `/upgrade`
+  bumps it explicitly after verification.
 
 ## Rules
 

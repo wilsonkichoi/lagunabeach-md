@@ -25,7 +25,7 @@ tags, never framework `main`** (ADR 004, SPEC
    flow in `docs/runbook/UPGRADE.md`), which merges the tag, never `main`.
 4. **Instance-owned files are never overwritten.** Files an instance owns
    (`place.config.ts`, `knowledge/**`, `public/media/**`, `CNAME`, `CLAUDE.md`,
-   `AGENTS.md`, `README.md`, `docs/baselines/**`,
+   `AGENTS.md`, `README.md`, `CHANGELOG.md`, `FRAMEWORK-VERSION`, `docs/baselines/**`,
    `scripts/ci/genericity-denylist.local.txt`, `.agent-toolkit/**`) carry
    `.gitattributes merge=ours` on the instance, so a tag merge keeps the
    instance's copy. Framework changes to those paths are therefore inert on
@@ -34,6 +34,19 @@ tags, never framework `main`** (ADR 004, SPEC
 ## [Unreleased]
 
 ### Changed
+
+- **Adopted instances now own their changelog.** The template keeps this file as the
+  framework release log, but `npm run init` replaces it with a deterministic
+  instance-only changelog and `.gitattributes` protects it with `merge=ours`.
+  `/upgrade` continues to read framework notes directly from the target tag, so it does
+  not need or overwrite the instance log. Init and upgrade regression checks enforce
+  the split. `FRAMEWORK-VERSION` is now merge-protected too; `/upgrade` remains its
+  explicit writer after verification.
+
+  **Upgrade note:** before adopting the release containing this change, an existing
+  instance that wants an instance-only changelog must add `CHANGELOG.md merge=ours` to
+  its `.gitattributes` and replace copied framework history with its own record. Commit
+  both changes before running `/upgrade`.
 
 - **The required dev-plugin release is explicit and CI-guarded.**
   `.agent-toolkit/dev.md` frontmatter now declares the action repository and
