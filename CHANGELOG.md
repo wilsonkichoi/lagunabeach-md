@@ -33,6 +33,12 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+## [1.0.7] — 2026-07-26
+
+Separates framework and adopter changelogs, protects the instance's adopted
+framework marker during merges, and pins the framework's dev-plugin validation
+contract to its declared release.
+
 ### Changed
 
 - **Adopted instances now own their changelog.** The template keeps this file as the
@@ -424,9 +430,12 @@ onto this tag.
 First release — nothing to upgrade from. The first instance establishes its merge
 base against this tag per `docs/runbook/UPGRADE.md` §Establishing the merge base.
 
-[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.0.5...HEAD
+[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.0.7...HEAD
+[1.0.7]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.7
+[1.0.6]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.6
 [1.0.5]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.5
 [1.0.4]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.4
 [1.0.3]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.3
 [1.0.2]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.2
+[1.0.1]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.1
 [1.0.0]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.0
