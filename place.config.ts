@@ -5,8 +5,8 @@
  * here. `src/` and `scripts/` stay generic and read from this file, so the Phase 5
  * framework cut ("sekai-kb") can strip this one file to re-place the whole site.
  * Init-time fields (place, categories, map) are written once by the `npm run init`
- * wizard; `features` and `languages` are runtime-toggleable. See SPEC.md
- * "place.config.ts" and .fable/STRATEGIC-DIRECTION.md §B.
+ * wizard; `features` and `languages` are runtime-toggleable. See docs/SPEC.md
+ * "place.config.ts".
  */
 
 export interface PlaceConfig {
@@ -48,8 +48,8 @@ export interface PlaceConfig {
    * handles feed the footer social row and SEO sameAs, and render ONLY when
    * `features.social` is true. Handles include the leading `@`; component
    * code strips it when building platform URLs.
-   * Added by task 1.1a (shell): §B's schema had no home for these; extending
-   * it was Wilson's call (diverges from STRATEGIC-DIRECTION §B, tracked on LB-3).
+   * Added by task 1.1a (shell): the original schema had no home for these;
+   * Wilson approved the extension now recorded in docs/SPEC.md (tracked on LB-3).
    */
   links: {
     repo: string;

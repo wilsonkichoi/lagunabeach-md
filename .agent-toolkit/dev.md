@@ -18,13 +18,14 @@ rules_dir: .agent-toolkit/rules/  # promoted learnings, one file per rule (dev:r
 
 # Project conventions
 
-## Binding spec and doc precedence
+## Document authority and precedence
 
-Binding spec: `.fable/STRATEGIC-DIRECTION.md` (see its 2026-07-07 revision note). Task
-packets are converted from its §E, never re-derived. Once `docs/PRD.md`, `docs/SPEC.md`,
-and `docs/ROADMAP.md` are approved, they are the operative docs for dev-plugin skills;
-STRATEGIC-DIRECTION.md is the frozen source of record. Any conflict between them is
-surfaced to Wilson — never silently resolved in either direction.
+`docs/PRD.md` owns product intent and non-goals. `docs/SPEC.md` and `docs/adr/` own
+architecture, contracts, extraction/disposition decisions, and risk controls.
+`docs/ROADMAP.md` owns phase order, task blocks, amendments, dependencies, and gates.
+Linear owns live task state. Task packets are converted from the ROADMAP blocks, never
+re-derived. Any conflict among these documents is surfaced to Wilson, never silently
+resolved in either direction.
 
 ## Genericity rule (negative requirement)
 
@@ -36,12 +37,12 @@ Zero place-specific strings in `src/` or `scripts/`. All place identity flows fr
 
 | Reference | Role | Rule |
 |---|---|---|
-| `.fable/STRATEGIC-DIRECTION.md` (this repo) | binding spec | every task packet names the §E sub-unit it executes |
+| `docs/PRD.md`, `docs/SPEC.md`, `docs/ROADMAP.md`, `docs/adr/` (this repo) | product, engineering, and delivery SSOTs | every task packet names the ROADMAP task block it executes and cites the relevant SPEC/ADR contracts |
 | `${SRC_HOME}/sekai-kb` (framework SSOT, GitHub `wilsonkichoi/sekai-kb`) | framework template + release train | Phase 5+ code lands here (LB-26 cut); instances merge **tagged releases only** (`sekai-kb-vX.Y.Z`), never framework `main` — per `docs/runbook/UPGRADE.md` + ADR 004. LB re-based onto `sekai-kb-v1.0.0` in LB-33 |
-| `${SRC_HOME}/lagunabeach-md-v1` (the renamed fork checkout) | extraction source | §C prefers the fork's copy; reviews verify extraction claims against this tree, **byte-diff where §C says verbatim** |
+| `${SRC_HOME}/lagunabeach-md-v1` (the renamed fork checkout) | extraction source | the SPEC extraction map prefers the fork's copy; reviews verify extraction claims against this tree, **byte-diff where the map says verbatim** |
 | `${SRC_HOME}/taiwan-md` | design reference | consult for design rationale; never a content source |
-| `${SRC_HOME}/lagunabeach-md-v0/_research/taiwan-md-research.md` + `taiwan-md-llm-wiki.md` | v0 deep research | §B/§D section pointers are mandatory pre-reads for the executor of the citing task (2.1 boundary sourcing, Phase 5 adopter needs, 7.1/7.2 worker designs) |
-| v1 archive `MIGRATION.md` | lessons only | not process; the migration apparatus is dead per §F |
+| `${SRC_HOME}/lagunabeach-md-v0/_research/taiwan-md-research.md` + `taiwan-md-llm-wiki.md` | v0 deep research | SPEC and ROADMAP section pointers are mandatory pre-reads for the executor of the citing task (2.1 boundary sourcing, Phase 5 adopter needs, 7.1/7.2 worker designs) |
+| v1 archive `MIGRATION.md` | lessons only | not process; the migration apparatus is retired per the SPEC inherited-fork disposition |
 
 A session loads only the references its task cites — nothing else.
 
@@ -50,8 +51,8 @@ A session loads only the references its task cites — nothing else.
 From Phase 5, task **code** executes in the **sekai-kb** repo
 (`git@github.com:wilsonkichoi/sekai-kb.git`, cloned at `~/src/sekai-kb`) — the framework
 template cut in LB-26. The Linear tracker (team `LB`, project "LB Rebuild") and **all**
-process/planning docs (this file, `.agent-toolkit/rules/`, `.fable/STRATEGIC-DIRECTION.md`,
-`docs/`) stay in `lagunabeach-md`. A packet's `Execution repo:` field names where its code
+process/planning docs (this file, `.agent-toolkit/rules/`, and `docs/`) stay in
+`lagunabeach-md`. A packet's `Execution repo:` field names where its code
 lands; absent that field, assume `sekai-kb` for Phase 5+.
 
 Consequences for the dev-plugin skills (there is no `github_repo` in the frontmatter, and
@@ -83,17 +84,26 @@ reference both present). Stripped stays stripped across shared and unrelated his
 installed keeps its adopter-owned config and rules. A mixed state is invalid and stops.
 LB-44 implements and regression-tests this Phase 5 upgrade contract.
 
+## Instance changelog ownership
+
+`CHANGELOG.md` records LagunaBeach.md work only and carries `merge=ours`. It is not a
+local copy of the framework release log. `/upgrade` reads framework notes directly from
+the target tag with `git show <tag>:CHANGELOG.md`, while the merge keeps LB's changelog
+unchanged. `FRAMEWORK-VERSION` remains the separate instance marker for the adopted tag.
+It also carries `merge=ours`: the tag merge preserves the old marker, and `/upgrade`
+bumps it explicitly only after verification succeeds.
+
 ## Milestones and model policy
 
 - Milestones = Linear project milestones on project "LB Rebuild", one per phase
-  ("Phase 0" … "Phase 11"): 0-8 from §E, 9-11 from the ROADMAP "Extension task blocks"
-  appendix (ADR 005) — packets convert from those blocks exactly as from §E.
+  ("Phase 0" … "Phase 11"). All task blocks live in `docs/ROADMAP.md` and packets
+  convert from those blocks exactly.
   Phase transitions are Wilson gates: `/dev:plan` for phase n+1
   runs only after Wilson confirms phase n closed **and** the phase-n retro confirms every
   Backlog discovery stub from the phase is triaged — each stub either became a
   ROADMAP/SPEC edit (via `dev:backlog` triage), was pulled into the phase-n+1 plan, or was
   closed Wont Do with rationale. Untriaged stubs block the next plan.
-- Wilson gates from §E (1.1c design sign-off, 3.2 domain cutover, 5.2c dana-point proof)
+- Wilson gates from the ROADMAP (1.1c design sign-off, 3.2 domain cutover, 5.2c dana-point proof)
   are manual DoD criteria on those tasks — `/dev:verify` must stop for Wilson on them.
 - Packet `Model:` notes (version-less, e.g. `Model: Opus`) are advisory; Wilson picks each
   session's model. Reviews default to Sonnet; a `Review-Model: Opus` note on a task
@@ -109,11 +119,11 @@ LB-44 implements and regression-tests this Phase 5 upgrade contract.
 - **Mirror the fork's exact dep versions, not caret ranges** — see
   `.agent-toolkit/rules/extraction-version-pinning.md`. A packet's `^`/`~` ranges are advisory; the
   fork's installed version is the contract.
-- **Read ahead, plan JIT.** When decomposing phase n, `/dev:plan` must read the §E / ROADMAP
+- **Read ahead, plan JIT.** When decomposing phase n, `/dev:plan` must read the ROADMAP
   sections for phases n+1 and n+2 and include a **Forward constraints** section in the dry
-  run: every phase-n decision a later phase depends on, one line each, citing the future §E
+  run: every phase-n decision a later phase depends on, one line each, citing the future ROADMAP
   unit it serves. A dry run without this section is incomplete — Wilson rejects it.
-- **`Downstream:` field in every packet.** Each minted packet names the future §E units that
+- **`Downstream:` field in every packet.** Each minted packet names the future ROADMAP tasks that
   consume its output (`Downstream: none` allowed, but must be stated), so the executor knows
   which interfaces are load-bearing contracts versus internal choices.
 - **State the PR merge mode when history is the deliverable.** A packet whose DoD involves

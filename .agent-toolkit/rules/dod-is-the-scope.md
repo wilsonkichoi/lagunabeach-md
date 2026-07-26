@@ -7,7 +7,7 @@ tier: doctrine
 The claimed task's Objective + DoD define done. Every DoD criterion is implemented in
 this task, in full, before hand-off.
 
-- Never cite "don't over-engineer", "simplicity", "not urgent", PRD non-goals, §F
+- Never cite "don't over-engineer", "simplicity", "not urgent", PRD non-goals, the SPEC inherited-fork disposition,
   dispositions, or phase boundaries to skip or trim a DoD criterion. Those govern what
   enters a packet (Wilson + /dev:plan decide), never what leaves one mid-execution.
 - A missing implementation goal discovered mid-task or in review is fixed in this task.

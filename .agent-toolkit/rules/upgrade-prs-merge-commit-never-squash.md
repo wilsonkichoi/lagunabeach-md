@@ -16,7 +16,7 @@ class is:
 
 Squash flattens the tag-merge commits: the framework tags drop out of `main`'s ancestry,
 the next `/upgrade` fails with "refusing to merge unrelated histories", and every
-framework-owned file re-conflicts on every release — the exact §G risk 4 outcome the
+framework-owned file re-conflicts on every release — the exact SPEC risk-control outcome the
 release discipline exists to prevent.
 
 Mechanics:

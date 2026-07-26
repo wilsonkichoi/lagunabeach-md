@@ -1,6 +1,6 @@
 # ADR 003: Semiont as an opt-in plugin layer
 
-**Status:** Accepted (2026-07-04, `.fable/STRATEGIC-DIRECTION.md` §A3)
+**Status:** Accepted (2026-07-04)
 **Deciders:** Wilson Choi, with Fable 5 as architect
 
 ## Context
@@ -19,7 +19,7 @@ manifest lists enabled organs. Default-on core: boot identity (<150-line replace
 the BECOME protocol), MEMORY (session handoff), REFLEXES (don't-do rules). Opt-in:
 MANIFESTO, DIARY, ROUTINE, INTROSPECTION pack. Constraints: organs may not require each
 other; no organ reads another organ's files; skills probe for organ existence and no-op
-gracefully when absent. LB enables core + MANIFESTO at launch (§E 8.2).
+gracefully when absent. LB enables core + MANIFESTO at launch (ROADMAP task 8.2).
 
 ## Consequences
 
@@ -27,4 +27,4 @@ gracefully when absent. LB enables core + MANIFESTO at launch (§E 8.2).
   no cross-dependency) are exactly what Taiwan.md's monolith violates.
 - The art stays available without being mandatory or deleted.
 - Phase 8 builds the organ shells fresh; only MANIFESTO/REFLEXES prose is salvaged by
-  hand from the v1 archive (§F).
+  hand from the v1 archive (SPEC `Inherited-fork disposition`).

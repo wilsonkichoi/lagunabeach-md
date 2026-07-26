@@ -3,7 +3,7 @@ import type { Lang } from '../config/languages';
 
 /**
  * Trimmed en-only i18n helpers (task 1.1a). The fork's multi-language fallback
- * cascade + babel tooling is not ported (STRATEGIC-DIRECTION §F); with a single
+ * cascade + babel tooling is not ported (SPEC §Inherited-fork disposition); with a single
  * enabled language these collapse to: always `en`, identity path translation.
  * The registry shape is kept so re-enabling languages is a config edit.
  */

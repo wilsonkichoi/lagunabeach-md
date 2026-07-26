@@ -18,10 +18,14 @@ boundary, and the semiont probe rule.
 
 ## Where things live
 
-- **Binding spec:** `.fable/STRATEGIC-DIRECTION.md` — product decisions, architecture
-  PDR, extraction map, full task list (§E). Read its 2026-07-07 revision note first.
-- **Operative docs (once approved):** `docs/PRD.md`, `docs/SPEC.md`, `docs/ROADMAP.md`,
-  `docs/adr/`. Conflicts with the binding spec go to Wilson, never silently resolved.
+- **Product SSOT:** `docs/PRD.md` — goals, customer value, north star, and non-goals.
+- **Engineering SSOT:** `docs/SPEC.md` and `docs/adr/` — architecture, contracts,
+  extraction/disposition decisions, risk controls, and accepted decisions.
+- **Delivery SSOT:** `docs/ROADMAP.md` — phase order, detailed task blocks, amendments,
+  dependencies, and phase gates. Linear is the SSOT for live task state.
+- **Instance history:** `CHANGELOG.md` — LB work only. Framework release notes stay in
+  the `sekai-kb` changelog and are read from release tags during `/upgrade`.
+- Conflicts among these documents go to Wilson, never silently resolved.
 - **Process config:** `.agent-toolkit/dev.md` — dev-plugin config: tracker (Linear, workspace
   `sekai-kb`, team `LB`, project "LB Rebuild"), conventions, extraction-source paths.
 - **Promoted learnings:** `.agent-toolkit/rules/` (written by `/dev:retro` on approval).
@@ -67,10 +71,10 @@ dev session and gotchas only on a trigger match (see the `## Rules` section of
    silently unguarded rather than an error — `workers/` is in the CJK gate's roots
    alone, so a denylisted place string under `workers/` would go unchecked. History:
    CI-gated from 0.3; scope extended to `tests/` plus the CJK-codepoint scan in LB-20
-   (STRATEGIC-DIRECTION 2026-07-11 (b)); `.claude/skills/` joined both gates with the
+   under the English-only doctrine; `.claude/skills/` joined both gates with the
    framework skills in 5.6 (`docs/SPEC.md` Negative requirements).
 3. **Extraction over invention:** design and components are copied from
-   `${SRC_HOME}/lagunabeach-md-v1` per the spec's §C, then genericized — never
+   `${SRC_HOME}/lagunabeach-md-v1` per `docs/SPEC.md`'s extraction map, then genericized — never
    re-prompted from description.
 
 ## Language support boundary

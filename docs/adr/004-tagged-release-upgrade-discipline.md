@@ -1,6 +1,6 @@
 # ADR 004: Tagged-release upgrade discipline for instances
 
-**Status:** Accepted (2026-07-05 revision, `.fable/STRATEGIC-DIRECTION.md` §B "Repo topology")
+**Status:** Accepted (2026-07-05 revision)
 **Deciders:** Wilson Choi, with Fable 5 as architect
 
 ## Context
@@ -18,17 +18,17 @@ Instances merge **immutable semver release tags, never framework main**:
 
 1. Merge target is a tag with a `CHANGELOG.md` entry; breaking config changes carry an
    upgrade note.
-2. The template contains zero place content (CI-enforced, §E 5.1).
+2. The template contains zero place content (CI-enforced, ROADMAP task 5.1).
 3. Instance-owned files (`place.config.ts`, `knowledge/**`, `public/media/**`, `CNAME`,
    `CLAUDE.md`) carry `.gitattributes merge=ours` — the mechanism already proven on the
    fork's CLAUDE.md.
 4. **Ownership rule:** in an instance, `src/` and `scripts/` are framework-owned.
    Customization goes through config/content/media; anything beyond is upstreamed to
    sekai-kb first, then pulled back as a release (reverse flow lands in sekai-kb within
-   the same work item — review-checklist enforced, §G risk 4).
+   the same work item — review-checklist enforced, SPEC `Risk controls`).
 
 `FRAMEWORK-VERSION` records the instance's version; the `/upgrade` skill wraps
-fetch → merge tag → build-verify → conflict report → version bump (§E 5.4, proven by a
+fetch → merge tag → build-verify → conflict report → version bump (ROADMAP task 5.4, proven by a
 demonstrated clean tag merge as acceptance).
 
 ## Consequences

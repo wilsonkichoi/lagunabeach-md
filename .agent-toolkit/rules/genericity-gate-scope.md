@@ -10,8 +10,8 @@ Two machine gates run over the same code trees, wired into the `genericity` CI j
 - `scripts/ci/check-genericity.sh` — case-insensitive substring grep of a small place-name
   denylist (`laguna`, `taiwan`, …).
 - `scripts/ci/check-english-only.mjs` — fails on any CJK-range codepoint
-  (`U+3000–U+9FFF`, `U+FF00–U+FFEF`); the site is English-only (STRATEGIC-DIRECTION
-  2026-07-11 (b)). U+2014 em dash and U+201C/U+201D curly quotes are below U+3000 and are
+  (`U+3000–U+9FFF`, `U+FF00–U+FFEF`); the site is English-only (SPEC
+  §Negative requirements). U+2014 em dash and U+201C/U+201D curly quotes are below U+3000 and are
   not flagged.
 
 **Scan scope — the two gates do NOT share one root set.** In template mode (the
@@ -29,7 +29,7 @@ fixed list the same way, so an absent root is skipped rather than an error. Scop
 from the original `src/` + `scripts/`: `tests/` plus the CJK gate in LB-20, then
 `.claude/skills/` with the framework skills in 5.6. Test fixtures are code and so is
 agent-executed prose — the English-only + genericity doctrine is whole-project, never
-per-directory (STRATEGIC-DIRECTION 2026-07-11 (b); the earlier `scripts/`-only reading
+per-directory (SPEC §Negative requirements; the earlier `scripts/`-only reading
 let `author: 'Taiwan.md'` and zh-TW fixtures ship in `tests/`). Derived projections
 `src/content/` and `src/data/` (gitignored, place-specific by nature) are excluded from both
 gates by construction. Two consequences recur:

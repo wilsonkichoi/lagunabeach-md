@@ -4,7 +4,7 @@
  * Trimmed to English-only for the rebuild (task 1.1a). The registry shape is
  * kept (framework capability) so adding a language is a config edit, not a code
  * change: append an entry here + a `place.config.languages` code + wrapper pages.
- * The fork's babel/cascade i18n toolchain is NOT ported (STRATEGIC-DIRECTION §F).
+ * The fork's babel/cascade i18n toolchain is NOT ported (SPEC §Inherited-fork disposition).
  */
 
 export interface LanguageEntry {
