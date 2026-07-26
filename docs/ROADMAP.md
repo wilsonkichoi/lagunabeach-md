@@ -107,12 +107,12 @@ realities the 2026-07-04 plan could not know.
     1. Port from the v1 archive's lb-write / lb-validate / lb-factcheck, genericized at
        port time: place identity + category set from place.config.ts, pipeline/editorial
        rules referenced from docs/playbook/ (never fork doc paths); land under
-       .agent/skills/ with generic names (write, validate, factcheck) — no lb- prefix
+       .agents/skills/ with generic names (write, validate, factcheck) — no lb- prefix
        survives in any directory name, file name, or prose.
     2. Thin router skill (successor to the fork's `lb` router): lists the shipped skills
        + their triggers; probes semiont/config.json and no-ops gracefully when absent
        (organ substance arrives Phase 8).
-    3. Extend both machine gates' scan scope to .agent/skills/ (agent-executed prose is
+    3. Extend both machine gates' scan scope to .agents/skills/ (agent-executed prose is
        code for doctrine purposes): check-genericity.sh SCAN_ROOTS and
        check-english-only.mjs SCAN_ROOTS.
     4. Document the skill ownership rule in SPEC + framework AGENTS.md: framework skills
@@ -121,7 +121,7 @@ realities the 2026-07-04 plan could not know.
        upstream to sekai-kb first, or accept a conflict-managed local fork that /sekai-upgrade
        flags each release.
   Acceptance: on the demo place, /sekai-write produces an article that passes /sekai-validate and
-    article-health; both gates green with .agent/skills/ in scope; the router lists
+    article-health; both gates green with .agents/skills/ in scope; the router lists
     exactly the shipped skills; zero place-specific strings in any skill
   Downstream: 8.1 (router's semiont probe), 11.3/11.8 (maintainer + rewrite routines
     invoke the validate/sekai-write pipelines)

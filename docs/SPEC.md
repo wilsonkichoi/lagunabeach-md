@@ -67,7 +67,7 @@ sekai-kb/
 │   └── ci/
 ├── workers/                   # optional Cloudflare Workers
 ├── semiont/                   # optional organ layer
-├── .agent/skills/            # framework-owned skills
+├── .agents/skills/            # framework-owned skills
 ├── docs/playbook/
 ├── docs/runbook/
 ├── CHANGELOG.md               # instance work only; merge=ours
@@ -89,7 +89,7 @@ sekai-kb/
 > `dev:setup` is the only opt-in path.
 
 > **Skill ownership (2026-07-11 (c), task 5.6):** the framework skills under
-> `.agent/skills/` (`/sekai-write`, `/sekai-validate`, `/sekai-factcheck`, router, plus `/sekai-adopt`,
+> `.agents/skills/` (`/sekai-write`, `/sekai-validate`, `/sekai-factcheck`, router, plus `/sekai-adopt`,
 > `/sekai-seed-articles`, `/sekai-upgrade`, `/sekai-release`) are framework-owned, same class as `src/`. Adopters ADD
 > new skills freely — new files never conflict on upgrade. Overriding a framework skill
 > means upstreaming the change to sekai-kb first, or accepting a conflict-managed local
@@ -366,7 +366,7 @@ GitHub Pages via Actions + Cloudflare DNS/CDN. Workers deploy via `wrangler` fro
   `workers/`/plugin code; `scripts/ci/check-genericity.sh` fails the build on denylist
   hits, and the CI gate additionally fails on any CJK codepoint in those trees
   (English-only doctrine, machine-enforced; ADR 002 and ROADMAP task 0.3).
-  `.agent/skills/` joins both gates' scan roots when the framework
+  `.agents/skills/` joins both gates' scan roots when the framework
   skills land (task 5.6) — agent-executed prose is code for doctrine purposes.
 - **No build-time OG generation ever**; static default until the Phase 7 worker.
 - **Site builds with `semiont/` deleted**; no organ reads another organ's files (ADR 003).

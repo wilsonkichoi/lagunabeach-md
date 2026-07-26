@@ -66,18 +66,18 @@ dev session and gotchas only on a trigger match (see the `## Rules` section of
    derived (gitignored, written by sync) and never edited directly.
 2. **Genericity + English-only:** zero place-specific strings and zero CJK/multi-language
    code paths in any code tree; test fixtures are code, and so are the framework skills
-   under `.agent/skills/`. Place identity flows from `place.config.ts` + `knowledge/` +
+   under `.agents/skills/`. Place identity flows from `place.config.ts` + `knowledge/` +
    `public/media/`. Machine-gated by `npm run genericity`, whose two gates carry
    **different** instance-mode scan roots: `scripts/ci/check-genericity.sh` (place-name
-   denylist) scans `src/`, `scripts/`, `tests/`, `.agent/skills/`;
+   denylist) scans `src/`, `scripts/`, `tests/`, `.agents/skills/`;
    `scripts/ci/check-english-only.mjs` (CJK codepoints) scans `src/`, `scripts/`,
-   `tests/`, `workers/`, `.agent/skills/`; in template mode (the `.sekai-template`
+   `tests/`, `workers/`, `.agents/skills/`; in template mode (the `.sekai-template`
    marker, absent in this adopted instance) both scan the whole repository. Each root
    is scanned only where the directory exists, so a root that has not arrived yet is
    silently unguarded rather than an error — `workers/` is in the CJK gate's roots
    alone, so a denylisted place string under `workers/` would go unchecked. History:
    CI-gated from 0.3; scope extended to `tests/` plus the CJK-codepoint scan in LB-20
-   under the English-only doctrine; `.agent/skills/` joined both gates with the
+   under the English-only doctrine; `.agents/skills/` joined both gates with the
    framework skills in 5.6 (`docs/SPEC.md` Negative requirements).
 3. **Extraction over invention:** design and components are copied from
    `${SRC_HOME}/lagunabeach-md-v1` per `docs/SPEC.md`'s extraction map, then genericized — never
@@ -85,13 +85,13 @@ dev session and gotchas only on a trigger match (see the `## Rules` section of
 
 ## Skill discovery
 
-Claude Code must discover project skills from `.agent/skills/*/SKILL.md`: read
-each file's YAML `name` and `description` for discovery, then load the full file
-when the user names a skill or the request matches its description. This is
-required because `CLAUDE.md` delegates all project instructions to this file and
-the skills no longer live under Claude's default `.claude/skills/` path. The
-framework-owned skills use the `sekai-` prefix to avoid collisions with instance
-and tool-provided skills.
+Codex discovers project skills natively from `.agents/skills/*/SKILL.md`. Claude
+Code must discover them from the same path by reading each file's YAML `name` and
+`description`, then load the full file when the user names a skill or the request
+matches its description. Claude needs the explicit instruction because
+`CLAUDE.md` delegates all project instructions to this file and the skills do not
+live under Claude's default `.claude/skills/` path. The framework-owned skills use
+the `sekai-` prefix to avoid collisions with instance and tool-provided skills.
 
 ## Language support boundary
 

@@ -14,9 +14,10 @@ framework release.
 ### Changed
 
 - **Framework skills moved into the shared agent namespace.** LB now inherits
-  them under `.agent/skills/`, with `sekai-` prefixed folder names, YAML names,
-  invocation names, and cross-skill references. `AGENTS.md` tells Claude Code
-  how to discover the new path, and both genericity gates scan it.
+  them under `.agents/skills/`, with `sekai-` prefixed folder names, YAML names,
+  invocation names, and cross-skill references. Codex discovers the standard
+  path natively, `AGENTS.md` tells Claude Code how to discover it, and both
+  genericity gates scan it.
 
 - **Release identity is separated from framework adoption.** `VERSION` is now the
   LB release SSOT at `v0.0.1`; `FRAMEWORK-VERSION` remains the adopted Sekai
