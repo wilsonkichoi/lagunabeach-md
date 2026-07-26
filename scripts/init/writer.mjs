@@ -12,6 +12,7 @@
  *                                              (place identity + content working set)
  *   CLAUDE.md                                  one-line `@AGENTS.md` shim
  *   README.md                                  instance repo front page
+ *   CHANGELOG.md                               instance-only change history
  *   FRAMEWORK-VERSION                          framework version at init time
  *   scripts/ci/genericity-denylist.local.txt   adopter place-name terms
  *   .sekai-template                            removed (template → instance)
@@ -268,6 +269,8 @@ Code reaches it through a one-line \`@AGENTS.md\` shim in \`CLAUDE.md\`.
 - **Content (single source of truth):** \`knowledge/{Category}/*.md\` — plain Markdown.
   Everything the site renders is derived from this at build time.
 - **Media:** \`public/media/\` and other \`public/\` assets.
+- **Instance history:** \`CHANGELOG.md\` records changes to this instance only.
+  Framework release notes remain in immutable \`sekai-kb\` tags.
 - **Architecture diagrams (engineering SSOT):** \`docs/diagrams/*.drawio\`.
 
 ## How the site builds
@@ -385,6 +388,30 @@ customize through config and content, and send framework changes upstream there.
 `;
 }
 
+/**
+ * CHANGELOG.md for an adopted instance. The template's file is the framework
+ * release log; adoption replaces it so the two histories cannot be confused.
+ */
+function renderChangelog(cfg) {
+  return `# ${cfg.place.name} changelog
+
+Notable changes to this instance are recorded here. This file contains instance work
+only. Framework release notes remain in the
+[sekai-kb changelog](https://github.com/wilsonkichoi/sekai-kb/blob/main/CHANGELOG.md)
+and are read from the target release tag during \`/upgrade\`.
+
+This file is instance-owned (\`CHANGELOG.md merge=ours\` in \`.gitattributes\`).
+Framework tag merges must never replace it. \`FRAMEWORK-VERSION\` separately records
+the adopted framework release.
+
+## Unreleased
+
+### Added
+
+- Initialized the ${cfg.place.name} knowledge-base instance from the sekai-kb template.
+`;
+}
+
 const DENYLIST_LOCAL_HEADER = `# genericity-denylist.local.txt — INSTANCE-OWNED additions to the genericity
 # gate. Written by \`npm run init\` with this instance's place name; add more
 # terms freely (one per line, case-insensitive substring match). Read
@@ -453,6 +480,11 @@ export function writeInstance(root, cfg) {
 
   // README.md: the instance repo front page (replaces the template's README).
   write('README.md', renderReadme(cfg));
+
+  // CHANGELOG.md: replace the framework release log with instance-only history.
+  // It is protected by merge=ours, while /upgrade reads future framework notes
+  // directly from the immutable target tag.
+  write('CHANGELOG.md', renderChangelog(cfg));
 
   // FRAMEWORK-VERSION: the framework version this instance adopted. Written
   // `v`-prefixed to match the release-tag form (sekai-kb-vX.Y.Z) that the

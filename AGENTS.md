@@ -30,6 +30,8 @@ the semiont probe, and the content working set.
   (fact-check methodology).
 - **Operations:** `docs/runbook/` — [DEPLOY.md](docs/runbook/DEPLOY.md) (install,
   toolchain, CI, GitHub Pages, custom domain; every command copy-pasteable).
+- **Change history:** this template's `CHANGELOG.md` records framework releases.
+  `npm run init` replaces it with an instance-owned changelog for adopter work.
 - **Architecture diagrams (engineering SSOT):** `docs/diagrams/*.drawio`.
 - **Engineering rules:** `.agent-toolkit/rules/` — framework-owned lessons that keep
   the build green (Astro/Vite gotchas, prebuild ordering, shell portability,
@@ -73,6 +75,8 @@ content).
 3. **Framework vs instance:** `src/` and `scripts/` are framework-owned — customize
    through config, content, and media. Anything more is upstreamed to sekai-kb and
    pulled back as a tagged release. The genericity gate is the structural guarantee.
+   `CHANGELOG.md` becomes instance-owned at adoption; framework release notes remain
+   available from immutable tags.
 
 ## Skill ownership
 
