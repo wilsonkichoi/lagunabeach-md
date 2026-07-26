@@ -120,7 +120,7 @@ git merge --no-ff sekai-kb-vX.Y.Z -m "chore: upgrade framework to sekai-kb-vX.Y.
 
 `.gitattributes merge=ours` keeps the instance's **existing** copy of every
 instance-owned file (`place.config.ts`, `knowledge/**`, `public/media/**`,
-`CNAME`, `CLAUDE.md`, `AGENTS.md`, `README.md`, `docs/baselines/**`,
+`CNAME`, `CLAUDE.md`, `AGENTS.md`, `README.md`, `CHANGELOG.md`, `FRAMEWORK-VERSION`, `docs/baselines/**`,
 `scripts/ci/genericity-denylist.local.txt`, `.agent-toolkit/**`) — those do not
 conflict. It says nothing about a path the instance **deleted** (`.agent-toolkit/`
 on a wizard-adopted instance) or never had: git applies no merge driver there, so
@@ -196,14 +196,17 @@ git commit --no-edit
 
 `merge=ours` is deliberately blunt: it keeps the instance's version of every
 instance-owned file and **silently discards the framework's changes** to those
-same files. That is correct for `place.config.ts`, `knowledge/**`, and
-`public/media/**` — pure instance content. But the *content-bearing starter* files
+same files. That is correct for `place.config.ts`, `knowledge/**`,
+`public/media/**`, and `CHANGELOG.md` — pure instance content. But the *content-bearing starter* files
 the wizard seeded (`AGENTS.md` above all, and `README.md`) began as framework
 boilerplate the instance lightly edited; a release that improves that boilerplate
 (a new agent instruction, a corrected pointer) would vanish under `merge=ours`
 with no signal. Surface those improvements instead of dropping them. `CLAUDE.md` is
 exempt — it is a pure one-line `@AGENTS.md` shim with no content to diverge; if the
 instance's copy is anything but that single line, reset it to the shim.
+
+`FRAMEWORK-VERSION` is also merge-protected, but not immutable: step 9 bumps it only
+after the merged tree passes verification.
 
 For each instance-owned **starter** file — at minimum `AGENTS.md` — diff the
 instance's committed version against the incoming tag's version and, if they
