@@ -39,11 +39,11 @@ removes the `.agent-toolkit/` tree and the dev-plugin reference line from
 `AGENTS.md`/`CLAUDE.md`; `scripts/init/check-init.sh` asserts their absence. A fresh
 instance ships no dev-plugin state at all.
 
-(d) **`/upgrade` must reconcile instance-owned starter files conversationally.**
+(d) **`/sekai-upgrade` must reconcile instance-owned starter files conversationally.**
 `merge=ours` is deliberately blunt: it keeps the instance's version of every
 instance-owned file and silently discards the framework's improvements to that same
 file. For *starter* files the wizard seeded (at minimum `AGENTS.md`), a release that
-improves the boilerplate would vanish with no signal. `/upgrade` therefore diffs each
+improves the boilerplate would vanish with no signal. `/sekai-upgrade` therefore diffs each
 instance-owned starter against the incoming tag and walks the difference with the
 user, adopting only the improvements that do not clobber the user's own edits
 (`docs/runbook/UPGRADE.md` §6 + the `upgrade` skill).
@@ -88,15 +88,15 @@ caused every framework release entry to appear as LB history and allowed a futur
 merge to replace or conflict with LB's own entries.
 
 `CHANGELOG.md` therefore joins the instance-owned `merge=ours` set. `npm run init`
-replaces the template's framework changelog with a new instance changelog. `/upgrade`
+replaces the template's framework changelog with a new instance changelog. `/sekai-upgrade`
 continues to read the target framework release notes directly from the immutable tag via
 `git show <tag>:CHANGELOG.md`; it never reconciles or overwrites the instance changelog.
 `FRAMEWORK-VERSION` remains separate and records only which framework tag is adopted. It
-also carries `merge=ours`: a tag merge preserves the old value, then `/upgrade` updates
+also carries `merge=ours`: a tag merge preserves the old value, then `/sekai-upgrade` updates
 it explicitly after the merged site passes verification.
 
 `VERSION` separately records the adopter's own release. It carries `merge=ours` and is
-never changed by `/upgrade` (ADR 007).
+never changed by `/sekai-upgrade` (ADR 007).
 
 ## Addendum (2026-07-19): AGENTS.md is the single source of truth for agent instructions
 
@@ -141,7 +141,7 @@ driver when one side deleted the path: a shared-history framework modification p
 modify/delete conflict, and an unrelated-history first tag merge adds the framework tree
 back as theirs-only content.
 
-`/upgrade` therefore treats dev-plugin presence or absence as persistent instance state:
+`/sekai-upgrade` therefore treats dev-plugin presence or absence as persistent instance state:
 
 - **Stripped:** `.agent-toolkit/` is absent and `AGENTS.md` has no active
   `@.agent-toolkit/dev.md` reference. The upgrade preserves both absences, automatically

@@ -37,7 +37,7 @@ Two products, one codebase, built in strict order:
 |---|---|
 | Readers (residents, visitors) | Curated, fact-checked local knowledge with the inherited editorial bar; graph, map, search |
 | AI consumers | `/llms.txt` → `/kb/topics.json` → `/kb/articles/{slug}.md`: lazy-loading knowledge protocol, one HTTP request per article, no clone required (SPEC `Build pipeline`); tool-using MCP clients get the same corpus via one remote MCP connection (`workers/mcp/`, Phase 9, ADR 005) |
-| Framework adopters | GitHub template + `/adopt` AI interview → configured, seeded, deployed site in under an hour (ADR 002; SPEC `New builds`); generic content-lifecycle skills (`/write`, `/validate`, `/factcheck`) keep the instance maintainable at the editorial bar with any agent CLI (task 5.6, ROADMAP Phase 5 amendment) |
+| Framework adopters | GitHub template + `/sekai-adopt` AI interview → configured, seeded, deployed site in under an hour (ADR 002; SPEC `New builds`); generic content-lifecycle skills (`/sekai-write`, `/sekai-validate`, `/sekai-factcheck`) keep the instance maintainable at the editorial bar with any agent CLI (task 5.6, ROADMAP Phase 5 amendment) |
 | Contributors | Plain-Markdown SSOT (`knowledge/`), quality tooling (article-health, link checks), tracker-driven workflow |
 | Wilson | An instance he enjoys building (map, soundscape, RAG chat, QR flow) on a codebase that stays extractable, plus an autonomous operations layer (Phase 11 routines) that maintains the instance without burnout |
 
@@ -48,7 +48,7 @@ Phase-gated proof points rather than a single metric (each is a ROADMAP acceptan
 - **LB:** domain cutover — lagunabeach.md serves the new codebase at content parity
   (16 articles + About + INBOX) with zero broken links and article-health scores matching
   the fork baseline (tasks 3.1-3.2), at the fork's visual bar (task 1.1c; SPEC `Risk controls`).
-- **Framework:** the dana-point proof — a fresh clone through `/adopt` interview to five
+- **Framework:** the dana-point proof — a fresh clone through `/sekai-adopt` interview to five
   AI-seeded articles deployed on GitHub Pages in under one hour, executed for real (task 5.2c).
 - **Operations (extension, ADR 005):** two autonomous routines live for ≥ 1 week, shipping
   only via verified PR merges with zero direct pushes to main (Phase 11 exit gate).

@@ -36,7 +36,7 @@ represent both versions.
   mirrors to `0.0.0`, and carries forward the checked-out `FRAMEWORK-VERSION`.
 - `npm run release:bump -- patch|minor|major` is the only automated adopter version
   writer. It runs only on explicit maintainer request; routine article PRs do not bump.
-- Package manifests have mixed ownership. `/upgrade` takes incoming framework scripts,
+- Package manifests have mixed ownership. `/sekai-upgrade` takes incoming framework scripts,
   dependencies, and lock resolution, then restores the captured adopter name,
   description, privacy flag, and `VERSION` mirror.
 - CI validates file formats, npm mirrors, private-package status, package/lock identity,

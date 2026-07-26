@@ -44,7 +44,7 @@ config/content/media; anything more is upstreamed to sekai-kb first and pulled b
 release. `VERSION` records the instance's own release. `FRAMEWORK-VERSION` records the
 adopted Sekai release. The template carries only `FRAMEWORK-VERSION`; init creates
 adopter `VERSION`. Each repository's npm manifest mirrors its own release SSOT without
-the leading `v`. The `/upgrade` skill wraps fetch → capture adopter package state →
+the leading `v`. The `/sekai-upgrade` skill wraps fetch → capture adopter package state →
 merge tag → reconcile mixed-ownership manifests → build-verify → conflict report.
 Framework and instances use the same directory shape except for adopter-only `VERSION`:
 
@@ -67,19 +67,19 @@ sekai-kb/
 │   └── ci/
 ├── workers/                   # optional Cloudflare Workers
 ├── semiont/                   # optional organ layer
-├── .claude/skills/            # framework-owned skills
+├── .agent/skills/            # framework-owned skills
 ├── docs/playbook/
 ├── docs/runbook/
 ├── CHANGELOG.md               # instance work only; merge=ours
 ├── VERSION                    # adopter only: instance release; merge=ours
-├── FRAMEWORK-VERSION          # adopted tag; merge=ours, then /upgrade bumps it
+├── FRAMEWORK-VERSION          # adopted tag; merge=ours, then /sekai-upgrade bumps it
 ├── AGENTS.md                  # instance-owned agent-instruction SSOT
 └── CLAUDE.md                  # one-line @AGENTS.md shim
 ```
 
 > **Dev-plugin state persistence (2026-07-19, ADR 006 addendum):** `merge=ours`
 > protects content only when the path exists on both merge sides; it does not preserve an
-> intentionally absent `.agent-toolkit/` tree. `/upgrade` must classify dev-plugin state
+> intentionally absent `.agent-toolkit/` tree. `/sekai-upgrade` must classify dev-plugin state
 > before merging: **stripped** means both `.agent-toolkit/` and the active
 > `@.agent-toolkit/dev.md` reference are absent; **installed** means the adopter's
 > `.agent-toolkit/dev.md` and active reference are present. A stripped instance stays
@@ -89,11 +89,11 @@ sekai-kb/
 > `dev:setup` is the only opt-in path.
 
 > **Skill ownership (2026-07-11 (c), task 5.6):** the framework skills under
-> `.claude/skills/` (`/write`, `/validate`, `/factcheck`, router, plus `/adopt`,
-> `/seed-articles`, `/upgrade`, `/release`) are framework-owned, same class as `src/`. Adopters ADD
+> `.agent/skills/` (`/sekai-write`, `/sekai-validate`, `/sekai-factcheck`, router, plus `/sekai-adopt`,
+> `/sekai-seed-articles`, `/sekai-upgrade`, `/sekai-release`) are framework-owned, same class as `src/`. Adopters ADD
 > new skills freely — new files never conflict on upgrade. Overriding a framework skill
 > means upstreaming the change to sekai-kb first, or accepting a conflict-managed local
-> fork that `/upgrade` flags on every release. ADR 006 extends the original five-file
+> fork that `/sekai-upgrade` flags on every release. ADR 006 extends the original five-file
 > instance-owned baseline by adding `AGENTS.md`, `README.md`, `CHANGELOG.md`, `VERSION`, `FRAMEWORK-VERSION`,
 > `docs/baselines/**`, `scripts/ci/genericity-denylist.local.txt`, and
 > `.agent-toolkit/**`; `CLAUDE.md` remains
@@ -101,7 +101,7 @@ sekai-kb/
 
 > **Release train for post-cut feature phases (9-11, ADR 005):** those phases execute in
 > `sekai-kb`; each ships as a tagged release, and instances (LB first) adopt via
-> `/upgrade` per `docs/runbook/UPGRADE.md` (task 9.3). The upgrade pull into LB is part of
+> `/sekai-upgrade` per `docs/runbook/UPGRADE.md` (task 9.3). The upgrade pull into LB is part of
 > each phase's exit gate.
 
 ## `place.config.ts`
@@ -111,7 +111,7 @@ Schema: `place {name, tagline, domain, locale, languages}`,
 `features {graph, map, dashboard, soundscape, feedback, chat, social, analytics}`,
 `links {repo, email, social {twitter?, threads?, instagram?}}`,
 `seo {defaultOgImage, twitterHandle?}`. Init-time: written only by the `npm run init`
-wizard (~8 prompts, or `--answers <json>` from `/adopt` — single writer, no drift).
+wizard (~8 prompts, or `--answers <json>` from `/sekai-adopt` — single writer, no drift).
 Runtime-toggleable: `features`, languages, semiont organs.
 
 > **`links` (added 1.1a):** the shell's Footer/SEO/Header need a GitHub repo URL,
@@ -139,8 +139,8 @@ Runtime-toggleable: `features`, languages, semiont organs.
 > story, exhibition halls, feature cards, section headings — lives in the config as a
 > `home` block (~230 lines for LB). This keeps `src/` string-free (genericity win) but
 > exceeds any init interview: the wizard (5.2a) writes generic defaults for `home.*`, and
-> `/adopt` may draft place-specific copy behind the same human-approval gate as
-> `/seed-articles`. The 5.1 demo place ships authored demo copy. Same
+> `/sekai-adopt` may draft place-specific copy behind the same human-approval gate as
+> `/sekai-seed-articles`. The 5.1 demo place ships authored demo copy. Same
 > intentional-divergence pattern as `links`.
 
 ## Content model
@@ -201,13 +201,13 @@ vendor-agnostic lazy-loading knowledge protocol: any browsing-capable AI reads `
    link to `/chat?ctx=<location>`. The mandatory implementation pre-read is the v0
    research section "RAG Chatbot".
 7. **Framework scaffolding.** The primary path is GitHub "Use this template" followed by
-   `/adopt`. The skill interviews for place identity, domain, map, language, categories,
+   `/sekai-adopt`. The skill interviews for place identity, domain, map, language, categories,
    and grounding material; it calls `npm run init -- --answers <json>`, then offers
-   `/seed-articles`. The wizard remains the single writer of `place.config.ts` and also
+   `/sekai-seed-articles`. The wizard remains the single writer of `place.config.ts` and also
    seeds category directories, `CNAME`, `AGENTS.md`, adopter `VERSION`, and
    `FRAMEWORK-VERSION`, and writes adopter package identity whose npm version mirrors
-   `VERSION`. Framework delivery includes `/upgrade`, `/release`, the playbook/runbooks,
-   template README, and the generic `/write`, `/validate`, `/factcheck`, and router
+   `VERSION`. Framework delivery includes `/sekai-upgrade`, `/sekai-release`, the playbook/runbooks,
+   template README, and the generic `/sekai-write`, `/sekai-validate`, `/sekai-factcheck`, and router
    skills.
 8. **Semiont plugin layer.** ADR 003 governs the optional organ architecture. The stable
    boot hook lives in adopter-owned `AGENTS.md`; framework-owned organ logic lives under
@@ -318,7 +318,7 @@ no successor planned. Deferred capability has a named ROADMAP trigger.
 | `knowledge/zh-TW/` | Void | It did not exist in the fork. No content was available to carry. |
 | Harvest orchestrator and Supabase feedback | Delete | Feedback and social return as the Phase 6 Worker/D1 and snippet designs. Zero harvest code survives. |
 | `twmd-*` skills | Delete | Taiwan business logic remains readable in the upstream archive only. |
-| `lb-*` skills | Split and renamed | `/write`, `/validate`, `/factcheck`, and the router shipped in 5.6; sync/search became documented npm workflows; embeddings returns in 7.2a; semiont boot returns in 8.1; refresh/news-lens/peer/media-audit concepts return as Phase 11 routines; translate waits for the post-project language revisit; migration and old execution-loop skills are deleted. |
+| `lb-*` skills | Split and renamed | `/sekai-write`, `/sekai-validate`, `/sekai-factcheck`, and the router shipped in 5.6; sync/search became documented npm workflows; embeddings returns in 7.2a; semiont boot returns in 8.1; refresh/news-lens/peer/media-audit concepts return as Phase 11 routines; translate waits for the post-project language revisit; migration and old execution-loop skills are deleted. |
 | `SemiontOrganismDiagram.astro` | Design reference only | `SystemDiagram.astro` is the config-driven successor. No i18n wiring, CJK fonts, or hardcoded boundary path carries. |
 | Semiont organ docs | Delete shells, salvage prose selectively | Phase 8 builds the organ layer fresh. MANIFESTO and REFLEXES prose may be salvaged by hand. |
 | Heartbeat and old cron system | Delete implementation | ROUTINE plus `/schedule` returns in Phase 11, one opt-in routine per named need. |
@@ -366,7 +366,7 @@ GitHub Pages via Actions + Cloudflare DNS/CDN. Workers deploy via `wrangler` fro
   `workers/`/plugin code; `scripts/ci/check-genericity.sh` fails the build on denylist
   hits, and the CI gate additionally fails on any CJK codepoint in those trees
   (English-only doctrine, machine-enforced; ADR 002 and ROADMAP task 0.3).
-  `.claude/skills/` joins both gates' scan roots when the framework
+  `.agent/skills/` joins both gates' scan roots when the framework
   skills land (task 5.6) — agent-executed prose is code for doctrine purposes.
 - **No build-time OG generation ever**; static default until the Phase 7 worker.
 - **Site builds with `semiont/` deleted**; no organ reads another organ's files (ADR 003).
@@ -389,14 +389,14 @@ GitHub Pages via Actions + Cloudflare DNS/CDN. Workers deploy via `wrangler` fro
 - **2026-07-26, Wilson-approved version ownership correction:** Sekai carries only
   `FRAMEWORK-VERSION`; adopters carry `VERSION` plus their adopted
   `FRAMEWORK-VERSION`. Each private npm manifest mirrors the repository's own release
-  SSOT without the leading `v`. Adopter releases are explicit through `/release`; routine
-  article PRs do not bump. `/upgrade` reconciles the manifests' mixed ownership. ADR 007
+  SSOT without the leading `v`. Adopter releases are explicit through `/sekai-release`; routine
+  article PRs do not bump. `/sekai-upgrade` reconciles the manifests' mixed ownership. ADR 007
   records the init, release, upgrade, and CI contracts.
 - **2026-07-26, Wilson-approved ownership correction:** `CHANGELOG.md` is instance-owned
   and records instance work only. The init wizard replaces the template's framework
-  release log with an instance changelog. `/upgrade` reads framework release notes from
+  release log with an instance changelog. `/sekai-upgrade` reads framework release notes from
   the target tag and preserves the local changelog through `merge=ours`.
-  `FRAMEWORK-VERSION` is also merge-protected; `/upgrade` bumps it explicitly after
+  `FRAMEWORK-VERSION` is also merge-protected; `/sekai-upgrade` bumps it explicitly after
   successful verification.
 - **2026-07-19, Wilson-approved LB-44 delta:** added the dev-plugin state-persistence
   contract for framework upgrades. This corrects the false assumption that
