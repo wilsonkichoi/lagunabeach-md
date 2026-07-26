@@ -33,6 +33,11 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+## [1.0.8] — 2026-07-26
+
+Separates adopter release identity from adopted framework identity and removes
+framework release numbers from the private npm manifest.
+
 ### Changed
 
 - **Framework and adopter versions now have separate file SSOTs.**
@@ -446,7 +451,8 @@ onto this tag.
 First release — nothing to upgrade from. The first instance establishes its merge
 base against this tag per `docs/runbook/UPGRADE.md` §Establishing the merge base.
 
-[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.0.7...HEAD
+[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.0.8...HEAD
+[1.0.8]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.8
 [1.0.7]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.7
 [1.0.6]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.6
 [1.0.5]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.5
