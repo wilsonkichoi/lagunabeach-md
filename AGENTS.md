@@ -110,6 +110,9 @@ with adopter and tool-provided skills. They are framework-owned, like `src/` and
 `place.config.ts`, `knowledge/`, and the editorial playbook, not by editing their
 bodies.
 
+`/sekai-framework-release` is template-maintainer-only and hard-stops after
+adoption when `.sekai-template` is absent.
+
 - Adding an instance skill is conflict-free when it uses a new directory and a
   non-`sekai-` name under `.agents/skills/`. The `/sekai-kb` router discovers the
   directory dynamically.
