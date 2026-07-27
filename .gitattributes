@@ -5,7 +5,8 @@
 # REQUIRED once per clone (not version-controlled, so it cannot ship here):
 #   git config merge.ours.driver true
 # The `ours` driver is not built into git; without that config line every
-# `merge=ours` below silently no-ops. See docs/runbook/UPGRADE.md.
+# `merge=ours` below silently no-ops. `/sekai-upgrade` and
+# docs/runbook/UPGRADE.md set it.
 #
 # This is instance #1 (lagunabeach.md), re-based onto the sekai-kb framework in
 # task 5.4. ADR 006 approved the full instance-owned list below: place.config.ts,

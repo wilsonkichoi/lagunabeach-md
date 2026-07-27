@@ -1,9 +1,9 @@
 {
   "name": "lagunabeach-md",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "private": true,
-  "description": "AI-native open knowledge base \u2014 sekai-kb instance #1.",
+  "description": "AI-native open knowledge base — sekai-kb instance #1.",
   "engines": {
     "node": ">=22.12.0"
   },

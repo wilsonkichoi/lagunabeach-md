@@ -1,9 +1,8 @@
 # LagunaBeach.md (rebuild — Sekai KB instance #1)
 
 Knowledge base for Laguna Beach, CA. Fresh rebuild of the retired taiwan-md fork
-(now archived as `lagunabeach-md-v1`); becomes instance #1 of the **sekai-kb**
-framework when Phase 5 cuts the template. Built with Astro; content is plain
-Markdown under `knowledge/` (arrives in Phase 1/3).
+(now archived as `lagunabeach-md-v1`) and instance #1 of the **sekai-kb**
+framework. Built with Astro; content is plain Markdown under `knowledge/`.
 
 This file — **`AGENTS.md`** — is the single source of truth for agent instructions
 in this repository, for **every** agent CLI: codex-cli reads it natively, and Claude
@@ -60,6 +59,13 @@ themselves are **not** `@`-imported: project bootstrap discovers them by walking
 dev session and gotchas only on a trigger match (see the `## Rules` section of
 `dev.md` and the dev plugin's `runtime_contracts/project-bootstrap.md`).
 
+## How the site builds
+
+`knowledge/` → `scripts/core/sync.sh` → parallel prebuild (KB index, search,
+content dates, git info, related articles, changelog, map markers, and dashboard)
+→ `astro build` → post-build contract checks. `src/content/` and `src/data/` are
+derived, gitignored projections of `knowledge/`; never edit them directly.
+
 ## Iron rules
 
 1. **SSOT:** `knowledge/` is the only content source of truth; `src/content/` is
@@ -79,19 +85,40 @@ dev session and gotchas only on a trigger match (see the `## Rules` section of
    CI-gated from 0.3; scope extended to `tests/` plus the CJK-codepoint scan in LB-20
    under the English-only doctrine; `.agents/skills/` joined both gates with the
    framework skills in 5.6 (`docs/SPEC.md` Negative requirements).
+   `scripts/ci/check-scan-root-docs.mjs` keeps every scan-root statement in this
+   repository synchronized with the gates.
 3. **Extraction over invention:** design and components are copied from
    `${SRC_HOME}/lagunabeach-md-v1` per `docs/SPEC.md`'s extraction map, then genericized — never
    re-prompted from description.
+4. **Framework vs instance:** `src/`, `scripts/`, and `.agents/skills/` are
+   framework-owned. Customize through `place.config.ts`, `knowledge/`, and
+   `public/media/`. Upstream deeper changes to sekai-kb and pull them back through
+   an immutable release tag.
 
-## Skill discovery
+## Skill discovery and ownership
 
 Codex discovers project skills natively from `.agents/skills/*/SKILL.md`. Claude
 Code must discover them from the same path by reading each file's YAML `name` and
 `description`, then load the full file when the user names a skill or the request
 matches its description. Claude needs the explicit instruction because
 `CLAUDE.md` delegates all project instructions to this file and the skills do not
-live under Claude's default `.claude/skills/` path. The framework-owned skills use
-the `sekai-` prefix to avoid collisions with instance and tool-provided skills.
+live under Claude's default `.claude/skills/` path.
+
+The skills under `.agents/skills/` use the `sekai-` prefix to avoid collisions
+with adopter and tool-provided skills. They are framework-owned, like `src/` and
+`scripts/`, and framework upgrades manage them. Configure them through
+`place.config.ts`, `knowledge/`, and the editorial playbook, not by editing their
+bodies.
+
+- Adding an instance skill is conflict-free when it uses a new directory and a
+  non-`sekai-` name under `.agents/skills/`. The `/sekai-kb` router discovers the
+  directory dynamically.
+- Overriding a framework skill requires upstreaming the change to sekai-kb or
+  accepting a local fork that `/sekai-upgrade` will flag when the same path
+  changes upstream.
+
+Both genericity gates scan `.agents/skills/`; agent-executed instructions are code
+under the genericity and English-only rules.
 
 ## Language support boundary
 
