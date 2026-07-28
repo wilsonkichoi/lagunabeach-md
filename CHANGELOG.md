@@ -34,6 +34,10 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+## [1.0.11] — 2026-07-28
+
+Ships a guard-or-explain doctrine rule for prose that drifted from code.
+
 ### Added
 
 - **Doctrine: guard-or-explain for prose that drifted from code.**
@@ -508,7 +512,8 @@ onto this tag.
 First release — nothing to upgrade from. The first instance establishes its merge
 base against this tag per `docs/runbook/UPGRADE.md` §Establishing the merge base.
 
-[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.0.10...HEAD
+[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.0.11...HEAD
+[1.0.11]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.11
 [1.0.10]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.10
 [1.0.9]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.9
 [1.0.8]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.8
