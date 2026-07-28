@@ -44,21 +44,6 @@ Docs reference sibling repos via `${SRC_HOME}/`. Contributors must set:
 export SRC_HOME="/path/to/your/src"  # parent dir containing lagunabeach-md-v1, taiwan-md, etc.
 ```
 
-## How work happens
-
-The dev plugin lifecycle: tasks live in Linear (single source of truth for task
-state), one PR per task behind CI, `/dev:execute` → `/dev:review-pr` → `/dev:verify`.
-Never mark work done outside a verified merge.
-
-The dev-plugin config and promoted rules live in `.agent-toolkit/`. Codex reads this
-file (`AGENTS.md`) natively, and Claude Code reaches it through the one-line
-`@AGENTS.md` shim in `CLAUDE.md`; from here the dev-plugin reference line below
-`@`-imports the config (`AGENTS.md` → `@.agent-toolkit/dev.md`). The promoted rules
-themselves are **not** `@`-imported: project bootstrap discovers them by walking
-`rules_dir` and reading each file's `tier` frontmatter, loading doctrine into every
-dev session and gotchas only on a trigger match (see the `## Rules` section of
-`dev.md` and the dev plugin's `runtime_contracts/project-bootstrap.md`).
-
 ## How the site builds
 
 `knowledge/` → `scripts/core/sync.sh` → parallel prebuild (KB index, search,
@@ -161,10 +146,11 @@ Beyond the overview above, the working set for any agent session:
 ## Dev workflow
 
 This instance is developed with the **agent-toolkit dev plugin** — tasks live in
-Linear, one PR per task behind CI, `dev:execute` → `dev:review-pr` → `dev:verify`.
-The config and promoted rules live in `.agent-toolkit/` (the dev plugin's
-`context_file` points here); the reference line below `@`-imports the config
-(`dev.md`). The promoted rules are loaded by project bootstrap discovering
+Linear (single source of truth for task state), one PR per task behind CI,
+`dev:execute` → `dev:review-pr` → `dev:verify`. Never mark work done outside a
+verified merge. The config and promoted rules live in `.agent-toolkit/` (the dev
+plugin's `context_file` points here); the reference line below `@`-imports the
+config (`dev.md`). The promoted rules are loaded by project bootstrap discovering
 `rules_dir` by each file's `tier` frontmatter, not by `@` import. Adopting this
 instance as a template strips this block and the `.agent-toolkit/` tree.
 
