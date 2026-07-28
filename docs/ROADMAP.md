@@ -14,11 +14,11 @@ validation (LB-43), the dev-plugin migration (discovery-native rule loading), an
 scan-root scope guard: 24 tasks, 53 points, 14 days as of the close. A post-close release
 workstream then shipped version-ownership separation, the `.agents/skills/` namespace
 move, and end-to-end release automation across four further framework releases,
-backfilled as LB-56 through LB-59. LB adopts sekai-kb v1.0.10, its own release is v0.0.3,
-and its dev plugin is pinned at dev-v0.0.72. Those three statements are machine-checked
-against `FRAMEWORK-VERSION`, `VERSION`, and `.agent-toolkit/dev.md` by
-`.agent-toolkit/scripts/check-adopted-version-docs.mjs`. Phase 6 plans next; see the
-"Agent-toolkit migration amendment" below before converting Phase 8+ packets.
+backfilled as LB-56 through LB-59. The adopted framework release, LB's own release, and
+the pinned dev-plugin release are recorded in `FRAMEWORK-VERSION`, `VERSION`, and
+`.agent-toolkit/dev.md` respectively; those files are the SSOT and this document does not
+restate their values. Phase 6 plans next; see the "Agent-toolkit migration amendment"
+below before converting Phase 8+ packets.
 
 **Pre-Phase 6 housekeeping (2026-07-26):** planning and architecture content was
 consolidated into PRD/SPEC/ROADMAP/ADRs. LB's `CHANGELOG.md` was reconstructed as an
