@@ -7,13 +7,18 @@ their Steps/Acceptance text governs packet detail.
 Every phase transition is a Wilson gate — `/dev:plan` for phase n+1 runs only after Wilson
 confirms phase n closed. Estimates use `AI implement+review | Human`.
 
-**Status (2026-07-26):** Phases 0-5 are complete and Wilson-confirmed. Phase 5 delivered
-the framework cut (sekai-kb v1.0.6), init wizard, content skills, release discipline,
-LB re-based onto tagged releases (v1.0.6 adopted), dual-harness validation (LB-43), the
-dev-plugin migration (0.0.70, discovery-native rule loading), and the scan-root scope
-guard. 24 tasks, 53 points, 14 days. Phase 6 plans next; see the "Agent-toolkit
-migration amendment" below before converting Phase 8+
-packets.
+**Status (2026-07-27):** Phases 0-5 are complete and Wilson-confirmed; the phase-5 close
+gate ran in LB-52 on 2026-07-25. Phase 5 delivered the framework cut, the init wizard,
+content skills, release discipline, LB re-based onto tagged releases, dual-harness
+validation (LB-43), the dev-plugin migration (discovery-native rule loading), and the
+scan-root scope guard: 24 tasks, 53 points, 14 days as of the close. A post-close release
+workstream then shipped version-ownership separation, the `.agents/skills/` namespace
+move, and end-to-end release automation across four further framework releases,
+backfilled as LB-56 through LB-59. LB adopts sekai-kb v1.0.10, its own release is v0.0.3,
+and its dev plugin is pinned at dev-v0.0.72. Those three statements are machine-checked
+against `FRAMEWORK-VERSION`, `VERSION`, and `.agent-toolkit/dev.md` by
+`.agent-toolkit/scripts/check-adopted-version-docs.mjs`. Phase 6 plans next; see the
+"Agent-toolkit migration amendment" below before converting Phase 8+ packets.
 
 **Pre-Phase 6 housekeeping (2026-07-26):** planning and architecture content was
 consolidated into PRD/SPEC/ROADMAP/ADRs. LB's `CHANGELOG.md` was reconstructed as an

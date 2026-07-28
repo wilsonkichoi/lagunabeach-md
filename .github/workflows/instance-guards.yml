@@ -1,0 +1,40 @@
+# Instance-owned guards.
+#
+# deploy.yml is framework-owned and ships to every adopter on upgrade. Guards
+# that only make sense for THIS instance live here instead, so a framework tag
+# merge never conflicts with them and adopters never inherit them.
+name: Instance guards
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  version-docs:
+    name: Adopted-version statements match their source files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      # No dependency install: the guard uses node builtins only.
+      - run: node .agent-toolkit/scripts/check-adopted-version-docs.mjs
+
+      # Non-vacuity: prove this wiring still fails on real drift, so a green
+      # check above can never mean "the guard quietly stopped checking".
+      - name: Guard self-test (must fail on planted drift)
+        run: |
+          set -euo pipefail
+          cp docs/ROADMAP.md "$RUNNER_TEMP/ROADMAP.bak"
+          trap 'cp "$RUNNER_TEMP/ROADMAP.bak" docs/ROADMAP.md' EXIT
+          sed -i 's/LB adopts sekai-kb v[0-9]\+\.[0-9]\+\.[0-9]\+/LB adopts sekai-kb v0.0.0/' docs/ROADMAP.md
+          if node .agent-toolkit/scripts/check-adopted-version-docs.mjs; then
+            echo "guard self-test FAILED: planted drift was not rejected" >&2
+            exit 1
+          fi
+          echo "guard self-test OK: planted drift is rejected."
