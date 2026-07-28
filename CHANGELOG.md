@@ -34,6 +34,10 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+## [1.0.12] — 2026-07-28
+
+Moves framework maintainer documents beside the code they govern and strips them from adopter clones.
+
 Moves the framework's own product, architecture, and delivery documents into this
 repository and keeps them out of adopter clones.
 
@@ -570,7 +574,8 @@ onto this tag.
 First release — nothing to upgrade from. The first instance establishes its merge
 base against this tag per `docs/runbook/UPGRADE.md` §Establishing the merge base.
 
-[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.0.11...HEAD
+[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.0.12...HEAD
+[1.0.12]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.12
 [1.0.11]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.11
 [1.0.10]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.10
 [1.0.9]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.9
