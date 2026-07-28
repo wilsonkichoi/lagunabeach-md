@@ -55,16 +55,28 @@ process/planning docs (this file, `.agent-toolkit/rules/`, and `docs/`) stay in
 `lagunabeach-md`. A packet's `Execution repo:` field names where its code
 lands; absent that field, assume `sekai-kb` for Phase 5+.
 
-Consequences for the dev-plugin skills (there is no `github_repo` in the frontmatter, and
-`gh` defaults to the working-directory repo, which is `lagunabeach-md` — with its **own**,
-unrelated PR numbering):
+**Which repo a session runs in.** Both repos carry their own `.agent-toolkit/dev.md`
+since LB-41, and each governs the work committed in it (the sekai-kb copy says so in its
+own words). `gh` defaults to the working-directory repo, so the working directory is what
+makes cross-repo targeting correct rather than a per-call flag:
 
-- **`dev:execute`** claims the task from Linear (run from `lagunabeach-md`) but does the
-  worktree → commit → PR in `sekai-kb`. Record the full PR URL on the Linear task.
-- **`dev:review-pr` / `dev:verify`** take the **task id** (e.g. `LB-27`), never a bare
-  `#N` (a bare `#N` resolves against `lagunabeach-md`). They load the packet from Linear,
-  read the PR URL from the task's work-summary comment, and must target every `gh pr …`
-  call with `-R wilsonkichoi/sekai-kb`.
+- **Planning and tracker skills** — `/dev:plan`, `/dev:status`, `/dev:backlog`,
+  `/dev:retro` — run in `lagunabeach-md`, where the SSOT documents they read and amend
+  live.
+- **Execution skills** — `dev:execute`, `dev:review-pr`, `dev:verify` — run in the repo
+  named by the packet's `Execution repo:` field. For Phase 6+ framework work that is
+  `sekai-kb` (`~/src/sekai-kb`), so `gh` resolves PR numbers, CI runs, and review threads
+  against the right repo with no `-R` flag and no bare-`#N` ambiguity. Instance-owned
+  packets (feature flags, analytics IDs, content, `/sekai-upgrade` adoptions) name
+  `lagunabeach-md` and run here.
+- Every packet states `Execution repo:` — that field is what makes the rule mechanical.
+  Record the full PR URL on the Linear task either way, since the tracker spans both
+  repos and PR numbering does not.
+
+Superseded 2026-07-27 (LB-60): the previous text had `dev:execute` claim from
+`lagunabeach-md` and reach across with `-R wilsonkichoi/sekai-kb` on every `gh` call. It
+was written on 2026-07-19, hours before LB-41 gave `sekai-kb` its own dev config, and the
+two files then prescribed different behavior for the same operation.
 
 After **5.4** (LB-33, done), `lagunabeach-md` is **instance #1** of the framework (still the
 live `lagunabeach.md` site), re-based onto `sekai-kb-v1.0.0` with the merge base established
@@ -162,11 +174,12 @@ framework for scripts and dependencies; it carries neither release value.
 - **Cross-repo PR targeting (Phase 5+).** Framework code tasks execute in the
   `sekai-kb` repo (`github.com/wilsonkichoi/sekai-kb`, `${SRC_HOME}/sekai-kb`) per
   docs/ROADMAP.md "Execution repo flow"; the Linear tracker and process docs stay
-  here, and some tasks (5.4, instance-owned edits) still commit in lagunabeach-md.
-  `dev:review-pr` / `dev:verify` must therefore resolve the PR from the URL in the
-  task's work-summary comment and pass its repo explicitly to every gh call
-  (`gh -R wilsonkichoi/sekai-kb …`). Never use a bare `gh pr <n>` — it defaults to
-  the working directory's repo (lagunabeach-md), which has its own PR numbering.
+  here, and instance-owned tasks still commit in lagunabeach-md. Run the execution
+  skills **in** the repo the packet names (see "Execution repo (Phase 5+)" above) so
+  `gh` resolves against it natively. If a session must reach the other repo anyway,
+  resolve the PR from the URL in the task's work-summary comment and pass the repo
+  explicitly on every gh call (`gh -R wilsonkichoi/sekai-kb …`); a bare `gh pr <n>`
+  is always wrong across repos, because each has its own PR numbering.
   Do NOT set the `github_repo:` frontmatter key for this; it is reserved for
   `secondary_intake: github` routing.
 
@@ -210,6 +223,7 @@ file's own frontmatter, not this list.
 - `.agent-toolkit/rules/fork-sweep-semantic-not-encoding.md` — a "dead fork code removed" claim needs a semantic grep (SPORE/APPLIES_TO/zh-TW/taiwan.md/…) plus the codepoint grep; enumerate the fork's vocabulary once, sweep `scripts/` + `tests/` together, ship a mechanical guard.
 - `.agent-toolkit/rules/sekai-upgrade-prs-merge-commit-never-squash.md` — a PR whose branch history is the deliverable (framework-upgrade / tag-merge / merge-base) merges with `gh pr merge --merge`, never squash, and asserts `git merge-base --is-ancestor` after.
 - `.agent-toolkit/rules/dod-guard-suite-must-run-in-ci.md` — a test suite cited as a DoD regression guard counts only if the CI workflow actually runs it; check `deploy.yml` for the exact script name and wire it in if missing — a green local run is not a gate.
+- `.agent-toolkit/rules/guard-or-explain-prose-drift.md` — a task correcting prose that drifted from code ships a machine guard that derives the value from source, or names why one is infeasible or already exists; neither is an incomplete DoD, not a nit.
 - `.agent-toolkit/rules/genericity-gate-scope.md` — what the genericity + English-only gates check (place-name denylist grep + CJK-codepoint scan over `src/` + `scripts/` + `tests/`), what they don't (hex colors), and that they scan comments/doc-strings too.
 
 ### Gotchas
