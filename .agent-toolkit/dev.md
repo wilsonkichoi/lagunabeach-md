@@ -147,7 +147,7 @@ framework for scripts and dependencies; it carries neither release value.
   merge topology (tag merges, merge-base establishment, ancestry) must say its PR merges
   with a real merge commit — the `merge_policy: squash` default silently flattens
   history-shaped deliverables. Found as LB-33 review B1;
-  `.agent-toolkit/rules/sekai-upgrade-prs-merge-commit-never-squash.md` carries the execution/verify
+  `.agent-toolkit/rules/upgrade-prs-merge-commit-never-squash.md` carries the execution/verify
   guard.
 
 ## Execution conventions
@@ -212,19 +212,11 @@ from that declaration. The action step lives in the `test` job of
 `.github/workflows/deploy.yml`, which runs on every pull request and push to
 `main`; `build` needs `test` and `deploy` needs `build`, so a red check blocks
 deployment through the job graph. As checked 2026-07-25, `main` has no branch
-protection, so `test` is not a GitHub required status check. The tier tables below
-are a human index of what is promoted; the resolver's source of truth is each
-file's own frontmatter, not this list.
-
-### Doctrine
-
-- `.agent-toolkit/rules/dod-is-the-scope.md` — the claimed task's Objective + DoD is the whole scope; never trim a DoD criterion citing "don't over-engineer"/simplicity/phase boundaries — silent scope-drop is a review blocker.
-- `.agent-toolkit/rules/clean-rebuild-no-dead-fork-code.md` — this is a clean rebuild: dead fork-era code (unreachable branches, zh-TW fallbacks, fork-context comments) is a review **blocker**, not a nit; strip it at extraction, sweep ported files for CJK before hand-off.
-- `.agent-toolkit/rules/fork-sweep-semantic-not-encoding.md` — a "dead fork code removed" claim needs a semantic grep (SPORE/APPLIES_TO/zh-TW/taiwan.md/…) plus the codepoint grep; enumerate the fork's vocabulary once, sweep `scripts/` + `tests/` together, ship a mechanical guard.
-- `.agent-toolkit/rules/sekai-upgrade-prs-merge-commit-never-squash.md` — a PR whose branch history is the deliverable (framework-upgrade / tag-merge / merge-base) merges with `gh pr merge --merge`, never squash, and asserts `git merge-base --is-ancestor` after.
-- `.agent-toolkit/rules/dod-guard-suite-must-run-in-ci.md` — a test suite cited as a DoD regression guard counts only if the CI workflow actually runs it; check `deploy.yml` for the exact script name and wire it in if missing — a green local run is not a gate.
-- `.agent-toolkit/rules/guard-or-explain-prose-drift.md` — a task correcting prose that drifted from code ships a machine guard that derives the value from source, or names why one is infeasible or already exists; neither is an incomplete DoD, not a nit.
-- `.agent-toolkit/rules/genericity-gate-scope.md` — what the genericity + English-only gates check (place-name denylist grep + CJK-codepoint scan over `src/` + `scripts/` + `tests/`), what they don't (hex colors), and that they scan comments/doc-strings too.
+protection, so `test` is not a GitHub required status check. Doctrine rules are not
+indexed here: the resolver inlines every one of them into each dev session, so a
+summary line would restate content already in context. The gotcha table below is a
+human index of what is promoted, because gotchas load only on a trigger match; the
+resolver's source of truth is each file's own frontmatter, not this list.
 
 ### Gotchas
 
