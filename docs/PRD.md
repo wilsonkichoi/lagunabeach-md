@@ -1,9 +1,16 @@
-# PRD: LagunaBeach.md / Sekai KB
+# PRD: LagunaBeach.md
 
-**Approved 2026-07-07; consolidated 2026-07-26.** This is the product-intent SSOT.
-Architecture and implementation contracts live in `docs/SPEC.md` and `docs/adr/`;
-phase order and task packets live in `docs/ROADMAP.md`. Conflicts resolve per the
-precedence rule in `.agent-toolkit/dev.md`.
+**Approved 2026-07-07; consolidated 2026-07-26; scope noted 2026-07-29 (LB-62).** This is
+the product-intent SSOT **for this instance**. Architecture and implementation contracts
+live in `docs/SPEC.md` and `docs/adr/`; phase order and LB's adoption steps live in
+`docs/ROADMAP.md`. Conflicts resolve per the precedence rule in `.agent-toolkit/dev.md`.
+
+> **Not the framework's PRD.** `sekai-kb` has its own
+> [`docs/PRD.md`](https://github.com/wilsonkichoi/sekai-kb/blob/main/docs/PRD.md) stating
+> what the *framework* is for and who adopts it (ADR 008, upstream). This document states
+> what **lagunabeach.md** is for. Goal 2 below is why both exist: the framework was cut
+> out of this instance as a scheduled phase, so its origin is LB's product intent even
+> though its ongoing intent is no longer LB's to set.
 
 ## Goal
 
@@ -36,8 +43,8 @@ Two products, one codebase, built in strict order:
 | Customer | Value |
 |---|---|
 | Readers (residents, visitors) | Curated, fact-checked local knowledge with the inherited editorial bar; graph, map, search |
-| AI consumers | `/llms.txt` → `/kb/topics.json` → `/kb/articles/{slug}.md`: lazy-loading knowledge protocol, one HTTP request per article, no clone required (SPEC `Build pipeline`); tool-using MCP clients get the same corpus via one remote MCP connection (`workers/mcp/`, Phase 9, ADR 005) |
-| Framework adopters | GitHub template + `/sekai-adopt` AI interview → configured, seeded, deployed site in under an hour (ADR 002; SPEC `New builds`); generic content-lifecycle skills (`/sekai-write`, `/sekai-validate`, `/sekai-factcheck`) keep the instance maintainable at the editorial bar with any agent CLI (task 5.6, ROADMAP Phase 5 amendment) |
+| AI consumers | `/llms.txt` → `/kb/topics.json` → `/kb/articles/{slug}.md`: lazy-loading knowledge protocol, one HTTP request per article, no clone required (framework SPEC `Build pipeline`); tool-using MCP clients get the same corpus via one remote MCP connection (`workers/mcp/`, Phase 9, ADR 005) |
+| Framework adopters | GitHub template + `/sekai-adopt` AI interview → configured, seeded, deployed site in under an hour (ADR 002; framework SPEC `New builds`); generic content-lifecycle skills (`/sekai-write`, `/sekai-validate`, `/sekai-factcheck`) keep the instance maintainable at the editorial bar with any agent CLI (task 5.6, ROADMAP Phase 5 amendment) |
 | Contributors | Plain-Markdown SSOT (`knowledge/`), quality tooling (article-health, link checks), tracker-driven workflow |
 | Wilson | An instance he enjoys building (map, soundscape, RAG chat, QR flow) on a codebase that stays extractable, plus an autonomous operations layer (Phase 11 routines) that maintains the instance without burnout |
 
@@ -47,7 +54,7 @@ Phase-gated proof points rather than a single metric (each is a ROADMAP acceptan
 
 - **LB:** domain cutover — lagunabeach.md serves the new codebase at content parity
   (16 articles + About + INBOX) with zero broken links and article-health scores matching
-  the fork baseline (tasks 3.1-3.2), at the fork's visual bar (task 1.1c; SPEC `Risk controls`).
+  the fork baseline (tasks 3.1-3.2), at the fork's visual bar (task 1.1c; SPEC `Instance risk controls`).
 - **Framework:** the dana-point proof — a fresh clone through `/sekai-adopt` interview to five
   AI-seeded articles deployed on GitHub Pages in under one hour, executed for real (task 5.2c).
 - **Operations (extension, ADR 005):** two autonomous routines live for ≥ 1 week, shipping
@@ -59,22 +66,22 @@ Non-goals bound the product; they never shrink a task. If a task packet's DoD ap
 to conflict with a non-goal, surface the conflict to Wilson (per `.agent-toolkit/dev.md`),
 never silently trim the packet.
 
-- **No paid hosting/infra services** (SPEC `Deployment`): GitHub Pages + Cloudflare free tier
+- **No paid hosting/infra services** (SPEC `Deployment and domain`): GitHub Pages + Cloudflare free tier
   + Workers free tier only. AI compute for dev and Phase-11 routines rides Wilson's
   existing Claude subscription/API budget — same cost class as the dev process itself,
   not an infra service (ADR 005).
 - **No direct-push automation**: routines never bypass the PR + CI gate; taiwan-md's
   push-to-main routine model is explicitly not adopted (ADR 005).
 - **No fork continuation and no upstream merging** — future Taiwan.md improvements are
-  deliberate idea cherry-picks, never merges (ADR 001; SPEC `Risk controls`).
+  deliberate idea cherry-picks, never merges (ADR 001; SPEC `Instance risk controls`).
 - **No build-time OG generation, ever** — static default image until the Phase 7 on-demand
-  worker (SPEC `Build pipeline`).
+  worker (framework SPEC `Build pipeline`).
 - **Not carrying Taiwan.md's scale machinery**: the 4-tier translation cascade, babel batch
   system, sovereignty data-viz pages, spore/harvest social apparatus — all delete-now or
   rebuilt-from-concept per the SPEC inherited-fork disposition.
 - **No framework features for hypothetical adopters**: a framework feature exists only if
   LB uses it or it is one of the six named adopter needs; everything else waits for the
-  second real adopter to ask (SPEC `Risk controls`).
+  second real adopter to ask (framework SPEC `Risk controls`).
 - **English-only through the current roadmap** (approved 2026-07-07, extended and
   scope-fixed 2026-07-11): the site and sekai-kb v1 ship
   English-only — no CJK/multi-language code paths, language profiles, `APPLIES_TO`
