@@ -142,8 +142,13 @@ LB-44 implements and regression-tests this Phase 5 upgrade contract.
 local copy of the framework release log. `/sekai-upgrade` reads framework notes directly from
 the target tag with `git show <tag>:CHANGELOG.md`, while the merge keeps LB's changelog
 unchanged. `FRAMEWORK-VERSION` remains the separate marker for the adopted Sekai tag.
-It also carries `merge=ours`: the tag merge preserves the old marker, and `/sekai-upgrade`
-bumps it explicitly only after verification succeeds.
+It carries `merge=ours` too, but that attribute alone does **not** hold it: a merge driver
+runs only on a three-way content merge, so on an instance that has not edited the file
+since the merge base git takes the incoming value and the marker claims a release nothing
+has verified. What holds it is `/sekai-upgrade`'s package-state capture before the merge
+and restore after it (`scripts/upgrade/package-state.mjs`, from `sekai-kb-v1.0.15`), which
+puts the pre-merge value back; the explicit bump then happens only after verification
+succeeds. Both halves are fixture-tested by `npm run upgrade:check`.
 
 `VERSION` is the LagunaBeach.md release SSOT and also carries `merge=ours`; framework
 upgrades never change it. `FRAMEWORK-VERSION` is not LB's release and must be described

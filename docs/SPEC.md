@@ -183,8 +183,11 @@ CHANGELOG and read from the target tag at upgrade time.
   and records instance work only. The init wizard replaces the template's framework
   release log with an instance changelog. `/sekai-upgrade` reads framework release notes from
   the target tag and preserves the local changelog through `merge=ours`.
-  `FRAMEWORK-VERSION` is also merge-protected; `/sekai-upgrade` bumps it explicitly after
-  successful verification.
+  `FRAMEWORK-VERSION` carries the same attribute, but `merge=ours` alone cannot hold it —
+  a merge driver runs only on a three-way content merge, so the incoming value otherwise
+  wins. `/sekai-upgrade` captures the pre-merge value and restores it after the merge
+  (`scripts/upgrade/package-state.mjs`, from `sekai-kb-v1.0.15`), then bumps it explicitly
+  after successful verification.
 - **2026-07-19, Wilson-approved LB-44 delta:** added the dev-plugin state-persistence
   contract for framework upgrades. This corrects the false assumption that
   `.gitattributes merge=ours` preserves a deleted `.agent-toolkit/` path. ROADMAP order is
