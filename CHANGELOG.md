@@ -41,6 +41,10 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+## [1.0.16] — 2026-07-29
+
+This release runs every upgrade helper from the target release tag, so a release that changes a helper applies its own fix on the upgrade that ships it.
+
 ### Fixed
 
 - **The upgrade bootstraps every helper from the target tag, never from the instance's
@@ -764,7 +768,8 @@ onto this tag.
 First release — nothing to upgrade from. The first instance establishes its merge
 base against this tag per `docs/runbook/UPGRADE.md` §Establishing the merge base.
 
-[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.0.15...HEAD
+[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.0.16...HEAD
+[1.0.16]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.16
 [1.0.15]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.15
 [1.0.14]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.14
 [1.0.13]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.13
