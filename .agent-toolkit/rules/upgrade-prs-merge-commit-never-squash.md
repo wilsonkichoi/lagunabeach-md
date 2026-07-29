@@ -16,8 +16,8 @@ class is:
 
 Squash flattens the tag-merge commits: the framework tags drop out of `main`'s ancestry,
 the next `/sekai-upgrade` fails with "refusing to merge unrelated histories", and every
-framework-owned file re-conflicts on every release — the exact SPEC risk-control outcome the
-release discipline exists to prevent.
+framework-owned file re-conflicts on every release — the exact two-repo-drift outcome the
+framework SPEC `Risk controls` and the release discipline exist to prevent.
 
 Mechanics:
 
