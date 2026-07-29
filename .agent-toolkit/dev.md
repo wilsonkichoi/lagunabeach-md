@@ -20,12 +20,21 @@ rules_dir: .agent-toolkit/rules/  # promoted learnings, one file per rule (dev:r
 
 ## Document authority and precedence
 
-`docs/PRD.md` owns product intent and non-goals. `docs/SPEC.md` and `docs/adr/` own
-architecture, contracts, extraction/disposition decisions, and risk controls.
-`docs/ROADMAP.md` owns phase order, task blocks, amendments, dependencies, and gates.
-Linear owns live task state. Task packets are converted from the ROADMAP blocks, never
-re-derived. Any conflict among these documents is surfaced to Wilson, never silently
-resolved in either direction.
+Since LB-62 the planning documents are split across two repositories at the same paths,
+so authority is stated per document **and** per repository (ADR 008, upstream). Read the
+one that owns the question; never reconcile them by editing the other side's copy.
+
+| Document | `lagunabeach-md` (this repo) owns | `sekai-kb` owns |
+|---|---|---|
+| `docs/PRD.md` | what lagunabeach.md is for: its goals, customers, north star, non-goals | what the framework is for and who adopts it |
+| `docs/SPEC.md` | deployment and domain, LB's content and categories, the extraction map, the inherited-fork disposition, instance risk controls | stack, repo topology, `place.config.ts` schema, content model, build pipeline, pages, new builds, phase 9-11 capabilities, framework risk controls, negative requirements |
+| `docs/ROADMAP.md` | phases 0-5 (the rebuild and the framework cut) and, per later phase, the instance-owned adoption step | the phase 6-11 task blocks, their amendments, ordering rules, and phase gates |
+| `docs/adr/` | ADRs 001-002, the rebuild decisions (`docs/adr/README.md` indexes both sides) | ADRs 003-008, which govern framework code |
+
+Linear owns live task state, as one project spanning both repositories. Task packets are
+converted from the owning repository's ROADMAP blocks, never re-derived. Any conflict —
+between two documents, or between the two repositories' copies of one — is surfaced to
+Wilson, never silently resolved in either direction.
 
 ## Genericity rule (negative requirement)
 
@@ -37,7 +46,7 @@ Zero place-specific strings in `src/` or `scripts/`. All place identity flows fr
 
 | Reference | Role | Rule |
 |---|---|---|
-| `docs/PRD.md`, `docs/SPEC.md`, `docs/ROADMAP.md`, `docs/adr/` (this repo) | product, engineering, and delivery SSOTs | every task packet names the ROADMAP task block it executes and cites the relevant SPEC/ADR contracts |
+| `docs/PRD.md`, `docs/SPEC.md`, `docs/ROADMAP.md`, `docs/adr/` — in **whichever repository owns the question** (see the precedence table above) | product, engineering, and delivery SSOTs | every task packet names the ROADMAP task block it executes, in the repository that carries that block, and cites the relevant SPEC/ADR contracts from the owning side |
 | `${SRC_HOME}/sekai-kb` (framework SSOT, GitHub `wilsonkichoi/sekai-kb`) | framework template + release train | Phase 5+ code lands here (LB-26 cut); instances merge **tagged releases only** (`sekai-kb-vX.Y.Z`), never framework `main` — per `docs/runbook/UPGRADE.md` + ADR 004. LB re-based onto `sekai-kb-v1.0.0` in LB-33 |
 | `${SRC_HOME}/lagunabeach-md-v1` (the renamed fork checkout) | extraction source | the SPEC extraction map prefers the fork's copy; reviews verify extraction claims against this tree, **byte-diff where the map says verbatim** |
 | `${SRC_HOME}/taiwan-md` | design reference | consult for design rationale; never a content source |
@@ -50,30 +59,61 @@ A session loads only the references its task cites — nothing else.
 
 From Phase 5, task **code** executes in the **sekai-kb** repo
 (`git@github.com:wilsonkichoi/sekai-kb.git`, cloned at `~/src/sekai-kb`) — the framework
-template cut in LB-26. The Linear tracker (team `LB`, project "LB Rebuild") and **all**
-process/planning docs (this file, `.agent-toolkit/rules/`, and `docs/`) stay in
-`lagunabeach-md`. A packet's `Execution repo:` field names where its code
-lands; absent that field, assume `sekai-kb` for Phase 5+.
+template cut in LB-26. The Linear tracker (team `LB`, project "LB Rebuild") stays one
+project across both repositories. Since LB-62 the **planning documents no longer all live
+here**: each repository carries the PRD, SPEC, ROADMAP, and ADRs for the work committed in
+it (see the precedence table above). This file and `.agent-toolkit/rules/` remain
+instance-side; `sekai-kb` has its own copies of both, governing its own work.
 
 **Which repo a session runs in.** Both repos carry their own `.agent-toolkit/dev.md`
 since LB-41, and each governs the work committed in it (the sekai-kb copy says so in its
 own words). `gh` defaults to the working-directory repo, so the working directory is what
-makes cross-repo targeting correct rather than a per-call flag:
+makes cross-repo targeting correct rather than a per-call flag. **A session runs in the
+repository that owns the documents it reads and the commits it makes** — those are always
+the same repository, which is what makes the rule decidable without a lookup table:
 
-- **Planning and tracker skills** — `/dev:plan`, `/dev:status`, `/dev:backlog`,
-  `/dev:retro` — run in `lagunabeach-md`, where the SSOT documents they read and amend
-  live.
 - **Execution skills** — `dev:execute`, `dev:review-pr`, `dev:verify` — run in the repo
   named by the packet's `Execution repo:` field. For Phase 6+ framework work that is
   `sekai-kb` (`~/src/sekai-kb`), so `gh` resolves PR numbers, CI runs, and review threads
   against the right repo with no `-R` flag and no bare-`#N` ambiguity. Instance-owned
   packets (feature flags, analytics IDs, content, `/sekai-upgrade` adoptions) name
   `lagunabeach-md` and run here.
+- **`/dev:plan`** runs in the repo whose ROADMAP carries the phase being decomposed, and
+  amends that ROADMAP there. Phases 6-11 are framework phases: plan them in `sekai-kb`,
+  reading its ROADMAP blocks. Plan LB's own instance work here. The **Forward
+  constraints** and **Downstream** conventions below apply on whichever side the session
+  runs; a forward constraint that lands on the other repository is recorded in the packet
+  and surfaced to Wilson, never written into the other repo's ROADMAP from this side.
+- **`/dev:backlog`** runs where the change lands. A stub that becomes a framework task is
+  triaged in `sekai-kb` against its SPEC/ROADMAP; a stub about LB's content, config, or
+  adoption is triaged here. The Linear stub itself is repo-neutral — triage is what picks
+  a side, and the resulting packet's `Execution repo:` field records the choice.
+- **`/dev:status` and `/dev:retro`** read the tracker, which spans both repositories, so
+  either working directory answers correctly. Run `/dev:retro` in the repo whose rules it
+  may promote into: a lesson about framework code belongs in `sekai-kb`'s
+  `.agent-toolkit/rules/`, one about this instance's process belongs here. A retro that
+  produces both writes each rule on its own side.
 - Every packet states `Execution repo:` — that field is what makes the rule mechanical.
   Record the full PR URL on the Linear task either way, since the tracker spans both
   repos and PR numbering does not.
 
-Superseded 2026-07-27 (LB-60): the previous text had `dev:execute` claim from
+The `sekai-kb` copy of this rule landed in
+[sekai-kb#43](https://github.com/wilsonkichoi/sekai-kb/pull/43) (LB-67, released as
+`sekai-kb-v1.0.15`, adopted by this branch through `sekai-kb-v1.0.16`), and states the same routing for
+`/dev:execute`, `/dev:review-pr`, `/dev:verify`, `/dev:plan`, `/dev:backlog`,
+`/dev:status`, and `/dev:retro` from the framework side. The two copies must not
+disagree again. Where they do, this repository's copy governs LB commits and
+`sekai-kb`'s governs framework commits — and the disagreement is a defect to report, not
+a choice to make.
+
+Superseded 2026-07-29 (LB-62): the previous text said "**all** process/planning docs
+(this file, `.agent-toolkit/rules/`, and `docs/`) stay in `lagunabeach-md`" and routed
+`/dev:plan`, `/dev:backlog`, and `/dev:retro` here unconditionally. That was true while
+planning was single-repo. ADR 008 moved the framework's PRD, SPEC, ROADMAP, and ADRs
+003-008 to `sekai-kb`, so planning a framework phase from this repository would now read
+documents this repository no longer owns.
+
+Superseded 2026-07-27 (LB-60): the text before that had `dev:execute` claim from
 `lagunabeach-md` and reach across with `-R wilsonkichoi/sekai-kb` on every `gh` call. It
 was written on 2026-07-19, hours before LB-41 gave `sekai-kb` its own dev config, and the
 two files then prescribed different behavior for the same operation.
@@ -89,8 +129,8 @@ entries, and its own content/media. `FRAMEWORK-VERSION` records the adopted tag.
 
 ## Adopter dev-plugin upgrade state
 
-SPEC `Repo topology` and ADR 006 define `.agent-toolkit/` presence as persistent
-instance state. Before a framework tag merge, `/sekai-upgrade` classifies the instance as
+The framework SPEC's `Repo topology` and ADR 006 (both in `sekai-kb`) define
+`.agent-toolkit/` presence as persistent instance state. Before a framework tag merge, `/sekai-upgrade` classifies the instance as
 stripped (tree and active AGENTS.md reference both absent) or installed (config and
 reference both present). Stripped stays stripped across shared and unrelated histories;
 installed keeps its adopter-owned config and rules. A mixed state is invalid and stops.
@@ -102,8 +142,17 @@ LB-44 implements and regression-tests this Phase 5 upgrade contract.
 local copy of the framework release log. `/sekai-upgrade` reads framework notes directly from
 the target tag with `git show <tag>:CHANGELOG.md`, while the merge keeps LB's changelog
 unchanged. `FRAMEWORK-VERSION` remains the separate marker for the adopted Sekai tag.
-It also carries `merge=ours`: the tag merge preserves the old marker, and `/sekai-upgrade`
-bumps it explicitly only after verification succeeds.
+It carries `merge=ours` too, but that attribute alone does **not** hold it: a merge driver
+runs only on a three-way content merge, so on an instance that has not edited the file
+since the merge base git takes the incoming value and the marker claims a release nothing
+has verified. What holds it is `/sekai-upgrade`'s package-state capture before the merge
+and restore after it (`scripts/upgrade/package-state.mjs`, from `sekai-kb-v1.0.15`), which
+puts the pre-merge value back; the explicit bump then happens only after verification
+succeeds. That capture only runs because the upgrade bootstraps every helper from the
+**target tag**, never from the instance's tree copy (`sekai-kb-v1.0.16`) — the tree copy
+shipped with the release being left, so the tree-first form ran a pre-capture helper on
+exactly the upgrade that introduced the capture. All three halves are fixture-tested by
+`npm run upgrade:check` (cases 12 and 13).
 
 `VERSION` is the LagunaBeach.md release SSOT and also carries `merge=ours`; framework
 upgrades never change it. `FRAMEWORK-VERSION` is not LB's release and must be described
@@ -113,8 +162,10 @@ framework for scripts and dependencies; it carries neither release value.
 ## Milestones and model policy
 
 - Milestones = Linear project milestones on project "LB Rebuild", one per phase
-  ("Phase 0" … "Phase 11"). All task blocks live in `docs/ROADMAP.md` and packets
-  convert from those blocks exactly.
+  ("Phase 0" … "Phase 11"), spanning both repositories. A phase's task blocks live in
+  exactly one `docs/ROADMAP.md` — this repo's for phases 0-5 and LB's own instance work,
+  `sekai-kb`'s for the framework phases 6-11 — and packets convert from those blocks
+  exactly, on the owning side.
   Phase transitions are Wilson gates: `/dev:plan` for phase n+1
   runs only after Wilson confirms phase n closed **and** the phase-n retro confirms every
   Backlog discovery stub from the phase is triaged — each stub either became a
@@ -172,9 +223,10 @@ framework for scripts and dependencies; it carries neither release value.
   chain so it runs on every build locally and in CI. Do not leave "test-backed" as a one-off
   `jq` in the PR — wire the assertion so it guards regressions.
 - **Cross-repo PR targeting (Phase 5+).** Framework code tasks execute in the
-  `sekai-kb` repo (`github.com/wilsonkichoi/sekai-kb`, `${SRC_HOME}/sekai-kb`) per
-  docs/ROADMAP.md "Execution repo flow"; the Linear tracker and process docs stay
-  here, and instance-owned tasks still commit in lagunabeach-md. Run the execution
+  `sekai-kb` repo (`github.com/wilsonkichoi/sekai-kb`, `${SRC_HOME}/sekai-kb`) per the
+  framework roadmap's "Execution repo flow"; the Linear tracker spans both repositories,
+  each repository carries the planning documents for its own work (LB-62), and
+  instance-owned tasks still commit in lagunabeach-md. Run the execution
   skills **in** the repo the packet names (see "Execution repo (Phase 5+)" above) so
   `gh` resolves against it natively. If a session must reach the other repo anyway,
   resolve the PR from the URL in the task's work-summary comment and pass the repo

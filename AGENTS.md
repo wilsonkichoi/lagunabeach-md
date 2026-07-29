@@ -17,11 +17,27 @@ boundary, and the semiont probe rule.
 
 ## Where things live
 
-- **Product SSOT:** `docs/PRD.md` — goals, customer value, north star, and non-goals.
-- **Engineering SSOT:** `docs/SPEC.md` and `docs/adr/` — architecture, contracts,
-  extraction/disposition decisions, risk controls, and accepted decisions.
-- **Delivery SSOT:** `docs/ROADMAP.md` — phase order, detailed task blocks, amendments,
-  dependencies, and phase gates. Linear is the SSOT for live task state.
+Two repositories carry planning documents at the same paths, and which one answers a
+question depends on whether the question is about **this instance** or about the
+**framework** (ADR 008, upstream). The instance's documents are here and are
+`merge=ours`, so framework upgrades never overwrite them:
+
+- **Product SSOT:** `docs/PRD.md` — what lagunabeach.md is for: goals, customer value,
+  north star, and non-goals.
+- **Engineering SSOT:** `docs/SPEC.md` and `docs/adr/` — LB's deployment and domain, its
+  content and categories, the extraction map, the inherited-fork disposition, the
+  instance risk controls, and ADRs 001-002 (the rebuild decisions).
+- **Delivery SSOT:** `docs/ROADMAP.md` — phases 0-5 (the rebuild and the framework cut,
+  which happened here) and, for each later phase, the instance-owned adoption step LB
+  executes. Linear is the SSOT for live task state.
+
+The framework's own PRD, SPEC, ROADMAP, and ADRs 003-008 live in
+[`sekai-kb/docs/`](https://github.com/wilsonkichoi/sekai-kb/tree/main/docs) beside the
+code they govern. Read them there for the stack, repo topology, the `place.config.ts`
+schema, the content model, the build pipeline, the page set, the negative requirements
+(including the genericity gates), framework risk controls, and the phase 6-11 task
+blocks. `docs/adr/README.md` indexes both sides. Nothing is duplicated across the two
+repositories: a statement lives in exactly one of them.
 - **Instance history:** `CHANGELOG.md` — LB work only. Framework release notes stay in
   the `sekai-kb` changelog and are read from release tags during `/sekai-upgrade`.
 - **Versions:** `VERSION` is LB's release SSOT. `FRAMEWORK-VERSION` records the
@@ -34,6 +50,10 @@ boundary, and the semiont probe rule.
 - **Process config:** `.agent-toolkit/dev.md` — dev-plugin config: tracker (Linear, workspace
   `sekai-kb`, team `LB`, project "LB Rebuild"), conventions, extraction-source paths.
 - **Promoted learnings:** `.agent-toolkit/rules/` (written by `/dev:retro` on approval).
+- **Instance-owned guards:** `.agent-toolkit/scripts/`, run by
+  `.github/workflows/instance-guards.yml`. Guards that only make sense for this
+  instance live here rather than in the framework-owned `deploy.yml`, so a tag merge
+  never conflicts with them and adopters never inherit them.
 - **Architecture diagrams (engineering SSOT):** `docs/diagrams/*.drawio`.
 
 ## Environment variable
@@ -69,7 +89,7 @@ derived, gitignored projections of `knowledge/`; never edit them directly.
    alone, so a denylisted place string under `workers/` would go unchecked. History:
    CI-gated from 0.3; scope extended to `tests/` plus the CJK-codepoint scan in LB-20
    under the English-only doctrine; `.agents/skills/` joined both gates with the
-   framework skills in 5.6 (`docs/SPEC.md` Negative requirements).
+   framework skills in 5.6 (framework SPEC, Negative requirements).
    `scripts/ci/check-scan-root-docs.mjs` keeps every scan-root statement in this
    repository synchronized with the gates.
 3. **Extraction over invention:** design and components are copied from

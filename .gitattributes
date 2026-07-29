@@ -13,7 +13,8 @@
 # knowledge/**, public/media/**, CNAME, CLAUDE.md, AGENTS.md, README.md, CHANGELOG.md,
 # VERSION, FRAMEWORK-VERSION,
 # docs/baselines/**, scripts/ci/genericity-denylist.local.txt, and
-# .agent-toolkit/**.
+# .agent-toolkit/**. ADR 008 (in sekai-kb) adds the four planning-document paths:
+# docs/PRD.md, docs/SPEC.md, docs/ROADMAP.md, and docs/adr/**.
 # See docs/runbook/UPGRADE.md §Instance-owned files. Add your own below.
 
 place.config.ts merge=ours
@@ -33,3 +34,15 @@ scripts/ci/genericity-denylist.local.txt merge=ours
 # instance-owned — this instance carries its OWN .agent-toolkit/, so a framework
 # tag-merge must never overwrite it with the framework's own dev config or rules.
 .agent-toolkit/** merge=ours
+
+# Maintainer-doc paths (ADR 008). The init wizard strips the framework's own copies,
+# so most instances have nothing here and these lines are inert. An instance that
+# keeps its OWN product, architecture, delivery, or decision records at these paths
+# is a legitimate state, and its documents are never the framework's to overwrite —
+# shipping the attribute means such an instance is protected by default instead of
+# having to remember to add it before its next merge. Absence is a different problem
+# that no attribute can solve; scripts/upgrade/maintainer-docs-state.mjs owns it.
+docs/PRD.md merge=ours
+docs/SPEC.md merge=ours
+docs/ROADMAP.md merge=ours
+docs/adr/** merge=ours

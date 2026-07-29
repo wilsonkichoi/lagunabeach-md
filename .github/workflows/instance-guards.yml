@@ -1,0 +1,36 @@
+# Instance-owned guards.
+#
+# deploy.yml is framework-owned and ships to every adopter on upgrade. Guards
+# that only make sense for THIS instance live here instead, so a framework tag
+# merge never conflicts with them and adopters never inherit them.
+#
+# This file was deleted in b43b071 when the adopted-version guard it ran was
+# retired, and recreated in LB-62 for the merge-protection guard below.
+name: Instance guards
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  instance-owned-docs:
+    name: Planning documents survive a framework tag merge
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      # No dependency install: the guard uses git, bash, and node builtins only.
+
+      # `--selftest` runs the real assertion AND the non-vacuity control in one
+      # invocation: with every `merge=ours` line stripped, the same assertion must
+      # fail. A green check here therefore cannot mean "the guard quietly stopped
+      # checking" — that is the failure mode the retired guard's separate
+      # self-test step existed to cover.
+      - name: Instance-owned planning documents (with non-vacuity self-test)
+        run: bash .agent-toolkit/scripts/check-instance-owned-docs.sh --selftest
