@@ -49,13 +49,15 @@
 # Cases 6-10 cover the second helper, `scripts/upgrade/maintainer-docs-state.mjs`
 # (ADR 008 addendum). Its contract:
 #
-#   node scripts/upgrade/maintainer-docs-state.mjs classify  [--repo <dir>] [--state <file>]
-#   node scripts/upgrade/maintainer-docs-state.mjs reconcile [--repo <dir>] [--state <file>]
-#   node scripts/upgrade/maintainer-docs-state.mjs paths     [--repo <dir>]
+#   node scripts/upgrade/maintainer-docs-state.mjs classify  [--repo <dir>] [--from-tag <tag>] [--state <file>]
+#   node scripts/upgrade/maintainer-docs-state.mjs reconcile [--repo <dir>] [--from-tag <tag>] [--state <file>]
+#   node scripts/upgrade/maintainer-docs-state.mjs paths     [--repo <dir>] [--from-tag <tag>]
 #
 #   The path set is DERIVED from the init wizard's exported MAINTAINER_DOCS, so
 #   this harness derives its fixtures from the same source (`paths`) instead of
-#   restating them. Classification is PER PATH, with no activation signal and no
+#   restating them. `--from-tag` moves only that derivation to the tag being
+#   merged; presence is always read from the pre-merge working tree.
+#   Classification is PER PATH, with no activation signal and no
 #   mixed state:
 #     owned    = present before the merge -> never deleted, asserted unchanged
 #     stripped = absent  before the merge -> whatever the merge introduced is removed
@@ -77,11 +79,46 @@
 #      `git merge --abort` mid-merge, `git reset --hard ORIG_HEAD` once the merge
 #      is committed — and the auto-commit sub-case runs the prescribed command and
 #      asserts it restores the instance's own documents.
+#  11. FIRST upgrade to the release that introduces MAINTAINER_DOCS: the working
+#      tree's wizard predates the export, so classify without `--from-tag` cannot
+#      derive the path set (exit 3) and `--from-tag <the tag being merged>` must
+#      still produce the classification the whole pass depends on.
 #
-# `--selftest` proves the suite is non-vacuous: it re-runs cases 1, 2, 6, 7, 8, 9
-# and 10 with the reconcile step DELIBERATELY SKIPPED and requires each case's own
-# assertions to FAIL. A skipped-reconcile run that passes means the case cannot
-# detect the regression it exists to guard, and --selftest exits nonzero. No
+# Case 12 covers the third helper, `scripts/upgrade/package-state.mjs`, on the one
+# path `merge=ours` cannot protect:
+#
+#   node scripts/upgrade/package-state.mjs capture              -> prints the state path
+#   node scripts/upgrade/package-state.mjs reconcile <state>
+#
+#  12. FRAMEWORK-VERSION holds its PRE-MERGE value across the merge and changes
+#      only on the explicit post-verification bump. A merge driver runs only on a
+#      three-way content merge, so an instance that has not touched the file since
+#      the merge base has `ours == base` and git fast-forwards to theirs — the
+#      fixture pins that, with the attribute set and the driver configured, before
+#      requiring reconcile to undo it. Sub-case 12b is the no-conflict shape, where
+#      git auto-commits and reconcile must amend the merge commit.
+#  12c. The other half of that contract: an instance that had NO FRAMEWORK-VERSION
+#      must not gain one. This is the `frameworkVersion === null` branch, a state
+#      `/sekai-upgrade` step 0 names explicitly ("pre-wizard instance"), and a
+#      regression in it would leave every present-value fixture above green.
+#
+# Two option-contract checks close the loop from the other side:
+#
+#   - `reconcile` must REJECT `--from-tag` (exit 2). Reconciliation derives from the
+#     MERGED tree on purpose: that is how a merge which did not bring the wizard
+#     through gets exposed rather than papered over by reading the tag instead.
+#   - The options the adopter-facing upgrade documents tell a user to pass are
+#     checked, PER INVOKED COMMAND, against the helper's own COMMAND_OPTIONS table,
+#     so a renamed or misplaced flag fails CI rather than leaving a runbook that
+#     exits 2 at runtime. The extraction is scoped to that literal and carries a
+#     non-vacuity probe, because the helper's source is full of single-quoted git
+#     arguments (`--quiet`, `--ignore-unmatch`, ...) that a whole-file grep would
+#     wrongly report as accepted CLI options.
+#
+# `--selftest` proves the suite is non-vacuous: it re-runs cases 1, 2, 6, 7, 8, 9,
+# 10, 11, 12 and 12c with the reconcile step DELIBERATELY SKIPPED and requires each
+# case's own assertions to FAIL. A skipped-reconcile run that passes means the case
+# cannot detect the regression it exists to guard, and --selftest exits nonzero. No
 # reconcile-dependent assertion is gated on the skip toggle, because gating one out
 # is how a case silently becomes vacuous.
 #
@@ -90,7 +127,7 @@
 # and everything it writes into scripts/.
 #
 # Usage:
-#   bash scripts/upgrade/check-upgrade-state.sh             all five cases
+#   bash scripts/upgrade/check-upgrade-state.sh             all thirteen cases
 #   bash scripts/upgrade/check-upgrade-state.sh --selftest  non-vacuity proof
 #
 # Portability: macOS bash 3.2 + CI bash 5 (no mapfile/readarray, no associative
@@ -124,6 +161,14 @@ if [ ! -f "$MDOCS_HELPER_SRC" ]; then
 fi
 MDOCS_HELPER="$TMP/helper/maintainer-docs-state.mjs"
 cp "$MDOCS_HELPER_SRC" "$MDOCS_HELPER"
+
+PACKAGE_HELPER_SRC="$ROOT/scripts/upgrade/package-state.mjs"
+if [ ! -f "$PACKAGE_HELPER_SRC" ]; then
+  echo "❌ upgrade-state check FAILED: helper not found at $PACKAGE_HELPER_SRC" >&2
+  exit 1
+fi
+PACKAGE_HELPER="$TMP/helper/package-state.mjs"
+cp "$PACKAGE_HELPER_SRC" "$PACKAGE_HELPER"
 
 # The maintainer-doc path set under test is DERIVED from the init wizard by the
 # helper itself, never restated here — a hardcoded fixture list would keep passing
@@ -319,17 +364,19 @@ mdocs_field() { # field — reads the classify output in $HELPER_OUT
   printf '%s\n' "$HELPER_OUT" | sed -n "s/^maintainer-docs-state: $1: //p"
 }
 
-assert_mdocs_classify() { # dir label expected-owned expected-stripped
+assert_mdocs_classify() { # dir label expected-owned expected-stripped [extra classify args...]
+  local dir="$1" label="$2" want_owned="$3" want_stripped="$4"
   local owned stripped
-  run_mdocs "$1" classify
-  [ "$HELPER_STATUS" -eq 0 ] || fail "$2: classify exited $HELPER_STATUS (expected 0); stderr: $HELPER_ERR"
+  shift 4
+  run_mdocs "$dir" classify "$@"
+  [ "$HELPER_STATUS" -eq 0 ] || fail "$label: classify exited $HELPER_STATUS (expected 0); stderr: $HELPER_ERR"
   owned="$(normalize_list "$(mdocs_field owned)")"
   stripped="$(normalize_list "$(mdocs_field stripped)")"
-  [ "$owned" = "$(normalize_list "$3")" ] \
-    || fail "$2: classify reported owned='$owned' (expected '$(normalize_list "$3")')"
-  [ "$stripped" = "$(normalize_list "$4")" ] \
-    || fail "$2: classify reported stripped='$stripped' (expected '$(normalize_list "$4")')"
-  ok "$2: classify — owned: ${owned:-none} | stripped: ${stripped:-none}"
+  [ "$owned" = "$(normalize_list "$want_owned")" ] \
+    || fail "$label: classify reported owned='$owned' (expected '$(normalize_list "$want_owned")')"
+  [ "$stripped" = "$(normalize_list "$want_stripped")" ] \
+    || fail "$label: classify reported stripped='$stripped' (expected '$(normalize_list "$want_stripped")')"
+  ok "$label: classify — owned: ${owned:-none} | stripped: ${stripped:-none}"
 }
 
 # reconcile, honoring the --selftest skip toggle (SKIP_RECONCILE=1).
@@ -380,6 +427,15 @@ write_wizard() { # dir
     for rel in $MAINTAINER_DOCS; do printf "  '%s',\n" "$rel"; done
     printf '];\n'
   } > "$1/scripts/init/writer.mjs"
+}
+
+# A wizard from BEFORE the strip list was exported. This is the tree an instance
+# really has on its first upgrade to the release that introduces MAINTAINER_DOCS:
+# the docs already exist, the export does not, so the path set can only come from
+# the tag being merged.
+write_legacy_wizard() { # dir
+  mkdir -p "$1/scripts/init"
+  printf 'export const PLACEHOLDER_SETTINGS = { seeded: true };\n' > "$1/scripts/init/writer.mjs"
 }
 
 # A file path gets a file; a directory path gets one record inside it.
@@ -591,7 +647,7 @@ assert_instance_version() { # repo label
 
 # Framework repo carrying legacy fw-v1 (which mistakenly tracked VERSION) and
 # corrected fw-v2 (which deletes it so only adopters carry VERSION).
-build_framework() { # dir
+build_framework() { # dir [legacy-wizard]
   local fw="$1"
   init_repo "$fw"
   mkdir -p "$fw/.agent-toolkit/rules" "$fw/src" "$fw/scripts/upgrade"
@@ -604,7 +660,7 @@ tier: doctrine
 # Example rule (framework-owned, fw-v1)
 EOF
   write_gitattributes "$fw"
-  write_wizard "$fw"
+  if [ "${2:-}" = "legacy-wizard" ]; then write_legacy_wizard "$fw"; else write_wizard "$fw"; fi
   write_maintainer_docs "$fw" "fw-v1"
   # Adopter-facing docs live beside the maintainer docs and must survive the strip
   # and every upgrade — the other half of the ownership boundary.
@@ -631,6 +687,9 @@ triggers:
 # New rule (framework-owned, added in fw-v2)
 EOF
   printf 'export const FRAMEWORK_APP = "fw-v2";\n' > "$fw/src/app.js"
+  # fw-v2 always exports the strip list, so a `legacy-wizard` framework models the
+  # release that INTRODUCES it — the first-upgrade shape case 11 drives.
+  write_wizard "$fw"
   # fw-v2 CHANGES every maintainer doc (so a stripped instance on shared history
   # hits the modify/delete case) and ADDS one record the instance cannot have (so
   # the owned case exercises the report-never-delete rule).
@@ -1342,6 +1401,450 @@ case_mdocs_owned_unprotected() { # workdir
 }
 
 # ---------------------------------------------------------------------------
+# Case 11 — maintainer docs: FIRST upgrade to the release that introduces the
+# strip list. The helper is bootstrapped out of the tag, but the working tree's
+# wizard predates the export, so the derivation must come from the tag while
+# presence still comes from the tree.
+# ---------------------------------------------------------------------------
+case_mdocs_first_upgrade_from_tag() { # workdir
+  local work="$1" fw inst
+  fw="$work/fw"
+  inst="$work/instance"
+  mkdir -p "$work"
+  build_framework "$fw" legacy-wizard
+  clone_at_v1 "$fw" "$inst"
+
+  # The instance carries no maintainer docs (an earlier adoption removed them),
+  # and its wizard is fw-v1's — the one that predates MAINTAINER_DOCS.
+  strip_maintainer_docs "$inst"
+  write_instance_agents_md "$inst/AGENTS.md" no-reference
+  git -C "$inst" add -A
+  git -C "$inst" commit -q -m "Adopt Example framework at fw-v1: strip maintainer docs"
+
+  # Fixture guards: this must really be the pre-export tree, and the tag must
+  # really carry the export. Without both, the case proves nothing.
+  if grep -q 'MAINTAINER_DOCS' "$inst/scripts/init/writer.mjs"; then
+    fail "case 11: fixture guard — the working tree's wizard already exports MAINTAINER_DOCS, so the first-upgrade shape is gone"
+  fi
+  git -C "$inst" show fw-v2:scripts/init/writer.mjs | grep -q 'MAINTAINER_DOCS' \
+    || fail "case 11: fixture guard — fw-v2 does not export MAINTAINER_DOCS, so there is nothing to derive from the tag"
+  ok "case 11: fixture is the first-upgrade shape (tree's wizard predates the export, fw-v2 carries it)"
+
+  # The defect this criterion exists for: deriving from the working tree cannot
+  # produce the classification at all.
+  run_mdocs "$inst" classify
+  [ "$HELPER_STATUS" -eq 3 ] \
+    || fail "case 11: classify without --from-tag exited $HELPER_STATUS (expected 3 on a wizard that predates the export); stdout: '$HELPER_OUT'"
+  printf '%s' "$HELPER_ERR" | grep -q -- '--from-tag' \
+    || fail "case 11: the underivable diagnostic does not point at --from-tag: $HELPER_ERR"
+  ok "case 11: classify without --from-tag exits 3 and names --from-tag as the remedy"
+
+  # The contract: the path set comes from the tag, presence from this tree.
+  assert_mdocs_classify "$inst" "case 11" "" "$MAINTAINER_DOCS" --from-tag fw-v2
+
+  local merge_status=0
+  git -C "$inst" merge --no-edit fw-v2 >/dev/null 2>&1 || merge_status=$?
+  [ "$merge_status" -ne 0 ] \
+    || fail "case 11: the fw-v2 merge did not stop on a maintainer-doc modify/delete conflict (fixture no longer exercises the contract)"
+
+  # reconcile takes no --from-tag: after the merge the framework-owned wizard is
+  # the tag's, so the working tree is once again a correct derivation source.
+  assert_mdocs_reconcile_ok "$inst" "case 11"
+  assert_maintainer_docs_absent "$inst" "case 11"
+  finalize_merge "$inst" "case 11"
+
+  assert_is_merge_commit "$inst" "case 11"
+  assert_maintainer_docs_not_in_commit "$inst" HEAD "case 11"
+  grep -q 'MAINTAINER_DOCS' "$inst/scripts/init/writer.mjs" \
+    || fail "case 11: the framework's wizard did not land, so later upgrades still cannot derive the path set"
+  ok "case 11: the release's wizard landed — later upgrades need no --from-tag"
+}
+
+# ---------------------------------------------------------------------------
+# Case 12 — FRAMEWORK-VERSION holds its pre-merge value across the merge and
+# changes only on the explicit post-verification bump.
+#
+# Deliberately NOT built on build_framework: this case needs npm manifests on both
+# tags and a FRAMEWORK-VERSION the instance has NOT touched since the merge base.
+# That last part is the whole point — `merge=ours` names a driver git only invokes
+# on a three-way content merge, so an instance with `ours == base` gets theirs
+# fast-forwarded in and silently claims the incoming release before anything has
+# verified it.
+# ---------------------------------------------------------------------------
+
+# `versioned` mirrors VERSION into the manifests; `versionless` writes the v1.0.8
+# shape, which the capture accepts so the first migration needs no pre-editing.
+write_npm_manifests() { # dir name shape version
+  local pkg lock
+  pkg="$1/package.json"
+  lock="$1/package-lock.json"
+  if [ "$3" = "versioned" ]; then
+    cat > "$pkg" <<EOF
+{
+  "name": "$2",
+  "version": "$4",
+  "private": true,
+  "description": "Example package",
+  "scripts": { "build": "true" }
+}
+EOF
+    cat > "$lock" <<EOF
+{
+  "name": "$2",
+  "version": "$4",
+  "lockfileVersion": 3,
+  "packages": { "": { "name": "$2", "version": "$4" } }
+}
+EOF
+  else
+    cat > "$pkg" <<EOF
+{
+  "name": "$2",
+  "private": true,
+  "description": "Example package",
+  "scripts": { "build": "$4" }
+}
+EOF
+    cat > "$lock" <<EOF
+{
+  "name": "$2",
+  "lockfileVersion": 3,
+  "packages": { "": { "name": "$2" } }
+}
+EOF
+  fi
+}
+
+# Two framework tags whose only interesting difference is FRAMEWORK-VERSION plus
+# one manifest field, so each sub-case controls the merge shape exactly.
+build_version_framework() { # dir shape
+  local fw="$1" shape="$2"
+  init_repo "$fw"
+  mkdir -p "$fw/src"
+  write_gitattributes "$fw"
+  printf 'marker\n' > "$fw/.sekai-template"
+  printf 'export const FRAMEWORK_APP = "fw-v1";\n' > "$fw/src/app.js"
+  printf 'v1.0.0\n' > "$fw/FRAMEWORK-VERSION"
+  if [ "$shape" = "versioned" ]; then
+    write_npm_manifests "$fw" "example-framework" versioned "1.0.0"
+  else
+    write_npm_manifests "$fw" "example-framework" versionless "old-framework-build"
+  fi
+  git -C "$fw" add -A
+  git -C "$fw" commit -q -m "Example framework fw-v1"
+  git -C "$fw" tag fw-v1
+
+  printf 'export const FRAMEWORK_APP = "fw-v2";\n' > "$fw/src/app.js"
+  printf 'v1.0.1\n' > "$fw/FRAMEWORK-VERSION"
+  if [ "$shape" = "versioned" ]; then
+    write_npm_manifests "$fw" "example-framework" versioned "1.0.1"
+  else
+    write_npm_manifests "$fw" "example-framework" versionless "new-framework-build"
+  fi
+  git -C "$fw" add -A
+  git -C "$fw" commit -q -m "Example framework fw-v2"
+  git -C "$fw" tag fw-v2
+}
+
+run_package_capture() { # dir label — prints the state path
+  local out
+  out="$( cd "$1" && node "$PACKAGE_HELPER" capture )" \
+    || fail "$2: package-state capture failed"
+  [ -n "$out" ] || fail "$2: package-state capture printed no state path (the helper was a silent no-op)"
+  printf '%s' "$out"
+}
+
+# package-state reconcile, honoring the --selftest skip toggle (SKIP_RECONCILE=1).
+run_package_reconcile() { # dir state-file label
+  if [ "${SKIP_RECONCILE:-0}" = "1" ]; then
+    echo "   (selftest: package-state reconcile DELIBERATELY SKIPPED)"
+    return 0
+  fi
+  ( cd "$1" && node "$PACKAGE_HELPER" reconcile "$2" ) > "$TMP/stdout.txt" 2> "$TMP/stderr.txt" \
+    || fail "$3: package-state reconcile failed; stderr: $(cat "$TMP/stderr.txt")"
+  ok "$3: package-state reconcile exited 0"
+}
+
+assert_framework_version() { # dir expected label where
+  local found
+  found="$(cat "$1/FRAMEWORK-VERSION")"
+  [ "$found" = "$2" ] || fail "$3: FRAMEWORK-VERSION is '$found' $4 (expected '$2')"
+  ok "$3: FRAMEWORK-VERSION is $2 $4"
+}
+
+assert_framework_version_committed() { # dir expected label
+  local found
+  found="$(git -C "$1" show HEAD:FRAMEWORK-VERSION)"
+  [ "$found" = "$2" ] || fail "$3: the commit carries FRAMEWORK-VERSION '$found' (expected '$2')"
+  ok "$3: the commit carries FRAMEWORK-VERSION $2"
+}
+
+# The explicit post-verification bump (`/sekai-upgrade` step 9 / UPGRADE.md step 8),
+# including the assertion that step now makes rather than assuming its write took.
+bump_framework_version() { # dir target label
+  printf '%s\n' "$2" > "$1/FRAMEWORK-VERSION"
+  [ "$(cat "$1/FRAMEWORK-VERSION")" = "$2" ] \
+    || fail "$3: the documented bump assertion would not have caught a failed write"
+  git -C "$1" add -- FRAMEWORK-VERSION
+  git -C "$1" commit -q -m "chore: FRAMEWORK-VERSION -> $2"
+}
+
+case_framework_version_survives_merge() { # workdir
+  local work="$1" fw inst state
+  fw="$work/fw"
+  inst="$work/instance"
+  mkdir -p "$work"
+  build_version_framework "$fw" versioned
+
+  git clone -q "$fw" "$inst"
+  configure_repo "$inst"
+  git -C "$inst" checkout -q -B main fw-v1
+  git -C "$inst" rm -q -f .sekai-template
+  printf 'v7.0.0\n' > "$inst/VERSION"
+  write_npm_manifests "$inst" "example-instance" versioned "7.0.0"
+  # FRAMEWORK-VERSION is deliberately NOT touched here.
+  git -C "$inst" add -A
+  git -C "$inst" commit -q -m "Adopt Example framework at fw-v1"
+
+  # Fixture guards: the attribute and the driver are both in place, and the
+  # instance's FRAMEWORK-VERSION is identical to the merge base. That pair is what
+  # makes `merge=ours` insufficient, and it is the state this case exists for.
+  grep -qx 'FRAMEWORK-VERSION merge=ours' "$inst/.gitattributes" \
+    || fail "case 12: fixture guard — FRAMEWORK-VERSION is not marked merge=ours"
+  [ "$(git -C "$inst" config merge.ours.driver)" = "true" ] \
+    || fail "case 12: fixture guard — the ours driver is not configured in this clone"
+  git -C "$inst" diff --quiet fw-v1 HEAD -- FRAMEWORK-VERSION \
+    || fail "case 12: fixture guard — the instance changed FRAMEWORK-VERSION since the merge base, so merge=ours would fire and the case would prove nothing"
+  assert_framework_version "$inst" "v1.0.0" "case 12" "before the merge"
+
+  state="$(run_package_capture "$inst" "case 12")"
+
+  git -C "$inst" merge --no-edit fw-v2 >/dev/null 2>&1 || true
+
+  # The defect, pinned: with the attribute set and the driver configured, the merge
+  # still moved the file, because git never invoked the driver.
+  assert_framework_version "$inst" "v1.0.1" "case 12" "after the merge (merge=ours did not protect it)"
+
+  run_package_reconcile "$inst" "$state" "case 12"
+  assert_framework_version "$inst" "v1.0.0" "case 12" "after reconcile"
+
+  finalize_merge "$inst" "case 12"
+  assert_is_merge_commit "$inst" "case 12"
+  assert_framework_version_committed "$inst" "v1.0.0" "case 12"
+
+  # Only now, after verification, does the explicit bump move it.
+  bump_framework_version "$inst" "v1.0.1" "case 12"
+  assert_framework_version "$inst" "v1.0.1" "case 12" "after the explicit bump"
+  assert_framework_version_committed "$inst" "v1.0.1" "case 12"
+
+  # 12b — the same contract where the merge COMPLETES WITHOUT CONFLICTS, so git
+  # auto-commits it. reconcile must rewrite that commit rather than resolve an
+  # index, or the merge commit itself ships the unverified version.
+  local fw2 inst2 state2
+  fw2="$work/autocommit/fw"
+  inst2="$work/autocommit/instance"
+  mkdir -p "$work/autocommit"
+  build_version_framework "$fw2" versionless
+
+  git clone -q "$fw2" "$inst2"
+  configure_repo "$inst2"
+  git -C "$inst2" checkout -q -B main fw-v1
+  git -C "$inst2" rm -q -f .sekai-template
+  # The adopter adds only VERSION: the versionless manifests are accepted as-is, so
+  # nothing the framework also edits differs on this side and the merge is clean.
+  printf 'v7.0.0\n' > "$inst2/VERSION"
+  git -C "$inst2" add -A
+  git -C "$inst2" commit -q -m "Adopt Example framework at fw-v1 (versionless manifests)"
+
+  git -C "$inst2" diff --quiet fw-v1 HEAD -- FRAMEWORK-VERSION \
+    || fail "case 12b: fixture guard — the instance changed FRAMEWORK-VERSION since the merge base"
+  state2="$(run_package_capture "$inst2" "case 12b")"
+
+  git -C "$inst2" merge --no-edit fw-v2 >/dev/null 2>&1 || true
+  if git -C "$inst2" rev-parse -q --verify MERGE_HEAD >/dev/null 2>&1; then
+    fail "case 12b: fixture no longer auto-commits the merge, so the amend path is not exercised"
+  fi
+  assert_is_merge_commit "$inst2" "case 12b"
+  assert_framework_version_committed "$inst2" "v1.0.1" "case 12b (the auto-committed merge, before reconcile)"
+
+  run_package_reconcile "$inst2" "$state2" "case 12b"
+  assert_framework_version "$inst2" "v1.0.0" "case 12b" "after reconcile"
+  assert_is_merge_commit "$inst2" "case 12b"
+  assert_framework_version_committed "$inst2" "v1.0.0" "case 12b"
+  local dirty
+  dirty="$(git -C "$inst2" status --porcelain)"
+  [ -z "$dirty" ] || fail "case 12b: reconcile left the amended merge uncommitted: $(echo "$dirty" | tr '\n' ' ')"
+  ok "case 12b: reconcile amended the merge commit itself (working tree clean)"
+
+  bump_framework_version "$inst2" "v1.0.1" "case 12b"
+  assert_framework_version_committed "$inst2" "v1.0.1" "case 12b"
+}
+
+# ---------------------------------------------------------------------------
+# Case 12c — the instance had NO FRAMEWORK-VERSION before the merge.
+#
+# `/sekai-upgrade` step 0 names this state explicitly ("no FRAMEWORK-VERSION
+# (pre-wizard instance)"), and it is the other half of DoD 2's contract: restoring
+# an absent file means removing whatever the merge introduced. It exercises a
+# distinct `frameworkVersion === null` branch, so a regression there would leave
+# every present-value fixture green while a pre-wizard instance silently gained the
+# incoming version before anything verified it.
+# ---------------------------------------------------------------------------
+case_framework_version_absent_stays_absent() { # workdir
+  local work="$1" fw inst state
+  fw="$work/fw"
+  inst="$work/instance"
+  mkdir -p "$work"
+  build_version_framework "$fw" versionless
+
+  git clone -q "$fw" "$inst"
+  configure_repo "$inst"
+  git -C "$inst" checkout -q -B main fw-v1
+  git -C "$inst" rm -q -f .sekai-template
+  git -C "$inst" rm -q -f FRAMEWORK-VERSION
+  printf 'v7.0.0\n' > "$inst/VERSION"
+  git -C "$inst" add -A
+  git -C "$inst" commit -q -m "Adopt Example framework at fw-v1 without a FRAMEWORK-VERSION"
+
+  [ ! -e "$inst/FRAMEWORK-VERSION" ] \
+    || fail "case 12c: fixture guard — the instance still carries a FRAMEWORK-VERSION"
+  state="$(run_package_capture "$inst" "case 12c")"
+  grep -q '"frameworkVersion": null' "$state" \
+    || fail "case 12c: capture did not record the absent FRAMEWORK-VERSION as null: $(cat "$state")"
+  ok "case 12c: capture recorded the absent FRAMEWORK-VERSION as null"
+
+  git -C "$inst" merge --no-edit fw-v2 >/dev/null 2>&1 || true
+  [ -e "$inst/FRAMEWORK-VERSION" ] \
+    || fail "case 12c: fixture guard — the merge did not bring FRAMEWORK-VERSION in, so there is nothing to remove"
+  ok "case 12c: the merge re-introduced FRAMEWORK-VERSION into an instance that had none"
+
+  run_package_reconcile "$inst" "$state" "case 12c"
+  [ ! -e "$inst/FRAMEWORK-VERSION" ] \
+    || fail "case 12c: FRAMEWORK-VERSION survives in the working tree after reconcile (expected absent)"
+  [ -z "$(git -C "$inst" ls-files -- FRAMEWORK-VERSION)" ] \
+    || fail "case 12c: FRAMEWORK-VERSION is still tracked in the index after reconcile"
+  ok "case 12c: reconcile removed the FRAMEWORK-VERSION the merge introduced"
+
+  finalize_merge "$inst" "case 12c"
+  assert_is_merge_commit "$inst" "case 12c"
+  [ -z "$(git -C "$inst" ls-tree -r --name-only HEAD -- FRAMEWORK-VERSION)" ] \
+    || fail "case 12c: the finalized merge commit carries a FRAMEWORK-VERSION the instance never adopted"
+  ok "case 12c: the merge commit carries no FRAMEWORK-VERSION"
+
+  # The explicit post-verification bump is what creates it for the first time.
+  bump_framework_version "$inst" "v1.0.1" "case 12c"
+  assert_framework_version "$inst" "v1.0.1" "case 12c" "after the explicit bump"
+  assert_framework_version_committed "$inst" "v1.0.1" "case 12c"
+}
+
+# ---------------------------------------------------------------------------
+# Documented-bootstrap contract — the flags the adopter-facing docs tell a user to
+# run must be flags the helper actually accepts.
+#
+# The prose in `.agents/skills/sekai-upgrade/SKILL.md` and
+# `docs/runbook/UPGRADE.md` states something about this code: which options the
+# first-upgrade bootstrap passes. Derive that statement from the option parser
+# instead of trusting it (guard-or-explain: a doc that states a CLI form must fail
+# CI when the CLI changes under it).
+# ---------------------------------------------------------------------------
+UPGRADE_DOCS="$ROOT/.agents/skills/sekai-upgrade/SKILL.md $ROOT/docs/runbook/UPGRADE.md"
+
+# The accepted options of ONE command, read out of the helper's COMMAND_OPTIONS
+# literal. Scoping the extraction to that block is load-bearing: the helper's source
+# is full of single-quoted git arguments (`--quiet`, `--verify`, `--ignore-unmatch`,
+# `--no-edit`, ...), and a grep over the whole file would report them as accepted CLI
+# options, so the guard would pass on a document telling a user to run a command that
+# exits 2. Per command, because `--from-tag` is deliberately not an option of
+# `reconcile`.
+accepted_options_for() { # command
+  awk -v cmd="$1" '
+    /^const COMMAND_OPTIONS = \{/ { inblock = 1; next }
+    inblock && /^\};/            { inblock = 0 }
+    inblock && $0 ~ ("^  " cmd ": \\{")  { print }
+  ' "$MDOCS_HELPER_SRC" | grep -o -- "'--[a-z-]*'" | tr -d "'" | sort -u
+}
+
+case_documented_flags_exist() {
+  local doc line cmd flag flags accepted used probe
+
+  # Non-vacuity: the helper really does contain single-quoted arguments that are NOT
+  # CLI options. Pin one, so a derivation that widens back to "every quoted string"
+  # is caught here rather than by a user whose documented command exits 2.
+  probe='--ignore-unmatch'
+  grep -q -- "'$probe'" "$MDOCS_HELPER_SRC" \
+    || fail "documented flags: the non-vacuity probe '$probe' is gone from the helper; pin another internal git argument"
+  for cmd in classify reconcile paths; do
+    if accepted_options_for "$cmd" | grep -qx -- "$probe"; then
+      fail "documented flags: '$cmd' accepts the internal git argument $probe, so the option set is not derived from COMMAND_OPTIONS"
+    fi
+  done
+  ok "documented flags: the derived option set excludes the helper's internal git arguments"
+
+  # `--from-tag` belongs to classify and not to reconcile; derive both facts rather
+  # than restating them, so the table and this guard cannot disagree.
+  accepted_options_for classify | grep -qx -- '--from-tag' \
+    || fail "documented flags: COMMAND_OPTIONS no longer gives classify --from-tag"
+  if accepted_options_for reconcile | grep -qx -- '--from-tag'; then
+    fail "documented flags: COMMAND_OPTIONS gives reconcile --from-tag; reconcile must derive from the merged tree"
+  fi
+
+  for doc in $UPGRADE_DOCS; do
+    [ -f "$doc" ] || fail "documented flags: $doc is missing"
+    used=""
+    # Every line that INVOKES the helper. Both documents bootstrap it into a
+    # `$MDOCS_HELPER` variable first, so matching the filename instead would pick up
+    # the `git rev-parse --git-dir` on the extraction line.
+    while IFS= read -r line; do
+      [ -n "$line" ] || continue
+      cmd="$(printf '%s' "$line" | sed -n 's/.*node "\$MDOCS_HELPER" *\([a-z][a-z-]*\).*/\1/p')"
+      [ -n "$cmd" ] || fail "documented flags: $(basename "$doc") invokes the helper with no subcommand: $line"
+      accepted="$(accepted_options_for "$cmd")"
+      # `|| true`: an invocation with no options is normal (`reconcile` takes none
+      # here), and a grep that matches nothing exits 1, which `set -e` would turn
+      # into a silent abort of the whole run.
+      flags="$(printf '%s' "$line" | grep -o -- '--[a-z-]*' || true)"
+      for flag in $flags; do
+        printf '%s\n' "$accepted" | grep -qx -- "$flag" \
+          || fail "documented flags: $(basename "$doc") tells the user to pass $flag to \`$cmd\`, which its option table does not accept"
+      done
+      used="$used $cmd:$(printf '%s' "$flags" | paste -sd ',' -)"
+    done <<EOF
+$(grep -- 'node "$MDOCS_HELPER"' "$doc")
+EOF
+    [ -n "$used" ] || fail "documented flags: $(basename "$doc") has no helper invocation to check"
+    case "$used" in
+      *"classify:"*"--from-tag"*) ;;
+      *) fail "documented flags: $(basename "$doc") no longer passes --from-tag to classify, so the first-upgrade bootstrap it documents cannot derive the path set" ;;
+    esac
+  done
+  ok "documented flags: both upgrade documents pass only options the invoked command accepts, and both still pass --from-tag to classify"
+}
+
+# The parser must enforce what the table declares, not merely describe it.
+case_reconcile_rejects_from_tag() { # workdir
+  local work="$1" inst
+  inst="$work/instance"
+  mkdir -p "$work"
+  init_repo "$inst"
+  lay_instance_skeleton "$inst"
+  write_instance_agents_md "$inst/AGENTS.md" no-reference
+  git -C "$inst" add -A
+  git -C "$inst" commit -q -m "Example instance"
+
+  run_mdocs "$inst" reconcile --from-tag fw-v2
+  [ "$HELPER_STATUS" -eq 2 ] \
+    || fail "reconcile options: reconcile --from-tag exited $HELPER_STATUS (expected 2); stdout: '$HELPER_OUT'; stderr: '$HELPER_ERR'"
+  printf '%s' "$HELPER_ERR" | grep -qi 'merged' \
+    || fail "reconcile options: the rejection does not explain that reconcile derives from the merged tree: $HELPER_ERR"
+  ok "reconcile options: reconcile --from-tag exits 2 and explains the merged-tree derivation"
+
+  run_mdocs "$inst" classify --from-tag no-such-tag
+  [ "$HELPER_STATUS" -eq 3 ] \
+    || fail "reconcile options: classify --from-tag on an unknown tag exited $HELPER_STATUS (expected 3); stderr: '$HELPER_ERR'"
+  ok "reconcile options: classify --from-tag on an unknown tag exits 3, not a silent empty set"
+}
+
+# ---------------------------------------------------------------------------
 # Runners
 # ---------------------------------------------------------------------------
 
@@ -1379,7 +1882,22 @@ run_all_cases() {
   echo "── case 10: maintainer docs — owned but unprotected (must stop) ──"
   case_mdocs_owned_unprotected "$TMP/case10"
   echo ""
-  echo "✅ upgrade-state check passed: dev-plugin state (stripped / installed / mixed exit 3) and maintainer-doc state (per-path owned / stripped, unprotected stop) hold on all ten fixtures."
+  echo "── case 11: maintainer docs — first upgrade to the release that introduces the strip list ──"
+  case_mdocs_first_upgrade_from_tag "$TMP/case11"
+  echo ""
+  echo "── case 12: FRAMEWORK-VERSION survives the merge, bumps only after verification ──"
+  case_framework_version_survives_merge "$TMP/case12"
+  echo ""
+  echo "── case 12c: an instance that had NO FRAMEWORK-VERSION does not gain one ──"
+  case_framework_version_absent_stays_absent "$TMP/case12c"
+  echo ""
+  echo "── option contract: reconcile rejects --from-tag ──"
+  case_reconcile_rejects_from_tag "$TMP/case-options"
+  echo ""
+  echo "── documented bootstrap: the docs' helper options are options the parser accepts ──"
+  case_documented_flags_exist
+  echo ""
+  echo "✅ upgrade-state check passed: dev-plugin state (stripped / installed / mixed exit 3), maintainer-doc state (per-path owned / stripped, unprotected stop, tag-derived first upgrade) and the FRAMEWORK-VERSION bump contract, present and absent, hold on all thirteen fixtures."
 }
 
 # Run one case with reconcile skipped, in a subshell whose EXIT trap is cleared
@@ -1407,7 +1925,10 @@ run_selftest() {
   expect_case_to_fail case_mdocs_owned_preserved "$TMP/selftest-case8" "case 8 (maintainer docs, fully owned)"
   expect_case_to_fail case_mdocs_partially_owned "$TMP/selftest-case9" "case 9 (maintainer docs, partially owned)"
   expect_case_to_fail case_mdocs_owned_unprotected "$TMP/selftest-case10" "case 10 (maintainer docs, owned but unprotected)"
-  echo "✅ SELFTEST OK: cases 1, 2, 6, 7, 8, 9 and 10 all fail when reconcile is skipped."
+  expect_case_to_fail case_mdocs_first_upgrade_from_tag "$TMP/selftest-case11" "case 11 (maintainer docs, first upgrade from tag)"
+  expect_case_to_fail case_framework_version_survives_merge "$TMP/selftest-case12" "case 12 (FRAMEWORK-VERSION survives the merge)"
+  expect_case_to_fail case_framework_version_absent_stays_absent "$TMP/selftest-case12c" "case 12c (absent FRAMEWORK-VERSION stays absent)"
+  echo "✅ SELFTEST OK: cases 1, 2, 6, 7, 8, 9, 10, 11, 12 and 12c all fail when reconcile is skipped."
 }
 
 main() {

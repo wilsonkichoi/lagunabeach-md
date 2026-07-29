@@ -81,7 +81,12 @@ are the authoritative record; `.gitattributes` in each repository is the operati
   upgrade time instead of being silently dropped by `merge=ours`.
 - The `merge=ours` list is now: `place.config.ts`, `knowledge/**`, `public/media/**`,
   `CNAME`, `CLAUDE.md`, `AGENTS.md`, `README.md`, `CHANGELOG.md`, `VERSION`, `FRAMEWORK-VERSION`, `docs/baselines/**`,
-  `scripts/ci/genericity-denylist.local.txt`, `.agent-toolkit/**`.
+  `scripts/ci/genericity-denylist.local.txt`, `.agent-toolkit/**`, `docs/PRD.md`,
+  `docs/SPEC.md`, `docs/ROADMAP.md`, `docs/adr/**`.
+  (The last four were added by ADR 008's ownership split: an instance that keeps its
+  own documents at the framework's maintainer-doc paths owns them, and the attribute
+  ships with the framework so that instance is protected from its first merge onward.
+  They are inert for a wizard-adopted instance, which has nothing at those paths.)
 
 ## Addendum (2026-07-26): CHANGELOG.md is instance-owned history
 
@@ -98,8 +103,14 @@ replaces the template's framework changelog with a new instance changelog. `/sek
 continues to read the target framework release notes directly from the immutable tag via
 `git show <tag>:CHANGELOG.md`; it never reconciles or overwrites the instance changelog.
 `FRAMEWORK-VERSION` remains separate and records only which framework tag is adopted. It
-also carries `merge=ours`: a tag merge preserves the old value, then `/sekai-upgrade` updates
-it explicitly after the merged site passes verification.
+also carries `merge=ours`, and that attribute alone does **not** preserve it: a merge
+driver runs only on a three-way content merge, so an instance whose copy still equals the
+merge base has git resolve to theirs without consulting the driver. Preservation is
+therefore explicit — `/sekai-upgrade` captures the pre-merge value before merging and
+restores it immediately after (`scripts/upgrade/package-state.mjs`), then updates it after
+the merged site passes verification. Corrected 2026-07-29 (LB-67); the original text
+attributed the preservation to the attribute, which instance #1's first real upgrade
+disproved.
 
 `VERSION` separately records the adopter's own release. It carries `merge=ours` and is
 never changed by `/sekai-upgrade` (ADR 007).
