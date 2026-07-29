@@ -35,16 +35,13 @@ scripts/ci/genericity-denylist.local.txt merge=ours
 # tag-merge must never overwrite it with the framework's own dev config or rules.
 .agent-toolkit/** merge=ours
 
-# Planning documents (ADR 008, in sekai-kb): sekai-kb carries the framework's own
-# PRD, SPEC, ROADMAP, and ADRs at these exact paths. This instance carries ITS OWN
-# documents there — product intent for lagunabeach.md, the instance spec, the
-# instance delivery plan, and the rebuild-era ADRs 001-002. Without merge=ours a
-# framework tag-merge replaces all four with the framework's copies.
-#
-# Note the division of labour with /sekai-upgrade's maintainer-doc reconcile: that
-# pass keeps a *wizard-adopted* instance's absence of these paths intact, and stops
-# the upgrade when an instance owns one of them unprotected. It never substitutes
-# for the attribute — these four lines are what make the merge keep our text.
+# Maintainer-doc paths (ADR 008). The init wizard strips the framework's own copies,
+# so most instances have nothing here and these lines are inert. An instance that
+# keeps its OWN product, architecture, delivery, or decision records at these paths
+# is a legitimate state, and its documents are never the framework's to overwrite —
+# shipping the attribute means such an instance is protected by default instead of
+# having to remember to add it before its next merge. Absence is a different problem
+# that no attribute can solve; scripts/upgrade/maintainer-docs-state.mjs owns it.
 docs/PRD.md merge=ours
 docs/SPEC.md merge=ours
 docs/ROADMAP.md merge=ours

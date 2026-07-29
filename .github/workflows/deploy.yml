@@ -49,6 +49,14 @@ jobs:
         run: bash scripts/ci/check-skills-gated.sh
       - name: Self-test — the scan-root docs guard fails on doc, script, and anchor drift
         run: bash scripts/ci/check-scan-root-docs-selftest.sh
+      # ADR 008: the maintainer docs adoption strips, the instance-owned merge=ours
+      # list, and the build-pipeline job lists are all derived from their sources and
+      # compared against the prose that restates them; nothing an adopter keeps may
+      # link into a stripped path.
+      - name: Framework maintainer-doc contract (strip list, dangling links, derived enumerations)
+        run: npm run framework-docs
+      - name: Self-test — the maintainer-doc guard fails on every planted defect class
+        run: npm run framework-docs:selftest
 
   test:
     name: Test
@@ -137,10 +145,17 @@ jobs:
       # Upgrade determinism: a framework tag merge must preserve the instance's
       # dev-plugin state — stripped stays stripped on shared AND unrelated history,
       # installed keeps its adopter-owned config byte-for-byte, and either
-      # inconsistent state stops the upgrade (ADR 006 addendum). The harness builds
-      # disposable git repos and drives the same scripts/upgrade/ helper users run,
+      # inconsistent state stops the upgrade (ADR 006 addendum) — and its
+      # maintainer-doc state, classified per path, where an absent path stays absent
+      # and a path the instance owns is never deleted or overwritten (ADR 008
+      # addendum), including the first upgrade to the release that introduces the
+      # strip list, where the path set can only come from the tag. It must also
+      # preserve FRAMEWORK-VERSION: `merge=ours` does not fire on a file the instance
+      # has not edited since the merge base, so the value is captured and restored
+      # and only the explicit post-verification bump moves it. The harness builds
+      # disposable git repos and drives the same scripts/upgrade/ helpers users run,
       # so it is framework-owned and never guarded away on an adopter.
-      - name: Upgrade dev-plugin state regressions
+      - name: Upgrade state regressions (dev-plugin, maintainer docs, FRAMEWORK-VERSION)
         run: |
           git config --global user.email "ci@example.invalid"
           git config --global user.name "CI"

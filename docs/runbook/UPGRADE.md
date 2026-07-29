@@ -5,7 +5,10 @@ flow for non-AI users; the `/sekai-upgrade` skill (`.agents/skills/sekai-upgrade
 identical steps for an AI CLI. Keep the two in sync.
 
 Instances track the sekai-kb framework by merging **immutable release tags, never
-framework `main`** (ADR 004, SPEC §Repo topology). A tag is reproducible: everyone
+framework `main`** — the tagged-release decision and the repo-topology contract behind
+it live with the framework's own decision records in the
+[sekai-kb repository](https://github.com/wilsonkichoi/sekai-kb), which adoption does not
+copy into your instance. A tag is reproducible: everyone
 at `sekai-kb-v1.2.3` has byte-identical
 framework code, and the merge is deterministic because instance-owned files carry
 `.gitattributes merge=ours`.
@@ -30,8 +33,10 @@ tag as the computed base.
 `git replace --graft` would fake an ancestor without a merge commit, but graft
 refs are local — they do not survive a fresh clone or reach CI, so the instance
 would build differently for every contributor. A merge commit is permanent,
-pushed, and identical for everyone. That determinism is the whole point (SPEC
-`Risk controls`, item 4), so the merge wins over the graft.
+pushed, and identical for everyone. That determinism is the whole point (the
+framework SPEC's §Risk controls, "Two-repo drift", upstream in the
+[sekai-kb repository](https://github.com/wilsonkichoi/sekai-kb)), so the merge wins
+over the graft.
 
 Run once, from the instance repo root (already done for the first instance in task
 5.4 — this is the reproducible record):
@@ -61,22 +66,37 @@ test -f "$HELPER" || { HELPER="$(git rev-parse --git-dir)/sekai-dev-plugin-state
   git show "$TARGET":scripts/upgrade/dev-plugin-state.mjs > "$HELPER"; }
 STATE="$(node "$HELPER" classify)" && echo "dev-plugin state: $STATE"
 
-# 4. Capture adopter-owned package identity before the mixed-ownership manifests
-#    merge. For the first upgrade to a release carrying this helper, extract it
-#    from that target tag into .git, as shown for the dev-plugin helper above.
+# 4. Classify maintainer-doc state BEFORE merging (see "Maintainer-doc state"
+#    below). Same extraction pattern for a target that predates the helper.
+#    --from-tag takes the path set from the release you are merging, while path
+#    presence is still read from your working tree. On the FIRST upgrade to a
+#    release that introduces that list, your tree's scripts/init/writer.mjs still
+#    predates it, so without the flag this exits 3 and cannot classify at all.
+MDOCS_HELPER=scripts/upgrade/maintainer-docs-state.mjs
+test -f "$MDOCS_HELPER" || { MDOCS_HELPER="$(git rev-parse --git-dir)/sekai-maintainer-docs-state.mjs"; \
+  git show "$TARGET":scripts/upgrade/maintainer-docs-state.mjs > "$MDOCS_HELPER"; }
+node "$MDOCS_HELPER" classify --from-tag "$TARGET"
+
+# 4b. Capture adopter-owned package identity, and the pre-merge FRAMEWORK-VERSION,
+#     before the mixed-ownership manifests merge. For the first upgrade to a
+#     release carrying this helper, extract it from that target tag into .git, as
+#     shown for the dev-plugin helper above.
 PACKAGE_HELPER=scripts/upgrade/package-state.mjs
 test -f "$PACKAGE_HELPER" || { PACKAGE_HELPER="$(git rev-parse --git-dir)/sekai-package-state.mjs"; \
   git show "$TARGET":scripts/upgrade/package-state.mjs > "$PACKAGE_HELPER"; }
 PACKAGE_STATE="$(node "$PACKAGE_HELPER" capture)"
-#    Exit 3 = inconsistent state (only one half of the dev workflow present):
-#    stop here and repair it deliberately, as the diagnostic says.
+#    Exit 3 = inconsistent state (only one half of the dev workflow present), or a
+#    maintainer-doc path set that could not be derived: stop here and repair it
+#    deliberately, as the diagnostic says.
 
 # 5. The first merge — the ONLY one that needs --allow-unrelated-histories:
 git merge --allow-unrelated-histories "$TARGET"
 
-# 6. Reconcile dev-plugin and package state immediately after the merge command,
-#    whether it stopped on conflicts or completed on its own:
+# 6. Reconcile dev-plugin, maintainer-doc, and package state immediately after the
+#    merge command, whether it
+#    stopped on conflicts or completed on its own:
 node "$HELPER" reconcile --state "$STATE"
+node "$MDOCS_HELPER" reconcile
 node "$PACKAGE_HELPER" reconcile "$PACKAGE_STATE"
 ```
 
@@ -136,7 +156,12 @@ Build-verify, finalize, record the version:
 ```bash
 npm run build
 git commit --no-edit
+# Until this line FRAMEWORK-VERSION still holds the OLD value that step 6 restored.
+# Assert the bump instead of assuming the write took: a silent failure here leaves
+# your instance reporting a framework version it never adopted.
 printf '%s\n' "$TARGET_VERSION" > FRAMEWORK-VERSION
+test "$(cat FRAMEWORK-VERSION)" = "$TARGET_VERSION" \
+  || { echo "STOP: FRAMEWORK-VERSION is not $TARGET_VERSION after the bump"; exit 1; }
 git add FRAMEWORK-VERSION && git commit -m "chore: FRAMEWORK-VERSION -> $TARGET_VERSION"
 ```
 
@@ -174,7 +199,21 @@ test -f "$HELPER" || { HELPER="$(git rev-parse --git-dir)/sekai-dev-plugin-state
   git show "$TARGET":scripts/upgrade/dev-plugin-state.mjs > "$HELPER"; }
 STATE="$(node "$HELPER" classify)" && echo "dev-plugin state: $STATE"
 
-# 4b. Capture adopter-owned package identity and version before merging.
+# 4b. Classify maintainer-doc state BEFORE merging (see "Maintainer-doc state"
+#     below). Per path, so owning one of those paths and not the others is fine.
+#     --from-tag takes the path set from the release being merged; presence still
+#     comes from your working tree. Exit 3 = the path set could not be derived:
+#     stop rather than merge blind.
+MDOCS_HELPER=scripts/upgrade/maintainer-docs-state.mjs
+test -f "$MDOCS_HELPER" || { MDOCS_HELPER="$(git rev-parse --git-dir)/sekai-maintainer-docs-state.mjs"; \
+  git show "$TARGET":scripts/upgrade/maintainer-docs-state.mjs > "$MDOCS_HELPER"; }
+node "$MDOCS_HELPER" classify --from-tag "$TARGET"
+
+# 4c. Capture adopter-owned package identity and version, and the pre-merge
+#     FRAMEWORK-VERSION, before merging. merge=ours cannot hold FRAMEWORK-VERSION
+#     on its own: a merge driver runs only on a three-way content merge, so if you
+#     have not edited the file since the merge base git fast-forwards the incoming
+#     value in and the file claims a release nothing has verified yet.
 PACKAGE_HELPER=scripts/upgrade/package-state.mjs
 test -f "$PACKAGE_HELPER" || { PACKAGE_HELPER="$(git rev-parse --git-dir)/sekai-package-state.mjs"; \
   git show "$TARGET":scripts/upgrade/package-state.mjs > "$PACKAGE_HELPER"; }
@@ -183,13 +222,20 @@ PACKAGE_STATE="$(node "$PACKAGE_HELPER" capture)"
 # 5. Merge the tag (never main). merge=ours keeps your content/config.
 git merge --no-ff "$TARGET" -m "chore: upgrade framework to $TARGET"
 
-# 6. Reconcile dev-plugin state, immediately after the merge command — whether it
-#    stopped on conflicts or completed on its own. Stripped: the framework's
-#    .agent-toolkit/ is removed again (conflicts and additions alike) so you never
-#    resolve a dev-plugin conflict by hand. Installed: nothing is touched; your
-#    config and rules are asserted byte-for-byte unchanged, and any framework path
-#    the merge ADDED under .agent-toolkit/ is reported for you to keep or remove.
+# 6. Reconcile dev-plugin, maintainer-doc, and package state immediately after the
+#    merge command — whether it stopped on conflicts or completed on its own.
+#    Stripped: the framework's .agent-toolkit/ is removed again (conflicts and
+#    additions alike) so you never resolve a dev-plugin conflict by hand.
+#    Installed: nothing is touched; your config and rules are asserted
+#    byte-for-byte unchanged, and any framework path the merge ADDED under
+#    .agent-toolkit/ is reported for you to keep or remove. The maintainer-doc
+#    reconcile applies the same rule per path: absent stays absent, yours stays
+#    yours, and it stops if the merge touched a document you own. The package
+#    reconcile also puts your pre-merge FRAMEWORK-VERSION back, so after this it
+#    still reads the version you were on — step 8 is what changes it.
+#    reconcile needs no --from-tag: the wizard in your tree is the tag's by now.
 node "$HELPER" reconcile --state "$STATE"
+node "$MDOCS_HELPER" reconcile
 node "$PACKAGE_HELPER" reconcile "$PACKAGE_STATE"
 
 # 7. If conflicts remain: they can only be framework-owned files you edited locally,
@@ -201,14 +247,21 @@ git diff --name-only --diff-filter=U
 #    git checkout --theirs <file> && git add <file>     # take framework
 #    git commit --no-edit                               # finalize the merge
 
-# 8. Build-verify, then record the newly adopted framework version.
+# 8. Build-verify, then record the newly adopted framework version. Until this
+#    point FRAMEWORK-VERSION still holds the OLD value that step 6 restored — that
+#    is the contract, not a bug. Assert the bump rather than assuming the write
+#    took effect.
 npm run build
 printf '%s\n' "$TARGET_VERSION" > FRAMEWORK-VERSION
+test "$(cat FRAMEWORK-VERSION)" = "$TARGET_VERSION" \
+  || { echo "STOP: FRAMEWORK-VERSION is not $TARGET_VERSION after the bump"; exit 1; }
 git add FRAMEWORK-VERSION && git commit -m "chore: FRAMEWORK-VERSION -> $TARGET_VERSION"
 ```
 
 **New `place.config` keys never require surgery.** Every new config key defaults
-to feature-off when absent (SPEC §place.config.ts absent-safe rule), so a release
+to feature-off when absent (the framework SPEC's §Negative requirements, "New
+`place.config` keys must be absent-safe", upstream in the
+[sekai-kb repository](https://github.com/wilsonkichoi/sekai-kb)), so a release
 that adds `features.newthing` builds on your instance untouched; the CHANGELOG
 Upgrade note tells you what you are opting out of. Enable it by editing
 `place.config.ts` yourself when you want it — the upgrade never edits your config.
@@ -237,10 +290,28 @@ merges keep the instance's version:
 | `docs/baselines/**` | instance-captured health/visual baselines |
 | `scripts/ci/genericity-denylist.local.txt` | the place's own denylisted terms |
 | `.agent-toolkit/**` | dev-plugin state (config + promoted rules) — each repo owns its own |
+| `docs/PRD.md` | your own product doc, if you keep one at the framework's maintainer-doc path |
+| `docs/SPEC.md` | your own architecture doc, same path, same rule |
+| `docs/ROADMAP.md` | your own delivery doc, same path, same rule |
+| `docs/adr/**` | your own decision records, same path, same rule |
+
+The last four are inert for most instances: the wizard strips the framework's
+copies, so there is nothing at those paths to protect. They matter for an instance
+that writes its **own** documents there, which the maintainer-doc split explicitly
+allows — the attribute ships with the framework so such an instance is protected
+from its first merge onward rather than having to remember. Their *absence* is a
+different problem the attribute cannot solve; see "Maintainer-doc state" below.
 
 Adopters add their own instance-specific files to `.gitattributes` the same way.
 The list is append-only from the framework baseline; the framework never removes a
 `merge=ours` entry, so an upgrade cannot start overwriting a file you own.
+
+**`merge=ours` also does nothing on a file you have not edited.** The driver runs
+only on a three-way content merge. If your copy is identical to the merge base and
+the framework changed its copy, git resolves to theirs without consulting the
+driver at all. That is why `FRAMEWORK-VERSION` is captured before the merge and
+restored after it (steps 4c and 6) instead of being left to the attribute: it must
+still read the version you were on until the explicit post-verification bump.
 
 `package.json` and `package-lock.json` are mixed-ownership files, so they do not
 use `merge=ours`. Sekai owns scripts, dependencies, and lock resolution. The
@@ -268,7 +339,8 @@ it is why the flows above carry a classify step and a reconcile step.
 
 `AGENTS.md` and `.agent-toolkit/**` are the dev-plugin's own files, and whether the
 dev workflow is installed is **persistent instance state** the upgrade preserves in
-either direction (ADR 006 addendum, SPEC §Repo topology). `/sekai-upgrade` and the flows
+either direction (recorded in the framework's decision records upstream).
+`/sekai-upgrade` and the flows
 above classify it before merging with
 `node scripts/upgrade/dev-plugin-state.mjs classify`:
 
@@ -286,6 +358,44 @@ config and reference, is the only way in. A framework or first-instance checkout
 that keeps its own `.agent-toolkit/` is `installed` and relies on `merge=ours` so a
 framework tag never replaces its dev config with the framework's.
 
+## Maintainer-doc state — classified on every upgrade
+
+The framework keeps its own maintainer documents — its product, architecture,
+delivery, and decision records — beside the code they govern, and `npm run init`
+removes them from your clone: they describe how the framework is built, never how
+your instance is operated. Your editorial playbook and this runbook are adopter
+docs and always stay.
+
+Their absence has the same problem as an absent `.agent-toolkit/`: `merge=ours`
+cannot protect a path you do not have, so without a reconcile step every release
+that touched those documents would put the framework's copies back in your tree.
+`node scripts/upgrade/maintainer-docs-state.mjs classify` records the split before
+the merge, **per path** — the paths are independent, and there is no inconsistent
+state to stop on:
+
+| Per-path state | Means | The upgrade does |
+| -------------- | ----- | ---------------- |
+| `stripped` | you have no document at that path (every wizard-adopted instance, for every path) | Keeps it absent. `reconcile` removes whatever the merge introduced there — conflicted or cleanly added — and amends the merge commit if the merge already committed. You never resolve one of these conflicts by hand. |
+| `owned` | you keep your own document at that path | Keeps yours. `reconcile` asserts it came through byte-for-byte and never deletes it, then reports any framework file the merge *added* underneath it for you to keep or `git rm -f`. |
+
+Owning some of these paths and not others is a normal state and never stops the
+upgrade. What does stop it is an owned path the merge **changed or conflicted**:
+that means the path is not marked `merge=ours` in your `.gitattributes`, or
+`merge.ours.driver` is not set in this clone. Both repairs are named in the
+diagnostic, along with the undo that works from where you are: `git merge --abort`
+while the merge is still in progress, `git reset --hard ORIG_HEAD` once git has
+committed it (which it does when the framework's edits applied without a conflict).
+The upgrade never lets the framework's copy overwrite a document you wrote.
+
+The path set is derived from the init wizard's own strip list at runtime rather
+than restated, so the upgrade cannot disagree with what adoption removed; if that
+list cannot be read, the helper stops instead of assuming there is nothing to
+protect. `--from-tag "$TARGET"` is what makes that derivation work on the **first**
+upgrade to a release that introduces the list: extracting the helper from the tag
+is not enough, because it reads `scripts/init/writer.mjs`, and on exactly that
+upgrade your tree's copy still predates the export. Pass the flag on every
+`classify` — the release you are merging is the authority on what it strips.
+
 ## Reconciling instance-owned starter files (every upgrade)
 
 `merge=ours` keeps your version of an instance-owned file and **silently drops the
@@ -299,8 +409,8 @@ reconciling it. After a merge, diff each content-bearing starter against the tag
 decide, file by file, whether to pull any framework improvement in (the `/sekai-upgrade`
 skill does this conversationally):
 
-`FRAMEWORK-VERSION` is merge-protected for a different reason: the merge keeps the old
-value, then the final upgrade step bumps it only after verification succeeds.
+`FRAMEWORK-VERSION` is not reconciled here: step 6 already restored the value you
+were on, and the final upgrade step bumps it only after verification succeeds.
 
 ```bash
 # Show where your AGENTS.md diverges from the tag you just merged, then read both
