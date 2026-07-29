@@ -187,7 +187,11 @@ CHANGELOG and read from the target tag at upgrade time.
   a merge driver runs only on a three-way content merge, so the incoming value otherwise
   wins. `/sekai-upgrade` captures the pre-merge value and restores it after the merge
   (`scripts/upgrade/package-state.mjs`, from `sekai-kb-v1.0.15`), then bumps it explicitly
-  after successful verification.
+  after successful verification. That capture only fires because every upgrade helper is
+  bootstrapped from the **target tag** rather than the instance's own tree copy
+  (`sekai-kb-v1.0.16`): the tree copy shipped with the release being left, so the earlier
+  tree-first form ran a pre-capture helper on exactly the upgrade that introduced the
+  capture.
 - **2026-07-19, Wilson-approved LB-44 delta:** added the dev-plugin state-persistence
   contract for framework upgrades. This corrects the false assumption that
   `.gitattributes merge=ours` preserves a deleted `.agent-toolkit/` path. ROADMAP order is

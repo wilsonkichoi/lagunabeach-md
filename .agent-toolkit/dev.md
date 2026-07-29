@@ -99,7 +99,7 @@ the same repository, which is what makes the rule decidable without a lookup tab
 
 The `sekai-kb` copy of this rule landed in
 [sekai-kb#43](https://github.com/wilsonkichoi/sekai-kb/pull/43) (LB-67, released as
-`sekai-kb-v1.0.15`, adopted by this branch), and states the same routing for
+`sekai-kb-v1.0.15`, adopted by this branch through `sekai-kb-v1.0.16`), and states the same routing for
 `/dev:execute`, `/dev:review-pr`, `/dev:verify`, `/dev:plan`, `/dev:backlog`,
 `/dev:status`, and `/dev:retro` from the framework side. The two copies must not
 disagree again. Where they do, this repository's copy governs LB commits and
@@ -148,7 +148,11 @@ since the merge base git takes the incoming value and the marker claims a releas
 has verified. What holds it is `/sekai-upgrade`'s package-state capture before the merge
 and restore after it (`scripts/upgrade/package-state.mjs`, from `sekai-kb-v1.0.15`), which
 puts the pre-merge value back; the explicit bump then happens only after verification
-succeeds. Both halves are fixture-tested by `npm run upgrade:check`.
+succeeds. That capture only runs because the upgrade bootstraps every helper from the
+**target tag**, never from the instance's tree copy (`sekai-kb-v1.0.16`) — the tree copy
+shipped with the release being left, so the tree-first form ran a pre-capture helper on
+exactly the upgrade that introduced the capture. All three halves are fixture-tested by
+`npm run upgrade:check` (cases 12 and 13).
 
 `VERSION` is the LagunaBeach.md release SSOT and also carries `merge=ours`; framework
 upgrades never change it. `FRAMEWORK-VERSION` is not LB's release and must be described
