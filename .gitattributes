@@ -13,7 +13,8 @@
 # knowledge/**, public/media/**, CNAME, CLAUDE.md, AGENTS.md, README.md, CHANGELOG.md,
 # VERSION, FRAMEWORK-VERSION,
 # docs/baselines/**, scripts/ci/genericity-denylist.local.txt, and
-# .agent-toolkit/**.
+# .agent-toolkit/**. ADR 008 (in sekai-kb) adds the four planning-document paths:
+# docs/PRD.md, docs/SPEC.md, docs/ROADMAP.md, and docs/adr/**.
 # See docs/runbook/UPGRADE.md §Instance-owned files. Add your own below.
 
 place.config.ts merge=ours
@@ -33,3 +34,18 @@ scripts/ci/genericity-denylist.local.txt merge=ours
 # instance-owned — this instance carries its OWN .agent-toolkit/, so a framework
 # tag-merge must never overwrite it with the framework's own dev config or rules.
 .agent-toolkit/** merge=ours
+
+# Planning documents (ADR 008, in sekai-kb): sekai-kb carries the framework's own
+# PRD, SPEC, ROADMAP, and ADRs at these exact paths. This instance carries ITS OWN
+# documents there — product intent for lagunabeach.md, the instance spec, the
+# instance delivery plan, and the rebuild-era ADRs 001-002. Without merge=ours a
+# framework tag-merge replaces all four with the framework's copies.
+#
+# Note the division of labour with /sekai-upgrade's maintainer-doc reconcile: that
+# pass keeps a *wizard-adopted* instance's absence of these paths intact, and stops
+# the upgrade when an instance owns one of them unprotected. It never substitutes
+# for the attribute — these four lines are what make the merge keep our text.
+docs/PRD.md merge=ours
+docs/SPEC.md merge=ours
+docs/ROADMAP.md merge=ours
+docs/adr/** merge=ours
