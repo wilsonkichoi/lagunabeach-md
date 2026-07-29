@@ -41,6 +41,10 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+## [1.0.15] — 2026-07-29
+
+This release hardens first-upgrade maintainer-doc classification, preserves FRAMEWORK-VERSION through merges, repairs adopter-facing upgrade references, and records cross-repository lifecycle routing.
+
 The maintainer-doc upgrade path works on a first upgrade, `FRAMEWORK-VERSION` survives the merge, and the adopter-facing upgrade documents resolve.
 
 ### Fixed
@@ -734,7 +738,8 @@ onto this tag.
 First release — nothing to upgrade from. The first instance establishes its merge
 base against this tag per `docs/runbook/UPGRADE.md` §Establishing the merge base.
 
-[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.0.14...HEAD
+[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.0.15...HEAD
+[1.0.15]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.15
 [1.0.14]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.14
 [1.0.13]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.13
 [1.0.12]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.12
