@@ -34,6 +34,10 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+## [1.0.14] — 2026-07-29
+
+The framework maintainer-doc gate accepts an instance that keeps its own documents at those paths.
+
 ### Fixed
 
 - **The maintainer-doc gate no longer rejects an instance that owns documents at those
@@ -641,7 +645,8 @@ onto this tag.
 First release — nothing to upgrade from. The first instance establishes its merge
 base against this tag per `docs/runbook/UPGRADE.md` §Establishing the merge base.
 
-[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.0.13...HEAD
+[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.0.14...HEAD
+[1.0.14]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.14
 [1.0.13]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.13
 [1.0.12]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.12
 [1.0.11]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.11
