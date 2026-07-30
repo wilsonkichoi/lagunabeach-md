@@ -21,16 +21,17 @@ so task ids (`LB-*`) are continuous across the split.
 
 | # | Milestone | Outcome | Scope (tasks) | Exit gate | Est |
 |---|---|---|---|---|---|
-| 6 | Social + engagement | Feedback (Worker + D1 + widget + triage), snippet pipeline, soundscape | 6.1a-b · 6.2 · 6.3 | Live submission → D1 → GitHub issue; maintainer recordings (6.3); phase confirm | AI 9.5h \| Human 2.5h |
+| 6 | Social + engagement | Feedback (Worker + D1 + widget + triage), snippet pipeline, soundscape | 6.1a-c · 6.2 · 6.3 · 6.4 | Live submission → D1 → GitHub issue; three real recordings and the tag adoption in 6.4; phase confirm | AI 11.75h \| Human 3h |
 | 7 | Differentiators | On-demand OG worker, RAG chat (bge-m3 + Workers AI + Claude API), QR flow | 7.1 · 7.2a-c · 7.3 | Eval set answered with citations, no hallucinated places (7.2c); phase confirm | AI 12.25h \| Human 1.75h |
 | 8 | Semiont plugin layer | Organ architecture in sekai-kb (config.json manifest, core organs); instance #1 enables core + MANIFESTO | 8.1 · 8.2 | Site builds with `semiont/` deleted; organs toggle via config only; phase confirm | AI 4.25h \| Human 0h |
 | 9 | MCP + AI delivery | Remote MCP server (`workers/mcp/`) exposing list_topics/get_article/search/semantic_search; AI-access page + `/kb/agent.md` boot file; adopter upgrade playbook proven on the first real post-cut feature release | 9.1 · 9.2 · 9.3 | An MCP client connected to the instance's `/mcp` endpoint answers a question about its place via tools, no clone; phase shipped as a sekai-kb tag → instance `/sekai-upgrade` clean (9.3); maintainer phase confirm | AI 6h \| Human 0.75h |
 | 10 | Perception (analytics) | GA4 + Search Console + Cloudflare Web Analytics live behind `features.analytics`; signal fetchers ported; dashboard analytics panels | 10.1 · 10.2 | Dashboard renders real traffic/search data from a fetch run; zero analytics IDs in `src/` outside place.config; sekai-kb tag → instance `/sekai-upgrade` clean; maintainer phase confirm | AI 4.25h \| Human 1h |
 | 11 | Autonomous routines | ROUTINE organ activated: routine contract + `/schedule` skill; embeddings/index refresh (CI); maintainer (content PR review + link/health audits); feedback-triage; data-refresh; trend-discovery; social-publish; rewrite | 11.1-11.8 | Two routines live >= 1 week shipping only via PRs, zero direct pushes to main; sekai-kb tag → instance `/sekai-upgrade` clean; maintainer phase confirm | AI 16.5h \| Human 0.75h |
 
-**Totals for these phases:** AI ≈ 52.75h | Human ≈ 6.75h. Phases 6-8 close the original
-plan (AI ≈ 26h | Human ≈ 2.5h); the extension phases 9-11 add AI ≈ 26.75h | Human ≈ 2.5h
-and roughly 1.5-2 weeks elapsed. Phases 0-5, and therefore the grand totals for the whole
+**Totals for these phases:** AI ≈ 55h | Human ≈ 7.25h. Phases 6-8 close the original
+plan (AI ≈ 28.25h | Human ≈ 3h); the extension phases 9-11 add AI ≈ 26.75h | Human ≈ 2.5h
+and roughly 1.5-2 weeks elapsed. Phase 6's numbers are the 2026-07-29 planning amendment's,
+not the original block estimates. Phases 0-5, and therefore the grand totals for the whole
 programme, are recorded in instance #1's roadmap.
 
 **Language policy:** every phase ships English-only. The framework carries no
@@ -94,12 +95,53 @@ the migrated surfaces.
 
 ---
 
+## Phase 6 planning amendment — approved 2026-07-29
+
+Records the `/dev:plan` conversion decisions for Phase 6. The blocks below carry them
+inline; this section is the rationale, and the packet bodies cite it.
+
+- **6.1b splits into 6.1b + 6.1c.** The original block bundled the widget (frontend plus a
+  `place.config` schema addition) with the triage skill (`wrangler` + `gh` ops tooling behind
+  a human-approval loop). Different surfaces, different failure modes, independently
+  verifiable, and keeping them together chained the widget behind the triage skill's manual
+  criterion. Both still depend only on 6.1a, so they run in parallel.
+- **Skill names take the `sekai-` prefix.** The block's `/snippet` and "a triage skill" become
+  `/sekai-snippet` and `/sekai-triage-feedback` (`AGENTS.md` §Skill discovery and ownership:
+  the namespace prevents collisions with adopter and tool-provided skills).
+- **6.4 is a new packet, not an untracked gate.** The milestone's exit gate is real work with
+  human steps, and Phase 5 tracked its closer the same way. It is the only Phase 6 packet
+  whose `Execution repo:` is the instance.
+- **6.3's "first three recordings" splits by repository (decision D1).** The template is a
+  fictional place and cannot own field recordings, so the framework ships three synthesized
+  demo clips that make the player and the visual bar provable, credited as synthesized rather
+  than field-recorded, and stripped by the wizard at adoption. The three real recordings are
+  6.4's instance-side work, which is where the block's Human 2h actually falls.
+- **`workers/` joins the place-name gate's instance-mode scan roots in 6.1a (decision D2).**
+  `.agent-toolkit/rules/genericity-gate-scope.md` recorded the gap as a deferral "for when
+  that tree arrives"; 6.1a is the task that makes it arrive. Whole-tree template mode hides
+  the hole in this repository, so shipping `workers/` without closing it would leave adopted
+  instances with an unguarded place-identity ingress in framework-owned code. The change is
+  one `SCAN_ROOTS` line plus the 13 statements `scripts/ci/check-scan-root-docs.mjs`
+  registers for that gate, which fails CI on any site missed.
+- **6.2 ships the runner and a manual sink, still zero platform adapters (decision D3).** The
+  queue format documents `status: posted`; with an interface alone nothing can ever set it,
+  so the lifecycle contract would ship with an unreachable state and 11.7 would inherit both
+  the runner and the first adapter. The shipped sink is not a platform client: it prints the
+  post text for the operator to paste and records the resulting URL, which is what happens
+  before any account automation exists. `docs/PRD.md`'s "no framework features for
+  hypothetical adopters" is satisfied — no platform API client is built.
+- **Estimates:** Phase 6 becomes AI ≈ 11.75h | Human ≈ 3h (was AI 9.5h | Human 2.5h), from
+  the split, 6.4, D2, and D3.
+
+---
+
 ## Detailed task blocks: Phases 6-8
 
 These are the active source blocks for `/dev:plan`. Model names are advisory and
 version-less; the maintainer chooses the session model. Every task executes in
 `sekai-kb`, ships in a tagged release, and reaches an instance through `/sekai-upgrade`
-unless its packet names an instance-owned edit.
+unless its packet names an instance-owned edit — 6.4 is the one block that does, and it
+names the instance in its own `Execution repo:` line.
 
 **Phase 6: Social + engagement**
 
@@ -117,40 +159,73 @@ unless its packet names an instance-owned edit.
     rate-limit paths are verified
   Downstream: 6.1b, 11.4
 
-[6.1b] Feedback frontend: widget + triage skill
-  Effort: M | Model: Opus | Depends: 6.1a
-  Est: AI 2h + 0.5h review
+[6.1b] Feedback frontend: widget behind features.feedback + workers.feedback
+  Effort: S | Model: Opus | Depends: 6.1a
+  Est: AI 1h + 0.25h review
   Steps:
     1. Build FeedbackWidget.astro on article pages behind features.feedback. Reuse no
        Supabase-shaped code from the inherited fork.
-    2. Build a triage skill that reads D1 through wrangler, deduplicates and classifies
-       submissions, and files GitHub issues linking the article.
-  Acceptance: a live-site submission lands in D1; triage produces a GitHub issue
-  Downstream: 11.4
+    2. Add the absent-safe workers.feedback endpoint key (wizard prompt table entry; the
+       wizard stays the single writer of place.config.ts).
+  Acceptance: a live-site submission lands in D1; the widget is absent with either the
+    flag off or the endpoint key missing
+  Downstream: 6.4
 
-[6.2] Snippet pipeline: skill + inbox + adapter interface
-  Effort: M | Model: Sonnet | Depends: framework cut
-  Est: AI 2h + 0.5h review
+[6.1c] Feedback triage: /sekai-triage-feedback (D1 -> deduplicated GitHub issues)
+  Effort: S | Model: Opus | Depends: 6.1a
+  Est: AI 1h + 0.25h review
   Steps:
-    1. Build /snippet: select article, generate short-form draft, append it to
+    1. Build the skill: read status='new' rows through wrangler, classify, deduplicate,
+       file GitHub issues linking the article, mark rows triaged with the issue URL.
+    2. Gate every write behind explicit human approval, as /sekai-seed-articles does.
+  Acceptance: triage produces a GitHub issue; a duplicate comments instead of filing a
+    second one
+  Downstream: 6.4, 11.4
+
+[6.2] Snippet pipeline: skill + inbox + adapter interface + manual-sink runner
+  Effort: M | Model: Sonnet | Depends: framework cut
+  Est: AI 2.5h + 0.5h review
+  Steps:
+    1. Build /sekai-snippet: select article, generate short-form draft, append it to
        knowledge/SNIPPET-INBOX.md with status pending. A human changes pending to approved.
     2. Define the platform-adapter interface. Add no platform adapter until an instance
        account exists; then add one adapter per platform.
-  Acceptance: /snippet <article> yields an approved-queue entry; publish posts after an
-    account and adapter are wired
-  Downstream: 11.7
+    3. Ship the runner plus a manual sink so approved -> posted is reachable without any
+       platform API (2026-07-29 amendment, decision D3).
+  Acceptance: /sekai-snippet <article> yields an approved-queue entry; the runner marks it
+    posted through the manual sink; publish posts to a platform after an account and
+    adapter are wired
+  Downstream: 6.4, 11.7
 
-[6.3] Soundscape page + first three recordings
+[6.3] Soundscape page + manifest contract + demo audio
   Effort: M | Model: Sonnet | Depends: framework cut
-  Est: AI 1.5h + 0.5h review | Human 2h (record and convert three recordings)
+  Est: AI 1.5h + 0.5h review
   Steps:
     1. Build the page from the archived soundscape template as design reference, behind
        features.soundscape.
     2. Define knowledge/sounds/ manifest entries with title, location, credit, and file.
        Use native HTML5 audio and no player library.
-    3. The maintainer supplies the first three recordings.
-  Acceptance: audio plays on mobile Safari; the page passes the visual bar
-  Downstream: none
+    3. Ship three synthesized demo clips so the player and the visual bar are provable in
+       the template; the wizard strips them at adoption. The three real recordings are
+       instance-side work in 6.4 (2026-07-29 amendment, decision D1).
+  Acceptance: audio plays on mobile Safari; the page passes the visual bar; an absent
+    manifest renders the empty state with a green build
+  Downstream: 6.4
+
+[6.4] Phase 6 exit gate: ship the tag, adopt it in the instance, go live
+  Effort: M | Model: Opus | Depends: 6.1b, 6.1c, 6.2, 6.3
+  Est: AI 1h + 0.25h review | Human 2.5h (Cloudflare setup, three recordings, confirm)
+  Execution repo: the instance (every commit); the tag is cut in sekai-kb at verify of the
+    last framework task.
+  Steps:
+    1. Cut the sekai-kb release covering 6.1a-6.3; adopt it with /sekai-upgrade (real merge
+       commit, instance-owned files untouched, FRAMEWORK-VERSION bumped after verification).
+    2. Enable features.feedback + workers.feedback + features.soundscape; deploy the
+       instance's own worker, D1, and secrets.
+    3. Record, convert, and commit the three real recordings with manifest entries.
+  Acceptance: production submission -> D1 -> real GitHub issue; three recordings play on
+    mobile Safari on the deployed site; maintainer phase confirm
+  Downstream: Phase 7 entry
 ```
 
 _Phase 6 subtotal: AI 9.5h | Human 2.5h_

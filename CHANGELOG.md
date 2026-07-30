@@ -41,6 +41,29 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+### Fixed
+
+- **The visual-baseline page list no longer hardcodes place-specific URLs.**
+  `scripts/visual/capture-baseline.mjs` sampled `/trails/top-of-the-world/` for its
+  `article` page and `/history/` for its category hub — both pre-cut slugs, so
+  `npm run visual:check` could not be green in the template (the article does not
+  exist in the demo corpus) and would break in any instance whose articles and
+  categories differ. Both are now derived: the `article` sample is the
+  lexicographically first `href` in `src/data/latest.json` and the hub is the first
+  configured category, so the list is correct for every place by construction. The
+  sample is deliberately NOT the newest article — `latest.json` is date-ordered, so
+  "newest" would change the moment an article ships and a baseline captured before
+  it would diff against a different page. Both derived URLs are printed on every
+  run and recorded in the baseline manifest. The `hub-history` page key is now `hub`.
+
+  **Upgrade note.** Local visual baselines do not carry over: the captured files are
+  named per page key, so an existing `reports/visual/baseline/hub-history-*.png` no
+  longer pairs with the `hub-*.png` this writes, and the `article` sample may now be
+  a different article than the one your baseline captured. Recapture once after
+  upgrading with `npm run visual:baseline`; nothing else changes, and the PNGs are
+  gitignored so no commit is involved. An instance passing `--pages=hub-history`
+  updates that token to `hub`.
+
 ## [1.0.16] — 2026-07-29
 
 This release runs every upgrade helper from the target release tag, so a release that changes a helper applies its own fix on the upgrade that ships it.
