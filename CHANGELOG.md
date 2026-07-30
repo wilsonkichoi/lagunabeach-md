@@ -41,6 +41,40 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+### Added
+
+- **`workers/` — the framework's first Cloudflare Worker tree, starting with
+  `workers/feedback/`.** A POST endpoint backed by D1 that stores reader feedback:
+  CORS locked to a single deploy-time `ALLOWED_ORIGIN` (never `*`; an unset var or a
+  mismatch is 403), a honeypot field that returns a real-looking success and writes
+  nothing, a per-address rate limit of `RATE_LIMIT_MAX` per genuinely rolling
+  `RATE_LIMIT_WINDOW_SECONDS` (submissions are counted per second and the seconds
+  age out individually, so no counter reset lets a second allowance through at a
+  window boundary, and a refused attempt gives its slot back so a client that waits
+  out `Retry-After` is let in rather than locked out for good), and full payload
+  validation enforced against the request
+  stream so an oversized chunked upload is a 400 rather than a buffered Worker
+  crash. Addresses are only ever stored as `sha256(address + IP_HASH_SALT)`;
+  a missing salt fails the request closed rather than hashing unsalted. The schema
+  ships as a D1 migration (`feedback` + `submission_window`), `wrangler.toml` carries
+  placeholders only, and the `node:test` unit suite runs in CI as `npm run
+  test:workers`. Operator steps are in
+  [DEPLOY.md §Cloudflare Workers](docs/runbook/DEPLOY.md). CI never deploys a worker;
+  `npx wrangler` is the documented path, so no platform-specific binary enters the
+  lockfile.
+
+### Changed
+
+- **The place-name denylist gate now scans `workers/` in instance mode.** Its
+  instance-mode roots become `src/`, `scripts/`, `tests/`, `workers/`,
+  `.agents/skills/` — the same five the English-only gate already scanned. Before
+  this, a denylisted place string under `workers/` was unguarded on an adopted
+  instance. The two gates still derive and state their root sets independently, so
+  either can gain a root without the other. `scripts/ci/check-skills-gated.sh` now
+  plants its place-string and CJK fixtures under `workers/feedback/` as well as
+  `.agents/skills/sekai-kb/`, proving in instance mode that each root is actually
+  reached by the scan rather than merely listed in `SCAN_ROOTS`.
+
 ### Fixed
 
 - **The visual-baseline page list no longer hardcodes place-specific URLs.**
