@@ -32,6 +32,11 @@
 //      is NOT the derivation source and needs none: `npm run init:check` initializes a
 //      tree and builds it, so an interface that has drifted from the config the wizard
 //      emits fails there as a type error, at the moment it would reach an adopter.
+//   5. PAGES -- the route list comes from `src/pages/`, where Astro's file-based routing
+//      already makes every file a route. SPEC ``Pages`` enumerates it, and that
+//      enumeration goes stale the moment a phase adds a page -- exactly when nobody is
+//      looking at the sentence. Non-route build outputs (`llms.txt`, `/kb/*`) sit outside
+//      the anchor because no file under `src/pages/` produces them.
 //
 // Registered statements live in documents that adoption REMOVES, so they are required
 // in template mode and reported as skipped in an adopted instance -- the same rule
@@ -70,6 +75,7 @@ const WIZARD = 'scripts/init/writer.mjs';
 const GITATTRIBUTES = '.gitattributes';
 const PACKAGE_JSON = 'package.json';
 const PLACE_CONFIG = 'place.config.ts';
+const PAGES_DIR = 'src/pages';
 
 // Adopter-facing doc trees. Not derived: this is the contract's other half -- the
 // wizard removes what it lists, and these two are what must survive that removal.
@@ -134,6 +140,52 @@ function derivePipelineJobs(pkgJson, script, runner, prefix) {
     .split(/\s+/)
     .map((job) => job.slice(prefix.length + 1))
     .filter(Boolean);
+}
+
+// Astro file-based routing: a file under src/pages/ IS a route, named by its path
+// with the implementation extension removed. `feed.xml.ts` therefore yields
+// `feed.xml` and `[category]/[slug].astro` yields `[category]/[slug]`, which is how
+// SPEC writes them. Returns null when the directory is unreadable -- an underivable
+// source must fail the gate, never silently weaken it.
+//
+// The three rules below mirror `createFileBasedRoutes` in the installed Astro
+// (node_modules/astro/dist/core/routing/create-manifest.js): page extensions
+// (`.astro`, `.html`, and every SUPPORTED_MARKDOWN_FILE_EXTENSIONS form, plus
+// `.mdx` once the MDX integration registers it), endpoint extensions (`.js`,
+// `.ts`), and the exclusions -- any path part whose name starts with `_`, and any
+// dot-file. `.mjs` is deliberately absent: Astro's endpoint set is `.js`/`.ts`
+// only. Astro exports none of these constants publicly (`astro`'s package exports
+// expose no routing internals), so this is a cited mirror rather than a
+// derivation; the two selftest cases below pin it in both directions.
+const PAGE_EXT = /\.(astro|html|md|markdown|mdown|mkdn|mkd|mdwn|mdx|js|ts)$/;
+
+/** Astro skips a path with an `_`-prefixed part, and any dot-file except `.well-known`. */
+function isRoutablePart(name, isDirectory) {
+  const base = isDirectory ? name : name.replace(/\.[^.]*$/, '');
+  if (base.startsWith('_')) return false;
+  return !name.startsWith('.') || name === '.well-known';
+}
+
+function derivePageRoutes(root) {
+  const dir = join(root, PAGES_DIR);
+  if (!existsSync(dir)) return null;
+  const routes = [];
+  const visit = (abs) => {
+    for (const entry of readdirSync(abs, { withFileTypes: true })) {
+      if (!isRoutablePart(entry.name, entry.isDirectory())) continue;
+      const child = join(abs, entry.name);
+      if (entry.isDirectory()) visit(child);
+      else if (entry.isFile() && PAGE_EXT.test(entry.name)) {
+        routes.push(relative(dir, child).split(sep).join('/').replace(PAGE_EXT, ''));
+      }
+    }
+  };
+  try {
+    visit(dir);
+  } catch {
+    return null;
+  }
+  return routes.length > 0 ? routes : null;
 }
 
 /* place.config.ts declares the schema as a TypeScript interface. These three read it
@@ -283,6 +335,7 @@ const SOURCE_FILES = {
   postbuild: PACKAGE_JSON,
   'place-config-sections': PLACE_CONFIG,
   'place-config-features': PLACE_CONFIG,
+  pages: `${PAGES_DIR}/`,
 };
 
 const REGISTRY = [
@@ -337,6 +390,12 @@ const REGISTRY = [
     label: 'place.config.ts schema, features flags',
     source: 'place-config-features',
     anchor: /`features\s*\{([^}]+)\}`/,
+  },
+  {
+    file: 'docs/SPEC.md',
+    label: 'Pages, routes under src/pages/',
+    source: 'pages',
+    anchor: /Routes\s+under\s+`src\/pages\/`:\s*([\s\S]*?)\.\s*\n?Non-route\s+build\s+outputs:/,
   },
 ];
 
@@ -548,6 +607,15 @@ function run(root) {
   } catch (err) {
     failures.push(`${PLACE_CONFIG}: cannot be read (${err.message}).`);
   }
+  const pageRoutes = derivePageRoutes(root);
+  if (!pageRoutes) {
+    failures.push(
+      `${PAGES_DIR}/: no readable Astro page files -- the route list cannot be derived. ` +
+        'Re-point this guard in the same commit that moves the pages directory.',
+    );
+  } else {
+    expected.pages = asSet(pageRoutes);
+  }
 
   let checked = 0;
   for (const site of REGISTRY) {
@@ -659,6 +727,10 @@ function selftest() {
         '  links: { repo: string; social: { twitter?: string } };\n' +
         '}\n',
     );
+    write(`${PAGES_DIR}/index.astro`, '<p>home</p>\n');
+    write(`${PAGES_DIR}/about.astro`, '<p>about</p>\n');
+    write(`${PAGES_DIR}/feed.xml.ts`, 'export const GET = () => new Response();\n');
+    write(`${PAGES_DIR}/[category]/[slug].astro`, '<p>article</p>\n');
     write(
       'docs/SPEC.md',
       'Determinism comes from `merge=ours` on instance-owned files (`CLAUDE.md`,\n' +
@@ -667,7 +739,10 @@ function selftest() {
         'contract checks (`run-s`: smoke).\n\n' +
         'Schema: `place {name, domain}`, `features {graph, feedback}`,\n' +
         '`links {repo, social {twitter?}}`.\n' +
-        'Init-time: written only by the wizard.\n',
+        'Init-time: written only by the wizard.\n\n' +
+        'Routes under `src/pages/`: `index`, `about`, `feed.xml`,\n' +
+        '`[category]/[slug]`.\n' +
+        'Non-route build outputs: none in this fixture.\n',
     );
     write(
       'docs/adr/006-adopter-owned-agents-md-and-dev-plugin-encapsulation.md',
@@ -792,6 +867,32 @@ function selftest() {
       expect: /no readable `export interface PlaceConfig`/,
     },
     {
+      // The case this guard exists for: a phase adds a page and nobody amends the
+      // sentence that enumerates them.
+      what: 'a new page missing from the SPEC route list',
+      plant: () => write(`${PAGES_DIR}/soundscape.astro`, '<p>audio</p>\n'),
+      expect: /Pages, routes under src\/pages\//,
+    },
+    {
+      // Same defect through Astro's other page extension. `.html` is in the default
+      // `pageExtensions`, so a page can be added without a single `.astro` file; a
+      // derivation that only knew `.astro` would stay green while SPEC went stale.
+      what: 'a new .html page missing from the SPEC route list',
+      plant: () => write(`${PAGES_DIR}/legal.html`, '<p>legal</p>\n'),
+      expect: /Pages, routes under src\/pages\//,
+    },
+    {
+      // Drift in the other direction: prose claiming a route that no page produces.
+      what: 'a SPEC route the pages directory does not produce',
+      plant: () => rmSync(join(fixture, PAGES_DIR, 'about.astro')),
+      expect: /Pages, routes under src\/pages\//,
+    },
+    {
+      what: 'an unreadable pages directory',
+      plant: () => rmSync(join(fixture, PAGES_DIR), { recursive: true }),
+      expect: /the route list cannot be derived/,
+    },
+    {
       what: 'a merge=ours path missing from the adopter-facing runbook table',
       plant: () =>
         write(
@@ -912,6 +1013,17 @@ function selftest() {
             '| `CLAUDE.md` | the shim |\n| `knowledge/**` | the content |\n' +
             '| `docs/PRD.md` | your own product doc, if you keep one |\n',
         );
+      },
+    },
+    {
+      // The other direction of the same mirror: Astro's routing skips an
+      // `_`-prefixed file or directory and every dot-file, so demanding a SPEC
+      // entry for one would fail a tree that has no drift in it.
+      what: 'a non-route partial and dot-file under src/pages/',
+      plant: () => {
+        write(`${PAGES_DIR}/_partial.astro`, '<p>partial</p>\n');
+        write(`${PAGES_DIR}/_shared/helper.astro`, '<p>helper</p>\n');
+        write(`${PAGES_DIR}/.keep`, '\n');
       },
     },
     {
