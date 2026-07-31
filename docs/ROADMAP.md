@@ -21,15 +21,15 @@ so task ids (`LB-*`) are continuous across the split.
 
 | # | Milestone | Outcome | Scope (tasks) | Exit gate | Est |
 |---|---|---|---|---|---|
-| 6 | Social + engagement | Feedback (Worker + D1 + widget + triage), snippet pipeline, soundscape | 6.1a-c · 6.2 · 6.3 · 6.4 | Live submission → D1 → GitHub issue; three real recordings and the tag adoption in 6.4; phase confirm | AI 11.75h \| Human 3h |
+| 6 | Social + engagement | Feedback (Worker + D1 + widget + triage), snippet pipeline, soundscape | 6.1a-c · 6.2 · 6.3 · 6.3b · 6.4 | Live submission → D1 → GitHub issue; three real recordings and the tag adoption in 6.4; phase confirm | AI 16h \| Human 3h |
 | 7 | Differentiators | On-demand OG worker, RAG chat (bge-m3 + Workers AI + Claude API), QR flow | 7.1 · 7.2a-c · 7.3 | Eval set answered with citations, no hallucinated places (7.2c); phase confirm | AI 12.25h \| Human 1.75h |
 | 8 | Semiont plugin layer | Organ architecture in sekai-kb (config.json manifest, core organs); instance #1 enables core + MANIFESTO | 8.1 · 8.2 | Site builds with `semiont/` deleted; organs toggle via config only; phase confirm | AI 4.25h \| Human 0h |
 | 9 | MCP + AI delivery | Remote MCP server (`workers/mcp/`) exposing list_topics/get_article/search/semantic_search; AI-access page + `/kb/agent.md` boot file; adopter upgrade playbook proven on the first real post-cut feature release | 9.1 · 9.2 · 9.3 | An MCP client connected to the instance's `/mcp` endpoint answers a question about its place via tools, no clone; phase shipped as a sekai-kb tag → instance `/sekai-upgrade` clean (9.3); maintainer phase confirm | AI 6h \| Human 0.75h |
 | 10 | Perception (analytics) | GA4 + Search Console + Cloudflare Web Analytics live behind `features.analytics`; signal fetchers ported; dashboard analytics panels | 10.1 · 10.2 | Dashboard renders real traffic/search data from a fetch run; zero analytics IDs in `src/` outside place.config; sekai-kb tag → instance `/sekai-upgrade` clean; maintainer phase confirm | AI 4.25h \| Human 1h |
 | 11 | Autonomous routines | ROUTINE organ activated: routine contract + `/schedule` skill; embeddings/index refresh (CI); maintainer (content PR review + link/health audits); feedback-triage; data-refresh; trend-discovery; social-publish; rewrite | 11.1-11.8 | Two routines live >= 1 week shipping only via PRs, zero direct pushes to main; sekai-kb tag → instance `/sekai-upgrade` clean; maintainer phase confirm | AI 16.5h \| Human 0.75h |
 
-**Totals for these phases:** AI ≈ 55h | Human ≈ 7.25h. Phases 6-8 close the original
-plan (AI ≈ 28.25h | Human ≈ 3h); the extension phases 9-11 add AI ≈ 26.75h | Human ≈ 2.5h
+**Totals for these phases:** AI ≈ 59.25h | Human ≈ 7.25h. Phases 6-8 close the original
+plan (AI ≈ 32.5h | Human ≈ 3h); the extension phases 9-11 add AI ≈ 26.75h | Human ≈ 2.5h
 and roughly 1.5-2 weeks elapsed. Phase 6's numbers are the 2026-07-29 planning amendment's,
 not the original block estimates. Phases 0-5, and therefore the grand totals for the whole
 programme, are recorded in instance #1's roadmap.
@@ -135,6 +135,33 @@ inline; this section is the rationale, and the packet bodies cite it.
 
 ---
 
+## Phase 6 planning amendment — approved 2026-07-31
+
+Records the one block added after 6.3 shipped. Same form as the 2026-07-29 amendment: the
+block below carries the decision inline, this section is the rationale.
+
+- **6.3b is a new block, inserted between 6.3 and 6.4.** 6.3 shipped `/soundscape` as a flat
+  single-column list. The reference implementation of this page on the first instance's live
+  site carries ordered categories, a card grid, per-category wishlists of sounds still wanted,
+  and a contribute block; that shape is what makes the page a collection rather than a file
+  listing. `docs/PRD.md`'s "no framework features for hypothetical adopters" is satisfied by
+  the same test 6.2's decision D3 used: a real instance runs this page shape in production, so
+  the need is demonstrated rather than speculative.
+- **It blocks 6.4 rather than following it.** 6.4 step 3 commits the instance's three real
+  recordings as manifest entries against the tag cut in step 1. Landing the schema change
+  after that tag would write those entries in the flat shape and rewrite them into categories
+  on the next tag, and would confirm the phase exit gate's visual bar against a layout already
+  scheduled to change. Ordering it before 6.4 costs the block's estimate and buys one write.
+- **The manifest stays the single source.** Categories, wishlist entries, and the richer
+  per-recording fields are declared in `knowledge/sounds/_manifest.md`, never in a data module
+  under `src/` — the place-name and English-only gates scan that tree, and the reference
+  instance's equivalent file could not exist here. A flat `sounds:` list keeps rendering, so
+  an adopter's existing manifest is not broken by the release.
+- **Estimates:** Phase 6 becomes AI ≈ 16h | Human ≈ 3h (was AI ≈ 11.75h | Human ≈ 3h), from
+  6.3b alone.
+
+---
+
 ## Detailed task blocks: Phases 6-8
 
 These are the active source blocks for `/dev:plan`. Model names are advisory and
@@ -212,8 +239,24 @@ names the instance in its own `Execution repo:` line.
     manifest renders the empty state with a green build
   Downstream: 6.4
 
+[6.3b] Soundscape layout: manifest categories, card grid, wishlist, contribute block
+  Effort: M/L | Model: Opus | Depends: 6.3
+  Est: AI 3.5h + 0.75h review
+  Steps:
+    1. Extend knowledge/sounds/_manifest.md to an ordered categories list (id, icon, title,
+       optional article link), each carrying its recordings and a wishlist of sounds still
+       wanted; a flat sounds list still renders as one implicit category.
+    2. Normalize both shapes in src/lib/sounds.ts, validate every new field with a named
+       warning, and keep the three absent-safe cases identical.
+    3. Rebuild the template: hero stats, one anchored section per category, a responsive
+       card grid with the richer card, per-category empty state and wishlist, and a
+       contribute block. No player library, no client framework, zero script tags.
+  Acceptance: the page passes the visual bar at desktop and mobile widths; an existing flat
+    manifest renders unchanged; an absent manifest still renders the empty state green
+  Downstream: 6.4
+
 [6.4] Phase 6 exit gate: ship the tag, adopt it in the instance, go live
-  Effort: M | Model: Opus | Depends: 6.1b, 6.1c, 6.2, 6.3
+  Effort: M | Model: Opus | Depends: 6.1b, 6.1c, 6.2, 6.3, 6.3b
   Est: AI 1h + 0.25h review | Human 2.5h (Cloudflare setup, three recordings, confirm)
   Execution repo: the instance (every commit); the tag is cut in sekai-kb at verify of the
     last framework task.
@@ -228,7 +271,7 @@ names the instance in its own `Execution repo:` line.
   Downstream: Phase 7 entry
 ```
 
-_Phase 6 subtotal: AI 9.5h | Human 2.5h_
+_Phase 6 subtotal: AI 13.75h | Human 2.5h_
 
 **Phase 7: Differentiators**
 
