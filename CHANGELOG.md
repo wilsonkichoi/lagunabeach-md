@@ -41,6 +41,10 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+## [1.0.17] — 2026-08-02
+
+Adds the /soundscape page, the /sekai-snippet and /sekai-triage-feedback skills, and a feedback widget over a new workers/feedback Worker; extends the denylist gate to workers/; and repairs the dark theme plus two tooling defects.
+
 ### Fixed
 
 - **Route-wide dark theme repair.** Fixed white surfaces and dark-on-dark text
@@ -1028,7 +1032,8 @@ onto this tag.
 First release — nothing to upgrade from. The first instance establishes its merge
 base against this tag per `docs/runbook/UPGRADE.md` §Establishing the merge base.
 
-[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.0.16...HEAD
+[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.0.17...HEAD
+[1.0.17]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.17
 [1.0.16]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.16
 [1.0.15]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.15
 [1.0.14]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.14
