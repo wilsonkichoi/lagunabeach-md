@@ -50,9 +50,9 @@ committing.
 
 Place identity must enter code only through `place.config.ts`, `knowledge/`, and
 `public/media/`. `npm run genericity` enforces the boundary with a place-name
-denylist and an English-only codepoint gate. Both gates scan `src/`, `scripts/`,
-`tests/`, and `.agents/skills/`; the English-only gate additionally scans
-`workers/`.
+denylist and an English-only codepoint gate. Each gate states its own roots; both
+scan `src/`, `scripts/`, `tests/`, `workers/`, and `.agents/skills/` today, and
+either can gain a root without the other.
 
 ## Language support
 
