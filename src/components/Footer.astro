@@ -14,9 +14,9 @@ import placeConfig from '../../place.config';
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
-const { name, tagline, domain } = placeConfig.place;
+const { name, tagline, domain, brandSuffix } = placeConfig.place;
 const { categories, features, links } = placeConfig;
-const domainDot = `.${domain.split('.').pop()}`;
+const suffix = brandSuffix ?? `.${domain.split('.').pop()}`;
 const year = new Date().getFullYear();
 
 // Build social links from handles (stored with a leading `@`).
@@ -57,7 +57,7 @@ const colLinkClass =
     >
       <div class="max-[768px]:col-span-full">
         <span class="mb-2 block text-[1.2rem] font-bold text-white"
-          >{name}<span class="text-[#38bdf8]">{domainDot}</span></span
+          >{name}<span class="text-[#60a5fa]">{suffix}</span></span
         >
         <p>{tagline}</p>
         <p class="mt-2 text-[#22c55e]">{t('footer.builtWith')}</p>
@@ -115,6 +115,7 @@ const colLinkClass =
         <a href={links.repo} target="_blank" rel="noopener">GitHub</a>
         <a href="/about">{t('footer.about')}</a>
         {features.graph && <a href="/graph">{t('footer.graph')}</a>}
+        {features.soundscape && <a href="/soundscape">{t('footer.soundscape')}</a>}
         {features.dashboard && <a href="/dashboard">{t('footer.dashboard')}</a>}
         <a href={`${links.repo}/blob/main/CONTRIBUTING.md`} target="_blank" rel="noopener"
           >{t('footer.contribute')}</a
@@ -144,7 +145,7 @@ const colLinkClass =
       </div>
     </div>
     <div class="border-t border-[#1e293b] pt-6 text-center text-[0.8rem]">
-      &copy; {year} {name}{domainDot} — {tagline}
+      &copy; {year} {name}{suffix} — {tagline}
     </div>
   </div>
 </footer>

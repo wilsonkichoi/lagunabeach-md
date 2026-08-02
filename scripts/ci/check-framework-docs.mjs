@@ -25,6 +25,18 @@
 //      `.gitattributes` legitimately grows paths the framework's documents do not list.
 //   3. BUILD PIPELINE -- the prebuild and post-build job names come from
 //      `package.json`. SPEC §Build pipeline enumerates both.
+//   4. PLACE CONFIG SCHEMA -- the top-level sections of `PlaceConfig`, and the flags
+//      inside its `features` block, come from `place.config.ts`. SPEC ``place.config.ts``
+//      enumerates both, and that enumeration is what an adopter reads to learn which
+//      keys exist. The wizard's own copy of the interface (`scripts/init/writer.mjs`)
+//      is NOT the derivation source and needs none: `npm run init:check` initializes a
+//      tree and builds it, so an interface that has drifted from the config the wizard
+//      emits fails there as a type error, at the moment it would reach an adopter.
+//   5. PAGES -- the route list comes from `src/pages/`, where Astro's file-based routing
+//      already makes every file a route. SPEC ``Pages`` enumerates it, and that
+//      enumeration goes stale the moment a phase adds a page -- exactly when nobody is
+//      looking at the sentence. Non-route build outputs (`llms.txt`, `/kb/*`) sit outside
+//      the anchor because no file under `src/pages/` produces them.
 //
 // Registered statements live in documents that adoption REMOVES, so they are required
 // in template mode and reported as skipped in an adopted instance -- the same rule
@@ -62,6 +74,8 @@ import { deriveMaintainerDocs } from '../upgrade/maintainer-docs-state.mjs';
 const WIZARD = 'scripts/init/writer.mjs';
 const GITATTRIBUTES = '.gitattributes';
 const PACKAGE_JSON = 'package.json';
+const PLACE_CONFIG = 'place.config.ts';
+const PAGES_DIR = 'src/pages';
 
 // Adopter-facing doc trees. Not derived: this is the contract's other half -- the
 // wizard removes what it lists, and these two are what must survive that removal.
@@ -89,6 +103,7 @@ const STRIP_MECHANISM_FILES = [
   'scripts/init/check-init.sh',
   'scripts/ci/check-framework-docs.mjs',
   'scripts/ci/check-scan-root-docs.mjs',
+  'scripts/ci/check-soundscape-schema-docs.mjs',
 ];
 
 // The ownership source. `.gitattributes` must name a maintainer-doc path in order to
@@ -128,6 +143,136 @@ function derivePipelineJobs(pkgJson, script, runner, prefix) {
     .filter(Boolean);
 }
 
+// Astro file-based routing: a file under src/pages/ IS a route, named by its path
+// with the implementation extension removed. `feed.xml.ts` therefore yields
+// `feed.xml` and `[category]/[slug].astro` yields `[category]/[slug]`, which is how
+// SPEC writes them. Returns null when the directory is unreadable -- an underivable
+// source must fail the gate, never silently weaken it.
+//
+// The three rules below mirror `createFileBasedRoutes` in the installed Astro
+// (node_modules/astro/dist/core/routing/create-manifest.js): page extensions
+// (`.astro`, `.html`, and every SUPPORTED_MARKDOWN_FILE_EXTENSIONS form, plus
+// `.mdx` once the MDX integration registers it), endpoint extensions (`.js`,
+// `.ts`), and the exclusions -- any path part whose name starts with `_`, and any
+// dot-file. `.mjs` is deliberately absent: Astro's endpoint set is `.js`/`.ts`
+// only. Astro exports none of these constants publicly (`astro`'s package exports
+// expose no routing internals), so this is a cited mirror rather than a
+// derivation; the two selftest cases below pin it in both directions.
+const PAGE_EXT = /\.(astro|html|md|markdown|mdown|mkdn|mkd|mdwn|mdx|js|ts)$/;
+
+/** Astro skips a path with an `_`-prefixed part, and any dot-file except `.well-known`. */
+function isRoutablePart(name, isDirectory) {
+  const base = isDirectory ? name : name.replace(/\.[^.]*$/, '');
+  if (base.startsWith('_')) return false;
+  return !name.startsWith('.') || name === '.well-known';
+}
+
+function derivePageRoutes(root) {
+  const dir = join(root, PAGES_DIR);
+  if (!existsSync(dir)) return null;
+  const routes = [];
+  const visit = (abs) => {
+    for (const entry of readdirSync(abs, { withFileTypes: true })) {
+      if (!isRoutablePart(entry.name, entry.isDirectory())) continue;
+      const child = join(abs, entry.name);
+      if (entry.isDirectory()) visit(child);
+      else if (entry.isFile() && PAGE_EXT.test(entry.name)) {
+        routes.push(relative(dir, child).split(sep).join('/').replace(PAGE_EXT, ''));
+      }
+    }
+  };
+  try {
+    visit(dir);
+  } catch {
+    return null;
+  }
+  return routes.length > 0 ? routes : null;
+}
+
+/* place.config.ts declares the schema as a TypeScript interface. These three read it
+   structurally rather than by regex over the whole file: a member name is only a
+   member when it sits at depth 0 of the block being read, so nested field names
+   (`links.social.twitter`, every `home` sub-block) never leak into a top-level list. */
+
+function stripTsComments(src) {
+  // Newlines are preserved so nothing downstream shifts; no string literal in a
+  // TypeScript interface can contain a comment marker, and only the interface body
+  // is ever passed through here.
+  return src.replace(/\/\*[\s\S]*?\*\//g, (m) => m.replace(/[^\n]/g, ' ')).replace(/\/\/[^\n]*/g, '');
+}
+
+/** Inner text of `export interface <name> { ... }`, or null when it is not declared. */
+function interfaceBody(src, name) {
+  const decl = new RegExp(`export\\s+interface\\s+${name}\\s*\\{`).exec(src);
+  if (!decl) return null;
+  return braceBody(src, decl.index + decl[0].length - 1);
+}
+
+/** Inner text of the block whose opening `{` is at `open`, or null when unbalanced. */
+function braceBody(src, open) {
+  let depth = 0;
+  for (let i = open; i < src.length; i++) {
+    if (src[i] === '{') depth += 1;
+    else if (src[i] === '}') {
+      depth -= 1;
+      if (depth === 0) return src.slice(open + 1, i);
+    }
+  }
+  return null;
+}
+
+/**
+ * Member names declared at depth 0 of an interface body, in declaration order.
+ * `{`, `[`, and `(` all open a nested span; `Array<{...}>` therefore hides its
+ * element fields behind the inner brace exactly like an inline object does.
+ */
+function memberNames(body) {
+  const names = [];
+  let depth = 0;
+  let token = '';
+  for (const ch of body) {
+    if (ch === '{' || ch === '[' || ch === '(') {
+      depth += 1;
+      token = '';
+    } else if (ch === '}' || ch === ']' || ch === ')') {
+      depth -= 1;
+      token = '';
+    } else if (depth !== 0) {
+      continue;
+    } else if (/[A-Za-z0-9_$]/.test(ch)) {
+      token += ch;
+    } else if (ch === '?') {
+      // The optional marker sits between the name and its colon; keep the token.
+    } else if (ch === ':' && token) {
+      names.push(token);
+      token = '';
+    } else {
+      token = '';
+    }
+  }
+  return names;
+}
+
+/** Inner text of one depth-0 member's own `{ ... }` block, or null. */
+function memberBlock(body, name) {
+  const decl = new RegExp(`(^|[;{\\n])\\s*${name}\\??\\s*:\\s*\\{`).exec(body);
+  if (!decl) return null;
+  return braceBody(body, decl.index + decl[0].length - 1);
+}
+
+/**
+ * `{ sections, features }` from place.config.ts, or null when the interface is
+ * unreadable -- an underivable source must fail the gate, never silently weaken it.
+ */
+function derivePlaceConfigSchema(src) {
+  const body = interfaceBody(stripTsComments(src), 'PlaceConfig');
+  if (body === null) return null;
+  const sections = memberNames(body);
+  if (sections.length === 0) return null;
+  const featuresBlock = memberBlock(body, 'features');
+  return { sections, features: featuresBlock === null ? null : memberNames(featuresBlock) };
+}
+
 const asSet = (items) => [...new Set(items)].sort().join(', ');
 
 /**
@@ -156,6 +301,17 @@ function parseTableFirstColumn(span) {
     .filter(Boolean);
 }
 
+/**
+ * The schema sentence writes one backticked group per top-level section, each
+ * carrying its own fields: `place {name, ...}`, `categories[] {slug, ...}`. Only the
+ * leading identifier of each group is the section name, so the fields inside a group
+ * -- including a nested one like `social {twitter?, ...}` -- are never mistaken for
+ * sections of their own.
+ */
+function parseSchemaSections(span) {
+  return [...span.matchAll(/`([A-Za-z_$][A-Za-z0-9_$]*)[^`]*`/g)].map((m) => m[1]);
+}
+
 /* -- The registry: which prose statement restates which derived list -- */
 //
 // Each anchor has exactly one capture group holding ONLY the enumeration. Anchors
@@ -172,6 +328,16 @@ function parseTableFirstColumn(span) {
 // require containment in instance mode -- every documented row must really be declared --
 // and full equality in template mode, where the two lists are the framework's own and
 // must match exactly.
+
+/** Which file each `source` is derived from, named in a mismatch report. */
+const SOURCE_FILES = {
+  'merge-ours': GITATTRIBUTES,
+  prebuild: PACKAGE_JSON,
+  postbuild: PACKAGE_JSON,
+  'place-config-sections': PLACE_CONFIG,
+  'place-config-features': PLACE_CONFIG,
+  pages: `${PAGES_DIR}/`,
+};
 
 const REGISTRY = [
   {
@@ -212,6 +378,25 @@ const REGISTRY = [
     label: 'Build pipeline, post-build contract checks',
     source: 'postbuild',
     anchor: /contract\s+checks\s+\(`run-s`:\s*([^)]+)\)/,
+  },
+  {
+    file: 'docs/SPEC.md',
+    label: 'place.config.ts schema, top-level sections',
+    source: 'place-config-sections',
+    anchor: /Schema:\s*([\s\S]*?)\.\s*\n?Init-time:/,
+    parse: parseSchemaSections,
+  },
+  {
+    file: 'docs/SPEC.md',
+    label: 'place.config.ts schema, features flags',
+    source: 'place-config-features',
+    anchor: /`features\s*\{([^}]+)\}`/,
+  },
+  {
+    file: 'docs/SPEC.md',
+    label: 'Pages, routes under src/pages/',
+    source: 'pages',
+    anchor: /Routes\s+under\s+`src\/pages\/`:\s*([\s\S]*?)\.\s*\n?Non-route\s+build\s+outputs:/,
   },
 ];
 
@@ -405,6 +590,33 @@ function run(root) {
   } catch (err) {
     failures.push(`${PACKAGE_JSON}: cannot be read or parsed (${err.message}).`);
   }
+  try {
+    const schema = derivePlaceConfigSchema(read(PLACE_CONFIG));
+    if (!schema) {
+      failures.push(
+        `${PLACE_CONFIG}: no readable \`export interface PlaceConfig\` -- the config ` +
+          'schema cannot be derived. Re-point this guard in the same commit that moves it.',
+      );
+    } else {
+      expected['place-config-sections'] = asSet(schema.sections);
+      if (!schema.features) {
+        failures.push(`${PLACE_CONFIG}: PlaceConfig declares no \`features\` block.`);
+      } else {
+        expected['place-config-features'] = asSet(schema.features);
+      }
+    }
+  } catch (err) {
+    failures.push(`${PLACE_CONFIG}: cannot be read (${err.message}).`);
+  }
+  const pageRoutes = derivePageRoutes(root);
+  if (!pageRoutes) {
+    failures.push(
+      `${PAGES_DIR}/: no readable Astro page files -- the route list cannot be derived. ` +
+        'Re-point this guard in the same commit that moves the pages directory.',
+    );
+  } else {
+    expected.pages = asSet(pageRoutes);
+  }
 
   let checked = 0;
   for (const site of REGISTRY) {
@@ -443,7 +655,7 @@ function run(root) {
 
     const foundPaths = (site.parse ?? parseList)(match[1]);
     const found = asSet(foundPaths);
-    const derivedFrom = site.source === 'merge-ours' ? GITATTRIBUTES : PACKAGE_JSON;
+    const derivedFrom = SOURCE_FILES[site.source];
     const line = text.slice(0, match.index).split('\n').length;
 
     // A surviving site in an adopted clone: every documented path must be declared,
@@ -508,11 +720,30 @@ function selftest() {
       )}\n`,
     );
     write(
+      PLACE_CONFIG,
+      'export interface PlaceConfig {\n' +
+        '  /** {not, a, member} */\n' +
+        '  place: {\n    name: string;\n    domain: string;\n  };\n' +
+        '  features: {\n    graph: boolean;\n    feedback: boolean;\n  };\n' +
+        '  links: { repo: string; social: { twitter?: string } };\n' +
+        '}\n',
+    );
+    write(`${PAGES_DIR}/index.astro`, '<p>home</p>\n');
+    write(`${PAGES_DIR}/about.astro`, '<p>about</p>\n');
+    write(`${PAGES_DIR}/feed.xml.ts`, 'export const GET = () => new Response();\n');
+    write(`${PAGES_DIR}/[category]/[slug].astro`, '<p>article</p>\n');
+    write(
       'docs/SPEC.md',
       'Determinism comes from `merge=ours` on instance-owned files (`CLAUDE.md`,\n' +
         '`knowledge/**`), plus the ownership rule.\n\n' +
         '`sync.sh` -> parallel prebuild (`run-p`: related, search) -> `astro build` ->\n' +
-        'contract checks (`run-s`: smoke).\n',
+        'contract checks (`run-s`: smoke).\n\n' +
+        'Schema: `place {name, domain}`, `features {graph, feedback}`,\n' +
+        '`links {repo, social {twitter?}}`.\n' +
+        'Init-time: written only by the wizard.\n\n' +
+        'Routes under `src/pages/`: `index`, `about`, `feed.xml`,\n' +
+        '`[category]/[slug]`.\n' +
+        'Non-route build outputs: none in this fixture.\n',
     );
     write(
       'docs/adr/006-adopter-owned-agents-md-and-dev-plugin-encapsulation.md',
@@ -586,6 +817,81 @@ function selftest() {
       what: 'an unparseable MAINTAINER_DOCS declaration',
       plant: () => write(WIZARD, 'export const OTHER = 1;\n'),
       expect: /no MAINTAINER_DOCS array literal found/,
+    },
+    {
+      what: 'a new place.config section missing from the schema prose',
+      plant: () =>
+        write(
+          PLACE_CONFIG,
+          'export interface PlaceConfig {\n' +
+            '  place: {\n    name: string;\n    domain: string;\n  };\n' +
+            '  features: {\n    graph: boolean;\n    feedback: boolean;\n  };\n' +
+            '  links: { repo: string; social: { twitter?: string } };\n' +
+            '  workers?: { feedback?: string };\n' +
+            '}\n',
+        ),
+      expect: /place\.config\.ts schema, top-level sections/,
+    },
+    {
+      what: 'a new features flag missing from the schema prose',
+      plant: () =>
+        write(
+          PLACE_CONFIG,
+          'export interface PlaceConfig {\n' +
+            '  place: {\n    name: string;\n    domain: string;\n  };\n' +
+            '  features: {\n    graph: boolean;\n    feedback: boolean;\n    chat: boolean;\n  };\n' +
+            '  links: { repo: string; social: { twitter?: string } };\n' +
+            '}\n',
+        ),
+      expect: /place\.config\.ts schema, features flags/,
+    },
+    {
+      // A nested field promoted to the top-level list is drift in the other
+      // direction: the prose claims a section the interface does not declare.
+      what: 'a schema prose section the interface does not declare',
+      plant: () =>
+        write(
+          'docs/SPEC.md',
+          'Determinism comes from `merge=ours` on instance-owned files (`CLAUDE.md`,\n' +
+            '`knowledge/**`), plus the ownership rule.\n\n' +
+            '`sync.sh` -> parallel prebuild (`run-p`: related, search) -> `astro build` ->\n' +
+            'contract checks (`run-s`: smoke).\n\n' +
+            'Schema: `place {name, domain}`, `features {graph, feedback}`,\n' +
+            '`links {repo}`, `social {twitter?}`.\n' +
+            'Init-time: written only by the wizard.\n',
+        ),
+      expect: /place\.config\.ts schema, top-level sections/,
+    },
+    {
+      what: 'an unparseable PlaceConfig interface',
+      plant: () => write(PLACE_CONFIG, 'export const config = {};\n'),
+      expect: /no readable `export interface PlaceConfig`/,
+    },
+    {
+      // The case this guard exists for: a phase adds a page and nobody amends the
+      // sentence that enumerates them.
+      what: 'a new page missing from the SPEC route list',
+      plant: () => write(`${PAGES_DIR}/soundscape.astro`, '<p>audio</p>\n'),
+      expect: /Pages, routes under src\/pages\//,
+    },
+    {
+      // Same defect through Astro's other page extension. `.html` is in the default
+      // `pageExtensions`, so a page can be added without a single `.astro` file; a
+      // derivation that only knew `.astro` would stay green while SPEC went stale.
+      what: 'a new .html page missing from the SPEC route list',
+      plant: () => write(`${PAGES_DIR}/legal.html`, '<p>legal</p>\n'),
+      expect: /Pages, routes under src\/pages\//,
+    },
+    {
+      // Drift in the other direction: prose claiming a route that no page produces.
+      what: 'a SPEC route the pages directory does not produce',
+      plant: () => rmSync(join(fixture, PAGES_DIR, 'about.astro')),
+      expect: /Pages, routes under src\/pages\//,
+    },
+    {
+      what: 'an unreadable pages directory',
+      plant: () => rmSync(join(fixture, PAGES_DIR), { recursive: true }),
+      expect: /the route list cannot be derived/,
     },
     {
       what: 'a merge=ours path missing from the adopter-facing runbook table',
@@ -708,6 +1014,17 @@ function selftest() {
             '| `CLAUDE.md` | the shim |\n| `knowledge/**` | the content |\n' +
             '| `docs/PRD.md` | your own product doc, if you keep one |\n',
         );
+      },
+    },
+    {
+      // The other direction of the same mirror: Astro's routing skips an
+      // `_`-prefixed file or directory and every dot-file, so demanding a SPEC
+      // entry for one would fail a tree that has no drift in it.
+      what: 'a non-route partial and dot-file under src/pages/',
+      plant: () => {
+        write(`${PAGES_DIR}/_partial.astro`, '<p>partial</p>\n');
+        write(`${PAGES_DIR}/_shared/helper.astro`, '<p>helper</p>\n');
+        write(`${PAGES_DIR}/.keep`, '\n');
       },
     },
     {

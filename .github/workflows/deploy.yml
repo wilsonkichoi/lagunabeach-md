@@ -37,7 +37,7 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: 22
-      - name: Check for place-specific strings in src/, scripts/, tests/, .agents/skills/
+      - name: Check for place-specific strings in src/, scripts/, tests/, workers/, .agents/skills/
         run: bash scripts/ci/check-genericity.sh
       - name: Check for CJK codepoints (English-only) in src/, scripts/, tests/, workers/, .agents/skills/
         run: node scripts/ci/check-english-only.mjs
@@ -45,7 +45,13 @@ jobs:
         run: node scripts/ci/check-scan-root-docs.mjs
       - name: Version ownership contract
         run: npm run version:check
-      - name: Self-test — both gates scan .agents/skills/ in instance mode
+      # The soundscape manifest schema is implemented once, in src/lib/sounds.ts, and
+      # restated in prose by the engineering spec and by the manifest's own body. This
+      # derives all five field lists from the reader and fails when either document
+      # disagrees, so a schema edit cannot ship a stale field list to adopters.
+      - name: Soundscape schema statements match src/lib/sounds.ts
+        run: npm run schema-docs
+      - name: Self-test — both gates scan .agents/skills/ and workers/ in instance mode
         run: bash scripts/ci/check-skills-gated.sh
       - name: Self-test — the scan-root docs guard fails on doc, script, and anchor drift
         run: bash scripts/ci/check-scan-root-docs-selftest.sh
@@ -75,6 +81,30 @@ jobs:
           python-version: "3.12"
       - run: npm ci --force
       - run: npm run test:ci
+      # Snippet queue format contract: only `approved` publishes, an over-length
+      # draft is refused rather than truncated, and a malformed queue stops the
+      # run. The human gate in that pipeline is these assertions, so they are a
+      # CI gate rather than a suite someone may remember to run.
+      - name: Snippet queue contract
+        run: npm run test:snippet
+      # Soundscape manifest contract: the three absent-safe cases the page's DoD
+      # names (no manifest at all, an empty list, an entry whose audio file is
+      # missing) plus the gray-matter date normalization. The page has no server
+      # and no player library, so src/lib/sounds.ts is where every one of those
+      # degradations happens; a suite CI does not run would not keep it true.
+      - name: Soundscape manifest contract
+        run: npm run test:soundscape
+      - name: Install Chromium for feedback widget contract tests
+        run: npx playwright install --with-deps chromium
+      - name: Feedback widget browser contract
+        run: npm run test:feedback
+      # Cloudflare Worker unit suites (node:test, no runtime dependency). The runner
+      # walks workers/ for *.test.mjs, so a worker added in a later phase is gated
+      # here the moment its first suite lands — no second edit to this workflow. It
+      # also fails closed on a workers/ tree that has lost its suites, which the
+      # native `node --test <glob>` form does not (a zero-match glob exits 0).
+      - name: Worker unit suites
+        run: npm run test:workers
       - run: npm run framework-release:selftest
       - run: npm run article-health:test
       - run: npm run article-health -- --all --profile=ci-deploy
@@ -187,7 +217,10 @@ jobs:
       # that cross-platform validation; the build still uses exact locked versions
       # for all non-optional deps. Remove when npm ships the fix for nodejs/npm#7758.
       - run: npm ci --force
+      - run: npx playwright install --with-deps chromium
       - run: npm run build
+      - name: Theme surfaces regression guard
+        run: npm run test:theme
       # Only publish the artifact when we intend to deploy (push to main); PR
       # builds verify the build compiles but produce nothing to deploy.
       - name: Upload Pages artifact
