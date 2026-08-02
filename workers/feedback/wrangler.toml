@@ -19,6 +19,17 @@ compatibility_date = "2026-07-01"
 # Non-secret configuration. ALLOWED_ORIGIN is the single origin the worker accepts;
 # it is never `*`, and an unset value makes every request 403 rather than opening the
 # endpoint up.
+#
+# THIS INSTANCE SUPPLIES ALLOWED_ORIGIN AT DEPLOY TIME, NOT HERE:
+#
+#   npx wrangler deploy --var ALLOWED_ORIGIN:https://<this instance's origin>
+#
+# DEPLOY.md step 4 says to edit the value below instead, but this file sits inside
+# the place-name denylist gate's scan roots (sekai-kb-v1.0.17 added `workers/`), and
+# this instance's origin contains its place name — committing it fails
+# `scripts/ci/check-genericity.sh`. The `--var` form keeps the checked-in file
+# generic and the deployed worker correctly origin-locked. Verify after deploying:
+# a POST from another origin must return 403 `origin_not_allowed`.
 [vars]
 ALLOWED_ORIGIN = "https://example.invalid"
 RATE_LIMIT_MAX = "5"
@@ -29,5 +40,5 @@ RATE_LIMIT_WINDOW_SECONDS = "3600"
 [[d1_databases]]
 binding = "DB"
 database_name = "sekai-feedback"
-database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+database_id = "778b043c-899b-4072-855d-bae25eacd5b6"
 migrations_dir = "migrations"

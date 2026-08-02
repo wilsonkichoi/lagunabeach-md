@@ -60,6 +60,17 @@ export interface PlaceConfig {
       instagram?: string;
     };
   };
+  /**
+   * Deployed endpoints for this instance's own Cloudflare Workers. Added by
+   * sekai-kb-v1.0.17; absent-safe, so a config without it keeps every worker-backed
+   * feature off. `place.config.ts` is instance-owned (`merge=ours`), so the
+   * framework's schema addition does not arrive through the tag merge — it is
+   * transcribed here, matching the tag's declaration.
+   */
+  workers?: {
+    /** URL of this instance's deployed `workers/feedback/` worker. */
+    feedback?: string;
+  };
   seo: {
     defaultOgImage: string;
     twitterHandle?: string;
@@ -220,8 +231,8 @@ const config: PlaceConfig = {
     graph: true,
     map: true,
     dashboard: true,
-    soundscape: false,
-    feedback: false,
+    soundscape: true,
+    feedback: true,
     chat: false,
     social: false,
     analytics: false,
@@ -234,6 +245,9 @@ const config: PlaceConfig = {
       threads: '@lagunabeachmd',
       instagram: '@lagunabeachmd',
     },
+  },
+  workers: {
+    feedback: 'https://sekai-feedback.d3v-m0nk3y.workers.dev',
   },
   seo: {
     defaultOgImage: '/og-default.png',
