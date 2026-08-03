@@ -41,6 +41,10 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+## [1.0.18] — 2026-08-02
+
+Generate deploy-time Worker configs from place.config.ts, add CI guards for placeholder-only committed templates, and document the Worker and D1 rename path.
+
 ### Fixed
 
 - **Worker deploy configs are generated from `place.config.ts`, not committed.**
@@ -1099,7 +1103,8 @@ onto this tag.
 First release — nothing to upgrade from. The first instance establishes its merge
 base against this tag per `docs/runbook/UPGRADE.md` §Establishing the merge base.
 
-[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.0.17...HEAD
+[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.0.18...HEAD
+[1.0.18]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.18
 [1.0.17]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.17
 [1.0.16]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.16
 [1.0.15]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.15
