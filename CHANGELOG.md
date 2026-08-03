@@ -41,6 +41,10 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+## [1.0.19] — 2026-08-03
+
+Soundscape ingest tooling: npm run sounds:add converts and places audio, npm run sounds:check validates manifest entries, and docs/playbook/SOUNDSCAPE-PLAYBOOK.md documents the workflow.
+
 ### Added
 
 - **Soundscape ingest script** (`npm run sounds:add`): converts and places audio into `public/media/sounds/`, appends a schema-valid YAML entry to the manifest. Strictly additive; preserves surrounding bytes. Requires ffmpeg on PATH for non-mp3 input.
@@ -1111,7 +1115,8 @@ onto this tag.
 First release — nothing to upgrade from. The first instance establishes its merge
 base against this tag per `docs/runbook/UPGRADE.md` §Establishing the merge base.
 
-[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.0.18...HEAD
+[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.0.19...HEAD
+[1.0.19]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.19
 [1.0.18]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.18
 [1.0.17]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.17
 [1.0.16]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.16
