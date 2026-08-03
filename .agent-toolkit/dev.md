@@ -177,6 +177,22 @@ framework for scripts and dependencies; it carries neither release value.
   session's model. Reviews default to Sonnet; a `Review-Model: Opus` note on a task
   (1.1c, 1.2b, each phase-closing task) overrides.
 
+## Tracker mechanics specific to this workspace
+
+- **`Blocked` is the `blocked` label, not a workflow state.** The LB team's Linear
+  workflow has exactly `Backlog`, `Todo`, `In Progress`, `In Review`, `Done`,
+  `Canceled`, `Duplicate` — there is no `Blocked` state. Per the dev plugin's Linear
+  backend mapping, a blocked task therefore **keeps its workflow state** and carries the
+  team label `blocked` plus a diagnostic comment; the `blocked by` issue relation records
+  what it waits on. The label was created during LB-74 (2026-08-02), which is the first
+  time a task needed it. Do not add a `Blocked` workflow state to work around this: the
+  mapping is what the plugin's skills read.
+- **Never overwrite a Linear description you have not just re-read.** `save_issue` with a
+  `description` replaces the whole body. Use its `patch` operations instead — they anchor
+  on exact current text and fail loudly when the body moved under you. In LB-74 a full-body
+  write to LB-77 destroyed a triaged packet (Objective, DoD, spec excerpts, suggested
+  steps) that had been written in the four hours since that stub was filed.
+
 ## Planning conventions
 
 - **Verify extraction sources before citing them.** When a packet names a fork file as the

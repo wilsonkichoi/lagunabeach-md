@@ -30,6 +30,14 @@ compatibility_date = "2026-07-01"
 # `scripts/ci/check-genericity.sh`. The `--var` form keeps the checked-in file
 # generic and the deployed worker correctly origin-locked. Verify after deploying:
 # a POST from another origin must return 403 `origin_not_allowed`.
+#
+# ⚠️ `--var` IS PER-DEPLOY, NOT PERSISTENT STATE. It overrides `[vars]` for that one
+# invocation only. The next `npx wrangler deploy` WITHOUT the flag re-uploads the
+# placeholder below, and every submission from the real site starts coming back 403
+# with no change in this repository to explain it. Until the framework fix lands,
+# never deploy this worker flagless. This is a stopgap, not the design: the durable
+# fix generates the effective config from `place.config.ts` at deploy time
+# (LB-77 upstream).
 [vars]
 ALLOWED_ORIGIN = "https://example.invalid"
 RATE_LIMIT_MAX = "5"
