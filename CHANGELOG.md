@@ -41,6 +41,10 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+## [1.0.20] — 2026-08-03
+
+This patch strips recording capture metadata during soundscape ingest and rejects metadata-bearing or mislabeled sound files at validation.
+
 ### Fixed
 
 - **Soundscape ingest no longer publishes the recording's capture metadata.**
@@ -1173,7 +1177,8 @@ onto this tag.
 First release — nothing to upgrade from. The first instance establishes its merge
 base against this tag per `docs/runbook/UPGRADE.md` §Establishing the merge base.
 
-[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.0.19...HEAD
+[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.0.20...HEAD
+[1.0.20]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.20
 [1.0.19]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.19
 [1.0.18]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.18
 [1.0.17]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.17
