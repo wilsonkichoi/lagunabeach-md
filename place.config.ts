@@ -62,7 +62,8 @@ export interface PlaceConfig {
   };
   /**
    * Deployed endpoints for this instance's own Cloudflare Workers. Added by
-   * sekai-kb-v1.0.17; absent-safe, so a config without it keeps every worker-backed
+   * sekai-kb-v1.0.17, extended with `feedbackDatabaseId` in sekai-kb-v1.0.18;
+   * absent-safe, so a config without it keeps every worker-backed
    * feature off. `place.config.ts` is instance-owned (`merge=ours`), so the
    * framework's schema addition does not arrive through the tag merge — it is
    * transcribed here, matching the tag's declaration.
@@ -70,6 +71,14 @@ export interface PlaceConfig {
   workers?: {
     /** URL of this instance's deployed `workers/feedback/` worker. */
     feedback?: string;
+    /**
+     * D1 `database_id` for `workers/feedback/`, printed by `wrangler d1 create`.
+     * It lives here because the generated `workers/feedback/wrangler.generated.toml`
+     * is disposable and gitignored, and `workers/` may carry no instance identity
+     * (iron rule 2). An account-scoped id, not a credential: useless without account
+     * auth. `npm run worker-config` reads it; unset generates an empty id and says so.
+     */
+    feedbackDatabaseId?: string;
   };
   seo: {
     defaultOgImage: string;
@@ -247,7 +256,8 @@ const config: PlaceConfig = {
     },
   },
   workers: {
-    feedback: 'https://sekai-feedback.d3v-m0nk3y.workers.dev',
+    feedback: 'https://lagunabeach-feedback.d3v-m0nk3y.workers.dev',
+    feedbackDatabaseId: 'ffa96a9b-e6fc-48d5-b520-3eddb03021d0',
   },
   seo: {
     defaultOgImage: '/og-default.png',
