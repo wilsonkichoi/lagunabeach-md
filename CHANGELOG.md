@@ -40,6 +40,10 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+## [1.1.1] — 2026-08-04
+
+This patch corrects the v1.1.0 upgrade note, which described a maintainer-doc relocation merge that does not occur, and rebuilds the fixture that let the false claim ship.
+
 ### Fixed
 
 - **Corrected the v1.1.0 upgrade note, which described a merge that does not happen.**
@@ -1339,7 +1343,8 @@ onto this tag.
 First release — nothing to upgrade from. The first instance establishes its merge
 base against this tag per `docs/runbook/UPGRADE.md` §Establishing the merge base.
 
-[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.1.0...HEAD
+[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.1.1...HEAD
+[1.1.1]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.1
 [1.1.0]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.0
 [1.0.20]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.20
 [1.0.19]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.19
