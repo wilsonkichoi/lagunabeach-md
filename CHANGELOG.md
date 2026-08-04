@@ -40,6 +40,10 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+## [1.1.0] — 2026-08-04
+
+This release relocates the framework maintainer documents to dev_docs/, adds the ported platform research and the constraints promoted from it, and makes every phase exit gate state its instance-adoption step.
+
 This release moves the framework's own maintainer documents out of `docs/` into a
 dedicated `dev_docs/` tree, ports the phase-7-through-11 platform research in beside them,
 promotes the hard platform constraints into the SPEC, and makes each phase's exit gate
@@ -1280,7 +1284,8 @@ onto this tag.
 First release — nothing to upgrade from. The first instance establishes its merge
 base against this tag per `docs/runbook/UPGRADE.md` §Establishing the merge base.
 
-[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.0.20...HEAD
+[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.1.0...HEAD
+[1.1.0]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.0
 [1.0.20]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.20
 [1.0.19]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.19
 [1.0.18]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.18
