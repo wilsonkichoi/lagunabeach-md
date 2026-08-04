@@ -34,19 +34,17 @@ scripts/ci/genericity-denylist.local.txt merge=ours
 # tag-merge must never overwrite it with the framework's own dev config or rules.
 .agent-toolkit/** merge=ours
 
-# Maintainer-doc paths (ADR 008, relocated by ADR 009). The init wizard strips the
-# framework's own copies, so most instances have nothing here and this line is inert.
-# An instance that keeps its OWN product, architecture, delivery, or decision records
-# at these paths is a legitimate state, and its documents are never the framework's to
-# overwrite — shipping the attribute means such an instance is protected by default
-# instead of having to remember to add it before its next merge. Absence is a different
-# problem that no attribute can solve; scripts/upgrade/maintainer-docs-state.mjs owns it.
+# Maintainer-doc tree (ADR 008, relocated to dev_docs/ by ADR 009). This instance keeps
+# its OWN product, architecture, delivery, and decision records here, plus its captured
+# baselines and the archived research the rebuild was grounded in. Those documents are
+# never the framework's to overwrite. Absence is a different problem that no attribute
+# can solve; scripts/upgrade/maintainer-docs-state.mjs owns it.
 #
 # One directory, not an enumeration: whatever this instance keeps under dev_docs/ is
 # protected, including documents added after this line was written.
 #
-# One directory, not an enumeration: whatever this instance keeps under dev_docs/ is
-# protected, including documents added after this line was written. That covers the
-# planning documents, the ADRs, the draw.io sources, the captured baselines, and the
-# archived research the rebuild was grounded in.
+# NOTE: the attribute does not survive a RELOCATION. When the framework moved these
+# paths, the framework's move was a detected rename and this instance's was a delete
+# plus an unrelated add, which is a rename/delete conflict -- and git applies no merge
+# driver to those. Resolve such a conflict to OURS by hand; never --theirs.
 dev_docs/** merge=ours
