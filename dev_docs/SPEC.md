@@ -3,8 +3,8 @@
 **Approved 2026-07-07; consolidated 2026-07-26; scope split 2026-07-29 (LB-62).** This is
 the engineering SSOT **for this instance**: how lagunabeach.md is deployed, what its
 content looks like, where its code came from, and what happened to the fork it replaced.
-Product intent lives in `docs/PRD.md`; delivery detail lives in `docs/ROADMAP.md`;
-LB's accepted decisions live in `docs/adr/`. Conflicts go to Wilson (see
+Product intent lives in `dev_docs/PRD.md`; delivery detail lives in `dev_docs/ROADMAP.md`;
+LB's accepted decisions live in `dev_docs/adr/`. Conflicts go to Wilson (see
 `.agent-toolkit/dev.md`).
 
 > **The framework's engineering SSOT is a different document.** Stack, repo topology, the
@@ -12,12 +12,12 @@ LB's accepted decisions live in `docs/adr/`. Conflicts go to Wilson (see
 > phase 9-11 extension capabilities, framework risk controls, and the negative
 > requirements (including the genericity and English-only gates) are framework contracts.
 > They live in
-> [`sekai-kb/docs/SPEC.md`](https://github.com/wilsonkichoi/sekai-kb/blob/main/docs/SPEC.md)
+> [`sekai-kb/dev_docs/SPEC.md`](https://github.com/wilsonkichoi/sekai-kb/blob/main/dev_docs/SPEC.md)
 > with ADRs 003-008, beside the code they govern. LB cannot change any of them without a
 > framework release, so restating them here would only create a second copy to drift
 > (ADR 008, upstream). Everything below is something LB can change on its own.
 
-Engineering diagrams (`docs/diagrams/architecture.drawio`, `data-flow.drawio`,
+Engineering diagrams (`dev_docs/diagrams/architecture.drawio`, `data-flow.drawio`,
 `repo-topology.drawio`) depict the framework architecture and are updated in the same PR
 as any architecture change they depict.
 
@@ -28,7 +28,7 @@ and CDN. The apex domain is pinned by `CNAME` (instance-owned, `merge=ours`); th
 cutover from the retired fork happened in task 3.2. Cloudflare Workers, when a framework
 phase ships one, deploy separately via `wrangler` from `workers/`, per
 [`docs/runbook/DEPLOY.md`](./runbook/DEPLOY.md). No paid services: GitHub Pages plus the
-Cloudflare and Workers free tiers only (`docs/PRD.md` non-goals).
+Cloudflare and Workers free tiers only (`dev_docs/PRD.md` non-goals).
 
 Instance identity — place name, tagline, domain, map center, categories, feature flags,
 links, and the home-page copy block — is data in `place.config.ts`, never code. That file
@@ -52,10 +52,10 @@ directly thereafter.
 - **Editorial bar:** [`docs/playbook/ARTICLE-PLAYBOOK.md`](./playbook/ARTICLE-PLAYBOOK.md)
   and [`REWRITE-PIPELINE.md`](./playbook/REWRITE-PIPELINE.md) govern writing;
   [`FACTCHECK-PIPELINE.md`](./playbook/FACTCHECK-PIPELINE.md) governs verification.
-  `docs/baselines/article-health-fork.md` is LB's own health baseline, carried from the
+  `dev_docs/baselines/article-health-fork.md` is LB's own health baseline, carried from the
   fork for parity comparison and instance-owned.
 - **Language:** LB's content is English-only. Multi-language support is a post-project
-  revisit (`docs/PRD.md` non-goals); the framework's schema seams (`place.locale`,
+  revisit (`dev_docs/PRD.md` non-goals); the framework's schema seams (`place.locale`,
   `place.languages[]`) are declared but dormant, and LB does not build on them.
 
 ## Extraction map
@@ -160,7 +160,7 @@ fork LB replaced:
    (`.agent-toolkit/rules/visual-parity-comparison-target.md`).
 2. **Lost upstream improvements.** An accepted cost. The upstream project remains
    readable; useful ideas are reimplemented generically, never merged automatically
-   (`docs/PRD.md` non-goals; ADR 001).
+   (`dev_docs/PRD.md` non-goals; ADR 001).
 
 ## Change log
 
@@ -170,7 +170,7 @@ CHANGELOG and read from the target tag at upgrade time.
 - **2026-07-29 (LB-62), Wilson-approved ownership split:** the framework's sections —
   stack, repo topology, `place.config.ts`, content model, build pipeline, pages, new
   builds, phase 9-11 extension capabilities, framework risk controls, and negative
-  requirements — moved to `sekai-kb/docs/SPEC.md` with ADRs 003-008, and are pointed at
+  requirements — moved to `sekai-kb/dev_docs/SPEC.md` with ADRs 003-008, and are pointed at
   rather than restated. What remains is deployment and domain, LB's content, the
   extraction map, the inherited-fork disposition, and the two instance risk controls.
 - **2026-07-26, Wilson-approved version ownership correction:** Sekai carries only

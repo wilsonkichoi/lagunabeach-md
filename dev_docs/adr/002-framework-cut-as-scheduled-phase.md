@@ -16,7 +16,7 @@ Extract-later is the deferral trap this project was burned by before.
 One repo through Phase 4, under a hard genericity rule from day one: **zero place-specific
 strings in `src/` or `scripts/`; all place identity flows from `place.config.ts` +
 `knowledge/` + `public/media/`**, enforced by `scripts/ci/check-genericity.sh` in CI
-(`docs/ROADMAP.md` task 0.3). The framework repo `sekai-kb` is cut as Phase 5 — after LB content parity and
+(`dev_docs/ROADMAP.md` task 0.3). The framework repo `sekai-kb` is cut as Phase 5 — after LB content parity and
 domain cutover, and **before** any Phase 6/7 LB feature. Phases 6-7 declare `Depends: 5.4`,
 making the ordering structural rather than aspirational (SPEC `Risk controls`).
 

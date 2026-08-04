@@ -26,10 +26,10 @@ one that owns the question; never reconcile them by editing the other side's cop
 
 | Document | `lagunabeach-md` (this repo) owns | `sekai-kb` owns |
 |---|---|---|
-| `docs/PRD.md` | what lagunabeach.md is for: its goals, customers, north star, non-goals | what the framework is for and who adopts it |
-| `docs/SPEC.md` | deployment and domain, LB's content and categories, the extraction map, the inherited-fork disposition, instance risk controls | stack, repo topology, `place.config.ts` schema, content model, build pipeline, pages, new builds, phase 9-11 capabilities, framework risk controls, negative requirements |
-| `docs/ROADMAP.md` | phases 0-5 (the rebuild and the framework cut) and, per later phase, the instance-owned adoption step | the phase 6-11 task blocks, their amendments, ordering rules, and phase gates |
-| `docs/adr/` | ADRs 001-002, the rebuild decisions (`docs/adr/README.md` indexes both sides) | ADRs 003-008, which govern framework code |
+| `dev_docs/PRD.md` | what lagunabeach.md is for: its goals, customers, north star, non-goals | what the framework is for and who adopts it |
+| `dev_docs/SPEC.md` | deployment and domain, LB's content and categories, the extraction map, the inherited-fork disposition, instance risk controls | stack, repo topology, `place.config.ts` schema, content model, build pipeline, pages, new builds, phase 9-11 capabilities, framework risk controls, negative requirements |
+| `dev_docs/ROADMAP.md` | phases 0-5 (the rebuild and the framework cut) and, per later phase, the instance-owned adoption step | the phase 6-11 task blocks, their amendments, ordering rules, and phase gates |
+| `dev_docs/adr/` | ADRs 001-002, the rebuild decisions (`dev_docs/adr/README.md` indexes both sides) | ADRs 003-008, which govern framework code |
 
 Linear owns live task state, as one project spanning both repositories. Task packets are
 converted from the owning repository's ROADMAP blocks, never re-derived. Any conflict —
@@ -46,7 +46,7 @@ Zero place-specific strings in `src/` or `scripts/`. All place identity flows fr
 
 | Reference | Role | Rule |
 |---|---|---|
-| `docs/PRD.md`, `docs/SPEC.md`, `docs/ROADMAP.md`, `docs/adr/` — in **whichever repository owns the question** (see the precedence table above) | product, engineering, and delivery SSOTs | every task packet names the ROADMAP task block it executes, in the repository that carries that block, and cites the relevant SPEC/ADR contracts from the owning side |
+| `dev_docs/PRD.md`, `dev_docs/SPEC.md`, `dev_docs/ROADMAP.md`, `dev_docs/adr/` — in **whichever repository owns the question** (see the precedence table above) | product, engineering, and delivery SSOTs | every task packet names the ROADMAP task block it executes, in the repository that carries that block, and cites the relevant SPEC/ADR contracts from the owning side |
 | `${SRC_HOME}/sekai-kb` (framework SSOT, GitHub `wilsonkichoi/sekai-kb`) | framework template + release train | Phase 5+ code lands here (LB-26 cut); instances merge **tagged releases only** (`sekai-kb-vX.Y.Z`), never framework `main` — per `docs/runbook/UPGRADE.md` + ADR 004. LB re-based onto `sekai-kb-v1.0.0` in LB-33 |
 | `${SRC_HOME}/lagunabeach-md-v1` (the renamed fork checkout) | extraction source | the SPEC extraction map prefers the fork's copy; reviews verify extraction claims against this tree, **byte-diff where the map says verbatim** |
 | `${SRC_HOME}/taiwan-md` | design reference | consult for design rationale; never a content source |
@@ -163,7 +163,7 @@ framework for scripts and dependencies; it carries neither release value.
 
 - Milestones = Linear project milestones on project "LB Rebuild", one per phase
   ("Phase 0" … "Phase 11"), spanning both repositories. A phase's task blocks live in
-  exactly one `docs/ROADMAP.md` — this repo's for phases 0-5 and LB's own instance work,
+  exactly one `dev_docs/ROADMAP.md` — this repo's for phases 0-5 and LB's own instance work,
   `sekai-kb`'s for the framework phases 6-11 — and packets convert from those blocks
   exactly, on the owning side.
   Phase transitions are Wilson gates: `/dev:plan` for phase n+1
