@@ -2,11 +2,11 @@
 
 **Approved 2026-07-07; consolidated 2026-07-26; scope noted 2026-07-29 (LB-62).** This is
 the product-intent SSOT **for this instance**. Architecture and implementation contracts
-live in `docs/SPEC.md` and `docs/adr/`; phase order and LB's adoption steps live in
-`docs/ROADMAP.md`. Conflicts resolve per the precedence rule in `.agent-toolkit/dev.md`.
+live in `dev_docs/SPEC.md` and `dev_docs/adr/`; phase order and LB's adoption steps live in
+`dev_docs/ROADMAP.md`. Conflicts resolve per the precedence rule in `.agent-toolkit/dev.md`.
 
 > **Not the framework's PRD.** `sekai-kb` has its own
-> [`docs/PRD.md`](https://github.com/wilsonkichoi/sekai-kb/blob/main/docs/PRD.md) stating
+> [`dev_docs/PRD.md`](https://github.com/wilsonkichoi/sekai-kb/blob/main/dev_docs/PRD.md) stating
 > what the *framework* is for and who adopts it (ADR 008, upstream). This document states
 > what **lagunabeach.md** is for. Goal 2 below is why both exist: the framework was cut
 > out of this instance as a scheduled phase, so its origin is LB's product intent even

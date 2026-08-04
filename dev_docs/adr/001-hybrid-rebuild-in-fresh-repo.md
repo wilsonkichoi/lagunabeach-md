@@ -16,7 +16,7 @@ resurfacing. The genuinely valuable inheritance was ~30 files of 1,519. A prior 
 
 Stop maintaining the fork. Create a fresh Astro project and extract into it, as literal
 files: the design system (6 CSS files, with semiont CSS deferred), ~15 curated components, ~10 build
-scripts, and the editorial tooling (`docs/SPEC.md` extraction map is the contract). Write page shells and everything
+scripts, and the editorial tooling (`dev_docs/SPEC.md` extraction map is the contract). Write page shells and everything
 else clean. The fork is archived read-only as `lagunabeach-md-v1` after domain cutover
 (ROADMAP task 3.2). Upstream merging ends permanently; future Taiwan.md improvements are deliberate
 idea cherry-picks, re-implemented generic (SPEC `Risk controls`).

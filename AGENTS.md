@@ -22,21 +22,21 @@ question depends on whether the question is about **this instance** or about the
 **framework** (ADR 008, upstream). The instance's documents are here and are
 `merge=ours`, so framework upgrades never overwrite them:
 
-- **Product SSOT:** `docs/PRD.md` — what lagunabeach.md is for: goals, customer value,
+- **Product SSOT:** `dev_docs/PRD.md` — what lagunabeach.md is for: goals, customer value,
   north star, and non-goals.
-- **Engineering SSOT:** `docs/SPEC.md` and `docs/adr/` — LB's deployment and domain, its
+- **Engineering SSOT:** `dev_docs/SPEC.md` and `dev_docs/adr/` — LB's deployment and domain, its
   content and categories, the extraction map, the inherited-fork disposition, the
   instance risk controls, and ADRs 001-002 (the rebuild decisions).
-- **Delivery SSOT:** `docs/ROADMAP.md` — phases 0-5 (the rebuild and the framework cut,
+- **Delivery SSOT:** `dev_docs/ROADMAP.md` — phases 0-5 (the rebuild and the framework cut,
   which happened here) and, for each later phase, the instance-owned adoption step LB
   executes. Linear is the SSOT for live task state.
 
 The framework's own PRD, SPEC, ROADMAP, and ADRs 003-008 live in
-[`sekai-kb/docs/`](https://github.com/wilsonkichoi/sekai-kb/tree/main/docs) beside the
+[`sekai-kb/dev_docs/`](https://github.com/wilsonkichoi/sekai-kb/tree/main/dev_docs) beside the
 code they govern. Read them there for the stack, repo topology, the `place.config.ts`
 schema, the content model, the build pipeline, the page set, the negative requirements
 (including the genericity gates), framework risk controls, and the phase 6-11 task
-blocks. `docs/adr/README.md` indexes both sides. Nothing is duplicated across the two
+blocks. `dev_docs/adr/README.md` indexes both sides. Nothing is duplicated across the two
 repositories: a statement lives in exactly one of them.
 - **Instance history:** `CHANGELOG.md` — LB work only. Framework release notes stay in
   the `sekai-kb` changelog and are read from release tags during `/sekai-upgrade`.
@@ -54,7 +54,7 @@ repositories: a statement lives in exactly one of them.
   `.github/workflows/instance-guards.yml`. Guards that only make sense for this
   instance live here rather than in the framework-owned `deploy.yml`, so a tag merge
   never conflicts with them and adopters never inherit them.
-- **Architecture diagrams (engineering SSOT):** `docs/diagrams/*.drawio`.
+- **Architecture diagrams (engineering SSOT):** `dev_docs/diagrams/*.drawio`.
 
 ## Environment variable
 
@@ -95,7 +95,7 @@ derived, gitignored projections of `knowledge/`; never edit them directly.
    `scripts/ci/check-scan-root-docs.mjs` keeps every scan-root statement in this
    repository synchronized with the gates.
 3. **Extraction over invention:** design and components are copied from
-   `${SRC_HOME}/lagunabeach-md-v1` per `docs/SPEC.md`'s extraction map, then genericized — never
+   `${SRC_HOME}/lagunabeach-md-v1` per `dev_docs/SPEC.md`'s extraction map, then genericized — never
    re-prompted from description.
 4. **Framework vs instance:** `src/`, `scripts/`, and `.agents/skills/` are
    framework-owned. Customize through `place.config.ts`, `knowledge/`, and

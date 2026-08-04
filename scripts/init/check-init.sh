@@ -15,10 +15,16 @@
 #      CHANGELOG.md, knowledge/{Category}/
 #      dirs, INBOX.md, CNAME, the local genericity denylist, and the removed
 #      .sekai-template marker.
-#   3b. Asserts the ADR 008 maintainer-doc strip: docs/PRD.md, docs/SPEC.md,
-#      docs/ROADMAP.md, and docs/adr/ are absent while docs/playbook/ and
-#      docs/runbook/ survive — then plants each inverse against the same predicate
-#      and requires it to fail, so the four absent paths cannot pass vacuously.
+#   3b. Asserts the ADR 008 maintainer-doc strip (ADR 009 form): dev_docs/ is
+#      absent while docs/playbook/ and docs/runbook/ survive — then plants each
+#      inverse against the same predicate and requires it to fail, so the absent
+#      path cannot pass vacuously.
+#   3b-ii. Asserts no file in the STRIPPED tree so much as names a stripped path.
+#      The framework-docs gate proves this for the repository's own files, but it
+#      exempts the wizard as a strip mechanism — and the wizard EMITS AGENTS.md and
+#      README.md, whose template text is therefore unscanned. A stale line there
+#      ships a dangling link to every adopter with nothing to catch it. Asserted
+#      here because this is the only place a really-stripped tree exists.
 #   3c. Asserts the demo-media strip: public/media/sounds/ and the soundscape
 #      manifest are absent, and no audio file survives anywhere under public/,
 #      while public/ itself survives — then plants each inverse and requires the
@@ -112,7 +118,7 @@ assert_rejected_claude_shim() {
 # Kept as a predicate (silent, exit status only) so the SAME code path can be run
 # against planted inverse fixtures below. An assertion that cannot fail is not
 # evidence, and a stripped-tree check is exactly the shape that passes vacuously.
-MAINTAINER_DOCS="docs/PRD.md docs/SPEC.md docs/ROADMAP.md docs/adr"
+MAINTAINER_DOCS="dev_docs"
 ADOPTER_DOC_TREES="docs/playbook docs/runbook"
 
 docs_correctly_stripped() {
@@ -126,14 +132,59 @@ docs_correctly_stripped() {
   return 0
 }
 
-# Plant a maintainer doc back into a fixture tree: a file for the .md paths, a
-# directory carrying a file for docs/adr (the predicate tests existence either way).
+# Plant a maintainer doc back into a fixture tree: a file for a .md path, a
+# directory carrying a file otherwise (the predicate tests existence either way).
 plant_maintainer_doc() {
   local tree="$1" rel="$2"
   case "$rel" in
     *.md) mkdir -p "$(dirname "$tree/$rel")"; printf 'planted\n' > "$tree/$rel" ;;
     *)    mkdir -p "$tree/$rel"; printf 'planted\n' > "$tree/$rel/planted.md" ;;
   esac
+}
+
+# ── ADR 009: what the wizard RENDERS may not name a stripped path ──
+#
+# This closes one specific hole, and it is worth being precise about which, because
+# the obvious broader version of this check is wrong.
+#
+# check-framework-docs.mjs already proves that no surviving file links into a stripped
+# path, and it carries the exemptions that claim needs: the strip mechanisms must name
+# the paths in order to strip them, `.gitattributes` must name them in order to protect
+# an instance's own documents there, and registered enumeration spans are masked. A scan
+# here that ignored those exemptions would re-litigate a contract that already has a
+# correct implementation, and would fail on files that are right.
+#
+# The genuine gap is REGENERATED_AT_ADOPTION. That gate exempts AGENTS.md, CLAUDE.md,
+# README.md, and CHANGELOG.md because whatever the framework's copy says, the adopter's
+# copy is freshly rendered by the wizard — and the wizard's template text lives inside
+# writer.mjs, which the same gate exempts as a strip mechanism. So the framework copy is
+# exempt for being regenerated, the template is exempt for being a mechanism, and the
+# RENDERED result is the one artifact nobody checks. A stale path in a template reaches
+# every adopter with nothing to catch it.
+#
+# The stripped tree is the only place that rendered text exists as a file, which is why
+# the assertion lives here. Same predicate shape as above: silent, exit status only, so
+# the planted inverse below can run it and require failure.
+#
+# This list mirrors check-framework-docs.mjs's REGENERATED_AT_ADOPTION. A file added to
+# the wizard's renderers must be added here too: an unlisted rendered file is scanned by
+# neither.
+WIZARD_RENDERED_FILES="AGENTS.md CLAUDE.md README.md CHANGELOG.md"
+
+stripped_tree_has_no_dangling_ref() {
+  local tree="$1" rel file hits
+  for rel in $MAINTAINER_DOCS; do
+    for file in $WIZARD_RENDERED_FILES; do
+      [ -f "$tree/$file" ] || continue
+      hits="$(grep -lIF "$rel" "$tree/$file" 2>/dev/null || true)"
+      [ -z "$hits" ] || {
+        DANGLING_REF_HITS="$hits"
+        DANGLING_REF_PATH="$rel"
+        return 1
+      }
+    done
+  done
+  return 0
 }
 
 # ── Demo media: the synthesized soundscape clips are stripped at adoption ──
@@ -191,7 +242,7 @@ snapshot "$TMP/run2"
 # HEAD carries none of them (the wizard removed them at adoption), where the planted
 # inverse fixtures are the whole non-vacuity argument.
 PRE_INIT_HAS_MAINTAINER_DOCS=false
-if [ -f "$TMP/run1/docs/SPEC.md" ]; then
+if [ -e "$TMP/run1/$(set -- $MAINTAINER_DOCS; echo "$1")" ]; then
   PRE_INIT_HAS_MAINTAINER_DOCS=true
 fi
 # Same record for the demo media (see the demo-media block below): the framework
@@ -364,14 +415,14 @@ if grep -Fxq "## Template mode" "$R/AGENTS.md"; then
   fail "AGENTS.md carries template-only '## Template mode'"
 fi
 
-# ADR 008: the four framework maintainer paths are gone and both adopter doc trees
+# ADR 008/009: the framework maintainer tree is gone and both adopter doc trees
 # survive, asserted against the tree the wizard really stripped.
 docs_correctly_stripped "$R" \
   || fail "maintainer docs survived init, or an adopter doc tree was removed (expected absent: $MAINTAINER_DOCS; expected present: $ADOPTER_DOC_TREES)"
 
 # Planted inverse: the predicate above must REJECT each way the strip can go wrong.
-# Without this, an assertion over four absent paths would pass on any tree at all,
-# including one where the wizard silently stopped removing them.
+# Without this, an assertion over an absent path would pass on any tree at all,
+# including one where the wizard silently stopped removing it.
 DOCS_FIXTURE="$TMP/docs-strip-fixture"
 mkdir -p "$DOCS_FIXTURE"
 cp -R "$R/docs" "$DOCS_FIXTURE/docs"
@@ -401,6 +452,38 @@ if [ "$PRE_INIT_HAS_MAINTAINER_DOCS" = true ]; then
 else
   echo "✓ maintainer docs stripped, adopter doc trees kept (HEAD carried none — this checkout is an adopted instance; the planted inverses are the non-vacuity proof)"
 fi
+
+# ADR 009: the files the wizard RENDERS may not name a stripped path. This closes the
+# one gap the framework-docs gate structurally cannot cover: those files are exempt
+# there for being regenerated, and the templates that produce them are exempt for being
+# a strip mechanism, so the rendered result is checked by neither.
+DANGLING_REF_HITS=""
+DANGLING_REF_PATH=""
+stripped_tree_has_no_dangling_ref "$R" || fail "a file the wizard rendered into the
+  stripped instance names the removed path '$DANGLING_REF_PATH'. An adopter would follow
+  a reference to a file they do not have. The text comes from a wizard template
+  (renderAgentsMd, CLAUDE_MD_SHIM, renderReadme, renderChangelog) — drop the line there;
+  the framework-docs gate cannot see inside the wizard.
+  files:
+$DANGLING_REF_HITS"
+
+# Planted inverse: the scan must REJECT a rendered file that names a stripped path.
+# Without it this assertion passes on any tree where the grep found nothing for any
+# reason at all — including a scan pointed at files that no longer exist. The plant goes
+# into a rendered file specifically, because that is the only class this scan covers:
+# planting elsewhere would pass and prove the scan is looking in the wrong place.
+DANGLING_FIXTURE_FILE="$R/$(set -- $WIZARD_RENDERED_FILES; echo "$1")"
+cp "$DANGLING_FIXTURE_FILE" "$DANGLING_FIXTURE_FILE.orig"
+printf 'See %s for the architecture.\n' "$(set -- $MAINTAINER_DOCS; echo "$1")" \
+  >> "$DANGLING_FIXTURE_FILE"
+if stripped_tree_has_no_dangling_ref "$R"; then
+  mv "$DANGLING_FIXTURE_FILE.orig" "$DANGLING_FIXTURE_FILE"
+  fail "the dangling-reference scan accepted a rendered file naming a removed path"
+fi
+mv "$DANGLING_FIXTURE_FILE.orig" "$DANGLING_FIXTURE_FILE"
+stripped_tree_has_no_dangling_ref "$R" \
+  || fail "removing the planted dangling reference did not restore the baseline"
+echo "✓ every file the wizard renders is free of stripped paths (planted inverse fails the same scan)"
 
 # Demo media: no audio and no soundscape manifest survive adoption, while public/
 # itself does. The manifest goes with the knowledge/ reseed; the clips are removed

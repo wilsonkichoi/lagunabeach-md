@@ -9,7 +9,7 @@ phase n+1 runs only after Wilson confirms phase n closed. Estimates use
 > **Two roadmaps, one tracker.** The framework's own delivery plan — the phases 6-11 task
 > blocks that `/dev:plan` converts framework packets from, their amendments, and the
 > ordering rules that govern them — lives in
-> [`sekai-kb/docs/ROADMAP.md`](https://github.com/wilsonkichoi/sekai-kb/blob/main/docs/ROADMAP.md),
+> [`sekai-kb/dev_docs/ROADMAP.md`](https://github.com/wilsonkichoi/sekai-kb/blob/main/dev_docs/ROADMAP.md),
 > beside the code those phases build. This document keeps phases 0-5 (the rebuild and the
 > framework cut, which happened here) and, for each later phase, the **instance-owned**
 > work LB itself executes. A task block lives in exactly one repository; neither document
@@ -61,7 +61,7 @@ English-only — content, UI, and any instance-owned code. The framework's own E
 requirement and the machine gates that enforce it (place-name denylist + CJK-codepoint
 scan across every code tree, test fixtures included) are framework contracts; see the
 framework SPEC's negative requirements. Multi-language support is a post-project revisit
-after the framework's Phase 11 (`docs/PRD.md` non-goals); the `lagunabeach-md-v1` archive
+after the framework's Phase 11 (`dev_docs/PRD.md` non-goals); the `lagunabeach-md-v1` archive
 retains the fork's CJK implementations for reference.
 
 ---
@@ -119,7 +119,7 @@ became documented npm-command workflows in the 5.3 runbook.
   CNAME): `reports/`, `research/`, `.agent-toolkit/` (LB's tracker/process state — the
   template ships none), `public/data/boundary.geojson` (map overlay and 5.5's
   SystemDiagram both degrade gracefully without it — verified), LB visual baselines
-  (recapture against the demo place), `docs/baselines/article-health-fork.md` + the
+  (recapture against the demo place), `dev_docs/baselines/article-health-fork.md` + the
   `article-health:baseline` fork-parity check (LB-specific; re-point to a demo-place
   baseline or drop the npm script in the template). `.claude/rules/` gets a split pass:
   framework-relevant engineering rules (astro-*, prebuild-*, gray-matter, shell
@@ -146,7 +146,7 @@ became documented npm-command workflows in the 5.3 runbook.
   landing surface: what this is, the <1h adopt path, links to playbook/runbook). Ship an
   **AGENTS.md** pointer so codex-cli and other agent CLIs boot the same
   instructions. State the language support boundary (see Language policy above).
-- **5.4 instance-owned list extends** beyond the original five files: `docs/baselines/**` and
+- **5.4 instance-owned list extends** beyond the original five files: `dev_docs/baselines/**` and
   `scripts/ci/genericity-denylist.local.txt` (final `merge=ours` list minted in the
   packet). LB's squash-merge history makes the task's step-2 graft/subtree-merge choice
   load-bearing — document the chosen mechanics in the runbook as the task requires.

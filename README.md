@@ -44,7 +44,8 @@ committing.
 - `docs/playbook/` and `docs/runbook/` contain editorial and operational guidance.
 - `src/`, `scripts/`, and `.agents/skills/` are framework-owned and arrive through
   tagged sekai-kb upgrades.
-- `docs/diagrams/` contains the draw.io architecture sources.
+- `dev_docs/` holds this instance's PRD, SPEC, ROADMAP, ADRs, baselines, draw.io
+  architecture sources, and the archived research the rebuild was grounded in.
 
 ## Genericity
 
