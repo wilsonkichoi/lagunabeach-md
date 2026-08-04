@@ -9,8 +9,8 @@
  *   node scripts/visual/capture-baseline.mjs                # capture into reports/visual/current/
  *   node scripts/visual/capture-baseline.mjs --baseline     # capture into reports/visual/baseline/
  *   node scripts/visual/capture-baseline.mjs --url=http://localhost:4322
- *   node scripts/visual/capture-baseline.mjs --only=/history/
- *   node scripts/visual/capture-baseline.mjs --pages=home,hub-history
+ *   node scripts/visual/capture-baseline.mjs --only=/latest/
+ *   node scripts/visual/capture-baseline.mjs --pages=home,hub
  *
  * Env:
  *   BASE_URL          override server URL (default http://localhost:4321)
@@ -23,8 +23,8 @@
 
 import { chromium } from 'playwright';
 import { execSync } from 'node:child_process';
-import { mkdirSync, writeFileSync } from 'node:fs';
-import { join, dirname } from 'node:path';
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { join, dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -33,10 +33,29 @@ const repoRoot = join(__dirname, '..', '..');
 
 // --- config ---
 
+const placeConfig = (await import(resolve(repoRoot, 'place.config.ts'))).default;
+
+// Nine of the pages below are fixed routes. The two that need a CONTENT url — one
+// article, one category hub — are derived, because this file is framework-owned and
+// a literal slug is correct for exactly one place. The article is the
+// lexicographically FIRST href, never the newest: latest.json is date-ordered, so
+// "newest" moves the moment an article ships and the diff would compare a baseline
+// against a different page.
+const lang = placeConfig.place.languages?.[0] || 'en';
+const latestPath = join(repoRoot, 'src', 'data', 'latest.json');
+let latest;
+try {
+  latest = JSON.parse(readFileSync(latestPath, 'utf-8'));
+} catch (err) {
+  throw new Error(`Cannot read ${latestPath} (${err.message}) — run \`npm run build\` first.`);
+}
+const articleHref = (latest.byLang?.[lang] ?? []).map((e) => e.href).sort()[0];
+if (!articleHref) throw new Error(`latest.json has no articles for lang "${lang}".`);
+
 const PAGES = [
   { name: 'home', url: '/' },
-  { name: 'article', url: '/trails/top-of-the-world/' },
-  { name: 'hub-history', url: '/history/' },
+  { name: 'article', url: `${articleHref.replace(/\/$/, '')}/` },
+  { name: 'hub', url: `/${placeConfig.categories[0].slug}/` },
   { name: 'explore', url: '/explore/' },
   { name: 'latest', url: '/latest/' },
   { name: 'graph', url: '/graph/' },
@@ -116,7 +135,9 @@ async function main() {
   console.log(`   branch:   ${getBranch()}`);
   console.log(`   commit:   ${getCommitHash().slice(0, 7)}`);
   console.log(`   output:   ${outDir.replace(repoRoot + '/', '')}`);
-  console.log(`   mode:     ${headed ? 'headed (visible)' : 'headless'}\n`);
+  console.log(`   mode:     ${headed ? 'headed (visible)' : 'headless'}`);
+  // A baseline and its current capture must agree on the two derived urls.
+  console.log(`   samples:  ${articleHref}  ${PAGES[2].url}\n`);
 
   const serverOk = await checkServer();
   if (!serverOk) process.exit(1);

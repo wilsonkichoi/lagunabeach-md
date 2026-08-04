@@ -22,6 +22,7 @@ export const ui = {
     'nav.contribute': 'Contribute',
     'nav.changelog': 'Changelog',
     'nav.dashboard': 'Dashboard',
+    'nav.soundscape': 'Soundscape',
     // header aria + search
     'nav.aria-home': 'Home',
     'nav.aria-main-navigation': 'Main navigation',
@@ -37,6 +38,7 @@ export const ui = {
     'footer.about': 'About',
     'footer.graph': 'Knowledge Graph',
     'footer.dashboard': 'Dashboard',
+    'footer.soundscape': 'Soundscape',
     'footer.contribute': 'Contribute',
     'footer.changelog': 'Changelog',
     'footer.report': 'Report an issue',
@@ -48,6 +50,76 @@ export const ui = {
     // article page
     'article.home': 'Home',
     'article.backToHome': 'Back to Home',
+    // feedback widget (features.feedback + workers.feedback)
+    'feedback.open': 'Give feedback',
+    'feedback.close': 'Close feedback form',
+    'feedback.heading': 'Something wrong on this page?',
+    'feedback.intro':
+      'Corrections, missing context, and questions all help. Every submission is read by a person.',
+    'feedback.category.label': 'Kind of feedback',
+    'feedback.category.correction': 'Correction',
+    'feedback.category.addition': 'Missing information',
+    'feedback.category.question': 'Question',
+    'feedback.category.other': 'Something else',
+    'feedback.message.label': 'Your feedback',
+    'feedback.message.requirement': 'Enter 10 to 4,000 characters.',
+    'feedback.message.placeholder': 'What should change, and why?',
+    'feedback.contact.label': 'Email (optional, only used to reply)',
+    // Rendered inside the honeypot's hidden, aria-hidden wrapper: a person never
+    // sees or hears it, and a form-filling bot reads it as an ordinary label.
+    'feedback.trap.label': 'Leave this field empty',
+    'feedback.submit': 'Send feedback',
+    'feedback.sending': 'Sending...',
+    'feedback.success': 'Thank you. Your feedback was received.',
+    // {field} is replaced with the field the endpoint rejected.
+    'feedback.invalid': 'Please check the {field} field and try again.',
+    'feedback.rateLimited':
+      'Too many submissions from this network. Please try again later.',
+    'feedback.error': 'Could not send your feedback. Please try again later.',
+    'feedback.noscript': 'This form needs JavaScript. Email your feedback instead:',
+    // soundscape page (features.soundscape + knowledge/sounds/_manifest.md)
+    'soundscape.meta.title': 'Soundscape',
+    // Says how the audio plays, never where it came from: provenance is per clip,
+    // in each manifest entry's own `credit`. A shared string cannot claim a field
+    // recording on behalf of every instance -- the demo clips are synthesized.
+    'soundscape.meta.description':
+      'Audio from this knowledge base, played straight in the browser.',
+    'soundscape.hero.title': 'Soundscape',
+    'soundscape.hero.subtitle':
+      'What this place sounds like. Each clip plays in the browser; nothing loads until you press play.',
+    'soundscape.count': '{n} recordings',
+    'soundscape.count.one': '1 recording',
+    // Hero stats line. "Wanted" counts the wishlist entries across every
+    // category: what this place is still missing is as much a fact about the
+    // collection as what it has.
+    'soundscape.stats.wanted': '{n} wanted',
+    'soundscape.stats.wanted.one': '1 wanted',
+    'soundscape.stats.categories': '{n} categories',
+    'soundscape.stats.categories.one': '1 category',
+    'soundscape.unsupported': 'Your browser cannot play this audio file.',
+    // Per-category surfaces. A declared category renders even with nothing in it
+    // yet -- the gap is the point, and the wishlist beside it says what would
+    // fill it.
+    'soundscape.category.empty': 'No recordings in this category yet.',
+    'soundscape.category.article': 'Read the article',
+    'soundscape.wishlist.title': 'Still wanted',
+    // Contribute block. The steps are the actual mechanics of the manifest, so
+    // they stay true for every instance; the call to action goes to /contribute,
+    // which owns the full process.
+    'soundscape.contribute.title': 'Add a recording',
+    'soundscape.contribute.step.one':
+      'Record the sound and export it as an MP3 you have the right to publish.',
+    'soundscape.contribute.step.two':
+      'Add the file under public/media/sounds/ in the repository.',
+    'soundscape.contribute.step.three':
+      'Describe it in knowledge/sounds/_manifest.md -- title, location, credit, and file -- and open a pull request.',
+    'soundscape.contribute.cta': 'How to contribute',
+    // Shown when no manifest exists, or it lists nothing playable. Documented
+    // empty state: an adopted instance starts here until it adds its own audio.
+    'soundscape.empty.title': 'No recordings yet',
+    'soundscape.empty.description':
+      'This knowledge base has not published any audio. Add entries to knowledge/sounds/_manifest.md and drop the files under public/media/sounds/ to fill this page.',
+
     // category hub
     'category.articleCount': '{n} articles',
     'category.readGuide': 'Read the full guide →',

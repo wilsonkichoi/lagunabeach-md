@@ -148,6 +148,24 @@ export interface PlaceConfig {
       instagram?: string;
     };
   };
+  /**
+   * Deployed Cloudflare Worker endpoints (\`docs/runbook/DEPLOY.md\` §Cloudflare
+   * Workers). Absent-safe: a missing key — or an empty string — keeps the
+   * capability that needs it off even when its \`features\` flag is true, so an
+   * instance upgrading across a framework release never has to edit config.
+   */
+  workers?: {
+    /** URL of this instance's deployed \`workers/feedback/\` worker. */
+    feedback?: string;
+    /**
+     * D1 \`database_id\` for \`workers/feedback/\`, printed by \`wrangler d1 create\`.
+     * It lives here because the generated \`workers/feedback/wrangler.generated.toml\`
+     * is disposable and gitignored, and \`workers/\` may carry no instance identity
+     * (iron rule 2). An account-scoped id, not a credential: useless without account
+     * auth. \`npm run worker-config\` reads it; unset generates an empty id and says so.
+     */
+    feedbackDatabaseId?: string;
+  };
   seo: {
     defaultOgImage: string;
     twitterHandle?: string;
@@ -297,12 +315,12 @@ projections of \`knowledge/\` — never edit them directly.
 2. **Genericity + English-only:** zero place-specific strings and zero CJK/multi-language
    code paths in any code tree; test fixtures are code, and so are the framework
    skills. Place identity flows only from \`place.config.ts\` + \`knowledge/\` +
-   \`public/media/\`. Machine-gated by \`npm run genericity\`, whose two gates carry
-   **different** roots: \`scripts/ci/check-genericity.sh\` (place-name denylist) scans
-   \`src/\`, \`scripts/\`, \`tests/\`, \`.agents/skills/\`;
+   \`public/media/\`. Machine-gated by \`npm run genericity\`, whose two gates each carry
+   their **own** roots: \`scripts/ci/check-genericity.sh\` (place-name denylist) scans
+   \`src/\`, \`scripts/\`, \`tests/\`, \`workers/\`, \`.agents/skills/\`;
    \`scripts/ci/check-english-only.mjs\` (CJK codepoints) scans \`src/\`, \`scripts/\`,
-   \`tests/\`, \`workers/\`, \`.agents/skills/\`; a gate skips any of its roots that this
-   instance does not have.
+   \`tests/\`, \`workers/\`, \`.agents/skills/\`; the two lists agree today but are stated
+   separately, and a gate skips any of its roots that this instance does not have.
 3. **Framework vs instance:** \`src/\` and \`scripts/\` are framework-owned — customize
    through config, content, and media. Anything more is upstreamed to sekai-kb and
    pulled back as a tagged release. The genericity gate is the structural guarantee.
@@ -458,6 +476,25 @@ export const MAINTAINER_DOCS = [
   'docs/adr',
 ];
 
+/**
+ * Demo media removed at adoption, the same class as the demo articles below.
+ *
+ * The template ships three short synthesized clips under `public/media/sounds/`
+ * so the /soundscape player and its visual bar are provable in the repository
+ * that ships them. They are the demo place's content, not the adopter's: an
+ * instance starts with no audio, and `knowledge/sounds/_manifest.md` goes with
+ * them for free (the `knowledge/` reseed below removes the whole tree). That
+ * leaves the page in the absent-manifest empty state until the adopter adds
+ * their own recordings.
+ *
+ * Only the demo subtree is listed. `public/media/` itself is where the adopter's
+ * own assets live, so it is never removed.
+ *
+ * `scripts/init/check-init.sh` asserts this removal against a tree the wizard
+ * really stripped, with planted inverses so the assertion cannot pass vacuously.
+ */
+export const DEMO_MEDIA = ['public/media/sounds'];
+
 /** Denylist terms for a place name: the full name plus its no-space form. */
 export function denylistTerms(name) {
   const full = name.toLowerCase().trim();
@@ -492,6 +529,21 @@ export function writeInstance(root, cfg) {
     `seeded  knowledge/{${cfg.categories.map((c) => c.title).join(',')}}/`,
   );
   write('knowledge/INBOX.md', INBOX_MD);
+
+  // Demo media: the synthesized soundscape clips are demo content, removed the
+  // same way the demo articles are. Their manifest went with the knowledge/
+  // reseed above, so an adopted instance starts with neither, and /soundscape
+  // renders its documented empty state until the adopter ships their own audio.
+  const removedMedia = [];
+  for (const rel of DEMO_MEDIA) {
+    const path = join(root, rel);
+    if (!existsSync(path)) continue;
+    rmSync(path, { recursive: true, force: true });
+    removedMedia.push(rel);
+  }
+  if (removedMedia.length > 0) {
+    actions.push(`removed ${removedMedia.join(', ')} (demo media)`);
+  }
 
   // CNAME: custom domain only. GitHub Pages default domains must not have one.
   const cname = join(root, 'CNAME');

@@ -78,18 +78,20 @@ derived, gitignored projections of `knowledge/`; never edit them directly.
 2. **Genericity + English-only:** zero place-specific strings and zero CJK/multi-language
    code paths in any code tree; test fixtures are code, and so are the framework skills
    under `.agents/skills/`. Place identity flows from `place.config.ts` + `knowledge/` +
-   `public/media/`. Machine-gated by `npm run genericity`, whose two gates carry
-   **different** instance-mode scan roots: `scripts/ci/check-genericity.sh` (place-name
-   denylist) scans `src/`, `scripts/`, `tests/`, `.agents/skills/`;
+   `public/media/`. Machine-gated by `npm run genericity`, whose two gates each carry
+   their **own** instance-mode scan roots: `scripts/ci/check-genericity.sh` (place-name
+   denylist) scans `src/`, `scripts/`, `tests/`, `workers/`, `.agents/skills/`;
    `scripts/ci/check-english-only.mjs` (CJK codepoints) scans `src/`, `scripts/`,
    `tests/`, `workers/`, `.agents/skills/`; in template mode (the `.sekai-template`
    marker, absent in this adopted instance) both scan the whole repository. Each root
    is scanned only where the directory exists, so a root that has not arrived yet is
-   silently unguarded rather than an error — `workers/` is in the CJK gate's roots
-   alone, so a denylisted place string under `workers/` would go unchecked. History:
+   silently unguarded rather than an error. The two lists agree today but are never
+   merged into one claim, so either gate can gain a root without the other. History:
    CI-gated from 0.3; scope extended to `tests/` plus the CJK-codepoint scan in LB-20
    under the English-only doctrine; `.agents/skills/` joined both gates with the
-   framework skills in 5.6 (framework SPEC, Negative requirements).
+   framework skills in 5.6; the denylist gate gained `workers/` in
+   `sekai-kb-v1.0.17`, closing the gap where a denylisted place string under
+   `workers/` went unchecked (framework SPEC, Negative requirements).
    `scripts/ci/check-scan-root-docs.mjs` keeps every scan-root statement in this
    repository synchronized with the gates.
 3. **Extraction over invention:** design and components are copied from

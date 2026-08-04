@@ -14,20 +14,25 @@ Two machine gates run over the same code trees, wired into the `genericity` CI j
   `Negative requirements`). U+2014 em dash and U+201C/U+201D curly quotes are below U+3000 and are
   not flagged.
 
-**Scan scope — the two gates do NOT share one root set.** In template mode (the
+**Scan scope — each gate derives and states its OWN root set.** In template mode (the
 `.sekai-template` marker, absent in this adopted instance) both scan the whole
 repository. In instance mode:
 
-- **`check-genericity.sh`** — four roots: `src/`, `scripts/`, `tests/`,
+- **`check-genericity.sh`** — five roots: `src/`, `scripts/`, `tests/`, `workers/`,
   `.agents/skills/`.
-- **`check-english-only.mjs`** — five roots: `src/`, `scripts/`, `tests/`, `workers/`,
-  `.agents/skills/`. `workers/` is in the CJK gate's roots alone, so in instance mode a
-  denylisted place string under `workers/` is unguarded when that tree arrives.
+- **`check-english-only.mjs`** — the same five roots: `src/`, `scripts/`, `tests/`,
+  `workers/`, `.agents/skills/`.
+
+The two lists agree as of `sekai-kb-v1.0.17`, but they are never merged into one claim —
+either gate can gain a root without the other, so read each one's own array before
+stating its scope.
 
 The shell gate appends each root only if the directory exists; the Node gate filters a
 fixed list the same way, so an absent root is skipped rather than an error. Scope grew
 from the original `src/` + `scripts/`: `tests/` plus the CJK gate in LB-20, then
-`.agents/skills/` with the framework skills in 5.6. Test fixtures are code and so is
+`.agents/skills/` with the framework skills in 5.6, then `workers/` on the denylist gate
+in `sekai-kb-v1.0.17` (adopted in LB-74), which closed the window in which a denylisted
+place string under `workers/` was unguarded on an instance. Test fixtures are code and so is
 agent-executed prose — the English-only + genericity doctrine is whole-project, never
 per-directory (framework SPEC `Negative requirements`; the earlier `scripts/`-only reading
 let `author: 'Taiwan.md'` and zh-TW fixtures ship in `tests/`). Derived projections

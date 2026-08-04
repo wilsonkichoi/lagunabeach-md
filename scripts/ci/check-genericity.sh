@@ -3,17 +3,19 @@
 # check-genericity.sh — the genericity gate.
 #
 # Fails if any place-specific string leaks into framework-owned code (src/,
-# scripts/, tests/, or .agents/skills/). Place identity must flow ONLY through
+# scripts/, tests/, workers/, or .agents/skills/). Place identity must flow ONLY through
 # place.config.ts, knowledge/, and public/media/ — never hardcoded in code trees
-# (ADR 002, SPEC §Negative requirements and §Risk controls). This is the structural
+# (ADR 002, SPEC §Negative requirements, §G risk 2). This is the structural
 # mitigation for the trap that motivated the whole rebuild.
 #
-# Scan scope, instance mode: src/, scripts/, tests/, .agents/skills/; test
-# fixtures are code, and framework skills are agent-executed prose that is code
-# for doctrine purposes — the whole-project doctrine in SPEC §Negative requirements,
-# enforced for framework skills by task 5.6. The English-only gate (check-english-only.mjs) has a
-# different instance root list; the two are never merged into one claim
-# (scripts/ci/check-scan-root-docs.mjs gates both statements).
+# Scan scope, instance mode: src/, scripts/, tests/, workers/, .agents/skills/;
+# test fixtures are code, Worker source is code, and framework skills are
+# agent-executed prose that is code for doctrine purposes — the whole-project
+# doctrine, STRATEGIC-DIRECTION 2026-07-11 (b), task 5.6. The English-only gate
+# (check-english-only.mjs) currently enumerates the same five roots, but each gate
+# derives and states its own list: they are never merged into one claim, so either
+# can gain a root without the other (scripts/ci/check-scan-root-docs.mjs gates both
+# statements against their own script).
 # place.config.ts (repo root), knowledge/, public/media/, and docs/
 # hold place identity legitimately and are outside the scan roots by
 # construction; the denylist file itself is inside scripts/ and is excluded
@@ -65,10 +67,11 @@ else
   [ -d "$ROOT/src" ] && SCAN_ROOTS+=("$ROOT/src")
   [ -d "$ROOT/scripts" ] && SCAN_ROOTS+=("$ROOT/scripts")
   [ -d "$ROOT/tests" ] && SCAN_ROOTS+=("$ROOT/tests")
+  [ -d "$ROOT/workers" ] && SCAN_ROOTS+=("$ROOT/workers")
   [ -d "$ROOT/.agents/skills" ] && SCAN_ROOTS+=("$ROOT/.agents/skills")
-  MODE="instance (src/, scripts/, tests/, .agents/skills/)"
+  MODE="instance (src/, scripts/, tests/, workers/, .agents/skills/)"
   if [ "${#SCAN_ROOTS[@]}" -eq 0 ]; then
-    echo "✓ genericity gate passed — no src/, scripts/, tests/, or .agents/skills/ to scan"
+    echo "✓ genericity gate passed — no src/, scripts/, tests/, workers/, or .agents/skills/ to scan"
     exit 0
   fi
 fi
@@ -84,8 +87,12 @@ fi
 #  - The derived, gitignored projections of knowledge/ (src/content via sync.sh,
 #    src/data via prebuild JSON, public/kb via build-kb-index): pruned by PATH,
 #    so a same-basename directory elsewhere is still scanned.
-#  - The denylist files (they necessarily contain the forbidden terms) and the
-#    template marker are dropped by filename.
+#  - The denylist files (they necessarily contain the forbidden terms), the
+#    template marker, and the derived worker deploy configs
+#    (workers/*/wrangler.generated.toml, written by npm run worker-config and
+#    gitignored — they carry the instance's own origin and worker names by design)
+#    are dropped by filename. A committed one would evade this skip only by being
+#    tracked, which scripts/ci/check-worker-config.mjs fails on.
 # grep -I skips binary files. -print0/xargs -0 handle any spaces in paths.
 HITS="$(find "${SCAN_ROOTS[@]}" \
   \( -type d \( \
@@ -97,6 +104,7 @@ HITS="$(find "${SCAN_ROOTS[@]}" \
        ! -name genericity-denylist.txt \
        ! -name genericity-denylist.local.txt \
        ! -name .sekai-template \
+       ! -name wrangler.generated.toml \
        -print0 \) \
   | xargs -0 grep -HniIE "$PATTERN" 2>/dev/null || true)"
 
