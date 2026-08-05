@@ -22,7 +22,7 @@ so task ids (`LB-*`) are continuous across the split.
 | # | Milestone | Outcome | Scope (tasks) | Exit gate | Est |
 |---|---|---|---|---|---|
 | 6 | Social + engagement | Feedback (Worker + D1 + widget + triage), snippet pipeline, soundscape | 6.1a-c · 6.2 · 6.3 · 6.3b · 6.3c · 6.3d · 6.4 | Live submission → D1 → GitHub issue, and three real recordings; tag released; instance #1 adopts clean (6.4); maintainer phase confirm | AI 20.25h \| Human 3h |
-| 7 | Differentiators | On-demand OG worker, RAG chat (bge-m3 + Workers AI + Claude API), QR flow | 7.1 · 7.2a-c · 7.3 · 7.4 | Eval set answered with citations, no hallucinated places (7.2c); tag released; instance #1 adopts clean (7.4); maintainer phase confirm | AI 13.25h \| Human 3.25h |
+| 7 | Differentiators | On-demand OG worker, RAG chat (bge-m3 + Workers AI, free tier end to end), QR flow | 7.1 · 7.2a-c · 7.3 · 7.4 | Eval set answered with citations, no hallucinated places (7.2c); tag released; instance #1 adopts clean (7.4); maintainer phase confirm | AI 14.5h \| Human 2.5h |
 | 8 | Semiont plugin layer | Organ architecture in sekai-kb (config.json manifest, core organs); instance #1 enables core + MANIFESTO | 8.1 · 8.2 · 8.3 | Site builds with `semiont/` deleted and organs toggle via config only; tag released; instance #1 adopts clean (8.3); maintainer phase confirm | AI 5h \| Human 0.5h |
 | 9 | MCP + AI delivery | Remote MCP server (`workers/mcp/`) exposing list_topics/get_article/search/semantic_search; AI-access page + `/kb/agent.md` boot file; adopter upgrade playbook proven on the first real post-cut feature release | 9.1 · 9.2 · 9.3 | An MCP client connected to the instance's `/mcp` endpoint answers a question about its place via tools, no clone; tag released; instance #1 adopts clean (9.3); maintainer phase confirm | AI 6h \| Human 0.75h |
 | 10 | Perception (analytics) | GA4 + Search Console + Cloudflare Web Analytics live behind `features.analytics`; signal fetchers ported; dashboard analytics panels | 10.1 · 10.2 · 10.3 | Dashboard renders real traffic/search data from a fetch run, zero analytics IDs in `src/` outside place.config; tag released; instance #1 adopts clean (10.3); maintainer phase confirm | AI 5h \| Human 1.5h |
@@ -46,13 +46,17 @@ is real work with human steps, so it is tracked as a task rather than asserted a
 property. Those packets execute in the instance repository; the tag they adopt is cut in
 `sekai-kb` at verify of the phase's last framework task.
 
-**Totals for these phases:** AI ≈ 62.5h | Human ≈ 10.25h. Phases 6-8 close the original
-plan (AI ≈ 34.25h | Human ≈ 5.5h); the extension phases 9-11 add AI ≈ 28.25h | Human ≈ 4.75h
-and roughly 1.5-2 weeks elapsed. Phase 6's numbers are the 2026-07-29 planning amendment's,
-not the original block estimates; phases 7, 8, 10, and 11 gained a terminal adoption packet
-in the 2026-08-04 exit-gate amendment, which is the whole of the increase over the previous
-totals (AI ≈ 59.25h | Human ≈ 7.25h). Phases 0-5, and therefore the grand totals for the
-whole programme, are recorded in instance #1's roadmap.
+**Totals for these phases:** AI ≈ 68h | Human ≈ 9.5h. Phases 6-8 close the original
+plan (AI ≈ 39.75h | Human ≈ 6h); the extension phases 9-11 add AI ≈ 28.25h | Human ≈ 3.5h
+and roughly 1.5-2 weeks elapsed. Phase 6's numbers are the 2026-07-29 planning amendment's
+as revised by the three later Phase 6 amendments, not the original block estimates; phases
+7, 8, 10, and 11 gained a terminal adoption packet in the 2026-08-04 exit-gate amendment;
+Phase 7's are the 2026-08-05 planning amendment's. **Every figure in this paragraph is now
+summed from the per-phase subtotals below** — the previous AI totals did not reconcile with
+them (the stated AI ≈ 62.5h against an actual 67h before this amendment, and the
+phase-6-through-8 and 9-through-11 splits likewise), because each amendment updated its own
+phase's row without re-summing. The human total was correct throughout. Phases 0-5, and
+therefore the grand totals for the whole programme, are recorded in instance #1's roadmap.
 
 **Language policy:** every phase ships English-only. The framework carries no
 CJK/multi-language code path, language profile, or gate — in ANY code tree (`src/`,
@@ -280,6 +284,60 @@ rather than another paragraph (`dev_docs/research/origin-decisions.md §3`).
 
 ---
 
+## Phase 7 planning amendment — approved 2026-08-05
+
+Records the `/dev:plan` conversion decisions for Phase 7. The Phase 7 blocks below carry
+them inline; this section is the rationale, and the packet bodies cite it. Same form as the
+four Phase 6 amendments.
+
+- **D1 — chat generation is Workers AI free tier, not the Claude API.** The maintainer's
+  ruling: an adopter brings their own Cloudflare account and nothing else, exactly as the
+  feedback worker already requires, so **both** the embedding call and the generation call
+  run on the Workers AI free tier. This supersedes block 7.2b step 1 ("pass top-k chunks to
+  Claude"), the Human lines on 7.2b and 7.4 that budgeted for a Claude API key, and the
+  milestone row's "Claude API". It also contradicts two statements in `dev_docs/SPEC.md` —
+  §Stack's "**Chat generation calls the Claude API**" bullet and §New builds (6)'s "calls
+  Claude with citation-required prompting" — and those edits land **in the 7.2b packet**,
+  where the code proves them, rather than in a separate architecture pass. What survives the
+  change is the discipline attached to the superseded bullet: the model is **not pinned in
+  the SPEC**, it is chosen against the current Workers AI catalog at execution time, and
+  `dev_docs/research/platform-notes.md §2.10` remains the documented quality/cost escalation
+  to a hosted model. The gain is that the framework then ships with no third-party API key
+  at all, which is the strongest available form of `dev_docs/PRD.md`'s no-paid-services
+  non-goal; the cost is answer quality against a free 8B-class model, which the 7.2c
+  evaluation set is what measures.
+- **D2 — corpus embedding ships one provider, Workers AI REST.** SPEC §Stack permits
+  "offline GPU or Workers AI" for the corpus; only the second is built. The port source is
+  Ollama-based and its provider layer is dropped with the rest of its article-level and
+  multi-language code. Removes 7.2a's Human 0.5h, which existed only for the GPU path.
+- **D3 — the vectors artifact is derived and gitignored, with a tracked-file gate.**
+  Block 7.2a says to emit the vectors into `workers/chat/`, which is correct, but the file
+  carries article titles, URLs, and body text into a tree that may carry no place identity
+  (`AGENTS.md` iron rule 2, and both machine gates scan `workers/`). It therefore takes the
+  `wrangler.generated.toml` treatment exactly: `.gitignore`, the skip lists in both gates,
+  and a `check-worker-config.mjs` failure if git tracks it.
+- **D4 — the evaluation set lives in `knowledge/chat/_eval.md`,** not `workers/chat/eval/`
+  as block 7.2c says. Same reason as D3: the questions are about the place. The leading `_`
+  is what makes the three `knowledge/` scanners skip it, as with the soundscape manifest.
+- **D5 — QR contexts live in `knowledge/chat/_contexts.md` and the printable sheet is
+  `npm run qr:sheet`,** not a public route. Greetings are place content, and keeping the
+  sheet a script means Phase 7 adds exactly one page (`/chat`) to the gated route list.
+- **D6 — new `place.config` keys, all absent-safe:** `features.og?`, `workers.og?`,
+  `workers.chat?`, plus `workers.chatDatabaseId?` only if 7.2b's rate limit falls back to
+  D1 rather than the Workers rate-limiting binding. Missing key = capability off, per the
+  spec invariant.
+- **Port source:** the v1 `build-embeddings.mjs` the maintainer supplied at plan time is
+  recorded in the 7.2a packet, not here — its path names the pre-cut instance, and the
+  place-name gate scans this file in template mode.
+- **Estimates:** Phase 7 becomes AI ≈ 14.5h | Human ≈ 2.5h (was AI ≈ 13.25h | Human ≈
+  3.25h). AI gains 0.5h on 7.2a (the gitignore + two-gate + tracked-file wiring of D3) and
+  0.5h on 7.2b (the rate limit and CORS the block did not name, which the feedback worker
+  established as the house minimum for a public endpoint); Human loses 0.5h on 7.2a (D2)
+  and 0.25h on 7.4 (no Claude API key to provision). The 13.25h it replaces was itself
+  0.25h under the block sum.
+
+---
+
 ## Detailed task blocks: Phases 6-8
 
 These are the active source blocks for `/dev:plan`. Model names are advisory and
@@ -432,7 +490,9 @@ names the instance in its own `Execution repo:` line.
   Downstream: Phase 7 entry
 ```
 
-_Phase 6 subtotal: AI 16.25h | Human 2.5h_
+_Phase 6 subtotal: AI 20.25h | Human 3h_ (the three post-6.3 amendments; the earlier
+16.25h/2.5h figure predated 6.3b, 6.3c, and 6.3d and is what the totals paragraph above
+now re-sums from)
 
 **Phase 7: Differentiators**
 
@@ -449,70 +509,96 @@ _Phase 6 subtotal: AI 16.25h | Human 2.5h_
   Acceptance: og:image URLs render per-article cards; cached responses complete in <200ms
   Downstream: 7.2a
 
-[7.2a] Corpus embeddings: build-embeddings.mjs + static vectors
+[7.2a] Corpus embeddings: build-embeddings.mjs + gitignored static vectors
   Effort: M | Model: Opus | Depends: 7.1
-  Est: AI 2h + 0.5h review | Human 0.5h (offline GPU embedding run, if that path chosen)
+  Est: AI 2.5h + 0.5h review | Human 0h
   Research: dev_docs/research/platform-notes.md §2 (RAG architecture, chunking, bge-m3
     constraints, Workers AI cost, V8 CPU budget, code skeleton)
+  Decision: one embedding provider ships, Workers AI REST (2026-08-05 amendment, D2); the
+    artifact is derived and gitignored because it carries place content into a tree that
+    forbids place identity (D3). The port source's path is in the packet, not here (D6 note).
   Steps:
-    1. Ask the maintainer for the path to the v1 build-embeddings.mjs (the port source).
-       Read it and platform-notes.md §2, then port: chunk articles at 300-500 tokens on
-       ## headings; embed with bge-m3 at 1024 dimensions on an offline GPU or Workers AI.
-       Emit static vectors JSON into workers/chat/.
-  Acceptance: vectors cover every article; chunk metadata includes title, url, category,
-    and heading
+    1. Read the v1 build-embeddings.mjs named in the packet, and platform-notes.md §2, then
+       port: chunk articles at 300-500 tokens on ## headings; embed with bge-m3 at 1024
+       dimensions through the Workers AI REST API. Take the int8 unit quantization, the flat
+       N x DIM layout, and the versioned manifest; leave the Ollama provider, the
+       article-level embed text, the category map, and the language loop behind.
+    2. Emit workers/chat/vectors.json, gitignored, with the skip entry in both machine gates
+       and a check-worker-config.mjs failure if git ever tracks it.
+    3. Keep it out of the prebuild chain: the site build stays green with no Cloudflare
+       credentials. CI automation is 11.2's job.
+  Acceptance: vectors cover every article (a zero-chunk article fails the run by name); chunk
+    metadata includes title, url, category, and heading; the chunker's suite runs in CI with
+    no network
   Downstream: 7.2b, 9.1, 11.2
 
-[7.2b] Chat worker: query embedding + cosine retrieval + Claude API
+[7.2b] Chat worker: query embedding + cosine retrieval + free-tier generation
   Effort: M | Model: Opus | Depends: 7.2a
-  Est: AI 2.5h + 0.5h review | Human 0.25h (Claude API key + Workers AI binding)
+  Est: AI 3h + 0.5h review | Human 0.25h (Workers AI binding + deploy)
+  Decision: generation is Workers AI free tier, not the Claude API (2026-08-05 amendment,
+    D1). This packet carries the two SPEC edits that ruling requires — §Stack's generation
+    bullet and §New builds (6) — and keeps their not-pinned-here discipline: the model id is
+    chosen against the current Workers AI catalog at execution time, never copied from the
+    dated research.
   Steps:
-    1. Build workers/chat/. Embed queries through Workers AI @cf/baai/bge-m3; perform
-       in-worker cosine retrieval over vectors cached in global scope; pass top-k chunks
-       to Claude with citation-required prompting; stream the response.
-  Acceptance: the deployed worker streams an answer from article content with citations
+    1. Build workers/chat/. Embed queries through Workers AI @cf/baai/bge-m3; decode the
+       7.2a vectors once into global scope and retrieve by cosine; prompt a free-tier
+       Workers AI text model with citation-required prompting; stream the response, ending
+       with a machine-readable citation payload so no consumer parses prose.
+    2. Lock CORS to the deploy-time origin and rate-limit per hashed IP, as workers/feedback
+       does — a public endpoint that spends the shared 10k neurons/day allowance needs both.
+  Acceptance: the deployed worker streams an answer from article content with citations, and
+    refuses rather than inventing one when the corpus has no support
   Downstream: 7.2c, 9.1
 
 [7.2c] /chat page + evaluation set
   Effort: M | Model: Opus | Depends: 7.2b
   Est: AI 2h + 0.5h review | Human 1h (review evaluation answers)
+  Decision: the evaluation set lives in knowledge/chat/_eval.md, not workers/chat/eval/
+    (2026-08-05 amendment, D4) — the questions are about the place.
   Steps:
-    1. Build /chat in vanilla JS; answers cite article links.
-    2. Check a 10-question evaluation set into workers/chat/eval/ and run it against the
-       live worker.
+    1. Build /chat in vanilla JS; render the worker's citation payload as linked cards.
+    2. Write the 10-question evaluation set, eight answerable and two that must be refused,
+       and run it against the live worker with npm run chat:eval.
   Acceptance: the evaluation set is answered from articles with citations and no
-    hallucinated places
+    hallucinated places; the runner exits nonzero on any citation that does not resolve to
+    a real article
   Downstream: 7.3, 9.1
 
 [7.3] QR flow: location-context deep links + printable codes
   Effort: S | Model: Sonnet | Depends: 7.2c
   Est: AI 1h + 0.25h review
+  Decision: contexts live in knowledge/chat/_contexts.md and the sheet is npm run qr:sheet,
+    not a public route (2026-08-05 amendment, D5).
   Steps:
     1. Add a ctx-param map from location slug to location-aware greeting and retrieval hint.
+       The hint joins the embedded query, never the generation prompt.
     2. Add a printable QR sheet that generates codes for physical locations.
   Acceptance: scanning a location code opens /chat with a location-aware greeting
   Downstream: 7.4
 
 [7.4] Phase 7 exit gate: ship the tag, adopt it in the instance, go live
   Effort: S | Model: Opus | Depends: 7.1, 7.2c, 7.3
-  Est: AI 1h + 0.25h review | Human 1.5h (Claude API key, Workers AI binding, eval review,
-    printed QR placements)
+  Est: AI 1h + 0.25h review | Human 1.25h (Cloudflare setup, eval review, printed QR
+    placements)
   Execution repo: the instance (every commit); the tag is cut in sekai-kb at verify of the
     last framework task.
   Steps:
     1. Cut the sekai-kb release covering 7.1-7.3, with an upgrade note for the chat and OG
        config keys; adopt it with /sekai-upgrade (real merge commit, instance-owned files
        untouched, instance CI green, FRAMEWORK-VERSION bumped after verification).
-    2. Enable features.chat and the OG worker flag; deploy the instance's own chat and og
-       workers, the Claude API key, and the Workers AI binding.
-    3. Choose the instance's QR locations and their ctx slugs, and print the sheet.
+    2. Enable features.chat and features.og; build the instance's own vectors and deploy its
+       own chat and og workers with the Workers AI binding. No third-party API key exists
+       to provision (2026-08-05 amendment, D1).
+    3. Write the instance's own evaluation set, choose its QR locations and their ctx slugs,
+       and print the sheet.
   Acceptance: the deployed instance answers the evaluation set from its own articles with
     citations; og:image renders per-article cards in a real social preview; a scanned
     location code opens /chat with that location's greeting; maintainer phase confirm
   Downstream: Phase 8 entry
 ```
 
-_Phase 7 subtotal: AI 13.25h | Human 3.25h_
+_Phase 7 subtotal: AI 14.5h | Human 2.5h_
 
 **Phase 8: Semiont plugin layer**
 
