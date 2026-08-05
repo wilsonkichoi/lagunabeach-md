@@ -452,11 +452,11 @@ _Phase 6 subtotal: AI 16.25h | Human 2.5h_
 [7.2a] Corpus embeddings: build-embeddings.mjs + static vectors
   Effort: M | Model: Opus | Depends: 7.1
   Est: AI 2h + 0.5h review | Human 0.5h (offline GPU embedding run, if that path chosen)
-  Research:
-    - ${SRC_HOME}/lagunabeach-md/dev_docs/research/taiwan-md-research.md §Notes on RAG Chatbot
-    - ${SRC_HOME}/lagunabeach-md-v1/scripts/core/build-embeddings.mjs (port source)
+  Research: dev_docs/research/platform-notes.md §2 (RAG architecture, chunking, bge-m3
+    constraints, Workers AI cost, V8 CPU budget, code skeleton)
   Steps:
-    1. Port build-embeddings.mjs from the v1 archive. Chunk articles at 300-500 tokens on
+    1. Ask the maintainer for the path to the v1 build-embeddings.mjs (the port source).
+       Read it and platform-notes.md §2, then port: chunk articles at 300-500 tokens on
        ## headings; embed with bge-m3 at 1024 dimensions on an offline GPU or Workers AI.
        Emit static vectors JSON into workers/chat/.
   Acceptance: vectors cover every article; chunk metadata includes title, url, category,
