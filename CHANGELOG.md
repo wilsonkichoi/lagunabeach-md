@@ -55,6 +55,45 @@ tags, never framework `main`** (ADR 004, SPEC
   pattern to a second worker.
 - **Runbook:** `docs/runbook/DEPLOY.md` gains an OG worker subsection with the deploy
   command, vars table, route registration, and cache-purge instructions.
+- **Corpus embeddings (`npm run embeddings:build`).** `scripts/core/build-embeddings.mjs`
+  chunks every `knowledge/` article at roughly 300-500 words on `##` heading boundaries,
+  embeds each chunk with `@cf/baai/bge-m3` through the Workers AI REST API, and writes
+  `workers/chat/vectors.json`: int8-quantized unit vectors (a consumer's dot product is
+  cosine) plus per-chunk `{id, slug, title, url, category, heading, chunkIndex, text}`
+  metadata, under a versioned `rag-v1` manifest. This is the retrieval substrate the chat
+  worker, the MCP `semantic_search` tool, and the refresh pipeline all read.
+- **The embedding index is derived and gitignored.** It carries every article's title,
+  URL, and body text, so it is rebuilt at deploy time rather than committed to `workers/`.
+  Both machine gates skip it by name, and `npm run worker-config:check` now fails if a
+  `vectors.json` — or any generated worker artifact — is tracked by git.
+- **The corpus is every published article, and every article it does not embed is named
+  in the run output.** Articles are discovered from the filesystem, the same way the
+  frontmatter and article-health gates discover them, so a `knowledge/` directory that is
+  not one of your `place.config.ts` categories is still seen. Its articles are not
+  embedded — they have no page, so a chat answer citing one would link to a 404 — but the
+  run prints each by name with the reason rather than passing over it silently. Give such
+  a directory a route (add it to `categories`) and its articles join the corpus with no
+  further change.
+- **A failed embedding batch no longer hides the rest of the corpus.** The run attempts
+  every batch, counts the failures, names the affected articles, and then fails without
+  writing a partial `vectors.json`, so one run reports the whole picture instead of
+  surfacing one bad batch at a time.
+- **`npm run test:embeddings`** covers the chunker's splitting rules, the int8
+  quantization round-trip, the Workers AI request contract against a stubbed `fetch`, the
+  fail-soft batch loop, the zero-chunk coverage failure, and the assertion that every
+  article-shaped file under `knowledge/` is either embedded or reported. It runs in CI and
+  needs neither network nor credentials.
+- **Runbook:** `docs/runbook/DEPLOY.md` gains a Corpus embeddings subsection with the two
+  environment variables, the API-token permissions (`Workers AI: Read` **and**
+  `Workers AI: Edit`, or the Workers AI token template — `ai/run` is an inference call, so
+  a read-only token is rejected), what the run embeds and what it reports as skipped, when
+  to re-run, the free-tier neuron budget, and where the credentials live (the environment,
+  never the repository).
+- **`.env` and `.dev.vars` are gitignored.** Nothing in the framework reads either file —
+  credentials reach Cloudflare through `wrangler secret put` and reach the embedding build
+  through the environment. They are ignored because `.dev.vars` is wrangler's conventional
+  local-secret path and `.env` is everyone else's, so a token parked in one for convenience
+  is never stageable.
 
 > **Upgrade note:** `features.og` and `workers.og` are config-schema additions.
 > Both are absent-safe: missing keys leave OG on the static `og-default.png`
