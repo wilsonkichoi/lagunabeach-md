@@ -94,11 +94,51 @@ tags, never framework `main`** (ADR 004, SPEC
   through the environment. They are ignored because `.dev.vars` is wrangler's conventional
   local-secret path and `.env` is everyone else's, so a token parked in one for convenience
   is never stageable.
+- **Cited RAG chat worker (`workers/chat/`).** The worker embeds each query with
+  `@cf/baai/bge-m3`, decodes the generated int8 corpus artifact once per isolate,
+  retrieves the five highest cosine matches, and streams a free-tier Workers AI
+  answer followed by a structural citation event covering every prompted chunk.
+- **The chat endpoint fails closed.** Exact-origin CORS, bounded request validation,
+  model and dimension compatibility checks, and a D1-backed exact rolling limit of
+  20 requests per hashed address per 3,600 seconds protect the endpoint without
+  storing or logging raw IP addresses.
+- **Chat deployment configuration and tests.** `place.config.ts` gains absent-safe
+  `workers.chat` and `workers.chatDatabaseId` keys; the generated wrangler config
+  supplies instance identity while the committed template declares `AI` and `DB`
+  bindings. The `node:test` contract suite runs through `npm run test:workers` in CI.
+- **Runbook:** `docs/runbook/DEPLOY.md` now covers the required embedding-first
+  sequence, chat D1 migration, secret, deployment, model verification, shared
+  Workers AI free allocation, and hosted-model escalation path.
+
+- **The documented Node floor is machine-derived.** `npm run version:check` now derives
+  the floor from `package.json` `engines.node` and fails when any registered statement of
+  it disagrees — the README, the runbook prerequisites table, the wizard-emitted instance
+  README, and the adopt skill. A reworded or deleted statement fails too, rather than
+  passing silently, since an unfindable statement is how a stale one hides. Raising the
+  floor is a one-line `engines` edit plus whatever prose the gate then names.
+
+### Changed
+
+- **The supported Node floor is now 22.13.** The chat worker's D1 statements are
+  executed against a real SQLite database built from the shipped migration, using the
+  core `node:sqlite` module, which stopped requiring `--experimental-sqlite` in Node
+  22.13.0. The previous floor, 22.12, differs by one patch release inside the same LTS
+  line.
+
+> **Upgrade note:** Node ≥ 22.13 is required (previously ≥ 22.12). Instances on 22.12
+> exactly must take a patch upgrade within the same LTS line; every later 22.x, 24.x,
+> and 26.x runtime already satisfies it. Nothing in `place.config.ts` changes.
 
 > **Upgrade note:** `features.og` and `workers.og` are config-schema additions.
 > Both are absent-safe: missing keys leave OG on the static `og-default.png`
 > fallback, so no config edit is required on upgrade. To enable per-article OG
 > cards, deploy `workers/og/` per the runbook, then set both keys.
+
+> **Upgrade note:** `workers.chat` and `workers.chatDatabaseId` are absent-safe
+> config-schema additions. Existing instances build with chat disabled and require
+> no edit. To enable chat, rebuild the embedding artifact, create and migrate the
+> chat D1 database, deploy `workers/chat/`, and set both values as documented in
+> `docs/runbook/DEPLOY.md`.
 
 ## [1.1.1] — 2026-08-04
 

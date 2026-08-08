@@ -165,6 +165,10 @@ export interface PlaceConfig {
      * auth. \`npm run worker-config\` reads it; unset generates an empty id and says so.
      */
     feedbackDatabaseId?: string;
+    /** URL of this instance's deployed \`workers/chat/\` worker. */
+    chat?: string;
+    /** D1 \`database_id\` for the chat worker's rolling rate-limit state. */
+    chatDatabaseId?: string;
   };
   seo: {
     defaultOgImage: string;
@@ -402,7 +406,7 @@ npm run dev                 # http://localhost:4321
 npm run build               # production build + contract checks
 \`\`\`
 
-Requires Node.js ≥ 22.12 and [uv](https://docs.astral.sh/uv/) (which fetches
+Requires Node.js ≥ 22.13 and [uv](https://docs.astral.sh/uv/) (which fetches
 Python ≥ 3.12 for the editorial tooling).
 
 ## Where things live

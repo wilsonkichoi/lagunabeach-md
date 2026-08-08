@@ -74,6 +74,16 @@ import {
  * restatement of whatever the file happens to say today.
  */
 const EXPECTED = {
+  chat: {
+    vars: {
+      ALLOWED_ORIGIN: '',
+      SITE_NAME: '',
+      RATE_LIMIT_MAX: '20',
+      RATE_LIMIT_WINDOW_SECONDS: '3600',
+    },
+    aiBinding: 'AI',
+    d1Bindings: ['DB'],
+  },
   feedback: {
     vars: {
       ALLOWED_ORIGIN: '',
@@ -176,6 +186,15 @@ for (const dir of workerDirs) {
           'Register its framework constant in scripts/ci/check-worker-config.mjs, or remove it.',
       );
     }
+  }
+
+  const ai = config.tables.ai;
+  if (expected.aiBinding) {
+    if (!ai || ai.binding !== expected.aiBinding) {
+      report('[ai] binding', ai?.binding, expected.aiBinding);
+    }
+  } else if (ai) {
+    failures.push(`${rel}: carries an unregistered [ai] binding.`);
   }
 
   const databases = config.arrays.d1_databases ?? [];
