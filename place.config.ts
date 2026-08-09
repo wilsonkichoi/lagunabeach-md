@@ -251,10 +251,10 @@ const config: PlaceConfig = {
     dashboard: true,
     soundscape: true,
     feedback: true,
-    chat: false,
+    chat: true,
     social: false,
     analytics: false,
-    og: false,
+    og: true,
   },
   links: {
     repo: 'https://github.com/wilsonkichoi/lagunabeach-md',
@@ -268,6 +268,9 @@ const config: PlaceConfig = {
   workers: {
     feedback: 'https://lagunabeach-feedback.d3v-m0nk3y.workers.dev',
     feedbackDatabaseId: 'ffa96a9b-e6fc-48d5-b520-3eddb03021d0',
+    chat: 'https://lagunabeach-chat.d3v-m0nk3y.workers.dev',
+    chatDatabaseId: '79aa214d-83d4-44da-b751-837e9f3375b3',
+    og: 'https://lagunabeach-og.d3v-m0nk3y.workers.dev',
   },
   seo: {
     defaultOgImage: '/og-default.png',
