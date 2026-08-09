@@ -788,6 +788,86 @@ the report and confirm each answer is grounded in what it cites and that the ref
 questions refused. An absent manifest exits 0 with "no evaluation set", so an instance
 that never writes one is not broken.
 
+### QR codes for physical places
+
+A visitor standing at a trailhead has no app, no account, and no reason to search. A
+printed code is the whole onboarding: it opens `/chat?ctx=<slug>`, which greets them for
+the spot they are standing in and steers the first question toward the articles about it.
+
+Declare the places in `knowledge/chat/_contexts.md` — optional, gray-matter frontmatter,
+an ordered `contexts` list, body free for your own notes. The leading `_` is what keeps
+the file invisible to the three scanners that walk `knowledge/` looking for articles;
+never rename it without the prefix.
+
+A context requires `slug`, `label`, `greeting`. A context also accepts optional `hint`,
+`article`.
+
+```yaml
+---
+contexts:
+  - slug: north-dock
+    label: North Dock
+    greeting: >-
+      You are at the north dock. Ask about the boats, the birds, or how this
+      stretch of water got its name.
+    hint: the north dock and the water around it
+    article: /places/north-dock
+---
+```
+
+- **`slug`** is the `ctx` query value and goes into a printed URL, so it is restricted to
+  lowercase letters, digits, and single hyphens.
+- **`greeting`** is the opening message. Write it for somebody holding a phone in the
+  wind, not for a reader at a desk.
+- **`hint`** biases *retrieval* toward this location. It is appended to the text that gets
+  embedded for the reader's first question and is never shown to the model as an
+  instruction, so a hint changes which articles are found and cannot change how the
+  answer is written. It rides the first question only: by the third, the reader has moved
+  on. A `hint` is capped at 200 characters, the longest one the chat worker accepts; a
+  longer one is ignored with a build-time warning and the context keeps working, because
+  sending it would fail every question asked from that context and take the printed code
+  out of service.
+- **`article`** is a site-root-absolute route your build produces, rendered as a link
+  under the greeting. A route that resolves to nothing drops that whole context with a
+  build-time warning, because a greeting that sends a reader at a 404 is worse than one
+  code that does nothing.
+
+Contexts are dropped one at a time. A duplicate `slug`, a missing required field, an
+unusable `slug`, and an unresolvable `article` each take out that one entry with a named
+warning in the build log and leave every other code working. An `unknown` or absent `ctx`
+in a URL is not an error either: the page opens exactly as it does for a reader who typed
+it, which is what makes a code outliving its sign harmless.
+
+Print the codes:
+
+```bash
+npm run qr:sheet
+```
+
+That writes `qr-sheet.html` at the repository root — gitignored, because it is a print
+artifact regenerated on demand, not repository content. Open it in a browser and print.
+Each card carries the code, the place's name, and the URL in plain text for anyone who
+would rather type it; the sheet is laid out to fit both A4 and US Letter without choosing
+a paper size, and everything including the codes is inline, so it prints correctly from a
+`file://` URL with no network. With no manifest it exits 0 saying no contexts are
+declared — declaring none is not a failure. A manifest whose contexts were *all* dropped
+by validation is the opposite state and exits nonzero naming how many, because an empty
+sheet from a manifest you wrote is a manifest to go fix, not a place with nothing on a
+wall yet.
+
+The flags, all optional: `--domain`, `--out`, `--root`.
+
+| Flag | Default | Use it when |
+|---|---|---|
+| `--domain <host>` | `place.domain` | Printing codes for a domain you have not put in the config yet — a staging host, or a rehearsal before the site goes live. |
+| `--out <path>` | `qr-sheet.html` | Keeping several sheets side by side, or writing outside the repository. Only the default path is gitignored. |
+| `--root <path>` | this repository | Printing another instance's sheet without leaving this one. It is also how the CLI's own test suite drives it against a temporary tree. |
+
+No build is required. The `article` links are checked against the routes your build
+produces, and that set is derived from `knowledge/` and `place.config.ts` — the same set
+`/chat` itself validates against — so the sheet can be printed before the site has ever
+been built.
+
 **Model and free-tier contract.** `CHAT_MODEL` in `workers/chat/src/index.mjs` is
 the single generation-model constant. On 2026-08-07 it was verified against the
 [Workers AI model catalog](https://developers.cloudflare.com/workers-ai/models/)
