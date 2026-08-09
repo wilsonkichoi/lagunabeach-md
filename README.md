@@ -11,7 +11,7 @@ generates the site.
 
 ## Prerequisites
 
-- Node.js 22.12 or newer, with npm.
+- Node.js 22.13 or newer, with npm.
 - [uv](https://docs.astral.sh/uv/) for Python editorial tooling.
 - [GitHub CLI](https://cli.github.com/) for GitHub Pages setup and CI operations.
 
