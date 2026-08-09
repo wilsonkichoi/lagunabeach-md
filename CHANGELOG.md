@@ -40,6 +40,10 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+## [1.1.2] — 2026-08-08
+
+Adds on-demand OG worker, cited RAG chat worker with corpus embeddings, /chat page with evaluation set, QR flow with location-context deep links and printable codes, and bumps the Node floor to 22.13.
+
 ### Added
 
 - **QR flow: location contexts and printable codes.** `/chat?ctx=<slug>` opens with a
@@ -1547,7 +1551,8 @@ onto this tag.
 First release — nothing to upgrade from. The first instance establishes its merge
 base against this tag per `docs/runbook/UPGRADE.md` §Establishing the merge base.
 
-[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.1.1...HEAD
+[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.1.2...HEAD
+[1.1.2]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.2
 [1.1.1]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.1
 [1.1.0]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.0
 [1.0.20]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.0.20
