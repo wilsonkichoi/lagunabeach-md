@@ -13,7 +13,7 @@ on GitHub, then cloned). `<owner>/<repo>` below means your GitHub repo.
 
 | Tool    | Version   | Check                  | Install                                                        |
 | ------- | --------- | ---------------------- | --------------------------------------------------------------- |
-| Node.js | ≥ 22.12   | `node --version`       | <https://nodejs.org/> or your version manager                   |
+| Node.js | ≥ 22.13   | `node --version`       | <https://nodejs.org/> or your version manager                   |
 | npm     | ships with Node | `npm --version`  | —                                                               |
 | uv      | any recent | `uv --version`        | `curl -LsSf https://astral.sh/uv/install.sh \| sh`               |
 | Python  | ≥ 3.12    | managed by uv          | nothing to do — uv reads `.python-version` and fetches it        |
@@ -279,10 +279,12 @@ curl -sI https://your-domain.example | head -5
 Dynamic capability runs on Cloudflare Workers, separate from the static site on
 GitHub Pages. Each worker lives in its own directory under `workers/` with its own
 `wrangler.toml`, and is deployed by hand — CI never deploys a worker, so nothing
-here runs on a push. The first one is `workers/feedback/`, the endpoint the
-feedback widget posts to.
+here runs on a push. `workers/feedback/` is the endpoint the feedback widget posts
+to; `workers/chat/` retrieves cited knowledge-base context and streams an answer;
+`workers/og/` renders per-article social-preview images on demand.
 
-Everything below stays inside the **free tier**: one Worker and one D1 database.
+Everything below can stay inside the **free tier**: Workers, D1, and the shared
+Workers AI daily allocation.
 
 ### The config you deploy is generated, not committed
 
@@ -321,8 +323,8 @@ template — `main`, `compatibility_date`, the D1 `binding`, `migrations_dir`, a
 rate-limit vars — is carried through unchanged.
 
 **`npm run init` does nothing for `workers/`.** The wizard never touches the tree:
-its only worker-related prompt asks for the deployed `workers.feedback` URL, with a
-blank default, because at init time no worker exists yet. Generation at deploy time
+its worker-related prompts ask for deployed endpoint URLs, with blank defaults,
+because at init time no worker exists yet. Generation at deploy time
 is the whole adoption path for `workers/`, and it needs no wizard step — your
 `place.config.ts` is the only input.
 
@@ -448,6 +450,8 @@ worker-config`, except `IP_HASH_SALT`, which is a secret you set once (step 5). 
 committed `wrangler.toml` is where the framework's own defaults live; the
 "Source" column says where each value comes from.
 
+<!-- worker-vars: feedback -->
+
 | Name | Required | Source | Meaning |
 |---|---|---|---|
 | `name` | yes | derived: `<place-slug>-<worker>` | The Worker script name, account-scoped, and the subdomain of its `workers.dev` URL. |
@@ -502,6 +506,380 @@ request; run it locally with:
 ```bash
 npm run test:workers
 ```
+
+### Deploying the OG image worker
+
+`workers/og/` renders per-article social-preview cards on demand. No database,
+no secrets, no state: it fetches `topics.json` from the deployed site on first
+request, renders a PNG with Satori and resvg-wasm, and caches the result at the
+edge for a year. Everything stays inside the free tier.
+
+**1. Generate the config.** Same command as the feedback worker; it writes all
+workers:
+
+```bash
+npm run worker-config
+```
+
+**2. Deploy.**
+
+```bash
+npx wrangler deploy --config workers/og/wrangler.generated.toml
+```
+
+**3. Register the route in the Cloudflare dashboard.** Workers on the free tier
+use `workers.dev` subdomains by default. If you want the OG endpoint on your own
+domain (e.g. `og.example.com/og/...`), add a route pattern in the Cloudflare
+dashboard under Workers > Routes. The route is a custom-domain setup, not a
+wrangler config entry.
+
+**4. Point the site at it and turn the feature on.**
+
+```ts
+features: { og: true, /* ... */ },
+workers: {
+  og: 'https://<worker-name>.<subdomain>.workers.dev',
+  /* ... */
+},
+```
+
+Rebuild and redeploy the site. `SEO.astro` reads `features.og` and `workers.og`
+at build time; with either missing the OG meta tag points to the static
+`og-default.png` as before.
+
+**5. Purge the edge cache on redeploy.** Each OG image is cached with
+`max-age=31536000, immutable`. After an article title changes or you update the
+card style, purge the cached URLs so the next request renders fresh:
+
+```bash
+curl -X POST "https://api.cloudflare.com/client/v4/zones/ZONE_ID/purge_cache" \
+  -H "Authorization: Bearer CF_API_TOKEN" \
+  -H "Content-Type: application/json" \
+  --data '{"prefixes":["og.example.com/og/"]}'
+```
+
+Or purge everything via the Cloudflare dashboard under Caching > Purge Cache.
+
+### OG worker configuration
+
+<!-- worker-vars: og -->
+
+| Name | Required | Source | Meaning |
+|---|---|---|---|
+| `name` | yes | derived: `<place-slug>-og` | The Worker script name, account-scoped. |
+| `SITE_ORIGIN` | yes | `place.domain` | Origin to fetch `topics.json` from (e.g. `https://example.com`). |
+| `SITE_NAME` | yes | `place.name` | Site name rendered on the card footer. |
+| `CATEGORY_COLORS` | yes | `categories[].color` | JSON map of slug to hex color for the category badge. Empty entries omitted. |
+
+No D1, no secrets, no rate limit. The worker is stateless: its only external
+dependency is the site's own `topics.json`, which it fetches once on cold start
+and caches in global scope.
+
+### Corpus embeddings
+
+`npm run embeddings:build` turns `knowledge/` into the retrieval index the chat
+worker queries. It chunks every article at roughly 300-500 words on `##` heading
+boundaries, embeds each chunk with `@cf/baai/bge-m3` through the Workers AI REST
+API, and writes `workers/chat/vectors.json`.
+
+**The artifact is gitignored, so a deploy must rebuild it first.** It carries every
+article's title, URL, and body text, and `workers/` is a code tree that may hold no
+place identity (AGENTS.md iron rule 2). `npm run worker-config:check` fails if a
+`vectors.json` is ever committed. Nothing in the site build or in CI produces it:
+the build stays green with no Cloudflare credentials in the environment, and this
+command is a deliberate manual step.
+
+**1. Mint an API token.** In the Cloudflare dashboard under My Profile > API Tokens,
+use the **Workers AI** token template. If you create a custom token instead, running
+inference over the REST API needs both of these permissions, not just the read one:
+
+```
+Account | Workers AI | Read
+Account | Workers AI | Edit
+```
+
+Scope it to the single account you deploy from. `ai/run/@cf/baai/bge-m3` is an
+inference call, so a Read-only token is rejected before any embedding is returned
+([Workers AI REST API](https://developers.cloudflare.com/workers-ai/get-started/rest-api/),
+checked 2026-08-06).
+
+**2. Export the two variables and run the build.** The account id is an identifier,
+not a credential — it appears in dashboard URLs, so typing it is fine. The token is a
+credential: read it from a prompt rather than typing it on the command line, because
+an inline `VAR=value command` prefix is written to your shell history verbatim.
+
+```bash
+export CF_ACCOUNT_ID=<your-account-id>
+printf 'Cloudflare AI token: ' && read -rs CF_AI_TOKEN && echo && export CF_AI_TOKEN
+npm run embeddings:build
+```
+
+(`read -rs` is silent and works in both bash and zsh; `npx wrangler whoami` prints
+your account id if you do not have it to hand.)
+
+Both variables are required. A missing or blank value exits nonzero naming the
+variable rather than silently skipping the embedding step and writing a hollow index.
+
+**Where the credentials live: nowhere in this repository.** The build reads both from
+the environment at run time. Nothing writes them to a file, no log line prints the
+token or the request URL, and the emitted `vectors.json` carries only chunk text and
+vectors. Errors name the variable and the HTTP status, never the value. Keep it that
+way: if you park the token in a file for convenience, `.gitignore` already covers
+`.env` and `.dev.vars`, but a credential in the environment of the one shell that
+needs it is safer than a credential on disk. To revoke, roll the token in the
+Cloudflare dashboard — nothing in the repository has to change.
+
+**3. Re-run it after any `knowledge/` change.** The index is a snapshot: an article
+added, edited, or deleted since the last run is respectively missing, stale, or a
+dangling citation until you rebuild. The run prints articles in, chunks out, and
+bytes written, and it fails naming the file if any article produced zero chunks.
+
+**What gets embedded, and what the run tells you it skipped.** The corpus is every
+article the site publishes — a `knowledge/<Category>/*.md` whose directory is one of
+your `place.config.ts` categories. An article in a directory that is not a configured
+category has no page, so a chat answer citing it would link to a 404; the run prints
+each one by name under `article(s) NOT embedded` rather than passing over it. If you
+see a file listed there that should be searchable, the fix is to give it a route (add
+its directory to `categories` in `place.config.ts`) or move it into a category that
+already has one — not to change this command. Files starting with `_` are not articles
+and are not listed.
+
+**Free-tier budget.** Workers AI allows 10,000 neurons per day on the free plan
+(`[as-of 2026-07]`); one embedding call is well under one neuron, so a corpus of a
+few thousand chunks costs a small fraction of one day's allowance. The cost scales
+with total chunks, not with articles, and it is paid once per rebuild — there is no
+per-request cost at read time, because the chat worker loads the static artifact
+rather than querying a vector service.
+
+| Name | Required | Source | Meaning |
+|---|---|---|---|
+| `CF_ACCOUNT_ID` | yes | Cloudflare dashboard | The account that owns the Workers AI allowance. |
+| `CF_AI_TOKEN` | yes | API token, `Workers AI: Read` + `Workers AI: Edit` (or the Workers AI template) | Bearer token for the `ai/run` REST endpoint. |
+
+### Deploying the chat worker
+
+Build the corpus embeddings first. The generated `workers/chat/vectors.json` is a
+required module import, so `wrangler deploy` fails if the artifact is absent. Rebuild
+it after every `knowledge/` change before redeploying the worker.
+
+**1. Generate the worker config and create its D1 database.** The D1 database holds
+only hashed-address rolling rate-limit counters. Cloudflare's native Rate Limiting
+binding supports only 10- or 60-second periods, so it cannot implement this worker's
+configurable 3,600-second exact rolling window.
+
+```bash
+npm run worker-config
+npx wrangler d1 create <place-slug>-chat \
+  --config workers/chat/wrangler.generated.toml
+```
+
+Put the printed id in the instance-owned config and regenerate:
+
+```ts
+workers: {
+  chat: '',
+  chatDatabaseId: 'PASTE_THE_DATABASE_ID',
+},
+```
+
+```bash
+npm run worker-config
+npx wrangler d1 migrations apply <place-slug>-chat --remote \
+  --config workers/chat/wrangler.generated.toml
+```
+
+**2. Set the IP-hash salt.** The worker refuses POST requests with HTTP 500 when
+the salt is absent or blank. It stores `sha256(address + salt)`, never the address.
+
+```bash
+openssl rand -hex 32 | npx wrangler secret put IP_HASH_SALT \
+  --config workers/chat/wrangler.generated.toml
+```
+
+**3. Deploy and record the endpoint.** The committed template declares the Workers
+AI binding as `AI`; no API token is needed for inference inside the deployed Worker.
+
+```bash
+npx wrangler deploy --config workers/chat/wrangler.generated.toml
+```
+
+```ts
+features: { chat: true, /* ... */ },
+workers: {
+  chat: 'https://<place-slug>-chat.<subdomain>.workers.dev',
+  chatDatabaseId: '…',
+},
+```
+
+Rebuild and redeploy the static site after setting the endpoint. `ALLOWED_ORIGIN`
+is derived from `place.domain` and exact-match CORS rejects every other origin.
+
+<!-- worker-vars: chat -->
+
+| Name | Required | Source | Meaning |
+|---|---|---|---|
+| `AI` | yes | `[ai] binding = "AI"` | Workers AI binding used for query embedding and streamed answer generation. |
+| `DB` | yes | `[[d1_databases]] binding = "DB"` | Exact rolling-window rate-limit state. |
+| `ALLOWED_ORIGIN` | yes | `place.domain` | The only accepted browser origin. Unset or mismatched requests receive 403. |
+| `SITE_NAME` | yes | `place.name` | Site identity injected into the system prompt. |
+| `IP_HASH_SALT` | yes (secret) | `wrangler secret put` | Salt for the stored address hash. Missing or blank requests receive 500. |
+| `RATE_LIMIT_MAX` | no | template (`20`) | Accepted requests per hashed address in the rolling window. |
+| `RATE_LIMIT_WINDOW_SECONDS` | no | template (`3600`) | Exact rolling-window duration in seconds. |
+| `RELEVANCE_FLOOR` | no | template (`0.46`) | Cosine score a chunk must reach to be retrieved. Nothing clears it means nothing is cited and the answer refuses. See below. |
+
+### Tuning the relevance floor
+
+Retrieval takes the top five chunks by cosine similarity, which on its own can never
+say "the corpus does not cover this": a fixed count off a sorted list always returns
+five, so a question with no support still cites the five least-bad matches. That is a
+fabricated source list wearing real URLs. `RELEVANCE_FLOOR` is the cutoff that makes an
+empty result reachable. Below it a chunk is not retrieved, so it never enters the
+prompt and never becomes a citation; when nothing clears it the model is told outright
+that no excerpt is relevant, and the page renders "no sources found".
+
+**The shipped default in the table above is measured against the template's demo
+corpus, and your corpus is not that corpus.** Re-measure it after your content settles:
+
+1. Build the vectors (`npm run embeddings:build`) so you are scoring against the same
+   artifact the worker loads.
+2. Assemble two lists of questions: ten or so your articles genuinely answer, and five
+   or so about places or topics your knowledge base never mentions.
+3. Embed each question with `@cf/baai/bge-m3` and score it against every chunk in
+   `workers/chat/vectors.json`, exactly as the worker does: L2-normalize the query and
+   take its dot product with each stored vector divided by 127.
+4. Compare the best score per question across the two lists. Set the floor in the gap
+   between them.
+
+On the demo corpus, measured 2026-08-08, that gap runs from 0.435 (the best score any
+never-mentioned place reached) to 0.484 (the worst score a real question reached), and
+the shipped default splits it. Set the floor too high and real questions start refusing;
+too low and off-topic questions keep citing. Setting it to `0` disables filtering
+entirely.
+
+**What the floor cannot do.** It separates questions about *other* places. It does not
+separate questions about *your* place that no article happens to answer: those are dense
+with your vocabulary and score at or above genuinely answerable questions (0.512 to
+0.595 on the demo corpus, against a real-question floor of 0.484). No cutoff catches
+those without also rejecting real questions, so for them the refusal appears in the
+answer text and a person is what verifies it. The evaluation set below encodes that
+split directly, as `expect: no-citations` versus `expect: refusal-in-answer`.
+
+### Evaluating the deployed chat
+
+`knowledge/chat/_eval.md` is an optional list of questions with the articles each answer
+should rest on. `npm run chat:eval` posts every one to a deployed worker and exits
+nonzero when a cited URL resolves to no published article, when a question declaring
+`expect: no-citations` cites anything, or when a request errors. It writes
+`reports/chat-eval.md` with every question, answer, and citation set.
+
+```bash
+npm run chat:eval
+npm run chat:eval -- --endpoint https://your-chat-worker.workers.dev
+```
+
+The endpoint comes from `workers.chat`, the presented origin from `place.domain`, and
+the published-article index from your local `public/kb/topics.json` when it exists,
+otherwise from `/kb/topics.json` on your site. `--endpoint`, `--origin`, `--topics`, and
+`--out` override each of those.
+
+Answer quality is deliberately not machine-judged: scoring prose would need a second
+model in the loop or a brittle string match against a free-tier model's phrasing. Read
+the report and confirm each answer is grounded in what it cites and that the refusal
+questions refused. An absent manifest exits 0 with "no evaluation set", so an instance
+that never writes one is not broken.
+
+### QR codes for physical places
+
+A visitor standing at a trailhead has no app, no account, and no reason to search. A
+printed code is the whole onboarding: it opens `/chat?ctx=<slug>`, which greets them for
+the spot they are standing in and steers the first question toward the articles about it.
+
+Declare the places in `knowledge/chat/_contexts.md` — optional, gray-matter frontmatter,
+an ordered `contexts` list, body free for your own notes. The leading `_` is what keeps
+the file invisible to the three scanners that walk `knowledge/` looking for articles;
+never rename it without the prefix.
+
+A context requires `slug`, `label`, `greeting`. A context also accepts optional `hint`,
+`article`.
+
+```yaml
+---
+contexts:
+  - slug: north-dock
+    label: North Dock
+    greeting: >-
+      You are at the north dock. Ask about the boats, the birds, or how this
+      stretch of water got its name.
+    hint: the north dock and the water around it
+    article: /places/north-dock
+---
+```
+
+- **`slug`** is the `ctx` query value and goes into a printed URL, so it is restricted to
+  lowercase letters, digits, and single hyphens.
+- **`greeting`** is the opening message. Write it for somebody holding a phone in the
+  wind, not for a reader at a desk.
+- **`hint`** biases *retrieval* toward this location. It is appended to the text that gets
+  embedded for the reader's first question and is never shown to the model as an
+  instruction, so a hint changes which articles are found and cannot change how the
+  answer is written. It rides the first question only: by the third, the reader has moved
+  on. A `hint` is capped at 200 characters, the longest one the chat worker accepts; a
+  longer one is ignored with a build-time warning and the context keeps working, because
+  sending it would fail every question asked from that context and take the printed code
+  out of service.
+- **`article`** is a site-root-absolute route your build produces, rendered as a link
+  under the greeting. A route that resolves to nothing drops that whole context with a
+  build-time warning, because a greeting that sends a reader at a 404 is worse than one
+  code that does nothing.
+
+Contexts are dropped one at a time. A duplicate `slug`, a missing required field, an
+unusable `slug`, and an unresolvable `article` each take out that one entry with a named
+warning in the build log and leave every other code working. An `unknown` or absent `ctx`
+in a URL is not an error either: the page opens exactly as it does for a reader who typed
+it, which is what makes a code outliving its sign harmless.
+
+Print the codes:
+
+```bash
+npm run qr:sheet
+```
+
+That writes `qr-sheet.html` at the repository root — gitignored, because it is a print
+artifact regenerated on demand, not repository content. Open it in a browser and print.
+Each card carries the code, the place's name, and the URL in plain text for anyone who
+would rather type it; the sheet is laid out to fit both A4 and US Letter without choosing
+a paper size, and everything including the codes is inline, so it prints correctly from a
+`file://` URL with no network. With no manifest it exits 0 saying no contexts are
+declared — declaring none is not a failure. A manifest whose contexts were *all* dropped
+by validation is the opposite state and exits nonzero naming how many, because an empty
+sheet from a manifest you wrote is a manifest to go fix, not a place with nothing on a
+wall yet.
+
+The flags, all optional: `--domain`, `--out`, `--root`.
+
+| Flag | Default | Use it when |
+|---|---|---|
+| `--domain <host>` | `place.domain` | Printing codes for a domain you have not put in the config yet — a staging host, or a rehearsal before the site goes live. |
+| `--out <path>` | `qr-sheet.html` | Keeping several sheets side by side, or writing outside the repository. Only the default path is gitignored. |
+| `--root <path>` | this repository | Printing another instance's sheet without leaving this one. It is also how the CLI's own test suite drives it against a temporary tree. |
+
+No build is required. The `article` links are checked against the routes your build
+produces, and that set is derived from `knowledge/` and `place.config.ts` — the same set
+`/chat` itself validates against — so the sheet can be printed before the site has ever
+been built.
+
+**Model and free-tier contract.** `CHAT_MODEL` in `workers/chat/src/index.mjs` is
+the single generation-model constant. On 2026-08-07 it was verified against the
+[Workers AI model catalog](https://developers.cloudflare.com/workers-ai/models/)
+and the [model's streaming API documentation](https://developers.cloudflare.com/workers-ai/models/glm-4.7-flash/)
+as `@cf/zai-org/glm-4.7-flash`, a Cloudflare-hosted, streaming-capable model. The
+Workers AI free allocation is
+10,000 neurons per day, shared by corpus builds, per-request query embeddings, and
+answer generation. Monitor that account-level total; if answer quality requires a
+hosted paid model, follow the dated quality/cost escalation analysis in
+[the upstream platform notes §2.10](https://github.com/wilsonkichoi/sekai-kb/blob/main/dev%5Fdocs/research/platform-notes.md#210-cost-and-platform-comparison)
+and re-verify the model and pricing at selection time. The SPEC intentionally does
+not pin a generation model.
 
 ---
 

@@ -28,9 +28,18 @@
 //     below, including a deleted one (removing the whole block is not a way to pass
 //     either: the generator only rewrites keys the template already has, so a
 //     template with no D1 block generates a deploy config with no `env.DB`);
-//   - a wrangler.generated.toml tracked by git (it is derived and gitignored; the two
-//     machine gates skip it by name, so committing one would smuggle identity past
-//     them).
+//   - a documented default in docs/runbook/DEPLOY.md that disagrees with the constant
+//     the template ships, a registered default the runbook documents nowhere, and a
+//     runbook table whose `<!-- worker-vars: <name> -->` anchor is gone. The runbook is
+//     the only place an operator reads these values, and it ships to every adopter on
+//     the next tag merge, so a retuned constant with a stale table is a wrong number
+//     with no way for its reader to know;
+//   - a derived worker artifact tracked by git. Two exist: wrangler.generated.toml
+//     (`npm run worker-config`) and workers/chat/vectors.json (`npm run
+//     embeddings:build`). Both are gitignored and both are skipped by name in the two
+//     machine gates, so committing one would smuggle place identity past them -- the
+//     deploy config through its origin and worker names, the vector index through every
+//     article title, url, and body chunk it carries.
 //
 // Success prints one summary line and exits 0.
 //
@@ -71,6 +80,17 @@ import {
  * restatement of whatever the file happens to say today.
  */
 const EXPECTED = {
+  chat: {
+    vars: {
+      ALLOWED_ORIGIN: '',
+      SITE_NAME: '',
+      RATE_LIMIT_MAX: '20',
+      RATE_LIMIT_WINDOW_SECONDS: '3600',
+      RELEVANCE_FLOOR: '0.46',
+    },
+    aiBinding: 'AI',
+    d1Bindings: ['DB'],
+  },
   feedback: {
     vars: {
       ALLOWED_ORIGIN: '',
@@ -78,6 +98,14 @@ const EXPECTED = {
       RATE_LIMIT_WINDOW_SECONDS: '3600',
     },
     d1Bindings: ['DB'],
+  },
+  og: {
+    vars: {
+      SITE_ORIGIN: '',
+      SITE_NAME: '',
+      CATEGORY_COLORS: '',
+    },
+    d1Bindings: [],
   },
 };
 
@@ -113,6 +141,7 @@ const workerDirs = readdirSync(workersDir, { withFileTypes: true })
   .sort();
 
 let checked = 0;
+const checkedWorkers = [];
 
 for (const dir of workerDirs) {
   const rel = `workers/${dir}/${TEMPLATE_BASENAME}`;
@@ -167,6 +196,15 @@ for (const dir of workerDirs) {
     }
   }
 
+  const ai = config.tables.ai;
+  if (expected.aiBinding) {
+    if (!ai || ai.binding !== expected.aiBinding) {
+      report('[ai] binding', ai?.binding, expected.aiBinding);
+    }
+  } else if (ai) {
+    failures.push(`${rel}: carries an unregistered [ai] binding.`);
+  }
+
   const databases = config.arrays.d1_databases ?? [];
   const wantBindings = expected.d1Bindings ?? [];
   if (databases.length !== wantBindings.length) {
@@ -197,34 +235,183 @@ for (const dir of workerDirs) {
   });
 
   checked += 1;
+  checkedWorkers.push(dir);
 }
 
-// A generated config is gitignored and skipped by name in both machine gates, so a
-// committed one would carry deployment identity straight past them.
-const tracked = spawnSync('git', ['-C', root, 'ls-files', `*/${GENERATED_BASENAME}`, GENERATED_BASENAME], {
-  encoding: 'utf8',
-});
-if (tracked.status === 0) {
+/* -- The runbook's documented defaults --------------------------------------
+ *
+ * EXPECTED above pins what the template ships. docs/runbook/DEPLOY.md is where an
+ * operator reads those same values, and nothing but this check connects the two: a
+ * retuned constant leaves a table stating the old number, which ships to every adopter
+ * on the next tag merge and reads exactly like a correct one.
+ *
+ * Each worker's table is anchored by an `<!-- worker-vars: <name> -->` comment, so the
+ * association is declared rather than inferred from heading order, and deleting the
+ * anchor fails instead of silently exempting the table. A row whose Source cell reads
+ * "template (`X`)" is a claim about a shipped constant; every other row (place-derived,
+ * secret, binding) is outside this contract. The two sets must match exactly in both
+ * directions: a documented value that has drifted, and a shipped default the runbook
+ * never mentions, are the same defect seen from either end.
+ *
+ * What this cannot cover: the measured scores in the "Tuning the relevance floor"
+ * section (0.435, 0.484, 0.512, 0.595). Those are experimental results produced by
+ * running an embedding model over the demo corpus, not values any source in this
+ * repository carries, so no guard can derive them. They carry the date they were
+ * measured and the procedure that reproduces them, which is what a reader needs in
+ * order to distrust them once the corpus has moved.
+ */
+const RUNBOOK_REL = 'docs/runbook/DEPLOY.md';
+const runbookAbs = join(root, RUNBOOK_REL);
+const runbookPresent = existsSync(runbookAbs);
+
+if (runbookPresent) {
+  const lines = readFileSync(runbookAbs, 'utf8').split('\n');
+  const documented = new Map();
+
+  for (let i = 0; i < lines.length; i++) {
+    const anchor = lines[i].match(/^<!--\s*worker-vars:\s*([a-z0-9-]+)\s*-->\s*$/);
+    if (!anchor) continue;
+    const worker = anchor[1];
+
+    if (documented.has(worker)) {
+      failures.push(`${RUNBOOK_REL}: two "worker-vars: ${worker}" anchors; one table per worker.`);
+      continue;
+    }
+
+    let j = i + 1;
+    while (j < lines.length && lines[j].trim() === '') j += 1;
+    const rows = [];
+    while (j < lines.length && lines[j].startsWith('|')) {
+      rows.push(lines[j]);
+      j += 1;
+    }
+    if (rows.length === 0) {
+      failures.push(
+        `${RUNBOOK_REL}: the "worker-vars: ${worker}" anchor is followed by no table. ` +
+          'The anchor marks the table that documents that worker\'s shipped constants.',
+      );
+      continue;
+    }
+
+    const defaults = new Map();
+    for (const row of rows) {
+      const cells = row.split('|').slice(1, -1).map((cell) => cell.trim());
+      const name = cells[0]?.match(/^`([A-Za-z0-9_]+)`$/);
+      const value = cells[2]?.match(/^template \(`([^`]*)`\)$/);
+      if (name && value) defaults.set(name[1], value[1]);
+    }
+    documented.set(worker, defaults);
+  }
+
+  for (const [worker, defaults] of documented) {
+    const expected = EXPECTED[worker];
+    if (!expected) {
+      failures.push(
+        `${RUNBOOK_REL}: documents a worker "${worker}" that has no expectation registered ` +
+          'in scripts/ci/check-worker-config.mjs.',
+      );
+      continue;
+    }
+    for (const [key, value] of defaults) {
+      if (!(key in expected.vars)) {
+        failures.push(
+          `${RUNBOOK_REL}: documents ${worker} [vars] ${key} as a shipped default, but the ` +
+            'template carries no such key.',
+        );
+      } else if (expected.vars[key] === '') {
+        failures.push(
+          `${RUNBOOK_REL}: documents ${worker} [vars] ${key} as "template (\`${value}\`)", but ` +
+            'the template ships it empty; it is generated per place, not a framework default.',
+        );
+      } else if (expected.vars[key] !== value) {
+        failures.push(
+          `${RUNBOOK_REL}: ${worker} [vars] ${key}\n` +
+            `      documented: ${JSON.stringify(value)}\n` +
+            `      shipped:    ${JSON.stringify(expected.vars[key])} (workers/${worker}/${TEMPLATE_BASENAME})`,
+        );
+      }
+    }
+    for (const [key, value] of Object.entries(expected.vars)) {
+      if (value !== '' && !defaults.has(key)) {
+        failures.push(
+          `${RUNBOOK_REL}: the ${worker} table documents no default for [vars] ${key} ` +
+            `(the template ships ${JSON.stringify(value)}). An operator tuning it has nowhere ` +
+            'to read what it started as.',
+        );
+      }
+    }
+  }
+
+  for (const worker of checkedWorkers) {
+    if (!documented.has(worker)) {
+      failures.push(
+        `${RUNBOOK_REL}: no "<!-- worker-vars: ${worker} -->" anchor. Every worker with a ` +
+          'committed template documents its shipped constants there, and the anchor is what ' +
+          'ties the table to this gate.',
+      );
+    }
+  }
+}
+
+/* -- Derived artifacts that must never be tracked ---------------------------
+ *
+ * Each is written into workers/ by a script, gitignored, and skipped BY NAME in both
+ * machine gates. That skip is what makes a committed one dangerous: the gates would
+ * walk straight past it. `what` is what a reader needs in order to understand why the
+ * file is forbidden rather than merely untidy.
+ */
+const DERIVED_ARTIFACTS = [
+  {
+    basename: GENERATED_BASENAME,
+    what: 'a generated worker config',
+    identity: 'deployment identity (this instance\'s origin, worker name, and database ids)',
+  },
+  {
+    basename: 'vectors.json',
+    what: 'a generated corpus embedding index',
+    identity: 'place identity (every article title, url, and body chunk it embeds)',
+  },
+];
+
+for (const artifact of DERIVED_ARTIFACTS) {
+  const tracked = spawnSync(
+    'git',
+    ['-C', root, 'ls-files', `*/${artifact.basename}`, artifact.basename],
+    { encoding: 'utf8' },
+  );
+  if (tracked.status !== 0) continue;
   for (const path of tracked.stdout.split('\n').map((s) => s.trim()).filter(Boolean)) {
     failures.push(
-      `${path}: a generated worker config is tracked by git. It is derived, gitignored, ` +
-        'and skipped by both machine gates by name -- committing one puts deployment ' +
-        `identity in the repository. Run \`git rm --cached ${path}\`.`,
+      `${path}: ${artifact.what} is tracked by git. It is derived, gitignored, and ` +
+        `skipped by both machine gates by name -- committing one puts ${artifact.identity} ` +
+        `in the repository. Run \`git rm --cached ${path}\`.`,
     );
   }
 }
 
 if (failures.length) {
-  console.error('FAIL: committed worker configs carry values the framework does not ship:');
+  const runbookFailures = failures.filter((f) => f.startsWith(`${RUNBOOK_REL}:`));
+  console.error('FAIL: the committed worker contract does not hold:');
   for (const f of failures) console.error(`  ${f}`);
-  console.error('');
-  console.error('  A committed wrangler.toml is a template, never a deploy config. Real names,');
-  console.error(`  ids, and origins belong in the generated ${GENERATED_BASENAME} that`);
-  console.error('  `npm run worker-config` writes from place.config.ts (docs/runbook/DEPLOY.md).');
+  if (runbookFailures.length < failures.length) {
+    console.error('');
+    console.error('  A committed wrangler.toml is a template, never a deploy config. Real names,');
+    console.error(`  ids, and origins belong in the generated ${GENERATED_BASENAME} that`);
+    console.error('  `npm run worker-config` writes from place.config.ts (docs/runbook/DEPLOY.md).');
+  }
+  if (runbookFailures.length) {
+    console.error('');
+    console.error(`  ${RUNBOOK_REL} is where an operator reads a shipped default before tuning`);
+    console.error('  it. Changing a template constant means changing that table in the same pass,');
+    console.error('  or the number every adopter reads is the one it used to be.');
+  }
   process.exit(1);
 }
 
 console.log(
   `OK: worker config gate passed -- ${checked} committed ${TEMPLATE_BASENAME} file(s) carry ` +
-    'framework placeholders only, and no generated config is tracked.',
+    'framework placeholders only, no derived worker artifact is tracked, and ' +
+    (runbookPresent
+      ? `every shipped default matches the one ${RUNBOOK_REL} documents.`
+      : `${RUNBOOK_REL} is absent from this root, so no documented default was checked.`),
 );

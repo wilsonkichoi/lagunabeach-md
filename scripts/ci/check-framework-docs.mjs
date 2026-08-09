@@ -104,7 +104,9 @@ const STRIP_MECHANISM_FILES = [
   'scripts/ci/check-framework-docs.mjs',
   'scripts/ci/check-scan-root-docs.mjs',
   'scripts/ci/check-soundscape-schema-docs.mjs',
+  'scripts/ci/check-chat-context-schema-docs.mjs',
   'scripts/ci/check-roadmap-exit-gates.mjs',
+  'scripts/ci/check-version-contract.mjs',
 ];
 
 // The ownership source. `.gitattributes` must name a maintainer-doc path in order to
