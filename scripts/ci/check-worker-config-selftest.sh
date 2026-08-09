@@ -5,9 +5,11 @@
 #
 # A guard that only ever asserts the green path proves nothing: it would pass
 # just as happily with an empty file list or an unreachable comparison. This
-# test plants five defect classes -- every kind of deployment identity that
-# must never be committed, plus the worker the guard has never heard of and the
-# template that lost a whole block -- and requires the guard to FAIL each time:
+# test plants ten defect classes -- every kind of deployment identity that
+# must never be committed, plus the worker the guard has never heard of, the
+# template that lost a whole block, the derived artifacts that must never be
+# tracked, and the three ways the runbook can stop telling the truth about a
+# shipped default -- and requires the guard to FAIL each time:
 #
 #   1. ORIGIN        -- a real https origin in [vars] ALLOWED_ORIGIN. The
 #                       template ships it empty; a real one is a deploy config
@@ -27,6 +29,29 @@
 #                       config with no database binding and the deployed worker
 #                       hits `env.DB.prepare` with `env.DB` undefined. Absence
 #                       must fail as loudly as a wrong value.
+#   6. TRACKED DERIVED  -- a generated worker config and a generated embedding
+#                       index committed to git. Both are gitignored AND skipped
+#                       by name in the two machine gates, so a tracked one is
+#                       invisible to every other check in this repository: this
+#                       guard is the only thing standing between it and a
+#                       release. The fixture is a real git repository, because
+#                       the check reads `git ls-files`.
+#   7. DROPPED AI       -- the chat worker's [ai] binding deleted outright. A
+#                       deployed worker without it cannot call env.AI.run.
+#   8. STALE DEFAULT -- docs/runbook/DEPLOY.md documenting a shipped constant
+#                       the template no longer carries. The runbook is where an
+#                       operator reads the value before tuning it, and a wrong
+#                       number there reads exactly like a right one.
+#   9. UNDOCUMENTED  -- a shipped default with no row in the runbook table. The
+#                       same contract from the other end: a constant nobody can
+#                       look up is a constant nobody can tune back.
+#  10. DROPPED ANCHOR-- the <!-- worker-vars: --> comment removed. It is what
+#                       ties a table to this gate, so deleting it must fail
+#                       rather than quietly exempt the table.
+#
+# Classes 8-10 need a fixture carrying the runbook as well as workers/; the
+# copies used by 1-7 have no docs/ tree, which also exercises the guard's
+# skip-when-absent path.
 #
 # Unlike its sibling check-scan-root-docs-selftest.sh, this test never mutates
 # the repository: each class gets a fresh copy of the committed workers/ tree in
@@ -47,7 +72,7 @@
 #
 # Usage: bash scripts/ci/check-worker-config-selftest.sh   (run from anywhere;
 # exit 1 when the guard fails to catch a planted defect, exit 0 when it catches
-# all five)
+# all ten)
 
 set -euo pipefail
 
@@ -97,6 +122,32 @@ fresh_copy() {
   cp -R "$ROOT/workers" "$copy/workers"
   find "$copy/workers" -type f -name 'wrangler.generated.toml' -exec rm -f {} +
   echo "$copy"
+}
+
+# The same fixture plus the runbook, for the classes that plant into the
+# documented defaults rather than into a template.
+RUNBOOK_REL="docs/runbook/DEPLOY.md"
+fresh_copy_with_runbook() {
+  label="$1"
+  copy="$(fresh_copy "$label")"
+  mkdir -p "$copy/$(dirname "$RUNBOOK_REL")"
+  cp "$ROOT/$RUNBOOK_REL" "$copy/$RUNBOOK_REL"
+  echo "$copy"
+}
+
+# Rewrite the copied runbook with `filter` applied to it (sed or grep), and fail
+# loudly when that changes nothing: text this test plants against that has moved
+# would otherwise hand the guard a compliant file to pass on.
+plant_runbook() {
+  copy="$1"; what="$2"; shift 2
+  target="$copy/$RUNBOOK_REL"
+  "$@" < "$target" > "$WORK_DIR/plant.tmp" || true
+  if cmp -s "$WORK_DIR/plant.tmp" "$target"; then
+    echo "worker config self-test: planting [$what] changed nothing in $RUNBOOK_REL --" >&2
+    echo "  the text this test plants against has moved; re-point the self-test." >&2
+    exit 1
+  fi
+  cp "$WORK_DIR/plant.tmp" "$target"
 }
 
 assert_guard_passes() {
@@ -216,4 +267,47 @@ assert_guard_passes "$COPY" "an unmutated copy of the shipped workers/ tree"
 drop_table "$COPY" '[[d1_databases]]'
 assert_guard_catches "$COPY" "a deleted [[d1_databases]] block"
 
-echo "OK: worker config self-test passed -- the guard catches a committed origin, a place-named worker name, a place-named database_name, an unregistered worker, and a deleted [[d1_databases]] block"
+# 6. TRACKED DERIVED: both generated artifacts committed. The check reads
+# `git ls-files`, so the fixture must be a real repository -- staged is enough,
+# no commit needed. The copies above are not repositories, which is exactly why
+# this class needs its own fixture rather than riding along with one of them.
+COPY="$(fresh_copy tracked-derived)"
+git -C "$COPY" init -q
+assert_guard_passes "$COPY" "a git repository with no derived artifact tracked"
+FEEDBACK_WORKER="$(dirname "$COPY/$REL")"
+printf 'name = "planted"\n' > "$FEEDBACK_WORKER/wrangler.generated.toml"
+mkdir -p "$COPY/workers/chat"
+printf '{"schema":"rag-v1","count":0}\n' > "$COPY/workers/chat/vectors.json"
+git -C "$COPY" add -A
+assert_guard_catches "$COPY" "a tracked generated worker config" \
+  "$(basename "$FEEDBACK_WORKER")/wrangler.generated.toml"
+assert_guard_catches "$COPY" "a tracked generated embedding index" \
+  "workers/chat/vectors.json"
+
+# 7. DROPPED AI: the registered chat worker must keep the Workers AI binding.
+COPY="$(fresh_copy dropped-ai)"
+assert_guard_passes "$COPY" "an unmutated copy of the shipped workers/ tree"
+drop_table "$COPY" '[ai]'
+assert_guard_catches "$COPY" "a deleted [ai] block"
+
+# 8. STALE DEFAULT: the runbook documenting a constant the template does not
+# ship. Nothing else in this repository compares the two.
+COPY="$(fresh_copy_with_runbook stale-default)"
+assert_guard_passes "$COPY" "an unmutated copy carrying the runbook"
+plant_runbook "$COPY" 'a retuned default' \
+  sed 's|template (`0.46`)|template (`0.9`)|'
+assert_guard_catches "$COPY" "a documented default the template does not ship" "$RUNBOOK_REL"
+
+# 9. UNDOCUMENTED: a shipped default with no row to read it from.
+COPY="$(fresh_copy_with_runbook undocumented-default)"
+assert_guard_passes "$COPY" "an unmutated copy carrying the runbook"
+plant_runbook "$COPY" 'a deleted default row' grep -v 'RELEVANCE_FLOOR'
+assert_guard_catches "$COPY" "a shipped default the runbook documents nowhere" "$RUNBOOK_REL"
+
+# 10. DROPPED ANCHOR: the comment that ties a table to this gate, removed.
+COPY="$(fresh_copy_with_runbook dropped-anchor)"
+assert_guard_passes "$COPY" "an unmutated copy carrying the runbook"
+plant_runbook "$COPY" 'a deleted table anchor' grep -v 'worker-vars: chat'
+assert_guard_catches "$COPY" "a deleted worker-vars anchor" "$RUNBOOK_REL"
+
+echo "OK: worker config self-test passed -- the guard catches committed identity, unregistered workers, missing D1 or AI bindings, tracked derived artifacts, and a runbook that has drifted from the shipped defaults"
