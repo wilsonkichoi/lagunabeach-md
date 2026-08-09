@@ -59,26 +59,37 @@
 #   merged; presence is always read from the pre-merge working tree.
 #   Classification is PER PATH, with no activation signal and no
 #   mixed state:
-#     owned    = present before the merge -> never deleted, asserted unchanged
+#     owned    = present before the merge -> never deleted; a change the merge made
+#                is RESTORED where `git check-attr merge` reports `ours` for the
+#                file, and stops the upgrade where it does not
 #     stripped = absent  before the merge -> whatever the merge introduced is removed
+#
+#   The restore is there because `merge=ours` names a driver git runs only on a
+#   three-way CONTENT merge: an instance whose copy still equals the merge base has
+#   `ours == base`, git resolves to theirs, and the attribute never fires (case 14).
 #   classify records its answer in the git directory; reconcile consumes it after
 #   the merge. Exit 0 success / 1 failure / 2 usage / 3 contract underivable.
 #
 #   6. stripped instance, shared history (modify/delete on every doc path).
 #   7. stripped instance, unrelated-history first merge (theirs-only additions;
 #      the auto-commit shape exercises the amend path).
-#   8. fully owned instance protected by merge=ours: every path byte-for-byte
-#      unchanged, and a framework file ADDED under an owned directory is REPORTED,
-#      never deleted.
+#   8. fully owned instance protected by merge=ours, where `ours != base` so the
+#      driver really does fire: every path byte-for-byte unchanged, and a framework
+#      file ADDED under an owned directory is REPORTED, never deleted. Case 14 is
+#      the other half — same attribute, `ours == base`, driver never consulted.
 #   9. partially owned instance: per-path outcome, and the run does NOT stop —
 #      owning some of these paths and not others is a legitimate adopter state.
-#  10. owned but unprotected, in three shapes (no merge=ours attribute; attribute
-#      present but merge.ours.driver unset; and the framework's edits merging
-#      cleanly so git auto-commits): reconcile stops, names both repairs, and the
-#      framework's copy never wins. The undo it prescribes depends on the shape —
+#  10. owned but UNCLAIMED — `git check-attr merge` does not report `ours` — in two
+#      shapes (mid-merge, and the framework's edits merging cleanly so git
+#      auto-commits): reconcile stops, reports the attribute value and the driver
+#      state it OBSERVED, prescribes only the repair those observations support, and
+#      the framework's copy never wins. The undo it prescribes depends on the shape —
 #      `git merge --abort` mid-merge, `git reset --hard ORIG_HEAD` once the merge
 #      is committed — and the auto-commit sub-case runs the prescribed command and
 #      asserts it restores the instance's own documents.
+#      10b is the third shape and is NOT a stop: the attribute is present and only
+#      `merge.ours.driver` is unset, so git text-merges and conflicts — the instance
+#      claimed the path, so reconcile restores it and reports the missing driver.
 #  11. FIRST upgrade to the release that introduces MAINTAINER_DOCS: the working
 #      tree's wizard predates the export, so classify without `--from-tag` cannot
 #      derive the path set (exit 3) and `--from-tag <the tag being merged>` must
@@ -111,6 +122,19 @@
 #      FRAMEWORK-VERSION handling, fw-v2 ships the real one) and pins that the
 #      retired tree-first form loses the marker, so 13a guards a real difference.
 #
+#  14. maintainer docs the instance kept from the framework VERBATIM: `ours == base`,
+#      so with the attribute set AND the driver configured git still fast-forwards to
+#      theirs. reconcile restores the pre-merge content and amends the auto-committed
+#      merge. This is the common adopter state, and before LB-88 it was a hard stop
+#      whose printed remedy was already satisfied.
+#
+# Every seeded maintainer-doc directory carries a record whose NAME is not pure ASCII
+# (DOC_RECORDS). Git C-quotes such a path in line-based `diff --name-status` and
+# `ls-files -u` output, and a quoted literal is neither a pathspec git accepts nor a
+# path `check-attr` resolves — so a producer inside the helper that drops `-z` reads
+# the file as unclaimed and stops the upgrade with the remedy that cannot fix it. Case
+# 14 pins the cleanly-merged producer and case 10b the conflicted one.
+#
 # Two option-contract checks close the loop from the other side:
 #
 #   - `reconcile` must REJECT `--from-tag` (exit 2). Reconciliation derives from the
@@ -125,7 +149,7 @@
 #     wrongly report as accepted CLI options.
 #
 # `--selftest` proves the suite is non-vacuous: it re-runs cases 1, 2, 6, 7, 8, 9,
-# 10, 11, 12, 12c and 13 with the reconcile step DELIBERATELY SKIPPED and requires each
+# 10, 11, 12, 12c, 13 and 14 with the reconcile step DELIBERATELY SKIPPED and requires each
 # case's own assertions to FAIL. A skipped-reconcile run that passes means the case
 # cannot detect the regression it exists to guard, and --selftest exits nonzero. No
 # reconcile-dependent assertion is gated on the skip toggle, because gating one out
@@ -136,7 +160,7 @@
 # and everything it writes into scripts/.
 #
 # Usage:
-#   bash scripts/upgrade/check-upgrade-state.sh             all fourteen cases
+#   bash scripts/upgrade/check-upgrade-state.sh             all fifteen cases
 #   bash scripts/upgrade/check-upgrade-state.sh --selftest  non-vacuity proof
 #
 # Portability: macOS bash 3.2 + CI bash 5 (no mapfile/readarray, no associative
@@ -407,19 +431,44 @@ assert_mdocs_reconcile_ok() { # dir label
   [ "${SKIP_RECONCILE:-0}" = "1" ] || ok "$2: reconcile exited 0"
 }
 
-# An owned path the merge touched must STOP the upgrade and name both repairs.
-# Routed through run_mdocs_reconcile so --selftest can skip it: an upgrade that
-# does NOT stop is exactly the regression this assertion guards.
-assert_mdocs_reconcile_stops() { # dir label
+# An owned path the instance never CLAIMED (`check-attr merge` does not report
+# `ours`) must STOP the upgrade, and the diagnostic must report what it observed
+# rather than assuming. Routed through run_mdocs_reconcile so --selftest can skip
+# it: an upgrade that does NOT stop is exactly the regression this assertion guards.
+#
+# Every caller of this assertion has the driver CONFIGURED — the unconfigured shape
+# is a restore now (case 10b), not a stop — so the diagnostic must report that
+# observation and must not prescribe configuring it. A remedy the reader has already
+# satisfied is what made the LB-88 stop unescapable.
+#
+# The third argument is a failing FILE inside the stopped path. The expected attribute
+# value is read out of git for that file rather than written here: the assertion is
+# that the diagnostic echoes what git really resolved, whatever word git uses for it.
+# Hardcoding `unspecified` would couple this to git's name for one particular unset
+# state and misreport a caller whose path resolves to some other non-`ours` value.
+assert_mdocs_reconcile_stops() { # dir label failing-file
+  local observed
   run_mdocs_reconcile "$1" "$2"
   [ "$HELPER_STATUS" -ne 0 ] \
-    || fail "$2: reconcile exited 0 on an unprotected owned path — the framework copy was allowed to win"
+    || fail "$2: reconcile exited 0 on an unclaimed owned path — the framework copy was allowed to win"
   [ -n "$HELPER_ERR" ] || fail "$2: reconcile failed with no diagnostic on stderr"
   printf '%s' "$HELPER_ERR" | grep -q 'merge=ours' \
     || fail "$2: the diagnostic does not name the missing .gitattributes marking: $HELPER_ERR"
   printf '%s' "$HELPER_ERR" | grep -q 'merge.ours.driver' \
-    || fail "$2: the diagnostic does not name the per-clone driver repair: $HELPER_ERR"
-  ok "$2: reconcile stops and names both repairs (attribute + per-clone driver)"
+    || fail "$2: the diagnostic does not report what it observed about the per-clone driver: $HELPER_ERR"
+  # Observed, not assumed: the attribute value git really resolves for the path.
+  printf '%s' "$HELPER_ERR" | grep -q 'check-attr merge' \
+    || fail "$2: the diagnostic does not report the observed \`check-attr merge\` value: $HELPER_ERR"
+  observed="$(git -C "$1" check-attr merge -- "$3" | sed 's/.*: //')"
+  [ -n "$observed" ] || fail "$2: fixture guard — git resolved no merge attribute for $3"
+  [ "$observed" != "ours" ] \
+    || fail "$2: fixture guard — git reports \`ours\` for $3, so this is not the unclaimed-path shape"
+  printf '%s' "$HELPER_ERR" | grep -Fq "$observed" \
+    || fail "$2: the diagnostic does not print the value git actually resolved for $3 (\`$observed\`): $HELPER_ERR"
+  if printf '%s' "$HELPER_ERR" | grep -q 'git config merge.ours.driver true'; then
+    fail "$2: the diagnostic prescribes configuring a driver that IS already configured in this clone — a remedy that cannot fix the stop: $HELPER_ERR"
+  fi
+  ok "$2: reconcile stops, reports both observations (attribute \`$observed\`), and prescribes only the repair they support"
 }
 
 # ---------------------------------------------------------------------------
@@ -463,11 +512,24 @@ strip_maintainer_docs() { # dir
   for rel in $MAINTAINER_DOCS; do rm -rf "$1/$rel"; done
 }
 
+# The record files write_docs_at seeds inside a DIRECTORY entry of the maintainer-doc
+# set. The second one carries a non-ASCII byte on purpose, and it is a guard rather
+# than decoration: git's line-based `diff --name-status` and `ls-files -u` output
+# C-quotes any path holding a byte above 0x7f (`core.quotePath` defaults to true), and
+# the quoted literal is neither a pathspec git accepts nor a path `check-attr`
+# resolves. A producer inside the helper that drops `-z` therefore reads this file as
+# unclaimed and stops the upgrade with the one remedy that cannot fix it — the LB-88
+# defect itself, in a shape a pure-ASCII fixture cannot reach. Latin script only: the
+# English-only gate bans CJK codepoints in `scripts/`, and the language support
+# boundary (AGENTS.md) puts Latin-script content inside what the framework supports.
+NON_ASCII_DOC_RECORD="003-non-ascii-café.md"
+DOC_RECORDS="001-example.md $NON_ASCII_DOC_RECORD"
+
 # A concrete FILE inside the maintainer-doc set, for the conflict fixtures below.
 # Mirrors seed_maintainer_docs: a `*.md` entry is itself a file, and any other entry
-# is a directory the seeder fills with 001-example.md. Deriving the file from the
-# entry shape rather than requiring a `*.md` entry is what lets the declaration be a
-# single directory (ADR 009) without this fixture losing its conflict target.
+# is a directory the seeder fills with the DOC_RECORDS above. Deriving the file from
+# the entry shape rather than requiring a `*.md` entry is what lets the declaration be
+# a single directory (ADR 009) without this fixture losing its conflict target.
 first_doc_file() { # — a concrete file path the seeder writes
   local rel
   for rel in $MAINTAINER_DOCS; do
@@ -477,6 +539,39 @@ first_doc_file() { # — a concrete file path the seeder writes
     esac
   done
   fail "fixture: the derived maintainer-doc set is empty"
+}
+
+# The non-ASCII record inside the first DIRECTORY entry, or empty when the declared
+# set holds only file entries — the seeder writes records only inside directories, so
+# a declaration that ever becomes file-only loses this pin rather than failing on a
+# path nothing wrote.
+non_ascii_doc_file() { # — the seeded non-ASCII file path, or empty
+  local rel
+  for rel in $MAINTAINER_DOCS; do
+    case "$rel" in
+      *.md) ;;
+      *)    printf '%s/%s' "$rel" "$NON_ASCII_DOC_RECORD"; return ;;
+    esac
+  done
+}
+
+# Every file the seeder wrote under one maintainer-doc entry, compared byte-for-byte
+# against a copy kept before the merge. Walks DOC_RECORDS rather than naming
+# 001-example.md, so the non-ASCII record is covered wherever a case asserts content.
+assert_doc_entry_matches() { # instance-dir kept-tree rel label
+  local record
+  case "$3" in
+    *.md)
+      cmp "$1/$3" "$2/$3" \
+        || fail "$4: $3 is not byte-for-byte its pre-merge copy"
+      ;;
+    *)
+      for record in $DOC_RECORDS; do
+        cmp "$1/$3/$record" "$2/$3/$record" \
+          || fail "$4: $3/$record is not byte-for-byte its pre-merge copy"
+      done
+      ;;
+  esac
 }
 
 assert_maintainer_docs_absent() { # dir label
@@ -1242,18 +1337,9 @@ case_mdocs_owned_preserved() { # workdir
   finalize_merge "$inst" "case 8"
 
   for rel in $MAINTAINER_DOCS; do
-    case "$rel" in
-      *.md)
-        cmp "$inst/$rel" "$keep/tree/$rel" \
-          || fail "case 8: the instance's $rel is not byte-for-byte identical after the merge"
-        ;;
-      *)
-        cmp "$inst/$rel/001-example.md" "$keep/tree/$rel/001-example.md" \
-          || fail "case 8: the instance's $rel/001-example.md is not byte-for-byte identical after the merge"
-        ;;
-    esac
+    assert_doc_entry_matches "$inst" "$keep/tree" "$rel" "case 8"
   done
-  ok "case 8: every instance-owned maintainer doc is byte-for-byte unchanged (cmp)"
+  ok "case 8: every instance-owned maintainer-doc file is byte-for-byte unchanged (cmp)"
   assert_mdocs_classify "$inst" "case 8 (post-merge)" "$MAINTAINER_DOCS" ""
 }
 
@@ -1315,7 +1401,7 @@ write_wizard_declaring() { # dir path-list
 # shape that cannot occur in production. The bodies below are long and side-specific so
 # the similarity asymmetry is real.
 write_docs_at() { # dir path-list marker
-  local rel body
+  local rel record body
   case "$3" in
     instance-owned)
       body="This document belongs to the adopting instance. It records that instance's own
@@ -1345,7 +1431,9 @@ Framework-side body line eight."
         ;;
       *)
         mkdir -p "$1/$rel"
-        printf '# Decision record 001 (%s)\n\n%s\n' "$3" "$body" > "$1/$rel/001-example.md"
+        for record in $DOC_RECORDS; do
+          printf '# Decision record %s (%s)\n\n%s\n' "$record" "$3" "$body" > "$1/$rel/$record"
+        done
         ;;
     esac
   done
@@ -1523,52 +1611,113 @@ case_mdocs_declaration_relocated() { # workdir
 }
 
 # ---------------------------------------------------------------------------
-# Case 10 — maintainer docs: OWNED BUT UNPROTECTED — the upgrade must stop
+# Case 10 — maintainer docs: OWNED BUT UNCLAIMED — the upgrade must stop
+# (10b is the sibling shape: claimed, but the per-clone driver is unset — a restore)
 # ---------------------------------------------------------------------------
 case_mdocs_owned_unprotected() { # workdir
-  local work="$1" variant fw inst owned
+  local work="$1" fw inst owned before
   mkdir -p "$work"
-  for variant in no-attribute no-driver; do
-    fw="$work/$variant/fw"
-    inst="$work/$variant/instance"
-    mkdir -p "$work/$variant"
-    build_framework "$fw"
-    clone_at_v1 "$fw" "$inst"
 
-    owned="$(first_doc_file)"
-    write_maintainer_docs "$inst" "instance-owned"
-    case "$variant" in
-      no-attribute) : ;;                                  # never marked merge=ours
-      no-driver)
-        append_maintainer_doc_attributes "$inst"
-        git -C "$inst" config --unset merge.ours.driver   # per-clone, not version-controlled
-        ;;
-    esac
-    write_instance_agents_md "$inst/AGENTS.md" no-reference
-    git -C "$inst" add -A
-    git -C "$inst" commit -q -m "Instance documents at the maintainer-doc paths ($variant)"
+  # 10a — the instance never marked these paths `merge=ours`. `check-attr merge`
+  # reports `unspecified`, so the instance never claimed them, and reverting the
+  # framework's edits would be the framework deciding ownership on its behalf.
+  fw="$work/no-attribute/fw"
+  inst="$work/no-attribute/instance"
+  mkdir -p "$work/no-attribute"
+  build_framework "$fw"
+  clone_at_v1 "$fw" "$inst"
 
-    local before
-    before="$(git -C "$inst" rev-parse HEAD)"
-    assert_mdocs_classify "$inst" "case 10/$variant" "$MAINTAINER_DOCS" ""
+  owned="$(first_doc_file)"
+  write_maintainer_docs "$inst" "instance-owned"
+  write_instance_agents_md "$inst/AGENTS.md" no-reference
+  git -C "$inst" add -A
+  git -C "$inst" commit -q -m "Instance documents at the maintainer-doc paths (no-attribute)"
 
-    git -C "$inst" merge --no-edit fw-v2 >/dev/null 2>&1 || true
-    git -C "$inst" rev-parse -q --verify MERGE_HEAD >/dev/null 2>&1 \
-      || fail "case 10/$variant: fixture guard — expected the merge to stop mid-merge (both sides edited these paths)"
-    assert_mdocs_reconcile_stops "$inst" "case 10/$variant"
-    if [ "${SKIP_RECONCILE:-0}" != "1" ]; then
-      printf '%s' "$HELPER_ERR" | grep -q 'merge --abort' \
-        || fail "case 10/$variant: mid-merge diagnostic does not prescribe the abort: $HELPER_ERR"
-    fi
+  before="$(git -C "$inst" rev-parse HEAD)"
+  assert_mdocs_classify "$inst" "case 10/no-attribute" "$MAINTAINER_DOCS" ""
 
-    # The instance's own document must still be its own: nothing committed, and the
-    # committed content at the pre-merge revision untouched.
-    git -C "$inst" show "$before:$owned" | grep -Fq 'instance-owned' \
-      || fail "case 10/$variant: the instance's committed $owned no longer holds its own content"
-    [ "$(git -C "$inst" rev-parse HEAD)" = "$before" ] \
-      || fail "case 10/$variant: the failed reconcile advanced HEAD"
-    ok "case 10/$variant: the framework copy did not win and HEAD did not move"
+  git -C "$inst" merge --no-edit fw-v2 >/dev/null 2>&1 || true
+  git -C "$inst" rev-parse -q --verify MERGE_HEAD >/dev/null 2>&1 \
+    || fail "case 10/no-attribute: fixture guard — expected the merge to stop mid-merge (both sides edited these paths)"
+  assert_mdocs_reconcile_stops "$inst" "case 10/no-attribute" "$owned"
+  if [ "${SKIP_RECONCILE:-0}" != "1" ]; then
+    printf '%s' "$HELPER_ERR" | grep -q 'merge --abort' \
+      || fail "case 10/no-attribute: mid-merge diagnostic does not prescribe the abort: $HELPER_ERR"
+  fi
+
+  # The instance's own document must still be its own: nothing committed, and the
+  # committed content at the pre-merge revision untouched.
+  git -C "$inst" show "$before:$owned" | grep -Fq 'instance-owned' \
+    || fail "case 10/no-attribute: the instance's committed $owned no longer holds its own content"
+  [ "$(git -C "$inst" rev-parse HEAD)" = "$before" ] \
+    || fail "case 10/no-attribute: the failed reconcile advanced HEAD"
+  ok "case 10/no-attribute: the framework copy did not win and HEAD did not move"
+
+  # 10b — the attribute IS there and the per-clone driver is NOT configured, so git
+  # falls back to a plain text merge and conflicts. The instance HAS claimed these
+  # paths, so this is a restore, not a stop: the upgrade puts its documents back and
+  # tells it the driver is missing. Stopping here would be the LB-88 defect in its
+  # other shape — an unescapable halt over a condition the upgrade can repair.
+  local inst2 keep2 rel nonascii
+  fw="$work/no-driver/fw"
+  inst2="$work/no-driver/instance"
+  keep2="$work/no-driver/expected"
+  mkdir -p "$work/no-driver" "$keep2/tree"
+  build_framework "$fw"
+  clone_at_v1 "$fw" "$inst2"
+
+  write_maintainer_docs "$inst2" "instance-owned"
+  append_maintainer_doc_attributes "$inst2"
+  git -C "$inst2" config --unset merge.ours.driver   # per-clone, not version-controlled
+  write_instance_agents_md "$inst2/AGENTS.md" no-reference
+  git -C "$inst2" add -A
+  git -C "$inst2" commit -q -m "Instance documents at the maintainer-doc paths (no-driver)"
+
+  for rel in $MAINTAINER_DOCS; do
+    mkdir -p "$keep2/tree/$(dirname "$rel")"
+    cp -R "$inst2/$rel" "$keep2/tree/$rel"
   done
+
+  if [ -n "$(git -C "$inst2" config --get merge.ours.driver || true)" ]; then
+    fail "case 10/no-driver: fixture guard — the ours driver is still configured, so the unconfigured shape is gone"
+  fi
+  assert_mdocs_classify "$inst2" "case 10/no-driver" "$MAINTAINER_DOCS" ""
+
+  git -C "$inst2" merge --no-edit fw-v2 >/dev/null 2>&1 || true
+  git -C "$inst2" rev-parse -q --verify MERGE_HEAD >/dev/null 2>&1 \
+    || fail "case 10/no-driver: fixture guard — expected the merge to stop mid-merge (an undefined driver falls back to a text merge)"
+  git -C "$inst2" ls-files -u -- "$owned" | grep -q . \
+    || fail "case 10/no-driver: fixture guard — $owned did not conflict, so there is nothing for the restore to resolve"
+  ok "case 10/no-driver: the undefined driver left the instance's documents conflicted"
+
+  assert_mdocs_reconcile_ok "$inst2" "case 10/no-driver"
+  # Deliberately NOT gated on SKIP_RECONCILE: these two are the only
+  # reconcile-dependent assertions before finalize_merge, and gating them out is how
+  # a case silently becomes vacuous.
+  printf '%s\n%s\n' "$HELPER_OUT" "$HELPER_ERR" | grep -Fq "$owned" \
+    || fail "case 10/no-driver: reconcile did not name the restored path; stdout: '$HELPER_OUT'; stderr: '$HELPER_ERR'"
+  printf '%s\n%s\n' "$HELPER_OUT" "$HELPER_ERR" | grep -q 'merge.ours.driver' \
+    || fail "case 10/no-driver: reconcile restored without reporting that the driver is not configured; stdout: '$HELPER_OUT'"
+  ok "case 10/no-driver: reconcile restores and reports the missing per-clone driver"
+
+  # The `-z` pin on the CONFLICTED producer (`git ls-files -u`). Without it git
+  # C-quotes this path, the quoted literal resolves to no `merge` attribute, and the
+  # restore turns into the hard stop this task exists to remove.
+  nonascii="$(non_ascii_doc_file)"
+  if [ -n "$nonascii" ]; then
+    printf '%s\n%s\n' "$HELPER_OUT" "$HELPER_ERR" | grep -Fq "$nonascii" \
+      || fail "case 10/no-driver: reconcile did not name the restored non-ASCII path ($nonascii) verbatim; stdout: '$HELPER_OUT'; stderr: '$HELPER_ERR'"
+    ok "case 10/no-driver: reconcile names the restored non-ASCII conflicted path verbatim"
+  fi
+
+  [ -z "$(git -C "$inst2" ls-files -u -- $MAINTAINER_DOCS)" ] \
+    || fail "case 10/no-driver: reconcile left a maintainer-doc conflict for the user to resolve"
+  finalize_merge "$inst2" "case 10/no-driver"
+  assert_is_merge_commit "$inst2" "case 10/no-driver"
+  for rel in $MAINTAINER_DOCS; do
+    assert_doc_entry_matches "$inst2" "$keep2/tree" "$rel" "case 10/no-driver"
+  done
+  ok "case 10/no-driver: every instance-owned maintainer-doc file is byte-for-byte its pre-merge copy (cmp)"
 
   # 10c — the same unprotected instance, but the framework's edits apply WITHOUT a
   # conflict, so git auto-commits the merge. `git merge --abort` does not work once
@@ -1600,7 +1749,7 @@ case_mdocs_owned_unprotected() { # workdir
   fi
   ok "case 10/clean-auto-merge: the framework's doc edits merged cleanly and git committed the merge"
 
-  assert_mdocs_reconcile_stops "$inst3" "case 10/clean-auto-merge"
+  assert_mdocs_reconcile_stops "$inst3" "case 10/clean-auto-merge" "$owned"
   if [ "${SKIP_RECONCILE:-0}" != "1" ]; then
     printf '%s' "$HELPER_ERR" | grep -q 'ORIG_HEAD' \
       || fail "case 10/clean-auto-merge: the diagnostic does not name the committed-merge undo (ORIG_HEAD): $HELPER_ERR"
@@ -2171,6 +2320,125 @@ EOF
 }
 
 # ---------------------------------------------------------------------------
+# Case 14 — maintainer docs: the instance KEPT THE FRAMEWORK'S COPY VERBATIM, so
+# `ours == base` and the `ours` driver never runs.
+#
+# This is the same mechanic case 12 pins for FRAMEWORK-VERSION, one tree over. A
+# merge driver runs only on a three-way CONTENT merge, so an instance that has not
+# edited a document since the merge base has git resolve to theirs without ever
+# consulting the driver — with the attribute set and the driver configured, both.
+# Case 8 cannot reach this shape: there the instance wrote its own content, `ours !=
+# base`, and the driver really does fire. Both must keep passing, because they are
+# the two halves of what `merge=ours` does and does not guarantee.
+#
+# Keeping a framework document verbatim is the COMMON adopter state, not an edge
+# case, so the upgrade restores the pre-merge content rather than stopping. Before
+# LB-88 it stopped, and prescribed marking the path `merge=ours` and configuring the
+# driver — both already true here, which made re-running reproduce the stop.
+#
+# The merge is shaped to AUTO-COMMIT, because that is the shape the defect was found
+# in on a real instance upgrade, and the only one that drives the amend path.
+# ---------------------------------------------------------------------------
+case_mdocs_owned_ours_equals_base() { # workdir
+  local work="$1" fw inst keep rel owned docdir dirty nonascii
+  fw="$work/fw"
+  inst="$work/instance"
+  keep="$work/expected"
+  mkdir -p "$work" "$keep/tree"
+  build_framework "$fw"
+  clone_at_v1 "$fw" "$inst"
+
+  owned="$(first_doc_file)"
+
+  # The instance CLAIMS the maintainer-doc paths but writes no content of its own
+  # there: it keeps fw-v1's documents byte-for-byte. It also drops the framework's
+  # VERSION the way fw-v2 does, so that one-time modify/delete conflict does not stop
+  # the merge for an unrelated reason — this fixture needs git to auto-commit.
+  append_maintainer_doc_attributes "$inst"
+  write_instance_agents_md "$inst/AGENTS.md" no-reference
+  git -C "$inst" rm -q -f VERSION
+  git -C "$inst" add -A
+  git -C "$inst" commit -q -m "Instance claims the maintainer-doc paths without changing them"
+
+  for rel in $MAINTAINER_DOCS; do
+    mkdir -p "$keep/tree/$(dirname "$rel")"
+    cp -R "$inst/$rel" "$keep/tree/$rel"
+  done
+
+  # Fixture guards. Both repairs the pre-LB-88 diagnostic prescribed are already in
+  # place, and the documents are identical to the merge base — that pair is exactly
+  # what makes `merge=ours` insufficient, and it is the state this case exists for.
+  grep -q 'merge=ours' "$inst/.gitattributes" \
+    || fail "case 14: fixture guard — the maintainer-doc paths are not marked merge=ours"
+  [ "$(git -C "$inst" config merge.ours.driver)" = "true" ] \
+    || fail "case 14: fixture guard — the ours driver is not configured in this clone"
+  git -C "$inst" diff --quiet fw-v1 HEAD -- $MAINTAINER_DOCS \
+    || fail "case 14: fixture guard — the instance changed a maintainer doc since the merge base, so the driver would fire and the case would prove nothing"
+  ok "case 14: fixture is the ours==base shape (attribute set, driver configured, documents identical to the merge base)"
+
+  assert_mdocs_classify "$inst" "case 14" "$MAINTAINER_DOCS" ""
+
+  git -C "$inst" merge --no-edit fw-v2 >/dev/null 2>&1 || true
+  if git -C "$inst" rev-parse -q --verify MERGE_HEAD >/dev/null 2>&1; then
+    fail "case 14: fixture no longer auto-commits the merge, so the amend path is not exercised"
+  fi
+  # The defect, pinned: with the attribute set and the driver configured, the merge
+  # still replaced the instance's documents, because git never invoked the driver.
+  if cmp -s "$inst/$owned" "$keep/tree/$owned"; then
+    fail "case 14: fixture guard — the merge left $owned unchanged, so there is nothing to restore"
+  fi
+  ok "case 14: the merge replaced the instance's maintainer docs (merge=ours did not protect them)"
+
+  assert_mdocs_reconcile_ok "$inst" "case 14"
+  # Deliberately NOT gated on SKIP_RECONCILE: with reconcile skipped this is the
+  # first assertion that must fail, or the case guards nothing.
+  printf '%s\n%s\n' "$HELPER_OUT" "$HELPER_ERR" | grep -Fq "$owned" \
+    || fail "case 14: reconcile did not name the restored path; stdout: '$HELPER_OUT'; stderr: '$HELPER_ERR'"
+  ok "case 14: reconcile names the restored path"
+
+  # The `-z` pin on the CLEANLY-MERGED producer (`git diff --name-status`), the other
+  # half of case 10/no-driver's. A path git C-quotes is read as unclaimed, so losing
+  # `-z` fails the reconcile above rather than reaching here.
+  nonascii="$(non_ascii_doc_file)"
+  if [ -n "$nonascii" ]; then
+    printf '%s\n%s\n' "$HELPER_OUT" "$HELPER_ERR" | grep -Fq "$nonascii" \
+      || fail "case 14: reconcile did not name the restored non-ASCII path ($nonascii) verbatim; stdout: '$HELPER_OUT'; stderr: '$HELPER_ERR'"
+    ok "case 14: reconcile names the restored non-ASCII path verbatim"
+  fi
+
+  finalize_merge "$inst" "case 14"
+  assert_is_merge_commit "$inst" "case 14"
+
+  for rel in $MAINTAINER_DOCS; do
+    assert_doc_entry_matches "$inst" "$keep/tree" "$rel" "case 14"
+  done
+  ok "case 14: every instance-owned maintainer-doc file is byte-identical to its pre-merge blob (cmp), non-ASCII path included"
+
+  # The restore landed in the merge commit itself, not as a follow-up commit.
+  dirty="$(git -C "$inst" status --porcelain)"
+  [ -z "$dirty" ] || fail "case 14: reconcile left the amended merge uncommitted: $(echo "$dirty" | tr '\n' ' ')"
+  git -C "$inst" show "HEAD:$owned" | cmp - "$keep/tree/$owned" \
+    || fail "case 14: the merge commit carries the framework's copy of $owned, not the instance's"
+  ok "case 14: reconcile amended the merge commit itself (working tree clean)"
+
+  # The restore must not have widened into a revert of the whole owned path: a
+  # framework file the merge ADDED underneath it is still reported, never deleted —
+  # the same rule case 8 pins.
+  for docdir in $MAINTAINER_DOCS; do
+    case "$docdir" in
+      *.md) ;;
+      *) [ -f "$inst/$docdir/002-added-in-fw-v2.md" ] \
+           || fail "case 14: the restore DELETED the framework-added record (it must report, not delete)" ;;
+    esac
+  done
+  ok "case 14: the framework-added record survives the restore (report, never delete)"
+
+  git -C "$inst" show HEAD:src/app.js | grep -q 'fw-v2' \
+    || fail "case 14: the framework's non-doc change (src/app.js at fw-v2) did not land — the restore discarded the merge"
+  ok "case 14: the framework's non-doc change (src/app.js @ fw-v2) landed"
+}
+
+# ---------------------------------------------------------------------------
 # Documented-bootstrap contract — the flags the adopter-facing docs tell a user to
 # run must be flags the helper actually accepts.
 #
@@ -2312,7 +2580,7 @@ run_all_cases() {
   echo "── case 9: maintainer docs — declaration relocated across the upgrade (per path, no stop) ──"
   case_mdocs_declaration_relocated "$TMP/case9"
   echo ""
-  echo "── case 10: maintainer docs — owned but unprotected (must stop) ──"
+  echo "── case 10: maintainer docs — owned but unclaimed (must stop); unconfigured driver (must restore) ──"
   case_mdocs_owned_unprotected "$TMP/case10"
   echo ""
   echo "── case 11: maintainer docs — first upgrade to the release that introduces the strip list ──"
@@ -2327,13 +2595,16 @@ run_all_cases() {
   echo "── case 13: helper version skew — the bootstrap runs the target tag's helper ──"
   case_helper_bootstrap_version_skew "$TMP/case13"
   echo ""
+  echo "── case 14: maintainer docs — the instance kept the framework's copy verbatim (ours == base) ──"
+  case_mdocs_owned_ours_equals_base "$TMP/case14"
+  echo ""
   echo "── option contract: reconcile rejects --from-tag ──"
   case_reconcile_rejects_from_tag "$TMP/case-options"
   echo ""
   echo "── documented bootstrap: the docs' helper options are options the parser accepts ──"
   case_documented_flags_exist
   echo ""
-  echo "✅ upgrade-state check passed: dev-plugin state (stripped / installed / mixed exit 3), maintainer-doc state (per-path owned / stripped, unprotected stop, tag-derived first upgrade), the FRAMEWORK-VERSION bump contract, present and absent, and the tag-first helper bootstrap hold on all fourteen fixtures."
+  echo "✅ upgrade-state check passed: dev-plugin state (stripped / installed / mixed exit 3), maintainer-doc state (per-path owned / stripped, ours==base restore, unclaimed-path stop, tag-derived first upgrade), the FRAMEWORK-VERSION bump contract, present and absent, and the tag-first helper bootstrap hold on all fifteen fixtures."
 }
 
 # Run one case with reconcile skipped, in a subshell whose EXIT trap is cleared
@@ -2360,12 +2631,13 @@ run_selftest() {
   expect_case_to_fail case_mdocs_stripped_unrelated_history "$TMP/selftest-case7" "case 7 (maintainer docs, stripped, unrelated history)"
   expect_case_to_fail case_mdocs_owned_preserved "$TMP/selftest-case8" "case 8 (maintainer docs, fully owned)"
   expect_case_to_fail case_mdocs_declaration_relocated "$TMP/selftest-case9" "case 9 (maintainer docs, declaration relocated)"
-  expect_case_to_fail case_mdocs_owned_unprotected "$TMP/selftest-case10" "case 10 (maintainer docs, owned but unprotected)"
+  expect_case_to_fail case_mdocs_owned_unprotected "$TMP/selftest-case10" "case 10 (maintainer docs, owned but unclaimed / driver unconfigured)"
   expect_case_to_fail case_mdocs_first_upgrade_from_tag "$TMP/selftest-case11" "case 11 (maintainer docs, first upgrade from tag)"
   expect_case_to_fail case_framework_version_survives_merge "$TMP/selftest-case12" "case 12 (FRAMEWORK-VERSION survives the merge)"
   expect_case_to_fail case_framework_version_absent_stays_absent "$TMP/selftest-case12c" "case 12c (absent FRAMEWORK-VERSION stays absent)"
   expect_case_to_fail case_helper_bootstrap_version_skew "$TMP/selftest-case13" "case 13 (helper version skew)"
-  echo "✅ SELFTEST OK: cases 1, 2, 6, 7, 8, 9, 10, 11, 12, 12c and 13 all fail when reconcile is skipped."
+  expect_case_to_fail case_mdocs_owned_ours_equals_base "$TMP/selftest-case14" "case 14 (maintainer docs, ours == base)"
+  echo "✅ SELFTEST OK: cases 1, 2, 6, 7, 8, 9, 10, 11, 12, 12c, 13 and 14 all fail when reconcile is skipped."
 }
 
 main() {
