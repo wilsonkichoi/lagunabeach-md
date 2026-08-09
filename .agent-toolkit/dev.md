@@ -36,6 +36,27 @@ converted from the owning repository's ROADMAP blocks, never re-derived. Any con
 between two documents, or between the two repositories' copies of one — is surfaced to
 Wilson, never silently resolved in either direction.
 
+## Intent sources
+
+- dev_docs/PRD.md
+- dev_docs/SPEC.md
+
+The dev plugin's `dev:backlog` triage reads product intent from `docs/PRD.md` and
+`docs/SPEC.md` by default. Neither path exists in this repository or in `sekai-kb`:
+ADR 008 split the planning documents across the two repositories and ADR 009 relocated
+both copies from `docs/` to `dev_docs/`. Without this section every triage run stops
+before its first mutation and asks Wilson to approve the same two files again, which is
+a prompt rather than a check.
+
+The paths above resolve **per repository**, exactly as the precedence table above says:
+a session triaging LB's own content, config, or adoption reads this repository's copies;
+a session triaging framework work reads `sekai-kb`'s, declared in that repository's own
+`## Intent sources` section. Neither side reads the other's. `dev_docs/ROADMAP.md` and
+`dev_docs/adr/` are deliberately absent from this list: they carry delivery order and
+accepted decisions, which `/dev:plan` and `/dev:architect` own, not the product intent
+`dev:backlog` triages against. Add a path here only when it answers "what is this
+product for", and add it to the precedence table in the same commit.
+
 ## Genericity rule (negative requirement)
 
 Zero place-specific strings in `src/` or `scripts/`. All place identity flows from
