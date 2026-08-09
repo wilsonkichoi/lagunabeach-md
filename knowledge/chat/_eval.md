@@ -1,6 +1,6 @@
 ---
-# The chat evaluation set: the questions `npm run chat:eval` asks a deployed chat
-# worker, and what each answer has to look like.
+# The chat evaluation set for LagunaBeach.md: the questions `npm run chat:eval` asks
+# the deployed chat worker, and what each answer has to look like.
 #
 # The leading `_` in this filename is load-bearing. It is what makes the file
 # invisible to the three scanners that walk `knowledge/` looking for articles
@@ -8,9 +8,6 @@
 # scripts/core/build-content-dates.mjs). Rename it without the prefix and the
 # article pipeline starts treating this list of questions as an article with no
 # title, description, or category.
-#
-# The whole file is optional. An instance that never writes one is not broken:
-# `npm run chat:eval` reports "no evaluation set" and exits 0.
 #
 # Each question carries:
 #   question    - required, what gets posted to the worker.
@@ -27,85 +24,102 @@
 #   note        - optional, why this question is in the set.
 #
 # Why two refusal kinds. Retrieval scores how much a question RESEMBLES the corpus,
-# not whether the corpus answers it. Measured against this demo corpus: questions
-# about places the corpus never mentions score at most 0.435, comfortably under the
-# 0.46 relevance floor, so nothing is retrieved and nothing can be cited. But
-# questions about THIS place that no article happens to cover score 0.512 to 0.595,
-# which is at or above genuinely answerable questions ("What is the history of this
-# town?" scores 0.512). No floor separates those without also rejecting real
-# questions, so whether the model refused is something a person reads off the
-# report. See docs/runbook/DEPLOY.md for how to re-measure the floor on your corpus.
+# not whether the corpus answers it. A question about a place this corpus never
+# mentions falls under the relevance floor, so nothing is retrieved and nothing can
+# be cited: that is machine-enforceable. A question about Laguna Beach that no
+# article happens to cover scores like a real question, because it is one — only the
+# answer can be wrong, so a person reads that verdict off the report.
+#
+# The composition is fixed by the framework's 7.2c DoD 5 and is what makes a passing
+# run mean anything: four single-article factual, two spanning two articles, two
+# category-level, and two refusals.
 
 questions:
-  # ── Four single-article factual questions ─────────────────────────────────────
-  - question: In what year was the Marisol Point Lighthouse decommissioned, and is it still lit?
-    expectSlugs: [history/marisol-point-lighthouse]
+  # -- Four single-article factual questions ------------------------------------
+  - question: How many homes did the 1993 Laguna Beach firestorm destroy, and how many people were killed?
+    expectSlugs: [history/the-1993-firestorm]
     expect: sources
-    note: Two facts from one article; the second is the point of the article.
+    note: >-
+      Two facts from one article. The second is the point of the article — 441 homes
+      destroyed and zero deaths — and a plausible-sounding casualty figure is exactly
+      what an ungrounded answer invents.
 
-  - question: How much elevation does the Summit Ridge Trail gain, and how long is the climb?
-    expectSlugs: [trails/summit-ridge-trail]
+  - question: Who built the stone tower at Victoria Beach, and in what year?
+    expectSlugs: [beaches/victoria-beach]
+    expect: sources
+    note: >-
+      A named person and a date, each stated once in the corpus. The tower's popular
+      nickname is far better known online than the builder, so a model answering from
+      pre-training rather than from the article tends to skip the name.
+
+  - question: How high is Top of the World, and how many parking spaces are at the summit?
+    expectSlugs: [trails/top-of-the-world]
     expect: sources
     note: Numeric detail, easy to check against the article and easy to invent.
 
-  - question: When did the town vote to establish the kelp forest preserve?
-    expectSlugs: [nature/kelp-forest-preserve]
-    expect: sources
-    note: A single date, stated once in the corpus.
-
-  - question: What year did the Harborlight Cafe open, and what is on its menu?
-    expectSlugs: [food/the-harborlight-cafe]
-    expect: sources
-
-  # ── Two questions spanning two articles ───────────────────────────────────────
-  - question: Where can I check the tide before walking into the Lantern Cove sea cave?
-    expectSlugs: [beaches/lantern-cove-beach, food/the-harborlight-cafe]
+  - question: In what year was the Laguna Art Museum founded, and when did it take its current name?
+    expectSlugs: [art-galleries/laguna-art-museum]
     expect: sources
     note: >-
-      The cave and its tide dependence are in the beach article; the chalkboard that
-      posts the tide is in the cafe article. Answering needs both.
+      Two dates from one article, with an intervening rename that makes the second
+      date impossible to guess from the institution's present-day name.
 
-  - question: How did the lighthouse fit into the town's founding as a fishing settlement?
-    expectSlugs: [history/marisol-point-lighthouse, history/founding-of-marisol-cove]
-    expect: sources
-    note: Two articles in one category that reference each other.
-
-  # ── Two category-level questions ──────────────────────────────────────────────
-  - question: What hiking is there around the town, and how hard is it?
-    expectSlugs: [trails/summit-ridge-trail]
-    expect: sources
-    note: Broad rather than factual; scores lowest of the answerable set at 0.585.
-
-  - question: What is the history of this town, from its founding onward?
-    expectSlugs: [history/founding-of-marisol-cove, history/marisol-point-lighthouse]
+  # -- Two questions spanning two articles ---------------------------------------
+  - question: Where should I stand to watch for whale spouts, and how high above the water are those spots?
+    expectSlugs: [nature-marine-life/whale-watching, trails/top-of-the-world]
     expect: sources
     note: >-
-      The weakest answerable question measured (0.512 top-1), which is what sets the
-      headroom above the 0.46 floor. If a corpus change pushes this under the floor
-      it will refuse, and that is the signal to re-measure.
+      The viewpoints and what to look for are in the whale article; the elevation of
+      the highest one is only in the trails article. Answering both halves needs both.
 
-  # ── Two questions that must be refused ────────────────────────────────────────
-  - question: What are the opening hours of the Marisol Cove farmers market?
+  - question: Which painters established the artists colony here, and what did it grow into during the Depression?
+    expectSlugs: [art-galleries/plein-air-painting, events-festivals/pageant-of-the-masters]
+    expect: sources
+    note: >-
+      The painters are in the plein air article; the 1933 Depression-era origin is in
+      the pageant article. The history article touches both and is an acceptable third
+      citation.
+
+  # -- Two category-level questions -----------------------------------------------
+  - question: What hiking is there around Laguna Beach, and how hard is it?
+    expectSlugs: [trails/top-of-the-world, trails/laguna-coast-wilderness-park]
+    expect: sources
+    note: >-
+      Broad rather than factual, and the weakest answerable question in this set. If a
+      corpus change pushes it under the relevance floor it will start refusing, which
+      is the signal to re-measure the floor per docs/runbook/DEPLOY.md.
+
+  - question: What lives in the tide pools here, and what am I allowed to do at them?
+    expectSlugs: [nature-marine-life/tide-pools, beaches/thousand-steps-beach]
+    expect: sources
+    note: >-
+      Spans a category-level article and the beach articles that repeat the Marine
+      Protected Area rules. The rules half is the one that matters: an invented answer
+      here tells a reader it is fine to pick up a sea star.
+
+  # -- Two questions that must be refused -------------------------------------------
+  - question: What are the opening hours of the Laguna Beach farmers market?
     expectSlugs: []
     expect: refusal-in-answer
     note: >-
-      A plausible-but-absent subject: a coastal town this size would have one, and no
-      article mentions it. Measured at 0.574, above several real questions, so
-      retrieval cannot tell it apart and near-neighbours will be cited. The answer
-      must still say the knowledge base does not cover it. Human-judged.
+      A plausible-but-absent subject: a coastal town this size has one, and no article
+      in this knowledge base mentions it. It reads to retrieval like any other question
+      about this place, so near-neighbour articles will be cited and the citation list
+      is not the verdict. The answer must say the knowledge base does not cover it.
+      Human-judged.
 
   - question: What are the best hiking trails near Reykjavik?
     expectSlugs: []
     expect: no-citations
     note: >-
-      A place the corpus never mentions. Measured at 0.435, under the floor, so
-      nothing is retrieved, nothing is cited, and the model is told outright that no
-      excerpt is relevant. Machine-enforced: any citation here fails the run.
+      A place this corpus never mentions. Nothing should clear the relevance floor, so
+      nothing is retrieved and nothing may be cited. Machine-enforced: any citation
+      here fails the run.
 ---
 
 # Chat evaluation set
 
-Ten questions, run against a deployed chat worker by `npm run chat:eval`. Eight are
+Ten questions, run against the deployed chat worker by `npm run chat:eval`. Eight are
 answerable from the articles in this knowledge base; two are not, and exist to check
 that the chat says so instead of inventing an answer.
 
@@ -117,4 +131,9 @@ report it writes is what you read to do it.
 Keep the shape of the set when you change the questions. Four single-article, two
 spanning two articles, two category-level, and two refusals is what makes a passing
 run mean something, and dropping the refusals leaves nothing testing the failure mode
-that matters most.
+that matters most — a knowledge base about a real town, answering confidently about a
+farmers market it has never documented.
+
+Re-run this after any material `knowledge/` change, and rebuild the embedding index
+first: the index is a snapshot, so an article added since the last
+`npm run embeddings:build` cannot be cited no matter how well it answers.

@@ -41,6 +41,7 @@ export interface PlaceConfig {
     chat: boolean;
     social: boolean;
     analytics: boolean;
+    og: boolean;
   };
   /**
    * Outbound identity links. `repo` + `email` are always rendered (footer,
@@ -62,11 +63,13 @@ export interface PlaceConfig {
   };
   /**
    * Deployed endpoints for this instance's own Cloudflare Workers. Added by
-   * sekai-kb-v1.0.17, extended with `feedbackDatabaseId` in sekai-kb-v1.0.18;
+   * sekai-kb-v1.0.17, extended with `feedbackDatabaseId` in sekai-kb-v1.0.18 and
+   * with `chat`, `chatDatabaseId`, and `og` in sekai-kb-v1.1.2;
    * absent-safe, so a config without it keeps every worker-backed
-   * feature off. `place.config.ts` is instance-owned (`merge=ours`), so the
-   * framework's schema addition does not arrive through the tag merge — it is
-   * transcribed here, matching the tag's declaration.
+   * feature off — a missing key, or an empty string, keeps the capability off even
+   * when its `features` flag is true. `place.config.ts` is instance-owned
+   * (`merge=ours`), so the framework's schema addition does not arrive through the
+   * tag merge — it is transcribed here, matching the tag's declaration.
    */
   workers?: {
     /** URL of this instance's deployed `workers/feedback/` worker. */
@@ -79,6 +82,12 @@ export interface PlaceConfig {
      * auth. `npm run worker-config` reads it; unset generates an empty id and says so.
      */
     feedbackDatabaseId?: string;
+    /** URL of this instance's deployed `workers/chat/` worker. */
+    chat?: string;
+    /** D1 `database_id` for the chat worker's rolling rate-limit state. */
+    chatDatabaseId?: string;
+    /** URL of this instance's deployed `workers/og/` worker. */
+    og?: string;
   };
   seo: {
     defaultOgImage: string;
@@ -245,6 +254,7 @@ const config: PlaceConfig = {
     chat: false,
     social: false,
     analytics: false,
+    og: false,
   },
   links: {
     repo: 'https://github.com/wilsonkichoi/lagunabeach-md',
