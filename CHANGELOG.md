@@ -43,6 +43,10 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+## [1.1.3] — 2026-08-10
+
+Framework-owned files warn instead of failing an instance's build, /sekai-upgrade reports diverged files with both values, chat worker tuning vars gain place.config.ts overrides, and a tag merge no longer stops on an unedited doc.
+
 ### Added
 
 - **`/sekai-upgrade` now names the framework-owned files you have diverged on, with the
@@ -1728,7 +1732,8 @@ onto this tag.
 First release — nothing to upgrade from. The first instance establishes its merge
 base against this tag per `docs/runbook/UPGRADE.md` §Establishing the merge base.
 
-[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.1.2...HEAD
+[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.1.3...HEAD
+[1.1.3]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.3
 [1.1.2]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.2
 [1.1.1]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.1
 [1.1.0]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.0
