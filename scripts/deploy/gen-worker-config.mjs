@@ -24,8 +24,17 @@
 //   ALLOWED_ORIGIN = `place.domain`, with https:// added when it carries no scheme.
 //   database_id    = `workers.<worker>DatabaseId` in place.config.ts, when set.
 //
-// Everything else in the template -- main, compatibility_date, the D1 binding,
-// migrations_dir, and the rate-limit vars -- is carried through byte for byte.
+// A second, smaller class of value is derived here too: the deploy-time tuning vars
+// registered in WORKER_VAR_OVERRIDES (scripts/deploy/wrangler-config.mjs). Those are
+// not place identity -- the framework ships a real default for each -- but the
+// framework asks an instance to retune them against its own corpus and its own
+// readers, and the committed template is framework-owned, so the answer has to land
+// somewhere else. Each carries a `workers.<key>` in place.config.ts and is written
+// into the generated config ONLY when that key is set.
+//
+// Everything else in the template -- main, compatibility_date, the D1 binding, and
+// migrations_dir -- is carried through byte for byte, as is every registered tuning
+// var whose place.config.ts key is unset.
 //
 // place.config.ts is optional in one direction only: an absent `workers` block, or an
 // unset database id, generates a config with an empty database_id and says so. That
@@ -45,8 +54,10 @@ import { pathToFileURL, fileURLToPath } from 'node:url';
 import {
   GENERATED_BASENAME,
   TEMPLATE_BASENAME,
+  WORKER_VAR_OVERRIDES,
   applyOverrides,
   originFromDomain,
+  overrideVarValue,
   parseWranglerToml,
   stripLeadingComments,
   workerName,
@@ -111,6 +122,7 @@ if (workerDirs.length === 0) {
 }
 
 const notes = [];
+const warnings = [];
 let written = 0;
 
 for (const dir of workerDirs) {
@@ -146,6 +158,46 @@ for (const dir of workerDirs) {
       if (cat.slug && cat.color) colorMap[cat.slug] = cat.color;
     }
     overrides.push({ table: 'vars', key: 'CATEGORY_COLORS', value: JSON.stringify(colorMap), required: true });
+  }
+
+  // Deploy-time tuning vars an instance may retune from place.config.ts. Unset is
+  // the absent-safe default: no override is pushed and the template constant is
+  // carried through, which is what keeps a config that sets none byte-identical to
+  // one generated before these keys existed.
+  for (const [varName, spec] of Object.entries(WORKER_VAR_OVERRIDES[dir] ?? {})) {
+    const configured = place?.workers?.[spec.configKey];
+    if (configured === undefined) continue;
+    if (!(parsed.tables.vars && varName in parsed.tables.vars)) {
+      // Same guard as the five overrides above, opposite branch: those keys are
+      // framework-derived and skipping a template that dropped one is harmless, but
+      // this one was typed by a person who expects it to take effect, so it is said
+      // out loud. Not fatal, though -- an instance reaching this reached it by
+      // upgrading, and refusing to generate would leave them unable to deploy the
+      // other five workers over one stale key. The framework side of the same
+      // contract is fatal at CI time instead: check-worker-config.mjs fails when an
+      // override is registered for a var the committed template does not carry.
+      warnings.push(
+        `WARNING: place.config.ts sets \`workers.${spec.configKey}\` (${configured}), but\n` +
+          `workers/${dir}/${TEMPLATE_BASENAME} no longer carries a [vars] ${varName}.\n` +
+          '\n' +
+          'A framework release removed it, which usually means the worker no longer\n' +
+          'reads it -- your value would have no effect, so it was not written.\n' +
+          '\n' +
+          '  - If you no longer need it: remove the key from place.config.ts.\n' +
+          '  - If you still need the behavior: the worker source changed too, so\n' +
+          "    review that release's CHANGELOG before upgrading further.\n" +
+          '\n' +
+          'Generated without it.',
+      );
+      continue;
+    }
+    let value;
+    try {
+      value = overrideVarValue(spec.configKey, configured, spec.kind);
+    } catch (err) {
+      fail(err.message);
+    }
+    overrides.push({ table: 'vars', key: varName, value, required: true });
   }
 
   if (parsed.arrays.d1_databases?.length) {
@@ -192,6 +244,10 @@ for (const dir of workerDirs) {
   console.log(`  workers/${dir}/${GENERATED_BASENAME}  name=${name}`);
 }
 
+// Warnings go to stderr, ahead of the OK summary: generation succeeded, but a value
+// the operator recorded on purpose did not make it into the config, and that must not
+// scroll past inside a list of per-worker success lines.
+for (const warning of warnings) console.error(`\n${warning}\n`);
 for (const note of notes) console.log(`  note: ${note}`);
 console.log(
   `OK: generated ${written} worker config(s). Deploy with ` +
