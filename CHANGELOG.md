@@ -43,6 +43,10 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+## [1.1.4] — 2026-08-11
+
+Feedback worker rate-limit vars gain a place.config.ts override path, the PlaceConfig declaration is stated once with a drift gate, and the chat worker supplies its refusal sentence directly.
+
 ### Added
 
 - **The feedback worker's two rate-limit vars are now settable from
@@ -1846,7 +1850,8 @@ onto this tag.
 First release — nothing to upgrade from. The first instance establishes its merge
 base against this tag per `docs/runbook/UPGRADE.md` §Establishing the merge base.
 
-[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.1.3...HEAD
+[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.1.4...HEAD
+[1.1.4]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.4
 [1.1.3]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.3
 [1.1.2]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.2
 [1.1.1]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.1
