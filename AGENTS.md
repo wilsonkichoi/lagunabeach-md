@@ -97,10 +97,22 @@ derived, gitignored projections of `knowledge/`; never edit them directly.
 3. **Extraction over invention:** design and components are copied from
    `${SRC_HOME}/lagunabeach-md-v1` per `dev_docs/SPEC.md`'s extraction map, then genericized — never
    re-prompted from description.
-4. **Framework vs instance:** `src/`, `scripts/`, and `.agents/skills/` are
-   framework-owned. Customize through `place.config.ts`, `knowledge/`, and
-   `public/media/`. Upstream deeper changes to sekai-kb and pull them back through
-   an immutable release tag.
+4. **Framework vs instance:** `src/`, `scripts/`, `workers/`, and `.agents/skills/`
+   are framework-owned, the framework ships them and every release replaces them
+   wholesale. That is a **default and an upgrade contract, not an access boundary**:
+   this is your repository and you may edit any file in it. The recommended routes
+   are still the cheap ones, customize through `place.config.ts`, `knowledge/`, and
+   `public/media/`, and upstream anything larger to sekai-kb so it comes back as a
+   tagged release and stops conflicting. What a direct edit costs is a merge conflict
+   on that file at the next `/sekai-upgrade`, and the framework's job is to say so
+   rather than to prevent it: a gate running in an instance fails the build only for
+   something that harms a party other than the person editing, account-scoped
+   collisions (a Worker `name`, a D1 `database_name`), committed credentials,
+   security boundaries. Every other divergence warns, names both values, and names
+   that cost (ADR 010; `docs/runbook/UPGRADE.md` §Framework-owned files). The
+   genericity gate remains the structural guarantee for rule 2, which is a different
+   rule and stays fatal. `CHANGELOG.md` becomes instance-owned at adoption; framework
+   release notes remain available from immutable tags.
 
 ## Skill discovery and ownership
 
