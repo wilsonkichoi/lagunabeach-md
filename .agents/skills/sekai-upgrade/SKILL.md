@@ -155,10 +155,12 @@ for step 5; unlike the dev-plugin helper, the classification itself is recorded 
 the git directory, so `reconcile` takes no state argument and no `--from-tag` —
 after the merge the framework-owned wizard is the tag's.
 
-- **owned** (the instance has a document at that path) → it is never deleted and
-  must come through the merge byte-for-byte. If the user's instance owns any of
-  these paths and has not marked them `merge=ours`, say so now: adding the
-  attribute is a pre-merge action, and step 5 will otherwise stop the upgrade.
+- **owned** (the instance has a document at that path) → it is never deleted, and
+  step 5 restores its pre-merge content if the merge changed it. If the user's
+  instance owns any of these paths and has not marked them `merge=ours`, say so now:
+  adding the attribute is a pre-merge action, and step 5 will otherwise stop the
+  upgrade, because claiming a path is the instance's decision and not the
+  framework's.
 - **stripped** (absent) → the absence is preserved through the merge, exactly like
   dev-plugin state.
 
@@ -185,6 +187,38 @@ PACKAGE_STATE="$(node "$PACKAGE_HELPER" capture)"
 The capture accepts the versionless npm manifests produced by v1.0.8 so the
 first migration to the synchronized manifest contract does not require manual
 pre-editing.
+
+## 3c. Report framework-owned divergence — still before merging
+
+Framework-owned (`src/`, `scripts/`, `workers/`, `.agents/skills/`) states where a
+file comes from and that every release replaces it wholesale. It is not a permission
+boundary: the instance may edit any file in its own repository, and what that costs is
+a conflict here (ADR 010). The framework's job is to price that edit twice — once
+continuously, as the `::warning` `npm run worker-config:check` emits in the instance's
+CI, and once now, with the framework's incoming value beside the instance's:
+
+```bash
+# Same tag-first rule as every helper above.
+DIVERGENCE_HELPER="$(git rev-parse --git-dir)/sekai-framework-divergence.mjs"
+git show sekai-kb-vX.Y.Z:scripts/upgrade/framework-divergence.mjs > "$DIVERGENCE_HELPER"
+node "$DIVERGENCE_HELPER" report --target sekai-kb-vX.Y.Z
+```
+
+`docs/runbook/UPGRADE.md` step 4d is the same command in the manual flow; keep the two
+in step. Show the report to the user before merging and keep it for step 6 — it is that
+step's input, not a duplicate of it. What it adds over the post-merge conflict list is
+everything git resolves silently: a file the instance changed that the framework did
+not is kept without a conflict, and the user never learns they are carrying it.
+
+- It reads the merge base, so it runs **before** the merge, on the clean tree
+  preflight already required.
+- It **writes nothing** — no state file, no staged path, no side taken. There is no
+  reconcile step for it, and it is never run after the merge.
+- Exit 0 with a "no merge base" report is the correct answer on the first
+  unrelated-history merge: divergence is measured against a common ancestor and there
+  is none yet. Do not read it as a clean bill of health, and do not work around it.
+- Exit 0 with "no framework-owned file ... differs" means the instance carries no
+  local edit in those trees; say so and move on.
 
 ## 4. Merge the tag (never `main`)
 
@@ -232,14 +266,20 @@ node "$PACKAGE_HELPER" reconcile "$PACKAGE_STATE"
 - **Maintainer docs** → per path: an absent path has whatever the merge introduced
   removed (resolving both the modify/delete conflict and the theirs-only addition,
   amending the merge commit if the merge already committed), and a path the
-  instance owns is asserted byte-for-byte unchanged and never deleted. Framework
-  files the merge added *under* an owned path are **reported** for the user to
-  decide, the same rule the installed dev-plugin case follows. A partially owned
-  set is normal and does not stop the upgrade; an owned path the merge changed or
-  conflicted **does** stop it, because that means the attribute or the driver is
-  missing and the framework's copy would otherwise overwrite the user's document.
-- A nonzero exit is a stop, not a warning. The commonest cause is the `ours`
-  driver missing from this clone (step 0); the diagnostic names the repair.
+  instance owns is never deleted. Where the merge changed or deleted a file under an
+  owned path that `git check-attr merge` reports as `ours`, the pre-merge content is
+  **restored** and the merge commit amended the same way. That is the normal outcome,
+  not a repair: a merge driver runs only on a three-way content merge, so an instance
+  that kept the framework's document verbatim has `ours == base` and the attribute
+  never fires — the same reason `FRAMEWORK-VERSION` needs the capture above.
+  Framework files the merge added *under* an owned path are **reported** for the user
+  to decide, the same rule the installed dev-plugin case follows. A partially owned
+  set is normal and does not stop the upgrade; an owned path the instance never
+  **claimed** (no `ours` attribute) **does** stop it, because reverting the
+  framework's edit there would be the upgrade deciding ownership for the instance.
+- A nonzero exit is a stop, not a warning. The diagnostic prints the attribute value
+  and driver state it observed per failing path, and prescribes only the repairs
+  those observations support — read it rather than assuming which one applies.
 - Package reconciliation takes the incoming framework manifests, then restores
   the captured adopter name, description, privacy flag, and `VERSION` mirror. It
   resolves recurring version-line conflicts without discarding new framework
@@ -250,10 +290,14 @@ node "$PACKAGE_HELPER" reconcile "$PACKAGE_STATE"
 
 ## 6. Conflict report — walk each file WITH the user
 
-Whatever is left after step 5 can only be a framework-owned file the instance
-edited locally against the ownership rule (`src/`, `scripts/`), or a file the
-instance chose to fork and manage locally. A clean list here means the merge is
-ready for step 7.
+Whatever is left after step 5 can only be a framework-owned file (`src/`,
+`scripts/`, `workers/`, `.agents/skills/`) the instance edited locally, or a file
+the instance chose to fork and manage locally. Neither is a rule the instance
+broke: framework-owned states where the file comes from and that every release
+replaces it wholesale, not what the instance may edit (ADR 010). A conflict here
+is the cost that ownership predicts, and this step is where it gets paid — one
+file at a time, with the user. A clean list here means the merge is ready for
+step 7.
 
 Do **not** blindly take one side. For each conflicted path, present a short
 report and a proposal, then let the user decide:
@@ -262,15 +306,23 @@ report and a proposal, then let the user decide:
 git diff --name-only --diff-filter=U
 ```
 
+Step 3c's report already named these paths with both values; this list is the subset
+git could not settle on its own, so read the two together rather than starting over.
+A path in 3c's report and not in this list needs no resolution — git kept the
+instance's side — but it is still a divergence the instance carries into the next
+release, and saying so is what keeps it a decision rather than a drift.
+
 For each file, show: the path, the relevant CHANGELOG line for this version, and
 the two sides (`git diff`). Then propose the resolution and its rationale:
 
-- **Framework-owned file (`src/`, `scripts/`), no intentional local change** →
-  propose taking framework (`git checkout --theirs <file>`). This is the ownership
-  rule healing an accidental local edit.
-- **A change the instance intentionally forked** → propose keeping the local
-  edit, and note it should be upstreamed to sekai-kb so it stops conflicting every
-  release (SPEC ownership rule).
+- **Framework-owned file (`src/`, `scripts/`, `workers/`, `.agents/skills/`), no
+  intentional local change** → propose taking framework
+  (`git checkout --theirs <file>`), which ends the conflict at no later cost.
+- **A change the instance intentionally forked** → propose keeping the local edit.
+  This is a supported outcome, not a defect to undo: framework-owned states where a
+  file comes from, not what the instance may edit (ADR 010). Name the cost — this
+  file conflicts again on every release — and offer upstreaming to sekai-kb as the
+  route that makes it stop, without requiring it.
 - **`VERSION` modify/delete conflict on the first upgrade from v1.0.8** → keep
   the adopter file. v1.0.8 mistakenly tracked a framework `VERSION`; the next
   framework release deletes it. This is a one-time migration conflict. Later
@@ -370,7 +422,9 @@ Do not change `package.json.version` here. It mirrors the adopter's unchanged
 Tell the user: the adopted framework version moved from → to, the adopter's
 `VERSION` remained unchanged, the dev-plugin state classified in
 step 3 and what reconcile did with it, the maintainer-doc split classified in step
-3b and what reconcile removed, kept, or reported for their decision, which files
+3b and what reconcile removed, kept, or reported for their decision, the
+framework-owned divergences step 3c reported and which of them the merge settled
+silently rather than as a conflict, which files
 (if any) conflicted and how each was resolved, the build result, and any
 Upgrade-note opt-ins they declined (new feature flags left off). Push is theirs to make — on an instance, pushing
 `main` deploys.

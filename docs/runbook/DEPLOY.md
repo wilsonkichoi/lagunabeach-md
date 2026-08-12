@@ -459,8 +459,41 @@ committed `wrangler.toml` is where the framework's own defaults live; the
 | `database_name` | yes | derived: `<place-slug>-<worker>` | The D1 database, account-scoped. Must match the database you created in step 2. |
 | `database_id` | yes | `place.config.ts` → `workers.feedbackDatabaseId` | Printed by `wrangler d1 create`. Absent-safe: unset generates an empty value and a note, which is the state between steps 1 and 3. |
 | `IP_HASH_SALT` | yes (secret) | `wrangler secret put` | Salt for the per-address hash. Missing → every POST is 500. Never a var. |
-| `RATE_LIMIT_MAX` | no | template (`5`) | Submissions allowed per address per window. |
-| `RATE_LIMIT_WINDOW_SECONDS` | no | template (`3600`) | Length of the rolling window, in seconds. |
+| `RATE_LIMIT_MAX` | no | template (`5`), override `workers.feedbackRateLimitMax` | Submissions allowed per address per window. |
+| `RATE_LIMIT_WINDOW_SECONDS` | no | template (`3600`), override `workers.feedbackRateLimitWindowSeconds` | Length of the rolling window, in seconds. |
+
+The last two rows carry an **override**: the committed
+`workers/feedback/wrangler.toml` is framework-owned and ships the default, but you
+can set a different value in `place.config.ts` under `workers` and `npm run
+worker-config` writes it into the generated config. Editing the committed template
+directly is not forbidden — it is your repository, and `npm run worker-config:check`
+warns rather than failing your build for it — but the override key is the cheaper
+home: it is instance-owned, so it never conflicts on a framework upgrade, while a
+retuned template value conflicts on every release until you and the framework agree
+again (`UPGRADE.md` §Framework-owned files). Leave a key unset and the template
+default is carried through unchanged, so an instance that sets neither behaves
+exactly as it did before these keys existed. A value the worker could not use is
+rejected at generation time by name — a limit below `1`, a fractional count,
+anything non-numeric — rather than deploying and silently falling back to the
+default. If a later release drops one of these vars from the template, `npm run
+worker-config` names the key, leaves the value out, and finishes, so one stale key
+never blocks a deploy.
+
+```ts
+workers: {
+  // ...
+  feedbackRateLimitMax: 20,
+},
+```
+
+The rate limit is keyed on `sha256(address + salt)`, which is **per public address,
+not per person**: everyone behind one NAT shares one budget. A hotspot, a cafe, a
+hotel, a school, and a QR code that puts the form in front of a group standing in
+one place all land on the same key. A rate-limited submission tells the reader to try
+later and tells you nothing at all: a ceiling too low for a placement produces
+silence, not a report, so no absence of feedback is evidence that the limit is not
+being hit. Raise `feedbackRateLimitMax` for placements busier than the default
+assumes.
 
 The `[[d1_databases]]` block binds the database as `DB`; `binding = "DB"` is the
 name the worker's code uses and is framework-owned, not instance identity.
@@ -723,9 +756,44 @@ is derived from `place.domain` and exact-match CORS rejects every other origin.
 | `ALLOWED_ORIGIN` | yes | `place.domain` | The only accepted browser origin. Unset or mismatched requests receive 403. |
 | `SITE_NAME` | yes | `place.name` | Site identity injected into the system prompt. |
 | `IP_HASH_SALT` | yes (secret) | `wrangler secret put` | Salt for the stored address hash. Missing or blank requests receive 500. |
-| `RATE_LIMIT_MAX` | no | template (`20`) | Accepted requests per hashed address in the rolling window. |
-| `RATE_LIMIT_WINDOW_SECONDS` | no | template (`3600`) | Exact rolling-window duration in seconds. |
-| `RELEVANCE_FLOOR` | no | template (`0.46`) | Cosine score a chunk must reach to be retrieved. Nothing clears it means nothing is cited and the answer refuses. See below. |
+| `RATE_LIMIT_MAX` | no | template (`20`), override `workers.chatRateLimitMax` | Accepted requests per hashed address in the rolling window. |
+| `RATE_LIMIT_WINDOW_SECONDS` | no | template (`3600`), override `workers.chatRateLimitWindowSeconds` | Exact rolling-window duration in seconds. |
+| `RELEVANCE_FLOOR` | no | template (`0.46`), override `workers.chatRelevanceFloor` | Cosine score a chunk must reach to be retrieved. Nothing clears it means nothing is cited and the answer refuses. See below. |
+
+The three rows above carry an **override**: the committed `workers/chat/wrangler.toml`
+is framework-owned and ships the default, but you can set a different value in
+`place.config.ts` under `workers` and `npm run worker-config` writes it into the
+generated config. Editing the committed template directly is not forbidden — it is your
+repository, and `npm run worker-config:check` warns rather than failing your build for
+it — but the override key is the cheaper home: it is instance-owned, so it never
+conflicts on a framework upgrade, while a retuned template value conflicts on every
+release until you and the framework agree again (`UPGRADE.md` §Framework-owned
+files). Leave a key unset and the template default is carried through
+unchanged, so an instance that sets none behaves exactly as it did before these keys
+existed. A value the worker could not use is rejected at generation time by name — a
+rate limit below `1`, a floor outside `0..1`, a fractional count, anything non-numeric —
+rather than deploying and silently falling back to the default.
+
+```ts
+workers: {
+  // ...
+  chatRateLimitMax: 60,
+  chatRelevanceFloor: 0.52,
+},
+```
+
+If a later framework release drops one of these vars from the template, the key you set
+has nothing left to override. `npm run worker-config` does not stop for that — it names
+the key and the value, writes every other worker's config as usual, and tells you the
+value was left out, so one stale key never blocks a deploy. Read that release's
+CHANGELOG before going further: a var removed from the template usually means the worker
+stopped reading it.
+
+The rate limit is keyed on `sha256(address + salt)`, which is **per public address, not
+per person**: everyone behind one NAT shares one budget. A hotspot, a cafe, a hotel, a
+school, and a QR code that puts the chat in front of a group standing in one place all
+land on the same key. Raise `chatRateLimitMax` for placements busier than the default
+assumes.
 
 ### Tuning the relevance floor
 
@@ -749,6 +817,22 @@ corpus, and your corpus is not that corpus.** Re-measure it after your content s
    take its dot product with each stored vector divided by 127.
 4. Compare the best score per question across the two lists. Set the floor in the gap
    between them.
+5. Record that value in `place.config.ts` as `workers.chatRelevanceFloor`, then
+   `npm run worker-config` and redeploy. That key is the supported home for a measured
+   floor: it is instance-owned, it survives every `/sekai-upgrade`, and the generated
+   config it feeds is what `wrangler deploy` reads. Writing the number into
+   `workers/chat/wrangler.toml` instead also works and is allowed — the gate warns,
+   naming both values and the cost, rather than failing your build — but it forks a
+   framework-owned file, so it conflicts on each release until you upstream it. A value
+   typed into the Cloudflare dashboard is the one option that does not work at all: the
+   next deploy overwrites it from the generated config.
+
+```ts
+workers: {
+  // ...
+  chatRelevanceFloor: 0.52,
+},
+```
 
 On the demo corpus, measured 2026-08-08, that gap runs from 0.435 (the best score any
 never-mentioned place reached) to 0.484 (the worst score a real question reached), and

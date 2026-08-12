@@ -89,6 +89,17 @@ PACKAGE_STATE="$(node "$PACKAGE_HELPER" capture)"
 #    maintainer-doc path set that could not be derived: stop here and repair it
 #    deliberately, as the diagnostic says.
 
+# 4d. Report the framework-owned files you have diverged on, with the framework's
+#     incoming value beside yours (see "Framework-owned files" below). Same
+#     tag-first extraction; the helper writes nothing and resolves nothing.
+#     On THIS flow it has no merge base to measure against — that is what the
+#     --allow-unrelated-histories in step 5 is about — so it says so and claims
+#     nothing. Run it anyway: the answer is the honest one, and every upgrade
+#     after this one gets the full report.
+DIVERGENCE_HELPER="$(git rev-parse --git-dir)/sekai-framework-divergence.mjs"
+git show "$TARGET":scripts/upgrade/framework-divergence.mjs > "$DIVERGENCE_HELPER"
+node "$DIVERGENCE_HELPER" report --target "$TARGET"
+
 # 5. The first merge — the ONLY one that needs --allow-unrelated-histories:
 git merge --allow-unrelated-histories "$TARGET"
 
@@ -120,10 +131,15 @@ The merge outcome, file by file:
   — added to your instance.
 - **Files only you have** (your docs, research, tracker config) — untouched; a
   merge never deletes a path absent on the incoming side.
-- **Framework-owned files you also carry** (`src/`, `scripts/`) — these conflict
-  on the first merge, because with unrelated histories git sees both sides as
-  having "added" the file. Resolve them to the framework version (the ownership
-  rule: `src/` and `scripts/` are framework-owned):
+- **Framework-owned files you also carry** (`src/`, `scripts/`, `workers/`,
+  `.agents/skills/`) — a file whose two sides are byte-identical merges cleanly even
+  with unrelated histories, so what conflicts here is the set where the content
+  actually differs: a framework change made since your clone was cut, an edit of your
+  own, or both. **Each one is a decision, and it is yours.** Framework-owned means the
+  framework ships that file and every release replaces it wholesale; it does not mean
+  you may not edit it. Taking the framework's version is the default that costs
+  nothing later. Keeping your own is supported, and costs this same conflict again on
+  every release until you upstream it.
 
 ```bash
 # v1.0.8 -> v1.0.9 only: keep the adopter's VERSION when the framework deletes
@@ -131,8 +147,22 @@ The merge outcome, file by file:
 git diff --name-only --diff-filter=U | grep -Fxq VERSION \
   && git checkout --ours VERSION && git add VERSION || true
 
-# Take framework for every remaining framework-owned conflict:
-for f in $(git diff --name-only --diff-filter=U); do git checkout --theirs "$f" && git add "$f"; done
+# List what is left to decide. Nothing is resolved for you: a loop that took one
+# side for every path would silently delete work you meant to keep.
+git diff --name-only --diff-filter=U
+```
+
+Then, one file at a time, read both sides before choosing. Step 4d's report already
+named each of these files with your value beside the framework's; `:2:` is your version
+and `:3:` is the framework's incoming one, which is how you read the same pair once the
+merge is in progress. The target's CHANGELOG entry (printed in the
+routine flow's step 3, and readable here with
+`git show "$TARGET":CHANGELOG.md`) is what says why the framework's side changed:
+
+```bash
+git diff ":2:<file>" ":3:<file>"                 # yours vs the framework's incoming
+git checkout --theirs -- <file> && git add <file>  # take the framework's
+git checkout --ours   -- <file> && git add <file>  # keep yours, knowingly
 ```
 
 Then remove the template-only marker (an instance is not the template) and any
@@ -220,6 +250,18 @@ PACKAGE_HELPER="$(git rev-parse --git-dir)/sekai-package-state.mjs"
 git show "$TARGET":scripts/upgrade/package-state.mjs > "$PACKAGE_HELPER"
 PACKAGE_STATE="$(node "$PACKAGE_HELPER" capture)"
 
+# 4d. Report the framework-owned files you have diverged on, BEFORE the merge
+#     generates conflicts. For each one the report names your value and the
+#     framework's incoming value — key by key for a wrangler.toml, as the
+#     differing region for anything else. It writes nothing and resolves nothing;
+#     step 7 is where you decide. Reading it here rather than from the conflict
+#     list is deliberate: the conflict list holds only what git could not resolve
+#     on its own, so an edit git merged silently — yours kept because the
+#     framework never touched that file — never appears in it at all.
+DIVERGENCE_HELPER="$(git rev-parse --git-dir)/sekai-framework-divergence.mjs"
+git show "$TARGET":scripts/upgrade/framework-divergence.mjs > "$DIVERGENCE_HELPER"
+node "$DIVERGENCE_HELPER" report --target "$TARGET"
+
 # 5. Merge the tag (never main). merge=ours keeps your content/config.
 git merge --no-ff "$TARGET" -m "chore: upgrade framework to $TARGET"
 
@@ -241,12 +283,20 @@ node "$PACKAGE_HELPER" reconcile "$PACKAGE_STATE"
 
 # 7. If conflicts remain: they can only be framework-owned files you edited locally,
 #    or the one-time VERSION modify/delete conflict when leaving v1.0.8. Keep the
-#    adopter VERSION in that one case. For framework-owned files, read the CHANGELOG.
-#    Read the CHANGELOG line for each, then take framework unless you intentionally
-#    forked it (in which case: upstream it to sekai-kb so it stops conflicting):
+#    adopter VERSION in that one case. Every other one is a per-file decision, and
+#    nothing here resolves them for you. Step 4d already named these files with both
+#    values; this list is the subset git could not settle by itself.
 git diff --name-only --diff-filter=U
-#    git checkout --theirs <file> && git add <file>     # take framework
-#    git commit --no-edit                               # finalize the merge
+#    For each file: read the CHANGELOG line for this release (step 3), then read your
+#    side against the framework's incoming side, then choose. Taking the framework's
+#    version is the default and ends the conflict. Keeping your own edit is a
+#    supported outcome — it is your repository — and the cost is that this same file
+#    conflicts again on every release until you upstream the change to sekai-kb,
+#    which is the recommended route precisely because it makes the conflict stop:
+#    git diff ":2:<file>" ":3:<file>"                   # yours vs framework incoming
+#    git checkout --theirs -- <file> && git add <file>   # take framework
+#    git checkout --ours   -- <file> && git add <file>   # keep yours, knowingly
+#    git commit --no-edit                                # finalize the merge
 
 # 8. Build-verify, then record the newly adopted framework version. Until this
 #    point FRAMEWORK-VERSION still holds the OLD value that step 6 restored — that
@@ -270,6 +320,54 @@ Upgrade note tells you what you are opting out of. Enable it by editing
 Pushing `main` deploys (see `DEPLOY.md` §CI) — that step is yours to make.
 
 ---
+
+## Framework-owned files: a default and an upgrade contract, not a lock
+
+`src/`, `scripts/`, `workers/`, and `.agents/skills/` are framework-owned: the
+framework ships them, and every release replaces them wholesale. That is a statement
+about where those files come from, not a permission boundary. This is your
+repository, and you may edit any file in it.
+
+What an edit costs is stated rather than prevented. A framework check running in your
+repository fails your build only for something that harms someone other than you —
+account-scoped collisions (a Worker `name`, a D1 `database_name`), committed
+credentials, security boundaries. Every other divergence from a framework-owned file
+**warns**: `npm run worker-config:check` names the file, the key, your value, the
+framework's, and the cost, and your CI run carries it as an annotation rather than a
+failure. The cost is the conflict this document is about: that file conflicts on every
+release until the two sides agree again.
+
+That is said twice, on purpose, and the second time is at the merge. Step 4d of both
+flows above runs:
+
+```bash
+node "$DIVERGENCE_HELPER" report --target "$TARGET"
+```
+
+which walks the framework-owned trees — `src/`, `scripts/`, `workers/`, and
+`.agents/skills/` — and, for every path whose content differs from your merge base with
+the target, prints your value beside the framework's incoming one: key by key for a
+`wrangler.toml` (`[vars] RELEVANCE_FLOOR`, yours, the framework's), as the differing
+region for anything else. It names how each path meets the merge (yours kept, both
+sides changed, a modify/delete, or already settled — your side and the framework's
+incoming side now being the same content, which is where upstreaming an edit leaves
+you on the release that ships it back) so a file git will merge silently is visible
+too. It
+writes nothing, stages nothing, and resolves nothing in either direction: the decision
+is yours, and it is made with both values in front of you rather than reconstructed
+from two revisions afterwards. On the very first merge there is no common ancestor to
+measure against, so it says that and claims nothing.
+
+Three ways to make it agree, in order of what they cost you later:
+
+1. **Use the configured seam if one exists.** A value with a `place.config.ts` key
+   (`workers.chatRelevanceFloor` and the rest of the table in `DEPLOY.md`) belongs
+   there: instance-owned, never in conflict, and it reaches the same deployed value.
+2. **Upstream the change to sekai-kb.** Recommended for anything without a seam: it
+   comes back as a tagged release, every instance gets it, and the file stops
+   conflicting for you.
+3. **Keep the fork.** Supported. You resolve this one file on each upgrade, with the
+   framework's incoming version in front of you.
 
 ## Instance-owned files (`merge=ours`)
 
@@ -402,16 +500,32 @@ state to stop on:
 | Per-path state | Means | The upgrade does |
 | -------------- | ----- | ---------------- |
 | `stripped` | you have no document at that path (every wizard-adopted instance, for every path) | Keeps it absent. `reconcile` removes whatever the merge introduced there — conflicted or cleanly added — and amends the merge commit if the merge already committed. You never resolve one of these conflicts by hand. |
-| `owned` | you keep your own document at that path | Keeps yours. `reconcile` asserts it came through byte-for-byte and never deletes it, then reports any framework file the merge *added* underneath it for you to keep or `git rm -f`. |
+| `owned` | you keep your own document at that path | Keeps yours. If the merge changed or deleted a file there, `reconcile` **restores** your pre-merge content — amending the merge commit if git already committed it — and never deletes anything, then reports any framework file the merge *added* underneath it for you to keep or `git rm -f`. |
 
 Owning some of these paths and not others is a normal state and never stops the
-upgrade. What does stop it is an owned path the merge **changed or conflicted**:
-that means the path is not marked `merge=ours` in your `.gitattributes`, or
-`merge.ours.driver` is not set in this clone. Both repairs are named in the
-diagnostic, along with the undo that works from where you are: `git merge --abort`
-while the merge is still in progress, `git reset --hard ORIG_HEAD` once git has
-committed it (which it does when the framework's edits applied without a conflict).
-The upgrade never lets the framework's copy overwrite a document you wrote.
+upgrade.
+
+The restore is not a fallback for a misconfigured clone; it is the normal path.
+`merge=ours` names a driver git runs **only on a three-way content merge**, so if
+you kept the framework's document at one of these paths verbatim, your copy still
+equals the merge base, git resolves to theirs, and the attribute never fires — with
+the attribute set and the driver configured, both. Keeping a framework document
+unedited is the common case, so the upgrade puts your pre-merge content back rather
+than stopping. This is the same mechanic that makes `FRAMEWORK-VERSION` need an
+explicit capture and restore, and it applies to every `merge=ours` path.
+
+What does stop the upgrade is an owned path you never **claimed**: the merge changed
+a document you keep, and `git check-attr merge` reports no `ours` for it, so nothing
+in your `.gitattributes` says that path is yours. Reverting the framework's edit
+there would be the upgrade deciding ownership on your behalf, so it stops and tells
+you to mark the path. The diagnostic prints what it observed — the attribute value
+git resolved for each failing path, and whether `merge.ours.driver` is configured in
+this clone — and prescribes only the repairs those observations support, so it never
+sends you to fix something already in place. It also names the undo that works from
+where you are: `git merge --abort` while the merge is still in progress,
+`git reset --hard ORIG_HEAD` once git has committed it (which it does when the
+framework's edits applied without a conflict). The upgrade never lets the framework's
+copy overwrite a document you wrote.
 
 The path set is derived from the init wizard's own strip list at runtime rather
 than restated, so the upgrade cannot disagree with what adoption removed; if that

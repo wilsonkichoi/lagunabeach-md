@@ -59,26 +59,37 @@
 #   merged; presence is always read from the pre-merge working tree.
 #   Classification is PER PATH, with no activation signal and no
 #   mixed state:
-#     owned    = present before the merge -> never deleted, asserted unchanged
+#     owned    = present before the merge -> never deleted; a change the merge made
+#                is RESTORED where `git check-attr merge` reports `ours` for the
+#                file, and stops the upgrade where it does not
 #     stripped = absent  before the merge -> whatever the merge introduced is removed
+#
+#   The restore is there because `merge=ours` names a driver git runs only on a
+#   three-way CONTENT merge: an instance whose copy still equals the merge base has
+#   `ours == base`, git resolves to theirs, and the attribute never fires (case 14).
 #   classify records its answer in the git directory; reconcile consumes it after
 #   the merge. Exit 0 success / 1 failure / 2 usage / 3 contract underivable.
 #
 #   6. stripped instance, shared history (modify/delete on every doc path).
 #   7. stripped instance, unrelated-history first merge (theirs-only additions;
 #      the auto-commit shape exercises the amend path).
-#   8. fully owned instance protected by merge=ours: every path byte-for-byte
-#      unchanged, and a framework file ADDED under an owned directory is REPORTED,
-#      never deleted.
+#   8. fully owned instance protected by merge=ours, where `ours != base` so the
+#      driver really does fire: every path byte-for-byte unchanged, and a framework
+#      file ADDED under an owned directory is REPORTED, never deleted. Case 14 is
+#      the other half — same attribute, `ours == base`, driver never consulted.
 #   9. partially owned instance: per-path outcome, and the run does NOT stop —
 #      owning some of these paths and not others is a legitimate adopter state.
-#  10. owned but unprotected, in three shapes (no merge=ours attribute; attribute
-#      present but merge.ours.driver unset; and the framework's edits merging
-#      cleanly so git auto-commits): reconcile stops, names both repairs, and the
-#      framework's copy never wins. The undo it prescribes depends on the shape —
+#  10. owned but UNCLAIMED — `git check-attr merge` does not report `ours` — in two
+#      shapes (mid-merge, and the framework's edits merging cleanly so git
+#      auto-commits): reconcile stops, reports the attribute value and the driver
+#      state it OBSERVED, prescribes only the repair those observations support, and
+#      the framework's copy never wins. The undo it prescribes depends on the shape —
 #      `git merge --abort` mid-merge, `git reset --hard ORIG_HEAD` once the merge
 #      is committed — and the auto-commit sub-case runs the prescribed command and
 #      asserts it restores the instance's own documents.
+#      10b is the third shape and is NOT a stop: the attribute is present and only
+#      `merge.ours.driver` is unset, so git text-merges and conflicts — the instance
+#      claimed the path, so reconcile restores it and reports the missing driver.
 #  11. FIRST upgrade to the release that introduces MAINTAINER_DOCS: the working
 #      tree's wizard predates the export, so classify without `--from-tag` cannot
 #      derive the path set (exit 3) and `--from-tag <the tag being merged>` must
@@ -111,7 +122,59 @@
 #      FRAMEWORK-VERSION handling, fw-v2 ships the real one) and pins that the
 #      retired tree-first form loses the marker, so 13a guards a real difference.
 #
-# Two option-contract checks close the loop from the other side:
+#  14. maintainer docs the instance kept from the framework VERBATIM: `ours == base`,
+#      so with the attribute set AND the driver configured git still fast-forwards to
+#      theirs. reconcile restores the pre-merge content and amends the auto-committed
+#      merge. This is the common adopter state, and before LB-88 it was a hard stop
+#      whose printed remedy was already satisfied.
+#
+# Every seeded maintainer-doc directory carries a record whose NAME is not pure ASCII
+# (DOC_RECORDS). Git C-quotes such a path in line-based `diff --name-status` and
+# `ls-files -u` output, and a quoted literal is neither a pathspec git accepts nor a
+# path `check-attr` resolves — so a producer inside the helper that drops `-z` reads
+# the file as unclaimed and stops the upgrade with the remedy that cannot fix it. Case
+# 14 pins the cleanly-merged producer and case 10b the conflicted one.
+#
+# Cases 15a-15f cover the fourth helper, `scripts/upgrade/framework-divergence.mjs`
+# (ADR 010 (e)). Its contract:
+#
+#   node scripts/upgrade/framework-divergence.mjs report --target <tag> [--repo <dir>]
+#   node scripts/upgrade/framework-divergence.mjs roots [--repo <dir>]
+#
+#   BEFORE the merge, every framework-owned path (the roots `roots` prints, from
+#   which this harness derives its fixtures) whose content at HEAD differs from the
+#   same path at `git merge-base HEAD <target>` is reported with the instance's value
+#   and the incoming framework value: key by key for a `.toml`, as the differing
+#   region otherwise. Reading the merge base rather than `--diff-filter=U` afterwards
+#   is the point — the conflict list holds only what git could not resolve, so an
+#   edit the framework never collided with is merged silently and never appears in
+#   it. Exit 0 report / 1 not producible / 2 usage.
+#
+#  15a. A planted divergence is enumerated with BOTH values, and only it: a worker
+#       template the instance retuned (three distinct floors across merge base,
+#       target, and instance, so presenting the wrong side is caught), an edited
+#       source file, and two framework-owned paths neither side touched that must
+#       NOT appear.
+#  15b. The same run writes nothing: HEAD, the porcelain status, the index, and every
+#       file in the working tree and the git directory are identical afterwards. No
+#       path is resolved in either direction, which is the whole difference between
+#       this report and the `--theirs` sweep ADR 010 (f) removed.
+#  15c. An instance with no framework-owned edit gets a clean report and no extra step.
+#  15d. An unrelated-history first merge has no common ancestor: the report says so
+#       and claims no divergence, rather than declaring every framework file drifted.
+#  15e. The report's TOML key view agrees with `scripts/deploy/wrangler-config.mjs`
+#       over every committed worker template. The helper cannot import that module —
+#       it runs as a lone file extracted from a release tag — so the two readers are
+#       held to one answer here instead.
+#  15f. A CONVERGED path: the instance changed a file and the release ships that exact
+#       content, so the path differs from the merge base but not from the target. It
+#       is reported as settled with no conflict, and no value pair or "differing
+#       region" header is printed over the empty diff between two identical blobs.
+#       This is not an exotic shape — it is the success state of the route ADR 010 (g)
+#       recommends, so an instance that upstreamed its edit meets it on the very
+#       release that brings the edit back.
+#
+# Three option-contract checks close the loop from the other side:
 #
 #   - `reconcile` must REJECT `--from-tag` (exit 2). Reconciliation derives from the
 #     MERGED tree on purpose: that is how a merge which did not bring the wizard
@@ -123,20 +186,27 @@
 #     non-vacuity probe, because the helper's source is full of single-quoted git
 #     arguments (`--quiet`, `--ignore-unmatch`, ...) that a whole-file grep would
 #     wrongly report as accepted CLI options.
+#   - The framework-owned roots the divergence report walks are derived from that
+#     helper and required to appear in both documents, with a probe proving the
+#     pattern can fail. A root the report covers and the runbook does not name leaves
+#     an adopter reading a list missing the tree their edit is in.
 #
 # `--selftest` proves the suite is non-vacuous: it re-runs cases 1, 2, 6, 7, 8, 9,
-# 10, 11, 12, 12c and 13 with the reconcile step DELIBERATELY SKIPPED and requires each
-# case's own assertions to FAIL. A skipped-reconcile run that passes means the case
+# 10, 11, 12, 12c, 13, 14, 15a and 15f with their load-bearing step DELIBERATELY SKIPPED and
+# requires each
+# case's own assertions to FAIL. A skipped run that passes means the case
 # cannot detect the regression it exists to guard, and --selftest exits nonzero. No
-# reconcile-dependent assertion is gated on the skip toggle, because gating one out
-# is how a case silently becomes vacuous.
+# assertion that depends on that step is gated on the skip toggle, because gating one
+# out is how a case silently becomes vacuous. For the reconcile helpers the skipped
+# step is `reconcile`; for the report-only divergence helper it is the report itself,
+# which the toggle replaces with an empty one.
 #
 # Fixtures use only generic names (Example / Instance / fw-v1) — this repo is in
 # whole-tree template mode, so the genericity + English-only gates scan this file
 # and everything it writes into scripts/.
 #
 # Usage:
-#   bash scripts/upgrade/check-upgrade-state.sh             all fourteen cases
+#   bash scripts/upgrade/check-upgrade-state.sh             every case listed above
 #   bash scripts/upgrade/check-upgrade-state.sh --selftest  non-vacuity proof
 #
 # Portability: macOS bash 3.2 + CI bash 5 (no mapfile/readarray, no associative
@@ -178,6 +248,26 @@ if [ ! -f "$PACKAGE_HELPER_SRC" ]; then
 fi
 PACKAGE_HELPER="$TMP/helper/package-state.mjs"
 cp "$PACKAGE_HELPER_SRC" "$PACKAGE_HELPER"
+
+DIVERGENCE_HELPER_SRC="$ROOT/scripts/upgrade/framework-divergence.mjs"
+if [ ! -f "$DIVERGENCE_HELPER_SRC" ]; then
+  echo "❌ upgrade-state check FAILED: helper not found at $DIVERGENCE_HELPER_SRC" >&2
+  exit 1
+fi
+DIVERGENCE_HELPER="$TMP/helper/framework-divergence.mjs"
+cp "$DIVERGENCE_HELPER_SRC" "$DIVERGENCE_HELPER"
+
+# The framework-owned roots the divergence report walks are DERIVED from the helper,
+# never restated here: a hardcoded fixture list would keep passing after the helper
+# gained a root, which is the drift this suite exists to catch one tree over.
+FRAMEWORK_OWNED_ROOTS="$(node "$DIVERGENCE_HELPER" roots --repo "$ROOT")" || {
+  echo "❌ upgrade-state check FAILED: could not derive the framework-owned root set" >&2
+  exit 1
+}
+if [ -z "$FRAMEWORK_OWNED_ROOTS" ]; then
+  echo "❌ upgrade-state check FAILED: the derived framework-owned root set is empty" >&2
+  exit 1
+fi
 
 # The maintainer-doc path set under test is DERIVED from the init wizard by the
 # helper itself, never restated here — a hardcoded fixture list would keep passing
@@ -407,19 +497,107 @@ assert_mdocs_reconcile_ok() { # dir label
   [ "${SKIP_RECONCILE:-0}" = "1" ] || ok "$2: reconcile exited 0"
 }
 
-# An owned path the merge touched must STOP the upgrade and name both repairs.
-# Routed through run_mdocs_reconcile so --selftest can skip it: an upgrade that
-# does NOT stop is exactly the regression this assertion guards.
-assert_mdocs_reconcile_stops() { # dir label
+# An owned path the instance never CLAIMED (`check-attr merge` does not report
+# `ours`) must STOP the upgrade, and the diagnostic must report what it observed
+# rather than assuming. Routed through run_mdocs_reconcile so --selftest can skip
+# it: an upgrade that does NOT stop is exactly the regression this assertion guards.
+#
+# Every caller of this assertion has the driver CONFIGURED — the unconfigured shape
+# is a restore now (case 10b), not a stop — so the diagnostic must report that
+# observation and must not prescribe configuring it. A remedy the reader has already
+# satisfied is what made the LB-88 stop unescapable.
+#
+# The third argument is a failing FILE inside the stopped path. The expected attribute
+# value is read out of git for that file rather than written here: the assertion is
+# that the diagnostic echoes what git really resolved, whatever word git uses for it.
+# Hardcoding `unspecified` would couple this to git's name for one particular unset
+# state and misreport a caller whose path resolves to some other non-`ours` value.
+assert_mdocs_reconcile_stops() { # dir label failing-file
+  local observed
   run_mdocs_reconcile "$1" "$2"
   [ "$HELPER_STATUS" -ne 0 ] \
-    || fail "$2: reconcile exited 0 on an unprotected owned path — the framework copy was allowed to win"
+    || fail "$2: reconcile exited 0 on an unclaimed owned path — the framework copy was allowed to win"
   [ -n "$HELPER_ERR" ] || fail "$2: reconcile failed with no diagnostic on stderr"
   printf '%s' "$HELPER_ERR" | grep -q 'merge=ours' \
     || fail "$2: the diagnostic does not name the missing .gitattributes marking: $HELPER_ERR"
   printf '%s' "$HELPER_ERR" | grep -q 'merge.ours.driver' \
-    || fail "$2: the diagnostic does not name the per-clone driver repair: $HELPER_ERR"
-  ok "$2: reconcile stops and names both repairs (attribute + per-clone driver)"
+    || fail "$2: the diagnostic does not report what it observed about the per-clone driver: $HELPER_ERR"
+  # Observed, not assumed: the attribute value git really resolves for the path.
+  printf '%s' "$HELPER_ERR" | grep -q 'check-attr merge' \
+    || fail "$2: the diagnostic does not report the observed \`check-attr merge\` value: $HELPER_ERR"
+  observed="$(git -C "$1" check-attr merge -- "$3" | sed 's/.*: //')"
+  [ -n "$observed" ] || fail "$2: fixture guard — git resolved no merge attribute for $3"
+  [ "$observed" != "ours" ] \
+    || fail "$2: fixture guard — git reports \`ours\` for $3, so this is not the unclaimed-path shape"
+  printf '%s' "$HELPER_ERR" | grep -Fq "$observed" \
+    || fail "$2: the diagnostic does not print the value git actually resolved for $3 (\`$observed\`): $HELPER_ERR"
+  if printf '%s' "$HELPER_ERR" | grep -q 'git config merge.ours.driver true'; then
+    fail "$2: the diagnostic prescribes configuring a driver that IS already configured in this clone — a remedy that cannot fix the stop: $HELPER_ERR"
+  fi
+  ok "$2: reconcile stops, reports both observations (attribute \`$observed\`), and prescribes only the repair they support"
+}
+
+# ---------------------------------------------------------------------------
+# Divergence-report helper invocation (ADR 010 (e))
+# ---------------------------------------------------------------------------
+
+run_divergence() { # dir subcommand [args...]
+  local dir="$1"
+  shift
+  HELPER_STATUS=0
+  node "$DIVERGENCE_HELPER" "$@" --repo "$dir" > "$TMP/stdout.txt" 2> "$TMP/stderr.txt" || HELPER_STATUS=$?
+  HELPER_OUT="$(cat "$TMP/stdout.txt")"
+  HELPER_ERR="$(cat "$TMP/stderr.txt")"
+}
+
+# The report, honoring the --selftest skip toggle. SKIP_RECONCILE is this harness's
+# generic "skip the load-bearing step" switch; this helper has no reconcile, so the
+# load-bearing step IS the report, and skipping it means substituting an empty one.
+# Every assertion that reads the report stays ungated, which is what makes the
+# selftest run prove the case detects a report that omits a real divergence.
+run_divergence_report() { # dir target label
+  if [ "${SKIP_RECONCILE:-0}" = "1" ]; then
+    echo "   (selftest: the divergence report is DELIBERATELY SKIPPED)"
+    HELPER_STATUS=0
+    HELPER_OUT=""
+    HELPER_ERR=""
+    return 0
+  fi
+  run_divergence "$1" report --target "$2"
+}
+
+assert_divergence_report_ok() { # dir target label
+  run_divergence_report "$1" "$2" "$3"
+  [ "$HELPER_STATUS" -eq 0 ] \
+    || fail "$3: report --target $2 exited $HELPER_STATUS (expected 0); stdout: '$HELPER_OUT'; stderr: '$HELPER_ERR'"
+  [ "${SKIP_RECONCILE:-0}" = "1" ] || ok "$3: report --target $2 exited 0"
+}
+
+assert_report_names() { # label needle noun-phrase
+  printf '%s\n' "$HELPER_OUT" | grep -Fq "$2" \
+    || fail "$1: the report does not name $3 (looked for '$2'). Report was:
+$HELPER_OUT"
+  ok "$1: the report names $3"
+}
+
+assert_report_silent_about() { # label needle noun-phrase
+  if printf '%s\n' "$HELPER_OUT" | grep -Fq "$2"; then
+    fail "$1: the report names $3 ('$2'), so it is not scoped to what actually diverged. Report was:
+$HELPER_OUT"
+  fi
+  ok "$1: the report does not name $3"
+}
+
+# Everything the repository is, as one comparable string: the committed head, the
+# porcelain status, and every file in the working tree AND the git directory. A
+# report that wrote a state file, staged a path, or resolved a conflict changes one
+# of these. `find` rather than `git ls-files` on purpose — an untracked artifact
+# inside .git is exactly the write a git-only listing would miss.
+repo_snapshot() { # dir
+  git -C "$1" rev-parse HEAD
+  git -C "$1" status --porcelain
+  ( cd "$1" && find . -type f | LC_ALL=C sort )
+  git -C "$1" ls-files -s
 }
 
 # ---------------------------------------------------------------------------
@@ -463,11 +641,24 @@ strip_maintainer_docs() { # dir
   for rel in $MAINTAINER_DOCS; do rm -rf "$1/$rel"; done
 }
 
+# The record files write_docs_at seeds inside a DIRECTORY entry of the maintainer-doc
+# set. The second one carries a non-ASCII byte on purpose, and it is a guard rather
+# than decoration: git's line-based `diff --name-status` and `ls-files -u` output
+# C-quotes any path holding a byte above 0x7f (`core.quotePath` defaults to true), and
+# the quoted literal is neither a pathspec git accepts nor a path `check-attr`
+# resolves. A producer inside the helper that drops `-z` therefore reads this file as
+# unclaimed and stops the upgrade with the one remedy that cannot fix it — the LB-88
+# defect itself, in a shape a pure-ASCII fixture cannot reach. Latin script only: the
+# English-only gate bans CJK codepoints in `scripts/`, and the language support
+# boundary (AGENTS.md) puts Latin-script content inside what the framework supports.
+NON_ASCII_DOC_RECORD="003-non-ascii-café.md"
+DOC_RECORDS="001-example.md $NON_ASCII_DOC_RECORD"
+
 # A concrete FILE inside the maintainer-doc set, for the conflict fixtures below.
 # Mirrors seed_maintainer_docs: a `*.md` entry is itself a file, and any other entry
-# is a directory the seeder fills with 001-example.md. Deriving the file from the
-# entry shape rather than requiring a `*.md` entry is what lets the declaration be a
-# single directory (ADR 009) without this fixture losing its conflict target.
+# is a directory the seeder fills with the DOC_RECORDS above. Deriving the file from
+# the entry shape rather than requiring a `*.md` entry is what lets the declaration be
+# a single directory (ADR 009) without this fixture losing its conflict target.
 first_doc_file() { # — a concrete file path the seeder writes
   local rel
   for rel in $MAINTAINER_DOCS; do
@@ -477,6 +668,39 @@ first_doc_file() { # — a concrete file path the seeder writes
     esac
   done
   fail "fixture: the derived maintainer-doc set is empty"
+}
+
+# The non-ASCII record inside the first DIRECTORY entry, or empty when the declared
+# set holds only file entries — the seeder writes records only inside directories, so
+# a declaration that ever becomes file-only loses this pin rather than failing on a
+# path nothing wrote.
+non_ascii_doc_file() { # — the seeded non-ASCII file path, or empty
+  local rel
+  for rel in $MAINTAINER_DOCS; do
+    case "$rel" in
+      *.md) ;;
+      *)    printf '%s/%s' "$rel" "$NON_ASCII_DOC_RECORD"; return ;;
+    esac
+  done
+}
+
+# Every file the seeder wrote under one maintainer-doc entry, compared byte-for-byte
+# against a copy kept before the merge. Walks DOC_RECORDS rather than naming
+# 001-example.md, so the non-ASCII record is covered wherever a case asserts content.
+assert_doc_entry_matches() { # instance-dir kept-tree rel label
+  local record
+  case "$3" in
+    *.md)
+      cmp "$1/$3" "$2/$3" \
+        || fail "$4: $3 is not byte-for-byte its pre-merge copy"
+      ;;
+    *)
+      for record in $DOC_RECORDS; do
+        cmp "$1/$3/$record" "$2/$3/$record" \
+          || fail "$4: $3/$record is not byte-for-byte its pre-merge copy"
+      done
+      ;;
+  esac
 }
 
 assert_maintainer_docs_absent() { # dir label
@@ -1242,18 +1466,9 @@ case_mdocs_owned_preserved() { # workdir
   finalize_merge "$inst" "case 8"
 
   for rel in $MAINTAINER_DOCS; do
-    case "$rel" in
-      *.md)
-        cmp "$inst/$rel" "$keep/tree/$rel" \
-          || fail "case 8: the instance's $rel is not byte-for-byte identical after the merge"
-        ;;
-      *)
-        cmp "$inst/$rel/001-example.md" "$keep/tree/$rel/001-example.md" \
-          || fail "case 8: the instance's $rel/001-example.md is not byte-for-byte identical after the merge"
-        ;;
-    esac
+    assert_doc_entry_matches "$inst" "$keep/tree" "$rel" "case 8"
   done
-  ok "case 8: every instance-owned maintainer doc is byte-for-byte unchanged (cmp)"
+  ok "case 8: every instance-owned maintainer-doc file is byte-for-byte unchanged (cmp)"
   assert_mdocs_classify "$inst" "case 8 (post-merge)" "$MAINTAINER_DOCS" ""
 }
 
@@ -1315,7 +1530,7 @@ write_wizard_declaring() { # dir path-list
 # shape that cannot occur in production. The bodies below are long and side-specific so
 # the similarity asymmetry is real.
 write_docs_at() { # dir path-list marker
-  local rel body
+  local rel record body
   case "$3" in
     instance-owned)
       body="This document belongs to the adopting instance. It records that instance's own
@@ -1345,7 +1560,9 @@ Framework-side body line eight."
         ;;
       *)
         mkdir -p "$1/$rel"
-        printf '# Decision record 001 (%s)\n\n%s\n' "$3" "$body" > "$1/$rel/001-example.md"
+        for record in $DOC_RECORDS; do
+          printf '# Decision record %s (%s)\n\n%s\n' "$record" "$3" "$body" > "$1/$rel/$record"
+        done
         ;;
     esac
   done
@@ -1523,52 +1740,113 @@ case_mdocs_declaration_relocated() { # workdir
 }
 
 # ---------------------------------------------------------------------------
-# Case 10 — maintainer docs: OWNED BUT UNPROTECTED — the upgrade must stop
+# Case 10 — maintainer docs: OWNED BUT UNCLAIMED — the upgrade must stop
+# (10b is the sibling shape: claimed, but the per-clone driver is unset — a restore)
 # ---------------------------------------------------------------------------
 case_mdocs_owned_unprotected() { # workdir
-  local work="$1" variant fw inst owned
+  local work="$1" fw inst owned before
   mkdir -p "$work"
-  for variant in no-attribute no-driver; do
-    fw="$work/$variant/fw"
-    inst="$work/$variant/instance"
-    mkdir -p "$work/$variant"
-    build_framework "$fw"
-    clone_at_v1 "$fw" "$inst"
 
-    owned="$(first_doc_file)"
-    write_maintainer_docs "$inst" "instance-owned"
-    case "$variant" in
-      no-attribute) : ;;                                  # never marked merge=ours
-      no-driver)
-        append_maintainer_doc_attributes "$inst"
-        git -C "$inst" config --unset merge.ours.driver   # per-clone, not version-controlled
-        ;;
-    esac
-    write_instance_agents_md "$inst/AGENTS.md" no-reference
-    git -C "$inst" add -A
-    git -C "$inst" commit -q -m "Instance documents at the maintainer-doc paths ($variant)"
+  # 10a — the instance never marked these paths `merge=ours`. `check-attr merge`
+  # reports `unspecified`, so the instance never claimed them, and reverting the
+  # framework's edits would be the framework deciding ownership on its behalf.
+  fw="$work/no-attribute/fw"
+  inst="$work/no-attribute/instance"
+  mkdir -p "$work/no-attribute"
+  build_framework "$fw"
+  clone_at_v1 "$fw" "$inst"
 
-    local before
-    before="$(git -C "$inst" rev-parse HEAD)"
-    assert_mdocs_classify "$inst" "case 10/$variant" "$MAINTAINER_DOCS" ""
+  owned="$(first_doc_file)"
+  write_maintainer_docs "$inst" "instance-owned"
+  write_instance_agents_md "$inst/AGENTS.md" no-reference
+  git -C "$inst" add -A
+  git -C "$inst" commit -q -m "Instance documents at the maintainer-doc paths (no-attribute)"
 
-    git -C "$inst" merge --no-edit fw-v2 >/dev/null 2>&1 || true
-    git -C "$inst" rev-parse -q --verify MERGE_HEAD >/dev/null 2>&1 \
-      || fail "case 10/$variant: fixture guard — expected the merge to stop mid-merge (both sides edited these paths)"
-    assert_mdocs_reconcile_stops "$inst" "case 10/$variant"
-    if [ "${SKIP_RECONCILE:-0}" != "1" ]; then
-      printf '%s' "$HELPER_ERR" | grep -q 'merge --abort' \
-        || fail "case 10/$variant: mid-merge diagnostic does not prescribe the abort: $HELPER_ERR"
-    fi
+  before="$(git -C "$inst" rev-parse HEAD)"
+  assert_mdocs_classify "$inst" "case 10/no-attribute" "$MAINTAINER_DOCS" ""
 
-    # The instance's own document must still be its own: nothing committed, and the
-    # committed content at the pre-merge revision untouched.
-    git -C "$inst" show "$before:$owned" | grep -Fq 'instance-owned' \
-      || fail "case 10/$variant: the instance's committed $owned no longer holds its own content"
-    [ "$(git -C "$inst" rev-parse HEAD)" = "$before" ] \
-      || fail "case 10/$variant: the failed reconcile advanced HEAD"
-    ok "case 10/$variant: the framework copy did not win and HEAD did not move"
+  git -C "$inst" merge --no-edit fw-v2 >/dev/null 2>&1 || true
+  git -C "$inst" rev-parse -q --verify MERGE_HEAD >/dev/null 2>&1 \
+    || fail "case 10/no-attribute: fixture guard — expected the merge to stop mid-merge (both sides edited these paths)"
+  assert_mdocs_reconcile_stops "$inst" "case 10/no-attribute" "$owned"
+  if [ "${SKIP_RECONCILE:-0}" != "1" ]; then
+    printf '%s' "$HELPER_ERR" | grep -q 'merge --abort' \
+      || fail "case 10/no-attribute: mid-merge diagnostic does not prescribe the abort: $HELPER_ERR"
+  fi
+
+  # The instance's own document must still be its own: nothing committed, and the
+  # committed content at the pre-merge revision untouched.
+  git -C "$inst" show "$before:$owned" | grep -Fq 'instance-owned' \
+    || fail "case 10/no-attribute: the instance's committed $owned no longer holds its own content"
+  [ "$(git -C "$inst" rev-parse HEAD)" = "$before" ] \
+    || fail "case 10/no-attribute: the failed reconcile advanced HEAD"
+  ok "case 10/no-attribute: the framework copy did not win and HEAD did not move"
+
+  # 10b — the attribute IS there and the per-clone driver is NOT configured, so git
+  # falls back to a plain text merge and conflicts. The instance HAS claimed these
+  # paths, so this is a restore, not a stop: the upgrade puts its documents back and
+  # tells it the driver is missing. Stopping here would be the LB-88 defect in its
+  # other shape — an unescapable halt over a condition the upgrade can repair.
+  local inst2 keep2 rel nonascii
+  fw="$work/no-driver/fw"
+  inst2="$work/no-driver/instance"
+  keep2="$work/no-driver/expected"
+  mkdir -p "$work/no-driver" "$keep2/tree"
+  build_framework "$fw"
+  clone_at_v1 "$fw" "$inst2"
+
+  write_maintainer_docs "$inst2" "instance-owned"
+  append_maintainer_doc_attributes "$inst2"
+  git -C "$inst2" config --unset merge.ours.driver   # per-clone, not version-controlled
+  write_instance_agents_md "$inst2/AGENTS.md" no-reference
+  git -C "$inst2" add -A
+  git -C "$inst2" commit -q -m "Instance documents at the maintainer-doc paths (no-driver)"
+
+  for rel in $MAINTAINER_DOCS; do
+    mkdir -p "$keep2/tree/$(dirname "$rel")"
+    cp -R "$inst2/$rel" "$keep2/tree/$rel"
   done
+
+  if [ -n "$(git -C "$inst2" config --get merge.ours.driver || true)" ]; then
+    fail "case 10/no-driver: fixture guard — the ours driver is still configured, so the unconfigured shape is gone"
+  fi
+  assert_mdocs_classify "$inst2" "case 10/no-driver" "$MAINTAINER_DOCS" ""
+
+  git -C "$inst2" merge --no-edit fw-v2 >/dev/null 2>&1 || true
+  git -C "$inst2" rev-parse -q --verify MERGE_HEAD >/dev/null 2>&1 \
+    || fail "case 10/no-driver: fixture guard — expected the merge to stop mid-merge (an undefined driver falls back to a text merge)"
+  git -C "$inst2" ls-files -u -- "$owned" | grep -q . \
+    || fail "case 10/no-driver: fixture guard — $owned did not conflict, so there is nothing for the restore to resolve"
+  ok "case 10/no-driver: the undefined driver left the instance's documents conflicted"
+
+  assert_mdocs_reconcile_ok "$inst2" "case 10/no-driver"
+  # Deliberately NOT gated on SKIP_RECONCILE: these two are the only
+  # reconcile-dependent assertions before finalize_merge, and gating them out is how
+  # a case silently becomes vacuous.
+  printf '%s\n%s\n' "$HELPER_OUT" "$HELPER_ERR" | grep -Fq "$owned" \
+    || fail "case 10/no-driver: reconcile did not name the restored path; stdout: '$HELPER_OUT'; stderr: '$HELPER_ERR'"
+  printf '%s\n%s\n' "$HELPER_OUT" "$HELPER_ERR" | grep -q 'merge.ours.driver' \
+    || fail "case 10/no-driver: reconcile restored without reporting that the driver is not configured; stdout: '$HELPER_OUT'"
+  ok "case 10/no-driver: reconcile restores and reports the missing per-clone driver"
+
+  # The `-z` pin on the CONFLICTED producer (`git ls-files -u`). Without it git
+  # C-quotes this path, the quoted literal resolves to no `merge` attribute, and the
+  # restore turns into the hard stop this task exists to remove.
+  nonascii="$(non_ascii_doc_file)"
+  if [ -n "$nonascii" ]; then
+    printf '%s\n%s\n' "$HELPER_OUT" "$HELPER_ERR" | grep -Fq "$nonascii" \
+      || fail "case 10/no-driver: reconcile did not name the restored non-ASCII path ($nonascii) verbatim; stdout: '$HELPER_OUT'; stderr: '$HELPER_ERR'"
+    ok "case 10/no-driver: reconcile names the restored non-ASCII conflicted path verbatim"
+  fi
+
+  [ -z "$(git -C "$inst2" ls-files -u -- $MAINTAINER_DOCS)" ] \
+    || fail "case 10/no-driver: reconcile left a maintainer-doc conflict for the user to resolve"
+  finalize_merge "$inst2" "case 10/no-driver"
+  assert_is_merge_commit "$inst2" "case 10/no-driver"
+  for rel in $MAINTAINER_DOCS; do
+    assert_doc_entry_matches "$inst2" "$keep2/tree" "$rel" "case 10/no-driver"
+  done
+  ok "case 10/no-driver: every instance-owned maintainer-doc file is byte-for-byte its pre-merge copy (cmp)"
 
   # 10c — the same unprotected instance, but the framework's edits apply WITHOUT a
   # conflict, so git auto-commits the merge. `git merge --abort` does not work once
@@ -1600,7 +1878,7 @@ case_mdocs_owned_unprotected() { # workdir
   fi
   ok "case 10/clean-auto-merge: the framework's doc edits merged cleanly and git committed the merge"
 
-  assert_mdocs_reconcile_stops "$inst3" "case 10/clean-auto-merge"
+  assert_mdocs_reconcile_stops "$inst3" "case 10/clean-auto-merge" "$owned"
   if [ "${SKIP_RECONCILE:-0}" != "1" ]; then
     printf '%s' "$HELPER_ERR" | grep -q 'ORIG_HEAD' \
       || fail "case 10/clean-auto-merge: the diagnostic does not name the committed-merge undo (ORIG_HEAD): $HELPER_ERR"
@@ -2112,8 +2390,9 @@ case_helper_bootstrap_version_skew() { # workdir
 dev-plugin-state:HELPER
 maintainer-docs-state:MDOCS_HELPER
 package-state:PACKAGE_HELPER
+framework-divergence:DIVERGENCE_HELPER
 EOF
-    ok "case 13a: $(basename "$doc") bootstraps all three helpers from the target tag"
+    ok "case 13a: $(basename "$doc") bootstraps all four helpers from the target tag"
   done
 
   # --- 13b: the skew itself, end to end ---------------------------------------
@@ -2171,6 +2450,492 @@ EOF
 }
 
 # ---------------------------------------------------------------------------
+# Case 14 — maintainer docs: the instance KEPT THE FRAMEWORK'S COPY VERBATIM, so
+# `ours == base` and the `ours` driver never runs.
+#
+# This is the same mechanic case 12 pins for FRAMEWORK-VERSION, one tree over. A
+# merge driver runs only on a three-way CONTENT merge, so an instance that has not
+# edited a document since the merge base has git resolve to theirs without ever
+# consulting the driver — with the attribute set and the driver configured, both.
+# Case 8 cannot reach this shape: there the instance wrote its own content, `ours !=
+# base`, and the driver really does fire. Both must keep passing, because they are
+# the two halves of what `merge=ours` does and does not guarantee.
+#
+# Keeping a framework document verbatim is the COMMON adopter state, not an edge
+# case, so the upgrade restores the pre-merge content rather than stopping. Before
+# LB-88 it stopped, and prescribed marking the path `merge=ours` and configuring the
+# driver — both already true here, which made re-running reproduce the stop.
+#
+# The merge is shaped to AUTO-COMMIT, because that is the shape the defect was found
+# in on a real instance upgrade, and the only one that drives the amend path.
+# ---------------------------------------------------------------------------
+case_mdocs_owned_ours_equals_base() { # workdir
+  local work="$1" fw inst keep rel owned docdir dirty nonascii
+  fw="$work/fw"
+  inst="$work/instance"
+  keep="$work/expected"
+  mkdir -p "$work" "$keep/tree"
+  build_framework "$fw"
+  clone_at_v1 "$fw" "$inst"
+
+  owned="$(first_doc_file)"
+
+  # The instance CLAIMS the maintainer-doc paths but writes no content of its own
+  # there: it keeps fw-v1's documents byte-for-byte. It also drops the framework's
+  # VERSION the way fw-v2 does, so that one-time modify/delete conflict does not stop
+  # the merge for an unrelated reason — this fixture needs git to auto-commit.
+  append_maintainer_doc_attributes "$inst"
+  write_instance_agents_md "$inst/AGENTS.md" no-reference
+  git -C "$inst" rm -q -f VERSION
+  git -C "$inst" add -A
+  git -C "$inst" commit -q -m "Instance claims the maintainer-doc paths without changing them"
+
+  for rel in $MAINTAINER_DOCS; do
+    mkdir -p "$keep/tree/$(dirname "$rel")"
+    cp -R "$inst/$rel" "$keep/tree/$rel"
+  done
+
+  # Fixture guards. Both repairs the pre-LB-88 diagnostic prescribed are already in
+  # place, and the documents are identical to the merge base — that pair is exactly
+  # what makes `merge=ours` insufficient, and it is the state this case exists for.
+  grep -q 'merge=ours' "$inst/.gitattributes" \
+    || fail "case 14: fixture guard — the maintainer-doc paths are not marked merge=ours"
+  [ "$(git -C "$inst" config merge.ours.driver)" = "true" ] \
+    || fail "case 14: fixture guard — the ours driver is not configured in this clone"
+  git -C "$inst" diff --quiet fw-v1 HEAD -- $MAINTAINER_DOCS \
+    || fail "case 14: fixture guard — the instance changed a maintainer doc since the merge base, so the driver would fire and the case would prove nothing"
+  ok "case 14: fixture is the ours==base shape (attribute set, driver configured, documents identical to the merge base)"
+
+  assert_mdocs_classify "$inst" "case 14" "$MAINTAINER_DOCS" ""
+
+  git -C "$inst" merge --no-edit fw-v2 >/dev/null 2>&1 || true
+  if git -C "$inst" rev-parse -q --verify MERGE_HEAD >/dev/null 2>&1; then
+    fail "case 14: fixture no longer auto-commits the merge, so the amend path is not exercised"
+  fi
+  # The defect, pinned: with the attribute set and the driver configured, the merge
+  # still replaced the instance's documents, because git never invoked the driver.
+  if cmp -s "$inst/$owned" "$keep/tree/$owned"; then
+    fail "case 14: fixture guard — the merge left $owned unchanged, so there is nothing to restore"
+  fi
+  ok "case 14: the merge replaced the instance's maintainer docs (merge=ours did not protect them)"
+
+  assert_mdocs_reconcile_ok "$inst" "case 14"
+  # Deliberately NOT gated on SKIP_RECONCILE: with reconcile skipped this is the
+  # first assertion that must fail, or the case guards nothing.
+  printf '%s\n%s\n' "$HELPER_OUT" "$HELPER_ERR" | grep -Fq "$owned" \
+    || fail "case 14: reconcile did not name the restored path; stdout: '$HELPER_OUT'; stderr: '$HELPER_ERR'"
+  ok "case 14: reconcile names the restored path"
+
+  # The `-z` pin on the CLEANLY-MERGED producer (`git diff --name-status`), the other
+  # half of case 10/no-driver's. A path git C-quotes is read as unclaimed, so losing
+  # `-z` fails the reconcile above rather than reaching here.
+  nonascii="$(non_ascii_doc_file)"
+  if [ -n "$nonascii" ]; then
+    printf '%s\n%s\n' "$HELPER_OUT" "$HELPER_ERR" | grep -Fq "$nonascii" \
+      || fail "case 14: reconcile did not name the restored non-ASCII path ($nonascii) verbatim; stdout: '$HELPER_OUT'; stderr: '$HELPER_ERR'"
+    ok "case 14: reconcile names the restored non-ASCII path verbatim"
+  fi
+
+  finalize_merge "$inst" "case 14"
+  assert_is_merge_commit "$inst" "case 14"
+
+  for rel in $MAINTAINER_DOCS; do
+    assert_doc_entry_matches "$inst" "$keep/tree" "$rel" "case 14"
+  done
+  ok "case 14: every instance-owned maintainer-doc file is byte-identical to its pre-merge blob (cmp), non-ASCII path included"
+
+  # The restore landed in the merge commit itself, not as a follow-up commit.
+  dirty="$(git -C "$inst" status --porcelain)"
+  [ -z "$dirty" ] || fail "case 14: reconcile left the amended merge uncommitted: $(echo "$dirty" | tr '\n' ' ')"
+  git -C "$inst" show "HEAD:$owned" | cmp - "$keep/tree/$owned" \
+    || fail "case 14: the merge commit carries the framework's copy of $owned, not the instance's"
+  ok "case 14: reconcile amended the merge commit itself (working tree clean)"
+
+  # The restore must not have widened into a revert of the whole owned path: a
+  # framework file the merge ADDED underneath it is still reported, never deleted —
+  # the same rule case 8 pins.
+  for docdir in $MAINTAINER_DOCS; do
+    case "$docdir" in
+      *.md) ;;
+      *) [ -f "$inst/$docdir/002-added-in-fw-v2.md" ] \
+           || fail "case 14: the restore DELETED the framework-added record (it must report, not delete)" ;;
+    esac
+  done
+  ok "case 14: the framework-added record survives the restore (report, never delete)"
+
+  git -C "$inst" show HEAD:src/app.js | grep -q 'fw-v2' \
+    || fail "case 14: the framework's non-doc change (src/app.js at fw-v2) did not land — the restore discarded the merge"
+  ok "case 14: the framework's non-doc change (src/app.js @ fw-v2) landed"
+}
+
+# ---------------------------------------------------------------------------
+# Cases 15a-15e — the pre-merge divergence report
+# (`scripts/upgrade/framework-divergence.mjs`, ADR 010 (e)).
+#
+#   node scripts/upgrade/framework-divergence.mjs report --target <tag> [--repo <dir>]
+#   node scripts/upgrade/framework-divergence.mjs roots [--repo <dir>]
+#
+# The contract: BEFORE the merge, every framework-owned path whose content at HEAD
+# differs from the same path at `git merge-base HEAD <target>` is listed with the
+# instance's value and the incoming framework value. The set is read from the merge
+# base rather than from `--diff-filter=U` afterwards, which is not the same list read
+# at a different time: the conflict list holds only what git could not resolve, so a
+# path the framework never touched is merged silently and never appears in it.
+# Nothing is written and no path is resolved in either direction.
+# ---------------------------------------------------------------------------
+
+# A worker deploy template with one tuning value the fixture varies. Three distinct
+# floors across merge base / framework target / instance is what lets case 15a tell
+# "the framework's incoming value" apart from "the merge base value" — a report that
+# compared against the wrong side would still print two different numbers.
+write_divergence_worker() { # file relevance-floor
+  cat > "$1" <<EOF
+# Example worker deploy template (framework-owned).
+name = "REPLACE_VIA_WORKER_CONFIG"
+main = "src/index.mjs"
+
+[vars]
+RATE_LIMIT_MAX = "20"
+# Tuned per corpus.
+RELEVANCE_FLOOR = "$2"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "REPLACE_VIA_WORKER_CONFIG"
+EOF
+}
+
+# fw-v1 -> fw-v2 changes src/app.js and the worker's floor, and deliberately leaves
+# src/untouched.js and the skill alone, so a report that lists everything under the
+# roots fails the precision assertions.
+build_divergence_framework() { # dir
+  local fw="$1"
+  init_repo "$fw"
+  mkdir -p "$fw/src" "$fw/workers/example" "$fw/.agents/skills/example" "$fw/scripts/upgrade"
+  write_gitattributes "$fw"
+  printf 'marker\n' > "$fw/.sekai-template"
+  # The blank line is fixture, not formatting: it puts an empty CONTEXT line inside
+  # the hunk the report renders, which is what case 15a's blank-line assertion needs.
+  printf 'export const FRAMEWORK_APP = "fw-v1";\n\nexport const FRAMEWORK_TAIL = "shared";\n' > "$fw/src/app.js"
+  printf 'export const FRAMEWORK_STABLE = "unchanged in both releases";\n' > "$fw/src/untouched.js"
+  write_divergence_worker "$fw/workers/example/wrangler.toml" "0.46"
+  printf '# Example skill (framework-owned, fw-v1)\n' > "$fw/.agents/skills/example/SKILL.md"
+  cp "$DIVERGENCE_HELPER_SRC" "$fw/scripts/upgrade/framework-divergence.mjs"
+  git -C "$fw" add -A
+  git -C "$fw" commit -q -m "Example framework fw-v1"
+  git -C "$fw" tag fw-v1
+
+  printf 'export const FRAMEWORK_APP = "fw-v2";\n\nexport const FRAMEWORK_TAIL = "shared";\n' > "$fw/src/app.js"
+  write_divergence_worker "$fw/workers/example/wrangler.toml" "0.50"
+  git -C "$fw" add -A
+  git -C "$fw" commit -q -m "Example framework fw-v2"
+  git -C "$fw" tag fw-v2
+}
+
+build_divergence_instance() { # fw dir label [edits|clean|converged]
+  local inst="$2" label="$3" variant="${4:-edits}"
+  git clone -q "$1" "$inst"
+  configure_repo "$inst"
+  # A legal reader-side git setting, turned on deliberately: with it, git prints a
+  # blank CONTEXT line as a truly empty line instead of a bare prefix space. The
+  # report has no say over the config of the repository it runs in, so the fixture
+  # uses the setting that makes an empty diff line indistinguishable from padding —
+  # which is what a renderer that filters empty lines silently deletes.
+  git -C "$inst" config diff.suppressBlankEmpty true
+  git -C "$inst" checkout -q -B main fw-v1
+  git -C "$inst" rm -q -f .sekai-template
+  if [ "$variant" = "edits" ]; then
+    write_divergence_worker "$inst/workers/example/wrangler.toml" "0.61"
+    printf 'export const FRAMEWORK_APP = "fw-v1";\n// instance edit\n\nexport const FRAMEWORK_TAIL = "shared";\n' > "$inst/src/app.js"
+  elif [ "$variant" = "converged" ]; then
+    # The instance made exactly the change fw-v2 ships. This is what upstreaming
+    # looks like from the instance's side one release later: diverged from the merge
+    # base, identical to the target.
+    printf 'export const FRAMEWORK_APP = "fw-v2";\n\nexport const FRAMEWORK_TAIL = "shared";\n' > "$inst/src/app.js"
+  fi
+  git -C "$inst" add -A
+  git -C "$inst" commit -q -m "Adopt the Example framework at fw-v1"
+
+  # Fixture guards: without these the assertions below could pass on a broken helper.
+  git -C "$inst" diff --quiet fw-v1 fw-v2 -- src/untouched.js \
+    || fail "$label: fixture guard — src/untouched.js differs between the tags, so it cannot prove precision"
+  if [ "$variant" = "edits" ]; then
+    git -C "$inst" diff --quiet HEAD fw-v2 -- workers/example/wrangler.toml \
+      && fail "$label: fixture guard — the instance's worker template equals the target's, so nothing diverged"
+    git -C "$inst" diff --quiet HEAD fw-v1 -- workers/example/wrangler.toml \
+      && fail "$label: fixture guard — the instance did not retune the worker template"
+    ok "$label: instance carries a retuned worker value and an edited source file"
+  elif [ "$variant" = "converged" ]; then
+    # Both halves of "converged" are guarded, because either one alone is a
+    # different fixture: differing from the base is what puts the path in the
+    # report at all, and matching the target is the shape under test.
+    git -C "$inst" diff --quiet HEAD fw-v1 -- src/app.js \
+      && fail "$label: fixture guard — the instance did not change src/app.js, so nothing diverged from the merge base"
+    git -C "$inst" diff --quiet HEAD fw-v2 -- src/app.js \
+      || fail "$label: fixture guard — the instance's src/app.js does not equal the target's, so this is not the converged shape"
+    ok "$label: instance changed src/app.js to exactly the content fw-v2 ships"
+  else
+    git -C "$inst" diff --quiet HEAD fw-v1 -- src workers .agents \
+      || fail "$label: fixture guard — the clean instance is not clean under the framework-owned roots"
+    ok "$label: instance carries no framework-owned edit"
+  fi
+}
+
+# --- 15a/15b: a planted divergence is enumerated with both values, and nothing is written
+case_divergence_report() { # workdir
+  local work="$1" fw inst before after
+  fw="$work/fw"
+  inst="$work/instance"
+  mkdir -p "$work"
+  build_divergence_framework "$fw"
+  build_divergence_instance "$fw" "$inst" "case 15a" edits
+
+  before="$(repo_snapshot "$inst")"
+  assert_divergence_report_ok "$inst" fw-v2 "case 15a"
+
+  assert_report_names "case 15a" "workers/example/wrangler.toml" "the worker template the instance retuned"
+  assert_report_names "case 15a" "src/app.js" "the source file the instance edited"
+  assert_report_names "case 15a" "[vars] RELEVANCE_FLOOR" "the diverged key with its table"
+
+  # Both values, per DoD 2 — and they must be the two values that are actually in
+  # play. Asserting only that two numbers appear would pass on a report echoing the
+  # merge base at the instance, which is the mistake worth catching.
+  printf '%s\n' "$HELPER_OUT" | grep -F 'yours:' | grep -Fq '"0.61"' \
+    || fail "case 15a: the report does not present the instance's own value (\"0.61\") as theirs. Report was:
+$HELPER_OUT"
+  printf '%s\n' "$HELPER_OUT" | grep -F 'framework:' | grep -Fq '"0.50"' \
+    || fail "case 15a: the report does not present the incoming framework value (\"0.50\"). Report was:
+$HELPER_OUT"
+  if printf '%s\n' "$HELPER_OUT" | grep -F 'framework:' | grep -Fq '"0.46"'; then
+    fail "case 15a: the report presents the MERGE BASE value (\"0.46\") as the framework's incoming one. Report was:
+$HELPER_OUT"
+  fi
+  ok "case 15a: the [vars] divergence carries the key, the instance's value, and the framework's incoming value"
+
+  assert_report_names "case 15a" '+export const FRAMEWORK_APP = "fw-v2";' \
+    "the framework's incoming side for the edited source file"
+
+  # The rendered hunk must keep the file's blank line. Non-vacuity first: under this
+  # instance's config git really does emit that context line as an empty one, so a
+  # renderer that drops empty lines joins text the file separates and the reader is
+  # shown a region that is not what either side contains.
+  git -C "$inst" diff --no-color --unified=2 HEAD:src/app.js fw-v2:src/app.js \
+    | grep -qx '' \
+    || fail "case 15a: fixture guard — git emitted no empty line for the file's blank line, so the assertion below proves nothing"
+  printf '%s\n' "$HELPER_OUT" | grep -qx '      ' \
+    || fail "case 15a: the rendered hunk dropped the blank line inside it, so it shows lines as adjacent that the file separates. Report was:
+$HELPER_OUT"
+  ok "case 15a: the rendered hunk keeps a blank line git emitted as an empty one"
+  assert_report_silent_about "case 15a" "src/untouched.js" \
+    "a framework-owned file neither side changed"
+  assert_report_silent_about "case 15a" ".agents/skills/example/SKILL.md" \
+    "an untouched framework-owned skill"
+  assert_report_silent_about "case 15a" "RATE_LIMIT_MAX" \
+    "a [vars] key both sides agree on"
+
+  # DoD 3: the report names the decision, it does not take one. Nothing in the
+  # working tree, the index, the commit, or the git directory may move.
+  after="$(repo_snapshot "$inst")"
+  [ "$before" = "$after" ] || fail "case 15b: the report changed the repository. Difference:
+$(diff <(printf '%s\n' "$before") <(printf '%s\n' "$after") || true)"
+  [ -z "$(git -C "$inst" diff --name-only --diff-filter=U)" ] \
+    || fail "case 15b: the report left unmerged paths behind"
+  [ ! -e "$inst/.git/MERGE_HEAD" ] || fail "case 15b: the report started a merge"
+  ok "case 15b: the report wrote nothing — no state file, no staged path, no resolution"
+}
+
+# --- 15c: an instance with no framework-owned edit gets a clean report
+case_divergence_clean() { # workdir
+  local work="$1" fw inst
+  fw="$work/fw"
+  inst="$work/instance"
+  mkdir -p "$work"
+  build_divergence_framework "$fw"
+  build_divergence_instance "$fw" "$inst" "case 15c" clean
+
+  assert_divergence_report_ok "$inst" fw-v2 "case 15c"
+  assert_report_names "case 15c" "no framework-owned file" "the clean outcome in plain words"
+  assert_report_silent_about "case 15c" "src/app.js" "a path the instance never touched"
+  if printf '%s\n' "$HELPER_OUT" | grep -q '^  [^ ]'; then
+    fail "case 15c: the clean report still carries path entries. Report was:
+$HELPER_OUT"
+  fi
+  ok "case 15c: the clean report lists no path and adds no step to the upgrade"
+}
+
+# --- 15d: the first, unrelated-history merge has no base to measure against
+case_divergence_unrelated_history() { # workdir
+  local work="$1" fw inst
+  fw="$work/fw"
+  inst="$work/instance"
+  mkdir -p "$work"
+  build_divergence_framework "$fw"
+
+  init_repo "$inst"
+  mkdir -p "$inst/src"
+  printf 'export const INSTANCE_APP = "own history";\n' > "$inst/src/app.js"
+  git -C "$inst" add -A
+  git -C "$inst" commit -q -m "Example instance, own history"
+  git -C "$inst" remote add framework "$fw"
+  git -C "$inst" fetch -q framework --tags
+  [ -z "$(git -C "$inst" merge-base HEAD fw-v2 2>/dev/null || true)" ] \
+    || fail "case 15d: fixture guard — the histories share a merge base, so this is not the first-merge shape"
+
+  assert_divergence_report_ok "$inst" fw-v2 "case 15d"
+  assert_report_names "case 15d" "no merge base" "the missing common ancestor"
+  # The failure this pins: answering the unrelated-history case by declaring every
+  # framework-owned file diverged, which is true of nothing and useless in practice.
+  if printf '%s\n' "$HELPER_OUT" | grep -q '^  [^ ]'; then
+    fail "case 15d: the report claims divergence on an unrelated-history first merge. Report was:
+$HELPER_OUT"
+  fi
+  assert_report_silent_about "case 15d" "src/app.js" "a path as diverged with no merge base"
+}
+
+# --- 15f: a path both sides moved to the same content is settled, not a conflict
+#
+# The instance changed src/app.js and fw-v2 ships that exact content, so the path
+# differs from the merge base (which is why it is in the report) and not from the
+# target. A report that reads only "changed here AND changed in the framework" calls
+# this a place a content conflict can land and then prints a "differing region"
+# header over the empty diff between two identical blobs — advice that is wrong and a
+# block that is blank, on the success state of the route ADR 010 (g) recommends.
+case_divergence_converged() { # workdir
+  local work="$1" fw inst
+  fw="$work/fw"
+  inst="$work/instance"
+  mkdir -p "$work"
+  build_divergence_framework "$fw"
+  build_divergence_instance "$fw" "$inst" "case 15f" converged
+
+  assert_divergence_report_ok "$inst" fw-v2 "case 15f"
+
+  # The path is still listed: it IS a divergence from the merge base, and an adopter
+  # reading the report should see that this file is one of the ones they touched.
+  assert_report_names "case 15f" "src/app.js" "the path the instance changed"
+  assert_report_names "case 15f" "no conflict" "the settled outcome"
+
+  # The two defects, asserted separately: the wrong claim, and the empty block.
+  assert_report_silent_about "case 15f" "content conflict can land" \
+    "a content conflict on a path whose two sides are identical"
+  assert_report_silent_about "case 15f" "differing region" \
+    "a differing region between two identical blobs"
+  # The value pair is the indented `yours:` / `framework:` block; the leading spaces
+  # are what tell it apart from the outlook sentence, which ends "identical to yours:".
+  assert_report_silent_about "case 15f" "  yours:" \
+    "a value pair for a path with no differing value"
+  ok "case 15f: a converged path reports as settled, with no conflict claim and no empty differing region"
+}
+
+# --- 15e: the report's TOML key view and the deploy-time parser agree
+#
+# The report names `[vars] RELEVANCE_FLOOR` rather than a diff hunk because a key is
+# what an operator recognizes. That needs a TOML reader, and the helper cannot import
+# `scripts/deploy/wrangler-config.mjs`: every upgrade helper runs as a lone file
+# extracted from a release tag into the git directory. Two readers over one file
+# format is a drift risk, so this holds them to the same key view over every worker
+# template the repository really ships (guard-or-explain: the guard).
+case_divergence_toml_key_view() {
+  local out
+  cat > "$TMP/toml-key-view.mjs" <<'EOF'
+import { readFileSync, readdirSync, existsSync } from 'node:fs';
+import { join } from 'node:path';
+import { pathToFileURL } from 'node:url';
+
+const [root, helperPath] = process.argv.slice(2);
+const { parseWranglerToml } = await import(pathToFileURL(join(root, 'scripts/deploy/wrangler-config.mjs')).href);
+const { tomlEntries } = await import(pathToFileURL(helperPath).href);
+
+const workersDir = join(root, 'workers');
+if (!existsSync(workersDir)) {
+  process.stderr.write('no workers/ tree to compare\n');
+  process.exit(1);
+}
+let checked = 0;
+let sawVars = false;
+for (const dir of readdirSync(workersDir).sort()) {
+  const rel = `workers/${dir}/wrangler.toml`;
+  const file = join(root, rel);
+  if (!existsSync(file)) continue;
+  const text = readFileSync(file, 'utf8');
+  const parsed = parseWranglerToml(text);
+  const deploy = [];
+  for (const key of Object.keys(parsed.top)) deploy.push(key);
+  for (const [table, keys] of Object.entries(parsed.tables)) {
+    for (const key of Object.keys(keys)) deploy.push(`[${table}] ${key}`);
+  }
+  for (const [table, blocks] of Object.entries(parsed.arrays)) {
+    blocks.forEach((block, i) => {
+      for (const key of Object.keys(block)) deploy.push(`[[${table}]][${i}] ${key}`);
+    });
+  }
+  const report = [...tomlEntries(text).keys()];
+  const a = deploy.slice().sort();
+  const b = report.slice().sort();
+  if (a.join('|') !== b.join('|')) {
+    process.stderr.write(`${rel}: the two readers disagree\n  deploy-time parser: ${a.join(', ')}\n  divergence report:  ${b.join(', ')}\n`);
+    process.exit(1);
+  }
+  if (a.length === 0) {
+    process.stderr.write(`${rel}: the derived key set is empty, so agreement proves nothing\n`);
+    process.exit(1);
+  }
+  if (a.some((label) => label.startsWith('[vars] '))) sawVars = true;
+  checked += 1;
+}
+if (checked === 0) {
+  process.stderr.write('no committed worker template was compared\n');
+  process.exit(1);
+}
+if (!sawVars) {
+  process.stderr.write('no [vars] key was compared, so the table-scoped label form is untested\n');
+  process.exit(1);
+}
+process.stdout.write(`${checked} worker template(s) compared\n`);
+EOF
+  out="$(node "$TMP/toml-key-view.mjs" "$ROOT" "$DIVERGENCE_HELPER_SRC" 2>&1)" \
+    || fail "case 15e: the divergence report's TOML key view disagrees with the deploy-time parser: $out"
+  ok "case 15e: the report's TOML key view matches scripts/deploy/wrangler-config.mjs ($out)"
+}
+
+# --- usage contract: the report refuses rather than guessing
+case_divergence_usage() { # workdir
+  local work="$1" fw inst
+  fw="$work/fw"
+  inst="$work/instance"
+  mkdir -p "$work"
+  build_divergence_framework "$fw"
+  build_divergence_instance "$fw" "$inst" "divergence usage" clean
+
+  run_divergence "$inst" report
+  [ "$HELPER_STATUS" -eq 2 ] \
+    || fail "divergence usage: report with no --target exited $HELPER_STATUS (expected 2); stderr: '$HELPER_ERR'"
+
+  run_divergence "$inst" report --target no-such-tag
+  [ "$HELPER_STATUS" -eq 1 ] \
+    || fail "divergence usage: report --target no-such-tag exited $HELPER_STATUS (expected 1); stderr: '$HELPER_ERR'"
+  printf '%s' "$HELPER_ERR" | grep -qi 'remedy' \
+    || fail "divergence usage: the unknown-target diagnostic names no remedy: $HELPER_ERR"
+
+  run_divergence "$inst" report --target fw-v2 --state whatever
+  [ "$HELPER_STATUS" -eq 2 ] \
+    || fail "divergence usage: an unknown flag exited $HELPER_STATUS (expected 2); stderr: '$HELPER_ERR'"
+
+  run_divergence "$inst" bogus-subcommand
+  [ "$HELPER_STATUS" -eq 2 ] \
+    || fail "divergence usage: an unknown subcommand exited $HELPER_STATUS (expected 2); stderr: '$HELPER_ERR'"
+
+  # The framework's own tree carries `.sekai-template`; there is no adopter
+  # divergence to report there, and reporting one would be a fiction.
+  run_divergence "$fw" report --target fw-v2
+  [ "$HELPER_STATUS" -eq 2 ] \
+    || fail "divergence usage: report in a template checkout exited $HELPER_STATUS (expected 2); stderr: '$HELPER_ERR'"
+  printf '%s' "$HELPER_ERR" | grep -Fq '.sekai-template' \
+    || fail "divergence usage: the template-mode refusal does not name the marker it saw: $HELPER_ERR"
+  ok "divergence usage: missing --target, unknown target, unknown flag, unknown subcommand, and template mode all refuse"
+}
+
+# ---------------------------------------------------------------------------
 # Documented-bootstrap contract — the flags the adopter-facing docs tell a user to
 # run must be flags the helper actually accepts.
 #
@@ -2189,12 +2954,16 @@ UPGRADE_DOCS="$ROOT/.agents/skills/sekai-upgrade/SKILL.md $ROOT/docs/runbook/UPG
 # options, so the guard would pass on a document telling a user to run a command that
 # exits 2. Per command, because `--from-tag` is deliberately not an option of
 # `reconcile`.
-accepted_options_for() { # command
+# The helper source defaults to the maintainer-doc helper, because that is the one
+# most callers here ask about; the divergence report passes its own, since both
+# helpers declare a COMMAND_OPTIONS table in the same shape and both are invoked by
+# the same two documents.
+accepted_options_for() { # command [helper-source]
   awk -v cmd="$1" '
     /^const COMMAND_OPTIONS = \{/ { inblock = 1; next }
     inblock && /^\};/            { inblock = 0 }
     inblock && $0 ~ ("^  " cmd ": \\{")  { print }
-  ' "$MDOCS_HELPER_SRC" | grep -o -- "'--[a-z-]*'" | tr -d "'" | sort -u
+  ' "${2:-$MDOCS_HELPER_SRC}" | grep -o -- "'--[a-z-]*'" | tr -d "'" | sort -u
 }
 
 case_documented_flags_exist() {
@@ -2251,6 +3020,58 @@ EOF
     esac
   done
   ok "documented flags: both upgrade documents pass only options the invoked command accepts, and both still pass --from-tag to classify"
+
+  # The same derivation for the divergence report: both documents invoke it, and
+  # `--target` is the option the whole step depends on, so a rename that left the
+  # prose behind would print a usage error at the one moment it is read.
+  accepted_options_for report "$DIVERGENCE_HELPER_SRC" | grep -qx -- '--target' \
+    || fail "documented flags: the divergence helper's COMMAND_OPTIONS no longer gives report --target"
+  for doc in $UPGRADE_DOCS; do
+    used=""
+    while IFS= read -r line; do
+      [ -n "$line" ] || continue
+      cmd="$(printf '%s' "$line" | sed -n 's/.*node "\$DIVERGENCE_HELPER" *\([a-z][a-z-]*\).*/\1/p')"
+      [ -n "$cmd" ] || fail "documented flags: $(basename "$doc") invokes the divergence helper with no subcommand: $line"
+      accepted="$(accepted_options_for "$cmd" "$DIVERGENCE_HELPER_SRC")"
+      flags="$(printf '%s' "$line" | grep -o -- '--[a-z-]*' || true)"
+      for flag in $flags; do
+        printf '%s\n' "$accepted" | grep -qx -- "$flag" \
+          || fail "documented flags: $(basename "$doc") tells the user to pass $flag to \`$cmd\`, which the divergence helper's option table does not accept"
+      done
+      used="$used $cmd:$(printf '%s' "$flags" | paste -sd ',' -)"
+    done <<EOF
+$(grep -- 'node "$DIVERGENCE_HELPER"' "$doc")
+EOF
+    [ -n "$used" ] || fail "documented flags: $(basename "$doc") never invokes the divergence report, so the pre-merge step ADR 010 (e) requires is undocumented there"
+    case "$used" in
+      *"report:"*"--target"*) ;;
+      *) fail "documented flags: $(basename "$doc") does not pass --target to the divergence report, so it cannot name the release being merged" ;;
+    esac
+  done
+  ok "documented flags: both upgrade documents invoke the divergence report with --target and no option it rejects"
+}
+
+# The framework-owned roots the report walks are a statement the adopter-facing
+# documents also make. Derive it from the helper rather than trusting the prose: a
+# root added to the helper without a document update leaves an adopter reading a list
+# that is missing the tree their edit is in.
+case_divergence_roots_documented() {
+  local doc root
+  [ "$(printf '%s\n' "$FRAMEWORK_OWNED_ROOTS" | wc -l | tr -d ' ')" -ge 2 ] \
+    || fail "divergence roots: fewer than two roots were derived, so this check proves nothing"
+  for doc in $UPGRADE_DOCS; do
+    [ -f "$doc" ] || fail "divergence roots: $doc is missing"
+    # Non-vacuity: the pattern must be able to fail. A root nothing declares must not
+    # be found by the same grep that finds the real ones.
+    if grep -Fq '`no-such-framework-root/`' "$doc"; then
+      fail "divergence roots: $(basename "$doc") matches a root that does not exist, so the probe below is meaningless"
+    fi
+    for root in $FRAMEWORK_OWNED_ROOTS; do
+      grep -Fq "\`$root/\`" "$doc" \
+        || fail "divergence roots: $(basename "$doc") does not name the framework-owned root \`$root/\` the report walks"
+    done
+  done
+  ok "divergence roots: both upgrade documents name every root the helper reports"
 }
 
 # The parser must enforce what the table declares, not merely describe it.
@@ -2312,7 +3133,7 @@ run_all_cases() {
   echo "── case 9: maintainer docs — declaration relocated across the upgrade (per path, no stop) ──"
   case_mdocs_declaration_relocated "$TMP/case9"
   echo ""
-  echo "── case 10: maintainer docs — owned but unprotected (must stop) ──"
+  echo "── case 10: maintainer docs — owned but unclaimed (must stop); unconfigured driver (must restore) ──"
   case_mdocs_owned_unprotected "$TMP/case10"
   echo ""
   echo "── case 11: maintainer docs — first upgrade to the release that introduces the strip list ──"
@@ -2327,26 +3148,52 @@ run_all_cases() {
   echo "── case 13: helper version skew — the bootstrap runs the target tag's helper ──"
   case_helper_bootstrap_version_skew "$TMP/case13"
   echo ""
+  echo "── case 14: maintainer docs — the instance kept the framework's copy verbatim (ours == base) ──"
+  case_mdocs_owned_ours_equals_base "$TMP/case14"
+  echo ""
+  echo "── case 15a/15b: divergence report — planted divergence, both values, no writes ──"
+  case_divergence_report "$TMP/case15a"
+  echo ""
+  echo "── case 15c: divergence report — an instance with no framework-owned edit ──"
+  case_divergence_clean "$TMP/case15c"
+  echo ""
+  echo "── case 15d: divergence report — unrelated histories claim no divergence ──"
+  case_divergence_unrelated_history "$TMP/case15d"
+  echo ""
+  echo "── case 15e: divergence report — the TOML key view matches the deploy-time parser ──"
+  case_divergence_toml_key_view
+  echo ""
+  echo "── case 15f: divergence report — a converged path is settled, not a conflict ──"
+  case_divergence_converged "$TMP/case15f"
+  echo ""
+  echo "── option contract: the divergence report refuses rather than guessing ──"
+  case_divergence_usage "$TMP/case15-usage"
+  echo ""
   echo "── option contract: reconcile rejects --from-tag ──"
   case_reconcile_rejects_from_tag "$TMP/case-options"
   echo ""
   echo "── documented bootstrap: the docs' helper options are options the parser accepts ──"
   case_documented_flags_exist
   echo ""
-  echo "✅ upgrade-state check passed: dev-plugin state (stripped / installed / mixed exit 3), maintainer-doc state (per-path owned / stripped, unprotected stop, tag-derived first upgrade), the FRAMEWORK-VERSION bump contract, present and absent, and the tag-first helper bootstrap hold on all fourteen fixtures."
+  echo "── documented roots: the docs name every framework-owned root the report walks ──"
+  case_divergence_roots_documented
+  echo ""
+  echo "✅ upgrade-state check passed: dev-plugin state (stripped / installed / mixed exit 3), maintainer-doc state (per-path owned / stripped, ours==base restore, unclaimed-path stop, tag-derived first upgrade), the FRAMEWORK-VERSION bump contract, present and absent, the tag-first helper bootstrap, and the pre-merge divergence report (both values, no writes, clean, unrelated-history, and converged shapes) hold on every fixture above."
 }
 
-# Run one case with reconcile skipped, in a subshell whose EXIT trap is cleared
-# (the parent owns $TMP cleanup). The case MUST fail.
+# Run one case with its load-bearing step skipped, in a subshell whose EXIT trap is
+# cleared (the parent owns $TMP cleanup). The case MUST fail. `SKIP_RECONCILE` is the
+# toggle every case reads: `reconcile` for the three state helpers, the report itself
+# for the report-only divergence helper, which has no reconcile.
 expect_case_to_fail() { # fn workdir label
-  echo "── selftest: $3 with reconcile SKIPPED (must FAIL) ──"
+  echo "── selftest: $3 with its load-bearing step SKIPPED (must FAIL) ──"
   local status=0
   ( trap - EXIT; SKIP_RECONCILE=1; "$1" "$2" ) || status=$?
   if [ "$status" -eq 0 ]; then
-    echo "❌ SELFTEST FAILED: $3 PASSED without reconcile — the case cannot detect the regression it guards (vacuous test)." >&2
+    echo "❌ SELFTEST FAILED: $3 PASSED with that step skipped — the case cannot detect the regression it guards (vacuous test)." >&2
     exit 1
   fi
-  echo "✓ selftest: $3 fails without reconcile (exit $status) — the case is non-vacuous"
+  echo "✓ selftest: $3 fails without it (exit $status) — the case is non-vacuous"
   echo ""
 }
 
@@ -2360,12 +3207,19 @@ run_selftest() {
   expect_case_to_fail case_mdocs_stripped_unrelated_history "$TMP/selftest-case7" "case 7 (maintainer docs, stripped, unrelated history)"
   expect_case_to_fail case_mdocs_owned_preserved "$TMP/selftest-case8" "case 8 (maintainer docs, fully owned)"
   expect_case_to_fail case_mdocs_declaration_relocated "$TMP/selftest-case9" "case 9 (maintainer docs, declaration relocated)"
-  expect_case_to_fail case_mdocs_owned_unprotected "$TMP/selftest-case10" "case 10 (maintainer docs, owned but unprotected)"
+  expect_case_to_fail case_mdocs_owned_unprotected "$TMP/selftest-case10" "case 10 (maintainer docs, owned but unclaimed / driver unconfigured)"
   expect_case_to_fail case_mdocs_first_upgrade_from_tag "$TMP/selftest-case11" "case 11 (maintainer docs, first upgrade from tag)"
   expect_case_to_fail case_framework_version_survives_merge "$TMP/selftest-case12" "case 12 (FRAMEWORK-VERSION survives the merge)"
   expect_case_to_fail case_framework_version_absent_stays_absent "$TMP/selftest-case12c" "case 12c (absent FRAMEWORK-VERSION stays absent)"
   expect_case_to_fail case_helper_bootstrap_version_skew "$TMP/selftest-case13" "case 13 (helper version skew)"
-  echo "✅ SELFTEST OK: cases 1, 2, 6, 7, 8, 9, 10, 11, 12, 12c and 13 all fail when reconcile is skipped."
+  expect_case_to_fail case_mdocs_owned_ours_equals_base "$TMP/selftest-case14" "case 14 (maintainer docs, ours == base)"
+  expect_case_to_fail case_divergence_report "$TMP/selftest-case15a" "case 15a (divergence report, planted divergence)"
+  # 15f asserts mostly ABSENCES (no conflict claim, no empty differing region), and an
+  # empty report satisfies every absence trivially. Running it here proves the case
+  # still rests on what the report must SAY, so it cannot decay into a test that a
+  # helper printing nothing at all would pass.
+  expect_case_to_fail case_divergence_converged "$TMP/selftest-case15f" "case 15f (divergence report, converged path)"
+  echo "✅ SELFTEST OK: cases 1, 2, 6, 7, 8, 9, 10, 11, 12, 12c, 13, 14, 15a and 15f all fail when their load-bearing step is skipped."
 }
 
 main() {
