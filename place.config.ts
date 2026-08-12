@@ -82,10 +82,37 @@ export interface PlaceConfig {
      * auth. `npm run worker-config` reads it; unset generates an empty id and says so.
      */
     feedbackDatabaseId?: string;
+    /**
+     * Feedback submissions accepted per hashed address in the rolling window.
+     * Template default `5`. The limit is keyed on a hash of the caller's public
+     * address, so everyone behind one NAT shares one budget.
+     */
+    feedbackRateLimitMax?: number;
+    /**
+     * Length of that rolling window, in seconds. Template default `3600`.
+     */
+    feedbackRateLimitWindowSeconds?: number;
     /** URL of this instance's deployed `workers/chat/` worker. */
     chat?: string;
     /** D1 `database_id` for the chat worker's rolling rate-limit state. */
     chatDatabaseId?: string;
+    /**
+     * Accepted chat requests per hashed address in the rolling window. Template
+     * default `20`. The limit is keyed on a hash of the caller's public address,
+     * so everyone behind one NAT shares one budget.
+     */
+    chatRateLimitMax?: number;
+    /**
+     * Length of that rolling window, in seconds. Template default `3600`.
+     */
+    chatRateLimitWindowSeconds?: number;
+    /**
+     * Cosine score a corpus chunk must reach to be retrieved by the chat worker,
+     * within `0..1`. Template default `0.46`. A separating value is a property of
+     * YOUR corpus; re-measure it per `docs/runbook/DEPLOY.md` §Tuning the relevance
+     * floor.
+     */
+    chatRelevanceFloor?: number;
     /** URL of this instance's deployed `workers/og/` worker. */
     og?: string;
   };
@@ -270,6 +297,8 @@ const config: PlaceConfig = {
     feedbackDatabaseId: 'ffa96a9b-e6fc-48d5-b520-3eddb03021d0',
     chat: 'https://lagunabeach-chat.d3v-m0nk3y.workers.dev',
     chatDatabaseId: '79aa214d-83d4-44da-b751-837e9f3375b3',
+    chatRateLimitMax: 30,
+    chatRateLimitWindowSeconds: 1800,
     og: 'https://lagunabeach-og.d3v-m0nk3y.workers.dev',
   },
   seo: {
