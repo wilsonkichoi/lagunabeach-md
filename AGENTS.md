@@ -46,6 +46,18 @@ repositories: a statement lives in exactly one of them.
 - **Operations:** `docs/runbook/DEPLOY.md`, `docs/runbook/UPGRADE.md`, and
   `docs/runbook/RELEASE.md` cover deployment, framework adoption, and explicit LB
   releases.
+- **Cloudflare Workers:** `workers/*/` — one directory per worker (`feedback`, `chat`,
+  `og`, `mcp`), each with its own committed `wrangler.toml` template, `migrations/`, and
+  `node:test` suite; `npm run worker-config` derives the gitignored
+  `wrangler.generated.toml` this instance actually deploys. Deployed by hand, with one
+  narrow exception: `.github/workflows/corpus-refresh.yml` rebuilds the corpus artifact
+  and redeploys the workers that bundle it (`chat` and `mcp`), because that artifact is
+  built from `knowledge/` and bundled at deploy time, so a manual-only path leaves the
+  deployed retrieval index a snapshot of the last hand deploy. LB has opted in: the
+  `CF_ACCOUNT_ID` and `CF_AI_TOKEN` repository secrets are set. The exception's four
+  bounds — push to `main` only and never `pull_request`, opt-in through secrets whose
+  absence makes the job no-op green, `contents: read` everywhere, and a documented token
+  blast radius — are machine-checked by `npm run corpus-refresh:check` on every PR.
 - Conflicts among these documents go to Wilson, never silently resolved.
 - **Process config:** `.agent-toolkit/dev.md` — dev-plugin config: tracker (Linear, workspace
   `sekai-kb`, team `LB`, project "LB Rebuild"), conventions, extraction-source paths.
