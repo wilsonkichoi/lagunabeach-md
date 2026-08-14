@@ -12,6 +12,16 @@
 export interface PlaceConfig {
   place: {
     name: string;
+    /**
+     * Suffix rendered after the brand name in the wordmark, the hero, the footer,
+     * and both agent boot files; defaults to the domain's last label when unset.
+     * Declared by the framework since it reads it in `src/components/BrandMark.astro`,
+     * `Footer.astro`, `home/HeroSection.astro`, and `src/lib/agent-boot.ts` — it had
+     * never been transcribed into this instance's copy, which is invisible to
+     * `npm run place-config:check` (see AGENTS.md iron rule 5). Left unset here, so
+     * the fallback supplies `.md` exactly as before.
+     */
+    brandSuffix?: string;
     tagline: string;
     domain: string;
     locale: string;
@@ -76,7 +86,8 @@ export interface PlaceConfig {
    * feature off — a missing key, or an empty string, keeps the capability off even
    * when its `features` flag is true. `place.config.ts` is instance-owned
    * (`merge=ours`), so the framework's schema addition does not arrive through the
-   * tag merge — it is transcribed here, matching the tag's declaration.
+   * tag merge; each one is transcribed here by hand at adoption. No gate compares
+   * this declaration to the tag's — AGENTS.md iron rule 5 carries the manual diff.
    */
   workers?: {
     /** URL of this instance's deployed `workers/feedback/` worker. */

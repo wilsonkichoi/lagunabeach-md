@@ -131,9 +131,25 @@ derived, gitignored projections of `knowledge/`; never edit them directly.
    config surgery. The target tag's `CHANGELOG.md` Upgrade note names the opt-in key
    and the capability left off. LB's own config is `merge=ours`, so a release's schema
    addition never arrives through the tag merge — transcribing the declaration and
-   opting in is the instance's step 2, and `npm run place-config:check` holds the
-   transcription byte-identical to the framework's (`sekai-kb-v1.1.5`, `features.mcp`
-   and the `workers.mcp*` keys, adopted in LB-99).
+   opting in is the instance's step 2 (`sekai-kb-v1.1.5`, `features.mcp` and the
+   `workers.mcp*` keys, adopted in LB-99).
+
+   **Nothing machine-checks that transcription against the framework.**
+   `npm run place-config:check` compares three statements of the schema that all live
+   in this repository — the declaration in `place.config.ts`, the wizard's re-emission
+   of it (`scripts/init/writer.mjs` reads the committed file, so it can only agree),
+   and the prompt table — and never reads a framework tag. The comparison is manual,
+   at adoption time:
+
+   ```sh
+   diff <(git show sekai-kb-vX.Y.Z:place.config.ts | awk '/^export interface PlaceConfig/,/^}/') \
+        <(awk '/^export interface PlaceConfig/,/^}/' place.config.ts)
+   ```
+
+   Prose divergence is expected — this copy's comments record LB's own adoption
+   history. A missing or renamed **key** is the defect to look for. LB-99 found one
+   that way: `place.brandSuffix` had never been transcribed, while five `src/` files
+   read it.
 
 ## Skill discovery and ownership
 
