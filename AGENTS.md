@@ -148,8 +148,9 @@ derived, gitignored projections of `knowledge/`; never edit them directly.
 
    Prose divergence is expected — this copy's comments record LB's own adoption
    history. A missing or renamed **key** is the defect to look for. LB-99 found one
-   that way: `place.brandSuffix` had never been transcribed, while five `src/` files
-   read it.
+   that way: `place.brandSuffix` had never been transcribed, while `src/` already read
+   it. No count of readers is stated here on purpose — that number moves whenever a
+   component picks the key up, and this sentence is not what would be updated.
 
 ## Skill discovery and ownership
 
