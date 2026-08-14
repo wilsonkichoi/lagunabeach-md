@@ -125,6 +125,15 @@ derived, gitignored projections of `knowledge/`; never edit them directly.
    genericity gate remains the structural guarantee for rule 2, which is a different
    rule and stays fatal. `CHANGELOG.md` becomes instance-owned at adoption; framework
    release notes remain available from immutable tags.
+5. **Absent-safe schema evolution:** every new `place.config.ts` key must be safe
+   when missing. A missing key leaves the new feature off, so an existing instance
+   upgrades and builds without editing its config. Framework upgrades never require
+   config surgery. The target tag's `CHANGELOG.md` Upgrade note names the opt-in key
+   and the capability left off. LB's own config is `merge=ours`, so a release's schema
+   addition never arrives through the tag merge — transcribing the declaration and
+   opting in is the instance's step 2, and `npm run place-config:check` holds the
+   transcription byte-identical to the framework's (`sekai-kb-v1.1.5`, `features.mcp`
+   and the `workers.mcp*` keys, adopted in LB-99).
 
 ## Skill discovery and ownership
 
