@@ -1,6 +1,6 @@
 {
   "name": "sekai-kb",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "type": "module",
   "private": true,
   "description": "AI-native place knowledge base — the sekai-kb framework template.",
