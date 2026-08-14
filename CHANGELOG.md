@@ -43,6 +43,10 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+## [1.1.5] — 2026-08-13
+
+Adds a remote MCP server, an /ai page, a /kb/agent.md boot file, and an opt-in CI corpus-refresh workflow; moves corpus retrieval to shared workers/lib/ and fixes llms.txt brand naming.
+
 ### Added
 
 - **A remote MCP server (`workers/mcp/`), behind `features.mcp`.** A stateless
@@ -2013,7 +2017,8 @@ onto this tag.
 First release — nothing to upgrade from. The first instance establishes its merge
 base against this tag per `docs/runbook/UPGRADE.md` §Establishing the merge base.
 
-[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.1.4...HEAD
+[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.1.5...HEAD
+[1.1.5]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.5
 [1.1.4]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.4
 [1.1.3]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.3
 [1.1.2]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.2
