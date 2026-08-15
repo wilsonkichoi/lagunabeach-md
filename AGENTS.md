@@ -46,6 +46,18 @@ repositories: a statement lives in exactly one of them.
 - **Operations:** `docs/runbook/DEPLOY.md`, `docs/runbook/UPGRADE.md`, and
   `docs/runbook/RELEASE.md` cover deployment, framework adoption, and explicit LB
   releases.
+- **Cloudflare Workers:** `workers/*/` — one directory per worker (`feedback`, `chat`,
+  `og`, `mcp`), each with its own committed `wrangler.toml` template, `migrations/`, and
+  `node:test` suite; `npm run worker-config` derives the gitignored
+  `wrangler.generated.toml` this instance actually deploys. Deployed by hand, with one
+  narrow exception: `.github/workflows/corpus-refresh.yml` rebuilds the corpus artifact
+  and redeploys the workers that bundle it (`chat` and `mcp`), because that artifact is
+  built from `knowledge/` and bundled at deploy time, so a manual-only path leaves the
+  deployed retrieval index a snapshot of the last hand deploy. LB has opted in: the
+  `CF_ACCOUNT_ID` and `CF_AI_TOKEN` repository secrets are set. The exception's four
+  bounds — push to `main` only and never `pull_request`, opt-in through secrets whose
+  absence makes the job no-op green, `contents: read` everywhere, and a documented token
+  blast radius — are machine-checked by `npm run corpus-refresh:check` on every PR.
 - Conflicts among these documents go to Wilson, never silently resolved.
 - **Process config:** `.agent-toolkit/dev.md` — dev-plugin config: tracker (Linear, workspace
   `sekai-kb`, team `LB`, project "LB Rebuild"), conventions, extraction-source paths.
@@ -113,6 +125,32 @@ derived, gitignored projections of `knowledge/`; never edit them directly.
    genericity gate remains the structural guarantee for rule 2, which is a different
    rule and stays fatal. `CHANGELOG.md` becomes instance-owned at adoption; framework
    release notes remain available from immutable tags.
+5. **Absent-safe schema evolution:** every new `place.config.ts` key must be safe
+   when missing. A missing key leaves the new feature off, so an existing instance
+   upgrades and builds without editing its config. Framework upgrades never require
+   config surgery. The target tag's `CHANGELOG.md` Upgrade note names the opt-in key
+   and the capability left off. LB's own config is `merge=ours`, so a release's schema
+   addition never arrives through the tag merge — transcribing the declaration and
+   opting in is the instance's step 2 (`sekai-kb-v1.1.5`, `features.mcp` and the
+   `workers.mcp*` keys, adopted in LB-99).
+
+   **Nothing machine-checks that transcription against the framework.**
+   `npm run place-config:check` compares three statements of the schema that all live
+   in this repository — the declaration in `place.config.ts`, the wizard's re-emission
+   of it (`scripts/init/writer.mjs` reads the committed file, so it can only agree),
+   and the prompt table — and never reads a framework tag. The comparison is manual,
+   at adoption time:
+
+   ```sh
+   diff <(git show sekai-kb-vX.Y.Z:place.config.ts | awk '/^export interface PlaceConfig/,/^}/') \
+        <(awk '/^export interface PlaceConfig/,/^}/' place.config.ts)
+   ```
+
+   Prose divergence is expected — this copy's comments record LB's own adoption
+   history. A missing or renamed **key** is the defect to look for. LB-99 found one
+   that way: `place.brandSuffix` had never been transcribed, while `src/` already read
+   it. No count of readers is stated here on purpose — that number moves whenever a
+   component picks the key up, and this sentence is not what would be updated.
 
 ## Skill discovery and ownership
 

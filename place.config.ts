@@ -12,6 +12,16 @@
 export interface PlaceConfig {
   place: {
     name: string;
+    /**
+     * Suffix rendered after the brand name in the wordmark, the hero, the footer,
+     * and both agent boot files; defaults to the domain's last label when unset.
+     * Declared by the framework since it reads it in `src/components/BrandMark.astro`,
+     * `Footer.astro`, `home/HeroSection.astro`, and `src/lib/agent-boot.ts` — it had
+     * never been transcribed into this instance's copy, which is invisible to
+     * `npm run place-config:check` (see AGENTS.md iron rule 5). Left unset here, so
+     * the fallback supplies `.md` exactly as before.
+     */
+    brandSuffix?: string;
     tagline: string;
     domain: string;
     locale: string;
@@ -42,6 +52,12 @@ export interface PlaceConfig {
     social: boolean;
     analytics: boolean;
     og: boolean;
+    /**
+     * The remote MCP endpoint (`workers/mcp/`). Like every other worker-backed
+     * capability, it needs BOTH this flag and a non-empty `workers.mcp`, and it is
+     * absent-safe: a config written before this key existed reads as off.
+     */
+    mcp: boolean;
   };
   /**
    * Outbound identity links. `repo` + `email` are always rendered (footer,
@@ -63,13 +79,15 @@ export interface PlaceConfig {
   };
   /**
    * Deployed endpoints for this instance's own Cloudflare Workers. Added by
-   * sekai-kb-v1.0.17, extended with `feedbackDatabaseId` in sekai-kb-v1.0.18 and
-   * with `chat`, `chatDatabaseId`, and `og` in sekai-kb-v1.1.2;
+   * sekai-kb-v1.0.17, extended with `feedbackDatabaseId` in sekai-kb-v1.0.18,
+   * with `chat`, `chatDatabaseId`, and `og` in sekai-kb-v1.1.2, and with the `mcp*`
+   * keys in sekai-kb-v1.1.5;
    * absent-safe, so a config without it keeps every worker-backed
    * feature off — a missing key, or an empty string, keeps the capability off even
    * when its `features` flag is true. `place.config.ts` is instance-owned
    * (`merge=ours`), so the framework's schema addition does not arrive through the
-   * tag merge — it is transcribed here, matching the tag's declaration.
+   * tag merge; each one is transcribed here by hand at adoption. No gate compares
+   * this declaration to the tag's — AGENTS.md iron rule 5 carries the manual diff.
    */
   workers?: {
     /** URL of this instance's deployed `workers/feedback/` worker. */
@@ -115,6 +133,32 @@ export interface PlaceConfig {
     chatRelevanceFloor?: number;
     /** URL of this instance's deployed `workers/og/` worker. */
     og?: string;
+    /**
+     * URL of this instance's deployed `workers/mcp/` worker — the remote MCP endpoint
+     * an AI client registers once and then reaches this knowledge base through.
+     */
+    mcp?: string;
+    /** D1 `database_id` for the MCP worker's rolling rate-limit state. */
+    mcpDatabaseId?: string;
+    /**
+     * Accepted `semantic_search` calls per hashed address in the rolling window.
+     * Template default `20`. That tool is the only one spending this account's shared
+     * Workers AI allowance; the other three re-serve files the site already publishes
+     * and cost no budget. `docs/runbook/DEPLOY.md` §Deploying the MCP worker.
+     */
+    mcpRateLimitMax?: number;
+    /**
+     * Length of that rolling window, in seconds. Template default `3600`.
+     * `docs/runbook/DEPLOY.md` §Deploying the MCP worker.
+     */
+    mcpRateLimitWindowSeconds?: number;
+    /**
+     * Cosine score a corpus passage must reach for `semantic_search` to return it,
+     * within `0..1`. Template default `0.46`. A separating value is a property of
+     * YOUR corpus; re-measure it per `docs/runbook/DEPLOY.md` §Tuning the relevance
+     * floor. The same measurement serves the chat worker's floor.
+     */
+    mcpRelevanceFloor?: number;
   };
   seo: {
     defaultOgImage: string;
@@ -282,6 +326,7 @@ const config: PlaceConfig = {
     social: false,
     analytics: false,
     og: true,
+    mcp: true,
   },
   links: {
     repo: 'https://github.com/wilsonkichoi/lagunabeach-md',
@@ -300,6 +345,8 @@ const config: PlaceConfig = {
     chatRateLimitMax: 30,
     chatRateLimitWindowSeconds: 1800,
     og: 'https://lagunabeach-og.d3v-m0nk3y.workers.dev',
+    mcp: 'https://lagunabeach-mcp.d3v-m0nk3y.workers.dev',
+    mcpDatabaseId: 'c467c002-e2b2-486b-bb9a-11279c1eb305',
   },
   seo: {
     defaultOgImage: '/og-default.png',
