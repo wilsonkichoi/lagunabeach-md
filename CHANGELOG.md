@@ -43,6 +43,14 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+### Changed
+
+- **Phase 10 analytics now has a complete production-delivery contract.** ADR 012 selects
+  an ephemeral, credential-gated fetch during the production build; the SPEC freezes the
+  public config keys, private environment inputs, normalized provider schemas, failure and
+  redaction behavior, and per-source dashboard degradation; the ROADMAP splits provider
+  fetching from CI delivery and rendering into independently verifiable tasks.
+
 ## [1.1.7] — 2026-08-16
 
 Gates no longer assert framework-authoring rules against instance-owned documents, and the upgrade reconciles a maintainer doc the instance had deleted.

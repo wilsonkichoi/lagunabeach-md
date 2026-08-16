@@ -24,6 +24,9 @@ packet's `Execution repo:` field says where its code lands (absent → `sekai-kb
 for framework work). Both repos read their own `.agent-toolkit/dev.md`; this one
 governs work committed here.
 
+Roadmap phases map to native Linear project milestones in `LB Rebuild`, not
+`milestone:*` labels.
+
 **Which repo a session runs in.** This is the framework-side half of the rule the
 first instance's `.agent-toolkit/dev.md` carries; the two must state the same thing.
 `gh` resolves against the working-directory repository, so the working directory is
@@ -88,6 +91,13 @@ governs its own — and the disagreement is a defect to report, not a choice to 
   release log in this repo but becomes instance-owned when the init wizard replaces it.
 - **Upgrade mechanics:** `docs/runbook/UPGRADE.md` + the `/sekai-upgrade` skill; ADR 004
   (tagged-release topology).
+
+**Active architecture delta, Phase 10 (ADR 012).** Analytics is fetched ephemerally into
+ignored `src/data/analytics/` during a production Pages build of `main`; no snapshot enters
+git. `dev_docs/SPEC.md` §Analytics owns the provider schemas, config keys, credential
+boundary, and per-source unavailable states. `dev_docs/ROADMAP.md` splits delivery into
+10.2a fetchers and 10.2b CI/rendering. Future task 11.5 schedules the same verified-main
+rebuild and does not open an empty data PR.
 
 ## Intent sources
 

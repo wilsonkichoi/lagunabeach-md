@@ -35,10 +35,13 @@ and 11 (autonomous routines)**. Sub-decisions:
    social publish, rewrite) run as Claude Code native scheduled tasks on the maintainer's
    machine (the proven pattern inherited from the fork). Each routine declares its
    substrate in ROUTINE.md.
-3. **Ship mode: PRs, auto-merge for data.** Every routine ships via a PR behind CI;
-   data-only PRs (analytics JSON, vectors) carry auto-merge-on-green, content PRs wait
-   for human merge. The fork's direct-push-to-main routine model is rejected — the
-   dev-plugin iron rule (no work done outside a verified merge) applies to automation.
+3. **Ship mode: PRs, auto-merge for repository data.** Every routine that changes
+   repository content ships via a PR behind CI; data-only PRs carry auto-merge-on-green,
+   content PRs wait for human merge. ADR 011 moved corpus deployment out of Phase 11, and
+   ADR 012 makes analytics an ignored production-build projection rather than repository
+   data. Those deterministic refreshes rebuild/deploy a verified `main` SHA and change no
+   branch, so they have workflow-run audit trails rather than empty PRs. The fork's
+   direct-push-to-main routine model remains rejected.
 4. **Analytics: full stack.** GA4 + Google Search Console + Cloudflare Web Analytics
    behind `features.analytics`; Search Console is the only source of query-level SEO data,
    which the trend-discovery routine consumes.
@@ -61,8 +64,10 @@ no-paid-services constraint; McpAgent/Durable Objects documented as the scale-up
 ## Consequences
 
 - Every inherited-fork "port-on-named-trigger" item in scope now has a scheduled home: MCP → 9.1,
-  analytics fetchers → 10.2, embeddings refresh → 11.2, per-routine opt-ins → 11.3-11.8.
-- Grand totals grow by AI ≈ 26.75h | Human ≈ 2.5h (ROADMAP totals updated).
+  analytics fetchers → 10.2a, analytics delivery/rendering → 10.2b, embeddings refresh →
+  11.2, per-routine opt-ins → 11.3-11.8.
+- Grand totals are maintained from the current task subtotals in ROADMAP; later planning
+  amendments supersede this ADR's original estimate.
 - The PRD "no paid services" non-goal is clarified to "no paid hosting/infra services";
   routine AI compute rides the maintainer's existing Claude subscription/API budget.
 - Instance operations gain a machine dependency for claude-cron routines (an always-on

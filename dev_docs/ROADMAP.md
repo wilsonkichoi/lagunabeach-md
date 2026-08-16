@@ -25,7 +25,7 @@ so task ids (`LB-*`) are continuous across the split.
 | 7 | Differentiators | On-demand OG worker, RAG chat (bge-m3 + Workers AI, free tier end to end), QR flow | 7.1 · 7.2a-c · 7.3 · 7.4 | Eval set answered with citations, no hallucinated places (7.2c); tag released; instance #1 adopts clean (7.4); maintainer phase confirm | AI 14.5h \| Human 2.5h |
 | 8 | Semiont plugin layer | **DEFERRED — unscheduled (2026-08-12 amendment, D1).** Organ architecture in sekai-kb (config.json manifest, core organs); instance #1 enables core + MANIFESTO | 8.1 · 8.2 · 8.3 | Site builds with `semiont/` deleted and organs toggle via config only; tag released; instance #1 adopts clean (8.3); maintainer phase confirm | AI 5h \| Human 0.5h |
 | 9 | MCP + AI delivery | Remote MCP server (`workers/mcp/`) exposing list_topics/get_article/search/semantic_search; AI-access page + `/kb/agent.md` boot file; adopter upgrade playbook; CI corpus refresh so retrieval never goes stale | 9.1 · 9.2 · 9.3 · 9.4 · 9.5 | An MCP client connected to the instance's `/mcp` endpoint answers a question about its place via tools, no clone; tag released; instance #1 adopts clean (9.5); maintainer phase confirm | AI 9h \| Human 1h |
-| 10 | Perception (analytics) | GA4 + Search Console + Cloudflare Web Analytics live behind `features.analytics`; signal fetchers ported; dashboard analytics panels | 10.1 · 10.2 · 10.3 | Dashboard renders real traffic/search data from a fetch run, zero analytics IDs in `src/` outside place.config; tag released; instance #1 adopts clean (10.3); maintainer phase confirm | AI 5h \| Human 1.5h |
+| 10 | Perception (analytics) | GA4 + Search Console + Cloudflare Web Analytics live behind `features.analytics`; signal fetchers ported; dashboard analytics panels | 10.1 · 10.2a · 10.2b · 10.3 | Dashboard renders real traffic/search data from a fetch run, zero analytics IDs in `src/` outside place.config; tag released; instance #1 adopts clean (10.3); maintainer phase confirm | AI 9.25h \| Human 1.75h |
 | 11 | Autonomous routines | **DEFERRED — unscheduled (2026-08-12 amendment, D1); 11.2 pulled forward to 9.4 (D2).** ROUTINE organ activated: routine contract + `/schedule` skill; maintainer (content PR review + link/health audits); feedback-triage; data-refresh; trend-discovery; social-publish; rewrite | 11.1 · 11.3-11.9 | Two routines live >= 1 week shipping only via PRs, zero direct pushes to main; tag released; instance #1 adopts clean (11.9); maintainer phase confirm | AI 15.5h \| Human 1.25h |
 
 **Exit-gate shape (uniform for phases 6-11).** Every `Exit gate` cell above states the same
@@ -47,10 +47,10 @@ property. Those packets execute in the instance repository; the tag they adopt i
 `sekai-kb` at verify of the phase's last framework task.
 
 **Totals for these phases:** the active scope is phases 6, 7, 9, and 10 —
-**AI ≈ 48.75h | Human ≈ 8h** (6: 20.25/3, 7: 14.5/2.5, 9: 9/1, 10: 5/1.5). Phases 8 and 11
+**AI ≈ 53h | Human ≈ 8.25h** (6: 20.25/3, 7: 14.5/2.5, 9: 9/1, 10: 9.25/1.75). Phases 8 and 11
 are deferred and unscheduled (2026-08-12 amendment, D1), carrying **AI ≈ 20.5h | Human ≈
 1.75h** they will cost whenever a maintainer schedules them (8: 5/0.5, 11: 15.5/1.25, the
-latter reduced by 11.2's move to 9.4). Everything sums to AI ≈ 69.25h | Human ≈ 9.75h across
+latter reduced by 11.2's move to 9.4). Everything sums to AI ≈ 73.5h | Human ≈ 10h across
 all six phases. Phase 6's numbers are the 2026-07-29 planning amendment's as revised by the
 three later Phase 6 amendments, not the original block estimates; phases 7, 8, 10, and 11
 gained a terminal adoption packet in the 2026-08-04 exit-gate amendment; Phase 7's are the
@@ -427,6 +427,51 @@ and converting 9.3 without fixing them would have produced a packet built on a f
   0.5h for D3's artifact move and the `workers/lib/` extraction, 9.4 brings 1.75h from 11.2,
   and 9.5 adds 0.75h. Phase 11 drops to AI ≈ 15.5h by losing 11.2. The totals paragraph above
   is re-summed from the per-phase subtotals.
+
+---
+
+## Phase 10 planning amendment — approved 2026-08-15
+
+Records the architecture decision and `/dev:plan` conversion decisions for Phase 10. The
+Phase 10 blocks below carry them inline; ADR 012 records the contested delivery choice.
+
+- **D1 — analytics is an ephemeral production-build projection, not committed data.** The
+  original block writes `src/data/analytics/*.json`, but `.gitignore` excludes all of
+  `src/data/` and the Pages workflow builds from a clean checkout. A local fetch could never
+  reach the deployed dashboard. The selected contract runs `npm run fetch:analytics` in the
+  production build job before Astro, only on a push to `main`, and consumes the files in that
+  same job. No snapshot enters git.
+- **D2 — 10.2 splits into 10.2a and 10.2b.** Three provider clients plus normalization and
+  API error handling are one independently testable concern; GitHub Actions credential
+  gating plus dashboard rendering are another. The original M estimate put three external
+  APIs, CI security, and a user-facing dashboard into 3h including review. That estimate was
+  false, and a single packet would not converge in review.
+- **D3 — public collection ids and private fetch inputs are separate.** The absent-safe
+  optional config block is `analytics {ga4MeasurementId?,
+  cloudflareWebAnalyticsToken?}`. It contains the two browser-visible ids only. Fetch inputs
+  remain environment data: `GA4_PROPERTY_ID`, `SC_SITE_URL`,
+  `GOOGLE_APPLICATION_CREDENTIALS` locally, `GOOGLE_SERVICE_ACCOUNT_JSON` in Actions,
+  `CF_ZONE_ID`, and `CF_API_TOKEN`. Generated JSON and HTML carry none of those values.
+- **D4 — the normalized schemas and partial-source behavior are contract, not dashboard
+  improvisation.** SPEC §Analytics freezes the three versioned JSON shapes. Fetchers validate
+  and atomically replace one source file each; one source failure does not erase another
+  source's valid result, but the explicit command exits nonzero when any source fails. The
+  dashboard renders a named unavailable state per missing/invalid source and never converts
+  an API failure into zero traffic.
+- **D5 — production availability survives analytics failure.** A repository with no Actions
+  credentials skips the fetch green. An incomplete credential set or provider failure stays
+  visible in the workflow, while `npm run build` proceeds with whatever valid source files
+  exist. The credentialed step never runs on `pull_request`. Deferred task 11.5 is amended
+  from a data-only PR, impossible for ignored files, to a scheduled rebuild/deploy of the
+  current verified `main` SHA.
+- **D6 — the v1 scripts are port sources, not contracts.** The packet records their local
+  paths. The port removes place identity, multilingual aggregation, home-directory cache and
+  virtualenv management, dated-history files, and hand-maintained dashboard merging. Current
+  provider APIs are revalidated at execution; Python dependencies are added through uv.
+- **Estimates:** Phase 10 becomes AI ≈ 9.25h | Human ≈ 1.75h (was AI 5h | Human 1.5h).
+  10.1 stays 1.25h AI; 10.2a is 4.25h, 10.2b is 3h, and 10.3 is 0.75h. Human setup and live
+  verification remain 1.5h; 10.2b adds 0.25h for the dashboard's desktop/mobile visual
+  review. The totals paragraph above is re-summed from the per-phase subtotals.
 
 ---
 
@@ -888,48 +933,96 @@ _Phase 9 subtotal: AI 9h | Human 1h_
   Effort: S | Model: Opus | Depends: a live domain; scheduled post-9
   Est: AI 1h + 0.25h review | Human 0.5h (create GA4 property, verify Search Console,
     enable CF Web Analytics)
+  Decision: browser-visible ids live in the absent-safe optional config block
+    analytics {ga4MeasurementId?, cloudflareWebAnalyticsToken?}; fetch credentials and
+    account-scoped API identifiers do not (2026-08-15 amendment, D3).
   Steps:
     1. Cloudflare Web Analytics beacon + GA4 gtag injected by HeadInlineScripts only when
-       features.analytics is true; place.config gains analytics IDs (absent-safe schema
-       extension, init-wizard prompt tracked).
-    2. Runbook gains account-setup steps: GA4 property, Search Console verification,
-       CF Web Analytics.
+       features.analytics is true and that provider's own id is non-empty. The two
+       providers gate independently; missing analytics or features.analytics injects none.
+    2. Add the optional analytics block to the single PlaceConfig declaration plus two
+       init-wizard prompt rows. The wizard remains the single config writer and
+       place-config:check remains the drift gate.
+    3. Runbook gains account-setup steps: GA4 property and web stream, Search Console
+       domain verification, CF Web Analytics in manual-snippet mode so automatic injection
+       cannot duplicate the committed beacon.
   Acceptance: beacons fire on the live site with the flag on, absent with it off; zero
-    analytics IDs in src/ outside place.config
-  Downstream: 10.2, 11.5
-[10.2] Signal fetchers + dashboard analytics panels
-  Effort: M | Model: Opus | Depends: 10.1, quality tooling
-  Est: AI 2.5h + 0.5h review | Human 0.5h (API credentials/secrets)
+    analytics IDs in src/ outside place.config; each provider remains absent when only its
+    own id is missing
+  Downstream: 10.2a, 10.3, 11.5
+[10.2a] Signal fetchers + normalized analytics schemas
+  Effort: M/L | Model: Opus | Depends: 10.1, quality tooling
+  Est: AI 3.5h + 0.75h review | Human 0.5h (API credentials/secrets)
+  Decision: src/data/analytics is ignored derived output consumed by the build, never a
+    cache history or commit surface (2026-08-15 amendment, D1). SPEC §Analytics owns the
+    three schemaVersion:1 payloads and the strict/atomic error contract (D4).
   Steps:
     1. Port fetch-ga4.py / fetch-search-console.py / fetch-cloudflare.py from the v1
-       archive (the named trigger has fired), parameterized by config; emit
-       src/data/analytics/*.json behind `npm run fetch:analytics`.
-    2. Dashboard gains traffic/search panels (Chart.js per SPEC `Stack` only if needed);
-       build stays green when the JSONs are absent (graceful degradation).
-    3. Credentials via local env / Actions secrets, documented in the runbook.
-  Acceptance: `npm run fetch:analytics` refreshes the JSONs and the dashboard renders
-    them; clean build without credentials
+       archive as sources, not verbatim implementations: remove place identity,
+       multilingual branches, home-directory cache/venv management, dated history, and
+       dashboard-file merging. Revalidate each current provider API.
+    2. Emit ga4.json, search-console.json, and cloudflare.json behind
+       `npm run fetch:analytics`, with the exact normalized schemas in SPEC §Analytics.
+       Write atomically; validate numeric types and required fields before replace.
+    3. Run providers independently and return nonzero after all finish if any failed. A
+       provider failure leaves no malformed file and is never represented as zero traffic.
+    4. Add Python SDK dependencies through uv and a network-free fixture suite covering all
+       three success shapes, invalid/missing API fields, missing credentials, redaction,
+       atomic failure, and partial-source completion.
+    5. Document local environment inputs and Actions secret inputs in the runbook.
+  Acceptance: `npm run fetch:analytics` refreshes all three schema-valid JSON files from
+    fixture APIs; the network-free suite proves every error/redaction class; an explicit
+    credential-absent fetch fails by name; `npm run build` still passes with the directory
+    absent
+  Downstream: 10.2b
+[10.2b] Production-build analytics delivery + dashboard panels
+  Effort: M | Model: Opus | Depends: 10.2a
+  Est: AI 2.5h + 0.5h review | Human 0.25h (desktop/mobile dashboard visual review)
+  Decision: fetch ephemerally in the production Pages build of main (2026-08-15 amendment,
+    D1/D5). No credentialed analytics step runs on pull_request and no JSON is committed.
+  Steps:
+    1. Add a guarded pre-build analytics step to deploy.yml: push to main only; a complete
+       credential set runs 10.2a before Astro; no credentials skips green; an incomplete set
+       or provider failure is visible while the site build continues.
+    2. Dashboard gains GA4 traffic, Search Console search-performance, and Cloudflare edge-
+       traffic panels. Each shows its own period and fetchedAt. Prefer static cards/lists;
+       add Chart.js only if a chart materially improves the selected metric.
+    3. Hide the analytics section when features.analytics is false. With it true, render one
+       named unavailable state per missing/invalid source while preserving the other source
+       panels and the existing article-health dashboard.
+    4. Extend the dashboard postbuild check and add a workflow contract test for no PR
+       credential path, complete/missing/partial secret gates, fetch-before-build ordering,
+       ignored output, and absence of planted secret/account values from JSON and dist/.
+  Acceptance: a fixture-backed production-build simulation fetches then renders all three
+    panels; each missing/invalid source degrades independently; PR and credential-absent
+    builds are green and never run a credentialed step; no secret/account identifier reaches
+    generated JSON or rendered HTML; the dashboard is readable without overflow at desktop
+    and mobile widths
   Downstream: 10.3, 11.5, 11.6
 
 [10.3] Phase 10 exit gate: ship the tag, adopt it in the instance, go live
-  Effort: S | Model: Sonnet | Depends: 10.1, 10.2
+  Effort: S | Model: Sonnet | Depends: 10.1, 10.2a, 10.2b
   Est: AI 0.5h + 0.25h review | Human 0.5h (GA4 property, Search Console verification,
     CF Web Analytics token, fetcher credentials as Actions secrets)
   Execution repo: the instance (every commit); the tag is cut in sekai-kb at verify of the
     last framework task.
   Steps:
-    1. Cut the sekai-kb release covering 10.1-10.2, with an upgrade note for the
-       place.config analytics IDs (absent-safe: a missing key means analytics stays off).
+    1. Cut the sekai-kb release covering 10.1-10.2b, with an upgrade note for the optional
+       analytics config block and production-build fetch opt-in (absent-safe: a missing
+       block means analytics stays off and credential-absent builds stay green).
     2. Adopt it with /sekai-upgrade (real merge commit, instance-owned files untouched,
        instance CI green, FRAMEWORK-VERSION bumped after verification).
-    3. Enable features.analytics, add the instance's own IDs, and register the fetcher
-       credentials as Actions secrets.
+    3. Enable features.analytics, add the instance's own browser ids, and register
+       GA4_PROPERTY_ID, SC_SITE_URL, GOOGLE_SERVICE_ACCOUNT_JSON, CF_ZONE_ID, and
+       CF_API_TOKEN as Actions secrets.
   Acceptance: beacons fire on the live instance with the flag on and are absent with it
-    off; a real fetch run populates the dashboard panels; maintainer phase confirm
+    off; the production workflow fetches real data and the deployed dashboard shows all
+    three source panels with their periods; no configured secret/account value appears in
+    the workflow artifact or site; maintainer phase confirm
   Downstream: Phase 11 entry
 ```
 
-_Phase 10 subtotal: AI 5h | Human 1.5h_
+_Phase 10 subtotal: AI 9.25h | Human 1.75h_
 
 **Phase 11: Autonomous routines — DEFERRED, unscheduled**
 
@@ -983,15 +1076,19 @@ a manually-deployed snapshot. Scheduling Phase 8 is what unblocks the rest.
   Acceptance: a seeded D1 row becomes a GitHub issue on the next scheduled run
   Downstream: none
 [11.5] Data-refresh routine
-  Effort: S | Model: Opus | Depends: 11.1, 10.2
+  Effort: S | Model: Opus | Depends: 11.1, 10.2b
   Est: AI 1h + 0.25h review
+  Decision: ADR 012 makes analytics JSON an ignored production-build projection. A
+    data-only PR cannot carry it and would be empty, so the routine schedules a rebuild of
+    the current verified main SHA instead; it changes no branch and pushes nothing.
   Steps:
-    1. Register the 10.2 fetchers as a gh-actions routine (daily): fetch → data-only PR
-       with auto-merge-on-green label → dashboard freshens on deploy.
-  Acceptance: a scheduled run lands a merged data PR and the dashboard shows the new date
+    1. Register the 10.2a fetchers plus 10.2b build/deploy path as a gh-actions routine
+       (daily): check out current main SHA → fetch → build → deploy that same SHA.
+  Acceptance: a scheduled run changes no branch, deploys from the current main SHA, and the
+    dashboard shows the new source timestamps
   Downstream: 11.6
 [11.6] Trend-discovery routine (news-lens for the instance)
-  Effort: M | Model: Opus | Depends: 11.1; 10.2 enriches, not required
+  Effort: M | Model: Opus | Depends: 11.1; 10.2b enriches, not required
   Est: AI 2h + 0.5h review | Human 0.25h (approve first proposals)
   Steps:
     1. Weekly claude-cron routine: scan configured local sources (the source list is a

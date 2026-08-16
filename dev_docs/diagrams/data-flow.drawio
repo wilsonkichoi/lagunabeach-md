@@ -155,7 +155,7 @@
             <mxGeometry height="73" width="281" x="163" y="168" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="analytics GA4 / Search Console&#xa;features.analytics, port on trigger" mermaidId="n:ga" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="analytics GA4 / Search Console&#xa;features.analytics, port on trigger" id="19">
+        <UserObject label="analytics GA4 / Search Console / Cloudflare&#xa;main-build fetch → ignored src/data/analytics" mermaidId="n:ga" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="analytics GA4 / Search Console / Cloudflare&#xa;main-build fetch → ignored src/data/analytics" id="19">
           <mxCell parent="16" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
             <mxGeometry height="73" width="305" x="35" y="45" as="geometry" />
           </mxCell>

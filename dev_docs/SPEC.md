@@ -474,12 +474,71 @@ artifact, and task 9.4 is what keeps that artifact fresh.
 
 ### Analytics (`features.analytics`, Phase 10)
 
-Full stack: GA4 + Google Search Console + Cloudflare Web Analytics (ADR 005). Beacon/gtag
-injected by HeadInlineScripts only when the flag is on; IDs live in `place.config.ts`,
-never in `src/`. Fetchers emit `src/data/analytics/*.json` behind
-`npm run fetch:analytics`; the dashboard renders panels from them and the build stays
-green when they are absent. Credentials via local env / Actions secrets, documented in
-the runbook.
+Full stack: GA4 + Google Search Console + Cloudflare Web Analytics (ADR 005, delivery
+contract amended by ADR 012). Browser collection is independently gated per provider:
+`features.analytics` must be true, then `analytics.ga4MeasurementId?` controls the Google
+tag and `analytics.cloudflareWebAnalyticsToken?` controls the Cloudflare beacon.
+`HeadInlineScripts` injects neither provider when the feature flag is false or missing, and
+injects only a provider whose own non-empty id exists. The optional `analytics` block and
+both keys are absent-safe and live in `place.config.ts`, never in `src/`.
+
+`npm run fetch:analytics` runs three Python fetchers through uv and writes these ignored,
+derived files atomically:
+
+```text
+src/data/analytics/ga4.json
+src/data/analytics/search-console.json
+src/data/analytics/cloudflare.json
+```
+
+Every file carries `schemaVersion: 1`, `source`, `fetchedAt`, and
+`period {start, end, days}`. Provider payloads are fixed as follows:
+
+```text
+ga4.json
+  summary {activeUsers, newUsers, pageViews, sessions,
+           averageSessionDurationSeconds, engagementRate}
+  topPages[] {path, title, views, activeUsers}
+  trafficSources[] {sourceMedium, sessions, activeUsers}
+
+search-console.json
+  summary {clicks, impressions, ctr, averagePosition}
+  topQueries[] {query, clicks, impressions, ctr, position}
+  topPages[] {url, clicks, impressions, ctr, position}
+
+cloudflare.json
+  summary {requests, pageViews, visits, bytes, threats}
+  topCountries[] {country, requests, threats, bytes}
+  statusCodes[] {status, requests}
+```
+
+Values are JSON numbers, never numeric strings. Arrays are ordered descending by their
+primary volume metric and capped by the fetcher rather than by the dashboard. A fetcher
+validates the provider response before an atomic replace and exits nonzero without leaving a
+malformed or half-written source file. The orchestrator runs all three providers so one
+failure cannot prevent valid outputs from the others, then exits nonzero if any provider
+failed. It never converts an error or a missing response into zero traffic.
+
+API-only identifiers and credentials are environment data:
+`GA4_PROPERTY_ID`, `SC_SITE_URL`, `GOOGLE_APPLICATION_CREDENTIALS` locally,
+`GOOGLE_SERVICE_ACCOUNT_JSON` in Actions, `CF_ZONE_ID`, and `CF_API_TOKEN`. Generated JSON
+and rendered HTML contain none of those values. The Python SDK dependencies live in
+`pyproject.toml`/`uv.lock`; no fetcher creates, locates, or re-executes into a user-global
+virtualenv.
+
+On a push to `main`, the Pages build job runs the fetch before `npm run build` only when the
+complete Actions credential set exists. It never runs the credentialed step for
+`pull_request`. No credentials means an explicit green skip. An incomplete set or provider
+failure is visible in the workflow while the site build continues against the valid source
+files, if any. The files remain under ignored `src/data/`; they are never committed or
+uploaded separately.
+
+The dashboard renders one source panel each for GA4 traffic, Search Console search
+performance, and Cloudflare edge traffic. Each panel shows its own period and `fetchedAt`.
+When `features.analytics` is false, the analytics section is absent. When it is true, a
+missing or invalid source file produces a named unavailable state for that source while the
+other panels and the existing article-health dashboard continue to render. Chart.js remains
+optional; static cards, lists, and tables are the default.
 
 ### Autonomous routines (Phase 11 — DEFERRED, unscheduled)
 
@@ -504,6 +563,11 @@ PR discipline replacing direct push): sync main → run skill → ship via PR pe
 ship-mode (`auto-merge-data` for data-only artifacts, `human-merge` for content) → finale
 writes the MEMORY organ. Kill switch: disabling the routine organ in
 `semiont/config.json` stops all routines.
+
+ADR 012 amends the analytics half of that substrate. Analytics JSON is an ignored build
+projection, so a refresh cannot be a data-only PR. Phase 10 fetches during each production
+build; if Phase 11 is scheduled, task 11.5 adds a scheduled rebuild/deploy of the current
+verified `main` SHA. The run changes no repository content and never pushes a branch.
 
 ## Risk controls
 
@@ -582,12 +646,25 @@ GitHub Pages via Actions + Cloudflare DNS/CDN. Workers deploy via `wrangler` fro
   not exist yet: a new check that blocks an adopter must first show the harm.
 - **New `place.config` keys must be absent-safe**: a missing key means the feature is
   off; framework upgrades never require config surgery on existing instances.
+- **Analytics credentials never enter a pull-request job or a generated artifact** (ADR
+  012): the credentialed fetch runs only on a push to `main`; normalized JSON and rendered
+  HTML contain no API token, service-account field, GA4 property id, Search Console property
+  URL, or Cloudflare zone id. Missing credentials leave the site build green and the
+  corresponding dashboard source explicitly unavailable.
 - **Framework maintainer docs never ship to an adopter**: `npm run init` removes
   `dev_docs/PRD.md`, `dev_docs/SPEC.md`, `dev_docs/ROADMAP.md`, and `dev_docs/adr/`, and no file that
   survives adoption may link into them (ADR 008;
   `scripts/ci/check-framework-docs.mjs`).
 
 ## Change log
+
+- **2026-08-15, ADR 012 Phase 10 analytics delivery:** selected an ephemeral production-build
+  fetch over committed analytics snapshots. §Analytics now freezes the two public config
+  keys, six environment inputs, three versioned JSON schemas, atomic/error behavior,
+  main-only credential boundary, and per-source dashboard degradation. §Autonomous routines
+  amends deferred task 11.5 from a data-only PR to a scheduled rebuild of the verified main
+  SHA. §Negative requirements gains the credential and redaction boundary. The ROADMAP splits
+  10.2 into independently verifiable fetcher and delivery/rendering packets.
 
 - **2026-08-12, ADR 011 phases 8 and 11 deferred:** the execution order becomes 6 → 7 → 9 →
   10 with nothing scheduled after it. §Extension capabilities marks the Phase 11 subsection
