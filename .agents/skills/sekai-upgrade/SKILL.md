@@ -4,7 +4,9 @@ description: |
   Pull a framework release into this instance. Adds/points the `framework`
   remote at sekai-kb, fetches tags, merges a requested `sekai-kb-vX.Y.Z` release
   tag (never framework `main`), build-verifies, walks any conflicts WITH the user
-  alongside that version's CHANGELOG entry, and bumps `FRAMEWORK-VERSION`.
+  alongside that version's CHANGELOG entry, then pushes the merged branch and
+  bumps `FRAMEWORK-VERSION` only after the instance's own CI reports green on that
+  exact head.
   Instance-owned files (`merge=ours` in `.gitattributes`) keep their content, and
   an intentionally absent `.agent-toolkit/` tree stays absent.
   TRIGGER when: user says "upgrade", "/sekai-upgrade", "update the framework", "pull the
@@ -30,6 +32,23 @@ The identical flow as copy-pasteable git for non-AI users is
 `docs/runbook/UPGRADE.md`. This skill orchestrates that runbook; keep the two in
 sync (drift = decay).
 
+## The verified sequence
+
+```text
+fetch tags → capture adopter package state → sweep retired artifact paths → merge the tag → reconcile mixed-ownership manifests → conflict report → build-verify → push the merged branch → read the CI conclusion for that head → bump FRAMEWORK-VERSION
+```
+
+This line is the machine source for the same sequence in `docs/runbook/UPGRADE.md`
+and in the framework's engineering spec (which lives with the framework's own
+decision records in the
+[sekai-kb repository](https://github.com/wilsonkichoi/sekai-kb), not in an adopted
+instance): `npm run upgrade-sequence:check` derives the sequence from here,
+asserts that every stage below appears in that order, and fails when either
+document describes a different upgrade. The last three stages are the load-bearing
+change — the marker records an **adoption**, and an adoption is only real once the
+merged tree passes the instance's own gates, which `npm run build` alone is a strict
+subset of.
+
 ## 0. Preflight
 
 Run from the instance repo root:
@@ -51,8 +70,20 @@ npm run version:check
   "framework upgrade clobbered my `place.config.ts`" report.
 - **`.sekai-template` present** → this is the framework itself, not an instance.
   Stop; `/sekai-upgrade` is an instance operation.
-- **Working tree not clean** → stop and tell the user to commit or stash first. A
-  merge onto a dirty tree is unrecoverable-in-place.
+- **Working tree not clean** → a merge onto a dirty tree is unrecoverable-in-place, so
+  this must be settled before step 4 — but **do not settle it here, and do not judge any
+  path by eye.** Some dirty paths are the user's work and some are an **untracked derived
+  artifact at a path a past release retired**, which is not work to commit or stash:
+  nothing writes it, nothing reads it, and nothing ignores it any more. Telling those
+  apart is not a judgment call and must not become one — the list of retired paths lives
+  inside the target release's helper, which **step 3d** bootstraps and this step cannot
+  reach, because the framework remote is not even fetched until step 1. So: record every
+  path `git status --porcelain` printed, tell the user the tree is dirty and that step 3d
+  will classify it, and carry the list there. Delete nothing by hand.
+  - Warn the user about the two remedies that look obvious and are wrong for a retired
+    artifact: committing it adds an unignored derived file to their repository, and
+    `git stash` without `-u` does not touch an untracked file at all, so the tree stays
+    dirty.
 - Note `VERSION` as the adopter's own release and `FRAMEWORK-VERSION` as the
   framework "from" version. `/sekai-upgrade` changes only the latter.
 
@@ -77,6 +108,16 @@ section from the framework CHANGELOG and show it to the user, in particular the
 # Prints the target version's entry only (stops before the next `## [` heading):
 git show sekai-kb-vX.Y.Z:CHANGELOG.md | awk '/^## \[X\.Y\.Z\]/{p=1;print;next} p&&/^## \[/{exit} p'
 ```
+
+**If the Upgrade note hands over commands, run them at the point it names.** A release
+that adds a step to the upgrade cannot perform that step on its own adoption: this
+skill file is the one that shipped with the release being *left*, the target's rewritten
+copy arrives with the merge in step 4, and a running invocation does not reload itself.
+The target's Upgrade note is the only text of the new release read before that, so a new
+step is handed over there as a bootstrap-from-tag block. Two caveats, both of which the
+note itself states: skip a block whose step this skill already performs (a note written
+for an older skill than the one running), and never invent a command the note does not
+carry.
 
 If the Upgrade note names a new `place.config` key, remember: new keys default to
 feature-off when absent (the framework SPEC's §Negative requirements, "New
@@ -164,7 +205,8 @@ after the merge the framework-owned wizard is the tag's.
 - **stripped** (absent) → the absence is preserved through the merge, exactly like
   dev-plugin state.
 
-Capture the adopter-owned fields from the mixed-ownership npm manifests before
+**Capture adopter package state.** Capture the adopter-owned fields from the
+mixed-ownership npm manifests before
 the merge, together with the pre-merge `FRAMEWORK-VERSION`. Sekai owns scripts and
 dependencies; the adopter owns package name, description, privacy, and the
 `VERSION` mirror. `FRAMEWORK-VERSION` rides the same capture because `merge=ours`
@@ -210,8 +252,9 @@ step's input, not a duplicate of it. What it adds over the post-merge conflict l
 everything git resolves silently: a file the instance changed that the framework did
 not is kept without a conflict, and the user never learns they are carrying it.
 
-- It reads the merge base, so it runs **before** the merge, on the clean tree
-  preflight already required.
+- It reads the merge base, so it runs **before** the merge. It reads committed state
+  only, so a tree still carrying the dirty paths step 0 recorded — step 3d is what
+  settles those, and it runs after this — does not affect its answer.
 - It **writes nothing** — no state file, no staged path, no side taken. There is no
   reconcile step for it, and it is never run after the merge.
 - Exit 0 with a "no merge base" report is the correct answer on the first
@@ -219,6 +262,48 @@ not is kept without a conflict, and the user never learns they are carrying it.
   is none yet. Do not read it as a clean bill of health, and do not work around it.
 - Exit 0 with "no framework-owned file ... differs" means the instance carries no
   local edit in those trees; say so and move on.
+
+## 3d. Sweep retired artifact paths — the last thing before merging
+
+A release that MOVES a derived artifact moves its `.gitignore` line with it. An
+instance that produced the artifact before that upgrade is then left with an
+untracked copy at the old path that nothing ignores, nothing reads, and nothing
+regenerates. That is not clutter: the corpus artifact carries every article's title,
+URL, and body text, and both machine gates skip it by **basename** — so at the
+retired path it is unignored, unreviewed content sitting in a code tree. It also
+makes `git status --porcelain` non-empty, which is what step 0 records and defers to
+here — and what a v1.1.5-or-older step 0 stops the whole upgrade on — so it compounds
+until something removes it.
+
+```bash
+# Same tag-first rule as every helper above: the release being merged is the
+# authority on which paths it has retired.
+STALE_HELPER="$(git rev-parse --git-dir)/sekai-stale-artifacts.mjs"
+git show sekai-kb-vX.Y.Z:scripts/upgrade/stale-artifacts.mjs > "$STALE_HELPER"
+node "$STALE_HELPER" sweep
+```
+
+- A path is removed only when the file is **untracked** and its bytes really are
+  the artifact that release retired. Both conditions, every time.
+- Anything else at that path — a file the instance tracked, or one whose bytes are
+  something else — is **reported by path and left alone**. Show the report to the
+  user; an upgrade that deletes what it cannot name is a worse failure than the one
+  it is fixing.
+- Releases before v1.1.6 did not ship this helper, so `git show` fails loudly on
+  such a target. That is the correct answer: there was no retired path to sweep.
+
+**This is where step 0's dirty tree is settled**, and it is settled mechanically —
+against the release's own list of retired paths, never by eye:
+
+```bash
+git status --porcelain
+```
+
+Empty means every path step 0 recorded was a retired artifact and the helper removed it;
+the merge can proceed. Anything still listed is something this release does not
+recognize, so it is the user's work and their call: **stop here** and hand them the list.
+That stop is the dirty-tree stop step 0 deferred, now made with the information step 0
+did not have.
 
 ## 4. Merge the tag (never `main`)
 
@@ -280,7 +365,8 @@ node "$PACKAGE_HELPER" reconcile "$PACKAGE_STATE"
 - A nonzero exit is a stop, not a warning. The diagnostic prints the attribute value
   and driver state it observed per failing path, and prescribes only the repairs
   those observations support — read it rather than assuming which one applies.
-- Package reconciliation takes the incoming framework manifests, then restores
+- **Reconcile mixed-ownership manifests.** Package reconciliation takes the
+  incoming framework manifests, then restores
   the captured adopter name, description, privacy flag, and `VERSION` mirror. It
   resolves recurring version-line conflicts without discarding new framework
   scripts or dependencies. It also puts the pre-merge `FRAMEWORK-VERSION` back
@@ -346,6 +432,12 @@ resolve it now — do not commit a red merge. If the merge is still in progress
 git commit --no-edit
 ```
 
+This is a **fast local filter, not the verification the adoption is recorded on**.
+`npm run build` is a strict subset of what the instance's CI runs: the gates that
+live only in the workflow — contract checks, worker suites, the article-health
+profile — are exactly the ones a framework merge is most likely to trip, and they
+are unreachable from here. Step 9 is where the adoption is verified.
+
 ## 8. Reconcile instance-owned starter files (conversational diff)
 
 `merge=ours` is deliberately blunt: it keeps the instance's version of every
@@ -390,6 +482,9 @@ default). Apply only what the user approves, then stage it:
 git add <starter-file>   # only the files the user chose to update
 ```
 
+Staged, not committed: step 9 commits it, because it has to be part of the tree
+that gets pushed and verified.
+
 Note: `AGENTS.md` is also where the dev-plugin reference line lives, so never
 adopt the framework's dev-plugin block into a **stripped** instance while
 reconciling this file — steps 3 and 5 exist to keep that state absent, and
@@ -397,22 +492,101 @@ re-adding the reference here would put the instance in the inconsistent state
 that stops the next upgrade. `.agent-toolkit/**` itself is not a starter file and
 is never reconciled conversationally; step 5 already settled it.
 
-## 9. Bump FRAMEWORK-VERSION
+## 9. Push the merged branch, read the CI conclusion for that head, bump FRAMEWORK-VERSION
 
-Record the version just adopted (the tag's `vX.Y.Z`, matching the wizard's
-`v`-prefixed form). This is the **only** step that moves `FRAMEWORK-VERSION`, and
-it runs after step 7 verified the merged tree. Assert the result rather than
-assuming the write took effect — until this point the file still holds the old
-value that step 5 restored, so an unnoticed failure here leaves the instance
-reporting a framework version it never adopted. Fold any starter-file updates
-approved in step 8 into this commit (or a preceding one):
+`FRAMEWORK-VERSION` records which framework release this instance has **adopted**,
+and an adoption is only real once the merged tree passes the instance's own gates.
+Commit every change steps 5-8 produced first — starter-file updates included — so
+the head that gets verified is the whole merged tree and not a part of it. Then push
+it, and let the helper read the conclusion GitHub recorded for that exact commit:
 
 ```bash
-printf 'vX.Y.Z\n' > FRAMEWORK-VERSION
-test "$(cat FRAMEWORK-VERSION)" = "vX.Y.Z" \
-  || { echo "STOP: FRAMEWORK-VERSION is not vX.Y.Z after the bump"; exit 1; }
-git add FRAMEWORK-VERSION && git commit -m "chore: FRAMEWORK-VERSION -> vX.Y.Z"
+# Anything step 8 staged is committed here, BEFORE the push — it is part of the
+# tree being verified. Skip this line when nothing is staged.
+git diff --cached --quiet || git commit -m "chore: reconcile starter files for sekai-kb-vX.Y.Z"
+# No `origin` at all? There is nothing to push and no run to read, but the sequence
+# must still REACH the helper: it is the only thing that records an adoption, and its
+# override is the only way to record one nothing verified. So do not stop here.
+# An `if`, not `&&`/`||`: chained that way a FAILED push (rejected non-fast-forward, a
+# protected branch) would fall through to the same message and misreport itself as a
+# missing remote. A push that fails is a hard stop; only a missing remote is not.
+if git remote get-url origin >/dev/null 2>&1; then
+  git push origin HEAD
+else
+  echo "no origin remote: nothing pushed; the bump below will exit 3 -- see --override"
+fi
+
+# Same tag-first rule as every helper above.
+BUMP_HELPER="$(git rev-parse --git-dir)/sekai-ci-verified-bump.mjs"
+git show sekai-kb-vX.Y.Z:scripts/upgrade/ci-verified-bump.mjs > "$BUMP_HELPER"
+node "$BUMP_HELPER" bump --target sekai-kb-vX.Y.Z
 ```
+
+This is the **only** step that moves `FRAMEWORK-VERSION`; until it runs the file
+still holds the old value step 5 restored, and that is the contract rather than a
+bug. What the helper does with each answer:
+
+- **Green** → writes the marker, asserts the read-back, and commits it directly on
+  the verified head. If `HEAD` moved while the conclusion was being read, it writes
+  nothing and says so: the marker must describe the tree that was actually verified,
+  which is also why the conclusion is resolved by head SHA and never by branch name.
+- **Not green (exit 1)** → names the failing check and leaves the marker at the
+  pre-merge value step 5 restored. Fix the failure, push again, re-run this step
+  against the new head. A **workflow** that failed counts here even when it produced
+  no check run at all: a run that fails at startup — invalid workflow YAML, which is
+  what a badly resolved conflict under `.github/workflows/` produces on exactly this
+  merge — never creates a job, and on an instance it is usually the *only* run for
+  the SHA, because `corpus-refresh.yml` is filtered on `knowledge/**` and the merge
+  does not touch it. That answer is red, not unreadable, so `--override` does not
+  reach it.
+- **The tree is not in a verifiable state (also exit 1)** → exit 1 is not only "CI
+  said no". It is also every shape where there is nothing CI could have verified, and
+  none of these names a failing check: a merge still in progress, unmerged paths left
+  from the conflict walk, `HEAD` moving while the conclusion was read, and — after a
+  **green** conclusion — a bump commit your own `pre-commit` hook refused, since the
+  template ships one and it runs on a tree this step has already written and staged.
+  Each prints its own directive, so read the message rather than the exit code alone.
+  In the refused-commit case the helper restores `FRAMEWORK-VERSION` to its pre-merge
+  bytes *and* its prior index entry first, and says it put them back; if the restore
+  itself failed the message says that instead, and only then does the tree need you.
+  Fix what the hook objected to and re-run this step **without creating a commit** —
+  the conclusion is resolved from whatever `HEAD` is then, so a fix commit makes it a
+  SHA GitHub has never seen, and the step exits 3 at once saying the merge was never
+  pushed. If you do need a commit, push it first and let CI go green on it.
+- **No conclusion readable (exit 3)** → says which case it hit (no remote
+  configured, `gh` unavailable, the API unreachable, GitHub has never seen this SHA
+  so the merge was never pushed, no workflow run and no check run at all — Actions
+  disabled or no workflow triggered — every run concluded without running anything,
+  or a run still in flight past `--timeout-seconds`) and leaves
+  the marker unchanged. **"No run found" is never success**, and neither is a run
+  that was triggered and did nothing. Do not work around this
+  by writing the file by hand: if the user decides to adopt anyway, pass
+  `--override "<reason>"`, which records that reason in the run output and on the
+  commit. Never invent the reason — it is the user's, and it is the whole audit
+  trail for an adoption nothing verified.
+
+**An instance with no `origin`.** Some instances never gain a remote — a private
+clone that deploys by hand, a fork used offline. There is nothing to push and no
+conclusion to read, and that is exit 3, not a failure to route around. The push line
+above is guarded so the sequence still reaches the helper rather than dying at the
+push, and the only way past exit 3 is the reason-bearing override:
+
+```bash
+node "$BUMP_HELPER" bump --target sekai-kb-vX.Y.Z --override "no remote: verified by <what you ran>"
+```
+
+Ask the user what they actually verified and use their words. The reason is the whole
+audit trail for an adoption no CI run stands behind, so a placeholder is worse than
+stopping — it launders an unverified adoption into a recorded one.
+
+Pushing is what triggers that CI run, so this step reaches the network mid-upgrade
+and, on an instance, **deploys** (`DEPLOY.md` §CI). Say so before running it. That
+is the accepted cost of having no staging tier: an instance has local and
+production sharing one build, and verifying against the tier that exists beats
+recording an adoption nothing checked.
+
+The bump commit itself is not pushed by this step — leave that to the user, the
+same way the merge push was theirs to approve.
 
 Do not change `package.json.version` here. It mirrors the adopter's unchanged
 `VERSION`, not `FRAMEWORK-VERSION`.
@@ -424,7 +598,11 @@ Tell the user: the adopted framework version moved from → to, the adopter's
 step 3 and what reconcile did with it, the maintainer-doc split classified in step
 3b and what reconcile removed, kept, or reported for their decision, the
 framework-owned divergences step 3c reported and which of them the merge settled
-silently rather than as a conflict, which files
-(if any) conflicted and how each was resolved, the build result, and any
-Upgrade-note opt-ins they declined (new feature flags left off). Push is theirs to make — on an instance, pushing
-`main` deploys.
+silently rather than as a conflict, what step 3d removed or reported at a retired
+artifact path, which files
+(if any) conflicted and how each was resolved, the local build result, **the CI
+conclusion step 9 read and the head SHA it was read for** (or the override reason,
+if one was recorded), and any
+Upgrade-note opt-ins they declined (new feature flags left off). The bump commit is
+still unpushed: that push is theirs to make — on an instance, pushing `main`
+deploys.

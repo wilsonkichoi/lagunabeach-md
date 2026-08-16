@@ -50,6 +50,17 @@ Read every **Upgrade note** in that entry. It names required runtime changes,
 one-time cleanup, and optional feature keys. A new `place.config.ts` key is
 absent-safe: skipping it leaves the new capability off and does not stop the build.
 
+An Upgrade note may also hand you **commands to run**, and those are not optional
+colour. A release that adds a step to the upgrade cannot perform that step on its own
+adoption: the copy of this runbook and of the skill you are following right now shipped
+with the release you are *leaving*, and the new ones only reach your tree with the
+merge. The target's Upgrade note is the one piece of the new release you read before
+that, so it is where such a step is handed over — bootstrapped from the tag with
+`git show "$TARGET":scripts/upgrade/<helper>.mjs`, exactly like the helpers this runbook
+already runs. Run those blocks at the point the note names. `npm run
+upgrade-sequence:check` in the framework repository fails a release that introduces an
+upgrade helper without one.
+
 ### 3. Apply the tag, with or without an AI CLI
 
 With an agent CLI, invoke the repository skill with the selected tag:
@@ -114,8 +125,10 @@ the absent-safe contract in practice, not permission to omit an Upgrade note.
 ### 6. Verify the recorded framework version
 
 The detailed flow restores the old `FRAMEWORK-VERSION` during the merge and changes
-it only after `npm run build` passes. Read it back, compare it with the selected
-tag, and confirm the tag is an ancestor of the branch:
+it only after **your own CI** has reported green on the merged head you pushed —
+`npm run build` is a fast local filter, not the verification the adoption is
+recorded on. Read the marker back, compare it with the selected tag, and confirm the
+tag is an ancestor of the branch:
 
 ```bash
 test "$(cat FRAMEWORK-VERSION)" = "$TARGET_VERSION" \
@@ -125,6 +138,12 @@ git merge-base --is-ancestor "$TARGET" HEAD
 
 The successful read-back and ancestry check are the upgrade receipt. `VERSION`
 and `package.json.version` remain the adopter release version and do not change.
+
+The verified sequence, in full:
+
+```text
+fetch tags → capture adopter package state → sweep retired artifact paths → merge the tag → reconcile mixed-ownership manifests → conflict report → build-verify → push the merged branch → read the CI conclusion for that head → bump FRAMEWORK-VERSION
+```
 
 ---
 
@@ -291,18 +310,39 @@ comm -13 <(git ls-tree -r --name-only ORIG_HEAD -- knowledge/ | sort) \
   | while read -r f; do git rm -f -- "$f"; done
 ```
 
-Build-verify, finalize, record the version:
+Build-verify locally, finalize, push, and record the version only after CI has
+reported green on the pushed head — the same order as the routine flow below, for
+the same reason:
 
 ```bash
 npm run build
 git commit --no-edit
-# Until this line FRAMEWORK-VERSION still holds the OLD value that step 6 restored.
-# Assert the bump instead of assuming the write took: a silent failure here leaves
-# your instance reporting a framework version it never adopted.
-printf '%s\n' "$TARGET_VERSION" > FRAMEWORK-VERSION
+# No `origin` at all? There is nothing to push and no run to read, but the sequence
+# must still REACH the helper: it is the only thing that records an adoption, and its
+# override is the only way to record one nothing verified. So do not stop here.
+# An `if`, not `&&`/`||`: chained that way a FAILED push (rejected non-fast-forward, a
+# protected branch) would fall through to the same message and misreport itself as a
+# missing remote. A push that fails is a hard stop; only a missing remote is not.
+if git remote get-url origin >/dev/null 2>&1; then
+  git push origin HEAD
+else
+  echo "no origin remote: nothing pushed; the bump below will exit 3 -- see --override"
+fi
+# Until the helper runs, FRAMEWORK-VERSION still holds the OLD value that step 6
+# restored. It writes the marker only on a green conclusion for this exact head SHA,
+# asserts the read-back, and commits it there. Exit 1 = not green (it names the
+# failing check), or the tree is not in a state CI could have verified: a merge still
+# in progress, unmerged paths, HEAD moving mid-read, or -- after a GREEN conclusion --
+# a bump commit your own pre-commit hook refused (the file and its index entry are put
+# back first). Those name no check, so read the message rather than the code alone,
+# and re-run without creating a commit: the conclusion is resolved from HEAD, so a fix
+# commit becomes a SHA GitHub never saw. Exit 3 = no conclusion could be read at all.
+# None of them leaves the marker moved.
+BUMP_HELPER="$(git rev-parse --git-dir)/sekai-ci-verified-bump.mjs"
+git show "$TARGET":scripts/upgrade/ci-verified-bump.mjs > "$BUMP_HELPER"
+node "$BUMP_HELPER" bump --target "$TARGET"
 test "$(cat FRAMEWORK-VERSION)" = "$TARGET_VERSION" \
   || { echo "STOP: FRAMEWORK-VERSION is not $TARGET_VERSION after the bump"; exit 1; }
-git add FRAMEWORK-VERSION && git commit -m "chore: FRAMEWORK-VERSION -> $TARGET_VERSION"
 ```
 
 From here on, upgrades are the routine flow below — no `--allow-unrelated-histories`
@@ -317,7 +357,16 @@ ever again.
 #    it is per-clone, not version-controlled). Harmless to re-run:
 git config merge.ours.driver true
 
-# 1. Working tree clean? (stash or commit first — a merge onto a dirty tree bites.)
+# 1. Working tree clean? A merge onto a dirty tree bites, so this must be settled
+#    before step 5 — but NOT here, and not by eye. Some dirty paths are your work and
+#    some are a derived artifact stranded at a path a past release retired, which is
+#    not work to commit or stash. The list of retired paths lives in the target
+#    release's helper, which step 4e below bootstraps; this step cannot reach it,
+#    because the framework tags are not fetched yet. So: note what this prints, and
+#    carry the list to step 4e, which classifies it. Delete nothing by hand.
+#    Two remedies that look obvious and are wrong for a retired artifact: committing
+#    it adds an unignored derived file to your repository, and `git stash` without -u
+#    does not touch an untracked file at all.
 git status --porcelain
 
 # 2. VERSION is your instance release and never changes here. Pick a framework
@@ -372,6 +421,27 @@ DIVERGENCE_HELPER="$(git rev-parse --git-dir)/sekai-framework-divergence.mjs"
 git show "$TARGET":scripts/upgrade/framework-divergence.mjs > "$DIVERGENCE_HELPER"
 node "$DIVERGENCE_HELPER" report --target "$TARGET"
 
+# 4e. Sweep retired artifact paths. A release that MOVES a derived artifact moves
+#     its .gitignore line with it, so if you built that artifact before the upgrade
+#     you keep an untracked copy at the old path that nothing ignores, nothing
+#     reads, and nothing regenerates. The corpus artifact holds every article's
+#     title, URL, and body text, and both machine gates skip it by BASENAME — so at
+#     the retired path it is unignored, unreviewed content in a code tree, and it is
+#     what step 1 keeps reporting as a dirty path on every later upgrade — and what a
+#     v1.1.5-or-older upgrade stops on outright, before it can reach this sweep.
+#     A path is removed only when the file is untracked AND its bytes really are
+#     that artifact; anything else there is reported by path and left alone.
+STALE_HELPER="$(git rev-parse --git-dir)/sekai-stale-artifacts.mjs"
+git show "$TARGET":scripts/upgrade/stale-artifacts.mjs > "$STALE_HELPER"
+node "$STALE_HELPER" sweep
+
+#    This is where step 1's dirty tree is settled, against the release's own list of
+#    retired paths rather than by eye. Empty means every path step 1 printed was a
+#    retired artifact and the sweep removed it. Anything still listed is something
+#    this release does not recognize, so it is your work and your call — stop and
+#    deal with it before merging.
+git status --porcelain
+
 # 5. Merge the tag (never main). merge=ours keeps your content/config.
 git merge --no-ff "$TARGET" -m "chore: upgrade framework to $TARGET"
 
@@ -408,15 +478,69 @@ git diff --name-only --diff-filter=U
 #    git checkout --ours   -- <file> && git add <file>   # keep yours, knowingly
 #    git commit --no-edit                                # finalize the merge
 
-# 8. Build-verify, then record the newly adopted framework version. Until this
-#    point FRAMEWORK-VERSION still holds the OLD value that step 6 restored — that
-#    is the contract, not a bug. Assert the bump rather than assuming the write
-#    took effect.
+# 8. Build-verify locally. This is a fast filter, NOT the verification the adoption
+#    is recorded on: npm run build is a strict subset of what your CI runs, and the
+#    gates that live only in the workflow are the ones a framework merge is most
+#    likely to trip.
 npm run build
-printf '%s\n' "$TARGET_VERSION" > FRAMEWORK-VERSION
+
+# 9. Push the merged branch, then record the newly adopted framework version — in
+#    that order. Until the bump runs, FRAMEWORK-VERSION still holds the OLD value
+#    step 6 restored; that is the contract, not a bug. Commit anything step 7 or the
+#    starter-file reconcile left staged FIRST, so the head you push is the whole
+#    merged tree.
+#    On an instance, pushing main DEPLOYS (see DEPLOY.md §CI). That is the accepted
+#    cost of having no staging tier: the run this push triggers is the only place
+#    the merged tree is really verified.
+git diff --cached --quiet || git commit -m "chore: reconcile starter files for $TARGET"
+# No `origin` at all? There is nothing to push and no run to read, but the sequence
+# must still REACH the helper: it is the only thing that records an adoption, and its
+# override is the only way to record one nothing verified. So do not stop here.
+# An `if`, not `&&`/`||`: chained that way a FAILED push (rejected non-fast-forward, a
+# protected branch) would fall through to the same message and misreport itself as a
+# missing remote. A push that fails is a hard stop; only a missing remote is not.
+if git remote get-url origin >/dev/null 2>&1; then
+  git push origin HEAD
+else
+  echo "no origin remote: nothing pushed; the bump below will exit 3 -- see --override"
+fi
+
+# 10. Bump only on a green conclusion for that exact head SHA — never by branch
+#     name, because a branch can advance between the push and the poll. The helper
+#     writes the marker, asserts the read-back, and commits it on the verified head.
+#     Exit 1 = CI is not green (it names the failing check). A WORKFLOW that failed
+#     counts even with no check run behind it: a run that fails at startup (invalid
+#     workflow YAML, which is what a badly resolved conflict under .github/workflows/
+#     produces on this merge) never creates a job, and it is usually the only run for
+#     the SHA, since corpus-refresh.yml is filtered on knowledge/** and the merge does
+#     not touch it. Exit 1 ALSO covers every shape where there was nothing for CI to
+#     verify, none of which names a check: a merge still in progress, unmerged paths,
+#     HEAD moving mid-read, and -- after a GREEN conclusion -- a bump commit your own
+#     pre-commit hook refused (the marker and its index entry are put back first, and
+#     the message says so). Read the message, not just the code. Re-run WITHOUT making
+#     a commit: the conclusion is resolved from whatever HEAD is then, so a fix commit
+#     becomes a SHA GitHub never saw, and the step exits 3 at once saying the merge was
+#     never pushed. Needing a commit means pushing it and letting CI run on it.
+#     Exit 3 = no conclusion could be read at all: no remote, gh
+#     unavailable, the API unreachable, a SHA GitHub has never seen (you did not
+#     push), no workflow run and no check run at all (Actions disabled, or no workflow
+#     triggered), every run concluded without running anything, or a run still in
+#     flight. Both leave the
+#     marker alone. "No run found" is never success — do not write the file by hand.
+#     Adopting anyway is possible and must be recorded:
+#       node "$BUMP_HELPER" bump --target "$TARGET" --override "<why you accepted it>"
+#     An instance with no `origin` lands here every time — nothing to push, no
+#     conclusion to read. The guarded push above is what keeps the sequence running
+#     to this point instead of dying at `git push`, and the override is the only way
+#     past exit 3. The reason is the whole audit trail for an adoption no CI run
+#     stands behind, so write what you actually verified, never a placeholder.
+BUMP_HELPER="$(git rev-parse --git-dir)/sekai-ci-verified-bump.mjs"
+git show "$TARGET":scripts/upgrade/ci-verified-bump.mjs > "$BUMP_HELPER"
+node "$BUMP_HELPER" bump --target "$TARGET"
+
+# 11. Read the marker back. The bump commit is not pushed for you.
 test "$(cat FRAMEWORK-VERSION)" = "$TARGET_VERSION" \
   || { echo "STOP: FRAMEWORK-VERSION is not $TARGET_VERSION after the bump"; exit 1; }
-git add FRAMEWORK-VERSION && git commit -m "chore: FRAMEWORK-VERSION -> $TARGET_VERSION"
 ```
 
 **New `place.config` keys never require surgery.** Every new config key defaults
