@@ -43,6 +43,10 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+## [1.1.6] — 2026-08-15
+
+/sekai-upgrade bumps FRAMEWORK-VERSION only after the instance's CI is green, sweeps the corpus artifact stranded at its pre-v1.1.5 path, and the upgrade-sequence gate stays non-vacuous once a release is cut.
+
 ### Fixed
 
 - **The upgrade-sequence gate no longer goes vacuous the moment a release is cut.**
@@ -2268,7 +2272,8 @@ onto this tag.
 First release — nothing to upgrade from. The first instance establishes its merge
 base against this tag per `docs/runbook/UPGRADE.md` §Establishing the merge base.
 
-[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.1.5...HEAD
+[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.1.6...HEAD
+[1.1.6]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.6
 [1.1.5]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.5
 [1.1.4]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.4
 [1.1.3]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.3
