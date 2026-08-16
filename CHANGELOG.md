@@ -43,6 +43,10 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+## [1.1.7] — 2026-08-16
+
+Gates no longer assert framework-authoring rules against instance-owned documents, and the upgrade reconciles a maintainer doc the instance had deleted.
+
 ### Fixed
 
 - **v1.1.6 could not be adopted at all: three gates asserted framework-authoring rules
@@ -2321,7 +2325,8 @@ onto this tag.
 First release — nothing to upgrade from. The first instance establishes its merge
 base against this tag per `docs/runbook/UPGRADE.md` §Establishing the merge base.
 
-[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.1.6...HEAD
+[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.1.7...HEAD
+[1.1.7]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.7
 [1.1.6]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.6
 [1.1.5]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.5
 [1.1.4]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.4
