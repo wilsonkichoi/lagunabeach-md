@@ -72,12 +72,24 @@ git diff --stat
 npm run version:check
 npm run genericity
 npm run genericity:selftest
+npm run upgrade-sequence:check
+npm run upgrade-sequence:selftest
+npm run upgrade:check
+npm run test:upgrade-docs
 npm run test
 npm run article-health:test
 npm run article-health -- --all --profile=ci-deploy
 npm run build
 git diff --check
 ```
+
+The four upgrade gates are here because **this commit is the one that reshapes
+`CHANGELOG.md`**: `prepare-release.mjs` moves the pending entries under a dated
+heading and leaves `## [Unreleased]` behind empty. All four exercise the upgrade path
+the release ships, and `upgrade-sequence:check` / `upgrade-sequence:selftest` do one
+thing more — they resolve *which entry is the newest*, which is precisely what the
+reshape changes. Running all four before the branch is pushed turns a release-shape
+defect into a local failure rather than a red release PR.
 
 Hard-stop unless exactly the four expected files changed and every command
 passes. Stage only those files and commit:
