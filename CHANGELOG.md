@@ -43,6 +43,233 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+### Fixed
+
+- **`/sekai-upgrade` records an adoption only after the instance's own CI is green on
+  the merged tree.** The bump used to run inside the pre-push commit sequence, right
+  after `npm run build` — so by construction no CI run existed at the moment
+  `FRAMEWORK-VERSION` was written, and `npm run build` is a strict subset of what the
+  workflow runs. On the v1.1.5 adoption that gap was not theoretical: the marker
+  advertised the new release for about four hours while the adopted head was failing a
+  CI-only gate, and a write cannot be moved back after its own verification.
+
+  The skill now pushes the merged branch, reads the conclusion GitHub recorded for that
+  **exact head SHA** (never by branch name — a branch can advance between the push and
+  the poll), and writes the marker only on a green one. A failing conclusion names the
+  failing check and leaves the marker at the pre-merge value `package-state.mjs`
+  restored. An unreadable one — no remote, `gh` unavailable, the API unreachable, a SHA
+  GitHub has never seen, no workflow run and no check run at all (Actions disabled, or
+  no workflow triggered), every run concluded without running anything, a run still in
+  flight — stops and says which case it hit. **"No run
+  found" is never treated as success**, and neither is a run that was triggered and did
+  nothing. Adopting anyway requires
+  `--override "<reason>"`, which is recorded in the run output and on the commit.
+
+  **A green partial answer is not a green run.** GitHub creates a job's check run only
+  when that job becomes *eligible*, so in a chained workflow the check list is built up
+  as the run proceeds: at the moment the first job finishes, the list holds exactly one
+  entry, completed and green, while every job that could still fail has no check run yet.
+  On this repository's own `deploy.yml` one run produced three such windows — each job's
+  `created_at` equal to its predecessor's `completed_at` — against a 20-second default
+  poll. So the helper requires the **workflow run** for the SHA to be completed before it
+  reads any check-run conclusion; a workflow run exists from the moment it is triggered
+  and completes only when all of its jobs have. Checks with no workflow run behind them
+  stop too, because nothing there says the list is finished.
+
+  **A failed workflow is red even when it produced no check at all.** The verdict is read
+  from the workflow runs and the check runs together, because neither list contains the
+  other. A run that fails at *startup* — invalid workflow YAML, which is what a badly
+  resolved conflict under `.github/workflows/` produces on exactly this merge, and which
+  `npm run build` cannot see — is completed with a failing conclusion and never creates a
+  job, so nothing in the check list represents it. On an instance that is usually the
+  **only** run for the SHA, because `corpus-refresh.yml` is filtered on `knowledge/**`
+  and an upgrade merge is `merge=ours` there: the push triggers `deploy.yml` and nothing
+  else. So the verdict never requires a check run to exist — it requires the workflow
+  runs to be finished. What it does require separately is that something actually *ran*:
+  a set of conclusions with no `success` anywhere in it is a workflow that was triggered
+  and did nothing, which verifies a tree no more than no run at all does, and it stops as
+  unreadable rather than passing as green.
+
+  **`--override` answers only the unreadable case.** A conclusion that was read and is
+  red is never overridable: "a red or failing run never bumps" is unconditional, and the
+  two situations assert different things — "I verified this another way" versus "I know
+  it failed and am recording it as adopted". Only the first is a claim the marker may
+  carry, and the refusal says so.
+
+  New helper `scripts/upgrade/ci-verified-bump.mjs`, bootstrapped from the target tag
+  like every other upgrade helper. `npm run upgrade:check` gains case 16 (green, red,
+  a workflow that failed at startup with no check run behind it — both beside a second
+  workflow's green check and as the lone run for the SHA, where it must still refuse the
+  override — every unreadable shape, including a green partial set whose workflow is
+  still running, checks with no workflow run behind them, and a run that concluded
+  without running anything; the recorded override, the refusal to
+  override a red conclusion, and the usage contract) and
+  `npm run upgrade:selftest` proves it non-vacuous. `npm run upgrade-sequence:check` is
+  a new gate deriving the documented sequence from the skill, so the spec and the
+  runbook cannot describe an upgrade the skill does not perform.
+
+  This step reaches the network mid-upgrade, and on an instance the push it requires
+  **deploys**. That is deliberate: an instance has local and production sharing one
+  build and no staging tier, so verifying against the tier that exists beats recording
+  an adoption nothing checked.
+
+  An instance with no `origin` still reaches the helper. That is the one unreadable
+  shape the documented sequence could withhold its own answer for: the push comes
+  first, so an unguarded `git push origin HEAD` ends the block before anything runs,
+  and the override built for exactly this case is unreachable without editing the
+  commands. Every document now guards the push on the remote existing and shows the
+  reason-bearing override as the way past exit 3. `upgrade-sequence:check` fails an
+  unguarded push and a document that stops showing the override; `upgrade:check`
+  case 19 runs the note's own push block under `set -e` on a tree with no remote, then
+  runs its documented override and asserts the reason lands on the commit.
+
+- **The upgrade sweeps derived artifacts stranded at a retired path.** When v1.1.5 moved
+  the corpus artifact to `workers/lib/vectors.json` the `.gitignore` line moved with it,
+  so every instance that had run `npm run embeddings:build` before upgrading kept an
+  untracked ~88KB `workers/chat/vectors.json` holding every article's title, URL, and
+  body text. Both machine gates skip it by basename, so nothing saw it — and being
+  untracked, it is also what makes the *next* upgrade's clean-tree preflight fail.
+
+  New helper `scripts/upgrade/stale-artifacts.mjs`, run before the merge. It removes a
+  retired path only when the file is untracked **and** its bytes really are that
+  artifact; a tracked file or one whose bytes are something else is reported by path and
+  left alone. `npm run upgrade:check` case 17 covers all four shapes, building its
+  fixture through the corpus builder's own `buildArtifact` so the recognizer is tested
+  against the bytes an instance really holds rather than against a guess at them.
+
+- **A release now applies its own new upgrade steps on the upgrade that ships them.**
+  Both changes above are new *steps*, and the upgrade that adopts them is driven by the
+  skill and runbook of the release being left — which know nothing about them, and are
+  not reloaded when the merge brings in their replacements. Left alone, v1.1.6 would
+  have been the first release whose own fixes arrived one release late.
+
+  The release-boundary rule is now explicit and machine-checked: an entry that
+  introduces an upgrade helper must hand it to the *previous* release's skill as a
+  runnable bootstrap-from-tag block in that entry's **Upgrade note**, which every
+  version of the skill and of the runbook reads before merging.
+  `npm run upgrade-sequence:check` derives "introduces" from the changelog itself and
+  fails a release that ships a helper with no handoff, one that extracts into one
+  variable and runs another, one whose subcommand the helper's option table does not
+  declare, or one that bumps before pushing. `npm run upgrade:check` case 18 runs the
+  handoff the way an adopter would — on a fixture whose own tree carries no upgrade
+  helper at all — and proves both steps take effect from the tag alone.
+
+  A handoff also has to be positioned somewhere the receiving skill actually reaches,
+  which is the sharper half of the same rule. The retired corpus artifact is untracked,
+  so it makes `git status --porcelain` non-empty, so a v1.1.5-or-older step 0 stops on
+  it — before the step that fetches and displays this note. A sweep handed over as a
+  mid-flow step is therefore unreachable for precisely the adopter who needs it, which
+  is why the note above places it before the invocation. Case 18 asserts both directions
+  against the receiving skill's gate: it must block while the artifact is there, and
+  pass once the note's block has run. For every release after this one the gate is in
+  the skill instead of the note — `upgrade-sequence:check` now fails a preflight that
+  stops on a dirty tree without exempting an untracked artifact at a retired path, or
+  that exempts it without naming the step that owns the removal.
+
+### Upgrade note
+
+Nothing here touches `place.config.ts`. Two things change in how an upgrade runs, and
+both are new **steps**, which is why this note carries them as commands rather than as
+description: the skill and runbook driving your upgrade to v1.1.6 are the ones that
+shipped with v1.1.5, and they do not know these steps exist. The rewritten skill only
+reaches your tree with the merge, and a running invocation does not reload itself. So
+this release hands the two steps over here, where your upgrade already reads them — a
+v1.1.5-or-older `/sekai-upgrade` shows this note before merging, and the manual flow in
+`docs/runbook/UPGRADE.md` sends you here too. Step 1 below is positioned **before** the
+invocation rather than inside it, because the one stop that predates reading this note
+is the step 0 clean-tree preflight, and the artifact step 1 clears is what trips it.
+
+**If your installed `/sekai-upgrade` is already v1.1.6 or newer it performs both itself**
+(its steps 3d and 9). Run the blocks below only when upgrading *to* v1.1.6 from an
+earlier release; running them twice is not harmful (the sweep finds nothing, the bump
+refuses a marker that already moved) but it is not needed.
+
+**1. Before you invoke the upgrade at all — sweep the stale corpus artifact.** Run this
+from the instance repo root *before* `/sekai-upgrade` or the runbook's merge sequence,
+not partway through one:
+
+```bash
+STALE_HELPER="$(git rev-parse --git-dir)/sekai-stale-artifacts.mjs"
+git show sekai-kb-v1.1.6:scripts/upgrade/stale-artifacts.mjs > "$STALE_HELPER"
+node "$STALE_HELPER" sweep
+```
+
+*If your upgrade already stopped, saying the working tree is not clean and naming
+`workers/chat/vectors.json`, that is this — run the block above and invoke it again.*
+
+When v1.1.5 moved the corpus artifact to `workers/lib/vectors.json` the `.gitignore`
+line moved with it, so an instance that had built a corpus before that upgrade kept an
+untracked ~88KB `workers/chat/vectors.json` at the retired path. Nothing writes it,
+reads it, or ignores it any more — but `git status --porcelain` now reports it, and a
+v1.1.5-or-older `/sekai-upgrade` stops on that in its **step 0 preflight**, which runs
+*before* the step that fetches and displays this note. That ordering is why this block
+belongs before the invocation rather than inside it, and why the two remedies your
+installed skill offers at that stop are both wrong here:
+
+- **Do not commit it.** At the retired path it is no longer ignored, so a commit writes
+  ~88KB of unreviewed article text — every title, URL, and body — into your repository.
+- **Do not `git stash` it.** Plain `git stash` does not touch untracked files, so the
+  tree stays dirty and the next invocation stops in exactly the same place.
+
+The sweep removes the file only when it is untracked **and** its bytes really are that
+artifact; a tracked file, or one whose bytes are something else, is reported by path and
+left for you to decide. Run `node "$STALE_HELPER" report` first if you want the
+disposition without the removal — it writes nothing. If you already deleted it by hand,
+the sweep says there was nothing to remove. Your current corpus at
+`workers/lib/vectors.json` is never touched.
+
+From v1.1.6 onward no adopter meets this stop again. The rewritten step 0 does not decide
+a dirty tree at all: it records the paths and carries them to step 3d, which classifies
+every one against the release's own list of retired paths and then re-reads the tree.
+Anything the sweep does not recognize stops the upgrade there — the same stop, made where
+the information to make it exists. Nothing is judged by eye at a step that has no list to
+judge against.
+
+**2. Instead of the old bump step — push first, then bump through the helper.** Your
+installed step 9 (runbook step 8) writes `FRAMEWORK-VERSION` directly, before anything
+is pushed, so no CI run exists at the moment it records the adoption. **Do not run it.**
+Run this instead, once the local build is green and every change from the merge is
+committed:
+
+```bash
+# No `origin` at all? There is nothing to push and no run to read, but the sequence
+# must still REACH the helper: it is the only thing that records an adoption, and its
+# override is the only way to record one nothing verified. So do not stop here.
+# An `if`, not `&&`/`||`: chained that way a FAILED push (rejected non-fast-forward, a
+# protected branch) would fall through to the same message and misreport itself as a
+# missing remote. A push that fails is a hard stop; only a missing remote is not.
+if git remote get-url origin >/dev/null 2>&1; then
+  git push origin HEAD
+else
+  echo "no origin remote: nothing pushed; the bump below will exit 3 -- see --override"
+fi
+BUMP_HELPER="$(git rev-parse --git-dir)/sekai-ci-verified-bump.mjs"
+git show sekai-kb-v1.1.6:scripts/upgrade/ci-verified-bump.mjs > "$BUMP_HELPER"
+node "$BUMP_HELPER" bump --target sekai-kb-v1.1.6
+```
+
+The helper reads the conclusion GitHub recorded for that exact head SHA and writes the
+marker only on a green one. A failing conclusion names the failing check and leaves the
+marker at its pre-merge value. So does every shape where there was nothing for CI to
+verify — a merge still in progress, unmerged paths, `HEAD` moving mid-read, and, after a
+**green** conclusion, a bump commit your own `pre-commit` hook refuses, with the marker
+and its index entry put back and the message saying so. None of those names a check, so
+read the message; and re-run without making a commit, because the conclusion is resolved
+from `HEAD` and a fix commit becomes a SHA GitHub never saw.
+An unreadable one — Actions disabled, no remote, offline,
+a SHA GitHub has never seen, a run still in flight — stops and says which case it hit;
+**"no run found" is never read as success.** To adopt anyway, add
+`--override "<reason>"`, and the reason is kept in the run output and on the commit. On
+an instance that push **deploys**, which is the accepted cost of having no staging tier.
+
+If your instance has no `origin` at all, the push is guarded above precisely so the
+sequence still reaches the helper: there is nothing to push and no conclusion to read,
+so the helper exits 3, and the reason-bearing override is the only way past it —
+
+```bash
+node "$BUMP_HELPER" bump --target sekai-kb-v1.1.6 --override "no remote: verified by <what you ran>"
+```
+
 ## [1.1.5] — 2026-08-13
 
 Adds a remote MCP server, an /ai page, a /kb/agent.md boot file, and an opt-in CI corpus-refresh workflow; moves corpus retrieval to shared workers/lib/ and fixes llms.txt brand naming.
