@@ -279,6 +279,163 @@ curl -sI https://your-domain.example | head -5
 
 ---
 
+## Analytics
+
+Browser analytics collection is independently gated behind `features.analytics`
+and per-provider identifiers in the `analytics` block of `place.config.ts`. Both
+providers are absent-safe: an instance that upgrades without configuring analytics
+sees no change.
+
+### GA4 (Google Analytics 4)
+
+1. **Create a GA4 property** in the [Google Analytics admin](https://analytics.google.com/):
+   Admin > Create Property. Name it after your instance.
+2. **Create a web data stream** for your domain. Copy the **Measurement ID**
+   (format: `G-XXXXXXXXXX`).
+3. **(Recommended) Verify the domain in Google Search Console** and link it to
+   the GA4 property so organic-search data flows into GA4 reports:
+   - Search Console > Add Property > Domain > verify via DNS TXT record.
+   - GA4 Admin > Product Links > Search Console Links > Link > select the
+     verified property and the web data stream created in step 2.
+4. **Configure `place.config.ts`:**
+
+   ```ts
+   features: { analytics: true },
+   analytics: { ga4MeasurementId: 'G-XXXXXXXXXX' },
+   ```
+
+5. **Verify:** open the site, open Chrome DevTools Network tab, filter by
+   `collect?`. A `POST` to `https://www.google-analytics.com/g/collect?...`
+   confirms collection. Or use GA4 DebugView (Realtime > DebugView in the GA4
+   console; enable via the [GA Debugger extension](https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna)).
+
+### Cloudflare Web Analytics
+
+1. **Enable Web Analytics** in the Cloudflare dashboard:
+   Account Home > Web Analytics > Add a site > select "Manual setup with a JS
+   Beacon" (NOT the automatic proxy mode).
+2. Copy the **site token** (32-character hex string) from the snippet shown.
+3. **Configure `place.config.ts`:**
+
+   ```ts
+   features: { analytics: true },
+   analytics: { cloudflareWebAnalyticsToken: 'abcdef0123456789abcdef0123456789' },
+   ```
+
+4. **Verify:** open the site, open DevTools Network tab, filter by
+   `cloudflareinsights`. A request to
+   `https://static.cloudflareinsights.com/beacon.min.js` loads the beacon; a
+   subsequent request to `/cdn-cgi/rum` confirms a pageview was sent.
+
+### Preventing duplicate beacons
+
+The framework injects the GA4 gtag and/or Cloudflare beacon automatically when
+the config enables them. Do NOT also paste the provider snippets manually into
+your HTML or into a Cloudflare dashboard "automatic setup" that injects the same
+beacon via the proxy. Doing so causes double-counted pageviews. If you previously
+used Cloudflare's automatic injection, disable it before enabling the config key.
+
+### Both providers together
+
+Both providers are independently gated: set both IDs in the `analytics` block and
+both collect in parallel. Remove one ID (or set it to empty string) to disable
+that provider without touching the other.
+
+### Analytics signal fetchers (`npm run fetch:analytics`)
+
+The analytics dashboard consumes normalized JSON produced by three Python fetchers
+that query GA4, Search Console, and Cloudflare. The command runs all three
+providers; one failure does not block the others, but the orchestrator exits
+nonzero when any provider fails.
+
+**Output files** (gitignored, under `src/data/analytics/`):
+
+| File | Provider | Period |
+|------|----------|--------|
+| `ga4.json` | Google Analytics 4 Data API | 7 days |
+| `search-console.json` | Search Console Search Analytics API | 28 days |
+| `cloudflare.json` | Cloudflare GraphQL Analytics API | 7 days |
+
+**Local environment variables** (set in your shell or `.env` that is NOT committed):
+
+| Variable | Description |
+|----------|-------------|
+| `GA4_PROPERTY_ID` | Numeric GA4 property ID (Admin > Property Settings) |
+| `SC_SITE_URL` | Search Console site URL (`sc-domain:example.com` or `https://example.com/`) |
+| `GOOGLE_APPLICATION_CREDENTIALS` | Path to a service-account JSON key file |
+| `CF_ZONE_ID` | Cloudflare zone ID (Overview page sidebar) |
+| `CF_API_TOKEN` | Cloudflare API token with Analytics:Read on the zone |
+
+**GitHub Actions secrets** (for production builds on push to `main`):
+
+| Secret | Description |
+|--------|-------------|
+| `GA4_PROPERTY_ID` | Same as the local variable |
+| `SC_SITE_URL` | Same as the local variable |
+| `GOOGLE_SERVICE_ACCOUNT_JSON` | Full JSON content of the service account key (replaces the file path) |
+| `CF_ZONE_ID` | Same as the local variable |
+| `CF_API_TOKEN` | Same as the local variable |
+
+**How the production fetch runs.** `src/data/` is gitignored and the Pages workflow
+builds from a clean checkout, so a local fetch can never reach the deployed site.
+The fetch therefore happens inside the Pages build job itself, immediately before
+`npm run build`, and its output is consumed only by that build. Nothing is
+committed and nothing is uploaded as a separate artifact.
+
+That step **never runs on a pull request**. The build job executes
+pull-request-authored code, so a step able to receive these secrets would hand a
+service-account key and a Cloudflare API token to anyone who opens one. Every
+analytics step is gated on `push` to `main`.
+`npm run analytics-delivery:check` asserts that gating, plus the ordering, the
+non-blocking failure behavior, and the unchanged `permissions: contents: read`
+block, from the workflow file on every pull request.
+
+`GOOGLE_SERVICE_ACCOUNT_JSON` is written to **runner-temporary storage** for the
+duration of the fetch (outside the build workspace, mode `600`) and removed
+afterwards whether the run succeeds, fails, or is cancelled. The fetch step
+receives the path in `GOOGLE_APPLICATION_CREDENTIALS`, never the raw key, so the
+key is never in the environment of the build that produces `dist/`.
+
+**What each credential state does:**
+
+- With **no** analytics secret set — the default for a fresh clone — the fetch
+  step reports an explicit skip, exits green, and the site builds. Every dashboard
+  analytics panel shows its own unavailable state. Nothing is red.
+- With an **incomplete** set, no credentialed request is sent at all: a partial
+  credential set cannot produce a valid result for any provider. The run reports a
+  visible failed step naming the missing variables, and the site build continues.
+  This is deliberate: a silent green build with an empty dashboard is the failure
+  mode that state exists to prevent.
+- When a **provider fails** (an API outage, a revoked grant, a malformed
+  response), the fetch step is marked failed and stays visible in the run, while
+  the build proceeds with whatever valid source files the run did produce. That
+  source's panel shows its unavailable state and the other two render normally.
+
+An explicit local `npm run fetch:analytics` stays strict: it exits nonzero for
+missing credentials, invalid responses, or any provider failure.
+
+**Service account setup:**
+
+1. In Google Cloud Console, create a service account (no special roles needed
+   beyond the GA4 and Search Console grants below).
+2. Create a JSON key for the service account and download it.
+3. In GA4: Admin > Property Access Management > add the service account email
+   with Viewer role.
+4. In Search Console: Settings > Users and permissions > add the service account
+   email with Restricted access.
+5. Locally: set `GOOGLE_APPLICATION_CREDENTIALS` to the key file path.
+   In Actions: paste the key file content into the `GOOGLE_SERVICE_ACCOUNT_JSON`
+   secret.
+
+**Cloudflare API token setup:**
+
+1. In the Cloudflare dashboard: My Profile > API Tokens > Create Token.
+2. Permissions: Zone > Analytics > Read.
+3. Zone Resources: Include > Specific zone > select your zone.
+4. Copy the token value into `CF_API_TOKEN`.
+
+---
+
 ## Cloudflare Workers
 
 Dynamic capability runs on Cloudflare Workers, separate from the static site on
