@@ -43,6 +43,10 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+## [1.1.9] — 2026-08-16
+
+Security guard for pull_request_target checkout, credential-boundary and dark-mode contrast fixes, dead CSS cleanup.
+
 ### Added
 
 - **`pull_request_target` guard (`npm run workflow-triggers:check`).** That trigger
@@ -2496,7 +2500,8 @@ onto this tag.
 First release — nothing to upgrade from. The first instance establishes its merge
 base against this tag per `docs/runbook/UPGRADE.md` §Establishing the merge base.
 
-[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.1.8...HEAD
+[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.1.9...HEAD
+[1.1.9]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.9
 [1.1.8]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.8
 [1.1.7]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.7
 [1.1.6]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.6
