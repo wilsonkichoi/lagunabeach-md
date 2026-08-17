@@ -1083,19 +1083,27 @@ const occurrences = (haystack, needle) => haystack.split(needle).length - 1;
  */
 function writePlaceConfig(enabled) {
   const original = PLACE_CONFIG_SNAPSHOT.toString('utf8');
+  const offCount = occurrences(original, FEATURES_ANALYTICS_OFF);
+  const onCount = occurrences(original, FEATURES_ANALYTICS_ON);
   assert.equal(
-    occurrences(original, FEATURES_ANALYTICS_OFF),
+    offCount + onCount,
     1,
-    'place.config.ts must carry exactly one `analytics: false,` features line to flip',
+    `place.config.ts must carry exactly one analytics features line (found ${offCount} off + ${onCount} on)`,
   );
   assert.equal(
     occurrences(original, PUBLIC_IDS_ANCHOR),
     1,
     'place.config.ts must carry exactly one seo block to anchor the analytics ids against',
   );
-  const text = original
-    .replace(FEATURES_ANALYTICS_OFF, enabled ? FEATURES_ANALYTICS_ON : FEATURES_ANALYTICS_OFF)
-    .replace(PUBLIC_IDS_ANCHOR, `${PUBLIC_IDS_BLOCK}${PUBLIC_IDS_ANCHOR}`);
+  const currentFlag = offCount === 1 ? FEATURES_ANALYTICS_OFF : FEATURES_ANALYTICS_ON;
+  const desiredFlag = enabled ? FEATURES_ANALYTICS_ON : FEATURES_ANALYTICS_OFF;
+  let text = original.replace(currentFlag, desiredFlag);
+  const existingBlock = /  analytics: \{[^}]*\},?\n/;
+  if (existingBlock.test(text)) {
+    text = text.replace(existingBlock, PUBLIC_IDS_BLOCK);
+  } else {
+    text = text.replace(PUBLIC_IDS_ANCHOR, `${PUBLIC_IDS_BLOCK}${PUBLIC_IDS_ANCHOR}`);
+  }
   placeConfigMutated = true;
   writeFileSync(PLACE_CONFIG_PATH, text);
 }

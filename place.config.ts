@@ -328,7 +328,7 @@ const config: PlaceConfig = {
     feedback: true,
     chat: true,
     social: false,
-    analytics: false,
+    analytics: true,
     og: true,
     mcp: true,
   },
@@ -351,6 +351,10 @@ const config: PlaceConfig = {
     og: 'https://lagunabeach-og.d3v-m0nk3y.workers.dev',
     mcp: 'https://lagunabeach-mcp.d3v-m0nk3y.workers.dev',
     mcpDatabaseId: 'c467c002-e2b2-486b-bb9a-11279c1eb305',
+  },
+  analytics: {
+    ga4MeasurementId: 'G-GP9LN8026H',
+    cloudflareWebAnalyticsToken: '552c432c026c41e588a049b6d041afb3',
   },
   seo: {
     defaultOgImage: '/og-default.png',
