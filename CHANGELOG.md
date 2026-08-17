@@ -43,6 +43,10 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+## [1.1.8] — 2026-08-16
+
+Analytics ship end to end: browser collection, three normalized signal fetchers, and a credential-gated production-build fetch rendering independently degrading dashboard panels.
+
 ### Added
 
 - **Browser analytics collection (GA4 + Cloudflare Web Analytics) behind
@@ -2383,7 +2387,8 @@ onto this tag.
 First release — nothing to upgrade from. The first instance establishes its merge
 base against this tag per `docs/runbook/UPGRADE.md` §Establishing the merge base.
 
-[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.1.7...HEAD
+[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.1.8...HEAD
+[1.1.8]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.8
 [1.1.7]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.7
 [1.1.6]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.6
 [1.1.5]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.5
