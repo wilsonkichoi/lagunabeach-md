@@ -43,6 +43,100 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+### Added
+
+- **`pull_request_target` guard (`npm run workflow-triggers:check`).** That trigger
+  runs a workflow with this repository's secrets and a write-capable token, and
+  unlike `pull_request` it does not withhold them from forks. It is safe on its own
+  — it exists so a workflow can label or comment on a fork's pull request, and its
+  default checkout is the repository's own base branch. It becomes a repository
+  compromise the moment such a workflow checks out the PR head, because
+  attacker-authored code then runs with those credentials, and `npm ci` postinstall
+  alone is enough. The gate is that combination, not the trigger, so the legitimate
+  use stays available: a `pull_request_target` workflow that references
+  `github.event.pull_request.head.*`, `github.head_ref`, or `refs/pull/` in any step
+  fails. `workflow-triggers:selftest` proves both directions — two unsafe patterns
+  caught, and two safe ones (a PR-head checkout under plain `pull_request`, and
+  `pull_request_target` checking out the base) deliberately not flagged, since a
+  guard that fires on the safe pattern gets deleted by the first person who needs it.
+  Fatal in an adopted instance as well as in template mode: a security boundary is
+  the class `AGENTS.md` iron rule 3 keeps fatal.
+
+### Fixed
+
+- **The `pull_request_target` guard no longer has two silent bypasses.** Found in
+  review before it shipped. `triggerBlock()` terminated its lazy match with `\Z`,
+  which JavaScript has no support for and reads as a literal `Z`, so any capital Z in
+  a workflow's `on:` block — a comment, a branch glob, a cron note — truncated the
+  block, the trigger was never seen, and the gate exited 0 on the exact PR-head
+  checkout it exists to catch. This is the identical trap
+  `check-analytics-delivery.mjs` documents at its own `jobBlock()`. Separately, the
+  security decision was made by iterating parsed steps, and the step parser matched
+  only 6-space sequence indentation, so a valid 4-space workflow yielded zero steps
+  and bypassed the gate entirely. The decision is now made on the file text and the
+  step parse only supplies a location for the message. Three regression cases cover
+  both shapes plus `merge_commit_sha`, each written as a synthetic workflow rather
+  than a mutation of this repository's own file — mutating `deploy.yml` can only ever
+  exercise its own 6-space, Z-free style, which is why neither bypass surfaced.
+
+
+- **The analytics credential-boundary gate now scans the whole workflow file, not
+  just the `build` job.** `scripts/ci/check-analytics-delivery.mjs` states as its
+  property 2 that *every* analytics secret reference sits on a step carrying the
+  push-to-`main` condition, but it only ever read the `build` job. A reference added
+  to `genericity`, `test`, or `init-check` — all of which run on `pull_request` — or
+  to a workflow-level `env:` block passed the gate untouched, which would hand a
+  Google service-account key or a Cloudflare API token to pull-request-authored code
+  (`npm ci` postinstall, the test suite itself). The gate now accounts for every
+  occurrence of each required secret in `.github/workflows/deploy.yml` and fails on
+  any outside the gated build-job analytics steps, naming the offending job and
+  count. Job names are read from the file, so a job added later is covered without
+  editing a list. A 13th self-test case plants exactly this defect and proves the
+  gate catches it.
+
+  The workflow itself was already correct: all ten `secrets.*` references live on
+  gated `build`-job steps. This closes the gap between what the guard claimed and
+  what it checked.
+
+- **A failed repository restore in the analytics build tests can no longer pass as
+  green.** `tests/analytics-delivery.test.mjs` mutates tracked `place.config.ts` and
+  `src/data/analytics/` for its four production builds. `restoreRepository()` cleared
+  its `repositoryMutated` flag *before* attempting either write, so whichever of the
+  `after()` hook, the `process.on('exit')` handler, or a signal handler ran first
+  consumed the only attempt — the documented "second attempt" could not happen — and
+  both `catch` blocks swallowed the error, ending the run with a tracked
+  `place.config.ts` still carrying `analytics: true` and an injected test measurement
+  id, suite green. Each path now clears its own flag only after its restore succeeds,
+  so a later caller retries what failed, and the `after()` hook asserts the restore
+  actually happened. Failures print the manual recovery command to stderr.
+
+- **Dead analytics CSS removed from `src/styles/dashboard.css`.** The dashboard
+  stylesheet carried 38 rules in the `ga-`, `sc-`, and `analytics-` namespaces whose
+  classes appear in no `.astro`, `.ts`, or `.js` source anywhere in `src/` — ported
+  from the pre-cut fork and never wired to markup. v1.1.8's retokenization pass
+  updated their colors along with the live rules, which made dead code look
+  maintained without making it render anything. 206 lines removed; every one of the
+  64 live classes is untouched, and the four analytics-enabled production builds in
+  `tests/analytics-delivery.test.mjs` assert the panels render identical values.
+
+- **Dashboard table header, zebra rows, and rank chips are readable in dark mode.**
+  The article-health table header hardcoded `rgba(245, 245, 245, 0.95)` in both
+  themes, so dark mode rendered `--color-ink` on a near-white bar at **1.00:1** —
+  invisible — while light mode sat at 1.09:1 against its own rows. Four more rules in
+  the same component (header rule, row rules, wrapper border, zebra striping) were
+  hardcoded light-only and vanished on dark. The analytics rank chips separately
+  failed AA in *both* themes (3.75:1 and 3.95:1 light, 3.68:1 and 3.50:1 dark) by
+  putting a mid-tone hue on a 10% tint of the same hue.
+
+  All now read from new `--color-table-head-bg`, `--color-table-row-alt`,
+  `--color-rank-purple-ink`, and `--color-rank-indigo-ink` token pairs, each measured
+  against the surface it actually sits on: 13.8:1 / 14.2:1 for the header text, and
+  6.29:1 / 8.44:1 and 5.56:1 / 7.84:1 for the chips over `--color-surface-raised`.
+  Zebra rows are measured against `--color-bg-alt` — the table and its wrapper declare
+  no background, so that is what the odd rows show — at 3.17 and 5.15 dL*.
+  `scripts/visual/theme-surfaces.test.mjs` gains the two table-header surfaces,
+  verified non-vacuous by reintroducing the defect and watching the guard fail.
+
 ## [1.1.8] — 2026-08-16
 
 Analytics ship end to end: browser collection, three normalized signal fetchers, and a credential-gated production-build fetch rendering independently degrading dashboard panels.

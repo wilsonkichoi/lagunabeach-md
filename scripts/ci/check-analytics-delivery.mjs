@@ -15,10 +15,15 @@
 //
 //   1. EVENT GATING. Every analytics step carries the exact push-to-main condition.
 //      A pull-request run reaches none of them.
-//   2. CREDENTIAL BOUNDARY. Every analytics secret reference lives on a step that
-//      carries that condition, and `GOOGLE_SERVICE_ACCOUNT_JSON` in particular
-//      appears only on the step that materializes it -- never in the fetch step's
-//      environment, and never written to a workspace path.
+//   2. CREDENTIAL BOUNDARY. Every `secrets.<NAME>` reference ANYWHERE in the file --
+//      not merely in the build job -- lives on a gated analytics step, and
+//      `GOOGLE_SERVICE_ACCOUNT_JSON` in particular appears only on the step that
+//      materializes it, never in the fetch step's environment and never written to a
+//      workspace path. The account is by dotted name, so two spellings that would
+//      evade it, `secrets[...]` and `secrets: inherit`, are refused outright rather
+//      than counted. That refusal list is not exhaustive -- `toJSON(secrets)` also
+//      escapes a dotted-name account -- so this property is stated as what it checks:
+//      every dotted reference, plus those two forms.
 //   3. RUNNER-TEMPORARY KEY STORAGE. The service-account key is written under
 //      `runner.temp` and nowhere else, and a removal step guarded by `always()`
 //      deletes exactly that path.
@@ -211,6 +216,25 @@ function jobBlock(source, jobName) {
   return match ? match[0] : null;
 }
 
+/**
+ * Every job key under `jobs:`, in file order. Read from the file rather than
+ * hardcoded, so a job added later is covered by the whole-file credential scan
+ * without anyone remembering to update a list here. The slice at `jobs:` matters:
+ * the `on:` block carries two-space keys of its own (`push:`, `pull_request:`)
+ * that are not jobs.
+ */
+function jobNames(source) {
+  const jobsIndex = source.indexOf('\njobs:\n');
+  if (jobsIndex < 0) return [];
+  const section = source.slice(jobsIndex + 1);
+  return [...section.matchAll(/^ {2}([a-z][a-z0-9-]*):\n/gm)].map((match) => match[1]);
+}
+
+/** How many times `needle` appears in `haystack`. Literal, not a regex. */
+function occurrences(haystack, needle) {
+  return haystack.split(needle).length - 1;
+}
+
 /* -- Checks ------------------------------------------------------------------ */
 
 function checkWorkflow(root) {
@@ -291,6 +315,67 @@ function checkWorkflow(root) {
           'so a pull request would reach it',
       );
     }
+  }
+
+  /* 2b. CREDENTIAL BOUNDARY, WHOLE FILE. Everything above reads only the build job,
+   *     because that is where the analytics path lives. But property 2 is a claim
+   *     about the file: a secret is dangerous wherever it appears, and `genericity`,
+   *     `test`, and `init-check` run on `pull_request` too. A reference added to any
+   *     of them -- or to a workflow-level or job-level `env:` block, which no step
+   *     parser sees -- would leave every check above green while handing the token to
+   *     pull-request-authored code (`npm ci` postinstall, the test suite itself).
+   *
+   *     So account for every occurrence in the file. The one approved home for each
+   *     is a gated build-job analytics step; `analyticsSteps` already includes any
+   *     build-job step carrying a secret, and the loop above already required the
+   *     push-to-main condition on each. A count mismatch therefore means a reference
+   *     somewhere this gate had never looked. */
+  const approvedText = analyticsSteps.map((step) => step.text).join('\n');
+
+  /* Indexed access reaches the same secret without the dotted name, and
+   * `secrets: inherit` hands a called workflow the whole set. Neither is used here;
+   * both are refused outright so the account below cannot be sidestepped by
+   * spelling. */
+  for (const [pattern, what] of [
+    [/secrets\s*\[/, "indexed secret access (`secrets[...]`)"],
+    [/secrets:\s*inherit/, '`secrets: inherit`'],
+  ]) {
+    if (pattern.test(source)) {
+      fail(
+        `${WORKFLOW} uses ${what}. The analytics credential boundary is asserted by ` +
+          'accounting for each `secrets.<NAME>` occurrence, which this form escapes; ' +
+          'reference analytics secrets by their dotted name on a gated build-job step',
+      );
+    }
+  }
+
+  for (const name of REQUIRED_VARS) {
+    const reference = `secrets.${name}`;
+    const stray = occurrences(source, reference) - occurrences(approvedText, reference);
+    if (stray <= 0) continue;
+
+    const locations = [];
+    let attributed = 0;
+    for (const jobName of jobNames(source)) {
+      if (jobName === 'build') continue;
+      const block = jobBlock(source, jobName);
+      const count = block ? occurrences(block, reference) : 0;
+      if (count > 0) {
+        locations.push(`job '${jobName}' (${count})`);
+        attributed += count;
+      }
+    }
+    if (attributed < stray) {
+      locations.push(
+        `outside any job (${stray - attributed}) -- a workflow-level 'env:' block reaches every job`,
+      );
+    }
+    fail(
+      `${WORKFLOW} references ${reference} ${stray} time(s) outside the gated build-job analytics ` +
+        `steps: ${locations.join(', ')}. Every job in this workflow runs on pull_request, so that ` +
+        'secret would be readable by pull-request-authored code. The analytics credential path is ' +
+        'the build job only, and every step on it carries the push-to-main condition',
+    );
   }
 
   /* 3. The key is materialized only under runner.temp, and always removed. */
@@ -563,6 +648,49 @@ function run(root) {
  * nobody knows still works.
  */
 const SELFTEST_CASES = [
+  {
+    label: 'an analytics secret is reached by indexed access instead of a dotted name',
+    apply: (root) => {
+      const path = join(root, WORKFLOW);
+      const source = readFileSync(path, 'utf8');
+      writeFileSync(
+        path,
+        source.replace(
+          '  test:\n    name: Test\n',
+          "  test:\n    name: Test\n    env:\n      LEAK: ${{ secrets['CF_API_TOKEN'] }}\n",
+        ),
+      );
+    },
+    expect: /indexed secret access/,
+  },
+  {
+    label: 'the workflow hands its whole secret set to a called workflow',
+    apply: (root) => {
+      const path = join(root, WORKFLOW);
+      const source = readFileSync(path, 'utf8');
+      writeFileSync(
+        path,
+        source.replace('  test:\n    name: Test\n', '  test:\n    name: Test\n    secrets: inherit\n'),
+      );
+    },
+    expect: /secrets: inherit/,
+  },
+  {
+    label: 'an analytics secret is referenced from the pull-request test job',
+    apply: (root) => {
+      const path = join(root, WORKFLOW);
+      const source = readFileSync(path, 'utf8');
+      writeFileSync(
+        path,
+        source.replace(
+          '  test:\n    name: Test\n',
+          '  test:\n    name: Test\n    env:\n' +
+            '      CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}\n',
+        ),
+      );
+    },
+    expect: /outside the gated build-job analytics steps/,
+  },
   {
     label: 'the fetch step loses its push-to-main condition',
     apply: (root) => {
