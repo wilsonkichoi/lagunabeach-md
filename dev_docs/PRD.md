@@ -46,7 +46,7 @@ Two products, one codebase, built in strict order:
 | AI consumers | `/llms.txt` → `/kb/topics.json` → `/kb/articles/{slug}.md`: lazy-loading knowledge protocol, one HTTP request per article, no clone required (framework SPEC `Build pipeline`); tool-using MCP clients get the same corpus via one remote MCP connection (`workers/mcp/`, Phase 9, ADR 005) |
 | Framework adopters | GitHub template + `/sekai-adopt` AI interview → configured, seeded, deployed site in under an hour (ADR 002; framework SPEC `New builds`); generic content-lifecycle skills (`/sekai-write`, `/sekai-validate`, `/sekai-factcheck`) keep the instance maintainable at the editorial bar with any agent CLI (task 5.6, ROADMAP Phase 5 amendment) |
 | Contributors | Plain-Markdown SSOT (`knowledge/`), quality tooling (article-health, link checks), tracker-driven workflow |
-| Wilson | An instance he enjoys building (map, soundscape, RAG chat, QR flow) on a codebase that stays extractable, plus an autonomous operations layer (Phase 11 routines) that maintains the instance without burnout |
+| Wilson | An instance he enjoys building (map, soundscape, RAG chat, QR flow) on a codebase that stays extractable, plus an optional operations layer of native Claude Code cloud Routines and GitHub Actions (Phase 11) that maintains the instance without burnout |
 
 ## North star
 
@@ -57,7 +57,7 @@ Phase-gated proof points rather than a single metric (each is a ROADMAP acceptan
   the fork baseline (tasks 3.1-3.2), at the fork's visual bar (task 1.1c; SPEC `Instance risk controls`).
 - **Framework:** the dana-point proof — a fresh clone through `/sekai-adopt` interview to five
   AI-seeded articles deployed on GitHub Pages in under one hour, executed for real (task 5.2c).
-- **Operations (extension, ADR 005):** two autonomous routines live for ≥ 1 week, shipping
+- **Operations (extension, ADR 005/013):** two autonomous routines live for ≥ 1 week, shipping
   only via verified PR merges with zero direct pushes to main (Phase 11 exit gate).
 
 ## Non-goals
@@ -67,11 +67,11 @@ to conflict with a non-goal, surface the conflict to Wilson (per `.agent-toolkit
 never silently trim the packet.
 
 - **No paid hosting/infra services** (SPEC `Deployment and domain`): GitHub Pages + Cloudflare free tier
-  + Workers free tier only. AI compute for dev and Phase-11 routines rides Wilson's
+  + Workers free tier only. AI compute for dev and Phase-11/12 routines rides Wilson's
   existing Claude subscription/API budget — same cost class as the dev process itself,
   not an infra service (ADR 005).
 - **No direct-push automation**: routines never bypass the PR + CI gate; taiwan-md's
-  push-to-main routine model is explicitly not adopted (ADR 005).
+  push-to-main routine model is explicitly not adopted (ADR 005/013).
 - **No fork continuation and no upstream merging** — future Taiwan.md improvements are
   deliberate idea cherry-picks, never merges (ADR 001; SPEC `Instance risk controls`).
 - **No build-time OG generation, ever** — static default image until the Phase 7 on-demand
@@ -89,7 +89,7 @@ never silently trim the packet.
   (`src/`, `scripts/`, `tests/`, `workers/`, plugin code — the whole project, never a
   single-directory reading). Test fixtures are code. Docs are exempt only for fork
   history and the Sekai (世界) brand etymology; `knowledge/` content is governed by the
-  editorial playbook. Multi-language support is a post-project revisit (after Phase 11),
+  editorial playbook. Multi-language support is a post-project revisit (after Phase 12),
   built fresh at that time; the `lagunabeach-md-v1` archive retains the fork's CJK
   implementations for reference. "A future CJK adopter" is never grounds to retain or
   re-add CJK code. For framework adopters the boundary is documented, not coded around

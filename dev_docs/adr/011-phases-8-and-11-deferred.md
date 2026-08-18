@@ -1,7 +1,12 @@
 # ADR 011: Phases 8 and 11 are deferred; retrieval freshness does not wait on them
 
-**Status:** Accepted (2026-08-12)
+**Status:** Superseded in part by upstream ADR 013 (2026-08-18)
 **Deciders:** Wilson Choi
+
+> Phase 8 remains deferred. Upstream ADR 013 makes Phase 11 active on native Claude Code
+> cloud Routines plus GitHub Actions, removes its Phase 8 dependency, and creates the
+> independently gated Phase 12. Task 9.4 and this record's corpus-refresh security bounds
+> remain accepted. The text below preserves the 2026-08-12 decision record.
 **Amends:** ADR 005 in its delivery-schedule half, and ADR 003 in nothing but its date. The
 organ architecture, the routine substrate, the hybrid scheduler choice, and the analytics
 stack all stand exactly as decided; what changes is when, and in one case whether, they are

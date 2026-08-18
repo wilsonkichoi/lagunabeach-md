@@ -27,9 +27,9 @@ one that owns the question; never reconcile them by editing the other side's cop
 | Document | `lagunabeach-md` (this repo) owns | `sekai-kb` owns |
 |---|---|---|
 | `dev_docs/PRD.md` | what lagunabeach.md is for: its goals, customers, north star, non-goals | what the framework is for and who adopts it |
-| `dev_docs/SPEC.md` | deployment and domain, LB's content and categories, the extraction map, the inherited-fork disposition, instance risk controls | stack, repo topology, `place.config.ts` schema, content model, build pipeline, pages, new builds, phase 9-11 capabilities, framework risk controls, negative requirements |
-| `dev_docs/ROADMAP.md` | phases 0-5 (the rebuild and the framework cut) and, per later phase, the instance-owned adoption step | the phase 6-11 task blocks, their amendments, ordering rules, and phase gates |
-| `dev_docs/adr/` | ADRs 001-002, the rebuild decisions (`dev_docs/adr/README.md` indexes both sides) | ADRs 003-008, which govern framework code |
+| `dev_docs/SPEC.md` | deployment and domain, LB's content and categories, the extraction map, the inherited-fork disposition, instance risk controls | stack, repo topology, `place.config.ts` schema, content model, build pipeline, pages, new builds, phase 9-12 capabilities, framework risk controls, negative requirements |
+| `dev_docs/ROADMAP.md` | phases 0-5 (the rebuild and the framework cut) and, per later phase, the instance-owned adoption step | the phase 6-12 task blocks, their amendments, ordering rules, and phase gates |
+| `dev_docs/adr/` | ADRs 001-002, the rebuild decisions (`dev_docs/adr/README.md` indexes both sides) | ADRs 003-013, which govern framework code |
 
 Linear owns live task state, as one project spanning both repositories. Task packets are
 converted from the owning repository's ROADMAP blocks, never re-derived. Any conflict —
@@ -100,7 +100,7 @@ the same repository, which is what makes the rule decidable without a lookup tab
   packets (feature flags, analytics IDs, content, `/sekai-upgrade` adoptions) name
   `lagunabeach-md` and run here.
 - **`/dev:plan`** runs in the repo whose ROADMAP carries the phase being decomposed, and
-  amends that ROADMAP there. Phases 6-11 are framework phases: plan them in `sekai-kb`,
+  amends that ROADMAP there. Phases 6-12 are framework phases: plan them in `sekai-kb`,
   reading its ROADMAP blocks. Plan LB's own instance work here. The **Forward
   constraints** and **Downstream** conventions below apply on whichever side the session
   runs; a forward constraint that lands on the other repository is recorded in the packet
@@ -142,11 +142,11 @@ two files then prescribed different behavior for the same operation.
 After **5.4** (LB-33, done), `lagunabeach-md` is **instance #1** of the framework (still the
 live `lagunabeach.md` site), re-based onto `sekai-kb-v1.0.0` with the merge base established
 (`git merge --allow-unrelated-histories`) and `merge=ours` on the instance-owned file list.
-Feature phases 6-11 execute in `sekai-kb` and ship as tagged releases; `lagunabeach-md`'s
+Feature phases 6-12 execute in `sekai-kb` and ship as tagged releases; `lagunabeach-md`'s
 only commits are instance-owned — adopting each release via `/sekai-upgrade` (part of every phase's
 exit gate; mechanics + the required `git config merge.ours.driver true` per-clone step in
-`docs/runbook/UPGRADE.md`), `features.*` flags in `place.config.ts`, analytics IDs, ROUTINE
-entries, and its own content/media. `FRAMEWORK-VERSION` records the adopted tag.
+`docs/runbook/UPGRADE.md`), `features.*` flags in `place.config.ts`, analytics IDs, native
+Routine registrations, and its own content/media. `FRAMEWORK-VERSION` records the adopted tag.
 
 ## Adopter dev-plugin upgrade state
 
@@ -183,9 +183,9 @@ framework for scripts and dependencies; it carries neither release value.
 ## Milestones and model policy
 
 - Milestones = Linear project milestones on project "LB Rebuild", one per phase
-  ("Phase 0" … "Phase 11"), spanning both repositories. A phase's task blocks live in
+  ("Phase 0" … "Phase 12"), spanning both repositories. A phase's task blocks live in
   exactly one `dev_docs/ROADMAP.md` — this repo's for phases 0-5 and LB's own instance work,
-  `sekai-kb`'s for the framework phases 6-11 — and packets convert from those blocks
+  `sekai-kb`'s for the framework phases 6-12 — and packets convert from those blocks
   exactly, on the owning side.
   Phase transitions are Wilson gates: `/dev:plan` for phase n+1
   runs only after Wilson confirms phase n closed **and** the phase-n retro confirms every

@@ -6,7 +6,7 @@ the delivery-plan SSOT **for this instance**. Milestones are Linear project mile
 phase n+1 runs only after Wilson confirms phase n closed. Estimates use
 `AI implement+review | Human`.
 
-> **Two roadmaps, one tracker.** The framework's own delivery plan — the phases 6-11 task
+> **Two roadmaps, one tracker.** The framework's own delivery plan — the phases 6-12 task
 > blocks that `/dev:plan` converts framework packets from, their amendments, and the
 > ordering rules that govern them — lives in
 > [`sekai-kb/dev_docs/ROADMAP.md`](https://github.com/wilsonkichoi/sekai-kb/blob/main/dev_docs/ROADMAP.md),
@@ -50,7 +50,7 @@ These phases executed in this repository and are LB's own delivery history.
 
 **Totals:** phases 0-5 AI ≈ 56h (implement + review) | Human ≈ 4.75h, including the Phase 5
 amendment's 5.6 (AI 2.5h). Phases 0-4 ran ≈ 1.5-2 weeks at 2-4 tasks/day. The framework
-phases 6-11 and the programme-wide totals are in the framework roadmap.
+phases 6-12 and the programme-wide totals are in the framework roadmap.
 
 Linear retains phases 0-5's final task packets, work summaries, review findings, and
 verification evidence. Their superseded pre-execution blocks and the retired `.handoff`
@@ -61,7 +61,7 @@ English-only — content, UI, and any instance-owned code. The framework's own E
 requirement and the machine gates that enforce it (place-name denylist + CJK-codepoint
 scan across every code tree, test fixtures included) are framework contracts; see the
 framework SPEC's negative requirements. Multi-language support is a post-project revisit
-after the framework's Phase 11 (`dev_docs/PRD.md` non-goals); the `lagunabeach-md-v1` archive
+after the framework's Phase 12 (`dev_docs/PRD.md` non-goals); the `lagunabeach-md-v1` archive
 retains the fork's CJK implementations for reference.
 
 ---
@@ -167,7 +167,7 @@ rules-split note they also superseded is marked inline in the Phase 5 list above
 
 ---
 
-## Phases 6-11: what LB does when a framework phase ships
+## Phases 6-12: what LB does when a framework phase ships
 
 The framework roadmap owns these phases' task blocks, effort estimates, exit gates, and
 ordering rules. Every code task in them executes in `sekai-kb` and ships as a tagged
@@ -191,15 +191,20 @@ Per phase, step 2's flags and step 3's LB-only inputs are:
 |---|---|---|
 | 6 — Social + engagement | `features.feedback`, `features.soundscape` | Cloudflare account + wrangler auth, D1 database and secrets, the first three soundscape recordings |
 | 7 — Differentiators | `features.chat` (OG worker flag per its packet) | Claude API key, Workers AI binding, review of the 10-question evaluation answers, printed QR placements |
-| 8 — Semiont plugin layer | organs in `semiont/config.json`: memory, reflexes, manifesto on; diary, routine off | MANIFESTO prose, salvaged by hand from the v1 archive |
+| 8 — Semiont plugin layer | organs in `semiont/config.json`: memory, reflexes, manifesto on; diary, introspection off | MANIFESTO prose, salvaged by hand from the v1 archive |
 | 9 — MCP + AI delivery | `features.mcp` | wrangler route for the MCP endpoint, a real MCP-client connection test against `lagunabeach.md` |
 | 10 — Perception (analytics) | `features.analytics` | GA4 property, Search Console verification, Cloudflare Web Analytics token, fetcher API credentials as Actions secrets |
-| 11 — Autonomous routines | routine organ on in `semiont/config.json` | `ROUTINE.md` entries for the routines LB runs, first scheduled-task registration, merge approval on the first rewrite PR |
+| 11 — Operational automation | native Claude Code cloud Routine registrations for content review, maintenance, trends, and rewrite; GitHub Actions analytics schedule | repository and connector/environment setup named by `AUTOMATION.md`, first Routine registration, merge approval on the first rewrite PR |
+| 12 — Gated integrations | no default opt-in; enable only after the framework's human-approval and real-account gates are satisfied | feedback-triage approval session, selected social account and adapter credentials, first live integration verification |
 
 Two instance-owned items are LB's own work rather than an adoption step, and enter the
 tracker through `/dev:plan` or `dev:backlog` like any other task:
 
 - **Phase 7.3 QR placements** — which physical Laguna Beach locations get codes, and the
   `ctx` slug each maps to, is instance content even though the mechanism is framework.
-- **Phase 11 routine selection** — which routines LB actually runs, on which schedule,
-  and under which ship-mode. The framework builds the substrate; the entries are LB's.
+- **Phase 11 routine selection** — which native Routines LB actually registers, on which
+  schedule, with which connector/environment allowlist. The framework supplies the skills
+  and runbook; the account-owned registrations are LB's.
+- **Phase 12 integration readiness** — the feedback approval session and the real social
+  account and adapter are LB-owned gates. The framework cannot satisfy them through config
+  defaults.

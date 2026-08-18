@@ -9,11 +9,11 @@ LB's accepted decisions live in `dev_docs/adr/`. Conflicts go to Wilson (see
 
 > **The framework's engineering SSOT is a different document.** Stack, repo topology, the
 > `place.config.ts` schema, the content model, the build pipeline, the page set, the
-> phase 9-11 extension capabilities, framework risk controls, and the negative
+> phase 9-12 extension capabilities, framework risk controls, and the negative
 > requirements (including the genericity and English-only gates) are framework contracts.
 > They live in
 > [`sekai-kb/dev_docs/SPEC.md`](https://github.com/wilsonkichoi/sekai-kb/blob/main/dev_docs/SPEC.md)
-> with ADRs 003-008, beside the code they govern. LB cannot change any of them without a
+> with ADRs 003-013, beside the code they govern. LB cannot change any of them without a
 > framework release, so restating them here would only create a second copy to drift
 > (ADR 008, upstream). Everything below is something LB can change on its own.
 
@@ -125,14 +125,14 @@ fire in the framework roadmap's phases, and LB adopts the result.
 | Design CSS | Extracted and genericized | Six files from the extraction map; non-font tokens remain unchanged. |
 | Component library | Split | Named components in the extraction map survive. Taiwan-wired backends and Taiwan-specific concepts, including spore, supporter, diary, life-tree, perspectives, text-to-speech, reading-path, and old semiont components, are deleted. |
 | Template bodies | Split | Named templates survive. `bench`, companies, elections, Taiwan-shape, opendata, assets/data, old MCP, and old semiont templates are deleted. Soundscape remains a Phase 6 design reference. |
-| Locale wrappers and i18n toolchain | Delete | The translation cascade, babel jobs, language sync, coverage, CJK tokenizer, language profiles, and CJK fixtures do not ship. Multi-language support is rebuilt only after the framework's Phase 11. |
+| Locale wrappers and i18n toolchain | Delete | The translation cascade, babel jobs, language sync, coverage, CJK tokenizer, language profiles, and CJK fixtures do not ship. Multi-language support is rebuilt only after the framework's Phase 12. |
 | `knowledge/` locale subtree | Void | It did not exist in the fork. No content was available to carry. |
 | Harvest orchestrator and Supabase feedback | Delete | Feedback and social return as the Phase 6 Worker/D1 and snippet designs. Zero harvest code survives. |
 | Upstream Taiwan-specific skills | Delete | Taiwan business logic remains readable in the upstream archive only. |
 | Fork instance skills | Split and renamed | `/sekai-write`, `/sekai-validate`, `/sekai-factcheck`, and the router shipped in 5.6; sync/search became documented npm workflows; embeddings returns in 7.2a; semiont boot returns in 8.1; refresh/news-lens/peer/media-audit concepts return as Phase 11 routines; translate waits for the post-project language revisit; migration and old execution-loop skills are deleted. |
 | `SemiontOrganismDiagram.astro` | Design reference only | `SystemDiagram.astro` is the config-driven successor. No i18n wiring, CJK fonts, or hardcoded boundary path carries. |
 | Semiont organ docs | Delete shells, salvage prose selectively | Phase 8 builds the organ layer fresh. MANIFESTO and REFLEXES prose may be salvaged by hand. |
-| Heartbeat and old cron system | Delete implementation | ROUTINE plus `/schedule` returns in Phase 11, one opt-in routine per named need. |
+| Heartbeat and old cron system | Delete implementation | Native Claude Code cloud Routines plus GitHub Actions return in Phase 11; no custom routine registry or `/schedule` skill is carried by the framework. |
 | Data-viz pages and bench | Delete | A future LB data page must be designed fresh against LB data. |
 | Build-time OG | Delete | Static fallback shipped first; Phase 7.1 provides the on-demand worker. |
 | Dashboard suite | Split | Dashboard-lite survives. GA4, Search Console, and Cloudflare fetchers return only in Phase 10. |
@@ -169,7 +169,7 @@ CHANGELOG and read from the target tag at upgrade time.
 
 - **2026-07-29 (LB-62), Wilson-approved ownership split:** the framework's sections —
   stack, repo topology, `place.config.ts`, content model, build pipeline, pages, new
-  builds, phase 9-11 extension capabilities, framework risk controls, and negative
+  builds, phase 9-12 extension capabilities, framework risk controls, and negative
   requirements — moved to `sekai-kb/dev_docs/SPEC.md` with ADRs 003-008, and are pointed at
   rather than restated. What remains is deployment and domain, LB's content, the
   extraction map, the inherited-fork disposition, and the two instance risk controls.
