@@ -271,7 +271,7 @@ jobs:
       # is absent, so no `if [ -f ... ]` guard is needed for an adopter stripped by
       # `npm run init`; the init-check job below proves that on a real stripped tree.
       - name: Rule registry
-        uses: wilsonkichoi/agent-toolkit/.github/actions/check-rules@dev-v0.0.72
+        uses: wilsonkichoi/agent-toolkit/.github/actions/check-rules@dev-v0.0.78
       # Non-vacuity, in place of the retired check-rule-registry.mjs --selftest. The
       # upstream repository-validation job proves the checker's own contract; this
       # proves THIS workflow's wiring of it still fails a deliberately unclassified
@@ -299,7 +299,7 @@ jobs:
         id: rules-selftest
         if: hashFiles('.agent-toolkit/dev.md') != ''
         continue-on-error: true
-        uses: wilsonkichoi/agent-toolkit/.github/actions/check-rules@dev-v0.0.72
+        uses: wilsonkichoi/agent-toolkit/.github/actions/check-rules@dev-v0.0.78
         with:
           path: ${{ runner.temp }}/check-rules-unclassified
       - name: Rule registry self-test verdict
@@ -488,7 +488,7 @@ jobs:
       # from the action's documentation.
       - name: Rule registry on the stripped instance
         id: rules-stripped
-        uses: wilsonkichoi/agent-toolkit/.github/actions/check-rules@dev-v0.0.72
+        uses: wilsonkichoi/agent-toolkit/.github/actions/check-rules@dev-v0.0.78
       - name: Rule registry stripped-instance verdict
         env:
           OUTCOME: ${{ steps.rules-stripped.outcome }}

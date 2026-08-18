@@ -336,8 +336,12 @@ never enter it, `404` is dropped by the integration, and the `public/` assets ar
 routes, so none of those needs a rule. The one configured `filter` withholds the
 always-built feature pages this instance has switched off (`/chat`, `/map`, `/graph`,
 `/soundscape`, `/dashboard`), whose disabled state the Header and Footer already answer
-by omitting the nav link; `src/lib/feature-pages.ts` owns that predicate so the sitemap
-and the nav read one source. `robots.txt` carries the `Sitemap:` directive
+by omitting the nav link. `src/lib/feature-pages.ts` owns the sitemap's copy of that
+decision, and only `/chat` shares a source with the nav (`resolveChat`, whose gate is the
+flag AND a configured endpoint); the Header and Footer read the other four flags inline.
+The guard below compares the sitemap against `feature-pages.ts` alone, so a nav gate that
+grows past a flag read can diverge from the sitemap without failing anything.
+`robots.txt` carries the `Sitemap:` directive
 pointing at that index, built from `place.domain` and never a hardcoded host.
 `postbuild:smoke` (`scripts/core/post-build-check.mjs`) fails the build when either
 `dist/sitemap-index.xml` or `dist/robots.txt` is missing, when the `Sitemap:` host

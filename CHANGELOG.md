@@ -87,6 +87,24 @@ tags, never framework `main`** (ADR 004, SPEC
   can override the origin's and carries no `Sitemap:` line), and submit
   `https://<domain>/sitemap-index.xml` in Search Console once the domain is live.
 
+### Changed
+
+- **The dev-plugin rules-contract action is pinned at `dev-v0.0.78`.** All three
+  `check-rules` references in `.github/workflows/deploy.yml` move from `dev-v0.0.72`
+  to `dev-v0.0.78`, matching the `dev_plugin_release` declared in
+  `.agent-toolkit/dev.md`; `npm run dev-plugin:check` is what holds the two in
+  agreement. This is inert on an adopted instance: `npm run init` strips
+  `.agent-toolkit/`, and the action itself detects that absence and skips with exit
+  0, so the reference changes a line that does nothing there.
+- **A maintainer-doc claim in `dev_docs/SPEC.md` §Pages is corrected.** The sitemap
+  paragraph said `src/lib/feature-pages.ts` made the sitemap and the nav "read one
+  source". That holds only for `/chat`, through `resolveChat`; the Header and Footer
+  read the other four feature flags inline, and the post-build guard compares the
+  sitemap against `feature-pages.ts` alone, so a nav gate that grows past a flag read
+  can diverge from the sitemap without failing anything. The paragraph now says so.
+  No code changed. `dev_docs/**` is stripped at adoption and carries `merge=ours`, so
+  this reaches no instance.
+
 ## [1.1.9] — 2026-08-16
 
 Security guard for pull_request_target checkout, credential-boundary and dark-mode contrast fixes, dead CSS cleanup.
