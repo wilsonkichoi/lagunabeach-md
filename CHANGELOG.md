@@ -43,6 +43,10 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+## [1.1.10] — 2026-08-17
+
+Wires @astrojs/sitemap and a generated robots.txt into every build, guarded by postbuild:smoke, and pins the dev-plugin rules action at dev-v0.0.78.
+
 ### Added
 
 - **The build now emits `sitemap-index.xml` and `robots.txt`.** `@astrojs/sitemap`
@@ -2562,7 +2566,8 @@ onto this tag.
 First release — nothing to upgrade from. The first instance establishes its merge
 base against this tag per `docs/runbook/UPGRADE.md` §Establishing the merge base.
 
-[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.1.9...HEAD
+[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.1.10...HEAD
+[1.1.10]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.10
 [1.1.9]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.9
 [1.1.8]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.8
 [1.1.7]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.7
