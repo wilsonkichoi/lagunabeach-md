@@ -300,8 +300,22 @@ frontmatter. This repository vendors no second copy of that checker. The
 from that declaration. The action step lives in the `test` job of
 `.github/workflows/deploy.yml`, which runs on every pull request and push to
 `main`; `build` needs `test` and `deploy` needs `build`, so a red check blocks
-deployment through the job graph. As checked 2026-07-25, `main` has no branch
-protection, so `test` is not a GitHub required status check. Doctrine rules are not
+deployment through the job graph. As checked 2026-08-18, `test` **is** a required
+status check: the `main` ruleset (repository ruleset id 18610489, `enforcement:
+active`, no bypass actors, last updated 2026-08-16) requires `Genericity +
+English-only gates`, `Test`, `Build`, `Init wizard self-check`, and `Planning
+documents survive a framework tag merge` on the default branch, with
+`required_approving_review_count: 0`. Green checks, not a review, are what unblock a
+merge, and nobody can bypass a red one. A **cancelled** check counts as not passing
+exactly like a failed one, so cancelling a hung job leaves the PR `BLOCKED` until a
+rerun reports green; `gh run rerun <id> --failed` does not queue anything in that
+case, because a cancelled job is not a failed one. Read this state from
+`gh api /repos/wilsonkichoi/lagunabeach-md/rulesets`, never from
+`gh api /repos/.../branches/main/protection`: rulesets are a separate mechanism, and
+that endpoint answers `404 Branch not protected` while the ruleset is enforcing.
+Superseded 2026-08-18: the previous text said "As checked 2026-07-25, `main` has no
+branch protection, so `test` is not a GitHub required status check". That reading
+used the branch-protection endpoint, and the ruleset postdates it. Doctrine rules are not
 indexed here: the resolver inlines every one of them into each dev session, so a
 summary line would restate content already in context. The gotcha table below is a
 human index of what is promoted, because gotchas load only on a trigger match; the
