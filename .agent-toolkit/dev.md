@@ -1,6 +1,6 @@
 ---
 dev_plugin_repository: wilsonkichoi/agent-toolkit
-dev_plugin_release: dev-v0.0.72
+dev_plugin_release: dev-v0.0.78
 tracker: linear
 linear_team: LB
 linear_project: "LB Rebuild"
