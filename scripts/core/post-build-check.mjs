@@ -2,7 +2,9 @@
  * post-build-check.mjs — post-build smoke test.
  *
  * Catches silent build collapse (getStaticPaths returning 0 paths, empty catch
- * swallowing errors, a category hub rendering a placeholder instead of its cards).
+ * swallowing errors, a category hub rendering a placeholder instead of its cards)
+ * and silent absence of the crawl-discovery artifacts (`sitemap-index.xml`,
+ * `robots.txt`), which the framework advertises and no doc gate can derive.
  * Exit code 1 = CI must NOT deploy.
  *
  * Categories flow from place.config.ts (genericity gate). Scaled for any corpus
@@ -56,14 +58,74 @@ if (totalPages < MIN_TOTAL_PAGES) {
 
 // ── 2. Structural surfaces this task and the shell must produce ──
 const REQUIRED = [
-  ['home', 'index.html'],
-  ['explore', 'explore/index.html'],
-  ['latest', 'latest/index.html'],
-  ['ai', 'ai/index.html'],
-  ['404', '404.html'],
+  ['home page', 'index.html'],
+  ['explore page', 'explore/index.html'],
+  ['latest page', 'latest/index.html'],
+  ['ai page', 'ai/index.html'],
+  ['404 page', '404.html'],
+  ['sitemap index', 'sitemap-index.xml'],
+  ['robots.txt', 'robots.txt'],
 ];
 for (const [label, rel] of REQUIRED) {
-  if (!(await exists(join(DIST, rel)))) errors.push(`missing ${label} page (dist/${rel})`);
+  if (!(await exists(join(DIST, rel)))) errors.push(`missing ${label} (dist/${rel})`);
+}
+
+// ── 2a. robots.txt points crawlers at the sitemap this build emitted ──
+// The framework advertises both artifacts (`/about` copy, DEPLOY.md's `place.domain`
+// claim) and they were promised for a long time before they existed. Neither has a
+// prose source a doc gate can derive, so this is their guard: a missing file above, or
+// a `Sitemap:` host that drifted from place.config.ts, blocks the deploy. The host
+// comparison is what makes the "never a hardcoded host" property mechanical — an
+// instance that sets its own `place.domain` gets a robots.txt naming that domain or a
+// red build, not a silently wrong directive pointing at someone else's site.
+//
+// The host comparison is case-insensitive because the two sides normalize differently:
+// `new URL(...).host` lowercases per WHATWG, while the init wizard's `place.domain`
+// validator (`scripts/init/prompt-table.mjs`) accepts mixed case. An adopter who
+// answered `Example.Com` would otherwise fail every build on a message that reads like
+// a real mismatch. The error text still prints `place.domain` as written.
+//
+// The last check derives the `dist/` path from the directive itself rather than from a
+// second `sitemap-index.xml` literal: the entry in REQUIRED above proves the build
+// emitted a sitemap index (DoD 5), and this proves robots.txt points at a file this
+// build actually wrote. A renamed route or a `sitemap({ filenameBase })` that made the
+// two disagree would send every crawler to a 404 while both halves still passed.
+const robotsPath = join(DIST, 'robots.txt');
+if (await exists(robotsPath)) {
+  const robots = await readFile(robotsPath, 'utf-8');
+  const sitemapDirective = robots.match(/^Sitemap:[ \t]*(\S+)[ \t]*$/m);
+  if (!sitemapDirective) {
+    errors.push('dist/robots.txt carries no `Sitemap:` directive');
+  } else {
+    let sitemapUrl = null;
+    try {
+      sitemapUrl = new URL(sitemapDirective[1]);
+    } catch {}
+    let targetIsFile = false;
+    if (sitemapUrl !== null) {
+      try {
+        targetIsFile = (await stat(join(DIST, sitemapUrl.pathname))).isFile();
+      } catch {}
+    }
+    if (sitemapUrl === null) {
+      errors.push(
+        `dist/robots.txt \`Sitemap: ${sitemapDirective[1]}\` is not an absolute URL; ` +
+          'a relative sitemap directive is ignored by crawlers',
+      );
+    } else if (sitemapUrl.host !== placeConfig.place.domain.toLowerCase()) {
+      errors.push(
+        `dist/robots.txt points at sitemap host ${sitemapUrl.host}, ` +
+          `but place.config.ts declares ${placeConfig.place.domain}`,
+      );
+    } else if (!targetIsFile) {
+      errors.push(
+        `dist/robots.txt points at ${sitemapUrl.pathname}, ` +
+          `but this build emitted no file at dist${sitemapUrl.pathname}`,
+      );
+    } else {
+      console.log(`  ✅ robots.txt: Sitemap: directive on ${sitemapUrl.host}${sitemapUrl.pathname}`);
+    }
+  }
 }
 
 // ── 2b. /ai documents exactly the paths this instance serves ──
@@ -86,6 +148,54 @@ if (await exists(aiPage)) {
     );
   }
   console.log(`  ✅ /ai: ${rendered.length} AI consumption path(s) documented`);
+}
+
+// ── 2c. The sitemap advertises exactly the feature pages this instance serves ──
+// The five feature pages always build, so `dist/` cannot tell an enabled page from a
+// disabled one and neither can the sitemap integration: what it sees is a rendered
+// route either way. The Header and Footer already act on the difference by omitting
+// the nav link, and `astro.config.ts`'s `filter` teaches the sitemap the same answer
+// from the same predicate (`src/lib/feature-pages.ts`). This is that filter's guard,
+// and it is both halves, like 2b: a page this instance has switched off must not be
+// submitted to crawlers, AND a page it serves must not be missing. A filter that
+// silently stopped matching, and one that swallowed every page, both block the deploy.
+const { unadvertisedPaths } = await import(resolve(ROOT, 'src/lib/feature-pages.ts'));
+const FEATURE_PAGES = ['/chat/', '/map/', '/graph/', '/soundscape/', '/dashboard/'];
+const withheld = unadvertisedPaths(placeConfig);
+const served = FEATURE_PAGES.filter((path) => !withheld.includes(path));
+
+const sitemapChunks = (await readdir(DIST)).filter((name) => /^sitemap-\d+\.xml$/.test(name));
+const sitemapPaths = [];
+for (const chunk of sitemapChunks) {
+  const xml = await readFile(join(DIST, chunk), 'utf-8');
+  for (const match of xml.matchAll(/<loc>([^<]+)<\/loc>/g)) {
+    try {
+      sitemapPaths.push(new URL(match[1]).pathname);
+    } catch {
+      errors.push(`dist/${chunk} carries a <loc> that is not an absolute URL: ${match[1]}`);
+    }
+  }
+}
+
+const wronglyAdvertised = withheld.filter((path) => sitemapPaths.includes(path));
+if (wronglyAdvertised.length > 0) {
+  errors.push(
+    `the sitemap advertises [${wronglyAdvertised.join(', ')}], which this config has ` +
+      'switched off; those pages render a "not enabled here" state and carry no nav link',
+  );
+}
+const wronglyWithheld = served.filter((path) => !sitemapPaths.includes(path));
+if (wronglyWithheld.length > 0) {
+  errors.push(
+    `the sitemap omits [${wronglyWithheld.join(', ')}], which this config serves; ` +
+      'the filter in astro.config.ts is dropping a live page',
+  );
+}
+if (wronglyAdvertised.length === 0 && wronglyWithheld.length === 0) {
+  console.log(
+    `  ✅ sitemap: ${sitemapPaths.length} URL(s), ${served.length} feature page(s) served, ` +
+      `${withheld.length} withheld`,
+  );
 }
 
 // ── 3. Every configured category has a hub; populated ones render cards ──

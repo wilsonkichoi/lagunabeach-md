@@ -43,6 +43,50 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+### Added
+
+- **The build now emits `sitemap-index.xml` and `robots.txt`.** `@astrojs/sitemap`
+  had been a declared dependency since the rebuild and was never imported —
+  `astro.config.ts` carried no `integrations` key at all — so every instance
+  shipped without a sitemap while the `/about` page copy and
+  `docs/runbook/DEPLOY.md` both told readers it had one. `/sitemap-index.xml`
+  returned 404 on the live instance and link following was the only crawl-discovery
+  path. The integration is now wired, and a new `src/pages/robots.txt.ts` route
+  emits `User-agent: *`, `Allow: /`, and an absolute `Sitemap:` directive built
+  from `place.domain`, so an adopter's file names the adopter's own host with no
+  configuration. Most of the exclusion set needs no rule: the integration collects
+  only `page`-typed routes, so the `feed.xml`, `robots.txt`, and `rss.xml` endpoints
+  never enter the URL set, `404` is dropped by the integration itself, and
+  `llms.txt` plus `/kb/*` are `public/` assets rather than routes.
+- **The sitemap withholds feature pages this instance has switched off.** `/chat`,
+  `/map`, `/graph`, `/soundscape`, and `/dashboard` always build; the flag decides
+  whether each renders its live state or a "not enabled here" state, and the Header
+  and Footer already omit the nav link in the second case. A sitemap is the crawler's
+  version of that nav link, so without a rule an instance with `features.chat` off
+  would submit a page reading "chat is not enabled here" to search engines. The new
+  `src/lib/feature-pages.ts` owns the page-to-flag mapping, `astro.config.ts` passes
+  it to the integration as a `filter`, and `postbuild:smoke` fails the build if the
+  sitemap advertises a switched-off page or omits a served one. `/chat` resolves
+  through `resolveChat()`, so a flag turned on without an endpoint counts as off, and
+  every flag is read absent-safe: a config predating a key withholds that page rather
+  than advertising it.
+- **`postbuild:smoke` fails the build when either artifact is missing.** The
+  regression that shipped this gap was silence, so `scripts/core/post-build-check.mjs`
+  now requires `dist/sitemap-index.xml` and `dist/robots.txt`, and requires the
+  `Sitemap:` directive to be an absolute URL whose host equals `place.domain` and
+  whose path names a file the build actually emitted. Those last checks are what keep
+  the directive mechanical rather than conventional: an instance whose robots.txt
+  pointed at another site's sitemap, or at a sitemap path this build never wrote,
+  would get a red build rather than a quiet wrong answer. The host comparison is
+  case-insensitive, because the init wizard accepts a mixed-case `place.domain` and
+  a URL host is lowercased. `postbuild` is an npm lifecycle of `build`, which the `build`
+  job of `.github/workflows/deploy.yml` runs, so the gate is in CI on every pull
+  request and every push to `main`.
+- **`docs/runbook/DEPLOY.md` gains two operator steps** under the custom-domain
+  section: verify which `robots.txt` the edge serves (a proxying CDN's managed file
+  can override the origin's and carries no `Sitemap:` line), and submit
+  `https://<domain>/sitemap-index.xml` in Search Console once the domain is live.
+
 ## [1.1.9] — 2026-08-16
 
 Security guard for pull_request_target checkout, credential-boundary and dark-mode contrast fixes, dead CSS cleanup.
