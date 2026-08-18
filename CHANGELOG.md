@@ -43,6 +43,10 @@ tags, never framework `main`** (ADR 004, SPEC
 
 ## [Unreleased]
 
+## [1.1.10] — 2026-08-17
+
+Wires @astrojs/sitemap and a generated robots.txt into every build, guarded by postbuild:smoke, and pins the dev-plugin rules action at dev-v0.0.78.
+
 ### Added
 
 - **The build now emits `sitemap-index.xml` and `robots.txt`.** `@astrojs/sitemap`
@@ -86,6 +90,24 @@ tags, never framework `main`** (ADR 004, SPEC
   section: verify which `robots.txt` the edge serves (a proxying CDN's managed file
   can override the origin's and carries no `Sitemap:` line), and submit
   `https://<domain>/sitemap-index.xml` in Search Console once the domain is live.
+
+### Changed
+
+- **The dev-plugin rules-contract action is pinned at `dev-v0.0.78`.** All three
+  `check-rules` references in `.github/workflows/deploy.yml` move from `dev-v0.0.72`
+  to `dev-v0.0.78`, matching the `dev_plugin_release` declared in
+  `.agent-toolkit/dev.md`; `npm run dev-plugin:check` is what holds the two in
+  agreement. This is inert on an adopted instance: `npm run init` strips
+  `.agent-toolkit/`, and the action itself detects that absence and skips with exit
+  0, so the reference changes a line that does nothing there.
+- **A maintainer-doc claim in `dev_docs/SPEC.md` §Pages is corrected.** The sitemap
+  paragraph said `src/lib/feature-pages.ts` made the sitemap and the nav "read one
+  source". That holds only for `/chat`, through `resolveChat`; the Header and Footer
+  read the other four feature flags inline, and the post-build guard compares the
+  sitemap against `feature-pages.ts` alone, so a nav gate that grows past a flag read
+  can diverge from the sitemap without failing anything. The paragraph now says so.
+  No code changed. `dev_docs/**` is stripped at adoption and carries `merge=ours`, so
+  this reaches no instance.
 
 ## [1.1.9] — 2026-08-16
 
@@ -2544,7 +2566,8 @@ onto this tag.
 First release — nothing to upgrade from. The first instance establishes its merge
 base against this tag per `docs/runbook/UPGRADE.md` §Establishing the merge base.
 
-[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.1.9...HEAD
+[Unreleased]: https://github.com/wilsonkichoi/sekai-kb/compare/sekai-kb-v1.1.10...HEAD
+[1.1.10]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.10
 [1.1.9]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.9
 [1.1.8]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.8
 [1.1.7]: https://github.com/wilsonkichoi/sekai-kb/releases/tag/sekai-kb-v1.1.7
