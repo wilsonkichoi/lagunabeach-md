@@ -31,11 +31,11 @@ question depends on whether the question is about **this instance** or about the
   which happened here) and, for each later phase, the instance-owned adoption step LB
   executes. Linear is the SSOT for live task state.
 
-The framework's own PRD, SPEC, ROADMAP, and ADRs 003-008 live in
+The framework's own PRD, SPEC, ROADMAP, and ADRs 003-013 live in
 [`sekai-kb/dev_docs/`](https://github.com/wilsonkichoi/sekai-kb/tree/main/dev_docs) beside the
 code they govern. Read them there for the stack, repo topology, the `place.config.ts`
 schema, the content model, the build pipeline, the page set, the negative requirements
-(including the genericity gates), framework risk controls, and the phase 6-11 task
+(including the genericity gates), framework risk controls, and the phase 6-12 task
 blocks. `dev_docs/adr/README.md` indexes both sides. Nothing is duplicated across the two
 repositories: a statement lives in exactly one of them.
 - **Instance history:** `CHANGELOG.md` — LB work only. Framework release notes stay in
@@ -190,10 +190,11 @@ dormant schema seams — don't build on them.
 
 ## Semiont probe
 
-`semiont/config.json` at the repo root configures the autonomous-organ layer
-(memory, routines — arrives in a later framework release). Skills and scripts that
-look for it must **no-op gracefully when it is absent**. It is absent in this
-release; nothing should require it.
+`semiont/config.json` at the repo root configures the optional identity and memory
+layer (arrives in a later framework release). Operational automation uses native
+Claude Code cloud Routines and GitHub Actions and does not depend on `semiont/`.
+Skills and scripts that look for `semiont/` must **no-op gracefully when it is absent**.
+It is absent in this release; nothing should require it.
 
 ## Content working set
 
