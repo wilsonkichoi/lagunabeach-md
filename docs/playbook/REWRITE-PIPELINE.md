@@ -5,6 +5,10 @@
 > enforces lives in [ARTICLE-PLAYBOOK.md](ARTICLE-PLAYBOOK.md); this document is
 > the process contract the framework's writing skills execute.
 
+Student reporters start with the [Student Reporting Guide](STUDENT-REPORTING-GUIDE.md).
+Its preparation, interviewing, and drafting steps feed Stages 0-3 here.
+The adult editor handles publication checks and keeps the private reporting records.
+
 ---
 
 ## Stage 0: Perspective
@@ -16,9 +20,9 @@ Determine scope before research begins.
    the local memory, cultural context, or geographic connection?
 3. **Existing material** (rewrite only): read the current `knowledge/` file,
    extract what to keep vs. what to rework.
-4. **Editorial load**: read [ARTICLE-PLAYBOOK.md](ARTICLE-PLAYBOOK.md) in full.
-   It defines voice, structure, and the quality bar — especially §2 (five things
-   to find before you write).
+4. **Editorial load**: the editor or writing agent reads [ARTICLE-PLAYBOOK.md](ARTICLE-PLAYBOOK.md) in full.
+   Student reporters use the student guide first, then consult the playbook as needed.
+   Its §2 research prompts help develop the angle; quotes, objects, and scenes are optional.
 
 Output: mental model of what you're writing and why. No file written yet.
 
@@ -28,10 +32,24 @@ Output: mental model of what you're writing and why. No file written yet.
 
 Gather facts. Every claim must be sourceable.
 
-1. Search for relevant information (web, local files, prior knowledge base
-   articles).
-2. Cross-check any numbers, dates, or names against at least two sources.
-3. Note gaps: if a fact can't be verified, flag it rather than guessing.
+1. Gather evidence from relevant records, websites, interviews, and direct observations.
+   Use existing articles to find leads, then check the evidence behind them.
+2. Keep a claim log: claim, source, date, exact location in the record, and verification status.
+   Keep unpublished records privately outside the repository, available to the editor.
+3. Match the evidence to the claim. A person's confirmed name or a current official
+   schedule can use one appropriate primary source. A dated observation supports what
+   happened during that visit, not what always happens.
+4. Attribute opinions and personal recollections to the speaker. An interview proves
+   what was said; factual claims within it still need verification before stating them as fact.
+5. Seek independent corroboration for disputed history, consequential claims, unexpected
+   statistics, and claims such as first, only, largest, or best. Two sites repeating the
+   same press release are one source. Record disagreements and resolve them with the editor.
+6. Recheck changing information, including hours, prices, schedules, and access, near publication.
+   If evidence remains insufficient, narrow the claim, clearly attribute a limited account,
+   or omit it. Attribution alone does not justify publishing an unsupported accusation.
+
+For interview planning, permission, question sets, and worksheets, follow the student guide.
+For citations without public URLs, use [Article Playbook §4.6](ARTICLE-PLAYBOOK.md#original-reporting-without-a-public-url).
 
 **Hard gate — no fabricated facts.** If `knowledge/` has no answer and research
 can't confirm it, write nothing for that claim. A missing fact is a smaller
@@ -58,7 +76,10 @@ Self-audit the draft against Stage 1 sources.
 
 1. Every named date, number, person, or place: verify against research notes.
 2. Any claim without a source: either source it or cut it.
-3. If web sources were used: confirm URLs are reachable.
+3. For web sources, confirm the cited material is accessible and supports the claim.
+   For unpublished sources, have the editor inspect the retained record and public citation.
+4. Verify exact quotes, their context, and permission records. Do not upload private
+   notes or recordings as part of the article or a pull request.
 
 For anything beyond a quick self-audit (post-ship audits, contested claims), run
 the full methodology in [FACTCHECK-PIPELINE.md](FACTCHECK-PIPELINE.md).
@@ -135,4 +156,6 @@ npm run build
 ```
 
 `src/content/` is a derived, gitignored projection of `knowledge/` — never edit
-it directly (the SSOT rule). Commit the `knowledge/` file. Done.
+it directly (the SSOT rule). Review the rendered article, citations, and image credits.
+Commit the article and approved media through the repository's review process.
+Keep the evidence privately so corrections can be checked after publication.
