@@ -1,5 +1,9 @@
 # ARTICLE-PLAYBOOK — How to Turn Research Into an Article With Some Warmth In It
 
+**New to reporting?** Start with the [Student Reporting Guide](STUDENT-REPORTING-GUIDE.md).
+It covers research, interview preparation, field notes, and turning evidence into a draft.
+This playbook defines house style and article format; its technical sections are for the editor preparing publication.
+
 > After reading this, the next time you sit down with raw material about your place you
 > should naturally ask: what's the one thing here a local would tell a friend? What's the
 > concrete object or number a reader will remember? Is every quote and figure traceable to
@@ -15,9 +19,8 @@
 >
 > This document is for what the tool can't catch: **craft, voice, judgment, warmth**.
 
-All examples below come from the demo place that ships with the template, **Marisol
-Cove** — a fictional coastal town. When you adopt the template, your own articles replace
-the demo; the craft rules don't change.
+Examples use fictional places and people, including the template's demo town, **Marisol Cove**.
+They illustrate craft and citation format. Do not publish them as real reporting.
 
 ---
 
@@ -39,9 +42,9 @@ stand in front of it."**
 
 1. **A reason to know this, not just a fact sheet.** Years, addresses, and hours are the
    skeleton. The one fact or angle that makes a reader care is the flesh.
-2. **Every fact is checkable.** A claim with no source behind it is worse than no claim —
-   list `source:` URLs in frontmatter; for a specific number or quote that needs
-   sentence-level attribution, use a footnote.
+2. **Every fact is checkable.** Keep evidence for each claim. List public web sources
+   in `source:`; use footnotes for precise attribution and unpublished interviews or
+   observations (§4.6). Evidence does not need a public URL to be valid.
 3. **Specific, not generic.** "A community-run marine preserve established by a town vote
    in 1979" beats "a beautiful and pristine stretch of coast." If a sentence would be
    equally true of any other town in the region, it doesn't belong in the article.
@@ -64,16 +67,17 @@ depth.
 
 ---
 
-## 2. Five Things to Find Before You Write
+## 2. Five Research Prompts
 
-Sit with the research first. If you can't find these, you don't have an article yet — you
-have a fact sheet.
+Review the research before drafting. These five prompts help you find useful material;
+they are not five mandatory ingredients. A supported angle and enough verified detail
+to explain it are required. Objects, quotes, and scenes are useful when the evidence supplies them.
 
-### 1. The Angle (a small tension, not a thesis)
+### 1. The Angle (the question your article answers)
 
-One sentence. Not "the town has a complicated relationship with development" — that's a
-thesis a planning commission would write. A _tension_ is concrete: this exists, but that's
-also true, and the gap is interesting.
+One sentence explaining what the reader will learn and why it matters locally.
+A tension can help: two facts that seem surprising together. It is not required.
+A clear explanation of a shop's repair process or a team's practice routine is also an angle.
 
 | Found it                                                                                          |
 | -------------------------------------------------------------------------------------------------- |
@@ -81,9 +85,9 @@ also true, and the gap is interesting.
 | Residents voted to protect the reef from trawling rather than profit from it                        |
 | The cafe that opened between two eras of the town's history, and kept the habits of both           |
 
-No angle = the article is still an encyclopedia stub waiting to happen. Either the
-research isn't deep enough yet, or the topic genuinely is a two-sentence Quick Take and
-that's fine.
+Without an angle, narrow the question or gather more evidence. If the material only
+supports two sentences, keep it as a research note or add it to a relevant existing article.
+A standalone Quick Take still follows the length guidance in §1.
 
 ### 2. The Object
 
@@ -118,8 +122,9 @@ prohibited inside the preserve boundary, which runs from the cove mouth south al
 shelf. These details are the difference between a guide written by someone who's been
 there and one assembled from a press kit.
 
-**All five found → write. One missing → go back to the source, don't fabricate it to fill
-the gap.**
+**Draft when you can answer the central question with supported facts.** Do not invent
+a quote, object, scene, or conflict to complete this list. A historical scene needs
+documented actions; a reported scene needs observation notes. Never invent dialogue or sensory details.
 
 ---
 
@@ -314,8 +319,39 @@ The town voted to establish the preserve in 1979[^1].
   charter; documents the 1979 vote and the preserve boundary.
 ```
 
-Footnote definitions carry a description, not just a bare link: link + dash + a
-sentence on what the source is and what it supports (`footnote-format` gates this).
+Web footnotes carry a description, not just a bare link: link + dash + a sentence
+on what the source is and what it supports (`footnote-format` gates this).
+
+#### Original reporting without a public URL
+
+An interview, email, document viewed in person, or direct observation can be a source.
+Keep the underlying record in a private folder outside this repository, accessible to the editor.
+Give each record an ID; retain dates, exact quotes, page numbers or recording timestamps,
+and the agreed permission for attribution. Do not publish private contact details or raw recordings by default.
+
+Use a plain-text footnote under `## References`. Identify the speaker and role, reporter,
+date, interview method, and what it supports. For observations, identify the observer,
+date, place, and limits. The existing footnote check accepts descriptive notes without URLs.
+These fictional examples illustrate the format:
+
+```markdown
+The owner describes repairs as the shop's main work.[^interview]
+Four bicycles awaited collection during the reporter's visit.[^visit]
+
+## References
+
+[^interview]: Rowan Lee, owner, interview by Alex Chen, 2026-09-12, in person. Discusses repair work; record I1 retained privately by the editor.
+[^visit]: Alex Chen, observation at Example Cycle Shop, 2026-09-12. Four bicycles had collection tags during this visit; field notes O1 retained privately by the editor.
+```
+
+Keep `source:` for actual public URLs. Do not insert a private file path, invent a URL,
+or cite a business homepage as evidence for words spoken in an interview.
+Do not set `researchReport` to a private record to satisfy an automated suggestion.
+The editor must check quotes against the original record; a passing linter cannot establish accuracy.
+
+An interview establishes what the speaker said. It does not independently prove every
+claim they made. Attribute recollections and opinions; verify factual claims according to
+[the research stage](REWRITE-PIPELINE.md#stage-1-research).
 
 If no footnotes are used, no `## References` H2 is needed — the frontmatter `source:`
 list already does that job.
@@ -337,9 +373,11 @@ caption, not accessibility alt).
 ### 4.8 Quote Fidelity
 
 Anything inside quotation marks must be a real person's, organization's, or document's
-exact words, and it must be traceable to something in `source:` or a footnote. If you
-found a fact described in a secondary source's own words and want to use the phrasing,
-attribute it as reported speech without quotation marks, or find the primary statement.
+exact words, and it must be traceable to something in `source:` or a footnote.
+For an unpublished interview, use the original-reporting convention in §4.6.
+If you use a secondary source's exact wording, quote and credit that source.
+If you restate the information, use your own words, omit quotation marks, and cite the source.
+Do not present a quotation found elsewhere as an interview you conducted.
 Never invent a "local saying" or a plausible-sounding remark to make a paragraph feel more
 alive — an unverifiable quote is worse than no quote.
 
@@ -527,19 +565,22 @@ Two article-health profiles matter here, and they are different bars:
 # 1. Sync knowledge/ into the build (SSOT rule: edit knowledge/ only)
 npm run sync
 
-# 2. Article health — the mandatory ship gate every article must clear
+# 2. Validate article frontmatter
+npm run test
+
+# 3. Article health — the mandatory ship gate every article must clear
 npm run article-health -- knowledge/{Category}/{slug}.md --profile=ci-deploy
 
-# 2b. Optional: media-complete self-check for a depth article with supplied images
+# 3b. Optional: media-complete self-check for a depth article with supplied images
 npm run article-health -- knowledge/{Category}/{slug}.md --profile=rewrite-stage-4
 
-# 3. Build (includes post-build contract checks)
+# 4. Build (includes post-build contract checks)
 npm run build
 ```
 
 | Result                                   | Action                             |
 | ---------------------------------------- | ---------------------------------- |
-| `ci-deploy` passes + build OK            | ✅ proceed to commit               |
+| `npm run test` + `ci-deploy` + build pass | ✅ proceed to commit               |
 | `ci-deploy` HARD violations              | ❌ fix, rerun                      |
 | build fails                              | ❌ fix frontmatter/syntax, rerun   |
 
@@ -577,6 +618,7 @@ on them yet.
 
 | Task                              | Pointer                                              |
 | --------------------------------- | ----------------------------------------------------- |
+| Research, prepare, interview, and draft | [STUDENT-REPORTING-GUIDE.md](STUDENT-REPORTING-GUIDE.md) |
 | Write/rewrite process, stage by stage | [REWRITE-PIPELINE.md](REWRITE-PIPELINE.md)        |
 | Fact-checking methodology         | [FACTCHECK-PIPELINE.md](FACTCHECK-PIPELINE.md)        |
 | Deploy, CI, and toolchain setup   | [../runbook/DEPLOY.md](../runbook/DEPLOY.md)          |
